@@ -87,8 +87,8 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$30$" },
-              { id: "b", text: "$80$" },
+              { id: "a", text: "$80$" },
+              { id: "b", text: "$30$" },
               { id: "c", text: "$50$" },
               { id: "d", text: "$0$" },
             ],
@@ -386,12 +386,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$y=A$" },
-              { id: "b", text: "$y=B$" },
-              { id: "c", text: "$y=0$" },
-              { id: "d", text: "$y=A+B$" },
+              { id: "a", text: "$y=B$" },
+              { id: "b", text: "$y=A$" },
+              { id: "c", text: "$y=A+B$" },
+              { id: "d", text: "$y=0$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -430,12 +430,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$L$" },
-              { id: "b", text: "$C$" },
-              { id: "c", text: "$k$" },
-              { id: "d", text: "$\\dfrac{L}{1+C}$" },
+              { id: "a", text: "$C$" },
+              { id: "b", text: "$L$" },
+              { id: "c", text: "$\\dfrac{L}{1+C}$" },
+              { id: "d", text: "$k$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -476,12 +476,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$100$" },
-              { id: "b", text: "$500$" },
-              { id: "c", text: "$125$" },
+              { id: "a", text: "$500$" },
+              { id: "b", text: "$125$" },
+              { id: "c", text: "$100$" },
               { id: "d", text: "$20$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -520,12 +520,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$P=\\frac{L}{2}$" },
+              { id: "a", text: "$P=\\frac{L}{4}$" },
               { id: "b", text: "$P=L$" },
               { id: "c", text: "$P=0$" },
-              { id: "d", text: "$P=\\frac{L}{4}$" },
+              { id: "d", text: "$P=\\frac{L}{2}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -729,12 +729,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$T$ approaches $A$ from above." },
-              { id: "b", text: "$T$ approaches $A$ from below." },
-              { id: "c", text: "$T$ grows without bound." },
-              { id: "d", text: "$T$ approaches $B$." },
+              { id: "a", text: "$T$ grows without bound." },
+              { id: "b", text: "$T$ approaches $A$ from above." },
+              { id: "c", text: "$T$ approaches $B$." },
+              { id: "d", text: "$T$ approaches $A$ from below." },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1118,8 +1118,8 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$y=ka^x$" },
-              { id: "b", text: "$y=ax^b$" },
+              { id: "a", text: "$y=ax^b$" },
+              { id: "b", text: "$y=ka^x$" },
               { id: "c", text: "$P(t)=\\dfrac{L}{1+Ce^{-kt}}$" },
               { id: "d", text: "$y=A+Be^{-kt}$" },
             ],
@@ -1201,12 +1201,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$2.5$ m" },
-              { id: "b", text: "$4$ m" },
-              { id: "c", text: "$6.5$ m" },
-              { id: "d", text: "$1.5$ m" },
+              { id: "a", text: "$6.5$ m" },
+              { id: "b", text: "$2.5$ m" },
+              { id: "c", text: "$1.5$ m" },
+              { id: "d", text: "$4$ m" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1512,9 +1512,9 @@ export const lesson22: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$\\frac{2\\pi}{b}$" },
-              { id: "b", text: "$2\\pi b$" },
+              { id: "b", text: "$\\frac{b}{2\\pi}$" },
               { id: "c", text: "$\\frac{\\pi}{b}$" },
-              { id: "d", text: "$\\frac{b}{2\\pi}$" },
+              { id: "d", text: "$2\\pi b$" },
             ],
             correctChoiceId: "a",
           },
@@ -1558,11 +1558,11 @@ export const lesson22: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$3$" },
-              { id: "b", text: "$4$" },
-              { id: "c", text: "$2$" },
+              { id: "b", text: "$2$" },
+              { id: "c", text: "$4$" },
               { id: "d", text: "$-2$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1601,12 +1601,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$y=6$" },
-              { id: "b", text: "$y=2.4$" },
-              { id: "c", text: "$y=8.4$" },
+              { id: "a", text: "$y=2.4$" },
+              { id: "b", text: "$y=8.4$" },
+              { id: "c", text: "$y=6$" },
               { id: "d", text: "$y=3.6$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1647,12 +1647,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$C(t)\\to\\infty$" },
-              { id: "b", text: "$C(t)\\to0$" },
-              { id: "c", text: "$C(t)\\to20$" },
-              { id: "d", text: "$C(t)\\to4$" },
+              { id: "a", text: "$C(t)\\to20$" },
+              { id: "b", text: "$C(t)\\to4$" },
+              { id: "c", text: "$C(t)\\to0$" },
+              { id: "d", text: "$C(t)\\to\\infty$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1692,12 +1692,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$3$" },
-              { id: "b", text: "$5$" },
-              { id: "c", text: "undefined" },
-              { id: "d", text: "$2$" },
+              { id: "a", text: "$2$" },
+              { id: "b", text: "undefined" },
+              { id: "c", text: "$3$" },
+              { id: "d", text: "$5$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1738,12 +1738,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$y=4\\sin(2t)$" },
-              { id: "b", text: "$y=2\\sin(4t)$" },
-              { id: "c", text: "$y=4\\sin\\left(\\frac{t}{2}\\right)$" },
-              { id: "d", text: "$y=\\sin(4t)+4$" },
+              { id: "a", text: "$y=2\\sin(4t)$" },
+              { id: "b", text: "$y=4\\sin\\left(\\frac{t}{2}\\right)$" },
+              { id: "c", text: "$y=\\sin(4t)+4$" },
+              { id: "d", text: "$y=4\\sin(2t)$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

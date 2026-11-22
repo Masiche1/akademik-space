@@ -48,12 +48,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$x^4-3x^2+C$" },
-              { id: "b", text: "$12x^2-6+C$" },
-              { id: "c", text: "$x^4-6x^2+C$" },
+              { id: "a", text: "$x^4-6x^2+C$" },
+              { id: "b", text: "$x^4-3x^2+C$" },
+              { id: "c", text: "$12x^2-6+C$" },
               { id: "d", text: "$x^4-3x^2$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -168,9 +168,9 @@ export const lesson61: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$\\dfrac{x^6}{3}-\\dfrac{8x^3}{3}+3x+C$" },
-              { id: "b", text: "$2x^6-8x^3+3x+C$" },
+              { id: "b", text: "$\\dfrac{x^6}{3}-8x^3+3x+C$" },
               { id: "c", text: "$\\dfrac{x^6}{3}-\\dfrac{8x^3}{3}+3x$" },
-              { id: "d", text: "$\\dfrac{x^6}{3}-8x^3+3x+C$" },
+              { id: "d", text: "$2x^6-8x^3+3x+C$" },
             ],
             correctChoiceId: "a",
           },
@@ -195,12 +195,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\dfrac{2}{x^2}+x^2+C$" },
-              { id: "b", text: "$-\\dfrac{2}{x^2}+x^2+C$" },
-              { id: "c", text: "$-\\dfrac{2}{x^2}+2x^2+C$" },
-              { id: "d", text: "$-\\dfrac{2}{x^2}+x^2$" },
+              { id: "a", text: "$-\\dfrac{2}{x^2}+x^2$" },
+              { id: "b", text: "$-\\dfrac{2}{x^2}+2x^2+C$" },
+              { id: "c", text: "$\\dfrac{2}{x^2}+x^2+C$" },
+              { id: "d", text: "$-\\dfrac{2}{x^2}+x^2+C$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -223,12 +223,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$2\\sqrt{x}+C$" },
-              { id: "b", text: "$\\frac{1}{2}\\sqrt{x}+C$" },
+              { id: "a", text: "$\\frac{1}{2}\\sqrt{x}+C$" },
+              { id: "b", text: "$-\\frac{2}{\\sqrt{x}}+C$" },
               { id: "c", text: "$\\frac{2}{3}x^{3/2}+C$" },
-              { id: "d", text: "$-\\frac{2}{\\sqrt{x}}+C$" },
+              { id: "d", text: "$2\\sqrt{x}+C$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -251,12 +251,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$15$" },
-              { id: "b", text: "$31$" },
+              { id: "a", text: "$31$" },
+              { id: "b", text: "$15$" },
               { id: "c", text: "$33$" },
               { id: "d", text: "$-1$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -281,11 +281,11 @@ export const lesson61: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$0$" },
-              { id: "b", text: "$1$" },
+              { id: "b", text: "$10$" },
               { id: "c", text: "$-2$" },
-              { id: "d", text: "$10$" },
+              { id: "d", text: "$1$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -309,8 +309,8 @@ export const lesson61: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$5x-x^4+C$" },
-              { id: "b", text: "$5x-x^4$" },
-              { id: "c", text: "$-5x-x^4+C$" },
+              { id: "b", text: "$-5x-x^4+C$" },
+              { id: "c", text: "$5x-x^4$" },
               { id: "d", text: "$5-x^4+C$" },
             ],
             correctChoiceId: "a",
@@ -532,8 +532,8 @@ export const lesson61: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$\\dfrac13e^{3x}+C$" },
-              { id: "b", text: "$3e^{3x}+C$" },
-              { id: "c", text: "$e^{3x}+C$" },
+              { id: "b", text: "$e^{3x}+C$" },
+              { id: "c", text: "$3e^{3x}+C$" },
               { id: "d", text: "$\\dfrac{e^{3x+1}}{3x+1}+C$" },
             ],
             correctChoiceId: "a",
@@ -644,12 +644,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$-\\dfrac{1}{3}\\cos(3x)+C$" },
+              { id: "a", text: "$-3\\cos(3x)+C$" },
               { id: "b", text: "$\\cos(3x)+C$" },
-              { id: "c", text: "$-3\\cos(3x)+C$" },
+              { id: "c", text: "$-\\dfrac{1}{3}\\cos(3x)+C$" },
               { id: "d", text: "$\\dfrac{1}{3}\\sin(3x)+C$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -673,11 +673,11 @@ export const lesson61: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$e^{2x}+C$" },
-              { id: "b", text: "$8e^{2x}+C$" },
-              { id: "c", text: "$2e^{2x}+C$" },
+              { id: "b", text: "$2e^{2x}+C$" },
+              { id: "c", text: "$8e^{2x}+C$" },
               { id: "d", text: "$2e^{2x}$" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -700,12 +700,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\dfrac{2}{5}\\ln|2x+1|+C$" },
-              { id: "b", text: "$5\\ln|2x+1|+C$" },
-              { id: "c", text: "$\\dfrac{5}{2}\\ln|2x+1|+C$" },
-              { id: "d", text: "$\\dfrac{5}{2}\\ln|x+1|+C$" },
+              { id: "a", text: "$\\dfrac{5}{2}\\ln|2x+1|+C$" },
+              { id: "b", text: "$\\dfrac{2}{5}\\ln|2x+1|+C$" },
+              { id: "c", text: "$\\dfrac{5}{2}\\ln|x+1|+C$" },
+              { id: "d", text: "$5\\ln|2x+1|+C$" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -728,12 +728,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\dfrac{1}{3}\\sin\\left(\\dfrac{x}{3}\\right)+C$" },
-              { id: "b", text: "$3\\sin\\left(\\dfrac{x}{3}\\right)+C$" },
-              { id: "c", text: "$3\\cos\\left(\\dfrac{x}{3}\\right)+C$" },
-              { id: "d", text: "$-3\\sin\\left(\\dfrac{x}{3}\\right)+C$" },
+              { id: "a", text: "$3\\sin\\left(\\dfrac{x}{3}\\right)+C$" },
+              { id: "b", text: "$-3\\sin\\left(\\dfrac{x}{3}\\right)+C$" },
+              { id: "c", text: "$\\dfrac{1}{3}\\sin\\left(\\dfrac{x}{3}\\right)+C$" },
+              { id: "d", text: "$3\\cos\\left(\\dfrac{x}{3}\\right)+C$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -756,12 +756,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$e^{x^{3}}+C$" },
-              { id: "b", text: "$6e^{x^{3}}+C$" },
-              { id: "c", text: "$2e^{x^{3}}+C$" },
-              { id: "d", text: "$2e^{3x}+C$" },
+              { id: "a", text: "$2e^{x^{3}}+C$" },
+              { id: "b", text: "$e^{x^{3}}+C$" },
+              { id: "c", text: "$2e^{3x}+C$" },
+              { id: "d", text: "$6e^{x^{3}}+C$" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -784,12 +784,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$2\\cos x+3\\ln|x|+C$" },
-              { id: "b", text: "$-2\\cos x-3\\ln|x|+C$" },
-              { id: "c", text: "$-2\\cos x+3\\ln|x|+C$" },
-              { id: "d", text: "$-2\\cos x+\\ln|x|+C$" },
+              { id: "a", text: "$-2\\cos x-3\\ln|x|+C$" },
+              { id: "b", text: "$-2\\cos x+\\ln|x|+C$" },
+              { id: "c", text: "$2\\cos x+3\\ln|x|+C$" },
+              { id: "d", text: "$-2\\cos x+3\\ln|x|+C$" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [

@@ -92,12 +92,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "CH$_3$CH(OH)CH$_2$CH$_3$ (butan-2-ol)" },
-              { id: "b", text: "CH$_3$CH$_2$CH$_2$CH$_3$ (butane)" },
-              { id: "c", text: "CH$_3$CH$_2$OH (ethanol)" },
-              { id: "d", text: "CCl$_4$ (tetrachloromethane)" },
+              { id: "a", text: "CH$_3$CH$_2$CH$_2$CH$_3$ (butane)" },
+              { id: "b", text: "CH$_3$CH(OH)CH$_2$CH$_3$ (butan-2-ol)" },
+              { id: "c", text: "CCl$_4$ (tetrachloromethane)" },
+              { id: "d", text: "CH$_3$CH$_2$OH (ethanol)" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -327,9 +327,9 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A single compound" },
+              { id: "a", text: "Four stereoisomers" },
               { id: "b", text: "Two enantiomers" },
-              { id: "c", text: "Four stereoisomers" },
+              { id: "c", text: "A single compound" },
               { id: "d", text: "No stereoisomers" },
             ],
             correctChoiceId: "b",
@@ -367,10 +367,10 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A racemic mixture of butan-2-ol" },
+              { id: "a", text: "A meso form of tartaric acid" },
               { id: "b", text: "Pure (S)-butan-2-ol" },
-              { id: "c", text: "Butane" },
-              { id: "d", text: "A meso form of tartaric acid" },
+              { id: "c", text: "A racemic mixture of butan-2-ol" },
+              { id: "d", text: "Butane" },
             ],
             correctChoiceId: "b",
           },
@@ -412,9 +412,9 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Away from the viewer" },
+              { id: "a", text: "In the plane of the paper" },
               { id: "b", text: "Toward the viewer" },
-              { id: "c", text: "In the plane of the paper" },
+              { id: "c", text: "Away from the viewer" },
               { id: "d", text: "Behind the plane of the paper" },
             ],
             correctChoiceId: "b",
@@ -452,10 +452,10 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "2" },
+              { id: "a", text: "8" },
               { id: "b", text: "3" },
               { id: "c", text: "4" },
-              { id: "d", text: "8" },
+              { id: "d", text: "2" },
             ],
             correctChoiceId: "c",
           },
@@ -494,8 +494,8 @@ export const lesson62: Lesson = {
             choices: [
               { id: "a", text: "(2R,3R)-butane-2,3-diol" },
               { id: "b", text: "(2R,3S)-butane-2,3-diol" },
-              { id: "c", text: "(R)-lactic acid" },
-              { id: "d", text: "(S)-alanine" },
+              { id: "c", text: "(S)-alanine" },
+              { id: "d", text: "(R)-lactic acid" },
             ],
             correctChoiceId: "b",
           },
@@ -539,8 +539,8 @@ export const lesson62: Lesson = {
             choices: [
               { id: "a", text: "2" },
               { id: "b", text: "3" },
-              { id: "c", text: "4" },
-              { id: "d", text: "8" },
+              { id: "c", text: "8" },
+              { id: "d", text: "4" },
             ],
             correctChoiceId: "b",
           },
@@ -874,12 +874,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "CH$_3$CH=CHCH$_3$ (but-2-ene)" },
-              { id: "b", text: "CH$_2$=CHCH$_3$ (propene)" },
+              { id: "a", text: "CH$_3$CH$_2$CH=CH$_2$ (but-1-ene)" },
+              { id: "b", text: "CH$_3$CH=CHCH$_3$ (but-2-ene)" },
               { id: "c", text: "CH$_2$=CH$_2$ (ethene)" },
-              { id: "d", text: "CH$_3$CH$_2$CH=CH$_2$ (but-1-ene)" },
+              { id: "d", text: "CH$_2$=CHCH$_3$ (propene)" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1113,11 +1113,11 @@ export const lesson62: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "The same side" },
-              { id: "b", text: "Opposite sides" },
-              { id: "c", text: "Adjacent carbons" },
-              { id: "d", text: "Either side randomly" },
+              { id: "b", text: "Either side randomly" },
+              { id: "c", text: "Opposite sides" },
+              { id: "d", text: "Adjacent carbons" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1152,12 +1152,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Propene, CH$_2$=CHCH$_3$" },
-              { id: "b", text: "Pent-2-ene, CH$_3$CH=CHCH$_2$CH$_3$" },
-              { id: "c", text: "Ethene, CH$_2$=CH$_2$" },
-              { id: "d", text: "2-methylpropene, (CH$_3$)$_2$C=CH$_2$" },
+              { id: "a", text: "2-methylpropene, (CH$_3$)$_2$C=CH$_2$" },
+              { id: "b", text: "Propene, CH$_2$=CHCH$_3$" },
+              { id: "c", text: "Pent-2-ene, CH$_3$CH=CHCH$_2$CH$_3$" },
+              { id: "d", text: "Ethene, CH$_2$=CH$_2$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1196,12 +1196,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Opposite" },
-              { id: "b", text: "Together" },
-              { id: "c", text: "High priority" },
-              { id: "d", text: "Low priority" },
+              { id: "a", text: "Together" },
+              { id: "b", text: "Opposite" },
+              { id: "c", text: "Low priority" },
+              { id: "d", text: "High priority" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -1234,12 +1234,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "–Cl" },
-              { id: "b", text: "–Br" },
-              { id: "c", text: "They have equal priority" },
+              { id: "a", text: "–Br" },
+              { id: "b", text: "They have equal priority" },
+              { id: "c", text: "–Cl" },
               { id: "d", text: "It depends on the other substituents" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -1274,12 +1274,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Cl" },
-              { id: "b", text: "Br" },
+              { id: "a", text: "H" },
+              { id: "b", text: "Cl" },
               { id: "c", text: "CH$_3$" },
-              { id: "d", text: "H" },
+              { id: "d", text: "Br" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1319,12 +1319,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Z (cis)" },
-              { id: "b", text: "E (trans)" },
+              { id: "a", text: "E (trans)" },
+              { id: "b", text: "Chiral" },
               { id: "c", text: "Meso" },
-              { id: "d", text: "Chiral" },
+              { id: "d", text: "Z (cis)" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

@@ -39,11 +39,11 @@ export const lesson11: Lesson = {
           id: "va-u1-drawing-marks-q1", difficulty: "foundation", totalMarks: 2,
           stem: "Which drawing mark is most effective for suggesting rapid movement or energy?",
           response: { type: "mcq", choices: [
-            { id: "a", text: "Controlling, even contour lines" },
-            { id: "b", text: "Loose, gestural lines with varied pressure" },
-            { id: "c", text: "Dense cross-hatching in one small area" },
-            { id: "d", text: "Careful stippling of single dots" },
-          ], correctChoiceId: "b" },
+            { id: "a", text: "Loose, gestural lines with varied pressure" },
+            { id: "b", text: "Dense cross-hatching in one small area" },
+            { id: "c", text: "Careful stippling of single dots" },
+            { id: "d", text: "Controlling, even contour lines" },
+          ], correctChoiceId: "a" },
           markscheme: {
             principles: [{ kind: "technique", name: "Gesture mark", statement: "Loose gestural lines record movement and energy in a drawing." }],
             steps: [
@@ -112,11 +112,11 @@ export const lesson11: Lesson = {
           id: "va-u1-drawing-marks-q5", difficulty: "foundation", totalMarks: 2,
           stem: "Which drawing material forces the artist to commit, because marks cannot be erased or lightened?",
           response: { type: "mcq", choices: [
-            { id: "a", text: "Graphite pencil" },
-            { id: "b", text: "Ink pen" },
-            { id: "c", text: "Soft charcoal" },
+            { id: "a", text: "Ink pen" },
+            { id: "b", text: "Soft charcoal" },
+            { id: "c", text: "Graphite pencil" },
             { id: "d", text: "Wax crayon" },
-          ], correctChoiceId: "b" },
+          ], correctChoiceId: "a" },
           markscheme: {
             principles: [{ kind: "technique", name: "Committed marks", statement: "Ink cannot be erased, so each mark is decisive." }],
             steps: [
@@ -131,11 +131,11 @@ export const lesson11: Lesson = {
           id: "va-u1-drawing-marks-q6", difficulty: "foundation", totalMarks: 2,
           stem: "Stippling — placing many small dots — is most effective for suggesting which texture?",
           response: { type: "mcq", choices: [
-            { id: "a", text: "Polished glass" },
-            { id: "b", text: "Porous stone or rough fabric" },
+            { id: "a", text: "Smooth metal" },
+            { id: "b", text: "Polished glass" },
             { id: "c", text: "Flowing water" },
-            { id: "d", text: "Smooth metal" },
-          ], correctChoiceId: "b" },
+            { id: "d", text: "Porous stone or rough fabric" },
+          ], correctChoiceId: "d" },
           markscheme: {
             principles: [{ kind: "technique", name: "Stippling", statement: "Dots of varied density describe granular, porous textures." }],
             steps: [
@@ -150,11 +150,11 @@ export const lesson11: Lesson = {
           id: "va-u1-drawing-marks-q7", difficulty: "core", totalMarks: 2,
           stem: "Contour drawing primarily records:",
           response: { type: "mcq", choices: [
-            { id: "a", text: "Light and shadow on a surface" },
-            { id: "b", text: "The outer edges and shape of a form" },
-            { id: "c", text: "Colour relationships within a scene" },
-            { id: "d", text: "Surface patterns and decoration" },
-          ], correctChoiceId: "b" },
+            { id: "a", text: "Colour relationships within a scene" },
+            { id: "b", text: "Light and shadow on a surface" },
+            { id: "c", text: "Surface patterns and decoration" },
+            { id: "d", text: "The outer edges and shape of a form" },
+          ], correctChoiceId: "d" },
           markscheme: {
             principles: [{ kind: "definition", name: "Contour drawing", statement: "Lines following the edges of a form to describe its shape." }],
             steps: [
@@ -169,11 +169,11 @@ export const lesson11: Lesson = {
           id: "va-u1-drawing-marks-q8", difficulty: "core", totalMarks: 2,
           stem: "A soft, smoothly blended tonal area in a drawing is most likely achieved with:",
           response: { type: "mcq", choices: [
-            { id: "a", text: "Fine, precise ink lines" },
-            { id: "b", text: "Dense cross-hatching only" },
-            { id: "c", text: "Charcoal rubbed or smudged across the surface" },
-            { id: "d", text: "Isolated stippled dots" },
-          ], correctChoiceId: "c" },
+            { id: "a", text: "Charcoal rubbed or smudged across the surface" },
+            { id: "b", text: "Isolated stippled dots" },
+            { id: "c", text: "Fine, precise ink lines" },
+            { id: "d", text: "Dense cross-hatching only" },
+          ], aorrectChoiceId: "c" },
           markscheme: {
             principles: [{ kind: "technique", name: "Blended tone", statement: "Charcoal smudging produces soft, continuous tonal transitions." }],
             steps: [
@@ -188,10 +188,10 @@ export const lesson11: Lesson = {
           id: "va-u1-drawing-marks-q9", difficulty: "challenge", totalMarks: 2,
           stem: "An artist repeats the same gestural scribble across a large canvas. The repetition most likely aims to:",
           response: { type: "mcq", choices: [
-            { id: "a", text: "Conceal weak drawing skills" },
+            { id: "a", text: "Imitate a mechanical print" },
             { id: "b", text: "Create rhythm and reinforce a mood" },
             { id: "c", text: "Save time and effort" },
-            { id: "d", text: "Imitate a mechanical print" },
+            { id: "d", text: "Conceal weak drawing skills" },
           ], correctChoiceId: "b" },
           markscheme: {
             principles: [{ kind: "principle", name: "Mark repetition", statement: "Repeating marks builds rhythm, unity and emotional intensity." }],
@@ -207,11 +207,11 @@ export const lesson11: Lesson = {
           id: "va-u1-drawing-marks-q10", difficulty: "core", totalMarks: 2,
           stem: "Which pair of marks would best describe soft fabric versus rough tree bark?",
           response: { type: "mcq", choices: [
-            { id: "a", text: "Contour lines for both" },
-            { id: "b", text: "Stippling for the fabric, jagged hatching for the bark" },
-            { id: "c", text: "Gesture lines for the fabric, contour lines for the bark" },
+            { id: "a", text: "Gesture lines for the fabric, contour lines for the bark" },
+            { id: "b", text: "Contour lines for both" },
+            { id: "c", text: "Stippling for the fabric, jagged hatching for the bark" },
             { id: "d", text: "Heavy smudging for both" },
-          ], correctChoiceId: "b" },
+          ], correctChoiceId: "c" },
           markscheme: {
             principles: [{ kind: "technique", name: "Mark-texture match", statement: "Marks should be chosen to match the texture they describe." }],
             steps: [
@@ -358,8 +358,8 @@ export const lesson11: Lesson = {
           response: { type: "mcq", choices: [
             { id: "a", text: "Speed of execution" },
             { id: "b", text: "Eye-hand coordination and observation" },
-            { id: "c", text: "Knowledge of perspective" },
-            { id: "d", text: "Colour mixing skills" },
+            { id: "c", text: "Colour mixing skills" },
+            { id: "d", text: "Knowledge of perspective" },
           ], correctChoiceId: "b" },
           markscheme: {
             principles: [{ kind: "technique", name: "Blind contour", statement: "Drawing without looking at the page trains the eye to follow the subject." }],
@@ -429,11 +429,11 @@ export const lesson11: Lesson = {
           id: "va-u1-observational-drawing-q5", difficulty: "foundation", totalMarks: 2,
           stem: "Holding a pencil at arm's length to compare parts of a subject is used to check:",
           response: { type: "mcq", choices: [
-            { id: "a", text: "The sharpness of the pencil point" },
-            { id: "b", text: "The proportions of the subject" },
+            { id: "a", text: "The proportions of the subject" },
+            { id: "b", text: "The sharpness of the pencil point" },
             { id: "c", text: "The colour temperature of light" },
             { id: "d", text: "The weight of the drawing paper" },
-          ], correctChoiceId: "b" },
+          ], correctChoiceId: "a" },
           markscheme: {
             principles: [{ kind: "technique", name: "Arm's-length measurement", statement: "Comparing lengths at arm's length checks proportions against the real subject." }],
             steps: [
@@ -448,11 +448,11 @@ export const lesson11: Lesson = {
           id: "va-u1-observational-drawing-q6", difficulty: "foundation", totalMarks: 2,
           stem: "Checking the negative space around an object in a drawing helps the artist to:",
           response: { type: "mcq", choices: [
-            { id: "a", text: "Add decorative borders" },
-            { id: "b", text: "Confirm proportion and placement" },
-            { id: "c", text: "Choose a colour palette" },
-            { id: "d", text: "Speed up the drawing process" },
-          ], correctChoiceId: "b" },
+            { id: "a", text: "Speed up the drawing process" },
+            { id: "b", text: "Add decorative borders" },
+            { id: "c", text: "Confirm proportion and placement" },
+            { id: "d", text: "Choose a colour palette" },
+          ], correctChoiceId: "c" },
           markscheme: {
             principles: [{ kind: "technique", name: "Negative-space check", statement: "The shapes around an object reveal proportion and placement errors." }],
             steps: [
@@ -467,11 +467,11 @@ export const lesson11: Lesson = {
           id: "va-u1-observational-drawing-q7", difficulty: "core", totalMarks: 2,
           stem: "A gesture drawing is most useful for capturing:",
           response: { type: "mcq", choices: [
-            { id: "a", text: "Fine surface detail" },
-            { id: "b", text: "Movement and energy quickly" },
-            { id: "c", text: "Accurate colour values" },
-            { id: "d", text: "Symmetrical composition" },
-          ], correctChoiceId: "b" },
+            { id: "a", text: "Movement and energy quickly" },
+            { id: "b", text: "Accurate colour values" },
+            { id: "c", text: "Symmetrical composition" },
+            { id: "d", text: "Fine surface detail" },
+          ], correctChoiceId: "a" },
           markscheme: {
             principles: [{ kind: "technique", name: "Gesture drawing", statement: "Rapid drawings record movement and energy rather than detail." }],
             steps: [
@@ -486,10 +486,10 @@ export const lesson11: Lesson = {
           id: "va-u1-observational-drawing-q8", difficulty: "core", totalMarks: 2,
           stem: "Breaking a complex form into simple shapes before drawing detail primarily helps to:",
           response: { type: "mcq", choices: [
-            { id: "a", text: "Make the drawing look childish" },
+            { id: "a", text: "Avoid using tonal marks" },
             { id: "b", text: "Establish accurate structure and proportion first" },
-            { id: "c", text: "Avoid using tonal marks" },
-            { id: "d", text: "Speed up the sketching process only" },
+            { id: "c", text: "Speed up the sketching process only" },
+            { id: "d", text: "Make the drawing look childish" },
           ], correctChoiceId: "b" },
           markscheme: {
             principles: [{ kind: "technique", name: "Shape construction", statement: "Simple underlying shapes establish structure before detail." }],
@@ -506,10 +506,10 @@ export const lesson11: Lesson = {
           stem: "A student keeps drawing a remembered symbol of an eye instead of the eye they see. The most effective correction is to:",
           response: { type: "mcq", choices: [
             { id: "a", text: "Add more detail to the symbolic eye" },
-            { id: "b", text: "Draw blind contour, looking only at the subject" },
-            { id: "c", text: "Trace a photograph of an eye" },
-            { id: "d", text: "Work from memory more slowly" },
-          ], correctChoiceId: "b" },
+            { id: "b", text: "Work from memory more slowly" },
+            { id: "c", text: "Draw blind contour, looking only at the subject" },
+            { id: "d", text: "Trace a photograph of an eye" },
+          ], correctChoiceId: "c" },
           markscheme: {
             principles: [{ kind: "technique", name: "Seeing versus recognising", statement: "Blind contour drawing forces attention on the subject rather than the mental symbol." }],
             steps: [
@@ -524,11 +524,11 @@ export const lesson11: Lesson = {
           id: "va-u1-observational-drawing-q10", difficulty: "core", totalMarks: 2,
           stem: "Deliberately exaggerating a proportion in an observational drawing is best described as:",
           response: { type: "mcq", choices: [
-            { id: "a", text: "An unavoidable error" },
-            { id: "b", text: "Expressive distortion, valid once the real proportions are known" },
+            { id: "a", text: "Expressive distortion, valid once the real proportions are known" },
+            { id: "b", text: "An unavoidable error" },
             { id: "c", text: "A failure of observational skill" },
             { id: "d", text: "Only appropriate in abstract work" },
-          ], correctChoiceId: "b" },
+          ], correctChoiceId: "a" },
           markscheme: {
             principles: [{ kind: "principle", name: "Deliberate distortion", statement: "Breaking rules knowingly is expressive; breaking them unknowingly is error." }],
             steps: [

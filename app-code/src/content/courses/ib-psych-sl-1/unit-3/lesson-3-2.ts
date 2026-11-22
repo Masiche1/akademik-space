@@ -54,11 +54,11 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Attention" },
-              { id: "b", text: "Reproduction" },
-              { id: "c", text: "Retention" },
+              { id: "b", text: "Retention" },
+              { id: "c", text: "Reproduction" },
               { id: "d", text: "Motivation" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -153,11 +153,11 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Motivation" },
-              { id: "b", text: "Reproduction" },
-              { id: "c", text: "Retention" },
-              { id: "d", text: "Vicarious reinforcement" },
+              { id: "b", text: "Retention" },
+              { id: "c", text: "Vicarious reinforcement" },
+              { id: "d", text: "Reproduction" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -181,11 +181,11 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Being directly rewarded for one's own behaviour" },
-              { id: "b", text: "Learning from the consequences experienced by a model" },
-              { id: "c", text: "Reinforcing one's own behaviour privately" },
+              { id: "b", text: "Reinforcing one's own behaviour privately" },
+              { id: "c", text: "Learning from the consequences experienced by a model" },
               { id: "d", text: "Forgetting a modelled behaviour over time" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -210,10 +210,10 @@ export const lesson32: Lesson = {
             choices: [
               { id: "a", text: "Being physically distant from the observer" },
               { id: "b", text: "Being unlike the observer in every way" },
-              { id: "c", text: "Being prestigious, attractive or similar to the observer" },
-              { id: "d", text: "Being punished for the modelled behaviour" },
+              { id: "c", text: "Being punished for the modelled behaviour" },
+              { id: "d", text: "Being prestigious, attractive or similar to the observer" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -236,10 +236,10 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Less aggression than children who saw punishment" },
+              { id: "a", text: "Immediate punishment for their own aggression" },
               { id: "b", text: "No difference from the control group" },
               { id: "c", text: "More imitation of the aggressive acts than punished-model children" },
-              { id: "d", text: "Immediate punishment for their own aggression" },
+              { id: "d", text: "Less aggression than children who saw punishment" },
             ],
             correctChoiceId: "c",
           },
@@ -357,12 +357,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Attention" },
-              { id: "b", text: "Retention" },
-              { id: "c", text: "Reproduction" },
-              { id: "d", text: "Motivation" },
+              { id: "a", text: "Retention" },
+              { id: "b", text: "Attention" },
+              { id: "c", text: "Motivation" },
+              { id: "d", text: "Reproduction" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -482,12 +482,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Confidence gained from past success only" },
-              { id: "b", text: "Belief in one's ability to succeed at a task" },
-              { id: "c", text: "The tendency to imitate others" },
-              { id: "d", text: "Fear of failure in social situations" },
+              { id: "a", text: "Fear of failure in social situations" },
+              { id: "b", text: "Confidence gained from past success only" },
+              { id: "c", text: "Belief in one's ability to succeed at a task" },
+              { id: "d", text: "The tendency to imitate others" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -581,12 +581,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Learning that is immediately performed" },
-              { id: "b", text: "Learning acquired through observation without immediate performance" },
+              { id: "a", text: "Learning that is quickly forgotten" },
+              { id: "b", text: "Learning that is immediately performed" },
               { id: "c", text: "Learning that requires direct reinforcement" },
-              { id: "d", text: "Learning that is quickly forgotten" },
+              { id: "d", text: "Learning acquired through observation without immediate performance" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -610,8 +610,8 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "The belief that one can successfully perform a behaviour" },
-              { id: "b", text: "The tendency to copy others automatically" },
-              { id: "c", text: "Fear of being judged by others" },
+              { id: "b", text: "Fear of being judged by others" },
+              { id: "c", text: "The tendency to copy others automatically" },
               { id: "d", text: "The amount of reinforcement received" },
             ],
             correctChoiceId: "a",
@@ -639,8 +639,8 @@ export const lesson32: Lesson = {
             choices: [
               { id: "a", text: "Media violence has never been studied" },
               { id: "b", text: "Correlational studies cannot prove causation — aggressive children may seek violent media" },
-              { id: "c", text: "Children cannot imitate televised behaviour" },
-              { id: "d", text: "Bandura never studied aggression" },
+              { id: "c", text: "Bandura never studied aggression" },
+              { id: "d", text: "Children cannot imitate televised behaviour" },
             ],
             correctChoiceId: "b",
           },
@@ -781,12 +781,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "SLT ignores reinforcement entirely" },
-              { id: "b", text: "SLT includes cognitive processes and learning through observation" },
-              { id: "c", text: "SLT only explains animal behaviour" },
+              { id: "a", text: "SLT includes cognitive processes and learning through observation" },
+              { id: "b", text: "SLT only explains animal behaviour" },
+              { id: "c", text: "SLT ignores reinforcement entirely" },
               { id: "d", text: "SLT requires direct rewards for every behaviour" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -855,12 +855,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It uses direct punishment for reading errors" },
-              { id: "b", text: "Peer models demonstrate reading and their encouragement provides reinforcement" },
-              { id: "c", text: "It relies only on biological drives" },
-              { id: "d", text: "It eliminates the need for motivation" },
+              { id: "a", text: "It relies only on biological drives" },
+              { id: "b", text: "It uses direct punishment for reading errors" },
+              { id: "c", text: "It eliminates the need for motivation" },
+              { id: "d", text: "Peer models demonstrate reading and their encouragement provides reinforcement" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

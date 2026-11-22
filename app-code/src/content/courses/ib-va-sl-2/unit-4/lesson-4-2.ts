@@ -55,12 +55,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The colour palette used" },
-              { id: "b", text: "A subject or idea that an artwork explores" },
+              { id: "a", text: "A subject or idea that an artwork explores" },
+              { id: "b", text: "The colour palette used" },
               { id: "c", text: "The frame's decoration" },
               { id: "d", text: "The artist's signature" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -164,8 +164,8 @@ export const lesson42: Lesson = {
             choices: [
               { id: "a", text: "A universal idea explored by many artists" },
               { id: "b", text: "A recurring element or image within an artwork or across an artist's work" },
-              { id: "c", text: "A historical period's style" },
-              { id: "d", text: "An evaluation criterion for art" },
+              { id: "c", text: "An evaluation criterion for art" },
+              { id: "d", text: "A historical period's style" },
             ],
             correctChoiceId: "b",
           },
@@ -191,12 +191,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The subject they choose to depict" },
-              { id: "b", text: "Their distinctive way of treating that subject formally and conceptually" },
-              { id: "c", text: "The price their work commands" },
-              { id: "d", text: "The type of frame they use" },
+              { id: "a", text: "Their distinctive way of treating that subject formally and conceptually" },
+              { id: "b", text: "The type of frame they use" },
+              { id: "c", text: "The subject they choose to depict" },
+              { id: "d", text: "The price their work commands" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -220,12 +220,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "That one artist has made a technical error" },
-              { id: "b", text: "Different conceptual aims and era-specific attitudes to the body" },
-              { id: "c", text: "Random variation with no meaning" },
-              { id: "d", text: "The relative quality of their paints" },
+              { id: "a", text: "The relative quality of their paints" },
+              { id: "b", text: "That one artist has made a technical error" },
+              { id: "c", text: "Different conceptual aims and era-specific attitudes to the body" },
+              { id: "d", text: "Random variation with no meaning" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -250,11 +250,11 @@ export const lesson42: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Symbols that are meaningful to everyone equally" },
-              { id: "b", text: "Symbols private to an artist that carry meaning for them specifically" },
-              { id: "c", text: "Official national emblems" },
+              { id: "b", text: "Official national emblems" },
+              { id: "c", text: "Symbols private to an artist that carry meaning for them specifically" },
               { id: "d", text: "Religious icons only" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -365,12 +365,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A subject that appears in only one culture" },
-              { id: "b", text: "A subject that transcends cultures and periods, such as mortality or love" },
-              { id: "c", text: "A theme that is always religious" },
-              { id: "d", text: "A subject invented by art critics" },
+              { id: "a", text: "A subject invented by art critics" },
+              { id: "b", text: "A theme that is always religious" },
+              { id: "c", text: "A subject that transcends cultures and periods, such as mortality or love" },
+              { id: "d", text: "A subject that appears in only one culture" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -395,11 +395,11 @@ export const lesson42: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Choosing oil rather than acrylic paint" },
-              { id: "b", text: "Fragmenting the human figure to express psychological unease" },
-              { id: "c", text: "Signing the painting in the corner" },
-              { id: "d", text: "Hanging the work in a frame" },
+              { id: "b", text: "Signing the painting in the corner" },
+              { id: "c", text: "Hanging the work in a frame" },
+              { id: "d", text: "Fragmenting the human figure to express psychological unease" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -544,12 +544,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The size of the canvas" },
-              { id: "b", text: "The cultural and historical context of its creation" },
+              { id: "a", text: "The cultural and historical context of its creation" },
+              { id: "b", text: "The artist's favourite colour" },
               { id: "c", text: "The price of the materials" },
-              { id: "d", text: "The artist's favourite colour" },
+              { id: "d", text: "The size of the canvas" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -652,11 +652,11 @@ export const lesson42: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "The brand of paint used" },
-              { id: "b", text: "The cultural and historical framework of the work" },
-              { id: "c", text: "The colour of the frame" },
-              { id: "d", text: "The size of the canvas" },
+              { id: "b", text: "The size of the canvas" },
+              { id: "c", text: "The cultural and historical framework of the work" },
+              { id: "d", text: "The colour of the frame" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -680,12 +680,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Women have physically changed over time" },
-              { id: "b", text: "Changing gender roles and power structures have reframed its representation" },
-              { id: "c", text: "Painters eventually ran out of other subjects" },
+              { id: "a", text: "Changing gender roles and power structures have reframed its representation" },
+              { id: "b", text: "Painters eventually ran out of other subjects" },
+              { id: "c", text: "Women have physically changed over time" },
               { id: "d", text: "Canvases have become larger" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -710,11 +710,11 @@ export const lesson42: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "The mountains themselves are physically different" },
-              { id: "b", text: "Each encodes a different relationship between humanity and nature" },
-              { id: "c", text: "Artists disagree about which colours to use" },
-              { id: "d", text: "Only one of them is accurate" },
+              { id: "b", text: "Artists disagree about which colours to use" },
+              { id: "c", text: "Only one of them is accurate" },
+              { id: "d", text: "Each encodes a different relationship between humanity and nature" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -739,11 +739,11 @@ export const lesson42: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Proves that older art is always worse" },
-              { id: "b", text: "Records changing values, technology and power structures" },
-              { id: "c", text: "Simply lists artists alphabetically" },
-              { id: "d", text: "Measures historical art market prices" },
+              { id: "b", text: "Measures historical art market prices" },
+              { id: "c", text: "Records changing values, technology and power structures" },
+              { id: "d", text: "Simply lists artists alphabetically" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -854,9 +854,9 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Only the artist's nationality" },
+              { id: "a", text: "Only the dominant religion of the period" },
               { id: "b", text: "Beliefs, values, rituals and social structures that shape artistic production" },
-              { id: "c", text: "Only the dominant religion of the period" },
+              { id: "c", text: "Only the artist's nationality" },
               { id: "d", text: "Only the political system in power" },
             ],
             correctChoiceId: "b",
@@ -883,12 +883,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Artists simply copy one another" },
-              { id: "b", text: "Shifting values, power relations and technologies change what a theme signifies" },
+              { id: "a", text: "Shifting values, power relations and technologies change what a theme signifies" },
+              { id: "b", text: "Museums dictate which themes artists must use" },
               { id: "c", text: "Themes are invented fresh each century" },
-              { id: "d", text: "Museums dictate which themes artists must use" },
+              { id: "d", text: "Artists simply copy one another" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

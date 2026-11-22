@@ -50,10 +50,10 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Positive phototropism" },
-              { id: "b", text: "Negative gravitropism" },
+              { id: "a", text: "Negative phototropism" },
+              { id: "b", text: "Positive phototropism" },
               { id: "c", text: "Positive gravitropism" },
-              { id: "d", text: "Negative phototropism" },
+              { id: "d", text: "Negative gravitropism" },
             ],
             correctChoiceId: "c",
           },
@@ -178,12 +178,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Keeping a constant internal environment despite changes inside or outside the body" },
-              { id: "b", text: "A fast, automatic response to a stimulus" },
-              { id: "c", text: "The growth of a plant towards light" },
-              { id: "d", text: "The release of hormones into the blood" },
+              { id: "a", text: "A fast, automatic response to a stimulus" },
+              { id: "b", text: "The release of hormones into the blood" },
+              { id: "c", text: "Keeping a constant internal environment despite changes inside or outside the body" },
+              { id: "d", text: "The growth of a plant towards light" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

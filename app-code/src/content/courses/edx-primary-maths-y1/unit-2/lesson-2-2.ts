@@ -76,12 +76,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The rubber" },
-              { id: "b", text: "The pencil" },
+              { id: "a", text: "The pencil" },
+              { id: "b", text: "It depends on the colour" },
               { id: "c", text: "They are the same" },
-              { id: "d", text: "It depends on the colour" },
+              { id: "d", text: "The rubber" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -322,12 +322,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Half past 5" },
-              { id: "b", text: "5 o'clock" },
-              { id: "c", text: "12 o'clock" },
+              { id: "a", text: "5 o'clock" },
+              { id: "b", text: "12 o'clock" },
+              { id: "c", text: "Half past 5" },
               { id: "d", text: "Half past 12" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

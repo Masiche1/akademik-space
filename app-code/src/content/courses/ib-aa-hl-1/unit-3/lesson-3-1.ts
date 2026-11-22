@@ -51,9 +51,9 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$6$" },
-              { id: "b", text: "$\\sqrt{20}$" },
-              { id: "c", text: "$8$" },
-              { id: "d", text: "$\\sqrt{44}$" },
+              { id: "b", text: "$8$" },
+              { id: "c", text: "$\\sqrt{44}$" },
+              { id: "d", text: "$\\sqrt{20}$" },
             ],
             correctChoiceId: "a",
           },
@@ -97,12 +97,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\begin{pmatrix} -\\frac67 \\\\ \\frac27 \\\\ \\frac37 \\end{pmatrix}$" },
-              { id: "b", text: "$\\begin{pmatrix} -6 \\\\ 2 \\\\ 3 \\end{pmatrix}$" },
-              { id: "c", text: "$\\begin{pmatrix} \\frac67 \\\\ -\\frac27 \\\\ -\\frac37 \\end{pmatrix}$" },
-              { id: "d", text: "$\\begin{pmatrix} -\\frac67 \\\\ \\frac27 \\\\ -\\frac37 \\end{pmatrix}$" },
+              { id: "a", text: "$\\begin{pmatrix} \\frac67 \\\\ -\\frac27 \\\\ -\\frac37 \\end{pmatrix}$" },
+              { id: "b", text: "$\\begin{pmatrix} -\\frac67 \\\\ \\frac27 \\\\ \\frac37 \\end{pmatrix}$" },
+              { id: "c", text: "$\\begin{pmatrix} -\\frac67 \\\\ \\frac27 \\\\ -\\frac37 \\end{pmatrix}$" },
+              { id: "d", text: "$\\begin{pmatrix} -6 \\\\ 2 \\\\ 3 \\end{pmatrix}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -154,9 +154,9 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$\\begin{pmatrix} -3 \\\\ 3 \\\\ 4 \\end{pmatrix}$" },
-              { id: "b", text: "$\\begin{pmatrix} 3 \\\\ -3 \\\\ -4 \\end{pmatrix}$" },
-              { id: "c", text: "$\\begin{pmatrix} -3 \\\\ 3 \\\\ 0 \\end{pmatrix}$" },
-              { id: "d", text: "$\\begin{pmatrix} 3 \\\\ 3 \\\\ 4 \\end{pmatrix}$" },
+              { id: "b", text: "$\\begin{pmatrix} 3 \\\\ 3 \\\\ 4 \\end{pmatrix}$" },
+              { id: "c", text: "$\\begin{pmatrix} 3 \\\\ -3 \\\\ -4 \\end{pmatrix}$" },
+              { id: "d", text: "$\\begin{pmatrix} -3 \\\\ 3 \\\\ 0 \\end{pmatrix}$" },
             ],
             correctChoiceId: "a",
           },
@@ -246,11 +246,11 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$\\sqrt{7}$" },
-              { id: "b", text: "$3$" },
-              { id: "c", text: "$5$" },
-              { id: "d", text: "$2$" },
+              { id: "b", text: "$2$" },
+              { id: "c", text: "$3$" },
+              { id: "d", text: "$5$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -301,12 +301,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$11$" },
-              { id: "b", text: "$-12$" },
-              { id: "c", text: "$12$" },
-              { id: "d", text: "$13$" },
+              { id: "a", text: "$12$" },
+              { id: "b", text: "$13$" },
+              { id: "c", text: "$-12$" },
+              { id: "d", text: "$11$" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -399,12 +399,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$7$" },
-              { id: "b", text: "$11$" },
+              { id: "a", text: "$11$" },
+              { id: "b", text: "$\\sqrt{29}$" },
               { id: "c", text: "$\\sqrt{5}$" },
-              { id: "d", text: "$\\sqrt{29}$" },
+              { id: "d", text: "$7$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -532,12 +532,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$0$" },
-              { id: "b", text: "$-8$" },
-              { id: "c", text: "$8$" },
-              { id: "d", text: "$12$" },
+              { id: "a", text: "$12$" },
+              { id: "b", text: "$8$" },
+              { id: "c", text: "$0$" },
+              { id: "d", text: "$-8$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -579,12 +579,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$30^\\circ$" },
-              { id: "b", text: "$45^\\circ$" },
-              { id: "c", text: "$60^\\circ$" },
-              { id: "d", text: "$90^\\circ$" },
+              { id: "a", text: "$45^\\circ$" },
+              { id: "b", text: "$60^\\circ$" },
+              { id: "c", text: "$90^\\circ$" },
+              { id: "d", text: "$30^\\circ$" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -628,10 +628,10 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$4$" },
+              { id: "a", text: "$2$" },
               { id: "b", text: "$-4$" },
-              { id: "c", text: "$-2$" },
-              { id: "d", text: "$2$" },
+              { id: "c", text: "$4$" },
+              { id: "d", text: "$-2$" },
             ],
             correctChoiceId: "b",
           },
@@ -712,12 +712,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\begin{pmatrix} 1 \\\\ 1 \\\\ 0 \\end{pmatrix}$" },
+              { id: "a", text: "$\\begin{pmatrix} 1 \\\\ 0 \\\\ 1 \\end{pmatrix}$" },
               { id: "b", text: "$\\begin{pmatrix} 0 \\\\ 1 \\\\ 0 \\end{pmatrix}$" },
-              { id: "c", text: "$\\begin{pmatrix} 1 \\\\ 0 \\\\ 1 \\end{pmatrix}$" },
+              { id: "c", text: "$\\begin{pmatrix} 1 \\\\ 1 \\\\ 0 \\end{pmatrix}$" },
               { id: "d", text: "$\\begin{pmatrix} 1 \\\\ -1 \\\\ 1 \\end{pmatrix}$" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -761,10 +761,10 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$-1$" },
+              { id: "a", text: "$2$" },
               { id: "b", text: "$1$" },
-              { id: "c", text: "$2$" },
-              { id: "d", text: "$0$" },
+              { id: "c", text: "$0$" },
+              { id: "d", text: "$-1$" },
             ],
             correctChoiceId: "b",
           },
@@ -863,12 +863,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$0$" },
-              { id: "b", text: "$20$" },
-              { id: "c", text: "$-12$" },
-              { id: "d", text: "$\\begin{pmatrix} 4 \\\\ -10 \\\\ 6 \\end{pmatrix}$" },
+              { id: "a", text: "$20$" },
+              { id: "b", text: "$\\begin{pmatrix} 4 \\\\ -10 \\\\ 6 \\end{pmatrix}$" },
+              { id: "c", text: "$0$" },
+              { id: "d", text: "$-12$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

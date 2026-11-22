@@ -68,12 +68,12 @@ $a=\\sqrt{c^2-b^2}$. For $c=13$, $b=5$: $a=\\sqrt{169-25}=\\sqrt{144}=12$.`,
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "10 cm" },
-              { id: "b", text: "12 cm" },
-              { id: "c", text: "14 cm" },
-              { id: "d", text: "48 cm" },
+              { id: "a", text: "12 cm" },
+              { id: "b", text: "48 cm" },
+              { id: "c", text: "10 cm" },
+              { id: "d", text: "14 cm" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -166,12 +166,12 @@ $a=\\sqrt{c^2-b^2}$. For $c=13$, $b=5$: $a=\\sqrt{169-25}=\\sqrt{144}=12$.`,
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$13$ cm" },
-              { id: "b", text: "$17$ cm" },
-              { id: "c", text: "$7$ cm" },
+              { id: "a", text: "$7$ cm" },
+              { id: "b", text: "$13$ cm" },
+              { id: "c", text: "$17$ cm" },
               { id: "d", text: "$60$ cm" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -193,12 +193,12 @@ $a=\\sqrt{c^2-b^2}$. For $c=13$, $b=5$: $a=\\sqrt{169-25}=\\sqrt{144}=12$.`,
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$17$ cm" },
-              { id: "b", text: "$23$ cm" },
-              { id: "c", text: "$11$ cm" },
-              { id: "d", text: "$120$ cm" },
+              { id: "a", text: "$11$ cm" },
+              { id: "b", text: "$120$ cm" },
+              { id: "c", text: "$23$ cm" },
+              { id: "d", text: "$17$ cm" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -220,12 +220,12 @@ $a=\\sqrt{c^2-b^2}$. For $c=13$, $b=5$: $a=\\sqrt{169-25}=\\sqrt{144}=12$.`,
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$8$ cm" },
-              { id: "b", text: "$4$ cm" },
-              { id: "c", text: "$16$ cm" },
-              { id: "d", text: "$\\sqrt{136}$ cm" },
+              { id: "a", text: "$\\sqrt{136}$ cm" },
+              { id: "b", text: "$16$ cm" },
+              { id: "c", text: "$4$ cm" },
+              { id: "d", text: "$8$ cm" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -247,12 +247,12 @@ $a=\\sqrt{c^2-b^2}$. For $c=13$, $b=5$: $a=\\sqrt{169-25}=\\sqrt{144}=12$.`,
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$7$ cm" },
+              { id: "a", text: "$\\sqrt{41}$ cm" },
               { id: "b", text: "$11$ cm" },
-              { id: "c", text: "$\\sqrt{41}$ cm" },
-              { id: "d", text: "$36$ cm" },
+              { id: "c", text: "$36$ cm" },
+              { id: "d", text: "$7$ cm" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -332,9 +332,9 @@ $a=\\sqrt{c^2-b^2}$. For $c=13$, $b=5$: $a=\\sqrt{169-25}=\\sqrt{144}=12$.`,
             type: "mcq",
             choices: [
               { id: "a", text: "9, 12, 15" },
-              { id: "b", text: "4, 5, 6" },
-              { id: "c", text: "7, 8, 10" },
-              { id: "d", text: "5, 6, 9" },
+              { id: "b", text: "5, 6, 9" },
+              { id: "c", text: "4, 5, 6" },
+              { id: "d", text: "7, 8, 10" },
             ],
             correctChoiceId: "a",
           },
@@ -358,12 +358,12 @@ $a=\\sqrt{c^2-b^2}$. For $c=13$, $b=5$: $a=\\sqrt{169-25}=\\sqrt{144}=12$.`,
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "the ladder" },
-              { id: "b", text: "the height on the wall" },
-              { id: "c", text: "the distance from the wall" },
-              { id: "d", text: "the sum of height and distance" },
+              { id: "a", text: "the height on the wall" },
+              { id: "b", text: "the sum of height and distance" },
+              { id: "c", text: "the ladder" },
+              { id: "d", text: "the distance from the wall" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -479,10 +479,10 @@ Label the sides relative to $\\theta$ first: opposite, adjacent, hypotenuse.`,
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\frac{3}{5}$" },
+              { id: "a", text: "$\\frac{5}{3}$" },
               { id: "b", text: "$\\frac{4}{5}$" },
               { id: "c", text: "$\\frac{5}{4}$" },
-              { id: "d", text: "$\\frac{5}{3}$" },
+              { id: "d", text: "$\\frac{3}{5}$" },
             ],
             correctChoiceId: "b",
           },
@@ -578,12 +578,12 @@ Label the sides relative to $\\theta$ first: opposite, adjacent, hypotenuse.`,
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\frac{1}{2}$" },
-              { id: "b", text: "$\\frac{\\sqrt{3}}{2}$" },
-              { id: "c", text: "$1$" },
-              { id: "d", text: "$\\frac{1}{\\sqrt{3}}$" },
+              { id: "a", text: "$1$" },
+              { id: "b", text: "$\\frac{1}{\\sqrt{3}}$" },
+              { id: "c", text: "$\\frac{1}{2}$" },
+              { id: "d", text: "$\\frac{\\sqrt{3}}{2}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -605,12 +605,12 @@ Label the sides relative to $\\theta$ first: opposite, adjacent, hypotenuse.`,
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\frac{\\sqrt{3}}{2}$" },
-              { id: "b", text: "$\\frac{1}{2}$" },
-              { id: "c", text: "$1$" },
-              { id: "d", text: "$0$" },
+              { id: "a", text: "$0$" },
+              { id: "b", text: "$\\frac{\\sqrt{3}}{2}$" },
+              { id: "c", text: "$\\frac{1}{2}$" },
+              { id: "d", text: "$1$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -632,12 +632,12 @@ Label the sides relative to $\\theta$ first: opposite, adjacent, hypotenuse.`,
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$0$" },
-              { id: "b", text: "$\\frac{1}{\\sqrt{3}}$" },
-              { id: "c", text: "$1$" },
-              { id: "d", text: "$\\sqrt{3}$" },
+              { id: "a", text: "$1$" },
+              { id: "b", text: "$\\sqrt{3}$" },
+              { id: "c", text: "$\\frac{1}{\\sqrt{3}}$" },
+              { id: "d", text: "$0$" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -659,12 +659,12 @@ Label the sides relative to $\\theta$ first: opposite, adjacent, hypotenuse.`,
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\sin\\theta$" },
-              { id: "b", text: "$\\cos\\theta$" },
-              { id: "c", text: "$\\tan\\theta$" },
-              { id: "d", text: "$\\cot\\theta$" },
+              { id: "a", text: "$\\cos\\theta$" },
+              { id: "b", text: "$\\cot\\theta$" },
+              { id: "c", text: "$\\sin\\theta$" },
+              { id: "d", text: "$\\tan\\theta$" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -687,9 +687,9 @@ Label the sides relative to $\\theta$ first: opposite, adjacent, hypotenuse.`,
             type: "mcq",
             choices: [
               { id: "a", text: "the side opposite the right angle" },
-              { id: "b", text: "the shortest side" },
-              { id: "c", text: "the side adjacent to angle $\\theta$" },
-              { id: "d", text: "the side opposite angle $\\theta$" },
+              { id: "b", text: "the side adjacent to angle $\\theta$" },
+              { id: "c", text: "the side opposite angle $\\theta$" },
+              { id: "d", text: "the shortest side" },
             ],
             correctChoiceId: "a",
           },

@@ -54,12 +54,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$2.09$ kJ" },
-              { id: "b", text: "$0.209$ kJ" },
-              { id: "c", text: "$20.9$ kJ" },
-              { id: "d", text: "$418$ J" },
+              { id: "a", text: "$20.9$ kJ" },
+              { id: "b", text: "$2.09$ kJ" },
+              { id: "c", text: "$418$ J" },
+              { id: "d", text: "$0.209$ kJ" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -82,12 +82,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Some heat escapes to the surroundings, so the measured temperature rise is smaller than the true value" },
-              { id: "b", text: "The reaction is actually endothermic" },
-              { id: "c", text: "The specific heat capacity of water is too large" },
-              { id: "d", text: "Too much reactant was used" },
+              { id: "a", text: "The reaction is actually endothermic" },
+              { id: "b", text: "The specific heat capacity of water is too large" },
+              { id: "c", text: "Too much reactant was used" },
+              { id: "d", text: "Some heat escapes to the surroundings, so the measured temperature rise is smaller than the true value" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -111,12 +111,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$-73.2$ kJ mol$^{-1}$" },
-              { id: "b", text: "$-36.6$ kJ mol$^{-1}$" },
-              { id: "c", text: "$+73.2$ kJ mol$^{-1}$" },
-              { id: "d", text: "$-14.6$ kJ mol$^{-1}$" },
+              { id: "a", text: "$-14.6$ kJ mol$^{-1}$" },
+              { id: "b", text: "$+73.2$ kJ mol$^{-1}$" },
+              { id: "c", text: "$-73.2$ kJ mol$^{-1}$" },
+              { id: "d", text: "$-36.6$ kJ mol$^{-1}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -195,12 +195,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Hydrochloric acid" },
-              { id: "b", text: "Sodium hydroxide" },
-              { id: "c", text: "Neither — they are in exactly equal amounts" },
-              { id: "d", text: "Water" },
+              { id: "a", text: "Sodium hydroxide" },
+              { id: "b", text: "Neither — they are in exactly equal amounts" },
+              { id: "c", text: "Water" },
+              { id: "d", text: "Hydrochloric acid" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -276,9 +276,9 @@ export const lesson52: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "It is a good insulator, so less heat is lost to the surroundings during the measurement" },
-              { id: "b", text: "It reacts with the acid to release extra heat" },
-              { id: "c", text: "It increases the specific heat capacity of the solution" },
-              { id: "d", text: "It allows the temperature to be measured more accurately than a thermometer" },
+              { id: "b", text: "It allows the temperature to be measured more accurately than a thermometer" },
+              { id: "c", text: "It reacts with the acid to release extra heat" },
+              { id: "d", text: "It increases the specific heat capacity of the solution" },
             ],
             correctChoiceId: "a",
           },
@@ -326,12 +326,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The measured temperature rise is smaller, so the magnitude of $\\Delta H$ is smaller than the true value" },
+              { id: "a", text: "There is no effect because the final temperature is the same" },
               { id: "b", text: "The measured temperature rise is larger, so $\\Delta H$ is more negative than the true value" },
               { id: "c", text: "The sign of $\\Delta H$ changes from negative to positive" },
-              { id: "d", text: "There is no effect because the final temperature is the same" },
+              { id: "d", text: "The measured temperature rise is smaller, so the magnitude of $\\Delta H$ is smaller than the true value" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -515,12 +515,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Breaking bonds requires energy input (endothermic) while forming bonds releases energy (exothermic)" },
-              { id: "b", text: "Breaking bonds releases energy while forming bonds requires energy" },
-              { id: "c", text: "Bond enthalpies are always negative so the signs must be reversed" },
-              { id: "d", text: "Only the bonds in the products need to be counted" },
+              { id: "a", text: "Bond enthalpies are always negative so the signs must be reversed" },
+              { id: "b", text: "Breaking bonds requires energy input (endothermic) while forming bonds releases energy (exothermic)" },
+              { id: "c", text: "Only the bonds in the products need to be counted" },
+              { id: "d", text: "Breaking bonds releases energy while forming bonds requires energy" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -544,9 +544,9 @@ export const lesson52: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$-539$ kJ mol$^{-1}$" },
-              { id: "b", text: "$+539$ kJ mol$^{-1}$" },
+              { id: "b", text: "$-278.5$ kJ mol$^{-1}$" },
               { id: "c", text: "$-595$ kJ mol$^{-1}$" },
-              { id: "d", text: "$-278.5$ kJ mol$^{-1}$" },
+              { id: "d", text: "$+539$ kJ mol$^{-1}$" },
             ],
             correctChoiceId: "a",
           },
@@ -572,12 +572,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$-115$ kJ mol$^{-1}$" },
-              { id: "b", text: "$+115$ kJ mol$^{-1}$" },
+              { id: "a", text: "$+115$ kJ mol$^{-1}$" },
+              { id: "b", text: "$-115$ kJ mol$^{-1}$" },
               { id: "c", text: "$-2260$ kJ mol$^{-1}$" },
               { id: "d", text: "$-349$ kJ mol$^{-1}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -656,12 +656,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Bond enthalpies are average values that vary between different molecules, so the actual bond strengths in the specific reaction may differ" },
+              { id: "a", text: "Bond enthalpies only apply to ionic compounds" },
               { id: "b", text: "Bond enthalpies cannot be measured experimentally" },
-              { id: "c", text: "Bond enthalpies only apply to ionic compounds" },
-              { id: "d", text: "The calculation ignores the number of moles involved" },
+              { id: "c", text: "The calculation ignores the number of moles involved" },
+              { id: "d", text: "Bond enthalpies are average values that vary between different molecules, so the actual bond strengths in the specific reaction may differ" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -734,12 +734,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Energy that must be supplied to break the bonds — an endothermic step" },
-              { id: "b", text: "Energy released when the bonds form — an exothermic step" },
-              { id: "c", text: "The activation energy of the reaction" },
-              { id: "d", text: "The enthalpy of formation of the products" },
+              { id: "a", text: "The activation energy of the reaction" },
+              { id: "b", text: "The enthalpy of formation of the products" },
+              { id: "c", text: "Energy that must be supplied to break the bonds — an endothermic step" },
+              { id: "d", text: "Energy released when the bonds form — an exothermic step" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -835,12 +835,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Using Hess's law with standard enthalpies of formation or combustion" },
-              { id: "b", text: "Using average bond enthalpies" },
+              { id: "a", text: "Using average bond enthalpies" },
+              { id: "b", text: "Estimating from the colour change of an indicator" },
               { id: "c", text: "Measuring only the temperature change without converting to moles" },
-              { id: "d", text: "Estimating from the colour change of an indicator" },
+              { id: "d", text: "Using Hess's law with standard enthalpies of formation or combustion" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

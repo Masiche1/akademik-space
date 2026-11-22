@@ -74,12 +74,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "30" },
-              { id: "b", text: "60" },
-              { id: "c", text: "100" },
+              { id: "a", text: "60" },
+              { id: "b", text: "100" },
+              { id: "c", text: "30" },
               { id: "d", text: "24" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -303,12 +303,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The title" },
-              { id: "b", text: "What each symbol represents" },
-              { id: "c", text: "The colours" },
-              { id: "d", text: "The total" },
+              { id: "a", text: "What each symbol represents" },
+              { id: "b", text: "The colours" },
+              { id: "c", text: "The total" },
+              { id: "d", text: "The title" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

@@ -90,8 +90,8 @@ export const lesson41: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "The rate of change of magnetic flux" },
-              { id: "b", text: "The total magnetic flux" },
-              { id: "c", text: "The number of turns only" },
+              { id: "b", text: "The number of turns only" },
+              { id: "c", text: "The total magnetic flux" },
               { id: "d", text: "The resistance of the circuit" },
             ],
             correctChoiceId: "a",
@@ -318,12 +318,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The weber (Wb)" },
-              { id: "b", text: "The tesla (T)" },
-              { id: "c", text: "The henry (H)" },
-              { id: "d", text: "The volt (V)" },
+              { id: "a", text: "The tesla (T)" },
+              { id: "b", text: "The weber (Wb)" },
+              { id: "c", text: "The volt (V)" },
+              { id: "d", text: "The henry (H)" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -361,11 +361,11 @@ export const lesson41: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "The magnetic flux through it is large" },
-              { id: "b", text: "The magnetic flux through it changes" },
-              { id: "c", text: "The circuit has many turns" },
-              { id: "d", text: "A magnet is present but stationary" },
+              { id: "b", text: "A magnet is present but stationary" },
+              { id: "c", text: "The magnetic flux through it changes" },
+              { id: "d", text: "The circuit has many turns" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -404,10 +404,10 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Flux changes by 2 mWb in 0.5 s" },
-              { id: "b", text: "Flux changes by 4 mWb in 0.5 s" },
+              { id: "a", text: "Flux changes by 4 mWb in 0.5 s" },
+              { id: "b", text: "Flux changes by 1 mWb in 0.5 s" },
               { id: "c", text: "Flux changes by 2 mWb in 0.10 s" },
-              { id: "d", text: "Flux changes by 1 mWb in 0.5 s" },
+              { id: "d", text: "Flux changes by 2 mWb in 0.5 s" },
             ],
             correctChoiceId: "c",
           },
@@ -453,8 +453,8 @@ export const lesson41: Lesson = {
                 text: "A north pole, repelling the approaching magnet",
               },
               { id: "b", text: "A south pole, attracting the magnet" },
-              { id: "c", text: "Unmagnetised" },
-              { id: "d", text: "A north pole, attracting the magnet" },
+              { id: "c", text: "A north pole, attracting the magnet" },
+              { id: "d", text: "Unmagnetised" },
             ],
             correctChoiceId: "a",
           },
@@ -496,12 +496,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The coil plane is parallel to the field" },
-              { id: "b", text: "The coil plane is perpendicular to the field" },
+              { id: "a", text: "The coil plane is perpendicular to the field" },
+              { id: "b", text: "The flux through the coil is zero" },
               { id: "c", text: "The induced current is maximum" },
-              { id: "d", text: "The flux through the coil is zero" },
+              { id: "d", text: "The coil plane is parallel to the field" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -540,12 +540,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "1 (unchanged)" },
-              { id: "b", text: "2" },
-              { id: "c", text: "4" },
-              { id: "d", text: "1/2" },
+              { id: "a", text: "1/2" },
+              { id: "b", text: "1 (unchanged)" },
+              { id: "c", text: "2" },
+              { id: "d", text: "4" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1177,12 +1177,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The ratio of turns $N_s/N_p$" },
-              { id: "b", text: "The ratio of currents $I_s/I_p$" },
-              { id: "c", text: "The ratio of resistances" },
-              { id: "d", text: "The square of turns ratio" },
+              { id: "a", text: "The ratio of currents $I_s/I_p$" },
+              { id: "b", text: "The square of turns ratio" },
+              { id: "c", text: "The ratio of turns $N_s/N_p$" },
+              { id: "d", text: "The ratio of resistances" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1404,12 +1404,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Power: $V_p I_p = V_s I_s$" },
-              { id: "b", text: "Voltage: $V_p = V_s$" },
-              { id: "c", text: "Current: $I_p = I_s$" },
-              { id: "d", text: "Turns: $N_p = N_s$" },
+              { id: "a", text: "Current: $I_p = I_s$" },
+              { id: "b", text: "Turns: $N_p = N_s$" },
+              { id: "c", text: "Voltage: $V_p = V_s$" },
+              { id: "d", text: "Power: $V_p I_p = V_s I_s$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1445,12 +1445,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "50 Hz" },
+              { id: "a", text: "230 Hz" },
               { id: "b", text: "60 Hz" },
               { id: "c", text: "100 Hz" },
-              { id: "d", text: "230 Hz" },
+              { id: "d", text: "50 Hz" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1485,15 +1485,15 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "Charging a phone from a USB port" },
+              { id: "b", text: "Running a 12 V car battery" },
+              { id: "c", text: "Lowering 230 V mains to 12 V for a lamp" },
               {
-                id: "a",
+                id: "d",
                 text: "Raising the voltage from a power station to grid level",
               },
-              { id: "b", text: "Lowering 230 V mains to 12 V for a lamp" },
-              { id: "c", text: "Charging a phone from a USB port" },
-              { id: "d", text: "Running a 12 V car battery" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1530,15 +1530,15 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "A magnet held stationary near a coil" },
               {
-                id: "a",
+                id: "b",
                 text: "A thick solid conductor moving through a magnetic field",
               },
-              { id: "b", text: "A thin insulating wire in a constant field" },
-              { id: "c", text: "A magnet held stationary near a coil" },
-              { id: "d", text: "A battery connected to a resistor" },
+              { id: "c", text: "A battery connected to a resistor" },
+              { id: "d", text: "A thin insulating wire in a constant field" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1577,12 +1577,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "0.10 A" },
-              { id: "b", text: "2.0 A" },
-              { id: "c", text: "10 A" },
-              { id: "d", text: "40 A" },
+              { id: "a", text: "40 A" },
+              { id: "b", text: "0.10 A" },
+              { id: "c", text: "2.0 A" },
+              { id: "d", text: "10 A" },
             ],
-            correctChoiceId: "d",
+            correctChoiceIa: "d",
           },
           markscheme: {
             principles: [

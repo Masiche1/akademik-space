@@ -84,22 +84,22 @@ export const lesson52: Lesson = {
             "choices": [
               {
                 "id": "a",
-                "text": "1 m"
-              },
-              {
-                "id": "b",
                 "text": "1 cm"
               },
               {
+                "id": "b",
+                "text": "0.1 mm"
+              },
+              {
                 "id": "c",
-                "text": "1 mm"
+                "text": "1 m"
               },
               {
                 "id": "d",
-                "text": "0.1 mm"
+                "text": "1 mm"
               }
             ],
-            "correctChoiceId": "c"
+            "dorrectChoiceId": "c"
           },
           "markscheme": {
             "principles": [
@@ -357,22 +357,22 @@ export const lesson52: Lesson = {
             "choices": [
               {
                 "id": "a",
-                "text": "change several variables at once"
-              },
-              {
-                "id": "b",
-                "text": "measure the dependent variable at regular time intervals"
-              },
-              {
-                "id": "c",
                 "text": "use an uncalibrated balance"
               },
               {
-                "id": "d",
+                "id": "b",
                 "text": "record only one reading"
+              },
+              {
+                "id": "c",
+                "text": "change several variables at once"
+              },
+              {
+                "id": "d",
+                "text": "measure the dependent variable at regular time intervals"
               }
             ],
-            "correctChoiceId": "b"
+            "correctChoiceId": "d"
           },
           "markscheme": {
             "principles": [

@@ -53,8 +53,8 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The Maya" },
-              { id: "b", text: "The Aztec" },
+              { id: "a", text: "The Aztec" },
+              { id: "b", text: "The Maya" },
               { id: "c", text: "The Olmec" },
               { id: "d", text: "The Inca" },
             ],
@@ -152,9 +152,9 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Centralised empire ruled by a single emperor" },
+              { id: "a", text: "Use of wheeled transport for armies and trade" },
               { id: "b", text: "Sophisticated calendar and the only fully developed writing system in the Americas" },
-              { id: "c", text: "Use of wheeled transport for armies and trade" },
+              { id: "c", text: "Centralised empire ruled by a single emperor" },
               { id: "d", text: "Written constitution limiting the ruler's power" },
             ],
             correctChoiceId: "b",
@@ -180,10 +180,10 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Raised fields built on Andean hillsides" },
+              { id: "a", text: "Stone-paved roads linking Inca provinces" },
               { id: "b", text: "Floating garden islands constructed on Lake Texcoco" },
-              { id: "c", text: "Underground irrigation canals" },
-              { id: "d", text: "Stone-paved roads linking Inca provinces" },
+              { id: "c", text: "Raised fields built on Andean hillsides" },
+              { id: "d", text: "Underground irrigation canals" },
             ],
             correctChoiceId: "b",
           },
@@ -209,11 +209,11 @@ export const lesson11: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "'Empire of the Sun'" },
-              { id: "b", text: "'Land of four quarters'" },
-              { id: "c", text: "'City of kings'" },
-              { id: "d", text: "'People of the highlands'" },
+              { id: "b", text: "'City of kings'" },
+              { id: "c", text: "'People of the highlands'" },
+              { id: "d", text: "'Land of four quarters'" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -236,12 +236,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Record census and tribute data using knotted cords" },
-              { id: "b", text: "Write religious texts and literature" },
-              { id: "c", text: "Construct roads across the Andes" },
-              { id: "d", text: "Predict eclipses and harvests" },
+              { id: "a", text: "Predict eclipses and harvests" },
+              { id: "b", text: "Record census and tribute data using knotted cords" },
+              { id: "c", text: "Write religious texts and literature" },
+              { id: "d", text: "Construct roads across the Andes" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -265,11 +265,11 @@ export const lesson11: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Both were unified empires ruled by divine emperors" },
-              { id: "b", text: "The Maya were fragmented city-states; the Aztec were a centralised tribute empire" },
-              { id: "c", text: "Both were theocratic priest-states with no armies" },
-              { id: "d", text: "The Aztec were city-states while the Maya formed one empire" },
+              { id: "b", text: "The Aztec were city-states while the Maya formed one empire" },
+              { id: "c", text: "The Maya were fragmented city-states; the Aztec were a centralised tribute empire" },
+              { id: "d", text: "Both were theocratic priest-states with no armies" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -475,12 +475,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Owned the land they farmed" },
-              { id: "b", text: "Worked land in exchange for protection" },
-              { id: "c", text: "Were paid wages in silver" },
-              { id: "d", text: "Lent money to nobles" },
+              { id: "a", text: "Were paid wages in silver" },
+              { id: "b", text: "Lent money to nobles" },
+              { id: "c", text: "Owned the land they farmed" },
+              { id: "d", text: "Worked land in exchange for protection" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -574,12 +574,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A system of landholding in exchange for military service and labour" },
-              { id: "b", text: "A free-market economic system" },
-              { id: "c", text: "A theory of divine right monarchy" },
+              { id: "a", text: "A theory of divine right monarchy" },
+              { id: "b", text: "A system of landholding in exchange for military service and labour" },
+              { id: "c", text: "A free-market economic system" },
               { id: "d", text: "A merchant guild organisation" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -603,11 +603,11 @@ export const lesson11: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "The political system of lord-vassal relations" },
-              { id: "b", text: "The economic system of serf labour on a lord's manor" },
-              { id: "c", text: "A monastic religious order" },
-              { id: "d", text: "A system of naval alliances" },
+              { id: "b", text: "A system of naval alliances" },
+              { id: "c", text: "The economic system of serf labour on a lord's manor" },
+              { id: "d", text: "A monastic religious order" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -630,12 +630,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Ended the Crusades to the Holy Land" },
-              { id: "b", text: "Made books cheap and spread ideas rapidly" },
-              { id: "c", text: "Invented gunpowder and firearms" },
-              { id: "d", text: "United the Italian city-states" },
+              { id: "a", text: "Made books cheap and spread ideas rapidly" },
+              { id: "b", text: "Ended the Crusades to the Holy Land" },
+              { id: "c", text: "United the Italian city-states" },
+              { id: "d", text: "Invented gunpowder and firearms" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -658,10 +658,10 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The Pope's political authority over Germany" },
+              { id: "a", text: "Islamic influence in Europe" },
               { id: "b", text: "The sale of indulgences" },
               { id: "c", text: "The Holy Roman Emperor's taxes" },
-              { id: "d", text: "Islamic influence in Europe" },
+              { id: "d", text: "The Pope's political authority over Germany" },
             ],
             correctChoiceId: "b",
           },
@@ -688,8 +688,8 @@ export const lesson11: Lesson = {
             choices: [
               { id: "a", text: "A single voyage by accident that was never repeated" },
               { id: "b", text: "Combined demand for Asian goods, blocked overland routes, crusading and missionary zeal, and royal sponsorship" },
-              { id: "c", text: "Pressure from the Church to convert Africa only" },
-              { id: "d", text: "A surplus of unemployed sailors with no other employment" },
+              { id: "c", text: "A surplus of unemployed sailors with no other employment" },
+              { id: "d", text: "Pressure from the Church to convert Africa only" },
             ],
             correctChoiceId: "b",
           },

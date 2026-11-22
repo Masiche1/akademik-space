@@ -54,12 +54,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$(x+3)(x^2-3x+9)$" },
-              { id: "b", text: "$(x-3)(x^2+3x+9)$" },
-              { id: "c", text: "$(x+3)(x^2+3x+9)$" },
-              { id: "d", text: "$(x+9)(x^2-9x+3)$" },
+              { id: "a", text: "$(x-3)(x^2+3x+9)$" },
+              { id: "b", text: "$(x+3)(x^2+3x+9)$" },
+              { id: "c", text: "$(x+9)(x^2-9x+3)$" },
+              { id: "d", text: "$(x+3)(x^2-3x+9)$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -196,11 +196,11 @@ export const lesson51: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$x^2+25$" },
-              { id: "b", text: "$x^2+5x+25$" },
-              { id: "c", text: "$x^2+10x+25$" },
-              { id: "d", text: "$x^2+10x+5$" },
+              { id: "b", text: "$x^2+10x+5$" },
+              { id: "c", text: "$x^2+5x+25$" },
+              { id: "d", text: "$x^2+10x+25$" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [

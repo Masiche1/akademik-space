@@ -63,12 +63,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Ben is hot" },
-              { id: "b", text: "Ben is cold" },
+              { id: "a", text: "Ben is cold" },
+              { id: "b", text: "Ben is tired" },
               { id: "c", text: "Ben is happy" },
-              { id: "d", text: "Ben is tired" },
+              { id: "d", text: "Ben is hot" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -93,12 +93,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It started raining" },
-              { id: "b", text: "It got dark" },
+              { id: "a", text: "It got dark" },
+              { id: "b", text: "It started raining" },
               { id: "c", text: "Someone called them" },
               { id: "d", text: "Nothing special" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -242,12 +242,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Blue" },
-              { id: "b", text: "Red" },
-              { id: "c", text: "Green" },
-              { id: "d", text: "Yellow" },
+              { id: "a", text: "Red" },
+              { id: "b", text: "Green" },
+              { id: "c", text: "Yellow" },
+              { id: "d", text: "Blue" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -272,12 +272,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "She was tired" },
-              { id: "b", text: "She was hungry" },
-              { id: "c", text: "She was scared" },
-              { id: "d", text: "She was cold" },
+              { id: "a", text: "She was hungry" },
+              { id: "b", text: "She was scared" },
+              { id: "c", text: "She was cold" },
+              { id: "d", text: "She was tired" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

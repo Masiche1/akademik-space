@@ -51,12 +51,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$mr^2$" },
-              { id: "b", text: "$mr$" },
-              { id: "c", text: "$\\frac12mr^2$" },
-              { id: "d", text: "$m/r$" },
+              { id: "a", text: "$mr$" },
+              { id: "b", text: "$\\frac12mr^2$" },
+              { id: "c", text: "$m/r$" },
+              { id: "d", text: "$mr^2$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Moment of inertia", statement: "$I=mr^2$." }],
@@ -174,9 +174,9 @@ export const lesson63: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "The same tension on both sides" },
-              { id: "b", text: "Different tensions" },
-              { id: "c", text: "Zero tension" },
-              { id: "d", text: "Variable tension" },
+              { id: "b", text: "Zero tension" },
+              { id: "c", text: "Variable tension" },
+              { id: "d", text: "Different tensions" },
             ],
             correctChoiceId: "a",
           },

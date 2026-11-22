@@ -50,12 +50,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Energy from the Sun" },
-              { id: "b", text: "Gravity" },
-              { id: "c", text: "The Moon's pull" },
-              { id: "d", text: "Wind" },
+              { id: "a", text: "Gravity" },
+              { id: "b", text: "The Moon's pull" },
+              { id: "c", text: "Wind" },
+              { id: "d", text: "Energy from the Sun" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -185,12 +185,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Clear skies and calm weather" },
-              { id: "b", text: "Clouds and precipitation" },
-              { id: "c", text: "Extreme cold with no clouds" },
-              { id: "d", text: "No change in weather" },
+              { id: "a", text: "Clouds and precipitation" },
+              { id: "b", text: "Extreme cold with no clouds" },
+              { id: "c", text: "No change in weather" },
+              { id: "d", text: "Clear skies and calm weather" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

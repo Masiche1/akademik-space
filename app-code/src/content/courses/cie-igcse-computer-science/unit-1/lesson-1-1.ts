@@ -52,22 +52,22 @@ export const lesson51: Lesson = {
           "choices": [
                     {
                               "id": "a",
-                              "text": "8"
+                              "text": "32"
                     },
                     {
                               "id": "b",
-                              "text": "4"
-                    },
-                    {
-                              "id": "c",
                               "text": "16"
                     },
                     {
+                              "id": "c",
+                              "text": "4"
+                    },
+                    {
                               "id": "d",
-                              "text": "32"
+                              "text": "8"
                     }
           ],
-          "correctChoiceId": "a"
+          "correctChoiceId": "d"
 },
           markscheme: {
           "principles": [
@@ -223,12 +223,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "10" },
-              { id: "b", text: "5" },
-              { id: "c", text: "12" },
+              { id: "a", text: "5" },
+              { id: "b", text: "12" },
+              { id: "c", text: "10" },
               { id: "d", text: "8" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -248,12 +248,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "8" },
-              { id: "b", text: "6" },
+              { id: "a", text: "16" },
+              { id: "b", text: "8" },
               { id: "c", text: "4" },
-              { id: "d", text: "16" },
+              { id: "d", text: "6" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -273,12 +273,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "1001" },
-              { id: "b", text: "0110" },
-              { id: "c", text: "1010" },
-              { id: "d", text: "1100" },
+              { id: "a", text: "1010" },
+              { id: "b", text: "1100" },
+              { id: "c", text: "1001" },
+              { id: "d", text: "0110" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -298,10 +298,10 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "8" },
+              { id: "a", text: "16" },
               { id: "b", text: "2" },
               { id: "c", text: "4" },
-              { id: "d", text: "16" },
+              { id: "d", text: "8" },
             ],
             correctChoiceId: "c",
           },
@@ -324,11 +324,11 @@ export const lesson51: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "It is stored correctly anyway" },
-              { id: "b", text: "It wraps around or causes an error (overflow)" },
+              { id: "b", text: "It is rounded to the nearest value" },
               { id: "c", text: "The register automatically doubles in size" },
-              { id: "d", text: "It is rounded to the nearest value" },
+              { id: "d", text: "It wraps around or causes an error (overflow)" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -349,11 +349,11 @@ export const lesson51: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "128" },
-              { id: "b", text: "255" },
+              { id: "b", text: "512" },
               { id: "c", text: "256" },
-              { id: "d", text: "512" },
+              { id: "d", text: "255" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

@@ -84,22 +84,22 @@ export const lesson62: Lesson = {
             "choices": [
               {
                 "id": "a",
-                "text": "1 m"
+                "text": "0.1 mm"
               },
               {
                 "id": "b",
-                "text": "1 cm"
-              },
-              {
-                "id": "c",
                 "text": "1 mm"
               },
               {
+                "id": "c",
+                "text": "1 cm"
+              },
+              {
                 "id": "d",
-                "text": "0.1 mm"
+                "text": "1 m"
               }
             ],
-            "correctChoiceId": "c"
+            "borrectChoiceId": "c"
           },
           "markscheme": {
             "principles": [
@@ -357,11 +357,11 @@ export const lesson62: Lesson = {
             "choices": [
               {
                 "id": "a",
-                "text": "use a beaker for the titre"
+                "text": "record the titre to the nearest 0.05 cm³"
               },
               {
                 "id": "b",
-                "text": "record the titre to the nearest 0.05 cm³"
+                "text": "use a beaker for the titre"
               },
               {
                 "id": "c",
@@ -372,7 +372,7 @@ export const lesson62: Lesson = {
                 "text": "add indicator after the endpoint"
               }
             ],
-            "correctChoiceId": "b"
+            "correctChoiceId": "a"
           },
           "markscheme": {
             "principles": [

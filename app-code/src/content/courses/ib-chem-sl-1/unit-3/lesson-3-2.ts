@@ -54,12 +54,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "They contain delocalised electrons that can move and carry charge" },
-              { id: "b", text: "They contain free ions that move through the solid" },
+              { id: "a", text: "They are made of molecules" },
+              { id: "b", text: "They contain delocalised electrons that can move and carry charge" },
               { id: "c", text: "They have covalent bonds that break easily" },
-              { id: "d", text: "They are made of molecules" },
+              { id: "d", text: "They contain free ions that move through the solid" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -83,11 +83,11 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$\\mathrm{CO_2}$" },
-              { id: "b", text: "Diamond" },
-              { id: "c", text: "$\\mathrm{NaCl}$" },
-              { id: "d", text: "$\\mathrm{H_2O}$" },
+              { id: "b", text: "$\\mathrm{NaCl}$" },
+              { id: "c", text: "$\\mathrm{H_2O}$" },
+              { id: "d", text: "Diamond" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -165,12 +165,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Electrons shared in fixed pairs between specific atoms" },
-              { id: "b", text: "Electrons free to move throughout the metal lattice" },
-              { id: "c", text: "Ions that have gained extra electrons" },
-              { id: "d", text: "Protons moving between the ions" },
+              { id: "a", text: "Electrons free to move throughout the metal lattice" },
+              { id: "b", text: "Ions that have gained extra electrons" },
+              { id: "c", text: "Protons moving between the ions" },
+              { id: "d", text: "Electrons shared in fixed pairs between specific atoms" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -193,10 +193,10 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It contains free ions between the layers" },
+              { id: "a", text: "It contains atoms of a metal" },
               { id: "b", text: "Each carbon atom has a delocalised electron within the layers" },
-              { id: "c", text: "The layers are joined by ionic bonds" },
-              { id: "d", text: "It contains atoms of a metal" },
+              { id: "c", text: "It contains free ions between the layers" },
+              { id: "d", text: "The layers are joined by ionic bonds" },
             ],
             correctChoiceId: "b",
           },
@@ -221,12 +221,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "isotopes" },
-              { id: "b", text: "allotropes" },
+              { id: "a", text: "isomers" },
+              { id: "b", text: "isotopes" },
               { id: "c", text: "ions" },
-              { id: "d", text: "isomers" },
+              { id: "d", text: "allotropes" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -249,12 +249,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Diamond" },
-              { id: "b", text: "Graphite" },
-              { id: "c", text: "$\\mathrm{SiO_2}$" },
-              { id: "d", text: "$\\mathrm{CO_2}$" },
+              { id: "a", text: "$\\mathrm{CO_2}$" },
+              { id: "b", text: "Diamond" },
+              { id: "c", text: "Graphite" },
+              { id: "d", text: "$\\mathrm{SiO_2}$" },
             ],
-            correctChoiceId: "d",
+            correctChoiceIa: "d",
           },
           markscheme: {
             principles: [
@@ -278,8 +278,8 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Delocalised electrons transfer energy rapidly through the lattice" },
-              { id: "b", text: "The positive ions move freely through the solid" },
-              { id: "c", text: "The covalent bonds between atoms break easily" },
+              { id: "b", text: "The covalent bonds between atoms break easily" },
+              { id: "c", text: "The positive ions move freely through the solid" },
               { id: "d", text: "Metals contain discrete molecules that vibrate" },
             ],
             correctChoiceId: "a",
@@ -529,12 +529,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "London dispersion forces" },
-              { id: "b", text: "Dipole-dipole forces" },
-              { id: "c", text: "Hydrogen bonding" },
-              { id: "d", text: "Ionic bonding" },
+              { id: "a", text: "Hydrogen bonding" },
+              { id: "b", text: "Ionic bonding" },
+              { id: "c", text: "Dipole-dipole forces" },
+              { id: "d", text: "London dispersion forces" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -557,12 +557,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Water molecules are larger" },
-              { id: "b", text: "Water forms hydrogen bonds, a stronger intermolecular force than the dipole-dipole forces in $\\mathrm{H_2S}$" },
+              { id: "a", text: "Water is ionic" },
+              { id: "b", text: "Water molecules are larger" },
               { id: "c", text: "The O–H covalent bond is stronger than the S–H bond" },
-              { id: "d", text: "Water is ionic" },
+              { id: "d", text: "Water forms hydrogen bonds, a stronger intermolecular force than the dipole-dipole forces in $\\mathrm{H_2S}$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -640,12 +640,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "London dispersion forces" },
+              { id: "a", text: "Ionic bonding" },
               { id: "b", text: "Dipole-dipole forces" },
-              { id: "c", text: "Hydrogen bonding" },
-              { id: "d", text: "Ionic bonding" },
+              { id: "c", text: "London dispersion forces" },
+              { id: "d", text: "Hydrogen bonding" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -669,11 +669,11 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$\\mathrm{CH_4}$" },
-              { id: "b", text: "$\\mathrm{NH_3}$" },
-              { id: "c", text: "$\\mathrm{CO_2}$" },
+              { id: "b", text: "$\\mathrm{CO_2}$" },
+              { id: "c", text: "$\\mathrm{NH_3}$" },
               { id: "d", text: "$\\mathrm{H_2}$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -696,12 +696,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Hydrogen bonds hold water molecules in an open lattice, making ice less dense" },
-              { id: "b", text: "Ice is warmer than liquid water" },
-              { id: "c", text: "Water molecules repel each other strongly in the liquid" },
+              { id: "a", text: "Water molecules repel each other strongly in the liquid" },
+              { id: "b", text: "Hydrogen bonds hold water molecules in an open lattice, making ice less dense" },
+              { id: "c", text: "Ice is warmer than liquid water" },
               { id: "d", text: "Ice contains ionic bonds" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -725,11 +725,11 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "smaller size and mass" },
-              { id: "b", text: "larger size and more electrons" },
-              { id: "c", text: "fewer atoms" },
-              { id: "d", text: "no electrons at all" },
+              { id: "b", text: "fewer atoms" },
+              { id: "c", text: "no electrons at all" },
+              { id: "d", text: "larger size and more electrons" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -752,12 +752,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\mathrm{H_2O}$" },
-              { id: "b", text: "$\\mathrm{HCl}$" },
-              { id: "c", text: "$\\mathrm{HF}$" },
+              { id: "a", text: "$\\mathrm{HCl}$" },
+              { id: "b", text: "$\\mathrm{HF}$" },
+              { id: "c", text: "$\\mathrm{H_2O}$" },
               { id: "d", text: "$\\mathrm{NH_3}$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

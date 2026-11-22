@@ -52,12 +52,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Using contractions like 'don't'" },
-              { id: "b", text: "Complete sentences with no contractions" },
-              { id: "c", text: "Using emojis" },
-              { id: "d", text: "Starting with 'Hey!'" },
+              { id: "a", text: "Using emojis" },
+              { id: "b", text: "Starting with 'Hey!'" },
+              { id: "c", text: "Complete sentences with no contractions" },
+              { id: "d", text: "Using contractions like 'don't'" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -146,12 +146,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Cheers" },
-              { id: "b", text: "Yours faithfully" },
-              { id: "c", text: "See ya" },
-              { id: "d", text: "Lol, thanks" },
+              { id: "a", text: "Yours faithfully" },
+              { id: "b", text: "See ya" },
+              { id: "c", text: "Lol, thanks" },
+              { id: "d", text: "Cheers" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -173,12 +173,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Dear Sir" },
-              { id: "b", text: "To whom it may concern" },
-              { id: "c", text: "Hi Sam!" },
-              { id: "d", text: "Dear Ms Jones" },
+              { id: "a", text: "Hi Sam!" },
+              { id: "b", text: "Dear Sir" },
+              { id: "c", text: "Dear Ms Jones" },
+              { id: "d", text: "To whom it may concern" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -200,12 +200,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "grab" },
-              { id: "b", text: "purchase" },
+              { id: "a", text: "purchase" },
+              { id: "b", text: "grab" },
               { id: "c", text: "get" },
               { id: "d", text: "score" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -227,12 +227,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Complete sentences with no contractions" },
-              { id: "b", text: "Contractions and slang" },
-              { id: "c", text: "Impersonal constructions" },
-              { id: "d", text: "A formal sign-off" },
+              { id: "a", text: "Contractions and slang" },
+              { id: "b", text: "Impersonal constructions" },
+              { id: "c", text: "A formal sign-off" },
+              { id: "d", text: "Complete sentences with no contractions" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -254,12 +254,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "I am writing to inform you that the event has been cancelled." },
+              { id: "a", text: "The event has been cancelled." },
               { id: "b", text: "Hey, the event's off lol" },
-              { id: "c", text: "The event has been cancelled." },
+              { id: "c", text: "I am writing to inform you that the event has been cancelled." },
               { id: "d", text: "Kindly be advised that the aforesaid event stands cancelled." },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -389,12 +389,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "I think the plan is bad." },
-              { id: "b", text: "It is recommended that the plan be reviewed." },
-              { id: "c", text: "You should check the plan." },
-              { id: "d", text: "The plan is bad, trust me." },
+              { id: "a", text: "You should check the plan." },
+              { id: "b", text: "The plan is bad, trust me." },
+              { id: "c", text: "It is recommended that the plan be reviewed." },
+              { id: "d", text: "I think the plan is bad." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -475,12 +475,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A close friend" },
-              { id: "b", text: "A person in a position of authority" },
-              { id: "c", text: "A general social media audience" },
-              { id: "d", text: "No one in particular" },
+              { id: "a", text: "No one in particular" },
+              { id: "b", text: "A general social media audience" },
+              { id: "c", text: "A person in a position of authority" },
+              { id: "d", text: "A close friend" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -577,8 +577,8 @@ export const lesson22: Lesson = {
             choices: [
               { id: "a", text: "Your friends" },
               { id: "b", text: "A person in a position of authority at school" },
-              { id: "c", text: "The general public" },
-              { id: "d", text: "No one in particular" },
+              { id: "c", text: "No one in particular" },
+              { id: "d", text: "The general public" },
             ],
             correctChoiceId: "b",
           },
@@ -602,12 +602,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Nothing else" },
-              { id: "b", text: "The content and level of detail included" },
+              { id: "a", text: "The content and level of detail included" },
+              { id: "b", text: "Only the font" },
               { id: "c", text: "Only the spelling" },
-              { id: "d", text: "Only the font" },
+              { id: "d", text: "Nothing else" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -630,11 +630,11 @@ export const lesson22: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Assume they know what it is" },
-              { id: "b", text: "Explain the customs and traditions clearly" },
+              { id: "b", text: "Write only in slang" },
               { id: "c", text: "Skip the topic entirely" },
-              { id: "d", text: "Write only in slang" },
+              { id: "d", text: "Explain the customs and traditions clearly" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -656,12 +656,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Give me more time." },
-              { id: "b", text: "You must extend my deadline." },
-              { id: "c", text: "Could I please have a short extension on the deadline?" },
-              { id: "d", text: "Deadline extension. Now." },
+              { id: "a", text: "Could I please have a short extension on the deadline?" },
+              { id: "b", text: "Deadline extension. Now." },
+              { id: "c", text: "You must extend my deadline." },
+              { id: "d", text: "Give me more time." },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -683,12 +683,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It never differs between cultures" },
-              { id: "b", text: "Politeness conventions vary across cultures" },
-              { id: "c", text: "Writing is identical everywhere" },
-              { id: "d", text: "Audiences always prefer maximum formality" },
+              { id: "a", text: "Writing is identical everywhere" },
+              { id: "b", text: "It never differs between cultures" },
+              { id: "c", text: "Audiences always prefer maximum formality" },
+              { id: "d", text: "Politeness conventions vary across cultures" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -819,12 +819,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Simplified explanations of everything" },
-              { id: "b", text: "Precise technical vocabulary and less basic explanation" },
-              { id: "c", text: "Slang and abbreviations" },
-              { id: "d", text: "A very short text with no detail" },
+              { id: "a", text: "Slang and abbreviations" },
+              { id: "b", text: "Simplified explanations of everything" },
+              { id: "c", text: "A very short text with no detail" },
+              { id: "d", text: "Precise technical vocabulary and less basic explanation" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

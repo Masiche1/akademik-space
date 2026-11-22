@@ -56,12 +56,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Multiple independent melodies" },
-              { id: "b", text: "A single melody with chordal accompaniment" },
-              { id: "c", text: "A single unaccompanied melody" },
-              { id: "d", text: "Only rhythm without pitch" },
+              { id: "a", text: "Only rhythm without pitch" },
+              { id: "b", text: "Multiple independent melodies" },
+              { id: "c", text: "A single melody with chordal accompaniment" },
+              { id: "d", text: "A single unaccompanied melody" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -163,12 +163,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A-B structure with two contrasting sections" },
-              { id: "b", text: "A-B-A structure with a return of the opening" },
-              { id: "c", text: "Continuous music with no repeated sections" },
+              { id: "a", text: "A-B-A structure with a return of the opening" },
+              { id: "b", text: "Continuous music with no repeated sections" },
+              { id: "c", text: "A-B structure with two contrasting sections" },
               { id: "d", text: "A series of unrelated episodes" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -192,12 +192,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A short musical idea that recurs and unifies a composition" },
-              { id: "b", text: "The loudest section of a piece" },
-              { id: "c", text: "A complete three-minute song" },
-              { id: "d", text: "A chord progression that never changes" },
+              { id: "a", text: "A complete three-minute song" },
+              { id: "b", text: "A short musical idea that recurs and unifies a composition" },
+              { id: "c", text: "A chord progression that never changes" },
+              { id: "d", text: "The loudest section of a piece" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -221,12 +221,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Homophonic" },
-              { id: "b", text: "Polyphonic" },
-              { id: "c", text: "Monophonic" },
+              { id: "a", text: "Polyphonic" },
+              { id: "b", text: "Monophonic" },
+              { id: "c", text: "Homophonic" },
               { id: "d", text: "Heterophonic" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -293,9 +293,9 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A-B-A structure" },
+              { id: "a", text: "A single unbroken section" },
               { id: "b", text: "A-B-A-C-A structure with a recurring main section" },
-              { id: "c", text: "A single unbroken section" },
+              { id: "c", text: "A-B-A structure" },
               { id: "d", text: "Random ordering of sections" },
             ],
             correctChoiceId: "b",
@@ -343,12 +343,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A melody with chordal accompaniment" },
-              { id: "b", text: "Multiple independent melodic lines sounding simultaneously" },
-              { id: "c", text: "A single unaccompanied melody" },
-              { id: "d", text: "Rhythm without pitched melody" },
+              { id: "a", text: "A single unaccompanied melody" },
+              { id: "b", text: "Rhythm without pitched melody" },
+              { id: "c", text: "Multiple independent melodic lines sounding simultaneously" },
+              { id: "d", text: "A melody with chordal accompaniment" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -394,12 +394,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Music built from repeated sections" },
-              { id: "b", text: "Music that flows continuously without repeated sections" },
-              { id: "c", text: "A piece with three distinct parts" },
-              { id: "d", text: "Music written quickly" },
+              { id: "a", text: "Music written quickly" },
+              { id: "b", text: "A piece with three distinct parts" },
+              { id: "c", text: "Music built from repeated sections" },
+              { id: "d", text: "Music that flows continuously without repeated sections" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -505,12 +505,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Making notes louder" },
-              { id: "b", text: "Lengthening note values" },
-              { id: "c", text: "Adding more instruments" },
-              { id: "d", text: "Changing the key" },
+              { id: "a", text: "Changing the key" },
+              { id: "b", text: "Adding more instruments" },
+              { id: "c", text: "Lengthening note values" },
+              { id: "d", text: "Making notes louder" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -606,10 +606,10 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Moving it to a higher pitch" },
+              { id: "a", text: "Repeating only part of it" },
               { id: "b", text: "Reversing the direction of its intervals" },
-              { id: "c", text: "Making the notes longer" },
-              { id: "d", text: "Repeating only part of it" },
+              { id: "c", text: "Moving it to a higher pitch" },
+              { id: "d", text: "Making the notes longer" },
             ],
             correctChoiceId: "b",
           },
@@ -635,12 +635,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Lengthening its note values" },
-              { id: "b", text: "Shortening its note values" },
-              { id: "c", text: "Making it louder" },
-              { id: "d", text: "Removing its harmony" },
+              { id: "a", text: "Shortening its note values" },
+              { id: "b", text: "Lengthening its note values" },
+              { id: "c", text: "Removing its harmony" },
+              { id: "d", text: "Making it louder" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -664,12 +664,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Using only part of a motif or theme" },
+              { id: "a", text: "Playing the motif faster" },
               { id: "b", text: "Adding a new harmony" },
-              { id: "c", text: "Playing the motif faster" },
+              { id: "c", text: "Using only part of a motif or theme" },
               { id: "d", text: "Combining two different motifs" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -716,8 +716,8 @@ export const lesson31: Lesson = {
             choices: [
               { id: "a", text: "At the same pitch level" },
               { id: "b", text: "At different pitch levels" },
-              { id: "c", text: "With completely new notes" },
-              { id: "d", text: "Only in the bass" },
+              { id: "c", text: "Only in the bass" },
+              { id: "d", text: "With completely new notes" },
             ],
             correctChoiceId: "b",
           },
@@ -744,11 +744,11 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Reversing its intervals" },
-              { id: "b", text: "Moving it to a different pitch level unchanged" },
-              { id: "c", text: "Lengthening its notes" },
+              { id: "b", text: "Lengthening its notes" },
+              { id: "c", text: "Moving it to a different pitch level unchanged" },
               { id: "d", text: "Deleting some of its notes" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -816,12 +816,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Inversion" },
-              { id: "b", text: "Augmentation" },
-              { id: "c", text: "Transposition" },
-              { id: "d", text: "Fragmentation" },
+              { id: "a", text: "Fragmentation" },
+              { id: "b", text: "Transposition" },
+              { id: "c", text: "Augmentation" },
+              { id: "d", text: "Inversion" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [

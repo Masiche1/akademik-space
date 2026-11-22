@@ -52,12 +52,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Centimetres" },
-              { id: "b", text: "Metres" },
-              { id: "c", text: "Millimetres" },
-              { id: "d", text: "Kilograms" },
+              { id: "a", text: "Metres" },
+              { id: "b", text: "Millimetres" },
+              { id: "c", text: "Kilograms" },
+              { id: "d", text: "Centimetres" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -152,12 +152,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Metres" },
-              { id: "b", text: "Centimetres" },
-              { id: "c", text: "Kilometres" },
-              { id: "d", text: "Kilograms" },
+              { id: "a", text: "Kilometres" },
+              { id: "b", text: "Metres" },
+              { id: "c", text: "Kilograms" },
+              { id: "d", text: "Centimetres" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -195,9 +195,9 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Ribbon A" },
+              { id: "a", text: "They are the same" },
               { id: "b", text: "Ribbon B" },
-              { id: "c", text: "They are the same" },
+              { id: "c", text: "Ribbon A" },
               { id: "d", text: "Cannot tell" },
             ],
             correctChoiceId: "b",
@@ -257,8 +257,8 @@ export const lesson22: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$8$ m" },
-              { id: "b", text: "$8$ cm" },
-              { id: "c", text: "$800$ m" },
+              { id: "b", text: "$800$ m" },
+              { id: "c", text: "$8$ cm" },
               { id: "d", text: "$80$ cm" },
             ],
             correctChoiceId: "a",
@@ -339,12 +339,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$2$ m" },
-              { id: "b", text: "$150$ cm" },
-              { id: "c", text: "$300$ cm" },
-              { id: "d", text: "$2$ m and $300$ cm are equal" },
+              { id: "a", text: "$300$ cm" },
+              { id: "b", text: "$2$ m and $300$ cm are equal" },
+              { id: "c", text: "$2$ m" },
+              { id: "d", text: "$150$ cm" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -523,12 +523,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The space inside a shape" },
-              { id: "b", text: "The distance around the outside edge of a shape" },
-              { id: "c", text: "The number of sides" },
-              { id: "d", text: "The longest side" },
+              { id: "a", text: "The number of sides" },
+              { id: "b", text: "The longest side" },
+              { id: "c", text: "The space inside a shape" },
+              { id: "d", text: "The distance around the outside edge of a shape" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -567,11 +567,11 @@ export const lesson22: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Centimetres (cm)" },
-              { id: "b", text: "Square centimetres (cm$^2$)" },
-              { id: "c", text: "Grams (g)" },
-              { id: "d", text: "Litres (L)" },
+              { id: "b", text: "Grams (g)" },
+              { id: "c", text: "Litres (L)" },
+              { id: "d", text: "Square centimetres (cm$^2$)" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -593,11 +593,11 @@ export const lesson22: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$10$ cm" },
-              { id: "b", text: "$20$ cm" },
+              { id: "b", text: "$15$ cm" },
               { id: "c", text: "$25$ cm" },
-              { id: "d", text: "$15$ cm" },
+              { id: "d", text: "$20$ cm" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -619,11 +619,11 @@ export const lesson22: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Add all four sides" },
-              { id: "b", text: "Multiply length by width" },
-              { id: "c", text: "Count the corners" },
+              { id: "b", text: "Count the corners" },
+              { id: "c", text: "Multiply length by width" },
               { id: "d", text: "Subtract the sides" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -645,12 +645,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Shape A — $25$ cm$^2$" },
-              { id: "b", text: "Shape B — $24$ cm$^2$" },
-              { id: "c", text: "They are equal" },
-              { id: "d", text: "Cannot tell" },
+              { id: "a", text: "They are equal" },
+              { id: "b", text: "Shape A — $25$ cm$^2$" },
+              { id: "c", text: "Cannot tell" },
+              { id: "d", text: "Shape B — $24$ cm$^2$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -728,12 +728,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Yes — same perimeter means same area" },
-              { id: "b", text: "No — $24$ cm$^2$ vs $21$ cm$^2$" },
+              { id: "a", text: "No — $24$ cm$^2$ vs $21$ cm$^2$" },
+              { id: "b", text: "Cannot tell" },
               { id: "c", text: "Yes — both are rectangles" },
-              { id: "d", text: "Cannot tell" },
+              { id: "d", text: "Yes — same perimeter means same area" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -775,12 +775,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The square — $25$ cm$^2$" },
-              { id: "b", text: "The rectangle — $16$ cm$^2$" },
-              { id: "c", text: "They are equal" },
-              { id: "d", text: "Cannot tell" },
+              { id: "a", text: "Cannot tell" },
+              { id: "b", text: "They are equal" },
+              { id: "c", text: "The rectangle — $16$ cm$^2$" },
+              { id: "d", text: "The square — $25$ cm$^2$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

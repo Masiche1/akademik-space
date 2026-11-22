@@ -55,12 +55,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "List all artworks made" },
-              { id: "b", text: "Document and analyse artistic growth and learning" },
+              { id: "a", text: "Describe the school art room" },
+              { id: "b", text: "List all artworks made" },
               { id: "c", text: "Praise the artist's talent" },
-              { id: "d", text: "Describe the school art room" },
+              { id: "d", text: "Document and analyse artistic growth and learning" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -156,12 +156,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A diary of daily events" },
-              { id: "b", text: "Structured evidence of artistic development and learning" },
-              { id: "c", text: "A list of all artworks made" },
+              { id: "a", text: "A list of all artworks made" },
+              { id: "b", text: "A diary of daily events" },
+              { id: "c", text: "Structured evidence of artistic development and learning" },
               { id: "d", text: "A biography of the artist" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -206,12 +206,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "'I worked very hard this year.'" },
-              { id: "b", text: "'My March portrait shows accurate proportions, unlike my September attempt.'" },
-              { id: "c", text: "'Art is really fun.'" },
-              { id: "d", text: "'I like painting.'" },
+              { id: "a", text: "'I like painting.'" },
+              { id: "b", text: "'Art is really fun.'" },
+              { id: "c", text: "'I worked very hard this year.'" },
+              { id: "d", text: "'My March portrait shows accurate proportions, unlike my September attempt.'" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -258,12 +258,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Hiding it to look more successful" },
-              { id: "b", text: "What went wrong and what was learned from it" },
-              { id: "c", text: "Blaming the materials only" },
-              { id: "d", text: "Skipping it entirely" },
+              { id: "a", text: "Blaming the materials only" },
+              { id: "b", text: "Skipping it entirely" },
+              { id: "c", text: "What went wrong and what was learned from it" },
+              { id: "d", text: "Hiding it to look more successful" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -311,12 +311,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Only polished successes" },
-              { id: "b", text: "Struggle, honest analysis and clear learning" },
-              { id: "c", text: "Technical jargon throughout" },
+              { id: "a", text: "Technical jargon throughout" },
+              { id: "b", text: "Only polished successes" },
+              { id: "c", text: "Struggle, honest analysis and clear learning" },
               { id: "d", text: "Length without reflection" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -366,12 +366,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Random order of thoughts" },
-              { id: "b", text: "Intention → process → challenges → breakthroughs → learning" },
+              { id: "a", text: "Intention → process → challenges → breakthroughs → learning" },
+              { id: "b", text: "Only grades achieved" },
               { id: "c", text: "Only the final artwork" },
-              { id: "d", text: "Only grades achieved" },
+              { id: "d", text: "Random order of thoughts" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -428,11 +428,11 @@ export const lesson63: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Proof of attendance" },
-              { id: "b", text: "Evidence of thinking, experimentation and development" },
-              { id: "c", text: "A grading curve" },
+              { id: "b", text: "A grading curve" },
+              { id: "c", text: "Evidence of thinking, experimentation and development" },
               { id: "d", text: "Marketing material" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -515,12 +515,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Only a final exam" },
-              { id: "b", text: "Comparative study, exhibition and reflective portfolio" },
+              { id: "a", text: "A written test on art history" },
+              { id: "b", text: "Only a final exam" },
               { id: "c", text: "Only studio work" },
-              { id: "d", text: "A written test on art history" },
+              { id: "d", text: "Comparative study, exhibition and reflective portfolio" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -616,12 +616,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Only finished paintings" },
-              { id: "b", text: "Process documentation such as sketchbook pages" },
-              { id: "c", text: "Only photographs of work" },
-              { id: "d", text: "A curriculum vitae" },
+              { id: "a", text: "Process documentation such as sketchbook pages" },
+              { id: "b", text: "Only finished paintings" },
+              { id: "c", text: "A curriculum vitae" },
+              { id: "d", text: "Only photographs of work" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -666,12 +666,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "All types of work equally" },
-              { id: "b", text: "Three-dimensional or temporary work that cannot be shown directly" },
-              { id: "c", text: "Sketchbook pages only" },
-              { id: "d", text: "Nothing — it is optional" },
+              { id: "a", text: "Nothing — it is optional" },
+              { id: "b", text: "Sketchbook pages only" },
+              { id: "c", text: "All types of work equally" },
+              { id: "d", text: "Three-dimensional or temporary work that cannot be shown directly" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -718,12 +718,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "List every material used" },
-              { id: "b", text: "Explain the artist's practice, intentions and development" },
-              { id: "c", text: "Praise the school's art department" },
-              { id: "d", text: "Repeat the critical essay" },
+              { id: "a", text: "Explain the artist's practice, intentions and development" },
+              { id: "b", text: "List every material used" },
+              { id: "c", text: "Repeat the critical essay" },
+              { id: "d", text: "Praise the school's art department" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -771,12 +771,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A diary of the school year" },
-              { id: "b", text: "The artist's professional identity and evidence of sustained practice" },
+              { id: "a", text: "The artist's professional identity and evidence of sustained practice" },
+              { id: "b", text: "A diary of the school year" },
               { id: "c", text: "A storage container for artwork" },
               { id: "d", text: "A grade sheet" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -826,12 +826,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Size only" },
-              { id: "b", text: "Range, growth, process evidence and presentation" },
-              { id: "c", text: "Colour only" },
+              { id: "a", text: "Colour only" },
+              { id: "b", text: "Size only" },
+              { id: "c", text: "Range, growth, process evidence and presentation" },
               { id: "d", text: "The teacher's personal preference only" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -887,12 +887,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Guarantees higher marks" },
-              { id: "b", text: "Reveals gaps and presentation issues early" },
-              { id: "c", text: "Replaces the need for reflection" },
-              { id: "d", text: "Is legally required" },
+              { id: "a", text: "Is legally required" },
+              { id: "b", text: "Replaces the need for reflection" },
+              { id: "c", text: "Guarantees higher marks" },
+              { id: "d", text: "Reveals gaps and presentation issues early" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

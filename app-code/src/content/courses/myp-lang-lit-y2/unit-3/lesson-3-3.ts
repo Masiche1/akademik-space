@@ -59,12 +59,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "They are the same thing" },
-              { id: "b", text: "Editing improves content and style; proofreading checks final spelling/punctuation" },
-              { id: "c", text: "Proofreading happens first" },
-              { id: "d", text: "Editing is only for spelling" },
+              { id: "a", text: "Editing is only for spelling" },
+              { id: "b", text: "Proofreading happens first" },
+              { id: "c", text: "They are the same thing" },
+              { id: "d", text: "Editing improves content and style; proofreading checks final spelling/punctuation" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -180,12 +180,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Fixing spelling mistakes" },
-              { id: "b", text: "Rethinking and improving content, structure and style" },
-              { id: "c", text: "Writing the first draft" },
-              { id: "d", text: "Checking punctuation" },
+              { id: "a", text: "Rethinking and improving content, structure and style" },
+              { id: "b", text: "Writing the first draft" },
+              { id: "c", text: "Checking punctuation" },
+              { id: "d", text: "Fixing spelling mistakes" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

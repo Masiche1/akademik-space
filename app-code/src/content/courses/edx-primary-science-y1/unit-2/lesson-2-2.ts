@@ -51,10 +51,10 @@ export const lesson112: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Lamp" },
+              { id: "a", text: "Torch" },
               { id: "b", text: "Sun" },
               { id: "c", text: "Candle" },
-              { id: "d", text: "Torch" },
+              { id: "d", text: "Lamp" },
             ],
             correctChoiceId: "b",
           },
@@ -81,12 +81,12 @@ export const lesson112: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It makes its own light" },
-              { id: "b", text: "It reflects sunlight" },
-              { id: "c", text: "It's hot" },
-              { id: "d", text: "It's close" },
+              { id: "a", text: "It's hot" },
+              { id: "b", text: "It's close" },
+              { id: "c", text: "It reflects sunlight" },
+              { id: "d", text: "It makes its own light" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -219,10 +219,10 @@ export const lesson112: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Light" },
+              { id: "a", text: "Heat" },
               { id: "b", text: "Vibrations" },
-              { id: "c", text: "Heat" },
-              { id: "d", text: "Colour" },
+              { id: "c", text: "Colour" },
+              { id: "d", text: "Light" },
             ],
             correctChoiceId: "b",
           },
@@ -249,12 +249,12 @@ export const lesson112: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Whisper" },
-              { id: "b", text: "Hit harder or use bigger object" },
-              { id: "c", text: "Cover ears" },
-              { id: "d", text: "Move away" },
+              { id: "a", text: "Cover ears" },
+              { id: "b", text: "Whisper" },
+              { id: "c", text: "Move away" },
+              { id: "d", text: "Hit harder or use bigger object" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

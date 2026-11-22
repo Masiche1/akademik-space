@@ -67,10 +67,10 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Ending + message + greeting" },
+              { id: "a", text: "Message + greeting + ending" },
               { id: "b", text: "Greeting + message + ending" },
-              { id: "c", text: "Message + greeting + ending" },
-              { id: "d", text: "Ending + greeting + message" },
+              { id: "c", text: "Ending + greeting + message" },
+              { id: "d", text: "Ending + message + greeting" },
             ],
             correctChoiceId: "b",
           },
@@ -222,12 +222,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Dear Sir or Madam" },
-              { id: "b", text: "Hi Sam" },
-              { id: "c", text: "To whom it may concern" },
-              { id: "d", text: "Yours faithfully" },
+              { id: "a", text: "To whom it may concern" },
+              { id: "b", text: "Dear Sir or Madam" },
+              { id: "c", text: "Yours faithfully" },
+              { id: "d", text: "Hi Sam" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -261,12 +261,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Love," },
-              { id: "b", text: "See ya!" },
-              { id: "c", text: "Best wishes," },
-              { id: "d", text: "Bye bye" },
+              { id: "a", text: "Best wishes," },
+              { id: "b", text: "Bye bye" },
+              { id: "c", text: "See ya!" },
+              { id: "d", text: "Love," },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -302,14 +302,14 @@ export const lesson51: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "To invite Lee to a party" },
+              { id: "b", text: "To say goodbye for the last time" },
+              { id: "c", text: "To ask for homework help" },
               {
-                id: "b",
+                id: "d",
                 text: "To say Max cannot come to class and give a reason",
               },
-              { id: "c", text: "To ask for homework help" },
-              { id: "d", text: "To say goodbye for the last time" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -350,12 +350,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The ending" },
-              { id: "b", text: "The greeting" },
+              { id: "a", text: "The greeting" },
+              { id: "b", text: "The ending" },
               { id: "c", text: "The subject line" },
               { id: "d", text: "The signature only" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -396,12 +396,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Very formal office language" },
-              { id: "b", text: "Friendly but polite" },
-              { id: "c", text: "Slang and jokes only" },
-              { id: "d", text: "No greeting at all" },
+              { id: "a", text: "Slang and jokes only" },
+              { id: "b", text: "No greeting at all" },
+              { id: "c", text: "Very formal office language" },
+              { id: "d", text: "Friendly but polite" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -445,14 +445,14 @@ export const lesson51: Lesson = {
                 id: "a",
                 text: "Dear Sir or Madam, I regret to inform you that I will be unable to attend.",
               },
+              { id: "b", text: "I am writing to confirm my attendance." },
               {
-                id: "b",
+                id: "c",
                 text: "Hi Sam, Sorry, I can't come on Saturday because I am busy. See you soon!",
               },
-              { id: "c", text: "To whom it may concern." },
-              { id: "d", text: "I am writing to confirm my attendance." },
+              { id: "d", text: "To whom it may concern." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -769,8 +769,8 @@ export const lesson51: Lesson = {
             choices: [
               { id: "a", text: "To say who sent it" },
               { id: "b", text: "To say what the email is about" },
-              { id: "c", text: "To end the email" },
-              { id: "d", text: "To greet the reader" },
+              { id: "c", text: "To greet the reader" },
+              { id: "d", text: "To end the email" },
             ],
             correctChoiceId: "b",
           },
@@ -927,12 +927,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "To" },
-              { id: "b", text: "Subject" },
+              { id: "a", text: "Subject" },
+              { id: "b", text: "To" },
               { id: "c", text: "From" },
               { id: "d", text: "Date" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -966,12 +966,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Hi teacher" },
-              { id: "b", text: "Homework" },
-              { id: "c", text: "Question about my homework" },
-              { id: "d", text: "I need help please please please" },
+              { id: "a", text: "Question about my homework" },
+              { id: "b", text: "I need help please please please" },
+              { id: "c", text: "Hi teacher" },
+              { id: "d", text: "Homework" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1006,12 +1006,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Love you!" },
-              { id: "b", text: "See ya!" },
-              { id: "c", text: "Yours faithfully" },
+              { id: "a", text: "Yours faithfully" },
+              { id: "b", text: "Love you!" },
+              { id: "c", text: "See ya!" },
               { id: "d", text: "Cheers" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1050,12 +1050,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "To/From/Subject, greeting, body, ending" },
-              { id: "b", text: "Greeting, subject, body, ending" },
-              { id: "c", text: "Body, greeting, subject, ending" },
-              { id: "d", text: "Ending, body, greeting, subject" },
+              { id: "a", text: "Greeting, subject, body, ending" },
+              { id: "b", text: "Body, greeting, subject, ending" },
+              { id: "c", text: "Ending, body, greeting, subject" },
+              { id: "d", text: "To/From/Subject, greeting, body, ending" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1094,12 +1094,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A note on the fridge" },
-              { id: "b", text: "An email to the class" },
-              { id: "c", text: "A shopping list" },
-              { id: "d", text: "A form" },
+              { id: "a", text: "A shopping list" },
+              { id: "b", text: "A note on the fridge" },
+              { id: "c", text: "A form" },
+              { id: "d", text: "An email to the class" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1138,12 +1138,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Meeting" },
-              { id: "b", text: "Time" },
-              { id: "c", text: "Meeting moved to Thursday at 3pm" },
-              { id: "d", text: "Hello" },
+              { id: "a", text: "Meeting moved to Thursday at 3pm" },
+              { id: "b", text: "Meeting" },
+              { id: "c", text: "Hello" },
+              { id: "d", text: "Time" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [

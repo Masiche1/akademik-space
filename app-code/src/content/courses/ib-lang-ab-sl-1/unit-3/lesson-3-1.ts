@@ -52,12 +52,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Write the answers first" },
-              { id: "b", text: "Decide what information you need" },
+              { id: "a", text: "Decide what information you need" },
+              { id: "b", text: "Close your eyes and sleep" },
               { id: "c", text: "Speak loudly" },
-              { id: "d", text: "Close your eyes and sleep" },
+              { id: "d", text: "Write the answers first" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -146,12 +146,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Lucy" },
+              { id: "a", text: "Luckey" },
               { id: "b", text: "Lucie" },
-              { id: "c", text: "Luckey" },
+              { id: "c", text: "Lucy" },
               { id: "d", text: "Lusey" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -173,10 +173,10 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Ends the conversation" },
+              { id: "a", text: "Says goodbye" },
               { id: "b", text: "Asks the speaker to say the number again" },
               { id: "c", text: "Gives a new number" },
-              { id: "d", text: "Says goodbye" },
+              { id: "d", text: "Ends the conversation" },
             ],
             correctChoiceId: "b",
           },
@@ -205,12 +205,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Green Street" },
-              { id: "b", text: "Number five, Green Street" },
-              { id: "c", text: "Eight thirty" },
-              { id: "d", text: "The class" },
+              { id: "a", text: "Number five, Green Street" },
+              { id: "b", text: "The class" },
+              { id: "c", text: "Green Street" },
+              { id: "d", text: "Eight thirty" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -237,10 +237,10 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Nine students" },
+              { id: "a", text: "Three students" },
               { id: "b", text: "Twelve students" },
-              { id: "c", text: "Three students" },
-              { id: "d", text: "Fifteen students" },
+              { id: "c", text: "Fifteen students" },
+              { id: "d", text: "Nine students" },
             ],
             correctChoiceId: "b",
           },
@@ -265,12 +265,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Guess and say nothing" },
-              { id: "b", text: "Say \"Sorry?\" and ask the speaker to repeat" },
+              { id: "a", text: "Stop listening" },
+              { id: "b", text: "Guess and say nothing" },
               { id: "c", text: "Change the subject completely" },
-              { id: "d", text: "Stop listening" },
+              { id: "d", text: "Say \"Sorry?\" and ask the speaker to repeat" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -292,12 +292,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Translate every word into your language" },
-              { id: "b", text: "Decide which details you need to catch" },
-              { id: "c", text: "Memorise the answers" },
-              { id: "d", text: "Speak first" },
+              { id: "a", text: "Speak first" },
+              { id: "b", text: "Translate every word into your language" },
+              { id: "c", text: "Decide which details you need to catch" },
+              { id: "d", text: "Memorise the answers" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -504,12 +504,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Only one person" },
-              { id: "b", text: "Two people taking turns" },
+              { id: "a", text: "Two people taking turns" },
+              { id: "b", text: "Nobody" },
               { id: "c", text: "A written narrator" },
-              { id: "d", text: "Nobody" },
+              { id: "d", text: "Only one person" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -599,12 +599,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Every single word" },
-              { id: "b", text: "The main fact" },
-              { id: "c", text: "The speaker's name" },
+              { id: "a", text: "The speaker's name" },
+              { id: "b", text: "Every single word" },
+              { id: "c", text: "The main fact" },
               { id: "d", text: "Background music" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -626,12 +626,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A place where trains stop" },
-              { id: "b", text: "A time of day" },
-              { id: "c", text: "A type of ticket" },
-              { id: "d", text: "A person who drives" },
+              { id: "a", text: "A person who drives" },
+              { id: "b", text: "A type of ticket" },
+              { id: "c", text: "A time of day" },
+              { id: "d", text: "A place where trains stop" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -658,12 +658,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Friday afternoon" },
-              { id: "b", text: "After seven" },
-              { id: "c", text: "At the party" },
-              { id: "d", text: "Never" },
+              { id: "a", text: "At the party" },
+              { id: "b", text: "Friday afternoon" },
+              { id: "c", text: "Never" },
+              { id: "d", text: "After seven" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -691,11 +691,11 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "On Tuesdays" },
-              { id: "b", text: "On Mondays" },
-              { id: "c", text: "At ten o'clock" },
-              { id: "d", text: "At weekends" },
+              { id: "b", text: "At ten o'clock" },
+              { id: "c", text: "At weekends" },
+              { id: "d", text: "On Mondays" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -718,12 +718,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Room 4" },
-              { id: "b", text: "Room 9" },
+              { id: "a", text: "Room 9" },
+              { id: "b", text: "Outside" },
               { id: "c", text: "The hall" },
-              { id: "d", text: "Outside" },
+              { id: "d", text: "Room 4" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -745,12 +745,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "One person speaking alone" },
-              { id: "b", text: "Two or more people talking to each other" },
+              { id: "a", text: "Two or more people talking to each other" },
+              { id: "b", text: "One person speaking alone" },
               { id: "c", text: "A written song" },
               { id: "d", text: "A formal letter" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

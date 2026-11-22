@@ -54,12 +54,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "joule (J)" },
-              { id: "b", text: "newton (N)" },
-              { id: "c", text: "pascal (Pa)" },
+              { id: "a", text: "pascal (Pa)" },
+              { id: "b", text: "joule (J)" },
+              { id: "c", text: "newton (N)" },
               { id: "d", text: "watt (W)" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Newton", statement: "1 N = 1 kg m/s²." }],
@@ -80,12 +80,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$12$ N" },
-              { id: "b", text: "$7.0$ N" },
+              { id: "a", text: "$7.0$ N" },
+              { id: "b", text: "$1.3$ N" },
               { id: "c", text: "$0.75$ N" },
-              { id: "d", text: "$1.3$ N" },
+              { id: "d", text: "$12$ N" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "F = ma", statement: "F = ma" }],
@@ -107,12 +107,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$0$ N — the forces cancel" },
-              { id: "b", text: "$20$ N directed downwards on the table" },
-              { id: "c", text: "$20$ N directed upwards on the book" },
-              { id: "d", text: "$20$ N directed downwards on the book" },
+              { id: "a", text: "$20$ N directed upwards on the book" },
+              { id: "b", text: "$20$ N directed downwards on the book" },
+              { id: "c", text: "$20$ N directed downwards on the table" },
+              { id: "d", text: "$0$ N — the forces cancel" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "law", name: "Newton's third law", statement: "For every action force there is an equal and opposite reaction force acting on the other body." }],
@@ -167,12 +167,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$19.6$ N" },
-              { id: "b", text: "$2.0$ N" },
-              { id: "c", text: "$9.81$ N" },
-              { id: "d", text: "$39.2$ N" },
+              { id: "a", text: "$2.0$ N" },
+              { id: "b", text: "$39.2$ N" },
+              { id: "c", text: "$19.6$ N" },
+              { id: "d", text: "$9.81$ N" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "W = mg", statement: "W = mg" }],
@@ -195,11 +195,11 @@ export const lesson12: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$10$ N east" },
-              { id: "b", text: "$10$ N west" },
+              { id: "b", text: "$70$ N east" },
               { id: "c", text: "$70$ N west" },
-              { id: "d", text: "$70$ N east" },
+              { id: "d", text: "$10$ N west" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Resultant force", statement: "The vector sum of all forces acting on a body." }],
@@ -221,12 +221,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "speed up unless a force acts on it" },
-              { id: "b", text: "continue at constant velocity unless a resultant force acts on it" },
+              { id: "a", text: "accelerate in the direction of motion" },
+              { id: "b", text: "speed up unless a force acts on it" },
               { id: "c", text: "come to rest after a short time" },
-              { id: "d", text: "accelerate in the direction of motion" },
+              { id: "d", text: "continue at constant velocity unless a resultant force acts on it" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "law", name: "Newton's first law", statement: "An object remains at rest or in uniform motion unless acted on by a resultant force." }],
@@ -545,12 +545,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "In the same direction as the motion" },
-              { id: "b", text: "Opposite to the direction of relative motion" },
-              { id: "c", text: "Perpendicular to the surface" },
-              { id: "d", text: "Vertically upwards" },
+              { id: "a", text: "Vertically upwards" },
+              { id: "b", text: "Perpendicular to the surface" },
+              { id: "c", text: "Opposite to the direction of relative motion" },
+              { id: "d", text: "In the same direction as the motion" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Friction", statement: "Friction opposes relative motion or its tendency." }],
@@ -571,12 +571,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$29.4$ N" },
-              { id: "b", text: "$98.1$ N" },
-              { id: "c", text: "$3.27$ N" },
-              { id: "d", text: "$294$ N" },
+              { id: "a", text: "$3.27$ N" },
+              { id: "b", text: "$294$ N" },
+              { id: "c", text: "$29.4$ N" },
+              { id: "d", text: "$98.1$ N" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "F = μN", statement: "F = \\mu N" }],
@@ -598,12 +598,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$3.4$ N" },
-              { id: "b", text: "$9.81$ N" },
-              { id: "c", text: "$19.6$ N" },
-              { id: "d", text: "$17.0$ N" },
+              { id: "a", text: "$9.81$ N" },
+              { id: "b", text: "$17.0$ N" },
+              { id: "c", text: "$3.4$ N" },
+              { id: "d", text: "$19.6$ N" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -662,12 +662,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The mass of the object" },
-              { id: "b", text: "The nature of the surfaces in contact" },
-              { id: "c", text: "The speed of sliding" },
-              { id: "d", text: "The applied force" },
+              { id: "a", text: "The speed of sliding" },
+              { id: "b", text: "The applied force" },
+              { id: "c", text: "The nature of the surfaces in contact" },
+              { id: "d", text: "The mass of the object" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Coefficient of friction", statement: "\\mu is a property of the pair of surfaces in contact." }],
@@ -689,12 +689,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$mg$" },
-              { id: "b", text: "$mg\\sin\\theta$" },
-              { id: "c", text: "$mg\\cos\\theta$" },
-              { id: "d", text: "$\\mu mg$" },
+              { id: "a", text: "$mg\\cos\\theta$" },
+              { id: "b", text: "$mg$" },
+              { id: "c", text: "$\\mu mg$" },
+              { id: "d", text: "$mg\\sin\\theta$" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "N = mg cos θ", statement: "N = mg\\cos\\theta\\ \\text{on an incline}" }],
@@ -716,12 +716,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Zero" },
-              { id: "b", text: "Equal to the friction force" },
-              { id: "c", text: "Equal to the weight of the crate" },
+              { id: "a", text: "Equal to the weight of the crate" },
+              { id: "b", text: "Zero" },
+              { id: "c", text: "Equal to the friction force" },
               { id: "d", text: "Equal to $\\mu mg^2$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Equilibrium", statement: "Constant speed means zero resultant force, so forces balance." }],

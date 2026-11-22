@@ -79,8 +79,8 @@ export const lesson52: Lesson = {
                 id: "a",
                 text: "General intelligence underlying all abilities",
               },
-              { id: "b", text: "A specific skill" },
-              { id: "c", text: "Emotional intelligence" },
+              { id: "b", text: "Emotional intelligence" },
+              { id: "c", text: "A specific skill" },
               { id: "d", text: "Creative ability" },
             ],
             correctChoiceId: "a",
@@ -233,6 +233,365 @@ export const lesson52: Lesson = {
               "(a) Spearman (b) Gardner (c) Sternberg (d) comparison",
           },
         },
+        {
+          id: "olep-u5-it-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "In Spearman's two-factor theory, 's' refers to...",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "special educational needs" },
+              { id: "b", text: "social intelligence" },
+              { id: "c", text: "a single general intelligence factor" },
+              { id: "d", text: "specific abilities in particular tasks" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "g and s",
+                statement: "g = general factor; s = specific abilities.",
+              },
+            ],
+            steps: [{ reasoning: "s = specific abilities.", marks: 1, markCode: "AO1" }],
+            finalAnswer: "**(b)** specific abilities in particular tasks",
+            commonErrors: ["Confusing s with g."],
+          },
+        },
+        {
+          id: "olep-u5-it-q6",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Which of the following is NOT one of Gardner's multiple intelligences?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Musical" },
+              { id: "b", text: "Mechanical" },
+              { id: "c", text: "Spatial" },
+              { id: "d", text: "Bodily-kinaesthetic" },
+            ],
+            borrectChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Gardner MI",
+                statement: "Linguistic, logical-mathematical, spatial, musical, bodily-kinaesthetic, interpersonal, intrapersonal, naturalistic.",
+              },
+            ],
+            steps: [{ reasoning: "Mechanical is not in Gardner's list.", marks: 1, markCode: "AO1" }],
+            finalAnswer: "**(c)** Mechanical",
+            commonErrors: ["Assuming every practical skill is a separate MI."],
+          },
+        },
+        {
+          id: "olep-u5-it-q7",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "How many intelligences does Gardner's theory of multiple intelligences originally propose?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 8 }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Multiple intelligences",
+                statement: "Eight intelligences proposed by Gardner.",
+              },
+            ],
+            steps: [{ reasoning: "Eight MI types.", marks: 1, markCode: "AO1" }],
+            finalAnswer: "8",
+            commonErrors: ["Saying 'many' instead of the number."],
+          },
+        },
+        {
+          id: "olep-u5-it-q8",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "State the number of intelligences in Gardner's theory and the number of aspects in Sternberg's triarchic theory.",
+          response: {
+            type: "numeric",
+            parts: [
+              { label: "a", answer: 8 },
+              { label: "b", answer: 3 },
+            ],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Theory sizes",
+                statement: "Gardner 8; Sternberg 3.",
+              },
+            ],
+            steps: [
+              { reasoning: "Gardner proposes eight.", marks: 1, markCode: "AO1" },
+              { reasoning: "Sternberg proposes three aspects.", marks: 1, markCode: "AO1" },
+            ],
+            finalAnswer: "(a) 8 (b) 3",
+            commonErrors: ["Swapping the theories."],
+          },
+        },
+        {
+          id: "olep-u5-it-q9",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "Analytical intelligence, in Sternberg's triarchic theory, is best described as...",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "everyday street smarts and adaptation" },
+              { id: "b", text: "coping with novel creative situations" },
+              { id: "c", text: "abstract problem-solving measured by IQ tests" },
+              { id: "d", text: "musical and spatial talent" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Analytical intelligence",
+                statement: "Problem-solving component of triarchic theory.",
+              },
+            ],
+            steps: [
+              { reasoning: "Analytical = problem-solving.", marks: 1, markCode: "AO1" },
+              { reasoning: "Measured by IQ tests.", marks: 1, markCode: "AO2" },
+            ],
+            finalAnswer: "**(b)** abstract problem-solving measured by IQ tests",
+            commonErrors: ["Confusing with practical intelligence."],
+          },
+        },
+        {
+          id: "olep-u5-it-q10",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "State (a) the number of aspects in Sternberg's triarchic theory and (b) the number of factors in Spearman's two-factor model.",
+          response: {
+            type: "numeric",
+            parts: [
+              { label: "a", answer: 3 },
+              { label: "b", answer: 2 },
+            ],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Theory sizes",
+                statement: "Sternberg 3; Spearman g + s = 2.",
+              },
+            ],
+            steps: [
+              { reasoning: "Analytical, creative, practical.", marks: 1, markCode: "AO1" },
+              { reasoning: "g and s factors.", marks: 1, markCode: "AO1" },
+            ],
+            finalAnswer: "(a) 3 (b) 2",
+            commonErrors: ["Counting g alone as one factor only."],
+          },
+        },
+        {
+          id: "olep-u5-it-q11",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "Practical intelligence refers to the ability to...",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "memorise vocabulary lists" },
+              { id: "b", text: "solve abstract problems in tests" },
+              { id: "c", text: "produce creative original ideas" },
+              { id: "d", text: "adapt to everyday situations ('street smarts')" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Practical intelligence",
+                statement: "Everyday adaptation component.",
+              },
+            ],
+            steps: [
+              { reasoning: "Practical = everyday adaptation.", marks: 1, markCode: "AO1" },
+              { reasoning: "Distinct from analytical/creative.", marks: 1, markCode: "AO2" },
+            ],
+            finalAnswer: "**(b)** adapt to everyday situations ('street smarts')",
+            commonErrors: ["Confusing with analytical intelligence."],
+          },
+        },
+        {
+          id: "olep-u5-it-q12",
+          difficulty: "challenge",
+          totalMarks: 3,
+          stem: "Give the number of (a) intelligences in Gardner's theory, (b) aspects in Sternberg's triarchic theory, and (c) factors in Spearman's model.",
+          response: {
+            type: "numeric",
+            parts: [
+              { label: "a", answer: 8 },
+              { label: "b", answer: 3 },
+              { label: "c", answer: 2 },
+            ],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Theory counts",
+                statement: "Gardner 8; Sternberg 3; Spearman 2.",
+              },
+            ],
+            steps: [
+              { reasoning: "Eight intelligences.", marks: 1, markCode: "AO1" },
+              { reasoning: "Three aspects.", marks: 1, markCode: "AO1" },
+              { reasoning: "g and s.", marks: 1, markCode: "AO1" },
+            ],
+            finalAnswer: "(a) 8 (b) 3 (c) 2",
+            commonErrors: ["Mixing the theories up."],
+          },
+        },
+        {
+          id: "olep-u5-it-q13",
+          difficulty: "challenge",
+          totalMarks: 2,
+          stem: "A common criticism of Gardner's theory of multiple intelligences is that...",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "the intelligences are hard to measure and may overlap with ordinary talents" },
+              { id: "b", text: "it is based on clear, objective measurement" },
+              { id: "c", text: "it denies that intelligence exists" },
+              { id: "d", text: "it only applies to children" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "MI criticism",
+                statement: "Difficult to measure; overlaps with talent.",
+              },
+            ],
+            steps: [
+              { reasoning: "MI lacks clear measurement.", marks: 1, markCode: "AO1" },
+              { reasoning: "Concepts may just be talents/skills.", marks: 1, markCode: "AO2" },
+            ],
+            finalAnswer: "**(b)** the intelligences are hard to measure and may overlap with ordinary talents",
+            commonErrors: ["Confusing MI with Spearman's g."],
+          },
+        },
+        {
+          id: "olep-u5-it-q14",
+          difficulty: "challenge",
+          totalMarks: 3,
+          stem: "Give (a) the year the first intelligence test (Binet-Simon) was developed, (b) the number of Gardner's intelligences, and (c) the number of Sternberg's aspects.",
+          response: {
+            type: "numeric",
+            parts: [
+              { label: "a", answer: 1905 },
+              { label: "b", answer: 8 },
+              { label: "c", answer: 3 },
+            ],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Historical/theory facts",
+                statement: "Binet-Simon 1905; Gardner 8; Sternberg 3.",
+              },
+            ],
+            steps: [
+              { reasoning: "First test 1905.", marks: 1, markCode: "AO1" },
+              { reasoning: "Eight intelligences.", marks: 1, markCode: "AO1" },
+              { reasoning: "Three aspects.", marks: 1, markCode: "AO1" },
+            ],
+            finalAnswer: "(a) 1905 (b) 8 (c) 3",
+            commonErrors: ["Wrong year for Binet-Simon."],
+          },
+        },
+        {
+          id: "olep-u5-it-q15",
+          difficulty: "challenge",
+          totalMarks: 2,
+          stem: "Sternberg argues practical intelligence may predict life success better than analytical intelligence because...",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "adapting to everyday situations matters more for real life than abstract test problems" },
+              { id: "b", text: "analytical intelligence does not exist" },
+              { id: "c", text: "IQ tests already measure practical intelligence perfectly" },
+              { id: "d", text: "practical intelligence is inherited" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Practical intelligence",
+                statement: "Everyday adaptation predicts life outcomes.",
+              },
+            ],
+            steps: [
+              { reasoning: "IQ tests measure analytical ability.", marks: 1, markCode: "AO1" },
+              { reasoning: "Real-life success needs practical skills.", marks: 1, markCode: "AO2" },
+            ],
+            finalAnswer: "**(b)** adapting to everyday situations matters more for real life than abstract test problems",
+            commonErrors: ["Saying IQ tests measure all intelligence."],
+          },
+        },
+        {
+          id: "olep-u5-it-q16",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "Evaluate Gardner's theory of multiple intelligences.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "MI evaluation",
+                statement: "Valuable but hard to measure.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Recognises diverse abilities beyond IQ tests.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                reasoning: "Eight intelligences with examples.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                reasoning: "Criticised: hard to measure, overlaps with talent.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "Weighed judgement on its scientific status.",
+                marks: 1,
+                markCode: "AO3",
+              },
+            ],
+            finalAnswer:
+              "Gardner's MI theory broadened views of intelligence beyond a single IQ score, but the intelligences are difficult to measure objectively and may overlap with ordinary talents.",
+            commonErrors: ["One-sided evaluation."],
+          },
+        },
       ],
     },
     {
@@ -277,12 +636,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Rise in average IQ scores over generations" },
-              { id: "b", text: "Decline in intelligence" },
+              { id: "a", text: "Decline in intelligence" },
+              { id: "b", text: "Rise in average IQ scores over generations" },
               { id: "c", text: "A type of intelligence test" },
               { id: "d", text: "Genetic inheritance of IQ" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -444,6 +803,365 @@ export const lesson52: Lesson = {
               },
             ],
             finalAnswer: "(a) tests (b) Flynn (c) genetics (d) environment",
+          },
+        },
+        {
+          id: "olep-u5-iq-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Deviation IQ is calculated by comparing an individual's score to...",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "the highest scorer in the class" },
+              { id: "b", text: "a fixed mental age in months" },
+              { id: "c", text: "a random sample of adults" },
+              { id: "d", text: "the performance of their own age group (mean 100, SD 15)" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Deviation IQ",
+                statement: "Score relative to age-group norms.",
+              },
+            ],
+            steps: [{ reasoning: "Wechsler deviation IQ uses norms.", marks: 1, markCode: "AO1" }],
+            finalAnswer: "**(b)** the performance of their own age group (mean 100, SD 15)",
+            commonErrors: ["Confusing with mental age (Binet-Simon)."],
+          },
+        },
+        {
+          id: "olep-u5-iq-q6",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Who developed the first intelligence test, the Binet-Simon scale (1905)?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "David Wechsler" },
+              { id: "b", text: "Howard Gardner" },
+              { id: "c", text: "Charles Spearman" },
+              { id: "d", text: "Alfred Binet and Theodore Simon" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Binet-Simon",
+                statement: "First intelligence test, 1905.",
+              },
+            ],
+            steps: [{ reasoning: "Binet and Simon.", marks: 1, markCode: "AO1" }],
+            finalAnswer: "**(a)** Alfred Binet and Theodore Simon",
+            commonErrors: ["Confusing with Wechsler scales."],
+          },
+        },
+        {
+          id: "olep-u5-iq-q7",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "What is the mean of a standard deviation IQ scale (as used by the Wechsler tests)?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 100 }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Deviation IQ",
+                statement: "Mean 100, SD 15.",
+              },
+            ],
+            steps: [{ reasoning: "Mean = 100.", marks: 1, markCode: "AO1" }],
+            finalAnswer: "100",
+            commonErrors: ["Saying 50 or 0."],
+          },
+        },
+        {
+          id: "olep-u5-iq-q8",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "State (a) the mean and (b) the standard deviation of the Wechsler deviation IQ scale.",
+          response: {
+            type: "numeric",
+            parts: [
+              { label: "a", answer: 100 },
+              { label: "b", answer: 15 },
+            ],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Deviation IQ",
+                statement: "Mean 100, SD 15.",
+              },
+            ],
+            steps: [
+              { reasoning: "Mean is 100.", marks: 1, markCode: "AO1" },
+              { reasoning: "Standard deviation is 15.", marks: 1, markCode: "AO1" },
+            ],
+            finalAnswer: "(a) 100 (b) 15",
+            commonErrors: ["Swapping mean and SD."],
+          },
+        },
+        {
+          id: "olep-u5-iq-q9",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "Identical (monozygotic) twins' IQ correlation (~0.85) being much higher than fraternal twins' (~0.60) suggests...",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "a significant genetic contribution to IQ" },
+              { id: "b", text: "environment has no effect on IQ" },
+              { id: "c", text: "IQ tests are invalid" },
+              { id: "d", text: "identical twins share the same environment only" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Twin studies",
+                statement: "MZ > DZ concordance implies genetic component.",
+              },
+            ],
+            steps: [
+              { reasoning: "MZ twins share all genes.", marks: 1, markCode: "AO1" },
+              { reasoning: "Higher correlation implies heritability.", marks: 1, markCode: "AO2" },
+            ],
+            finalAnswer: "**(b)** a significant genetic contribution to IQ",
+            commonErrors: ["Ignoring the shared environment of twins."],
+          },
+        },
+        {
+          id: "olep-u5-iq-q10",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "State (a) the approximate Flynn effect rate in IQ points per decade and (b) the number of environmental factors named as causes (nutrition, education, smaller families, more complex environment).",
+          response: {
+            type: "numeric",
+            parts: [
+              { label: "a", answer: 3, tolerance: 1 },
+              { label: "b", answer: 4 },
+            ],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Flynn effect",
+                statement: "~3 points/decade rise; environmental causes.",
+              },
+            ],
+            steps: [
+              { reasoning: "About 3 points per decade.", marks: 1, markCode: "AO1" },
+              { reasoning: "Four environmental factors listed.", marks: 1, markCode: "AO1" },
+            ],
+            finalAnswer: "(a) 3 (b) 4",
+            commonErrors: ["Wrong rate or counting factors."],
+          },
+        },
+        {
+          id: "olep-u5-iq-q11",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "Adoption studies show that an adopted child's IQ correlates more strongly with...",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "their siblings only" },
+              { id: "b", text: "neither set of parents" },
+              { id: "c", text: "their adoptive parents" },
+              { id: "d", text: "their biological parents" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Adoption studies",
+                statement: "IQ tracks biological parents → genetic component.",
+              },
+            ],
+            steps: [
+              { reasoning: "Adopted children share genes with birth parents.", marks: 1, markCode: "AO1" },
+              { reasoning: "Stronger correlation implies genetics.", marks: 1, markCode: "AO2" },
+            ],
+            finalAnswer: "**(b)** their biological parents",
+            commonErrors: ["Ignoring shared genes with birth parents."],
+          },
+        },
+        {
+          id: "olep-u5-iq-q12",
+          difficulty: "challenge",
+          totalMarks: 3,
+          stem: "Give the approximate IQ correlations for (a) identical twins, (b) fraternal twins, and (c) the Flynn effect rate in points per decade.",
+          response: {
+            type: "numeric",
+            parts: [
+              { label: "a", answer: 0.85, tolerance: 0.05 },
+              { label: "b", answer: 0.6, tolerance: 0.05 },
+              { label: "c", answer: 3, tolerance: 1 },
+            ],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "IQ evidence",
+                statement: "MZ ~0.85; DZ ~0.60; Flynn ~3/decade.",
+              },
+            ],
+            steps: [
+              { reasoning: "MZ correlation ~0.85.", marks: 1, markCode: "AO1" },
+              { reasoning: "DZ correlation ~0.60.", marks: 1, markCode: "AO1" },
+              { reasoning: "Flynn ~3 points/decade.", marks: 1, markCode: "AO1" },
+            ],
+            finalAnswer: "(a) 0.85 (b) 0.60 (c) 3",
+            commonErrors: ["Reversing MZ and DZ correlations."],
+          },
+        },
+        {
+          id: "olep-u5-iq-q13",
+          difficulty: "challenge",
+          totalMarks: 2,
+          stem: "The Flynn effect supports the nurture side of the nature-nurture debate because...",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "environmental improvements have raised average measured IQ" },
+              { id: "b", text: "genes have become more common" },
+              { id: "c", text: "identical twins now score higher" },
+              { id: "d", text: "IQ tests have become easier" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Flynn effect",
+                statement: "Environment can raise measured IQ.",
+              },
+            ],
+            steps: [
+              { reasoning: "IQ rose ~3 points/decade.", marks: 1, markCode: "AO1" },
+              { reasoning: "Caused by nutrition/education improvements.", marks: 1, markCode: "AO2" },
+            ],
+            finalAnswer: "**(b)** environmental improvements have raised average measured IQ",
+            commonErrors: ["Ignoring environmental causes."],
+          },
+        },
+        {
+          id: "olep-u5-iq-q14",
+          difficulty: "challenge",
+          totalMarks: 3,
+          stem: "Give the mean, the standard deviation, and the approximate Flynn effect rate (points per decade) for deviation IQ.",
+          response: {
+            type: "numeric",
+            parts: [
+              { label: "a", answer: 100 },
+              { label: "b", answer: 15 },
+              { label: "c", answer: 3, tolerance: 1 },
+            ],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "IQ statistics",
+                statement: "Mean 100, SD 15; Flynn ~3/decade.",
+              },
+            ],
+            steps: [
+              { reasoning: "Mean = 100.", marks: 1, markCode: "AO1" },
+              { reasoning: "SD = 15.", marks: 1, markCode: "AO1" },
+              { reasoning: "Flynn ~3 points/decade.", marks: 1, markCode: "AO1" },
+            ],
+            finalAnswer: "(a) 100 (b) 15 (c) 3",
+            commonErrors: ["Confusing Flynn rate with IQ mean."],
+          },
+        },
+        {
+          id: "olep-u5-iq-q15",
+          difficulty: "challenge",
+          totalMarks: 2,
+          stem: "An estimated heritability of about 50% for IQ means that...",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "environment has no effect on IQ" },
+              { id: "b", text: "half of all people inherit high IQ" },
+              { id: "c", text: "IQ is entirely genetic" },
+              { id: "d", text: "roughly half the variation in IQ scores is due to genetic differences" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Heritability",
+                statement: "~50% of IQ variance is genetic.",
+              },
+            ],
+            steps: [
+              { reasoning: "Heritability = proportion of variance genetic.", marks: 1, markCode: "AO1" },
+              { reasoning: "Remaining variance is environmental/interaction.", marks: 1, markCode: "AO2" },
+            ],
+            finalAnswer: "**(b)** roughly half the variation in IQ scores is due to genetic differences",
+            commonErrors: ["Interpreting heritability as a fixed individual trait."],
+          },
+        },
+        {
+          id: "olep-u5-iq-q16",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "Discuss the nature-nurture debate in intelligence.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Nature-nurture",
+                statement: "Genetics + environment interact (interactionist view).",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Genetic evidence: twin correlations, adoption studies.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                reasoning: "Environmental evidence: Flynn effect, early stimulation.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                reasoning: "~50% heritability — both matter.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "Interactionist conclusion.",
+                marks: 1,
+                markCode: "AO3",
+              },
+            ],
+            finalAnswer:
+              "Both nature and nurture shape IQ: twin/adoption studies show a strong genetic component (~50% heritability), while the Flynn effect and early stimulation show environment raises measured intelligence — the interactionist view is dominant.",
+            commonErrors: ["One-sided nature or nurture argument."],
           },
         },
       ],

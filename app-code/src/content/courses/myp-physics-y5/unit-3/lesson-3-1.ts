@@ -57,12 +57,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Current" },
-              { id: "b", text: "Voltage" },
-              { id: "c", text: "Resistance" },
+              { id: "a", text: "Voltage" },
+              { id: "b", text: "Resistance" },
+              { id: "c", text: "Current" },
               { id: "d", text: "Power" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Parallel", statement: "Branches connect same two points → same p.d." }],
@@ -82,12 +82,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "48 W" },
+              { id: "a", text: "2400 W" },
               { id: "b", text: "200 W" },
-              { id: "c", text: "1200 W" },
-              { id: "d", text: "2400 W" },
+              { id: "c", text: "48 W" },
+              { id: "d", text: "1200 W" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Power", statement: "$P = VI = 240 \\times 5$" }],
@@ -108,12 +108,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "1 A" },
-              { id: "b", text: "2 A" },
-              { id: "c", text: "4 A" },
-              { id: "d", text: "8 A" },
+              { id: "a", text: "4 A" },
+              { id: "b", text: "1 A" },
+              { id: "c", text: "8 A" },
+              { id: "d", text: "2 A" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Parallel", statement: "$R_{eq} = 3$ Ω; $I = V/R = 12/3$" }],
@@ -165,12 +165,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\frac{1}{R} = \\frac{1}{R_1} + \\frac{1}{R_2}$" },
-              { id: "b", text: "$R = R_1 + R_2$" },
-              { id: "c", text: "$R = \\frac{R_1R_2}{R_1+R_2}$" },
-              { id: "d", text: "$R = R_1R_2$" },
+              { id: "a", text: "$R = R_1 + R_2$" },
+              { id: "b", text: "$R = R_1R_2$" },
+              { id: "c", text: "$\\frac{1}{R} = \\frac{1}{R_1} + \\frac{1}{R_2}$" },
+              { id: "d", text: "$R = \\frac{R_1R_2}{R_1+R_2}$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Series resistance", statement: "$R_{total} = R_1 + R_2$." }],
@@ -209,12 +209,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "16 Ω" },
-              { id: "b", text: "3 Ω" },
-              { id: "c", text: "8 Ω" },
-              { id: "d", text: "48 Ω" },
+              { id: "a", text: "3 Ω" },
+              { id: "b", text: "16 Ω" },
+              { id: "c", text: "48 Ω" },
+              { id: "d", text: "8 Ω" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Parallel resistance", statement: "$\\frac{1}{R} = \\frac{1}{4} + \\frac{1}{12} = \\frac{4}{12}$ → $R = 3$ Ω" }],
@@ -255,12 +255,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Get brighter" },
-              { id: "b", text: "Get dimmer" },
-              { id: "c", text: "Stay the same brightness" },
+              { id: "a", text: "Get dimmer" },
+              { id: "b", text: "Stay the same brightness" },
+              { id: "c", text: "Get brighter" },
               { id: "d", text: "Turn off completely" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Circuit analysis", statement: "Series resistor reduces total current → less voltage across parallel pair → dimmer bulbs." }],
@@ -360,10 +360,10 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "To use less wire" },
+              { id: "a", text: "It makes no difference" },
               { id: "b", text: "So each appliance gets full mains voltage and works independently" },
-              { id: "c", text: "To reduce the current" },
-              { id: "d", text: "It makes no difference" },
+              { id: "c", text: "To use less wire" },
+              { id: "d", text: "To reduce the current" },
             ],
             correctChoiceId: "b",
           },
@@ -385,12 +385,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "80%" },
+              { id: "a", text: "400%" },
               { id: "b", text: "125%" },
-              { id: "c", text: "20%" },
-              { id: "d", text: "400%" },
+              { id: "c", text: "80%" },
+              { id: "d", text: "20%" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Efficiency", statement: "$\\eta = \\frac{\\text{useful}}{\\text{input}} \\times 100\\% = \\frac{320}{400}$" }],
@@ -510,12 +510,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It carries the main current" },
-              { id: "b", text: "It provides a low-resistance path for fault current to earth" },
-              { id: "c", text: "It powers the appliance" },
-              { id: "d", text: "It reduces the voltage" },
+              { id: "a", text: "It powers the appliance" },
+              { id: "b", text: "It reduces the voltage" },
+              { id: "c", text: "It carries the main current" },
+              { id: "d", text: "It provides a low-resistance path for fault current to earth" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Earth wire", statement: "Safety wire carrying fault current away from casing." }],
@@ -536,9 +536,9 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "2 A" },
-              { id: "b", text: "4 A" },
+              { id: "b", text: "13 A" },
               { id: "c", text: "5 A" },
-              { id: "d", text: "13 A" },
+              { id: "d", text: "4 A" },
             ],
             correctChoiceId: "c",
           },
@@ -561,12 +561,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Current flows through earth wire, fuse blows, power cut" },
-              { id: "b", text: "Fuse blows first, then earth wire melts" },
-              { id: "c", text: "The appliance keeps working normally" },
-              { id: "d", text: "Neutral wire carries the fault" },
+              { id: "a", text: "The appliance keeps working normally" },
+              { id: "b", text: "Current flows through earth wire, fuse blows, power cut" },
+              { id: "c", text: "Neutral wire carries the fault" },
+              { id: "d", text: "Fuse blows first, then earth wire melts" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Fault current", statement: "Live-case fault → low resistance path through earth → large current → fuse melts." }],
@@ -618,12 +618,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "To increase the current" },
-              { id: "b", text: "To break the circuit when current exceeds its rating" },
-              { id: "c", text: "To store electrical energy" },
-              { id: "d", text: "To reduce the voltage" },
+              { id: "a", text: "To store electrical energy" },
+              { id: "b", text: "To increase the current" },
+              { id: "c", text: "To reduce the voltage" },
+              { id: "d", text: "To break the circuit when current exceeds its rating" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Fuse", statement: "Thin wire melts on excessive current, breaking the circuit." }],
@@ -662,12 +662,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "To carry normal current to the appliance" },
-              { id: "b", text: "To provide a low-resistance path for fault current so the fuse blows if insulation fails" },
-              { id: "c", text: "To reduce the voltage" },
-              { id: "d", text: "To make the plug heavier" },
+              { id: "a", text: "To make the plug heavier" },
+              { id: "b", text: "To reduce the voltage" },
+              { id: "c", text: "To carry normal current to the appliance" },
+              { id: "d", text: "To provide a low-resistance path for fault current so the fuse blows if insulation fails" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Earthing", statement: "Earth wire carries fault current → blows fuse → prevents live casing." }],
@@ -708,12 +708,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Because the fuse is made of a material with a high melting point" },
-              { id: "b", text: "The fuse wire is thin, so normal current produces little heating, but excessive current heats it past its melting point" },
-              { id: "c", text: "Because current always flows through the earth wire" },
-              { id: "d", text: "It doesn't — fuses melt randomly" },
+              { id: "a", text: "Because current always flows through the earth wire" },
+              { id: "b", text: "Because the fuse is made of a material with a high melting point" },
+              { id: "c", text: "It doesn't — fuses melt randomly" },
+              { id: "d", text: "The fuse wire is thin, so normal current produces little heating, but excessive current heats it past its melting point" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Fuse physics", statement: "Thin wire has high resistance per length; $I^2R$ heating melts it on overload." }],
@@ -755,12 +755,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Live red, neutral black, earth green" },
-              { id: "b", text: "Live brown, neutral blue, earth green/yellow" },
-              { id: "c", text: "Live blue, neutral brown, earth red" },
-              { id: "d", text: "All wires are the same colour" },
+              { id: "a", text: "All wires are the same colour" },
+              { id: "b", text: "Live red, neutral black, earth green" },
+              { id: "c", text: "Live brown, neutral blue, earth green/yellow" },
+              { id: "d", text: "Live blue, neutral brown, earth red" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "convention", name: "Plug colours", statement: "Live brown, neutral blue, earth green/yellow." }],
@@ -800,12 +800,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Overload current" },
-              { id: "b", text: "Earth fault current — it detects current leaking to earth and cuts supply in milliseconds" },
-              { id: "c", text: "Low voltage" },
-              { id: "d", text: "Static electricity" },
+              { id: "a", text: "Static electricity" },
+              { id: "b", text: "Low voltage" },
+              { id: "c", text: "Earth fault current — it detects current leaking to earth and cuts supply in milliseconds" },
+              { id: "d", text: "Overload current" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "RCD", statement: "Detects imbalance between live and neutral → cuts supply on earth leakage." }],
@@ -855,12 +855,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It has two fuses" },
-              { id: "b", text: "It has two layers of insulation so a fault cannot make the casing live" },
-              { id: "c", text: "It uses less current" },
+              { id: "a", text: "It uses less current" },
+              { id: "b", text: "It has two fuses" },
+              { id: "c", text: "It has two layers of insulation so a fault cannot make the casing live" },
               { id: "d", text: "It is made of metal" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Double insulation", statement: "Two insulation barriers prevent live parts touching accessible casing → no earth needed." }],

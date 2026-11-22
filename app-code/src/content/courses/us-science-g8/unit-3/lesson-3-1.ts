@@ -50,12 +50,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A whole chromosome made of many proteins" },
-              { id: "b", text: "A section of DNA that carries instructions for making a protein" },
+              { id: "a", text: "A section of DNA that carries instructions for making a protein" },
+              { id: "b", text: "A whole chromosome made of many proteins" },
               { id: "c", text: "A protein that controls the cell" },
               { id: "d", text: "A structure in the cytoplasm that stores food" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -178,8 +178,8 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Two parents each give half of the offspring's genes." },
-              { id: "b", text: "The offspring show more variation than from sexual reproduction." },
+              { id: "a", text: "The offspring show more variation than from sexual reproduction." },
+              { id: "b", text: "Two parents each give half of the offspring's genes." },
               { id: "c", text: "One parent produces offspring that are genetically identical to it." },
               { id: "d", text: "Sex cells must join before the offspring forms." },
             ],

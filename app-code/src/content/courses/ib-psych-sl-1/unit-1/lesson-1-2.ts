@@ -53,12 +53,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The sample size is large" },
-              { id: "b", text: "Participants were deceived about the study" },
-              { id: "c", text: "Data are analysed statistically" },
-              { id: "d", text: "The study is correlational" },
+              { id: "a", text: "Data are analysed statistically" },
+              { id: "b", text: "The study is correlational" },
+              { id: "c", text: "Participants were deceived about the study" },
+              { id: "d", text: "The sample size is large" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -152,12 +152,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Agree voluntarily after understanding the study's purpose and procedures" },
-              { id: "b", text: "Be paid a large amount of money" },
-              { id: "c", text: "Sign a form without reading it" },
-              { id: "d", text: "Remain in the study even if they feel uncomfortable" },
+              { id: "a", text: "Be paid a large amount of money" },
+              { id: "b", text: "Sign a form without reading it" },
+              { id: "c", text: "Remain in the study even if they feel uncomfortable" },
+              { id: "d", text: "Agree voluntarily after understanding the study's purpose and procedures" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -181,9 +181,9 @@ export const lesson12: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Leave the study at any time without penalty" },
-              { id: "b", text: "Change the results after seeing them" },
-              { id: "c", text: "Only withdraw before the study begins" },
-              { id: "d", text: "Demand to know other participants' data" },
+              { id: "b", text: "Only withdraw before the study begins" },
+              { id: "c", text: "Demand to know other participants' data" },
+              { id: "d", text: "Change the results after seeing them" },
             ],
             correctChoiceId: "a",
           },
@@ -210,8 +210,8 @@ export const lesson12: Lesson = {
             choices: [
               { id: "a", text: "Publishing every participant's raw data" },
               { id: "b", text: "Protecting participants' identities and storing data securely" },
-              { id: "c", text: "Never reporting any results" },
-              { id: "d", text: "Sharing data freely with other researchers" },
+              { id: "c", text: "Sharing data freely with other researchers" },
+              { id: "d", text: "Never reporting any results" },
             ],
             correctChoiceId: "b",
           },
@@ -237,11 +237,11 @@ export const lesson12: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "It makes the study more interesting to participants" },
-              { id: "b", text: "It is necessary to avoid demand characteristics, unlikely to cause harm and followed by debriefing" },
-              { id: "c", text: "The researcher wants to test obedience" },
+              { id: "b", text: "The researcher wants to test obedience" },
+              { id: "c", text: "It is necessary to avoid demand characteristics, unlikely to cause harm and followed by debriefing" },
               { id: "d", text: "Participants are adults" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -264,12 +264,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Analyse the statistical results of studies" },
-              { id: "b", text: "Review proposed research for ethical acceptability before it begins" },
+              { id: "a", text: "Review proposed research for ethical acceptability before it begins" },
+              { id: "b", text: "Analyse the statistical results of studies" },
               { id: "c", text: "Publish findings in academic journals" },
               { id: "d", text: "Recruit participants for studies" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -292,12 +292,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Failure to restore participants' informed consent and trust" },
-              { id: "b", text: "Using too small a sample" },
+              { id: "a", text: "Publishing the results" },
+              { id: "b", text: "Failure to restore participants' informed consent and trust" },
               { id: "c", text: "Collecting quantitative data" },
-              { id: "d", text: "Publishing the results" },
+              { id: "d", text: "Using too small a sample" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -486,12 +486,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Median" },
+              { id: "a", text: "Range" },
               { id: "b", text: "Mode" },
-              { id: "c", text: "Mean" },
-              { id: "d", text: "Range" },
+              { id: "c", text: "Median" },
+              { id: "d", text: "Mean" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -585,12 +585,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Finishing position in a race" },
-              { id: "b", text: "Eye colour" },
+              { id: "a", text: "Eye colour" },
+              { id: "b", text: "Finishing position in a race" },
               { id: "c", text: "Reaction time in milliseconds" },
               { id: "d", text: "Temperature in degrees Celsius" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -613,12 +613,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Number of correct answers out of 20" },
-              { id: "b", text: "Finishing position in a race" },
-              { id: "c", text: "Height in centimetres" },
-              { id: "d", text: "Favourite colour category" },
+              { id: "a", text: "Favourite colour category" },
+              { id: "b", text: "Height in centimetres" },
+              { id: "c", text: "Number of correct answers out of 20" },
+              { id: "d", text: "Finishing position in a race" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -642,11 +642,11 @@ export const lesson12: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Mean" },
-              { id: "b", text: "Median" },
-              { id: "c", text: "Mode" },
-              { id: "d", text: "Standard deviation" },
+              { id: "b", text: "Standard deviation" },
+              { id: "c", text: "Median" },
+              { id: "d", text: "Mode" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -670,11 +670,11 @@ export const lesson12: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Ordinal and heavily skewed" },
-              { id: "b", text: "Interval or ratio and approximately normally distributed" },
+              { id: "b", text: "Based on very small samples regardless of distribution" },
               { id: "c", text: "Nominal categories" },
-              { id: "d", text: "Based on very small samples regardless of distribution" },
+              { id: "d", text: "Interval or ratio and approximately normally distributed" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

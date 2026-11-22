@@ -57,12 +57,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Growth and repair of body tissues" },
-              { id: "b", text: "Production of gametes" },
-              { id: "c", text: "Genetic variation" },
-              { id: "d", text: "Reduction of chromosome number" },
+              { id: "a", text: "Reduction of chromosome number" },
+              { id: "b", text: "Growth and repair of body tissues" },
+              { id: "c", text: "Production of gametes" },
+              { id: "d", text: "Genetic variation" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -86,8 +86,8 @@ export const lesson13: Lesson = {
             choices: [
               { id: "a", text: "4 haploid cells (half the chromosomes)" },
               { id: "b", text: "2 diploid cells" },
-              { id: "c", text: "4 diploid cells" },
-              { id: "d", text: "2 haploid cells" },
+              { id: "c", text: "2 haploid cells" },
+              { id: "d", text: "4 diploid cells" },
             ],
             correctChoiceId: "a",
           },
@@ -112,12 +112,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Prophase I — exchanges genetic material between homologous chromosomes, increasing variation" },
-              { id: "b", text: "Anaphase II — separates chromatids" },
+              { id: "a", text: "Anaphase II — separates chromatids" },
+              { id: "b", text: "Telophase — reforms nuclei" },
               { id: "c", text: "Metaphase I — lines up chromosomes" },
-              { id: "d", text: "Telophase — reforms nuclei" },
+              { id: "d", text: "Prophase I — exchanges genetic material between homologous chromosomes, increasing variation" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -172,12 +172,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Prophase" },
-              { id: "b", text: "Metaphase" },
-              { id: "c", text: "Anaphase" },
-              { id: "d", text: "Telophase" },
+              { id: "a", text: "Anaphase" },
+              { id: "b", text: "Prophase" },
+              { id: "c", text: "Telophase" },
+              { id: "d", text: "Metaphase" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -199,12 +199,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Two divisions producing four haploid gametes" },
-              { id: "b", text: "One division producing two diploid cells" },
+              { id: "a", text: "One division producing two diploid cells" },
+              { id: "b", text: "Two divisions producing four haploid gametes" },
               { id: "c", text: "Two divisions producing two diploid cells" },
               { id: "d", text: "One division producing four haploid cells" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -227,12 +227,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It halves the chromosome number so fertilization restores it, and creates genetic variation" },
+              { id: "a", text: "It repairs damaged DNA" },
               { id: "b", text: "It produces identical cells for growth" },
-              { id: "c", text: "It repairs damaged DNA" },
-              { id: "d", text: "It increases chromosome number" },
+              { id: "c", text: "It increases chromosome number" },
+              { id: "d", text: "It halves the chromosome number so fertilization restores it, and creates genetic variation" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -468,12 +468,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Meiosis creates varied gametes via crossing over and independent assortment; random fertilization adds further variation" },
+              { id: "a", text: "Environment changes chromosome number" },
               { id: "b", text: "Mitosis produces different cells each time" },
               { id: "c", text: "Gametes always have identical DNA" },
-              { id: "d", text: "Environment changes chromosome number" },
+              { id: "d", text: "Meiosis creates varied gametes via crossing over and independent assortment; random fertilization adds further variation" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -529,12 +529,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Cell → tissue → organ → organ system → organism" },
-              { id: "b", text: "Organ → tissue → cell → system → organism" },
-              { id: "c", text: "Tissue → cell → organ → organism → system" },
-              { id: "d", text: "Cell → organ → tissue → system → organism" },
+              { id: "a", text: "Cell → organ → tissue → system → organism" },
+              { id: "b", text: "Tissue → cell → organ → organism → system" },
+              { id: "c", text: "Organ → tissue → cell → system → organism" },
+              { id: "d", text: "Cell → tissue → organ → organ system → organism" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -556,12 +556,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "To maximize space for haemoglobin to carry oxygen" },
-              { id: "b", text: "To reproduce faster" },
-              { id: "c", text: "To store more water" },
-              { id: "d", text: "They are not living cells" },
+              { id: "a", text: "To reproduce faster" },
+              { id: "b", text: "They are not living cells" },
+              { id: "c", text: "To maximize space for haemoglobin to carry oxygen" },
+              { id: "d", text: "To store more water" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -586,8 +586,8 @@ export const lesson13: Lesson = {
             choices: [
               { id: "a", text: "Different genes are expressed (turned on/off) in different cell types during development" },
               { id: "b", text: "Each cell type has different DNA" },
-              { id: "c", text: "Mutations change DNA in each cell" },
-              { id: "d", text: "Environment changes DNA sequence" },
+              { id: "c", text: "Environment changes DNA sequence" },
+              { id: "d", text: "Mutations change DNA in each cell" },
             ],
             correctChoiceId: "a",
           },
@@ -644,12 +644,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Cell" },
-              { id: "b", text: "Organ" },
-              { id: "c", text: "Organ system" },
-              { id: "d", text: "Organism" },
+              { id: "a", text: "Organism" },
+              { id: "b", text: "Cell" },
+              { id: "c", text: "Organ" },
+              { id: "d", text: "Organ system" },
             ],
-            correctChoiceId: "d",
+            correctChoiceIa: "d",
           },
           markscheme: {
             principles: [
@@ -671,12 +671,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A group of similar cells performing a shared function" },
-              { id: "b", text: "A single specialised cell" },
-              { id: "c", text: "Different tissues working together" },
-              { id: "d", text: "The basic unit of life" },
+              { id: "a", text: "A single specialised cell" },
+              { id: "b", text: "The basic unit of life" },
+              { id: "c", text: "A group of similar cells performing a shared function" },
+              { id: "d", text: "Different tissues working together" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -699,12 +699,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Different genes are switched on (expressed) in different cell types during development" },
-              { id: "b", text: "Each cell type has different DNA" },
+              { id: "a", text: "Each cell type has different DNA" },
+              { id: "b", text: "The environment rewrites the DNA sequence" },
               { id: "c", text: "DNA mutates differently in each cell type" },
-              { id: "d", text: "The environment rewrites the DNA sequence" },
+              { id: "d", text: "Different genes are switched on (expressed) in different cell types during development" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -937,12 +937,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Dead hollow tubes offer no obstruction to water flow and lignified walls withstand transpiration pull" },
+              { id: "a", text: "Living cells would block the phloem" },
               { id: "b", text: "They need nuclei to transport water actively" },
-              { id: "c", text: "Living cells would block the phloem" },
-              { id: "d", text: "They photosynthesise so need no contents" },
+              { id: "c", text: "They photosynthesise so need no contents" },
+              { id: "d", text: "Dead hollow tubes offer no obstruction to water flow and lignified walls withstand transpiration pull" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

@@ -55,12 +55,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Playing notes faster" },
-              { id: "b", text: "Repeating a motif at a different pitch level" },
-              { id: "c", text: "Adding more instruments" },
+              { id: "a", text: "Repeating a motif at a different pitch level" },
+              { id: "b", text: "Adding more instruments" },
+              { id: "c", text: "Playing notes faster" },
               { id: "d", text: "Changing the time signature" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -162,12 +162,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "I to V" },
-              { id: "b", text: "V to I" },
+              { id: "a", text: "V to I" },
+              { id: "b", text: "I to IV" },
               { id: "c", text: "IV to I" },
-              { id: "d", text: "I to IV" },
+              { id: "d", text: "I to V" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -191,10 +191,10 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Dramatically tense" },
+              { id: "a", text: "Surprising and unresolved" },
               { id: "b", text: "Gentle and conclusive, like an 'amen'" },
-              { id: "c", text: "Surprising and unresolved" },
-              { id: "d", text: "Identical to an authentic cadence" },
+              { id: "c", text: "Identical to an authentic cadence" },
+              { id: "d", text: "Dramatically tense" },
             ],
             correctChoiceId: "b",
           },
@@ -220,10 +220,10 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Changing the tempo" },
+              { id: "a", text: "Adding a new instrument" },
               { id: "b", text: "Changing the key or tonal centre" },
-              { id: "c", text: "Adding a new instrument" },
-              { id: "d", text: "Repeating a motif" },
+              { id: "c", text: "Repeating a motif" },
+              { id: "d", text: "Changing the tempo" },
             ],
             correctChoiceId: "b",
           },
@@ -292,12 +292,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The loudness of the chords" },
-              { id: "b", text: "The rate at which chords change" },
-              { id: "c", text: "The number of instruments playing" },
+              { id: "a", text: "The rate at which chords change" },
+              { id: "b", text: "The number of instruments playing" },
+              { id: "c", text: "The loudness of the chords" },
               { id: "d", text: "The speed of the melody" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -321,12 +321,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Stillness and calm" },
-              { id: "b", text: "Urgency and forward drive" },
+              { id: "a", text: "Urgency and forward drive" },
+              { id: "b", text: "Stillness and calm" },
               { id: "c", text: "Finality and closure" },
               { id: "d", text: "No change in energy" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -372,12 +372,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Any chord in the piece" },
-              { id: "b", text: "A chord progression that signals the end of a section" },
+              { id: "a", text: "A chord progression that signals the end of a section" },
+              { id: "b", text: "Any chord in the piece" },
               { id: "c", text: "A fast melodic passage" },
               { id: "d", text: "A change of instrument" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -504,12 +504,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Changing the tempo" },
-              { id: "b", text: "Shifting a pattern to start on a different beat" },
+              { id: "a", text: "Removing notes" },
+              { id: "b", text: "Changing the tempo" },
               { id: "c", text: "Adding more instruments" },
-              { id: "d", text: "Removing notes" },
+              { id: "d", text: "Shifting a pattern to start on a different beat" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -605,12 +605,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Accenting the strong beats" },
-              { id: "b", text: "Accenting off-beats or weak parts of the beat" },
-              { id: "c", text: "Playing everything louder" },
+              { id: "a", text: "Playing everything louder" },
+              { id: "b", text: "Accenting the strong beats" },
+              { id: "c", text: "Accenting off-beats or weak parts of the beat" },
               { id: "d", text: "Slowing the tempo" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -634,12 +634,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A repeating rhythmic or melodic figure" },
-              { id: "b", text: "A sudden change of tempo" },
-              { id: "c", text: "A single long note" },
-              { id: "d", text: "A chord progression" },
+              { id: "a", text: "A single long note" },
+              { id: "b", text: "A chord progression" },
+              { id: "c", text: "A repeating rhythmic or melodic figure" },
+              { id: "d", text: "A sudden change of tempo" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -663,12 +663,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Two instruments playing in unison" },
-              { id: "b", text: "Shifting between duple and triple metrical feel" },
+              { id: "a", text: "Shifting between duple and triple metrical feel" },
+              { id: "b", text: "Two instruments playing in unison" },
               { id: "c", text: "Gradually slowing down" },
               { id: "d", text: "A melody without rhythm" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -735,9 +735,9 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Two or more different metres sounding simultaneously" },
-              { id: "b", text: "Changing metre every bar" },
-              { id: "c", text: "Removing the pulse entirely" },
-              { id: "d", text: "Doubling the tempo" },
+              { id: "b", text: "Removing the pulse entirely" },
+              { id: "c", text: "Doubling the tempo" },
+              { id: "d", text: "Changing metre every bar" },
             ],
             correctChoiceId: "a",
           },
@@ -807,12 +807,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Faster and lighter" },
-              { id: "b", text: "Slower and heavier" },
+              { id: "a", text: "Higher in pitch" },
+              { id: "b", text: "Faster and lighter" },
               { id: "c", text: "Completely silent" },
-              { id: "d", text: "Higher in pitch" },
+              { id: "d", text: "Slower and heavier" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

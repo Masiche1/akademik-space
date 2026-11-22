@@ -60,12 +60,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Ovary" },
-              { id: "b", text: "Oviduct" },
-              { id: "c", text: "Cervix" },
-              { id: "d", text: "Uterus" },
+              { id: "a", text: "Uterus" },
+              { id: "b", text: "Cervix" },
+              { id: "c", text: "Ovary" },
+              { id: "d", text: "Oviduct" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -164,8 +164,8 @@ export const lesson23: Lesson = {
             choices: [
               { id: "a", text: "Egg cells and oestrogen" },
               { id: "b", text: "Sperm cells and testosterone" },
-              { id: "c", text: "Only testosterone" },
-              { id: "d", text: "Only sperm cells" },
+              { id: "c", text: "Only sperm cells" },
+              { id: "d", text: "Only testosterone" },
             ],
             correctChoiceId: "b",
           },
@@ -190,11 +190,11 @@ export const lesson23: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Day 1" },
-              { id: "b", text: "Day 7" },
-              { id: "c", text: "Day 14" },
+              { id: "b", text: "Day 14" },
+              { id: "c", text: "Day 7" },
               { id: "d", text: "Day 28" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -217,11 +217,11 @@ export const lesson23: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "The egg travelling down the oviduct" },
-              { id: "b", text: "The fusion of the nucleus of a sperm with the nucleus of an egg" },
-              { id: "c", text: "The embryo attaching to the uterus lining" },
+              { id: "b", text: "The embryo attaching to the uterus lining" },
+              { id: "c", text: "The fusion of the nucleus of a sperm with the nucleus of an egg" },
               { id: "d", text: "The release of an egg from an ovary" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -378,11 +378,11 @@ export const lesson23: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Testosterone" },
-              { id: "b", text: "Oestrogen" },
-              { id: "c", text: "Adrenaline" },
-              { id: "d", text: "Insulin" },
+              { id: "b", text: "Insulin" },
+              { id: "c", text: "Oestrogen" },
+              { id: "d", text: "Adrenaline" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -404,12 +404,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The ovary" },
-              { id: "b", text: "The oviduct" },
-              { id: "c", text: "The lining of the uterus" },
+              { id: "a", text: "The oviduct" },
+              { id: "b", text: "The lining of the uterus" },
+              { id: "c", text: "The ovary" },
               { id: "d", text: "The cervix" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -494,12 +494,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Influenza caused by a virus" },
-              { id: "b", text: "A throat infection caused by bacteria" },
-              { id: "c", text: "Measles caused by a virus" },
-              { id: "d", text: "The common cold caused by a virus" },
+              { id: "a", text: "A throat infection caused by bacteria" },
+              { id: "b", text: "Influenza caused by a virus" },
+              { id: "c", text: "The common cold caused by a virus" },
+              { id: "d", text: "Measles caused by a virus" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -598,12 +598,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A white blood cell that fights infection" },
-              { id: "b", text: "A microorganism that causes disease" },
-              { id: "c", text: "A protein made by the immune system" },
+              { id: "a", text: "A microorganism that causes disease" },
+              { id: "b", text: "A protein made by the immune system" },
+              { id: "c", text: "A white blood cell that fights infection" },
               { id: "d", text: "A vaccine containing dead virus" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -625,12 +625,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "They digest the pathogen directly" },
-              { id: "b", text: "They stay in the blood so a second infection is fought faster" },
-              { id: "c", text: "They produce antibiotics" },
+              { id: "a", text: "They produce antibiotics" },
+              { id: "b", text: "They digest the pathogen directly" },
+              { id: "c", text: "They stay in the blood so a second infection is fought faster" },
               { id: "d", text: "They carry oxygen to the tissues" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -652,9 +652,9 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A full-strength live pathogen" },
+              { id: "a", text: "Antibiotics that kill bacteria" },
               { id: "b", text: "A harmless form of the pathogen (dead, weakened or part of it)" },
-              { id: "c", text: "Antibiotics that kill bacteria" },
+              { id: "c", text: "A full-strength live pathogen" },
               { id: "d", text: "White blood cells from another person" },
             ],
             correctChoiceId: "b",
@@ -814,12 +814,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Only through direct blood transfusion" },
-              { id: "b", text: "Through the air in coughs and sneezes, contaminated food and water, and touch" },
+              { id: "a", text: "Through the air in coughs and sneezes, contaminated food and water, and touch" },
+              { id: "b", text: "Only through direct blood transfusion" },
               { id: "c", text: "Only through genetic inheritance" },
               { id: "d", text: "Only through vaccination" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -841,12 +841,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Every person in a population is vaccinated" },
-              { id: "b", text: "When most of a population is immune, the pathogen cannot spread easily and unvaccinated people are also protected" },
-              { id: "c", text: "A vaccine that works on all diseases" },
-              { id: "d", text: "Immunity passed from mother to baby only" },
+              { id: "a", text: "When most of a population is immune, the pathogen cannot spread easily and unvaccinated people are also protected" },
+              { id: "b", text: "Immunity passed from mother to baby only" },
+              { id: "c", text: "Every person in a population is vaccinated" },
+              { id: "d", text: "A vaccine that works on all diseases" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

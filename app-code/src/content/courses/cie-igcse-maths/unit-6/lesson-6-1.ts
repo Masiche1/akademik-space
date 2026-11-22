@@ -52,12 +52,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\frac{\\text{opposite}}{\\text{adjacent}}$" },
-              { id: "b", text: "$\\frac{\\text{opposite}}{\\text{hypotenuse}}$" },
-              { id: "c", text: "$\\frac{\\text{adjacent}}{\\text{hypotenuse}}$" },
-              { id: "d", text: "$\\frac{\\text{hypotenuse}}{\\text{adjacent}}$" },
+              { id: "a", text: "$\\frac{\\text{hypotenuse}}{\\text{adjacent}}$" },
+              { id: "b", text: "$\\frac{\\text{adjacent}}{\\text{hypotenuse}}$" },
+              { id: "c", text: "$\\frac{\\text{opposite}}{\\text{hypotenuse}}$" },
+              { id: "d", text: "$\\frac{\\text{opposite}}{\\text{adjacent}}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -141,6 +141,162 @@ export const lesson61: Lesson = {
             examinerNote: "Accept Pythagoras for (b): $h=\\sqrt{5^2-1.4^2}=\\sqrt{23.04}\\approx4.80$ m.",
           },
         },
+        {
+          id: "ciem-u6-right-trig-q5", difficulty: "foundation", totalMarks: 1,
+          stem: "In a right-angled triangle, which ratio defines $\\sin\\theta$?",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "$\\frac{\\text{opposite}}{\\text{hypotenuse}}$" },
+            { id: "b", text: "$\\frac{\\text{hypotenuse}}{\\text{opposite}}$" },
+            { id: "c", text: "$\\frac{\\text{adjacent}}{\\text{hypotenuse}}$" },
+            { id: "d", text: "$\\frac{\\text{opposite}}{\\text{adjacent}}$" }
+ ],
+            correctChoiceId: "a" },
+          markscheme: { principles: [ { kind: "formula", name: "Sine", statement: "$\\sin\\theta=\\frac{\\text{opposite}}{\\text{hypotenuse}}$" } ],
+            steps: [ { reasoning: "Recall SOH CAH TOA.", working: "\\sin=\\frac{opp}{hyp}", marks: 1, markCode: "B" } ],
+            finalAnswer: "**(a)** $\\frac{\\text{opposite}}{\\text{hypotenuse}}$", commonErrors: ["Confusing sine with cosine."] },
+        },
+        {
+          id: "ciem-u6-right-trig-q6", difficulty: "core", totalMarks: 1,
+          stem: "In a right-angled triangle, the adjacent side to $\\theta$ is $12$ and the hypotenuse is $13$. What is $\\cos\\theta$?",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "$\\frac{13}{12}$" },
+            { id: "b", text: "$\\frac{12}{13}$" },
+            { id: "c", text: "$\\frac{5}{12}$" },
+            { id: "d", text: "$\\frac{12}{5}$" }
+ ],
+            correctChoiceId: "b" },
+          markscheme: { principles: [ { kind: "formula", name: "Cosine", statement: "$\\cos\\theta=\\frac{\\text{adjacent}}{\\text{hypotenuse}}$" } ],
+            steps: [ { reasoning: "Use adjacent over hypotenuse.", working: "\\cos\\theta=\\frac{12}{13}", marks: 1, markCode: "M" } ],
+            finalAnswer: "**(b)** $\\frac{12}{13}$", commonErrors: ["Using opposite instead of adjacent."] },
+        },
+        {
+          id: "ciem-u6-right-trig-q7", difficulty: "core", totalMarks: 3,
+          stem: "In a right-angled triangle, $\\cos\\theta=\\frac45$ and the hypotenuse is $15$ cm. Find the adjacent side.",
+          response: { type: "numeric", parts: [ { label: "Adjacent", answer: 12, unit: "cm" } ] },
+          markscheme: { principles: [ { kind: "formula", name: "Cosine", statement: "$\\cos\\theta=\\frac{\\text{adjacent}}{\\text{hypotenuse}}$" } ],
+            steps: [
+              { reasoning: "Rearrange for the adjacent side.", working: "\\text{adj}=\\text{hyp}\\times\\cos\\theta", marks: 1, markCode: "M" },
+              { reasoning: "Substitute.", working: "=15\\times\\frac45", marks: 1, markCode: "M" },
+              { reasoning: "Compute and state the side.", marks: 1, markCode: "A" } ],
+            finalAnswer: "$12$ cm", commonErrors: ["Dividing $15$ by $\\frac45$."] },
+        },
+        {
+          id: "ciem-u6-right-trig-q8", difficulty: "challenge", totalMarks: 1,
+          stem: "In a right-angled triangle, the side opposite $\\theta$ is $7$ and the adjacent side is $24$. What is $\\theta$ to $1$ decimal place?",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "$22.6^\\circ$" },
+            { id: "b", text: "$73.7^\\circ$" },
+            { id: "c", text: "$14.0^\\circ$" },
+            { id: "d", text: "$16.3^\\circ$" }
+ ],
+            correctChoiceId: "d" },
+          markscheme: { principles: [ { kind: "formula", name: "Tangent", statement: "$\\tan\\theta=\\frac{\\text{opposite}}{\\text{adjacent}}$" } ],
+            steps: [ { reasoning: "Use inverse tangent.", working: "\\theta=\\tan^{-1}\\left(\\frac7{24}\\right)\\approx16.3^\\circ", marks: 1, markCode: "M" } ],
+            finalAnswer: "**(b)** $16.3^\\circ$", commonErrors: ["Using sine or cosine instead of tangent."] },
+        },
+        {
+          id: "ciem-u6-right-trig-q9", difficulty: "core", totalMarks: 3,
+          stem: "In a right-angled triangle, $\\sin\\theta=\\frac5{13}$ and the hypotenuse is $26$ cm. Find the opposite side.",
+          response: { type: "numeric", parts: [ { label: "Opposite", answer: 10, unit: "cm" } ] },
+          markscheme: { principles: [ { kind: "formula", name: "Sine", statement: "$\\sin\\theta=\\frac{\\text{opposite}}{\\text{hypotenuse}}$" } ],
+            steps: [
+              { reasoning: "Rearrange for the opposite side.", working: "\\text{opp}=\\text{hyp}\\times\\sin\\theta", marks: 1, markCode: "M" },
+              { reasoning: "Substitute.", working: "=26\\times\\frac5{13}", marks: 1, markCode: "M" },
+              { reasoning: "Compute and state the side.", marks: 1, markCode: "A" } ],
+            finalAnswer: "$10$ cm", commonErrors: ["Dividing instead of multiplying."] },
+        },
+        {
+          id: "ciem-u6-right-trig-q10", difficulty: "foundation", totalMarks: 2,
+          stem: "A right-angled triangle has legs $6$ and $8$ and hypotenuse $10$. Find $\\sin\\theta$ where $\\theta$ is opposite the side of length $6$.",
+          response: { type: "numeric", parts: [ { label: "sin θ", answer: 0.6 }] },
+          markscheme: { principles: [ { kind: "formula", name: "Sine", statement: "$\\sin\\theta=\\frac{\\text{opposite}}{\\text{hypotenuse}}$" } ],
+            steps: [
+              { reasoning: "Opposite is $6$, hypotenuse is $10$.", working: "\\sin\\theta=\\frac6{10}", marks: 1, markCode: "M" },
+              { reasoning: "State the value.", marks: 1, markCode: "A" } ],
+            finalAnswer: "$0.6$", commonErrors: ["Using $6$ as the hypotenuse."] },
+        },
+        {
+          id: "ciem-u6-right-trig-q11", difficulty: "challenge", totalMarks: 1,
+          stem: "In a right-angled triangle, $\\tan\\theta=\\frac5{12}$. What is $\\theta$ to $1$ decimal place?",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "$42.5^\\circ$" },
+            { id: "b", text: "$67.4^\\circ$" },
+            { id: "c", text: "$12.0^\\circ$" },
+            { id: "d", text: "$22.6^\\circ$" }
+ ],
+            correctChoiceId: "d" },
+          markscheme: { principles: [ { kind: "formula", name: "Inverse tangent", statement: "$\\theta=\\tan^{-1}\\left(\\frac{\\text{opposite}}{\\text{adjacent}}\\right)$" } ],
+            steps: [ { reasoning: "Apply inverse tangent.", working: "\\theta=\\tan^{-1}\\left(\\frac5{12}\\right)\\approx22.6^\\circ", marks: 1, markCode: "M" } ],
+            finalAnswer: "**(b)** $22.6^\\circ$", commonErrors: ["Giving $\\tan^{-1}(12/5)$."] },
+        },
+        {
+          id: "ciem-u6-right-trig-q12", difficulty: "core", totalMarks: 3,
+          stem: "A ramp rises $1.2$ m over a horizontal distance of $3.5$ m. Find the angle the ramp makes with the horizontal.",
+          response: { type: "open" },
+          markscheme: { principles: [ { kind: "formula", name: "Tangent", statement: "$\\tan\\theta=\\frac{\\text{rise}}{\\text{run}}$" } ],
+            steps: [
+              { reasoning: "Form the tangent ratio.", working: "\\tan\\theta=\\frac{1.2}{3.5}", marks: 1, markCode: "M" },
+              { reasoning: "Apply inverse tangent.", working: "\\theta=\\tan^{-1}(0.3429)", marks: 1, markCode: "M" },
+              { reasoning: "State the angle.", marks: 1, markCode: "A" } ],
+            finalAnswer: "$\\theta\\approx18.9^\\circ$", commonErrors: ["Inverting the ratio."] },
+        },
+        {
+          id: "ciem-u6-right-trig-q13", difficulty: "challenge", totalMarks: 3,
+          stem: "In a right-angled triangle, the hypotenuse is $20$ cm and one acute angle is $30^\\circ$. Find the exact length of the side opposite the $30^\\circ$ angle.",
+          response: { type: "numeric", parts: [ { label: "Opposite", answer: 10, unit: "cm" } ] },
+          markscheme: { principles: [ { kind: "formula", name: "Sine", statement: "$\\sin\\theta=\\frac{\\text{opposite}}{\\text{hypotenuse}}$" }, { kind: "property", name: "Exact value", statement: "$\\sin30^\\circ=\\frac12$." } ],
+            steps: [
+              { reasoning: "Use sine with the exact value.", working: "\\frac12=\\frac{\\text{opp}}{20}", marks: 1, markCode: "M" },
+              { reasoning: "Solve for the opposite side.", working: "\\text{opp}=10", marks: 1, markCode: "M" },
+              { reasoning: "State the side.", marks: 1, markCode: "A" } ],
+            finalAnswer: "$10$ cm", commonErrors: ["Using $\\cos30^\\circ$ instead of $\\sin30^\\circ$."] },
+        },
+        {
+          id: "ciem-u6-right-trig-q14", difficulty: "foundation", totalMarks: 3,
+          stem: "A right-angled triangle has hypotenuse $13$ cm and the side opposite angle $\\theta$ is $5$ cm. Find $\\theta$.",
+          response: { type: "open" },
+          markscheme: { principles: [ { kind: "formula", name: "Sine", statement: "$\\sin\\theta=\\frac{\\text{opposite}}{\\text{hypotenuse}}$" } ],
+            steps: [
+              { reasoning: "Form the sine ratio.", working: "\\sin\\theta=\\frac5{13}", marks: 1, markCode: "M" },
+              { reasoning: "Apply inverse sine.", working: "\\theta=\\sin^{-1}\\left(\\frac5{13}\\right)", marks: 1, markCode: "M" },
+              { reasoning: "State the angle.", marks: 1, markCode: "A" } ],
+            finalAnswer: "$\\theta\\approx22.6^\\circ$", commonErrors: ["Using $\\cos^{-1}$ with the same ratio."] },
+        },
+        {
+          id: "ciem-u6-right-trig-q15", difficulty: "core", totalMarks: 1,
+          stem: "Which expression gives $\\tan\\theta$ in a right-angled triangle?",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "$\\frac{\\text{hypotenuse}}{\\text{opposite}}$" },
+            { id: "b", text: "$\\frac{\\text{adjacent}}{\\text{hypotenuse}}$" },
+            { id: "c", text: "$\\frac{\\text{opposite}}{\\text{adjacent}}$" },
+            { id: "d", text: "$\\frac{\\text{opposite}}{\\text{hypotenuse}}$" }
+ ],
+            correctChoiceId: "c" },
+          markscheme: { principles: [ { kind: "formula", name: "Tangent", statement: "$\\tan\\theta=\\frac{\\text{opposite}}{\\text{adjacent}}$" } ],
+            steps: [ { reasoning: "Recall SOH CAH TOA.", working: "\\tan=\\frac{opp}{adj}", marks: 1, markCode: "B" } ],
+            finalAnswer: "**(a)** $\\frac{\\text{opposite}}{\\text{adjacent}}$", commonErrors: ["Confusing tan with sin."] },
+        },
+        {
+          id: "ciem-u6-right-trig-q16", difficulty: "challenge", totalMarks: 8,
+          stem: "A right-angled triangle has hypotenuse $17$ cm and one leg of length $8$ cm.",
+          parts: [
+            { label: "a", prompt: "Find the length of the other leg.", marks: 2 },
+            { label: "b", prompt: "Find the angle opposite the $8$ cm leg.", marks: 3 },
+            { label: "c", prompt: "Find the angle opposite the other leg.", marks: 3 } ],
+          response: { type: "open" },
+          markscheme: { principles: [ { kind: "formula", name: "Pythagoras", statement: "$a^2+b^2=c^2$" }, { kind: "formula", name: "Sine", statement: "$\\sin\\theta=\\frac{\\text{opposite}}{\\text{hypotenuse}}$" } ],
+            steps: [
+              { part: "a", reasoning: "Apply Pythagoras.", working: "b=\\sqrt{17^2-8^2}=\\sqrt{225}=15", marks: 1, markCode: "M" },
+              { part: "a", reasoning: "State the leg.", marks: 1, markCode: "A" },
+              { part: "b", reasoning: "Use sine with opposite $8$.", working: "\\sin\\theta=\\frac8{17}", marks: 1, markCode: "M" },
+              { part: "b", reasoning: "Apply inverse sine.", working: "\\theta=\\sin^{-1}\\left(\\frac8{17}\\right)\\approx28.1^\\circ", marks: 1, markCode: "M" },
+              { part: "b", reasoning: "State the angle.", marks: 1, markCode: "A" },
+              { part: "c", reasoning: "Use sine with opposite $15$.", working: "\\sin\\theta=\\frac{15}{17}", marks: 1, markCode: "M" },
+              { part: "c", reasoning: "Apply inverse sine or subtract from $90^\\circ$.", working: "\\theta\\approx61.9^\\circ", marks: 1, markCode: "M" },
+              { part: "c", reasoning: "State the angle.", marks: 1, markCode: "A" } ],
+            finalAnswer: "(a) $15$ cm (b) $\\approx28.1^\\circ$ (c) $\\approx61.9^\\circ$",
+            commonErrors: ["In (c) giving the same angle as (b).", "In (a) subtracting instead of using Pythagoras."] },
+        },
       ],
     },
     {
@@ -183,12 +339,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\frac12$" },
+              { id: "a", text: "$\\frac{\\sqrt2}{2}$" },
               { id: "b", text: "$\\frac{\\sqrt3}{2}$" },
-              { id: "c", text: "$\\frac{\\sqrt2}{2}$" },
+              { id: "c", text: "$\\frac12$" },
               { id: "d", text: "$1$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -270,6 +426,161 @@ export const lesson61: Lesson = {
             finalAnswer: "(a) shown (b) $\\frac{\\sqrt3}{2}$ (c) $9\\sqrt3$ cm$^2$",
             commonErrors: ["In (b) using $AM$ as hypotenuse.", "In (c) using side $6$ as the height."],
           },
+        },
+        {
+          id: "ciem-u6-exact-values-q5", difficulty: "foundation", totalMarks: 1,
+          stem: "What is the exact value of $\\sin30^\\circ$?",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "$1$" },
+            { id: "b", text: "$\\frac{\\sqrt2}{2}$" },
+            { id: "c", text: "$\\frac{\\sqrt3}{2}$" },
+            { id: "d", text: "$\\frac12$" }
+ ],
+            correctChoiceId: "d" },
+          markscheme: { principles: [ { kind: "property", name: "Exact values", statement: "$\\sin30^\\circ=\\frac12$." } ],
+            steps: [ { reasoning: "Recall the standard table.", working: "\\sin30^\\circ=\\frac12", marks: 1, markCode: "B" } ],
+            finalAnswer: "**(a)** $\\frac12$", commonErrors: ["Confusing $\\sin30^\\circ$ with $\\cos30^\\circ$."] },
+        },
+        {
+          id: "ciem-u6-exact-values-q6", difficulty: "core", totalMarks: 1,
+          stem: "What is the exact value of $\\cos45^\\circ$?",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "$\\frac{\\sqrt3}{2}$" },
+            { id: "b", text: "$\\frac{\\sqrt2}{2}$" },
+            { id: "c", text: "$\\frac12$" },
+            { id: "d", text: "$1$" }
+ ],
+            borrectChoiceId: "c" },
+          markscheme: { principles: [ { kind: "property", name: "Exact values", statement: "$\\cos45^\\circ=\\frac{\\sqrt2}{2}$." } ],
+            steps: [ { reasoning: "Recall the standard table.", working: "\\cos45^\\circ=\\frac{\\sqrt2}{2}", marks: 1, markCode: "B" } ],
+            finalAnswer: "**(c)** $\\frac{\\sqrt2}{2}$", commonErrors: ["Using $\\frac12$ or $\\frac{\\sqrt3}{2}$."] },
+        },
+        {
+          id: "ciem-u6-exact-values-q7", difficulty: "core", totalMarks: 2,
+          stem: "Find the value of $2\\sin30^\\circ+\\cos60^\\circ$.",
+          response: { type: "numeric", parts: [ { label: "Value", answer: 1.5 }] },
+          markscheme: { principles: [ { kind: "property", name: "Exact values", statement: "$\\sin30^\\circ=\\frac12$, $\\cos60^\\circ=\\frac12$." } ],
+            steps: [
+              { reasoning: "Substitute exact values.", working: "2\\times\\frac12+\\frac12=1.5", marks: 1, markCode: "M" },
+              { reasoning: "State the value.", marks: 1, markCode: "A" } ],
+            finalAnswer: "$1.5$", commonErrors: ["Using decimal approximations for special angles."] },
+        },
+        {
+          id: "ciem-u6-exact-values-q8", difficulty: "challenge", totalMarks: 1,
+          stem: "What is the exact value of $\\sin60^\\circ+\\cos30^\\circ$?",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "$1$" },
+            { id: "b", text: "$\\sqrt6$" },
+            { id: "c", text: "$\\frac{\\sqrt3}{2}$" },
+            { id: "d", text: "$\\sqrt3$" }
+ ],
+            correctChoiceId: "d" },
+          markscheme: { principles: [ { kind: "property", name: "Exact values", statement: "$\\sin60^\\circ=\\cos30^\\circ=\\frac{\\sqrt3}{2}$." } ],
+            steps: [ { reasoning: "Add the two equal values.", working: "\\frac{\\sqrt3}{2}+\\frac{\\sqrt3}{2}=\\sqrt3", marks: 1, markCode: "M" } ],
+            finalAnswer: "**(b)** $\\sqrt3$", commonErrors: ["Doubling incorrectly to $\\frac{\\sqrt3}{2}$."] },
+        },
+        {
+          id: "ciem-u6-exact-values-q9", difficulty: "core", totalMarks: 3,
+          stem: "In a right-angled triangle, the hypotenuse is $8$ cm and one acute angle is $30^\\circ$. Find the exact length of the side opposite the $30^\\circ$ angle.",
+          response: { type: "numeric", parts: [ { label: "Opposite", answer: 4, unit: "cm" } ] },
+          markscheme: { principles: [ { kind: "formula", name: "Sine", statement: "$\\sin\\theta=\\frac{\\text{opposite}}{\\text{hypotenuse}}$" }, { kind: "property", name: "Exact value", statement: "$\\sin30^\\circ=\\frac12$." } ],
+            steps: [
+              { reasoning: "Use sine with the exact value.", working: "\\frac12=\\frac{\\text{opp}}{8}", marks: 1, markCode: "M" },
+              { reasoning: "Solve for the opposite side.", working: "\\text{opp}=4", marks: 1, markCode: "M" },
+              { reasoning: "State the side.", marks: 1, markCode: "A" } ],
+            finalAnswer: "$4$ cm", commonErrors: ["Using the adjacent side formula."] },
+        },
+        {
+          id: "ciem-u6-exact-values-q10", difficulty: "foundation", totalMarks: 2,
+          stem: "Find the value of $\\cos60^\\circ+\\sin30^\\circ$.",
+          response: { type: "numeric", parts: [ { label: "Value", answer: 1 }] },
+          markscheme: { principles: [ { kind: "property", name: "Exact values", statement: "$\\cos60^\\circ=\\frac12$, $\\sin30^\\circ=\\frac12$." } ],
+            steps: [
+              { reasoning: "Add the exact values.", working: "\\frac12+\\frac12=1", marks: 1, markCode: "M" },
+              { reasoning: "State the value.", marks: 1, markCode: "A" } ],
+            finalAnswer: "$1$", commonErrors: ["Giving $\\frac12$ instead of $1$."] },
+        },
+        {
+          id: "ciem-u6-exact-values-q11", difficulty: "challenge", totalMarks: 1,
+          stem: "What is the exact value of $\\tan45^\\circ+\\sin60^\\circ$?",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "$1+\\frac{\\sqrt3}{2}$" },
+            { id: "b", text: "$\\frac{\\sqrt3}{2}$" },
+            { id: "c", text: "$1$" },
+            { id: "d", text: "$\\sqrt3$" }
+ ],
+            aorrectChoiceId: "c" },
+          markscheme: { principles: [ { kind: "property", name: "Exact values", statement: "$\\tan45^\\circ=1$, $\\sin60^\\circ=\\frac{\\sqrt3}{2}$." } ],
+            steps: [ { reasoning: "Add the exact values.", working: "1+\\frac{\\sqrt3}{2}", marks: 1, markCode: "M" } ],
+            finalAnswer: "**(c)** $1+\\frac{\\sqrt3}{2}$", commonErrors: ["Treating $\\tan45^\\circ$ as $0$."] },
+        },
+        {
+          id: "ciem-u6-exact-values-q12", difficulty: "core", totalMarks: 3,
+          stem: "In a $30^\\circ$-$60^\\circ$-$90^\\circ$ triangle with hypotenuse $2$, show that $\\sin60^\\circ=\\frac{\\sqrt3}{2}$.",
+          response: { type: "open" },
+          markscheme: { principles: [ { kind: "property", name: "Special triangle", statement: "Sides are in ratio $1:\\sqrt3:2$ opposite $30^\\circ$, $60^\\circ$, $90^\\circ$." } ],
+            steps: [
+              { reasoning: "The side opposite $60^\\circ$ is $\\sqrt3$ and the hypotenuse is $2$.", working: "\\frac{\\sqrt3}{2}", marks: 1, markCode: "M" },
+              { reasoning: "Use opposite over hypotenuse for sine.", working: "\\sin60^\\circ=\\frac{\\sqrt3}{2}", marks: 1, markCode: "M" },
+              { reasoning: "State the exact value.", marks: 1, markCode: "A" } ],
+            finalAnswer: "$\\sin60^\\circ=\\frac{\\sqrt3}{2}$", commonErrors: ["Using $1$ as the side opposite $60^\\circ$."] },
+        },
+        {
+          id: "ciem-u6-exact-values-q13", difficulty: "challenge", totalMarks: 3,
+          stem: "In a right-angled triangle, the hypotenuse is $10$ cm and one acute angle is $60^\\circ$. Find the exact length of the side adjacent to the $60^\\circ$ angle.",
+          response: { type: "numeric", parts: [ { label: "Adjacent", answer: 5, unit: "cm" } ] },
+          markscheme: { principles: [ { kind: "formula", name: "Cosine", statement: "$\\cos\\theta=\\frac{\\text{adjacent}}{\\text{hypotenuse}}$" }, { kind: "property", name: "Exact value", statement: "$\\cos60^\\circ=\\frac12$." } ],
+            steps: [
+              { reasoning: "Use cosine with the exact value.", working: "\\frac12=\\frac{\\text{adj}}{10}", marks: 1, markCode: "M" },
+              { reasoning: "Solve for the adjacent side.", working: "\\text{adj}=5", marks: 1, markCode: "M" },
+              { reasoning: "State the side.", marks: 1, markCode: "A" } ],
+            finalAnswer: "$5$ cm", commonErrors: ["Using sine instead of cosine."] },
+        },
+        {
+          id: "ciem-u6-exact-values-q14", difficulty: "foundation", totalMarks: 3,
+          stem: "Find the exact value of $\\sin45^\\circ\\cos45^\\circ$.",
+          response: { type: "open" },
+          markscheme: { principles: [ { kind: "property", name: "Exact values", statement: "$\\sin45^\\circ=\\cos45^\\circ=\\frac{\\sqrt2}{2}$." } ],
+            steps: [
+              { reasoning: "Substitute the exact values.", working: "\\frac{\\sqrt2}{2}\\times\\frac{\\sqrt2}{2}", marks: 1, markCode: "M" },
+              { reasoning: "Multiply.", working: "=\\frac{2}{4}", marks: 1, markCode: "M" },
+              { reasoning: "State the value.", marks: 1, markCode: "A" } ],
+            finalAnswer: "$\\frac12$", commonErrors: ["Adding instead of multiplying."] },
+        },
+        {
+          id: "ciem-u6-exact-values-q15", difficulty: "core", totalMarks: 1,
+          stem: "What is the exact value of $\\tan30^\\circ$?",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "$\\frac{1}{\\sqrt3}$" },
+            { id: "b", text: "$\\sqrt3$" },
+            { id: "c", text: "$\\frac12$" },
+            { id: "d", text: "$\\frac{\\sqrt3}{2}$" }
+ ],
+            correctChoiceId: "a" },
+          markscheme: { principles: [ { kind: "property", name: "Exact values", statement: "$\\tan30^\\circ=\\frac{1}{\\sqrt3}$." } ],
+            steps: [ { reasoning: "Recall the standard table.", working: "\\tan30^\\circ=\\frac{1}{\\sqrt3}", marks: 1, markCode: "B" } ],
+            finalAnswer: "**(b)** $\\frac{1}{\\sqrt3}$", commonErrors: ["Confusing with $\\tan60^\\circ=\\sqrt3$."] },
+        },
+        {
+          id: "ciem-u6-exact-values-q16", difficulty: "challenge", totalMarks: 8,
+          stem: "A right-angled triangle has hypotenuse $12$ cm and one acute angle $45^\\circ$.",
+          parts: [
+            { label: "a", prompt: "Find the exact length of the side opposite the $45^\\circ$ angle.", marks: 3 },
+            { label: "b", prompt: "Find the exact length of the side adjacent to the $45^\\circ$ angle.", marks: 2 },
+            { label: "c", prompt: "Find the exact area of the triangle.", marks: 3 } ],
+          response: { type: "open" },
+          markscheme: { principles: [ { kind: "property", name: "Exact values", statement: "$\\sin45^\\circ=\\cos45^\\circ=\\frac{\\sqrt2}{2}$." }, { kind: "formula", name: "Triangle area", statement: "$A=\\frac12bh$." } ],
+            steps: [
+              { part: "a", reasoning: "Use sine: opposite $=12\\times\\frac{\\sqrt2}{2}$.", working: "=6\\sqrt2", marks: 1, markCode: "M" },
+              { part: "a", reasoning: "State the side.", marks: 1, markCode: "M" },
+              { part: "a", reasoning: "Give units.", marks: 1, markCode: "A" },
+              { part: "b", reasoning: "At $45^\\circ$ the adjacent side equals the opposite side.", working: "6\\sqrt2", marks: 1, markCode: "M" },
+              { part: "b", reasoning: "State the side.", marks: 1, markCode: "A" },
+              { part: "c", reasoning: "Area $=\\frac12\\times6\\sqrt2\\times6\\sqrt2$.", working: "=\\frac12\\times72", marks: 1, markCode: "M" },
+              { part: "c", reasoning: "Simplify.", working: "=36", marks: 1, markCode: "M" },
+              { part: "c", reasoning: "State the area.", marks: 1, markCode: "A" } ],
+            finalAnswer: "(a) $6\\sqrt2$ cm (b) $6\\sqrt2$ cm (c) $36$ cm$^2$",
+            commonErrors: ["Using $\\frac{\\sqrt3}{2}$ for the $45^\\circ$ values."] },
         },
       ],
     },

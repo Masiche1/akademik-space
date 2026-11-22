@@ -77,12 +77,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Nation-states are becoming obsolete" },
-              { id: "b", text: "Globalisation is exaggerated" },
-              { id: "c", text: "Nothing has changed" },
-              { id: "d", text: "Only economics matters" },
+              { id: "a", text: "Nothing has changed" },
+              { id: "b", text: "Only economics matters" },
+              { id: "c", text: "Nation-states are becoming obsolete" },
+              { id: "d", text: "Globalisation is exaggerated" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -236,6 +236,461 @@ export const lesson51: Lesson = {
               "(a) definition (b) dimensions (c) perspectives (d) evaluation",
           },
         },
+        {
+          id: "asoc-u5-pe-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Which perspective argues that globalisation is exaggerated and national differences persist?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Sceptic" },
+              { id: "b", text: "Transformationalist" },
+              { id: "c", text: "Hyperglobalist" },
+              { id: "d", text: "Modernisation theorist" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Sceptic",
+                statement: "Globalisation exaggerated.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Sceptic = doubts scale of change.",
+                marks: 1,
+                markCode: "AO1",
+              },
+            ],
+            finalAnswer: "**(a)** Sceptic",
+            commonErrors: ["Confusing with transformationalist."],
+          },
+        },
+        {
+          id: "asoc-u5-pe-q6",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Which perspective sees globalisation as real but uneven and contested?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Sceptic" },
+              { id: "b", text: "Hyperglobalist" },
+              { id: "c", text: "Dependency theorist" },
+              { id: "d", text: "Transformationalist" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Transformationalist",
+                statement: "Real but uneven.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Transformationalist = uneven reality.",
+                marks: 1,
+                markCode: "AO1",
+              },
+            ],
+            finalAnswer: "**(a)** Transformationalist",
+            commonErrors: ["Confusing with hyperglobalist."],
+          },
+        },
+        {
+          id: "asoc-u5-pe-q7",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Which of the following is NOT a dimension of globalisation?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Complete national isolation" },
+              { id: "b", text: "Political international organisations" },
+              { id: "c", text: "Economic flows of trade and investment" },
+              { id: "d", text: "Cultural spread of media and brands" },
+            ],
+            correctChoiceIa: "d",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Dimensions",
+                statement: "Economic, cultural, political, social.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Isolation is opposite of globalisation.",
+                marks: 1,
+                markCode: "AO1",
+              },
+            ],
+            finalAnswer: "**(d)** Complete national isolation",
+            commonErrors: ["Picking a real dimension."],
+          },
+        },
+        {
+          id: "asoc-u5-pe-q8",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "McDonald's adapting its menus to local tastes in different countries is best described as:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Dependency" },
+              { id: "b", text: "Homogenisation" },
+              { id: "c", text: "Colonialism" },
+              { id: "d", text: "Glocalisation" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Glocalisation",
+                statement: "Global adapted to local.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Local adaptation = glocalisation.",
+                marks: 1,
+                markCode: "AO2",
+              },
+            ],
+            finalAnswer: "**(a)** Glocalisation",
+            commonErrors: ["Calling it homogenisation."],
+          },
+        },
+        {
+          id: "asoc-u5-pe-q9",
+          difficulty: "challenge",
+          totalMarks: 1,
+          stem: "Ohmae is most associated with which perspective on globalisation?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Sceptic" },
+              { id: "b", text: "Hyperglobalist" },
+              { id: "c", text: "Transformationalist" },
+              { id: "d", text: "Marxist" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Ohmae",
+                statement: "Hyperglobalist thinker.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Ohmae = states obsolete view.",
+                marks: 1,
+                markCode: "AO1",
+              },
+            ],
+            finalAnswer: "**(a)** Hyperglobalist",
+            commonErrors: ["Confusing with other theorists."],
+          },
+        },
+        {
+          id: "asoc-u5-pe-q10",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "A country's exports grew from $40 billion to $50 billion. What was the percentage increase?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 25 }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Percentage increase",
+                statement: "Change/original x 100.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Find increase: 50 - 40 = 10.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                reasoning: "10/40 x 100 = 25%.",
+                marks: 1,
+                markCode: "AO2",
+              },
+            ],
+            finalAnswer: "25",
+            commonErrors: ["Dividing by the new value."],
+          },
+        },
+        {
+          id: "asoc-u5-pe-q11",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "In a survey, 240 of 600 respondents said globalisation had improved their lives. What percentage is that?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 40 }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Percentage",
+                statement: "Part/whole x 100.",
+              },
+            ],
+            steps: [
+              { reasoning: "240/600 = 0.4.", marks: 1, markCode: "AO1" },
+              {
+                reasoning: "0.4 x 100 = 40%.",
+                marks: 1,
+                markCode: "AO2",
+              },
+            ],
+            finalAnswer: "40",
+            commonErrors: ["Dividing the wrong way round."],
+          },
+        },
+        {
+          id: "asoc-u5-pe-q12",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "A region's share of world trade fell from 15% to 12%. What was the percentage-point decrease?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 3 }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Percentage points",
+                statement: "Simple subtraction of percentages.",
+              },
+            ],
+            steps: [
+              { reasoning: "15 - 12 = 3.", marks: 1, markCode: "AO1" },
+              {
+                reasoning: "Expressed as percentage points.",
+                marks: 1,
+                markCode: "AO2",
+              },
+            ],
+            finalAnswer: "3",
+            commonErrors: ["Calculating a percentage change instead."],
+          },
+        },
+        {
+          id: "asoc-u5-pe-q13",
+          difficulty: "challenge",
+          totalMarks: 2,
+          stem: "Country A's GDP per capita is $30,000 and Country B's is $6,000. How many times larger is A's GDP per capita?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 5 }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Ratio",
+                statement: "Larger/smaller.",
+              },
+            ],
+            steps: [
+              { reasoning: "30000/6000 = 5.", marks: 1, markCode: "AO1" },
+              {
+                reasoning: "Five times larger.",
+                marks: 1,
+                markCode: "AO2",
+              },
+            ],
+            finalAnswer: "5",
+            commonErrors: ["Subtracting instead of dividing."],
+          },
+        },
+        {
+          id: "asoc-u5-pe-q14",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "Explain what is meant by 'glocalisation' and give an example.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Glocalisation",
+                statement: "Global products adapted to local cultures.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Global culture adapted locally.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                reasoning: "Example: McDonald's local menus.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "Shows hybrid cultural form.",
+                marks: 1,
+                markCode: "AO3",
+              },
+            ],
+            finalAnswer:
+              "Global products/cultures adapted to local contexts, e.g. localised fast-food menus.",
+            commonErrors: ["Giving no example."],
+          },
+        },
+        {
+          id: "asoc-u5-pe-q15",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "Compare the hyperglobalist and sceptic views of globalisation.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Hyper vs sceptic",
+                statement: "States obsolete vs exaggerated.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Hyperglobalist: states obsolete, markets dominate.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                reasoning: "Sceptic: exaggerated, regional differences persist.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                reasoning: "Opposite conclusions about scale/irreversibility.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              { reasoning: "Clear comparison.", marks: 1, markCode: "AO3" },
+            ],
+            finalAnswer:
+              "Hyperglobalist sees nation-states declining; sceptic doubts the scale of change.",
+            commonErrors: ["Only describing one view."],
+          },
+        },
+        {
+          id: "asoc-u5-pe-q16",
+          difficulty: "challenge",
+          totalMarks: 9,
+          stem: "Perspectives on globalisation — extended response.",
+          parts: [
+            { label: "a", prompt: "Define globalisation.", marks: 1 },
+            {
+              label: "b",
+              prompt: "Identify two dimensions of globalisation.",
+              marks: 2,
+            },
+            {
+              label: "c",
+              prompt: "Name and briefly describe the three main perspectives.",
+              marks: 3,
+            },
+            {
+              label: "d",
+              prompt: "Evaluate the claim that globalisation produces a single homogeneous world culture.",
+              marks: 3,
+            },
+          ],
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Perspectives",
+                statement: "Definition+dimensions+views+evaluation.",
+              },
+            ],
+            steps: [
+              {
+                part: "a",
+                reasoning: "Increasing interconnectedness.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                part: "b",
+                reasoning: "Any two dimensions.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                part: "b",
+                reasoning: "Correct and clear.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                part: "c",
+                reasoning: "Hyperglobalist/sceptic/transformationalist named.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                part: "c",
+                reasoning: "Descriptions accurate.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                part: "c",
+                reasoning: "Clear presentation.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                part: "d",
+                reasoning: "Glocalisation/hybrid forms counter claim.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                part: "d",
+                reasoning: "Local identities persist.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                part: "d",
+                reasoning: "Balanced judgement.",
+                marks: 1,
+                markCode: "AO3",
+              },
+            ],
+            finalAnswer:
+              "(a) definition (b) dimensions (c) perspectives (d) evaluation",
+          },
+        },
       ],
     },
     {
@@ -279,15 +734,15 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "A global corporation" },
+              { id: "b", text: "A religious movement" },
               {
-                id: "a",
+                id: "c",
                 text: "Community maintaining connections across borders",
               },
-              { id: "b", text: "A global corporation" },
-              { id: "c", text: "A type of government" },
-              { id: "d", text: "A religious movement" },
+              { id: "d", text: "A type of government" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -454,6 +909,466 @@ export const lesson51: Lesson = {
               },
             ],
             finalAnswer: "(a) identity (b) diaspora (c) power (d) resistance",
+          },
+        },
+        {
+          id: "asoc-u5-ip-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Which type of identity combines local and global elements?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Inherited identity" },
+              { id: "b", text: "Fixed identity" },
+              { id: "c", text: "Hybrid identity" },
+              { id: "d", text: "Purely national identity" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Hybrid identity",
+                statement: "Local + global mix.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Hybrid = layered local/global.",
+                marks: 1,
+                markCode: "AO1",
+              },
+            ],
+            finalAnswer: "**(a)** Hybrid identity",
+            commonErrors: ["Confusing with cosmopolitan."],
+          },
+        },
+        {
+          id: "asoc-u5-ip-q6",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Multinational corporations can rival nation-states mainly in:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Territorial control" },
+              { id: "b", text: "Military power" },
+              { id: "c", text: "Economic influence" },
+              { id: "d", text: "Citizenship rights" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Corporate power",
+                statement: "Economic influence rivals states.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Corps rival states economically.",
+                marks: 1,
+                markCode: "AO1",
+              },
+            ],
+            finalAnswer: "**(a)** Economic influence",
+            commonErrors: ["Overstating corporate power."],
+          },
+        },
+        {
+          id: "asoc-u5-ip-q7",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Anti-globalisation movements typically aim to:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Resist corporate dominance and protect local culture" },
+              { id: "b", text: "Increase labour migration" },
+              { id: "c", text: "Promote free trade agreements" },
+              { id: "d", text: "Abolish all nation-states" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Resistance",
+                statement: "Anti-globalisation resists corporate dominance.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Resistance targets corporate/global forces.",
+                marks: 1,
+                markCode: "AO1",
+              },
+            ],
+            finalAnswer:
+              "**(a)** Resist corporate dominance and protect local culture",
+            commonErrors: ["Confusing with pro-globalisation."],
+          },
+        },
+        {
+          id: "asoc-u5-ip-q8",
+          difficulty: "challenge",
+          totalMarks: 1,
+          stem: "Diaspora communities primarily maintain:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Purely religious identity" },
+              { id: "b", text: "Only local ties in host country" },
+              { id: "c", text: "No ties to country of origin" },
+              { id: "d", text: "Transnational cultural and economic ties" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Diaspora",
+                statement: "Cross-border community ties.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Diaspora = transnational ties.",
+                marks: 1,
+                markCode: "AO1",
+              },
+            ],
+            finalAnswer:
+              "**(a)** Transnational cultural and economic ties",
+            commonErrors: ["Thinking they sever origin ties."],
+          },
+        },
+        {
+          id: "asoc-u5-ip-q9",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Political power in a globalised world is best described as:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Solely held by corporations" },
+              { id: "b", text: "Concentrated only in nation-states" },
+              { id: "c", text: "Completely absent" },
+              { id: "d", text: "More diffuse and contested" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Diffuse power",
+                statement: "Power spread across actors, contested.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Power spreads beyond states but persists.",
+                marks: 1,
+                markCode: "AO1",
+              },
+            ],
+            finalAnswer: "**(a)** More diffuse and contested",
+            commonErrors: ["Saying states lose all power."],
+          },
+        },
+        {
+          id: "asoc-u5-ip-q10",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "In a survey of 800 respondents, 45% identified as cosmopolitan. How many people is that?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 360 }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Percentage",
+                statement: "Part/whole x 100.",
+              },
+            ],
+            steps: [
+              { reasoning: "45% of 800 = 0.45 x 800.", marks: 1, markCode: "AO1" },
+              { reasoning: "= 360.", marks: 1, markCode: "AO2" },
+            ],
+            finalAnswer: "360",
+            commonErrors: ["Calculating 45% of a different total."],
+          },
+        },
+        {
+          id: "asoc-u5-ip-q11",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "Remittances sent to a country rose from $12 billion to $15 billion. What was the percentage increase?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 25 }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Percentage increase",
+                statement: "Change/original x 100.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Increase = 15 - 12 = 3.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                reasoning: "3/12 x 100 = 25%.",
+                marks: 1,
+                markCode: "AO2",
+              },
+            ],
+            finalAnswer: "25",
+            commonErrors: ["Dividing by the new value."],
+          },
+        },
+        {
+          id: "asoc-u5-ip-q12",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "Of 1,200 migrants surveyed, 480 were refugees. What percentage were refugees?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 40 }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Percentage",
+                statement: "Part/whole x 100.",
+              },
+            ],
+            steps: [
+              { reasoning: "480/1200 = 0.4.", marks: 1, markCode: "AO1" },
+              {
+                reasoning: "0.4 x 100 = 40%.",
+                marks: 1,
+                markCode: "AO2",
+              },
+            ],
+            finalAnswer: "40",
+            commonErrors: ["Inverting the fraction."],
+          },
+        },
+        {
+          id: "asoc-u5-ip-q13",
+          difficulty: "challenge",
+          totalMarks: 2,
+          stem: "A country receives remittances equal to 8% of its GDP. If its GDP is $500 billion, what is the value of remittances?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 40 }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Percentage of total",
+                statement: "8% of 500.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "0.08 x 500 = 40.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                reasoning: "Remittances = $40 billion.",
+                marks: 1,
+                markCode: "AO2",
+              },
+            ],
+            finalAnswer: "40",
+            commonErrors: ["Forgetting to convert the percentage."],
+          },
+        },
+        {
+          id: "asoc-u5-ip-q14",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "Explain how globalisation can produce hybrid identities.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Hybrid identity",
+                statement: "Local + global mix.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Global flows bring new cultural elements.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                reasoning: "People combine local and global.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                reasoning: "Example or layered identity explanation.",
+                marks: 1,
+                markCode: "AO2",
+              },
+            ],
+            finalAnswer:
+              "Globalisation exposes people to new cultures, creating layered hybrid identities.",
+            commonErrors: ["Describing only one identity type."],
+          },
+        },
+        {
+          id: "asoc-u5-ip-q15",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "Evaluate the view that globalisation distributes power equally.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Power distribution",
+                statement: "Unequal power shifts.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Corporations and IOs gain influence.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                reasoning: "States constrained but retain power.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                reasoning: "Global elite vs marginalised groups.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              { reasoning: "Balanced judgement.", marks: 1, markCode: "AO3" },
+            ],
+            finalAnswer:
+              "Power shifts are unequal — elites and corporations gain while some groups are marginalised.",
+            commonErrors: ["Accepting claim uncritically."],
+          },
+        },
+        {
+          id: "asoc-u5-ip-q16",
+          difficulty: "challenge",
+          totalMarks: 9,
+          stem: "Globalisation, identity and power — extended response.",
+          parts: [
+            {
+              label: "a",
+              prompt: "Describe two ways globalisation changes identity.",
+              marks: 3,
+            },
+            {
+              label: "b",
+              prompt: "Define diaspora and give an example.",
+              marks: 2,
+            },
+            {
+              label: "c",
+              prompt: "Outline two ways globalisation shifts political power.",
+              marks: 2,
+            },
+            {
+              label: "d",
+              prompt: "Evaluate the view that globalisation makes identities homogeneous.",
+              marks: 2,
+            },
+          ],
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Identity/power",
+                statement: "Identity+diaspora+power+evaluation.",
+              },
+            ],
+            steps: [
+              {
+                part: "a",
+                reasoning: "Hybrid/cosmopolitan identities.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                part: "a",
+                reasoning: "Local persists/layered.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                part: "a",
+                reasoning: "Clear explanation.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                part: "b",
+                reasoning: "Transnational community.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                part: "b",
+                reasoning: "Example given.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                part: "c",
+                reasoning: "Corps/IOs constrain states.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                part: "c",
+                reasoning: "Power becomes diffuse.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                part: "d",
+                reasoning: "Hybridisation counter-argument.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                part: "d",
+                reasoning: "Judgement reached.",
+                marks: 1,
+                markCode: "AO3",
+              },
+            ],
+            finalAnswer: "(a) identity (b) diaspora (c) power (d) evaluation",
           },
         },
       ],

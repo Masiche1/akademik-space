@@ -57,10 +57,10 @@ export const lesson31: Lesson = {
             choices: [
               { id: "a", text: "Choosing the ending" },
               { id: "b", text: "Writing the title" },
-              { id: "c", text: "Deciding who the characters are and where it happens" },
-              { id: "d", text: "Counting the words" },
+              { id: "c", text: "Counting the words" },
+              { id: "d", text: "Deciding who the characters are and where it happens" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -139,9 +139,9 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Characters" },
-              { id: "b", text: "Setting" },
-              { id: "c", text: "Problem" },
+              { id: "a", text: "Problem" },
+              { id: "b", text: "Characters" },
+              { id: "c", text: "Setting" },
               { id: "d", text: "Cover design" },
             ],
             correctChoiceId: "d",
@@ -160,9 +160,9 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The ending of the story" },
+              { id: "a", text: "The title of the story" },
               { id: "b", text: "Something difficult the character must deal with" },
-              { id: "c", text: "The title of the story" },
+              { id: "c", text: "The ending of the story" },
               { id: "d", text: "The character's name" },
             ],
             correctChoiceId: "b",
@@ -181,12 +181,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "'he', 'she', 'they'" },
-              { id: "b", text: "'I' and 'me'" },
-              { id: "c", text: "Only dialogue" },
-              { id: "d", text: "The title" },
+              { id: "a", text: "Only dialogue" },
+              { id: "b", text: "'he', 'she', 'they'" },
+              { id: "c", text: "The title" },
+              { id: "d", text: "'I' and 'me'" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "convention", name: "Narrator", statement: "First person uses 'I' and 'me'." }],
@@ -253,12 +253,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Because mixing narrators confuses the reader" },
-              { id: "b", text: "Because it changes the punctuation" },
-              { id: "c", text: "Because first person uses speech marks" },
-              { id: "d", text: "It doesn't matter at all" },
+              { id: "a", text: "Because it changes the punctuation" },
+              { id: "b", text: "It doesn't matter at all" },
+              { id: "c", text: "Because mixing narrators confuses the reader" },
+              { id: "d", text: "Because first person uses speech marks" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "convention", name: "Narrator consistency", statement: "Stay with one narrator throughout the story." }],
@@ -312,12 +312,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Count the words in your story" },
-              { id: "b", text: "Organize your ideas before writing" },
+              { id: "a", text: "Organize your ideas before writing" },
+              { id: "b", text: "Publish the story" },
               { id: "c", text: "Choose the cover colour" },
-              { id: "d", text: "Publish the story" },
+              { id: "d", text: "Count the words in your story" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "skill", name: "Story planning", statement: "A plan keeps the story organized before writing." }],
@@ -333,10 +333,10 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "They eat dinner and go to sleep." },
+              { id: "a", text: "They buy a new tent." },
               { id: "b", text: "They find their way home using the stars." },
-              { id: "c", text: "They buy a new tent." },
-              { id: "d", text: "They decide camping is boring." },
+              { id: "c", text: "They decide camping is boring." },
+              { id: "d", text: "They eat dinner and go to sleep." },
             ],
             correctChoiceId: "b",
           },
@@ -406,12 +406,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The final perfect version" },
-              { id: "b", text: "A first version you can improve" },
-              { id: "c", text: "A list of ideas" },
-              { id: "d", text: "A published book" },
+              { id: "a", text: "A list of ideas" },
+              { id: "b", text: "A published book" },
+              { id: "c", text: "The final perfect version" },
+              { id: "d", text: "A first version you can improve" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -491,12 +491,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Write the ending" },
-              { id: "b", text: "Make a plan of characters, setting, problem and ending" },
-              { id: "c", text: "Count the words" },
+              { id: "a", text: "Make a plan of characters, setting, problem and ending" },
+              { id: "b", text: "Count the words" },
+              { id: "c", text: "Write the ending" },
               { id: "d", text: "Choose the font" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "skill", name: "Writing process", statement: "Plan before you write." }],
@@ -512,10 +512,10 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Write the story on a board" },
+              { id: "a", text: "Only write dialogue" },
               { id: "b", text: "Use actions and senses instead of just naming feelings" },
-              { id: "c", text: "Only write dialogue" },
-              { id: "d", text: "Hide the ending" },
+              { id: "c", text: "Hide the ending" },
+              { id: "d", text: "Write the story on a board" },
             ],
             correctChoiceId: "b",
           },
@@ -534,11 +534,11 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Tom was nervous." },
-              { id: "b", text: "Tom's hands shook and he kept checking the door." },
-              { id: "c", text: "Tom felt worried." },
+              { id: "b", text: "Tom felt worried." },
+              { id: "c", text: "Tom's hands shook and he kept checking the door." },
               { id: "d", text: "Tom was scared." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Show don't tell", statement: "Actions show feelings; naming them only tells." }],
@@ -605,8 +605,8 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The beginning" },
-              { id: "b", text: "The ending" },
+              { id: "a", text: "The ending" },
+              { id: "b", text: "The beginning" },
               { id: "c", text: "The problem or development" },
               { id: "d", text: "The title" },
             ],
@@ -670,12 +670,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A single word" },
-              { id: "b", text: "A group of sentences about one moment or idea" },
-              { id: "c", text: "The story's title" },
-              { id: "d", text: "A list of characters" },
+              { id: "a", text: "A group of sentences about one moment or idea" },
+              { id: "b", text: "A list of characters" },
+              { id: "c", text: "A single word" },
+              { id: "d", text: "The story's title" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "convention", name: "Paragraphs", statement: "Paragraphs separate different moments or ideas in a story." }],
@@ -692,11 +692,11 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "It was a rainy day and I went outside." },
-              { id: "b", text: "I saw a bird in the tree." },
-              { id: "c", text: "The door opened before she touched it — and inside was a room that was not on any map." },
+              { id: "b", text: "The door opened before she touched it — and inside was a room that was not on any map." },
+              { id: "c", text: "I saw a bird in the tree." },
               { id: "d", text: "My name is Tom and I am ten years old." },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Story opening", statement: "An engaging opening creates curiosity or tension." }],

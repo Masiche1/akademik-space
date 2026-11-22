@@ -50,12 +50,12 @@ export const lesson92: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$[-1,1]$" },
-              { id: "b", text: "$[0,1]$" },
+              { id: "a", text: "$[0,1]$" },
+              { id: "b", text: "$[-1,1]$" },
               { id: "c", text: "$(-\\infty,\\infty)$" },
               { id: "d", text: "$[-100,100]$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Correlation", statement: "$-1\\le r\\le1$." }],
@@ -170,12 +170,12 @@ export const lesson92: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$(\\bar x,\\bar y)$" },
-              { id: "b", text: "The origin" },
-              { id: "c", text: "$(0,\\bar y)$" },
-              { id: "d", text: "$(\\bar x,0)$" },
+              { id: "a", text: "$(0,\\bar y)$" },
+              { id: "b", text: "$(\\bar x,0)$" },
+              { id: "c", text: "The origin" },
+              { id: "d", text: "$(\\bar x,\\bar y)$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "property", name: "Regression line", statement: "Passes through means point." }],

@@ -49,12 +49,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Zero" },
-              { id: "b", text: "Equal" },
+              { id: "a", text: "Reverse higher" },
+              { id: "b", text: "Zero" },
               { id: "c", text: "Forward higher" },
-              { id: "d", text: "Reverse higher" },
+              { id: "d", text: "Equal" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Equilibrium", statement: "Forward rate = reverse rate." }],
@@ -164,12 +164,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Particles collide less often" },
-              { id: "b", text: "More collisions have energy ≥ Ea" },
-              { id: "c", text: "Temperature decreases" },
-              { id: "d", text: "Concentration decreases" },
+              { id: "a", text: "Concentration decreases" },
+              { id: "b", text: "Particles collide less often" },
+              { id: "c", text: "More collisions have energy ≥ Ea" },
+              { id: "d", text: "Temperature decreases" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Collision theory", statement: "Ea + orientation determine success." }],

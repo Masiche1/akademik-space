@@ -85,15 +85,15 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The opening scene" },
+              { id: "a", text: "The middle act break" },
+              { id: "b", text: "The final resolution" },
               {
-                id: "b",
+                id: "c",
                 text: "The point of highest tension or turning point",
               },
-              { id: "c", text: "The final resolution" },
-              { id: "d", text: "The middle act break" },
+              { id: "d", text: "The opening scene" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -305,13 +305,13 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Resolves the central conflict" },
-              { id: "b", text: "Builds tension through complications" },
+              { id: "a", text: "Builds tension through complications" },
+              { id: "b", text: "Shows the consequences of the climax" },
               {
                 id: "c",
                 text: "Establishes characters, setting and situation",
               },
-              { id: "d", text: "Shows the consequences of the climax" },
+              { id: "d", text: "Resolves the central conflict" },
             ],
             correctChoiceId: "c",
           },
@@ -392,13 +392,13 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Chronological suspense only" },
+              { id: "a", text: "Comic relief through unexpected ordering" },
               {
                 id: "b",
                 text: "Dramatic irony and suspense, as the audience knows the outcome while watching events unfold",
               },
               { id: "c", text: "No effect, since the events are the same" },
-              { id: "d", text: "Comic relief through unexpected ordering" },
+              { id: "d", text: "Chronological suspense only" },
             ],
             correctChoiceId: "b",
           },
@@ -495,13 +495,13 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The highest point of tension" },
+              { id: "a", text: "A sudden reversal of fortune" },
               {
                 id: "b",
                 text: "The resolution or conclusion after the climax",
               },
               { id: "c", text: "The introduction of the protagonist" },
-              { id: "d", text: "A sudden reversal of fortune" },
+              { id: "d", text: "The highest point of tension" },
             ],
             correctChoiceId: "b",
           },
@@ -641,12 +641,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Before the exposition" },
-              { id: "b", text: "Between rising action and climax" },
-              { id: "c", text: "After the climax, showing consequences" },
-              { id: "d", text: "During the denouement only" },
+              { id: "a", text: "After the climax, showing consequences" },
+              { id: "b", text: "During the denouement only" },
+              { id: "c", text: "Between rising action and climax" },
+              { id: "d", text: "Before the exposition" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -824,14 +824,14 @@ export const lesson21: Lesson = {
                 id: "a",
                 text: "Keeping all events in strict chronological order",
               },
+              { id: "b", text: "Using only one continuous scene" },
               {
-                id: "b",
+                id: "c",
                 text: "Revealing the outcome early, then showing how characters reach it",
               },
-              { id: "c", text: "Ending the play abruptly without resolution" },
-              { id: "d", text: "Using only one continuous scene" },
+              { id: "d", text: "Ending the play abruptly without resolution" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -971,18 +971,18 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A single continuous scene" },
+              {
+                id: "a",
+                text: "Self-contained scenes without a clear progressive plot",
+              },
               {
                 id: "b",
                 text: "Scenes linked by a clear cause-and-effect plot progression",
               },
-              {
-                id: "c",
-                text: "Self-contained scenes without a clear progressive plot",
-              },
+              { id: "c", text: "A single continuous scene" },
               { id: "d", text: "Strict adherence to the five-act form" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1164,15 +1164,15 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A mistake in the script" },
+              { id: "a", text: "A technical error" },
+              { id: "b", text: "The villain's plan" },
+              { id: "c", text: "A mistake in the script" },
               {
-                id: "b",
+                id: "d",
                 text: "The character trait that leads to the protagonist's downfall",
               },
-              { id: "c", text: "A technical error" },
-              { id: "d", text: "The villain's plan" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1377,10 +1377,10 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The protagonist's death" },
+              { id: "a", text: "The villain's victory" },
               { id: "b", text: "Marriage, reconciliation or restored order" },
-              { id: "c", text: "An ambiguous, unresolved ending" },
-              { id: "d", text: "The villain's victory" },
+              { id: "c", text: "The protagonist's death" },
+              { id: "d", text: "An ambiguous, unresolved ending" },
             ],
             correctChoiceId: "b",
           },
@@ -1460,15 +1460,15 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The requirement for a large cast" },
+              { id: "a", text: "The use of dialogue" },
+              { id: "b", text: "The five-act structure" },
+              { id: "c", text: "The requirement for a large cast" },
               {
-                id: "b",
+                id: "d",
                 text: "The convention that comedy resolves in marriage or reconciliation",
               },
-              { id: "c", text: "The use of dialogue" },
-              { id: "d", text: "The five-act structure" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1561,15 +1561,15 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A technical term for stage lighting" },
+              { id: "a", text: "The villain's defeat" },
+              { id: "b", text: "A technical term for stage lighting" },
               {
-                id: "b",
+                id: "c",
                 text: "The audience's emotional release through pity and fear",
               },
-              { id: "c", text: "The villain's defeat" },
               { id: "d", text: "A sudden plot twist" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1707,12 +1707,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Hamartia" },
-              { id: "b", text: "Catharsis" },
-              { id: "c", text: "Denouement" },
-              { id: "d", text: "Exposition" },
+              { id: "a", text: "Exposition" },
+              { id: "b", text: "Denouement" },
+              { id: "c", text: "Catharsis" },
+              { id: "d", text: "Hamartia" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1880,14 +1880,14 @@ export const lesson21: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Determine the running time" },
+              { id: "b", text: "Choose the actors" },
+              { id: "c", text: "Fix the number of scenes" },
               {
-                id: "b",
+                id: "d",
                 text: "Set expectations that guide how events are interpreted",
               },
-              { id: "c", text: "Choose the actors" },
-              { id: "d", text: "Fix the number of scenes" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -2018,10 +2018,10 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Tragedy" },
+              { id: "a", text: "Farce" },
               { id: "b", text: "Comedy" },
               { id: "c", text: "Drama" },
-              { id: "d", text: "Farce" },
+              { id: "d", text: "Tragedy" },
             ],
             correctChoiceId: "c",
           },

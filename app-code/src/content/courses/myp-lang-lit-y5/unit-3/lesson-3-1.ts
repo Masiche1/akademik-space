@@ -54,12 +54,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "No difference" },
-              { id: "b", text: "Metaphor states directly; simile uses 'like' or 'as'" },
-              { id: "c", text: "Simile is always better" },
-              { id: "d", text: "Metaphor is only for poems" },
+              { id: "a", text: "Metaphor is only for poems" },
+              { id: "b", text: "Simile is always better" },
+              { id: "c", text: "Metaphor states directly; simile uses 'like' or 'as'" },
+              { id: "d", text: "No difference" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Metaphor vs simile", statement: "Metaphor = direct; simile = like/as comparison." }],
@@ -139,12 +139,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Giving human qualities to non-human things" },
-              { id: "b", text: "Comparing two things using 'like'" },
+              { id: "a", text: "Comparing two things using 'like'" },
+              { id: "b", text: "Giving human qualities to non-human things" },
               { id: "c", text: "Exaggerating for effect" },
               { id: "d", text: "Repeating words" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Personification", statement: "Human qualities given to non-human things." }],
@@ -185,12 +185,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Simile" },
-              { id: "b", text: "Hyperbole — 'a million times' exaggerates for emphasis" },
-              { id: "c", text: "Metaphor" },
-              { id: "d", text: "Onomatopoeia" },
+              { id: "a", text: "Hyperbole — 'a million times' exaggerates for emphasis" },
+              { id: "b", text: "Metaphor" },
+              { id: "c", text: "Onomatopoeia" },
+              { id: "d", text: "Simile" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Hyperbole", statement: "Exaggeration for emphasis." }],
@@ -211,10 +211,10 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Version A — it is clearer" },
+              { id: "a", text: "Both use figurative language equally" },
               { id: "b", text: "Version B — the metaphor 'mountain to climb' adds difficulty, effort and scale" },
-              { id: "c", text: "Both use figurative language equally" },
-              { id: "d", text: "Neither uses figurative language" },
+              { id: "c", text: "Neither uses figurative language" },
+              { id: "d", text: "Version A — it is clearer" },
             ],
             correctChoiceId: "b",
           },
@@ -237,12 +237,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Calm reflection" },
-              { id: "b", text: "Urgency and momentum — short sentences accelerate pace" },
+              { id: "a", text: "Formal distance" },
+              { id: "b", text: "Calm reflection" },
               { id: "c", text: "Boredom" },
-              { id: "d", text: "Formal distance" },
+              { id: "d", text: "Urgency and momentum — short sentences accelerate pace" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Syntax and pace", statement: "Short sentences create urgency." }],
@@ -299,12 +299,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A type of poem" },
-              { id: "b", text: "Using similar grammatical structure for rhythm and emphasis" },
+              { id: "a", text: "Using similar grammatical structure for rhythm and emphasis" },
+              { id: "b", text: "A type of poem" },
               { id: "c", text: "Writing without punctuation" },
               { id: "d", text: "Repeating the same word only" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Parallelism", statement: "Similar grammatical structure for rhythm/emphasis." }],
@@ -363,12 +363,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "No difference — all mean walked" },
-              { id: "b", text: "Different gaits — 'strolled' relaxed, 'strode' confident/purposeful, 'ambled' aimless — precise diction creates nuance" },
-              { id: "c", text: "Only 'strode' is correct English" },
-              { id: "d", text: "The verbs change the door" },
+              { id: "a", text: "Different gaits — 'strolled' relaxed, 'strode' confident/purposeful, 'ambled' aimless — precise diction creates nuance" },
+              { id: "b", text: "The verbs change the door" },
+              { id: "c", text: "No difference — all mean walked" },
+              { id: "d", text: "Only 'strode' is correct English" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Precise diction", statement: "Near-synonyms carry different connotations." }],
@@ -437,12 +437,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "No difference" },
-              { id: "b", text: "Voice = style/who you are; tone = attitude toward subject" },
-              { id: "c", text: "Voice is only for singers" },
-              { id: "d", text: "Tone is only for music" },
+              { id: "a", text: "Voice is only for singers" },
+              { id: "b", text: "Tone is only for music" },
+              { id: "c", text: "Voice = style/who you are; tone = attitude toward subject" },
+              { id: "d", text: "No difference" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Voice vs tone", statement: "Voice = style; tone = attitude." }],
@@ -523,12 +523,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "They are the same" },
-              { id: "b", text: "Voice = the writer's style/identity; tone = attitude toward the subject" },
-              { id: "c", text: "Voice is only for speaking" },
-              { id: "d", text: "Tone is only for music" },
+              { id: "a", text: "Voice is only for speaking" },
+              { id: "b", text: "They are the same" },
+              { id: "c", text: "Tone is only for music" },
+              { id: "d", text: "Voice = the writer's style/identity; tone = attitude toward the subject" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Voice vs tone", statement: "Voice = style; tone = attitude." }],
@@ -564,12 +564,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Playful and jokey" },
-              { id: "b", text: "Clear, neutral and objective" },
+              { id: "a", text: "Clear, neutral and objective" },
+              { id: "b", text: "Playful and jokey" },
               { id: "c", text: "Highly emotional and personal" },
               { id: "d", text: "Full of slang" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "convention", name: "Genre conventions", statement: "Journalism requires neutral, objective voice." }],
@@ -590,10 +590,10 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It is perfectly consistent" },
+              { id: "a", text: "It has no problem" },
               { id: "b", text: "It shifts from formal/bureaucratic ('implemented', 'Q3') to casual slang ('ngl', 'total mess') — inconsistent voice" },
               { id: "c", text: "It is too long" },
-              { id: "d", text: "It has no problem" },
+              { id: "d", text: "It is perfectly consistent" },
             ],
             correctChoiceId: "b",
           },
@@ -611,12 +611,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "They have no style" },
-              { id: "b", text: "Their style is consistent, but their attitude toward the subject changes — e.g. same voice, serious then playful" },
-              { id: "c", text: "It is impossible" },
+              { id: "a", text: "Their style is consistent, but their attitude toward the subject changes — e.g. same voice, serious then playful" },
+              { id: "b", text: "It is impossible" },
+              { id: "c", text: "They have no style" },
               { id: "d", text: "Voice and tone are identical" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Voice and tone", statement: "Consistent style can carry varying attitudes." }],
@@ -673,12 +673,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Using the same word repeatedly" },
-              { id: "b", text: "Maintaining the same style, register and tone throughout a text" },
-              { id: "c", text: "Never changing topics" },
+              { id: "a", text: "Maintaining the same style, register and tone throughout a text" },
+              { id: "b", text: "Never changing topics" },
+              { id: "c", text: "Using the same word repeatedly" },
               { id: "d", text: "Writing very short sentences" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Consistent voice", statement: "Same style/register/tone throughout." }],
@@ -744,11 +744,11 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "It is perfectly academic" },
-              { id: "b", text: "Inappropriate register — casual slang ('like', 'super', 'kinda', 'crazy') undermines academic credibility" },
-              { id: "c", text: "It is too formal" },
+              { id: "b", text: "It is too formal" },
+              { id: "c", text: "Inappropriate register — casual slang ('like', 'super', 'kinda', 'crazy') undermines academic credibility" },
               { id: "d", text: "No problem exists" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Genre-appropriate voice", statement: "Academic writing requires formal register." }],

@@ -57,12 +57,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The last page of a book" },
-              { id: "b", text: "A list of topics with page numbers" },
-              { id: "c", text: "A page with pictures" },
-              { id: "d", text: "The title page" },
+              { id: "a", text: "The title page" },
+              { id: "b", text: "A page with pictures" },
+              { id: "c", text: "The last page of a book" },
+              { id: "d", text: "A list of topics with page numbers" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -92,11 +92,11 @@ export const lesson52: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Title" },
-              { id: "b", text: "Caption" },
+              { id: "b", text: "Contents" },
               { id: "c", text: "Index" },
-              { id: "d", text: "Contents" },
+              { id: "d", text: "Caption" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -242,11 +242,11 @@ export const lesson52: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Same characters" },
-              { id: "b", text: "Three main animals" },
+              { id: "b", text: "Same ending" },
               { id: "c", text: "Same setting" },
-              { id: "d", text: "Same ending" },
+              { id: "d", text: "Three main animals" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -269,12 +269,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "One is fiction, one is non-fiction" },
-              { id: "b", text: "They're the same" },
-              { id: "c", text: "One is longer" },
-              { id: "d", text: "Different animals" },
+              { id: "a", text: "One is longer" },
+              { id: "b", text: "One is fiction, one is non-fiction" },
+              { id: "c", text: "Different animals" },
+              { id: "d", text: "They're the same" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [

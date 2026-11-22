@@ -53,12 +53,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Share common goals" },
-              { id: "b", text: "Compete for scarce resources" },
-              { id: "c", text: "Have equal status" },
+              { id: "a", text: "Compete for scarce resources" },
+              { id: "b", text: "Have equal status" },
+              { id: "c", text: "Share common goals" },
               { id: "d", text: "Interact cooperatively" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -152,12 +152,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "an emotional prejudice toward a group" },
-              { id: "b", text: "an oversimplified, generalised belief about a group" },
-              { id: "c", text: "unfair treatment of group members" },
-              { id: "d", text: "a shared objective requiring cooperation" },
+              { id: "a", text: "an oversimplified, generalised belief about a group" },
+              { id: "b", text: "a shared objective requiring cooperation" },
+              { id: "c", text: "an emotional prejudice toward a group" },
+              { id: "d", text: "unfair treatment of group members" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -180,12 +180,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "behaviour learned from parents and media" },
-              { id: "b", text: "displacement of frustration onto out-groups during hardship" },
-              { id: "c", text: "competition between groups for resources" },
+              { id: "a", text: "displacement of frustration onto out-groups during hardship" },
+              { id: "b", text: "competition between groups for resources" },
+              { id: "c", text: "behaviour learned from parents and media" },
               { id: "d", text: "categorisation into in-groups and out-groups" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -227,12 +227,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "brief and competitive" },
-              { id: "b", text: "equal-status, cooperative and institutionally supported" },
-              { id: "c", text: "between groups of unequal status" },
-              { id: "d", text: "forced without shared goals" },
+              { id: "a", text: "forced without shared goals" },
+              { id: "b", text: "between groups of unequal status" },
+              { id: "c", text: "brief and competitive" },
+              { id: "d", text: "equal-status, cooperative and institutionally supported" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -295,11 +295,11 @@ export const lesson43: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "real resource conflict is necessary for prejudice" },
-              { id: "b", text: "arbitrary groupings alone produce in-group favouritism" },
-              { id: "c", text: "contact always reduces intergroup bias" },
+              { id: "b", text: "contact always reduces intergroup bias" },
+              { id: "c", text: "arbitrary groupings alone produce in-group favouritism" },
               { id: "d", text: "stereotypes require media exposure to form" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -363,12 +363,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "cooperate more across group boundaries" },
-              { id: "b", text: "direct frustration and blame onto out-groups" },
-              { id: "c", text: "reduce all forms of prejudice" },
-              { id: "d", text: "seek superordinate shared goals" },
+              { id: "a", text: "seek superordinate shared goals" },
+              { id: "b", text: "reduce all forms of prejudice" },
+              { id: "c", text: "cooperate more across group boundaries" },
+              { id: "d", text: "direct frustration and blame onto out-groups" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -412,10 +412,10 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "a goal that separates groups further" },
+              { id: "a", text: "an individual performance target" },
               { id: "b", text: "a shared objective requiring cooperation between groups" },
               { id: "c", text: "a stereotype about out-group members" },
-              { id: "d", text: "an individual performance target" },
+              { id: "d", text: "a goal that separates groups further" },
             ],
             correctChoiceId: "b",
           },
@@ -512,11 +512,11 @@ export const lesson43: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Competing sports teams with unequal resources" },
-              { id: "b", text: "Mixed-status cooperative projects with shared goals and institutional backing" },
+              { id: "b", text: "Segregated tracking by group background" },
               { id: "c", text: "Brief, unstructured interaction between groups" },
-              { id: "d", text: "Segregated tracking by group background" },
+              { id: "d", text: "Mixed-status cooperative projects with shared goals and institutional backing" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -571,12 +571,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Deliberate planning" },
-              { id: "b", text: "Imitation and emotional contagion" },
-              { id: "c", text: "Shared pre-existing attitudes" },
+              { id: "a", text: "Shared pre-existing attitudes" },
+              { id: "b", text: "Deliberate planning" },
+              { id: "c", text: "Imitation and emotional contagion" },
               { id: "d", text: "Emergent group norms" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -670,12 +670,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "planned organisational activity" },
-              { id: "b", text: "spontaneous, relatively unstructured group behaviour such as crowds, riots and panics" },
-              { id: "c", text: "conformity in laboratory line-judgment tasks" },
-              { id: "d", text: "individual decision-making under pressure" },
+              { id: "a", text: "individual decision-making under pressure" },
+              { id: "b", text: "planned organisational activity" },
+              { id: "c", text: "spontaneous, relatively unstructured group behaviour such as crowds, riots and panics" },
+              { id: "d", text: "conformity in laboratory line-judgment tasks" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -698,12 +698,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "a fixed set of pre-existing group norms" },
-              { id: "b", text: "spontaneous situational norms that develop through interaction" },
-              { id: "c", text: "contagion of emotion alone" },
-              { id: "d", text: "detailed plans made by crowd leaders" },
+              { id: "a", text: "contagion of emotion alone" },
+              { id: "b", text: "a fixed set of pre-existing group norms" },
+              { id: "c", text: "detailed plans made by crowd leaders" },
+              { id: "d", text: "spontaneous situational norms that develop through interaction" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -745,12 +745,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "emotion spreading through imitation" },
-              { id: "b", text: "like-minded individuals with similar predispositions gathering together" },
+              { id: "a", text: "like-minded individuals with similar predispositions gathering together" },
+              { id: "b", text: "spontaneous new norms emerging" },
               { id: "c", text: "anonymity reducing self-awareness" },
-              { id: "d", text: "spontaneous new norms emerging" },
+              { id: "d", text: "emotion spreading through imitation" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -813,11 +813,11 @@ export const lesson43: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "ignores the role of emotion in crowds" },
-              { id: "b", text: "treats crowd members as passive and irrational, denying their retained rationality and personal norms" },
-              { id: "c", text: "overemphasises individual choice" },
-              { id: "d", text: "relies on too much empirical evidence" },
+              { id: "b", text: "relies on too much empirical evidence" },
+              { id: "c", text: "treats crowd members as passive and irrational, denying their retained rationality and personal norms" },
+              { id: "d", text: "overemphasises individual choice" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -882,11 +882,11 @@ export const lesson43: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "contagion theory" },
-              { id: "b", text: "emergent norm theory" },
-              { id: "c", text: "convergence theory" },
+              { id: "b", text: "convergence theory" },
+              { id: "c", text: "emergent norm theory" },
               { id: "d", text: "social identity theory" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -931,11 +931,11 @@ export const lesson43: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Contagion theory" },
-              { id: "b", text: "Convergence theory" },
-              { id: "c", text: "Emergent norm theory" },
-              { id: "d", text: "Drive theory" },
+              { id: "b", text: "Drive theory" },
+              { id: "c", text: "Convergence theory" },
+              { id: "d", text: "Emergent norm theory" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1028,12 +1028,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "shared planning made by crowd leaders" },
-              { id: "b", text: "a collective mentality in which individuals lose rationality and personal identity" },
+              { id: "a", text: "a collective mentality in which individuals lose rationality and personal identity" },
+              { id: "b", text: "shared planning made by crowd leaders" },
               { id: "c", text: "pooled knowledge improving group decisions" },
               { id: "d", text: "formal norms governing crowd conduct" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

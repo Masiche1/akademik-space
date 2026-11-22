@@ -54,12 +54,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A physical barrier in Germany" },
-              { id: "b", text: "The ideological divide between East and West" },
-              { id: "c", text: "A Soviet weapons programme" },
+              { id: "a", text: "The ideological divide between East and West" },
+              { id: "b", text: "A Soviet weapons programme" },
+              { id: "c", text: "A physical barrier in Germany" },
               { id: "d", text: "A NATO military strategy" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -153,12 +153,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Sharing nuclear secrets with the USSR" },
-              { id: "b", text: "Supporting free peoples against communist subversion or coercion" },
-              { id: "c", text: "Rebuilding Germany after WWII" },
-              { id: "d", text: "Creating the United Nations" },
+              { id: "a", text: "Supporting free peoples against communist subversion or coercion" },
+              { id: "b", text: "Creating the United Nations" },
+              { id: "c", text: "Sharing nuclear secrets with the USSR" },
+              { id: "d", text: "Rebuilding Germany after WWII" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -181,12 +181,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The Soviet-led military alliance" },
-              { id: "b", text: "The Soviet-led economic organisation for Eastern European states" },
-              { id: "c", text: "A Western trade agreement" },
-              { id: "d", text: "A disarmament treaty" },
+              { id: "a", text: "A Western trade agreement" },
+              { id: "b", text: "A disarmament treaty" },
+              { id: "c", text: "The Soviet-led military alliance" },
+              { id: "d", text: "The Soviet-led economic organisation for Eastern European states" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -210,11 +210,11 @@ export const lesson23: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "1945" },
-              { id: "b", text: "1947" },
-              { id: "c", text: "1949" },
-              { id: "d", text: "1955" },
+              { id: "b", text: "1949" },
+              { id: "c", text: "1955" },
+              { id: "d", text: "1947" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -237,12 +237,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The Western Allies bombed Berlin" },
-              { id: "b", text: "The USSR lifted the blockade after the Berlin Airlift made it ineffective" },
-              { id: "c", text: "Germany was reunified" },
+              { id: "a", text: "The USSR lifted the blockade after the Berlin Airlift made it ineffective" },
+              { id: "b", text: "Germany was reunified" },
+              { id: "c", text: "The Western Allies bombed Berlin" },
               { id: "d", text: "NATO invaded East Germany" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -265,12 +265,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A single treaty dispute between the superpowers" },
-              { id: "b", text: "Ideological opposition, the power vacuum after WWII, and mutual suspicion over Eastern Europe" },
+              { id: "a", text: "Ideological opposition, the power vacuum after WWII, and mutual suspicion over Eastern Europe" },
+              { id: "b", text: "A single treaty dispute between the superpowers" },
               { id: "c", text: "The Berlin Wall's construction" },
               { id: "d", text: "A nuclear accident" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -479,12 +479,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A unified Korea" },
-              { id: "b", text: "An armistice near the original border" },
-              { id: "c", text: "North Korean victory" },
-              { id: "d", text: "US occupation of the North" },
+              { id: "a", text: "North Korean victory" },
+              { id: "b", text: "US occupation of the North" },
+              { id: "c", text: "An armistice near the original border" },
+              { id: "d", text: "A unified Korea" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -578,12 +578,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "1945" },
-              { id: "b", text: "1950" },
-              { id: "c", text: "1953" },
-              { id: "d", text: "1956" },
+              { id: "a", text: "1953" },
+              { id: "b", text: "1956" },
+              { id: "c", text: "1950" },
+              { id: "d", text: "1945" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -606,12 +606,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The Soviet leader who crushed Hungary" },
-              { id: "b", text: "The Hungarian leader during the 1956 uprising" },
+              { id: "a", text: "The Hungarian leader during the 1956 uprising" },
+              { id: "b", text: "The Soviet leader who crushed Hungary" },
               { id: "c", text: "The Egyptian president at Suez" },
               { id: "d", text: "The North Korean dictator" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -635,11 +635,11 @@ export const lesson23: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "A Soviet invasion of Hungary" },
-              { id: "b", text: "Britain, France and Israel invading Egypt after canal nationalisation" },
-              { id: "c", text: "The Korean War armistice" },
-              { id: "d", text: "The Berlin Blockade" },
+              { id: "b", text: "The Berlin Blockade" },
+              { id: "c", text: "Britain, France and Israel invading Egypt after canal nationalisation" },
+              { id: "d", text: "The Korean War armistice" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -662,12 +662,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A US spy plane shot down over the USSR, wrecking a summit" },
-              { id: "b", text: "A Soviet missile test" },
-              { id: "c", text: "A Berlin escape tunnel" },
-              { id: "d", text: "A Korean War ceasefire violation" },
+              { id: "a", text: "A Berlin escape tunnel" },
+              { id: "b", text: "A Korean War ceasefire violation" },
+              { id: "c", text: "A US spy plane shot down over the USSR, wrecking a summit" },
+              { id: "d", text: "A Soviet missile test" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -690,9 +690,9 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The West lacked the military capacity entirely" },
+              { id: "a", text: "Hungary asked the West not to intervene" },
               { id: "b", text: "The US and allies would not risk nuclear war for Eastern Europe — revealing the limits of 'rollback' rhetoric" },
-              { id: "c", text: "Hungary asked the West not to intervene" },
+              { id: "c", text: "The West lacked the military capacity entirely" },
               { id: "d", text: "The UN authorised Soviet intervention" },
             ],
             correctChoiceId: "b",

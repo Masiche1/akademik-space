@@ -1,4 +1,41 @@
-import type { Lesson } from "../../../types.ts";
+import type { Difficulty, Lesson, MarkPrinciple, MarkStep, Markscheme, Question, QuestionPart, QuestionResponse } from "../../../types.ts";
+
+type StepTuple = [string, number, MarkStep["markCode"], string?];
+type StructStepTuple = [string, string, number, MarkStep["markCode"], string?];
+type PartTuple = [string, string, number];
+
+function prin(kind: MarkPrinciple["kind"], name: string, statement: string): MarkPrinciple { return { kind, name, statement }; }
+function step(reasoning: string, marks: number, markCode: MarkStep["markCode"], working?: string, part?: string): MarkStep {
+  const s: MarkStep = { reasoning, marks, markCode };
+  if (working !== undefined) s.working = working;
+  if (part !== undefined) s.part = part;
+  return s;
+}
+function scheme(principles: MarkPrinciple[], steps: MarkStep[], finalAnswer: string, commonErrors?: string[]): Markscheme {
+  const m: Markscheme = { principles, steps, finalAnswer };
+  if (commonErrors && commonErrors.length) m.commonErrors = commonErrors;
+  return m;
+}
+function makeQ(id: string, difficulty: Difficulty, totalMarks: number, stem: string, response: QuestionResponse, markscheme: Markscheme, parts?: QuestionPart[]): Question {
+  const q: Question = { id, difficulty, totalMarks, stem, response, markscheme };
+  if (parts) q.parts = parts;
+  return q;
+}
+function mcq(id: string, difficulty: Difficulty, stem: string, choices: [string, string, string, string], correct: "a" | "b" | "c" | "d", principle: MarkPrinciple, reasoning: string, commonError?: string): Question {
+  const textById = { a: choices[0], b: choices[1], c: choices[2], d: choices[3] };
+  return makeQ(id, difficulty, 1, stem, { type: "mcq", choices: [{ id: "a", text: choices[0] }, { id: "b", text: choices[1] }, { id: "c", text: choices[2] }, { id: "d", text: choices[3] }], correctChoiceId: correct }, scheme([principle], [step(reasoning, 1, "B")], `**(${correct})** ${textById[correct]}`, commonError ? [commonError] : undefined));
+}
+function num(id: string, difficulty: Difficulty, stem: string, answer: number, unit: string | undefined, principle: MarkPrinciple, reasoning: string, working: string, finalAnswer: string, markCode: MarkStep["markCode"] = "M", commonError?: string): Question {
+  const part: { label: string; answer: number; unit?: string } = { label: "a", answer, ...(unit !== undefined ? { unit } : {}) };
+  return makeQ(id, difficulty, 1, stem, { type: "numeric", parts: [part] }, scheme([principle], [step(reasoning, 1, markCode, working)], finalAnswer, commonError ? [commonError] : undefined));
+}
+function open(id: string, difficulty: Difficulty, totalMarks: number, stem: string, principle: MarkPrinciple, steps: StepTuple[], finalAnswer: string, commonError?: string): Question {
+  return makeQ(id, difficulty, totalMarks, stem, { type: "open" }, scheme([principle], steps.map((s) => step(s[0], s[1], s[2], s[3])), finalAnswer, commonError ? [commonError] : undefined));
+}
+function struct(id: string, difficulty: Difficulty, stem: string, parts: PartTuple[], principle: MarkPrinciple, steps: StructStepTuple[], finalAnswer: string, commonError?: string): Question {
+  const total = parts.reduce((sum, p) => sum + p[2], 0);
+  return makeQ(id, difficulty, total, stem, { type: "open" }, scheme([principle], steps.map((s) => step(s[1], s[2], s[3], s[4], s[0])), finalAnswer, commonError ? [commonError] : undefined), parts.map((p) => ({ label: p[0], prompt: p[1], marks: p[2] })));
+}
 
 export const lesson81: Lesson = {
   id: "olbio-u8-lesson-8-1",
@@ -51,12 +88,12 @@ export const lesson81: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Offspring are genetically identical" },
-              { id: "b", text: "Requires two parents" },
-              { id: "c", text: "Involves gametes" },
-              { id: "d", text: "Produces variation" },
+              { id: "a", text: "Involves gametes" },
+              { id: "b", text: "Produces variation" },
+              { id: "c", text: "Requires two parents" },
+              { id: "d", text: "Offspring are genetically identical" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -138,6 +175,18 @@ export const lesson81: Lesson = {
             commonErrors: ["In (b) saying sexual uses only mitosis — gametes need meiosis."],
           },
         },
+        mcq("olbio-u8-asexual-sexual-q5", "foundation", "Asexual reproduction involves only:", ["Mitosis", "Meiosis", "Fertilisation", "Pollination"], "a", prin("property", "Asexual division", "Asexual reproduction uses mitosis to produce clones."), "Recall the division type.", "Meiosis and fertilisation are sexual."),
+        mcq("olbio-u8-asexual-sexual-q6", "foundation", "Sexual reproduction requires:", ["Gametes from two parents", "One parent and mitosis", "No cell division", "Only a single nucleus"], "a", prin("property", "Sexual reproduction", "Sexual reproduction fuses gametes from two parents."), "Recall the requirement.", "Asexual uses one parent and mitosis."),
+        mcq("olbio-u8-asexual-sexual-q7", "core", "Offspring produced by asexual reproduction are:", ["Genetically identical clones", "Genetically varied", "Always sterile", "Larger than parents"], "a", prin("property", "Asexual offspring", "Asexual offspring are genetically identical to the parent."), "Recall the outcome.", "Variation is a sexual feature."),
+        mcq("olbio-u8-asexual-sexual-q8", "core", "Sexual reproduction produces genetic variation because:", ["Gametes from two parents fuse", "Only mitosis occurs", "One parent divides", "No nuclei are involved"], "a", prin("property", "Sexual variation", "Fusion of gametes creates new gene combinations and variation."), "Recall the source of variation.", "Asexual produces identical offspring."),
+        mcq("olbio-u8-asexual-sexual-q9", "challenge", "Farmers often prefer asexual reproduction for some crops because it:", ["Produces identical offspring with desirable traits", "Creates more genetic variation", "Requires two parents", "Is slower but stronger"], "a", prin("property", "Asexual advantage", "Identical offspring keep desirable traits predictable."), "Link clones to predictability.", "Variation is a disadvantage for uniform crops."),
+        num("olbio-u8-asexual-sexual-q10", "foundation", "Asexual reproduction involves how many parents?", 1, "parent", prin("property", "Asexual parents", "Asexual reproduction uses one parent."), "Recall the number.", "1", "**1 parent**"),
+        num("olbio-u8-asexual-sexual-q11", "core", "Sexual reproduction involves how many parents?", 2, "parents", prin("property", "Sexual parents", "Sexual reproduction uses two parents."), "Recall the number.", "2", "**2 parents**"),
+        num("olbio-u8-asexual-sexual-q12", "core", "Mitosis produces 2 identical cells from 1 cell. If a cell divides twice by mitosis, how many cells result?", 4, "cells", prin("property", "Mitosis", "Each mitotic division doubles the cell number: 1→2→4."), "Double for each division.", "1 x 2 x 2 = 4", "**4 cells**"),
+        num("olbio-u8-asexual-sexual-q13", "challenge", "Binary fission doubles bacteria each generation. Starting with 1 bacterium, how many are there after 3 generations?", 8, "bacteria", prin("property", "Binary fission", "Each generation doubles the number: 1→2→4→8."), "Double three times.", "1 x 2 x 2 x 2 = 8", "**8 bacteria**"),
+        open("olbio-u8-asexual-sexual-q14", "core", 3, "Give one advantage and one disadvantage of asexual reproduction.", prin("property", "Asexual pros/cons", "Fast and no mate needed, but no variation and vulnerable to disease."), [["Advantage: it is fast and does not need a mate or gametes.", 1, "M"], ["Disadvantage: offspring are clones with no variation.", 1, "M"], ["State both clearly.", 1, "A"]], "Asexual is fast and needs one parent but produces identical offspring vulnerable to change.", "Listing only advantages or only disadvantages."),
+        open("olbio-u8-asexual-sexual-q15", "challenge", 4, "Explain why genetic variation is important for a species.", prin("property", "Variation", "Variation allows natural selection and adaptation to changing environments."), [["Sexual reproduction produces genetically varied offspring.", 1, "M"], ["Different individuals have different traits.", 1, "M"], ["In a changing environment some traits improve survival.", 1, "M"], ["Natural selection favours the better-adapted individuals.", 1, "A"]], "Variation lets natural selection favour traits that help survival, so the species can adapt.", "Saying variation is always harmful."),
+        struct("olbio-u8-asexual-sexual-q16", "challenge", "A student compares asexual and sexual reproduction.", [["a", "State the number of parents in each.", 2], ["b", "State whether gametes are involved in each.", 2], ["c", "Compare the offspring of each.", 2], ["d", "Give one advantage of each method.", 3]], prin("property", "Reproduction comparison", "Asexual: 1 parent, mitosis, clones; sexual: 2 parents, meiosis+fertilisation, varied."), [["a", "Asexual uses one parent.", 1, "M"], ["a", "Sexual uses two parents.", 1, "A"], ["b", "Asexual does not use gametes.", 1, "M"], ["b", "Sexual fuses gametes.", 1, "A"], ["c", "Asexual offspring are identical clones.", 1, "M"], ["c", "Sexual offspring are genetically varied.", 1, "A"], ["d", "Asexual is fast and needs no mate.", 1, "M"], ["d", "Sexual gives variation for adaptation.", 1, "M"], ["d", "State one advantage of each.", 1, "A"]], "(a) 1 vs 2 parents (b) no gametes vs gametes (c) identical vs varied (d) asexual fast, sexual variation", "Confusing mitosis (asexual) with meiosis (sexual gametes)."),
       ],
     },
     {
@@ -174,12 +223,12 @@ export const lesson81: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Anther" },
+              { id: "a", text: "Petal" },
               { id: "b", text: "Stigma" },
-              { id: "c", text: "Ovary" },
-              { id: "d", text: "Petal" },
+              { id: "c", text: "Anther" },
+              { id: "d", text: "Ovary" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -261,6 +310,18 @@ export const lesson81: Lesson = {
             commonErrors: ["In (b) saying pollen 'swims' — it grows a tube."],
           },
         },
+        mcq("olbio-u8-flower-q5", "foundation", "The female part of a flower is the:", ["Carpel", "Stamen", "Anther", "Filament"], "a", prin("property", "Carpel", "The carpel (stigma, style, ovary) is the female part."), "Match part to sex.", "The stamen is male."),
+        mcq("olbio-u8-flower-q6", "foundation", "Petals mainly function to:", ["Attract pollinators", "Produce pollen", "Protect the bud", "Store water"], "a", prin("property", "Petals", "Brightly coloured petals attract insects for pollination."), "Recall the function.", "Sepals protect the bud; anthers produce pollen."),
+        mcq("olbio-u8-flower-q7", "core", "Pollen grains land on the:", ["Stigma", "Anther", "Ovary", "Filament"], "a", prin("property", "Stigma", "The stigma is the sticky part that receives pollen."), "Recall the landing site.", "The anther produces pollen."),
+        mcq("olbio-u8-flower-q8", "core", "Ovules are contained inside the:", ["Ovary", "Stigma", "Style", "Petal"], "a", prin("property", "Ovary", "The ovary contains ovules that develop into seeds."), "Recall the structure.", "The style is a tube between stigma and ovary."),
+        mcq("olbio-u8-flower-q9", "challenge", "Cross-pollination usually requires a:", ["Vector such as wind or an insect", "Single parent only", "No external agent", "Direct fusion in the anther"], "a", prin("property", "Cross-pollination", "Cross-pollination needs a vector to move pollen between plants."), "Recall the need for a vector.", "Self-pollination does not need a vector."),
+        num("olbio-u8-flower-q10", "foundation", "The main parts of a flower are sepals, petals, stamen and carpel. How many are there?", 4, "parts", prin("property", "Flower parts", "Sepals, petals, stamen and carpel are the main parts."), "Count the parts.", "4", "**4 parts**"),
+        num("olbio-u8-flower-q11", "core", "A pollen tube grows 0.5 cm per hour down a style of length 2 cm. How many hours does it take to reach the ovary?", 4, "hours", prin("property", "Pollen tube growth", "Time = distance / rate."), "Divide distance by rate.", "2 / 0.5 = 4", "**4 hours**"),
+        num("olbio-u8-flower-q12", "core", "After fertilisation the ovary becomes a fruit and the ovule becomes a seed. How many structures change?", 2, "structures", prin("property", "Fruit and seed", "Ovary -> fruit; ovule -> seed."), "Count the changes.", "2", "**2 structures**"),
+        num("olbio-u8-flower-q13", "challenge", "Cross-pollination succeeds 60% of the time and self-pollination 90%. Calculate the percentage-point difference in success.", 30, "percentage points", prin("property", "Success difference", "Difference = higher - lower percentage."), "Subtract self from cross? Use absolute difference.", "90 - 60 = 30", "**30 percentage points**"),
+        open("olbio-u8-flower-q14", "core", 3, "Distinguish pollination from fertilisation.", prin("property", "Pollination vs fertilisation", "Pollination transfers pollen; fertilisation fuses nuclei in the ovule."), [["Pollination is the transfer of pollen from anther to stigma.", 1, "M"], ["Fertilisation is the fusion of male and female nuclei in the ovule.", 1, "M"], ["Pollination must occur before fertilisation.", 1, "A"]], "Pollination moves pollen to the stigma; fertilisation fuses the gamete nuclei inside the ovule.", "Confusing pollen transfer with nuclear fusion."),
+        open("olbio-u8-flower-q15", "challenge", 4, "Describe the sequence of events during fertilisation in a flower.", prin("property", "Fertilisation", "Pollen tube grows to ovule; nuclei fuse; zygote forms."), [["Pollen lands on the stigma and germinates.", 1, "M"], ["A pollen tube grows down the style to the ovary.", 1, "M"], ["The male nucleus fuses with the female nucleus in the ovule.", 1, "M"], ["A zygote forms and develops into a seed.", 1, "A"]], "Pollen germinates on the stigma, the tube reaches the ovule, nuclei fuse to form a zygote and a seed.", "Saying pollen swims to the ovule."),
+        struct("olbio-u8-flower-q16", "challenge", "A student describes flower structure and fertilisation.", [["a", "Name the male and female parts of the flower.", 2], ["b", "State the function of the anther and stigma.", 2], ["c", "Describe pollination.", 2], ["d", "Describe fertilisation and the fate of ovary and ovule.", 3]], prin("property", "Flower structure", "Stamen male, carpel female; pollination then fertilisation produces seed and fruit."), [["a", "Stamen is male; carpel is female.", 1, "M"], ["a", "Name both correctly.", 1, "A"], ["b", "Anther produces pollen.", 1, "M"], ["b", "Stigma receives pollen.", 1, "A"], ["c", "Pollen is transferred from anther to stigma.", 1, "M"], ["c", "It may be self or cross pollination.", 1, "A"], ["d", "Nuclei fuse in the ovule to form a zygote.", 1, "M"], ["d", "Ovary becomes fruit; ovule becomes seed.", 1, "M"], ["d", "State both fates.", 1, "A"]], "(a) stamen/carpel (b) anther pollen, stigma receives (c) pollen transfer (d) zygote; ovary->fruit, ovule->seed", "Reversing anther (produces) and stigma (receives)."),
       ],
     },
   ],

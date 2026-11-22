@@ -57,11 +57,11 @@ export const lesson43: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Profitability" },
-              { id: "b", text: "Liquidity" },
-              { id: "c", text: "Efficiency" },
-              { id: "d", text: "Growth" },
+              { id: "b", text: "Growth" },
+              { id: "c", text: "Liquidity" },
+              { id: "d", text: "Efficiency" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Current ratio", statement: "Current assets / current liabilities — a measure of short-term liquidity." }],
@@ -146,12 +146,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Net profit as a percentage of revenue" },
-              { id: "b", text: "Gross profit as a percentage of revenue" },
-              { id: "c", text: "Current assets divided by current liabilities" },
-              { id: "d", text: "Operating profit as a percentage of capital employed" },
+              { id: "a", text: "Gross profit as a percentage of revenue" },
+              { id: "b", text: "Operating profit as a percentage of capital employed" },
+              { id: "c", text: "Net profit as a percentage of revenue" },
+              { id: "d", text: "Current assets divided by current liabilities" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Gross profit margin", statement: "Gross profit / Revenue x 100" }],
@@ -173,11 +173,11 @@ export const lesson43: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Profit as a percentage of revenue" },
-              { id: "b", text: "Operating profit as a percentage of capital invested" },
-              { id: "c", text: "Cash as a percentage of sales" },
-              { id: "d", text: "Liabilities as a percentage of assets" },
+              { id: "b", text: "Liabilities as a percentage of assets" },
+              { id: "c", text: "Operating profit as a percentage of capital invested" },
+              { id: "d", text: "Cash as a percentage of sales" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "ROCE", statement: "Operating profit / Capital employed x 100" }],
@@ -283,12 +283,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Has more than enough short-term assets to pay its debts" },
-              { id: "b", text: "Cannot cover all its current liabilities with current assets" },
-              { id: "c", text: "Is highly profitable" },
+              { id: "a", text: "Is highly profitable" },
+              { id: "b", text: "Has more than enough short-term assets to pay its debts" },
+              { id: "c", text: "Cannot cover all its current liabilities with current assets" },
               { id: "d", text: "Has no liabilities at all" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Current ratio", statement: "Current assets / Current liabilities — below 1 means assets do not cover debts." }],
@@ -310,12 +310,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Includes stock in current assets" },
-              { id: "b", text: "Excludes stock (inventory) from current assets" },
-              { id: "c", text: "Uses total assets instead of current assets" },
-              { id: "d", text: "Measures profitability rather than liquidity" },
+              { id: "a", text: "Excludes stock (inventory) from current assets" },
+              { id: "b", text: "Includes stock in current assets" },
+              { id: "c", text: "Measures profitability rather than liquidity" },
+              { id: "d", text: "Uses total assets instead of current assets" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Acid test ratio", statement: "(Current assets - stock) / Current liabilities — a stricter liquidity test." }],
@@ -358,12 +358,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Net profit margin" },
-              { id: "b", text: "Current ratio" },
-              { id: "c", text: "Gross profit margin" },
-              { id: "d", text: "ROCE" },
+              { id: "a", text: "Gross profit margin" },
+              { id: "b", text: "Net profit margin" },
+              { id: "c", text: "ROCE" },
+              { id: "d", text: "Current ratio" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Liquidity ratios", statement: "Current ratio and acid test ratio measure ability to meet short-term debts." }],
@@ -403,12 +403,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Revenue / Net profit x 100" },
-              { id: "b", text: "Net profit / Revenue x 100" },
-              { id: "c", text: "Gross profit / Cost of sales x 100" },
-              { id: "d", text: "Net profit / Total assets x 100" },
+              { id: "a", text: "Net profit / Total assets x 100" },
+              { id: "b", text: "Gross profit / Cost of sales x 100" },
+              { id: "c", text: "Revenue / Net profit x 100" },
+              { id: "d", text: "Net profit / Revenue x 100" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Net profit margin", statement: "(Net profit / Revenue) x 100" }],
@@ -431,8 +431,8 @@ export const lesson43: Lesson = {
             choices: [
               { id: "a", text: "Revenue only" },
               { id: "b", text: "Capital employed — the money invested in the business" },
-              { id: "c", text: "Current assets only" },
-              { id: "d", text: "Cash in the bank" },
+              { id: "c", text: "Cash in the bank" },
+              { id: "d", text: "Current assets only" },
             ],
             correctChoiceId: "b",
           },
@@ -491,10 +491,10 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Includes stock in current assets" },
+              { id: "a", text: "Uses total assets instead of current assets" },
               { id: "b", text: "Excludes stock, since it may be slow to convert to cash" },
-              { id: "c", text: "Uses total assets instead of current assets" },
-              { id: "d", text: "Measures profitability rather than liquidity" },
+              { id: "c", text: "Measures profitability rather than liquidity" },
+              { id: "d", text: "Includes stock in current assets" },
             ],
             correctChoiceId: "b",
           },
@@ -537,9 +537,9 @@ export const lesson43: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Q earns more profit per sales dollar before overheads than P" },
-              { id: "b", text: "P is definitely more profitable overall" },
+              { id: "b", text: "Margins measure liquidity" },
               { id: "c", text: "Both firms have identical cost structures" },
-              { id: "d", text: "Margins measure liquidity" },
+              { id: "d", text: "P is definitely more profitable overall" },
             ],
             correctChoiceId: "a",
           },
@@ -563,10 +563,10 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The firm is definitely insolvent" },
+              { id: "a", text: "The ratio proves nothing about the firm" },
               { id: "b", text: "The firm is less liquid than its competitors, though it can still cover short-term debts" },
               { id: "c", text: "The firm is more profitable than competitors" },
-              { id: "d", text: "The ratio proves nothing about the firm" },
+              { id: "d", text: "The firm is definitely insolvent" },
             ],
             correctChoiceId: "b",
           },
@@ -590,12 +590,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Revenue as a percentage of costs" },
-              { id: "b", text: "Net profit as a percentage of revenue" },
-              { id: "c", text: "Gross profit as a percentage of cost of sales" },
+              { id: "a", text: "Net profit as a percentage of revenue" },
+              { id: "b", text: "Gross profit as a percentage of cost of sales" },
+              { id: "c", text: "Revenue as a percentage of costs" },
               { id: "d", text: "Operating profit as a percentage of assets" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Net profit margin", statement: "(Net profit / Revenue) x 100" }],
@@ -690,12 +690,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Net profit margin" },
-              { id: "b", text: "Current ratio" },
-              { id: "c", text: "Gross profit margin" },
-              { id: "d", text: "ROCE" },
+              { id: "a", text: "ROCE" },
+              { id: "b", text: "Net profit margin" },
+              { id: "c", text: "Current ratio" },
+              { id: "d", text: "Gross profit margin" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Current ratio", statement: "Current assets / Current liabilities" }],
@@ -750,11 +750,11 @@ export const lesson43: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Selling price + Variable cost" },
-              { id: "b", text: "Selling price - Variable cost" },
-              { id: "c", text: "Selling price - Fixed cost" },
-              { id: "d", text: "Revenue - Total cost" },
+              { id: "b", text: "Selling price - Fixed cost" },
+              { id: "c", text: "Revenue - Total cost" },
+              { id: "d", text: "Selling price - Variable cost" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Contribution", statement: "Contribution = Selling price - Variable cost per unit" }],
@@ -843,12 +843,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Revenue exceeds total cost" },
-              { id: "b", text: "Total revenue equals total cost" },
-              { id: "c", text: "Fixed costs equal variable costs" },
-              { id: "d", text: "Output equals capacity" },
+              { id: "a", text: "Total revenue equals total cost" },
+              { id: "b", text: "Fixed costs equal variable costs" },
+              { id: "c", text: "Output equals capacity" },
+              { id: "d", text: "Revenue exceeds total cost" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Break-even", statement: "The output or sales level where total revenue equals total cost — no profit, no loss." }],
@@ -869,10 +869,10 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Fixed costs / Contribution per unit" },
+              { id: "a", text: "Total revenue - Total cost" },
               { id: "b", text: "Break-even units x Selling price" },
-              { id: "c", text: "Total revenue - Total cost" },
-              { id: "d", text: "Contribution x Fixed costs" },
+              { id: "c", text: "Contribution x Fixed costs" },
+              { id: "d", text: "Fixed costs / Contribution per unit" },
             ],
             correctChoiceId: "b",
           },
@@ -1001,12 +1001,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Decrease" },
+              { id: "a", text: "Increase" },
               { id: "b", text: "Stay the same" },
-              { id: "c", text: "Increase" },
+              { id: "c", text: "Decrease" },
               { id: "d", text: "Become zero" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Break-even output", statement: "Fixed costs / Contribution — a larger numerator raises break-even." }],
@@ -1029,9 +1029,9 @@ export const lesson43: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Makes a profit" },
-              { id: "b", text: "Breaks even" },
+              { id: "b", text: "Covers only variable costs" },
               { id: "c", text: "Makes a loss" },
-              { id: "d", text: "Covers only variable costs" },
+              { id: "d", text: "Breaks even" },
             ],
             correctChoiceId: "c",
           },
@@ -1091,12 +1091,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Calculate the firm's tax bill" } ,
-              { id: "b", text: "Calculate break-even output and profit beyond break-even" },
-              { id: "c", text: "Value the business's assets" },
-              { id: "d", text: "Measure liquidity" },
+              { id: "a", text: "Calculate the firm's tax bill" },
+              { id: "b", text: "Measure liquidity" },
+              { id: "c", text: "Calculate break-even output and profit beyond break-even" },
+              { id: "d", text: "Value the business's assets" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Contribution", statement: "Contribution = price - variable cost; used for break-even and profit calculations." }],
@@ -1117,10 +1117,10 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Selling price + variable cost" },
+              { id: "a", text: "Revenue - profit" },
               { id: "b", text: "Selling price - variable cost per unit" },
-              { id: "c", text: "Fixed costs / output" },
-              { id: "d", text: "Revenue - profit" },
+              { id: "c", text: "Selling price + variable cost" },
+              { id: "d", text: "Fixed costs / output" },
             ],
             correctChoiceId: "b",
           },
@@ -1265,11 +1265,11 @@ export const lesson43: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Total revenue exceeds total cost" },
-              { id: "b", text: "Total revenue equals total cost" },
-              { id: "c", text: "Fixed costs equal zero" },
-              { id: "d", text: "Output is at maximum capacity" },
+              { id: "b", text: "Output is at maximum capacity" },
+              { id: "c", text: "Total revenue equals total cost" },
+              { id: "d", text: "Fixed costs equal zero" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Break-even", statement: "The output or sales level where total revenue equals total cost — profit is zero." }],
@@ -1367,12 +1367,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Fixed costs / Contribution per unit" },
-              { id: "b", text: "Contribution per unit / Fixed costs" },
+              { id: "a", text: "Total revenue / Fixed costs" },
+              { id: "b", text: "Fixed costs / Contribution per unit" },
               { id: "c", text: "Selling price / Variable cost" },
-              { id: "d", text: "Total revenue / Fixed costs" },
+              { id: "d", text: "Contribution per unit / Fixed costs" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Break-even output", statement: "Fixed costs / Contribution per unit" }],

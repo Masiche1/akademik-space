@@ -50,12 +50,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$2^7$" },
-              { id: "b", text: "$2^3$" },
+              { id: "a", text: "$2^3$" },
+              { id: "b", text: "$2^{-3}$" },
               { id: "c", text: "$2^{-10}$" },
-              { id: "d", text: "$2^{-3}$" },
+              { id: "d", text: "$2^7$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -186,12 +186,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$4.5 \\times 10^6$" },
-              { id: "b", text: "$4.5 \\times 10^7$" },
+              { id: "a", text: "$4.5 \\times 10^7$" },
+              { id: "b", text: "$4.5 \\times 10^8$" },
               { id: "c", text: "$45 \\times 10^6$" },
-              { id: "d", text: "$4.5 \\times 10^8$" },
+              { id: "d", text: "$4.5 \\times 10^6$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

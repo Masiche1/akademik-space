@@ -92,12 +92,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "3" },
-              { id: "b", text: "11" },
-              { id: "c", text: "1" },
-              { id: "d", text: "7" },
+              { id: "a", text: "1" },
+              { id: "b", text: "7" },
+              { id: "c", text: "3" },
+              { id: "d", text: "11" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -321,12 +321,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "2" },
-              { id: "b", text: "12" },
-              { id: "c", text: "7" },
-              { id: "d", text: "13" },
+              { id: "a", text: "13" },
+              { id: "b", text: "7" },
+              { id: "c", text: "12" },
+              { id: "d", text: "2" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -362,12 +362,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$K_a \\ll c$ (typically $K_a/c < 0.01$)" },
-              { id: "b", text: "$K_a = c$" },
+              { id: "a", text: "$K_a = c$" },
+              { id: "b", text: "$K_a \\ll c$ (typically $K_a/c < 0.01$)" },
               { id: "c", text: "The acid is strong" },
               { id: "d", text: "The solution is very dilute" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -519,11 +519,11 @@ export const lesson42: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "4.75" },
-              { id: "b", text: "9.25" },
-              { id: "c", text: "14.0" },
-              { id: "d", text: "19.25" },
+              { id: "b", text: "19.25" },
+              { id: "c", text: "9.25" },
+              { id: "d", text: "14.0" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -602,8 +602,8 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "NaCl" },
-              { id: "b", text: "NaOAc" },
+              { id: "a", text: "NaOAc" },
+              { id: "b", text: "NaCl" },
               { id: "c", text: "NH$_4$Cl" },
               { id: "d", text: "Na$_2$CO$_3$" },
             ],
@@ -833,12 +833,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "8" },
-              { id: "b", text: "7" },
-              { id: "c", text: "6" },
-              { id: "d", text: "5" },
+              { id: "a", text: "5" },
+              { id: "b", text: "6" },
+              { id: "c", text: "7" },
+              { id: "d", text: "8" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -925,12 +925,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Above 7" },
-              { id: "b", text: "Exactly 7" },
-              { id: "c", text: "Below 7" },
+              { id: "a", text: "Exactly 7" },
+              { id: "b", text: "Below 7" },
+              { id: "c", text: "Above 7" },
               { id: "d", text: "Equal to pKa" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1156,15 +1156,15 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The point where pH = 7" },
               {
-                id: "b",
+                id: "a",
                 text: "The steepest part of the curve (maximum slope)",
               },
+              { id: "b", text: "The initial pH" },
               { id: "c", text: "The buffer region" },
-              { id: "d", text: "The initial pH" },
+              { id: "d", text: "The point where pH = 7" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -1203,12 +1203,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Above 7" },
-              { id: "b", text: "Exactly 7" },
-              { id: "c", text: "Below 7" },
+              { id: "a", text: "Below 7" },
+              { id: "b", text: "Above 7" },
+              { id: "c", text: "Exactly 7" },
               { id: "d", text: "Equal to pKb" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1356,12 +1356,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Phenolphthalein" },
-              { id: "b", text: "Methyl orange or methyl red" },
-              { id: "c", text: "Litmus only" },
-              { id: "d", text: "No indicator works" },
+              { id: "a", text: "Litmus only" },
+              { id: "b", text: "Phenolphthalein" },
+              { id: "c", text: "No indicator works" },
+              { id: "d", text: "Methyl orange or methyl red" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1400,15 +1400,15 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "After the equivalence point" },
+              { id: "a", text: "At the very start of the titration" },
+              { id: "b", text: "After the equivalence point" },
               {
-                id: "b",
+                id: "c",
                 text: "Before the equivalence point, where HA and A$^-$ coexist",
               },
-              { id: "c", text: "Exactly at the equivalence point" },
-              { id: "d", text: "At the very start of the titration" },
+              { id: "d", text: "Exactly at the equivalence point" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1690,15 +1690,15 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The equivalence point" },
+              { id: "a", text: "After the equivalence point" },
+              { id: "b", text: "The equivalence point" },
               {
-                id: "b",
+                id: "c",
                 text: "The half-equivalence point, where [HA] = [A$^-$]",
               },
-              { id: "c", text: "The start of the titration" },
-              { id: "d", text: "After the equivalence point" },
+              { id: "d", text: "The start of the titration" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

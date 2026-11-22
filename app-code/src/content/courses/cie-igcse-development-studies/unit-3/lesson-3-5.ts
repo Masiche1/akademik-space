@@ -114,15 +114,15 @@ export const lesson35: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "Population decline" },
               {
-                id: "a",
+                id: "b",
                 text: "Increasing proportion of population in cities",
               },
-              { id: "b", text: "More rural areas" },
-              { id: "c", text: "Population decline" },
-              { id: "d", text: "Migration abroad" },
+              { id: "c", text: "Migration abroad" },
+              { id: "d", text: "More rural areas" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -150,12 +150,12 @@ export const lesson35: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Urban jobs" },
-              { id: "b", text: "Rural poverty" },
-              { id: "c", text: "Lack of services" },
-              { id: "d", text: "Landlessness" },
+              { id: "a", text: "Lack of services" },
+              { id: "b", text: "Urban jobs" },
+              { id: "c", text: "Landlessness" },
+              { id: "d", text: "Rural poverty" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -183,12 +183,12 @@ export const lesson35: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Rural poverty" },
-              { id: "b", text: "Urban jobs" },
-              { id: "c", text: "Good services" },
-              { id: "d", text: "Entertainment" },
+              { id: "a", text: "Urban jobs" },
+              { id: "b", text: "Rural poverty" },
+              { id: "c", text: "Entertainment" },
+              { id: "d", text: "Good services" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -216,15 +216,15 @@ export const lesson35: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "Government housing" },
+              { id: "b", text: "Luxury housing" },
               {
-                id: "a",
+                id: "c",
                 text: "Informal settlement with poor housing and no services",
               },
-              { id: "b", text: "Luxury housing" },
-              { id: "c", text: "Government housing" },
               { id: "d", text: "Rural area" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -252,12 +252,12 @@ export const lesson35: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Uncontrolled expansion into surrounding land" },
-              { id: "b", text: "City shrinking" },
+              { id: "a", text: "City shrinking" },
+              { id: "b", text: "Uncontrolled expansion into surrounding land" },
               { id: "c", text: "Rural growth" },
               { id: "d", text: "Planned development" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -290,8 +290,8 @@ export const lesson35: Lesson = {
                 text: "Meeting present needs without compromising future generations",
               },
               { id: "b", text: "Fast growth" },
-              { id: "c", text: "No growth" },
-              { id: "d", text: "Only economic growth" },
+              { id: "c", text: "Only economic growth" },
+              { id: "d", text: "No growth" },
             ],
             correctChoiceId: "a",
           },
@@ -321,12 +321,12 @@ export const lesson35: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Area of open land preventing urban sprawl" },
-              { id: "b", text: "A park" },
+              { id: "a", text: "A park" },
+              { id: "b", text: "Area of open land preventing urban sprawl" },
               { id: "c", text: "A road" },
               { id: "d", text: "A building" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -354,12 +354,12 @@ export const lesson35: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Pollution, deforestation, soil erosion" },
+              { id: "a", text: "Population growth" },
               { id: "b", text: "Economic growth" },
-              { id: "c", text: "Population growth" },
+              { id: "c", text: "Pollution, deforestation, soil erosion" },
               { id: "d", text: "Urbanisation" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -387,15 +387,15 @@ export const lesson35: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "Gas" },
+              { id: "b", text: "Oil" },
+              { id: "c", text: "Coal" },
               {
-                id: "a",
+                id: "d",
                 text: "Natural sources that replenish — solar, wind, hydro",
               },
-              { id: "b", text: "Coal" },
-              { id: "c", text: "Oil" },
-              { id: "d", text: "Gas" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -557,12 +557,12 @@ export const lesson35: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Green belts" },
+              { id: "a", text: "More roads" },
               { id: "b", text: "More housing" },
-              { id: "c", text: "More roads" },
+              { id: "c", text: "Green belts" },
               { id: "d", text: "More industry" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -619,12 +619,12 @@ export const lesson35: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Reducing trees that absorb CO2" },
-              { id: "b", text: "Increasing CO2 absorption" },
-              { id: "c", text: "Reducing pollution" },
-              { id: "d", text: "Improving air quality" },
+              { id: "a", text: "Reducing pollution" },
+              { id: "b", text: "Reducing trees that absorb CO2" },
+              { id: "c", text: "Improving air quality" },
+              { id: "d", text: "Increasing CO2 absorption" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -754,12 +754,12 @@ export const lesson35: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Greenhouse gas emissions" },
-              { id: "b", text: "Solar activity" },
-              { id: "c", text: "Volcanoes" },
-              { id: "d", text: "Natural cycles" },
+              { id: "a", text: "Solar activity" },
+              { id: "b", text: "Natural cycles" },
+              { id: "c", text: "Greenhouse gas emissions" },
+              { id: "d", text: "Volcanoes" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -891,12 +891,12 @@ export const lesson35: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Solar" },
-              { id: "b", text: "Coal" },
+              { id: "a", text: "Natural gas" },
+              { id: "b", text: "Solar" },
               { id: "c", text: "Oil" },
-              { id: "d", text: "Natural gas" },
+              { id: "d", text: "Coal" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -988,12 +988,12 @@ export const lesson35: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Abundant jobs" },
-              { id: "b", text: "Slums" },
-              { id: "c", text: "Pollution" },
-              { id: "d", text: "Congestion" },
+              { id: "a", text: "Pollution" },
+              { id: "b", text: "Congestion" },
+              { id: "c", text: "Slums" },
+              { id: "d", text: "Abundant jobs" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1164,12 +1164,12 @@ export const lesson35: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Economic, social and environmental" },
-              { id: "b", text: "Economic only" },
-              { id: "c", text: "Social only" },
-              { id: "d", text: "Environmental only" },
+              { id: "a", text: "Environmental only" },
+              { id: "b", text: "Social only" },
+              { id: "c", text: "Economic, social and environmental" },
+              { id: "d", text: "Economic only" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1197,12 +1197,12 @@ export const lesson35: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Climate Action" },
-              { id: "b", text: "Poverty" },
-              { id: "c", text: "Education" },
-              { id: "d", text: "Health" },
+              { id: "a", text: "Health" },
+              { id: "b", text: "Education" },
+              { id: "c", text: "Poverty" },
+              { id: "d", text: "Climate Action" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1230,12 +1230,12 @@ export const lesson35: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Shared resources being overexploited" },
-              { id: "b", text: "Private property" },
-              { id: "c", text: "Government regulation" },
-              { id: "d", text: "Conservation" },
+              { id: "a", text: "Conservation" },
+              { id: "b", text: "Government regulation" },
+              { id: "c", text: "Private property" },
+              { id: "d", text: "Shared resources being overexploited" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1263,12 +1263,12 @@ export const lesson35: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Regulations on emissions and waste treatment" },
-              { id: "b", text: "More pollution" },
-              { id: "c", text: "No regulations" },
+              { id: "a", text: "No regulations" },
+              { id: "b", text: "Regulations on emissions and waste treatment" },
+              { id: "c", text: "More pollution" },
               { id: "d", text: "Ignoring pollution" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1296,12 +1296,12 @@ export const lesson35: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Protecting natural resources and areas" },
+              { id: "a", text: "Polluting" },
               { id: "b", text: "Using all resources" },
-              { id: "c", text: "Polluting" },
+              { id: "c", text: "Protecting natural resources and areas" },
               { id: "d", text: "Exploiting" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1329,12 +1329,12 @@ export const lesson35: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Buy/sell emissions permits" },
-              { id: "b", text: "Ignore emissions" },
-              { id: "c", text: "Increase emissions" },
+              { id: "a", text: "Ignore emissions" },
+              { id: "b", text: "Increase emissions" },
+              { id: "c", text: "Buy/sell emissions permits" },
               { id: "d", text: "Stop all emissions" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1362,12 +1362,12 @@ export const lesson35: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Limit global warming to below 2°C" },
+              { id: "a", text: "Stop all energy" },
               { id: "b", text: "Increase emissions" },
-              { id: "c", text: "Stop all energy" },
-              { id: "d", text: "Ignore climate" },
+              { id: "c", text: "Ignore climate" },
+              { id: "d", text: "Limit global warming to below 2°C" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1395,12 +1395,12 @@ export const lesson35: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Fisheries and forests" },
+              { id: "a", text: "Buildings" },
               { id: "b", text: "Private land" },
-              { id: "c", text: "Buildings" },
+              { id: "c", text: "Fisheries and forests" },
               { id: "d", text: "Money" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1428,15 +1428,15 @@ export const lesson35: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              {
-                id: "a",
-                text: "Tension between development needs and environmental protection",
-              },
+              { id: "a", text: "Already sustainable" },
               { id: "b", text: "No resources" },
               { id: "c", text: "Too much regulation" },
-              { id: "d", text: "Already sustainable" },
+              {
+                id: "d",
+                text: "Tension between development needs and environmental protection",
+              },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1603,12 +1603,12 @@ export const lesson35: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Climate change" },
-              { id: "b", text: "Trade" },
-              { id: "c", text: "Aid" },
+              { id: "a", text: "Aid" },
+              { id: "b", text: "Climate change" },
+              { id: "c", text: "Trade" },
               { id: "d", text: "Population" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1665,12 +1665,12 @@ export const lesson35: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Responsible Consumption and Production" },
-              { id: "b", text: "Poverty" },
-              { id: "c", text: "Education" },
+              { id: "a", text: "Education" },
+              { id: "b", text: "Responsible Consumption and Production" },
+              { id: "c", text: "Poverty" },
               { id: "d", text: "Health" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1805,12 +1805,12 @@ export const lesson35: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Life on Land" },
-              { id: "b", text: "Poverty" },
-              { id: "c", text: "Education" },
-              { id: "d", text: "Health" },
+              { id: "a", text: "Health" },
+              { id: "b", text: "Life on Land" },
+              { id: "c", text: "Poverty" },
+              { id: "d", text: "Education" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1941,12 +1941,12 @@ export const lesson35: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Political" },
-              { id: "b", text: "Economic" },
-              { id: "c", text: "Social" },
-              { id: "d", text: "Environmental" },
+              { id: "a", text: "Social" },
+              { id: "b", text: "Political" },
+              { id: "c", text: "Environmental" },
+              { id: "d", text: "Economic" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -2040,12 +2040,12 @@ export const lesson35: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Life Below Water" },
-              { id: "b", text: "Poverty" },
+              { id: "a", text: "Poverty" },
+              { id: "b", text: "Life Below Water" },
               { id: "c", text: "Education" },
               { id: "d", text: "Health" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [

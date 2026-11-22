@@ -60,12 +60,12 @@ export const lesson121: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Slang and contractions" },
-              { id: "b", text: "Precise, objective language" },
+              { id: "a", text: "Precise, objective language" },
+              { id: "b", text: "Emotional appeals" },
               { id: "c", text: "Short sentences only" },
-              { id: "d", text: "Emotional appeals" },
+              { id: "d", text: "Slang and contractions" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -95,11 +95,11 @@ export const lesson121: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "The thing is..." },
-              { id: "b", text: "In conclusion, the evidence suggests..." },
-              { id: "c", text: "Basically, it's..." },
+              { id: "b", text: "Basically, it's..." },
+              { id: "c", text: "In conclusion, the evidence suggests..." },
               { id: "d", text: "Like, whatever..." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -235,11 +235,11 @@ export const lesson121: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "A question" },
-              { id: "b", text: "The main argument/position" },
+              { id: "b", text: "A conclusion" },
               { id: "c", text: "An example" },
-              { id: "d", text: "A conclusion" },
+              { id: "d", text: "The main argument/position" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -264,12 +264,12 @@ export const lesson121: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It confuses readers" },
-              { id: "b", text: "It strengthens credibility" },
-              { id: "c", text: "It's required" },
-              { id: "d", text: "It weakens argument" },
+              { id: "a", text: "It strengthens credibility" },
+              { id: "b", text: "It confuses readers" },
+              { id: "c", text: "It weakens argument" },
+              { id: "d", text: "It's required" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

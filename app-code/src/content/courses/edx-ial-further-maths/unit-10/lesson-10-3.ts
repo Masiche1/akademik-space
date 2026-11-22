@@ -51,12 +51,12 @@ export const lesson103: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\frac{a+4m+b}{6}$" },
-              { id: "b", text: "$\\frac{a+m+b}{3}$" },
-              { id: "c", text: "$a+4m+b$" },
-              { id: "d", text: "$\\frac{a+b}{2}$" },
+              { id: "a", text: "$\\frac{a+b}{2}$" },
+              { id: "b", text: "$a+4m+b$" },
+              { id: "c", text: "$\\frac{a+4m+b}{6}$" },
+              { id: "d", text: "$\\frac{a+m+b}{3}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -185,9 +185,9 @@ export const lesson103: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "A uniformly distributed value in $[0,1)$ used to sample outcomes" },
-              { id: "b", text: "A probability of $0.73$" },
-              { id: "c", text: "A count of 73 trials" },
-              { id: "d", text: "A percentage" },
+              { id: "b", text: "A percentage" },
+              { id: "c", text: "A probability of $0.73$" },
+              { id: "d", text: "A count of 73 trials" },
             ],
             correctChoiceId: "a",
           },

@@ -53,12 +53,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The Moon blocking the Sun" },
-              { id: "b", text: "Earth spinning on its axis" },
-              { id: "c", text: "Clouds covering the Sun" },
-              { id: "d", text: "The Sun moving around Earth" },
+              { id: "a", text: "The Sun moving around Earth" },
+              { id: "b", text: "Clouds covering the Sun" },
+              { id: "c", text: "The Moon blocking the Sun" },
+              { id: "d", text: "Earth spinning on its axis" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -79,8 +79,8 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$24$ hours" },
-              { id: "b", text: "$30$ days" },
+              { id: "a", text: "$30$ days" },
+              { id: "b", text: "$24$ hours" },
               { id: "c", text: "$365$ days" },
               { id: "d", text: "$12$ hours" },
             ],
@@ -155,12 +155,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The Moon blocking the Sun every night" },
-              { id: "b", text: "Earth spinning on its axis" },
-              { id: "c", text: "Clouds covering the Sun" },
+              { id: "a", text: "Clouds covering the Sun" },
+              { id: "b", text: "The Moon blocking the Sun every night" },
+              { id: "c", text: "Earth spinning on its axis" },
               { id: "d", text: "The Sun orbiting Earth daily" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -220,10 +220,10 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A straight line" },
+              { id: "a", text: "No path" },
               { id: "b", text: "An orbit" },
               { id: "c", text: "A square" },
-              { id: "d", text: "No path" },
+              { id: "d", text: "A straight line" },
             ],
             correctChoiceId: "b",
           },
@@ -308,12 +308,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "When it tilts away from the Sun" },
-              { id: "b", text: "When it tilts towards the Sun" },
+              { id: "a", text: "When it tilts towards the Sun" },
+              { id: "b", text: "When it rains every day" },
               { id: "c", text: "When the Moon is full" },
-              { id: "d", text: "When it rains every day" },
+              { id: "d", text: "When it tilts away from the Sun" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -355,12 +355,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The side facing away from the Sun" },
-              { id: "b", text: "The side facing the Sun" },
+              { id: "a", text: "Only the equator at night" },
+              { id: "b", text: "The side facing away from the Sun" },
               { id: "c", text: "Only the poles" },
-              { id: "d", text: "Only the equator at night" },
+              { id: "d", text: "The side facing the Sun" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -403,12 +403,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Earth's rotation makes the Sun only appear to move" },
-              { id: "b", text: "The Sun is too small to move" },
-              { id: "c", text: "Earth does not move at all" },
-              { id: "d", text: "Clouds stop the Sun" },
+              { id: "a", text: "Earth does not move at all" },
+              { id: "b", text: "Earth's rotation makes the Sun only appear to move" },
+              { id: "c", text: "Clouds stop the Sun" },
+              { id: "d", text: "The Sun is too small to move" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -457,10 +457,10 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It grows and shrinks" },
+              { id: "a", text: "It moves closer and further away" },
               { id: "b", text: "We see different amounts of its sunlit side as it orbits Earth" },
               { id: "c", text: "Clouds cover parts of it" },
-              { id: "d", text: "It moves closer and further away" },
+              { id: "d", text: "It grows and shrinks" },
             ],
             correctChoiceId: "b",
           },
@@ -550,12 +550,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It makes its own light like the Sun" },
-              { id: "b", text: "It reflects sunlight" },
-              { id: "c", text: "It is on fire" },
-              { id: "d", text: "It is made of glowing cheese" },
+              { id: "a", text: "It is on fire" },
+              { id: "b", text: "It is made of glowing cheese" },
+              { id: "c", text: "It reflects sunlight" },
+              { id: "d", text: "It makes its own light like the Sun" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -617,8 +617,8 @@ export const lesson32: Lesson = {
             choices: [
               { id: "a", text: "When the Moon is between Earth and Sun" },
               { id: "b", text: "When we see the whole sunlit half of the Moon" },
-              { id: "c", text: "When the Moon is invisible" },
-              { id: "d", text: "When the Moon is closest to Earth" },
+              { id: "c", text: "When the Moon is closest to Earth" },
+              { id: "d", text: "When the Moon is invisible" },
             ],
             correctChoiceId: "b",
           },
@@ -703,12 +703,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Yes, like a star" },
-              { id: "b", text: "No, it reflects sunlight" },
-              { id: "c", text: "Only during full Moon" },
-              { id: "d", text: "Only at night" },
+              { id: "a", text: "No, it reflects sunlight" },
+              { id: "b", text: "Only at night" },
+              { id: "c", text: "Yes, like a star" },
+              { id: "d", text: "Only during full Moon" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -750,12 +750,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A thin sliver of light" },
-              { id: "b", text: "A complete circle" },
-              { id: "c", text: "Totally invisible" },
-              { id: "d", text: "A square" },
+              { id: "a", text: "A square" },
+              { id: "b", text: "Totally invisible" },
+              { id: "c", text: "A thin sliver of light" },
+              { id: "d", text: "A complete circle" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -799,9 +799,9 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "The Moon's orbit repeats the same viewing angles" },
-              { id: "b", text: "The Moon stops moving" },
-              { id: "c", text: "Earth has no seasons" },
-              { id: "d", text: "Clouds always hide the Moon" },
+              { id: "b", text: "Clouds always hide the Moon" },
+              { id: "c", text: "The Moon stops moving" },
+              { id: "d", text: "Earth has no seasons" },
             ],
             correctChoiceId: "a",
           },

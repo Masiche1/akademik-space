@@ -53,12 +53,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "SSS" },
+              { id: "a", text: "SSA" },
               { id: "b", text: "SAS" },
-              { id: "c", text: "SSA" },
-              { id: "d", text: "AAA" },
+              { id: "c", text: "AAA" },
+              { id: "d", text: "SSS" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -184,12 +184,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\angle M$" },
-              { id: "b", text: "$\\angle N$" },
-              { id: "c", text: "$\\angle P$" },
-              { id: "d", text: "$\\angle J$" },
+              { id: "a", text: "$\\angle N$" },
+              { id: "b", text: "$\\angle P$" },
+              { id: "c", text: "$\\angle J$" },
+              { id: "d", text: "$\\angle M$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -213,9 +213,9 @@ export const lesson12: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "The triangles are congruent by SSS, then use CPCTC." },
-              { id: "b", text: "The triangles are congruent by SSA, then use CPCTC." },
-              { id: "c", text: "The angles are congruent by the vertical angles theorem." },
-              { id: "d", text: "The triangles are similar by AAA, so the angles are congruent." },
+              { id: "b", text: "The triangles are similar by AAA, so the angles are congruent." },
+              { id: "c", text: "The triangles are congruent by SSA, then use CPCTC." },
+              { id: "d", text: "The angles are congruent by the vertical angles theorem." },
             ],
             correctChoiceId: "a",
           },

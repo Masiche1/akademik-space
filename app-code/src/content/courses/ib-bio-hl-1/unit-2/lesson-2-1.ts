@@ -93,12 +93,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$2$ ATP" },
-              { id: "b", text: "$4$ ATP" },
-              { id: "c", text: "$36$ ATP" },
-              { id: "d", text: "$0$ ATP" },
+              { id: "a", text: "$0$ ATP" },
+              { id: "b", text: "$2$ ATP" },
+              { id: "c", text: "$4$ ATP" },
+              { id: "d", text: "$36$ ATP" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -358,22 +358,22 @@ export const lesson21: Lesson = {
             choices: [
               {
                 id: "a",
-                text: "In the cytoplasm and it does not require oxygen",
+                text: "In the thylakoid lumen and it does not require oxygen",
               },
               {
                 id: "b",
-                text: "In the mitochondrial matrix and it requires oxygen",
+                text: "In the cytoplasm and it does not require oxygen",
               },
               {
                 id: "c",
-                text: "In the inner mitochondrial membrane and it requires oxygen",
+                text: "In the mitochondrial matrix and it requires oxygen",
               },
               {
                 id: "d",
-                text: "In the thylakoid lumen and it does not require oxygen",
+                text: "In the inner mitochondrial membrane and it requires oxygen",
               },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -417,15 +417,15 @@ export const lesson21: Lesson = {
                 id: "a",
                 text: "ATP inhibits PFK-1, while AMP and fructose-2,6-bisphosphate activate it",
               },
-              { id: "b", text: "ATP activates PFK-1, while AMP inhibits it" },
               {
-                id: "c",
+                id: "b",
                 text: "PFK-1 is inhibited by low glucose concentrations only",
               },
               {
-                id: "d",
+                id: "c",
                 text: "PFK-1 is regulated only by oxygen availability",
               },
+              { id: "d", text: "ATP activates PFK-1, while AMP inhibits it" },
             ],
             correctChoiceId: "a",
           },
@@ -468,16 +468,16 @@ export const lesson21: Lesson = {
             choices: [
               {
                 id: "a",
-                text: "Oxidation producing NADH and substrate-level phosphorylation producing ATP",
+                text: "Photolysis of water and oxidative phosphorylation",
               },
               {
                 id: "b",
-                text: "Photolysis of water and oxidative phosphorylation",
+                text: "Oxidation producing NADH and substrate-level phosphorylation producing ATP",
               },
               { id: "c", text: "The link reaction and the Krebs cycle" },
               { id: "d", text: "Reduction of $NADP^+$ and carbon fixation" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -520,22 +520,22 @@ export const lesson21: Lesson = {
             choices: [
               {
                 id: "a",
-                text: "Substrate-level phosphorylation transfers phosphate directly to ADP without an electron transport chain; oxidative phosphorylation depends on a proton gradient",
-              },
-              {
-                id: "b",
                 text: "Both require oxygen and the mitochondrial electron transport chain",
               },
               {
-                id: "c",
+                id: "b",
                 text: "Substrate-level phosphorylation produces NADPH, while oxidative phosphorylation produces ATP",
               },
               {
-                id: "d",
+                id: "c",
                 text: "Substrate-level phosphorylation occurs only in photosynthesis",
               },
+              {
+                id: "d",
+                text: "Substrate-level phosphorylation transfers phosphate directly to ADP without an electron transport chain; oxidative phosphorylation depends on a proton gradient",
+              },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -576,21 +576,21 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "Pyruvate is photolysed to release oxygen" },
               {
-                id: "a",
+                id: "b",
+                text: "Pyruvate is converted directly to glucose without using ATP",
+              },
+              {
+                id: "c",
                 text: "Pyruvate is reduced to lactate to regenerate $NAD^+$ so glycolysis can continue",
               },
               {
-                id: "b",
+                id: "d",
                 text: "Pyruvate enters the Krebs cycle and produces extra ATP",
               },
-              { id: "c", text: "Pyruvate is photolysed to release oxygen" },
-              {
-                id: "d",
-                text: "Pyruvate is converted directly to glucose without using ATP",
-              },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1051,19 +1051,19 @@ export const lesson21: Lesson = {
             choices: [
               {
                 id: "a",
-                text: "Oxidative phosphorylation via the electron transport chain and chemiosmosis",
-              },
-              {
-                id: "b",
                 text: "Substrate-level phosphorylation in glycolysis",
               },
               {
-                id: "c",
+                id: "b",
                 text: "Substrate-level phosphorylation in the Krebs cycle",
+              },
+              {
+                id: "c",
+                text: "Oxidative phosphorylation via the electron transport chain and chemiosmosis",
               },
               { id: "d", text: "The link reaction" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1315,12 +1315,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Acetyl CoA, $CO_2$ and NADH" },
+              { id: "a", text: "Lactate, ATP and water" },
               { id: "b", text: "Acetyl CoA, oxygen and ATP" },
-              { id: "c", text: "Pyruvate, NADPH and $CO_2$" },
-              { id: "d", text: "Lactate, ATP and water" },
+              { id: "c", text: "Acetyl CoA, $CO_2$ and NADH" },
+              { id: "d", text: "Pyruvate, NADPH and $CO_2$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1361,9 +1361,9 @@ export const lesson21: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$3$ NADH, $1$ FADH2, $1$ ATP and $2$ $CO_2$" },
-              { id: "b", text: "$2$ NADH, $2$ FADH2, $2$ ATP and $1$ $CO_2$" },
+              { id: "b", text: "$10$ NADH, $2$ FADH2, $4$ ATP and $6$ $CO_2$" },
               { id: "c", text: "$6$ NADH, $2$ FADH2, $2$ ATP and $4$ $CO_2$" },
-              { id: "d", text: "$10$ NADH, $2$ FADH2, $4$ ATP and $6$ $CO_2$" },
+              { id: "d", text: "$2$ NADH, $2$ FADH2, $2$ ATP and $1$ $CO_2$" },
             ],
             correctChoiceId: "a",
           },
@@ -1406,12 +1406,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Oxygen; water is formed" },
-              { id: "b", text: "$CO_2$; bicarbonate is formed" },
-              { id: "c", text: "$NAD^+$; NADH is formed" },
-              { id: "d", text: "Pyruvate; lactate is formed" },
+              { id: "a", text: "$CO_2$; bicarbonate is formed" },
+              { id: "b", text: "$NAD^+$; NADH is formed" },
+              { id: "c", text: "Pyruvate; lactate is formed" },
+              { id: "d", text: "Oxygen; water is formed" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1451,12 +1451,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$20$ ATP" },
-              { id: "b", text: "$8$ ATP" },
+              { id: "a", text: "$8$ ATP" },
+              { id: "b", text: "$20$ ATP" },
               { id: "c", text: "$16$ ATP" },
               { id: "d", text: "$40$ ATP" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1498,16 +1498,16 @@ export const lesson21: Lesson = {
             choices: [
               {
                 id: "a",
-                text: "The proton gradient cannot be used to make ATP, so electron transport slows as the gradient builds",
-              },
-              {
-                id: "b",
                 text: "Oxygen is no longer the final electron acceptor",
               },
-              { id: "c", text: "Pyruvate is converted directly to lactate" },
+              { id: "b", text: "Pyruvate is converted directly to lactate" },
+              {
+                id: "c",
+                text: "The proton gradient cannot be used to make ATP, so electron transport slows as the gradient builds",
+              },
               { id: "d", text: "Glycolysis is inhibited in the cytoplasm" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1550,22 +1550,22 @@ export const lesson21: Lesson = {
             choices: [
               {
                 id: "a",
-                text: "Both use chemiosmosis, but mitochondria pump protons outward while chloroplasts pump protons into the thylakoid lumen",
+                text: "Chloroplasts require oxygen as the final electron acceptor",
               },
               {
                 id: "b",
-                text: "Mitochondria use light energy, while chloroplasts use NADH",
+                text: "Both use chemiosmosis, but mitochondria pump protons outward while chloroplasts pump protons into the thylakoid lumen",
               },
               {
                 id: "c",
-                text: "Both produce NADPH as their main reduced coenzyme",
+                text: "Mitochondria use light energy, while chloroplasts use NADH",
               },
               {
                 id: "d",
-                text: "Chloroplasts require oxygen as the final electron acceptor",
+                text: "Both produce NADPH as their main reduced coenzyme",
               },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [

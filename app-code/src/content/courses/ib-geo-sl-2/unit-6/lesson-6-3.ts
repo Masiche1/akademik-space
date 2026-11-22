@@ -54,10 +54,10 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Tourism focused on visiting hospitals" },
+              { id: "a", text: "Medical research conducted abroad" },
               { id: "b", text: "Travelling abroad for medical treatment" },
               { id: "c", text: "Using tourism revenue for healthcare" },
-              { id: "d", text: "Medical research conducted abroad" },
+              { id: "d", text: "Tourism focused on visiting hospitals" },
             ],
             correctChoiceId: "b",
           },
@@ -153,12 +153,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Visiting spas for relaxation only" },
-              { id: "b", text: "Travelling to another country for medical treatment" },
-              { id: "c", text: "Working as a doctor abroad" },
-              { id: "d", text: "Studying medicine overseas" },
+              { id: "a", text: "Travelling to another country for medical treatment" },
+              { id: "b", text: "Studying medicine overseas" },
+              { id: "c", text: "Visiting spas for relaxation only" },
+              { id: "d", text: "Working as a doctor abroad" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -181,10 +181,10 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Higher costs abroad" },
+              { id: "a", text: "Mandatory travel requirements" },
               { id: "b", text: "Lower costs, shorter waits or unavailable procedures at home" },
-              { id: "c", text: "Better weather only" },
-              { id: "d", text: "Mandatory travel requirements" },
+              { id: "c", text: "Higher costs abroad" },
+              { id: "d", text: "Better weather only" },
             ],
             correctChoiceId: "b",
           },
@@ -209,12 +209,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Low-income countries" },
-              { id: "b", text: "High-income countries like the USA, UK and Europe" },
-              { id: "c", text: "Only landlocked nations" },
-              { id: "d", text: "Only countries with weak currencies" },
+              { id: "a", text: "Only landlocked nations" },
+              { id: "b", text: "Low-income countries" },
+              { id: "c", text: "Only countries with weak currencies" },
+              { id: "d", text: "High-income countries like the USA, UK and Europe" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -237,12 +237,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "India, Thailand, Turkey and Mexico" },
-              { id: "b", text: "USA and Canada" },
+              { id: "a", text: "USA and Canada" },
+              { id: "b", text: "Only African nations" },
               { id: "c", text: "Only European capitals" },
-              { id: "d", text: "Only African nations" },
+              { id: "d", text: "India, Thailand, Turkey and Mexico" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -265,9 +265,9 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Hospitals serve only local patients" },
+              { id: "a", text: "All care becomes free" },
               { id: "b", text: "Foreign patients paying more receive priority over locals" },
-              { id: "c", text: "All care becomes free" },
+              { id: "c", text: "Hospitals serve only local patients" },
               { id: "d", text: "Tourism is banned entirely" },
             ],
             correctChoiceId: "b",
@@ -473,11 +473,11 @@ export const lesson63: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Is less severe" },
-              { id: "b", text: "Spreads across multiple countries" },
-              { id: "c", text: "Only affects animals" },
-              { id: "d", text: "Has no known cause" },
+              { id: "b", text: "Has no known cause" },
+              { id: "c", text: "Spreads across multiple countries" },
+              { id: "d", text: "Only affects animals" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -572,11 +572,11 @@ export const lesson63: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "A disease outbreak in one village" },
-              { id: "b", text: "An epidemic spanning multiple countries or continents" },
-              { id: "c", text: "Any disease with high mortality" },
+              { id: "b", text: "Any disease with high mortality" },
+              { id: "c", text: "An epidemic spanning multiple countries or continents" },
               { id: "d", text: "A seasonal flu outbreak" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -599,12 +599,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "~5 million" },
-              { id: "b", text: "~50 million" },
-              { id: "c", text: "~500 million" },
-              { id: "d", text: "~5 billion" },
+              { id: "a", text: "~50 million" },
+              { id: "b", text: "~500 million" },
+              { id: "c", text: "~5 billion" },
+              { id: "d", text: "~5 million" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -627,12 +627,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Human health is independent of animals and environment" },
-              { id: "b", text: "Human, animal and environmental health are interconnected" },
-              { id: "c", text: "Only human medicine matters" },
-              { id: "d", text: "Environmental health is separate" },
+              { id: "a", text: "Environmental health is separate" },
+              { id: "b", text: "Human health is independent of animals and environment" },
+              { id: "c", text: "Human, animal and environmental health are interconnected" },
+              { id: "d", text: "Only human medicine matters" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -655,12 +655,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "~10%" },
-              { id: "b", text: "~30%" },
-              { id: "c", text: "~60%" },
+              { id: "a", text: "~30%" },
+              { id: "b", text: "~60%" },
+              { id: "c", text: "~10%" },
               { id: "d", text: "~90%" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -684,11 +684,11 @@ export const lesson63: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Weaker pathogens" },
-              { id: "b", text: "Dense global travel and trade networks moving pathogens worldwide" },
+              { id: "b", text: "Better sanitation" },
               { id: "c", text: "Less urbanisation" },
-              { id: "d", text: "Better sanitation" },
+              { id: "d", text: "Dense global travel and trade networks moving pathogens worldwide" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

@@ -67,9 +67,9 @@ export const lesson13: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "It ends abruptly on a plain fact that contrasts with the slow crossings she lost." },
-              { id: "b", text: "It begins a new story about the bridge builders." },
+              { id: "b", text: "It explains why the boy was fishing without a hook." },
               { id: "c", text: "It shows that Ines is delighted with the new bridge." },
-              { id: "d", text: "It explains why the boy was fishing without a hook." },
+              { id: "d", text: "It begins a new story about the bridge builders." },
             ],
             correctChoiceId: "a",
           },
@@ -193,12 +193,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Mr. Okafor's watering of dead plants is a ritual that keeps his grief alive." },
-              { id: "b", text: "Mr. Okafor waters the geraniums every evening." },
-              { id: "c", text: "The geraniums died in October." },
-              { id: "d", text: "His daughter carries the pots downstairs on Thursday." },
+              { id: "a", text: "His daughter carries the pots downstairs on Thursday." },
+              { id: "b", text: "The geraniums died in October." },
+              { id: "c", text: "Mr. Okafor's watering of dead plants is a ritual that keeps his grief alive." },
+              { id: "d", text: "Mr. Okafor waters the geraniums every evening." },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Interpretation", statement: "A claim about meaning that goes beyond what the text states directly." }],

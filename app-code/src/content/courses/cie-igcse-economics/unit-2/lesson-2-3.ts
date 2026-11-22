@@ -52,11 +52,11 @@ export const lesson283: Lesson = {
           "choices": [
                     {
                               "id": "a",
-                              "text": "Free market fails to allocate resources efficiently"
+                              "text": "Market is too efficient"
                     },
                     {
                               "id": "b",
-                              "text": "Market is too efficient"
+                              "text": "Perfect competition"
                     },
                     {
                               "id": "c",
@@ -64,10 +64,10 @@ export const lesson283: Lesson = {
                     },
                     {
                               "id": "d",
-                              "text": "Perfect competition"
+                              "text": "Free market fails to allocate resources efficiently"
                     }
           ],
-          "correctChoiceId": "a"
+          "correctChoiceId": "d"
 },
           markscheme: {
           "principles": [
@@ -213,6 +213,485 @@ export const lesson283: Lesson = {
                     }
           ],
           "finalAnswer": "Market failure and intervention."
+},
+        },
+        {
+          id: "cieiec-u2-mf-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "A negative externality is best described as:",
+          response: {
+          "type": "mcq",
+          "choices": [
+                    {
+                              "id": "a",
+                              "text": "A benefit received by the producer"
+                    },
+                    {
+                              "id": "b",
+                              "text": "A government tax"
+                    },
+                    {
+                              "id": "c",
+                              "text": "A cost imposed on third parties not involved in the transaction"
+                    },
+                    {
+                              "id": "d",
+                              "text": "A type of subsidy"
+                    }
+          ],
+          "correctChoiceId": "c"
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "definition",
+                              "name": "Negative externality",
+                              "statement": "Third-party cost."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "Negative externality = cost on third parties.",
+                              "marks": 1,
+                              "markCode": "M"
+                    }
+          ],
+          "finalAnswer": "Cost on third parties"
+},
+        },
+        {
+          id: "cieiec-u2-mf-q6",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "A public good is characterised by being:",
+          response: {
+          "type": "mcq",
+          "choices": [
+                    {
+                              "id": "a",
+                              "text": "Only produced by government"
+                    },
+                    {
+                              "id": "b",
+                              "text": "Non-excludable and non-rivalrous"
+                    },
+                    {
+                              "id": "c",
+                              "text": "Always free of charge"
+                    },
+                    {
+                              "id": "d",
+                              "text": "Excludable and rivalrous"
+                    }
+          ],
+          "correctChoiceId": "b"
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "definition",
+                              "name": "Public good",
+                              "statement": "Non-excludable, non-rivalrous."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "Public goods are non-excludable and non-rivalrous.",
+                              "marks": 1,
+                              "markCode": "M"
+                    }
+          ],
+          "finalAnswer": "Non-excludable and non-rivalrous"
+},
+        },
+        {
+          id: "cieiec-u2-mf-q7",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "'Free riders' are a particular problem for which type of good?",
+          response: {
+          "type": "mcq",
+          "choices": [
+                    {
+                              "id": "a",
+                              "text": "Normal goods"
+                    },
+                    {
+                              "id": "b",
+                              "text": "Merit goods only"
+                    },
+                    {
+                              "id": "c",
+                              "text": "Public goods"
+                    },
+                    {
+                              "id": "d",
+                              "text": "Private goods"
+                    }
+          ],
+          "correctChoiceId": "c"
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "definition",
+                              "name": "Free rider problem",
+                              "statement": "Consumers benefit without paying."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "Non-excludability lets people consume without paying.",
+                              "marks": 1,
+                              "markCode": "M"
+                    }
+          ],
+          "finalAnswer": "Public goods"
+},
+        },
+        {
+          id: "cieiec-u2-mf-q8",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Which government policy is most appropriate for correcting a negative production externality?",
+          response: {
+          "type": "mcq",
+          "choices": [
+                    {
+                              "id": "a",
+                              "text": "A price ceiling"
+                    },
+                    {
+                              "id": "b",
+                              "text": "A tax on the producer"
+                    },
+                    {
+                              "id": "c",
+                              "text": "Removing all regulation"
+                    },
+                    {
+                              "id": "d",
+                              "text": "A subsidy to the producer"
+                    }
+          ],
+          "correctChoiceId": "b"
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "skill",
+                              "name": "Externality policy",
+                              "statement": "Negative externality -> tax."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "Tax raises private cost to match social cost.",
+                              "marks": 1,
+                              "markCode": "M"
+                    }
+          ],
+          "finalAnswer": "A tax on the producer"
+},
+        },
+        {
+          id: "cieiec-u2-mf-q9",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "A government imposes a carbon tax of $4 per unit on 5,000 units of output. What is the total tax revenue collected?",
+          response: {
+          "type": "numeric",
+          "parts": [
+                    {
+                              "label": "a",
+                              "answer": 20000,
+                              "unit": "$"
+                    }
+          ]
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "skill",
+                              "name": "Externality policy",
+                              "statement": "Tax corrects negative externality."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "Revenue = 4 x 5000.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "Total revenue = $20,000.",
+                              "marks": 1,
+                              "markCode": "A"
+                    }
+          ],
+          "finalAnswer": "$20,000"
+},
+        },
+        {
+          id: "cieiec-u2-mf-q10",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "A subsidy of $2 per unit raises output from 1,000 to 1,500 units. What is the total cost of the subsidy to the government?",
+          response: {
+          "type": "numeric",
+          "parts": [
+                    {
+                              "label": "a",
+                              "answer": 3000,
+                              "unit": "$"
+                    }
+          ]
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "skill",
+                              "name": "Subsidy",
+                              "statement": "Payment per unit to producers."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "Cost = 2 x 1500 = 3000.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "Total subsidy cost = $3,000.",
+                              "marks": 1,
+                              "markCode": "A"
+                    }
+          ],
+          "finalAnswer": "$3,000"
+},
+        },
+        {
+          id: "cieiec-u2-mf-q11",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "Consumers buy 80 units of a merit good but the socially optimal quantity is 100 units. By how many units is the good under-consumed?",
+          response: {
+          "type": "numeric",
+          "parts": [
+                    {
+                              "label": "a",
+                              "answer": 20,
+                              "unit": "units"
+                    }
+          ]
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "definition",
+                              "name": "Merit good",
+                              "statement": "Under-consumed due to information gaps."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "100 - 80 = 20 units.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "Under-consumption = 20 units.",
+                              "marks": 1,
+                              "markCode": "A"
+                    }
+          ],
+          "finalAnswer": "20 units"
+},
+        },
+        {
+          id: "cieiec-u2-mf-q12",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "Define a merit good and give one example.",
+          response: {
+          "type": "open"
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "definition",
+                              "name": "Merit good",
+                              "statement": "Under-consumed due to info asymmetry."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "Good that is under-consumed because consumers underestimate benefits.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "Example: education or healthcare.",
+                              "marks": 1,
+                              "markCode": "M"
+                    }
+          ],
+          "finalAnswer": "Under-consumed good; e.g. education"
+},
+        },
+        {
+          id: "cieiec-u2-mf-q13",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "Explain why the free market tends to underprovide public goods.",
+          response: {
+          "type": "open"
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "skill",
+                              "name": "Public goods",
+                              "statement": "Underprovision."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "Non-excludability means firms cannot stop free riders.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "Firms cannot charge consumers, so no profit incentive.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "Result: market provides too little or none; government must supply.",
+                              "marks": 1,
+                              "markCode": "A"
+                    }
+          ],
+          "finalAnswer": "Free riders -> no profit -> underprovision"
+},
+        },
+        {
+          id: "cieiec-u2-mf-q14",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "Explain how a subsidy can be used to correct a positive externality.",
+          response: {
+          "type": "open"
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "skill",
+                              "name": "Subsidy",
+                              "statement": "Corrects positive externality."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "Subsidy lowers producers' costs / raises revenue.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "Output rises toward the social optimum.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "Brings private benefit closer to social benefit.",
+                              "marks": 1,
+                              "markCode": "A"
+                    }
+          ],
+          "finalAnswer": "Subsidy raises output to social optimum"
+},
+        },
+        {
+          id: "cieiec-u2-mf-q15",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "Distinguish between a negative externality and a positive externality, giving an example of each.",
+          response: {
+          "type": "open"
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "definition",
+                              "name": "Externalities",
+                              "statement": "Third-party effects."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "Negative: cost on third parties, e.g. pollution from a factory.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "Positive: benefit on third parties, e.g. vaccination reducing disease.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "Both cause market failure because market ignores third parties.",
+                              "marks": 1,
+                              "markCode": "A"
+                    }
+          ],
+          "finalAnswer": "Negative=cost; positive=benefit"
+},
+        },
+        {
+          id: "cieiec-u2-mf-q16",
+          difficulty: "challenge",
+          totalMarks: 5,
+          stem: "Evaluate government intervention as a solution to market failure.",
+          response: {
+          "type": "open"
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "technique",
+                              "name": "Market failure",
+                              "statement": "Intervention evaluation."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "Benefits: taxes/subsidies internalise externalities; provision fixes public goods.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "Benefits: regulation and information can improve outcomes.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "Costs: government failure, costs of intervention, imperfect information.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "Intervention may create new distortions.",
+                              "marks": 1,
+                              "markCode": "A"
+                    },
+                    {
+                              "reasoning": "Judgement: often necessary but must be well-designed.",
+                              "marks": 1,
+                              "markCode": "A"
+                    }
+          ],
+          "finalAnswer": "Often necessary but can fail"
 },
         },
       ],

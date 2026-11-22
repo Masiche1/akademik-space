@@ -112,12 +112,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Nucleus + electrons" },
+              { id: "a", text: "Only neutrons" },
               { id: "b", text: "Only protons" },
-              { id: "c", text: "Only neutrons" },
-              { id: "d", text: "Only electrons" },
+              { id: "c", text: "Only electrons" },
+              { id: "d", text: "Nucleus + electrons" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -145,12 +145,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Protons and neutrons" },
-              { id: "b", text: "Only protons" },
-              { id: "c", text: "Only neutrons" },
-              { id: "d", text: "Electrons" },
+              { id: "a", text: "Only protons" },
+              { id: "b", text: "Only neutrons" },
+              { id: "c", text: "Electrons" },
+              { id: "d", text: "Protons and neutrons" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -172,12 +172,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Positive charge, mass 1" },
-              { id: "b", text: "Negative charge" },
-              { id: "c", text: "No charge" },
-              { id: "d", text: "Mass 0" },
+              { id: "a", text: "No charge" },
+              { id: "b", text: "Mass 0" },
+              { id: "c", text: "Negative charge" },
+              { id: "d", text: "Positive charge, mass 1" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -203,8 +203,8 @@ export const lesson31: Lesson = {
             choices: [
               { id: "a", text: "No charge, mass 1" },
               { id: "b", text: "Positive charge" },
-              { id: "c", text: "Negative charge" },
-              { id: "d", text: "Mass 0" },
+              { id: "c", text: "Mass 0" },
+              { id: "d", text: "Negative charge" },
             ],
             correctChoiceId: "a",
           },
@@ -230,12 +230,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Negative charge, negligible mass" },
+              { id: "a", text: "Mass 1" },
               { id: "b", text: "Positive charge" },
               { id: "c", text: "No charge" },
-              { id: "d", text: "Mass 1" },
+              { id: "d", text: "Negative charge, negligible mass" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -259,12 +259,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Number of protons" },
-              { id: "b", text: "Number of neutrons" },
-              { id: "c", text: "Number of electrons" },
-              { id: "d", text: "Total mass" },
+              { id: "a", text: "Number of electrons" },
+              { id: "b", text: "Total mass" },
+              { id: "c", text: "Number of neutrons" },
+              { id: "d", text: "Number of protons" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -286,12 +286,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Protons + neutrons" },
-              { id: "b", text: "Only protons" },
+              { id: "a", text: "Only protons" },
+              { id: "b", text: "Protons + neutrons" },
               { id: "c", text: "Only neutrons" },
               { id: "d", text: "Electrons" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -313,12 +313,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Same element, different neutrons" },
-              { id: "b", text: "Different elements" },
-              { id: "c", text: "Same neutrons" },
-              { id: "d", text: "No atoms" },
+              { id: "a", text: "Different elements" },
+              { id: "b", text: "Same element, different neutrons" },
+              { id: "c", text: "No atoms" },
+              { id: "d", text: "Same neutrons" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -346,12 +346,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "2 electrons" },
-              { id: "b", text: "8 electrons" },
+              { id: "a", text: "8 electrons" },
+              { id: "b", text: "32 electrons" },
               { id: "c", text: "18 electrons" },
-              { id: "d", text: "32 electrons" },
+              { id: "d", text: "2 electrons" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -373,12 +373,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Outer shell electrons" },
-              { id: "b", text: "Inner shell electrons" },
-              { id: "c", text: "Nuclear electrons" },
-              { id: "d", text: "No electrons" },
+              { id: "a", text: "No electrons" },
+              { id: "b", text: "Nuclear electrons" },
+              { id: "c", text: "Inner shell electrons" },
+              { id: "d", text: "Outer shell electrons" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -402,12 +402,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "11" },
-              { id: "b", text: "10" },
+              { id: "a", text: "10" },
+              { id: "b", text: "11" },
               { id: "c", text: "12" },
               { id: "d", text: "1" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -431,12 +431,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "2,8,7" },
-              { id: "b", text: "2,8,8" },
-              { id: "c", text: "2,7,7" },
-              { id: "d", text: "8,8,7" },
+              { id: "a", text: "2,7,7" },
+              { id: "b", text: "8,8,7" },
+              { id: "c", text: "2,8,8" },
+              { id: "d", text: "2,8,7" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -464,12 +464,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "2,8,1" },
+              { id: "a", text: "8,8,1" },
               { id: "b", text: "2,8,2" },
               { id: "c", text: "2,8,8" },
-              { id: "d", text: "8,8,1" },
+              { id: "d", text: "2,8,1" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -493,12 +493,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Same number of valence electrons" },
-              { id: "b", text: "Same atomic number" },
+              { id: "a", text: "Same atomic number" },
+              { id: "b", text: "Same neutrons" },
               { id: "c", text: "Same mass" },
-              { id: "d", text: "Same neutrons" },
+              { id: "d", text: "Same number of valence electrons" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -522,12 +522,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Same number of electron shells" },
-              { id: "b", text: "Same valence electrons" },
-              { id: "c", text: "Same properties" },
-              { id: "d", text: "Same mass" },
+              { id: "a", text: "Same properties" },
+              { id: "b", text: "Same mass" },
+              { id: "c", text: "Same number of electron shells" },
+              { id: "d", text: "Same valence electrons" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -551,12 +551,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "1" },
-              { id: "b", text: "2" },
-              { id: "c", text: "7" },
-              { id: "d", text: "8" },
+              { id: "a", text: "8" },
+              { id: "b", text: "1" },
+              { id: "c", text: "2" },
+              { id: "d", text: "7" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -580,12 +580,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "7" },
+              { id: "a", text: "8" },
               { id: "b", text: "1" },
-              { id: "c", text: "2" },
-              { id: "d", text: "8" },
+              { id: "c", text: "7" },
+              { id: "d", text: "2" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -605,12 +605,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "8" },
-              { id: "b", text: "1" },
-              { id: "c", text: "7" },
+              { id: "a", text: "1" },
+              { id: "b", text: "7" },
+              { id: "c", text: "8" },
               { id: "d", text: "2" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -630,12 +630,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "3-12" },
-              { id: "b", text: "1-2" },
-              { id: "c", text: "13-18" },
-              { id: "d", text: "All groups" },
+              { id: "a", text: "All groups" },
+              { id: "b", text: "3-12" },
+              { id: "c", text: "1-2" },
+              { id: "d", text: "13-18" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -796,9 +796,9 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Charged atom — gained/lost electrons" },
-              { id: "b", text: "Neutral atom" },
-              { id: "c", text: "Isotope" },
-              { id: "d", text: "Element" },
+              { id: "b", text: "Element" },
+              { id: "c", text: "Neutral atom" },
+              { id: "d", text: "Isotope" },
             ],
             correctChoiceId: "a",
           },
@@ -880,8 +880,8 @@ export const lesson31: Lesson = {
             choices: [
               { id: "a", text: "Positively charged ion" },
               { id: "b", text: "Negatively charged" },
-              { id: "c", text: "Neutral" },
-              { id: "d", text: "Isotope" },
+              { id: "c", text: "Isotope" },
+              { id: "d", text: "Neutral" },
             ],
             correctChoiceId: "a",
           },
@@ -1048,12 +1048,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Electrostatic attraction between ions" },
-              { id: "b", text: "Shared electrons" },
+              { id: "a", text: "Shared electrons" },
+              { id: "b", text: "Electrostatic attraction between ions" },
               { id: "c", text: "Metallic attraction" },
               { id: "d", text: "Hydrogen bond" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1077,12 +1077,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Shared electron pair" },
-              { id: "b", text: "Ion attraction" },
-              { id: "c", text: "Metallic attraction" },
-              { id: "d", text: "No bond" },
+              { id: "a", text: "No bond" },
+              { id: "b", text: "Metallic attraction" },
+              { id: "c", text: "Shared electron pair" },
+              { id: "d", text: "Ion attraction" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1106,12 +1106,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Cations + delocalised electrons" },
-              { id: "b", text: "Ion attraction" },
-              { id: "c", text: "Shared electrons" },
-              { id: "d", text: "No bond" },
+              { id: "a", text: "No bond" },
+              { id: "b", text: "Shared electrons" },
+              { id: "c", text: "Ion attraction" },
+              { id: "d", text: "Cations + delocalised electrons" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1139,12 +1139,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "High melting points" },
-              { id: "b", text: "Low melting points" },
-              { id: "c", text: "No melting point" },
-              { id: "d", text: "Variable mp" },
+              { id: "a", text: "Low melting points" },
+              { id: "b", text: "High melting points" },
+              { id: "c", text: "Variable mp" },
+              { id: "d", text: "No melting point" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1166,12 +1166,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Low melting points" },
-              { id: "b", text: "High melting points" },
-              { id: "c", text: "No melting" },
-              { id: "d", text: "Variable mp" },
+              { id: "a", text: "No melting" },
+              { id: "b", text: "Low melting points" },
+              { id: "c", text: "Variable mp" },
+              { id: "d", text: "High melting points" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1195,12 +1195,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Molten or dissolved" },
-              { id: "b", text: "Solid" },
-              { id: "c", text: "Always" },
-              { id: "d", text: "Never" },
+              { id: "a", text: "Solid" },
+              { id: "b", text: "Molten or dissolved" },
+              { id: "c", text: "Never" },
+              { id: "d", text: "Always" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1228,12 +1228,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Never (no free ions/electrons)" },
-              { id: "b", text: "Always" },
-              { id: "c", text: "When dissolved" },
-              { id: "d", text: "When molten" },
+              { id: "a", text: "Always" },
+              { id: "b", text: "Never (no free ions/electrons)" },
+              { id: "c", text: "When molten" },
+              { id: "d", text: "When dissolved" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1262,9 +1262,9 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Delocalised electrons" },
-              { id: "b", text: "Ions" },
-              { id: "c", text: "Shared electrons" },
-              { id: "d", text: "No electrons" },
+              { id: "b", text: "Shared electrons" },
+              { id: "c", text: "No electrons" },
+              { id: "d", text: "Ions" },
             ],
             correctChoiceId: "a",
           },
@@ -1294,12 +1294,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "One shared electron pair" },
-              { id: "b", text: "Two pairs" },
-              { id: "c", text: "Three pairs" },
-              { id: "d", text: "No pairs" },
+              { id: "a", text: "Two pairs" },
+              { id: "b", text: "Three pairs" },
+              { id: "c", text: "No pairs" },
+              { id: "d", text: "One shared electron pair" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1322,8 +1322,8 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Two shared electron pairs" },
-              { id: "b", text: "One pair" },
-              { id: "c", text: "Three pairs" },
+              { id: "b", text: "Three pairs" },
+              { id: "c", text: "One pair" },
               { id: "d", text: "No pairs" },
             ],
             correctChoiceId: "a",
@@ -1351,8 +1351,8 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Ability to attract bonding electrons" },
-              { id: "b", text: "Mass of atom" },
-              { id: "c", text: "Charge of ion" },
+              { id: "b", text: "Charge of ion" },
+              { id: "c", text: "Mass of atom" },
               { id: "d", text: "Size of atom" },
             ],
             correctChoiceId: "a",
@@ -1383,12 +1383,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Unequal sharing of electrons" },
-              { id: "b", text: "Equal sharing" },
-              { id: "c", text: "No sharing" },
-              { id: "d", text: "Ion transfer" },
+              { id: "a", text: "Equal sharing" },
+              { id: "b", text: "No sharing" },
+              { id: "c", text: "Ion transfer" },
+              { id: "d", text: "Unequal sharing of electrons" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1416,12 +1416,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Equal sharing of electrons" },
-              { id: "b", text: "Unequal sharing" },
+              { id: "a", text: "Unequal sharing" },
+              { id: "b", text: "Ion transfer" },
               { id: "c", text: "No sharing" },
-              { id: "d", text: "Ion transfer" },
+              { id: "d", text: "Equal sharing of electrons" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1449,12 +1449,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Uneven charge distribution" },
-              { id: "b", text: "Even charge" },
-              { id: "c", text: "No charge" },
-              { id: "d", text: "Ions" },
+              { id: "a", text: "No charge" },
+              { id: "b", text: "Uneven charge distribution" },
+              { id: "c", text: "Ions" },
+              { id: "d", text: "Even charge" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1482,12 +1482,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "H and electronegative atoms (N, O, F)" },
-              { id: "b", text: "All atoms" },
+              { id: "a", text: "All atoms" },
+              { id: "b", text: "No atoms" },
               { id: "c", text: "Only metals" },
-              { id: "d", text: "No atoms" },
+              { id: "d", text: "H and electronegative atoms (N, O, F)" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1511,12 +1511,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Oxygen more electronegative than hydrogen" },
+              { id: "a", text: "No polarity" },
               { id: "b", text: "Equal electronegativity" },
-              { id: "c", text: "No polarity" },
-              { id: "d", text: "Ionic bonds" },
+              { id: "c", text: "Ionic bonds" },
+              { id: "d", text: "Oxygen more electronegative than hydrogen" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1538,12 +1538,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Metal and non-metal" },
-              { id: "b", text: "Two metals" },
-              { id: "c", text: "Two non-metals" },
-              { id: "d", text: "Noble gases" },
+              { id: "a", text: "Two metals" },
+              { id: "b", text: "Metal and non-metal" },
+              { id: "c", text: "Noble gases" },
+              { id: "d", text: "Two non-metals" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1571,12 +1571,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Two non-metals" },
-              { id: "b", text: "Metal and non-metal" },
+              { id: "a", text: "Metal and non-metal" },
+              { id: "b", text: "Two non-metals" },
               { id: "c", text: "Two metals" },
               { id: "d", text: "Noble gases" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1600,12 +1600,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Metals only" },
-              { id: "b", text: "Non-metals" },
+              { id: "a", text: "All substances" },
+              { id: "b", text: "Metals only" },
               { id: "c", text: "Ionic compounds" },
-              { id: "d", text: "All substances" },
+              { id: "d", text: "Non-metals" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1762,15 +1762,15 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "Strong covalent bond" },
+              { id: "b", text: "Metallic bond" },
+              { id: "c", text: "Ionic bond" },
               {
-                id: "a",
+                id: "d",
                 text: "Weak attraction between H and electronegative atoms",
               },
-              { id: "b", text: "Strong covalent bond" },
-              { id: "c", text: "Ionic bond" },
-              { id: "d", text: "Metallic bond" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1862,8 +1862,8 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Three shared electron pairs" },
-              { id: "b", text: "Two pairs" },
-              { id: "c", text: "One pair" },
+              { id: "b", text: "One pair" },
+              { id: "c", text: "Two pairs" },
               { id: "d", text: "No pairs" },
             ],
             correctChoiceId: "a",

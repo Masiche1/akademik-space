@@ -50,12 +50,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$0.125\\text{ mol/dm}^3$" },
-              { id: "b", text: "$2.0\\text{ mol/dm}^3$" },
-              { id: "c", text: "$125\\text{ mol/dm}^3$" },
-              { id: "d", text: "$0.50\\text{ mol/dm}^3$" },
+              { id: "a", text: "$0.50\\text{ mol/dm}^3$" },
+              { id: "b", text: "$125\\text{ mol/dm}^3$" },
+              { id: "c", text: "$0.125\\text{ mol/dm}^3$" },
+              { id: "d", text: "$2.0\\text{ mol/dm}^3$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -182,8 +182,8 @@ export const lesson22: Lesson = {
             choices: [
               { id: "a", text: "Pipette" },
               { id: "b", text: "Burette" },
-              { id: "c", text: "Measuring cylinder" },
-              { id: "d", text: "Gas syringe" },
+              { id: "c", text: "Gas syringe" },
+              { id: "d", text: "Measuring cylinder" },
             ],
             correctChoiceId: "b",
           },

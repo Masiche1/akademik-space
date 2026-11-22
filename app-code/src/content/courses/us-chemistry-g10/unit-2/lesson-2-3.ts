@@ -49,12 +49,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Gas particles attracting each other" },
-              { id: "b", text: "Gas particles colliding with the walls of the container" },
-              { id: "c", text: "The weight of the gas pushing down on the container" },
-              { id: "d", text: "Gas particles slowing down over time" },
+              { id: "a", text: "The weight of the gas pushing down on the container" },
+              { id: "b", text: "Gas particles slowing down over time" },
+              { id: "c", text: "Gas particles attracting each other" },
+              { id: "d", text: "Gas particles colliding with the walls of the container" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -179,10 +179,10 @@ export const lesson23: Lesson = {
             choices: [
               { id: "a", text: "It is halved." },
               { id: "b", text: "It stays the same." },
-              { id: "c", text: "It doubles." },
-              { id: "d", text: "It quadruples." },
+              { id: "c", text: "It quadruples." },
+              { id: "d", text: "It doubles." },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [

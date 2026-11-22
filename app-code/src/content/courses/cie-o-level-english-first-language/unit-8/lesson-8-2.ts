@@ -71,12 +71,12 @@ export const lesson182: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The central argument or line" },
-              { id: "b", text: "The first paragraph" },
-              { id: "c", text: "A quotation" },
-              { id: "d", text: "The word count" },
+              { id: "a", text: "The first paragraph" },
+              { id: "b", text: "A quotation" },
+              { id: "c", text: "The word count" },
+              { id: "d", text: "The central argument or line" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -314,6 +314,455 @@ export const lesson182: Lesson = {
             commonErrors: ["Plot summary disguised as introduction."],
           },
         },
+        {
+          id: "cie-ol-fl-es-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "In PEEL paragraph structure, what does 'L' stand for?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Link" },
+              { id: "b", text: "List" },
+              { id: "c", text: "Level" },
+              { id: "d", text: "Length" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "PEEL",
+                statement:
+                  "Point, Evidence, Explanation, Link — paragraph pattern for analysis.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "L = Link: connect back to the thesis.",
+                marks: 1,
+                markCode: "AO1",
+              },
+            ],
+            finalAnswer: "**(a)** Link",
+            commonErrors: ["Confusing PEEL with PEE only."],
+          },
+        },
+        {
+          id: "cie-ol-fl-es-q6",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Where should a thesis statement usually appear in an essay?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "In the introduction" },
+              { id: "b", text: "Only in the conclusion" },
+              { id: "c", text: "In every paragraph" },
+              { id: "d", text: "In a footnote" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "skill",
+                name: "Thesis placement",
+                statement:
+                  "The thesis frames the essay and is stated in the introduction.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "The intro frames the question and states the line.",
+                marks: 1,
+                markCode: "AO1",
+              },
+            ],
+            finalAnswer: "**(a)** In the introduction",
+            commonErrors: ["Hiding the argument until the conclusion."],
+          },
+        },
+        {
+          id: "cie-ol-fl-es-q7",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "Which is the strongest thesis for 'How does the writer create tension?'",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a",
+                text: "This essay will discuss tension in the text" },
+              { id: "b", text: "Tension is important in literature" },
+              {
+                id: "c",
+                text: "The writer builds tension through delayed revelation and sensory detail, making the reader share the character's uncertainty",
+              },
+              {
+                id: "d",
+                text: "The writer creates tension in many ways throughout the story",
+              },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "skill",
+                name: "Thesis quality",
+                statement:
+                  "A strong thesis is specific, arguable and addresses the question directly.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "(a) names techniques and their effect — specific and arguable.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "B–D are vague or generic and cannot guide paragraphs.",
+                marks: 1,
+                markCode: "AO3",
+              },
+            ],
+            finalAnswer: "**(a)** Specific, arguable thesis naming techniques",
+            commonErrors: ["Choosing a thesis that merely restates the question."],
+          },
+        },
+        {
+          id: "cie-ol-fl-es-q8",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "What should a literature essay conclusion do?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Summarise the plot" },
+              {
+                id: "b",
+                text: "Synthesise the points and restate the thesis in light of the evidence",
+              },
+              { id: "c", text: "Introduce a brand-new argument" },
+              { id: "d", text: "Repeat the introduction word for word" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "skill",
+                name: "Conclusion",
+                statement:
+                  "Conclusions synthesise points and restate the thesis — no new arguments or plot summary.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Synthesis shows how the points combine to answer the question.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "New arguments or summary waste the conclusion's function.",
+                marks: 1,
+                markCode: "AO3",
+              },
+            ],
+            finalAnswer: "**(a)** Synthesise and restate the thesis",
+            commonErrors: ["Adding new material in the conclusion."],
+          },
+        },
+        {
+          id: "cie-ol-fl-es-q9",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "An essay plan has an introduction, three body paragraphs and a conclusion. How many paragraphs are planned?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 5 }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "skill",
+                name: "Essay structure",
+                statement: "Intro + body paragraphs + conclusion.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "1 + 3 + 1 = 5 paragraphs.",
+                working: "1 + 3 + 1 = 5",
+                marks: 1,
+                markCode: "AO2",
+              },
+            ],
+            finalAnswer: "5",
+            commonErrors: ["Forgetting the introduction and conclusion."],
+          },
+        },
+        {
+          id: "cie-ol-fl-es-q10",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "A 20-mark essay allows 25 minutes. If you spend 5 minutes planning, how many minutes remain for writing?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 20 }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "skill",
+                name: "Essay timing",
+                statement: "Reserve planning time within the essay budget.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "25 - 5 = 20 minutes for writing.",
+                working: "25 - 5 = 20",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "Planning prevents unfocused writing.",
+                marks: 1,
+                markCode: "AO3",
+              },
+            ],
+            finalAnswer: "20",
+            commonErrors: ["Ignoring the planning time in the budget."],
+          },
+        },
+        {
+          id: "cie-ol-fl-es-q11",
+          difficulty: "challenge",
+          totalMarks: 3,
+          stem: "An essay has 4 paragraphs. Each paragraph needs a topic sentence and three supporting sentences. How many sentences are required?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 16 }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "skill",
+                name: "Paragraph structure",
+                statement: "Each paragraph = topic sentence + supporting sentences.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Each paragraph needs 1 + 3 = 4 sentences.",
+                working: "1 + 3 = 4",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "4 x 4 = 16 sentences.",
+                working: "4 x 4 = 16",
+                marks: 2,
+                markCode: "AO3",
+              },
+            ],
+            finalAnswer: "16",
+            commonErrors: ["Forgetting the topic sentences."],
+          },
+        },
+        {
+          id: "cie-ol-fl-es-q12",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "Explain the function of the 'Link' in PEEL paragraph structure.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "PEEL link",
+                statement:
+                  "The link connects the paragraph back to the thesis, maintaining argument flow.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "The link shows how the point supports the thesis.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "It prevents paragraphs from feeling disconnected.",
+                marks: 1,
+                markCode: "AO3",
+              },
+            ],
+            finalAnswer:
+              "The link ties the paragraph's point back to the thesis, keeping the argument coherent.",
+            commonErrors: ["Omitting the link and ending paragraphs abruptly."],
+          },
+        },
+        {
+          id: "cie-ol-fl-es-q13",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "What three things should a literature essay introduction contain?",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "skill",
+                name: "Introduction",
+                statement:
+                  "Frame the question, define key terms, state the thesis — no plot summary.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Brief engagement with the question.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                reasoning: "Definition of key terms or context.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                reasoning: "Clear statement of the thesis.",
+                marks: 1,
+                markCode: "AO3",
+              },
+            ],
+            finalAnswer: "Frame question + define terms + state thesis.",
+            commonErrors: ["Retelling the plot instead of framing the argument."],
+          },
+        },
+        {
+          id: "cie-ol-fl-es-q14",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "A thesis reads: 'This essay will talk about the character.' Rewrite it as a strong, specific thesis for the question 'How does the character change?'",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "skill",
+                name: "Thesis quality",
+                statement:
+                  "A strong thesis is specific, arguable and directly answers the question.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "Rewrite attempts a specific line, e.g. 'The character changes from fearful to resolute, driven by the loss of their home.'",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "Directly addresses 'how the character changes'.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "Specific enough to guide individual paragraphs.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "Arguable — open to evidence and analysis.",
+                marks: 1,
+                markCode: "AO3",
+              },
+            ],
+            finalAnswer:
+              "E.g. 'The character's change from fearful to resolute is driven by loss and revealed through three key moments.'",
+            commonErrors: ["Keeping the thesis vague or merely restating the question."],
+          },
+        },
+        {
+          id: "cie-ol-fl-es-q15",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "How does a thesis statement guide the selection of paragraphs?",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "skill",
+                name: "Thesis as roadmap",
+                statement:
+                  "Every paragraph should make one point supporting the thesis.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "The thesis defines what counts as relevant material.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning:
+                  "Each paragraph tests one aspect of the line — irrelevant points are excluded.",
+                marks: 1,
+                markCode: "AO3",
+              },
+            ],
+            finalAnswer:
+              "The thesis acts as a filter — only points supporting the line earn a paragraph.",
+            commonErrors: ["Writing paragraphs that drift from the thesis."],
+          },
+        },
+        {
+          id: "cie-ol-fl-es-q16",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "Explain how PEE/PEEL paragraph structure prevents plot summary and promotes analysis.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "PEE/PEEL",
+                statement:
+                  "Point-Evidence-Explanation-Link forces analysis rather than narration.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "The Point must be an analytical claim, not a plot event.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning:
+                  "Evidence is a short quotation chosen for analytical weight.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning:
+                  "Explanation unpacks technique and effect — the analytical core.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "Link returns to the thesis, preventing drift into summary.",
+                marks: 1,
+                markCode: "AO3",
+              },
+            ],
+            finalAnswer:
+              "PEE/PEEL forces claims+evidence+explanation+link — analysis, not narration.",
+            commonErrors: ["Using the structure but still narrating the plot."],
+          },
+        },
       ],
     },
     {
@@ -357,12 +806,12 @@ export const lesson182: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Weaving a quotation into your own sentence" },
-              { id: "b", text: "Quoting the whole text" },
-              { id: "c", text: "Paraphrasing without credit" },
+              { id: "a", text: "Paraphrasing without credit" },
+              { id: "b", text: "Weaving a quotation into your own sentence" },
+              { id: "c", text: "Quoting the whole text" },
               { id: "d", text: "Using very long quotes" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -604,6 +1053,454 @@ export const lesson182: Lesson = {
               { level: "Level 1", marks: "0", descriptor: "None.", part: "d" },
             ],
             commonErrors: ["Feature-spotting without effect or evaluation."],
+          },
+        },
+        {
+          id: "cie-ol-fl-esa-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "What makes a quotation 'integrated' in an essay?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "It replaces your own words entirely" },
+              { id: "b", text: "It is set on its own line" },
+              {
+                id: "c",
+                text: "It is woven grammatically into your own sentence",
+              },
+              { id: "d", text: "It is very long" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Integrated quotation",
+                statement:
+                  "Short quotes embedded grammatically in your own sentences.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Integration means the quote sits inside your sentence.",
+                marks: 1,
+                markCode: "AO1",
+              },
+            ],
+            finalAnswer: "**(a)** Woven into your own sentence",
+            commonErrors: ["Dropping quotations as standalone lines."],
+          },
+        },
+        {
+          id: "cie-ol-fl-esa-q6",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "In the analysis chain 'device → evidence → effect', what comes immediately after naming the technique?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "A new paragraph" },
+              { id: "b", text: "A plot summary" },
+              { id: "c", text: "The conclusion" },
+              { id: "d", text: "A supporting quotation" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Analysis chain",
+                statement: "Device → evidence → effect → evaluation.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Evidence (quotation) follows the named device.",
+                marks: 1,
+                markCode: "AO1",
+              },
+            ],
+            finalAnswer: "**(a)** A supporting quotation",
+            commonErrors: ["Skipping evidence and jumping to effect."],
+          },
+        },
+        {
+          id: "cie-ol-fl-esa-q7",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "Why is one well-explained quotation better than three unexplained ones?",
+          response: {
+            type: "mcq",
+            choices: [
+              {
+                id: "a",
+                text: "Analysis depth matters more than quotation count",
+              },
+              { id: "b", text: "Examiners only allow one quotation" },
+              { id: "c", text: "Quotations are optional" },
+              { id: "d", text: "Longer essays always score lower" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Quotation selection",
+                statement:
+                  "Choose quotations carrying the most analytical weight; explain each fully.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Marks reward explained analysis, not quantity.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning:
+                  "Unexplained quotations are feature-spotting and earn little.",
+                marks: 1,
+                markCode: "AO3",
+              },
+            ],
+            finalAnswer: "**(a)** Analysis depth beats quotation count",
+            commonErrors: ["Collecting quotations without explaining them."],
+          },
+        },
+        {
+          id: "cie-ol-fl-esa-q8",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "What does 'evaluation' require in a literature essay?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Summarising the plot" },
+              { id: "b", text: "Listing every technique used" },
+              {
+                id: "c",
+                text: "Judging how effectively the writer achieves their purpose",
+              },
+              { id: "d", text: "Quoting as much as possible" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "skill",
+                name: "Evaluation",
+                statement:
+                  "Evaluation judges effectiveness and engages with complexity.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Evaluation weighs how well techniques achieve effect.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                reasoning: "It goes beyond description to judgement.",
+                marks: 1,
+                markCode: "AO3",
+              },
+            ],
+            finalAnswer: "**(a)** Judging how effectively the writer achieves purpose",
+            commonErrors: ["Describing techniques without judging them."],
+          },
+        },
+        {
+          id: "cie-ol-fl-esa-q9",
+          difficulty: "foundation",
+          totalMarks: 2,
+          stem: "A 900-word essay may quote up to 10% of its length. How many words of quotation are allowed?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 90 }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Quotation budget",
+                statement: "Quotations should be short and selective.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "10% of 900 = 90 words.",
+                working: "0.10 x 900 = 90",
+                marks: 2,
+                markCode: "AO3",
+              },
+            ],
+            finalAnswer: "90",
+            commonErrors: ["Calculating 10% as 10 words instead of 90."],
+          },
+        },
+        {
+          id: "cie-ol-fl-esa-q10",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "An analysis paragraph has 8 sentences; 3 of them are quotations. How many sentences remain for explanation and evaluation?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 5 }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "skill",
+                name: "Analysis balance",
+                statement: "Analysis needs more explanation than quotation.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "8 - 3 = 5 sentences for analysis.",
+                working: "8 - 3 = 5",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "The majority of the paragraph should analyse, not quote.",
+                marks: 1,
+                markCode: "AO3",
+              },
+            ],
+            finalAnswer: "5",
+            commonErrors: ["Letting quotations dominate the paragraph."],
+          },
+        },
+        {
+          id: "cie-ol-fl-esa-q11",
+          difficulty: "challenge",
+          totalMarks: 3,
+          stem: "An essay is worth 30 marks and analysis carries two-thirds of the marks. How many marks depend on analytical writing?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 20 }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "skill",
+                name: "Analysis weighting",
+                statement: "Most marks reward analysis, not description or summary.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Two-thirds of 30 = 20 marks.",
+                working: "(2/3) x 30 = 20",
+                marks: 2,
+                markCode: "AO3",
+              },
+              {
+                reasoning: "Analysis should dominate effort in the essay.",
+                marks: 1,
+                markCode: "AO2",
+              },
+            ],
+            finalAnswer: "20",
+            commonErrors: ["Confusing two-thirds with two marks out of three."],
+          },
+        },
+        {
+          id: "cie-ol-fl-esa-q12",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "Rewrite 'The writer uses imagery.' as an analytical sentence.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Analysis completeness",
+                statement:
+                  "Name the device, quote evidence, explain effect on meaning or reader.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "Improved version, e.g. 'The recurring imagery of fading light — 'the lamp gutters low' — suggests decline.'",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "Effect on meaning or reader explained.",
+                marks: 1,
+                markCode: "AO3",
+              },
+            ],
+            finalAnswer:
+              "E.g. 'The imagery of fading light suggests decline, reinforcing the theme of loss.'",
+            commonErrors: ["Adding more devices without explaining effect."],
+          },
+        },
+        {
+          id: "cie-ol-fl-esa-q13",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "Explain the difference between describing a technique and analysing its effect.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Technique vs analysis",
+                statement:
+                  "Description identifies what is there; analysis explains how and why it matters.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Description names the device: 'the writer uses a metaphor'.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                reasoning: "Analysis explains effect on meaning or reader response.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "Clear distinction between the two.",
+                marks: 1,
+                markCode: "AO3",
+              },
+            ],
+            finalAnswer:
+              "Description = what is there; analysis = how it shapes meaning and response.",
+            commonErrors: ["Feature-spotting presented as analysis."],
+          },
+        },
+        {
+          id: "cie-ol-fl-esa-q14",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "A student writes: 'The metaphor shows the storm was bad.' Improve it into a full device–evidence–effect analysis.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Analysis chain",
+                statement: "Device → evidence → effect → evaluation.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "Improved version identifies the metaphor specifically, e.g. 'the storm is 'a beast unchained''.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "Evidence/quotation included.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning:
+                  "Effect explained: the metaphor conveys violence and loss of control, heightening the reader's fear.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "Analytical, not merely descriptive.",
+                marks: 1,
+                markCode: "AO3",
+              },
+            ],
+            finalAnswer:
+              "E.g. 'The metaphor of the storm as 'a beast unchained' conveys violence and loss of control, making the reader share the character's fear.'",
+            commonErrors: ["Improving wording but still giving no effect."],
+          },
+        },
+        {
+          id: "cie-ol-fl-esa-q15",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "What does evaluation add that description cannot?",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "skill",
+                name: "Evaluation",
+                statement:
+                  "Evaluation judges effectiveness and engages with complexity — description cannot.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "Description states what happens; evaluation judges how well.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                reasoning:
+                  "Top-band essays weigh interpretations and acknowledge ambiguity.",
+                marks: 1,
+                markCode: "AO3",
+              },
+            ],
+            finalAnswer:
+              "Evaluation adds judgement — weighing effectiveness and complexity.",
+            commonErrors: ["Stopping at description and calling it analysis."],
+          },
+        },
+        {
+          id: "cie-ol-fl-esa-q16",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "Explain how acknowledging ambiguity or multiple interpretations can raise an essay to the top band.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "skill",
+                name: "Evaluation",
+                statement:
+                  "Sophisticated essays engage critically with complexity and ambiguity.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "Acknowledging ambiguity shows the text rewards close reading.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning:
+                  "Weighing different interpretations demonstrates critical engagement.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning:
+                  "It distinguishes evaluative judgement from one-sided description.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "Clear explanation of the band distinction.",
+                marks: 1,
+                markCode: "AO3",
+              },
+            ],
+            finalAnswer:
+              "Ambiguity and weighed interpretations signal critical, evaluative engagement — the top-band mark.",
+            commonErrors: ["Forcing a single simple reading of a complex text."],
           },
         },
       ],

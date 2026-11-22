@@ -91,12 +91,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$a\\sin\\theta = \\lambda$" },
-              { id: "b", text: "$d\\sin\\theta = n\\lambda$" },
+              { id: "a", text: "$d\\sin\\theta = n\\lambda$" },
+              { id: "b", text: "$a\\sin\\theta = \\lambda$" },
               { id: "c", text: "$a\\sin\\theta = n\\lambda$" },
               { id: "d", text: "$\\lambda = a\\theta$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -318,12 +318,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Narrower" },
-              { id: "b", text: "Wider" },
+              { id: "a", text: "Invisible" },
+              { id: "b", text: "Narrower" },
               { id: "c", text: "Unchanged" },
-              { id: "d", text: "Invisible" },
+              { id: "d", text: "Wider" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -484,15 +484,15 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "The minima are absent on either side" },
+              { id: "b", text: "The slit is physically wider at its centre" },
               {
-                id: "a",
+                id: "c",
                 text: "All wavelets across the slit interfere constructively on the central axis",
               },
-              { id: "b", text: "The slit is physically wider at its centre" },
-              { id: "c", text: "The minima are absent on either side" },
               { id: "d", text: "The wavelength is longer at the centre" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -587,12 +587,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Increases" },
+              { id: "a", text: "Stays the same" },
               { id: "b", text: "Decreases" },
-              { id: "c", text: "Stays the same" },
-              { id: "d", text: "Becomes zero" },
+              { id: "c", text: "Becomes zero" },
+              { id: "d", text: "Increases" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -673,8 +673,8 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Long wavelength through a narrow slit" },
-              { id: "b", text: "Short wavelength through a wide slit" },
-              { id: "c", text: "Long wavelength through a wide slit" },
+              { id: "b", text: "Long wavelength through a wide slit" },
+              { id: "c", text: "Short wavelength through a wide slit" },
               { id: "d", text: "Short wavelength through a narrow slit" },
             ],
             correctChoiceId: "a",
@@ -953,12 +953,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$d\\sin\\theta = n\\lambda$" },
-              { id: "b", text: "$a\\sin\\theta = \\lambda$" },
+              { id: "a", text: "$n\\lambda = d\\theta$" },
+              { id: "b", text: "$d\\sin\\theta = n\\lambda$" },
               { id: "c", text: "$d\\sin\\theta = \\lambda$" },
-              { id: "d", text: "$n\\lambda = d\\theta$" },
+              { id: "d", text: "$a\\sin\\theta = \\lambda$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1178,12 +1178,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\theta = 0$" },
+              { id: "a", text: "The first order position" },
               { id: "b", text: "$\\theta = 90°$" },
               { id: "c", text: "The opposite side of the grating" },
-              { id: "d", text: "The first order position" },
+              { id: "d", text: "$\\theta = 0$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1347,12 +1347,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "4" },
-              { id: "b", text: "2" },
-              { id: "c", text: "5" },
-              { id: "d", text: "3" },
+              { id: "a", text: "3" },
+              { id: "b", text: "5" },
+              { id: "c", text: "4" },
+              { id: "d", text: "2" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1443,14 +1443,14 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Increases the slit spacing $d$" },
+              { id: "b", text: "Removes all higher orders" },
+              { id: "c", text: "Has no effect on the pattern" },
               {
-                id: "b",
+                id: "d",
                 text: "Decreases $d$ and increases the angular spread of orders",
               },
-              { id: "c", text: "Has no effect on the pattern" },
-              { id: "d", text: "Removes all higher orders" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1632,15 +1632,15 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "Only works for sound waves" },
+              { id: "b", text: "Produces no spectrum at all" },
+              { id: "c", text: "Cannot separate different colours" },
               {
-                id: "a",
+                id: "d",
                 text: "Separates wavelengths more precisely, especially at high orders",
               },
-              { id: "b", text: "Produces no spectrum at all" },
-              { id: "c", text: "Only works for sound waves" },
-              { id: "d", text: "Cannot separate different colours" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

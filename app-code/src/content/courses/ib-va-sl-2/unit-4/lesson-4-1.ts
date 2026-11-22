@@ -55,12 +55,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Rank which culture produces better art" },
-              { id: "b", text: "Identify shared concerns and culturally specific solutions" },
-              { id: "c", text: "Prove Western art is superior" },
-              { id: "d", text: "Catalogue different materials used" },
+              { id: "a", text: "Catalogue different materials used" },
+              { id: "b", text: "Prove Western art is superior" },
+              { id: "c", text: "Identify shared concerns and culturally specific solutions" },
+              { id: "d", text: "Rank which culture produces better art" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -162,12 +162,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Oil paint and canvas, because they are the most advanced materials" },
-              { id: "b", text: "Woven fibre and beadwork in a ceremonial garment, because the culture's rituals and available resources determine the medium" },
-              { id: "c", text: "Bronze and marble, because they last longer than other materials" },
-              { id: "d", text: "Digital media, because they are universally preferred today" },
+              { id: "a", text: "Woven fibre and beadwork in a ceremonial garment, because the culture's rituals and available resources determine the medium" },
+              { id: "b", text: "Bronze and marble, because they last longer than other materials" },
+              { id: "c", text: "Digital media, because they are universally preferred today" },
+              { id: "d", text: "Oil paint and canvas, because they are the most advanced materials" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -191,10 +191,10 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The study of an artist's biography" },
+              { id: "a", text: "The recorded price history of artworks" },
               { id: "b", text: "The conventional meanings of symbols and motifs within a culture" },
               { id: "c", text: "The technique of linear perspective" },
-              { id: "d", text: "The recorded price history of artworks" },
+              { id: "d", text: "The study of an artist's biography" },
             ],
             correctChoiceId: "b",
           },
@@ -220,12 +220,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A work made entirely from recycled materials" },
-              { id: "b", text: "An artwork blending elements from multiple cultural traditions" },
-              { id: "c", text: "A direct copy of a famous painting" },
-              { id: "d", text: "A sculpture produced without tools" },
+              { id: "a", text: "A direct copy of a famous painting" },
+              { id: "b", text: "A sculpture produced without tools" },
+              { id: "c", text: "An artwork blending elements from multiple cultural traditions" },
+              { id: "d", text: "A work made entirely from recycled materials" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -249,12 +249,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Small, private and easily hidden" },
-              { id: "b", text: "Designed for public or ceremonial display" },
-              { id: "c", text: "Abstract and deliberately meaningless" },
-              { id: "d", text: "Made only for export to other cultures" },
+              { id: "a", text: "Abstract and deliberately meaningless" },
+              { id: "b", text: "Made only for export to other cultures" },
+              { id: "c", text: "Designed for public or ceremonial display" },
+              { id: "d", text: "Small, private and easily hidden" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -365,12 +365,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The museum where a work is stored" },
-              { id: "b", text: "The cultural setting in which an artwork is viewed" },
+              { id: "a", text: "The auction price of a work" },
+              { id: "b", text: "The museum where a work is stored" },
               { id: "c", text: "The artist's studio during production" },
-              { id: "d", text: "The auction price of a work" },
+              { id: "d", text: "The cultural setting in which an artwork is viewed" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -395,11 +395,11 @@ export const lesson41: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Western art is the standard; other traditions are variations of it" },
-              { id: "b", text: "Each tradition should be understood on its own terms before judgement" },
-              { id: "c", text: "All cultures produce essentially identical art" },
-              { id: "d", text: "Only contemporary art is worth comparing" },
+              { id: "b", text: "All cultures produce essentially identical art" },
+              { id: "c", text: "Only contemporary art is worth comparing" },
+              { id: "d", text: "Each tradition should be understood on its own terms before judgement" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -544,12 +544,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The artist's personal handwriting" },
-              { id: "b", text: "The characteristic visual language of a historical era or movement" },
-              { id: "c", text: "The frame style of a century" },
-              { id: "d", text: "The colour palette of a region" },
+              { id: "a", text: "The characteristic visual language of a historical era or movement" },
+              { id: "b", text: "The artist's personal handwriting" },
+              { id: "c", text: "The colour palette of a region" },
+              { id: "d", text: "The frame style of a century" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -651,12 +651,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Artists inevitably grow tired of old styles" },
-              { id: "b", text: "Changing technology, philosophy, patronage and social conditions produce new visual languages" },
-              { id: "c", text: "Styles change randomly with no underlying cause" },
-              { id: "d", text: "Each century must reject everything from the last" },
+              { id: "a", text: "Each century must reject everything from the last" },
+              { id: "b", text: "Styles change randomly with no underlying cause" },
+              { id: "c", text: "Changing technology, philosophy, patronage and social conditions produce new visual languages" },
+              { id: "d", text: "Artists inevitably grow tired of old styles" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -681,11 +681,11 @@ export const lesson41: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "A technical accident in painting" },
-              { id: "b", text: "New confidence in observation and mathematical order" },
-              { id: "c", text: "A shortage of skilled artists" },
-              { id: "d", text: "A religious prohibition on flat space" },
+              { id: "b", text: "A religious prohibition on flat space" },
+              { id: "c", text: "New confidence in observation and mathematical order" },
+              { id: "d", text: "A shortage of skilled artists" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -709,12 +709,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The exact same style of representation" },
-              { id: "b", text: "Universal human concerns such as mortality, identity and power" },
-              { id: "c", text: "The same materials and techniques" },
-              { id: "d", text: "The same patrons and audiences" },
+              { id: "a", text: "Universal human concerns such as mortality, identity and power" },
+              { id: "b", text: "The same materials and techniques" },
+              { id: "c", text: "The same patrons and audiences" },
+              { id: "d", text: "The exact same style of representation" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -738,10 +738,10 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Making painting immediately obsolete" },
+              { id: "a", text: "Ending all artistic patronage" },
               { id: "b", text: "Freeing painting from the obligation to record appearances" },
               { id: "c", text: "Inventing oil paint as a medium" },
-              { id: "d", text: "Ending all artistic patronage" },
+              { id: "d", text: "Making painting immediately obsolete" },
             ],
             correctChoiceId: "b",
           },
@@ -855,11 +855,11 @@ export const lesson41: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "The weather during the century" },
-              { id: "b", text: "The combined pressures of technology, philosophy and patronage" },
-              { id: "c", text: "The standard size of canvases" },
-              { id: "d", text: "The mood of individual artists" },
+              { id: "b", text: "The standard size of canvases" },
+              { id: "c", text: "The mood of individual artists" },
+              { id: "d", text: "The combined pressures of technology, philosophy and patronage" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -883,12 +883,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Preferring whichever style is newest" },
-              { id: "b", text: "Understanding each period's conventions and purposes before judging" },
-              { id: "c", text: "Applying only formal criteria" },
-              { id: "d", text: "Ignoring historical context entirely" },
+              { id: "a", text: "Applying only formal criteria" },
+              { id: "b", text: "Ignoring historical context entirely" },
+              { id: "c", text: "Preferring whichever style is newest" },
+              { id: "d", text: "Understanding each period's conventions and purposes before judging" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

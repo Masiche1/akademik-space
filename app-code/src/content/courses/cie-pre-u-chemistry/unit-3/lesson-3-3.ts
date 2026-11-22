@@ -112,12 +112,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Releases energy — ΔH < 0" },
+              { id: "a", text: "No energy change" },
               { id: "b", text: "Absorbs energy" },
-              { id: "c", text: "No energy change" },
-              { id: "d", text: "ΔH = 0" },
+              { id: "c", text: "ΔH = 0" },
+              { id: "d", text: "Releases energy — ΔH < 0" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -141,12 +141,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Absorbs energy — ΔH > 0" },
-              { id: "b", text: "Releases energy" },
-              { id: "c", text: "No energy change" },
-              { id: "d", text: "ΔH = 0" },
+              { id: "a", text: "ΔH = 0" },
+              { id: "b", text: "No energy change" },
+              { id: "c", text: "Absorbs energy — ΔH > 0" },
+              { id: "d", text: "Releases energy" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -170,12 +170,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Constant pressure" },
-              { id: "b", text: "Constant volume" },
+              { id: "a", text: "Constant volume" },
+              { id: "b", text: "Constant pressure" },
               { id: "c", text: "Constant temperature" },
               { id: "d", text: "Any condition" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -200,9 +200,9 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Minimum energy to start reaction" },
-              { id: "b", text: "Energy released" },
-              { id: "c", text: "Total energy" },
-              { id: "d", text: "No energy" },
+              { id: "b", text: "Total energy" },
+              { id: "c", text: "No energy" },
+              { id: "d", text: "Energy released" },
             ],
             correctChoiceId: "a",
           },
@@ -228,12 +228,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Speeds up reaction without being consumed" },
-              { id: "b", text: "Is consumed" },
+              { id: "a", text: "Is consumed" },
+              { id: "b", text: "Speeds up reaction without being consumed" },
               { id: "c", text: "Slows reaction" },
               { id: "d", text: "No effect" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -257,12 +257,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Exothermic" },
-              { id: "b", text: "Endothermic" },
-              { id: "c", text: "Neither" },
+              { id: "a", text: "Neither" },
+              { id: "b", text: "Exothermic" },
+              { id: "c", text: "Endothermic" },
               { id: "d", text: "Both" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -290,12 +290,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Endothermic" },
-              { id: "b", text: "Exothermic" },
-              { id: "c", text: "Neither" },
-              { id: "d", text: "Both" },
+              { id: "a", text: "Both" },
+              { id: "b", text: "Neither" },
+              { id: "c", text: "Exothermic" },
+              { id: "d", text: "Endothermic" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -323,12 +323,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Exothermic" },
-              { id: "b", text: "Endothermic" },
+              { id: "a", text: "Endothermic" },
+              { id: "b", text: "Exothermic" },
               { id: "c", text: "Neither" },
               { id: "d", text: "Both" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -356,12 +356,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "ΔH independent of reaction route" },
-              { id: "b", text: "ΔH depends on route" },
+              { id: "a", text: "ΔH = 0 always" },
+              { id: "b", text: "ΔH independent of reaction route" },
               { id: "c", text: "No ΔH" },
-              { id: "d", text: "ΔH = 0 always" },
+              { id: "d", text: "ΔH depends on route" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -389,12 +389,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Energy to break a bond" },
-              { id: "b", text: "Energy released forming bond" },
-              { id: "c", text: "No energy" },
+              { id: "a", text: "Energy released forming bond" },
+              { id: "b", text: "No energy" },
+              { id: "c", text: "Energy to break a bond" },
               { id: "d", text: "Total energy" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -422,12 +422,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Lower energy than reactants" },
+              { id: "a", text: "No energy" },
               { id: "b", text: "Higher energy" },
-              { id: "c", text: "Same energy" },
-              { id: "d", text: "No energy" },
+              { id: "c", text: "Lower energy than reactants" },
+              { id: "d", text: "Same energy" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -455,12 +455,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Higher energy than reactants" },
-              { id: "b", text: "Lower energy" },
-              { id: "c", text: "Same energy" },
+              { id: "a", text: "Lower energy" },
+              { id: "b", text: "Same energy" },
+              { id: "c", text: "Higher energy than reactants" },
               { id: "d", text: "No energy" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -488,12 +488,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Providing alternative pathway with lower Ea" },
-              { id: "b", text: "Increasing temperature" },
+              { id: "a", text: "Increasing temperature" },
+              { id: "b", text: "Providing alternative pathway with lower Ea" },
               { id: "c", text: "Changing ΔH" },
               { id: "d", text: "Adding energy" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -517,12 +517,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Biological catalyst" },
-              { id: "b", text: "Chemical catalyst" },
-              { id: "c", text: "Reactant" },
+              { id: "a", text: "Chemical catalyst" },
+              { id: "b", text: "Reactant" },
+              { id: "c", text: "Biological catalyst" },
               { id: "d", text: "Product" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -546,12 +546,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Different phase from reactants" },
-              { id: "b", text: "Same phase" },
-              { id: "c", text: "No catalyst" },
-              { id: "d", text: "Reactant" },
+              { id: "a", text: "Same phase" },
+              { id: "b", text: "No catalyst" },
+              { id: "c", text: "Reactant" },
+              { id: "d", text: "Different phase from reactants" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -580,9 +580,9 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Same phase as reactants" },
-              { id: "b", text: "Different phase" },
-              { id: "c", text: "No catalyst" },
-              { id: "d", text: "Reactant" },
+              { id: "b", text: "Reactant" },
+              { id: "c", text: "Different phase" },
+              { id: "d", text: "No catalyst" },
             ],
             correctChoiceId: "a",
           },
@@ -612,12 +612,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Bonds formed" },
+              { id: "a", text: "Total bonds" },
               { id: "b", text: "Bonds broken" },
-              { id: "c", text: "Total bonds" },
+              { id: "c", text: "Bonds formed" },
               { id: "d", text: "No bonds" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -641,12 +641,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Exothermic" },
-              { id: "b", text: "Endothermic" },
+              { id: "a", text: "Endothermic" },
+              { id: "b", text: "Both" },
               { id: "c", text: "Neither" },
-              { id: "d", text: "Both" },
+              { id: "d", text: "Exothermic" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -674,12 +674,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Endothermic" },
-              { id: "b", text: "Exothermic" },
-              { id: "c", text: "Neither" },
+              { id: "a", text: "Exothermic" },
+              { id: "b", text: "Neither" },
+              { id: "c", text: "Endothermic" },
               { id: "d", text: "Both" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -839,12 +839,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Warm/hot" },
-              { id: "b", text: "Cold" },
-              { id: "c", text: "No change" },
-              { id: "d", text: "Variable" },
+              { id: "a", text: "Cold" },
+              { id: "b", text: "No change" },
+              { id: "c", text: "Variable" },
+              { id: "d", text: "Warm/hot" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -931,12 +931,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "ΔH of reaction" },
-              { id: "b", text: "Activation energy" },
+              { id: "a", text: "Products" },
+              { id: "b", text: "ΔH of reaction" },
               { id: "c", text: "Reaction rate" },
-              { id: "d", text: "Products" },
+              { id: "d", text: "Activation energy" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1108,15 +1108,15 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "Are close" },
+              { id: "b", text: "Just touch" },
+              { id: "c", text: "Are still" },
               {
-                id: "a",
+                id: "d",
                 text: "Collide with sufficient energy and orientation",
               },
-              { id: "b", text: "Just touch" },
-              { id: "c", text: "Are close" },
-              { id: "d", text: "Are still" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1144,12 +1144,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Change in amount ÷ time" },
+              { id: "a", text: "Mass only" },
               { id: "b", text: "Total amount" },
-              { id: "c", text: "Time only" },
-              { id: "d", text: "Mass only" },
+              { id: "c", text: "Change in amount ÷ time" },
+              { id: "d", text: "Time only" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1169,12 +1169,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "More particles have activation energy" },
-              { id: "b", text: "More particles" },
-              { id: "c", text: "Larger particles" },
+              { id: "a", text: "Larger particles" },
+              { id: "b", text: "More particles have activation energy" },
+              { id: "c", text: "More particles" },
               { id: "d", text: "No reason" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1198,12 +1198,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "More particles → more collisions" },
-              { id: "b", text: "Larger particles" },
-              { id: "c", text: "More energy" },
-              { id: "d", text: "No reason" },
+              { id: "a", text: "More energy" },
+              { id: "b", text: "No reason" },
+              { id: "c", text: "Larger particles" },
+              { id: "d", text: "More particles → more collisions" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1227,12 +1227,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "More contact between reactants" },
-              { id: "b", text: "More energy" },
-              { id: "c", text: "More particles" },
-              { id: "d", text: "No reason" },
+              { id: "a", text: "More particles" },
+              { id: "b", text: "No reason" },
+              { id: "c", text: "More contact between reactants" },
+              { id: "d", text: "More energy" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1256,12 +1256,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Lowering activation energy" },
-              { id: "b", text: "Increasing temperature" },
+              { id: "a", text: "Increasing temperature" },
+              { id: "b", text: "Lowering activation energy" },
               { id: "c", text: "Adding energy" },
               { id: "d", text: "No mechanism" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1285,12 +1285,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Change in mass, volume, colour, pH" },
-              { id: "b", text: "Only mass" },
-              { id: "c", text: "Only volume" },
-              { id: "d", text: "Only temperature" },
+              { id: "a", text: "Only volume" },
+              { id: "b", text: "Change in mass, volume, colour, pH" },
+              { id: "c", text: "Only temperature" },
+              { id: "d", text: "Only mass" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1318,12 +1318,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Faster rate" },
-              { id: "b", text: "Slower rate" },
-              { id: "c", text: "No change" },
-              { id: "d", text: "Zero rate" },
+              { id: "a", text: "Zero rate" },
+              { id: "b", text: "No change" },
+              { id: "c", text: "Faster rate" },
+              { id: "d", text: "Slower rate" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1345,12 +1345,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Start of reaction" },
-              { id: "b", text: "End of reaction" },
-              { id: "c", text: "Middle" },
-              { id: "d", text: "Any time" },
+              { id: "a", text: "End of reaction" },
+              { id: "b", text: "Start of reaction" },
+              { id: "c", text: "Any time" },
+              { id: "d", text: "Middle" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1374,12 +1374,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Larger surface area" },
-              { id: "b", text: "More energy" },
-              { id: "c", text: "More particles" },
-              { id: "d", text: "No reason" },
+              { id: "a", text: "No reason" },
+              { id: "b", text: "More particles" },
+              { id: "c", text: "Larger surface area" },
+              { id: "d", text: "More energy" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1403,12 +1403,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "More particles per volume → more collisions" },
-              { id: "b", text: "More energy" },
-              { id: "c", text: "Larger particles" },
-              { id: "d", text: "No reason" },
+              { id: "a", text: "Larger particles" },
+              { id: "b", text: "No reason" },
+              { id: "c", text: "More energy" },
+              { id: "d", text: "More particles per volume → more collisions" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1436,12 +1436,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Energy ≥ Ea + correct orientation" },
-              { id: "b", text: "Any collision" },
-              { id: "c", text: "High temperature only" },
-              { id: "d", text: "No requirements" },
+              { id: "a", text: "No requirements" },
+              { id: "b", text: "High temperature only" },
+              { id: "c", text: "Any collision" },
+              { id: "d", text: "Energy ≥ Ea + correct orientation" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1470,9 +1470,9 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Amount vs time graph" },
-              { id: "b", text: "Mass vs volume" },
+              { id: "b", text: "Pressure vs volume" },
               { id: "c", text: "Temperature vs time" },
-              { id: "d", text: "Pressure vs volume" },
+              { id: "d", text: "Mass vs volume" },
             ],
             correctChoiceId: "a",
           },
@@ -1504,8 +1504,8 @@ export const lesson33: Lesson = {
             choices: [
               { id: "a", text: "Decreases as reactants consumed" },
               { id: "b", text: "Increases" },
-              { id: "c", text: "Stays constant" },
-              { id: "d", text: "Becomes zero instantly" },
+              { id: "c", text: "Becomes zero instantly" },
+              { id: "d", text: "Stays constant" },
             ],
             correctChoiceId: "a",
           },
@@ -1529,12 +1529,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It is regenerated at end of reaction" },
-              { id: "b", text: "It is destroyed" },
+              { id: "a", text: "It is destroyed" },
+              { id: "b", text: "It is regenerated at end of reaction" },
               { id: "c", text: "It is used up" },
               { id: "d", text: "It doesn't react" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1558,12 +1558,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Increases rate" },
+              { id: "a", text: "Halves rate" },
               { id: "b", text: "Decreases rate" },
-              { id: "c", text: "No effect" },
-              { id: "d", text: "Halves rate" },
+              { id: "c", text: "Increases rate" },
+              { id: "d", text: "No effect" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1588,9 +1588,9 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Increases rate significantly" },
-              { id: "b", text: "Decreases rate" },
+              { id: "b", text: "Halves rate" },
               { id: "c", text: "No effect" },
-              { id: "d", text: "Halves rate" },
+              { id: "d", text: "Decreases rate" },
             ],
             correctChoiceId: "a",
           },
@@ -1621,9 +1621,9 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Reactant is used up or equilibrium reached" },
-              { id: "b", text: "Temperature drops" },
-              { id: "c", text: "Catalyst removed" },
-              { id: "d", text: "Never stops" },
+              { id: "b", text: "Catalyst removed" },
+              { id: "c", text: "Never stops" },
+              { id: "d", text: "Temperature drops" },
             ],
             correctChoiceId: "a",
           },
@@ -1655,8 +1655,8 @@ export const lesson33: Lesson = {
             choices: [
               { id: "a", text: "Same phase as reactants" },
               { id: "b", text: "Different phase" },
-              { id: "c", text: "Solid only" },
-              { id: "d", text: "Gas only" },
+              { id: "c", text: "Gas only" },
+              { id: "d", text: "Solid only" },
             ],
             correctChoiceId: "a",
           },
@@ -1819,12 +1819,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Solid with gas/liquid reactants" },
+              { id: "a", text: "Enzyme" },
               { id: "b", text: "Same phase" },
-              { id: "c", text: "Enzyme" },
-              { id: "d", text: "No catalyst" },
+              { id: "c", text: "No catalyst" },
+              { id: "d", text: "Solid with gas/liquid reactants" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1915,12 +1915,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Fast" },
-              { id: "b", text: "Slow" },
-              { id: "c", text: "No reaction" },
+              { id: "a", text: "Slow" },
+              { id: "b", text: "No reaction" },
+              { id: "c", text: "Fast" },
               { id: "d", text: "Impossible" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -2083,12 +2083,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Forward and reverse rates equal" },
-              { id: "b", text: "No reaction" },
-              { id: "c", text: "Only forward" },
-              { id: "d", text: "Static" },
+              { id: "a", text: "Only forward" },
+              { id: "b", text: "Forward and reverse rates equal" },
+              { id: "c", text: "Static" },
+              { id: "d", text: "No reaction" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -2116,12 +2116,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Constant" },
+              { id: "a", text: "Zero" },
               { id: "b", text: "Changing" },
-              { id: "c", text: "Zero" },
+              { id: "c", text: "Constant" },
               { id: "d", text: "Maximum" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -2145,12 +2145,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "⇌ symbol" },
-              { id: "b", text: "→ symbol" },
+              { id: "a", text: "= symbol" },
+              { id: "b", text: "⇌ symbol" },
               { id: "c", text: "No symbol" },
-              { id: "d", text: "= symbol" },
+              { id: "d", text: "→ symbol" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -2172,12 +2172,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "System shifts to oppose change" },
+              { id: "a", text: "Always forward" },
               { id: "b", text: "System ignores change" },
               { id: "c", text: "No shift" },
-              { id: "d", text: "Always forward" },
+              { id: "d", text: "System shifts to oppose change" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -2203,8 +2203,8 @@ export const lesson33: Lesson = {
             choices: [
               { id: "a", text: "Closed system" },
               { id: "b", text: "Open system" },
-              { id: "c", text: "Any system" },
-              { id: "d", text: "No system" },
+              { id: "c", text: "No system" },
+              { id: "d", text: "Any system" },
             ],
             correctChoiceId: "a",
           },
@@ -2230,12 +2230,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Equilibrium constant" },
+              { id: "a", text: "Concentration" },
               { id: "b", text: "Rate constant" },
-              { id: "c", text: "Concentration" },
+              { id: "c", text: "Equilibrium constant" },
               { id: "d", text: "Pressure" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -2263,12 +2263,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "[products] / [reactants]" },
-              { id: "b", text: "[reactants] / [products]" },
+              { id: "a", text: "[reactants] / [products]" },
+              { id: "b", text: "[reactants] only" },
               { id: "c", text: "[products] only" },
-              { id: "d", text: "[reactants] only" },
+              { id: "d", text: "[products] / [reactants]" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -2296,12 +2296,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Products favoured" },
-              { id: "b", text: "Reactants favoured" },
+              { id: "a", text: "Reactants favoured" },
+              { id: "b", text: "Products favoured" },
               { id: "c", text: "No reaction" },
               { id: "d", text: "Equal" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -2326,9 +2326,9 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Reactants favoured" },
-              { id: "b", text: "Products favoured" },
+              { id: "b", text: "Equal" },
               { id: "c", text: "No reaction" },
-              { id: "d", text: "Equal" },
+              { id: "d", text: "Products favoured" },
             ],
             correctChoiceId: "a",
           },
@@ -2354,12 +2354,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "No effect on position" },
-              { id: "b", text: "Shifts forward" },
+              { id: "a", text: "Shifts forward" },
+              { id: "b", text: "No effect on position" },
               { id: "c", text: "Shifts backward" },
               { id: "d", text: "Changes Kc" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -2388,9 +2388,9 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Forward (toward products)" },
-              { id: "b", text: "Backward" },
-              { id: "c", text: "No shift" },
-              { id: "d", text: "Both" },
+              { id: "b", text: "No shift" },
+              { id: "c", text: "Both" },
+              { id: "d", text: "Backward" },
             ],
             correctChoiceId: "a",
           },
@@ -2420,12 +2420,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Backward (toward reactants)" },
+              { id: "a", text: "Both" },
               { id: "b", text: "Forward" },
-              { id: "c", text: "No shift" },
-              { id: "d", text: "Both" },
+              { id: "c", text: "Backward (toward reactants)" },
+              { id: "d", text: "No shift" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -2453,12 +2453,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Fewer gas molecules" },
+              { id: "a", text: "Both" },
               { id: "b", text: "More gas molecules" },
               { id: "c", text: "No shift" },
-              { id: "d", text: "Both" },
+              { id: "d", text: "Fewer gas molecules" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -2486,12 +2486,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "More gas molecules" },
-              { id: "b", text: "Fewer gas molecules" },
+              { id: "a", text: "Fewer gas molecules" },
+              { id: "b", text: "More gas molecules" },
               { id: "c", text: "No shift" },
               { id: "d", text: "Both" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -2519,12 +2519,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Backward (absorbs heat)" },
-              { id: "b", text: "Forward" },
-              { id: "c", text: "No shift" },
-              { id: "d", text: "Both" },
+              { id: "a", text: "Forward" },
+              { id: "b", text: "Backward (absorbs heat)" },
+              { id: "c", text: "Both" },
+              { id: "d", text: "No shift" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -2553,9 +2553,9 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Forward (absorbs heat)" },
-              { id: "b", text: "Backward" },
-              { id: "c", text: "No shift" },
-              { id: "d", text: "Both" },
+              { id: "b", text: "No shift" },
+              { id: "c", text: "Both" },
+              { id: "d", text: "Backward" },
             ],
             correctChoiceId: "a",
           },
@@ -2585,12 +2585,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Temperature only" },
+              { id: "a", text: "Catalyst" },
               { id: "b", text: "Concentration" },
               { id: "c", text: "Pressure" },
-              { id: "d", text: "Catalyst" },
+              { id: "d", text: "Temperature only" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -2613,9 +2613,9 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "[C] / ([A][B])" },
-              { id: "b", text: "[A][B] / [C]" },
-              { id: "c", text: "[C] only" },
-              { id: "d", text: "[A][B] only" },
+              { id: "b", text: "[A][B] only" },
+              { id: "c", text: "[A][B] / [C]" },
+              { id: "d", text: "[C] only" },
             ],
             correctChoiceId: "a",
           },
@@ -2645,12 +2645,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "[B] / [A]²" },
-              { id: "b", text: "[A]² / [B]" },
-              { id: "c", text: "[B] only" },
-              { id: "d", text: "[A]² only" },
+              { id: "a", text: "[A]² only" },
+              { id: "b", text: "[B] only" },
+              { id: "c", text: "[A]² / [B]" },
+              { id: "d", text: "[B] / [A]²" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -2803,12 +2803,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Forward rate = reverse rate" },
-              { id: "b", text: "All reactants used" },
-              { id: "c", text: "All products formed" },
-              { id: "d", text: "No reaction" },
+              { id: "a", text: "All reactants used" },
+              { id: "b", text: "All products formed" },
+              { id: "c", text: "No reaction" },
+              { id: "d", text: "Forward rate = reverse rate" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -2899,12 +2899,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Dynamic state" },
-              { id: "b", text: "Static state" },
+              { id: "a", text: "Static state" },
+              { id: "b", text: "Dynamic state" },
               { id: "c", text: "No reaction" },
               { id: "d", text: "Complete reaction" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [

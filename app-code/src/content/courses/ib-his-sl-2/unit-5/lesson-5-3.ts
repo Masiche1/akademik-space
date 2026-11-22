@@ -54,11 +54,11 @@ export const lesson53: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "A Soviet military document" },
-              { id: "b", text: "A Czechoslovak civic initiative monitoring human rights" },
-              { id: "c", text: "A Polish trade union" },
+              { id: "b", text: "A Polish trade union" },
+              { id: "c", text: "A Czechoslovak civic initiative monitoring human rights" },
               { id: "d", text: "A Helsinki agreement clause" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -151,9 +151,9 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "1972" },
+              { id: "a", text: "1977" },
               { id: "b", text: "1975" },
-              { id: "c", text: "1977" },
+              { id: "c", text: "1972" },
               { id: "d", text: "1979" },
             ],
             correctChoiceId: "b",
@@ -179,12 +179,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Western recognition of post-war borders" },
-              { id: "b", text: "Western economic aid" },
-              { id: "c", text: "Membership in NATO" },
-              { id: "d", text: "An end to the Cold War" },
+              { id: "a", text: "Membership in NATO" },
+              { id: "b", text: "An end to the Cold War" },
+              { id: "c", text: "Western recognition of post-war borders" },
+              { id: "d", text: "Western economic aid" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -208,11 +208,11 @@ export const lesson53: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "A Soviet military document" },
-              { id: "b", text: "A Czechoslovak dissident manifesto documenting Helsinki violations (1977)" },
-              { id: "c", text: "A Warsaw Pact defence treaty" },
+              { id: "b", text: "A Warsaw Pact defence treaty" },
+              { id: "c", text: "A Czechoslovak dissident manifesto documenting Helsinki violations (1977)" },
               { id: "d", text: "A UN refugee convention" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -235,12 +235,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Official state publishing houses" },
-              { id: "b", text: "Underground self-publishing of censored texts" },
-              { id: "c", text: "Foreign radio broadcasts" },
-              { id: "d", text: "State security archives" },
+              { id: "a", text: "Underground self-publishing of censored texts" },
+              { id: "b", text: "State security archives" },
+              { id: "c", text: "Official state publishing houses" },
+              { id: "d", text: "Foreign radio broadcasts" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -263,12 +263,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Imprisoned for life inside the USSR" },
-              { id: "b", text: "Expelled from the Soviet Union in 1974" },
+              { id: "a", text: "Expelled from the Soviet Union in 1974" },
+              { id: "b", text: "Awarded the Nobel Prize in Literature in absentia in 1970" },
               { id: "c", text: "Made prime minister of the USSR" },
-              { id: "d", text: "Awarded the Nobel Prize in Literature in absentia in 1970" },
+              { id: "d", text: "Imprisoned for life inside the USSR" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -291,12 +291,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Immediately overthrew the communist regimes" },
-              { id: "b", text: "Preserved alternative ideas and prepared the ground for the 1989 revolutions" },
-              { id: "c", text: "Won Soviet military support" },
+              { id: "a", text: "Preserved alternative ideas and prepared the ground for the 1989 revolutions" },
+              { id: "b", text: "Won Soviet military support" },
+              { id: "c", text: "Immediately overthrew the communist regimes" },
               { id: "d", text: "Created functioning opposition parties" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -472,12 +472,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Czechoslovakia" },
-              { id: "b", text: "Poland" },
-              { id: "c", text: "Hungary" },
-              { id: "d", text: "East Germany" },
+              { id: "a", text: "Poland" },
+              { id: "b", text: "Hungary" },
+              { id: "c", text: "East Germany" },
+              { id: "d", text: "Czechoslovakia" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -572,11 +572,11 @@ export const lesson53: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "The Warsaw steelworks" },
-              { id: "b", text: "The Gdańsk shipyard" },
-              { id: "c", text: "A coal mine in Silesia" },
-              { id: "d", text: "The Lenin shipyard in Vladivostok" },
+              { id: "b", text: "A coal mine in Silesia" },
+              { id: "c", text: "The Lenin shipyard in Vladivostok" },
+              { id: "d", text: "The Gdańsk shipyard" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -599,12 +599,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Lech Wałęsa" },
+              { id: "a", text: "Nicolae Ceaușescu" },
               { id: "b", text: "Mikhail Gorbachev" },
               { id: "c", text: "Václav Havel" },
-              { id: "d", text: "Nicolae Ceaușescu" },
+              { id: "d", text: "Lech Wałęsa" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -627,12 +627,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The first independent trade union in the Soviet bloc" },
-              { id: "b", text: "A political party funded by the USSR" },
+              { id: "a", text: "A political party funded by the USSR" },
+              { id: "b", text: "The first independent trade union in the Soviet bloc" },
               { id: "c", text: "A religious order" },
               { id: "d", text: "A youth movement" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -655,12 +655,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A state of emergency in December 1981" },
-              { id: "b", text: "Polish independence" },
-              { id: "c", text: "Free elections" },
-              { id: "d", text: "A new constitution" },
+              { id: "a", text: "Free elections" },
+              { id: "b", text: "A new constitution" },
+              { id: "c", text: "Polish independence" },
+              { id: "d", text: "A state of emergency in December 1981" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -683,12 +683,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "glasnost (openness) and perestroika (restructuring)" },
-              { id: "b", text: "collectivisation and industrialisation" },
-              { id: "c", text: "détente and containment" },
-              { id: "d", text: "nationalisation and central planning" },
+              { id: "a", text: "collectivisation and industrialisation" },
+              { id: "b", text: "nationalisation and central planning" },
+              { id: "c", text: "glasnost (openness) and perestroika (restructuring)" },
+              { id: "d", text: "détente and containment" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -712,11 +712,11 @@ export const lesson53: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "The Western powers sent troops to support protesters" },
-              { id: "b", text: "Gorbachev renounced the Brezhnev Doctrine — the USSR would not intervene" },
-              { id: "c", text: "The Warsaw Pact dissolved in 1988" },
-              { id: "d", text: "All communist regimes held free elections voluntarily" },
+              { id: "b", text: "The Warsaw Pact dissolved in 1988" },
+              { id: "c", text: "All communist regimes held free elections voluntarily" },
+              { id: "d", text: "Gorbachev renounced the Brezhnev Doctrine — the USSR would not intervene" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

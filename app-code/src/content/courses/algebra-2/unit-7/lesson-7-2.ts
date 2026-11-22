@@ -54,11 +54,11 @@ export const lesson72: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$a_n=8-3n$" },
-              { id: "b", text: "$a_n=8-3(n-1)$" },
+              { id: "b", text: "$a_n=-3+8(n-1)$" },
               { id: "c", text: "$a_n=8(-3)^{n-1}$" },
-              { id: "d", text: "$a_n=-3+8(n-1)$" },
+              { id: "d", text: "$a_n=8-3(n-1)$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

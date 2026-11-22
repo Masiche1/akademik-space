@@ -54,12 +54,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$52^\\circ$" },
-              { id: "b", text: "$62^\\circ$" },
-              { id: "c", text: "$72^\\circ$" },
-              { id: "d", text: "$242^\\circ$" },
+              { id: "a", text: "$72^\\circ$" },
+              { id: "b", text: "$242^\\circ$" },
+              { id: "c", text: "$62^\\circ$" },
+              { id: "d", text: "$52^\\circ$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "law", name: "Angles on a straight line", statement: "Angles on a straight line add up to $180^\\circ$." }],
@@ -183,8 +183,8 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$540^\\circ$" },
-              { id: "b", text: "$630^\\circ$" },
+              { id: "a", text: "$630^\\circ$" },
+              { id: "b", text: "$540^\\circ$" },
               { id: "c", text: "$720^\\circ$" },
               { id: "d", text: "$360^\\circ$" },
             ],

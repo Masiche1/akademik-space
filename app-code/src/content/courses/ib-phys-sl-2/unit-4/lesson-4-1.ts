@@ -86,19 +86,19 @@ export const lesson41: Lesson = {
             choices: [
               {
                 id: "a",
-                text: "They oscillate perpendicular to the direction of travel.",
+                text: "They oscillate parallel to the direction of travel.",
               },
               {
                 id: "b",
-                text: "They oscillate parallel to the direction of travel.",
+                text: "They oscillate perpendicular to the direction of travel.",
               },
-              { id: "c", text: "They do not oscillate at all." },
               {
-                id: "d",
+                id: "c",
                 text: "They travel with the wave to a distant point.",
               },
+              { id: "d", text: "They do not oscillate at all." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -132,12 +132,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$5.0$ Hz" },
-              { id: "b", text: "$1.8$ Hz" },
-              { id: "c", text: "$0.20$ Hz" },
-              { id: "d", text: "$180$ Hz" },
+              { id: "a", text: "$180$ Hz" },
+              { id: "b", text: "$0.20$ Hz" },
+              { id: "c", text: "$5.0$ Hz" },
+              { id: "d", text: "$1.8$ Hz" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -183,11 +183,11 @@ export const lesson41: Lesson = {
               },
               {
                 id: "b",
-                text: "Frequency $3.0$ Hz, period $0.33$ s, speed $0.12$ m s$^{-1}$",
+                text: "Frequency $12$ Hz, period $0.083$ s, speed $4.8$ m s$^{-1}$",
               },
               {
                 id: "c",
-                text: "Frequency $12$ Hz, period $0.083$ s, speed $4.8$ m s$^{-1}$",
+                text: "Frequency $3.0$ Hz, period $0.33$ s, speed $0.12$ m s$^{-1}$",
               },
               {
                 id: "d",
@@ -373,8 +373,8 @@ export const lesson41: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$0.40$ s" },
-              { id: "b", text: "$2.5$ s" },
-              { id: "c", text: "$1.25$ s" },
+              { id: "b", text: "$1.25$ s" },
+              { id: "c", text: "$2.5$ s" },
               { id: "d", text: "$5.0$ s" },
             ],
             correctChoiceId: "a",
@@ -460,18 +460,18 @@ export const lesson41: Lesson = {
               },
               {
                 id: "b",
-                text: "It is a transverse wave with oscillations perpendicular to its direction of travel.",
+                text: "It is a standing wave formed by two travelling waves.",
               },
               {
                 id: "c",
-                text: "It cannot travel in a vacuum because it needs a medium.",
+                text: "It is a transverse wave with oscillations perpendicular to its direction of travel.",
               },
               {
                 id: "d",
-                text: "It is a standing wave formed by two travelling waves.",
+                text: "It cannot travel in a vacuum because it needs a medium.",
               },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -632,22 +632,22 @@ export const lesson41: Lesson = {
             choices: [
               {
                 id: "a",
-                text: "Rays are parallel to wavefronts and point in the direction of travel.",
+                text: "Rays are only used for sound waves, not light.",
               },
               {
                 id: "b",
-                text: "Rays are perpendicular to wavefronts and point in the direction of travel.",
+                text: "Rays are parallel to wavefronts and point in the direction of travel.",
               },
               {
                 id: "c",
-                text: "Wavefronts join points that oscillate in antiphase.",
+                text: "Rays are perpendicular to wavefronts and point in the direction of travel.",
               },
               {
                 id: "d",
-                text: "Rays are only used for sound waves, not light.",
+                text: "Wavefronts join points that oscillate in antiphase.",
               },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -829,12 +829,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Double the wavelength to $0.50$ m" },
-              { id: "b", text: "Halve the wavelength to $0.125$ m" },
-              { id: "c", text: "Double the wave speed" },
-              { id: "d", text: "Keep the same wavelength and halve the speed" },
+              { id: "a", text: "Keep the same wavelength and halve the speed" },
+              { id: "b", text: "Double the wavelength to $0.50$ m" },
+              { id: "c", text: "Halve the wavelength to $0.125$ m" },
+              { id: "d", text: "Double the wave speed" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -881,12 +881,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Seconds (s)" },
-              { id: "b", text: "Metres (m)" },
-              { id: "c", text: "Hertz (Hz)" },
-              { id: "d", text: "Metres per second (m s$^{-1}$)" },
+              { id: "a", text: "Hertz (Hz)" },
+              { id: "b", text: "Metres per second (m s$^{-1}$)" },
+              { id: "c", text: "Seconds (s)" },
+              { id: "d", text: "Metres (m)" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1151,8 +1151,8 @@ export const lesson41: Lesson = {
             choices: [
               { id: "a", text: "Frequency decreases; wavelength unchanged" },
               { id: "b", text: "Frequency unchanged; wavelength decreases" },
-              { id: "c", text: "Frequency unchanged; wavelength increases" },
-              { id: "d", text: "Frequency increases; wavelength decreases" },
+              { id: "c", text: "Frequency increases; wavelength decreases" },
+              { id: "d", text: "Frequency unchanged; wavelength increases" },
             ],
             correctChoiceId: "b",
           },
@@ -1190,10 +1190,10 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$2.0$ m" },
-              { id: "b", text: "$0.50$ m" },
+              { id: "a", text: "$0.20$ m" },
+              { id: "b", text: "$2.0$ m" },
               { id: "c", text: "$0.10$ m" },
-              { id: "d", text: "$0.20$ m" },
+              { id: "d", text: "$0.50$ m" },
             ],
             correctChoiceId: "c",
           },
@@ -1236,12 +1236,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Wavelength $0.45$ m; frequency $4.0$ Hz" },
-              { id: "b", text: "Wavelength $0.30$ m; frequency $4.0$ Hz" },
-              { id: "c", text: "Wavelength $0.75$ m; frequency $4.0$ Hz" },
-              { id: "d", text: "Wavelength $0.45$ m; frequency $2.4$ Hz" },
+              { id: "a", text: "Wavelength $0.45$ m; frequency $2.4$ Hz" },
+              { id: "b", text: "Wavelength $0.75$ m; frequency $4.0$ Hz" },
+              { id: "c", text: "Wavelength $0.45$ m; frequency $4.0$ Hz" },
+              { id: "d", text: "Wavelength $0.30$ m; frequency $4.0$ Hz" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1418,22 +1418,22 @@ export const lesson41: Lesson = {
             choices: [
               {
                 id: "a",
-                text: "The angle of incidence is greater than the angle of reflection.",
-              },
-              {
-                id: "b",
-                text: "The angle of incidence equals the angle of reflection, both measured from the normal.",
-              },
-              {
-                id: "c",
                 text: "The angle of incidence equals the angle of reflection, both measured from the surface.",
               },
               {
-                id: "d",
+                id: "b",
+                text: "The angle of incidence is greater than the angle of reflection.",
+              },
+              {
+                id: "c",
                 text: "The reflected wave has a lower frequency than the incident wave.",
               },
+              {
+                id: "d",
+                text: "The angle of incidence equals the angle of reflection, both measured from the normal.",
+              },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1474,18 +1474,18 @@ export const lesson41: Lesson = {
               },
               {
                 id: "b",
-                text: "They bend towards the normal and the wavelength decreases.",
+                text: "They continue straight and the wavelength is unchanged.",
               },
               {
                 id: "c",
-                text: "They continue straight and the wavelength is unchanged.",
+                text: "They bend towards the normal and the wavelength decreases.",
               },
               {
                 id: "d",
                 text: "They bend towards the normal and the frequency decreases.",
               },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1568,12 +1568,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$10$ cm" },
+              { id: "a", text: "$1.0$ cm" },
               { id: "b", text: "$5.0$ cm" },
               { id: "c", text: "$2.0$ cm" },
-              { id: "d", text: "$1.0$ cm" },
+              { id: "d", text: "$10$ cm" },
             ],
-            correctChoiceId: "d",
+            correctChoiceIa: "d",
           },
           markscheme: {
             principles: [
@@ -1616,22 +1616,22 @@ export const lesson41: Lesson = {
             choices: [
               {
                 id: "a",
-                text: "Wavelength $0.40$ m; frequency $4.0$ Hz",
-              },
-              {
-                id: "b",
                 text: "Wavelength $0.40$ m; frequency $2.0$ Hz",
               },
               {
+                id: "b",
+                text: "Wavelength $0.40$ m; frequency $4.0$ Hz",
+              },
+              {
                 id: "c",
-                text: "Wavelength $1.6$ m; frequency $4.0$ Hz",
+                text: "Wavelength $0.80$ m; frequency $2.0$ Hz",
               },
               {
                 id: "d",
-                text: "Wavelength $0.80$ m; frequency $2.0$ Hz",
+                text: "Wavelength $1.6$ m; frequency $4.0$ Hz",
               },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1737,12 +1737,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "diffract more because the gap is closer to the wavelength" },
+              { id: "a", text: "not diffract at all" },
               { id: "b", text: "diffract less because the gap is too small" },
               { id: "c", text: "diffract the same amount" },
-              { id: "d", text: "not diffract at all" },
+              { id: "d", text: "diffract more because the gap is closer to the wavelength" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1890,7 +1890,7 @@ export const lesson41: Lesson = {
             choices: [
               {
                 id: "a",
-                text: "Radio waves travel faster than light.",
+                text: "Light cannot diffract because it is not a wave.",
               },
               {
                 id: "b",
@@ -1898,7 +1898,7 @@ export const lesson41: Lesson = {
               },
               {
                 id: "c",
-                text: "Light cannot diffract because it is not a wave.",
+                text: "Radio waves travel faster than light.",
               },
               {
                 id: "d",
@@ -1946,22 +1946,22 @@ export const lesson41: Lesson = {
             choices: [
               {
                 id: "a",
-                text: "Waves always cancel each other when they meet.",
-              },
-              {
-                id: "b",
-                text: "The resultant displacement at a point is the sum of the displacements of the individual waves.",
-              },
-              {
-                id: "c",
                 text: "Two waves cannot occupy the same region of space.",
               },
               {
-                id: "d",
+                id: "b",
                 text: "The faster wave is absorbed by the slower wave.",
               },
+              {
+                id: "c",
+                text: "The resultant displacement at a point is the sum of the displacements of the individual waves.",
+              },
+              {
+                id: "d",
+                text: "Waves always cancel each other when they meet.",
+              },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

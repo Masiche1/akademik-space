@@ -80,12 +80,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Author-date format" },
-              { id: "b", text: "Author-page format" },
-              { id: "c", text: "Numbered footnotes only" },
-              { id: "d", text: "No in-text citations" },
+              { id: "a", text: "Author-page format" },
+              { id: "b", text: "No in-text citations" },
+              { id: "c", text: "Author-date format" },
+              { id: "d", text: "Numbered footnotes only" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -296,12 +296,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "(Smith, 2020)" },
-              { id: "b", text: "(Smith 45)" },
+              { id: "a", text: "(Smith 45)" },
+              { id: "b", text: "(Smith, 2020)" },
               { id: "c", text: "[1]" },
               { id: "d", text: "Smith (page 45, 2020)" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -335,12 +335,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "(Smith 45)" },
-              { id: "b", text: "(Smith, 2020)" },
-              { id: "c", text: "Smith (page 45)" },
-              { id: "d", text: "No in-text citation is needed" },
+              { id: "a", text: "No in-text citation is needed" },
+              { id: "b", text: "Smith (page 45)" },
+              { id: "c", text: "(Smith 45)" },
+              { id: "d", text: "(Smith, 2020)" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -423,11 +423,11 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Your own conclusion" },
-              { id: "b", text: "A statistic taken from a published report" },
-              { id: "c", text: "Your research question" },
-              { id: "d", text: "A transition sentence you wrote" },
+              { id: "b", text: "Your research question" },
+              { id: "c", text: "A transition sentence you wrote" },
+              { id: "d", text: "A statistic taken from a published report" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -464,11 +464,11 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "References" },
-              { id: "b", text: "Works Cited" },
-              { id: "c", text: "Bibliography" },
-              { id: "d", text: "Sources" },
+              { id: "b", text: "Sources" },
+              { id: "c", text: "Works Cited" },
+              { id: "d", text: "Bibliography" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -504,12 +504,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "MLA: author-date / APA: author-page" },
-              { id: "b", text: "MLA: author-page / APA: author-date" },
-              { id: "c", text: "MLA: numbered notes / APA: author-page" },
-              { id: "d", text: "Both styles use identical in-text formats" },
+              { id: "a", text: "MLA: numbered notes / APA: author-page" },
+              { id: "b", text: "Both styles use identical in-text formats" },
+              { id: "c", text: "MLA: author-date / APA: author-page" },
+              { id: "d", text: "MLA: author-page / APA: author-date" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -992,12 +992,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Works Cited" },
-              { id: "b", text: "References" },
-              { id: "c", text: "Bibliography" },
-              { id: "d", text: "Sources" },
+              { id: "a", text: "Bibliography" },
+              { id: "b", text: "Sources" },
+              { id: "c", text: "Works Cited" },
+              { id: "d", text: "References" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1214,10 +1214,10 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "By date of access" },
+              { id: "a", text: "In order of first citation" },
               { id: "b", text: "Alphabetically by author surname" },
               { id: "c", text: "By source type" },
-              { id: "d", text: "In order of first citation" },
+              { id: "d", text: "By date of access" },
             ],
             correctChoiceId: "b",
           },
@@ -1256,15 +1256,15 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Nothing — it is acceptable" },
               {
-                id: "b",
+                id: "a",
                 text: "An incomplete citation chain readers cannot follow",
               },
+              { id: "b", text: "Nothing — it is acceptable" },
               { id: "c", text: "Only a minor formatting preference" },
               { id: "d", text: "An automatic essay failure" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -1348,14 +1348,14 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Only the author and title" },
+              { id: "b", text: "Just a website URL" },
               {
-                id: "b",
+                id: "c",
                 text: "Author, title, journal, volume/issue, pages and year",
               },
-              { id: "c", text: "Just a website URL" },
               { id: "d", text: "Only the publisher name" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1395,11 +1395,11 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "A minor formatting issue" },
-              { id: "b", text: "Academic misconduct — deliberate deception" },
-              { id: "c", text: "Acceptable if the source seems plausible" },
+              { id: "b", text: "Acceptable if the source seems plausible" },
+              { id: "c", text: "Academic misconduct — deliberate deception" },
               { id: "d", text: "A citation style preference" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1438,11 +1438,11 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "A printed book" },
-              { id: "b", text: "A frequently updated website" },
-              { id: "c", text: "A journal article with a stable DOI" },
-              { id: "d", text: "A personal interview transcript" },
+              { id: "b", text: "A personal interview transcript" },
+              { id: "c", text: "A frequently updated website" },
+              { id: "d", text: "A journal article with a stable DOI" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

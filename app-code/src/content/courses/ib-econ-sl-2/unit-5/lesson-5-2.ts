@@ -54,12 +54,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "AD increases" },
-              { id: "b", text: "AD decreases" },
+              { id: "a", text: "AD decreases" },
+              { id: "b", text: "AD increases" },
               { id: "c", text: "AD is unchanged" },
               { id: "d", text: "Only investment increases" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -153,12 +153,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The rate at which the central bank lends to commercial banks" },
+              { id: "a", text: "The rate of corporation tax" },
               { id: "b", text: "The rate of inflation" },
-              { id: "c", text: "The exchange rate" },
-              { id: "d", text: "The rate of corporation tax" },
+              { id: "c", text: "The rate at which the central bank lends to commercial banks" },
+              { id: "d", text: "The exchange rate" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -181,10 +181,10 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "AD decreases as borrowing falls" },
+              { id: "a", text: "Only exports increase" },
               { id: "b", text: "AD increases as consumption and investment rise" },
               { id: "c", text: "AD is unchanged" },
-              { id: "d", text: "Only exports increase" },
+              { id: "d", text: "AD decreases as borrowing falls" },
             ],
             correctChoiceId: "b",
           },
@@ -209,10 +209,10 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Inflation is very high" },
+              { id: "a", text: "The government wants to run a budget surplus" },
               { id: "b", text: "Interest rates are near zero and conventional policy is ineffective" },
-              { id: "c", text: "The government wants to run a budget surplus" },
-              { id: "d", text: "Exports are falling sharply" },
+              { id: "c", text: "Exports are falling sharply" },
+              { id: "d", text: "Inflation is very high" },
             ],
             correctChoiceId: "b",
           },
@@ -239,8 +239,8 @@ export const lesson52: Lesson = {
             choices: [
               { id: "a", text: "The price level falls" },
               { id: "b", text: "The price level rises — demand-pull inflation" },
-              { id: "c", text: "Real output must fall" },
-              { id: "d", text: "Velocity of money rises" },
+              { id: "c", text: "Velocity of money rises" },
+              { id: "d", text: "Real output must fall" },
             ],
             correctChoiceId: "b",
           },
@@ -406,12 +406,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Reduce the money supply" },
-              { id: "b", text: "Inflate asset bubbles and worsen wealth inequality" },
-              { id: "c", text: "Raise interest rates sharply" },
-              { id: "d", text: "Directly increase tax revenue" },
+              { id: "a", text: "Inflate asset bubbles and worsen wealth inequality" },
+              { id: "b", text: "Directly increase tax revenue" },
+              { id: "c", text: "Reduce the money supply" },
+              { id: "d", text: "Raise interest rates sharply" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -489,12 +489,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Free trade, stable prices and low unemployment" },
-              { id: "b", text: "Free capital movement, fixed exchange rate and independent monetary policy" },
-              { id: "c", text: "Low inflation, high growth and full employment" },
-              { id: "d", text: "Budget surplus, trade surplus and low debt" },
+              { id: "a", text: "Free capital movement, fixed exchange rate and independent monetary policy" },
+              { id: "b", text: "Free trade, stable prices and low unemployment" },
+              { id: "c", text: "Budget surplus, trade surplus and low debt" },
+              { id: "d", text: "Low inflation, high growth and full employment" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -590,8 +590,8 @@ export const lesson52: Lesson = {
             choices: [
               { id: "a", text: "Slow and requires new legislation" },
               { id: "b", text: "Fast, flexible and largely independent of political pressure" },
-              { id: "c", text: "Unable to affect aggregate demand" },
-              { id: "d", text: "Only usable during booms" },
+              { id: "c", text: "Only usable during booms" },
+              { id: "d", text: "Unable to affect aggregate demand" },
             ],
             correctChoiceId: "b",
           },
@@ -616,12 +616,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Depreciation, as capital leaves" },
-              { id: "b", text: "Appreciation, as capital flows in seeking higher returns" },
-              { id: "c", text: "No change, as rates are unrelated to capital flows" },
-              { id: "d", text: "A move to a fixed exchange rate" },
+              { id: "a", text: "Appreciation, as capital flows in seeking higher returns" },
+              { id: "b", text: "Depreciation, as capital leaves" },
+              { id: "c", text: "A move to a fixed exchange rate" },
+              { id: "d", text: "No change, as rates are unrelated to capital flows" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -644,12 +644,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Retain fully independent monetary policy" },
-              { id: "b", text: "Give up monetary policy independence" },
-              { id: "c", text: "Abandon international trade" },
-              { id: "d", text: "Adopt a common currency automatically" },
+              { id: "a", text: "Give up monetary policy independence" },
+              { id: "b", text: "Abandon international trade" },
+              { id: "c", text: "Adopt a common currency automatically" },
+              { id: "d", text: "Retain fully independent monetary policy" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -672,10 +672,10 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Reduce income inequality" },
+              { id: "a", text: "Eliminate the budget deficit directly" },
               { id: "b", text: "Hurt mortgage holders and low-income borrowers disproportionately" },
               { id: "c", text: "Have no effect on aggregate demand" },
-              { id: "d", text: "Eliminate the budget deficit directly" },
+              { id: "d", text: "Reduce income inequality" },
             ],
             correctChoiceId: "b",
           },
@@ -839,12 +839,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Reduce export competitiveness" },
-              { id: "b", text: "Increase export competitiveness but raise import prices" },
-              { id: "c", text: "Have no effect on the trade balance" },
-              { id: "d", text: "Directly cause deflation" },
+              { id: "a", text: "Have no effect on the trade balance" },
+              { id: "b", text: "Directly cause deflation" },
+              { id: "c", text: "Increase export competitiveness but raise import prices" },
+              { id: "d", text: "Reduce export competitiveness" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

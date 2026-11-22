@@ -52,12 +52,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Words that rhyme with each other" },
-              { id: "b", text: "Related words sharing a common root" },
-              { id: "c", text: "Words from the same country" },
+              { id: "a", text: "Related words sharing a common root" },
+              { id: "b", text: "Words from the same country" },
+              { id: "c", text: "Words that rhyme with each other" },
               { id: "d", text: "A list of synonyms" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -152,12 +152,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Any two words that rhyme" },
-              { id: "b", text: "Words that naturally combine, such as 'make a decision'" },
-              { id: "c", text: "A list of antonyms" },
-              { id: "d", text: "A word's dictionary translation only" },
+              { id: "a", text: "A word's dictionary translation only" },
+              { id: "b", text: "Any two words that rhyme" },
+              { id: "c", text: "Words that naturally combine, such as 'make a decision'" },
+              { id: "d", text: "A list of antonyms" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -179,12 +179,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "happy, quickly, table" },
-              { id: "b", text: "create, creative, creation, creativity" },
-              { id: "c", text: "run, fast, athlete" },
-              { id: "d", text: "big, small, medium" },
+              { id: "a", text: "big, small, medium" },
+              { id: "b", text: "run, fast, athlete" },
+              { id: "c", text: "happy, quickly, table" },
+              { id: "d", text: "create, creative, creation, creativity" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -206,12 +206,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Context shows meaning, usage, collocations and memory hooks" },
-              { id: "b", text: "Lists cannot contain new words" },
+              { id: "a", text: "Lists cannot contain new words" },
+              { id: "b", text: "Isolated words are always false friends" },
               { id: "c", text: "Context removes the need to learn meaning" },
-              { id: "d", text: "Isolated words are always false friends" },
+              { id: "d", text: "Context shows meaning, usage, collocations and memory hooks" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -233,12 +233,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Assuming 'actual' means 'current' because a similar word exists in another language" },
-              { id: "b", text: "Learning a word family together" },
-              { id: "c", text: "Recording an example sentence" },
+              { id: "a", text: "Recording an example sentence" },
+              { id: "b", text: "Assuming 'actual' means 'current' because a similar word exists in another language" },
+              { id: "c", text: "Learning a word family together" },
               { id: "d", text: "Using a collocation correctly" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -261,12 +261,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Informal words can weaken the formal tone required in academic writing" },
-              { id: "b", text: "Formal words are always easier to spell" },
-              { id: "c", text: "Register only matters in speaking" },
-              { id: "d", text: "All words have the same formality" },
+              { id: "a", text: "Formal words are always easier to spell" },
+              { id: "b", text: "Informal words can weaken the formal tone required in academic writing" },
+              { id: "c", text: "All words have the same formality" },
+              { id: "d", text: "Register only matters in speaking" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -290,9 +290,9 @@ export const lesson13: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "The sentence shows how the word is actually used" },
-              { id: "b", text: "It makes the vocabulary list longer" },
+              { id: "b", text: "It proves the word is a cognate" },
               { id: "c", text: "It replaces the need for meaning" },
-              { id: "d", text: "It proves the word is a cognate" },
+              { id: "d", text: "It makes the vocabulary list longer" },
             ],
             correctChoiceId: "a",
           },
@@ -449,9 +449,9 @@ export const lesson13: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "action" },
-              { id: "b", text: "table" },
-              { id: "c", text: "quickly" },
-              { id: "d", text: "happy" },
+              { id: "b", text: "happy" },
+              { id: "c", text: "table" },
+              { id: "d", text: "quickly" },
             ],
             correctChoiceId: "a",
           },
@@ -506,12 +506,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Translating a text word by word" },
-              { id: "b", text: "Working out unstated meaning from context clues" },
-              { id: "c", text: "Reading the text aloud" },
-              { id: "d", text: "Summarising a text in one sentence" },
+              { id: "a", text: "Working out unstated meaning from context clues" },
+              { id: "b", text: "Reading the text aloud" },
+              { id: "c", text: "Summarising a text in one sentence" },
+              { id: "d", text: "Translating a text word by word" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -607,9 +607,9 @@ export const lesson13: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "such as" },
-              { id: "b", text: "unlike" },
+              { id: "b", text: "meanwhile" },
               { id: "c", text: "therefore" },
-              { id: "d", text: "meanwhile" },
+              { id: "d", text: "unlike" },
             ],
             correctChoiceId: "a",
           },
@@ -633,12 +633,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "'Ravine' means a dangerous animal" },
-              { id: "b", text: "The dashes provide a definition or explanation of 'ravine'" },
+              { id: "a", text: "The hikers crossed at noon" },
+              { id: "b", text: "'Ravine' means a dangerous animal" },
               { id: "c", text: "The sentence is unfinished" },
-              { id: "d", text: "The hikers crossed at noon" },
+              { id: "d", text: "The dashes provide a definition or explanation of 'ravine'" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -661,11 +661,11 @@ export const lesson13: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Copy the sentence exactly" },
-              { id: "b", text: "Deduce meaning that is not stated directly" },
-              { id: "c", text: "Translate every word" },
-              { id: "d", text: "Ignore unfamiliar words" },
+              { id: "b", text: "Ignore unfamiliar words" },
+              { id: "c", text: "Deduce meaning that is not stated directly" },
+              { id: "d", text: "Translate every word" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -687,12 +687,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It means completely without sound" },
-              { id: "b", text: "It means crowded" },
-              { id: "c", text: "It means expensive" },
-              { id: "d", text: "It means modern" },
+              { id: "a", text: "It means expensive" },
+              { id: "b", text: "It means completely without sound" },
+              { id: "c", text: "It means modern" },
+              { id: "d", text: "It means crowded" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -715,12 +715,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Substitute your guess into the sentence and check whether it makes sense" },
-              { id: "b", text: "Choose the longest dictionary definition" },
-              { id: "c", text: "Assume the first guess is always right" },
-              { id: "d", text: "Translate only that word" },
+              { id: "a", text: "Assume the first guess is always right" },
+              { id: "b", text: "Substitute your guess into the sentence and check whether it makes sense" },
+              { id: "c", text: "Translate only that word" },
+              { id: "d", text: "Choose the longest dictionary definition" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -744,9 +744,9 @@ export const lesson13: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "however" },
-              { id: "b", text: "because" },
-              { id: "c", text: "including" },
-              { id: "d", text: "then" },
+              { id: "b", text: "then" },
+              { id: "c", text: "because" },
+              { id: "d", text: "including" },
             ],
             correctChoiceId: "a",
           },
@@ -828,12 +828,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "An example clue" },
-              { id: "b", text: "A contrast clue" },
-              { id: "c", text: "A cause clue" },
-              { id: "d", text: "A sequence clue" },
+              { id: "a", text: "A sequence clue" },
+              { id: "b", text: "A cause clue" },
+              { id: "c", text: "An example clue" },
+              { id: "d", text: "A contrast clue" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

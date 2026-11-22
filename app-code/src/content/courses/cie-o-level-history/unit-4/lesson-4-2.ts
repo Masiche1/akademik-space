@@ -75,12 +75,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Ground between opposing trenches" },
-              { id: "b", text: "A neutral country" },
-              { id: "c", text: "A supply route" },
+              { id: "a", text: "A neutral country" },
+              { id: "b", text: "A supply route" },
+              { id: "c", text: "Ground between opposing trenches" },
               { id: "d", text: "A propaganda term" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -226,6 +226,328 @@ export const lesson42: Lesson = {
             finalAnswer: "(a) system (b) conditions (c) battles (d) stalemate",
           },
         },
+        {
+          id: "oleh-u4-tr-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "What was the purpose of communication trenches?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "To carry supplies by sea" },
+              { id: "b", text: "To launch naval attacks" },
+              { id: "c", text: "To mark the border with Switzerland" },
+              { id: "d", text: "To connect front-line and reserve trenches" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Trench system",
+                statement: "Communication trenches linked trench lines.",
+              },
+            ],
+            steps: [
+              { reasoning: "They connected front, support and reserve trenches.", marks: 1, markCode: "AO1" },
+            ],
+            finalAnswer: "**(a)** To connect front-line and reserve trenches",
+            commonErrors: ["Thinking they were fighting trenches."],
+          },
+        },
+        {
+          id: "oleh-u4-tr-q6",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Which poison gas was first used on a large scale on the Western Front?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Hydrogen" },
+              { id: "b", text: "Carbon dioxide" },
+              { id: "c", text: "Chlorine" },
+              { id: "d", text: "Helium" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "context",
+                name: "Gas warfare",
+                statement: "Chlorine gas was used from 1915.",
+              },
+            ],
+            steps: [
+              { reasoning: "Chlorine was introduced in 1915.", marks: 1, markCode: "AO1" },
+            ],
+            finalAnswer: "**(a)** Chlorine",
+            commonErrors: ["Naming mustard gas as the first gas."],
+          },
+        },
+        {
+          id: "oleh-u4-tr-q7",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "What was shell shock?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "A type of artillery shell" },
+              { id: "b", text: "A gas mask" },
+              { id: "c", text: "A foot infection from wet trenches" },
+              { id: "d", text: "Psychological trauma caused by bombardment" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Shell shock",
+                statement: "Psychological trauma from artillery bombardment.",
+              },
+            ],
+            steps: [
+              { reasoning: "It was a mental, not physical, trench injury.", marks: 1, markCode: "AO1" },
+            ],
+            finalAnswer: "**(a)** Psychological trauma caused by bombardment",
+            commonErrors: ["Confusing it with trench foot."],
+          },
+        },
+        {
+          id: "oleh-u4-tr-q8",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Which battle saw about 57,000 British casualties on its first day?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "The Battle of Verdun" },
+              { id: "b", text: "The Battle of the Somme" },
+              { id: "c", text: "The Battle of Jutland" },
+              { id: "d", text: "The Battle of Passchendaele" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "context",
+                name: "Battle of the Somme",
+                statement: "The first day produced about 57,000 British casualties.",
+              },
+            ],
+            steps: [
+              { reasoning: "1 July 1916 was the Somme's first day.", marks: 1, markCode: "AO1" },
+            ],
+            finalAnswer: "**(a)** The Battle of the Somme",
+            commonErrors: ["Confusing Somme with Verdun."],
+          },
+        },
+        {
+          id: "oleh-u4-tr-q9",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Why were 'over the top' attacks so dangerous?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Allies refused to fire artillery" },
+              { id: "b", text: "Trenches collapsed before fighting began" },
+              { id: "c", text: "Infantry crossed wire and mud under machine-gun fire" },
+              { id: "d", text: "Soldiers attacked by sea" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Trench stalemate",
+                statement: "Defence dominated offence in no man's land.",
+              },
+            ],
+            steps: [
+              { reasoning: "Defences made crossing extremely costly.", marks: 1, markCode: "AO1" },
+            ],
+            finalAnswer: "**(a)** Infantry crossed wire and mud under machine-gun fire",
+            commonErrors: ["Blaming only poor training."],
+          },
+        },
+        {
+          id: "oleh-u4-tr-q10",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Which 1916 battle was known as the 'meat grinder'?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Marne" },
+              { id: "b", text: "Tannenberg" },
+              { id: "c", text: "Jutland" },
+              { id: "d", text: "Verdun" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "context",
+                name: "Battle of Verdun",
+                statement: "Verdun became a symbol of attrition.",
+              },
+            ],
+            steps: [
+              { reasoning: "Verdun's huge casualties earned the nickname.", marks: 1, markCode: "AO1" },
+            ],
+            finalAnswer: "**(a)** Verdun",
+            commonErrors: ["Choosing the Somme instead."],
+          },
+        },
+        {
+          id: "oleh-u4-tr-q11",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "In which year did the Battle of the Somme begin?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 1916 }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "context",
+                name: "Battle of the Somme",
+                statement: "The battle began in 1916.",
+              },
+            ],
+            steps: [{ reasoning: "The Somme offensive began on 1 July 1916.", marks: 1, markCode: "AO1" }],
+            finalAnswer: "1916",
+          },
+        },
+        {
+          id: "oleh-u4-tr-q12",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Approximately how many British casualties occurred on the first day of the Somme?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 57000, tolerance: 1000 }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "context",
+                name: "Battle of the Somme",
+                statement: "About 57,000 British casualties on day one.",
+              },
+            ],
+            steps: [{ reasoning: "The accepted figure is about 57,000.", marks: 1, markCode: "AO1" }],
+            finalAnswer: "57000",
+          },
+        },
+        {
+          id: "oleh-u4-tr-q13",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Approximately how many total casualties were suffered at Verdun?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 700000, tolerance: 50000 }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "context",
+                name: "Battle of Verdun",
+                statement: "Casualty estimates are around 700,000.",
+              },
+            ],
+            steps: [{ reasoning: "Verdun caused roughly 700,000 casualties.", marks: 1, markCode: "AO1" }],
+            finalAnswer: "700000",
+          },
+        },
+        {
+          id: "oleh-u4-tr-q14",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "In which year was the Battle of Passchendaele fought?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 1917 }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "context",
+                name: "Passchendaele",
+                statement: "The battle took place in 1917.",
+              },
+            ],
+            steps: [{ reasoning: "Passchendaele occurred during 1917.", marks: 1, markCode: "AO1" }],
+            finalAnswer: "1917",
+          },
+        },
+        {
+          id: "oleh-u4-tr-q15",
+          difficulty: "challenge",
+          totalMarks: 1,
+          stem: "Approximately how many days did the Battle of the Somme last?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 141, tolerance: 5 }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "context",
+                name: "Battle of the Somme",
+                statement: "The offensive ran from July to November 1916.",
+              },
+            ],
+            steps: [{ reasoning: "July 1 to November 18 is about 141 days.", marks: 1, markCode: "AO1" }],
+            finalAnswer: "141",
+          },
+        },
+        {
+          id: "oleh-u4-tr-q16",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "Explain why trench warfare produced a stalemate on the Western Front.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Trench stalemate",
+                statement: "Defensive technology outweighed offensive tactics.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Machine guns and artillery dominated no man's land.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                reasoning: "Barbed wire and mud slowed attackers.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                reasoning: "Defenders had shelter and prepared positions.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              { reasoning: "Clear explanation of stalemate.", marks: 1, markCode: "AO3" },
+            ],
+            finalAnswer:
+              "Defensive weapons, wire and prepared trenches made attacks suicidal, so neither side could break through.",
+            commonErrors: ["Only listing trench conditions."],
+          },
+        },
       ],
     },
     {
@@ -269,12 +591,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "German submarines" },
-              { id: "b", text: "British battleships" },
-              { id: "c", text: "French aircraft" },
-              { id: "d", text: "Russian destroyers" },
+              { id: "a", text: "British battleships" },
+              { id: "b", text: "German submarines" },
+              { id: "c", text: "Russian destroyers" },
+              { id: "d", text: "French aircraft" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -424,6 +746,392 @@ export const lesson42: Lesson = {
               },
             ],
             finalAnswer: "(a) blockade (b) U-boats (c) weapons (d) Jutland",
+          },
+        },
+        {
+          id: "oleh-u4-sw-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "What was the Lusitania?",
+          response: {
+            type: "mcq",
+            choices: [
+              {
+                id: "a",
+                text: "A British passenger liner sunk by a German U-boat",
+              },
+              { id: "b", text: "A German battleship" },
+              { id: "c", text: "A French passenger ferry" },
+              { id: "d", text: "A British submarine" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "context",
+                name: "Lusitania",
+                statement: "Passenger liner sunk by U-boat in 1915.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Liner sunk by a U-boat.",
+                marks: 1,
+                markCode: "AO1",
+              },
+            ],
+            finalAnswer: "**(a)** A British passenger liner sunk by a German U-boat",
+            commonErrors: ["Thinking it was a warship."],
+          },
+        },
+        {
+          id: "oleh-u4-sw-q6",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "In which year was the Lusitania sunk?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 1915 }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "context",
+                name: "Lusitania",
+                statement: "Sunk in 1915.",
+              },
+            ],
+            steps: [{ reasoning: "Lusitania sunk 1915.", marks: 1, markCode: "AO1" }],
+            finalAnswer: "1915",
+          },
+        },
+        {
+          id: "oleh-u4-sw-q7",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Approximately how many Americans died when the Lusitania was sunk?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 128, tolerance: 10 }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "context",
+                name: "Lusitania",
+                statement: "128 Americans among the dead.",
+              },
+            ],
+            steps: [{ reasoning: "About 128 Americans killed.", marks: 1, markCode: "AO1" }],
+            finalAnswer: "128",
+          },
+        },
+        {
+          id: "oleh-u4-sw-q8",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "In which year were tanks first used in battle?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 1916 }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "context",
+                name: "Tanks",
+                statement: "First used at the Somme in 1916.",
+              },
+            ],
+            steps: [
+              { reasoning: "Tanks first used 1916.", marks: 1, markCode: "AO1" },
+            ],
+            finalAnswer: "1916",
+          },
+        },
+        {
+          id: "oleh-u4-sw-q9",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "In which year did the USA enter the First World War?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 1917 }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "context",
+                name: "USA entry",
+                statement: "USA entered the war in 1917.",
+              },
+            ],
+            steps: [
+              { reasoning: "USA entered 1917.", marks: 1, markCode: "AO1" },
+            ],
+            finalAnswer: "1917",
+          },
+        },
+        {
+          id: "oleh-u4-sw-q10",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "What was the result of the Battle of Jutland?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "A German victory that ended the blockade" },
+              { id: "b", text: "The first use of poison gas at sea" },
+              {
+                id: "c",
+                text: "Inconclusive — the German fleet stayed in port afterwards",
+              },
+              { id: "d", text: "A clear British victory that destroyed the German fleet" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "context",
+                name: "Battle of Jutland",
+                statement: "Largest naval battle; inconclusive result.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Jutland was inconclusive.",
+                marks: 1,
+                markCode: "AO1",
+              },
+            ],
+            finalAnswer:
+              "**(a)** Inconclusive — the German fleet stayed in port afterwards",
+            commonErrors: ["Calling it a decisive victory for either side."],
+          },
+        },
+        {
+          id: "oleh-u4-sw-q11",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "What was the main effect of the British blockade of Germany?",
+          response: {
+            type: "mcq",
+            choices: [
+              {
+                id: "a",
+                text: "It cut German imports and contributed to wartime hardship",
+              },
+              { id: "b", text: "It brought the USA into the war" },
+              { id: "c", text: "It forced Germany to surrender immediately" },
+              { id: "d", text: "It destroyed the German navy" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Naval blockade",
+                statement: "Blockade starved Germany of imports.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Cut imports caused hardship.",
+                marks: 1,
+                markCode: "AO1",
+              },
+            ],
+            finalAnswer:
+              "**(a)** It cut German imports and contributed to wartime hardship",
+            commonErrors: ["Saying the blockade ended the war at once."],
+          },
+        },
+        {
+          id: "oleh-u4-sw-q12",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Zeppelins were used by Germany mainly to...",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Spy on enemy submarines" },
+              { id: "b", text: "Mine the North Sea" },
+              { id: "c", text: "Transport troops across the Channel" },
+              { id: "d", text: "Raid Britain with bombs from the air" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "context",
+                name: "Zeppelins",
+                statement: "Airships used to bomb Britain.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Zeppelins raided Britain.",
+                marks: 1,
+                markCode: "AO1",
+              },
+            ],
+            finalAnswer: "**(a)** Raid Britain with bombs from the air",
+            commonErrors: ["Confusing them with submarines."],
+          },
+        },
+        {
+          id: "oleh-u4-sw-q13",
+          difficulty: "challenge",
+          totalMarks: 1,
+          stem: "Why was unrestricted submarine warfare controversial?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "It required Germany to declare war on neutrals" },
+              { id: "b", text: "It was banned by the Treaty of Versailles" },
+              {
+                id: "c",
+                text: "U-boats sank merchant and neutral ships without warning",
+              },
+              { id: "d", text: "It only targeted warships" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "U-boat controversy",
+                statement: "Sinking neutral ships without warning nearly brought USA in.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Neutral ships sunk without warning.",
+                marks: 1,
+                markCode: "AO1",
+              },
+            ],
+            finalAnswer:
+              "**(a)** U-boats sank merchant and neutral ships without warning",
+            commonErrors: ["Thinking it targeted only military vessels."],
+          },
+        },
+        {
+          id: "oleh-u4-sw-q14",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "What did 'total war' mean for civilians and the home front in WWI?",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Total war",
+                statement: "Economy controlled; women in factories; propaganda.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Governments controlled economies/rationing.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                reasoning: "Women entered factories ('munitionettes').",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                reasoning: "Propaganda and scientific mobilisation.",
+                marks: 1,
+                markCode: "AO2",
+              },
+            ],
+            finalAnswer:
+              "Total war meant government control of the economy, rationing, women working in factories and propaganda to boost morale.",
+            commonErrors: ["Only describing soldiers at the front."],
+          },
+        },
+        {
+          id: "oleh-u4-sw-q15",
+          difficulty: "challenge",
+          totalMarks: 3,
+          stem: "Explain why the war at sea helped decide the outcome of the war.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Naval war impact",
+                statement: "Blockade starved Germany; U-boats threatened supplies.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Blockade cut German imports.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                reasoning: "U-boats threatened Allied shipping.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                reasoning: "Lusitania nearly brought USA in.",
+                marks: 1,
+                markCode: "AO2",
+              },
+            ],
+            finalAnswer:
+              "The blockade starved Germany of supplies while U-boats threatened Allied shipping — the side that could sustain supplies won.",
+            commonErrors: ["Only describing Jutland."],
+          },
+        },
+        {
+          id: "oleh-u4-sw-q16",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "Explain how new weapons and technology changed warfare in the First World War.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "New technology",
+                statement: "Machine guns/gas/tanks/aircraft/submarines changed the war.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Machine guns favoured defence and stalemate.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                reasoning: "Poison gas added terror weapon.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                reasoning: "Tanks and aircraft appeared though limited early.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "Submarines revolutionised naval warfare.",
+                marks: 1,
+                markCode: "AO2",
+              },
+            ],
+            finalAnswer:
+              "Machine guns entrenched the stalemate, gas added a terror weapon, tanks and aircraft offered new but limited means of attack, and submarines transformed naval warfare.",
+            commonErrors: ["Claiming technology ended the war quickly."],
           },
         },
       ],

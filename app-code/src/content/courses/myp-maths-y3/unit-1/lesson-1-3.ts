@@ -59,12 +59,12 @@ $\\text{original}=\\frac{84}{0.7}=120$ euros.`,
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "the same" },
-              { id: "b", text: "4% lower" },
-              { id: "c", text: "4% higher" },
+              { id: "a", text: "4% lower" },
+              { id: "b", text: "4% higher" },
+              { id: "c", text: "the same" },
               { id: "d", text: "2% lower" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -159,11 +159,11 @@ $\\text{original}=\\frac{84}{0.7}=120$ euros.`,
             type: "mcq",
             choices: [
               { id: "a", text: "the same" },
-              { id: "b", text: "1% lower" },
-              { id: "c", text: "1% higher" },
-              { id: "d", text: "10% lower" },
+              { id: "b", text: "10% lower" },
+              { id: "c", text: "1% lower" },
+              { id: "d", text: "1% higher" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -186,11 +186,11 @@ $\\text{original}=\\frac{84}{0.7}=120$ euros.`,
             type: "mcq",
             choices: [
               { id: "a", text: "38.4 euros" },
-              { id: "b", text: "50 euros" },
-              { id: "c", text: "60 euros" },
-              { id: "d", text: "72 euros" },
+              { id: "b", text: "60 euros" },
+              { id: "c", text: "72 euros" },
+              { id: "d", text: "50 euros" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -212,12 +212,12 @@ $\\text{original}=\\frac{84}{0.7}=120$ euros.`,
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$4$" },
-              { id: "b", text: "$8$" },
+              { id: "a", text: "$8$" },
+              { id: "b", text: "$4$" },
               { id: "c", text: "$10$" },
               { id: "d", text: "$40$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -239,12 +239,12 @@ $\\text{original}=\\frac{84}{0.7}=120$ euros.`,
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "10%" },
-              { id: "b", text: "10.25%" },
-              { id: "c", text: "5%" },
-              { id: "d", text: "25%" },
+              { id: "a", text: "25%" },
+              { id: "b", text: "5%" },
+              { id: "c", text: "10%" },
+              { id: "d", text: "10.25%" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -323,9 +323,9 @@ $\\text{original}=\\frac{84}{0.7}=120$ euros.`,
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A 20% rise followed by a 20% fall returns to the original value." },
+              { id: "a", text: "Successive percentages can always be added." },
               { id: "b", text: "Each percentage acts on the amount after the previous change." },
-              { id: "c", text: "Successive percentages can always be added." },
+              { id: "c", text: "A 20% rise followed by a 20% fall returns to the original value." },
               { id: "d", text: "The order of the changes never matters." },
             ],
             correctChoiceId: "b",
@@ -350,12 +350,12 @@ $\\text{original}=\\frac{84}{0.7}=120$ euros.`,
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$1.18$" },
-              { id: "b", text: "$0.82$" },
+              { id: "a", text: "$0.82$" },
+              { id: "b", text: "$1.18$" },
               { id: "c", text: "$0.18$" },
               { id: "d", text: "$-0.18$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -468,10 +468,10 @@ $\\text{original}=\\frac{84}{0.7}=120$ euros.`,
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "8 euros" },
+              { id: "a", text: "12 euros" },
               { id: "b", text: "10 euros" },
               { id: "c", text: "11 euros" },
-              { id: "d", text: "12 euros" },
+              { id: "d", text: "8 euros" },
             ],
             correctChoiceId: "b",
           },
@@ -567,12 +567,12 @@ $\\text{original}=\\frac{84}{0.7}=120$ euros.`,
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "15 euros" },
-              { id: "b", text: "17.5 euros" },
+              { id: "a", text: "17.5 euros" },
+              { id: "b", text: "15 euros" },
               { id: "c", text: "20 euros" },
               { id: "d", text: "24 euros" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -594,12 +594,12 @@ $\\text{original}=\\frac{84}{0.7}=120$ euros.`,
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "1.5 hours" },
-              { id: "b", text: "2 hours" },
-              { id: "c", text: "4 hours" },
-              { id: "d", text: "6 hours" },
+              { id: "a", text: "6 hours" },
+              { id: "b", text: "4 hours" },
+              { id: "c", text: "1.5 hours" },
+              { id: "d", text: "2 hours" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -622,9 +622,9 @@ $\\text{original}=\\frac{84}{0.7}=120$ euros.`,
             type: "mcq",
             choices: [
               { id: "a", text: "A" },
-              { id: "b", text: "B" },
-              { id: "c", text: "C" },
-              { id: "d", text: "They are all equal" },
+              { id: "b", text: "C" },
+              { id: "c", text: "They are all equal" },
+              { id: "d", text: "B" },
             ],
             correctChoiceId: "a",
           },
@@ -648,12 +648,12 @@ $\\text{original}=\\frac{84}{0.7}=120$ euros.`,
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$3.2$ g" },
-              { id: "b", text: "$10.5$ g" },
-              { id: "c", text: "$20$ g" },
-              { id: "d", text: "$200$ g" },
+              { id: "a", text: "$20$ g" },
+              { id: "b", text: "$200$ g" },
+              { id: "c", text: "$3.2$ g" },
+              { id: "d", text: "$10.5$ g" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -733,11 +733,11 @@ $\\text{original}=\\frac{84}{0.7}=120$ euros.`,
             type: "mcq",
             choices: [
               { id: "a", text: "$48$ euros" },
-              { id: "b", text: "$60$ euros" },
+              { id: "b", text: "$84$ euros" },
               { id: "c", text: "$72$ euros" },
-              { id: "d", text: "$84$ euros" },
+              { id: "d", text: "$60$ euros" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

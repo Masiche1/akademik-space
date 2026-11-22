@@ -79,12 +79,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Smell" },
-              { id: "b", text: "Hearing" },
+              { id: "a", text: "Hearing" },
+              { id: "b", text: "Smell" },
               { id: "c", text: "Touch" },
               { id: "d", text: "Sight" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Sensory detail", statement: "Name the sense the detail appeals to." }],
@@ -204,12 +204,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A zoom from a wide view to a close detail" },
-              { id: "b", text: "A flashback" },
-              { id: "c", text: "A list of arguments" },
-              { id: "d", text: "A cliffhanger" },
+              { id: "a", text: "A flashback" },
+              { id: "b", text: "A list of arguments" },
+              { id: "c", text: "A cliffhanger" },
+              { id: "d", text: "A zoom from a wide view to a close detail" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Zoom structure", statement: "Moving focus from wide to close detail." }],

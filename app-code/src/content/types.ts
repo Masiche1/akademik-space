@@ -14,9 +14,18 @@ export type MarkPrinciple = {
    * English courses use technique (language/structural device), convention (form/genre), context and skill.
    */
   kind:
-    | "formula" | "law" | "theorem" | "definition" | "principle" | "property"
-    | "technique" | "convention" | "context" | "skill"
-    | "method" | "comparison";
+    | "formula"
+    | "law"
+    | "theorem"
+    | "definition"
+    | "principle"
+    | "property"
+    | "technique"
+    | "convention"
+    | "context"
+    | "skill"
+    | "method"
+    | "comparison";
   /** Short name, e.g. "Slope formula" or "Vertical line test". */
   name: string;
   /** Statement of the formula/law, may include math. */
@@ -205,17 +214,35 @@ export type Unit = {
 /** IB Diploma Programme subjects across all groups, plus DP core components. */
 export type IbSubject =
   // Group 5 — Mathematics
-  | "aa" | "ai"
+  | "aa"
+  | "ai"
   // Group 4 — Sciences
-  | "biology" | "chemistry" | "physics"
+  | "biology"
+  | "chemistry"
+  | "physics"
   // Group 3 — Individuals and Societies
-  | "history" | "geography" | "economics" | "business" | "psychology" | "philosophy" | "global-politics" | "itgs"
+  | "history"
+  | "geography"
+  | "economics"
+  | "business"
+  | "psychology"
+  | "philosophy"
+  | "global-politics"
+  | "itgs"
   // Groups 1 and 2 — Languages
-  | "language-a" | "language-b" | "language-ab-initio"
+  | "language-a"
+  | "language-b"
+  | "language-ab-initio"
   // Group 6 — Arts
-  | "visual-arts" | "music" | "theatre" | "film" | "dance"
+  | "visual-arts"
+  | "music"
+  | "theatre"
+  | "film"
+  | "dance"
   // DP core
-  | "tok" | "ee" | "cas";
+  | "tok"
+  | "ee"
+  | "cas";
 
 export type IbInfo = {
   subject: IbSubject;
@@ -231,14 +258,28 @@ export type EdexcelInfo = {
    * (Years 8-9, Key Stage 3), igcse (Years 10-11), ias (International Advanced
    * Subsidiary) and ial (International Advanced Level).
    */
-  stage: "primary" | "lower-secondary" | "igcse" | "ias" | "ial";
+  stage: "primary" | "lower-secondary" | "igcse" | "ias" | "ial" | "btec";
   subject:
-    | "maths" | "further-maths" | "pure-maths"
-    | "english-language" | "english-literature"
-    | "science" | "biology" | "chemistry" | "physics"
-    | "business" | "economics" | "accounting" | "psychology" | "sociology" | "computer-science";
+    | "maths"
+    | "further-maths"
+    | "pure-maths"
+    | "english-language"
+    | "english-literature"
+    | "science"
+    | "biology"
+    | "chemistry"
+    | "physics"
+    | "business"
+    | "economics"
+    | "accounting"
+    | "psychology"
+    | "sociology"
+    | "computer-science"
+    | "engineering"
+    | "health-social-care"
+    | "information-technology";
   /** Primary: school year 1-6. Lower secondary / IGCSE: 8-11. IAS/IAL: year of study 1 or 2. */
-  year: 1 | 2 | 3 | 4 | 5 | 6 | 8 | 9 | 10 | 11 | 12 | 13;
+  year: 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13;
 };
 
 /**
@@ -246,7 +287,14 @@ export type EdexcelInfo = {
  * The original high school maths sequence (Algebra 1 to Precalculus) has no `us` field.
  */
 export type UsInfo = {
-  subject: "math" | "science" | "ela" | "biology" | "chemistry" | "physics" | "earth-space";
+  subject:
+    | "math"
+    | "science"
+    | "ela"
+    | "biology"
+    | "chemistry"
+    | "physics"
+    | "earth-space";
   grade: 7 | 8 | 9 | 10 | 11;
 };
 
@@ -256,14 +304,21 @@ export const isUsMiddleSchool = (us: UsInfo) => us.grade <= 8;
 /** IB Middle Years Programme: integrated Sciences in MYP 1-3, separate sciences and Standard/Extended maths in MYP 4-5. Language and Literature / Language Acquisition are per-year courses like the other MYP subjects. */
 export type MypInfo = {
   subject:
-    | "maths" | "maths-standard" | "maths-extended" | "sciences" | "biology" | "chemistry" | "physics"
-    | "language-lit" | "language-acq";
+    | "maths"
+    | "maths-standard"
+    | "maths-extended"
+    | "sciences"
+    | "biology"
+    | "chemistry"
+    | "physics"
+    | "language-lit"
+    | "language-acq";
   year: 1 | 2 | 3 | 4 | 5;
 };
 
 /** IB Primary Years Programme subject groups (ages 3-12). One course per subject group covering the full PYP scope. */
 export type PypSubject =
-  | "language" | "maths" | "science" | "social-studies" | "arts" | "pspe";
+  "language" | "maths" | "science" | "social-studies" | "arts" | "pspe";
 
 export type PypInfo = {
   subject: PypSubject;
@@ -275,7 +330,14 @@ export type PypInfo = {
  * `tier` is set for courses that exist as separate Core/Extended (or AS/A2) variants.
  */
 export type CieInfo = {
-  qualification: "primary" | "lower-secondary" | "igcse" | "o-level" | "as-level" | "a-level" | "pre-u";
+  qualification:
+    | "primary"
+    | "lower-secondary"
+    | "igcse"
+    | "o-level"
+    | "as-level"
+    | "a-level"
+    | "pre-u";
   subject: string;
   tier?: CieTier;
 };

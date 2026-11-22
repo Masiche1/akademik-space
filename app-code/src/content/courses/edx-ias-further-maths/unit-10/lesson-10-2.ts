@@ -50,12 +50,12 @@ export const lesson102: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "At a vertex (corner) of the feasible region" },
-              { id: "b", text: "At the centroid of the feasible region" },
-              { id: "c", text: "Anywhere inside the feasible region" },
-              { id: "d", text: "On the objective function curve" },
+              { id: "a", text: "At the centroid of the feasible region" },
+              { id: "b", text: "On the objective function curve" },
+              { id: "c", text: "At a vertex (corner) of the feasible region" },
+              { id: "d", text: "Anywhere inside the feasible region" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -179,12 +179,12 @@ export const lesson102: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$(0,0)$, $(4,0)$, $(0,4)$" },
-              { id: "b", text: "$(0,0)$, $(4,0)$, $(4,4)$, $(0,4)$" },
-              { id: "c", text: "$(0,0)$, $(2,2)$, $(0,4)$" },
+              { id: "a", text: "$(0,0)$, $(2,2)$, $(0,4)$" },
+              { id: "b", text: "$(0,0)$, $(4,0)$, $(0,4)$" },
+              { id: "c", text: "$(0,0)$, $(4,0)$, $(4,4)$, $(0,4)$" },
               { id: "d", text: "$(1,1)$, $(4,0)$, $(0,4)$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [

@@ -92,15 +92,15 @@ export const lesson35: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "No liability at all" },
               {
-                id: "a",
+                id: "b",
                 text: "Limited liability — they can only lose their investment",
               },
-              { id: "b", text: "Unlimited liability for all debts" },
-              { id: "c", text: "No liability at all" },
+              { id: "c", text: "Unlimited liability for all debts" },
               { id: "d", text: "Liability only for their share of profit" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -128,12 +128,12 @@ export const lesson35: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Voting rights and a share of residual profit" },
-              { id: "b", text: "A fixed dividend only" },
-              { id: "c", text: "No rights at all" },
-              { id: "d", text: "A guaranteed repayment" },
+              { id: "a", text: "A guaranteed repayment" },
+              { id: "b", text: "No rights at all" },
+              { id: "c", text: "A fixed dividend only" },
+              { id: "d", text: "Voting rights and a share of residual profit" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -165,9 +165,9 @@ export const lesson35: Lesson = {
                 id: "a",
                 text: "A fixed dividend before ordinary shareholders, usually without voting rights",
               },
-              { id: "b", text: "A share of all profits equally" },
-              { id: "c", text: "Interest like a loan" },
-              { id: "d", text: "Nothing until ordinary shareholders are paid" },
+              { id: "b", text: "Interest like a loan" },
+              { id: "c", text: "Nothing until ordinary shareholders are paid" },
+              { id: "d", text: "A share of all profits equally" },
             ],
             correctChoiceId: "a",
           },
@@ -198,15 +198,15 @@ export const lesson35: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "An expense in the profit and loss account" },
               {
-                id: "a",
+                id: "b",
                 text: "A distribution of profit to shareholders — an appropriation, not an expense",
               },
-              { id: "b", text: "An expense in the profit and loss account" },
-              { id: "c", text: "Interest paid on a loan" },
-              { id: "d", text: "A payment to employees" },
+              { id: "c", text: "A payment to employees" },
+              { id: "d", text: "Interest paid on a loan" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -554,6 +554,247 @@ export const lesson35: Lesson = {
               "(a) Distribution of profit, not expense. (b) PAT \\$64,000; dividends \\$30,000; retained \\$34,000.",
           },
         },
+        {
+          id: "cieiacct-u3-co-basics-q11",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "The liability of shareholders in a limited company is limited to:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "The company's total debts" },
+              { id: "b", text: "Their share of annual profit" },
+              { id: "c", text: "Their investment in the company" },
+              { id: "d", text: "The value of the company's assets" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Limited liability",
+                statement:
+                  "Shareholders can lose only what they invested — unlike partners.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "Limited liability is the key feature distinguishing companies from partnerships.",
+                marks: 1,
+                markCode: "M",
+              },
+            ],
+            finalAnswer: "(a) Their investment.",
+          },
+        },
+        {
+          id: "cieiacct-u3-co-basics-q12",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Preference shares differ from ordinary shares in that they:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Carry full voting rights at all times" },
+              { id: "b", text: "Are a form of loan to the company" },
+              {
+                id: "c",
+                text: "Receive a fixed dividend before ordinary shareholders and usually have no voting rights"
+              },
+              { id: "d", text: "Are repaid before all other creditors" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Preference shares",
+                statement:
+                  "Fixed dividend paid first; typically no voting rights.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "Preference = priority for dividends, not for capital repayment like debentures.",
+                marks: 1,
+                markCode: "M",
+              },
+            ],
+            finalAnswer: "(a) Fixed dividend first, usually no votes.",
+          },
+        },
+        {
+          id: "cieiacct-u3-co-basics-q13",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "A company has 200,000 ordinary shares of \\$1 each and declares a dividend of 8 cents per share. Calculate the total dividend.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "Total dividend", answer: 16000, unit: "$" }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "formula",
+                name: "Dividend",
+                statement: "Total dividend = dividend per share × number of shares.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "200,000 × \\$0.08.",
+                working: "200000 × 0.08",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "Total dividend = \\$16,000.",
+                working: "200000 × 0.08 = 16000",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "\\$16,000",
+          },
+        },
+        {
+          id: "cieiacct-u3-co-basics-q14",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "Explain the difference between dividends and debenture interest in a company's accounts.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Dividends vs debenture interest",
+                statement:
+                  "Dividends are profit appropriations; debenture interest is an expense.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "Dividends are distributions of profit to shareholders — deducted after profit is calculated, so NOT an expense.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "Debenture interest is payment for a loan — it is an expense in the P&L and must be paid regardless of profit.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "This is why debentures increase gearing while dividends only reduce retained profit.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer:
+              "Dividends = appropriation of profit (not expense); debenture interest = expense for borrowing, paid regardless of profit.",
+          },
+        },
+        {
+          id: "cieiacct-u3-co-basics-q15",
+          difficulty: "challenge",
+          totalMarks: 3,
+          stem: "A company issues 50,000 ordinary shares of \\$1 each at \\$1.20 per share for cash. State the journal entry and the amounts credited to share capital and share premium.",
+          response: {
+            type: "numeric",
+            parts: [
+              { label: "Share capital", answer: 50000, unit: "$" },
+              { label: "Share premium", answer: 10000, unit: "$" },
+            ],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "formula",
+                name: "Share issue",
+                statement:
+                  "Dr bank (total proceeds); Cr share capital (nominal); Cr share premium (excess).",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "Total proceeds = 50,000 × 1.20 = \\$60,000; nominal = \\$50,000.",
+                working: "50000 × 1.20 = 60000",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "Share capital = \\$50,000 (nominal value).",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "Share premium = 60,000 − 50,000 = \\$10,000.",
+                working: "60000 - 50000 = 10000",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer:
+              "Dr bank \\$60,000; Cr share capital \\$50,000; Cr share premium \\$10,000.",
+          },
+        },
+        {
+          id: "cieiacct-u3-co-basics-q16",
+          difficulty: "challenge",
+          totalMarks: 4,
+          parts: [
+            {
+              label: "a",
+              prompt:
+                "State two advantages of forming a limited company rather than a partnership.",
+              marks: 2,
+            },
+            {
+              label: "b",
+              prompt:
+                "A company issues \\$40,000 of 9% debentures. Calculate the annual debenture interest and state whether it is an expense or appropriation.",
+              marks: 2,
+            },
+          ],
+          stem: "A business is choosing its legal form.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Company vs partnership",
+                statement:
+                  "Limited liability and easier share capital raising distinguish companies.",
+              },
+            ],
+            steps: [
+              {
+                part: "a",
+                reasoning:
+                  "Any two of: limited liability for owners; easier to raise capital by issuing shares; separate legal entity; continuity if a shareholder dies.",
+                marks: 2,
+                markCode: "M",
+              },
+              {
+                part: "b",
+                reasoning:
+                  "Interest = 40,000 × 9% = \\$3,600 — it is an EXPENSE in the P&L.",
+                working: "40000 × 0.09 = 3600",
+                marks: 2,
+                markCode: "A",
+              },
+            ],
+            finalAnswer:
+              "(a) Limited liability / easier capital raising (any two). (b) \\$3,600 expense.",
+          },
+        },
       ],
     },
     {
@@ -601,9 +842,9 @@ export const lesson35: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "\\$0.10" },
-              { id: "b", text: "\\$1.00" },
+              { id: "b", text: "\\$0.01" },
               { id: "c", text: "\\$10.00" },
-              { id: "d", text: "\\$0.01" },
+              { id: "d", text: "\\$1.00" },
             ],
             correctChoiceId: "a",
           },
@@ -667,15 +908,15 @@ export const lesson35: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "Dr expenses, Cr bank" },
+              { id: "b", text: "Dr bank, Cr dividends" },
               {
-                id: "a",
+                id: "c",
                 text: "Dr dividends (appropriation), Cr dividends payable",
               },
-              { id: "b", text: "Dr bank, Cr dividends" },
-              { id: "c", text: "Dr expenses, Cr bank" },
               { id: "d", text: "Dr share capital, Cr bank" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1055,6 +1296,248 @@ export const lesson35: Lesson = {
               "(a) Funds growth and reserves. (b) Retained \\$25,000; uses: expansion, reserves, debt repayment, future dividends.",
           },
         },
+        {
+          id: "cieiacct-u3-co-dividends-q11",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "When a dividend is declared but not yet paid, the entry is:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Debit bank, credit dividends" },
+              {
+                id: "b",
+                text: "Debit dividends, credit dividends payable"
+              },
+              { id: "c", text: "Debit retained profit, credit bank" },
+              { id: "d", text: "Debit dividends payable, credit dividends" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "skill",
+                name: "Dividend entries",
+                statement:
+                  "Declaration creates a liability; payment clears it.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "Declaration: Dr dividends (appropriation), Cr dividends payable (liability).",
+                marks: 1,
+                markCode: "M",
+              },
+            ],
+            finalAnswer: "(a) Dr dividends / Cr dividends payable.",
+          },
+        },
+        {
+          id: "cieiacct-u3-co-dividends-q12",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "A company has 120,000 ordinary shares of \\$1 each and declares a 12% dividend. Calculate the dividend per share and the total dividend.",
+          response: {
+            type: "numeric",
+            parts: [
+              { label: "Dividend per share", answer: 0.12, unit: "$" },
+              { label: "Total dividend", answer: 14400, unit: "$" },
+            ],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "formula",
+                name: "Dividend",
+                statement:
+                  "DPS = dividend% × nominal value; total = DPS × shares.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "DPS = 12% × \\$1 = \\$0.12.",
+                working: "0.12 × 1 = 0.12",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "Total = 120,000 × 0.12 = \\$14,400.",
+                working: "120000 × 0.12 = 14400",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "DPS \\$0.12; total \\$14,400.",
+          },
+        },
+        {
+          id: "cieiacct-u3-co-dividends-q13",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "A total dividend of \\$9,000 is declared on 60,000 shares. Calculate the dividend per share.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "Dividend per share", answer: 0.15, unit: "$" }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "formula",
+                name: "Dividend per share",
+                statement: "DPS = total dividend ÷ number of shares.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "9,000 ÷ 60,000.",
+                working: "9000 / 60000",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "DPS = \\$0.15.",
+                working: "9000 / 60000 = 0.15",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "\\$0.15",
+          },
+        },
+        {
+          id: "cieiacct-u3-co-dividends-q14",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "Explain why dividends are NOT shown as an expense in the company's profit and loss account.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Dividends",
+                statement:
+                  "Dividends distribute profit to owners — they are appropriations, not costs of earning profit.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "An expense is a cost incurred to generate revenue; dividends are a distribution OF profit to shareholders.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "They are deducted from profit after tax in the appropriation section, reducing retained profit.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "This matches the partnership treatment — payments to owners are not expenses.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer:
+              "Dividends are distributions of profit to owners — appropriations deducted after profit, not expenses.",
+          },
+        },
+        {
+          id: "cieiacct-u3-co-dividends-q15",
+          difficulty: "challenge",
+          totalMarks: 3,
+          stem: "A company has 100,000 shares of \\$1 each. An interim dividend of 5 cents per share is paid during the year and a final dividend of 10 cents per share is declared at year end. Calculate the total dividends for the year.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "Total dividends", answer: 15000, unit: "$" }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "formula",
+                name: "Dividend",
+                statement:
+                  "Total dividend = dividend per share × shares, for each dividend.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "Interim = 100,000 × 0.05 = \\$5,000; final = 100,000 × 0.10 = \\$10,000.",
+                working: "5000 + 10000",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "Total = \\$15,000.",
+                working: "100000 × 0.15 = 15000",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "Total dividends = \\$15,000.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "\\$15,000",
+          },
+        },
+        {
+          id: "cieiacct-u3-co-dividends-q16",
+          difficulty: "challenge",
+          totalMarks: 4,
+          parts: [
+            {
+              label: "a",
+              prompt:
+                "A company has 80,000 shares of \\$0.50 each and declares a 20% dividend. Calculate the dividend per share and total dividend.",
+              marks: 2,
+            },
+            {
+              label: "b",
+              prompt:
+                "State the journal entries when the dividend is declared and when it is paid.",
+              marks: 2,
+            },
+          ],
+          stem: "A company declares a dividend on its ordinary shares.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "formula",
+                name: "Dividend",
+                statement:
+                  "DPS = dividend% × nominal value; total = DPS × shares.",
+              },
+            ],
+            steps: [
+              {
+                part: "a",
+                reasoning:
+                  "DPS = 20% × \\$0.50 = \\$0.10; total = 80,000 × 0.10 = \\$8,000.",
+                working: "80000 × 0.10 = 8000",
+                marks: 2,
+                markCode: "M",
+              },
+              {
+                part: "b",
+                reasoning:
+                  "Declared: Dr dividends \\$8,000 / Cr dividends payable \\$8,000. Paid: Dr dividends payable \\$8,000 / Cr bank \\$8,000.",
+                marks: 2,
+                markCode: "A",
+              },
+            ],
+            finalAnswer:
+              "(a) DPS \\$0.10; total \\$8,000. (b) Dr dividends/Cr payable; then Dr payable/Cr bank.",
+          },
+        },
       ],
     },
     {
@@ -1133,15 +1616,15 @@ export const lesson35: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "Issued below nominal value" },
               {
-                id: "a",
+                id: "b",
                 text: "Issued above their nominal (face) value — excess credited to share premium",
               },
-              { id: "b", text: "Issued below nominal value" },
               { id: "c", text: "Issued for free" },
               { id: "d", text: "Issued as a bonus" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1542,6 +2025,255 @@ export const lesson35: Lesson = {
               "(a) Par = nominal; premium = above (to premium account); discount = below (reduces capital). (b) Dr bank \\$18,000 + Dr discount \\$2,000; Cr share capital \\$20,000.",
           },
         },
+        {
+          id: "cieiacct-u3-co-journal-q11",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "When shares are issued above their nominal value for cash, the entry is:",
+          response: {
+            type: "mcq",
+            choices: [
+              {
+                id: "a",
+                text: "Debit bank (total), credit share capital (nominal), credit share premium (excess)"
+              },
+              { id: "b", text: "Debit bank, credit retained profit" },
+              { id: "c", text: "Debit share capital, credit bank" },
+              { id: "d", text: "Debit bank (nominal only), credit share capital (total)" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "skill",
+                name: "Share issue at premium",
+                statement:
+                  "Bank = total proceeds; share capital = nominal; premium account = excess.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "The excess over nominal goes to a separate share premium account.",
+                marks: 1,
+                markCode: "M",
+              },
+            ],
+            finalAnswer: "(a) Dr bank total; Cr share capital nominal + share premium excess.",
+          },
+        },
+        {
+          id: "cieiacct-u3-co-journal-q12",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "A company issues 30,000 shares of \\$1 each at \\$1.40 per share for cash. Calculate the amounts credited to share capital and share premium.",
+          response: {
+            type: "numeric",
+            parts: [
+              { label: "Share capital", answer: 30000, unit: "$" },
+              { label: "Share premium", answer: 12000, unit: "$" },
+            ],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "formula",
+                name: "Share issue",
+                statement:
+                  "Share capital = nominal value; premium = proceeds − nominal.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "Proceeds = 30,000 × 1.40 = \\$42,000; share capital = \\$30,000.",
+                working: "30000 × 1.40 = 42000",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "Share premium = 42,000 − 30,000 = \\$12,000.",
+                working: "42000 - 30000 = 12000",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "Share capital \\$30,000; share premium \\$12,000.",
+          },
+        },
+        {
+          id: "cieiacct-u3-co-journal-q13",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "Explain how bonus shares are issued and why no cash changes hands.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Bonus shares",
+                statement:
+                  "Issued from retained profit/reserves to existing shareholders — capitalises reserves.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "Bonus shares convert part of retained profit or reserves into share capital — no new money is raised.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "Entry: Dr retained profit/reserves, Cr share capital (and share premium if issued above nominal).",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "Each shareholder's proportionate holding is unchanged — they simply hold more shares of the same total value.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer:
+              "Bonus shares capitalise reserves: Dr retained profit/reserves, Cr share capital — no cash involved.",
+          },
+        },
+        {
+          id: "cieiacct-u3-co-journal-q14",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "When a declared dividend is paid to shareholders, the entry is:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Debit retained profit, credit bank" },
+              { id: "b", text: "Debit dividends, credit bank" },
+              {
+                id: "c",
+                text: "Debit dividends payable, credit bank"
+              },
+              { id: "d", text: "Debit bank, credit dividends payable" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "skill",
+                name: "Dividend payment",
+                statement:
+                  "Payment clears the liability created at declaration.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "Dr dividends payable (liability removed), Cr bank (cash leaves).",
+                marks: 1,
+                markCode: "M",
+              },
+            ],
+            finalAnswer: "(a) Dr dividends payable / Cr bank.",
+          },
+        },
+        {
+          id: "cieiacct-u3-co-journal-q15",
+          difficulty: "challenge",
+          totalMarks: 3,
+          stem: "A company has 80,000 shares of \\$1 each and issues bonus shares in the ratio 1 for every 4 shares held. How many bonus shares are issued and what is the total share capital after the issue?",
+          response: {
+            type: "numeric",
+            parts: [
+              { label: "Bonus shares", answer: 20000 },
+              { label: "Total share capital", answer: 100000, unit: "$" },
+            ],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "formula",
+                name: "Bonus issue",
+                statement:
+                  "Bonus shares = shares held ÷ ratio; capital increases by nominal value issued.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "80,000 ÷ 4 = 20,000 bonus shares.",
+                working: "80000 / 4 = 20000",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "New capital = (80,000 + 20,000) × \\$1 = \\$100,000.",
+                working: "100000 × 1 = 100000",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "Answers stated.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "20,000 bonus shares; total share capital \\$100,000.",
+          },
+        },
+        {
+          id: "cieiacct-u3-co-journal-q16",
+          difficulty: "challenge",
+          totalMarks: 4,
+          parts: [
+            {
+              label: "a",
+              prompt:
+                "A company issues 40,000 shares of \\$0.50 each at \\$0.80 per share for cash. State the journal entry.",
+              marks: 2,
+            },
+            {
+              label: "b",
+              prompt:
+                "It then declares a dividend of \\$0.06 per share. State the entry on declaration.",
+              marks: 2,
+            },
+          ],
+          stem: "A company carries out share and dividend transactions.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "skill",
+                name: "Company journal",
+                statement:
+                  "Shares: bank vs share capital + premium. Dividend: dividends vs payable.",
+              },
+            ],
+            steps: [
+              {
+                part: "a",
+                reasoning:
+                  "Proceeds = 40,000 × 0.80 = \\$32,000; nominal = \\$20,000; premium = \\$12,000. Dr bank \\$32,000; Cr share capital \\$20,000; Cr share premium \\$12,000.",
+                working: "40000 × 0.80 = 32000; 40000 × 0.50 = 20000; 32000 - 20000 = 12000",
+                marks: 2,
+                markCode: "M",
+              },
+              {
+                part: "b",
+                reasoning:
+                  "Total dividend = 40,000 × 0.06 = \\$2,400. Dr dividends \\$2,400; Cr dividends payable \\$2,400.",
+                working: "40000 × 0.06 = 2400",
+                marks: 2,
+                markCode: "A",
+              },
+            ],
+            finalAnswer:
+              "(a) Dr bank \\$32,000 / Cr share capital \\$20,000 / Cr share premium \\$12,000. (b) Dr dividends \\$2,400 / Cr dividends payable \\$2,400.",
+          },
+        },
       ],
     },
     {
@@ -1589,15 +2321,15 @@ export const lesson35: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "A dividend payment" },
+              { id: "b", text: "A type of expense" },
               {
-                id: "a",
+                id: "c",
                 text: "A long-term loan to the company paying fixed interest",
               },
-              { id: "b", text: "A share in the company" },
-              { id: "c", text: "A dividend payment" },
-              { id: "d", text: "A type of expense" },
+              { id: "d", text: "A share in the company" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1625,12 +2357,12 @@ export const lesson35: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Creditors of the company, not owners" },
-              { id: "b", text: "Owners of the company" },
-              { id: "c", text: "Employees" },
-              { id: "d", text: "Directors" },
+              { id: "a", text: "Owners of the company" },
+              { id: "b", text: "Creditors of the company, not owners" },
+              { id: "c", text: "Directors" },
+              { id: "d", text: "Employees" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1658,12 +2390,12 @@ export const lesson35: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "An expense in the profit and loss account" },
-              { id: "b", text: "An appropriation of profit" },
-              { id: "c", text: "A dividend" },
+              { id: "a", text: "A dividend" },
+              { id: "b", text: "An expense in the profit and loss account" },
+              { id: "c", text: "An appropriation of profit" },
               { id: "d", text: "A distribution to shareholders" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -2041,6 +2773,241 @@ export const lesson35: Lesson = {
             ],
             finalAnswer:
               "(a) No dilution, tax-deductible interest, but higher gearing. (b) PAT \\$44,800.",
+          },
+        },
+        {
+          id: "cieiacct-u3-co-debentures-q11",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "A debenture is best described as:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "A distribution of profit to shareholders" },
+              {
+                id: "b",
+                text: "A long-term loan to the company that pays fixed interest"
+              },
+              { id: "c", text: "A share carrying voting rights" },
+              { id: "d", text: "Part of the company's share capital" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Debenture",
+                statement:
+                  "A loan — the holder is a creditor, not an owner.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "Debentures carry no ownership or voting rights; interest is fixed.",
+                marks: 1,
+                markCode: "M",
+              },
+            ],
+            finalAnswer: "(a) A loan paying fixed interest.",
+          },
+        },
+        {
+          id: "cieiacct-u3-co-debentures-q12",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "A company issues \\$40,000 of 8% debentures. Calculate the annual debenture interest.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "Annual interest", answer: 3200, unit: "$" }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "formula",
+                name: "Debenture interest",
+                statement: "Interest = debenture loan × rate — an expense.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "40,000 × 8%.",
+                working: "40000 × 0.08",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "Annual interest = \\$3,200.",
+                working: "40000 × 0.08 = 3200",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "\\$3,200",
+          },
+        },
+        {
+          id: "cieiacct-u3-co-debentures-q13",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "Distinguish between debenture interest and dividends in terms of their treatment in the accounts.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Interest vs dividend",
+                statement:
+                  "Debenture interest = expense; dividends = appropriation of profit.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "Debenture interest is a cost of borrowing — debited in the P&L as an expense, reducing profit before tax.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "Dividends are paid to owners out of profit — deducted after tax as an appropriation.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "Interest must be paid even in a loss-making year; dividends are only paid if the company chooses and can afford them.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer:
+              "Debenture interest is an expense (P&L); dividends are appropriations of profit (after tax).",
+          },
+        },
+        {
+          id: "cieiacct-u3-co-debentures-q14",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Debentures appear on the company's balance sheet as:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "A current asset" },
+              { id: "b", text: "A profit and loss expense" },
+              { id: "c", text: "Share capital" },
+              { id: "d", text: "A non-current liability" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Debentures",
+                statement: "Long-term loans — non-current liabilities.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "Debentures are repayable after more than one year, so they are non-current liabilities.",
+                marks: 1,
+                markCode: "M",
+              },
+            ],
+            finalAnswer: "(a) Non-current liability.",
+          },
+        },
+        {
+          id: "cieiacct-u3-co-debentures-q15",
+          difficulty: "challenge",
+          totalMarks: 3,
+          stem: "A company issues \\$25,000 of 10% debentures halfway through the year. Calculate the interest expense for the half year and state the journal entry for the interest.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "Half-year interest", answer: 1250, unit: "$" }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "formula",
+                name: "Debenture interest",
+                statement: "Interest = loan × rate × time.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Annual interest = 25,000 × 10% = \\$2,500.",
+                working: "25000 × 0.10 = 2500",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "Half year = 2,500 ÷ 2 = \\$1,250; Dr debenture interest / Cr bank or accrued interest.",
+                working: "2500 / 2 = 1250",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "Interest for half year = \\$1,250.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "\\$1,250 — Dr debenture interest / Cr bank.",
+          },
+        },
+        {
+          id: "cieiacct-u3-co-debentures-q16",
+          difficulty: "challenge",
+          totalMarks: 5,
+          parts: [
+            {
+              label: "a",
+              prompt:
+                "State three differences between shares and debentures.",
+              marks: 3,
+            },
+            {
+              label: "b",
+              prompt:
+                "A company issues \\$60,000 of 6% debentures for cash and pays the first year's interest. State the journal entries.",
+              marks: 2,
+            },
+          ],
+          stem: "A company is deciding how to raise finance.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Shares vs debentures",
+                statement:
+                  "Shares = ownership, variable return, no repayment. Debentures = loan, fixed return, repayable.",
+              },
+            ],
+            steps: [
+              {
+                part: "a",
+                reasoning:
+                  "Any three of: shares = ownership/voting rights vs debentures = creditor; dividends variable vs interest fixed; shares not repayable vs debentures repayable; dividends appropriation vs interest expense.",
+                marks: 3,
+                markCode: "M",
+              },
+              {
+                part: "b",
+                reasoning:
+                  "Issue: Dr bank \\$60,000 / Cr debentures \\$60,000. Interest = 60,000 × 6% = \\$3,600: Dr debenture interest \\$3,600 / Cr bank \\$3,600.",
+                working: "60000 × 0.06 = 3600",
+                marks: 2,
+                markCode: "A",
+              },
+            ],
+            finalAnswer:
+              "(a) Any three valid differences. (b) Dr bank/Cr debentures \\$60,000; Dr interest \\$3,600/Cr bank \\$3,600.",
           },
         },
       ],
@@ -2514,6 +3481,481 @@ export const lesson35: Lesson = {
             ],
             finalAnswer:
               "(a) PAT \\$67,500 (assuming PBT after interest). (b) Interest/tax = expenses; dividends = appropriations.",
+          },
+        },
+        {
+          id: "cieiacct-u3-co-exam-q9",
+          difficulty: "core",
+          totalMarks: 5,
+          parts: [
+            {
+              label: "a",
+              prompt:
+                "Profit before tax is \\$80,000 and corporation tax is 25%. Calculate profit after tax.",
+              marks: 2,
+            },
+            {
+              label: "b",
+              prompt:
+                "The company has 100,000 shares and declares a dividend of 30 cents per share. Calculate total dividends.",
+              marks: 2,
+            },
+            {
+              label: "c",
+              prompt: "Calculate retained profit.",
+              marks: 1,
+            },
+          ],
+          stem: "A company prepares its profit and loss appropriation.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "formula",
+                name: "Company profit",
+                statement: "PAT = PBT − tax; retained = PAT − dividends.",
+              },
+            ],
+            steps: [
+              {
+                part: "a",
+                reasoning:
+                  "Tax = 25% × 80,000 = \\$20,000; PAT = 80,000 − 20,000 = \\$60,000.",
+                working: "80000 × 0.25 = 20000; 80000 - 20000 = 60000",
+                marks: 2,
+                markCode: "M",
+              },
+              {
+                part: "b",
+                reasoning:
+                  "Dividends = 100,000 × 0.30 = \\$30,000.",
+                working: "100000 × 0.30 = 30000",
+                marks: 2,
+                markCode: "M",
+              },
+              {
+                part: "c",
+                reasoning: "Retained = 60,000 − 30,000 = \\$30,000.",
+                working: "60000 - 30000 = 30000",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer:
+              "PAT \\$60,000; dividends \\$30,000; retained \\$30,000.",
+          },
+        },
+        {
+          id: "cieiacct-u3-co-exam-q10",
+          difficulty: "core",
+          totalMarks: 6,
+          parts: [
+            {
+              label: "a",
+              prompt:
+                "Profit before tax is \\$120,000 and tax is 20%. Calculate profit after tax.",
+              marks: 2,
+            },
+            {
+              label: "b",
+              prompt:
+                "The company has 100,000 preference shares of \\$1 each entitled to an 8% dividend, and 150,000 ordinary shares with a 10 cent dividend. Calculate the preference dividend.",
+              marks: 2,
+            },
+            {
+              label: "c",
+              prompt:
+                "Calculate the ordinary dividend and retained profit.",
+              marks: 2,
+            },
+          ],
+          stem: "A company with preference and ordinary shares prepares its appropriation.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "formula",
+                name: "Company profit",
+                statement:
+                  "PAT = PBT − tax; preference dividends paid before ordinary; retained = PAT − total dividends.",
+              },
+            ],
+            steps: [
+              {
+                part: "a",
+                reasoning:
+                  "Tax = 20% × 120,000 = \\$24,000; PAT = \\$96,000.",
+                working: "120000 × 0.20 = 24000; 120000 - 24000 = 96000",
+                marks: 2,
+                markCode: "M",
+              },
+              {
+                part: "b",
+                reasoning:
+                  "Pref dividend per share = 8% × \\$1 = \\$0.08; total = 100,000 × 0.08 = \\$8,000.",
+                working: "100000 × 0.08 = 8000",
+                marks: 2,
+                markCode: "M",
+              },
+              {
+                part: "c",
+                reasoning:
+                  "Ordinary dividend = 150,000 × 0.10 = \\$15,000; total dividends \\$23,000; retained = 96,000 − 23,000 = \\$73,000.",
+                working: "150000 × 0.10 = 15000; 96000 - 23000 = 73000",
+                marks: 2,
+                markCode: "A",
+              },
+            ],
+            finalAnswer:
+              "PAT \\$96,000; pref \\$8,000; ordinary \\$15,000; retained \\$73,000.",
+          },
+        },
+        {
+          id: "cieiacct-u3-co-exam-q11",
+          difficulty: "core",
+          totalMarks: 4,
+          stem: "A company has 80,000 shares of \\$1 each and declares a 12% dividend. Calculate the dividend per share and the total dividend.",
+          response: {
+            type: "numeric",
+            parts: [
+              { label: "Dividend per share", answer: 0.12, unit: "$" },
+              { label: "Total dividend", answer: 9600, unit: "$" },
+            ],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "formula",
+                name: "Dividend",
+                statement: "DPS = % × nominal; total = DPS × shares.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "DPS = 12% × \\$1 = \\$0.12.",
+                working: "0.12 × 1 = 0.12",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "Total = 80,000 × 0.12 = \\$9,600.",
+                working: "80000 × 0.12 = 9600",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "Both figures stated.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "DPS \\$0.12; total \\$9,600.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "DPS \\$0.12; total \\$9,600.",
+          },
+        },
+        {
+          id: "cieiacct-u3-co-exam-q12",
+          difficulty: "challenge",
+          totalMarks: 5,
+          parts: [
+            {
+              label: "a",
+              prompt:
+                "Profit before tax is \\$150,000 and corporation tax is 30%. Calculate tax and profit after tax.",
+              marks: 1,
+            },
+            {
+              label: "b",
+              prompt:
+                "Dividends of \\$20,000 are declared. Calculate retained profit.",
+              marks: 2,
+            },
+            {
+              label: "c",
+              prompt:
+                "Explain why the dividend does not appear as an expense in the profit and loss account.",
+              marks: 2,
+            },
+          ],
+          stem: "A company prepares its final accounts.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "formula",
+                name: "Company profit",
+                statement: "PAT = PBT − tax; retained = PAT − dividends.",
+              },
+            ],
+            steps: [
+              {
+                part: "a",
+                reasoning:
+                  "Tax = 30% × 150,000 = \\$45,000; PAT = 150,000 − 45,000 = \\$105,000.",
+                working: "150000 × 0.30 = 45000; 150000 - 45000 = 105000",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                part: "b",
+                reasoning: "Retained = 105,000 − 20,000 = \\$85,000.",
+                working: "105000 - 20000 = 85000",
+                marks: 2,
+                markCode: "A",
+              },
+              {
+                part: "c",
+                reasoning:
+                  "Dividends are distributions of profit to shareholders — an appropriation deducted after profit is calculated, not a cost of earning it.",
+                marks: 2,
+                markCode: "M",
+              },
+            ],
+            finalAnswer:
+              "(a) Tax \\$45,000; PAT \\$105,000. (b) Retained \\$85,000. (c) Dividends are appropriations, not expenses.",
+          },
+        },
+        {
+          id: "cieiacct-u3-co-exam-q13",
+          difficulty: "challenge",
+          totalMarks: 3,
+          stem: "A company issues \\$60,000 of 7.5% debentures. Calculate the annual debenture interest and state whether it appears in the profit and loss account or the appropriation.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "Annual interest", answer: 4500, unit: "$" }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "formula",
+                name: "Debenture interest",
+                statement: "Interest = loan × rate — an expense in the P&L.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "60,000 × 7.5% = \\$4,500.",
+                working: "60000 × 0.075 = 4500",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "It is an expense — deducted in the P&L before profit, NOT an appropriation.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "Annual interest = \\$4,500 (expense).",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "\\$4,500 — an expense in the P&L.",
+          },
+        },
+        {
+          id: "cieiacct-u3-co-exam-q14",
+          difficulty: "challenge",
+          totalMarks: 8,
+          parts: [
+            {
+              label: "a",
+              prompt:
+                "State three differences between ordinary shares and debentures.",
+              marks: 3,
+            },
+            {
+              label: "b",
+              prompt:
+                "A company issues \\$30,000 of 9% debentures for cash and pays the first year's interest. State the journal entries.",
+              marks: 3,
+            },
+            {
+              label: "c",
+              prompt:
+                "Explain why debenture interest is an expense while dividends are not.",
+              marks: 2,
+            },
+          ],
+          stem: "A company is comparing sources of finance.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Shares vs debentures",
+                statement:
+                  "Shares = ownership; debentures = loan. Interest = expense; dividends = appropriation.",
+              },
+            ],
+            steps: [
+              {
+                part: "a",
+                reasoning:
+                  "Any three of: shares carry voting rights/ownership vs debentures are creditor loans; dividends variable vs interest fixed; shares not repayable vs debentures repayable; dividends appropriation vs interest expense; share capital equity vs debentures liability.",
+                marks: 3,
+                markCode: "M",
+              },
+              {
+                part: "b",
+                reasoning:
+                  "Issue: Dr bank \\$30,000 / Cr debentures \\$30,000. Interest = 30,000 × 9% = \\$2,700: Dr debenture interest \\$2,700 / Cr bank \\$2,700.",
+                working: "30000 × 0.09 = 2700",
+                marks: 3,
+                markCode: "M",
+              },
+              {
+                part: "c",
+                reasoning:
+                  "Debenture interest is a cost of borrowing (expense, reduces profit before tax); dividends distribute profit to owners (appropriation, after tax).",
+                marks: 2,
+                markCode: "A",
+              },
+            ],
+            finalAnswer:
+              "(a) Any three differences. (b) Dr bank/Cr debentures \\$30,000; Dr interest \\$2,700/Cr bank. (c) Interest = expense; dividends = appropriation.",
+          },
+        },
+        {
+          id: "cieiacct-u3-co-exam-q15",
+          difficulty: "core",
+          totalMarks: 5,
+          parts: [
+            {
+              label: "a",
+              prompt:
+                "Profit before tax is \\$95,000 and tax is 25%. Calculate profit after tax.",
+              marks: 2,
+            },
+            {
+              label: "b",
+              prompt:
+                "The company has 50,000 shares and declares a dividend of 40 cents per share. Calculate total dividends.",
+              marks: 1,
+            },
+            {
+              label: "c",
+              prompt: "Calculate retained profit.",
+              marks: 2,
+            },
+          ],
+          stem: "A company prepares its appropriation account.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "formula",
+                name: "Company profit",
+                statement: "PAT = PBT − tax; retained = PAT − dividends.",
+              },
+            ],
+            steps: [
+              {
+                part: "a",
+                reasoning:
+                  "Tax = 25% × 95,000 = \\$23,750; PAT = 95,000 − 23,750 = \\$71,250.",
+                working: "95000 × 0.25 = 23750; 95000 - 23750 = 71250",
+                marks: 2,
+                markCode: "M",
+              },
+              {
+                part: "b",
+                reasoning: "Dividends = 50,000 × 0.40 = \\$20,000.",
+                working: "50000 × 0.40 = 20000",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                part: "c",
+                reasoning: "Retained = 71,250 − 20,000 = \\$51,250.",
+                working: "71250 - 20000 = 51250",
+                marks: 2,
+                markCode: "A",
+              },
+            ],
+            finalAnswer:
+              "PAT \\$71,250; dividends \\$20,000; retained \\$51,250.",
+          },
+        },
+        {
+          id: "cieiacct-u3-co-exam-q16",
+          difficulty: "challenge",
+          totalMarks: 8,
+          parts: [
+            {
+              label: "a",
+              prompt:
+                "Profit before tax is \\$200,000 (after debenture interest of \\$8,000). Tax is 25%. Calculate profit after tax.",
+              marks: 2,
+            },
+            {
+              label: "b",
+              prompt:
+                "The company has 100,000 shares and declares a dividend of 25 cents per share. Calculate total dividends.",
+              marks: 2,
+            },
+            {
+              label: "c",
+              prompt: "Calculate retained profit.",
+              marks: 2,
+            },
+            {
+              label: "d",
+              prompt:
+                "State whether the \\$8,000 debenture interest is an expense or an appropriation, and why.",
+              marks: 2,
+            },
+          ],
+          stem: "A company with debentures prepares its final accounts.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "formula",
+                name: "Company profit",
+                statement: "PAT = PBT − tax; retained = PAT − dividends.",
+              },
+            ],
+            steps: [
+              {
+                part: "a",
+                reasoning:
+                  "Tax = 25% × 200,000 = \\$50,000; PAT = 200,000 − 50,000 = \\$150,000.",
+                working: "200000 × 0.25 = 50000; 200000 - 50000 = 150000",
+                marks: 2,
+                markCode: "M",
+              },
+              {
+                part: "b",
+                reasoning:
+                  "Dividends = 100,000 × 0.25 = \\$25,000.",
+                working: "100000 × 0.25 = 25000",
+                marks: 2,
+                markCode: "M",
+              },
+              {
+                part: "c",
+                reasoning: "Retained = 150,000 − 25,000 = \\$125,000.",
+                working: "150000 - 25000 = 125000",
+                marks: 2,
+                markCode: "A",
+              },
+              {
+                part: "d",
+                reasoning:
+                  "It is an EXPENSE — debenture interest is a cost of borrowing deducted in the P&L (before tax), unlike dividends which are appropriations.",
+                marks: 2,
+                markCode: "A",
+              },
+            ],
+            finalAnswer:
+              "PAT \\$150,000; dividends \\$25,000; retained \\$125,000; debenture interest = expense.",
           },
         },
       ],

@@ -55,12 +55,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "One simple rhythm repeated" },
-              { id: "b", text: "Multiple interlocking rhythmic patterns played simultaneously" },
-              { id: "c", text: "A single drum beat" },
-              { id: "d", text: "A slow tempo" },
+              { id: "a", text: "A single drum beat" },
+              { id: "b", text: "One simple rhythm repeated" },
+              { id: "c", text: "A slow tempo" },
+              { id: "d", text: "Multiple interlocking rhythmic patterns played simultaneously" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -162,12 +162,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "West and Central Africa" },
+              { id: "a", text: "Andalusia" },
               { id: "b", text: "Scandinavia" },
-              { id: "c", text: "Andalusia" },
+              { id: "c", text: "West and Central Africa" },
               { id: "d", text: "Polynesia" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -211,9 +211,9 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Built from complex chromatic progressions" },
+              { id: "a", text: "Notated in figured bass" },
               { id: "b", text: "Subordinate to rhythm, timbre and communal function" },
-              { id: "c", text: "Notated in figured bass" },
+              { id: "c", text: "Built from complex chromatic progressions" },
               { id: "d", text: "The primary organising element" },
             ],
             correctChoiceId: "b",
@@ -261,12 +261,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Produces the loudest sound in the ensemble" },
-              { id: "b", text: "Can mimic the pitch patterns of speech" },
-              { id: "c", text: "Requires no player" },
-              { id: "d", text: "Is made of metal" },
+              { id: "a", text: "Can mimic the pitch patterns of speech" },
+              { id: "b", text: "Requires no player" },
+              { id: "c", text: "Is made of metal" },
+              { id: "d", text: "Produces the loudest sound in the ensemble" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -324,8 +324,8 @@ export const lesson41: Lesson = {
             choices: [
               { id: "a", text: "They are the loudest performers" },
               { id: "b", text: "They preserve genealogy, law and history through oral performance" },
-              { id: "c", text: "They play the most instruments" },
-              { id: "d", text: "They write down the music" },
+              { id: "c", text: "They write down the music" },
+              { id: "d", text: "They play the most instruments" },
             ],
             correctChoiceId: "b",
           },
@@ -407,12 +407,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Silent spectators evaluating the music" },
-              { id: "b", text: "Active participants who respond, dance and join refrains" },
-              { id: "c", text: "Critics judging technique" },
-              { id: "d", text: "Non-participants who only listen" },
+              { id: "a", text: "Critics judging technique" },
+              { id: "b", text: "Non-participants who only listen" },
+              { id: "c", text: "Active participants who respond, dance and join refrains" },
+              { id: "d", text: "Silent spectators evaluating the music" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -458,12 +458,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Written scores and individual authorship" },
-              { id: "b", text: "Rhythm, timbre and oral/communal transmission" },
-              { id: "c", text: "Complex harmonic modulation" },
-              { id: "d", text: "Symphonic instrumentation" },
+              { id: "a", text: "Complex harmonic modulation" },
+              { id: "b", text: "Symphonic instrumentation" },
+              { id: "c", text: "Written scores and individual authorship" },
+              { id: "d", text: "Rhythm, timbre and oral/communal transmission" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -518,12 +518,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Cuba" },
-              { id: "b", text: "Jamaica" },
-              { id: "c", text: "Brazil" },
-              { id: "d", text: "Nigeria" },
+              { id: "a", text: "Jamaica" },
+              { id: "b", text: "Cuba" },
+              { id: "c", text: "Nigeria" },
+              { id: "d", text: "Brazil" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -625,12 +625,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Cuban son, jazz and Puerto Rican bomba" },
-              { id: "b", text: "Reggae and blues" },
-              { id: "c", text: "Gamelan and classical" },
-              { id: "d", text: "Country and western swing" },
+              { id: "a", text: "Country and western swing" },
+              { id: "b", text: "Gamelan and classical" },
+              { id: "c", text: "Cuban son, jazz and Puerto Rican bomba" },
+              { id: "d", text: "Reggae and blues" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -675,11 +675,11 @@ export const lesson41: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "A drum fill between verses" },
-              { id: "b", text: "Accented guitar or keyboard chords played on the offbeats" },
-              { id: "c", text: "A fast bass solo" },
+              { id: "b", text: "A fast bass solo" },
+              { id: "c", text: "Accented guitar or keyboard chords played on the offbeats" },
               { id: "d", text: "A vocal harmony technique" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -724,12 +724,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Was the first genre to use electric guitars" },
-              { id: "b", text: "Preceded and influenced ska and reggae as an acoustic folk style" },
-              { id: "c", text: "Originated in Trinidad" },
-              { id: "d", text: "Used steel pans exclusively" },
+              { id: "a", text: "Originated in Trinidad" },
+              { id: "b", text: "Used steel pans exclusively" },
+              { id: "c", text: "Preceded and influenced ska and reggae as an acoustic folk style" },
+              { id: "d", text: "Was the first genre to use electric guitars" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -785,9 +785,9 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Complete rejection of African traditions" },
+              { id: "a", text: "Direct copying of European orchestras" },
               { id: "b", text: "Adaptation of available materials to carry African-derived rhythms" },
-              { id: "c", text: "Direct copying of European orchestras" },
+              { id: "c", text: "Complete rejection of African traditions" },
               { id: "d", text: "Elimination of communal participation" },
             ],
             correctChoiceId: "b",
@@ -870,12 +870,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Oral journalism commenting on politics and daily life" },
+              { id: "a", text: "Court ceremonial music only" },
               { id: "b", text: "Religious liturgy" },
-              { id: "c", text: "Court ceremonial music only" },
-              { id: "d", text: "Instrumental dance music without words" },
+              { id: "c", text: "Instrumental dance music without words" },
+              { id: "d", text: "Oral journalism commenting on politics and daily life" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -921,12 +921,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "European string instrumentation" },
-              { id: "b", text: "Call-and-response and polyrhythmic clave patterns" },
-              { id: "c", text: "Four-part choral harmony" },
-              { id: "d", text: "Classical song forms" },
+              { id: "a", text: "Classical song forms" },
+              { id: "b", text: "European string instrumentation" },
+              { id: "c", text: "Call-and-response and polyrhythmic clave patterns" },
+              { id: "d", text: "Four-part choral harmony" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

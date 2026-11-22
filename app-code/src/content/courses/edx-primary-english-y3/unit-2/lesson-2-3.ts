@@ -51,12 +51,12 @@ export const lesson83: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A list of characters" },
-              { id: "b", text: "A list of difficult words and meanings" },
-              { id: "c", text: "A map of the book" },
-              { id: "d", text: "A picture section" },
+              { id: "a", text: "A list of difficult words and meanings" },
+              { id: "b", text: "A list of characters" },
+              { id: "c", text: "A picture section" },
+              { id: "d", text: "A map of the book" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -85,12 +85,12 @@ export const lesson83: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "To make it pretty" },
-              { id: "b", text: "To show what each section is about" },
-              { id: "c", text: "To fill space" },
-              { id: "d", text: "No reason" },
+              { id: "a", text: "To fill space" },
+              { id: "b", text: "No reason" },
+              { id: "c", text: "To show what each section is about" },
+              { id: "d", text: "To make it pretty" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -225,11 +225,11 @@ export const lesson83: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Every detail" },
-              { id: "b", text: "Main points only" },
-              { id: "c", text: "Your opinion" },
-              { id: "d", text: "Pictures" },
+              { id: "b", text: "Pictures" },
+              { id: "c", text: "Main points only" },
+              { id: "d", text: "Your opinion" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -254,12 +254,12 @@ export const lesson83: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Ben likes gardening" },
-              { id: "b", text: "Ben grew sunflowers from seeds" },
+              { id: "a", text: "Ben grew sunflowers from seeds" },
+              { id: "b", text: "Ben likes gardening" },
               { id: "c", text: "Seeds need water" },
               { id: "d", text: "Sunflowers are tall" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

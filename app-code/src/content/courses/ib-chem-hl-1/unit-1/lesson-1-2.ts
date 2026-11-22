@@ -97,8 +97,8 @@ export const lesson12: Lesson = {
                 id: "a",
                 text: "Outer electrons occupy higher shells, farther from the nucleus and more shielded",
               },
-              { id: "b", text: "Nuclear charge decreases down the group" },
-              { id: "c", text: "Atoms become smaller down the group" },
+              { id: "b", text: "Atoms become smaller down the group" },
+              { id: "c", text: "Nuclear charge decreases down the group" },
               { id: "d", text: "Electron pairing increases down the group" },
             ],
             correctChoiceId: "a",
@@ -333,15 +333,15 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "Atoms become larger across the period" },
               {
-                id: "a",
+                id: "b",
                 text: "Nuclear charge increases while electrons are added to the same shell, so shielding stays roughly constant",
               },
-              { id: "b", text: "Atoms become larger across the period" },
               { id: "c", text: "Electrons pair up across the period" },
               { id: "d", text: "Nuclear charge decreases across the period" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -380,15 +380,15 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "Sulfur has a smaller atomic radius than phosphorus" },
+              { id: "b", text: "Phosphorus has no $3p$ electrons" },
+              { id: "c", text: "Sulfur has a lower nuclear charge than phosphorus" },
               {
-                id: "a",
+                id: "d",
                 text: "Sulfur's fourth $3p$ electron is paired in an occupied orbital, so electron-electron repulsion makes it easier to remove",
               },
-              { id: "b", text: "Sulfur has a smaller atomic radius than phosphorus" },
-              { id: "c", text: "Phosphorus has no $3p$ electrons" },
-              { id: "d", text: "Sulfur has a lower nuclear charge than phosphorus" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -427,15 +427,15 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              {
-                id: "a",
-                text: "Al's outer electron is a $3p$ electron shielded by the $3s^2$ pair, making it easier to remove",
-              },
+              { id: "a", text: "Aluminium is a noble gas" },
               { id: "b", text: "Aluminium has fewer electrons than magnesium" },
               { id: "c", text: "Magnesium's electrons are unpaired" },
-              { id: "d", text: "Aluminium is a noble gas" },
+              {
+                id: "d",
+                text: "Al's outer electron is a $3p$ electron shielded by the $3s^2$ pair, making it easier to remove",
+              },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1042,12 +1042,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Fluorine" },
-              { id: "b", text: "Chlorine" },
-              { id: "c", text: "Oxygen" },
-              { id: "d", text: "Sodium" },
+              { id: "a", text: "Sodium" },
+              { id: "b", text: "Oxygen" },
+              { id: "c", text: "Fluorine" },
+              { id: "d", text: "Chlorine" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1277,15 +1277,15 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Endothermic, requiring energy input" },
+              { id: "a", text: "Positive and increasing down each group" },
+              { id: "b", text: "Endothermic, requiring energy input" },
+              { id: "c", text: "Always zero" },
               {
-                id: "b",
+                id: "d",
                 text: "Exothermic, releasing energy as the added electron is attracted to the nucleus",
               },
-              { id: "c", text: "Always zero" },
-              { id: "d", text: "Positive and increasing down each group" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1324,15 +1324,15 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "Chlorine has more electrons than fluorine" },
               {
-                id: "a",
+                id: "b",
                 text: "Fluorine's small atomic radius causes strong electron-electron repulsion in the crowded $2p$ subshell",
               },
-              { id: "b", text: "Fluorine has a lower nuclear charge than chlorine" },
-              { id: "c", text: "Chlorine has more electrons than fluorine" },
-              { id: "d", text: "Fluorine cannot form negative ions" },
+              { id: "c", text: "Fluorine cannot form negative ions" },
+              { id: "d", text: "Fluorine has a lower nuclear charge than chlorine" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1371,15 +1371,15 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "The second electron enters a completely empty shell" },
               {
-                id: "a",
+                id: "b",
                 text: "The second electron is repelled by the negative charge already on the ion",
               },
-              { id: "b", text: "The nucleus has no charge left" },
-              { id: "c", text: "The second electron enters a completely empty shell" },
-              { id: "d", text: "Electron affinity only applies to the first electron" },
+              { id: "c", text: "Electron affinity only applies to the first electron" },
+              { id: "d", text: "The nucleus has no charge left" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [

@@ -55,9 +55,9 @@ export const lesson21: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$17$" },
-              { id: "b", text: "$35$" },
+              { id: "b", text: "$52$" },
               { id: "c", text: "$18$" },
-              { id: "d", text: "$52$" },
+              { id: "d", text: "$35$" },
             ],
             correctChoiceId: "c",
           },
@@ -82,12 +82,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$8$" },
-              { id: "b", text: "$6$" },
-              { id: "c", text: "$10$" },
+              { id: "a", text: "$6$" },
+              { id: "b", text: "$10$" },
+              { id: "c", text: "$8$" },
               { id: "d", text: "$16$" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -172,11 +172,11 @@ export const lesson21: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$10$" },
-              { id: "b", text: "$12$" },
+              { id: "b", text: "$36$" },
               { id: "c", text: "$24$" },
-              { id: "d", text: "$36$" },
+              { id: "d", text: "$12$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -200,11 +200,11 @@ export const lesson21: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Proton" },
-              { id: "b", text: "Electron" },
-              { id: "c", text: "Neutron" },
-              { id: "d", text: "Alpha particle" },
+              { id: "b", text: "Neutron" },
+              { id: "c", text: "Alpha particle" },
+              { id: "d", text: "Electron" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -227,12 +227,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$18$" },
-              { id: "b", text: "$20$" },
-              { id: "c", text: "$22$" },
-              { id: "d", text: "$40$" },
+              { id: "a", text: "$22$" },
+              { id: "b", text: "$40$" },
+              { id: "c", text: "$18$" },
+              { id: "d", text: "$20$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -337,12 +337,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Atoms of the same element with the same number of protons but different numbers of neutrons" },
-              { id: "b", text: "Atoms of different elements with the same mass number" },
-              { id: "c", text: "Ions of the same element with different charges" },
-              { id: "d", text: "Atoms with the same number of neutrons but different proton numbers" },
+              { id: "a", text: "Atoms with the same number of neutrons but different proton numbers" },
+              { id: "b", text: "Ions of the same element with different charges" },
+              { id: "c", text: "Atoms of the same element with the same number of protons but different numbers of neutrons" },
+              { id: "d", text: "Atoms of different elements with the same mass number" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -412,9 +412,9 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The number of protons in the nucleus" },
+              { id: "a", text: "The number of electrons in the atom" },
               { id: "b", text: "The total number of protons and neutrons in the nucleus" },
-              { id: "c", text: "The number of electrons in the atom" },
+              { id: "c", text: "The number of protons in the nucleus" },
               { id: "d", text: "The sum of protons, neutrons and electrons" },
             ],
             correctChoiceId: "b",
@@ -491,12 +491,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$16$" },
-              { id: "b", text: "$18$" },
-              { id: "c", text: "$20$" },
+              { id: "a", text: "$18$" },
+              { id: "b", text: "$20$" },
+              { id: "c", text: "$16$" },
               { id: "d", text: "$22$" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -575,12 +575,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The number of protons in the nucleus" },
-              { id: "b", text: "The number of protons minus the number of electrons" },
-              { id: "c", text: "The number of electrons minus the number of protons" },
-              { id: "d", text: "The mass number minus the atomic number" },
+              { id: "a", text: "The number of protons minus the number of electrons" },
+              { id: "b", text: "The number of protons in the nucleus" },
+              { id: "c", text: "The mass number minus the atomic number" },
+              { id: "d", text: "The number of electrons minus the number of protons" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -636,9 +636,9 @@ export const lesson21: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$35.5$" },
-              { id: "b", text: "$36$" },
-              { id: "c", text: "$35$" },
-              { id: "d", text: "$36.5$" },
+              { id: "b", text: "$36.5$" },
+              { id: "c", text: "$36$" },
+              { id: "d", text: "$35$" },
             ],
             correctChoiceId: "a",
           },
@@ -738,12 +738,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$12.4$" },
-              { id: "b", text: "$12.2$" },
-              { id: "c", text: "$13.0$" },
-              { id: "d", text: "$12.0$" },
+              { id: "a", text: "$12.0$" },
+              { id: "b", text: "$13.0$" },
+              { id: "c", text: "$12.4$" },
+              { id: "d", text: "$12.2$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -807,12 +807,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The element occurs as a mixture of isotopes with different masses" },
-              { id: "b", text: "Atoms continuously gain and lose electrons" },
-              { id: "c", text: "The mass spectrometer has limited precision" },
-              { id: "d", text: "Nuclei undergo radioactive decay" },
+              { id: "a", text: "The mass spectrometer has limited precision" },
+              { id: "b", text: "The element occurs as a mixture of isotopes with different masses" },
+              { id: "c", text: "Nuclei undergo radioactive decay" },
+              { id: "d", text: "Atoms continuously gain and lose electrons" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -859,12 +859,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$35.47$" },
-              { id: "b", text: "$35.50$" },
-              { id: "c", text: "$35.97$" },
-              { id: "d", text: "$36.47$" },
+              { id: "a", text: "$35.97$" },
+              { id: "b", text: "$36.47$" },
+              { id: "c", text: "$35.47$" },
+              { id: "d", text: "$35.50$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -929,12 +929,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$0.90(20)+0.10(22)$" },
-              { id: "b", text: "$\\frac{20+22}{2}$" },
+              { id: "a", text: "$\\frac{20+22}{2}$" },
+              { id: "b", text: "$0.90(20)+0.10(22)$" },
               { id: "c", text: "$20(0.90)+22$" },
               { id: "d", text: "$20+22(0.10)$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [

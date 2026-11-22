@@ -54,12 +54,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The energy transferred per unit charge" },
-              { id: "b", text: "The rate of flow of charge" },
-              { id: "c", text: "The opposition to the flow of charge" },
-              { id: "d", text: "The total amount of charge in a circuit" },
+              { id: "a", text: "The opposition to the flow of charge" },
+              { id: "b", text: "The total amount of charge in a circuit" },
+              { id: "c", text: "The energy transferred per unit charge" },
+              { id: "d", text: "The rate of flow of charge" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -194,12 +194,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The current is the same through both lamps." },
-              { id: "b", text: "The pd across each lamp is equal to the pd of the cell." },
+              { id: "a", text: "The pd across each lamp is equal to the pd of the cell." },
+              { id: "b", text: "If one lamp breaks, the other stays on." },
               { id: "c", text: "The current in the cell is the sum of the currents in the two lamps." },
-              { id: "d", text: "If one lamp breaks, the other stays on." },
+              { id: "d", text: "The current is the same through both lamps." },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

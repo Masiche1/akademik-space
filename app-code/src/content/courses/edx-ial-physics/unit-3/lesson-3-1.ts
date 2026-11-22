@@ -92,11 +92,11 @@ export const lesson31: Lesson = {
               },
               {
                 "id": "c",
-                "text": "A variable kept constant"
+                "text": "The instrument used"
               },
               {
                 "id": "d",
-                "text": "The instrument used"
+                "text": "A variable kept constant"
               }
             ],
             "correctChoiceId": "b"
@@ -357,7 +357,7 @@ export const lesson31: Lesson = {
             "choices": [
               {
                 "id": "a",
-                "text": "Taking one reading carefully"
+                "text": "Using a bigger apparatus"
               },
               {
                 "id": "b",
@@ -365,11 +365,11 @@ export const lesson31: Lesson = {
               },
               {
                 "id": "c",
-                "text": "Using a bigger apparatus"
+                "text": "Guessing the result"
               },
               {
                 "id": "d",
-                "text": "Guessing the result"
+                "text": "Taking one reading carefully"
               }
             ],
             "correctChoiceId": "b"

@@ -66,12 +66,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The measurement" },
-              { id: "b", text: "Time" },
+              { id: "a", text: "The scale" },
+              { id: "b", text: "The measurement" },
               { id: "c", text: "The title" },
-              { id: "d", text: "The scale" },
+              { id: "d", text: "Time" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -273,12 +273,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Bar chart" },
+              { id: "a", text: "Tally chart" },
               { id: "b", text: "Pictogram" },
-              { id: "c", text: "Line graph" },
-              { id: "d", text: "Tally chart" },
+              { id: "c", text: "Bar chart" },
+              { id: "d", text: "Line graph" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [

@@ -48,11 +48,11 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Tuberculosis" },
-              { id: "b", text: "Malaria" },
-              { id: "c", text: "Influenza" },
-              { id: "d", text: "Cholera" },
+              { id: "b", text: "Influenza" },
+              { id: "c", text: "Cholera" },
+              { id: "d", text: "Malaria" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Virus", statement: "Non-living, needs host cell." }],
@@ -160,12 +160,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Passive immunity" },
-              { id: "b", text: "Active immunity" },
+              { id: "a", text: "Active immunity" },
+              { id: "b", text: "Breast milk antibodies" },
               { id: "c", text: "Antivenom injection" },
-              { id: "d", text: "Breast milk antibodies" },
+              { id: "d", text: "Passive immunity" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Active immunity", statement: "Own antibodies + memory cells." }],

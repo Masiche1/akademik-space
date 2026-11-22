@@ -73,12 +73,12 @@ export const lesson513: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Make an arguable claim guiding the essay" },
+              { id: "a", text: "List characters" },
               { id: "b", text: "Summarise the plot" },
-              { id: "c", text: "List characters" },
-              { id: "d", text: "Describe the setting" },
+              { id: "c", text: "Describe the setting" },
+              { id: "d", text: "Make an arguable claim guiding the essay" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -302,6 +302,471 @@ export const lesson513: Lesson = {
             commonErrors: ["Ignoring stage directions."],
           },
         },
+        {
+          id: "cial-e-u5-de-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "What does PEE stand for in a drama essay paragraph?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Performance, Entry, Exit" },
+              { id: "b", text: "Poem, Extract, Evaluation" },
+              { id: "c", text: "Point, Evidence, Explanation" },
+              { id: "d", text: "Plot, Essay, Ending" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "PEE",
+                statement: "Point, Evidence, Explanation paragraph structure.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "PEE = Point, Evidence, Explanation.",
+                marks: 1,
+                markCode: "AO1",
+              },
+            ],
+            finalAnswer: "**(a)** Point, Evidence, Explanation",
+            commonErrors: ["Confusing with other acronyms."],
+          },
+        },
+        {
+          id: "cial-e-u5-de-q6",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "What do stage directions in brackets primarily reveal?",
+          response: {
+            type: "mcq",
+            choices: [
+              {
+                id: "a",
+                text: "Characterisation, mood and relationships",
+              },
+              { id: "b", text: "The audience's reaction" },
+              { id: "c", text: "The playwright's biography" },
+              { id: "d", text: "The cost of the production" },
+            ],
+            aorrectChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Stage directions",
+                statement: "Reveal characterisation, mood and relationships.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Directions show action, emotion and relationships.",
+                marks: 1,
+                markCode: "AO2",
+              },
+            ],
+            finalAnswer: "**(c)** Characterisation, mood and relationships",
+            commonErrors: ["Treating them as irrelevant stage business."],
+          },
+        },
+        {
+          id: "cial-e-u5-de-q7",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "What is an 'integrated quotation'?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "A paraphrase of the text" },
+              { id: "b", text: "A quotation longer than five lines" },
+              {
+                id: "c",
+                text: "A short quotation woven naturally into your own sentence",
+              },
+              { id: "d", text: "A quotation dropped in without comment" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Integrated quotation",
+                statement: "Quote woven into the sentence and analysed.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Integration embeds the quote in your analysis.",
+                marks: 1,
+                markCode: "AO2",
+              },
+            ],
+            finalAnswer: "**(b)** Quote woven into your sentence",
+            commonErrors: ["Quoting at length without analysis."],
+          },
+        },
+        {
+          id: "cial-e-u5-de-q8",
+          difficulty: "challenge",
+          totalMarks: 2,
+          stem: "Which is the strongest thesis for an essay on a tragedy about ambition?",
+          response: {
+            type: "mcq",
+            choices: [
+              {
+                id: "a",
+                text: "Ambition is an important theme in many plays.",
+              },
+              {
+                id: "b",
+                text: "The play exposes how unchecked ambition destroys the protagonist's moral judgement",
+              },
+              { id: "c",
+                text: "The protagonist is ambitious and this causes problems.",
+              },
+              {
+                id: "d",
+                text: "This essay will discuss ambition in the play.",
+              },
+            ],
+            borrectChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Thesis",
+                statement: "Arguable, specific claim guiding the whole essay.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "A thesis must be arguable and specific, not a topic statement.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning:
+                  "Only (c) makes a focused, defensible interpretive claim.",
+                marks: 1,
+                markCode: "AO3",
+              },
+            ],
+            finalAnswer: "**(c)** Specific arguable claim about ambition",
+            commonErrors: ["Writing a topic sentence instead of a thesis."],
+          },
+        },
+        {
+          id: "cial-e-u5-de-q9",
+          difficulty: "challenge",
+          totalMarks: 2,
+          stem: "Why should a drama essay consider performance as well as text?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Because performance replaces textual analysis" },
+              { id: "b", text: "Because plays are only ever read silently" },
+              { id: "c", text: "Because directors always change the play" },
+              {
+                id: "d",
+                text: "Because staging, delivery and pacing shape meaning on stage",
+              },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Performance awareness",
+                statement: "Drama is written for performance; staging shapes meaning.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Plays exist to be performed, not just read.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning:
+                  "Staging, delivery and pacing add an interpretive layer.",
+                marks: 1,
+                markCode: "AO3",
+              },
+            ],
+            finalAnswer: "**(b)** Staging and delivery shape meaning",
+            commonErrors: ["Treating the play as prose only."],
+          },
+        },
+        {
+          id: "cial-e-u5-de-q10",
+          difficulty: "challenge",
+          totalMarks: 2,
+          stem: "What should the conclusion of a drama essay do?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Repeat the introduction word for word" },
+              { id: "b", text: "Introduce a new character" },
+              { id: "c", text: "List all the quotations used" },
+              {
+                id: "d",
+                text: "Summarise the plot and offer an evaluative judgement on the play's achievement",
+              },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Conclusion",
+                statement: "Summarise argument and reach evaluative judgement.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Conclusions synthesise rather than introduce new material.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "A judgement on effectiveness is required at the top level.",
+                marks: 1,
+                markCode: "AO3",
+              },
+            ],
+            finalAnswer: "**(b)** Summarise argument + evaluative judgement",
+            commonErrors: ["Ending without a judgement."],
+          },
+        },
+        {
+          id: "cial-e-u5-de-q11",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "A drama essay has 3 PEE paragraphs worth 5 marks each, an introduction worth 2 marks and a conclusion worth 3 marks. What is the total mark allocation?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "total", answer: 20 }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Essay allocation",
+                statement: "Total = paragraphs + introduction + conclusion.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Add all essay components.",
+                working: "3 \\times 5 + 2 + 3 = 20",
+                marks: 1,
+                markCode: "AO1",
+              },
+            ],
+            finalAnswer: "20",
+            commonErrors: ["Omitting the conclusion marks."],
+          },
+        },
+        {
+          id: "cial-e-u5-de-q12",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "A PEE paragraph has parts worth 1, 2 and 3 marks for Point, Evidence and Explanation. Enter the total marks for the paragraph and the marks for the Explanation.",
+          response: {
+            type: "numeric",
+            parts: [
+              { label: "total", answer: 6 },
+              { label: "explanation", answer: 3 },
+            ],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "PEE marks",
+                statement: "Explanation typically carries the most marks.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Sum the three PEE parts.",
+                working: "1 + 2 + 3 = 6",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                reasoning: "Read the Explanation mark value.",
+                working: "3",
+                marks: 1,
+                markCode: "AO2",
+              },
+            ],
+            finalAnswer: "total = 6, explanation = 3",
+            commonErrors: ["Swapping evidence and explanation marks."],
+          },
+        },
+        {
+          id: "cial-e-u5-de-q13",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "A 10-mark drama question has parts worth 2, 3 and 5 marks. What is the total mark allocation?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "total", answer: 10 }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Part marks",
+                statement: "Part marks sum to the question total.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Add the three parts.",
+                working: "2 + 3 + 5 = 10",
+                marks: 1,
+                markCode: "AO1",
+              },
+            ],
+            finalAnswer: "10",
+            commonErrors: ["Stopping before the last part."],
+          },
+        },
+        {
+          id: "cial-e-u5-de-q14",
+          difficulty: "challenge",
+          totalMarks: 2,
+          stem: "A timed drama essay allows 60 minutes: 10 minutes for planning, 45 minutes for writing and 5 minutes for checking. Enter the writing time and the total time spent on planning and checking combined.",
+          response: {
+            type: "numeric",
+            parts: [
+              { label: "writing", answer: 45 },
+              { label: "plan_check", answer: 15 },
+            ],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Time management",
+                statement: "Budget time across plan, write and check.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Read the writing allocation directly.",
+                working: "45",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                reasoning: "Add planning and checking time.",
+                working: "10 + 5 = 15",
+                marks: 1,
+                markCode: "AO2",
+              },
+            ],
+            finalAnswer: "writing = 45, plan+check = 15",
+            commonErrors: ["Subtracting incorrectly."],
+          },
+        },
+        {
+          id: "cial-e-u5-de-q15",
+          difficulty: "challenge",
+          totalMarks: 3,
+          stem: "An essay quotes 4 stage directions across 3 paragraphs, and each paragraph also needs 1 linking phrase. Enter the number of stage-direction quotations, the number of paragraphs, and the number of linking phrases required.",
+          response: {
+            type: "numeric",
+            parts: [
+              { label: "directions", answer: 4 },
+              { label: "paragraphs", answer: 3 },
+              { label: "links", answer: 3 },
+            ],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Essay evidence",
+                statement: "Stage directions and linking phrases support analysis.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Count the stage-direction quotations.",
+                working: "4",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                reasoning: "Count the paragraphs.",
+                working: "3",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                reasoning: "One linking phrase per paragraph.",
+                working: "1 \\times 3 = 3",
+                marks: 1,
+                markCode: "AO2",
+              },
+            ],
+            finalAnswer: "directions = 4, paragraphs = 3, links = 3",
+            commonErrors: ["Assuming one direction per paragraph."],
+          },
+        },
+        {
+          id: "cial-e-u5-de-q16",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "How should a drama essay paragraph integrate stage directions and integrated quotation?",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Evidence integration",
+                statement:
+                  "Weave stage directions and speech into the analysis sentence.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Introduce the point with a topic sentence.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "Embed the stage direction or speech naturally in a sentence.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "Analyse what the evidence reveals about character/mood.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "Link back to the thesis or paragraph point.",
+                marks: 1,
+                markCode: "AO3",
+              },
+            ],
+            finalAnswer:
+              "Point → integrated evidence → analysis of effect → link to thesis.",
+            commonErrors: ["Quoting directions without analysing them."],
+          },
+        },
       ],
     },
     {
@@ -345,15 +810,15 @@ export const lesson513: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "Missing context" },
               {
-                id: "a",
+                id: "b",
                 text: "Writing two separate analyses instead of comparing",
               },
-              { id: "b", text: "Using too many quotations" },
-              { id: "c", text: "Ignoring genre" },
-              { id: "d", text: "Missing context" },
+              { id: "c", text: "Using too many quotations" },
+              { id: "d", text: "Ignoring genre" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -526,6 +991,468 @@ export const lesson513: Lesson = {
             ],
             finalAnswer:
               "(a) separate analyses (b) themes/techniques (c) evaluation (d) comparative drama",
+          },
+        },
+        {
+          id: "cial-e-u5-cd-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "What is the strongest way to structure a comparative drama essay?",
+          response: {
+            type: "mcq",
+            choices: [
+              {
+                id: "a",
+                text: "Weave comparison of both plays throughout each paragraph",
+              },
+              { id: "b", text: "Analyse Play A fully, then Play B fully" },
+              { id: "c", text: "Write about the more famous play only" },
+              { id: "d", text: "Compare only in the conclusion" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Weaving comparison",
+                statement: "Comparison must be integrated throughout.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Integrated comparison shows analytical depth.",
+                marks: 1,
+                markCode: "AO3",
+              },
+            ],
+            finalAnswer: "**(b)** Weave comparison throughout",
+            commonErrors: ["Writing two separate essays."],
+          },
+        },
+        {
+          id: "cial-e-u5-cd-q6",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Which set best represents valid points of comparison between two plays?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Only the settings" },
+              { id: "b", text: "Only the plots" },
+              { id: "c", text: "Only the number of characters" },
+              {
+                id: "d",
+                text: "Themes, characterisation, techniques, genre and context",
+              },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Comparison points",
+                statement:
+                  "Compare themes, characterisation, techniques, genre, context.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Multiple aspects yield a rich comparison.",
+                marks: 1,
+                markCode: "AO2",
+              },
+            ],
+            finalAnswer:
+              "**(b)** Themes, characterisation, techniques, genre, context",
+            commonErrors: ["Comparing plot only."],
+          },
+        },
+        {
+          id: "cial-e-u5-cd-q7",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "What must a comparative essay reach by its conclusion?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "A list of differences" },
+              { id: "b", text: "A summary of both plots" },
+              {
+                id: "c",
+                text: "An evaluative judgement on which is more effective",
+              },
+              { id: "d", text: "A new question for the reader" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Evaluative judgement",
+                statement: "Comparison should judge effectiveness.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "A judgement moves beyond description.",
+                marks: 1,
+                markCode: "AO3",
+              },
+            ],
+            finalAnswer: "**(b)** Evaluative judgement on effectiveness",
+            commonErrors: ["Stopping at description."],
+          },
+        },
+        {
+          id: "cial-e-u5-cd-q8",
+          difficulty: "challenge",
+          totalMarks: 2,
+          stem: "Why is writing about Play A and then Play B separately a weakness in a comparative essay?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "It ignores the plays' contexts" },
+              {
+                id: "b",
+                text: "It produces two separate analyses rather than genuine comparison",
+              },
+              { id: "c", text: "It is always under the word limit" },
+              { id: "d", text: "It uses too many quotations" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Separate analysis",
+                statement: "Sequential treatment is not comparison.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Separate halves never directly compare.",
+                marks: 1,
+                markCode: "AO3",
+              },
+              {
+                reasoning: "This fails the comparative requirement of the task.",
+                marks: 1,
+                markCode: "AO3",
+              },
+            ],
+            finalAnswer: "**(b)** Two separate analyses, not comparison",
+            commonErrors: ["Thinking thorough coverage equals comparison."],
+          },
+        },
+        {
+          id: "cial-e-u5-cd-q9",
+          difficulty: "challenge",
+          totalMarks: 2,
+          stem: "Two plays share a theme but come from different historical contexts. How should the essay handle this?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Assume the contexts are identical" },
+              { id: "b", text: "Ignore context entirely" },
+              {
+                id: "c",
+                text: "Treat context as a point of comparison shaping each play's treatment of the theme",
+              },
+              { id: "d", text: "Compare only the contexts, not the texts" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Contextual comparison",
+                statement:
+                  "Context differences shape interpretation and can be compared.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Context is itself a legitimate comparison point.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "It deepens rather than replaces textual comparison.",
+                marks: 1,
+                markCode: "AO3",
+              },
+            ],
+            finalAnswer: "**(b)** Use context differences as comparison",
+            commonErrors: ["Forcing identical contexts."],
+          },
+        },
+        {
+          id: "cial-e-u5-cd-q10",
+          difficulty: "challenge",
+          totalMarks: 2,
+          stem: "When comparing a tragedy and a comedy on a shared theme, what should the comparison focus on?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "The playwrights' ages" },
+              {
+                id: "b",
+                text: "Genre conventions and how each produces different effects",
+              },
+              { id: "c", text: "Only the endings" },
+              { id: "d", text: "Only the number of acts" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Genre comparison",
+                statement: "Compare how genre conventions shape effects.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Genre conventions determine treatment of theme.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "Effects differ between tragic and comic handling.",
+                marks: 1,
+                markCode: "AO3",
+              },
+            ],
+            finalAnswer: "**(b)** Genre conventions and effects",
+            commonErrors: ["Comparing surface features only."],
+          },
+        },
+        {
+          id: "cial-e-u5-cd-q11",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "An essay compares 2 plays across 4 aspects (theme, character, technique, genre). How many play-aspect pairings are analysed?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "pairings", answer: 8 }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Comparison grid",
+                statement: "Pairings = plays × aspects.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Multiply plays by aspects.",
+                working: "2 \\times 4 = 8",
+                marks: 1,
+                markCode: "AO1",
+              },
+            ],
+            finalAnswer: "8",
+            commonErrors: ["Adding instead of multiplying."],
+          },
+        },
+        {
+          id: "cial-e-u5-cd-q12",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "A comparative essay has 4 paragraphs, each covering both plays on one aspect. Enter the number of paragraphs and the number of plays covered.",
+          response: {
+            type: "numeric",
+            parts: [
+              { label: "paragraphs", answer: 4 },
+              { label: "plays", answer: 2 },
+            ],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Comparative structure",
+                statement: "Each paragraph compares both texts on one aspect.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Count paragraphs from the stem.",
+                working: "4",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                reasoning: "A comparative essay requires two plays.",
+                working: "2",
+                marks: 1,
+                markCode: "AO2",
+              },
+            ],
+            finalAnswer: "paragraphs = 4, plays = 2",
+            commonErrors: ["Counting only one play."],
+          },
+        },
+        {
+          id: "cial-e-u5-cd-q13",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "An essay plan allocates 2 marks to the introduction, 3 marks to each of 3 body paragraphs, and 1 mark to the conclusion. What is the total mark allocation?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "total", answer: 12 }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Essay allocation",
+                statement:
+                  "Total = introduction + body paragraphs + conclusion.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Add all components.",
+                working: "2 + 3 \\times 3 + 1 = 12",
+                marks: 1,
+                markCode: "AO1",
+              },
+            ],
+            finalAnswer: "12",
+            commonErrors: ["Multiplying the introduction by 3."],
+          },
+        },
+        {
+          id: "cial-e-u5-cd-q14",
+          difficulty: "challenge",
+          totalMarks: 2,
+          stem: "Two plays share 3 themes. If each theme must be compared between both plays, how many theme-comparisons are required, and how many plays are involved?",
+          response: {
+            type: "numeric",
+            parts: [
+              { label: "comparisons", answer: 3 },
+              { label: "plays", answer: 2 },
+            ],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Theme comparison",
+                statement:
+                  "Each shared theme generates one comparison across both plays.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "One comparison per shared theme.",
+                working: "3",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                reasoning: "Comparison requires two plays.",
+                working: "2",
+                marks: 1,
+                markCode: "AO2",
+              },
+            ],
+            finalAnswer: "comparisons = 3, plays = 2",
+            commonErrors: ["Counting each play separately as a comparison."],
+          },
+        },
+        {
+          id: "cial-e-u5-cd-q15",
+          difficulty: "challenge",
+          totalMarks: 3,
+          stem: "A 5-paragraph comparative essay covers 2 plays in every paragraph. Enter the number of paragraphs, the number of plays, and the total number of play-references across the essay.",
+          response: {
+            type: "numeric",
+            parts: [
+              { label: "paragraphs", answer: 5 },
+              { label: "plays", answer: 2 },
+              { label: "references", answer: 10 },
+            ],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Play references",
+                statement: "References = paragraphs × plays per paragraph.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Count paragraphs.",
+                working: "5",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                reasoning: "Count plays compared.",
+                working: "2",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                reasoning: "Multiply paragraphs by plays.",
+                working: "5 \\times 2 = 10",
+                marks: 1,
+                markCode: "AO2",
+              },
+            ],
+            finalAnswer: "paragraphs = 5, plays = 2, references = 10",
+            commonErrors: ["Counting plays once overall."],
+          },
+        },
+        {
+          id: "cial-e-u5-cd-q16",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "How should a comparative drama essay reach an evaluative judgement?",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Evaluative comparison",
+                statement: "Weigh both plays and judge overall effectiveness.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Compare effectiveness on shared criteria.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "Acknowledge strengths of both plays fairly.",
+                marks: 1,
+                markCode: "AO3",
+              },
+              {
+                reasoning: "Reach a justified overall judgement.",
+                marks: 1,
+                markCode: "AO3",
+              },
+              {
+                reasoning: "Clear, supported conclusion.",
+                marks: 1,
+                markCode: "AO3",
+              },
+            ],
+            finalAnswer:
+              "Compare each play's handling of the theme, weigh the evidence, then justify which achieves more.",
+            commonErrors: ["Declaring a winner without evidence."],
           },
         },
       ],

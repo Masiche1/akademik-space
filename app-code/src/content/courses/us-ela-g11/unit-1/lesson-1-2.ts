@@ -83,8 +83,8 @@ export const lesson12: Lesson = {
             choices: [
               { id: "a", text: "Their attention is so fixed on immediate danger that they cannot look at anything beyond it." },
               { id: "b", text: "They are colorblind and cannot see the sky." },
-              { id: "c", text: "They are relaxed and not worried about the sea." },
-              { id: "d", text: "They are heroes who control the sea by skill." },
+              { id: "c", text: "They are heroes who control the sea by skill." },
+              { id: "d", text: "They are relaxed and not worried about the sea." },
             ],
             correctChoiceId: "a",
           },
@@ -208,12 +208,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Those around her are careful to break the news of her husband's death gently because of her weak heart." },
-              { id: "b", text: "Those around her ignore her health and tell her bluntly." },
-              { id: "c", text: "She is told that her husband has returned safely." },
-              { id: "d", text: "She is the one who breaks the news to others." },
+              { id: "a", text: "Those around her ignore her health and tell her bluntly." },
+              { id: "b", text: "She is the one who breaks the news to others." },
+              { id: "c", text: "Those around her are careful to break the news of her husband's death gently because of her weak heart." },
+              { id: "d", text: "She is told that her husband has returned safely." },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "skill", name: "Stated meaning", statement: "First identify what the text literally says before looking for what it means." }],

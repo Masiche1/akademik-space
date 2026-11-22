@@ -40,10 +40,10 @@ export const lesson33: Lesson = {
           stem: "Effective artistic reflection primarily involves:",
           response: { type: "mcq", choices: [
             { id: "a", text: "Praising your best work" },
-            { id: "b", text: "Analysing process and product to identify improvement" },
-            { id: "c", text: "Comparing yourself to famous artists" },
-            { id: "d", text: "Listing materials used" },
-          ], correctChoiceId: "b" },
+            { id: "b", text: "Comparing yourself to famous artists" },
+            { id: "c", text: "Listing materials used" },
+            { id: "d", text: "Analysing process and product to identify improvement" },
+          ], correctChoiceId: "d" },
           markscheme: {
             principles: [{ kind: "skill", name: "Reflection", statement: "Critical analysis of process and product to guide improvement." }],
             steps: [
@@ -112,11 +112,11 @@ export const lesson33: Lesson = {
           id: "va-u3-reflective-practice-q5", difficulty: "foundation", totalMarks: 2,
           stem: "A reflection that asks 'what will I do differently next time?' is focused on:",
           response: { type: "mcq", choices: [
-            { id: "a", text: "Praising finished work" },
-            { id: "b", text: "Improving future work" },
-            { id: "c", text: "Comparing fame" },
+            { id: "a", text: "Improving future work" },
+            { id: "b", text: "Comparing fame" },
+            { id: "c", text: "Praising finished work" },
             { id: "d", text: "Listing materials used" },
-          ], correctChoiceId: "b" },
+          ], correctChoiceId: "a" },
           markscheme: {
             principles: [{ kind: "skill", name: "Reflection purpose", statement: "Reflection converts analysis into improved future practice." }],
             steps: [
@@ -147,10 +147,10 @@ export const lesson33: Lesson = {
           stem: "The most effective artistic goal in reflection is:",
           response: { type: "mcq", choices: [
             { id: "a", text: "\"Be a better artist\"" },
-            { id: "b", text: "\"Complete a value study before starting the colour layer\"" },
-            { id: "c", text: "\"Try harder\"" },
+            { id: "b", text: "\"Try harder\"" },
+            { id: "c", text: "\"Complete a value study before starting the colour layer\"" },
             { id: "d", text: "\"Make it prettier\"" },
-          ], correctChoiceId: "b" },
+          ], correctChoiceId: "c" },
           markscheme: {
             principles: [{ kind: "skill", name: "Specific goals", statement: "Concrete actions can be executed and verified; vague intentions cannot." }],
             steps: [
@@ -181,11 +181,11 @@ export const lesson33: Lesson = {
           id: "va-u3-reflective-practice-q9", difficulty: "challenge", totalMarks: 2,
           stem: "Recording reflection notes during the making process is valuable because:",
           response: { type: "mcq", choices: [
-            { id: "a", text: "It replaces finished work" },
-            { id: "b", text: "It captures decisions and problems while they are fresh" },
+            { id: "a", text: "It captures decisions and problems while they are fresh" },
+            { id: "b", text: "It is quicker to produce" },
             { id: "c", text: "It is decorative" },
-            { id: "d", text: "It is quicker to produce" },
-          ], correctChoiceId: "b" },
+            { id: "d", text: "It replaces finished work" },
+          ], correctChoiceId: "a" },
           markscheme: {
             principles: [{ kind: "skill", name: "In-process reflection", statement: "Notes during making preserve reasoning that fades after completion." }],
             steps: [
@@ -223,11 +223,11 @@ export const lesson33: Lesson = {
           id: "va-u3-reflective-practice-q11", difficulty: "foundation", totalMarks: 2,
           stem: "A 'growth mindset' in artistic practice means believing that:",
           response: { type: "mcq", choices: [
-            { id: "a", text: "Talent is fixed at birth" },
-            { id: "b", text: "Skill develops through effort, practice and feedback" },
+            { id: "a", text: "Skill develops through effort, practice and feedback" },
+            { id: "b", text: "Talent is fixed at birth" },
             { id: "c", text: "Mistakes prove you cannot draw" },
             { id: "d", text: "Only geniuses make art" },
-          ], correctChoiceId: "b" },
+          ], correctChoiceId: "a" },
           markscheme: {
             principles: [{ kind: "definition", name: "Growth mindset", statement: "Ability develops through effort and feedback rather than fixed talent." }],
             steps: [
@@ -259,8 +259,8 @@ export const lesson33: Lesson = {
           response: { type: "mcq", choices: [
             { id: "a", text: "\"It was bad\"" },
             { id: "b", text: "\"The muddy middle values flattened the focal area because I skipped the value study\"" },
-            { id: "c", text: "\"I hate it\"" },
-            { id: "d", text: "\"Not my best work\"" },
+            { id: "c", text: "\"Not my best work\"" },
+            { id: "d", text: "\"I hate it\"" },
           ], correctChoiceId: "b" },
           markscheme: {
             principles: [{ kind: "skill", name: "Analytical reflection", statement: "Identify the problem, its cause and its effect on the work." }],
@@ -296,11 +296,11 @@ export const lesson33: Lesson = {
           id: "va-u3-reflective-practice-q15", difficulty: "challenge", totalMarks: 2,
           stem: "Reflection is said to 'convert mistakes into information' because:",
           response: { type: "mcq", choices: [
-            { id: "a", text: "It deletes the mistakes" },
-            { id: "b", text: "Analysing why something failed guides different future choices" },
-            { id: "c", text: "It hides them from view" },
+            { id: "a", text: "It hides them from view" },
+            { id: "b", text: "It deletes the mistakes" },
+            { id: "c", text: "Analysing why something failed guides different future choices" },
             { id: "d", text: "Teachers require it" },
-          ], correctChoiceId: "b" },
+          ], correctChoiceId: "c" },
           markscheme: {
             principles: [{ kind: "principle", name: "Mistakes as information", statement: "Analysed failures become data for better future decisions." }],
             steps: [
@@ -359,10 +359,10 @@ export const lesson33: Lesson = {
           id: "va-u3-portfolio-development-q1", difficulty: "foundation", totalMarks: 2,
           stem: "A strong artist portfolio should primarily show:",
           response: { type: "mcq", choices: [
-            { id: "a", text: "Every work ever made" },
+            { id: "a", text: "Copies of famous artworks" },
             { id: "b", text: "Range, growth and resolved pieces that represent current ability" },
             { id: "c", text: "Only the most expensive materials used" },
-            { id: "d", text: "Copies of famous artworks" },
+            { id: "d", text: "Every work ever made" },
           ], correctChoiceId: "b" },
           markscheme: {
             principles: [{ kind: "skill", name: "Portfolio curation", statement: "Curated selection showing range, growth and best work." }],
@@ -432,11 +432,11 @@ export const lesson33: Lesson = {
           id: "va-u3-portfolio-development-q5", difficulty: "foundation", totalMarks: 2,
           stem: "A portfolio differs from an archive because it is:",
           response: { type: "mcq", choices: [
-            { id: "a", text: "A complete record of all work ever made" },
-            { id: "b", text: "A curated selection representing ability and growth" },
-            { id: "c", text: "Randomly ordered" },
-            { id: "d", text: "Free of photographs" },
-          ], correctChoiceId: "b" },
+            { id: "a", text: "Free of photographs" },
+            { id: "b", text: "A complete record of all work ever made" },
+            { id: "c", text: "A curated selection representing ability and growth" },
+            { id: "d", text: "Randomly ordered" },
+          ], correctChoiceId: "c" },
           markscheme: {
             principles: [{ kind: "definition", name: "Portfolio", statement: "A curated selection representing development and current ability." }],
             steps: [
@@ -466,11 +466,11 @@ export const lesson33: Lesson = {
           id: "va-u3-portfolio-development-q7", difficulty: "core", totalMarks: 2,
           stem: "Sketchbook pages strengthen a portfolio because they show:",
           response: { type: "mcq", choices: [
-            { id: "a", text: "Finished polish only" },
-            { id: "b", text: "Process, experimentation and development of ideas" },
+            { id: "a", text: "The artist's signature" },
+            { id: "b", text: "Finished polish only" },
             { id: "c", text: "Expensive materials" },
-            { id: "d", text: "The artist's signature" },
-          ], correctChoiceId: "b" },
+            { id: "d", text: "Process, experimentation and development of ideas" },
+          ], correctChoiceId: "d" },
           markscheme: {
             principles: [{ kind: "principle", name: "Process evidence", statement: "Sketchbooks demonstrate thinking and sustained practice." }],
             steps: [
@@ -502,10 +502,10 @@ export const lesson33: Lesson = {
           stem: "Consistent, professional photography in a portfolio matters because it:",
           response: { type: "mcq", choices: [
             { id: "a", text: "Only makes it look tidy" },
-            { id: "b", text: "Allows fair, accurate assessment of the work" },
-            { id: "c", text: "Is required by law" },
+            { id: "b", text: "Is required by law" },
+            { id: "c", text: "Allows fair, accurate assessment of the work" },
             { id: "d", text: "Hides flaws" },
-          ], correctChoiceId: "b" },
+          ], correctChoiceId: "c" },
           markscheme: {
             principles: [{ kind: "skill", name: "Documentation quality", statement: "Consistent photography enables fair assessment of work not seen in person." }],
             steps: [
@@ -549,11 +549,11 @@ export const lesson33: Lesson = {
           id: "va-u3-portfolio-development-q11", difficulty: "foundation", totalMarks: 2,
           stem: "An artist statement should primarily explain:",
           response: { type: "mcq", choices: [
-            { id: "a", text: "Only the list of materials used" },
-            { id: "b", text: "The artist's practice, themes, intentions and context" },
-            { id: "c", text: "The prices of the work" },
-            { id: "d", text: "School grades" },
-          ], correctChoiceId: "b" },
+            { id: "a", text: "School grades" },
+            { id: "b", text: "The prices of the work" },
+            { id: "c", text: "The artist's practice, themes, intentions and context" },
+            { id: "d", text: "Only the list of materials used" },
+          ], correctChoiceId: "c" },
           markscheme: {
             principles: [{ kind: "definition", name: "Artist statement", statement: "A written text explaining practice, intentions and context for viewers." }],
             steps: [
@@ -583,11 +583,11 @@ export const lesson33: Lesson = {
           id: "va-u3-portfolio-development-q13", difficulty: "core", totalMarks: 2,
           stem: "Including process pages alongside finished work is valuable because it:",
           response: { type: "mcq", choices: [
-            { id: "a", text: "Pads the portfolio" },
-            { id: "b", text: "Evidences thinking and sustained practice" },
+            { id: "a", text: "Evidences thinking and sustained practice" },
+            { id: "b", text: "Means finished work alone is sufficient" },
             { id: "c", text: "Is faster to produce" },
-            { id: "d", text: "Means finished work alone is sufficient" },
-          ], correctChoiceId: "b" },
+            { id: "d", text: "Pads the portfolio" },
+          ], correctChoiceId: "a" },
           markscheme: {
             principles: [{ kind: "principle", name: "Process evidence", statement: "Process documentation demonstrates thinking and practice." }],
             steps: [
@@ -622,11 +622,11 @@ export const lesson33: Lesson = {
           id: "va-u3-portfolio-development-q15", difficulty: "challenge", totalMarks: 2,
           stem: "The best balance of early and recent work in a portfolio is:",
           response: { type: "mcq", choices: [
-            { id: "a", text: "Only recent strongest pieces" },
-            { id: "b", text: "Mostly best current work with a few early pieces showing development" },
+            { id: "a", text: "Random selection" },
+            { id: "b", text: "Only recent strongest pieces" },
             { id: "c", text: "Only early work" },
-            { id: "d", text: "Random selection" },
-          ], correctChoiceId: "b" },
+            { id: "d", text: "Mostly best current work with a few early pieces showing development" },
+          ], correctChoiceId: "d" },
           markscheme: {
             principles: [{ kind: "principle", name: "Portfolio balance", statement: "Show best current ability plus enough history to evidence growth." }],
             steps: [

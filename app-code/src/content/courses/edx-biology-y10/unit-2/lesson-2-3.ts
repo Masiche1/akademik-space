@@ -54,12 +54,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Pulmonary artery" },
-              { id: "b", text: "Pulmonary vein" },
-              { id: "c", text: "Vena cava" },
-              { id: "d", text: "Aorta" },
+              { id: "a", text: "Vena cava" },
+              { id: "b", text: "Pulmonary artery" },
+              { id: "c", text: "Aorta" },
+              { id: "d", text: "Pulmonary vein" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -191,10 +191,10 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Xylem" },
+              { id: "a", text: "Palisade mesophyll" },
               { id: "b", text: "Phloem" },
-              { id: "c", text: "Palisade mesophyll" },
-              { id: "d", text: "Root hair cells" },
+              { id: "c", text: "Root hair cells" },
+              { id: "d", text: "Xylem" },
             ],
             correctChoiceId: "b",
           },

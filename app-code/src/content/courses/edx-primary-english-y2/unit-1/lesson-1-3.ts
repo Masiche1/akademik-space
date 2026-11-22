@@ -60,12 +60,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "1" },
+              { id: "a", text: "3" },
               { id: "b", text: "2" },
-              { id: "c", text: "3" },
-              { id: "d", text: "4" },
+              { id: "c", text: "4" },
+              { id: "d", text: "1" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -88,12 +88,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "but-ter-fly" },
-              { id: "b", text: "bu-tte-rfly" },
-              { id: "c", text: "butt-er-fl-y" },
-              { id: "d", text: "b-u-t-t-e-r-f-l-y" },
+              { id: "a", text: "bu-tte-rfly" },
+              { id: "b", text: "but-ter-fly" },
+              { id: "c", text: "b-u-t-t-e-r-f-l-y" },
+              { id: "d", text: "butt-er-fl-y" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -226,10 +226,10 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "After every word" },
+              { id: "a", text: "Never pause" },
               { id: "b", text: "At commas and full stops" },
-              { id: "c", text: "Never pause" },
-              { id: "d", text: "Only at the end" },
+              { id: "c", text: "Only at the end" },
+              { id: "d", text: "After every word" },
             ],
             correctChoiceId: "b",
           },
@@ -260,12 +260,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Voice goes down" },
-              { id: "b", text: "Voice goes up at the end" },
+              { id: "a", text: "Voice goes up at the end" },
+              { id: "b", text: "Voice goes down" },
               { id: "c", text: "Very quietly" },
               { id: "d", text: "Same as a statement" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

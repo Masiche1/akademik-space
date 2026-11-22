@@ -66,12 +66,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The author is well-known." },
-              { id: "b", text: "A well-known author visited the school." },
-              { id: "c", text: "A well known author visited the school." },
-              { id: "d", text: "A highly-regarded author visited the school." },
+              { id: "a", text: "A well known author visited the school." },
+              { id: "b", text: "The author is well-known." },
+              { id: "c", text: "A highly-regarded author visited the school." },
+              { id: "d", text: "A well-known author visited the school." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "convention", name: "Compound modifiers", statement: "Hyphenate a compound modifier before a noun, not after it, and not after an -ly adverb." }],
@@ -89,12 +89,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The student is right, since grammar rules never change." },
-              { id: "b", text: "The student is wrong, because any usage is acceptable in any context." },
-              { id: "c", text: "The student states a traditional rule that many current guides no longer enforce; the writer should follow the style guide for the context and avoid awkward constructions." },
-              { id: "d", text: "The student is right, because Latin rules govern English." },
+              { id: "a", text: "The student is wrong, because any usage is acceptable in any context." },
+              { id: "b", text: "The student is right, because Latin rules govern English." },
+              { id: "c", text: "The student is right, since grammar rules never change." },
+              { id: "d", text: "The student states a traditional rule that many current guides no longer enforce; the writer should follow the style guide for the context and avoid awkward constructions." },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Usage", statement: "Usage is convention that changes over time; style guides resolve disputed cases for a given context." }],
@@ -199,12 +199,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A periodic sentence with inversion, delaying the main idea to the end." },
-              { id: "b", text: "A cumulative sentence that begins with the main clause." },
-              { id: "c", text: "A deliberate fragment." },
-              { id: "d", text: "A simple sentence with no inversion." },
+              { id: "a", text: "A simple sentence with no inversion." },
+              { id: "b", text: "A deliberate fragment." },
+              { id: "c", text: "A periodic sentence with inversion, delaying the main idea to the end." },
+              { id: "d", text: "A cumulative sentence that begins with the main clause." },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Periodic sentence", statement: "A periodic sentence withholds its main idea until the end, creating suspense." }],
@@ -222,12 +222,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "They show the narrator does not know grammar." },
-              { id: "b", text: "They slow and isolate each idea, building tension and giving the narration the clipped rhythm of dread." },
-              { id: "c", text: "They make the passage longer and more descriptive." },
+              { id: "a", text: "They make the passage longer and more descriptive." },
+              { id: "b", text: "They show the narrator does not know grammar." },
+              { id: "c", text: "They slow and isolate each idea, building tension and giving the narration the clipped rhythm of dread." },
               { id: "d", text: "They create a cheerful, relaxed mood." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Deliberate fragment", statement: "Fragments isolate an idea for emphasis and alter rhythm." }],

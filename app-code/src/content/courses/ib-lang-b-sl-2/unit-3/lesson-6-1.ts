@@ -52,10 +52,10 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A culture where everyone lives alone" },
+              { id: "a", text: "A culture that bans all groups" },
               { id: "b", text: "A cultural orientation prioritising group harmony and collective responsibility" },
               { id: "c", text: "A culture with no leaders" },
-              { id: "d", text: "A culture that bans all groups" },
+              { id: "d", text: "A culture where everyone lives alone" },
             ],
             correctChoiceId: "b",
           },
@@ -147,11 +147,11 @@ export const lesson61: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Uncertainty avoidance" },
-              { id: "b", text: "Power distance" },
-              { id: "c", text: "Individualism" },
-              { id: "d", text: "Collectivism" },
+              { id: "b", text: "Individualism" },
+              { id: "c", text: "Collectivism" },
+              { id: "d", text: "Power distance" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -174,11 +174,11 @@ export const lesson61: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Disrespectful and rude" },
-              { id: "b", text: "Engaged and critical-thinking" },
-              { id: "c", text: "Confused about the rules" },
-              { id: "d", text: "Politely indifferent" },
+              { id: "b", text: "Politely indifferent" },
+              { id: "c", text: "Engaged and critical-thinking" },
+              { id: "d", text: "Confused about the rules" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -200,12 +200,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Spontaneous improvisation" },
-              { id: "b", text: "Explicit rules, schedules and clear instructions" },
-              { id: "c", text: "Ambiguous, open-ended tasks" },
-              { id: "d", text: "Avoiding all planning" },
+              { id: "a", text: "Avoiding all planning" },
+              { id: "b", text: "Ambiguous, open-ended tasks" },
+              { id: "c", text: "Explicit rules, schedules and clear instructions" },
+              { id: "d", text: "Spontaneous improvisation" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -227,12 +227,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Individualist" },
+              { id: "a", text: "Collectivist" },
               { id: "b", text: "Low power distance" },
-              { id: "c", text: "Collectivist" },
-              { id: "d", text: "High uncertainty avoidance" },
+              { id: "c", text: "High uncertainty avoidance" },
+              { id: "d", text: "Individualist" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -254,10 +254,10 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "They are fixed rules that every person in a culture must follow" },
+              { id: "a", text: "They can predict every individual's behaviour" },
               { id: "b", text: "They describe tendencies — individuals within a culture always vary" },
-              { id: "c", text: "They apply only to workplace communication" },
-              { id: "d", text: "They can predict every individual's behaviour" },
+              { id: "c", text: "They are fixed rules that every person in a culture must follow" },
+              { id: "d", text: "They apply only to workplace communication" },
             ],
             correctChoiceId: "b",
           },
@@ -281,12 +281,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "High power distance only" },
-              { id: "b", text: "High uncertainty avoidance only" },
+              { id: "a", text: "Collectivist" },
+              { id: "b", text: "High power distance only" },
               { id: "c", text: "Individualist" },
-              { id: "d", text: "Collectivist" },
+              { id: "d", text: "High uncertainty avoidance only" },
             ],
-            correctChoiceId: "d",
+            correctChoiceIa: "d",
           },
           markscheme: {
             principles: [
@@ -308,12 +308,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Avoiding all contact with foreigners" },
-              { id: "b", text: "A culture's tolerance for ambiguity and unstructured situations" },
-              { id: "c", text: "Fear of making grammatical errors" },
-              { id: "d", text: "Avoiding exams and assessments" },
+              { id: "a", text: "Avoiding exams and assessments" },
+              { id: "b", text: "Avoiding all contact with foreigners" },
+              { id: "c", text: "A culture's tolerance for ambiguity and unstructured situations" },
+              { id: "d", text: "Fear of making grammatical errors" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -493,8 +493,8 @@ export const lesson61: Lesson = {
             choices: [
               { id: "a", text: "Pretending to be from another culture" },
               { id: "b", text: "Adjusting your communication style to suit a different cultural context" },
-              { id: "c", text: "Learning every language perfectly" },
-              { id: "d", text: "Avoiding all cross-cultural contact" },
+              { id: "c", text: "Avoiding all cross-cultural contact" },
+              { id: "d", text: "Learning every language perfectly" },
             ],
             correctChoiceId: "b",
           },
@@ -585,12 +585,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Perfectly imitating another culture's behaviour" },
-              { id: "b", text: "Giving up your own communication style entirely" },
-              { id: "c", text: "Speaking only in the other person's language" },
-              { id: "d", text: "Adjusting your communication style to suit a different cultural context" },
+              { id: "a", text: "Adjusting your communication style to suit a different cultural context" },
+              { id: "b", text: "Speaking only in the other person's language" },
+              { id: "c", text: "Giving up your own communication style entirely" },
+              { id: "d", text: "Perfectly imitating another culture's behaviour" },
             ],
-            correctChoiceId: "d",
+            correctChoiceIa: "d",
           },
           markscheme: {
             principles: [
@@ -613,11 +613,11 @@ export const lesson61: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "State the criticism as bluntly as possible" },
-              { id: "b", text: "Soften directness and build rapport first" },
-              { id: "c", text: "Send the feedback only by email" },
-              { id: "d", text: "Avoid giving any feedback" },
+              { id: "b", text: "Avoid giving any feedback" },
+              { id: "c", text: "Soften directness and build rapport first" },
+              { id: "d", text: "Send the feedback only by email" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -640,11 +640,11 @@ export const lesson61: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Using the same slang as your friends" },
-              { id: "b", text: "Adjusting formality — titles, greetings, politeness level — to cultural expectations" },
-              { id: "c", text: "Speaking as loudly as possible" },
+              { id: "b", text: "Speaking as loudly as possible" },
+              { id: "c", text: "Adjusting formality — titles, greetings, politeness level — to cultural expectations" },
               { id: "d", text: "Avoiding all polite expressions" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -666,12 +666,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Non-native speakers and anyone processing a second language" },
-              { id: "b", text: "Only fluent native speakers" },
+              { id: "a", text: "Nobody — it wastes time" },
+              { id: "b", text: "Non-native speakers and anyone processing a second language" },
               { id: "c", text: "People who are hard of hearing only" },
-              { id: "d", text: "Nobody — it wastes time" },
+              { id: "d", text: "Only fluent native speakers" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -693,12 +693,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Is grammatically incorrect" },
-              { id: "b", text: "Feels patronising or inauthentic — performance rather than communication" },
-              { id: "c", text: "Is illegal in most countries" },
-              { id: "d", text: "Always improves relationships" },
+              { id: "a", text: "Is illegal in most countries" },
+              { id: "b", text: "Is grammatically incorrect" },
+              { id: "c", text: "Always improves relationships" },
+              { id: "d", text: "Feels patronising or inauthentic — performance rather than communication" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -720,12 +720,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Adapting every aspect of your behaviour completely" },
+              { id: "a", text: "Adapting the big differences — directness, formality — while remaining yourself" },
               { id: "b", text: "Ignoring all cultural differences" },
-              { id: "c", text: "Adapting the big differences — directness, formality — while remaining yourself" },
+              { id: "c", text: "Adapting every aspect of your behaviour completely" },
               { id: "d", text: "Only adapting your accent" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -747,10 +747,10 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Assume your own norms apply everywhere" },
-              { id: "b", text: "Avoid all eye contact permanently" },
+              { id: "a", text: "Avoid all eye contact permanently" },
+              { id: "b", text: "Copy the most confident person's gestures exactly" },
               { id: "c", text: "Observe others and ask when unsure" },
-              { id: "d", text: "Copy the most confident person's gestures exactly" },
+              { id: "d", text: "Assume your own norms apply everywhere" },
             ],
             correctChoiceId: "c",
           },

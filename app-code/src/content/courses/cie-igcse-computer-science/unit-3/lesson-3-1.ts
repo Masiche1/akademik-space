@@ -51,7 +51,7 @@ export const lesson71: Lesson = {
           "choices": [
                     {
                               "id": "a",
-                              "text": "Decision"
+                              "text": "Process"
                     },
                     {
                               "id": "b",
@@ -59,14 +59,14 @@ export const lesson71: Lesson = {
                     },
                     {
                               "id": "c",
-                              "text": "Process"
+                              "text": "Input/output"
                     },
                     {
                               "id": "d",
-                              "text": "Input/output"
+                              "text": "Decision"
                     }
           ],
-          "correctChoiceId": "a"
+          "correctChoiceId": "d"
 },
           markscheme: {
           "principles": [
@@ -213,6 +213,284 @@ export const lesson71: Lesson = {
           ],
           "finalAnswer": "Algorithm design with flowcharts and pseudocode."
 },
+        },
+        {
+          id: "ciecs-u3-al-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Which flowchart symbol represents the start or end of an algorithm?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Diamond" },
+              { id: "b", text: "Parallelogram" },
+              { id: "c", text: "Rectangle" },
+              { id: "d", text: "Oval" },
+            ],
+            dorrectChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              { kind: "definition", name: "Flowchart symbols", statement: "Oval marks start/end." },
+            ],
+            steps: [
+              { reasoning: "The oval terminator shows where the algorithm begins or ends.", marks: 1, markCode: "M" },
+            ],
+            finalAnswer: "**(c)** Oval",
+          },
+        },
+        {
+          id: "ciecs-u3-al-q6",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Which flowchart symbol represents a process or calculation?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Arrow" },
+              { id: "b", text: "Oval" },
+              { id: "c", text: "Diamond" },
+              { id: "d", text: "Rectangle" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              { kind: "definition", name: "Flowchart symbols", statement: "Rectangle marks a process step." },
+            ],
+            steps: [
+              { reasoning: "A rectangle contains an action or calculation in a flowchart.", marks: 1, markCode: "M" },
+            ],
+            finalAnswer: "**(a)** Rectangle",
+          },
+        },
+        {
+          id: "ciecs-u3-al-q7",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Which flowchart symbol represents input or output?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Parallelogram" },
+              { id: "b", text: "Circle" },
+              { id: "c", text: "Oval" },
+              { id: "d", text: "Diamond" },
+            ],
+            aorrectChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              { kind: "definition", name: "Flowchart symbols", statement: "Parallelogram marks input/output." },
+            ],
+            steps: [
+              { reasoning: "The parallelogram is used for data entering or leaving the algorithm.", marks: 1, markCode: "M" },
+            ],
+            finalAnswer: "**(c)** Parallelogram",
+          },
+        },
+        {
+          id: "ciecs-u3-al-q8",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "In pseudocode, what does IF ... THEN ... ELSE represent?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Input only" },
+              { id: "b", text: "Output only" },
+              { id: "c", text: "Iteration" },
+              { id: "d", text: "Selection" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              { kind: "definition", name: "Selection", statement: "Chooses instructions using a condition." },
+            ],
+            steps: [
+              { reasoning: "IF/ELSE chooses between alternatives based on a condition.", marks: 1, markCode: "M" },
+            ],
+            finalAnswer: "**(b)** Selection",
+          },
+        },
+        {
+          id: "ciecs-u3-al-q9",
+          difficulty: "challenge",
+          totalMarks: 1,
+          stem: "What is decomposition in algorithm design?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Writing code in a programming language" },
+              { id: "b", text: "Deleting failed attempts" },
+              { id: "c", text: "Breaking a problem into smaller sub-problems" },
+              { id: "d", text: "Drawing only the final flowchart" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              { kind: "definition", name: "Decomposition", statement: "Split complex problems into parts." },
+            ],
+            steps: [
+              { reasoning: "Decomposition makes large problems easier to design and test.", marks: 1, markCode: "M" },
+            ],
+            finalAnswer: "**(b)** Breaking into sub-problems",
+          },
+        },
+        {
+          id: "ciecs-u3-al-q10",
+          difficulty: "challenge",
+          totalMarks: 1,
+          stem: "Which pseudocode construct repeats instructions a set number of times?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "FOR ... TO ... DO" },
+              { id: "b", text: "OUTPUT" },
+              { id: "c", text: "END" },
+              { id: "d", text: "INPUT" },
+            ],
+            aorrectChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              { kind: "definition", name: "Iteration", statement: "Loops repeat instructions." },
+            ],
+            steps: [
+              { reasoning: "FOR loops repeat a block for a counted range of values.", marks: 1, markCode: "M" },
+            ],
+            finalAnswer: "**(c)** FOR ... TO ... DO",
+          },
+        },
+        {
+          id: "ciecs-u3-al-q11",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Pseudocode: x = 5; FOR i = 1 TO 3 DO x = x + i. What is the final value of x?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 11 }],
+          },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Trace algorithm", statement: "Apply each loop iteration in order." },
+            ],
+            steps: [
+              { reasoning: "x = 5 + 1 + 2 + 3 = 11.", marks: 1, markCode: "A", part: "a" },
+            ],
+            finalAnswer: "11",
+          },
+        },
+        {
+          id: "ciecs-u3-al-q12",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Pseudocode: total = 0; FOR i = 1 TO 10 DO total = total + i. What is the final value of total?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 55 }],
+          },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Sum loop", statement: "Add each loop value to the total." },
+            ],
+            steps: [
+              { reasoning: "1 + 2 + ... + 10 = 55.", marks: 1, markCode: "A", part: "a" },
+            ],
+            finalAnswer: "55",
+          },
+        },
+        {
+          id: "ciecs-u3-al-q13",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "Pseudocode: total = 0; FOR i = 1 TO 4 DO total = total + i * i. (a) How many times does the loop body run? (b) What is the final value of total?",
+          response: {
+            type: "numeric",
+            parts: [
+              { label: "a", answer: 4 },
+              { label: "b", answer: 30 },
+            ],
+          },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Trace loop", statement: "Loop runs once per value in range." },
+            ],
+            steps: [
+              { reasoning: "The loop runs for i = 1, 2, 3, 4: 4 iterations.", marks: 1, markCode: "A", part: "a" },
+              { reasoning: "Total = 1 + 4 + 9 + 16 = 30.", marks: 1, markCode: "A", part: "b" },
+            ],
+            finalAnswer: "(a) 4; (b) 30",
+          },
+        },
+        {
+          id: "ciecs-u3-al-q14",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "For the word 'education': (a) How many vowels does it contain? (b) How many consonants does it contain?",
+          response: {
+            type: "numeric",
+            parts: [
+              { label: "a", answer: 5 },
+              { label: "b", answer: 4 },
+            ],
+          },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Character classification", statement: "Count vowels and consonants separately." },
+            ],
+            steps: [
+              { reasoning: "Vowels are e, u, a, i, o: 5.", marks: 1, markCode: "A", part: "a" },
+              { reasoning: "The word has 9 letters, so consonants = 9 - 5 = 4.", marks: 1, markCode: "A", part: "b" },
+            ],
+            finalAnswer: "(a) 5; (b) 4",
+          },
+        },
+        {
+          id: "ciecs-u3-al-q15",
+          difficulty: "challenge",
+          totalMarks: 3,
+          stem: "Pseudocode computes a factorial: result = 1; FOR i = 1 TO n DO result = result * i. For n = 5: (a) How many times does the loop body run? (b) What is result? (c) What would result be if n = 4 instead?",
+          response: {
+            type: "numeric",
+            parts: [
+              { label: "a", answer: 5 },
+              { label: "b", answer: 120 },
+              { label: "c", answer: 24 },
+            ],
+          },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Factorial trace", statement: "Multiply result by each loop value." },
+            ],
+            steps: [
+              { reasoning: "For n = 5 the loop runs 5 times.", marks: 1, markCode: "A", part: "a" },
+              { reasoning: "5! = 1 * 2 * 3 * 4 * 5 = 120.", marks: 1, markCode: "A", part: "b" },
+              { reasoning: "4! = 1 * 2 * 3 * 4 = 24.", marks: 1, markCode: "A", part: "c" },
+            ],
+            finalAnswer: "(a) 5; (b) 120; (c) 24",
+          },
+        },
+        {
+          id: "ciecs-u3-al-q16",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "Write pseudocode for a program that prints 'Fizz' for multiples of 3, 'Buzz' for multiples of 5, 'FizzBuzz' for multiples of both, and the number otherwise, for 1 to 20. Explain the decisions and loop used.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "technique", name: "FizzBuzz algorithm", statement: "Loop with nested selection handles all cases." },
+            ],
+            steps: [
+              { reasoning: "A FOR loop runs i from 1 to 20.", marks: 1, markCode: "M" },
+              { reasoning: "IF i MOD 15 = 0 outputs FizzBuzz before checking 3 or 5 alone.", marks: 1, markCode: "M" },
+              { reasoning: "ELSE IF checks multiples of 3 and 5, otherwise outputs i.", marks: 1, markCode: "M" },
+              { reasoning: "The algorithm is clear, correct and uses appropriate selection and iteration.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "Loop plus ordered IF/ELSE selection",
+          },
         },
       ],
     },

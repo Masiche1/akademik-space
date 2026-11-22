@@ -49,12 +49,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$x=5$" },
-              { id: "b", text: "$x=10$" },
-              { id: "c", text: "$x=25$" },
-              { id: "d", text: "$x=0$" },
+              { id: "a", text: "$x=10$" },
+              { id: "b", text: "$x=0$" },
+              { id: "c", text: "$x=5$" },
+              { id: "d", text: "$x=25$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -174,12 +174,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$x=4$" },
-              { id: "b", text: "$x=6$" },
-              { id: "c", text: "$x=12$" },
-              { id: "d", text: "$x=36$" },
+              { id: "a", text: "$x=6$" },
+              { id: "b", text: "$x=4$" },
+              { id: "c", text: "$x=36$" },
+              { id: "d", text: "$x=12$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -203,11 +203,11 @@ export const lesson53: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$12$ m$^2$" },
-              { id: "b", text: "$36$ m$^2$" },
-              { id: "c", text: "$48$ m$^2$" },
+              { id: "b", text: "$48$ m$^2$" },
+              { id: "c", text: "$36$ m$^2$" },
               { id: "d", text: "$24$ m$^2$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -230,12 +230,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$h=2r$" },
-              { id: "b", text: "$h=r$" },
-              { id: "c", text: "$h=\\dfrac{r}{2}$" },
+              { id: "a", text: "$h=r$" },
+              { id: "b", text: "$h=\\dfrac{r}{2}$" },
+              { id: "c", text: "$h=2r$" },
               { id: "d", text: "$h=4r$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -444,9 +444,9 @@ export const lesson53: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$4$" },
-              { id: "b", text: "$8$" },
-              { id: "c", text: "$-4$" },
-              { id: "d", text: "$20$" },
+              { id: "b", text: "$20$" },
+              { id: "c", text: "$8$" },
+              { id: "d", text: "$-4$" },
             ],
             correctChoiceId: "a",
           },
@@ -524,12 +524,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$13$ m s$^{-1}$" },
+              { id: "a", text: "$4$ m s$^{-1}$" },
               { id: "b", text: "$21$ m s$^{-1}$" },
-              { id: "c", text: "$4$ m s$^{-1}$" },
-              { id: "d", text: "$9$ m s$^{-1}$" },
+              { id: "c", text: "$9$ m s$^{-1}$" },
+              { id: "d", text: "$13$ m s$^{-1}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -652,9 +652,9 @@ export const lesson53: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$11$ m s$^{-1}$" },
-              { id: "b", text: "$10$ m s$^{-1}$" },
-              { id: "c", text: "$5$ m s$^{-1}$" },
-              { id: "d", text: "$23$ m s$^{-1}$" },
+              { id: "b", text: "$23$ m s$^{-1}$" },
+              { id: "c", text: "$10$ m s$^{-1}$" },
+              { id: "d", text: "$5$ m s$^{-1}$" },
             ],
             correctChoiceId: "a",
           },
@@ -679,12 +679,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$t=0$" },
-              { id: "b", text: "$t=1$" },
+              { id: "a", text: "$t=1$" },
+              { id: "b", text: "$t=0$" },
               { id: "c", text: "$t=3$" },
               { id: "d", text: "$t=\\pm1$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -707,12 +707,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$t>3$" },
-              { id: "b", text: "$t<3$" },
-              { id: "c", text: "$0<t<3$" },
-              { id: "d", text: "For all $t\\ge0$" },
+              { id: "a", text: "$0<t<3$" },
+              { id: "b", text: "For all $t\\ge0$" },
+              { id: "c", text: "$t<3$" },
+              { id: "d", text: "$t>3$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -924,12 +924,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$v=-2$ m s$^{-1}$, in the negative direction" },
-              { id: "b", text: "$v=-5$ m s$^{-1}$, in the negative direction" },
-              { id: "c", text: "$v=2$ m s$^{-1}$, in the positive direction" },
-              { id: "d", text: "$v=14$ m s$^{-1}$, in the positive direction" },
+              { id: "a", text: "$v=-5$ m s$^{-1}$, in the negative direction" },
+              { id: "b", text: "$v=2$ m s$^{-1}$, in the positive direction" },
+              { id: "c", text: "$v=14$ m s$^{-1}$, in the positive direction" },
+              { id: "d", text: "$v=-2$ m s$^{-1}$, in the negative direction" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

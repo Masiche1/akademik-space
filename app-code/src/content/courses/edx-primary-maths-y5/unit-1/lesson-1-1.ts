@@ -65,11 +65,11 @@ export const lesson71: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "7" },
-              { id: "b", text: "70" },
+              { id: "b", text: "70 000" },
               { id: "c", text: "700" },
-              { id: "d", text: "70 000" },
+              { id: "d", text: "70" },
             ],
-            correctChoiceId: "d",
+            correctChoiceIb: "d",
           },
           markscheme: {
             principles: [
@@ -283,11 +283,11 @@ export const lesson71: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "-3" },
-              { id: "b", text: "-7" },
-              { id: "c", text: "They are equal" },
-              { id: "d", text: "Cannot tell" },
+              { id: "b", text: "They are equal" },
+              { id: "c", text: "Cannot tell" },
+              { id: "d", text: "-7" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

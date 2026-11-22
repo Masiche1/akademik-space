@@ -69,12 +69,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Pentagon" },
-              { id: "b", text: "Hexagon" },
-              { id: "c", text: "Octagon" },
-              { id: "d", text: "Square" },
+              { id: "a", text: "Hexagon" },
+              { id: "b", text: "Square" },
+              { id: "c", text: "Pentagon" },
+              { id: "d", text: "Octagon" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -303,9 +303,9 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "circle" },
-              { id: "b", text: "square" },
-              { id: "c", text: "triangle" },
-              { id: "d", text: "rectangle" },
+              { id: "b", text: "triangle" },
+              { id: "c", text: "rectangle" },
+              { id: "d", text: "square" },
             ],
             correctChoiceId: "a",
           },

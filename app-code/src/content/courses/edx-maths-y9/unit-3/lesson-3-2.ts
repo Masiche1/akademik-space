@@ -54,9 +54,9 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$4\\pi$ cm²" },
-              { id: "b", text: "$16\\pi$ cm²" },
+              { id: "b", text: "$8\\pi$ cm²" },
               { id: "c", text: "$2\\pi$ cm²" },
-              { id: "d", text: "$8\\pi$ cm²" },
+              { id: "d", text: "$16\\pi$ cm²" },
             ],
             correctChoiceId: "a",
           },
@@ -193,12 +193,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$45\\pi$ cm³" },
+              { id: "a", text: "$75\\pi$ cm³" },
               { id: "b", text: "$15\\pi$ cm³" },
-              { id: "c", text: "$30\\pi$ cm³" },
-              { id: "d", text: "$75\\pi$ cm³" },
+              { id: "c", text: "$45\\pi$ cm³" },
+              { id: "d", text: "$30\\pi$ cm³" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

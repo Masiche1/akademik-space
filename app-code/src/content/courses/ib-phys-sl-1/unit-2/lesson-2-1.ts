@@ -54,12 +54,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "newton (N)" },
-              { id: "b", text: "watt (W)" },
-              { id: "c", text: "joule (J)" },
-              { id: "d", text: "pascal (Pa)" },
+              { id: "a", text: "joule (J)" },
+              { id: "b", text: "newton (N)" },
+              { id: "c", text: "pascal (Pa)" },
+              { id: "d", text: "watt (W)" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Joule", statement: "Work and energy are measured in joules; 1 J = 1 N m." }],
@@ -80,12 +80,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$100$ J" },
-              { id: "b", text: "$4.0$ J" },
+              { id: "a", text: "$4.0$ J" },
+              { id: "b", text: "$100$ J" },
               { id: "c", text: "$25$ J" },
               { id: "d", text: "$400$ J" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "W = Fs", statement: "W = Fs when force and displacement are parallel." }],
@@ -108,9 +108,9 @@ export const lesson21: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$100$ J" },
-              { id: "b", text: "$200$ J" },
-              { id: "c", text: "$173$ J" },
-              { id: "d", text: "$50$ J" },
+              { id: "b", text: "$50$ J" },
+              { id: "c", text: "$200$ J" },
+              { id: "d", text: "$173$ J" },
             ],
             correctChoiceId: "a",
           },
@@ -169,8 +169,8 @@ export const lesson21: Lesson = {
             choices: [
               { id: "a", text: "$0$ J" },
               { id: "b", text: "$120$ J" },
-              { id: "c", text: "$13$ J" },
-              { id: "d", text: "$360$ J" },
+              { id: "c", text: "$360$ J" },
+              { id: "d", text: "$13$ J" },
             ],
             correctChoiceId: "a",
           },
@@ -193,12 +193,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "always positive" },
-              { id: "b", text: "always negative" },
-              { id: "c", text: "zero" },
+              { id: "a", text: "zero" },
+              { id: "b", text: "always positive" },
+              { id: "c", text: "always negative" },
               { id: "d", text: "positive when the body speeds up" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Sign of work", statement: "Work is negative when the force has a component opposite to the displacement." }],
@@ -220,11 +220,11 @@ export const lesson21: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$22.5$ J" },
-              { id: "b", text: "$67.5$ J" },
-              { id: "c", text: "$135$ J" },
-              { id: "d", text: "$675$ J" },
+              { id: "b", text: "$675$ J" },
+              { id: "c", text: "$67.5$ J" },
+              { id: "d", text: "$135$ J" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "E_k = ½mv²", statement: "E_k = \\frac{1}{2}mv^2" }],
@@ -246,12 +246,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$96$ J" },
-              { id: "b", text: "$83.1$ J" },
-              { id: "c", text: "$48$ J" },
+              { id: "a", text: "$48$ J" },
+              { id: "b", text: "$96$ J" },
+              { id: "c", text: "$83.1$ J" },
               { id: "d", text: "$166$ J" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "W = Fs cos θ", statement: "W = Fs\\cos\\theta" }],
@@ -273,12 +273,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$32$ J" },
-              { id: "b", text: "$64$ J" },
-              { id: "c", text: "$128$ J" },
-              { id: "d", text: "$16$ J" },
+              { id: "a", text: "$16$ J" },
+              { id: "b", text: "$128$ J" },
+              { id: "c", text: "$64$ J" },
+              { id: "d", text: "$32$ J" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "law", name: "Work–energy theorem", statement: "W_{\\text{net}} = \\Delta E_k = \\frac{1}{2}mv^2 - \\frac{1}{2}mu^2" }],
@@ -550,12 +550,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "joule (J)" },
-              { id: "b", text: "watt (W)" },
-              { id: "c", text: "newton (N)" },
-              { id: "d", text: "pascal (Pa)" },
+              { id: "a", text: "pascal (Pa)" },
+              { id: "b", text: "newton (N)" },
+              { id: "c", text: "watt (W)" },
+              { id: "d", text: "joule (J)" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Watt", statement: "1 W = 1 J/s." }],
@@ -576,12 +576,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$20$ W" },
-              { id: "b", text: "$18\\,000$ W" },
-              { id: "c", text: "$0.050$ W" },
-              { id: "d", text: "$600$ W" },
+              { id: "a", text: "$0.050$ W" },
+              { id: "b", text: "$600$ W" },
+              { id: "c", text: "$20$ W" },
+              { id: "d", text: "$18\\,000$ W" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "P = W/t", statement: "P = \\frac{W}{t}" }],
@@ -603,12 +603,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$10$ kW" },
-              { id: "b", text: "$16$ kW" },
+              { id: "a", text: "$6.4$ kW" },
+              { id: "b", text: "$10$ kW" },
               { id: "c", text: "$100$ kW" },
-              { id: "d", text: "$6.4$ kW" },
+              { id: "d", text: "$16$ kW" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "P = Fv", statement: "P = Fv for constant velocity." }],
@@ -665,9 +665,9 @@ export const lesson21: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "the work done divided by the time taken" },
-              { id: "b", text: "the force multiplied by the displacement" },
-              { id: "c", text: "the energy multiplied by the time" },
-              { id: "d", text: "the force multiplied by the velocity squared" },
+              { id: "b", text: "the energy multiplied by the time" },
+              { id: "c", text: "the force multiplied by the velocity squared" },
+              { id: "d", text: "the force multiplied by the displacement" },
             ],
             correctChoiceId: "a",
           },
@@ -690,12 +690,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$40$ W" },
-              { id: "b", text: "$144\\,000$ W" },
-              { id: "c", text: "$0.025$ W" },
-              { id: "d", text: "$2400$ W" },
+              { id: "a", text: "$144\\,000$ W" },
+              { id: "b", text: "$2400$ W" },
+              { id: "c", text: "$40$ W" },
+              { id: "d", text: "$0.025$ W" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "P = W/t", statement: "P = \\frac{W}{t}" }],
@@ -717,12 +717,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$100$ W" },
-              { id: "b", text: "$1000$ W" },
+              { id: "a", text: "$1000$ W" },
+              { id: "b", text: "$100$ W" },
               { id: "c", text: "$10$ W" },
               { id: "d", text: "$0.001$ W" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Kilowatt", statement: "1 kW = 10^3 W = 10^3 J/s." }],
@@ -744,9 +744,9 @@ export const lesson21: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$400$ W" },
-              { id: "b", text: "$6.25$ W" },
+              { id: "b", text: "$6400$ W" },
               { id: "c", text: "$58$ W" },
-              { id: "d", text: "$6400$ W" },
+              { id: "d", text: "$6.25$ W" },
             ],
             correctChoiceId: "a",
           },
@@ -771,11 +771,11 @@ export const lesson21: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$20\\%$" },
-              { id: "b", text: "$56\\%$" },
-              { id: "c", text: "$80\\%$" },
-              { id: "d", text: "$125\\%$" },
+              { id: "b", text: "$125\\%$" },
+              { id: "c", text: "$56\\%$" },
+              { id: "d", text: "$80\\%$" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Efficiency", statement: "\\eta = \\frac{\\text{useful output}}{\\text{total input}}" }],

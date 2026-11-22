@@ -52,10 +52,10 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Read every word carefully from start to finish" },
+              { id: "a", text: "Translate the whole text" },
               { id: "b", text: "Read the headings and first sentences to map the structure" },
-              { id: "c", text: "Read only the last paragraph" },
-              { id: "d", text: "Translate the whole text" },
+              { id: "c", text: "Read every word carefully from start to finish" },
+              { id: "d", text: "Read only the last paragraph" },
             ],
             correctChoiceId: "b",
           },
@@ -152,10 +152,10 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "They replace the need to read the text at all" },
+              { id: "a", text: "They tell you the text's word count" },
               { id: "b", text: "They reveal the text's structure and organisation before detailed reading" },
-              { id: "c", text: "They contain the exam answers" },
-              { id: "d", text: "They tell you the text's word count" },
+              { id: "c", text: "They replace the need to read the text at all" },
+              { id: "d", text: "They contain the exam answers" },
             ],
             correctChoiceId: "b",
           },
@@ -181,8 +181,8 @@ export const lesson41: Lesson = {
             choices: [
               { id: "a", text: "A fact that can be verified" },
               { id: "b", text: "A statement the writer wants the reader to accept as true" },
-              { id: "c", text: "The writer's final conclusion only" },
-              { id: "d", text: "A quotation from another source" },
+              { id: "c", text: "A quotation from another source" },
+              { id: "d", text: "The writer's final conclusion only" },
             ],
             correctChoiceId: "b",
           },
@@ -206,12 +206,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The writer has changed the topic completely" },
-              { id: "b", text: "The writer is presenting a counter-argument" },
-              { id: "c", text: "The text has reached its conclusion" },
+              { id: "a", text: "The writer is presenting a counter-argument" },
+              { id: "b", text: "The text has reached its conclusion" },
+              { id: "c", text: "The writer has changed the topic completely" },
               { id: "d", text: "The writer agrees fully with the critics" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -233,12 +233,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It contains the longest sentences" },
-              { id: "b", text: "It often restates the writer's purpose and position explicitly" },
-              { id: "c", text: "It is never tested in questions" },
-              { id: "d", text: "It repeats the introduction word for word" },
+              { id: "a", text: "It is never tested in questions" },
+              { id: "b", text: "It repeats the introduction word for word" },
+              { id: "c", text: "It often restates the writer's purpose and position explicitly" },
+              { id: "d", text: "It contains the longest sentences" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -261,11 +261,11 @@ export const lesson41: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Exercise is obviously good for everyone." },
-              { id: "b", text: "A 2023 study found students who exercised daily scored 15% higher on attention tests" },
-              { id: "c", text: "Many people believe sport is enjoyable" },
-              { id: "d", text: "Doctors should tell patients to exercise more" },
+              { id: "b", text: "Doctors should tell patients to exercise more" },
+              { id: "c", text: "A 2023 study found students who exercised daily scored 15% higher on attention tests" },
+              { id: "d", text: "Many people believe sport is enjoyable" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -288,11 +288,11 @@ export const lesson41: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Questions never require detailed understanding" },
-              { id: "b", text: "It reserves careful reading for the sections the questions target" },
-              { id: "c", text: "Long texts contain too many words to understand" },
-              { id: "d", text: "It lets you skip the introduction" },
+              { id: "b", text: "It lets you skip the introduction" },
+              { id: "c", text: "It reserves careful reading for the sections the questions target" },
+              { id: "d", text: "Long texts contain too many words to understand" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -492,12 +492,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The library opened in 1998." },
-              { id: "b", text: "Homework should be banned in all schools." },
-              { id: "c", text: "The school has three hundred students." },
-              { id: "d", text: "The bus arrives at 8.15." },
+              { id: "a", text: "The bus arrives at 8.15." },
+              { id: "b", text: "The school has three hundred students." },
+              { id: "c", text: "The library opened in 1998." },
+              { id: "d", text: "Homework should be banned in all schools." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -592,12 +592,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The museum opened in 2010." },
-              { id: "b", text: "It is obvious that the new law will fail." },
-              { id: "c", text: "The bus carries forty passengers." },
+              { id: "a", text: "It is obvious that the new law will fail." },
+              { id: "b", text: "The bus carries forty passengers." },
+              { id: "c", text: "The museum opened in 2010." },
               { id: "d", text: "The café closes at nine." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -619,10 +619,10 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Everyone knows exams are stressful" },
+              { id: "a", text: "Exams should be abolished anyway" },
               { id: "b", text: "My friend felt stressed before her exams" },
               { id: "c", text: "A national survey of 5,000 students found 62% reported exam anxiety" },
-              { id: "d", text: "Exams should be abolished anyway" },
+              { id: "d", text: "Everyone knows exams are stressful" },
             ],
             correctChoiceId: "c",
           },
@@ -646,12 +646,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It uses a statistic" },
-              { id: "b", text: "It cites a credible source" },
-              { id: "c", text: "It attacks the character of opponents rather than their arguments" },
-              { id: "d", text: "It presents two balanced views" },
+              { id: "a", text: "It presents two balanced views" },
+              { id: "b", text: "It attacks the character of opponents rather than their arguments" },
+              { id: "c", text: "It cites a credible source" },
+              { id: "d", text: "It uses a statistic" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -674,11 +674,11 @@ export const lesson41: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "The minister announced the policy on Tuesday" },
-              { id: "b", text: "The corrupt regime imposed its disastrous plan" },
-              { id: "c", text: "The minister described the policy as a reform" },
-              { id: "d", text: "Supporters and critics debated the policy" },
+              { id: "b", text: "Supporters and critics debated the policy" },
+              { id: "c", text: "The corrupt regime imposed its disastrous plan" },
+              { id: "d", text: "The minister described the policy as a reform" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -700,12 +700,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It uses too many statistics" },
-              { id: "b", text: "It selects only evidence supporting one side while ignoring the rest" },
-              { id: "c", text: "It cites sources from many countries" },
-              { id: "d", text: "It quotes experts accurately" },
+              { id: "a", text: "It selects only evidence supporting one side while ignoring the rest" },
+              { id: "b", text: "It cites sources from many countries" },
+              { id: "c", text: "It quotes experts accurately" },
+              { id: "d", text: "It uses too many statistics" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -727,12 +727,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "To report facts objectively" },
-              { id: "b", text: "To signal opinion, recommendation or moral judgement" },
-              { id: "c", text: "To describe past events accurately" },
-              { id: "d", text: "To make the text easier to translate" },
+              { id: "a", text: "To describe past events accurately" },
+              { id: "b", text: "To report facts objectively" },
+              { id: "c", text: "To make the text easier to translate" },
+              { id: "d", text: "To signal opinion, recommendation or moral judgement" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

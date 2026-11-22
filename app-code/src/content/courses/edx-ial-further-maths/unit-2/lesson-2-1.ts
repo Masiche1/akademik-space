@@ -53,9 +53,9 @@ export const lesson21: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$\\sinh x$" },
-              { id: "b", text: "$\\cosh x$" },
-              { id: "c", text: "$\\tanh x$" },
-              { id: "d", text: "$\\text{sech}^2x$" },
+              { id: "b", text: "$\\text{sech}^2x$" },
+              { id: "c", text: "$\\cosh x$" },
+              { id: "d", text: "$\\tanh x$" },
             ],
             correctChoiceId: "a",
           },
@@ -171,12 +171,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\frac{1}{\\sqrt{x^2+1}}$" },
-              { id: "b", text: "$\\frac{1}{\\sqrt{1-x^2}}$" },
-              { id: "c", text: "$\\frac{1}{1+x^2}$" },
-              { id: "d", text: "$\\sqrt{x^2+1}$" },
+              { id: "a", text: "$\\sqrt{x^2+1}$" },
+              { id: "b", text: "$\\frac{1}{1+x^2}$" },
+              { id: "c", text: "$\\frac{1}{\\sqrt{1-x^2}}$" },
+              { id: "d", text: "$\\frac{1}{\\sqrt{x^2+1}}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Derivative", statement: "$\\frac{d}{dx}\\text{arsinh}\\,x=\\frac{1}{\\sqrt{x^2+1}}$." }],

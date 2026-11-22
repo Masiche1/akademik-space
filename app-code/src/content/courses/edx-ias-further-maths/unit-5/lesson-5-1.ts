@@ -51,12 +51,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Integrating $a$ with respect to $t$" },
-              { id: "b", text: "Differentiating $a$" },
-              { id: "c", text: "Multiplying $a$ by $t$" },
+              { id: "a", text: "Multiplying $a$ by $t$" },
+              { id: "b", text: "Integrating $a$ with respect to $t$" },
+              { id: "c", text: "Differentiating $a$" },
               { id: "d", text: "Using SUVAT" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Kinematics", statement: "$v=\\int a\\,dt+C$." }],
@@ -168,9 +168,9 @@ export const lesson51: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "The chain rule applied to $\\frac{dv}{dt}$" },
-              { id: "b", text: "Newton's second law" },
+              { id: "b", text: "The product rule" },
               { id: "c", text: "Integration by parts" },
-              { id: "d", text: "The product rule" },
+              { id: "d", text: "Newton's second law" },
             ],
             correctChoiceId: "a",
           },

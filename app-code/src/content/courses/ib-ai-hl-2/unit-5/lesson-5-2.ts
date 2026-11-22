@@ -55,11 +55,11 @@ export const lesson52: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$\\sigma^2$" },
-              { id: "b", text: "$\\dfrac{\\sigma^2}{n}$" },
-              { id: "c", text: "$\\dfrac{\\sigma}{\\sqrt n}$" },
-              { id: "d", text: "$n\\sigma^2$" },
+              { id: "b", text: "$\\dfrac{\\sigma}{\\sqrt n}$" },
+              { id: "c", text: "$n\\sigma^2$" },
+              { id: "d", text: "$\\dfrac{\\sigma^2}{n}$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "theorem", name: "Central limit theorem", statement: "$\\bar X\\approx\\mathrm{N}(\\mu,\\sigma^2/n)$ for large $n$." }],
@@ -163,11 +163,11 @@ export const lesson52: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$\\sigma_n^2=\\dfrac{\\sum x^2-n\\bar x^2}{n}$" },
-              { id: "b", text: "$s_{n-1}^2=\\dfrac{\\sum x^2-n\\bar x^2}{n-1}$" },
+              { id: "b", text: "$\\dfrac{\\sum x^2}{n}$" },
               { id: "c", text: "$\\bar x^{\\,2}$" },
-              { id: "d", text: "$\\dfrac{\\sum x^2}{n}$" },
+              { id: "d", text: "$s_{n-1}^2=\\dfrac{\\sum x^2-n\\bar x^2}{n-1}$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Unbiased estimator", statement: "$s_{n-1}^2$ uses denominator $n-1$ so that $\\mathrm{E}(s_{n-1}^2)=\\sigma^2$." }],
@@ -188,12 +188,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$0.4$" },
-              { id: "b", text: "$2$" },
-              { id: "c", text: "$10$" },
-              { id: "d", text: "$50$" },
+              { id: "a", text: "$50$" },
+              { id: "b", text: "$10$" },
+              { id: "c", text: "$2$" },
+              { id: "d", text: "$0.4$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Standard error", statement: "The standard deviation of $\\bar X$ is $\\dfrac{\\sigma}{\\sqrt n}$." }],
@@ -257,12 +257,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$16$" },
-              { id: "b", text: "$32$" },
-              { id: "c", text: "$64$" },
+              { id: "a", text: "$64$" },
+              { id: "b", text: "$16$" },
+              { id: "c", text: "$32$" },
               { id: "d", text: "$96$" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Standard error", statement: "$\\frac{\\sigma}{\\sqrt n}\\le3$ determines the required $n$." }],
@@ -311,12 +311,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "There is a 95% probability that $\\mu$ lies in $(10,20)$" },
-              { id: "b", text: "About 95% of intervals constructed this way contain $\\mu$" },
-              { id: "c", text: "The population mean must be 15" },
-              { id: "d", text: "95% of the data values lie between 10 and 20" },
+              { id: "a", text: "About 95% of intervals constructed this way contain $\\mu$" },
+              { id: "b", text: "The population mean must be 15" },
+              { id: "c", text: "95% of the data values lie between 10 and 20" },
+              { id: "d", text: "There is a 95% probability that $\\mu$ lies in $(10,20)$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Confidence interval", statement: "The confidence level describes the long-run proportion of intervals that contain the parameter." }],
@@ -399,9 +399,9 @@ export const lesson52: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$1.43$" },
-              { id: "b", text: "$1.25$" },
-              { id: "c", text: "$30$" },
-              { id: "d", text: "$10$" },
+              { id: "b", text: "$10$" },
+              { id: "c", text: "$1.25$" },
+              { id: "d", text: "$30$" },
             ],
             correctChoiceId: "a",
           },
@@ -455,12 +455,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Rejecting $H_0$ when $H_0$ is true" },
-              { id: "b", text: "Not rejecting $H_0$ when $H_0$ is false" },
+              { id: "a", text: "Not rejecting $H_0$ when $H_0$ is false" },
+              { id: "b", text: "Rejecting $H_0$ when $H_0$ is true" },
               { id: "c", text: "Rejecting $H_1$ when $H_1$ is false" },
               { id: "d", text: "Accepting $H_0$ when the p-value is small" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Type II error", statement: "Failing to reject $H_0$ when it is false." }],
@@ -564,8 +564,8 @@ export const lesson52: Lesson = {
             choices: [
               { id: "a", text: "The probability, assuming $H_0$ is true, of a result at least as extreme as the one observed" },
               { id: "b", text: "The probability that $H_0$ is true" },
-              { id: "c", text: "The probability of a type II error" },
-              { id: "d", text: "The significance level of the test" },
+              { id: "c", text: "The significance level of the test" },
+              { id: "d", text: "The probability of a type II error" },
             ],
             correctChoiceId: "a",
           },
@@ -588,12 +588,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The set of values of the test statistic for which $H_0$ is rejected" },
-              { id: "b", text: "The set of values for which $H_1$ is rejected" },
+              { id: "a", text: "The complement of the acceptance region of $H_1$" },
+              { id: "b", text: "The set of values of the test statistic for which $H_0$ is rejected" },
               { id: "c", text: "The set of values for which the p-value exceeds the significance level" },
-              { id: "d", text: "The complement of the acceptance region of $H_1$" },
+              { id: "d", text: "The set of values for which $H_1$ is rejected" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Critical region", statement: "Values of the test statistic leading to rejection of $H_0$." }],
@@ -673,12 +673,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "increases" },
-              { id: "b", text: "decreases" },
+              { id: "a", text: "cannot be determined" },
+              { id: "b", text: "increases" },
               { id: "c", text: "stays the same" },
-              { id: "d", text: "cannot be determined" },
+              { id: "d", text: "decreases" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Power of a test", statement: "Larger samples make the test more likely to detect a false $H_0$, reducing the type II error." }],
@@ -732,12 +732,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$0.865$" },
-              { id: "b", text: "$0.135$" },
-              { id: "c", text: "$0.406$" },
-              { id: "d", text: "$0.271$" },
+              { id: "a", text: "$0.271$" },
+              { id: "b", text: "$0.865$" },
+              { id: "c", text: "$0.135$" },
+              { id: "d", text: "$0.406$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Type II error", statement: "Failing to reject $H_0$ when it is false: the count falls outside the critical region $X=0$." }],
@@ -792,12 +792,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$0.311$" },
+              { id: "a", text: "$0.104$" },
               { id: "b", text: "$0.208$" },
-              { id: "c", text: "$0.104$" },
+              { id: "c", text: "$0.311$" },
               { id: "d", text: "$0.500$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Binomial probability", statement: "$\\mathrm{P}(X=r)=\\binom nr p^r(1-p)^{n-r}$." }],

@@ -49,12 +49,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\dfrac16$" },
-              { id: "b", text: "$\\dfrac13$" },
-              { id: "c", text: "$\\dfrac12$" },
-              { id: "d", text: "$\\dfrac23$" },
+              { id: "a", text: "$\\dfrac23$" },
+              { id: "b", text: "$\\dfrac12$" },
+              { id: "c", text: "$\\dfrac16$" },
+              { id: "d", text: "$\\dfrac13$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Equally likely outcomes", statement: "$\\mathrm{P}(A)=\\frac{n(A)}{n(U)}$" }],
@@ -162,11 +162,11 @@ export const lesson51: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$\\frac{1}{13}$" },
-              { id: "b", text: "$\\frac14$" },
+              { id: "b", text: "$\\frac1{52}$" },
               { id: "c", text: "$\\frac12$" },
-              { id: "d", text: "$\\frac1{52}$" },
+              { id: "d", text: "$\\frac14$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Equally likely outcomes", statement: "$\\mathrm{P}(A)=\\frac{n(A)}{n(U)}$" }],
@@ -187,12 +187,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\frac13$" },
-              { id: "b", text: "$\\frac12$" },
-              { id: "c", text: "$\\frac23$" },
+              { id: "a", text: "$\\frac23$" },
+              { id: "b", text: "$\\frac13$" },
+              { id: "c", text: "$\\frac12$" },
               { id: "d", text: "$\\frac56$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Complement rule", statement: "$\\mathrm{P}(A')=1-\\mathrm{P}(A)$" }],
@@ -213,12 +213,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$8$" },
-              { id: "b", text: "$15$" },
-              { id: "c", text: "$20$" },
-              { id: "d", text: "$25$" },
+              { id: "a", text: "$15$" },
+              { id: "b", text: "$8$" },
+              { id: "c", text: "$25$" },
+              { id: "d", text: "$20$" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Expected occurrences", statement: "Expected number $=np$" }],
@@ -239,12 +239,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$0.00452$" },
+              { id: "a", text: "$0.00305$" },
               { id: "b", text: "$0.00592$" },
-              { id: "c", text: "$0.00610$" },
-              { id: "d", text: "$0.00305$" },
+              { id: "c", text: "$0.00452$" },
+              { id: "d", text: "$0.00610$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Without replacement", statement: "After the first ace is drawn, only 3 aces remain among 51 cards." }],
@@ -266,9 +266,9 @@ export const lesson51: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$0.275$" },
-              { id: "b", text: "$0.360$" },
-              { id: "c", text: "$0.220$" },
-              { id: "d", text: "$0.800$" },
+              { id: "b", text: "$0.800$" },
+              { id: "c", text: "$0.360$" },
+              { id: "d", text: "$0.220$" },
             ],
             correctChoiceId: "a",
           },
@@ -291,10 +291,10 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\frac14$" },
+              { id: "a", text: "$1$" },
               { id: "b", text: "$\\frac12$" },
-              { id: "c", text: "$\\frac34$" },
-              { id: "d", text: "$1$" },
+              { id: "c", text: "$\\frac14$" },
+              { id: "d", text: "$\\frac34$" },
             ],
             correctChoiceId: "b",
           },
@@ -502,9 +502,9 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$0.9$" },
+              { id: "a", text: "$0.3$" },
               { id: "b", text: "$0.7$" },
-              { id: "c", text: "$0.3$" },
+              { id: "c", text: "$0.9$" },
               { id: "d", text: "$0.2$" },
             ],
             correctChoiceId: "b",
@@ -613,12 +613,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$0.9$" },
-              { id: "b", text: "$0.8$" },
+              { id: "a", text: "$0.8$" },
+              { id: "b", text: "$0.9$" },
               { id: "c", text: "$0.7$" },
               { id: "d", text: "$0.2$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Union", statement: "$\\mathrm{P}(A\\cup B)=\\mathrm{P}(A)+\\mathrm{P}(B)-\\mathrm{P}(A\\cap B)$" }],
@@ -639,12 +639,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Yes, because $\\mathrm{P}(A\\cap B)=0.2=\\mathrm{P}(A)\\,\\mathrm{P}(B)$" },
+              { id: "a", text: "Yes, because $\\mathrm{P}(A\\cup B)=0.7$" },
               { id: "b", text: "No, because $\\mathrm{P}(A\\cap B)=0.2\\ne\\mathrm{P}(A)+\\mathrm{P}(B)$" },
-              { id: "c", text: "No, because $\\mathrm{P}(A\\cap B)=0$" },
-              { id: "d", text: "Yes, because $\\mathrm{P}(A\\cup B)=0.7$" },
+              { id: "c", text: "Yes, because $\\mathrm{P}(A\\cap B)=0.2=\\mathrm{P}(A)\\,\\mathrm{P}(B)$" },
+              { id: "d", text: "No, because $\\mathrm{P}(A\\cap B)=0$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "property", name: "Independence", statement: "$A$ and $B$ are independent iff $\\mathrm{P}(A\\cap B)=\\mathrm{P}(A)\\,\\mathrm{P}(B)$" }],
@@ -665,12 +665,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$0.12$" },
-              { id: "b", text: "$0.7$" },
-              { id: "c", text: "$0.1$" },
-              { id: "d", text: "$1$" },
+              { id: "a", text: "$1$" },
+              { id: "b", text: "$0.12$" },
+              { id: "c", text: "$0.7$" },
+              { id: "d", text: "$0.1$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Mutually exclusive events", statement: "$\\mathrm{P}(A\\cap B)=0$" }],
@@ -691,12 +691,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\dfrac{\\mathrm{P}(A\\cap B)}{\\mathrm{P}(A)}$" },
-              { id: "b", text: "$\\dfrac{\\mathrm{P}(A\\cap B)}{\\mathrm{P}(B)}$" },
+              { id: "a", text: "$\\mathrm{P}(A\\cap B)\\,\\mathrm{P}(B)$" },
+              { id: "b", text: "$\\dfrac{\\mathrm{P}(A\\cap B)}{\\mathrm{P}(A)}$" },
               { id: "c", text: "$\\dfrac{\\mathrm{P}(A\\cup B)}{\\mathrm{P}(B)}$" },
-              { id: "d", text: "$\\mathrm{P}(A\\cap B)\\,\\mathrm{P}(B)$" },
+              { id: "d", text: "$\\dfrac{\\mathrm{P}(A\\cap B)}{\\mathrm{P}(B)}$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Conditional probability", statement: "$\\mathrm{P}(A\\mid B)=\\frac{\\mathrm{P}(A\\cap B)}{\\mathrm{P}(B)}$" }],
@@ -718,11 +718,11 @@ export const lesson51: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$0.80$" },
-              { id: "b", text: "$0.15$" },
-              { id: "c", text: "$0.35$" },
-              { id: "d", text: "$0.65$" },
+              { id: "b", text: "$0.35$" },
+              { id: "c", text: "$0.65$" },
+              { id: "d", text: "$0.15$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Tree diagram", statement: "Multiply along branches for 'and'." }],
@@ -743,12 +743,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Restrict attention to the outcomes in $B$, then find the fraction that are also in $A$." },
-              { id: "b", text: "Find the fraction of all outcomes that are in both $A$ and $B$." },
-              { id: "c", text: "Add $\\mathrm{P}(A)$ and $\\mathrm{P}(B)$ and divide by $\\mathrm{P}(B)$." },
-              { id: "d", text: "Divide $\\mathrm{P}(A)$ by $\\mathrm{P}(B)$ without using the intersection." },
+              { id: "a", text: "Add $\\mathrm{P}(A)$ and $\\mathrm{P}(B)$ and divide by $\\mathrm{P}(B)$." },
+              { id: "b", text: "Restrict attention to the outcomes in $B$, then find the fraction that are also in $A$." },
+              { id: "c", text: "Divide $\\mathrm{P}(A)$ by $\\mathrm{P}(B)$ without using the intersection." },
+              { id: "d", text: "Find the fraction of all outcomes that are in both $A$ and $B$." },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Conditional probability", statement: "$\\mathrm{P}(A\\mid B)$ is the probability of $A$ when $B$ is known to have occurred." }],

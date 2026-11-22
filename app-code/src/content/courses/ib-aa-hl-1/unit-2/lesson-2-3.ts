@@ -48,12 +48,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\sqrt3$" },
-              { id: "b", text: "$\\frac{1}{\\sqrt3}$" },
-              { id: "c", text: "$2$" },
-              { id: "d", text: "$\\frac{2}{\\sqrt3}$" },
+              { id: "a", text: "$2$" },
+              { id: "b", text: "$\\frac{2}{\\sqrt3}$" },
+              { id: "c", text: "$\\frac{1}{\\sqrt3}$" },
+              { id: "d", text: "$\\sqrt3$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -152,12 +152,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\frac{1}{2}$" },
-              { id: "b", text: "$2$" },
+              { id: "a", text: "$2$" },
+              { id: "b", text: "$\\frac{2}{\\sqrt3}$" },
               { id: "c", text: "$\\sqrt3$" },
-              { id: "d", text: "$\\frac{2}{\\sqrt3}$" },
+              { id: "d", text: "$\\frac{1}{2}$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -180,12 +180,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\sqrt3$" },
-              { id: "b", text: "$-\\sqrt3$" },
+              { id: "a", text: "$\\frac{1}{\\sqrt3}$" },
+              { id: "b", text: "$\\sqrt3$" },
               { id: "c", text: "$-\\frac{1}{\\sqrt3}$" },
-              { id: "d", text: "$\\frac{1}{\\sqrt3}$" },
+              { id: "d", text: "$-\\sqrt3$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -208,12 +208,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$-\\frac{\\pi}{6}$" },
-              { id: "b", text: "$\\frac{7\\pi}{6}$" },
-              { id: "c", text: "$\\frac{11\\pi}{6}$" },
-              { id: "d", text: "$\\frac{\\pi}{6}$" },
+              { id: "a", text: "$\\frac{11\\pi}{6}$" },
+              { id: "b", text: "$\\frac{\\pi}{6}$" },
+              { id: "c", text: "$\\frac{7\\pi}{6}$" },
+              { id: "d", text: "$-\\frac{\\pi}{6}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -236,12 +236,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$-\\frac{\\pi}{3}$" },
-              { id: "b", text: "$\\frac{2\\pi}{3}$" },
-              { id: "c", text: "$\\frac{\\pi}{3}$" },
-              { id: "d", text: "$-\\frac{2\\pi}{3}$" },
+              { id: "a", text: "$\\frac{2\\pi}{3}$" },
+              { id: "b", text: "$-\\frac{\\pi}{3}$" },
+              { id: "c", text: "$-\\frac{2\\pi}{3}$" },
+              { id: "d", text: "$\\frac{\\pi}{3}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -265,11 +265,11 @@ export const lesson23: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$\\frac35$" },
-              { id: "b", text: "$\\frac45$" },
-              { id: "c", text: "$-\\frac45$" },
+              { id: "b", text: "$-\\frac45$" },
+              { id: "c", text: "$\\frac45$" },
               { id: "d", text: "$\\frac53$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -293,9 +293,9 @@ export const lesson23: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$\\frac43$" },
-              { id: "b", text: "$\\frac54$" },
+              { id: "b", text: "$\\frac34$" },
               { id: "c", text: "$\\frac53$" },
-              { id: "d", text: "$\\frac34$" },
+              { id: "d", text: "$\\frac54$" },
             ],
             correctChoiceId: "c",
           },
@@ -495,8 +495,8 @@ export const lesson23: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$\\frac{\\sqrt6+\\sqrt2}{4}$" },
-              { id: "b", text: "$\\frac{\\sqrt6-\\sqrt2}{4}$" },
-              { id: "c", text: "$\\frac{\\sqrt3+1}{2}$" },
+              { id: "b", text: "$\\frac{\\sqrt3+1}{2}$" },
+              { id: "c", text: "$\\frac{\\sqrt6-\\sqrt2}{4}$" },
               { id: "d", text: "$\\frac{\\sqrt2}{4}$" },
             ],
             correctChoiceId: "a",
@@ -601,12 +601,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\frac{\\sqrt6-\\sqrt2}{4}$" },
-              { id: "b", text: "$\\frac{\\sqrt6+\\sqrt2}{4}$" },
+              { id: "a", text: "$\\frac{\\sqrt6-\\sqrt3}{4}$" },
+              { id: "b", text: "$\\frac{\\sqrt6-\\sqrt2}{4}$" },
               { id: "c", text: "$\\frac{\\sqrt3+1}{2}$" },
-              { id: "d", text: "$\\frac{\\sqrt6-\\sqrt3}{4}$" },
+              { id: "d", text: "$\\frac{\\sqrt6+\\sqrt2}{4}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -629,12 +629,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$2-\\sqrt3$" },
+              { id: "a", text: "$\\sqrt3-1$" },
               { id: "b", text: "$2+\\sqrt3$" },
-              { id: "c", text: "$\\sqrt3-2$" },
-              { id: "d", text: "$\\sqrt3-1$" },
+              { id: "c", text: "$2-\\sqrt3$" },
+              { id: "d", text: "$\\sqrt3-2$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -657,12 +657,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\sin A\\cos B-\\cos A\\sin B$" },
-              { id: "b", text: "$\\sin A\\cos B+\\cos A\\sin B$" },
-              { id: "c", text: "$\\cos A\\sin B-\\sin A\\cos B$" },
+              { id: "a", text: "$\\sin A\\cos B+\\cos A\\sin B$" },
+              { id: "b", text: "$\\cos A\\sin B-\\sin A\\cos B$" },
+              { id: "c", text: "$\\sin A\\cos B-\\cos A\\sin B$" },
               { id: "d", text: "$\\sin A\\sin B-\\cos A\\cos B$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -685,12 +685,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$1$" },
-              { id: "b", text: "$\\frac56$" },
+              { id: "a", text: "$\\frac56$" },
+              { id: "b", text: "$\\frac15$" },
               { id: "c", text: "$-1$" },
-              { id: "d", text: "$\\frac15$" },
+              { id: "d", text: "$1$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -713,12 +713,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\cos^2\\theta-\\sin^2\\theta$" },
-              { id: "b", text: "$2\\sin^2\\theta-1$" },
-              { id: "c", text: "$1+2\\cos^2\\theta$" },
-              { id: "d", text: "$\\sin^2\\theta-\\cos^2\\theta$" },
+              { id: "a", text: "$\\sin^2\\theta-\\cos^2\\theta$" },
+              { id: "b", text: "$1+2\\cos^2\\theta$" },
+              { id: "c", text: "$2\\sin^2\\theta-1$" },
+              { id: "d", text: "$\\cos^2\\theta-\\sin^2\\theta$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -741,12 +741,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\frac{\\sqrt6-\\sqrt2}{4}$" },
-              { id: "b", text: "$\\frac{\\sqrt6+\\sqrt2}{4}$" },
-              { id: "c", text: "$\\frac{\\sqrt2-\\sqrt6}{4}$" },
-              { id: "d", text: "$\\frac{\\sqrt3-1}{4}$" },
+              { id: "a", text: "$\\frac{\\sqrt3-1}{4}$" },
+              { id: "b", text: "$\\frac{\\sqrt2-\\sqrt6}{4}$" },
+              { id: "c", text: "$\\frac{\\sqrt6+\\sqrt2}{4}$" },
+              { id: "d", text: "$\\frac{\\sqrt6-\\sqrt2}{4}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

@@ -58,12 +58,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "64 cm³" },
-              { id: "b", text: "16 cm³" },
-              { id: "c", text: "48 cm³" },
-              { id: "d", text: "32 cm³" },
+              { id: "a", text: "48 cm³" },
+              { id: "b", text: "64 cm³" },
+              { id: "c", text: "32 cm³" },
+              { id: "d", text: "16 cm³" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -85,12 +85,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$24\\pi$ cm³" },
-              { id: "b", text: "$72\\pi$ cm³" },
+              { id: "a", text: "$72\\pi$ cm³" },
+              { id: "b", text: "$24\\pi$ cm³" },
               { id: "c", text: "$8\\pi$ cm³" },
               { id: "d", text: "$216\\pi$ cm³" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -115,8 +115,8 @@ export const lesson32: Lesson = {
             choices: [
               { id: "a", text: "$\\frac{2000\\pi}{3}$ cm³ and $300\\pi$ cm²" },
               { id: "b", text: "$\\frac{4000\\pi}{3}$ cm³ and $200\\pi$ cm²" },
-              { id: "c", text: "$\\frac{2000\\pi}{3}$ cm³ and $200\\pi$ cm²" },
-              { id: "d", text: "$2000\\pi$ cm³ and $300\\pi$ cm²" },
+              { id: "c", text: "$2000\\pi$ cm³ and $300\\pi$ cm²" },
+              { id: "d", text: "$\\frac{2000\\pi}{3}$ cm³ and $200\\pi$ cm²" },
             ],
             correctChoiceId: "a",
           },
@@ -165,16 +165,16 @@ export const lesson32: Lesson = {
             examinerNote: "A1 for (a), A1 for (b), M1 A1 for (c), M1 M1 M1 A1 for (d).",
           },
         },
-        { id: "mypms5-u3-mens-q5", difficulty: "foundation", totalMarks: 1, stem: "Which formula gives the volume of a cylinder?", response: { type: "mcq", choices: [ { id: "a", text: "$V=\\pi r^2h$" }, { id: "b", text: "$V=\\frac13\\pi r^2h$" }, { id: "c", text: "$V=2\\pi rh$" }, { id: "d", text: "$V=4\\pi r^3$" } ], correctChoiceId: "a" }, markscheme: { principles: [{ kind: "formula", name: "Cylinder volume", statement: "Base area times height." }], steps: [{ reasoning: "Choose $V=\\pi r^2h$.", working: "\\pi r^2h", marks: 1, markCode: "B" }], finalAnswer: "$V=\\pi r^2h$" } },
+        { id: "mypms5-u3-mens-q5", difficulty: "foundation", totalMarks: 1, stem: "Which formula gives the volume of a cylinder?", response: { type: "mcq", choices: [ { id: "a", text: "$V=4\\pi r^3$" }, { id: "b", text: "$V=\\frac13\\pi r^2h$" }, { id: "c", text: "$V=\\pi r^2h$" }, { id: "d", text: "$V=2\\pi rh$" } ], correctChoiceId: "c" }, markscheme: { principles: [{ kind: "formula", name: "Cylinder volume", statement: "Base area times height." }], steps: [{ reasoning: "Choose $V=\\pi r^2h$.", working: "\\pi r^2h", marks: 1, markCode: "B" }], finalAnswer: "$V=\\pi r^2h$" } },
         { id: "mypms5-u3-mens-q6", difficulty: "foundation", totalMarks: 1, stem: "Find the surface area of a cube with side 3 cm.", response: { type: "numeric", parts: [{ label: "SA", answer: 54, unit: "cm²" }] }, markscheme: { principles: [{ kind: "formula", name: "Cube surface area", statement: "$SA=6s^2$." }], steps: [{ reasoning: "$6(3^2)=54$.", working: "54", marks: 1, markCode: "B" }], finalAnswer: "$54$ cm²" } },
-        { id: "mypms5-u3-mens-q7", difficulty: "core", totalMarks: 2, stem: "A cone and cylinder have the same radius and height. What is the ratio of the cone's volume to the cylinder's?", response: { type: "mcq", choices: [ { id: "a", text: "$1:3$" }, { id: "b", text: "$1:1$" }, { id: "c", text: "$3:1$" }, { id: "d", text: "$1:9$" } ], correctChoiceId: "a" }, markscheme: { principles: [{ kind: "formula", name: "Cone vs cylinder", statement: "Cone volume is one third of cylinder." }], steps: [ { reasoning: "$V_{cone}=\\frac13\\pi r^2h$.", working: "\\frac13", marks: 1, markCode: "M" }, { reasoning: "Ratio is $1:3$.", working: "1:3", marks: 1, markCode: "A" } ], finalAnswer: "$1:3$" } },
+        { id: "mypms5-u3-mens-q7", difficulty: "core", totalMarks: 2, stem: "A cone and cylinder have the same radius and height. What is the ratio of the cone's volume to the cylinder's?", response: { type: "mcq", choices: [ { id: "a", text: "$3:1$" }, { id: "b", text: "$1:9$" }, { id: "c", text: "$1:3$" }, { id: "d", text: "$1:1$" } ], correctChoiceId: "c" }, markscheme: { principles: [{ kind: "formula", name: "Cone vs cylinder", statement: "Cone volume is one third of cylinder." }], steps: [ { reasoning: "$V_{cone}=\\frac13\\pi r^2h$.", working: "\\frac13", marks: 1, markCode: "M" }, { reasoning: "Ratio is $1:3$.", working: "1:3", marks: 1, markCode: "A" } ], finalAnswer: "$1:3$" } },
         { id: "mypms5-u3-mens-q8", difficulty: "core", totalMarks: 2, stem: "Find the approximate volume of a sphere of radius 3 cm (use $\\pi\\approx3.14$).", response: { type: "numeric", parts: [{ label: "$V$", answer: 113.1, tolerance: 0.1, unit: "cm³" }] }, markscheme: { principles: [{ kind: "formula", name: "Sphere volume", statement: "$V=\\frac43\\pi r^3$." }], steps: [ { reasoning: "$\\frac43\\pi(27)=36\\pi\\approx113.1$.", working: "36\\pi", marks: 1, markCode: "M" }, { reasoning: "State the approximation.", working: "113.1", marks: 1, markCode: "A" } ], finalAnswer: "$\\approx113.1$ cm³" } },
-        { id: "mypms5-u3-mens-q9", difficulty: "core", totalMarks: 2, stem: "Find the volume of a cylinder with radius 2 cm and height 5 cm, in terms of $\\pi$.", response: { type: "mcq", choices: [ { id: "a", text: "$20\\pi$ cm³" }, { id: "b", text: "$10\\pi$ cm³" }, { id: "c", text: "$40\\pi$ cm³" }, { id: "d", text: "$4\\pi$ cm³" } ], correctChoiceId: "a" }, markscheme: { principles: [{ kind: "formula", name: "Cylinder volume", statement: "$V=\\pi(4)(5)=20\\pi$." }], steps: [ { reasoning: "Compute $r^2h=4\\times5=20$.", working: "20", marks: 1, markCode: "M" }, { reasoning: "State the volume.", working: "20\\pi", marks: 1, markCode: "A" } ], finalAnswer: "$20\\pi$ cm³" } },
+        { id: "mypms5-u3-mens-q9", difficulty: "core", totalMarks: 2, stem: "Find the volume of a cylinder with radius 2 cm and height 5 cm, in terms of $\\pi$.", response: { type: "mcq", choices: [ { id: "a", text: "$20\\pi$ cm³" }, { id: "b", text: "$4\\pi$ cm³" }, { id: "c", text: "$10\\pi$ cm³" }, { id: "d", text: "$40\\pi$ cm³" } ], correctChoiceId: "a" }, markscheme: { principles: [{ kind: "formula", name: "Cylinder volume", statement: "$V=\\pi(4)(5)=20\\pi$." }], steps: [ { reasoning: "Compute $r^2h=4\\times5=20$.", working: "20", marks: 1, markCode: "M" }, { reasoning: "State the volume.", working: "20\\pi", marks: 1, markCode: "A" } ], finalAnswer: "$20\\pi$ cm³" } },
         { id: "mypms5-u3-mens-q10", difficulty: "challenge", totalMarks: 3, stem: "A prism has a triangular cross-section of area 12 cm² and length 9 cm. What is its volume?", response: { type: "numeric", parts: [{ label: "$V$", answer: 108, unit: "cm³" }] }, markscheme: { principles: [{ kind: "formula", name: "Prism volume", statement: "$V=\\text{cross-section area}\\times\\text{length}$." }], steps: [ { reasoning: "Multiply area by length.", working: "12\\times9", marks: 1, markCode: "M" }, { reasoning: "$V=108$ cm³.", working: "108", marks: 1, markCode: "M" }, { reasoning: "State the volume.", working: "108", marks: 1, markCode: "A" } ], finalAnswer: "$108$ cm³" } },
-        { id: "mypms5-u3-mens-q11", difficulty: "challenge", totalMarks: 3, stem: "Water is poured into a cylindrical container of radius 5 cm and the level rises by 2 cm. Find the volume of water added, in terms of $\\pi$.", response: { type: "mcq", choices: [ { id: "a", text: "$50\\pi$ cm³" }, { id: "b", text: "$10\\pi$ cm³" }, { id: "c", text: "$25\\pi$ cm³" }, { id: "d", text: "$100\\pi$ cm³" } ], correctChoiceId: "a" }, markscheme: { principles: [{ kind: "formula", name: "Displacement", statement: "$\\Delta V=\\pi r^2\\Delta h$." }], steps: [ { reasoning: "Compute $\\pi(25)(2)$.", working: "50\\pi", marks: 1, markCode: "M" }, { reasoning: "State the volume.", working: "50\\pi", marks: 1, markCode: "M" }, { reasoning: "Confirm units cm³.", working: "cm^3", marks: 1, markCode: "A" } ], finalAnswer: "$50\\pi$ cm³" } },
+        { id: "mypms5-u3-mens-q11", difficulty: "challenge", totalMarks: 3, stem: "Water is poured into a cylindrical container of radius 5 cm and the level rises by 2 cm. Find the volume of water added, in terms of $\\pi$.", response: { type: "mcq", choices: [ { id: "a", text: "$100\\pi$ cm³" }, { id: "b", text: "$50\\pi$ cm³" }, { id: "c", text: "$10\\pi$ cm³" }, { id: "d", text: "$25\\pi$ cm³" } ], correctChoiceId: "b" }, markscheme: { principles: [{ kind: "formula", name: "Displacement", statement: "$\\Delta V=\\pi r^2\\Delta h$." }], steps: [ { reasoning: "Compute $\\pi(25)(2)$.", working: "50\\pi", marks: 1, markCode: "M" }, { reasoning: "State the volume.", working: "50\\pi", marks: 1, markCode: "M" }, { reasoning: "Confirm units cm³.", working: "cm^3", marks: 1, markCode: "A" } ], finalAnswer: "$50\\pi$ cm³" } },
         { id: "mypms5-u3-mens-q12", difficulty: "core", totalMarks: 5, stem: "Calculate volumes and surface areas.", parts: [ { label: "a", prompt: "Find the volume of a sphere of radius 6 cm in terms of $\\pi$.", marks: 2 }, { label: "b", prompt: "Find the curved surface area of a cylinder radius 3 cm height 8 cm.", marks: 2 }, { label: "c", prompt: "State which formula you used for the cylinder.", marks: 1 } ], response: { type: "open" }, markscheme: { principles: [{ kind: "formula", name: "Mensuration", statement: "Use standard volume and surface area formulas." }], steps: [ { part: "a", reasoning: "$V=\\frac43\\pi(216)=288\\pi$.", working: "288\\pi", marks: 1, markCode: "M" }, { part: "a", reasoning: "State the volume.", working: "288\\pi", marks: 1, markCode: "A" }, { part: "b", reasoning: "Curved SA $=2\\pi(3)(8)=48\\pi$.", working: "48\\pi", marks: 1, markCode: "M" }, { part: "b", reasoning: "State the area.", working: "48\\pi", marks: 1, markCode: "A" }, { part: "c", reasoning: "Used $2\\pi rh$ for curved surface area.", working: "2\\pi rh", marks: 1, markCode: "A" } ], finalAnswer: "(a) $288\\pi$ cm³ (b) $48\\pi$ cm² (c) $2\\pi rh$" } },
         { id: "mypms5-u3-mens-q13", difficulty: "foundation", totalMarks: 1, stem: "Find the volume of a rectangular prism measuring 3 cm by 4 cm by 5 cm.", response: { type: "numeric", parts: [{ label: "$V$", answer: 60, unit: "cm³" }] }, markscheme: { principles: [{ kind: "formula", name: "Rectangular prism", statement: "$V=lwh$." }], steps: [{ reasoning: "$3\\times4\\times5=60$.", working: "60", marks: 1, markCode: "B" }], finalAnswer: "$60$ cm³" } },
-        { id: "mypms5-u3-mens-q14", difficulty: "core", totalMarks: 2, stem: "Which formula gives the volume of a pyramid?", response: { type: "mcq", choices: [ { id: "a", text: "$\\frac13\\times\\text{base area}\\times\\text{height}$" }, { id: "b", text: "$\\text{base area}\\times\\text{height}$" }, { id: "c", text: "$\\frac12\\times\\text{base}\\times\\text{height}$" }, { id: "d", text: "$4\\pi r^2$" } ], correctChoiceId: "a" }, markscheme: { principles: [{ kind: "formula", name: "Pyramid volume", statement: "One third of prism with same base and height." }], steps: [ { reasoning: "Pyramid volume is one third of base×height.", working: "\\frac13bh", marks: 1, markCode: "M" }, { reasoning: "State the formula.", working: "\\frac13", marks: 1, markCode: "A" } ], finalAnswer: "$\\frac13\\times\\text{base area}\\times\\text{height}$" } },
+        { id: "mypms5-u3-mens-q14", difficulty: "core", totalMarks: 2, stem: "Which formula gives the volume of a pyramid?", response: { type: "mcq", choices: [ { id: "a", text: "$\\frac13\\times\\text{base area}\\times\\text{height}$" }, { id: "b", text: "$4\\pi r^2$" }, { id: "c", text: "$\\text{base area}\\times\\text{height}$" }, { id: "d", text: "$\\frac12\\times\\text{base}\\times\\text{height}$" } ], correctChoiceId: "a" }, markscheme: { principles: [{ kind: "formula", name: "Pyramid volume", statement: "One third of prism with same base and height." }], steps: [ { reasoning: "Pyramid volume is one third of base×height.", working: "\\frac13bh", marks: 1, markCode: "M" }, { reasoning: "State the formula.", working: "\\frac13", marks: 1, markCode: "A" } ], finalAnswer: "$\\frac13\\times\\text{base area}\\times\\text{height}$" } },
         { id: "mypms5-u3-mens-q15", difficulty: "core", totalMarks: 2, stem: "Find the approximate volume of a cone with radius 3 cm and height 9 cm (use $\\pi\\approx3.14$).", response: { type: "numeric", parts: [{ label: "$V$", answer: 84.82, tolerance: 0.1, unit: "cm³" }] }, markscheme: { principles: [{ kind: "formula", name: "Cone volume", statement: "$V=\\frac13\\pi r^2h$." }], steps: [ { reasoning: "$\\frac13\\pi(9)(9)=27\\pi\\approx84.82$.", working: "27\\pi", marks: 1, markCode: "M" }, { reasoning: "State the approximation.", working: "84.82", marks: 1, markCode: "A" } ], finalAnswer: "$\\approx84.82$ cm³" } },
         { id: "mypms5-u3-mens-q16", difficulty: "challenge", totalMarks: 3, stem: "Explain how the displacement method finds the volume of an irregular object, and why the container must be cylindrical for a simple calculation.", response: { type: "open" }, markscheme: { principles: [{ kind: "principle", name: "Displacement", statement: "Volume equals water displaced." }], steps: [ { reasoning: "Measure water rise before and after immersion.", working: "\\Delta h", marks: 1, markCode: "M" }, { reasoning: "For a cylinder, $\\Delta V=\\pi r^2\\Delta h$.", working: "\\pi r^2\\Delta h", marks: 1, markCode: "M" }, { reasoning: "State why a cylinder simplifies it.", working: "\\text{constant cross-section}", marks: 1, markCode: "A" } ], finalAnswer: "$\\Delta V=\\pi r^2\\Delta h$" } },
       ],
@@ -218,12 +218,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "27:1" },
-              { id: "b", text: "9:1" },
-              { id: "c", text: "3:1" },
-              { id: "d", text: "6:1" },
+              { id: "a", text: "9:1" },
+              { id: "b", text: "3:1" },
+              { id: "c", text: "6:1" },
+              { id: "d", text: "27:1" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -245,12 +245,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "20 cm" },
-              { id: "b", text: "24 cm" },
+              { id: "a", text: "2 cm" },
+              { id: "b", text: "20 cm" },
               { id: "c", text: "200 cm" },
-              { id: "d", text: "2 cm" },
+              { id: "d", text: "24 cm" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -273,12 +273,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Triangle, square, hexagon" },
-              { id: "b", text: "All regular polygons" },
-              { id: "c", text: "Square and pentagon" },
-              { id: "d", text: "Triangle and square only" },
+              { id: "a", text: "Triangle and square only" },
+              { id: "b", text: "Square and pentagon" },
+              { id: "c", text: "Triangle, square, hexagon" },
+              { id: "d", text: "All regular polygons" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -325,17 +325,17 @@ export const lesson32: Lesson = {
             examinerNote: "A1 for (a), M1 A1 for (b), M1 A1 for (c), M1 M1 A1 for (d).",
           },
         },
-        { id: "mypms5-u3-sim-q5", difficulty: "foundation", totalMarks: 1, stem: "Two similar shapes have a length scale factor of 2. What is the area scale factor?", response: { type: "mcq", choices: [ { id: "a", text: "4" }, { id: "b", text: "2" }, { id: "c", text: "8" }, { id: "d", text: "16" } ], correctChoiceId: "a" }, markscheme: { principles: [{ kind: "formula", name: "Area scale", statement: "Area scales by $k^2$." }], steps: [{ reasoning: "$2^2=4$.", working: "4", marks: 1, markCode: "B" }], finalAnswer: "4" } },
+        { id: "mypms5-u3-sim-q5", difficulty: "foundation", totalMarks: 1, stem: "Two similar shapes have a length scale factor of 2. What is the area scale factor?", response: { type: "mcq", choices: [ { id: "a", text: "4" }, { id: "b", text: "8" }, { id: "c", text: "2" }, { id: "d", text: "16" } ], correctChoiceId: "a" }, markscheme: { principles: [{ kind: "formula", name: "Area scale", statement: "Area scales by $k^2$." }], steps: [{ reasoning: "$2^2=4$.", working: "4", marks: 1, markCode: "B" }], finalAnswer: "4" } },
         { id: "mypms5-u3-sim-q6", difficulty: "foundation", totalMarks: 1, stem: "Similar triangles have sides 3, 4, 5 and 6, 8, x. Find x.", response: { type: "numeric", parts: [{ label: "$x$", answer: 10 }] }, markscheme: { principles: [{ kind: "formula", name: "Length scale", statement: "Corresponding sides are proportional." }], steps: [{ reasoning: "$6/3=2$, so $x=5\\times2=10$.", working: "10", marks: 1, markCode: "B" }], finalAnswer: "$10$" } },
-        { id: "mypms5-u3-sim-q7", difficulty: "core", totalMarks: 1, stem: "If the length scale factor is 3, what is the volume scale factor?", response: { type: "mcq", choices: [ { id: "a", text: "27" }, { id: "b", text: "9" }, { id: "c", text: "3" }, { id: "d", text: "81" } ], correctChoiceId: "a" }, markscheme: { principles: [{ kind: "formula", name: "Volume scale", statement: "Volume scales by $k^3$." }], steps: [{ reasoning: "$3^3=27$.", working: "27", marks: 1, markCode: "B" }], finalAnswer: "27" } },
+        { id: "mypms5-u3-sim-q7", difficulty: "core", totalMarks: 1, stem: "If the length scale factor is 3, what is the volume scale factor?", response: { type: "mcq", choices: [ { id: "a", text: "81" }, { id: "b", text: "27" }, { id: "c", text: "9" }, { id: "d", text: "3" } ], correctChoiceId: "b" }, markscheme: { principles: [{ kind: "formula", name: "Volume scale", statement: "Volume scales by $k^3$." }], steps: [{ reasoning: "$3^3=27$.", working: "27", marks: 1, markCode: "B" }], finalAnswer: "27" } },
         { id: "mypms5-u3-sim-q8", difficulty: "core", totalMarks: 1, stem: "Similar triangles have sides 5, 7, 9 and corresponding sides 10, 14, x. Find x.", response: { type: "numeric", parts: [{ label: "$x$", answer: 18 }] }, markscheme: { principles: [{ kind: "formula", name: "Length scale", statement: "Scale factor $=10/5=2$." }], steps: [{ reasoning: "$x=9\\times2=18$.", working: "18", marks: 1, markCode: "B" }], finalAnswer: "$18$" } },
-        { id: "mypms5-u3-sim-q9", difficulty: "core", totalMarks: 2, stem: "Which statement is always true for two similar triangles?", response: { type: "mcq", choices: [ { id: "a", text: "Corresponding angles are equal" }, { id: "b", text: "Corresponding sides are equal" }, { id: "c", text: "Areas are equal" }, { id: "d", text: "Perimeters are equal" } ], correctChoiceId: "a" }, markscheme: { principles: [{ kind: "definition", name: "Similarity", statement: "Same shape: angles equal, sides proportional." }], steps: [ { reasoning: "Similarity preserves angles.", working: "\\text{angles equal}", marks: 1, markCode: "M" }, { reasoning: "Sides are proportional, not necessarily equal.", working: "\\text{proportional}", marks: 1, markCode: "A" } ], finalAnswer: "Corresponding angles are equal" } },
+        { id: "mypms5-u3-sim-q9", difficulty: "core", totalMarks: 2, stem: "Which statement is always true for two similar triangles?", response: { type: "mcq", choices: [ { id: "a", text: "Perimeters are equal" }, { id: "b", text: "Corresponding angles are equal" }, { id: "c", text: "Corresponding sides are equal" }, { id: "d", text: "Areas are equal" } ], correctChoiceId: "b" }, markscheme: { principles: [{ kind: "definition", name: "Similarity", statement: "Same shape: angles equal, sides proportional." }], steps: [ { reasoning: "Similarity preserves angles.", working: "\\text{angles equal}", marks: 1, markCode: "M" }, { reasoning: "Sides are proportional, not necessarily equal.", working: "\\text{proportional}", marks: 1, markCode: "A" } ], finalAnswer: "Corresponding angles are equal" } },
         { id: "mypms5-u3-sim-q10", difficulty: "core", totalMarks: 2, stem: "Two similar cubes have edges 4 cm and 6 cm. Find the ratio of the larger volume to the smaller volume.", response: { type: "numeric", parts: [{ label: "ratio", answer: 3.375 }] }, markscheme: { principles: [{ kind: "formula", name: "Volume scale", statement: "$k=6/4=1.5$, volume factor $=1.5^3=3.375$." }], steps: [ { reasoning: "Compute $(1.5)^3$.", working: "3.375", marks: 1, markCode: "M" }, { reasoning: "State the ratio.", working: "3.375", marks: 1, markCode: "A" } ], finalAnswer: "3.375" } },
         { id: "mypms5-u3-sim-q11", difficulty: "challenge", totalMarks: 2, stem: "On a map with scale 1:5000, a road is 8 cm long. What is the real length in metres?", response: { type: "numeric", parts: [{ label: "real length", answer: 400, unit: "m" }] }, markscheme: { principles: [{ kind: "formula", name: "Scale", statement: "$8\\text{ cm}\\times5000=40000\\text{ cm}=400\\text{ m}$." }], steps: [ { reasoning: "Multiply by scale factor.", working: "8\\times5000", marks: 1, markCode: "M" }, { reasoning: "Convert cm to m: 400 m.", working: "400", marks: 1, markCode: "A" } ], finalAnswer: "$400$ m" } },
         { id: "mypms5-u3-sim-q12", difficulty: "core", totalMarks: 1, stem: "A photo is enlarged so its width changes from 12 cm to 18 cm. If the original height is 8 cm, find the new height.", response: { type: "numeric", parts: [{ label: "new height", answer: 12, unit: "cm" }] }, markscheme: { principles: [{ kind: "formula", name: "Enlargement", statement: "Scale factor $18/12=1.5$." }], steps: [{ reasoning: "$8\\times1.5=12$.", working: "12", marks: 1, markCode: "B" }], finalAnswer: "$12$ cm" } },
         { id: "mypms5-u3-sim-q13", difficulty: "core", totalMarks: 5, stem: "Use similarity to solve problems.", parts: [ { label: "a", prompt: "Find the scale factor from lengths 4 cm and 10 cm.", marks: 1 }, { label: "b", prompt: "Find the area scale factor for that scale factor.", marks: 2 }, { label: "c", prompt: "If the smaller area is 20 cm², find the larger area.", marks: 2 } ], response: { type: "open" }, markscheme: { principles: [{ kind: "formula", name: "Similarity", statement: "Lengths scale by $k$, areas by $k^2$, volumes by $k^3$." }], steps: [ { part: "a", reasoning: "$k=10/4=2.5$.", working: "2.5", marks: 1, markCode: "A" }, { part: "b", reasoning: "Area factor $=2.5^2=6.25$.", working: "6.25", marks: 1, markCode: "M" }, { part: "b", reasoning: "State the factor.", working: "6.25", marks: 1, markCode: "A" }, { part: "c", reasoning: "$20\\times6.25=125$.", working: "125", marks: 1, markCode: "M" }, { part: "c", reasoning: "State the area.", working: "125", marks: 1, markCode: "A" } ], finalAnswer: "(a) 2.5 (b) 6.25 (c) 125 cm²" } },
         { id: "mypms5-u3-sim-q14", difficulty: "foundation", totalMarks: 1, stem: "A triangle similar to one with angles 40° and 60° has a third angle of what measure?", response: { type: "numeric", parts: [{ label: "angle", answer: 80, unit: "degrees" }] }, markscheme: { principles: [{ kind: "theorem", name: "Angle sum", statement: "Third angle $=180-40-60=80$." }], steps: [{ reasoning: "Corresponding angles are equal; third angle is 80°.", working: "80", marks: 1, markCode: "B" }], finalAnswer: "$80°$" } },
-        { id: "mypms5-u3-sim-q15", difficulty: "challenge", totalMarks: 2, stem: "Two similar shapes have areas in the ratio 9:4. What is the ratio of corresponding lengths?", response: { type: "mcq", choices: [ { id: "a", text: "3:2" }, { id: "b", text: "9:4" }, { id: "c", text: "81:16" }, { id: "d", text: "1:2" } ], correctChoiceId: "a" }, markscheme: { principles: [{ kind: "formula", name: "Area to length", statement: "Length ratio is square root of area ratio." }], steps: [ { reasoning: "$\\sqrt{9/4}=3/2$.", working: "3/2", marks: 1, markCode: "M" }, { reasoning: "State the ratio.", working: "3:2", marks: 1, markCode: "A" } ], finalAnswer: "$3:2$" } },
+        { id: "mypms5-u3-sim-q15", difficulty: "challenge", totalMarks: 2, stem: "Two similar shapes have areas in the ratio 9:4. What is the ratio of corresponding lengths?", response: { type: "mcq", choices: [ { id: "a", text: "1:2" }, { id: "b", text: "81:16" }, { id: "c", text: "9:4" }, { id: "d", text: "3:2" } ], correctChoiceId: "d" }, markscheme: { principles: [{ kind: "formula", name: "Area to length", statement: "Length ratio is square root of area ratio." }], steps: [ { reasoning: "$\\sqrt{9/4}=3/2$.", working: "3/2", marks: 1, markCode: "M" }, { reasoning: "State the ratio.", working: "3:2", marks: 1, markCode: "A" } ], finalAnswer: "$3:2$" } },
         { id: "mypms5-u3-sim-q16", difficulty: "challenge", totalMarks: 3, stem: "Explain how similar triangles can be used to estimate the height of a tall object using shadows.", response: { type: "open" }, markscheme: { principles: [{ kind: "principle", name: "Shadow method", statement: "Sun creates similar right triangles." }], steps: [ { reasoning: "Measure the object's shadow and a known object's shadow.", working: "\\text{shadows}", marks: 1, markCode: "M" }, { reasoning: "Form a proportion using corresponding sides.", working: "\\frac{h}{\\text{shadow}}", marks: 1, markCode: "M" }, { reasoning: "Solve for the unknown height.", working: "\\text{height}", marks: 1, markCode: "A" } ], finalAnswer: "Use proportional corresponding sides" } },
       ],
     },

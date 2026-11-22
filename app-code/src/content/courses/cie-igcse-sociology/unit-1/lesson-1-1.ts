@@ -83,12 +83,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Individual mental processes" },
-              { id: "b", text: "Human society and social relationships" },
+              { id: "a", text: "Human society and social relationships" },
+              { id: "b", text: "Individual mental processes" },
               { id: "c", text: "Biological evolution" },
               { id: "d", text: "Political manifestos" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -286,15 +286,15 @@ export const lesson11: Lesson = {
               },
               {
                 id: "b",
-                text: "How do individuals interpret gestures in everyday conversation?",
-              },
-              { id: "c", text: "How is the education system organised?" },
-              {
-                id: "d",
                 text: "Why is religion more influential in some societies than others?",
               },
+              {
+                id: "c",
+                text: "How do individuals interpret gestures in everyday conversation?",
+              },
+              { id: "d", text: "How is the education system organised?" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -455,11 +455,11 @@ export const lesson11: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Émile Durkheim" },
-              { id: "b", text: "Karl Marx" },
-              { id: "c", text: "C. Wright Mills" },
-              { id: "d", text: "Max Weber" },
+              { id: "b", text: "C. Wright Mills" },
+              { id: "c", text: "Max Weber" },
+              { id: "d", text: "Karl Marx" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [

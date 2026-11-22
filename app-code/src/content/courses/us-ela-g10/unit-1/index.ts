@@ -7,6 +7,7 @@ export const unit1: Unit = {
   id: "ela10-u1",
   code: "1",
   title: "Drama and Poetry",
-  description: "Read Shakespeare closely for motive, conflict, and figurative language; analyze poetic form, imagery, and extended metaphor; and examine how authors transform source material and how the same scene changes across stage and film.",
+  description:
+    "Read Shakespeare closely for motive, conflict, and figurative language; analyze poetic form, imagery, and extended metaphor; and examine how authors transform source material and how the same scene changes across stage and film.",
   lessons: [lesson11, lesson12, lesson13],
 };

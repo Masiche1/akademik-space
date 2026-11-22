@@ -56,10 +56,10 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "'Hey! Send the file lol.'" },
+              { id: "a", text: "'File. Now.'" },
               { id: "b", text: "'Dear Ms Khan, I would be grateful if you could send the file.'" },
               { id: "c", text: "'Yo, need that file ASAP.'" },
-              { id: "d", text: "'File. Now.'" },
+              { id: "d", text: "'Hey! Send the file lol.'" },
             ],
             correctChoiceId: "b",
           },
@@ -164,11 +164,11 @@ export const lesson23: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "'Dear Mr Ahmed, I would appreciate your reply.'" },
-              { id: "b", text: "'Hey! Are we still meeting tomorrow?'" },
-              { id: "c", text: "'To whom it may concern...'" },
-              { id: "d", text: "'I am writing to inform you...'" },
+              { id: "b", text: "'I am writing to inform you...'" },
+              { id: "c", text: "'Hey! Are we still meeting tomorrow?'" },
+              { id: "d", text: "'To whom it may concern...'" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -190,12 +190,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A close friend" },
-              { id: "b", text: "A teacher or official" },
+              { id: "a", text: "A teacher or official" },
+              { id: "b", text: "A classmate you know well" },
               { id: "c", text: "A younger sibling" },
-              { id: "d", text: "A classmate you know well" },
+              { id: "d", text: "A close friend" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -277,12 +277,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Making the message longer" },
-              { id: "b", text: "Replacing slang and blame with polite, clear language" },
+              { id: "a", text: "Replacing slang and blame with polite, clear language" },
+              { id: "b", text: "Using bigger words" },
               { id: "c", text: "Adding more jokes" },
-              { id: "d", text: "Using bigger words" },
+              { id: "d", text: "Making the message longer" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -357,12 +357,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "'Give me the file.'" },
-              { id: "b", text: "'Could you please send me the file?'" },
-              { id: "c", text: "'I need that file now.'" },
-              { id: "d", text: "'File. Now.'" },
+              { id: "a", text: "'I need that file now.'" },
+              { id: "b", text: "'File. Now.'" },
+              { id: "c", text: "'Could you please send me the file?'" },
+              { id: "d", text: "'Give me the file.'" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -390,12 +390,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It is very casual" },
-              { id: "b", text: "It is formal, respectful and states a clear purpose" },
+              { id: "a", text: "It avoids stating any purpose" },
+              { id: "b", text: "It is very casual" },
               { id: "c", text: "It uses slang" },
-              { id: "d", text: "It avoids stating any purpose" },
+              { id: "d", text: "It is formal, respectful and states a clear purpose" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -451,12 +451,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "No — it is too formal" },
-              { id: "b", text: "Yes — warm and respectful, though slightly formal" },
-              { id: "c", text: "No — it uses slang" },
-              { id: "d", text: "It is perfect for a teacher" },
+              { id: "a", text: "It is perfect for a teacher" },
+              { id: "b", text: "No — it uses slang" },
+              { id: "c", text: "No — it is too formal" },
+              { id: "d", text: "Yes — warm and respectful, though slightly formal" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -544,12 +544,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "They are always grammatically wrong" },
-              { id: "b", text: "They may not be understood literally or culturally" },
+              { id: "a", text: "They may not be understood literally or culturally" },
+              { id: "b", text: "They are too formal" },
               { id: "c", text: "They make messages too long" },
-              { id: "d", text: "They are too formal" },
+              { id: "d", text: "They are always grammatically wrong" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Intercultural communication", statement: "Idioms may cause misunderstanding across cultures." }],
@@ -651,12 +651,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "They are grammatically incorrect" },
-              { id: "b", text: "They may not be understood literally or culturally" },
-              { id: "c", text: "They make messages too short" },
+              { id: "a", text: "They may not be understood literally or culturally" },
+              { id: "b", text: "They make messages too short" },
+              { id: "c", text: "They are grammatically incorrect" },
               { id: "d", text: "They are always rude" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -678,12 +678,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "'Hit me back soon lol'" },
-              { id: "b", text: "'I would appreciate your reply by Friday.'" },
-              { id: "c", text: "'Break a leg with the presentation!'" },
-              { id: "d", text: "'What's up? Need answers fast.'" },
+              { id: "a", text: "'I would appreciate your reply by Friday.'" },
+              { id: "b", text: "'Break a leg with the presentation!'" },
+              { id: "c", text: "'What's up? Need answers fast.'" },
+              { id: "d", text: "'Hit me back soon lol'" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -765,12 +765,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "They show respect and invite clarification" },
-              { id: "b", text: "They are very formal" },
-              { id: "c", text: "They use complex vocabulary" },
-              { id: "d", text: "They avoid any questions" },
+              { id: "a", text: "They are very formal" },
+              { id: "b", text: "They avoid any questions" },
+              { id: "c", text: "They show respect and invite clarification" },
+              { id: "d", text: "They use complex vocabulary" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -845,10 +845,10 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Avoid it entirely" },
+              { id: "a", text: "Use sarcasm" },
               { id: "b", text: "Use it gently and explain the context if needed" },
-              { id: "c", text: "Use lots of jokes" },
-              { id: "d", text: "Use sarcasm" },
+              { id: "c", text: "Avoid it entirely" },
+              { id: "d", text: "Use lots of jokes" },
             ],
             correctChoiceId: "b",
           },
@@ -880,8 +880,8 @@ export const lesson23: Lesson = {
             choices: [
               { id: "a", text: "Blame the other school and demand a new date" },
               { id: "b", text: "Explain the reason and offer an alternative" },
-              { id: "c", text: "Ignore the message completely" },
-              { id: "d", text: "Apologise but give no reason" },
+              { id: "c", text: "Apologise but give no reason" },
+              { id: "d", text: "Ignore the message completely" },
             ],
             correctChoiceId: "b",
           },
@@ -939,10 +939,10 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It shows the writer is uncertain" },
+              { id: "a", text: "It proves the writer is fluent" },
               { id: "b", text: "It invites the reader to flag misunderstanding early" },
               { id: "c", text: "It ends the conversation" },
-              { id: "d", text: "It proves the writer is fluent" },
+              { id: "d", text: "It shows the writer is uncertain" },
             ],
             correctChoiceId: "b",
           },

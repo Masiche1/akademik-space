@@ -55,12 +55,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "List all the artworks discussed" },
-              { id: "b", text: "State the central argument the essay will defend" },
-              { id: "c", text: "Summarise the artist's biography" },
-              { id: "d", text: "Ask a rhetorical question" },
+              { id: "a", text: "State the central argument the essay will defend" },
+              { id: "b", text: "Ask a rhetorical question" },
+              { id: "c", text: "List all the artworks discussed" },
+              { id: "d", text: "Summarise the artist's biography" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -157,11 +157,11 @@ export const lesson62: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Introduce new evidence not discussed in the body" },
-              { id: "b", text: "Synthesise findings and restate the thesis in light of evidence" },
-              { id: "c", text: "List all the sources used" },
-              { id: "d", text: "Repeat the introduction word for word" },
+              { id: "b", text: "List all the sources used" },
+              { id: "c", text: "Repeat the introduction word for word" },
+              { id: "d", text: "Synthesise findings and restate the thesis in light of evidence" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -206,12 +206,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Describe Artist A fully, then Artist B fully" },
-              { id: "b", text: "Point, then evidence for A, evidence for B, then significance of the difference" },
-              { id: "c", text: "Analyse only the first artwork in each paragraph" },
-              { id: "d", text: "Quote sources without commentary" },
+              { id: "a", text: "Quote sources without commentary" },
+              { id: "b", text: "Describe Artist A fully, then Artist B fully" },
+              { id: "c", text: "Point, then evidence for A, evidence for B, then significance of the difference" },
+              { id: "d", text: "Analyse only the first artwork in each paragraph" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -258,12 +258,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "'In conclusion, both artists are interesting.'" },
-              { id: "b", text: "'The comparison reveals how formal choices shape emotional response to mortality.'" },
+              { id: "a", text: "'I enjoyed writing this essay.'" },
+              { id: "b", text: "'In conclusion, both artists are interesting.'" },
               { id: "c", text: "'This essay compared two artists.'" },
-              { id: "d", text: "'I enjoyed writing this essay.'" },
+              { id: "d", text: "'The comparison reveals how formal choices shape emotional response to mortality.'" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -311,12 +311,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Comparative structure" },
-              { id: "b", text: "Sequential structure" },
-              { id: "c", text: "Thematic structure" },
-              { id: "d", text: "Integrated structure" },
+              { id: "a", text: "Thematic structure" },
+              { id: "b", text: "Integrated structure" },
+              { id: "c", text: "Sequential structure" },
+              { id: "d", text: "Comparative structure" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -366,12 +366,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Lists the titles of the artworks" },
-              { id: "b", text: "Makes a specific, arguable claim about how the works differ" },
-              { id: "c", text: "Asks a rhetorical question" },
-              { id: "d", text: "Summarises both artists' biographies" },
+              { id: "a", text: "Summarises both artists' biographies" },
+              { id: "b", text: "Lists the titles of the artworks" },
+              { id: "c", text: "Makes a specific, arguable claim about how the works differ" },
+              { id: "d", text: "Asks a rhetorical question" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -427,9 +427,9 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "'Similarly'" },
+              { id: "a", text: "'For example'" },
               { id: "b", text: "'In contrast'" },
-              { id: "c", text: "'For example'" },
+              { id: "c", text: "'Similarly'" },
               { id: "d", text: "'Indeed'" },
             ],
             correctChoiceId: "b",
@@ -515,12 +515,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Quote the artist" },
-              { id: "b", text: "State the criterion or point the paragraph will develop" },
-              { id: "c", text: "Summarise the whole essay" },
-              { id: "d", text: "Ask a question" },
+              { id: "a", text: "State the criterion or point the paragraph will develop" },
+              { id: "b", text: "Summarise the whole essay" },
+              { id: "c", text: "Ask a question" },
+              { id: "d", text: "Quote the artist" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -616,10 +616,10 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The artwork's market price" },
+              { id: "a", text: "The medium used by the artist" },
               { id: "b", text: "Why the analysed difference matters to the argument" },
               { id: "c", text: "The artist's age at the time" },
-              { id: "d", text: "The medium used by the artist" },
+              { id: "d", text: "The artwork's market price" },
             ],
             correctChoiceId: "b",
           },
@@ -666,12 +666,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Be listed as separate bullet points" },
-              { id: "b", text: "Be specific visual details from BOTH works woven into analysis" },
-              { id: "c", text: "Come only from secondary sources" },
+              { id: "a", text: "Be specific visual details from BOTH works woven into analysis" },
+              { id: "b", text: "Come only from secondary sources" },
+              { id: "c", text: "Be listed as separate bullet points" },
               { id: "d", text: "Describe the artists' biographies" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -719,11 +719,11 @@ export const lesson62: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "A paragraph break" },
-              { id: "b", text: "Analysis linking the evidence to the argument" },
+              { id: "b", text: "A citation format" },
               { id: "c", text: "A title" },
-              { id: "d", text: "A citation format" },
+              { id: "d", text: "Analysis linking the evidence to the argument" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -771,12 +771,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Kept to increase the word count" },
-              { id: "b", text: "Cut or reworked so it serves the argument" },
-              { id: "c", text: "Moved to the introduction" },
-              { id: "d", text: "Only shortened slightly" },
+              { id: "a", text: "Moved to the introduction" },
+              { id: "b", text: "Kept to increase the word count" },
+              { id: "c", text: "Only shortened slightly" },
+              { id: "d", text: "Cut or reworked so it serves the argument" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -826,10 +826,10 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "'This paragraph is about colour.'" },
+              { id: "a", text: "'Both artists use paint.'" },
               { id: "b", text: "'Where Artist A's warm palette intensifies emotion, Artist B's cool tones create emotional distance.'" },
               { id: "c", text: "'Colour is important in art.'" },
-              { id: "d", text: "'Both artists use paint.'" },
+              { id: "d", text: "'This paragraph is about colour.'" },
             ],
             correctChoiceId: "b",
           },
@@ -887,12 +887,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Contradicts the previous point" },
-              { id: "b", text: "Agrees with or extends the previous point" },
-              { id: "c", text: "Begins the conclusion" },
-              { id: "d", text: "Raises a question" },
+              { id: "a", text: "Begins the conclusion" },
+              { id: "b", text: "Raises a question" },
+              { id: "c", text: "Agrees with or extends the previous point" },
+              { id: "d", text: "Contradicts the previous point" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

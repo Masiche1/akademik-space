@@ -112,12 +112,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Collected by the researcher for the study" },
-              { id: "b", text: "Taken from official statistics" },
-              { id: "c", text: "Copied from a textbook" },
-              { id: "d", text: "Estimated by the researcher" },
+              { id: "a", text: "Copied from a textbook" },
+              { id: "b", text: "Estimated by the researcher" },
+              { id: "c", text: "Taken from official statistics" },
+              { id: "d", text: "Collected by the researcher for the study" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -146,12 +146,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Official statistics" },
-              { id: "b", text: "Diaries kept by participants" },
-              { id: "c", text: "A questionnaire the researcher designed" },
+              { id: "a", text: "A questionnaire the researcher designed" },
+              { id: "b", text: "Official statistics" },
+              { id: "c", text: "Diaries kept by participants" },
               { id: "d", text: "Newspaper reports" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -181,8 +181,8 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "The list of the whole population from which a sample is drawn" },
-              { id: "b", text: "The questionnaire used in a survey" },
-              { id: "c", text: "The final sample selected" },
+              { id: "b", text: "The final sample selected" },
+              { id: "c", text: "The questionnaire used in a survey" },
               { id: "d", text: "The researcher's budget" },
             ],
             correctChoiceId: "a",
@@ -214,12 +214,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "An equal chance of being selected" },
-              { id: "b", text: "To volunteer to be selected" },
+              { id: "a", text: "To volunteer to be selected" },
+              { id: "b", text: "A guaranteed place in the sample" },
               { id: "c", text: "To be chosen by the researcher" },
-              { id: "d", text: "A guaranteed place in the sample" },
+              { id: "d", text: "An equal chance of being selected" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -250,8 +250,8 @@ export const lesson31: Lesson = {
             choices: [
               { id: "a", text: "Random sampling" },
               { id: "b", text: "Stratified sampling" },
-              { id: "c", text: "Quota sampling" },
-              { id: "d", text: "Snowball sampling" },
+              { id: "c", text: "Snowball sampling" },
+              { id: "d", text: "Quota sampling" },
             ],
             correctChoiceId: "b",
           },
@@ -282,12 +282,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Continues interviewing until set numbers in each group are reached" },
-              { id: "b", text: "Gives every member an equal chance" },
+              { id: "a", text: "Gives every member an equal chance" },
+              { id: "b", text: "Is always representative" },
               { id: "c", text: "Requires a complete sampling frame" },
-              { id: "d", text: "Is always representative" },
+              { id: "d", text: "Continues interviewing until set numbers in each group are reached" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -316,12 +316,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A large, easily listed population" },
-              { id: "b", text: "A hidden or hard-to-reach group" },
-              { id: "c", text: "Official statistics" },
-              { id: "d", text: "Randomly selected individuals" },
+              { id: "a", text: "Official statistics" },
+              { id: "b", text: "Randomly selected individuals" },
+              { id: "c", text: "A large, easily listed population" },
+              { id: "d", text: "A hidden or hard-to-reach group" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -350,12 +350,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Fixed response options such as yes/no or a scale" },
-              { id: "b", text: "No limits on possible answers" },
+              { id: "a", text: "Open-ended essay answers" },
+              { id: "b", text: "Fixed response options such as yes/no or a scale" },
               { id: "c", text: "Only numerical answers" },
-              { id: "d", text: "Open-ended essay answers" },
+              { id: "d", text: "No limits on possible answers" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -384,12 +384,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Rich but difficult to quantify" },
-              { id: "b", text: "Always more accurate" },
+              { id: "a", text: "Always more accurate" },
+              { id: "b", text: "Rich but difficult to quantify" },
               { id: "c", text: "Easy to code numerically" },
               { id: "d", text: "Impossible to analyse" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -641,12 +641,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Snowball sampling" },
-              { id: "b", text: "Quota sampling" },
-              { id: "c", text: "Random sampling" },
+              { id: "a", text: "Random sampling" },
+              { id: "b", text: "Snowball sampling" },
+              { id: "c", text: "Quota sampling" },
               { id: "d", text: "Convenience sampling" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -676,11 +676,11 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "An open question" },
-              { id: "b", text: "A closed question format" },
-              { id: "c", text: "A sampling method" },
-              { id: "d", text: "A type of interview" },
+              { id: "b", text: "A sampling method" },
+              { id: "c", text: "A type of interview" },
+              { id: "d", text: "A closed question format" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -779,9 +779,9 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Numerical and can be counted" },
-              { id: "b", text: "Descriptive and detailed" },
-              { id: "c", text: "Always collected by observation" },
-              { id: "d", text: "Impossible to analyse" },
+              { id: "b", text: "Always collected by observation" },
+              { id: "c", text: "Impossible to analyse" },
+              { id: "d", text: "Descriptive and detailed" },
             ],
             correctChoiceId: "a",
           },
@@ -843,12 +843,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Always random" },
-              { id: "b", text: "Likely to be unrepresentative" },
-              { id: "c", text: "Statistically valid" },
+              { id: "a", text: "Likely to be unrepresentative" },
+              { id: "b", text: "Statistically valid" },
+              { id: "c", text: "Always random" },
               { id: "d", text: "Stratified by design" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -921,12 +921,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Test and refine the questionnaire before the main study" },
+              { id: "a", text: "Increase the sample size" },
               { id: "b", text: "Replace the main study" },
-              { id: "c", text: "Increase the sample size" },
-              { id: "d", text: "Guarantee representative results" },
+              { id: "c", text: "Guarantee representative results" },
+              { id: "d", text: "Test and refine the questionnaire before the main study" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1025,12 +1025,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Guarantee representation of key groups in the sample" },
-              { id: "b", text: "Avoid needing a sampling frame" },
-              { id: "c", text: "Interview as many people as possible" },
+              { id: "a", text: "Interview as many people as possible" },
+              { id: "b", text: "Guarantee representation of key groups in the sample" },
+              { id: "c", text: "Avoid needing a sampling frame" },
               { id: "d", text: "Select participants by convenience" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1105,8 +1105,8 @@ export const lesson31: Lesson = {
             choices: [
               { id: "a", text: "Interview transcripts" },
               { id: "b", text: "Percentage of students who smoke" },
-              { id: "c", text: "Field notes" },
-              { id: "d", text: "Observation diaries" },
+              { id: "c", text: "Observation diaries" },
+              { id: "d", text: "Field notes" },
             ],
             correctChoiceId: "b",
           },
@@ -1213,11 +1213,11 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Participant observation" },
-              { id: "b", text: "Structured questionnaire survey" },
-              { id: "c", text: "Unstructured interview" },
-              { id: "d", text: "Personal diary analysis" },
+              { id: "b", text: "Personal diary analysis" },
+              { id: "c", text: "Structured questionnaire survey" },
+              { id: "d", text: "Unstructured interview" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1279,11 +1279,11 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Random" },
-              { id: "b", text: "Snowball/convenience" },
-              { id: "c", text: "Stratified" },
+              { id: "b", text: "Stratified" },
+              { id: "c", text: "Snowball/convenience" },
               { id: "d", text: "Systematic" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1357,11 +1357,11 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Number of crimes recorded" },
-              { id: "b", text: "Detailed interview accounts" },
-              { id: "c", text: "Average exam scores" },
+              { id: "b", text: "Average exam scores" },
+              { id: "c", text: "Detailed interview accounts" },
               { id: "d", text: "Percentage of voters" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1503,8 +1503,8 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Quota" },
-              { id: "b", text: "Snowball" },
+              { id: "a", text: "Snowball" },
+              { id: "b", text: "Quota" },
               { id: "c", text: "Random" },
               { id: "d", text: "Convenience" },
             ],
@@ -1656,12 +1656,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Answer in their own words" },
+              { id: "a", text: "Choose from a fixed list" },
               { id: "b", text: "Skip the question" },
-              { id: "c", text: "Choose from a fixed list" },
-              { id: "d", text: "Give only numerical answers" },
+              { id: "c", text: "Give only numerical answers" },
+              { id: "d", text: "Answer in their own words" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1803,10 +1803,10 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A complete sampling frame" },
+              { id: "a", text: "Official lists" },
               { id: "b", text: "Respondents recruiting further respondents" },
               { id: "c", text: "Random number generation" },
-              { id: "d", text: "Official lists" },
+              { id: "d", text: "A complete sampling frame" },
             ],
             correctChoiceId: "b",
           },
@@ -1956,12 +1956,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A conversation guided by the respondent's answers" },
+              { id: "a", text: "A written exam" },
               { id: "b", text: "A fixed set of questions read aloud" },
-              { id: "c", text: "A questionnaire" },
-              { id: "d", text: "A written exam" },
+              { id: "c", text: "A conversation guided by the respondent's answers" },
+              { id: "d", text: "A questionnaire" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1990,12 +1990,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Watching from outside without taking part" },
-              { id: "b", text: "Joining the group and taking part in activities" },
-              { id: "c", text: "Sending a questionnaire" },
-              { id: "d", text: "Reading documents" },
+              { id: "a", text: "Sending a questionnaire" },
+              { id: "b", text: "Watching from outside without taking part" },
+              { id: "c", text: "Reading documents" },
+              { id: "d", text: "Joining the group and taking part in activities" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -2025,11 +2025,11 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Joins the group secretly" },
-              { id: "b", text: "Observes without taking part in activities" },
-              { id: "c", text: "Interviews participants" },
-              { id: "d", text: "Uses only secondary data" },
+              { id: "b", text: "Interviews participants" },
+              { id: "c", text: "Uses only secondary data" },
+              { id: "d", text: "Observes without taking part in activities" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -2058,12 +2058,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Lose objectivity by adopting the group's values" },
-              { id: "b", text: "Be discovered immediately" },
+              { id: "a", text: "Finish the study early" },
+              { id: "b", text: "Lose objectivity by adopting the group's values" },
               { id: "c", text: "Refuse to take notes" },
-              { id: "d", text: "Finish the study early" },
+              { id: "d", text: "Be discovered immediately" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -2092,12 +2092,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "People behave differently because they know they are watched" },
-              { id: "b", text: "The observer takes perfect notes" },
-              { id: "c", text: "The group welcomes the observer" },
-              { id: "d", text: "Data is easily quantified" },
+              { id: "a", text: "Data is easily quantified" },
+              { id: "b", text: "The group welcomes the observer" },
+              { id: "c", text: "The observer takes perfect notes" },
+              { id: "d", text: "People behave differently because they know they are watched" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -2126,12 +2126,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Use fixed questions for all respondents" },
-              { id: "b", text: "Are fully conversational" },
-              { id: "c", text: "Produce only qualitative data" },
+              { id: "a", text: "Produce only qualitative data" },
+              { id: "b", text: "Use fixed questions for all respondents" },
+              { id: "c", text: "Are fully conversational" },
               { id: "d", text: "Cannot be compared" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -2160,10 +2160,10 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Questionnaire" },
+              { id: "a", text: "Secondary data" },
               { id: "b", text: "Observation" },
               { id: "c", text: "Structured interview" },
-              { id: "d", text: "Secondary data" },
+              { id: "d", text: "Questionnaire" },
             ],
             correctChoiceId: "b",
           },
@@ -2194,12 +2194,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Reveal the meanings people attach to their experiences" },
-              { id: "b", text: "Produce easily countable data" },
-              { id: "c", text: "Are always representative" },
-              { id: "d", text: "Require no ethics" },
+              { id: "a", text: "Produce easily countable data" },
+              { id: "b", text: "Require no ethics" },
+              { id: "c", text: "Reveal the meanings people attach to their experiences" },
+              { id: "d", text: "Are always representative" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -2228,10 +2228,10 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It is always illegal" },
+              { id: "a", text: "It produces no data" },
               { id: "b", text: "Participants cannot give informed consent" },
-              { id: "c", text: "It produces no data" },
-              { id: "d", text: "It is too expensive" },
+              { id: "c", text: "It is too expensive" },
+              { id: "d", text: "It is always illegal" },
             ],
             correctChoiceId: "b",
           },
@@ -2409,8 +2409,8 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "An agenda of topics but flexible questioning" },
-              { id: "b", text: "Only fixed closed questions" },
-              { id: "c", text: "No questions at all" },
+              { id: "b", text: "No questions at all" },
+              { id: "c", text: "Only fixed closed questions" },
               { id: "d", text: "Only written answers" },
             ],
             correctChoiceId: "a",
@@ -2474,10 +2474,10 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "One-off questionnaire" },
+              { id: "a", text: "A single interview" },
               { id: "b", text: "Long-term participant observation" },
-              { id: "c", text: "Official statistics" },
-              { id: "d", text: "A single interview" },
+              { id: "c", text: "One-off questionnaire" },
+              { id: "d", text: "Official statistics" },
             ],
             correctChoiceId: "b",
           },
@@ -2622,10 +2622,10 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Closed questionnaire" },
+              { id: "a", text: "Content analysis of adverts" },
               { id: "b", text: "Unstructured interview" },
-              { id: "c", text: "Official statistics" },
-              { id: "d", text: "Content analysis of adverts" },
+              { id: "c", text: "Closed questionnaire" },
+              { id: "d", text: "Official statistics" },
             ],
             correctChoiceId: "b",
           },
@@ -2769,12 +2769,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Written records of what the researcher sees and hears" },
+              { id: "a", text: "Statistical tables" },
               { id: "b", text: "Official documents" },
               { id: "c", text: "Interview transcripts" },
-              { id: "d", text: "Statistical tables" },
+              { id: "d", text: "Written records of what the researcher sees and hears" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -2872,12 +2872,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Official statistics" },
-              { id: "b", text: "Unstructured interview" },
-              { id: "c", text: "Content analysis of numbers" },
-              { id: "d", text: "Random survey" },
+              { id: "a", text: "Content analysis of numbers" },
+              { id: "b", text: "Random survey" },
+              { id: "c", text: "Official statistics" },
+              { id: "d", text: "Unstructured interview" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -3012,12 +3012,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It only records what people say" },
-              { id: "b", text: "It can capture behaviour people might hide in interviews" },
-              { id: "c", text: "It requires no ethical consideration" },
-              { id: "d", text: "It always gives representative data" },
+              { id: "a", text: "It can capture behaviour people might hide in interviews" },
+              { id: "b", text: "It only records what people say" },
+              { id: "c", text: "It always gives representative data" },
+              { id: "d", text: "It requires no ethical consideration" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -3128,12 +3128,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Long-term immersion in a culture to understand it" },
-              { id: "b", text: "A type of questionnaire" },
-              { id: "c", text: "Statistical analysis" },
-              { id: "d", text: "A government census" },
+              { id: "a", text: "A government census" },
+              { id: "b", text: "Statistical analysis" },
+              { id: "c", text: "Long-term immersion in a culture to understand it" },
+              { id: "d", text: "A type of questionnaire" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -3276,9 +3276,9 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Greater reliability and comparability" },
-              { id: "b", text: "More depth" },
-              { id: "c", text: "No ethical issues" },
-              { id: "d", text: "Larger samples always" },
+              { id: "b", text: "Larger samples always" },
+              { id: "c", text: "More depth" },
+              { id: "d", text: "No ethical issues" },
             ],
             correctChoiceId: "a",
           },
@@ -3417,12 +3417,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Large random survey" },
-              { id: "b", text: "Unstructured interview" },
+              { id: "a", text: "Closed questionnaire" },
+              { id: "b", text: "Large random survey" },
               { id: "c", text: "Official statistics" },
-              { id: "d", text: "Closed questionnaire" },
+              { id: "d", text: "Unstructured interview" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -3565,11 +3565,11 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Structured" },
-              { id: "b", text: "Unstructured" },
-              { id: "c", text: "Semi-structured" },
-              { id: "d", text: "Quantitative" },
+              { id: "b", text: "Semi-structured" },
+              { id: "c", text: "Quantitative" },
+              { id: "d", text: "Unstructured" },
             ],
-            correctChoiceId: "d",
+            correctChoiceIc: "d",
           },
           markscheme: {
             principles: [
@@ -3799,12 +3799,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Systematically coding and analysing media texts or documents" },
-              { id: "b", text: "Interviewing people" },
-              { id: "c", text: "Observing behaviour directly" },
-              { id: "d", text: "Running experiments" },
+              { id: "a", text: "Observing behaviour directly" },
+              { id: "b", text: "Running experiments" },
+              { id: "c", text: "Interviewing people" },
+              { id: "d", text: "Systematically coding and analysing media texts or documents" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -3834,11 +3834,11 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Primary data" },
-              { id: "b", text: "Secondary data" },
-              { id: "c", text: "Experimental data" },
-              { id: "d", text: "Observational data" },
+              { id: "b", text: "Observational data" },
+              { id: "c", text: "Secondary data" },
+              { id: "d", text: "Experimental data" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -3867,12 +3867,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Agree to take part after being told what the research involves" },
+              { id: "a", text: "Are told nothing" },
               { id: "b", text: "Are paid for taking part" },
-              { id: "c", text: "Must join the study" },
-              { id: "d", text: "Are told nothing" },
+              { id: "c", text: "Agree to take part after being told what the research involves" },
+              { id: "d", text: "Must join the study" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -3901,12 +3901,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Participants' identities and answers are protected" },
-              { id: "b", text: "Data is made public" },
-              { id: "c", text: "Names are published" },
-              { id: "d", text: "Results are secret forever" },
+              { id: "a", text: "Data is made public" },
+              { id: "b", text: "Names are published" },
+              { id: "c", text: "Results are secret forever" },
+              { id: "d", text: "Participants' identities and answers are protected" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -3935,12 +3935,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Social life cannot be controlled like a laboratory" },
-              { id: "b", text: "Sociologists lack funding" },
-              { id: "c", text: "Experiments are illegal" },
-              { id: "d", text: "No variables exist" },
+              { id: "a", text: "No variables exist" },
+              { id: "b", text: "Experiments are illegal" },
+              { id: "c", text: "Social life cannot be controlled like a laboratory" },
+              { id: "d", text: "Sociologists lack funding" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -3969,12 +3969,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Takes place in a natural social setting" },
-              { id: "b", text: "Uses no variables" },
-              { id: "c", text: "Is always covert" },
-              { id: "d", text: "Produces only qualitative data" },
+              { id: "a", text: "Uses no variables" },
+              { id: "b", text: "Produces only qualitative data" },
+              { id: "c", text: "Takes place in a natural social setting" },
+              { id: "d", text: "Is always covert" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -4003,12 +4003,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "How the media represents different social groups" },
+              { id: "a", text: "People's private thoughts" },
               { id: "b", text: "Actual crime rates" },
-              { id: "c", text: "People's private thoughts" },
+              { id: "c", text: "How the media represents different social groups" },
               { id: "d", text: "Economic growth" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -4037,12 +4037,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Are collected for political or administrative purposes, not research" },
+              { id: "a", text: "Are always qualitative" },
               { id: "b", text: "Are always falsified" },
               { id: "c", text: "Cannot be counted" },
-              { id: "d", text: "Are always qualitative" },
+              { id: "d", text: "Are collected for political or administrative purposes, not research" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -4071,12 +4071,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Leave the study at any time without penalty" },
-              { id: "b", text: "Take the questionnaire home" },
-              { id: "c", text: "Choose their own questions" },
+              { id: "a", text: "Choose their own questions" },
+              { id: "b", text: "Leave the study at any time without penalty" },
+              { id: "c", text: "Take the questionnaire home" },
               { id: "d", text: "Delete the researcher's notes" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -4251,12 +4251,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Primary qualitative data" },
-              { id: "b", text: "Official statistics" },
+              { id: "a", text: "Official statistics" },
+              { id: "b", text: "Quantitative data only" },
               { id: "c", text: "Experimental data" },
-              { id: "d", text: "Quantitative data only" },
+              { id: "d", text: "Primary qualitative data" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -4317,9 +4317,9 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Informed consent" },
-              { id: "b", text: "Confidentiality" },
-              { id: "c", text: "Right to withdraw" },
+              { id: "a", text: "Confidentiality" },
+              { id: "b", text: "Right to withdraw" },
+              { id: "c", text: "Informed consent" },
               { id: "d", text: "Guaranteed publication" },
             ],
             correctChoiceId: "d",
@@ -4465,12 +4465,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Nature creates the conditions for comparison without researcher manipulation" },
-              { id: "b", text: "The researcher controls all variables" },
+              { id: "a", text: "The researcher controls all variables" },
+              { id: "b", text: "Nature creates the conditions for comparison without researcher manipulation" },
               { id: "c", text: "No data is collected" },
               { id: "d", text: "It is always unethical" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -4613,12 +4613,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Content analysis" },
-              { id: "b", text: "Participant observation" },
-              { id: "c", text: "Snowball sampling" },
-              { id: "d", text: "Unstructured interview" },
+              { id: "a", text: "Unstructured interview" },
+              { id: "b", text: "Snowball sampling" },
+              { id: "c", text: "Participant observation" },
+              { id: "d", text: "Content analysis" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -4716,12 +4716,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It is cheap and quick to obtain" },
+              { id: "a", text: "It cannot be biased" },
               { id: "b", text: "It is always perfectly valid" },
-              { id: "c", text: "It requires no analysis" },
-              { id: "d", text: "It cannot be biased" },
+              { id: "c", text: "It is cheap and quick to obtain" },
+              { id: "d", text: "It requires no analysis" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -4857,12 +4857,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Official statistics and historical documents" },
-              { id: "b", text: "One-off observation" },
-              { id: "c", text: "A single interview" },
-              { id: "d", text: "Laboratory experiment" },
+              { id: "a", text: "One-off observation" },
+              { id: "b", text: "A single interview" },
+              { id: "c", text: "Laboratory experiment" },
+              { id: "d", text: "Official statistics and historical documents" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -4973,12 +4973,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Official statistics" },
+              { id: "a", text: "A questionnaire the researcher designed" },
               { id: "b", text: "Historical documents" },
-              { id: "c", text: "A questionnaire the researcher designed" },
-              { id: "d", text: "Newspaper archives" },
+              { id: "c", text: "Newspaper archives" },
+              { id: "d", text: "Official statistics" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -5122,9 +5122,9 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Informed consent" },
-              { id: "b", text: "Confidentiality" },
-              { id: "c", text: "Reliability" },
-              { id: "d", text: "Validity" },
+              { id: "b", text: "Validity" },
+              { id: "c", text: "Confidentiality" },
+              { id: "d", text: "Reliability" },
             ],
             correctChoiceId: "a",
           },
@@ -5344,12 +5344,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Informed consent" },
-              { id: "b", text: "Reliability" },
+              { id: "a", text: "Generalisation" },
+              { id: "b", text: "Informed consent" },
               { id: "c", text: "Validity" },
-              { id: "d", text: "Generalisation" },
+              { id: "d", text: "Reliability" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -5493,9 +5493,9 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "They may reflect political definitions or agendas" },
-              { id: "b", text: "They are always inaccurate" },
-              { id: "c", text: "They cannot be compared" },
-              { id: "d", text: "They cost too much" },
+              { id: "b", text: "They cannot be compared" },
+              { id: "c", text: "They cost too much" },
+              { id: "d", text: "They are always inaccurate" },
             ],
             correctChoiceId: "a",
           },

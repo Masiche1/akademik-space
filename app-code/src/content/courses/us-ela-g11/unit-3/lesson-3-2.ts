@@ -72,12 +72,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It lists each source in turn without any position or connection between them." },
-              { id: "b", text: "It uses too many quotations from the sources." },
-              { id: "c", text: "It includes information from only one source." },
-              { id: "d", text: "It argues too strongly for a position." },
+              { id: "a", text: "It includes information from only one source." },
+              { id: "b", text: "It argues too strongly for a position." },
+              { id: "c", text: "It lists each source in turn without any position or connection between them." },
+              { id: "d", text: "It uses too many quotations from the sources." },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "skill", name: "Synthesis", statement: "Synthesis builds a position from sources; it does not list them." }],
@@ -95,12 +95,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Source B is a survey of teachers, and Source C is a letter from a parent." },
-              { id: "b", text: "Teachers like the four-day week, and a parent writes about child care." },
-              { id: "c", text: "Although most teachers prefer the shorter week, the parent's letter suggests that the schedule's benefits are not shared equally, since families without Friday flexibility must absorb new costs." },
-              { id: "d", text: "The four-day week is good because many teachers prefer it." },
+              { id: "a", text: "Teachers like the four-day week, and a parent writes about child care." },
+              { id: "b", text: "Although most teachers prefer the shorter week, the parent's letter suggests that the schedule's benefits are not shared equally, since families without Friday flexibility must absorb new costs." },
+              { id: "c", text: "The four-day week is good because many teachers prefer it." },
+              { id: "d", text: "Source B is a survey of teachers, and Source C is a letter from a parent." },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "skill", name: "Conversation with sources", statement: "Place sources in relation to each other and draw a conclusion neither makes alone." }],
@@ -207,12 +207,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It is written in the first person." },
-              { id: "b", text: "It relies on general statements and cliches rather than a specific moment with concrete detail." },
-              { id: "c", text: "It is too short to be an opening." },
-              { id: "d", text: "It uses too many sensory details." },
+              { id: "a", text: "It is too short to be an opening." },
+              { id: "b", text: "It uses too many sensory details." },
+              { id: "c", text: "It relies on general statements and cliches rather than a specific moment with concrete detail." },
+              { id: "d", text: "It is written in the first person." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "skill", name: "Concrete detail", statement: "Specific detail shows an experience; general claims only announce it." }],
@@ -230,12 +230,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It was an amazing experience that I will never forget." },
-              { id: "b", text: "I used to think that being good at something meant being praised for it; the bakery taught me that the best work is the kind nobody sees." },
-              { id: "c", text: "The experience changed my life in many important ways." },
-              { id: "d", text: "In conclusion, hard work is important for everyone." },
+              { id: "a", text: "In conclusion, hard work is important for everyone." },
+              { id: "b", text: "It was an amazing experience that I will never forget." },
+              { id: "c", text: "I used to think that being good at something meant being praised for it; the bakery taught me that the best work is the kind nobody sees." },
+              { id: "d", text: "The experience changed my life in many important ways." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Reflection", statement: "Reflection states what the writer believed before, what changed and why it matters." }],

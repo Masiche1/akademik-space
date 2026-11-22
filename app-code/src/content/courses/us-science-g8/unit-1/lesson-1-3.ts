@@ -50,12 +50,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It doubles." },
-              { id: "b", text: "It becomes four times greater." },
-              { id: "c", text: "It becomes half as much." },
-              { id: "d", text: "It stays the same." },
+              { id: "a", text: "It stays the same." },
+              { id: "b", text: "It becomes half as much." },
+              { id: "c", text: "It becomes four times greater." },
+              { id: "d", text: "It doubles." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -177,12 +177,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "From the cooler object to the hotter object." },
-              { id: "b", text: "From the hotter object to the cooler object." },
-              { id: "c", text: "Equally in both directions, so the temperatures never change." },
-              { id: "d", text: "Thermal energy does not flow." },
+              { id: "a", text: "Thermal energy does not flow." },
+              { id: "b", text: "Equally in both directions, so the temperatures never change." },
+              { id: "c", text: "From the cooler object to the hotter object." },
+              { id: "d", text: "From the hotter object to the cooler object." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

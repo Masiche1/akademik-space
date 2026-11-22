@@ -73,8 +73,8 @@ export const lesson53: Lesson = {
             choices: [
               { id: "a", text: "Many topics" },
               { id: "b", text: "One topic" },
-              { id: "c", text: "No topic" },
-              { id: "d", text: "Two or three topics" },
+              { id: "c", text: "Two or three topics" },
+              { id: "d", text: "No topic" },
             ],
             correctChoiceId: "b",
           },
@@ -243,13 +243,13 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The last sentence of a paragraph" },
+              { id: "a", text: "A question at the start" },
               {
                 id: "b",
                 text: "The sentence that says what the paragraph is about",
               },
-              { id: "c", text: "The longest sentence" },
-              { id: "d", text: "A question at the start" },
+              { id: "c", text: "The last sentence of a paragraph" },
+              { id: "d", text: "The longest sentence" },
             ],
             correctChoiceId: "b",
           },
@@ -286,12 +286,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Finally" },
-              { id: "b", text: "First" },
-              { id: "c", text: "Because" },
-              { id: "d", text: "But" },
+              { id: "a", text: "Because" },
+              { id: "b", text: "Finally" },
+              { id: "c", text: "But" },
+              { id: "d", text: "First" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -325,12 +325,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "finally, first, then" },
-              { id: "b", text: "first, then, finally" },
-              { id: "c", text: "then, first, finally" },
-              { id: "d", text: "first, finally, then" },
+              { id: "a", text: "first, finally, then" },
+              { id: "b", text: "then, first, finally" },
+              { id: "c", text: "finally, first, then" },
+              { id: "d", text: "first, then, finally" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -369,12 +369,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "First, I wake up at seven." },
-              { id: "b", text: "I like my morning because it is calm." },
-              { id: "c", text: "Then I have breakfast." },
-              { id: "d", text: "I get dressed quickly." },
+              { id: "a", text: "I get dressed quickly." },
+              { id: "b", text: "First, I wake up at seven." },
+              { id: "c", text: "I like my morning because it is calm." },
+              { id: "d", text: "Then I have breakfast." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -416,15 +416,15 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Nothing is wrong" },
+              { id: "a", text: "The tense is wrong" },
+              { id: "b", text: "There are too many linking words" },
               {
-                id: "b",
+                id: "c",
                 text: "Two topics are mixed — it should be two paragraphs",
               },
-              { id: "c", text: "There are too many linking words" },
-              { id: "d", text: "The tense is wrong" },
+              { id: "d", text: "Nothing is wrong" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -464,15 +464,15 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "School is good." },
+              { id: "a", text: "I like some things." },
+              { id: "b", text: "There are students." },
               {
-                id: "b",
+                id: "c",
                 text: "My school day starts at eight and ends at three.",
               },
-              { id: "c", text: "I like some things." },
-              { id: "d", text: "There are students." },
+              { id: "d", text: "School is good." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -796,10 +796,10 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The history of the Roman Empire" },
+              { id: "a", text: "The meaning of life" },
               { id: "b", text: "My daily routine" },
               { id: "c", text: "Quantum physics" },
-              { id: "d", text: "The meaning of life" },
+              { id: "d", text: "The history of the Roman Empire" },
             ],
             correctChoiceId: "b",
           },
@@ -971,11 +971,11 @@ export const lesson53: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "The causes of climate change" },
-              { id: "b", text: "My favourite food" },
-              { id: "c", text: "The French Revolution" },
-              { id: "d", text: "Quantum physics" },
+              { id: "b", text: "The French Revolution" },
+              { id: "c", text: "Quantum physics" },
+              { id: "d", text: "My favourite food" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1010,12 +1010,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "I like football and tennis." },
-              { id: "b", text: "I like football and and tennis." },
-              { id: "c", text: "I like football tennis and." },
-              { id: "d", text: "And I like football tennis." },
+              { id: "a", text: "I like football and and tennis." },
+              { id: "b", text: "I like football tennis and." },
+              { id: "c", text: "And I like football tennis." },
+              { id: "d", text: "I like football and tennis." },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1051,10 +1051,10 @@ export const lesson53: Lesson = {
             choices: [
               { id: "a", text: "I play every Saturday." },
               { id: "b", text: "My team has ten players." },
-              { id: "c", text: "I like pizza." },
-              { id: "d", text: "We practise for one hour." },
+              { id: "c", text: "We practise for one hour." },
+              { id: "d", text: "I like pizza." },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1093,12 +1093,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Use at least ten sentences" },
-              { id: "b", text: "Have a topic sentence and linking words" },
+              { id: "a", text: "Use no punctuation" },
+              { id: "b", text: "Use at least ten sentences" },
               { id: "c", text: "Write only questions" },
-              { id: "d", text: "Use no punctuation" },
+              { id: "d", text: "Have a topic sentence and linking words" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1134,15 +1134,15 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "My friend is called Tom." },
-              { id: "b", text: "He is tall and has brown hair." },
               {
-                id: "c",
+                id: "a",
                 text: "He is my best friend because he always helps me and makes me laugh.",
               },
-              { id: "d", text: "We are friends." },
+              { id: "b", text: "My friend is called Tom." },
+              { id: "c", text: "We are friends." },
+              { id: "d", text: "He is tall and has brown hair." },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1192,8 +1192,8 @@ export const lesson53: Lesson = {
                 id: "b",
                 text: "My brother is tall, plays football and is funny.",
               },
-              { id: "c", text: "My brother tall football funny." },
-              { id: "d", text: "Brother tall football funny." },
+              { id: "c", text: "Brother tall football funny." },
+              { id: "d", text: "My brother tall football funny." },
             ],
             correctChoiceId: "b",
           },

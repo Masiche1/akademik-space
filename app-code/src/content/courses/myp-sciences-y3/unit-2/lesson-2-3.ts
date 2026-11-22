@@ -57,12 +57,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Digestive system" },
-              { id: "b", text: "Circulatory system" },
-              { id: "c", text: "Excretory system" },
-              { id: "d", text: "Respiratory system" },
+              { id: "a", text: "Excretory system" },
+              { id: "b", text: "Digestive system" },
+              { id: "c", text: "Respiratory system" },
+              { id: "d", text: "Circulatory system" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -154,12 +154,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Circulatory system" },
-              { id: "b", text: "Digestive system" },
-              { id: "c", text: "Respiratory system" },
-              { id: "d", text: "Excretory system" },
+              { id: "a", text: "Respiratory system" },
+              { id: "b", text: "Circulatory system" },
+              { id: "c", text: "Excretory system" },
+              { id: "d", text: "Digestive system" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -181,12 +181,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Nervous system" },
-              { id: "b", text: "Endocrine system" },
-              { id: "c", text: "Circulatory system" },
-              { id: "d", text: "Respiratory system" },
+              { id: "a", text: "Circulatory system" },
+              { id: "b", text: "Nervous system" },
+              { id: "c", text: "Respiratory system" },
+              { id: "d", text: "Endocrine system" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -208,9 +208,9 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Nervous is slow and long-lasting; endocrine is fast" },
+              { id: "a", text: "Both use hormones" },
               { id: "b", text: "Nervous is fast and short-lived; endocrine is slower and longer-lasting" },
-              { id: "c", text: "Both use hormones" },
+              { id: "c", text: "Nervous is slow and long-lasting; endocrine is fast" },
               { id: "d", text: "Both use nerve impulses" },
             ],
             correctChoiceId: "b",
@@ -254,12 +254,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Respiratory system" },
-              { id: "b", text: "Circulatory system" },
-              { id: "c", text: "Excretory system" },
-              { id: "d", text: "Endocrine system" },
+              { id: "a", text: "Circulatory system" },
+              { id: "b", text: "Respiratory system" },
+              { id: "c", text: "Endocrine system" },
+              { id: "d", text: "Excretory system" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -281,11 +281,11 @@ export const lesson23: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Nervous system" },
-              { id: "b", text: "Endocrine system" },
-              { id: "c", text: "Digestive system" },
-              { id: "d", text: "Excretory system" },
+              { id: "b", text: "Digestive system" },
+              { id: "c", text: "Excretory system" },
+              { id: "d", text: "Endocrine system" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -307,12 +307,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Keeping the outside environment constant" },
-              { id: "b", text: "Maintaining stable internal conditions despite external changes" },
-              { id: "c", text: "Growing to full size" },
-              { id: "d", text: "Responding only to injury" },
+              { id: "a", text: "Growing to full size" },
+              { id: "b", text: "Responding only to injury" },
+              { id: "c", text: "Keeping the outside environment constant" },
+              { id: "d", text: "Maintaining stable internal conditions despite external changes" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -392,12 +392,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Stomach" },
-              { id: "b", text: "Kidney" },
+              { id: "a", text: "Kidney" },
+              { id: "b", text: "Stomach" },
               { id: "c", text: "Lung" },
               { id: "d", text: "Heart" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -419,12 +419,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Nerve impulses travel quickly along nerves while hormones travel more slowly in the blood" },
-              { id: "b", text: "Hormones are always stronger than nerve impulses" },
-              { id: "c", text: "The nervous system controls only muscles" },
-              { id: "d", text: "Hormones act only during sleep" },
+              { id: "a", text: "The nervous system controls only muscles" },
+              { id: "b", text: "Nerve impulses travel quickly along nerves while hormones travel more slowly in the blood" },
+              { id: "c", text: "Hormones act only during sleep" },
+              { id: "d", text: "Hormones are always stronger than nerve impulses" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -478,8 +478,8 @@ export const lesson23: Lesson = {
             choices: [
               { id: "a", text: "Glucagon" },
               { id: "b", text: "Insulin" },
-              { id: "c", text: "Adrenaline" },
-              { id: "d", text: "Thyroxine" },
+              { id: "c", text: "Thyroxine" },
+              { id: "d", text: "Adrenaline" },
             ],
             correctChoiceId: "b",
           },
@@ -574,12 +574,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Insulin" },
-              { id: "b", text: "Glucagon" },
-              { id: "c", text: "Adrenaline" },
-              { id: "d", text: "Thyroxine" },
+              { id: "a", text: "Glucagon" },
+              { id: "b", text: "Thyroxine" },
+              { id: "c", text: "Insulin" },
+              { id: "d", text: "Adrenaline" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -601,12 +601,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Type 2 diabetes" },
-              { id: "b", text: "Heart disease" },
-              { id: "c", text: "Influenza" },
-              { id: "d", text: "Obesity" },
+              { id: "a", text: "Influenza" },
+              { id: "b", text: "Obesity" },
+              { id: "c", text: "Heart disease" },
+              { id: "d", text: "Type 2 diabetes" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -628,12 +628,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Type 2 diabetes" },
-              { id: "b", text: "Malaria" },
-              { id: "c", text: "Tuberculosis" },
+              { id: "a", text: "Tuberculosis" },
+              { id: "b", text: "Type 2 diabetes" },
+              { id: "c", text: "Malaria" },
               { id: "d", text: "Cholera" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -693,10 +693,10 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Eating more sugar" },
+              { id: "a", text: "Watching more television" },
               { id: "b", text: "Hand washing and vaccination" },
-              { id: "c", text: "Watching more television" },
-              { id: "d", text: "Sleeping less" },
+              { id: "c", text: "Sleeping less" },
+              { id: "d", text: "Eating more sugar" },
             ],
             correctChoiceId: "b",
           },
@@ -720,12 +720,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Permanent and irreversible" },
-              { id: "b", text: "Reversible — they decline if exercise stops" },
-              { id: "c", text: "Caused by pathogens" },
-              { id: "d", text: "Only possible in athletes" },
+              { id: "a", text: "Only possible in athletes" },
+              { id: "b", text: "Caused by pathogens" },
+              { id: "c", text: "Permanent and irreversible" },
+              { id: "d", text: "Reversible — they decline if exercise stops" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -767,12 +767,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Producing more sweat to cool the skin" },
+              { id: "a", text: "Slowing the heart rate" },
               { id: "b", text: "Producing more heat" },
               { id: "c", text: "Storing more glucose" },
-              { id: "d", text: "Slowing the heart rate" },
+              { id: "d", text: "Producing more sweat to cool the skin" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -812,9 +812,9 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Red blood cells" },
+              { id: "a", text: "White blood cells" },
               { id: "b", text: "Buffers in the blood" },
-              { id: "c", text: "White blood cells" },
+              { id: "c", text: "Red blood cells" },
               { id: "d", text: "Platelets" },
             ],
             correctChoiceId: "b",
@@ -839,12 +839,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The systems are interdependent and rely on shared transport and coordination" },
-              { id: "b", text: "Each system works completely independently" },
-              { id: "c", text: "Diseases always spread to all organs at once" },
+              { id: "a", text: "Each system works completely independently" },
+              { id: "b", text: "Diseases always spread to all organs at once" },
+              { id: "c", text: "The systems are interdependent and rely on shared transport and coordination" },
               { id: "d", text: "The immune system ignores damaged organs" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

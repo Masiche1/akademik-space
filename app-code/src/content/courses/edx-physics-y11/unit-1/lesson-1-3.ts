@@ -53,10 +53,10 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\text{J/kg}$" },
+              { id: "a", text: "$\\text{kg}^\\circ\\text{C/J}$" },
               { id: "b", text: "$\\text{J}^\\circ\\text{C/kg}$" },
               { id: "c", text: "$\\text{J/kg}^\\circ\\text{C}$" },
-              { id: "d", text: "$\\text{kg}^\\circ\\text{C/J}$" },
+              { id: "d", text: "$\\text{J/kg}$" },
             ],
             correctChoiceId: "c",
           },
@@ -193,9 +193,9 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$-246\\text{ K}$" },
-              { id: "b", text: "$27\\text{ K}$" },
-              { id: "c", text: "$246\\text{ K}$" },
+              { id: "a", text: "$27\\text{ K}$" },
+              { id: "b", text: "$246\\text{ K}$" },
+              { id: "c", text: "$-246\\text{ K}$" },
               { id: "d", text: "$300\\text{ K}$" },
             ],
             correctChoiceId: "d",

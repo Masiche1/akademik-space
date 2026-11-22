@@ -55,12 +55,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The literal meaning of words" },
-              { id: "b", text: "What a text suggests without stating it directly" },
+              { id: "a", text: "What a text suggests without stating it directly" },
+              { id: "b", text: "A direct quote" },
               { id: "c", text: "The title of a text" },
-              { id: "d", text: "A direct quote" },
+              { id: "d", text: "The literal meaning of words" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -175,8 +175,8 @@ export const lesson12: Lesson = {
             choices: [
               { id: "a", text: "To skip difficult words" },
               { id: "b", text: "To find meaning that is suggested but not stated" },
-              { id: "c", text: "To read the last paragraph only" },
-              { id: "d", text: "To translate the text" },
+              { id: "c", text: "To translate the text" },
+              { id: "d", text: "To read the last paragraph only" },
             ],
             correctChoiceId: "b",
           },
@@ -200,12 +200,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "They are excited" },
-              { id: "b", text: "They are sad or worried" },
-              { id: "c", text: "They are angry" },
+              { id: "a", text: "They are sad or worried" },
+              { id: "b", text: "They are angry" },
+              { id: "c", text: "They are excited" },
               { id: "d", text: "They are hungry" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -287,10 +287,10 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "She is certain it will fail" },
+              { id: "a", text: "She is angry about the change" },
               { id: "b", text: "She is cautiously optimistic but uncertain" },
-              { id: "c", text: "She thinks it is a proven success" },
-              { id: "d", text: "She is angry about the change" },
+              { id: "c", text: "She is certain it will fail" },
+              { id: "d", text: "She thinks it is a proven success" },
             ],
             correctChoiceId: "b",
           },
@@ -367,9 +367,9 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Proud and excited" },
+              { id: "a", text: "Neutral and factual" },
               { id: "b", text: "Critical and disappointed" },
-              { id: "c", text: "Neutral and factual" },
+              { id: "c", text: "Proud and excited" },
               { id: "d", text: "Amused and joking" },
             ],
             correctChoiceId: "b",
@@ -400,12 +400,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The food is excellent value" },
-              { id: "b", text: "The food is probably not worth the price" },
-              { id: "c", text: "The food is too expensive" },
+              { id: "a", text: "The food is probably not worth the price" },
+              { id: "b", text: "The food is too expensive" },
+              { id: "c", text: "The food is excellent value" },
               { id: "d", text: "The reviewer has never eaten there" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -461,10 +461,10 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The park took exactly one year" },
+              { id: "a", text: "The park will never open" },
               { id: "b", text: "They think the delay was too long" },
-              { id: "c", text: "They are happy about the delay" },
-              { id: "d", text: "The park will never open" },
+              { id: "c", text: "The park took exactly one year" },
+              { id: "d", text: "They are happy about the delay" },
             ],
             correctChoiceId: "b",
           },
@@ -554,11 +554,11 @@ export const lesson12: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Reading every word carefully" },
-              { id: "b", text: "Reading quickly for the main idea" },
-              { id: "c", text: "Reading backwards" },
-              { id: "d", text: "Skipping all the text" },
+              { id: "b", text: "Skipping all the text" },
+              { id: "c", text: "Reading quickly for the main idea" },
+              { id: "d", text: "Reading backwards" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -664,12 +664,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Reading every word slowly" },
-              { id: "b", text: "Looking quickly for specific information" },
-              { id: "c", text: "Summarising the whole text" },
-              { id: "d", text: "Skipping the text entirely" },
+              { id: "a", text: "Looking quickly for specific information" },
+              { id: "b", text: "Summarising the whole text" },
+              { id: "c", text: "Skipping the text entirely" },
+              { id: "d", text: "Reading every word slowly" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -691,12 +691,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Question" },
-              { id: "b", text: "Quick" },
-              { id: "c", text: "Quote" },
+              { id: "a", text: "Quote" },
+              { id: "b", text: "Question" },
+              { id: "c", text: "Quick" },
               { id: "d", text: "Quality" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -778,12 +778,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "'Why is sleep important for students?'" },
-              { id: "b", text: "'How many hours should students sleep?'" },
-              { id: "c", text: "'When do students sleep?'" },
+              { id: "a", text: "'When do students sleep?'" },
+              { id: "b", text: "'Why is sleep important for students?'" },
+              { id: "c", text: "'How many hours should students sleep?'" },
               { id: "d", text: "'Who wrote this article?'" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -858,12 +858,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It breaks your concentration and slows comprehension" },
+              { id: "a", text: "It is against the rules" },
               { id: "b", text: "Unknown words are never important" },
-              { id: "c", text: "It is against the rules" },
-              { id: "d", text: "Dictionaries are not allowed" },
+              { id: "c", text: "Dictionaries are not allowed" },
+              { id: "d", text: "It breaks your concentration and slows comprehension" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -891,12 +891,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Skim the whole article slowly" },
-              { id: "b", text: "Scan for the specific details" },
+              { id: "a", text: "Scan for the specific details" },
+              { id: "b", text: "Translate the text first" },
               { id: "c", text: "Read only the title" },
-              { id: "d", text: "Translate the text first" },
+              { id: "d", text: "Skim the whole article slowly" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -953,9 +953,9 @@ export const lesson12: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Because the organiser gave no figures to support it" },
-              { id: "b", text: "Because climbing is a difficult word" },
-              { id: "c", text: "Because the class is in the evening" },
-              { id: "d", text: "Because quotes are always unreliable" },
+              { id: "b", text: "Because quotes are always unreliable" },
+              { id: "c", text: "Because climbing is a difficult word" },
+              { id: "d", text: "Because the class is in the evening" },
             ],
             correctChoiceId: "a",
           },

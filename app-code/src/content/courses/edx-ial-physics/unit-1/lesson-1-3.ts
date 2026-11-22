@@ -52,11 +52,11 @@ export const lesson13: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "V = I/R" },
-              { id: "b", text: "V = IR" },
-              { id: "c", text: "I = VR" },
-              { id: "d", text: "R = VI" },
+              { id: "b", text: "R = VI" },
+              { id: "c", text: "V = IR" },
+              { id: "d", text: "I = VR" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Ohm's law", statement: "V = IR." }],
@@ -166,12 +166,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Attract" },
-              { id: "b", text: "Repel" },
+              { id: "a", text: "Neutralise" },
+              { id: "b", text: "Attract" },
               { id: "c", text: "Cancel" },
-              { id: "d", text: "Neutralise" },
+              { id: "d", text: "Repel" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Coulomb", statement: "Like repel, unlike attract." }],

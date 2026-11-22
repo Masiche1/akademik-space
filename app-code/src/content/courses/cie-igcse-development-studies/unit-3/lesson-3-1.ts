@@ -120,12 +120,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Total economic output divided by population" },
-              { id: "b", text: "Total income" },
-              { id: "c", text: "Population growth" },
-              { id: "d", text: "Life expectancy" },
+              { id: "a", text: "Total income" },
+              { id: "b", text: "Life expectancy" },
+              { id: "c", text: "Total economic output divided by population" },
+              { id: "d", text: "Population growth" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -153,12 +153,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Income, education and life expectancy" },
-              { id: "b", text: "GDP, population and area" },
+              { id: "a", text: "GDP, population and area" },
+              { id: "b", text: "Birth rate, death rate and migration" },
               { id: "c", text: "Exports, imports and inflation" },
-              { id: "d", text: "Birth rate, death rate and migration" },
+              { id: "d", text: "Income, education and life expectancy" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -186,12 +186,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Income inequality" },
+              { id: "a", text: "Life expectancy" },
               { id: "b", text: "Economic growth" },
-              { id: "c", text: "Population size" },
-              { id: "d", text: "Life expectancy" },
+              { id: "c", text: "Income inequality" },
+              { id: "d", text: "Population size" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -219,12 +219,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Perfect equality" },
-              { id: "b", text: "Perfect inequality" },
-              { id: "c", text: "No income" },
-              { id: "d", text: "Maximum poverty" },
+              { id: "a", text: "No income" },
+              { id: "b", text: "Perfect equality" },
+              { id: "c", text: "Maximum poverty" },
+              { id: "d", text: "Perfect inequality" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -252,12 +252,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Perfect inequality" },
-              { id: "b", text: "Perfect equality" },
-              { id: "c", text: "No poverty" },
-              { id: "d", text: "Maximum development" },
+              { id: "a", text: "No poverty" },
+              { id: "b", text: "Maximum development" },
+              { id: "c", text: "Perfect equality" },
+              { id: "d", text: "Perfect inequality" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -286,9 +286,9 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Lacking basic necessities for survival" },
-              { id: "b", text: "Being poorer than average" },
+              { id: "b", text: "Living in rural areas" },
               { id: "c", text: "Having low income" },
-              { id: "d", text: "Living in rural areas" },
+              { id: "d", text: "Being poorer than average" },
             ],
             correctChoiceId: "a",
           },
@@ -318,15 +318,15 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "Lacking survival necessities" },
+              { id: "b", text: "Living in cities" },
               {
-                id: "a",
+                id: "c",
                 text: "Lacking the standard of living of the majority",
               },
-              { id: "b", text: "Lacking survival necessities" },
-              { id: "c", text: "Having no income" },
-              { id: "d", text: "Living in cities" },
+              { id: "d", text: "Having no income" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -354,12 +354,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Health, education and living standards" },
-              { id: "b", text: "Income only" },
-              { id: "c", text: "GDP only" },
+              { id: "a", text: "GDP only" },
+              { id: "b", text: "Health, education and living standards" },
+              { id: "c", text: "Income only" },
               { id: "d", text: "Population only" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -387,12 +387,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "2000-2015" },
-              { id: "b", text: "2015-2030" },
-              { id: "c", text: "1990-2000" },
+              { id: "a", text: "2015-2030" },
+              { id: "b", text: "1990-2000" },
+              { id: "c", text: "2000-2015" },
               { id: "d", text: "2020-2050" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -559,12 +559,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "2015-2030" },
-              { id: "b", text: "2000-2015" },
-              { id: "c", text: "2020-2050" },
-              { id: "d", text: "1990-2010" },
+              { id: "a", text: "1990-2010" },
+              { id: "b", text: "2015-2030" },
+              { id: "c", text: "2000-2015" },
+              { id: "d", text: "2020-2050" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -623,8 +623,8 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Skills, knowledge and health of a population" },
-              { id: "b", text: "Money and buildings" },
-              { id: "c", text: "Natural resources" },
+              { id: "b", text: "Natural resources" },
+              { id: "c", text: "Money and buildings" },
               { id: "d", text: "Government spending" },
             ],
             correctChoiceId: "a",
@@ -764,12 +764,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "GDP growth rate" },
-              { id: "b", text: "Income" },
-              { id: "c", text: "Education" },
-              { id: "d", text: "Life expectancy" },
+              { id: "a", text: "Education" },
+              { id: "b", text: "Life expectancy" },
+              { id: "c", text: "GDP growth rate" },
+              { id: "d", text: "Income" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -905,12 +905,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "HDI" },
-              { id: "b", text: "GDP" },
-              { id: "c", text: "Gini" },
-              { id: "d", text: "Poverty line" },
+              { id: "a", text: "Poverty line" },
+              { id: "b", text: "Gini" },
+              { id: "c", text: "HDI" },
+              { id: "d", text: "GDP" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1007,9 +1007,9 @@ export const lesson31: Lesson = {
                 id: "a",
                 text: "Reduce poverty and improve development globally",
               },
-              { id: "b", text: "Increase military spending" },
-              { id: "c", text: "Promote trade only" },
-              { id: "d", text: "Increase population" },
+              { id: "b", text: "Promote trade only" },
+              { id: "c", text: "Increase population" },
+              { id: "d", text: "Increase military spending" },
             ],
             correctChoiceId: "a",
           },
@@ -1184,12 +1184,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Unequal distribution of earnings" },
-              { id: "b", text: "Unequal wealth" },
-              { id: "c", text: "Unequal opportunities" },
-              { id: "d", text: "Unequal education" },
+              { id: "a", text: "Unequal opportunities" },
+              { id: "b", text: "Unequal education" },
+              { id: "c", text: "Unequal wealth" },
+              { id: "d", text: "Unequal distribution of earnings" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1217,12 +1217,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Unequal ownership of assets" },
-              { id: "b", text: "Unequal earnings" },
+              { id: "a", text: "Unequal jobs" },
+              { id: "b", text: "Unequal ownership of assets" },
               { id: "c", text: "Unequal education" },
-              { id: "d", text: "Unequal jobs" },
+              { id: "d", text: "Unequal earnings" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1250,15 +1250,15 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "Unequal wealth" },
+              { id: "b", text: "Unequal voting" },
               {
-                id: "a",
+                id: "c",
                 text: "Unequal access to education, healthcare and jobs",
               },
-              { id: "b", text: "Unequal income" },
-              { id: "c", text: "Unequal wealth" },
-              { id: "d", text: "Unequal voting" },
+              { id: "d", text: "Unequal income" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1286,15 +1286,15 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "Women having more jobs" },
+              { id: "b", text: "Equal outcomes" },
+              { id: "c", text: "Men having more education" },
               {
-                id: "a",
+                id: "d",
                 text: "Women earning less and having less access to resources",
               },
-              { id: "b", text: "Men having more education" },
-              { id: "c", text: "Women having more jobs" },
-              { id: "d", text: "Equal outcomes" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1323,9 +1323,9 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Unequal access to capital and technology" },
-              { id: "b", text: "Discrimination" },
-              { id: "c", text: "Corruption" },
-              { id: "d", text: "Colonial history" },
+              { id: "b", text: "Colonial history" },
+              { id: "c", text: "Discrimination" },
+              { id: "d", text: "Corruption" },
             ],
             correctChoiceId: "a",
           },
@@ -1356,9 +1356,9 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Policies favouring elites" },
-              { id: "b", text: "High GDP" },
-              { id: "c", text: "Good education" },
-              { id: "d", text: "Free trade" },
+              { id: "b", text: "Good education" },
+              { id: "c", text: "Free trade" },
+              { id: "d", text: "High GDP" },
             ],
             correctChoiceId: "a",
           },
@@ -1388,12 +1388,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Discrimination and unequal education access" },
-              { id: "b", text: "High GDP" },
-              { id: "c", text: "Free markets" },
-              { id: "d", text: "Technology" },
+              { id: "a", text: "High GDP" },
+              { id: "b", text: "Free markets" },
+              { id: "c", text: "Technology" },
+              { id: "d", text: "Discrimination and unequal education access" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1421,12 +1421,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Slower poverty reduction" },
-              { id: "b", text: "Higher GDP" },
+              { id: "a", text: "More equality" },
+              { id: "b", text: "Slower poverty reduction" },
               { id: "c", text: "Better health" },
-              { id: "d", text: "More equality" },
+              { id: "d", text: "Higher GDP" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1455,9 +1455,9 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Assets accumulate over generations" },
-              { id: "b", text: "Income is equal" },
-              { id: "c", text: "Wealth is taxed" },
-              { id: "d", text: "Assets don't accumulate" },
+              { id: "b", text: "Wealth is taxed" },
+              { id: "c", text: "Assets don't accumulate" },
+              { id: "d", text: "Income is equal" },
             ],
             correctChoiceId: "a",
           },
@@ -1631,9 +1631,9 @@ export const lesson31: Lesson = {
                 id: "a",
                 text: "Uneven development between urban and rural areas",
               },
-              { id: "b", text: "Unequal income" },
-              { id: "c", text: "Unequal gender" },
-              { id: "d", text: "Unequal education" },
+              { id: "b", text: "Unequal education" },
+              { id: "c", text: "Unequal income" },
+              { id: "d", text: "Unequal gender" },
             ],
             correctChoiceId: "a",
           },
@@ -1693,12 +1693,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Inherited structural disadvantages" },
+              { id: "a", text: "Free trade" },
               { id: "b", text: "Modern technology" },
-              { id: "c", text: "Free trade" },
+              { id: "c", text: "Inherited structural disadvantages" },
               { id: "d", text: "Good governance" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1834,12 +1834,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Education, healthcare and jobs" },
-              { id: "b", text: "Money only" },
-              { id: "c", text: "Land only" },
-              { id: "d", text: "Voting only" },
+              { id: "a", text: "Voting only" },
+              { id: "b", text: "Education, healthcare and jobs" },
+              { id: "c", text: "Money only" },
+              { id: "d", text: "Land only" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1974,12 +1974,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Climate inequality" },
+              { id: "a", text: "Gender inequality" },
               { id: "b", text: "Income inequality" },
-              { id: "c", text: "Wealth inequality" },
-              { id: "d", text: "Gender inequality" },
+              { id: "c", text: "Climate inequality" },
+              { id: "d", text: "Wealth inequality" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -2074,12 +2074,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Skilled workers and capital owners" },
-              { id: "b", text: "Unskilled workers" },
-              { id: "c", text: "The poor" },
-              { id: "d", text: "Rural populations" },
+              { id: "a", text: "Unskilled workers" },
+              { id: "b", text: "Rural populations" },
+              { id: "c", text: "Skilled workers and capital owners" },
+              { id: "d", text: "The poor" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

@@ -57,12 +57,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A steady magnetic field" },
-              { id: "b", text: "A changing magnetic flux through the coil" },
-              { id: "c", text: "A large current in the coil" },
-              { id: "d", text: "A battery connected" },
+              { id: "a", text: "A battery connected" },
+              { id: "b", text: "A large current in the coil" },
+              { id: "c", text: "A steady magnetic field" },
+              { id: "d", text: "A changing magnetic flux through the coil" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Faraday", statement: "Induction requires change in flux, not steady field." }],
@@ -82,12 +82,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "60" },
+              { id: "a", text: "10" },
               { id: "b", text: "600" },
-              { id: "c", text: "115" },
-              { id: "d", text: "10" },
+              { id: "c", text: "60" },
+              { id: "d", text: "115" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Turns ratio", statement: "$N_s = N_p \\times V_s/V_p = 1150 \\times 12/230$" }],
@@ -108,12 +108,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "2 A" },
-              { id: "b", text: "10 A" },
-              { id: "c", text: "40 A" },
-              { id: "d", text: "0.1 A" },
+              { id: "a", text: "40 A" },
+              { id: "b", text: "2 A" },
+              { id: "c", text: "0.1 A" },
+              { id: "d", text: "10 A" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Power conservation", statement: "$V_pI_p = V_sI_s$ → $I_s = 240 \\times 2/12$" }],
@@ -166,12 +166,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The coil is stationary in a magnetic field" },
-              { id: "b", text: "The magnetic flux through the coil changes" },
-              { id: "c", text: "The coil has many turns of thick wire" },
-              { id: "d", text: "The magnet is demagnetised" },
+              { id: "a", text: "The coil has many turns of thick wire" },
+              { id: "b", text: "The magnet is demagnetised" },
+              { id: "c", text: "The coil is stationary in a magnetic field" },
+              { id: "d", text: "The magnetic flux through the coil changes" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "law", name: "Faraday's law", statement: "Induced e.m.f. proportional to rate of change of magnetic flux linkage." }],
@@ -210,9 +210,9 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It flows so as to attract the approaching magnet" },
+              { id: "a", text: "No current is induced" },
               { id: "b", text: "It flows so as to oppose the change — the coil repels the approaching magnet" },
-              { id: "c", text: "No current is induced" },
+              { id: "c", text: "It flows so as to attract the approaching magnet" },
               { id: "d", text: "It flows in the same direction as the magnet's motion" },
             ],
             correctChoiceId: "b",
@@ -256,12 +256,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "High voltage is safer for homes" },
-              { id: "b", text: "Higher voltage allows lower current for the same power, reducing $I^2R$ energy losses in cables" },
-              { id: "c", text: "It makes transformers unnecessary" },
-              { id: "d", text: "Cables conduct better at high voltage" },
+              { id: "a", text: "Cables conduct better at high voltage" },
+              { id: "b", text: "It makes transformers unnecessary" },
+              { id: "c", text: "High voltage is safer for homes" },
+              { id: "d", text: "Higher voltage allows lower current for the same power, reducing $I^2R$ energy losses in cables" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Power transmission", statement: "$P = VI$ fixed → higher V → lower I → less $I^2R$ loss." }],
@@ -363,8 +363,8 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Moving the magnet faster" },
-              { id: "b", text: "Using more turns of wire" },
+              { id: "a", text: "Using more turns of wire" },
+              { id: "b", text: "Moving the magnet faster" },
               { id: "c", text: "Using a stronger magnet" },
               { id: "d", text: "Holding the magnet stationary inside the coil" },
             ],
@@ -388,12 +388,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "By chemical reaction in the hub" },
-              { id: "b", text: "A rotating coil in a magnetic field changes flux, inducing an alternating e.m.f." },
+              { id: "a", text: "A rotating coil in a magnetic field changes flux, inducing an alternating e.m.f." },
+              { id: "b", text: "By chemical reaction in the hub" },
               { id: "c", text: "By friction heating the wire" },
               { id: "d", text: "By static electricity" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Generator", statement: "Rotation changes flux linkage → induced a.c. e.m.f." }],
@@ -512,12 +512,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Alpha" },
-              { id: "b", text: "Beta" },
-              { id: "c", text: "Gamma" },
-              { id: "d", text: "All three equally" },
+              { id: "a", text: "Beta" },
+              { id: "b", text: "Alpha" },
+              { id: "c", text: "All three equally" },
+              { id: "d", text: "Gamma" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Alpha", statement: "Alpha particles are heavy and charged → stopped by paper/skin." }],
@@ -538,11 +538,11 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "A helium nucleus" },
-              { id: "b", text: "A fast electron and antineutrino" },
-              { id: "c", text: "A gamma photon" },
+              { id: "b", text: "A gamma photon" },
+              { id: "c", text: "A fast electron and antineutrino" },
               { id: "d", text: "A proton" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Beta decay", statement: "Neutron → proton + electron + antineutrino." }],
@@ -563,12 +563,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "1" },
-              { id: "b", text: "2" },
+              { id: "a", text: "2" },
+              { id: "b", text: "1" },
               { id: "c", text: "3" },
               { id: "d", text: "4" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Half-life", statement: "Each half-life halves activity: 800 → 400 → 200." }],
@@ -620,12 +620,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A fast electron" },
-              { id: "b", text: "A helium nucleus (2 protons + 2 neutrons)" },
-              { id: "c", text: "An electromagnetic wave" },
+              { id: "a", text: "An electromagnetic wave" },
+              { id: "b", text: "A fast electron" },
+              { id: "c", text: "A helium nucleus (2 protons + 2 neutrons)" },
               { id: "d", text: "A neutron" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Alpha", statement: "${}^{4}_{2}\\text{He}$ nucleus; charge +2, mass 4." }],
@@ -664,12 +664,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Alpha" },
-              { id: "b", text: "Beta" },
-              { id: "c", text: "Gamma" },
-              { id: "d", text: "All equal" },
+              { id: "a", text: "Gamma" },
+              { id: "b", text: "Alpha" },
+              { id: "c", text: "All equal" },
+              { id: "d", text: "Beta" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "comparison", name: "Penetration", statement: "Gamma > beta > alpha in penetration." }],
@@ -710,12 +710,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Thick concrete" },
-              { id: "b", text: "A sheet of paper or human skin" },
-              { id: "c", text: "Thin aluminium foil" },
+              { id: "a", text: "Thin aluminium foil" },
+              { id: "b", text: "Thick concrete" },
+              { id: "c", text: "A sheet of paper or human skin" },
               { id: "d", text: "Air at any distance" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "comparison", name: "Penetration", statement: "Alpha stopped by paper/skin; beta needs thin metal; gamma needs lead/concrete." }],
@@ -758,12 +758,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Gamma" },
-              { id: "b", text: "Beta" },
-              { id: "c", text: "Alpha" },
-              { id: "d", text: "None" },
+              { id: "a", text: "Alpha" },
+              { id: "b", text: "Gamma" },
+              { id: "c", text: "None" },
+              { id: "d", text: "Beta" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "context", name: "Uses", statement: "Alpha ionises air in smoke detectors; smoke particles reduce ion current." }],
@@ -802,8 +802,8 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Alpha" },
-              { id: "b", text: "Beta" },
+              { id: "a", text: "Beta" },
+              { id: "b", text: "Alpha" },
               { id: "c", text: "Gamma" },
               { id: "d", text: "Visible light" },
             ],
@@ -856,12 +856,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Beta is the cheapest radiation" },
-              { id: "b", text: "Beta penetrates thin sheets partially; the amount transmitted depends on thickness" },
+              { id: "a", text: "Beta penetrates thin sheets partially; the amount transmitted depends on thickness" },
+              { id: "b", text: "Beta is the cheapest radiation" },
               { id: "c", text: "Beta is visible to the eye" },
               { id: "d", text: "Beta does not interact with matter" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "context", name: "Beta uses", statement: "Partial penetration of thin metal → transmission varies with thickness." }],

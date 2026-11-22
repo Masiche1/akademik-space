@@ -54,10 +54,10 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$0^\\circ$" },
-              { id: "b", text: "$45^\\circ$" },
+              { id: "a", text: "$180^\\circ$" },
+              { id: "b", text: "$0^\\circ$" },
               { id: "c", text: "$90^\\circ$" },
-              { id: "d", text: "$180^\\circ$" },
+              { id: "d", text: "$45^\\circ$" },
             ],
             correctChoiceId: "c",
           },
@@ -189,11 +189,11 @@ export const lesson42: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$2$" },
-              { id: "b", text: "$6$" },
-              { id: "c", text: "$11$" },
-              { id: "d", text: "$24$" },
+              { id: "b", text: "$11$" },
+              { id: "c", text: "$24$" },
+              { id: "d", text: "$6$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

@@ -50,12 +50,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "They all do the same job." },
-              { id: "b", text: "They were inherited from a common ancestor." },
+              { id: "a", text: "They were inherited from a common ancestor." },
+              { id: "b", text: "Each animal grew the bones it needed during its life." },
               { id: "c", text: "The animals all live in the same habitat." },
-              { id: "d", text: "Each animal grew the bones it needed during its life." },
+              { id: "d", text: "They all do the same job." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -181,12 +181,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "In natural selection, individuals change their traits on purpose." },
+              { id: "a", text: "In natural selection the environment selects, and in artificial selection humans select." },
               { id: "b", text: "In artificial selection, the environment decides which organisms reproduce." },
-              { id: "c", text: "In natural selection the environment selects, and in artificial selection humans select." },
-              { id: "d", text: "Only artificial selection involves genetic variation." },
+              { id: "c", text: "Only artificial selection involves genetic variation." },
+              { id: "d", text: "In natural selection, individuals change their traits on purpose." },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [

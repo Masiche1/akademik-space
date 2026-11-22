@@ -52,12 +52,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "OK." },
-              { id: "b", text: "Really? Which team?" },
-              { id: "c", text: "Goodbye." },
+              { id: "a", text: "Goodbye." },
+              { id: "b", text: "OK." },
+              { id: "c", text: "Really? Which team?" },
               { id: "d", text: "I don't know." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -146,12 +146,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "\"OK.\"" },
-              { id: "b", text: "\"Really? That's interesting.\"" },
-              { id: "c", text: "Silence" },
-              { id: "d", text: "\"Whatever.\"" },
+              { id: "a", text: "\"Really? That's interesting.\"" },
+              { id: "b", text: "\"OK.\"" },
+              { id: "c", text: "\"Whatever.\"" },
+              { id: "d", text: "Silence" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -173,12 +173,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Ends the conversation" },
-              { id: "b", text: "Asks the same question back to the speaker" },
+              { id: "a", text: "Changes the subject" },
+              { id: "b", text: "Ends the conversation" },
               { id: "c", text: "Says sorry" },
-              { id: "d", text: "Changes the subject" },
+              { id: "d", text: "Asks the same question back to the speaker" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -205,12 +205,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "\"I see.\"" },
-              { id: "b", text: "\"Really? What's it called?\"" },
-              { id: "c", text: "\"I don't care.\"" },
-              { id: "d", text: "\"Be quiet.\"" },
+              { id: "a", text: "\"Really? What's it called?\"" },
+              { id: "b", text: "\"Be quiet.\"" },
+              { id: "c", text: "\"I see.\"" },
+              { id: "d", text: "\"I don't care.\"" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -237,12 +237,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Keep talking louder" },
-              { id: "b", text: "Wait for a pause, then say \"Excuse me\"" },
-              { id: "c", text: "Leave the room" },
-              { id: "d", text: "Say nothing ever again" },
+              { id: "a", text: "Wait for a pause, then say \"Excuse me\"" },
+              { id: "b", text: "Keep talking louder" },
+              { id: "c", text: "Say nothing ever again" },
+              { id: "d", text: "Leave the room" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -266,11 +266,11 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Shout over everyone" },
-              { id: "b", text: "Wait for a pause, then ask a question" },
-              { id: "c", text: "Talk over the other people" },
-              { id: "d", text: "Leave immediately" },
+              { id: "b", text: "Talk over the other people" },
+              { id: "c", text: "Leave immediately" },
+              { id: "d", text: "Wait for a pause, then ask a question" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -292,12 +292,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "\"I am fine.\"" },
-              { id: "b", text: "\"Where do you live?\"" },
-              { id: "c", text: "\"Goodbye.\"" },
-              { id: "d", text: "\"It is Monday.\"" },
+              { id: "a", text: "\"Where do you live?\"" },
+              { id: "b", text: "\"I am fine.\"" },
+              { id: "c", text: "\"It is Monday.\"" },
+              { id: "d", text: "\"Goodbye.\"" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -491,10 +491,10 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Just stop talking" },
+              { id: "a", text: "Say nothing" },
               { id: "b", text: "Say it was nice talking and goodbye" },
-              { id: "c", text: "Ask another long question" },
-              { id: "d", text: "Say nothing" },
+              { id: "c", text: "Just stop talking" },
+              { id: "d", text: "Ask another long question" },
             ],
             correctChoiceId: "b",
           },
@@ -585,12 +585,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "\"Give me your bag.\"" },
-              { id: "b", text: "\"Good morning, how are you?\"" },
-              { id: "c", text: "\"Shut up.\"" },
-              { id: "d", text: "\"Nothing.\"" },
+              { id: "a", text: "\"Nothing.\"" },
+              { id: "b", text: "\"Give me your bag.\"" },
+              { id: "c", text: "\"Good morning, how are you?\"" },
+              { id: "d", text: "\"Shut up.\"" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -612,12 +612,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "\"Give me water.\"" },
-              { id: "b", text: "\"Could you give me some water, please?\"" },
-              { id: "c", text: "\"Water!\"" },
-              { id: "d", text: "\"I want water now.\"" },
+              { id: "a", text: "\"Could you give me some water, please?\"" },
+              { id: "b", text: "\"I want water now.\"" },
+              { id: "c", text: "\"Give me water.\"" },
+              { id: "d", text: "\"Water!\"" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -644,12 +644,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "\"Window, go!\"" },
-              { id: "b", text: "\"Could you open the window, please?\"" },
-              { id: "c", text: "\"I want the window open.\"" },
-              { id: "d", text: "\"Open it or else.\"" },
+              { id: "a", text: "\"Could you open the window, please?\"" },
+              { id: "b", text: "\"I want the window open.\"" },
+              { id: "c", text: "\"Open it or else.\"" },
+              { id: "d", text: "\"Window, go!\"" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -676,12 +676,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "\"You're wrong.\"" },
-              { id: "b", text: "\"I see, but I think it's interesting.\"" },
-              { id: "c", text: "\"Shut up.\"" },
-              { id: "d", text: "\"Whatever you say.\"" },
+              { id: "a", text: "\"I see, but I think it's interesting.\"" },
+              { id: "b", text: "\"Shut up.\"" },
+              { id: "c", text: "\"Whatever you say.\"" },
+              { id: "d", text: "\"You're wrong.\"" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -704,12 +704,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Say nothing" },
-              { id: "b", text: "\"Thanks a lot for your help.\"" },
-              { id: "c", text: "Walk away quickly" },
-              { id: "d", text: "Ask for more books" },
+              { id: "a", text: "\"Thanks a lot for your help.\"" },
+              { id: "b", text: "Say nothing" },
+              { id: "c", text: "Ask for more books" },
+              { id: "d", text: "Walk away quickly" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -733,8 +733,8 @@ export const lesson32: Lesson = {
             choices: [
               { id: "a", text: "\"I'm bored.\"" },
               { id: "b", text: "\"Well, I must go now.\"" },
-              { id: "c", text: "\"This is stupid.\"" },
-              { id: "d", text: "\"Bye bye forever.\"" },
+              { id: "c", text: "\"Bye bye forever.\"" },
+              { id: "d", text: "\"This is stupid.\"" },
             ],
             correctChoiceId: "b",
           },

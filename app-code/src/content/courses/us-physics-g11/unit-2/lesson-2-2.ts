@@ -49,12 +49,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It is directed toward the center of the circle." },
+              { id: "a", text: "It is directed in the direction of motion." },
               { id: "b", text: "It is zero, because the speed is constant." },
               { id: "c", text: "It is directed away from the center of the circle." },
-              { id: "d", text: "It is directed in the direction of motion." },
+              { id: "d", text: "It is directed toward the center of the circle." },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -177,12 +177,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\dfrac{F}{4}$" },
-              { id: "b", text: "$\\dfrac{F}{2}$" },
-              { id: "c", text: "$2F$" },
-              { id: "d", text: "$4F$" },
+              { id: "a", text: "$4F$" },
+              { id: "b", text: "$\\dfrac{F}{4}$" },
+              { id: "c", text: "$\\dfrac{F}{2}$" },
+              { id: "d", text: "$2F$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [

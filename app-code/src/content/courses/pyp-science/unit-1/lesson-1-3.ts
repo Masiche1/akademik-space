@@ -52,12 +52,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Eyes" },
-              { id: "b", text: "Nose" },
-              { id: "c", text: "Ears" },
+              { id: "a", text: "Nose" },
+              { id: "b", text: "Ears" },
+              { id: "c", text: "Eyes" },
               { id: "d", text: "Tongue" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -146,11 +146,11 @@ export const lesson13: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Eyes" },
-              { id: "b", text: "Ears" },
-              { id: "c", text: "Tongue" },
-              { id: "d", text: "Skin" },
+              { id: "b", text: "Skin" },
+              { id: "c", text: "Ears" },
+              { id: "d", text: "Tongue" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -211,11 +211,11 @@ export const lesson13: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Heart" },
-              { id: "b", text: "Stomach" },
-              { id: "c", text: "Brain" },
-              { id: "d", text: "Lungs" },
+              { id: "b", text: "Lungs" },
+              { id: "c", text: "Stomach" },
+              { id: "d", text: "Brain" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -278,11 +278,11 @@ export const lesson13: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "To digest food" },
-              { id: "b", text: "To give the body shape and protect organs" },
-              { id: "c", text: "To pump blood" },
-              { id: "d", text: "To taste food" },
+              { id: "b", text: "To taste food" },
+              { id: "c", text: "To give the body shape and protect organs" },
+              { id: "d", text: "To pump blood" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -343,12 +343,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Hearing a bell ring" },
-              { id: "b", text: "Smelling fresh bread" },
-              { id: "c", text: "Seeing the colour of a leaf" },
-              { id: "d", text: "Feeling a rough surface" },
+              { id: "a", text: "Smelling fresh bread" },
+              { id: "b", text: "Feeling a rough surface" },
+              { id: "c", text: "Hearing a bell ring" },
+              { id: "d", text: "Seeing the colour of a leaf" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -393,8 +393,8 @@ export const lesson13: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "The body gets less oxygen and cannot work properly" },
-              { id: "b", text: "The body makes more food" },
-              { id: "c", text: "The skeleton stops growing" },
+              { id: "b", text: "The skeleton stops growing" },
+              { id: "c", text: "The body makes more food" },
               { id: "d", text: "Nothing changes" },
             ],
             correctChoiceId: "a",
@@ -447,11 +447,11 @@ export const lesson13: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Eating only sweets" },
-              { id: "b", text: "Washing hands before eating" },
-              { id: "c", text: "Watching TV all day" },
+              { id: "b", text: "Watching TV all day" },
+              { id: "c", text: "Washing hands before eating" },
               { id: "d", text: "Skipping sleep" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -538,12 +538,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Brushing teeth regularly" },
-              { id: "b", text: "Eating only sweets" },
-              { id: "c", text: "Skipping brushing" },
+              { id: "a", text: "Skipping brushing" },
+              { id: "b", text: "Brushing teeth regularly" },
+              { id: "c", text: "Eating only sweets" },
               { id: "d", text: "Drinking only fizzy drinks" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -603,12 +603,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Germs" },
-              { id: "b", text: "Exercise" },
-              { id: "c", text: "Sleep" },
-              { id: "d", text: "Water" },
+              { id: "a", text: "Exercise" },
+              { id: "b", text: "Sleep" },
+              { id: "c", text: "Water" },
+              { id: "d", text: "Germs" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -671,9 +671,9 @@ export const lesson13: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "It makes muscles and bones stronger" },
-              { id: "b", text: "It removes the need for food" },
-              { id: "c", text: "It stops all germs instantly" },
-              { id: "d", text: "It replaces sleep" },
+              { id: "b", text: "It replaces sleep" },
+              { id: "c", text: "It removes the need for food" },
+              { id: "d", text: "It stops all germs instantly" },
             ],
             correctChoiceId: "a",
           },
@@ -737,9 +737,9 @@ export const lesson13: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "A child who eats vegetables has more energy than one who eats only sweets" },
-              { id: "b", text: "A child with sweets likes the taste" },
-              { id: "c", text: "A child wearing red feels happy" },
-              { id: "d", text: "A child who sleeps has dreams" },
+              { id: "b", text: "A child who sleeps has dreams" },
+              { id: "c", text: "A child with sweets likes the taste" },
+              { id: "d", text: "A child wearing red feels happy" },
             ],
             correctChoiceId: "a",
           },
@@ -785,12 +785,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Early habits can become lifelong habits that keep them healthy" },
-              { id: "b", text: "Children do not need habits later" },
-              { id: "c", text: "Healthy habits stop working after age five" },
-              { id: "d", text: "It makes school shorter" },
+              { id: "a", text: "Healthy habits stop working after age five" },
+              { id: "b", text: "It makes school shorter" },
+              { id: "c", text: "Children do not need habits later" },
+              { id: "d", text: "Early habits can become lifelong habits that keep them healthy" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

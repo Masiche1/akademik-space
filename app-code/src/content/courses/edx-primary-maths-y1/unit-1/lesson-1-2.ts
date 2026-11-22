@@ -71,12 +71,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "12" },
-              { id: "b", text: "13" },
+              { id: "a", text: "13" },
+              { id: "b", text: "12" },
               { id: "c", text: "14" },
               { id: "d", text: "15" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -310,12 +310,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "6" },
-              { id: "b", text: "7" },
-              { id: "c", text: "8" },
-              { id: "d", text: "9" },
+              { id: "a", text: "7" },
+              { id: "b", text: "8" },
+              { id: "c", text: "9" },
+              { id: "d", text: "6" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [

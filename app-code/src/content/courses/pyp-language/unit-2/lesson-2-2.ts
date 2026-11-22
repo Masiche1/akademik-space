@@ -52,12 +52,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Paragraph" },
-              { id: "b", text: "Chapter" },
-              { id: "c", text: "Stanza" },
-              { id: "d", text: "Heading" },
+              { id: "a", text: "Stanza" },
+              { id: "b", text: "Paragraph" },
+              { id: "c", text: "Heading" },
+              { id: "d", text: "Chapter" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -78,12 +78,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Cat and dog" },
-              { id: "b", text: "Sun and run" },
-              { id: "c", text: "Tree and book" },
-              { id: "d", text: "Fish and bird" },
+              { id: "a", text: "Fish and bird" },
+              { id: "b", text: "Tree and book" },
+              { id: "c", text: "Cat and dog" },
+              { id: "d", text: "Sun and run" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -160,12 +160,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Rhythm" },
-              { id: "b", text: "Rhyme" },
-              { id: "c", text: "Stanzas" },
+              { id: "a", text: "Rhyme" },
+              { id: "b", text: "Stanzas" },
+              { id: "c", text: "Rhythm" },
               { id: "d", text: "Paragraphs" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -205,8 +205,8 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Non-fiction" },
-              { id: "b", text: "Report" },
+              { id: "a", text: "Report" },
+              { id: "b", text: "Non-fiction" },
               { id: "c", text: "Fiction" },
               { id: "d", text: "Recount" },
             ],
@@ -287,12 +287,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Moon and spoon" },
-              { id: "b", text: "Star and moon" },
-              { id: "c", text: "Cloud and rain" },
+              { id: "a", text: "Cloud and rain" },
+              { id: "b", text: "Moon and spoon" },
+              { id: "c", text: "Star and moon" },
               { id: "d", text: "Wind and tree" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -351,12 +351,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A title" },
-              { id: "b", text: "A paragraph" },
-              { id: "c", text: "A character" },
-              { id: "d", text: "An ending" },
+              { id: "a", text: "An ending" },
+              { id: "b", text: "A title" },
+              { id: "c", text: "A paragraph" },
+              { id: "d", text: "A character" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -377,12 +377,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Rhyme" },
-              { id: "b", text: "Rhythm" },
+              { id: "a", text: "Headings" },
+              { id: "b", text: "Rhyme" },
               { id: "c", text: "Stanzas" },
-              { id: "d", text: "Headings" },
+              { id: "d", text: "Rhythm" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -465,12 +465,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Story" },
-              { id: "b", text: "Report" },
-              { id: "c", text: "Poem" },
-              { id: "d", text: "Letter to a friend" },
+              { id: "a", text: "Report" },
+              { id: "b", text: "Letter to a friend" },
+              { id: "c", text: "Story" },
+              { id: "d", text: "Poem" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -569,12 +569,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Tells made-up adventures" },
-              { id: "b", text: "Retells real events in time order" },
-              { id: "c", text: "Gives facts under headings" },
-              { id: "d", text: "Tells you steps to follow" },
+              { id: "a", text: "Retells real events in time order" },
+              { id: "b", text: "Tells you steps to follow" },
+              { id: "c", text: "Tells made-up adventures" },
+              { id: "d", text: "Gives facts under headings" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -614,10 +614,10 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Recount" },
-              { id: "b", text: "Report" },
+              { id: "a", text: "Report" },
+              { id: "b", text: "Story" },
               { id: "c", text: "Instruction" },
-              { id: "d", text: "Story" },
+              { id: "d", text: "Recount" },
             ],
             correctChoiceId: "c",
           },
@@ -696,12 +696,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A made-up story about a dragon" },
-              { id: "b", text: "A report about sharks with facts" },
-              { id: "c", text: "A poem about the rain" },
-              { id: "d", text: "A fairy tale" },
+              { id: "a", text: "A fairy tale" },
+              { id: "b", text: "A poem about the rain" },
+              { id: "c", text: "A report about sharks with facts" },
+              { id: "d", text: "A made-up story about a dragon" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -761,11 +761,11 @@ export const lesson22: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "'Once upon a time'" },
-              { id: "b", text: "'Last Monday we went to...'" },
-              { id: "c", text: "'Step 1:'" },
-              { id: "d", text: "'Dear Diary,' only" },
+              { id: "b", text: "'Dear Diary,' only" },
+              { id: "c", text: "'Last Monday we went to...'" },
+              { id: "d", text: "'Step 1:'" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -787,11 +787,11 @@ export const lesson22: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "'Once, my dog Rex ran away and everyone was sad.'" },
-              { id: "b", text: "'Dogs are popular pets that need food, water and exercise.'" },
-              { id: "c", text: "'Step 1: Give the dog a bath.'" },
-              { id: "d", text: "'The dog said meow.'" },
+              { id: "b", text: "'The dog said meow.'" },
+              { id: "c", text: "'Dogs are popular pets that need food, water and exercise.'" },
+              { id: "d", text: "'Step 1: Give the dog a bath.'" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

@@ -76,8 +76,8 @@ export const lesson12: Lesson = {
             choices: [
               { id: "a", text: "Love is a mark left by pain" },
               { id: "b", text: "Love is permanent and stable like a landmark used for navigation" },
-              { id: "c", text: "Love is a mistake that can be corrected" },
-              { id: "d", text: "Love is a target that people try to hit" },
+              { id: "c", text: "Love is a target that people try to hit" },
+              { id: "d", text: "Love is a mistake that can be corrected" },
             ],
             correctChoiceId: "b",
           },
@@ -201,12 +201,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "They are treated like animals, slaughtered without dignity" },
-              { id: "b", text: "They are peaceful and gentle" },
-              { id: "c", text: "They come from farming families" },
-              { id: "d", text: "They are being kept safe in the countryside" },
+              { id: "a", text: "They are peaceful and gentle" },
+              { id: "b", text: "They are treated like animals, slaughtered without dignity" },
+              { id: "c", text: "They are being kept safe in the countryside" },
+              { id: "d", text: "They come from farming families" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Simile", statement: "A comparison that shapes how we view the subject." }],

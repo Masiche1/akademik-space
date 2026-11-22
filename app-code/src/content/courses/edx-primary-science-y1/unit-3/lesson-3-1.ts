@@ -56,11 +56,11 @@ export const lesson121: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Two" },
-              { id: "b", text: "Four" },
-              { id: "c", text: "Three" },
-              { id: "d", text: "Five" },
+              { id: "b", text: "Three" },
+              { id: "c", text: "Five" },
+              { id: "d", text: "Four" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -79,10 +79,10 @@ export const lesson121: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Winter" },
+              { id: "a", text: "Spring" },
               { id: "b", text: "Summer" },
               { id: "c", text: "Autumn" },
-              { id: "d", text: "Spring" },
+              { id: "d", text: "Winter" },
             ],
             correctChoiceId: "b",
           },
@@ -212,12 +212,12 @@ export const lesson121: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The season" },
-              { id: "b", text: "What the sky/air is like" },
-              { id: "c", text: "The temperature only" },
-              { id: "d", text: "The date" },
+              { id: "a", text: "The date" },
+              { id: "b", text: "The season" },
+              { id: "c", text: "What the sky/air is like" },
+              { id: "d", text: "The temperature only" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -242,12 +242,12 @@ export const lesson121: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Sunny" },
-              { id: "b", text: "Stormy" },
-              { id: "c", text: "Cloudy" },
-              { id: "d", text: "Breezy" },
+              { id: "a", text: "Stormy" },
+              { id: "b", text: "Breezy" },
+              { id: "c", text: "Sunny" },
+              { id: "d", text: "Cloudy" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -378,11 +378,11 @@ export const lesson121: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "A planet" },
-              { id: "b", text: "A star" },
-              { id: "c", text: "A moon" },
-              { id: "d", text: "A comet" },
+              { id: "b", text: "A comet" },
+              { id: "c", text: "A star" },
+              { id: "d", text: "A moon" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -401,10 +401,10 @@ export const lesson121: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It grows and shrinks" },
+              { id: "a", text: "It's magic" },
               { id: "b", text: "We see different lit parts as it orbits" },
-              { id: "c", text: "Clouds cover it" },
-              { id: "d", text: "It's magic" },
+              { id: "c", text: "It grows and shrinks" },
+              { id: "d", text: "Clouds cover it" },
             ],
             correctChoiceId: "b",
           },

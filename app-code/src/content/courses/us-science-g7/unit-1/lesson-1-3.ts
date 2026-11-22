@@ -49,12 +49,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Algae" },
-              { id: "b", text: "Shrimp" },
-              { id: "c", text: "Fish" },
-              { id: "d", text: "There is no producer" },
+              { id: "a", text: "Shrimp" },
+              { id: "b", text: "Fish" },
+              { id: "c", text: "There is no producer" },
+              { id: "d", text: "Algae" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -178,10 +178,10 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Mutualism" },
+              { id: "a", text: "Predation by a producer" },
               { id: "b", text: "Commensalism" },
               { id: "c", text: "Parasitism" },
-              { id: "d", text: "Predation by a producer" },
+              { id: "d", text: "Mutualism" },
             ],
             correctChoiceId: "c",
           },

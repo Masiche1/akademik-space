@@ -54,12 +54,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\eta = W/Q_h$" },
+              { id: "a", text: "$\\eta = Q_h/Q_c$" },
               { id: "b", text: "$\\eta = Q_c/Q_h$" },
               { id: "c", text: "$\\eta = Q_h/W$" },
-              { id: "d", text: "$\\eta = Q_h/Q_c$" },
+              { id: "d", text: "$\\eta = W/Q_h$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -153,12 +153,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$W = Q_h - Q_c$" },
-              { id: "b", text: "$W = Q_h + Q_c$" },
-              { id: "c", text: "$W = Q_c - Q_h$" },
-              { id: "d", text: "$W = Q_h \\times Q_c$" },
+              { id: "a", text: "$W = Q_c - Q_h$" },
+              { id: "b", text: "$W = Q_h - Q_c$" },
+              { id: "c", text: "$W = Q_h \\times Q_c$" },
+              { id: "d", text: "$W = Q_h + Q_c$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -181,12 +181,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A heat engine producing net work output" },
-              { id: "b", text: "A refrigerator consuming work" },
-              { id: "c", text: "A process with zero work" },
-              { id: "d", text: "An adiabatic expansion" },
+              { id: "a", text: "An adiabatic expansion" },
+              { id: "b", text: "A process with zero work" },
+              { id: "c", text: "A heat engine producing net work output" },
+              { id: "d", text: "A refrigerator consuming work" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -209,12 +209,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The ratio $Q_c/Q_h$ decreases" },
-              { id: "b", text: "The ratio $Q_c/Q_h$ increases" },
-              { id: "c", text: "More heat is rejected" },
-              { id: "d", text: "The engine runs slower" },
+              { id: "a", text: "More heat is rejected" },
+              { id: "b", text: "The ratio $Q_c/Q_h$ decreases" },
+              { id: "c", text: "The engine runs slower" },
+              { id: "d", text: "The ratio $Q_c/Q_h$ increases" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -237,12 +237,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The area enclosed by the cycle on a P–V diagram" },
-              { id: "b", text: "The area under the highest curve only" },
+              { id: "a", text: "The area under the highest curve only" },
+              { id: "b", text: "The area enclosed by the cycle on a P–V diagram" },
               { id: "c", text: "The slope of the cycle" },
               { id: "d", text: "The perimeter of the cycle" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -265,12 +265,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$0.375$ (37.5%)" },
-              { id: "b", text: "$0.625$ (62.5%)" },
-              { id: "c", text: "$0.50$ (50%)" },
-              { id: "d", text: "$1.25$ (125%)" },
+              { id: "a", text: "$0.625$ (62.5%)" },
+              { id: "b", text: "$1.25$ (125%)" },
+              { id: "c", text: "$0.375$ (37.5%)" },
+              { id: "d", text: "$0.50$ (50%)" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -293,12 +293,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Friction between moving parts" },
-              { id: "b", text: "Turbulence in the working fluid" },
-              { id: "c", text: "Perfectly reversible (quasi-static) operation" },
-              { id: "d", text: "Heat leaks to the surroundings" },
+              { id: "a", text: "Turbulence in the working fluid" },
+              { id: "b", text: "Perfectly reversible (quasi-static) operation" },
+              { id: "c", text: "Heat leaks to the surroundings" },
+              { id: "d", text: "Friction between moving parts" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -527,9 +527,9 @@ export const lesson23: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "The reservoir temperatures" },
-              { id: "b", text: "The working substance" },
-              { id: "c", text: "The engine size" },
-              { id: "d", text: "The number of cycles" },
+              { id: "b", text: "The engine size" },
+              { id: "c", text: "The number of cycles" },
+              { id: "d", text: "The working substance" },
             ],
             correctChoiceId: "a",
           },
@@ -625,12 +625,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Isothermal expansion, adiabatic expansion, isothermal compression, adiabatic compression" },
-              { id: "b", text: "Adiabatic expansion, isothermal expansion, adiabatic compression, isothermal compression" },
+              { id: "a", text: "Adiabatic expansion, isothermal expansion, adiabatic compression, isothermal compression" },
+              { id: "b", text: "Isothermal expansion, adiabatic expansion, isothermal compression, adiabatic compression" },
               { id: "c", text: "Isobaric expansion, isochoric cooling, isobaric compression, isochoric heating" },
               { id: "d", text: "Isothermal expansion, isothermal compression, adiabatic expansion, adiabatic compression" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -653,12 +653,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Two isothermal curves and two adiabatic curves" },
-              { id: "b", text: "Two isobaric lines and two isochoric lines" },
-              { id: "c", text: "Four adiabatic curves" },
-              { id: "d", text: "Two isothermal curves only" },
+              { id: "a", text: "Two isobaric lines and two isochoric lines" },
+              { id: "b", text: "Two isothermal curves and two adiabatic curves" },
+              { id: "c", text: "Two isothermal curves only" },
+              { id: "d", text: "Four adiabatic curves" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -681,12 +681,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$Q_c/Q_h = T_c/T_h$" },
+              { id: "a", text: "$Q_c/Q_h = 1$" },
               { id: "b", text: "$Q_c/Q_h = T_h/T_c$" },
-              { id: "c", text: "$Q_c/Q_h = W/Q_h$" },
-              { id: "d", text: "$Q_c/Q_h = 1$" },
+              { id: "c", text: "$Q_c/Q_h = T_c/T_h$" },
+              { id: "d", text: "$Q_c/Q_h = W/Q_h$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -709,12 +709,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Increase $T_h$ or decrease $T_c$" },
-              { id: "b", text: "Decrease $T_h$ or increase $T_c$" },
+              { id: "a", text: "Decrease $T_h$ or increase $T_c$" },
+              { id: "b", text: "Increase $T_h$ or decrease $T_c$" },
               { id: "c", text: "Increase both $T_h$ and $T_c$ equally" },
               { id: "d", text: "Change the working substance" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -737,12 +737,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "0%" },
+              { id: "a", text: "undefined" },
               { id: "b", text: "50%" },
-              { id: "c", text: "100%" },
-              { id: "d", text: "undefined" },
+              { id: "c", text: "0%" },
+              { id: "d", text: "100%" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -765,12 +765,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The ratio $Q_c/Q_h = T_c/T_h$ is derived from absolute temperature in the entropy relation $\\Delta S = Q/T$" },
-              { id: "b", text: "Celsius temperatures are always negative" },
-              { id: "c", text: "Kelvin is the SI unit for power" },
-              { id: "d", text: "It is just a convention with no physical reason" },
+              { id: "a", text: "Celsius temperatures are always negative" },
+              { id: "b", text: "Kelvin is the SI unit for power" },
+              { id: "c", text: "It is just a convention with no physical reason" },
+              { id: "d", text: "The ratio $Q_c/Q_h = T_c/T_h$ is derived from absolute temperature in the entropy relation $\\Delta S = Q/T$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

@@ -10,6 +10,7 @@ export const unit2: Unit = {
   id: "cipg-u2",
   code: "2",
   title: "Global Issues and Action",
-  description: "Researching real issues, data analysis, argument evaluation, reflection, teamwork, communication, deep analysis, solution evaluation, persuasion and project synthesis across Stages 4-6.",
+  description:
+    "Researching real issues, data analysis, argument evaluation, reflection, teamwork, communication, deep analysis, solution evaluation, persuasion and project synthesis across Stages 4-6.",
   lessons: [lesson25, lesson26, lesson27, lesson28, lesson29, lesson210],
 };

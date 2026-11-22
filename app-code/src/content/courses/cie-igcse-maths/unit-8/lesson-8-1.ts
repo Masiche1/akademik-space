@@ -52,12 +52,12 @@ export const lesson81: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\frac16$" },
-              { id: "b", text: "$\\frac15$" },
-              { id: "c", text: "$\\frac56$" },
-              { id: "d", text: "$\\frac{1}{36}$" },
+              { id: "a", text: "$\\frac15$" },
+              { id: "b", text: "$\\frac16$" },
+              { id: "c", text: "$\\frac{1}{36}$" },
+              { id: "d", text: "$\\frac56$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -147,12 +147,12 @@ export const lesson81: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\frac15$" },
+              { id: "a", text: "$\\frac{2}{12}$" },
               { id: "b", text: "$\\frac25$" },
-              { id: "c", text: "$\\frac45$" },
-              { id: "d", text: "$\\frac{2}{12}$" },
+              { id: "c", text: "$\\frac15$" },
+              { id: "d", text: "$\\frac45$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -173,12 +173,12 @@ export const lesson81: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$-0.2$" },
-              { id: "b", text: "$0.75$" },
+              { id: "a", text: "$0.75$" },
+              { id: "b", text: "$-0.2$" },
               { id: "c", text: "$1$" },
               { id: "d", text: "$0$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -199,12 +199,12 @@ export const lesson81: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$P(A\\cap B)=0$" },
-              { id: "b", text: "$P(A\\cap B)=P(A)P(B)$" },
-              { id: "c", text: "$P(A\\cup B)=0$" },
-              { id: "d", text: "$P(A')=P(A)$" },
+              { id: "a", text: "$P(A')=P(A)$" },
+              { id: "b", text: "$P(A\\cap B)=0$" },
+              { id: "c", text: "$P(A\\cap B)=P(A)P(B)$" },
+              { id: "d", text: "$P(A\\cup B)=0$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -225,12 +225,12 @@ export const lesson81: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\frac12$" },
-              { id: "b", text: "$\\frac23$" },
-              { id: "c", text: "$\\frac13$" },
-              { id: "d", text: "$\\frac56$" },
+              { id: "a", text: "$\\frac56$" },
+              { id: "b", text: "$\\frac12$" },
+              { id: "c", text: "$\\frac23$" },
+              { id: "d", text: "$\\frac13$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -251,12 +251,12 @@ export const lesson81: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\frac12$" },
-              { id: "b", text: "$\\frac14$" },
-              { id: "c", text: "$\\frac34$" },
+              { id: "a", text: "$\\frac14$" },
+              { id: "b", text: "$\\frac34$" },
+              { id: "c", text: "$\\frac12$" },
               { id: "d", text: "$1$" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -277,12 +277,12 @@ export const lesson81: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$0.65$" },
+              { id: "a", text: "$0.5$" },
               { id: "b", text: "$0.35$" },
-              { id: "c", text: "$0.5$" },
+              { id: "c", text: "$0.65$" },
               { id: "d", text: "$-0.35$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -461,12 +461,12 @@ export const lesson81: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Multiply the branch probabilities" },
-              { id: "b", text: "Add the branch probabilities" },
-              { id: "c", text: "Subtract the branch probabilities" },
-              { id: "d", text: "Average the branch probabilities" },
+              { id: "a", text: "Average the branch probabilities" },
+              { id: "b", text: "Multiply the branch probabilities" },
+              { id: "c", text: "Add the branch probabilities" },
+              { id: "d", text: "Subtract the branch probabilities" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -549,6 +549,291 @@ export const lesson81: Lesson = {
             commonErrors: ["In (b) missing symmetric paths like $(3,1)$.", "In (c) adding $P(1)$ twice instead of using complement."],
           },
         },
+        {
+          id: "ciem-u8-probability-trees-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Two counters are drawn from a bag **with replacement**. Compared with the first draw, the probabilities on the second set of branches are",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Larger, because there are fewer counters" },
+              { id: "b", text: "Smaller, because the total decreases" },
+              { id: "c", text: "The same, because the counter is replaced" },
+              { id: "d", text: "Zero for the colour first drawn" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              { kind: "technique", name: "With replacement", statement: "Replacement restores the original counts, so second-draw probabilities are unchanged." },
+            ],
+            steps: [
+              { reasoning: "With replacement the bag returns to its original state after each draw.", working: "\\text{unchanged}", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** The same — replacement keeps the probabilities constant",
+            commonErrors: ["Assuming the second draw always has a smaller denominator (that is without replacement)."],
+          },
+        },
+        {
+          id: "ciem-u8-probability-trees-q6",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "A bag contains 3 red and 2 blue counters. Two counters are drawn **with replacement**. Find $P(\\text{both blue})$.",
+          response: { type: "numeric", parts: [{ label: "Probability", answer: 0.16 }] },
+          markscheme: {
+            principles: [
+              { kind: "technique", name: "With replacement", statement: "Second-draw probabilities are unchanged." },
+            ],
+            steps: [
+              { reasoning: "Multiply along the BB path.", working: "\\frac25\\times\\frac25", marks: 1, markCode: "M" },
+              { reasoning: "Compute and state.", working: "=\\frac4{25}=0.16", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$\\frac4{25}$ or $0.16$",
+            commonErrors: ["Using $\\frac25\\times\\frac14$ as if drawing without replacement."],
+          },
+        },
+        {
+          id: "ciem-u8-probability-trees-q7",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "The probabilities at the ends of all the complete paths of a probability tree should",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Sum to $0$" },
+              { id: "b", text: "All be equal" },
+              { id: "c", text: "Sum to $1$" },
+              { id: "d", text: "Sum to the number of branches" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              { kind: "principle", name: "Exhaustive tree", statement: "All complete paths are mutually exclusive and exhaustive, so their probabilities sum to $1$." },
+            ],
+            steps: [
+              { reasoning: "The final path probabilities form a complete probability distribution.", working: "\\sum=1", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** Sum to $1$",
+            commonErrors: ["Forgetting that the tree covers every possible outcome."],
+          },
+        },
+        {
+          id: "ciem-u8-probability-trees-q8",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "A biased coin has $P(H)=0.2$. It is tossed twice. Find $P(\\text{exactly one head})$.",
+          response: { type: "numeric", parts: [{ label: "Probability", answer: 0.32 }] },
+          markscheme: {
+            principles: [
+              { kind: "technique", name: "Tree paths", statement: "Paths HT and TH." },
+            ],
+            steps: [
+              { reasoning: "$P(HT)=0.2\\times0.8=0.16$ and $P(TH)=0.8\\times0.2=0.16$.", working: "0.16+0.16", marks: 1, markCode: "M" },
+              { reasoning: "Add the two paths.", working: "=0.32", marks: 1, markCode: "M" },
+              { reasoning: "State the probability.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$0.32$",
+            commonErrors: ["Using $P(H)=0.5$ instead of the biased value $0.2$."],
+          },
+        },
+        {
+          id: "ciem-u8-probability-trees-q9",
+          difficulty: "challenge",
+          totalMarks: 1,
+          stem: "A bag has 5 red and 5 blue counters. Two are drawn without replacement. What is $P(\\text{same colour})$?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$\\frac12$" },
+              { id: "b", text: "$\\frac59$" },
+              { id: "c", text: "$\\frac49$" },
+              { id: "d", text: "$\\frac14$" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              { kind: "technique", name: "Without replacement", statement: "Second-draw probabilities use remaining counts." },
+            ],
+            steps: [
+              { reasoning: "$P(RR)+P(BB)=\\frac5{10}\\times\\frac49+\\frac5{10}\\times\\frac49=\\frac{40}{90}=\\frac49$.", working: "\\frac49", marks: 1, markCode: "M" },
+            ],
+            finalAnswer: "**(a)** $\\frac49$",
+            commonErrors: ["Using with-replacement probabilities and getting $\\frac12$."],
+          },
+        },
+        {
+          id: "ciem-u8-probability-trees-q10",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "A bag has 4 red and 6 blue counters. The first counter drawn is red and is **not** replaced. What is the probability the second counter is also red?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$\\frac25$" },
+              { id: "b", text: "$\\frac13$" },
+              { id: "c", text: "$\\frac4{10}$" },
+              { id: "d", text: "$\\frac49$" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              { kind: "technique", name: "Conditional branch", statement: "After one red is removed, $3$ red remain out of $9$ counters." },
+            ],
+            steps: [
+              { reasoning: "Remaining red $=3$, remaining total $=9$.", working: "\\frac39=\\frac13", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** $\\frac13$",
+            commonErrors: ["Keeping $\\frac4{10}$ from the first draw."],
+          },
+        },
+        {
+          id: "ciem-u8-probability-trees-q11",
+          difficulty: "core",
+          totalMarks: 4,
+          stem: "A fair coin is tossed three times.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "technique", name: "Sample space", statement: "$2^3=8$ equally likely outcomes." },
+            ],
+            steps: [
+              { reasoning: "List the sample space: HHH, HHT, HTH, HTT, THH, THT, TTH, TTT.", working: "8\\text{ outcomes}", marks: 1, markCode: "M" },
+              { reasoning: "Exactly two heads: HHT, HTH, THH — 3 outcomes.", working: "3\\text{ outcomes}", marks: 1, markCode: "M" },
+              { reasoning: "Form the probability.", working: "\\frac38", marks: 1, markCode: "M" },
+              { reasoning: "State the probability.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$P(\\text{exactly two heads})=\\frac38$",
+            commonErrors: ["Listing only one ordering of two heads and one tail."],
+          },
+        },
+        {
+          id: "ciem-u8-probability-trees-q12",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "A spinner lands on $1$, $2$ or $3$ with probabilities $\\frac12$, $\\frac13$ and $\\frac16$ respectively. It is spun twice. Find $P(\\text{the product of the two numbers is even})$.",
+          response: { type: "numeric", parts: [{ label: "Probability", answer: 0.5556, tolerance: 0.001 }] },
+          markscheme: {
+            principles: [
+              { kind: "formula", name: "Complement", statement: "$P(\\text{even product})=1-P(\\text{both odd})$" },
+            ],
+            steps: [
+              { reasoning: "Product is odd only when both spins give 1 or 3. Paths: $(1,1),(1,3),(3,1),(3,3)$.", working: "\\frac12\\times\\frac12+\\frac12\\times\\frac16+\\frac16\\times\\frac12+\\frac16\\times\\frac16", marks: 1, markCode: "M" },
+              { reasoning: "Evaluate: $\\frac14+\\frac1{12}+\\frac1{12}+\\frac1{36}$.", working: "=\\frac9{36}+\\frac3{36}+\\frac3{36}+\\frac1{36}=\\frac{16}{36}=\\frac49", marks: 1, markCode: "M" },
+              { reasoning: "Apply the complement.", working: "1-\\frac49", marks: 1, markCode: "M" },
+              { reasoning: "Compute and state.", working: "=\\frac59\\approx0.556", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$\\frac59$ or $\\approx0.556$",
+            commonErrors: ["Using $\\frac23\\times\\frac23$ for both-odd — that treats 'odd' as a single outcome rather than summing the four paths."],
+          },
+        },
+        {
+          id: "ciem-u8-probability-trees-q13",
+          difficulty: "challenge",
+          totalMarks: 9,
+          stem: "A bag has 2 red and 3 blue counters. Two counters are drawn **without replacement**.",
+          parts: [
+            { label: "a", prompt: "Find $P(\\text{both counters are the same colour})$.", marks: 3 },
+            { label: "b", prompt: "Find $P(\\text{at least one red})$.", marks: 3 },
+            { label: "c", prompt: "Explain why the second-branch probabilities have denominator $4$ rather than $5$.", marks: 3 },
+          ],
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "technique", name: "Without replacement", statement: "Second-draw probabilities use remaining counts." },
+              { kind: "formula", name: "Complement", statement: "$P(\\text{at least one})=1-P(\\text{none})$" },
+            ],
+            steps: [
+              { part: "a", reasoning: "$P(RR)=\\frac25\\times\\frac14=\\frac2{20}=\\frac1{10}$; $P(BB)=\\frac35\\times\\frac24=\\frac6{20}=\\frac3{10}$.", working: "\\frac1{10}+\\frac3{10}", marks: 1, markCode: "M" },
+              { part: "a", reasoning: "Add for 'same colour'.", working: "=\\frac4{10}", marks: 1, markCode: "M" },
+              { part: "a", reasoning: "Simplify and state.", working: "=\\frac25", marks: 1, markCode: "A" },
+              { part: "b", reasoning: "$P(\\text{no red})=P(BB)=\\frac3{10}$.", working: "\\frac35\\times\\frac24", marks: 1, markCode: "M" },
+              { part: "b", reasoning: "Apply the complement.", working: "1-\\frac3{10}", marks: 1, markCode: "M" },
+              { part: "b", reasoning: "State the probability.", working: "=\\frac7{10}", marks: 1, markCode: "A" },
+              { part: "c", reasoning: "State that the first counter is not returned to the bag.", marks: 1, markCode: "M" },
+              { part: "c", reasoning: "Explain the total drops from $5$ to $4$ counters for the second draw.", marks: 1, markCode: "M" },
+              { part: "c", reasoning: "Conclude the second-branch probabilities are conditional on the first draw.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "(a) $\\frac25$ (b) $\\frac7{10}$ (c) one counter is removed, leaving $4$",
+            commonErrors: ["In (b) adding $P(RB)$ and $P(BR)$ separately and making an arithmetic slip — the complement is quicker."],
+          },
+        },
+        {
+          id: "ciem-u8-probability-trees-q14",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Events $A$ and $B$ are independent. Which expression gives $P(A\\text{ and }B)$?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$1-P(A)P(B)$" },
+              { id: "b", text: "$P(A)+P(B)$" },
+              { id: "c", text: "$P(A)\\times P(B)$" },
+              { id: "d", text: "$P(A)-P(B)$" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              { kind: "formula", name: "Independent events", statement: "For independent events, $P(A\\cap B)=P(A)\\times P(B)$." },
+            ],
+            steps: [
+              { reasoning: "Independence means probabilities multiply along the path.", working: "P(A)\\times P(B)", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** $P(A)\\times P(B)$",
+            commonErrors: ["Adding probabilities — that is for mutually exclusive 'or' events."],
+          },
+        },
+        {
+          id: "ciem-u8-probability-trees-q15",
+          difficulty: "challenge",
+          totalMarks: 3,
+          stem: "A bag has 6 red and 4 blue counters. Two counters are drawn **with replacement**. Find $P(\\text{exactly one red})$.",
+          response: { type: "numeric", parts: [{ label: "Probability", answer: 0.48 }] },
+          markscheme: {
+            principles: [
+              { kind: "technique", name: "Tree paths", statement: "Paths RB and BR." },
+            ],
+            steps: [
+              { reasoning: "$P(RB)=\\frac6{10}\\times\\frac4{10}=\\frac{24}{100}$; $P(BR)=\\frac4{10}\\times\\frac6{10}=\\frac{24}{100}$.", working: "\\frac{24}{100}+\\frac{24}{100}", marks: 1, markCode: "M" },
+              { reasoning: "Add the two paths.", working: "=\\frac{48}{100}", marks: 1, markCode: "M" },
+              { reasoning: "State the probability.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$0.48$ or $\\frac{12}{25}$",
+            commonErrors: ["Counting only one order (RB or BR)."],
+          },
+        },
+        {
+          id: "ciem-u8-probability-trees-q16",
+          difficulty: "challenge",
+          totalMarks: 9,
+          stem: "Three fair coins are tossed.",
+          parts: [
+            { label: "a", prompt: "Find $P(\\text{all three coins show the same face})$.", marks: 3 },
+            { label: "b", prompt: "Find $P(\\text{exactly one head})$.", marks: 3 },
+            { label: "c", prompt: "Find $P(\\text{at least two heads})$.", marks: 3 },
+          ],
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "technique", name: "Sample space", statement: "$2^3=8$ equally likely outcomes." },
+            ],
+            steps: [
+              { part: "a", reasoning: "All same: HHH and TTT — 2 outcomes.", working: "2\\text{ outcomes}", marks: 1, markCode: "M" },
+              { part: "a", reasoning: "Form the probability.", working: "\\frac28", marks: 1, markCode: "M" },
+              { part: "a", reasoning: "Simplify and state.", working: "=\\frac14", marks: 1, markCode: "A" },
+              { part: "b", reasoning: "Exactly one head: HTT, THT, TTH — 3 outcomes.", working: "3\\text{ outcomes}", marks: 1, markCode: "M" },
+              { part: "b", reasoning: "Form and state the probability.", working: "\\frac38", marks: 2, markCode: "A" },
+              { part: "c", reasoning: "At least two heads: HHH, HHT, HTH, THH — 4 outcomes.", working: "4\\text{ outcomes}", marks: 1, markCode: "M" },
+              { part: "c", reasoning: "Form and state the probability.", working: "\\frac48=\\frac12", marks: 2, markCode: "A" },
+            ],
+            finalAnswer: "(a) $\\frac14$ (b) $\\frac38$ (c) $\\frac12$",
+            commonErrors: ["In (c) counting only HHH and forgetting the three two-head outcomes."],
+          },
+        },
       ],
     },
     {
@@ -588,12 +873,12 @@ export const lesson81: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$0.6$" },
-              { id: "b", text: "$0.7$" },
-              { id: "c", text: "$0.8$" },
-              { id: "d", text: "$0.5$" },
+              { id: "a", text: "$0.8$" },
+              { id: "b", text: "$0.5$" },
+              { id: "c", text: "$0.7$" },
+              { id: "d", text: "$0.6$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -674,6 +959,312 @@ export const lesson81: Lesson = {
             ],
             finalAnswer: "(a) $\\frac4{25}$ (b) $\\frac2{15}$ (c) $\\frac{13}{15}$",
             commonErrors: ["In (c) computing $P(\\text{blue})$ paths separately and forgetting to include mixed outcomes — complement is quicker."],
+          },
+        },
+        {
+          id: "ciem-u8-probability-problems-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Events $A$ and $B$ are mutually exclusive with $P(A)=0.5$ and $P(B)=0.3$. Find $P(A\\cup B)$.",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$0.15$" },
+              { id: "b", text: "$0.2$" },
+              { id: "c", text: "$0.65$" },
+              { id: "d", text: "$0.8$" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              { kind: "formula", name: "Addition rule", statement: "Mutually exclusive events: $P(A\\cup B)=P(A)+P(B)$." },
+            ],
+            steps: [
+              { reasoning: "No overlap to subtract, so add.", working: "0.5+0.3", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** $0.8$",
+            commonErrors: ["Subtracting the overlap anyway (there is none)."],
+          },
+        },
+        {
+          id: "ciem-u8-probability-problems-q6",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "An event has probability $0.2$. It is repeated in $150$ independent trials. Find the expected number of occurrences.",
+          response: { type: "numeric", parts: [{ label: "Expected", answer: 30 }] },
+          markscheme: {
+            principles: [
+              { kind: "formula", name: "Expected frequency", statement: "$n\\times P(E)$" },
+            ],
+            steps: [
+              { reasoning: "Apply expected frequency.", working: "150\\times0.2", marks: 1, markCode: "M" },
+              { reasoning: "Compute and state.", working: "=30", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$30$ occurrences",
+            commonErrors: ["Multiplying by $150^2$ or using the complement probability."],
+          },
+        },
+        {
+          id: "ciem-u8-probability-problems-q7",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "For 'at least one' probability questions, the quickest method is usually",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Multiply all probabilities together" },
+              { id: "b", text: "List every possible outcome" },
+              { id: "c", text: "Add all the probabilities" },
+              { id: "d", text: "Use the complement: $1-P(\\text{none})$" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              { kind: "formula", name: "Complement", statement: "$P(\\text{at least one})=1-P(\\text{none})$" },
+            ],
+            steps: [
+              { reasoning: "The complement of 'at least one' is 'none', which is usually a single path.", working: "1-P(\\text{none})", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** Use the complement",
+            commonErrors: ["Listing all 'at least one' cases individually when the complement is far quicker."],
+          },
+        },
+        {
+          id: "ciem-u8-probability-problems-q8",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "$P(A)=0.6$, $P(B)=0.5$ and $P(A\\cap B)=0.3$. Find $P(\\text{neither }A\\text{ nor }B)$.",
+          response: { type: "numeric", parts: [{ label: "Probability", answer: 0.2 }] },
+          markscheme: {
+            principles: [
+              { kind: "formula", name: "Addition rule", statement: "$P(A\\cup B)=P(A)+P(B)-P(A\\cap B)$" },
+              { kind: "formula", name: "Complement", statement: "$P(\\text{neither})=1-P(A\\cup B)$" },
+            ],
+            steps: [
+              { reasoning: "Find $P(A\\cup B)$.", working: "0.6+0.5-0.3=0.8", marks: 1, markCode: "M" },
+              { reasoning: "Apply the complement.", working: "1-0.8", marks: 1, markCode: "M" },
+              { reasoning: "Compute and state.", working: "=0.2", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$0.2$",
+            commonErrors: ["Adding $0.6+0.5$ without subtracting the overlap."],
+          },
+        },
+        {
+          id: "ciem-u8-probability-problems-q9",
+          difficulty: "challenge",
+          totalMarks: 1,
+          stem: "$P(A)=0.4$, $P(B)=0.5$ and $P(A\\cap B)=0.2$. What is $P(\\text{neither }A\\text{ nor }B)$?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$0.4$" },
+              { id: "b", text: "$0.3$" },
+              { id: "c", text: "$0.2$" },
+              { id: "d", text: "$0.1$" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              { kind: "formula", name: "Addition rule", statement: "$P(A\\cup B)=0.4+0.5-0.2=0.7$" },
+              { kind: "formula", name: "Complement", statement: "$P(\\text{neither})=1-0.7=0.3$" },
+            ],
+            steps: [
+              { reasoning: "Union $=0.7$, so neither $=1-0.7=0.3$.", working: "1-0.7=0.3", marks: 1, markCode: "M" },
+            ],
+            finalAnswer: "**(a)** $0.3$",
+            commonErrors: ["Forgetting to subtract $P(A\\cap B)$ when finding the union."],
+          },
+        },
+        {
+          id: "ciem-u8-probability-problems-q10",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "In a class of $40$ students, $25$ play football, $20$ play tennis and $10$ play both. Find the probability that a randomly chosen student plays neither sport.",
+          response: { type: "numeric", parts: [{ label: "Probability", answer: 0.125 }] },
+          markscheme: {
+            principles: [
+              { kind: "formula", name: "Addition rule", statement: "$P(A\\cup B)=P(A)+P(B)-P(A\\cap B)$" },
+            ],
+            steps: [
+              { reasoning: "Number playing at least one sport: $25+20-10=35$.", working: "35", marks: 1, markCode: "M" },
+              { reasoning: "Number playing neither: $40-35=5$.", working: "5", marks: 1, markCode: "M" },
+              { reasoning: "Form the probability.", working: "\\frac5{40}", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$\\frac18$ or $0.125$",
+            commonErrors: ["Adding $25+20+10$ for the union and getting a number larger than the class."],
+          },
+        },
+        {
+          id: "ciem-u8-probability-problems-q11",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "The expected number of times an event occurs in $n$ trials is given by",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$\\frac{P(E)}{n}$" },
+              { id: "b", text: "$n\\times P(E)$" },
+              { id: "c", text: "$\\frac{n}{P(E)}$" },
+              { id: "d", text: "$n+P(E)$" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              { kind: "formula", name: "Expected frequency", statement: "$n\\times P(E)$" },
+            ],
+            steps: [
+              { reasoning: "Expected frequency scales the probability by the number of trials.", working: "n\\times P(E)", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** $n\\times P(E)$",
+            commonErrors: ["Dividing by $n$ instead of multiplying."],
+          },
+        },
+        {
+          id: "ciem-u8-probability-problems-q12",
+          difficulty: "challenge",
+          totalMarks: 9,
+          stem: "$P(A)=0.7$, $P(B)=0.5$ and $P(A\\cup B)=0.9$.",
+          parts: [
+            { label: "a", prompt: "Find $P(A\\cap B)$.", marks: 3 },
+            { label: "b", prompt: "Find $P(\\text{neither }A\\text{ nor }B)$.", marks: 2 },
+            { label: "c", prompt: "Determine whether $A$ and $B$ are independent, showing your working.", marks: 4 },
+          ],
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "formula", name: "Addition rule", statement: "$P(A\\cup B)=P(A)+P(B)-P(A\\cap B)$" },
+              { kind: "formula", name: "Complement", statement: "$P(\\text{neither})=1-P(A\\cup B)$" },
+              { kind: "definition", name: "Independent events", statement: "$P(A\\cap B)=P(A)\\times P(B)$ if independent." },
+            ],
+            steps: [
+              { part: "a", reasoning: "Rearrange the addition rule.", working: "P(A\\cap B)=0.7+0.5-0.9", marks: 1, markCode: "M" },
+              { part: "a", reasoning: "Compute.", working: "=0.3", marks: 1, markCode: "M" },
+              { part: "a", reasoning: "State the probability.", marks: 1, markCode: "A" },
+              { part: "b", reasoning: "Apply the complement.", working: "1-0.9", marks: 1, markCode: "M" },
+              { part: "b", reasoning: "State the probability.", marks: 1, markCode: "A" },
+              { part: "c", reasoning: "Compute $P(A)\\times P(B)$.", working: "0.7\\times0.5=0.35", marks: 1, markCode: "M" },
+              { part: "c", reasoning: "Compare with $P(A\\cap B)=0.3$.", marks: 1, markCode: "M" },
+              { part: "c", reasoning: "Conclude: $0.35\\neq0.3$, so the events are not independent.", marks: 1, markCode: "M" },
+              { part: "c", reasoning: "State the conclusion explicitly.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "(a) $0.3$ (b) $0.1$ (c) not independent, since $P(A)P(B)=0.35\\neq0.3=P(A\\cap B)$",
+            commonErrors: ["In (a) adding instead of subtracting the overlap."],
+            examinerNote: "Part (c) requires both the comparison and the conclusion — a bare 'not independent' without working earns at most 1 mark.",
+          },
+        },
+        {
+          id: "ciem-u8-probability-problems-q13",
+          difficulty: "challenge",
+          totalMarks: 9,
+          stem: "A biased coin has $P(H)=0.35$. It is tossed $600$ times.",
+          parts: [
+            { label: "a", prompt: "Find the expected number of heads.", marks: 3 },
+            { label: "b", prompt: "Find the expected number of tails.", marks: 2 },
+            { label: "c", prompt: "Explain why the actual number of heads in 600 tosses may differ from your answer to part (a).", marks: 4 },
+          ],
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "formula", name: "Expected frequency", statement: "$n\\times P(E)$" },
+              { kind: "formula", name: "Complement", statement: "$P(T)=1-0.35=0.65$" },
+            ],
+            steps: [
+              { part: "a", reasoning: "Apply expected frequency.", working: "600\\times0.35", marks: 1, markCode: "M" },
+              { part: "a", reasoning: "Compute.", working: "=210", marks: 1, markCode: "M" },
+              { part: "a", reasoning: "State the expectation.", marks: 1, markCode: "A" },
+              { part: "b", reasoning: "$P(T)=1-0.35=0.65$; expected tails $=600\\times0.65$.", working: "600\\times0.65=390", marks: 1, markCode: "M" },
+              { part: "b", reasoning: "State the expectation (or note $600-210=390$).", marks: 1, markCode: "A" },
+              { part: "c", reasoning: "State that expectation is a long-run average, not a guarantee for one set of trials.", marks: 1, markCode: "M" },
+              { part: "c", reasoning: "Explain that each toss is random, so results fluctuate around the mean.", marks: 1, markCode: "M" },
+              { part: "c", reasoning: "Conclude the actual count need not equal $210$ exactly.", marks: 1, markCode: "M" },
+              { part: "c", reasoning: "Note that over many sets of 600 tosses the average approaches $210$.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "(a) $210$ heads (b) $390$ tails (c) expectation is an average — random variation means the actual count varies",
+            commonErrors: ["In (b) using $P(T)=0.35$ instead of the complement."],
+            examinerNote: "Part (c) is a conceptual question — 'it is random' alone earns at most 1 mark without reference to long-run averages.",
+          },
+        },
+        {
+          id: "ciem-u8-probability-problems-q14",
+          difficulty: "challenge",
+          totalMarks: 1,
+          stem: "$P(A)=0.7$, $P(A\\cup B)=0.8$ and $P(A\\cap B)=0.4$. Find $P(B)$.",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$0.5$" },
+              { id: "b", text: "$0.4$" },
+              { id: "c", text: "$0.6$" },
+              { id: "d", text: "$0.9$" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              { kind: "formula", name: "Addition rule", statement: "$P(A\\cup B)=P(A)+P(B)-P(A\\cap B)$" },
+            ],
+            steps: [
+              { reasoning: "Rearrange: $P(B)=0.8-0.7+0.4$.", working: "0.8-0.7+0.4=0.5", marks: 1, markCode: "M" },
+            ],
+            finalAnswer: "**(a)** $0.5$",
+            commonErrors: ["Computing $0.8-0.7-0.4=-0.3$ — the overlap must be added back."],
+          },
+        },
+        {
+          id: "ciem-u8-probability-problems-q15",
+          difficulty: "challenge",
+          totalMarks: 9,
+          stem: "A survey of $200$ students finds $P(\\text{likes maths})=0.55$, $P(\\text{likes science})=0.45$ and $P(\\text{likes both})=0.25$.",
+          parts: [
+            { label: "a", prompt: "Find the probability that a student likes at least one of the two subjects.", marks: 3 },
+            { label: "b", prompt: "Find the probability that a student likes neither subject.", marks: 2 },
+            { label: "c", prompt: "Find the expected number of the $200$ students who like neither subject.", marks: 4 },
+          ],
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "formula", name: "Addition rule", statement: "$P(A\\cup B)=P(A)+P(B)-P(A\\cap B)$" },
+              { kind: "formula", name: "Complement", statement: "$P(\\text{neither})=1-P(A\\cup B)$" },
+              { kind: "formula", name: "Expected frequency", statement: "$n\\times P(E)$" },
+            ],
+            steps: [
+              { part: "a", reasoning: "Apply the addition rule.", working: "0.55+0.45-0.25", marks: 1, markCode: "M" },
+              { part: "a", reasoning: "Compute.", working: "=0.75", marks: 1, markCode: "M" },
+              { part: "a", reasoning: "State the probability.", marks: 1, markCode: "A" },
+              { part: "b", reasoning: "Apply the complement.", working: "1-0.75", marks: 1, markCode: "M" },
+              { part: "b", reasoning: "State the probability.", working: "=0.25", marks: 1, markCode: "A" },
+              { part: "c", reasoning: "Apply expected frequency with $n=200$.", working: "200\\times0.25", marks: 1, markCode: "M" },
+              { part: "c", reasoning: "Compute.", working: "=50", marks: 1, markCode: "M" },
+              { part: "c", reasoning: "Interpret as the expected (average) count.", marks: 1, markCode: "M" },
+              { part: "c", reasoning: "State the expectation.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "(a) $0.75$ (b) $0.25$ (c) $50$ students",
+            commonErrors: ["In (a) adding $0.55+0.45$ without subtracting the overlap $0.25$."],
+          },
+        },
+        {
+          id: "ciem-u8-probability-problems-q16",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "Two independent events have $P(A)=0.25$ and $P(B)=0.35$. Find $P(A\\cup B)$.",
+          response: { type: "numeric", parts: [{ label: "Probability", answer: 0.5125 }] },
+          markscheme: {
+            principles: [
+              { kind: "formula", name: "Addition rule", statement: "$P(A\\cup B)=P(A)+P(B)-P(A\\cap B)$" },
+              { kind: "formula", name: "Independent events", statement: "Independent: $P(A\\cap B)=P(A)\\times P(B)$" },
+            ],
+            steps: [
+              { reasoning: "Find the overlap using independence.", working: "P(A\\cap B)=0.25\\times0.35=0.0875", marks: 1, markCode: "M" },
+              { reasoning: "Apply the addition rule.", working: "0.25+0.35-0.0875", marks: 1, markCode: "M" },
+              { reasoning: "Compute.", working: "=0.5125", marks: 1, markCode: "M" },
+              { reasoning: "State the probability.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$0.5125$",
+            commonErrors: ["Assuming independence means $P(A\\cup B)=P(A)+P(B)=0.6$ — the overlap must still be subtracted."],
           },
         },
       ],

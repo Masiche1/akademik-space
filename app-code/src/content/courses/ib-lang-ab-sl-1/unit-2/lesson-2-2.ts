@@ -52,8 +52,8 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Only your first name" },
-              { id: "b", text: "Your nickname" },
+              { id: "a", text: "Your nickname" },
+              { id: "b", text: "Only your first name" },
               { id: "c", text: "Your first and last name" },
               { id: "d", text: "Your mother's name" },
             ],
@@ -153,11 +153,11 @@ export const lesson22: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Today's date" },
-              { id: "b", text: "The day, month and year you were born" },
-              { id: "c", text: "Your favourite date" },
+              { id: "b", text: "Your favourite date" },
+              { id: "c", text: "The day, month and year you were born" },
               { id: "d", text: "The date you joined the school" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -179,12 +179,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "fourteen" },
-              { id: "b", text: "14" },
+              { id: "a", text: "14" },
+              { id: "b", text: "fourteen" },
               { id: "c", text: "one four" },
               { id: "d", text: "four teen" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -206,12 +206,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Your email address" },
-              { id: "b", text: "Your street, city and country" },
-              { id: "c", text: "Your phone number" },
-              { id: "d", text: "Your school name" },
+              { id: "a", text: "Your school name" },
+              { id: "b", text: "Your phone number" },
+              { id: "c", text: "Your street, city and country" },
+              { id: "d", text: "Your email address" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -233,12 +233,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Only the date" },
-              { id: "b", text: "Spelling, numbers, dates and your signature" },
+              { id: "a", text: "Only the colour of the pen" },
+              { id: "b", text: "Only the date" },
               { id: "c", text: "Nothing — forms cannot be wrong" },
-              { id: "d", text: "Only the colour of the pen" },
+              { id: "d", text: "Spelling, numbers, dates and your signature" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -260,12 +260,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Your printed name" },
-              { id: "b", text: "Your name written by hand" },
-              { id: "c", text: "Today's date" },
-              { id: "d", text: "A drawing of your face" },
+              { id: "a", text: "Your name written by hand" },
+              { id: "b", text: "Your printed name" },
+              { id: "c", text: "A drawing of your face" },
+              { id: "d", text: "Today's date" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -287,12 +287,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The country you come from" },
-              { id: "b", text: "The language you speak" },
-              { id: "c", text: "Your religion" },
-              { id: "d", text: "Your favourite food" },
+              { id: "a", text: "The language you speak" },
+              { id: "b", text: "Your religion" },
+              { id: "c", text: "Your favourite food" },
+              { id: "d", text: "The country you come from" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -314,12 +314,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "To use less paper" },
-              { id: "b", text: "So the information can be read correctly" },
-              { id: "c", text: "Because forms look nicer" },
-              { id: "d", text: "It is not important" },
+              { id: "a", text: "Because forms look nicer" },
+              { id: "b", text: "It is not important" },
+              { id: "c", text: "To use less paper" },
+              { id: "d", text: "So the information can be read correctly" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -341,10 +341,10 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "six one two three four five six seven eight" },
+              { id: "a", text: "my mum's number is better" },
               { id: "b", text: "612 345 678" },
               { id: "c", text: "call me maybe" },
-              { id: "d", text: "my mum's number is better" },
+              { id: "d", text: "six one two three four five six seven eight" },
             ],
             correctChoiceId: "b",
           },
@@ -593,11 +593,11 @@ export const lesson22: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Subject, body, signature" },
-              { id: "b", text: "Greeting, message, polite ending" },
-              { id: "c", text: "Name, address, date" },
-              { id: "d", text: "Hello, please, thanks" },
+              { id: "b", text: "Hello, please, thanks" },
+              { id: "c", text: "Greeting, message, polite ending" },
+              { id: "d", text: "Name, address, date" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -687,12 +687,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "See ya!" },
-              { id: "b", text: "Best wishes," },
-              { id: "c", text: "Whatever" },
-              { id: "d", text: "Bye bye bye" },
+              { id: "a", text: "Whatever" },
+              { id: "b", text: "Bye bye bye" },
+              { id: "c", text: "Best wishes," },
+              { id: "d", text: "See ya!" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -714,10 +714,10 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "who sent the email" },
+              { id: "a", text: "when the email was sent" },
               { id: "b", text: "what the email is about" },
-              { id: "c", text: "when the email was sent" },
-              { id: "d", text: "how long the email is" },
+              { id: "c", text: "how long the email is" },
+              { id: "d", text: "who sent the email" },
             ],
             correctChoiceId: "b",
           },
@@ -741,9 +741,9 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "the polite ending" },
+              { id: "a", text: "the subject line" },
               { id: "b", text: "the greeting" },
-              { id: "c", text: "the subject line" },
+              { id: "c", text: "the polite ending" },
               { id: "d", text: "the signature" },
             ],
             correctChoiceId: "b",
@@ -768,12 +768,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "the greeting" },
+              { id: "a", text: "the polite ending" },
               { id: "b", text: "the body" },
-              { id: "c", text: "the header lines" },
-              { id: "d", text: "the polite ending" },
+              { id: "c", text: "the greeting" },
+              { id: "d", text: "the header lines" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -796,11 +796,11 @@ export const lesson22: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "a formal greeting" },
-              { id: "b", text: "an informal greeting" },
+              { id: "b", text: "a subject line" },
               { id: "c", text: "a polite ending" },
-              { id: "d", text: "a subject line" },
+              { id: "d", text: "an informal greeting" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -822,12 +822,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "repeat the subject three times" },
-              { id: "b", text: "say why you are writing and give the information" },
-              { id: "c", text: "be as long as possible" },
+              { id: "a", text: "say why you are writing and give the information" },
+              { id: "b", text: "be as long as possible" },
+              { id: "c", text: "repeat the subject three times" },
               { id: "d", text: "contain only pictures" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -849,12 +849,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "An email has To, From and Subject lines; a message does not" },
-              { id: "b", text: "A message is always longer" },
-              { id: "c", text: "An email cannot have a greeting" },
+              { id: "a", text: "An email cannot have a greeting" },
+              { id: "b", text: "An email has To, From and Subject lines; a message does not" },
+              { id: "c", text: "A message is always longer" },
               { id: "d", text: "There is no difference" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -876,12 +876,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Stop reading" },
-              { id: "b", text: "Answer quickly" },
-              { id: "c", text: "Forget the message" },
-              { id: "d", text: "Send money" },
+              { id: "a", text: "Send money" },
+              { id: "b", text: "Forget the message" },
+              { id: "c", text: "Stop reading" },
+              { id: "d", text: "Answer quickly" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

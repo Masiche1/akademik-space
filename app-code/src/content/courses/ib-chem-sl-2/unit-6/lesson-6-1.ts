@@ -54,12 +54,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The forward and reverse reaction rates are equal, so concentrations remain constant while reactions continue" },
-              { id: "b", text: "All reactions have stopped and concentrations are zero" },
-              { id: "c", text: "Only the products are present" },
-              { id: "d", text: "The forward reaction is faster than the reverse reaction" },
+              { id: "a", text: "Only the products are present" },
+              { id: "b", text: "The forward reaction is faster than the reverse reaction" },
+              { id: "c", text: "The forward and reverse reaction rates are equal, so concentrations remain constant while reactions continue" },
+              { id: "d", text: "All reactions have stopped and concentrations are zero" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -82,12 +82,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Shifts right towards $\\mathrm{NH}_3$, because $4$ moles of gas become $2$ moles" },
-              { id: "b", text: "Shifts left towards the reactants" },
-              { id: "c", text: "No change, because all species are gases" },
-              { id: "d", text: "Shifts right, because the reaction is exothermic" },
+              { id: "a", text: "Shifts right, because the reaction is exothermic" },
+              { id: "b", text: "No change, because all species are gases" },
+              { id: "c", text: "Shifts right towards $\\mathrm{NH}_3$, because $4$ moles of gas become $2$ moles" },
+              { id: "d", text: "Shifts left towards the reactants" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -111,12 +111,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Raising the temperature decreases the yield of $\\mathrm{NH}_3$ but increases the rate; a catalyst increases the rate without changing the yield" },
-              { id: "b", text: "Raising the temperature increases both the yield and the rate; a catalyst increases the yield" },
-              { id: "c", text: "Raising the temperature decreases the rate; a catalyst shifts equilibrium right" },
-              { id: "d", text: "Temperature and catalyst both have no effect on an equilibrium mixture" },
+              { id: "a", text: "Temperature and catalyst both have no effect on an equilibrium mixture" },
+              { id: "b", text: "Raising the temperature decreases the yield of $\\mathrm{NH}_3$ but increases the rate; a catalyst increases the rate without changing the yield" },
+              { id: "c", text: "Raising the temperature increases both the yield and the rate; a catalyst increases the yield" },
+              { id: "d", text: "Raising the temperature decreases the rate; a catalyst shifts equilibrium right" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -174,12 +174,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Increasing the concentration of CO" },
+              { id: "a", text: "Increasing the temperature" },
               { id: "b", text: "Decreasing the pressure" },
-              { id: "c", text: "Increasing the temperature" },
+              { id: "c", text: "Increasing the concentration of CO" },
               { id: "d", text: "Adding a catalyst" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -202,12 +202,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The equilibrium shifts right towards NO" },
+              { id: "a", text: "There is no change in position, only the rate increases" },
               { id: "b", text: "The equilibrium shifts left towards the reactants" },
-              { id: "c", text: "There is no change in position, only the rate increases" },
+              { id: "c", text: "The equilibrium shifts right towards NO" },
               { id: "d", text: "The equilibrium shifts right but $K_c$ decreases" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -231,9 +231,9 @@ export const lesson61: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Right, towards $\\mathrm{SO}_3$, because $3$ moles of gas become $2$ moles" },
-              { id: "b", text: "Left, towards $\\mathrm{SO}_2$ and $\\mathrm{O}_2$" },
+              { id: "b", text: "Right, because the reaction is exothermic" },
               { id: "c", text: "There is no change because pressure does not affect equilibria" },
-              { id: "d", text: "Right, because the reaction is exothermic" },
+              { id: "d", text: "Left, towards $\\mathrm{SO}_2$ and $\\mathrm{O}_2$" },
             ],
             correctChoiceId: "a",
           },
@@ -258,12 +258,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A lower temperature would increase the yield (exothermic reaction) but make the rate too slow; $450$ °C is a compromise between rate and yield" },
-              { id: "b", text: "A lower temperature would shift the equilibrium towards the reactants, so a higher temperature is needed" },
-              { id: "c", text: "The iron catalyst only functions above $450$ °C" },
-              { id: "d", text: "Higher temperatures are needed to reach equilibrium; the yield is unaffected by temperature" },
+              { id: "a", text: "A lower temperature would shift the equilibrium towards the reactants, so a higher temperature is needed" },
+              { id: "b", text: "Higher temperatures are needed to reach equilibrium; the yield is unaffected by temperature" },
+              { id: "c", text: "A lower temperature would increase the yield (exothermic reaction) but make the rate too slow; $450$ °C is a compromise between rate and yield" },
+              { id: "d", text: "The iron catalyst only functions above $450$ °C" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -287,12 +287,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "High pressure, low temperature and an iron catalyst" },
-              { id: "b", text: "Low pressure, high temperature and no catalyst" },
+              { id: "a", text: "Low pressure, high temperature and no catalyst" },
+              { id: "b", text: "Low pressure, low temperature and no catalyst" },
               { id: "c", text: "High pressure, high temperature and an iron catalyst" },
-              { id: "d", text: "Low pressure, low temperature and no catalyst" },
+              { id: "d", text: "High pressure, low temperature and an iron catalyst" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -547,12 +547,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$K_c = \\dfrac{[\\mathrm{HI}]^2}{[\\mathrm{H}_2][\\mathrm{I}_2]}$" },
-              { id: "b", text: "$K_c = \\dfrac{[\\mathrm{H}_2][\\mathrm{I}_2]}{[\\mathrm{HI}]^2}$" },
-              { id: "c", text: "$K_c = \\dfrac{[\\mathrm{HI}]}{[\\mathrm{H}_2][\\mathrm{I}_2]}$" },
-              { id: "d", text: "$K_c = [\\mathrm{HI}]^2 - [\\mathrm{H}_2][\\mathrm{I}_2]$" },
+              { id: "a", text: "$K_c = \\dfrac{[\\mathrm{H}_2][\\mathrm{I}_2]}{[\\mathrm{HI}]^2}$" },
+              { id: "b", text: "$K_c = [\\mathrm{HI}]^2 - [\\mathrm{H}_2][\\mathrm{I}_2]$" },
+              { id: "c", text: "$K_c = \\dfrac{[\\mathrm{HI}]^2}{[\\mathrm{H}_2][\\mathrm{I}_2]}$" },
+              { id: "d", text: "$K_c = \\dfrac{[\\mathrm{HI}]}{[\\mathrm{H}_2][\\mathrm{I}_2]}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -575,12 +575,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$4.0$" },
+              { id: "a", text: "$2.0$" },
               { id: "b", text: "$0.25$" },
-              { id: "c", text: "$2.0$" },
+              { id: "c", text: "$4.0$" },
               { id: "d", text: "$40$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -604,12 +604,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$0.20$ mol dm$^{-3}$" },
+              { id: "a", text: "$0.10$ mol dm$^{-3}$" },
               { id: "b", text: "$0.40$ mol dm$^{-3}$" },
-              { id: "c", text: "$0.10$ mol dm$^{-3}$" },
-              { id: "d", text: "$0.02$ mol dm$^{-3}$" },
+              { id: "c", text: "$0.02$ mol dm$^{-3}$" },
+              { id: "d", text: "$0.20$ mol dm$^{-3}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -665,12 +665,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$K_c = \\dfrac{[\\mathrm{NO}_2]^2}{[\\mathrm{N}_2\\mathrm{O}_4]}$" },
-              { id: "b", text: "$K_c = \\dfrac{[\\mathrm{N}_2\\mathrm{O}_4]}{[\\mathrm{NO}_2]^2}$" },
-              { id: "c", text: "$K_c = \\dfrac{[\\mathrm{NO}_2]}{[\\mathrm{N}_2\\mathrm{O}_4]}$" },
+              { id: "a", text: "$K_c = \\dfrac{[\\mathrm{N}_2\\mathrm{O}_4]}{[\\mathrm{NO}_2]^2}$" },
+              { id: "b", text: "$K_c = \\dfrac{[\\mathrm{NO}_2]}{[\\mathrm{N}_2\\mathrm{O}_4]}$" },
+              { id: "c", text: "$K_c = \\dfrac{[\\mathrm{NO}_2]^2}{[\\mathrm{N}_2\\mathrm{O}_4]}$" },
               { id: "d", text: "$K_c = [\\mathrm{NO}_2]^2 - [\\mathrm{N}_2\\mathrm{O}_4]$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -693,12 +693,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Adding a catalyst" },
+              { id: "a", text: "Decreasing the volume of the vessel" },
               { id: "b", text: "Increasing the temperature" },
-              { id: "c", text: "Increasing the concentration of a reactant" },
-              { id: "d", text: "Decreasing the volume of the vessel" },
+              { id: "c", text: "Adding a catalyst" },
+              { id: "d", text: "Increasing the concentration of a reactant" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -771,12 +771,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\mathrm{H}_2 + \\mathrm{I}_2 \\rightleftharpoons 2\\mathrm{HI}$ — two moles of gas on each side" },
-              { id: "b", text: "$\\mathrm{N}_2\\mathrm{O}_4 \\rightleftharpoons 2\\mathrm{NO}_2$ — one mole on the left, two on the right" },
-              { id: "c", text: "$\\mathrm{N}_2 + 3\\mathrm{H}_2 \\rightleftharpoons 2\\mathrm{NH}_3$ — four moles on the left, two on the right" },
-              { id: "d", text: "$2\\mathrm{SO}_2 + \\mathrm{O}_2 \\rightleftharpoons 2\\mathrm{SO}_3$ — three moles on the left, two on the right" },
+              { id: "a", text: "$2\\mathrm{SO}_2 + \\mathrm{O}_2 \\rightleftharpoons 2\\mathrm{SO}_3$ — three moles on the left, two on the right" },
+              { id: "b", text: "$\\mathrm{N}_2 + 3\\mathrm{H}_2 \\rightleftharpoons 2\\mathrm{NH}_3$ — four moles on the left, two on the right" },
+              { id: "c", text: "$\\mathrm{H}_2 + \\mathrm{I}_2 \\rightleftharpoons 2\\mathrm{HI}$ — two moles of gas on each side" },
+              { id: "d", text: "$\\mathrm{N}_2\\mathrm{O}_4 \\rightleftharpoons 2\\mathrm{NO}_2$ — one mole on the left, two on the right" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -905,12 +905,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "the position of equilibrium lies far to the right — products are strongly favoured" },
+              { id: "a", text: "the reaction is reversible only at high temperature" },
               { id: "b", text: "the position of equilibrium lies far to the left — reactants are strongly favoured" },
-              { id: "c", text: "the reaction rate is very fast" },
-              { id: "d", text: "the reaction is reversible only at high temperature" },
+              { id: "c", text: "the position of equilibrium lies far to the right — products are strongly favoured" },
+              { id: "d", text: "the reaction rate is very fast" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

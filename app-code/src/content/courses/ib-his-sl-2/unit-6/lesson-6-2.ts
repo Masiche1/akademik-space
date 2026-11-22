@@ -53,12 +53,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A military alliance" },
-              { id: "b", text: "Free-market policy prescriptions for developing economies" },
-              { id: "c", text: "A trade agreement between the US and China" },
+              { id: "a", text: "A trade agreement between the US and China" },
+              { id: "b", text: "A military alliance" },
+              { id: "c", text: "Free-market policy prescriptions for developing economies" },
               { id: "d", text: "A cultural movement" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -151,12 +151,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Making ships faster but more expensive" },
-              { id: "b", text: "Slashing loading costs and times, enabling global supply chains" },
-              { id: "c", text: "Ending the need for ports" },
+              { id: "a", text: "Slashing loading costs and times, enabling global supply chains" },
+              { id: "b", text: "Ending the need for ports" },
+              { id: "c", text: "Making ships faster but more expensive" },
               { id: "d", text: "Banning air freight" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -179,12 +179,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A military alliance between the US and Europe" },
-              { id: "b", text: "Neoliberal policies — privatisation, deregulation, free trade — promoted to developing countries" },
-              { id: "c", text: "An agreement on nuclear arms control" },
+              { id: "a", text: "Neoliberal policies — privatisation, deregulation, free trade — promoted to developing countries" },
+              { id: "b", text: "An agreement on nuclear arms control" },
+              { id: "c", text: "A military alliance between the US and Europe" },
               { id: "d", text: "A trade bloc of Asian economies" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -208,11 +208,11 @@ export const lesson62: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "The IMF" },
-              { id: "b", text: "The WTO" },
-              { id: "c", text: "The UN Security Council" },
-              { id: "d", text: "Comecon" },
+              { id: "b", text: "The UN Security Council" },
+              { id: "c", text: "Comecon" },
+              { id: "d", text: "The WTO" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -235,12 +235,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Deindustrialisation in the developing world" },
-              { id: "b", text: "Rapid industrialisation transforming the world economy" },
-              { id: "c", text: "The failure of free trade" },
-              { id: "d", text: "Continued colonial economic dependence" },
+              { id: "a", text: "Rapid industrialisation transforming the world economy" },
+              { id: "b", text: "Deindustrialisation in the developing world" },
+              { id: "c", text: "Continued colonial economic dependence" },
+              { id: "d", text: "The failure of free trade" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -263,12 +263,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The spread of local languages worldwide" },
-              { id: "b", text: "Cultural homogenisation — erosion of local languages and traditions" },
-              { id: "c", text: "The banning of foreign films" },
-              { id: "d", text: "The end of all national identities" },
+              { id: "a", text: "The banning of foreign films" },
+              { id: "b", text: "The spread of local languages worldwide" },
+              { id: "c", text: "The end of all national identities" },
+              { id: "d", text: "Cultural homogenisation — erosion of local languages and traditions" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -291,12 +291,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Direct military intervention" },
-              { id: "b", text: "Loans and structural adjustment programmes" },
+              { id: "a", text: "Trade embargoes" },
+              { id: "b", text: "Direct military intervention" },
               { id: "c", text: "Cultural exchange programmes" },
-              { id: "d", text: "Trade embargoes" },
+              { id: "d", text: "Loans and structural adjustment programmes" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -472,12 +472,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "International tourism" },
-              { id: "b", text: "Corporate-led free-trade globalisation" },
+              { id: "a", text: "Cultural exchange" },
+              { id: "b", text: "International tourism" },
               { id: "c", text: "The internet" },
-              { id: "d", text: "Cultural exchange" },
+              { id: "d", text: "Corporate-led free-trade globalisation" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -571,12 +571,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Forced the WTO to disband" },
-              { id: "b", text: "Brought together labour, environmental, student and developing-world groups against corporate globalisation" },
+              { id: "a", text: "Brought together labour, environmental, student and developing-world groups against corporate globalisation" },
+              { id: "b", text: "Celebrated free trade" },
               { id: "c", text: "Were suppressed without any publicity" },
-              { id: "d", text: "Celebrated free trade" },
+              { id: "d", text: "Forced the WTO to disband" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -600,11 +600,11 @@ export const lesson62: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Peaceful celebrations only" },
-              { id: "b", text: "Clashes between demonstrators and police, including a fatal shooting" },
-              { id: "c", text: "The signing of a new trade treaty" },
+              { id: "b", text: "The signing of a new trade treaty" },
+              { id: "c", text: "Clashes between demonstrators and police, including a fatal shooting" },
               { id: "d", text: "A boycott of all European goods" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -627,12 +627,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "1999" },
-              { id: "b", text: "2001" },
-              { id: "c", text: "2008" },
-              { id: "d", text: "2011" },
+              { id: "a", text: "2008" },
+              { id: "b", text: "2011" },
+              { id: "c", text: "1999" },
+              { id: "d", text: "2001" },
             ],
-            correctChoiceId: "d",
+            correctChoiceIb: "d",
           },
           markscheme: {
             principles: [
@@ -655,12 +655,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Evidence that globalisation had been fully embraced" },
-              { id: "b", text: "Political backlash against globalisation, immigration and lost sovereignty" },
-              { id: "c", text: "Random events unrelated to economics" },
+              { id: "a", text: "Random events unrelated to economics" },
+              { id: "b", text: "Evidence that globalisation had been fully embraced" },
+              { id: "c", text: "Political backlash against globalisation, immigration and lost sovereignty" },
               { id: "d", text: "Proof that populism had ended" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -684,11 +684,11 @@ export const lesson62: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Rejects the global system entirely" },
-              { id: "b", text: "Seeks a fairer version of globalisation rather than its abolition" },
-              { id: "c", text: "Supports only national economies" },
+              { id: "b", text: "Supports only national economies" },
+              { id: "c", text: "Seeks a fairer version of globalisation rather than its abolition" },
               { id: "d", text: "Opposes all international trade" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -711,12 +711,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "That global markets were risk-free" },
-              { id: "b", text: "The risks of interconnected financial markets" },
+              { id: "a", text: "The risks of interconnected financial markets" },
+              { id: "b", text: "That global markets were risk-free" },
               { id: "c", text: "That developing countries were immune" },
               { id: "d", text: "The success of deregulation" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

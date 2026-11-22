@@ -49,12 +49,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$47^\\circ$" },
-              { id: "b", text: "$57^\\circ$" },
-              { id: "c", text: "$123^\\circ$" },
-              { id: "d", text: "$67^\\circ$" },
+              { id: "a", text: "$57^\\circ$" },
+              { id: "b", text: "$123^\\circ$" },
+              { id: "c", text: "$67^\\circ$" },
+              { id: "d", text: "$47^\\circ$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -187,12 +187,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$7$" },
-              { id: "b", text: "$10$" },
-              { id: "c", text: "$14$" },
-              { id: "d", text: "$100$" },
+              { id: "a", text: "$14$" },
+              { id: "b", text: "$100$" },
+              { id: "c", text: "$10$" },
+              { id: "d", text: "$7$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

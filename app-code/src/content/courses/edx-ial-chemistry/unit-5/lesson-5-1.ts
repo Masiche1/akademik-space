@@ -84,22 +84,22 @@ export const lesson51: Lesson = {
             "choices": [
               {
                 "id": "a",
-                "text": "The variable deliberately changed"
-              },
-              {
-                "id": "b",
                 "text": "The variable measured as the result"
               },
               {
-                "id": "c",
+                "id": "b",
                 "text": "A variable kept constant"
+              },
+              {
+                "id": "c",
+                "text": "The variable deliberately changed"
               },
               {
                 "id": "d",
                 "text": "The instrument used"
               }
             ],
-            "correctChoiceId": "b"
+            "correctChoiceId": "a"
           },
           "markscheme": {
             "principles": [
@@ -357,7 +357,7 @@ export const lesson51: Lesson = {
             "choices": [
               {
                 "id": "a",
-                "text": "Taking one reading carefully"
+                "text": "Using a bigger apparatus"
               },
               {
                 "id": "b",
@@ -365,11 +365,11 @@ export const lesson51: Lesson = {
               },
               {
                 "id": "c",
-                "text": "Using a bigger apparatus"
+                "text": "Guessing the result"
               },
               {
                 "id": "d",
-                "text": "Guessing the result"
+                "text": "Taking one reading carefully"
               }
             ],
             "correctChoiceId": "b"

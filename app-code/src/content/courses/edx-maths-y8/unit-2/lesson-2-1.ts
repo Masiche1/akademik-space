@@ -51,12 +51,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$7x+y$" },
-              { id: "b", text: "$7x+3y$" },
-              { id: "c", text: "$x+y$" },
+              { id: "a", text: "$x+y$" },
+              { id: "b", text: "$7x+y$" },
+              { id: "c", text: "$7x+3y$" },
               { id: "d", text: "$8xy$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -181,12 +181,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$12$" },
-              { id: "b", text: "$18$" },
-              { id: "c", text: "$36$" },
-              { id: "d", text: "$6$" },
+              { id: "a", text: "$36$" },
+              { id: "b", text: "$12$" },
+              { id: "c", text: "$6$" },
+              { id: "d", text: "$18$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

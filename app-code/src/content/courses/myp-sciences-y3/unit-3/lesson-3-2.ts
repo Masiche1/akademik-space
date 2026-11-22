@@ -59,12 +59,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Kinetic" },
-              { id: "b", text: "Gravitational potential" },
-              { id: "c", text: "Elastic potential" },
-              { id: "d", text: "Chemical" },
+              { id: "a", text: "Gravitational potential" },
+              { id: "b", text: "Chemical" },
+              { id: "c", text: "Kinetic" },
+              { id: "d", text: "Elastic potential" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -156,10 +156,10 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Kinetic energy" },
+              { id: "a", text: "Elastic potential energy" },
               { id: "b", text: "Gravitational potential energy" },
-              { id: "c", text: "Elastic potential energy" },
-              { id: "d", text: "Sound energy" },
+              { id: "c", text: "Sound energy" },
+              { id: "d", text: "Kinetic energy" },
             ],
             correctChoiceId: "b",
           },
@@ -183,10 +183,10 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Light only" },
+              { id: "a", text: "Nuclear energy" },
               { id: "b", text: "Heat and sound" },
-              { id: "c", text: "Nuclear energy" },
-              { id: "d", text: "Nothing — all energy is useful" },
+              { id: "c", text: "Nothing — all energy is useful" },
+              { id: "d", text: "Light only" },
             ],
             correctChoiceId: "b",
           },
@@ -268,11 +268,11 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Kinetic to gravitational potential" },
-              { id: "b", text: "Gravitational potential to kinetic" },
-              { id: "c", text: "Chemical to thermal" },
+              { id: "b", text: "Chemical to thermal" },
+              { id: "c", text: "Gravitational potential to kinetic" },
               { id: "d", text: "Elastic to sound" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -294,12 +294,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Copper" },
-              { id: "b", text: "Aluminium" },
-              { id: "c", text: "Wool" },
-              { id: "d", text: "Iron" },
+              { id: "a", text: "Iron" },
+              { id: "b", text: "Wool" },
+              { id: "c", text: "Copper" },
+              { id: "d", text: "Aluminium" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -340,12 +340,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Energy is never created or destroyed, only transferred or stored" },
-              { id: "b", text: "Energy is always wasted" },
+              { id: "a", text: "Energy is always wasted" },
+              { id: "b", text: "Energy is never created or destroyed, only transferred or stored" },
               { id: "c", text: "Energy can be created by machines" },
               { id: "d", text: "Energy only exists as heat" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -385,12 +385,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Machines wear out" },
-              { id: "b", text: "Some energy is always dissipated as heat and sound" },
+              { id: "a", text: "Machines need fuel" },
+              { id: "b", text: "Machines wear out" },
               { id: "c", text: "Energy cannot be measured" },
-              { id: "d", text: "Machines need fuel" },
+              { id: "d", text: "Some energy is always dissipated as heat and sound" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -462,10 +462,10 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Radio waves" },
-              { id: "b", text: "Visible light" },
+              { id: "a", text: "Microwaves" },
+              { id: "b", text: "Radio waves" },
               { id: "c", text: "X-rays" },
-              { id: "d", text: "Microwaves" },
+              { id: "d", text: "Visible light" },
             ],
             correctChoiceId: "c",
           },
@@ -561,11 +561,11 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Volume, force and length" },
-              { id: "b", text: "Speed, frequency and wavelength" },
-              { id: "c", text: "Time, distance and mass" },
+              { id: "b", text: "Time, distance and mass" },
+              { id: "c", text: "Speed, frequency and wavelength" },
               { id: "d", text: "Amplitude, period and energy" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -587,8 +587,8 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Gamma rays" },
-              { id: "b", text: "Visible light" },
+              { id: "a", text: "Visible light" },
+              { id: "b", text: "Gamma rays" },
               { id: "c", text: "Radio waves" },
               { id: "d", text: "X-rays" },
             ],
@@ -672,11 +672,11 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "The number of waves per second" },
-              { id: "b", text: "The distance between two consecutive crests or troughs" },
-              { id: "c", text: "The height of a wave" },
-              { id: "d", text: "The speed of the wave" },
+              { id: "b", text: "The height of a wave" },
+              { id: "c", text: "The speed of the wave" },
+              { id: "d", text: "The distance between two consecutive crests or troughs" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -699,9 +699,9 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Radio waves" },
-              { id: "b", text: "Microwaves" },
+              { id: "b", text: "Gamma rays" },
               { id: "c", text: "Infrared" },
-              { id: "d", text: "Gamma rays" },
+              { id: "d", text: "Microwaves" },
             ],
             correctChoiceId: "c",
           },
@@ -762,12 +762,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Ionising radiation that can damage cells and DNA" },
-              { id: "b", text: "Low-frequency waves" },
-              { id: "c", text: "Slower than visible light" },
+              { id: "a", text: "Slower than visible light" },
+              { id: "b", text: "Ionising radiation that can damage cells and DNA" },
+              { id: "c", text: "Low-frequency waves" },
               { id: "d", text: "Unable to travel through air" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -788,12 +788,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$340$ m/s" },
-              { id: "b", text: "$3\\times10^8$ m/s" },
-              { id: "c", text: "$1500$ m/s" },
-              { id: "d", text: "It depends on the frequency" },
+              { id: "a", text: "$1500$ m/s" },
+              { id: "b", text: "It depends on the frequency" },
+              { id: "c", text: "$3\\times10^8$ m/s" },
+              { id: "d", text: "$340$ m/s" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -815,12 +815,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Are absorbed by water molecules in food, heating it" },
+              { id: "a", text: "Only travel in a straight line through metal" },
               { id: "b", text: "Are reflected by all food" },
-              { id: "c", text: "Have the lowest frequency in the spectrum" },
-              { id: "d", text: "Only travel in a straight line through metal" },
+              { id: "c", text: "Are absorbed by water molecules in food, heating it" },
+              { id: "d", text: "Have the lowest frequency in the spectrum" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

@@ -50,12 +50,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Prophase" },
-              { id: "b", text: "Metaphase" },
-              { id: "c", text: "Anaphase" },
-              { id: "d", text: "Telophase" },
+              { id: "a", text: "Telophase" },
+              { id: "b", text: "Prophase" },
+              { id: "c", text: "Metaphase" },
+              { id: "d", text: "Anaphase" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -186,8 +186,8 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "2 cells, each with 46 chromosomes" },
-              { id: "b", text: "2 cells, each with 23 chromosomes" },
+              { id: "a", text: "2 cells, each with 23 chromosomes" },
+              { id: "b", text: "2 cells, each with 46 chromosomes" },
               { id: "c", text: "4 cells, each with 46 chromosomes" },
               { id: "d", text: "4 cells, each with 23 chromosomes" },
             ],

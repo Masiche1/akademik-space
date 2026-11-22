@@ -56,11 +56,11 @@ export const lesson41: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$\\langle 6,7\\rangle$" },
-              { id: "b", text: "$\\langle -4,-3\\rangle$" },
-              { id: "c", text: "$\\langle 4,3\\rangle$" },
+              { id: "b", text: "$\\langle 4,3\\rangle$" },
+              { id: "c", text: "$\\langle -4,-3\\rangle$" },
               { id: "d", text: "$\\langle 3,4\\rangle$" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -210,12 +210,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\langle 8,-3\\rangle$" },
-              { id: "b", text: "$11$" },
-              { id: "c", text: "$5$" },
-              { id: "d", text: "$-5$" },
+              { id: "a", text: "$-5$" },
+              { id: "b", text: "$5$" },
+              { id: "c", text: "$\\langle 8,-3\\rangle$" },
+              { id: "d", text: "$11$" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [

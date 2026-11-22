@@ -55,12 +55,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Throwing things away" },
-              { id: "b", text: "Reusing materials to make new things" },
-              { id: "c", text: "Buying new products" },
-              { id: "d", text: "Polluting the environment" },
+              { id: "a", text: "Buying new products" },
+              { id: "b", text: "Throwing things away" },
+              { id: "c", text: "Polluting the environment" },
+              { id: "d", text: "Reusing materials to make new things" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -160,12 +160,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Cleaning the environment" },
-              { id: "b", text: "Harmful substances in air, water or land" },
-              { id: "c", text: "Growing plants" },
+              { id: "a", text: "Growing plants" },
+              { id: "b", text: "Cleaning the environment" },
+              { id: "c", text: "Harmful substances in air, water or land" },
               { id: "d", text: "Saving energy" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -188,11 +188,11 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Your homework is late" },
-              { id: "b", text: "Climate change affects people worldwide" },
-              { id: "c", text: "Your team lost a match" },
+              { id: "b", text: "Your team lost a match" },
+              { id: "c", text: "Climate change affects people worldwide" },
               { id: "d", text: "You forgot your lunch" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -214,12 +214,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Pollution has damaged many rivers." },
+              { id: "a", text: "Pollution is damage many rivers." },
               { id: "b", text: "Pollution damaged many rivers yesterday." },
-              { id: "c", text: "Pollution is damage many rivers." },
-              { id: "d", text: "Pollution will damage rivers." },
+              { id: "c", text: "Pollution will damage rivers." },
+              { id: "d", text: "Pollution has damaged many rivers." },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -241,12 +241,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Plastic is everywhere." },
-              { id: "b", text: "We should stop using single-use plastic bags." },
-              { id: "c", text: "The ocean is dirty." },
-              { id: "d", text: "I saw plastic on the beach." },
+              { id: "a", text: "The ocean is dirty." },
+              { id: "b", text: "I saw plastic on the beach." },
+              { id: "c", text: "We should stop using single-use plastic bags." },
+              { id: "d", text: "Plastic is everywhere." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -274,10 +274,10 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Air quality has improved." },
-              { id: "b", text: "Fewer cars have helped." },
+              { id: "a", text: "Fewer cars have helped." },
+              { id: "b", text: "Our city has rivers." },
               { id: "c", text: "Plastic waste is a serious problem that needs action." },
-              { id: "d", text: "Our city has rivers." },
+              { id: "d", text: "Air quality has improved." },
             ],
             correctChoiceId: "c",
           },
@@ -301,12 +301,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Just complain with no reasons" },
-              { id: "b", text: "Give an opinion with a reason and a suggestion" },
-              { id: "c", text: "Ignore the problem" },
-              { id: "d", text: "Only talk about facts, no views" },
+              { id: "a", text: "Give an opinion with a reason and a suggestion" },
+              { id: "b", text: "Ignore the problem" },
+              { id: "c", text: "Only talk about facts, no views" },
+              { id: "d", text: "Just complain with no reasons" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -511,12 +511,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Trading money between countries" },
-              { id: "b", text: "Sharing ideas, food and customs between cultures" },
-              { id: "c", text: "Learning only English" },
-              { id: "d", text: "Travelling for work" },
+              { id: "a", text: "Travelling for work" },
+              { id: "b", text: "Trading money between countries" },
+              { id: "c", text: "Sharing ideas, food and customs between cultures" },
+              { id: "d", text: "Learning only English" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -608,12 +608,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Buying goods from another country" },
-              { id: "b", text: "An international food festival where students share dishes" },
-              { id: "c", text: "Learning English grammar" },
-              { id: "d", text: "Travelling for business" },
+              { id: "a", text: "Learning English grammar" },
+              { id: "b", text: "Travelling for business" },
+              { id: "c", text: "Buying goods from another country" },
+              { id: "d", text: "An international food festival where students share dishes" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -635,12 +635,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "In my country, we..." },
-              { id: "b", text: "Everyone does this..." },
-              { id: "c", text: "It's weird but..." },
-              { id: "d", text: "I think you should..." },
+              { id: "a", text: "I think you should..." },
+              { id: "b", text: "It's weird but..." },
+              { id: "c", text: "In my country, we..." },
+              { id: "d", text: "Everyone does this..." },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -662,12 +662,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "That's weird." },
-              { id: "b", text: "That's strange, I don't get it." },
-              { id: "c", text: "That's interesting — how is it in your country?" },
-              { id: "d", text: "You should do it my way." },
+              { id: "a", text: "That's strange, I don't get it." },
+              { id: "b", text: "That's weird." },
+              { id: "c", text: "You should do it my way." },
+              { id: "d", text: "That's interesting — how is it in your country?" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -689,12 +689,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "interesting" },
-              { id: "b", text: "different" },
-              { id: "c", text: "weird" },
-              { id: "d", text: "traditional" },
+              { id: "a", text: "weird" },
+              { id: "b", text: "traditional" },
+              { id: "c", text: "different" },
+              { id: "d", text: "interesting" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -722,10 +722,10 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It is grammatically wrong" },
+              { id: "a", text: "It is too formal" },
               { id: "b", text: "It judges someone's culture as 'boring' — disrespectful" },
-              { id: "c", text: "It is too formal" },
-              { id: "d", text: "It asks a question" },
+              { id: "c", text: "It asks a question" },
+              { id: "d", text: "It is grammatically wrong" },
             ],
             correctChoiceId: "b",
           },
@@ -749,10 +749,10 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "We eat strange food you wouldn't like." },
+              { id: "a", text: "I don't want to talk about it." },
               { id: "b", text: "In my country, we eat [dish] with most meals. It's delicious — would you like to try some?" },
-              { id: "c", text: "I don't want to talk about it." },
-              { id: "d", text: "You probably wouldn't understand." },
+              { id: "c", text: "You probably wouldn't understand." },
+              { id: "d", text: "We eat strange food you wouldn't like." },
             ],
             correctChoiceId: "b",
           },

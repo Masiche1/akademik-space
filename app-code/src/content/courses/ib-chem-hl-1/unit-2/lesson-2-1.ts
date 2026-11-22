@@ -93,12 +93,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "2" },
+              { id: "a", text: "6" },
               { id: "b", text: "3" },
               { id: "c", text: "4" },
-              { id: "d", text: "6" },
+              { id: "d", text: "2" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -330,11 +330,11 @@ export const lesson21: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "3" },
-              { id: "b", text: "4" },
-              { id: "c", text: "5" },
-              { id: "d", text: "6" },
+              { id: "b", text: "5" },
+              { id: "c", text: "6" },
+              { id: "d", text: "4" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -373,12 +373,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Tetrahedral" },
-              { id: "b", text: "Trigonal bipyramidal" },
-              { id: "c", text: "Octahedral" },
-              { id: "d", text: "Trigonal planar" },
+              { id: "a", text: "Trigonal bipyramidal" },
+              { id: "b", text: "Trigonal planar" },
+              { id: "c", text: "Tetrahedral" },
+              { id: "d", text: "Octahedral" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -562,12 +562,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "CH$_4$" },
-              { id: "b", text: "NH$_3$" },
-              { id: "c", text: "H$_2$O" },
-              { id: "d", text: "BF$_3$" },
+              { id: "a", text: "H$_2$O" },
+              { id: "b", text: "CH$_4$" },
+              { id: "c", text: "BF$_3$" },
+              { id: "d", text: "NH$_3$" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -609,10 +609,10 @@ export const lesson21: Lesson = {
             choices: [
               { id: "a", text: "Tetrahedral" },
               { id: "b", text: "Seesaw" },
-              { id: "c", text: "Square planar" },
-              { id: "d", text: "Octahedral" },
+              { id: "c", text: "Octahedral" },
+              { id: "d", text: "Square planar" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -874,16 +874,16 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              {
-                id: "a",
-                text: "Lone pairs occupy less space than bonding pairs",
-              },
+              { id: "a", text: "Lone pairs have no effect on bond angles" },
               {
                 id: "b",
                 text: "Lone pair–lone pair repulsion is the strongest type",
               },
               { id: "c", text: "Lone pairs always occupy axial positions" },
-              { id: "d", text: "Lone pairs have no effect on bond angles" },
+              {
+                id: "d",
+                text: "Lone pairs occupy less space than bonding pairs",
+              },
             ],
             correctChoiceId: "b",
           },
@@ -1019,12 +1019,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "CCl$_4$" },
-              { id: "b", text: "CHCl$_3$" },
-              { id: "c", text: "CO$_2$" },
-              { id: "d", text: "BF$_3$" },
+              { id: "a", text: "CHCl$_3$" },
+              { id: "b", text: "BF$_3$" },
+              { id: "c", text: "CCl$_4$" },
+              { id: "d", text: "CO$_2$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -1262,12 +1262,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "CH$_4$" },
-              { id: "b", text: "CO$_2$" },
-              { id: "c", text: "CCl$_4$" },
-              { id: "d", text: "NH$_3$" },
+              { id: "a", text: "CCl$_4$" },
+              { id: "b", text: "NH$_3$" },
+              { id: "c", text: "CH$_4$" },
+              { id: "d", text: "CO$_2$" },
             ],
-            correctChoiceId: "d",
+            correctChoiceIb: "d",
           },
           markscheme: {
             principles: [
@@ -1307,12 +1307,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "H$_2$O ($100°$C)" },
-              { id: "b", text: "H$_2$S ($-60°$C)" },
+              { id: "a", text: "H$_2$S ($-60°$C)" },
+              { id: "b", text: "HCl ($-85°$C)" },
               { id: "c", text: "PH$_3$ ($-87°$C)" },
-              { id: "d", text: "HCl ($-85°$C)" },
+              { id: "d", text: "H$_2$O ($100°$C)" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1508,12 +1508,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "CH$_4$" },
-              { id: "b", text: "CO$_2$" },
-              { id: "c", text: "HCl" },
-              { id: "d", text: "H$_2$O" },
+              { id: "a", text: "CO$_2$" },
+              { id: "b", text: "CH$_4$" },
+              { id: "c", text: "H$_2$O" },
+              { id: "d", text: "HCl" },
             ],
-            correctChoiceId: "d",
+            correctChoiceIc: "d",
           },
           markscheme: {
             principles: [
@@ -1553,18 +1553,18 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "Only water can be a solvent" },
+              { id: "b", text: "Larger molecules always dissolve better" },
               {
-                id: "a",
+                id: "c",
                 text: "Polar solvents dissolve polar and ionic solutes; non-polar solvents dissolve non-polar solutes",
               },
               {
-                id: "b",
+                id: "d",
                 text: "Any solvent dissolves any solute if stirred enough",
               },
-              { id: "c", text: "Only water can be a solvent" },
-              { id: "d", text: "Larger molecules always dissolve better" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1824,12 +1824,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "H$_2$O and CH$_3$OH" },
-              { id: "b", text: "CO$_2$ and HCl" },
-              { id: "c", text: "CH$_4$ and C$_2$H$_6$" },
-              { id: "d", text: "BF$_3$ and NH$_3$" },
+              { id: "a", text: "CO$_2$ and HCl" },
+              { id: "b", text: "BF$_3$ and NH$_3$" },
+              { id: "c", text: "H$_2$O and CH$_3$OH" },
+              { id: "d", text: "CH$_4$ and C$_2$H$_6$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

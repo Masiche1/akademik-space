@@ -51,8 +51,8 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Climax" },
-              { id: "b", text: "Resolution" },
+              { id: "a", text: "Resolution" },
+              { id: "b", text: "Climax" },
               { id: "c", text: "Exposition" },
               { id: "d", text: "Rising action" },
             ],
@@ -148,6 +148,289 @@ export const lesson42: Lesson = {
             commonErrors: ["In (b) listing unrelated events rather than escalating complications."],
           },
         },
+        {
+          id: "cile-u4-plot-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Which stage of the narrative arc is the turning point of highest tension?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Rising action" },
+              { id: "b", text: "Resolution" },
+              { id: "c", text: "Climax" },
+              { id: "d", text: "Exposition" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              { kind: "definition", name: "Climax", statement: "The moment the central conflict peaks — maximum tension." },
+            ],
+            steps: [
+              { reasoning: "The climax is the turning point where tension is highest.", working: "\\text{peak tension}", marks: 1, markCode: "AO1" },
+            ],
+            finalAnswer: "**(c)** Climax",
+            commonErrors: ["Choosing (b) — rising action builds toward the climax but is not the peak itself."],
+          },
+        },
+        {
+          id: "cile-u4-plot-q6",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "Why should the resolution of a narrative usually slow the pace down?",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "technique", name: "Pacing", statement: "Sentence and paragraph length controls the reader's breathing rhythm." },
+            ],
+            steps: [
+              { reasoning: "After the climax's rush, slowing lets the reader absorb the outcome.", working: "\\text{absorb}", marks: 1, markCode: "AO2" },
+              { reasoning: "Reflection needs space — long sentences and description suit the aftermath.", marks: 1, markCode: "AO3" },
+            ],
+            finalAnswer: "Slowing the pace after the climax lets the reader absorb the outcome and reflect — long sentences and description suit the aftermath, just as short sentences suited the peak.",
+            commonErrors: ["Saying 'the story is ending' — the reason is emotional processing, not chronology."],
+          },
+        },
+        {
+          id: "cile-u4-plot-q7",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "Describe two ways a writer can build tension during the rising action of a story.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "technique", name: "Rising action", statement: "Complications must escalate logically toward the climax." },
+            ],
+            steps: [
+              { reasoning: "Way 1: introduce escalating complications — each event raises the stakes further.", working: "\\text{escalation}", marks: 1, markCode: "AO2" },
+              { reasoning: "Way 2: control pacing — shorten sentences and paragraphs as tension grows.", working: "\\text{pacing}", marks: 1, markCode: "AO2" },
+              { reasoning: "Both must build toward the climax rather than repeating the same level of tension.", marks: 1, markCode: "AO3" },
+            ],
+            finalAnswer: "Escalating complications (each event raises the stakes) and accelerating pacing (shorter sentences and paragraphs) build tension — both must climb toward the climax.",
+            commonErrors: ["Listing events that do not increase in stakes — tension must rise, not plateau."],
+          },
+        },
+        {
+          id: "cile-u4-plot-q8",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "In the arc 'exposition → rising action → climax → resolution', what does 'rising action' refer to?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "The opening description of the setting" },
+              { id: "b", text: "The moment the protagonist first appears" },
+              { id: "c", text: "The final scene where everything is resolved" },
+              { id: "d", text: "The events that build tension toward the climax" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              { kind: "definition", name: "Rising action", statement: "The series of events that escalate tension toward the climax." },
+            ],
+            steps: [
+              { reasoning: "Rising action is the build-up — complications that raise tension.", working: "\\text{build-up}", marks: 1, markCode: "AO1" },
+            ],
+            finalAnswer: "**(b)** The events that build tension toward the climax",
+            commonErrors: ["Choosing (a) — exposition is the opening setup, not the build-up."],
+          },
+        },
+        {
+          id: "cile-u4-plot-q9",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "A student's climax feels flat because it is written in long, descriptive sentences. Explain how pacing could fix this and rewrite one moment of the climax with appropriate sentence length.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "technique", name: "Pacing at climax", statement: "The climax should be the fastest point — short sentences create urgency." },
+            ],
+            steps: [
+              { reasoning: "Problem: long descriptive sentences slow the climax — tension drains away.", working: "\\text{drained}", marks: 1, markCode: "AO2" },
+              { reasoning: "Fix: shorten sentences and paragraphs — fragments and action verbs speed the moment.", working: "\\text{short/fast}", marks: 1, markCode: "AO2" },
+              { reasoning: "Rewrite shows the technique applied — e.g. 'She ran. The door was open. No — closed. Locked.'", marks: 1, markCode: "AO2" },
+              { reasoning: "Result: the reader feels the rush of the peak moment.", marks: 1, markCode: "AO3" },
+            ],
+            finalAnswer: "e.g. 'She ran. The corridor stretched ahead, lights strobing. Footsteps behind — closer. She reached the door. Locked.' — short sentences and fragments create urgency at the climax.",
+            commonErrors: ["Explaining pacing without demonstrating it in a rewrite."],
+          },
+        },
+        {
+          id: "cile-u4-plot-q10",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "Explain the difference between the climax and the resolution of a story.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "definition", name: "Climax vs resolution", statement: "Climax = peak tension and turning point; resolution = aftermath." },
+            ],
+            steps: [
+              { reasoning: "Climax: the moment of maximum tension where the conflict peaks and turns.", working: "\\text{peak}", marks: 1, markCode: "AO2" },
+              { reasoning: "Resolution: what happens after — how the conflict is settled or left open.", marks: 1, markCode: "AO3" },
+            ],
+            finalAnswer: "The climax is the turning point of maximum tension; the resolution is the aftermath showing how the conflict is settled — peak versus consequence.",
+            commonErrors: ["Treating the climax and resolution as the same thing — they are distinct stages."],
+          },
+        },
+        {
+          id: "cile-u4-plot-q11",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Which sentence is most likely to be the climax of a story about a school play?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Afterwards, everyone agreed it had been wonderful." },
+              { id: "b", text: "The audience settled into their seats." },
+              { id: "c", text: "She had always loved performing." },
+              { id: "d", text: "The curtains opened and her voice cracked on the first line." },
+            ],
+            dorrectChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              { kind: "definition", name: "Climax", statement: "Maximum tension — the moment everything changes." },
+            ],
+            steps: [
+              { reasoning: "Stepping on stage is the point of no return — peak tension.", working: "\\text{point of no return}", marks: 1, markCode: "AO1" },
+            ],
+            finalAnswer: "**(c)** The curtains opened and her voice cracked on the first line.",
+            commonErrors: ["Choosing (d) — that is the resolution, not the climax."],
+          },
+        },
+        {
+          id: "cile-u4-plot-q12",
+          difficulty: "challenge",
+          totalMarks: 3,
+          stem: "Plan the rising action for a story about a student who loses their dog. List three escalating complications in order.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "technique", name: "Escalation", statement: "Each complication must raise the stakes higher than the last." },
+            ],
+            steps: [
+              { reasoning: "First complication: the dog goes missing — immediate problem.", working: "\\text{loss}", marks: 1, markCode: "AO2" },
+              { reasoning: "Second complication: searching fails / a deadline or danger approaches.", working: "\\text{failure/danger}", marks: 1, markCode: "AO2" },
+              { reasoning: "Third complication: stakes peak — evidence suggests the dog may not be found.", marks: 1, markCode: "AO3" },
+            ],
+            finalAnswer: "e.g. 1. The dog slips its lead and vanishes. 2. Hours of searching fail as night falls and rain begins. 3. A neighbour reports seeing the dog near the busy road — time is running out.",
+            commonErrors: ["Events that repeat the same stakes instead of escalating."],
+          },
+        },
+        {
+          id: "cile-u4-plot-q13",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Which ending type deliberately leaves the central question of the story unanswered?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Resonant" },
+              { id: "b", text: "Resolved" },
+              { id: "c", text: "Open" },
+              { id: "d", text: "Circular" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              { kind: "definition", name: "Open ending", statement: "Deliberately unresolved — invites the reader to imagine what happens next." },
+            ],
+            steps: [
+              { reasoning: "An open ending leaves the question dangling on purpose.", working: "\\text{deliberate}", marks: 1, markCode: "AO1" },
+            ],
+            finalAnswer: "**(c)** Open",
+            commonErrors: ["Confusing 'open' with 'unfinished' — open is a deliberate choice."],
+          },
+        },
+        {
+          id: "cile-u4-plot-q14",
+          difficulty: "challenge",
+          totalMarks: 9,
+          stem: "You are planning a narrative about a student who discovers a hidden talent.",
+          parts: [
+            { label: "a", prompt: "Describe the exposition — who, where, what is the status quo?", marks: 2 },
+            { label: "b", prompt: "List two rising-action events that build tension.", marks: 2 },
+            { label: "c", prompt: "Identify the climax and explain why it is the peak.", marks: 2 },
+            { label: "d", prompt: "Describe the resolution and suggest one piece of foreshadowing planted earlier.", marks: 3 },
+          ],
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "definition", name: "Narrative arc", statement: "Each stage must fulfil its function — setup, escalation, peak, aftermath." },
+            ],
+            steps: [
+              { part: "a", reasoning: "Exposition establishes character, setting, pre-discovery state.", working: "\\text{setup}", marks: 1, markCode: "AO2" },
+              { part: "a", reasoning: "Clear and specific.", marks: 1, markCode: "AO3" },
+              { part: "b", reasoning: "Two escalating complications.", working: "\\text{complications}", marks: 1, markCode: "AO2" },
+              { part: "b", reasoning: "Each raises tension logically.", marks: 1, markCode: "AO3" },
+              { part: "c", reasoning: "Climax identified — moment of maximum tension.", working: "\\text{peak}", marks: 1, markCode: "AO2" },
+              { part: "c", reasoning: "Why it is the peak explained.", marks: 1, markCode: "AO3" },
+              { part: "d", reasoning: "Resolution described — aftermath and emotional outcome.", working: "\\text{aftermath}", marks: 1, markCode: "AO2" },
+              { part: "d", reasoning: "Foreshadowing planted earlier in the story.", working: "\\text{foreshadow}", marks: 1, markCode: "AO2" },
+              { part: "d", reasoning: "Foreshadowing links convincingly to the climax.", marks: 1, markCode: "AO3" },
+            ],
+            finalAnswer: "(a) exposition setup (b) two escalating events (c) climax at peak tension (d) resolution + foreshadowing linking to climax",
+            levels: [
+              { level: "Level 2", marks: "1-2", descriptor: "Clear exposition.", part: "a" },
+              { level: "Level 1", marks: "0", descriptor: "Vague.", part: "a" },
+              { level: "Level 2", marks: "1-2", descriptor: "Two logical escalating events.", part: "b" },
+              { level: "Level 1", marks: "0", descriptor: "Missing.", part: "b" },
+              { level: "Level 2", marks: "1-2", descriptor: "Climax identified and justified.", part: "c" },
+              { level: "Level 1", marks: "0", descriptor: "Vague.", part: "c" },
+              { level: "Level 3", marks: "2-3", descriptor: "Resolution plus convincing foreshadowing.", part: "d" },
+              { level: "Level 2", marks: "1", descriptor: "Partial.", part: "d" },
+            ],
+            commonErrors: ["In (d) suggesting foreshadowing that does not connect to the climax."],
+          },
+        },
+        {
+          id: "cile-u4-plot-q15",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "Give two reasons why pacing should vary across a narrative rather than staying constant.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "technique", name: "Pacing variety", statement: "Variation controls tension and gives the reader moments to breathe and reflect." },
+            ],
+            steps: [
+              { reasoning: "Reason 1: fast pacing at the climax creates urgency; slow build-up creates dread.", working: "\\text{contrast}", marks: 1, markCode: "AO2" },
+              { reasoning: "Reason 2: slow sections allow reflection and description — constant speed flattens emotion.", marks: 1, markCode: "AO3" },
+            ],
+            finalAnswer: "Varying pace creates contrast — fast sections build urgency at the climax while slow sections allow dread to accumulate and give the reader space to reflect.",
+            commonErrors: ["Saying 'it keeps things interesting' without explaining the tension mechanism."],
+          },
+        },
+        {
+          id: "cile-u4-plot-q16",
+          difficulty: "challenge",
+          totalMarks: 1,
+          stem: "Which detail would most effectively foreshadow a storm that becomes the story's climax?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "The characters eat lunch together." },
+              { id: "b", text: "The main character has red hair." },
+              { id: "c", text: "The story takes place in a town." },
+              { id: "d", text: "Dark clouds gather on the horizon while the radio warns of a storm front." },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              { kind: "technique", name: "Foreshadowing", statement: "Early clues make later events feel inevitable in hindsight." },
+            ],
+            steps: [
+              { reasoning: "Dark clouds and a storm warning plant the idea of the storm before it arrives.", working: "\\text{early clue}", marks: 1, markCode: "AO1" },
+            ],
+            finalAnswer: "**(b)** Dark clouds gather on the horizon while the radio warns of a storm front.",
+            commonErrors: ["Choosing details unrelated to the coming event — foreshadowing must point forward."],
+          },
+        },
       ],
     },
     {
@@ -182,9 +465,9 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "'I am angry with you.'" },
+              { id: "a", text: "'The meeting is at three o'clock.'" },
               { id: "b", text: "'Fine. Do whatever you want.'" },
-              { id: "c", text: "'The meeting is at three o'clock.'" },
+              { id: "c", text: "'I am angry with you.'" },
               { id: "d", text: "'I like your new haircut.'" },
             ],
             correctChoiceId: "b",
@@ -277,6 +560,289 @@ export const lesson42: Lesson = {
               { level: "Level 1", marks: "0", descriptor: "Vague.", part: "d" },
             ],
             commonErrors: ["Writing direct statements of feeling instead of subtext."],
+          },
+        },
+        {
+          id: "cile-u4-dial-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Which line of dialogue best shows that a character is lying?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "'Why do you always doubt me?'" },
+              { id: "b", text: "'Honestly? I have no idea where I was.'" },
+              { id: "c", text: "'I told you already — ask someone else.'" },
+              { id: "d", text: "'I was at the library all afternoon.'" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              { kind: "technique", name: "Subtext", statement: "Evading the question rather than answering it signals deception." },
+            ],
+            steps: [
+              { reasoning: "(b) refuses to answer directly — the evasion suggests guilt.", working: "\\text{evasion}", marks: 1, markCode: "AO1" },
+            ],
+            finalAnswer: "**(b)** 'Honestly? I have no idea where I was.'",
+            commonErrors: ["Choosing (a) — a direct answer is not evidence of lying."],
+          },
+        },
+        {
+          id: "cile-u4-dial-q6",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "State two ways dialogue can advance the plot.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "technique", name: "Dialogue and plot", statement: "Speech can reveal information, force decisions or escalate conflict." },
+            ],
+            steps: [
+              { reasoning: "Way 1: revealing information — a character discloses a secret or fact that changes events.", working: "\\text{revelation}", marks: 1, markCode: "AO2" },
+              { reasoning: "Way 2: forcing decisions or conflict — an ultimatum or argument pushes the story forward.", marks: 1, markCode: "AO3" },
+            ],
+            finalAnswer: "Dialogue advances plot by revealing information (secrets, facts that change events) and by forcing decisions or escalating conflict (ultimatums, arguments).",
+            commonErrors: ["Saying 'characters talk' — advancement means the speech changes what happens next."],
+          },
+        },
+        {
+          id: "cile-u4-dial-q7",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "Explain why giving each character a distinct 'voice' matters in dialogue.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "technique", name: "Idiolect", statement: "Each character should have their own vocabulary, rhythm and mannerisms." },
+            ],
+            steps: [
+              { reasoning: "Without distinct voices, speakers become interchangeable — the reader cannot tell them apart.", working: "\\text{indistinguishable}", marks: 1, markCode: "AO2" },
+              { reasoning: "Distinct vocabulary and rhythm reveal personality and background.", working: "\\text{personality}", marks: 1, markCode: "AO2" },
+              { reasoning: "Effect: dialogue becomes characterisation as well as action.", marks: 1, markCode: "AO3" },
+            ],
+            finalAnswer: "Distinct voices let readers identify speakers without tags, reveal personality through word choice and rhythm, and turn dialogue into characterisation as well as plot.",
+            commonErrors: ["Saying 'it sounds realistic' without explaining how voice reveals character."],
+          },
+        },
+        {
+          id: "cile-u4-dial-q8",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Which line of dialogue uses an interruption to show tension?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "'I was going to say—' '—never mind. Forget it.'" },
+              { id: "b", text: "'The meeting starts at three o'clock.'" },
+              { id: "c", text: "'We should probably leave soon.'" },
+              { id: "d", text: "'She always arrives early.'" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              { kind: "technique", name: "Interruptions", statement: "Cutting off speech mimics real conversation and signals emotion." },
+            ],
+            steps: [
+              { reasoning: "The cut-off 'never mind' shows someone silencing or overruling the other — tension.", working: "\\text{cut-off}", marks: 1, markCode: "AO1" },
+            ],
+            finalAnswer: "**(a)** 'I was going to say—' '—never mind. Forget it.'",
+            commonErrors: ["Choosing a polite exchange — interruption specifically signals conflict."],
+          },
+        },
+        {
+          id: "cile-u4-dial-q9",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "Rewrite this stilted dialogue to sound authentic while keeping the meaning: 'I am very angry that you forgot my birthday.'",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "technique", name: "Natural dialogue", statement: "Real speech is indirect, emotional and imperfect — not a stated feeling." },
+            ],
+            steps: [
+              { reasoning: "Problem: stating 'I am very angry' directly is artificial.", working: "\\text{stated feeling}", marks: 1, markCode: "AO2" },
+              { reasoning: "Fix: show through subtext and deflection — 'You forgot.' or sarcasm.", working: "\\text{subtext}", marks: 1, markCode: "AO2" },
+              { reasoning: "Make it sound spoken — shorter, less formal, with natural rhythm.", marks: 1, markCode: "AO2" },
+              { reasoning: "Result: same meaning, authentic voice.", marks: 1, markCode: "AO3" },
+            ],
+            finalAnswer: "e.g. 'You forgot.' / 'I know.' — the minimal exchange conveys hurt and anger through what is unsaid; or 'Oh, did I? Funny — I could have sworn today was— whatever.' — sarcasm and deflection reveal the feeling naturally.",
+            commonErrors: ["Keeping 'I am angry' and adding 'um' — authenticity requires restructuring, not fillers."],
+          },
+        },
+        {
+          id: "cile-u4-dial-q10",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "What is 'subtext' in dialogue and why is it powerful?",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "technique", name: "Subtext", statement: "Characters say one thing but mean another." },
+            ],
+            steps: [
+              { reasoning: "Subtext: the gap between what is said and what is meant — 'I'm fine' meaning 'I'm not'.", working: "\\text{gap}", marks: 1, markCode: "AO2" },
+              { reasoning: "Power: it lets readers infer emotion — engagement makes the feeling more convincing.", marks: 1, markCode: "AO3" },
+            ],
+            finalAnswer: "Subtext is the gap between what characters say and what they mean — it lets readers infer emotion rather than being told, making dialogue feel real and layered.",
+            commonErrors: ["Defining subtext as 'hidden meaning' without the said-vs-meant contrast."],
+          },
+        },
+        {
+          id: "cile-u4-dial-q11",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Which is an example of characters avoiding exposition unnaturally?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "'You still haven't told me why you lied.'" },
+              { id: "b", text: "'I can't believe you told her.'" },
+              { id: "c", text: "'As you know, we have been friends since we were five.'" },
+              { id: "d", text: "'That was the last time I ever trusted you.'" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              { kind: "technique", name: "Avoiding exposition", statement: "Characters do not explain shared history to each other." },
+            ],
+            steps: [
+              { reasoning: "'As you know' flags information both characters already share — unnatural.", working: "\\text{'as you know'}", marks: 1, markCode: "AO1" },
+            ],
+            finalAnswer: "**(b)** 'As you know, we have been friends since we were five.'",
+            commonErrors: ["Choosing lines that reveal conflict — conflict is natural; shared-history explanation is not."],
+          },
+        },
+        {
+          id: "cile-u4-dial-q12",
+          difficulty: "challenge",
+          totalMarks: 3,
+          stem: "Two characters meet for the first time in your story. Write two lines of dialogue that establish their distinct voices — one formal, one informal — without naming them.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "technique", name: "Idiolect", statement: "Word choice, sentence length and register distinguish speakers." },
+            ],
+            steps: [
+              { reasoning: "Formal voice: longer sentences, precise vocabulary, polite phrasing.", working: "\\text{formal}", marks: 1, markCode: "AO2" },
+              { reasoning: "Informal voice: contractions, slang or fragments, casual rhythm.", working: "\\text{informal}", marks: 1, markCode: "AO2" },
+              { reasoning: "Both lines sound spoken and distinct — not interchangeable.", marks: 1, markCode: "AO3" },
+            ],
+            finalAnswer: "e.g. Formal: 'Good afternoon. I understand you wished to discuss the matter regarding the hall booking.' Informal: 'Yeah, hi — so, about the hall thing, you free now?'",
+            commonErrors: ["Both characters using the same register — voices must contrast."],
+          },
+        },
+        {
+          id: "cile-u4-dial-q13",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Which dialogue exchange best controls pace by speeding the scene up?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Long speeches with detailed descriptions" },
+              { id: "b", text: "A character monologue lasting a page" },
+              { id: "c", text: "Quick one-word exchanges: 'Run.' 'Now?' 'Now!'" },
+              { id: "d", text: "Narration describing the weather for a paragraph" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              { kind: "technique", name: "Pace in dialogue", statement: "Short rapid exchanges accelerate; long speeches decelerate." },
+            ],
+            steps: [
+              { reasoning: "Fragmented rapid-fire lines create urgency and speed.", working: "\\text{rapid}", marks: 1, markCode: "AO1" },
+            ],
+            finalAnswer: "**(b)** Quick one-word exchanges: 'Run.' 'Now?' 'Now!'",
+            commonErrors: ["Choosing (a) — long speeches slow the pace down."],
+          },
+        },
+        {
+          id: "cile-u4-dial-q14",
+          difficulty: "challenge",
+          totalMarks: 9,
+          stem: "You are writing a dialogue scene in which two siblings argue about a secret one of them kept.",
+          parts: [
+            { label: "a", prompt: "Write four lines of dialogue with subtext showing the tension.", marks: 3 },
+            { label: "b", prompt: "Explain how each line reveals character or relationship.", marks: 2 },
+            { label: "c", prompt: "Identify one way the dialogue advances the plot.", marks: 2 },
+            { label: "d", prompt: "Suggest one way the scene's pacing could be adjusted for impact.", marks: 2 },
+          ],
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "technique", name: "Dialogue craft", statement: "Subtext, distinct voices, plot advancement and pacing control." },
+            ],
+            steps: [
+              { part: "a", reasoning: "Four lines with subtext — said vs meant.", working: "\\text{subtext}", marks: 1, markCode: "AO2" },
+              { part: "a", reasoning: "Distinct voices and rhythm between siblings.", working: "\\text{voices}", marks: 1, markCode: "AO2" },
+              { part: "a", reasoning: "Tension palpable without being stated.", marks: 1, markCode: "AO3" },
+              { part: "b", reasoning: "Each line's character/relationship revelation explained.", working: "\\text{revelation}", marks: 1, markCode: "AO2" },
+              { part: "b", reasoning: "Explanations specific and accurate.", marks: 1, markCode: "AO3" },
+              { part: "c", reasoning: "Plot advancement identified — revelation or escalation.", working: "\\text{advancement}", marks: 1, markCode: "AO2" },
+              { part: "c", reasoning: "Clear link to story progression.", marks: 1, markCode: "AO3" },
+              { part: "d", reasoning: "Pacing suggestion made (shorter/longer lines, pauses, interruptions).", working: "\\text{pacing}", marks: 1, markCode: "AO2" },
+              { part: "d", reasoning: "Suggestion justified by desired effect.", marks: 1, markCode: "AO3" },
+            ],
+            finalAnswer: "(a) four subtextual lines (b) explanations (c) plot advancement identified (d) pacing adjustment justified",
+            levels: [
+              { level: "Level 3", marks: "2-3", descriptor: "Subtextual, distinct dialogue.", part: "a" },
+              { level: "Level 2", marks: "1", descriptor: "Some subtext.", part: "a" },
+              { level: "Level 2", marks: "1-2", descriptor: "Accurate explanations.", part: "b" },
+              { level: "Level 1", marks: "0", descriptor: "Vague.", part: "b" },
+              { level: "Level 2", marks: "1-2", descriptor: "Plot advancement identified.", part: "c" },
+              { level: "Level 1", marks: "0", descriptor: "Vague.", part: "c" },
+              { level: "Level 2", marks: "1-2", descriptor: "Pacing suggestion justified.", part: "d" },
+              { level: "Level 1", marks: "0", descriptor: "Vague.", part: "d" },
+            ],
+            commonErrors: ["Writing direct statements of feeling instead of subtext."],
+          },
+        },
+        {
+          id: "cile-u4-dial-q15",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "Give two reasons why dialogue should not be used to explain the plot to the reader.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "technique", name: "Avoiding exposition", statement: "Characters do not tell each other what both already know." },
+            ],
+            steps: [
+              { reasoning: "Reason 1: it sounds artificial — real people do not recite shared facts.", working: "\\text{artificial}", marks: 1, markCode: "AO2" },
+              { reasoning: "Reason 2: it wastes dialogue's power — speech should reveal character and advance action.", marks: 1, markCode: "AO3" },
+            ],
+            finalAnswer: "Expository dialogue sounds artificial because real people do not recite shared facts, and it wastes dialogue's function — speech should reveal character and advance action instead.",
+            commonErrors: ["Saying 'it is boring' — the reasons are artificiality and lost function."],
+          },
+        },
+        {
+          id: "cile-u4-dial-q16",
+          difficulty: "challenge",
+          totalMarks: 1,
+          stem: "Which rewrite best replaces direct emotion with authentic subtext?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "'You'll send me a postcard, won't you? From wherever you go.'" },
+              { id: "b", text: "'I feel very emotional about this.'" },
+              { id: "c", text: "'This makes me extremely unhappy.'" },
+              { id: "d", text: "'I am so sad that you are leaving.'" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              { kind: "technique", name: "Subtext", statement: "Asking for a postcard implies the sadness without naming it." },
+            ],
+            steps: [
+              { reasoning: "(b) implies grief through a small request — the reader infers the feeling.", working: "\\text{implied}", marks: 1, markCode: "AO1" },
+            ],
+            finalAnswer: "**(b)** 'You'll send me a postcard, won't you? From wherever you go.'",
+            commonErrors: ["Choosing a line that names the emotion — subtext requires implication."],
           },
         },
       ],

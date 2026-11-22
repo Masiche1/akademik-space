@@ -57,12 +57,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Newton" },
-              { id: "b", text: "Watt" },
-              { id: "c", text: "Joule" },
-              { id: "d", text: "Pascal" },
+              { id: "a", text: "Joule" },
+              { id: "b", text: "Pascal" },
+              { id: "c", text: "Newton" },
+              { id: "d", text: "Watt" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Energy", statement: "Energy measured in joules (J)." }],
@@ -82,10 +82,10 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "3 J" },
+              { id: "a", text: "18 J" },
               { id: "b", text: "6 J" },
               { id: "c", text: "9 J" },
-              { id: "d", text: "18 J" },
+              { id: "d", text: "3 J" },
             ],
             correctChoiceId: "c",
           },
@@ -108,12 +108,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "3.3%" },
-              { id: "b", text: "30%" },
+              { id: "a", text: "30%" },
+              { id: "b", text: "33%" },
               { id: "c", text: "240%" },
-              { id: "d", text: "33%" },
+              { id: "d", text: "3.3%" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Efficiency", statement: "$\\eta = \\text{useful}/\\text{input} \\times 100$" }],
@@ -167,12 +167,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Kinetic" },
+              { id: "a", text: "Elastic potential" },
               { id: "b", text: "Gravitational potential" },
-              { id: "c", text: "Elastic potential" },
-              { id: "d", text: "Nuclear" },
+              { id: "c", text: "Nuclear" },
+              { id: "d", text: "Kinetic" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Elastic store", statement: "Deformed elastic objects store elastic potential energy." }],
@@ -238,8 +238,8 @@ export const lesson21: Lesson = {
             choices: [
               { id: "a", text: "Kinetic → gravitational potential" },
               { id: "b", text: "Gravitational potential → kinetic" },
-              { id: "c", text: "Chemical → thermal" },
-              { id: "d", text: "Elastic → kinetic" },
+              { id: "c", text: "Elastic → kinetic" },
+              { id: "d", text: "Chemical → thermal" },
             ],
             correctChoiceId: "b",
           },
@@ -262,12 +262,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Chemical → electrical → light + thermal" },
-              { id: "b", text: "Electrical → chemical → light" },
-              { id: "c", text: "Light → electrical → chemical" },
+              { id: "a", text: "Electrical → chemical → light" },
+              { id: "b", text: "Light → electrical → chemical" },
+              { id: "c", text: "Chemical → electrical → light + thermal" },
               { id: "d", text: "Thermal → chemical → light" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Energy transfer chain", statement: "Battery chemical energy → electrical → light and heat." }],
@@ -289,11 +289,11 @@ export const lesson21: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "14.7 J" },
-              { id: "b", text: "98 J" },
-              { id: "c", text: "147 J" },
-              { id: "d", text: "294 J" },
+              { id: "b", text: "147 J" },
+              { id: "c", text: "294 J" },
+              { id: "d", text: "98 J" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -341,12 +341,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Kinetic energy" },
-              { id: "b", text: "Thermal energy" },
-              { id: "c", text: "Force" },
-              { id: "d", text: "Chemical energy" },
+              { id: "a", text: "Thermal energy" },
+              { id: "b", text: "Force" },
+              { id: "c", text: "Chemical energy" },
+              { id: "d", text: "Kinetic energy" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Energy store", statement: "Stores hold energy: kinetic, GPE, elastic, chemical, thermal, nuclear." }],
@@ -437,12 +437,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "2 : 1" },
-              { id: "b", text: "4 : 1" },
-              { id: "c", text: "8 : 1" },
-              { id: "d", text: "1 : 1" },
+              { id: "a", text: "8 : 1" },
+              { id: "b", text: "1 : 1" },
+              { id: "c", text: "4 : 1" },
+              { id: "d", text: "2 : 1" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Ek = ½mv²", statement: "KE depends on $v^2$ — doubling speed quadruples KE." }],
@@ -496,12 +496,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "50%" },
+              { id: "a", text: "100%" },
               { id: "b", text: "90%" },
-              { id: "c", text: "100%" },
-              { id: "d", text: "No limit" },
+              { id: "c", text: "No limit" },
+              { id: "d", text: "50%" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Efficiency", statement: "100% is ideal but never achieved in practice." }],
@@ -521,12 +521,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "20%" },
-              { id: "b", text: "80%" },
-              { id: "c", text: "125%" },
+              { id: "a", text: "125%" },
+              { id: "b", text: "20%" },
+              { id: "c", text: "80%" },
               { id: "d", text: "160%" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Efficiency", statement: "$\\eta = 1600/2000 \\times 100$" }],
@@ -547,12 +547,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "36 kJ" },
+              { id: "a", text: "360 kJ" },
               { id: "b", text: "600 J" },
               { id: "c", text: "6 kJ" },
-              { id: "d", text: "360 kJ" },
+              { id: "d", text: "36 kJ" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "E = Pt", statement: "$E = 60 \\times 600$" }],
@@ -606,12 +606,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "total input ÷ useful output" },
-              { id: "b", text: "useful output ÷ total input × 100%" },
-              { id: "c", text: "wasted energy ÷ total input" },
+              { id: "a", text: "useful output ÷ total input × 100%" },
+              { id: "b", text: "wasted energy ÷ total input" },
+              { id: "c", text: "total input ÷ useful output" },
               { id: "d", text: "useful output × total input" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Efficiency", statement: "$\\eta = \\frac{\\text{useful output}}{\\text{total input}} \\times 100\\%$." }],
@@ -675,12 +675,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "200 J" },
-              { id: "b", text: "600 J" },
-              { id: "c", text: "750 J" },
-              { id: "d", text: "25 J" },
+              { id: "a", text: "600 J" },
+              { id: "b", text: "25 J" },
+              { id: "c", text: "200 J" },
+              { id: "d", text: "750 J" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Energy balance", statement: "$E_{in} = E_{useful} + E_{wasted}$." }],
@@ -749,9 +749,9 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Energy is destroyed inside the device" },
+              { id: "a", text: "Input energy is always too small" },
               { id: "b", text: "Some energy is always dissipated as thermal energy (and sound) to the surroundings" },
-              { id: "c", text: "Input energy is always too small" },
+              { id: "c", text: "Energy is destroyed inside the device" },
               { id: "d", text: "Friction creates new energy" },
             ],
             correctChoiceId: "b",
@@ -777,9 +777,9 @@ export const lesson21: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "light" },
-              { id: "b", text: "chemical energy" },
+              { id: "b", text: "nuclear energy" },
               { id: "c", text: "thermal energy" },
-              { id: "d", text: "nuclear energy" },
+              { id: "d", text: "chemical energy" },
             ],
             correctChoiceId: "c",
           },

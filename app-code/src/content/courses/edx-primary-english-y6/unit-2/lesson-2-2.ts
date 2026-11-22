@@ -52,12 +52,12 @@ export const lesson112: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The title" },
-              { id: "b", text: "Underlying meaning beneath surface" },
+              { id: "a", text: "Underlying meaning beneath surface" },
+              { id: "b", text: "The setting" },
               { id: "c", text: "The plot" },
-              { id: "d", text: "The setting" },
+              { id: "d", text: "The title" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -87,11 +87,11 @@ export const lesson112: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "He's honest" },
-              { id: "b", text: "He cares deeply" },
-              { id: "c", text: "He's bored" },
-              { id: "d", text: "He's angry" },
+              { id: "b", text: "He's angry" },
+              { id: "c", text: "He cares deeply" },
+              { id: "d", text: "He's bored" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -229,12 +229,12 @@ export const lesson112: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Audience knows what characters don't" },
-              { id: "b", text: "Characters lie" },
-              { id: "c", text: "A sad scene" },
-              { id: "d", text: "A joke" },
+              { id: "a", text: "A joke" },
+              { id: "b", text: "A sad scene" },
+              { id: "c", text: "Audience knows what characters don't" },
+              { id: "d", text: "Characters lie" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -264,11 +264,11 @@ export const lesson112: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Simile" },
-              { id: "b", text: "Personification" },
+              { id: "b", text: "Alliteration" },
               { id: "c", text: "Hyperbole" },
-              { id: "d", text: "Alliteration" },
+              { id: "d", text: "Personification" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

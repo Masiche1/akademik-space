@@ -53,12 +53,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Start writing immediately" },
-              { id: "b", text: "Plan what will happen" },
-              { id: "c", text: "Read a different story" },
-              { id: "d", text: "Draw pictures" },
+              { id: "a", text: "Draw pictures" },
+              { id: "b", text: "Read a different story" },
+              { id: "c", text: "Plan what will happen" },
+              { id: "d", text: "Start writing immediately" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -87,10 +87,10 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "End, middle, beginning" },
+              { id: "a", text: "End, beginning, middle" },
               { id: "b", text: "Beginning, middle, end" },
               { id: "c", text: "Middle, end, beginning" },
-              { id: "d", text: "End, beginning, middle" },
+              { id: "d", text: "End, middle, beginning" },
             ],
             correctChoiceId: "b",
           },
@@ -242,12 +242,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Delete it" },
-              { id: "b", text: "Add describing words" },
+              { id: "a", text: "Add describing words" },
+              { id: "b", text: "Delete it" },
               { id: "c", text: "Make it shorter" },
               { id: "d", text: "Leave it" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -276,12 +276,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "I saw a bird." },
-              { id: "b", text: "I saw a bird and a cat." },
-              { id: "c", text: "I saw a small blue bird flying high." },
-              { id: "d", text: "Bird." },
+              { id: "a", text: "I saw a bird and a cat." },
+              { id: "b", text: "I saw a bird." },
+              { id: "c", text: "Bird." },
+              { id: "d", text: "I saw a small blue bird flying high." },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [

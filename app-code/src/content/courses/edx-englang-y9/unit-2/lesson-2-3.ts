@@ -59,9 +59,9 @@ export const lesson23: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Both writers are won over by the view from the deck" },
-              { id: "b", text: "Both writers hate the voyage from start to finish" },
-              { id: "c", text: "Both writers complain about the cost of the ticket" },
-              { id: "d", text: "Both writers are travelling for business" },
+              { id: "b", text: "Both writers are travelling for business" },
+              { id: "c", text: "Both writers hate the voyage from start to finish" },
+              { id: "d", text: "Both writers complain about the cost of the ticket" },
             ],
             correctChoiceId: "a",
           },
@@ -207,12 +207,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A: shared cabin with a porthole; B: ferry with cafes and a gift shop" },
-              { id: "b", text: "A: ferry with Wi-Fi; B: damp and creaking ship" },
+              { id: "a", text: "A: a crew member of eleven years; B: a sailor of two hundred crossings" },
+              { id: "b", text: "A: shared cabin with a porthole; B: ferry with cafes and a gift shop" },
               { id: "c", text: "A: a crossing lasting thirty hours; B: a crossing from Liverpool" },
-              { id: "d", text: "A: a crew member of eleven years; B: a sailor of two hundred crossings" },
+              { id: "d", text: "A: ferry with Wi-Fi; B: damp and creaking ship" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "skill", name: "Selecting accurately", statement: "Match each detail to the correct source." }],

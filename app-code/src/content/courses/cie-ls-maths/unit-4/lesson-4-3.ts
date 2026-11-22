@@ -52,8 +52,8 @@ export const lesson43: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$x > 7$" },
-              { id: "b", text: "$x < 7$" },
-              { id: "c", text: "$x > 17$" },
+              { id: "b", text: "$x > 17$" },
+              { id: "c", text: "$x < 7$" },
               { id: "d", text: "$x < 17$" },
             ],
             correctChoiceId: "a",
@@ -148,6 +148,287 @@ export const lesson43: Lesson = {
             commonErrors: ["In (c) including 6 — strict inequality excludes it."],
           },
         },
+        {
+          id: "cilm-u4-ineq-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Solve $x - 3 < 7$.",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$x < 4$" },
+              { id: "b", text: "$x > 4$" },
+              { id: "c", text: "$x < 10$" },
+              { id: "d", text: "$x > 10$" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              { kind: "convention", name: "Inequality solving", statement: "Add 3 to both sides — direction unchanged." },
+            ],
+            steps: [
+              { reasoning: "$x < 7+3 = 10$.", working: "x<10", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** $x < 10$",
+            commonErrors: ["Choosing (b) — addition never flips the inequality."],
+          },
+        },
+        {
+          id: "cilm-u4-ineq-q6",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Solve $2x > 14$.",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$x > 7$" },
+              { id: "b", text: "$x > 28$" },
+              { id: "c", text: "$x > 12$" },
+              { id: "d", text: "$x < 7$" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              { kind: "convention", name: "Inequality solving", statement: "Divide by positive 2 — direction unchanged." },
+            ],
+            steps: [
+              { reasoning: "$x > 14\\div2 = 7$.", working: "x>7", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** $x > 7$",
+            commonErrors: ["Choosing (b) — dividing by a positive number does not flip."],
+          },
+        },
+        {
+          id: "cilm-u4-ineq-q7",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Solve $-x < 5$.",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$x > 5$" },
+              { id: "b", text: "$x > -5$" },
+              { id: "c", text: "$x < -5$" },
+              { id: "d", text: "$x < 5$" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              { kind: "convention", name: "Sign flip", statement: "Dividing by $-1$ flips: $x > -5$." },
+            ],
+            steps: [
+              { reasoning: "Divide by $-1$ and flip: $x > -5$. Check $x=0$: $0<5$ ✓.", working: "x>-5", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** $x > -5$",
+            commonErrors: ["Choosing (b) — forgot the flip when dividing by negative."],
+          },
+        },
+        {
+          id: "cilm-u4-ineq-q8",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "How is the inequality $x \\ge 3$ represented on a number line?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Open circle at -3, shaded to the right" },
+              { id: "b", text: "Closed circle at 3, shaded to the left" },
+              { id: "c", text: "Open circle at 3, shaded to the right" },
+              { id: "d", text: "Closed circle at 3, shaded to the right" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              { kind: "convention", name: "Number line", statement: "$\\ge$ = included boundary (closed) + greater values (right)." },
+            ],
+            steps: [
+              { reasoning: "Closed circle at 3, arrow right.", working: "\\bullet \\rightarrow", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** Closed circle at 3, shaded right",
+            commonErrors: ["Choosing (b) — open circle means strict inequality ($>$ or $<$)."],
+          },
+        },
+        {
+          id: "cilm-u4-ineq-q9",
+          difficulty: "challenge",
+          totalMarks: 1,
+          stem: "Solve $3x + 2 \\le 14$.",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$x \\le 4$" },
+              { id: "b", text: "$x < 4$" },
+              { id: "c", text: "$x \\ge 4$" },
+              { id: "d", text: "$x \\le 5$" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              { kind: "convention", name: "Inequality solving", statement: "Subtract 2, divide by 3 — $\\le$ stays $\\le$." },
+            ],
+            steps: [
+              { reasoning: "$3x \\le 12$ → $x \\le 4$.", working: "x\\le4", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** $x \\le 4$",
+            commonErrors: ["Choosing (c) — $14-2=12$, $12\\div3=4$ not 5."],
+          },
+        },
+        {
+          id: "cilm-u4-ineq-q10",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Solve $2x - 5 < 9$. Give the boundary value of $x$.",
+          response: { type: "numeric", parts: [{ label: "Boundary", answer: 7 }] },
+          markscheme: {
+            principles: [
+              { kind: "convention", name: "Inequality solving", statement: "$2x<14$ → $x<7$; boundary is 7." },
+            ],
+            steps: [
+              { reasoning: "$2x<14$ → $x<7$; boundary $=7$.", working: "x<7", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$x < 7$ (boundary $7$)",
+            commonErrors: ["$14$ — must divide by 2 after adding 5."],
+          },
+        },
+        {
+          id: "cilm-u4-ineq-q11",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "Find the boundary value for: (a) $4x \\le 20$ (b) $-2x > 8$.",
+          response: { type: "numeric", parts: [{ label: "(a)", answer: 5 }, { label: "(b)", answer: -4 }] },
+          markscheme: {
+            principles: [
+              { kind: "convention", name: "Inequality solving", statement: "Positive division keeps direction; negative division flips." },
+            ],
+            steps: [
+              { reasoning: "(a) $x \\le 5$; boundary $5$.", working: "x\\le5", marks: 1, markCode: "A" },
+              { reasoning: "(b) $x < -4$; boundary $-4$.", working: "x<-4", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "(a) $5$ (b) $-4$",
+            commonErrors: ["In (b) $x>4$ — sign flip required when dividing by $-2$."],
+          },
+        },
+        {
+          id: "cilm-u4-ineq-q12",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Solve $5 - x \\ge 2$.",
+          response: { type: "numeric", parts: [{ label: "Boundary", answer: 3 }] },
+          markscheme: {
+            principles: [
+              { kind: "convention", name: "Inequality solving", statement: "Subtract 5: $-x \\ge -3$; divide by $-1$ (flip): $x \\le 3$." },
+            ],
+            steps: [
+              { reasoning: "$x \\le 3$; boundary $3$.", working: "x\\le3", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$x \\le 3$ (boundary $3$)",
+            commonErrors: ["$x \\ge 3$ — dividing by $-1$ must flip the sign."],
+          },
+        },
+        {
+          id: "cilm-u4-ineq-q13",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "Solve $3x - 4 < 11$ and describe its number-line representation.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Inequality + number line", statement: "$x<5$ → open circle at 5, arrow left." },
+            ],
+            steps: [
+              { reasoning: "$3x<15$ → $x<5$.", working: "x<5", marks: 1, markCode: "M" },
+              { reasoning: "Open circle at $5$ (excluded), shaded left.", working: "\\circ \\leftarrow", marks: 1, markCode: "M" },
+              { reasoning: "Description correct.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$x < 5$; open circle at 5, shaded left",
+            commonErrors: ["Closed circle — strict inequality excludes the boundary."],
+          },
+        },
+        {
+          id: "cilm-u4-ineq-q14",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "Solve $8 - 2x \\ge 2$.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Negative coefficient", statement: "Subtract 8, divide by $-2$ and FLIP: $x \\le 3$." },
+            ],
+            steps: [
+              { reasoning: "$-2x \\ge -6$.", working: "-2x\\ge-6", marks: 1, markCode: "M" },
+              { reasoning: "Divide by $-2$ and flip: $x \\le 3$.", working: "x\\le3", marks: 1, markCode: "M" },
+              { reasoning: "Check $x=0$: $8\\ge2$ ✓ and $0\\le3$.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$x \\le 3$",
+            commonErrors: ["$x \\ge 3$ — forgot to flip when dividing by $-2$."],
+          },
+        },
+        {
+          id: "cilm-u4-ineq-q15",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "Solve $-4x < 12$, represent the solution on a number line, and list all integer values of $x$ that satisfy it.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Inequality in context", statement: "Flip on dividing by $-4$: $x>-3$; open circle, integers $-2$ upward." },
+            ],
+            steps: [
+              { reasoning: "Divide by $-4$ and flip: $x > -3$.", working: "x>-3", marks: 1, markCode: "M" },
+              { reasoning: "Open circle at $-3$, shaded right.", working: "\\circ \\rightarrow", marks: 1, markCode: "M" },
+              { reasoning: "Integer solutions: $-2, -1, 0, 1, 2, \\ldots$ (all integers greater than $-3$).", working: "-2,-1,0,\\ldots", marks: 1, markCode: "M" },
+              { reasoning: "All parts correct.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$x > -3$; open circle at $-3$; integers $-2, -1, 0, \\ldots$",
+            commonErrors: ["Including $-3$ in integer solutions — strict inequality excludes it."],
+          },
+        },
+        {
+          id: "cilm-u4-ineq-q16",
+          difficulty: "challenge",
+          totalMarks: 8,
+          stem: "Solve the inequality $3x + 1 \\le 10$.",
+          parts: [
+            { label: "a", prompt: "Solve the inequality.", marks: 3 },
+            { label: "b", prompt: "Describe the number-line representation.", marks: 2 },
+            { label: "c", prompt: "List all integer solutions.", marks: 1 },
+            { label: "d", prompt: "Explain why you did or did not flip the inequality sign.", marks: 2 },
+          ],
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Inequalities", statement: "Solve like equations; flip only when multiplying/dividing by a negative." },
+            ],
+            steps: [
+              { part: "a", reasoning: "$3x \\le 9$ → $x \\le 3$.", working: "x\\le3", marks: 1, markCode: "M" },
+              { part: "a", reasoning: "Correct steps.", marks: 1, markCode: "M" },
+              { part: "a", reasoning: "Solution correct.", marks: 1, markCode: "A" },
+              { part: "b", reasoning: "Closed circle at $3$ (included), shaded left.", working: "\\bullet \\leftarrow", marks: 1, markCode: "M" },
+              { part: "b", reasoning: "Correct.", marks: 1, markCode: "A" },
+              { part: "c", reasoning: "Integers: $\\ldots, 0, 1, 2, 3$ — all integers $\\le 3$.", working: "\\le3", marks: 1, markCode: "A" },
+              { part: "d", reasoning: "No flip needed — only added/subtracted and divided by positive 3.", working: "\\text{positive division}", marks: 1, markCode: "M" },
+              { part: "d", reasoning: "Rule stated correctly.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "(a) $x \\le 3$ (b) closed circle at 3, shaded left (c) integers $\\le 3$ (d) no flip — positive operations only",
+            levels: [
+              { level: "Level 3", marks: "2-3", descriptor: "Inequality solved.", part: "a" },
+              { level: "Level 2", marks: "1", descriptor: "Partial.", part: "a" },
+              { level: "Level 1", marks: "0", descriptor: "Wrong.", part: "a" },
+              { level: "Level 2", marks: "1-2", descriptor: "Number line correct.", part: "b" },
+              { level: "Level 1", marks: "0", descriptor: "Wrong.", part: "b" },
+              { level: "Level 2", marks: "1", descriptor: "Integers listed.", part: "c" },
+              { level: "Level 1", marks: "0", descriptor: "Wrong.", part: "c" },
+              { level: "Level 2", marks: "1-2", descriptor: "Flip rule explained.", part: "d" },
+              { level: "Level 1", marks: "0", descriptor: "Vague.", part: "d" },
+            ],
+            commonErrors: ["In (b) open circle — $\\le$ includes the boundary."],
+          },
+        },
       ],
     },
     {
@@ -186,12 +467,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$x = \\frac{y-2}{3}$" },
+              { id: "a", text: "$x = \\frac{y}{3} + 2$" },
               { id: "b", text: "$x = \\frac{y+2}{3}$" },
               { id: "c", text: "$x = 3y - 2$" },
-              { id: "d", text: "$x = \\frac{y}{3} + 2$" },
+              { id: "d", text: "$x = \\frac{y-2}{3}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -281,6 +562,286 @@ export const lesson43: Lesson = {
               { level: "Level 1", marks: "0", descriptor: "Vague.", part: "d" },
             ],
             commonErrors: ["In (b) writing $t=\\frac{v-u}{at}$ — dividing by $at$ instead of just $a$ after isolating."],
+          },
+        },
+        {
+          id: "cilm-u4-form-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Make $x$ the subject of $y = 5x - 3$.",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$x = \\frac{y + 3}{5}$" },
+              { id: "b", text: "$x = \\frac{y}{5} - 3$" },
+              { id: "c", text: "$x = \\frac{y - 3}{5}$" },
+              { id: "d", text: "$x = 5y + 3$" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              { kind: "convention", name: "Rearranging", statement: "Add 3, divide by 5: $x=\\frac{y+3}{5}$." },
+            ],
+            steps: [
+              { reasoning: "$y+3=5x$ → $x=\\frac{y+3}{5}$.", working: "x=\\frac{y+3}{5}", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** $x = \\frac{y + 3}{5}$",
+            commonErrors: ["Choosing (b) — the $-3$ must move to the left as $+3$."],
+          },
+        },
+        {
+          id: "cilm-u4-form-q6",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Make $h$ the subject of $A = \\frac{1}{2}bh$.",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$h = \\frac{b}{2A}$" },
+              { id: "b", text: "$h = \\frac{2A}{b}$" },
+              { id: "c", text: "$h = \\frac{A}{2b}$" },
+              { id: "d", text: "$h = 2Ab$" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              { kind: "convention", name: "Rearranging fractions", statement: "Multiply by 2, divide by $b$." },
+            ],
+            steps: [
+              { reasoning: "$2A=bh$ → $h=\\frac{2A}{b}$.", working: "h=\\frac{2A}{b}", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** $h = \\frac{2A}{b}$",
+            commonErrors: ["Choosing (b) — dividing by 2 instead of multiplying by 2."],
+          },
+        },
+        {
+          id: "cilm-u4-form-q7",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Make $r$ the subject of $C = 2\\pi r$.",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$r = \\frac{2\\pi}{C}$" },
+              { id: "b", text: "$r = 2\\pi C$" },
+              { id: "c", text: "$r = \\frac{C}{2\\pi}$" },
+              { id: "d", text: "$r = C - 2\\pi$" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              { kind: "convention", name: "Rearranging", statement: "Divide both sides by $2\\pi$." },
+            ],
+            steps: [
+              { reasoning: "$r=\\frac{C}{2\\pi}$.", working: "r=\\frac{C}{2\\pi}", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** $r = \\frac{C}{2\\pi}$",
+            commonErrors: ["Choosing (b) — dividing by $2\\pi$ means $C$ over $2\\pi$, not multiplied."],
+          },
+        },
+        {
+          id: "cilm-u4-form-q8",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Make $t$ the subject of $v = u + at$.",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$t = \\frac{v + u}{a}$" },
+              { id: "b", text: "$t = \\frac{v - u}{a}$" },
+              { id: "c", text: "$t = \\frac{a}{v - u}$" },
+              { id: "d", text: "$t = v - u - a$" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              { kind: "convention", name: "Rearranging", statement: "Subtract $u$, divide by $a$." },
+            ],
+            steps: [
+              { reasoning: "$v-u=at$ → $t=\\frac{v-u}{a}$.", working: "t=\\frac{v-u}{a}", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** $t = \\frac{v - u}{a}$",
+            commonErrors: ["Choosing (b) — $u$ must be subtracted, not added."],
+          },
+        },
+        {
+          id: "cilm-u4-form-q9",
+          difficulty: "challenge",
+          totalMarks: 1,
+          stem: "Make $a$ the subject of $F = ma$.",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$a = \\frac{m}{F}$" },
+              { id: "b", text: "$a = F - m$" },
+              { id: "c", text: "$a = Fm$" },
+              { id: "d", text: "$a = \\frac{F}{m}$" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              { kind: "convention", name: "Rearranging", statement: "Divide both sides by $m$." },
+            ],
+            steps: [
+              { reasoning: "$a=\\frac{F}{m}$.", working: "a=\\frac{F}{m}", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** $a = \\frac{F}{m}$",
+            commonErrors: ["Choosing (b) — $F=ma$ means $a$ is $F$ divided by $m$."],
+          },
+        },
+        {
+          id: "cilm-u4-form-q10",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Make $x$ the subject of $y = 3x + 2$, then find $x$ when $y = 14$.",
+          response: { type: "numeric", parts: [{ label: "Answer", answer: 4 }] },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Rearranging then substituting", statement: "$x=\\frac{y-2}{3}$; $x=\\frac{14-2}{3}=4$." },
+            ],
+            steps: [
+              { reasoning: "$x=\\frac{14-2}{3}=\\frac{12}{3}=4$.", working: "x=4", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$x = 4$",
+            commonErrors: ["$\\frac{14+2}{3}=\\frac{16}{3}$ — sign error in rearranging."],
+          },
+        },
+        {
+          id: "cilm-u4-form-q11",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "For $v = u + at$: (a) Make $u$ the subject and find $u$ when $v=20, a=2, t=5$. (b) Make $t$ the subject and find $t$ when $v=20, u=10, a=2$.",
+          response: { type: "numeric", parts: [{ label: "(a)", answer: 10 }, { label: "(b)", answer: 5 }] },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Changing subject", statement: "$u=v-at$; $t=\\frac{v-u}{a}$." },
+            ],
+            steps: [
+              { reasoning: "(a) $u=20-2\\times5=10$.", working: "u=10", marks: 1, markCode: "A" },
+              { reasoning: "(b) $t=\\frac{20-10}{2}=5$.", working: "t=5", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "(a) $u=10$ (b) $t=5$",
+            commonErrors: ["In (b) $t=\\frac{20}{2}=10$ — must subtract $u$ first."],
+          },
+        },
+        {
+          id: "cilm-u4-form-q12",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "Make $w$ the subject of $P = 2(l + w)$, then find $w$ when $P = 30$ and $l = 8$.",
+          response: { type: "numeric", parts: [{ label: "Answer", answer: 7 }] },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Rearranging with brackets", statement: "$w=\\frac{P}{2}-l$; $w=15-8=7$." },
+            ],
+            steps: [
+              { reasoning: "$\\frac{P}{2}=l+w$ → $w=\\frac{P}{2}-l=15-8=7$.", working: "w=7", marks: 1, markCode: "M" },
+              { reasoning: "Correct.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$w = 7$",
+            commonErrors: ["$w=30-8=22$ — must halve $P$ before subtracting $l$."],
+          },
+        },
+        {
+          id: "cilm-u4-form-q13",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "Make $h$ the subject of $V = \\frac{1}{3}bh$, where $b$ is the base area and $h$ is the height.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Rearranging fractions", statement: "Multiply by 3, divide by $b$." },
+            ],
+            steps: [
+              { reasoning: "Multiply both sides by 3: $3V=bh$.", working: "3V=bh", marks: 1, markCode: "M" },
+              { reasoning: "Divide by $b$: $h=\\frac{3V}{b}$.", working: "h=\\frac{3V}{b}", marks: 1, markCode: "M" },
+              { reasoning: "Correct.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$h = \\frac{3V}{b}$",
+            commonErrors: ["$h=\\frac{V}{3b}$ — must multiply by 3 to clear the fraction, not divide."],
+          },
+        },
+        {
+          id: "cilm-u4-form-q14",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "Make $u$ the subject of $v = u + at$.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "convention", name: "Rearranging", statement: "Subtract $at$ from both sides." },
+            ],
+            steps: [
+              { reasoning: "Subtract $at$: $v-at=u$.", working: "u=v-at", marks: 1, markCode: "M" },
+              { reasoning: "So $u=v-at$.", marks: 1, markCode: "M" },
+              { reasoning: "Correct.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$u = v - at$",
+            commonErrors: ["$u=v+a t$ — wrong sign when moving the term."],
+          },
+        },
+        {
+          id: "cilm-u4-form-q15",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "The formula $s = ut + \\frac{1}{2}at^2$ relates distance $s$, initial velocity $u$, acceleration $a$ and time $t$.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Complex rearranging", statement: "Isolate the $a$ term, clear the fraction, divide by $\\frac{1}{2}t^2$." },
+            ],
+            steps: [
+              { reasoning: "Subtract $ut$: $s-ut=\\frac{1}{2}at^2$.", working: "s-ut=\\frac{1}{2}at^2", marks: 1, markCode: "M" },
+              { reasoning: "Multiply by 2: $2(s-ut)=at^2$.", working: "2(s-ut)=at^2", marks: 1, markCode: "M" },
+              { reasoning: "Divide by $t^2$: $a=\\frac{2(s-ut)}{t^2}$.", working: "a=\\frac{2(s-ut)}{t^2}", marks: 1, markCode: "M" },
+              { reasoning: "Correct.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$a = \\frac{2(s - ut)}{t^2}$",
+            commonErrors: ["Dividing by $t$ instead of $t^2$ — the whole coefficient must be divided."],
+          },
+        },
+        {
+          id: "cilm-u4-form-q16",
+          difficulty: "challenge",
+          totalMarks: 8,
+          stem: "Physics and geometry formulae are rearranged for different unknowns.",
+          parts: [
+            { label: "a", prompt: "Make $t$ the subject of $v = u + at$.", marks: 2 },
+            { label: "b", prompt: "Make $h$ the subject of $A = \\frac{1}{2}bh$.", marks: 2 },
+            { label: "c", prompt: "Make $r$ the subject of $C = 2\\pi r$.", marks: 1 },
+            { label: "d", prompt: "Explain why rearranging formulae is useful in problem-solving.", marks: 3 },
+          ],
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Formula rearranging", statement: "Isolate the target variable using inverse operations." },
+            ],
+            steps: [
+              { part: "a", reasoning: "$v-u=at$ → $t=\\frac{v-u}{a}$.", working: "t=\\frac{v-u}{a}", marks: 1, markCode: "M" },
+              { part: "a", reasoning: "Correct.", marks: 1, markCode: "A" },
+              { part: "b", reasoning: "$2A=bh$ → $h=\\frac{2A}{b}$.", working: "h=\\frac{2A}{b}", marks: 1, markCode: "M" },
+              { part: "b", reasoning: "Correct.", marks: 1, markCode: "A" },
+              { part: "c", reasoning: "$r=\\frac{C}{2\\pi}$.", working: "r=\\frac{C}{2\\pi}", marks: 1, markCode: "A" },
+              { part: "d", reasoning: "Different problems give different knowns — rearranging lets you solve for whichever variable is unknown without re-deriving.", working: "\\text{flexibility}", marks: 1, markCode: "M" },
+              { part: "d", reasoning: "Saves time and reduces errors.", marks: 1, markCode: "M" },
+              { part: "d", reasoning: "Clear explanation.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "(a) $t=\\frac{v-u}{a}$ (b) $h=\\frac{2A}{b}$ (c) $r=\\frac{C}{2\\pi}$ (d) solve for any unknown",
+            levels: [
+              { level: "Level 3", marks: "1-2", descriptor: "Correct.", part: "a" },
+              { level: "Level 2", marks: "1-2", descriptor: "Correct.", part: "b" },
+              { level: "Level 1", marks: "0", descriptor: "Wrong.", part: "b" },
+              { level: "Level 2", marks: "1", descriptor: "Correct.", part: "c" },
+              { level: "Level 1", marks: "0", descriptor: "Wrong.", part: "c" },
+              { level: "Level 3", marks: "2-3", descriptor: "Purpose explained.", part: "d" },
+              { level: "Level 2", marks: "1", descriptor: "Partial.", part: "d" },
+            ],
+            commonErrors: ["In (b) $h=\\frac{A}{2b}$ — multiply by 2, not divide."],
           },
         },
       ],

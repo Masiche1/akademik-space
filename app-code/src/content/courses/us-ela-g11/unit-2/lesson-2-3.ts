@@ -67,12 +67,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The mill owners built the rows for them." },
-              { id: "b", text: "The new looms needed workers, and falling grain prices pressed the families to leave the hills." },
+              { id: "a", text: "The new looms needed workers, and falling grain prices pressed the families to leave the hills." },
+              { id: "b", text: "The mill owners built the rows for them." },
               { id: "c", text: "The town council ordered them to move." },
               { id: "d", text: "The fever of 1849 had emptied the hills." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "skill", name: "Tracing cause", statement: "Find the words in the text that state why one event followed another." }],
@@ -90,12 +90,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The reforms were planned from the start, and the fever was only an accident." },
-              { id: "b", text: "The fever's effect on the owners' workforce gave them a reason to support reforms they had ignored." },
-              { id: "c", text: "The council acted to punish the owners for the fever." },
-              { id: "d", text: "The reforms prevented the fever from spreading." },
+              { id: "a", text: "The reforms prevented the fever from spreading." },
+              { id: "b", text: "The reforms were planned from the start, and the fever was only an accident." },
+              { id: "c", text: "The fever's effect on the owners' workforce gave them a reason to support reforms they had ignored." },
+              { id: "d", text: "The council acted to punish the owners for the fever." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "skill", name: "Interaction of events and interests", statement: "Show how a development changes the interests of the people involved." }],
@@ -205,10 +205,10 @@ export const lesson23: Lesson = {
             choices: [
               { id: "a", text: "Source A, the city traffic report" },
               { id: "b", text: "Source B, the merchants' letter" },
-              { id: "c", text: "Source C, the independent survey chart" },
-              { id: "d", text: "Source D, the photograph and caption" },
+              { id: "c", text: "Source D, the photograph and caption" },
+              { id: "d", text: "Source C, the independent survey chart" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "skill", name: "Weighing evidence", statement: "Prefer evidence that covers the whole population and is gathered independently over time." }],

@@ -55,11 +55,11 @@ export const lesson21: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Close together in a regular pattern and vibrating in fixed positions" },
-              { id: "b", text: "Close together, arranged randomly and sliding past each other" },
-              { id: "c", text: "Far apart, arranged randomly and moving quickly in all directions" },
-              { id: "d", text: "Far apart and held in fixed positions" },
+              { id: "b", text: "Far apart and held in fixed positions" },
+              { id: "c", text: "Close together, arranged randomly and sliding past each other" },
+              { id: "d", text: "Far apart, arranged randomly and moving quickly in all directions" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -192,11 +192,11 @@ export const lesson21: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Evaporation" },
-              { id: "b", text: "Condensation" },
-              { id: "c", text: "Sublimation" },
-              { id: "d", text: "Freezing" },
+              { id: "b", text: "Sublimation" },
+              { id: "c", text: "Freezing" },
+              { id: "d", text: "Condensation" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

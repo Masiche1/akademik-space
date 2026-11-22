@@ -54,12 +54,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Volt (V)" },
-              { id: "b", text: "Ohm ($\\Omega$)" },
-              { id: "c", text: "Ampere (A)" },
-              { id: "d", text: "Coulomb (C)" },
+              { id: "a", text: "Coulomb (C)" },
+              { id: "b", text: "Volt (V)" },
+              { id: "c", text: "Ohm ($\\Omega$)" },
+              { id: "d", text: "Ampere (A)" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -81,12 +81,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$12\\,\\Omega$" },
-              { id: "b", text: "$3.0\\,\\Omega$" },
-              { id: "c", text: "$0.083\\,\\Omega$" },
-              { id: "d", text: "$300\\,\\Omega$" },
+              { id: "a", text: "$0.083\\,\\Omega$" },
+              { id: "b", text: "$300\\,\\Omega$" },
+              { id: "c", text: "$3.0\\,\\Omega$" },
+              { id: "d", text: "$12\\,\\Omega$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -109,12 +109,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Resistance $15\\,\\Omega$ at $6.0$ V and $24\\,\\Omega$ at $12$ V; the lamp is non-ohmic" },
-              { id: "b", text: "Resistance $15\\,\\Omega$ at $6.0$ V and $24\\,\\Omega$ at $12$ V; the lamp is ohmic" },
+              { id: "a", text: "Resistance $15\\,\\Omega$ at $6.0$ V and $24\\,\\Omega$ at $12$ V; the lamp is ohmic" },
+              { id: "b", text: "Resistance $15\\,\\Omega$ at $6.0$ V and $24\\,\\Omega$ at $12$ V; the lamp is non-ohmic" },
               { id: "c", text: "Resistance $2.4\\,\\Omega$ at $6.0$ V and $6.0\\,\\Omega$ at $12$ V; the lamp is non-ohmic" },
               { id: "d", text: "Resistance is constant because $V/I$ is constant for all components" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -171,12 +171,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$0.33$ A" },
-              { id: "b", text: "$3.0$ A" },
-              { id: "c", text: "$675$ A" },
-              { id: "d", text: "$30$ A" },
+              { id: "a", text: "$30$ A" },
+              { id: "b", text: "$0.33$ A" },
+              { id: "c", text: "$3.0$ A" },
+              { id: "d", text: "$675$ A" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -228,11 +228,11 @@ export const lesson51: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "It decreases because the current increases" },
-              { id: "b", text: "It increases because the filament temperature rises" },
+              { id: "b", text: "It becomes zero at high temperatures" },
               { id: "c", text: "It stays constant, as required by Ohm's law" },
-              { id: "d", text: "It becomes zero at high temperatures" },
+              { id: "d", text: "It increases because the filament temperature rises" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -311,12 +311,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Resistance $20\\,\\Omega$ at $4.0$ V and $32\\,\\Omega$ at $8.0$ V; the lamp is non-ohmic" },
-              { id: "b", text: "Resistance $20\\,\\Omega$ at $4.0$ V and $32\\,\\Omega$ at $8.0$ V; the lamp is ohmic" },
-              { id: "c", text: "Resistance $0.80\\,\\Omega$ at $4.0$ V and $2.0\\,\\Omega$ at $8.0$ V; the lamp is non-ohmic" },
-              { id: "d", text: "Resistance is constant at $20\\,\\Omega$ because $V/I$ is always constant" },
+              { id: "a", text: "Resistance $0.80\\,\\Omega$ at $4.0$ V and $2.0\\,\\Omega$ at $8.0$ V; the lamp is non-ohmic" },
+              { id: "b", text: "Resistance $20\\,\\Omega$ at $4.0$ V and $32\\,\\Omega$ at $8.0$ V; the lamp is non-ohmic" },
+              { id: "c", text: "Resistance is constant at $20\\,\\Omega$ because $V/I$ is always constant" },
+              { id: "d", text: "Resistance $20\\,\\Omega$ at $4.0$ V and $32\\,\\Omega$ at $8.0$ V; the lamp is ohmic" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -407,9 +407,9 @@ export const lesson51: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$6.0\\,\\Omega$ and $12\\,\\Omega$" },
-              { id: "b", text: "$12\\,\\Omega$ and $24\\,\\Omega$" },
-              { id: "c", text: "$0.50\\,\\Omega$ and $1.0\\,\\Omega$" },
-              { id: "d", text: "$288\\,\\Omega$ and $144\\,\\Omega$" },
+              { id: "b", text: "$288\\,\\Omega$ and $144\\,\\Omega$" },
+              { id: "c", text: "$12\\,\\Omega$ and $24\\,\\Omega$" },
+              { id: "d", text: "$0.50\\,\\Omega$ and $1.0\\,\\Omega$" },
             ],
             correctChoiceId: "a",
           },
@@ -460,9 +460,9 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "a curve bending towards the voltage axis" },
+              { id: "a", text: "a horizontal line" },
               { id: "b", text: "a straight line through the origin" },
-              { id: "c", text: "a horizontal line" },
+              { id: "c", text: "a curve bending towards the voltage axis" },
               { id: "d", text: "a curve with a maximum current" },
             ],
             correctChoiceId: "b",
@@ -548,10 +548,10 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Current" },
+              { id: "a", text: "Resistance" },
               { id: "b", text: "Potential difference" },
-              { id: "c", text: "Resistance" },
-              { id: "d", text: "Power dissipated" },
+              { id: "c", text: "Power dissipated" },
+              { id: "d", text: "Current" },
             ],
             correctChoiceId: "b",
           },
@@ -575,12 +575,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$2.0\\,\\Omega$" },
+              { id: "a", text: "$1.0\\,\\Omega$" },
               { id: "b", text: "$8.0\\,\\Omega$" },
-              { id: "c", text: "$1.0\\,\\Omega$" },
+              { id: "c", text: "$2.0\\,\\Omega$" },
               { id: "d", text: "$16\\,\\Omega$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -603,12 +603,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Total resistance $7.0\\,\\Omega$; total current $4.0$ A" },
-              { id: "b", text: "Total resistance $10.0\\,\\Omega$; total current $2.8$ A" },
+              { id: "a", text: "Total resistance $3.0\\,\\Omega$; total current $9.3$ A" },
+              { id: "b", text: "Total resistance $7.0\\,\\Omega$; total current $4.0$ A" },
               { id: "c", text: "Total resistance $7.0\\,\\Omega$; total current $2.0$ A" },
-              { id: "d", text: "Total resistance $3.0\\,\\Omega$; total current $9.3$ A" },
+              { id: "d", text: "Total resistance $10.0\\,\\Omega$; total current $2.8$ A" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -665,12 +665,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Current" },
-              { id: "b", text: "Potential difference" },
-              { id: "c", text: "Resistance" },
-              { id: "d", text: "Power dissipated" },
+              { id: "a", text: "Resistance" },
+              { id: "b", text: "Power dissipated" },
+              { id: "c", text: "Current" },
+              { id: "d", text: "Potential difference" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -778,9 +778,9 @@ export const lesson51: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Each appliance receives the full mains voltage and can be switched on and off independently" },
-              { id: "b", text: "The current through each appliance is the same, which is safer" },
-              { id: "c", text: "Parallel circuits use less wire than series circuits" },
-              { id: "d", text: "Appliances in parallel dissipate less power" },
+              { id: "b", text: "Appliances in parallel dissipate less power" },
+              { id: "c", text: "The current through each appliance is the same, which is safer" },
+              { id: "d", text: "Parallel circuits use less wire than series circuits" },
             ],
             correctChoiceId: "a",
           },
@@ -805,10 +805,10 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It becomes brighter because the current is shared" },
+              { id: "a", text: "It goes out because the circuit is broken" },
               { id: "b", text: "It becomes dimmer because the total resistance increases" },
               { id: "c", text: "It stays the same because the p.d. across it is unchanged" },
-              { id: "d", text: "It goes out because the circuit is broken" },
+              { id: "d", text: "It becomes brighter because the current is shared" },
             ],
             correctChoiceId: "c",
           },
@@ -891,12 +891,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It is greater than the largest individual resistance" },
-              { id: "b", text: "It is less than the smallest individual resistance" },
-              { id: "c", text: "The same current flows through every resistor" },
-              { id: "d", text: "The potential difference is shared equally between the resistors" },
+              { id: "a", text: "The potential difference is shared equally between the resistors" },
+              { id: "b", text: "It is greater than the largest individual resistance" },
+              { id: "c", text: "It is less than the smallest individual resistance" },
+              { id: "d", text: "The same current flows through every resistor" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -948,12 +948,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "All three in series" },
-              { id: "b", text: "All three in parallel" },
+              { id: "a", text: "All three in parallel" },
+              { id: "b", text: "All three in series" },
               { id: "c", text: "The $12\\,\\Omega$ and $6.0\\,\\Omega$ in series, then in parallel with the $3.0\\,\\Omega$" },
               { id: "d", text: "The $12\\,\\Omega$ in parallel with the series combination of the $6.0\\,\\Omega$ and $3.0\\,\\Omega$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

@@ -49,12 +49,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$(1,1)$" },
-              { id: "b", text: "$(-5,9)$" },
+              { id: "a", text: "$(-5,9)$" },
+              { id: "b", text: "$(1,1)$" },
               { id: "c", text: "$(1,9)$" },
               { id: "d", text: "$(-6,1)$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -175,12 +175,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$F$ and $G$ have equal corresponding side lengths and angle measures, so they are congruent." },
-              { id: "b", text: "$G$ must be larger than $F$." },
-              { id: "c", text: "The order of the transformations does not matter." },
-              { id: "d", text: "Only the area is guaranteed to be preserved." },
+              { id: "a", text: "$G$ must be larger than $F$." },
+              { id: "b", text: "The order of the transformations does not matter." },
+              { id: "c", text: "Only the area is guaranteed to be preserved." },
+              { id: "d", text: "$F$ and $G$ have equal corresponding side lengths and angle measures, so they are congruent." },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

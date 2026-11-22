@@ -58,11 +58,11 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Natural disasters" },
-              { id: "b", text: "Habitat destruction" },
-              { id: "c", text: "Solar flares" },
+              { id: "b", text: "Solar flares" },
+              { id: "c", text: "Habitat destruction" },
               { id: "d", text: "Volcanic eruptions" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -84,12 +84,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A food chain in a waterfall" },
-              { id: "b", text: "Indirect effects rippling through a food web when a species' population changes" },
-              { id: "c", text: "The movement of nutrients downhill" },
+              { id: "a", text: "Indirect effects rippling through a food web when a species' population changes" },
+              { id: "b", text: "The movement of nutrients downhill" },
+              { id: "c", text: "A food chain in a waterfall" },
               { id: "d", text: "Competition between trophic levels" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -112,12 +112,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It is native to the USA" },
-              { id: "b", text: "It is non-native, spreads rapidly and outcompetes native species" },
+              { id: "a", text: "It is non-native, spreads rapidly and outcompetes native species" },
+              { id: "b", text: "It only grows in gardens" },
               { id: "c", text: "It is extinct in its home range" },
-              { id: "d", text: "It only grows in gardens" },
+              { id: "d", text: "It is native to the USA" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -205,7 +205,7 @@ export const lesson33: Lesson = {
           difficulty: "core",
           totalMarks: 1,
           stem: "What is a trophic cascade?",
-          response: { type: "mcq", choices: [{ id: "a", text: "A change in one trophic level that affects levels below and above it" }, { id: "b", text: "A type of nutrient cycle" }, { id: "c", text: "The movement of water in xylem" }, { id: "d", text: "A method of cloning" }], correctChoiceId: "a" },
+          response: { type: "mcq", choices: [ { id: "a", text: "The movement of water in xylem" }, { id: "b", text: "A type of nutrient cycle" }, { id: "c", text: "A change in one trophic level that affects levels below and above it" }, { id: "d", text: "A method of cloning" } ], correctChoiceId: "c" },
           markscheme: { principles: [{ kind: "definition", name: "Trophic cascade", statement: "Removal of a top predator can change prey numbers and then vegetation and ecosystem structure." }], steps: [{ reasoning: "Effects ripple through food-web levels.", working: "cascade", marks: 1, markCode: "B" }], finalAnswer: "**(a)** A change in one trophic level that affects levels below and above it" },
         },
         {
@@ -233,7 +233,7 @@ export const lesson33: Lesson = {
           difficulty: "challenge",
           totalMarks: 1,
           stem: "Why are invasive species a threat to ecosystems?",
-          response: { type: "mcq", choices: [{ id: "a", text: "They always improve biodiversity" }, { id: "b", text: "They can outcompete native species and disrupt food webs" }, { id: "c", text: "They increase soil nutrients everywhere" }, { id: "d", text: "They prevent all pollution" }], correctChoiceId: "b" },
+          response: { type: "mcq", choices: [ { id: "a", text: "They can outcompete native species and disrupt food webs" }, { id: "b", text: "They always improve biodiversity" }, { id: "c", text: "They increase soil nutrients everywhere" }, { id: "d", text: "They prevent all pollution" } ], correctChoiceId: "a" },
           markscheme: { principles: [{ kind: "definition", name: "Invasive species", statement: "Non-native species that spread rapidly can displace natives and alter ecosystems." }], steps: [{ reasoning: "Examples include rabbits in Australia and kudzu vines.", working: "invasive", marks: 1, markCode: "B" }], finalAnswer: "**(b)** They can outcompete native species and disrupt food webs" },
         },
         {
@@ -261,7 +261,7 @@ export const lesson33: Lesson = {
           difficulty: "core",
           totalMarks: 1,
           stem: "Which pollution type can create dead zones in aquatic ecosystems?",
-          response: { type: "mcq", choices: [{ id: "a", text: "Nutrient enrichment causing eutrophication" }, { id: "b", text: "Increased oxygen only" }, { id: "c", text: "Reduced light only" }, { id: "d", text: "Lower temperature only" }], correctChoiceId: "a" },
+          response: { type: "mcq", choices: [ { id: "a", text: "Lower temperature only" }, { id: "b", text: "Nutrient enrichment causing eutrophication" }, { id: "c", text: "Increased oxygen only" }, { id: "d", text: "Reduced light only" } ], correctChoiceId: "b" },
           markscheme: { principles: [{ kind: "principle", name: "Eutrophication", statement: "Nutrient pollution causes algal blooms and oxygen depletion." }], steps: [{ reasoning: "Decomposers remove oxygen, creating hypoxic dead zones.", working: "dead\\text{ zone}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Nutrient enrichment causing eutrophication" },
         },
         {
@@ -269,7 +269,7 @@ export const lesson33: Lesson = {
           difficulty: "challenge",
           totalMarks: 1,
           stem: "Why is extinction considered irreversible?",
-          response: { type: "mcq", choices: [{ id: "a", text: "The last individual has died and the species cannot reproduce" }, { id: "b", text: "Extinct species can always be cloned" }, { id: "c", text: "Extinction only affects one population temporarily" }, { id: "d", text: "All species are endangered" }], correctChoiceId: "a" },
+          response: { type: "mcq", choices: [ { id: "a", text: "Extinction only affects one population temporarily" }, { id: "b", text: "All species are endangered" }, { id: "c", text: "Extinct species can always be cloned" }, { id: "d", text: "The last individual has died and the species cannot reproduce" } ], correctChoiceId: "d" },
           markscheme: { principles: [{ kind: "definition", name: "Extinction", statement: "Extinction is the permanent loss of a species when the last individual dies." }], steps: [{ reasoning: "Without living members, the species cannot recover naturally.", working: "permanent", marks: 1, markCode: "B" }], finalAnswer: "**(a)** The last individual has died and the species cannot reproduce" },
         },
       ],
@@ -312,12 +312,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "In situ conservation" },
-              { id: "b", text: "Ex situ conservation" },
-              { id: "c", text: "Sustainable yield" },
+              { id: "a", text: "Sustainable yield" },
+              { id: "b", text: "In situ conservation" },
+              { id: "c", text: "Ex situ conservation" },
               { id: "d", text: "Habitat restoration" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -341,8 +341,8 @@ export const lesson33: Lesson = {
             choices: [
               { id: "a", text: "Catching as many fish as possible" },
               { id: "b", text: "Harvesting at a rate that allows fish stocks to replenish" },
-              { id: "c", text: "Banning all fishing" },
-              { id: "d", text: "Only catching large fish" },
+              { id: "c", text: "Only catching large fish" },
+              { id: "d", text: "Banning all fishing" },
             ],
             correctChoiceId: "b",
           },
@@ -367,12 +367,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Captive breeding guarantees immediate success" },
-              { id: "b", text: "It boosts numbers and genetic diversity insurance, reducing extinction risk from a single catastrophe" },
+              { id: "a", text: "It boosts numbers and genetic diversity insurance, reducing extinction risk from a single catastrophe" },
+              { id: "b", text: "Captive breeding guarantees immediate success" },
               { id: "c", text: "Reintroduction is never attempted" },
               { id: "d", text: "It removes the need for habitat protection" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -488,7 +488,7 @@ export const lesson33: Lesson = {
           difficulty: "challenge",
           totalMarks: 1,
           stem: "What does CITES do?",
-          response: { type: "mcq", choices: [{ id: "a", text: "It regulates international trade in endangered species" }, { id: "b", text: "It bans all agriculture" }, { id: "c", text: "It creates zoos only" }, { id: "d", text: "It measures biodiversity" }], correctChoiceId: "a" },
+          response: { type: "mcq", choices: [ { id: "a", text: "It regulates international trade in endangered species" }, { id: "b", text: "It creates zoos only" }, { id: "c", text: "It measures biodiversity" }, { id: "d", text: "It bans all agriculture" } ], correctChoiceId: "a" },
           markscheme: { principles: [{ kind: "definition", name: "CITES", statement: "CITES regulates trade in endangered species to protect them from overexploitation." }], steps: [{ reasoning: "It is an international agreement controlling wildlife trade.", working: "CITES", marks: 1, markCode: "B" }], finalAnswer: "**(a)** It regulates international trade in endangered species" },
         },
         {
@@ -516,7 +516,7 @@ export const lesson33: Lesson = {
           difficulty: "core",
           totalMarks: 1,
           stem: "What is the purpose of a wildlife corridor?",
-          response: { type: "mcq", choices: [{ id: "a", text: "To connect habitats and allow movement between populations" }, { id: "b", text: "To keep animals in zoos" }, { id: "c", text: "To increase pollution" }, { id: "d", text: "To stop all migration" }], correctChoiceId: "a" },
+          response: { type: "mcq", choices: [ { id: "a", text: "To stop all migration" }, { id: "b", text: "To connect habitats and allow movement between populations" }, { id: "c", text: "To keep animals in zoos" }, { id: "d", text: "To increase pollution" } ], correctChoiceId: "b" },
           markscheme: { principles: [{ kind: "definition", name: "Wildlife corridor", statement: "Corridors link habitats, allowing gene flow and reducing isolation." }], steps: [{ reasoning: "They help maintain genetic diversity and population viability.", working: "corridor", marks: 1, markCode: "B" }], finalAnswer: "**(a)** To connect habitats and allow movement between populations" },
         },
         {
@@ -524,7 +524,7 @@ export const lesson33: Lesson = {
           difficulty: "challenge",
           totalMarks: 1,
           stem: "When is captive breeding most useful?",
-          response: { type: "mcq", choices: [{ id: "a", text: "Only when a species is extinct" }, { id: "b", text: "When a species is endangered and needs numbers increased before reintroduction" }, { id: "c", text: "When habitat is abundant and stable" }, { id: "d", text: "Never, because it replaces in situ conservation" }], correctChoiceId: "b" },
+          response: { type: "mcq", choices: [ { id: "a", text: "When a species is endangered and needs numbers increased before reintroduction" }, { id: "b", text: "Only when a species is extinct" }, { id: "c", text: "Never, because it replaces in situ conservation" }, { id: "d", text: "When habitat is abundant and stable" } ], correctChoiceId: "a" },
           markscheme: { principles: [{ kind: "definition", name: "Captive breeding", statement: "Captive breeding increases numbers of endangered species for possible reintroduction." }], steps: [{ reasoning: "It is an ex situ insurance strategy, not a replacement for habitat protection.", working: "captive\\text{ breeding}", marks: 1, markCode: "B" }], finalAnswer: "**(b)** When a species is endangered and needs numbers increased before reintroduction" },
         },
       ],

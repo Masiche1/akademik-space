@@ -92,9 +92,9 @@ export const lesson23: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Personification with a balanced contrast" },
-              { id: "b", text: "Onomatopoeia" },
+              { id: "b", text: "Statistics" },
               { id: "c", text: "Direct address" },
-              { id: "d", text: "Statistics" },
+              { id: "d", text: "Onomatopoeia" },
             ],
             correctChoiceId: "a",
           },
@@ -218,12 +218,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The library was silent; the only sound was a clock." },
-              { id: "b", text: "The library was; silent, the only sound was a clock." },
-              { id: "c", text: "Although the library was silent; the clock ticked." },
-              { id: "d", text: "The library; silent and calm." },
+              { id: "a", text: "Although the library was silent; the clock ticked." },
+              { id: "b", text: "The library; silent and calm." },
+              { id: "c", text: "The library was; silent, the only sound was a clock." },
+              { id: "d", text: "The library was silent; the only sound was a clock." },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "convention", name: "Semicolon", statement: "A semicolon joins two complete, related clauses." }],

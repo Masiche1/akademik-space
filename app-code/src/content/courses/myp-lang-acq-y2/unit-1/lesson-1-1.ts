@@ -55,10 +55,10 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The details" },
+              { id: "a", text: "A goodbye" },
               { id: "b", text: "An attention-getter like 'Attention, please'" },
               { id: "c", text: "A question" },
-              { id: "d", text: "A goodbye" },
+              { id: "d", text: "The details" },
             ],
             correctChoiceId: "b",
           },
@@ -172,10 +172,10 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "To say goodbye to the audience" },
+              { id: "a", text: "To describe the weather" },
               { id: "b", text: "To get people's attention before the news" },
               { id: "c", text: "To ask the audience a question" },
-              { id: "d", text: "To describe the weather" },
+              { id: "d", text: "To say goodbye to the audience" },
             ],
             correctChoiceId: "b",
           },
@@ -199,10 +199,10 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The speaker is the customer" },
+              { id: "a", text: "The speaker is leaving" },
               { id: "b", text: "The speaker works there and is offering a service" },
-              { id: "c", text: "The speaker is leaving" },
-              { id: "d", text: "The speaker is angry" },
+              { id: "c", text: "The speaker is angry" },
+              { id: "d", text: "The speaker is the customer" },
             ],
             correctChoiceId: "b",
           },
@@ -226,12 +226,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Asking for the bill" },
-              { id: "b", text: "Ordering food and drink" },
-              { id: "c", text: "Complaining about the food" },
-              { id: "d", text: "Describing the menu" },
+              { id: "a", text: "Ordering food and drink" },
+              { id: "b", text: "Complaining about the food" },
+              { id: "c", text: "Describing the menu" },
+              { id: "d", text: "Asking for the bill" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -372,8 +372,8 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The size of the bag" },
-              { id: "b", text: "The colour of the bag" },
+              { id: "a", text: "The colour of the bag" },
+              { id: "b", text: "The size of the bag" },
               { id: "c", text: "The price of the bag" },
               { id: "d", text: "Where the bag was made" },
             ],
@@ -430,12 +430,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Giving the final instruction of the announcement" },
-              { id: "b", text: "Starting a new topic" },
-              { id: "c", text: "Asking a question" },
-              { id: "d", text: "Describing a person" },
+              { id: "a", text: "Starting a new topic" },
+              { id: "b", text: "Asking a question" },
+              { id: "c", text: "Describing a person" },
+              { id: "d", text: "Giving the final instruction of the announcement" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -547,11 +547,11 @@ export const lesson11: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "First" },
-              { id: "b", text: "Then" },
-              { id: "c", text: "Finally" },
-              { id: "d", text: "Because" },
+              { id: "b", text: "Finally" },
+              { id: "c", text: "Because" },
+              { id: "d", text: "Then" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -656,11 +656,11 @@ export const lesson11: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Finally" },
-              { id: "b", text: "Then" },
-              { id: "c", text: "First" },
-              { id: "d", text: "Because" },
+              { id: "b", text: "Because" },
+              { id: "c", text: "Then" },
+              { id: "d", text: "First" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -682,12 +682,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It makes the instructions look longer" },
-              { id: "b", text: "It turns a long instruction into a simple ordered list" },
-              { id: "c", text: "It removes the need to listen" },
-              { id: "d", text: "It changes the meaning of the steps" },
+              { id: "a", text: "It turns a long instruction into a simple ordered list" },
+              { id: "b", text: "It removes the need to listen" },
+              { id: "c", text: "It changes the meaning of the steps" },
+              { id: "d", text: "It makes the instructions look longer" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -709,9 +709,9 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "First" },
+              { id: "a", text: "Finally" },
               { id: "b", text: "Then" },
-              { id: "c", text: "Finally" },
+              { id: "c", text: "First" },
               { id: "d", text: "Because" },
             ],
             correctChoiceId: "b",
@@ -855,12 +855,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Stop listening completely" },
-              { id: "b", text: "Keep listening, then politely ask about the missed step afterwards" },
-              { id: "c", text: "Guess randomly and hope" },
+              { id: "a", text: "Guess randomly and hope" },
+              { id: "b", text: "Stop listening completely" },
+              { id: "c", text: "Keep listening, then politely ask about the missed step afterwards" },
               { id: "d", text: "Write down every word you heard" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -914,11 +914,11 @@ export const lesson11: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "This step happens at the same time" },
-              { id: "b", text: "This step happens after the previous one" },
-              { id: "c", text: "This step is optional" },
-              { id: "d", text: "This step is the first one" },
+              { id: "b", text: "This step is the first one" },
+              { id: "c", text: "This step happens after the previous one" },
+              { id: "d", text: "This step is optional" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

@@ -57,12 +57,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Insulin" },
-              { id: "b", text: "Glucagon" },
-              { id: "c", text: "ADH" },
-              { id: "d", text: "Adrenaline" },
+              { id: "a", text: "ADH" },
+              { id: "b", text: "Adrenaline" },
+              { id: "c", text: "Glucagon" },
+              { id: "d", text: "Insulin" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -84,12 +84,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Osmosis across the glomerular membrane" },
-              { id: "b", text: "High hydrostatic pressure in the glomerular capillaries" },
-              { id: "c", text: "Active transport by podocytes" },
-              { id: "d", text: "The action of ADH" },
+              { id: "a", text: "The action of ADH" },
+              { id: "b", text: "Osmosis across the glomerular membrane" },
+              { id: "c", text: "High hydrostatic pressure in the glomerular capillaries" },
+              { id: "d", text: "Active transport by podocytes" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -112,12 +112,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Urine output increases; ADH decreases so less water is reabsorbed" },
-              { id: "b", text: "Urine output decreases; ADH increases" },
-              { id: "c", text: "Urine output unchanged; insulin controls it" },
+              { id: "a", text: "Urine output decreases; ADH increases" },
+              { id: "b", text: "Urine output unchanged; insulin controls it" },
+              { id: "c", text: "Urine output increases; ADH decreases so less water is reabsorbed" },
               { id: "d", text: "Urine output increases; ADH increases" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -205,7 +205,7 @@ export const lesson22: Lesson = {
           difficulty: "core",
           totalMarks: 1,
           stem: "What drives ultrafiltration in the glomerulus?",
-          response: { type: "mcq", choices: [{ id: "a", text: "Osmosis only" }, { id: "b", text: "High blood pressure forcing plasma into the capsule" }, { id: "c", text: "Active transport of red blood cells" }, { id: "d", text: "Diffusion of proteins" }], correctChoiceId: "b" },
+          response: { type: "mcq", choices: [ { id: "a", text: "Osmosis only" }, { id: "b", text: "Diffusion of proteins" }, { id: "c", text: "Active transport of red blood cells" }, { id: "d", text: "High blood pressure forcing plasma into the capsule" } ], correctChoiceId: "d" },
           markscheme: { principles: [{ kind: "definition", name: "Ultrafiltration", statement: "High glomerular pressure pushes small molecules from blood into Bowman's capsule." }], steps: [{ reasoning: "Pressure, not osmosis alone, drives the filtration.", working: "pressure", marks: 1, markCode: "B" }], finalAnswer: "**(b)** High blood pressure forcing plasma into the capsule" },
         },
         {
@@ -233,7 +233,7 @@ export const lesson22: Lesson = {
           difficulty: "challenge",
           totalMarks: 1,
           stem: "How does dialysis treat kidney failure?",
-          response: { type: "mcq", choices: [{ id: "a", text: "It removes wastes by diffusion across a semipermeable membrane" }, { id: "b", text: "It produces more ADH" }, { id: "c", text: "It destroys red blood cells" }, { id: "d", text: "It replaces the entire nephron" }], correctChoiceId: "a" },
+          response: { type: "mcq", choices: [ { id: "a", text: "It replaces the entire nephron" }, { id: "b", text: "It removes wastes by diffusion across a semipermeable membrane" }, { id: "c", text: "It destroys red blood cells" }, { id: "d", text: "It produces more ADH" } ], correctChoiceId: "b" },
           markscheme: { principles: [{ kind: "definition", name: "Dialysis", statement: "Blood is passed beside clean dialysate so wastes diffuse out down concentration gradients." }], steps: [{ reasoning: "The semipermeable membrane allows urea and excess solutes to leave blood.", working: "diffusion", marks: 1, markCode: "B" }], finalAnswer: "**(a)** It removes wastes by diffusion across a semipermeable membrane" },
         },
         {
@@ -257,7 +257,7 @@ export const lesson22: Lesson = {
           difficulty: "core",
           totalMarks: 1,
           stem: "What effect does ADH have on the collecting duct?",
-          response: { type: "mcq", choices: [{ id: "a", text: "It makes the duct less permeable to water" }, { id: "b", text: "It makes the duct more permeable to water, increasing reabsorption" }, { id: "c", text: "It stops all filtration" }, { id: "d", text: "It converts urea into glucose" }], correctChoiceId: "b" },
+          response: { type: "mcq", choices: [ { id: "a", text: "It makes the duct more permeable to water, increasing reabsorption" }, { id: "b", text: "It stops all filtration" }, { id: "c", text: "It makes the duct less permeable to water" }, { id: "d", text: "It converts urea into glucose" } ], correctChoiceId: "a" },
           markscheme: { principles: [{ kind: "definition", name: "ADH action", statement: "ADH increases collecting-duct water permeability when the body needs to conserve water." }], steps: [{ reasoning: "Greater permeability allows more water to return to blood.", working: "permeability\\uparrow", marks: 1, markCode: "B" }], finalAnswer: "**(b)** It makes the duct more permeable to water, increasing reabsorption" },
         },
         {
@@ -265,7 +265,7 @@ export const lesson22: Lesson = {
           difficulty: "challenge",
           totalMarks: 1,
           stem: "Why do diuretics such as caffeine and alcohol increase urine output?",
-          response: { type: "mcq", choices: [{ id: "a", text: "They increase ADH release" }, { id: "b", text: "They inhibit ADH, reducing water reabsorption" }, { id: "c", text: "They destroy nephrons" }, { id: "d", text: "They increase blood cell production" }], correctChoiceId: "b" },
+          response: { type: "mcq", choices: [ { id: "a", text: "They increase ADH release" }, { id: "b", text: "They destroy nephrons" }, { id: "c", text: "They increase blood cell production" }, { id: "d", text: "They inhibit ADH, reducing water reabsorption" } ], correctChoiceId: "d" },
           markscheme: { principles: [{ kind: "principle", name: "Diuretics", statement: "Diuretics reduce ADH action, so less water is reabsorbed and urine volume rises." }], steps: [{ reasoning: "Lower effective ADH means more water stays in the tubule and becomes urine.", working: "ADH\\downarrow", marks: 1, markCode: "B" }], finalAnswer: "**(b)** They inhibit ADH, reducing water reabsorption" },
         },
       ],
@@ -309,11 +309,11 @@ export const lesson22: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Palisade cells" },
-              { id: "b", text: "Guard cells" },
-              { id: "c", text: "Xylem vessels" },
-              { id: "d", text: "Chloroplasts" },
+              { id: "b", text: "Chloroplasts" },
+              { id: "c", text: "Guard cells" },
+              { id: "d", text: "Xylem vessels" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -336,11 +336,11 @@ export const lesson22: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "It relaxes and domes upward" },
-              { id: "b", text: "It contracts and flattens, increasing thoracic volume" },
-              { id: "c", text: "It stays unchanged" },
-              { id: "d", text: "It contracts and moves upward" },
+              { id: "b", text: "It stays unchanged" },
+              { id: "c", text: "It contracts and moves upward" },
+              { id: "d", text: "It contracts and flattens, increasing thoracic volume" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -364,11 +364,11 @@ export const lesson22: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Photosynthesis increases because less water is lost" },
-              { id: "b", text: "Photosynthesis decreases because less CO2 can diffuse into the leaf" },
-              { id: "c", text: "Photosynthesis is unaffected" },
-              { id: "d", text: "Respiration increases instead" },
+              { id: "b", text: "Photosynthesis is unaffected" },
+              { id: "c", text: "Respiration increases instead" },
+              { id: "d", text: "Photosynthesis decreases because less CO2 can diffuse into the leaf" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -456,7 +456,7 @@ export const lesson22: Lesson = {
           difficulty: "core",
           totalMarks: 1,
           stem: "Which muscles and structures increase thoracic volume during inspiration?",
-          response: { type: "mcq", choices: [{ id: "a", text: "Diaphragm contracts and ribs move up" }, { id: "b", text: "Diaphragm relaxes and ribs move down" }, { id: "c", text: "Stomata close" }, { id: "d", text: "Alveoli shrink" }], correctChoiceId: "a" },
+          response: { type: "mcq", choices: [ { id: "a", text: "Alveoli shrink" }, { id: "b", text: "Diaphragm contracts and ribs move up" }, { id: "c", text: "Stomata close" }, { id: "d", text: "Diaphragm relaxes and ribs move down" } ], correctChoiceId: "b" },
           markscheme: { principles: [{ kind: "definition", name: "Inspiration", statement: "Diaphragm contraction and rib movement increase thoracic volume, drawing air in." }], steps: [{ reasoning: "Increased volume lowers pressure, so air enters the lungs.", working: "inspiration", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Diaphragm contracts and ribs move up" },
         },
         {
@@ -484,7 +484,7 @@ export const lesson22: Lesson = {
           difficulty: "challenge",
           totalMarks: 1,
           stem: "Which cells control the opening and closing of stomata?",
-          response: { type: "mcq", choices: [{ id: "a", text: "Guard cells" }, { id: "b", text: "Palisade cells" }, { id: "c", text: "Root hairs" }, { id: "d", text: "Xylem vessels" }], correctChoiceId: "a" },
+          response: { type: "mcq", choices: [ { id: "a", text: "Palisade cells" }, { id: "b", text: "Guard cells" }, { id: "c", text: "Root hairs" }, { id: "d", text: "Xylem vessels" } ], correctChoiceId: "b" },
           markscheme: { principles: [{ kind: "definition", name: "Guard cells", statement: "Guard cells regulate stomatal aperture to balance gas exchange and water conservation." }], steps: [{ reasoning: "Guard cells swell or shrink to open or close the pore.", working: "guard\\text{ cells}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Guard cells" },
         },
         {
@@ -500,7 +500,7 @@ export const lesson22: Lesson = {
           difficulty: "foundation",
           totalMarks: 1,
           stem: "Why is a large surface-area-to-volume ratio important for gas exchange?",
-          response: { type: "mcq", choices: [{ id: "a", text: "It reduces the need for moisture" }, { id: "b", text: "It increases the area available for diffusion" }, { id: "c", text: "It prevents all water loss" }, { id: "d", text: "It makes surfaces thicker" }], correctChoiceId: "b" },
+          response: { type: "mcq", choices: [ { id: "a", text: "It increases the area available for diffusion" }, { id: "b", text: "It reduces the need for moisture" }, { id: "c", text: "It prevents all water loss" }, { id: "d", text: "It makes surfaces thicker" } ], correctChoiceId: "a" },
           markscheme: { principles: [{ kind: "principle", name: "Surface area", statement: "A large exchange area increases the rate of diffusion." }], steps: [{ reasoning: "Millions of alveoli and leaf air spaces provide extensive exchange area.", working: "SA:V", marks: 1, markCode: "B" }], finalAnswer: "**(b)** It increases the area available for diffusion" },
         },
         {
@@ -508,7 +508,7 @@ export const lesson22: Lesson = {
           difficulty: "core",
           totalMarks: 1,
           stem: "How does asthma reduce gas exchange efficiency?",
-          response: { type: "mcq", choices: [{ id: "a", text: "It increases alveolar surface area" }, { id: "b", text: "It constricts airways and reduces airflow" }, { id: "c", text: "It increases oxygen concentration" }, { id: "d", text: "It opens all stomata" }], correctChoiceId: "b" },
+          response: { type: "mcq", choices: [ { id: "a", text: "It constricts airways and reduces airflow" }, { id: "b", text: "It increases oxygen concentration" }, { id: "c", text: "It increases alveolar surface area" }, { id: "d", text: "It opens all stomata" } ], correctChoiceId: "a" },
           markscheme: { principles: [{ kind: "definition", name: "Asthma", statement: "Asthma causes airway constriction, reducing ventilation and gas exchange." }], steps: [{ reasoning: "Narrower airways increase resistance to airflow.", working: "airway\\text{ constriction}", marks: 1, markCode: "B" }], finalAnswer: "**(b)** It constricts airways and reduces airflow" },
         },
         {
@@ -516,7 +516,7 @@ export const lesson22: Lesson = {
           difficulty: "challenge",
           totalMarks: 1,
           stem: "Which statement about oxygen and carbon dioxide movement across alveoli is correct?",
-          response: { type: "mcq", choices: [{ id: "a", text: "Oxygen diffuses into blood while carbon dioxide diffuses out" }, { id: "b", text: "Both gases move by active transport only" }, { id: "c", text: "Carbon dioxide diffuses into the alveolus from blood" }, { id: "d", text: "No gases cross the alveolar wall" }], correctChoiceId: "a" },
+          response: { type: "mcq", choices: [ { id: "a", text: "No gases cross the alveolar wall" }, { id: "b", text: "Oxygen diffuses into blood while carbon dioxide diffuses out" }, { id: "c", text: "Both gases move by active transport only" }, { id: "d", text: "Carbon dioxide diffuses into the alveolus from blood" } ], correctChoiceId: "b" },
           markscheme: { principles: [{ kind: "principle", name: "Gas diffusion", statement: "Gases diffuse down concentration gradients across thin moist surfaces." }], steps: [{ reasoning: "Oxygen moves from air to blood and carbon dioxide from blood to air.", working: "O_2\\text{ in}, CO_2\\text{ out}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Oxygen diffuses into blood while carbon dioxide diffuses out" },
         },
       ],

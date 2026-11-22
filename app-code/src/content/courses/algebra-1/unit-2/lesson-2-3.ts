@@ -51,11 +51,11 @@ For inequalities already solved as $y>mx+b$ or $y<mx+b$, the graph also gives a 
           totalMarks: 2,
           stem: "For $y>-x+2$, what boundary should be drawn, and what style should it use?",
           response: { type: "mcq", choices: [
-            { id: "a", text: "$y=-x+2$, solid" },
-            { id: "b", text: "$y=-x+2$, dashed" },
-            { id: "c", text: "$y=x+2$, dashed" },
-            { id: "d", text: "$y=-x-2$, solid" },
-          ], correctChoiceId: "b" },
+            { id: "a", text: "$y=-x+2$, dashed" },
+            { id: "b", text: "$y=-x+2$, solid" },
+            { id: "c", text: "$y=-x-2$, solid" },
+            { id: "d", text: "$y=x+2$, dashed" },
+          ], correctChoiceId: "a" },
           markscheme: {
             principles: [
               { kind: "definition", name: "Boundary line", statement: "The boundary is found by replacing the inequality symbol with equality." },
@@ -186,10 +186,10 @@ This procedure identifies the best value for the stated linear model; it does no
           stem: "A point lies in the shaded region for $y\\ge x$ but not in the shaded region for $x+y\\le 6$. Is it in the feasible region of the system?",
           response: { type: "mcq", choices: [
             { id: "a", text: "Yes, because it satisfies at least one inequality." },
-            { id: "b", text: "Yes, if it is on either boundary." },
-            { id: "c", text: "No, because a feasible point must satisfy every inequality." },
+            { id: "b", text: "No, because a feasible point must satisfy every inequality." },
+            { id: "c", text: "Yes, if it is on either boundary." },
             { id: "d", text: "No, because feasible regions contain only points in the first quadrant." },
-          ], correctChoiceId: "c" },
+          ], borrectChoiceId: "c" },
           markscheme: {
             principles: [
               { kind: "definition", name: "Feasible region", statement: "The feasible region is the intersection of the solution sets of every inequality in the system." },

@@ -54,12 +54,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\lambda = h/mv$" },
-              { id: "b", text: "$\\lambda = mv/h$" },
+              { id: "a", text: "$\\lambda = mc^2$" },
+              { id: "b", text: "$\\lambda = h/mv$" },
               { id: "c", text: "$\\lambda = hf$" },
-              { id: "d", text: "$\\lambda = mc^2$" },
+              { id: "d", text: "$\\lambda = mv/h$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -153,12 +153,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "the particle's momentum $p$" },
-              { id: "b", text: "the square of its mass" },
-              { id: "c", text: "its frequency" },
-              { id: "d", text: "the Planck constant $h$" },
+              { id: "a", text: "its frequency" },
+              { id: "b", text: "the Planck constant $h$" },
+              { id: "c", text: "the particle's momentum $p$" },
+              { id: "d", text: "the square of its mass" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -181,12 +181,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "electron, because it has the smaller mass" },
-              { id: "b", text: "neutron, because it has the larger mass" },
-              { id: "c", text: "same for both — wavelength depends only on speed" },
-              { id: "d", text: "cannot be determined without knowing the charge" },
+              { id: "a", text: "same for both — wavelength depends only on speed" },
+              { id: "b", text: "electron, because it has the smaller mass" },
+              { id: "c", text: "cannot be determined without knowing the charge" },
+              { id: "d", text: "neutron, because it has the larger mass" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -209,12 +209,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$10^{-34}$ m — far too small to observe" },
+              { id: "a", text: "$10^{34}$ m — larger than the universe" },
               { id: "b", text: "$10^{-10}$ m — comparable to an atom" },
               { id: "c", text: "$1$ m — comparable to the object" },
-              { id: "d", text: "$10^{34}$ m — larger than the universe" },
+              { id: "d", text: "$10^{-34}$ m — far too small to observe" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -237,12 +237,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "is halved" },
-              { id: "b", text: "is doubled" },
-              { id: "c", text: "stays the same" },
-              { id: "d", text: "is quartered" },
+              { id: "a", text: "is quartered" },
+              { id: "b", text: "stays the same" },
+              { id: "c", text: "is doubled" },
+              { id: "d", text: "is halved" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -265,12 +265,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\lambda_C = h/mc$" },
-              { id: "b", text: "$\\lambda_C = h/mv$ for any $v$" },
+              { id: "a", text: "$\\lambda_C = h/mv$ for any $v$" },
+              { id: "b", text: "$\\lambda_C = h/mc$" },
               { id: "c", text: "$\\lambda_C = mc/h$" },
               { id: "d", text: "$\\lambda_C = hf$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -508,8 +508,8 @@ export const lesson52: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Electrons behave as waves" },
-              { id: "b", text: "Electrons are particles only" },
-              { id: "c", text: "Crystals are magnetic" },
+              { id: "b", text: "Crystals are magnetic" },
+              { id: "c", text: "Electrons are particles only" },
               { id: "d", text: "Light is a particle" },
             ],
             correctChoiceId: "a",
@@ -606,12 +606,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "electrons have wave properties" },
+              { id: "a", text: "crystals absorb all electrons" },
               { id: "b", text: "electrons are purely particles" },
-              { id: "c", text: "crystals absorb all electrons" },
+              { id: "c", text: "electrons have wave properties" },
               { id: "d", text: "electrons have no mass" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -634,12 +634,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "constructive interference of electron waves" },
-              { id: "b", text: "random scattering of particles" },
+              { id: "a", text: "random scattering of particles" },
+              { id: "b", text: "constructive interference of electron waves" },
               { id: "c", text: "absorption of electrons by the crystal" },
               { id: "d", text: "a magnetic effect in nickel" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -662,12 +662,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "the spacing between its atoms is comparable to the electron de Broglie wavelength" },
-              { id: "b", text: "electrons are attracted to the atomic nuclei" },
-              { id: "c", text: "the crystal is transparent to electrons" },
-              { id: "d", text: "the atoms in the crystal are charged" },
+              { id: "a", text: "the crystal is transparent to electrons" },
+              { id: "b", text: "the atoms in the crystal are charged" },
+              { id: "c", text: "electrons are attracted to the atomic nuclei" },
+              { id: "d", text: "the spacing between its atoms is comparable to the electron de Broglie wavelength" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -690,12 +690,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "electrons can have much shorter de Broglie wavelengths, giving better resolution" },
-              { id: "b", text: "electrons are cheaper to produce than X-rays" },
-              { id: "c", text: "X-rays cannot penetrate specimens" },
-              { id: "d", text: "electrons travel faster than the speed of light" },
+              { id: "a", text: "electrons travel faster than the speed of light" },
+              { id: "b", text: "X-rays cannot penetrate specimens" },
+              { id: "c", text: "electrons are cheaper to produce than X-rays" },
+              { id: "d", text: "electrons can have much shorter de Broglie wavelengths, giving better resolution" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -718,12 +718,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "a smaller angle to the forward direction" },
-              { id: "b", text: "a larger angle to the forward direction" },
+              { id: "a", text: "a larger angle to the forward direction" },
+              { id: "b", text: "a smaller angle to the forward direction" },
               { id: "c", text: "the same angle — it is fixed by the crystal" },
               { id: "d", text: "a position where no maximum exists" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [

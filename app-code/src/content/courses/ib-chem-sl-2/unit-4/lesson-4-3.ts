@@ -92,9 +92,9 @@ export const lesson43: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$12.0$ dm$^3$" },
-              { id: "b", text: "$24.0$ dm$^3$" },
-              { id: "c", text: "$0.0208$ dm$^3$" },
-              { id: "d", text: "$48.0$ dm$^3$" },
+              { id: "b", text: "$48.0$ dm$^3$" },
+              { id: "c", text: "$24.0$ dm$^3$" },
+              { id: "d", text: "$0.0208$ dm$^3$" },
             ],
             correctChoiceId: "a",
           },
@@ -136,8 +136,8 @@ export const lesson43: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$60$ cm$^3$" },
-              { id: "b", text: "$120$ cm$^3$" },
-              { id: "c", text: "$240$ cm$^3$" },
+              { id: "b", text: "$240$ cm$^3$" },
+              { id: "c", text: "$120$ cm$^3$" },
               { id: "d", text: "$30$ cm$^3$" },
             ],
             correctChoiceId: "a",
@@ -189,11 +189,11 @@ export const lesson43: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$0.200$ g" },
-              { id: "b", text: "$0.400$ g" },
+              { id: "b", text: "$0.800$ g" },
               { id: "c", text: "$4.80$ g" },
-              { id: "d", text: "$0.800$ g" },
+              { id: "d", text: "$0.400$ g" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -345,9 +345,9 @@ export const lesson43: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$18.0$ dm$^3$" },
-              { id: "b", text: "$24.0$ dm$^3$" },
-              { id: "c", text: "$32.0$ dm$^3$" },
-              { id: "d", text: "$0.0313$ dm$^3$" },
+              { id: "b", text: "$32.0$ dm$^3$" },
+              { id: "c", text: "$0.0313$ dm$^3$" },
+              { id: "d", text: "$24.0$ dm$^3$" },
             ],
             correctChoiceId: "a",
           },
@@ -388,12 +388,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$50$ cm$^3$" },
-              { id: "b", text: "$100$ cm$^3$" },
-              { id: "c", text: "$200$ cm$^3$" },
+              { id: "a", text: "$200$ cm$^3$" },
+              { id: "b", text: "$50$ cm$^3$" },
+              { id: "c", text: "$100$ cm$^3$" },
               { id: "d", text: "$400$ cm$^3$" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -441,12 +441,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$80$ cm$^3$" },
-              { id: "b", text: "$160$ cm$^3$" },
+              { id: "a", text: "$560$ cm$^3$" },
+              { id: "b", text: "$80$ cm$^3$" },
               { id: "c", text: "$240$ cm$^3$" },
-              { id: "d", text: "$560$ cm$^3$" },
+              { id: "d", text: "$160$ cm$^3$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -500,15 +500,15 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "$20$ cm$^3$ of hydrogen" },
+              { id: "b", text: "$80$ cm$^3$ of hydrogen" },
+              { id: "c", text: "$20$ cm$^3$ of oxygen" },
               {
-                id: "a",
+                id: "d",
                 text: "$0$ cm$^3$ — the reactants are in the exact ratio",
               },
-              { id: "b", text: "$20$ cm$^3$ of hydrogen" },
-              { id: "c", text: "$20$ cm$^3$ of oxygen" },
-              { id: "d", text: "$80$ cm$^3$ of hydrogen" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -808,8 +808,8 @@ export const lesson43: Lesson = {
             choices: [
               { id: "a", text: "$0$ cm$^3$" },
               { id: "b", text: "$30$ cm$^3$ of hydrogen" },
-              { id: "c", text: "$60$ cm$^3$ of hydrogen" },
-              { id: "d", text: "$30$ cm$^3$ of oxygen" },
+              { id: "c", text: "$30$ cm$^3$ of oxygen" },
+              { id: "d", text: "$60$ cm$^3$ of hydrogen" },
             ],
             correctChoiceId: "b",
           },
@@ -1193,12 +1193,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$0.00500$ mol" },
-              { id: "b", text: "$0.0800$ mol" },
-              { id: "c", text: "$0.00125$ mol" },
-              { id: "d", text: "$5.00$ mol" },
+              { id: "a", text: "$0.00125$ mol" },
+              { id: "b", text: "$5.00$ mol" },
+              { id: "c", text: "$0.0800$ mol" },
+              { id: "d", text: "$0.00500$ mol" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1235,12 +1235,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$0.800$ mol dm$^{-3}$" },
-              { id: "b", text: "$0.0500$ mol dm$^{-3}$" },
+              { id: "a", text: "$0.0500$ mol dm$^{-3}$" },
+              { id: "b", text: "$0.800$ mol dm$^{-3}$" },
               { id: "c", text: "$0.0200$ mol dm$^{-3}$" },
               { id: "d", text: "$0.500$ mol dm$^{-3}$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -1287,12 +1287,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$0.400$ mol dm$^{-3}$" },
-              { id: "b", text: "$0.100$ mol dm$^{-3}$" },
-              { id: "c", text: "$1.60$ mol dm$^{-3}$" },
-              { id: "d", text: "$23.4$ mol dm$^{-3}$" },
+              { id: "a", text: "$1.60$ mol dm$^{-3}$" },
+              { id: "b", text: "$23.4$ mol dm$^{-3}$" },
+              { id: "c", text: "$0.100$ mol dm$^{-3}$" },
+              { id: "d", text: "$0.400$ mol dm$^{-3}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1438,12 +1438,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$0.0500$ mol" },
-              { id: "b", text: "$0.500$ mol" },
-              { id: "c", text: "$5.00$ mol" },
-              { id: "d", text: "$0.00500$ mol" },
+              { id: "a", text: "$0.00500$ mol" },
+              { id: "b", text: "$0.0500$ mol" },
+              { id: "c", text: "$0.500$ mol" },
+              { id: "d", text: "$5.00$ mol" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1481,12 +1481,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$0.0800$ mol dm$^{-3}$" },
-              { id: "b", text: "$2.00$ mol dm$^{-3}$" },
+              { id: "a", text: "$2.00$ mol dm$^{-3}$" },
+              { id: "b", text: "$0.0800$ mol dm$^{-3}$" },
               { id: "c", text: "$0.0200$ mol dm$^{-3}$" },
               { id: "d", text: "$0.160$ mol dm$^{-3}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1532,12 +1532,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$1.46$ g" },
+              { id: "a", text: "$58.5$ g" },
               { id: "b", text: "$14.6$ g" },
-              { id: "c", text: "$0.146$ g" },
-              { id: "d", text: "$58.5$ g" },
+              { id: "c", text: "$1.46$ g" },
+              { id: "d", text: "$0.146$ g" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1590,8 +1590,8 @@ export const lesson43: Lesson = {
             choices: [
               { id: "a", text: "$0.0100$ mol dm$^{-3}$" },
               { id: "b", text: "$0.100$ mol dm$^{-3}$" },
-              { id: "c", text: "$100$ mol dm$^{-3}$" },
-              { id: "d", text: "$0.00100$ mol dm$^{-3}$" },
+              { id: "c", text: "$0.00100$ mol dm$^{-3}$" },
+              { id: "d", text: "$100$ mol dm$^{-3}$" },
             ],
             correctChoiceId: "a",
           },
@@ -1805,11 +1805,11 @@ export const lesson43: Lesson = {
             choices: [
               {
                 id: "a",
-                text: "Dissolve the solid in a beaker and estimate the final volume by eye",
+                text: "Weigh the solid approximately and make up to the mark in a volumetric flask",
               },
               {
                 id: "b",
-                text: "Weigh the solid approximately and make up to the mark in a volumetric flask",
+                text: "Dissolve the solid in a beaker and estimate the final volume by eye",
               },
               {
                 id: "c",
@@ -2047,12 +2047,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Factor $25$; $0.0200$ mol dm$^{-3}$" },
-              { id: "b", text: "Factor $10$; $0.0500$ mol dm$^{-3}$" },
+              { id: "a", text: "Factor $10$; $0.0500$ mol dm$^{-3}$" },
+              { id: "b", text: "Factor $25$; $0.0200$ mol dm$^{-3}$" },
               { id: "c", text: "Factor $100$; $0.00500$ mol dm$^{-3}$" },
               { id: "d", text: "Factor $25$; $0.200$ mol dm$^{-3}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [

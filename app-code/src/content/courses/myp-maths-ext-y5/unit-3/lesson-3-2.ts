@@ -59,8 +59,8 @@ export const lesson32: Lesson = {
             choices: [
               { id: "a", text: "$5\\sqrt{3}$" },
               { id: "b", text: "$5\\sqrt{2}$" },
-              { id: "c", text: "10" },
-              { id: "d", text: "15" },
+              { id: "c", text: "15" },
+              { id: "d", text: "10" },
             ],
             correctChoiceId: "a",
           },
@@ -84,12 +84,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\sqrt{164}=2\\sqrt{41}$" },
-              { id: "b", text: "$\\sqrt{200}=10\\sqrt{2}$" },
+              { id: "a", text: "$\\sqrt{136}=2\\sqrt{34}$" },
+              { id: "b", text: "$\\sqrt{164}=2\\sqrt{41}$" },
               { id: "c", text: "$\\sqrt{100}=10$" },
-              { id: "d", text: "$\\sqrt{136}=2\\sqrt{34}$" },
+              { id: "d", text: "$\\sqrt{200}=10\\sqrt{2}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -112,12 +112,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\tan^{-1}(\\frac{12}{5})=67.4°$" },
-              { id: "b", text: "$\\tan^{-1}(\\frac{5}{12})=22.6°$" },
-              { id: "c", text: "$\\sin^{-1}(\\frac{12}{13})=67.4°$" },
-              { id: "d", text: "$67.4°$ only" },
+              { id: "a", text: "$\\tan^{-1}(\\frac{5}{12})=22.6°$" },
+              { id: "b", text: "$\\tan^{-1}(\\frac{12}{5})=67.4°$" },
+              { id: "c", text: "$67.4°$ only" },
+              { id: "d", text: "$\\sin^{-1}(\\frac{12}{13})=67.4°$" },
             ],
-            correctChoiceId: "d",
+            correctChoiceIc: "d",
           },
           markscheme: {
             principles: [
@@ -171,12 +171,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "13" },
-              { id: "b", text: "12" },
-              { id: "c", text: "$\\sqrt{153}$" },
-              { id: "d", text: "19" },
+              { id: "a", text: "12" },
+              { id: "b", text: "19" },
+              { id: "c", text: "13" },
+              { id: "d", text: "$\\sqrt{153}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -216,9 +216,9 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$\\tan\\theta=\\frac{12}{5}$ → $\\theta\\approx67.4°$" },
-              { id: "b", text: "$\\tan\\theta=\\frac{5}{12}$ → $\\theta\\approx22.6°$" },
-              { id: "c", text: "$\\theta=45°$" },
-              { id: "d", text: "$\\theta=90°$" },
+              { id: "b", text: "$\\theta=45°$" },
+              { id: "c", text: "$\\theta=90°$" },
+              { id: "d", text: "$\\tan\\theta=\\frac{5}{12}$ → $\\theta\\approx22.6°$" },
             ],
             correctChoiceId: "a",
           },
@@ -262,12 +262,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It depends on $h$ — cannot be determined" },
-              { id: "b", text: "$45°$" },
-              { id: "c", text: "$90°$" },
-              { id: "d", text: "$0°$" },
+              { id: "a", text: "$0°$" },
+              { id: "b", text: "$90°$" },
+              { id: "c", text: "It depends on $h$ — cannot be determined" },
+              { id: "d", text: "$45°$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -375,12 +375,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$d=\\sqrt{a^2+b^2+c^2}$" },
-              { id: "b", text: "$d=a+b+c$" },
-              { id: "c", text: "$d=\\sqrt{a^2+b^2}+c$" },
-              { id: "d", text: "$d=a^2+b^2+c^2$" },
+              { id: "a", text: "$d=a^2+b^2+c^2$" },
+              { id: "b", text: "$d=\\sqrt{a^2+b^2}+c$" },
+              { id: "c", text: "$d=\\sqrt{a^2+b^2+c^2}$" },
+              { id: "d", text: "$d=a+b+c$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -482,12 +482,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "All points satisfying every constraint" },
+              { id: "a", text: "The objective function" },
               { id: "b", text: "The maximum profit" },
-              { id: "c", text: "The objective function" },
-              { id: "d", text: "The constraint lines" },
+              { id: "c", text: "The constraint lines" },
+              { id: "d", text: "All points satisfying every constraint" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -509,12 +509,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "7 at (3,4)" },
-              { id: "b", text: "4 at (0,4)" },
+              { id: "a", text: "4 at (0,4)" },
+              { id: "b", text: "7 at (3,4)" },
               { id: "c", text: "3 at (3,0)" },
               { id: "d", text: "12 at (3,4)" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -537,12 +537,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "6 at (2,3)" },
-              { id: "b", text: "5 at (5,0)" },
-              { id: "c", text: "8 at (4,4)" },
+              { id: "a", text: "5 at (5,0)" },
+              { id: "b", text: "8 at (4,4)" },
+              { id: "c", text: "6 at (2,3)" },
               { id: "d", text: "4 at (0,4)" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -597,12 +597,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The set of points satisfying all constraints simultaneously" },
+              { id: "a", text: "The region above the objective line" },
               { id: "b", text: "The line where the objective function is zero" },
-              { id: "c", text: "The region above the objective line" },
+              { id: "c", text: "The set of points satisfying all constraints simultaneously" },
               { id: "d", text: "Only the boundary lines of the constraints" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -641,12 +641,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Yes — $3+1=4\\le4$ and both coordinates non-negative" },
-              { id: "b", text: "No — $3+1>4$" },
-              { id: "c", text: "No — $x$ must be less than $y$" },
-              { id: "d", text: "Only if it is a vertex" },
+              { id: "a", text: "Only if it is a vertex" },
+              { id: "b", text: "No — $x$ must be less than $y$" },
+              { id: "c", text: "No — $3+1>4$" },
+              { id: "d", text: "Yes — $3+1=4\\le4$ and both coordinates non-negative" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -689,9 +689,9 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$(6,0)$ and $(0,3)$" },
-              { id: "b", text: "$(6,0)$ and $(0,6)$" },
+              { id: "b", text: "$(2,3)$ and $(6,0)$" },
               { id: "c", text: "$(3,0)$ and $(0,6)$" },
-              { id: "d", text: "$(2,3)$ and $(6,0)$" },
+              { id: "d", text: "$(6,0)$ and $(0,6)$" },
             ],
             correctChoiceId: "a",
           },
@@ -801,12 +801,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The constraint is satisfied with equality at the optimal point" },
-              { id: "b", text: "The constraint has no effect on the solution" },
-              { id: "c", text: "The constraint is violated at the optimum" },
-              { id: "d", text: "The objective function is zero" },
+              { id: "a", text: "The objective function is zero" },
+              { id: "b", text: "The constraint is violated at the optimum" },
+              { id: "c", text: "The constraint is satisfied with equality at the optimal point" },
+              { id: "d", text: "The constraint has no effect on the solution" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -829,12 +829,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Round the LP solution and re-check feasibility of nearby integer points" },
-              { id: "b", text: "The LP solution is automatically valid" },
-              { id: "c", text: "Integer solutions cannot exist" },
-              { id: "d", text: "Round up both coordinates always" },
+              { id: "a", text: "Integer solutions cannot exist" },
+              { id: "b", text: "Round up both coordinates always" },
+              { id: "c", text: "The LP solution is automatically valid" },
+              { id: "d", text: "Round the LP solution and re-check feasibility of nearby integer points" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

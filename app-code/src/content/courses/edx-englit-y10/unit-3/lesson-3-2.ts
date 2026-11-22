@@ -57,12 +57,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "That good and evil will become confused and appearances will deceive" },
-              { id: "b", text: "That the weather will be fine tomorrow" },
-              { id: "c", text: "That the Witches are fair and honest" },
-              { id: "d", text: "That Macbeth is the fairest of men" },
+              { id: "a", text: "That the weather will be fine tomorrow" },
+              { id: "b", text: "That the Witches are fair and honest" },
+              { id: "c", text: "That Macbeth is the fairest of men" },
+              { id: "d", text: "That good and evil will become confused and appearances will deceive" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Paradox", statement: "A seemingly contradictory phrase that reveals an inverted moral order." }],
@@ -189,12 +189,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Guilt that cannot be washed away" },
+              { id: "a", text: "A cooking accident" },
               { id: "b", text: "A wound from battle" },
-              { id: "c", text: "Lady Macbeth's love for Duncan" },
-              { id: "d", text: "A cooking accident" },
+              { id: "c", text: "Guilt that cannot be washed away" },
+              { id: "d", text: "Lady Macbeth's love for Duncan" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Symbolism", statement: "A recurring image represents an idea beyond itself." }],

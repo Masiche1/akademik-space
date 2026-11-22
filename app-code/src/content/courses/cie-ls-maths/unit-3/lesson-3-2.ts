@@ -53,8 +53,8 @@ export const lesson32: Lesson = {
             choices: [
               { id: "a", text: "$x = 5$" },
               { id: "b", text: "$x = 19$" },
-              { id: "c", text: "$x = -5$" },
-              { id: "d", text: "$x = 4$" },
+              { id: "c", text: "$x = 4$" },
+              { id: "d", text: "$x = -5$" },
             ],
             correctChoiceId: "a",
           },
@@ -148,6 +148,287 @@ export const lesson32: Lesson = {
             commonErrors: ["In (b) getting $x=3$ instead of $-3$ — check by substituting."],
           },
         },
+        {
+          id: "cilm-u3-eq-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Solve $2x = 14$.",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$x = 12$" },
+              { id: "b", text: "$x = 7$" },
+              { id: "c", text: "$x = 28$" },
+              { id: "d", text: "$x = 16$" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              { kind: "convention", name: "Inverse operations", statement: "Divide both sides by 2." },
+            ],
+            steps: [
+              { reasoning: "$x = 14 \\div 2 = 7$.", working: "x=7", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** $x = 7$",
+            commonErrors: ["Choosing (b) — subtracting 2 instead of dividing."],
+          },
+        },
+        {
+          id: "cilm-u3-eq-q6",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Solve $x - 5 = 8$.",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$x = 40$" },
+              { id: "b", text: "$x = 3$" },
+              { id: "c", text: "$x = 13$" },
+              { id: "d", text: "$x = -3$" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              { kind: "convention", name: "Inverse operations", statement: "Add 5 to both sides." },
+            ],
+            steps: [
+              { reasoning: "$x = 8 + 5 = 13$.", working: "x=13", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** $x = 13$",
+            commonErrors: ["Choosing (b) — $8-5$ subtracts instead of undoing subtraction."],
+          },
+        },
+        {
+          id: "cilm-u3-eq-q7",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Solve $3x + 1 = 16$.",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$x = 4$" },
+              { id: "b", text: "$x = 15$" },
+              { id: "c", text: "$x = 6$" },
+              { id: "d", text: "$x = 5$" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              { kind: "convention", name: "Two-step equations", statement: "Subtract 1, then divide by 3." },
+            ],
+            steps: [
+              { reasoning: "$3x = 15$ → $x = 5$.", working: "x=5", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** $x = 5$",
+            commonErrors: ["Choosing (b) — $16-1=15$, $15\\div3=5$ not 4."],
+          },
+        },
+        {
+          id: "cilm-u3-eq-q8",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Solve $2(x + 3) = 14$.",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$x = 8$" },
+              { id: "b", text: "$x = 4$" },
+              { id: "c", text: "$x = 5$" },
+              { id: "d", text: "$x = 11$" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              { kind: "convention", name: "Brackets first", statement: "Either expand ($2x+6=14$) or divide first ($x+3=7$)." },
+            ],
+            steps: [
+              { reasoning: "$x+3=7$ → $x=4$.", working: "x=4", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** $x = 4$",
+            commonErrors: ["Choosing (c) — $14\\div2=7$ gives $x+3$, not $x$; subtract 3."],
+          },
+        },
+        {
+          id: "cilm-u3-eq-q9",
+          difficulty: "challenge",
+          totalMarks: 1,
+          stem: "Solve $4x - 8 = 3x + 5$.",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$x = -13$" },
+              { id: "b", text: "$x = 13$" },
+              { id: "c", text: "$x = 11$" },
+              { id: "d", text: "$x = 3$" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Unknown on both sides", statement: "Collect $x$ terms and constants separately." },
+            ],
+            steps: [
+              { reasoning: "$4x-3x = 5+8$ → $x = 13$.", working: "x=13", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** $x = 13$",
+            commonErrors: ["Choosing (d) — $-8$ must move to the right as $+8$."],
+          },
+        },
+        {
+          id: "cilm-u3-eq-q10",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Solve $5x - 4 = 21$.",
+          response: { type: "numeric", parts: [{ label: "Answer", answer: 5 }] },
+          markscheme: {
+            principles: [
+              { kind: "convention", name: "Two-step equations", statement: "Add 4, then divide by 5." },
+            ],
+            steps: [
+              { reasoning: "$5x = 25$ → $x = 5$.", working: "x=5", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$x = 5$",
+            commonErrors: ["$x = 21 \\div 5$ — must add 4 first."],
+          },
+        },
+        {
+          id: "cilm-u3-eq-q11",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "Solve (a) $3x + 7 = 22$ (b) $4 - 2x = 10$.",
+          response: { type: "numeric", parts: [{ label: "(a)", answer: 5 }, { label: "(b)", answer: -3 }] },
+          markscheme: {
+            principles: [
+              { kind: "convention", name: "Inverse operations", statement: "Handle negative results carefully." },
+            ],
+            steps: [
+              { reasoning: "(a) $3x = 15$ → $x = 5$.", working: "x=5", marks: 1, markCode: "A" },
+              { reasoning: "(b) $-2x = 6$ → $x = -3$.", working: "x=-3", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "(a) $x = 5$ (b) $x = -3$",
+            commonErrors: ["In (b) $x = 3$ — check: $4-2(-3)=10$ ✓ but $4-2(3)=-2$ ✗."],
+          },
+        },
+        {
+          id: "cilm-u3-eq-q12",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "Solve $\\frac{x + 1}{4} = 3$.",
+          response: { type: "numeric", parts: [{ label: "Answer", answer: 11 }] },
+          markscheme: {
+            principles: [
+              { kind: "convention", name: "Fractional equations", statement: "Multiply both sides by the denominator." },
+            ],
+            steps: [
+              { reasoning: "$x+1 = 12$ → $x = 11$.", working: "x=11", marks: 1, markCode: "M" },
+              { reasoning: "Check: $\\frac{11+1}{4}=3$ ✓.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$x = 11$",
+            commonErrors: ["$x = 3 \\times 4 = 12$ — forgot to subtract 1 after multiplying."],
+          },
+        },
+        {
+          id: "cilm-u3-eq-q13",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "Solve $6x + 5 = 29$. Check your answer.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "convention", name: "Two-step equations", statement: "Undo addition, then multiplication; verify." },
+            ],
+            steps: [
+              { reasoning: "$6x = 24$ → $x = 4$.", working: "x=4", marks: 1, markCode: "M" },
+              { reasoning: "Solution found.", marks: 1, markCode: "A" },
+              { reasoning: "Check: $6(4)+5=24+5=29$ ✓.", working: "6\\times4+5=29", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$x = 4$",
+            commonErrors: ["Not checking — substituting back catches sign and arithmetic slips."],
+          },
+        },
+        {
+          id: "cilm-u3-eq-q14",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "Solve $2(2x - 1) = 3x + 4$.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Brackets and x on both sides", statement: "Expand first, then collect." },
+            ],
+            steps: [
+              { reasoning: "Expand: $4x - 2 = 3x + 4$.", working: "4x-2=3x+4", marks: 1, markCode: "M" },
+              { reasoning: "Collect: $x = 6$.", working: "x=6", marks: 1, markCode: "M" },
+              { reasoning: "Check: $2(2\\times6-1)=22$ and $3(6)+4=22$ ✓.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$x = 6$",
+            commonErrors: ["Expanding as $4x-1$ — the $-1$ inside brackets must also be doubled."],
+          },
+        },
+        {
+          id: "cilm-u3-eq-q15",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "Solve $5 - 3x = 20$.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Negative coefficients", statement: "Subtract 5, divide by $-3$ — keep track of signs." },
+            ],
+            steps: [
+              { reasoning: "$-3x = 15$.", working: "-3x=15", marks: 1, markCode: "M" },
+              { reasoning: "$x = 15 \\div (-3) = -5$.", working: "x=-5", marks: 1, markCode: "M" },
+              { reasoning: "Check: $5-3(-5)=5+15=20$ ✓.", working: "5+15=20", marks: 1, markCode: "M" },
+              { reasoning: "Answer: $x = -5$ — negative solutions are valid.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$x = -5$",
+            commonErrors: ["$x = 5$ — sign error when dividing by $-3$."],
+          },
+        },
+        {
+          id: "cilm-u3-eq-q16",
+          difficulty: "challenge",
+          totalMarks: 8,
+          stem: "Solve each equation.",
+          parts: [
+            { label: "a", prompt: "Solve $x + 9 = 15$.", marks: 2 },
+            { label: "b", prompt: "Solve $4x = 28$.", marks: 2 },
+            { label: "c", prompt: "Solve $3x - 5 = 16$.", marks: 2 },
+            { label: "d", prompt: "Solve $2(x + 4) = 18$.", marks: 2 },
+          ],
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "convention", name: "Inverse operations", statement: "Isolate $x$ step by step; check each answer." },
+            ],
+            steps: [
+              { part: "a", reasoning: "$x = 6$.", working: "x=6", marks: 1, markCode: "M" },
+              { part: "a", reasoning: "Correct.", marks: 1, markCode: "A" },
+              { part: "b", reasoning: "$x = 7$.", working: "x=7", marks: 1, markCode: "M" },
+              { part: "b", reasoning: "Correct.", marks: 1, markCode: "A" },
+              { part: "c", reasoning: "$3x = 21$ → $x = 7$.", working: "x=7", marks: 1, markCode: "M" },
+              { part: "c", reasoning: "Correct.", marks: 1, markCode: "A" },
+              { part: "d", reasoning: "$x+4=9$ → $x=5$.", working: "x=5", marks: 1, markCode: "M" },
+              { part: "d", reasoning: "Correct.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "(a) $x=6$ (b) $x=7$ (c) $x=7$ (d) $x=5$",
+            levels: [
+              { level: "Level 2", marks: "1-2", descriptor: "Correct.", part: "a" },
+              { level: "Level 1", marks: "0", descriptor: "Wrong.", part: "a" },
+              { level: "Level 2", marks: "1-2", descriptor: "Correct.", part: "b" },
+              { level: "Level 1", marks: "0", descriptor: "Wrong.", part: "b" },
+              { level: "Level 2", marks: "1-2", descriptor: "Correct.", part: "c" },
+              { level: "Level 1", marks: "0", descriptor: "Wrong.", part: "c" },
+              { level: "Level 2", marks: "1-2", descriptor: "Correct.", part: "d" },
+              { level: "Level 1", marks: "0", descriptor: "Wrong.", part: "d" },
+            ],
+            commonErrors: ["In (d) $18\\div2=9$ is $x+4$ — subtract 4 to get $x=5$."],
+          },
+        },
       ],
     },
     {
@@ -186,12 +467,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$2x = 18$" },
+              { id: "a", text: "$x^2 = 18$" },
               { id: "b", text: "$x + 2 = 18$" },
-              { id: "c", text: "$x^2 = 18$" },
-              { id: "d", text: "$2x + 18 = 0$" },
+              { id: "c", text: "$2x + 18 = 0$" },
+              { id: "d", text: "$2x = 18$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -281,6 +562,287 @@ export const lesson32: Lesson = {
               { level: "Level 1", marks: "0", descriptor: "Missing.", part: "d" },
             ],
             commonErrors: ["In (b) writing $2w+3+2w=42$ — perimeter needs BOTH pairs of sides."],
+          },
+        },
+        {
+          id: "cilm-u3-ctx-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Write an equation for: 'A number tripled is 27.'",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$3x = 27$" },
+              { id: "b", text: "$x^3 = 27$" },
+              { id: "c", text: "$x + 3 = 27$" },
+              { id: "d", text: "$3x + 27 = 0$" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              { kind: "convention", name: "Translation", statement: "'Tripled' means $\\times 3$." },
+            ],
+            steps: [
+              { reasoning: "Tripled $=3x$; equals 27 → $3x=27$.", working: "3x=27", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** $3x = 27$",
+            commonErrors: ["Choosing (b) — 'plus 3' is not 'tripled'."],
+          },
+        },
+        {
+          id: "cilm-u3-ctx-q6",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Write an equation for: '5 less than a number is 12.'",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$5x = 12$" },
+              { id: "b", text: "$x + 5 = 12$" },
+              { id: "c", text: "$x - 5 = 12$" },
+              { id: "d", text: "$5 - x = 12$" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              { kind: "convention", name: "Translation", statement: "'5 less than $x$' means $x-5$." },
+            ],
+            steps: [
+              { reasoning: "$x-5=12$.", working: "x-5=12", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** $x - 5 = 12$",
+            commonErrors: ["Choosing (b) — '5 less than a number' subtracts from the number, not the reverse."],
+          },
+        },
+        {
+          id: "cilm-u3-ctx-q7",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Write an equation for: 'Twice a number plus 3 is equal to 11.'",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$2x + 3 = 11$" },
+              { id: "b", text: "$2x - 3 = 11$" },
+              { id: "c", text: "$2(x + 3) = 11$" },
+              { id: "d", text: "$x + 6 = 11$" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              { kind: "convention", name: "Translation", statement: "'Twice a number' = $2x$; 'plus 3' = $+3$." },
+            ],
+            steps: [
+              { reasoning: "$2x+3=11$.", working: "2x+3=11", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** $2x + 3 = 11$",
+            commonErrors: ["Choosing (b) — 'twice (number plus 3)' differs from 'twice number plus 3'."],
+          },
+        },
+        {
+          id: "cilm-u3-ctx-q8",
+          difficulty: "challenge",
+          totalMarks: 1,
+          stem: "Which equation represents 'three consecutive integers sum to 45'?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$x + (x+3) + (x+6) = 45$" },
+              { id: "b", text: "$3x = 45$ only" },
+              { id: "c", text: "$x + x + x = 45$" },
+              { id: "d", text: "$x + (x+1) + (x+2) = 45$" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Consecutive integers", statement: "Consecutive integers differ by 1." },
+            ],
+            steps: [
+              { reasoning: "Consecutive integers are $x, x+1, x+2$ (differ by 1, not 3): $x+(x+1)+(x+2)=45$.", working: "x+(x+1)+(x+2)=45", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** $x + (x+1) + (x+2) = 45$",
+            commonErrors: ["Choosing (d) — step 3 applies to multiples of 3, not consecutive integers."],
+          },
+        },
+        {
+          id: "cilm-u3-ctx-q9",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Write an equation for: 'A number divided by 4 is equal to 6.'",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$\\frac{x}{4} = 6$" },
+              { id: "b", text: "$\\frac{4}{x} = 6$" },
+              { id: "c", text: "$x - 4 = 6$" },
+              { id: "d", text: "$4x = 6$" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              { kind: "convention", name: "Translation", statement: "'Divided by 4' puts $x$ over 4." },
+            ],
+            steps: [
+              { reasoning: "$\\frac{x}{4}=6$.", working: "\\frac{x}{4}=6", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** $\\frac{x}{4} = 6$",
+            commonErrors: ["Choosing (c) — 'divided by' is not 'multiplied by'."],
+          },
+        },
+        {
+          id: "cilm-u3-ctx-q10",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "A number plus 9 is 20. Find the number.",
+          response: { type: "numeric", parts: [{ label: "Answer", answer: 11 }] },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Word problems", statement: "Form $x+9=20$ and solve." },
+            ],
+            steps: [
+              { reasoning: "$x = 20 - 9 = 11$.", working: "x=11", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$11$",
+            commonErrors: ["$29$ — adding instead of subtracting."],
+          },
+        },
+        {
+          id: "cilm-u3-ctx-q11",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "(a) A number doubled is 18. Find the number. (b) A number minus 7 is 15. Find the number.",
+          response: { type: "numeric", parts: [{ label: "(a)", answer: 9 }, { label: "(b)", answer: 22 }] },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Word problems", statement: "Translate to equations and solve." },
+            ],
+            steps: [
+              { reasoning: "(a) $2x=18$ → $x=9$.", working: "x=9", marks: 1, markCode: "A" },
+              { reasoning: "(b) $x-7=15$ → $x=22$.", working: "x=22", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "(a) $9$ (b) $22$",
+            commonErrors: ["In (a) $x=36$ — halving needed after doubling."],
+          },
+        },
+        {
+          id: "cilm-u3-ctx-q12",
+          difficulty: "challenge",
+          totalMarks: 2,
+          stem: "The sum of three consecutive even numbers is $48$. Find the smallest number.",
+          response: { type: "numeric", parts: [{ label: "Answer", answer: 14 }] },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Consecutive even numbers", statement: "Step is 2: $x, x+2, x+4$; sum $=3x+6=48$." },
+            ],
+            steps: [
+              { reasoning: "$3x+6=48$ → $3x=42$ → $x=14$.", working: "x=14", marks: 1, markCode: "M" },
+              { reasoning: "Check: $14+16+18=48$ ✓ all even.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$14$",
+            commonErrors: ["Using step 1 — consecutive even numbers differ by 2."],
+          },
+        },
+        {
+          id: "cilm-u3-ctx-q13",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "The sum of a number and its double is $36$. Find the number.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Word problems", statement: "Number $=x$, double $=2x$; $x+2x=36$." },
+            ],
+            steps: [
+              { reasoning: "Equation: $x+2x=36$ → $3x=36$.", working: "3x=36", marks: 1, markCode: "M" },
+              { reasoning: "$x = 12$.", working: "x=12", marks: 1, markCode: "M" },
+              { reasoning: "Check: $12+24=36$ ✓.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$12$",
+            commonErrors: ["Writing $x+2=36$ — 'its double' is $2x$, not 2."],
+          },
+        },
+        {
+          id: "cilm-u3-ctx-q14",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "A number plus three times itself is $28$. Find the number.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Word problems", statement: "$x+3x=28$ → $4x=28$." },
+            ],
+            steps: [
+              { reasoning: "Equation: $x+3x=28$ → $4x=28$.", working: "4x=28", marks: 1, markCode: "M" },
+              { reasoning: "$x = 7$.", working: "x=7", marks: 1, markCode: "M" },
+              { reasoning: "Check: $7+21=28$ ✓.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$7$",
+            commonErrors: ["$4x=7$ — dividing before collecting like terms."],
+          },
+        },
+        {
+          id: "cilm-u3-ctx-q15",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "Two consecutive integers have a sum of $57$. Find the integers.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Consecutive integers", statement: "$x+(x+1)=57$ → $2x=56$." },
+            ],
+            steps: [
+              { reasoning: "Let integers be $x$ and $x+1$: $x+(x+1)=57$.", working: "x+(x+1)=57", marks: 1, markCode: "M" },
+              { reasoning: "$2x+1=57$ → $2x=56$ → $x=28$.", working: "x=28", marks: 1, markCode: "M" },
+              { reasoning: "Integers: $28$ and $29$.", working: "28,29", marks: 1, markCode: "M" },
+              { reasoning: "Check: $28+29=57$ ✓.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$28$ and $29$",
+            commonErrors: ["$28.5$ each — integers differ by 1, not equal shares."],
+          },
+        },
+        {
+          id: "cilm-u3-ctx-q16",
+          difficulty: "challenge",
+          totalMarks: 8,
+          stem: "A rectangle's length is twice its width. Its perimeter is $36$ cm.",
+          parts: [
+            { label: "a", prompt: "Write expressions for the width $w$ and length $l$.", marks: 2 },
+            { label: "b", prompt: "Form an equation for the perimeter and solve for $w$.", marks: 3 },
+            { label: "c", prompt: "Find the width and length.", marks: 2 },
+            { label: "d", prompt: "Verify using the perimeter formula.", marks: 1 },
+          ],
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Geometry word problems", statement: "Define variables → express relationships → equation → solve → verify." },
+            ],
+            steps: [
+              { part: "a", reasoning: "Width $=w$; length $=2w$.", working: "w, 2w", marks: 1, markCode: "M" },
+              { part: "a", reasoning: "Correct.", marks: 1, markCode: "A" },
+              { part: "b", reasoning: "$2(w+2w)=36$ or $2l+2w=36$ with $l=2w$.", working: "2(w+2w)=36", marks: 1, markCode: "M" },
+              { part: "b", reasoning: "$6w=36$ → $w=6$.", working: "w=6", marks: 1, markCode: "M" },
+              { part: "b", reasoning: "Correct solution.", marks: 1, markCode: "A" },
+              { part: "c", reasoning: "Width $=6$ cm; length $=12$ cm.", working: "6, 12", marks: 1, markCode: "M" },
+              { part: "c", reasoning: "Both correct.", marks: 1, markCode: "A" },
+              { part: "d", reasoning: "$2(12+6)=2(18)=36$ ✓.", working: "2(18)=36", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "(a) $w$, $2w$ (b) $w=6$ (c) $6$ cm $\\times$ $12$ cm (d) $2(18)=36$ ✓",
+            levels: [
+              { level: "Level 2", marks: "1-2", descriptor: "Expressions correct.", part: "a" },
+              { level: "Level 1", marks: "0", descriptor: "Wrong.", part: "a" },
+              { level: "Level 3", marks: "2-3", descriptor: "Equation + solution correct.", part: "b" },
+              { level: "Level 2", marks: "1", descriptor: "Partial.", part: "b" },
+              { level: "Level 2", marks: "1-2", descriptor: "Dimensions correct.", part: "c" },
+              { level: "Level 1", marks: "0", descriptor: "Wrong.", part: "c" },
+              { level: "Level 2", marks: "1", descriptor: "Verified.", part: "d" },
+              { level: "Level 1", marks: "0", descriptor: "Missing.", part: "d" },
+            ],
+            commonErrors: ["In (b) $2w+2w=36$ — perimeter uses $l+w$ inside the 2, i.e. $2(w+2w)$."],
           },
         },
       ],

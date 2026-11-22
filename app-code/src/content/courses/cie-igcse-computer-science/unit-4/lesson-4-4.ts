@@ -71,11 +71,11 @@ export const lesson44: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "One sentence" },
-              { id: "b", text: "Two explained points" },
-              { id: "c", text: "A list of ten facts" },
-              { id: "d", text: "Whatever fits" },
+              { id: "b", text: "A list of ten facts" },
+              { id: "c", text: "Whatever fits" },
+              { id: "d", text: "Two explained points" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -206,6 +206,414 @@ export const lesson44: Lesson = {
             ],
             finalAnswer:
               "Diagnose → targeted review → daily timed practice → exam-condition past papers",
+          },
+        },
+        {
+          id: "ciecs-u4-ex-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "In Paper 2, what should you do FIRST when you receive a programming task?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Check the clock" },
+              { id: "b", text: "Read and understand the whole task" },
+              { id: "c", text: "Write the hardest part first" },
+              { id: "d", text: "Start typing code immediately" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Paper 2 order",
+                statement: "Read all → pseudocode → code → trace.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Reading the full task first prevents building the wrong solution.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "**(b)** Read and understand the whole task",
+          },
+        },
+        {
+          id: "ciecs-u4-ex-q6",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "What is the best use of your final 5 minutes in a Paper 2 programming question?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Rewrite the whole program neatly" },
+              { id: "b", text: "Move on to another question" },
+              { id: "c", text: "Trace your code against the sample data and check indentation" },
+              { id: "d", text: "Add more features" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Check before finish",
+                statement: "Trace code and verify indentation.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Tracing against given sample data catches logic slips; indentation errors break Python.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "These checks protect marks already earned rather than risking new errors.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "**(b)** Trace your code against the sample data and check indentation",
+          },
+        },
+        {
+          id: "ciecs-u4-ex-q7",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "Explain why matching the depth of your answer to the mark allocation matters, using an example.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Marks = depth",
+                statement: "Marks indicate expected answer depth.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "1-mark questions need one fact only; extra padding does not earn more.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "Higher-mark questions need multiple explained points, e.g. 4 marks ≈ two points with reasons.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "Example: 'one benefit of encryption' at 1 mark vs 'explain two benefits' at 4 marks needs depth and justification.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "Match depth to marks: 1 mark = fact, 4+ marks = explained points",
+          },
+        },
+        {
+          id: "ciecs-u4-ex-q8",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "A structured question has parts marked 2, 4 and 6. What is the total number of marks?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 12 }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "skill",
+                name: "Mark allocation",
+                statement: "Total marks = sum of part marks.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "2 + 4 + 6 = 12 marks total.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "12",
+          },
+        },
+        {
+          id: "ciecs-u4-ex-q9",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "What does 'eliminate then verify' mean when answering multiple-choice questions?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Skip all MCQs" },
+              { id: "b", text: "Guess first, then check the answer" },
+              { id: "c", text: "Answer every question randomly" },
+              { id: "d", text: "Remove obviously wrong options, then verify the remaining ones" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "MCQ strategy",
+                statement: "Eliminate then verify.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Removing clearly wrong options narrows the choice before careful verification.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "**(b)** Remove obviously wrong options, then verify the remaining ones",
+          },
+        },
+        {
+          id: "ciecs-u4-ex-q10",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "Describe a three-step revision cycle for preparing theory topics for Paper 1.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Revision cycle",
+                statement: "Diagnose → review → practice.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Step 1: review the topic and identify gaps (diagnose).",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "Step 2: study/revise the weak areas and key definitions.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "Step 3: test with past-paper questions and review errors.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "Diagnose gaps → revise weak areas → practice and review errors",
+          },
+        },
+        {
+          id: "ciecs-u4-ex-q11",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "You finish a Paper 2 programming task with 8 minutes left. Outline exactly what you should do in that time.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Time management",
+                statement: "Reserve time to check, not to rewrite.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Trace the program line by line against the sample data given in the question.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "Check every indented block belongs to the correct loop or if statement.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "Verify outputs match what the question requires, e.g. format and order.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "Fix only confirmed errors; avoid risky last-minute rewrites.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "Trace against sample data → check indentation → verify output → fix confirmed errors only",
+          },
+        },
+        {
+          id: "ciecs-u4-ex-q12",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Why do vague definitions like 'a computer that does things' lose marks in Paper 1?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "They are too short to count" },
+              { id: "b", text: "Paper 1 does not test definitions" },
+              { id: "c", text: "They use the wrong language" },
+              { id: "d", text: "They are not precise enough to show understanding" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Precise definitions",
+                statement: "Definitions must state the essential function.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Examiner markschemes require specific, accurate statements of what something does.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "**(b)** They are not precise enough to show understanding",
+          },
+        },
+        {
+          id: "ciecs-u4-ex-q13",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "A student always answers the hardest questions first in Paper 1 and often runs out of time. Explain the problem with this approach and recommend a better strategy.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Time management",
+                statement: "Secure marks in order; hardest-first risks unfinished easy marks.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Problem: difficult questions consume time, leaving easy marks unanswered at the end.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "Problem: running out of time means later questions get no attempt at all.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "Strategy: answer questions in order or by confidence, securing marks steadily.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "Strategy: flag difficult questions, return to them with remaining time.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "Hardest-first risks unanswered easy marks; answer in order, flag and return",
+          },
+        },
+        {
+          id: "ciecs-u4-ex-q14",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Why is checking indentation especially important in Python answers for Paper 2?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "It makes the code look neat" },
+              { id: "b", text: "It is not important" },
+              { id: "c", text: "Python uses indentation to define code blocks" },
+              { id: "d", text: "Examiners only award marks for neat code" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Indentation",
+                statement: "Defines block membership in Python.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Wrong indentation changes which statements belong to a loop or if block — it can break the program's logic.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "**(b)** Python uses indentation to define code blocks",
+          },
+        },
+        {
+          id: "ciecs-u4-ex-q15",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "A past paper section has 25 multiple-choice questions worth 1 mark each and one programming question worth 15 marks. What percentage of the total marks are from the MCQs?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 62.5, tolerance: 0.1 }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "skill",
+                name: "Mark weighting",
+                statement: "Percentage = part marks / total marks × 100.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "MCQ marks = 25 × 1 = 25; total = 25 + 15 = 40.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "25 / 40 × 100 = 62.5%.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "62.5%",
+          },
+        },
+        {
+          id: "ciecs-u4-ex-q16",
+          difficulty: "challenge",
+          totalMarks: 1,
+          stem: "What is the most effective way to use official mark schemes when reviewing your past-paper answers?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Copy the model answers into your notes" },
+              { id: "b", text: "Memorise the mark scheme word for word" },
+              { id: "c", text: "Compare your answer point-by-point to see which marks you missed and why" },
+              { id: "d", text: "Ignore them — they only help examiners" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Mark scheme review",
+                statement: "Identify missed points and the reasons for them.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Point-by-point comparison reveals exactly which knowledge or technique cost marks.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "**(b)** Compare your answer point-by-point to see which marks you missed and why",
           },
         },
       ],

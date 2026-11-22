@@ -54,9 +54,9 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Moles of solute per kilogram of solvent" },
-              { id: "b", text: "Grams of solute per liter of solution" },
-              { id: "c", text: "Moles of solute per liter of solvent" },
+              { id: "a", text: "Grams of solute per liter of solution" },
+              { id: "b", text: "Moles of solute per liter of solvent" },
+              { id: "c", text: "Moles of solute per kilogram of solvent" },
               { id: "d", text: "Moles of solute per liter of solution" },
             ],
             correctChoiceId: "d",
@@ -176,10 +176,10 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The color of the solution" },
+              { id: "a", text: "The identity of the dissolved particles" },
               { id: "b", text: "The freezing point of the solution" },
               { id: "c", text: "The smell of the solution" },
-              { id: "d", text: "The identity of the dissolved particles" },
+              { id: "d", text: "The color of the solution" },
             ],
             correctChoiceId: "b",
           },

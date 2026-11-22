@@ -91,15 +91,15 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "Joining of light nuclei" },
               {
-                id: "a",
+                id: "b",
                 text: "Splitting of a heavy nucleus into lighter fragments",
               },
-              { id: "b", text: "Joining of light nuclei" },
               { id: "c", text: "Emission of alpha particles" },
               { id: "d", text: "Absorption of neutrons only" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -324,12 +324,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Absorb all neutrons" },
-              { id: "b", text: "Slow neutrons to thermal energies" },
-              { id: "c", text: "Cool the reactor core directly" },
-              { id: "d", text: "Enrich the uranium fuel" },
+              { id: "a", text: "Slow neutrons to thermal energies" },
+              { id: "b", text: "Cool the reactor core directly" },
+              { id: "c", text: "Enrich the uranium fuel" },
+              { id: "d", text: "Absorb all neutrons" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -370,16 +370,16 @@ export const lesson63: Lesson = {
             choices: [
               {
                 id: "a",
-                text: "The smallest mass that can undergo alpha decay",
-              },
-              {
-                id: "b",
                 text: "The minimum mass of fissile material needed for a self-sustaining chain reaction",
               },
-              { id: "c", text: "The maximum safe reactor fuel mass" },
-              { id: "d", text: "The mass of one fission fragment" },
+              { id: "b", text: "The maximum safe reactor fuel mass" },
+              { id: "c", text: "The mass of one fission fragment" },
+              {
+                id: "d",
+                text: "The smallest mass that can undergo alpha decay",
+              },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -420,11 +420,11 @@ export const lesson63: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Emit neutrons" },
-              { id: "b", text: "Absorb neutrons strongly" },
-              { id: "c", text: "Increase the fuel temperature" },
+              { id: "b", text: "Increase the fuel temperature" },
+              { id: "c", text: "Absorb neutrons strongly" },
               { id: "d", text: "Reflect neutrons back into the core" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -463,12 +463,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Gamma rays leaving the core" },
-              { id: "b", text: "Kinetic energy of fission fragments" },
-              { id: "c", text: "Chemical reactions in the coolant" },
+              { id: "a", text: "Chemical reactions in the coolant" },
+              { id: "b", text: "Gamma rays leaving the core" },
+              { id: "c", text: "Kinetic energy of fission fragments" },
               { id: "d", text: "The moderator slowing neutrons" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -509,16 +509,16 @@ export const lesson63: Lesson = {
             choices: [
               {
                 id: "a",
-                text: "Each fission causes fewer than one further fission",
-              },
-              {
-                id: "b",
                 text: "Each fission causes exactly one further fission",
               },
-              { id: "c", text: "Each fission causes three further fissions" },
-              { id: "d", text: "No neutrons are emitted" },
+              { id: "b", text: "Each fission causes three further fissions" },
+              { id: "c", text: "No neutrons are emitted" },
+              {
+                id: "d",
+                text: "Each fission causes fewer than one further fission",
+              },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -949,15 +949,15 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "Splitting of heavy nucleus" },
+              { id: "b", text: "Emission of gamma rays" },
               {
-                id: "a",
+                id: "c",
                 text: "Joining of light nuclei to form heavier nucleus",
               },
-              { id: "b", text: "Splitting of heavy nucleus" },
-              { id: "c", text: "Emission of gamma rays" },
               { id: "d", text: "Beta decay" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1186,9 +1186,9 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Heavy nuclei such as uranium" },
+              { id: "a", text: "Only alpha particles" },
               { id: "b", text: "Light nuclei or hydrogen isotopes" },
-              { id: "c", text: "Only alpha particles" },
+              { id: "c", text: "Heavy nuclei such as uranium" },
               { id: "d", text: "Neutrons and electrons" },
             ],
             correctChoiceId: "b",
@@ -1230,13 +1230,13 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Ionise surrounding atoms" },
+              { id: "a", text: "Emit gamma rays continuously" },
               {
                 id: "b",
                 text: "Overcome their mutual electrostatic repulsion",
               },
               { id: "c", text: "Increase their mass number" },
-              { id: "d", text: "Emit gamma rays continuously" },
+              { id: "d", text: "Ionise surrounding atoms" },
             ],
             correctChoiceId: "b",
           },
@@ -1278,11 +1278,11 @@ export const lesson63: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$200\\text{ MeV}$" },
-              { id: "b", text: "$17.6\\text{ MeV}$" },
+              { id: "b", text: "$931\\text{ MeV}$" },
               { id: "c", text: "$0.5\\text{ MeV}$" },
-              { id: "d", text: "$931\\text{ MeV}$" },
+              { id: "d", text: "$17.6\\text{ MeV}$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1319,13 +1319,13 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Cool the fuel to room temperature" },
+              { id: "a", text: "Replace the need for high temperature" },
               {
                 id: "b",
                 text: "Keep the hot plasma together long enough for fusion",
               },
               { id: "c", text: "Convert neutrons into protons" },
-              { id: "d", text: "Replace the need for high temperature" },
+              { id: "d", text: "Cool the fuel to room temperature" },
             ],
             correctChoiceId: "b",
           },
@@ -1366,18 +1366,18 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Rare and difficult to extract" },
               {
-                id: "b",
+                id: "a",
                 text: "Abundant and produces little long-lived radioactive waste",
               },
+              { id: "b", text: "Rare and difficult to extract" },
               {
                 id: "c",
                 text: "Already a proven baseload technology worldwide",
               },
               { id: "d", text: "Capable of a runaway chain reaction" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

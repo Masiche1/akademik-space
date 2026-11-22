@@ -54,9 +54,9 @@ export const lesson12: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Caterpillar" },
-              { id: "b", text: "Pupa" },
+              { id: "b", text: "Adult butterfly" },
               { id: "c", text: "Egg" },
-              { id: "d", text: "Adult butterfly" },
+              { id: "d", text: "Pupa" },
             ],
             correctChoiceId: "c",
           },
@@ -145,8 +145,8 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Seedling" },
-              { id: "b", text: "Flower" },
+              { id: "a", text: "Flower" },
+              { id: "b", text: "Seedling" },
               { id: "c", text: "Seed" },
               { id: "d", text: "Fruit" },
             ],
@@ -210,12 +210,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Pupa" },
-              { id: "b", text: "Larva" },
+              { id: "a", text: "Larva" },
+              { id: "b", text: "Pupa" },
               { id: "c", text: "Egg" },
               { id: "d", text: "Adult" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -277,12 +277,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Water, warmth and light" },
-              { id: "b", text: "Only toys" },
-              { id: "c", text: "Only darkness" },
-              { id: "d", text: "Only wind" },
+              { id: "a", text: "Only toys" },
+              { id: "b", text: "Water, warmth and light" },
+              { id: "c", text: "Only wind" },
+              { id: "d", text: "Only darkness" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -343,12 +343,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Egg, caterpillar, chrysalis, adult" },
-              { id: "b", text: "Egg, chrysalis, caterpillar, adult" },
-              { id: "c", text: "Adult, egg, caterpillar, chrysalis" },
-              { id: "d", text: "Caterpillar, egg, adult, chrysalis" },
+              { id: "a", text: "Caterpillar, egg, adult, chrysalis" },
+              { id: "b", text: "Adult, egg, caterpillar, chrysalis" },
+              { id: "c", text: "Egg, caterpillar, chrysalis, adult" },
+              { id: "d", text: "Egg, chrysalis, caterpillar, adult" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -391,12 +391,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "To eat leaves quickly" },
-              { id: "b", text: "To protect the body while it changes into an adult" },
-              { id: "c", text: "To lay eggs" },
-              { id: "d", text: "To fly to a new habitat" },
+              { id: "a", text: "To fly to a new habitat" },
+              { id: "b", text: "To lay eggs" },
+              { id: "c", text: "To protect the body while it changes into an adult" },
+              { id: "d", text: "To eat leaves quickly" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -445,12 +445,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Only food" },
-              { id: "b", text: "Food, water, shelter and space" },
-              { id: "c", text: "Only water" },
-              { id: "d", text: "Toys and games" },
+              { id: "a", text: "Toys and games" },
+              { id: "b", text: "Only water" },
+              { id: "c", text: "Only food" },
+              { id: "d", text: "Food, water, shelter and space" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -537,10 +537,10 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Only toys" },
+              { id: "a", text: "Only air" },
               { id: "b", text: "Food, water, shelter and space" },
               { id: "c", text: "Only sunshine" },
-              { id: "d", text: "Only air" },
+              { id: "d", text: "Only toys" },
             ],
             correctChoiceId: "b",
           },
@@ -602,12 +602,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Stores fat for energy during long journeys without much food" },
-              { id: "b", text: "Helps it fly" },
-              { id: "c", text: "Makes it see better" },
-              { id: "d", text: "Stops all water loss" },
+              { id: "a", text: "Helps it fly" },
+              { id: "b", text: "Makes it see better" },
+              { id: "c", text: "Stops all water loss" },
+              { id: "d", text: "Stores fat for energy during long journeys without much food" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -669,12 +669,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Long ears" },
-              { id: "b", text: "Webbed feet" },
-              { id: "c", text: "Sharp claws" },
-              { id: "d", text: "A long tail" },
+              { id: "a", text: "Sharp claws" },
+              { id: "b", text: "A long tail" },
+              { id: "c", text: "Webbed feet" },
+              { id: "d", text: "Long ears" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -736,11 +736,11 @@ export const lesson12: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "The animal looks fluffy" },
-              { id: "b", text: "The animal stays warm in freezing conditions because of its thick coat" },
-              { id: "c", text: "The animal has many colours" },
-              { id: "d", text: "The animal eats only fish" },
+              { id: "b", text: "The animal has many colours" },
+              { id: "c", text: "The animal eats only fish" },
+              { id: "d", text: "The animal stays warm in freezing conditions because of its thick coat" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -784,12 +784,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Its fins cannot move on land" },
-              { id: "b", text: "Its gills need water to get oxygen" },
-              { id: "c", text: "It has no bones" },
-              { id: "d", text: "It cannot see on land" },
+              { id: "a", text: "Its gills need water to get oxygen" },
+              { id: "b", text: "Its fins cannot move on land" },
+              { id: "c", text: "It cannot see on land" },
+              { id: "d", text: "It has no bones" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

@@ -110,12 +110,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Rate of change of displacement" },
-              { id: "b", text: "Rate of change of speed" },
+              { id: "a", text: "Time only" },
+              { id: "b", text: "Rate of change of displacement" },
               { id: "c", text: "Total distance" },
-              { id: "d", text: "Time only" },
+              { id: "d", text: "Rate of change of speed" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -138,9 +138,9 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Rate of change of velocity" },
-              { id: "b", text: "Rate of change of distance" },
+              { id: "b", text: "Force" },
               { id: "c", text: "Speed" },
-              { id: "d", text: "Force" },
+              { id: "d", text: "Rate of change of distance" },
             ],
             correctChoiceId: "a",
           },
@@ -160,12 +160,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Distance in a specific direction — vector" },
-              { id: "b", text: "Total distance — scalar" },
+              { id: "a", text: "Total distance — scalar" },
+              { id: "b", text: "Distance in a specific direction — vector" },
               { id: "c", text: "Speed" },
               { id: "d", text: "Acceleration" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -189,15 +189,15 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "Force" },
+              { id: "b", text: "Only displacement" },
               {
-                id: "a",
+                id: "c",
                 text: "Final velocity, initial velocity, acceleration, time",
               },
-              { id: "b", text: "Only velocity" },
-              { id: "c", text: "Only displacement" },
-              { id: "d", text: "Force" },
+              { id: "d", text: "Only velocity" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -215,12 +215,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Constant" },
-              { id: "b", text: "Increasing" },
-              { id: "c", text: "Decreasing" },
-              { id: "d", text: "Zero only" },
+              { id: "a", text: "Increasing" },
+              { id: "b", text: "Constant" },
+              { id: "c", text: "Zero only" },
+              { id: "d", text: "Decreasing" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -244,12 +244,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "9.81 m/s²" },
-              { id: "b", text: "3.7 m/s²" },
-              { id: "c", text: "1.6 m/s²" },
+              { id: "a", text: "3.7 m/s²" },
+              { id: "b", text: "1.6 m/s²" },
+              { id: "c", text: "9.81 m/s²" },
               { id: "d", text: "10 m/s" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -267,12 +267,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Displacement" },
+              { id: "a", text: "Force" },
               { id: "b", text: "Acceleration" },
-              { id: "c", text: "Force" },
+              { id: "c", text: "Displacement" },
               { id: "d", text: "Energy" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -295,9 +295,9 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Velocity" },
-              { id: "b", text: "Acceleration" },
+              { id: "b", text: "Energy" },
               { id: "c", text: "Force" },
-              { id: "d", text: "Energy" },
+              { id: "d", text: "Acceleration" },
             ],
             correctChoiceId: "a",
           },
@@ -323,12 +323,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Acceleration" },
-              { id: "b", text: "Velocity" },
-              { id: "c", text: "Force" },
-              { id: "d", text: "Energy" },
+              { id: "a", text: "Energy" },
+              { id: "b", text: "Acceleration" },
+              { id: "c", text: "Velocity" },
+              { id: "d", text: "Force" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -352,12 +352,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "g downward" },
-              { id: "b", text: "g upward" },
-              { id: "c", text: "Zero" },
-              { id: "d", text: "Variable" },
+              { id: "a", text: "Zero" },
+              { id: "b", text: "g downward" },
+              { id: "c", text: "Variable" },
+              { id: "d", text: "g upward" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -381,12 +381,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Scalar magnitude of velocity" },
-              { id: "b", text: "Vector" },
+              { id: "a", text: "Vector" },
+              { id: "b", text: "Scalar magnitude of velocity" },
               { id: "c", text: "Always positive vector" },
               { id: "d", text: "Acceleration" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -406,12 +406,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "v (final velocity)" },
-              { id: "b", text: "u" },
-              { id: "c", text: "a" },
-              { id: "d", text: "t" },
+              { id: "a", text: "t" },
+              { id: "b", text: "v (final velocity)" },
+              { id: "c", text: "u" },
+              { id: "d", text: "a" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -433,12 +433,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Gravity acts downward opposing motion" },
-              { id: "b", text: "Air resistance only" },
-              { id: "c", text: "No force" },
+              { id: "a", text: "No force" },
+              { id: "b", text: "Gravity acts downward opposing motion" },
+              { id: "c", text: "Air resistance only" },
               { id: "d", text: "It speeds up" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -462,12 +462,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Zero (instantaneously)" },
+              { id: "a", text: "Initial value" },
               { id: "b", text: "Maximum" },
-              { id: "c", text: "Initial value" },
-              { id: "d", text: "Negative" },
+              { id: "c", text: "Negative" },
+              { id: "d", text: "Zero (instantaneously)" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -489,12 +489,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Total displacement ÷ total time" },
-              { id: "b", text: "Total distance ÷ time" },
+              { id: "a", text: "Total distance ÷ time" },
+              { id: "b", text: "Total displacement ÷ total time" },
               { id: "c", text: "Maximum velocity" },
               { id: "d", text: "Final velocity" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -517,8 +517,8 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "A specific instant" },
-              { id: "b", text: "Average over trip" },
-              { id: "c", text: "Start only" },
+              { id: "b", text: "Start only" },
+              { id: "c", text: "Average over trip" },
               { id: "d", text: "End only" },
             ],
             correctChoiceId: "a",
@@ -550,8 +550,8 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Zero" },
-              { id: "b", text: "g" },
-              { id: "c", text: "Increasing" },
+              { id: "b", text: "Increasing" },
+              { id: "c", text: "g" },
               { id: "d", text: "Negative" },
             ],
             correctChoiceId: "a",
@@ -578,12 +578,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Time is not given" },
-              { id: "b", text: "Only time given" },
+              { id: "a", text: "Only time given" },
+              { id: "b", text: "Time is not given" },
               { id: "c", text: "Never useful" },
               { id: "d", text: "Only for force" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -605,15 +605,15 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "No motion" },
               {
-                id: "a",
+                id: "b",
                 text: "Constant horizontal velocity + vertical acceleration",
               },
-              { id: "b", text: "Acceleration in both directions" },
-              { id: "c", text: "No motion" },
+              { id: "c", text: "Acceleration in both directions" },
               { id: "d", text: "Circular motion" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -764,12 +764,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Decreasing in positive direction" },
-              { id: "b", text: "Increasing" },
+              { id: "a", text: "Always down" },
+              { id: "b", text: "Decreasing in positive direction" },
               { id: "c", text: "Zero" },
-              { id: "d", text: "Always down" },
+              { id: "d", text: "Increasing" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -860,12 +860,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "m/s²" },
-              { id: "b", text: "m/s" },
-              { id: "c", text: "m" },
-              { id: "d", text: "s" },
+              { id: "a", text: "m/s" },
+              { id: "b", text: "s" },
+              { id: "c", text: "m/s²" },
+              { id: "d", text: "m" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1030,15 +1030,15 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "F = ma" },
+              { id: "b", text: "No law" },
               {
-                id: "a",
+                id: "c",
                 text: "Object stays at rest/uniform motion unless force acts",
               },
-              { id: "b", text: "F = ma" },
-              { id: "c", text: "Action-reaction" },
-              { id: "d", text: "No law" },
+              { id: "d", text: "Action-reaction" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1056,12 +1056,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "F = ma" },
+              { id: "a", text: "F = m/v" },
               { id: "b", text: "F = mv" },
               { id: "c", text: "F = mg" },
-              { id: "d", text: "F = m/v" },
+              { id: "d", text: "F = ma" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1079,12 +1079,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Every action has equal opposite reaction" },
-              { id: "b", text: "F = ma" },
-              { id: "c", text: "Inertia" },
-              { id: "d", text: "No law" },
+              { id: "a", text: "F = ma" },
+              { id: "b", text: "Inertia" },
+              { id: "c", text: "No law" },
+              { id: "d", text: "Every action has equal opposite reaction" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1108,12 +1108,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "W = mg" },
+              { id: "a", text: "W = m/g" },
               { id: "b", text: "W = ma" },
-              { id: "c", text: "W = mv" },
-              { id: "d", text: "W = m/g" },
+              { id: "c", text: "W = mg" },
+              { id: "d", text: "W = mv" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1131,12 +1131,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Opposite to motion" },
-              { id: "b", text: "In direction of motion" },
-              { id: "c", text: "Perpendicular" },
-              { id: "d", text: "No direction" },
+              { id: "a", text: "No direction" },
+              { id: "b", text: "Perpendicular" },
+              { id: "c", text: "Opposite to motion" },
+              { id: "d", text: "In direction of motion" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1161,9 +1161,9 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Perpendicular to surface" },
-              { id: "b", text: "Parallel to surface" },
+              { id: "b", text: "Upward only" },
               { id: "c", text: "Downward" },
-              { id: "d", text: "Upward only" },
+              { id: "d", text: "Parallel to surface" },
             ],
             correctChoiceId: "a",
           },
@@ -1189,12 +1189,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Along a rope/string" },
-              { id: "b", text: "Perpendicular" },
-              { id: "c", text: "Downward" },
-              { id: "d", text: "No direction" },
+              { id: "a", text: "Perpendicular" },
+              { id: "b", text: "Downward" },
+              { id: "c", text: "No direction" },
+              { id: "d", text: "Along a rope/string" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1214,12 +1214,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "μN (coefficient × normal force)" },
-              { id: "b", text: "mg" },
-              { id: "c", text: "ma" },
-              { id: "d", text: "mv" },
+              { id: "a", text: "ma" },
+              { id: "b", text: "mv" },
+              { id: "c", text: "μN (coefficient × normal force)" },
+              { id: "d", text: "mg" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1237,12 +1237,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Zero" },
-              { id: "b", text: "Maximum" },
-              { id: "c", text: "Variable" },
+              { id: "a", text: "Maximum" },
+              { id: "b", text: "Variable" },
+              { id: "c", text: "Zero" },
               { id: "d", text: "Negative" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1262,12 +1262,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Newtons (N)" },
-              { id: "b", text: "Joules" },
-              { id: "c", text: "Watts" },
-              { id: "d", text: "Pascals" },
+              { id: "a", text: "Pascals" },
+              { id: "b", text: "Newtons (N)" },
+              { id: "c", text: "Joules" },
+              { id: "d", text: "Watts" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1285,12 +1285,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "F cos θ" },
+              { id: "a", text: "F tan θ" },
               { id: "b", text: "F sin θ" },
-              { id: "c", text: "F tan θ" },
-              { id: "d", text: "F/θ" },
+              { id: "c", text: "F/θ" },
+              { id: "d", text: "F cos θ" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1312,12 +1312,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "F sin θ" },
-              { id: "b", text: "F cos θ" },
-              { id: "c", text: "F tan θ" },
+              { id: "a", text: "F tan θ" },
+              { id: "b", text: "F sin θ" },
+              { id: "c", text: "F cos θ" },
               { id: "d", text: "F/θ" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1339,12 +1339,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "mg sin θ" },
-              { id: "b", text: "mg cos θ" },
-              { id: "c", text: "mg tan θ" },
-              { id: "d", text: "mg" },
+              { id: "a", text: "mg tan θ" },
+              { id: "b", text: "mg" },
+              { id: "c", text: "mg sin θ" },
+              { id: "d", text: "mg cos θ" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1368,12 +1368,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "mg cos θ" },
-              { id: "b", text: "mg sin θ" },
-              { id: "c", text: "mg tan θ" },
-              { id: "d", text: "mg" },
+              { id: "a", text: "mg" },
+              { id: "b", text: "mg tan θ" },
+              { id: "c", text: "mg sin θ" },
+              { id: "d", text: "mg cos θ" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1395,12 +1395,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "10 N" },
+              { id: "a", text: "0.4 N" },
               { id: "b", text: "2.5 N" },
               { id: "c", text: "7 N" },
-              { id: "d", text: "0.4 N" },
+              { id: "d", text: "10 N" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1418,12 +1418,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Different objects" },
-              { id: "b", text: "Same object" },
-              { id: "c", text: "No objects" },
-              { id: "d", text: "One object only" },
+              { id: "a", text: "No objects" },
+              { id: "b", text: "One object only" },
+              { id: "c", text: "Same object" },
+              { id: "d", text: "Different objects" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1451,12 +1451,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "19.62 N" },
-              { id: "b", text: "9.81 N" },
-              { id: "c", text: "2 N" },
-              { id: "d", text: "4.9 N" },
+              { id: "a", text: "9.81 N" },
+              { id: "b", text: "4.9 N" },
+              { id: "c", text: "19.62 N" },
+              { id: "d", text: "2 N" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1478,12 +1478,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Acts on stationary object to prevent motion" },
-              { id: "b", text: "Acts on moving object" },
-              { id: "c", text: "Always zero" },
-              { id: "d", text: "Acts upward" },
+              { id: "a", text: "Acts on moving object" },
+              { id: "b", text: "Acts upward" },
+              { id: "c", text: "Acts on stationary object to prevent motion" },
+              { id: "d", text: "Always zero" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1512,9 +1512,9 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Moving" },
-              { id: "b", text: "Stationary" },
-              { id: "c", text: "At rest" },
-              { id: "d", text: "Floating" },
+              { id: "b", text: "At rest" },
+              { id: "c", text: "Floating" },
+              { id: "d", text: "Stationary" },
             ],
             correctChoiceId: "a",
           },
@@ -1672,12 +1672,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Vector sum of all forces" },
-              { id: "b", text: "Largest force" },
-              { id: "c", text: "Smallest force" },
+              { id: "a", text: "Largest force" },
+              { id: "b", text: "Smallest force" },
+              { id: "c", text: "Vector sum of all forces" },
               { id: "d", text: "No force" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1761,9 +1761,9 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Net force" },
-              { id: "b", text: "Single force" },
-              { id: "c", text: "Weight only" },
-              { id: "d", text: "No force" },
+              { id: "b", text: "Weight only" },
+              { id: "c", text: "No force" },
+              { id: "d", text: "Single force" },
             ],
             correctChoiceId: "a",
           },
@@ -1927,12 +1927,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Mass × velocity" },
-              { id: "b", text: "Force × time" },
-              { id: "c", text: "Mass × acceleration" },
-              { id: "d", text: "Velocity only" },
+              { id: "a", text: "Mass × acceleration" },
+              { id: "b", text: "Velocity only" },
+              { id: "c", text: "Force × time" },
+              { id: "d", text: "Mass × velocity" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1951,9 +1951,9 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Force × time" },
-              { id: "b", text: "Mass × velocity" },
+              { id: "b", text: "Power" },
               { id: "c", text: "Energy" },
-              { id: "d", text: "Power" },
+              { id: "d", text: "Mass × velocity" },
             ],
             correctChoiceId: "a",
           },
@@ -1973,12 +1973,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Change in momentum" },
+              { id: "a", text: "Force" },
               { id: "b", text: "Total momentum" },
-              { id: "c", text: "Kinetic energy" },
-              { id: "d", text: "Force" },
+              { id: "c", text: "Change in momentum" },
+              { id: "d", text: "Kinetic energy" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -2000,12 +2000,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "No external force acts" },
+              { id: "a", text: "Never" },
               { id: "b", text: "External force acts" },
               { id: "c", text: "Always" },
-              { id: "d", text: "Never" },
+              { id: "d", text: "No external force acts" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -2033,12 +2033,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Momentum and kinetic energy" },
-              { id: "b", text: "Momentum only" },
-              { id: "c", text: "Energy only" },
-              { id: "d", text: "Nothing" },
+              { id: "a", text: "Momentum only" },
+              { id: "b", text: "Energy only" },
+              { id: "c", text: "Nothing" },
+              { id: "d", text: "Momentum and kinetic energy" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -2062,12 +2062,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Momentum only — KE lost" },
-              { id: "b", text: "Momentum and KE" },
-              { id: "c", text: "KE only" },
-              { id: "d", text: "Nothing" },
+              { id: "a", text: "Momentum and KE" },
+              { id: "b", text: "Nothing" },
+              { id: "c", text: "Momentum only — KE lost" },
+              { id: "d", text: "KE only" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -2091,12 +2091,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "kg m/s" },
-              { id: "b", text: "N" },
-              { id: "c", text: "J" },
-              { id: "d", text: "W" },
+              { id: "a", text: "N" },
+              { id: "b", text: "W" },
+              { id: "c", text: "kg m/s" },
+              { id: "d", text: "J" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -2118,12 +2118,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "N s" },
+              { id: "a", text: "J" },
               { id: "b", text: "kg m/s" },
-              { id: "c", text: "J" },
+              { id: "c", text: "N s" },
               { id: "d", text: "W" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -2145,12 +2145,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Increasing impact time → decreasing force" },
-              { id: "b", text: "Decreasing time" },
-              { id: "c", text: "Increasing force" },
-              { id: "d", text: "No effect" },
+              { id: "a", text: "Increasing force" },
+              { id: "b", text: "No effect" },
+              { id: "c", text: "Decreasing time" },
+              { id: "d", text: "Increasing impact time → decreasing force" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -2171,9 +2171,9 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "10 kg m/s" },
-              { id: "b", text: "7 kg m/s" },
-              { id: "c", text: "2.5 kg m/s" },
-              { id: "d", text: "0.4 kg m/s" },
+              { id: "b", text: "2.5 kg m/s" },
+              { id: "c", text: "0.4 kg m/s" },
+              { id: "d", text: "7 kg m/s" },
             ],
             correctChoiceId: "a",
           },
@@ -2193,12 +2193,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Total momentum after" },
+              { id: "a", text: "Nothing" },
               { id: "b", text: "Total energy" },
-              { id: "c", text: "Force" },
-              { id: "d", text: "Nothing" },
+              { id: "c", text: "Total momentum after" },
+              { id: "d", text: "Force" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -2221,9 +2221,9 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Stick together after collision" },
-              { id: "b", text: "Bounce apart" },
+              { id: "b", text: "No collision" },
               { id: "c", text: "Pass through" },
-              { id: "d", text: "No collision" },
+              { id: "d", text: "Bounce apart" },
             ],
             correctChoiceId: "a",
           },
@@ -2254,9 +2254,9 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Conservation of momentum" },
-              { id: "b", text: "Energy conservation" },
+              { id: "b", text: "Gravity" },
               { id: "c", text: "Friction" },
-              { id: "d", text: "Gravity" },
+              { id: "d", text: "Energy conservation" },
             ],
             correctChoiceId: "a",
           },
@@ -2282,12 +2282,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Zero (at rest)" },
+              { id: "a", text: "Variable" },
               { id: "b", text: "Maximum" },
-              { id: "c", text: "Variable" },
+              { id: "c", text: "Zero (at rest)" },
               { id: "d", text: "Negative" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -2315,12 +2315,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Conservation of momentum and energy" },
-              { id: "b", text: "Friction" },
-              { id: "c", text: "Gravity only" },
+              { id: "a", text: "Gravity only" },
+              { id: "b", text: "Conservation of momentum and energy" },
+              { id: "c", text: "Friction" },
               { id: "d", text: "No physics" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -2345,9 +2345,9 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Change in momentum" },
-              { id: "b", text: "Total momentum" },
-              { id: "c", text: "Force" },
-              { id: "d", text: "Energy" },
+              { id: "b", text: "Force" },
+              { id: "c", text: "Energy" },
+              { id: "d", text: "Total momentum" },
             ],
             correctChoiceId: "a",
           },
@@ -2367,12 +2367,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Reduces force by increasing time" },
-              { id: "b", text: "Increases force" },
-              { id: "c", text: "No effect" },
-              { id: "d", text: "Breaks ball" },
+              { id: "a", text: "Breaks ball" },
+              { id: "b", text: "No effect" },
+              { id: "c", text: "Reduces force by increasing time" },
+              { id: "d", text: "Increases force" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -2400,12 +2400,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "2 kg m/s" },
-              { id: "b", text: "8 kg m/s" },
-              { id: "c", text: "0.125 kg m/s" },
-              { id: "d", text: "4.5 kg m/s" },
+              { id: "a", text: "0.125 kg m/s" },
+              { id: "b", text: "2 kg m/s" },
+              { id: "c", text: "4.5 kg m/s" },
+              { id: "d", text: "8 kg m/s" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -2423,12 +2423,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Vector quantity" },
-              { id: "b", text: "Scalar" },
-              { id: "c", text: "No quantity" },
-              { id: "d", text: "Negative only" },
+              { id: "a", text: "Scalar" },
+              { id: "b", text: "No quantity" },
+              { id: "c", text: "Negative only" },
+              { id: "d", text: "Vector quantity" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -2580,12 +2580,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Bullet momentum = rifle momentum (opposite)" },
-              { id: "b", text: "Gravity" },
+              { id: "a", text: "No reason" },
+              { id: "b", text: "Bullet momentum = rifle momentum (opposite)" },
               { id: "c", text: "Friction" },
-              { id: "d", text: "No reason" },
+              { id: "d", text: "Gravity" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -2676,12 +2676,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Mass × velocity product" },
+              { id: "a", text: "Velocity" },
               { id: "b", text: "Mass" },
-              { id: "c", text: "Velocity" },
+              { id: "c", text: "Mass × velocity product" },
               { id: "d", text: "Energy" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -2847,9 +2847,9 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Force × displacement" },
-              { id: "b", text: "Force × time" },
+              { id: "b", text: "Energy only" },
               { id: "c", text: "Mass × velocity" },
-              { id: "d", text: "Energy only" },
+              { id: "d", text: "Force × time" },
             ],
             correctChoiceId: "a",
           },
@@ -2869,12 +2869,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "½mv²" },
-              { id: "b", text: "mv" },
+              { id: "a", text: "mv" },
+              { id: "b", text: "½mv²" },
               { id: "c", text: "mgh" },
               { id: "d", text: "Fv" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -2892,12 +2892,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "mgh" },
-              { id: "b", text: "½mv²" },
-              { id: "c", text: "Fv" },
-              { id: "d", text: "mg" },
+              { id: "a", text: "Fv" },
+              { id: "b", text: "mg" },
+              { id: "c", text: "mgh" },
+              { id: "d", text: "½mv²" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "PE", statement: "mgh." }],
@@ -2913,12 +2913,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Rate of doing work — W/t" },
-              { id: "b", text: "Total work" },
-              { id: "c", text: "Energy" },
-              { id: "d", text: "Force" },
+              { id: "a", text: "Total work" },
+              { id: "b", text: "Rate of doing work — W/t" },
+              { id: "c", text: "Force" },
+              { id: "d", text: "Energy" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -2936,12 +2936,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Joules (J)" },
+              { id: "a", text: "Pascals" },
               { id: "b", text: "Newtons" },
-              { id: "c", text: "Watts" },
-              { id: "d", text: "Pascals" },
+              { id: "c", text: "Joules (J)" },
+              { id: "d", text: "Watts" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -2959,12 +2959,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Watts (W)" },
-              { id: "b", text: "Joules" },
-              { id: "c", text: "Newtons" },
-              { id: "d", text: "Pascals" },
+              { id: "a", text: "Newtons" },
+              { id: "b", text: "Pascals" },
+              { id: "c", text: "Watts (W)" },
+              { id: "d", text: "Joules" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -2982,12 +2982,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "1 joule per second" },
-              { id: "b", text: "1 joule" },
-              { id: "c", text: "1 newton" },
-              { id: "d", text: "1 pascal" },
+              { id: "a", text: "1 newton" },
+              { id: "b", text: "1 joule per second" },
+              { id: "c", text: "1 pascal" },
+              { id: "d", text: "1 joule" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -3005,12 +3005,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "cos θ" },
-              { id: "b", text: "sin θ" },
-              { id: "c", text: "tan θ" },
+              { id: "a", text: "sin θ" },
+              { id: "b", text: "tan θ" },
+              { id: "c", text: "cos θ" },
               { id: "d", text: "No angle" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -3028,12 +3028,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Zero" },
-              { id: "b", text: "Maximum" },
+              { id: "a", text: "Variable" },
+              { id: "b", text: "Zero" },
               { id: "c", text: "Negative" },
-              { id: "d", text: "Variable" },
+              { id: "d", text: "Maximum" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -3057,12 +3057,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Created or destroyed" },
+              { id: "a", text: "Transferred" },
               { id: "b", text: "Transformed" },
-              { id: "c", text: "Stored" },
-              { id: "d", text: "Transferred" },
+              { id: "c", text: "Created or destroyed" },
+              { id: "d", text: "Stored" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -3086,12 +3086,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "9 J" },
-              { id: "b", text: "18 J" },
-              { id: "c", text: "6 J" },
-              { id: "d", text: "12 J" },
+              { id: "a", text: "12 J" },
+              { id: "b", text: "6 J" },
+              { id: "c", text: "18 J" },
+              { id: "d", text: "9 J" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -3110,9 +3110,9 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "49.05 J" },
-              { id: "b", text: "9.81 J" },
-              { id: "c", text: "5 J" },
-              { id: "d", text: "98.1 J" },
+              { id: "b", text: "98.1 J" },
+              { id: "c", text: "9.81 J" },
+              { id: "d", text: "5 J" },
             ],
             correctChoiceId: "a",
           },
@@ -3136,12 +3136,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "50 J" },
-              { id: "b", text: "15 J" },
-              { id: "c", text: "2 J" },
-              { id: "d", text: "500 J" },
+              { id: "a", text: "15 J" },
+              { id: "b", text: "50 J" },
+              { id: "c", text: "500 J" },
+              { id: "d", text: "2 J" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -3160,8 +3160,8 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "20 W" },
-              { id: "b", text: "500 W" },
-              { id: "c", text: "95 W" },
+              { id: "b", text: "95 W" },
+              { id: "c", text: "500 W" },
               { id: "d", text: "0.05 W" },
             ],
             correctChoiceId: "a",
@@ -3182,12 +3182,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "½kx²" },
-              { id: "b", text: "kx" },
-              { id: "c", text: "½mv²" },
-              { id: "d", text: "mgh" },
+              { id: "a", text: "kx" },
+              { id: "b", text: "½kx²" },
+              { id: "c", text: "mgh" },
+              { id: "d", text: "½mv²" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -3207,12 +3207,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "W = ΔKE" },
-              { id: "b", text: "W = KE" },
-              { id: "c", text: "W = PE" },
-              { id: "d", text: "W = Fv" },
+              { id: "a", text: "W = Fv" },
+              { id: "b", text: "W = PE" },
+              { id: "c", text: "W = KE" },
+              { id: "d", text: "W = ΔKE" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -3230,12 +3230,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "(useful output/total input) × 100%" },
-              { id: "b", text: "total input/output" },
-              { id: "c", text: "output only" },
-              { id: "d", text: "input only" },
+              { id: "a", text: "total input/output" },
+              { id: "b", text: "input only" },
+              { id: "c", text: "(useful output/total input) × 100%" },
+              { id: "d", text: "output only" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -3260,9 +3260,9 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Kinetic energy" },
-              { id: "b", text: "Heat only" },
-              { id: "c", text: "Sound" },
-              { id: "d", text: "Nothing" },
+              { id: "b", text: "Nothing" },
+              { id: "c", text: "Heat only" },
+              { id: "d", text: "Sound" },
             ],
             correctChoiceId: "a",
           },
@@ -3286,12 +3286,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Heat and sound" },
-              { id: "b", text: "Nothing" },
-              { id: "c", text: "More KE" },
-              { id: "d", text: "PE" },
+              { id: "a", text: "PE" },
+              { id: "b", text: "More KE" },
+              { id: "c", text: "Heat and sound" },
+              { id: "d", text: "Nothing" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -3446,12 +3446,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Force × velocity" },
-              { id: "b", text: "Force × time" },
-              { id: "c", text: "Mass × velocity" },
+              { id: "a", text: "Mass × velocity" },
+              { id: "b", text: "Force × velocity" },
+              { id: "c", text: "Force × time" },
               { id: "d", text: "Energy" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -3534,9 +3534,9 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Elastic potential energy" },
-              { id: "b", text: "Kinetic energy" },
-              { id: "c", text: "No energy" },
-              { id: "d", text: "Heat" },
+              { id: "b", text: "Heat" },
+              { id: "c", text: "Kinetic energy" },
+              { id: "d", text: "No energy" },
             ],
             correctChoiceId: "a",
           },
@@ -3707,12 +3707,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Toward centre" },
-              { id: "b", text: "Away from centre" },
-              { id: "c", text: "Tangentially" },
+              { id: "a", text: "Away from centre" },
+              { id: "b", text: "Tangentially" },
+              { id: "c", text: "Toward centre" },
               { id: "d", text: "No direction" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -3738,8 +3738,8 @@ export const lesson31: Lesson = {
             choices: [
               { id: "a", text: "v²/r" },
               { id: "b", text: "v/r" },
-              { id: "c", text: "mv²/r" },
-              { id: "d", text: "mr²/v" },
+              { id: "c", text: "mr²/v" },
+              { id: "d", text: "mv²/r" },
             ],
             correctChoiceId: "a",
           },
@@ -3763,12 +3763,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "mv²/r" },
-              { id: "b", text: "v²/r" },
-              { id: "c", text: "mg" },
-              { id: "d", text: "mv" },
+              { id: "a", text: "mv" },
+              { id: "b", text: "mg" },
+              { id: "c", text: "v²/r" },
+              { id: "d", text: "mv²/r" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -3790,12 +3790,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "F = GMm/r²" },
-              { id: "b", text: "F = Gm/r" },
-              { id: "c", text: "F = GM/r²" },
-              { id: "d", text: "F = mg" },
+              { id: "a", text: "F = GM/r²" },
+              { id: "b", text: "F = mg" },
+              { id: "c", text: "F = GMm/r²" },
+              { id: "d", text: "F = Gm/r" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -3817,12 +3817,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "6.67 × 10⁻¹¹ N m²/kg²" },
+              { id: "a", text: "1.6 × 10⁻¹⁹" },
               { id: "b", text: "9.81" },
-              { id: "c", text: "3 × 10⁸" },
-              { id: "d", text: "1.6 × 10⁻¹⁹" },
+              { id: "c", text: "6.67 × 10⁻¹¹ N m²/kg²" },
+              { id: "d", text: "3 × 10⁸" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -3840,12 +3840,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Real forces (tension, friction, gravity)" },
-              { id: "b", text: "Fictitious force" },
+              { id: "a", text: "Centrifugal" },
+              { id: "b", text: "Real forces (tension, friction, gravity)" },
               { id: "c", text: "No force" },
-              { id: "d", text: "Centrifugal" },
+              { id: "d", text: "Fictitious force" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -3896,12 +3896,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "2πr/v" },
-              { id: "b", text: "v/r" },
+              { id: "a", text: "v/r" },
+              { id: "b", text: "2πr/v" },
               { id: "c", text: "v²/r" },
               { id: "d", text: "mv²/r" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -3919,12 +3919,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Escape gravitational pull" },
-              { id: "b", text: "Orbit" },
+              { id: "a", text: "Orbit" },
+              { id: "b", text: "Escape gravitational pull" },
               { id: "c", text: "Stay on surface" },
               { id: "d", text: "Fall" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -3948,12 +3948,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "24 hours" },
-              { id: "b", text: "1 hour" },
-              { id: "c", text: "1 year" },
-              { id: "d", text: "Variable" },
+              { id: "a", text: "1 year" },
+              { id: "b", text: "Variable" },
+              { id: "c", text: "1 hour" },
+              { id: "d", text: "24 hours" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -3975,12 +3975,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "8 m/s²" },
-              { id: "b", text: "4 m/s²" },
+              { id: "a", text: "4 m/s²" },
+              { id: "b", text: "8 m/s²" },
               { id: "c", text: "2 m/s²" },
               { id: "d", text: "16 m/s²" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -4002,12 +4002,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "15 N" },
-              { id: "b", text: "3 N" },
+              { id: "a", text: "3 N" },
+              { id: "b", text: "15 N" },
               { id: "c", text: "25 N" },
               { id: "d", text: "75 N" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -4029,12 +4029,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Less on Moon (lower g)" },
-              { id: "b", text: "Same" },
-              { id: "c", text: "More on Moon" },
-              { id: "d", text: "Zero" },
+              { id: "a", text: "Same" },
+              { id: "b", text: "More on Moon" },
+              { id: "c", text: "Zero" },
+              { id: "d", text: "Less on Moon (lower g)" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -4058,12 +4058,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "r² (square of distance)" },
+              { id: "a", text: "m" },
               { id: "b", text: "r" },
-              { id: "c", text: "m" },
+              { id: "c", text: "r² (square of distance)" },
               { id: "d", text: "Nothing" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -4085,12 +4085,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "1/4 (quarter)" },
+              { id: "a", text: "Same" },
               { id: "b", text: "1/2" },
-              { id: "c", text: "Same" },
-              { id: "d", text: "Double" },
+              { id: "c", text: "Double" },
+              { id: "d", text: "1/4 (quarter)" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -4112,12 +4112,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Radius of orbit and central mass" },
-              { id: "b", text: "Satellite mass" },
-              { id: "c", text: "Nothing" },
-              { id: "d", text: "Only speed" },
+              { id: "a", text: "Only speed" },
+              { id: "b", text: "Nothing" },
+              { id: "c", text: "Satellite mass" },
+              { id: "d", text: "Radius of orbit and central mass" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -4142,9 +4142,9 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Fictitious force in rotating frame" },
-              { id: "b", text: "Real force" },
-              { id: "c", text: "Gravity" },
-              { id: "d", text: "No force" },
+              { id: "b", text: "No force" },
+              { id: "c", text: "Real force" },
+              { id: "d", text: "Gravity" },
             ],
             correctChoiceId: "a",
           },
@@ -4176,8 +4176,8 @@ export const lesson31: Lesson = {
             choices: [
               { id: "a", text: "Constant (if uniform)" },
               { id: "b", text: "Increasing" },
-              { id: "c", text: "Decreasing" },
-              { id: "d", text: "Zero" },
+              { id: "c", text: "Zero" },
+              { id: "d", text: "Decreasing" },
             ],
             correctChoiceId: "a",
           },
@@ -4207,12 +4207,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Object and spacecraft in free fall" },
-              { id: "b", text: "No gravity" },
+              { id: "a", text: "No gravity" },
+              { id: "b", text: "Object and spacecraft in free fall" },
               { id: "c", text: "Zero mass" },
               { id: "d", text: "No air" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -4369,12 +4369,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Gravitational differences" },
+              { id: "a", text: "No force" },
               { id: "b", text: "Wind" },
               { id: "c", text: "Earth rotation only" },
-              { id: "d", text: "No force" },
+              { id: "d", text: "Gravitational differences" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -4465,12 +4465,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "rad/s" },
-              { id: "b", text: "m/s" },
-              { id: "c", text: "m/s²" },
-              { id: "d", text: "Hz" },
+              { id: "a", text: "m/s" },
+              { id: "b", text: "m/s²" },
+              { id: "c", text: "Hz" },
+              { id: "d", text: "rad/s" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

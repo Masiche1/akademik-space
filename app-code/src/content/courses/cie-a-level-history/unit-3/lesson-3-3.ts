@@ -51,7 +51,7 @@ export const lesson633: Lesson = {
           "choices": [
                     {
                               "id": "a",
-                              "text": "Point, Evidence, Explanation, Link"
+                              "text": "A map skill"
                     },
                     {
                               "id": "b",
@@ -59,14 +59,14 @@ export const lesson633: Lesson = {
                     },
                     {
                               "id": "c",
-                              "text": "A map skill"
+                              "text": "Point, Evidence, Explanation, Link"
                     },
                     {
                               "id": "d",
                               "text": "A statistical method"
                     }
           ],
-          "correctChoiceId": "a"
+          "correctChoiceId": "c"
 },
           markscheme: {
           "principles": [
@@ -212,6 +212,491 @@ export const lesson633: Lesson = {
                     }
           ],
           "finalAnswer": "Essay writing skills."
+},
+        },
+        {
+          id: "ciealhis-u3-es-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "In the PEEL paragraph structure, 'Link' means:",
+          response: {
+          "type": "mcq",
+          "choices": [
+                    {
+                              "id": "a",
+                              "text": "Writing a longer essay"
+                    },
+                    {
+                              "id": "b",
+                              "text": "Connecting the point back to the question or thesis"
+                    },
+                    {
+                              "id": "c",
+                              "text": "Adding a bibliography"
+                    },
+                    {
+                              "id": "d",
+                              "text": "Quoting a source word for word"
+                    }
+          ],
+          "correctChoiceId": "b"
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "definition",
+                              "name": "PEEL",
+                              "statement": "Point, Evidence, Explanation, Link."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "Link connects the paragraph back to the question or thesis.",
+                              "marks": 1,
+                              "markCode": "M"
+                    }
+          ],
+          "finalAnswer": "**(a)** Connects back to the question"
+},
+        },
+        {
+          id: "ciealhis-u3-es-q6",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "How many elements does the PEEL paragraph structure have?",
+          response: {
+          "type": "numeric",
+          "parts": [
+                    {
+                              "label": "a",
+                              "answer": 4
+                    }
+          ]
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "definition",
+                              "name": "PEEL",
+                              "statement": "Four elements."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "Point, Evidence, Explanation, Link — four elements.",
+                              "marks": 1,
+                              "markCode": "M"
+                    }
+          ],
+          "finalAnswer": "4"
+},
+        },
+        {
+          id: "ciealhis-u3-es-q7",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "A thesis statement is:",
+          response: {
+          "type": "mcq",
+          "choices": [
+                    {
+                              "id": "a",
+                              "text": "The essay's conclusion"
+                    },
+                    {
+                              "id": "b",
+                              "text": "The main argument of an essay"
+                    },
+                    {
+                              "id": "c",
+                              "text": "A type of historical source"
+                    },
+                    {
+                              "id": "d",
+                              "text": "A quotation from evidence"
+                    }
+          ],
+          "correctChoiceId": "b"
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "definition",
+                              "name": "Thesis",
+                              "statement": "Main argument."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "The thesis is the essay's central argument.",
+                              "marks": 1,
+                              "markCode": "M"
+                    }
+          ],
+          "finalAnswer": "**(a)** The main argument"
+},
+        },
+        {
+          id: "ciealhis-u3-es-q8",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Which is the best way to write an essay conclusion?",
+          response: {
+          "type": "mcq",
+          "choices": [
+                    {
+                              "id": "a",
+                              "text": "Introduce brand new evidence"
+                    },
+                    {
+                              "id": "b",
+                              "text": "Restate the argument and answer the question directly"
+                    },
+                    {
+                              "id": "c",
+                              "text": "Repeat the introduction word for word"
+                    },
+                    {
+                              "id": "d",
+                              "text": "List all the sources used"
+                    }
+          ],
+          "correctChoiceId": "b"
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "technique",
+                              "name": "Conclusion",
+                              "statement": "Answer the question."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "A conclusion restates the argument and answers the question.",
+                              "marks": 1,
+                              "markCode": "M"
+                    }
+          ],
+          "finalAnswer": "**(a)** Restate argument, answer question"
+},
+        },
+        {
+          id: "ciealhis-u3-es-q9",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "The lesson lists how many features of a good essay — answering the question, using evidence, analysing, considering multiple perspectives and evaluating significance?",
+          response: {
+          "type": "numeric",
+          "parts": [
+                    {
+                              "label": "a",
+                              "answer": 5
+                    }
+          ]
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "skill",
+                              "name": "Essay quality",
+                              "statement": "Five features."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "Answer, evidence, analysis, perspectives, evaluation — five features.",
+                              "marks": 1,
+                              "markCode": "M"
+                    }
+          ],
+          "finalAnswer": "5"
+},
+        },
+        {
+          id: "ciealhis-u3-es-q10",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "A body paragraph that only describes events without explaining their significance is:",
+          response: {
+          "type": "mcq",
+          "choices": [
+                    {
+                              "id": "a",
+                              "text": "Descriptive rather than analytical — limited marks"
+                    },
+                    {
+                              "id": "b",
+                              "text": "Always high-scoring"
+                    },
+                    {
+                              "id": "c",
+                              "text": "Required by examiners"
+                    },
+                    {
+                              "id": "d",
+                              "text": "A perfect paragraph"
+                    }
+          ],
+          "correctChoiceId": "a"
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "principle",
+                              "name": "Analysis",
+                              "statement": "Beyond description."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "Examiners reward analysis of significance, not just description.",
+                              "marks": 1,
+                              "markCode": "M"
+                    }
+          ],
+          "finalAnswer": "**(a)** Descriptive, limited marks"
+},
+        },
+        {
+          id: "ciealhis-u3-es-q11",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "How many main parts does the lesson identify for essay structure — introduction, body and conclusion?",
+          response: {
+          "type": "numeric",
+          "parts": [
+                    {
+                              "label": "a",
+                              "answer": 3
+                    }
+          ]
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "definition",
+                              "name": "Structure",
+                              "statement": "Three parts."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "Introduction, body, conclusion — three parts.",
+                              "marks": 1,
+                              "markCode": "M"
+                    }
+          ],
+          "finalAnswer": "3"
+},
+        },
+        {
+          id: "ciealhis-u3-es-q12",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "The introduction of a historical essay should primarily:",
+          response: {
+          "type": "mcq",
+          "choices": [
+                    {
+                              "id": "a",
+                              "text": "Include a bibliography"
+                    },
+                    {
+                              "id": "b",
+                              "text": "State the thesis or argument"
+                    },
+                    {
+                              "id": "c",
+                              "text": "List all the evidence"
+                    },
+                    {
+                              "id": "d",
+                              "text": "Give the conclusion"
+                    }
+          ],
+          "correctChoiceId": "b"
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "technique",
+                              "name": "Introduction",
+                              "statement": "State thesis."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "The introduction states the thesis and previews the argument.",
+                              "marks": 1,
+                              "markCode": "M"
+                    }
+          ],
+          "finalAnswer": "**(a)** State the thesis"
+},
+        },
+        {
+          id: "ciealhis-u3-es-q13",
+          difficulty: "core",
+          totalMarks: 4,
+          stem: "Analyse how to write an effective body paragraph using the PEEL structure.",
+          response: {
+          "type": "open"
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "technique",
+                              "name": "PEEL",
+                              "statement": "Paragraph structure."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "Point: make a clear analytical claim linked to the question.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "Evidence: support with specific facts or quotations.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "Explanation: analyse why the evidence supports the point.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "Link: connect back to the thesis or question.",
+                              "marks": 1,
+                              "markCode": "A"
+                    }
+          ],
+          "finalAnswer": "Point, evidence, explanation, link"
+},
+        },
+        {
+          id: "ciealhis-u3-es-q14",
+          difficulty: "challenge",
+          totalMarks: 1,
+          stem: "Which approach best demonstrates 'analysis' rather than description in a history essay?",
+          response: {
+          "type": "mcq",
+          "choices": [
+                    {
+                              "id": "a",
+                              "text": "Explaining why an event was significant and its consequences"
+                    },
+                    {
+                              "id": "b",
+                              "text": "Listing dates of events"
+                    },
+                    {
+                              "id": "c",
+                              "text": "Summarising a textbook"
+                    },
+                    {
+                              "id": "d",
+                              "text": "Quoting a long passage"
+                    }
+          ],
+          "correctChoiceId": "a"
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "principle",
+                              "name": "Analysis",
+                              "statement": "Significance + consequences."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "Analysis explains significance and consequences; description only recounts.",
+                              "marks": 1,
+                              "markCode": "A"
+                    }
+          ],
+          "finalAnswer": "**(a)** Explaining significance"
+},
+        },
+        {
+          id: "ciealhis-u3-es-q15",
+          difficulty: "challenge",
+          totalMarks: 1,
+          stem: "A student allocates equal time to the introduction, body and conclusion of a 30-minute essay. How many minutes should each section receive?",
+          response: {
+          "type": "numeric",
+          "parts": [
+                    {
+                              "label": "a",
+                              "answer": 10
+                    }
+          ]
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "technique",
+                              "name": "Time management",
+                              "statement": "Equal thirds."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "30 / 3 = 10 minutes per section.",
+                              "marks": 1,
+                              "markCode": "M"
+                    }
+          ],
+          "finalAnswer": "10"
+},
+        },
+        {
+          id: "ciealhis-u3-es-q16",
+          difficulty: "challenge",
+          totalMarks: 5,
+          stem: "Evaluate the claim that 'there is only one correct way to write a history essay.'",
+          response: {
+          "type": "open"
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "principle",
+                              "name": "Essay writing",
+                              "statement": "Debated."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "Against: structure, evidence and analysis can be achieved many ways.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "For: examiners reward clear conventions — thesis, PEEL, evaluation.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "Evidence: strong essays vary widely in style yet share core features.",
+                              "marks": 1,
+                              "markCode": "A"
+                    },
+                    {
+                              "reasoning": "Weighs both perspectives.",
+                              "marks": 1,
+                              "markCode": "R"
+                    },
+                    {
+                              "reasoning": "Judgement: conventions guide but do not dictate; quality lies in argument and evidence.",
+                              "marks": 1,
+                              "markCode": "A"
+                    }
+          ],
+          "finalAnswer": "No single correct way; conventions guide but argument quality matters most"
 },
         },
       ],

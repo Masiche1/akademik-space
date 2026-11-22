@@ -52,12 +52,12 @@ export const lesson81: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$5$" },
-              { id: "b", text: "$7$" },
-              { id: "c", text: "$6$" },
-              { id: "d", text: "No mode" },
+              { id: "a", text: "$6$" },
+              { id: "b", text: "$5$" },
+              { id: "c", text: "No mode" },
+              { id: "d", text: "$7$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -158,9 +158,9 @@ export const lesson81: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$8$" },
-              { id: "b", text: "$6$" },
-              { id: "c", text: "$10$" },
-              { id: "d", text: "$9$" },
+              { id: "b", text: "$9$" },
+              { id: "c", text: "$6$" },
+              { id: "d", text: "$10$" },
             ],
             correctChoiceId: "a",
           },
@@ -235,12 +235,12 @@ export const lesson81: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Mean" },
-              { id: "b", text: "Median" },
-              { id: "c", text: "Mode" },
-              { id: "d", "text": "They are all affected equally" },
+              { id: "a", "text": "They are all affected equally" },
+              { id: "b", text: "Mean" },
+              { id: "c", text: "Median" },
+              { id: "d", text: "Mode" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -315,12 +315,12 @@ export const lesson81: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Mean" },
-              { id: "b", text: "Median" },
-              { id: "c", text: "Mode" },
+              { id: "a", text: "Mode" },
+              { id: "b", text: "Mean" },
+              { id: "c", text: "Median" },
               { id: "d", text: "Range" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -400,12 +400,12 @@ export const lesson81: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The middle (4th) value" },
-              { id: "b", text: "The mean of the 4th and 5th values" },
-              { id: "c", text: "The most frequent value" },
-              { id: "d", text: "Largest minus smallest" },
+              { id: "a", text: "Largest minus smallest" },
+              { id: "b", text: "The middle (4th) value" },
+              { id: "c", text: "The mean of the 4th and 5th values" },
+              { id: "d", text: "The most frequent value" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -456,12 +456,12 @@ export const lesson81: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$10$" },
-              { id: "b", text: "$6$" },
-              { id: "c", text: "$8$" },
-              { id: "d", text: "$12$" },
+              { id: "a", text: "$6$" },
+              { id: "b", text: "$10$" },
+              { id: "c", text: "$12$" },
+              { id: "d", text: "$8$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -551,6 +551,287 @@ export const lesson81: Lesson = {
               { level: "Level 1", marks: "0-1", descriptor: "Partial.", part: "d" },
             ],
             commonErrors: ["In (b) using $\\frac{10}{100}$ — denominator is total surveyed ($40$)."],
+          },
+        },
+        {
+          id: "cilm-u8-chart-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "In a pictogram where $\\square = 5$ apples, how many apples do $3.5$ squares represent?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$15$" },
+              { id: "b", text: "$12.5$" },
+              { id: "c", text: "$20$" },
+              { id: "d", text: "$17.5$" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              { kind: "convention", name: "Pictogram", statement: "$3.5 \\times 5 = 17.5$ apples." },
+            ],
+            steps: [
+              { reasoning: "$3.5 \\times 5 = 17.5$ apples.", working: "3.5\\times5=17.5", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(b)** $17.5$",
+            commonErrors: ["Choosing (a) — rounded down; $0.5$ of a symbol is half the key value."],
+          },
+        },
+        {
+          id: "cilm-u8-chart-q6",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "A frequency table shows: A = 7, B = 12, C = 9, D = 2. What is the total frequency?",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "convention", name: "Total frequency", statement: "$7+12+9+2=30$." },
+            ],
+            steps: [
+              { reasoning: "Add all frequencies: $30$.", working: "7+12+9+2=30", marks: 1, markCode: "M" },
+              { reasoning: "Total $=30$.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$30$",
+            commonErrors: ["Missing a category — check all four values are added."],
+          },
+        },
+        {
+          id: "cilm-u8-chart-q7",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "A bar chart shows favourite fruit: Apples $8$, Bananas $14$, Cherries $11$. Which fruit is the most popular?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Cherries" },
+              { id: "b", text: "Apples" },
+              { id: "c", text: "Bananas" },
+              { id: "d", text: "They are equal" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              { kind: "convention", name: "Bar chart", statement: "The tallest bar has the highest frequency — Bananas $14$ is largest." },
+            ],
+            steps: [
+              { reasoning: "Highest frequency is $14$ (Bananas).", working: "14", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(b)** Bananas",
+            commonErrors: ["Reading bar heights in the wrong order — compare values, not positions."],
+          },
+        },
+        {
+          id: "cilm-u8-chart-q8",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "In a pictogram each $\\bullet$ represents $6$ books. A category shows $4.5$ symbols. How many books does it represent?",
+          response: { type: "numeric", parts: [{ label: "Answer", answer: 27 }] },
+          markscheme: {
+            principles: [
+              { kind: "convention", name: "Pictogram", statement: "$4.5 \\times 6 = 27$ books." },
+            ],
+            steps: [
+              { reasoning: "$4.5 \\times 6 = 27$.", working: "4.5\\times6=27", marks: 1, markCode: "M" },
+            ],
+            finalAnswer: "$27$",
+            commonErrors: ["Ignoring the half symbol — it contributes $3$ books."],
+          },
+        },
+        {
+          id: "cilm-u8-chart-q9",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "A bar chart shows visitors per day: Mon $5$, Tue $9$, Wed $7$, Thu $3$. Find the mean daily frequency and the mode.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Chart to statistics", statement: "Mean $=\\frac{\\text{total}}{\\text{count}}$; mode = category with highest bar." },
+            ],
+            steps: [
+              { reasoning: "Total $=5+9+7+3=24$; mean $=24\\div4=6$.", working: "24\\div4=6", marks: 1, markCode: "M" },
+              { reasoning: "Mean $6$.", marks: 1, markCode: "M" },
+              { reasoning: "Mode = Tuesday ($9$ highest).", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "Mean $6$; mode Tuesday",
+            commonErrors: ["Only finding one average — the question asks for both mean and mode."],
+          },
+        },
+        {
+          id: "cilm-u8-chart-q10",
+          difficulty: "challenge",
+          totalMarks: 1,
+          stem: "A pictogram key states $1$ symbol $= 2.5$. A category shows $3$ symbols and a half symbol. What value does it represent?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$10$" },
+              { id: "b", text: "$8.75$" },
+              { id: "c", text: "$6$" },
+              { id: "d", text: "$7.5$" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              { kind: "convention", name: "Pictogram", statement: "$3.5 \\times 2.5 = 8.75$." },
+            ],
+            steps: [
+              { reasoning: "$3 + 0.5 = 3.5$ symbols; $3.5 \\times 2.5 = 8.75$.", working: "3.5\\times2.5=8.75", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** $8.75$",
+            commonErrors: ["Choosing (b) — ignored the half symbol."],
+          },
+        },
+        {
+          id: "cilm-u8-chart-q11",
+          difficulty: "challenge",
+          totalMarks: 3,
+          stem: "A frequency table for test scores is: score $1, 2, 3, 4, 5$ with frequencies $3, 5, 7, 5, 3$. Find the mean score.",
+          response: { type: "numeric", parts: [{ label: "Mean", answer: 3 }] },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Mean from frequency table", statement: "Mean $=\\frac{\\sum fx}{\\sum f}$." },
+            ],
+            steps: [
+              { reasoning: "$\\sum fx = 1(3)+2(5)+3(7)+4(5)+5(3) = 3+10+21+20+15 = 69$; $\\sum f = 23$.", working: "69/23", marks: 1, markCode: "M" },
+              { reasoning: "Mean $=\\frac{69}{23}=3$.", working: "69\\div23=3", marks: 1, markCode: "M" },
+              { reasoning: "Mean score $=3$.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$3$",
+            commonErrors: ["Dividing $69$ by $5$ (number of score values) instead of total frequency $23$."],
+          },
+        },
+        {
+          id: "cilm-u8-chart-q12",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "A survey of $30$ students records favourite fruit: Apple $12$, Banana $9$, Orange $7$, Other $2$. Find the percentage choosing Apple, the mean frequency per category, and the mode.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Data interpretation", statement: "Percentages use total as denominator; mean uses total frequency; mode = highest frequency." },
+            ],
+            steps: [
+              { reasoning: "Percentage Apple $=\\frac{12}{30}\\times100=40\\%$.", working: "12/30=40%", marks: 1, markCode: "M" },
+              { reasoning: "Total $=30$; mean $=30\\div4=7.5$.", working: "30\\div4=7.5", marks: 1, markCode: "M" },
+              { reasoning: "Mode = Apple ($12$ highest).", working: "\\text{apple}", marks: 1, markCode: "M" },
+              { reasoning: "All three answers correct.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$40\\%$; mean $7.5$; mode Apple",
+            commonErrors: ["In the percentage using $\\frac{12}{100}$ — the denominator is the survey total ($30$)."],
+          },
+        },
+        {
+          id: "cilm-u8-chart-q13",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Which display is best for comparing the frequencies of several categories side by side?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Bar chart" },
+              { id: "b", text: "Pictogram" },
+              { id: "c", text: "Tally chart" },
+              { id: "d", text: "None of these" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Choosing a display", statement: "Bar charts show category heights directly — best for visual comparison." },
+            ],
+            steps: [
+              { reasoning: "Bar heights can be compared at a glance; pictograms depend on symbol counts.", working: "\\text{bar chart}", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** Bar chart",
+            commonErrors: ["Choosing (c) — tally charts record raw data but don't display frequencies visually."],
+          },
+        },
+        {
+          id: "cilm-u8-chart-q14",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "A bar chart has heights $6$, $9$, $12$ and $3$. Find the range of the frequencies.",
+          response: { type: "numeric", parts: [{ label: "Answer", answer: 9 }] },
+          markscheme: {
+            principles: [
+              { kind: "convention", name: "Range", statement: "Range $=\\max-\\min=12-3=9$." },
+            ],
+            steps: [
+              { reasoning: "Largest $12$, smallest $3$; range $=9$.", working: "12-3=9", marks: 1, markCode: "M" },
+            ],
+            finalAnswer: "$9$",
+            commonErrors: ["$12+3$ — range is a difference, not a sum."],
+          },
+        },
+        {
+          id: "cilm-u8-chart-q15",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "In a pictogram where one symbol represents $8$, a category shows $2.5$ symbols. What value does it represent?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$16$" },
+              { id: "b", text: "$24$" },
+              { id: "c", text: "$20$" },
+              { id: "d", text: "$10$" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              { kind: "convention", name: "Pictogram", statement: "$2.5 \\times 8 = 20$." },
+            ],
+            steps: [
+              { reasoning: "$2.5 \\times 8 = 20$.", working: "2.5\\times8=20", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(b)** $20$",
+            commonErrors: ["Choosing (a) — used $2$ symbols, ignoring the half."],
+          },
+        },
+        {
+          id: "cilm-u8-chart-q16",
+          difficulty: "challenge",
+          totalMarks: 9,
+          stem: "A school polls $45$ students on school dinners: Pizza $18$, Pasta $14$, Salad $8$, Other $5$.",
+          parts: [
+            { label: "a", prompt: "Verify that the frequencies sum to $45$.", marks: 1 },
+            { label: "b", prompt: "Find the percentage choosing pizza.", marks: 2 },
+            { label: "c", prompt: "Describe how to draw a bar chart for these data (axes and bar heights).", marks: 3 },
+            { label: "d", prompt: "Find the mode and interpret what it tells us.", marks: 3 },
+          ],
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Data interpretation", statement: "Percentages of total; bar heights = frequencies; mode = most frequent category." },
+            ],
+            steps: [
+              { part: "a", reasoning: "$18+14+8+5=45$ ✓.", working: "45", marks: 1, markCode: "M" },
+              { part: "b", reasoning: "$\\frac{18}{45}\\times100=40\\%$.", working: "18/45=40%", marks: 1, markCode: "M" },
+              { part: "b", reasoning: "Correct.", marks: 1, markCode: "A" },
+              { part: "c", reasoning: "Bars: Pizza $18$, Pasta $14$, Salad $8$, Other $5$ with labelled axes.", working: "\\text{bars}", marks: 1, markCode: "M" },
+              { part: "c", reasoning: "Heights correct.", marks: 1, markCode: "M" },
+              { part: "c", reasoning: "Chart description complete.", marks: 1, markCode: "A" },
+              { part: "d", reasoning: "Mode = Pizza ($18$); most students chose pizza.", working: "\\text{pizza}", marks: 1, markCode: "M" },
+              { part: "d", reasoning: "Mode identified.", marks: 1, markCode: "M" },
+              { part: "d", reasoning: "Interpretation correct.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "(a) $45$ ✓ (b) $40\\%$ (c) bars 18/14/8/5 (d) Pizza — most popular dinner",
+            levels: [
+              { level: "Level 2", marks: "1", descriptor: "Verified.", part: "a" },
+              { level: "Level 1", marks: "0", descriptor: "Missing.", part: "a" },
+              { level: "Level 2", marks: "1-2", descriptor: "Correct.", part: "b" },
+              { level: "Level 1", marks: "0", descriptor: "Wrong.", part: "b" },
+              { level: "Level 2", marks: "2-3", descriptor: "Chart described.", part: "c" },
+              { level: "Level 1", marks: "0-1", descriptor: "Incomplete.", part: "c" },
+              { level: "Level 2", marks: "2-3", descriptor: "Mode interpreted.", part: "d" },
+              { level: "Level 1", marks: "0-1", descriptor: "Partial.", part: "d" },
+            ],
+            commonErrors: ["In (b) using $\\frac{18}{100}$ — denominator is total surveyed ($45$)."],
           },
         },
       ],

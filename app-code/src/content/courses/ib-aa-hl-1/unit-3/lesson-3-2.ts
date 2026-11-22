@@ -49,12 +49,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$(7,4,3)$" },
-              { id: "b", text: "$(7,4,4)$" },
+              { id: "a", text: "$(7,4,4)$" },
+              { id: "b", text: "$(7,4,3)$" },
               { id: "c", text: "$(4,2,1)$" },
               { id: "d", text: "$(7,3,3)$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -96,12 +96,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\begin{pmatrix} 3 \\\\ -3 \\\\ 6 \\end{pmatrix}$" },
-              { id: "b", text: "$\\begin{pmatrix} 3 \\\\ 3 \\\\ 6 \\end{pmatrix}$" },
-              { id: "c", text: "$\\begin{pmatrix} 4 \\\\ -3 \\\\ 8 \\end{pmatrix}$" },
+              { id: "a", text: "$\\begin{pmatrix} 4 \\\\ -3 \\\\ 8 \\end{pmatrix}$" },
+              { id: "b", text: "$\\begin{pmatrix} 3 \\\\ -3 \\\\ 6 \\end{pmatrix}$" },
+              { id: "c", text: "$\\begin{pmatrix} 3 \\\\ 3 \\\\ 6 \\end{pmatrix}$" },
               { id: "d", text: "$\\begin{pmatrix} 2 \\\\ -1 \\\\ 3 \\end{pmatrix}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -144,12 +144,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$x=2+\\lambda,\\ y=-1+2\\lambda,\\ z=3-\\lambda$" },
-              { id: "b", text: "$x=2+\\lambda,\\ y=-1+\\lambda,\\ z=3-2\\lambda$" },
-              { id: "c", text: "$x=\\lambda,\\ y=-1+2\\lambda,\\ z=3-\\lambda$" },
-              { id: "d", text: "$x=2+2\\lambda,\\ y=-1+\\lambda,\\ z=3-\\lambda$" },
+              { id: "a", text: "$x=2+2\\lambda,\\ y=-1+\\lambda,\\ z=3-\\lambda$" },
+              { id: "b", text: "$x=\\lambda,\\ y=-1+2\\lambda,\\ z=3-\\lambda$" },
+              { id: "c", text: "$x=2+\\lambda,\\ y=-1+\\lambda,\\ z=3-2\\lambda$" },
+              { id: "d", text: "$x=2+\\lambda,\\ y=-1+2\\lambda,\\ z=3-\\lambda$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -229,12 +229,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$(2,4,5)$" },
-              { id: "b", text: "$(1,3,3)$" },
-              { id: "c", text: "$(3,0,5)$" },
-              { id: "d", text: "$(2,0,5)$" },
+              { id: "a", text: "$(3,0,5)$" },
+              { id: "b", text: "$(2,0,5)$" },
+              { id: "c", text: "$(2,4,5)$" },
+              { id: "d", text: "$(1,3,3)$" },
             ],
-            correctChoiceId: "d",
+            correctChoiceIb: "d",
           },
           markscheme: {
             principles: [
@@ -279,12 +279,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The lines intersect at exactly one point." },
-              { id: "b", text: "The lines are coincident." },
-              { id: "c", text: "The lines are skew." },
-              { id: "d", text: "The lines are parallel and distinct." },
+              { id: "a", text: "The lines are skew." },
+              { id: "b", text: "The lines are parallel and distinct." },
+              { id: "c", text: "The lines intersect at exactly one point." },
+              { id: "d", text: "The lines are coincident." },
             ],
-            correctChoiceId: "d",
+            correctChoiceIb: "d",
           },
           markscheme: {
             principles: [
@@ -378,12 +378,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$(7,2,2)$" },
-              { id: "b", text: "$(7,2,0)$" },
-              { id: "c", text: "$(4,2,0)$" },
-              { id: "d", text: "$(7,1,2)$" },
+              { id: "a", text: "$(7,1,2)$" },
+              { id: "b", text: "$(4,2,0)$" },
+              { id: "c", text: "$(7,2,0)$" },
+              { id: "d", text: "$(7,2,2)$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -510,12 +510,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The lines intersect at exactly one point." },
+              { id: "a", text: "The lines are coincident." },
               { id: "b", text: "The lines are parallel and distinct." },
-              { id: "c", text: "The lines are skew." },
-              { id: "d", text: "The lines are coincident." },
+              { id: "c", text: "The lines intersect at exactly one point." },
+              { id: "d", text: "The lines are skew." },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -566,12 +566,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Check whether their direction vectors have the same magnitude." },
-              { id: "b", text: "Check whether a point of one line lies on the other line." },
-              { id: "c", text: "Check whether the angle between them is $0^\\circ$." },
-              { id: "d", text: "Check whether their position vectors are equal." },
+              { id: "a", text: "Check whether their position vectors are equal." },
+              { id: "b", text: "Check whether the angle between them is $0^\\circ$." },
+              { id: "c", text: "Check whether their direction vectors have the same magnitude." },
+              { id: "d", text: "Check whether a point of one line lies on the other line." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -616,12 +616,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Yes, because intersecting paths always mean a collision." },
-              { id: "b", text: "No — a collision requires the particles to be at $P$ at the same time." },
-              { id: "c", text: "Yes, provided both paths are straight lines." },
+              { id: "a", text: "No — a collision requires the particles to be at $P$ at the same time." },
+              { id: "b", text: "Yes, provided both paths are straight lines." },
+              { id: "c", text: "Yes, because intersecting paths always mean a collision." },
               { id: "d", text: "No — straight-line paths can never intersect." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -700,9 +700,9 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "The lines are parallel and distinct." },
-              { id: "b", text: "The lines intersect at exactly one point." },
+              { id: "b", text: "The lines are skew." },
               { id: "c", text: "The lines are coincident." },
-              { id: "d", text: "The lines are skew." },
+              { id: "d", text: "The lines intersect at exactly one point." },
             ],
             correctChoiceId: "c",
           },
@@ -749,12 +749,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$t=0.125$" },
-              { id: "b", text: "$t=0.25$" },
+              { id: "a", text: "$t=0.25$" },
+              { id: "b", text: "$t=0.125$" },
               { id: "c", text: "$t=0.5$" },
               { id: "d", text: "$t=1$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -849,12 +849,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The lines are parallel and distinct." },
-              { id: "b", text: "The lines are coincident." },
+              { id: "a", text: "The lines are coincident." },
+              { id: "b", text: "The lines are parallel and distinct." },
               { id: "c", text: "The lines intersect at exactly one point." },
               { id: "d", text: "The lines are skew." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

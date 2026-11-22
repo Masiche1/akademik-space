@@ -57,12 +57,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "J" },
-              { id: "b", text: "Bq" },
-              { id: "c", text: "Gy" },
+              { id: "a", text: "Gy" },
+              { id: "b", text: "J" },
+              { id: "c", text: "Bq" },
               { id: "d", text: "Sv" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Activity", statement: "Activity measured in becquerels = decays per second." }],
@@ -82,10 +82,10 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "200 Bq" },
+              { id: "a", text: "25 Bq" },
               { id: "b", text: "100 Bq" },
               { id: "c", text: "50 Bq" },
-              { id: "d", text: "25 Bq" },
+              { id: "d", text: "200 Bq" },
             ],
             correctChoiceId: "c",
           },
@@ -108,12 +108,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Fission uses light nuclei and produces less waste" },
-              { id: "b", text: "Fusion powers the Sun; fission is used in nuclear reactors" },
-              { id: "c", text: "Both occur at room temperature" },
-              { id: "d", text: "Fusion produces long-lived radioactive waste" },
+              { id: "a", text: "Both occur at room temperature" },
+              { id: "b", text: "Fusion produces long-lived radioactive waste" },
+              { id: "c", text: "Fission uses light nuclei and produces less waste" },
+              { id: "d", text: "Fusion powers the Sun; fission is used in nuclear reactors" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Fission vs fusion", statement: "Fission: heavy nuclei, reactors; fusion: light nuclei, stars, needs extreme T." }],
@@ -165,12 +165,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The time for the sample to decay completely" },
-              { id: "b", text: "The time for half of the radioactive nuclei (or activity) to decay" },
-              { id: "c", text: "The time for the sample to double in mass" },
-              { id: "d", text: "The average lifetime of one nucleus" },
+              { id: "a", text: "The time for half of the radioactive nuclei (or activity) to decay" },
+              { id: "b", text: "The average lifetime of one nucleus" },
+              { id: "c", text: "The time for the sample to decay completely" },
+              { id: "d", text: "The time for the sample to double in mass" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Half-life", statement: "Time for activity/nuclei to halve." }],
@@ -210,11 +210,11 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Joules" },
-              { id: "b", text: "Becquerel (Bq)" },
-              { id: "c", text: "Watts" },
-              { id: "d", text: "Grays" },
+              { id: "b", text: "Watts" },
+              { id: "c", text: "Grays" },
+              { id: "d", text: "Becquerel (Bq)" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Activity", statement: "Decays per second; 1 Bq = 1 decay/s." }],
@@ -255,12 +255,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Nuclear fusion of hydrogen" },
-              { id: "b", text: "Nuclear fission of heavy nuclei like uranium-235" },
+              { id: "a", text: "Nuclear fission of heavy nuclei like uranium-235" },
+              { id: "b", text: "Nuclear fusion of hydrogen" },
               { id: "c", text: "Radioactive decay of carbon-14" },
               { id: "d", text: "Alpha emission" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Fission", statement: "U-235 fission chain reaction → heat → steam → turbines." }],
@@ -362,12 +362,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "To absorb neutrons and control the chain reaction" },
+              { id: "a", text: "To generate electricity directly" },
               { id: "b", text: "To cool the reactor" },
-              { id: "c", text: "To reflect neutrons back" },
-              { id: "d", text: "To generate electricity directly" },
+              { id: "c", text: "To absorb neutrons and control the chain reaction" },
+              { id: "d", text: "To reflect neutrons back" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Control rods", statement: "Absorb neutrons → regulate fission rate → prevent meltdown." }],
@@ -387,9 +387,9 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "To melt the reactor walls" },
+              { id: "a", text: "To create pressure for steam" },
               { id: "b", text: "To give nuclei enough kinetic energy to overcome electrostatic repulsion and fuse" },
-              { id: "c", text: "To create pressure for steam" },
+              { id: "c", text: "To melt the reactor walls" },
               { id: "d", text: "To ionise the fuel" },
             ],
             correctChoiceId: "b",
@@ -508,12 +508,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "7.9 km/s" },
-              { id: "b", text: "11.2 km/s" },
-              { id: "c", text: "3 km/s" },
+              { id: "a", text: "11.2 km/s" },
+              { id: "b", text: "3 km/s" },
+              { id: "c", text: "7.9 km/s" },
               { id: "d", text: "300 km/s" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Escape velocity", statement: "$v_{esc} = \\sqrt{2GM/R} \\approx 11.2$ km/s for Earth." }],
@@ -533,12 +533,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "increase" },
-              { id: "b", text: "decrease" },
-              { id: "c", text: "stay the same" },
-              { id: "d", text: "become zero" },
+              { id: "a", text: "stay the same" },
+              { id: "b", text: "become zero" },
+              { id: "c", text: "increase" },
+              { id: "d", text: "decrease" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Orbital speed", statement: "$v = \\sqrt{GM/r}$ — larger r → smaller v." }],
@@ -559,12 +559,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Escape velocity accounts for Earth's rotation" },
-              { id: "b", text: "Orbital speed only needs to keep falling around Earth; escape needs energy to reach infinity" },
-              { id: "c", text: "Escape velocity is measured at sea level" },
-              { id: "d", text: "The values are the same thing" },
+              { id: "a", text: "The values are the same thing" },
+              { id: "b", text: "Escape velocity is measured at sea level" },
+              { id: "c", text: "Orbital speed only needs to keep falling around Earth; escape needs energy to reach infinity" },
+              { id: "d", text: "Escape velocity accounts for Earth's rotation" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Orbit vs escape", statement: "Orbit = centripetal balance; escape = reach infinity against gravity." }],
@@ -616,12 +616,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The speed needed to orbit a planet" },
-              { id: "b", text: "The minimum speed needed to escape a body's gravitational pull permanently" },
-              { id: "c", text: "The speed of light" },
-              { id: "d", text: "The speed of sound in space" },
+              { id: "a", text: "The speed of sound in space" },
+              { id: "b", text: "The speed of light" },
+              { id: "c", text: "The speed needed to orbit a planet" },
+              { id: "d", text: "The minimum speed needed to escape a body's gravitational pull permanently" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Escape velocity", statement: "$v_{esc} = \\sqrt{2GM/R}$ — enough KE to reach infinity." }],
@@ -660,12 +660,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Orbital speed is measured at the equator only" },
-              { id: "b", text: "Orbiting only requires enough speed to keep falling around Earth; escaping needs enough energy to reach infinite distance" },
-              { id: "c", text: "Escape velocity is smaller" },
-              { id: "d", text: "They are equal" },
+              { id: "a", text: "Orbiting only requires enough speed to keep falling around Earth; escaping needs enough energy to reach infinite distance" },
+              { id: "b", text: "Orbital speed is measured at the equator only" },
+              { id: "c", text: "They are equal" },
+              { id: "d", text: "Escape velocity is smaller" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Orbit vs escape", statement: "Orbit: gravity provides centripetal force; escape: KE must overcome PE to infinity ($\\sqrt{2}$ factor)." }],
@@ -706,9 +706,9 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It is the fastest possible orbit" },
+              { id: "a", text: "It is at sea level" },
               { id: "b", text: "Its period is 24 hours and it stays above the same point on Earth's equator" },
-              { id: "c", text: "It is at sea level" },
+              { id: "c", text: "It is the fastest possible orbit" },
               { id: "d", text: "It has zero orbital speed" },
             ],
             correctChoiceId: "b",
@@ -753,10 +753,10 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Escape velocity" },
+              { id: "a", text: "The speed of light" },
               { id: "b", text: "Sufficient horizontal orbital speed so gravity provides the centripetal force" },
-              { id: "c", text: "Zero velocity" },
-              { id: "d", text: "The speed of light" },
+              { id: "c", text: "Escape velocity" },
+              { id: "d", text: "Zero velocity" },
             ],
             correctChoiceId: "b",
           },
@@ -799,11 +799,11 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Geostationary" },
-              { id: "b", text: "Low Earth orbit" },
+              { id: "b", text: "Sub-orbital hop" },
               { id: "c", text: "Escape trajectory" },
-              { id: "d", text: "Sub-orbital hop" },
+              { id: "d", text: "Low Earth orbit" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "context", name: "Satellite orbits", statement: "LEO (~400 km) for imaging/GPS; GEO (36 000 km) for comms." }],
@@ -853,12 +853,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The Moon's gravity pulls it" },
-              { id: "b", text: "It must escape Earth's gravity entirely — escape velocity is required" },
-              { id: "c", text: "It only needs enough speed to reach lunar orbit; Earth's gravity weakens with distance and the Moon's gravity helps capture it" },
-              { id: "d", text: "Rockets cannot reach the Moon" },
+              { id: "a", text: "It must escape Earth's gravity entirely — escape velocity is required" },
+              { id: "b", text: "The Moon's gravity pulls it" },
+              { id: "c", text: "Rockets cannot reach the Moon" },
+              { id: "d", text: "It only needs enough speed to reach lunar orbit; Earth's gravity weakens with distance and the Moon's gravity helps capture it" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Lunar missions", statement: "Moon missions need >orbital speed to leave LEO but gravity assist/capture means escape velocity isn't strictly required once coasting." }],

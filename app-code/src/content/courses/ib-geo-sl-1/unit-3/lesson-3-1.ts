@@ -54,9 +54,9 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The point underground where rupture begins" },
+              { id: "a", text: "The centre of the seismic wave path" },
               { id: "b", text: "The point on the surface directly above the focus" },
-              { id: "c", text: "The centre of the seismic wave path" },
+              { id: "c", text: "The point underground where rupture begins" },
               { id: "d", text: "The location of the nearest fault" },
             ],
             correctChoiceId: "b",
@@ -153,10 +153,10 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The point on Earth's surface directly above the rupture" },
+              { id: "a", text: "The centre of the seismic wave path" },
               { id: "b", text: "The point underground where the rupture begins" },
-              { id: "c", text: "The centre of the seismic wave path" },
-              { id: "d", text: "The nearest point on a plate boundary" },
+              { id: "c", text: "The nearest point on a plate boundary" },
+              { id: "d", text: "The point on Earth's surface directly above the rupture" },
             ],
             correctChoiceId: "b",
           },
@@ -208,12 +208,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Surface waves" },
-              { id: "b", text: "S-waves" },
-              { id: "c", text: "P-waves" },
+              { id: "a", text: "S-waves" },
+              { id: "b", text: "P-waves" },
+              { id: "c", text: "Surface waves" },
               { id: "d", text: "Love waves" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -263,12 +263,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "less surface damage because energy is absorbed" },
-              { id: "b", text: "more surface damage because energy reaches the surface concentrated" },
-              { id: "c", text: "no difference in surface damage" },
+              { id: "a", text: "more surface damage because energy reaches the surface concentrated" },
+              { id: "b", text: "no difference in surface damage" },
+              { id: "c", text: "less surface damage because energy is absorbed" },
               { id: "d", text: "only tsunami damage" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -316,10 +316,10 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "days of advance notice before rupture" },
+              { id: "a", text: "exact prediction of location and timing" },
               { id: "b", text: "a few seconds of alert between fast P-waves and damaging S-waves" },
-              { id: "c", text: "exact prediction of location and timing" },
-              { id: "d", text: "no useful warning at all" },
+              { id: "c", text: "no useful warning at all" },
+              { id: "d", text: "days of advance notice before rupture" },
             ],
             correctChoiceId: "b",
           },
@@ -431,12 +431,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "the colour and composition of local rocks" },
-              { id: "b", text: "vulnerability — population density, building quality and preparedness" },
+              { id: "a", text: "vulnerability — population density, building quality and preparedness" },
+              { id: "b", text: "the colour and composition of local rocks" },
               { id: "c", text: "the phase of the moon at the time" },
               { id: "d", text: "the number of seismometers in the region" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -516,12 +516,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A fast pyroclastic flow of hot gas" },
-              { id: "b", text: "A mudflow of volcanic ash and water" },
+              { id: "a", text: "A mudflow of volcanic ash and water" },
+              { id: "b", text: "A lava flow from a shield volcano" },
               { id: "c", text: "A column of ash reaching the stratosphere" },
-              { id: "d", text: "A lava flow from a shield volcano" },
+              { id: "d", text: "A fast pyroclastic flow of hot gas" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -615,12 +615,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A slow-moving river of molten lava" },
-              { id: "b", text: "A fast-moving avalanche of hot ash, gas and rock fragments" },
-              { id: "c", text: "A mudflow of volcanic ash and water" },
-              { id: "d", text: "A column of ash rising into the stratosphere" },
+              { id: "a", text: "A column of ash rising into the stratosphere" },
+              { id: "b", text: "A mudflow of volcanic ash and water" },
+              { id: "c", text: "A fast-moving avalanche of hot ash, gas and rock fragments" },
+              { id: "d", text: "A slow-moving river of molten lava" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -670,9 +670,9 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "low-silica basaltic magma that flows easily" },
+              { id: "a", text: "only water vapour and no magma" },
               { id: "b", text: "high-silica viscous magma that traps volcanic gases" },
-              { id: "c", text: "only water vapour and no magma" },
+              { id: "c", text: "low-silica basaltic magma that flows easily" },
               { id: "d", text: "a completely solidified magma chamber" },
             ],
             correctChoiceId: "b",
@@ -726,11 +726,11 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "direct contact with lava flows" },
-              { id: "b", text: "rain or melting snow and ice remobilising volcanic ash and debris" },
-              { id: "c", text: "earthquake shaking alone" },
-              { id: "d", text: "ocean tides reaching the volcano" },
+              { id: "b", text: "earthquake shaking alone" },
+              { id: "c", text: "ocean tides reaching the volcano" },
+              { id: "d", text: "rain or melting snow and ice remobilising volcanic ash and debris" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -778,12 +778,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "volcanoes are physically smaller than fault zones" },
-              { id: "b", text: "magma movement produces measurable precursors such as seismicity, ground deformation and gas changes" },
-              { id: "c", text: "volcanoes erupt on regular schedules" },
-              { id: "d", text: "satellites can predict all eruptions months ahead" },
+              { id: "a", text: "volcanoes erupt on regular schedules" },
+              { id: "b", text: "satellites can predict all eruptions months ahead" },
+              { id: "c", text: "volcanoes are physically smaller than fault zones" },
+              { id: "d", text: "magma movement produces measurable precursors such as seismicity, ground deformation and gas changes" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -893,10 +893,10 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "low in silica and flows like water" },
+              { id: "a", text: "composed entirely of water vapour" },
               { id: "b", text: "high in silica and viscous, trapping volcanic gases until pressure builds" },
-              { id: "c", text: "composed entirely of water vapour" },
-              { id: "d", text: "already completely solidified" },
+              { id: "c", text: "already completely solidified" },
+              { id: "d", text: "low in silica and flows like water" },
             ],
             correctChoiceId: "b",
           },

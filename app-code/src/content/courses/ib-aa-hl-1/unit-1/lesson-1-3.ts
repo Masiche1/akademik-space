@@ -48,12 +48,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$n=1$" },
+              { id: "a", text: "$n=41$" },
               { id: "b", text: "$n=2$" },
               { id: "c", text: "$n=10$" },
-              { id: "d", text: "$n=41$" },
+              { id: "d", text: "$n=1$" },
             ],
-            correctChoiceId: "d",
+            correctChoiceIa: "d",
           },
           markscheme: {
             principles: [
@@ -158,11 +158,11 @@ export const lesson13: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$P(1)$ is true" },
-              { id: "b", text: "$P(3)$ is true" },
-              { id: "c", text: "$P(n)$ is true for all $n$" },
-              { id: "d", text: "$P(2)$ is true" },
+              { id: "b", text: "$P(n)$ is true for all $n$" },
+              { id: "c", text: "$P(2)$ is true" },
+              { id: "d", text: "$P(3)$ is true" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -205,8 +205,8 @@ export const lesson13: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "That $P(k+1)$ is true, using the assumption that $P(k)$ is true" },
-              { id: "b", text: "That $P(k)$ is true for every integer $k$" },
-              { id: "c", text: "That the base case $P(1)$ is true" },
+              { id: "b", text: "That the base case $P(1)$ is true" },
+              { id: "c", text: "That $P(k)$ is true for every integer $k$" },
               { id: "d", text: "That $P(k)$ implies $P(k-1)$" },
             ],
             correctChoiceId: "a",
@@ -251,12 +251,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$p$ and $q$ are both even, contradicting 'lowest terms'" },
-              { id: "b", text: "$p$ is even and $q$ is odd" },
-              { id: "c", text: "$q$ divides $p$" },
+              { id: "a", text: "$q$ divides $p$" },
+              { id: "b", text: "$p$ and $q$ are both even, contradicting 'lowest terms'" },
+              { id: "c", text: "$p$ is even and $q$ is odd" },
               { id: "d", text: "$p+q$ is odd" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -304,12 +304,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$3$" },
-              { id: "b", text: "$2$" },
-              { id: "c", text: "$9$" },
+              { id: "a", text: "$9$" },
+              { id: "b", text: "$3$" },
+              { id: "c", text: "$2$" },
               { id: "d", text: "$1$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -404,12 +404,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$1$" },
+              { id: "a", text: "$i$" },
               { id: "b", text: "$-i$" },
-              { id: "c", text: "$i$" },
-              { id: "d", text: "$-1$" },
+              { id: "c", text: "$-1$" },
+              { id: "d", text: "$1$" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -514,12 +514,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$1$" },
-              { id: "b", text: "$i$" },
-              { id: "c", text: "$-1$" },
-              { id: "d", text: "$-i$" },
+              { id: "a", text: "$i$" },
+              { id: "b", text: "$-1$" },
+              { id: "c", text: "$-i$" },
+              { id: "d", text: "$1$" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -564,11 +564,11 @@ export const lesson13: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$2$" },
-              { id: "b", text: "$-1+i\\sqrt3$" },
-              { id: "c", text: "$-1-i\\sqrt3$" },
-              { id: "d", text: "$2i$" },
+              { id: "b", text: "$2i$" },
+              { id: "c", text: "$-1+i\\sqrt3$" },
+              { id: "d", text: "$-1-i\\sqrt3$" },
             ],
-            correctChoiceId: "d",
+            correctChoiceIb: "d",
           },
           markscheme: {
             principles: [
@@ -613,8 +613,8 @@ export const lesson13: Lesson = {
             choices: [
               { id: "a", text: "$\\frac{\\pi}{n}$" },
               { id: "b", text: "$\\frac{2\\pi}{n}$" },
-              { id: "c", text: "$\\frac{\\pi}{2n}$" },
-              { id: "d", text: "$2\\pi$" },
+              { id: "c", text: "$2\\pi$" },
+              { id: "d", text: "$\\frac{\\pi}{2n}$" },
             ],
             correctChoiceId: "b",
           },
@@ -665,12 +665,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$r^n\\left(\\cos n\\theta+i\\sin n\\theta\\right)$" },
-              { id: "b", text: "$rn\\left(\\cos\\theta+i\\sin n\\theta\\right)$" },
-              { id: "c", text: "$r^n\\left(\\cos\\theta^n+i\\sin\\theta^n\\right)$" },
-              { id: "d", text: "$n r\\left(\\cos\\theta+i\\sin\\theta\\right)$" },
+              { id: "a", text: "$r^n\\left(\\cos\\theta^n+i\\sin\\theta^n\\right)$" },
+              { id: "b", text: "$r^n\\left(\\cos n\\theta+i\\sin n\\theta\\right)$" },
+              { id: "c", text: "$n r\\left(\\cos\\theta+i\\sin\\theta\\right)$" },
+              { id: "d", text: "$rn\\left(\\cos\\theta+i\\sin n\\theta\\right)$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [

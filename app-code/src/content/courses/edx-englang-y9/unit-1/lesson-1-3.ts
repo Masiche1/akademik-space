@@ -65,12 +65,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "From the busy station scene to Eleanor's personal circumstances" },
-              { id: "b", text: "From Eleanor's past to the train's arrival" },
+              { id: "a", text: "From Eleanor's past to the train's arrival" },
+              { id: "b", text: "From a description of India to a description of Aldermoor" },
               { id: "c", text: "From the aunt to the telegraph boy" },
-              { id: "d", text: "From a description of India to a description of Aldermoor" },
+              { id: "d", text: "From the busy station scene to Eleanor's personal circumstances" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Shift in focus", statement: "A move from a wide view to a narrower one draws the reader into a character." }],
@@ -204,12 +204,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Affectionately amused" },
-              { id: "b", text: "Bitterly hostile" },
-              { id: "c", text: "Coldly indifferent" },
-              { id: "d", text: "Anxiously fearful" },
+              { id: "a", text: "Coldly indifferent" },
+              { id: "b", text: "Affectionately amused" },
+              { id: "c", text: "Anxiously fearful" },
+              { id: "d", text: "Bitterly hostile" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Tone", statement: "The writer's attitude, shown by word choice and comparisons." }],

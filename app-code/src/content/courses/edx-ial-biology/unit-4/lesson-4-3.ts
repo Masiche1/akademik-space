@@ -49,12 +49,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Na⁺/K⁺ pump" },
-              { id: "b", text: "Diffusion of glucose" },
-              { id: "c", text: "Osmosis" },
+              { id: "a", text: "Diffusion of glucose" },
+              { id: "b", text: "Osmosis" },
+              { id: "c", text: "Na⁺/K⁺ pump" },
               { id: "d", text: "Photosynthesis" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Resting potential", statement: "Na⁺/K⁺ pump maintains −70 mV." }],
@@ -162,12 +162,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Pituitary" },
-              { id: "b", text: "Adrenal" },
-              { id: "c", text: "Thyroid" },
+              { id: "a", text: "Adrenal" },
+              { id: "b", text: "Thyroid" },
+              { id: "c", text: "Pituitary" },
               { id: "d", text: "Pancreas" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Adrenal", statement: "Produces adrenaline/cortisol." }],

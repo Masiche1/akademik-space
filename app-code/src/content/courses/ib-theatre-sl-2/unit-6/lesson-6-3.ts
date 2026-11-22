@@ -55,12 +55,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Only a final performance exam" },
-              { id: "b", text: "Performance, collaborative project and reflective portfolio" },
-              { id: "c", text: "Only theatre history" },
-              { id: "d", text: "A written essay only" },
+              { id: "a", text: "Only theatre history" },
+              { id: "b", text: "Only a final performance exam" },
+              { id: "c", text: "A written essay only" },
+              { id: "d", text: "Performance, collaborative project and reflective portfolio" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -156,12 +156,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Replacing the performance component" },
-              { id: "b", text: "Evidencing sustained practice and growth across the course" },
-              { id: "c", text: "Counting as the only mark" },
-              { id: "d", text: "Listing stage equipment" },
+              { id: "a", text: "Counting as the only mark" },
+              { id: "b", text: "Replacing the performance component" },
+              { id: "c", text: "Listing stage equipment" },
+              { id: "d", text: "Evidencing sustained practice and growth across the course" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -185,10 +185,10 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Performance recordings" },
-              { id: "b", text: "A performance log" },
+              { id: "a", text: "A performance log" },
+              { id: "b", text: "Written reflections" },
               { id: "c", text: "A stage lighting manual" },
-              { id: "d", text: "Written reflections" },
+              { id: "d", text: "Performance recordings" },
             ],
             correctChoiceId: "c",
           },
@@ -214,12 +214,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "As old as possible" },
-              { id: "b", text: "Recent, representative of current ability and showing development" },
+              { id: "a", text: "Recent, representative of current ability and showing development" },
+              { id: "b", text: "As old as possible" },
               { id: "c", text: "Unlabelled" },
               { id: "d", text: "From only one production" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -243,12 +243,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Documenting all productions and roles over time" },
-              { id: "b", text: "Replacing written reflections" },
-              { id: "c", text: "Listing ticket prices" },
-              { id: "d", text: "Photographing the set" },
+              { id: "a", text: "Listing ticket prices" },
+              { id: "b", text: "Photographing the set" },
+              { id: "c", text: "Documenting all productions and roles over time" },
+              { id: "d", text: "Replacing written reflections" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -272,12 +272,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Raw talent only" },
-              { id: "b", text: "Learning, sustained engagement and critical reflection" },
+              { id: "a", text: "Learning, sustained engagement and critical reflection" },
+              { id: "b", text: "Raw talent only" },
               { id: "c", text: "Fame" },
               { id: "d", text: "Equipment quality" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -301,10 +301,10 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Submit it immediately" },
+              { id: "a", text: "Include only videos" },
               { id: "b", text: "Review it against assessment criteria and seek feedback" },
-              { id: "c", text: "Delete all written work" },
-              { id: "d", text: "Include only videos" },
+              { id: "c", text: "Submit it immediately" },
+              { id: "d", text: "Delete all written work" },
             ],
             correctChoiceId: "b",
           },
@@ -506,12 +506,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Including every performance" },
-              { id: "b", text: "Showing range and growth in theatrical development" },
+              { id: "a", text: "Including only famous plays" },
+              { id: "b", text: "Including every performance" },
               { id: "c", text: "Using professional cameras" },
-              { id: "d", text: "Including only famous plays" },
+              { id: "d", text: "Showing range and growth in theatrical development" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -607,12 +607,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Including every piece of work" },
-              { id: "b", text: "Selecting representative material that shows range and growth" },
-              { id: "c", text: "Buying new equipment" },
-              { id: "d", text: "Removing all written work" },
+              { id: "a", text: "Selecting representative material that shows range and growth" },
+              { id: "b", text: "Removing all written work" },
+              { id: "c", text: "Including every piece of work" },
+              { id: "d", text: "Buying new equipment" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -636,12 +636,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Hides early work" },
-              { id: "b", text: "Makes growth over time visible" },
-              { id: "c", text: "Is required by law" },
+              { id: "a", text: "Makes growth over time visible" },
+              { id: "b", text: "Is required by law" },
+              { id: "c", text: "Hides early work" },
               { id: "d", text: "Reduces file size" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -665,12 +665,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Only the student's name" },
-              { id: "b", text: "Date, production or context, and role where relevant" },
-              { id: "c", text: "Nothing" },
+              { id: "a", text: "Nothing" },
+              { id: "b", text: "Only the student's name" },
+              { id: "c", text: "Date, production or context, and role where relevant" },
               { id: "d", text: "The camera model" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -694,12 +694,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Being impossible to back up" },
-              { id: "b", text: "Incorporating video, audio and interactive elements" },
-              { id: "c", text: "Requiring no organisation" },
-              { id: "d", text: "Excluding performances" },
+              { id: "a", text: "Incorporating video, audio and interactive elements" },
+              { id: "b", text: "Being impossible to back up" },
+              { id: "c", text: "Excluding performances" },
+              { id: "d", text: "Requiring no organisation" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -723,12 +723,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Lowers the overall mark" },
-              { id: "b", text: "Demonstrates honest learning from experience" },
-              { id: "c", text: "Is required by law" },
+              { id: "a", text: "Is required by law" },
+              { id: "b", text: "Lowers the overall mark" },
+              { id: "c", text: "Demonstrates honest learning from experience" },
               { id: "d", text: "Saves space" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -753,11 +753,11 @@ export const lesson63: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Has no effect" },
-              { id: "b", text: "Signals serious, organised theatrical practice" },
-              { id: "c", text: "Is only decoration" },
-              { id: "d", text: "Is optional" },
+              { id: "b", text: "Is optional" },
+              { id: "c", text: "Signals serious, organised theatrical practice" },
+              { id: "d", text: "Is only decoration" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

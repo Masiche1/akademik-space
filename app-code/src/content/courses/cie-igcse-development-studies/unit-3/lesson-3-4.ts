@@ -118,9 +118,9 @@ export const lesson34: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Trade without tariffs or quotas" },
-              { id: "b", text: "Trade with restrictions" },
+              { id: "b", text: "Only exports" },
               { id: "c", text: "No trade" },
-              { id: "d", text: "Only exports" },
+              { id: "d", text: "Trade with restrictions" },
             ],
             correctChoiceId: "a",
           },
@@ -150,15 +150,15 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "Free trade" },
+              { id: "b", text: "No trade" },
+              { id: "c", text: "Only imports" },
               {
-                id: "a",
+                id: "d",
                 text: "Tariffs, quotas or subsidies to protect domestic industries",
               },
-              { id: "b", text: "Free trade" },
-              { id: "c", text: "No trade" },
-              { id: "d", text: "Only imports" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -186,12 +186,12 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A tax on imported goods" },
-              { id: "b", text: "A limit on imports" },
+              { id: "a", text: "A limit on imports" },
+              { id: "b", text: "A tax on imported goods" },
               { id: "c", text: "A subsidy" },
               { id: "d", text: "A quota" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -219,12 +219,12 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A limit on quantity of imports" },
-              { id: "b", text: "A tax on imports" },
-              { id: "c", text: "A subsidy" },
-              { id: "d", text: "A tariff" },
+              { id: "a", text: "A tax on imports" },
+              { id: "b", text: "A limit on quantity of imports" },
+              { id: "c", text: "A tariff" },
+              { id: "d", text: "A subsidy" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -253,8 +253,8 @@ export const lesson34: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Aid from one country to another" },
-              { id: "b", text: "Aid through organisations" },
-              { id: "c", text: "Tied aid" },
+              { id: "b", text: "Tied aid" },
+              { id: "c", text: "Aid through organisations" },
               { id: "d", text: "No aid" },
             ],
             correctChoiceId: "a",
@@ -285,15 +285,15 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "Tied aid" },
               {
-                id: "a",
+                id: "b",
                 text: "Aid through organisations like World Bank or UN",
               },
-              { id: "b", text: "Aid from one country" },
-              { id: "c", text: "Tied aid" },
+              { id: "c", text: "Aid from one country" },
               { id: "d", text: "No aid" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -321,12 +321,12 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Spend it on donor country's goods/services" },
-              { id: "b", text: "Repay immediately" },
-              { id: "c", text: "Give it back" },
-              { id: "d", text: "Share equally" },
+              { id: "a", text: "Give it back" },
+              { id: "b", text: "Share equally" },
+              { id: "c", text: "Spend it on donor country's goods/services" },
+              { id: "d", text: "Repay immediately" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -354,12 +354,12 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Shift from agriculture to manufacturing" },
+              { id: "a", text: "More services" },
               { id: "b", text: "More farming" },
-              { id: "c", text: "More services" },
-              { id: "d", text: "Less production" },
+              { id: "c", text: "Less production" },
+              { id: "d", text: "Shift from agriculture to manufacturing" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -392,8 +392,8 @@ export const lesson34: Lesson = {
                 text: "Producing goods domestically instead of importing",
               },
               { id: "b", text: "Importing more" },
-              { id: "c", text: "Exporting more" },
-              { id: "d", text: "No production" },
+              { id: "c", text: "No production" },
+              { id: "d", text: "Exporting more" },
             ],
             correctChoiceId: "a",
           },
@@ -561,15 +561,15 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "Importing everything" },
+              { id: "b", text: "Producing everything" },
+              { id: "c", text: "No trade" },
               {
-                id: "a",
+                id: "d",
                 text: "Producing what you can produce most efficiently",
               },
-              { id: "b", text: "Producing everything" },
-              { id: "c", text: "Importing everything" },
-              { id: "d", text: "No trade" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -627,12 +627,12 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Growth driven by exports" },
-              { id: "b", text: "Growth from imports" },
-              { id: "c", text: "No exports" },
-              { id: "d", text: "Domestic only" },
+              { id: "a", text: "Growth from imports" },
+              { id: "b", text: "Domestic only" },
+              { id: "c", text: "Growth driven by exports" },
+              { id: "d", text: "No exports" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -773,12 +773,12 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Tariff" },
+              { id: "a", text: "Comparative advantage" },
               { id: "b", text: "Free trade" },
-              { id: "c", text: "Comparative advantage" },
-              { id: "d", text: "Export-led growth" },
+              { id: "c", text: "Export-led growth" },
+              { id: "d", text: "Tariff" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -912,12 +912,12 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Free trade" },
-              { id: "b", text: "Bilateral aid" },
-              { id: "c", text: "Multilateral aid" },
-              { id: "d", text: "Tied aid" },
+              { id: "a", text: "Tied aid" },
+              { id: "b", text: "Multilateral aid" },
+              { id: "c", text: "Free trade" },
+              { id: "d", text: "Bilateral aid" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1012,9 +1012,9 @@ export const lesson34: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Lower prices for consumers" },
-              { id: "b", text: "Higher prices" },
-              { id: "c", text: "Less choice" },
-              { id: "d", text: "No competition" },
+              { id: "b", text: "No competition" },
+              { id: "c", text: "Higher prices" },
+              { id: "d", text: "Less choice" },
             ],
             correctChoiceId: "a",
           },
@@ -1183,15 +1183,15 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "Government investment" },
               {
-                id: "a",
+                id: "b",
                 text: "Multinational companies investing in developing countries",
               },
-              { id: "b", text: "Government investment" },
               { id: "c", text: "Domestic investment only" },
               { id: "d", text: "Aid" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1220,9 +1220,9 @@ export const lesson34: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Special zones with tax breaks to attract FDI" },
-              { id: "b", text: "Free trade zones" },
+              { id: "b", text: "Residential zones" },
               { id: "c", text: "Agricultural zones" },
-              { id: "d", text: "Residential zones" },
+              { id: "d", text: "Free trade zones" },
             ],
             correctChoiceId: "a",
           },
@@ -1256,9 +1256,9 @@ export const lesson34: Lesson = {
                 id: "a",
                 text: "Technology suited to local conditions — labour-intensive, uses local resources",
               },
-              { id: "b", text: "Most advanced technology" },
+              { id: "b", text: "Imported technology" },
               { id: "c", text: "Capital-intensive" },
-              { id: "d", text: "Imported technology" },
+              { id: "d", text: "Most advanced technology" },
             ],
             correctChoiceId: "a",
           },
@@ -1288,15 +1288,15 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "Free technology" },
               {
-                id: "a",
+                id: "b",
                 text: "Machines replacing labour — efficient but costly",
               },
-              { id: "b", text: "Labour-intensive" },
-              { id: "c", text: "Free technology" },
+              { id: "c", text: "Labour-intensive" },
               { id: "d", text: "Simple tools" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1324,12 +1324,12 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Using lots of labour rather than machines" },
+              { id: "a", text: "Capital only" },
               { id: "b", text: "Machines only" },
-              { id: "c", text: "No labour" },
-              { id: "d", text: "Capital only" },
+              { id: "c", text: "Using lots of labour rather than machines" },
+              { id: "d", text: "No labour" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1357,12 +1357,12 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Brings capital and jobs" },
-              { id: "b", text: "Takes away jobs" },
-              { id: "c", text: "Reduces exports" },
-              { id: "d", text: "Increases debt" },
+              { id: "a", text: "Increases debt" },
+              { id: "b", text: "Reduces exports" },
+              { id: "c", text: "Takes away jobs" },
+              { id: "d", text: "Brings capital and jobs" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1390,12 +1390,12 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Profits may be repatriated to home country" },
+              { id: "a", text: "No capital" },
               { id: "b", text: "No jobs created" },
-              { id: "c", text: "No capital" },
+              { id: "c", text: "Profits may be repatriated to home country" },
               { id: "d", text: "Too much investment" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1423,12 +1423,12 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "High unemployment — creates jobs" },
-              { id: "b", text: "It's more efficient" },
-              { id: "c", text: "It's cheaper" },
-              { id: "d", text: "It's modern" },
+              { id: "a", text: "It's cheaper" },
+              { id: "b", text: "High unemployment — creates jobs" },
+              { id: "c", text: "It's modern" },
+              { id: "d", text: "It's more efficient" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1456,15 +1456,15 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "Increase taxes" },
+              { id: "b", text: "Reduce exports" },
               {
-                id: "a",
+                id: "c",
                 text: "Attract foreign investment through tax breaks",
               },
-              { id: "b", text: "Reduce exports" },
-              { id: "c", text: "Increase taxes" },
               { id: "d", text: "Reduce investment" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1632,12 +1632,12 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Tax breaks and relaxed regulations" },
-              { id: "b", text: "Higher taxes" },
-              { id: "c", text: "More regulations" },
-              { id: "d", text: "No incentives" },
+              { id: "a", text: "No incentives" },
+              { id: "b", text: "More regulations" },
+              { id: "c", text: "Tax breaks and relaxed regulations" },
+              { id: "d", text: "Higher taxes" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1694,12 +1694,12 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Increased agricultural output" },
-              { id: "b", text: "Economic growth" },
-              { id: "c", text: "More jobs" },
-              { id: "d", text: "Higher incomes" },
+              { id: "a", text: "More jobs" },
+              { id: "b", text: "Higher incomes" },
+              { id: "c", text: "Increased agricultural output" },
+              { id: "d", text: "Economic growth" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1836,9 +1836,9 @@ export const lesson34: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Labour-intensive, uses local resources" },
-              { id: "b", text: "Capital-intensive" },
+              { id: "b", text: "Advanced" },
               { id: "c", text: "Imported" },
-              { id: "d", text: "Advanced" },
+              { id: "d", text: "Capital-intensive" },
             ],
             correctChoiceId: "a",
           },
@@ -1973,12 +1973,12 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Food aid" },
-              { id: "b", text: "Import substitution" },
-              { id: "c", text: "Export-led growth" },
-              { id: "d", text: "FDI" },
+              { id: "a", text: "Import substitution" },
+              { id: "b", text: "FDI" },
+              { id: "c", text: "Food aid" },
+              { id: "d", text: "Export-led growth" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -2071,12 +2071,12 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Labour-intensive" },
-              { id: "b", text: "Capital-intensive" },
+              { id: "a", text: "Capital-intensive" },
+              { id: "b", text: "Labour-intensive" },
               { id: "c", text: "Automated" },
               { id: "d", text: "Computerised" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [

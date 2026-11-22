@@ -49,12 +49,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$0.3$" },
-              { id: "b", text: "$0.4$" },
-              { id: "c", text: "$0.5$" },
-              { id: "d", text: "$0.6$" },
+              { id: "a", text: "$0.5$" },
+              { id: "b", text: "$0.6$" },
+              { id: "c", text: "$0.3$" },
+              { id: "d", text: "$0.4$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "property", name: "Sum of probabilities", statement: "$\\sum\\mathrm{P}(X=x)=1$" }],
@@ -160,10 +160,10 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$0.3$" },
+              { id: "a", text: "$0.6$" },
               { id: "b", text: "$0.4$" },
               { id: "c", text: "$0.5$" },
-              { id: "d", text: "$0.6$" },
+              { id: "d", text: "$0.3$" },
             ],
             correctChoiceId: "b",
           },
@@ -186,12 +186,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$2.0$" },
-              { id: "b", text: "$2.1$" },
-              { id: "c", text: "$2.2$" },
-              { id: "d", text: "$2.5$" },
+              { id: "a", text: "$2.5$" },
+              { id: "b", text: "$2.0$" },
+              { id: "c", text: "$2.1$" },
+              { id: "d", text: "$2.2$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Expected value", statement: "$\\mathrm{E}(X)=\\sum x\\,\\mathrm{P}(X=x)$" }],
@@ -212,12 +212,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\mathrm{P}(X=0)=0.2$, $\\mathrm{P}(X=1)=0.3$, $\\mathrm{P}(X=2)=0.4$, $\\mathrm{P}(X=3)=0.2$" },
+              { id: "a", text: "$\\mathrm{P}(X=0)=0.3$, $\\mathrm{P}(X=1)=0.3$, $\\mathrm{P}(X=2)=0.3$, $\\mathrm{P}(X=3)=0.3$" },
               { id: "b", text: "$\\mathrm{P}(X=0)=0.1$, $\\mathrm{P}(X=1)=0.2$, $\\mathrm{P}(X=2)=0.3$, $\\mathrm{P}(X=3)=0.5$" },
-              { id: "c", text: "$\\mathrm{P}(X=0)=0.4$, $\\mathrm{P}(X=1)=0.3$, $\\mathrm{P}(X=2)=0.2$, $\\mathrm{P}(X=3)=0.1$" },
-              { id: "d", text: "$\\mathrm{P}(X=0)=0.3$, $\\mathrm{P}(X=1)=0.3$, $\\mathrm{P}(X=2)=0.3$, $\\mathrm{P}(X=3)=0.3$" },
+              { id: "c", text: "$\\mathrm{P}(X=0)=0.2$, $\\mathrm{P}(X=1)=0.3$, $\\mathrm{P}(X=2)=0.4$, $\\mathrm{P}(X=3)=0.2$" },
+              { id: "d", text: "$\\mathrm{P}(X=0)=0.4$, $\\mathrm{P}(X=1)=0.3$, $\\mathrm{P}(X=2)=0.2$, $\\mathrm{P}(X=3)=0.1$" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "property", name: "Sum of probabilities", statement: "$\\sum\\mathrm{P}(X=x)=1$" }],
@@ -239,11 +239,11 @@ export const lesson52: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$4$" },
-              { id: "b", text: "$5$" },
-              { id: "c", text: "$6$" },
-              { id: "d", text: "$10$" },
+              { id: "b", text: "$6$" },
+              { id: "c", text: "$10$" },
+              { id: "d", text: "$5$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Fair game", statement: "Expected gain $=\\mathrm{E}(X)-c=0$" }],
@@ -264,12 +264,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$X$ always equals 3.2." },
-              { id: "b", text: "Over many repetitions, the average value of $X$ is 3.2." },
-              { id: "c", text: "$\\mathrm{P}(X=3.2)=1$." },
-              { id: "d", text: "The most likely value of $X$ is 3.2." },
+              { id: "a", text: "The most likely value of $X$ is 3.2." },
+              { id: "b", text: "$\\mathrm{P}(X=3.2)=1$." },
+              { id: "c", text: "Over many repetitions, the average value of $X$ is 3.2." },
+              { id: "d", text: "$X$ always equals 3.2." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Expected value", statement: "$\\mathrm{E}(X)$ is the long-run mean of $X$." }],
@@ -290,12 +290,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$0.4$" },
-              { id: "b", text: "$0.5$" },
+              { id: "a", text: "$0.5$" },
+              { id: "b", text: "$0.9$" },
               { id: "c", text: "$0.6$" },
-              { id: "d", text: "$0.9$" },
+              { id: "d", text: "$0.4$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "property", name: "Sum of probabilities", statement: "Probabilities of disjoint outcomes add." }],
@@ -502,11 +502,11 @@ export const lesson52: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "The number of cards drawn from a pack, without replacement, until an ace appears." },
-              { id: "b", text: "The number of sixes in 15 rolls of a fair die." },
-              { id: "c", text: "The heights of 15 students." },
-              { id: "d", text: "The time taken for a bus to arrive." },
+              { id: "b", text: "The time taken for a bus to arrive." },
+              { id: "c", text: "The number of sixes in 15 rolls of a fair die." },
+              { id: "d", text: "The heights of 15 students." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Binomial conditions", statement: "Fixed $n$, two outcomes, constant $p$, independent trials." }],
@@ -611,12 +611,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The number of aces among 10 cards drawn from a pack without replacement." },
-              { id: "b", text: "The number of defective widgets in a batch of 30, where each widget is independently defective with probability $0.05$." },
-              { id: "c", text: "The sum of the scores when 10 fair dice are rolled." },
+              { id: "a", text: "The sum of the scores when 10 fair dice are rolled." },
+              { id: "b", text: "The number of aces among 10 cards drawn from a pack without replacement." },
+              { id: "c", text: "The number of defective widgets in a batch of 30, where each widget is independently defective with probability $0.05$." },
               { id: "d", text: "The number of goals scored in a football match." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Binomial conditions", statement: "Fixed $n$, two outcomes, constant $p$, independent trials." }],
@@ -637,9 +637,9 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The number of trials is not fixed." },
-              { id: "b", text: "The probability of success is not constant between trials." },
-              { id: "c", text: "There are more than two outcomes per trial." },
+              { id: "a", text: "The probability of success is not constant between trials." },
+              { id: "b", text: "There are more than two outcomes per trial." },
+              { id: "c", text: "The number of trials is not fixed." },
               { id: "d", text: "The trials are not independent." },
             ],
             correctChoiceId: "d",
@@ -663,12 +663,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$2$" },
-              { id: "b", text: "$3$" },
+              { id: "a", text: "$4$" },
+              { id: "b", text: "$2$" },
               { id: "c", text: "$3.5$" },
-              { id: "d", text: "$4$" },
+              { id: "d", text: "$3$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Mean of binomial", statement: "$\\mathrm{E}(X)=np$" }],
@@ -690,11 +690,11 @@ export const lesson52: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$0.5$" },
-              { id: "b", text: "$0.25$" },
+              { id: "b", text: "$0.0625$" },
               { id: "c", text: "$0.125$" },
-              { id: "d", text: "$0.0625$" },
+              { id: "d", text: "$0.25$" },
             ],
-            correctChoiceId: "d",
+            correctChoiceIb: "d",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Binomial probability", statement: "$\\mathrm{P}(X=k)=\\binom nk p^k(1-p)^{n-k}$" }],
@@ -715,12 +715,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$1-\\mathrm{P}(X\\le2)$" },
-              { id: "b", text: "$\\mathrm{P}(X\\le7)$" },
+              { id: "a", text: "$\\mathrm{P}(X\\le7)$" },
+              { id: "b", text: "$1-\\mathrm{P}(X\\le2)$" },
               { id: "c", text: "$1-\\mathrm{P}(X\\le3)$" },
               { id: "d", text: "$\\mathrm{P}(X=3)$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Complement", statement: "$\\mathrm{P}(X\\ge k)=1-\\mathrm{P}(X\\le k-1)$" }],
@@ -741,12 +741,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\mathrm{B}(20,0.8)$" },
-              { id: "b", text: "$\\mathrm{B}(20,0.2)$" },
-              { id: "c", text: "$\\mathrm{B}(5,0.2)$" },
-              { id: "d", text: "$\\mathrm{B}(20,0.04)$" },
+              { id: "a", text: "$\\mathrm{B}(20,0.2)$" },
+              { id: "b", text: "$\\mathrm{B}(5,0.2)$" },
+              { id: "c", text: "$\\mathrm{B}(20,0.04)$" },
+              { id: "d", text: "$\\mathrm{B}(20,0.8)$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Binomial distribution", statement: "$X\\sim\\mathrm{B}(n,p)$ counts successes in $n$ trials with probability $p$." }],

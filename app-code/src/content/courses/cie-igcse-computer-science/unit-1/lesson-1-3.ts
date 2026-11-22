@@ -52,22 +52,22 @@ export const lesson53: Lesson = {
           "choices": [
                     {
                               "id": "a",
-                              "text": "LAN=small area, WAN=large area"
-                    },
-                    {
-                              "id": "b",
                               "text": "LAN=fast, WAN=slow"
                     },
                     {
-                              "id": "c",
+                              "id": "b",
                               "text": "LAN=wireless, WAN=wired"
+                    },
+                    {
+                              "id": "c",
+                              "text": "LAN=small area, WAN=large area"
                     },
                     {
                               "id": "d",
                               "text": "No difference"
                     }
           ],
-          "correctChoiceId": "a"
+          "correctChoiceId": "c"
 },
           markscheme: {
           "principles": [
@@ -214,6 +214,284 @@ export const lesson53: Lesson = {
           ],
           "finalAnswer": "Network types, topologies, protocols."
 },
+        },
+        {
+          id: "ciecs-u1-nt-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "In a star topology, what connects all the devices?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "A direct link between every pair" },
+              { id: "b", text: "A closed ring of cables" },
+              { id: "c", text: "One long shared cable" },
+              { id: "d", text: "A central switch or hub" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              { kind: "definition", name: "Star topology", statement: "All devices connect to a central point." },
+            ],
+            steps: [
+              { reasoning: "A central hub or switch connects each device in a star topology.", marks: 1, markCode: "M" },
+            ],
+            finalAnswer: "**(a)** A central switch or hub",
+          },
+        },
+        {
+          id: "ciecs-u1-nt-q6",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Which protocol is mainly responsible for reliable, ordered delivery of data?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "TCP" },
+              { id: "b", text: "FTP" },
+              { id: "c", text: "HTTP" },
+              { id: "d", text: "DNS" },
+            ],
+            aorrectChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              { kind: "definition", name: "TCP", statement: "Reliable ordered delivery." },
+            ],
+            steps: [
+              { reasoning: "TCP manages reliable delivery and ordering of packets.", marks: 1, markCode: "M" },
+            ],
+            finalAnswer: "**(c)** TCP",
+          },
+        },
+        {
+          id: "ciecs-u1-nt-q7",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Why is data divided into packets for transmission?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "To make every packet encrypted" },
+              { id: "b", text: "To prevent all network errors" },
+              { id: "c", text: "To allow independent routing and retransmission of lost parts" },
+              { id: "d", text: "To remove the need for addresses" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Packet switching", statement: "Packets route independently and can be resent." },
+            ],
+            steps: [
+              { reasoning: "Packets can take different routes and only failed parts need resending.", marks: 1, markCode: "M" },
+            ],
+            finalAnswer: "**(b)** Independent routing and retransmission",
+          },
+        },
+        {
+          id: "ciecs-u1-nt-q8",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "What is the main role of a router on a network?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "It forwards packets between networks" },
+              { id: "b", text: "It stores files permanently" },
+              { id: "c", text: "It executes application programs" },
+              { id: "d", text: "It displays output on a monitor" },
+            ],
+            correctChoiceIa: "d",
+          },
+          markscheme: {
+            principles: [
+              { kind: "definition", name: "Router", statement: "Forwards packets between networks." },
+            ],
+            steps: [
+              { reasoning: "Routers choose paths and forward packets between networks.", marks: 1, markCode: "M" },
+            ],
+            finalAnswer: "**(d)** Forwards packets between networks",
+          },
+        },
+        {
+          id: "ciecs-u1-nt-q9",
+          difficulty: "challenge",
+          totalMarks: 1,
+          stem: "A school LAN uses both wired Ethernet and Wi-Fi. Which statement best compares them?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Ethernet is generally more stable, while Wi-Fi offers flexible wireless access" },
+              { id: "b", text: "Wi-Fi is always a WAN rather than part of a LAN" },
+              { id: "c", text: "Wi-Fi cannot use TCP/IP protocols" },
+              { id: "d", text: "They use completely different addressing systems" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              { kind: "comparison", name: "Wired vs wireless", statement: "Both can carry IP packets; wired is often more stable." },
+            ],
+            steps: [
+              { reasoning: "Ethernet and Wi-Fi can both support LAN traffic, but wired links are usually more stable.", marks: 1, markCode: "M" },
+            ],
+            finalAnswer: "**(b)** Ethernet is generally more stable; Wi-Fi is flexible",
+          },
+        },
+        {
+          id: "ciecs-u1-nt-q10",
+          difficulty: "challenge",
+          totalMarks: 1,
+          stem: "If the best route for a packet fails, what can packet switching allow?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "The whole message must be sent again from the start" },
+              { id: "b", text: "The receiving device automatically repairs the data" },
+              { id: "c", text: "The sender must use a different protocol" },
+              { id: "d", text: "Routers can choose an alternative path for later packets" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Fault tolerance", statement: "Alternative routes improve reliability." },
+            ],
+            steps: [
+              { reasoning: "Routers can reroute packets when a path fails, improving fault tolerance.", marks: 1, markCode: "M" },
+            ],
+            finalAnswer: "**(b)** Routers can choose an alternative path",
+          },
+        },
+        {
+          id: "ciecs-u1-nt-q11",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "A file of $4,000$ bytes is split into packets carrying $500$ bytes of data each. How many packets are needed?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 8 }],
+          },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Packet count", statement: "Packets = data size divided by payload per packet." },
+            ],
+            steps: [
+              { reasoning: "4000 / 500 = 8 packets.", marks: 1, markCode: "A", part: "a" },
+            ],
+            finalAnswer: "8",
+          },
+        },
+        {
+          id: "ciecs-u1-nt-q12",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Each packet has a $40$-byte header and $480$ bytes of payload. What is the total size of one packet in bytes?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 520 }],
+          },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Packet size", statement: "Total packet size = header + payload." },
+            ],
+            steps: [
+              { reasoning: "40 + 480 = 520 bytes.", marks: 1, markCode: "A", part: "a" },
+            ],
+            finalAnswer: "520",
+          },
+        },
+        {
+          id: "ciecs-u1-nt-q13",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "(a) A $9,000$-byte message is split into $1,500$-byte packets. How many packets are needed? (b) If each packet also has a $40$-byte header, what is the total header overhead in bytes?",
+          response: {
+            type: "numeric",
+            parts: [
+              { label: "a", answer: 6 },
+              { label: "b", answer: 240 },
+            ],
+          },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Packet overhead", statement: "Count packets first, then multiply by header size." },
+            ],
+            steps: [
+              { reasoning: "9000 / 1500 = 6 packets.", marks: 1, markCode: "A", part: "a" },
+              { reasoning: "6 * 40 = 240 bytes of header overhead.", marks: 1, markCode: "A", part: "b" },
+            ],
+            finalAnswer: "(a) 6; (b) 240",
+          },
+        },
+        {
+          id: "ciecs-u1-nt-q14",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "(a) A $100$ Mbps link sends a $25$ MB file. Treating $1$ MB as $8$ megabits, how many seconds does the transfer take? (b) At $50$ Mbps, how many seconds would it take?",
+          response: {
+            type: "numeric",
+            parts: [
+              { label: "a", answer: 2 },
+              { label: "b", answer: 4 },
+            ],
+          },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Transmission time", statement: "Time = file megabits divided by link speed." },
+            ],
+            steps: [
+              { reasoning: "25 MB = 200 megabits; 200 / 100 = 2 seconds.", marks: 1, markCode: "A", part: "a" },
+              { reasoning: "200 / 50 = 4 seconds.", marks: 1, markCode: "A", part: "b" },
+            ],
+            finalAnswer: "(a) 2; (b) 4",
+          },
+        },
+        {
+          id: "ciecs-u1-nt-q15",
+          difficulty: "challenge",
+          totalMarks: 3,
+          stem: "(a) $10$ megabits are sent at $2$ Mbps. How many seconds does this take? (b) How long at $5$ Mbps? (c) How many seconds are saved by using the faster link?",
+          response: {
+            type: "numeric",
+            parts: [
+              { label: "a", answer: 5 },
+              { label: "b", answer: 2 },
+              { label: "c", answer: 3 },
+            ],
+          },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Transmission time", statement: "Time = data size divided by bandwidth." },
+            ],
+            steps: [
+              { reasoning: "10 / 2 = 5 seconds.", marks: 1, markCode: "A", part: "a" },
+              { reasoning: "10 / 5 = 2 seconds.", marks: 1, markCode: "A", part: "b" },
+              { reasoning: "5 - 2 = 3 seconds saved.", marks: 1, markCode: "A", part: "c" },
+            ],
+            finalAnswer: "(a) 5; (b) 2; (c) 3",
+          },
+        },
+        {
+          id: "ciecs-u1-nt-q16",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "Explain how packet switching and protocols allow a message to travel reliably across different networks. Include the roles of IP addresses, routers and TCP.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "technique", name: "Packet switching", statement: "Messages are split, addressed, routed and reassembled reliably." },
+            ],
+            steps: [
+              { reasoning: "The message is divided into packets that can travel independently.", marks: 1, markCode: "M" },
+              { reasoning: "IP addresses identify sender and receiver so packets can be routed.", marks: 1, markCode: "M" },
+              { reasoning: "Routers forward packets between networks and can choose alternative paths.", marks: 1, markCode: "M" },
+              { reasoning: "TCP checks delivery and ordering, so missing packets can be resent.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "Packets are addressed, routed independently and reliably delivered",
+          },
         },
       ],
     },

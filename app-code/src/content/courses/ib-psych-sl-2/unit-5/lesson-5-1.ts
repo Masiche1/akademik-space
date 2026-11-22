@@ -87,12 +87,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Behaviour that is statistically rare" },
-              { id: "b", text: "Behaviour violating social norms" },
-              { id: "c", text: "Behaviour preventing coping with daily life" },
-              { id: "d", text: "Deviation from an ideal mental state" },
+              { id: "a", text: "Behaviour preventing coping with daily life" },
+              { id: "b", text: "Behaviour that is statistically rare" },
+              { id: "c", text: "Deviation from an ideal mental state" },
+              { id: "d", text: "Behaviour violating social norms" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -325,11 +325,11 @@ export const lesson51: Lesson = {
             choices: [
               {
                 id: "a",
-                text: "Behaviour that is statistically rare in the population",
+                text: "Behaviour that violates accepted social norms",
               },
               {
                 id: "b",
-                text: "Behaviour that violates accepted social norms",
+                text: "Behaviour that is statistically rare in the population",
               },
               {
                 id: "c",
@@ -379,22 +379,22 @@ export const lesson51: Lesson = {
             choices: [
               {
                 id: "a",
-                text: "It is objective and measurable across all cultures",
-              },
-              {
-                id: "b",
-                text: "It treats 'normal' as defined by the majority, marginalising minorities",
-              },
-              {
-                id: "c",
                 text: "It focuses only on the individual's subjective distress",
               },
               {
-                id: "d",
+                id: "b",
+                text: "It is objective and measurable across all cultures",
+              },
+              {
+                id: "c",
                 text: "It requires statistical comparison with the population",
               },
+              {
+                id: "d",
+                text: "It treats 'normal' as defined by the majority, marginalising minorities",
+              },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -438,14 +438,14 @@ export const lesson51: Lesson = {
                 id: "a",
                 text: "Behaviour that is statistically rare in the population",
               },
+              { id: "b", text: "Departure from ideal mental health criteria" },
               {
-                id: "b",
+                id: "c",
                 text: "Behaviour that prevents coping with everyday life",
               },
-              { id: "c", text: "Departure from ideal mental health criteria" },
               { id: "d", text: "Violation of legally enforced social rules" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -490,11 +490,11 @@ export const lesson51: Lesson = {
                 id: "b",
                 text: "It is abnormal only by statistical infrequency",
               },
-              { id: "c", text: "It is normal under all four definitions" },
               {
-                id: "d",
+                id: "c",
                 text: "It is abnormal by failure to function adequately",
               },
+              { id: "d", text: "It is normal under all four definitions" },
             ],
             correctChoiceId: "b",
           },
@@ -541,12 +541,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Accurate perception of reality" },
-              { id: "b", text: "Autonomy and independence" },
-              { id: "c", text: "Perpetual happiness at all times" },
-              { id: "d", text: "Positive relationships with others" },
+              { id: "a", text: "Autonomy and independence" },
+              { id: "b", text: "Positive relationships with others" },
+              { id: "c", text: "Accurate perception of reality" },
+              { id: "d", text: "Perpetual happiness at all times" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -587,22 +587,22 @@ export const lesson51: Lesson = {
             choices: [
               {
                 id: "a",
-                text: "Abnormal — the IQ is statistically infrequent",
-              },
-              {
-                id: "b",
-                text: "Not abnormal — rarity alone is insufficient when functioning is unimpaired",
-              },
-              {
-                id: "c",
                 text: "Abnormal — high intelligence deviates from ideal mental health",
               },
               {
-                id: "d",
+                id: "b",
                 text: "Cannot be classified without a full psychiatric assessment",
               },
+              {
+                id: "c",
+                text: "Abnormal — the IQ is statistically infrequent",
+              },
+              {
+                id: "d",
+                text: "Not abnormal — rarity alone is insufficient when functioning is unimpaired",
+              },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1097,15 +1097,15 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Whether diagnosis is consistent over time" },
+              { id: "a", text: "Whether the diagnosis reflects real disorder" },
+              { id: "b", text: "Whether diagnosis is consistent over time" },
               {
-                id: "b",
+                id: "c",
                 text: "Whether different clinicians reach the same diagnosis",
               },
-              { id: "c", text: "Whether the diagnosis reflects real disorder" },
               { id: "d", text: "Whether patients accept the label" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1335,12 +1335,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The American Psychiatric Association" },
-              { id: "b", text: "The World Health Organization" },
-              { id: "c", text: "The United Nations" },
-              { id: "d", text: "The British Psychological Society" },
+              { id: "a", text: "The United Nations" },
+              { id: "b", text: "The American Psychiatric Association" },
+              { id: "c", text: "The British Psychological Society" },
+              { id: "d", text: "The World Health Organization" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1379,15 +1379,15 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Patients never have more than one disorder" },
               {
-                id: "b",
+                id: "a",
                 text: "Patients often meet criteria for multiple disorders at once",
               },
-              { id: "c", text: "Clinicians cannot agree on any diagnosis" },
+              { id: "b", text: "Clinicians cannot agree on any diagnosis" },
+              { id: "c", text: "Patients never have more than one disorder" },
               { id: "d", text: "Disorders disappear over time" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -1427,15 +1427,15 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Distinct categories with clear boundaries" },
+              { id: "a", text: "Caused by a single gene each" },
+              { id: "b", text: "Identical in all diagnosed patients" },
+              { id: "c", text: "Distinct categories with clear boundaries" },
               {
-                id: "b",
+                id: "d",
                 text: "Existing on continua rather than discrete categories",
               },
-              { id: "c", text: "Caused by a single gene each" },
-              { id: "d", text: "Identical in all diagnosed patients" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1477,7 +1477,7 @@ export const lesson51: Lesson = {
             choices: [
               {
                 id: "a",
-                text: "Two patients with different diagnoses sharing the same symptoms",
+                text: "The same patient receiving different diagnoses over time",
               },
               {
                 id: "b",
@@ -1485,7 +1485,7 @@ export const lesson51: Lesson = {
               },
               {
                 id: "c",
-                text: "The same patient receiving different diagnoses over time",
+                text: "Two patients with different diagnoses sharing the same symptoms",
               },
               {
                 id: "d",
@@ -1537,12 +1537,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "DSM-IV" },
-              { id: "b", text: "DSM-5-TR" },
-              { id: "c", text: "ICD-10" },
-              { id: "d", text: "DSM-III-R" },
+              { id: "a", text: "DSM-III-R" },
+              { id: "b", text: "ICD-10" },
+              { id: "c", text: "DSM-IV" },
+              { id: "d", text: "DSM-5-TR" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1579,15 +1579,15 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It improves access to effective treatment" },
+              { id: "a", text: "It makes diagnosis more reliable" },
+              { id: "b", text: "It improves access to effective treatment" },
+              { id: "c", text: "It removes the need for medication" },
               {
-                id: "b",
+                id: "d",
                 text: "It leads to discrimination that reduces opportunities and treatment engagement",
               },
-              { id: "c", text: "It makes diagnosis more reliable" },
-              { id: "d", text: "It removes the need for medication" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

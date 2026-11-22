@@ -54,12 +54,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\text{AlO}$" },
-              { id: "b", text: "$\\text{Al}_2\\text{O}_3$" },
+              { id: "a", text: "$\\text{Al}_2\\text{O}$" },
+              { id: "b", text: "$\\text{AlO}$" },
               { id: "c", text: "$\\text{Al}_3\\text{O}_2$" },
-              { id: "d", text: "$\\text{Al}_2\\text{O}$" },
+              { id: "d", text: "$\\text{Al}_2\\text{O}_3$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -186,12 +186,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Linear" },
-              { id: "b", text: "Bent" },
-              { id: "c", text: "Trigonal planar" },
-              { id: "d", text: "Tetrahedral" },
+              { id: "a", text: "Bent" },
+              { id: "b", text: "Tetrahedral" },
+              { id: "c", text: "Linear" },
+              { id: "d", text: "Trigonal planar" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

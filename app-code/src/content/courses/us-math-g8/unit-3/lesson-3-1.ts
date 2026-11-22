@@ -50,12 +50,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$(-3, -2)$" },
-              { id: "b", text: "$(3, 2)$" },
-              { id: "c", text: "$(-3, 2)$" },
-              { id: "d", text: "$(-2, 3)$" },
+              { id: "a", text: "$(-3, 2)$" },
+              { id: "b", text: "$(-2, 3)$" },
+              { id: "c", text: "$(3, 2)$" },
+              { id: "d", text: "$(-3, -2)$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -198,12 +198,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$(6, -3)$" },
-              { id: "b", text: "$(5, 2)$" },
+              { id: "a", text: "$\\left(\\frac{2}{3}, -\\frac{1}{3}\\right)$" },
+              { id: "b", text: "$(6, -3)$" },
               { id: "c", text: "$(6, -1)$" },
-              { id: "d", text: "$\\left(\\frac{2}{3}, -\\frac{1}{3}\\right)$" },
+              { id: "d", text: "$(5, 2)$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [

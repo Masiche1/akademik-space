@@ -51,10 +51,10 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A rock" },
+              { id: "a", text: "A table" },
               { id: "b", text: "A torch" },
-              { id: "c", text: "A table" },
-              { id: "d", text: "A chair" },
+              { id: "c", text: "A chair" },
+              { id: "d", text: "A rock" },
             ],
             correctChoiceId: "b",
           },
@@ -144,12 +144,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A fire" },
-              { id: "b", text: "A rock" },
-              { id: "c", text: "A table" },
-              { id: "d", text: "A pencil" },
+              { id: "a", text: "A rock" },
+              { id: "b", text: "A fire" },
+              { id: "c", text: "A pencil" },
+              { id: "d", text: "A table" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -210,11 +210,11 @@ export const lesson23: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "The Moon" },
-              { id: "b", text: "The Sun" },
-              { id: "c", text: "A torch" },
+              { id: "b", text: "A torch" },
+              { id: "c", text: "The Sun" },
               { id: "d", text: "A rock" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -257,12 +257,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Movement energy changes into heat energy" },
-              { id: "b", text: "Heat changes into light only" },
+              { id: "a", text: "Heat changes into light only" },
+              { id: "b", text: "Nothing happens" },
               { id: "c", text: "Sound disappears" },
-              { id: "d", text: "Nothing happens" },
+              { id: "d", text: "Movement energy changes into heat energy" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -323,12 +323,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Energy can become a new form we cannot see" },
-              { id: "b", text: "Energy is always used up completely" },
-              { id: "c", text: "Energy only exists in the Sun" },
-              { id: "d", text: "Energy cannot be measured" },
+              { id: "a", text: "Energy only exists in the Sun" },
+              { id: "b", text: "Energy can become a new form we cannot see" },
+              { id: "c", text: "Energy cannot be measured" },
+              { id: "d", text: "Energy is always used up completely" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -393,12 +393,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It reduces waste, saves money and helps the environment" },
-              { id: "b", text: "It makes energy disappear forever" },
-              { id: "c", text: "It stops all light" },
-              { id: "d", text: "It has no effect" },
+              { id: "a", text: "It has no effect" },
+              { id: "b", text: "It stops all light" },
+              { id: "c", text: "It makes energy disappear forever" },
+              { id: "d", text: "It reduces waste, saves money and helps the environment" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -447,12 +447,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Ice" },
-              { id: "b", text: "Water" },
-              { id: "c", text: "Air" },
+              { id: "a", text: "Water" },
+              { id: "b", text: "Air" },
+              { id: "c", text: "Ice" },
               { id: "d", text: "Rock" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -540,12 +540,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It fills any space" },
-              { id: "b", text: "It has a fixed shape and volume" },
-              { id: "c", text: "It takes the container's shape" },
+              { id: "a", text: "It takes the container's shape" },
+              { id: "b", text: "It fills any space" },
+              { id: "c", text: "It has a fixed shape and volume" },
               { id: "d", text: "It cannot be seen" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -605,9 +605,9 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Gas turning into liquid" },
+              { id: "a", text: "Solid turning into liquid" },
               { id: "b", text: "Liquid turning into solid" },
-              { id: "c", text: "Solid turning into liquid" },
+              { id: "c", text: "Gas turning into liquid" },
               { id: "d", text: "Liquid turning into gas" },
             ],
             correctChoiceId: "b",
@@ -653,12 +653,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It keeps one fixed shape" },
-              { id: "b", text: "It spreads to fill all the space" },
-              { id: "c", text: "It stays only at the bottom" },
+              { id: "a", text: "It stays only at the bottom" },
+              { id: "b", text: "It keeps one fixed shape" },
+              { id: "c", text: "It spreads to fill all the space" },
               { id: "d", text: "It becomes a solid" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -719,12 +719,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Water droplets form on a cold mirror from steam" },
-              { id: "b", text: "Ice melts in a warm room" },
-              { id: "c", text: "Water freezes in a freezer" },
-              { id: "d", text: "A solid becomes powder" },
+              { id: "a", text: "Ice melts in a warm room" },
+              { id: "b", text: "Water droplets form on a cold mirror from steam" },
+              { id: "c", text: "A solid becomes powder" },
+              { id: "d", text: "Water freezes in a freezer" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -789,9 +789,9 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It freezes into ice" },
+              { id: "a", text: "It melts" },
               { id: "b", text: "It condenses into liquid droplets" },
-              { id: "c", text: "It melts" },
+              { id: "c", text: "It freezes into ice" },
               { id: "d", text: "It disappears forever" },
             ],
             correctChoiceId: "b",

@@ -53,12 +53,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$1:9$" },
-              { id: "b", text: "$1:3$" },
-              { id: "c", text: "$1:6$" },
-              { id: "d", text: "$1:27$" },
+              { id: "a", text: "$1:27$" },
+              { id: "b", text: "$1:6$" },
+              { id: "c", text: "$1:3$" },
+              { id: "d", text: "$1:9$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "property", name: "Area scale factor", statement: "Area scale factor $=k^2$" }],
@@ -179,12 +179,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The perpendicular bisector of AB" },
+              { id: "a", text: "The bisector of angle A" },
               { id: "b", text: "A circle with centre A and radius 3 cm" },
               { id: "c", text: "The line AB" },
-              { id: "d", text: "The bisector of angle A" },
+              { id: "d", text: "The perpendicular bisector of AB" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "property", name: "Perpendicular bisector", statement: "Every point on it is equidistant from both ends of the segment." }],

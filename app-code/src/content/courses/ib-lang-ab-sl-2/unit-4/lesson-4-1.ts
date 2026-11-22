@@ -52,10 +52,10 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Airport" },
-              { id: "b", text: "Homework" },
+              { id: "a", text: "Homework" },
+              { id: "b", text: "Ticket" },
               { id: "c", text: "Cheese" },
-              { id: "d", text: "Ticket" },
+              { id: "d", text: "Airport" },
             ],
             correctChoiceId: "c",
           },
@@ -147,12 +147,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Bread" },
-              { id: "b", text: "Tea" },
-              { id: "c", text: "Museum" },
-              { id: "d", text: "Sister" },
+              { id: "a", text: "Museum" },
+              { id: "b", text: "Bread" },
+              { id: "c", text: "Sister" },
+              { id: "d", text: "Tea" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -174,12 +174,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "I go to school by bus." },
-              { id: "b", text: "I eat a station." },
-              { id: "c", text: "My ticket is cheese." },
-              { id: "d", text: "The airport is my mother." },
+              { id: "a", text: "My ticket is cheese." },
+              { id: "b", text: "The airport is my mother." },
+              { id: "c", text: "I go to school by bus." },
+              { id: "d", text: "I eat a station." },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -220,12 +220,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Cousin" },
-              { id: "b", text: "Airport" },
-              { id: "c", text: "Homework" },
+              { id: "a", text: "Airport" },
+              { id: "b", text: "Homework" },
+              { id: "c", text: "Cousin" },
               { id: "d", text: "Juice" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -272,12 +272,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "I buy a ticket at the airport." },
-              { id: "b", text: "I drink a ticket." },
-              { id: "c", text: "The ticket is my sister." },
+              { id: "a", text: "I drink a ticket." },
+              { id: "b", text: "The ticket is my sister." },
+              { id: "c", text: "I buy a ticket at the airport." },
               { id: "d", text: "My airport likes cheese." },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -323,12 +323,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Rain" },
-              { id: "b", text: "Exam" },
-              { id: "c", text: "Classroom" },
-              { id: "d", text: "Cousin" },
+              { id: "a", text: "Cousin" },
+              { id: "b", text: "Rain" },
+              { id: "c", text: "Exam" },
+              { id: "d", text: "Classroom" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -371,9 +371,9 @@ export const lesson41: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Museum" },
-              { id: "b", text: "Rice" },
-              { id: "c", text: "Sister" },
-              { id: "d", text: "Teacher" },
+              { id: "b", text: "Sister" },
+              { id: "c", text: "Teacher" },
+              { id: "d", text: "Rice" },
             ],
             correctChoiceId: "a",
           },
@@ -423,11 +423,11 @@ export const lesson41: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "station" },
-              { id: "b", text: "music" },
-              { id: "c", text: "ticket" },
-              { id: "d", text: "beach" },
+              { id: "b", text: "beach" },
+              { id: "c", text: "music" },
+              { id: "d", text: "ticket" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -474,11 +474,11 @@ export const lesson41: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "I like eat bread." },
-              { id: "b", text: "I like bread." },
-              { id: "c", text: "Bread I like eat." },
-              { id: "d", text: "I bread like." },
+              { id: "b", text: "I bread like." },
+              { id: "c", text: "I like bread." },
+              { id: "d", text: "Bread I like eat." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -502,8 +502,8 @@ export const lesson41: Lesson = {
             choices: [
               { id: "a", text: "Bus, train, plane" },
               { id: "b", text: "Bread, mother, exam" },
-              { id: "c", text: "Park, homework, juice" },
-              { id: "d", text: "Teacher, beach, rice" },
+              { id: "c", text: "Teacher, beach, rice" },
+              { id: "d", text: "Park, homework, juice" },
             ],
             correctChoiceId: "a",
           },
@@ -584,12 +584,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A word with the opposite meaning" },
-              { id: "b", text: "A word with a similar meaning" },
-              { id: "c", text: "A very long word" },
-              { id: "d", text: "A word in another language" },
+              { id: "a", text: "A very long word" },
+              { id: "b", text: "A word in another language" },
+              { id: "c", text: "A word with a similar meaning" },
+              { id: "d", text: "A word with the opposite meaning" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -679,10 +679,10 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Words that rhyme" },
+              { id: "a", text: "Words in alphabetical order" },
               { id: "b", text: "Words built from the same root, like happy, happily, happiness" },
-              { id: "c", text: "Words in alphabetical order" },
-              { id: "d", text: "Very long words" },
+              { id: "c", text: "Very long words" },
+              { id: "d", text: "Words that rhyme" },
             ],
             correctChoiceId: "b",
           },
@@ -706,10 +706,10 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Big and small" },
+              { id: "a", text: "Fast and slow" },
               { id: "b", text: "Happy and glad" },
-              { id: "c", text: "Fast and slow" },
-              { id: "d", text: "Begin and end" },
+              { id: "c", text: "Begin and end" },
+              { id: "d", text: "Big and small" },
             ],
             correctChoiceId: "b",
           },
@@ -752,12 +752,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "bigger, biggest" },
-              { id: "b", text: "small, little" },
+              { id: "a", text: "small, little" },
+              { id: "b", text: "bigger, biggest" },
               { id: "c", text: "fast, quick" },
               { id: "d", text: "begin, start" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -806,8 +806,8 @@ export const lesson41: Lesson = {
             choices: [
               { id: "a", text: "Football" },
               { id: "b", text: "Sport" },
-              { id: "c", text: "Swimming" },
-              { id: "d", text: "Tennis" },
+              { id: "c", text: "Tennis" },
+              { id: "d", text: "Swimming" },
             ],
             correctChoiceId: "b",
           },
@@ -874,8 +874,8 @@ export const lesson41: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "big and large" },
-              { id: "b", text: "small and little" },
-              { id: "c", text: "end and finish" },
+              { id: "b", text: "end and finish" },
+              { id: "c", text: "small and little" },
               { id: "d", text: "big, bigger, biggest" },
             ],
             correctChoiceId: "d",
@@ -920,10 +920,10 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Spell words correctly" },
+              { id: "a", text: "Count syllables" },
               { id: "b", text: "Remember how words connect" },
-              { id: "c", text: "Find opposite meanings" },
-              { id: "d", text: "Count syllables" },
+              { id: "c", text: "Spell words correctly" },
+              { id: "d", text: "Find opposite meanings" },
             ],
             correctChoiceId: "b",
           },
@@ -967,9 +967,9 @@ export const lesson41: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "fast and slow" },
-              { id: "b", text: "begin and finish" },
+              { id: "b", text: "big and small" },
               { id: "c", text: "fast and quick" },
-              { id: "d", text: "big and small" },
+              { id: "d", text: "begin and finish" },
             ],
             correctChoiceId: "c",
           },
@@ -1017,12 +1017,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "begin" },
+              { id: "a", text: "finish" },
               { id: "b", text: "start" },
-              { id: "c", text: "finish" },
-              { id: "d", text: "commence" },
+              { id: "c", text: "commence" },
+              { id: "d", text: "begin" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [

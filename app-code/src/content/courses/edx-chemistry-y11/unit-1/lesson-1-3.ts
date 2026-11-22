@@ -54,11 +54,11 @@ export const lesson13: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "The forward and reverse reactions have both stopped" },
-              { id: "b", text: "The concentrations of reactants and products are equal" },
-              { id: "c", text: "The forward and reverse reactions happen at the same rate" },
-              { id: "d", text: "All of the reactants have been used up" },
+              { id: "b", text: "All of the reactants have been used up" },
+              { id: "c", text: "The concentrations of reactants and products are equal" },
+              { id: "d", text: "The forward and reverse reactions happen at the same rate" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -186,12 +186,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Platinum" },
-              { id: "b", text: "Iron" },
-              { id: "c", text: "Vanadium(V) oxide" },
-              { id: "d", text: "Manganese(IV) oxide" },
+              { id: "a", text: "Iron" },
+              { id: "b", text: "Manganese(IV) oxide" },
+              { id: "c", text: "Platinum" },
+              { id: "d", text: "Vanadium(V) oxide" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

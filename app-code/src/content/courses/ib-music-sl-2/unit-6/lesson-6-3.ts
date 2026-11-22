@@ -55,12 +55,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "List all pieces performed" },
-              { id: "b", text: "Document and analyse musical development and learning" },
+              { id: "a", text: "Document and analyse musical development and learning" },
+              { id: "b", text: "List all pieces performed" },
               { id: "c", text: "Praise the musician's talent" },
               { id: "d", text: "Describe practice room equipment" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -156,12 +156,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A daily practice diary" },
-              { id: "b", text: "Structured evidence of musical learning and development" },
-              { id: "c", text: "A list of pieces performed" },
-              { id: "d", text: "A formal music theory exam" },
+              { id: "a", text: "A list of pieces performed" },
+              { id: "b", text: "A daily practice diary" },
+              { id: "c", text: "A formal music theory exam" },
+              { id: "d", text: "Structured evidence of musical learning and development" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -186,11 +186,11 @@ export const lesson63: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Is too long" },
-              { id: "b", text: "Lacks specific evidence of how and where improvement occurred" },
-              { id: "c", text: "Uses incorrect grammar" },
+              { id: "b", text: "Uses incorrect grammar" },
+              { id: "c", text: "Lacks specific evidence of how and where improvement occurred" },
               { id: "d", text: "Mentions the instrument" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -214,12 +214,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Random order of experiences" },
-              { id: "b", text: "Intention, process, challenges, breakthroughs and learning" },
-              { id: "c", text: "Only the final performance" },
+              { id: "a", text: "Intention, process, challenges, breakthroughs and learning" },
+              { id: "b", text: "Only the final performance" },
+              { id: "c", text: "Random order of experiences" },
               { id: "d", text: "Alphabetical order of pieces" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -243,12 +243,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Entertainment for the reader" },
-              { id: "b", text: "Concrete evidence of musical growth" },
-              { id: "c", text: "Proof of practice room quality" },
-              { id: "d", text: "A list of technical errors" },
+              { id: "a", text: "A list of technical errors" },
+              { id: "b", text: "Proof of practice room quality" },
+              { id: "c", text: "Entertainment for the reader" },
+              { id: "d", text: "Concrete evidence of musical growth" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -273,11 +273,11 @@ export const lesson63: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Grading other students' work" },
-              { id: "b", text: "Honest evaluation of one's own musical abilities and progress" },
-              { id: "c", text: "Comparing oneself to famous musicians" },
-              { id: "d", text: "Predicting exam results" },
+              { id: "b", text: "Predicting exam results" },
+              { id: "c", text: "Honest evaluation of one's own musical abilities and progress" },
+              { id: "d", text: "Comparing oneself to famous musicians" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -301,12 +301,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Any practice session completed" },
-              { id: "b", text: "A moment of significant progress or insight" },
+              { id: "a", text: "A moment of significant progress or insight" },
+              { id: "b", text: "Any practice session completed" },
               { id: "c", text: "A high exam score" },
               { id: "d", text: "A new piece added to repertoire" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -330,12 +330,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Show the student is weak" },
-              { id: "b", text: "Demonstrate honest analysis and learning from difficulty" },
-              { id: "c", text: "Fill space in the writing" },
-              { id: "d", text: "Excuse poor performance" },
+              { id: "a", text: "Fill space in the writing" },
+              { id: "b", text: "Show the student is weak" },
+              { id: "c", text: "Excuse poor performance" },
+              { id: "d", text: "Demonstrate honest analysis and learning from difficulty" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -359,12 +359,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It is longer" },
-              { id: "b", text: "It provides verifiable evidence of learning and critical thinking" },
-              { id: "c", text: "It uses more complex vocabulary" },
-              { id: "d", text: "It hides the student's weaknesses" },
+              { id: "a", text: "It uses more complex vocabulary" },
+              { id: "b", text: "It hides the student's weaknesses" },
+              { id: "c", text: "It provides verifiable evidence of learning and critical thinking" },
+              { id: "d", text: "It is longer" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -608,12 +608,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Only a final performance exam" },
-              { id: "b", text: "Performance, composition, analysis and reflection" },
-              { id: "c", text: "Only music theory" },
-              { id: "d", text: "A written essay only" },
+              { id: "a", text: "A written essay only" },
+              { id: "b", text: "Only a final performance exam" },
+              { id: "c", text: "Performance, composition, analysis and reflection" },
+              { id: "d", text: "Only music theory" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -709,12 +709,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Performance, composition, analysis and reflection" },
-              { id: "b", text: "Theory, history, performance and essay" },
-              { id: "c", text: "Solo, duet, ensemble and exam" },
-              { id: "d", text: "Practice, rehearsal, performance and review" },
+              { id: "a", text: "Theory, history, performance and essay" },
+              { id: "b", text: "Solo, duet, ensemble and exam" },
+              { id: "c", text: "Practice, rehearsal, performance and review" },
+              { id: "d", text: "Performance, composition, analysis and reflection" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -738,12 +738,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Replacing the need for performance" },
-              { id: "b", text: "Evidencing sustained practice and development across components" },
-              { id: "c", text: "Providing a written exam" },
-              { id: "d", text: "Showing instrument quality" },
+              { id: "a", text: "Providing a written exam" },
+              { id: "b", text: "Showing instrument quality" },
+              { id: "c", text: "Replacing the need for performance" },
+              { id: "d", text: "Evidencing sustained practice and development across components" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -767,12 +767,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Only formal concerts" },
-              { id: "b", text: "Performances given, repertoire and experiences" },
-              { id: "c", text: "Music theory grades" },
-              { id: "d", text: "Instrument maintenance" },
+              { id: "a", text: "Instrument maintenance" },
+              { id: "b", text: "Music theory grades" },
+              { id: "c", text: "Only formal concerts" },
+              { id: "d", text: "Performances given, repertoire and experiences" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -796,12 +796,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Older material is always worse" },
-              { id: "b", text: "It represents the student's current ability level" },
-              { id: "c", text: "Assessment boards require recent dates" },
-              { id: "d", text: "Recent recordings sound better" },
+              { id: "a", text: "Assessment boards require recent dates" },
+              { id: "b", text: "Recent recordings sound better" },
+              { id: "c", text: "It represents the student's current ability level" },
+              { id: "d", text: "Older material is always worse" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -825,12 +825,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Only performance recordings" },
-              { id: "b", text: "Original compositions with scores and recordings" },
-              { id: "c", text: "Analysis of set works only" },
-              { id: "d", text: "A written essay on music history" },
+              { id: "a", text: "A written essay on music history" },
+              { id: "b", text: "Analysis of set works only" },
+              { id: "c", text: "Only performance recordings" },
+              { id: "d", text: "Original compositions with scores and recordings" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -854,9 +854,9 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Performance only" },
+              { id: "a", text: "Composition only" },
               { id: "b", text: "Analysis of set works" },
-              { id: "c", text: "Composition only" },
+              { id: "c", text: "Performance only" },
               { id: "d", text: "No component" },
             ],
             correctChoiceId: "b",
@@ -883,10 +883,10 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Many similar performances" },
+              { id: "a", text: "Only the most difficult pieces" },
               { id: "b", text: "Variety across performance, composition and analysis" },
-              { id: "c", text: "Only the most difficult pieces" },
-              { id: "d", text: "Only recent work" },
+              { id: "c", text: "Only recent work" },
+              { id: "d", text: "Many similar performances" },
             ],
             correctChoiceId: "b",
           },
@@ -912,12 +912,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Guarantees a high grade" },
-              { id: "b", text: "Identifies gaps and weaknesses before assessment" },
-              { id: "c", text: "Replaces self-assessment" },
-              { id: "d", text: "Is required by all teachers" },
+              { id: "a", text: "Replaces self-assessment" },
+              { id: "b", text: "Guarantees a high grade" },
+              { id: "c", text: "Is required by all teachers" },
+              { id: "d", text: "Identifies gaps and weaknesses before assessment" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

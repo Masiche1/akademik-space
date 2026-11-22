@@ -53,11 +53,11 @@ export const lesson23: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Silver" },
-              { id: "b", text: "Gold" },
-              { id: "c", text: "Zinc" },
-              { id: "d", text: "Copper" },
+              { id: "b", text: "Copper" },
+              { id: "c", text: "Gold" },
+              { id: "d", text: "Zinc" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -186,10 +186,10 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The splint goes out." },
-              { id: "b", text: "The splint relights." },
+              { id: "a", text: "The gas turns limewater cloudy." },
+              { id: "b", text: "The splint goes out." },
               { id: "c", text: "A squeaky pop is heard." },
-              { id: "d", text: "The gas turns limewater cloudy." },
+              { id: "d", text: "The splint relights." },
             ],
             correctChoiceId: "c",
           },

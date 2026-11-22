@@ -54,12 +54,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "magnesium + oxygen $\\rightarrow$ magnesium oxide" },
-              { id: "b", text: "magnesium + oxygen $\\rightarrow$ magnesium carbonate" },
-              { id: "c", text: "magnesium oxide $\\rightarrow$ magnesium + oxygen" },
-              { id: "d", text: "magnesium + oxygen $\\rightarrow$ magnesium + oxygen" },
+              { id: "a", text: "magnesium + oxygen $\\rightarrow$ magnesium carbonate" },
+              { id: "b", text: "magnesium + oxygen $\\rightarrow$ magnesium + oxygen" },
+              { id: "c", text: "magnesium + oxygen $\\rightarrow$ magnesium oxide" },
+              { id: "d", text: "magnesium oxide $\\rightarrow$ magnesium + oxygen" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -189,9 +189,9 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A strong acid" },
+              { id: "a", text: "A neutral solution" },
               { id: "b", text: "A weak acid" },
-              { id: "c", text: "A neutral solution" },
+              { id: "c", text: "A strong acid" },
               { id: "d", text: "A strong alkali" },
             ],
             correctChoiceId: "d",

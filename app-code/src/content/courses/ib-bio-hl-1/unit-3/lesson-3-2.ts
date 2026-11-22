@@ -54,12 +54,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$0.65$" },
-              { id: "b", text: "$0.35$" },
+              { id: "a", text: "$0.35$" },
+              { id: "b", text: "$0.65$" },
               { id: "c", text: "$1.35$" },
               { id: "d", text: "$0.175$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -154,12 +154,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "the total set of alleles at all loci present in the gametes of all individuals in the population" },
-              { id: "b", text: "all the genes carried by a single individual" },
-              { id: "c", text: "the chromosomes contained in one cell" },
-              { id: "d", text: "only the alleles that produce visible phenotypes" },
+              { id: "a", text: "the chromosomes contained in one cell" },
+              { id: "b", text: "only the alleles that produce visible phenotypes" },
+              { id: "c", text: "the total set of alleles at all loci present in the gametes of all individuals in the population" },
+              { id: "d", text: "all the genes carried by a single individual" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -182,12 +182,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$0.2$" },
-              { id: "b", text: "$0.8$" },
-              { id: "c", text: "$0.64$" },
-              { id: "d", text: "$0.4$" },
+              { id: "a", text: "$0.64$" },
+              { id: "b", text: "$0.4$" },
+              { id: "c", text: "$0.2$" },
+              { id: "d", text: "$0.8$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -210,12 +210,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "two copies of $A$ from each $AA$ individual and one copy from each $Aa$ individual" },
-              { id: "b", text: "one copy of $A$ from every individual regardless of genotype" },
+              { id: "a", text: "one copy of $A$ from every individual regardless of genotype" },
+              { id: "b", text: "the number of $AA$ individuals only" },
               { id: "c", text: "two copies of $A$ from each $Aa$ individual" },
-              { id: "d", text: "the number of $AA$ individuals only" },
+              { id: "d", text: "two copies of $A$ from each $AA$ individual and one copy from each $Aa$ individual" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -238,12 +238,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\frac{n_{Aa}}{N}$" },
-              { id: "b", text: "$\\frac{2n_{Aa}}{N}$" },
+              { id: "a", text: "$\\frac{2n_{Aa}}{N}$" },
+              { id: "b", text: "$\\frac{n_{Aa}}{N}$" },
               { id: "c", text: "$\\frac{n_{Aa}}{2N}$" },
               { id: "d", text: "$\\frac{n_{AA}}{N}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -458,9 +458,9 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$0.48$" },
-              { id: "b", text: "$0.16$" },
-              { id: "c", text: "$0.36$" },
-              { id: "d", text: "$0.24$" },
+              { id: "b", text: "$0.24$" },
+              { id: "c", text: "$0.16$" },
+              { id: "d", text: "$0.36$" },
             ],
             correctChoiceId: "a",
           },
@@ -559,9 +559,9 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Random mating" },
-              { id: "b", text: "A very small population size" },
-              { id: "c", text: "Strong natural selection against one genotype" },
-              { id: "d", text: "A high mutation rate at the locus" },
+              { id: "b", text: "A high mutation rate at the locus" },
+              { id: "c", text: "A very small population size" },
+              { id: "d", text: "Strong natural selection against one genotype" },
             ],
             correctChoiceId: "a",
           },
@@ -586,12 +586,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "the homozygous dominant genotype $AA$" },
+              { id: "a", text: "the allele $A$ itself" },
               { id: "b", text: "the heterozygous genotype $Aa$" },
-              { id: "c", text: "the allele $A$ itself" },
+              { id: "c", text: "the homozygous dominant genotype $AA$" },
               { id: "d", text: "the homozygous recessive genotype $aa$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -614,12 +614,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$0.2$" },
-              { id: "b", text: "$0.04$" },
+              { id: "a", text: "$0.04$" },
+              { id: "b", text: "$0.2$" },
               { id: "c", text: "$0.4$" },
               { id: "d", text: "$0.16$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -642,12 +642,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "non-random mating, such as inbreeding or self-fertilisation" },
-              { id: "b", text: "perfectly random mating" },
-              { id: "c", text: "an infinitely large population size" },
-              { id: "d", text: "complete absence of mutation" },
+              { id: "a", text: "complete absence of mutation" },
+              { id: "b", text: "non-random mating, such as inbreeding or self-fertilisation" },
+              { id: "c", text: "perfectly random mating" },
+              { id: "d", text: "an infinitely large population size" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [

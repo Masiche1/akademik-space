@@ -54,12 +54,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Directed radially inwards" },
-              { id: "b", text: "Tangent to the circle" },
-              { id: "c", text: "Zero" },
-              { id: "d", text: "Constant in both magnitude and direction" },
+              { id: "a", text: "Zero" },
+              { id: "b", text: "Directed radially inwards" },
+              { id: "c", text: "Constant in both magnitude and direction" },
+              { id: "d", text: "Tangent to the circle" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Circular motion", statement: "Velocity is tangent to the path; speed constant, direction changing." }],
@@ -80,12 +80,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$3.14$ m/s" },
-              { id: "b", text: "$1.57$ m/s" },
+              { id: "a", text: "$1.57$ m/s" },
+              { id: "b", text: "$3.14$ m/s" },
               { id: "c", text: "$12.6$ m/s" },
               { id: "d", text: "$0.79$ m/s" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "v = 2πr/T", statement: "v = \\frac{2\\pi r}{T}" }],
@@ -107,12 +107,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$8.0$ m/s²" },
+              { id: "a", text: "$0.16$ m/s²" },
               { id: "b", text: "$2.0$ m/s²" },
-              { id: "c", text: "$20$ m/s²" },
-              { id: "d", text: "$0.16$ m/s²" },
+              { id: "c", text: "$8.0$ m/s²" },
+              { id: "d", text: "$20$ m/s²" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "a = v²/r", statement: "a = \\frac{v^2}{r}" }],
@@ -166,12 +166,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "the time for one complete revolution" },
+              { id: "a", text: "the angle turned through in one second" },
               { id: "b", text: "the number of revolutions per second" },
               { id: "c", text: "the distance travelled in one second" },
-              { id: "d", text: "the angle turned through in one second" },
+              { id: "d", text: "the time for one complete revolution" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Period", statement: "T = time for one complete revolution, in seconds." }],
@@ -192,12 +192,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$3.14$ m/s" },
-              { id: "b", text: "$1.57$ m/s" },
+              { id: "a", text: "$1.57$ m/s" },
+              { id: "b", text: "$0.52$ m/s" },
               { id: "c", text: "$6.28$ m/s" },
-              { id: "d", text: "$0.52$ m/s" },
+              { id: "d", text: "$3.14$ m/s" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "v = 2πr/T", statement: "v = \\frac{2\\pi r}{T}" }],
@@ -219,12 +219,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "radians per second (rad/s)" },
+              { id: "a", text: "hertz (Hz)" },
               { id: "b", text: "metres per second (m/s)" },
-              { id: "c", text: "revolutions per minute (rpm)" },
-              { id: "d", text: "hertz (Hz)" },
+              { id: "c", text: "radians per second (rad/s)" },
+              { id: "d", text: "revolutions per minute (rpm)" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Angular speed", statement: "\\omega = \\frac{2\\pi}{T} in rad/s; Hz measures frequency, not angular speed." }],
@@ -246,9 +246,9 @@ export const lesson23: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$12.6$ rad/s" },
-              { id: "b", text: "$3.14$ rad/s" },
-              { id: "c", text: "$0.32$ rad/s" },
-              { id: "d", text: "$6.28$ rad/s" },
+              { id: "b", text: "$6.28$ rad/s" },
+              { id: "c", text: "$3.14$ rad/s" },
+              { id: "d", text: "$0.32$ rad/s" },
             ],
             correctChoiceId: "a",
           },
@@ -272,12 +272,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$36$ m/s²" },
-              { id: "b", text: "$12$ m/s²" },
-              { id: "c", text: "$48$ m/s²" },
+              { id: "a", text: "$12$ m/s²" },
+              { id: "b", text: "$48$ m/s²" },
+              { id: "c", text: "$36$ m/s²" },
               { id: "d", text: "$9.0$ m/s²" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "a = rω²", statement: "a = r\\omega^2" }],
@@ -560,10 +560,10 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Away from the centre" },
+              { id: "a", text: "Along the tangent to the circle" },
               { id: "b", text: "Towards the centre of the circle" },
-              { id: "c", text: "Along the tangent to the circle" },
-              { id: "d", text: "In the direction of motion" },
+              { id: "c", text: "In the direction of motion" },
+              { id: "d", text: "Away from the centre" },
             ],
             correctChoiceId: "b",
           },
@@ -586,12 +586,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$4.0$ N" },
-              { id: "b", text: "$2.0$ N" },
-              { id: "c", text: "$8.0$ N" },
+              { id: "a", text: "$8.0$ N" },
+              { id: "b", text: "$4.0$ N" },
+              { id: "c", text: "$2.0$ N" },
               { id: "d", text: "$16$ N" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "F = mv²/r", statement: "F = \\frac{mv^2}{r}" }],
@@ -613,12 +613,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$2700$ N" },
-              { id: "b", text: "$11\\,800$ N" },
-              { id: "c", text: "$18$ N" },
-              { id: "d", text: "$1800$ N" },
+              { id: "a", text: "$18$ N" },
+              { id: "b", text: "$1800$ N" },
+              { id: "c", text: "$2700$ N" },
+              { id: "d", text: "$11\\,800$ N" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Friction as centripetal force", statement: "On a flat bend, friction supplies F = mv²/r." }],
@@ -675,11 +675,11 @@ export const lesson23: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "a separate force that always acts outwards" },
-              { id: "b", text: "the resultant of real forces directed towards the centre" },
-              { id: "c", text: "the same as the weight of the object" },
-              { id: "d", text: "zero because the speed is constant" },
+              { id: "b", text: "zero because the speed is constant" },
+              { id: "c", text: "the resultant of real forces directed towards the centre" },
+              { id: "d", text: "the same as the weight of the object" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Centripetal force", statement: "Centripetal force is the resultant of real forces (friction, tension, gravity, normal reaction) towards the centre." }],
@@ -700,12 +700,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$12.5$ N" },
+              { id: "a", text: "$25$ N" },
               { id: "b", text: "$50$ N" },
               { id: "c", text: "$10$ N" },
-              { id: "d", text: "$25$ N" },
+              { id: "d", text: "$12.5$ N" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "F = mv²/r", statement: "F = \\frac{mv^2}{r}" }],
@@ -727,12 +727,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "the weight of the car" },
-              { id: "b", text: "friction between the tyres and the road" },
+              { id: "a", text: "the normal reaction from the road" },
+              { id: "b", text: "the weight of the car" },
               { id: "c", text: "the engine thrust" },
-              { id: "d", text: "the normal reaction from the road" },
+              { id: "d", text: "friction between the tyres and the road" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Friction as centripetal force", statement: "On a flat bend, static friction towards the centre supplies F = mv²/r." }],
@@ -754,9 +754,9 @@ export const lesson23: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$16.9$ m/s" },
-              { id: "b", text: "$19.9$ m/s" },
-              { id: "c", text: "$12.0$ m/s" },
-              { id: "d", text: "$24.5$ m/s" },
+              { id: "b", text: "$12.0$ m/s" },
+              { id: "c", text: "$24.5$ m/s" },
+              { id: "d", text: "$19.9$ m/s" },
             ],
             correctChoiceId: "a",
           },
@@ -781,8 +781,8 @@ export const lesson23: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$9.9$ m/s" },
-              { id: "b", text: "$4.95$ m/s" },
-              { id: "c", text: "$19.8$ m/s" },
+              { id: "b", text: "$19.8$ m/s" },
+              { id: "c", text: "$4.95$ m/s" },
               { id: "d", text: "$98$ m/s" },
             ],
             correctChoiceId: "a",

@@ -50,12 +50,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Mitochondrion" },
-              { id: "b", text: "Chloroplast" },
-              { id: "c", text: "Permanent vacuole" },
-              { id: "d", text: "Cell wall" },
+              { id: "a", text: "Cell wall" },
+              { id: "b", text: "Permanent vacuole" },
+              { id: "c", text: "Mitochondrion" },
+              { id: "d", text: "Chloroplast" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -180,12 +180,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "magnification = actual size $\\div$ image size" },
-              { id: "b", text: "magnification = image size $\\times$ actual size" },
-              { id: "c", text: "magnification = image size $\\div$ actual size" },
-              { id: "d", text: "magnification = image size $-$ actual size" },
+              { id: "a", text: "magnification = image size $\\times$ actual size" },
+              { id: "b", text: "magnification = actual size $\\div$ image size" },
+              { id: "c", text: "magnification = image size $-$ actual size" },
+              { id: "d", text: "magnification = image size $\\div$ actual size" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [

@@ -51,12 +51,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Who" },
-              { id: "b", text: "When" },
-              { id: "c", text: "Where" },
-              { id: "d", text: "How" },
+              { id: "a", text: "Where" },
+              { id: "b", text: "How" },
+              { id: "c", text: "When" },
+              { id: "d", text: "Who" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -144,12 +144,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "What" },
-              { id: "b", text: "Who" },
+              { id: "a", text: "Who" },
+              { id: "b", text: "What" },
               { id: "c", text: "Where" },
               { id: "d", text: "When" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -189,12 +189,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "When" },
-              { id: "b", text: "Why" },
-              { id: "c", text: "Where" },
-              { id: "d", text: "Who" },
+              { id: "a", text: "Who" },
+              { id: "b", text: "When" },
+              { id: "c", text: "Why" },
+              { id: "d", text: "Where" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -271,12 +271,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "'When did you take this photo?'" },
-              { id: "b", text: "'Is a photo a kind of picture?'" },
+              { id: "a", text: "'Is a photo a kind of picture?'" },
+              { id: "b", text: "'When did you take this photo?'" },
               { id: "c", text: "'Do you like colours?'" },
               { id: "d", text: "'How old are you?'" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -335,12 +335,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A person" },
-              { id: "b", text: "A time" },
-              { id: "c", text: "A place" },
-              { id: "d", text: "A reason" },
+              { id: "a", text: "A reason" },
+              { id: "b", text: "A place" },
+              { id: "c", text: "A person" },
+              { id: "d", text: "A time" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -361,12 +361,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "'When are we going and what should we bring?'" },
-              { id: "b", text: "'Is the sky blue?'" },
-              { id: "c", text: "'Do you like trips?'" },
+              { id: "a", text: "'Do you like trips?'" },
+              { id: "b", text: "'When are we going and what should we bring?'" },
+              { id: "c", text: "'Is the sky blue?'" },
               { id: "d", text: "'How many legs do I have?'" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -444,11 +444,11 @@ export const lesson12: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Beginning" },
-              { id: "b", text: "Middle" },
-              { id: "c", text: "End" },
-              { id: "d", text: "Title" },
+              { id: "b", text: "End" },
+              { id: "c", text: "Title" },
+              { id: "d", text: "Middle" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -535,12 +535,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Middle" },
-              { id: "b", text: "End" },
-              { id: "c", text: "Beginning" },
+              { id: "a", text: "End" },
+              { id: "b", text: "Beginning" },
+              { id: "c", text: "Middle" },
               { id: "d", text: "Title" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -581,11 +581,11 @@ export const lesson12: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Who" },
-              { id: "b", text: "When" },
-              { id: "c", text: "Where" },
-              { id: "d", text: "Why" },
+              { id: "b", text: "Why" },
+              { id: "c", text: "When" },
+              { id: "d", text: "Where" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -663,11 +663,11 @@ export const lesson12: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "(1), (2), (3)" },
-              { id: "b", text: "(3), (2), (1)" },
-              { id: "c", text: "(2), (3), (1)" },
-              { id: "d", text: "(1), (3), (2)" },
+              { id: "b", text: "(1), (3), (2)" },
+              { id: "c", text: "(3), (2), (1)" },
+              { id: "d", text: "(2), (3), (1)" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -727,11 +727,11 @@ export const lesson12: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Start talking before they finish" },
-              { id: "b", text: "Listen carefully and remember who, what and where" },
-              { id: "c", text: "Close your eyes and daydream" },
+              { id: "b", text: "Close your eyes and daydream" },
+              { id: "c", text: "Listen carefully and remember who, what and where" },
               { id: "d", text: "Write down a different story" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -752,10 +752,10 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "'And then something else happened.'" },
+              { id: "a", text: "'I don't know what happened next.'" },
               { id: "b", text: "'They all lived happily ever after.'" },
-              { id: "c", text: "'I don't know what happened next.'" },
-              { id: "d", text: "'The end, I think.'" },
+              { id: "c", text: "'The end, I think.'" },
+              { id: "d", text: "'And then something else happened.'" },
             ],
             correctChoiceId: "b",
           },

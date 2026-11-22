@@ -51,12 +51,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\frac{5\\pi}{6}$" },
-              { id: "b", text: "$\\frac{3\\pi}{5}$" },
+              { id: "a", text: "$\\frac{3\\pi}{5}$" },
+              { id: "b", text: "$\\frac{5\\pi}{3}$" },
               { id: "c", text: "$\\frac{6\\pi}{5}$" },
-              { id: "d", text: "$\\frac{5\\pi}{3}$" },
+              { id: "d", text: "$\\frac{5\\pi}{6}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -182,12 +182,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$-\\frac{1}{2}$" },
-              { id: "b", text: "$\\frac{1}{2}$" },
+              { id: "a", text: "$-\\frac{\\sqrt{3}}{2}$" },
+              { id: "b", text: "$-\\frac{1}{2}$" },
               { id: "c", text: "$\\frac{\\sqrt{3}}{2}$" },
-              { id: "d", text: "$-\\frac{\\sqrt{3}}{2}$" },
+              { id: "d", text: "$\\frac{1}{2}$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

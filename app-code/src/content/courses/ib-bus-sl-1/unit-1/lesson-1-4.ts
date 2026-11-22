@@ -97,10 +97,10 @@ export const lesson14: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Social factor" },
+              { id: "a", text: "Environmental factor" },
               { id: "b", text: "Technological factor" },
-              { id: "c", text: "Political factor" },
-              { id: "d", text: "Environmental factor" },
+              { id: "c", text: "Social factor" },
+              { id: "d", text: "Political factor" },
             ],
             correctChoiceId: "b",
           },
@@ -332,12 +332,12 @@ export const lesson14: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Social factor" },
-              { id: "b", text: "Technological factor" },
-              { id: "c", text: "Legal factor" },
-              { id: "d", text: "Environmental factor" },
+              { id: "a", text: "Legal factor" },
+              { id: "b", text: "Environmental factor" },
+              { id: "c", text: "Technological factor" },
+              { id: "d", text: "Social factor" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -376,12 +376,12 @@ export const lesson14: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Social" },
+              { id: "a", text: "Economic" },
               { id: "b", text: "Technological" },
-              { id: "c", text: "Economic" },
-              { id: "d", text: "Political" },
+              { id: "c", text: "Political" },
+              { id: "d", text: "Social" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -420,12 +420,12 @@ export const lesson14: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Environmental factor" },
-              { id: "b", text: "Legal factor" },
-              { id: "c", text: "Economic factor" },
+              { id: "a", text: "Economic factor" },
+              { id: "b", text: "Environmental factor" },
+              { id: "c", text: "Legal factor" },
               { id: "d", text: "Social factor" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -463,12 +463,12 @@ export const lesson14: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Social factor" },
-              { id: "b", text: "Technological factor" },
-              { id: "c", text: "Legal/Ethical factor" },
-              { id: "d", text: "Environmental factor" },
+              { id: "a", text: "Technological factor" },
+              { id: "b", text: "Legal/Ethical factor" },
+              { id: "c", text: "Environmental factor" },
+              { id: "d", text: "Social factor" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -507,12 +507,12 @@ export const lesson14: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Political factor" },
-              { id: "b", text: "Environmental factor only" },
-              { id: "c", text: "Technological factor" },
-              { id: "d", text: "Social factor" },
+              { id: "a", text: "Social factor" },
+              { id: "b", text: "Technological factor" },
+              { id: "c", text: "Political factor" },
+              { id: "d", text: "Environmental factor only" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -557,15 +557,15 @@ export const lesson14: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The environment never changes" },
+              { id: "a", text: "It is required by shareholders only" },
+              { id: "b", text: "Internal factors are more important" },
               {
-                id: "b",
+                id: "c",
                 text: "Change creates both threats and opportunities that must be anticipated",
               },
-              { id: "c", text: "It is required by shareholders only" },
-              { id: "d", text: "Internal factors are more important" },
+              { id: "d", text: "The environment never changes" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -987,11 +987,11 @@ export const lesson14: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Internal growth" },
-              { id: "b", text: "Organic growth" },
-              { id: "c", text: "External growth" },
+              { id: "b", text: "External growth" },
+              { id: "c", text: "Organic growth" },
               { id: "d", text: "Diversification" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1216,10 +1216,10 @@ export const lesson14: Lesson = {
             choices: [
               { id: "a", text: "Buying other companies" },
               { id: "b", text: "Merging with a rival" },
-              { id: "c", text: "Increasing its own sales, output or capacity" },
-              { id: "d", text: "Selling shares to the public" },
+              { id: "c", text: "Selling shares to the public" },
+              { id: "d", text: "Increasing its own sales, output or capacity" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1258,12 +1258,12 @@ export const lesson14: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "One firm forcibly acquires another" },
-              { id: "b", text: "Two firms of roughly equal size combine" },
-              { id: "c", text: "A firm opens a new branch" },
-              { id: "d", text: "A firm sells its shares" },
+              { id: "a", text: "Two firms of roughly equal size combine" },
+              { id: "b", text: "One firm forcibly acquires another" },
+              { id: "c", text: "A firm sells its shares" },
+              { id: "d", text: "A firm opens a new branch" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -1302,12 +1302,12 @@ export const lesson14: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Diseconomies of scale" },
-              { id: "b", text: "Economies of scale" },
-              { id: "c", text: "External growth" },
-              { id: "d", text: "Diversification" },
+              { id: "a", text: "Economies of scale" },
+              { id: "b", text: "Diversification" },
+              { id: "c", text: "Diseconomies of scale" },
+              { id: "d", text: "External growth" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -1346,12 +1346,12 @@ export const lesson14: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Economies of scale" },
-              { id: "b", text: "Diseconomies of scale" },
-              { id: "c", text: "Internal growth" },
-              { id: "d", text: "Market share growth" },
+              { id: "a", text: "Diseconomies of scale" },
+              { id: "b", text: "Economies of scale" },
+              { id: "c", text: "Market share growth" },
+              { id: "d", text: "Internal growth" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -1388,8 +1388,8 @@ export const lesson14: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Internal growth" },
-              { id: "b", text: "Merger" },
+              { id: "a", text: "Merger" },
+              { id: "b", text: "Internal growth" },
               { id: "c", text: "Diversification" },
               { id: "d", text: "Takeover" },
             ],

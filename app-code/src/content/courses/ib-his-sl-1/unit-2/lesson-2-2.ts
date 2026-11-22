@@ -53,12 +53,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Japan's invasion of China" },
-              { id: "b", text: "Germany's annexation of Austria" },
-              { id: "c", text: "Italy's invasion of Ethiopia" },
-              { id: "d", text: "The Munich Agreement" },
+              { id: "a", text: "Germany's annexation of Austria" },
+              { id: "b", text: "The Munich Agreement" },
+              { id: "c", text: "Japan's invasion of China" },
+              { id: "d", text: "Italy's invasion of Ethiopia" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -152,12 +152,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A Japanese colony in Korea" },
-              { id: "b", text: "A Japanese puppet state created in Manchuria" },
-              { id: "c", text: "A Chinese nationalist party" },
-              { id: "d", text: "A League of Nations mandate" },
+              { id: "a", text: "A League of Nations mandate" },
+              { id: "b", text: "A Chinese nationalist party" },
+              { id: "c", text: "A Japanese puppet state created in Manchuria" },
+              { id: "d", text: "A Japanese colony in Korea" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -180,12 +180,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A naval battle in the Pacific" },
-              { id: "b", text: "The massacre of hundreds of thousands of Chinese civilians by Japanese forces" },
-              { id: "c", text: "A famine caused by Japanese occupation" },
+              { id: "a", text: "A famine caused by Japanese occupation" },
+              { id: "b", text: "A naval battle in the Pacific" },
+              { id: "c", text: "The massacre of hundreds of thousands of Chinese civilians by Japanese forces" },
               { id: "d", text: "A diplomatic treaty between Japan and China" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -209,11 +209,11 @@ export const lesson22: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "The first months of fighting on the Western Front" },
-              { id: "b", text: "The quiet period after Poland's fall (Sept 1939–May 1940) before the Western offensive" },
-              { id: "c", text: "The war in the Pacific" },
-              { id: "d", text: "The propaganda battle between the blocs" },
+              { id: "b", text: "The war in the Pacific" },
+              { id: "c", text: "The propaganda battle between the blocs" },
+              { id: "d", text: "The quiet period after Poland's fall (Sept 1939–May 1940) before the Western offensive" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -236,12 +236,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Living space for German settlement in Eastern Europe" },
+              { id: "a", text: "Economic self-sufficiency" },
               { id: "b", text: "An alliance with Japan" },
-              { id: "c", text: "Economic self-sufficiency" },
-              { id: "d", text: "Colonies in Africa" },
+              { id: "c", text: "Colonies in Africa" },
+              { id: "d", text: "Living space for German settlement in Eastern Europe" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -265,11 +265,11 @@ export const lesson22: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "They were militarily prepared and united" },
-              { id: "b", text: "They were unprepared, divided in interests, and the League lacked enforcement" },
-              { id: "c", text: "The aggressors were militarily weak" },
+              { id: "b", text: "The aggressors were militarily weak" },
+              { id: "c", text: "They were unprepared, divided in interests, and the League lacked enforcement" },
               { id: "d", text: "The USSR effectively policed the world" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -477,10 +477,10 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A naval blockade" },
+              { id: "a", text: "Guerrilla tactics" },
               { id: "b", text: "Rapid armoured and air assault" },
-              { id: "c", text: "Trench warfare" },
-              { id: "d", text: "Guerrilla tactics" },
+              { id: "c", text: "A naval blockade" },
+              { id: "d", text: "Trench warfare" },
             ],
             correctChoiceId: "b",
           },
@@ -576,12 +576,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The atomic bombing of Hiroshima" },
-              { id: "b", text: "The Allied landings in Normandy, France" },
-              { id: "c", text: "The Soviet victory at Stalingrad" },
-              { id: "d", text: "The fall of Berlin" },
+              { id: "a", text: "The Soviet victory at Stalingrad" },
+              { id: "b", text: "The atomic bombing of Hiroshima" },
+              { id: "c", text: "The fall of Berlin" },
+              { id: "d", text: "The Allied landings in Normandy, France" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -604,12 +604,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A single battle in Eastern Europe" },
-              { id: "b", text: "The systematic genocide of ~6 million Jews and other victims by Nazi Germany" },
-              { id: "c", text: "A naval blockade of Germany" },
+              { id: "a", text: "A naval blockade of Germany" },
+              { id: "b", text: "A single battle in Eastern Europe" },
+              { id: "c", text: "The systematic genocide of ~6 million Jews and other victims by Nazi Germany" },
               { id: "d", text: "A diplomatic treaty ending the war" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -632,12 +632,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Was Germany's first defeat on the Eastern Front" },
-              { id: "b", text: "Destroyed Germany's eastern army and shifted the strategic initiative to the Allies" },
-              { id: "c", text: "Brought the USA into the war" },
+              { id: "a", text: "Destroyed Germany's eastern army and shifted the strategic initiative to the Allies" },
+              { id: "b", text: "Brought the USA into the war" },
+              { id: "c", text: "Was Germany's first defeat on the Eastern Front" },
               { id: "d", text: "Ended the war in the Pacific" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -660,12 +660,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Berlin and Munich" },
-              { id: "b", text: "Hiroshima and Nagasaki" },
-              { id: "c", text: "Tokyo and Osaka" },
-              { id: "d", text: "Pearl Harbor and Manila" },
+              { id: "a", text: "Tokyo and Osaka" },
+              { id: "b", text: "Berlin and Munich" },
+              { id: "c", text: "Pearl Harbor and Manila" },
+              { id: "d", text: "Hiroshima and Nagasaki" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -688,12 +688,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Only soldiers fought; civilians were unaffected" },
-              { id: "b", text: "Economies, societies and civilians were fully mobilised for victory — including bombing of cities" },
+              { id: "a", text: "Economies, societies and civilians were fully mobilised for victory — including bombing of cities" },
+              { id: "b", text: "It lasted only one year" },
               { id: "c", text: "It was fought only by naval powers" },
-              { id: "d", text: "It lasted only one year" },
+              { id: "d", text: "Only soldiers fought; civilians were unaffected" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

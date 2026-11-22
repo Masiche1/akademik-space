@@ -53,10 +53,10 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$2$" },
+              { id: "a", text: "$0$" },
               { id: "b", text: "$3$" },
-              { id: "c", text: "$4$" },
-              { id: "d", text: "$0$" },
+              { id: "c", text: "$2$" },
+              { id: "d", text: "$4$" },
             ],
             correctChoiceId: "b",
           },
@@ -80,11 +80,11 @@ export const lesson21: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Cube" },
-              { id: "b", text: "Sphere" },
-              { id: "c", text: "Cuboid" },
+              { id: "b", text: "Cuboid" },
+              { id: "c", text: "Sphere" },
               { id: "d", text: "Cylinder" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -156,11 +156,11 @@ export const lesson21: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$3$" },
-              { id: "b", text: "$4$" },
-              { id: "c", text: "$5$" },
+              { id: "b", text: "$5$" },
+              { id: "c", text: "$4$" },
               { id: "d", text: "$0$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -198,12 +198,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$1$" },
+              { id: "a", text: "$0$ — it curves all the way round" },
               { id: "b", text: "$2$" },
-              { id: "c", text: "$0$ — it curves all the way round" },
-              { id: "d", text: "$4$" },
+              { id: "c", text: "$4$" },
+              { id: "d", text: "$1$" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -225,11 +225,11 @@ export const lesson21: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Cube" },
-              { id: "b", text: "Cylinder" },
-              { id: "c", text: "Sphere" },
+              { id: "b", text: "Sphere" },
+              { id: "c", text: "Cylinder" },
               { id: "d", text: "Cuboid" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -250,12 +250,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$3$" },
-              { id: "b", text: "$4$" },
-              { id: "c", text: "$0$" },
+              { id: "a", text: "$0$" },
+              { id: "b", text: "$3$" },
+              { id: "c", text: "$4$" },
               { id: "d", text: "$2$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -277,12 +277,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$3$" },
-              { id: "b", text: "$2$ — the top and bottom circles" },
-              { id: "c", text: "$1$" },
-              { id: "d", text: "$0$" },
+              { id: "a", text: "$0$" },
+              { id: "b", text: "$3$" },
+              { id: "c", text: "$2$ — the top and bottom circles" },
+              { id: "d", text: "$1$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -360,12 +360,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "2D: triangle, circle, square — 3D: cube, sphere, cylinder" },
-              { id: "b", text: "2D: cube, sphere — 3D: triangle, circle, square, cylinder" },
-              { id: "c", text: "All are 2D" },
-              { id: "d", text: "2D: circle only — everything else is 3D" },
+              { id: "a", text: "2D: cube, sphere — 3D: triangle, circle, square, cylinder" },
+              { id: "b", text: "All are 2D" },
+              { id: "c", text: "2D: circle only — everything else is 3D" },
+              { id: "d", text: "2D: triangle, circle, square — 3D: cube, sphere, cylinder" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -408,8 +408,8 @@ export const lesson21: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Door = cuboid (flat rectangular faces); water bottle = cylinder (2 flat circles + curved side)" },
-              { id: "b", text: "Door = sphere; water bottle = cube" },
-              { id: "c", text: "Door = cylinder; water bottle = cuboid" },
+              { id: "b", text: "Door = cylinder; water bottle = cuboid" },
+              { id: "c", text: "Door = sphere; water bottle = cube" },
               { id: "d", text: "Both are spheres" },
             ],
             correctChoiceId: "a",
@@ -462,12 +462,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Under" },
-              { id: "b", text: "Inside" },
-              { id: "c", text: "On" },
-              { id: "d", text: "Behind" },
+              { id: "a", text: "Behind" },
+              { id: "b", text: "On" },
+              { id: "c", text: "Inside" },
+              { id: "d", text: "Under" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -488,10 +488,10 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "East" },
+              { id: "a", text: "West" },
               { id: "b", text: "South" },
-              { id: "c", text: "West" },
-              { id: "d", text: "Still north" },
+              { id: "c", text: "Still north" },
+              { id: "d", text: "East" },
             ],
             correctChoiceId: "b",
           },
@@ -564,12 +564,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "On" },
-              { id: "b", text: "Under" },
-              { id: "c", text: "Behind" },
-              { id: "d", text: "Inside" },
+              { id: "a", text: "Inside" },
+              { id: "b", text: "Behind" },
+              { id: "c", text: "On" },
+              { id: "d", text: "Under" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -607,12 +607,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "North" },
-              { id: "b", text: "East" },
-              { id: "c", text: "West" },
-              { id: "d", text: "Still south" },
+              { id: "a", text: "Still south" },
+              { id: "b", text: "North" },
+              { id: "c", text: "East" },
+              { id: "d", text: "West" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -668,12 +668,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "On" },
-              { id: "b", text: "Under" },
-              { id: "c", text: "Between" },
-              { id: "d", text: "Inside" },
+              { id: "a", text: "Between" },
+              { id: "b", text: "Inside" },
+              { id: "c", text: "On" },
+              { id: "d", text: "Under" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -751,12 +751,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A quarter turn clockwise" },
-              { id: "b", text: "A half turn" },
+              { id: "a", text: "A full turn" },
+              { id: "b", text: "A quarter turn clockwise" },
               { id: "c", text: "A quarter turn anticlockwise" },
-              { id: "d", text: "A full turn" },
+              { id: "d", text: "A half turn" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [

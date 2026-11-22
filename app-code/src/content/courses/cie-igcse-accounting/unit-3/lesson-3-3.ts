@@ -89,12 +89,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "First In, First Out" },
+              { id: "a", text: "Final Inventory, First Out" },
               { id: "b", text: "First Item, First Order" },
-              { id: "c", text: "Final Inventory, First Out" },
+              { id: "c", text: "First In, First Out" },
               { id: "d", text: "Full Inventory, Full Output" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -122,12 +122,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Average Cost" },
+              { id: "a", text: "Annual Value, Current Order" },
               { id: "b", text: "Added Value, Cost Only" },
-              { id: "c", text: "Annual Value, Current Order" },
+              { id: "c", text: "Average Cost" },
               { id: "d", text: "All Valuation, Cost Output" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -151,15 +151,15 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "The oldest purchase prices" },
+              { id: "b", text: "The average of all prices" },
               {
-                id: "a",
+                id: "c",
                 text: "The most recent purchase prices, because oldest stock is assumed sold first",
               },
-              { id: "b", text: "The oldest purchase prices" },
-              { id: "c", text: "The average of all prices" },
               { id: "d", text: "The selling price" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -281,15 +281,15 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "Lower, but profit higher" },
+              { id: "b", text: "Lower, and cost of sales higher" },
               {
-                id: "a",
+                id: "c",
                 text: "Higher, and cost of sales lower — FIFO uses latest (higher) prices for remaining stock",
               },
-              { id: "b", text: "Lower, and cost of sales higher" },
-              { id: "c", text: "Identical to AVCO" },
-              { id: "d", text: "Lower, but profit higher" },
+              { id: "d", text: "Identical to AVCO" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -549,6 +549,251 @@ export const lesson33: Lesson = {
               "(a) Consistency enables comparison and reliability. (b) Could lower profit (higher CoS) and change balance sheet inventory.",
           },
         },
+        {
+          id: "cieiacct-u3-inventory-q11",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Under the FIFO method, closing inventory is valued at:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "The average cost of all purchases" },
+              { id: "b", text: "The oldest purchase prices" },
+              { id: "c", text: "The selling price minus profit" },
+              {
+                id: "d",
+                text: "The most recent purchase prices",
+              },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "FIFO",
+                statement:
+                  "First in, first out — oldest stock deemed sold first, so remaining stock carries recent prices.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "FIFO assumes the oldest units are sold first; what remains is valued at the latest costs.",
+                marks: 1,
+                markCode: "M",
+              },
+            ],
+            finalAnswer: "(a) Most recent purchase prices.",
+          },
+        },
+        {
+          id: "cieiacct-u3-inventory-q12",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "A business buys 100 units at \\$10 each and later 100 units at \\$20 each. Using AVCO, what is the value of 80 units remaining in closing inventory?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "Inventory value", answer: 1200, unit: "$" }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "formula",
+                name: "AVCO",
+                statement:
+                  "Average cost = total cost ÷ total units; inventory = units × average cost.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "Total cost = 1,000 + 2,000 = \\$3,000 for 200 units; average = \\$15.",
+                working: "3000 / 200 = 15",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "80 units × \\$15 = \\$1,200.",
+                working: "80 × 15 = 1200",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "\\$1,200",
+          },
+        },
+        {
+          id: "cieiacct-u3-inventory-q13",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "Opening inventory 50 units @ \\$8; purchases 100 units @ \\$10 and 100 units @ \\$12. 120 units were sold. Value closing inventory using FIFO.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "Closing inventory", answer: 1460, unit: "$" }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "formula",
+                name: "FIFO",
+                statement:
+                  "Closing units taken from most recent purchases first.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "Closing inventory = 250 − 120 = 130 units.",
+                working: "50 + 100 + 100 - 120 = 130",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "FIFO: 100 units from the \\$12 purchase + 30 units from the \\$10 purchase.",
+                working: "100 × 12 + 30 × 10",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "Value = 1,200 + 300 = \\$1,460.",
+                working: "1200 + 300 = 1460",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "\\$1,460",
+          },
+        },
+        {
+          id: "cieiacct-u3-inventory-q14",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "Explain why, when prices are rising, FIFO produces a higher profit than AVCO.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "FIFO in rising prices",
+                statement:
+                  "FIFO leaves the most expensive recent purchases in inventory, lowering cost of sales.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "Under FIFO the oldest, cheapest units are deemed sold first.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "Closing inventory is valued at the highest recent prices, so inventory is higher.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "Higher inventory means lower cost of sales and therefore higher profit than AVCO.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer:
+              "FIFO values remaining stock at the latest (highest) prices, so cost of sales is lower and profit higher than under AVCO.",
+          },
+        },
+        {
+          id: "cieiacct-u3-inventory-q15",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "The main advantage of the AVCO method is that it:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Always gives the highest profit" },
+              { id: "b", text: "Requires no calculation" },
+              { id: "c", text: "Matches physical flow of goods exactly" },
+              {
+                id: "d",
+                text: "Smooths out the effect of price fluctuations"
+              },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "AVCO",
+                statement:
+                  "All units valued at one average cost — insulates profit from price swings.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "Averaging spreads cost evenly, so rising or falling prices have less distorting effect.",
+                marks: 1,
+                markCode: "M",
+              },
+            ],
+            finalAnswer: "(a) Smooths price fluctuations.",
+          },
+        },
+        {
+          id: "cieiacct-u3-inventory-q16",
+          difficulty: "challenge",
+          totalMarks: 4,
+          parts: [
+            {
+              label: "a",
+              prompt:
+                "Opening inventory 80 units @ \\$6; purchases 120 units @ \\$8 and 100 units @ \\$10. 150 units sold. Value closing inventory using FIFO.",
+              marks: 2,
+            },
+            {
+              label: "b",
+              prompt:
+                "State how the AVCO figure for the same closing inventory would differ and why.",
+              marks: 2,
+            },
+          ],
+          stem: "A business must value closing inventory for its year-end accounts.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "formula",
+                name: "FIFO vs AVCO",
+                statement:
+                  "FIFO uses latest prices for remaining units; AVCO uses one average price.",
+              },
+            ],
+            steps: [
+              {
+                part: "a",
+                reasoning:
+                  "Closing = 300 − 150 = 150 units. FIFO: 100 @ \\$10 + 50 @ \\$8 = \\$1,400.",
+                working: "100 × 10 + 50 × 8 = 1400",
+                marks: 2,
+                markCode: "M",
+              },
+              {
+                part: "b",
+                reasoning:
+                  "AVCO total cost = 480 + 960 + 1,000 = \\$2,440 for 300 units → avg \\$8.13; 150 units ≈ \\$1,220 — lower than FIFO because prices rose.",
+                working: "2440 / 300 = 8.13; 150 × 8.13 ≈ 1220",
+                marks: 2,
+                markCode: "A",
+              },
+            ],
+            finalAnswer:
+              "(a) \\$1,400. (b) AVCO ≈ \\$1,220 — lower because the average includes cheaper earlier purchases.",
+          },
+        },
       ],
     },
     {
@@ -592,12 +837,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Only at the end of the accounting period" },
-              { id: "b", text: "After every sale" },
-              { id: "c", text: "Daily" },
-              { id: "d", text: "Never — it is estimated" },
+              { id: "a", text: "Never — it is estimated" },
+              { id: "b", text: "Daily" },
+              { id: "c", text: "After every sale" },
+              { id: "d", text: "Only at the end of the accounting period" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -626,8 +871,8 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Continuously — after every receipt and issue" },
-              { id: "b", text: "Only at year end" },
-              { id: "c", text: "Monthly" },
+              { id: "b", text: "Monthly" },
+              { id: "c", text: "Only at year end" },
               { id: "d", text: "Only when discrepancies are found" },
             ],
             correctChoiceId: "a",
@@ -1041,6 +1286,245 @@ export const lesson33: Lesson = {
               "(a) Simpler and cheaper for small businesses. (b) GP \\$22,000; NP \\$12,000.",
           },
         },
+        {
+          id: "cieiacct-u3-periodic-q11",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "In a periodic inventory system, stock is counted:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Physically only at the end of the period" },
+              { id: "b", text: "Every time a delivery arrives" },
+              { id: "c", text: "After every single sale" },
+              { id: "d", text: "Only when a stocktake is requested" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Periodic inventory",
+                statement:
+                  "Stock is counted once, at period end; purchases recorded in total.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "Periodic systems update inventory records only at the end of the trading period.",
+                marks: 1,
+                markCode: "M",
+              },
+            ],
+            finalAnswer: "(a) Only at period end.",
+          },
+        },
+        {
+          id: "cieiacct-u3-periodic-q12",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "Opening inventory \\$8,000; purchases \\$42,000; closing inventory \\$9,500. Calculate cost of sales under the periodic method.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "Cost of sales", answer: 40500, unit: "$" }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "formula",
+                name: "Periodic CoS",
+                statement:
+                  "CoS = opening inventory + purchases − closing inventory.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "8,000 + 42,000 − 9,500.",
+                working: "8000 + 42000 - 9500",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "Cost of sales = \\$40,500.",
+                working: "8000 + 42000 - 9500 = 40500",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "\\$40,500",
+          },
+        },
+        {
+          id: "cieiacct-u3-periodic-q13",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "Explain two advantages and one disadvantage of a perpetual inventory system compared with a periodic system.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Perpetual inventory",
+                statement:
+                  "Records updated continuously; better control but higher administration cost.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "Advantage 1: stock levels are always known, enabling better ordering and control.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "Advantage 2: losses or errors are detected quickly; disadvantage: requires more record-keeping and administration.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "By contrast, periodic systems are simpler and cheaper but stock levels are unknown during the year.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer:
+              "Advantages: continuous stock knowledge and fast detection of losses/errors. Disadvantage: higher administration cost.",
+          },
+        },
+        {
+          id: "cieiacct-u3-periodic-q14",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Under a perpetual inventory system the inventory account is:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Ignored until the stocktake" },
+              {
+                id: "b",
+                text: "Updated with every receipt and issue of stock"
+              },
+              { id: "c", text: "Only totalled at year end" },
+              { id: "d", text: "Replaced by the purchases account" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Perpetual inventory",
+                statement:
+                  "Every transaction affecting stock is entered immediately.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "Continuous updating is the defining feature of the perpetual system.",
+                marks: 1,
+                markCode: "M",
+              },
+            ],
+            finalAnswer: "(a) Updated with every transaction.",
+          },
+        },
+        {
+          id: "cieiacct-u3-periodic-q15",
+          difficulty: "challenge",
+          totalMarks: 3,
+          stem: "Cost of sales is \\$40,000; opening inventory \\$10,000; purchases \\$45,000. Calculate closing inventory.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "Closing inventory", answer: 15000, unit: "$" }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "formula",
+                name: "Periodic CoS",
+                statement:
+                  "CoS = opening inv + purchases − closing inv, rearranged for closing inv.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "Goods available = 10,000 + 45,000 = \\$55,000.",
+                working: "10000 + 45000 = 55000",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "Closing inventory = goods available − CoS.",
+                working: "55000 - 40000",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "Closing inventory = \\$15,000.",
+                working: "55000 - 40000 = 15000",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "\\$15,000",
+          },
+        },
+        {
+          id: "cieiacct-u3-periodic-q16",
+          difficulty: "challenge",
+          totalMarks: 4,
+          parts: [
+            {
+              label: "a",
+              prompt:
+                "A business wants to know its stock level at any time during the year. Which system should it use and why?",
+              marks: 2,
+            },
+            {
+              label: "b",
+              prompt:
+                "State the formula used to calculate cost of sales under a periodic system.",
+              marks: 2,
+            },
+          ],
+          stem: "A small business is choosing an inventory system.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Inventory systems",
+                statement:
+                  "Perpetual gives continuous stock data; periodic calculates CoS only at period end.",
+              },
+            ],
+            steps: [
+              {
+                part: "a",
+                reasoning:
+                  "Perpetual inventory — records are updated with every receipt and issue, so stock levels are always current.",
+                marks: 2,
+                markCode: "M",
+              },
+              {
+                part: "b",
+                reasoning:
+                  "Cost of sales = opening inventory + purchases − closing inventory.",
+                marks: 2,
+                markCode: "M",
+              },
+            ],
+            finalAnswer:
+              "(a) Perpetual — continuous updating. (b) CoS = opening inv + purchases − closing inv.",
+          },
+        },
       ],
     },
     {
@@ -1088,12 +1572,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "An expense incurred but not yet paid" },
-              { id: "b", text: "An expense paid in advance" },
-              { id: "c", text: "Income received but not earned" },
-              { id: "d", text: "A prepaid asset" },
+              { id: "a", text: "An expense paid in advance" },
+              { id: "b", text: "An expense incurred but not yet paid" },
+              { id: "c", text: "A prepaid asset" },
+              { id: "d", text: "Income received but not earned" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1121,15 +1605,15 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "A liability" },
+              { id: "b", text: "An expense owed but not paid" },
               {
-                id: "a",
+                id: "c",
                 text: "An expense paid in advance — the unused portion is a current asset",
               },
-              { id: "b", text: "An expense owed but not paid" },
-              { id: "c", text: "Income earned but not received" },
-              { id: "d", text: "A liability" },
+              { id: "d", text: "Income earned but not received" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1543,6 +2027,244 @@ export const lesson33: Lesson = {
               "(a) Accrued income = asset earned-not-received; unearned = liability received-not-earned. (b) Dr rent income \\$6,000, Cr unearned income \\$6,000.",
           },
         },
+        {
+          id: "cieiacct-u3-adjustments-q11",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "An accrual is:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "A debt that will never be paid" },
+              { id: "b", text: "Income received before it is earned" },
+              { id: "c", text: "An expense paid in advance for next year" },
+              {
+                id: "d",
+                text: "An expense incurred but not yet paid at period end"
+              },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Accrual",
+                statement:
+                  "Expense incurred in the period but payment falls due later — matched to the period.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "Accruals match expenses to the period in which they were incurred (accruals concept).",
+                marks: 1,
+                markCode: "M",
+              },
+            ],
+            finalAnswer: "(a) Expense incurred but not yet paid.",
+          },
+        },
+        {
+          id: "cieiacct-u3-adjustments-q12",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "Insurance of \\$2,400 was paid for 12 months, but only 9 months relate to the current year. Calculate the insurance expense for the year and the prepayment.",
+          response: {
+            type: "numeric",
+            parts: [
+              { label: "Insurance expense", answer: 1800, unit: "$" },
+              { label: "Prepayment", answer: 600, unit: "$" },
+            ],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "formula",
+                name: "Prepayment",
+                statement:
+                  "Expense = amount used; prepayment = amount paid for future periods.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "Expense for 9 months = 2,400 × 9/12 = \\$1,800.",
+                working: "2400 × 9/12 = 1800",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "Prepayment = 2,400 − 1,800 = \\$600 (3 months prepaid).",
+                working: "2400 - 1800 = 600",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "Expense \\$1,800; prepayment \\$600.",
+          },
+        },
+        {
+          id: "cieiacct-u3-adjustments-q13",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "Electricity of \\$500 was used in December but will not be paid until January. By how much is the expense account understated before adjustment?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "Understatement", answer: 500, unit: "$" }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Accrued expense",
+                statement:
+                  "The expense belongs to this period even though payment is later — Dr expense, Cr accrued expense.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "The \\$500 belongs to this year but is not yet in the books.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "Expense is understated by \\$500.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "\\$500",
+          },
+        },
+        {
+          id: "cieiacct-u3-adjustments-q14",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "Distinguish between accrued income and unearned income, giving an example of each.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Income adjustments",
+                statement:
+                  "Accrued income = earned but not received (asset); unearned income = received but not yet earned (liability).",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "Accrued income: e.g. interest earned on a loan but not yet received — Dr income receivable, Cr income.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "Unearned income: e.g. rent received in advance for next month — Dr income, Cr unearned income (liability).",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "One increases income this period (asset), the other defers income to a later period (liability).",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer:
+              "Accrued income = earned, not received (asset); unearned income = received, not earned (liability).",
+          },
+        },
+        {
+          id: "cieiacct-u3-adjustments-q15",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "A prepaid expense at the year end is shown on the balance sheet as:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "A current asset" },
+              { id: "b", text: "A non-current asset" },
+              { id: "c", text: "An expense in the P&L" },
+              { id: "d", text: "A current liability" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Prepayment",
+                statement:
+                  "Amount paid for future benefit is an asset — it will be consumed later.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "Prepayments represent future economic benefit, so they are current assets.",
+                marks: 1,
+                markCode: "M",
+              },
+            ],
+            finalAnswer: "(a) Current asset.",
+          },
+        },
+        {
+          id: "cieiacct-u3-adjustments-q16",
+          difficulty: "challenge",
+          totalMarks: 4,
+          parts: [
+            {
+              label: "a",
+              prompt:
+                "Rent of \\$9,600 was paid, of which \\$1,200 relates to next year. State the adjustment entry.",
+              marks: 2,
+            },
+            {
+              label: "b",
+              prompt:
+                "Wages of \\$3,000 were incurred but not paid at year end. State the adjustment entry.",
+              marks: 2,
+            },
+          ],
+          stem: "A business prepares year-end adjustments.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Adjustments",
+                statement:
+                  "Prepayments: Dr prepayment / Cr expense. Accruals: Dr expense / Cr accrued liability.",
+              },
+            ],
+            steps: [
+              {
+                part: "a",
+                reasoning:
+                  "Dr prepayment \\$1,200 / Cr rent expense \\$1,200 — reduces expense to \\$8,400 used.",
+                marks: 2,
+                markCode: "M",
+              },
+              {
+                part: "b",
+                reasoning:
+                  "Dr wages expense \\$3,000 / Cr accrued wages (liability) \\$3,000 — increases expense.",
+                marks: 2,
+                markCode: "M",
+              },
+            ],
+            finalAnswer:
+              "(a) Dr prepayment / Cr rent \\$1,200. (b) Dr wages / Cr accrued wages \\$3,000.",
+            commonErrors: [
+              "Reversing the entries — prepayments reduce expense; accruals increase it.",
+            ],
+          },
+        },
       ],
     },
     {
@@ -1596,15 +2318,15 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              {
-                id: "a",
-                text: "The systematic allocation of a non-current asset's cost over its useful life",
-              },
+              { id: "a", text: "The cost of repairing an asset" },
               { id: "b", text: "The loss in value when an asset is sold" },
               { id: "c", text: "A cash expense paid each year" },
-              { id: "d", text: "The cost of repairing an asset" },
+              {
+                id: "d",
+                text: "The systematic allocation of a non-current asset's cost over its useful life",
+              },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1666,12 +2388,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Cost minus accumulated depreciation" },
-              { id: "b", text: "Cost plus depreciation" },
-              { id: "c", text: "Selling price minus cost" },
-              { id: "d", text: "Residual value only" },
+              { id: "a", text: "Residual value only" },
+              { id: "b", text: "Selling price minus cost" },
+              { id: "c", text: "Cost minus accumulated depreciation" },
+              { id: "d", text: "Cost plus depreciation" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -2060,6 +2782,245 @@ export const lesson33: Lesson = {
               "(a) Matches cost to usage; allocation not valuation. (b) \\$1,350/yr; \\$8,100 total; ends at \\$900 residual.",
           },
         },
+        {
+          id: "cieiacct-u3-depreciation-q11",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Under the straight line method, annual depreciation is calculated as:",
+          response: {
+            type: "mcq",
+            choices: [
+              {
+                id: "a",
+                text: "(Cost − residual value) ÷ useful life"
+              },
+              { id: "b", text: "Book value × depreciation rate" },
+              { id: "c", text: "Cost ÷ number of units produced" },
+              { id: "d", text: "Cost × depreciation rate" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "formula",
+                name: "Straight line",
+                statement:
+                  "Depreciable amount = cost − residual value; spread evenly over useful life.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "Straight line charges an equal amount each year.",
+                marks: 1,
+                markCode: "M",
+              },
+            ],
+            finalAnswer: "(a) (Cost − residual value) ÷ useful life.",
+          },
+        },
+        {
+          id: "cieiacct-u3-depreciation-q12",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "A machine costs \\$20,000, has a residual value of \\$2,000 and a useful life of 5 years. Calculate annual straight line depreciation.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "Annual depreciation", answer: 3600, unit: "$" }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "formula",
+                name: "Straight line",
+                statement:
+                  "Annual depreciation = (cost − residual value) ÷ useful life.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "(20,000 − 2,000) ÷ 5.",
+                working: "18000 / 5",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "Annual depreciation = \\$3,600.",
+                working: "18000 / 5 = 3600",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "\\$3,600",
+          },
+        },
+        {
+          id: "cieiacct-u3-depreciation-q13",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "Under the reducing balance method, an asset with an opening book value of \\$10,000 is depreciated at 20% per year. Calculate the depreciation charge for the first year.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "Depreciation", answer: 2000, unit: "$" }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "formula",
+                name: "Reducing balance",
+                statement: "Depreciation = opening book value × rate%.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "10,000 × 20%.",
+                working: "10000 × 0.20",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "Depreciation = \\$2,000.",
+                working: "10000 × 0.20 = 2000",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "\\$2,000",
+          },
+        },
+        {
+          id: "cieiacct-u3-depreciation-q14",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "Explain why depreciation is not treated as a cash outflow in the cash flow statement.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Depreciation",
+                statement:
+                  "It is an allocation of the asset's original cost over its life, not a payment.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "The cash was paid when the asset was originally purchased, not when depreciation is charged.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "Depreciation merely spreads that past cost across the periods of use.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "It is therefore added back in operating activities when preparing a cash flow statement.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer:
+              "Depreciation is a non-cash allocation of cost — the cash left the business at purchase, so it is added back in the cash flow statement.",
+          },
+        },
+        {
+          id: "cieiacct-u3-depreciation-q15",
+          difficulty: "challenge",
+          totalMarks: 3,
+          stem: "A van costs \\$24,000 with residual value \\$4,000 and a useful life of 4 years (straight line). Calculate the book value at the end of year 2.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "Book value", answer: 14000, unit: "$" }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "formula",
+                name: "Book value",
+                statement:
+                  "Book value = cost − accumulated depreciation.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "Annual depreciation = (24,000 − 4,000) ÷ 4 = \\$5,000.",
+                working: "20000 / 4 = 5000",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "Accumulated depreciation after 2 years = \\$10,000.",
+                working: "5000 × 2 = 10000",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "Book value = 24,000 − 10,000 = \\$14,000.",
+                working: "24000 - 10000 = 14000",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "\\$14,000",
+          },
+        },
+        {
+          id: "cieiacct-u3-depreciation-q16",
+          difficulty: "challenge",
+          totalMarks: 4,
+          parts: [
+            {
+              label: "a",
+              prompt:
+                "A machine costs \\$15,000, residual value \\$3,000, life 4 years. Calculate annual straight line depreciation and total depreciation over the life.",
+              marks: 2,
+            },
+            {
+              label: "b",
+              prompt:
+                "State one advantage of the reducing balance method over straight line.",
+              marks: 2,
+            },
+          ],
+          stem: "A business must choose a depreciation method.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "formula",
+                name: "Depreciation methods",
+                statement:
+                  "Straight line = equal charges; reducing balance = higher early charges matching heavier early use.",
+              },
+            ],
+            steps: [
+              {
+                part: "a",
+                reasoning:
+                  "Annual = (15,000 − 3,000) ÷ 4 = \\$3,000; total = \\$12,000.",
+                working: "12000 / 4 = 3000; 3000 × 4 = 12000",
+                marks: 2,
+                markCode: "M",
+              },
+              {
+                part: "b",
+                reasoning:
+                  "Any valid advantage: higher charges early when the asset is most productive; better matches usage pattern.",
+                marks: 2,
+                markCode: "A",
+              },
+            ],
+            finalAnswer:
+              "(a) \\$3,000 per year; \\$12,000 total. (b) Higher early charges better match the asset's productive life.",
+          },
+        },
       ],
     },
     {
@@ -2114,15 +3075,15 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "A debt owed to the business" },
+              { id: "b", text: "A debt expected to be paid late" },
               {
-                id: "a",
+                id: "c",
                 text: "A debt that will never be recovered — written off completely",
               },
-              { id: "b", text: "A debt expected to be paid late" },
-              { id: "c", text: "A provision for doubtful debts" },
-              { id: "d", text: "A debt owed to the business" },
+              { id: "d", text: "A provision for doubtful debts" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -2150,15 +3111,15 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "A specific debtor's account" },
               {
-                id: "a",
+                id: "b",
                 text: "An estimate of debts unlikely to be paid, made before they become irrecoverable",
               },
-              { id: "b", text: "A specific debtor's account" },
               { id: "c", text: "A cash reserve" },
               { id: "d", text: "A bad debt written off" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -2587,6 +3548,240 @@ export const lesson33: Lesson = {
             ],
             finalAnswer:
               "(a) Dr expense/Cr debtor; reduces receivables and profit. (b) Adjustment +\\$352; net receivables \\$22,848.",
+          },
+        },
+        {
+          id: "cieiacct-u3-debts-q11",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "When a specific debtor's account is written off as irrecoverable, the entry is:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Debit allowance for doubtful debts, credit the debtor" },
+              {
+                id: "b",
+                text: "Debit irrecoverable debts, credit the debtor's account"
+              },
+              { id: "c", text: "Debit sales returns, credit the debtor's account" },
+              { id: "d", text: "Debit the debtor's account, credit irrecoverable debts" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "skill",
+                name: "Irrecoverable debt",
+                statement:
+                  "Dr irrecoverable debts (expense), Cr debtor — removes the specific debt.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "The loss is expensed and the receivable is removed.",
+                marks: 1,
+                markCode: "M",
+              },
+            ],
+            finalAnswer: "(a) Dr irrecoverable debts / Cr debtor.",
+          },
+        },
+        {
+          id: "cieiacct-u3-debts-q12",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "Trade receivables are \\$15,000 and an allowance of 4% is required. Calculate the allowance for doubtful debts.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "Allowance", answer: 600, unit: "$" }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "formula",
+                name: "Allowance",
+                statement: "Required allowance = percentage × trade receivables.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "4% × 15,000.",
+                working: "0.04 × 15000",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "Allowance = \\$600.",
+                working: "0.04 × 15000 = 600",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "\\$600",
+          },
+        },
+        {
+          id: "cieiacct-u3-debts-q13",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "The required allowance is \\$800 and the existing allowance is \\$500. Calculate the adjustment needed and state which account is debited.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "Increase in allowance", answer: 300, unit: "$" }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "formula",
+                name: "Allowance adjustment",
+                statement:
+                  "Adjustment = required allowance − existing allowance.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "800 − 500 = \\$300 increase needed.",
+                working: "800 - 500 = 300",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "Dr irrecoverable debts/allowance expense \\$300, Cr allowance for doubtful debts \\$300.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "\\$300 — debit allowance expense.",
+          },
+        },
+        {
+          id: "cieiacct-u3-debts-q14",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "Explain why an allowance for doubtful debts is created before debts actually become irrecoverable.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Prudence",
+                statement:
+                  "Expected losses are provided for in the period they are anticipated, not when confirmed.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "Some debts are likely to fail even though they are not yet confirmed irrecoverable.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "The allowance follows the prudence/matching concept — anticipate losses in the right period.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "It gives a more realistic (net) figure for trade receivables on the balance sheet.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer:
+              "It anticipates expected losses (prudence) so receivables are shown at a realistic net value before specific debts are written off.",
+          },
+        },
+        {
+          id: "cieiacct-u3-debts-q15",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "The allowance for doubtful debts is best described as:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "An expense paid to a debt collection agency" },
+              { id: "b", text: "A specific debt owed by one named customer" },
+              { id: "c", text: "A liability owed to suppliers" },
+              {
+                id: "d",
+                text: "A general provision against specific debtors, shown as a deduction from receivables"
+              },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Allowance for doubtful debts",
+                statement:
+                  "A general (not specific) estimate of irrecoverable amounts — a contra-asset.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "It is not tied to one debtor and reduces the receivables figure.",
+                marks: 1,
+                markCode: "M",
+              },
+            ],
+            finalAnswer: "(a) General provision deducted from receivables.",
+          },
+        },
+        {
+          id: "cieiacct-u3-debts-q16",
+          difficulty: "challenge",
+          totalMarks: 4,
+          parts: [
+            {
+              label: "a",
+              prompt:
+                "A debtor owing \\$700 is declared irrecoverable. State the journal entry.",
+              marks: 2,
+            },
+            {
+              label: "b",
+              prompt:
+                "Receivables are \\$20,000 and a 3% allowance is required. The existing allowance is \\$400. Calculate the adjustment and state its direction.",
+              marks: 2,
+            },
+          ],
+          stem: "A business adjusts for bad debts at year end.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "formula",
+                name: "Allowance adjustment",
+                statement:
+                  "Required allowance = % × receivables; adjust for increase or decrease.",
+              },
+            ],
+            steps: [
+              {
+                part: "a",
+                reasoning:
+                  "Dr irrecoverable debts \\$700 / Cr debtor's account \\$700.",
+                marks: 2,
+                markCode: "M",
+              },
+              {
+                part: "b",
+                reasoning:
+                  "Required = 3% × 20,000 = \\$600; existing \\$400 → increase of \\$200: Dr allowance expense / Cr allowance \\$200.",
+                working: "0.03 × 20000 = 600; 600 - 400 = 200",
+                marks: 2,
+                markCode: "A",
+              },
+            ],
+            finalAnswer:
+              "(a) Dr irrecoverable debts / Cr debtor \\$700. (b) Increase \\$200 — debit expense.",
           },
         },
       ],

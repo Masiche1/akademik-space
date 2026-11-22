@@ -54,12 +54,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It cuts DNA at specific sequences" },
-              { id: "b", text: "It carries the foreign gene into the host cell as a vector" },
-              { id: "c", text: "It joins DNA fragments together" },
-              { id: "d", text: "It kills bacteria that do not take up the gene" },
+              { id: "a", text: "It carries the foreign gene into the host cell as a vector" },
+              { id: "b", text: "It cuts DNA at specific sequences" },
+              { id: "c", text: "It kills bacteria that do not take up the gene" },
+              { id: "d", text: "It joins DNA fragments together" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -82,12 +82,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "So that both fragments have matching sticky ends that can be joined by ligase" },
+              { id: "a", text: "So that the plasmid becomes circular again" },
               { id: "b", text: "So that the bacteria can digest the DNA" },
               { id: "c", text: "So that the insulin gene is copied" },
-              { id: "d", text: "So that the plasmid becomes circular again" },
+              { id: "d", text: "So that both fragments have matching sticky ends that can be joined by ligase" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -111,12 +111,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The toxin will make the soil permanently sterile" },
-              { id: "b", text: "Pest populations may evolve resistance, and the toxin could affect non-target insects" },
-              { id: "c", text: "The crop will stop photosynthesising" },
-              { id: "d", text: "Birds will refuse to eat the seeds" },
+              { id: "a", text: "Pest populations may evolve resistance, and the toxin could affect non-target insects" },
+              { id: "b", text: "The crop will stop photosynthesising" },
+              { id: "c", text: "Birds will refuse to eat the seeds" },
+              { id: "d", text: "The toxin will make the soil permanently sterile" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -173,12 +173,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It cuts DNA at specific recognition sequences" },
-              { id: "b", text: "It joins DNA fragments by forming phosphodiester bonds" },
+              { id: "a", text: "It joins DNA fragments by forming phosphodiester bonds" },
+              { id: "b", text: "It cuts DNA at specific recognition sequences" },
               { id: "c", text: "It copies DNA during replication" },
               { id: "d", text: "It protects bacteria from antibiotics" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -202,12 +202,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "To kill all bacteria so only the plasmid remains" },
-              { id: "b", text: "To select only bacteria that took up the plasmid carrying antibiotic resistance" },
+              { id: "a", text: "To cut the plasmid DNA" },
+              { id: "b", text: "To kill all bacteria so only the plasmid remains" },
               { id: "c", text: "To make the bacteria produce insulin faster" },
-              { id: "d", text: "To cut the plasmid DNA" },
+              { id: "d", text: "To select only bacteria that took up the plasmid carrying antibiotic resistance" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -231,12 +231,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "An enzyme that restricts bacterial growth" },
-              { id: "b", text: "An enzyme that cuts DNA at specific recognition sequences" },
-              { id: "c", text: "An enzyme that joins DNA fragments" },
-              { id: "d", text: "An enzyme that proofreads DNA during replication" },
+              { id: "a", text: "An enzyme that proofreads DNA during replication" },
+              { id: "b", text: "An enzyme that joins DNA fragments" },
+              { id: "c", text: "An enzyme that restricts bacterial growth" },
+              { id: "d", text: "An enzyme that cuts DNA at specific recognition sequences" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -344,12 +344,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "They always have higher nutritional value" },
-              { id: "b", text: "They can reduce the need for sprayed pesticides, lowering costs and chemical exposure" },
+              { id: "a", text: "They can reduce the need for sprayed pesticides, lowering costs and chemical exposure" },
+              { id: "b", text: "They always have higher nutritional value" },
               { id: "c", text: "They cannot be affected by pests" },
               { id: "d", text: "They grow faster in all environments" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -460,8 +460,8 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Restriction enzyme" },
-              { id: "b", text: "Ligase" },
+              { id: "a", text: "Ligase" },
+              { id: "b", text: "Restriction enzyme" },
               { id: "c", text: "Vector" },
               { id: "d", text: "Antibiotic" },
             ],
@@ -550,11 +550,11 @@ export const lesson62: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "An enzyme that has been frozen for storage" },
-              { id: "b", text: "An enzyme attached to an inert support so it can be reused" },
+              { id: "b", text: "An enzyme that cannot be denatured" },
               { id: "c", text: "An enzyme that only works in animals" },
-              { id: "d", text: "An enzyme that cannot be denatured" },
+              { id: "d", text: "An enzyme attached to an inert support so it can be reused" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -577,12 +577,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Only the colour of the vessel" },
-              { id: "b", text: "Temperature, pH, oxygen supply and nutrient concentration" },
-              { id: "c", text: "Only the size of the vessel" },
-              { id: "d", text: "Light intensity only" },
+              { id: "a", text: "Light intensity only" },
+              { id: "b", text: "Only the colour of the vessel" },
+              { id: "c", text: "Temperature, pH, oxygen supply and nutrient concentration" },
+              { id: "d", text: "Only the size of the vessel" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -606,12 +606,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Increase the temperature to 80 °C to speed up reactions" },
-              { id: "b", text: "Optimise temperature, pH, oxygen and nutrient supply for the yeast strain" },
-              { id: "c", text: "Remove all nutrients so the yeast works harder" },
-              { id: "d", text: "Expose the fermenter to bright light" },
+              { id: "a", text: "Expose the fermenter to bright light" },
+              { id: "b", text: "Remove all nutrients so the yeast works harder" },
+              { id: "c", text: "Increase the temperature to 80 °C to speed up reactions" },
+              { id: "d", text: "Optimise temperature, pH, oxygen and nutrient supply for the yeast strain" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -668,9 +668,9 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "They work at very high temperatures" },
+              { id: "a", text: "They are consumed in the reaction" },
               { id: "b", text: "They are highly specific and work under mild conditions" },
-              { id: "c", text: "They are consumed in the reaction" },
+              { id: "c", text: "They work at very high temperatures" },
               { id: "d", text: "They produce toxic by-products" },
             ],
             correctChoiceId: "b",
@@ -697,9 +697,9 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The enzyme becomes more specific" },
+              { id: "a", text: "The enzyme works at higher temperatures" },
               { id: "b", text: "The enzyme can be reused and easily separated from the product" },
-              { id: "c", text: "The enzyme works at higher temperatures" },
+              { id: "c", text: "The enzyme becomes more specific" },
               { id: "d", text: "The enzyme is no longer a protein" },
             ],
             correctChoiceId: "b",
@@ -726,12 +726,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Growing plant cells or tissues in sterile nutrient medium to produce clones" },
+              { id: "a", text: "Cloning animals in laboratories" },
               { id: "b", text: "Propagating plants by seed only" },
-              { id: "c", text: "Cloning animals in laboratories" },
-              { id: "d", text: "Breeding plants for larger fruits" },
+              { id: "c", text: "Breeding plants for larger fruits" },
+              { id: "d", text: "Growing plant cells or tissues in sterile nutrient medium to produce clones" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -930,10 +930,10 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Crude oil" },
+              { id: "a", text: "Steel" },
               { id: "b", text: "Penicillin" },
               { id: "c", text: "Granite" },
-              { id: "d", text: "Steel" },
+              { id: "d", text: "Crude oil" },
             ],
             correctChoiceId: "b",
           },
@@ -959,12 +959,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "To prevent contamination by other microorganisms that would compete for nutrients or spoil the product" },
-              { id: "b", text: "To make the vessel airtight" },
-              { id: "c", text: "To increase the temperature of the culture" },
-              { id: "d", text: "To supply oxygen to the culture" },
+              { id: "a", text: "To increase the temperature of the culture" },
+              { id: "b", text: "To supply oxygen to the culture" },
+              { id: "c", text: "To prevent contamination by other microorganisms that would compete for nutrients or spoil the product" },
+              { id: "d", text: "To make the vessel airtight" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

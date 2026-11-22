@@ -92,18 +92,18 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "They destroy infected cells directly" },
               {
-                id: "a",
+                id: "b",
                 text: "They produce antibodies immediately upon first exposure",
               },
               {
-                id: "b",
+                id: "c",
                 text: "They persist after infection and enable a faster, stronger secondary response on re-exposure",
               },
-              { id: "c", text: "They engulf pathogens by phagocytosis" },
-              { id: "d", text: "They destroy infected cells directly" },
+              { id: "d", text: "They engulf pathogens by phagocytosis" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -147,10 +147,10 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "IgM" },
+              { id: "a", text: "IgE" },
               { id: "b", text: "IgA" },
               { id: "c", text: "IgG" },
-              { id: "d", text: "IgE" },
+              { id: "d", text: "IgM" },
             ],
             correctChoiceId: "c",
           },
@@ -207,15 +207,15 @@ export const lesson63: Lesson = {
               },
               {
                 id: "b",
-                text: "The immune system generates antibodies and memory cells specific to the spike protein; on real exposure the secondary response neutralises the virus before it establishes infection",
+                text: "Vaccination gives passive immunity that lasts forever",
               },
               { id: "c", text: "The fragment directly kills infected cells" },
               {
                 id: "d",
-                text: "Vaccination gives passive immunity that lasts forever",
+                text: "The immune system generates antibodies and memory cells specific to the spike protein; on real exposure the secondary response neutralises the virus before it establishes infection",
               },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -397,16 +397,16 @@ export const lesson63: Lesson = {
             choices: [
               {
                 id: "a",
-                text: "The body clones all lymphocytes indiscriminately when infected",
+                text: "An antigen selects the one lymphocyte whose receptor matches it; that cell proliferates into a clone of identical effector and memory cells",
               },
               {
                 id: "b",
-                text: "An antigen selects the one lymphocyte whose receptor matches it; that cell proliferates into a clone of identical effector and memory cells",
+                text: "The body clones all lymphocytes indiscriminately when infected",
               },
               { id: "c", text: "Antibodies are cloned from red blood cells" },
               { id: "d", text: "The thymus selects T cells randomly" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -643,19 +643,19 @@ export const lesson63: Lesson = {
             choices: [
               {
                 id: "a",
+                text: "HIV destroys memory cells only, leaving effector cells unaffected",
+              },
+              { id: "b", text: "CD4 cells produce all antibodies directly" },
+              {
+                id: "c",
                 text: "CD4 cells are the most numerous immune cells, so their loss is simply a numbers problem",
               },
               {
-                id: "b",
+                id: "d",
                 text: "Helper T cells coordinate both arms of immunity — they activate B cells for antibody production and CD8 cytotoxic T cells — so losing them disables both humoral and cell-mediated defence",
               },
-              { id: "c", text: "CD4 cells produce all antibodies directly" },
-              {
-                id: "d",
-                text: "HIV destroys memory cells only, leaving effector cells unaffected",
-              },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -760,21 +760,21 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Active immunity from vaccination" },
               {
-                id: "b",
-                text: "Passive immunity — pre-formed antibodies transferred across the placenta (maternal IgG)",
+                id: "a",
+                text: "Innate immunity from the baby's own phagocytes",
               },
+              { id: "b", text: "Active immunity from vaccination" },
               {
                 id: "c",
-                text: "Innate immunity from the baby's own phagocytes",
+                text: "Passive immunity — pre-formed antibodies transferred across the placenta (maternal IgG)",
               },
               {
                 id: "d",
                 text: "Acquired immunity from the baby's own B cells",
               },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -978,7 +978,7 @@ export const lesson63: Lesson = {
             choices: [
               {
                 id: "a",
-                text: "They are extracted from the blood of immunised animals",
+                text: "They are synthesised chemically in the laboratory",
               },
               {
                 id: "b",
@@ -986,7 +986,7 @@ export const lesson63: Lesson = {
               },
               {
                 id: "c",
-                text: "They are synthesised chemically in the laboratory",
+                text: "They are extracted from the blood of immunised animals",
               },
               {
                 id: "d",
@@ -1047,19 +1047,19 @@ export const lesson63: Lesson = {
             choices: [
               {
                 id: "a",
+                text: "Both involve IgE antibodies against pathogens",
+              },
+              { id: "b", text: "Autoimmune diseases only affect the skin" },
+              {
+                id: "c",
                 text: "Autoimmune disease is an IgE response to a harmless antigen; allergy attacks self-tissues",
               },
               {
-                id: "b",
+                id: "d",
                 text: "Autoimmune disease is an inappropriate attack on self-antigens; allergy is an IgE-mediated response to a normally harmless external antigen",
               },
-              {
-                id: "c",
-                text: "Both involve IgE antibodies against pathogens",
-              },
-              { id: "d", text: "Autoimmune diseases only affect the skin" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1150,15 +1150,15 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "They join DNA fragments together" },
+              { id: "a", text: "They separate DNA fragments by size" },
+              { id: "b", text: "They copy DNA during PCR" },
+              { id: "c", text: "They join DNA fragments together" },
               {
-                id: "b",
+                id: "d",
                 text: "They cut DNA at specific recognition sequences to produce fragments that can be inserted into vectors",
               },
-              { id: "c", text: "They copy DNA during PCR" },
-              { id: "d", text: "They separate DNA fragments by size" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1204,16 +1204,16 @@ export const lesson63: Lesson = {
             choices: [
               {
                 id: "a",
-                text: "Catch as many fish as possible before stocks collapse",
-              },
-              {
-                id: "b",
                 text: "Harvest at the rate that can be sustained indefinitely because it does not exceed the population's reproductive capacity",
               },
-              { id: "c", text: "Stop all fishing to let stocks recover" },
+              { id: "b", text: "Stop all fishing to let stocks recover" },
+              {
+                id: "c",
+                text: "Catch as many fish as possible before stocks collapse",
+              },
               { id: "d", text: "Catch only juvenile fish" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -1265,22 +1265,22 @@ export const lesson63: Lesson = {
             choices: [
               {
                 id: "a",
-                text: "FOR: it directly cures blindness; AGAINST: it is illegal everywhere",
-              },
-              {
-                id: "b",
                 text: "FOR: it can deliver vitamin A through a staple crop addressing deficiency at scale; AGAINST: it does not address poverty/diversity of diet, may have ecological risks, and raises seed-sovereignty concerns",
               },
               {
-                id: "c",
+                id: "b",
                 text: "FOR: it replaces all other vitamin sources; AGAINST: it contains toxins",
               },
               {
-                id: "d",
+                id: "c",
                 text: "FOR: it is the only way to grow rice; AGAINST: farmers refuse it",
               },
+              {
+                id: "d",
+                text: "FOR: it directly cures blindness; AGAINST: it is illegal everywhere",
+              },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -1462,16 +1462,16 @@ export const lesson63: Lesson = {
             choices: [
               {
                 id: "a",
-                text: "It cuts DNA at specific recognition sequences",
-              },
-              {
-                id: "b",
                 text: "It joins DNA fragments together by forming phosphodiester bonds",
               },
-              { id: "c", text: "It copies DNA during PCR amplification" },
-              { id: "d", text: "It separates DNA fragments by size in a gel" },
+              { id: "b", text: "It copies DNA during PCR amplification" },
+              { id: "c", text: "It separates DNA fragments by size in a gel" },
+              {
+                id: "d",
+                text: "It cuts DNA at specific recognition sequences",
+              },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -1714,22 +1714,22 @@ export const lesson63: Lesson = {
             choices: [
               {
                 id: "a",
-                text: "They eliminate all need for any pest management forever",
+                text: "They are the only way to feed the growing population",
               },
               {
                 id: "b",
-                text: "They allow targeted pest control, reducing reliance on broad-spectrum insecticides, which can raise yield and benefit non-target species",
-              },
-              {
-                id: "c",
                 text: "They cannot possibly have any ecological effects",
               },
               {
+                id: "c",
+                text: "They eliminate all need for any pest management forever",
+              },
+              {
                 id: "d",
-                text: "They are the only way to feed the growing population",
+                text: "They allow targeted pest control, reducing reliance on broad-spectrum insecticides, which can raise yield and benefit non-target species",
               },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1838,22 +1838,22 @@ export const lesson63: Lesson = {
             choices: [
               {
                 id: "a",
-                text: "In situ protects species in their natural habitat; ex situ protects them outside it (zoos, seed banks, captive breeding)",
-              },
-              {
-                id: "b",
                 text: "In situ means captive breeding; ex situ means national parks",
               },
               {
-                id: "c",
+                id: "b",
                 text: "In situ is only for plants; ex situ is only for animals",
+              },
+              {
+                id: "c",
+                text: "In situ protects species in their natural habitat; ex situ protects them outside it (zoos, seed banks, captive breeding)",
               },
               {
                 id: "d",
                 text: "There is no difference — the terms are interchangeable",
               },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -2052,21 +2052,21 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "It designates national parks and reserves" },
               {
-                id: "a",
+                id: "b",
                 text: "It funds captive breeding programmes for endangered species",
               },
               {
-                id: "b",
+                id: "c",
                 text: "It regulates international trade in endangered species through a permit system, aiming to ensure trade does not threaten survival",
               },
-              { id: "c", text: "It designates national parks and reserves" },
               {
                 id: "d",
                 text: "It sets fishing quotas for commercial fisheries",
               },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -2119,22 +2119,22 @@ export const lesson63: Lesson = {
             choices: [
               {
                 id: "a",
-                text: "The immune system attacks the viral vector before it delivers the gene",
+                text: "The patient's DNA degrades the inserted gene immediately",
               },
               {
                 id: "b",
-                text: "The therapeutic gene inserts into the genome at an uncontrolled site and can disrupt a tumour-suppressor gene or activate an oncogene, potentially causing cancer",
-              },
-              {
-                id: "c",
                 text: "The gene therapy only works in bacteria, not human cells",
               },
               {
+                id: "c",
+                text: "The immune system attacks the viral vector before it delivers the gene",
+              },
+              {
                 id: "d",
-                text: "The patient's DNA degrades the inserted gene immediately",
+                text: "The therapeutic gene inserts into the genome at an uncontrolled site and can disrupt a tumour-suppressor gene or activate an oncogene, potentially causing cancer",
               },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

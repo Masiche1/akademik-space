@@ -50,12 +50,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "There is a weak negative linear correlation." },
-              { id: "b", text: "There is a strong negative linear correlation." },
+              { id: "a", text: "There is a strong negative linear correlation." },
+              { id: "b", text: "There is a weak negative linear correlation." },
               { id: "c", text: "There is a strong positive linear correlation." },
               { id: "d", text: "Lower temperatures do not affect heating cost." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "property", name: "Meaning of $r$", statement: "The sign of $r$ gives the direction and $|r|$ the strength of linear correlation." }],
@@ -173,10 +173,10 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "There is a strong positive linear correlation" },
+              { id: "a", text: "There is a strong negative linear correlation" },
               { id: "b", text: "There is a weak positive linear correlation" },
-              { id: "c", text: "There is a strong negative linear correlation" },
-              { id: "d", text: "There is no relationship between the variables" },
+              { id: "c", text: "There is no relationship between the variables" },
+              { id: "d", text: "There is a strong positive linear correlation" },
             ],
             correctChoiceId: "b",
           },
@@ -200,11 +200,11 @@ export const lesson42: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Eating ice cream causes drowning" },
-              { id: "b", text: "There is a strong positive association, but correlation does not prove causation" },
-              { id: "c", text: "The variables are independent" },
+              { id: "b", text: "The variables are independent" },
+              { id: "c", text: "There is a strong positive association, but correlation does not prove causation" },
               { id: "d", text: "Drowning causes ice cream sales" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Correlation and causation", statement: "Correlation does not imply causation; a third variable (here, hot weather) may explain both." }],
@@ -226,11 +226,11 @@ export const lesson42: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Points rising steadily from bottom left to top right" },
-              { id: "b", text: "Points falling steadily from top left to bottom right" },
-              { id: "c", text: "Points scattered randomly with no pattern" },
+              { id: "b", text: "Points scattered randomly with no pattern" },
+              { id: "c", text: "Points falling steadily from top left to bottom right" },
               { id: "d", text: "Points lying exactly on a horizontal line with no variation in $y$" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "property", name: "Pearson's $r$", statement: "$r$ near 0 indicates little or no linear correlation." }],
@@ -331,11 +331,11 @@ export const lesson42: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "30 is too far from the mean of $x$" },
-              { id: "b", text: "The prediction is extrapolation outside the range of the data, so the trend may not continue" },
+              { id: "b", text: "The intercept 15 makes all predictions unreliable" },
               { id: "c", text: "The regression line cannot be used for individuals" },
-              { id: "d", text: "The intercept 15 makes all predictions unreliable" },
+              { id: "d", text: "The prediction is extrapolation outside the range of the data, so the trend may not continue" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Extrapolation", statement: "Predicting outside the range of the observed data is unreliable because the relationship may not continue." }],
@@ -357,11 +357,11 @@ export const lesson42: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "At $0^\\circ$C, 58 drinks are sold" },
-              { id: "b", text: "For each $1^\\circ$C increase in temperature, about 3.2 fewer drinks are sold" },
+              { id: "b", text: "The maximum number of drinks sold is 58" },
               { id: "c", text: "For each $1^\\circ$C increase in temperature, about 3.2 more drinks are sold" },
-              { id: "d", text: "The maximum number of drinks sold is 58" },
+              { id: "d", text: "For each $1^\\circ$C increase in temperature, about 3.2 fewer drinks are sold" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "property", name: "Interpretation of gradient", statement: "The gradient is the predicted change in $y$ per unit increase in $x$; a negative gradient means $y$ decreases as $x$ increases." }],
@@ -451,10 +451,10 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$0\\le r\\le 1$" },
+              { id: "a", text: "$r$ can take any real value" },
               { id: "b", text: "$-1\\le r\\le 1$" },
-              { id: "c", text: "$-100\\le r\\le 100$" },
-              { id: "d", text: "$r$ can take any real value" },
+              { id: "c", text: "$0\\le r\\le 1$" },
+              { id: "d", text: "$-100\\le r\\le 100$" },
             ],
             correctChoiceId: "b",
           },
@@ -506,12 +506,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The high $r$ proves a linear model is appropriate" },
-              { id: "b", text: "$r$ only measures linear association; the scatter diagram should be checked before using a linear model" },
-              { id: "c", text: "$r$ is always near 0 for curved data" },
-              { id: "d", text: "The regression line will give perfect predictions" },
+              { id: "a", text: "$r$ only measures linear association; the scatter diagram should be checked before using a linear model" },
+              { id: "b", text: "$r$ is always near 0 for curved data" },
+              { id: "c", text: "The regression line will give perfect predictions" },
+              { id: "d", text: "The high $r$ proves a linear model is appropriate" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "property", name: "Limitations of $r$", statement: "Pearson's $r$ measures only linear association; curved patterns can produce misleading values." }],
@@ -558,12 +558,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The points lie exactly on a straight line." },
-              { id: "b", text: "As one variable increases, the other always increases." },
-              { id: "c", text: "One variable causes the other." },
-              { id: "d", text: "The two variables have no relationship." },
+              { id: "a", text: "One variable causes the other." },
+              { id: "b", text: "The two variables have no relationship." },
+              { id: "c", text: "As one variable increases, the other always increases." },
+              { id: "d", text: "The points lie exactly on a straight line." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "property", name: "Spearman's coefficient", statement: "$r_s=1$ means a perfect increasing monotonic relationship." }],
@@ -657,12 +657,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "When the data are exact measurements on an interval scale" },
-              { id: "b", text: "When the relationship is monotonic but not linear, or the data are ordinal" },
-              { id: "c", text: "When the sample size is very large" },
-              { id: "d", text: "When there are no ties in the data" },
+              { id: "a", text: "When the sample size is very large" },
+              { id: "b", text: "When the data are exact measurements on an interval scale" },
+              { id: "c", text: "When there are no ties in the data" },
+              { id: "d", text: "When the relationship is monotonic but not linear, or the data are ordinal" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "property", name: "Spearman's coefficient", statement: "Use $r_s$ for monotonic (not necessarily linear) relationships or ordinal data." }],
@@ -684,9 +684,9 @@ export const lesson42: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "The rankings show a strong negative monotonic association" },
-              { id: "b", text: "The rankings show a weak negative monotonic association" },
-              { id: "c", text: "The rankings are identical" },
-              { id: "d", text: "The rankings show a strong positive linear association" },
+              { id: "b", text: "The rankings show a strong positive linear association" },
+              { id: "c", text: "The rankings show a weak negative monotonic association" },
+              { id: "d", text: "The rankings are identical" },
             ],
             correctChoiceId: "a",
           },
@@ -709,12 +709,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "1" },
-              { id: "b", text: "The largest rank" },
-              { id: "c", text: "0" },
-              { id: "d", text: "It depends on the value of $n$" },
+              { id: "a", text: "The largest rank" },
+              { id: "b", text: "0" },
+              { id: "c", text: "It depends on the value of $n$" },
+              { id: "d", text: "1" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Ranking", statement: "Ranks are ordinal positions; the convention is consistent (e.g. rank 1 for the lowest value)." }],
@@ -790,9 +790,9 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Pearson's $r$, because it is always the correct measure" },
+              { id: "a", text: "Neither, because $r_s=1$ is impossible for real data" },
               { id: "b", text: "Spearman's $r_s$, because the relationship is perfectly monotonic though not linear" },
-              { id: "c", text: "Neither, because $r_s=1$ is impossible for real data" },
+              { id: "c", text: "Pearson's $r$, because it is always the correct measure" },
               { id: "d", text: "Pearson's $r$, because $r_s$ cannot exceed 0.9" },
             ],
             correctChoiceId: "b",
@@ -817,11 +817,11 @@ export const lesson42: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Ranks 3 and 4 are assigned arbitrarily" },
-              { id: "b", text: "Both are assigned the mean rank 3.5" },
-              { id: "c", text: "Both are assigned rank 3" },
+              { id: "b", text: "Both are assigned rank 3" },
+              { id: "c", text: "Both are assigned the mean rank 3.5" },
               { id: "d", text: "The tie is broken by the order they appear in the list" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Tied ranks", statement: "Tied values share the mean of the ranks they would have occupied." }],
@@ -905,12 +905,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Only the strength of a linear relationship" },
-              { id: "b", text: "How well a monotonic relationship fits, whether or not it is linear" },
+              { id: "a", text: "The difference between two means" },
+              { id: "b", text: "Only the strength of a linear relationship" },
               { id: "c", text: "The causal link between two variables" },
-              { id: "d", text: "The difference between two means" },
+              { id: "d", text: "How well a monotonic relationship fits, whether or not it is linear" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "property", name: "Spearman's coefficient", statement: "It measures monotonic association; a perfect value of $\\pm1$ requires only that ranks agree, not that points lie on a line." }],
@@ -950,11 +950,11 @@ export const lesson42: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$r=1$ and $r_s=1$" },
-              { id: "b", text: "$r<1$ (but positive) and $r_s=1$" },
-              { id: "c", text: "$r=0$ and $r_s=0$" },
-              { id: "d", text: "$r=-1$ and $r_s=-1$" },
+              { id: "b", text: "$r=-1$ and $r_s=-1$" },
+              { id: "c", text: "$r<1$ (but positive) and $r_s=1$" },
+              { id: "d", text: "$r=0$ and $r_s=0$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

@@ -56,11 +56,11 @@ export const lesson26: Lesson = {
                     },
                     {
                               "id": "b",
-                              "text": "A password"
+                              "text": "A type of query"
                     },
                     {
                               "id": "c",
-                              "text": "A type of query"
+                              "text": "A password"
                     },
                     {
                               "id": "d",
@@ -213,6 +213,484 @@ export const lesson26: Lesson = {
                     }
           ],
           "finalAnswer": "Database design and querying."
+},
+        },
+        {
+          id: "cils-c-u2-db-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "In a database table, what is a 'record'?",
+          response: {
+          "type": "mcq",
+          "choices": [
+                    {
+                              "id": "a",
+                              "text": "A type of query"
+                    },
+                    {
+                              "id": "b",
+                              "text": "One complete row of data"
+                    },
+                    {
+                              "id": "c",
+                              "text": "The table name"
+                    },
+                    {
+                              "id": "d",
+                              "text": "One column of data"
+                    }
+          ],
+          "correctChoiceId": "b"
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "definition",
+                              "name": "Record",
+                              "statement": "One complete row."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "Records are rows; fields are columns.",
+                              "marks": 1,
+                              "markCode": "M"
+                    }
+          ],
+          "finalAnswer": "One complete row"
+},
+        },
+        {
+          id: "cils-c-u2-db-q6",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "A table has 4 fields and 3 records. How many individual data values does it contain?",
+          response: {
+          "type": "numeric",
+          "parts": [
+                    { "label": "a", "answer": 12 }
+          ]
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "skill",
+                              "name": "Table structure",
+                              "statement": "fields × records."
+                    }
+          ],
+          "steps": [
+                    {
+                              "part": "a",
+                              "reasoning": "4 × 3 = 12 values.",
+                              "marks": 1,
+                              "markCode": "M"
+                    }
+          ],
+          "finalAnswer": "12"
+},
+        },
+        {
+          id: "cils-c-u2-db-q7",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "A students table has 30 records. A query filtering grade 'A' returns 12 records. How many records does the query return?",
+          response: {
+          "type": "numeric",
+          "parts": [
+                    { "label": "a", "answer": 12 }
+          ]
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "skill",
+                              "name": "Queries",
+                              "statement": "WHERE filters records."
+                    }
+          ],
+          "steps": [
+                    {
+                              "part": "a",
+                              "reasoning": "Query returns only matching records: 12.",
+                              "marks": 1,
+                              "markCode": "M"
+                    }
+          ],
+          "finalAnswer": "12"
+},
+        },
+        {
+          id: "cils-c-u2-db-q8",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "Write a query for a books(id, title, genre, available) table that returns titles of available fiction books, sorted by title.",
+          response: {
+          "type": "open"
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "skill",
+                              "name": "Queries",
+                              "statement": "SELECT...WHERE...ORDER BY."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "SELECT title FROM books",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "WHERE genre = 'fiction' AND available = true",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "ORDER BY title.",
+                              "marks": 1,
+                              "markCode": "A"
+                    }
+          ],
+          "finalAnswer": "SELECT title FROM books WHERE genre='fiction' AND available=true ORDER BY title"
+},
+        },
+        {
+          id: "cils-c-u2-db-q9",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "What does the WHERE clause in a query do?",
+          response: {
+          "type": "mcq",
+          "choices": [
+                    {
+                              "id": "a",
+                              "text": "Sorts the results"
+                    },
+                    {
+                              "id": "b",
+                              "text": "Counts the records"
+                    },
+                    {
+                              "id": "c",
+                              "text": "Deletes the table"
+                    },
+                    {
+                              "id": "d",
+                              "text": "Filters which records are returned"
+                    }
+          ],
+          "correctChoiceId": "d"
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "definition",
+                              "name": "WHERE",
+                              "statement": "Filtering condition."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "WHERE selects only records meeting the condition.",
+                              "marks": 1,
+                              "markCode": "M"
+                    }
+          ],
+          "finalAnswer": "Filters records"
+},
+        },
+        {
+          id: "cils-c-u2-db-q10",
+          difficulty: "challenge",
+          totalMarks: 1,
+          stem: "A database table has 5 fields and 100 records. How many individual data values does it hold?",
+          response: {
+          "type": "numeric",
+          "parts": [
+                    { "label": "a", "answer": 500 }
+          ]
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "skill",
+                              "name": "Table structure",
+                              "statement": "fields × records."
+                    }
+          ],
+          "steps": [
+                    {
+                              "part": "a",
+                              "reasoning": "5 × 100 = 500.",
+                              "marks": 1,
+                              "markCode": "M"
+                    }
+          ],
+          "finalAnswer": "500"
+},
+        },
+        {
+          id: "cils-c-u2-db-q11",
+          difficulty: "challenge",
+          totalMarks: 1,
+          stem: "Why does each record need a primary key?",
+          response: {
+          "type": "mcq",
+          "choices": [
+                    {
+                              "id": "a",
+                              "text": "To encrypt the data"
+                    },
+                    {
+                              "id": "b",
+                              "text": "To sort the records"
+                    },
+                    {
+                              "id": "c",
+                              "text": "To make queries faster always"
+                    },
+                    {
+                              "id": "d",
+                              "text": "To uniquely identify each record and link tables"
+                    }
+          ],
+          "correctChoiceId": "d"
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "definition",
+                              "name": "Primary key",
+                              "statement": "Unique ID per record."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "Primary keys give unique IDs and enable relationships.",
+                              "marks": 1,
+                              "markCode": "M"
+                    }
+          ],
+          "finalAnswer": "Unique identification"
+},
+        },
+        {
+          id: "cils-c-u2-db-q12",
+          difficulty: "challenge",
+          totalMarks: 5,
+          stem: "(a) Define database, table, record, field, query, primary key. (b) Design a 'team members' table with 5 fields and give a data type for each. (c) Write a query returning names of members who joined after 2021. (d) What is a relationship between two tables? (e) Why shouldn't two records share the same primary key?",
+          response: {
+          "type": "open"
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "technique",
+                              "name": "Databases",
+                              "statement": "Tables, queries, keys."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "(a) All six definitions correct.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "(b) Valid 5-field table with types e.g. id(number), name(text), joined(date), role(text), active(Boolean).",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "(c) SELECT name FROM members WHERE joined > '2021-12-31'.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "(d) Links tables via primary/foreign keys, e.g. one member many loans.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "(e) Primary key must be unique — duplicates break identification.",
+                              "marks": 1,
+                              "markCode": "A"
+                    }
+          ],
+          "finalAnswer": "Database design and queries."
+},
+        },
+        {
+          id: "cils-c-u2-db-q13",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "What is a 'field' in a database table?",
+          response: {
+          "type": "mcq",
+          "choices": [
+                    {
+                              "id": "a",
+                              "text": "A type of key"
+                    },
+                    {
+                              "id": "b",
+                              "text": "One complete row"
+                    },
+                    {
+                              "id": "c",
+                              "text": "The whole table"
+                    },
+                    {
+                              "id": "d",
+                              "text": "One column — a specific data attribute"
+                    }
+          ],
+          "correctChoiceId": "d"
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "definition",
+                              "name": "Field",
+                              "statement": "One column/attribute."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "Fields are columns like 'name' or 'grade'.",
+                              "marks": 1,
+                              "markCode": "M"
+                    }
+          ],
+          "finalAnswer": "One column"
+},
+        },
+        {
+          id: "cils-c-u2-db-q14",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "A table has 3 fields and 8 records. How many individual data values does it hold?",
+          response: {
+          "type": "numeric",
+          "parts": [
+                    { "label": "a", "answer": 24 }
+          ]
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "skill",
+                              "name": "Table structure",
+                              "statement": "fields × records."
+                    }
+          ],
+          "steps": [
+                    {
+                              "part": "a",
+                              "reasoning": "3 × 8 = 24.",
+                              "marks": 1,
+                              "markCode": "M"
+                    }
+          ],
+          "finalAnswer": "24"
+},
+        },
+        {
+          id: "cils-c-u2-db-q15",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "What does ORDER BY do in a query?",
+          response: {
+          "type": "mcq",
+          "choices": [
+                    {
+                              "id": "a",
+                              "text": "Adds new records"
+                    },
+                    {
+                              "id": "b",
+                              "text": "Filters the records"
+                    },
+                    {
+                              "id": "c",
+                              "text": "Sorts the results by a field"
+                    },
+                    {
+                              "id": "d",
+                              "text": "Counts the records"
+                    }
+          ],
+          "correctChoiceId": "c"
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "definition",
+                              "name": "ORDER BY",
+                              "statement": "Sorts query results."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "ORDER BY arranges returned records.",
+                              "marks": 1,
+                              "markCode": "M"
+                    }
+          ],
+          "finalAnswer": "Sorts results"
+},
+        },
+        {
+          id: "cils-c-u2-db-q16",
+          difficulty: "challenge",
+          totalMarks: 6,
+          stem: "(a) Define database, record, field, query, primary key, foreign key. (b) Design a 2-table school library: books and loans. (c) Write a query listing all books on loan. (d) How does the loans table link to books? (e) What does COUNT do in a query? (f) Why is a database better than a spreadsheet for a large school?",
+          response: {
+          "type": "open"
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "technique",
+                              "name": "Databases",
+                              "statement": "Tables, relationships, queries."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "(a) All six definitions correct.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "(b) books(id,title,author) + loans(id,book_id,member_id,date) linked by keys.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "(c) SELECT * FROM loans — or joined query.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "(d) Foreign key book_id references books.id.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "(e) Returns number of matching records.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "(f) Handles huge data, relationships, integrity, multi-user access.",
+                              "marks": 1,
+                              "markCode": "A"
+                    }
+          ],
+          "finalAnswer": "Database design, relationships, queries."
 },
         },
       ],

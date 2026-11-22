@@ -54,12 +54,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Hazard magnitude alone" },
-              { id: "b", text: "Hazard × exposure × vulnerability" },
-              { id: "c", text: "Population size alone" },
-              { id: "d", text: "Government spending on defence" },
+              { id: "a", text: "Population size alone" },
+              { id: "b", text: "Government spending on defence" },
+              { id: "c", text: "Hazard magnitude alone" },
+              { id: "d", text: "Hazard × exposure × vulnerability" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -153,12 +153,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The people, property and resources present in hazard-prone areas" },
+              { id: "a", text: "The government's budget for emergency services" },
               { id: "b", text: "How easily buildings collapse during shaking" },
               { id: "c", text: "The probability of an earthquake occurring" },
-              { id: "d", text: "The government's budget for emergency services" },
+              { id: "d", text: "The people, property and resources present in hazard-prone areas" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -208,12 +208,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The complete elimination of all hazards" },
-              { id: "b", text: "The capacity to anticipate, absorb and recover from hazard impacts" },
-              { id: "c", text: "The strength of a country's military" },
-              { id: "d", text: "The cost of building a seawall" },
+              { id: "a", text: "The capacity to anticipate, absorb and recover from hazard impacts" },
+              { id: "b", text: "The complete elimination of all hazards" },
+              { id: "c", text: "The cost of building a seawall" },
+              { id: "d", text: "The strength of a country's military" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -263,12 +263,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "judge recently experienced or vivid events as more likely to recur" },
+              { id: "a", text: "ignore all scientific information" },
               { id: "b", text: "always assess risks accurately" },
-              { id: "c", text: "ignore all scientific information" },
-              { id: "d", text: "only fear risks they have personally caused" },
+              { id: "c", text: "only fear risks they have personally caused" },
+              { id: "d", text: "judge recently experienced or vivid events as more likely to recur" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -316,12 +316,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "take fewer precautions such as evacuating, reinforcing buildings or buying insurance" },
-              { id: "b", text: "always over-prepare for disasters" },
-              { id: "c", text: "move to safer locations automatically" },
-              { id: "d", text: "reduce their exposure to zero" },
+              { id: "a", text: "reduce their exposure to zero" },
+              { id: "b", text: "move to safer locations automatically" },
+              { id: "c", text: "take fewer precautions such as evacuating, reinforcing buildings or buying insurance" },
+              { id: "d", text: "always over-prepare for disasters" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -431,12 +431,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "People always judge hazard risks correctly" },
-              { id: "b", text: "Perception is shaped by availability bias and by whether risks are voluntary or imposed" },
-              { id: "c", text: "Only scientists experience risk perception" },
+              { id: "a", text: "Only scientists experience risk perception" },
+              { id: "b", text: "People always judge hazard risks correctly" },
+              { id: "c", text: "Perception is shaped by availability bias and by whether risks are voluntary or imposed" },
               { id: "d", text: "Risk perception has no effect on preparedness" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -516,9 +516,9 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Hard engineering flood control" },
+              { id: "a", text: "A prediction technique" },
               { id: "b", text: "Sustainable ecosystem-based hazard management" },
-              { id: "c", text: "A prediction technique" },
+              { id: "c", text: "Hard engineering flood control" },
               { id: "d", text: "A vulnerability assessment tool" },
             ],
             correctChoiceId: "b",
@@ -615,12 +615,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "hard engineering approaches to hazard management" },
-              { id: "b", text: "sustainable ecosystem-based management" },
+              { id: "a", text: "risk perception studies" },
+              { id: "b", text: "hard engineering approaches to hazard management" },
               { id: "c", text: "early warning techniques" },
-              { id: "d", text: "risk perception studies" },
+              { id: "d", text: "sustainable ecosystem-based management" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -670,12 +670,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "hard engineering flood control" },
-              { id: "b", text: "a sustainable approach working with natural systems" },
-              { id: "c", text: "a prediction method" },
-              { id: "d", text: "an insurance scheme" },
+              { id: "a", text: "a sustainable approach working with natural systems" },
+              { id: "b", text: "a prediction method" },
+              { id: "c", text: "an insurance scheme" },
+              { id: "d", text: "hard engineering flood control" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -725,12 +725,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "are always free of maintenance costs" },
-              { id: "b", text: "can be very expensive, fail catastrophically and create false security" },
-              { id: "c", text: "never protect any assets" },
-              { id: "d", text: "work equally well for all hazard types" },
+              { id: "a", text: "work equally well for all hazard types" },
+              { id: "b", text: "never protect any assets" },
+              { id: "c", text: "are always free of maintenance costs" },
+              { id: "d", text: "can be very expensive, fail catastrophically and create false security" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -778,12 +778,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "provides co-benefits such as fisheries and carbon storage while self-maintaining and adapting to change" },
+              { id: "a", text: "destroys natural habitats to build concrete" },
               { id: "b", text: "requires no space or time to establish" },
-              { id: "c", text: "guarantees complete protection for dense cities" },
-              { id: "d", text: "destroys natural habitats to build concrete" },
+              { id: "c", text: "provides co-benefits such as fisheries and carbon storage while self-maintaining and adapting to change" },
+              { id: "d", text: "guarantees complete protection for dense cities" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -894,9 +894,9 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "ignores local communities, their knowledge and participation" },
-              { id: "b", text: "is always too cheap to maintain" },
-              { id: "c", text: "eliminates all hazards permanently" },
-              { id: "d", text: "requires no governance or funding" },
+              { id: "b", text: "requires no governance or funding" },
+              { id: "c", text: "is always too cheap to maintain" },
+              { id: "d", text: "eliminates all hazards permanently" },
             ],
             correctChoiceId: "a",
           },

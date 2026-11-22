@@ -52,8 +52,8 @@ export const lesson73: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$0.5$" },
-              { id: "b", text: "$0$" },
-              { id: "c", text: "$1$" },
+              { id: "b", text: "$1$" },
+              { id: "c", text: "$0$" },
               { id: "d", text: "$0.25$" },
             ],
             correctChoiceId: "a",
@@ -188,12 +188,12 @@ export const lesson73: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$2\\mu+3$" },
-              { id: "b", text: "$\\mu+3$" },
-              { id: "c", text: "$2\\mu$" },
-              { id: "d", text: "$\\mu$" },
+              { id: "a", text: "$\\mu+3$" },
+              { id: "b", text: "$2\\mu+3$" },
+              { id: "c", text: "$\\mu$" },
+              { id: "d", text: "$2\\mu$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [

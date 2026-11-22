@@ -65,9 +65,9 @@ export const lesson143: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Displacement" },
-              { id: "b", text: "Acceleration" },
+              { id: "b", text: "Distance only" },
               { id: "c", text: "Speed" },
-              { id: "d", text: "Distance only" },
+              { id: "d", text: "Acceleration" },
             ],
             correctChoiceId: "a",
           },
@@ -248,6 +248,479 @@ export const lesson143: Lesson = {
               },
             ],
             finalAnswer: "(a) displacement (b) π∫f²dx (c) 8π/3 (d) 4/3",
+          },
+        },
+        {
+          id: "cial-m-u4-va-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "The volume generated when the region under $y = f(x)$ from $x = a$ to $x = b$ is rotated about the x-axis is given by...",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$V = \\pi \\int_a^b [f(x)]^2\\,dx$" },
+              { id: "b", text: "$V = \\int_a^b f(x)\\,dx$" },
+              { id: "c", text: "$V = \\pi \\int_a^b f(x)\\,dx$" },
+              { id: "d", text: "$V = 2\\pi \\int_a^b x f(x)\\,dx$" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Volume",
+                statement: "$V = \\pi \\int_a^b [f(x)]^2 dx$.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "f(x) is squared and multiplied by π.",
+                marks: 1,
+                markCode: "M",
+              },
+            ],
+            finalAnswer: "**(a)** $V = \\pi \\int_a^b [f(x)]^2\\,dx$",
+            commonErrors: ["Forgetting to square f(x)."],
+          },
+        },
+        {
+          id: "cial-m-u4-va-q6",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "Find the area under the curve $y = 3x^2$ from $x = 0$ to $x = 2$.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 8 }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Area under curve",
+                statement: "$A = \\int_a^b f(x)\\,dx$.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "$\\int_0^2 3x^2\\,dx = [x^3]_0^2$.",
+                marks: 1,
+                markCode: "M",
+              },
+              { reasoning: "$= 8$.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$8$",
+            commonErrors: ["Evaluating at the wrong limits."],
+          },
+        },
+        {
+          id: "cial-m-u4-va-q7",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "Find the area between the curve $y = x^2$ and the line $y = 4$.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Area between curves",
+                statement: "Integrate (top − bottom) between intersections.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Intersections: $x^2 = 4 \\Rightarrow x = \\pm 2$.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "$4 \\ge x^2$ on $[-2,2]$ — integrate $4 - x^2$.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "$\\int_{-2}^{2} (4 - x^2)\\,dx = [4x - \\frac{x^3}{3}]_{-2}^{2} = \\frac{32}{3}$.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "$\\frac{32}{3}$",
+            commonErrors: ["Using only positive intersection points."],
+          },
+        },
+        {
+          id: "cial-m-u4-va-q8",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "If two curves cross inside the interval when finding the area between them, what should you do?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Always use absolute value of the final answer" },
+              {
+                id: "b",
+                text: "Split the integral at the intersection point(s)",
+              },
+              { id: "c", text: "Ignore the crossing" },
+              {
+                id: "d",
+                text: "Integrate the difference without checking",
+              },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Area between curves",
+                statement: "Split at intersections where top/bottom swap.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Split the integral where the curves cross.",
+                marks: 1,
+                markCode: "M",
+              },
+            ],
+            finalAnswer: "**(a)** Split at intersection points",
+            commonErrors: ["Integrating across a crossing gives cancellation."],
+          },
+        },
+        {
+          id: "cial-m-u4-va-q9",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "The region under $y = \\sqrt{x}$ from $x = 0$ to $x = 4$ is rotated about the x-axis. The volume is $k\\pi$; find $k$.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 8 }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Volume",
+                statement: "$V = \\pi \\int_a^b [f(x)]^2\\,dx$.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "$[\\sqrt{x}]^2 = x$, so $V = \\pi \\int_0^4 x\\,dx$.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "$= \\pi [\\frac{x^2}{2}]_0^4 = 8\\pi$.",
+                marks: 1,
+                markCode: "M",
+              },
+              { reasoning: "$k = 8$.", marks: 1, markCode: "M" },
+              { reasoning: "Correct.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$8$",
+            commonErrors: ["Forgetting to square the function."],
+          },
+        },
+        {
+          id: "cial-m-u4-va-q10",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "Find the volume when the region under $y = x^2$ from $x = 0$ to $x = 1$ is rotated about the x-axis.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Volume",
+                statement: "$V = \\pi \\int_a^b [f(x)]^2\\,dx$.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "$V = \\pi \\int_0^1 x^4\\,dx = \\frac{\\pi}{5}$.",
+                marks: 1,
+                markCode: "M",
+              },
+              { reasoning: "Correct.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$\\frac{\\pi}{5}$",
+            commonErrors: ["Writing $\\pi \\int x^2$ instead of $\\pi \\int (x^2)^2$."],
+          },
+        },
+        {
+          id: "cial-m-u4-va-q11",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "For $0 \\le x \\le 1$, which curve lies above the other: $y = x$ or $y = x^2$?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "It depends on x" },
+              { id: "b", text: "They are equal throughout" },
+              { id: "c", text: "$y = x^2$" },
+              { id: "d", text: "$y = x$" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Area between curves",
+                statement: "Compare values on the interval.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "For $0<x<1$, $x > x^2$.",
+                marks: 1,
+                markCode: "M",
+              },
+            ],
+            finalAnswer: "**(a)** $y = x$",
+            commonErrors: ["Assuming the parabola is always on top."],
+          },
+        },
+        {
+          id: "cial-m-u4-va-q12",
+          difficulty: "challenge",
+          totalMarks: 5,
+          stem: "Find the area enclosed by the curves $y = x^2$ and $y = x$.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 0.1667, tolerance: 0.001 }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Area between curves",
+                statement: "Find intersections, integrate top − bottom.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Intersections: $x^2 = x \\Rightarrow x = 0, 1$.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "On $[0,1]$, $x \\ge x^2$ — integrate $x - x^2$.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "$\\int_0^1 (x - x^2)\\,dx = [\\frac{x^2}{2} - \\frac{x^3}{3}]_0^1$.",
+                marks: 1,
+                markCode: "M",
+              },
+              { reasoning: "$= \\frac{1}{2} - \\frac{1}{3} = \\frac{1}{6}$.", marks: 1, markCode: "M" },
+              { reasoning: "Area $= \\frac{1}{6} \\approx 0.167$.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$\\frac{1}{6}$",
+            commonErrors: ["Integrating $x^2 - x$ gives a negative area."],
+          },
+        },
+        {
+          id: "cial-m-u4-va-q13",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "A particle moves with velocity $v = t^2 - 2t$ for $0 \\le t \\le 3$. Find its displacement.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 0 }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Area under v-t",
+                statement: "Displacement = $\\int v\\,dt$ (signed area).",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "$s = \\int_0^3 (t^2 - 2t)\\,dt$.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "$= [\\frac{t^3}{3} - t^2]_0^3 = 9 - 9$.",
+                marks: 1,
+                markCode: "M",
+              },
+              { reasoning: "Displacement $= 0$.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$0$",
+            commonErrors: ["Taking absolute area instead of signed displacement."],
+          },
+        },
+        {
+          id: "cial-m-u4-va-q14",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "To find the volume when a region is rotated about the y-axis, it is usually necessary to...",
+          response: {
+            type: "mcq",
+            choices: [
+              {
+                id: "a",
+                text: "Use exactly the same integral as for the x-axis",
+              },
+              {
+                id: "b",
+                text: "Express $x$ in terms of $y$ and use $V = \\pi \\int [x(y)]^2\\,dy$",
+              },
+              { id: "c", text: "Swap $x$ and $y$ only in the final answer" },
+              { id: "d", text: "Double the x-axis volume" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Volume about y-axis",
+                statement: "Rearrange to $x = g(y)$, then $V = \\pi\\int g(y)^2\\,dy$.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Express x in terms of y before integrating.",
+                marks: 1,
+                markCode: "M",
+              },
+            ],
+            finalAnswer: "**(a)** Express $x$ in terms of $y$",
+            commonErrors: ["Reusing the x-axis formula unchanged."],
+          },
+        },
+        {
+          id: "cial-m-u4-va-q15",
+          difficulty: "challenge",
+          totalMarks: 6,
+          stem: "Find the volume when the region bounded by $y = x^2$, the x-axis and the line $x = 2$ is rotated about the y-axis.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Volume about y-axis",
+                statement: "$V = \\pi \\int [x(y)]^2\\,dy$; here $x = \\sqrt{y}$, $y:0\\to4$.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "When $x=2$, $y=4$; region spans $y = 0$ to $4$.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "From $y = x^2$, $x = \\sqrt{y}$.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "$V = \\pi \\int_0^4 (\\sqrt{y})^2\\,dy = \\pi \\int_0^4 y\\,dy$.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "$= \\pi [\\frac{y^2}{2}]_0^4 = 8\\pi$.",
+                marks: 1,
+                markCode: "M",
+              },
+              { reasoning: "Volume $= 8\\pi$ units³.", marks: 1, markCode: "A" },
+              { reasoning: "Units and form correct.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$8\\pi$",
+            commonErrors: ["Integrating with respect to x instead of y."],
+          },
+        },
+        {
+          id: "cial-m-u4-va-q16",
+          difficulty: "challenge",
+          totalMarks: 10,
+          stem: "Areas and volumes of revolution.",
+          parts: [
+            {
+              label: "a",
+              prompt: "State the formula for the area between $y=f(x)$ and $y=g(x)$.",
+              marks: 1,
+            },
+            {
+              label: "b",
+              prompt: "State the volume formula for rotation about the x-axis.",
+              marks: 2,
+            },
+            {
+              label: "c",
+              prompt: "Find the area between $y = x^2$ and $y = 2x$ from $x=0$ to $2$.",
+              marks: 4,
+            },
+            {
+              label: "d",
+              prompt: "Find the volume when $y=x$ from $x=0$ to $2$ is rotated about the x-axis.",
+              marks: 3,
+            },
+          ],
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Applications",
+                statement: "Area formula+volume+area calc+volume calc.",
+              },
+            ],
+            steps: [
+              {
+                part: "a",
+                reasoning: "$A = \\int_a^b |f(x)-g(x)|\\,dx$.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                part: "b",
+                reasoning: "$V = \\pi \\int_a^b [f(x)]^2\\,dx$.",
+                marks: 1,
+                markCode: "M",
+              },
+              { part: "b", reasoning: "Includes π and square.", marks: 1, markCode: "A" },
+              {
+                part: "c",
+                reasoning: "Intersections: $x=0,2$; $2x \\ge x^2$.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                part: "c",
+                reasoning: "$\\int_0^2 (2x - x^2)\\,dx = [x^2 - \\frac{x^3}{3}]_0^2$.",
+                marks: 1,
+                markCode: "M",
+              },
+              { part: "c", reasoning: "$= 4 - \\frac{8}{3} = \\frac{4}{3}$.", marks: 1, markCode: "M" },
+              { part: "c", reasoning: "Area $= \\frac{4}{3}$.", marks: 1, markCode: "A" },
+              {
+                part: "d",
+                reasoning: "$V = \\pi \\int_0^2 x^2\\,dx$.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                part: "d",
+                reasoning: "$= \\pi [\\frac{x^3}{3}]_0^2 = \\frac{8\\pi}{3}$.",
+                marks: 1,
+                markCode: "M",
+              },
+              { part: "d", reasoning: "Correct.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "(a) ∫|f−g|dx (b) π∫f²dx (c) 4/3 (d) 8π/3",
+            commonErrors: ["Sign errors when curves cross."],
           },
         },
       ],

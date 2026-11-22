@@ -57,11 +57,11 @@ export const lesson12: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "To list every citation used" },
-              { id: "b", text: "To provide a concise summary of the study" },
+              { id: "b", text: "To define technical terms" },
               { id: "c", text: "To persuade readers emotionally" },
-              { id: "d", text: "To define technical terms" },
+              { id: "d", text: "To provide a concise summary of the study" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -173,12 +173,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "To provide a quotation" },
-              { id: "b", text: "To state the paragraph's main point" },
-              { id: "c", text: "To list all the evidence" },
-              { id: "d", text: "To summarise the whole report" },
+              { id: "a", text: "To list all the evidence" },
+              { id: "b", text: "To summarise the whole report" },
+              { id: "c", text: "To provide a quotation" },
+              { id: "d", text: "To state the paragraph's main point" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -201,11 +201,11 @@ export const lesson12: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Contrast" },
-              { id: "b", text: "Addition" },
+              { id: "b", text: "Concession" },
               { id: "c", text: "Cause and effect" },
-              { id: "d", text: "Concession" },
+              { id: "d", text: "Addition" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -233,12 +233,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Sentence 1" },
+              { id: "a", text: "All three equally" },
               { id: "b", text: "Sentence 2" },
               { id: "c", text: "Sentence 3" },
-              { id: "d", text: "All three equally" },
+              { id: "d", text: "Sentence 1" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -319,12 +319,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The sample was large" },
-              { id: "b", text: "The results were consistent across all schools" },
-              { id: "c", text: "The study had no limitations" },
-              { id: "d", text: "Validity was perfectly ensured" },
+              { id: "a", text: "The study had no limitations" },
+              { id: "b", text: "Validity was perfectly ensured" },
+              { id: "c", text: "The sample was large" },
+              { id: "d", text: "The results were consistent across all schools" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -431,10 +431,10 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "prove" },
+              { id: "a", text: "guess" },
               { id: "b", text: "suggest" },
               { id: "c", text: "shout" },
-              { id: "d", text: "guess" },
+              { id: "d", text: "prove" },
             ],
             correctChoiceId: "b",
           },
@@ -502,11 +502,11 @@ export const lesson12: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Certain proof" },
-              { id: "b", text: "Cautious, partial explanation" },
-              { id: "c", text: "Complete rejection of the idea" },
-              { id: "d", text: "A personal opinion" },
+              { id: "b", text: "A personal opinion" },
+              { id: "c", text: "Cautious, partial explanation" },
+              { id: "d", text: "Complete rejection of the idea" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -559,12 +559,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Whether the website looks modern" },
-              { id: "b", text: "Who produced it, why, and what evidence supports its claims" },
+              { id: "a", text: "Who produced it, why, and what evidence supports its claims" },
+              { id: "b", text: "Whether the website looks modern" },
               { id: "c", text: "Whether it uses long words" },
               { id: "d", text: "Whether it agrees with personal opinion" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -676,12 +676,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A company advertisement" },
-              { id: "b", text: "A peer-reviewed journal article" },
-              { id: "c", text: "An anonymous social media post" },
-              { id: "d", text: "A celebrity's personal blog" },
+              { id: "a", text: "An anonymous social media post" },
+              { id: "b", text: "A celebrity's personal blog" },
+              { id: "c", text: "A company advertisement" },
+              { id: "d", text: "A peer-reviewed journal article" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -703,12 +703,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It is too polite" },
-              { id: "b", text: "It does not name the experts or their findings" },
+              { id: "a", text: "It does not name the experts or their findings" },
+              { id: "b", text: "It is always false" },
               { id: "c", text: "It uses too few words" },
-              { id: "d", text: "It is always false" },
+              { id: "d", text: "It is too polite" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -736,10 +736,10 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "To inform neutral research" },
+              { id: "a", text: "To debate competitors" },
               { id: "b", text: "To persuade customers to buy the product" },
               { id: "c", text: "To criticise the product" },
-              { id: "d", text: "To debate competitors" },
+              { id: "d", text: "To inform neutral research" },
             ],
             correctChoiceId: "b",
           },
@@ -823,11 +823,11 @@ export const lesson12: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Citing a student's complaint" },
-              { id: "b", text: "Ignoring evidence that exams predict success and omitting alternatives" },
+              { id: "b", text: "Using the word 'unfair'" },
               { id: "c", text: "Discussing assessment at all" },
-              { id: "d", text: "Using the word 'unfair'" },
+              { id: "d", text: "Ignoring evidence that exams predict success and omitting alternatives" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -934,12 +934,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Does it use impressive vocabulary?" },
-              { id: "b", text: "What evidence does it provide, and does the method match the claim?" },
-              { id: "c", text: "Does it agree with what I already believe?" },
-              { id: "d", text: "Is it the longest source available?" },
+              { id: "a", text: "What evidence does it provide, and does the method match the claim?" },
+              { id: "b", text: "Does it use impressive vocabulary?" },
+              { id: "c", text: "Is it the longest source available?" },
+              { id: "d", text: "Does it agree with what I already believe?" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -1004,12 +1004,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It makes the source less credible" },
-              { id: "b", text: "It generally increases credibility by showing honesty" },
-              { id: "c", text: "It has no effect on credibility" },
+              { id: "a", text: "It has no effect on credibility" },
+              { id: "b", text: "It makes the source less credible" },
+              { id: "c", text: "It generally increases credibility by showing honesty" },
               { id: "d", text: "It proves the claim is false" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

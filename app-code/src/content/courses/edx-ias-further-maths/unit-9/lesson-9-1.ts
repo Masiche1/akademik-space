@@ -50,12 +50,12 @@ export const lesson91: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\sum\\frac{(O-E)^2}{E}$" },
-              { id: "b", text: "$\\sum(O-E)$" },
+              { id: "a", text: "$\\sum(O-E)$" },
+              { id: "b", text: "$\\sum\\frac{(O-E)^2}{E}$" },
               { id: "c", text: "$\\sum\\frac{O}{E}$" },
               { id: "d", text: "$\\sum(O+E)^2$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Chi-squared", statement: "$\\sum\\frac{(O-E)^2}{E}$." }],
@@ -166,12 +166,12 @@ export const lesson91: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$6$" },
-              { id: "b", text: "$12$" },
-              { id: "c", text: "$7$" },
+              { id: "a", text: "$7$" },
+              { id: "b", text: "$6$" },
+              { id: "c", text: "$12$" },
               { id: "d", text: "$2$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "df", statement: "$\\nu=(r-1)(c-1)=2\\times3=6$." }],

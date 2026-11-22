@@ -55,10 +55,10 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Praising your best performances" },
+              { id: "a", text: "Listing lines memorised" },
               { id: "b", text: "Analysing performance and process to identify improvement" },
               { id: "c", text: "Comparing yourself to famous actors" },
-              { id: "d", text: "Listing lines memorised" },
+              { id: "d", text: "Praising your best performances" },
             ],
             correctChoiceId: "b",
           },
@@ -156,12 +156,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Praising your best performances" },
-              { id: "b", text: "Honest analysis of performance and process to guide improvement" },
-              { id: "c", text: "Comparing yourself to famous actors" },
-              { id: "d", text: "Memorising lines faster" },
+              { id: "a", text: "Honest analysis of performance and process to guide improvement" },
+              { id: "b", text: "Praising your best performances" },
+              { id: "c", text: "Memorising lines faster" },
+              { id: "d", text: "Comparing yourself to famous actors" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -186,11 +186,11 @@ export const lesson62: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Only after the final performance" },
-              { id: "b", text: "During rehearsals and after performances" },
+              { id: "b", text: "Only in written examinations" },
               { id: "c", text: "Never" },
-              { id: "d", text: "Only in written examinations" },
+              { id: "d", text: "During rehearsals and after performances" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -214,12 +214,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Too specific" },
-              { id: "b", text: "Not actionable or measurable" },
-              { id: "c", text: "Too honest" },
-              { id: "d", text: "Written in the past tense" },
+              { id: "a", text: "Too honest" },
+              { id: "b", text: "Written in the past tense" },
+              { id: "c", text: "Too specific" },
+              { id: "d", text: "Not actionable or measurable" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -243,12 +243,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Proves they are famous" },
-              { id: "b", text: "Reveals progress that is invisible day to day" },
-              { id: "c", text: "Replaces rehearsal" },
-              { id: "d", text: "Measures ticket sales" },
+              { id: "a", text: "Measures ticket sales" },
+              { id: "b", text: "Replaces rehearsal" },
+              { id: "c", text: "Proves they are famous" },
+              { id: "d", text: "Reveals progress that is invisible day to day" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -272,12 +272,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Deletes the mistakes from memory" },
-              { id: "b", text: "Turns errors into analysable data for future improvement" },
-              { id: "c", text: "Hides weaknesses from others" },
+              { id: "a", text: "Turns errors into analysable data for future improvement" },
+              { id: "b", text: "Hides weaknesses from others" },
+              { id: "c", text: "Deletes the mistakes from memory" },
               { id: "d", text: "Avoids further rehearsal" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -301,12 +301,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A general feeling of pride" },
-              { id: "b", text: "One specific, actionable goal for the next performance" },
-              { id: "c", text: "A list of other actors' faults" },
-              { id: "d", text: "A summary of the plot" },
+              { id: "a", text: "One specific, actionable goal for the next performance" },
+              { id: "b", text: "A general feeling of pride" },
+              { id: "c", text: "A summary of the plot" },
+              { id: "d", text: "A list of other actors' faults" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -506,12 +506,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Only the best performances" },
-              { id: "b", text: "Theatrical growth across performance, analysis and production" },
-              { id: "c", text: "Drama theory knowledge" },
-              { id: "d", text: "Stage equipment" },
+              { id: "a", text: "Stage equipment" },
+              { id: "b", text: "Drama theory knowledge" },
+              { id: "c", text: "Only the best performances" },
+              { id: "d", text: "Theatrical growth across performance, analysis and production" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -608,11 +608,11 @@ export const lesson62: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Only ticket sales" },
-              { id: "b", text: "Productions, roles, directors and experiences" },
-              { id: "c", text: "The weather on show nights" },
-              { id: "d", text: "Other students' grades" },
+              { id: "b", text: "The weather on show nights" },
+              { id: "c", text: "Other students' grades" },
+              { id: "d", text: "Productions, roles, directors and experiences" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -636,12 +636,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Costume budgets" },
-              { id: "b", text: "Movement, gesture and stage presence" },
-              { id: "c", text: "The audience's ticket stubs" },
-              { id: "d", text: "Script font choices" },
+              { id: "a", text: "The audience's ticket stubs" },
+              { id: "b", text: "Script font choices" },
+              { id: "c", text: "Movement, gesture and stage presence" },
+              { id: "d", text: "Costume budgets" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -665,10 +665,10 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Only the single best performance" },
+              { id: "a", text: "Equipment manuals" },
               { id: "b", text: "Range and growth across different productions and roles" },
-              { id: "c", text: "Only theory essays" },
-              { id: "d", text: "Equipment manuals" },
+              { id: "c", text: "Only the single best performance" },
+              { id: "d", text: "Only theory essays" },
             ],
             correctChoiceId: "b",
           },
@@ -694,12 +694,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Replace performances entirely" },
-              { id: "b", text: "Show the thinking and learning behind the work" },
-              { id: "c", text: "Increase the running time" },
-              { id: "d", text: "Are easier to film" },
+              { id: "a", text: "Are easier to film" },
+              { id: "b", text: "Replace performances entirely" },
+              { id: "c", text: "Show the thinking and learning behind the work" },
+              { id: "d", text: "Increase the running time" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -723,12 +723,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Is required by law" },
-              { id: "b", text: "Allows growth to be tracked and work to be contextualised" },
-              { id: "c", text: "Makes files larger" },
-              { id: "d", text: "Hides poor performances" },
+              { id: "a", text: "Hides poor performances" },
+              { id: "b", text: "Makes files larger" },
+              { id: "c", text: "Is required by law" },
+              { id: "d", text: "Allows growth to be tracked and work to be contextualised" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -752,12 +752,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A photograph of the stage" },
-              { id: "b", text: "A direct comparison of early and recent performances of similar material" },
-              { id: "c", text: "A list of awards" },
-              { id: "d", text: "The newest costume" },
+              { id: "a", text: "A list of awards" },
+              { id: "b", text: "The newest costume" },
+              { id: "c", text: "A direct comparison of early and recent performances of similar material" },
+              { id: "d", text: "A photograph of the stage" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

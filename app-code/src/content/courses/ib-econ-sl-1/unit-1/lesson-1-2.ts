@@ -54,12 +54,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Money in a bank account" },
-              { id: "b", text: "A delivery truck" },
-              { id: "c", text: "A farmer's physical strength" },
-              { id: "d", text: "A plot of land" },
+              { id: "a", text: "A delivery truck" },
+              { id: "b", text: "A plot of land" },
+              { id: "c", text: "Money in a bank account" },
+              { id: "d", text: "A farmer's physical strength" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -154,8 +154,8 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Labour" },
-              { id: "b", text: "Capital" },
+              { id: "a", text: "Capital" },
+              { id: "b", text: "Labour" },
               { id: "c", text: "Land" },
               { id: "d", text: "Entrepreneurship" },
             ],
@@ -182,12 +182,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Land" },
-              { id: "b", text: "Labour" },
+              { id: "a", text: "Labour" },
+              { id: "b", text: "Land" },
               { id: "c", text: "Capital" },
               { id: "d", text: "Money" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -210,12 +210,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It is not scarce" },
-              { id: "b", text: "It is a medium of exchange and financing tool, not a resource used directly in production" },
-              { id: "c", text: "It earns no income for its owner" },
-              { id: "d", text: "It is produced by the government only" },
+              { id: "a", text: "It is produced by the government only" },
+              { id: "b", text: "It is not scarce" },
+              { id: "c", text: "It is a medium of exchange and financing tool, not a resource used directly in production" },
+              { id: "d", text: "It earns no income for its owner" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -338,8 +338,8 @@ export const lesson12: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Wages" },
-              { id: "b", text: "Rent" },
-              { id: "c", text: "Interest" },
+              { id: "b", text: "Interest" },
+              { id: "c", text: "Rent" },
               { id: "d", text: "Profit" },
             ],
             correctChoiceId: "d",
@@ -365,12 +365,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A fleet of new delivery trucks" },
-              { id: "b", text: "A workforce of trained and certified engineers" },
-              { id: "c", text: "A company's cash reserves in the bank" },
+              { id: "a", text: "A workforce of trained and certified engineers" },
+              { id: "b", text: "A company's cash reserves in the bank" },
+              { id: "c", text: "A fleet of new delivery trucks" },
               { id: "d", text: "A large plot of farmland" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -498,12 +498,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Full employment and productive efficiency" },
-              { id: "b", text: "Unemployed resources or productive inefficiency" },
+              { id: "a", text: "Unemployed resources or productive inefficiency" },
+              { id: "b", text: "Full employment and productive efficiency" },
               { id: "c", text: "An impossible level of output" },
               { id: "d", text: "Economic growth" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -601,12 +601,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Unemployed resources" },
-              { id: "b", text: "Full employment of resources and productive efficiency" },
-              { id: "c", text: "An unattainable combination of output" },
-              { id: "d", text: "Economic growth" },
+              { id: "a", text: "Economic growth" },
+              { id: "b", text: "An unattainable combination of output" },
+              { id: "c", text: "Unemployed resources" },
+              { id: "d", text: "Full employment of resources and productive efficiency" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -629,12 +629,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A rise in consumer prices" },
-              { id: "b", text: "Improved technology or an increase in resources" },
-              { id: "c", text: "A change in consumer preferences" },
+              { id: "a", text: "Improved technology or an increase in resources" },
+              { id: "b", text: "A change in consumer preferences" },
+              { id: "c", text: "A rise in consumer prices" },
               { id: "d", text: "Higher wages for workers" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -657,12 +657,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The market price of the goods" },
-              { id: "b", text: "The opportunity cost of producing one good in terms of the other" },
+              { id: "a", text: "The level of unemployment" },
+              { id: "b", text: "The market price of the goods" },
               { id: "c", text: "The rate of inflation" },
-              { id: "d", text: "The level of unemployment" },
+              { id: "d", text: "The opportunity cost of producing one good in terms of the other" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -832,12 +832,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A new labour-saving technology" },
+              { id: "a", text: "A major earthquake destroying factories and infrastructure" },
               { id: "b", text: "Inward migration of workers" },
-              { id: "c", text: "A major earthquake destroying factories and infrastructure" },
+              { id: "c", text: "A new labour-saving technology" },
               { id: "d", text: "Discovery of a large oil reserve" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [

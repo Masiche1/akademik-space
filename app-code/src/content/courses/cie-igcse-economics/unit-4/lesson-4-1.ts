@@ -71,12 +71,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Start writing immediately" },
-              { id: "b", text: "Read and interpret the stimulus carefully" },
-              { id: "c", text: "Skip to the last question" },
+              { id: "a", text: "Skip to the last question" },
+              { id: "b", text: "Start writing immediately" },
+              { id: "c", text: "Read and interpret the stimulus carefully" },
               { id: "d", text: "Memorise definitions" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -208,6 +208,449 @@ export const lesson41: Lesson = {
             ],
             finalAnswer:
               "Benefits → costs → context-dependence → qualified judgement",
+          },
+        },
+        {
+          id: "cieiec-u4-dr-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "In a data-response question, what does 'application' mean?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Writing about a different economy" },
+              { id: "b", text: "Using the stimulus material to support your answer" },
+              { id: "c", text: "Listing all definitions" },
+              { id: "d", text: "Rewriting the question" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Application",
+                statement: "Stimulus detail supports theory.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Application means using the given data, not generic theory.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer:
+              "Using the stimulus material to support your answer",
+          },
+        },
+        {
+          id: "cieiec-u4-dr-q6",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "A table shows a country's inflation rate rising from 2% to 6%. Name one piece of economic theory you could use to explain this and one question you could ask about the stimulus.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Stimulus reading",
+                statement: "Data points to the concept tested.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "Theory: demand-pull inflation — rising aggregate demand pushes prices up.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "Stimulus use: ask what drove demand — e.g. 'what caused aggregate demand to rise?' or check cost-push factors.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer:
+              "Demand-pull theory applied; probe what caused the demand rise",
+          },
+        },
+        {
+          id: "cieiec-u4-dr-q7",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "Stimulus: 'A government introduces a 20% tariff on imported steel.' Explain two likely effects on the domestic economy using economic theory.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Theory application",
+                statement: "Link concept to stimulus data.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "Protects domestic steel producers — higher-priced imports make local steel more competitive, raising output and jobs in that industry.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "Raises prices for steel-using industries (cars, construction), increasing costs and possibly reducing their competitiveness and employment.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "Both effects are applied to the 20% tariff on imported steel in the stimulus.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer:
+              "Protects domestic steel jobs but raises costs for steel users — applied to the tariff stimulus",
+          },
+        },
+        {
+          id: "cieiec-u4-dr-q8",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "A question asks: 'Discuss whether a devaluation of the currency will reduce a trade deficit.' Outline a four-point answer structure that would score highly.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Evaluation structure",
+                statement: "Benefits → costs → judgement.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "P1: benefit — cheaper exports and dearer imports should improve the trade balance via the Marshall-Lerner condition.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "P2: cost/limit — if demand for imports is price-inelastic, the deficit may worsen (J-curve effect in the short run).",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "P3: depends on context — effectiveness varies with export/import elasticities and the economy's structure.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "P4: judgement — 'likely to help over time if elasticities are favourable; may worsen the deficit short-term'.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer:
+              "Marshall-Lerner benefit → J-curve risk → elasticity dependence → qualified judgement",
+          },
+        },
+        {
+          id: "cieiec-u4-dr-q9",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "What is the main purpose of an 'extract' in an IGCSE Economics data-response question?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "To replace all theory questions" },
+              { id: "b", text: "To give the answers away" },
+              { id: "c", text: "To provide context and data for the questions" },
+              { id: "d", text: "To test spelling" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Stimulus first",
+                statement: "Extracts provide context.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "The extract supplies the case material the questions refer to.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer:
+              "To provide context and data for the questions",
+          },
+        },
+        {
+          id: "cieiec-u4-dr-q10",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "A graph shows a country's production possibility curve shifting outward. State what this indicates and one reason it might have happened, using the stimulus data.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Graph reading",
+                statement: "Curve shifts signal growth.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "An outward PPC shift indicates economic growth — the economy can produce more of both goods.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "Possible cause from stimulus: improved technology, more resources, or better productivity — e.g. 'new machinery raised output of both goods'.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer:
+              "Economic growth; caused by better technology, resources or productivity",
+          },
+        },
+        {
+          id: "cieiec-u4-dr-q11",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "Stimulus: 'A developing country receives foreign direct investment (FDI) of $2 billion.' Explain two likely economic benefits of FDI for the host country.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Theory application",
+                statement: "Link concept to stimulus data.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "Creates jobs — new factories and offices employ local workers, reducing unemployment.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "Transfers technology and skills — foreign firms bring know-how and training that raise productivity.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "Both benefits applied to the $2 billion FDI figure in the stimulus.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer:
+              "Job creation and technology transfer — applied to the FDI stimulus",
+          },
+        },
+        {
+          id: "cieiec-u4-dr-q12",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "A question asks: 'Evaluate the likely effects of a government raising income tax rates.' Outline a four-point answer structure that would score highly.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Evaluation structure",
+                statement: "Benefits → costs → judgement.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "P1: benefit — raises revenue for public services or to reduce a budget deficit.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "P2: cost — reduces disposable income, so consumption and aggregate demand may fall, hurting growth and jobs.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "P3: depends on context — impact varies with the tax rate level, progressivity and how revenue is spent.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "P4: judgement — 'useful for deficit reduction but risks slowing demand — effectiveness depends on rate and spending'.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer:
+              "Revenue benefit → demand cost → context-dependence → qualified judgement",
+          },
+        },
+        {
+          id: "cieiec-u4-dr-q13",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Which is the BEST way to start a 4-mark 'explain' question in a data-response section?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Copy the question" },
+              { id: "b", text: "Give a personal opinion" },
+              { id: "c", text: "Define the key term" },
+              { id: "d", text: "Describe the graph colours" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Structured answers",
+                statement: "Define then apply.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "Defining the key economic term shows knowledge before applying it to the stimulus.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "Define the key term",
+          },
+        },
+        {
+          id: "cieiec-u4-dr-q14",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "A table shows exports of $50 billion and imports of $70 billion. Calculate the trade balance and state what it indicates.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Stimulus reading",
+                statement: "Compute and interpret data.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "Trade balance = exports − imports = $50bn − $70bn = −$20bn (a deficit).",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "A negative balance indicates the country imports more than it exports — a trade deficit.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "−$20 billion — a trade deficit",
+          },
+        },
+        {
+          id: "cieiec-u4-dr-q15",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "Stimulus: 'A government cuts subsidies to public transport, and fares rise.' Explain two likely economic effects on households and the economy.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Theory application",
+                statement: "Link concept to stimulus data.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "Households face higher travel costs — reduced disposable income, especially for low-income commuters.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "Some passengers switch to cars, worsening congestion and pollution; others may cut spending, reducing aggregate demand.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "Both effects applied to the subsidy cut and fare rise described in the stimulus.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer:
+              "Higher costs for households and possible demand/congestion effects — applied to the stimulus",
+          },
+        },
+        {
+          id: "cieiec-u4-dr-q16",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "A question asks: 'To what extent should a government intervene in markets?' Outline a four-point answer structure that would score highly.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Evaluation structure",
+                statement: "Benefits → costs → judgement.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "P1: case for intervention — corrects market failures like pollution, monopoly power and under-provision of public goods.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "P2: case against — government failure, costly bureaucracy and distorted incentives can make outcomes worse.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "P3: depends on context — degree of market failure and government capacity determine whether intervention helps.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "P4: judgement — 'intervention is justified where market failure is severe, but limited where markets work well'.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer:
+              "Market-failure case → government-failure case → context-dependence → qualified judgement",
           },
         },
       ],

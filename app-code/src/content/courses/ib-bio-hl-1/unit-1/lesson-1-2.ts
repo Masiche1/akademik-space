@@ -54,12 +54,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Introns" },
-              { id: "b", text: "Exons" },
+              { id: "a", text: "The $5'$ cap" },
+              { id: "b", text: "Introns" },
               { id: "c", text: "The poly-A tail" },
-              { id: "d", text: "The $5'$ cap" },
+              { id: "d", text: "Exons" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -157,11 +157,11 @@ export const lesson12: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Provide the template for the poly-A tail" },
-              { id: "b", text: "Serve as the binding site for transcription factors and RNA polymerase II" },
+              { id: "b", text: "Be removed during splicing" },
               { id: "c", text: "Code for the amino acids of the polypeptide" },
-              { id: "d", text: "Be removed during splicing" },
+              { id: "d", text: "Serve as the binding site for transcription factors and RNA polymerase II" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -185,11 +185,11 @@ export const lesson12: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Exons" },
-              { id: "b", text: "The $5'$ cap" },
-              { id: "c", text: "Introns" },
+              { id: "b", text: "Introns" },
+              { id: "c", text: "The $5'$ cap" },
               { id: "d", text: "The start codon" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -212,12 +212,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Adds a template for translation of the last codon" },
-              { id: "b", text: "Protects the mRNA and helps ribosome initiation" },
-              { id: "c", text: "Removes introns from the transcript" },
-              { id: "d", text: "Pairs with the anticodon of tRNA" },
+              { id: "a", text: "Removes introns from the transcript" },
+              { id: "b", text: "Pairs with the anticodon of tRNA" },
+              { id: "c", text: "Protects the mRNA and helps ribosome initiation" },
+              { id: "d", text: "Adds a template for translation of the last codon" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -241,11 +241,11 @@ export const lesson12: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "It codes for a stretch of lysine amino acids" },
-              { id: "b", text: "It protects the $3'$ end and promotes nuclear export and translation" },
-              { id: "c", text: "It removes the introns during splicing" },
-              { id: "d", text: "It base-pairs with the DNA template strand" },
+              { id: "b", text: "It base-pairs with the DNA template strand" },
+              { id: "c", text: "It protects the $3'$ end and promotes nuclear export and translation" },
+              { id: "d", text: "It removes the introns during splicing" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -268,12 +268,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A ribozyme complex of snRNPs that removes introns" },
-              { id: "b", text: "The enzyme that adds the $5'$ cap" },
-              { id: "c", text: "The polymerase that transcribes DNA" },
-              { id: "d", text: "The protein that seals nicks in DNA" },
+              { id: "a", text: "The enzyme that adds the $5'$ cap" },
+              { id: "b", text: "The protein that seals nicks in DNA" },
+              { id: "c", text: "A ribozyme complex of snRNPs that removes introns" },
+              { id: "d", text: "The polymerase that transcribes DNA" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -487,9 +487,9 @@ export const lesson12: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "The A (aminoacyl) site" },
-              { id: "b", text: "The P (peptidyl) site" },
+              { id: "b", text: "The anticodon loop" },
               { id: "c", text: "The E (exit) site" },
-              { id: "d", text: "The anticodon loop" },
+              { id: "d", text: "The P (peptidyl) site" },
             ],
             correctChoiceId: "a",
           },
@@ -588,9 +588,9 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A site" },
+              { id: "a", text: "E site" },
               { id: "b", text: "P site" },
-              { id: "c", text: "E site" },
+              { id: "c", text: "A site" },
               { id: "d", text: "Anticodon loop" },
             ],
             correctChoiceId: "b",
@@ -616,12 +616,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A site" },
-              { id: "b", text: "P site" },
-              { id: "c", text: "E site" },
-              { id: "d", text: "Promoter" },
+              { id: "a", text: "Promoter" },
+              { id: "b", text: "E site" },
+              { id: "c", text: "A site" },
+              { id: "d", text: "P site" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -645,11 +645,11 @@ export const lesson12: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Parallel and identical" },
-              { id: "b", text: "Parallel and complementary" },
-              { id: "c", text: "Antiparallel and complementary" },
+              { id: "b", text: "Antiparallel and complementary" },
+              { id: "c", text: "Parallel and complementary" },
               { id: "d", text: "Antiparallel and identical" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -673,8 +673,8 @@ export const lesson12: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Fewer than 61 tRNA molecules can read all sense codons" },
-              { id: "b", text: "Every codon requires a different amino acid" },
-              { id: "c", text: "Stop codons are translated into amino acids" },
+              { id: "b", text: "Stop codons are translated into amino acids" },
+              { id: "c", text: "Every codon requires a different amino acid" },
               { id: "d", text: "mRNA is synthesised in the nucleus" },
             ],
             correctChoiceId: "a",
@@ -700,12 +700,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A release factor enters the A site instead of an aminoacyl-tRNA" },
-              { id: "b", text: "The mRNA is immediately degraded" },
-              { id: "c", text: "Helicase unwinds the ribosome" },
-              { id: "d", text: "The stop codon codes for methionine" },
+              { id: "a", text: "The stop codon codes for methionine" },
+              { id: "b", text: "A release factor enters the A site instead of an aminoacyl-tRNA" },
+              { id: "c", text: "The mRNA is immediately degraded" },
+              { id: "d", text: "Helicase unwinds the ribosome" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [

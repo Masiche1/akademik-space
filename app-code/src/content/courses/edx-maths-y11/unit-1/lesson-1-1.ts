@@ -53,12 +53,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$4n+1$" },
+              { id: "a", text: "$n+4$" },
               { id: "b", text: "$4n+5$" },
-              { id: "c", text: "$n+4$" },
-              { id: "d", text: "$5n-1$" },
+              { id: "c", text: "$5n-1$" },
+              { id: "d", text: "$4n+1$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Linear nth term", statement: "The nth term is $dn+c$ where $d$ is the common difference." }],
@@ -181,9 +181,9 @@ export const lesson11: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$210$" },
-              { id: "b", text: "$420$" },
+              { id: "b", text: "$105$" },
               { id: "c", text: "$195$" },
-              { id: "d", text: "$105$" },
+              { id: "d", text: "$420$" },
             ],
             correctChoiceId: "a",
           },

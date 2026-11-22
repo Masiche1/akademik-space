@@ -49,12 +49,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Directed toward equilibrium" },
-              { id: "b", text: "Directed away" },
-              { id: "c", text: "Constant" },
-              { id: "d", text: "Zero at centre" },
+              { id: "a", text: "Directed away" },
+              { id: "b", text: "Constant" },
+              { id: "c", text: "Zero at centre" },
+              { id: "d", text: "Directed toward equilibrium" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "SHM", statement: "$a=-\\omega^2x$ restoring." }],
@@ -168,12 +168,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Extension" },
-              { id: "b", text: "Length" },
+              { id: "a", text: "Length" },
+              { id: "b", text: "Extension" },
               { id: "c", text: "Mass" },
               { id: "d", text: "Time" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Hooke", statement: "$T\\propto x$ within elastic limit." }],

@@ -87,12 +87,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Entertainment for kings" },
-              { id: "b", text: "Religious rituals honouring Dionysus" },
-              { id: "c", text: "Military training" },
-              { id: "d", text: "Political campaigns" },
+              { id: "a", text: "Religious rituals honouring Dionysus" },
+              { id: "b", text: "Military training" },
+              { id: "c", text: "Political campaigns" },
+              { id: "d", text: "Entertainment for kings" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -306,15 +306,15 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Entertain royalty" },
               {
-                id: "b",
+                id: "a",
                 text: "Teach Christian doctrine to largely illiterate audiences",
               },
+              { id: "b", text: "Entertain royalty" },
               { id: "c", text: "Train actors for the Renaissance stage" },
               { id: "d", text: "Satirise political leaders" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -394,15 +394,15 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "Return to Greek tragedy" },
               {
-                id: "a",
+                id: "b",
                 text: "Portray life as it actually is — ordinary people and everyday problems",
               },
-              { id: "b", text: "Use song and spectacle" },
               { id: "c", text: "Break the fourth wall constantly" },
-              { id: "d", text: "Return to Greek tragedy" },
+              { id: "d", text: "Use song and spectacle" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -488,13 +488,13 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Clear moral lessons" },
+              { id: "a", text: "Musical entertainment" },
               {
                 id: "b",
                 text: "Life's meaninglessness through illogical, circular drama",
               },
               { id: "c", text: "Historical events realistically" },
-              { id: "d", text: "Musical entertainment" },
+              { id: "d", text: "Clear moral lessons" },
             ],
             correctChoiceId: "b",
           },
@@ -633,12 +633,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "William Shakespeare" },
-              { id: "b", text: "Bertolt Brecht" },
-              { id: "c", text: "Anton Chekhov" },
-              { id: "d", text: "Oscar Wilde" },
+              { id: "a", text: "Bertolt Brecht" },
+              { id: "b", text: "Oscar Wilde" },
+              { id: "c", text: "William Shakespeare" },
+              { id: "d", text: "Anton Chekhov" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -808,9 +808,9 @@ export const lesson23: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Realist techniques" },
-              { id: "b", text: "Absurdist techniques" },
+              { id: "b", text: "Medieval staging conventions" },
               { id: "c", text: "Epic theatre alienation effects" },
-              { id: "d", text: "Medieval staging conventions" },
+              { id: "d", text: "Absurdist techniques" },
             ],
             correctChoiceId: "c",
           },
@@ -943,12 +943,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Epic theatre" },
-              { id: "b", text: "Realism" },
-              { id: "c", text: "Absurdism" },
-              { id: "d", text: "Medieval mystery play" },
+              { id: "a", text: "Absurdism" },
+              { id: "b", text: "Medieval mystery play" },
+              { id: "c", text: "Realism" },
+              { id: "d", text: "Epic theatre" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1129,12 +1129,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "What the play is about" },
+              { id: "a", text: "Who directed the play" },
               {
                 id: "b",
                 text: "How the play's historical and cultural circumstances shape its meaning",
               },
-              { id: "c", text: "Who directed the play" },
+              { id: "c", text: "What the play is about" },
               { id: "d", text: "How long the play is" },
             ],
             correctChoiceId: "b",
@@ -1351,13 +1351,13 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The plot summary" },
+              { id: "a", text: "The theatre's seating plan" },
               {
                 id: "b",
                 text: "The historical and cultural circumstances that shape its meaning",
               },
-              { id: "c", text: "The actors' biographies" },
-              { id: "d", text: "The theatre's seating plan" },
+              { id: "c", text: "The plot summary" },
+              { id: "d", text: "The actors' biographies" },
             ],
             correctChoiceId: "b",
           },
@@ -1436,13 +1436,13 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Because they determine the cast" },
+              { id: "a", text: "They don't matter" },
               {
                 id: "b",
                 text: "Because reception shapes what the play could say and how it was understood",
               },
               { id: "c", text: "Because they set ticket prices" },
-              { id: "d", text: "They don't matter" },
+              { id: "d", text: "Because they determine the cast" },
             ],
             correctChoiceId: "b",
           },
@@ -1531,12 +1531,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Only the author's biography" },
+              { id: "a", text: "The theatre's architecture" },
               {
                 id: "b",
                 text: "The social, political and historical circumstances of its creation",
               },
-              { id: "c", text: "The theatre's architecture" },
+              { id: "c", text: "Only the author's biography" },
               { id: "d", text: "The actors' training" },
             ],
             correctChoiceId: "b",
@@ -1676,8 +1676,8 @@ export const lesson23: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Contextual engagement" },
-              { id: "b", text: "Genre subversion" },
-              { id: "c", text: "Dramatic irony" },
+              { id: "b", text: "Dramatic irony" },
+              { id: "c", text: "Genre subversion" },
               { id: "d", text: "Naturalistic staging" },
             ],
             correctChoiceId: "a",
@@ -1852,15 +1852,15 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Decide which plays are worth studying" },
               {
-                id: "b",
+                id: "a",
                 text: "Separate enduring human concerns from era-specific treatments",
               },
+              { id: "b", text: "Decide which plays are worth studying" },
               { id: "c", text: "Identify the playwright's nationality" },
               { id: "d", text: "Count the number of characters" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -1992,15 +1992,15 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Make plays longer" },
+              { id: "a", text: "Determine the ticket price" },
+              { id: "b", text: "Make plays longer" },
+              { id: "c", text: "Change the actors' performances" },
               {
-                id: "b",
+                id: "d",
                 text: "Reveal hidden meanings beneath surface content",
               },
-              { id: "c", text: "Change the actors' performances" },
-              { id: "d", text: "Determine the ticket price" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

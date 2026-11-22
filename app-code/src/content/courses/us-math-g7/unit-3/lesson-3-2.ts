@@ -53,12 +53,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$12\\ \\text{in.}^3$" },
+              { id: "a", text: "$60\\ \\text{in.}^3$" },
               { id: "b", text: "$47\\ \\text{in.}^3$" },
-              { id: "c", text: "$60\\ \\text{in.}^3$" },
-              { id: "d", text: "$94\\ \\text{in.}^3$" },
+              { id: "c", text: "$94\\ \\text{in.}^3$" },
+              { id: "d", text: "$12\\ \\text{in.}^3$" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -194,11 +194,11 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$3$ cm, $4$ cm, $8$ cm" },
-              { id: "b", text: "$5$ cm, $7$ cm, $10$ cm" },
+              { id: "b", text: "$6$ cm, $6$ cm, $13$ cm" },
               { id: "c", text: "$2$ cm, $3$ cm, $5$ cm" },
-              { id: "d", text: "$6$ cm, $6$ cm, $13$ cm" },
+              { id: "d", text: "$5$ cm, $7$ cm, $10$ cm" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

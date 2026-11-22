@@ -90,12 +90,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A list of three (triplet)" },
-              { id: "b", text: "A simile" },
+              { id: "a", text: "A simile" },
+              { id: "b", text: "A list of three (triplet)" },
               { id: "c", text: "Onomatopoeia" },
               { id: "d", text: "A soliloquy" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Triplet", statement: "A list of three gives rhythm and emphasis." }],
@@ -220,12 +220,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Cassius looks ambitious and dissatisfied" },
-              { id: "b", text: "Cassius is poor and starving" },
+              { id: "a", text: "Cassius is poor and starving" },
+              { id: "b", text: "Cassius looks ambitious and dissatisfied" },
               { id: "c", text: "Cassius is friendly and generous" },
               { id: "d", text: "Cassius is ill and weak" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Metaphorical hunger", statement: "Hunger suggests an appetite for power." }],

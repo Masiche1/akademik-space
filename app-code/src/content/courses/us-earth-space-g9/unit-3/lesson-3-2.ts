@@ -54,12 +54,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "About 1.2 times larger" },
-              { id: "b", text: "Exactly 2 times larger" },
-              { id: "c", text: "10 times larger" },
-              { id: "d", text: "100 times larger" },
+              { id: "a", text: "100 times larger" },
+              { id: "b", text: "10 times larger" },
+              { id: "c", text: "About 1.2 times larger" },
+              { id: "d", text: "Exactly 2 times larger" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -188,12 +188,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The mass of waste the person produces each year" },
-              { id: "b", text: "The area of productive land and water needed to supply the person's resources and absorb their waste" },
-              { id: "c", text: "The number of trees the person plants" },
-              { id: "d", text: "The size of the person's home" },
+              { id: "a", text: "The size of the person's home" },
+              { id: "b", text: "The number of trees the person plants" },
+              { id: "c", text: "The mass of waste the person produces each year" },
+              { id: "d", text: "The area of productive land and water needed to supply the person's resources and absorb their waste" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

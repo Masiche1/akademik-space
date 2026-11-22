@@ -46,11 +46,11 @@ export const lesson12: Lesson = {
           totalMarks: 2,
           stem: "Solve $A=\\frac{1}{2}bh$ for $h$.",
           response: { type: "mcq", choices: [
-            { id: "a", text: "$h=\\frac{A}{2b}$" },
-            { id: "b", text: "$h=\\frac{2A}{b}$" },
-            { id: "c", text: "$h=2Ab$" },
-            { id: "d", text: "$h=\\frac{b}{2A}$" },
-          ], correctChoiceId: "b" },
+            { id: "a", text: "$h=\\frac{2A}{b}$" },
+            { id: "b", text: "$h=\\frac{b}{2A}$" },
+            { id: "c", text: "$h=\\frac{A}{2b}$" },
+            { id: "d", text: "$h=2Ab$" },
+          ], correctChoiceId: "a" },
           markscheme: {
             principles: [
               { kind: "property", name: "Properties of equality", statement: "Multiplying both sides by the same nonzero quantity preserves equality." },
@@ -172,8 +172,8 @@ export const lesson12: Lesson = {
           totalMarks: 2,
           stem: "A car travels at $60$ miles per hour for $2$ hours. Using $d=rt$, which expression gives the distance and what is its unit?",
           response: { type: "mcq", choices: [
-            { id: "a", text: "$60+2=62$ miles" },
-            { id: "b", text: "$60\\div2=30$ miles" },
+            { id: "a", text: "$60\\div2=30$ miles" },
+            { id: "b", text: "$60+2=62$ miles" },
             { id: "c", text: "$60\\cdot2=120$ miles" },
             { id: "d", text: "$2\\div60=\\frac{1}{30}$ hours" },
           ], correctChoiceId: "c" },

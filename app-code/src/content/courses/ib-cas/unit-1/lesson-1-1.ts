@@ -53,10 +53,10 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Playing football" },
+              { id: "a", text: "Running a marathon" },
               { id: "b", text: "Composing a piece of music" },
               { id: "c", text: "Volunteering at a shelter" },
-              { id: "d", text: "Running a marathon" },
+              { id: "d", text: "Playing football" },
             ],
             correctChoiceId: "b",
           },
@@ -149,11 +149,11 @@ export const lesson11: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Playing chess competitively" },
-              { id: "b", text: "Volunteering unpaid at a community kitchen" },
-              { id: "c", text: "Learning pottery" },
-              { id: "d", text: "Running a 10k race" },
+              { id: "b", text: "Running a 10k race" },
+              { id: "c", text: "Volunteering unpaid at a community kitchen" },
+              { id: "d", text: "Learning pottery" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -175,12 +175,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Watching theatre performances" },
-              { id: "b", text: "Buying art supplies" },
-              { id: "c", text: "Expressing original ideas through art, craft or creative thinking" },
-              { id: "d", text: "Attending art classes passively" },
+              { id: "a", text: "Buying art supplies" },
+              { id: "b", text: "Watching theatre performances" },
+              { id: "c", text: "Attending art classes passively" },
+              { id: "d", text: "Expressing original ideas through art, craft or creative thinking" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -203,12 +203,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It is enjoyable" },
-              { id: "b", text: "It does not by itself — creativity requires original expression, not just consumption" },
-              { id: "c", text: "It is an art form" },
-              { id: "d", text: "It takes a long time" },
+              { id: "a", text: "It is an art form" },
+              { id: "b", text: "It takes a long time" },
+              { id: "c", text: "It does not by itself — creativity requires original expression, not just consumption" },
+              { id: "d", text: "It is enjoyable" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -230,10 +230,10 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Activity only" },
+              { id: "a", text: "Service only" },
               { id: "b", text: "Activity and service" },
-              { id: "c", text: "Creativity only" },
-              { id: "d", text: "Service only" },
+              { id: "c", text: "Activity only" },
+              { id: "d", text: "Creativity only" },
             ],
             correctChoiceId: "b",
           },
@@ -258,11 +258,11 @@ export const lesson11: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "The IB simply demands it" },
-              { id: "b", text: "Each strand develops different attributes: imagination, health and empathy" },
+              { id: "b", text: "It simplifies assessment" },
               { id: "c", text: "To fill the timetable" },
-              { id: "d", text: "It simplifies assessment" },
+              { id: "d", text: "Each strand develops different attributes: imagination, health and empathy" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -285,11 +285,11 @@ export const lesson11: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Composing a song" },
-              { id: "b", text: "Writing a short story" },
-              { id: "c", text: "Playing football" },
+              { id: "b", text: "Playing football" },
+              { id: "c", text: "Writing a short story" },
               { id: "d", text: "Designing a poster" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -497,10 +497,10 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It involves sport" },
+              { id: "a", text: "It is social" },
               { id: "b", text: "It does not — you must participate physically" },
-              { id: "c", text: "It is outdoors" },
-              { id: "d", text: "It is social" },
+              { id: "c", text: "It involves sport" },
+              { id: "d", text: "It is outdoors" },
             ],
             correctChoiceId: "b",
           },
@@ -593,11 +593,11 @@ export const lesson11: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Tennis is a team sport" },
-              { id: "b", text: "Activity requires physical participation, not passive observation" },
-              { id: "c", text: "Watching TV is indoors" },
+              { id: "b", text: "Watching TV is indoors" },
+              { id: "c", text: "Activity requires physical participation, not passive observation" },
               { id: "d", text: "Weekly play is enough on its own" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -619,12 +619,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Yes — attendance shows commitment" },
-              { id: "b", text: "No — you must actively create, not just observe" },
+              { id: "a", text: "Only if the student is paid" },
+              { id: "b", text: "Yes — attendance shows commitment" },
               { id: "c", text: "Yes — drama is a creative subject" },
-              { id: "d", text: "Only if the student is paid" },
+              { id: "d", text: "No — you must actively create, not just observe" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -646,10 +646,10 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It helps the community" },
+              { id: "a", text: "Charity shops are always service" },
               { id: "b", text: "It does not — service must be unpaid" },
               { id: "c", text: "It is done weekly" },
-              { id: "d", text: "Charity shops are always service" },
+              { id: "d", text: "It helps the community" },
             ],
             correctChoiceId: "b",
           },
@@ -673,12 +673,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Solo jogging" },
-              { id: "b", text: "Organising a charity concert" },
-              { id: "c", text: "Reading a novel" },
-              { id: "d", text: "Paying household bills" },
+              { id: "a", text: "Organising a charity concert" },
+              { id: "b", text: "Paying household bills" },
+              { id: "c", text: "Solo jogging" },
+              { id: "d", text: "Reading a novel" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -701,8 +701,8 @@ export const lesson11: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Whether it is enjoyable" },
-              { id: "b", text: "Whether it is regular" },
-              { id: "c", text: "Whether it appears on a list of approved activities" },
+              { id: "b", text: "Whether it appears on a list of approved activities" },
+              { id: "c", text: "Whether it is regular" },
               { id: "d", text: "Whether it genuinely meets the strand criteria through your active participation" },
             ],
             correctChoiceId: "d",
@@ -728,11 +728,11 @@ export const lesson11: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Doing as many activities as possible" },
-              { id: "b", text: "Sustained regular engagement matters more than sporadic variety" },
-              { id: "c", text: "Only doing one strand deeply" },
-              { id: "d", text: "Avoiding all challenges" },
+              { id: "b", text: "Avoiding all challenges" },
+              { id: "c", text: "Sustained regular engagement matters more than sporadic variety" },
+              { id: "d", text: "Only doing one strand deeply" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

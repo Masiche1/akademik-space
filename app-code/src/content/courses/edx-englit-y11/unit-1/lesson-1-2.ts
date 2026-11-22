@@ -56,8 +56,8 @@ export const lesson12: Lesson = {
             choices: [
               { id: "a", text: "Owning a small farm where they can be independent and live off their own land" },
               { id: "b", text: "Becoming wealthy by gambling on the ranch" },
-              { id: "c", text: "Travelling across the country to find better paid work" },
-              { id: "d", text: "Taking over the ranch from the boss" },
+              { id: "c", text: "Taking over the ranch from the boss" },
+              { id: "d", text: "Travelling across the country to find better paid work" },
             ],
             correctChoiceId: "a",
           },
@@ -183,12 +183,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "1914" },
-              { id: "b", text: "1929" },
-              { id: "c", text: "1937" },
-              { id: "d", text: "1945" },
+              { id: "a", text: "1929" },
+              { id: "b", text: "1937" },
+              { id: "c", text: "1945" },
+              { id: "d", text: "1914" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "context", name: "Wall Street Crash", statement: "The stock market collapsed in 1929, beginning the Great Depression." }],

@@ -55,11 +55,11 @@ export const lesson22: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "As price rises, quantity supplied falls" },
-              { id: "b", text: "As price rises, quantity supplied rises" },
-              { id: "c", text: "As price rises, supply shifts left" },
-              { id: "d", text: "As price rises, demand falls" },
+              { id: "b", text: "As price rises, supply shifts left" },
+              { id: "c", text: "As price rises, demand falls" },
+              { id: "d", text: "As price rises, quantity supplied rises" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -153,11 +153,11 @@ export const lesson22: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Quantity supplied rises" },
-              { id: "b", text: "Quantity supplied falls" },
-              { id: "c", text: "Supply shifts to the right" },
-              { id: "d", text: "Demand shifts to the left" },
+              { id: "b", text: "Demand shifts to the left" },
+              { id: "c", text: "Quantity supplied falls" },
+              { id: "d", text: "Supply shifts to the right" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -180,10 +180,10 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A change in production costs" },
+              { id: "a", text: "A change in the number of sellers" },
               { id: "b", text: "A change in the good's own price" },
-              { id: "c", text: "A change in technology" },
-              { id: "d", text: "A change in the number of sellers" },
+              { id: "c", text: "A change in production costs" },
+              { id: "d", text: "A change in technology" },
             ],
             correctChoiceId: "b",
           },
@@ -208,12 +208,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A rise in raw material costs" },
-              { id: "b", text: "An improvement in technology" },
-              { id: "c", text: "A change in the good's own price" },
-              { id: "d", text: "The entry of new firms into the market" },
+              { id: "a", text: "The entry of new firms into the market" },
+              { id: "b", text: "A rise in raw material costs" },
+              { id: "c", text: "An improvement in technology" },
+              { id: "d", text: "A change in the good's own price" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -237,11 +237,11 @@ export const lesson22: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Shift to the right" },
-              { id: "b", text: "Shift to the left" },
-              { id: "c", text: "Become steeper" },
+              { id: "b", text: "Become steeper" },
+              { id: "c", text: "Shift to the left" },
               { id: "d", text: "Not change" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -265,11 +265,11 @@ export const lesson22: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Supply increases as producers rush to sell" },
-              { id: "b", text: "Supply decreases as producers wait for higher prices" },
-              { id: "c", text: "No effect on supply" },
+              { id: "b", text: "No effect on supply" },
+              { id: "c", text: "Supply decreases as producers wait for higher prices" },
               { id: "d", text: "Demand shifts to the right" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -507,10 +507,10 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Shift the supply curve to the left" },
+              { id: "a", text: "Shift the demand curve to the right" },
               { id: "b", text: "Shift the supply curve to the right" },
               { id: "c", text: "Cause a movement up along the supply curve" },
-              { id: "d", text: "Shift the demand curve to the right" },
+              { id: "d", text: "Shift the supply curve to the left" },
             ],
             correctChoiceId: "b",
           },
@@ -606,12 +606,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Shift to the right" },
-              { id: "b", text: "Shift to the left" },
+              { id: "a", text: "Become flatter" },
+              { id: "b", text: "Shift to the right" },
               { id: "c", text: "Remain unchanged" },
-              { id: "d", text: "Become flatter" },
+              { id: "d", text: "Shift to the left" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -634,12 +634,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Shift to the left" },
-              { id: "b", text: "Shift to the right" },
-              { id: "c", text: "Become steeper" },
+              { id: "a", text: "Become steeper" },
+              { id: "b", text: "Shift to the left" },
+              { id: "c", text: "Shift to the right" },
               { id: "d", text: "Shift the demand curve instead" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -662,10 +662,10 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Shift to the left" },
+              { id: "a", text: "Become vertical" },
               { id: "b", text: "Shift to the right" },
               { id: "c", text: "Not change" },
-              { id: "d", text: "Become vertical" },
+              { id: "d", text: "Shift to the left" },
             ],
             correctChoiceId: "b",
           },
@@ -690,12 +690,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Supply increases as producers produce more" },
-              { id: "b", text: "Supply decreases as output is withheld" },
-              { id: "c", text: "No effect on supply" },
-              { id: "d", text: "Demand shifts to the left" },
+              { id: "a", text: "No effect on supply" },
+              { id: "b", text: "Supply increases as producers produce more" },
+              { id: "c", text: "Demand shifts to the left" },
+              { id: "d", text: "Supply decreases as output is withheld" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -718,12 +718,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Increase as wheat becomes relatively cheaper to grow" },
-              { id: "b", text: "Decrease as resources switch to barley" },
-              { id: "c", text: "Not change" },
-              { id: "d", text: "Shift to the right" },
+              { id: "a", text: "Decrease as resources switch to barley" },
+              { id: "b", text: "Increase as wheat becomes relatively cheaper to grow" },
+              { id: "c", text: "Shift to the right" },
+              { id: "d", text: "Not change" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

@@ -53,12 +53,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Speed" },
-              { id: "b", text: "Distance" },
-              { id: "c", text: "Velocity" },
-              { id: "d", text: "Time" },
+              { id: "a", text: "Time" },
+              { id: "b", text: "Speed" },
+              { id: "c", text: "Distance" },
+              { id: "d", text: "Velocity" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -192,11 +192,11 @@ export const lesson11: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Acceleration" },
-              { id: "b", text: "Speed" },
-              { id: "c", text: "Distance travelled" },
-              { id: "d", text: "Time taken" },
+              { id: "b", text: "Time taken" },
+              { id: "c", text: "Speed" },
+              { id: "d", text: "Distance travelled" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

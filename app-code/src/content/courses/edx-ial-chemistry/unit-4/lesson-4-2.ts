@@ -50,12 +50,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Most abundant fragment" },
-              { id: "b", text: "Molecular mass" },
+              { id: "a", text: "Molecular mass" },
+              { id: "b", text: "Most abundant fragment" },
               { id: "c", text: "Number of carbons" },
               { id: "d", text: "Functional groups" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Molecular ion", statement: "Intact molecule ionised." }],
@@ -71,12 +71,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "~1700 cm⁻¹" },
-              { id: "b", text: "~3300 cm⁻¹" },
-              { id: "c", text: "~2200 cm⁻¹" },
-              { id: "d", text: "~1400 cm⁻¹" },
+              { id: "a", text: "~1400 cm⁻¹" },
+              { id: "b", text: "~2200 cm⁻¹" },
+              { id: "c", text: "~1700 cm⁻¹" },
+              { id: "d", text: "~3300 cm⁻¹" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "IR", statement: "O–H ~3200-3600 cm⁻¹." }],
@@ -170,10 +170,10 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Mass of compound" },
+              { id: "a", text: "Melting point" },
               { id: "b", text: "Distance ratio in chromatography" },
               { id: "c", text: "pH of solution" },
-              { id: "d", text: "Melting point" },
+              { id: "d", text: "Mass of compound" },
             ],
             correctChoiceId: "b",
           },

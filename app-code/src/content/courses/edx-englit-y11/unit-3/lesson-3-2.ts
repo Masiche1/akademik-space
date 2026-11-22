@@ -54,12 +54,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Steinbeck presents dreams as essential for survival but doomed by an unequal society, using the farm as a fragile symbol of hope." },
-              { id: "b", text: "In this essay I am going to write about dreams in Of Mice and Men." },
-              { id: "c", text: "Dreams are mentioned many times in the book." },
-              { id: "d", text: "George and Lennie have a dream about a farm and rabbits." },
+              { id: "a", text: "In this essay I am going to write about dreams in Of Mice and Men." },
+              { id: "b", text: "Dreams are mentioned many times in the book." },
+              { id: "c", text: "George and Lennie have a dream about a farm and rabbits." },
+              { id: "d", text: "Steinbeck presents dreams as essential for survival but doomed by an unequal society, using the farm as a fragile symbol of hope." },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "skill", name: "Thesis", statement: "A thesis takes an arguable position and previews the line of argument." }],
@@ -187,12 +187,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "'Alternatively, this could suggest...'" },
-              { id: "b", text: "'Obviously, the writer means...'" },
-              { id: "c", text: "'The only possible meaning is...'" },
-              { id: "d", text: "'Everybody agrees that...'" },
+              { id: "a", text: "'Everybody agrees that...'" },
+              { id: "b", text: "'The only possible meaning is...'" },
+              { id: "c", text: "'Obviously, the writer means...'" },
+              { id: "d", text: "'Alternatively, this could suggest...'" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "skill", name: "Tentative language", statement: "Open, exploratory phrasing allows for more than one reading." }],

@@ -81,12 +81,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\dfrac13\\arctan\\dfrac x3+C$" },
-              { id: "b", text: "$\\arctan\\dfrac x3+C$" },
-              { id: "c", text: "$\\dfrac19\\arctan\\dfrac x3+C$" },
-              { id: "d", text: "$3\\arctan\\dfrac x3+C$" },
+              { id: "a", text: "$\\arctan\\dfrac x3+C$" },
+              { id: "b", text: "$3\\arctan\\dfrac x3+C$" },
+              { id: "c", text: "$\\dfrac13\\arctan\\dfrac x3+C$" },
+              { id: "d", text: "$\\dfrac19\\arctan\\dfrac x3+C$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -366,9 +366,9 @@ export const lesson61: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$\\dfrac14\\arctan\\dfrac x4+C$" },
-              { id: "b", text: "$4\\arctan\\dfrac x4+C$" },
+              { id: "b", text: "$\\arctan 4x+C$" },
               { id: "c", text: "$\\dfrac1{16}\\arctan\\dfrac x4+C$" },
-              { id: "d", text: "$\\arctan 4x+C$" },
+              { id: "d", text: "$4\\arctan\\dfrac x4+C$" },
             ],
             correctChoiceId: "a",
           },
@@ -411,12 +411,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\arcsin\\dfrac x5+C$" },
-              { id: "b", text: "$\\dfrac15\\arcsin 5x+C$" },
-              { id: "c", text: "$\\arcsin 5x+C$" },
-              { id: "d", text: "$5\\arcsin\\dfrac x5+C$" },
+              { id: "a", text: "$\\arcsin 5x+C$" },
+              { id: "b", text: "$5\\arcsin\\dfrac x5+C$" },
+              { id: "c", text: "$\\dfrac15\\arcsin 5x+C$" },
+              { id: "d", text: "$\\arcsin\\dfrac x5+C$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -457,12 +457,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\dfrac16(x^4+1)^{3/2}+C$" },
-              { id: "b", text: "$\\dfrac14(x^4+1)^{3/2}+C$" },
+              { id: "a", text: "$\\dfrac12(x^4+1)^{3/2}+C$" },
+              { id: "b", text: "$\\dfrac16(x^4+1)^{3/2}+C$" },
               { id: "c", text: "$\\dfrac16(x^4+1)^{1/2}+C$" },
-              { id: "d", text: "$\\dfrac12(x^4+1)^{3/2}+C$" },
+              { id: "d", text: "$\\dfrac14(x^4+1)^{3/2}+C$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -661,8 +661,8 @@ export const lesson61: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$\\dfrac16\\arctan\\dfrac{3x}{2}+C$" },
-              { id: "b", text: "$\\dfrac14\\arctan\\dfrac{3x}{2}+C$" },
-              { id: "c", text: "$\\dfrac16\\arctan\\dfrac{2x}{3}+C$" },
+              { id: "b", text: "$\\dfrac16\\arctan\\dfrac{2x}{3}+C$" },
+              { id: "c", text: "$\\dfrac14\\arctan\\dfrac{3x}{2}+C$" },
               { id: "d", text: "$6\\arctan\\dfrac{3x}{2}+C$" },
             ],
             correctChoiceId: "a",
@@ -707,12 +707,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\dfrac\\pi4$" },
+              { id: "a", text: "$1$" },
               { id: "b", text: "$\\dfrac\\pi2$" },
-              { id: "c", text: "$1$" },
-              { id: "d", text: "$\\dfrac\\pi8$" },
+              { id: "c", text: "$\\dfrac\\pi8$" },
+              { id: "d", text: "$\\dfrac\\pi4$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1197,12 +1197,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$(x-1)e^x+C$" },
-              { id: "b", text: "$(x+1)e^x+C$" },
-              { id: "c", text: "$\\dfrac{x^2}{2}e^x+C$" },
+              { id: "a", text: "$\\dfrac{x^2}{2}e^x+C$" },
+              { id: "b", text: "$(x-1)e^x+C$" },
+              { id: "c", text: "$(x+1)e^x+C$" },
               { id: "d", text: "$xe^x-e^x-x+C$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1505,9 +1505,9 @@ export const lesson61: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$x\\sin x+\\cos x+C$" },
-              { id: "b", text: "$x\\sin x-\\cos x+C$" },
-              { id: "c", text: "$-x\\cos x+\\sin x+C$" },
-              { id: "d", text: "$x\\cos x-\\sin x+C$" },
+              { id: "b", text: "$-x\\cos x+\\sin x+C$" },
+              { id: "c", text: "$x\\cos x-\\sin x+C$" },
+              { id: "d", text: "$x\\sin x-\\cos x+C$" },
             ],
             correctChoiceId: "a",
           },
@@ -1550,9 +1550,9 @@ export const lesson61: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$x\\ln x-x+C$" },
-              { id: "b", text: "$x\\ln x+x+C$" },
+              { id: "b", text: "$x\\ln x-1+C$" },
               { id: "c", text: "$\\frac{(\\ln x)^2}{2}+C$" },
-              { id: "d", text: "$x\\ln x-1+C$" },
+              { id: "d", text: "$x\\ln x+x+C$" },
             ],
             correctChoiceId: "a",
           },
@@ -1641,12 +1641,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\pi$" },
+              { id: "a", text: "$\\frac{\\pi}{2}$" },
               { id: "b", text: "$0$" },
-              { id: "c", text: "$2\\pi$" },
-              { id: "d", text: "$\\frac{\\pi}{2}$" },
+              { id: "c", text: "$\\pi$" },
+              { id: "d", text: "$2\\pi$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1687,12 +1687,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\frac{\\pi}{2}-1$" },
-              { id: "b", text: "$1-\\frac{\\pi}{2}$" },
-              { id: "c", text: "$\\frac{\\pi}{2}+1$" },
-              { id: "d", text: "$1$" },
+              { id: "a", text: "$\\frac{\\pi}{2}+1$" },
+              { id: "b", text: "$\\frac{\\pi}{2}-1$" },
+              { id: "c", text: "$1$" },
+              { id: "d", text: "$1-\\frac{\\pi}{2}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1780,12 +1780,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\frac{e^x}{2}(\\sin x-\\cos x)+C$" },
-              { id: "b", text: "$\\frac{e^x}{2}(\\sin x+\\cos x)+C$" },
-              { id: "c", text: "$e^x(\\sin x-\\cos x)+C$" },
-              { id: "d", text: "$\\frac{e^x}{2}(\\cos x-\\sin x)+C$" },
+              { id: "a", text: "$e^x(\\sin x-\\cos x)+C$" },
+              { id: "b", text: "$\\frac{e^x}{2}(\\sin x-\\cos x)+C$" },
+              { id: "c", text: "$\\frac{e^x}{2}(\\cos x-\\sin x)+C$" },
+              { id: "d", text: "$\\frac{e^x}{2}(\\sin x+\\cos x)+C$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [

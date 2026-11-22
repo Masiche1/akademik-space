@@ -49,12 +49,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Oxygen" },
-              { id: "b", text: "Carbon dioxide" },
-              { id: "c", text: "Nitrogen" },
-              { id: "d", text: "Hydrogen" },
+              { id: "a", text: "Hydrogen" },
+              { id: "b", text: "Nitrogen" },
+              { id: "c", text: "Oxygen" },
+              { id: "d", text: "Carbon dioxide" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -145,12 +145,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Chlorophyll" },
-              { id: "b", text: "Haemoglobin" },
-              { id: "c", text: "Melanin" },
+              { id: "a", text: "Haemoglobin" },
+              { id: "b", text: "Melanin" },
+              { id: "c", text: "Chlorophyll" },
               { id: "d", text: "Keratin" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -171,12 +171,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Chloroplast" },
-              { id: "b", text: "Mitochondrion" },
-              { id: "c", text: "Nucleus" },
-              { id: "d", text: "Vacuole" },
+              { id: "a", text: "Mitochondrion" },
+              { id: "b", text: "Vacuole" },
+              { id: "c", text: "Chloroplast" },
+              { id: "d", text: "Nucleus" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -197,12 +197,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Another factor, such as CO₂ or temperature, has become limiting" },
-              { id: "b", text: "Chlorophyll is destroyed" },
-              { id: "c", text: "The leaf stops absorbing light" },
-              { id: "d", text: "Oxygen production stops the reaction" },
+              { id: "a", text: "The leaf stops absorbing light" },
+              { id: "b", text: "Oxygen production stops the reaction" },
+              { id: "c", text: "Chlorophyll is destroyed" },
+              { id: "d", text: "Another factor, such as CO₂ or temperature, has become limiting" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -223,12 +223,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Waxy cuticle" },
-              { id: "b", text: "Stomata" },
+              { id: "a", text: "Stomata" },
+              { id: "b", text: "Palisade layer" },
               { id: "c", text: "Veins" },
-              { id: "d", text: "Palisade layer" },
+              { id: "d", text: "Waxy cuticle" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -249,12 +249,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "To allow gas exchange while reducing water loss" },
-              { id: "b", text: "To absorb more sunlight" },
-              { id: "c", text: "To store glucose" },
-              { id: "d", text: "To anchor the leaf to the stem" },
+              { id: "a", text: "To absorb more sunlight" },
+              { id: "b", text: "To anchor the leaf to the stem" },
+              { id: "c", text: "To allow gas exchange while reducing water loss" },
+              { id: "d", text: "To store glucose" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -453,12 +453,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Magnesium" },
-              { id: "b", text: "Nitrate" },
-              { id: "c", text: "Calcium" },
-              { id: "d", text: "Potassium" },
+              { id: "a", text: "Nitrate" },
+              { id: "b", text: "Potassium" },
+              { id: "c", text: "Magnesium" },
+              { id: "d", text: "Calcium" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -537,6 +537,284 @@ export const lesson31: Lesson = {
             ],
             finalAnswer: "(a) Mg presence / growth (b) chlorosis + stunting (c) Mg→chlorophyll→photosynthesis→growth chain",
             commonErrors: ["Predicting identical plants — the whole point is the deficiency effect."],
+          },
+        },
+        {
+          id: "cieb-u3-plant-minerals-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Which mineral ion is needed to make amino acids and proteins in plants?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Potassium" },
+              { id: "b", text: "Magnesium" },
+              { id: "c", text: "Calcium" },
+              { id: "d", text: "Nitrate" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Nitrate function", statement: "Needed to make amino acids and proteins." },
+            ],
+            steps: [
+              { reasoning: "Match mineral to function.", working: "\\text{nitrate} \\to \\text{amino acids/protein}", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** Nitrate",
+            commonErrors: ["Choosing magnesium — that is for chlorophyll."],
+          },
+        },
+        {
+          id: "cieb-u3-plant-minerals-q6",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Yellowing between the leaf veins (interveinal chlorosis) is a symptom of deficiency of which ion?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Magnesium" },
+              { id: "b", text: "Nitrate" },
+              { id: "c", text: "Potassium" },
+              { id: "d", text: "Phosphate" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Interveinal chlorosis", statement: "Classic magnesium deficiency symptom." },
+            ],
+            steps: [
+              { reasoning: "Link symptom to mineral.", working: "\\text{interveinal chlorosis} \\to \\text{Mg}^{2+}", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** Magnesium",
+            commonErrors: ["Choosing nitrate — nitrate deficiency yellows older leaves generally, not between veins."],
+          },
+        },
+        {
+          id: "cieb-u3-plant-minerals-q7",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Nitrate deficiency causes yellowing of OLDER leaves first because:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Magnesium is concentrated in old leaves" },
+              { id: "b", text: "Older leaves absorb more light" },
+              { id: "c", text: "Roots cannot absorb nitrate" },
+              { id: "d", text: "Nitrogen is mobile and is moved from older to younger leaves" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Nitrogen mobility", statement: "Nitrate is mobile; remobilised to new growth, starving old leaves." },
+            ],
+            steps: [
+              { reasoning: "Recall mobility of nitrogen.", working: "\\text{mobile} \\to \\text{older leaves first}", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** Nitrogen is mobile and is moved from older to younger leaves",
+            commonErrors: ["Saying 'roots cannot absorb it' — the plant lacks nitrate in the soil/fertiliser, not uptake ability."],
+          },
+        },
+        {
+          id: "cieb-u3-plant-minerals-q8",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "A fertiliser contains 15 g of material, of which 20% is nitrate ions by mass. Calculate the mass of nitrate ions present.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 3, unit: "g" }],
+          },
+          markscheme: {
+            principles: [
+              { kind: "formula", name: "Percentage composition", statement: "$\\text{mass of part} = \\text{total} \\times \\dfrac{\\%}{100}$" },
+            ],
+            steps: [
+              { reasoning: "Multiply total mass by percentage.", working: "15 \\times \\frac{20}{100}", marks: 1, markCode: "M" },
+              { reasoning: "State answer with units.", working: "3\\,\\text{g}", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "3 g",
+            commonErrors: ["Multiplying by 20 instead of 0.20."],
+          },
+        },
+        {
+          id: "cieb-u3-plant-minerals-q9",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "A healthy leaf has a chlorophyll content of 80%. A magnesium-deficient leaf has 56%. Calculate the percentage decrease in chlorophyll.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 30, unit: "%" }],
+          },
+          markscheme: {
+            principles: [
+              { kind: "formula", name: "Percentage change", statement: "$\\%\\text{ change} = \\dfrac{\\text{old} - \\text{new}}{\\text{old}} \\times 100$" },
+            ],
+            steps: [
+              { reasoning: "Apply the formula.", working: "\\frac{80 - 56}{80} \\times 100", marks: 1, markCode: "M" },
+              { reasoning: "Compute.", working: "30\\%", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "30%",
+            commonErrors: ["Dividing by 56 (the new value) instead of 80 (the original)."],
+          },
+        },
+        {
+          id: "cieb-u3-plant-minerals-q10",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "A plant's height increases from 6 cm to 9 cm after fertiliser is added. Calculate the increase in height.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 3, unit: "cm" }],
+          },
+          markscheme: {
+            principles: [
+              { kind: "formula", name: "Change", statement: "$\\text{change} = \\text{final} - \\text{initial}$" },
+            ],
+            steps: [
+              { reasoning: "Subtract initial from final.", working: "9 - 6 = 3", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "3 cm",
+            commonErrors: ["Giving the final height (9 cm) instead of the increase."],
+          },
+        },
+        {
+          id: "cieb-u3-plant-minerals-q11",
+          difficulty: "challenge",
+          totalMarks: 3,
+          stem: "A pot contains 2 dm³ of soil solution with a nitrate concentration of 0.4 g/dm³. Calculate the total mass of nitrate ions in the pot.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 0.8, unit: "g" }],
+          },
+          markscheme: {
+            principles: [
+              { kind: "formula", name: "Concentration", statement: "$\\text{mass} = \\text{concentration} \\times \\text{volume}$" },
+            ],
+            steps: [
+              { reasoning: "Multiply concentration by volume.", working: "0.4 \\times 2", marks: 1, markCode: "M" },
+              { reasoning: "Compute the product.", working: "0.8\\,\\text{g}", marks: 1, markCode: "M" },
+              { reasoning: "State answer with units.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "0.8 g",
+            commonErrors: ["Dividing instead of multiplying, or forgetting the units match (g/dm³ × dm³ = g)."],
+          },
+        },
+        {
+          id: "cieb-u3-plant-minerals-q12",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "State two functions of magnesium ions in plants.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Magnesium function", statement: "Needed to make chlorophyll; supports photosynthesis." },
+            ],
+            steps: [
+              { reasoning: "State the functions.", working: "\\text{chlorophyll formation; photosynthesis}", marks: 1, markCode: "M" },
+              { reasoning: "Link to chlorophyll explicitly.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "Magnesium is needed to make chlorophyll (the green pigment that traps light) and so supports photosynthesis.",
+            commonErrors: ["Saying magnesium 'makes protein' — that is nitrate's role."],
+          },
+        },
+        {
+          id: "cieb-u3-plant-minerals-q13",
+          difficulty: "challenge",
+          totalMarks: 1,
+          stem: "Magnesium deficiency reduces the rate of photosynthesis mainly because:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Less chlorophyll is produced, so less light energy is absorbed" },
+              { id: "b", text: "Glucose cannot be stored as starch" },
+              { id: "c", text: "Roots stop absorbing water" },
+              { id: "d", text: "Stomata close completely" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Mg and photosynthesis", statement: "Mg → chlorophyll → light absorption → photosynthesis rate." },
+            ],
+            steps: [
+              { reasoning: "Trace the causal chain.", working: "\\text{less Mg} \\to \\text{less chlorophyll} \\to \\text{less light absorbed}", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** Less chlorophyll is produced, so less light energy is absorbed",
+            commonErrors: ["Saying 'photosynthesis stops' — it slows because less light is trapped."],
+          },
+        },
+        {
+          id: "cieb-u3-plant-minerals-q14",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Phosphate ions are needed in plants mainly for:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Making ATP and DNA" },
+              { id: "b", text: "Strengthening cell walls only" },
+              { id: "c", text: "Opening and closing stomata" },
+              { id: "d", text: "Making chlorophyll" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Phosphate function", statement: "Needed for ATP and DNA production." },
+            ],
+            steps: [
+              { reasoning: "Match mineral to role.", working: "\\text{phosphate} \\to \\text{ATP/DNA}", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** Making ATP and DNA",
+            commonErrors: ["Choosing 'cell walls' — that is calcium's role."],
+          },
+        },
+        {
+          id: "cieb-u3-plant-minerals-q15",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Calcium ions are required by plants for:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Making amino acids" },
+              { id: "b", text: "Enzyme activation only" },
+              { id: "c", text: "Formation of cell walls" },
+              { id: "d", text: "Making chlorophyll" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Calcium function", statement: "Needed for cell wall formation." },
+            ],
+            steps: [
+              { reasoning: "Match mineral to role.", working: "\\text{calcium} \\to \\text{cell walls}", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** Formation of cell walls",
+            commonErrors: ["Choosing chlorophyll — that is magnesium."],
+          },
+        },
+        {
+          id: "cieb-u3-plant-minerals-q16",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "Explain why a plant grown without nitrate shows stunted growth and yellowing of its older leaves.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Nitrate deficiency", statement: "Nitrate → amino acids/protein; deficiency → poor growth and chlorosis of old leaves." },
+            ],
+            steps: [
+              { reasoning: "Nitrate is needed to make amino acids and proteins.", working: "\\text{nitrate} \\to \\text{protein}", marks: 1, markCode: "M" },
+              { reasoning: "Less protein → less growth (stunted).", working: "\\text{stunted growth}", marks: 1, markCode: "M" },
+              { reasoning: "Nitrate is mobile, so it moves to new leaves; old leaves lose protein/chlorophyll.", working: "\\text{mobile N}", marks: 1, markCode: "M" },
+              { reasoning: "Conclude: yellowing of older leaves explained.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "Without nitrate the plant cannot make amino acids/proteins, so growth is stunted; because nitrogen is mobile it is moved to young leaves, so older leaves lose chlorophyll and yellow first.",
+            commonErrors: ["Attributing yellowing to magnesium — nitrate deficiency causes general yellowing of older leaves, not interveinal chlorosis."],
           },
         },
       ],

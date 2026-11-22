@@ -54,12 +54,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\$2240.00$" },
-              { id: "b", text: "$\\$2249.73$" },
-              { id: "c", text: "$\\$6240.00$" },
+              { id: "a", text: "$\\$6240.00$" },
+              { id: "b", text: "$\\$2240.00$" },
+              { id: "c", text: "$\\$2249.73$" },
               { id: "d", text: "$\\$5488.00$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -156,12 +156,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\$1823.26$" },
-              { id: "b", text: "$\\$1800.00$" },
-              { id: "c", text: "$\\$2100.00$" },
-              { id: "d", text: "$\\$1820.00$" },
+              { id: "a", text: "$\\$1820.00$" },
+              { id: "b", text: "$\\$2100.00$" },
+              { id: "c", text: "$\\$1823.26$" },
+              { id: "d", text: "$\\$1800.00$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -184,12 +184,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$1.015$" },
+              { id: "a", text: "$0.015$" },
               { id: "b", text: "$1.06$" },
-              { id: "c", text: "$1.0015$" },
-              { id: "d", text: "$0.015$" },
+              { id: "c", text: "$1.015$" },
+              { id: "d", text: "$1.0015$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -251,12 +251,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\$86.53$" },
+              { id: "a", text: "$\\$88.32$" },
               { id: "b", text: "$\\$86.40$" },
-              { id: "c", text: "$\\$88.32$" },
-              { id: "d", text: "$\\$83.20$" },
+              { id: "c", text: "$\\$83.20$" },
+              { id: "d", text: "$\\$86.53$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -346,12 +346,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$N = 120$, $I\\% = 4.8$, $PV = 0$, $PMT = -200$, $P/Y = C/Y = 12$" },
-              { id: "b", text: "$N = 10$, $I\\% = 4.8$, $PV = 0$, $PMT = -200$, $P/Y = C/Y = 12$" },
-              { id: "c", text: "$N = 120$, $I\\% = 4.8$, $PV = -200$, $PMT = 0$, $P/Y = C/Y = 12$" },
-              { id: "d", text: "$N = 120$, $I\\% = 4.8$, $PV = 0$, $PMT = 200$, $P/Y = C/Y = 1$" },
+              { id: "a", text: "$N = 120$, $I\\% = 4.8$, $PV = 0$, $PMT = 200$, $P/Y = C/Y = 1$" },
+              { id: "b", text: "$N = 120$, $I\\% = 4.8$, $PV = 0$, $PMT = -200$, $P/Y = C/Y = 12$" },
+              { id: "c", text: "$N = 10$, $I\\% = 4.8$, $PV = 0$, $PMT = -200$, $P/Y = C/Y = 12$" },
+              { id: "d", text: "$N = 120$, $I\\% = 4.8$, $PV = -200$, $PMT = 0$, $P/Y = C/Y = 12$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -407,8 +407,8 @@ export const lesson13: Lesson = {
             choices: [
               { id: "a", text: "$\\$17\\,600$" },
               { id: "b", text: "$\\$16\\,000$" },
-              { id: "c", text: "$\\$18\\,800$" },
-              { id: "d", text: "$\\$17\\,760$" },
+              { id: "c", text: "$\\$17\\,760$" },
+              { id: "d", text: "$\\$18\\,800$" },
             ],
             correctChoiceId: "a",
           },
@@ -435,8 +435,8 @@ export const lesson13: Lesson = {
             choices: [
               { id: "a", text: "$\\$5632.46$" },
               { id: "b", text: "$\\$5618.00$" },
-              { id: "c", text: "$\\$5450.00$" },
-              { id: "d", text: "$\\$6000.00$" },
+              { id: "c", text: "$\\$6000.00$" },
+              { id: "d", text: "$\\$5450.00$" },
             ],
             correctChoiceId: "a",
           },
@@ -523,12 +523,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$(4, -1)$" },
-              { id: "b", text: "$(3, 1)$" },
+              { id: "a", text: "$(3, 1)$" },
+              { id: "b", text: "$(1, 5)$" },
               { id: "c", text: "$(2, 3)$" },
-              { id: "d", text: "$(1, 5)$" },
+              { id: "d", text: "$(4, -1)$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -627,12 +627,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$(7, 3)$" },
-              { id: "b", text: "$(6, 4)$" },
+              { id: "a", text: "$(6, 4)$" },
+              { id: "b", text: "$(7, 3)$" },
               { id: "c", text: "$(8, 2)$" },
               { id: "d", text: "$(5, 5)$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -656,9 +656,9 @@ export const lesson13: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$(2, 3)$" },
-              { id: "b", text: "$(4, 1)$" },
-              { id: "c", text: "$(1, 4)$" },
-              { id: "d", text: "$(3, 2)$" },
+              { id: "b", text: "$(3, 2)$" },
+              { id: "c", text: "$(4, 1)$" },
+              { id: "d", text: "$(1, 4)$" },
             ],
             correctChoiceId: "a",
           },
@@ -724,12 +724,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$(2, 1)$" },
-              { id: "b", text: "$(1, 5)$" },
-              { id: "c", text: "$(3, -3)$" },
-              { id: "d", text: "$(2.5, 0)$" },
+              { id: "a", text: "$(1, 5)$" },
+              { id: "b", text: "$(2, 1)$" },
+              { id: "c", text: "$(2.5, 0)$" },
+              { id: "d", text: "$(3, -3)$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -807,12 +807,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$(2, 4)$" },
+              { id: "a", text: "$(1, 7)$" },
               { id: "b", text: "$(4, 2)$" },
               { id: "c", text: "$(3, 3)$" },
-              { id: "d", text: "$(1, 7)$" },
+              { id: "d", text: "$(2, 4)$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -835,12 +835,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$N = 60$, $I\\% = 6$, $PV = 15000$, $FV = 0$, $P/Y = C/Y = 12$" },
+              { id: "a", text: "$N = 60$, $I\\% = 6$, $PV = -15000$, $FV = 0$, $P/Y = C/Y = 12$" },
               { id: "b", text: "$N = 5$, $I\\% = 6$, $PV = 15000$, $FV = 0$, $P/Y = C/Y = 12$" },
-              { id: "c", text: "$N = 60$, $I\\% = 6$, $PV = -15000$, $FV = 0$, $P/Y = C/Y = 12$" },
-              { id: "d", text: "$N = 60$, $I\\% = 6$, $PV = 15000$, $FV = 0$, $P/Y = 1$, $C/Y = 12$" },
+              { id: "c", text: "$N = 60$, $I\\% = 6$, $PV = 15000$, $FV = 0$, $P/Y = 1$, $C/Y = 12$" },
+              { id: "d", text: "$N = 60$, $I\\% = 6$, $PV = 15000$, $FV = 0$, $P/Y = C/Y = 12$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -896,12 +896,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\$100$" },
-              { id: "b", text: "$\\$120$" },
+              { id: "a", text: "$\\$120$" },
+              { id: "b", text: "$\\$100$" },
               { id: "c", text: "$\\$10$" },
               { id: "d", text: "$\\$600$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [

@@ -54,11 +54,11 @@ export const lesson62: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$\\arctan\\dfrac x3+C$" },
-              { id: "b", text: "$\\dfrac13\\arctan\\dfrac x3+C$" },
+              { id: "b", text: "$\\ln(9+x^2)+C$" },
               { id: "c", text: "$\\dfrac19\\arctan\\dfrac x9+C$" },
-              { id: "d", text: "$\\ln(9+x^2)+C$" },
+              { id: "d", text: "$\\dfrac13\\arctan\\dfrac x3+C$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Inverse tangent integral", statement: "$\\int\\frac1{a^2+x^2}dx=\\frac1a\\arctan\\frac xa+C$, here $a=3$." }],
@@ -145,12 +145,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\arctan\\frac{x}{2}+C$" },
-              { id: "b", text: "$\\frac12\\arctan\\frac{x}{2}+C$" },
-              { id: "c", text: "$2\\arctan\\frac{x}{2}+C$" },
-              { id: "d", text: "$\\ln(x^2+4)+C$" },
+              { id: "a", text: "$\\frac12\\arctan\\frac{x}{2}+C$" },
+              { id: "b", text: "$\\arctan\\frac{x}{2}+C$" },
+              { id: "c", text: "$\\ln(x^2+4)+C$" },
+              { id: "d", text: "$2\\arctan\\frac{x}{2}+C$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Inverse tangent integral", statement: "$\\int\\frac{1}{a^2+x^2}dx=\\frac1a\\arctan\\frac xa+C$, here $a=2$." }],
@@ -171,12 +171,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\ln(x^2+3)+C$" },
+              { id: "a", text: "$\\ln(x^2+3)^2+C$" },
               { id: "b", text: "$\\frac{1}{x^2+3}+C$" },
-              { id: "c", text: "$2\\ln(x^2+3)+C$" },
-              { id: "d", text: "$\\ln(x^2+3)^2+C$" },
+              { id: "c", text: "$\\ln(x^2+3)+C$" },
+              { id: "d", text: "$2\\ln(x^2+3)+C$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Logarithmic integral", statement: "$\\int\\frac{f'}{f}dx=\\ln|f|+C$; here the numerator is the derivative of the denominator." }],
@@ -198,11 +198,11 @@ export const lesson62: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$e^{x^2}+C$" },
-              { id: "b", text: "$\\frac12e^{x^2}+C$" },
-              { id: "c", text: "$2e^{x^2}+C$" },
-              { id: "d", text: "$x^2e^{x^2}+C$" },
+              { id: "b", text: "$x^2e^{x^2}+C$" },
+              { id: "c", text: "$\\frac12e^{x^2}+C$" },
+              { id: "d", text: "$2e^{x^2}+C$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Substitution", statement: "Let $u=x^2$, so $du=2x\\,dx$ and $x\\,dx=\\frac12du$." }],
@@ -223,12 +223,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$0.785$" },
-              { id: "b", text: "$1.571$" },
-              { id: "c", text: "$1.000$" },
-              { id: "d", text: "$0.693$" },
+              { id: "a", text: "$1.000$" },
+              { id: "b", text: "$0.693$" },
+              { id: "c", text: "$0.785$" },
+              { id: "d", text: "$1.571$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Inverse tangent integral", statement: "$\\int\\frac{1}{1+x^2}dx=\\arctan x+C$." }],
@@ -249,12 +249,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$0.173$" },
-              { id: "b", text: "$0.693$" },
-              { id: "c", text: "$0.250$" },
-              { id: "d", text: "$1.386$" },
+              { id: "a", text: "$0.693$" },
+              { id: "b", text: "$0.250$" },
+              { id: "c", text: "$1.386$" },
+              { id: "d", text: "$0.173$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Substitution", statement: "Let $u=x^4+1$, so $du=4x^3\\,dx$; limits become 1 to 2." }],
@@ -463,11 +463,11 @@ export const lesson62: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$\\pi\\displaystyle\\int_a^b f(x)\\,dx$" },
-              { id: "b", text: "$\\pi\\displaystyle\\int_a^b [f(x)]^2\\,dx$" },
-              { id: "c", text: "$2\\pi\\displaystyle\\int_a^b f(x)\\,dx$" },
-              { id: "d", text: "$\\left(\\pi\\displaystyle\\int_a^b f(x)\\,dx\\right)^2$" },
+              { id: "b", text: "$2\\pi\\displaystyle\\int_a^b f(x)\\,dx$" },
+              { id: "c", text: "$\\left(\\pi\\displaystyle\\int_a^b f(x)\\,dx\\right)^2$" },
+              { id: "d", text: "$\\pi\\displaystyle\\int_a^b [f(x)]^2\\,dx$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Volume of revolution", statement: "$V=\\pi\\int_a^by^2\\,dx$." }],
@@ -559,12 +559,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\pi\\displaystyle\\int_0^1 x^2\\,dx$" },
-              { id: "b", text: "$\\pi\\displaystyle\\int_0^1 x^4\\,dx$" },
-              { id: "c", text: "$\\pi\\displaystyle\\int_0^1 x^3\\,dx$" },
-              { id: "d", text: "$2\\pi\\displaystyle\\int_0^1 x^2\\,dx$" },
+              { id: "a", text: "$2\\pi\\displaystyle\\int_0^1 x^2\\,dx$" },
+              { id: "b", text: "$\\pi\\displaystyle\\int_0^1 x^3\\,dx$" },
+              { id: "c", text: "$\\pi\\displaystyle\\int_0^1 x^2\\,dx$" },
+              { id: "d", text: "$\\pi\\displaystyle\\int_0^1 x^4\\,dx$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Volume of revolution", statement: "$V=\\pi\\int_a^b y^2\\,dx$; here $y^2=(x^2)^2=x^4$." }],
@@ -585,12 +585,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\pi\\displaystyle\\int_c^d [g(y)]^2\\,dy$" },
+              { id: "a", text: "$\\pi\\displaystyle\\int_c^d g(y)\\,dy$" },
               { id: "b", text: "$\\pi\\displaystyle\\int_a^b [f(x)]^2\\,dx$" },
-              { id: "c", text: "$2\\pi\\displaystyle\\int_c^d g(y)\\,dy$" },
-              { id: "d", text: "$\\pi\\displaystyle\\int_c^d g(y)\\,dy$" },
+              { id: "c", text: "$\\pi\\displaystyle\\int_c^d [g(y)]^2\\,dy$" },
+              { id: "d", text: "$2\\pi\\displaystyle\\int_c^d g(y)\\,dy$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Volume of revolution about $y$-axis", statement: "$V=\\pi\\int_c^d x^2\\,dy=\\pi\\int_c^d[g(y)]^2dy$." }],
@@ -611,10 +611,10 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$4.00$" },
+              { id: "a", text: "$5.33$" },
               { id: "b", text: "$2.67$" },
-              { id: "c", text: "$5.33$" },
-              { id: "d", text: "$8.00$" },
+              { id: "c", text: "$8.00$" },
+              { id: "d", text: "$4.00$" },
             ],
             correctChoiceId: "b",
           },
@@ -638,11 +638,11 @@ export const lesson62: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$4\\pi$" },
-              { id: "b", text: "$\\frac{8\\pi}{3}$" },
-              { id: "c", text: "$\\frac{16\\pi}{3}$" },
-              { id: "d", text: "$8\\pi$" },
+              { id: "b", text: "$\\frac{16\\pi}{3}$" },
+              { id: "c", text: "$8\\pi$" },
+              { id: "d", text: "$\\frac{8\\pi}{3}$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Volume of revolution", statement: "$V=\\pi\\int_0^2 y^2\\,dx=\\pi\\int_0^2 x^2\\,dx$." }],
@@ -663,10 +663,10 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\pi\\displaystyle\\int_a^b [f(x)]^2\\,dx$" },
+              { id: "a", text: "$2\\pi\\displaystyle\\int_a^b x f(x)\\,dx$" },
               { id: "b", text: "$\\pi\\displaystyle\\int_c^d [g(y)]^2\\,dy$" },
               { id: "c", text: "$\\pi\\displaystyle\\int_a^b f(x)\\,dx$" },
-              { id: "d", text: "$2\\pi\\displaystyle\\int_a^b x f(x)\\,dx$" },
+              { id: "d", text: "$\\pi\\displaystyle\\int_a^b [f(x)]^2\\,dx$" },
             ],
             correctChoiceId: "b",
           },

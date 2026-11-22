@@ -84,11 +84,11 @@ export const lesson32: Lesson = {
             "choices": [
               {
                 "id": "a",
-                "text": "1 m"
+                "text": "0.1 mm"
               },
               {
                 "id": "b",
-                "text": "1 cm"
+                "text": "1 m"
               },
               {
                 "id": "c",
@@ -96,7 +96,7 @@ export const lesson32: Lesson = {
               },
               {
                 "id": "d",
-                "text": "0.1 mm"
+                "text": "1 cm"
               }
             ],
             "correctChoiceId": "c"
@@ -361,18 +361,18 @@ export const lesson32: Lesson = {
               },
               {
                 "id": "b",
-                "text": "record the titre to the nearest 0.05 cm³"
+                "text": "add indicator after the endpoint"
               },
               {
                 "id": "c",
-                "text": "ignore the meniscus"
+                "text": "record the titre to the nearest 0.05 cm³"
               },
               {
                 "id": "d",
-                "text": "add indicator after the endpoint"
+                "text": "ignore the meniscus"
               }
             ],
-            "correctChoiceId": "b"
+            "correctChoiceId": "c"
           },
           "markscheme": {
             "principles": [

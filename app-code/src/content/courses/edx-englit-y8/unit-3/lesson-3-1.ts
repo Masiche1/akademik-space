@@ -86,11 +86,11 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Where" },
-              { id: "b", text: "Why" },
+              { id: "b", text: "When" },
               { id: "c", text: "Who" },
-              { id: "d", text: "When" },
+              { id: "d", text: "Why" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "skill", name: "Decoding", statement: "'Wherefore' means 'why'; Juliet is asking why he is a Montague, not where he is." }],
@@ -210,12 +210,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "That the lovers will marry happily" },
-              { id: "b", text: "That the lovers will die" },
+              { id: "a", text: "That the lovers will die" },
+              { id: "b", text: "That the lovers will marry happily" },
               { id: "c", text: "That the feud will never be explained" },
               { id: "d", text: "That Romeo will leave Verona" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Dramatic irony", statement: "The audience knows the ending." }],

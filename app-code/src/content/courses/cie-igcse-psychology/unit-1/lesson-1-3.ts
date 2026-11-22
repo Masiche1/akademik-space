@@ -92,12 +92,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Observable learning only" },
-              { id: "b", text: "Unconscious conflicts and early childhood" },
-              { id: "c", text: "Brain chemistry" },
-              { id: "d", text: "Free will and self-actualisation" },
+              { id: "a", text: "Brain chemistry" },
+              { id: "b", text: "Free will and self-actualisation" },
+              { id: "c", text: "Observable learning only" },
+              { id: "d", text: "Unconscious conflicts and early childhood" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -284,6 +284,525 @@ export const lesson13: Lesson = {
               "(a) Unconscious conflict/early deprivation. (b) Blocked needs + free will. (c) Both hard to test scientifically.",
             commonErrors: [
               "Treating both approaches as identical or ignoring the evaluation.",
+            ],
+          },
+        },
+        {
+          id: "cieipsych-u1-cph-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "The cognitive approach is mainly concerned with:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Free will and self-actualisation" },
+              { id: "b", text: "Observable behaviour only" },
+              { id: "c", text: "Mental processes like memory and thinking" },
+              { id: "d", text: "Unconscious conflicts" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Cognitive approach",
+                statement:
+                  "Studies mental processes — memory, thinking, perception, problem-solving.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "Cognition = mental processes; the approach treats the mind as an information processor.",
+                marks: 1,
+                markCode: "M",
+              },
+            ],
+            finalAnswer: "(b) Mental processes like memory and thinking.",
+            commonErrors: ["Choosing 'observable behaviour only' — that describes the behaviourist approach."],
+          },
+        },
+        {
+          id: "cieipsych-u1-cph-q6",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "This lesson compares how many major approaches? (cognitive, psychodynamic, humanistic)",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 3 }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "context",
+                name: "Approaches compared",
+                statement: "Cognitive, psychodynamic and humanistic = three approaches.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Three approaches are compared in this lesson.",
+                marks: 1,
+                markCode: "M",
+              },
+            ],
+            finalAnswer: "3",
+            commonErrors: ["Including biological or behaviourist approaches from the previous lesson."],
+          },
+        },
+        {
+          id: "cieipsych-u1-cph-q7",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "In a survey of 40 students, 10 prefer studying alone. What percentage prefer studying alone?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 25 }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "context",
+                name: "Percentage calculation",
+                statement: "Percentage = part / whole × 100.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "10 / 40 = 0.25 → 25%.",
+                marks: 1,
+                markCode: "M",
+              },
+            ],
+            finalAnswer: "25%",
+            commonErrors: ["Answering 0.25 instead of 25%."],
+          },
+        },
+        {
+          id: "cieipsych-u1-cph-q8",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "Explain what repression means in the psychodynamic approach.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Repression",
+                statement:
+                  "A defence mechanism that pushes anxiety-producing thoughts into the unconscious.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "Repression is an unconscious defence mechanism — unacceptable memories or desires are buried in the unconscious.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "It protects the conscious mind from anxiety but the repressed material still influences behaviour.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "Example: a childhood trauma repressed may surface later as unexplained fears or slips of the tongue.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer:
+              "Repression = unconsciously pushing threatening thoughts/memories into the unconscious, where they still influence behaviour.",
+            commonErrors: ["Describing repression as a conscious choice to forget."],
+          },
+        },
+        {
+          id: "cieipsych-u1-cph-q9",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Rogers' client-centred therapy is built on which core condition?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Systematic desensitisation" },
+              { id: "b", text: "Token economy" },
+              { id: "c", text: "Free association" },
+              { id: "d", text: "Unconditional positive regard" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "context",
+                name: "Rogers' therapy",
+                statement:
+                  "Client-centred therapy provides unconditional positive regard.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "Unconditional positive regard is Rogers' core condition — accepting the client without judgement.",
+                marks: 1,
+                markCode: "M",
+              },
+            ],
+            finalAnswer: "(b) Unconditional positive regard.",
+            commonErrors: ["Confusing Rogers with Freud — free association is psychodynamic."],
+          },
+        },
+        {
+          id: "cieipsych-u1-cph-q10",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "In Freud's model, which structure represents internalised moral standards and the sense of right and wrong?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "The ego" },
+              { id: "b", text: "The superego" },
+              { id: "c", text: "The id" },
+              { id: "d", text: "The unconscious" },
+            ],
+            borrectChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Superego",
+                statement: "Internalised morality — the sense of right and wrong.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "Superego = morality; id = instinctive drives; ego = reality mediator.",
+                marks: 1,
+                markCode: "M",
+              },
+            ],
+            finalAnswer: "(c) The superego.",
+            commonErrors: ["Confusing ego (reality) with superego (morality)."],
+          },
+        },
+        {
+          id: "cieipsych-u1-cph-q11",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Which approach is most likely to use controlled experiments on memory tasks to test its ideas?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Humanistic approach" },
+              { id: "b", text: "Cognitive approach" },
+              { id: "c", text: "Psychodynamic approach" },
+              { id: "d", text: "All equally" },
+            ],
+            borrectChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "context",
+                name: "Cognitive approach",
+                statement:
+                  "Uses experiments (memory tests, problem-solving tasks) to study cognition scientifically.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "Cognitive psychology is the most experimental — mental processes can be measured via tasks.",
+                marks: 1,
+                markCode: "M",
+              },
+            ],
+            finalAnswer: "(c) Cognitive approach.",
+            commonErrors: [
+              "Choosing psychodynamic — it relies on case studies, not controlled experiments.",
+            ],
+          },
+        },
+        {
+          id: "cieipsych-u1-cph-q12",
+          difficulty: "challenge",
+          totalMarks: 6,
+          stem: "Witnesses to a robbery give different accounts of events. Compare how the cognitive and psychodynamic approaches would explain these differences.",
+          parts: [
+            {
+              label: "a",
+              prompt: "Give the cognitive explanation.",
+              marks: 2,
+            },
+            {
+              label: "b",
+              prompt: "Give the psychodynamic explanation.",
+              marks: 2,
+            },
+            {
+              label: "c",
+              prompt: "Evaluate which explanation is more testable.",
+              marks: 2,
+            },
+          ],
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "skill",
+                name: "Approach comparison",
+                statement:
+                  "Cognitive = information processing errors; psychodynamic = unconscious influences.",
+              },
+            ],
+            steps: [
+              {
+                part: "a",
+                reasoning:
+                  "Cognitive: memory reconstructs rather than replays — schemas and expectations distort recall; stress narrows attention (weapon focus).",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                part: "a",
+                reasoning:
+                  "Differences arise from how information was encoded and retrieved — measurable processing differences.",
+                marks: 1,
+                markCode: "A",
+              },
+              {
+                part: "b",
+                reasoning:
+                  "Psychodynamic: anxiety and defence mechanisms distort memory — repression or projection shapes what is recalled.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                part: "b",
+                reasoning:
+                  "Unconscious conflicts from early experience may colour interpretation of threatening events.",
+                marks: 1,
+                markCode: "A",
+              },
+              {
+                part: "c",
+                reasoning:
+                  "Cognitive explanation is more testable — memory distortions can be studied in controlled experiments.",
+                marks: 1,
+                markCode: "R",
+              },
+              {
+                part: "c",
+                reasoning:
+                  "Psychodynamic claims rely on unobservable unconscious processes — hard to verify scientifically.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer:
+              "(a) Schemas/expectations distort recall. (b) Defence mechanisms and unconscious conflicts distort memory. (c) Cognitive is more testable.",
+            commonErrors: [
+              "Treating both explanations as identical or skipping the evaluation.",
+            ],
+          },
+        },
+        {
+          id: "cieipsych-u1-cph-q13",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "A mental framework that organises our knowledge and guides interpretation is called a:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Reflex" },
+              { id: "b", text: "Schema" },
+              { id: "c", text: "Reinforcer" },
+              { id: "d", text: "Instinct" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Schema",
+                statement: "A mental framework organising knowledge about the world.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "Schemas are cognitive structures — e.g. our 'restaurant schema' tells us what to expect in a restaurant.",
+                marks: 1,
+                markCode: "M",
+              },
+            ],
+            finalAnswer: "(b) Schema.",
+            commonErrors: ["Confusing schema with stereotype — schemas organise knowledge broadly."],
+          },
+        },
+        {
+          id: "cieipsych-u1-cph-q14",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "In a study of 50 participants, 30 completed a memory task. (a) How many did not complete it? (b) What percentage completed it?",
+          response: {
+            type: "numeric",
+            parts: [
+              { label: "a", answer: 20 },
+              { label: "b", answer: 60 },
+            ],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "context",
+                name: "Sample calculations",
+                statement:
+                  "Non-completers = total − completers; percentage = part / whole × 100.",
+              },
+            ],
+            steps: [
+              {
+                part: "a",
+                reasoning: "50 − 30 = 20.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                part: "b",
+                reasoning: "30 / 50 = 0.6 → 60%.",
+                marks: 1,
+                markCode: "M",
+              },
+            ],
+            finalAnswer: "(a) 20  (b) 60%",
+            commonErrors: ["Reporting 0.6 instead of 60%."],
+          },
+        },
+        {
+          id: "cieipsych-u1-cph-q15",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "Evaluate the scientific status of the humanistic approach.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "skill",
+                name: "Humanistic evaluation",
+                statement:
+                  "Respects human agency but relies on subjective self-report.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "Strength: it respects human dignity and free will — treats people as active agents, not passive subjects.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "Weakness: self-actualisation and subjective experience are hard to measure objectively — relies on self-report and case studies.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "Judgement: valuable for therapy and understanding subjective experience, but weaker scientifically than cognitive or biological approaches.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer:
+              "Humanistic approach values agency and dignity but is hard to test scientifically — weaker empirically than cognitive/biological.",
+            commonErrors: [
+              "One-sided evaluation ignoring either the strengths or weaknesses.",
+            ],
+          },
+        },
+        {
+          id: "cieipsych-u1-cph-q16",
+          difficulty: "challenge",
+          totalMarks: 6,
+          stem: "Compare how the cognitive, psychodynamic and humanistic approaches view free will versus determinism.",
+          parts: [
+            {
+              label: "a",
+              prompt: "Describe each approach's stance on free will.",
+              marks: 3,
+            },
+            {
+              label: "b",
+              prompt: "Evaluate which view is most consistent with scientific psychology.",
+              marks: 3,
+            },
+          ],
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "skill",
+                name: "Free will vs determinism",
+                statement:
+                  "Humanistic = free will; psychodynamic = unconscious determinism; cognitive = processing determines behaviour.",
+              },
+            ],
+            steps: [
+              {
+                part: "a",
+                reasoning:
+                  "Humanistic: emphasises free will — people choose their actions and can self-actualise.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                part: "a",
+                reasoning:
+                  "Psychodynamic: behaviour is determined by unconscious conflicts beyond conscious control.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                part: "a",
+                reasoning:
+                  "Cognitive: behaviour follows from mental processing — information input, processing and output determine responses.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                part: "b",
+                reasoning:
+                  "Scientific psychology generally assumes behaviour is caused by identifiable factors (biological, cognitive, social) — determinism is more testable.",
+                marks: 1,
+                markCode: "R",
+              },
+              {
+                part: "b",
+                reasoning:
+                  "Free will is difficult to measure — humanistic claims resist falsification, though they respect human agency.",
+                marks: 1,
+                markCode: "R",
+              },
+              {
+                part: "b",
+                reasoning:
+                  "Judgement: cognitive and psychodynamic align better with scientific methods, while humanism offers valuable insights into subjective experience.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer:
+              "(a) Humanistic=free will; psychodynamic=unconscious determinism; cognitive=processing determines behaviour. (b) Deterministic views are more testable; humanism adds subjective value.",
+            commonErrors: [
+              "Describing stances without any evaluation.",
             ],
           },
         },

@@ -85,15 +85,15 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Every sentence written out in full" },
+              { id: "a", text: "Nothing — just start writing" },
+              { id: "b", text: "A list of every vocabulary word" },
+              { id: "c", text: "Every sentence written out in full" },
               {
-                id: "b",
+                id: "d",
                 text: "A thesis, supporting points and paragraph structure",
               },
-              { id: "c", text: "A list of every vocabulary word" },
-              { id: "d", text: "Nothing — just start writing" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -305,15 +305,15 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "To make the essay longer" },
               {
-                id: "b",
+                id: "a",
                 text: "To fix the thesis, select points and structure paragraphs before writing",
               },
+              { id: "b", text: "To avoid checking the essay later" },
               { id: "c", text: "To memorise vocabulary" },
-              { id: "d", text: "To avoid checking the essay later" },
+              { id: "d", text: "To make the essay longer" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -349,12 +349,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Only in the conclusion" },
-              { id: "b", text: "Often first or last for maximum impact" },
-              { id: "c", text: "In the exact middle to balance the essay" },
-              { id: "d", text: "It makes no difference" },
+              { id: "a", text: "Often first or last for maximum impact" },
+              { id: "b", text: "In the exact middle to balance the essay" },
+              { id: "c", text: "It makes no difference" },
+              { id: "d", text: "Only in the conclusion" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -392,10 +392,10 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A detailed outline of every sentence" },
+              { id: "a", text: "A list of every brainstormed idea" },
               { id: "b", text: "A compressed plan: thesis plus three points" },
-              { id: "c", text: "Nothing — start writing immediately" },
-              { id: "d", text: "A list of every brainstormed idea" },
+              { id: "c", text: "A detailed outline of every sentence" },
+              { id: "d", text: "Nothing — start writing immediately" },
             ],
             correctChoiceId: "b",
           },
@@ -440,11 +440,11 @@ export const lesson51: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "All twelve, to show thoroughness" },
-              { id: "b", text: "The three or four strongest" },
-              { id: "c", text: "Only the single best one" },
-              { id: "d", text: "As many as fit without any selection" },
+              { id: "b", text: "Only the single best one" },
+              { id: "c", text: "As many as fit without any selection" },
+              { id: "d", text: "The three or four strongest" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -490,8 +490,8 @@ export const lesson51: Lesson = {
             choices: [
               { id: "a", text: "Write the introduction" },
               { id: "b", text: "Fix a clear thesis" },
-              { id: "c", text: "List impressive vocabulary" },
-              { id: "d", text: "Count the words you need" },
+              { id: "c", text: "Count the words you need" },
+              { id: "d", text: "List impressive vocabulary" },
             ],
             correctChoiceId: "b",
           },
@@ -534,14 +534,14 @@ export const lesson51: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "It repeats the thesis word for word" },
+              { id: "b", text: "It lists all the examples for the paragraph" },
               {
-                id: "b",
+                id: "c",
                 text: "It states the paragraph's point and links it to the thesis",
               },
-              { id: "c", text: "It lists all the examples for the paragraph" },
               { id: "d", text: "It signals that the essay is ending" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -946,8 +946,8 @@ export const lesson51: Lesson = {
             choices: [
               { id: "a", text: "Furthermore" },
               { id: "b", text: "However" },
-              { id: "c", text: "For example" },
-              { id: "d", text: "In addition" },
+              { id: "c", text: "In addition" },
+              { id: "d", text: "For example" },
             ],
             correctChoiceId: "b",
           },
@@ -1172,12 +1172,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "However" },
-              { id: "b", text: "Furthermore" },
-              { id: "c", text: "As a result" },
-              { id: "d", text: "In conclusion" },
+              { id: "a", text: "Furthermore" },
+              { id: "b", text: "In conclusion" },
+              { id: "c", text: "However" },
+              { id: "d", text: "As a result" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -1214,12 +1214,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "For example" },
-              { id: "b", text: "As a result" },
-              { id: "c", text: "On the other hand" },
-              { id: "d", text: "In addition" },
+              { id: "a", text: "In addition" },
+              { id: "b", text: "On the other hand" },
+              { id: "c", text: "For example" },
+              { id: "d", text: "As a result" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1256,18 +1256,18 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "The city is expensive and crowded." },
               {
-                id: "a",
+                id: "b",
                 text: "The city is expensive. Additionally the city is crowded.",
               },
-              { id: "b", text: "The city is expensive and crowded." },
+              { id: "c", text: "Expensive city. Crowded city." },
               {
-                id: "c",
+                id: "d",
                 text: "The metropolis is expensive. The metropolis is crowded.",
               },
-              { id: "d", text: "Expensive city. Crowded city." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -1311,12 +1311,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "An exclamation mark" },
-              { id: "b", text: "A pronoun or synonym reference" },
-              { id: "c", text: "A longer sentence" },
-              { id: "d", text: "A direct quotation" },
+              { id: "a", text: "A direct quotation" },
+              { id: "b", text: "An exclamation mark" },
+              { id: "c", text: "A pronoun or synonym reference" },
+              { id: "d", text: "A longer sentence" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1359,12 +1359,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Good cohesion but weak coherence" },
-              { id: "b", text: "Poor cohesion" },
-              { id: "c", text: "Perfect writing" },
+              { id: "a", text: "Perfect writing" },
+              { id: "b", text: "Good cohesion but weak coherence" },
+              { id: "c", text: "Poor cohesion" },
               { id: "d", text: "Good coherence but no cohesion" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1406,10 +1406,10 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Furthermore," },
+              { id: "a", text: "For instance," },
               { id: "b", text: "Nevertheless," },
-              { id: "c", text: "For instance," },
-              { id: "d", text: "Similarly," },
+              { id: "c", text: "Similarly," },
+              { id: "d", text: "Furthermore," },
             ],
             correctChoiceId: "b",
           },

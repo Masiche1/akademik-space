@@ -49,10 +49,10 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Simple random sampling" },
+              { id: "a", text: "Quota sampling" },
               { id: "b", text: "Systematic sampling" },
-              { id: "c", text: "Stratified sampling" },
-              { id: "d", text: "Quota sampling" },
+              { id: "c", text: "Simple random sampling" },
+              { id: "d", text: "Stratified sampling" },
             ],
             correctChoiceId: "b",
           },
@@ -140,12 +140,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Convenience sampling" },
-              { id: "b", text: "Quota sampling" },
-              { id: "c", text: "Systematic sampling" },
-              { id: "d", text: "Simple random sampling" },
+              { id: "a", text: "Quota sampling" },
+              { id: "b", text: "Simple random sampling" },
+              { id: "c", text: "Convenience sampling" },
+              { id: "d", text: "Systematic sampling" },
             ],
-            correctChoiceId: "d",
+            correctChoiceIb: "d",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Simple random sampling", statement: "Every member of the population has an equal chance of selection." }],
@@ -166,12 +166,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The height of a student in centimetres" },
+              { id: "a", text: "The mass of a school bag, in kilograms" },
               { id: "b", text: "The time taken to run 100 metres, in seconds" },
-              { id: "c", text: "The number of siblings a student has" },
-              { id: "d", text: "The mass of a school bag, in kilograms" },
+              { id: "c", text: "The height of a student in centimetres" },
+              { id: "d", text: "The number of siblings a student has" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Discrete numerical data", statement: "Numerical data that is counted in whole numbers." }],
@@ -192,10 +192,10 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The number of strata in the population" },
+              { id: "a", text: "How easy it is to reach members of the stratum" },
               { id: "b", text: "The size of the stratum" },
               { id: "c", text: "The variability of the data within the stratum" },
-              { id: "d", text: "How easy it is to reach members of the stratum" },
+              { id: "d", text: "The number of strata in the population" },
             ],
             correctChoiceId: "b",
           },
@@ -253,12 +253,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The sample is too small to be useful" },
-              { id: "b", text: "The sample may not represent students who eat elsewhere or have lessons at lunchtime" },
-              { id: "c", text: "Mathematics cannot be compared with other subjects" },
+              { id: "a", text: "The sample may not represent students who eat elsewhere or have lessons at lunchtime" },
+              { id: "b", text: "Mathematics cannot be compared with other subjects" },
+              { id: "c", text: "The sample is too small to be useful" },
               { id: "d", text: "The method used is systematic sampling" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Sampling bias", statement: "A sample is biased when some members of the population are more likely to be selected than others." }],
@@ -281,8 +281,8 @@ export const lesson41: Lesson = {
             choices: [
               { id: "a", text: "Nominal categorical data" },
               { id: "b", text: "Ordinal categorical data" },
-              { id: "c", text: "Discrete numerical data" },
-              { id: "d", text: "Continuous numerical data" },
+              { id: "c", text: "Continuous numerical data" },
+              { id: "d", text: "Discrete numerical data" },
             ],
             correctChoiceId: "b",
           },
@@ -384,10 +384,10 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "every $k$th person on a list is chosen" },
+              { id: "a", text: "only the most convenient people are interviewed" },
               { id: "b", text: "fixed numbers are chosen from groups, but the individuals within each group are not selected randomly" },
-              { id: "c", text: "every member of the population has an equal chance of selection" },
-              { id: "d", text: "only the most convenient people are interviewed" },
+              { id: "c", text: "every $k$th person on a list is chosen" },
+              { id: "d", text: "every member of the population has an equal chance of selection" },
             ],
             correctChoiceId: "b",
           },
@@ -428,12 +428,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Interviewing the first 50 students found at the school gate one morning" },
-              { id: "b", text: "A stratified sample by year group, with students chosen randomly within each year group" },
-              { id: "c", text: "Asking a teacher to pick 50 students who 'typify' the school" },
-              { id: "d", text: "Surveying only students who are members of the school sports teams" },
+              { id: "a", text: "A stratified sample by year group, with students chosen randomly within each year group" },
+              { id: "b", text: "Interviewing the first 50 students found at the school gate one morning" },
+              { id: "c", text: "Surveying only students who are members of the school sports teams" },
+              { id: "d", text: "Asking a teacher to pick 50 students who 'typify' the school" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Representative sample", statement: "A sample mirrors the population when every member has a known, typically equal, chance of selection." }],
@@ -481,12 +481,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "4" },
-              { id: "b", text: "5" },
-              { id: "c", text: "5.5" },
-              { id: "d", text: "6" },
+              { id: "a", text: "5.5" },
+              { id: "b", text: "6" },
+              { id: "c", text: "4" },
+              { id: "d", text: "5" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Median", statement: "The middle value of the ordered data." }],
@@ -596,12 +596,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "3" },
-              { id: "b", text: "5" },
-              { id: "c", text: "7" },
-              { id: "d", text: "9" },
+              { id: "a", text: "9" },
+              { id: "b", text: "3" },
+              { id: "c", text: "5" },
+              { id: "d", text: "7" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Mode", statement: "The value that occurs most frequently." }],
@@ -623,11 +623,11 @@ export const lesson41: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "The mean" },
-              { id: "b", text: "The median" },
-              { id: "c", text: "The midrange" },
+              { id: "b", text: "The midrange" },
+              { id: "c", text: "The median" },
               { id: "d", text: "All measures are equally affected" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "property", name: "Resistance", statement: "The median depends only on the middle position, so extreme values do not move it." }],
@@ -683,8 +683,8 @@ export const lesson41: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Yes, because 55 is greater than the upper fence of 50" },
-              { id: "b", text: "No, because 55 is less than the upper fence of 56" },
-              { id: "c", text: "Yes, because 55 is greater than $Q_3$" },
+              { id: "b", text: "Yes, because 55 is greater than $Q_3$" },
+              { id: "c", text: "No, because 55 is less than the upper fence of 56" },
               { id: "d", text: "No, because the range is too small to contain outliers" },
             ],
             correctChoiceId: "a",
@@ -736,12 +736,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The range of the data" },
-              { id: "b", text: "The interquartile range" },
+              { id: "a", text: "The interquartile range" },
+              { id: "b", text: "The range of the data" },
               { id: "c", text: "One standard deviation either side of the mean" },
               { id: "d", text: "The middle 95% of the data" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Box plot", statement: "The box runs from $Q_1$ to $Q_3$, so its width represents the interquartile range." }],
@@ -853,12 +853,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The median uses every value in the data set, so it is always more accurate" },
-              { id: "b", text: "The median is not affected by the extreme value, so it better represents a typical price" },
-              { id: "c", text: "The mean cannot be calculated when an outlier is present" },
-              { id: "d", text: "The median is always larger than the mean" },
+              { id: "a", text: "The mean cannot be calculated when an outlier is present" },
+              { id: "b", text: "The median uses every value in the data set, so it is always more accurate" },
+              { id: "c", text: "The median is always larger than the mean" },
+              { id: "d", text: "The median is not affected by the extreme value, so it better represents a typical price" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "property", name: "Resistance of the median", statement: "The median depends only on the middle position(s), so extreme values do not affect it." }],
@@ -879,12 +879,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "9" },
-              { id: "b", text: "10" },
-              { id: "c", text: "10.5" },
-              { id: "d", text: "11" },
+              { id: "a", text: "10" },
+              { id: "b", text: "11" },
+              { id: "c", text: "9" },
+              { id: "d", text: "10.5" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Median", statement: "For an even number of ordered values, the median is the mean of the two middle values." }],
@@ -905,12 +905,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$n$, the total frequency" },
-              { id: "b", text: "$\\frac12 n$" },
+              { id: "a", text: "$\\frac12 n$" },
+              { id: "b", text: "$n$, the total frequency" },
               { id: "c", text: "$\\frac14 n$" },
               { id: "d", text: "$\\frac34 n$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Median from cumulative frequency", statement: "The median corresponds to cumulative frequency $\\frac12 n$; quartiles to $\\frac14 n$ and $\\frac34 n$." }],

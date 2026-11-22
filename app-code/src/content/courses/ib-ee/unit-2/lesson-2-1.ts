@@ -52,12 +52,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A later textbook analysis" },
-              { id: "b", text: "Evidence produced at the time of the event" },
-              { id: "c", text: "A review article" },
-              { id: "d", text: "A Wikipedia entry" },
+              { id: "a", text: "A Wikipedia entry" },
+              { id: "b", text: "A review article" },
+              { id: "c", text: "A later textbook analysis" },
+              { id: "d", text: "Evidence produced at the time of the event" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -148,11 +148,11 @@ export const lesson21: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Archival research in national government records" },
-              { id: "b", text: "A survey or interviews of students at the school" },
-              { id: "c", text: "A controlled laboratory experiment" },
-              { id: "d", text: "Analysis of international statistics" },
+              { id: "b", text: "Analysis of international statistics" },
+              { id: "c", text: "A survey or interviews of students at the school" },
+              { id: "d", text: "A controlled laboratory experiment" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -175,9 +175,9 @@ export const lesson21: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "The symbolism in a novel" },
-              { id: "b", text: "The growth rate of bacteria" },
-              { id: "c", text: "Voting patterns in elections" },
-              { id: "d", text: "Chemical reactions in a laboratory" },
+              { id: "b", text: "Voting patterns in elections" },
+              { id: "c", text: "Chemical reactions in a laboratory" },
+              { id: "d", text: "The growth rate of bacteria" },
             ],
             correctChoiceId: "a",
           },
@@ -239,12 +239,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "They are always scientifically inaccurate" },
-              { id: "b", text: "Ethical approval, access and time constraints make them impractical" },
-              { id: "c", text: "Examiners forbid all experiments" },
-              { id: "d", text: "They produce only qualitative data" },
+              { id: "a", text: "Ethical approval, access and time constraints make them impractical" },
+              { id: "b", text: "Examiners forbid all experiments" },
+              { id: "c", text: "They produce only qualitative data" },
+              { id: "d", text: "They are always scientifically inaccurate" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -286,10 +286,10 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "'Why did artists use symbolism?' — textual analysis" },
-              { id: "b", text: "'How many people held this view?' — survey" },
+              { id: "a", text: "'How many people held this view?' — survey" },
+              { id: "b", text: "'What changed in official policy?' — archival research" },
               { id: "c", text: "'To what extent did X cause Y?' — a single informal interview" },
-              { id: "d", text: "'What changed in official policy?' — archival research" },
+              { id: "d", text: "'Why did artists use symbolism?' — textual analysis" },
             ],
             correctChoiceId: "c",
           },
@@ -373,11 +373,11 @@ export const lesson21: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Theoretically the most rigorous" },
-              { id: "b", text: "Accessible, ethical and completable within time and word limits" },
-              { id: "c", text: "The newest method available" },
+              { id: "b", text: "The newest method available" },
+              { id: "c", text: "Accessible, ethical and completable within time and word limits" },
               { id: "d", text: "The method used by most students" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -459,9 +459,9 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A modern history textbook" },
+              { id: "a", text: "A review article" },
               { id: "b", text: "A WWII diary entry" },
-              { id: "c", text: "A review article" },
+              { id: "c", text: "A modern history textbook" },
               { id: "d", text: "A documentary film" },
             ],
             correctChoiceId: "b",
@@ -554,12 +554,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A published review article" },
-              { id: "b", text: "Raw experimental data collected by the student" },
-              { id: "c", text: "A textbook chapter" },
-              { id: "d", text: "A news report about the topic" },
+              { id: "a", text: "A textbook chapter" },
+              { id: "b", text: "A news report about the topic" },
+              { id: "c", text: "Raw experimental data collected by the student" },
+              { id: "d", text: "A published review article" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -582,11 +582,11 @@ export const lesson21: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Criticising the author personally" },
-              { id: "b", text: "Evaluating a source's reliability, bias and context" },
-              { id: "c", text: "Finding spelling errors in sources" },
+              { id: "b", text: "Finding spelling errors in sources" },
+              { id: "c", text: "Evaluating a source's reliability, bias and context" },
               { id: "d", text: "Rejecting all sources" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -646,12 +646,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A modern history textbook" },
-              { id: "b", text: "Contemporary newspaper editorials and letters to the editor" },
-              { id: "c", text: "A recent documentary film" },
-              { id: "d", text: "An encyclopedia entry" },
+              { id: "a", text: "Contemporary newspaper editorials and letters to the editor" },
+              { id: "b", text: "A recent documentary film" },
+              { id: "c", text: "An encyclopedia entry" },
+              { id: "d", text: "A modern history textbook" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -693,12 +693,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Listing the source in the bibliography without discussing it" },
-              { id: "b", text: "Quoting the source and explaining what it shows about the research question" },
+              { id: "a", text: "Quoting the source and explaining what it shows about the research question" },
+              { id: "b", text: "Listing the source in the bibliography without discussing it" },
               { id: "c", text: "Paraphrasing the source without citation" },
               { id: "d", text: "Quoting the longest possible passage" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -760,11 +760,11 @@ export const lesson21: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "A secondary source because it was written later" },
-              { id: "b", text: "A primary source, but with limitations from memory and hindsight" },
-              { id: "c", text: "Unusable as evidence" },
-              { id: "d", text: "A secondary source because diaries are always secondary" },
+              { id: "b", text: "A secondary source because diaries are always secondary" },
+              { id: "c", text: "A primary source, but with limitations from memory and hindsight" },
+              { id: "d", text: "Unusable as evidence" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

@@ -49,12 +49,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "CO₂" },
-              { id: "b", text: "NaCl" },
-              { id: "c", text: "CH₄" },
-              { id: "d", text: "H₂O" },
+              { id: "a", text: "CH₄" },
+              { id: "b", text: "H₂O" },
+              { id: "c", text: "NaCl" },
+              { id: "d", text: "CO₂" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Ionic bond", statement: "Metal + non-metal → ions." }],
@@ -162,12 +162,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Ionic bonds" },
-              { id: "b", text: "Delocalised electrons" },
+              { id: "a", text: "Delocalised electrons" },
+              { id: "b", text: "Ionic bonds" },
               { id: "c", text: "Covalent bonds" },
               { id: "d", text: "Hydrogen bonds" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Metallic bond", statement: "Sea of delocalised electrons." }],

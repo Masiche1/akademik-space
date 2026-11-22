@@ -49,12 +49,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Its DNA is enclosed inside a nuclear membrane" },
-              { id: "b", text: "It contains mitochondria and a Golgi apparatus" },
-              { id: "c", text: "It has DNA but no membrane-bound nucleus" },
-              { id: "d", text: "It is always larger than a eukaryotic cell" },
+              { id: "a", text: "It has DNA but no membrane-bound nucleus" },
+              { id: "b", text: "Its DNA is enclosed inside a nuclear membrane" },
+              { id: "c", text: "It is always larger than a eukaryotic cell" },
+              { id: "d", text: "It contains mitochondria and a Golgi apparatus" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Prokaryote", statement: "Prokaryotes lack a nucleus and membrane-bound organelles." }],
@@ -172,9 +172,9 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Simple diffusion" },
+              { id: "a", text: "Facilitated diffusion" },
               { id: "b", text: "Osmosis" },
-              { id: "c", text: "Facilitated diffusion" },
+              { id: "c", text: "Simple diffusion" },
               { id: "d", text: "Active transport" },
             ],
             correctChoiceId: "d",

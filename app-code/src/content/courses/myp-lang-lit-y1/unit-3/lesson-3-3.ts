@@ -55,12 +55,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Name, body, greeting, sign-off" },
-              { id: "b", text: "Greeting, body, sign-off, name" },
-              { id: "c", text: "Body, greeting, name, sign-off" },
-              { id: "d", text: "Sign-off, body, greeting, name" },
+              { id: "a", text: "Body, greeting, name, sign-off" },
+              { id: "b", text: "Name, body, greeting, sign-off" },
+              { id: "c", text: "Sign-off, body, greeting, name" },
+              { id: "d", text: "Greeting, body, sign-off, name" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -140,12 +140,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The last line with your name" },
-              { id: "b", text: "The opening words like 'Dear Sam' or 'Hi Mum'" },
+              { id: "a", text: "The opening words like 'Dear Sam' or 'Hi Mum'" },
+              { id: "b", text: "The last line with your name" },
               { id: "c", text: "The main message" },
               { id: "d", text: "The stamp on the envelope" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "convention", name: "Letter parts", statement: "The greeting opens the letter." }],
@@ -161,10 +161,10 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The greeting at the top" },
+              { id: "a", text: "The envelope address" },
               { id: "b", text: "The friendly ending like 'Love,' or 'See you soon,'" },
-              { id: "c", text: "The main paragraph" },
-              { id: "d", text: "The envelope address" },
+              { id: "c", text: "The greeting at the top" },
+              { id: "d", text: "The main paragraph" },
             ],
             correctChoiceId: "b",
           },
@@ -182,12 +182,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The reason for writing — to inform, invite, thank or persuade" },
-              { id: "b", text: "The colour of the paper" },
+              { id: "a", text: "The stamp you use" },
+              { id: "b", text: "The reason for writing — to inform, invite, thank or persuade" },
               { id: "c", text: "The number of words" },
-              { id: "d", text: "The stamp you use" },
+              { id: "d", text: "The colour of the paper" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "convention", name: "Purpose", statement: "Purpose is why you are writing." }],
@@ -254,12 +254,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Who will read it and why you are writing" },
-              { id: "b", text: "How many pages it will be" },
-              { id: "c", text: "The colour of the pen" },
-              { id: "d", text: "Nothing — just start writing" },
+              { id: "a", text: "The colour of the pen" },
+              { id: "b", text: "Nothing — just start writing" },
+              { id: "c", text: "How many pages it will be" },
+              { id: "d", text: "Who will read it and why you are writing" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "convention", name: "Audience and purpose", statement: "Consider the reader and purpose first." }],
@@ -319,10 +319,10 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A long formal letter" },
+              { id: "a", text: "A list of rules" },
               { id: "b", text: "A short written note for someone" },
-              { id: "c", text: "A poem" },
-              { id: "d", text: "A list of rules" },
+              { id: "c", text: "A long formal letter" },
+              { id: "d", text: "A poem" },
             ],
             correctChoiceId: "b",
           },
@@ -340,9 +340,9 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Yours faithfully," },
+              { id: "a", text: "To whom it may concern," },
               { id: "b", text: "Love," },
-              { id: "c", text: "To whom it may concern," },
+              { id: "c", text: "Yours faithfully," },
               { id: "d", text: "Dear Sir," },
             ],
             correctChoiceId: "b",
@@ -414,12 +414,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "How many pages it will be" },
-              { id: "b", text: "The color of the envelope" },
-              { id: "c", text: "The purpose — why you are writing" },
-              { id: "d", text: "The font size" },
+              { id: "a", text: "The purpose — why you are writing" },
+              { id: "b", text: "The font size" },
+              { id: "c", text: "How many pages it will be" },
+              { id: "d", text: "The color of the envelope" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -499,12 +499,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The purpose — why you are writing" },
-              { id: "b", text: "The colour of the paper" },
-              { id: "c", text: "How many stamps to buy" },
-              { id: "d", text: "The font size" },
+              { id: "a", text: "The colour of the paper" },
+              { id: "b", text: "How many stamps to buy" },
+              { id: "c", text: "The font size" },
+              { id: "d", text: "The purpose — why you are writing" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "skill", name: "Purpose first", statement: "The reason for writing shapes the letter." }],
@@ -521,11 +521,11 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "I am writing to inform you that..." },
-              { id: "b", text: "I was so happy to hear from you!" },
+              { id: "b", text: "Yours faithfully," },
               { id: "c", text: "To whom it may concern," },
-              { id: "d", text: "Yours faithfully," },
+              { id: "d", text: "I was so happy to hear from you!" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Tone", statement: "Warm letters use friendly, personal words." }],
@@ -541,12 +541,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Love," },
-              { id: "b", text: "See you soon!" },
-              { id: "c", text: "Yours sincerely," },
-              { id: "d", text: "Bye!" },
+              { id: "a", text: "Bye!" },
+              { id: "b", text: "Yours sincerely," },
+              { id: "c", text: "See you soon!" },
+              { id: "d", text: "Love," },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "convention", name: "Formal sign-off", statement: "Formal letters use 'Yours sincerely' or 'Yours faithfully'." }],
@@ -613,12 +613,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Greeting, body, sign-off, name" },
-              { id: "b", text: "Title, cover, pages, back" },
-              { id: "c", text: "Stamp, envelope, address, postmark" },
-              { id: "d", text: "Introduction, three chapters, conclusion" },
+              { id: "a", text: "Introduction, three chapters, conclusion" },
+              { id: "b", text: "Greeting, body, sign-off, name" },
+              { id: "c", text: "Title, cover, pages, back" },
+              { id: "d", text: "Stamp, envelope, address, postmark" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "convention", name: "Letter structure", statement: "Letters have greeting, body, sign-off and name." }],
@@ -673,9 +673,9 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The greeting at the top" },
+              { id: "a", text: "The sign-off at the end" },
               { id: "b", text: "The main message of the letter" },
-              { id: "c", text: "The sign-off at the end" },
+              { id: "c", text: "The greeting at the top" },
               { id: "d", text: "The envelope" },
             ],
             correctChoiceId: "b",
@@ -696,8 +696,8 @@ export const lesson33: Lesson = {
             choices: [
               { id: "a", text: "I demand payment for your services." },
               { id: "b", text: "Thank you so much for watering my plants while I was away." },
-              { id: "c", text: "Plants are boring." },
-              { id: "d", text: "To whom it may concern," },
+              { id: "c", text: "To whom it may concern," },
+              { id: "d", text: "Plants are boring." },
             ],
             correctChoiceId: "b",
           },

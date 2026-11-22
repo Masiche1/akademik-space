@@ -68,12 +68,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "To persuade local people to volunteer" },
+              { id: "a", text: "To advertise a product for sale" },
               { id: "b", text: "To entertain readers with a story about a river" },
-              { id: "c", text: "To report a crime in the park" },
-              { id: "d", text: "To advertise a product for sale" },
+              { id: "c", text: "To persuade local people to volunteer" },
+              { id: "d", text: "To report a crime in the park" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "convention", name: "Purpose", statement: "Identify what the writer wants the reader to think or do." }],
@@ -192,12 +192,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The menu lists twelve dishes." },
+              { id: "a", text: "A view is not a meal." },
               { id: "b", text: "The prices are a scandal." },
-              { id: "c", text: "Anyone with any sense would eat elsewhere." },
-              { id: "d", text: "A view is not a meal." },
+              { id: "c", text: "The menu lists twelve dishes." },
+              { id: "d", text: "Anyone with any sense would eat elsewhere." },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Fact", statement: "A statement that can be checked." }],

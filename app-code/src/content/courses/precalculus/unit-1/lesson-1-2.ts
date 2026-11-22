@@ -67,12 +67,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Quotient $x^2-2x-3$; remainder $0$" },
-              { id: "b", text: "Quotient $x^2-6x+13$; remainder $32$" },
+              { id: "a", text: "Quotient $x^2-6x+13$; remainder $32$" },
+              { id: "b", text: "Quotient $x^2-2x+3$; remainder $0$" },
               { id: "c", text: "Quotient $x^2-2x-3$; remainder $6$" },
-              { id: "d", text: "Quotient $x^2-2x+3$; remainder $0$" },
+              { id: "d", text: "Quotient $x^2-2x-3$; remainder $0$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -179,12 +179,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$f(1)=0$, so $x-1$ is a factor." },
-              { id: "b", text: "$f(-1)=0$, so $x-1$ is a factor." },
+              { id: "a", text: "$f(-1)=0$, so $x-1$ is a factor." },
+              { id: "b", text: "$f(1)=0$, so $x-1$ is a factor." },
               { id: "c", text: "$f(1)=3$, so $x-1$ is a factor." },
               { id: "d", text: "$f(0)=3$, so $x-1$ is a factor." },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -208,11 +208,11 @@ export const lesson12: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$\\pm1,\\pm2,\\pm4$" },
-              { id: "b", text: "$\\pm1,\\pm2,\\pm4,\\pm\\frac12$" },
+              { id: "b", text: "$\\pm1,\\pm2,\\pm4,\\pm\\frac12,\\pm\\frac14$" },
               { id: "c", text: "$\\pm1,\\pm\\frac12$" },
-              { id: "d", text: "$\\pm1,\\pm2,\\pm4,\\pm\\frac12,\\pm\\frac14$" },
+              { id: "d", text: "$\\pm1,\\pm2,\\pm4,\\pm\\frac12$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

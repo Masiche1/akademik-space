@@ -85,15 +85,15 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A temporary economic downturn" },
+              { id: "a", text: "Workers searching for their first job" },
+              { id: "b", text: "A temporary economic downturn" },
+              { id: "c", text: "Seasonal variations in demand" },
               {
-                id: "b",
+                id: "d",
                 text: "A mismatch between workers' skills and available jobs",
               },
-              { id: "c", text: "Workers searching for their first job" },
-              { id: "d", text: "Seasonal variations in demand" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -325,15 +325,15 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Unemployment caused by a recession" },
+              { id: "a", text: "Unemployment from factory closures" },
+              { id: "b", text: "Unemployment caused by a recession" },
+              { id: "c", text: "Unemployment lasting over a year" },
               {
-                id: "b",
+                id: "d",
                 text: "Short-term unemployment while workers search for or move between jobs",
               },
-              { id: "c", text: "Unemployment from factory closures" },
-              { id: "d", text: "Unemployment lasting over a year" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -374,14 +374,14 @@ export const lesson43: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Workers lacking the right skills" },
+              { id: "b", text: "Seasonal variations in output" },
+              { id: "c", text: "Technological change" },
               {
-                id: "b",
+                id: "d",
                 text: "Insufficient aggregate demand during a recession",
               },
-              { id: "c", text: "Seasonal variations in output" },
-              { id: "d", text: "Technological change" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -421,18 +421,18 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A person actively seeking work" },
-              { id: "b", text: "An employed person" },
               {
-                id: "c",
-                text: "A discouraged worker who has stopped looking for work",
-              },
-              {
-                id: "d",
+                id: "a",
                 text: "A recently laid-off worker registered with a job agency",
               },
+              { id: "b", text: "An employed person" },
+              { id: "c", text: "A person actively seeking work" },
+              {
+                id: "d",
+                text: "A discouraged worker who has stopped looking for work",
+              },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -480,8 +480,8 @@ export const lesson43: Lesson = {
             choices: [
               { id: "a", text: "A factory worker laid off during a recession" },
               { id: "b", text: "A ski instructor idle in summer" },
-              { id: "c", text: "A worker whose skills are obsolete" },
-              { id: "d", text: "A new graduate searching for a first job" },
+              { id: "c", text: "A new graduate searching for a first job" },
+              { id: "d", text: "A worker whose skills are obsolete" },
             ],
             correctChoiceId: "b",
           },
@@ -522,12 +522,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Only cyclical unemployment" },
-              { id: "b", text: "Frictional and structural unemployment" },
-              { id: "c", text: "Only seasonal unemployment" },
-              { id: "d", text: "All types including cyclical" },
+              { id: "a", text: "All types including cyclical" },
+              { id: "b", text: "Only seasonal unemployment" },
+              { id: "c", text: "Only cyclical unemployment" },
+              { id: "d", text: "Frictional and structural unemployment" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1062,16 +1062,16 @@ export const lesson43: Lesson = {
             choices: [
               {
                 id: "a",
-                text: "A positive relationship between inflation and unemployment",
-              },
-              {
-                id: "b",
                 text: "An inverse relationship between inflation and unemployment",
               },
+              { id: "b", text: "A vertical line at zero unemployment" },
               { id: "c", text: "No relationship between them" },
-              { id: "d", text: "A vertical line at zero unemployment" },
+              {
+                id: "d",
+                text: "A positive relationship between inflation and unemployment",
+              },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -1304,11 +1304,11 @@ export const lesson43: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Downward sloping" },
-              { id: "b", text: "Upward sloping" },
-              { id: "c", text: "Vertical at the natural rate of unemployment" },
+              { id: "b", text: "Vertical at the natural rate of unemployment" },
+              { id: "c", text: "Upward sloping" },
               { id: "d", text: "Horizontal at zero inflation" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1347,15 +1347,15 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Shift downward" },
               {
-                id: "b",
+                id: "a",
                 text: "Shift rightward (higher inflation at every unemployment rate)",
               },
+              { id: "b", text: "Remain unchanged" },
               { id: "c", text: "Become steeper" },
-              { id: "d", text: "Remain unchanged" },
+              { id: "d", text: "Shift downward" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -1399,12 +1399,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Anticipated inflation" },
-              { id: "b", text: "Unanticipated inflation" },
+              { id: "a", text: "Unanticipated inflation" },
+              { id: "b", text: "Anticipated inflation" },
               { id: "c", text: "Supply-side reforms" },
               { id: "d", text: "Higher interest rates" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -1444,15 +1444,15 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Zero unemployment" },
               {
-                id: "b",
+                id: "a",
                 text: "The unemployment rate consistent with stable inflation",
               },
-              { id: "c", text: "The lowest possible unemployment rate" },
-              { id: "d", text: "Seasonal unemployment only" },
+              { id: "b", text: "Seasonal unemployment only" },
+              { id: "c", text: "Zero unemployment" },
+              { id: "d", text: "The lowest possible unemployment rate" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -1493,14 +1493,14 @@ export const lesson43: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "A movement along the SRPC" },
+              { id: "b", text: "A fall in the natural rate" },
+              { id: "c", text: "A leftward shift of the LRPC" },
               {
-                id: "b",
+                id: "d",
                 text: "A rightward shift of the SRPC caused by adverse supply shocks",
               },
-              { id: "c", text: "A leftward shift of the LRPC" },
-              { id: "d", text: "A fall in the natural rate" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

@@ -53,12 +53,12 @@ export const lesson101: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Sight" },
-              { id: "b", text: "Hearing" },
-              { id: "c", text: "Touch" },
-              { id: "d", text: "Smell" },
+              { id: "a", text: "Touch" },
+              { id: "b", text: "Smell" },
+              { id: "c", text: "Sight" },
+              { id: "d", text: "Hearing" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -87,12 +87,12 @@ export const lesson101: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Opaque" },
-              { id: "b", text: "Transparent" },
-              { id: "c", text: "Rough" },
-              { id: "d", text: "Heavy" },
+              { id: "a", text: "Rough" },
+              { id: "b", text: "Heavy" },
+              { id: "c", text: "Transparent" },
+              { id: "d", text: "Opaque" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -224,10 +224,10 @@ export const lesson101: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Make the same" },
+              { id: "a", text: "Name objects" },
               { id: "b", text: "Look for similarities and differences" },
-              { id: "c", text: "Measure length" },
-              { id: "d", text: "Name objects" },
+              { id: "c", text: "Make the same" },
+              { id: "d", text: "Measure length" },
             ],
             correctChoiceId: "b",
           },
@@ -260,8 +260,8 @@ export const lesson101: Lesson = {
             choices: [
               { id: "a", text: "Cat and car" },
               { id: "b", text: "Dog and wolf" },
-              { id: "c", text: "Fish and bird" },
-              { id: "d", text: "Chair and cloud" },
+              { id: "c", text: "Chair and cloud" },
+              { id: "d", text: "Fish and bird" },
             ],
             correctChoiceId: "b",
           },

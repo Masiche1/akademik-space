@@ -66,12 +66,12 @@ export const lesson1011: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Morning" },
-              { id: "b", text: "Dusk" },
+              { id: "a", text: "Noon" },
+              { id: "b", text: "Morning" },
               { id: "c", text: "Midnight" },
-              { id: "d", text: "Noon" },
+              { id: "d", text: "Dusk" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -204,6 +204,459 @@ export const lesson1011: Lesson = {
               "Signs the final form, boards the ferry, and allows himself to think about sleep after nine days.",
           },
         },
+        {
+          id: "cile-u10-s7-lit-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          extract: checkpointExtract,
+          stem: "What does the harbour at dusk smell of?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Salt and diesel" },
+              { id: "b", text: "Petrol and smoke" },
+              { id: "c", text: "Rain and mud" },
+              { id: "d", text: "Fresh fish" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Literal",
+                statement: "Answer stated directly in text.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "'smelled of salt and diesel' is stated directly.",
+                working: "\\text{salt and diesel}",
+                marks: 1,
+                markCode: "AO1",
+              },
+            ],
+            finalAnswer: "**(b)** Salt and diesel",
+          },
+        },
+        {
+          id: "cile-u10-s7-lit-q6",
+          difficulty: "foundation",
+          totalMarks: 1,
+          extract: checkpointExtract,
+          stem: "How many times has Tomas counted the remaining crates when this scene begins?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Once" },
+              { id: "b", text: "Three times" },
+              { id: "c", text: "Nine times" },
+              { id: "d", text: "Twice" },
+            ],
+            borrectChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Literal",
+                statement: "Answer stated directly in text.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "'counted the remaining crates for the third time' — this is the third count.",
+                working: "\\text{third time}",
+                marks: 1,
+                markCode: "AO1",
+              },
+            ],
+            finalAnswer: "**(c)** Three times",
+          },
+        },
+        {
+          id: "cile-u10-s7-lit-q7",
+          difficulty: "core",
+          totalMarks: 1,
+          extract: checkpointExtract,
+          stem: "What is wrapped in blankets in the extract?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "The manifest" },
+              { id: "b", text: "The ferry's horn" },
+              { id: "c", text: "A crate of tea" },
+              { id: "d", text: "A cello" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Retrieval",
+                statement: "Literal answers restate stated details.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "'a single cello wrapped in blankets' — the cello is wrapped.",
+                working: "\\text{a cello}",
+                marks: 1,
+                markCode: "AO1",
+              },
+            ],
+            finalAnswer: "**(b)** A cello",
+          },
+        },
+        {
+          id: "cile-u10-s7-lit-q8",
+          difficulty: "core",
+          totalMarks: 1,
+          extract: checkpointExtract,
+          stem: "Where is the girl in the yellow raincoat when Tomas looks across the water?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "On the open sea" },
+              { id: "b", text: "On the far jetty" },
+              { id: "c", text: "Inside the crates" },
+              { id: "d", text: "On the ferry" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Retrieval",
+                statement: "Literal answers restate stated details.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "'On the far jetty, a girl in a yellow raincoat was already waving.'",
+                working: "\\text{far jetty}",
+                marks: 1,
+                markCode: "AO1",
+              },
+            ],
+            finalAnswer: "**(b)** On the far jetty",
+          },
+        },
+        {
+          id: "cile-u10-s7-lit-q9",
+          difficulty: "core",
+          totalMarks: 1,
+          extract: checkpointExtract,
+          stem: "What does Tomas do first in the final paragraph?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Signs the last form" },
+              { id: "b", text: "Climbs aboard the ferry" },
+              { id: "c", text: "Counts the crates again" },
+              { id: "d", text: "Waves to the girl" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "skill",
+                name: "Sequence",
+                statement: "Order of events: signs, stamps, boards.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "'He signed the last form' comes before stamping and boarding.",
+                working: "\\text{signed}",
+                marks: 1,
+                markCode: "AO2",
+              },
+            ],
+            finalAnswer: "**(b)** Signs the last form",
+          },
+        },
+        {
+          id: "cile-u10-s7-lit-q10",
+          difficulty: "foundation",
+          totalMarks: 2,
+          extract: checkpointExtract,
+          stem: "How many cases of tea are listed on the manifest?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "tea", answer: 42, unit: "cases" }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Retrieval",
+                statement: "Find the stated number in the text.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "'forty-two cases of tea' states the number.",
+                working: "\\text{forty-two}",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                reasoning: "Forty-two = 42.",
+                working: "42",
+                marks: 1,
+                markCode: "AO2",
+              },
+            ],
+            finalAnswer: "42 cases",
+          },
+        },
+        {
+          id: "cile-u10-s7-lit-q11",
+          difficulty: "core",
+          totalMarks: 3,
+          extract: checkpointExtract,
+          stem: "Give: (a) the number of cases of coffee on the manifest; (b) the number of cellos Tomas is transporting.",
+          response: {
+            type: "numeric",
+            parts: [
+              { label: "a", answer: 11, unit: "cases" },
+              { label: "b", answer: 1, unit: "cellos" },
+            ],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "skill",
+                name: "Retrieval",
+                statement: "Find each stated number in the manifest.",
+              },
+            ],
+            steps: [
+              {
+                part: "a",
+                reasoning: "'eleven of coffee' — 11 cases.",
+                working: "\\text{eleven}",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                part: "b",
+                reasoning: "'a single cello' — 1 cello.",
+                working: "\\text{single}",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                reasoning: "Both details come from the same manifest sentence.",
+                marks: 1,
+                markCode: "AO2",
+              },
+            ],
+            finalAnswer: "(a) 11 (b) 1",
+          },
+        },
+        {
+          id: "cile-u10-s7-lit-q12",
+          difficulty: "core",
+          totalMarks: 2,
+          extract: checkpointExtract,
+          stem: "How many times does the ferry's horn sound in the extract?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "horn", answer: 2, unit: "times" }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Retrieval",
+                statement: "Count events stated in the text.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "'The ferry's horn sounded twice' — two sounds.",
+                working: "\\text{twice}",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                reasoning: "Twice = 2 times.",
+                marks: 1,
+                markCode: "AO2",
+              },
+            ],
+            finalAnswer: "2 times",
+          },
+        },
+        {
+          id: "cile-u10-s7-lit-q13",
+          difficulty: "challenge",
+          totalMarks: 4,
+          extract: checkpointExtract,
+          stem: "Give four numbers from the extract: (a) the number of oceans the cello has crossed; (b) the number of days Tomas has worked; (c) the number of times he stamps the form; (d) the number of paragraphs in the extract.",
+          response: {
+            type: "numeric",
+            parts: [
+              { label: "a", answer: 3, unit: "oceans" },
+              { label: "b", answer: 9, unit: "days" },
+              { label: "c", answer: 2, unit: "times" },
+              { label: "d", answer: 3, unit: "paragraphs" },
+            ],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "skill",
+                name: "Multiple retrieval",
+                statement: "Locate each detail in the text before answering.",
+              },
+            ],
+            steps: [
+              {
+                part: "a",
+                reasoning: "'carried that cello across three oceans' — 3.",
+                working: "\\text{three oceans}",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                part: "b",
+                reasoning: "'for the first time in nine days' — 9 days.",
+                working: "\\text{nine days}",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                part: "c",
+                reasoning: "'stamped it twice' — 2 times.",
+                working: "\\text{twice}",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                part: "d",
+                reasoning: "The extract has 3 paragraphs.",
+                marks: 1,
+                markCode: "AO2",
+              },
+            ],
+            finalAnswer: "(a) 3 (b) 9 (c) 2 (d) 3",
+          },
+        },
+        {
+          id: "cile-u10-s7-lit-q14",
+          difficulty: "core",
+          totalMarks: 2,
+          extract: checkpointExtract,
+          stem: "State where the extract is set and at what time of day.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "skill",
+                name: "Setting retrieval",
+                statement: "Setting = place + time, both stated in the text.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Place: a harbour.",
+                working: "\\text{harbour}",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                reasoning: "Time: dusk — 'The harbour at dusk'.",
+                marks: 1,
+                markCode: "AO2",
+              },
+            ],
+            finalAnswer: "A harbour, at dusk.",
+          },
+        },
+        {
+          id: "cile-u10-s7-lit-q15",
+          difficulty: "core",
+          totalMarks: 3,
+          extract: checkpointExtract,
+          stem: "Describe the girl waiting on the jetty, using details from the text.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "skill",
+                name: "Detail retrieval",
+                statement: "Answer from stated details: raincoat, waving, dog.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "She wears a yellow raincoat.",
+                working: "\\text{yellow raincoat}",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                reasoning: "She is already waving before the ferry leaves.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                reasoning: "She has a dog straining at its lead.",
+                marks: 1,
+                markCode: "AO2",
+              },
+            ],
+            finalAnswer:
+              "A girl in a yellow raincoat, already waving on the far jetty with her dog straining at its lead.",
+          },
+        },
+        {
+          id: "cile-u10-s7-lit-q16",
+          difficulty: "challenge",
+          totalMarks: 4,
+          extract: checkpointExtract,
+          stem: "List, in order, the actions Tomas performs in the final paragraph.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "skill",
+                name: "Sequence",
+                statement: "Order matters — follow the text's sequence of events.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "First: he signs the last form.",
+                working: "\\text{signs}",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                reasoning: "Second: he stamps it twice.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                reasoning: "Third: he climbs aboard as the gangway lifts.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "Correct sequence with clear ordering.",
+                marks: 1,
+                markCode: "AO3",
+              },
+            ],
+            finalAnswer: "Signs the last form → stamps it twice → climbs aboard the ferry as the gangway lifts.",
+          },
+        },
       ],
     },
     {
@@ -241,9 +694,9 @@ export const lesson1011: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "It is valuable to him personally" },
-              { id: "b", text: "It is badly damaged" },
-              { id: "c", text: "It belongs to the ferry company" },
-              { id: "d", text: "It is made of blankets" },
+              { id: "b", text: "It is made of blankets" },
+              { id: "c", text: "It is badly damaged" },
+              { id: "d", text: "It belongs to the ferry company" },
             ],
             correctChoiceId: "a",
           },
@@ -378,6 +831,457 @@ export const lesson1011: Lesson = {
               "He has been working without rest for nine days; finally boarding means he can relax — weary but relieved.",
           },
         },
+        {
+          id: "cile-u10-s7-inf-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          extract: checkpointExtract,
+          stem: "What does Tomas counting the crates 'for the third time' suggest about him?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "He is thorough and careful with the cargo" },
+              { id: "b", text: "He is careless and keeps forgetting" },
+              { id: "c", text: "He is counting for fun" },
+              { id: "d", text: "He cannot read the manifest" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Inference",
+                statement: "Drawn from evidence, not stated.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Repeated counting shows care — he does not trust one check.",
+                working: "\\text{careful}",
+                marks: 1,
+                markCode: "AO3",
+              },
+            ],
+            finalAnswer: "**(b)** He is thorough and careful with the cargo",
+          },
+        },
+        {
+          id: "cile-u10-s7-inf-q6",
+          difficulty: "core",
+          totalMarks: 1,
+          extract: checkpointExtract,
+          stem: "What mood does 'the ferry's horn sounded twice, low and patient' create?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Sadness and loss" },
+              { id: "b", text: "Calm and unhurried" },
+              { id: "c", text: "Urgency and panic" },
+              { id: "d", text: "Anger and conflict" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "skill",
+                name: "Tone inference",
+                statement: "'Low and patient' suggests a calm, waiting mood.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "'Patient' personifies the horn as unhurried — nothing is rushed.",
+                working: "\\text{patient}",
+                marks: 1,
+                markCode: "AO3",
+              },
+            ],
+            finalAnswer: "**(b)** Calm and unhurried",
+          },
+        },
+        {
+          id: "cile-u10-s7-inf-q7",
+          difficulty: "core",
+          totalMarks: 1,
+          extract: checkpointExtract,
+          stem: "Why might the writer tell us the cello was carried 'across three oceans'?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "To emphasise the cello's value and history" },
+              { id: "b", text: "To show the journey was easy" },
+              { id: "c", text: "To explain how Tomas got his job" },
+              { id: "d", text: "To describe the weather" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "skill",
+                name: "Purpose of detail",
+                statement: "Details are chosen to build meaning — three oceans signals significance.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Three oceans of travel makes the cello precious — it is not ordinary cargo.",
+                working: "\\text{value}",
+                marks: 1,
+                markCode: "AO3",
+              },
+            ],
+            finalAnswer: "**(b)** To emphasise the cello's value and history",
+          },
+        },
+        {
+          id: "cile-u10-s7-inf-q8",
+          difficulty: "foundation",
+          totalMarks: 1,
+          extract: checkpointExtract,
+          stem: "What does 'he was not about to leave it behind for want of a signature' suggest about Tomas?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "He will do whatever is needed to take the cello with him" },
+              { id: "b", text: "He will abandon the cello if paperwork is difficult" },
+              { id: "c", text: "He forgot about the cello" },
+              { id: "d", text: "He dislikes signatures" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Inference",
+                statement: "'Not about to' signals determination despite obstacles.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "The idiom means he refuses to leave the cello behind over a mere formality.",
+                working: "\\text{determined}",
+                marks: 1,
+                markCode: "AO3",
+              },
+            ],
+            finalAnswer: "**(b)** He will do whatever is needed to take the cello with him",
+          },
+        },
+        {
+          id: "cile-u10-s7-inf-q9",
+          difficulty: "challenge",
+          totalMarks: 1,
+          extract: checkpointExtract,
+          stem: "The sea is described as 'dark and glittering'. What does this combination suggest about the journey ahead?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "It will be quick and easy" },
+              { id: "b", text: "It is purely dangerous and frightening" },
+              { id: "c", text: "It is calm and boring" },
+              { id: "d", text: "It holds both risk and beauty — daunting but exciting" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "skill",
+                name: "Contrast inference",
+                statement: "'Dark' suggests danger; 'glittering' suggests beauty — together, ambivalence.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "The two adjectives create mixed feelings — the unknown ahead is both risky and wonderful.",
+                working: "\\text{ambivalent}",
+                marks: 1,
+                markCode: "AO3",
+              },
+            ],
+            finalAnswer: "**(b)** It holds both risk and beauty — daunting but exciting",
+          },
+        },
+        {
+          id: "cile-u10-s7-inf-q10",
+          difficulty: "foundation",
+          totalMarks: 2,
+          extract: checkpointExtract,
+          stem: "How many times in total has Tomas counted the crates, including the count described in the text?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "counts", answer: 3 }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "skill",
+                name: "Inference from wording",
+                statement: "'For the third time' means this is the third counting.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "'Counted ... for the third time' — the current count is number three.",
+                working: "\\text{third}",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "Total countings = 3.",
+                marks: 1,
+                markCode: "AO3",
+              },
+            ],
+            finalAnswer: "3",
+          },
+        },
+        {
+          id: "cile-u10-s7-inf-q11",
+          difficulty: "core",
+          totalMarks: 3,
+          extract: checkpointExtract,
+          stem: "Use these details as evidence for your inferences. Give: (a) the number of oceans the cello has crossed; (b) the number of times the ferry's horn sounds; (c) the number of days Tomas has gone without thinking of sleep.",
+          response: {
+            type: "numeric",
+            parts: [
+              { label: "a", answer: 3, unit: "oceans" },
+              { label: "b", answer: 2, unit: "times" },
+              { label: "c", answer: 9, unit: "days" },
+            ],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "skill",
+                name: "Evidence retrieval",
+                statement: "Inferences must be anchored to quoted details.",
+              },
+            ],
+            steps: [
+              {
+                part: "a",
+                reasoning: "Evidence: 'across three oceans' — 3.",
+                working: "\\text{three oceans}",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                part: "b",
+                reasoning: "Evidence: 'sounded twice' — 2.",
+                working: "\\text{twice}",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                part: "c",
+                reasoning: "Evidence: 'first time in nine days' — 9.",
+                working: "\\text{nine days}",
+                marks: 1,
+                markCode: "AO2",
+              },
+            ],
+            finalAnswer: "(a) 3 (b) 2 (c) 9",
+          },
+        },
+        {
+          id: "cile-u10-s7-inf-q12",
+          difficulty: "challenge",
+          totalMarks: 4,
+          extract: checkpointExtract,
+          stem: "Give two counts as evidence of the scene's emotional weight: (a) the number of cargo items listed on the manifest; (b) the number of living creatures (people and animals) mentioned on the jetty side of the scene.",
+          response: {
+            type: "numeric",
+            parts: [
+              { label: "a", answer: 3, unit: "items" },
+              { label: "b", answer: 2, unit: "creatures" },
+            ],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "skill",
+                name: "Evidence counting",
+                statement: "Count carefully — distinguish people from animals and items.",
+              },
+            ],
+            steps: [
+              {
+                part: "a",
+                reasoning: "Manifest items: tea, coffee, cello = 3.",
+                working: "\\text{tea; coffee; cello}",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                part: "b",
+                reasoning: "Jetty side: the girl and her dog = 2 creatures.",
+                working: "\\text{girl + dog}",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "Tomas is on the harbour side, not the jetty side.",
+                marks: 1,
+                markCode: "AO3",
+              },
+              {
+                reasoning: "Careful reading distinguishes the two sides of the water.",
+                marks: 1,
+                markCode: "AO4",
+              },
+            ],
+            finalAnswer: "(a) 3 (b) 2",
+          },
+        },
+        {
+          id: "cile-u10-s7-inf-q13",
+          difficulty: "core",
+          totalMarks: 2,
+          extract: checkpointExtract,
+          stem: "How many documents does Tomas sign or stamp in the extract?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "forms", answer: 1 }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "skill",
+                name: "Detail inference",
+                statement: "'The last form' — one document, signed and stamped.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "He 'signed the last form' and 'stamped it twice' — one form total.",
+                working: "\\text{last form}",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "Stamping the same form twice does not make two forms.",
+                marks: 1,
+                markCode: "AO3",
+              },
+            ],
+            finalAnswer: "1",
+          },
+        },
+        {
+          id: "cile-u10-s7-inf-q14",
+          difficulty: "core",
+          totalMarks: 2,
+          extract: checkpointExtract,
+          stem: "Explain why Tomas only 'allowed himself' to think about sleep now, as he boards.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "skill",
+                name: "Inference",
+                statement: "'Allowed himself' implies he has been too busy to rest.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "'Allowed himself' suggests rest was a luxury he denied himself during work.",
+                working: "\\text{denied}",
+                marks: 1,
+                markCode: "AO3",
+              },
+              {
+                reasoning: "Boarding signals the work is done — he can finally relax.",
+                marks: 1,
+                markCode: "AO3",
+              },
+            ],
+            finalAnswer:
+              "He has been too busy for nine days to even consider sleep; finishing the paperwork and boarding means he can finally rest.",
+          },
+        },
+        {
+          id: "cile-u10-s7-inf-q15",
+          difficulty: "core",
+          totalMarks: 3,
+          extract: checkpointExtract,
+          stem: "What does the girl's early arrival and waving suggest about her relationship to Tomas?",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "skill",
+                name: "Inference",
+                statement: "Behaviour details reveal relationships.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "She waits on the far jetty 'already waving' — she came early to greet him.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "Waving before he boards is familiar, not formal — she knows him well.",
+                marks: 1,
+                markCode: "AO3",
+              },
+              {
+                reasoning: "With her dog, she is likely family or a close friend.",
+                marks: 1,
+                markCode: "AO3",
+              },
+            ],
+            finalAnswer:
+              "She is likely a close friend or relative — her early arrival and eager wave show she came specifically to greet him.",
+          },
+        },
+        {
+          id: "cile-u10-s7-inf-q16",
+          difficulty: "challenge",
+          totalMarks: 4,
+          extract: checkpointExtract,
+          stem: "Explain how the writer creates a sense of relief at the end of the extract, using two details.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "skill",
+                name: "Mood inference",
+                statement: "Relief is signalled by completion and physical release.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Detail 1: 'the gangway lifted' — the physical act of boarding ends the departure tension.",
+                working: "\\text{gangway}",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "Detail 2: 'for the first time in nine days' thinking of sleep — exhaustion finally lifting.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "The glittering sea adds freedom and possibility rather than threat.",
+                marks: 1,
+                markCode: "AO3",
+              },
+              {
+                reasoning: "Together the details move the reader from tension to calm resolution.",
+                marks: 1,
+                markCode: "AO4",
+              },
+            ],
+            finalAnswer:
+              "Boarding the ferry ends the tense departure and, after nine days of work, Tomas finally thinks of sleep — signalling deep relief.",
+          },
+        },
       ],
     },
     {
@@ -415,12 +1319,12 @@ export const lesson1011: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Eleven" },
-              { id: "b", text: "Forty-two" },
+              { id: "a", text: "Forty-two" },
+              { id: "b", text: "Ten" },
               { id: "c", text: "Twelve" },
-              { id: "d", text: "Ten" },
+              { id: "d", text: "Eleven" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -559,6 +1463,460 @@ export const lesson1011: Lesson = {
             ],
             finalAnswer:
               "The finished paperwork, the lifting gangway and the glittering sea show work ending; thinking about sleep for the first time in nine days signals relief.",
+          },
+        },
+        {
+          id: "cile-u10-s7-mx-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          extract: checkpointExtract,
+          stem: "In the extract, what does 'manifest' refer to?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Tomas's shopping list" },
+              { id: "b", text: "The ferry's timetable" },
+              { id: "c", text: "A map of the harbour" },
+              { id: "d", text: "The list of cargo being transported" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Vocabulary in context",
+                statement: "'Manifest' = the official list of cargo.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "The manifest lists 'forty-two cases of tea, eleven of coffee, and a single cello' — it is the cargo list.",
+                working: "\\text{cargo list}",
+                marks: 1,
+                markCode: "AO1",
+              },
+            ],
+            finalAnswer: "**(b)** The list of cargo being transported",
+          },
+        },
+        {
+          id: "cile-u10-s7-mx-q6",
+          difficulty: "core",
+          totalMarks: 1,
+          extract: checkpointExtract,
+          stem: "What does 'her dog straining at its lead' suggest about the dog?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "It is eager to reach the ferry or Tomas" },
+              { id: "b", text: "It wants to stay exactly where it is" },
+              { id: "c", text: "It is injured" },
+              { id: "d", text: "It is asleep" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "skill",
+                name: "Inference",
+                statement: "'Straining at its lead' implies eager forward movement.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Straining against the lead shows excitement — it wants to get to them.",
+                working: "\\text{eager}",
+                marks: 1,
+                markCode: "AO3",
+              },
+            ],
+            finalAnswer: "**(b)** It is eager to reach the ferry or Tomas",
+          },
+        },
+        {
+          id: "cile-u10-s7-mx-q7",
+          difficulty: "foundation",
+          totalMarks: 1,
+          extract: checkpointExtract,
+          stem: "Which statement best describes the setting of the extract?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "A harbour at dusk" },
+              { id: "b", text: "A busy city market at noon" },
+              { id: "c", text: "A farmhouse in the mountains" },
+              { id: "d", text: "An airport terminal" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Setting",
+                statement: "Place and time stated in the opening line.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "'The harbour at dusk' states both place and time.",
+                working: "\\text{harbour at dusk}",
+                marks: 1,
+                markCode: "AO1",
+              },
+            ],
+            finalAnswer: "**(b)** A harbour at dusk",
+          },
+        },
+        {
+          id: "cile-u10-s7-mx-q8",
+          difficulty: "core",
+          totalMarks: 1,
+          extract: checkpointExtract,
+          stem: "What feeling does 'the open sea stretched dark and glittering' create?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Awe — vastness that is both beautiful and slightly frightening" },
+              { id: "b", text: "Confusion and chaos" },
+              { id: "c", text: "Boredom and routine" },
+              { id: "d", text: "Anger and frustration" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "skill",
+                name: "Mood",
+                statement: "Imagery of vast dark glittering water creates awe.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "'Stretched' and 'glittering' make the sea seem immense and beautiful, yet 'dark' hints at the unknown.",
+                working: "\\text{awe}",
+                marks: 1,
+                markCode: "AO3",
+              },
+            ],
+            finalAnswer: "**(b)** Awe — vastness that is both beautiful and slightly frightening",
+          },
+        },
+        {
+          id: "cile-u10-s7-mx-q9",
+          difficulty: "challenge",
+          totalMarks: 1,
+          extract: checkpointExtract,
+          stem: "Which statement best summarises the whole extract?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Tomas counts crates for nine days without sleeping" },
+              { id: "b", text: "Tomas loses the cello during a storm at sea" },
+              { id: "c", text: "Tomas finishes his paperwork and boards the ferry with precious cargo, greeted by someone waiting" },
+              { id: "d", text: "The girl sails the ferry across the ocean" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "skill",
+                name: "Summary",
+                statement: "A summary captures the main events: paperwork done, boarding, precious cello, waiting girl.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "The extract covers signing, boarding, the cargo (incl. cello) and the girl waving — option (b) captures all.",
+                working: "\\text{main events}",
+                marks: 1,
+                markCode: "AO2",
+              },
+            ],
+            finalAnswer: "**(b)** Tomas finishes his paperwork and boards the ferry with precious cargo, greeted by someone waiting",
+          },
+        },
+        {
+          id: "cile-u10-s7-mx-q10",
+          difficulty: "foundation",
+          totalMarks: 2,
+          extract: checkpointExtract,
+          stem: "How many cases of tea does the manifest list?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "tea", answer: 42, unit: "cases" }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Retrieval",
+                statement: "Find the stated number: 'forty-two cases of tea'.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Locate 'forty-two cases of tea' in the manifest.",
+                working: "\\text{forty-two}",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                reasoning: "Forty-two = 42.",
+                marks: 1,
+                markCode: "AO2",
+              },
+            ],
+            finalAnswer: "42",
+          },
+        },
+        {
+          id: "cile-u10-s7-mx-q11",
+          difficulty: "core",
+          totalMarks: 3,
+          extract: checkpointExtract,
+          stem: "Give: (a) the number of cases of coffee; (b) the number of cellos; (c) the number of times Tomas has counted the crates.",
+          response: {
+            type: "numeric",
+            parts: [
+              { label: "a", answer: 11, unit: "cases" },
+              { label: "b", answer: 1, unit: "cellos" },
+              { label: "c", answer: 3, unit: "times" },
+            ],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "skill",
+                name: "Mixed retrieval",
+                statement: "Retrieve literal details from different parts of the text.",
+              },
+            ],
+            steps: [
+              {
+                part: "a",
+                reasoning: "'eleven of coffee' — 11.",
+                working: "\\text{eleven}",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                part: "b",
+                reasoning: "'a single cello' — 1.",
+                working: "\\text{single}",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                part: "c",
+                reasoning: "'for the third time' — 3 counts.",
+                working: "\\text{third}",
+                marks: 1,
+                markCode: "AO2",
+              },
+            ],
+            finalAnswer: "(a) 11 (b) 1 (c) 3",
+          },
+        },
+        {
+          id: "cile-u10-s7-mx-q12",
+          difficulty: "core",
+          totalMarks: 2,
+          extract: checkpointExtract,
+          stem: "How many paragraphs does the extract contain?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "paragraphs", answer: 3 }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Structure",
+                statement: "Count paragraph breaks (blank lines) in the text.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "The extract has three blocks of text separated by blank lines.",
+                working: "\\text{3}",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "Each block develops one stage: harbour, jetty, boarding.",
+                marks: 1,
+                markCode: "AO3",
+              },
+            ],
+            finalAnswer: "3",
+          },
+        },
+        {
+          id: "cile-u10-s7-mx-q13",
+          difficulty: "challenge",
+          totalMarks: 4,
+          extract: checkpointExtract,
+          stem: "Calculate from the manifest: (a) the total number of cargo items listed (tea, coffee and cello); (b) the total number of individual pieces if each case counts as one piece; (c) the number of oceans the cello crossed.",
+          response: {
+            type: "numeric",
+            parts: [
+              { label: "a", answer: 3, unit: "items" },
+              { label: "b", answer: 54, unit: "pieces" },
+              { label: "c", answer: 3, unit: "oceans" },
+            ],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "skill",
+                name: "Calculation from text",
+                statement: "Add stated quantities carefully: 42 + 11 + 1.",
+              },
+            ],
+            steps: [
+              {
+                part: "a",
+                reasoning: "Item types: tea, coffee, cello = 3.",
+                working: "\\text{3 types}",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                part: "b",
+                reasoning: "Pieces = 42 + 11 + 1 = 54.",
+                working: "42+11+1=54",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                part: "c",
+                reasoning: "'across three oceans' — 3.",
+                working: "\\text{three}",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                reasoning: "Check the addition before answering.",
+                marks: 1,
+                markCode: "AO3",
+              },
+            ],
+            finalAnswer: "(a) 3 (b) 54 (c) 3",
+          },
+        },
+        {
+          id: "cile-u10-s7-mx-q14",
+          difficulty: "core",
+          totalMarks: 2,
+          extract: checkpointExtract,
+          stem: "Explain what the detail 'as the gangway lifted' tells the reader about Tomas's departure.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "skill",
+                name: "Detail analysis",
+                statement: "Small physical details signal transition — departure is final.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "The gangway lifting is the moment of no return — the ferry is leaving.",
+                working: "\\text{departure}",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "It marks the end of his nine days of work — transition to the journey.",
+                marks: 1,
+                markCode: "AO3",
+              },
+            ],
+            finalAnswer:
+              "It is the final irreversible moment — once the gangway lifts, Tomas cannot return, marking the end of his work period.",
+          },
+        },
+        {
+          id: "cile-u10-s7-mx-q15",
+          difficulty: "core",
+          totalMarks: 3,
+          extract: checkpointExtract,
+          stem: "In your own words, describe the atmosphere as Tomas boards the ferry.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "skill",
+                name: "Atmosphere",
+                statement: "Combine details: glittering sea, lifting gangway, thought of sleep.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "The 'dark and glittering' sea creates a mood of awe and possibility.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "The lifting gangway and finished paperwork give a sense of completion.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "Thinking of sleep for the first time in nine days adds calm relief.",
+                marks: 1,
+                markCode: "AO3",
+              },
+            ],
+            finalAnswer:
+              "Awe and quiet relief — the vast glittering sea ahead, the work finally finished, and Tomas allowing himself to rest.",
+          },
+        },
+        {
+          id: "cile-u10-s7-mx-q16",
+          difficulty: "challenge",
+          totalMarks: 4,
+          extract: checkpointExtract,
+          stem: "Write a four-sentence summary of the extract covering: the setting, the cargo, the girl on the jetty, and Tomas's final state.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "skill",
+                name: "Summary",
+                statement: "Cover all four required elements in your own words, one per sentence.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Sentence 1: setting — a harbour at dusk.",
+                working: "\\text{setting}",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                reasoning: "Sentence 2: cargo — tea, coffee and a precious cello.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                reasoning: "Sentence 3: girl waving on the far jetty with her dog.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "Sentence 4: Tomas boards exhausted but relieved, thinking of sleep.",
+                marks: 1,
+                markCode: "AO3",
+              },
+            ],
+            finalAnswer:
+              "Any four accurate sentences covering setting, cargo, the girl and Tomas's state — e.g. 'At dusk in a harbour, Tomas checks his cargo: tea, coffee and a cello wrapped in his grandmother's blankets. A girl in a yellow raincoat waves from the far jetty with her dog. Tomas signs the last form and boards the ferry as the gangway lifts. After nine days of work, he allows himself to think about sleep.'",
           },
         },
       ],

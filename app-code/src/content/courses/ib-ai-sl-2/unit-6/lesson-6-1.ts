@@ -49,9 +49,9 @@ export const lesson61: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$12x^3$" },
-              { id: "b", text: "$12x^4$" },
-              { id: "c", text: "$3x^3$" },
-              { id: "d", text: "$\\dfrac{3x^5}{5}$" },
+              { id: "b", text: "$\\dfrac{3x^5}{5}$" },
+              { id: "c", text: "$12x^4$" },
+              { id: "d", text: "$3x^3$" },
             ],
             correctChoiceId: "a",
           },
@@ -156,12 +156,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$15x^2-2$" },
-              { id: "b", text: "$15x^2+2$" },
+              { id: "a", text: "$5x^2-2$" },
+              { id: "b", text: "$15x^2-2$" },
               { id: "c", text: "$15x^3-2$" },
-              { id: "d", text: "$5x^2-2$" },
+              { id: "d", text: "$15x^2+2$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Power rule", statement: "$\\frac{\\mathrm{d}}{\\mathrm{d}x}(ax^n)=nax^{n-1}$" }],
@@ -182,12 +182,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$-2x^{-3}$" },
-              { id: "b", text: "$-2x^{-1}$" },
-              { id: "c", text: "$x^{-3}$" },
-              { id: "d", text: "$2x^{-1}$" },
+              { id: "a", text: "$x^{-3}$" },
+              { id: "b", text: "$-2x^{-3}$" },
+              { id: "c", text: "$2x^{-1}$" },
+              { id: "d", text: "$-2x^{-1}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Power rule", statement: "$\\frac{\\mathrm{d}}{\\mathrm{d}x}(x^n)=nx^{n-1}$, valid for negative $n$." }],
@@ -209,9 +209,9 @@ export const lesson61: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$2x-\\dfrac{1}{x^2}$" },
-              { id: "b", text: "$2x+\\dfrac{1}{x^2}$" },
+              { id: "b", text: "$x^2-\\dfrac{1}{x^2}$" },
               { id: "c", text: "$2x-\\dfrac{1}{x}$" },
-              { id: "d", text: "$x^2-\\dfrac{1}{x^2}$" },
+              { id: "d", text: "$2x+\\dfrac{1}{x^2}$" },
             ],
             correctChoiceId: "a",
           },
@@ -307,12 +307,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The population is increasing at a rate of 10 bacteria per hour." },
-              { id: "b", text: "The population is 10 bacteria." },
+              { id: "a", text: "The population is 10 bacteria." },
+              { id: "b", text: "The population reaches its maximum at $t=10$ hours." },
               { id: "c", text: "The population is decreasing at a rate of 10 bacteria per hour." },
-              { id: "d", text: "The population reaches its maximum at $t=10$ hours." },
+              { id: "d", text: "The population is increasing at a rate of 10 bacteria per hour." },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "property", name: "Sign of the derivative", statement: "$f'(x)>0$ means $f$ is increasing; $f'(x)<0$ means it is decreasing." }],
@@ -364,12 +364,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$3+\\dfrac{1}{x^2}$" },
-              { id: "b", text: "$3-\\dfrac{1}{x^2}$" },
-              { id: "c", text: "$6x+\\dfrac{1}{x}$" },
-              { id: "d", text: "$6x-\\dfrac{1}{x^2}$" },
+              { id: "a", text: "$3-\\dfrac{1}{x^2}$" },
+              { id: "b", text: "$6x-\\dfrac{1}{x^2}$" },
+              { id: "c", text: "$3+\\dfrac{1}{x^2}$" },
+              { id: "d", text: "$6x+\\dfrac{1}{x}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Rewrite before differentiating", statement: "Split the fraction into powers of $x$ first: $f(x)=3x-x^{-1}$." }],
@@ -390,12 +390,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$1-\\dfrac{1}{x^2}$" },
+              { id: "a", text: "$x-\\dfrac{1}{x^2}$" },
               { id: "b", text: "$1+\\dfrac{1}{x^2}$" },
-              { id: "c", text: "$x-\\dfrac{1}{x^2}$" },
-              { id: "d", text: "$1-\\dfrac{2}{x^3}$" },
+              { id: "c", text: "$1-\\dfrac{2}{x^3}$" },
+              { id: "d", text: "$1-\\dfrac{1}{x^2}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Rewrite before differentiating", statement: "Divide each term by $x$ to get $f(x)=x+x^{-1}$." }],
@@ -477,12 +477,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$x<3$" },
-              { id: "b", text: "$x>3$" },
-              { id: "c", text: "$x<-6$" },
-              { id: "d", text: "$x>-6$" },
+              { id: "a", text: "$x>-6$" },
+              { id: "b", text: "$x<3$" },
+              { id: "c", text: "$x>3$" },
+              { id: "d", text: "$x<-6$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "property", name: "Decreasing function", statement: "$f$ is decreasing where $f'(x)<0$." }],
@@ -585,12 +585,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$x>4$" },
-              { id: "b", text: "$x<4$" },
-              { id: "c", text: "$x>-4$" },
-              { id: "d", text: "$x<-4$" },
+              { id: "a", text: "$x<-4$" },
+              { id: "b", text: "$x>-4$" },
+              { id: "c", text: "$x<4$" },
+              { id: "d", text: "$x>4$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "property", name: "Increasing function", statement: "$f$ is increasing where $f'(x)>0$." }],
@@ -611,10 +611,10 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$5$" },
-              { id: "b", text: "$6$" },
+              { id: "a", text: "$6$" },
+              { id: "b", text: "$10$" },
               { id: "c", text: "$8$" },
-              { id: "d", text: "$10$" },
+              { id: "d", text: "$5$" },
             ],
             correctChoiceId: "c",
           },
@@ -637,8 +637,8 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$5$" },
-              { id: "b", text: "$-5$" },
+              { id: "a", text: "$-5$" },
+              { id: "b", text: "$5$" },
               { id: "c", text: "$\\dfrac{1}{5}$" },
               { id: "d", text: "$-\\dfrac{1}{5}$" },
             ],
@@ -757,12 +757,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$f$ is increasing for $x>3$" },
-              { id: "b", text: "$f$ is decreasing for $x>3$" },
+              { id: "a", text: "$f$ is decreasing for $x>3$" },
+              { id: "b", text: "$f$ has zero gradient for all values of $x$" },
               { id: "c", text: "$f$ is increasing for $x<3$" },
-              { id: "d", text: "$f$ has zero gradient for all values of $x$" },
+              { id: "d", text: "$f$ is increasing for $x>3$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "property", name: "Increasing function", statement: "$f$ is increasing where $f'(x)>0$." }],
@@ -814,9 +814,9 @@ export const lesson61: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$0$" },
-              { id: "b", text: "$-1$" },
+              { id: "b", text: "$4$" },
               { id: "c", text: "$-2$" },
-              { id: "d", text: "$4$" },
+              { id: "d", text: "$-1$" },
             ],
             correctChoiceId: "a",
           },
@@ -839,12 +839,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$y=x^3-x^2$" },
-              { id: "b", text: "$y=x^2+x+1$" },
-              { id: "c", text: "$y=x^3-2x^2+7x$" },
-              { id: "d", text: "$y=x^3+x^2-5x$" },
+              { id: "a", text: "$y=x^3-2x^2+7x$" },
+              { id: "b", text: "$y=x^3-x^2$" },
+              { id: "c", text: "$y=x^3+x^2-5x$" },
+              { id: "d", text: "$y=x^2+x+1$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "property", name: "Horizontal tangent", statement: "The tangent is horizontal where $\\frac{\\mathrm{d}y}{\\mathrm{d}x}=0$." }],

@@ -60,12 +60,12 @@ export const lesson83: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "50 km/h" },
-              { id: "b", text: "200 km/h" },
-              { id: "c", text: "98 km/h" },
+              { id: "a", text: "98 km/h" },
+              { id: "b", text: "50 km/h" },
+              { id: "c", text: "200 km/h" },
               { id: "d", text: "102 km/h" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -266,12 +266,12 @@ export const lesson83: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "£0.50" },
-              { id: "b", text: "£0.60" },
-              { id: "c", text: "£0.36" },
-              { id: "d", text: "£6" },
+              { id: "a", text: "£0.36" },
+              { id: "b", text: "£0.50" },
+              { id: "c", text: "£6" },
+              { id: "d", text: "£0.60" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

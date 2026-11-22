@@ -85,12 +85,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Yes — P(A∩B) = P(A)P(B)" },
+              { id: "a", text: "Cannot determine" },
               { id: "b", text: "No" },
-              { id: "c", text: "Cannot determine" },
+              { id: "c", text: "Yes — P(A∩B) = P(A)P(B)" },
               { id: "d", text: "Yes — they are mutually exclusive" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -226,12 +226,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$0.72$" },
-              { id: "b", text: "$0.90$" },
-              { id: "c", text: "$0.18$" },
+              { id: "a", text: "$0.90$" },
+              { id: "b", text: "$0.18$" },
+              { id: "c", text: "$0.72$" },
               { id: "d", text: "$0.48$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -321,11 +321,11 @@ export const lesson51: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$0.3$" },
-              { id: "b", text: "$0.5$" },
-              { id: "c", text: "$0.4$" },
+              { id: "b", text: "$0.4$" },
+              { id: "c", text: "$0.5$" },
               { id: "d", text: "$0.6$" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -464,12 +464,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$f(x) \\geq 0$ for all $x$" },
+              { id: "a", text: "$f(x) \\leq 1$ for all $x$" },
               { id: "b", text: "$\\int_{-\\infty}^{\\infty} f(x)\\,dx = 1$" },
-              { id: "c", text: "$f(x) \\leq 1$ for all $x$" },
-              { id: "d", text: "$f(x) = 0$ outside its support" },
+              { id: "c", text: "$f(x) = 0$ outside its support" },
+              { id: "d", text: "$f(x) \\geq 0$ for all $x$" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [

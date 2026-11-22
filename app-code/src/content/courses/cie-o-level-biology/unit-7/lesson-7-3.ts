@@ -1,4 +1,41 @@
-import type { Lesson } from "../../../types.ts";
+import type { Difficulty, Lesson, MarkPrinciple, MarkStep, Markscheme, Question, QuestionPart, QuestionResponse } from "../../../types.ts";
+
+type StepTuple = [string, number, MarkStep["markCode"], string?];
+type StructStepTuple = [string, string, number, MarkStep["markCode"], string?];
+type PartTuple = [string, string, number];
+
+function prin(kind: MarkPrinciple["kind"], name: string, statement: string): MarkPrinciple { return { kind, name, statement }; }
+function step(reasoning: string, marks: number, markCode: MarkStep["markCode"], working?: string, part?: string): MarkStep {
+  const s: MarkStep = { reasoning, marks, markCode };
+  if (working !== undefined) s.working = working;
+  if (part !== undefined) s.part = part;
+  return s;
+}
+function scheme(principles: MarkPrinciple[], steps: MarkStep[], finalAnswer: string, commonErrors?: string[]): Markscheme {
+  const m: Markscheme = { principles, steps, finalAnswer };
+  if (commonErrors && commonErrors.length) m.commonErrors = commonErrors;
+  return m;
+}
+function makeQ(id: string, difficulty: Difficulty, totalMarks: number, stem: string, response: QuestionResponse, markscheme: Markscheme, parts?: QuestionPart[]): Question {
+  const q: Question = { id, difficulty, totalMarks, stem, response, markscheme };
+  if (parts) q.parts = parts;
+  return q;
+}
+function mcq(id: string, difficulty: Difficulty, stem: string, choices: [string, string, string, string], correct: "a" | "b" | "c" | "d", principle: MarkPrinciple, reasoning: string, commonError?: string): Question {
+  const textById = { a: choices[0], b: choices[1], c: choices[2], d: choices[3] };
+  return makeQ(id, difficulty, 1, stem, { type: "mcq", choices: [{ id: "a", text: choices[0] }, { id: "b", text: choices[1] }, { id: "c", text: choices[2] }, { id: "d", text: choices[3] }], correctChoiceId: correct }, scheme([principle], [step(reasoning, 1, "B")], `**(${correct})** ${textById[correct]}`, commonError ? [commonError] : undefined));
+}
+function num(id: string, difficulty: Difficulty, stem: string, answer: number, unit: string | undefined, principle: MarkPrinciple, reasoning: string, working: string, finalAnswer: string, markCode: MarkStep["markCode"] = "M", commonError?: string): Question {
+  const part: { label: string; answer: number; unit?: string } = { label: "a", answer, ...(unit !== undefined ? { unit } : {}) };
+  return makeQ(id, difficulty, 1, stem, { type: "numeric", parts: [part] }, scheme([principle], [step(reasoning, 1, markCode, working)], finalAnswer, commonError ? [commonError] : undefined));
+}
+function open(id: string, difficulty: Difficulty, totalMarks: number, stem: string, principle: MarkPrinciple, steps: StepTuple[], finalAnswer: string, commonError?: string): Question {
+  return makeQ(id, difficulty, totalMarks, stem, { type: "open" }, scheme([principle], steps.map((s) => step(s[0], s[1], s[2], s[3])), finalAnswer, commonError ? [commonError] : undefined));
+}
+function struct(id: string, difficulty: Difficulty, stem: string, parts: PartTuple[], principle: MarkPrinciple, steps: StructStepTuple[], finalAnswer: string, commonError?: string): Question {
+  const total = parts.reduce((sum, p) => sum + p[2], 0);
+  return makeQ(id, difficulty, total, stem, { type: "open" }, scheme([principle], steps.map((s) => step(s[1], s[2], s[3], s[4], s[0])), finalAnswer, commonError ? [commonError] : undefined), parts.map((p) => ({ label: p[0], prompt: p[1], marks: p[2] })));
+}
 
 export const lesson73: Lesson = {
   id: "olbio-u7-lesson-7-3",
@@ -51,12 +88,12 @@ export const lesson73: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A cell that detects a stimulus" },
-              { id: "b", text: "A muscle that contracts" },
-              { id: "c", text: "A gland producing hormones" },
-              { id: "d", text: "A blood vessel" },
+              { id: "a", text: "A muscle that contracts" },
+              { id: "b", text: "A cell that detects a stimulus" },
+              { id: "c", text: "A blood vessel" },
+              { id: "d", text: "A gland producing hormones" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -137,6 +174,18 @@ export const lesson73: Lesson = {
             commonErrors: ["In (b) saying dilation is 'to see colours' — it's for more light in dim conditions."],
           },
         },
+        mcq("olbio-u7-sense-organs-q5", "foundation", "A receptor is a cell that:", ["Detects a stimulus", "Produces a hormone", "Contracts a muscle", "Filters blood"], "a", prin("definition", "Receptor", "Receptors are specialised cells that detect stimuli such as light or touch."), "Recall the definition.", "Effectors respond; receptors detect."),
+        mcq("olbio-u7-sense-organs-q6", "foundation", "In bright light, the pupil:", ["Constricts", "Dilates", "Stays the same", "Closes completely"], "a", prin("property", "Pupil response", "Bright light causes the pupil to constrict to reduce light entry."), "Recall the response.", "Dilation occurs in dim light."),
+        mcq("olbio-u7-sense-organs-q7", "core", "The size of the pupil is controlled by the:", ["Iris", "Retina", "Optic nerve", "Cornea"], "a", prin("property", "Iris", "The iris is a muscular ring that adjusts pupil size."), "Recall the structure.", "The retina detects light; the iris controls pupil size."),
+        mcq("olbio-u7-sense-organs-q8", "core", "The optic nerve carries impulses from the:", ["Retina to the brain", "Brain to the muscles", "Iris to the retina", "Cornea to the lens"], "a", prin("property", "Optic nerve", "The optic nerve transmits visual impulses from retina to brain."), "Recall the pathway.", "It carries sensory impulses, not motor ones."),
+        mcq("olbio-u7-sense-organs-q9", "challenge", "The pupil reflex is described as automatic because it:", ["Occurs without conscious control", "Is controlled by the cerebrum", "Requires voluntary effort", "Only happens during sleep"], "a", prin("property", "Reflex", "A reflex is an automatic, involuntary response."), "Recall the meaning of reflex.", "It does not need conscious thought."),
+        num("olbio-u7-sense-organs-q10", "foundation", "In dim light a pupil is 6 mm wide; in bright light it constricts to 2 mm. Calculate the decrease in diameter.", 4, "mm", prin("property", "Pupil diameter", "Decrease = dim diameter - bright diameter."), "Subtract bright from dim.", "6 - 2 = 4", "**4 mm decrease**"),
+        num("olbio-u7-sense-organs-q11", "core", "A reflex arc includes receptor, sensory neuron, coordinator, motor neuron and effector. How many components are listed?", 5, "components", prin("property", "Reflex arc", "A reflex arc has five stages from stimulus to response."), "Count the components.", "5", "**5 components**"),
+        num("olbio-u7-sense-organs-q12", "core", "A pupil measures 2 mm in bright light and 8 mm in dim light. How many times wider is it in dim light?", 4, "times", prin("property", "Pupil ratio", "Ratio = dim diameter / bright diameter."), "Divide dim by bright.", "8 / 2 = 4", "**4 times wider**"),
+        num("olbio-u7-sense-organs-q13", "challenge", "A pupil constricts from 6 mm to 2 mm. Calculate the percentage decrease in diameter.", 66.7, "%", prin("property", "Percentage decrease", "Percentage = decrease / original x 100."), "Compute decrease then percentage.", "(6 - 2) / 6 x 100 = 66.7", "**About 66.7% decrease**"),
+        open("olbio-u7-sense-organs-q14", "core", 3, "Describe the pupil reflex arc.", prin("property", "Pupil reflex arc", "Retinal receptors to sensory neuron to brain to motor neuron to iris muscles."), [["Light is detected by receptors in the retina.", 1, "M"], ["A sensory impulse travels to the brain via the optic nerve.", 1, "M"], ["A motor impulse reaches the iris muscles to adjust the pupil.", 1, "A"]], "Retinal receptors detect light; impulses go to the brain then to iris muscles, which adjust the pupil automatically.", "Saying the eye acts without the brain."),
+        open("olbio-u7-sense-organs-q15", "challenge", 4, "Compare the pupil's response in bright and dim light and explain the purpose of each.", prin("property", "Pupil responses", "Constriction protects the retina; dilation admits more light."), [["In bright light the pupil constricts.", 1, "M"], ["This reduces light entry and protects the retina.", 1, "M"], ["In dim light the pupil dilates.", 1, "M"], ["This allows more light to reach the retina for better vision.", 1, "A"]], "Bright light constricts the pupil to protect the retina; dim light dilates it to admit more light.", "Reversing the two responses."),
+        struct("olbio-u7-sense-organs-q16", "challenge", "A student investigates how the eye responds to light.", [["a", "Name the cells that detect light in the eye.", 1], ["b", "State the pupil response in bright and dim light.", 2], ["c", "Describe the reflex arc for the pupil response.", 4], ["d", "Explain why the reflex is protective.", 2]], prin("property", "Pupil reflex", "Retina receptors to brain to iris muscles adjust pupil size."), [["a", "Photoreceptors in the retina detect light.", 1, "M"], ["b", "Pupil constricts in bright light.", 1, "M"], ["b", "Pupil dilates in dim light.", 1, "A"], ["c", "Light detected by retinal receptors.", 1, "M"], ["c", "Sensory impulse to brain via optic nerve.", 1, "M"], ["c", "Motor impulse to iris muscles.", 1, "M"], ["c", "Iris muscles adjust pupil size.", 1, "A"], ["d", "Constriction reduces light to protect retina.", 1, "M"], ["d", "It prevents damage from excessive light.", 1, "A"]], "(a) retinal photoreceptors (b) constrict bright/dilate dim (c) retina-brain-iris arc (d) protects retina", "Omitting the brain and iris in the arc."),
       ],
     },
     {
@@ -173,12 +222,12 @@ export const lesson73: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Medulla oblongata" },
-              { id: "b", text: "Cerebrum" },
-              { id: "c", text: "Cerebellum" },
-              { id: "d", text: "Spinal cord" },
+              { id: "a", text: "Cerebellum" },
+              { id: "b", text: "Spinal cord" },
+              { id: "c", text: "Medulla oblongata" },
+              { id: "d", text: "Cerebrum" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -259,6 +308,18 @@ export const lesson73: Lesson = {
             commonErrors: ["Swapping cerebellum and medulla functions."],
           },
         },
+        mcq("olbio-u7-brain-q5", "foundation", "The largest region of the brain is the:", ["Cerebrum", "Cerebellum", "Medulla oblongata", "Spinal cord"], "a", prin("property", "Cerebrum", "The cerebrum is the largest brain region and controls conscious functions."), "Recall the largest region.", "The cerebellum and medulla are smaller."),
+        mcq("olbio-u7-brain-q6", "foundation", "The cerebellum mainly controls:", ["Balance and coordination", "Breathing", "Memory", "Hormone release"], "a", prin("property", "Cerebellum", "The cerebellum coordinates balance, posture and fine movements."), "Match region to function.", "Breathing is controlled by the medulla."),
+        mcq("olbio-u7-brain-q7", "core", "The medulla oblongata controls:", ["Involuntary functions such as breathing and heart rate", "Voluntary movement", "Memory storage", "Vision"], "a", prin("property", "Medulla", "The medulla controls involuntary functions including breathing and heart rate."), "Match region to function.", "Voluntary movement is a cerebrum function."),
+        mcq("olbio-u7-brain-q8", "core", "The brain and spinal cord are protected by all of the following EXCEPT:", ["Skin", "Skull and vertebrae", "Meninges", "Cerebrospinal fluid"], "a", prin("property", "CNS protection", "The CNS is protected by bones, meninges and cerebrospinal fluid."), "Identify the exception.", "Skin is not a listed CNS protection."),
+        mcq("olbio-u7-brain-q9", "challenge", "A voluntary action such as raising your hand is mainly controlled by the:", ["Cerebrum", "Cerebellum", "Medulla", "Receptors"], "a", prin("property", "Voluntary control", "Voluntary actions and conscious thought are cerebrum functions."), "Match action type to region.", "The cerebellum coordinates movement but does not initiate conscious decisions."),
+        num("olbio-u7-brain-q10", "foundation", "The three main regions of the brain are the cerebrum, cerebellum and medulla oblongata. How many regions are there?", 3, "regions", prin("property", "Brain regions", "Cerebrum, cerebellum and medulla are the three main regions."), "Count the regions.", "3", "**3 regions**"),
+        num("olbio-u7-brain-q11", "core", "Heart rate rises from 70 bpm to 90 bpm during exercise. Calculate the increase.", 20, "bpm", prin("property", "Heart rate change", "Increase = final - initial."), "Subtract initial from final.", "90 - 70 = 20", "**20 bpm increase**"),
+        num("olbio-u7-brain-q12", "core", "The cerebellum coordinates balance, posture and fine motor control. How many functions are listed?", 3, "functions", prin("property", "Cerebellum functions", "Balance, posture and fine motor control are cerebellum roles."), "Count the functions.", "3", "**3 functions**"),
+        num("olbio-u7-brain-q13", "challenge", "Damage to the medulla can affect breathing, heart rate and blood pressure. How many involuntary functions are listed?", 3, "functions", prin("property", "Medulla functions", "Breathing, heart rate and blood pressure are involuntary medulla controls."), "Count the functions.", "3", "**3 functions**"),
+        open("olbio-u7-brain-q14", "core", 3, "Explain the function of the cerebellum.", prin("property", "Cerebellum", "Coordinates balance, posture and fine motor movements."), [["The cerebellum coordinates movement.", 1, "M"], ["It maintains balance and posture.", 1, "M"], ["It enables fine motor control such as writing or playing an instrument.", 1, "A"]], "The cerebellum coordinates balance, posture and fine motor movements.", "Assigning thinking or memory to the cerebellum."),
+        open("olbio-u7-brain-q15", "challenge", 4, "Compare conscious and unconscious actions, naming the brain region responsible for each.", prin("property", "Brain regions", "Cerebrum: conscious; medulla: involuntary; cerebellum: coordination."), [["Conscious actions are voluntary, such as thinking or deciding to move.", 1, "M"], ["They are controlled by the cerebrum.", 1, "M"], ["Unconscious actions are involuntary, such as breathing and heart rate.", 1, "M"], ["They are controlled by the medulla oblongata.", 1, "A"]], "Conscious/voluntary actions are cerebrum functions; unconscious/involuntary actions are medulla functions.", "Swapping cerebrum and medulla roles."),
+        struct("olbio-u7-brain-q16", "challenge", "A student labels the regions of the brain and their functions.", [["a", "Name the largest brain region and its main function.", 2], ["b", "Name the region that controls balance.", 1], ["c", "Name the region that controls breathing and heart rate.", 1], ["d", "State two ways the CNS is protected.", 3], ["e", "Give one example of a voluntary and one of an involuntary action.", 2]], prin("property", "Brain regions", "Cerebrum: conscious; cerebellum: balance; medulla: involuntary; protected by bones/meninges/CSF."), [["a", "The cerebrum is the largest region.", 1, "M"], ["a", "It controls conscious thought, memory and voluntary actions.", 1, "A"], ["b", "The cerebellum controls balance and coordination.", 1, "A"], ["c", "The medulla oblongata controls breathing and heart rate.", 1, "A"], ["d", "The skull/vertebrae protect the brain and spinal cord.", 1, "M"], ["d", "Meninges and cerebrospinal fluid cushion the CNS.", 1, "M"], ["d", "State two protective features.", 1, "A"], ["e", "Voluntary: e.g. raising a hand.", 1, "M"], ["e", "Involuntary: e.g. breathing.", 1, "A"]], "(a) cerebrum - conscious (b) cerebellum - balance (c) medulla - breathing/HR (d) skull/meninges/CSF (e) voluntary vs involuntary", "Confusing balance (cerebellum) with involuntary control (medulla)."),
       ],
     },
   ],

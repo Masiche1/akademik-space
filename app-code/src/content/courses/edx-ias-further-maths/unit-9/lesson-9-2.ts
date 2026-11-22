@@ -51,9 +51,9 @@ export const lesson92: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$[-1,1]$" },
-              { id: "b", text: "$[0,1]$" },
+              { id: "b", text: "$[-100,100]$" },
               { id: "c", text: "$(-\\infty,\\infty)$" },
-              { id: "d", text: "$[-100,100]$" },
+              { id: "d", text: "$[0,1]$" },
             ],
             correctChoiceId: "a",
           },
@@ -170,12 +170,12 @@ export const lesson92: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$(\\bar x,\\bar y)$" },
+              { id: "a", text: "$(\\bar x,0)$" },
               { id: "b", text: "The origin" },
               { id: "c", text: "$(0,\\bar y)$" },
-              { id: "d", text: "$(\\bar x,0)$" },
+              { id: "d", text: "$(\\bar x,\\bar y)$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "property", name: "Regression line", statement: "Passes through means point." }],

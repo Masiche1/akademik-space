@@ -52,9 +52,9 @@ export const lesson83: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Condom" },
-              { id: "b", text: "Pill" },
+              { id: "b", text: "Sterilisation" },
               { id: "c", text: "IUD" },
-              { id: "d", text: "Sterilisation" },
+              { id: "d", text: "Pill" },
             ],
             correctChoiceId: "a",
           },
@@ -137,6 +137,277 @@ export const lesson83: Lesson = {
             commonErrors: ["In (c) saying 'all methods prevent STIs' — only condoms do."],
           },
         },
+        {
+          id: "cieb-u8-contraception-sti-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "How does the contraceptive pill prevent pregnancy?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Its hormones prevent ovulation" },
+              { id: "b", text: "It prevents implantation only" },
+              { id: "c", text: "It kills sperm in the vagina" },
+              { id: "d", text: "It physically blocks sperm" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Hormonal contraception", statement: "Pills/patches alter hormones to prevent ovulation." },
+            ],
+            steps: [
+              { reasoning: "Recall the mechanism.", working: "\\text{hormones} \\to \\text{no ovulation}", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** Its hormones prevent ovulation",
+            commonErrors: ["Choosing 'blocks sperm' — that's a barrier method like the condom."],
+          },
+        },
+        {
+          id: "cieb-u8-contraception-sti-q6",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Which pair of STIs is caused by bacteria and can be treated with antibiotics?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "HIV and herpes" },
+              { id: "b", text: "Chlamydia and gonorrhoea" },
+              { id: "c", text: "HPV and HIV" },
+              { id: "d", text: "Herpes and HPV" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Bacterial STIs", statement: "Chlamydia and gonorrhoea are bacterial and treatable with antibiotics." },
+            ],
+            steps: [
+              { reasoning: "Match infections to type.", working: "\\text{chlamydia, gonorrhoea} = \\text{bacterial}", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** Chlamydia and gonorrhoea",
+            commonErrors: ["Choosing HIV — HIV is viral and has no cure."],
+          },
+        },
+        {
+          id: "cieb-u8-contraception-sti-q7",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "What is the main way an IUD prevents pregnancy?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "It stops ovulation" },
+              { id: "b", text: "It blocks sperm physically" },
+              { id: "c", text: "It sterilises the ovaries" },
+              { id: "d", text: "It prevents implantation of the embryo" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "IUD", statement: "Prevents implantation in the uterus lining." },
+            ],
+            steps: [
+              { reasoning: "Recall the mechanism.", working: "\\text{IUD} \\to \\text{blocks implantation}", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** It prevents implantation of the embryo",
+            commonErrors: ["Choosing 'stops ovulation' — that's the pill's mechanism."],
+          },
+        },
+        {
+          id: "cieb-u8-contraception-sti-q8",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "State what sterilisation means as a method of contraception.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Sterilisation", statement: "Permanent method blocking sperm/egg tubes." },
+            ],
+            steps: [
+              { reasoning: "Describe the procedure.", working: "\\text{tubes blocked}", marks: 1, markCode: "M" },
+              { reasoning: "State it is permanent.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "Sterilisation permanently blocks the tubes carrying sperm or eggs (e.g. vas deferens or oviducts) so gametes cannot meet — it is a permanent method of contraception.",
+            commonErrors: ["Saying it is reversible — sterilisation is permanent."],
+          },
+        },
+        {
+          id: "cieb-u8-contraception-sti-q9",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "State the number of viral STIs among the following: HIV, chlamydia, herpes and gonorrhoea.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 2, unit: "STIs" }],
+          },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "STI types", statement: "Viral: HIV, herpes, HPV. Bacterial: chlamydia, gonorrhoea." },
+            ],
+            steps: [
+              { reasoning: "Identify viral cases: HIV and herpes.", working: "\\text{HIV, herpes}", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "2",
+            commonErrors: ["Counting chlamydia — it is bacterial, not viral."],
+          },
+        },
+        {
+          id: "cieb-u8-contraception-sti-q10",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "A woman takes the combined contraceptive pill for 21 days followed by a break each 28-day cycle. State the number of days she takes active pills per cycle.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 21, unit: "days" }],
+          },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Combined pill regimen", statement: "21 active pill days then a 7-day break." },
+            ],
+            steps: [
+              { reasoning: "Recall the regimen.", working: "\\text{21 active days}", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "21 days",
+            commonErrors: ["Answering 7 — that's the break length, not the active-pill days."],
+          },
+        },
+        {
+          id: "cieb-u8-contraception-sti-q11",
+          difficulty: "challenge",
+          totalMarks: 2,
+          stem: "The combined pill is taken for 21 active days followed by a 7-day break in each 28-day cycle. State (a) the number of active-pill days and (b) the number of break days.",
+          response: {
+            type: "numeric",
+            unordered: true,
+            parts: [
+              { label: "a", answer: 21, unit: "days" },
+              { label: "b", answer: 7, unit: "days" },
+            ],
+          },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Combined pill regimen", statement: "21 active days + 7-day break = 28-day cycle." },
+            ],
+            steps: [
+              { reasoning: "State the active-pill days.", working: "21", marks: 1, markCode: "A" },
+              { reasoning: "State the break days.", working: "7", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "(a) 21 days (b) 7 days",
+            commonErrors: ["Swapping the values — 21 is active, 7 is the break."],
+          },
+        },
+        {
+          id: "cieb-u8-contraception-sti-q12",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "State two ways in which STIs can be prevented.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "STI prevention", statement: "Condoms, screening, monogamy, treating partners." },
+            ],
+            steps: [
+              { reasoning: "Give two prevention methods.", working: "\\text{condoms, screening, monogamy}", marks: 1, markCode: "M" },
+              { reasoning: "State them clearly.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "Using condoms, regular screening, having fewer sexual partners (monogamy), and ensuring partners are treated.",
+            commonErrors: ["Only naming contraception for pregnancy — focus on blocking transmission."],
+          },
+        },
+        {
+          id: "cieb-u8-contraception-sti-q13",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "Compare barrier and hormonal methods of contraception.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "comparison", name: "Barrier vs hormonal", statement: "Barrier physically blocks sperm; hormonal alters hormones to prevent ovulation. Only condoms block STIs." },
+            ],
+            steps: [
+              { reasoning: "Barrier method: physical block to sperm.", working: "\\text{blocks sperm}", marks: 1, markCode: "M" },
+              { reasoning: "Hormonal method: prevents ovulation via hormones.", working: "\\text{prevents ovulation}", marks: 1, markCode: "M" },
+              { reasoning: "Condom uniquely also blocks STI pathogens.", working: "\\text{condom + STIs}", marks: 1, markCode: "M" },
+              { reasoning: "Complete comparison.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "Barrier methods (condom, diaphragm) physically prevent sperm reaching the egg and the condom also blocks STI transmission; hormonal methods (pill, patch) use hormones to prevent ovulation but do not protect against STIs.",
+            commonErrors: ["Saying hormonal methods block sperm — they prevent ovulation instead."],
+          },
+        },
+        {
+          id: "cieb-u8-contraception-sti-q14",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "Explain the importance of contraception for individuals and for public health.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Why contraception matters", statement: "Prevents unwanted pregnancy, enables family planning, reduces STI spread." },
+            ],
+            steps: [
+              { reasoning: "Prevents unwanted pregnancy and allows family planning.", working: "\\text{family planning}", marks: 1, markCode: "M" },
+              { reasoning: "Gives women reproductive choice.", working: "\\text{reproductive choice}", marks: 1, markCode: "M" },
+              { reasoning: "Condoms reduce STI transmission — public health benefit.", working: "\\text{STI reduction}", marks: 1, markCode: "M" },
+              { reasoning: "Complete explanation.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "Contraception prevents unwanted pregnancy, allows people to plan their families and gives women reproductive choice; condoms also reduce the spread of STIs, benefiting public health.",
+            commonErrors: ["Only discussing pregnancy — include the STI/public-health angle."],
+          },
+        },
+        {
+          id: "cieb-u8-contraception-sti-q15",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Which contraceptive method is unique in also preventing STI transmission?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "IUD" },
+              { id: "b", text: "Condom" },
+              { id: "c", text: "Sterilisation" },
+              { id: "d", text: "Pill" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Condom", statement: "Only common method that both prevents pregnancy and blocks STI pathogens." },
+            ],
+            steps: [
+              { reasoning: "Recall the unique method.", working: "\\text{condom}", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** Condom",
+            commonErrors: ["Choosing the pill — it prevents pregnancy but not STIs."],
+          },
+        },
+        {
+          id: "cieb-u8-contraception-sti-q16",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Which of the following is a permanent method of contraception?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Pill" },
+              { id: "b", text: "Condom" },
+              { id: "c", text: "Sterilisation" },
+              { id: "d", text: "IUD" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Sterilisation", statement: "Permanent blocking of the sperm/egg tubes." },
+            ],
+            steps: [
+              { reasoning: "Recall which method is permanent.", working: "\\text{sterilisation}", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** Sterilisation",
+            commonErrors: ["Choosing IUD — it is long-acting but removable, not permanent."],
+          },
+        },
       ],
     },
     {
@@ -173,12 +444,12 @@ export const lesson83: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "First milk rich in antibodies" },
+              { id: "a", text: "Amniotic fluid" },
               { id: "b", text: "A type of hormone" },
               { id: "c", text: "The placenta" },
-              { id: "d", text: "Amniotic fluid" },
+              { id: "d", text: "First milk rich in antibodies" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -258,6 +529,272 @@ export const lesson83: Lesson = {
             ],
             finalAnswer: "(a) dilation→baby→placenta (b) oxytocin contractions (c) antibodies/passive immunity (d) nutrition, bonding",
             commonErrors: ["In (a) forgetting placenta is delivered after baby."],
+          },
+        },
+        {
+          id: "cieb-u8-birth-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Which hormone stimulates uterine contractions during labour?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Insulin" },
+              { id: "b", text: "Oxytocin" },
+              { id: "c", text: "Progesterone" },
+              { id: "d", text: "Adrenaline" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Oxytocin", statement: "Stimulates uterine contractions during labour." },
+            ],
+            steps: [
+              { reasoning: "Match hormone to role.", working: "\\text{oxytocin} \\to \\text{contractions}", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** Oxytocin",
+            commonErrors: ["Choosing progesterone — that maintains the pregnancy lining, not contractions."],
+          },
+        },
+        {
+          id: "cieb-u8-birth-q6",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Which hormone stimulates milk production by the mammary glands after birth?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Prolactin" },
+              { id: "b", text: "Oxytocin" },
+              { id: "c", text: "Insulin" },
+              { id: "d", text: "Oestrogen" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Prolactin", statement: "Stimulates milk production (lactation) after birth." },
+            ],
+            steps: [
+              { reasoning: "Match hormone to milk production.", working: "\\text{prolactin} \\to \\text{milk}", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** Prolactin",
+            commonErrors: ["Choosing oxytocin — oxytocin drives labour contractions."],
+          },
+        },
+        {
+          id: "cieb-u8-birth-q7",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "What happens during the first stage of labour?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "The cervix dilates" },
+              { id: "b", text: "Colostrum is produced" },
+              { id: "c", text: "The placenta is delivered" },
+              { id: "d", text: "The baby is delivered" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Stages of labour", statement: "Dilation of cervix → delivery of baby → delivery of placenta." },
+            ],
+            steps: [
+              { reasoning: "Recall the first stage.", working: "\\text{cervix dilation}", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** The cervix dilates",
+            commonErrors: ["Choosing 'baby delivered' — that's the second stage."],
+          },
+        },
+        {
+          id: "cieb-u8-birth-q8",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "State the number of main stages of labour.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 3, unit: "stages" }],
+          },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Labour stages", statement: "Three stages: dilation, baby delivery, placenta delivery." },
+            ],
+            steps: [
+              { reasoning: "Recall the count.", working: "\\text{3 stages}", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "3",
+            commonErrors: ["Answering 2 — forgetting the placenta is delivered as a separate stage."],
+          },
+        },
+        {
+          id: "cieb-u8-birth-q9",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "State the number of chromosomes in the body cells of a newborn baby.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 46, unit: "chromosomes" }],
+          },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Body cell chromosomes", statement: "Human body cells are diploid: 46 chromosomes." },
+            ],
+            steps: [
+              { reasoning: "Recall the diploid number.", working: "\\text{2n} = 46", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "46",
+            commonErrors: ["Answering 23 — that's the gamete (haploid) number."],
+          },
+        },
+        {
+          id: "cieb-u8-birth-q10",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "How many hormones are described as controlling childbirth and milk production in this topic (oxytocin and prolactin)?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 2, unit: "hormones" }],
+          },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Birth hormones", statement: "Oxytocin (contractions) and prolactin (milk production)." },
+            ],
+            steps: [
+              { reasoning: "Count the hormones named.", working: "\\text{oxytocin} + \\text{prolactin} = 2", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "2",
+            commonErrors: ["Including progesterone — it maintains pregnancy, not labour contractions."],
+          },
+        },
+        {
+          id: "cieb-u8-birth-q11",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "State two differences between colostrum and breast milk.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "comparison", name: "Colostrum vs breast milk", statement: "Colostrum is the first milk, very antibody-rich; breast milk follows with balanced nutrition." },
+            ],
+            steps: [
+              { reasoning: "Colostrum is produced first after birth.", working: "\\text{first milk}", marks: 1, markCode: "M" },
+              { reasoning: "Colostrum is richer in antibodies; breast milk is balanced nutrition.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "Colostrum is the first milk produced after birth and is especially rich in antibodies; breast milk follows and provides balanced, easily digested nutrition.",
+            commonErrors: ["Saying they are identical — colostrum is the antibody-rich first milk."],
+          },
+        },
+        {
+          id: "cieb-u8-birth-q12",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "Describe the three stages of labour.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Stages of labour", statement: "Dilation of cervix → delivery of baby → delivery of placenta." },
+            ],
+            steps: [
+              { reasoning: "Stage 1: cervix dilates.", working: "\\text{dilation}", marks: 1, markCode: "M" },
+              { reasoning: "Stage 2: baby delivered.", working: "\\text{baby delivery}", marks: 1, markCode: "M" },
+              { reasoning: "Stage 3: placenta delivered.", working: "\\text{placenta delivery}", marks: 1, markCode: "M" },
+              { reasoning: "Complete sequence.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "Stage 1: the cervix dilates as the uterus contracts; stage 2: the baby is delivered; stage 3: the placenta is delivered.",
+            commonErrors: ["Forgetting the placenta is delivered after the baby."],
+          },
+        },
+        {
+          id: "cieb-u8-birth-q13",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "Explain how hormones control childbirth and milk production.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Birth hormones", statement: "Oxytocin → uterine contractions; prolactin → milk production." },
+            ],
+            steps: [
+              { reasoning: "Oxytocin released during labour.", working: "\\text{oxytocin}", marks: 1, markCode: "M" },
+              { reasoning: "Oxytocin stimulates rhythmic uterine contractions pushing the fetus out.", working: "\\text{contractions}", marks: 1, markCode: "M" },
+              { reasoning: "Prolactin stimulates milk production by mammary glands after birth.", working: "\\text{prolactin} \\to \\text{milk}", marks: 1, markCode: "M" },
+              { reasoning: "Complete explanation.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "Oxytocin stimulates the rhythmic contractions of the uterus that drive labour and delivery; after birth, prolactin stimulates the mammary glands to produce milk.",
+            commonErrors: ["Swapping the hormones — oxytocin for labour, prolactin for milk."],
+          },
+        },
+        {
+          id: "cieb-u8-birth-q14",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "What is the correct order of the stages of labour?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Cervix dilation → baby delivery → placenta delivery" },
+              { id: "b", text: "Baby delivery → cervix dilation → placenta delivery" },
+              { id: "c", text: "Cervix dilation → placenta delivery → baby delivery" },
+              { id: "d", text: "Placenta delivery → baby delivery → cervix dilation" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Labour sequence", statement: "Dilation → baby → placenta." },
+            ],
+            steps: [
+              { reasoning: "Recall the order.", working: "\\text{dilation} \\to \\text{baby} \\to \\text{placenta}", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** Cervix dilation → baby delivery → placenta delivery",
+            commonErrors: ["Placing placenta before the baby — the placenta is delivered last."],
+          },
+        },
+        {
+          id: "cieb-u8-birth-q15",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "One important component of breast milk and colostrum for the baby is:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Antibodies" },
+              { id: "b", text: "DNA" },
+              { id: "c", text: "Testosterone" },
+              { id: "d", text: "Insulin" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Colostrum/breast milk", statement: "Rich in antibodies giving the baby passive immunity." },
+            ],
+            steps: [
+              { reasoning: "Recall the key component.", working: "\\text{antibodies}", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** Antibodies",
+            commonErrors: ["Choosing a hormone — the key benefit is antibodies/immunity."],
+          },
+        },
+        {
+          id: "cieb-u8-birth-q16",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "Explain why breastfeeding reduces the risk of infection in babies.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Breastfeeding immunity", statement: "Colostrum and breast milk contain antibodies providing passive immunity." },
+            ],
+            steps: [
+              { reasoning: "Milk contains antibodies from the mother.", working: "\\text{antibodies}", marks: 1, markCode: "M" },
+              { reasoning: "These give the baby passive immunity until its own immune system matures.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "Colostrum and breast milk contain antibodies produced by the mother; these give the baby passive immunity, helping it fight infections before its own immune system fully develops.",
+            commonErrors: ["Saying 'it kills germs directly' — the antibodies provide immunity, they don't sterilise."],
           },
         },
       ],

@@ -88,12 +88,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "That suffering is widespread and inescapable" },
-              { id: "b", text: "That the speaker is counting people" },
-              { id: "c", text: "That the speaker feels cheerful" },
-              { id: "d", text: "That the city is very large and beautiful" },
+              { id: "a", text: "That the speaker feels cheerful" },
+              { id: "b", text: "That the city is very large and beautiful" },
+              { id: "c", text: "That the speaker is counting people" },
+              { id: "d", text: "That suffering is widespread and inescapable" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Repetition", statement: "Repeated words emphasise scale and insistence." }],
@@ -228,12 +228,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Two" },
-              { id: "b", text: "Three" },
-              { id: "c", text: "Four" },
-              { id: "d", text: "Six" },
+              { id: "a", text: "Four" },
+              { id: "b", text: "Six" },
+              { id: "c", text: "Two" },
+              { id: "d", text: "Three" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "convention", name: "Tercet", statement: "A stanza of three lines." }],

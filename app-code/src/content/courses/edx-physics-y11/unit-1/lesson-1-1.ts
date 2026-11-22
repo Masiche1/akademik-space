@@ -54,12 +54,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Energy is used up when a machine does work." },
-              { id: "b", text: "Energy cannot be created or destroyed, only transferred or dissipated." },
+              { id: "a", text: "Energy cannot be created or destroyed, only transferred or dissipated." },
+              { id: "b", text: "Energy is used up when a machine does work." },
               { id: "c", text: "The useful energy output is always equal to the total energy input." },
               { id: "d", text: "Wasted energy is destroyed when it spreads to the surroundings." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -195,12 +195,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$6\\text{ J}$" },
+              { id: "a", text: "$60\\text{ J}$" },
               { id: "b", text: "$20\\text{ J}$" },
-              { id: "c", text: "$30\\text{ J}$" },
-              { id: "d", text: "$60\\text{ J}$" },
+              { id: "c", text: "$6\\text{ J}$" },
+              { id: "d", text: "$30\\text{ J}$" },
             ],
-            correctChoiceId: "d",
+            correctChoiceIa: "d",
           },
           markscheme: {
             principles: [

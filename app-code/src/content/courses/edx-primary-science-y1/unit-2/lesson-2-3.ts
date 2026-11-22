@@ -53,12 +53,12 @@ export const lesson113: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Move towards" },
-              { id: "b", text: "Move away" },
-              { id: "c", text: "Stay still" },
-              { id: "d", text: "Fall down" },
+              { id: "a", text: "Stay still" },
+              { id: "b", text: "Fall down" },
+              { id: "c", text: "Move away" },
+              { id: "d", text: "Move towards" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -77,12 +77,12 @@ export const lesson113: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Pushing a swing" },
-              { id: "b", text: "Pulling open a drawer" },
+              { id: "a", text: "Throwing a ball" },
+              { id: "b", text: "Pushing a swing" },
               { id: "c", text: "Kicking a ball" },
-              { id: "d", text: "Throwing a ball" },
+              { id: "d", text: "Pulling open a drawer" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -205,12 +205,12 @@ export const lesson113: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Colour" },
-              { id: "b", text: "Motion" },
-              { id: "c", text: "Shape" },
-              { id: "d", text: "Size" },
+              { id: "a", text: "Motion" },
+              { id: "b", text: "Size" },
+              { id: "c", text: "Colour" },
+              { id: "d", text: "Shape" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -231,12 +231,12 @@ export const lesson113: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Random" },
-              { id: "b", text: "Spring, summer, autumn, winter repeating" },
-              { id: "c", text: "Only winter" },
+              { id: "a", text: "Spring, summer, autumn, winter repeating" },
+              { id: "b", text: "Only winter" },
+              { id: "c", text: "Random" },
               { id: "d", text: "No pattern" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

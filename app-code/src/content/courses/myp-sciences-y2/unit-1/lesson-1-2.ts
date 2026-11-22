@@ -55,9 +55,9 @@ export const lesson12: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Ice melting" },
-              { id: "b", text: "Sugar dissolving in tea" },
+              { id: "b", text: "Water boiling in a kettle" },
               { id: "c", text: "An egg cooking when heated" },
-              { id: "d", text: "Water boiling in a kettle" },
+              { id: "d", text: "Sugar dissolving in tea" },
             ],
             correctChoiceId: "c",
           },
@@ -156,10 +156,10 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Wood burning in a fire" },
-              { id: "b", text: "Milk souring" },
+              { id: "a", text: "Milk souring" },
+              { id: "b", text: "An apple going brown after cutting" },
               { id: "c", text: "Water evaporating from a puddle" },
-              { id: "d", text: "An apple going brown after cutting" },
+              { id: "d", text: "Wood burning in a fire" },
             ],
             correctChoiceId: "c",
           },
@@ -183,12 +183,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Yes, because bubbles always mean a gas is produced by a reaction" },
-              { id: "b", text: "Yes, because boiling changes water into a new substance" },
-              { id: "c", text: "No, because boiling water is still water, just in gas form" },
-              { id: "d", text: "No, because boiling only happens in open containers" },
+              { id: "a", text: "Yes, because boiling changes water into a new substance" },
+              { id: "b", text: "No, because boiling only happens in open containers" },
+              { id: "c", text: "Yes, because bubbles always mean a gas is produced by a reaction" },
+              { id: "d", text: "No, because boiling water is still water, just in gas form" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -210,8 +210,8 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The mass of the largest reactant" },
-              { id: "b", text: "The mass of the smallest reactant" },
+              { id: "a", text: "The mass of the smallest reactant" },
+              { id: "b", text: "The mass of the largest reactant" },
               { id: "c", text: "The total mass of the reactants" },
               { id: "d", text: "The mass lost to the surroundings" },
             ],
@@ -367,12 +367,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The mixture gets warmer" },
-              { id: "b", text: "A new substance with different properties is formed" },
+              { id: "a", text: "A new substance with different properties is formed" },
+              { id: "b", text: "The mixture changes colour slightly" },
               { id: "c", text: "Bubbles are seen rising" },
-              { id: "d", text: "The mixture changes colour slightly" },
+              { id: "d", text: "The mixture gets warmer" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -394,12 +394,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The classmate: dissolving always makes a new substance" },
-              { id: "b", text: "The student: no new substance formed and the salt can be recovered unchanged" },
+              { id: "a", text: "The student: no new substance formed and the salt can be recovered unchanged" },
+              { id: "b", text: "Neither: dissolving is a chemical change but evaporation is not" },
               { id: "c", text: "Both: boiling always causes a chemical change" },
-              { id: "d", text: "Neither: dissolving is a chemical change but evaporation is not" },
+              { id: "d", text: "The classmate: dissolving always makes a new substance" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -481,12 +481,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Endothermic, because energy is taken in from the surroundings" },
-              { id: "b", text: "Exothermic, because energy is given out to the surroundings" },
+              { id: "a", text: "Exothermic, because energy is given out to the surroundings" },
+              { id: "b", text: "Endothermic, because energy is taken in from the surroundings" },
               { id: "c", text: "Endothermic, because the temperature of the surroundings falls" },
               { id: "d", text: "Exothermic, because energy is taken in from the surroundings" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -585,11 +585,11 @@ export const lesson12: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Carbon monoxide and water" },
-              { id: "b", text: "Carbon dioxide and hydrogen" },
-              { id: "c", text: "Carbon dioxide and water" },
-              { id: "d", text: "Carbon and hydrogen" },
+              { id: "b", text: "Carbon and hydrogen" },
+              { id: "c", text: "Carbon dioxide and hydrogen" },
+              { id: "d", text: "Carbon dioxide and water" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -612,11 +612,11 @@ export const lesson12: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Fast oxidation" },
-              { id: "b", text: "Slow oxidation" },
-              { id: "c", text: "Thermal decomposition" },
-              { id: "d", text: "Neutralisation" },
+              { id: "b", text: "Neutralisation" },
+              { id: "c", text: "Slow oxidation" },
+              { id: "d", text: "Thermal decomposition" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -638,12 +638,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$+5.5\\ ^\\circ\\text{C}$" },
-              { id: "b", text: "$-5.5\\ ^\\circ\\text{C}$" },
-              { id: "c", text: "$+54.5\\ ^\\circ\\text{C}$" },
+              { id: "a", text: "$-5.5\\ ^\\circ\\text{C}$" },
+              { id: "b", text: "$+54.5\\ ^\\circ\\text{C}$" },
+              { id: "c", text: "$+5.5\\ ^\\circ\\text{C}$" },
               { id: "d", text: "$-54.5\\ ^\\circ\\text{C}$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -800,11 +800,11 @@ export const lesson12: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Two substances join together to make a new compound" },
-              { id: "b", text: "One substance reacts with oxygen and burns" },
-              { id: "c", text: "Heat breaks one compound down into two or more simpler substances" },
+              { id: "b", text: "Heat breaks one compound down into two or more simpler substances" },
+              { id: "c", text: "One substance reacts with oxygen and burns" },
               { id: "d", text: "An acid and an alkali react to form a salt and water" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -826,12 +826,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Burning methane in a gas stove" },
-              { id: "b", text: "Neutralising stomach acid with an antacid tablet" },
-              { id: "c", text: "Heating copper carbonate so it decomposes" },
-              { id: "d", text: "Rusting of an iron gate over several months" },
+              { id: "a", text: "Neutralising stomach acid with an antacid tablet" },
+              { id: "b", text: "Rusting of an iron gate over several months" },
+              { id: "c", text: "Burning methane in a gas stove" },
+              { id: "d", text: "Heating copper carbonate so it decomposes" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [

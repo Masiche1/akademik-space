@@ -52,12 +52,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Have one correct factual answer" },
-              { id: "b", text: "Invite argument about the nature of knowledge" },
-              { id: "c", text: "Be answerable from a textbook" },
-              { id: "d", text: "Focus on a single subject" },
+              { id: "a", text: "Be answerable from a textbook" },
+              { id: "b", text: "Focus on a single subject" },
+              { id: "c", text: "Invite argument about the nature of knowledge" },
+              { id: "d", text: "Have one correct factual answer" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -147,12 +147,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "What is climate change?" },
-              { id: "b", text: "To what extent does reliance on models limit scientific knowledge of climate change?" },
-              { id: "c", text: "Name three causes of climate change." },
-              { id: "d", text: "Is climate change real?" },
+              { id: "a", text: "Name three causes of climate change." },
+              { id: "b", text: "Is climate change real?" },
+              { id: "c", text: "To what extent does reliance on models limit scientific knowledge of climate change?" },
+              { id: "d", text: "What is climate change?" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -174,12 +174,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Two areas of knowledge or ways of knowing" },
+              { id: "a", text: "A topic with its dictionary definition" },
               { id: "b", text: "Two textbook chapters" },
-              { id: "c", text: "A topic with its dictionary definition" },
-              { id: "d", text: "A student with a teacher" },
+              { id: "c", text: "A student with a teacher" },
+              { id: "d", text: "Two areas of knowledge or ways of knowing" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -201,12 +201,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Generate TOK essay titles" },
-              { id: "b", text: "Construct focused knowledge questions" },
-              { id: "c", text: "Grade exhibition commentaries" },
-              { id: "d", text: "Define the six areas of knowledge" },
+              { id: "a", text: "Define the six areas of knowledge" },
+              { id: "b", text: "Grade exhibition commentaries" },
+              { id: "c", text: "Generate TOK essay titles" },
+              { id: "d", text: "Construct focused knowledge questions" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -248,12 +248,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "What are the main ethical theories?" },
-              { id: "b", text: "To what extent can moral judgements be considered knowledge?" },
+              { id: "a", text: "To what extent can moral judgements be considered knowledge?" },
+              { id: "b", text: "What are the main ethical theories?" },
               { id: "c", text: "Who wrote the most famous ethics textbook?" },
               { id: "d", text: "Is ethics a difficult subject?" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -300,12 +300,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It is too long and complex" },
-              { id: "b", text: "It can be answered yes or no without engaging problems of knowledge" },
-              { id: "c", text: "It mentions art, which is not an area of knowledge" },
-              { id: "d", text: "It lacks a question mark" },
+              { id: "a", text: "It lacks a question mark" },
+              { id: "b", text: "It is too long and complex" },
+              { id: "c", text: "It can be answered yes or no without engaging problems of knowledge" },
+              { id: "d", text: "It mentions art, which is not an area of knowledge" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -398,12 +398,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "To what extent" },
-              { id: "b", text: "Who said" },
-              { id: "c", text: "When did" },
+              { id: "a", text: "Who said" },
+              { id: "b", text: "When did" },
+              { id: "c", text: "To what extent" },
               { id: "d", text: "Name the" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -477,12 +477,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "500–800 words" },
-              { id: "b", text: "1200–1600 words" },
-              { id: "c", text: "2000–2500 words" },
-              { id: "d", text: "Any length" },
+              { id: "a", text: "Any length" },
+              { id: "b", text: "2000–2500 words" },
+              { id: "c", text: "1200–1600 words" },
+              { id: "d", text: "500–800 words" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -572,12 +572,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Three" },
-              { id: "b", text: "Six" },
-              { id: "c", text: "Twelve" },
-              { id: "d", text: "One per student" },
+              { id: "a", text: "Twelve" },
+              { id: "b", text: "One per student" },
+              { id: "c", text: "Six" },
+              { id: "d", text: "Three" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -599,12 +599,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Summarise the prescribed title verbatim" },
-              { id: "b", text: "Interpret the title and state your line of argument" },
+              { id: "a", text: "Give personal biographical details" },
+              { id: "b", text: "Summarise the prescribed title verbatim" },
               { id: "c", text: "List all examples you will use" },
-              { id: "d", text: "Give personal biographical details" },
+              { id: "d", text: "Interpret the title and state your line of argument" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -628,8 +628,8 @@ export const lesson31: Lesson = {
             choices: [
               { id: "a", text: "Extensive direct quotation" },
               { id: "b", text: "Direct, sustained engagement with the prescribed title" },
-              { id: "c", text: "Personal anecdote throughout" },
-              { id: "d", text: "Technical philosophical jargon" },
+              { id: "c", text: "Technical philosophical jargon" },
+              { id: "d", text: "Personal anecdote throughout" },
             ],
             correctChoiceId: "b",
           },
@@ -675,8 +675,8 @@ export const lesson31: Lesson = {
             choices: [
               { id: "a", text: "Choosing a catchy title" },
               { id: "b", text: "Interpreting the prescribed title and identifying its key terms" },
-              { id: "c", text: "Writing the conclusion first" },
-              { id: "d", text: "Counting the required words" },
+              { id: "c", text: "Counting the required words" },
+              { id: "d", text: "Writing the conclusion first" },
             ],
             correctChoiceId: "b",
           },
@@ -725,12 +725,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The word count is too low" },
-              { id: "b", text: "It fails the requirement to link two areas of knowledge" },
-              { id: "c", text: "It lacks subheadings" },
-              { id: "d", text: "It contains too many examples" },
+              { id: "a", text: "It contains too many examples" },
+              { id: "b", text: "The word count is too low" },
+              { id: "c", text: "It fails the requirement to link two areas of knowledge" },
+              { id: "d", text: "It lacks subheadings" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -823,10 +823,10 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Every week" },
+              { id: "a", text: "Each term" },
               { id: "b", text: "Each examination session" },
-              { id: "c", text: "Never after publication" },
-              { id: "d", text: "Each term" },
+              { id: "c", text: "Every week" },
+              { id: "d", text: "Never after publication" },
             ],
             correctChoiceId: "b",
           },

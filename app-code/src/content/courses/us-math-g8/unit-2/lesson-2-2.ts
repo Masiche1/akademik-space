@@ -52,12 +52,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\{(1,2),(1,3),(2,4)\\}$" },
-              { id: "b", text: "$\\{(1,2),(2,2),(3,5)\\}$" },
-              { id: "c", text: "$\\{(0,1),(0,4),(3,3)\\}$" },
+              { id: "a", text: "$\\{(1,2),(2,2),(3,5)\\}$" },
+              { id: "b", text: "$\\{(0,1),(0,4),(3,3)\\}$" },
+              { id: "c", text: "$\\{(1,2),(1,3),(2,4)\\}$" },
               { id: "d", text: "$\\{(2,1),(3,1),(2,5)\\}$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -191,11 +191,11 @@ export const lesson22: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$y=2x+1$" },
-              { id: "b", text: "$y=\\frac{x}{3}$" },
-              { id: "c", text: "$y=x^2+1$" },
-              { id: "d", text: "$y=5$" },
+              { id: "b", text: "$y=x^2+1$" },
+              { id: "c", text: "$y=5$" },
+              { id: "d", text: "$y=\\frac{x}{3}$" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [

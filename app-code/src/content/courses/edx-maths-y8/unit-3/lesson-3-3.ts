@@ -54,12 +54,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$(3,-2)$" },
-              { id: "b", text: "$(-3,2)$" },
-              { id: "c", text: "$(-3,-2)$" },
-              { id: "d", text: "$(2,3)$" },
+              { id: "a", text: "$(-3,-2)$" },
+              { id: "b", text: "$(3,-2)$" },
+              { id: "c", text: "$(2,3)$" },
+              { id: "d", text: "$(-3,2)$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "property", name: "Reflection", statement: "Reflection in the $y$-axis changes the sign of the $x$-coordinate only." }],
@@ -186,12 +186,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$110^\\circ$" },
-              { id: "b", text: "$250^\\circ$" },
-              { id: "c", text: "$290^\\circ$" },
-              { id: "d", text: "$070^\\circ$" },
+              { id: "a", text: "$290^\\circ$" },
+              { id: "b", text: "$110^\\circ$" },
+              { id: "c", text: "$070^\\circ$" },
+              { id: "d", text: "$250^\\circ$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Back bearing", statement: "The back bearing differs by $180^\\circ$." }],

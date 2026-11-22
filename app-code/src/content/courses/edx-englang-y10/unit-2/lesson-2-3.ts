@@ -89,12 +89,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "However" },
-              { id: "b", text: "Moreover" },
-              { id: "c", text: "Therefore" },
-              { id: "d", text: "Meanwhile" },
+              { id: "a", text: "Moreover" },
+              { id: "b", text: "Therefore" },
+              { id: "c", text: "Meanwhile" },
+              { id: "d", text: "However" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "skill", name: "Additive markers", statement: "Moreover and furthermore add a point." }],
@@ -218,10 +218,10 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Its important that everyone arrives on time." },
+              { id: "a", text: "Its' important that everyone arrives on time." },
               { id: "b", text: "It's important that everyone arrives on time." },
-              { id: "c", text: "Its' important that everyone arrives on time." },
-              { id: "d", text: "Is important that everyone arrives on time." },
+              { id: "c", text: "Is important that everyone arrives on time." },
+              { id: "d", text: "Its important that everyone arrives on time." },
             ],
             correctChoiceId: "b",
           },

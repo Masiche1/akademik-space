@@ -54,8 +54,8 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Trachea" },
-              { id: "b", text: "Bronchi" },
+              { id: "a", text: "Bronchi" },
+              { id: "b", text: "Trachea" },
               { id: "c", text: "Alveoli" },
               { id: "d", text: "Bronchioles" },
             ],
@@ -186,12 +186,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "glucose + carbon dioxide $\\rightarrow$ oxygen + water" },
-              { id: "b", text: "glucose + oxygen $\\rightarrow$ carbon dioxide + water" },
-              { id: "c", text: "carbon dioxide + water $\\rightarrow$ glucose + oxygen" },
-              { id: "d", text: "glucose $\\rightarrow$ lactic acid" },
+              { id: "a", text: "glucose + oxygen $\\rightarrow$ carbon dioxide + water" },
+              { id: "b", text: "carbon dioxide + water $\\rightarrow$ glucose + oxygen" },
+              { id: "c", text: "glucose $\\rightarrow$ lactic acid" },
+              { id: "d", text: "glucose + carbon dioxide $\\rightarrow$ oxygen + water" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

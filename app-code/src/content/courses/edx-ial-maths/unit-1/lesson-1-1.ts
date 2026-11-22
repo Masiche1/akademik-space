@@ -51,10 +51,10 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$4$" },
+              { id: "a", text: "$-8$" },
               { id: "b", text: "$-4$" },
               { id: "c", text: "$8$" },
-              { id: "d", text: "$-8$" },
+              { id: "d", text: "$4$" },
             ],
             correctChoiceId: "b",
           },
@@ -188,12 +188,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$9$" },
-              { id: "b", text: "$17$" },
-              { id: "c", text: "$25$" },
-              { id: "d", text: "$-7$" },
+              { id: "a", text: "$-7$" },
+              { id: "b", text: "$25$" },
+              { id: "c", text: "$9$" },
+              { id: "d", text: "$17$" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [

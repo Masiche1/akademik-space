@@ -50,12 +50,12 @@ export const lesson73: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$4$" },
-              { id: "b", text: "$2$" },
-              { id: "c", text: "$8$" },
-              { id: "d", text: "$1$" },
+              { id: "a", text: "$1$" },
+              { id: "b", text: "$8$" },
+              { id: "c", text: "$4$" },
+              { id: "d", text: "$2$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -135,6 +135,157 @@ export const lesson73: Lesson = {
             commonErrors: ["Applying reflections in the wrong order — order matters for the intermediate steps though not the final result here.", "In (a) writing two reflections instead of a single transformation."],
           },
         },
+        {
+          id: "ciem-u7-symmetry-q5", difficulty: "foundation", totalMarks: 1,
+          stem: "How many lines of symmetry does a rectangle that is not a square have?",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "$1$" },
+            { id: "b", text: "$2$" },
+            { id: "c", text: "$0$" },
+            { id: "d", text: "$4$" }
+ ],
+            correctChoiceId: "b" },
+          markscheme: { principles: [ { kind: "property", name: "Rectangle symmetry", statement: "A non-square rectangle has two lines: through midpoints of opposite sides." } ],
+            steps: [ { reasoning: "Count the mirror lines.", working: "2", marks: 1, markCode: "B" } ],
+            finalAnswer: "**(b)** $2$", commonErrors: ["Counting the diagonals."] },
+        },
+        {
+          id: "ciem-u7-symmetry-q6", difficulty: "core", totalMarks: 1,
+          stem: "What is the order of rotational symmetry of an equilateral triangle?",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "$6$" },
+            { id: "b", text: "$2$" },
+            { id: "c", text: "$1$" },
+            { id: "d", text: "$3$" }
+ ],
+            dorrectChoiceId: "c" },
+          markscheme: { principles: [ { kind: "property", name: "Rotational symmetry", statement: "An equilateral triangle maps onto itself every $120^\\circ$." } ],
+            steps: [ { reasoning: "Order $=360^\\circ/120^\\circ=3$.", working: "3", marks: 1, markCode: "M" } ],
+            finalAnswer: "**(c)** $3$", commonErrors: ["Counting only one rotation."] },
+        },
+        {
+          id: "ciem-u7-symmetry-q7", difficulty: "core", totalMarks: 2,
+          stem: "A regular polygon maps onto itself after rotations of $72^\\circ$. What is its order of rotational symmetry?",
+          response: { type: "numeric", parts: [ { label: "Order", answer: 5 }] },
+          markscheme: { principles: [ { kind: "formula", name: "Rotational symmetry order", statement: "$n=\\frac{360^\\circ}{\\text{smallest angle}}$" } ],
+            steps: [
+              { reasoning: "Use the smallest rotation angle.", working: "n=\\frac{360}{72}", marks: 1, markCode: "M" },
+              { reasoning: "Compute the order.", marks: 1, markCode: "A" } ],
+            finalAnswer: "Order $5$", commonErrors: ["Answering $72$."] },
+        },
+        {
+          id: "ciem-u7-symmetry-q8", difficulty: "challenge", totalMarks: 1,
+          stem: "How many lines of symmetry does a circle have?",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "$2$" },
+            { id: "b", text: "Infinitely many" },
+            { id: "c", text: "$4$" },
+            { id: "d", text: "$1$" }
+ ],
+            correctChoiceIb: "d" },
+          markscheme: { principles: [ { kind: "property", name: "Circle symmetry", statement: "Every diameter is a line of symmetry." } ],
+            steps: [ { reasoning: "Any diameter reflects the circle onto itself.", working: "\\infty", marks: 1, markCode: "B" } ],
+            finalAnswer: "**(d)** Infinitely many", commonErrors: ["Counting only horizontal and vertical diameters."] },
+        },
+        {
+          id: "ciem-u7-symmetry-q9", difficulty: "core", totalMarks: 2,
+          stem: "An isosceles triangle that is not equilateral has one line of symmetry. What is its order of rotational symmetry?",
+          response: { type: "numeric", parts: [ { label: "Lines", answer: 1 }, { label: "Order", answer: 1 } ] },
+          markscheme: { principles: [ { kind: "property", name: "Symmetry", statement: "Only the identity rotation leaves it unchanged." } ],
+            steps: [
+              { reasoning: "Lines of symmetry $=1$.", working: "1", marks: 1, markCode: "M" },
+              { reasoning: "Rotational order $=1$ because no non-identity rotation maps it onto itself.", working: "1", marks: 1, markCode: "A" } ],
+            finalAnswer: "Lines $=1$, order $=1$", commonErrors: ["Thinking order equals number of lines."] },
+        },
+        {
+          id: "ciem-u7-symmetry-q10", difficulty: "foundation", totalMarks: 2,
+          stem: "A square maps onto itself after rotations of $90^\\circ$, $180^\\circ$ and $270^\\circ$. What is its order of rotational symmetry?",
+          response: { type: "numeric", parts: [ { label: "Order", answer: 4 }] },
+          markscheme: { principles: [ { kind: "formula", name: "Rotational symmetry order", statement: "$n=\\frac{360^\\circ}{90^\\circ}=4$." } ],
+            steps: [
+              { reasoning: "Smallest rotation is $90^\\circ$.", working: "n=\\frac{360}{90}", marks: 1, markCode: "M" },
+              { reasoning: "State the order.", marks: 1, markCode: "A" } ],
+            finalAnswer: "Order $4$", commonErrors: ["Counting three rotations and forgetting the original."] },
+        },
+        {
+          id: "ciem-u7-symmetry-q11", difficulty: "challenge", totalMarks: 1,
+          stem: "Which shape has rotational symmetry of order $4$?",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "An equilateral triangle" },
+            { id: "b", text: "A rectangle that is not a square" },
+            { id: "c", text: "A scalene triangle" },
+            { id: "d", text: "A square" }
+ ],
+            correctChoiceId: "d" },
+          markscheme: { principles: [ { kind: "property", name: "Rotational symmetry", statement: "A square maps onto itself every $90^\\circ$." } ],
+            steps: [ { reasoning: "Order $4$ needs $90^\\circ$ rotational symmetry.", working: "\\text{square}", marks: 1, markCode: "B" } ],
+            finalAnswer: "**(b)** A square", commonErrors: ["Choosing the rectangle."] },
+        },
+        {
+          id: "ciem-u7-symmetry-q12", difficulty: "core", totalMarks: 3,
+          stem: "Describe the symmetry of a regular hexagon.",
+          response: { type: "open" },
+          markscheme: { principles: [ { kind: "property", name: "Regular polygon symmetry", statement: "A regular $n$-gon has $n$ lines and order $n$." } ],
+            steps: [
+              { reasoning: "Count the lines of symmetry.", working: "6", marks: 1, markCode: "M" },
+              { reasoning: "Find the rotational order.", working: "n=\\frac{360}{60}=6", marks: 1, markCode: "M" },
+              { reasoning: "State both facts.", marks: 1, markCode: "A" } ],
+            finalAnswer: "$6$ lines of symmetry; order $6$ rotational symmetry", commonErrors: ["Giving order $3$."] },
+        },
+        {
+          id: "ciem-u7-symmetry-q13", difficulty: "challenge", totalMarks: 2,
+          stem: "A shape maps onto itself after rotations of $45^\\circ$, $90^\\circ$, $135^\\circ$, $180^\\circ$, $225^\\circ$, $270^\\circ$ and $315^\\circ$. What is its order of rotational symmetry?",
+          response: { type: "numeric", parts: [ { label: "Order", answer: 8 }] },
+          markscheme: { principles: [ { kind: "formula", name: "Rotational symmetry order", statement: "$n=\\frac{360^\\circ}{45^\\circ}=8$." } ],
+            steps: [
+              { reasoning: "Smallest rotation is $45^\\circ$.", working: "n=\\frac{360}{45}", marks: 1, markCode: "M" },
+              { reasoning: "State the order.", marks: 1, markCode: "A" } ],
+            finalAnswer: "Order $8$", commonErrors: ["Counting seven listed rotations instead of eight including identity."] },
+        },
+        {
+          id: "ciem-u7-symmetry-q14", difficulty: "foundation", totalMarks: 3,
+          stem: "Describe the symmetry of the capital letter H.",
+          response: { type: "open" },
+          markscheme: { principles: [ { kind: "property", name: "Letter symmetry", statement: "H has vertical and horizontal mirror lines and order $2$ rotational symmetry." } ],
+            steps: [
+              { reasoning: "Identify mirror lines.", working: "\\text{vertical and horizontal}", marks: 1, markCode: "M" },
+              { reasoning: "A $180^\\circ$ rotation maps H onto itself.", working: "n=2", marks: 1, markCode: "M" },
+              { reasoning: "State the symmetry.", marks: 1, markCode: "A" } ],
+            finalAnswer: "$2$ lines of symmetry; order $2$ rotational symmetry", commonErrors: ["Missing the horizontal line."] },
+        },
+        {
+          id: "ciem-u7-symmetry-q15", difficulty: "core", totalMarks: 1,
+          stem: "The order of rotational symmetry counts which positions?",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "The number of lines of symmetry" },
+            { id: "b", text: "Only the rotated positions, excluding the original" },
+            { id: "c", text: "Only $180^\\circ$ rotations" },
+            { id: "d", text: "The original position plus each rotation that maps the shape onto itself" }
+ ],
+            correctChoiceId: "d" },
+          markscheme: { principles: [ { kind: "definition", name: "Order", statement: "Order includes the identity/original position." } ],
+            steps: [ { reasoning: "Recall the definition.", working: "\\text{include original}", marks: 1, markCode: "B" } ],
+            finalAnswer: "**(b)** Original plus each mapping rotation", commonErrors: ["Excluding the original position."] },
+        },
+        {
+          id: "ciem-u7-symmetry-q16", difficulty: "challenge", totalMarks: 6,
+          stem: "A regular octagon is drawn on a coordinate grid.",
+          parts: [
+            { label: "a", prompt: "State the number of lines of symmetry.", marks: 2 },
+            { label: "b", prompt: "State the order of rotational symmetry.", marks: 2 },
+            { label: "c", prompt: "Find the smallest angle of rotation that maps it onto itself.", marks: 2 } ],
+          response: { type: "open" },
+          markscheme: { principles: [ { kind: "property", name: "Regular polygon symmetry", statement: "A regular $n$-gon has $n$ lines and order $n$." } ],
+            steps: [
+              { part: "a", reasoning: "A regular octagon has $8$ lines of symmetry.", working: "8", marks: 1, markCode: "M" },
+              { part: "a", reasoning: "State the number.", marks: 1, markCode: "A" },
+              { part: "b", reasoning: "Order equals the number of sides for a regular polygon.", working: "n=8", marks: 1, markCode: "M" },
+              { part: "b", reasoning: "State the order.", marks: 1, markCode: "A" },
+              { part: "c", reasoning: "Smallest angle $=\\frac{360^\\circ}{8}$.", working: "=45^\\circ", marks: 1, markCode: "M" },
+              { part: "c", reasoning: "State the angle.", marks: 1, markCode: "A" } ],
+            finalAnswer: "(a) $8$ (b) order $8$ (c) $45^\\circ$",
+            commonErrors: ["Giving order $4$ for an octagon."] },
+        },
       ],
     },
     {
@@ -173,12 +324,12 @@ export const lesson73: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The line is a line of symmetry of the shape" },
+              { id: "a", text: "The shape has no symmetry" },
               { id: "b", text: "The transformation failed" },
-              { id: "c", text: "The shape has no symmetry" },
-              { id: "d", text: "The shape is a circle" },
+              { id: "c", text: "The shape is a circle" },
+              { id: "d", text: "The line is a line of symmetry of the shape" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -258,6 +409,160 @@ export const lesson73: Lesson = {
             finalAnswer: "(a) rotation $180^\\circ$ about $(3,-1)$ (b) itself — rotation $180^\\circ$ about $(3,-1)$ (c) $(4,-3.5)$",
             commonErrors: ["Describing only 'rotation' without centre and angle.", "In (c) using the centre of $R'$ instead of applying the transformation to the centre of $R$."],
           },
+        },
+        {
+          id: "ciem-u7-transformation-problems-q5", difficulty: "foundation", totalMarks: 1,
+          stem: "A rotation is described fully by which three pieces of information?",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "Vector only" },
+            { id: "b", text: "Mirror line and angle" },
+            { id: "c", text: "Scale factor and centre" },
+            { id: "d", text: "Centre, angle and direction" }
+ ],
+            correctChoiceId: "d" },
+          markscheme: { principles: [ { kind: "convention", name: "Full description", statement: "A rotation needs centre, angle and direction." } ],
+            steps: [ { reasoning: "Recall the required elements.", working: "\\text{centre, angle, direction}", marks: 1, markCode: "B" } ],
+            finalAnswer: "**(a)** Centre, angle and direction", commonErrors: ["Omitting direction."] },
+        },
+        {
+          id: "ciem-u7-transformation-problems-q6", difficulty: "core", totalMarks: 1,
+          stem: "Point $A(1,2)$ maps to $A'(3,2)$. One point alone cannot distinguish a translation from a reflection. What additional information is needed?",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "The area of the shape" },
+            { id: "b", text: "A second object–image pair" },
+            { id: "c", text: "The perimeter only" },
+            { id: "d", text: "The colour of the shape" }
+ ],
+            correctChoiceId: "b" },
+          markscheme: { principles: [ { kind: "technique", name: "Verification", statement: "Use a second point to distinguish possible transformations." } ],
+            steps: [ { reasoning: "A second pair tests whether all points move identically or reflect.", working: "\\text{second pair}", marks: 1, markCode: "B" } ],
+            finalAnswer: "**(a)** A second object–image pair", commonErrors: ["Guessing from one point."] },
+        },
+        {
+          id: "ciem-u7-transformation-problems-q7", difficulty: "core", totalMarks: 2,
+          stem: "Point $P(4,5)$ is reflected to $P'(4,-1)$. Find the midpoint of $PP'$.",
+          response: { type: "numeric", parts: [ { label: "x", answer: 4 }, { label: "y", answer: 2 } ] },
+          markscheme: { principles: [ { kind: "property", name: "Mirror line", statement: "The mirror line passes through the midpoint of $PP'$." } ],
+            steps: [
+              { reasoning: "Average the coordinates.", working: "M=\\left(\\frac{4+4}{2},\\frac{5-1}{2}\\right)=(4,2)", marks: 1, markCode: "M" },
+              { reasoning: "State the midpoint.", marks: 1, markCode: "A" } ],
+            finalAnswer: "$(4,2)$", commonErrors: ["Using $(4,-3)$ as midpoint."] },
+        },
+        {
+          id: "ciem-u7-transformation-problems-q8", difficulty: "challenge", totalMarks: 1,
+          stem: "Points $(0,0)\\to(0,0)$ and $(2,0)\\to(0,2)$ under a rotation about the origin. Describe the rotation.",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "Rotation $90^\\circ$ clockwise" },
+            { id: "b", text: "Reflection in $y=x$" },
+            { id: "c", text: "Rotation $90^\\circ$ anticlockwise" },
+            { id: "d", text: "Rotation $180^\\circ$" }
+ ],
+            correctChoiceId: "c" },
+          markscheme: { principles: [ { kind: "formula", name: "Rotate 90° acw", statement: "$(x,y)\\to(-y,x)$" } ],
+            steps: [ { reasoning: "$(2,0)\\to(0,2)$ matches $(x,y)\\to(-y,x)$.", working: "90^\\circ\\text{ acw}", marks: 1, markCode: "M" } ],
+            finalAnswer: "**(c)** Rotation $90^\\circ$ anticlockwise about $(0,0)$", commonErrors: ["Choosing clockwise."] },
+        },
+        {
+          id: "ciem-u7-transformation-problems-q9", difficulty: "core", totalMarks: 2,
+          stem: "Point $(2,2)$ is enlarged with centre $(0,0)$ and maps to $(6,6)$. Find the scale factor.",
+          response: { type: "numeric", parts: [ { label: "k", answer: 3 }] },
+          markscheme: { principles: [ { kind: "formula", name: "Scale factor", statement: "$k=\\frac{\\text{image distance}}{\\text{object distance}}$" } ],
+            steps: [
+              { reasoning: "Coordinates triple.", working: "k=\\frac62=\\frac63=3", marks: 1, markCode: "M" },
+              { reasoning: "State the scale factor.", marks: 1, markCode: "A" } ],
+            finalAnswer: "$k=3$", commonErrors: ["Using $k=4$."] },
+        },
+        {
+          id: "ciem-u7-transformation-problems-q10", difficulty: "foundation", totalMarks: 2,
+          stem: "Write the inverse of a translation by vector $\\begin{pmatrix}-2\\\\5\\end{pmatrix}$.",
+          response: { type: "numeric", parts: [ { label: "x", answer: 2 }, { label: "y", answer: -5 } ] },
+          markscheme: { principles: [ { kind: "formula", name: "Inverse translation", statement: "Negate the vector." } ],
+            steps: [
+              { reasoning: "Reverse the signs.", working: "\\begin{pmatrix}2\\\\-5\\end{pmatrix}", marks: 1, markCode: "M" },
+              { reasoning: "State the components.", marks: 1, markCode: "A" } ],
+            finalAnswer: "$\\begin{pmatrix}2\\\\-5\\end{pmatrix}$", commonErrors: ["Negating only one component."] },
+        },
+        {
+          id: "ciem-u7-transformation-problems-q11", difficulty: "challenge", totalMarks: 1,
+          stem: "Which information is required to describe an enlargement fully?",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "Centre and scale factor" },
+            { id: "b", text: "Vector only" },
+            { id: "c", text: "Mirror line and angle" },
+            { id: "d", text: "Direction only" }
+ ],
+            correctChoiceId: "a" },
+          markscheme: { principles: [ { kind: "convention", name: "Full description", statement: "An enlargement needs centre and scale factor." } ],
+            steps: [ { reasoning: "Recall the required elements.", working: "\\text{centre and }k", marks: 1, markCode: "B" } ],
+            finalAnswer: "**(a)** Centre and scale factor", commonErrors: ["Omitting the centre."] },
+        },
+        {
+          id: "ciem-u7-transformation-problems-q12", difficulty: "core", totalMarks: 4,
+          stem: "Triangle vertices $(1,1)$, $(3,1)$ and $(1,2)$ are reflected in the line $y=x$ and then translated by $\\begin{pmatrix}1\\\\0\\end{pmatrix}$.",
+          response: { type: "open" },
+          markscheme: { principles: [ { kind: "formula", name: "Reflect y=x", statement: "$(x,y)\\to(y,x)$" }, { kind: "formula", name: "Translation", statement: "$(x,y)\\to(x+1,y)$" } ],
+            steps: [
+              { reasoning: "Reflect the vertices.", working: "(1,1),(1,3),(2,1)", marks: 1, markCode: "M" },
+              { reasoning: "Translate each image by $(1,0)$.", working: "(2,1),(2,3),(3,1)", marks: 1, markCode: "M" },
+              { reasoning: "State the final vertices.", marks: 1, markCode: "M" },
+              { reasoning: "Note the area is unchanged.", marks: 1, markCode: "A" } ],
+            finalAnswer: "Final vertices $(2,1)$, $(2,3)$, $(3,1)$; area unchanged",
+            commonErrors: ["Translating before reflecting."] },
+        },
+        {
+          id: "ciem-u7-transformation-problems-q13", difficulty: "challenge", totalMarks: 3,
+          stem: "Point $(2,1)$ is rotated $90^\\circ$ clockwise about the centre $(1,1)$. Find the image.",
+          response: { type: "numeric", parts: [ { label: "x", answer: 1 }, { label: "y", answer: 0 } ] },
+          markscheme: { principles: [ { kind: "formula", name: "Rotation about a point", statement: "Translate centre to origin, rotate, translate back." } ],
+            steps: [
+              { reasoning: "Relative to centre: $(1,0)$; rotate clockwise gives $(0,-1)$.", working: "(y,-x)=(0,-1)", marks: 1, markCode: "M" },
+              { reasoning: "Add the centre back.", working: "(1+0,1-1)=(1,0)", marks: 1, markCode: "M" },
+              { reasoning: "State the image.", marks: 1, markCode: "A" } ],
+            finalAnswer: "$(1,0)$", commonErrors: ["Rotating about the origin."] },
+        },
+        {
+          id: "ciem-u7-transformation-problems-q14", difficulty: "foundation", totalMarks: 3,
+          stem: "Point $(4,2)$ maps to $(2,4)$ under a transformation. Write the inverse transformation.",
+          response: { type: "open" },
+          markscheme: { principles: [ { kind: "formula", name: "Reflect y=x", statement: "$(x,y)\\to(y,x)$ is self-inverse." } ],
+            steps: [
+              { reasoning: "The mapping swaps coordinates, so it is reflection in $y=x$.", working: "(y,x)=(2,4)", marks: 1, markCode: "M" },
+              { reasoning: "Reflections are self-inverse.", working: "\\text{same reflection}", marks: 1, markCode: "M" },
+              { reasoning: "State the inverse.", marks: 1, markCode: "A" } ],
+            finalAnswer: "Reflection in the line $y=x$", commonErrors: ["Writing a different line."] },
+        },
+        {
+          id: "ciem-u7-transformation-problems-q15", difficulty: "core", totalMarks: 1,
+          stem: "Two reflections in parallel lines $6$ units apart are equivalent to which translation?",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "Rotation $180^\\circ$" },
+            { id: "b", text: "Reflection in a third line" },
+            { id: "c", text: "Translation by $6$ units perpendicular to the lines" },
+            { id: "d", text: "Translation by $12$ units perpendicular to the lines" }
+ ],
+            correctChoiceId: "d" },
+          markscheme: { principles: [ { kind: "property", name: "Two reflections", statement: "Parallel mirror lines give translation by twice the gap." } ],
+            steps: [ { reasoning: "Double the separation.", working: "2\\times6=12", marks: 1, markCode: "M" } ],
+            finalAnswer: "**(b)** Translation by $12$ units", commonErrors: ["Using the gap once."] },
+        },
+        {
+          id: "ciem-u7-transformation-problems-q16", difficulty: "challenge", totalMarks: 6,
+          stem: "Point $P(2,3)$ is reflected in the line $y=x$ and then translated by $\\begin{pmatrix}1\\\\-1\\end{pmatrix}$.",
+          parts: [
+            { label: "a", prompt: "Find the coordinates after the reflection.", marks: 2 },
+            { label: "b", prompt: "Find the final coordinates after the translation.", marks: 2 },
+            { label: "c", prompt: "Explain why the transformation preserves the area of any shape.", marks: 2 } ],
+          response: { type: "open" },
+          markscheme: { principles: [ { kind: "formula", name: "Reflect y=x", statement: "$(x,y)\\to(y,x)$" }, { kind: "property", name: "Isometry", statement: "Reflections and translations preserve distances." } ],
+            steps: [
+              { part: "a", reasoning: "Swap coordinates.", working: "P'=(3,2)", marks: 1, markCode: "M" },
+              { part: "a", reasoning: "State the reflected point.", marks: 1, markCode: "A" },
+              { part: "b", reasoning: "Apply the translation.", working: "(3+1,2-1)=(4,1)", marks: 1, markCode: "M" },
+              { part: "b", reasoning: "State the final point.", marks: 1, markCode: "A" },
+              { part: "c", reasoning: "Reflections and translations are isometries, so area is preserved.", working: "\\text{area unchanged}", marks: 1, markCode: "M" },
+              { part: "c", reasoning: "State the conclusion.", marks: 1, markCode: "A" } ],
+            finalAnswer: "(a) $(3,2)$ (b) $(4,1)$ (c) Reflections and translations preserve area.",
+            commonErrors: ["Claiming every distance from the origin is preserved."] },
         },
       ],
     },

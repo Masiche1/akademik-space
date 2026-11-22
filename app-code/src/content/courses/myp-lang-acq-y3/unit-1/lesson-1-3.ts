@@ -55,12 +55,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Hey, what's up?" },
-              { id: "b", text: "I am writing to inform you..." },
-              { id: "c", text: "Gonna see ya!" },
+              { id: "a", text: "I am writing to inform you..." },
+              { id: "b", text: "Gonna see ya!" },
+              { id: "c", text: "Hey, what's up?" },
               { id: "d", text: "Cool, innit?" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -158,12 +158,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Contractions like 'can't' and 'gonna'" },
-              { id: "b", text: "'Yours sincerely'" },
-              { id: "c", text: "Long complex sentences" },
-              { id: "d", text: "'Dear Sir'" },
+              { id: "a", text: "'Dear Sir'" },
+              { id: "b", text: "Long complex sentences" },
+              { id: "c", text: "Contractions like 'can't' and 'gonna'" },
+              { id: "d", text: "'Yours sincerely'" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -185,12 +185,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Hey there!" },
-              { id: "b", text: "Yo!" },
-              { id: "c", text: "Dear Mr Smith," },
-              { id: "d", text: "What's up?" },
+              { id: "a", text: "Yo!" },
+              { id: "b", text: "Dear Mr Smith," },
+              { id: "c", text: "What's up?" },
+              { id: "d", text: "Hey there!" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -218,12 +218,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Note A" },
+              { id: "a", text: "Both are informal" },
               { id: "b", text: "Note B" },
-              { id: "c", text: "Both are informal" },
-              { id: "d", text: "Neither is informal" },
+              { id: "c", text: "Neither is informal" },
+              { id: "d", text: "Note A" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -251,12 +251,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Informal" },
-              { id: "b", text: "Semi-formal" },
-              { id: "c", text: "Formal" },
-              { id: "d", text: "Slang" },
+              { id: "a", text: "Formal" },
+              { id: "b", text: "Slang" },
+              { id: "c", text: "Semi-formal" },
+              { id: "d", text: "Informal" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -284,12 +284,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Version 1 — it is friendlier" },
-              { id: "b", text: "Version 2 — it uses polite, full forms appropriate for a teacher" },
-              { id: "c", text: "Either — they mean the same thing" },
-              { id: "d", text: "Neither — both are too formal" },
+              { id: "a", text: "Neither — both are too formal" },
+              { id: "b", text: "Version 1 — it is friendlier" },
+              { id: "c", text: "Version 2 — it uses polite, full forms appropriate for a teacher" },
+              { id: "d", text: "Either — they mean the same thing" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -508,12 +508,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Neutral information" },
-              { id: "b", text: "Strong feeling or emphasis" },
-              { id: "c", text: "A question" },
-              { id: "d", text: "A list" },
+              { id: "a", text: "Strong feeling or emphasis" },
+              { id: "b", text: "A list" },
+              { id: "c", text: "Neutral information" },
+              { id: "d", text: "A question" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -619,10 +619,10 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Saying exactly what you mean" },
+              { id: "a", text: "Speaking very quietly" },
               { id: "b", text: "Saying the opposite of what you mean, often to criticise" },
-              { id: "c", text: "Using very formal language" },
-              { id: "d", text: "Speaking very quietly" },
+              { id: "c", text: "Saying exactly what you mean" },
+              { id: "d", text: "Using very formal language" },
             ],
             correctChoiceId: "b",
           },
@@ -647,11 +647,11 @@ export const lesson13: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "The film was boring and too long." },
-              { id: "b", text: "The film was absolutely brilliant!" },
+              { id: "b", text: "The film was a waste of time." },
               { id: "c", text: "The film was OK, I suppose." },
-              { id: "d", text: "The film was a waste of time." },
+              { id: "d", text: "The film was absolutely brilliant!" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -679,12 +679,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Very positive" },
-              { id: "b", text: "Negative" },
-              { id: "c", text: "Neutral" },
-              { id: "d", text: "Confused" },
+              { id: "a", text: "Negative" },
+              { id: "b", text: "Very positive" },
+              { id: "c", text: "Confused" },
+              { id: "d", text: "Neutral" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -706,12 +706,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "There is no difference" },
-              { id: "b", text: "Emphasis changes which word is stressed, changing the meaning" },
-              { id: "c", text: "One is a question" },
-              { id: "d", text: "One is formal and one informal" },
+              { id: "a", text: "Emphasis changes which word is stressed, changing the meaning" },
+              { id: "b", text: "One is formal and one informal" },
+              { id: "c", text: "There is no difference" },
+              { id: "d", text: "One is a question" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -739,12 +739,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Angry" },
-              { id: "b", text: "Proud and happy" },
-              { id: "c", text: "Sarcastic" },
-              { id: "d", text: "Bored" },
+              { id: "a", text: "Sarcastic" },
+              { id: "b", text: "Bored" },
+              { id: "c", text: "Proud and happy" },
+              { id: "d", text: "Angry" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -766,12 +766,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "delicious" },
-              { id: "b", text: "disgusting" },
-              { id: "c", text: "hot" },
-              { id: "d", text: "ready" },
+              { id: "a", text: "hot" },
+              { id: "b", text: "delicious" },
+              { id: "c", text: "ready" },
+              { id: "d", text: "disgusting" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

@@ -49,12 +49,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$2$" },
-              { id: "b", text: "$4$" },
-              { id: "c", text: "$8$" },
-              { id: "d", text: "$16$" },
+              { id: "a", text: "$8$" },
+              { id: "b", text: "$16$" },
+              { id: "c", text: "$2$" },
+              { id: "d", text: "$4$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Notation", statement: "In $\\mathrm{N}(\\mu,\\sigma^2)$ the second parameter is the variance $\\sigma^2$." }],
@@ -159,12 +159,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$5$" },
-              { id: "b", text: "$25$" },
-              { id: "c", text: "$12.5$" },
-              { id: "d", text: "$\\pm5$" },
+              { id: "a", text: "$\\pm5$" },
+              { id: "b", text: "$12.5$" },
+              { id: "c", text: "$25$" },
+              { id: "d", text: "$5$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Notation", statement: "In $\\mathrm{N}(\\mu,\\sigma^2)$ the second parameter is the variance $\\sigma^2$." }],
@@ -185,12 +185,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$0$" },
-              { id: "b", text: "$0.5$" },
-              { id: "c", text: "$1$" },
-              { id: "d", text: "It depends on $\\sigma$" },
+              { id: "a", text: "$1$" },
+              { id: "b", text: "It depends on $\\sigma$" },
+              { id: "c", text: "$0$" },
+              { id: "d", text: "$0.5$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Symmetry", statement: "A normal distribution is symmetric about its mean $\\mu$." }],
@@ -211,12 +211,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$0.68$" },
-              { id: "b", text: "$0.90$" },
-              { id: "c", text: "$0.95$" },
-              { id: "d", text: "$0.99$" },
+              { id: "a", text: "$0.90$" },
+              { id: "b", text: "$0.99$" },
+              { id: "c", text: "$0.68$" },
+              { id: "d", text: "$0.95$" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Empirical rule", statement: "About $68\\%$ within $1\\sigma$, $95\\%$ within $2\\sigma$, $99.7\\%$ within $3\\sigma$." }],
@@ -237,12 +237,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\mathrm{P}(X>\\mu+\\sigma)=\\mathrm{P}(X<\\mu+\\sigma)$" },
-              { id: "b", text: "$\\mathrm{P}(X>\\mu+\\sigma)=\\mathrm{P}(X>\\mu-\\sigma)$" },
-              { id: "c", text: "$\\mathrm{P}(X<\\mu)=\\mathrm{P}(X>\\mu)$" },
+              { id: "a", text: "$\\mathrm{P}(X<\\mu)=\\mathrm{P}(X>\\mu)$" },
+              { id: "b", text: "$\\mathrm{P}(X>\\mu+\\sigma)=\\mathrm{P}(X<\\mu+\\sigma)$" },
+              { id: "c", text: "$\\mathrm{P}(X>\\mu+\\sigma)=\\mathrm{P}(X>\\mu-\\sigma)$" },
               { id: "d", text: "$\\mathrm{P}(X>\\mu)=\\mathrm{P}(X>\\mu+\\sigma)$" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Symmetry", statement: "A normal distribution is symmetric about $\\mu$." }],
@@ -263,12 +263,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The number of standard deviations $x$ lies above or below the mean." },
+              { id: "a", text: "The variance of $X$." },
               { id: "b", text: "The probability that $X$ equals $x$." },
-              { id: "c", text: "The variance of $X$." },
+              { id: "c", text: "The number of standard deviations $x$ lies above or below the mean." },
               { id: "d", text: "The expected value of $X$." },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "$z$-score", statement: "$z=\\frac{x-\\mu}{\\sigma}$ measures distance from the mean in standard deviations." }],
@@ -289,12 +289,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\mathrm{P}(43<X<57)$" },
-              { id: "b", text: "$\\mathrm{P}(36<X<64)$" },
+              { id: "a", text: "$\\mathrm{P}(36<X<64)$" },
+              { id: "b", text: "$\\mathrm{P}(X>57)$" },
               { id: "c", text: "$\\mathrm{P}(X<43)$" },
-              { id: "d", text: "$\\mathrm{P}(X>57)$" },
+              { id: "d", text: "$\\mathrm{P}(43<X<57)$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Empirical rule", statement: "About $68\\%$ of values lie within one standard deviation of the mean." }],
@@ -509,12 +509,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$-1.28$" },
-              { id: "b", text: "$0.90$" },
-              { id: "c", text: "$1.28$" },
-              { id: "d", text: "$1.64$" },
+              { id: "a", text: "$1.64$" },
+              { id: "b", text: "$1.28$" },
+              { id: "c", text: "$-1.28$" },
+              { id: "d", text: "$0.90$" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Inverse normal", statement: "Inverse normal gives the value with the stated area to its left." }],
@@ -618,12 +618,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$-1.96$" },
-              { id: "b", text: "$-1.64$" },
-              { id: "c", text: "$-0.67$" },
-              { id: "d", text: "$-2.33$" },
+              { id: "a", text: "$-0.67$" },
+              { id: "b", text: "$-2.33$" },
+              { id: "c", text: "$-1.64$" },
+              { id: "d", text: "$-1.96$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Inverse normal", statement: "Inverse normal gives the value with the stated area to its left." }],
@@ -645,11 +645,11 @@ export const lesson53: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$1.28$" },
-              { id: "b", text: "$1.64$" },
-              { id: "c", text: "$1.96$" },
-              { id: "d", text: "$2.05$" },
+              { id: "b", text: "$2.05$" },
+              { id: "c", text: "$1.64$" },
+              { id: "d", text: "$1.96$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Inverse normal", statement: "The top $5\\%$ means $95\\%$ lie below the boundary." }],
@@ -670,9 +670,9 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$88$" },
+              { id: "a", text: "$96$" },
               { id: "b", text: "$93$" },
-              { id: "c", text: "$96$" },
+              { id: "c", text: "$88$" },
               { id: "d", text: "$99$" },
             ],
             correctChoiceId: "b",
@@ -696,12 +696,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The probability that $X$ is less than a given value." },
-              { id: "b", text: "The value $x$ such that $\\mathrm{P}(X<x)$ equals a given probability." },
-              { id: "c", text: "The mean of the distribution." },
-              { id: "d", text: "The standard deviation of the distribution." },
+              { id: "a", text: "The standard deviation of the distribution." },
+              { id: "b", text: "The probability that $X$ is less than a given value." },
+              { id: "c", text: "The value $x$ such that $\\mathrm{P}(X<x)$ equals a given probability." },
+              { id: "d", text: "The mean of the distribution." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Inverse normal", statement: "It reverses the normal cdf: input a probability, output the boundary value." }],
@@ -723,11 +723,11 @@ export const lesson53: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$\\mu+1.28\\sigma$" },
-              { id: "b", text: "$\\mu-1.28\\sigma$" },
-              { id: "c", text: "$\\mu-0.90\\sigma$" },
+              { id: "b", text: "$\\mu-0.90\\sigma$" },
+              { id: "c", text: "$\\mu-1.28\\sigma$" },
               { id: "d", text: "$\\mu+0.90\\sigma$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Inverse standardization", statement: "$x=\\mu+z\\sigma$ with $z=-1.2816$ for the bottom $10\\%$." }],
@@ -748,12 +748,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$1.28$" },
-              { id: "b", text: "$1.64$" },
-              { id: "c", text: "$1.96$" },
-              { id: "d", text: "$2.33$" },
+              { id: "a", text: "$1.96$" },
+              { id: "b", text: "$2.33$" },
+              { id: "c", text: "$1.28$" },
+              { id: "d", text: "$1.64$" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Inverse normal", statement: "Inverse normal gives the value with the stated area to its left." }],

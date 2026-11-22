@@ -49,12 +49,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$x=\\ln5$" },
-              { id: "b", text: "$x=e^5$" },
-              { id: "c", text: "$x=\\frac{5}{e}$" },
-              { id: "d", text: "$x=\\frac{\\ln5}{e}$" },
+              { id: "a", text: "$x=\\frac{5}{e}$" },
+              { id: "b", text: "$x=\\frac{\\ln5}{e}$" },
+              { id: "c", text: "$x=e^5$" },
+              { id: "d", text: "$x=\\ln5$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Natural logarithm", statement: "$e^x=a\\Leftrightarrow x=\\ln a$" }],
@@ -152,12 +152,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$x=e^2$" },
-              { id: "b", text: "$x=2e$" },
+              { id: "a", text: "$x=2e$" },
+              { id: "b", text: "$x=\\frac{e}{2}$" },
               { id: "c", text: "$x=\\ln 2$" },
-              { id: "d", text: "$x=\\frac{e}{2}$" },
+              { id: "d", text: "$x=e^2$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Natural logarithm", statement: "$\\ln x=a\\Leftrightarrow x=e^a$" }],
@@ -179,11 +179,11 @@ export const lesson23: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$e^x$" },
-              { id: "b", text: "$x$" },
-              { id: "c", text: "$\\ln x$" },
+              { id: "b", text: "$\\ln x$" },
+              { id: "c", text: "$x$" },
               { id: "d", text: "$\\frac1x$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Inverse functions", statement: "$\\ln(e^x)=x$ for all real $x$." }],
@@ -225,12 +225,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$x=\\ln5-1$" },
-              { id: "b", text: "$x=\\ln5+1$" },
-              { id: "c", text: "$x=\\ln(5)+e$" },
-              { id: "d", text: "$x=\\frac{5}{e}$" },
+              { id: "a", text: "$x=\\ln(5)+e$" },
+              { id: "b", text: "$x=\\frac{5}{e}$" },
+              { id: "c", text: "$x=\\ln5-1$" },
+              { id: "d", text: "$x=\\ln5+1$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Natural logarithm", statement: "$e^{x+1}=5\\Rightarrow x+1=\\ln5$" }],
@@ -277,12 +277,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\ln 4$" },
-              { id: "b", text: "$\\ln 3$" },
+              { id: "a", text: "$\\ln 3$" },
+              { id: "b", text: "$3$" },
               { id: "c", text: "$\\ln 8$" },
-              { id: "d", text: "$3$" },
+              { id: "d", text: "$\\ln 4$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "law", name: "Logarithm laws", statement: "$\\ln a-\\ln b=\\ln\\frac ab$" }],
@@ -363,10 +363,10 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$y=0$" },
+              { id: "a", text: "$x=0$" },
               { id: "b", text: "$y=2$" },
-              { id: "c", text: "$x=0$" },
-              { id: "d", text: "$y=e^x$" },
+              { id: "c", text: "$y=e^x$" },
+              { id: "d", text: "$y=0$" },
             ],
             correctChoiceId: "b",
           },
@@ -444,9 +444,9 @@ export const lesson23: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$y=e^{x-1}$" },
-              { id: "b", text: "$y=e^x+1$" },
-              { id: "c", text: "$y=\\ln(x-1)$" },
-              { id: "d", text: "$y=e^{x+1}$" },
+              { id: "b", text: "$y=\\ln(x-1)$" },
+              { id: "c", text: "$y=e^{x+1}$" },
+              { id: "d", text: "$y=e^x+1$" },
             ],
             correctChoiceId: "a",
           },
@@ -496,12 +496,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$y=f(x-3)+2$" },
-              { id: "b", text: "$y=f(x+3)+2$" },
-              { id: "c", text: "$y=f(x-3)-2$" },
-              { id: "d", text: "$y=f(x-2)+3$" },
+              { id: "a", text: "$y=f(x+3)+2$" },
+              { id: "b", text: "$y=f(x-2)+3$" },
+              { id: "c", text: "$y=f(x-3)+2$" },
+              { id: "d", text: "$y=f(x-3)-2$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "property", name: "Translations", statement: "$y=f(x-h)+k$ moves the graph $h$ right and $k$ up." }],
@@ -600,12 +600,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$y=-f(x)$" },
+              { id: "a", text: "$y=-x+f(x)$" },
               { id: "b", text: "$y=f(-x)$" },
               { id: "c", text: "$y=f(x)+1$" },
-              { id: "d", text: "$y=-x+f(x)$" },
+              { id: "d", text: "$y=-f(x)$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "property", name: "Reflections", statement: "$y=-f(x)$ reflects in the $x$-axis; $y=f(-x)$ reflects in the $y$-axis." }],
@@ -626,12 +626,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Horizontal stretch with scale factor $2$" },
-              { id: "b", text: "Horizontal stretch with scale factor $\\frac12$" },
-              { id: "c", text: "Vertical stretch with scale factor $2$" },
+              { id: "a", text: "Vertical stretch with scale factor $2$" },
+              { id: "b", text: "Horizontal stretch with scale factor $2$" },
+              { id: "c", text: "Horizontal stretch with scale factor $\\frac12$" },
               { id: "d", text: "Translation $2$ units to the left" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "property", name: "Horizontal stretch", statement: "$y=f(qx)$ is a horizontal stretch with scale factor $\\frac1q$." }],
@@ -676,12 +676,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Translation $3$ units to the left" },
+              { id: "a", text: "Translation $3$ units up" },
               { id: "b", text: "Translation $3$ units to the right" },
-              { id: "c", text: "Translation $3$ units up" },
+              { id: "c", text: "Translation $3$ units to the left" },
               { id: "d", text: "Horizontal stretch with scale factor $3$." },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "property", name: "Translations", statement: "$y=f(x-h)$ moves the graph $h$ units right; $y=f(x+h)$ moves it $h$ units left." }],
@@ -726,12 +726,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\left(\\frac a3,\\ 2b\\right)$" },
-              { id: "b", text: "$\\left(3a,\\ 2b\\right)$" },
+              { id: "a", text: "$\\left(3a,\\ 2b\\right)$" },
+              { id: "b", text: "$(a+3,\\ 2b)$." },
               { id: "c", text: "$\\left(\\frac a3,\\ \\frac b2\\right)$" },
-              { id: "d", text: "$(a+3,\\ 2b)$." },
+              { id: "d", text: "$\\left(\\frac a3,\\ 2b\\right)$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "property", name: "Stretches of points", statement: "$y=pf(qx)$ maps $(a,b)\\mapsto\\left(\\frac aq,\\ pb\\right)$." }],

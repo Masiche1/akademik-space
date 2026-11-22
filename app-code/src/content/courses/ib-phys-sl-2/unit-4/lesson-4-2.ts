@@ -54,12 +54,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Constructive interference" },
-              { id: "b", text: "Destructive interference" },
-              { id: "c", text: "No change in amplitude" },
-              { id: "d", text: "The waves stop travelling" },
+              { id: "a", text: "Destructive interference" },
+              { id: "b", text: "Constructive interference" },
+              { id: "c", text: "The waves stop travelling" },
+              { id: "d", text: "No change in amplitude" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -81,12 +81,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Constructive interference, because $2.4 = 3 \\times 0.80$" },
-              { id: "b", text: "Destructive interference, because $2.4 = 3 \\times 0.80$" },
-              { id: "c", text: "Constructive interference, because $2.4$ is even" },
-              { id: "d", text: "Destructive interference, because $2.4$ is not a whole number of metres" },
+              { id: "a", text: "Constructive interference, because $2.4$ is even" },
+              { id: "b", text: "Destructive interference, because $2.4$ is not a whole number of metres" },
+              { id: "c", text: "Destructive interference, because $2.4 = 3 \\times 0.80$" },
+              { id: "d", text: "Constructive interference, because $2.4 = 3 \\times 0.80$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -109,12 +109,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Constructive interference; path difference is $1.5\\lambda$" },
-              { id: "b", text: "Destructive interference; path difference is $1.5\\lambda$" },
-              { id: "c", text: "Constructive interference; path difference is $0.5\\lambda$" },
-              { id: "d", text: "No interference because the path difference exceeds one metre" },
+              { id: "a", text: "No interference because the path difference exceeds one metre" },
+              { id: "b", text: "Constructive interference; path difference is $0.5\\lambda$" },
+              { id: "c", text: "Destructive interference; path difference is $1.5\\lambda$" },
+              { id: "d", text: "Constructive interference; path difference is $1.5\\lambda$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -172,12 +172,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$(n + \\tfrac{1}{2})\\lambda$" },
-              { id: "b", text: "$n\\lambda$, where $n = 0, 1, 2, \\dots$" },
-              { id: "c", text: "always exactly $\\lambda$" },
-              { id: "d", text: "zero only" },
+              { id: "a", text: "always exactly $\\lambda$" },
+              { id: "b", text: "zero only" },
+              { id: "c", text: "$(n + \\tfrac{1}{2})\\lambda$" },
+              { id: "d", text: "$n\\lambda$, where $n = 0, 1, 2, \\dots$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -199,12 +199,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Constructive interference" },
-              { id: "b", text: "Destructive interference" },
+              { id: "a", text: "Destructive interference" },
+              { id: "b", text: "Constructive interference" },
               { id: "c", text: "No interference because the sources are coherent" },
               { id: "d", text: "Constructive interference only if the amplitudes are equal" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -251,12 +251,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Sources that emit waves of different frequencies" },
-              { id: "b", text: "Sources that emit waves of the same frequency with a constant phase relationship" },
-              { id: "c", text: "Sources that are always in antiphase" },
-              { id: "d", text: "Sources that produce waves of maximum amplitude" },
+              { id: "a", text: "Sources that emit waves of the same frequency with a constant phase relationship" },
+              { id: "b", text: "Sources that emit waves of different frequencies" },
+              { id: "c", text: "Sources that produce waves of maximum amplitude" },
+              { id: "d", text: "Sources that are always in antiphase" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -279,11 +279,11 @@ export const lesson42: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Constructive interference; path difference $0.50\\lambda$" },
-              { id: "b", text: "Destructive interference; path difference $0.50\\lambda$" },
-              { id: "c", text: "Constructive interference; path difference $1.0\\lambda$" },
-              { id: "d", text: "Destructive interference; path difference $2.0\\lambda$" },
+              { id: "b", text: "Constructive interference; path difference $1.0\\lambda$" },
+              { id: "c", text: "Destructive interference; path difference $2.0\\lambda$" },
+              { id: "d", text: "Destructive interference; path difference $0.50\\lambda$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -367,10 +367,10 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The speakers are too far apart to interfere" },
+              { id: "a", text: "The wavelengths of the two sounds are identical" },
               { id: "b", text: "The sources are incoherent, so the phase relationship drifts and no stable pattern forms" },
-              { id: "c", text: "Sound waves cannot interfere with each other" },
-              { id: "d", text: "The wavelengths of the two sounds are identical" },
+              { id: "c", text: "The speakers are too far apart to interfere" },
+              { id: "d", text: "Sound waves cannot interfere with each other" },
             ],
             correctChoiceId: "b",
           },
@@ -395,12 +395,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Twice the amplitude of one wave" },
-              { id: "b", text: "Zero" },
-              { id: "c", text: "The same as one wave" },
-              { id: "d", text: "Half the amplitude of one wave" },
+              { id: "a", text: "Zero" },
+              { id: "b", text: "Twice the amplitude of one wave" },
+              { id: "c", text: "Half the amplitude of one wave" },
+              { id: "d", text: "The same as one wave" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -539,12 +539,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A point of maximum amplitude" },
-              { id: "b", text: "A point where the displacement is always zero" },
-              { id: "c", text: "The end of the string" },
-              { id: "d", text: "A point where the wavelength is largest" },
+              { id: "a", text: "A point where the wavelength is largest" },
+              { id: "b", text: "The end of the string" },
+              { id: "c", text: "A point where the displacement is always zero" },
+              { id: "d", text: "A point of maximum amplitude" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -566,12 +566,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$100$ Hz" },
-              { id: "b", text: "$200$ Hz" },
+              { id: "a", text: "$200$ Hz" },
+              { id: "b", text: "$100$ Hz" },
               { id: "c", text: "$50$ Hz" },
               { id: "d", text: "$128$ Hz" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -594,12 +594,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Fundamental $100$ Hz; only odd harmonics present" },
+              { id: "a", text: "Fundamental $400$ Hz; only even harmonics present" },
               { id: "b", text: "Fundamental $200$ Hz; only odd harmonics present" },
               { id: "c", text: "Fundamental $100$ Hz; all harmonics present" },
-              { id: "d", text: "Fundamental $400$ Hz; only even harmonics present" },
+              { id: "d", text: "Fundamental $100$ Hz; only odd harmonics present" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -656,12 +656,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A point where the displacement is always zero" },
-              { id: "b", text: "A point of maximum amplitude" },
-              { id: "c", text: "The midpoint of the string only" },
-              { id: "d", text: "A point where the wave speed is zero" },
+              { id: "a", text: "A point of maximum amplitude" },
+              { id: "b", text: "A point where the displacement is always zero" },
+              { id: "c", text: "A point where the wave speed is zero" },
+              { id: "d", text: "The midpoint of the string only" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -683,12 +683,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$100$ Hz" },
-              { id: "b", text: "$200$ Hz" },
-              { id: "c", text: "$50$ Hz" },
-              { id: "d", text: "$400$ Hz" },
+              { id: "a", text: "$200$ Hz" },
+              { id: "b", text: "$100$ Hz" },
+              { id: "c", text: "$400$ Hz" },
+              { id: "d", text: "$50$ Hz" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -735,10 +735,10 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "All harmonics, $n = 1, 2, 3, \\dots$" },
+              { id: "a", text: "Only the fundamental" },
               { id: "b", text: "Only odd harmonics, $n = 1, 3, 5, \\dots$" },
-              { id: "c", text: "Only even harmonics, $n = 2, 4, 6, \\dots$" },
-              { id: "d", text: "Only the fundamental" },
+              { id: "c", text: "All harmonics, $n = 1, 2, 3, \\dots$" },
+              { id: "d", text: "Only even harmonics, $n = 2, 4, 6, \\dots$" },
             ],
             correctChoiceId: "b",
           },
@@ -763,12 +763,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Fundamental $100$ Hz; third harmonic $300$ Hz" },
-              { id: "b", text: "Fundamental $200$ Hz; third harmonic $600$ Hz" },
-              { id: "c", text: "Fundamental $100$ Hz; third harmonic $200$ Hz" },
+              { id: "a", text: "Fundamental $100$ Hz; third harmonic $200$ Hz" },
+              { id: "b", text: "Fundamental $100$ Hz; third harmonic $300$ Hz" },
+              { id: "c", text: "Fundamental $200$ Hz; third harmonic $600$ Hz" },
               { id: "d", text: "Fundamental $50$ Hz; third harmonic $150$ Hz" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -849,12 +849,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$2f_1$" },
-              { id: "b", text: "$f_1/2$" },
-              { id: "c", text: "$f_1$" },
-              { id: "d", text: "$4f_1$" },
+              { id: "a", text: "$f_1$" },
+              { id: "b", text: "$4f_1$" },
+              { id: "c", text: "$2f_1$" },
+              { id: "d", text: "$f_1/2$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -901,12 +901,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It is the same" },
-              { id: "b", text: "It is half that of pipe X" },
+              { id: "a", text: "It is half that of pipe X" },
+              { id: "b", text: "It is the same" },
               { id: "c", text: "It is twice that of pipe X" },
               { id: "d", text: "It is four times that of pipe X" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

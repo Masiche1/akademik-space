@@ -54,10 +54,10 @@ export const lesson31: Lesson = {
             choices: [
               { id: "a", text: "Rain gauge" },
               { id: "b", text: "Wind vane" },
-              { id: "c", text: "Thermometer" },
-              { id: "d", text: "Barometer only" },
+              { id: "c", text: "Barometer only" },
+              { id: "d", text: "Thermometer" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -144,12 +144,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Rain gauge" },
-              { id: "b", text: "Thermometer" },
-              { id: "c", text: "Wind vane" },
-              { id: "d", text: "Magnifying glass" },
+              { id: "a", text: "Thermometer" },
+              { id: "b", text: "Rain gauge" },
+              { id: "c", text: "Magnifying glass" },
+              { id: "d", text: "Wind vane" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -209,12 +209,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Thermometer" },
-              { id: "b", text: "Rain gauge" },
-              { id: "c", text: "Wind vane" },
+              { id: "a", text: "Wind vane" },
+              { id: "b", text: "Thermometer" },
+              { id: "c", text: "Rain gauge" },
               { id: "d", text: "Clock" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -297,12 +297,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "They turn bright and fall" },
-              { id: "b", text: "They all stay green" },
+              { id: "a", text: "They all stay green" },
+              { id: "b", text: "They turn bright and fall" },
               { id: "c", text: "They become snow" },
               { id: "d", text: "They grow bigger every day" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -345,9 +345,9 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "The Sun's rays hit more directly and days are longer" },
-              { id: "b", text: "Earth stops moving" },
-              { id: "c", text: "Clouds always disappear" },
-              { id: "d", text: "The Moon blocks winter" },
+              { id: "b", text: "The Moon blocks winter" },
+              { id: "c", text: "Earth stops moving" },
+              { id: "d", text: "Clouds always disappear" },
             ],
             correctChoiceId: "a",
           },
@@ -393,12 +393,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Tilt changes how directly sunlight hits" },
-              { id: "b", text: "The Sun becomes bigger" },
-              { id: "c", text: "Earth moves much closer" },
+              { id: "a", text: "The Sun becomes bigger" },
+              { id: "b", text: "Earth moves much closer" },
+              { id: "c", text: "Tilt changes how directly sunlight hits" },
               { id: "d", text: "Winter has no Sun" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -447,12 +447,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Condensation" },
+              { id: "a", text: "Evaporation" },
               { id: "b", text: "Precipitation" },
-              { id: "c", text: "Evaporation" },
+              { id: "c", text: "Condensation" },
               { id: "d", text: "Collection" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -540,12 +540,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Condensation" },
-              { id: "b", text: "Precipitation" },
-              { id: "c", text: "Evaporation" },
-              { id: "d", text: "Collection" },
+              { id: "a", text: "Precipitation" },
+              { id: "b", text: "Collection" },
+              { id: "c", text: "Condensation" },
+              { id: "d", text: "Evaporation" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -605,12 +605,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Water vapour rising" },
-              { id: "b", text: "Water falling from clouds as rain, snow or hail" },
-              { id: "c", text: "Water collecting in oceans" },
-              { id: "d", text: "Clouds forming" },
+              { id: "a", text: "Water falling from clouds as rain, snow or hail" },
+              { id: "b", text: "Water collecting in oceans" },
+              { id: "c", text: "Clouds forming" },
+              { id: "d", text: "Water vapour rising" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -693,12 +693,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Evaporation" },
-              { id: "b", text: "Condensation" },
-              { id: "c", text: "Precipitation" },
-              { id: "d", text: "Collection" },
+              { id: "a", text: "Collection" },
+              { id: "b", text: "Precipitation" },
+              { id: "c", text: "Evaporation" },
+              { id: "d", text: "Condensation" },
             ],
-            correctChoiceId: "d",
+            correctChoiceIa: "d",
           },
           markscheme: {
             principles: [
@@ -740,12 +740,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Clouds are smoke from factories" },
-              { id: "b", text: "Clouds are tiny water droplets formed by condensation" },
+              { id: "a", text: "Clouds are tiny water droplets formed by condensation" },
+              { id: "b", text: "Clouds are smoke from factories" },
               { id: "c", text: "Clouds are solid ice only" },
               { id: "d", text: "Clouds are made of sand" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -790,9 +790,9 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Collected water evaporates again to restart the cycle" },
-              { id: "b", text: "Rain stops forever" },
-              { id: "c", text: "The Sun turns off" },
-              { id: "d", text: "Gravity disappears" },
+              { id: "b", text: "The Sun turns off" },
+              { id: "c", text: "Gravity disappears" },
+              { id: "d", text: "Rain stops forever" },
             ],
             correctChoiceId: "a",
           },

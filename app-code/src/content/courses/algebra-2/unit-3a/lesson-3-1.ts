@@ -52,12 +52,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\{(1, 2), (1, 3), (2, 4), (3, 5)\\}$" },
-              { id: "b", text: "$\\{(4, -1), (5, -1), (6, -1), (7, -1)\\}$" },
+              { id: "a", text: "$\\{(-3, 1), (-1, 2), (-3, 4), (5, 6)\\}$" },
+              { id: "b", text: "$\\{(1, 2), (1, 3), (2, 4), (3, 5)\\}$" },
               { id: "c", text: "$\\{(0, 0), (2, 1), (2, -1), (8, 2)\\}$" },
-              { id: "d", text: "$\\{(-3, 1), (-1, 2), (-3, 4), (5, 6)\\}$" },
+              { id: "d", text: "$\\{(4, -1), (5, -1), (6, -1), (7, -1)\\}$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -84,8 +84,8 @@ export const lesson31: Lesson = {
             choices: [
               { id: "a", text: "Yes, because every $x$ in $[-4, 4]$ gives a value of $y$." },
               { id: "b", text: "No, because for example $x = 0$ gives $y = 4$ and $y = -4$." },
-              { id: "c", text: "Yes, because it passes the horizontal line test." },
-              { id: "d", text: "No, because $x$ cannot be negative." },
+              { id: "c", text: "No, because $x$ cannot be negative." },
+              { id: "d", text: "Yes, because it passes the horizontal line test." },
             ],
             correctChoiceId: "b",
           },
@@ -204,12 +204,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Domain $[-2, 4]$, range $[1, 7]$" },
-              { id: "b", text: "Domain $[-2, 4)$, range $[1, 7)$" },
-              { id: "c", text: "Domain $[1, 7)$, range $[-2, 4)$" },
-              { id: "d", text: "Domain $(-2, 4)$, range $(1, 7)$" },
+              { id: "a", text: "Domain $[1, 7)$, range $[-2, 4)$" },
+              { id: "b", text: "Domain $[-2, 4]$, range $[1, 7]$" },
+              { id: "c", text: "Domain $(-2, 4)$, range $(1, 7)$" },
+              { id: "d", text: "Domain $[-2, 4)$, range $[1, 7)$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -347,12 +347,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Continuous; domain $n \\ge 0$" },
-              { id: "b", text: "Discrete; domain $\\{0, 1, 2, 3, \\ldots\\}$" },
-              { id: "c", text: "Continuous; domain all real numbers" },
-              { id: "d", text: "Discrete; domain $\\{3, 6, 9, \\ldots\\}$" },
+              { id: "a", text: "Discrete; domain $\\{0, 1, 2, 3, \\ldots\\}$" },
+              { id: "b", text: "Discrete; domain $\\{3, 6, 9, \\ldots\\}$" },
+              { id: "c", text: "Continuous; domain $n \\ge 0$" },
+              { id: "d", text: "Continuous; domain all real numbers" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -375,12 +375,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$f(x) = x^2 - 4$" },
-              { id: "b", text: "$f(x) = |x| + 1$" },
-              { id: "c", text: "$f(x) = -3x + 7$" },
+              { id: "a", text: "$f(x) = |x| + 1$" },
+              { id: "b", text: "$f(x) = -3x + 7$" },
+              { id: "c", text: "$f(x) = x^2 - 4$" },
               { id: "d", text: "$f(x) = 5$" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [

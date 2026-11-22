@@ -113,15 +113,15 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "Dialogue" },
               {
-                id: "a",
+                id: "b",
                 text: "Instructions describing action, setting, mood",
               },
-              { id: "b", text: "Dialogue" },
               { id: "c", text: "Character names" },
               { id: "d", text: "Plot summary" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -149,12 +149,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Speaks their thoughts aloud when alone" },
-              { id: "b", text: "Talks to another character" },
-              { id: "c", text: "Narrates the play" },
-              { id: "d", text: "Sings" },
+              { id: "a", text: "Narrates the play" },
+              { id: "b", text: "Sings" },
+              { id: "c", text: "Talks to another character" },
+              { id: "d", text: "Speaks their thoughts aloud when alone" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -182,15 +182,15 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "Main speech" },
+              { id: "b", text: "Stage direction" },
               {
-                id: "a",
+                id: "c",
                 text: "Remark heard by audience but not other characters",
               },
-              { id: "b", text: "Main speech" },
-              { id: "c", text: "Stage direction" },
               { id: "d", text: "Soliloquy" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -214,12 +214,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Audience knows more than characters" },
-              { id: "b", text: "Characters know everything" },
-              { id: "c", text: "No one knows anything" },
+              { id: "a", text: "Characters know everything" },
+              { id: "b", text: "No one knows anything" },
+              { id: "c", text: "Audience knows more than characters" },
               { id: "d", text: "Audience is confused" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -247,12 +247,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The protagonist's downfall/disaster" },
-              { id: "b", text: "Happy ending" },
-              { id: "c", text: "Comedy" },
-              { id: "d", text: "Resolution" },
+              { id: "a", text: "Comedy" },
+              { id: "b", text: "The protagonist's downfall/disaster" },
+              { id: "c", text: "Resolution" },
+              { id: "d", text: "Happy ending" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -276,12 +276,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A happy resolution" },
+              { id: "a", text: "Death" },
               { id: "b", text: "Disaster" },
-              { id: "c", text: "Death" },
+              { id: "c", text: "A happy resolution" },
               { id: "d", text: "Tragedy" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -305,15 +305,15 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "A theme" },
+              { id: "b", text: "A strength" },
               {
-                id: "a",
+                id: "c",
                 text: "Character trait causing protagonist's downfall",
               },
-              { id: "b", text: "A strength" },
-              { id: "c", text: "A plot device" },
-              { id: "d", text: "A theme" },
+              { id: "d", text: "A plot device" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -343,8 +343,8 @@ export const lesson32: Lesson = {
             choices: [
               { id: "a", text: "Emotional release/purification for audience" },
               { id: "b", text: "A plot twist" },
-              { id: "c", text: "A character" },
-              { id: "d", text: "A theme" },
+              { id: "c", text: "A theme" },
+              { id: "d", text: "A character" },
             ],
             correctChoiceId: "a",
           },
@@ -375,9 +375,9 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Character struggles within themselves" },
-              { id: "b", text: "Characters fight" },
+              { id: "b", text: "Society opposes" },
               { id: "c", text: "Nature attacks" },
-              { id: "d", text: "Society opposes" },
+              { id: "d", text: "Characters fight" },
             ],
             correctChoiceId: "a",
           },
@@ -404,8 +404,8 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Character struggles against outside forces" },
-              { id: "b", text: "Character struggles within" },
-              { id: "c", text: "No conflict" },
+              { id: "b", text: "No conflict" },
+              { id: "c", text: "Character struggles within" },
               { id: "d", text: "Happy ending" },
             ],
             correctChoiceId: "a",
@@ -436,12 +436,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The turning point/highest tension" },
-              { id: "b", text: "The beginning" },
-              { id: "c", text: "The end" },
-              { id: "d", text: "The exposition" },
+              { id: "a", text: "The exposition" },
+              { id: "b", text: "The turning point/highest tension" },
+              { id: "c", text: "The beginning" },
+              { id: "d", text: "The end" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -469,12 +469,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The resolution/end of the play" },
-              { id: "b", text: "The climax" },
-              { id: "c", text: "The beginning" },
-              { id: "d", text: "The conflict" },
+              { id: "a", text: "The beginning" },
+              { id: "b", text: "The conflict" },
+              { id: "c", text: "The climax" },
+              { id: "d", text: "The resolution/end of the play" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -502,12 +502,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Meaning beneath surface of dialogue" },
-              { id: "b", text: "Literal meaning" },
+              { id: "a", text: "Literal meaning" },
+              { id: "b", text: "Plot" },
               { id: "c", text: "Stage directions" },
-              { id: "d", text: "Plot" },
+              { id: "d", text: "Meaning beneath surface of dialogue" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -535,12 +535,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A long speech by one character" },
-              { id: "b", text: "Dialogue" },
-              { id: "c", text: "Stage direction" },
-              { id: "d", text: "Narration" },
+              { id: "a", text: "Narration" },
+              { id: "b", text: "Stage direction" },
+              { id: "c", text: "A long speech by one character" },
+              { id: "d", text: "Dialogue" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -569,9 +569,9 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Saying opposite of what is meant" },
-              { id: "b", text: "Audience knows more" },
+              { id: "b", text: "No irony" },
               { id: "c", text: "Situation is ironic" },
-              { id: "d", text: "No irony" },
+              { id: "d", text: "Audience knows more" },
             ],
             correctChoiceId: "a",
           },
@@ -601,12 +601,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Outcome opposite of expected" },
-              { id: "b", text: "Saying opposite" },
-              { id: "c", text: "Audience knows more" },
-              { id: "d", text: "No irony" },
+              { id: "a", text: "Saying opposite" },
+              { id: "b", text: "No irony" },
+              { id: "c", text: "Outcome opposite of expected" },
+              { id: "d", text: "Audience knows more" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -635,9 +635,9 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "A major division of the play" },
-              { id: "b", text: "A scene" },
-              { id: "c", text: "A line" },
-              { id: "d", text: "A character" },
+              { id: "b", text: "A line" },
+              { id: "c", text: "A character" },
+              { id: "d", text: "A scene" },
             ],
             correctChoiceId: "a",
           },
@@ -660,9 +660,9 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "A subdivision within an act" },
-              { id: "b", text: "An act" },
+              { id: "b", text: "A character" },
               { id: "c", text: "A line" },
-              { id: "d", text: "A character" },
+              { id: "d", text: "An act" },
             ],
             correctChoiceId: "a",
           },
@@ -688,12 +688,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Noble character with fatal flaw" },
+              { id: "a", text: "Comic character" },
               { id: "b", text: "Villain" },
-              { id: "c", text: "Comic character" },
+              { id: "c", text: "Noble character with fatal flaw" },
               { id: "d", text: "Minor character" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -856,8 +856,8 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Events building toward climax" },
-              { id: "b", text: "The end" },
-              { id: "c", text: "The beginning" },
+              { id: "b", text: "The beginning" },
+              { id: "c", text: "The end" },
               { id: "d", text: "The resolution" },
             ],
             correctChoiceId: "a",
@@ -951,12 +951,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Literary irony" },
-              { id: "b", text: "Verbal irony" },
-              { id: "c", text: "Situational irony" },
-              { id: "d", text: "Dramatic irony" },
+              { id: "a", text: "Dramatic irony" },
+              { id: "b", text: "Literary irony" },
+              { id: "c", text: "Verbal irony" },
+              { id: "d", text: "Situational irony" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1079,12 +1079,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The main character" },
-              { id: "b", text: "The villain" },
-              { id: "c", text: "A minor character" },
-              { id: "d", text: "The narrator" },
+              { id: "a", text: "The villain" },
+              { id: "b", text: "The narrator" },
+              { id: "c", text: "The main character" },
+              { id: "d", text: "A minor character" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1171,12 +1171,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Internal conflict" },
-              { id: "b", text: "External conflict" },
-              { id: "c", text: "Man vs nature" },
-              { id: "d", text: "Happy ending" },
+              { id: "a", text: "Man vs nature" },
+              { id: "b", text: "Internal conflict" },
+              { id: "c", text: "Happy ending" },
+              { id: "d", text: "External conflict" },
             ],
-            correctChoiceId: "d",
+            correctChoiceIc: "d",
           },
           markscheme: {
             principles: [
@@ -1274,8 +1274,8 @@ export const lesson32: Lesson = {
             choices: [
               { id: "a", text: "The antagonist/opposing character" },
               { id: "b", text: "The protagonist" },
-              { id: "c", text: "A minor character" },
-              { id: "d", text: "The narrator" },
+              { id: "c", text: "The narrator" },
+              { id: "d", text: "A minor character" },
             ],
             correctChoiceId: "a",
           },
@@ -1360,12 +1360,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Alliteration" },
-              { id: "b", text: "Soliloquy" },
-              { id: "c", text: "Aside" },
-              { id: "d", text: "Stage directions" },
+              { id: "a", text: "Aside" },
+              { id: "b", text: "Alliteration" },
+              { id: "c", text: "Stage directions" },
+              { id: "d", text: "Soliloquy" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1458,12 +1458,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Conflict between characters" },
+              { id: "a", text: "Conflict with society" },
               { id: "b", text: "Conflict within self" },
               { id: "c", text: "Conflict with nature" },
-              { id: "d", text: "Conflict with society" },
+              { id: "d", text: "Conflict between characters" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1555,15 +1555,15 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "Monologue is longer" },
+              { id: "b", text: "They are the same" },
               {
-                id: "a",
+                id: "c",
                 text: "Soliloquy = alone/thoughts; monologue = speech to others",
               },
-              { id: "b", text: "They are the same" },
-              { id: "c", text: "Monologue is longer" },
               { id: "d", text: "Soliloquy is sung" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1659,12 +1659,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Protagonist suffers downfall" },
+              { id: "a", text: "Resolution" },
               { id: "b", text: "Happy ending" },
               { id: "c", text: "Comedy" },
-              { id: "d", text: "Resolution" },
+              { id: "d", text: "Protagonist suffers downfall" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1761,12 +1761,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The central argument of an essay" },
+              { id: "a", text: "A conclusion" },
               { id: "b", text: "A quotation" },
               { id: "c", text: "A summary" },
-              { id: "d", text: "A conclusion" },
+              { id: "d", text: "The central argument of an essay" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1794,12 +1794,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Point, Evidence, Explanation" },
-              { id: "b", text: "Paragraph, Essay, Evidence" },
-              { id: "c", text: "Plot, Emotion, Effect" },
-              { id: "d", text: "Point, End, Edit" },
+              { id: "a", text: "Plot, Emotion, Effect" },
+              { id: "b", text: "Point, Evidence, Explanation" },
+              { id: "c", text: "Point, End, Edit" },
+              { id: "d", text: "Paragraph, Essay, Evidence" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1827,12 +1827,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Context, thesis, outline" },
-              { id: "b", text: "Only quotations" },
+              { id: "a", text: "Only quotations" },
+              { id: "b", text: "Context, thesis, outline" },
               { id: "c", text: "Only summary" },
               { id: "d", text: "Nothing" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1860,12 +1860,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Summarise argument and give final insight" },
-              { id: "b", text: "Introduce new ideas" },
+              { id: "a", text: "Introduce new ideas" },
+              { id: "b", text: "Be omitted" },
               { id: "c", text: "Repeat introduction" },
-              { id: "d", text: "Be omitted" },
+              { id: "d", text: "Summarise argument and give final insight" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1893,12 +1893,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Explains HOW and WHY, not just WHAT" },
-              { id: "b", text: "Is shorter" },
+              { id: "a", text: "Is easier" },
+              { id: "b", text: "Explains HOW and WHY, not just WHAT" },
               { id: "c", text: "Uses more quotes" },
-              { id: "d", text: "Is easier" },
+              { id: "d", text: "Is shorter" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1923,8 +1923,8 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "The main idea of a paragraph" },
-              { id: "b", text: "A quotation" },
-              { id: "c", text: "A conclusion" },
+              { id: "b", text: "A conclusion" },
+              { id: "c", text: "A quotation" },
               { id: "d", text: "An example" },
             ],
             correctChoiceId: "a",
@@ -1955,12 +1955,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Support and illustrate your analysis" },
+              { id: "a", text: "Impress marker" },
               { id: "b", text: "Fill space" },
               { id: "c", text: "Replace analysis" },
-              { id: "d", text: "Impress marker" },
+              { id: "d", text: "Support and illustrate your analysis" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1988,12 +1988,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Considering strengths and weaknesses" },
-              { id: "b", text: "Summarising" },
-              { id: "c", text: "Describing" },
-              { id: "d", text: "Quoting" },
+              { id: "a", text: "Quoting" },
+              { id: "b", text: "Considering strengths and weaknesses" },
+              { id: "c", text: "Summarising" },
+              { id: "d", text: "Describing" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -2021,12 +2021,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Find similarities AND differences" },
-              { id: "b", text: "Only compare one text" },
+              { id: "a", text: "Only compare one text" },
+              { id: "b", text: "Ignore differences" },
               { id: "c", text: "Only summarise" },
-              { id: "d", text: "Ignore differences" },
+              { id: "d", text: "Find similarities AND differences" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -2054,12 +2054,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Questioning, challenging, assessing" },
-              { id: "b", text: "Agreeing with everything" },
+              { id: "a", text: "Agreeing with everything" },
+              { id: "b", text: "Questioning, challenging, assessing" },
               { id: "c", text: "Summarising only" },
               { id: "d", text: "Describing only" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -2087,12 +2087,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "One main idea/point" },
-              { id: "b", text: "Multiple ideas" },
+              { id: "a", text: "Multiple ideas" },
+              { id: "b", text: "One main idea/point" },
               { id: "c", text: "Everything" },
               { id: "d", text: "Nothing specific" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -2116,12 +2116,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Connecting ideas smoothly" },
-              { id: "b", text: "Filling space" },
+              { id: "a", text: "Adding length" },
+              { id: "b", text: "Connecting ideas smoothly" },
               { id: "c", text: "Impressing marker" },
-              { id: "d", text: "Adding length" },
+              { id: "d", text: "Filling space" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -2149,12 +2149,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Your analytical argument" },
-              { id: "b", text: "A quotation" },
-              { id: "c", text: "A summary" },
-              { id: "d", text: "A conclusion" },
+              { id: "a", text: "A conclusion" },
+              { id: "b", text: "A summary" },
+              { id: "c", text: "Your analytical argument" },
+              { id: "d", text: "A quotation" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -2178,12 +2178,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Analysing how evidence supports point" },
-              { id: "b", text: "Quoting" },
-              { id: "c", text: "Summarising" },
-              { id: "d", text: "Describing" },
+              { id: "a", text: "Describing" },
+              { id: "b", text: "Summarising" },
+              { id: "c", text: "Quoting" },
+              { id: "d", text: "Analysing how evidence supports point" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -2211,12 +2211,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Connecting back to thesis/theme" },
-              { id: "b", text: "Quoting" },
-              { id: "c", text: "Summarising" },
-              { id: "d", text: "Describing" },
+              { id: "a", text: "Quoting" },
+              { id: "b", text: "Summarising" },
+              { id: "c", text: "Describing" },
+              { id: "d", text: "Connecting back to thesis/theme" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -2244,12 +2244,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Historical/social background of text" },
-              { id: "b", text: "Plot summary" },
-              { id: "c", text: "Character list" },
-              { id: "d", text: "Quotations" },
+              { id: "a", text: "Quotations" },
+              { id: "b", text: "Historical/social background of text" },
+              { id: "c", text: "Plot summary" },
+              { id: "d", text: "Character list" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -2273,12 +2273,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Context, interpretation, evaluation" },
+              { id: "a", text: "Description" },
               { id: "b", text: "Quotations" },
               { id: "c", text: "Summary" },
-              { id: "d", text: "Description" },
+              { id: "d", text: "Context, interpretation, evaluation" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -2306,12 +2306,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Specific and arguable" },
+              { id: "a", text: "Unrelated" },
               { id: "b", text: "Vague" },
               { id: "c", text: "Obvious" },
-              { id: "d", text: "Unrelated" },
+              { id: "d", text: "Specific and arguable" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -2339,12 +2339,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Weaving quotes into your sentences" },
-              { id: "b", text: "Listing quotes" },
-              { id: "c", text: "Long quotes" },
-              { id: "d", text: "No quotes" },
+              { id: "a", text: "Listing quotes" },
+              { id: "b", text: "No quotes" },
+              { id: "c", text: "Weaving quotes into your sentences" },
+              { id: "d", text: "Long quotes" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -2499,9 +2499,9 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Multiple perspectives" },
-              { id: "b", text: "Only one view" },
+              { id: "b", text: "Only negative" },
               { id: "c", text: "No views" },
-              { id: "d", text: "Only negative" },
+              { id: "d", text: "Only one view" },
             ],
             correctChoiceId: "a",
           },
@@ -2595,12 +2595,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Abstract" },
-              { id: "b", text: "Introduction" },
-              { id: "c", text: "Body" },
-              { id: "d", text: "Conclusion" },
+              { id: "a", text: "Introduction" },
+              { id: "b", text: "Body" },
+              { id: "c", text: "Conclusion" },
+              { id: "d", text: "Abstract" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -2718,9 +2718,9 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "However is not a linker" },
-              { id: "b", text: "Furthermore" },
+              { id: "b", text: "Consequently" },
               { id: "c", text: "Moreover" },
-              { id: "d", text: "Consequently" },
+              { id: "d", text: "Furthermore" },
             ],
             correctChoiceId: "a",
           },
@@ -2814,12 +2814,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Repetition" },
+              { id: "a", text: "Structure" },
               { id: "b", text: "Analysis" },
               { id: "c", text: "Evidence" },
-              { id: "d", text: "Structure" },
+              { id: "d", text: "Repetition" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -2915,12 +2915,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Evidence for each point" },
+              { id: "a", text: "No evidence" },
               { id: "b", text: "Only opinions" },
-              { id: "c", text: "No evidence" },
+              { id: "c", text: "Evidence for each point" },
               { id: "d", text: "Only quotes" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -3007,12 +3007,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "To fill space" },
+              { id: "a", text: "To provide evidence" },
               { id: "b", text: "To support analysis" },
-              { id: "c", text: "To provide evidence" },
+              { id: "c", text: "To fill space" },
               { id: "d", text: "To illustrate points" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -3108,12 +3108,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Clear logical reasoning with evidence" },
-              { id: "b", text: "Many quotations" },
-              { id: "c", text: "Long sentences" },
-              { id: "d", text: "Complex vocabulary" },
+              { id: "a", text: "Complex vocabulary" },
+              { id: "b", text: "Long sentences" },
+              { id: "c", text: "Many quotations" },
+              { id: "d", text: "Clear logical reasoning with evidence" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -3205,12 +3205,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Accepting everything" },
-              { id: "b", text: "Questioning" },
-              { id: "c", text: "Evaluating" },
-              { id: "d", text: "Challenging" },
+              { id: "a", text: "Evaluating" },
+              { id: "b", text: "Challenging" },
+              { id: "c", text: "Accepting everything" },
+              { id: "d", text: "Questioning" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -3307,12 +3307,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Complexity and shades of meaning" },
-              { id: "b", text: "Simple views" },
+              { id: "a", text: "Simple views" },
+              { id: "b", text: "Complexity and shades of meaning" },
               { id: "c", text: "One perspective" },
               { id: "d", text: "No depth" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [

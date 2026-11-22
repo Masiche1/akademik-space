@@ -54,12 +54,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\Delta H$ is negative because energy is released to the surroundings" },
-              { id: "b", text: "$\\Delta H$ is positive because energy is released to the surroundings" },
+              { id: "a", text: "$\\Delta H$ is positive because energy is released to the surroundings" },
+              { id: "b", text: "$\\Delta H$ is negative because energy is released to the surroundings" },
               { id: "c", text: "$\\Delta H$ is negative because energy is absorbed from the surroundings" },
               { id: "d", text: "$\\Delta H$ is always zero for combustion reactions" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -82,12 +82,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The enthalpy change when one mole of a substance reacts completely with oxygen under standard conditions" },
+              { id: "a", text: "The enthalpy change when any amount of fuel burns in any conditions" },
               { id: "b", text: "The enthalpy change when one mole of a substance is formed from its elements in their standard states" },
               { id: "c", text: "The enthalpy change when one mole of water is formed from $\\mathrm{H}^+$ and $\\mathrm{OH}^-$ ions" },
-              { id: "d", text: "The enthalpy change when any amount of fuel burns in any conditions" },
+              { id: "d", text: "The enthalpy change when one mole of a substance reacts completely with oxygen under standard conditions" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -112,12 +112,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The products are $30$ kJ mol$^{-1}$ above the reactants, and the peak of the profile is $80$ kJ mol$^{-1}$ above the reactants" },
-              { id: "b", text: "The products are $30$ kJ mol$^{-1}$ below the reactants, and the peak is $80$ kJ mol$^{-1}$ above the reactants" },
-              { id: "c", text: "The activation energy equals $30$ kJ mol$^{-1}$ because that is the enthalpy change" },
-              { id: "d", text: "The enthalpy change equals $80$ kJ mol$^{-1}$ because that is the activation energy" },
+              { id: "a", text: "The enthalpy change equals $80$ kJ mol$^{-1}$ because that is the activation energy" },
+              { id: "b", text: "The products are $30$ kJ mol$^{-1}$ above the reactants, and the peak of the profile is $80$ kJ mol$^{-1}$ above the reactants" },
+              { id: "c", text: "The products are $30$ kJ mol$^{-1}$ below the reactants, and the peak is $80$ kJ mol$^{-1}$ above the reactants" },
+              { id: "d", text: "The activation energy equals $30$ kJ mol$^{-1}$ because that is the enthalpy change" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -174,12 +174,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\Delta H$ is negative and energy is released to the surroundings" },
-              { id: "b", text: "$\\Delta H$ is positive and energy is absorbed from the surroundings" },
+              { id: "a", text: "$\\Delta H$ is positive and energy is absorbed from the surroundings" },
+              { id: "b", text: "$\\Delta H$ is negative and energy is absorbed from the surroundings" },
               { id: "c", text: "$\\Delta H$ is positive and energy is released to the surroundings" },
-              { id: "d", text: "$\\Delta H$ is negative and energy is absorbed from the surroundings" },
+              { id: "d", text: "$\\Delta H$ is negative and energy is released to the surroundings" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -301,12 +301,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The products are lower in energy than the reactants, and $\\Delta H$ is the downward difference between the two levels" },
-              { id: "b", text: "The products are higher in energy than the reactants, and $\\Delta H$ is the upward difference" },
+              { id: "a", text: "The products are higher in energy than the reactants, and $\\Delta H$ is the upward difference" },
+              { id: "b", text: "The products are lower in energy than the reactants, and $\\Delta H$ is the downward difference between the two levels" },
               { id: "c", text: "The activation energy equals the enthalpy change" },
               { id: "d", text: "The peak of the profile lies below the level of the reactants" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -381,9 +381,9 @@ export const lesson51: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$298$ K, $100$ kPa and $1$ mol dm$^{-3}$ for solutions" },
-              { id: "b", text: "$273$ K, $101.3$ kPa and pure solids only" },
+              { id: "b", text: "$0$ °C, $100$ kPa and $1$ mol dm$^{-3}$ solutions" },
               { id: "c", text: "$298$ K, $100$ kPa and any reactant concentration" },
-              { id: "d", text: "$0$ °C, $100$ kPa and $1$ mol dm$^{-3}$ solutions" },
+              { id: "d", text: "$273$ K, $101.3$ kPa and pure solids only" },
             ],
             correctChoiceId: "a",
           },
@@ -519,12 +519,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The enthalpy change of a reaction is the same regardless of the route taken between the same initial and final states" },
+              { id: "a", text: "All exothermic reactions have the same enthalpy change" },
               { id: "b", text: "The enthalpy change depends on the number of steps in the reaction mechanism" },
-              { id: "c", text: "All exothermic reactions have the same enthalpy change" },
-              { id: "d", text: "The enthalpy change equals the activation energy of the reaction" },
+              { id: "c", text: "The enthalpy change equals the activation energy of the reaction" },
+              { id: "d", text: "The enthalpy change of a reaction is the same regardless of the route taken between the same initial and final states" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -547,12 +547,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$-111$ kJ mol$^{-1}$" },
-              { id: "b", text: "$-677$ kJ mol$^{-1}$" },
-              { id: "c", text: "$+111$ kJ mol$^{-1}$" },
-              { id: "d", text: "$-394$ kJ mol$^{-1}$" },
+              { id: "a", text: "$+111$ kJ mol$^{-1}$" },
+              { id: "b", text: "$-394$ kJ mol$^{-1}$" },
+              { id: "c", text: "$-111$ kJ mol$^{-1}$" },
+              { id: "d", text: "$-677$ kJ mol$^{-1}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -577,12 +577,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$-891$ kJ mol$^{-1}$" },
-              { id: "b", text: "$-605$ kJ mol$^{-1}$" },
+              { id: "a", text: "$-605$ kJ mol$^{-1}$" },
+              { id: "b", text: "$-819$ kJ mol$^{-1}$" },
               { id: "c", text: "$-966$ kJ mol$^{-1}$" },
-              { id: "d", text: "$-819$ kJ mol$^{-1}$" },
+              { id: "d", text: "$-891$ kJ mol$^{-1}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -683,9 +683,9 @@ export const lesson51: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Zero" },
-              { id: "b", text: "Always negative" },
-              { id: "c", text: "Always positive" },
-              { id: "d", text: "Equal to its enthalpy of combustion" },
+              { id: "b", text: "Always positive" },
+              { id: "c", text: "Equal to its enthalpy of combustion" },
+              { id: "d", text: "Always negative" },
             ],
             correctChoiceId: "a",
           },
@@ -735,9 +735,9 @@ export const lesson51: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Enthalpy is a state function — it depends only on the initial and final states" },
-              { id: "b", text: "Enthalpy depends on the number of steps in the mechanism" },
-              { id: "c", text: "All reactions have the same enthalpy change" },
-              { id: "d", text: "Enthalpy equals the activation energy" },
+              { id: "b", text: "All reactions have the same enthalpy change" },
+              { id: "c", text: "Enthalpy equals the activation energy" },
+              { id: "d", text: "Enthalpy depends on the number of steps in the mechanism" },
             ],
             correctChoiceId: "a",
           },
@@ -835,12 +835,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It is multiplied by $2$" },
-              { id: "b", text: "It stays the same because enthalpy is per mole" },
-              { id: "c", text: "It is halved" },
-              { id: "d", text: "Its sign changes" },
+              { id: "a", text: "It is halved" },
+              { id: "b", text: "Its sign changes" },
+              { id: "c", text: "It stays the same because enthalpy is per mole" },
+              { id: "d", text: "It is multiplied by $2$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

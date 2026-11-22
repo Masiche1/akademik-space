@@ -77,12 +77,12 @@ export const lesson111: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$11$" },
-              { id: "b", text: "$9$" },
-              { id: "c", text: "$14$" },
-              { id: "d", text: "$8$" },
+              { id: "a", text: "$8$" },
+              { id: "b", text: "$14$" },
+              { id: "c", text: "$9$" },
+              { id: "d", text: "$11$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -284,12 +284,12 @@ export const lesson111: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$11$" },
-              { id: "b", text: "$13$" },
-              { id: "c", text: "$9$" },
-              { id: "d", text: "$12$" },
+              { id: "a", text: "$13$" },
+              { id: "b", text: "$12$" },
+              { id: "c", text: "$11$" },
+              { id: "d", text: "$9$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -319,12 +319,12 @@ export const lesson111: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$4$" },
+              { id: "a", text: "$16$" },
               { id: "b", text: "$28$" },
               { id: "c", text: "$-4$" },
-              { id: "d", text: "$16$" },
+              { id: "d", text: "$4$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -418,10 +418,10 @@ export const lesson111: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$5$" },
+              { id: "a", text: "$3$" },
               { id: "b", text: "$9$" },
               { id: "c", text: "$6$" },
-              { id: "d", text: "$3$" },
+              { id: "d", text: "$5$" },
             ],
             correctChoiceId: "b",
           },
@@ -535,12 +535,12 @@ export const lesson111: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$5$" },
-              { id: "b", text: "$-3$" },
+              { id: "a", text: "$-3$" },
+              { id: "b", text: "$5$" },
               { id: "c", text: "$3$" },
               { id: "d", text: "$1$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -652,12 +652,12 @@ export const lesson111: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$5$" },
-              { id: "b", text: "$-5$" },
-              { id: "c", text: "$3$" },
-              { id: "d", text: "$-3$" },
+              { id: "a", text: "$-3$" },
+              { id: "b", text: "$3$" },
+              { id: "c", text: "$5$" },
+              { id: "d", text: "$-5$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -826,12 +826,12 @@ export const lesson111: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$x \\ne 2$" },
-              { id: "b", text: "$x \\ne 0$" },
-              { id: "c", text: "$x \\ge 2$" },
+              { id: "a", text: "$x \\ne 0$" },
+              { id: "b", text: "$x \\ge 2$" },
+              { id: "c", text: "$x \\ne 2$" },
               { id: "d", text: "All real $x$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1029,6 +1029,493 @@ export const lesson111: Lesson = {
               },
             ],
             finalAnswer: "(a) x≠2 (b) x≥−3 (c) y≥4 (d) y≠0",
+          },
+        },
+        {
+          id: "cial-m-u1-dr-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "What is the domain of $f(x) = \\dfrac{1}{x + 4}$?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "All real $x$" },
+              { id: "b", text: "$x \\ne -4$" },
+              { id: "c", text: "$x \\ne 4$" },
+              { id: "d", text: "$x \\ge -4$" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Domain restriction",
+                statement: "Denominator cannot be zero, so $x + 4 \\ne 0$.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "$x + 4 = 0$ at $x = -4$, which must be excluded.",
+                working: "x \\ne -4",
+                marks: 1,
+                markCode: "M",
+              },
+            ],
+            finalAnswer: "**(a)** $x \\ne -4$",
+            commonErrors: ["Excluding $x = 4$ — must solve $x + 4 = 0$."],
+          },
+        },
+        {
+          id: "cial-m-u1-dr-q6",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "What is the domain of $g(x) = \\sqrt{5 - x}$?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$x \\le 5$" },
+              { id: "b", text: "All real $x$" },
+              { id: "c", text: "$x \\ge 5$" },
+              { id: "d", text: "$x \\le -5$" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Square root domain",
+                statement: "$\\sqrt{u}$ requires $u \\ge 0$, so $5 - x \\ge 0$.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "$5 - x \\ge 0 \\Rightarrow x \\le 5$.",
+                working: "x \\le 5",
+                marks: 1,
+                markCode: "M",
+              },
+            ],
+            finalAnswer: "**(a)** $x \\le 5$",
+            commonErrors: ["Writing $x \\ge 5$ — inequality reverses when moving $x$."],
+          },
+        },
+        {
+          id: "cial-m-u1-dr-q7",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "What is the range of $h(x) = (x - 2)^2 + 1$?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "All real $y$" },
+              { id: "b", text: "$y \\ge -1$" },
+              { id: "c", text: "$y \\ge 1$" },
+              { id: "d", text: "$y \\le 1$" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "law",
+                name: "Quadratic range",
+                statement: "$(x-2)^2 \\ge 0$ gives minimum value $1$.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Minimum of $(x-2)^2 + 1$ is $1$ at $x = 2$.",
+                working: "y \\ge 1",
+                marks: 1,
+                markCode: "M",
+              },
+            ],
+            finalAnswer: "**(a)** $y \\ge 1$",
+            commonErrors: ["Using $-1$ — sign of the constant term is positive."],
+          },
+        },
+        {
+          id: "cial-m-u1-dr-q8",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "The function $f(x) = \\dfrac{1}{x - 5}$ is undefined at one value of $x$. What is this value?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "x", answer: 5 }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Domain restriction",
+                statement: "Denominator zero when $x - 5 = 0$.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "$x - 5 = 0 \\Rightarrow x = 5$.",
+                working: "x = 5",
+                marks: 1,
+                markCode: "M",
+              },
+            ],
+            finalAnswer: "$x = 5$",
+            commonErrors: ["Answering $0$ — the numerator, not the excluded value."],
+          },
+        },
+        {
+          id: "cial-m-u1-dr-q9",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "State the domain of $f(x) = \\ln(x - 1)$.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Logarithm domain",
+                statement: "$\\ln u$ requires $u > 0$.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Need $x - 1 > 0$.",
+                working: "x - 1 > 0",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "So $x > 1$.",
+                working: "x > 1",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "$x > 1$",
+            commonErrors: ["Writing $x \\ge 1$ — logarithm needs strictly positive argument."],
+          },
+        },
+        {
+          id: "cial-m-u1-dr-q10",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "Find the range of $f(x) = x^2 - 6x + 10$.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "law",
+                name: "Completing the square",
+                statement: "$x^2 - 6x + 10 = (x - 3)^2 + 1$; minimum value $1$.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Complete the square: $(x - 3)^2 + 1$.",
+                working: "(x-3)^2 + 1",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "$(x - 3)^2 \\ge 0$, so $f(x) \\ge 1$.",
+                working: "f(x) \\ge 1",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "Range: $y \\ge 1$.",
+                working: "y \\ge 1",
+                marks: 1,
+                markCode: "A",
+              },
+              {
+                reasoning: "Minimum $1$ attained at $x = 3$.",
+                working: "x = 3",
+                marks: 1,
+                markCode: "B",
+              },
+            ],
+            finalAnswer: "$y \\ge 1$",
+            commonErrors: ["Using the constant term $10$ as the minimum."],
+          },
+        },
+        {
+          id: "cial-m-u1-dr-q11",
+          difficulty: "challenge",
+          totalMarks: 1,
+          stem: "What is the range of $f(x) = \\dfrac{1}{x - 3} + 2$?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$y \\ge 2$" },
+              { id: "b", text: "All real $y$" },
+              { id: "c", text: "$y \\ne -2$" },
+              { id: "d", text: "$y \\ne 2$" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "law",
+                name: "Reciprocal range",
+                statement: "$\\frac{1}{x-3}$ takes every real value except $0$; adding $2$ excludes $2$.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "$\\frac{1}{x-3} \\ne 0$, so $f(x) \\ne 2$.",
+                working: "y \\ne 2",
+                marks: 1,
+                markCode: "M",
+              },
+            ],
+            finalAnswer: "**(a)** $y \\ne 2$",
+            commonErrors: ["Answering $y \\ne 0$ — must account for the $+2$ shift."],
+          },
+        },
+        {
+          id: "cial-m-u1-dr-q12",
+          difficulty: "challenge",
+          totalMarks: 2,
+          stem: "The function $f(x) = x^2 - 4x + 9$ has a minimum value. What is this minimum value?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "minimum", answer: 5 }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "law",
+                name: "Completing the square",
+                statement: "$x^2 - 4x + 9 = (x - 2)^2 + 5$; minimum value $5$.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Complete the square: $(x - 2)^2 + 5$.",
+                working: "(x-2)^2 + 5",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "Minimum value is $5$ at $x = 2$.",
+                working: "5",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "$5$",
+            commonErrors: ["Answering $9$ — the constant term is not the minimum."],
+          },
+        },
+        {
+          id: "cial-m-u1-dr-q13",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "For $g(x) = \\sqrt{x + 7}$, the domain is $x \\ge a$. Find the value of $a$.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: -7 }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Square root domain",
+                statement: "$x + 7 \\ge 0 \\Rightarrow x \\ge -7$.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "$x + 7 \\ge 0 \\Rightarrow x \\ge -7$, so $a = -7$.",
+                working: "a = -7",
+                marks: 1,
+                markCode: "M",
+              },
+            ],
+            finalAnswer: "$a = -7$",
+            commonErrors: ["Answering $7$ — must subtract $7$, not keep the sign."],
+          },
+        },
+        {
+          id: "cial-m-u1-dr-q14",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "What is the domain of $f(x) = \\sqrt{9 - x^2}$?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "All real $x$" },
+              { id: "b", text: "$x \\ge -3$" },
+              { id: "c", text: "$x \\le 3$" },
+              { id: "d", text: "$-3 \\le x \\le 3$" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Square root domain",
+                statement: "$9 - x^2 \\ge 0 \\Rightarrow x^2 \\le 9 \\Rightarrow -3 \\le x \\le 3$.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "$x^2 \\le 9$ gives both bounds: $-3 \\le x \\le 3$.",
+                working: "-3 \\le x \\le 3",
+                marks: 1,
+                markCode: "M",
+              },
+            ],
+            finalAnswer: "**(a)** $-3 \\le x \\le 3$",
+            commonErrors: ["Giving only $x \\le 3$ — negative $x$ values are also valid."],
+          },
+        },
+        {
+          id: "cial-m-u1-dr-q15",
+          difficulty: "challenge",
+          totalMarks: 3,
+          stem: "Find the range of $f(x) = (x + 2)^2 - 3$.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "law",
+                name: "Quadratic range",
+                statement: "$(x+2)^2 \\ge 0$ gives minimum value $-3$.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "$(x + 2)^2 \\ge 0$, so $f(x) \\ge -3$.",
+                working: "f(x) \\ge -3",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "Minimum $-3$ attained at $x = -2$.",
+                working: "x = -2",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "Range: $y \\ge -3$.",
+                working: "y \\ge -3",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "$y \\ge -3$",
+            commonErrors: ["Writing $y \\ge 3$ — must keep the negative constant."],
+          },
+        },
+        {
+          id: "cial-m-u1-dr-q16",
+          difficulty: "challenge",
+          totalMarks: 9,
+          stem: "Domain and range.",
+          parts: [
+            {
+              label: "a",
+              prompt: "Domain of $f(x)=\\dfrac{1}{x+1}$?",
+              marks: 1,
+            },
+            {
+              label: "b",
+              prompt: "Domain of $g(x)=\\sqrt{2x-4}$?",
+              marks: 2,
+            },
+            {
+              label: "c",
+              prompt: "Range of $h(x)=(x-2)^2+1$?",
+              marks: 3,
+            },
+            {
+              label: "d",
+              prompt: "Range of $k(x)=\\dfrac{1}{x+1}$? Explain.",
+              marks: 3,
+            },
+          ],
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Domain and range",
+                statement:
+                  "Exclusions for undefined values; range from behaviour of the rule.",
+              },
+            ],
+            steps: [
+              {
+                part: "a",
+                reasoning: "$x \\ne -1$.",
+                working: "x \\ne -1",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                part: "b",
+                reasoning: "$2x - 4 \\ge 0$.",
+                working: "2x-4 \\ge 0",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                part: "b",
+                reasoning: "$x \\ge 2$.",
+                working: "x \\ge 2",
+                marks: 1,
+                markCode: "A",
+              },
+              {
+                part: "c",
+                reasoning: "Min at vertex: $(x-2)^2 \\ge 0 \\Rightarrow h \\ge 1$.",
+                working: "(x-2)^2+1 \\ge 1",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                part: "c",
+                reasoning: "$y \\ge 1$.",
+                working: "y \\ge 1",
+                marks: 1,
+                markCode: "A",
+              },
+              {
+                part: "c",
+                reasoning: "Min attained at $x=2$.",
+                working: "x=2",
+                marks: 1,
+                markCode: "B",
+              },
+              {
+                part: "d",
+                reasoning: "$y \\ne 0$: numerator never zero.",
+                working: "y \\ne 0",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                part: "d",
+                reasoning: "Denominator takes all values except $-1$.",
+                working: "x+1 \\ne 0",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                part: "d",
+                reasoning: "So $y \\ne 0$ with justification.",
+                working: "y \\ne 0",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "(a) x≠−1 (b) x≥2 (c) y≥1 (d) y≠0",
           },
         },
       ],

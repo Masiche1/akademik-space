@@ -51,15 +51,15 @@ export const lesson123: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Same thing" },
               {
-                id: "b",
+                id: "a",
                 text: "Revising improves content; editing fixes errors",
               },
+              { id: "b", text: "Same thing" },
               { id: "c", text: "Editing is optional" },
               { id: "d", text: "Revising is spelling only" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -85,12 +85,12 @@ export const lesson123: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "She ran quickly" },
-              { id: "b", text: "She ran very fast" },
-              { id: "c", text: "She sprinted" },
-              { id: "d", text: "She raced" },
+              { id: "a", text: "She raced" },
+              { id: "b", text: "She sprinted" },
+              { id: "c", text: "She ran quickly" },
+              { id: "d", text: "She ran very fast" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -228,8 +228,8 @@ export const lesson123: Lesson = {
             choices: [
               { id: "a", text: "Handwriting" },
               { id: "b", text: "Spelling" },
-              { id: "c", text: "Font" },
-              { id: "d", text: "Margins" },
+              { id: "c", text: "Margins" },
+              { id: "d", text: "Font" },
             ],
             correctChoiceId: "b",
           },
@@ -256,12 +256,12 @@ export const lesson123: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Missing comma" },
-              { id: "b", text: "Two sentences joined by comma only" },
-              { id: "c", text: "Too many commas" },
-              { id: "d", text: "Comma in wrong place" },
+              { id: "a", text: "Too many commas" },
+              { id: "b", text: "Missing comma" },
+              { id: "c", text: "Comma in wrong place" },
+              { id: "d", text: "Two sentences joined by comma only" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

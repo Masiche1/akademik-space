@@ -50,9 +50,9 @@ export const lesson13: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "That $P(k)$ true implies $P(k+1)$ true" },
-              { id: "b", text: "That $P(1)$ is true" },
-              { id: "c", text: "That $P(n)$ is true for all $n$" },
-              { id: "d", text: "That the formula converges" },
+              { id: "b", text: "That the formula converges" },
+              { id: "c", text: "That $P(1)$ is true" },
+              { id: "d", text: "That $P(n)$ is true for all $n$" },
             ],
             correctChoiceId: "a",
           },
@@ -165,12 +165,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$n=4$" },
-              { id: "b", text: "$n=1$" },
-              { id: "c", text: "$n=2$" },
-              { id: "d", text: "$n=3$" },
+              { id: "a", text: "$n=3$" },
+              { id: "b", text: "$n=4$" },
+              { id: "c", text: "$n=1$" },
+              { id: "d", text: "$n=2$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Base case", statement: "Start where the statement first holds." }],

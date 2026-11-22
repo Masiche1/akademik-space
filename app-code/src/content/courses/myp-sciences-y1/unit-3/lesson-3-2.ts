@@ -61,9 +61,9 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Kinetic store to gravitational potential store" },
+              { id: "a", text: "Chemical store to elastic potential store" },
               { id: "b", text: "Gravitational potential store to kinetic store" },
-              { id: "c", text: "Chemical store to elastic potential store" },
+              { id: "c", text: "Kinetic store to gravitational potential store" },
               { id: "d", text: "Thermal store to nuclear store" },
             ],
             correctChoiceId: "b",
@@ -162,10 +162,10 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Kinetic" },
-              { id: "b", text: "Gravitational potential" },
+              { id: "a", text: "Chemical" },
+              { id: "b", text: "Kinetic" },
               { id: "c", text: "Elastic potential" },
-              { id: "d", text: "Chemical" },
+              { id: "d", text: "Gravitational potential" },
             ],
             correctChoiceId: "c",
           },
@@ -189,12 +189,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Thermal" },
-              { id: "b", text: "Chemical" },
+              { id: "a", text: "Chemical" },
+              { id: "b", text: "Thermal" },
               { id: "c", text: "Nuclear" },
               { id: "d", text: "Gravitational potential" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -254,12 +254,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Energy can be created by machines" },
-              { id: "b", text: "Energy can be destroyed by friction" },
-              { id: "c", text: "Energy is transferred between stores; it is never created or destroyed" },
-              { id: "d", text: "Energy only exists as heat" },
+              { id: "a", text: "Energy can be destroyed by friction" },
+              { id: "b", text: "Energy is transferred between stores; it is never created or destroyed" },
+              { id: "c", text: "Energy only exists as heat" },
+              { id: "d", text: "Energy can be created by machines" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -281,10 +281,10 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$40\\ \\text{J}$" },
+              { id: "a", text: "$125\\ \\text{J}$" },
               { id: "b", text: "$200\\ \\text{J}$" },
               { id: "c", text: "$300\\ \\text{J}$" },
-              { id: "d", text: "$125\\ \\text{J}$" },
+              { id: "d", text: "$40\\ \\text{J}$" },
             ],
             correctChoiceId: "b",
           },
@@ -498,10 +498,10 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Natural gas" },
+              { id: "a", text: "Uranium" },
               { id: "b", text: "Coal" },
               { id: "c", text: "Tidal power" },
-              { id: "d", text: "Uranium" },
+              { id: "d", text: "Natural gas" },
             ],
             correctChoiceId: "c",
           },
@@ -599,11 +599,11 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Coal" },
-              { id: "b", text: "Natural gas" },
-              { id: "c", text: "Wind" },
-              { id: "d", text: "Oil" },
+              { id: "b", text: "Wind" },
+              { id: "c", text: "Oil" },
+              { id: "d", text: "Natural gas" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -625,12 +625,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Solar" },
-              { id: "b", text: "Coal" },
+              { id: "a", text: "Geothermal" },
+              { id: "b", text: "Solar" },
               { id: "c", text: "Tidal" },
-              { id: "d", text: "Geothermal" },
+              { id: "d", text: "Coal" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -690,12 +690,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It produces carbon dioxide while generating" },
-              { id: "b", text: "Flooding the valley destroys habitats and can displace people" },
-              { id: "c", text: "It only works when the sun is shining" },
-              { id: "d", text: "It produces radioactive waste" },
+              { id: "a", text: "It produces radioactive waste" },
+              { id: "b", text: "It only works when the sun is shining" },
+              { id: "c", text: "Flooding the valley destroys habitats and can displace people" },
+              { id: "d", text: "It produces carbon dioxide while generating" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

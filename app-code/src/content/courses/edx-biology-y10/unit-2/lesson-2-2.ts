@@ -55,12 +55,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Amylase: starch to glucose only" },
-              { id: "b", text: "Lipase: lipid to fatty acids and glycerol" },
+              { id: "a", text: "Lipase: protein to amino acids" },
+              { id: "b", text: "Amylase: starch to glucose only" },
               { id: "c", text: "Protease: protein to fatty acids" },
-              { id: "d", text: "Lipase: protein to amino acids" },
+              { id: "d", text: "Lipase: lipid to fatty acids and glycerol" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -190,12 +190,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Stomach" },
-              { id: "b", text: "Small intestine" },
-              { id: "c", text: "Large intestine" },
-              { id: "d", text: "Oesophagus" },
+              { id: "a", text: "Small intestine" },
+              { id: "b", text: "Oesophagus" },
+              { id: "c", text: "Stomach" },
+              { id: "d", text: "Large intestine" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

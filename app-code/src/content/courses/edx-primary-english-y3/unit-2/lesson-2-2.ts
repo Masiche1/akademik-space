@@ -62,12 +62,12 @@ export const lesson82: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Happy" },
-              { id: "b", text: "Angry" },
-              { id: "c", text: "Sleepy" },
-              { id: "d", text: "Scared" },
+              { id: "a", text: "Angry" },
+              { id: "b", text: "Scared" },
+              { id: "c", text: "Happy" },
+              { id: "d", text: "Sleepy" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -93,11 +93,11 @@ export const lesson82: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "He loves watches" },
-              { id: "b", text: "He's worried about time" },
-              { id: "c", text: "He's bored" },
-              { id: "d", text: "He lost his watch" },
+              { id: "b", text: "He's bored" },
+              { id: "c", text: "He lost his watch" },
+              { id: "d", text: "He's worried about time" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -240,11 +240,11 @@ export const lesson82: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "2" },
-              { id: "b", text: "4" },
+              { id: "b", text: "Cannot tell" },
               { id: "c", text: "6" },
-              { id: "d", text: "Cannot tell" },
+              { id: "d", text: "4" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -273,8 +273,8 @@ export const lesson82: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Red" },
-              { id: "b", text: "Blue" },
+              { id: "a", text: "Blue" },
+              { id: "b", text: "Red" },
               { id: "c", text: "Green" },
               { id: "d", text: "Cannot tell" },
             ],

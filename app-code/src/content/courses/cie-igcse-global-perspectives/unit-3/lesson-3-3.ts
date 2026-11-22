@@ -72,14 +72,14 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "To test memorised facts" },
+              { id: "b", text: "To grade handwriting" },
+              { id: "c", text: "To re-mark the written paper" },
               {
-                id: "b",
+                id: "d",
                 text: "To question the candidate about their research process and findings",
               },
-              { id: "c", text: "To grade handwriting" },
-              { id: "d", text: "To re-mark the written paper" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -211,6 +211,411 @@ export const lesson33: Lesson = {
             ],
             finalAnswer:
               "Stay calm; re-link specific evidence; concede limitations honestly; never bluff",
+          },
+        },
+        {
+          id: "ciegp-u3-pr-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "What is the correct order of a GP project presentation?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Conclusion → findings → question → method" },
+              {
+                id: "b",
+                text: "Question → method → findings → evaluation → recommendation",
+              },
+              { id: "c", text: "Method → question → recommendation → findings" },
+              { id: "d", text: "Findings → question → evaluation → method" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Presentation flow",
+                statement: "Question→method→findings→evaluation→recommendation.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "The standard presentation arc.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "Question→method→findings→evaluation→recommendation",
+          },
+        },
+        {
+          id: "ciegp-u3-pr-q6",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "What is 'signposting' in a presentation?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Physical signs on a wall" },
+              {
+                id: "b",
+                text: "Verbal cues that guide listeners through the argument",
+              },
+              { id: "c", text: "Reading slides aloud" },
+              { id: "d", text: "Street directions" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Signposting",
+                statement: "Verbal cues guiding listeners.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Signposting guides the audience.",
+                marks: 1,
+                markCode: "M",
+              },
+            ],
+            finalAnswer: "Verbal cues guiding listeners",
+          },
+        },
+        {
+          id: "ciegp-u3-pr-q7",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "What is the examiner most likely to probe in the viva voce?",
+          response: {
+            type: "mcq",
+            choices: [
+              {
+                id: "a",
+                text: "Your methodology, bias and limitations",
+              },
+              { id: "b", text: "The weather" },
+              { id: "c", text: "Memorised statistics" },
+              { id: "d", text: "Your handwriting" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Viva focus",
+                statement: "Method, bias, limitations.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Examiners probe research rigour.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "Correct option identified.",
+                marks: 1,
+                markCode: "B",
+              },
+            ],
+            finalAnswer: "Methodology, bias and limitations",
+          },
+        },
+        {
+          id: "ciegp-u3-pr-q8",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "A 10-minute presentation devotes 4 minutes to findings. What percentage is findings?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "Percentage", answer: 40 }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "skill",
+                name: "Time allocation",
+                statement: "Section/total as percentage.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "4/10 x 100 = 40%.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "40%",
+          },
+        },
+        {
+          id: "ciegp-u3-pr-q9",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "A student practises a presentation 5 times at an average of 8 minutes, but the slot is 10 minutes. What percentage of the slot does the average practice use?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "Percentage", answer: 80 }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "skill",
+                name: "Practice timing",
+                statement: "Practice/slot as percentage.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "8/10 x 100 = 80%.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "80%",
+          },
+        },
+        {
+          id: "ciegp-u3-pr-q10",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "Why do minimal visual aids tend to work better in GP presentations?",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Visual aids",
+                statement: "Simple aids support, not replace, speech.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Complex slides distract from the argument.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "One idea per slide stays readable.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "Keeps focus on spoken evidence and signposting.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "Avoids distraction; supports clear delivery",
+          },
+        },
+        {
+          id: "ciegp-u3-pr-q11",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "Explain the rule 'an honest limitation beats a shaky defence' for the viva.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Viva honesty",
+                statement: "Concede limitations gracefully.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Examiners value self-awareness and rigour.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "Bluffing collapses under probing questions.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "Specific honest limits show mature research.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "Honesty scores; bluffing loses marks",
+          },
+        },
+        {
+          id: "ciegp-u3-pr-q12",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "What is the best answer to 'What would you do differently?' in a viva?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Attack the examiner" },
+              {
+                id: "b",
+                text: "A specific, realistic methodological improvement",
+              },
+              { id: "c", text: "'Nothing'" },
+              { id: "d", text: "Change the whole topic" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Viva reflection",
+                statement: "Specific improvements show learning.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Specific improvement demonstrates reflection.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "Specific methodological improvement",
+          },
+        },
+        {
+          id: "ciegp-u3-pr-q13",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "A viva lasts 15 minutes and the candidate speaks for 60% of it. How many minutes does the candidate speak?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "Speaking minutes", answer: 9 }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "skill",
+                name: "Viva timing",
+                statement: "Percentage of total.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "0.60 x 15 = 9 minutes.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "9 minutes",
+          },
+        },
+        {
+          id: "ciegp-u3-pr-q14",
+          difficulty: "challenge",
+          totalMarks: 2,
+          stem: "Why can admitting a limitation actually raise marks in a GP viva?",
+          response: {
+            type: "mcq",
+            choices: [
+              {
+                id: "a",
+                text: "It demonstrates rigour, self-awareness and honest evaluation",
+              },
+              { id: "b", text: "It avoids all questions" },
+              { id: "c", text: "It ends the viva early" },
+              { id: "d", text: "Examiners reward failure" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Honest limitations",
+                statement: "Rigour rewarded over perfection.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Self-awareness signals research maturity.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "Correct option identified.",
+                marks: 1,
+                markCode: "B",
+              },
+            ],
+            finalAnswer: "Demonstrates rigour and self-awareness",
+          },
+        },
+        {
+          id: "ciegp-u3-pr-q15",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "Write model viva answers for: (a) 'Why did you choose these sources?' (b) 'What is your biggest limitation?' (c) 'Would you repeat the project?'",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Viva answers",
+                statement: "Specific, honest, reflective.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "(a) Names credibility, corroboration, bias checks.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "(b) One specific, honest limitation.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "(c) Yes with stated improvements, or reasoned no.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "All answers calm, specific and honest.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "Specific, honest, reflective answers to all three",
+          },
+        },
+        {
+          id: "ciegp-u3-pr-q16",
+          difficulty: "challenge",
+          totalMarks: 1,
+          stem: "A viva rubric allocates: method 30%, findings 30%, evaluation 25%, reflection 15%. For a 40-mark viva, how many marks is evaluation?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "Evaluation marks", answer: 10 }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "skill",
+                name: "Rubric weighting",
+                statement: "Percentage of total marks.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "0.25 x 40 = 10 marks.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "10 marks",
           },
         },
       ],

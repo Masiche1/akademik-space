@@ -52,8 +52,8 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$-1$" },
-              { id: "b", text: "$7$" },
+              { id: "a", text: "$7$" },
+              { id: "b", text: "$-1$" },
               { id: "c", text: "$17$" },
               { id: "d", text: "$25$" },
             ],
@@ -161,9 +161,9 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$52$" },
+              { id: "a", text: "$180$" },
               { id: "b", text: "$72$" },
-              { id: "c", text: "$180$" },
+              { id: "c", text: "$52$" },
               { id: "d", text: "$28$" },
             ],
             correctChoiceId: "b",
@@ -187,12 +187,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$23$" },
-              { id: "b", text: "$26$" },
-              { id: "c", text: "$31$" },
+              { id: "a", text: "$26$" },
+              { id: "b", text: "$31$" },
+              { id: "c", text: "$23$" },
               { id: "d", text: "$40$" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Mean of a combination", statement: "$\\mathrm{E}(aX+bY)=a\\mathrm{E}(X)+b\\mathrm{E}(Y)$ for any random variables." }],
@@ -293,11 +293,11 @@ export const lesson51: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$0.783$" },
-              { id: "b", text: "$0.217$" },
-              { id: "c", text: "$0.500$" },
-              { id: "d", text: "$0.025$" },
+              { id: "b", text: "$0.500$" },
+              { id: "c", text: "$0.025$" },
+              { id: "d", text: "$0.217$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "theorem", name: "Difference of independent normals", statement: "$X-Y\\sim\\mathrm{N}(\\mu_X-\\mu_Y,\\ \\sigma_X^2+\\sigma_Y^2)$." }],
@@ -318,12 +318,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\mathrm{Var}(X-Y)=\\mathrm{Var}(X)-\\mathrm{Var}(Y)$" },
-              { id: "b", text: "They are equal: both equal $\\mathrm{Var}(X)+\\mathrm{Var}(Y)$" },
-              { id: "c", text: "$\\mathrm{Var}(X-Y)<\\mathrm{Var}(X+Y)$ always" },
-              { id: "d", text: "It cannot be determined without the distributions" },
+              { id: "a", text: "$\\mathrm{Var}(X-Y)<\\mathrm{Var}(X+Y)$ always" },
+              { id: "b", text: "It cannot be determined without the distributions" },
+              { id: "c", text: "$\\mathrm{Var}(X-Y)=\\mathrm{Var}(X)-\\mathrm{Var}(Y)$" },
+              { id: "d", text: "They are equal: both equal $\\mathrm{Var}(X)+\\mathrm{Var}(Y)$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Variance of a combination", statement: "$\\mathrm{Var}(aX+bY)=a^2\\mathrm{Var}(X)+b^2\\mathrm{Var}(Y)$; here $a=1,b=\\pm1$ so the sign does not matter." }],
@@ -345,11 +345,11 @@ export const lesson51: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$\\sigma^2$" },
-              { id: "b", text: "$5\\sigma^2$" },
-              { id: "c", text: "$25\\sigma^2$" },
+              { id: "b", text: "$25\\sigma^2$" },
+              { id: "c", text: "$5\\sigma^2$" },
               { id: "d", text: "$\\dfrac{\\sigma^2}{5}$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "property", name: "Variance of a sum", statement: "For independent $X_i$, $\\mathrm{Var}(\\sum X_i)=\\sum\\mathrm{Var}(X_i)$, which grows linearly in $n$." }],
@@ -462,10 +462,10 @@ export const lesson51: Lesson = {
             choices: [
               { id: "a", text: "$6$" },
               { id: "b", text: "$36$" },
-              { id: "c", text: "$\\sqrt6$" },
-              { id: "d", text: "$3$" },
+              { id: "c", text: "$3$" },
+              { id: "d", text: "$\\sqrt6$" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "property", name: "Poisson variance", statement: "$\\mathrm{Var}(X)=m$, so the standard deviation is $\\sqrt m$." }],
@@ -560,12 +560,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$0.0498$" },
-              { id: "b", text: "$0.149$" },
-              { id: "c", text: "$0.224$" },
-              { id: "d", text: "$0.997$" },
+              { id: "a", text: "$0.997$" },
+              { id: "b", text: "$0.224$" },
+              { id: "c", text: "$0.0498$" },
+              { id: "d", text: "$0.149$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Poisson probability", statement: "$\\mathrm{P}(X=r)=\\dfrac{e^{-m}m^r}{r!}$." }],
@@ -586,10 +586,10 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$0.0733$" },
+              { id: "a", text: "$0.271$" },
               { id: "b", text: "$0.147$" },
               { id: "c", text: "$0.195$" },
-              { id: "d", text: "$0.271$" },
+              { id: "d", text: "$0.0733$" },
             ],
             correctChoiceId: "b",
           },
@@ -702,12 +702,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$0.865$" },
-              { id: "b", text: "$0.135$" },
-              { id: "c", text: "$0.406$" },
-              { id: "d", text: "$0.271$" },
+              { id: "a", text: "$0.135$" },
+              { id: "b", text: "$0.406$" },
+              { id: "c", text: "$0.271$" },
+              { id: "d", text: "$0.865$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Complement", statement: "$\\mathrm{P}(X\\ge1)=1-\\mathrm{P}(X=0)=1-e^{-m}$." }],
@@ -729,9 +729,9 @@ export const lesson51: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Events occur singly, independently and at a constant average rate" },
-              { id: "b", text: "Events occur in clusters" },
-              { id: "c", text: "The rate of events is increasing over time" },
-              { id: "d", text: "Exactly $m$ events always occur in each interval" },
+              { id: "b", text: "The rate of events is increasing over time" },
+              { id: "c", text: "Exactly $m$ events always occur in each interval" },
+              { id: "d", text: "Events occur in clusters" },
             ],
             correctChoiceId: "a",
           },
@@ -789,12 +789,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$0.261$" },
+              { id: "a", text: "$0.156$" },
               { id: "b", text: "$0.313$" },
-              { id: "c", text: "$0.156$" },
+              { id: "c", text: "$0.261$" },
               { id: "d", text: "$0.0907$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Poisson probability", statement: "$\\mathrm{P}(X=r)=\\dfrac{e^{-m}m^r}{r!}$." }],

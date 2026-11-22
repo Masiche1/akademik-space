@@ -50,12 +50,12 @@ export const lesson81: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Trials must be dependent" },
+              { id: "a", text: "Two outcomes per trial" },
               { id: "b", text: "Fixed number of trials" },
               { id: "c", text: "Constant probability" },
-              { id: "d", text: "Two outcomes per trial" },
+              { id: "d", text: "Trials must be dependent" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Binomial conditions", statement: "Independence required." }],
@@ -169,12 +169,12 @@ export const lesson81: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\lambda$" },
-              { id: "b", text: "$\\lambda^2$" },
+              { id: "a", text: "$\\lambda^2$" },
+              { id: "b", text: "$1$" },
               { id: "c", text: "$\\sqrt{\\lambda}$" },
-              { id: "d", text: "$1$" },
+              { id: "d", text: "$\\lambda$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Poisson moments", statement: "$E=\\text{Var}=\\lambda$." }],

@@ -52,22 +52,22 @@ export const lesson611: Lesson = {
           "choices": [
                     {
                               "id": "a",
-                              "text": "Ideological rivalry between USA and USSR"
-                    },
-                    {
-                              "id": "b",
-                              "text": "A nuclear war"
-                    },
-                    {
-                              "id": "c",
                               "text": "A trade agreement"
                     },
                     {
-                              "id": "d",
+                              "id": "b",
+                              "text": "Ideological rivalry between USA and USSR"
+                    },
+                    {
+                              "id": "c",
                               "text": "A peace treaty"
+                    },
+                    {
+                              "id": "d",
+                              "text": "A nuclear war"
                     }
           ],
-          "correctChoiceId": "a"
+          "correctChoiceId": "b"
 },
           markscheme: {
           "principles": [
@@ -225,22 +225,22 @@ export const lesson611: Lesson = {
           "choices": [
                     {
                               "id": "a",
-                              "text": "The Tehran Conference"
-                    },
-                    {
-                              "id": "b",
-                              "text": "The Potsdam Conference"
-                    },
-                    {
-                              "id": "c",
                               "text": "The Versailles Conference"
                     },
                     {
-                              "id": "d",
+                              "id": "b",
                               "text": "The Yalta Conference"
+                    },
+                    {
+                              "id": "c",
+                              "text": "The Tehran Conference"
+                    },
+                    {
+                              "id": "d",
+                              "text": "The Potsdam Conference"
                     }
           ],
-          "correctChoiceId": "b"
+          "correctChoiceId": "d"
 },
           markscheme: {
           "principles": [
@@ -334,7 +334,7 @@ export const lesson611: Lesson = {
           "choices": [
                     {
                               "id": "a",
-                              "text": "To provide economic aid to rebuild Europe"
+                              "text": "To divide Germany into occupation zones"
                     },
                     {
                               "id": "b",
@@ -342,11 +342,11 @@ export const lesson611: Lesson = {
                     },
                     {
                               "id": "c",
-                              "text": "To form a military alliance in Western Europe"
+                              "text": "To provide economic aid to rebuild Europe"
                     },
                     {
                               "id": "d",
-                              "text": "To divide Germany into occupation zones"
+                              "text": "To form a military alliance in Western Europe"
                     }
           ],
           "correctChoiceId": "b"
@@ -411,11 +411,11 @@ export const lesson611: Lesson = {
           "choices": [
                     {
                               "id": "a",
-                              "text": "A physical wall built across Berlin"
+                              "text": "The divide between Western Europe and Soviet-controlled Eastern Europe"
                     },
                     {
                               "id": "b",
-                              "text": "The divide between Western Europe and Soviet-controlled Eastern Europe"
+                              "text": "The border between NATO and the Warsaw Pact"
                     },
                     {
                               "id": "c",
@@ -423,10 +423,10 @@ export const lesson611: Lesson = {
                     },
                     {
                               "id": "d",
-                              "text": "The border between NATO and the Warsaw Pact"
+                              "text": "A physical wall built across Berlin"
                     }
           ],
-          "correctChoiceId": "b"
+          "correctChoiceId": "a"
 },
           markscheme: {
           "principles": [
@@ -529,22 +529,22 @@ export const lesson611: Lesson = {
           "choices": [
                     {
                               "id": "a",
-                              "text": "Dwight Eisenhower"
-                    },
-                    {
-                              "id": "b",
-                              "text": "Harry Truman"
-                    },
-                    {
-                              "id": "c",
                               "text": "Franklin Roosevelt"
                     },
                     {
-                              "id": "d",
+                              "id": "b",
+                              "text": "Dwight Eisenhower"
+                    },
+                    {
+                              "id": "c",
                               "text": "John Kennedy"
+                    },
+                    {
+                              "id": "d",
+                              "text": "Harry Truman"
                     }
           ],
-          "correctChoiceId": "b"
+          "correctChoiceId": "d"
 },
           markscheme: {
           "principles": [
@@ -606,22 +606,22 @@ export const lesson611: Lesson = {
           "choices": [
                     {
                               "id": "a",
-                              "text": "Poland"
-                    },
-                    {
-                              "id": "b",
                               "text": "Hungary"
                     },
                     {
+                              "id": "b",
+                              "text": "Poland"
+                    },
+                    {
                               "id": "c",
-                              "text": "Czechoslovakia"
+                              "text": "Yugoslavia"
                     },
                     {
                               "id": "d",
-                              "text": "Yugoslavia"
+                              "text": "Czechoslovakia"
                     }
           ],
-          "correctChoiceId": "d"
+          "correctChoiceIc": "d"
 },
           markscheme: {
           "principles": [

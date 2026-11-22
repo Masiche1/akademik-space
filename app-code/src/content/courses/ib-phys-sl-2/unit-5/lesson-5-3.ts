@@ -81,12 +81,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Voltage increases; current decreases" },
-              { id: "b", text: "Voltage decreases; current increases" },
+              { id: "a", text: "Voltage decreases; current increases" },
+              { id: "b", text: "Both voltage and current stay the same" },
               { id: "c", text: "Both voltage and current increase" },
-              { id: "d", text: "Both voltage and current stay the same" },
+              { id: "d", text: "Voltage increases; current decreases" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -120,12 +120,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$48$ V" },
-              { id: "b", text: "$3.0$ V" },
+              { id: "a", text: "$3.0$ V" },
+              { id: "b", text: "$48$ V" },
               { id: "c", text: "$24$ V" },
               { id: "d", text: "$12$ V" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -164,22 +164,22 @@ export const lesson53: Lesson = {
             choices: [
               {
                 id: "a",
-                text: "Secondary voltage $60$ V; secondary current $8.0$ A",
+                text: "Secondary voltage $960$ V; secondary current $8.0$ A",
               },
               {
                 id: "b",
-                text: "Secondary voltage $60$ V; secondary current $0.50$ A",
+                text: "Secondary voltage $60$ V; secondary current $8.0$ A",
               },
               {
                 id: "c",
-                text: "Secondary voltage $960$ V; secondary current $0.50$ A",
+                text: "Secondary voltage $60$ V; secondary current $0.50$ A",
               },
               {
                 id: "d",
-                text: "Secondary voltage $960$ V; secondary current $8.0$ A",
+                text: "Secondary voltage $960$ V; secondary current $0.50$ A",
               },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -351,10 +351,10 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "d.c. has too low a voltage" },
+              { id: "a", text: "d.c. damages the primary winding" },
               { id: "b", text: "a steady current produces no changing magnetic flux, so no e.m.f. is induced in the secondary" },
               { id: "c", text: "the iron core saturates at d.c. voltages" },
-              { id: "d", text: "d.c. damages the primary winding" },
+              { id: "d", text: "d.c. has too low a voltage" },
             ],
             correctChoiceId: "b",
           },
@@ -391,12 +391,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$48$ V" },
+              { id: "a", text: "$240$ V" },
               { id: "b", text: "$12$ V" },
               { id: "c", text: "$1200$ V" },
-              { id: "d", text: "$240$ V" },
+              { id: "d", text: "$48$ V" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -581,9 +581,9 @@ export const lesson53: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "using a laminated (layered) core" },
-              { id: "b", text: "increasing the number of turns on both coils" },
-              { id: "c", text: "using thicker connecting wires" },
-              { id: "d", text: "lowering the frequency of the supply" },
+              { id: "b", text: "lowering the frequency of the supply" },
+              { id: "c", text: "increasing the number of turns on both coils" },
+              { id: "d", text: "using thicker connecting wires" },
             ],
             correctChoiceId: "a",
           },
@@ -624,10 +624,10 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Eddy current heating in the core" },
-              { id: "b", text: "Magnetic flux leakage" },
+              { id: "a", text: "Hysteresis losses in the core" },
+              { id: "b", text: "Eddy current heating in the core" },
               { id: "c", text: "Ohmic heating in the windings" },
-              { id: "d", text: "Hysteresis losses in the core" },
+              { id: "d", text: "Magnetic flux leakage" },
             ],
             correctChoiceId: "c",
           },
@@ -850,12 +850,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A, with $V_s = 60$ V; B with $V_s = 48$ V" },
+              { id: "a", text: "They are equal, both giving $V_s = 54$ V" },
               { id: "b", text: "B, with $V_s = 48$ V; A with $V_s = 60$ V" },
-              { id: "c", text: "They are equal, both giving $V_s = 54$ V" },
+              { id: "c", text: "A, with $V_s = 60$ V; B with $V_s = 48$ V" },
               { id: "d", text: "A, with $V_s = 12$ V; B with $V_s = 6.0$ V" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1053,12 +1053,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "a.c. flows only in one direction" },
-              { id: "b", text: "a.c. reverses direction periodically" },
-              { id: "c", text: "a.c. has a constant voltage" },
-              { id: "d", text: "a.c. cannot power a resistor" },
+              { id: "a", text: "a.c. reverses direction periodically" },
+              { id: "b", text: "a.c. has a constant voltage" },
+              { id: "c", text: "a.c. cannot power a resistor" },
+              { id: "d", text: "a.c. flows only in one direction" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -1092,12 +1092,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$17$ V" },
-              { id: "b", text: "$12$ V" },
+              { id: "a", text: "$12$ V" },
+              { id: "b", text: "$24$ V" },
               { id: "c", text: "$34$ V" },
-              { id: "d", text: "$24$ V" },
+              { id: "d", text: "$17$ V" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1137,12 +1137,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Peak voltage $325$ V; period $0.020$ s" },
-              { id: "b", text: "Peak voltage $163$ V; period $0.020$ s" },
-              { id: "c", text: "Peak voltage $325$ V; period $20$ s" },
-              { id: "d", text: "Peak voltage $115$ V; period $0.020$ s" },
+              { id: "a", text: "Peak voltage $163$ V; period $0.020$ s" },
+              { id: "b", text: "Peak voltage $325$ V; period $0.020$ s" },
+              { id: "c", text: "Peak voltage $115$ V; period $0.020$ s" },
+              { id: "d", text: "Peak voltage $325$ V; period $20$ s" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1283,9 +1283,9 @@ export const lesson53: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$50$ Hz" },
-              { id: "b", text: "$60$ Hz only" },
+              { id: "b", text: "$0.02$ Hz" },
               { id: "c", text: "$100$ Hz" },
-              { id: "d", text: "$0.02$ Hz" },
+              { id: "d", text: "$60$ Hz only" },
             ],
             correctChoiceId: "a",
           },
@@ -1320,12 +1320,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$14$ V" },
-              { id: "b", text: "$10$ V" },
-              { id: "c", text: "$28$ V" },
+              { id: "a", text: "$10$ V" },
+              { id: "b", text: "$28$ V" },
+              { id: "c", text: "$14$ V" },
               { id: "d", text: "$20$ V" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1422,12 +1422,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$3.5$ A" },
-              { id: "b", text: "$2.5$ A" },
-              { id: "c", text: "$7.1$ A" },
-              { id: "d", text: "$5.0$ A" },
+              { id: "a", text: "$7.1$ A" },
+              { id: "b", text: "$5.0$ A" },
+              { id: "c", text: "$3.5$ A" },
+              { id: "d", text: "$2.5$ A" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1519,12 +1519,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "the maximum instantaneous voltage reached" },
-              { id: "b", text: "the value of a steady d.c. voltage that would dissipate the same power in a resistor" },
-              { id: "c", text: "the average of the peak positive and peak negative voltages" },
-              { id: "d", text: "half the peak voltage" },
+              { id: "a", text: "the average of the peak positive and peak negative voltages" },
+              { id: "b", text: "half the peak voltage" },
+              { id: "c", text: "the maximum instantaneous voltage reached" },
+              { id: "d", text: "the value of a steady d.c. voltage that would dissipate the same power in a resistor" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1759,11 +1759,11 @@ export const lesson53: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "It is a straight line parallel to the time axis" },
-              { id: "b", text: "It alternates smoothly between positive and negative values, passing through zero twice per cycle" },
+              { id: "b", text: "It is always positive but varies in magnitude" },
               { id: "c", text: "It stays constant at the peak value for half of each cycle" },
-              { id: "d", text: "It is always positive but varies in magnitude" },
+              { id: "d", text: "It alternates smoothly between positive and negative values, passing through zero twice per cycle" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1802,10 +1802,10 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$12$ V" },
+              { id: "a", text: "$34$ V" },
               { id: "b", text: "$17$ V" },
               { id: "c", text: "$24$ V" },
-              { id: "d", text: "$34$ V" },
+              { id: "d", text: "$12$ V" },
             ],
             correctChoiceId: "b",
           },

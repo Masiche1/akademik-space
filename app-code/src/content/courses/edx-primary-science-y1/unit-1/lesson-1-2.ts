@@ -55,12 +55,12 @@ export const lesson102: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Ears" },
-              { id: "b", text: "Eyes" },
-              { id: "c", text: "Nose" },
+              { id: "a", text: "Eyes" },
+              { id: "b", text: "Nose" },
+              { id: "c", text: "Ears" },
               { id: "d", text: "Skin" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -83,12 +83,12 @@ export const lesson102: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Digests food" },
-              { id: "b", text: "Pumps blood" },
-              { id: "c", text: "Breathes air" },
-              { id: "d", text: "Thinks" },
+              { id: "a", text: "Breathes air" },
+              { id: "b", text: "Thinks" },
+              { id: "c", text: "Digests food" },
+              { id: "d", text: "Pumps blood" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -203,8 +203,8 @@ export const lesson102: Lesson = {
             choices: [
               { id: "a", text: "They shrink" },
               { id: "b", text: "They get bigger and stronger" },
-              { id: "c", text: "Nothing changes" },
-              { id: "d", text: "They stay the same" },
+              { id: "c", text: "They stay the same" },
+              { id: "d", text: "Nothing changes" },
             ],
             correctChoiceId: "b",
           },
@@ -229,12 +229,12 @@ export const lesson102: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "They stop eating" },
-              { id: "b", text: "They lose baby teeth" },
-              { id: "c", text: "They can't walk" },
-              { id: "d", text: "They shrink" },
+              { id: "a", text: "They can't walk" },
+              { id: "b", text: "They shrink" },
+              { id: "c", text: "They lose baby teeth" },
+              { id: "d", text: "They stop eating" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

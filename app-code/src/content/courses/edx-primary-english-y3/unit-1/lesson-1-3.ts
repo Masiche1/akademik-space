@@ -59,12 +59,12 @@ export const lesson73: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "churchs" },
-              { id: "b", text: "churches" },
-              { id: "c", text: "churchies" },
+              { id: "a", text: "churchies" },
+              { id: "b", text: "churchs" },
+              { id: "c", text: "churches" },
               { id: "d", text: "churches'" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -85,12 +85,12 @@ export const lesson73: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "cat" },
-              { id: "b", text: "knight" },
-              { id: "c", text: "dog" },
-              { id: "d", text: "sun" },
+              { id: "a", text: "sun" },
+              { id: "b", text: "dog" },
+              { id: "c", text: "cat" },
+              { id: "d", text: "knight" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -221,11 +221,11 @@ export const lesson73: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "the dogs bone" },
-              { id: "b", text: "the dog's bone" },
+              { id: "b", text: "the dog bone" },
               { id: "c", text: "the dogs' bone" },
-              { id: "d", text: "the dog bone" },
+              { id: "d", text: "the dog's bone" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -250,12 +250,12 @@ export const lesson73: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "the girl's bags" },
-              { id: "b", text: "the girls' bags" },
+              { id: "a", text: "the girl's bag" },
+              { id: "b", text: "the girl's bags" },
               { id: "c", text: "the girls bags" },
-              { id: "d", text: "the girl's bag" },
+              { id: "d", text: "the girls' bags" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

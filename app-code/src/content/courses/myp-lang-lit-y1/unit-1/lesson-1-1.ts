@@ -54,12 +54,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The main character of the story" },
-              { id: "b", text: "The place and time where the story happens" },
-              { id: "c", text: "The lesson the story teaches" },
+              { id: "a", text: "The lesson the story teaches" },
+              { id: "b", text: "The main character of the story" },
+              { id: "c", text: "The place and time where the story happens" },
               { id: "d", text: "The name of the story" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -145,12 +145,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A lighthouse on a cliff by the sea" },
-              { id: "b", text: "Inside a ship at night" },
+              { id: "a", text: "A beach full of people" },
+              { id: "b", text: "A lighthouse on a cliff by the sea" },
               { id: "c", text: "A city harbour in winter" },
-              { id: "d", text: "A beach full of people" },
+              { id: "d", text: "Inside a ship at night" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "convention", name: "Setting clues", statement: "Setting is the place and time named in the text." }],
@@ -166,12 +166,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The bag" },
-              { id: "b", text: "Amara" },
-              { id: "c", text: "The school" },
-              { id: "d", text: "The trip" },
+              { id: "a", text: "Amara" },
+              { id: "b", text: "The bag" },
+              { id: "c", text: "The trip" },
+              { id: "d", text: "The school" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "convention", name: "Characters", statement: "A character is the person, animal or creature who acts in a story." }],
@@ -187,12 +187,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "At the beach in summer" },
-              { id: "b", text: "In the front garden on winter mornings" },
-              { id: "c", text: "At school on Friday" },
-              { id: "d", text: "Inside a warm house at night" },
+              { id: "a", text: "Inside a warm house at night" },
+              { id: "b", text: "At the beach in summer" },
+              { id: "c", text: "In the front garden on winter mornings" },
+              { id: "d", text: "At school on Friday" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "convention", name: "Place and time words", statement: "Words like 'winter morning' and 'front garden' give the setting." }],
@@ -265,9 +265,9 @@ export const lesson11: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "A mountain summit at sunrise" },
-              { id: "b", text: "A valley at sunset" },
-              { id: "c", text: "A desert at noon" },
-              { id: "d", text: "A forest in winter" },
+              { id: "b", text: "A forest in winter" },
+              { id: "c", text: "A valley at sunset" },
+              { id: "d", text: "A desert at noon" },
             ],
             correctChoiceId: "a",
           },
@@ -335,9 +335,9 @@ export const lesson11: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Under the porch during a storm" },
-              { id: "b", text: "Inside a warm house" },
-              { id: "c", text: "At the beach" },
-              { id: "d", text: "In a busy city" },
+              { id: "b", text: "At the beach" },
+              { id: "c", text: "In a busy city" },
+              { id: "d", text: "Inside a warm house" },
             ],
             correctChoiceId: "a",
           },
@@ -355,9 +355,9 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Mr Osei is tall" },
+              { id: "a", text: "The story is about cooking" },
               { id: "b", text: "It is a workshop behind his house" },
-              { id: "c", text: "The story is about cooking" },
+              { id: "c", text: "Mr Osei is tall" },
               { id: "d", text: "It happens at night" },
             ],
             correctChoiceId: "b",
@@ -434,12 +434,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "First" },
-              { id: "b", text: "Then" },
-              { id: "c", text: "Finally" },
-              { id: "d", text: "Suddenly" },
+              { id: "a", text: "Then" },
+              { id: "b", text: "First" },
+              { id: "c", text: "Suddenly" },
+              { id: "d", text: "Finally" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -525,10 +525,10 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "First" },
-              { id: "b", text: "Next" },
+              { id: "a", text: "Meanwhile" },
+              { id: "b", text: "First" },
               { id: "c", text: "Finally" },
-              { id: "d", text: "Meanwhile" },
+              { id: "d", text: "Next" },
             ],
             correctChoiceId: "c",
           },
@@ -546,12 +546,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "He caught the bus" },
-              { id: "b", text: "He ate breakfast" },
-              { id: "c", text: "He woke up" },
+              { id: "a", text: "He ate breakfast" },
+              { id: "b", text: "He woke up" },
+              { id: "c", text: "He caught the bus" },
               { id: "d", text: "He went to school" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "convention", name: "Story order", statement: "Events are retold in the order they happen in the story." }],
@@ -567,12 +567,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The hare falls asleep under a tree" },
-              { id: "b", text: "The tortoise wins the race" },
-              { id: "c", text: "The tortoise and the hare decide to race" },
-              { id: "d", text: "The hare wakes up and runs to the finish line" },
+              { id: "a", text: "The tortoise wins the race" },
+              { id: "b", text: "The hare falls asleep under a tree" },
+              { id: "c", text: "The hare wakes up and runs to the finish line" },
+              { id: "d", text: "The tortoise and the hare decide to race" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "convention", name: "Story structure", statement: "The beginning introduces characters and sets up the problem." }],
@@ -645,12 +645,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The girl packing boxes" },
-              { id: "b", text: "The problem of settling in and being lonely" },
-              { id: "c", text: "The family arriving at the airport" },
-              { id: "d", text: "The girl's first day at school" },
+              { id: "a", text: "The family arriving at the airport" },
+              { id: "b", text: "The girl's first day at school" },
+              { id: "c", text: "The problem of settling in and being lonely" },
+              { id: "d", text: "The girl packing boxes" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "convention", name: "Story structure", statement: "The middle contains the problem that the ending resolves." }],
@@ -715,12 +715,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Ending, middle, beginning" },
-              { id: "b", text: "Beginning, middle, end" },
-              { id: "c", text: "Problem, solution, title" },
-              { id: "d", text: "Characters, plot, setting" },
+              { id: "a", text: "Beginning, middle, end" },
+              { id: "b", text: "Characters, plot, setting" },
+              { id: "c", text: "Ending, middle, beginning" },
+              { id: "d", text: "Problem, solution, title" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "convention", name: "Story structure", statement: "Stories have a beginning, a middle and an end." }],
@@ -736,12 +736,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The flower grew, then he planted a seed, then he watered it." },
+              { id: "a", text: "He planted a seed, then watered it daily, then a flower grew." },
               { id: "b", text: "He watered the seed, then it grew, then he planted it." },
-              { id: "c", text: "He planted a seed, then watered it daily, then a flower grew." },
-              { id: "d", text: "A flower grew first, then everything else happened." },
+              { id: "c", text: "A flower grew first, then everything else happened." },
+              { id: "d", text: "The flower grew, then he planted a seed, then he watered it." },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "convention", name: "Retelling order", statement: "Events must be retold in the order they happen." }],

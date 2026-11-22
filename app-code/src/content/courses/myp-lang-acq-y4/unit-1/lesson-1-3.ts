@@ -56,12 +56,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A question expecting a yes/no answer" },
-              { id: "b", text: "A question asked for effect, not expecting an answer" },
-              { id: "c", text: "A question in a textbook" },
-              { id: "d", text: "A difficult question" },
+              { id: "a", text: "A question asked for effect, not expecting an answer" },
+              { id: "b", text: "A difficult question" },
+              { id: "c", text: "A question expecting a yes/no answer" },
+              { id: "d", text: "A question in a textbook" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -175,9 +175,9 @@ export const lesson13: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Words that trigger emotion, like 'children' or 'future'" },
-              { id: "b", text: "Words that are grammatically complex" },
-              { id: "c", text: "Numbers and statistics" },
-              { id: "d", text: "The speaker's name" },
+              { id: "b", text: "The speaker's name" },
+              { id: "c", text: "Words that are grammatically complex" },
+              { id: "d", text: "Numbers and statistics" },
             ],
             correctChoiceId: "a",
           },
@@ -201,12 +201,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The first sentence of the speech" },
-              { id: "b", text: "The speaker's request for the audience to do something" },
-              { id: "c", text: "A list of statistics" },
-              { id: "d", text: "The applause at the end" },
+              { id: "a", text: "The applause at the end" },
+              { id: "b", text: "A list of statistics" },
+              { id: "c", text: "The first sentence of the speech" },
+              { id: "d", text: "The speaker's request for the audience to do something" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -288,12 +288,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Statistics and repetition only" },
-              { id: "b", text: "Emotive language, statistics and repetition" },
-              { id: "c", text: "Only personal stories" },
-              { id: "d", text: "No persuasive techniques" },
+              { id: "a", text: "Emotive language, statistics and repetition" },
+              { id: "b", text: "No persuasive techniques" },
+              { id: "c", text: "Statistics and repetition only" },
+              { id: "d", text: "Only personal stories" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -368,12 +368,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "'How many students are in this class?'" },
-              { id: "b", text: "'How can we ignore the danger facing our oceans?'" },
-              { id: "c", text: "'What time does the meeting start?'" },
-              { id: "d", text: "'Did you finish your homework?'" },
+              { id: "a", text: "'How can we ignore the danger facing our oceans?'" },
+              { id: "b", text: "'Did you finish your homework?'" },
+              { id: "c", text: "'How many students are in this class?'" },
+              { id: "d", text: "'What time does the meeting start?'" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -401,12 +401,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Joyful and celebratory" },
-              { id: "b", text: "Warning and urgent" },
-              { id: "c", text: "Calm and neutral" },
-              { id: "d", text: "Humorous and light" },
+              { id: "a", text: "Warning and urgent" },
+              { id: "b", text: "Joyful and celebratory" },
+              { id: "c", text: "Humorous and light" },
+              { id: "d", text: "Calm and neutral" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -462,12 +462,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The speaker wants to inform only" },
-              { id: "b", text: "The speaker is trying to make the audience think and possibly agree" },
-              { id: "c", text: "The speaker is ending the speech" },
+              { id: "a", text: "The speaker is trying to make the audience think and possibly agree" },
+              { id: "b", text: "The speaker is ending the speech" },
+              { id: "c", text: "The speaker wants to inform only" },
               { id: "d", text: "The speaker is asking for silence" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -555,12 +555,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Informative speeches are always shorter" },
-              { id: "b", text: "Informative explains; persuasive tries to change minds or actions" },
+              { id: "a", text: "Informative explains; persuasive tries to change minds or actions" },
+              { id: "b", text: "Informative speeches are only for teachers" },
               { id: "c", text: "Persuasive speeches never use facts" },
-              { id: "d", text: "Informative speeches are only for teachers" },
+              { id: "d", text: "Informative speeches are always shorter" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Speech purpose", statement: "Informative explains; persuasive aims to change thinking or behaviour." }],
@@ -661,10 +661,10 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It uses only short sentences" },
+              { id: "a", text: "It has no structure" },
               { id: "b", text: "It mainly gives facts and explanations" },
               { id: "c", text: "It always uses emotional language" },
-              { id: "d", text: "It has no structure" },
+              { id: "d", text: "It uses only short sentences" },
             ],
             correctChoiceId: "b",
           },
@@ -688,12 +688,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It jumps randomly between topics" },
-              { id: "b", text: "It has a clear purpose and organised points" },
-              { id: "c", text: "It repeats the same sentence" },
-              { id: "d", text: "It avoids giving examples" },
+              { id: "a", text: "It has a clear purpose and organised points" },
+              { id: "b", text: "It avoids giving examples" },
+              { id: "c", text: "It jumps randomly between topics" },
+              { id: "d", text: "It repeats the same sentence" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -775,12 +775,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It ignores the negative side completely" },
-              { id: "b", text: "It acknowledges both benefits and drawbacks" },
-              { id: "c", text: "It uses no evidence" },
-              { id: "d", text: "It is very short" },
+              { id: "a", text: "It acknowledges both benefits and drawbacks" },
+              { id: "b", text: "It is very short" },
+              { id: "c", text: "It ignores the negative side completely" },
+              { id: "d", text: "It uses no evidence" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -855,12 +855,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "To entertain the audience" },
-              { id: "b", text: "To inform the audience" },
+              { id: "a", text: "To inform the audience" },
+              { id: "b", text: "To entertain the audience" },
               { id: "c", text: "To insult the audience" },
               { id: "d", text: "To avoid the topic" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -888,10 +888,10 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The speech is dishonest" },
+              { id: "a", text: "The event was a failure" },
               { id: "b", text: "The speaker values honesty and accuracy" },
-              { id: "c", text: "The event was a failure" },
-              { id: "d", text: "The speaker regrets participating" },
+              { id: "c", text: "The speaker regrets participating" },
+              { id: "d", text: "The speech is dishonest" },
             ],
             correctChoiceId: "b",
           },
@@ -951,8 +951,8 @@ export const lesson13: Lesson = {
             choices: [
               { id: "a", text: "It makes the audience angry" },
               { id: "b", text: "It makes the speaker seem open-minded and respectful" },
-              { id: "c", text: "It ends the speech" },
-              { id: "d", text: "It proves the speaker is wrong" },
+              { id: "c", text: "It proves the speaker is wrong" },
+              { id: "d", text: "It ends the speech" },
             ],
             correctChoiceId: "b",
           },

@@ -52,12 +52,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$x>5$" },
-              { id: "b", text: "$x>\\frac{5}{3}$" },
-              { id: "c", text: "$x<5$" },
+              { id: "a", text: "$x>\\frac{5}{3}$" },
+              { id: "b", text: "$x<5$" },
+              { id: "c", text: "$x>5$" },
               { id: "d", text: "$x>15$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -196,12 +196,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$2<x<3$" },
+              { id: "a", text: "$-3<x<-2$" },
               { id: "b", text: "$x<2$ or $x>3$" },
-              { id: "c", text: "$-3<x<-2$" },
+              { id: "c", text: "$2<x<3$" },
               { id: "d", text: "$x<3$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

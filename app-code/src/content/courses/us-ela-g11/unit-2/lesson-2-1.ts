@@ -67,12 +67,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The Preamble" },
-              { id: "b", text: "The First Amendment" },
+              { id: "a", text: "All three equally" },
+              { id: "b", text: "The Preamble" },
               { id: "c", text: "The passage from Common Sense" },
-              { id: "d", text: "All three equally" },
+              { id: "d", text: "The First Amendment" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "convention", name: "Legal prohibition", statement: "An amendment that begins 'Congress shall make no law' restricts government power instead of stating aims or persuading." }],
@@ -90,12 +90,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Government is acceptable only when it is kept limited, because it is a burden even at its best." },
-              { id: "b", text: "Society and government are equally good and should grow together." },
-              { id: "c", text: "People would be better off with no society at all." },
-              { id: "d", text: "Government is evil only when it is controlled by a king." },
+              { id: "a", text: "People would be better off with no society at all." },
+              { id: "b", text: "Government is evil only when it is controlled by a king." },
+              { id: "c", text: "Government is acceptable only when it is kept limited, because it is a burden even at its best." },
+              { id: "d", text: "Society and government are equally good and should grow together." },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Antithesis", statement: "Paine sets society against government to argue that government is a tool to be kept small, not a good in itself." }],
@@ -203,12 +203,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "a conclusion based on a list of complaints" },
-              { id: "b", text: "a premise about the source of legitimate authority" },
+              { id: "a", text: "a premise about the source of legitimate authority" },
+              { id: "b", text: "a conclusion based on a list of complaints" },
               { id: "c", text: "a counterargument made by the British crown" },
               { id: "d", text: "a definition of the word 'unalienable'" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Premise", statement: "A premise is a claim offered as a starting point from which a conclusion is drawn." }],
@@ -227,11 +227,11 @@ export const lesson21: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Citizens must obey any government that currently exists." },
-              { id: "b", text: "A government that destroys the rights it was created to secure loses its claim to the people's consent." },
-              { id: "c", text: "Only governments that are long established are legitimate." },
+              { id: "b", text: "Only governments that are long established are legitimate." },
+              { id: "c", text: "A government that destroys the rights it was created to secure loses its claim to the people's consent." },
               { id: "d", text: "Rights are granted to people by their government." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "skill", name: "Testing validity", statement: "A conclusion is valid when it follows from the premises without adding new, unstated claims." }],

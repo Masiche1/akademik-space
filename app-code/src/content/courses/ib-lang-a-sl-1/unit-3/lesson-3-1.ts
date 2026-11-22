@@ -85,18 +85,18 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "That two texts share a topic" },
               {
-                id: "b",
-                text: "How two texts treat a shared theme differently",
-              },
-              { id: "c", text: "That one text is better than the other" },
-              {
-                id: "d",
+                id: "a",
                 text: "That the texts were written in the same period",
               },
+              { id: "b", text: "That one text is better than the other" },
+              {
+                id: "c",
+                text: "How two texts treat a shared theme differently",
+              },
+              { id: "d", text: "That two texts share a topic" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -310,15 +310,15 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "Both texts use identical imagery" },
               {
-                id: "a",
+                id: "b",
                 text: "Both texts reach similar conclusions about a theme through different means",
               },
-              { id: "b", text: "Both texts are about exactly the same topic" },
-              { id: "c", text: "Both texts were written in the same century" },
-              { id: "d", text: "Both texts use identical imagery" },
+              { id: "c", text: "Both texts are about exactly the same topic" },
+              { id: "d", text: "Both texts were written in the same century" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -353,15 +353,15 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Both poems are about silence." },
               {
-                id: "b",
+                id: "a",
                 text: "Where Poem A figures silence as protection, Poem B figures it as abandonment — the poems diverge on whether silence shelters or isolates.",
               },
+              { id: "b", text: "Both poems are about silence." },
               { id: "c", text: "Poem A is better because it uses rhyme." },
               { id: "d", text: "Both poems repeat the word silence." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -397,18 +397,18 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Quoting the same line from both texts" },
               {
-                id: "b",
+                id: "a",
                 text: "A point about Text A immediately paired with a point about Text B",
               },
-              { id: "c", text: "Alternating between texts every sentence" },
+              { id: "b", text: "Alternating between texts every sentence" },
+              { id: "c", text: "Quoting the same line from both texts" },
               {
                 id: "d",
                 text: "Listing all of Text A's evidence, then all of Text B's",
               },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -449,21 +449,21 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "Both poems reject the idea of home entirely" },
               {
-                id: "a",
+                id: "b",
                 text: "Both poems treat home as a private refuge to be defended",
               },
               {
-                id: "b",
+                id: "c",
                 text: "Poem A treats home as a fortress against the outside; Poem B treats it as hospitality toward the outside — the poems diverge on whether home excludes or welcomes.",
               },
               {
-                id: "c",
+                id: "d",
                 text: "Poem A is about safety; Poem B is about travel",
               },
-              { id: "d", text: "Both poems reject the idea of home entirely" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -511,17 +511,17 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Both poems condemn technology as evil" },
-              {
-                id: "b",
-                text: "Poem A figures progress as self-deception; Poem B figures it as mutual failure — the poems diverge on where the fault lies.",
-              },
+              { id: "b", text: "Both poems celebrate machines as liberation" },
               {
                 id: "c",
                 text: "Poem A is optimistic about machines; Poem B is pessimistic",
               },
-              { id: "d", text: "Both poems celebrate machines as liberation" },
+              {
+                id: "d",
+                text: "Poem A figures progress as self-deception; Poem B figures it as mutual failure — the poems diverge on where the fault lies.",
+              },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -562,15 +562,15 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "A theme is repeated; a motif is central" },
               {
-                id: "a",
+                id: "b",
                 text: "A theme is a central idea; a motif is a recurring element that develops that idea",
               },
-              { id: "b", text: "A theme is repeated; a motif is central" },
-              { id: "c", text: "They are identical terms" },
-              { id: "d", text: "A motif only appears in novels" },
+              { id: "c", text: "A motif only appears in novels" },
+              { id: "d", text: "They are identical terms" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -858,19 +858,19 @@ export const lesson31: Lesson = {
             choices: [
               {
                 id: "a",
-                text: "Both texts make the border a site of negotiation",
-              },
-              {
-                id: "b",
                 text: "Text A makes identity a performance under scrutiny ('I gave them a story'); Text B makes it an erasure through routine ('who was not me') — asserted versus overlooked.",
               },
+              { id: "b", text: "Both texts reject the idea of borders" },
               {
                 id: "c",
                 text: "Text A is about names; Text B is about passports",
               },
-              { id: "d", text: "Both texts reject the idea of borders" },
+              {
+                id: "d",
+                text: "Both texts make the border a site of negotiation",
+              },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -1031,9 +1031,9 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The author's favourite colour" },
+              { id: "a", text: "The number of pages" },
               { id: "b", text: "The text's genre and form" },
-              { id: "c", text: "The number of pages" },
+              { id: "c", text: "The author's favourite colour" },
               { id: "d", text: "The publisher's logo" },
             ],
             correctChoiceId: "b",
@@ -1237,15 +1237,15 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The poet's favourite colour" },
+              { id: "a", text: "The number of people who will read it" },
+              { id: "b", text: "The printer's choice of ink" },
+              { id: "c", text: "The poet's favourite colour" },
               {
-                id: "b",
+                id: "d",
                 text: "The sonnet's formal constraints — compression forces intensity",
               },
-              { id: "c", text: "The number of people who will read it" },
-              { id: "d", text: "The printer's choice of ink" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1288,22 +1288,22 @@ export const lesson31: Lesson = {
             choices: [
               {
                 id: "a",
-                text: "The sonnet universalises fear as an inner mechanism; the diary particularises it as a manageable daily event — form determines whether fear is symbolic or practical.",
-              },
-              {
-                id: "b",
                 text: "Both texts treat fear as irrational and shameful",
               },
               {
+                id: "b",
+                text: "The sonnet universalises fear as an inner mechanism; the diary particularises it as a manageable daily event — form determines whether fear is symbolic or practical.",
+              },
+              {
                 id: "c",
-                text: "The diary entry is more poetic than the sonnet",
+                text: "The sonnet is more frightening because it is longer",
               },
               {
                 id: "d",
-                text: "The sonnet is more frightening because it is longer",
+                text: "The diary entry is more poetic than the sonnet",
               },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1344,13 +1344,13 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Older texts are always boring" },
+              { id: "a", text: "Context only matters for history books" },
               {
                 id: "b",
                 text: "The values and pressures of a text's time determine what its themes mean and how they can be treated",
               },
-              { id: "c", text: "Context only matters for history books" },
-              { id: "d", text: "Modern texts have no context" },
+              { id: "c", text: "Modern texts have no context" },
+              { id: "d", text: "Older texts are always boring" },
             ],
             correctChoiceId: "b",
           },
@@ -1393,16 +1393,16 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              {
-                id: "a",
-                text: "Both texts treat freedom as something easily won",
-              },
+              { id: "a", text: "Neither text actually mentions freedom" },
               {
                 id: "b",
                 text: "The speech politicises freedom as obligation to the dead; the letter domesticates it as invitation to the living — genre turns a public ideal into a private welcome.",
               },
-              { id: "c", text: "The speech is formal; the letter is informal" },
-              { id: "d", text: "Neither text actually mentions freedom" },
+              {
+                id: "c",
+                text: "Both texts treat freedom as something easily won",
+              },
+              { id: "d", text: "The speech is formal; the letter is informal" },
             ],
             correctChoiceId: "b",
           },
@@ -1455,9 +1455,9 @@ export const lesson31: Lesson = {
                 id: "a",
                 text: "The epic treats home as communal monument built through action; the lyric treats it as intimate sensory detail — scale and mode differ.",
               },
-              { id: "b", text: "Both texts simply describe buildings" },
-              { id: "c", text: "The epic is old; the lyric is new" },
-              { id: "d", text: "The lyric is better because it is shorter" },
+              { id: "b", text: "The lyric is better because it is shorter" },
+              { id: "c", text: "Both texts simply describe buildings" },
+              { id: "d", text: "The epic is old; the lyric is new" },
             ],
             correctChoiceId: "a",
           },
@@ -1500,15 +1500,15 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "All texts have the same purpose" },
+              { id: "a", text: "Purpose only matters in speeches" },
+              { id: "b", text: "Purpose is irrelevant to analysis" },
+              { id: "c", text: "All texts have the same purpose" },
               {
-                id: "b",
+                id: "d",
                 text: "A text designed to persuade treats its theme rhetorically; one designed to confess treats it intimately — purpose determines angle",
               },
-              { id: "c", text: "Purpose only matters in speeches" },
-              { id: "d", text: "Purpose is irrelevant to analysis" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1789,21 +1789,21 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Both texts mobilise the audience equally" },
               {
-                id: "b",
+                id: "a",
+                text: "The speech is more honest because it is public",
+              },
+              { id: "b", text: "Both texts mobilise the audience equally" },
+              {
+                id: "c",
                 text: "The speech treats crisis as a call to collective action; the letter treats it as hidden exhaustion — genre determines what each text can honestly say.",
               },
               {
-                id: "c",
+                id: "d",
                 text: "The letter is more persuasive because it is private",
               },
-              {
-                id: "d",
-                text: "The speech is more honest because it is public",
-              },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

@@ -56,12 +56,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "'Social media is totally ruining kids.'" },
-              { id: "b", text: "'Social media may contribute to reduced attention in some adolescents.'" },
-              { id: "c", text: "'Everyone knows social media is bad.'" },
-              { id: "d", text: "'Phones are the worst thing ever.'" },
+              { id: "a", text: "'Everyone knows social media is bad.'" },
+              { id: "b", text: "'Phones are the worst thing ever.'" },
+              { id: "c", text: "'Social media may contribute to reduced attention in some adolescents.'" },
+              { id: "d", text: "'Social media is totally ruining kids.'" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -174,8 +174,8 @@ export const lesson31: Lesson = {
             choices: [
               { id: "a", text: "Kids these days are so lazy, honestly." },
               { id: "b", text: "Some adolescents may appear disengaged, although the causes are complex." },
-              { id: "c", text: "Everyone knows phones are ruining everything." },
-              { id: "d", text: "It's totally obvious that teachers are to blame." },
+              { id: "c", text: "It's totally obvious that teachers are to blame." },
+              { id: "d", text: "Everyone knows phones are ruining everything." },
             ],
             correctChoiceId: "b",
           },
@@ -199,12 +199,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "To make the writer seem unsure and weak" },
-              { id: "b", text: "To show awareness of uncertainty and protect accuracy" },
+              { id: "a", text: "To show awareness of uncertainty and protect accuracy" },
+              { id: "b", text: "To make the writer seem unsure and weak" },
               { id: "c", text: "To fill space in a paragraph" },
               { id: "d", text: "To avoid using evidence" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -234,8 +234,8 @@ export const lesson31: Lesson = {
             choices: [
               { id: "a", text: "It is too short" },
               { id: "b", text: "It uses absolute claims and emotional language" },
-              { id: "c", text: "It mentions phones" },
-              { id: "d", text: "It uses the word 'students'" },
+              { id: "c", text: "It uses the word 'students'" },
+              { id: "d", text: "It mentions phones" },
             ],
             correctChoiceId: "b",
           },
@@ -312,12 +312,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Version A" },
-              { id: "b", text: "Version B" },
-              { id: "c", text: "Both equally" },
-              { id: "d", text: "Neither" },
+              { id: "a", text: "Both equally" },
+              { id: "b", text: "Neither" },
+              { id: "c", text: "Version B" },
+              { id: "d", text: "Version A" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -424,12 +424,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "prove" },
-              { id: "b", text: "suggest" },
-              { id: "c", text: "guarantee" },
-              { id: "d", text: "shout" },
+              { id: "a", text: "suggest" },
+              { id: "b", text: "prove" },
+              { id: "c", text: "shout" },
+              { id: "d", text: "guarantee" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -494,12 +494,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It makes sentences longer" },
-              { id: "b", text: "It shows the writer's claim matches the strength of the evidence" },
-              { id: "c", text: "It avoids taking a position" },
-              { id: "d", text: "It impresses markers" },
+              { id: "a", text: "It avoids taking a position" },
+              { id: "b", text: "It impresses markers" },
+              { id: "c", text: "It makes sentences longer" },
+              { id: "d", text: "It shows the writer's claim matches the strength of the evidence" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -552,12 +552,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Making sentences shorter" },
-              { id: "b", text: "Turning a verb or adjective into a noun" },
-              { id: "c", text: "Using more adjectives" },
-              { id: "d", text: "Adding a subject to every sentence" },
+              { id: "a", text: "Adding a subject to every sentence" },
+              { id: "b", text: "Using more adjectives" },
+              { id: "c", text: "Making sentences shorter" },
+              { id: "d", text: "Turning a verb or adjective into a noun" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -669,8 +669,8 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Turning an action into a noun, e.g. 'decide' -> 'decision'" },
-              { id: "b", text: "Removing all verbs from a sentence" },
-              { id: "c", text: "Using only simple sentences" },
+              { id: "b", text: "Using only simple sentences" },
+              { id: "c", text: "Removing all verbs from a sentence" },
               { id: "d", text: "Adding more adjectives" },
             ],
             correctChoiceId: "a",
@@ -695,12 +695,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Cause and effect" },
-              { id: "b", text: "Concession or contrast" },
+              { id: "a", text: "Example" },
+              { id: "b", text: "Cause and effect" },
               { id: "c", text: "Addition" },
-              { id: "d", text: "Example" },
+              { id: "d", text: "Concession or contrast" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -729,11 +729,11 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Although the policy was well designed" },
-              { id: "b", text: "its implementation was inconsistent" },
+              { id: "b", text: "All equally" },
               { id: "c", text: "which may explain the limited results" },
-              { id: "d", text: "All equally" },
+              { id: "d", text: "its implementation was inconsistent" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -808,10 +808,10 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Version A" },
+              { id: "a", text: "Neither" },
               { id: "b", text: "Version B" },
-              { id: "c", text: "Both equally" },
-              { id: "d", text: "Neither" },
+              { id: "c", text: "Version A" },
+              { id: "d", text: "Both equally" },
             ],
             correctChoiceId: "b",
           },
@@ -915,11 +915,11 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "because" },
-              { id: "b", text: "although" },
-              { id: "c", text: "for example" },
+              { id: "b", text: "for example" },
+              { id: "c", text: "although" },
               { id: "d", text: "as a result" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -984,10 +984,10 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It is too short" },
+              { id: "a", text: "It is too formal" },
               { id: "b", text: "It is so complex the main point is hard to find" },
-              { id: "c", text: "It uses too much evidence" },
-              { id: "d", text: "It is too formal" },
+              { id: "c", text: "It is too short" },
+              { id: "d", text: "It uses too much evidence" },
             ],
             correctChoiceId: "b",
           },

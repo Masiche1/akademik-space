@@ -53,11 +53,11 @@ export const lesson21: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "To summarise the whole essay" },
-              { id: "b", text: "To state the main idea of the paragraph" },
+              { id: "b", text: "To end the paragraph" },
               { id: "c", text: "To list the sources used" },
-              { id: "d", text: "To end the paragraph" },
+              { id: "d", text: "To state the main idea of the paragraph" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -146,10 +146,10 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Reading is something that many people do." },
+              { id: "a", text: "Books can be bought in many different shops." },
               { id: "b", text: "Reading regularly improves vocabulary, imagination and exam performance." },
-              { id: "c", text: "Books can be bought in many different shops." },
-              { id: "d", text: "Some students prefer watching films to reading." },
+              { id: "c", text: "Some students prefer watching films to reading." },
+              { id: "d", text: "Reading is something that many people do." },
             ],
             correctChoiceId: "b",
           },
@@ -173,12 +173,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "for example" },
-              { id: "b", text: "in addition" },
-              { id: "c", text: "however" },
-              { id: "d", text: "as a result" },
+              { id: "a", text: "however" },
+              { id: "b", text: "as a result" },
+              { id: "c", text: "for example" },
+              { id: "d", text: "in addition" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -200,12 +200,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It contains a spelling mistake" },
-              { id: "b", text: "It is off-topic and does not support the paragraph's idea" },
-              { id: "c", text: "It is written in too formal a register" },
-              { id: "d", text: "It lacks a connective" },
+              { id: "a", text: "It is off-topic and does not support the paragraph's idea" },
+              { id: "b", text: "It lacks a connective" },
+              { id: "c", text: "It contains a spelling mistake" },
+              { id: "d", text: "It is written in too formal a register" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -227,12 +227,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Uniforms are good." },
+              { id: "a", text: "For these reasons, uniforms help everyone feel part of the same community." },
               { id: "b", text: "In other news, the school canteen serves pizza on Fridays." },
-              { id: "c", text: "For these reasons, uniforms help everyone feel part of the same community." },
+              { id: "c", text: "Uniforms are good." },
               { id: "d", text: "The uniform rules are written in the student handbook." },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -342,12 +342,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Saving money is very hard." },
-              { id: "b", text: "The weather is nice in summer." },
-              { id: "c", text: "Small habits like cooking at home can make saving money easier than it seems." },
-              { id: "d", text: "I like having money." },
+              { id: "a", text: "The weather is nice in summer." },
+              { id: "b", text: "Saving money is very hard." },
+              { id: "c", text: "I like having money." },
+              { id: "d", text: "Small habits like cooking at home can make saving money easier than it seems." },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -389,9 +389,9 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It makes paragraphs longer" },
+              { id: "a", text: "It allows the use of more vocabulary" },
               { id: "b", text: "It helps the organisation and coherence criterion by keeping each paragraph focused" },
-              { id: "c", text: "It allows the use of more vocabulary" },
+              { id: "c", text: "It makes paragraphs longer" },
               { id: "d", text: "It removes the need for connectives" },
             ],
             correctChoiceId: "b",
@@ -475,11 +475,11 @@ export const lesson21: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "It introduces the first body paragraph" },
-              { id: "b", text: "It states the essay's main position or argument" },
-              { id: "c", text: "It lists the essay's sources" },
+              { id: "b", text: "It lists the essay's sources" },
+              { id: "c", text: "It states the essay's main position or argument" },
               { id: "d", text: "It summarises each paragraph" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -568,12 +568,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "To summarise every body paragraph" },
-              { id: "b", text: "To hook the reader and present the thesis statement" },
-              { id: "c", text: "To list the sources used" },
-              { id: "d", text: "To give the final conclusion" },
+              { id: "a", text: "To list the sources used" },
+              { id: "b", text: "To give the final conclusion" },
+              { id: "c", text: "To hook the reader and present the thesis statement" },
+              { id: "d", text: "To summarise every body paragraph" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -596,11 +596,11 @@ export const lesson21: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "The introduction" },
-              { id: "b", text: "A body paragraph" },
-              { id: "c", text: "The conclusion" },
-              { id: "d", text: "The title" },
+              { id: "b", text: "The conclusion" },
+              { id: "c", text: "The title" },
+              { id: "d", text: "A body paragraph" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -622,8 +622,8 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "School uniforms." },
-              { id: "b", text: "Uniforms are worn by students." },
+              { id: "a", text: "Uniforms are worn by students." },
+              { id: "b", text: "School uniforms." },
               { id: "c", text: "School uniforms are beneficial because they reduce distraction and create equality." },
               { id: "d", text: "This essay will discuss uniforms." },
             ],
@@ -650,8 +650,8 @@ export const lesson21: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "One main point with supporting details" },
-              { id: "b", text: "Several unrelated ideas" },
-              { id: "c", text: "Only a topic sentence" },
+              { id: "b", text: "Only a topic sentence" },
+              { id: "c", text: "Several unrelated ideas" },
               { id: "d", text: "A new thesis statement" },
             ],
             correctChoiceId: "a",
@@ -676,12 +676,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It makes the essay longer" },
-              { id: "b", text: "It fixes the thesis and structure, preventing repetition and drifting off-task" },
-              { id: "c", text: "It avoids checking spelling" },
-              { id: "d", text: "It is required to use a dictionary" },
+              { id: "a", text: "It is required to use a dictionary" },
+              { id: "b", text: "It avoids checking spelling" },
+              { id: "c", text: "It fixes the thesis and structure, preventing repetition and drifting off-task" },
+              { id: "d", text: "It makes the essay longer" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -811,12 +811,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "As the last sentence of the introduction" },
-              { id: "b", text: "As the first word of the title" },
-              { id: "c", text: "In the middle of a body paragraph" },
-              { id: "d", text: "In a footnote" },
+              { id: "a", text: "As the first word of the title" },
+              { id: "b", text: "In a footnote" },
+              { id: "c", text: "As the last sentence of the introduction" },
+              { id: "d", text: "In the middle of a body paragraph" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

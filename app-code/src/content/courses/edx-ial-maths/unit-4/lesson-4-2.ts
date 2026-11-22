@@ -51,12 +51,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$(1, \\sqrt{3})$" },
-              { id: "b", text: "$(\\sqrt{3}, 1)$" },
-              { id: "c", text: "$(2, 0)$" },
-              { id: "d", text: "$(0, 2)$" },
+              { id: "a", text: "$(2, 0)$" },
+              { id: "b", text: "$(0, 2)$" },
+              { id: "c", text: "$(1, \\sqrt{3})$" },
+              { id: "d", text: "$(\\sqrt{3}, 1)$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -180,12 +180,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\frac{1}{t}$" },
-              { id: "b", text: "$t$" },
-              { id: "c", text: "$2t$" },
+              { id: "a", text: "$2t$" },
+              { id: "b", text: "$\\frac{1}{t}$" },
+              { id: "c", text: "$t$" },
               { id: "d", text: "$\\frac{2}{t}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [

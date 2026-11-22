@@ -64,12 +64,12 @@ export const lesson92: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Acute" },
-              { id: "b", text: "Right" },
-              { id: "c", text: "Obtuse" },
+              { id: "a", text: "Right" },
+              { id: "b", text: "Obtuse" },
+              { id: "c", text: "Acute" },
               { id: "d", text: "Reflex" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -280,12 +280,12 @@ export const lesson92: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Rectangle" },
-              { id: "b", text: "Square" },
+              { id: "a", text: "Parallelogram" },
+              { id: "b", text: "Rectangle" },
               { id: "c", text: "Rhombus" },
-              { id: "d", text: "Parallelogram" },
+              { id: "d", text: "Square" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

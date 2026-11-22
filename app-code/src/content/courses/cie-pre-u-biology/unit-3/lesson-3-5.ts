@@ -110,15 +110,15 @@ export const lesson35: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "Random change" },
               {
-                id: "a",
+                id: "b",
                 text: "Differential survival/reproduction of variants",
               },
-              { id: "b", text: "Random change" },
               { id: "c", text: "Lamarckian inheritance" },
               { id: "d", text: "No selection" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -150,8 +150,8 @@ export const lesson35: Lesson = {
                 id: "a",
                 text: "Change in allele frequencies over generations",
               },
-              { id: "b", text: "Individual change" },
-              { id: "c", text: "No change" },
+              { id: "b", text: "No change" },
+              { id: "c", text: "Individual change" },
               { id: "d", text: "Random change" },
             ],
             correctChoiceId: "a",
@@ -182,12 +182,12 @@ export const lesson35: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Formation of new species" },
-              { id: "b", text: "Extinction" },
+              { id: "a", text: "No change" },
+              { id: "b", text: "Formation of new species" },
               { id: "c", text: "Migration" },
-              { id: "d", text: "No change" },
+              { id: "d", text: "Extinction" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -215,12 +215,12 @@ export const lesson35: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Rapid diversification from common ancestor" },
-              { id: "b", text: "Slow change" },
-              { id: "c", text: "No change" },
-              { id: "d", text: "Extinction" },
+              { id: "a", text: "No change" },
+              { id: "b", text: "Extinction" },
+              { id: "c", text: "Slow change" },
+              { id: "d", text: "Rapid diversification from common ancestor" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -248,12 +248,12 @@ export const lesson35: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Group of organisms of same species in area" },
-              { id: "b", text: "All species" },
-              { id: "c", text: "One organism" },
-              { id: "d", text: "No organisms" },
+              { id: "a", text: "One organism" },
+              { id: "b", text: "Group of organisms of same species in area" },
+              { id: "c", text: "No organisms" },
+              { id: "d", text: "All species" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -281,12 +281,12 @@ export const lesson35: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "All populations in ecosystem" },
+              { id: "a", text: "Environment only" },
               { id: "b", text: "One species" },
-              { id: "c", text: "Environment only" },
+              { id: "c", text: "All populations in ecosystem" },
               { id: "d", text: "No organisms" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -314,12 +314,12 @@ export const lesson35: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Community + environment" },
+              { id: "a", text: "One organism" },
               { id: "b", text: "Community only" },
-              { id: "c", text: "Environment only" },
-              { id: "d", text: "One organism" },
+              { id: "c", text: "Community + environment" },
+              { id: "d", text: "Environment only" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -347,12 +347,12 @@ export const lesson35: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Role/position of species in ecosystem" },
-              { id: "b", text: "Physical habitat only" },
-              { id: "c", text: "No role" },
-              { id: "d", text: "Population size" },
+              { id: "a", text: "Population size" },
+              { id: "b", text: "No role" },
+              { id: "c", text: "Physical habitat only" },
+              { id: "d", text: "Role/position of species in ecosystem" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -374,12 +374,12 @@ export const lesson35: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Maximum population environment supports" },
+              { id: "a", text: "Population growth" },
               { id: "b", text: "Minimum population" },
-              { id: "c", text: "No limit" },
-              { id: "d", text: "Population growth" },
+              { id: "c", text: "Maximum population environment supports" },
+              { id: "d", text: "No limit" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -408,9 +408,9 @@ export const lesson35: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Community change over time" },
-              { id: "b", text: "No change" },
+              { id: "b", text: "Migration" },
               { id: "c", text: "Extinction" },
-              { id: "d", text: "Migration" },
+              { id: "d", text: "No change" },
             ],
             correctChoiceId: "a",
           },
@@ -436,12 +436,12 @@ export const lesson35: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Variety of life in ecosystem" },
+              { id: "a", text: "No life" },
               { id: "b", text: "One species" },
-              { id: "c", text: "No life" },
-              { id: "d", text: "Population size" },
+              { id: "c", text: "Population size" },
+              { id: "d", text: "Variety of life in ecosystem" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -465,12 +465,12 @@ export const lesson35: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Geographic isolation" },
+              { id: "a", text: "Polyploidy" },
               { id: "b", text: "Same area" },
               { id: "c", text: "No isolation" },
-              { id: "d", text: "Polyploidy" },
+              { id: "d", text: "Geographic isolation" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -499,9 +499,9 @@ export const lesson35: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Same geographic area" },
-              { id: "b", text: "Geographic isolation" },
-              { id: "c", text: "No speciation" },
-              { id: "d", text: "Extinction" },
+              { id: "b", text: "Extinction" },
+              { id: "c", text: "Geographic isolation" },
+              { id: "d", text: "No speciation" },
             ],
             correctChoiceId: "a",
           },
@@ -527,12 +527,12 @@ export const lesson35: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Gene flow between populations" },
+              { id: "a", text: "Mutation" },
               { id: "b", text: "Evolution" },
               { id: "c", text: "Selection" },
-              { id: "d", text: "Mutation" },
+              { id: "d", text: "Gene flow between populations" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -560,15 +560,15 @@ export const lesson35: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "After fertilisation" },
               {
-                id: "a",
+                id: "b",
                 text: "Before fertilisation — behavioural, mechanical",
               },
-              { id: "b", text: "After fertilisation" },
               { id: "c", text: "No isolation" },
               { id: "d", text: "Extinction" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -596,15 +596,15 @@ export const lesson35: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              {
-                id: "a",
-                text: "After fertilisation — hybrid inviability/sterility",
-              },
+              { id: "a", text: "Extinction" },
               { id: "b", text: "Before fertilisation" },
               { id: "c", text: "No isolation" },
-              { id: "d", text: "Extinction" },
+              {
+                id: "d",
+                text: "After fertilisation — hybrid inviability/sterility",
+              },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -633,9 +633,9 @@ export const lesson35: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "One extreme phenotype" },
-              { id: "b", text: "Middle phenotype" },
-              { id: "c", text: "Both extremes" },
-              { id: "d", text: "No phenotype" },
+              { id: "b", text: "No phenotype" },
+              { id: "c", text: "Middle phenotype" },
+              { id: "d", text: "Both extremes" },
             ],
             correctChoiceId: "a",
           },
@@ -665,12 +665,12 @@ export const lesson35: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Intermediate phenotype" },
-              { id: "b", text: "One extreme" },
-              { id: "c", text: "Both extremes" },
-              { id: "d", text: "No phenotype" },
+              { id: "a", text: "Both extremes" },
+              { id: "b", text: "No phenotype" },
+              { id: "c", text: "Intermediate phenotype" },
+              { id: "d", text: "One extreme" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -698,12 +698,12 @@ export const lesson35: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Both extreme phenotypes" },
-              { id: "b", text: "Intermediate" },
-              { id: "c", text: "One extreme" },
-              { id: "d", text: "No phenotype" },
+              { id: "a", text: "No phenotype" },
+              { id: "b", text: "One extreme" },
+              { id: "c", text: "Both extreme phenotypes" },
+              { id: "d", text: "Intermediate" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -865,12 +865,12 @@ export const lesson35: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Reduced/modified structures from ancestors" },
+              { id: "a", text: "No structures" },
               { id: "b", text: "Useful structures" },
               { id: "c", text: "New structures" },
-              { id: "d", text: "No structures" },
+              { id: "d", text: "Reduced/modified structures from ancestors" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -963,12 +963,12 @@ export const lesson35: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Adaptive radiation" },
-              { id: "b", text: "Extinction" },
-              { id: "c", text: "Migration" },
-              { id: "d", text: "No evolution" },
+              { id: "a", text: "Extinction" },
+              { id: "b", text: "No evolution" },
+              { id: "c", text: "Adaptive radiation" },
+              { id: "d", text: "Migration" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1143,12 +1143,12 @@ export const lesson35: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "J-shaped curve — unlimited growth" },
-              { id: "b", text: "S-shaped curve" },
+              { id: "a", text: "S-shaped curve" },
+              { id: "b", text: "J-shaped curve — unlimited growth" },
               { id: "c", text: "Decline" },
               { id: "d", text: "No growth" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1172,15 +1172,15 @@ export const lesson35: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "No growth" },
+              { id: "b", text: "Decline" },
+              { id: "c", text: "J-shaped curve" },
               {
-                id: "a",
+                id: "d",
                 text: "S-shaped curve — limited by carrying capacity",
               },
-              { id: "b", text: "J-shaped curve" },
-              { id: "c", text: "Decline" },
-              { id: "d", text: "No growth" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1204,12 +1204,12 @@ export const lesson35: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Disease, competition, predation" },
+              { id: "a", text: "Disasters" },
               { id: "b", text: "Climate only" },
-              { id: "c", text: "Disasters" },
-              { id: "d", text: "No factors" },
+              { id: "c", text: "No factors" },
+              { id: "d", text: "Disease, competition, predation" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1237,12 +1237,12 @@ export const lesson35: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Climate, disasters" },
-              { id: "b", text: "Competition" },
-              { id: "c", text: "Disease" },
-              { id: "d", text: "Predation" },
+              { id: "a", text: "Predation" },
+              { id: "b", text: "Climate, disasters" },
+              { id: "c", text: "Competition" },
+              { id: "d", text: "Disease" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1270,12 +1270,12 @@ export const lesson35: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Both species harmed — same resource" },
-              { id: "b", text: "Both benefit" },
-              { id: "c", text: "One benefits" },
+              { id: "a", text: "One benefits" },
+              { id: "b", text: "Both species harmed — same resource" },
+              { id: "c", text: "Both benefit" },
               { id: "d", text: "No effect" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1303,12 +1303,12 @@ export const lesson35: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "One organism eats another" },
-              { id: "b", text: "Both benefit" },
-              { id: "c", text: "Both harmed" },
+              { id: "a", text: "Both benefit" },
+              { id: "b", text: "Both harmed" },
+              { id: "c", text: "One organism eats another" },
               { id: "d", text: "No effect" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1332,12 +1332,12 @@ export const lesson35: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Both organisms benefit" },
-              { id: "b", text: "One benefits" },
-              { id: "c", text: "Both harmed" },
-              { id: "d", text: "No effect" },
+              { id: "a", text: "No effect" },
+              { id: "b", text: "Both organisms benefit" },
+              { id: "c", text: "One benefits" },
+              { id: "d", text: "Both harmed" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1365,12 +1365,12 @@ export const lesson35: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "One benefits, other unaffected" },
+              { id: "a", text: "Both benefit equally" },
               { id: "b", text: "Both benefit" },
-              { id: "c", text: "Both harmed" },
-              { id: "d", text: "Both benefit equally" },
+              { id: "c", text: "One benefits, other unaffected" },
+              { id: "d", text: "Both harmed" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1398,12 +1398,12 @@ export const lesson35: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "One benefits, other harmed" },
-              { id: "b", text: "Both benefit" },
+              { id: "a", text: "Both benefit" },
+              { id: "b", text: "One benefits, other unaffected" },
               { id: "c", text: "Both harmed" },
-              { id: "d", text: "One benefits, other unaffected" },
+              { id: "d", text: "One benefits, other harmed" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1431,12 +1431,12 @@ export const lesson35: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Bare rock — no soil" },
-              { id: "b", text: "Existing soil" },
-              { id: "c", text: "Forest" },
-              { id: "d", text: "Water" },
+              { id: "a", text: "Existing soil" },
+              { id: "b", text: "Bare rock — no soil" },
+              { id: "c", text: "Water" },
+              { id: "d", text: "Forest" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1460,12 +1460,12 @@ export const lesson35: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Disturbed area with existing soil" },
+              { id: "a", text: "No soil" },
               { id: "b", text: "Bare rock" },
-              { id: "c", text: "No soil" },
-              { id: "d", text: "Water" },
+              { id: "c", text: "Water" },
+              { id: "d", text: "Disturbed area with existing soil" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1493,12 +1493,12 @@ export const lesson35: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Stable, mature community" },
-              { id: "b", text: "Early stage" },
-              { id: "c", text: "Disturbed" },
-              { id: "d", text: "No community" },
+              { id: "a", text: "Early stage" },
+              { id: "b", text: "Stable, mature community" },
+              { id: "c", text: "No community" },
+              { id: "d", text: "Disturbed" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1520,12 +1520,12 @@ export const lesson35: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "First to colonise bare area" },
-              { id: "b", text: "Final species" },
+              { id: "a", text: "No species" },
+              { id: "b", text: "First to colonise bare area" },
               { id: "c", text: "Climax species" },
-              { id: "d", text: "No species" },
+              { id: "d", text: "Final species" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1548,8 +1548,8 @@ export const lesson35: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Autotrophs — make own food" },
-              { id: "b", text: "Herbivores" },
-              { id: "c", text: "Carnivores" },
+              { id: "b", text: "Carnivores" },
+              { id: "c", text: "Herbivores" },
               { id: "d", text: "Decomposers" },
             ],
             correctChoiceId: "a",
@@ -1576,12 +1576,12 @@ export const lesson35: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Heterotrophs — eat other organisms" },
+              { id: "a", text: "Producers" },
               { id: "b", text: "Autotrophs" },
               { id: "c", text: "Decomposers only" },
-              { id: "d", text: "Producers" },
+              { id: "d", text: "Heterotrophs — eat other organisms" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1609,12 +1609,12 @@ export const lesson35: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Bacteria and fungi — break down dead matter" },
-              { id: "b", text: "Producers" },
-              { id: "c", text: "Herbivores" },
-              { id: "d", text: "Carnivores" },
+              { id: "a", text: "Producers" },
+              { id: "b", text: "Bacteria and fungi — break down dead matter" },
+              { id: "c", text: "Carnivores" },
+              { id: "d", text: "Herbivores" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1642,12 +1642,12 @@ export const lesson35: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Position in food chain" },
-              { id: "b", text: "Species type" },
-              { id: "c", text: "Population size" },
+              { id: "a", text: "Species type" },
+              { id: "b", text: "Population size" },
+              { id: "c", text: "Position in food chain" },
               { id: "d", text: "Habitat" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1671,15 +1671,15 @@ export const lesson35: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "Random" },
               {
-                id: "a",
+                id: "b",
                 text: "Unidirectional — producers → consumers → decomposers",
               },
-              { id: "b", text: "Cyclic" },
-              { id: "c", text: "Random" },
+              { id: "c", text: "Cyclic" },
               { id: "d", text: "Bidirectional" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1709,8 +1709,8 @@ export const lesson35: Lesson = {
             choices: [
               { id: "a", text: "Interconnected food chains" },
               { id: "b", text: "Single chain" },
-              { id: "c", text: "No feeding" },
-              { id: "d", text: "Population size" },
+              { id: "c", text: "Population size" },
+              { id: "d", text: "No feeding" },
             ],
             correctChoiceId: "a",
           },
@@ -1875,9 +1875,9 @@ export const lesson35: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Primary consumers" },
-              { id: "b", text: "Secondary consumers" },
-              { id: "c", text: "Producers" },
-              { id: "d", text: "Decomposers" },
+              { id: "b", text: "Decomposers" },
+              { id: "c", text: "Secondary consumers" },
+              { id: "d", text: "Producers" },
             ],
             correctChoiceId: "a",
           },
@@ -1966,12 +1966,12 @@ export const lesson35: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Linear feeding relationship" },
-              { id: "b", text: "All relationships" },
+              { id: "a", text: "All relationships" },
+              { id: "b", text: "Population size" },
               { id: "c", text: "No feeding" },
-              { id: "d", text: "Population size" },
+              { id: "d", text: "Linear feeding relationship" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

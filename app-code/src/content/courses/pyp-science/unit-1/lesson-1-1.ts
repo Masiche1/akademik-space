@@ -52,12 +52,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Water" },
-              { id: "b", text: "Air" },
-              { id: "c", text: "Toys" },
+              { id: "a", text: "Air" },
+              { id: "b", text: "Toys" },
+              { id: "c", text: "Water" },
               { id: "d", text: "Food" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -145,11 +145,11 @@ export const lesson11: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Food" },
-              { id: "b", text: "Sunlight" },
-              { id: "c", text: "Water" },
-              { id: "d", text: "Air" },
+              { id: "b", text: "Air" },
+              { id: "c", text: "Sunlight" },
+              { id: "d", text: "Water" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -209,12 +209,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A dry desert" },
-              { id: "b", text: "A pond" },
-              { id: "c", text: "A sandy beach" },
-              { id: "d", text: "A windy mountain" },
+              { id: "a", text: "A windy mountain" },
+              { id: "b", text: "A sandy beach" },
+              { id: "c", text: "A dry desert" },
+              { id: "d", text: "A pond" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -276,12 +276,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Oxygen only" },
-              { id: "b", text: "Food and oxygen" },
-              { id: "c", text: "Carbon dioxide only" },
-              { id: "d", text: "Soil only" },
+              { id: "a", text: "Food and oxygen" },
+              { id: "b", text: "Soil only" },
+              { id: "c", text: "Oxygen only" },
+              { id: "d", text: "Carbon dioxide only" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -342,8 +342,8 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Both seedlings stay the same size" },
-              { id: "b", text: "The shaded seedling grows taller" },
+              { id: "a", text: "The shaded seedling grows taller" },
+              { id: "b", text: "Both seedlings stay the same size" },
               { id: "c", text: "The sunny seedling grows taller and greener" },
               { id: "d", text: "Both seedlings die immediately" },
             ],
@@ -391,11 +391,11 @@ export const lesson11: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Water causes plants to turn yellow" },
-              { id: "b", text: "Soil causes plants to grow green" },
-              { id: "c", text: "Light is needed for healthy plant growth" },
-              { id: "d", text: "Plants do not need water" },
+              { id: "b", text: "Light is needed for healthy plant growth" },
+              { id: "c", text: "Plants do not need water" },
+              { id: "d", text: "Soil causes plants to grow green" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -444,12 +444,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A mobile phone" },
-              { id: "b", text: "Water" },
-              { id: "c", text: "A bicycle" },
-              { id: "d", text: "Television" },
+              { id: "a", text: "Water" },
+              { id: "b", text: "A mobile phone" },
+              { id: "c", text: "Television" },
+              { id: "d", text: "A bicycle" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -536,12 +536,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A mobile phone" },
-              { id: "b", text: "Food" },
-              { id: "c", text: "Water" },
-              { id: "d", text: "Shelter" },
+              { id: "a", text: "Water" },
+              { id: "b", text: "Shelter" },
+              { id: "c", text: "A mobile phone" },
+              { id: "d", text: "Food" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -601,12 +601,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A rock" },
-              { id: "b", text: "Rice or bread" },
-              { id: "c", text: "A toy" },
-              { id: "d", text: "Water only" },
+              { id: "a", text: "Water only" },
+              { id: "b", text: "A toy" },
+              { id: "c", text: "A rock" },
+              { id: "d", text: "Rice or bread" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -667,12 +667,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "To make a loud noise" },
-              { id: "b", text: "To stop germs spreading to others" },
+              { id: "a", text: "To stop germs spreading to others" },
+              { id: "b", text: "To make a loud noise" },
               { id: "c", text: "To breathe faster" },
               { id: "d", text: "To taste food" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -733,12 +733,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Hands smell nice after washing" },
-              { id: "b", text: "Fewer germs on hands and fewer illnesses spread" },
-              { id: "c", text: "The soap makes hands dry" },
-              { id: "d", text: "Washing makes hands bigger" },
+              { id: "a", text: "Washing makes hands bigger" },
+              { id: "b", text: "The soap makes hands dry" },
+              { id: "c", text: "Fewer germs on hands and fewer illnesses spread" },
+              { id: "d", text: "Hands smell nice after washing" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -783,11 +783,11 @@ export const lesson11: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "It makes the body need no food" },
-              { id: "b", text: "It strengthens muscles and bones and keeps the heart healthy" },
+              { id: "b", text: "It stops all germs" },
               { id: "c", text: "It removes the need for sleep" },
-              { id: "d", text: "It stops all germs" },
+              { id: "d", text: "It strengthens muscles and bones and keeps the heart healthy" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

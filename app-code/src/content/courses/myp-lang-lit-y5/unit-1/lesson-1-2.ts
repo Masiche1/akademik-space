@@ -54,12 +54,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A mathematical sign" },
-              { id: "b", text: "Something that represents something else" },
+              { id: "a", text: "Something that represents something else" },
+              { id: "b", text: "A mathematical sign" },
               { id: "c", text: "A character's name" },
               { id: "d", text: "A type of poem" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Symbol", statement: "Something representing something else." }],
@@ -140,11 +140,11 @@ export const lesson12: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "War" },
-              { id: "b", text: "Peace" },
-              { id: "c", text: "Greed" },
-              { id: "d", text: "Technology" },
+              { id: "b", text: "Technology" },
+              { id: "c", text: "Peace" },
+              { id: "d", text: "Greed" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Conventional symbol", statement: "Dove = peace through cultural convention." }],
@@ -187,8 +187,8 @@ export const lesson12: Lesson = {
             choices: [
               { id: "a", text: "Snakes always mean evil" },
               { id: "b", text: "A symbol's meaning depends on context, not just convention" },
-              { id: "c", text: "Symbols never change meaning" },
-              { id: "d", text: "Animals cannot be symbols" },
+              { id: "c", text: "Animals cannot be symbols" },
+              { id: "d", text: "Symbols never change meaning" },
             ],
             correctChoiceId: "b",
           },
@@ -211,12 +211,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A practical record of travel costs" },
-              { id: "b", text: "A cherished memory or an unfinished past she cannot let go" },
+              { id: "a", text: "A cherished memory or an unfinished past she cannot let go" },
+              { id: "b", text: "Good luck for future journeys" },
               { id: "c", text: "A hobby collecting tickets" },
-              { id: "d", text: "Good luck for future journeys" },
+              { id: "d", text: "A practical record of travel costs" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Symbolism", statement: "Objects can symbolise hidden emotions or past events." }],
@@ -233,11 +233,11 @@ export const lesson12: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "They are the same thing" },
-              { id: "b", text: "A motif is a recurring symbol whose meaning develops across the text" },
-              { id: "c", text: "A symbol only appears once" },
+              { id: "b", text: "A symbol only appears once" },
+              { id: "c", text: "A motif is a recurring symbol whose meaning develops across the text" },
               { id: "d", text: "A motif is only visual" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Motif", statement: "A recurring symbol or image throughout a text." }],
@@ -294,12 +294,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A type of poem" },
-              { id: "b", text: "A recurring symbol or image that accumulates meaning" },
-              { id: "c", text: "A character's catchphrase" },
-              { id: "d", text: "A chapter title" },
+              { id: "a", text: "A recurring symbol or image that accumulates meaning" },
+              { id: "b", text: "A chapter title" },
+              { id: "c", text: "A type of poem" },
+              { id: "d", text: "A character's catchphrase" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Motif", statement: "Recurring symbol or image throughout a text." }],
@@ -364,11 +364,11 @@ export const lesson12: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "They simply describe a garden" },
-              { id: "b", text: "They symbolise grief transformed — beauty grown over loss, pain (thorns) preceding bloom" },
-              { id: "c", text: "They prove she hated the dog" },
+              { id: "b", text: "They prove she hated the dog" },
+              { id: "c", text: "They symbolise grief transformed — beauty grown over loss, pain (thorns) preceding bloom" },
               { id: "d", text: "They are a religious symbol only" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Symbolic ambiguity", statement: "Symbols gain meaning from context — here grief and renewal." }],
@@ -437,12 +437,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Sight" },
-              { id: "b", text: "Smell" },
-              { id: "c", text: "Touch" },
-              { id: "d", text: "Taste" },
+              { id: "a", text: "Touch" },
+              { id: "b", text: "Taste" },
+              { id: "c", text: "Sight" },
+              { id: "d", text: "Smell" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Olfactory imagery", statement: "Smell imagery appeals to the sense of smell." }],
@@ -522,12 +522,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Sight" },
-              { id: "b", text: "Smell" },
-              { id: "c", text: "Touch" },
-              { id: "d", text: "Hearing" },
+              { id: "a", text: "Touch" },
+              { id: "b", text: "Hearing" },
+              { id: "c", text: "Sight" },
+              { id: "d", text: "Smell" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Olfactory imagery", statement: "Smell imagery appeals to the sense of smell." }],
@@ -568,12 +568,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Detail A — 'felt cool against her skin' appeals to touch" },
-              { id: "b", text: "Detail B — colour is always tactile" },
-              { id: "c", text: "Both are tactile" },
-              { id: "d", text: "Neither is tactile" },
+              { id: "a", text: "Neither is tactile" },
+              { id: "b", text: "Both are tactile" },
+              { id: "c", text: "Detail A — 'felt cool against her skin' appeals to touch" },
+              { id: "d", text: "Detail B — colour is always tactile" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Tactile imagery", statement: "Touch imagery appeals to the sense of touch." }],
@@ -595,11 +595,11 @@ export const lesson12: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Cheerful and bright" },
-              { id: "b", text: "Ominous and uneasy" },
-              { id: "c", text: "Calm and peaceful" },
-              { id: "d", text: "Excited and energetic" },
+              { id: "b", text: "Calm and peaceful" },
+              { id: "c", text: "Excited and energetic" },
+              { id: "d", text: "Ominous and uneasy" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Imagery and mood", statement: "Auditory imagery can create atmosphere and tension." }],
@@ -620,12 +620,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Sound — 'crackled', 'murmured'" },
+              { id: "a", text: "Taste — the bread's flavour is described" },
               { id: "b", text: "Sight — 'steam curled'" },
-              { id: "c", text: "Taste — the bread's flavour is described" },
+              { id: "c", text: "Sound — 'crackled', 'murmured'" },
               { id: "d", text: "Smell is implied but not stated" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Sensory inventory", statement: "Check which senses are actually described, not implied." }],
@@ -683,9 +683,9 @@ export const lesson12: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Imagery appealing to taste" },
-              { id: "b", text: "Imagery appealing to sight" },
-              { id: "c", text: "Imagery appealing to hearing" },
-              { id: "d", text: "Imagery appealing to touch" },
+              { id: "b", text: "Imagery appealing to hearing" },
+              { id: "c", text: "Imagery appealing to touch" },
+              { id: "d", text: "Imagery appealing to sight" },
             ],
             correctChoiceId: "a",
           },
@@ -752,11 +752,11 @@ export const lesson12: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Taste — the letter is described as bitter" },
-              { id: "b", text: "Tactile — the folding action externalises grief and restraint" },
-              { id: "c", text: "Smell — the letter's scent is described" },
+              { id: "b", text: "Smell — the letter's scent is described" },
+              { id: "c", text: "Tactile — the folding action externalises grief and restraint" },
               { id: "d", text: "Sound — the paper's rustle is described" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Tactile imagery", statement: "Touch imagery can externalise emotion." }],

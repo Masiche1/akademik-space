@@ -53,9 +53,9 @@ export const lesson13: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$x = 4$" },
-              { id: "b", text: "$x = 4$ or $x = -4$" },
-              { id: "c", text: "$x = 8$" },
-              { id: "d", text: "$x = \\frac{64}{3}$" },
+              { id: "b", text: "$x = \\frac{64}{3}$" },
+              { id: "c", text: "$x = 4$ or $x = -4$" },
+              { id: "d", text: "$x = 8$" },
             ],
             correctChoiceId: "a",
           },
@@ -190,12 +190,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$x = 4$" },
+              { id: "a", text: "$x = 14$" },
               { id: "b", text: "$x = \\frac{14}{5}$" },
               { id: "c", text: "$x = -4$" },
-              { id: "d", text: "$x = 14$" },
+              { id: "d", text: "$x = 4$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

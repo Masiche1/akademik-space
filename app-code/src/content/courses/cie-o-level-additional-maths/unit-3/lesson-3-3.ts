@@ -33,8 +33,11 @@ export const lesson33: Lesson = {
           id: "olam-u3-s3-ba-q1", difficulty: "foundation", totalMarks: 1,
           stem: "$\\sin\\theta=\\frac12$, $0°\\leq\\theta<360°$ gives…",
           response: { type: "mcq", choices: [
-            { id: "a", text: "$30°,150°$" }, { id: "b", text: "$30°$ only" }, { id: "c", text: "$30°,210°$" }, { id: "d", text: "$60°,120°$" },
-          ], correctChoiceId: "a" },
+            { id: "a", text: "$30°$ only" },
+            { id: "b", text: "$30°,150°$" },
+            { id: "c", text: "$30°,210°$" },
+            { id: "d", text: "$60°,120°$" },
+          ], correctChoiceId: "b" },
           markscheme: { principles: [{ kind: "technique", name: "Trig equation", statement: "Two quadrants." }], steps: [{ reasoning: "Principal $30°$; sin positive Q1,Q2 → $30°,150°$.", marks: 1, markCode: "A" }], finalAnswer: "$30°,150°$" },
         },
         {
@@ -67,6 +70,126 @@ export const lesson33: Lesson = {
             { reasoning: "Answer: $210°,330°$.", marks: 1, markCode: "A" },
           ], finalAnswer: "$210°,330°$" },
         },
+        {
+          id: "olam-u3-s3-ba-q5", difficulty: "foundation", totalMarks: 1,
+          stem: "$\\sin\\theta=\\frac{\\sqrt3}{2}$, $0°\\leq\\theta<360°$ gives…",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "$30°,150°$" },
+            { id: "b", text: "$60°,120°$" },
+            { id: "c", text: "$60°$ only" },
+            { id: "d", text: "$120°,240°$" },
+          ], correctChoiceId: "b" },
+          markscheme: { principles: [{ kind: "technique", name: "Trig equation", statement: "Q1,Q2." }], steps: [{ reasoning: "Principal $60°$; sin positive Q1,Q2 → $60°,120°$.", marks: 1, markCode: "A" }], finalAnswer: "$60°,120°$" },
+        },
+        {
+          id: "olam-u3-s3-ba-q6", difficulty: "foundation", totalMarks: 1,
+          stem: "$\\cos\\theta=-\\frac{1}{2}$, $0°\\leq\\theta<360°$ gives…",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "$120°$ only" },
+            { id: "b", text: "$60°,300°$" },
+            { id: "c", text: "$120°,240°$" },
+            { id: "d", text: "$240°$ only" },
+          ], correctChoiceId: "c" },
+          markscheme: { principles: [{ kind: "technique", name: "Trig equation", statement: "Q2,Q3." }], steps: [{ reasoning: "Reference $60°$; cos negative Q2,Q3 → $120°,240°$.", marks: 1, markCode: "A" }], finalAnswer: "$120°,240°$" },
+        },
+        {
+          id: "olam-u3-s3-ba-q7", difficulty: "core", totalMarks: 1,
+          stem: "$\\tan\\theta=-1$, $0°\\leq\\theta<360°$ gives…",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "$135°,315°$" },
+            { id: "b", text: "$315°$ only" },
+            { id: "c", text: "$135°$ only" },
+            { id: "d", text: "$45°,225°$" },
+          ], correctChoiceId: "a" },
+          markscheme: { principles: [{ kind: "technique", name: "Trig equation", statement: "Q2,Q4." }], steps: [{ reasoning: "Principal $-45°$; tan negative Q2,Q4 → $135°,315°$.", marks: 1, markCode: "A" }], finalAnswer: "$135°,315°$" },
+        },
+        {
+          id: "olam-u3-s3-ba-q8", difficulty: "core", totalMarks: 1,
+          stem: "$\\sin\\theta=0$, $0°\\leq\\theta<360°$ gives…",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "$90°,270°$" },
+            { id: "b", text: "$0°$ only" },
+            { id: "c", text: "$0°,180°$" },
+            { id: "d", text: "$180°$ only" },
+          ], correctChoiceId: "c" },
+          markscheme: { principles: [{ kind: "technique", name: "Trig equation", statement: "Axis crossings." }], steps: [{ reasoning: "Sine zero at $0°$ and $180°$ in interval.", marks: 1, markCode: "A" }], finalAnswer: "$0°,180°$" },
+        },
+        {
+          id: "olam-u3-s3-ba-q9", difficulty: "core", totalMarks: 1,
+          stem: "$\\cos\\theta=1$, $0°\\leq\\theta<360°$ gives…",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "No solution" },
+            { id: "b", text: "$0°$ only" },
+            { id: "c", text: "$0°,360°$" },
+            { id: "d", text: "$90°,270°$" },
+          ], correctChoiceId: "b" },
+          markscheme: { principles: [{ kind: "technique", name: "Trig equation", statement: "Interval excludes 360." }], steps: [{ reasoning: "$\\cos\\theta=1$ at $0°$; $360°$ excluded from interval.", marks: 1, markCode: "A" }], finalAnswer: "$0°$" },
+        },
+        {
+          id: "olam-u3-s3-ba-q10", difficulty: "foundation", totalMarks: 2,
+          stem: "Solve $\\cos\\theta=\\frac{1}{2}$, $0°\\leq\\theta<360°$.",
+          response: { type: "numeric", parts: [{ label: "a", answer: 60 }, { label: "b", answer: 300 }], unordered: true },
+          markscheme: { principles: [{ kind: "technique", name: "Trig equation", statement: "Q1,Q4." }], steps: [
+            { reasoning: "Principal $60°$; cos positive Q1,Q4 → $60°,300°$.", marks: 1, markCode: "M" },
+            { reasoning: "Verify: $\\cos300°=\\frac12$ ✓.", marks: 1, markCode: "A" },
+          ], finalAnswer: "$60°,300°$" },
+        },
+        {
+          id: "olam-u3-s3-ba-q11", difficulty: "foundation", totalMarks: 2,
+          stem: "Solve $\\sin\\theta=-\\frac{\\sqrt3}{2}$, $0°\\leq\\theta<360°$.",
+          response: { type: "numeric", parts: [{ label: "a", answer: 240 }, { label: "b", answer: 300 }], unordered: true },
+          markscheme: { principles: [{ kind: "technique", name: "Trig equation", statement: "Q3,Q4." }], steps: [
+            { reasoning: "Principal $-60°$; sin negative Q3,Q4 → $240°,300°$.", marks: 1, markCode: "M" },
+            { reasoning: "Verify both in interval ✓.", marks: 1, markCode: "A" },
+          ], finalAnswer: "$240°,300°$" },
+        },
+        {
+          id: "olam-u3-s3-ba-q12", difficulty: "core", totalMarks: 2,
+          stem: "Solve $\\tan\\theta=\\sqrt3$, $0°\\leq\\theta<360°$.",
+          response: { type: "numeric", parts: [{ label: "a", answer: 60 }, { label: "b", answer: 240 }], unordered: true },
+          markscheme: { principles: [{ kind: "technique", name: "Trig equation", statement: "Q1,Q3." }], steps: [
+            { reasoning: "Principal $60°$; tan positive Q1,Q3 → $60°,240°$.", marks: 1, markCode: "M" },
+            { reasoning: "Answer shown.", marks: 1, markCode: "A" },
+          ], finalAnswer: "$60°,240°$" },
+        },
+        {
+          id: "olam-u3-s3-ba-q13", difficulty: "core", totalMarks: 3,
+          stem: "Solve $\\cos\\theta=0$, $0°\\leq\\theta<360°$.",
+          response: { type: "numeric", parts: [{ label: "a", answer: 90 }, { label: "b", answer: 270 }], unordered: true },
+          markscheme: { principles: [{ kind: "technique", name: "Trig equation", statement: "Axis values." }], steps: [
+            { reasoning: "$\\cos\\theta=0$ at $\\theta=90°$ and $270°$.", marks: 1, markCode: "M" },
+            { reasoning: "Both in interval ✓.", marks: 1, markCode: "M" },
+            { reasoning: "Answer shown.", marks: 1, markCode: "A" },
+          ], finalAnswer: "$90°,270°$" },
+        },
+        {
+          id: "olam-u3-s3-ba-q14", difficulty: "core", totalMarks: 2,
+          stem: "Solve $\\sin\\theta=-\\frac{1}{2}$, $0°\\leq\\theta<360°$.",
+          response: { type: "open" },
+          markscheme: { principles: [{ kind: "technique", name: "Trig equation", statement: "Q3,Q4." }], steps: [
+            { reasoning: "Principal $-30°$ → $330°$; sin negative Q3,Q4 → $210°,330°$.", marks: 1, markCode: "M" },
+            { reasoning: "Answer: $210°,330°$.", marks: 1, markCode: "A" },
+          ], finalAnswer: "$210°,330°$" },
+        },
+        {
+          id: "olam-u3-s3-ba-q15", difficulty: "core", totalMarks: 2,
+          stem: "Solve $\\cos\\theta=-\\frac{\\sqrt3}{2}$, $0°\\leq\\theta<360°$.",
+          response: { type: "open" },
+          markscheme: { principles: [{ kind: "technique", name: "Trig equation", statement: "Q2,Q3." }], steps: [
+            { reasoning: "Reference $30°$; cos negative Q2,Q3 → $150°,210°$.", marks: 1, markCode: "M" },
+            { reasoning: "Answer: $150°,210°$.", marks: 1, markCode: "A" },
+          ], finalAnswer: "$150°,210°$" },
+        },
+        {
+          id: "olam-u3-s3-ba-q16", difficulty: "challenge", totalMarks: 3,
+          stem: "Solve $\\cos\\theta=-\\frac{1}{2}$ for $-180°\\leq\\theta\\leq180°$.",
+          response: { type: "open" },
+          markscheme: { principles: [{ kind: "technique", name: "Trig equation", statement: "Signed interval." }], steps: [
+            { reasoning: "Reference $60°$; cos negative in Q2,Q3 → $\\pm120°$ i.e. $120°$ and $-120°$.", marks: 1, markCode: "M" },
+            { reasoning: "Both within $[-180°,180°]$ ✓.", marks: 1, markCode: "M" },
+            { reasoning: "Answer: $\\theta=-120°$ or $120°$.", marks: 1, markCode: "A" },
+          ], finalAnswer: "$-120°,120°$" },
+        },
       ],
     },
     {
@@ -88,8 +211,11 @@ export const lesson33: Lesson = {
           id: "olam-u3-s3-qu-q1", difficulty: "foundation", totalMarks: 1,
           stem: "$\\sin^2\\theta-1=0$ gives $\\sin\\theta=$…",
           response: { type: "mcq", choices: [
-            { id: "a", text: "$\\pm1$" }, { id: "b", text: "$1$ only" }, { id: "c", text: "$\\pm2$" }, { id: "d", text: "0" },
-          ], correctChoiceId: "a" },
+            { id: "a", text: "$1$ only" },
+            { id: "b", text: "$\\pm1$" },
+            { id: "c", text: "0" },
+            { id: "d", text: "$\\pm2$" },
+          ], correctChoiceId: "b" },
           markscheme: { principles: [{ kind: "technique", name: "Factorise", statement: "Difference of squares." }], steps: [{ reasoning: "$(\\sin-1)(\\sin+1)=0$ → $\\sin=\\pm1$.", marks: 1, markCode: "A" }], finalAnswer: "$\\pm1$" },
         },
         {
@@ -121,6 +247,132 @@ export const lesson33: Lesson = {
             { reasoning: "All four in interval. ✓", marks: 1, markCode: "M" },
             { reasoning: "Answer: $60°,120°,240°,300°$.", marks: 1, markCode: "A" },
           ], finalAnswer: "$60°,120°,240°,300°$" },
+        },
+        {
+          id: "olam-u3-s3-qu-q5", difficulty: "foundation", totalMarks: 1,
+          stem: "$2\\sin^2\\theta-1=0$ gives $\\sin\\theta=$…",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "0" },
+            { id: "b", text: "$\\pm\\frac{1}{\\sqrt2}$" },
+            { id: "c", text: "$\\pm2$" },
+            { id: "d", text: "$\\pm1$" },
+          ], correctChoiceId: "b" },
+          markscheme: { principles: [{ kind: "technique", name: "Isolate", statement: "Solve for sin." }], steps: [{ reasoning: "$\\sin^2\\theta=\\frac12$ → $\\sin\\theta=\\pm\\frac{1}{\\sqrt2}$.", marks: 1, markCode: "A" }], finalAnswer: "$\\pm\\frac{1}{\\sqrt2}$" },
+        },
+        {
+          id: "olam-u3-s3-qu-q6", difficulty: "foundation", totalMarks: 1,
+          stem: "$\\cos 2\\theta=0$, $0°\\leq\\theta<360°$ gives…",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "$30°,150°,210°,330°$" },
+            { id: "b", text: "$45°,135°,225°,315°$" },
+            { id: "c", text: "$0°,90°,180°,270°$" },
+            { id: "d", text: "$45°,135°$ only" },
+          ], correctChoiceId: "b" },
+          markscheme: { principles: [{ kind: "technique", name: "Double angle", statement: "$2\\theta=90°,270°$ mod 360." }], steps: [{ reasoning: "$2\\theta=90°,270°,450°,630°$ → $\\theta=45°,135°,225°,315°$.", marks: 1, markCode: "A" }], finalAnswer: "$45°,135°,225°,315°$" },
+        },
+        {
+          id: "olam-u3-s3-qu-q7", difficulty: "core", totalMarks: 1,
+          stem: "$\\sin^2\\theta=\\frac{1}{4}$, $0°\\leq\\theta<360°$ has how many solutions?",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "8" },
+            { id: "b", text: "4" },
+            { id: "c", text: "1" },
+            { id: "d", text: "2" },
+          ], correctChoiceId: "b" },
+          markscheme: { principles: [{ kind: "technique", name: "Quadratic trig", statement: "Two sin values × two quadrants." }], steps: [{ reasoning: "$\\sin=\\pm\\frac12$ → each gives 2 angles → 4 total.", marks: 1, markCode: "A" }], finalAnswer: "4" },
+        },
+        {
+          id: "olam-u3-s3-qu-q8", difficulty: "core", totalMarks: 1,
+          stem: "$\\tan^2\\theta=3$, $0°\\leq\\theta<360°$ gives…",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "$60°,240°$ only" },
+            { id: "b", text: "$60°,120°,240°,300°$" },
+            { id: "c", text: "$30°,150°,210°,330°$" },
+            { id: "d", text: "$45°,135°,225°,315°$" },
+          ], correctChoiceId: "b" },
+          markscheme: { principles: [{ kind: "technique", name: "Quadratic trig", statement: "$\\tan=\\pm\\sqrt3$." }], steps: [{ reasoning: "$\\tan=\\sqrt3$ → $60°,240°$; $\\tan=-\\sqrt3$ → $120°,300°$.", marks: 1, markCode: "A" }], finalAnswer: "$60°,120°,240°,300°$" },
+        },
+        {
+          id: "olam-u3-s3-qu-q9", difficulty: "core", totalMarks: 1,
+          stem: "$2\\cos^2\\theta-1=0$ gives $\\cos\\theta=$…",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "0" },
+            { id: "b", text: "$\\pm\\frac{\\sqrt3}{2}$" },
+            { id: "c", text: "$\\pm\\frac{1}{\\sqrt2}$" },
+            { id: "d", text: "$\\pm1$" },
+          ], correctChoiceId: "c" },
+          markscheme: { principles: [{ kind: "technique", name: "Isolate", statement: "Solve for cos." }], steps: [{ reasoning: "$\\cos^2\\theta=\\frac12$ → $\\cos\\theta=\\pm\\frac{1}{\\sqrt2}$.", marks: 1, markCode: "A" }], finalAnswer: "$\\pm\\frac{1}{\\sqrt2}$" },
+        },
+        {
+          id: "olam-u3-s3-qu-q10", difficulty: "core", totalMarks: 3,
+          stem: "How many solutions does $\\cos^2\\theta=\\frac{1}{4}$ have in $0°\\leq\\theta<360°$?",
+          response: { type: "numeric", parts: [{ label: "a", answer: 4 }] },
+          markscheme: { principles: [{ kind: "technique", name: "Quadratic trig", statement: "Count solutions." }], steps: [
+            { reasoning: "$\\cos\\theta=\\pm\\frac12$ → each value gives 2 angles → 4 solutions.", marks: 1, markCode: "M" },
+            { reasoning: "They are $60°,120°,240°,300°$.", marks: 1, markCode: "M" },
+            { reasoning: "Answer: 4.", marks: 1, markCode: "A" },
+          ], finalAnswer: "4" },
+        },
+        {
+          id: "olam-u3-s3-qu-q11", difficulty: "core", totalMarks: 3,
+          stem: "Solve $2\\sin^2\\theta+\\sin\\theta-1=0$, $0°\\leq\\theta<360°$.",
+          response: { type: "numeric", parts: [{ label: "a", answer: 30 }, { label: "b", answer: 150 }, { label: "c", answer: 270 }], unordered: true },
+          markscheme: { principles: [{ kind: "technique", name: "Quadratic trig", statement: "Factorise then solve." }], steps: [
+            { reasoning: "$(2\\sin\\theta-1)(\\sin\\theta+1)=0$ → $\\sin\\theta=\\frac12$ or $-1$.", marks: 1, markCode: "M" },
+            { reasoning: "$\\sin=\\frac12$: $30°,150°$; $\\sin=-1$: $270°$.", marks: 1, markCode: "M" },
+            { reasoning: "All three in interval ✓: $30°,150°,270°$.", marks: 1, markCode: "A" },
+          ], finalAnswer: "$30°,150°,270°$" },
+        },
+        {
+          id: "olam-u3-s3-qu-q12", difficulty: "core", totalMarks: 3,
+          stem: "Solve $\\cos^2\\theta-\\cos\\theta=0$, $0°\\leq\\theta<360°$.",
+          response: { type: "numeric", parts: [{ label: "a", answer: 0 }, { label: "b", answer: 90 }, { label: "c", answer: 270 }], unordered: true },
+          markscheme: { principles: [{ kind: "technique", name: "Factorise", statement: "Common factor." }], steps: [
+            { reasoning: "$\\cos\\theta(\\cos\\theta-1)=0$ → $\\cos\\theta=0$ or $1$.", marks: 1, markCode: "M" },
+            { reasoning: "$\\cos=0$: $90°,270°$; $\\cos=1$: $0°$.", marks: 1, markCode: "M" },
+            { reasoning: "Answer: $0°,90°,270°$.", marks: 1, markCode: "A" },
+          ], finalAnswer: "$0°,90°,270°$" },
+        },
+        {
+          id: "olam-u3-s3-qu-q13", difficulty: "challenge", totalMarks: 3,
+          stem: "Solve $2\\cos^2\\theta+\\cos\\theta-1=0$, $0°\\leq\\theta<360°$.",
+          response: { type: "numeric", parts: [{ label: "a", answer: 60 }, { label: "b", answer: 180 }, { label: "c", answer: 300 }], unordered: true },
+          markscheme: { principles: [{ kind: "technique", name: "Quadratic trig", statement: "Factorise then solve." }], steps: [
+            { reasoning: "$(2\\cos\\theta-1)(\\cos\\theta+1)=0$ → $\\cos\\theta=\\frac12$ or $-1$.", marks: 1, markCode: "M" },
+            { reasoning: "$\\cos=\\frac12$: $60°,300°$; $\\cos=-1$: $180°$.", marks: 1, markCode: "M" },
+            { reasoning: "Answer: $60°,180°,300°$.", marks: 1, markCode: "A" },
+          ], finalAnswer: "$60°,180°,300°$" },
+        },
+        {
+          id: "olam-u3-s3-qu-q14", difficulty: "core", totalMarks: 3,
+          stem: "Solve $\\sin^2\\theta-3\\sin\\theta+2=0$, $0°\\leq\\theta<360°$.",
+          response: { type: "open" },
+          markscheme: { principles: [{ kind: "technique", name: "Quadratic trig", statement: "Reject out-of-range." }], steps: [
+            { reasoning: "$(\\sin\\theta-1)(\\sin\\theta-2)=0$ → $\\sin\\theta=1$ or $2$.", marks: 1, markCode: "M" },
+            { reasoning: "Reject $\\sin=2$ (impossible); $\\sin\\theta=1$ → $\\theta=90°$.", marks: 1, markCode: "M" },
+            { reasoning: "Answer: $\\theta=90°$.", marks: 1, markCode: "A" },
+          ], finalAnswer: "$90°$" },
+        },
+        {
+          id: "olam-u3-s3-qu-q15", difficulty: "core", totalMarks: 3,
+          stem: "Solve $4\\sin^2\\theta-1=0$, $0°\\leq\\theta<360°$.",
+          response: { type: "open" },
+          markscheme: { principles: [{ kind: "technique", name: "Quadratic trig", statement: "Two cases for sin." }], steps: [
+            { reasoning: "$\\sin\\theta=\\pm\\frac12$.", marks: 1, markCode: "M" },
+            { reasoning: "$\\sin=\\frac12$: $30°,150°$; $\\sin=-\\frac12$: $210°,330°$.", marks: 1, markCode: "M" },
+            { reasoning: "Answer: $30°,150°,210°,330°$.", marks: 1, markCode: "A" },
+          ], finalAnswer: "$30°,150°,210°,330°$" },
+        },
+        {
+          id: "olam-u3-s3-qu-q16", difficulty: "challenge", totalMarks: 4,
+          stem: "Solve $2\\sin^2\\theta-3\\sin\\theta+1=0$, $0°\\leq\\theta<360°$.",
+          response: { type: "open" },
+          markscheme: { principles: [{ kind: "technique", name: "Quadratic trig", statement: "Factorise then solve." }], steps: [
+            { reasoning: "$(2\\sin\\theta-1)(\\sin\\theta-1)=0$ → $\\sin\\theta=\\frac12$ or $1$.", marks: 1, markCode: "M" },
+            { reasoning: "$\\sin=\\frac12$: $30°,150°$; $\\sin=1$: $90°$.", marks: 1, markCode: "M" },
+            { reasoning: "All three in interval ✓.", marks: 1, markCode: "M" },
+            { reasoning: "Answer: $30°,90°,150°$.", marks: 1, markCode: "A" },
+          ], finalAnswer: "$30°,90°,150°$" },
         },
       ],
     },

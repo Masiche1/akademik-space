@@ -54,12 +54,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Price makers" },
-              { id: "b", text: "Price takers" },
+              { id: "a", text: "Protected by patents" },
+              { id: "b", text: "Price makers" },
               { id: "c", text: "The only sellers in the market" },
-              { id: "d", text: "Protected by patents" },
+              { id: "d", text: "Price takers" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -155,11 +155,11 @@ export const lesson13: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Price taker" },
-              { id: "b", text: "Price maker" },
-              { id: "c", text: "Wage taker" },
-              { id: "d", text: "Free entrant" },
+              { id: "b", text: "Free entrant" },
+              { id: "c", text: "Price maker" },
+              { id: "d", text: "Wage taker" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -182,12 +182,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Marginal revenue only" },
-              { id: "b", text: "Both marginal cost and minimum average cost" },
-              { id: "c", text: "Average revenue plus a profit margin" },
+              { id: "a", text: "Average revenue plus a profit margin" },
+              { id: "b", text: "Marginal revenue only" },
+              { id: "c", text: "Both marginal cost and minimum average cost" },
               { id: "d", text: "Total revenue divided by total cost" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -210,10 +210,10 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Many small firms selling identical products" },
+              { id: "a", text: "Free entry and exit for all firms" },
               { id: "b", text: "A government patent on a new drug" },
-              { id: "c", text: "Free entry and exit for all firms" },
-              { id: "d", text: "Perfect information available to all buyers" },
+              { id: "c", text: "Perfect information available to all buyers" },
+              { id: "d", text: "Many small firms selling identical products" },
             ],
             correctChoiceId: "b",
           },
@@ -385,12 +385,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The market for smartphone operating systems" },
-              { id: "b", text: "The market for local hairdressers" },
-              { id: "c", text: "The market for commercial air travel on a single route" },
-              { id: "d", text: "The market for agricultural commodities such as wheat" },
+              { id: "a", text: "The market for commercial air travel on a single route" },
+              { id: "b", text: "The market for agricultural commodities such as wheat" },
+              { id: "c", text: "The market for local hairdressers" },
+              { id: "d", text: "The market for smartphone operating systems" },
             ],
-            correctChoiceId: "d",
+            correctChoiceIb: "d",
           },
           markscheme: {
             principles: [
@@ -497,10 +497,10 @@ export const lesson13: Lesson = {
             choices: [
               { id: "a", text: "Many firms selling identical products" },
               { id: "b", text: "A single seller with no substitutes" },
-              { id: "c", text: "A few large firms whose decisions are interdependent" },
-              { id: "d", text: "Completely free entry and exit" },
+              { id: "c", text: "Completely free entry and exit" },
+              { id: "d", text: "A few large firms whose decisions are interdependent" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -594,12 +594,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Many firms selling identical products" },
-              { id: "b", text: "A single firm with no competitors" },
-              { id: "c", text: "Many firms selling differentiated products" },
-              { id: "d", text: "A few firms with interdependent decisions" },
+              { id: "a", text: "Many firms selling differentiated products" },
+              { id: "b", text: "A few firms with interdependent decisions" },
+              { id: "c", text: "Many firms selling identical products" },
+              { id: "d", text: "A single firm with no competitors" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -622,9 +622,9 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Only government regulation" },
+              { id: "a", text: "A single dominant buyer" },
               { id: "b", text: "The expected reactions of rival firms" },
-              { id: "c", text: "A single dominant buyer" },
+              { id: "c", text: "Only government regulation" },
               { id: "d", text: "Fixed prices set by a central bank" },
             ],
             correctChoiceId: "b",
@@ -650,12 +650,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Reducing the price of the product" },
-              { id: "b", text: "Large-scale advertising and brand promotion" },
-              { id: "c", text: "Offering a cash discount to retailers" },
-              { id: "d", text: "Cutting production costs to lower price" },
+              { id: "a", text: "Cutting production costs to lower price" },
+              { id: "b", text: "Reducing the price of the product" },
+              { id: "c", text: "Large-scale advertising and brand promotion" },
+              { id: "d", text: "Offering a cash discount to retailers" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -778,12 +778,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Firms always collude legally" },
-              { id: "b", text: "Each firm's best decision depends on rivals' likely reactions" },
+              { id: "a", text: "New firms can enter freely" },
+              { id: "b", text: "Firms always collude legally" },
               { id: "c", text: "All firms earn identical profits" },
-              { id: "d", text: "New firms can enter freely" },
+              { id: "d", text: "Each firm's best decision depends on rivals' likely reactions" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -806,10 +806,10 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Commercial aircraft manufacturing" },
+              { id: "a", text: "A country's national railway monopoly" },
               { id: "b", text: "Local restaurants and cafes" },
-              { id: "c", text: "A country's national railway monopoly" },
-              { id: "d", text: "Wheat farming" },
+              { id: "c", text: "Wheat farming" },
+              { id: "d", text: "Commercial aircraft manufacturing" },
             ],
             correctChoiceId: "b",
           },

@@ -59,12 +59,12 @@ export const lesson91: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "One long sentence" },
-              { id: "b", text: "A group of sentences about one idea" },
-              { id: "c", text: "A list of words" },
-              { id: "d", text: "A single word" },
+              { id: "a", text: "A group of sentences about one idea" },
+              { id: "b", text: "A list of words" },
+              { id: "c", text: "A single word" },
+              { id: "d", text: "One long sentence" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -89,10 +89,10 @@ export const lesson91: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "and" },
+              { id: "a", text: "so" },
               { id: "b", text: "but" },
-              { id: "c", text: "so" },
-              { id: "d", text: "because" },
+              { id: "c", text: "because" },
+              { id: "d", text: "and" },
             ],
             correctChoiceId: "b",
           },
@@ -200,12 +200,12 @@ export const lesson91: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Start writing immediately" },
-              { id: "b", text: "Plan the structure and facts" },
-              { id: "c", text: "Read a story" },
-              { id: "d", text: "Draw a picture" },
+              { id: "a", text: "Draw a picture" },
+              { id: "b", text: "Start writing immediately" },
+              { id: "c", text: "Plan the structure and facts" },
+              { id: "d", text: "Read a story" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -234,9 +234,9 @@ export const lesson91: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "End, middle, beginning" },
+              { id: "a", text: "Middle, end, beginning" },
               { id: "b", text: "Beginning, middle, end" },
-              { id: "c", text: "Middle, end, beginning" },
+              { id: "c", text: "End, middle, beginning" },
               { id: "d", text: "Random order" },
             ],
             correctChoiceId: "b",

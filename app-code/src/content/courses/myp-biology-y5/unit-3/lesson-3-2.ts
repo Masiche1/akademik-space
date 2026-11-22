@@ -59,8 +59,8 @@ export const lesson32: Lesson = {
             choices: [
               { id: "a", text: "Humans choose which organisms breed" },
               { id: "b", text: "Better-adapted individuals survive and reproduce more, changing the population" },
-              { id: "c", text: "Organisms change during their lifetime to suit the environment" },
-              { id: "d", text: "All individuals in a population become identical" },
+              { id: "c", text: "All individuals in a population become identical" },
+              { id: "d", text: "Organisms change during their lifetime to suit the environment" },
             ],
             correctChoiceId: "b",
           },
@@ -85,11 +85,11 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Selective breeding produces no variation" },
-              { id: "b", text: "Natural selection is driven by the environment; selective breeding is directed by humans" },
-              { id: "c", text: "They are identical processes" },
-              { id: "d", text: "Natural selection only works on bacteria" },
+              { id: "b", text: "Natural selection only works on bacteria" },
+              { id: "c", text: "Natural selection is driven by the environment; selective breeding is directed by humans" },
+              { id: "d", text: "They are identical processes" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -112,12 +112,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "They evolved independently from scratch with no relation" },
-              { id: "b", text: "They share a common ancestor that had a similar limb structure" },
-              { id: "c", text: "They are identical species" },
-              { id: "d", text: "The structures are useless in all three" },
+              { id: "a", text: "They share a common ancestor that had a similar limb structure" },
+              { id: "b", text: "They evolved independently from scratch with no relation" },
+              { id: "c", text: "The structures are useless in all three" },
+              { id: "d", text: "They are identical species" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -233,7 +233,7 @@ export const lesson32: Lesson = {
           difficulty: "challenge",
           totalMarks: 1,
           stem: "What is required for speciation?",
-          response: { type: "mcq", choices: [{ id: "a", text: "Only a temporary change in diet" }, { id: "b", text: "Reproductive isolation plus genetic divergence" }, { id: "c", text: "One individual moving to a new area" }, { id: "d", text: "Identical allele frequencies" }], correctChoiceId: "b" },
+          response: { type: "mcq", choices: [ { id: "a", text: "One individual moving to a new area" }, { id: "b", text: "Only a temporary change in diet" }, { id: "c", text: "Reproductive isolation plus genetic divergence" }, { id: "d", text: "Identical allele frequencies" } ], correctChoiceId: "c" },
           markscheme: { principles: [{ kind: "principle", name: "Speciation", statement: "Speciation occurs when populations become reproductively isolated and diverge genetically." }], steps: [{ reasoning: "Isolation prevents gene flow; selection and drift then separate the gene pools.", working: "isolation+divergence", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Reproductive isolation plus genetic divergence" },
         },
         {
@@ -257,7 +257,7 @@ export const lesson32: Lesson = {
           difficulty: "core",
           totalMarks: 1,
           stem: "What do homologous structures indicate?",
-          response: { type: "mcq", choices: [{ id: "a", text: "All species are identical" }, { id: "b", text: "Structures may share a common ancestral origin despite different functions" }, { id: "c", text: "Evolution never occurs" }, { id: "d", text: "DNA cannot be compared" }], correctChoiceId: "b" },
+          response: { type: "mcq", choices: [ { id: "a", text: "All species are identical" }, { id: "b", text: "Structures may share a common ancestral origin despite different functions" }, { id: "c", text: "DNA cannot be compared" }, { id: "d", text: "Evolution never occurs" } ], correctChoiceId: "b" },
           markscheme: { principles: [{ kind: "definition", name: "Homologous structures", statement: "Similar structures with different functions suggest common ancestry." }], steps: [{ reasoning: "Vertebrate forelimbs are a classic example.", working: "common\\text{ ancestry}", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Structures may share a common ancestral origin despite different functions" },
         },
         {
@@ -265,7 +265,7 @@ export const lesson32: Lesson = {
           difficulty: "challenge",
           totalMarks: 1,
           stem: "Darwin's finches on the Galápagos are best explained as an example of what?",
-          response: { type: "mcq", choices: [{ id: "a", text: "Selective breeding by humans" }, { id: "b", text: "Adaptive radiation from a common ancestor" }, { id: "c", text: "Nondisjunction" }, { id: "d", text: "Cloning" }], correctChoiceId: "b" },
+          response: { type: "mcq", choices: [ { id: "a", text: "Nondisjunction" }, { id: "b", text: "Adaptive radiation from a common ancestor" }, { id: "c", text: "Selective breeding by humans" }, { id: "d", text: "Cloning" } ], correctChoiceId: "b" },
           markscheme: { principles: [{ kind: "principle", name: "Adaptive radiation", statement: "One ancestor diversifies into species adapted to different niches." }], steps: [{ reasoning: "Different beak shapes match different food sources on the islands.", working: "adaptive\\text{ radiation}", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Adaptive radiation from a common ancestor" },
         },
       ],
@@ -308,12 +308,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The total number of individuals in an area" },
-              { id: "b", text: "The number of different species present" },
+              { id: "a", text: "The number of different species present" },
+              { id: "b", text: "The genetic variety within one species" },
               { id: "c", text: "The size of each species' population" },
-              { id: "d", text: "The genetic variety within one species" },
+              { id: "d", text: "The total number of individuals in an area" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -335,12 +335,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The most abundant species in an ecosystem" },
-              { id: "b", text: "A species whose impact on ecosystem structure is disproportionate to its abundance" },
-              { id: "c", text: "The largest species present" },
-              { id: "d", text: "A species found only in one country" },
+              { id: "a", text: "A species found only in one country" },
+              { id: "b", text: "The largest species present" },
+              { id: "c", text: "The most abundant species in an ecosystem" },
+              { id: "d", text: "A species whose impact on ecosystem structure is disproportionate to its abundance" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -364,11 +364,11 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "It has only genetic diversity" },
-              { id: "b", text: "It has high species and ecosystem diversity but unknown genetic diversity" },
-              { id: "c", text: "Biodiversity can only be measured on land" },
-              { id: "d", text: "200 species means low biodiversity" },
+              { id: "b", text: "200 species means low biodiversity" },
+              { id: "c", text: "It has high species and ecosystem diversity but unknown genetic diversity" },
+              { id: "d", text: "Biodiversity can only be measured on land" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -484,7 +484,7 @@ export const lesson32: Lesson = {
           difficulty: "challenge",
           totalMarks: 1,
           stem: "What is a keystone species?",
-          response: { type: "mcq", choices: [{ id: "a", text: "The most abundant species" }, { id: "b", text: "A species whose removal causes disproportionate ecosystem change" }, { id: "c", text: "A species found everywhere" }, { id: "d", text: "A domesticated species" }], correctChoiceId: "b" },
+          response: { type: "mcq", choices: [ { id: "a", text: "A species found everywhere" }, { id: "b", text: "The most abundant species" }, { id: "c", text: "A species whose removal causes disproportionate ecosystem change" }, { id: "d", text: "A domesticated species" } ], correctChoiceId: "c" },
           markscheme: { principles: [{ kind: "definition", name: "Keystone species", statement: "Keystone species have effects on ecosystem structure disproportionate to their abundance." }], steps: [{ reasoning: "Their loss can trigger trophic cascades.", working: "keystone", marks: 1, markCode: "B" }], finalAnswer: "**(b)** A species whose removal causes disproportionate ecosystem change" },
         },
         {
@@ -512,7 +512,7 @@ export const lesson32: Lesson = {
           difficulty: "core",
           totalMarks: 1,
           stem: "Which sampling method uses a square frame to estimate species in a small area?",
-          response: { type: "mcq", choices: [{ id: "a", text: "Transect" }, { id: "b", text: "Quadrat" }, { id: "c", text: "Radio tracking" }, { id: "d", text: "PCR" }], correctChoiceId: "b" },
+          response: { type: "mcq", choices: [ { id: "a", text: "Radio tracking" }, { id: "b", text: "Quadrat" }, { id: "c", text: "PCR" }, { id: "d", text: "Transect" } ], correctChoiceId: "b" },
           markscheme: { principles: [{ kind: "method", name: "Quadrat", statement: "Quadrats sample a defined area for species richness and abundance." }], steps: [{ reasoning: "Transects sample along a line; quadrats sample an area.", working: "quadrat", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Quadrat" },
         },
         {
@@ -520,7 +520,7 @@ export const lesson32: Lesson = {
           difficulty: "challenge",
           totalMarks: 1,
           stem: "Why does high biodiversity generally increase ecosystem resilience?",
-          response: { type: "mcq", choices: [{ id: "a", text: "It guarantees no species ever die" }, { id: "b", text: "Functional redundancy allows other species to maintain processes after disturbance" }, { id: "c", text: "It reduces the need for sunlight" }, { id: "d", text: "It prevents all competition" }], correctChoiceId: "b" },
+          response: { type: "mcq", choices: [ { id: "a", text: "It guarantees no species ever die" }, { id: "b", text: "It reduces the need for sunlight" }, { id: "c", text: "It prevents all competition" }, { id: "d", text: "Functional redundancy allows other species to maintain processes after disturbance" } ], correctChoiceId: "d" },
           markscheme: { principles: [{ kind: "principle", name: "Resilience", statement: "Diverse communities contain species that can compensate for losses of others." }], steps: [{ reasoning: "Redundancy buffers ecosystems against species loss or environmental change.", working: "redundancy", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Functional redundancy allows other species to maintain processes after disturbance" },
         },
       ],

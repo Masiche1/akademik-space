@@ -54,11 +54,11 @@ export const lesson23: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Accommodation" },
-              { id: "b", text: "Assimilation" },
-              { id: "c", text: "Equilibration" },
-              { id: "d", text: "Conservation" },
+              { id: "b", text: "Equilibration" },
+              { id: "c", text: "Conservation" },
+              { id: "d", text: "Assimilation" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -152,10 +152,10 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "2–7 years" },
+              { id: "a", text: "11 years onwards" },
               { id: "b", text: "7–11 years" },
               { id: "c", text: "Birth to 2 years" },
-              { id: "d", text: "11 years onwards" },
+              { id: "d", text: "2–7 years" },
             ],
             correctChoiceId: "c",
           },
@@ -180,8 +180,8 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Abstract hypothetical reasoning" },
-              { id: "b", text: "Conservation of quantity" },
+              { id: "a", text: "Conservation of quantity" },
+              { id: "b", text: "Abstract hypothetical reasoning" },
               { id: "c", text: "Egocentric thinking and symbolic play" },
               { id: "d", text: "Fully developed object permanence at birth" },
             ],
@@ -208,12 +208,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Sensorimotor" },
-              { id: "b", text: "Preoperational" },
-              { id: "c", text: "Concrete operational" },
-              { id: "d", text: "Formal operational" },
+              { id: "a", text: "Formal operational" },
+              { id: "b", text: "Concrete operational" },
+              { id: "c", text: "Preoperational" },
+              { id: "d", text: "Sensorimotor" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -236,12 +236,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Object permanence" },
-              { id: "b", text: "Conservation of volume" },
-              { id: "c", text: "Visual-spatial egocentrism" },
-              { id: "d", text: "Abstract reasoning" },
+              { id: "a", text: "Conservation of volume" },
+              { id: "b", text: "Object permanence" },
+              { id: "c", text: "Abstract reasoning" },
+              { id: "d", text: "Visual-spatial egocentrism" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -265,11 +265,11 @@ export const lesson23: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Symbolic pretend play" },
-              { id: "b", text: "Abstract, hypothetical and scientific reasoning" },
-              { id: "c", text: "Conservation of number" },
+              { id: "b", text: "Conservation of number" },
+              { id: "c", text: "Abstract, hypothetical and scientific reasoning" },
               { id: "d", text: "Goal-directed sensorimotor actions" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -479,12 +479,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Intimacy vs isolation" },
-              { id: "b", text: "Identity vs role confusion" },
-              { id: "c", text: "Industry vs inferiority" },
-              { id: "d", text: "Generativity vs stagnation" },
+              { id: "a", text: "Industry vs inferiority" },
+              { id: "b", text: "Generativity vs stagnation" },
+              { id: "c", text: "Identity vs role confusion" },
+              { id: "d", text: "Intimacy vs isolation" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -578,12 +578,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Adolescence" },
-              { id: "b", text: "Infancy" },
-              { id: "c", text: "School age" },
-              { id: "d", text: "Old age" },
+              { id: "a", text: "Old age" },
+              { id: "b", text: "School age" },
+              { id: "c", text: "Adolescence" },
+              { id: "d", text: "Infancy" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -606,12 +606,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Adolescence and identity formation" },
-              { id: "b", text: "School age and developing competence" },
+              { id: "a", text: "School age and developing competence" },
+              { id: "b", text: "Middle adulthood and raising the next generation" },
               { id: "c", text: "Young adulthood and intimate relationships" },
-              { id: "d", text: "Middle adulthood and raising the next generation" },
+              { id: "d", text: "Adolescence and identity formation" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -634,12 +634,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Environmental influences such as parenting and culture" },
+              { id: "a", text: "Genetic inheritance and biological maturation" },
               { id: "b", text: "Learning through reinforcement and observation" },
-              { id: "c", text: "Genetic inheritance and biological maturation" },
-              { id: "d", text: "Social expectations and peer pressure" },
+              { id: "c", text: "Social expectations and peer pressure" },
+              { id: "d", text: "Environmental influences such as parenting and culture" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -662,12 +662,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The study of identical twins raised apart" },
-              { id: "b", text: "How environmental experience can influence gene expression" },
-              { id: "c", text: "The percentage of a trait determined by genes" },
-              { id: "d", text: "The critical period for language acquisition" },
+              { id: "a", text: "The percentage of a trait determined by genes" },
+              { id: "b", text: "The study of identical twins raised apart" },
+              { id: "c", text: "The critical period for language acquisition" },
+              { id: "d", text: "How environmental experience can influence gene expression" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -690,12 +690,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "4" },
-              { id: "b", text: "6" },
-              { id: "c", text: "8" },
-              { id: "d", text: "10" },
+              { id: "a", text: "6" },
+              { id: "b", text: "8" },
+              { id: "c", text: "10" },
+              { id: "d", text: "4" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [

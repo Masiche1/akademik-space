@@ -50,12 +50,12 @@ export const lesson101: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "its raining" },
-              { id: "b", text: "it's raining" },
-              { id: "c", text: "its' raining" },
-              { id: "d", text: "it is raining" },
+              { id: "a", text: "its' raining" },
+              { id: "b", text: "it is raining" },
+              { id: "c", text: "it's raining" },
+              { id: "d", text: "its raining" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -78,9 +78,9 @@ export const lesson101: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The dog wagged it's tail." },
+              { id: "a", text: "The dog wagged it is tail." },
               { id: "b", text: "The dog wagged its tail." },
-              { id: "c", text: "The dog wagged it is tail." },
+              { id: "c", text: "The dog wagged it's tail." },
               { id: "d", text: "The dog wagged theyre tail." },
             ],
             correctChoiceId: "b",
@@ -210,12 +210,12 @@ export const lesson101: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "sad" },
-              { id: "b", text: "joyful" },
+              { id: "a", text: "joyful" },
+              { id: "b", text: "sad" },
               { id: "c", text: "angry" },
               { id: "d", text: "tired" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -238,12 +238,12 @@ export const lesson101: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "old" },
-              { id: "b", text: "modern" },
+              { id: "a", text: "modern" },
+              { id: "b", text: "old" },
               { id: "c", text: "historic" },
               { id: "d", text: "antique" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

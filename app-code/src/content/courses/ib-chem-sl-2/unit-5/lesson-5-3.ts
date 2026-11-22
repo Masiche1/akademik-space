@@ -54,12 +54,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The particles must collide with energy at least equal to the activation energy and in the correct orientation" },
-              { id: "b", text: "The particles must collide with any amount of energy" },
-              { id: "c", text: "The particles must be at the same temperature" },
-              { id: "d", text: "The particles must collide only once" },
+              { id: "a", text: "The particles must collide only once" },
+              { id: "b", text: "The particles must collide with energy at least equal to the activation energy and in the correct orientation" },
+              { id: "c", text: "The particles must collide with any amount of energy" },
+              { id: "d", text: "The particles must be at the same temperature" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -84,8 +84,8 @@ export const lesson53: Lesson = {
             choices: [
               { id: "a", text: "Particles move faster and collide more often, and a much larger fraction of particles has energy $\\geq E_a$" },
               { id: "b", text: "The activation energy decreases" },
-              { id: "c", text: "The particles become larger" },
-              { id: "d", text: "The reaction becomes exothermic" },
+              { id: "c", text: "The reaction becomes exothermic" },
+              { id: "d", text: "The particles become larger" },
             ],
             correctChoiceId: "a",
           },
@@ -112,8 +112,8 @@ export const lesson53: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "The rate of both forward and reverse reactions increases equally, so the equilibrium position is unchanged but equilibrium is reached faster" },
-              { id: "b", text: "The equilibrium position shifts to the right because the forward rate increases" },
-              { id: "c", text: "The enthalpy change of the reaction becomes more negative" },
+              { id: "b", text: "The enthalpy change of the reaction becomes more negative" },
+              { id: "c", text: "The equilibrium position shifts to the right because the forward rate increases" },
               { id: "d", text: "The catalyst is consumed during the reaction" },
             ],
             correctChoiceId: "a",
@@ -197,8 +197,8 @@ export const lesson53: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "There are more particles per unit volume, so collisions occur more frequently" },
-              { id: "b", text: "The activation energy decreases" },
-              { id: "c", text: "The particles move faster" },
+              { id: "b", text: "The particles move faster" },
+              { id: "c", text: "The activation energy decreases" },
               { id: "d", text: "The reaction becomes exothermic" },
             ],
             correctChoiceId: "a",
@@ -277,12 +277,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Increasing the concentration of a reactant" },
-              { id: "b", text: "Adding a catalyst" },
-              { id: "c", text: "Increasing the temperature" },
-              { id: "d", text: "Decreasing the surface area of a solid reactant" },
+              { id: "a", text: "Adding a catalyst" },
+              { id: "b", text: "Increasing the concentration of a reactant" },
+              { id: "c", text: "Decreasing the surface area of a solid reactant" },
+              { id: "d", text: "Increasing the temperature" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -328,12 +328,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The curve shifts to higher energies and a larger fraction of particles has energy $\\geq E_a$" },
-              { id: "b", text: "The curve shifts to lower energies" },
-              { id: "c", text: "The curve becomes narrower with all particles at the same energy" },
-              { id: "d", text: "The activation energy $E_a$ decreases" },
+              { id: "a", text: "The curve becomes narrower with all particles at the same energy" },
+              { id: "b", text: "The activation energy $E_a$ decreases" },
+              { id: "c", text: "The curve shifts to lower energies" },
+              { id: "d", text: "The curve shifts to higher energies and a larger fraction of particles has energy $\\geq E_a$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -517,12 +517,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$2.5$ cm$^3$ s$^{-1}$" },
-              { id: "b", text: "$0.40$ cm$^3$ s$^{-1}$" },
+              { id: "a", text: "$0.40$ cm$^3$ s$^{-1}$" },
+              { id: "b", text: "$2.5$ cm$^3$ s$^{-1}$" },
               { id: "c", text: "$5.0$ cm$^3$ s$^{-1}$" },
               { id: "d", text: "$250$ cm$^3$ s$^{-1}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -545,12 +545,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The gradient decreases with time because the reactant concentration falls, until the reaction is complete and the curve becomes horizontal" },
-              { id: "b", text: "The gradient increases with time as more product forms" },
-              { id: "c", text: "The curve is a straight line because the rate is constant" },
-              { id: "d", text: "The curve decreases because the gas is used up" },
+              { id: "a", text: "The curve is a straight line because the rate is constant" },
+              { id: "b", text: "The curve decreases because the gas is used up" },
+              { id: "c", text: "The gradient decreases with time because the reactant concentration falls, until the reaction is complete and the curve becomes horizontal" },
+              { id: "d", text: "The gradient increases with time as more product forms" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -574,12 +574,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The rate is proportional to the surface area of the solid — doubling the surface area doubles the rate" },
-              { id: "b", text: "The reaction is second order in the acid" },
-              { id: "c", text: "The rate is independent of surface area" },
+              { id: "a", text: "The rate is independent of surface area" },
+              { id: "b", text: "The rate is proportional to the surface area of the solid — doubling the surface area doubles the rate" },
+              { id: "c", text: "The reaction is second order in the acid" },
               { id: "d", text: "The chips in experiment B are a catalyst" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -661,8 +661,8 @@ export const lesson53: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "The instantaneous rate of reaction at that time" },
-              { id: "b", text: "The total volume of gas produced" },
-              { id: "c", text: "The activation energy of the reaction" },
+              { id: "b", text: "The activation energy of the reaction" },
+              { id: "c", text: "The total volume of gas produced" },
               { id: "d", text: "The enthalpy change of the reaction" },
             ],
             correctChoiceId: "a",
@@ -742,12 +742,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The reactant is completely consumed, so the rate falls to zero" },
-              { id: "b", text: "The reaction reaches equilibrium with equal forward and reverse rates" },
+              { id: "a", text: "The reaction reaches equilibrium with equal forward and reverse rates" },
+              { id: "b", text: "The product begins to inhibit the reaction" },
               { id: "c", text: "The temperature of the mixture falls to room temperature" },
-              { id: "d", text: "The product begins to inhibit the reaction" },
+              { id: "d", text: "The reactant is completely consumed, so the rate falls to zero" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -793,12 +793,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "At the start the reactant concentrations are known and have not changed significantly, so the rate corresponds to the stated concentrations" },
-              { id: "b", text: "The rate is always fastest at the end of the reaction" },
-              { id: "c", text: "Later measurements are impossible to make" },
-              { id: "d", text: "The initial rate equals the activation energy" },
+              { id: "a", text: "The initial rate equals the activation energy" },
+              { id: "b", text: "Later measurements are impossible to make" },
+              { id: "c", text: "At the start the reactant concentrations are known and have not changed significantly, so the rate corresponds to the stated concentrations" },
+              { id: "d", text: "The rate is always fastest at the end of the reaction" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

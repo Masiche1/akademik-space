@@ -55,12 +55,12 @@ export const lesson103: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Pyramid of energy" },
-              { id: "b", text: "Pyramid of numbers" },
-              { id: "c", text: "Pyramid of biomass" },
-              { id: "d", text: "All can be inverted" },
+              { id: "a", text: "Pyramid of numbers" },
+              { id: "b", text: "Pyramid of biomass" },
+              { id: "c", text: "All can be inverted" },
+              { id: "d", text: "Pyramid of energy" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -141,6 +141,304 @@ export const lesson103: Lesson = {
             commonErrors: ["In (c) using a normal pyramid example — need inversion."],
           },
         },
+        {
+          id: "olbio-u10-pyramids-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "What does a pyramid of biomass show?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Population growth rate" },
+              { id: "b", text: "Energy transferred at each level" },
+              { id: "c", text: "Dry mass of organisms at each trophic level" },
+              { id: "d", text: "Number of organisms at each level" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              { kind: "definition", name: "Pyramid of biomass", statement: "Shows the dry mass of organisms at each trophic level." },
+            ],
+            steps: [
+              { reasoning: "Recall what biomass measures.", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(b)** Dry mass of organisms at each trophic level",
+            commonErrors: ["Confusing biomass with numbers or energy."],
+          },
+        },
+        {
+          id: "olbio-u10-pyramids-q6",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Which pyramid can be inverted?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Pyramid of energy only" },
+              { id: "b", text: "All three always" },
+              { id: "c", text: "Pyramid of numbers and sometimes biomass" },
+              { id: "d", text: "None" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Pyramid shape", statement: "Energy always decreases upward; numbers and biomass can invert." },
+            ],
+            steps: [
+              { reasoning: "Recall which pyramids can invert.", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(b)** Pyramid of numbers and sometimes biomass",
+            commonErrors: ["Choosing energy — it cannot invert."],
+          },
+        },
+        {
+          id: "olbio-u10-pyramids-q7",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Why is a food web more stable than a single food chain?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Organisms have alternative food sources if one is lost" },
+              { id: "b", text: "It always has more producers" },
+              { id: "c", text: "It has fewer feeding relationships" },
+              { id: "d", text: "It removes decomposers" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Food web stability", statement: "Interconnected chains provide alternative feeding routes." },
+            ],
+            steps: [
+              { reasoning: "Recall the stability advantage.", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(b)** Organisms have alternative food sources if one is lost",
+            commonErrors: ["Saying food webs are less realistic — they are more realistic."],
+          },
+        },
+        {
+          id: "olbio-u10-pyramids-q8",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Most energy is lost between trophic levels because it is used for:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Storing in bones" },
+              { id: "b", text: "Respiration, movement and excretion as well as heat loss" },
+              { id: "c", text: "Making new DNA only" },
+              { id: "d", text: "Only reproduction" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Energy loss", statement: "Energy is lost as heat and used for respiration, movement and excretion." },
+            ],
+            steps: [
+              { reasoning: "Recall where energy goes.", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(b)** Respiration, movement and excretion as well as heat loss",
+            commonErrors: ["Saying energy is destroyed — it is lost as unusable heat."],
+          },
+        },
+        {
+          id: "olbio-u10-pyramids-q9",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Which statement about the pyramid of energy is correct?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "It is the same as biomass" },
+              { id: "b", text: "It can be inverted in some ecosystems" },
+              { id: "c", text: "It shows the number of individuals" },
+              { id: "d", text: "It always decreases upward because energy is lost" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Energy pyramid", statement: "Energy always decreases upward due to losses." },
+            ],
+            steps: [
+              { reasoning: "Recall the defining feature.", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(b)** It always decreases upward because energy is lost",
+            commonErrors: ["Confusing it with pyramid of numbers."],
+          },
+        },
+        {
+          id: "olbio-u10-pyramids-q10",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "An energy pyramid has 10 000 units at the producer level. Enter the energy at the primary, secondary and tertiary consumer levels after 10% transfers.",
+          response: {
+            type: "numeric",
+            parts: [
+              { label: "a", answer: 1000, unit: "units" },
+              { label: "b", answer: 100, unit: "units" },
+              { label: "c", answer: 10, unit: "units" },
+            ],
+          },
+          markscheme: {
+            principles: [
+              { kind: "formula", name: "10% rule", statement: "Each level receives 10% of the energy below it." },
+            ],
+            steps: [
+              { reasoning: "First transfer.", working: "10000 × 0.10 = 1000", marks: 1, markCode: "M" },
+              { reasoning: "Second transfer.", working: "1000 × 0.10 = 100", marks: 1, markCode: "M" },
+              { reasoning: "Third transfer.", working: "100 × 0.10 = 10", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "Primary = 1000; secondary = 100; tertiary = 10",
+            commonErrors: ["Applying 10% only once for all levels."],
+          },
+        },
+        {
+          id: "olbio-u10-pyramids-q11",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "In a pyramid of numbers for one oak tree, there is 1 producer, 200 caterpillars and 5 woodpeckers. Enter the number of organisms at the producer, primary consumer and top consumer levels.",
+          response: {
+            type: "numeric",
+            parts: [
+              { label: "a", answer: 1, unit: "tree" },
+              { label: "b", answer: 200, unit: "caterpillars" },
+              { label: "c", answer: 5, unit: "woodpeckers" },
+            ],
+          },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Pyramid of numbers", statement: "It counts organisms at each trophic level." },
+            ],
+            steps: [
+              { reasoning: "Identify producer count.", working: "1 \\text{ tree}", marks: 1, markCode: "M" },
+              { reasoning: "Identify primary consumer count.", working: "200 \\text{ caterpillars}", marks: 1, markCode: "M" },
+              { reasoning: "Identify top consumer count.", working: "5 \\text{ woodpeckers}", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "Producer = 1; primary consumer = 200; top consumer = 5",
+            commonErrors: ["Summing all organisms — each level is counted separately."],
+          },
+        },
+        {
+          id: "olbio-u10-pyramids-q12",
+          difficulty: "challenge",
+          totalMarks: 2,
+          stem: "A biomass pyramid has 200 kg at producer level, 20 kg at primary consumer level and 2 kg at secondary consumer level. Enter the percentage of producer biomass present at the primary and secondary consumer levels.",
+          response: {
+            type: "numeric",
+            parts: [
+              { label: "a", answer: 10, unit: "%" },
+              { label: "b", answer: 1, unit: "%" },
+            ],
+          },
+          markscheme: {
+            principles: [
+              { kind: "formula", name: "Biomass percentage", statement: "Level percentage = level biomass / producer biomass × 100." },
+            ],
+            steps: [
+              { reasoning: "Calculate primary consumer percentage.", working: "20/200 × 100 = 10", marks: 1, markCode: "M" },
+              { reasoning: "Calculate secondary consumer percentage.", working: "2/200 × 100 = 1", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "Primary = 10%; secondary = 1%",
+            commonErrors: ["Comparing to the level below instead of the producer."],
+          },
+        },
+        {
+          id: "olbio-u10-pyramids-q13",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "If the first trophic level has 5000 units of energy, how many units reach the third trophic level after two 10% transfers?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 50, unit: "units" }],
+          },
+          markscheme: {
+            principles: [
+              { kind: "formula", name: "10% rule", statement: "Two transfers multiply energy by 0.10 twice." },
+            ],
+            steps: [
+              { reasoning: "Apply two successive transfers.", working: "5000 × (0.10)^2 = 50", marks: 1, markCode: "M" },
+            ],
+            finalAnswer: "50 units",
+            commonErrors: ["Applying only one transfer."],
+          },
+        },
+        {
+          id: "olbio-u10-pyramids-q14",
+          difficulty: "challenge",
+          totalMarks: 3,
+          stem: "One oak tree supports 200 caterpillars and 5 woodpeckers. Enter the number of organisms at the producer, primary consumer and top consumer levels of the numbers pyramid.",
+          response: {
+            type: "numeric",
+            parts: [
+              { label: "a", answer: 1, unit: "oak" },
+              { label: "b", answer: 200, unit: "caterpillars" },
+              { label: "c", answer: 5, unit: "woodpeckers" },
+            ],
+          },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Inverted numbers pyramid", statement: "One producer can support many more herbivores." },
+            ],
+            steps: [
+              { reasoning: "Producer level count.", working: "1", marks: 1, markCode: "M" },
+              { reasoning: "Primary consumer level count.", working: "200", marks: 1, markCode: "M" },
+              { reasoning: "Top consumer level count.", working: "5", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "1 oak; 200 caterpillars; 5 woodpeckers",
+            commonErrors: ["Assuming every pyramid must narrow upward."],
+          },
+        },
+        {
+          id: "olbio-u10-pyramids-q15",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Which pyramid measures the dry mass of organisms at each trophic level?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Pyramid of biomass" },
+              { id: "b", text: "Pyramid of numbers" },
+              { id: "c", text: "Food web" },
+              { id: "d", text: "Pyramid of energy" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              { kind: "definition", name: "Pyramid of biomass", statement: "Biomass = dry mass of living organisms." },
+            ],
+            steps: [
+              { reasoning: "Match the measure to the pyramid.", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(b)** Pyramid of biomass",
+            commonErrors: ["Choosing numbers — that counts organisms, not mass."],
+          },
+        },
+        {
+          id: "olbio-u10-pyramids-q16",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "Explain why a food web gives a more realistic picture of an ecosystem than a food chain.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Food webs", statement: "Real feeding relationships are interconnected, not linear." },
+            ],
+            steps: [
+              { reasoning: "Organisms eat more than one type of food.", working: "\\text{many prey}", marks: 1, markCode: "M" },
+              { reasoning: "Organisms are eaten by more than one predator.", working: "\\text{many predators}", marks: 1, markCode: "M" },
+              { reasoning: "Alternative routes make the ecosystem more stable.", working: "\\text{stability}", marks: 1, markCode: "M" },
+              { reasoning: "Conclude it is more realistic than a single chain.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "A food web shows that organisms eat many different things and are eaten by many predators, giving alternative feeding routes and greater stability — making it more realistic than a single linear food chain.",
+            commonErrors: ["Only saying it has more arrows without explaining realism/stability."],
+          },
+        },
       ],
     },
     {
@@ -178,9 +476,9 @@ export const lesson103: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Maximum population size the environment can sustain" },
-              { id: "b", text: "Rate of population growth" },
-              { id: "c", text: "Number of species present" },
-              { id: "d", text: "Total biomass of producers" },
+              { id: "b", text: "Total biomass of producers" },
+              { id: "c", text: "Rate of population growth" },
+              { id: "d", text: "Number of species present" },
             ],
             correctChoiceId: "a",
           },
@@ -261,6 +559,286 @@ export const lesson103: Lesson = {
             ],
             finalAnswer: "(a) square frame, count/cover (b) random = unbiased, representative (c) frequency/cover → estimate population/distribution",
             commonErrors: ["In (b) saying 'to cover more area' — it's about avoiding bias."],
+          },
+        },
+        {
+          id: "olbio-u10-population-sampling-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "What happens during the lag phase of population growth?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Rapid exponential growth" },
+              { id: "b", text: "Slow growth while organisms adapt to the environment" },
+              { id: "c", text: "Population declines rapidly" },
+              { id: "d", text: "Population reaches carrying capacity" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Lag phase", statement: "Growth is slow at first while organisms adjust." },
+            ],
+            steps: [
+              { reasoning: "Recall the lag phase.", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(b)** Slow growth while organisms adapt to the environment",
+            commonErrors: ["Choosing rapid growth — that is the log phase."],
+          },
+        },
+        {
+          id: "olbio-u10-population-sampling-q6",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "During which phase does population growth become rapid and exponential?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Logarithmic/exponential phase" },
+              { id: "b", text: "Stationary phase" },
+              { id: "c", text: "Death phase" },
+              { id: "d", text: "Lag phase" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Log phase", statement: "Resources are abundant and growth is exponential." },
+            ],
+            steps: [
+              { reasoning: "Recall the exponential phase.", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(b)** Logarithmic/exponential phase",
+            commonErrors: ["Choosing stationary — growth slows there."],
+          },
+        },
+        {
+          id: "olbio-u10-population-sampling-q7",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "What defines the stationary phase of population growth?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Growth slows as the population approaches carrying capacity" },
+              { id: "b", text: "All organisms reproduce at once" },
+              { id: "c", text: "The population becomes extinct" },
+              { id: "d", text: "Population grows without limit" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Stationary phase", statement: "Births roughly equal deaths near carrying capacity." },
+            ],
+            steps: [
+              { reasoning: "Recall the stationary phase.", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(b)** Growth slows as the population approaches carrying capacity",
+            commonErrors: ["Choosing unlimited growth — resources limit it."],
+          },
+        },
+        {
+          id: "olbio-u10-population-sampling-q8",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "What is a limiting factor?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "The environmental factor in shortest supply that limits population size" },
+              { id: "b", text: "A factor that speeds population growth" },
+              { id: "c", text: "A predator at the top of a food chain" },
+              { id: "d", text: "The total number of species" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              { kind: "definition", name: "Limiting factor", statement: "The factor in shortest supply controls population size." },
+            ],
+            steps: [
+              { reasoning: "Recall the definition.", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(b)** The environmental factor in shortest supply that limits population size",
+            commonErrors: ["Choosing any factor — only the shortest-supply factor limits."],
+          },
+        },
+        {
+          id: "olbio-u10-population-sampling-q9",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Which organisms are most suitable for sampling with a quadrat?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Migrating fish" },
+              { id: "b", text: "Sessile plants and slow-moving animals" },
+              { id: "c", text: "Fast-moving birds" },
+              { id: "d", text: "Flying insects" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Quadrat use", statement: "Quadrats suit stationary or slow-moving organisms." },
+            ],
+            steps: [
+              { reasoning: "Choose organisms that stay in the frame.", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(b)** Sessile plants and slow-moving animals",
+            commonErrors: ["Choosing fast movers — they leave the quadrat."],
+          },
+        },
+        {
+          id: "olbio-u10-population-sampling-q10",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "A quadrat of area 0.25 m² contains 18 daisies. Calculate the density per square metre.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 72, unit: "daisies/m²" }],
+          },
+          markscheme: {
+            principles: [
+              { kind: "formula", name: "Density", statement: "Density = count / area." },
+            ],
+            steps: [
+              { reasoning: "Divide count by quadrat area.", working: "18 / 0.25 = 72", marks: 1, markCode: "M" },
+            ],
+            finalAnswer: "72 daisies/m²",
+            commonErrors: ["Multiplying by area instead of dividing."],
+          },
+        },
+        {
+          id: "olbio-u10-population-sampling-q11",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Ten 1 m² quadrats record plant counts of 4, 7, 5, 9, 6, 8, 3, 7, 5 and 6. Calculate the mean number per quadrat.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 6, unit: "plants" }],
+          },
+          markscheme: {
+            principles: [
+              { kind: "formula", name: "Mean", statement: "Mean = total count / number of quadrats." },
+            ],
+            steps: [
+              { reasoning: "Sum the counts and divide by 10.", working: "60 / 10 = 6", marks: 1, markCode: "M" },
+            ],
+            finalAnswer: "6 plants per quadrat",
+            commonErrors: ["Dividing by the wrong number of quadrats."],
+          },
+        },
+        {
+          id: "olbio-u10-population-sampling-q12",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "A quadrat is divided into 100 squares and a plant covers 25 of them. Calculate the percentage cover.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 25, unit: "%" }],
+          },
+          markscheme: {
+            principles: [
+              { kind: "formula", name: "Percentage cover", statement: "Cover = covered squares / total squares × 100." },
+            ],
+            steps: [
+              { reasoning: "Calculate the percentage.", working: "25/100 × 100 = 25", marks: 1, markCode: "M" },
+            ],
+            finalAnswer: "25%",
+            commonErrors: ["Giving 25 plants instead of a percentage."],
+          },
+        },
+        {
+          id: "olbio-u10-population-sampling-q13",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "A species is present in 8 out of 10 quadrats. Calculate its frequency as a percentage.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 80, unit: "%" }],
+          },
+          markscheme: {
+            principles: [
+              { kind: "formula", name: "Frequency", statement: "Frequency = quadrats containing species / total quadrats × 100." },
+            ],
+            steps: [
+              { reasoning: "Calculate the percentage frequency.", working: "8/10 × 100 = 80", marks: 1, markCode: "M" },
+            ],
+            finalAnswer: "80%",
+            commonErrors: ["Reporting 8 as a percentage instead of 80%."],
+          },
+        },
+        {
+          id: "olbio-u10-population-sampling-q14",
+          difficulty: "challenge",
+          totalMarks: 2,
+          stem: "A 0.5 m² quadrat contains 12 grass plants, and the field area is 200 m². Enter the density per m² and the estimated total population.",
+          response: {
+            type: "numeric",
+            parts: [
+              { label: "a", answer: 24, unit: "plants/m²" },
+              { label: "b", answer: 4800, unit: "plants" },
+            ],
+          },
+          markscheme: {
+            principles: [
+              { kind: "formula", name: "Population estimate", statement: "Density = count/area; population = density × total area." },
+            ],
+            steps: [
+              { reasoning: "Calculate density from the quadrat.", working: "12 / 0.5 = 24", marks: 1, markCode: "M" },
+              { reasoning: "Scale density to the field area.", working: "24 × 200 = 4800", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "Density = 24 plants/m²; estimated population = 4800 plants",
+            commonErrors: ["Forgetting to convert quadrat area before scaling up."],
+          },
+        },
+        {
+          id: "olbio-u10-population-sampling-q15",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Why are quadrats placed randomly during sampling?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "To kill the organisms" },
+              { id: "b", text: "To make counting easier" },
+              { id: "c", text: "To avoid bias and obtain a representative sample" },
+              { id: "d", text: "To cover the whole habitat every time" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Random sampling", statement: "Random placement reduces bias and represents the whole area." },
+            ],
+            steps: [
+              { reasoning: "Recall the reason for randomness.", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(b)** To avoid bias and obtain a representative sample",
+            commonErrors: ["Saying it is for convenience — it is for validity."],
+          },
+        },
+        {
+          id: "olbio-u10-population-sampling-q16",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "Describe how a quadrat is used to estimate the population of a plant species.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Quadrat sampling", statement: "Random quadrats → count/cover → calculate density/frequency → scale up." },
+            ],
+            steps: [
+              { reasoning: "Place a square frame randomly in the habitat.", working: "\\text{random quadrat}", marks: 1, markCode: "M" },
+              { reasoning: "Count individuals or estimate percentage cover.", working: "\\text{count/cover}", marks: 1, markCode: "M" },
+              { reasoning: "Repeat several times and calculate mean density or frequency.", working: "\\text{mean}", marks: 1, markCode: "M" },
+              { reasoning: "Scale the density to the total area to estimate population.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "Place square quadrats randomly, count the target plants or estimate cover, repeat across the area, calculate mean density/frequency, then multiply density by total area to estimate the population.",
+            commonErrors: ["Forgetting random placement or using only one quadrat."],
           },
         },
       ],

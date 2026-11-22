@@ -50,12 +50,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$0.2$" },
-              { id: "b", text: "$0.9$" },
-              { id: "c", text: "$0.1$" },
+              { id: "a", text: "$0.9$" },
+              { id: "b", text: "$0.1$" },
+              { id: "c", text: "$0.2$" },
               { id: "d", text: "$0.4$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -176,8 +176,8 @@ export const lesson42: Lesson = {
             choices: [
               { id: "a", text: "$0.18$" },
               { id: "b", text: "$0.9$" },
-              { id: "c", text: "$0.3$" },
-              { id: "d", text: "$0$" },
+              { id: "c", text: "$0$" },
+              { id: "d", text: "$0.3$" },
             ],
             correctChoiceId: "a",
           },
@@ -229,12 +229,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$0.8$" },
-              { id: "b", text: "$0.1575$" },
-              { id: "c", text: "$0$" },
-              { id: "d", text: "$1$" },
+              { id: "a", text: "$0.1575$" },
+              { id: "b", text: "$0$" },
+              { id: "c", text: "$1$" },
+              { id: "d", text: "$0.8$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -284,12 +284,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Yes, because $\\mathrm{P}(A \\cap B) = \\mathrm{P}(A)\\mathrm{P}(B)$" },
-              { id: "b", text: "No, because $\\mathrm{P}(A \\cap B) \\neq 0$" },
-              { id: "c", text: "No, because $\\mathrm{P}(A \\cap B) \\neq \\mathrm{P}(A) + \\mathrm{P}(B)$" },
-              { id: "d", text: "Cannot be determined from the information given" },
+              { id: "a", text: "No, because $\\mathrm{P}(A \\cap B) \\neq 0$" },
+              { id: "b", text: "Cannot be determined from the information given" },
+              { id: "c", text: "Yes, because $\\mathrm{P}(A \\cap B) = \\mathrm{P}(A)\\mathrm{P}(B)$" },
+              { id: "d", text: "No, because $\\mathrm{P}(A \\cap B) \\neq \\mathrm{P}(A) + \\mathrm{P}(B)$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -371,12 +371,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\dfrac{\\mathrm{P}(A\\cap B)}{\\mathrm{P}(B)}$" },
+              { id: "a", text: "$\\dfrac{\\mathrm{P}(A\\cup B)}{\\mathrm{P}(B)}$" },
               { id: "b", text: "$\\dfrac{\\mathrm{P}(A\\cap B)}{\\mathrm{P}(A)}$" },
-              { id: "c", text: "$\\dfrac{\\mathrm{P}(A\\cup B)}{\\mathrm{P}(B)}$" },
-              { id: "d", text: "$\\mathrm{P}(A)\\,\\mathrm{P}(B)$" },
+              { id: "c", text: "$\\mathrm{P}(A)\\,\\mathrm{P}(B)$" },
+              { id: "d", text: "$\\dfrac{\\mathrm{P}(A\\cap B)}{\\mathrm{P}(B)}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -399,12 +399,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$0.3$" },
-              { id: "b", text: "$0.5$" },
+              { id: "a", text: "$0.15$" },
+              { id: "b", text: "$0.3$" },
               { id: "c", text: "$0.45$" },
-              { id: "d", text: "$0.15$" },
+              { id: "d", text: "$0.5$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -454,12 +454,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$0.82$" },
-              { id: "b", text: "$0.98$" },
-              { id: "c", text: "$0.28$" },
-              { id: "d", text: "$0.7$" },
+              { id: "a", text: "$0.7$" },
+              { id: "b", text: "$0.82$" },
+              { id: "c", text: "$0.98$" },
+              { id: "d", text: "$0.28$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -540,9 +540,9 @@ export const lesson42: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$0.1$" },
-              { id: "b", text: "$0.25$" },
-              { id: "c", text: "$0.4$" },
-              { id: "d", text: "$0.01$" },
+              { id: "b", text: "$0.4$" },
+              { id: "c", text: "$0.01$" },
+              { id: "d", text: "$0.25$" },
             ],
             correctChoiceId: "a",
           },
@@ -662,11 +662,11 @@ export const lesson42: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$0.9$" },
-              { id: "b", text: "$1.1$" },
-              { id: "c", text: "$1.3$" },
+              { id: "b", text: "$1.3$" },
+              { id: "c", text: "$1.1$" },
               { id: "d", text: "$0.7$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -689,12 +689,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$0.3$" },
-              { id: "b", text: "$0.7$" },
+              { id: "a", text: "$0.8$" },
+              { id: "b", text: "$0.3$" },
               { id: "c", text: "$0.5$" },
-              { id: "d", text: "$0.8$" },
+              { id: "d", text: "$0.7$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -799,10 +799,10 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\mathrm{P}(X=1)=0.3$, $\\mathrm{P}(X=2)=0.5$, $\\mathrm{P}(X=3)=0.4$" },
+              { id: "a", text: "$\\mathrm{P}(X=1)=-0.1$, $\\mathrm{P}(X=2)=0.6$, $\\mathrm{P}(X=3)=0.5$" },
               { id: "b", text: "$\\mathrm{P}(X=1)=0.2$, $\\mathrm{P}(X=2)=0.3$, $\\mathrm{P}(X=3)=0.5$" },
               { id: "c", text: "$\\mathrm{P}(X=1)=0.6$, $\\mathrm{P}(X=2)=0.5$, $\\mathrm{P}(X=3)=0.1$" },
-              { id: "d", text: "$\\mathrm{P}(X=1)=-0.1$, $\\mathrm{P}(X=2)=0.6$, $\\mathrm{P}(X=3)=0.5$" },
+              { id: "d", text: "$\\mathrm{P}(X=1)=0.3$, $\\mathrm{P}(X=2)=0.5$, $\\mathrm{P}(X=3)=0.4$" },
             ],
             correctChoiceId: "b",
           },
@@ -827,12 +827,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$3$" },
-              { id: "b", text: "$1$" },
-              { id: "c", text: "$7$" },
-              { id: "d", text: "$-1$" },
+              { id: "a", text: "$1$" },
+              { id: "b", text: "$7$" },
+              { id: "c", text: "$-1$" },
+              { id: "d", text: "$3$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -887,9 +887,9 @@ export const lesson42: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$-\\$0.30$" },
-              { id: "b", text: "$\\$0.30$" },
+              { id: "b", text: "$-\\$0.70$" },
               { id: "c", text: "$\\$1.70$" },
-              { id: "d", text: "$-\\$0.70$" },
+              { id: "d", text: "$\\$0.30$" },
             ],
             correctChoiceId: "a",
           },
@@ -973,12 +973,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$10.5$" },
-              { id: "b", text: "$4.5$" },
-              { id: "c", text: "$7.5$" },
-              { id: "d", text: "$11$" },
+              { id: "a", text: "$4.5$" },
+              { id: "b", text: "$11$" },
+              { id: "c", text: "$10.5$" },
+              { id: "d", text: "$7.5$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

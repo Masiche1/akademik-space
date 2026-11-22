@@ -49,12 +49,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$300$ people per square mile" },
-              { id: "b", text: "$1{,}080{,}000$ people per square mile" },
+              { id: "a", text: "$1{,}080{,}000$ people per square mile" },
+              { id: "b", text: "$300$ people per square mile" },
               { id: "c", text: "$18{,}060$ people per square mile" },
               { id: "d", text: "$3{,}000$ people per square mile" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -174,9 +174,9 @@ export const lesson53: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "A circle congruent to the base" },
-              { id: "b", text: "A rectangle" },
-              { id: "c", text: "A triangle" },
-              { id: "d", text: "An ellipse" },
+              { id: "b", text: "A triangle" },
+              { id: "c", text: "An ellipse" },
+              { id: "d", text: "A rectangle" },
             ],
             correctChoiceId: "a",
           },

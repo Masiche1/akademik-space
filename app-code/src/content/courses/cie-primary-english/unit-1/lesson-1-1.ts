@@ -44,8 +44,11 @@ export const lesson11: Lesson = {
           totalMarks: 1,
           stem: "What sound does the letter 'm' make?",
           response: { type: "mcq", choices: [
-            { id: "a", text: "/k/" }, { id: "b", text: "/m/" }, { id: "c", text: "/s/" }, { id: "d", text: "/t/" },
-          ], correctChoiceId: "b" },
+            { id: "a", text: "/t/" },
+            { id: "b", text: "/s/" },
+            { id: "c", text: "/k/" },
+            { id: "d", text: "/m/" },
+          ], correctChoiceId: "d" },
           markscheme: {
             principles: [{ kind: "definition", name: "Letter sound", statement: "Each letter has a sound." }],
             steps: [{ reasoning: "The letter m makes the /m/ sound.", marks: 1, markCode: "AO1" }],
@@ -58,8 +61,11 @@ export const lesson11: Lesson = {
           totalMarks: 1,
           stem: "Blend the sounds d-o-g to make a word.",
           response: { type: "mcq", choices: [
-            { id: "a", text: "dig" }, { id: "b", text: "dog" }, { id: "c", text: "dot" }, { id: "d", text: "log" },
-          ], correctChoiceId: "b" },
+            { id: "a", text: "dig" },
+            { id: "b", text: "log" },
+            { id: "c", text: "dot" },
+            { id: "d", text: "dog" },
+          ], correctChoiceId: "d" },
           markscheme: {
             principles: [{ kind: "skill", name: "Blending", statement: "Push sounds together to read." }],
             steps: [{ reasoning: "/d/ /o/ /g/ blends to dog.", marks: 1, markCode: "AO1" }],
@@ -103,8 +109,11 @@ export const lesson11: Lesson = {
           totalMarks: 1,
           stem: "What sound does the letter 's' make at the start of 'sun'?",
           response: { type: "mcq", choices: [
-            { id: "a", text: "/m/" }, { id: "b", text: "/s/" }, { id: "c", text: "/f/" }, { id: "d", text: "/z/" },
-          ], correctChoiceId: "b" },
+            { id: "a", text: "/s/" },
+            { id: "b", text: "/m/" },
+            { id: "c", text: "/f/" },
+            { id: "d", text: "/z/" },
+          ], correctChoiceId: "a" },
           markscheme: {
             principles: [{ kind: "definition", name: "Letter sound", statement: "Each letter has a sound." }],
             steps: [{ reasoning: "The letter s makes the /s/ sound.", marks: 1, markCode: "AO1" }],
@@ -117,7 +126,10 @@ export const lesson11: Lesson = {
           totalMarks: 1,
           stem: "Blend the sounds c-a-t to make a word.",
           response: { type: "mcq", choices: [
-            { id: "a", text: "cot" }, { id: "b", text: "cap" }, { id: "c", text: "cat" }, { id: "d", text: "cut" },
+            { id: "a", text: "cut" },
+            { id: "b", text: "cap" },
+            { id: "c", text: "cat" },
+            { id: "d", text: "cot" },
           ], correctChoiceId: "c" },
           markscheme: {
             principles: [{ kind: "skill", name: "Blending", statement: "Push sounds together to read." }],
@@ -146,8 +158,11 @@ export const lesson11: Lesson = {
           totalMarks: 1,
           stem: "Which word has the /sh/ sound?",
           response: { type: "mcq", choices: [
-            { id: "a", text: "cat" }, { id: "b", text: "ship" }, { id: "c", text: "dog" }, { id: "d", text: "hat" },
-          ], correctChoiceId: "b" },
+            { id: "a", text: "hat" },
+            { id: "b", text: "cat" },
+            { id: "c", text: "ship" },
+            { id: "d", text: "dog" },
+          ], correctChoiceId: "c" },
           markscheme: {
             principles: [{ kind: "definition", name: "Digraph", statement: "Two letters that make one sound." }],
             steps: [{ reasoning: "'sh' in ship makes the /sh/ sound.", marks: 1, markCode: "AO1" }],
@@ -175,8 +190,11 @@ export const lesson11: Lesson = {
           totalMarks: 1,
           stem: "Which two letters make the /ch/ sound in 'chip'?",
           response: { type: "mcq", choices: [
-            { id: "a", text: "sh" }, { id: "b", text: "th" }, { id: "c", text: "ch" }, { id: "d", text: "ck" },
-          ], correctChoiceId: "c" },
+            { id: "a", text: "th" },
+            { id: "b", text: "sh" },
+            { id: "c", text: "ck" },
+            { id: "d", text: "ch" },
+          ], dorrectChoiceId: "c" },
           markscheme: {
             principles: [{ kind: "definition", name: "Digraph", statement: "Two letters that make one sound." }],
             steps: [{ reasoning: "'ch' makes the /ch/ sound.", marks: 1, markCode: "AO1" }],
@@ -205,8 +223,11 @@ export const lesson11: Lesson = {
           totalMarks: 1,
           stem: "Which letter makes the /b/ sound?",
           response: { type: "mcq", choices: [
-            { id: "a", text: "p" }, { id: "b", text: "d" }, { id: "c", text: "b" }, { id: "d", text: "g" },
-          ], correctChoiceId: "c" },
+            { id: "a", text: "g" },
+            { id: "b", text: "d" },
+            { id: "c", text: "p" },
+            { id: "d", text: "b" },
+          ], dorrectChoiceId: "c" },
           markscheme: {
             principles: [{ kind: "definition", name: "Letter sound", statement: "Each letter has a sound." }],
             steps: [{ reasoning: "The letter b makes the /b/ sound.", marks: 1, markCode: "AO1" }],
@@ -235,8 +256,11 @@ export const lesson11: Lesson = {
           totalMarks: 1,
           stem: "Which word starts with the /n/ sound?",
           response: { type: "mcq", choices: [
-            { id: "a", text: "net" }, { id: "b", text: "map" }, { id: "c", text: "sit" }, { id: "d", text: "top" },
-          ], correctChoiceId: "a" },
+            { id: "a", text: "sit" },
+            { id: "b", text: "top" },
+            { id: "c", text: "map" },
+            { id: "d", text: "net" },
+          ], correctChoiceId: "d" },
           markscheme: {
             principles: [{ kind: "skill", name: "Initial sounds", statement: "Listen to the first sound of a word." }],
             steps: [{ reasoning: "'net' starts with the /n/ sound.", marks: 1, markCode: "AO1" }],
@@ -304,7 +328,10 @@ export const lesson11: Lesson = {
           totalMarks: 1,
           stem: "What should you do when someone is speaking to you?",
           response: { type: "mcq", choices: [
-            { id: "a", text: "Talk over them" }, { id: "b", text: "Look away" }, { id: "c", text: "Listen and look at them" }, { id: "d", text: "Leave the room" },
+            { id: "a", text: "Look away" },
+            { id: "b", text: "Leave the room" },
+            { id: "c", text: "Listen and look at them" },
+            { id: "d", text: "Talk over them" },
           ], correctChoiceId: "c" },
           markscheme: {
             principles: [{ kind: "convention", name: "Listening", statement: "Look at the speaker and listen." }],
@@ -318,8 +345,11 @@ export const lesson11: Lesson = {
           totalMarks: 1,
           stem: "Which is a complete sentence?",
           response: { type: "mcq", choices: [
-            { id: "a", text: "The dog" }, { id: "b", text: "Ran fast" }, { id: "c", text: "The dog ran fast." }, { id: "d", text: "Big red" },
-          ], correctChoiceId: "c" },
+            { id: "a", text: "Ran fast" },
+            { id: "b", text: "The dog" },
+            { id: "c", text: "Big red" },
+            { id: "d", text: "The dog ran fast." },
+          ], dorrectChoiceId: "c" },
           markscheme: {
             principles: [{ kind: "convention", name: "Sentence", statement: "A sentence needs a subject and a verb." }],
             steps: [{ reasoning: "The dog ran fast has a subject (dog) and verb (ran) and ends with a full stop.", marks: 1, markCode: "AO2" }],
@@ -355,6 +385,198 @@ export const lesson11: Lesson = {
               { reasoning: "Speak clearly and look at your listener.", marks: 1, markCode: "AO5" },
             ],
             finalAnswer: "Clear, detailed sentences",
+          },
+        },
+        {
+          id: "cipe-u1-s1-sp-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "When you are speaking to a group, what should you do?",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "Mumble quietly" },
+            { id: "b", text: "Face the wall" },
+            { id: "c", text: "Talk as fast as possible" },
+            { id: "d", text: "Speak clearly so everyone can hear" },
+          ], correctChoiceId: "d" },
+          markscheme: {
+            principles: [{ kind: "convention", name: "Speaking clearly", statement: "Use a clear voice for listeners." }],
+            steps: [{ reasoning: "A clear voice lets everyone hear and understand.", marks: 1, markCode: "AO5" }],
+            finalAnswer: "Speak clearly",
+          },
+        },
+        {
+          id: "cipe-u1-s1-sp-q6",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Which is the best way to show you are listening to someone?",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "Look at them and think about their words" },
+            { id: "b", text: "Look out of the window" },
+            { id: "c", text: "Whisper to a friend" },
+            { id: "d", text: "Play with your pencil" },
+          ], correctChoiceId: "a" },
+          markscheme: {
+            principles: [{ kind: "convention", name: "Listening", statement: "Look at the speaker and think." }],
+            steps: [{ reasoning: "Looking at the speaker and thinking shows you are listening.", marks: 1, markCode: "AO5" }],
+            finalAnswer: "Look and think",
+          },
+        },
+        {
+          id: "cipe-u1-s1-sp-q7",
+          difficulty: "foundation",
+          totalMarks: 2,
+          stem: "Give two things a good speaker does.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [{ kind: "skill", name: "Speaking", statement: "Good speakers are clear and organised." }],
+            steps: [
+              { reasoning: "e.g. uses a clear voice and faces the listeners.", marks: 1, markCode: "AO5" },
+              { reasoning: "e.g. speaks in full sentences and stays on topic.", marks: 1, markCode: "AO5" },
+            ],
+            finalAnswer: "e.g. clear voice, full sentences",
+          },
+        },
+        {
+          id: "cipe-u1-s1-sp-q8",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "A friend says 'My birthday is on Saturday.' What is the best response?",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "Ignore them" },
+            { id: "b", text: "Change the subject" },
+            { id: "c", text: "Ask them a question about it" },
+            { id: "d", text: "Talk about your own birthday" },
+          ], correctChoiceId: "c" },
+          markscheme: {
+            principles: [{ kind: "skill", name: "Responding", statement: "Respond to what was actually said." }],
+            steps: [{ reasoning: "Asking a question shows you heard and are interested.", marks: 1, markCode: "AO5" }],
+            finalAnswer: "Ask a question",
+          },
+        },
+        {
+          id: "cipe-u1-s1-sp-q9",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "Write one sentence you could say to start talking about your pet.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [{ kind: "skill", name: "Speaking", statement: "Use a full sentence to start." }],
+            steps: [
+              { reasoning: "The sentence is about the pet.", marks: 1, markCode: "AO2" },
+              { reasoning: "It starts with a capital letter and ends with a full stop.", marks: 1, markCode: "AO2" },
+            ],
+            finalAnswer: "e.g. 'My pet is a dog.'",
+          },
+        },
+        {
+          id: "cipe-u1-s1-sp-q10",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "How many words are in the sentence 'The big dog ran fast'?",
+          response: { type: "numeric", parts: [{ label: "a", answer: 5 }] },
+          markscheme: {
+            principles: [{ kind: "definition", name: "Sentence", statement: "Words joined to make sense." }],
+            steps: [
+              { reasoning: "Count: The, big, dog, ran, fast.", marks: 1, markCode: "AO1" },
+              { reasoning: "There are 5 words.", marks: 1, markCode: "AO1" },
+            ],
+            finalAnswer: "5",
+          },
+        },
+        {
+          id: "cipe-u1-s1-sp-q11",
+          difficulty: "challenge",
+          totalMarks: 3,
+          stem: "Explain why it is important not to interrupt when someone is speaking.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [{ kind: "context", name: "Listening", statement: "Respect the speaker and hear the whole message." }],
+            steps: [
+              { reasoning: "Interrupting stops the speaker from finishing their idea.", marks: 1, markCode: "AO5" },
+              { reasoning: "It is rude and shows you are not listening.", marks: 1, markCode: "AO5" },
+              { reasoning: "Clear, complete explanation in sentences.", marks: 1, markCode: "AO5" },
+            ],
+            finalAnswer: "It stops the speaker and is rude",
+          },
+        },
+        {
+          id: "cipe-u1-s1-sp-q12",
+          difficulty: "challenge",
+          totalMarks: 1,
+          stem: "Which sentence would you say politely when asking for something?",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "That is mine!" },
+            { id: "b", text: "Could I have that, please?" },
+            { id: "c", text: "Give me that!" },
+            { id: "d", text: "I want it now!" },
+          ], correctChoiceId: "b" },
+          markscheme: {
+            principles: [{ kind: "convention", name: "Polite language", statement: "Please and please-style requests are polite." }],
+            steps: [{ reasoning: "'Could I have that, please?' is polite and uses a question.", marks: 1, markCode: "AO5" }],
+            finalAnswer: "Could I have that, please?",
+          },
+        },
+        {
+          id: "cipe-u1-s1-sp-q13",
+          difficulty: "foundation",
+          totalMarks: 2,
+          stem: "Name two things you should do before you start speaking to an audience.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [{ kind: "skill", name: "Preparing to speak", statement: "Think and calm yourself first." }],
+            steps: [
+              { reasoning: "e.g. take a breath and think about what you will say.", marks: 1, markCode: "AO5" },
+              { reasoning: "e.g. look at your audience and speak slowly.", marks: 1, markCode: "AO5" },
+            ],
+            finalAnswer: "e.g. breathe, think of what to say",
+          },
+        },
+        {
+          id: "cipe-u1-s1-sp-q14",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "If you did not hear what someone said, what should you do?",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "Talk louder yourself" },
+            { id: "b", text: "Ask them to say it again" },
+            { id: "c", text: "Walk away" },
+            { id: "d", text: "Pretend you heard" },
+          ], correctChoiceId: "b" },
+          markscheme: {
+            principles: [{ kind: "skill", name: "Clarifying", statement: "Ask if you did not hear." }],
+            steps: [{ reasoning: "Asking for a repeat is better than guessing wrongly.", marks: 1, markCode: "AO5" }],
+            finalAnswer: "Ask them to repeat",
+          },
+        },
+        {
+          id: "cipe-u1-s1-sp-q15",
+          difficulty: "challenge",
+          totalMarks: 3,
+          stem: "Write three sentences telling a friend what you did at the weekend.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [{ kind: "skill", name: "Speaking", statement: "Full sentences with detail, in order." }],
+            steps: [
+              { reasoning: "Three complete sentences about the weekend.", marks: 1, markCode: "AO2" },
+              { reasoning: "They include details about what happened.", marks: 1, markCode: "AO2" },
+              { reasoning: "Correct capitals, full stops and spelling.", marks: 1, markCode: "AO2" },
+            ],
+            finalAnswer: "Three clear sentences",
+          },
+        },
+        {
+          id: "cipe-u1-s1-sp-q16",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "Your teacher asks 'What did you do yesterday?' Write a two-sentence answer.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [{ kind: "skill", name: "Answering questions", statement: "Answer the question asked in full sentences." }],
+            steps: [
+              { reasoning: "The answer is about yesterday's activities.", marks: 1, markCode: "AO2" },
+              { reasoning: "Two complete sentences with correct punctuation.", marks: 1, markCode: "AO2" },
+            ],
+            finalAnswer: "Two relevant sentences",
           },
         },
       ],

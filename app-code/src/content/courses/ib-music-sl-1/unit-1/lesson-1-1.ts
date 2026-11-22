@@ -57,11 +57,11 @@ export const lesson11: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "The note value that gets one beat" },
-              { id: "b", text: "The number of beats per bar" },
+              { id: "b", text: "The tempo in BPM" },
               { id: "c", text: "The number of bars per line" },
-              { id: "d", text: "The tempo in BPM" },
+              { id: "d", text: "The number of beats per bar" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -163,12 +163,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Bass clef" },
-              { id: "b", text: "Treble clef" },
-              { id: "c", text: "Alto clef" },
+              { id: "a", text: "Alto clef" },
+              { id: "b", text: "Bass clef" },
+              { id: "c", text: "Treble clef" },
               { id: "d", text: "Percussion clef" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -194,8 +194,8 @@ export const lesson11: Lesson = {
             choices: [
               { id: "a", text: "Quarter note" },
               { id: "b", text: "Eighth note" },
-              { id: "c", text: "Half note" },
-              { id: "d", text: "Sixteenth note" },
+              { id: "c", text: "Sixteenth note" },
+              { id: "d", text: "Half note" },
             ],
             correctChoiceId: "b",
           },
@@ -221,12 +221,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Simple duple metre with six beats per bar" },
-              { id: "b", text: "Compound duple metre with two beats divided into three" },
-              { id: "c", text: "Simple triple metre with three beats per bar" },
+              { id: "a", text: "Compound duple metre with two beats divided into three" },
+              { id: "b", text: "Simple triple metre with three beats per bar" },
+              { id: "c", text: "Simple duple metre with six beats per bar" },
               { id: "d", text: "Compound quadruple metre" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -252,8 +252,8 @@ export const lesson11: Lesson = {
             choices: [
               { id: "a", text: "Is the smallest possible interval" },
               { id: "b", text: "Creates a stable, blended sound with low tension" },
-              { id: "c", text: "Is always dissonant and demands resolution" },
-              { id: "d", text: "Only appears in fast music" },
+              { id: "c", text: "Only appears in fast music" },
+              { id: "d", text: "Is always dissonant and demands resolution" },
             ],
             correctChoiceId: "b",
           },
@@ -279,12 +279,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Connect bars together" },
-              { id: "b", text: "Represent notes above or below the staff" },
+              { id: "a", text: "Represent notes above or below the staff" },
+              { id: "b", text: "Indicate the tempo of the piece" },
               { id: "c", text: "Show where rests occur" },
-              { id: "d", text: "Indicate the tempo of the piece" },
+              { id: "d", text: "Connect bars together" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -308,12 +308,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Leaping and dramatic" },
-              { id: "b", text: "Stepwise and lyrical" },
-              { id: "c", text: "Chromatic and atonal" },
-              { id: "d", text: "Staccato and detached" },
+              { id: "a", text: "Staccato and detached" },
+              { id: "b", text: "Chromatic and atonal" },
+              { id: "c", text: "Leaping and dramatic" },
+              { id: "d", text: "Stepwise and lyrical" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -510,12 +510,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The tempo suddenly changes" },
-              { id: "b", text: "Accents fall on weak beats or off-beats" },
-              { id: "c", text: "The time signature changes" },
+              { id: "a", text: "Accents fall on weak beats or off-beats" },
+              { id: "b", text: "The time signature changes" },
+              { id: "c", text: "The tempo suddenly changes" },
               { id: "d", text: "Notes are played very quietly" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -611,12 +611,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A note played very quietly" },
-              { id: "b", text: "A specific duration of silence" },
-              { id: "c", text: "A change of tempo" },
+              { id: "a", text: "A specific duration of silence" },
+              { id: "b", text: "A change of tempo" },
+              { id: "c", text: "A note played very quietly" },
               { id: "d", text: "A repeated section" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -640,12 +640,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A melody that changes every bar" },
-              { id: "b", text: "A repeating rhythmic or melodic pattern" },
-              { id: "c", text: "A sudden change of dynamics" },
-              { id: "d", text: "A section played by only one instrument" },
+              { id: "a", text: "A section played by only one instrument" },
+              { id: "b", text: "A sudden change of dynamics" },
+              { id: "c", text: "A melody that changes every bar" },
+              { id: "d", text: "A repeating rhythmic or melodic pattern" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -671,8 +671,8 @@ export const lesson11: Lesson = {
             choices: [
               { id: "a", text: "Play as fast as possible to keep moving" },
               { id: "b", text: "Scan ahead, identify the key and time signature, and feel the pulse" },
-              { id: "c", text: "Memorise every note before playing anything" },
-              { id: "d", text: "Ignore the time signature and follow the melody" },
+              { id: "c", text: "Ignore the time signature and follow the melody" },
+              { id: "d", text: "Memorise every note before playing anything" },
             ],
             correctChoiceId: "b",
           },
@@ -698,12 +698,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The ability to play faster" },
-              { id: "b", text: "The link between heard rhythm and written notation" },
-              { id: "c", text: "Knowledge of music history" },
-              { id: "d", text: "Instrument finger technique" },
+              { id: "a", text: "The link between heard rhythm and written notation" },
+              { id: "b", text: "The ability to play faster" },
+              { id: "c", text: "Instrument finger technique" },
+              { id: "d", text: "Knowledge of music history" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -727,12 +727,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "They will learn the piece too quickly" },
-              { id: "b", text: "They lose the pulse and disrupt the musical flow" },
+              { id: "a", text: "They lose the pulse and disrupt the musical flow" },
+              { id: "b", text: "Their dynamics will become too loud" },
               { id: "c", text: "They will memorise the notation too well" },
-              { id: "d", text: "Their dynamics will become too loud" },
+              { id: "d", text: "They will learn the piece too quickly" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -756,12 +756,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Playing every note at the same volume" },
-              { id: "b", text: "Accenting weak beats or subdivisions between the main beats" },
+              { id: "a", text: "Accenting weak beats or subdivisions between the main beats" },
+              { id: "b", text: "Playing every note at the same volume" },
               { id: "c", text: "Using only whole notes" },
               { id: "d", text: "Changing the key signature mid-piece" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

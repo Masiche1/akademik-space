@@ -57,12 +57,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Volt" },
-              { id: "b", text: "Ampere" },
-              { id: "c", text: "Ohm" },
-              { id: "d", text: "Watt" },
+              { id: "a", text: "Ampere" },
+              { id: "b", text: "Volt" },
+              { id: "c", text: "Watt" },
+              { id: "d", text: "Ohm" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Resistance", statement: "$R = V/I$, unit Ω." }],
@@ -82,12 +82,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "4 A" },
-              { id: "b", text: "0.25 A" },
-              { id: "c", text: "36 A" },
+              { id: "a", text: "36 A" },
+              { id: "b", text: "4 A" },
+              { id: "c", text: "0.25 A" },
               { id: "d", text: "9 A" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "I = V/R", statement: "$I = 12/3$" }],
@@ -108,12 +108,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "10 Ω and 2 A" },
-              { id: "b", text: "2.4 Ω and 8.3 A" },
+              { id: "a", text: "24 Ω and 0.83 A" },
+              { id: "b", text: "10 Ω and 2 A" },
               { id: "c", text: "10 Ω and 0.5 A" },
-              { id: "d", text: "24 Ω and 0.83 A" },
+              { id: "d", text: "2.4 Ω and 8.3 A" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Series R", statement: "$R_T = 4 + 6 = 10$ Ω" }],
@@ -167,12 +167,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$V = I/R$" },
-              { id: "b", text: "$V = IR$" },
+              { id: "a", text: "$V = IR$" },
+              { id: "b", text: "$V = I/R$" },
               { id: "c", text: "$I = VR$" },
               { id: "d", text: "$R = VI$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "law", name: "Ohm's law", statement: "Voltage = current × resistance." }],
@@ -237,11 +237,11 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Filament bulb" },
-              { id: "b", text: "Ohmic conductor (e.g. fixed resistor)" },
+              { id: "b", text: "Thermistor" },
               { id: "c", text: "Diode" },
-              { id: "d", text: "Thermistor" },
+              { id: "d", text: "Ohmic conductor (e.g. fixed resistor)" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "I–V graphs", statement: "Ohmic conductor: constant R → straight line through origin." }],
@@ -310,12 +310,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Resistance stays constant" },
-              { id: "b", text: "Resistance increases as the bulb heats up" },
-              { id: "c", text: "Resistance decreases to zero" },
-              { id: "d", text: "The bulb obeys Ohm's law perfectly" },
+              { id: "a", text: "Resistance decreases to zero" },
+              { id: "b", text: "The bulb obeys Ohm's law perfectly" },
+              { id: "c", text: "Resistance increases as the bulb heats up" },
+              { id: "d", text: "Resistance stays constant" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Non-ohmic", statement: "Filament resistance rises with temperature → I–V curve flattens." }],
@@ -338,11 +338,11 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "in both directions equally" },
-              { id: "b", text: "in one direction only" },
-              { id: "c", text: "only when cold" },
-              { id: "d", text: "never" },
+              { id: "b", text: "only when cold" },
+              { id: "c", text: "never" },
+              { id: "d", text: "in one direction only" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Diode", statement: "Non-ohmic component conducting in one direction only." }],
@@ -432,12 +432,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Series — current is higher" },
-              { id: "b", text: "Parallel — each bulb receives the full 12 V" },
-              { id: "c", text: "Both arrangements give equal power" },
-              { id: "d", text: "Neither — bulbs don't dissipate power" },
+              { id: "a", text: "Parallel — each bulb receives the full 12 V" },
+              { id: "b", text: "Both arrangements give equal power" },
+              { id: "c", text: "Neither — bulbs don't dissipate power" },
+              { id: "d", text: "Series — current is higher" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -495,11 +495,11 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Voltage" },
-              { id: "b", text: "Current" },
-              { id: "c", text: "Resistance" },
-              { id: "d", text: "Power" },
+              { id: "b", text: "Power" },
+              { id: "c", text: "Current" },
+              { id: "d", text: "Resistance" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Series", statement: "Single path → same current." }],
@@ -519,12 +519,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "To use less wire" },
-              { id: "b", text: "So each appliance gets full mains voltage and works independently" },
-              { id: "c", text: "To reduce current" },
-              { id: "d", text: "To save energy" },
+              { id: "a", text: "To reduce current" },
+              { id: "b", text: "To use less wire" },
+              { id: "c", text: "To save energy" },
+              { id: "d", text: "So each appliance gets full mains voltage and works independently" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Parallel", statement: "Each branch gets full voltage; independent operation." }],
@@ -545,12 +545,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The 100 W bulb — higher rated power" },
-              { id: "b", text: "The 60 W bulb — it has higher resistance so takes more voltage" },
-              { id: "c", text: "Both equally bright" },
+              { id: "a", text: "Both equally bright" },
+              { id: "b", text: "The 100 W bulb — higher rated power" },
+              { id: "c", text: "The 60 W bulb — it has higher resistance so takes more voltage" },
               { id: "d", text: "The 100 W bulb — more current flows through it" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Series bulbs", statement: "Lower-wattage bulb has higher R → larger share of voltage → brighter." }],
@@ -605,11 +605,11 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Current" },
-              { id: "b", text: "Voltage" },
-              { id: "c", text: "Resistance" },
+              { id: "b", text: "Resistance" },
+              { id: "c", text: "Voltage" },
               { id: "d", text: "Power" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Parallel", statement: "Each branch connects directly across the supply → same voltage." }],
@@ -673,12 +673,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Series bulbs share the same current path — a break stops all current" },
-              { id: "b", text: "Parallel bulbs have no current" },
-              { id: "c", text: "Series bulbs are brighter" },
-              { id: "d", text: "Parallel bulbs are wired backwards" },
+              { id: "a", text: "Parallel bulbs have no current" },
+              { id: "b", text: "Series bulbs share the same current path — a break stops all current" },
+              { id: "c", text: "Parallel bulbs are wired backwards" },
+              { id: "d", text: "Series bulbs are brighter" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Circuit paths", statement: "Series = single path; break stops everything. Parallel = independent paths." }],
@@ -722,9 +722,9 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "160 W" },
-              { id: "b", text: "60 W" },
+              { id: "b", text: "40 W" },
               { id: "c", text: "100 W" },
-              { id: "d", text: "40 W" },
+              { id: "d", text: "60 W" },
             ],
             correctChoiceId: "a",
           },
@@ -770,12 +770,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "carry the main current" },
-              { id: "b", text: "provide a safe path for fault current to earth" },
-              { id: "c", text: "increase the voltage" },
-              { id: "d", text: "save energy" },
+              { id: "a", text: "provide a safe path for fault current to earth" },
+              { id: "b", text: "increase the voltage" },
+              { id: "c", text: "save energy" },
+              { id: "d", text: "carry the main current" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Earth wire", statement: "Safety wire conducting fault current to ground, triggering fuse/breaker." }],
@@ -865,12 +865,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It gets brighter" },
-              { id: "b", text: "It gets dimmer" },
-              { id: "c", text: "It stays the same" },
-              { id: "d", text: "It goes out completely" },
+              { id: "a", text: "It goes out completely" },
+              { id: "b", text: "It stays the same" },
+              { id: "c", text: "It gets brighter" },
+              { id: "d", text: "It gets dimmer" },
             ],
-            correctChoiceId: "d",
+            correctChoiceIa: "d",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Series", statement: "Single path — any break stops all current." }],

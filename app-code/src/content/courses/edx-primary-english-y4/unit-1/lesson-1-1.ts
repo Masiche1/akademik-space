@@ -56,12 +56,12 @@ export const lesson101: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Within one country" },
-              { id: "b", text: "Between nations" },
-              { id: "c", text: "Not national" },
-              { id: "d", text: "After nations" },
+              { id: "a", text: "Not national" },
+              { id: "b", text: "After nations" },
+              { id: "c", text: "Within one country" },
+              { id: "d", text: "Between nations" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -90,12 +90,12 @@ export const lesson101: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "inter-" },
-              { id: "b", text: "trans-" },
-              { id: "c", text: "pre-" },
-              { id: "d", text: "sub-" },
+              { id: "a", text: "pre-" },
+              { id: "b", text: "inter-" },
+              { id: "c", text: "sub-" },
+              { id: "d", text: "trans-" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -232,12 +232,12 @@ export const lesson101: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "-ly" },
-              { id: "b", text: "-tion" },
+              { id: "a", text: "-ify" },
+              { id: "b", text: "-ly" },
               { id: "c", text: "-en" },
-              { id: "d", text: "-ify" },
+              { id: "d", text: "-tion" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -264,8 +264,8 @@ export const lesson101: Lesson = {
             choices: [
               { id: "a", text: "decidement" },
               { id: "b", text: "decision" },
-              { id: "c", text: "decider" },
-              { id: "d", text: "decisive" },
+              { id: "c", text: "decisive" },
+              { id: "d", text: "decider" },
             ],
             correctChoiceId: "b",
           },

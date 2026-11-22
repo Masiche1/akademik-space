@@ -51,12 +51,12 @@ export const lesson92: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "One direction vector is a scalar multiple of the other" },
+              { id: "a", text: "The lines intersect" },
               { id: "b", text: "The lines have the same length" },
-              { id: "c", text: "The vectors are equal" },
-              { id: "d", text: "The lines intersect" },
+              { id: "c", text: "One direction vector is a scalar multiple of the other" },
+              { id: "d", text: "The vectors are equal" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -139,6 +139,279 @@ export const lesson92: Lesson = {
             commonErrors: ["In (b) mixing up which pairs are opposite sides.", "In (c) computing $\\overrightarrow{FE}$ instead of $\\overrightarrow{EF}$."],
           },
         },
+        {
+          id: "ciem-u9-vector-proofs-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "When setting up a vector proof, the best place to put the origin is:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Always at the centre of the diagram" },
+              { id: "b", text: "At the midpoint of the longest side" },
+              { id: "c", text: "At a vertex that makes the algebra simplest" },
+              { id: "d", text: "It makes no difference" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              { kind: "technique", name: "Origin choice", statement: "Place the origin where position vectors simplify — often a vertex." },
+            ],
+            steps: [
+              { reasoning: "Recall the proof strategy.", working: "\\text{convenient vertex}", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** At a simplifying vertex",
+            commonErrors: ["Choosing an arbitrary point and making algebra harder."],
+          },
+        },
+        {
+          id: "ciem-u9-vector-proofs-q6",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "In triangle $ABC$, $A(0,0)$, $B(4,0)$, $C(0,6)$. $D$ is the midpoint of $AB$ and $E$ is the midpoint of $AC$. Find $\\overrightarrow{DE}$.",
+          response: { type: "numeric", unordered: true, parts: [{ label: "x", answer: -2, tolerance: 0.001 }, { label: "y", answer: 3, tolerance: 0.001 }] },
+          markscheme: {
+            principles: [
+              { kind: "formula", name: "Midpoint", statement: "$\\mathbf{d}=\\frac{\\mathbf{a}+\\mathbf{b}}{2}$" },
+            ],
+            steps: [
+              { reasoning: "$\\mathbf{d}=\\begin{pmatrix}2\\\\0\\end{pmatrix}$, $\\mathbf{e}=\\begin{pmatrix}0\\\\3\\end{pmatrix}$, so $\\overrightarrow{DE}=\\mathbf{e}-\\mathbf{d}$.", working: "\\begin{pmatrix}0-2\\\\3-0\\end{pmatrix}", marks: 1, markCode: "M" },
+              { reasoning: "Evaluate.", working: "=\\begin{pmatrix}-2\\\\3\\end{pmatrix}", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$\\begin{pmatrix}-2\\\\3\\end{pmatrix}$",
+            commonErrors: ["Computing $\\overrightarrow{ED}$ instead."],
+          },
+        },
+        {
+          id: "ciem-u9-vector-proofs-q7",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "The midpoint theorem states that the segment joining the midpoints of two sides of a triangle is:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Equal to the third side" },
+              { id: "b", text: "Half the perimeter" },
+              { id: "c", text: "Parallel to the third side and half its length" },
+              { id: "d", text: "Perpendicular to the third side" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              { kind: "theorem", name: "Midpoint theorem", statement: "$\\overrightarrow{DE}=\\frac12\\overrightarrow{BC}$" },
+            ],
+            steps: [
+              { reasoning: "Recall the theorem.", working: "DE = (1/2) BC", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** Parallel and half the length",
+            commonErrors: ["Forgetting the factor $\\frac12$."],
+          },
+        },
+        {
+          id: "ciem-u9-vector-proofs-q8",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "In triangle $ABC$, place $A$ at the origin with $\\mathbf{b}=\\begin{pmatrix}4\\\\2\\end{pmatrix}$ and $\\mathbf{c}=\\begin{pmatrix}8\\\\6\\end{pmatrix}$. $D$ and $E$ are the midpoints of $AB$ and $AC$. Prove that $DE \\parallel BC$.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "formula", name: "Midpoint theorem", statement: "$\\overrightarrow{DE}=\\frac12\\overrightarrow{BC}$" },
+            ],
+            steps: [
+              { reasoning: "$\\mathbf{d}=\\frac{\\mathbf{b}}{2}=\\begin{pmatrix}2\\\\1\\end{pmatrix}$, $\\mathbf{e}=\\frac{\\mathbf{c}}{2}=\\begin{pmatrix}4\\\\3\\end{pmatrix}$.", working: "d=b/2,\\ e=c/2", marks: 1, markCode: "M" },
+              { reasoning: "$\\overrightarrow{DE}=\\mathbf{e}-\\mathbf{d}=\\frac{\\mathbf{c}-\\mathbf{b}}{2}=\\frac12\\overrightarrow{BC}$.", working: "\\overrightarrow{DE}=\\frac12\\overrightarrow{BC}", marks: 1, markCode: "M" },
+              { reasoning: "A scalar multiple $\\Rightarrow$ $DE \\parallel BC$. QED.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "Proven: $DE \\parallel BC$",
+            commonErrors: ["Not stating the conclusion explicitly."],
+          },
+        },
+        {
+          id: "ciem-u9-vector-proofs-q9",
+          difficulty: "challenge",
+          totalMarks: 2,
+          stem: "In a triangle, $D$ and $E$ are the midpoints of $AB$ and $AC$. Given $\\overrightarrow{BC}=\\begin{pmatrix}10\\\\14\\end{pmatrix}$, find $\\overrightarrow{DE}$.",
+          response: { type: "numeric", unordered: true, parts: [{ label: "x", answer: 5, tolerance: 0.001 }, { label: "y", answer: 7, tolerance: 0.001 }] },
+          markscheme: {
+            principles: [
+              { kind: "theorem", name: "Midpoint theorem", statement: "$\\overrightarrow{DE}=\\frac12\\overrightarrow{BC}$" },
+            ],
+            steps: [
+              { reasoning: "Halve $\\overrightarrow{BC}$.", working: "=\\frac12\\begin{pmatrix}10\\\\14\\end{pmatrix}", marks: 1, markCode: "M" },
+              { reasoning: "Evaluate.", working: "=\\begin{pmatrix}5\\\\7\\end{pmatrix}", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$\\begin{pmatrix}5\\\\7\\end{pmatrix}$",
+            commonErrors: ["Forgetting the factor $\\frac12$."],
+          },
+        },
+        {
+          id: "ciem-u9-vector-proofs-q10",
+          difficulty: "challenge",
+          totalMarks: 1,
+          stem: "To prove that $ABCD$ is a parallelogram using vectors, you show that:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "The diagonals are equal" },
+              { id: "b", text: "All four sides are equal" },
+              { id: "c", text: "Both pairs of opposite side vectors are equal" },
+              { id: "d", text: "One pair of sides is parallel" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              { kind: "technique", name: "Proof by vectors", statement: "Equal opposite side vectors $\\Rightarrow$ parallelogram." },
+            ],
+            steps: [
+              { reasoning: "Recall the proof method.", working: "AB=DC and AD=BC", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** Opposite side vectors equal",
+            commonErrors: ["Stopping after proving only one pair parallel."],
+          },
+        },
+        {
+          id: "ciem-u9-vector-proofs-q11",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "In parallelogram $ABCD$, $E$ is the midpoint of $AB$ and $F$ is the midpoint of $AD$. Prove that $EF \\parallel BD$ and $EF=\\frac12BD$.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "formula", name: "Midpoint theorem", statement: "$\\overrightarrow{EF}=\\frac12\\overrightarrow{BD}$ in triangle $ABD$" },
+            ],
+            steps: [
+              { reasoning: "Place $\\mathbf{a}=\\mathbf{0}$. Then $\\mathbf{e}=\\frac{\\mathbf{b}}{2}$ and $\\mathbf{f}=\\frac{\\mathbf{d}}{2}$.", working: "e=b/2,\\ f=d/2", marks: 1, markCode: "M" },
+              { reasoning: "$\\overrightarrow{EF}=\\mathbf{f}-\\mathbf{e}=\\frac{\\mathbf{d}-\\mathbf{b}}{2}=\\frac12\\overrightarrow{BD}$.", working: "\\overrightarrow{EF}=\\frac{\\mathbf{d}-\\mathbf{b}}{2}", marks: 1, markCode: "M" },
+              { reasoning: "$\\overrightarrow{BD}=\\mathbf{d}-\\mathbf{b}$, so $\\overrightarrow{EF}$ is a scalar multiple of it.", marks: 1, markCode: "M" },
+              { reasoning: "Hence $EF \\parallel BD$ and $EF=\\frac12BD$. QED.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "Proven: $EF \\parallel BD$ and $EF=\\frac12BD$",
+            commonErrors: ["Using $\\overrightarrow{DB}$ instead of $\\overrightarrow{BD}$ — still parallel but wrong direction stated."],
+          },
+        },
+        {
+          id: "ciem-u9-vector-proofs-q12",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "The centroid of a triangle divides each median in the ratio:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$1:1$" },
+              { id: "b", text: "$3:1$ measured from the vertex" },
+              { id: "c", text: "$1:2$ measured from the vertex" },
+              { id: "d", text: "$2:1$ measured from the vertex" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              { kind: "definition", name: "Centroid", statement: "$\\frac23$ of the way along each median from the vertex." },
+            ],
+            steps: [
+              { reasoning: "Recall the property.", working: "AG:GM=2:1", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** $2:1$ from the vertex",
+            commonErrors: ["Reversing the ratio."],
+          },
+        },
+        {
+          id: "ciem-u9-vector-proofs-q13",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "If $\\overrightarrow{DE}=\\frac12\\overrightarrow{BC}$, then $DE$ is ___ to $BC$ and ___ its length.",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "parallel; equal" },
+              { id: "b", text: "perpendicular; half" },
+              { id: "c", text: "parallel; half" },
+              { id: "d", text: "equal; equal" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              { kind: "definition", name: "Scalar multiple", statement: "$k\\mathbf{v}$ gives parallel direction; $|k|$ scales length." },
+            ],
+            steps: [
+              { reasoning: "Factor $\\frac12$ scales length by half; direction unchanged → parallel.", working: "k=1/2", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** Parallel; half",
+            commonErrors: ["Ignoring the length factor."],
+          },
+        },
+        {
+          id: "ciem-u9-vector-proofs-q14",
+          difficulty: "challenge",
+          totalMarks: 3,
+          stem: "Triangle $ABC$ with $\\mathbf{a}=\\mathbf{0}$, $\\mathbf{b}=\\begin{pmatrix}6\\\\0\\end{pmatrix}$, $\\mathbf{c}=\\begin{pmatrix}2\\\\4\\end{pmatrix}$. $M$ is the midpoint of $BC$. Find $\\overrightarrow{AM}$.",
+          response: { type: "numeric", unordered: true, parts: [{ label: "x", answer: 4, tolerance: 0.001 }, { label: "y", answer: 2, tolerance: 0.001 }] },
+          markscheme: {
+            principles: [
+              { kind: "formula", name: "Midpoint", statement: "$\\mathbf{m}=\\frac{\\mathbf{b}+\\mathbf{c}}{2}$" },
+            ],
+            steps: [
+              { reasoning: "$\\mathbf{m}=\\frac12\\left(\\begin{pmatrix}6\\\\0\\end{pmatrix}+\\begin{pmatrix}2\\\\4\\end{pmatrix}\\right)=\\frac12\\begin{pmatrix}8\\\\4\\end{pmatrix}=\\begin{pmatrix}4\\\\2\\end{pmatrix}$.", working: "m=(4,2)", marks: 1, markCode: "M" },
+              { reasoning: "$\\overrightarrow{AM}=\\mathbf{m}-\\mathbf{a}=\\begin{pmatrix}4\\\\2\\end{pmatrix}$.", working: "AM=m-a", marks: 1, markCode: "M" },
+              { reasoning: "State the vector.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$\\overrightarrow{AM}=\\begin{pmatrix}4\\\\2\\end{pmatrix}$",
+            commonErrors: ["Using $\\frac{\\mathbf{b}+\\mathbf{c}}{3}$ (centroid) instead of midpoint."],
+          },
+        },
+        {
+          id: "ciem-u9-vector-proofs-q15",
+          difficulty: "challenge",
+          totalMarks: 3,
+          stem: "In triangle $A(0,0)$, $B(8,0)$, $C(4,10)$, $D$, $E$, $F$ are the midpoints of $AB$, $BC$, $CA$ respectively. Find the length of $EF$.",
+          response: { type: "numeric", parts: [{ label: "EF", answer: 4, tolerance: 0.001 }] },
+          markscheme: {
+            principles: [
+              { kind: "formula", name: "Midpoint", statement: "$\\mathbf{e}=\\frac{\\mathbf{b}+\\mathbf{c}}{2}$, $\\mathbf{f}=\\frac{\\mathbf{c}+\\mathbf{a}}{2}$" },
+            ],
+            steps: [
+              { reasoning: "$\\mathbf{e}=\\begin{pmatrix}6\\\\5\\end{pmatrix}$, $\\mathbf{f}=\\begin{pmatrix}2\\\\5\\end{pmatrix}$.", working: "e=(6,5),\\ f=(2,5)", marks: 1, markCode: "M" },
+              { reasoning: "$\\overrightarrow{EF}=\\mathbf{f}-\\mathbf{e}=\\begin{pmatrix}-4\\\\0\\end{pmatrix}$.", working: "EF=(-4,0)", marks: 1, markCode: "M" },
+              { reasoning: "Length $=4$.", working: "|EF|=4", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$EF=4$",
+            commonErrors: ["Computing the wrong pair of midpoints."],
+          },
+        },
+        {
+          id: "ciem-u9-vector-proofs-q16",
+          difficulty: "challenge",
+          totalMarks: 9,
+          stem: "Triangle $ABC$ with $\\mathbf{a}=\\mathbf{0}$, $\\mathbf{b}=\\begin{pmatrix}10\\\\0\\end{pmatrix}$, $\\mathbf{c}=\\begin{pmatrix}6\\\\8\\end{pmatrix}$. $D$, $E$, $F$ are the midpoints of $AB$, $AC$, $BC$.",
+          parts: [
+            { label: "a", prompt: "Find the position vectors of $D$, $E$ and $F$.", marks: 3 },
+            { label: "b", prompt: "Prove $DE \\parallel BC$ and $DE=\\frac12BC$.", marks: 3 },
+            { label: "c", prompt: "Find $\\overrightarrow{EF}$ and compare it with $\\overrightarrow{AB}$.", marks: 3 },
+          ],
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "formula", name: "Midpoint", statement: "$\\mathbf{d}=\\frac{\\mathbf{a}+\\mathbf{b}}{2}$ etc." },
+              { kind: "technique", name: "Proof by vectors", statement: "Show one vector is a scalar multiple of another." },
+            ],
+            steps: [
+              { part: "a", reasoning: "$\\mathbf{d}=\\frac12\\begin{pmatrix}10\\\\0\\end{pmatrix}=\\begin{pmatrix}5\\\\0\\end{pmatrix}$; $\\mathbf{e}=\\frac12\\begin{pmatrix}6\\\\8\\end{pmatrix}=\\begin{pmatrix}3\\\\4\\end{pmatrix}$; $\\mathbf{f}=\\frac12\\left(\\begin{pmatrix}10\\\\0\\end{pmatrix}+\\begin{pmatrix}6\\\\8\\end{pmatrix}\\right)=\\begin{pmatrix}8\\\\4\\end{pmatrix}$.", working: "\\begin{pmatrix}5\\\\0\\end{pmatrix},\\ \\begin{pmatrix}3\\\\4\\end{pmatrix},\\ \\begin{pmatrix}8\\\\4\\end{pmatrix}", marks: 1, markCode: "M" },
+              { part: "a", reasoning: "State all three position vectors.", marks: 2, markCode: "A" },
+              { part: "b", reasoning: "$\\overrightarrow{DE}=\\mathbf{e}-\\mathbf{d}=\\begin{pmatrix}3-5\\\\4-0\\end{pmatrix}=\\begin{pmatrix}-2\\\\4\\end{pmatrix}$.", working: "\\begin{pmatrix}-2\\\\4\\end{pmatrix}", marks: 1, markCode: "M" },
+              { part: "b", reasoning: "$\\overrightarrow{BC}=\\mathbf{c}-\\mathbf{b}=\\begin{pmatrix}-4\\\\8\\end{pmatrix}=2\\begin{pmatrix}-2\\\\4\\end{pmatrix}$.", working: "\\overrightarrow{BC}=2\\overrightarrow{DE}", marks: 1, markCode: "M" },
+              { part: "b", reasoning: "Scalar multiple $\\Rightarrow$ parallel and half length. QED.", marks: 1, markCode: "A" },
+              { part: "c", reasoning: "$\\overrightarrow{EF}=\\mathbf{f}-\\mathbf{e}=\\begin{pmatrix}8-3\\\\4-4\\end{pmatrix}=\\begin{pmatrix}5\\\\0\\end{pmatrix}$.", working: "\\begin{pmatrix}5\\\\0\\end{pmatrix}", marks: 1, markCode: "M" },
+              { part: "c", reasoning: "$\\overrightarrow{AB}=\\begin{pmatrix}10\\\\0\\end{pmatrix}=2\\overrightarrow{EF}$ — so $EF \\parallel AB$ and $EF=\\frac12AB$.", marks: 1, markCode: "M" },
+              { part: "c", reasoning: "State the comparison.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "(a) $\\mathbf{d}=\\begin{pmatrix}5\\\\0\\end{pmatrix}$, $\\mathbf{e}=\\begin{pmatrix}3\\\\4\\end{pmatrix}$, $\\mathbf{f}=\\begin{pmatrix}8\\\\4\\end{pmatrix}$ (b) proven (c) $\\overrightarrow{EF}=\\frac12\\overrightarrow{AB}$",
+            commonErrors: ["In (b) using $\\overrightarrow{CB}$ instead of $\\overrightarrow{BC}$.", "In (c) pairing the wrong midpoints."],
+          },
+        },
       ],
     },
     {
@@ -178,12 +451,12 @@ export const lesson92: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "At a vertex that simplifies the algebra" },
-              { id: "b", text: "Always at the centre of the shape" },
-              { id: "c", text: "At the midpoint of the longest side" },
+              { id: "a", text: "At the midpoint of the longest side" },
+              { id: "b", text: "At a vertex that simplifies the algebra" },
+              { id: "c", text: "Always at the centre of the shape" },
               { id: "d", text: "It doesn't matter" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -263,6 +536,279 @@ export const lesson92: Lesson = {
             ],
             finalAnswer: "(a) $\\mathbf{d}=\\begin{pmatrix}4\\\\0\\end{pmatrix}$, $\\mathbf{e}=\\begin{pmatrix}2\\\\4\\end{pmatrix}$, $\\mathbf{f}=\\begin{pmatrix}6\\\\4\\end{pmatrix}$ (b) proven (c) $EF \\parallel AB$, $EF=\\frac12AB$",
             commonErrors: ["In (b) using $\\overrightarrow{CB}$ instead of $\\overrightarrow{BC}$.", "In (c) not comparing with $\\overrightarrow{AB}$ explicitly."],
+          },
+        },
+        {
+          id: "ciem-u9-vector-problem-solving-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "The most useful first step in a vector geometry problem is to:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Guess the answer and check" },
+              { id: "b", text: "Measure the diagram with a ruler" },
+              { id: "c", text: "Assign position vectors to the key points" },
+              { id: "d", text: "Convert everything to Cartesian coordinates" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              { kind: "technique", name: "Strategy", statement: "Set up position vectors early — most parts build on them." },
+            ],
+            steps: [
+              { reasoning: "Recall the strategy.", working: "\\text{assign position vectors}", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** Assign position vectors",
+            commonErrors: ["Starting calculations without a clear setup."],
+          },
+        },
+        {
+          id: "ciem-u9-vector-problem-solving-q6",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "$A(0,0)$, $B(4,0)$, $C(1,4)$. Find the centroid of triangle $ABC$.",
+          response: { type: "numeric", unordered: true, parts: [{ label: "x", answer: 1.67, tolerance: 0.01 }, { label: "y", answer: 1.33, tolerance: 0.01 }] },
+          markscheme: {
+            principles: [
+              { kind: "formula", name: "Centroid", statement: "$\\mathbf{g}=\\frac{\\mathbf{a}+\\mathbf{b}+\\mathbf{c}}{3}$" },
+            ],
+            steps: [
+              { reasoning: "Sum and divide by 3: $\\frac13\\begin{pmatrix}5\\\\4\\end{pmatrix}$.", working: "g=(5/3,\\ 4/3)", marks: 1, markCode: "M" },
+              { reasoning: "State decimal values.", working: "(1.67,\\ 1.33)", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$G\\left(\\frac53,\\frac43\\right)\\approx(1.67,1.33)$",
+            commonErrors: ["Dividing by 2 instead of 3."],
+          },
+        },
+        {
+          id: "ciem-u9-vector-problem-solving-q7",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "When using the section formula for the ratio $m:n$, the weights on $\\mathbf{a}$ and $\\mathbf{b}$ are respectively:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$n$ on $\\mathbf{a}$ and $m$ on $\\mathbf{b}$" },
+              { id: "b", text: "$m$ on $\\mathbf{a}$ and $n$ on $\\mathbf{b}$" },
+              { id: "c", text: "$n$ on both" },
+              { id: "d", text: "$m$ on both" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              { kind: "formula", name: "Section formula", statement: "$\\mathbf{p}=\\frac{n\\mathbf{a}+m\\mathbf{b}}{m+n}$ — weights reversed." },
+            ],
+            steps: [
+              { reasoning: "Recall the formula.", working: "n a + m b", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** $n$ on $\\mathbf{a}$, $m$ on $\\mathbf{b}$",
+            commonErrors: ["Using the ratio order directly without reversing."],
+          },
+        },
+        {
+          id: "ciem-u9-vector-problem-solving-q8",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "$A(2,1)$, $B(8,7)$, $C(5,4)$. Find the centroid of triangle $ABC$.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "formula", name: "Centroid", statement: "$\\mathbf{g}=\\frac{\\mathbf{a}+\\mathbf{b}+\\mathbf{c}}{3}$" },
+            ],
+            steps: [
+              { reasoning: "Sum the position vectors.", working: "\\begin{pmatrix}2+8+5\\\\1+7+4\\end{pmatrix}=\\begin{pmatrix}15\\\\12\\end{pmatrix}", marks: 1, markCode: "M" },
+              { reasoning: "Divide by 3.", working: "=\\frac13\\begin{pmatrix}15\\\\12\\end{pmatrix}", marks: 1, markCode: "M" },
+              { reasoning: "State the position vector.", working: "=\\begin{pmatrix}5\\\\4\\end{pmatrix}", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$\\begin{pmatrix}5\\\\4\\end{pmatrix}$",
+            commonErrors: ["Dividing by 2 (midpoint formula)."],
+          },
+        },
+        {
+          id: "ciem-u9-vector-problem-solving-q9",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "$A(0,0)$, $B(12,6)$. Point $P$ divides $AB$ in the ratio $1:2$. Find the position vector of $P$.",
+          response: { type: "numeric", unordered: true, parts: [{ label: "x", answer: 4, tolerance: 0.001 }, { label: "y", answer: 2, tolerance: 0.001 }] },
+          markscheme: {
+            principles: [
+              { kind: "formula", name: "Section formula", statement: "$\\mathbf{p}=\\mathbf{a}+\\frac{m}{m+n}(\\mathbf{b}-\\mathbf{a})$" },
+            ],
+            steps: [
+              { reasoning: "$\\mathbf{p}=\\frac13\\begin{pmatrix}12\\\\6\\end{pmatrix}$ (one third of the way).", working: "=\\frac13\\begin{pmatrix}12\\\\6\\end{pmatrix}", marks: 1, markCode: "M" },
+              { reasoning: "Evaluate.", working: "=\\begin{pmatrix}4\\\\2\\end{pmatrix}", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$\\begin{pmatrix}4\\\\2\\end{pmatrix}$",
+            commonErrors: ["Using $\\frac23$ instead of $\\frac13$."],
+          },
+        },
+        {
+          id: "ciem-u9-vector-problem-solving-q10",
+          difficulty: "challenge",
+          totalMarks: 1,
+          stem: "The position vector of the point dividing $AB$ in the ratio $m:n$ is:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$\\frac{m\\mathbf{a}+n\\mathbf{b}}{m+n}$" },
+              { id: "b", text: "$\\frac{n\\mathbf{a}+m\\mathbf{b}}{m+n}$" },
+              { id: "c", text: "$\\mathbf{a}+\\frac{n}{m}(\\mathbf{b}-\\mathbf{a})$" },
+              { id: "d", text: "$\\frac{\\mathbf{a}+\\mathbf{b}}{m+n}$" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              { kind: "formula", name: "Section formula", statement: "$\\frac{n\\mathbf{a}+m\\mathbf{b}}{m+n}$" },
+            ],
+            steps: [
+              { reasoning: "Recall the formula.", working: "n a + m b over m+n", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** $\\frac{n\\mathbf{a}+m\\mathbf{b}}{m+n}$",
+            commonErrors: ["Not reversing the weights."],
+          },
+        },
+        {
+          id: "ciem-u9-vector-problem-solving-q11",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "$A(0,0)$, $B(9,3)$, $C(3,9)$. $D$ is the midpoint of $BC$. Find $\\overrightarrow{AD}$ and its length.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "formula", name: "Midpoint", statement: "$\\mathbf{d}=\\frac{\\mathbf{b}+\\mathbf{c}}{2}$" },
+              { kind: "formula", name: "Magnitude", statement: "$|\\mathbf{v}|=\\sqrt{x^2+y^2}$" },
+            ],
+            steps: [
+              { reasoning: "$\\mathbf{d}=\\frac12\\left(\\begin{pmatrix}9\\\\3\\end{pmatrix}+\\begin{pmatrix}3\\\\9\\end{pmatrix}\\right)=\\begin{pmatrix}6\\\\6\\end{pmatrix}$.", working: "d=(6,6)", marks: 1, markCode: "M" },
+              { reasoning: "$\\overrightarrow{AD}=\\mathbf{d}-\\mathbf{a}=\\begin{pmatrix}6\\\\6\\end{pmatrix}$.", working: "AD=(6,6)", marks: 1, markCode: "M" },
+              { reasoning: "Length $=\\sqrt{36+36}=\\sqrt{72}=6\\sqrt2$.", working: "\\sqrt{72}", marks: 1, markCode: "M" },
+              { reasoning: "State both answers.", working: "6\\sqrt2\\approx8.49", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$\\overrightarrow{AD}=\\begin{pmatrix}6\\\\6\\end{pmatrix}$, length $6\\sqrt2\\approx8.49$",
+            commonErrors: ["Stopping at the vector without finding the length."],
+          },
+        },
+        {
+          id: "ciem-u9-vector-problem-solving-q12",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "$A(0,0)$, $B(6,0)$, $C(0,9)$. The centroid of triangle $ABC$ is:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$(3,2)$" },
+              { id: "b", text: "$(6,9)$" },
+              { id: "c", text: "$(2,3)$" },
+              { id: "d", text: "$(2,4.5)$" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              { kind: "formula", name: "Centroid", statement: "$\\frac{\\mathbf{a}+\\mathbf{b}+\\mathbf{c}}{3}$" },
+            ],
+            steps: [
+              { reasoning: "$\\frac13\\begin{pmatrix}6\\\\9\\end{pmatrix}=\\begin{pmatrix}2\\\\3\\end{pmatrix}$.", working: "(2,3)", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** $(2,3)$",
+            commonErrors: ["Dividing by 2 instead of 3."],
+          },
+        },
+        {
+          id: "ciem-u9-vector-problem-solving-q13",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "A 'show that' question in vectors requires you to:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Draw an accurate diagram" },
+              { id: "b", text: "Just write down the final answer" },
+              { id: "c", text: "Give algebraic working that leads to the stated result" },
+              { id: "d", text: "State the formula used" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              { kind: "technique", name: "Show that", statement: "Algebraic justification ending in the required result earns the marks." },
+            ],
+            steps: [
+              { reasoning: "Recall exam technique.", working: "\\text{justify algebraically}", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** Algebraic working leading to the result",
+            commonErrors: ["Writing only the answer — no marks for unsupported results."],
+          },
+        },
+        {
+          id: "ciem-u9-vector-problem-solving-q14",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "$A(1,2)$, $B(5,2)$, $C(3,6)$. $M$ is the midpoint of $AC$. Find the vector from $B$ to $M$.",
+          response: { type: "numeric", unordered: true, parts: [{ label: "x", answer: -3, tolerance: 0.001 }, { label: "y", answer: 2, tolerance: 0.001 }] },
+          markscheme: {
+            principles: [
+              { kind: "formula", name: "Midpoint", statement: "$\\mathbf{m}=\\frac{\\mathbf{a}+\\mathbf{c}}{2}$" },
+            ],
+            steps: [
+              { reasoning: "$\\mathbf{m}=\\frac12\\left(\\begin{pmatrix}1\\\\2\\end{pmatrix}+\\begin{pmatrix}3\\\\6\\end{pmatrix}\\right)=\\begin{pmatrix}2\\\\4\\end{pmatrix}$.", working: "m=(2,4)", marks: 1, markCode: "M" },
+              { reasoning: "$\\overrightarrow{BM}=\\mathbf{m}-\\mathbf{b}=\\begin{pmatrix}2-5\\\\4-2\\end{pmatrix}$.", working: "=\\begin{pmatrix}-3\\\\2\\end{pmatrix}", marks: 1, markCode: "M" },
+              { reasoning: "State the vector.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$\\begin{pmatrix}-3\\\\2\\end{pmatrix}$",
+            commonErrors: ["Computing $\\overrightarrow{MB}$ instead of $\\overrightarrow{BM}$."],
+          },
+        },
+        {
+          id: "ciem-u9-vector-problem-solving-q15",
+          difficulty: "challenge",
+          totalMarks: 3,
+          stem: "Square $ABCD$ has $A(0,0)$, $B(10,0)$, $C(10,10)$, $D(0,10)$. Find the position vector of the intersection of the diagonals.",
+          response: { type: "numeric", unordered: true, parts: [{ label: "x", answer: 5, tolerance: 0.001 }, { label: "y", answer: 5, tolerance: 0.001 }] },
+          markscheme: {
+            principles: [
+              { kind: "formula", name: "Diagonal intersection", statement: "Diagonals of a parallelogram bisect — intersection is midpoint of either diagonal." },
+            ],
+            steps: [
+              { reasoning: "Intersection $=$ midpoint of $AC$.", working: "\\frac12\\left(\\begin{pmatrix}0\\\\0\\end{pmatrix}+\\begin{pmatrix}10\\\\10\\end{pmatrix}\\right)", marks: 1, markCode: "M" },
+              { reasoning: "Evaluate.", working: "=\\begin{pmatrix}5\\\\5\\end{pmatrix}", marks: 1, markCode: "M" },
+              { reasoning: "State the position vector.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$\\begin{pmatrix}5\\\\5\\end{pmatrix}$",
+            commonErrors: ["Using midpoint of a side instead of a diagonal."],
+          },
+        },
+        {
+          id: "ciem-u9-vector-problem-solving-q16",
+          difficulty: "challenge",
+          totalMarks: 9,
+          stem: "$A(0,0)$, $B(8,0)$, $C(10,4)$, $D(2,4)$ form a parallelogram.",
+          parts: [
+            { label: "a", prompt: "Find $\\overrightarrow{AB}$ and $\\overrightarrow{DC}$, and show they are equal.", marks: 3 },
+            { label: "b", prompt: "Find $\\overrightarrow{AD}$ and $\\overrightarrow{BC}$, and show they are equal.", marks: 3 },
+            { label: "c", prompt: "Find the position vector of the intersection of the diagonals $AC$ and $BD$.", marks: 3 },
+          ],
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "formula", name: "Vector between points", statement: "$\\overrightarrow{PQ}=\\mathbf{q}-\\mathbf{p}$" },
+              { kind: "property", name: "Parallelogram diagonals", statement: "Diagonals bisect each other — intersection is the midpoint." },
+            ],
+            steps: [
+              { part: "a", reasoning: "$\\overrightarrow{AB}=\\begin{pmatrix}8\\\\0\\end{pmatrix}$; $\\overrightarrow{DC}=\\begin{pmatrix}10-2\\\\4-4\\end{pmatrix}=\\begin{pmatrix}8\\\\0\\end{pmatrix}$ — equal.", working: "\\overrightarrow{AB}=\\overrightarrow{DC}", marks: 2, markCode: "M" },
+              { part: "a", reasoning: "State the conclusion.", marks: 1, markCode: "A" },
+              { part: "b", reasoning: "$\\overrightarrow{AD}=\\begin{pmatrix}2\\\\4\\end{pmatrix}$; $\\overrightarrow{BC}=\\begin{pmatrix}10-8\\\\4-0\\end{pmatrix}=\\begin{pmatrix}2\\\\4\\end{pmatrix}$ — equal.", working: "\\overrightarrow{AD}=\\overrightarrow{BC}", marks: 2, markCode: "M" },
+              { part: "b", reasoning: "State the conclusion.", marks: 1, markCode: "A" },
+              { part: "c", reasoning: "Intersection $=$ midpoint of $AC$: $\\frac12\\left(\\begin{pmatrix}0\\\\0\\end{pmatrix}+\\begin{pmatrix}10\\\\4\\end{pmatrix}\\right)$.", working: "=\\frac12\\begin{pmatrix}10\\\\4\\end{pmatrix}", marks: 1, markCode: "M" },
+              { part: "c", reasoning: "Evaluate.", working: "=\\begin{pmatrix}5\\\\2\\end{pmatrix}", marks: 1, markCode: "M" },
+              { part: "c", reasoning: "State the position vector.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "(a) $\\overrightarrow{AB}=\\overrightarrow{DC}=\\begin{pmatrix}8\\\\0\\end{pmatrix}$ (b) $\\overrightarrow{AD}=\\overrightarrow{BC}=\\begin{pmatrix}2\\\\4\\end{pmatrix}$ (c) $\\begin{pmatrix}5\\\\2\\end{pmatrix}$",
+            commonErrors: ["Using $\\overrightarrow{CD}$ instead of $\\overrightarrow{DC}$.", "Finding midpoint of a side instead of a diagonal."],
           },
         },
       ],

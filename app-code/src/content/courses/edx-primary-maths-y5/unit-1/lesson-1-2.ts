@@ -62,10 +62,10 @@ export const lesson72: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "6 035" },
+              { id: "a", text: "9 235" },
               { id: "b", text: "7 035" },
               { id: "c", text: "6 925" },
-              { id: "d", text: "9 235" },
+              { id: "d", text: "6 035" },
             ],
             correctChoiceId: "b",
           },
@@ -280,12 +280,12 @@ export const lesson72: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "66" },
-              { id: "b", text: "76" },
-              { id: "c", text: "86" },
-              { id: "d", text: "70" },
+              { id: "a", text: "70" },
+              { id: "b", text: "66" },
+              { id: "c", text: "76" },
+              { id: "d", text: "86" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

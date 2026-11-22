@@ -52,12 +52,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$100$ m" },
-              { id: "b", text: "$1$ km" },
-              { id: "c", text: "$10$ km" },
-              { id: "d", text: "$100$ km" },
+              { id: "a", text: "$10$ km" },
+              { id: "b", text: "$100$ km" },
+              { id: "c", text: "$100$ m" },
+              { id: "d", text: "$1$ km" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -149,6 +149,286 @@ export const lesson23: Lesson = {
             commonErrors: ["In (c) multiplying by 100 then forgetting to convert cm back to metres."],
           },
         },
+        {
+          id: "cilm-u2-sc-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "On a map with scale $1:50\\ 000$, two villages are $3$ cm apart. What is the real distance between them?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$3$ km" },
+              { id: "b", text: "$15$ km" },
+              { id: "c", text: "$150$ m" },
+              { id: "d", text: "$1.5$ km" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              { kind: "convention", name: "Map scale", statement: "Real $=$ map $\\times 50\\ 000$ cm $=150\\ 000$ cm $=1.5$ km." },
+            ],
+            steps: [
+              { reasoning: "$3\\times50\\ 000=150\\ 000$ cm $=1.5$ km.", working: "150\\ 000\\text{ cm}=1.5\\text{ km}", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** $1.5$ km",
+            commonErrors: ["Choosing (b) — decimal place error converting cm to km."],
+          },
+        },
+        {
+          id: "cilm-u2-sc-q6",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "A model car is built at scale $1:20$. The real car is $3$ m long. How long is the model?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$60$ cm" },
+              { id: "b", text: "$15$ cm" },
+              { id: "c", text: "$6$ cm" },
+              { id: "d", text: "$1.5$ cm" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Scale factor", statement: "Model $=$ real $\\div 20$: $3\\text{ m}\\div20=0.15$ m $=15$ cm." },
+            ],
+            steps: [
+              { reasoning: "$300\\text{ cm}\\div20=15$ cm.", working: "300\\div20=15", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** $15$ cm",
+            commonErrors: ["Choosing (b) — multiplying by 20 instead of dividing."],
+          },
+        },
+        {
+          id: "cilm-u2-sc-q7",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "On a floor plan at scale $1:100$, a room measures $6$ cm by $4$ cm. What are the real dimensions?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$600$ cm by $400$ cm is wrong; it is $6$ m by $4$ m" },
+              { id: "b", text: "$0.6$ m by $0.4$ m" },
+              { id: "c", text: "$60$ m by $40$ m" },
+              { id: "d", text: "$6$ m by $4$ m" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Scale factor", statement: "Multiply by 100 then convert cm to m." },
+            ],
+            steps: [
+              { reasoning: "$6\\times100=600$ cm $=6$ m; $4\\times100=400$ cm $=4$ m.", working: "6\\text{ m},\\ 4\\text{ m}", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** $6$ m by $4$ m",
+            commonErrors: ["Choosing (c) — dividing by 100 instead of multiplying (scale $1:100$ enlarges)."],
+          },
+        },
+        {
+          id: "cilm-u2-sc-q8",
+          difficulty: "challenge",
+          totalMarks: 1,
+          stem: "A map has scale $1:20\\ 000$. Two towns are $5$ cm apart on the map. What is the real distance in km?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$1$ km" },
+              { id: "b", text: "$10$ km" },
+              { id: "c", text: "$0.1$ km" },
+              { id: "d", text: "$100$ km" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              { kind: "convention", name: "Map scale", statement: "$5\\times20\\ 000=100\\ 000$ cm $=1$ km." },
+            ],
+            steps: [
+              { reasoning: "$5$ cm on map $=100\\ 000$ cm $=1$ km real.", working: "100\\ 000\\text{ cm}=1\\text{ km}", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(b)** $1$ km",
+            commonErrors: ["Choosing (c) — treating $100\\ 000$ cm as $10$ km instead of $1$ km."],
+          },
+        },
+        {
+          id: "cilm-u2-sc-q9",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "On a map of scale $1:25\\ 000$, how far apart are two towns that are really $3$ km apart?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$1.2$ cm" },
+              { id: "b", text: "$120$ cm" },
+              { id: "c", text: "$12$ cm" },
+              { id: "d", text: "$7.5$ cm" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Real to map", statement: "$3$ km $=300\\ 000$ cm; $\\div25\\ 000=12$ cm." },
+            ],
+            steps: [
+              { reasoning: "$300\\ 000\\div25\\ 000=12$ cm.", working: "300\\ 000\\div25\\ 000=12", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** $12$ cm",
+            commonErrors: ["Choosing (d) — multiplying by the scale instead of dividing."],
+          },
+        },
+        {
+          id: "cilm-u2-sc-q10",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "A model is built at scale $1:25$. The real object is $50$ cm long. How long is the model?",
+          response: { type: "numeric", parts: [{ label: "Answer", answer: 2, unit: "cm" }] },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Scale factor", statement: "Model $=$ real $\\div$ scale: $50\\div25=2$ cm." },
+            ],
+            steps: [
+              { reasoning: "$50\\div25=2$ cm.", working: "50\\div25=2", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$2$ cm",
+            commonErrors: ["$1250$ cm — multiplying by 25 instead of dividing."],
+          },
+        },
+        {
+          id: "cilm-u2-sc-q11",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "A map has scale $1:10\\ 000$. (a) What real distance does $2$ cm represent? (b) How far apart on the map are two places really $1.5$ km apart?",
+          response: { type: "numeric", parts: [{ label: "(a)", answer: 200, unit: "m" }, { label: "(b)", answer: 15, unit: "cm" }] },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Scale conversion", statement: "Both directions: multiply for map→real, divide for real→map." },
+            ],
+            steps: [
+              { reasoning: "(a) $2\\times10\\ 000=20\\ 000$ cm $=200$ m.", working: "20\\ 000\\text{ cm}=200\\text{ m}", marks: 1, markCode: "A" },
+              { reasoning: "(b) $1.5$ km $=150\\ 000$ cm; $150\\ 000\\div10\\ 000=15$ cm.", working: "150\\ 000\\div10\\ 000=15", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "(a) $200$ m (b) $15$ cm",
+            commonErrors: ["In (b) multiplying by $10\\ 000$ gives $15\\ 000\\ 000$ — real→map needs division."],
+          },
+        },
+        {
+          id: "cilm-u2-sc-q12",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "A drawing uses scale $1:40$. A real object is $8$ m long. How long is it on the drawing?",
+          response: { type: "numeric", parts: [{ label: "Answer", answer: 20, unit: "cm" }] },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Scale factor", statement: "$8$ m $=800$ cm; $800\\div40=20$ cm." },
+            ],
+            steps: [
+              { reasoning: "$800\\div40=20$ cm.", working: "800\\div40=20", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$20$ cm",
+            commonErrors: ["$320$ cm — multiplying instead of dividing by the scale."],
+          },
+        },
+        {
+          id: "cilm-u2-sc-q13",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "On a map with scale $1:25\\ 000$, two villages are $6$ cm apart. Find the real distance between them in km.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Map scale", statement: "Map cm × scale → real cm → convert to km." },
+            ],
+            steps: [
+              { reasoning: "Real distance $=6\\times25\\ 000=150\\ 000$ cm.", working: "6\\times25\\ 000=150\\ 000", marks: 1, markCode: "M" },
+              { reasoning: "$150\\ 000$ cm $=1500$ m $=1.5$ km.", working: "150\\ 000\\text{ cm}=1.5\\text{ km}", marks: 1, markCode: "M" },
+              { reasoning: "Answer: $1.5$ km.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$1.5$ km",
+            commonErrors: ["$15$ km — decimal slip converting cm to km (divide by $100\\ 000$)."],
+          },
+        },
+        {
+          id: "cilm-u2-sc-q14",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "A model car is built at scale $1:36$. The model is $8$ cm long. Find the length of the real car in metres.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Scale factor", statement: "Real $=$ model $\\times$ scale; convert cm to m." },
+            ],
+            steps: [
+              { reasoning: "Real length $=8\\times36=288$ cm.", working: "8\\times36=288", marks: 1, markCode: "M" },
+              { reasoning: "$288$ cm $=2.88$ m.", working: "288\\text{ cm}=2.88\\text{ m}", marks: 1, markCode: "M" },
+              { reasoning: "Answer: $2.88$ m — a sensible car length.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$2.88$ m",
+            commonErrors: ["Leaving answer as $288$ cm — question asks for metres."],
+          },
+        },
+        {
+          id: "cilm-u2-sc-q15",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "A garden plan uses scale $1:200$. A patio is drawn as a rectangle $5$ cm by $3$ cm.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Scale and area", statement: "Convert each dimension to real units, then multiply for area." },
+            ],
+            steps: [
+              { reasoning: "Real length $=5\\times200=1000$ cm $=10$ m.", working: "10\\text{ m}", marks: 1, markCode: "M" },
+              { reasoning: "Real width $=3\\times200=600$ cm $=6$ m.", working: "6\\text{ m}", marks: 1, markCode: "M" },
+              { reasoning: "Area $=10\\times6=60$ m².", working: "10\\times6=60", marks: 1, markCode: "M" },
+              { reasoning: "Answer: $60\\ \\text{m}^2$.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$60\\ \\text{m}^2$",
+            commonErrors: ["Multiplying plan area $15$ cm² by $200$ — area scales by $200^2$, but converting dimensions first is safer."],
+          },
+        },
+        {
+          id: "cilm-u2-sc-q16",
+          difficulty: "challenge",
+          totalMarks: 8,
+          stem: "A tourist map has scale $1:50\\ 000$.",
+          parts: [
+            { label: "a", prompt: "Two sites are $4$ cm apart on the map. Find the real distance in km.", marks: 2 },
+            { label: "b", prompt: "A road is really $12$ km long. How long is it on the map, in cm?", marks: 2 },
+            { label: "c", prompt: "A lake covers $8$ cm² on the map. Find its real area in km².", marks: 3 },
+            { label: "d", prompt: "Explain why the area conversion uses the scale factor squared.", marks: 1 },
+          ],
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Scale problems", statement: "$1$ cm $=0.5$ km; areas scale by the square of the linear factor." },
+            ],
+            steps: [
+              { part: "a", reasoning: "$4\\times50\\ 000=200\\ 000$ cm $=2$ km.", working: "200\\ 000\\text{ cm}=2\\text{ km}", marks: 1, markCode: "M" },
+              { part: "a", reasoning: "Correct.", marks: 1, markCode: "A" },
+              { part: "b", reasoning: "$12$ km $=1\\ 200\\ 000$ cm; $1\\ 200\\ 000\\div50\\ 000=24$ cm.", working: "24\\text{ cm}", marks: 1, markCode: "M" },
+              { part: "b", reasoning: "Correct.", marks: 1, markCode: "A" },
+              { part: "c", reasoning: "$1$ cm² represents $(0.5)^2=0.25$ km²; $8\\times0.25=2$ km².", working: "8\\times0.25=2", marks: 1, markCode: "M" },
+              { part: "c", reasoning: "Squared factor applied correctly.", marks: 1, markCode: "M" },
+              { part: "c", reasoning: "$2$ km² correct.", marks: 1, markCode: "A" },
+              { part: "d", reasoning: "Area is two-dimensional — each dimension scales by $50\\ 000$, so area scales by $50\\ 000^2$.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "(a) $2$ km (b) $24$ cm (c) $2$ km² (d) area scales by factor squared",
+            levels: [
+              { level: "Level 2", marks: "1-2", descriptor: "Distance correct.", part: "a" },
+              { level: "Level 1", marks: "0", descriptor: "Wrong.", part: "a" },
+              { level: "Level 2", marks: "1-2", descriptor: "Map length correct.", part: "b" },
+              { level: "Level 1", marks: "0", descriptor: "Wrong.", part: "b" },
+              { level: "Level 3", marks: "2-3", descriptor: "Area correct with squared factor.", part: "c" },
+              { level: "Level 2", marks: "1", descriptor: "Partial.", part: "c" },
+              { level: "Level 2", marks: "1", descriptor: "Explained.", part: "d" },
+              { level: "Level 1", marks: "0", descriptor: "Missing.", part: "d" },
+            ],
+            commonErrors: ["In (c) multiplying $8$ by $0.5$ — area needs the square of the scale."],
+          },
+        },
       ],
     },
     {
@@ -187,10 +467,10 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The $400\\ \\text{g}$ pack" },
-              { id: "b", text: "The $650\\ \\text{g}$ pack" },
+              { id: "a", text: "Cannot tell without more information" },
+              { id: "b", text: "The $400\\ \\text{g}$ pack" },
               { id: "c", text: "They are equal value" },
-              { id: "d", text: "Cannot tell without more information" },
+              { id: "d", text: "The $650\\ \\text{g}$ pack" },
             ],
             correctChoiceId: "c",
           },
@@ -282,6 +562,286 @@ export const lesson23: Lesson = {
               { level: "Level 2", marks: "1", descriptor: "Partial.", part: "d" },
             ],
             commonErrors: ["In (d) forgetting jars are discrete — can't buy fractional jars."],
+          },
+        },
+        {
+          id: "cilm-u2-bb-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Which is better value: $2\\ \\text{L}$ of juice for $\\pounds3.00$ or $5\\ \\text{L}$ for $\\pounds6.50$?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "They are equal value" },
+              { id: "b", text: "The $2\\ \\text{L}$ bottle" },
+              { id: "c", text: "Cannot tell" },
+              { id: "d", text: "The $5\\ \\text{L}$ bottle" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Unit price", statement: "Per litre: $\\pounds1.50$ vs $\\pounds1.30$ — bigger bottle wins." },
+            ],
+            steps: [
+              { reasoning: "$3.00\\div2=1.50$; $6.50\\div5=1.30$ — lower unit price wins.", working: "1.50 \\text{ vs } 1.30", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(b)** The $5\\ \\text{L}$ bottle ($\\pounds1.30$/L vs $\\pounds1.50$/L)",
+            commonErrors: ["Choosing (a) — lower total price but higher price per litre."],
+          },
+        },
+        {
+          id: "cilm-u2-bb-q6",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "A carton of $10$ eggs costs $\\pounds2.20$. What is the cost of one egg?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$220\\text{p}$" },
+              { id: "b", text: "$20\\text{p}$" },
+              { id: "c", text: "$\\pounds2.20$" },
+              { id: "d", text: "$22\\text{p}$" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              { kind: "convention", name: "Unit price", statement: "$2.20\\div10=\\pounds0.22=22$ p." },
+            ],
+            steps: [
+              { reasoning: "$2.20\\div10=\\pounds0.22$ per egg.", working: "2.20\\div10=0.22", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** $22\\text{p}$",
+            commonErrors: ["Choosing (c) — $22$ pence, not $\\pounds22$; check the unit."],
+          },
+        },
+        {
+          id: "cilm-u2-bb-q7",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "A shop offers 'buy one get one free' on an item normally costing $\\pounds3$. What is the effective cost per item when buying two?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$\\pounds2$" },
+              { id: "b", text: "$\\pounds3$" },
+              { id: "c", text: "$\\pounds1.50$" },
+              { id: "d", text: "$\\pounds0.75$" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Multibuy offers", statement: "Pay for 1, get 2 → pay $\\pounds3$ for 2 items." },
+            ],
+            steps: [
+              { reasoning: "$3\\div2=\\pounds1.50$ per item.", working: "3\\div2=1.50", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** $\\pounds1.50$",
+            commonErrors: ["Choosing (c) — halving the price is wrong; you pay full price for one item."],
+          },
+        },
+        {
+          id: "cilm-u2-bb-q8",
+          difficulty: "challenge",
+          totalMarks: 1,
+          stem: "Product A costs $\\pounds50$ with $20\\%$ off; Product B costs $\\pounds30$ with $10\\%$ off. Which gives the bigger discount in pounds?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "They save the same amount" },
+              { id: "b", text: "Product B — saves $\\pounds3$" },
+              { id: "c", text: "Product A — saves $\\pounds10$" },
+              { id: "d", text: "Cannot tell" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Discount comparison", statement: "A: $20\\%$ of $50=\\pounds10$; B: $10\\%$ of $30=\\pounds3$." },
+            ],
+            steps: [
+              { reasoning: "$0.20\\times50=10$; $0.10\\times30=3$ — A saves $\\pounds7$ more.", working: "10 \\text{ vs } 3", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** Product A — $\\pounds10$ vs $\\pounds3$ discount",
+            commonErrors: ["Choosing (c) — same percentage doesn't mean same pound saving."],
+          },
+        },
+        {
+          id: "cilm-u2-bb-q9",
+          difficulty: "challenge",
+          totalMarks: 1,
+          stem: "Which is better value per item: $3$ for $\\pounds2$ or $5$ for $\\pounds3.50$?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$5$ for $\\pounds3.50$ ($70\\text{p}$ each)" },
+              { id: "b", text: "Cannot tell" },
+              { id: "c", text: "They are equal" },
+              { id: "d", text: "$3$ for $\\pounds2$ ($\\approx66.7\\text{p}$ each)" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Unit price", statement: "Per item: $200\\div3\\approx66.7$ p vs $350\\div5=70$ p." },
+            ],
+            steps: [
+              { reasoning: "$66.7\\text{p} < 70\\text{p}$ — first deal is cheaper per item.", working: "66.7<70", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** $3$ for $\\pounds2$",
+            commonErrors: ["Choosing (b) — comparing total prices instead of unit prices."],
+          },
+        },
+        {
+          id: "cilm-u2-bb-q10",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "A bottle of $750\\ \\text{ml}$ of cordial costs $\\pounds1.35$. What is the price per litre?",
+          response: { type: "numeric", parts: [{ label: "Answer", answer: 1.8, unit: "pounds per litre" }] },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Unit rate", statement: "$750$ ml $=0.75$ L; $1.35\\div0.75=1.80$." },
+            ],
+            steps: [
+              { reasoning: "$1.35\\div0.75=\\pounds1.80$ per litre.", working: "1.35\\div0.75=1.80", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$\\pounds1.80$ per litre",
+            commonErrors: ["$0.0018$ — dividing by 750 instead of converting ml to litres."],
+          },
+        },
+        {
+          id: "cilm-u2-bb-q11",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "(a) Find the price per 100 g of $400\\ \\text{g}$ of cheese costing $\\pounds1.60$. (b) Find the price per kg of $1.2\\ \\text{kg}$ of apples costing $\\pounds5.40$.",
+          response: { type: "numeric", parts: [{ label: "(a)", answer: 0.4, unit: "pounds per 100 g" }, { label: "(b)", answer: 4.5, unit: "pounds per kg" }] },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Unit price", statement: "Normalise to common units before comparing." },
+            ],
+            steps: [
+              { reasoning: "(a) $400\\text{ g}=4$ units of 100 g; $1.60\\div4=\\pounds0.40$.", working: "1.60\\div4=0.40", marks: 1, markCode: "A" },
+              { reasoning: "(b) $5.40\\div1.2=\\pounds4.50$ per kg.", working: "5.40\\div1.2=4.50", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "(a) $\\pounds0.40$/100 g (b) $\\pounds4.50$/kg",
+            commonErrors: ["In (a) $1.60\\div400$ gives price per gram, not per 100 g."],
+          },
+        },
+        {
+          id: "cilm-u2-bb-q12",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "A coat originally costing $\\pounds80$ is reduced by $15\\%$. What is the sale price?",
+          response: { type: "numeric", parts: [{ label: "Answer", answer: 68, unit: "pounds" }] },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Percentage discount", statement: "Discount $=0.15\\times80=12$; sale price $=80-12=68$." },
+            ],
+            steps: [
+              { reasoning: "$0.85\\times80=\\pounds68$ (or $80-12$).", working: "0.85\\times80=68", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$\\pounds68$",
+            commonErrors: ["$\\pounds12$ — that's the discount, not the sale price."],
+          },
+        },
+        {
+          id: "cilm-u2-bb-q13",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "Which is better value: $1\\ \\text{kg}$ of rice for $\\pounds3.20$ or $750\\ \\text{g}$ for $\\pounds2.55$?",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Best buy", statement: "Convert to price per kg — the common unit." },
+            ],
+            steps: [
+              { reasoning: "Deal 1: $\\pounds3.20$ per kg.", working: "3.20\\text{ per kg}", marks: 1, markCode: "M" },
+              { reasoning: "Deal 2: $2.55\\div0.75=\\pounds3.40$ per kg.", working: "2.55\\div0.75=3.40", marks: 1, markCode: "M" },
+              { reasoning: "Deal 1 is cheaper per kg — better value.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$1\\ \\text{kg}$ for $\\pounds3.20$ is better value ($\\pounds3.20$ vs $\\pounds3.40$ per kg)",
+            commonErrors: ["Choosing the smaller pack because $\\pounds2.55<\\pounds3.20$ — unit price decides."],
+          },
+        },
+        {
+          id: "cilm-u2-bb-q14",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "A shop sells yoghurts singly at $70\\text{p}$ each, or $3$ for $\\pounds1.80$. How much does a customer save per yoghurt by buying the pack of 3?",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Unit price and savings", statement: "Pack price per yoghurt $=180\\div3=60$ p; saving $=70-60=10$ p." },
+            ],
+            steps: [
+              { reasoning: "Pack price per yoghurt $=180\\text{p}\\div3=60\\text{p}$.", working: "180\\div3=60", marks: 1, markCode: "M" },
+              { reasoning: "Saving per yoghurt $=70-60=10\\text{p}$.", working: "70-60=10", marks: 1, markCode: "M" },
+              { reasoning: "Answer: $10\\text{p}$ per yoghurt.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$10\\text{p}$ per yoghurt",
+            commonErrors: ["$\\pounds1.80-70\\text{p}$ — must compare per-yoghurt prices, not pack vs single."],
+          },
+        },
+        {
+          id: "cilm-u2-bb-q15",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "Two deals on the same squash: $6$ bottles of $2\\ \\text{L}$ for $\\pounds4.80$, or $4$ bottles of $1.5\\ \\text{L}$ for $\\pounds3.90$. Which deal is better value per litre?",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Best buy", statement: "Compute total volume and total price, then price per litre." },
+            ],
+            steps: [
+              { reasoning: "Deal 1: $12$ L for $\\pounds4.80$ → $4.80\\div12=\\pounds0.40$/L.", working: "4.80\\div12=0.40", marks: 1, markCode: "M" },
+              { reasoning: "Deal 2: $6$ L for $\\pounds3.90$ → $3.90\\div6=\\pounds0.65$/L.", working: "3.90\\div6=0.65", marks: 1, markCode: "M" },
+              { reasoning: "Deal 1 much cheaper per litre.", marks: 1, markCode: "M" },
+              { reasoning: "Answer: the $6\\times2\\text{ L}$ deal.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "Deal 1 — $\\pounds0.40$/L vs $\\pounds0.65$/L",
+            commonErrors: ["Comparing per bottle — bottle sizes differ, must compare per litre."],
+          },
+        },
+        {
+          id: "cilm-u2-bb-q16",
+          difficulty: "challenge",
+          totalMarks: 8,
+          stem: "A supermarket compares two brands of cereal.",
+          parts: [
+            { label: "a", prompt: "Brand X: $500\\ \\text{g}$ for $\\pounds1.90$. Find the price per 100 g.", marks: 2 },
+            { label: "b", prompt: "Brand Y: $750\\ \\text{g}$ for $\\pounds2.70$. Find the price per 100 g.", marks: 2 },
+            { label: "c", prompt: "Which brand is better value? Justify with unit prices.", marks: 2 },
+            { label: "d", prompt: "How much would $1.5\\ \\text{kg}$ of each brand cost (buying whole boxes)?", marks: 2 },
+          ],
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Best buys", statement: "Normalise to per 100 g; boxes are discrete so round up." },
+            ],
+            steps: [
+              { part: "a", reasoning: "$1.90\\div5=\\pounds0.38$ per 100 g.", working: "1.90\\div5=0.38", marks: 1, markCode: "M" },
+              { part: "a", reasoning: "Correct.", marks: 1, markCode: "A" },
+              { part: "b", reasoning: "$2.70\\div7.5=\\pounds0.36$ per 100 g.", working: "2.70\\div7.5=0.36", marks: 1, markCode: "M" },
+              { part: "b", reasoning: "Correct.", marks: 1, markCode: "A" },
+              { part: "c", reasoning: "Brand Y cheaper per 100 g ($0.36<0.38$) — better value.", working: "0.36<0.38", marks: 1, markCode: "M" },
+              { part: "c", reasoning: "Justified numerically.", marks: 1, markCode: "A" },
+              { part: "d", reasoning: "X: $3$ boxes $=1500$ g, cost $3\\times1.90=\\pounds5.70$; Y: $2$ boxes $=1500$ g, cost $2\\times2.70=\\pounds5.40$.", working: "X:\\pounds5.70; Y:\\pounds5.40", marks: 1, markCode: "M" },
+              { part: "d", reasoning: "Y cheaper overall — consistent with (c).", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "(a) $\\pounds0.38$/100 g (b) $\\pounds0.36$/100 g (c) Brand Y (d) X: $\\pounds5.70$; Y: $\\pounds5.40$",
+            levels: [
+              { level: "Level 2", marks: "1-2", descriptor: "Unit price correct.", part: "a" },
+              { level: "Level 1", marks: "0", descriptor: "Wrong.", part: "a" },
+              { level: "Level 2", marks: "1-2", descriptor: "Unit price correct.", part: "b" },
+              { level: "Level 1", marks: "0", descriptor: "Wrong.", part: "b" },
+              { level: "Level 2", marks: "1-2", descriptor: "Comparison justified.", part: "c" },
+              { level: "Level 1", marks: "0", descriptor: "Wrong.", part: "c" },
+              { level: "Level 2", marks: "1-2", descriptor: "Costs correct.", part: "d" },
+              { level: "Level 1", marks: "0", descriptor: "Wrong.", part: "d" },
+            ],
+            commonErrors: ["In (d) buying fractional boxes — must round up to whole boxes."],
           },
         },
       ],

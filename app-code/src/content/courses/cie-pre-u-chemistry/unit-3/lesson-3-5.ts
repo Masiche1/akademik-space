@@ -110,9 +110,9 @@ export const lesson35: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Large molecule made of many monomers" },
-              { id: "b", text: "Small molecule" },
-              { id: "c", text: "Monomer" },
-              { id: "d", text: "No molecule" },
+              { id: "b", text: "No molecule" },
+              { id: "c", text: "Small molecule" },
+              { id: "d", text: "Monomer" },
             ],
             correctChoiceId: "a",
           },
@@ -142,12 +142,12 @@ export const lesson35: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Ethene" },
+              { id: "a", text: "Ethanol" },
               { id: "b", text: "Ethane" },
-              { id: "c", text: "Ethanol" },
+              { id: "c", text: "Ethene" },
               { id: "d", text: "Ethanoic acid" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -170,9 +170,9 @@ export const lesson35: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Vinyl chloride" },
-              { id: "b", text: "Ethene" },
-              { id: "c", text: "Propene" },
-              { id: "d", text: "Styrene" },
+              { id: "b", text: "Propene" },
+              { id: "c", text: "Styrene" },
+              { id: "d", text: "Ethene" },
             ],
             correctChoiceId: "a",
           },
@@ -194,12 +194,12 @@ export const lesson35: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Styrene" },
-              { id: "b", text: "Ethene" },
-              { id: "c", text: "Propene" },
-              { id: "d", text: "Vinyl chloride" },
+              { id: "a", text: "Ethene" },
+              { id: "b", text: "Vinyl chloride" },
+              { id: "c", text: "Styrene" },
+              { id: "d", text: "Propene" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -222,9 +222,9 @@ export const lesson35: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Condensation polymer" },
-              { id: "b", text: "Addition polymer" },
+              { id: "b", text: "No polymer" },
               { id: "c", text: "Monomer" },
-              { id: "d", text: "No polymer" },
+              { id: "d", text: "Addition polymer" },
             ],
             correctChoiceId: "a",
           },
@@ -250,12 +250,12 @@ export const lesson35: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Condensation polymer" },
-              { id: "b", text: "Addition polymer" },
+              { id: "a", text: "No polymer" },
+              { id: "b", text: "Condensation polymer" },
               { id: "c", text: "Monomer" },
-              { id: "d", text: "No polymer" },
+              { id: "d", text: "Addition polymer" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -284,9 +284,9 @@ export const lesson35: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Softens when heated — can be reshaped" },
-              { id: "b", text: "Hardens permanently" },
-              { id: "c", text: "No change" },
-              { id: "d", text: "Burns" },
+              { id: "b", text: "No change" },
+              { id: "c", text: "Burns" },
+              { id: "d", text: "Hardens permanently" },
             ],
             correctChoiceId: "a",
           },
@@ -316,12 +316,12 @@ export const lesson35: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Hardens permanently — can't be reshaped" },
-              { id: "b", text: "Softens when heated" },
+              { id: "a", text: "Melts" },
+              { id: "b", text: "Hardens permanently — can't be reshaped" },
               { id: "c", text: "No change" },
-              { id: "d", text: "Melts" },
+              { id: "d", text: "Softens when heated" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -347,8 +347,8 @@ export const lesson35: Lesson = {
             choices: [
               { id: "a", text: "Non-stick coatings" },
               { id: "b", text: "Bottles" },
-              { id: "c", text: "Clothing" },
-              { id: "d", text: "Ropes" },
+              { id: "c", text: "Ropes" },
+              { id: "d", text: "Clothing" },
             ],
             correctChoiceId: "a",
           },
@@ -370,12 +370,12 @@ export const lesson35: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "PMMA (methyl methacrylate)" },
-              { id: "b", text: "PE" },
-              { id: "c", text: "PVC" },
-              { id: "d", text: "PS" },
+              { id: "a", text: "PS" },
+              { id: "b", text: "PVC" },
+              { id: "c", text: "PMMA (methyl methacrylate)" },
+              { id: "d", text: "PE" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -393,12 +393,12 @@ export const lesson35: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Polymer without byproduct" },
+              { id: "a", text: "Only monomer" },
               { id: "b", text: "Polymer + water" },
-              { id: "c", text: "Only monomer" },
+              { id: "c", text: "Polymer without byproduct" },
               { id: "d", text: "Gas" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -426,12 +426,12 @@ export const lesson35: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Polymer + small molecule (e.g., water)" },
-              { id: "b", text: "Only polymer" },
-              { id: "c", text: "Only monomer" },
-              { id: "d", text: "No product" },
+              { id: "a", text: "Only polymer" },
+              { id: "b", text: "Only monomer" },
+              { id: "c", text: "No product" },
+              { id: "d", text: "Polymer + small molecule (e.g., water)" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -459,12 +459,12 @@ export const lesson35: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Cellulose" },
-              { id: "b", text: "PE" },
-              { id: "c", text: "PVC" },
+              { id: "a", text: "PE" },
+              { id: "b", text: "PVC" },
+              { id: "c", text: "Cellulose" },
               { id: "d", text: "Nylon" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -488,12 +488,12 @@ export const lesson35: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Natural polymer of glucose" },
-              { id: "b", text: "Synthetic polymer" },
-              { id: "c", text: "Monomer" },
-              { id: "d", text: "No polymer" },
+              { id: "a", text: "Monomer" },
+              { id: "b", text: "No polymer" },
+              { id: "c", text: "Synthetic polymer" },
+              { id: "d", text: "Natural polymer of glucose" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -523,8 +523,8 @@ export const lesson35: Lesson = {
             choices: [
               { id: "a", text: "Natural condensation polymers of amino acids" },
               { id: "b", text: "Synthetic" },
-              { id: "c", text: "Monomers" },
-              { id: "d", text: "No polymer" },
+              { id: "c", text: "No polymer" },
+              { id: "d", text: "Monomers" },
             ],
             correctChoiceId: "a",
           },
@@ -554,12 +554,12 @@ export const lesson35: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Natural polymer of nucleotides" },
-              { id: "b", text: "Synthetic polymer" },
-              { id: "c", text: "Monomer" },
-              { id: "d", text: "No polymer" },
+              { id: "a", text: "Synthetic polymer" },
+              { id: "b", text: "No polymer" },
+              { id: "c", text: "Natural polymer of nucleotides" },
+              { id: "d", text: "Monomer" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -587,12 +587,12 @@ export const lesson35: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Decomposes naturally" },
-              { id: "b", text: "Lasts forever" },
-              { id: "c", text: "No change" },
-              { id: "d", text: "Burns" },
+              { id: "a", text: "Burns" },
+              { id: "b", text: "No change" },
+              { id: "c", text: "Decomposes naturally" },
+              { id: "d", text: "Lasts forever" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -620,12 +620,12 @@ export const lesson35: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Non-biodegradable" },
-              { id: "b", text: "Biodegradable" },
-              { id: "c", text: "Natural" },
-              { id: "d", text: "No change" },
+              { id: "a", text: "Natural" },
+              { id: "b", text: "Non-biodegradable" },
+              { id: "c", text: "No change" },
+              { id: "d", text: "Biodegradable" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -654,8 +654,8 @@ export const lesson35: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Polyester fibre" },
-              { id: "b", text: "Polyamide" },
-              { id: "c", text: "Addition polymer" },
+              { id: "b", text: "Addition polymer" },
+              { id: "c", text: "Polyamide" },
               { id: "d", text: "Monomer" },
             ],
             correctChoiceId: "a",
@@ -811,9 +811,9 @@ export const lesson35: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Thermoset polymer" },
-              { id: "b", text: "Thermoplastic" },
-              { id: "c", text: "Monomer" },
-              { id: "d", text: "No polymer" },
+              { id: "b", text: "Monomer" },
+              { id: "c", text: "No polymer" },
+              { id: "d", text: "Thermoplastic" },
             ],
             correctChoiceId: "a",
           },
@@ -899,8 +899,8 @@ export const lesson35: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "3-12" },
-              { id: "b", text: "1-2" },
-              { id: "c", text: "13-18" },
+              { id: "b", text: "13-18" },
+              { id: "c", text: "1-2" },
               { id: "d", text: "All groups" },
             ],
             correctChoiceId: "a",
@@ -1071,9 +1071,9 @@ export const lesson35: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "3-12" },
-              { id: "b", text: "1-2" },
-              { id: "c", text: "13-18" },
-              { id: "d", text: "All groups" },
+              { id: "b", text: "All groups" },
+              { id: "c", text: "1-2" },
+              { id: "d", text: "13-18" },
             ],
             correctChoiceId: "a",
           },
@@ -1100,8 +1100,8 @@ export const lesson35: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "d-electrons participate in bonding" },
-              { id: "b", text: "s-electrons only" },
-              { id: "c", text: "No electrons" },
+              { id: "b", text: "No electrons" },
+              { id: "c", text: "s-electrons only" },
               { id: "d", text: "Fixed oxidation" },
             ],
             correctChoiceId: "a",
@@ -1129,9 +1129,9 @@ export const lesson35: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "d-d transitions" },
-              { id: "b", text: "s-s transitions" },
-              { id: "c", text: "p-p transitions" },
-              { id: "d", text: "No transitions" },
+              { id: "b", text: "No transitions" },
+              { id: "c", text: "s-s transitions" },
+              { id: "d", text: "p-p transitions" },
             ],
             correctChoiceId: "a",
           },
@@ -1155,12 +1155,12 @@ export const lesson35: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Molecule/ion bonded to metal in complex" },
-              { id: "b", text: "Metal ion" },
-              { id: "c", text: "Any atom" },
-              { id: "d", text: "No bond" },
+              { id: "a", text: "Any atom" },
+              { id: "b", text: "No bond" },
+              { id: "c", text: "Molecule/ion bonded to metal in complex" },
+              { id: "d", text: "Metal ion" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1188,12 +1188,12 @@ export const lesson35: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Metal ion + ligands" },
-              { id: "b", text: "Only metal" },
-              { id: "c", text: "Only ligands" },
-              { id: "d", text: "No metal" },
+              { id: "a", text: "No metal" },
+              { id: "b", text: "Only ligands" },
+              { id: "c", text: "Metal ion + ligands" },
+              { id: "d", text: "Only metal" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1222,9 +1222,9 @@ export const lesson35: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Number of ligand bonds" },
-              { id: "b", text: "Number of metals" },
-              { id: "c", text: "Number of electrons" },
-              { id: "d", text: "No number" },
+              { id: "b", text: "No number" },
+              { id: "c", text: "Number of metals" },
+              { id: "d", text: "Number of electrons" },
             ],
             correctChoiceId: "a",
           },
@@ -1254,12 +1254,12 @@ export const lesson35: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Iron (Fe)" },
-              { id: "b", text: "Nickel" },
-              { id: "c", text: "Platinum" },
-              { id: "d", text: "No catalyst" },
+              { id: "a", text: "Platinum" },
+              { id: "b", text: "Iron (Fe)" },
+              { id: "c", text: "No catalyst" },
+              { id: "d", text: "Nickel" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1278,9 +1278,9 @@ export const lesson35: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "V₂O₅ (vanadium pentoxide)" },
-              { id: "b", text: "Fe" },
-              { id: "c", text: "Ni" },
-              { id: "d", text: "No catalyst" },
+              { id: "b", text: "No catalyst" },
+              { id: "c", text: "Fe" },
+              { id: "d", text: "Ni" },
             ],
             correctChoiceId: "a",
           },
@@ -1304,12 +1304,12 @@ export const lesson35: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Nickel (Ni)" },
-              { id: "b", text: "Fe" },
-              { id: "c", text: "Pt" },
-              { id: "d", text: "No catalyst" },
+              { id: "a", text: "No catalyst" },
+              { id: "b", text: "Nickel (Ni)" },
+              { id: "c", text: "Fe" },
+              { id: "d", text: "Pt" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1335,8 +1335,8 @@ export const lesson35: Lesson = {
             choices: [
               { id: "a", text: "Pt, Pd, Rh" },
               { id: "b", text: "Fe only" },
-              { id: "c", text: "Ni only" },
-              { id: "d", text: "No metals" },
+              { id: "c", text: "No metals" },
+              { id: "d", text: "Ni only" },
             ],
             correctChoiceId: "a",
           },
@@ -1362,12 +1362,12 @@ export const lesson35: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Variable oxidation states" },
-              { id: "b", text: "Fixed oxidation" },
-              { id: "c", text: "No oxidation" },
-              { id: "d", text: "Same oxidation" },
+              { id: "a", text: "No oxidation" },
+              { id: "b", text: "Variable oxidation states" },
+              { id: "c", text: "Same oxidation" },
+              { id: "d", text: "Fixed oxidation" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1391,12 +1391,12 @@ export const lesson35: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "d-d transitions" },
-              { id: "b", text: "s-s transitions" },
-              { id: "c", text: "No transitions" },
-              { id: "d", text: "Ionic bonds" },
+              { id: "a", text: "Ionic bonds" },
+              { id: "b", text: "d-d transitions" },
+              { id: "c", text: "s-s transitions" },
+              { id: "d", text: "No transitions" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1418,12 +1418,12 @@ export const lesson35: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Electron pair to metal" },
+              { id: "a", text: "No electrons" },
               { id: "b", text: "Proton" },
-              { id: "c", text: "Neutron" },
-              { id: "d", text: "No electrons" },
+              { id: "c", text: "Electron pair to metal" },
+              { id: "d", text: "Neutron" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1451,12 +1451,12 @@ export const lesson35: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "H₂O, NH₃, CN⁻, Cl⁻" },
-              { id: "b", text: "Only H₂O" },
-              { id: "c", text: "Only NH₃" },
-              { id: "d", text: "No ligands" },
+              { id: "a", text: "Only NH₃" },
+              { id: "b", text: "No ligands" },
+              { id: "c", text: "Only H₂O" },
+              { id: "d", text: "H₂O, NH₃, CN⁻, Cl⁻" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1485,9 +1485,9 @@ export const lesson35: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "6" },
-              { id: "b", text: "4" },
-              { id: "c", text: "2" },
-              { id: "d", text: "8" },
+              { id: "b", text: "2" },
+              { id: "c", text: "8" },
+              { id: "d", text: "4" },
             ],
             correctChoiceId: "a",
           },
@@ -1512,8 +1512,8 @@ export const lesson35: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "4" },
-              { id: "b", text: "6" },
-              { id: "c", text: "2" },
+              { id: "b", text: "2" },
+              { id: "c", text: "6" },
               { id: "d", text: "8" },
             ],
             correctChoiceId: "a",
@@ -1538,12 +1538,12 @@ export const lesson35: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Provide alternative reaction pathways" },
-              { id: "b", text: "Are consumed" },
-              { id: "c", text: "Increase temperature" },
-              { id: "d", text: "No mechanism" },
+              { id: "a", text: "Are consumed" },
+              { id: "b", text: "Provide alternative reaction pathways" },
+              { id: "c", text: "No mechanism" },
+              { id: "d", text: "Increase temperature" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1567,12 +1567,12 @@ export const lesson35: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Deep blue" },
+              { id: "a", text: "Colourless" },
               { id: "b", text: "Red" },
               { id: "c", text: "Green" },
-              { id: "d", text: "Colourless" },
+              { id: "d", text: "Deep blue" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1596,12 +1596,12 @@ export const lesson35: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "+2 to +7" },
-              { id: "b", text: "+1 to +2" },
+              { id: "a", text: "Only +4" },
+              { id: "b", text: "+2 to +7" },
               { id: "c", text: "Only +2" },
-              { id: "d", text: "Only +4" },
+              { id: "d", text: "+1 to +2" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1754,12 +1754,12 @@ export const lesson35: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Both electrons from one atom" },
-              { id: "b", text: "Shared equally" },
-              { id: "c", text: "Ionic" },
-              { id: "d", text: "No bond" },
+              { id: "a", text: "Ionic" },
+              { id: "b", text: "No bond" },
+              { id: "c", text: "Shared equally" },
+              { id: "d", text: "Both electrons from one atom" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1851,9 +1851,9 @@ export const lesson35: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Delocalised electrons" },
-              { id: "b", text: "Ions" },
-              { id: "c", text: "Shared electrons" },
-              { id: "d", text: "No electrons" },
+              { id: "b", text: "No electrons" },
+              { id: "c", text: "Ions" },
+              { id: "d", text: "Shared electrons" },
             ],
             correctChoiceId: "a",
           },
@@ -2025,8 +2025,8 @@ export const lesson35: Lesson = {
             choices: [
               { id: "a", text: "78% N₂, 21% O₂" },
               { id: "b", text: "50% N₂, 50% O₂" },
-              { id: "c", text: "90% N₂, 10% O₂" },
-              { id: "d", text: "21% N₂, 78% O₂" },
+              { id: "c", text: "21% N₂, 78% O₂" },
+              { id: "d", text: "90% N₂, 10% O₂" },
             ],
             correctChoiceId: "a",
           },
@@ -2052,12 +2052,12 @@ export const lesson35: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Incomplete combustion" },
-              { id: "b", text: "Complete combustion" },
-              { id: "c", text: "Photosynthesis" },
-              { id: "d", text: "Respiration" },
+              { id: "a", text: "Complete combustion" },
+              { id: "b", text: "Respiration" },
+              { id: "c", text: "Incomplete combustion" },
+              { id: "d", text: "Photosynthesis" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -2087,8 +2087,8 @@ export const lesson35: Lesson = {
             choices: [
               { id: "a", text: "High temperature combustion" },
               { id: "b", text: "Low temperature" },
-              { id: "c", text: "Photosynthesis" },
-              { id: "d", text: "Respiration" },
+              { id: "c", text: "Respiration" },
+              { id: "d", text: "Photosynthesis" },
             ],
             correctChoiceId: "a",
           },
@@ -2112,12 +2112,12 @@ export const lesson35: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Burning sulfur-containing fuels" },
-              { id: "b", text: "Complete combustion" },
-              { id: "c", text: "Photosynthesis" },
-              { id: "d", text: "Respiration" },
+              { id: "a", text: "Photosynthesis" },
+              { id: "b", text: "Burning sulfur-containing fuels" },
+              { id: "c", text: "Respiration" },
+              { id: "d", text: "Complete combustion" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -2143,8 +2143,8 @@ export const lesson35: Lesson = {
             choices: [
               { id: "a", text: "CO₂" },
               { id: "b", text: "O₂" },
-              { id: "c", text: "N₂" },
-              { id: "d", text: "Ar" },
+              { id: "c", text: "Ar" },
+              { id: "d", text: "N₂" },
             ],
             correctChoiceId: "a",
           },
@@ -2166,12 +2166,12 @@ export const lesson35: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "< 5.6" },
-              { id: "b", text: "> 7" },
-              { id: "c", text: "= 7" },
+              { id: "a", text: "> 7" },
+              { id: "b", text: "= 7" },
+              { id: "c", text: "< 5.6" },
               { id: "d", text: "Any pH" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -2192,9 +2192,9 @@ export const lesson35: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "CFCs" },
-              { id: "b", text: "CO₂" },
-              { id: "c", text: "O₂" },
-              { id: "d", text: "N₂" },
+              { id: "b", text: "N₂" },
+              { id: "c", text: "CO₂" },
+              { id: "d", text: "O₂" },
             ],
             correctChoiceId: "a",
           },
@@ -2220,12 +2220,12 @@ export const lesson35: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Natural warming of Earth by atmosphere" },
-              { id: "b", text: "Global warming only" },
-              { id: "c", text: "No effect" },
-              { id: "d", text: "Cooling" },
+              { id: "a", text: "Global warming only" },
+              { id: "b", text: "Natural warming of Earth by atmosphere" },
+              { id: "c", text: "Cooling" },
+              { id: "d", text: "No effect" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -2253,12 +2253,12 @@ export const lesson35: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Tiny solid/liquid particles in air" },
-              { id: "b", text: "Gases only" },
+              { id: "a", text: "Gases only" },
+              { id: "b", text: "Tiny solid/liquid particles in air" },
               { id: "c", text: "No particles" },
               { id: "d", text: "Large objects" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -2286,12 +2286,12 @@ export const lesson35: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Pollutants + sunlight" },
-              { id: "b", text: "Clean air" },
-              { id: "c", text: "Water only" },
-              { id: "d", text: "No pollutants" },
+              { id: "a", text: "Water only" },
+              { id: "b", text: "No pollutants" },
+              { id: "c", text: "Clean air" },
+              { id: "d", text: "Pollutants + sunlight" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -2319,12 +2319,12 @@ export const lesson35: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "0.04%" },
-              { id: "b", text: "4%" },
-              { id: "c", text: "40%" },
-              { id: "d", text: "0.4%" },
+              { id: "a", text: "4%" },
+              { id: "b", text: "40%" },
+              { id: "c", text: "0.4%" },
+              { id: "d", text: "0.04%" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -2347,8 +2347,8 @@ export const lesson35: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "CO and NOₓ emissions" },
-              { id: "b", text: "CO₂" },
-              { id: "c", text: "O₂" },
+              { id: "b", text: "O₂" },
+              { id: "c", text: "CO₂" },
               { id: "d", text: "N₂" },
             ],
             correctChoiceId: "a",
@@ -2376,8 +2376,8 @@ export const lesson35: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "SO₂" },
-              { id: "b", text: "CO₂" },
-              { id: "c", text: "NOₓ" },
+              { id: "b", text: "NOₓ" },
+              { id: "c", text: "CO₂" },
               { id: "d", text: "CO" },
             ],
             correctChoiceId: "a",
@@ -2398,12 +2398,12 @@ export const lesson35: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Fuel from biological sources" },
-              { id: "b", text: "Fossil fuel" },
-              { id: "c", text: "Nuclear fuel" },
-              { id: "d", text: "No fuel" },
+              { id: "a", text: "Nuclear fuel" },
+              { id: "b", text: "No fuel" },
+              { id: "c", text: "Fossil fuel" },
+              { id: "d", text: "Fuel from biological sources" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -2427,12 +2427,12 @@ export const lesson35: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Fermentation of sugars" },
-              { id: "b", text: "Combustion" },
-              { id: "c", text: "Photosynthesis" },
-              { id: "d", text: "No process" },
+              { id: "a", text: "No process" },
+              { id: "b", text: "Photosynthesis" },
+              { id: "c", text: "Combustion" },
+              { id: "d", text: "Fermentation of sugars" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -2456,12 +2456,12 @@ export const lesson35: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Removes CO₂ from atmosphere" },
-              { id: "b", text: "Adds CO₂" },
+              { id: "a", text: "Adds CO₂" },
+              { id: "b", text: "Removes CO₂ from atmosphere" },
               { id: "c", text: "No effect" },
               { id: "d", text: "Produces CO₂" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -2481,12 +2481,12 @@ export const lesson35: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "SO₂/NOₓ react with water" },
-              { id: "b", text: "CO₂ dissolves" },
+              { id: "a", text: "CO₂ dissolves" },
+              { id: "b", text: "SO₂/NOₓ react with water" },
               { id: "c", text: "O₂ dissolves" },
               { id: "d", text: "No reaction" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -2515,9 +2515,9 @@ export const lesson35: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "UV radiation" },
-              { id: "b", text: "Visible light" },
+              { id: "b", text: "All radiation" },
               { id: "c", text: "Infrared" },
-              { id: "d", text: "All radiation" },
+              { id: "d", text: "Visible light" },
             ],
             correctChoiceId: "a",
           },
@@ -2543,12 +2543,12 @@ export const lesson35: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Chlorine radicals" },
+              { id: "a", text: "No radicals" },
               { id: "b", text: "Oxygen" },
               { id: "c", text: "Nitrogen" },
-              { id: "d", text: "No radicals" },
+              { id: "d", text: "Chlorine radicals" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -2707,9 +2707,9 @@ export const lesson35: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Solar, wind, hydro" },
-              { id: "b", text: "Coal, oil, gas" },
-              { id: "c", text: "Nuclear only" },
-              { id: "d", text: "No sources" },
+              { id: "b", text: "No sources" },
+              { id: "c", text: "Coal, oil, gas" },
+              { id: "d", text: "Nuclear only" },
             ],
             correctChoiceId: "a",
           },
@@ -2802,12 +2802,12 @@ export const lesson35: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Stratosphere" },
-              { id: "b", text: "Troposphere" },
-              { id: "c", text: "Mesosphere" },
+              { id: "a", text: "Mesosphere" },
+              { id: "b", text: "Stratosphere" },
+              { id: "c", text: "Troposphere" },
               { id: "d", text: "Surface" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [

@@ -49,9 +49,9 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Glucagon" },
+              { id: "a", text: "Oxytocin" },
               { id: "b", text: "Insulin" },
-              { id: "c", text: "Oxytocin" },
+              { id: "c", text: "Glucagon" },
               { id: "d", text: "Adrenaline" },
             ],
             correctChoiceId: "b",
@@ -172,12 +172,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Organ, tissue, cell, organ system" },
-              { id: "b", text: "Cell, organ, tissue, organ system" },
+              { id: "a", text: "Cell, tissue, organ, organ system" },
+              { id: "b", text: "Organ, tissue, cell, organ system" },
               { id: "c", text: "Tissue, cell, organ, organ system" },
-              { id: "d", text: "Cell, tissue, organ, organ system" },
+              { id: "d", text: "Cell, organ, tissue, organ system" },
             ],
-            correctChoiceId: "d",
+            correctChoiceIa: "d",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Levels of organization", statement: "Cells form tissues, tissues form organs, organs form organ systems." }],

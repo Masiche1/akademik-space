@@ -55,11 +55,11 @@ export const lesson52: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Export markets" },
-              { id: "b", text: "Family consumption" },
-              { id: "c", text: "Industrial processing" },
+              { id: "b", text: "Industrial processing" },
+              { id: "c", text: "Family consumption" },
               { id: "d", text: "Animal feed" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -153,12 +153,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "High mechanisation and cash crops for export" },
-              { id: "b", text: "Family labour, low inputs and production mainly for consumption" },
-              { id: "c", text: "Large-scale monoculture on commercial estates" },
-              { id: "d", text: "Complete reliance on hired seasonal labour" },
+              { id: "a", text: "Family labour, low inputs and production mainly for consumption" },
+              { id: "b", text: "High mechanisation and cash crops for export" },
+              { id: "c", text: "Complete reliance on hired seasonal labour" },
+              { id: "d", text: "Large-scale monoculture on commercial estates" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -181,12 +181,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Uses only family labour" },
-              { id: "b", text: "Produces for market profit using high inputs and hired labour" },
+              { id: "a", text: "Produces for market profit using high inputs and hired labour" },
+              { id: "b", text: "Uses only family labour" },
               { id: "c", text: "Grows only food crops" },
               { id: "d", text: "Requires no capital investment" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -209,12 +209,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Commercial plantation agriculture" },
-              { id: "b", text: "Subsistence agriculture" },
-              { id: "c", text: "Intensive market gardening" },
-              { id: "d", text: "Pastoral commercial ranching" },
+              { id: "a", text: "Pastoral commercial ranching" },
+              { id: "b", text: "Intensive market gardening" },
+              { id: "c", text: "Subsistence agriculture" },
+              { id: "d", text: "Commercial plantation agriculture" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -237,10 +237,10 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Low input farming over vast areas" },
+              { id: "a", text: "Pastoralism on natural rangeland" },
               { id: "b", text: "High inputs per hectare producing high yields on smaller areas" },
               { id: "c", text: "Farming with no chemical inputs" },
-              { id: "d", text: "Pastoralism on natural rangeland" },
+              { id: "d", text: "Low input farming over vast areas" },
             ],
             correctChoiceId: "b",
           },
@@ -265,12 +265,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It always produces higher total output per farm" },
-              { id: "b", text: "It suits land-abundant regions where land is cheap and inputs costly" },
-              { id: "c", text: "It requires no land at all" },
-              { id: "d", text: "It is more profitable per hectare than intensive" },
+              { id: "a", text: "It is more profitable per hectare than intensive" },
+              { id: "b", text: "It requires no land at all" },
+              { id: "c", text: "It suits land-abundant regions where land is cheap and inputs costly" },
+              { id: "d", text: "It always produces higher total output per farm" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -472,12 +472,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Larger fruit size only" },
-              { id: "b", text: "Pest resistance or herbicide tolerance" },
-              { id: "c", text: "Ability to grow without water" },
-              { id: "d", text: "Resistance to all diseases" },
+              { id: "a", text: "Ability to grow without water" },
+              { id: "b", text: "Larger fruit size only" },
+              { id: "c", text: "Resistance to all diseases" },
+              { id: "d", text: "Pest resistance or herbicide tolerance" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -571,12 +571,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Expanding farmland into new areas" },
-              { id: "b", text: "Raising yields per hectare through higher inputs" },
-              { id: "c", text: "Reducing all chemical use" },
-              { id: "d", text: "Switching entirely to organic methods" },
+              { id: "a", text: "Raising yields per hectare through higher inputs" },
+              { id: "b", text: "Expanding farmland into new areas" },
+              { id: "c", text: "Switching entirely to organic methods" },
+              { id: "d", text: "Reducing all chemical use" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -599,12 +599,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Grow only in tropical climates" },
-              { id: "b", text: "Express desirable traits such as pest resistance or drought tolerance" },
-              { id: "c", text: "Require no water or soil" },
-              { id: "d", text: "Replace all conventional breeding" },
+              { id: "a", text: "Replace all conventional breeding" },
+              { id: "b", text: "Grow only in tropical climates" },
+              { id: "c", text: "Express desirable traits such as pest resistance or drought tolerance" },
+              { id: "d", text: "Require no water or soil" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -627,12 +627,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Drought" },
-              { id: "b", text: "Insect pests" },
+              { id: "a", text: "Insect pests" },
+              { id: "b", text: "Frost" },
               { id: "c", text: "Herbicides only" },
-              { id: "d", text: "Frost" },
+              { id: "d", text: "Drought" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -655,10 +655,10 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Insect resistance" },
+              { id: "a", text: "Enhanced vitamin content" },
               { id: "b", text: "Herbicide tolerance" },
-              { id: "c", text: "Enhanced vitamin content" },
-              { id: "d", text: "Longer shelf life only" },
+              { id: "c", text: "Longer shelf life only" },
+              { id: "d", text: "Insect resistance" },
             ],
             correctChoiceId: "b",
           },
@@ -683,12 +683,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "They eliminate all pesticide use permanently" },
-              { id: "b", text: "They may increase herbicide use and select for resistant weeds" },
+              { id: "a", text: "They may increase herbicide use and select for resistant weeds" },
+              { id: "b", text: "They eliminate all pesticide use permanently" },
               { id: "c", text: "They cannot be grown commercially" },
               { id: "d", text: "They only work in deserts" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

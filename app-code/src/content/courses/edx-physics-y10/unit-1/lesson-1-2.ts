@@ -54,12 +54,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Downwards, equal to the weight" },
+              { id: "a", text: "Zero" },
               { id: "b", text: "Upwards, equal to the air resistance" },
-              { id: "c", text: "Zero" },
+              { id: "c", text: "Downwards, equal to the weight" },
               { id: "d", text: "Downwards, getting larger" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -196,12 +196,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Mass and weight both decrease" },
-              { id: "b", text: "Mass stays the same and weight decreases" },
-              { id: "c", text: "Mass decreases and weight stays the same" },
+              { id: "a", text: "Mass decreases and weight stays the same" },
+              { id: "b", text: "Mass and weight both decrease" },
+              { id: "c", text: "Mass stays the same and weight decreases" },
               { id: "d", text: "Mass and weight both stay the same" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

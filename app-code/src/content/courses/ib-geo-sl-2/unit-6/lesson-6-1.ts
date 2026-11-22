@@ -54,9 +54,9 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Diseases spread by pathogens between people" },
+              { id: "a", text: "Diseases caused by poor sanitation" },
               { id: "b", text: "Chronic diseases not spread person-to-person" },
-              { id: "c", text: "Diseases caused by poor sanitation" },
+              { id: "c", text: "Diseases spread by pathogens between people" },
               { id: "d", text: "Infectious diseases in tropical regions" },
             ],
             correctChoiceId: "b",
@@ -153,12 +153,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Malaria and tuberculosis" },
-              { id: "b", text: "Cardiovascular disease, cancer and diabetes" },
-              { id: "c", text: "Cholera and typhoid" },
-              { id: "d", text: "Influenza and COVID-19" },
+              { id: "a", text: "Cholera and typhoid" },
+              { id: "b", text: "Influenza and COVID-19" },
+              { id: "c", text: "Malaria and tuberculosis" },
+              { id: "d", text: "Cardiovascular disease, cancer and diabetes" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -181,10 +181,10 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "High-income countries" },
+              { id: "a", text: "Only tropical islands" },
               { id: "b", text: "Low-income countries" },
-              { id: "c", text: "Only tropical islands" },
-              { id: "d", text: "Equally in all countries" },
+              { id: "c", text: "Equally in all countries" },
+              { id: "d", text: "High-income countries" },
             ],
             correctChoiceId: "b",
           },
@@ -209,12 +209,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Cold climate and strong health systems" },
-              { id: "b", text: "Warm humid climate for mosquitoes plus poverty and weak health infrastructure" },
-              { id: "c", text: "High vaccination rates" },
-              { id: "d", text: "Urban density alone" },
+              { id: "a", text: "Urban density alone" },
+              { id: "b", text: "High vaccination rates" },
+              { id: "c", text: "Cold climate and strong health systems" },
+              { id: "d", text: "Warm humid climate for mosquitoes plus poverty and weak health infrastructure" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -237,10 +237,10 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Random distribution with no pattern" },
+              { id: "a", text: "Only healthcare funding" },
               { id: "b", text: "Interactions of environment, development, behaviour and demography" },
               { id: "c", text: "Only genetic factors" },
-              { id: "d", text: "Only healthcare funding" },
+              { id: "d", text: "Random distribution with no pattern" },
             ],
             correctChoiceId: "b",
           },
@@ -265,12 +265,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "They are declining everywhere else" },
-              { id: "b", text: "Urbanisation, lifestyle changes (diet, smoking, inactivity) and ageing populations" },
+              { id: "a", text: "Urbanisation, lifestyle changes (diet, smoking, inactivity) and ageing populations" },
+              { id: "b", text: "Healthcare systems are perfect" },
               { id: "c", text: "Infectious diseases have been eliminated" },
-              { id: "d", text: "Healthcare systems are perfect" },
+              { id: "d", text: "They are declining everywhere else" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -472,12 +472,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Contaminated water" },
-              { id: "b", text: "Anopheles mosquitoes" },
-              { id: "c", text: "Direct person-to-person contact" },
-              { id: "d", text: "Contaminated food" },
+              { id: "a", text: "Direct person-to-person contact" },
+              { id: "b", text: "Contaminated food" },
+              { id: "c", text: "Anopheles mosquitoes" },
+              { id: "d", text: "Contaminated water" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -571,12 +571,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Total cases at a point in time" },
-              { id: "b", text: "New cases occurring over a time period" },
+              { id: "a", text: "New cases occurring over a time period" },
+              { id: "b", text: "Total cases at a point in time" },
               { id: "c", text: "Total deaths in a population" },
               { id: "d", text: "The contagiousness of a disease" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -599,12 +599,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The number of deaths caused by a disease" },
-              { id: "b", text: "How many new infections one case generates on average" },
-              { id: "c", text: "The speed of vaccine development" },
-              { id: "d", text: "Total population density" },
+              { id: "a", text: "The speed of vaccine development" },
+              { id: "b", text: "Total population density" },
+              { id: "c", text: "The number of deaths caused by a disease" },
+              { id: "d", text: "How many new infections one case generates on average" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -627,12 +627,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Mosquito bites" },
-              { id: "b", text: "Contaminated water and food" },
-              { id: "c", text: "Direct skin contact only" },
-              { id: "d", text: "Airborne droplets only" },
+              { id: "a", text: "Airborne droplets only" },
+              { id: "b", text: "Direct skin contact only" },
+              { id: "c", text: "Contaminated water and food" },
+              { id: "d", text: "Mosquito bites" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -655,12 +655,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Identify and isolate people exposed to a case" },
-              { id: "b", text: "Develop new vaccines" },
-              { id: "c", text: "Measure total population" },
+              { id: "a", text: "Develop new vaccines" },
+              { id: "b", text: "Measure total population" },
+              { id: "c", text: "Identify and isolate people exposed to a case" },
               { id: "d", text: "Map climate patterns" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -683,9 +683,9 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Developed the first vaccine" },
+              { id: "a", text: "Eliminated cholera worldwide" },
               { id: "b", text: "Mapped cases to a contaminated water pump, founding epidemiology" },
-              { id: "c", text: "Eliminated cholera worldwide" },
+              { id: "c", text: "Developed the first vaccine" },
               { id: "d", text: "Proved all disease is genetic" },
             ],
             correctChoiceId: "b",

@@ -83,8 +83,8 @@ export const lesson22: Lesson = {
             choices: [
               { id: "a", text: "Their costume design" },
               { id: "b", text: "What drives their actions and choices" },
-              { id: "c", text: "Their height and build" },
-              { id: "d", text: "Their relationship to the audience" },
+              { id: "c", text: "Their relationship to the audience" },
+              { id: "d", text: "Their height and build" },
             ],
             correctChoiceId: "b",
           },
@@ -298,14 +298,14 @@ export const lesson22: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Their costume and physical appearance" },
+              { id: "b", text: "The number of lines they speak" },
               {
-                id: "b",
+                id: "c",
                 text: "The transformation or development they undergo",
               },
-              { id: "c", text: "The number of lines they speak" },
               { id: "d", text: "Their relationship to the stage" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -386,15 +386,15 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A playwright's error" },
+              { id: "a", text: "That the play lacks realism" },
+              { id: "b", text: "That the character is unimportant" },
+              { id: "c", text: "A playwright's error" },
               {
-                id: "b",
+                id: "d",
                 text: "Hidden motivation, self-deception or inner conflict",
               },
-              { id: "c", text: "That the character is unimportant" },
-              { id: "d", text: "That the play lacks realism" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -481,15 +481,15 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Speaks very little" },
+              { id: "a", text: "Appears only in flashbacks" },
+              { id: "b", text: "Is killed early in the plot" },
               {
-                id: "b",
+                id: "c",
                 text: "Does not change significantly throughout the play",
               },
-              { id: "c", text: "Is killed early in the plot" },
-              { id: "d", text: "Appears only in flashbacks" },
+              { id: "d", text: "Speaks very little" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -629,15 +629,15 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Provide comic relief" },
+              { id: "a", text: "Narrate the stage directions" },
+              { id: "b", text: "Provide comic relief" },
+              { id: "c", text: "Represent the villain's allies" },
               {
-                id: "b",
+                id: "d",
                 text: "Drive the main plot and whose journey the audience follows",
               },
-              { id: "c", text: "Represent the villain's allies" },
-              { id: "d", text: "Narrate the stage directions" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -811,15 +811,15 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "Provide the main plot" },
               {
-                id: "a",
+                id: "b",
                 text: "Highlight the change in other characters by contrast",
               },
-              { id: "b", text: "Provide the main plot" },
               { id: "c", text: "Act as the antagonist" },
               { id: "d", text: "Deliver the denouement" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -948,12 +948,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The play's genre" },
-              { id: "b", text: "Their actions, others' reactions and subtext" },
-              { id: "c", text: "The theatre's location" },
+              { id: "a", text: "Their actions, others' reactions and subtext" },
+              { id: "b", text: "The theatre's location" },
+              { id: "c", text: "The play's genre" },
               { id: "d", text: "The author's nationality" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -1133,15 +1133,15 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A loud argument" },
               {
-                id: "b",
+                id: "a",
                 text: "The struggle between characters, within a character, or against society",
               },
-              { id: "c", text: "A stage fight" },
-              { id: "d", text: "A technical problem" },
+              { id: "b", text: "A loud argument" },
+              { id: "c", text: "A technical problem" },
+              { id: "d", text: "A stage fight" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -1351,12 +1351,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "How loudly characters speak" },
-              { id: "b", text: "Who dominates, controls or depends on whom" },
+              { id: "a", text: "Who dominates, controls or depends on whom" },
+              { id: "b", text: "How loudly characters speak" },
               { id: "c", text: "The physical distance between them" },
               { id: "d", text: "Their ages" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -1435,15 +1435,15 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A fight between two characters on stage" },
+              { id: "a", text: "A dispute with society's rules" },
+              { id: "b", text: "A technical failure during performance" },
+              { id: "c", text: "A fight between two characters on stage" },
               {
-                id: "b",
+                id: "d",
                 text: "A struggle within a single character, such as desire versus duty",
               },
-              { id: "c", text: "A dispute with society's rules" },
-              { id: "d", text: "A technical failure during performance" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1529,12 +1529,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Within a single character's mind" },
-              { id: "b", text: "Between characters" },
-              { id: "c", text: "Between a character and a storm" },
-              { id: "d", text: "Between the audience and actors" },
+              { id: "a", text: "Between a character and a storm" },
+              { id: "b", text: "Between the audience and actors" },
+              { id: "c", text: "Between characters" },
+              { id: "d", text: "Within a single character's mind" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1670,15 +1670,15 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Two characters arguing" },
+              { id: "a", text: "A character's private doubts" },
+              { id: "b", text: "Two characters arguing" },
               {
-                id: "b",
+                id: "c",
                 text: "A character struggling against society, institutions or norms",
               },
-              { id: "c", text: "A character's private doubts" },
               { id: "d", text: "A stage accident" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1850,15 +1850,15 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Inevitability of conflict" },
+              { id: "a", text: "The randomness of events" },
+              { id: "b", text: "Inevitability of conflict" },
+              { id: "c", text: "The superiority of one character" },
               {
-                id: "b",
+                id: "d",
                 text: "The possibility of understanding overcoming division",
               },
-              { id: "c", text: "The superiority of one character" },
-              { id: "d", text: "The randomness of events" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1986,15 +1986,15 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The playwright's favourite actor" },
               {
-                id: "b",
+                id: "a",
                 text: "The play's resolution and thematic position on human connection",
               },
-              { id: "c", text: "The length of the performance" },
-              { id: "d", text: "The cost of the production" },
+              { id: "b", text: "The cost of the production" },
+              { id: "c", text: "The playwright's favourite actor" },
+              { id: "d", text: "The length of the performance" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

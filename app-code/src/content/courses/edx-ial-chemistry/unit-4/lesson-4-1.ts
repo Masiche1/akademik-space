@@ -50,11 +50,11 @@ export const lesson41: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "C₆H₁₂" },
-              { id: "b", text: "C₆H₆" },
-              { id: "c", text: "C₆H₅" },
-              { id: "d", text: "C₆H₈" },
+              { id: "b", text: "C₆H₈" },
+              { id: "c", text: "C₆H₆" },
+              { id: "d", text: "C₆H₅" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Benzene", statement: "C₆H₆ aromatic ring." }],
@@ -164,10 +164,10 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "–NO₂" },
+              { id: "a", text: "–OH" },
               { id: "b", text: "–NH₂" },
-              { id: "c", text: "–CONH₂" },
-              { id: "d", text: "–OH" },
+              { id: "c", text: "–NO₂" },
+              { id: "d", text: "–CONH₂" },
             ],
             correctChoiceId: "b",
           },

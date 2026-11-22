@@ -95,9 +95,9 @@ export const lesson12: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Anaphora, with a rising sequence of verbs" },
-              { id: "b", text: "Alliteration of the letter c" },
+              { id: "b", text: "A rhetorical question" },
               { id: "c", text: "Onomatopoeia" },
-              { id: "d", text: "A rhetorical question" },
+              { id: "d", text: "Alliteration of the letter c" },
             ],
             correctChoiceId: "a",
           },
@@ -226,12 +226,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "They emphasise how empty and bleak the council's plan is." },
+              { id: "a", text: "They slow the speech down so that the audience can relax." },
               { id: "b", text: "They show the speaker is running out of ideas." },
-              { id: "c", text: "They create a warm, comforting atmosphere." },
-              { id: "d", text: "They slow the speech down so that the audience can relax." },
+              { id: "c", text: "They emphasise how empty and bleak the council's plan is." },
+              { id: "d", text: "They create a warm, comforting atmosphere." },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Sentence length for effect", statement: "Minor sentences create emphasis and a blunt, stark rhythm." }],

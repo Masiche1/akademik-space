@@ -51,12 +51,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\dfrac{5}{13}$" },
-              { id: "b", text: "$\\dfrac{12}{13}$" },
+              { id: "a", text: "$\\dfrac{13}{5}$" },
+              { id: "b", text: "$\\dfrac{5}{13}$" },
               { id: "c", text: "$\\dfrac{12}{5}$" },
-              { id: "d", text: "$\\dfrac{13}{5}$" },
+              { id: "d", text: "$\\dfrac{12}{13}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -181,9 +181,9 @@ export const lesson23: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Angle of elevation" },
-              { id: "b", text: "Angle of depression" },
-              { id: "c", text: "Right angle" },
-              { id: "d", text: "Angle of incidence" },
+              { id: "b", text: "Angle of incidence" },
+              { id: "c", text: "Angle of depression" },
+              { id: "d", text: "Right angle" },
             ],
             correctChoiceId: "a",
           },

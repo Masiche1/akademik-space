@@ -98,12 +98,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The 'l' sound" },
-              { id: "b", text: "The 'sl' sound at the start of words" },
+              { id: "a", text: "The 'sl' sound at the start of words" },
+              { id: "b", text: "The 'l' sound" },
               { id: "c", text: "The 'r' sound" },
               { id: "d", text: "The 'oo' sound" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Alliteration", statement: "Repeated sounds at the start of words, here the 'sl' blend." }],
@@ -225,12 +225,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "12" },
-              { id: "b", text: "14" },
-              { id: "c", text: "16" },
-              { id: "d", text: "10" },
+              { id: "a", text: "16" },
+              { id: "b", text: "10" },
+              { id: "c", text: "12" },
+              { id: "d", text: "14" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "convention", name: "Sonnet", statement: "A sonnet has 14 lines." }],

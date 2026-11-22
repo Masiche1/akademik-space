@@ -52,12 +52,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Be the first draft of the research question" },
-              { id: "b", text: "Match the final research question the essay answers" },
-              { id: "c", text: "Be as broad as possible" },
-              { id: "d", text: "Be different from the research question" },
+              { id: "a", text: "Be different from the research question" },
+              { id: "b", text: "Be the first draft of the research question" },
+              { id: "c", text: "Match the final research question the essay answers" },
+              { id: "d", text: "Be as broad as possible" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -147,12 +147,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Phrased as a research question" },
-              { id: "b", text: "A clear summative statement of the research" },
-              { id: "c", text: "A list of keywords" },
+              { id: "a", text: "A list of keywords" },
+              { id: "b", text: "Phrased as a research question" },
+              { id: "c", text: "A clear summative statement of the research" },
               { id: "d", text: "Identical to the abstract" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -174,12 +174,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Title, research question, registered subject and word count" },
-              { id: "b", text: "Title, bibliography and supervisor signature" },
-              { id: "c", text: "Research question only" },
-              { id: "d", text: "Student name, school and title" },
+              { id: "a", text: "Student name, school and title" },
+              { id: "b", text: "Title, research question, registered subject and word count" },
+              { id: "c", text: "Title, bibliography and supervisor signature" },
+              { id: "d", text: "Research question only" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -202,12 +202,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It should ask the same question in different words" },
-              { id: "b", text: "It should summarise the same focus without being phrased as a question" },
+              { id: "a", text: "It should change whenever the essay changes" },
+              { id: "b", text: "It should ask the same question in different words" },
               { id: "c", text: "It should be broader than the essay" },
-              { id: "d", text: "It should change whenever the essay changes" },
+              { id: "d", text: "It should summarise the same focus without being phrased as a question" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -231,11 +231,11 @@ export const lesson13: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "The earliest draft because it was first approved" },
-              { id: "b", text: "The final aligned title and research question" },
-              { id: "c", text: "Only the original topic" },
+              { id: "b", text: "Only the original topic" },
+              { id: "c", text: "The final aligned title and research question" },
               { id: "d", text: "Two competing questions" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -259,12 +259,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "To what extent did censorship shape jazz in Berlin?" },
-              { id: "b", text: "Censorship and jazz in Weimar Berlin: cultural control and musical change" },
-              { id: "c", text: "Jazz" },
-              { id: "d", text: "Everything about music and politics" },
+              { id: "a", text: "Everything about music and politics" },
+              { id: "b", text: "To what extent did censorship shape jazz in Berlin?" },
+              { id: "c", text: "Censorship and jazz in Weimar Berlin: cultural control and musical change" },
+              { id: "d", text: "Jazz" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -512,12 +512,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The word count limit" },
-              { id: "b", text: "The boundaries of what will be covered" },
-              { id: "c", text: "The list of sources" },
-              { id: "d", text: "The essay's structure" },
+              { id: "a", text: "The boundaries of what will be covered" },
+              { id: "b", text: "The word count limit" },
+              { id: "c", text: "The essay's structure" },
+              { id: "d", text: "The list of sources" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -607,12 +607,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Only the word count" },
-              { id: "b", text: "What will and will not be covered" },
-              { id: "c", text: "Only the sources used" },
-              { id: "d", text: "The grading criteria" },
+              { id: "a", text: "Only the sources used" },
+              { id: "b", text: "The grading criteria" },
+              { id: "c", text: "Only the word count" },
+              { id: "d", text: "What will and will not be covered" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -634,12 +634,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Title, grade, supervisor and deadline" },
-              { id: "b", text: "Time period, place or context, key actors and specific aspect" },
-              { id: "c", text: "All possible sources and all possible methods" },
-              { id: "d", text: "Personal interests and popular opinion" },
+              { id: "a", text: "Time period, place or context, key actors and specific aspect" },
+              { id: "b", text: "Personal interests and popular opinion" },
+              { id: "c", text: "Title, grade, supervisor and deadline" },
+              { id: "d", text: "All possible sources and all possible methods" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -662,12 +662,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "To make the essay longer" },
-              { id: "b", text: "To show the boundaries of evidence and prevent overclaiming" },
-              { id: "c", text: "To avoid using sources" },
-              { id: "d", text: "To replace the research question" },
+              { id: "a", text: "To avoid using sources" },
+              { id: "b", text: "To replace the research question" },
+              { id: "c", text: "To make the essay longer" },
+              { id: "d", text: "To show the boundaries of evidence and prevent overclaiming" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -690,12 +690,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Write a shorter introduction and keep the scope" },
-              { id: "b", text: "Reduce countries, period or comparison to fit 4000 words" },
+              { id: "a", text: "Reduce countries, period or comparison to fit 4000 words" },
+              { id: "b", text: "Write a shorter introduction and keep the scope" },
               { id: "c", text: "Add a second research question" },
               { id: "d", text: "Remove the conclusion" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -720,11 +720,11 @@ export const lesson13: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "'This essay covers everything important about cities.'" },
-              { id: "b", text: "'This essay examines green-space planning in Rotterdam between 1990 and 2015 and excludes transport policy.'" },
-              { id: "c", text: "'This essay may discuss any topic if sources allow.'" },
+              { id: "b", text: "'This essay may discuss any topic if sources allow.'" },
+              { id: "c", text: "'This essay examines green-space planning in Rotterdam between 1990 and 2015 and excludes transport policy.'" },
               { id: "d", text: "'This essay avoids all limitations.'" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

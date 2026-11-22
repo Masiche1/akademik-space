@@ -56,11 +56,11 @@ export const lesson11: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "cat" },
-              { id: "b", text: "sun" },
-              { id: "c", text: "dog" },
-              { id: "d", text: "pig" },
+              { id: "b", text: "dog" },
+              { id: "c", text: "pig" },
+              { id: "d", text: "sun" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -91,12 +91,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "c and h" },
-              { id: "b", text: "s and h" },
-              { id: "c", text: "t and h" },
-              { id: "d", text: "c and k" },
+              { id: "a", text: "t and h" },
+              { id: "b", text: "c and h" },
+              { id: "c", text: "c and k" },
+              { id: "d", text: "s and h" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -234,8 +234,8 @@ export const lesson11: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "cat" },
-              { id: "b", text: "cut" },
-              { id: "c", text: "cot" },
+              { id: "b", text: "cot" },
+              { id: "c", text: "cut" },
               { id: "d", text: "cart" },
             ],
             correctChoiceId: "a",
@@ -264,9 +264,9 @@ export const lesson11: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "pig" },
-              { id: "b", text: "peg" },
-              { id: "c", text: "pag" },
-              { id: "d", text: "bug" },
+              { id: "b", text: "pag" },
+              { id: "c", text: "bug" },
+              { id: "d", text: "peg" },
             ],
             correctChoiceId: "a",
           },

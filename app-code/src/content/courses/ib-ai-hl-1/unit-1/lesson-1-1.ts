@@ -80,10 +80,10 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\log 25$" },
+              { id: "a", text: "$100$" },
               { id: "b", text: "$2$" },
-              { id: "c", text: "$\\log 15$" },
-              { id: "d", text: "$100$" },
+              { id: "c", text: "$\\log 25$" },
+              { id: "d", text: "$\\log 15$" },
             ],
             correctChoiceId: "b",
           },
@@ -364,12 +364,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$1$" },
-              { id: "b", text: "$\\log_3 8$" },
-              { id: "c", text: "$3$" },
-              { id: "d", text: "$\\log_3 16$" },
+              { id: "a", text: "$3$" },
+              { id: "b", text: "$1$" },
+              { id: "c", text: "$\\log_3 16$" },
+              { id: "d", text: "$\\log_3 8$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -407,12 +407,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\log_5 72$" },
+              { id: "a", text: "$2$" },
               { id: "b", text: "$5$" },
-              { id: "c", text: "$2$" },
-              { id: "d", text: "$25$" },
+              { id: "c", text: "$25$" },
+              { id: "d", text: "$\\log_5 72$" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -454,10 +454,10 @@ export const lesson11: Lesson = {
             choices: [
               { id: "a", text: "$x=10$" },
               { id: "b", text: "$x=7$" },
-              { id: "c", text: "$x=25$" },
-              { id: "d", text: "$x=32$" },
+              { id: "c", text: "$x=32$" },
+              { id: "d", text: "$x=25$" },
             ],
-            correctChoiceId: "d",
+            correctChoiceIc: "d",
           },
           markscheme: {
             principles: [
@@ -807,12 +807,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$x=-2$" },
-              { id: "b", text: "$x=2$" },
+              { id: "a", text: "$x=2$" },
+              { id: "b", text: "$x=-2$" },
               { id: "c", text: "$x=1$" },
               { id: "d", text: "Both $x=2$ and $x=-2$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -947,12 +947,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\frac{\\pi}{4}$" },
-              { id: "b", text: "$\\frac{3\\pi}{4}$" },
-              { id: "c", text: "$-\\frac{\\pi}{4}$" },
+              { id: "a", text: "$-\\frac{\\pi}{4}$" },
+              { id: "b", text: "$\\frac{\\pi}{4}$" },
+              { id: "c", text: "$\\frac{3\\pi}{4}$" },
               { id: "d", text: "$-\\frac{3\\pi}{4}$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1246,12 +1246,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$5$" },
-              { id: "b", text: "$7$" },
-              { id: "c", text: "$12$" },
-              { id: "d", text: "$25$" },
+              { id: "a", text: "$12$" },
+              { id: "b", text: "$5$" },
+              { id: "c", text: "$25$" },
+              { id: "d", text: "$7$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1290,12 +1290,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\frac{\\pi}{4}$" },
-              { id: "b", text: "$-\\frac{\\pi}{4}$" },
-              { id: "c", text: "$\\frac{3\\pi}{4}$" },
-              { id: "d", text: "$-\\frac{3\\pi}{4}$" },
+              { id: "a", text: "$-\\frac{3\\pi}{4}$" },
+              { id: "b", text: "$\\frac{3\\pi}{4}$" },
+              { id: "c", text: "$-\\frac{\\pi}{4}$" },
+              { id: "d", text: "$\\frac{\\pi}{4}$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1337,9 +1337,9 @@ export const lesson11: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$1$" },
-              { id: "b", text: "$\\sqrt3$" },
-              { id: "c", text: "$2$" },
-              { id: "d", text: "$\\frac{\\sqrt3}{2}$" },
+              { id: "b", text: "$\\frac{\\sqrt3}{2}$" },
+              { id: "c", text: "$\\sqrt3$" },
+              { id: "d", text: "$2$" },
             ],
             correctChoiceId: "a",
           },
@@ -1539,12 +1539,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$2\\cos\\theta$" },
-              { id: "b", text: "$2i\\sin\\theta$" },
-              { id: "c", text: "$2\\sin\\theta$" },
+              { id: "a", text: "$2i\\sin\\theta$" },
+              { id: "b", text: "$2\\sin\\theta$" },
+              { id: "c", text: "$2\\cos\\theta$" },
               { id: "d", text: "$0$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

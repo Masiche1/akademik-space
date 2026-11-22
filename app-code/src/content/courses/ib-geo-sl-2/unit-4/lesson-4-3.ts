@@ -54,12 +54,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The genetic variety within a species" },
-              { id: "b", text: "The number of different species in an area" },
+              { id: "a", text: "The number of different species in an area" },
+              { id: "b", text: "The genetic variety within a species" },
               { id: "c", text: "The total biomass of all organisms" },
               { id: "d", text: "The number of ecosystems in a region" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -153,12 +153,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The number of species in an ecosystem" },
-              { id: "b", text: "Variation in genes within a species" },
-              { id: "c", text: "The variety of habitats present" },
+              { id: "a", text: "The variety of habitats present" },
+              { id: "b", text: "The number of species in an ecosystem" },
+              { id: "c", text: "Variation in genes within a species" },
               { id: "d", text: "The total biomass of all organisms" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -181,8 +181,8 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Genetic diversity" },
-              { id: "b", text: "Species diversity" },
+              { id: "a", text: "Species diversity" },
+              { id: "b", text: "Genetic diversity" },
               { id: "c", text: "Ecosystem diversity" },
               { id: "d", text: "Functional diversity" },
             ],
@@ -209,12 +209,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "H" },
-              { id: "b", text: "I" },
+              { id: "a", text: "O" },
+              { id: "b", text: "H" },
               { id: "c", text: "P" },
-              { id: "d", text: "O" },
+              { id: "d", text: "I" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -237,10 +237,10 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Cover most of Earth's land surface" },
+              { id: "a", text: "Are the oldest ecosystems on Earth" },
               { id: "b", text: "Combine stable warm, wet conditions with high productivity over long periods" },
               { id: "c", text: "Have very low human population density only" },
-              { id: "d", text: "Are the oldest ecosystems on Earth" },
+              { id: "d", text: "Cover most of Earth's land surface" },
             ],
             correctChoiceId: "b",
           },
@@ -265,12 +265,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "More species means less competition overall" },
-              { id: "b", text: "Functional redundancy allows other species to compensate when one declines" },
-              { id: "c", text: "Diverse ecosystems never experience disturbance" },
-              { id: "d", text: "Species diversity directly increases sunlight capture" },
+              { id: "a", text: "Functional redundancy allows other species to compensate when one declines" },
+              { id: "b", text: "More species means less competition overall" },
+              { id: "c", text: "Species diversity directly increases sunlight capture" },
+              { id: "d", text: "Diverse ecosystems never experience disturbance" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -472,12 +472,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Protecting species in national parks" },
-              { id: "b", text: "Protecting species outside their natural habitat" },
-              { id: "c", text: "Creating wildlife corridors between reserves" },
-              { id: "d", text: "Community-based forest management" },
+              { id: "a", text: "Community-based forest management" },
+              { id: "b", text: "Creating wildlife corridors between reserves" },
+              { id: "c", text: "Protecting species in national parks" },
+              { id: "d", text: "Protecting species outside their natural habitat" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -571,10 +571,10 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "In zoos and botanical gardens" },
+              { id: "a", text: "Through captive breeding programmes" },
               { id: "b", text: "In their natural habitats" },
-              { id: "c", text: "In seed banks only" },
-              { id: "d", text: "Through captive breeding programmes" },
+              { id: "c", text: "In zoos and botanical gardens" },
+              { id: "d", text: "In seed banks only" },
             ],
             correctChoiceId: "b",
           },
@@ -599,12 +599,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "In-situ conservation" },
-              { id: "b", text: "Ex-situ conservation" },
-              { id: "c", text: "Community conservancy" },
-              { id: "d", text: "Wildlife corridor" },
+              { id: "a", text: "Ex-situ conservation" },
+              { id: "b", text: "Community conservancy" },
+              { id: "c", text: "Wildlife corridor" },
+              { id: "d", text: "In-situ conservation" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -627,12 +627,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Was the first national park, pioneering the protected-area model" },
+              { id: "a", text: "Introduced the first seed bank" },
               { id: "b", text: "Was the largest zoo ever built" },
-              { id: "c", text: "Introduced the first seed bank" },
-              { id: "d", text: "Banned all human activity in the region" },
+              { id: "c", text: "Banned all human activity in the region" },
+              { id: "d", text: "Was the first national park, pioneering the protected-area model" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -657,8 +657,8 @@ export const lesson43: Lesson = {
             choices: [
               { id: "a", text: "Funds national park creation worldwide" },
               { id: "b", text: "Regulates international trade in endangered species" },
-              { id: "c", text: "Requires all nations to protect 30% of land" },
-              { id: "d", text: "Bans all wildlife trade unconditionally" },
+              { id: "c", text: "Bans all wildlife trade unconditionally" },
+              { id: "d", text: "Requires all nations to protect 30% of land" },
             ],
             correctChoiceId: "b",
           },
@@ -683,12 +683,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It is always cheaper to implement" },
-              { id: "b", text: "It protects entire ecosystems and natural behaviours and processes" },
-              { id: "c", text: "It requires no ongoing management" },
-              { id: "d", text: "It eliminates the risk of poaching entirely" },
+              { id: "a", text: "It requires no ongoing management" },
+              { id: "b", text: "It is always cheaper to implement" },
+              { id: "c", text: "It eliminates the risk of poaching entirely" },
+              { id: "d", text: "It protects entire ecosystems and natural behaviours and processes" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

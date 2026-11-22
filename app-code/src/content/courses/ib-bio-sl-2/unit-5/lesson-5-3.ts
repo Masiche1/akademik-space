@@ -54,12 +54,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "In the uterus" },
-              { id: "b", text: "In the ovary" },
-              { id: "c", text: "In the oviduct (fallopian tube)" },
-              { id: "d", text: "In the cervix" },
+              { id: "a", text: "In the ovary" },
+              { id: "b", text: "In the oviduct (fallopian tube)" },
+              { id: "c", text: "In the cervix" },
+              { id: "d", text: "In the uterus" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -82,10 +82,10 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A surge of progesterone" },
+              { id: "a", text: "FSH directly rupturing the follicle" },
               { id: "b", text: "A surge of LH from the pituitary" },
               { id: "c", text: "A fall in oestrogen only" },
-              { id: "d", text: "FSH directly rupturing the follicle" },
+              { id: "d", text: "A surge of progesterone" },
             ],
             correctChoiceId: "b",
           },
@@ -112,11 +112,11 @@ export const lesson53: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "It suppresses FSH so no follicles develop" },
-              { id: "b", text: "It prevents implantation and immobilises sperm in the uterus" },
+              { id: "b", text: "It destroys ova in the ovary" },
               { id: "c", text: "It blocks the LH surge so ovulation never occurs" },
-              { id: "d", text: "It destroys ova in the ovary" },
+              { id: "d", text: "It prevents implantation and immobilises sperm in the uterus" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -173,12 +173,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Diploid ($2n$)" },
-              { id: "b", text: "Haploid ($n$)" },
-              { id: "c", text: "Triploid" },
-              { id: "d", text: "Tetraploid" },
+              { id: "a", text: "Triploid" },
+              { id: "b", text: "Tetraploid" },
+              { id: "c", text: "Haploid ($n$)" },
+              { id: "d", text: "Diploid ($2n$)" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -201,12 +201,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "In the ovary" },
+              { id: "a", text: "In the cervix" },
               { id: "b", text: "In the oviduct wall" },
-              { id: "c", text: "In the endometrium lining the uterus" },
-              { id: "d", text: "In the cervix" },
+              { id: "c", text: "In the ovary" },
+              { id: "d", text: "In the endometrium lining the uterus" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -230,12 +230,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It triggers ovulation directly" },
-              { id: "b", text: "It stimulates the development of ovarian follicles" },
-              { id: "c", text: "It maintains the endometrium after ovulation" },
-              { id: "d", text: "It causes menstruation" },
+              { id: "a", text: "It causes menstruation" },
+              { id: "b", text: "It maintains the endometrium after ovulation" },
+              { id: "c", text: "It stimulates the development of ovarian follicles" },
+              { id: "d", text: "It triggers ovulation directly" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -259,12 +259,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Corpus luteum — oestrogen" },
-              { id: "b", text: "Corpus luteum — progesterone" },
+              { id: "a", text: "Endometrium — hCG" },
+              { id: "b", text: "Corpus luteum — oestrogen" },
               { id: "c", text: "Graafian follicle — FSH" },
-              { id: "d", text: "Endometrium — hCG" },
+              { id: "d", text: "Corpus luteum — progesterone" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -289,12 +289,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Progesterone — it thickens the endometrium" },
-              { id: "b", text: "hCG — it maintains the corpus luteum so progesterone continues to be produced" },
+              { id: "a", text: "hCG — it maintains the corpus luteum so progesterone continues to be produced" },
+              { id: "b", text: "Progesterone — it thickens the endometrium" },
               { id: "c", text: "FSH — it stimulates new follicles" },
               { id: "d", text: "LH — it triggers ovulation" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -524,10 +524,10 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Phloem" },
+              { id: "a", text: "Palisade mesophyll" },
               { id: "b", text: "Xylem" },
               { id: "c", text: "Cuticle" },
-              { id: "d", text: "Palisade mesophyll" },
+              { id: "d", text: "Phloem" },
             ],
             correctChoiceId: "b",
           },
@@ -552,10 +552,10 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Auxin moves to the lit side and slows growth there" },
+              { id: "a", text: "Auxin kills cells on the lit side" },
               { id: "b", text: "Auxin accumulates on the shaded side, speeding cell elongation there so the shoot bends towards light" },
-              { id: "c", text: "Auxin kills cells on the lit side" },
-              { id: "d", text: "Auxin carries water to the shaded side" },
+              { id: "c", text: "Auxin carries water to the shaded side" },
+              { id: "d", text: "Auxin moves to the lit side and slows growth there" },
             ],
             correctChoiceId: "b",
           },
@@ -581,9 +581,9 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "High humidity, because stomata close and transpiration stops" },
+              { id: "a", text: "Still air, because still air always maximises diffusion" },
               { id: "b", text: "Fan blowing across leaves, because increased air movement steepens the water-vapour gradient and increases transpiration" },
-              { id: "c", text: "Still air, because still air always maximises diffusion" },
+              { id: "c", text: "High humidity, because stomata close and transpiration stops" },
               { id: "d", text: "All conditions give identical uptake" },
             ],
             correctChoiceId: "b",
@@ -645,8 +645,8 @@ export const lesson53: Lesson = {
             choices: [
               { id: "a", text: "Xylem" },
               { id: "b", text: "Phloem" },
-              { id: "c", text: "Epidermis" },
-              { id: "d", text: "Palisade mesophyll" },
+              { id: "c", text: "Palisade mesophyll" },
+              { id: "d", text: "Epidermis" },
             ],
             correctChoiceId: "b",
           },
@@ -671,12 +671,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Growth away from light" },
-              { id: "b", text: "Growth towards a light source" },
-              { id: "c", text: "Growth in response to gravity" },
-              { id: "d", text: "Growth in response to touch" },
+              { id: "a", text: "Growth in response to gravity" },
+              { id: "b", text: "Growth away from light" },
+              { id: "c", text: "Growth in response to touch" },
+              { id: "d", text: "Growth towards a light source" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -700,9 +700,9 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Auxin accumulates equally in roots and shoots" },
+              { id: "a", text: "Auxin is produced only in roots" },
               { id: "b", text: "Auxin accumulates on the lower side; it inhibits elongation in roots (curving down) but promotes it in shoots (curving up)" },
-              { id: "c", text: "Auxin is produced only in roots" },
+              { id: "c", text: "Auxin accumulates equally in roots and shoots" },
               { id: "d", text: "Auxin destroys cells on the upper side" },
             ],
             correctChoiceId: "b",
@@ -729,12 +729,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "On the stigma" },
+              { id: "a", text: "In the petals" },
               { id: "b", text: "In the pollen grain" },
-              { id: "c", text: "Inside the ovule in the ovary" },
-              { id: "d", text: "In the petals" },
+              { id: "c", text: "On the stigma" },
+              { id: "d", text: "Inside the ovule in the ovary" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -759,12 +759,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Water uptake will increase because roots work harder" },
-              { id: "b", text: "Water uptake will fall dramatically because transpiration — the force driving the transpiration stream — nearly stops" },
-              { id: "c", text: "Water uptake will be unchanged because xylem works independently of leaves" },
-              { id: "d", text: "Water uptake will stop entirely because roots die" },
+              { id: "a", text: "Water uptake will stop entirely because roots die" },
+              { id: "b", text: "Water uptake will be unchanged because xylem works independently of leaves" },
+              { id: "c", text: "Water uptake will fall dramatically because transpiration — the force driving the transpiration stream — nearly stops" },
+              { id: "d", text: "Water uptake will increase because roots work harder" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

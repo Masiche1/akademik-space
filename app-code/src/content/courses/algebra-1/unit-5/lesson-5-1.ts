@@ -54,12 +54,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$5$" },
-              { id: "b", text: "$6$" },
-              { id: "c", text: "$7$" },
-              { id: "d", text: "$30$" },
+              { id: "a", text: "$30$" },
+              { id: "b", text: "$7$" },
+              { id: "c", text: "$6$" },
+              { id: "d", text: "$5$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -178,9 +178,9 @@ export const lesson51: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$2$" },
-              { id: "b", text: "$8$" },
+              { id: "b", text: "No values are flagged." },
               { id: "c", text: "$20$" },
-              { id: "d", text: "No values are flagged." },
+              { id: "d", text: "$8$" },
             ],
             correctChoiceId: "c",
           },

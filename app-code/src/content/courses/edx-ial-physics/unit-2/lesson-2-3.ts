@@ -51,12 +51,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Virtual, upright" },
-              { id: "b", text: "Real, inverted" },
-              { id: "c", text: "Virtual, inverted" },
-              { id: "d", text: "Real, upright" },
+              { id: "a", text: "Virtual, inverted" },
+              { id: "b", text: "Real, upright" },
+              { id: "c", text: "Real, inverted" },
+              { id: "d", text: "Virtual, upright" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Converging lens", statement: "Distant object → real inverted image." }],
@@ -168,11 +168,11 @@ export const lesson23: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Real, inverted" },
-              { id: "b", text: "Virtual, upright, same size" },
-              { id: "c", text: "Virtual, inverted" },
-              { id: "d", text: "Real, upright" },
+              { id: "b", text: "Real, upright" },
+              { id: "c", text: "Virtual, upright, same size" },
+              { id: "d", text: "Virtual, inverted" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Plane mirror", statement: "Virtual upright same size." }],

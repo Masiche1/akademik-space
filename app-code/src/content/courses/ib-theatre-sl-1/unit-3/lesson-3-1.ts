@@ -55,12 +55,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Performing a published script" },
-              { id: "b", text: "Creating theatre collaboratively without a pre-existing script" },
-              { id: "c", text: "Designing costumes" },
+              { id: "a", text: "Designing costumes" },
+              { id: "b", text: "Performing a published script" },
+              { id: "c", text: "Creating theatre collaboratively without a pre-existing script" },
               { id: "d", text: "Writing a play alone" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -156,12 +156,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Stimulus" },
-              { id: "b", text: "Research" },
-              { id: "c", text: "Rehearsing a published script" },
-              { id: "d", text: "Editing" },
+              { id: "a", text: "Research" },
+              { id: "b", text: "Editing" },
+              { id: "c", text: "Stimulus" },
+              { id: "d", text: "Rehearsing a published script" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -185,12 +185,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A finished script to perform" },
-              { id: "b", text: "A starting point that opens exploration" },
-              { id: "c", text: "A costume design brief" },
-              { id: "d", text: "A lighting cue" },
+              { id: "a", text: "A starting point that opens exploration" },
+              { id: "b", text: "A costume design brief" },
+              { id: "c", text: "A lighting cue" },
+              { id: "d", text: "A finished script to perform" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -214,12 +214,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Looking up facts online only" },
-              { id: "b", text: "Gathering material — interviews, observations, texts — to inform the work" },
-              { id: "c", text: "Writing a research report" },
-              { id: "d", text: "Auditioning actors" },
+              { id: "a", text: "Auditioning actors" },
+              { id: "b", text: "Writing a research report" },
+              { id: "c", text: "Looking up facts online only" },
+              { id: "d", text: "Gathering material — interviews, observations, texts — to inform the work" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -243,10 +243,10 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Linear: stimulus to script to performance" },
+              { id: "a", text: "Random generation with no structure" },
               { id: "b", text: "Cyclical: research, improvisation, reflection, then more research and improvisation" },
-              { id: "c", text: "Random generation with no structure" },
-              { id: "d", text: "Copying an existing play" },
+              { id: "c", text: "Copying an existing play" },
+              { id: "d", text: "Linear: stimulus to script to performance" },
             ],
             correctChoiceId: "b",
           },
@@ -273,11 +273,11 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "To fill rehearsal time" },
-              { id: "b", text: "Because most material will be cut in editing; quantity increases the chance of finding strong moments" },
-              { id: "c", text: "To demonstrate each member's skill" },
-              { id: "d", text: "Because the stimulus requires it" },
+              { id: "b", text: "To demonstrate each member's skill" },
+              { id: "c", text: "Because the stimulus requires it" },
+              { id: "d", text: "Because most material will be cut in editing; quantity increases the chance of finding strong moments" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -301,10 +301,10 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "\"Perform a monologue about home\"" },
+              { id: "a", text: "A detailed script outline" },
               { id: "b", text: "The question \"What does home mean to different people?\"" },
-              { id: "c", text: "A single photograph with a caption prescribing exactly what to perform" },
-              { id: "d", text: "A detailed script outline" },
+              { id: "c", text: "\"Perform a monologue about home\"" },
+              { id: "d", text: "A single photograph with a caption prescribing exactly what to perform" },
             ],
             correctChoiceId: "b",
           },
@@ -499,12 +499,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Adding more material" },
-              { id: "b", text: "Selecting and structuring the strongest generated material" },
+              { id: "a", text: "Designing costumes" },
+              { id: "b", text: "Adding more material" },
               { id: "c", text: "Writing dialogue" },
-              { id: "d", text: "Designing costumes" },
+              { id: "d", text: "Selecting and structuring the strongest generated material" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -601,11 +601,11 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Writing the final script" },
-              { id: "b", text: "Creating much more performance material than the piece will need" },
-              { id: "c", text: "Designing the set" },
+              { id: "b", text: "Designing the set" },
+              { id: "c", text: "Creating much more performance material than the piece will need" },
               { id: "d", text: "Choosing the music" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -629,12 +629,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Is chosen before any creative work begins" },
-              { id: "b", text: "Emerges from the material the ensemble discovers" },
-              { id: "c", text: "Is fixed by the stimulus" },
-              { id: "d", text: "Comes from the audience" },
+              { id: "a", text: "Emerges from the material the ensemble discovers" },
+              { id: "b", text: "Is fixed by the stimulus" },
+              { id: "c", text: "Comes from the audience" },
+              { id: "d", text: "Is chosen before any creative work begins" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -658,12 +658,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Projecting photographs on stage" },
-              { id: "b", text: "Responding to images physically through improvisation" },
-              { id: "c", text: "Drawing costume designs" },
+              { id: "a", text: "Drawing costume designs" },
+              { id: "b", text: "Projecting photographs on stage" },
+              { id: "c", text: "Responding to images physically through improvisation" },
               { id: "d", text: "Writing stage directions" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -687,12 +687,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The actors' own biographies" },
-              { id: "b", text: "Real people's words and stories as prompts for scenes" },
-              { id: "c", text: "Newspaper headlines" },
+              { id: "a", text: "Newspaper headlines" },
+              { id: "b", text: "The actors' own biographies" },
+              { id: "c", text: "Real people's words and stories as prompts for scenes" },
               { id: "d", text: "Questions from the audience" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -716,9 +716,9 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It speeds up rehearsals" },
+              { id: "a", text: "It removes the director's role entirely" },
               { id: "b", text: "It makes the work feel authentic and collaborative" },
-              { id: "c", text: "It removes the director's role entirely" },
+              { id: "c", text: "It speeds up rehearsals" },
               { id: "d", text: "It is required by copyright law" },
             ],
             correctChoiceId: "b",
@@ -745,12 +745,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Always chronological" },
-              { id: "b", text: "The structure that best serves the content — chronological, fragmented or circular" },
-              { id: "c", text: "Always linear" },
-              { id: "d", text: "Always non-linear" },
+              { id: "a", text: "The structure that best serves the content — chronological, fragmented or circular" },
+              { id: "b", text: "Always chronological" },
+              { id: "c", text: "Always non-linear" },
+              { id: "d", text: "Always linear" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

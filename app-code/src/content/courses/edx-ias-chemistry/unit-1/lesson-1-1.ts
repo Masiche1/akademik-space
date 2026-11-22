@@ -47,12 +47,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "6" },
-              { id: "b", text: "12" },
-              { id: "c", text: "18" },
-              { id: "d", text: "24" },
+              { id: "a", text: "12" },
+              { id: "b", text: "6" },
+              { id: "c", text: "24" },
+              { id: "d", text: "18" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Mass number", statement: "A = protons + neutrons." }],
@@ -160,10 +160,10 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Increases" },
+              { id: "a", text: "Doubles" },
               { id: "b", text: "Decreases" },
-              { id: "c", text: "Stays constant" },
-              { id: "d", text: "Doubles" },
+              { id: "c", text: "Increases" },
+              { id: "d", text: "Stays constant" },
             ],
             correctChoiceId: "b",
           },

@@ -54,12 +54,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Perfect inequality" },
-              { id: "b", text: "Perfect equality" },
-              { id: "c", text: "Maximum poverty" },
-              { id: "d", text: "No economic growth" },
+              { id: "a", text: "Perfect equality" },
+              { id: "b", text: "Maximum poverty" },
+              { id: "c", text: "No economic growth" },
+              { id: "d", text: "Perfect inequality" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -152,12 +152,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Price against quantity demanded" },
-              { id: "b", text: "Cumulative percentage of population against cumulative percentage of income" },
-              { id: "c", text: "Government spending against tax revenue" },
-              { id: "d", text: "Exports against imports" },
+              { id: "a", text: "Exports against imports" },
+              { id: "b", text: "Government spending against tax revenue" },
+              { id: "c", text: "Cumulative percentage of population against cumulative percentage of income" },
+              { id: "d", text: "Price against quantity demanded" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -180,12 +180,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "0° (horizontal)" },
-              { id: "b", text: "45°" },
-              { id: "c", text: "90° (vertical)" },
-              { id: "d", text: "180°" },
+              { id: "a", text: "180°" },
+              { id: "b", text: "0° (horizontal)" },
+              { id: "c", text: "45°" },
+              { id: "d", text: "90° (vertical)" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -208,12 +208,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Fallen" },
-              { id: "b", text: "Risen" },
-              { id: "c", text: "Stayed the same" },
-              { id: "d", text: "Reached perfect equality" },
+              { id: "a", text: "Reached perfect equality" },
+              { id: "b", text: "Stayed the same" },
+              { id: "c", text: "Fallen" },
+              { id: "d", text: "Risen" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -236,10 +236,10 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Median household income" },
+              { id: "a", text: "GDP per capita of the country" },
               { id: "b", text: "A fixed minimum income needed for basic necessities" },
               { id: "c", text: "The income of the richest household" },
-              { id: "d", text: "GDP per capita of the country" },
+              { id: "d", text: "Median household income" },
             ],
             correctChoiceId: "b",
           },
@@ -265,11 +265,11 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "1" },
-              { id: "b", text: "0" },
-              { id: "c", text: "0.5" },
-              { id: "d", text: "Undefined" },
+              { id: "b", text: "0.5" },
+              { id: "c", text: "Undefined" },
+              { id: "d", text: "0" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -519,12 +519,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Everyone pays the same rate of tax" },
-              { id: "b", text: "The tax rate rises as income rises" },
-              { id: "c", text: "Only low-income earners pay tax" },
+              { id: "a", text: "The tax rate rises as income rises" },
+              { id: "b", text: "Only low-income earners pay tax" },
+              { id: "c", text: "Everyone pays the same rate of tax" },
               { id: "d", text: "Tax is levied on goods rather than income" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -617,12 +617,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The tax rate rises as income rises" },
-              { id: "b", text: "The tax takes a larger share of income from low-income earners" },
+              { id: "a", text: "The tax takes a larger share of income from low-income earners" },
+              { id: "b", text: "The tax rate rises as income rises" },
               { id: "c", text: "Only the rich pay tax" },
               { id: "d", text: "No one pays tax" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -646,11 +646,11 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Are given as goods or services" },
-              { id: "b", text: "Provide money directly to recipients" },
-              { id: "c", text: "Can never reduce poverty" },
-              { id: "d", text: "Are paid only to the wealthy" },
+              { id: "b", text: "Are paid only to the wealthy" },
+              { id: "c", text: "Provide money directly to recipients" },
+              { id: "d", text: "Can never reduce poverty" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -673,12 +673,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A shortage of workers" },
-              { id: "b", text: "Unemployment (a surplus of labour)" },
-              { id: "c", text: "Lower prices for consumers" },
-              { id: "d", text: "Higher employment" },
+              { id: "a", text: "Unemployment (a surplus of labour)" },
+              { id: "b", text: "Higher employment" },
+              { id: "c", text: "A shortage of workers" },
+              { id: "d", text: "Lower prices for consumers" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -701,10 +701,10 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Cash benefits" },
+              { id: "a", text: "Food stamps" },
               { id: "b", text: "Investment in education and training" },
-              { id: "c", text: "Food stamps" },
-              { id: "d", text: "Inheritance tax" },
+              { id: "c", text: "Inheritance tax" },
+              { id: "d", text: "Cash benefits" },
             ],
             correctChoiceId: "b",
           },
@@ -729,12 +729,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Poor households pay negative amounts of tax" },
-              { id: "b", text: "The government pays a supplement when income is below a threshold, tapering as income rises" },
-              { id: "c", text: "All taxation is abolished" },
-              { id: "d", text: "Imports are taxed at a negative rate" },
+              { id: "a", text: "All taxation is abolished" },
+              { id: "b", text: "Imports are taxed at a negative rate" },
+              { id: "c", text: "Poor households pay negative amounts of tax" },
+              { id: "d", text: "The government pays a supplement when income is below a threshold, tapering as income rises" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

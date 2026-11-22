@@ -87,11 +87,11 @@ export const lesson22: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "I-vi-IV-V" },
-              { id: "b", text: "I-IV-V" },
-              { id: "c", text: "ii-V-I" },
+              { id: "b", text: "ii-V-I" },
+              { id: "c", text: "I-IV-V" },
               { id: "d", text: "I-IV-vi-V" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -299,15 +299,15 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "notes sharpened above the scale" },
+              { id: "a", text: "unpitched percussive sounds" },
+              { id: "b", text: "notes sharpened above the scale" },
+              { id: "c", text: "notes played only in the lowest register" },
               {
-                id: "b",
+                id: "d",
                 text: "flattened third, fifth and seventh scale degrees",
               },
-              { id: "c", text: "unpitched percussive sounds" },
-              { id: "d", text: "notes played only in the lowest register" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -346,15 +346,15 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "strictly even eighth notes" },
+              { id: "a", text: "a straight military march beat" },
+              { id: "b", text: "strictly even eighth notes" },
+              { id: "c", text: "free time without pulse" },
               {
-                id: "b",
+                id: "d",
                 text: "a lilting long-short pattern that bounces rather than marches",
               },
-              { id: "c", text: "a straight military march beat" },
-              { id: "d", text: "free time without pulse" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -394,14 +394,14 @@ export const lesson22: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "slower tempos and simpler harmony" },
+              { id: "b", text: "complete reliance on written scores" },
               {
-                id: "b",
+                id: "c",
                 text: "small groups, faster tempos and complex harmonic language",
               },
-              { id: "c", text: "larger dance bands and novelty effects" },
-              { id: "d", text: "complete reliance on written scores" },
+              { id: "d", text: "larger dance bands and novelty effects" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -441,14 +441,14 @@ export const lesson22: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "major scale with added sharps" },
+              { id: "b", text: "whole-tone scale" },
+              { id: "c", text: "chromatic scale" },
               {
-                id: "b",
+                id: "d",
                 text: "minor pentatonic with flattened third, fifth and seventh",
               },
-              { id: "c", text: "whole-tone scale" },
-              { id: "d", text: "chromatic scale" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -487,10 +487,10 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Bebop" },
-              { id: "b", text: "Cool jazz" },
+              { id: "a", text: "Cool jazz" },
+              { id: "b", text: "Jazz-rock fusion" },
               { id: "c", text: "New Orleans (Dixieland) jazz" },
-              { id: "d", text: "Jazz-rock fusion" },
+              { id: "d", text: "Bebop" },
             ],
             correctChoiceId: "c",
           },
@@ -530,16 +530,16 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "loud brass and fast tempos" },
+              {
+                id: "a",
+                text: "completely notated scores with no improvisation",
+              },
               {
                 id: "b",
                 text: "restrained, lighter playing influenced by classical music",
               },
-              { id: "c", text: "heavy electric distortion" },
-              {
-                id: "d",
-                text: "completely notated scores with no improvisation",
-              },
+              { id: "c", text: "loud brass and fast tempos" },
+              { id: "d", text: "heavy electric distortion" },
             ],
             correctChoiceId: "b",
           },
@@ -991,10 +991,10 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Orchestral music and ballet" },
+              { id: "a", text: "Jazz and blues only" },
               { id: "b", text: "Rapping, DJing, breakdancing and graffiti" },
-              { id: "c", text: "Classical piano and opera" },
-              { id: "d", text: "Jazz and blues only" },
+              { id: "c", text: "Orchestral music and ballet" },
+              { id: "d", text: "Classical piano and opera" },
             ],
             correctChoiceId: "b",
           },
@@ -1202,12 +1202,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The 1920s" },
-              { id: "b", text: "The 1930s" },
-              { id: "c", text: "The 1950s" },
+              { id: "a", text: "The 1930s" },
+              { id: "b", text: "The 1950s" },
+              { id: "c", text: "The 1920s" },
               { id: "d", text: "The 1980s" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1246,9 +1246,9 @@ export const lesson22: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "the accent on beats two and four" },
-              { id: "b", text: "a drum fill at the end of phrases" },
-              { id: "c", text: "the guitar solo section" },
-              { id: "d", text: "the bass guitar's lowest note" },
+              { id: "b", text: "the guitar solo section" },
+              { id: "c", text: "the bass guitar's lowest note" },
+              { id: "d", text: "a drum fill at the end of phrases" },
             ],
             correctChoiceId: "a",
           },
@@ -1288,12 +1288,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Classical opera and ballet" },
-              { id: "b", text: "Gospel and rhythm and blues" },
-              { id: "c", text: "Country music only" },
-              { id: "d", text: "European folk songs" },
+              { id: "a", text: "Gospel and rhythm and blues" },
+              { id: "b", text: "Classical opera and ballet" },
+              { id: "c", text: "European folk songs" },
+              { id: "d", text: "Country music only" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -1332,14 +1332,14 @@ export const lesson22: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "slow ballads and string sections" },
+              { id: "b", text: "orchestral grandeur" },
               {
-                id: "b",
+                id: "c",
                 text: "rhythmic groove, syncopation and emphasis on the 'one'",
               },
-              { id: "c", text: "orchestral grandeur" },
               { id: "d", text: "spoken-word poetry only" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1378,15 +1378,15 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "The Paris café scene of the 1920s" },
               {
-                id: "a",
+                id: "b",
                 text: "The 1970s Bronx through DJing, rapping, breakdancing and graffiti",
               },
-              { id: "b", text: "The Paris café scene of the 1920s" },
               { id: "c", text: "Nashville recording studios" },
               { id: "d", text: "European conservatories" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1425,15 +1425,15 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "polished commercial pop ambition" },
+              { id: "a", text: "orchestral grandeur and formal complexity" },
+              { id: "b", text: "nostalgia for earlier decades" },
+              { id: "c", text: "polished commercial pop ambition" },
               {
-                id: "b",
+                id: "d",
                 text: "DIY rebellion against mainstream music and society",
               },
-              { id: "c", text: "orchestral grandeur and formal complexity" },
-              { id: "d", text: "nostalgia for earlier decades" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

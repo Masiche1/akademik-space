@@ -55,12 +55,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "I have ten." },
-              { id: "b", text: "I am ten years old." },
+              { id: "a", text: "I am ten years old." },
+              { id: "b", text: "I ten." },
               { id: "c", text: "My age is ten old." },
-              { id: "d", text: "I ten." },
+              { id: "d", text: "I have ten." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -152,12 +152,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "I live in Madrid." },
-              { id: "b", text: "I am Madrid." },
+              { id: "a", text: "I am Madrid." },
+              { id: "b", text: "I live in Madrid." },
               { id: "c", text: "I have Madrid." },
               { id: "d", text: "Madrid is me." },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -179,10 +179,10 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "I am a dog." },
+              { id: "a", text: "Dogs are nice." },
               { id: "b", text: "Yes, I have got a dog." },
               { id: "c", text: "I like dogs." },
-              { id: "d", text: "Dogs are nice." },
+              { id: "d", text: "I am a dog." },
             ],
             correctChoiceId: "b",
           },
@@ -254,12 +254,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "I have two sister." },
-              { id: "b", text: "I have got two sisters." },
-              { id: "c", text: "I has two sisters." },
-              { id: "d", text: "I am two sisters." },
+              { id: "a", text: "I am two sisters." },
+              { id: "b", text: "I have two sister." },
+              { id: "c", text: "I have got two sisters." },
+              { id: "d", text: "I has two sisters." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -282,11 +282,11 @@ export const lesson23: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "It ends the sentence" },
-              { id: "b", text: "It gives a reason" },
-              { id: "c", text: "It asks a question" },
+              { id: "b", text: "It asks a question" },
+              { id: "c", text: "It gives a reason" },
               { id: "d", text: "It joins two names" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -359,12 +359,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "I like football because swimming." },
-              { id: "b", text: "I like football and swimming." },
-              { id: "c", text: "Because football I like." },
-              { id: "d", text: "I like and football." },
+              { id: "a", text: "I like football and swimming." },
+              { id: "b", text: "Because football I like." },
+              { id: "c", text: "I like and football." },
+              { id: "d", text: "I like football because swimming." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -392,12 +392,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "One brother" },
-              { id: "b", text: "One sister" },
-              { id: "c", text: "Two sisters" },
-              { id: "d", text: "No brothers or sisters" },
+              { id: "a", text: "One sister" },
+              { id: "b", text: "One brother" },
+              { id: "c", text: "No brothers or sisters" },
+              { id: "d", text: "Two sisters" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -507,10 +507,10 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The detail sentence" },
+              { id: "a", text: "The question" },
               { id: "b", text: "The topic sentence" },
               { id: "c", text: "The last sentence" },
-              { id: "d", text: "The question" },
+              { id: "d", text: "The detail sentence" },
             ],
             correctChoiceId: "b",
           },
@@ -610,12 +610,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "One single word" },
-              { id: "b", text: "A group of sentences about one topic" },
-              { id: "c", text: "A list of names" },
-              { id: "d", text: "The title of a book" },
+              { id: "a", text: "The title of a book" },
+              { id: "b", text: "A list of names" },
+              { id: "c", text: "A group of sentences about one topic" },
+              { id: "d", text: "One single word" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -637,12 +637,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The topic sentence" },
+              { id: "a", text: "A question" },
               { id: "b", text: "The last detail" },
-              { id: "c", text: "A question" },
-              { id: "d", text: "A list" },
+              { id: "c", text: "A list" },
+              { id: "d", text: "The topic sentence" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -712,10 +712,10 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Detail, detail, topic sentence" },
+              { id: "a", text: "Details only, no topic" },
               { id: "b", text: "Topic sentence, details, opinion" },
               { id: "c", text: "Opinion, topic sentence, details" },
-              { id: "d", text: "Details only, no topic" },
+              { id: "d", text: "Detail, detail, topic sentence" },
             ],
             correctChoiceId: "b",
           },
@@ -739,12 +739,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "My dog is called Rex." },
-              { id: "b", text: "Rex is very friendly." },
-              { id: "c", text: "My school is near my house." },
-              { id: "d", text: "Rex likes to play." },
+              { id: "a", text: "My school is near my house." },
+              { id: "b", text: "Rex likes to play." },
+              { id: "c", text: "Rex is very friendly." },
+              { id: "d", text: "My dog is called Rex." },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -817,12 +817,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Very long sentences" },
-              { id: "b", text: "One topic, logical order and correct sentences" },
+              { id: "a", text: "No punctuation" },
+              { id: "b", text: "Very long sentences" },
               { id: "c", text: "Many different topics" },
-              { id: "d", text: "No punctuation" },
+              { id: "d", text: "One topic, logical order and correct sentences" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -850,12 +850,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Sentence 1" },
+              { id: "a", text: "Sentence 4" },
               { id: "b", text: "Sentence 2" },
-              { id: "c", text: "Sentence 3" },
-              { id: "d", text: "Sentence 4" },
+              { id: "c", text: "Sentence 1" },
+              { id: "d", text: "Sentence 3" },
             ],
-            correctChoiceId: "d",
+            correctChoiceIa: "d",
           },
           markscheme: {
             principles: [

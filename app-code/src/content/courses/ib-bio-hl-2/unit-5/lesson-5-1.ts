@@ -55,11 +55,11 @@ export const lesson51: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Logistic growth limited by carrying capacity" },
-              { id: "b", text: "Exponential growth $\\frac{dN}{dt}=rN$" },
-              { id: "c", text: "Zero growth because bacteria cannot reproduce" },
+              { id: "b", text: "Zero growth because bacteria cannot reproduce" },
+              { id: "c", text: "Exponential growth $\\frac{dN}{dt}=rN$" },
               { id: "d", text: "Declining growth because nutrients are finite" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -83,10 +83,10 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It is at its maximum" },
-              { id: "b", text: "It equals $rK$" },
+              { id: "a", text: "It becomes negative" },
+              { id: "b", text: "It is at its maximum" },
               { id: "c", text: "It is zero" },
-              { id: "d", text: "It becomes negative" },
+              { id: "d", text: "It equals $rK$" },
             ],
             correctChoiceId: "c",
           },
@@ -113,12 +113,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$100$" },
-              { id: "b", text: "$1\\,005$" },
+              { id: "a", text: "$1\\,005$" },
+              { id: "b", text: "$1\\,500$" },
               { id: "c", text: "$335$" },
-              { id: "d", text: "$1\\,500$" },
+              { id: "d", text: "$100$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -176,12 +176,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The carrying capacity of the environment" },
-              { id: "b", text: "The intrinsic rate of increase per unit time" },
+              { id: "a", text: "The intrinsic rate of increase per unit time" },
+              { id: "b", text: "The number of offspring produced per individual" },
               { id: "c", text: "The population size at time zero" },
-              { id: "d", text: "The number of offspring produced per individual" },
+              { id: "d", text: "The carrying capacity of the environment" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -205,12 +205,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$N = 0$" },
-              { id: "b", text: "$N = \\frac{K}{2}$" },
+              { id: "a", text: "$N = \\frac{K}{2}$" },
+              { id: "b", text: "$N = 0$" },
               { id: "c", text: "$N = K$" },
               { id: "d", text: "$N = 2K$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -234,12 +234,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "An exponential J-shaped curve" },
-              { id: "b", text: "A logistic S-shaped curve" },
+              { id: "a", text: "A logistic S-shaped curve" },
+              { id: "b", text: "A declining curve" },
               { id: "c", text: "A linear growth curve" },
-              { id: "d", text: "A declining curve" },
+              { id: "d", text: "An exponential J-shaped curve" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -264,12 +264,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Growth accelerates because resources are abundant" },
+              { id: "a", text: "The growth rate becomes negative and the population declines" },
               { id: "b", text: "Growth stops and the population stays constant" },
-              { id: "c", text: "The growth rate becomes negative and the population declines" },
+              { id: "c", text: "Growth accelerates because resources are abundant" },
               { id: "d", text: "The population immediately crashes to zero" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -510,12 +510,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Competition for food" },
-              { id: "b", text: "Spread of disease" },
-              { id: "c", text: "A volcanic eruption" },
-              { id: "d", text: "Predation by a specialist predator" },
+              { id: "a", text: "Spread of disease" },
+              { id: "b", text: "Predation by a specialist predator" },
+              { id: "c", text: "Competition for food" },
+              { id: "d", text: "A volcanic eruption" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -539,12 +539,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Type I — low juvenile mortality" },
-              { id: "b", text: "Type II — constant mortality" },
-              { id: "c", text: "Type III — high juvenile mortality" },
-              { id: "d", text: "No survivorship curve applies" },
+              { id: "a", text: "Type III — high juvenile mortality" },
+              { id: "b", text: "No survivorship curve applies" },
+              { id: "c", text: "Type I — low juvenile mortality" },
+              { id: "d", text: "Type II — constant mortality" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -569,12 +569,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Rapid growth because many children will be born" },
-              { id: "b", text: "A stable population with balanced age classes" },
-              { id: "c", text: "An ageing population likely to decline or shrink in size" },
-              { id: "d", text: "A population recovering from a mass extinction" },
+              { id: "a", text: "A population recovering from a mass extinction" },
+              { id: "b", text: "Rapid growth because many children will be born" },
+              { id: "c", text: "A stable population with balanced age classes" },
+              { id: "d", text: "An ageing population likely to decline or shrink in size" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -632,12 +632,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Competition for limited nesting sites" },
-              { id: "b", text: "A severe frost" },
-              { id: "c", text: "A hurricane" },
-              { id: "d", text: "Volcanic ash fall" },
+              { id: "a", text: "Volcanic ash fall" },
+              { id: "b", text: "Competition for limited nesting sites" },
+              { id: "c", text: "A severe frost" },
+              { id: "d", text: "A hurricane" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -661,10 +661,10 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Very high juvenile mortality and few survivors reaching old age" },
+              { id: "a", text: "Mortality concentrated entirely in middle age" },
               { id: "b", text: "Low juvenile mortality with most individuals surviving to old age" },
-              { id: "c", text: "A constant mortality rate at every age" },
-              { id: "d", text: "Mortality concentrated entirely in middle age" },
+              { id: "c", text: "Very high juvenile mortality and few survivors reaching old age" },
+              { id: "d", text: "A constant mortality rate at every age" },
             ],
             correctChoiceId: "b",
           },
@@ -690,12 +690,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The ratio of births to deaths in a population" },
-              { id: "b", text: "The proportion of the population that is too young or too old to work, relative to the working-age population" },
+              { id: "a", text: "The proportion of the population that is too young or too old to work, relative to the working-age population" },
+              { id: "b", text: "The ratio of births to deaths in a population" },
               { id: "c", text: "The percentage of the population living in urban areas" },
               { id: "d", text: "The rate of immigration per thousand people" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -722,8 +722,8 @@ export const lesson51: Lesson = {
             choices: [
               { id: "a", text: "Density-dependent, because the crash was severe" },
               { id: "b", text: "Density-independent, because its impact does not depend on how crowded the population was" },
-              { id: "c", text: "Density-dependent, because recovery depends on density" },
-              { id: "d", text: "Neither — it is not a biological factor" },
+              { id: "c", text: "Neither — it is not a biological factor" },
+              { id: "d", text: "Density-dependent, because recovery depends on density" },
             ],
             correctChoiceId: "b",
           },

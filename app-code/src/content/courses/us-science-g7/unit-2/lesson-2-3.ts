@@ -50,12 +50,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "2" },
+              { id: "a", text: "5" },
               { id: "b", text: "3" },
-              { id: "c", text: "5" },
-              { id: "d", text: "6" },
+              { id: "c", text: "6" },
+              { id: "d", text: "2" },
             ],
-            correctChoiceId: "d",
+            correctChoiceIc: "d",
           },
           markscheme: {
             principles: [
@@ -182,12 +182,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Exothermic, because it releases energy" },
-              { id: "b", text: "Exothermic, because it absorbs energy" },
-              { id: "c", text: "Endothermic, because it releases energy" },
-              { id: "d", text: "Endothermic, because it absorbs energy" },
+              { id: "a", text: "Endothermic, because it absorbs energy" },
+              { id: "b", text: "Exothermic, because it releases energy" },
+              { id: "c", text: "Exothermic, because it absorbs energy" },
+              { id: "d", text: "Endothermic, because it releases energy" },
             ],
-            correctChoiceId: "d",
+            correctChoiceIa: "d",
           },
           markscheme: {
             principles: [

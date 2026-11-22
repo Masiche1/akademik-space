@@ -58,12 +58,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$3n+5$" },
-              { id: "b", text: "$5n+3$" },
-              { id: "c", text: "$3(n+5)$" },
-              { id: "d", text: "$8n$" },
+              { id: "a", text: "$8n$" },
+              { id: "b", text: "$3(n+5)$" },
+              { id: "c", text: "$3n+5$" },
+              { id: "d", text: "$5n+3$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -177,12 +177,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$4m-7$" },
-              { id: "b", text: "$7-4m$" },
-              { id: "c", text: "$4(m-7)$" },
-              { id: "d", text: "$11m$" },
+              { id: "a", text: "$11m$" },
+              { id: "b", text: "$4(m-7)$" },
+              { id: "c", text: "$7-4m$" },
+              { id: "d", text: "$4m-7$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -204,12 +204,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$10x-2x$" },
-              { id: "b", text: "$6x$" },
-              { id: "c", text: "$8x$" },
+              { id: "a", text: "$8x$" },
+              { id: "b", text: "$10x-2x$" },
+              { id: "c", text: "$6x$" },
               { id: "d", text: "$6$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -231,12 +231,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$4y+2$" },
-              { id: "b", text: "$4y+8$" },
-              { id: "c", text: "$y+8$" },
+              { id: "a", text: "$y+8$" },
+              { id: "b", text: "$4y+2$" },
+              { id: "c", text: "$4y+8$" },
               { id: "d", text: "$4y+6$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -309,12 +309,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$3x$ and $3$" },
+              { id: "a", text: "$4ab$ and $-ab$" },
               { id: "b", text: "$2y^2$ and $5y$" },
-              { id: "c", text: "$4ab$ and $-ab$" },
-              { id: "d", text: "$7x$ and $7y$" },
+              { id: "c", text: "$7x$ and $7y$" },
+              { id: "d", text: "$3x$ and $3$" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -364,9 +364,9 @@ export const lesson21: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$4x+8$" },
-              { id: "b", text: "$2x+4$" },
+              { id: "b", text: "$4x+4$" },
               { id: "c", text: "$x+4$" },
-              { id: "d", text: "$4x+4$" },
+              { id: "d", text: "$2x+4$" },
             ],
             correctChoiceId: "a",
           },
@@ -522,12 +522,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$-5$" },
-              { id: "b", text: "$-7$" },
-              { id: "c", text: "$5$" },
-              { id: "d", text: "$7$" },
+              { id: "a", text: "$5$" },
+              { id: "b", text: "$7$" },
+              { id: "c", text: "$-7$" },
+              { id: "d", text: "$-5$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -629,12 +629,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$9$" },
-              { id: "b", text: "$14$" },
-              { id: "c", text: "$34$" },
-              { id: "d", text: "$12$" },
+              { id: "a", text: "$12$" },
+              { id: "b", text: "$34$" },
+              { id: "c", text: "$14$" },
+              { id: "d", text: "$9$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -656,12 +656,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$-9$" },
-              { id: "b", text: "$-6$" },
-              { id: "c", text: "$9$" },
-              { id: "d", text: "$6$" },
+              { id: "a", text: "$9$" },
+              { id: "b", text: "$-9$" },
+              { id: "c", text: "$6$" },
+              { id: "d", text: "$-6$" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -683,12 +683,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$8$" },
-              { id: "b", text: "$12$" },
+              { id: "a", text: "$12$" },
+              { id: "b", text: "$-8$" },
               { id: "c", text: "$3$" },
-              { id: "d", text: "$-8$" },
+              { id: "d", text: "$8$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -749,12 +749,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$4\\times3-(-2)^2=12-4=8$" },
+              { id: "a", text: "$4+3-(-2)^2=7-4=3$" },
               { id: "b", text: "$4\\times3-(-2)^2=12-(-4)=16$" },
               { id: "c", text: "$4\\times3+(-2)^2=12+4=16$" },
-              { id: "d", text: "$4+3-(-2)^2=7-4=3$" },
+              { id: "d", text: "$4\\times3-(-2)^2=12-4=8$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -798,8 +798,8 @@ export const lesson21: Lesson = {
             choices: [
               { id: "a", text: "$6$" },
               { id: "b", text: "$14$" },
-              { id: "c", text: "$-14$" },
-              { id: "d", text: "$10$" },
+              { id: "c", text: "$10$" },
+              { id: "d", text: "$-14$" },
             ],
             correctChoiceId: "a",
           },

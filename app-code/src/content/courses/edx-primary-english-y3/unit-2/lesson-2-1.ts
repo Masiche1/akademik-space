@@ -55,12 +55,12 @@ export const lesson81: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "To inform" },
-              { id: "b", text: "To entertain" },
-              { id: "c", text: "To persuade" },
-              { id: "d", text: "To instruct" },
+              { id: "a", text: "To entertain" },
+              { id: "b", text: "To inform" },
+              { id: "c", text: "To instruct" },
+              { id: "d", text: "To persuade" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -89,12 +89,12 @@ export const lesson81: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "To inform" },
-              { id: "b", text: "To entertain" },
-              { id: "c", text: "To persuade" },
-              { id: "d", text: "To instruct" },
+              { id: "a", text: "To entertain" },
+              { id: "b", text: "To inform" },
+              { id: "c", text: "To instruct" },
+              { id: "d", text: "To persuade" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -231,9 +231,9 @@ export const lesson81: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Numbered steps" },
+              { id: "a", text: "A contents page" },
               { id: "b", text: "Characters and a plot" },
-              { id: "c", text: "A contents page" },
+              { id: "c", text: "Numbered steps" },
               { id: "d", text: "Bullet points" },
             ],
             correctChoiceId: "b",
@@ -265,12 +265,12 @@ export const lesson81: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Story" },
-              { id: "b", text: "Instructions" },
-              { id: "c", text: "Letter" },
-              { id: "d", text: "Poem" },
+              { id: "a", text: "Instructions" },
+              { id: "b", text: "Poem" },
+              { id: "c", text: "Story" },
+              { id: "d", text: "Letter" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

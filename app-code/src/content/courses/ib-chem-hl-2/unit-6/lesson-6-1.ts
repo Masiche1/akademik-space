@@ -90,12 +90,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Inversion of configuration at the carbon" },
-              { id: "b", text: "Formation of a carbocation intermediate" },
-              { id: "c", text: "Racemisation of product" },
-              { id: "d", text: "Two-step mechanism" },
+              { id: "a", text: "Formation of a carbocation intermediate" },
+              { id: "b", text: "Inversion of configuration at the carbon" },
+              { id: "c", text: "Two-step mechanism" },
+              { id: "d", text: "Racemisation of product" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -324,12 +324,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Rate depends only on [RX]" },
-              { id: "b", text: "Rate depends only on [Nu$^-$]" },
-              { id: "c", text: "Rate depends on both [RX] and [Nu$^-$]" },
+              { id: "a", text: "Rate depends only on [Nu$^-$]" },
+              { id: "b", text: "Rate depends on both [RX] and [Nu$^-$]" },
+              { id: "c", text: "Rate depends only on [RX]" },
               { id: "d", text: "Rate is independent of concentration" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -367,12 +367,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Tertiary halide, weak nucleophile, water" },
-              { id: "b", text: "Primary halide, strong nucleophile, acetone" },
+              { id: "a", text: "Secondary halide, weak nucleophile, water" },
+              { id: "b", text: "Tertiary halide, weak nucleophile, water" },
               { id: "c", text: "Tertiary halide, strong nucleophile, ethanol" },
-              { id: "d", text: "Secondary halide, weak nucleophile, water" },
+              { id: "d", text: "Primary halide, strong nucleophile, acetone" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -416,14 +416,14 @@ export const lesson61: Lesson = {
                 id: "a",
                 text: "A single enantiomer with retention of configuration",
               },
+              { id: "b", text: "An achiral product" },
               {
-                id: "b",
+                id: "c",
                 text: "A single enantiomer with inversion of configuration",
               },
-              { id: "c", text: "A racemic mixture of enantiomers" },
-              { id: "d", text: "An achiral product" },
+              { id: "d", text: "A racemic mixture of enantiomers" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -463,12 +463,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "F$^-$ > Cl$^-$ > Br$^-$ > I$^-$" },
-              { id: "b", text: "I$^-$ > Br$^-$ > Cl$^-$ > F$^-$" },
-              { id: "c", text: "Cl$^-$ > I$^-$ > Br$^-$ > F$^-$" },
-              { id: "d", text: "Br$^-$ > I$^-$ > Cl$^-$ > F$^-$" },
+              { id: "a", text: "Br$^-$ > I$^-$ > Cl$^-$ > F$^-$" },
+              { id: "b", text: "Cl$^-$ > I$^-$ > Br$^-$ > F$^-$" },
+              { id: "c", text: "I$^-$ > Br$^-$ > Cl$^-$ > F$^-$" },
+              { id: "d", text: "F$^-$ > Cl$^-$ > Br$^-$ > I$^-$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -508,12 +508,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "SN2" },
-              { id: "b", text: "SN1" },
+              { id: "a", text: "SN1" },
+              { id: "b", text: "SN2" },
               { id: "c", text: "E2" },
               { id: "d", text: "Free-radical substitution" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -553,12 +553,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "SN1" },
-              { id: "b", text: "SN2" },
-              { id: "c", text: "E1" },
-              { id: "d", text: "E2" },
+              { id: "a", text: "E1" },
+              { id: "b", text: "SN1" },
+              { id: "c", text: "E2" },
+              { id: "d", text: "SN2" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -903,12 +903,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "C2 (the middle carbon)" },
-              { id: "b", text: "C1 (the terminal carbon)" },
-              { id: "c", text: "Both carbons equally" },
+              { id: "a", text: "C1 (the terminal carbon)" },
+              { id: "b", text: "Both carbons equally" },
+              { id: "c", text: "C2 (the middle carbon)" },
               { id: "d", text: "No carbon — Br$_2$ forms instead" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1144,12 +1144,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "1-bromopropane" },
-              { id: "b", text: "2-bromopropane" },
-              { id: "c", text: "Propanal" },
+              { id: "a", text: "Propanal" },
+              { id: "b", text: "1-bromopropane" },
+              { id: "c", text: "2-bromopropane" },
               { id: "d", text: "Propane" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1189,12 +1189,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "But-1-ene" },
-              { id: "b", text: "But-2-ene" },
-              { id: "c", text: "Butane" },
-              { id: "d", text: "Butan-2-ol" },
+              { id: "a", text: "Butan-2-ol" },
+              { id: "b", text: "But-1-ene" },
+              { id: "c", text: "But-2-ene" },
+              { id: "d", text: "Butane" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1234,12 +1234,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A carbocation intermediate" },
-              { id: "b", text: "A strong base and anti-periplanar geometry" },
-              { id: "c", text: "A weak nucleophile" },
-              { id: "d", text: "A polar protic solvent" },
+              { id: "a", text: "A polar protic solvent" },
+              { id: "b", text: "A weak nucleophile" },
+              { id: "c", text: "A carbocation intermediate" },
+              { id: "d", text: "A strong base and anti-periplanar geometry" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1280,11 +1280,11 @@ export const lesson61: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "1-chloropropane" },
-              { id: "b", text: "2-chloropropane" },
-              { id: "c", text: "Propanone" },
-              { id: "d", text: "Cyclopropane" },
+              { id: "b", text: "Propanone" },
+              { id: "c", text: "Cyclopropane" },
+              { id: "d", text: "2-chloropropane" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1323,12 +1323,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Syn addition" },
-              { id: "b", text: "Anti addition" },
-              { id: "c", text: "No stereochemistry — product is achiral" },
-              { id: "d", text: "Cis addition only" },
+              { id: "a", text: "Cis addition only" },
+              { id: "b", text: "No stereochemistry — product is achiral" },
+              { id: "c", text: "Syn addition" },
+              { id: "d", text: "Anti addition" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1367,12 +1367,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Aqueous KOH" },
-              { id: "b", text: "Ethanolic KOH" },
-              { id: "c", text: "Sodium cyanide" },
+              { id: "a", text: "Ethanolic KOH" },
+              { id: "b", text: "Sodium cyanide" },
+              { id: "c", text: "Aqueous KOH" },
               { id: "d", text: "Bromine water" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

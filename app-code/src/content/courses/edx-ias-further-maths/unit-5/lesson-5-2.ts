@@ -52,12 +52,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\int_{s_1}^{s_2}F(s)\\,ds$" },
-              { id: "b", text: "$F(s_2)-F(s_1)$" },
+              { id: "a", text: "$\\frac{dF}{ds}$" },
+              { id: "b", text: "$\\int_{s_1}^{s_2}F(s)\\,ds$" },
               { id: "c", text: "$F\\times(s_2-s_1)$ always" },
-              { id: "d", text: "$\\frac{dF}{ds}$" },
+              { id: "d", text: "$F(s_2)-F(s_1)$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Work", statement: "$W=\\int F\\,ds$." }],
@@ -172,12 +172,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$Fv$" },
-              { id: "b", text: "$\\frac{F}{v}$" },
-              { id: "c", text: "$mv$" },
-              { id: "d", text: "$Fs$" },
+              { id: "a", text: "$Fs$" },
+              { id: "b", text: "$mv$" },
+              { id: "c", text: "$\\frac{F}{v}$" },
+              { id: "d", text: "$Fv$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Power", statement: "$P=Fv$." }],

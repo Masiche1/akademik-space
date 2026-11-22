@@ -46,8 +46,11 @@ export const lesson91: Lesson = {
           totalMarks: 1,
           stem: "How many ways can 3 distinct books be arranged on a shelf?",
           response: { type: "mcq", choices: [
-            { id: "a", text: "6" }, { id: "b", text: "3" }, { id: "c", text: "9" }, { id: "d", text: "27" },
-          ], correctChoiceId: "a" },
+            { id: "a", text: "27" },
+            { id: "b", text: "9" },
+            { id: "c", text: "6" },
+            { id: "d", text: "3" },
+          ], correctChoiceId: "c" },
           markscheme: {
             principles: [{ kind: "formula", name: "n!", statement: "3! = 6." }],
             steps: [{ reasoning: "$3! = 3 \\times 2 \\times 1 = 6$.", marks: 1, markCode: "A" }],
@@ -108,7 +111,10 @@ export const lesson91: Lesson = {
           totalMarks: 1,
           stem: "How many ways can 4 distinct flags be arranged in a row?",
           response: { type: "mcq", choices: [
-            { id: "a", text: "24" }, { id: "b", text: "12" }, { id: "c", text: "16" }, { id: "d", text: "8" },
+            { id: "a", text: "24" },
+            { id: "b", text: "16" },
+            { id: "c", text: "8" },
+            { id: "d", text: "12" },
           ], correctChoiceId: "a" },
           markscheme: {
             principles: [{ kind: "formula", name: "n!", statement: "4! = 4 × 3 × 2 × 1." }],
@@ -153,8 +159,11 @@ export const lesson91: Lesson = {
           totalMarks: 1,
           stem: "In how many ways can 5 people be seated around a circular table?",
           response: { type: "mcq", choices: [
-            { id: "a", text: "120" }, { id: "b", text: "24" }, { id: "c", text: "25" }, { id: "d", text: "5" },
-          ], correctChoiceId: "b" },
+            { id: "a", text: "5" },
+            { id: "b", text: "120" },
+            { id: "c", text: "24" },
+            { id: "d", text: "25" },
+          ], correctChoiceId: "c" },
           markscheme: {
             principles: [{ kind: "formula", name: "Circular permutation", statement: "$(n-1)!$." }],
             steps: [{ reasoning: "$(5-1)! = 4! = 24$.", marks: 1, markCode: "A" }],
@@ -199,8 +208,11 @@ export const lesson91: Lesson = {
           totalMarks: 1,
           stem: "In how many ways can 5 different books be arranged on a shelf?",
           response: { type: "mcq", choices: [
-            { id: "a", text: "120" }, { id: "b", text: "25" }, { id: "c", text: "10" }, { id: "d", text: "20" },
-          ], correctChoiceId: "a" },
+            { id: "a", text: "20" },
+            { id: "b", text: "10" },
+            { id: "c", text: "25" },
+            { id: "d", text: "120" },
+          ], correctChoiceId: "d" },
           markscheme: {
             principles: [{ kind: "formula", name: "n!", statement: "5! arrangements." }],
             steps: [{ reasoning: "$5! = 120$.", marks: 1, markCode: "A" }],
@@ -230,8 +242,11 @@ export const lesson91: Lesson = {
           totalMarks: 1,
           stem: "In how many ways can gold, silver and bronze medals be awarded to 8 athletes?",
           response: { type: "mcq", choices: [
-            { id: "a", text: "56" }, { id: "b", text: "336" }, { id: "c", text: "512" }, { id: "d", text: "720" },
-          ], correctChoiceId: "b" },
+            { id: "a", text: "720" },
+            { id: "b", text: "56" },
+            { id: "c", text: "512" },
+            { id: "d", text: "336" },
+          ], correctChoiceId: "d" },
           markscheme: {
             principles: [{ kind: "formula", name: "nPr", statement: "Order matters: $^8P_3$." }],
             steps: [{ reasoning: "$^8P_3 = 8 \\times 7 \\times 6 = 336$.", marks: 1, markCode: "A" }],
@@ -244,8 +259,11 @@ export const lesson91: Lesson = {
           totalMarks: 1,
           stem: "Five people line up in a row. In how many arrangements do A and B sit next to each other?",
           response: { type: "mcq", choices: [
-            { id: "a", text: "48" }, { id: "b", text: "120" }, { id: "c", text: "240" }, { id: "d", text: "96" },
-          ], correctChoiceId: "a" },
+            { id: "a", text: "120" },
+            { id: "b", text: "96" },
+            { id: "c", text: "240" },
+            { id: "d", text: "48" },
+          ], correctChoiceId: "d" },
           markscheme: {
             principles: [{ kind: "technique", name: "Block method", statement: "Treat the pair as one unit." }],
             steps: [{ reasoning: "Treat AB as a block: $4! \\times 2! = 24 \\times 2 = 48$.", marks: 1, markCode: "A" }],

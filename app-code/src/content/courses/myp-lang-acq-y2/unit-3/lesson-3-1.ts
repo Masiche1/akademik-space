@@ -55,12 +55,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "I didn't went to school." },
-              { id: "b", text: "I didn't go to school." },
-              { id: "c", text: "I didn't goes to school." },
-              { id: "d", text: "I not go to school." },
+              { id: "a", text: "I not go to school." },
+              { id: "b", text: "I didn't goes to school." },
+              { id: "c", text: "I didn't went to school." },
+              { id: "d", text: "I didn't go to school." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -152,10 +152,10 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "studyed" },
+              { id: "a", text: "study" },
               { id: "b", text: "studied" },
-              { id: "c", text: "studing" },
-              { id: "d", text: "study" },
+              { id: "c", text: "studyed" },
+              { id: "d", text: "studing" },
             ],
             correctChoiceId: "b",
           },
@@ -179,12 +179,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "She didn't watched TV." },
-              { id: "b", text: "She didn't watch TV." },
-              { id: "c", text: "She didn't watches TV." },
+              { id: "a", text: "She didn't watch TV." },
+              { id: "b", text: "She didn't watches TV." },
+              { id: "c", text: "She didn't watched TV." },
               { id: "d", text: "She not watch TV." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -206,10 +206,10 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Did she went home early?" },
+              { id: "a", text: "Does she went home early?" },
               { id: "b", text: "Did she go home early?" },
-              { id: "c", text: "Does she went home early?" },
-              { id: "d", text: "Did she goes home early?" },
+              { id: "c", text: "Did she goes home early?" },
+              { id: "d", text: "Did she went home early?" },
             ],
             correctChoiceId: "b",
           },
@@ -333,11 +333,11 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "taked" },
-              { id: "b", text: "took" },
-              { id: "c", text: "taken" },
-              { id: "d", text: "taking" },
+              { id: "b", text: "taking" },
+              { id: "c", text: "took" },
+              { id: "d", text: "taken" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -390,12 +390,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Only in the present" },
-              { id: "b", text: "In past simple questions and negatives" },
-              { id: "c", text: "Only with 'will'" },
-              { id: "d", text: "Never — it is not used" },
+              { id: "a", text: "Only with 'will'" },
+              { id: "b", text: "Never — it is not used" },
+              { id: "c", text: "Only in the present" },
+              { id: "d", text: "In past simple questions and negatives" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -506,12 +506,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "gooder" },
-              { id: "b", text: "more good" },
-              { id: "c", text: "better" },
-              { id: "d", text: "best" },
+              { id: "a", text: "better" },
+              { id: "b", text: "best" },
+              { id: "c", text: "gooder" },
+              { id: "d", text: "more good" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -601,12 +601,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "tallest" },
-              { id: "b", text: "more tall" },
-              { id: "c", text: "taller" },
-              { id: "d", text: "most tall" },
+              { id: "a", text: "most tall" },
+              { id: "b", text: "tallest" },
+              { id: "c", text: "more tall" },
+              { id: "d", text: "taller" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -629,11 +629,11 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "faster" },
-              { id: "b", text: "the fastest" },
+              { id: "b", text: "most fast" },
               { id: "c", text: "more fast" },
-              { id: "d", text: "most fast" },
+              { id: "d", text: "the fastest" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -655,12 +655,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "badder" },
-              { id: "b", text: "worse" },
-              { id: "c", text: "more bad" },
+              { id: "a", text: "worse" },
+              { id: "b", text: "more bad" },
+              { id: "c", text: "badder" },
               { id: "d", text: "worst" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -781,10 +781,10 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "interestinger" },
+              { id: "a", text: "interestingerest" },
               { id: "b", text: "more interesting" },
               { id: "c", text: "most interesting" },
-              { id: "d", text: "interestingerest" },
+              { id: "d", text: "interestinger" },
             ],
             correctChoiceId: "b",
           },
@@ -840,11 +840,11 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "because" },
-              { id: "b", text: "but" },
-              { id: "c", text: "so" },
+              { id: "b", text: "so" },
+              { id: "c", text: "but" },
               { id: "d", text: "and" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

@@ -49,10 +49,10 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Starch" },
+              { id: "a", text: "Lactose" },
               { id: "b", text: "Glycogen" },
-              { id: "c", text: "Cellulose" },
-              { id: "d", text: "Lactose" },
+              { id: "c", text: "Starch" },
+              { id: "d", text: "Cellulose" },
             ],
             correctChoiceId: "b",
           },
@@ -165,11 +165,11 @@ export const lesson12: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Glycosidic" },
-              { id: "b", text: "Peptide" },
-              { id: "c", text: "Ester" },
+              { id: "b", text: "Ester" },
+              { id: "c", text: "Peptide" },
               { id: "d", text: "Hydrogen only" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Peptide bond", statement: "Covalent bond between amino acids." }],

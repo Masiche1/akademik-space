@@ -55,12 +55,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "11" },
-              { id: "b", text: "9" },
-              { id: "c", text: "14" },
-              { id: "d", text: "8" },
+              { id: "a", text: "14" },
+              { id: "b", text: "11" },
+              { id: "c", text: "8" },
+              { id: "d", text: "9" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -82,12 +82,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\{4,2,0\\}$" },
-              { id: "b", text: "$\\{6,8,10\\}$" },
-              { id: "c", text: "$\\{4,2,0,6\\}$" },
-              { id: "d", text: "$\\{1,3,5\\}$" },
+              { id: "a", text: "$\\{6,8,10\\}$" },
+              { id: "b", text: "$\\{4,2,0\\}$" },
+              { id: "c", text: "$\\{1,3,5\\}$" },
+              { id: "d", text: "$\\{4,2,0,6\\}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -110,12 +110,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$-7\\le h(x)\\le11$" },
+              { id: "a", text: "$-2\\le h(x)\\le4$" },
               { id: "b", text: "$-5\\le h(x)\\le13$" },
-              { id: "c", text: "$-7\\le h(x)\\le13$" },
-              { id: "d", text: "$-2\\le h(x)\\le4$" },
+              { id: "c", text: "$-7\\le h(x)\\le11$" },
+              { id: "d", text: "$-7\\le h(x)\\le13$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -170,12 +170,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "5" },
-              { id: "b", text: "7" },
-              { id: "c", text: "-1" },
-              { id: "d", text: "4" },
+              { id: "a", text: "-1" },
+              { id: "b", text: "4" },
+              { id: "c", text: "7" },
+              { id: "d", text: "5" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -218,12 +218,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\{4,2,0,-2\\}$" },
-              { id: "b", text: "$\\{4,3,2,1\\}$" },
+              { id: "a", text: "$\\{4,3,2,1\\}$" },
+              { id: "b", text: "$\\{1,2,3,4\\}$" },
               { id: "c", text: "$\\{0,2,4,6\\}$" },
-              { id: "d", text: "$\\{1,2,3,4\\}$" },
+              { id: "d", text: "$\\{4,2,0,-2\\}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -268,12 +268,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$x\\mapsto2x+1$" },
+              { id: "a", text: "$\\{(1,2),(1,3)\\}$" },
               { id: "b", text: "$\\{(1,3),(2,3),(3,3)\\}$" },
-              { id: "c", text: "$\\{(1,2),(1,3)\\}$" },
+              { id: "c", text: "$x\\mapsto2x+1$" },
               { id: "d", text: "$x\\mapsto x-4$" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -437,9 +437,9 @@ export const lesson21: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "5" },
-              { id: "b", text: "11" },
-              { id: "c", text: "7" },
-              { id: "d", text: "-1" },
+              { id: "b", text: "-1" },
+              { id: "c", text: "11" },
+              { id: "d", text: "7" },
             ],
             correctChoiceId: "a",
           },
@@ -497,12 +497,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "2" },
-              { id: "b", text: "5" },
-              { id: "c", text: "$-5$" },
+              { id: "a", text: "5" },
+              { id: "b", text: "$-5$" },
+              { id: "c", text: "2" },
               { id: "d", text: "$\\frac{1}{5}$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -524,12 +524,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "2" },
-              { id: "b", text: "3" },
-              { id: "c", text: "4" },
-              { id: "d", text: "$\\frac{1}{3}$" },
+              { id: "a", text: "$\\frac{1}{3}$" },
+              { id: "b", text: "4" },
+              { id: "c", text: "3" },
+              { id: "d", text: "2" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -552,12 +552,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$-4$" },
-              { id: "b", text: "$\\frac{1}{4}$" },
-              { id: "c", text: "$-\\frac{1}{4}$" },
-              { id: "d", text: "$4$" },
+              { id: "a", text: "$-\\frac{1}{4}$" },
+              { id: "b", text: "$4$" },
+              { id: "c", text: "$\\frac{1}{4}$" },
+              { id: "d", text: "$-4$" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -612,12 +612,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "3" },
-              { id: "b", text: "-3" },
-              { id: "c", text: "7" },
-              { id: "d", text: "$\\frac{1}{3}$" },
+              { id: "a", text: "7" },
+              { id: "b", text: "$\\frac{1}{3}$" },
+              { id: "c", text: "-3" },
+              { id: "d", text: "3" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -660,12 +660,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "2" },
-              { id: "b", text: "3" },
-              { id: "c", text: "4" },
-              { id: "d", text: "$\\frac{1}{3}$" },
+              { id: "a", text: "$\\frac{1}{3}$" },
+              { id: "b", text: "4" },
+              { id: "c", text: "3" },
+              { id: "d", text: "2" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -711,9 +711,9 @@ export const lesson21: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$y=2x+5$" },
-              { id: "b", text: "$y=5x+2$" },
-              { id: "c", text: "$y=2x-5$" },
-              { id: "d", text: "$y=x+5$" },
+              { id: "b", text: "$y=x+5$" },
+              { id: "c", text: "$y=5x+2$" },
+              { id: "d", text: "$y=2x-5$" },
             ],
             correctChoiceId: "a",
           },
@@ -738,12 +738,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$y=2x+3$, gradient 2" },
-              { id: "b", text: "$y=6x+9$, gradient 6" },
+              { id: "a", text: "$y=6x+9$, gradient 6" },
+              { id: "b", text: "$y=3x+3$, gradient 3" },
               { id: "c", text: "$y=2x+9$, gradient 2" },
-              { id: "d", text: "$y=3x+3$, gradient 3" },
+              { id: "d", text: "$y=2x+3$, gradient 2" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -883,12 +883,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$y=-2x+1$" },
-              { id: "b", text: "$y=2x-4$" },
-              { id: "c", text: "$y=0.5x+7$" },
-              { id: "d", text: "$y=-0.5x+2$" },
+              { id: "a", text: "$y=2x-4$" },
+              { id: "b", text: "$y=-2x+1$" },
+              { id: "c", text: "$y=-0.5x+2$" },
+              { id: "d", text: "$y=0.5x+7$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [

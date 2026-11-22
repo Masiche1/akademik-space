@@ -56,9 +56,9 @@ export const lesson14: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "All other things changing equally" },
+              { id: "a", text: "Other variables cannot be measured" },
               { id: "b", text: "All other things being held constant" },
-              { id: "c", text: "Other variables cannot be measured" },
+              { id: "c", text: "All other things changing equally" },
               { id: "d", text: "All economic agents are identical" },
             ],
             correctChoiceId: "b",
@@ -163,10 +163,10 @@ export const lesson14: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Unemployment in the country is 7%" },
+              { id: "a", text: "Exports rose by 3% last year" },
               { id: "b", text: "The minimum wage should be increased" },
               { id: "c", text: "Interest rates were raised by 0.5%" },
-              { id: "d", text: "Exports rose by 3% last year" },
+              { id: "d", text: "Unemployment in the country is 7%" },
             ],
             correctChoiceId: "b",
           },
@@ -191,9 +191,9 @@ export const lesson14: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "What to produce?" },
-              { id: "b", text: "How to produce?" },
-              { id: "c", text: "For whom to produce?" },
+              { id: "a", text: "For whom to produce?" },
+              { id: "b", text: "What to produce?" },
+              { id: "c", text: "How to produce?" },
               { id: "d", text: "When to produce?" },
             ],
             correctChoiceId: "d",
@@ -220,11 +220,11 @@ export const lesson14: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Make models more complicated" },
-              { id: "b", text: "Isolate the effect of one variable by holding others constant" },
-              { id: "c", text: "Guarantee the model is always correct" },
-              { id: "d", text: "Eliminate the need for data" },
+              { id: "b", text: "Guarantee the model is always correct" },
+              { id: "c", text: "Eliminate the need for data" },
+              { id: "d", text: "Isolate the effect of one variable by holding others constant" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -360,12 +360,12 @@ export const lesson14: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Only the price of the good" },
-              { id: "b", text: "Income, tastes and the prices of other goods" },
-              { id: "c", text: "The number of consumers" },
-              { id: "d", text: "Nothing — all variables change together" },
+              { id: "a", text: "Income, tastes and the prices of other goods" },
+              { id: "b", text: "Nothing — all variables change together" },
+              { id: "c", text: "Only the price of the good" },
+              { id: "d", text: "The number of consumers" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -494,12 +494,12 @@ export const lesson14: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Induction" },
-              { id: "b", text: "Deduction" },
-              { id: "c", text: "Ceteris paribus" },
-              { id: "d", text: "Aggregation" },
+              { id: "a", text: "Aggregation" },
+              { id: "b", text: "Ceteris paribus" },
+              { id: "c", text: "Induction" },
+              { id: "d", text: "Deduction" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -593,12 +593,12 @@ export const lesson14: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Deduction" },
-              { id: "b", text: "Induction" },
-              { id: "c", text: "Ceteris paribus" },
-              { id: "d", text: "Normative analysis" },
+              { id: "a", text: "Ceteris paribus" },
+              { id: "b", text: "Normative analysis" },
+              { id: "c", text: "Induction" },
+              { id: "d", text: "Deduction" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -621,12 +621,12 @@ export const lesson14: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A textbook diagram of demand" },
-              { id: "b", text: "National employment statistics published by the government" },
-              { id: "c", text: "An economist's personal opinion" },
-              { id: "d", text: "A hypothetical model assumption" },
+              { id: "a", text: "A hypothetical model assumption" },
+              { id: "b", text: "An economist's personal opinion" },
+              { id: "c", text: "National employment statistics published by the government" },
+              { id: "d", text: "A textbook diagram of demand" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -649,12 +649,12 @@ export const lesson14: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Ignore the data" },
-              { id: "b", text: "Revise the model or its assumptions" },
-              { id: "c", text: "Assume the data is always wrong" },
+              { id: "a", text: "Revise the model or its assumptions" },
+              { id: "b", text: "Assume the data is always wrong" },
+              { id: "c", text: "Ignore the data" },
               { id: "d", text: "Stop using economics" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -769,12 +769,12 @@ export const lesson14: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The main goals the policy was designed to achieve" },
-              { id: "b", text: "Effects of the policy that were not foreseen by policymakers" },
-              { id: "c", text: "Costs that were budgeted in advance" },
-              { id: "d", text: "Benefits enjoyed by the intended recipients" },
+              { id: "a", text: "Effects of the policy that were not foreseen by policymakers" },
+              { id: "b", text: "The main goals the policy was designed to achieve" },
+              { id: "c", text: "Benefits enjoyed by the intended recipients" },
+              { id: "d", text: "Costs that were budgeted in advance" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

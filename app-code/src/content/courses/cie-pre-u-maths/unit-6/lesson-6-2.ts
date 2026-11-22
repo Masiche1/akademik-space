@@ -81,9 +81,9 @@ export const lesson62: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "(e^x − e^(−x))/2" },
-              { id: "b", text: "(e^x + e^(−x))/2" },
-              { id: "c", text: "e^x" },
-              { id: "d", text: "(e^x − e^(−x))/x" },
+              { id: "b", text: "(e^x − e^(−x))/x" },
+              { id: "c", text: "(e^x + e^(−x))/2" },
+              { id: "d", text: "e^x" },
             ],
           correctChoiceId: "a",
           },
@@ -109,12 +109,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "(e^x + e^(−x))/2" },
-              { id: "b", text: "(e^x − e^(−x))/2" },
-              { id: "c", text: "e^x" },
-              { id: "d", text: "e^(−x)" },
+              { id: "a", text: "(e^x − e^(−x))/2" },
+              { id: "b", text: "e^x" },
+              { id: "c", text: "e^(−x)" },
+              { id: "d", text: "(e^x + e^(−x))/2" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -137,8 +137,8 @@ export const lesson62: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "sinh x / cosh x" },
-              { id: "b", text: "cosh x / sinh x" },
-              { id: "c", text: "sinh x · cosh x" },
+              { id: "b", text: "sinh x · cosh x" },
+              { id: "c", text: "cosh x / sinh x" },
               { id: "d", text: "1/sinh x" },
             ],
           correctChoiceId: "a",
@@ -161,12 +161,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "1" },
-              { id: "b", text: "0" },
-              { id: "c", text: "−1" },
-              { id: "d", text: "2" },
+              { id: "a", text: "−1" },
+              { id: "b", text: "2" },
+              { id: "c", text: "1" },
+              { id: "d", text: "0" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -190,8 +190,8 @@ export const lesson62: Lesson = {
             choices: [
               { id: "a", text: "Odd function — sinh(−x) = −sinh x" },
               { id: "b", text: "Even function" },
-              { id: "c", text: "Neither" },
-              { id: "d", text: "Constant" },
+              { id: "c", text: "Constant" },
+              { id: "d", text: "Neither" },
             ],
           correctChoiceId: "a",
           },
@@ -216,9 +216,9 @@ export const lesson62: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Even function — cosh(−x) = cosh x" },
-              { id: "b", text: "Odd function" },
-              { id: "c", text: "Neither" },
-              { id: "d", text: "Constant" },
+              { id: "b", text: "Neither" },
+              { id: "c", text: "Constant" },
+              { id: "d", text: "Odd function" },
             ],
           correctChoiceId: "a",
           },
@@ -242,12 +242,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "1 (at x = 0)" },
-              { id: "b", text: "0" },
+              { id: "a", text: "0" },
+              { id: "b", text: "1 (at x = 0)" },
               { id: "c", text: "−1" },
               { id: "d", text: "No minimum" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -265,12 +265,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "cosh x" },
-              { id: "b", text: "sinh x" },
-              { id: "c", text: "−cosh x" },
-              { id: "d", text: "1" },
+              { id: "a", text: "sinh x" },
+              { id: "b", text: "1" },
+              { id: "c", text: "cosh x" },
+              { id: "d", text: "−cosh x" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -292,12 +292,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "sinh x" },
-              { id: "b", text: "cosh x" },
-              { id: "c", text: "−sinh x" },
-              { id: "d", text: "1" },
+              { id: "a", text: "1" },
+              { id: "b", text: "−sinh x" },
+              { id: "c", text: "cosh x" },
+              { id: "d", text: "sinh x" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -319,12 +319,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "0" },
-              { id: "b", text: "1" },
-              { id: "c", text: "−1" },
+              { id: "a", text: "−1" },
+              { id: "b", text: "0" },
+              { id: "c", text: "1" },
               { id: "d", text: "Undefined" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -342,12 +342,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "1" },
-              { id: "b", text: "0" },
-              { id: "c", text: "−1" },
-              { id: "d", text: "Undefined" },
+              { id: "a", text: "−1" },
+              { id: "b", text: "Undefined" },
+              { id: "c", text: "0" },
+              { id: "d", text: "1" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -365,12 +365,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "1 (horizontal asymptote)" },
-              { id: "b", text: "0" },
-              { id: "c", text: "∞" },
-              { id: "d", text: "−1" },
+              { id: "a", text: "0" },
+              { id: "b", text: "1 (horizontal asymptote)" },
+              { id: "c", text: "−1" },
+              { id: "d", text: "∞" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -392,12 +392,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "2 sinh x cosh x" },
-              { id: "b", text: "sinh²x + cosh²x" },
-              { id: "c", text: "2 sinh x" },
-              { id: "d", text: "cosh²x − sinh²x" },
+              { id: "a", text: "2 sinh x" },
+              { id: "b", text: "cosh²x − sinh²x" },
+              { id: "c", text: "sinh²x + cosh²x" },
+              { id: "d", text: "2 sinh x cosh x" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -421,12 +421,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "cosh²x + sinh²x" },
-              { id: "b", text: "2 sinh x cosh x" },
-              { id: "c", text: "cosh²x − sinh²x" },
+              { id: "a", text: "cosh²x − sinh²x" },
+              { id: "b", text: "cosh²x + sinh²x" },
+              { id: "c", text: "2 sinh x cosh x" },
               { id: "d", text: "2 cosh x" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -450,12 +450,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "sech²x" },
-              { id: "b", text: "csch²x" },
-              { id: "c", text: "−sech²x" },
-              { id: "d", text: "tanh²x" },
+              { id: "a", text: "tanh²x" },
+              { id: "b", text: "−sech²x" },
+              { id: "c", text: "sech²x" },
+              { id: "d", text: "csch²x" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -477,12 +477,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "1/cosh x" },
-              { id: "b", text: "1/sinh x" },
-              { id: "c", text: "cosh x/sinh x" },
+              { id: "a", text: "1/sinh x" },
+              { id: "b", text: "cosh x/sinh x" },
+              { id: "c", text: "1/cosh x" },
               { id: "d", text: "cosh x · sinh x" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -500,12 +500,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "1/sinh x" },
-              { id: "b", text: "1/cosh x" },
+              { id: "a", text: "1/cosh x" },
+              { id: "b", text: "cosh x/sinh x" },
               { id: "c", text: "sinh x/cosh x" },
-              { id: "d", text: "cosh x/sinh x" },
+              { id: "d", text: "1/sinh x" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -523,12 +523,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "cosh x/sinh x" },
-              { id: "b", text: "sinh x/cosh x" },
+              { id: "a", text: "sinh x/cosh x" },
+              { id: "b", text: "1/sinh x" },
               { id: "c", text: "1/cosh x" },
-              { id: "d", text: "1/sinh x" },
+              { id: "d", text: "cosh x/sinh x" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -548,12 +548,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "0" },
-              { id: "b", text: "1" },
+              { id: "a", text: "Undefined" },
+              { id: "b", text: "0" },
               { id: "c", text: "−1" },
-              { id: "d", text: "Undefined" },
+              { id: "d", text: "1" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -693,12 +693,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "1" },
-              { id: "b", text: "0" },
+              { id: "a", text: "0" },
+              { id: "b", text: "1" },
               { id: "c", text: "∞" },
               { id: "d", text: "−1" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -783,12 +783,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "1" },
-              { id: "b", text: "0" },
-              { id: "c", text: "−1" },
+              { id: "a", text: "0" },
+              { id: "b", text: "−1" },
+              { id: "c", text: "1" },
               { id: "d", text: "Undefined" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -940,12 +940,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "x = g(x)" },
-              { id: "b", text: "x = f(x)" },
-              { id: "c", text: "g(x) = 0" },
-              { id: "d", text: "f(x) = g(x)" },
+              { id: "a", text: "f(x) = g(x)" },
+              { id: "b", text: "g(x) = 0" },
+              { id: "c", text: "x = f(x)" },
+              { id: "d", text: "x = g(x)" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -963,12 +963,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "x_{n+1} = x_n − f(x_n)/f′(x_n)" },
+              { id: "a", text: "x_{n+1} = f/f′" },
               { id: "b", text: "x_{n+1} = x_n + f/f′" },
-              { id: "c", text: "x_{n+1} = f/f′" },
-              { id: "d", text: "x_{n+1} = x_n²" },
+              { id: "c", text: "x_{n+1} = x_n²" },
+              { id: "d", text: "x_{n+1} = x_n − f(x_n)/f′(x_n)" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -992,12 +992,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Sign change indicating a root" },
-              { id: "b", text: "Derivative" },
-              { id: "c", text: "Tangents" },
-              { id: "d", text: "No conditions" },
+              { id: "a", text: "Tangents" },
+              { id: "b", text: "No conditions" },
+              { id: "c", text: "Derivative" },
+              { id: "d", text: "Sign change indicating a root" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1020,9 +1020,9 @@ export const lesson62: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Quadratic (order 2)" },
-              { id: "b", text: "Linear" },
+              { id: "b", text: "None" },
               { id: "c", text: "Cubic" },
-              { id: "d", text: "None" },
+              { id: "d", text: "Linear" },
             ],
           correctChoiceId: "a",
           },
@@ -1048,12 +1048,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "|g′(root)| < 1" },
-              { id: "b", text: "|g′(root)| > 1" },
-              { id: "c", text: "g′ = 0" },
-              { id: "d", text: "Always converges" },
+              { id: "a", text: "|g′(root)| > 1" },
+              { id: "b", text: "|g′(root)| < 1" },
+              { id: "c", text: "Always converges" },
+              { id: "d", text: "g′ = 0" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1075,12 +1075,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Sign change → root exists between" },
-              { id: "b", text: "No root" },
-              { id: "c", text: "Derivative exists" },
-              { id: "d", text: "Function continuous only" },
+              { id: "a", text: "Function continuous only" },
+              { id: "b", text: "Derivative exists" },
+              { id: "c", text: "No root" },
+              { id: "d", text: "Sign change → root exists between" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1102,12 +1102,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Halves the interval" },
-              { id: "b", text: "Doubles it" },
-              { id: "c", text: "Keeps it same" },
-              { id: "d", text: "Removes it" },
+              { id: "a", text: "Doubles it" },
+              { id: "b", text: "Removes it" },
+              { id: "c", text: "Halves the interval" },
+              { id: "d", text: "Keeps it same" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1131,12 +1131,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Tangent line approximation" },
-              { id: "b", text: "Secant only" },
-              { id: "c", text: "Bisection" },
-              { id: "d", text: "No geometry" },
+              { id: "a", text: "Secant only" },
+              { id: "b", text: "No geometry" },
+              { id: "c", text: "Tangent line approximation" },
+              { id: "d", text: "Bisection" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1158,12 +1158,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Value of x where f(x) = 0" },
-              { id: "b", text: "f(0)" },
+              { id: "a", text: "f(0)" },
+              { id: "b", text: "Value of x where f(x) = 0" },
               { id: "c", text: "y-intercept" },
               { id: "d", text: "Maximum" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1181,12 +1181,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "|g′(root)| ≥ 1" },
-              { id: "b", text: "|g′(root)| < 1" },
-              { id: "c", text: "g is linear" },
-              { id: "d", text: "Never fails" },
+              { id: "a", text: "|g′(root)| < 1" },
+              { id: "b", text: "|g′(root)| ≥ 1" },
+              { id: "c", text: "Never fails" },
+              { id: "d", text: "g is linear" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1212,8 +1212,8 @@ export const lesson62: Lesson = {
             choices: [
               { id: "a", text: "1.5" },
               { id: "b", text: "2" },
-              { id: "c", text: "0.5" },
-              { id: "d", text: "1.25" },
+              { id: "c", text: "1.25" },
+              { id: "d", text: "0.5" },
             ],
           correctChoiceId: "a",
           },
@@ -1237,12 +1237,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "f(x) and f′(x) = 3x² − 1" },
+              { id: "a", text: "Neither" },
               { id: "b", text: "Only f(x)" },
-              { id: "c", text: "Only f′" },
-              { id: "d", text: "Neither" },
+              { id: "c", text: "f(x) and f′(x) = 3x² − 1" },
+              { id: "d", text: "Only f′" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1261,9 +1261,9 @@ export const lesson62: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "1.5" },
-              { id: "b", text: "1.25" },
-              { id: "c", text: "1.75" },
-              { id: "d", text: "2" },
+              { id: "b", text: "2" },
+              { id: "c", text: "1.25" },
+              { id: "d", text: "1.75" },
             ],
           correctChoiceId: "a",
           },
@@ -1284,9 +1284,9 @@ export const lesson62: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "0.5" },
-              { id: "b", text: "1" },
-              { id: "c", text: "0.25" },
-              { id: "d", text: "2" },
+              { id: "b", text: "2" },
+              { id: "c", text: "1" },
+              { id: "d", text: "0.25" },
             ],
           correctChoiceId: "a",
           },
@@ -1310,12 +1310,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "f′(x_n) = 0 at some iterate" },
-              { id: "b", text: "f is continuous" },
-              { id: "c", text: "Root exists" },
-              { id: "d", text: "Always works" },
+              { id: "a", text: "Always works" },
+              { id: "b", text: "Root exists" },
+              { id: "c", text: "f is continuous" },
+              { id: "d", text: "f′(x_n) = 0 at some iterate" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1337,12 +1337,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Value where x = g(x)" },
-              { id: "b", text: "g(0)" },
-              { id: "c", text: "Maximum" },
-              { id: "d", text: "Minimum" },
+              { id: "a", text: "g(0)" },
+              { id: "b", text: "Minimum" },
+              { id: "c", text: "Value where x = g(x)" },
+              { id: "d", text: "Maximum" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1367,8 +1367,8 @@ export const lesson62: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "f(a)·f(b) < 0" },
-              { id: "b", text: "f(a)·f(b) > 0" },
-              { id: "c", text: "f′ exists" },
+              { id: "b", text: "f′ exists" },
+              { id: "c", text: "f(a)·f(b) > 0" },
               { id: "d", text: "No conditions" },
             ],
           correctChoiceId: "a",
@@ -1393,15 +1393,15 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "Slower" },
+              { id: "b", text: "Same speed" },
               {
-                id: "a",
+                id: "c",
                 text: "Uses derivative information — quadratic convergence",
               },
-              { id: "b", text: "Uses more points" },
-              { id: "c", text: "Slower" },
-              { id: "d", text: "Same speed" },
+              { id: "d", text: "Uses more points" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1425,12 +1425,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Visualising iteration convergence" },
-              { id: "b", text: "Bisection" },
-              { id: "c", text: "Newton-Raphson" },
-              { id: "d", text: "No method" },
+              { id: "a", text: "Bisection" },
+              { id: "b", text: "Newton-Raphson" },
+              { id: "c", text: "No method" },
+              { id: "d", text: "Visualising iteration convergence" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1588,12 +1588,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Sign change exists on interval" },
-              { id: "b", text: "f′ exists" },
-              { id: "c", text: "f is linear" },
-              { id: "d", text: "Never guaranteed" },
+              { id: "a", text: "f′ exists" },
+              { id: "b", text: "Sign change exists on interval" },
+              { id: "c", text: "Never guaranteed" },
+              { id: "d", text: "f is linear" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1686,12 +1686,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "f(x) and its derivative" },
-              { id: "b", text: "Only f(x)" },
-              { id: "c", text: "Only f′" },
-              { id: "d", text: "Neither" },
+              { id: "a", text: "Only f(x)" },
+              { id: "b", text: "Only f′" },
+              { id: "c", text: "Neither" },
+              { id: "d", text: "f(x) and its derivative" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "d",
           },
           markscheme: {
             principles: [

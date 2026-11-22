@@ -54,12 +54,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Raising taxes and cutting spending" },
-              { id: "b", text: "Cutting taxes and increasing spending" },
-              { id: "c", text: "Only raising interest rates" },
-              { id: "d", text: "Selling government assets" },
+              { id: "a", text: "Only raising interest rates" },
+              { id: "b", text: "Selling government assets" },
+              { id: "c", text: "Cutting taxes and increasing spending" },
+              { id: "d", text: "Raising taxes and cutting spending" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -156,12 +156,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Government revenue exceeds government spending" },
-              { id: "b", text: "Government spending exceeds government revenue" },
-              { id: "c", text: "Exports exceed imports" },
+              { id: "a", text: "Government spending exceeds government revenue" },
+              { id: "b", text: "Exports exceed imports" },
+              { id: "c", text: "Government revenue exceeds government spending" },
               { id: "d", text: "The price level is falling" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -184,10 +184,10 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Automatic changes in tax and benefit payments" },
+              { id: "a", text: "Changes in the exchange rate" },
               { id: "b", text: "Deliberate changes in government spending or tax rates" },
               { id: "c", text: "Changes in interest rates set by the central bank" },
-              { id: "d", text: "Changes in the exchange rate" },
+              { id: "d", text: "Automatic changes in tax and benefit payments" },
             ],
             correctChoiceId: "b",
           },
@@ -212,10 +212,10 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Fall from 2.5 to 1.25" },
+              { id: "a", text: "Remain at 2.5" },
               { id: "b", text: "Rise from 2.5 to 5" },
-              { id: "c", text: "Remain at 2.5" },
-              { id: "d", text: "Fall from 5 to 2.5" },
+              { id: "c", text: "Fall from 5 to 2.5" },
+              { id: "d", text: "Fall from 2.5 to 1.25" },
             ],
             correctChoiceId: "b",
           },
@@ -383,12 +383,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A new government infrastructure programme" },
+              { id: "a", text: "Unemployment benefit payments that rise automatically in a recession" },
               { id: "b", text: "A cut in income tax announced by the finance minister" },
-              { id: "c", text: "Unemployment benefit payments that rise automatically in a recession" },
+              { id: "c", text: "A new government infrastructure programme" },
               { id: "d", text: "Central bank purchases of government bonds" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -411,10 +411,10 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A deep recession with falling output" },
+              { id: "a", text: "A trade deficit with no inflation" },
               { id: "b", text: "Demand-pull inflation and an overheating economy" },
-              { id: "c", text: "A trade deficit with no inflation" },
-              { id: "d", text: "Deflation and rising unemployment" },
+              { id: "c", text: "Deflation and rising unemployment" },
+              { id: "d", text: "A deep recession with falling output" },
             ],
             correctChoiceId: "b",
           },
@@ -495,10 +495,10 @@ export const lesson51: Lesson = {
             choices: [
               { id: "a", text: "Promoting economic growth" },
               { id: "b", text: "Reducing unemployment" },
-              { id: "c", text: "Setting the exchange rate directly" },
-              { id: "d", text: "Redistributing income" },
+              { id: "c", text: "Redistributing income" },
+              { id: "d", text: "Setting the exchange rate directly" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -592,12 +592,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Promoting economic growth" },
-              { id: "b", text: "Reducing unemployment" },
-              { id: "c", text: "Maintaining price stability" },
-              { id: "d", text: "Setting interest rates directly" },
+              { id: "a", text: "Reducing unemployment" },
+              { id: "b", text: "Maintaining price stability" },
+              { id: "c", text: "Setting interest rates directly" },
+              { id: "d", text: "Promoting economic growth" },
             ],
-            correctChoiceId: "d",
+            correctChoiceIc: "d",
           },
           markscheme: {
             principles: [
@@ -620,12 +620,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Government spending directly displacing private spending" },
-              { id: "b", text: "Government borrowing raising interest rates and reducing private investment" },
+              { id: "a", text: "Imports rising as incomes rise" },
+              { id: "b", text: "Government spending directly displacing private spending" },
               { id: "c", text: "Higher taxes reducing consumption" },
-              { id: "d", text: "Imports rising as incomes rise" },
+              { id: "d", text: "Government borrowing raising interest rates and reducing private investment" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -648,10 +648,10 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It is too fast to implement" },
-              { id: "b", text: "It requires no political decisions" },
+              { id: "a", text: "It requires no political decisions" },
+              { id: "b", text: "It cannot be used to target specific sectors" },
               { id: "c", text: "It can create budget deficits and suffers from time lags" },
-              { id: "d", text: "It cannot be used to target specific sectors" },
+              { id: "d", text: "It is too fast to implement" },
             ],
             correctChoiceId: "c",
           },
@@ -677,11 +677,11 @@ export const lesson51: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Faster and more flexible" },
-              { id: "b", text: "Slower, but able to target spending and address distribution" },
-              { id: "c", text: "Identical in its effects" },
-              { id: "d", text: "Unable to affect aggregate demand" },
+              { id: "b", text: "Unable to affect aggregate demand" },
+              { id: "c", text: "Slower, but able to target spending and address distribution" },
+              { id: "d", text: "Identical in its effects" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -866,12 +866,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Government spending exceeds tax revenue" },
-              { id: "b", text: "Tax revenue exceeds government spending" },
-              { id: "c", text: "Exports exceed imports" },
-              { id: "d", text: "The government borrows from the central bank" },
+              { id: "a", text: "Exports exceed imports" },
+              { id: "b", text: "The government borrows from the central bank" },
+              { id: "c", text: "Government spending exceeds tax revenue" },
+              { id: "d", text: "Tax revenue exceeds government spending" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

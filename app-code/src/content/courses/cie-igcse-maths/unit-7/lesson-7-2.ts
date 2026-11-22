@@ -55,12 +55,12 @@ export const lesson72: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Translation by $\\begin{pmatrix}-3\\\\2\\end{pmatrix}$" },
+              { id: "a", text: "Rotation $180^\\circ$" },
               { id: "b", text: "Reflection in the $y$-axis" },
-              { id: "c", text: "Rotation $180^\\circ$" },
+              { id: "c", text: "Translation by $\\begin{pmatrix}-3\\\\2\\end{pmatrix}$" },
               { id: "d", text: "Enlargement scale factor $-1$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -144,6 +144,160 @@ export const lesson72: Lesson = {
             examinerNote: "Accept centre found graphically; the algebraic route uses two pairs then verifies the third.",
           },
         },
+        {
+          id: "ciem-u7-identifying-q5", difficulty: "foundation", totalMarks: 1,
+          stem: "Every point of a shape moves by the same vector. What type of transformation is this?",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "Reflection" },
+            { id: "b", text: "Translation" },
+            { id: "c", text: "Rotation" },
+            { id: "d", text: "Enlargement" }
+ ],
+            correctChoiceId: "b" },
+          markscheme: { principles: [ { kind: "definition", name: "Translation", statement: "Every point moves by the same vector." } ],
+            steps: [ { reasoning: "Equal displacement for all points indicates translation.", working: "\\text{translation}", marks: 1, markCode: "B" } ],
+            finalAnswer: "**(a)** Translation", commonErrors: ["Confusing with enlargement."] },
+        },
+        {
+          id: "ciem-u7-identifying-q6", difficulty: "core", totalMarks: 1,
+          stem: "Points $(1,1)\\to(1,-1)$ and $(2,1)\\to(2,-1)$. Describe the transformation.",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "Reflection in the $x$-axis" },
+            { id: "b", text: "Translation by $\\begin{pmatrix}0\\\\-2\\end{pmatrix}$" },
+            { id: "c", text: "Rotation $180^\\circ$" },
+            { id: "d", text: "Reflection in the $y$-axis" }
+ ],
+            correctChoiceId: "a" },
+          markscheme: { principles: [ { kind: "property", name: "Reflection", statement: "Only the $y$-coordinates change sign." } ],
+            steps: [ { reasoning: "The mapping is $(x,y)\\to(x,-y)$.", working: "\\text{reflection in }x\\text{-axis}", marks: 1, markCode: "M" } ],
+            finalAnswer: "**(b)** Reflection in the $x$-axis", commonErrors: ["Choosing reflection in the $y$-axis."] },
+        },
+        {
+          id: "ciem-u7-identifying-q7", difficulty: "core", totalMarks: 2,
+          stem: "Point $P(5,2)$ maps to $P'(2,7)$. Find the translation vector.",
+          response: { type: "numeric", parts: [ { label: "x", answer: -3 }, { label: "y", answer: 5 } ] },
+          markscheme: { principles: [ { kind: "formula", name: "Translation vector", statement: "$\\vec{v}=\\text{image}-\\text{object}$" } ],
+            steps: [
+              { reasoning: "Subtract object from image.", working: "(2-5,7-2)=(-3,5)", marks: 1, markCode: "M" },
+              { reasoning: "State the vector components.", marks: 1, markCode: "A" } ],
+            finalAnswer: "$\\begin{pmatrix}-3\\\\5\\end{pmatrix}$", commonErrors: ["Reversing the subtraction."] },
+        },
+        {
+          id: "ciem-u7-identifying-q8", difficulty: "challenge", totalMarks: 1,
+          stem: "Point $(4,1)$ maps to $(1,4)$ and $(2,5)$ maps to $(5,2)$. Describe the transformation.",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "Reflection in the $x$-axis" },
+            { id: "b", text: "Rotation $90^\\circ$ anticlockwise" },
+            { id: "c", text: "Translation by $\\begin{pmatrix}-3\\\\3\\end{pmatrix}$" },
+            { id: "d", text: "Reflection in the line $y=x$" }
+ ],
+            dorrectChoiceId: "c" },
+          markscheme: { principles: [ { kind: "formula", name: "Reflect y=x", statement: "$(x,y)\\to(y,x)$" } ],
+            steps: [ { reasoning: "Both pairs swap coordinates.", working: "(x,y)\\to(y,x)", marks: 1, markCode: "M" } ],
+            finalAnswer: "**(c)** Reflection in $y=x$", commonErrors: ["Forcing a rotation."] },
+        },
+        {
+          id: "ciem-u7-identifying-q9", difficulty: "core", totalMarks: 2,
+          stem: "Point $P(2,6)$ is reflected to $P'(6,2)$. Find the midpoint of $PP'$.",
+          response: { type: "numeric", parts: [ { label: "x", answer: 4 }, { label: "y", answer: 4 } ] },
+          markscheme: { principles: [ { kind: "property", name: "Reflection", statement: "The mirror line is the perpendicular bisector of $PP'$." } ],
+            steps: [
+              { reasoning: "Average the coordinates.", working: "M=\\left(\\frac{2+6}{2},\\frac{6+2}{2}\\right)=(4,4)", marks: 1, markCode: "M" },
+              { reasoning: "State the midpoint.", marks: 1, markCode: "A" } ],
+            finalAnswer: "$(4,4)$", commonErrors: ["Finding the midpoint of the wrong segment."] },
+        },
+        {
+          id: "ciem-u7-identifying-q10", difficulty: "foundation", totalMarks: 2,
+          stem: "Under an enlargement with centre $(0,0)$, point $(2,3)$ maps to $(4,6)$. Find the scale factor.",
+          response: { type: "numeric", parts: [ { label: "k", answer: 2 }] },
+          markscheme: { principles: [ { kind: "formula", name: "Scale factor", statement: "$k=\\frac{\\text{image distance}}{\\text{object distance}}$" } ],
+            steps: [
+              { reasoning: "Both coordinates double.", working: "k=\\frac42=\\frac63=2", marks: 1, markCode: "M" },
+              { reasoning: "State the scale factor.", marks: 1, markCode: "A" } ],
+            finalAnswer: "$k=2$", commonErrors: ["Adding instead of multiplying."] },
+        },
+        {
+          id: "ciem-u7-identifying-q11", difficulty: "challenge", totalMarks: 1,
+          stem: "A shape and its image have the same size and orientation, and the vectors joining corresponding points are equal and parallel. What is the transformation?",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "Enlargement" },
+            { id: "b", text: "Rotation" },
+            { id: "c", text: "Reflection" },
+            { id: "d", text: "Translation" }
+ ],
+            correctChoiceId: "d" },
+          markscheme: { principles: [ { kind: "definition", name: "Translation", statement: "Equal parallel displacement vectors identify a translation." } ],
+            steps: [ { reasoning: "Equal vectors mean the same slide for every point.", working: "\\text{translation}", marks: 1, markCode: "B" } ],
+            finalAnswer: "**(a)** Translation", commonErrors: ["Choosing rotation."] },
+        },
+        {
+          id: "ciem-u7-identifying-q12", difficulty: "core", totalMarks: 4,
+          stem: "Point $A(6,1)$ maps to $A'(1,6)$ under a transformation. Point $B(2,4)$ maps to $B'(4,2)$.",
+          response: { type: "open" },
+          markscheme: { principles: [ { kind: "formula", name: "Reflect y=x", statement: "$(x,y)\\to(y,x)$" } ],
+            steps: [
+              { reasoning: "Test the $y=x$ reflection on $A$.", working: "(y,x)=(1,6)", marks: 1, markCode: "M" },
+              { reasoning: "Test the same rule on $B$.", working: "(y,x)=(4,2)", marks: 1, markCode: "M" },
+              { reasoning: "Both mappings match.", marks: 1, markCode: "M" },
+              { reasoning: "State the transformation.", marks: 1, markCode: "A" } ],
+            finalAnswer: "Reflection in the line $y=x$", commonErrors: ["Describing it as a rotation."] },
+        },
+        {
+          id: "ciem-u7-identifying-q13", difficulty: "challenge", totalMarks: 2,
+          stem: "Under an enlargement with centre $(0,0)$, point $(3,2)$ maps to $(9,6)$. Find the scale factor.",
+          response: { type: "numeric", parts: [ { label: "k", answer: 3 }] },
+          markscheme: { principles: [ { kind: "formula", name: "Scale factor", statement: "$k=\\frac{\\text{image distance}}{\\text{object distance}}$" } ],
+            steps: [
+              { reasoning: "Both coordinates triple.", working: "k=\\frac93=\\frac62=3", marks: 1, markCode: "M" },
+              { reasoning: "State the scale factor.", marks: 1, markCode: "A" } ],
+            finalAnswer: "$k=3$", commonErrors: ["Subtracting coordinates."] },
+        },
+        {
+          id: "ciem-u7-identifying-q14", difficulty: "foundation", totalMarks: 3,
+          stem: "Describe the transformation that maps $(2,5)\\to(5,2)$ and $(-1,3)\\to(3,-1)$.",
+          response: { type: "open" },
+          markscheme: { principles: [ { kind: "formula", name: "Reflect y=x", statement: "$(x,y)\\to(y,x)$" } ],
+            steps: [
+              { reasoning: "Check the first pair.", working: "(y,x)=(5,2)", marks: 1, markCode: "M" },
+              { reasoning: "Check the second pair.", working: "(y,x)=(3,-1)", marks: 1, markCode: "M" },
+              { reasoning: "State the transformation.", marks: 1, markCode: "A" } ],
+            finalAnswer: "Reflection in the line $y=x$", commonErrors: ["Giving only one coordinate mapping."] },
+        },
+        {
+          id: "ciem-u7-identifying-q15", difficulty: "core", totalMarks: 1,
+          stem: "To find the centre of an enlargement from object–image pairs, which lines should be drawn?",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "Perpendicular bisectors of object–image segments" },
+            { id: "b", text: "Lines joining corresponding object and image points" },
+            { id: "c", text: "The coordinate axes" },
+            { id: "d", text: "Horizontal lines through the images" }
+ ],
+            correctChoiceId: "b" },
+          markscheme: { principles: [ { kind: "property", name: "Enlargement centre", statement: "Object, image and centre are collinear." } ],
+            steps: [ { reasoning: "The centre lies at the intersection of lines through corresponding pairs.", working: "\\text{join pairs}", marks: 1, markCode: "B" } ],
+            finalAnswer: "**(b)** Lines joining corresponding points", commonErrors: ["Using perpendicular bisectors (that is for rotations/reflections)."] },
+        },
+        {
+          id: "ciem-u7-identifying-q16", difficulty: "challenge", totalMarks: 8,
+          stem: "Triangle $S$ has vertices $A(1,1)$, $B(3,1)$ and $C(1,4)$. Its image $S'$ has vertices $A'(2,2)$, $B'(6,2)$ and $C'(2,8)$.",
+          parts: [
+            { label: "a", prompt: "Show that the transformation is an enlargement with centre $(0,0)$.", marks: 3 },
+            { label: "b", prompt: "Find the scale factor.", marks: 2 },
+            { label: "c", prompt: "Write the inverse transformation.", marks: 3 } ],
+          response: { type: "open" },
+          markscheme: { principles: [ { kind: "formula", name: "Enlargement", statement: "$\\vec{OP'}=k\\vec{OP}$" }, { kind: "definition", name: "Inverse", statement: "Inverse enlargement: same centre, $k\\to\\frac1k$." } ],
+            steps: [
+              { part: "a", reasoning: "Each image vector from the origin is twice the object vector.", working: "\\vec{OA'}=2\\vec{OA}", marks: 1, markCode: "M" },
+              { part: "a", reasoning: "Verify a second pair.", working: "B'(6,2)=2(3,1),\\ C'(2,8)=2(1,4)", marks: 1, markCode: "M" },
+              { part: "a", reasoning: "Conclude centre and type.", marks: 1, markCode: "A" },
+              { part: "b", reasoning: "Scale factor is the coordinate multiplier.", working: "k=2", marks: 1, markCode: "M" },
+              { part: "b", reasoning: "State the scale factor.", marks: 1, markCode: "A" },
+              { part: "c", reasoning: "Inverse uses reciprocal scale factor and same centre.", working: "k^{-1}=\\frac12", marks: 1, markCode: "M" },
+              { part: "c", reasoning: "State centre and factor.", working: "\\text{centre }(0,0),\\ k=\\frac12", marks: 1, markCode: "M" },
+              { part: "c", reasoning: "Write the inverse transformation.", marks: 1, markCode: "A" } ],
+            finalAnswer: "(a) enlargement, centre $(0,0)$ (b) $k=2$ (c) enlargement, centre $(0,0)$, scale factor $\\frac12$",
+            commonErrors: ["Using $k=2$ for the inverse."] },
+        },
       ],
     },
     {
@@ -185,12 +339,12 @@ export const lesson72: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Reflection in the line $y=2$ (it is self-inverse)" },
-              { id: "b", text: "Reflection in the $x$-axis" },
-              { id: "c", text: "Translation by $(0,4)$" },
-              { id: "d", text: "Rotation $180^\\circ$" },
+              { id: "a", text: "Translation by $(0,4)$" },
+              { id: "b", text: "Reflection in the line $y=2$ (it is self-inverse)" },
+              { id: "c", text: "Rotation $180^\\circ$" },
+              { id: "d", text: "Reflection in the $x$-axis" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -267,6 +421,163 @@ export const lesson72: Lesson = {
             finalAnswer: "(a) $(12,2)$ (b) enlargement $\\frac12$ about $(0,0)$, then translation $\\begin{pmatrix}-1\\\\-3\\end{pmatrix}$, then reflection in $x$-axis",
             commonErrors: ["In (b) reversing the order — inverses must undo in reverse sequence."],
           },
+        },
+        {
+          id: "ciem-u7-inverse-combined-q5", difficulty: "foundation", totalMarks: 1,
+          stem: "What is the inverse of a translation by vector $\\begin{pmatrix}3\\\\-2\\end{pmatrix}$?",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "Translation by $\\begin{pmatrix}3\\\\2\\end{pmatrix}$" },
+            { id: "b", text: "Translation by $\\begin{pmatrix}-3\\\\-2\\end{pmatrix}$" },
+            { id: "c", text: "Reflection in the $x$-axis" },
+            { id: "d", text: "Translation by $\\begin{pmatrix}-3\\\\2\\end{pmatrix}$" }
+ ],
+            correctChoiceId: "d" },
+          markscheme: { principles: [ { kind: "formula", name: "Inverse translation", statement: "$\\begin{pmatrix}-a\\\\-b\\end{pmatrix}$" } ],
+            steps: [ { reasoning: "Negate both components.", working: "\\begin{pmatrix}-3\\\\2\\end{pmatrix}", marks: 1, markCode: "B" } ],
+            finalAnswer: "**(a)** Translation by $\\begin{pmatrix}-3\\\\2\\end{pmatrix}$", commonErrors: ["Negating only one component."] },
+        },
+        {
+          id: "ciem-u7-inverse-combined-q6", difficulty: "core", totalMarks: 1,
+          stem: "What is the inverse of a rotation $90^\\circ$ clockwise about the origin?",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "Reflection in the $x$-axis" },
+            { id: "b", text: "Rotation $90^\\circ$ clockwise about $(0,0)$" },
+            { id: "c", text: "Rotation $90^\\circ$ anticlockwise about $(0,0)$" },
+            { id: "d", text: "Rotation $180^\\circ$ about $(0,0)$" }
+ ],
+            correctChoiceId: "c" },
+          markscheme: { principles: [ { kind: "definition", name: "Inverse rotation", statement: "Same centre, opposite direction." } ],
+            steps: [ { reasoning: "Reverse clockwise to anticlockwise.", working: "90^\\circ\\text{ acw}", marks: 1, markCode: "B" } ],
+            finalAnswer: "**(b)** Rotation $90^\\circ$ anticlockwise about $(0,0)$", commonErrors: ["Using $180^\\circ$."] },
+        },
+        {
+          id: "ciem-u7-inverse-combined-q7", difficulty: "core", totalMarks: 2,
+          stem: "Write down the inverse of an enlargement with centre $(0,0)$ and scale factor $4$.",
+          response: { type: "numeric", parts: [ { label: "k", answer: 0.25 }] },
+          markscheme: { principles: [ { kind: "definition", name: "Inverse enlargement", statement: "Same centre, $k\\to\\frac1k$." } ],
+            steps: [
+              { reasoning: "Take the reciprocal of the scale factor.", working: "k^{-1}=\\frac14=0.25", marks: 1, markCode: "M" },
+              { reasoning: "State the inverse scale factor.", marks: 1, markCode: "A" } ],
+            finalAnswer: "Enlargement, centre $(0,0)$, scale factor $\\frac14$", commonErrors: ["Using $-\\frac14$."] },
+        },
+        {
+          id: "ciem-u7-inverse-combined-q8", difficulty: "challenge", totalMarks: 1,
+          stem: "Which transformation is self-inverse?",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "Reflection in the line $y=x$" },
+            { id: "b", text: "Enlargement scale factor $2$" },
+            { id: "c", text: "Rotation $90^\\circ$ clockwise" },
+            { id: "d", text: "Translation by $(1,1)$" }
+ ],
+            correctChoiceId: "a" },
+          markscheme: { principles: [ { kind: "property", name: "Self-inverse", statement: "Reflections are their own inverses." } ],
+            steps: [ { reasoning: "Applying the same reflection twice returns the original.", working: "\\text{reflection}", marks: 1, markCode: "B" } ],
+            finalAnswer: "**(a)** Reflection in $y=x$", commonErrors: ["Thinking rotations are self-inverse."] },
+        },
+        {
+          id: "ciem-u7-inverse-combined-q9", difficulty: "core", totalMarks: 3,
+          stem: "Point $P(3,4)$ is translated by $\\begin{pmatrix}1\\\\-2\\end{pmatrix}$ and then reflected in the $x$-axis. Find the final position.",
+          response: { type: "numeric", parts: [ { label: "x", answer: 4 }, { label: "y", answer: -2 } ] },
+          markscheme: { principles: [ { kind: "formula", name: "Translation", statement: "$(x,y)\\to(x+a,y+b)$" }, { kind: "formula", name: "Reflect x-axis", statement: "$(x,y)\\to(x,-y)$" } ],
+            steps: [
+              { reasoning: "Apply the translation first.", working: "(3+1,4-2)=(4,2)", marks: 1, markCode: "M" },
+              { reasoning: "Reflect in the $x$-axis.", working: "(4,-2)", marks: 1, markCode: "M" },
+              { reasoning: "State the final position.", marks: 1, markCode: "A" } ],
+            finalAnswer: "$(4,-2)$", commonErrors: ["Reflecting before translating."] },
+        },
+        {
+          id: "ciem-u7-inverse-combined-q10", difficulty: "foundation", totalMarks: 2,
+          stem: "A point is reflected in the line $y=0$ and then in the line $y=4$. What single translation is equivalent?",
+          response: { type: "numeric", parts: [ { label: "x", answer: 0 }, { label: "y", answer: 8 } ] },
+          markscheme: { principles: [ { kind: "property", name: "Two reflections", statement: "Parallel mirror lines give a translation by twice the gap." } ],
+            steps: [
+              { reasoning: "The gap is $4$, so the translation is $2\\times4$ vertically.", working: "(0,8)", marks: 1, markCode: "M" },
+              { reasoning: "State the vector.", marks: 1, markCode: "A" } ],
+            finalAnswer: "Translation by $\\begin{pmatrix}0\\\\8\\end{pmatrix}$", commonErrors: ["Using the gap once instead of twice."] },
+        },
+        {
+          id: "ciem-u7-inverse-combined-q11", difficulty: "challenge", totalMarks: 1,
+          stem: "A shape is translated by $\\begin{pmatrix}2\\\\0\\end{pmatrix}$ and then by $\\begin{pmatrix}3\\\\1\\end{pmatrix}$. Which single translation is equivalent?",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "$\\begin{pmatrix}1\\\\1\\end{pmatrix}$" },
+            { id: "b", text: "$\\begin{pmatrix}5\\\\1\\end{pmatrix}$" },
+            { id: "c", text: "$\\begin{pmatrix}6\\\\0\\end{pmatrix}$" },
+            { id: "d", text: "$\\begin{pmatrix}5\\\\-1\\end{pmatrix}$" }
+ ],
+            correctChoiceId: "b" },
+          markscheme: { principles: [ { kind: "formula", name: "Combined translations", statement: "Add the vectors." } ],
+            steps: [ { reasoning: "Add the components.", working: "(2+3,0+1)=(5,1)", marks: 1, markCode: "M" } ],
+            finalAnswer: "**(a)** $\\begin{pmatrix}5\\\\1\\end{pmatrix}$", commonErrors: ["Subtracting vectors."] },
+        },
+        {
+          id: "ciem-u7-inverse-combined-q12", difficulty: "core", totalMarks: 4,
+          stem: "A transformation is: enlargement with centre $(0,0)$ and scale factor $3$, followed by reflection in the $x$-axis. Write the inverse transformation.",
+          response: { type: "open" },
+          markscheme: { principles: [ { kind: "definition", name: "Inverse order", statement: "Undo in reverse order; reflection is self-inverse, enlargement inverse has $k=\\frac13$." } ],
+            steps: [
+              { reasoning: "Inverse of the reflection is itself.", working: "\\text{reflect in }x\\text{-axis}", marks: 1, markCode: "M" },
+              { reasoning: "Inverse of the enlargement uses $\\frac13$ about the same centre.", working: "k=\\frac13", marks: 1, markCode: "M" },
+              { reasoning: "State the reverse order.", working: "\\text{reflect, then enlarge }\\frac13", marks: 1, markCode: "M" },
+              { reasoning: "Write the full inverse.", marks: 1, markCode: "A" } ],
+            finalAnswer: "Reflection in the $x$-axis, then enlargement centre $(0,0)$ scale factor $\\frac13$",
+            commonErrors: ["Using scale factor $3$ or the wrong order."] },
+        },
+        {
+          id: "ciem-u7-inverse-combined-q13", difficulty: "challenge", totalMarks: 3,
+          stem: "Point $(2,3)$ is enlarged with centre $(0,0)$ and scale factor $2$, then translated by $\\begin{pmatrix}-1\\\\1\\end{pmatrix}$. Find the final position.",
+          response: { type: "numeric", parts: [ { label: "x", answer: 3 }, { label: "y", answer: 7 } ] },
+          markscheme: { principles: [ { kind: "formula", name: "Enlargement", statement: "$\\vec{OP'}=k\\vec{OP}$" }, { kind: "formula", name: "Translation", statement: "$(x,y)\\to(x+a,y+b)$" } ],
+            steps: [
+              { reasoning: "Enlarge first.", working: "(2,3)\\to(4,6)", marks: 1, markCode: "M" },
+              { reasoning: "Apply the translation.", working: "(4-1,6+1)=(3,7)", marks: 1, markCode: "M" },
+              { reasoning: "State the final position.", marks: 1, markCode: "A" } ],
+            finalAnswer: "$(3,7)$", commonErrors: ["Translating before enlarging."] },
+        },
+        {
+          id: "ciem-u7-inverse-combined-q14", difficulty: "foundation", totalMarks: 3,
+          stem: "A shape is reflected in the $y$-axis and then in the $x$-axis. Show that the combined transformation is a rotation $180^\\circ$ about the origin.",
+          response: { type: "open" },
+          markscheme: { principles: [ { kind: "formula", name: "Composition of reflections", statement: "Reflect $y$-axis then $x$-axis gives $(x,y)\\to(-x,-y)$." } ],
+            steps: [
+              { reasoning: "Reflect in the $y$-axis.", working: "(x,y)\\to(-x,y)", marks: 1, markCode: "M" },
+              { reasoning: "Reflect the result in the $x$-axis.", working: "(-x,y)\\to(-x,-y)", marks: 1, markCode: "M" },
+              { reasoning: "Identify the single transformation.", marks: 1, markCode: "A" } ],
+            finalAnswer: "Rotation $180^\\circ$ about $(0,0)$", commonErrors: ["Leaving it as two reflections."] },
+        },
+        {
+          id: "ciem-u7-inverse-combined-q15", difficulty: "core", totalMarks: 1,
+          stem: "What is the inverse of a rotation $60^\\circ$ clockwise about $(1,1)$?",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "Rotation $60^\\circ$ clockwise about $(1,1)$" },
+            { id: "b", text: "Rotation $120^\\circ$ anticlockwise about $(0,0)$" },
+            { id: "c", text: "Reflection in $y=x$" },
+            { id: "d", text: "Rotation $60^\\circ$ anticlockwise about $(1,1)$" }
+ ],
+            correctChoiceId: "d" },
+          markscheme: { principles: [ { kind: "definition", name: "Inverse rotation", statement: "Same centre, opposite direction." } ],
+            steps: [ { reasoning: "Reverse the direction and keep the centre.", working: "60^\\circ\\text{ acw about }(1,1)", marks: 1, markCode: "B" } ],
+            finalAnswer: "**(b)** Rotation $60^\\circ$ anticlockwise about $(1,1)$", commonErrors: ["Changing the centre."] },
+        },
+        {
+          id: "ciem-u7-inverse-combined-q16", difficulty: "challenge", totalMarks: 8,
+          stem: "Transformation $T_1$ is a translation by $\\begin{pmatrix}3\\\\-2\\end{pmatrix}$. Transformation $T_2$ is a rotation $90^\\circ$ clockwise about the origin. Point $P(1,2)$ is transformed by $T_1$ then $T_2$.",
+          parts: [
+            { label: "a", prompt: "Find the final position of $P$.", marks: 3 },
+            { label: "b", prompt: "Write the inverse of $T_1$.", marks: 2 },
+            { label: "c", prompt: "Write the inverse of $T_2$.", marks: 3 } ],
+          response: { type: "open" },
+          markscheme: { principles: [ { kind: "formula", name: "Translation", statement: "$(x,y)\\to(x+a,y+b)$" }, { kind: "formula", name: "Rotate 90° cw", statement: "$(x,y)\\to(y,-x)$" }, { kind: "definition", name: "Inverses", statement: "Translation inverse negates the vector; rotation inverse reverses direction." } ],
+            steps: [
+              { part: "a", reasoning: "Apply $T_1$.", working: "(1+3,2-2)=(4,0)", marks: 1, markCode: "M" },
+              { part: "a", reasoning: "Apply $T_2$ clockwise.", working: "(y,-x)=(0,-4)", marks: 1, markCode: "M" },
+              { part: "a", reasoning: "State the final position.", marks: 1, markCode: "A" },
+              { part: "b", reasoning: "Negate the translation vector.", working: "\\begin{pmatrix}-3\\\\2\\end{pmatrix}", marks: 1, markCode: "M" },
+              { part: "b", reasoning: "State the inverse translation.", marks: 1, markCode: "A" },
+              { part: "c", reasoning: "Reverse clockwise to anticlockwise about the same centre.", working: "90^\\circ\\text{ acw about }(0,0)", marks: 1, markCode: "M" },
+              { part: "c", reasoning: "State centre and direction.", marks: 1, markCode: "M" },
+              { part: "c", reasoning: "Write the inverse rotation.", marks: 1, markCode: "A" } ],
+            finalAnswer: "(a) $(0,-4)$ (b) translation by $\\begin{pmatrix}-3\\\\2\\end{pmatrix}$ (c) rotation $90^\\circ$ anticlockwise about $(0,0)$",
+            commonErrors: ["Applying $T_2$ before $T_1$.", "Using $180^\\circ$ for the inverse rotation."] },
         },
       ],
     },

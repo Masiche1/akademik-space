@@ -86,10 +86,10 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Classical" },
+              { id: "a", text: "Impressionist" },
               { id: "b", text: "Baroque" },
-              { id: "c", text: "Romantic" },
-              { id: "d", text: "Impressionist" },
+              { id: "c", text: "Classical" },
+              { id: "d", text: "Romantic" },
             ],
             correctChoiceId: "b",
           },
@@ -299,9 +299,9 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Ludwig van Beethoven" },
+              { id: "a", text: "Franz Schubert" },
               { id: "b", text: "Johann Sebastian Bach" },
-              { id: "c", text: "Franz Schubert" },
+              { id: "c", text: "Ludwig van Beethoven" },
               { id: "d", text: "Claude Debussy" },
             ],
             correctChoiceId: "b",
@@ -342,12 +342,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Rondo" },
-              { id: "b", text: "Theme and variations" },
-              { id: "c", text: "Sonata form" },
-              { id: "d", text: "Da capo aria" },
+              { id: "a", text: "Theme and variations" },
+              { id: "b", text: "Rondo" },
+              { id: "c", text: "Da capo aria" },
+              { id: "d", text: "Sonata form" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -387,10 +387,10 @@ export const lesson21: Lesson = {
             choices: [
               { id: "a", text: "Homophony" },
               { id: "b", text: "Monophony" },
-              { id: "c", text: "Contrapuntal counterpoint" },
-              { id: "d", text: "Heterophony" },
+              { id: "c", text: "Heterophony" },
+              { id: "d", text: "Contrapuntal counterpoint" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -428,9 +428,9 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "two equally important melodies competing" },
+              { id: "a", text: "unpitched percussion only" },
               { id: "b", text: "a clear melody supported by accompaniment" },
-              { id: "c", text: "unpitched percussion only" },
+              { id: "c", text: "two equally important melodies competing" },
               { id: "d", text: "spoken word over drone" },
             ],
             correctChoiceId: "b",
@@ -473,11 +473,11 @@ export const lesson21: Lesson = {
             choices: [
               {
                 id: "a",
-                text: "Because musical notation was first invented in the Classical period",
+                text: "Because aesthetic values changed toward proportion, order and intellectual clarity",
               },
               {
                 id: "b",
-                text: "Because aesthetic values changed toward proportion, order and intellectual clarity",
+                text: "Because audiences demanded simpler music for dancing only",
               },
               {
                 id: "c",
@@ -485,10 +485,10 @@ export const lesson21: Lesson = {
               },
               {
                 id: "d",
-                text: "Because audiences demanded simpler music for dancing only",
+                text: "Because musical notation was first invented in the Classical period",
               },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -531,9 +531,9 @@ export const lesson21: Lesson = {
                 id: "a",
                 text: "a keyboard or continuo instrument playing chords above a bass line",
               },
-              { id: "b", text: "a single unaccompanied violin" },
+              { id: "b", text: "a percussion ensemble" },
               { id: "c", text: "a choir singing without accompaniment" },
-              { id: "d", text: "a percussion ensemble" },
+              { id: "d", text: "a single unaccompanied violin" },
             ],
             correctChoiceId: "a",
           },
@@ -995,8 +995,8 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Baroque" },
-              { id: "b", text: "Classical" },
+              { id: "a", text: "Classical" },
+              { id: "b", text: "Baroque" },
               { id: "c", text: "Romantic" },
               { id: "d", text: "Medieval" },
             ],
@@ -1206,15 +1206,15 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Strict formal balance and restraint" },
               {
-                id: "b",
+                id: "a",
                 text: "Emotional intensity, virtuosic display and programme elements",
               },
-              { id: "c", text: "Continuous basso continuo throughout" },
-              { id: "d", text: "Exclusive use of sacred chant" },
+              { id: "b", text: "Strict formal balance and restraint" },
+              { id: "c", text: "Exclusive use of sacred chant" },
+              { id: "d", text: "Continuous basso continuo throughout" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -1253,15 +1253,15 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "performing exclusively in cathedrals" },
+              { id: "b", text: "composing only for royal courts" },
               {
-                id: "a",
+                id: "c",
                 text: "using folk elements and cultural symbols to express national identity",
               },
-              { id: "b", text: "composing only for royal courts" },
-              { id: "c", text: "avoiding melody in favour of noise" },
-              { id: "d", text: "performing exclusively in cathedrals" },
+              { id: "d", text: "avoiding melody in favour of noise" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1301,9 +1301,9 @@ export const lesson21: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "New Orleans" },
-              { id: "b", text: "New York" },
+              { id: "b", text: "Memphis" },
               { id: "c", text: "Chicago" },
-              { id: "d", text: "Memphis" },
+              { id: "d", text: "New York" },
             ],
             correctChoiceId: "a",
           },
@@ -1344,11 +1344,11 @@ export const lesson21: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "only technological advances in recording" },
-              { id: "b", text: "the social conditions of each era" },
-              { id: "c", text: "purely commercial motives of record labels" },
-              { id: "d", text: "universal rules unrelated to society" },
+              { id: "b", text: "universal rules unrelated to society" },
+              { id: "c", text: "the social conditions of each era" },
+              { id: "d", text: "purely commercial motives of record labels" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1394,8 +1394,8 @@ export const lesson21: Lesson = {
                 id: "b",
                 text: "Instrumental music that depicts scenes, stories or ideas",
               },
-              { id: "c", text: "Music played only outdoors" },
-              { id: "d", text: "Music written for radio advertising" },
+              { id: "c", text: "Music written for radio advertising" },
+              { id: "d", text: "Music played only outdoors" },
             ],
             correctChoiceId: "b",
           },
@@ -1437,11 +1437,11 @@ export const lesson21: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "clearly defined and settled by law" },
-              { id: "b", text: "fixed by each genre's origins" },
-              { id: "c", text: "contested and constantly negotiated" },
+              { id: "b", text: "contested and constantly negotiated" },
+              { id: "c", text: "fixed by each genre's origins" },
               { id: "d", text: "irrelevant to all listeners" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [

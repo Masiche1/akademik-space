@@ -42,8 +42,11 @@ export const lesson51: Lesson = {
           totalMarks: 1,
           stem: "Which is the correct salutation for an unknown recipient?",
           response: { type: "mcq", choices: [
-            { id: "a", text: "Dear John," }, { id: "b", text: "Dear Sir/Madam," }, { id: "c", text: "Hi there," }, { id: "d", text: "Hey," },
-          ], correctChoiceId: "b" },
+            { id: "a", text: "Dear Sir/Madam," },
+            { id: "b", text: "Dear John," },
+            { id: "c", text: "Hi there," },
+            { id: "d", text: "Hey," },
+          ], correctChoiceId: "a" },
           markscheme: {
             principles: [{ kind: "convention", name: "Salutation", statement: "Formal greeting." }],
             steps: [
@@ -106,8 +109,11 @@ export const lesson51: Lesson = {
           totalMarks: 1,
           stem: "Which valediction is correct for a formal letter to a named recipient?",
           response: { type: "mcq", choices: [
-            { id: "a", text: "Yours faithfully," }, { id: "b", text: "Yours sincerely," }, { id: "c", text: "Best wishes," }, { id: "d", text: "Love from," },
-          ], correctChoiceId: "b" },
+            { id: "a", text: "Yours faithfully," },
+            { id: "b", text: "Best wishes," },
+            { id: "c", text: "Yours sincerely," },
+            { id: "d", text: "Love from," },
+          ], correctChoiceId: "c" },
           markscheme: {
             principles: [{ kind: "convention", name: "Valediction", statement: "Named recipient → sincerely." }],
             steps: [
@@ -184,8 +190,11 @@ export const lesson51: Lesson = {
           totalMarks: 1,
           stem: "Which sentence is INAPPROPRIATE in a formal letter?",
           response: { type: "mcq", choices: [
-            { id: "a", text: "I am writing to enquire about the course." }, { id: "b", text: "I look forward to your reply." }, { id: "c", text: "Gonna grab a cuppa soon lol" }, { id: "d", text: "I would appreciate your assistance." },
-          ], correctChoiceId: "c" },
+            { id: "a", text: "I would appreciate your assistance." },
+            { id: "b", text: "I am writing to enquire about the course." },
+            { id: "c", text: "I look forward to your reply." },
+            { id: "d", text: "Gonna grab a cuppa soon lol" },
+          ], dorrectChoiceId: "c" },
           markscheme: {
             principles: [{ kind: "convention", name: "Register", statement: "Formal letters avoid slang and contractions." }],
             steps: [
@@ -263,6 +272,11 @@ export const lesson51: Lesson = {
               { reasoning: "Correct valediction for the recipient type.", marks: 1, markCode: "AO2" },
               { reasoning: "Punctuation and spelling are accurate.", marks: 1, markCode: "AO2" },
             ],
+                        levels: [
+                        { level: "Level 3", marks: "4-6", descriptor: "Complete, accurate and well-crafted response." },
+                        { level: "Level 2", marks: "2-3", descriptor: "Mostly secure with some weaknesses or thin development." },
+                        { level: "Level 1", marks: "0-1", descriptor: "Limited creditable material." },
+                        ],
             finalAnswer: "Complete formal application letter",
           },
         },
@@ -287,8 +301,11 @@ export const lesson51: Lesson = {
           totalMarks: 1,
           stem: "A formal letter addressed to 'Dr Patel' should close with which valediction?",
           response: { type: "mcq", choices: [
-            { id: "a", text: "Yours faithfully," }, { id: "b", text: "Yours sincerely," }, { id: "c", text: "Love from," }, { id: "d", text: "See you soon," },
-          ], correctChoiceId: "b" },
+            { id: "a", text: "See you soon," },
+            { id: "b", text: "Love from," },
+            { id: "c", text: "Yours sincerely," },
+            { id: "d", text: "Yours faithfully," },
+          ], correctChoiceId: "c" },
           markscheme: {
             principles: [{ kind: "convention", name: "Valediction", statement: "Named recipient → sincerely." }],
             steps: [
@@ -327,8 +344,11 @@ export const lesson51: Lesson = {
           totalMarks: 1,
           stem: "Which greeting is appropriate for an informal email?",
           response: { type: "mcq", choices: [
-            { id: "a", text: "Dear Sir/Madam," }, { id: "b", text: "Hi Sam," }, { id: "c", text: "To whom it may concern," }, { id: "d", text: "Greetings," },
-          ], correctChoiceId: "b" },
+            { id: "a", text: "To whom it may concern," },
+            { id: "b", text: "Greetings," },
+            { id: "c", text: "Dear Sir/Madam," },
+            { id: "d", text: "Hi Sam," },
+          ], correctChoiceId: "d" },
           markscheme: {
             principles: [{ kind: "convention", name: "Informal greeting", statement: "Friendly, personal." }],
             steps: [
@@ -383,6 +403,227 @@ export const lesson51: Lesson = {
               { reasoning: "Punctuation accurate.", marks: 1, markCode: "AO2" },
             ],
             finalAnswer: "Informal closing + sign-off",
+          },
+        },
+        {
+          id: "ciege-u5-s1-in-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Which sign-off is appropriate for an informal email to a friend?",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "Yours faithfully," },
+            { id: "b", text: "Yours sincerely," },
+            { id: "c", text: "Best wishes," },
+            { id: "d", text: "To whom it may concern," },
+          ], correctChoiceId: "c" },
+          markscheme: {
+            principles: [{ kind: "convention", name: "Informal sign-off", statement: "Friendly closing." }],
+            steps: [
+              { reasoning: "'Best wishes' is warm and appropriate for informal correspondence.", marks: 1, markCode: "AO2" },
+            ],
+            finalAnswer: "Best wishes",
+          },
+        },
+        {
+          id: "ciege-u5-s1-in-q6",
+          difficulty: "foundation",
+          totalMarks: 2,
+          stem: "Write the greeting and first line of an informal email to a friend telling them about your holiday.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [{ kind: "skill", name: "Informal opening", statement: "Friendly, direct." }],
+            steps: [
+              { reasoning: "The greeting is friendly, e.g. 'Hi Sam,' or 'Dear Alex,'.", marks: 1, markCode: "AO2" },
+              { reasoning: "The first line states the holiday topic.", marks: 1, markCode: "AO2" },
+            ],
+            finalAnswer: "Friendly greeting + holiday topic",
+          },
+        },
+        {
+          id: "ciege-u5-s1-in-q7",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Which sentence sounds right in an informal email to a friend?",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "I am writing to inform you of my availability." },
+            { id: "b", text: "I would be grateful if you could attend." },
+            { id: "c", text: "Fancy meeting up this weekend?" },
+            { id: "d", text: "Please find attached the requested document." },
+          ], correctChoiceId: "c" },
+          markscheme: {
+            principles: [{ kind: "convention", name: "Informal register", statement: "Relaxed, direct language." }],
+            steps: [
+              { reasoning: "Only option b uses relaxed, conversational language suitable for a friend.", marks: 1, markCode: "AO2" },
+            ],
+            finalAnswer: "Fancy meeting up this weekend?",
+          },
+        },
+        {
+          id: "ciege-u5-s1-in-q8",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Which sentence best invites a friend to the cinema?",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "It is requested that you accompany me to a film." },
+            { id: "b", text: "You are cordially invited to attend a cinematic exhibition." },
+            { id: "c", text: "Attendance at the picture house is requested." },
+            { id: "d", text: "Do you fancy the cinema on Saturday?" },
+          ], correctChoiceId: "d" },
+          markscheme: {
+            principles: [{ kind: "skill", name: "Informal invitation", statement: "Friendly, clear ask." }],
+            steps: [
+              { reasoning: "Option b is friendly and clear; the others are too formal.", marks: 1, markCode: "AO2" },
+            ],
+            finalAnswer: "Do you fancy the cinema on Saturday?",
+          },
+        },
+        {
+          id: "ciege-u5-s1-in-q9",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "Write a sentence apologising to a friend for missing their party.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [{ kind: "skill", name: "Informal apology", statement: "Friendly, sincere." }],
+            steps: [
+              { reasoning: "The sentence clearly apologises.", marks: 1, markCode: "AO2" },
+              { reasoning: "It may give a brief reason or acknowledge the friend's feelings.", marks: 1, markCode: "AO2" },
+              { reasoning: "The tone stays friendly and informal.", marks: 1, markCode: "AO2" },
+            ],
+            finalAnswer: "One apology sentence",
+          },
+        },
+        {
+          id: "ciege-u5-s1-in-q10",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Which phrase is TOO formal for a text message to a friend?",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "Can't wait!" },
+            { id: "b", text: "I am writing to request your presence" },
+            { id: "c", text: "See you soon!" },
+            { id: "d", text: "Let me know what you think." },
+          ], correctChoiceId: "b" },
+          markscheme: {
+            principles: [{ kind: "convention", name: "Informal register", statement: "No stiff formal phrasing." }],
+            steps: [
+              { reasoning: "'I am writing to request your presence' is stiffly formal and unsuitable for a friend.", marks: 1, markCode: "AO2" },
+            ],
+            finalAnswer: "I am writing to request your presence",
+          },
+        },
+        {
+          id: "ciege-u5-s1-in-q11",
+          difficulty: "core",
+          totalMarks: 4,
+          stem: "Write the main paragraph of an informal email to a friend describing your weekend.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [{ kind: "skill", name: "Informal paragraph", statement: "Personal voice + clear detail." }],
+            steps: [
+              { reasoning: "The paragraph describes what happened over the weekend.", marks: 1, markCode: "AO2" },
+              { reasoning: "It uses a friendly, personal voice, e.g. contractions or direct address.", marks: 1, markCode: "AO2" },
+              { reasoning: "The writing is clear and readable.", marks: 1, markCode: "AO2" },
+              { reasoning: "Punctuation and spelling are accurate.", marks: 1, markCode: "AO2" },
+            ],
+            finalAnswer: "Informal paragraph describing the weekend",
+          },
+        },
+        {
+          id: "ciege-u5-s1-in-q12",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "Write the opening of an informal letter to your cousin asking about their new school.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [{ kind: "skill", name: "Informal letter opening", statement: "Greeting + question." }],
+            steps: [
+              { reasoning: "The letter has a friendly greeting, e.g. 'Hi cousin!'.", marks: 1, markCode: "AO2" },
+              { reasoning: "It clearly asks about the new school.", marks: 1, markCode: "AO2" },
+              { reasoning: "The tone is relaxed and personal.", marks: 1, markCode: "AO2" },
+              { reasoning: "Punctuation is correct.", marks: 1, markCode: "AO2" },
+            ],
+            finalAnswer: "Informal letter opening",
+          },
+        },
+        {
+          id: "ciege-u5-s1-in-q13",
+          difficulty: "challenge",
+          totalMarks: 1,
+          stem: "Which is the best subject line for an informal email inviting a friend to a party?",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "Party this Saturday — you in?" },
+            { id: "b", text: "Regarding the forthcoming gathering" },
+            { id: "c", text: "Formal notification of social event" },
+            { id: "d", text: "Event details enclosed" },
+          ], correctChoiceId: "a" },
+          markscheme: {
+            principles: [{ kind: "skill", name: "Subject line", statement: "Short, clear, friendly." }],
+            steps: [
+              { reasoning: "Option b is short, clear and friendly — ideal for an informal invitation.", marks: 1, markCode: "AO2" },
+            ],
+            finalAnswer: "Party this Saturday — you in?",
+          },
+        },
+        {
+          id: "ciege-u5-s1-in-q14",
+          difficulty: "challenge",
+          totalMarks: 5,
+          stem: "Write an informal email (about 80-100 words) inviting a friend to stay with you for the weekend.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [{ kind: "skill", name: "Full informal email", statement: "Greeting + purpose + sign-off." }],
+            steps: [
+              { reasoning: "Includes a friendly greeting.", marks: 1, markCode: "AO2" },
+              { reasoning: "Clearly invites the friend to stay, with when/where details.", marks: 1, markCode: "AO2" },
+              { reasoning: "Maintains a relaxed, personal tone.", marks: 1, markCode: "AO2" },
+              { reasoning: "Ends with an appropriate informal sign-off.", marks: 1, markCode: "AO2" },
+              { reasoning: "Accuracy of punctuation and spelling is maintained.", marks: 1, markCode: "AO2" },
+            ],
+            finalAnswer: "Full informal invitation email",
+          },
+        },
+        {
+          id: "ciege-u5-s1-in-q15",
+          difficulty: "challenge",
+          totalMarks: 1,
+          stem: "Which closing is most appropriate for an informal email to a close friend?",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "To whom it may concern" },
+            { id: "b", text: "Yours faithfully," },
+            { id: "c", text: "I remain yours obediently" },
+            { id: "d", text: "See you soon, Jess" },
+          ], correctChoiceId: "d" },
+          markscheme: {
+            principles: [{ kind: "convention", name: "Informal closing", statement: "Warm, personal sign-off." }],
+            steps: [
+              { reasoning: "'See you soon, Jess' is warm, personal and informal.", marks: 1, markCode: "AO2" },
+            ],
+            finalAnswer: "See you soon, Jess",
+          },
+        },
+        {
+          id: "ciege-u5-s1-in-q16",
+          difficulty: "challenge",
+          totalMarks: 6,
+          stem: "Write an informal letter (about 100 words) to a friend recounting a recent trip you took.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [{ kind: "skill", name: "Informal recount", statement: "Greeting + events + sign-off." }],
+            steps: [
+              { reasoning: "Includes a friendly greeting and informal sign-off.", marks: 1, markCode: "AO2" },
+              { reasoning: "Recounts the trip's events in a clear order.", marks: 1, markCode: "AO2" },
+              { reasoning: "Uses a personal voice, e.g. contractions and direct address.", marks: 1, markCode: "AO2" },
+              { reasoning: "Includes engaging detail about the trip.", marks: 1, markCode: "AO2" },
+              { reasoning: "The letter is organised into clear paragraphs.", marks: 1, markCode: "AO2" },
+              { reasoning: "Accuracy of punctuation and spelling is maintained.", marks: 1, markCode: "AO2" },
+            ],
+                        levels: [
+                        { level: "Level 3", marks: "4-6", descriptor: "Complete, accurate and well-crafted response." },
+                        { level: "Level 2", marks: "2-3", descriptor: "Mostly secure with some weaknesses or thin development." },
+                        { level: "Level 1", marks: "0-1", descriptor: "Limited creditable material." },
+                        ],
+            finalAnswer: "Full informal recount letter",
           },
         },
       ],

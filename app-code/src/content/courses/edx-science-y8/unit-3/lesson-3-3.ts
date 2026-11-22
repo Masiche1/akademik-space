@@ -54,12 +54,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The current is used up by the first lamp, so the second lamp receives less." },
-              { id: "b", text: "The current is the same at every point in the circuit." },
-              { id: "c", text: "The current splits between the two lamps." },
-              { id: "d", text: "The current is bigger after the second lamp." },
+              { id: "a", text: "The current is the same at every point in the circuit." },
+              { id: "b", text: "The current splits between the two lamps." },
+              { id: "c", text: "The current is bigger after the second lamp." },
+              { id: "d", text: "The current is used up by the first lamp, so the second lamp receives less." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -194,11 +194,11 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Volt" },
-              { id: "b", text: "Ampere" },
-              { id: "c", text: "Ohm" },
+              { id: "b", text: "Ohm" },
+              { id: "c", text: "Ampere" },
               { id: "d", text: "Watt" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [

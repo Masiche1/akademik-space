@@ -54,12 +54,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Packed closely in a fixed pattern, vibrating in place" },
-              { id: "b", text: "Close together but able to slide past each other" },
+              { id: "a", text: "Close together but able to slide past each other" },
+              { id: "b", text: "Packed closely in a fixed pattern, vibrating in place" },
               { id: "c", text: "Far apart and moving quickly in all directions" },
               { id: "d", text: "Not moving at all" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -186,10 +186,10 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Ice melting into water" },
-              { id: "b", text: "Sugar dissolving in tea" },
+              { id: "a", text: "Water boiling to make steam" },
+              { id: "b", text: "Ice melting into water" },
               { id: "c", text: "A piece of iron rusting" },
-              { id: "d", text: "Water boiling to make steam" },
+              { id: "d", text: "Sugar dissolving in tea" },
             ],
             correctChoiceId: "c",
           },

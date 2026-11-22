@@ -50,12 +50,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It gets weaker." },
-              { id: "b", text: "It gets stronger." },
+              { id: "a", text: "It gets stronger." },
+              { id: "b", text: "It becomes repulsive." },
               { id: "c", text: "It stays the same." },
-              { id: "d", text: "It becomes repulsive." },
+              { id: "d", text: "It gets weaker." },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -183,11 +183,11 @@ export const lesson12: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "They attract each other." },
-              { id: "b", text: "They repel each other." },
-              { id: "c", text: "Nothing happens because magnets only affect iron." },
-              { id: "d", text: "They lose their magnetism." },
+              { id: "b", text: "They lose their magnetism." },
+              { id: "c", text: "They repel each other." },
+              { id: "d", text: "Nothing happens because magnets only affect iron." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

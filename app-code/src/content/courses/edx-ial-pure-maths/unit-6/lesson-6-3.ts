@@ -50,12 +50,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\frac12\\int r^2\\,d\\theta$" },
-              { id: "b", text: "$\\int r\\,d\\theta$" },
-              { id: "c", text: "$\\frac12\\int r\\,d\\theta$" },
-              { id: "d", text: "$\\int r^2\\,d\\theta$" },
+              { id: "a", text: "$\\frac12\\int r\\,d\\theta$" },
+              { id: "b", text: "$\\frac12\\int r^2\\,d\\theta$" },
+              { id: "c", text: "$\\int r^2\\,d\\theta$" },
+              { id: "d", text: "$\\int r\\,d\\theta$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Polar area", statement: "$A=\\frac12\\int r^2\\,d\\theta$." }],
@@ -166,12 +166,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\sqrt{r^2+\\left(\\frac{dr}{d\\theta}\\right)^2}\\,d\\theta$" },
-              { id: "b", text: "$r\\,d\\theta$" },
-              { id: "c", text: "$\\sqrt{r^2-\\left(\\frac{dr}{d\\theta}\\right)^2}\\,d\\theta$" },
-              { id: "d", text: "$\\frac{dr}{d\\theta}\\,d\\theta$" },
+              { id: "a", text: "$\\frac{dr}{d\\theta}\\,d\\theta$" },
+              { id: "b", text: "$\\sqrt{r^2-\\left(\\frac{dr}{d\\theta}\\right)^2}\\,d\\theta$" },
+              { id: "c", text: "$r\\,d\\theta$" },
+              { id: "d", text: "$\\sqrt{r^2+\\left(\\frac{dr}{d\\theta}\\right)^2}\\,d\\theta$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Arc length", statement: "$ds=\\sqrt{r^2+r'^2}\\,d\\theta$." }],

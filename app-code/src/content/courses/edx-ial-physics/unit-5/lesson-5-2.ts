@@ -76,12 +76,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Velocity" },
-              { id: "b", text: "Displacement from equilibrium" },
-              { id: "c", text: "Time squared" },
-              { id: "d", text: "Amplitude squared" },
+              { id: "a", text: "Amplitude squared" },
+              { id: "b", text: "Velocity" },
+              { id: "c", text: "Displacement from equilibrium" },
+              { id: "d", text: "Time squared" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -332,12 +332,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Alpha" },
-              { id: "b", text: "Beta" },
-              { id: "c", text: "Gamma" },
-              { id: "d", text: "All equally penetrating" },
+              { id: "a", text: "Beta" },
+              { id: "b", text: "Alpha" },
+              { id: "c", text: "All equally penetrating" },
+              { id: "d", text: "Gamma" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [

@@ -48,6 +48,7 @@ import { ibTheatreSl2 } from "./courses/ib-theatre-sl-2/index.ts";
 import { ibTok } from "./courses/ib-tok/index.ts";
 import { ibEe } from "./courses/ib-ee/index.ts";
 import { ibCas } from "./courses/ib-cas/index.ts";
+import { edxMathsY7 } from "./courses/edx-maths-y7/index.ts";
 import { edxMathsY8 } from "./courses/edx-maths-y8/index.ts";
 import { edxMathsY9 } from "./courses/edx-maths-y9/index.ts";
 import { edxMathsY10 } from "./courses/edx-maths-y10/index.ts";
@@ -64,6 +65,10 @@ import { edxIasChemistry } from "./courses/edx-ias-chemistry/index.ts";
 import { edxIalChemistry } from "./courses/edx-ial-chemistry/index.ts";
 import { edxIasPhysics } from "./courses/edx-ias-physics/index.ts";
 import { edxIalPhysics } from "./courses/edx-ial-physics/index.ts";
+import { edxIasBusiness } from "./courses/edx-ias-business/index.ts";
+import { edxIasEconomics } from "./courses/edx-ias-economics/index.ts";
+import { edxIasPsychology } from "./courses/edx-ias-psychology/index.ts";
+import { edxIasSociology } from "./courses/edx-ias-sociology/index.ts";
 import { edxPrimaryMathsY1 } from "./courses/edx-primary-maths-y1/index.ts";
 import { edxPrimaryMathsY2 } from "./courses/edx-primary-maths-y2/index.ts";
 import { edxPrimaryMathsY3 } from "./courses/edx-primary-maths-y3/index.ts";
@@ -77,6 +82,15 @@ import { edxPrimaryEnglishY4 } from "./courses/edx-primary-english-y4/index.ts";
 import { edxPrimaryEnglishY5 } from "./courses/edx-primary-english-y5/index.ts";
 import { edxPrimaryEnglishY6 } from "./courses/edx-primary-english-y6/index.ts";
 import { edxPrimaryScienceY1 } from "./courses/edx-primary-science-y1/index.ts";
+import { edxPrimaryScienceY2 } from "./courses/edx-primary-science-y2/index.ts";
+import { edxPrimaryScienceY3 } from "./courses/edx-primary-science-y3/index.ts";
+import { edxPrimaryScienceY4 } from "./courses/edx-primary-science-y4/index.ts";
+import { edxPrimaryScienceY5 } from "./courses/edx-primary-science-y5/index.ts";
+import { edxPrimaryScienceY6 } from "./courses/edx-primary-science-y6/index.ts";
+import { edxBtecEngineering } from "./courses/edx-btec-engineering/index.ts";
+import { edxBtecHealthSocialCare } from "./courses/edx-btec-health-social-care/index.ts";
+import { edxBtecInformationTechnology } from "./courses/edx-btec-information-technology/index.ts";
+import { edxEngLangY7 } from "./courses/edx-englang-y7/index.ts";
 import { edxEngLangY8 } from "./courses/edx-englang-y8/index.ts";
 import { edxEngLangY9 } from "./courses/edx-englang-y9/index.ts";
 import { edxEngLangY10 } from "./courses/edx-englang-y10/index.ts";
@@ -85,6 +99,7 @@ import { edxEngLitY8 } from "./courses/edx-englit-y8/index.ts";
 import { edxEngLitY9 } from "./courses/edx-englit-y9/index.ts";
 import { edxEngLitY10 } from "./courses/edx-englit-y10/index.ts";
 import { edxEngLitY11 } from "./courses/edx-englit-y11/index.ts";
+import { edxScienceY7 } from "./courses/edx-science-y7/index.ts";
 import { edxScienceY8 } from "./courses/edx-science-y8/index.ts";
 import { edxScienceY9 } from "./courses/edx-science-y9/index.ts";
 import { edxBiologyY10 } from "./courses/edx-biology-y10/index.ts";
@@ -93,6 +108,14 @@ import { edxChemistryY10 } from "./courses/edx-chemistry-y10/index.ts";
 import { edxChemistryY11 } from "./courses/edx-chemistry-y11/index.ts";
 import { edxPhysicsY10 } from "./courses/edx-physics-y10/index.ts";
 import { edxPhysicsY11 } from "./courses/edx-physics-y11/index.ts";
+import { edxScienceY10 } from "./courses/edx-science-y10/index.ts";
+import { edxScienceY11 } from "./courses/edx-science-y11/index.ts";
+import { edxBusinessY10 } from "./courses/edx-business-y10/index.ts";
+import { edxBusinessY11 } from "./courses/edx-business-y11/index.ts";
+import { edxEconomicsY10 } from "./courses/edx-economics-y10/index.ts";
+import { edxEconomicsY11 } from "./courses/edx-economics-y11/index.ts";
+import { edxComputerScienceY10 } from "./courses/edx-computerscience-y10/index.ts";
+import { edxComputerScienceY11 } from "./courses/edx-computerscience-y11/index.ts";
 import { usMathG7 } from "./courses/us-math-g7/index.ts";
 import { usScienceG7 } from "./courses/us-science-g7/index.ts";
 import { usElaG7 } from "./courses/us-ela-g7/index.ts";
@@ -296,6 +319,7 @@ export const COURSES: Course[] = [
   mypLangAcqY3,
   mypLangAcqY4,
   mypLangAcqY5,
+  edxMathsY7,
   edxMathsY8,
   edxMathsY9,
   edxMathsY10,
@@ -312,6 +336,10 @@ export const COURSES: Course[] = [
   edxIalChemistry,
   edxIasPhysics,
   edxIalPhysics,
+  edxIasBusiness,
+  edxIasEconomics,
+  edxIasPsychology,
+  edxIasSociology,
   edxPrimaryMathsY1,
   edxPrimaryMathsY2,
   edxPrimaryMathsY3,
@@ -325,6 +353,15 @@ export const COURSES: Course[] = [
   edxPrimaryEnglishY5,
   edxPrimaryEnglishY6,
   edxPrimaryScienceY1,
+  edxPrimaryScienceY2,
+  edxPrimaryScienceY3,
+  edxPrimaryScienceY4,
+  edxPrimaryScienceY5,
+  edxPrimaryScienceY6,
+  edxBtecEngineering,
+  edxBtecHealthSocialCare,
+  edxBtecInformationTechnology,
+  edxEngLangY7,
   edxEngLangY8,
   edxEngLangY9,
   edxEngLangY10,
@@ -333,6 +370,7 @@ export const COURSES: Course[] = [
   edxEngLitY9,
   edxEngLitY10,
   edxEngLitY11,
+  edxScienceY7,
   edxScienceY8,
   edxScienceY9,
   edxBiologyY10,
@@ -341,6 +379,14 @@ export const COURSES: Course[] = [
   edxChemistryY11,
   edxPhysicsY10,
   edxPhysicsY11,
+  edxScienceY10,
+  edxScienceY11,
+  edxBusinessY10,
+  edxBusinessY11,
+  edxEconomicsY10,
+  edxEconomicsY11,
+  edxComputerScienceY10,
+  edxComputerScienceY11,
   cieIgcseMaths,
   cieIgcseMathsCore,
   cieIgcseAdditionalMaths,

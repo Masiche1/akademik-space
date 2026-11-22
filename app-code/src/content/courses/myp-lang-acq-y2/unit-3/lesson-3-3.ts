@@ -56,12 +56,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Christmas" },
-              { id: "b", text: "Diwali" },
-              { id: "c", text: "Oktoberfest" },
+              { id: "a", text: "Diwali" },
+              { id: "b", text: "Oktoberfest" },
+              { id: "c", text: "Christmas" },
               { id: "d", text: "Eid" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -154,10 +154,10 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Diwali" },
+              { id: "a", text: "Oktoberfest" },
               { id: "b", text: "Eid" },
-              { id: "c", text: "Oktoberfest" },
-              { id: "d", text: "Hanukkah" },
+              { id: "c", text: "Hanukkah" },
+              { id: "d", text: "Diwali" },
             ],
             correctChoiceId: "b",
           },
@@ -182,11 +182,11 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "A normal school day" },
-              { id: "b", text: "A special celebration or event at a particular time" },
-              { id: "c", text: "A kind of food" },
-              { id: "d", text: "A sport" },
+              { id: "b", text: "A sport" },
+              { id: "c", text: "A special celebration or event at a particular time" },
+              { id: "d", text: "A kind of food" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -208,12 +208,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Christmas is similar like Diwali." },
-              { id: "b", text: "Christmas is similar to Diwali." },
-              { id: "c", text: "Christmas similar Diwali is." },
-              { id: "d", text: "Christmas is similar of Diwali." },
+              { id: "a", text: "Christmas is similar of Diwali." },
+              { id: "b", text: "Christmas similar Diwali is." },
+              { id: "c", text: "Christmas is similar to Diwali." },
+              { id: "d", text: "Christmas is similar like Diwali." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -341,12 +341,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Italy" },
-              { id: "b", text: "Germany" },
-              { id: "c", text: "Japan" },
-              { id: "d", text: "Brazil" },
+              { id: "a", text: "Japan" },
+              { id: "b", text: "Italy" },
+              { id: "c", text: "Brazil" },
+              { id: "d", text: "Germany" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -399,12 +399,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Their festival is boring compared to ours." },
-              { id: "b", text: "Their festival is interesting because it celebrates family." },
+              { id: "a", text: "Their festival is interesting because it celebrates family." },
+              { id: "b", text: "Their festival is not as good as ours." },
               { id: "c", text: "Their festival is strange and wrong." },
-              { id: "d", text: "Their festival is not as good as ours." },
+              { id: "d", text: "Their festival is boring compared to ours." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -515,11 +515,11 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Eat as fast as possible" },
-              { id: "b", text: "Watch what others do first" },
-              { id: "c", text: "Refuse all the food" },
+              { id: "b", text: "Refuse all the food" },
+              { id: "c", text: "Watch what others do first" },
               { id: "d", text: "Use your own country's manners only" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -619,12 +619,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Eating very quickly" },
-              { id: "b", text: "The friendly way people treat guests" },
-              { id: "c", text: "A type of food" },
+              { id: "a", text: "A type of food" },
+              { id: "b", text: "Eating very quickly" },
+              { id: "c", text: "The friendly way people treat guests" },
               { id: "d", text: "A restaurant's price" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -646,12 +646,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A new invention" },
-              { id: "b", text: "A traditional way of doing something in a culture" },
-              { id: "c", text: "A kind of restaurant" },
-              { id: "d", text: "A modern phone" },
+              { id: "a", text: "A kind of restaurant" },
+              { id: "b", text: "A new invention" },
+              { id: "c", text: "A modern phone" },
+              { id: "d", text: "A traditional way of doing something in a culture" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -673,10 +673,10 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Spoons only" },
+              { id: "a", text: "Forks only" },
               { id: "b", text: "Chopsticks" },
               { id: "c", text: "Their hands always" },
-              { id: "d", text: "Forks only" },
+              { id: "d", text: "Spoons only" },
             ],
             correctChoiceId: "b",
           },
@@ -806,12 +806,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Eat as fast as possible" },
-              { id: "b", text: "Ask politely, e.g. 'Is it OK to...?'" },
-              { id: "c", text: "Refuse everything" },
-              { id: "d", text: "Leave immediately" },
+              { id: "a", text: "Leave immediately" },
+              { id: "b", text: "Eat as fast as possible" },
+              { id: "c", text: "Ask politely, e.g. 'Is it OK to...?'" },
+              { id: "d", text: "Refuse everything" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -864,12 +864,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "This food is disgusting." },
-              { id: "b", text: "I am not used to this flavour, but it is interesting." },
+              { id: "a", text: "I am not used to this flavour, but it is interesting." },
+              { id: "b", text: "This food is disgusting." },
               { id: "c", text: "This food is wrong." },
               { id: "d", text: "I hate everything here." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

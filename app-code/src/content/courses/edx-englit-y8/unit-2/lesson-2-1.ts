@@ -67,10 +67,10 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Stave Two" },
+              { id: "a", text: "Stave Five" },
               { id: "b", text: "Stave Three" },
               { id: "c", text: "Stave Four" },
-              { id: "d", text: "Stave Five" },
+              { id: "d", text: "Stave Two" },
             ],
             correctChoiceId: "c",
           },
@@ -193,12 +193,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "That he is closed off and keeps people out" },
-              { id: "b", text: "That he is rich in pearls" },
-              { id: "c", text: "That he enjoys eating alone" },
-              { id: "d", text: "That he is soft and gentle inside" },
+              { id: "a", text: "That he enjoys eating alone" },
+              { id: "b", text: "That he is soft and gentle inside" },
+              { id: "c", text: "That he is closed off and keeps people out" },
+              { id: "d", text: "That he is rich in pearls" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Simile", statement: "An oyster is shut tight; Scrooge keeps himself closed to others." }],

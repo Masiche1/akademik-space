@@ -82,12 +82,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Marley's wealth, which he carries with him" },
-              { id: "b", text: "The burden of the selfish choices Marley made in life" },
+              { id: "a", text: "The burden of the selfish choices Marley made in life" },
+              { id: "b", text: "Marley's wealth, which he carries with him" },
               { id: "c", text: "A punishment forced on him by Scrooge" },
               { id: "d", text: "A decoration Marley wore at Christmas" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Symbolism", statement: "The chain is built from Marley's own choices." }],
@@ -206,12 +206,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Scrooge is a character in a book by Dickens." },
-              { id: "b", text: "Dickens shows that Scrooge's change comes from seeing the consequences of his actions, which makes redemption convincing." },
-              { id: "c", text: "In this essay I will write about Stave One." },
-              { id: "d", text: "A Christmas Carol is long." },
+              { id: "a", text: "Dickens shows that Scrooge's change comes from seeing the consequences of his actions, which makes redemption convincing." },
+              { id: "b", text: "A Christmas Carol is long." },
+              { id: "c", text: "Scrooge is a character in a book by Dickens." },
+              { id: "d", text: "In this essay I will write about Stave One." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "skill", name: "Thesis", statement: "A line of argument gives a clear, arguable answer to the question." }],

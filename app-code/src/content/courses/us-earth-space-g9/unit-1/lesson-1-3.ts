@@ -50,10 +50,10 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "One half" },
+              { id: "a", text: "One eighth" },
               { id: "b", text: "One quarter" },
-              { id: "c", text: "None, because it has all decayed" },
-              { id: "d", text: "One eighth" },
+              { id: "c", text: "One half" },
+              { id: "d", text: "None, because it has all decayed" },
             ],
             correctChoiceId: "b",
           },
@@ -180,9 +180,9 @@ export const lesson13: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Earth formed after its oldest rocks did" },
-              { id: "b", text: "Radioactive decay makes rocks look older than they are" },
+              { id: "b", text: "The Moon formed the early rocks and sent them to Earth" },
               { id: "c", text: "Plate tectonics, weathering and erosion have destroyed or recycled the earliest rocks" },
-              { id: "d", text: "The Moon formed the early rocks and sent them to Earth" },
+              { id: "d", text: "Radioactive decay makes rocks look older than they are" },
             ],
             correctChoiceId: "c",
           },

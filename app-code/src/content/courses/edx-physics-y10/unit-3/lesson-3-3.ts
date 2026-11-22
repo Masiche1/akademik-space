@@ -54,12 +54,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Sound travels as a transverse wave through a vacuum." },
+              { id: "a", text: "Sound travels at $3.0 \\times 10^8\\text{ m/s}$." },
               { id: "b", text: "Sound travels faster in air than in steel." },
-              { id: "c", text: "Sound is a longitudinal wave and needs a medium to travel through." },
-              { id: "d", text: "Sound travels at $3.0 \\times 10^8\\text{ m/s}$." },
+              { id: "c", text: "Sound travels as a transverse wave through a vacuum." },
+              { id: "d", text: "Sound is a longitudinal wave and needs a medium to travel through." },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -193,12 +193,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The amplitude increases and the number of waves on the screen stays the same." },
-              { id: "b", text: "The amplitude stays the same and more waves appear on the screen." },
-              { id: "c", text: "The amplitude decreases and fewer waves appear on the screen." },
+              { id: "a", text: "The amplitude stays the same and more waves appear on the screen." },
+              { id: "b", text: "The amplitude decreases and fewer waves appear on the screen." },
+              { id: "c", text: "The amplitude increases and the number of waves on the screen stays the same." },
               { id: "d", text: "The amplitude increases and more waves appear on the screen." },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

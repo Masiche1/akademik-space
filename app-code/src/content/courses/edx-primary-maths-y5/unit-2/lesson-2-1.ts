@@ -68,8 +68,8 @@ export const lesson81: Lesson = {
             choices: [
               { id: "a", text: "2/9" },
               { id: "b", text: "1/2" },
-              { id: "c", text: "2/6" },
-              { id: "d", text: "1/9" },
+              { id: "c", text: "1/9" },
+              { id: "d", text: "2/6" },
             ],
             correctChoiceId: "b",
           },
@@ -288,10 +288,10 @@ export const lesson81: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "8/4" },
+              { id: "a", text: "4" },
               { id: "b", text: "2" },
-              { id: "c", text: "1/32" },
-              { id: "d", text: "4" },
+              { id: "c", text: "8/4" },
+              { id: "d", text: "1/32" },
             ],
             correctChoiceId: "b",
           },

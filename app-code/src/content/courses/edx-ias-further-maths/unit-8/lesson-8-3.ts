@@ -50,12 +50,12 @@ export const lesson83: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\frac{\\sigma^2}{n}$" },
-              { id: "b", text: "$\\sigma^2$" },
-              { id: "c", text: "$\\frac{\\sigma^2}{n^2}$" },
-              { id: "d", text: "$n\\sigma^2$" },
+              { id: "a", text: "$\\frac{\\sigma^2}{n^2}$" },
+              { id: "b", text: "$\\frac{\\sigma^2}{n}$" },
+              { id: "c", text: "$n\\sigma^2$" },
+              { id: "d", text: "$\\sigma^2$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Sample mean", statement: "$\\text{Var}(\\bar X)=\\frac{\\sigma^2}{n}$." }],
@@ -166,12 +166,12 @@ export const lesson83: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$1.96$" },
-              { id: "b", text: "$1.645$" },
-              { id: "c", text: "$2.576$" },
-              { id: "d", text: "$3.29$" },
+              { id: "a", text: "$3.29$" },
+              { id: "b", text: "$2.576$" },
+              { id: "c", text: "$1.96$" },
+              { id: "d", text: "$1.645$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "z-values", statement: "$95\\%\\to1.96$." }],

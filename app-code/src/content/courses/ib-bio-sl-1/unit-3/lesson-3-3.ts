@@ -55,11 +55,11 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Plants, animals and fungi" },
-              { id: "b", text: "Genetic, species and ecosystem diversity" },
-              { id: "c", text: "Terrestrial, marine and freshwater" },
-              { id: "d", text: "Producers, consumers and decomposers" },
+              { id: "b", text: "Terrestrial, marine and freshwater" },
+              { id: "c", text: "Producers, consumers and decomposers" },
+              { id: "d", text: "Genetic, species and ecosystem diversity" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Biodiversity", statement: "Biodiversity = genetic diversity within species + species diversity within communities + ecosystem diversity across habitats." }],
@@ -80,12 +80,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Because they have the most species overall" },
-              { id: "b", text: "Because they contain many endemic species found nowhere else and face severe habitat loss" },
-              { id: "c", text: "Because they are easy to protect" },
+              { id: "a", text: "Because they are easy to protect" },
+              { id: "b", text: "Because they have the most species overall" },
+              { id: "c", text: "Because they contain many endemic species found nowhere else and face severe habitat loss" },
               { id: "d", text: "Because they contain the largest animals" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Biodiversity hotspot", statement: "A hotspot has a high number of endemic species and significant ongoing habitat loss, making it a conservation priority." }],
@@ -106,12 +106,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "In situ protects species in their natural habitat; ex situ protects them outside it" },
+              { id: "a", text: "In situ is for plants only; ex situ is for animals only" },
               { id: "b", text: "In situ uses zoos; ex situ uses national parks" },
-              { id: "c", text: "In situ is for plants only; ex situ is for animals only" },
+              { id: "c", text: "In situ protects species in their natural habitat; ex situ protects them outside it" },
               { id: "d", text: "In situ is permanent; ex situ is temporary" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "In situ vs ex situ", statement: "In situ = conservation in the natural habitat (reserves, parks); ex situ = outside the habitat (zoos, seed banks, captive breeding)." }],
@@ -165,12 +165,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A forest, a wetland and a coral reef existing in one region" },
-              { id: "b", text: "Different alleles for fur colour within a population of wolves" },
-              { id: "c", text: "Twenty different bird species living in the same woodland" },
+              { id: "a", text: "Twenty different bird species living in the same woodland" },
+              { id: "b", text: "A forest, a wetland and a coral reef existing in one region" },
+              { id: "c", text: "Different alleles for fur colour within a population of wolves" },
               { id: "d", text: "A food web linking producers, consumers and decomposers" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Genetic diversity", statement: "Genetic diversity is the variation in alleles within a species' gene pool." }],
@@ -191,9 +191,9 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The number of alleles in a single species" },
+              { id: "a", text: "The variety of habitats in a region" },
               { id: "b", text: "The number and abundance of different species in a community or ecosystem" },
-              { id: "c", text: "The variety of habitats in a region" },
+              { id: "c", text: "The number of alleles in a single species" },
               { id: "d", text: "The total biomass of all organisms" },
             ],
             correctChoiceId: "b",
@@ -219,8 +219,8 @@ export const lesson33: Lesson = {
             choices: [
               { id: "a", text: "Different colours of flowers within one plant species" },
               { id: "b", text: "The variety of habitats such as forests, wetlands and coral reefs in a region" },
-              { id: "c", text: "Many species of beetles in a single garden" },
-              { id: "d", text: "Different feeding roles in a food web" },
+              { id: "c", text: "Different feeding roles in a food web" },
+              { id: "d", text: "Many species of beetles in a single garden" },
             ],
             correctChoiceId: "b",
           },
@@ -243,10 +243,10 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Invasive species" },
+              { id: "a", text: "Climate change" },
               { id: "b", text: "Habitat destruction" },
-              { id: "c", text: "Climate change" },
-              { id: "d", text: "Overexploitation such as overfishing" },
+              { id: "c", text: "Overexploitation such as overfishing" },
+              { id: "d", text: "Invasive species" },
             ],
             correctChoiceId: "b",
           },
@@ -452,12 +452,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It is always cheaper than keeping animals in zoos" },
-              { id: "b", text: "It protects species in their natural habitat, preserving whole ecosystems and ecosystem services" },
-              { id: "c", text: "It guarantees species will never go extinct" },
-              { id: "d", text: "It requires no management or funding once established" },
+              { id: "a", text: "It requires no management or funding once established" },
+              { id: "b", text: "It is always cheaper than keeping animals in zoos" },
+              { id: "c", text: "It protects species in their natural habitat, preserving whole ecosystems and ecosystem services" },
+              { id: "d", text: "It guarantees species will never go extinct" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Conservation", statement: "In situ conservation preserves entire ecosystems, their interactions and services, not just individual species." }],
@@ -511,12 +511,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Natural variation in solar output" },
-              { id: "b", text: "Increased release of greenhouse gases from human activities such as burning fossil fuels" },
-              { id: "c", text: "Changes in the Earth's orbit" },
-              { id: "d", text: "Volcanic eruptions releasing ash" },
+              { id: "a", text: "Volcanic eruptions releasing ash" },
+              { id: "b", text: "Changes in the Earth's orbit" },
+              { id: "c", text: "Natural variation in solar output" },
+              { id: "d", text: "Increased release of greenhouse gases from human activities such as burning fossil fuels" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Climate change", statement: "Human release of greenhouse gases (CO₂, methane) enhances the greenhouse effect and causes global warming." }],
@@ -537,12 +537,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The process of fossil fuel formation" },
-              { id: "b", text: "Excess nutrients in water causing algal blooms and oxygen depletion" },
-              { id: "c", text: "The natural ageing of a lake" },
-              { id: "d", text: "The conversion of nitrogen gas to ammonia" },
+              { id: "a", text: "Excess nutrients in water causing algal blooms and oxygen depletion" },
+              { id: "b", text: "The natural ageing of a lake" },
+              { id: "c", text: "The conversion of nitrogen gas to ammonia" },
+              { id: "d", text: "The process of fossil fuel formation" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Eutrophication", statement: "Excess nitrate/phosphate → algal bloom → decomposition → oxygen depletion → fish deaths." }],
@@ -563,12 +563,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Greenhouse gases reflect sunlight back to space, cooling the Earth" },
-              { id: "b", text: "Increased greenhouse gases trap more heat, raising global temperatures and causing sea level rise and extreme weather" },
+              { id: "a", text: "Increased greenhouse gases trap more heat, raising global temperatures and causing sea level rise and extreme weather" },
+              { id: "b", text: "Greenhouse gases increase photosynthesis, causing oxygen depletion" },
               { id: "c", text: "Greenhouse gases destroy the ozone layer, allowing harmful radiation to reach Earth" },
-              { id: "d", text: "Greenhouse gases increase photosynthesis, causing oxygen depletion" },
+              { id: "d", text: "Greenhouse gases reflect sunlight back to space, cooling the Earth" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Enhanced greenhouse effect", statement: "Extra greenhouse gases from human activity trap more outgoing infrared radiation, raising global temperatures." }],
@@ -622,9 +622,9 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Oxygen" },
+              { id: "a", text: "Nitrogen gas" },
               { id: "b", text: "Carbon dioxide" },
-              { id: "c", text: "Nitrogen gas" },
+              { id: "c", text: "Oxygen" },
               { id: "d", text: "Ozone" },
             ],
             correctChoiceId: "b",
@@ -648,10 +648,10 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Greenhouse gases reflect incoming sunlight back to space" },
+              { id: "a", text: "Greenhouse gases destroy ozone, allowing more radiation to enter" },
               { id: "b", text: "Greenhouse gases trap some outgoing infrared radiation, warming the atmosphere" },
-              { id: "c", text: "Greenhouse gases destroy ozone, allowing more radiation to enter" },
-              { id: "d", text: "Greenhouse gases dissolve in the oceans, causing acidification" },
+              { id: "c", text: "Greenhouse gases dissolve in the oceans, causing acidification" },
+              { id: "d", text: "Greenhouse gases reflect incoming sunlight back to space" },
             ],
             correctChoiceId: "b",
           },
@@ -674,12 +674,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Using resources as quickly as possible for maximum economic growth" },
-              { id: "b", text: "Meeting the needs of the present without compromising the ability of future generations to meet their own needs" },
+              { id: "a", text: "Meeting the needs of the present without compromising the ability of future generations to meet their own needs" },
+              { id: "b", text: "Using resources as quickly as possible for maximum economic growth" },
               { id: "c", text: "Protecting the environment even if it causes unemployment" },
               { id: "d", text: "Replacing all human activity with conservation programmes" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Sustainability", statement: "Sustainable development balances economic, social and environmental needs across generations." }],
@@ -700,12 +700,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Using nets with very small mesh to catch every fish" },
-              { id: "b", text: "Setting quotas and minimum size limits so fish stocks can replenish" },
-              { id: "c", text: "Fishing during the breeding season to maximise catch" },
+              { id: "a", text: "Setting quotas and minimum size limits so fish stocks can replenish" },
+              { id: "b", text: "Fishing during the breeding season to maximise catch" },
+              { id: "c", text: "Using nets with very small mesh to catch every fish" },
               { id: "d", text: "Ignoring catch limits whenever prices are high" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Sustainable use", statement: "Sustainable practices allow resources to replenish while still being used." }],
@@ -909,12 +909,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Maximising economic growth regardless of environmental damage" },
-              { id: "b", text: "Balancing economic, social and environmental needs so future generations can also meet their needs" },
+              { id: "a", text: "Prioritising conservation over all human welfare needs" },
+              { id: "b", text: "Maximising economic growth regardless of environmental damage" },
               { id: "c", text: "Stopping all use of natural resources immediately" },
-              { id: "d", text: "Prioritising conservation over all human welfare needs" },
+              { id: "d", text: "Balancing economic, social and environmental needs so future generations can also meet their needs" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Sustainable development", statement: "Sustainability integrates economic, social and environmental dimensions across generations." }],

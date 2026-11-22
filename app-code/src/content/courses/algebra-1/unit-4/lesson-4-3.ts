@@ -54,12 +54,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Axis $x=2$; opens upward" },
-              { id: "b", text: "Axis $x=-2$; opens upward" },
-              { id: "c", text: "Axis $x=2$; opens downward" },
-              { id: "d", text: "Axis $x=4$; opens upward" },
+              { id: "a", text: "Axis $x=4$; opens upward" },
+              { id: "b", text: "Axis $x=2$; opens downward" },
+              { id: "c", text: "Axis $x=2$; opens upward" },
+              { id: "d", text: "Axis $x=-2$; opens upward" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -196,12 +196,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$x=2$ and $x=-5$" },
-              { id: "b", text: "$x=-2$ and $x=5$" },
+              { id: "a", text: "$x=-2$ and $x=5$" },
+              { id: "b", text: "$x=2$ and $x=-5$" },
               { id: "c", text: "$x=2$ only" },
               { id: "d", text: "$x=-5$ only" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [

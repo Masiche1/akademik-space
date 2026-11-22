@@ -54,12 +54,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Denitrification" },
-              { id: "b", text: "Nitrification" },
-              { id: "c", text: "Nitrogen fixation" },
-              { id: "d", text: "Ammonification" },
+              { id: "a", text: "Nitrification" },
+              { id: "b", text: "Nitrogen fixation" },
+              { id: "c", text: "Ammonification" },
+              { id: "d", text: "Denitrification" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -83,12 +83,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Phosphorus has no gaseous atmospheric phase; it cycles through rocks, soil and water" },
-              { id: "b", text: "Phosphorus is recycled by photosynthesis" },
-              { id: "c", text: "Phosphorus moves only through the food chain" },
-              { id: "d", text: "Phosphorus cannot be absorbed by plants" },
+              { id: "a", text: "Phosphorus is recycled by photosynthesis" },
+              { id: "b", text: "Phosphorus moves only through the food chain" },
+              { id: "c", text: "Phosphorus cannot be absorbed by plants" },
+              { id: "d", text: "Phosphorus has no gaseous atmospheric phase; it cycles through rocks, soil and water" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -114,8 +114,8 @@ export const lesson53: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Legumes fix atmospheric $\\text{N}_2$ via Rhizobium, enriching soil nitrogen for the following cereal crop" },
-              { id: "b", text: "Legumes increase soil carbon dioxide which fertilises cereals" },
-              { id: "c", text: "Legumes denitrify the soil, releasing nitrogen gas for plants" },
+              { id: "b", text: "Legumes denitrify the soil, releasing nitrogen gas for plants" },
+              { id: "c", text: "Legumes increase soil carbon dioxide which fertilises cereals" },
               { id: "d", text: "Legumes make phosphorus soluble in water" },
             ],
             correctChoiceId: "a",
@@ -176,12 +176,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Nitrogen fixation" },
-              { id: "b", text: "Nitrification" },
-              { id: "c", text: "Denitrification" },
-              { id: "d", text: "Ammonification" },
+              { id: "a", text: "Denitrification" },
+              { id: "b", text: "Nitrogen fixation" },
+              { id: "c", text: "Ammonification" },
+              { id: "d", text: "Nitrification" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -206,11 +206,11 @@ export const lesson53: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Because it exists only in the atmosphere as a gas" },
-              { id: "b", text: "Because it is poorly soluble and cycles slowly through rocks, soil and water with no gaseous phase" },
-              { id: "c", text: "Because plants cannot absorb it in any form" },
-              { id: "d", text: "Because it is destroyed by decomposition" },
+              { id: "b", text: "Because plants cannot absorb it in any form" },
+              { id: "c", text: "Because it is destroyed by decomposition" },
+              { id: "d", text: "Because it is poorly soluble and cycles slowly through rocks, soil and water with no gaseous phase" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -234,12 +234,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Nutrient enrichment $\\rightarrow$ algal bloom $\\rightarrow$ algal death $\\rightarrow$ decomposition and oxygen depletion $\\rightarrow$ fish kills" },
-              { id: "b", text: "Fish kills $\\rightarrow$ algal bloom $\\rightarrow$ nutrient enrichment" },
-              { id: "c", text: "Decomposition $\\rightarrow$ nutrient enrichment $\\rightarrow$ algal bloom $\\rightarrow$ more fish" },
-              { id: "d", text: "Oxygen depletion $\\rightarrow$ algal bloom $\\rightarrow$ nutrient enrichment" },
+              { id: "a", text: "Fish kills $\\rightarrow$ algal bloom $\\rightarrow$ nutrient enrichment" },
+              { id: "b", text: "Oxygen depletion $\\rightarrow$ algal bloom $\\rightarrow$ nutrient enrichment" },
+              { id: "c", text: "Nutrient enrichment $\\rightarrow$ algal bloom $\\rightarrow$ algal death $\\rightarrow$ decomposition and oxygen depletion $\\rightarrow$ fish kills" },
+              { id: "d", text: "Decomposition $\\rightarrow$ nutrient enrichment $\\rightarrow$ algal bloom $\\rightarrow$ more fish" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -264,12 +264,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The ocean sink has stopped working entirely" },
-              { id: "b", text: "Emissions exceed the capacity of all natural sinks combined, so $\\text{CO}_2$ accumulates in the atmosphere" },
+              { id: "a", text: "Emissions exceed the capacity of all natural sinks combined, so $\\text{CO}_2$ accumulates in the atmosphere" },
+              { id: "b", text: "The ocean sink has stopped working entirely" },
               { id: "c", text: "Photosynthesis has ceased worldwide" },
               { id: "d", text: "The remaining $75\\%$ of emissions is harmless" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -510,12 +510,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Weeds growing on abandoned farmland" },
-              { id: "b", text: "Lichens colonising bare rock exposed by a retreating glacier" },
-              { id: "c", text: "Shrubs regrowing after a forest fire" },
-              { id: "d", text: "Grass colonising a flooded field" },
+              { id: "a", text: "Lichens colonising bare rock exposed by a retreating glacier" },
+              { id: "b", text: "Grass colonising a flooded field" },
+              { id: "c", text: "Weeds growing on abandoned farmland" },
+              { id: "d", text: "Shrubs regrowing after a forest fire" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -539,10 +539,10 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "They are the climax community" },
+              { id: "a", text: "They are secondary consumers in the food web" },
               { id: "b", text: "They are pioneer species that stabilise substrate and add organic matter for later species" },
-              { id: "c", text: "They inhibit all further succession" },
-              { id: "d", text: "They are secondary consumers in the food web" },
+              { id: "c", text: "They are the climax community" },
+              { id: "d", text: "They inhibit all further succession" },
             ],
             correctChoiceId: "b",
           },
@@ -570,11 +570,11 @@ export const lesson53: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Facilitation — the weed helps later species" },
-              { id: "b", text: "Tolerance — later species outcompete the weed slowly" },
-              { id: "c", text: "Inhibition — the established weed resists invasion until it dies or is removed" },
-              { id: "d", text: "Primary succession because no soil exists" },
+              { id: "b", text: "Inhibition — the established weed resists invasion until it dies or is removed" },
+              { id: "c", text: "Primary succession because no soil exists" },
+              { id: "d", text: "Tolerance — later species outcompete the weed slowly" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -632,12 +632,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Oak trees" },
-              { id: "b", text: "Lichens" },
+              { id: "a", text: "Flowering shrubs" },
+              { id: "b", text: "Oak trees" },
               { id: "c", text: "Tall grasses" },
-              { id: "d", text: "Flowering shrubs" },
+              { id: "d", text: "Lichens" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -661,10 +661,10 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Primary succession involves animals; secondary involves only plants" },
+              { id: "a", text: "Primary succession is faster because there is no competition" },
               { id: "b", text: "Primary succession starts on bare substrate with no soil; secondary follows disturbance where soil and some organisms remain" },
               { id: "c", text: "Secondary succession always ends at a climax community; primary never does" },
-              { id: "d", text: "Primary succession is faster because there is no competition" },
+              { id: "d", text: "Primary succession involves animals; secondary involves only plants" },
             ],
             correctChoiceId: "b",
           },
@@ -692,10 +692,10 @@ export const lesson53: Lesson = {
             choices: [
               { id: "a", text: "Tolerance — later species outcompete the lichens" },
               { id: "b", text: "Inhibition — the lichens block all later species" },
-              { id: "c", text: "Facilitation — early species improve conditions for later species" },
-              { id: "d", text: "Climax — the lichens are the final community" },
+              { id: "c", text: "Climax — the lichens are the final community" },
+              { id: "d", text: "Facilitation — early species improve conditions for later species" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -720,12 +720,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Because secondary sites have more sunlight" },
-              { id: "b", text: "Because soil, a seed bank and surviving organisms remain, giving later species a head start" },
-              { id: "c", text: "Because primary succession involves no animals" },
-              { id: "d", text: "Because pioneer species grow faster on disturbed soil" },
+              { id: "a", text: "Because primary succession involves no animals" },
+              { id: "b", text: "Because secondary sites have more sunlight" },
+              { id: "c", text: "Because pioneer species grow faster on disturbed soil" },
+              { id: "d", text: "Because soil, a seed bank and surviving organisms remain, giving later species a head start" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

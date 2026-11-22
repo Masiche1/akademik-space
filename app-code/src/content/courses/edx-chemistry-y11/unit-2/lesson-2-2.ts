@@ -56,9 +56,9 @@ export const lesson22: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "To lower the temperature needed to melt the electrolyte" },
-              { id: "b", text: "To react with the oxygen produced at the anode" },
-              { id: "c", text: "To make the aluminium purer by removing impurities" },
-              { id: "d", text: "To increase the melting point of the electrolyte" },
+              { id: "b", text: "To make the aluminium purer by removing impurities" },
+              { id: "c", text: "To increase the melting point of the electrolyte" },
+              { id: "d", text: "To react with the oxygen produced at the anode" },
             ],
             correctChoiceId: "a",
           },
@@ -194,12 +194,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Iron" },
-              { id: "b", text: "Vanadium(V) oxide" },
+              { id: "a", text: "Manganese(IV) oxide" },
+              { id: "b", text: "Iron" },
               { id: "c", text: "Platinum" },
-              { id: "d", text: "Manganese(IV) oxide" },
+              { id: "d", text: "Vanadium(V) oxide" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

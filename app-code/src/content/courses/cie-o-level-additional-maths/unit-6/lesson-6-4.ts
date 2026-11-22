@@ -33,8 +33,11 @@ export const lesson64: Lesson = {
           id: "olam-u6-s4-im-q1", difficulty: "foundation", totalMarks: 1,
           stem: "$\\frac{d}{dx}(y^2)$ equals…",
           response: { type: "mcq", choices: [
-            { id: "a", text: "$2y\\frac{dy}{dx}$" }, { id: "b", text: "$2y$" }, { id: "c", text: "$\\frac{dy}{dx}$" }, { id: "d", text: "$2x\\frac{dy}{dx}$" },
-          ], correctChoiceId: "a" },
+            { id: "a", text: "$2y$" },
+            { id: "b", text: "$2y\\frac{dy}{dx}$" },
+            { id: "c", text: "$\\frac{dy}{dx}$" },
+            { id: "d", text: "$2x\\frac{dy}{dx}$" },
+          ], correctChoiceId: "b" },
           markscheme: { principles: [{ kind: "technique", name: "Chain rule", statement: "y is function of x." }], steps: [{ reasoning: "Chain rule: $2y\\cdot\\frac{dy}{dx}$.", marks: 1, markCode: "A" }], finalAnswer: "$2y\\frac{dy}{dx}$" },
         },
         {
@@ -67,6 +70,128 @@ export const lesson64: Lesson = {
             { reasoning: "Answer: gradient $-\\frac45$.", marks: 1, markCode: "A" },
           ], finalAnswer: "$-\\frac45$" },
         },
+        {
+          id: "olam-u6-s4-im-q5", difficulty: "foundation", totalMarks: 1,
+          stem: "$\\frac{d}{dx}(y^3)$ equals…",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "$y^2\\frac{dy}{dx}$" },
+            { id: "b", text: "$3x^2\\frac{dy}{dx}$" },
+            { id: "c", text: "$3y^2$" },
+            { id: "d", text: "$3y^2\\frac{dy}{dx}$" },
+          ], correctChoiceId: "d" },
+          markscheme: { principles: [{ kind: "technique", name: "Chain rule", statement: "Power of $y$ picks up $\\frac{dy}{dx}$." }], steps: [{ reasoning: "$3y^2\\cdot\\frac{dy}{dx}$.", marks: 1, markCode: "A" }], finalAnswer: "$3y^2\\frac{dy}{dx}$" },
+        },
+        {
+          id: "olam-u6-s4-im-q6", difficulty: "foundation", totalMarks: 2,
+          stem: "Find the gradient of $x^2+y^2=25$ at $(3,4)$ using implicit differentiation.",
+          response: { type: "numeric", parts: [{ label: "a", answer: -0.75 }] },
+          markscheme: { principles: [{ kind: "technique", name: "Implicit", statement: "$\\frac{dy}{dx}=-\\frac{x}{y}$." }], steps: [
+            { reasoning: "$2x+2y\\frac{dy}{dx}=0$ → $\\frac{dy}{dx}=-\\frac{x}{y}$; at $(3,4)$: $-\\frac34=-0.75$.", marks: 1, markCode: "M" },
+            { reasoning: "Answer: $-0.75$.", marks: 1, markCode: "A" },
+          ], finalAnswer: "$-0.75$" },
+        },
+        {
+          id: "olam-u6-s4-im-q7", difficulty: "foundation", totalMarks: 1,
+          stem: "$\\frac{d}{dx}(xy)$ equals…",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "$\\frac{dy}{dx}$" },
+            { id: "b", text: "$y+x\\frac{dy}{dx}$" },
+            { id: "c", text: "$x\\frac{dy}{dx}$" },
+            { id: "d", text: "$y$" },
+          ], borrectChoiceId: "c" },
+          markscheme: { principles: [{ kind: "technique", name: "Product rule", statement: "$(uv)'=u'v+uv'$." }], steps: [{ reasoning: "$1\\cdot y+x\\cdot\\frac{dy}{dx}$.", marks: 1, markCode: "A" }], finalAnswer: "$y+x\\frac{dy}{dx}$" },
+        },
+        {
+          id: "olam-u6-s4-im-q8", difficulty: "core", totalMarks: 3,
+          stem: "Differentiate $x^2-y^2=9$ implicitly with respect to $x$.",
+          response: { type: "open" },
+          markscheme: { principles: [{ kind: "technique", name: "Implicit", statement: "Term by term; $y^2\\to2y\\frac{dy}{dx}$." }], steps: [
+            { reasoning: "$2x-2y\\frac{dy}{dx}=0$.", marks: 1, markCode: "M" },
+            { reasoning: "$\\frac{dy}{dx}=\\frac{x}{y}$.", marks: 1, markCode: "M" },
+            { reasoning: "Answer shown.", marks: 1, markCode: "A" },
+          ], finalAnswer: "$\\frac{dy}{dx}=\\frac{x}{y}$" },
+        },
+        {
+          id: "olam-u6-s4-im-q9", difficulty: "core", totalMarks: 2,
+          stem: "Find $\\frac{dy}{dx}$ for $x^2+y=4$ at $x=1$.",
+          response: { type: "numeric", parts: [{ label: "a", answer: -2 }] },
+          markscheme: { principles: [{ kind: "technique", name: "Implicit", statement: "Differentiate term by term." }], steps: [
+            { reasoning: "$2x+\\frac{dy}{dx}=0$ → $\\frac{dy}{dx}=-2x$; at $x=1$: $-2$.", marks: 1, markCode: "M" },
+            { reasoning: "Answer: $-2$.", marks: 1, markCode: "A" },
+          ], finalAnswer: "$-2$" },
+        },
+        {
+          id: "olam-u6-s4-im-q10", difficulty: "core", totalMarks: 1,
+          stem: "When differentiating $y^2$ implicitly with respect to $x$, the result is…",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "$2y\\frac{dy}{dx}$" },
+            { id: "b", text: "$\\frac{dy}{dx}$" },
+            { id: "c", text: "$2x\\frac{dy}{dx}$" },
+            { id: "d", text: "$2y$" },
+          ], correctChoiceId: "a" },
+          markscheme: { principles: [{ kind: "technique", name: "Chain rule", statement: "Every $y$-term gets $\\frac{dy}{dx}$." }], steps: [{ reasoning: "Chain rule on $y$: $2y\\frac{dy}{dx}$.", marks: 1, markCode: "A" }], finalAnswer: "$2y\\frac{dy}{dx}$" },
+        },
+        {
+          id: "olam-u6-s4-im-q11", difficulty: "challenge", totalMarks: 4,
+          stem: "Differentiate $x^2+2xy+y^2=4$ implicitly.",
+          response: { type: "open" },
+          markscheme: { principles: [{ kind: "technique", name: "Implicit", statement: "Product rule on $2xy$; chain rule on $y^2$." }], steps: [
+            { reasoning: "$2x+2(y+x\\frac{dy}{dx})+2y\\frac{dy}{dx}=0$ → $2x+2y+2(x+y)\\frac{dy}{dx}=0$.", marks: 1, markCode: "M" },
+            { reasoning: "$(x+y)\\frac{dy}{dx}=-(x+y)$.", marks: 1, markCode: "M" },
+            { reasoning: "$\\frac{dy}{dx}=-1$ (where $x+y\\neq0$).", marks: 1, markCode: "M" },
+            { reasoning: "Answer shown.", marks: 1, markCode: "A" },
+          ], finalAnswer: "$\\frac{dy}{dx}=-1$" },
+        },
+        {
+          id: "olam-u6-s4-im-q12", difficulty: "core", totalMarks: 2,
+          stem: "Find $\\frac{dy}{dx}$ for $xy=8$ at $(2,4)$.",
+          response: { type: "numeric", parts: [{ label: "a", answer: -2 }] },
+          markscheme: { principles: [{ kind: "technique", name: "Implicit", statement: "$\\frac{dy}{dx}=-\\frac{y}{x}$." }], steps: [
+            { reasoning: "$y+x\\frac{dy}{dx}=0$ → $\\frac{dy}{dx}=-\\frac{y}{x}$; at $(2,4)$: $-2$.", marks: 1, markCode: "M" },
+            { reasoning: "Answer: $-2$.", marks: 1, markCode: "A" },
+          ], finalAnswer: "$-2$" },
+        },
+        {
+          id: "olam-u6-s4-im-q13", difficulty: "core", totalMarks: 1,
+          stem: "In implicit differentiation, every term containing $y$ must be…",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "Differentiated as a constant" },
+            { id: "b", text: "Ignored" },
+            { id: "c", text: "Multiplied by $\\frac{dy}{dx}$ via the chain rule" },
+            { id: "d", text: "Replaced by $x$" },
+          ], correctChoiceId: "c" },
+          markscheme: { principles: [{ kind: "technique", name: "Implicit", statement: "Treat $y$ as function of $x$." }], steps: [{ reasoning: "Chain rule applies to every $y$-term.", marks: 1, markCode: "A" }], finalAnswer: "Multiplied by $\\frac{dy}{dx}$" },
+        },
+        {
+          id: "olam-u6-s4-im-q14", difficulty: "core", totalMarks: 3,
+          stem: "Differentiate $x^3+y^3=8$ implicitly.",
+          response: { type: "open" },
+          markscheme: { principles: [{ kind: "technique", name: "Implicit", statement: "Term by term." }], steps: [
+            { reasoning: "$3x^2+3y^2\\frac{dy}{dx}=0$.", marks: 1, markCode: "M" },
+            { reasoning: "$\\frac{dy}{dx}=-\\frac{x^2}{y^2}$.", marks: 1, markCode: "M" },
+            { reasoning: "Answer shown.", marks: 1, markCode: "A" },
+          ], finalAnswer: "$\\frac{dy}{dx}=-\\frac{x^2}{y^2}$" },
+        },
+        {
+          id: "olam-u6-s4-im-q15", difficulty: "core", totalMarks: 2,
+          stem: "Find $\\frac{dy}{dx}$ for $x^2+y^2=100$ at $(6,8)$.",
+          response: { type: "numeric", parts: [{ label: "a", answer: -0.75 }] },
+          markscheme: { principles: [{ kind: "technique", name: "Implicit", statement: "Evaluate at point." }], steps: [
+            { reasoning: "$\\frac{dy}{dx}=-\\frac{x}{y}$; at $(6,8)$: $-\\frac{6}{8}=-0.75$.", marks: 1, markCode: "M" },
+            { reasoning: "Answer: $-0.75$.", marks: 1, markCode: "A" },
+          ], finalAnswer: "$-0.75$" },
+        },
+        {
+          id: "olam-u6-s4-im-q16", difficulty: "challenge", totalMarks: 4,
+          stem: "Differentiate $x^2y+y^2=6$ implicitly and find $\\frac{dy}{dx}$ in terms of $x$ and $y$.",
+          response: { type: "open" },
+          markscheme: { principles: [{ kind: "technique", name: "Implicit", statement: "Product rule on $x^2y$; chain rule on $y^2$." }], steps: [
+            { reasoning: "$2xy+x^2\\frac{dy}{dx}+2y\\frac{dy}{dx}=0$.", marks: 1, markCode: "M" },
+            { reasoning: "$(x^2+2y)\\frac{dy}{dx}=-2xy$.", marks: 1, markCode: "M" },
+            { reasoning: "$\\frac{dy}{dx}=-\\frac{2xy}{x^2+2y}$.", marks: 1, markCode: "M" },
+            { reasoning: "Answer shown.", marks: 1, markCode: "A" },
+          ], finalAnswer: "$\\frac{dy}{dx}=-\\frac{2xy}{x^2+2y}$" },
+        },
       ],
     },
     {
@@ -88,7 +213,10 @@ export const lesson64: Lesson = {
           id: "olam-u6-s4-ta-q1", difficulty: "foundation", totalMarks: 1,
           stem: "The normal to a curve is perpendicular to…",
           response: { type: "mcq", choices: [
-            { id: "a", text: "The tangent" }, { id: "b", text: "The x-axis" }, { id: "c", text: "The y-axis" }, { id: "d", text: "The curve itself" },
+            { id: "a", text: "The tangent" },
+            { id: "b", text: "The y-axis" },
+            { id: "c", text: "The curve itself" },
+            { id: "d", text: "The x-axis" },
           ], correctChoiceId: "a" },
           markscheme: { principles: [{ kind: "definition", name: "Normal", statement: "Perpendicular to tangent." }], steps: [{ reasoning: "Definition.", marks: 1, markCode: "A" }], finalAnswer: "The tangent" },
         },
@@ -121,6 +249,128 @@ export const lesson64: Lesson = {
             { reasoning: "Check: at $x=3$, $y=4$ ✓; perpendicular to tangent $3x+4y=25$ since $3(1)+4(\\frac43)=3+\\frac{16}{3}$... verify gradients: tangent $-\\frac34$, normal $\\frac43$, product $=-1$ ✓.", marks: 1, markCode: "M" },
             { reasoning: "Answer: $y=\\frac43x$ or $4x-3y=0$.", marks: 1, markCode: "A" },
           ], finalAnswer: "$y=\\frac43x$" },
+        },
+        {
+          id: "olam-u6-s4-ta-q5", difficulty: "foundation", totalMarks: 1,
+          stem: "The gradient of the normal to a curve is…",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "The negative reciprocal of the tangent gradient" },
+            { id: "b", text: "The same as the tangent gradient" },
+            { id: "c", text: "Always zero" },
+            { id: "d", text: "The tangent gradient squared" },
+          ], correctChoiceId: "a" },
+          markscheme: { principles: [{ kind: "formula", name: "Normal gradient", statement: "$-\\frac{1}{m}$." }], steps: [{ reasoning: "Normal is perpendicular to tangent.", marks: 1, markCode: "A" }], finalAnswer: "$-\\frac{1}{m}$" },
+        },
+        {
+          id: "olam-u6-s4-ta-q6", difficulty: "foundation", totalMarks: 2,
+          stem: "Find the gradient of the normal to $x^2+y^2=25$ at $(4,3)$.",
+          response: { type: "numeric", parts: [{ label: "a", answer: 0.75 }] },
+          markscheme: { principles: [{ kind: "technique", name: "Normal gradient", statement: "Negative reciprocal." }], steps: [
+            { reasoning: "Tangent gradient $-\\frac{4}{3}$ → normal gradient $\\frac{3}{4}=0.75$.", marks: 1, markCode: "M" },
+            { reasoning: "Answer: 0.75.", marks: 1, markCode: "A" },
+          ], finalAnswer: "0.75" },
+        },
+        {
+          id: "olam-u6-s4-ta-q7", difficulty: "foundation", totalMarks: 1,
+          stem: "The normal to a circle at a point on the circumference always passes through…",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "The centre of the circle" },
+            { id: "b", text: "Nowhere in particular" },
+            { id: "c", text: "The point of contact only" },
+            { id: "d", text: "The x-axis" },
+          ], correctChoiceId: "a" },
+          markscheme: { principles: [{ kind: "property", name: "Circle normal", statement: "Normal = radius line." }], steps: [{ reasoning: "Normal is along the radius, so it passes through the centre.", marks: 1, markCode: "A" }], finalAnswer: "The centre" },
+        },
+        {
+          id: "olam-u6-s4-ta-q8", difficulty: "core", totalMarks: 3,
+          stem: "Find the equation of the tangent to $x^2+y^2=25$ at $(4,3)$.",
+          response: { type: "open" },
+          markscheme: { principles: [{ kind: "technique", name: "Implicit tangent", statement: "Differentiate, evaluate, line equation." }], steps: [
+            { reasoning: "$\\frac{dy}{dx}=-\\frac{x}{y}$ → at $(4,3)$: $m=-\\frac43$.", marks: 1, markCode: "M" },
+            { reasoning: "$y-3=-\\frac43(x-4)$ → $4x+3y=25$.", marks: 1, markCode: "M" },
+            { reasoning: "Check: $16+9=25$ ✓ on circle; $16+9=25$ ✓ on line.", marks: 1, markCode: "A" },
+          ], finalAnswer: "$4x+3y=25$" },
+        },
+        {
+          id: "olam-u6-s4-ta-q9", difficulty: "core", totalMarks: 2,
+          stem: "Find the gradient of the normal to $xy=4$ at $(1,4)$.",
+          response: { type: "numeric", parts: [{ label: "a", answer: 0.25 }] },
+          markscheme: { principles: [{ kind: "technique", name: "Normal gradient", statement: "Negative reciprocal of tangent." }], steps: [
+            { reasoning: "$\\frac{dy}{dx}=-\\frac{y}{x}$ → at $(1,4)$: $-4$; normal gradient $\\frac14=0.25$.", marks: 1, markCode: "M" },
+            { reasoning: "Answer: 0.25.", marks: 1, markCode: "A" },
+          ], finalAnswer: "0.25" },
+        },
+        {
+          id: "olam-u6-s4-ta-q10", difficulty: "core", totalMarks: 1,
+          stem: "If the tangent to a curve is horizontal, the normal is…",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "Undefined" },
+            { id: "b", text: "Horizontal" },
+            { id: "c", text: "Also horizontal" },
+            { id: "d", text: "Vertical" },
+          ], correctChoiceId: "d" },
+          markscheme: { principles: [{ kind: "property", name: "Normal", statement: "Perpendicular to tangent." }], steps: [{ reasoning: "Horizontal tangent ⇒ vertical normal.", marks: 1, markCode: "A" }], finalAnswer: "Vertical" },
+        },
+        {
+          id: "olam-u6-s4-ta-q11", difficulty: "challenge", totalMarks: 4,
+          stem: "Find the equation of the tangent to $x^2+y^2=10$ at $(1,3)$.",
+          response: { type: "open" },
+          markscheme: { principles: [{ kind: "technique", name: "Implicit tangent", statement: "Differentiate then line equation." }], steps: [
+            { reasoning: "Check: $1+9=10$ ✓; $\\frac{dy}{dx}=-\\frac{x}{y}$ → at $(1,3)$: $m=-\\frac13$.", marks: 1, markCode: "M" },
+            { reasoning: "$y-3=-\\frac13(x-1)$ → $x+3y=10$.", marks: 1, markCode: "M" },
+            { reasoning: "Check on line: $1+9=10$ ✓.", marks: 1, markCode: "M" },
+            { reasoning: "Answer shown.", marks: 1, markCode: "A" },
+          ], finalAnswer: "$x+3y=10$" },
+        },
+        {
+          id: "olam-u6-s4-ta-q12", difficulty: "core", totalMarks: 2,
+          stem: "Find the gradient of the tangent to $x^2+y^2=50$ at $(5,5)$.",
+          response: { type: "numeric", parts: [{ label: "a", answer: -1 }] },
+          markscheme: { principles: [{ kind: "technique", name: "Implicit tangent", statement: "$\\frac{dy}{dx}=-\\frac{x}{y}$." }], steps: [
+            { reasoning: "Check: $25+25=50$ ✓; $m=-\\frac55=-1$.", marks: 1, markCode: "M" },
+            { reasoning: "Answer: $-1$.", marks: 1, markCode: "A" },
+          ], finalAnswer: "$-1$" },
+        },
+        {
+          id: "olam-u6-s4-ta-q13", difficulty: "core", totalMarks: 1,
+          stem: "The normal to a circle at a point on the circumference is the same line as…",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "The tangent" },
+            { id: "b", text: "A chord" },
+            { id: "c", text: "The x-axis" },
+            { id: "d", text: "The radius through that point" },
+          ], correctChoiceId: "d" },
+          markscheme: { principles: [{ kind: "property", name: "Circle normal", statement: "Normal coincides with radius." }], steps: [{ reasoning: "Normal is perpendicular to tangent = along radius.", marks: 1, markCode: "A" }], finalAnswer: "The radius" },
+        },
+        {
+          id: "olam-u6-s4-ta-q14", difficulty: "core", totalMarks: 3,
+          stem: "Find the equation of the normal to $x^2+y^2=25$ at $(4,3)$.",
+          response: { type: "open" },
+          markscheme: { principles: [{ kind: "technique", name: "Normal equation", statement: "Through point and centre." }], steps: [
+            { reasoning: "Normal gradient $\\frac34$; passes through $(4,3)$ and centre $(0,0)$.", marks: 1, markCode: "M" },
+            { reasoning: "$y=\\frac34x$ → $3x-4y=0$.", marks: 1, markCode: "M" },
+            { reasoning: "Check: at $x=4$, $y=3$ ✓; gradient product $-\\frac43\\times\\frac34=-1$ ✓.", marks: 1, markCode: "A" },
+          ], finalAnswer: "$3x-4y=0$" },
+        },
+        {
+          id: "olam-u6-s4-ta-q15", difficulty: "core", totalMarks: 2,
+          stem: "Find the gradient of the tangent to $x^2+y^2=29$ at $(2,5)$.",
+          response: { type: "numeric", parts: [{ label: "a", answer: -0.4 }] },
+          markscheme: { principles: [{ kind: "technique", name: "Implicit tangent", statement: "$\\frac{dy}{dx}=-\\frac{x}{y}$." }], steps: [
+            { reasoning: "Check: $4+25=29$ ✓; $m=-\\frac25=-0.4$.", marks: 1, markCode: "M" },
+            { reasoning: "Answer: $-0.4$.", marks: 1, markCode: "A" },
+          ], finalAnswer: "$-0.4$" },
+        },
+        {
+          id: "olam-u6-s4-ta-q16", difficulty: "challenge", totalMarks: 4,
+          stem: "Find the equation of the tangent to $x^2+xy+y^2=7$ at $(1,2)$.",
+          response: { type: "open" },
+          markscheme: { principles: [{ kind: "technique", name: "Implicit tangent", statement: "Differentiate then line equation." }], steps: [
+            { reasoning: "$2x+y+x\\frac{dy}{dx}+2y\\frac{dy}{dx}=0$ → $\\frac{dy}{dx}=-\\frac{2x+y}{x+2y}$.", marks: 1, markCode: "M" },
+            { reasoning: "At $(1,2)$: $m=-\\frac{2+2}{1+4}=-\\frac45$.", marks: 1, markCode: "M" },
+            { reasoning: "$y-2=-\\frac45(x-1)$ → $4x+5y=14$.", marks: 1, markCode: "M" },
+            { reasoning: "Check: $1+2+4=7$ ✓ on curve; $4+10=14$ ✓ on line.", marks: 1, markCode: "A" },
+          ], finalAnswer: "$4x+5y=14$" },
         },
       ],
     },

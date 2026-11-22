@@ -49,12 +49,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Water has a high specific heat." },
-              { id: "b", text: "Water expands when it freezes." },
-              { id: "c", text: "Water is a good solvent for minerals." },
-              { id: "d", text: "Water molecules are non-polar." },
+              { id: "a", text: "Water molecules are non-polar." },
+              { id: "b", text: "Water has a high specific heat." },
+              { id: "c", text: "Water expands when it freezes." },
+              { id: "d", text: "Water is a good solvent for minerals." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -178,12 +178,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Negative feedback, because the ice disappears" },
-              { id: "b", text: "Positive feedback, because the change is amplified" },
-              { id: "c", text: "Not a feedback, because the cause is human" },
-              { id: "d", text: "Negative feedback, because the ocean cools the air" },
+              { id: "a", text: "Not a feedback, because the cause is human" },
+              { id: "b", text: "Negative feedback, because the ice disappears" },
+              { id: "c", text: "Negative feedback, because the ocean cools the air" },
+              { id: "d", text: "Positive feedback, because the change is amplified" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

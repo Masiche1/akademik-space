@@ -58,11 +58,11 @@ export const lesson22: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Oxygen and glucose" },
-              { id: "b", text: "Carbon dioxide and water" },
-              { id: "c", text: "Nitrogen and water" },
+              { id: "b", text: "Nitrogen and water" },
+              { id: "c", text: "Carbon dioxide and water" },
               { id: "d", text: "Oxygen and water" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -157,12 +157,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Carbon dioxide and water" },
-              { id: "b", text: "Glucose and oxygen" },
-              { id: "c", text: "Oxygen and water" },
+              { id: "a", text: "Glucose and oxygen" },
+              { id: "b", text: "Oxygen and water" },
+              { id: "c", text: "Carbon dioxide and water" },
               { id: "d", text: "Glucose and carbon dioxide" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -184,12 +184,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Root hairs" },
-              { id: "b", text: "Stomata" },
-              { id: "c", text: "Chloroplasts" },
-              { id: "d", text: "Xylem vessels" },
+              { id: "a", text: "Stomata" },
+              { id: "b", text: "Chloroplasts" },
+              { id: "c", text: "Xylem vessels" },
+              { id: "d", text: "Root hairs" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -212,11 +212,11 @@ export const lesson22: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "The factor that is always in shortest supply everywhere" },
-              { id: "b", text: "The factor in shortest supply that limits the rate of the process" },
-              { id: "c", text: "Any factor that affects the reaction" },
+              { id: "b", text: "Any factor that affects the reaction" },
+              { id: "c", text: "The factor in shortest supply that limits the rate of the process" },
               { id: "d", text: "The factor that is present in largest amount" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -294,12 +294,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Light intensity" },
+              { id: "a", text: "Wind speed" },
               { id: "b", text: "Temperature" },
-              { id: "c", text: "Carbon dioxide concentration" },
-              { id: "d", text: "Wind speed" },
+              { id: "c", text: "Light intensity" },
+              { id: "d", text: "Carbon dioxide concentration" },
             ],
-            correctChoiceId: "d",
+            correctChoiceIa: "d",
           },
           markscheme: {
             principles: [
@@ -321,12 +321,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "They receive no water" },
-              { id: "b", text: "They lack chlorophyll" },
+              { id: "a", text: "They block out the light" },
+              { id: "b", text: "They receive no water" },
               { id: "c", text: "They are dead tissue" },
-              { id: "d", text: "They block out the light" },
+              { id: "d", text: "They lack chlorophyll" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -387,12 +387,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It absorbs light energy to drive the reaction" },
-              { id: "b", text: "It stores glucose" },
-              { id: "c", text: "It absorbs carbon dioxide" },
-              { id: "d", text: "It releases oxygen directly" },
+              { id: "a", text: "It releases oxygen directly" },
+              { id: "b", text: "It absorbs carbon dioxide" },
+              { id: "c", text: "It absorbs light energy to drive the reaction" },
+              { id: "d", text: "It stores glucose" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -462,12 +462,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Glucose and oxygen" },
-              { id: "b", text: "Carbon dioxide and water" },
-              { id: "c", text: "Carbon dioxide, water and energy" },
+              { id: "a", text: "Carbon dioxide, water and energy" },
+              { id: "b", text: "Glucose and oxygen" },
+              { id: "c", text: "Carbon dioxide and water" },
               { id: "d", text: "Oxygen and energy" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -562,8 +562,8 @@ export const lesson22: Lesson = {
             choices: [
               { id: "a", text: "Glucose and oxygen" },
               { id: "b", text: "Carbon dioxide and water" },
-              { id: "c", text: "Oxygen and carbon dioxide" },
-              { id: "d", text: "Glucose and carbon dioxide" },
+              { id: "c", text: "Glucose and carbon dioxide" },
+              { id: "d", text: "Oxygen and carbon dioxide" },
             ],
             correctChoiceId: "a",
           },
@@ -588,9 +588,9 @@ export const lesson22: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Nucleus" },
-              { id: "b", text: "Chloroplast" },
+              { id: "b", text: "Ribosome" },
               { id: "c", text: "Mitochondrion" },
-              { id: "d", text: "Ribosome" },
+              { id: "d", text: "Chloroplast" },
             ],
             correctChoiceId: "c",
           },
@@ -614,12 +614,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Oxygen" },
-              { id: "b", text: "Hydrogen" },
-              { id: "c", text: "Carbon dioxide" },
+              { id: "a", text: "Hydrogen" },
+              { id: "b", text: "Carbon dioxide" },
+              { id: "c", text: "Oxygen" },
               { id: "d", text: "Nitrogen" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -678,10 +678,10 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Against the concentration gradient, using energy" },
+              { id: "a", text: "From low concentration to high concentration" },
               { id: "b", text: "From a high concentration to a low concentration" },
-              { id: "c", text: "Only through solids" },
-              { id: "d", text: "From low concentration to high concentration" },
+              { id: "c", text: "Against the concentration gradient, using energy" },
+              { id: "d", text: "Only through solids" },
             ],
             correctChoiceId: "b",
           },
@@ -705,12 +705,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "They are thick-walled and small" },
-              { id: "b", text: "They have thin walls, a large surface area and a moist lining" },
+              { id: "a", text: "They are filled with blood" },
+              { id: "b", text: "They are thick-walled and small" },
               { id: "c", text: "They produce oxygen directly" },
-              { id: "d", text: "They are filled with blood" },
+              { id: "d", text: "They have thin walls, a large surface area and a moist lining" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -789,12 +789,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Plants only photosynthesise and never respire" },
-              { id: "b", text: "Plants respire only at night" },
-              { id: "c", text: "Plants carry out both photosynthesis and respiration" },
+              { id: "a", text: "Plants respire only at night" },
+              { id: "b", text: "Plants carry out both photosynthesis and respiration" },
+              { id: "c", text: "Plants only photosynthesise and never respire" },
               { id: "d", text: "Plants do not need oxygen" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -816,12 +816,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Their reactants and products are reversed" },
-              { id: "b", text: "Both release energy" },
-              { id: "c", text: "They occur in the same organelle" },
-              { id: "d", text: "They only occur in animals" },
+              { id: "a", text: "They only occur in animals" },
+              { id: "b", text: "Their reactants and products are reversed" },
+              { id: "c", text: "Both release energy" },
+              { id: "d", text: "They occur in the same organelle" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [

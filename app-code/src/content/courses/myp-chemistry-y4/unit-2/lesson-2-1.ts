@@ -57,12 +57,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "To show conservation of mass — same atoms on both sides" },
+              { id: "a", text: "To show energy released" },
               { id: "b", text: "To make equations look neat" },
               { id: "c", text: "To increase reaction rate" },
-              { id: "d", text: "To show energy released" },
+              { id: "d", text: "To show conservation of mass — same atoms on both sides" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -86,8 +86,8 @@ export const lesson21: Lesson = {
             choices: [
               { id: "a", text: "2H₂ + O₂ → 2H₂O" },
               { id: "b", text: "H₂ + O₂ → H₂O" },
-              { id: "c", text: "H₂ + 2O₂ → 2H₂O" },
-              { id: "d", text: "2H₂ + 2O₂ → 2H₂O" },
+              { id: "c", text: "2H₂ + 2O₂ → 2H₂O" },
+              { id: "d", text: "H₂ + 2O₂ → 2H₂O" },
             ],
             correctChoiceId: "a",
           },
@@ -113,9 +113,9 @@ export const lesson21: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "C₃H₈ + 5O₂ → 3CO₂ + 4H₂O" },
-              { id: "b", text: "C₃H₈ + 4O₂ → 3CO₂ + 4H₂O" },
+              { id: "b", text: "C₃H₈ + 3O₂ → 3CO₂ + 4H₂O" },
               { id: "c", text: "C₃H₈ + 5O₂ → 2CO₂ + 4H₂O" },
-              { id: "d", text: "C₃H₈ + 3O₂ → 3CO₂ + 4H₂O" },
+              { id: "d", text: "C₃H₈ + 4O₂ → 3CO₂ + 4H₂O" },
             ],
             correctChoiceId: "a",
           },
@@ -173,9 +173,9 @@ export const lesson21: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Yields / produces" },
-              { id: "b", text: "Reacts with" },
-              { id: "c", text: "Is equal to" },
-              { id: "d", text: "Reverses" },
+              { id: "b", text: "Reverses" },
+              { id: "c", text: "Reacts with" },
+              { id: "d", text: "Is equal to" },
             ],
             correctChoiceId: "a",
           },
@@ -200,8 +200,8 @@ export const lesson21: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "N₂ + 3H₂ → 2NH₃" },
-              { id: "b", text: "N₂ + H₂ → NH₃" },
-              { id: "c", text: "2N₂ + 3H₂ → 2NH₃" },
+              { id: "b", text: "2N₂ + 3H₂ → 2NH₃" },
+              { id: "c", text: "N₂ + H₂ → NH₃" },
               { id: "d", text: "N₂ + 2H₂ → 2NH₃" },
             ],
             correctChoiceId: "a",
@@ -275,12 +275,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "2K + Cl₂ → 2KCl" },
+              { id: "a", text: "2K + Cl₂ → K₂Cl" },
               { id: "b", text: "K + Cl₂ → KCl" },
-              { id: "c", text: "K + 2Cl₂ → KCl₂" },
-              { id: "d", text: "2K + Cl₂ → K₂Cl" },
+              { id: "c", text: "2K + Cl₂ → 2KCl" },
+              { id: "d", text: "K + 2Cl₂ → KCl₂" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -330,12 +330,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Changing the formula changes the substance — water is H₂O, not H₂O₂" },
-              { id: "b", text: "Formulas cannot contain numbers" },
+              { id: "a", text: "Formulas cannot contain numbers" },
+              { id: "b", text: "It would still be unbalanced" },
               { id: "c", text: "H₂O₂ is heavier" },
-              { id: "d", text: "It would still be unbalanced" },
+              { id: "d", text: "Changing the formula changes the substance — water is H₂O, not H₂O₂" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -384,11 +384,11 @@ export const lesson21: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "2" },
-              { id: "b", text: "3" },
+              { id: "b", text: "5" },
               { id: "c", text: "4" },
-              { id: "d", text: "5" },
+              { id: "d", text: "3" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -526,12 +526,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Potassium (K)" },
+              { id: "a", text: "Iron (Fe)" },
               { id: "b", text: "Gold (Au)" },
-              { id: "c", text: "Copper (Cu)" },
-              { id: "d", text: "Iron (Fe)" },
+              { id: "c", text: "Potassium (K)" },
+              { id: "d", text: "Copper (Cu)" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -553,12 +553,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Zinc (above Cu in series)" },
-              { id: "b", text: "Gold (below Cu)" },
-              { id: "c", text: "Silver (below Cu)" },
-              { id: "d", text: "Copper itself" },
+              { id: "a", text: "Gold (below Cu)" },
+              { id: "b", text: "Zinc (above Cu in series)" },
+              { id: "c", text: "Copper itself" },
+              { id: "d", text: "Silver (below Cu)" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -581,12 +581,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Zn is above hydrogen in reactivity series so displaces H; Cu is below hydrogen so cannot" },
-              { id: "b", text: "Copper is too heavy" },
+              { id: "a", text: "Copper is too heavy" },
+              { id: "b", text: "Zn is above hydrogen in reactivity series so displaces H; Cu is below hydrogen so cannot" },
               { id: "c", text: "Acid only reacts with liquids" },
               { id: "d", text: "Zinc is an acid" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -641,12 +641,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Gold (Au)" },
-              { id: "b", text: "Potassium (K)" },
+              { id: "a", text: "Calcium (Ca)" },
+              { id: "b", text: "Gold (Au)" },
               { id: "c", text: "Sodium (Na)" },
-              { id: "d", text: "Calcium (Ca)" },
+              { id: "d", text: "Potassium (K)" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -668,12 +668,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Yes — Mg is above Zn in the reactivity series, so it displaces Zn" },
-              { id: "b", text: "No — Zn is more reactive" },
+              { id: "a", text: "No — Zn is more reactive" },
+              { id: "b", text: "Yes — Mg is above Zn in the reactivity series, so it displaces Zn" },
               { id: "c", text: "Only if heated" },
               { id: "d", text: "Yes — all metals displace each other" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -743,12 +743,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The blue solution fades and a brown/orange solid deposits on the iron" },
-              { id: "b", text: "The solution turns green" },
-              { id: "c", text: "Bubbles of gas form rapidly" },
-              { id: "d", text: "The iron dissolves completely" },
+              { id: "a", text: "The iron dissolves completely" },
+              { id: "b", text: "The blue solution fades and a brown/orange solid deposits on the iron" },
+              { id: "c", text: "The solution turns green" },
+              { id: "d", text: "Bubbles of gas form rapidly" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -796,8 +796,8 @@ export const lesson21: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Cu is below Fe in the reactivity series, so it cannot displace iron" },
-              { id: "b", text: "Copper is too expensive" },
-              { id: "c", text: "Iron sulfate is not a real compound" },
+              { id: "b", text: "Iron sulfate is not a real compound" },
+              { id: "c", text: "Copper is too expensive" },
               { id: "d", text: "Copper is a non-metal" },
             ],
             correctChoiceId: "a",

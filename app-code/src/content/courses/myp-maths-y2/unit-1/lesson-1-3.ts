@@ -57,10 +57,10 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "12 euros" },
+              { id: "a", text: "60 euros" },
               { id: "b", text: "15 euros" },
               { id: "c", text: "16 euros" },
-              { id: "d", text: "60 euros" },
+              { id: "d", text: "12 euros" },
             ],
             correctChoiceId: "b",
           },
@@ -164,12 +164,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "6.40 euros" },
-              { id: "b", text: "7.20 euros" },
+              { id: "a", text: "7.20 euros" },
+              { id: "b", text: "6.40 euros" },
               { id: "c", text: "9.00 euros" },
               { id: "d", text: "8.00 euros" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -191,12 +191,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "450 g" },
-              { id: "b", text: "600 g" },
-              { id: "c", text: "200 g" },
-              { id: "d", text: "350 g" },
+              { id: "a", text: "600 g" },
+              { id: "b", text: "450 g" },
+              { id: "c", text: "350 g" },
+              { id: "d", text: "200 g" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -257,11 +257,11 @@ export const lesson13: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "50 m" },
-              { id: "b", text: "500 m" },
-              { id: "c", text: "5 km" },
+              { id: "b", text: "5 km" },
+              { id: "c", text: "500 m" },
               { id: "d", text: "50 km" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -303,12 +303,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$50$ m" },
-              { id: "b", text: "$500$ m" },
+              { id: "a", text: "$500$ m" },
+              { id: "b", text: "$50$ m" },
               { id: "c", text: "$5$ km" },
               { id: "d", text: "$0.5$ km" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -371,12 +371,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Cost of apples and mass bought" },
-              { id: "b", text: "Number of workers and time to complete a fixed job" },
-              { id: "c", text: "Distance travelled and fuel used at a constant rate" },
-              { id: "d", text: "Map length and real length for a fixed scale" },
+              { id: "a", text: "Distance travelled and fuel used at a constant rate" },
+              { id: "b", text: "Map length and real length for a fixed scale" },
+              { id: "c", text: "Cost of apples and mass bought" },
+              { id: "d", text: "Number of workers and time to complete a fixed job" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -490,12 +490,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$75$ km/h" },
-              { id: "b", text: "$300$ km/h" },
+              { id: "a", text: "$300$ km/h" },
+              { id: "b", text: "$0.013$ km/h" },
               { id: "c", text: "$148$ km/h" },
-              { id: "d", text: "$0.013$ km/h" },
+              { id: "d", text: "$75$ km/h" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -598,12 +598,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$40$ km/h" },
-              { id: "b", text: "$360$ km/h" },
-              { id: "c", text: "$117$ km/h" },
-              { id: "d", text: "$0.025$ km/h" },
+              { id: "a", text: "$0.025$ km/h" },
+              { id: "b", text: "$117$ km/h" },
+              { id: "c", text: "$40$ km/h" },
+              { id: "d", text: "$360$ km/h" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -625,12 +625,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$4$ g/cm$^3$" },
-              { id: "b", text: "$0.25$ g/cm$^3$" },
-              { id: "c", text: "$10\\,000$ g/cm$^3$" },
-              { id: "d", text: "$150$ g/cm$^3$" },
+              { id: "a", text: "$0.25$ g/cm$^3$" },
+              { id: "b", text: "$4$ g/cm$^3$" },
+              { id: "c", text: "$150$ g/cm$^3$" },
+              { id: "d", text: "$10\\,000$ g/cm$^3$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -692,8 +692,8 @@ export const lesson13: Lesson = {
             choices: [
               { id: "a", text: "The 4-litre pack, because it is smaller" },
               { id: "b", text: "They cost the same per litre" },
-              { id: "c", text: "Neither; compare the total prices" },
-              { id: "d", text: "The 6-litre pack, because it is cheaper per litre" },
+              { id: "c", text: "The 6-litre pack, because it is cheaper per litre" },
+              { id: "d", text: "Neither; compare the total prices" },
             ],
             correctChoiceId: "b",
           },
@@ -737,12 +737,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$36$ km/h" },
-              { id: "b", text: "$2.78$ km/h" },
-              { id: "c", text: "$600$ km/h" },
+              { id: "a", text: "$600$ km/h" },
+              { id: "b", text: "$36$ km/h" },
+              { id: "c", text: "$2.78$ km/h" },
               { id: "d", text: "$3.6$ km/h" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -804,12 +804,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$30$ km" },
-              { id: "b", text: "$13.3$ km" },
+              { id: "a", text: "$13.3$ km" },
+              { id: "b", text: "$30$ km" },
               { id: "c", text: "$300$ km" },
               { id: "d", text: "$18.5$ km" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [

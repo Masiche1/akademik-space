@@ -57,12 +57,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "m" },
-              { id: "b", text: "m/s" },
+              { id: "a", text: "m/s" },
+              { id: "b", text: "m" },
               { id: "c", text: "m/s²" },
               { id: "d", text: "s/m" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Speed", statement: "Speed = distance/time, unit m/s." }],
@@ -82,12 +82,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "0.2 m/s" },
-              { id: "b", text: "5 m/s" },
+              { id: "a", text: "5 m/s" },
+              { id: "b", text: "0.2 m/s" },
               { id: "c", text: "30 m/s" },
               { id: "d", text: "180 m/s" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Speed", statement: "$s = d/t = 150/30$" }],
@@ -108,9 +108,9 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The object is stationary" },
+              { id: "a", text: "The object is accelerating at 12 m/s²" },
               { id: "b", text: "The object moves at constant velocity of 12 m/s" },
-              { id: "c", text: "The object is accelerating at 12 m/s²" },
+              { id: "c", text: "The object is stationary" },
               { id: "d", text: "The object moves backwards" },
             ],
             correctChoiceId: "b",
@@ -189,10 +189,10 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Velocity is speed without direction" },
+              { id: "a", text: "Velocity and speed are identical quantities" },
               { id: "b", text: "Velocity is speed in a given direction" },
-              { id: "c", text: "Velocity is measured in metres" },
-              { id: "d", text: "Velocity and speed are identical quantities" },
+              { id: "c", text: "Velocity is speed without direction" },
+              { id: "d", text: "Velocity is measured in metres" },
             ],
             correctChoiceId: "b",
           },
@@ -236,12 +236,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "40 m" },
-              { id: "b", text: "360 m" },
+              { id: "a", text: "360 m" },
+              { id: "b", text: "8.45 m" },
               { id: "c", text: "53 m" },
-              { id: "d", text: "8.45 m" },
+              { id: "d", text: "40 m" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Distance", statement: "$s = vt$ for constant speed." }],
@@ -262,12 +262,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It is speeding up" },
-              { id: "b", text: "It is slowing down (decelerating)" },
-              { id: "c", text: "It is stationary" },
-              { id: "d", text: "It is moving backwards" },
+              { id: "a", text: "It is slowing down (decelerating)" },
+              { id: "b", text: "It is moving backwards" },
+              { id: "c", text: "It is speeding up" },
+              { id: "d", text: "It is stationary" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Deceleration", statement: "Negative acceleration means velocity is decreasing." }],
@@ -341,11 +341,11 @@ export const lesson11: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "accelerating" },
-              { id: "b", text: "stationary" },
-              { id: "c", text: "moving at constant speed" },
-              { id: "d", text: "decelerating" },
+              { id: "b", text: "decelerating" },
+              { id: "c", text: "stationary" },
+              { id: "d", text: "moving at constant speed" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "d–t graph", statement: "Horizontal line = zero gradient = zero speed." }],
@@ -436,12 +436,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Stationary, then moving at constant speed" },
-              { id: "b", text: "Moving at constant speed, then stationary" },
-              { id: "c", text: "Stationary, then accelerating" },
-              { id: "d", text: "Accelerating throughout" },
+              { id: "a", text: "Accelerating throughout" },
+              { id: "b", text: "Stationary, then accelerating" },
+              { id: "c", text: "Moving at constant speed, then stationary" },
+              { id: "d", text: "Stationary, then moving at constant speed" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "d–t graph", statement: "Gradient = speed; increasing gradient = increasing speed." }],
@@ -495,12 +495,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Speed" },
-              { id: "b", text: "Acceleration" },
+              { id: "a", text: "Acceleration" },
+              { id: "b", text: "Speed" },
               { id: "c", text: "Distance" },
               { id: "d", text: "Force" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "v–t graph", statement: "Gradient = acceleration." }],
@@ -520,12 +520,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "20 m" },
-              { id: "b", text: "40 m" },
-              { id: "c", text: "10 m" },
-              { id: "d", text: "80 m" },
+              { id: "a", text: "80 m" },
+              { id: "b", text: "10 m" },
+              { id: "c", text: "40 m" },
+              { id: "d", text: "20 m" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Area under v–t", statement: "Triangle area = $\\frac{1}{2} \\times 4 \\times 10$" }],
@@ -547,11 +547,11 @@ export const lesson11: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "15 m/s upwards" },
-              { id: "b", text: "4.6 m/s downwards" },
+              { id: "b", text: "0 m/s" },
               { id: "c", text: "19.6 m/s upwards" },
-              { id: "d", text: "0 m/s" },
+              { id: "d", text: "4.6 m/s downwards" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "v = u + at", statement: "$v = 15 - 9.8 \\times 2$" }],
@@ -605,12 +605,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Acceleration" },
-              { id: "b", text: "Distance travelled" },
-              { id: "c", text: "Speed" },
-              { id: "d", text: "Force" },
+              { id: "a", text: "Force" },
+              { id: "b", text: "Acceleration" },
+              { id: "c", text: "Distance travelled" },
+              { id: "d", text: "Speed" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "v–t graph", statement: "Area under v–t graph = distance travelled." }],
@@ -674,12 +674,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "accelerating" },
-              { id: "b", text: "moving at constant speed" },
+              { id: "a", text: "decelerating" },
+              { id: "b", text: "accelerating" },
               { id: "c", text: "stationary" },
-              { id: "d", text: "decelerating" },
+              { id: "d", text: "moving at constant speed" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "d–t graph", statement: "Straight line = constant gradient = constant speed." }],
@@ -722,12 +722,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "2.5 m/s²" },
-              { id: "b", text: "5 m/s²" },
-              { id: "c", text: "10 m/s²" },
-              { id: "d", text: "40 m/s²" },
+              { id: "a", text: "5 m/s²" },
+              { id: "b", text: "40 m/s²" },
+              { id: "c", text: "2.5 m/s²" },
+              { id: "d", text: "10 m/s²" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "a = Δv/Δt", statement: "Acceleration = gradient of v–t graph." }],
@@ -778,12 +778,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "a horizontal line" },
-              { id: "b", text: "a vertical line" },
-              { id: "c", text: "a straight line with constant gradient" },
-              { id: "d", text: "a curve" },
+              { id: "a", text: "a vertical line" },
+              { id: "b", text: "a curve" },
+              { id: "c", text: "a horizontal line" },
+              { id: "d", text: "a straight line with constant gradient" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "v–t graph", statement: "Constant acceleration = constant gradient = straight sloping line." }],
@@ -871,11 +871,11 @@ export const lesson11: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Uniform acceleration throughout" },
-              { id: "b", text: "Accelerating, then constant velocity, then decelerating" },
-              { id: "c", text: "Constant velocity throughout" },
-              { id: "d", text: "Decelerating, then constant, then accelerating" },
+              { id: "b", text: "Decelerating, then constant, then accelerating" },
+              { id: "c", text: "Accelerating, then constant velocity, then decelerating" },
+              { id: "d", text: "Constant velocity throughout" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "v–t graph", statement: "Upward slope = acceleration; flat = constant velocity; downward slope = deceleration." }],

@@ -83,12 +83,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "2" },
+              { id: "a", text: "3" },
               { id: "b", text: "1" },
-              { id: "c", text: "3" },
-              { id: "d", text: "0" },
+              { id: "c", text: "0" },
+              { id: "d", text: "2" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -211,6 +211,434 @@ export const lesson42: Lesson = {
               },
             ],
             finalAnswer: "$N \\approx 135$",
+          },
+        },
+        {
+          id: "cipum-u4-de-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "The general solution of a first-order differential equation contains:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "One arbitrary constant" },
+              { id: "b", text: "No arbitrary constant" },
+              { id: "c", text: "Two arbitrary constants" },
+              { id: "d", text: "It depends on the equation" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "General solution",
+                statement:
+                  "Family of solutions containing an arbitrary constant.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "A first-order DE involves only dy/dx, so its general solution has one arbitrary constant.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "One arbitrary constant",
+          },
+        },
+        {
+          id: "cipum-u4-de-q6",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Which differential equation can be solved by separation of variables?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$\\frac{dy}{dx} = x + y$" },
+              { id: "b", text: "$\\frac{dy}{dx} = e^{x+y}$" },
+              { id: "c", text: "$\\frac{dy}{dx} = \\sin(x + y)$" },
+              { id: "d", text: "$\\frac{dy}{dx} = x^2y^3$" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Separation of variables",
+                statement:
+                  "$\\frac{dy}{dx} = f(x)g(y)$ can be separated into $\\frac{dy}{g(y)} = f(x)\\,dx$.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "Only $x^2y^3$ is a product of a function of $x$ and a function of $y$.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "$\\frac{dy}{dx} = x^2y^3$",
+          },
+        },
+        {
+          id: "cipum-u4-de-q7",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "Solve $\\frac{dy}{dx} = 3x^2$ given $y(0) = 1$. Find the value of $y$ when $x = 2$.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 9 }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Integration with IC",
+                statement: "Integrate, include +C, then apply the initial condition.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "$y = x^3 + C$; $y(0) = 1 \\Rightarrow C = 1$, so $y = x^3 + 1$.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "$y(2) = 2^3 + 1 = 9$.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "9",
+          },
+        },
+        {
+          id: "cipum-u4-de-q8",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "The general solution of $\\frac{dy}{dx} = \\frac{2y}{x}$ is:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$y = Ae^{2x}$" },
+              { id: "b", text: "$y = A\\ln x$" },
+              { id: "c", text: "$y = Ax^2$" },
+              { id: "d", text: "$y = Ax$" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Separation of variables",
+                statement: "Separate dy and dx, integrate both sides.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "$\\frac{dy}{y} = \\frac{2\\,dx}{x} \\Rightarrow \\ln|y| = 2\\ln|x| + C \\Rightarrow y = Ax^2$.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "$y = Ax^2$",
+          },
+        },
+        {
+          id: "cipum-u4-de-q9",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "The solution of $\\frac{dy}{dt} = ky$ is:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$y = A + kt$" },
+              { id: "b", text: "$y = Ae^{kt}$" },
+              { id: "c", text: "$y = Ak^t$" },
+              { id: "d", text: "$y = Ae^{-kt}$" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Exponential solution",
+                statement: "dy/dt = ky gives y = Aeᵏᵗ.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "Separating gives $\\frac{dy}{y} = k\\,dt \\Rightarrow \\ln|y| = kt + C \\Rightarrow y = Ae^{kt}$.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "$y = Ae^{kt}$",
+          },
+        },
+        {
+          id: "cipum-u4-de-q10",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "A quantity satisfies $\\frac{dN}{dt} = -0.2N$ with $N(0) = 500$. Find $N$ when $t = 10$.",
+          response: {
+            type: "numeric",
+            parts: [
+              { label: "a", answer: 67.7, tolerance: 0.05 },
+            ],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Exponential decay model",
+                statement: "dN/dt = −λN → N = N₀e⁻λᵗ.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "$N = 500e^{-0.2t}$.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "At $t = 10$: $N = 500e^{-2}$.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "$e^{-2} \\approx 0.1353 \\Rightarrow N \\approx 67.7$.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "$N \\approx 67.7$",
+          },
+        },
+        {
+          id: "cipum-u4-de-q11",
+          difficulty: "challenge",
+          totalMarks: 1,
+          stem: "The general solution of $\\frac{dy}{dx} = y^2$ is:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$y = \\frac{1}{x} + C$" },
+              { id: "b", text: "$y = -\\frac{1}{x + C}$" },
+              { id: "c", text: "$y = -\\frac{1}{x^2} + C$" },
+              { id: "d", text: "$y = e^x + C$" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Separation of variables",
+                statement: "Separate dy and dx, integrate both sides.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "$\\frac{dy}{y^2} = dx \\Rightarrow -\\frac{1}{y} = x + C \\Rightarrow y = -\\frac{1}{x+C}$.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "$y = -\\frac{1}{x + C}$",
+          },
+        },
+        {
+          id: "cipum-u4-de-q12",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "A hot drink cools according to $\\frac{dT}{dt} = -0.1(T - 20)$ with $T(0) = 80°\\text{C}$. Find its temperature after 20 minutes.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Newton's cooling model",
+                statement: "dT/dt = −k(T − T_env) → T = T_env + Ae⁻ᵏᵗ.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "$T = 20 + Ae^{-0.1t}$ — temperature approaches ambient 20°C.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "$T(0) = 80 \\Rightarrow 80 = 20 + A \\Rightarrow A = 60$.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "At $t = 20$: $T = 20 + 60e^{-2}$.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "$e^{-2} \\approx 0.1353 \\Rightarrow T \\approx 20 + 8.1 \\approx 28.1°\\text{C}$.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "$T \\approx 28.1°\\text{C}$",
+          },
+        },
+        {
+          id: "cipum-u4-de-q13",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "If $y = Ae^{2x} + Be^{-2x}$, then $y$ satisfies $y'' = ky$. Find the value of $k$.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 4 }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Differentiating exponentials",
+                statement:
+                  "Successive derivatives of $e^{kx}$ scale by powers of $k$.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "$y' = 2Ae^{2x} - 2Be^{-2x}$; $y'' = 4Ae^{2x} + 4Be^{-2x} = 4y$.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "So $k = 4$.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "$k = 4$",
+          },
+        },
+        {
+          id: "cipum-u4-de-q14",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "$\\frac{dy}{dx} = \\frac{x}{y}$ can be solved by:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "it cannot be solved analytically" },
+              { id: "b", text: "substituting $u = x + y$" },
+              { id: "c", text: "using an integrating factor" },
+              { id: "d", text: "separating the variables" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Separation of variables",
+                statement: "Separate dy and dx, integrate both sides.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "Rearranging gives $y\\,dy = x\\,dx$, which separates.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "Separating the variables",
+          },
+        },
+        {
+          id: "cipum-u4-de-q15",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "A population satisfies $\\frac{dP}{dt} = 0.05P$ with $P(0) = 1000$. Find the time at which $P = 2000$.",
+          response: {
+            type: "numeric",
+            parts: [
+              { label: "a", answer: 13.86, tolerance: 0.01 },
+            ],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Exponential growth model",
+                statement: "dP/dt = kP → P = P₀eᵏᵗ.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "$P = 1000e^{0.05t}$.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "$2000 = 1000e^{0.05t} \\Rightarrow e^{0.05t} = 2$.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "$t = \\frac{\\ln 2}{0.05} \\approx 13.86$.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "$t \\approx 13.86$",
+          },
+        },
+        {
+          id: "cipum-u4-de-q16",
+          difficulty: "challenge",
+          totalMarks: 3,
+          stem: "Solve $\\frac{dy}{dx} = \\frac{1}{x + 1}$ given $y(0) = 2$, and find the value of $y$ when $x = 3$.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Integration with IC",
+                statement: "Integrate, include +C, then apply the initial condition.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "$y = \\ln|x + 1| + C$.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "$y(0) = 2 \\Rightarrow C = 2$, so $y = \\ln(x + 1) + 2$.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "$y(3) = \\ln 4 + 2 \\approx 1.386 + 2 \\approx 3.39$.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "$y = \\ln(x+1) + 2$; $y(3) \\approx 3.39$",
           },
         },
       ],

@@ -57,12 +57,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Oxygen" },
-              { id: "b", text: "Air" },
-              { id: "c", text: "Carbon dioxide" },
+              { id: "a", text: "Air" },
+              { id: "b", text: "Carbon dioxide" },
+              { id: "c", text: "Oxygen" },
               { id: "d", text: "Sea water" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -157,9 +157,9 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Water" },
+              { id: "a", text: "Salt" },
               { id: "b", text: "Oxygen" },
-              { id: "c", text: "Salt" },
+              { id: "c", text: "Water" },
               { id: "d", text: "Carbon dioxide" },
             ],
             correctChoiceId: "b",
@@ -184,10 +184,10 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Water" },
+              { id: "a", text: "The solution" },
               { id: "b", text: "Salt" },
               { id: "c", text: "The beaker" },
-              { id: "d", text: "The solution" },
+              { id: "d", text: "Water" },
             ],
             correctChoiceId: "b",
           },
@@ -211,10 +211,10 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Distilled water" },
-              { id: "b", text: "Pure oxygen gas" },
+              { id: "a", text: "Carbon dioxide" },
+              { id: "b", text: "Distilled water" },
               { id: "c", text: "Air" },
-              { id: "d", text: "Carbon dioxide" },
+              { id: "d", text: "Pure oxygen gas" },
             ],
             correctChoiceId: "c",
           },
@@ -257,12 +257,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Burning paper" },
-              { id: "b", text: "Rusting iron" },
-              { id: "c", text: "Dissolving salt in water" },
+              { id: "a", text: "Rusting iron" },
+              { id: "b", text: "Dissolving salt in water" },
+              { id: "c", text: "Burning paper" },
               { id: "d", text: "Cooking an egg" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -484,12 +484,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Filtration" },
-              { id: "b", text: "Simple distillation" },
+              { id: "a", text: "Crystallisation" },
+              { id: "b", text: "Filtration" },
               { id: "c", text: "Chromatography" },
-              { id: "d", text: "Crystallisation" },
+              { id: "d", text: "Simple distillation" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -585,12 +585,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Filtration" },
-              { id: "b", text: "Evaporation" },
-              { id: "c", text: "Paper chromatography" },
-              { id: "d", text: "Magnetic separation" },
+              { id: "a", text: "Paper chromatography" },
+              { id: "b", text: "Magnetic separation" },
+              { id: "c", text: "Evaporation" },
+              { id: "d", text: "Filtration" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -613,11 +613,11 @@ export const lesson13: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Filtrate" },
-              { id: "b", text: "Distillate" },
-              { id: "c", text: "Residue" },
-              { id: "d", text: "Precipitate only" },
+              { id: "b", text: "Residue" },
+              { id: "c", text: "Precipitate only" },
+              { id: "d", text: "Distillate" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -639,12 +639,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The mass of the substance separated" },
-              { id: "b", text: "The ratio of the distance moved by the substance to the distance moved by the solvent" },
+              { id: "a", text: "The ratio of the distance moved by the substance to the distance moved by the solvent" },
+              { id: "b", text: "The mass of the substance separated" },
               { id: "c", text: "The colour of the substance" },
               { id: "d", text: "The time taken for the solvent to move" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -685,10 +685,10 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Boil the solution until completely dry" },
+              { id: "a", text: "Add more water and stir" },
               { id: "b", text: "Crystallisation: evaporate some water, then cool the saturated solution" },
-              { id: "c", text: "Filter the solution" },
-              { id: "d", text: "Add more water and stir" },
+              { id: "c", text: "Boil the solution until completely dry" },
+              { id: "d", text: "Filter the solution" },
             ],
             correctChoiceId: "b",
           },

@@ -87,18 +87,18 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "The first country to join the UN" },
+              { id: "b", text: "The last British colony" },
               {
-                id: "a",
+                id: "c",
                 text: "The first African country to gain independence",
               },
               {
-                id: "b",
+                id: "d",
                 text: "The first sub-Saharan colony to gain independence",
               },
-              { id: "c", text: "The last British colony" },
-              { id: "d", text: "The first country to join the UN" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -322,15 +322,15 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The end of all colonial empires" },
+              { id: "a", text: "The creation of the UN" },
+              { id: "b", text: "A permanent alliance against Germany" },
+              { id: "c", text: "The end of all colonial empires" },
               {
-                id: "b",
+                id: "d",
                 text: "Self-determination for peoples and no territorial aggrandisement",
               },
-              { id: "c", text: "A permanent alliance against Germany" },
-              { id: "d", text: "The creation of the UN" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -374,8 +374,8 @@ export const lesson32: Lesson = {
                 id: "b",
                 text: "Ghana's independence movement and first sub-Saharan independence (1957)",
               },
-              { id: "c", text: "The Algerian war of independence" },
-              { id: "d", text: "Kenya's Mau Mau uprising" },
+              { id: "c", text: "Kenya's Mau Mau uprising" },
+              { id: "d", text: "The Algerian war of independence" },
             ],
             correctChoiceId: "b",
           },
@@ -414,11 +414,11 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "1945" },
-              { id: "b", text: "1947" },
-              { id: "c", text: "1950" },
-              { id: "d", text: "1957" },
+              { id: "b", text: "1950" },
+              { id: "c", text: "1957" },
+              { id: "d", text: "1947" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -457,15 +457,15 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A hurricane that delayed independence" },
               {
-                id: "b",
+                id: "a",
                 text: "Harold Macmillan's 1960 declaration that African colonialism was ending",
               },
+              { id: "b", text: "The end of the Cold War" },
               { id: "c", text: "A Soviet propaganda campaign" },
-              { id: "d", text: "The end of the Cold War" },
+              { id: "d", text: "A hurricane that delayed independence" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -507,11 +507,11 @@ export const lesson32: Lesson = {
             choices: [
               {
                 id: "a",
-                text: "European powers voluntarily gave up empires out of generosity",
+                text: "The combination of European exhaustion, rising nationalism and international/UN pressure",
               },
               {
                 id: "b",
-                text: "The combination of European exhaustion, rising nationalism and international/UN pressure",
+                text: "European powers voluntarily gave up empires out of generosity",
               },
               {
                 id: "c",
@@ -522,7 +522,7 @@ export const lesson32: Lesson = {
                 text: "The League of Nations enforced decolonisation",
               },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -1004,12 +1004,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Founding the UN" },
-              { id: "b", text: "The rise of the Non-Aligned Movement" },
-              { id: "c", text: "The end of the Cold War" },
-              { id: "d", text: "The Suez Crisis" },
+              { id: "a", text: "The Suez Crisis" },
+              { id: "b", text: "The end of the Cold War" },
+              { id: "c", text: "The rise of the Non-Aligned Movement" },
+              { id: "d", text: "Founding the UN" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1221,10 +1221,10 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Bandung, 1955" },
+              { id: "a", text: "New York, 1945" },
               { id: "b", text: "Belgrade, 1961" },
-              { id: "c", text: "New York, 1945" },
-              { id: "d", text: "Moscow, 1956" },
+              { id: "c", text: "Moscow, 1956" },
+              { id: "d", text: "Bandung, 1955" },
             ],
             correctChoiceId: "b",
           },
@@ -1265,10 +1265,10 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Egypt" },
+              { id: "a", text: "Indonesia" },
               { id: "b", text: "India" },
-              { id: "c", text: "Yugoslavia" },
-              { id: "d", text: "Indonesia" },
+              { id: "c", text: "Egypt" },
+              { id: "d", text: "Yugoslavia" },
             ],
             correctChoiceId: "b",
           },
@@ -1306,12 +1306,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "1945" },
-              { id: "b", text: "1955" },
+              { id: "a", text: "1955" },
+              { id: "b", text: "1945" },
               { id: "c", text: "1961" },
               { id: "d", text: "1975" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -1347,15 +1347,15 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Military alliance with the USSR" },
+              { id: "a", text: "Recolonisation by Europe" },
+              { id: "b", text: "Military alliance with the USSR" },
               {
-                id: "b",
+                id: "c",
                 text: "Independence from both Cold War blocs through neutrality and South-South cooperation",
               },
-              { id: "c", text: "Recolonisation by Europe" },
               { id: "d", text: "Membership in NATO" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1392,15 +1392,15 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "They were forced to join NATO" },
               {
-                id: "b",
+                id: "a",
                 text: "Economic needs for aid, security threats, and aggressive superpower competition for influence",
               },
+              { id: "b", text: "They were forced to join NATO" },
               { id: "c", text: "They rejected all foreign assistance" },
               { id: "d", text: "The UN prohibited neutrality" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

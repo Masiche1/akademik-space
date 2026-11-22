@@ -52,11 +52,11 @@ export const lesson631: Lesson = {
           "choices": [
                     {
                               "id": "a",
-                              "text": "Source created at the time of events"
+                              "text": "Source created after events"
                     },
                     {
                               "id": "b",
-                              "text": "Source created after events"
+                              "text": "Source created at the time of events"
                     },
                     {
                               "id": "c",
@@ -67,7 +67,7 @@ export const lesson631: Lesson = {
                               "text": "A modern textbook"
                     }
           ],
-          "correctChoiceId": "a"
+          "correctChoiceId": "b"
 },
           markscheme: {
           "principles": [
@@ -213,6 +213,486 @@ export const lesson631: Lesson = {
                     }
           ],
           "finalAnswer": "Source analysis skills."
+},
+        },
+        {
+          id: "ciealhis-u3-src-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "A source written in 1960 describing events of 1914 is best described as:",
+          response: {
+          "type": "mcq",
+          "choices": [
+                    {
+                              "id": "a",
+                              "text": "A contemporary document"
+                    },
+                    {
+                              "id": "b",
+                              "text": "An eyewitness account"
+                    },
+                    {
+                              "id": "c",
+                              "text": "A secondary source"
+                    },
+                    {
+                              "id": "d",
+                              "text": "A primary source"
+                    }
+          ],
+          "correctChoiceId": "c"
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "definition",
+                              "name": "Secondary",
+                              "statement": "Later source."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "Created decades after the events, so it is secondary.",
+                              "marks": 1,
+                              "markCode": "M"
+                    }
+          ],
+          "finalAnswer": "**(a)** A secondary source"
+},
+        },
+        {
+          id: "ciealhis-u3-src-q6",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "A memoir published in 1965 describes events of 1918. How many years separate its publication from the events it describes?",
+          response: {
+          "type": "numeric",
+          "parts": [
+                    {
+                              "label": "a",
+                              "answer": 47
+                    }
+          ]
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "definition",
+                              "name": "Time gap",
+                              "statement": "Publication minus events."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "1965 - 1918 = 47 years.",
+                              "marks": 1,
+                              "markCode": "M"
+                    }
+          ],
+          "finalAnswer": "47"
+},
+        },
+        {
+          id: "ciealhis-u3-src-q7",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Reliability refers to a source's:",
+          response: {
+          "type": "mcq",
+          "choices": [
+                    {
+                              "id": "a",
+                              "text": "Age in years"
+                    },
+                    {
+                              "id": "b",
+                              "text": "Relevance to the question asked"
+                    },
+                    {
+                              "id": "c",
+                              "text": "Accuracy and trustworthiness"
+                    },
+                    {
+                              "id": "d",
+                              "text": "Length and detail"
+                    }
+          ],
+          "correctChoiceId": "c"
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "definition",
+                              "name": "Reliability",
+                              "statement": "Trustworthiness."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "Reliability means the source is accurate and trustworthy.",
+                              "marks": 1,
+                              "markCode": "M"
+                    }
+          ],
+          "finalAnswer": "**(a)** Accuracy and trustworthiness"
+},
+        },
+        {
+          id: "ciealhis-u3-src-q8",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Corroboration involves:",
+          response: {
+          "type": "mcq",
+          "choices": [
+                    {
+                              "id": "a",
+                              "text": "Ignoring conflicting evidence"
+                    },
+                    {
+                              "id": "b",
+                              "text": "Translating a source"
+                    },
+                    {
+                              "id": "c",
+                              "text": "Cross-checking sources against each other"
+                    },
+                    {
+                              "id": "d",
+                              "text": "Copying a source exactly"
+                    }
+          ],
+          "correctChoiceId": "c"
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "definition",
+                              "name": "Corroboration",
+                              "statement": "Cross-checking."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "Corroboration means cross-checking sources to verify accuracy.",
+                              "marks": 1,
+                              "markCode": "M"
+                    }
+          ],
+          "finalAnswer": "**(a)** Cross-checking sources"
+},
+        },
+        {
+          id: "ciealhis-u3-src-q9",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "A government report written in 1945 describes wartime events of 1943. How many years after the events was it written?",
+          response: {
+          "type": "numeric",
+          "parts": [
+                    {
+                              "label": "a",
+                              "answer": 2
+                    }
+          ]
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "fact",
+                              "name": "Time gap",
+                              "statement": "1945 vs 1943."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "1945 - 1943 = 2 years.",
+                              "marks": 1,
+                              "markCode": "M"
+                    }
+          ],
+          "finalAnswer": "2"
+},
+        },
+        {
+          id: "ciealhis-u3-src-q10",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "A source can be reliable but not useful when it is:",
+          response: {
+          "type": "mcq",
+          "choices": [
+                    {
+                              "id": "a",
+                              "text": "Accurate but does not address the question asked"
+                    },
+                    {
+                              "id": "b",
+                              "text": "Very old"
+                    },
+                    {
+                              "id": "c",
+                              "text": "A secondary source"
+                    },
+                    {
+                              "id": "d",
+                              "text": "Written by a biased author"
+                    }
+          ],
+          "correctChoiceId": "a"
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "principle",
+                              "name": "Reliability vs usefulness",
+                              "statement": "Trust vs relevance."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "Accuracy does not guarantee relevance to the question.",
+                              "marks": 1,
+                              "markCode": "M"
+                    }
+          ],
+          "finalAnswer": "**(a)** Accurate but off-topic"
+},
+        },
+        {
+          id: "ciealhis-u3-src-q11",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "The source-evaluation framework asks how many questions about a source's origin — who created it, when, why and for what purpose?",
+          response: {
+          "type": "numeric",
+          "parts": [
+                    {
+                              "label": "a",
+                              "answer": 4
+                    }
+          ]
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "technique",
+                              "name": "Source evaluation",
+                              "statement": "Origin questions."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "Who, when, why and purpose — four origin questions.",
+                              "marks": 1,
+                              "markCode": "M"
+                    }
+          ],
+          "finalAnswer": "4"
+},
+        },
+        {
+          id: "ciealhis-u3-src-q12",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "The intended audience of a source is important because it:",
+          response: {
+          "type": "mcq",
+          "choices": [
+                    {
+                              "id": "a",
+                              "text": "Shapes the content, tone and omissions"
+                    },
+                    {
+                              "id": "b",
+                              "text": "Proves the source is reliable"
+                    },
+                    {
+                              "id": "c",
+                              "text": "Has no effect on the source"
+                    },
+                    {
+                              "id": "d",
+                              "text": "Determines the publication date"
+                    }
+          ],
+          "correctChoiceId": "a"
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "principle",
+                              "name": "Audience",
+                              "statement": "Shapes content."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "Audience determines what is included, emphasised or omitted.",
+                              "marks": 1,
+                              "markCode": "M"
+                    }
+          ],
+          "finalAnswer": "**(a)** Shapes content, tone and omissions"
+},
+        },
+        {
+          id: "ciealhis-u3-src-q13",
+          difficulty: "core",
+          totalMarks: 4,
+          stem: "Analyse how a historian should evaluate a political speech as a source.",
+          response: {
+          "type": "open"
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "skill",
+                              "name": "Speech evaluation",
+                              "statement": "Purpose + bias."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "Identify speaker, occasion and intended audience.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "Consider purpose: persuasion, propaganda or record.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "Assess bias: speeches exaggerate and omit inconvenient facts.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "Use cautiously; corroborate with other sources.",
+                              "marks": 1,
+                              "markCode": "A"
+                    }
+          ],
+          "finalAnswer": "Consider speaker, purpose, audience and bias; corroborate"
+},
+        },
+        {
+          id: "ciealhis-u3-src-q14",
+          difficulty: "challenge",
+          totalMarks: 1,
+          stem: "Which statement best describes the reliability of primary versus secondary sources?",
+          response: {
+          "type": "mcq",
+          "choices": [
+                    {
+                              "id": "a",
+                              "text": "Primary sources are always more reliable"
+                    },
+                    {
+                              "id": "b",
+                              "text": "Neither type is automatically reliable; both require evaluation of purpose and bias"
+                    },
+                    {
+                              "id": "c",
+                              "text": "Primary sources need no evaluation"
+                    },
+                    {
+                              "id": "d",
+                              "text": "Secondary sources cannot be used in research"
+                    }
+          ],
+          "correctChoiceId": "b"
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "principle",
+                              "name": "Source types",
+                              "statement": "Both need evaluation."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "All sources have purpose, bias and limitations regardless of type.",
+                              "marks": 1,
+                              "markCode": "A"
+                    }
+          ],
+          "finalAnswer": "**(b)** Both require evaluation"
+},
+        },
+        {
+          id: "ciealhis-u3-src-q15",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "How many broad types of sources — primary and secondary — should historians use?",
+          response: {
+          "type": "numeric",
+          "parts": [
+                    {
+                              "label": "a",
+                              "answer": 2
+                    }
+          ]
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "definition",
+                              "name": "Sources",
+                              "statement": "Primary and secondary."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "Historians use two broad types: primary and secondary.",
+                              "marks": 1,
+                              "markCode": "M"
+                    }
+          ],
+          "finalAnswer": "2"
+},
+        },
+        {
+          id: "ciealhis-u3-src-q16",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "Evaluate the claim that 'a biased source is never useful to a historian.'",
+          response: {
+          "type": "open"
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "principle",
+                              "name": "Bias",
+                              "statement": "Does not equal useless."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "Bias distorts but does not eliminate evidential value.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "Biased sources reveal the perspective and motives of their creators.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "For some questions — e.g. propaganda — bias is itself the evidence.",
+                              "marks": 1,
+                              "markCode": "A"
+                    },
+                    {
+                              "reasoning": "Judgement: biased sources are useful if evaluated critically.",
+                              "marks": 1,
+                              "markCode": "A"
+                    }
+          ],
+          "finalAnswer": "Bias limits but does not eliminate usefulness"
 },
         },
       ],

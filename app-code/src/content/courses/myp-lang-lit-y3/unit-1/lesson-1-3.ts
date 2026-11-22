@@ -54,9 +54,9 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A pyramid-shaped building" },
+              { id: "a", text: "A type of headline" },
               { id: "b", text: "Most important facts first, then decreasing detail" },
-              { id: "c", text: "A type of headline" },
+              { id: "c", text: "A pyramid-shaped building" },
               { id: "d", text: "A pyramid scheme" },
             ],
             correctChoiceId: "b",
@@ -154,12 +154,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A dictionary entry" },
-              { id: "b", text: "A speech" },
+              { id: "a", text: "A speech" },
+              { id: "b", text: "A dictionary entry" },
               { id: "c", text: "A timetable" },
               { id: "d", text: "A set of instructions" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -179,12 +179,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Verdict first, then description" },
-              { id: "b", text: "Description, then evaluation, then verdict" },
-              { id: "c", text: "Only opinions, no description" },
-              { id: "d", text: "Quotes only" },
+              { id: "a", text: "Quotes only" },
+              { id: "b", text: "Verdict first, then description" },
+              { id: "c", text: "Description, then evaluation, then verdict" },
+              { id: "d", text: "Only opinions, no description" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -209,12 +209,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It uses direct address ('My fellow students')" },
-              { id: "b", text: "It has a headline" },
-              { id: "c", text: "It gives statistics" },
-              { id: "d", text: "It is printed in a newspaper" },
+              { id: "a", text: "It gives statistics" },
+              { id: "b", text: "It uses direct address ('My fellow students')" },
+              { id: "c", text: "It is printed in a newspaper" },
+              { id: "d", text: "It has a headline" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -239,12 +239,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It builds slowly to a surprising ending" },
-              { id: "b", text: "It gives the key fact first — closure, reason and date — then the resumption and apology" },
-              { id: "c", text: "It lists all library books alphabetically" },
-              { id: "d", text: "It argues a persuasive case in paragraphs" },
+              { id: "a", text: "It gives the key fact first — closure, reason and date — then the resumption and apology" },
+              { id: "b", text: "It argues a persuasive case in paragraphs" },
+              { id: "c", text: "It builds slowly to a surprising ending" },
+              { id: "d", text: "It lists all library books alphabetically" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -343,12 +343,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It gives a blanket recommendation to everyone" },
-              { id: "b", text: "It targets a specific audience rather than a universal verdict" },
-              { id: "c", text: "It avoids giving any opinion" },
-              { id: "d", text: "It repeats the review's title" },
+              { id: "a", text: "It targets a specific audience rather than a universal verdict" },
+              { id: "b", text: "It repeats the review's title" },
+              { id: "c", text: "It gives a blanket recommendation to everyone" },
+              { id: "d", text: "It avoids giving any opinion" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -400,12 +400,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Because ingredients are more important than steps" },
-              { id: "b", text: "Because the cook needs to know what to gather before starting — structure follows order of use" },
-              { id: "c", text: "Because recipes are always short" },
-              { id: "d", text: "Because ingredients come alphabetically" },
+              { id: "a", text: "Because the cook needs to know what to gather before starting — structure follows order of use" },
+              { id: "b", text: "Because ingredients are more important than steps" },
+              { id: "c", text: "Because ingredients come alphabetically" },
+              { id: "d", text: "Because recipes are always short" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -425,12 +425,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Describe → evaluate → verdict" },
-              { id: "b", text: "Inverted pyramid — most important facts first" },
+              { id: "a", text: "Inverted pyramid — most important facts first" },
+              { id: "b", text: "A stream of consciousness" },
               { id: "c", text: "A cast and crew list" },
-              { id: "d", text: "A stream of consciousness" },
+              { id: "d", text: "Describe → evaluate → verdict" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -506,8 +506,8 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A news report" },
-              { id: "b", text: "A recipe" },
+              { id: "a", text: "A recipe" },
+              { id: "b", text: "A news report" },
               { id: "c", text: "A speech" },
               { id: "d", text: "A dictionary entry" },
             ],
@@ -592,9 +592,9 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Font size" },
+              { id: "a", text: "Number of pages" },
               { id: "b", text: "Structure and language choices" },
-              { id: "c", text: "Number of pages" },
+              { id: "c", text: "Font size" },
               { id: "d", text: "Author's age" },
             ],
             correctChoiceId: "b",
@@ -617,12 +617,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A news report" },
-              { id: "b", text: "An advertisement" },
-              { id: "c", text: "A dictionary entry" },
-              { id: "d", text: "A train timetable" },
+              { id: "a", text: "An advertisement" },
+              { id: "b", text: "A dictionary entry" },
+              { id: "c", text: "A train timetable" },
+              { id: "d", text: "A news report" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -647,12 +647,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The notice" },
-              { id: "b", text: "The ad" },
-              { id: "c", text: "The report" },
-              { id: "d", text: "All three equally" },
+              { id: "a", text: "The ad" },
+              { id: "b", text: "All three equally" },
+              { id: "c", text: "The notice" },
+              { id: "d", text: "The report" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -672,12 +672,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Because advertisements must use more accurate facts" },
-              { id: "b", text: "Because the ad's purpose is to persuade — it would dramatise the benefit and call readers to action" },
-              { id: "c", text: "Because news reports are always shorter" },
-              { id: "d", text: "There would be no difference" },
+              { id: "a", text: "Because the ad's purpose is to persuade — it would dramatise the benefit and call readers to action" },
+              { id: "b", text: "Because advertisements must use more accurate facts" },
+              { id: "c", text: "There would be no difference" },
+              { id: "d", text: "Because news reports are always shorter" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -772,12 +772,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Because speeches are always shorter" },
-              { id: "b", text: "Because the purpose is to entertain and move listeners emotionally, not just inform them" },
-              { id: "c", text: "Because reports cannot be spoken" },
+              { id: "a", text: "Because reports cannot be spoken" },
+              { id: "b", text: "Because speeches are always shorter" },
+              { id: "c", text: "Because the purpose is to entertain and move listeners emotionally, not just inform them" },
               { id: "d", text: "Because toasts have no structure" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -829,10 +829,10 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It would be more suspenseful" },
+              { id: "a", text: "Nothing would change" },
               { id: "b", text: "Most readers would miss the key fact — the report would fail its purpose" },
-              { id: "c", text: "Nothing would change" },
-              { id: "d", text: "It would become a review" },
+              { id: "c", text: "It would become a review" },
+              { id: "d", text: "It would be more suspenseful" },
             ],
             correctChoiceId: "b",
           },
@@ -854,12 +854,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A speech — it can build emotional momentum and end with advice" },
-              { id: "b", text: "A report — it is always more factual" },
-              { id: "c", text: "A dictionary entry" },
-              { id: "d", text: "A timetable" },
+              { id: "a", text: "A timetable" },
+              { id: "b", text: "A dictionary entry" },
+              { id: "c", text: "A report — it is always more factual" },
+              { id: "d", text: "A speech — it can build emotional momentum and end with advice" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

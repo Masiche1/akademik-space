@@ -55,9 +55,9 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Blue to brick-red" },
+              { id: "a", text: "Blue to purple" },
               { id: "b", text: "Browny-orange to blue-black" },
-              { id: "c", text: "Blue to purple" },
+              { id: "c", text: "Blue to brick-red" },
               { id: "d", text: "Clear to cloudy white" },
             ],
             correctChoiceId: "b",
@@ -188,12 +188,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It is denatured because its active site changes shape" },
-              { id: "b", text: "It becomes inactive but returns to normal when cooled" },
+              { id: "a", text: "It works faster because its molecules move faster" },
+              { id: "b", text: "It is denatured because its active site changes shape" },
               { id: "c", text: "It is used up in the reaction" },
-              { id: "d", text: "It works faster because its molecules move faster" },
+              { id: "d", text: "It becomes inactive but returns to normal when cooled" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [

@@ -56,9 +56,9 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The weather is sunny today." },
+              { id: "a", text: "Today sunny it is." },
               { id: "b", text: "It is sunny today." },
-              { id: "c", text: "Today sunny it is." },
+              { id: "c", text: "The weather is sunny today." },
               { id: "d", text: "Sunny is it today." },
             ],
             correctChoiceId: "b",
@@ -152,12 +152,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "I like play football." },
-              { id: "b", text: "I like playing football." },
+              { id: "a", text: "I like playing football." },
+              { id: "b", text: "I like play football." },
               { id: "c", text: "I like to playing football." },
               { id: "d", text: "I liking football." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -180,11 +180,11 @@ export const lesson21: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "How the weather is?" },
-              { id: "b", text: "What's the weather like today?" },
+              { id: "b", text: "The weather how?" },
               { id: "c", text: "What weather today?" },
-              { id: "d", text: "The weather how?" },
+              { id: "d", text: "What's the weather like today?" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -206,12 +206,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The weather right now" },
-              { id: "b", text: "A prediction about tomorrow's weather" },
-              { id: "c", text: "Something that already happened" },
-              { id: "d", text: "A hobby" },
+              { id: "a", text: "Something that already happened" },
+              { id: "b", text: "A hobby" },
+              { id: "c", text: "The weather right now" },
+              { id: "d", text: "A prediction about tomorrow's weather" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -339,12 +339,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "I like swimming because it is fun." },
-              { id: "b", text: "I like swimming because fun." },
-              { id: "c", text: "I like swimming, because it fun." },
-              { id: "d", text: "Because it is fun I like swimming because." },
+              { id: "a", text: "I like swimming, because it fun." },
+              { id: "b", text: "Because it is fun I like swimming because." },
+              { id: "c", text: "I like swimming because it is fun." },
+              { id: "d", text: "I like swimming because fun." },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -397,10 +397,10 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "but" },
+              { id: "a", text: "so" },
               { id: "b", text: "because" },
-              { id: "c", text: "so" },
-              { id: "d", text: "or" },
+              { id: "c", text: "or" },
+              { id: "d", text: "but" },
             ],
             correctChoiceId: "b",
           },
@@ -514,10 +514,10 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "I walk usually to school." },
+              { id: "a", text: "I walk to usually school." },
               { id: "b", text: "I usually walk to school." },
               { id: "c", text: "Usually I to school walk." },
-              { id: "d", text: "I walk to usually school." },
+              { id: "d", text: "I walk usually to school." },
             ],
             correctChoiceId: "b",
           },
@@ -616,12 +616,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "I never am late." },
-              { id: "b", text: "I am never late." },
-              { id: "c", text: "Never I am late." },
-              { id: "d", text: "I am late never." },
+              { id: "a", text: "I am late never." },
+              { id: "b", text: "Never I am late." },
+              { id: "c", text: "I am never late." },
+              { id: "d", text: "I never am late." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -643,12 +643,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A holiday" },
-              { id: "b", text: "A routine" },
-              { id: "c", text: "A dream" },
-              { id: "d", text: "A party" },
+              { id: "a", text: "A routine" },
+              { id: "b", text: "A holiday" },
+              { id: "c", text: "A party" },
+              { id: "d", text: "A dream" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -670,12 +670,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "in the morning" },
-              { id: "b", text: "after school" },
-              { id: "c", text: "at night" },
-              { id: "d", text: "last week" },
+              { id: "a", text: "at night" },
+              { id: "b", text: "last week" },
+              { id: "c", text: "in the morning" },
+              { id: "d", text: "after school" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -803,12 +803,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "What time you get up?" },
-              { id: "b", text: "What time do you get up?" },
-              { id: "c", text: "You get up what time?" },
-              { id: "d", text: "What time get up you?" },
+              { id: "a", text: "What time get up you?" },
+              { id: "b", text: "You get up what time?" },
+              { id: "c", text: "What time do you get up?" },
+              { id: "d", text: "What time you get up?" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -861,12 +861,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "I walk to school always." },
-              { id: "b", text: "I always walk to school." },
-              { id: "c", text: "Always I walk to school." },
-              { id: "d", text: "I walk always to school." },
+              { id: "a", text: "I walk always to school." },
+              { id: "b", text: "Always I walk to school." },
+              { id: "c", text: "I walk to school always." },
+              { id: "d", text: "I always walk to school." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

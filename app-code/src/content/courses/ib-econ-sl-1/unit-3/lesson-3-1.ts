@@ -54,12 +54,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A producer receives a subsidy" },
-              { id: "b", text: "A third party bears a cost from the production" },
-              { id: "c", text: "Consumers pay a higher price" },
-              { id: "d", text: "The government taxes the output" },
+              { id: "a", text: "Consumers pay a higher price" },
+              { id: "b", text: "The government taxes the output" },
+              { id: "c", text: "A producer receives a subsidy" },
+              { id: "d", text: "A third party bears a cost from the production" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -153,12 +153,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Pollution from a coal-fired power station" },
-              { id: "b", text: "Second-hand smoke affecting non-smokers" },
-              { id: "c", text: "Vaccination protecting unvaccinated people through herd immunity" },
-              { id: "d", text: "Noise from a building site" },
+              { id: "a", text: "Noise from a building site" },
+              { id: "b", text: "Vaccination protecting unvaccinated people through herd immunity" },
+              { id: "c", text: "Second-hand smoke affecting non-smokers" },
+              { id: "d", text: "Pollution from a coal-fired power station" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -181,12 +181,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Less than the marginal private cost (MPC)" },
-              { id: "b", text: "Equal to the marginal private cost (MPC)" },
-              { id: "c", text: "Greater than the marginal private cost because it includes the external cost" },
-              { id: "d", text: "Always equal to the marginal social benefit" },
+              { id: "a", text: "Equal to the marginal private cost (MPC)" },
+              { id: "b", text: "Always equal to the marginal social benefit" },
+              { id: "c", text: "Less than the marginal private cost (MPC)" },
+              { id: "d", text: "Greater than the marginal private cost because it includes the external cost" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -209,10 +209,10 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Rivalrous and excludable" },
+              { id: "a", text: "Non-rivalrous and excludable" },
               { id: "b", text: "Non-rivalrous and non-excludable" },
-              { id: "c", text: "Rivalrous and non-excludable" },
-              { id: "d", text: "Non-rivalrous and excludable" },
+              { id: "c", text: "Rivalrous and excludable" },
+              { id: "d", text: "Rivalrous and non-excludable" },
             ],
             correctChoiceId: "b",
           },
@@ -237,12 +237,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Produce too little of the good" },
-              { id: "b", text: "Produce too much of the good" },
-              { id: "c", text: "Produce exactly the socially optimal quantity" },
-              { id: "d", text: "Produce too much only when demand is price inelastic" },
+              { id: "a", text: "Produce exactly the socially optimal quantity" },
+              { id: "b", text: "Produce too much only when demand is price inelastic" },
+              { id: "c", text: "Produce too much of the good" },
+              { id: "d", text: "Produce too little of the good" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -265,12 +265,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "MPC = MPB" },
-              { id: "b", text: "MSC = MSB" },
-              { id: "c", text: "MR = MC" },
-              { id: "d", text: "P = minimum ATC" },
+              { id: "a", text: "MSC = MSB" },
+              { id: "b", text: "MPC = MPB" },
+              { id: "c", text: "P = minimum ATC" },
+              { id: "d", text: "MR = MC" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -319,12 +319,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$7 per dose" },
+              { id: "a", text: "$3 per dose" },
               { id: "b", text: "$10 per dose" },
-              { id: "c", text: "$13 per dose" },
-              { id: "d", text: "$3 per dose" },
+              { id: "c", text: "$7 per dose" },
+              { id: "d", text: "$13 per dose" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -522,12 +522,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Buyers hide information before a transaction" },
-              { id: "b", text: "Behaviour changes after insurance because risk is covered" },
-              { id: "c", text: "A good has negative externalities" },
-              { id: "d", text: "Consumers underestimate benefits" },
+              { id: "a", text: "A good has negative externalities" },
+              { id: "b", text: "Consumers underestimate benefits" },
+              { id: "c", text: "Behaviour changes after insurance because risk is covered" },
+              { id: "d", text: "Buyers hide information before a transaction" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -620,12 +620,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Behaviour changing after a contract is signed" },
-              { id: "b", text: "Hidden information affecting a transaction before it occurs" },
-              { id: "c", text: "Over-consumption of a demerit good" },
-              { id: "d", text: "Free-riding on a public good" },
+              { id: "a", text: "Over-consumption of a demerit good" },
+              { id: "b", text: "Free-riding on a public good" },
+              { id: "c", text: "Behaviour changing after a contract is signed" },
+              { id: "d", text: "Hidden information affecting a transaction before it occurs" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -648,12 +648,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Under-consumed because its benefits are underestimated" },
-              { id: "b", text: "Over-consumed because its costs are underestimated" },
-              { id: "c", text: "Non-excludable and non-rivalrous" },
-              { id: "d", text: "Always provided free by the government" },
+              { id: "a", text: "Always provided free by the government" },
+              { id: "b", text: "Non-excludable and non-rivalrous" },
+              { id: "c", text: "Under-consumed because its benefits are underestimated" },
+              { id: "d", text: "Over-consumed because its costs are underestimated" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -678,8 +678,8 @@ export const lesson31: Lesson = {
             choices: [
               { id: "a", text: "A used-car seller hiding the vehicle's defects" },
               { id: "b", text: "An insured driver taking greater risks because the insurer pays for accidents" },
-              { id: "c", text: "A factory concealing its pollution from regulators" },
-              { id: "d", text: "Consumers ignoring health warnings on cigarette packets" },
+              { id: "c", text: "Consumers ignoring health warnings on cigarette packets" },
+              { id: "d", text: "A factory concealing its pollution from regulators" },
             ],
             correctChoiceId: "b",
           },
@@ -705,11 +705,11 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Moral hazard" },
-              { id: "b", text: "Adverse selection" },
-              { id: "c", text: "The free-rider problem" },
-              { id: "d", text: "A positive consumption externality" },
+              { id: "b", text: "A positive consumption externality" },
+              { id: "c", text: "Adverse selection" },
+              { id: "d", text: "The free-rider problem" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -732,12 +732,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "They are non-excludable" },
-              { id: "b", text: "Consumers underestimate their private and social benefits" },
+              { id: "a", text: "Consumers underestimate their private and social benefits" },
+              { id: "b", text: "They are non-excludable" },
               { id: "c", text: "They always create negative externalities" },
               { id: "d", text: "Producers charge the monopoly price" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -784,12 +784,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "0.67" },
-              { id: "b", text: "1.0" },
-              { id: "c", text: "1.5" },
-              { id: "d", text: "15" },
+              { id: "a", text: "15" },
+              { id: "b", text: "0.67" },
+              { id: "c", text: "1.0" },
+              { id: "d", text: "1.5" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [

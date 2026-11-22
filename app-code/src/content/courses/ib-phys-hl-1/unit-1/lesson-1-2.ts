@@ -86,12 +86,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$10$ N m" },
+              { id: "a", text: "$0.025$ N m" },
               { id: "b", text: "$40$ N m" },
-              { id: "c", text: "$0.025$ N m" },
-              { id: "d", text: "$100$ N m" },
+              { id: "c", text: "$100$ N m" },
+              { id: "d", text: "$10$ N m" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -318,12 +318,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "newton (N)" },
-              { id: "b", text: "newton metre (N m)" },
-              { id: "c", text: "joule (J)" },
+              { id: "a", text: "newton metre (N m)" },
+              { id: "b", text: "joule (J)" },
+              { id: "c", text: "newton (N)" },
               { id: "d", text: "watt (W)" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -362,11 +362,11 @@ export const lesson12: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$5.0$ N m" },
-              { id: "b", text: "$2.5$ N m" },
-              { id: "c", text: "$8.7$ N m" },
-              { id: "d", text: "$0$ N m" },
+              { id: "b", text: "$0$ N m" },
+              { id: "c", text: "$2.5$ N m" },
+              { id: "d", text: "$8.7$ N m" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -404,15 +404,15 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "two forces acting at the same point" },
-              { id: "b", text: "a single force through the pivot" },
               {
-                id: "c",
+                id: "a",
                 text: "two equal and opposite forces that produce rotation without translation",
               },
-              { id: "d", text: "a force and a torque acting together" },
+              { id: "b", text: "a force and a torque acting together" },
+              { id: "c", text: "a single force through the pivot" },
+              { id: "d", text: "two forces acting at the same point" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -451,12 +451,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$I = \\sum m^2 r$" },
-              { id: "b", text: "$I = \\sum mr^2$" },
-              { id: "c", text: "$I = \\frac{1}{2}MR^2$ always" },
+              { id: "a", text: "$I = \\sum mr^2$" },
+              { id: "b", text: "$I = \\frac{1}{2}MR^2$ always" },
+              { id: "c", text: "$I = \\sum m^2 r$" },
               { id: "d", text: "$I = \\sum m/r^2$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -1072,8 +1072,8 @@ export const lesson12: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$L = I\\omega$" },
-              { id: "b", text: "$L = mv$" },
-              { id: "c", text: "$L = Fd$" },
+              { id: "b", text: "$L = Fd$" },
+              { id: "c", text: "$L = mv$" },
               { id: "d", text: "$L = mvr^2$" },
             ],
             correctChoiceId: "a",
@@ -1297,12 +1297,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$L = I\\omega$" },
-              { id: "b", text: "$L = mvr$" },
-              { id: "c", text: "$L = mv^2/r$" },
+              { id: "a", text: "$L = mv^2/r$" },
+              { id: "b", text: "$L = I\\omega$" },
+              { id: "c", text: "$L = mvr$" },
               { id: "d", text: "$L = mgr$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1340,12 +1340,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\tau = I\\omega$" },
-              { id: "b", text: "$\\tau = \\frac{dL}{dt}$" },
-              { id: "c", text: "$\\tau = L\\omega$" },
-              { id: "d", text: "$\\tau = mvr$" },
+              { id: "a", text: "$\\tau = \\frac{dL}{dt}$" },
+              { id: "b", text: "$\\tau = L\\omega$" },
+              { id: "c", text: "$\\tau = mvr$" },
+              { id: "d", text: "$\\tau = I\\omega$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -1384,13 +1384,13 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "tangent to the rim of rotation" },
+              { id: "a", text: "always vertically downwards" },
               {
                 id: "b",
                 text: "along the axis of rotation, given by the right-hand rule",
               },
-              { id: "c", text: "always vertically downwards" },
-              { id: "d", text: "opposite to the direction of motion" },
+              { id: "c", text: "opposite to the direction of motion" },
+              { id: "d", text: "tangent to the rim of rotation" },
             ],
             correctChoiceId: "b",
           },
@@ -1432,14 +1432,14 @@ export const lesson12: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "the system is at rest" },
+              { id: "b", text: "the moment of inertia is constant" },
               {
-                id: "b",
+                id: "c",
                 text: "the net external torque on the system is zero",
               },
-              { id: "c", text: "the moment of inertia is constant" },
               { id: "d", text: "no forces act on the system" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

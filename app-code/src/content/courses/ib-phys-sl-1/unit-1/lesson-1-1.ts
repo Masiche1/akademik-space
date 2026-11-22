@@ -55,11 +55,11 @@ export const lesson11: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$2.5$ m/s" },
-              { id: "b", text: "$10$ m/s" },
+              { id: "b", text: "$20$ m/s" },
               { id: "c", text: "$7.5$ m/s" },
-              { id: "d", text: "$20$ m/s" },
+              { id: "d", text: "$10$ m/s" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "v = u + at", statement: "v = u + at" }],
@@ -80,12 +80,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$225$ m" },
-              { id: "b", text: "$450$ m" },
-              { id: "c", text: "$15$ m" },
-              { id: "d", text: "$112.5$ m" },
+              { id: "a", text: "$450$ m" },
+              { id: "b", text: "$15$ m" },
+              { id: "c", text: "$112.5$ m" },
+              { id: "d", text: "$225$ m" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "s = ut + ½at²", statement: "s = ut + \\frac{1}{2}at^2" }],
@@ -108,11 +108,11 @@ export const lesson11: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$9.81$ m/s" },
-              { id: "b", text: "$19.6$ m/s" },
+              { id: "b", text: "$4.90$ m/s" },
               { id: "c", text: "$39.2$ m/s" },
-              { id: "d", text: "$4.90$ m/s" },
+              { id: "d", text: "$19.6$ m/s" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "v² = u² + 2as", statement: "v^2 = u^2 + 2as" }],
@@ -167,12 +167,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$48$ m" },
-              { id: "b", text: "$96$ m" },
-              { id: "c", text: "$12$ m" },
-              { id: "d", text: "$24$ m" },
+              { id: "a", text: "$24$ m" },
+              { id: "b", text: "$12$ m" },
+              { id: "c", text: "$96$ m" },
+              { id: "d", text: "$48$ m" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "suvat equations", statement: "v = u + at; s = ut + \\frac{1}{2}at^2; s = \\frac{(u+v)}{2}t." }],
@@ -216,12 +216,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$125$ s" },
-              { id: "b", text: "$5.0$ s" },
-              { id: "c", text: "$0.20$ s" },
-              { id: "d", text: "$10$ s" },
+              { id: "a", text: "$5.0$ s" },
+              { id: "b", text: "$10$ s" },
+              { id: "c", text: "$125$ s" },
+              { id: "d", text: "$0.20$ s" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "v = u + at", statement: "v = u + at" }],
@@ -266,12 +266,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$11.5$ m" },
+              { id: "a", text: "$7.34$ m" },
               { id: "b", text: "$23.0$ m" },
-              { id: "c", text: "$7.34$ m" },
-              { id: "d", text: "$5.74$ m" },
+              { id: "c", text: "$5.74$ m" },
+              { id: "d", text: "$11.5$ m" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "v² = u² + 2as", statement: "v^2 = u^2 + 2as" }],
@@ -537,8 +537,8 @@ export const lesson11: Lesson = {
             choices: [
               { id: "a", text: "Acceleration" },
               { id: "b", text: "Distance travelled" },
-              { id: "c", text: "Speed" },
-              { id: "d", text: "Force" },
+              { id: "c", text: "Force" },
+              { id: "d", text: "Speed" },
             ],
             correctChoiceId: "b",
           },
@@ -562,9 +562,9 @@ export const lesson11: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$29.4$ m/s downwards" },
-              { id: "b", text: "$14.7$ m/s downwards" },
-              { id: "c", text: "$29.4$ m/s upwards" },
-              { id: "d", text: "$3.27$ m/s downwards" },
+              { id: "b", text: "$3.27$ m/s downwards" },
+              { id: "c", text: "$14.7$ m/s downwards" },
+              { id: "d", text: "$29.4$ m/s upwards" },
             ],
             correctChoiceId: "a",
           },
@@ -588,12 +588,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$128$ m" },
-              { id: "b", text: "$192$ m" },
-              { id: "c", text: "$64$ m" },
-              { id: "d", text: "$96$ m" },
+              { id: "a", text: "$64$ m" },
+              { id: "b", text: "$96$ m" },
+              { id: "c", text: "$192$ m" },
+              { id: "d", text: "$128$ m" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Area under v–t graph", statement: "Distance = area under velocity–time graph." }],
@@ -649,11 +649,11 @@ export const lesson11: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Distance travelled" },
-              { id: "b", text: "Acceleration" },
-              { id: "c", text: "Speed" },
-              { id: "d", text: "Time" },
+              { id: "b", text: "Time" },
+              { id: "c", text: "Acceleration" },
+              { id: "d", text: "Speed" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "v–t graph", statement: "Gradient = acceleration; area = displacement." }],
@@ -675,12 +675,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The object is accelerating" },
-              { id: "b", text: "The object moves at constant speed" },
+              { id: "a", text: "The object moves at constant speed" },
+              { id: "b", text: "The object is accelerating" },
               { id: "c", text: "The object is at rest" },
               { id: "d", text: "The object is decelerating" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "s–t graph", statement: "Gradient of distance–time graph = speed." }],
@@ -702,12 +702,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The gradient of the line" },
-              { id: "b", text: "The area under the line" },
+              { id: "a", text: "The area under the line" },
+              { id: "b", text: "The maximum value of the velocity" },
               { id: "c", text: "The intercept on the velocity axis" },
-              { id: "d", text: "The maximum value of the velocity" },
+              { id: "d", text: "The gradient of the line" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Area under v–t graph", statement: "Displacement = area under velocity–time graph." }],
@@ -796,12 +796,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$0.19$ m/s upwards" },
-              { id: "b", text: "$-0.19$ m/s" },
-              { id: "c", text: "$9.81$ m/s upwards" },
+              { id: "a", text: "$9.81$ m/s upwards" },
+              { id: "b", text: "$0.19$ m/s upwards" },
+              { id: "c", text: "$-0.19$ m/s" },
               { id: "d", text: "$19.6$ m/s downwards" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "v = u + at", statement: "v = u + at with a = -9.81 m/s² upwards positive." }],
@@ -921,12 +921,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The object is at rest" },
-              { id: "b", text: "The object moves with constant velocity" },
-              { id: "c", text: "The object has zero displacement" },
-              { id: "d", text: "The object is accelerating" },
+              { id: "a", text: "The object moves with constant velocity" },
+              { id: "b", text: "The object is at rest" },
+              { id: "c", text: "The object is accelerating" },
+              { id: "d", text: "The object has zero displacement" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "v–t graph", statement: "Horizontal line: dv/dt = 0, so velocity is constant." }],

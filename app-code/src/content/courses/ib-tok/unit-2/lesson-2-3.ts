@@ -52,10 +52,10 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Whether they follow a rule" },
+              { id: "a", text: "Divine command" },
               { id: "b", text: "Their outcomes or consequences" },
-              { id: "c", text: "The character of the agent" },
-              { id: "d", text: "Divine command" },
+              { id: "c", text: "Whether they follow a rule" },
+              { id: "d", text: "The character of the agent" },
             ],
             correctChoiceId: "b",
           },
@@ -147,10 +147,10 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Their consequences" },
+              { id: "a", text: "The wealth of the agent" },
               { id: "b", text: "Whether they conform to duty or rules" },
-              { id: "c", text: "The pleasure they produce" },
-              { id: "d", text: "The wealth of the agent" },
+              { id: "c", text: "Their consequences" },
+              { id: "d", text: "The pleasure they produce" },
             ],
             correctChoiceId: "b",
           },
@@ -174,8 +174,8 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "What rule was followed" },
-              { id: "b", text: "What outcome was produced" },
+              { id: "a", text: "What outcome was produced" },
+              { id: "b", text: "What rule was followed" },
               { id: "c", text: "What a person of good character would do" },
               { id: "d", text: "What the majority prefers" },
             ],
@@ -201,12 +201,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Some moral truths are universal" },
-              { id: "b", text: "Moral rightness depends on cultural or individual perspective" },
-              { id: "c", text: "Ethics can be proven mathematically" },
-              { id: "d", text: "All cultures share identical values" },
+              { id: "a", text: "Moral rightness depends on cultural or individual perspective" },
+              { id: "b", text: "All cultures share identical values" },
+              { id: "c", text: "Some moral truths are universal" },
+              { id: "d", text: "Ethics can be proven mathematically" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -228,12 +228,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Different cultures have different foods" },
-              { id: "b", text: "Moral emotions such as horror at cruelty appear across cultures" },
-              { id: "c", text: "Laws differ between countries" },
-              { id: "d", text: "Languages use different words" },
+              { id: "a", text: "Languages use different words" },
+              { id: "b", text: "Different cultures have different foods" },
+              { id: "c", text: "Moral emotions such as horror at cruelty appear across cultures" },
+              { id: "d", text: "Laws differ between countries" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -255,10 +255,10 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Mathematical proofs are universal" },
+              { id: "a", text: "Experiments can be replicated" },
               { id: "b", text: "Practices accepted in one culture may horrify another" },
-              { id: "c", text: "Experiments can be replicated" },
-              { id: "d", text: "Religions use sacred texts" },
+              { id: "c", text: "Religions use sacred texts" },
+              { id: "d", text: "Mathematical proofs are universal" },
             ],
             correctChoiceId: "b",
           },
@@ -283,11 +283,11 @@ export const lesson23: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Because moral claims are always true" },
-              { id: "b", text: "Because competing values, emotions and cultures shape moral judgement" },
-              { id: "c", text: "Because ethics has no questions" },
-              { id: "d", text: "Because reason is never used in ethics" },
+              { id: "b", text: "Because reason is never used in ethics" },
+              { id: "c", text: "Because competing values, emotions and cultures shape moral judgement" },
+              { id: "d", text: "Because ethics has no questions" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -465,10 +465,10 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Empirical experiment" },
+              { id: "a", text: "Statistical analysis" },
               { id: "b", text: "Faith and revelation" },
               { id: "c", text: "Deductive proof" },
-              { id: "d", text: "Statistical analysis" },
+              { id: "d", text: "Empirical experiment" },
             ],
             correctChoiceId: "b",
           },
@@ -560,10 +560,10 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Empirical facts only" },
+              { id: "a", text: "Revealed doctrine" },
               { id: "b", text: "Experience, meaning and aesthetic insight" },
               { id: "c", text: "Mathematical certainty" },
-              { id: "d", text: "Revealed doctrine" },
+              { id: "d", text: "Empirical facts only" },
             ],
             correctChoiceId: "b",
           },
@@ -588,11 +588,11 @@ export const lesson23: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Repeatable experiment" },
-              { id: "b", text: "Faith, revelation and tradition" },
-              { id: "c", text: "Statistical evidence" },
+              { id: "b", text: "Statistical evidence" },
+              { id: "c", text: "Faith, revelation and tradition" },
               { id: "d", text: "Deductive mathematics" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -614,9 +614,9 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "One of the five compulsory areas of knowledge" },
+              { id: "a", text: "A way of knowing" },
               { id: "b", text: "An optional theme for exploring how religion shapes knowledge" },
-              { id: "c", text: "A way of knowing" },
+              { id: "c", text: "One of the five compulsory areas of knowledge" },
               { id: "d", text: "A mathematical method" },
             ],
             correctChoiceId: "b",
@@ -642,11 +642,11 @@ export const lesson23: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Laboratory experiment" },
-              { id: "b", text: "Coherence, insight, resonance and interpretive judgement" },
-              { id: "c", text: "Mathematical proof" },
-              { id: "d", text: "Religious revelation alone" },
+              { id: "b", text: "Religious revelation alone" },
+              { id: "c", text: "Coherence, insight, resonance and interpretive judgement" },
+              { id: "d", text: "Mathematical proof" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -669,11 +669,11 @@ export const lesson23: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Make no sense within their traditions" },
-              { id: "b", text: "Can be checked by every observer" },
-              { id: "c", text: "Are coherent within a tradition but cannot be independently tested against reality" },
-              { id: "d", text: "Depend only on mathematics" },
+              { id: "b", text: "Are coherent within a tradition but cannot be independently tested against reality" },
+              { id: "c", text: "Depend only on mathematics" },
+              { id: "d", text: "Can be checked by every observer" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [

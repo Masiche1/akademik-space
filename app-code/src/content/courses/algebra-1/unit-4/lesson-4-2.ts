@@ -54,12 +54,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$6x^2(2x-3)$" },
-              { id: "b", text: "$6x(2x^2-3x)$" },
+              { id: "a", text: "$6x(2x^2-3x)$" },
+              { id: "b", text: "$6x^2(2x-3)$" },
               { id: "c", text: "$3x^2(4x-6)$" },
               { id: "d", text: "$6x^2(2x+3)$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -185,8 +185,8 @@ export const lesson42: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$(x-7)(x+7)$" },
-              { id: "b", text: "$(x-7)^2$" },
-              { id: "c", text: "$(x-49)(x+1)$" },
+              { id: "b", text: "$(x-49)(x+1)$" },
+              { id: "c", text: "$(x-7)^2$" },
               { id: "d", text: "$(x-7)(x-7)$" },
             ],
             correctChoiceId: "a",

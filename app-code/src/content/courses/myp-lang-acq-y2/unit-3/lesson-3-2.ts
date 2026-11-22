@@ -56,9 +56,9 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "where are you going." },
+              { id: "a", text: "Where are you going!" },
               { id: "b", text: "Where are you going?" },
-              { id: "c", text: "Where are you going!" },
+              { id: "c", text: "where are you going." },
               { id: "d", text: "where Are you going?" },
             ],
             correctChoiceId: "b",
@@ -153,12 +153,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "beleive" },
-              { id: "b", text: "believe" },
-              { id: "c", text: "beleve" },
+              { id: "a", text: "beleve" },
+              { id: "b", text: "beleive" },
+              { id: "c", text: "believe" },
               { id: "d", text: "beleeve" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -180,12 +180,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "What a fantastic goal!" },
-              { id: "b", text: "What a fantastic goal." },
-              { id: "c", text: "What a fantastic goal?" },
-              { id: "d", text: "What a fantastic goal," },
+              { id: "a", text: "What a fantastic goal?" },
+              { id: "b", text: "What a fantastic goal!" },
+              { id: "c", text: "What a fantastic goal," },
+              { id: "d", text: "What a fantastic goal." },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -207,12 +207,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "That is Toms bag." },
-              { id: "b", text: "That is Tom's bag." },
-              { id: "c", text: "That is Toms' bag." },
-              { id: "d", text: "That is the bag of Tom's of." },
+              { id: "a", text: "That is Toms' bag." },
+              { id: "b", text: "That is Toms bag." },
+              { id: "c", text: "That is the bag of Tom's of." },
+              { id: "d", text: "That is Tom's bag." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -326,10 +326,10 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The dog wagged it's tail." },
+              { id: "a", text: "The cat is happy. Its' very cute." },
               { id: "b", text: "The dog wagged its tail." },
               { id: "c", text: "Its raining today." },
-              { id: "d", text: "The cat is happy. Its' very cute." },
+              { id: "d", text: "The dog wagged it's tail." },
             ],
             correctChoiceId: "b",
           },
@@ -384,12 +384,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "I bought apples oranges and bananas." },
-              { id: "b", text: "I bought apples, oranges and bananas." },
-              { id: "c", text: "I bought, apples oranges and bananas." },
-              { id: "d", text: "I bought apples oranges, and bananas." },
+              { id: "a", text: "I bought, apples oranges and bananas." },
+              { id: "b", text: "I bought apples oranges, and bananas." },
+              { id: "c", text: "I bought apples oranges and bananas." },
+              { id: "d", text: "I bought apples, oranges and bananas." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -500,11 +500,11 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "To make the text longer" },
-              { id: "b", text: "To find and fix mistakes" },
-              { id: "c", text: "To change the topic" },
-              { id: "d", text: "To add pictures" },
+              { id: "b", text: "To change the topic" },
+              { id: "c", text: "To add pictures" },
+              { id: "d", text: "To find and fix mistakes" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -596,10 +596,10 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Check spelling only" },
+              { id: "a", text: "Add more sentences" },
               { id: "b", text: "Read your writing aloud" },
-              { id: "c", text: "Add more sentences" },
-              { id: "d", text: "Change the topic" },
+              { id: "c", text: "Change the topic" },
+              { id: "d", text: "Check spelling only" },
             ],
             correctChoiceId: "b",
           },
@@ -623,12 +623,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It makes the text shorter" },
-              { id: "b", text: "It stops your brain from auto-correcting, so wrong spellings stand out" },
-              { id: "c", text: "It changes the meaning" },
+              { id: "a", text: "It stops your brain from auto-correcting, so wrong spellings stand out" },
+              { id: "b", text: "It changes the meaning" },
+              { id: "c", text: "It makes the text shorter" },
               { id: "d", text: "It is faster than reading normally" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -650,12 +650,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A spelling error" },
-              { id: "b", text: "A punctuation error" },
-              { id: "c", text: "A verb agreement error (missing -s)" },
-              { id: "d", text: "No error" },
+              { id: "a", text: "No error" },
+              { id: "b", text: "A verb agreement error (missing -s)" },
+              { id: "c", text: "A spelling error" },
+              { id: "d", text: "A punctuation error" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -781,12 +781,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Whether the ideas are interesting" },
-              { id: "b", text: "Capitals at sentence starts and end marks" },
-              { id: "c", text: "The title colour" },
-              { id: "d", text: "Whether it is long enough" },
+              { id: "a", text: "Whether it is long enough" },
+              { id: "b", text: "Whether the ideas are interesting" },
+              { id: "c", text: "Capitals at sentence starts and end marks" },
+              { id: "d", text: "The title colour" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -840,11 +840,11 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "She don't like homework." },
-              { id: "b", text: "She doesn't like homework." },
-              { id: "c", text: "She not like homework." },
-              { id: "d", text: "She doesn't likes homework." },
+              { id: "b", text: "She not like homework." },
+              { id: "c", text: "She doesn't likes homework." },
+              { id: "d", text: "She doesn't like homework." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

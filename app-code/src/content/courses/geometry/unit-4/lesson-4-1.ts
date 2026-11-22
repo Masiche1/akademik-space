@@ -54,12 +54,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$32^\\circ$" },
-              { id: "b", text: "$64^\\circ$" },
-              { id: "c", text: "$116^\\circ$" },
-              { id: "d", text: "$296^\\circ$" },
+              { id: "a", text: "$64^\\circ$" },
+              { id: "b", text: "$116^\\circ$" },
+              { id: "c", text: "$296^\\circ$" },
+              { id: "d", text: "$32^\\circ$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -199,8 +199,8 @@ export const lesson41: Lesson = {
             choices: [
               { id: "a", text: "$55^\\circ$" },
               { id: "b", text: "$110^\\circ$" },
-              { id: "c", text: "$220^\\circ$" },
-              { id: "d", text: "$70^\\circ$" },
+              { id: "c", text: "$70^\\circ$" },
+              { id: "d", text: "$220^\\circ$" },
             ],
             correctChoiceId: "a",
           },

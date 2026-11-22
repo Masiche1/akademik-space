@@ -92,12 +92,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Profit maximisation" },
-              { id: "b", text: "Survival" },
-              { id: "c", text: "Market share growth" },
-              { id: "d", text: "Social objectives" },
+              { id: "a", text: "Social objectives" },
+              { id: "b", text: "Market share growth" },
+              { id: "c", text: "Survival" },
+              { id: "d", text: "Profit maximisation" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -327,8 +327,8 @@ export const lesson11: Lesson = {
                 id: "b",
                 text: "Earning adequate profit while pursuing other goals",
               },
-              { id: "c", text: "Avoiding all business risk" },
-              { id: "d", text: "Maximising revenue regardless of costs" },
+              { id: "c", text: "Maximising revenue regardless of costs" },
+              { id: "d", text: "Avoiding all business risk" },
             ],
             correctChoiceId: "b",
           },
@@ -371,9 +371,9 @@ export const lesson11: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Profit maximisation" },
-              { id: "b", text: "Market share growth" },
+              { id: "b", text: "Social objectives" },
               { id: "c", text: "Survival" },
-              { id: "d", text: "Social objectives" },
+              { id: "d", text: "Market share growth" },
             ],
             correctChoiceId: "c",
           },
@@ -414,12 +414,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Survival" },
-              { id: "b", text: "Short-term profit maximisation" },
-              { id: "c", text: "Long-term growth and competitiveness" },
-              { id: "d", text: "Dividend maximisation" },
+              { id: "a", text: "Dividend maximisation" },
+              { id: "b", text: "Long-term growth and competitiveness" },
+              { id: "c", text: "Short-term profit maximisation" },
+              { id: "d", text: "Survival" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -464,10 +464,10 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Economic objectives" },
+              { id: "a", text: "Survival objectives" },
               { id: "b", text: "Social objectives" },
               { id: "c", text: "Personal objectives of the owner" },
-              { id: "d", text: "Survival objectives" },
+              { id: "d", text: "Economic objectives" },
             ],
             correctChoiceId: "b",
           },
@@ -509,11 +509,11 @@ export const lesson11: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Rise" },
-              { id: "b", text: "Remain unchanged" },
-              { id: "c", text: "Fall" },
-              { id: "d", text: "Cannot be determined" },
+              { id: "b", text: "Fall" },
+              { id: "c", text: "Cannot be determined" },
+              { id: "d", text: "Remain unchanged" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -558,15 +558,15 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It always increases profit in the short term" },
+              { id: "a", text: "Dividends are not permitted for PLCs" },
+              { id: "b", text: "Shareholders never want dividends" },
+              { id: "c", text: "It always increases profit in the short term" },
               {
-                id: "b",
+                id: "d",
                 text: "Growth can raise their status, job security and career prospects",
               },
-              { id: "c", text: "Dividends are not permitted for PLCs" },
-              { id: "d", text: "Shareholders never want dividends" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -991,12 +991,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A shareholder" },
-              { id: "b", text: "A manager" },
-              { id: "c", text: "A supplier" },
+              { id: "a", text: "A supplier" },
+              { id: "b", text: "A shareholder" },
+              { id: "c", text: "A manager" },
               { id: "d", text: "An employee" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1213,12 +1213,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A customer" },
-              { id: "b", text: "A shareholder" },
-              { id: "c", text: "A supplier" },
+              { id: "a", text: "A shareholder" },
+              { id: "b", text: "A supplier" },
+              { id: "c", text: "A customer" },
               { id: "d", text: "The government" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -1258,12 +1258,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Quality products at fair prices" },
-              { id: "b", text: "Maximum dividends" },
-              { id: "c", text: "Low staff wages" },
+              { id: "a", text: "Low staff wages" },
+              { id: "b", text: "Quality products at fair prices" },
+              { id: "c", text: "Maximum dividends" },
               { id: "d", text: "Higher taxes" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1303,11 +1303,11 @@ export const lesson11: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Higher dividends for its shares" },
-              { id: "b", text: "Lower business taxes for itself" },
-              { id: "c", text: "Tax revenue, employment and legal compliance" },
-              { id: "d", text: "Free advertising for the state" },
+              { id: "b", text: "Free advertising for the state" },
+              { id: "c", text: "Lower business taxes for itself" },
+              { id: "d", text: "Tax revenue, employment and legal compliance" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1352,12 +1352,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Delayed or cancelled orders" },
-              { id: "b", text: "Reliable payment and long-term contracts" },
+              { id: "a", text: "Less competition for their products" },
+              { id: "b", text: "Delayed or cancelled orders" },
               { id: "c", text: "Higher interest rates" },
-              { id: "d", text: "Less competition for their products" },
+              { id: "d", text: "Reliable payment and long-term contracts" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1397,11 +1397,11 @@ export const lesson11: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Its shareholders" },
-              { id: "b", text: "Its managers" },
-              { id: "c", text: "The local community" },
-              { id: "d", text: "Its suppliers" },
+              { id: "b", text: "The local community" },
+              { id: "c", text: "Its suppliers" },
+              { id: "d", text: "Its managers" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [

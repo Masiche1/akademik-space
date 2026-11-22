@@ -49,12 +49,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Oxidation Is Loss, Reduction Is Gain" },
+              { id: "a", text: "Oxidation Involves Light" },
               { id: "b", text: "Oxidation Is Gain, Reduction Is Loss" },
-              { id: "c", text: "Only Ionic Losses Gain" },
-              { id: "d", text: "Oxidation Involves Light" },
+              { id: "c", text: "Oxidation Is Loss, Reduction Is Gain" },
+              { id: "d", text: "Only Ionic Losses Gain" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "OIL RIG", statement: "Oxidation = electron loss." }],
@@ -164,12 +164,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Right" },
-              { id: "b", text: "Left" },
-              { id: "c", text: "Both" },
-              { id: "d", text: "Neither" },
+              { id: "a", text: "Both" },
+              { id: "b", text: "Neither" },
+              { id: "c", text: "Left" },
+              { id: "d", text: "Right" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Reduction", statement: "Gains electrons — e⁻ on left." }],

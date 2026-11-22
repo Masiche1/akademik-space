@@ -59,8 +59,8 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "12" },
-              { id: "b", text: "16" },
-              { id: "c", text: "32" },
+              { id: "b", text: "32" },
+              { id: "c", text: "16" },
               { id: "d", text: "6" },
             ],
             correctChoiceId: "a",
@@ -85,12 +85,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "0" },
-              { id: "b", text: "2" },
-              { id: "c", text: "$-2$" },
-              { id: "d", text: "12" },
+              { id: "a", text: "$-2$" },
+              { id: "b", text: "12" },
+              { id: "c", text: "2" },
+              { id: "d", text: "0" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -113,12 +113,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Extrapolation beyond the data range is unreliable" },
-              { id: "b", text: "The regression line is always accurate" },
-              { id: "c", text: "Positive correlation means negative prediction" },
-              { id: "d", text: "50° is too hot for ice cream" },
+              { id: "a", text: "The regression line is always accurate" },
+              { id: "b", text: "50° is too hot for ice cream" },
+              { id: "c", text: "Extrapolation beyond the data range is unreliable" },
+              { id: "d", text: "Positive correlation means negative prediction" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -174,12 +174,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\frac{n}{2}$" },
-              { id: "b", text: "$\\frac{n}{4}$" },
-              { id: "c", text: "$n$" },
+              { id: "a", text: "$\\frac{n}{4}$" },
+              { id: "b", text: "$n$" },
+              { id: "c", text: "$\\frac{n}{2}$" },
               { id: "d", text: "$\\frac{3n}{4}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -218,12 +218,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "11" },
-              { id: "b", text: "7" },
-              { id: "c", text: "14" },
-              { id: "d", text: "5" },
+              { id: "a", text: "7" },
+              { id: "b", text: "14" },
+              { id: "c", text: "5" },
+              { id: "d", text: "11" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -264,12 +264,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Predicting $y$ at $x=10$ (interpolation)" },
-              { id: "b", text: "Predicting $y$ at $x=50$ (extrapolation)" },
-              { id: "c", text: "Predicting $y$ at $x=-5$" },
-              { id: "d", text: "All predictions are equally reliable" },
+              { id: "a", text: "All predictions are equally reliable" },
+              { id: "b", text: "Predicting $y$ at $x=10$ (interpolation)" },
+              { id: "c", text: "Predicting $y$ at $x=50$ (extrapolation)" },
+              { id: "d", text: "Predicting $y$ at $x=-5$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -311,9 +311,9 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "The point with the largest absolute residual" },
-              { id: "b", text: "The point closest to the regression line" },
+              { id: "b", text: "The point with the smallest $y$-value" },
               { id: "c", text: "The point with the largest $x$-value" },
-              { id: "d", text: "The point with the smallest $y$-value" },
+              { id: "d", text: "The point closest to the regression line" },
             ],
             correctChoiceId: "a",
           },
@@ -448,12 +448,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "As $x$ increases, $y$ tends to increase" },
-              { id: "b", text: "As $x$ increases, $y$ tends to decrease" },
+              { id: "a", text: "As $x$ increases, $y$ tends to decrease" },
+              { id: "b", text: "$y$ is constant" },
               { id: "c", text: "There is no relationship" },
-              { id: "d", text: "$y$ is constant" },
+              { id: "d", text: "As $x$ increases, $y$ tends to increase" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -509,12 +509,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "0.12" },
+              { id: "a", text: "0.34" },
               { id: "b", text: "0.7" },
-              { id: "c", text: "0.12%" },
-              { id: "d", text: "0.34" },
+              { id: "c", text: "0.12" },
+              { id: "d", text: "0.12%" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -536,12 +536,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\frac{5}{9}$" },
-              { id: "b", text: "$\\frac{4}{9}$" },
-              { id: "c", text: "$\\frac{3}{9}$" },
-              { id: "d", text: "$\\frac{2}{9}$" },
+              { id: "a", text: "$\\frac{4}{9}$" },
+              { id: "b", text: "$\\frac{5}{9}$" },
+              { id: "c", text: "$\\frac{2}{9}$" },
+              { id: "d", text: "$\\frac{3}{9}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -564,12 +564,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\frac{10}{25}=0.4$" },
-              { id: "b", text: "$\\frac{10}{30}=0.333$" },
+              { id: "a", text: "$\\frac{10}{30}=0.333$" },
+              { id: "b", text: "$\\frac{25}{30}=0.833$" },
               { id: "c", text: "$0.1$" },
-              { id: "d", text: "$\\frac{25}{30}=0.833$" },
+              { id: "d", text: "$\\frac{10}{25}=0.4$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -695,12 +695,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$P(A\\mid B)=\\dfrac{P(A\\cap B)}{P(B)}$" },
-              { id: "b", text: "$P(A\\mid B)=P(A)\\times P(B)$" },
-              { id: "c", text: "$P(A\\mid B)=\\dfrac{P(B)}{P(A\\cap B)}$" },
+              { id: "a", text: "$P(A\\mid B)=\\dfrac{P(B)}{P(A\\cap B)}$" },
+              { id: "b", text: "$P(A\\mid B)=\\dfrac{P(A\\cap B)}{P(B)}$" },
+              { id: "c", text: "$P(A\\mid B)=P(A)\\times P(B)$" },
               { id: "d", text: "$P(A\\mid B)=P(A)+P(B)$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -741,12 +741,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "0.4" },
-              { id: "b", text: "0.1" },
-              { id: "c", text: "0.25" },
-              { id: "d", text: "0.7" },
+              { id: "a", text: "0.25" },
+              { id: "b", text: "0.4" },
+              { id: "c", text: "0.7" },
+              { id: "d", text: "0.1" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -848,12 +848,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\frac{1}{6}$" },
-              { id: "b", text: "$\\frac{1}{12}$" },
-              { id: "c", text: "$\\frac{1}{36}$" },
+              { id: "a", text: "$\\frac{1}{12}$" },
+              { id: "b", text: "$\\frac{1}{36}$" },
+              { id: "c", text: "$\\frac{1}{6}$" },
               { id: "d", text: "$\\frac{7}{36}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -877,12 +877,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "1.7" },
-              { id: "b", text: "1.0" },
+              { id: "a", text: "1.0" },
+              { id: "b", text: "1.7" },
               { id: "c", text: "2.7" },
               { id: "d", text: "0.7" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [

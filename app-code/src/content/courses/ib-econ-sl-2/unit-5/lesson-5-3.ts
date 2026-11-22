@@ -54,12 +54,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Growth and employment" },
-              { id: "b", text: "Low inflation and low unemployment" },
-              { id: "c", text: "Exports and imports" },
-              { id: "d", text: "Government spending and taxation" },
+              { id: "a", text: "Low inflation and low unemployment" },
+              { id: "b", text: "Government spending and taxation" },
+              { id: "c", text: "Growth and employment" },
+              { id: "d", text: "Exports and imports" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -152,12 +152,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Economic growth and inflation" },
-              { id: "b", text: "Inflation and unemployment" },
-              { id: "c", text: "Exports and imports" },
-              { id: "d", text: "Saving and investment" },
+              { id: "a", text: "Saving and investment" },
+              { id: "b", text: "Economic growth and inflation" },
+              { id: "c", text: "Inflation and unemployment" },
+              { id: "d", text: "Exports and imports" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -180,10 +180,10 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A balanced government budget" },
+              { id: "a", text: "High GDP growth at any cost" },
               { id: "b", text: "Low unemployment and stable prices" },
               { id: "c", text: "A trade surplus" },
-              { id: "d", text: "High GDP growth at any cost" },
+              { id: "d", text: "A balanced government budget" },
             ],
             correctChoiceId: "b",
           },
@@ -208,12 +208,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Growth always reduces pollution" },
-              { id: "b", text: "Increased production may cause pollution and resource depletion" },
-              { id: "c", text: "Environmental policy has no costs" },
+              { id: "a", text: "Increased production may cause pollution and resource depletion" },
+              { id: "b", text: "Environmental policy has no costs" },
+              { id: "c", text: "Growth always reduces pollution" },
               { id: "d", text: "Growth is impossible to achieve" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -236,12 +236,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Any inflation rate is possible at the natural rate of unemployment" },
+              { id: "a", text: "Demand management policy is always effective" },
               { id: "b", text: "Low inflation always means high unemployment" },
-              { id: "c", text: "Demand management policy is always effective" },
+              { id: "c", text: "Any inflation rate is possible at the natural rate of unemployment" },
               { id: "d", text: "Economic growth must stop" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -405,12 +405,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Inflation is exactly zero" },
-              { id: "b", text: "The current account position is sustainable" },
-              { id: "c", text: "Unemployment equals the natural rate" },
+              { id: "a", text: "The current account position is sustainable" },
+              { id: "b", text: "Unemployment equals the natural rate" },
+              { id: "c", text: "Inflation is exactly zero" },
               { id: "d", text: "The budget is balanced" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -433,10 +433,10 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Can still set interest rates freely" },
+              { id: "a", text: "Must abandon all international trade" },
               { id: "b", text: "Cannot conduct fully independent monetary policy" },
               { id: "c", text: "Can have all three simultaneously" },
-              { id: "d", text: "Must abandon all international trade" },
+              { id: "d", text: "Can still set interest rates freely" },
             ],
             correctChoiceId: "b",
           },
@@ -492,12 +492,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Increase aggregate demand" },
-              { id: "b", text: "Increase productive capacity (shift AS right)" },
+              { id: "a", text: "Lower interest rates" },
+              { id: "b", text: "Increase aggregate demand" },
               { id: "c", text: "Reduce the money supply" },
-              { id: "d", text: "Lower interest rates" },
+              { id: "d", text: "Increase productive capacity (shift AS right)" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -591,12 +591,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Shift aggregate demand to the left" },
-              { id: "b", text: "Increase productive capacity — shift AS to the right" },
-              { id: "c", text: "Reduce the money supply" },
-              { id: "d", text: "Set interest rates" },
+              { id: "a", text: "Increase productive capacity — shift AS to the right" },
+              { id: "b", text: "Set interest rates" },
+              { id: "c", text: "Shift aggregate demand to the left" },
+              { id: "d", text: "Reduce the money supply" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -619,12 +619,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Raising interest rates" },
-              { id: "b", text: "Increasing government transfers" },
-              { id: "c", text: "Investing in education and training" },
+              { id: "a", text: "Increasing government transfers" },
+              { id: "b", text: "Investing in education and training" },
+              { id: "c", text: "Raising interest rates" },
               { id: "d", text: "Cutting corporation tax to boost consumption" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -649,8 +649,8 @@ export const lesson53: Lesson = {
             choices: [
               { id: "a", text: "Introducing more employment protection rules" },
               { id: "b", text: "Removing barriers so markets are more flexible and competitive" },
-              { id: "c", text: "Nationalising private firms" },
-              { id: "d", text: "Raising corporation tax" },
+              { id: "c", text: "Raising corporation tax" },
+              { id: "d", text: "Nationalising private firms" },
             ],
             correctChoiceId: "b",
           },
@@ -675,12 +675,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Tax cuts always reduce government revenue" },
-              { id: "b", text: "There may be an optimal tax rate beyond which higher taxes reduce revenue via weaker incentives" },
-              { id: "c", text: "Taxes do not affect behaviour" },
-              { id: "d", text: "Government revenue is fixed regardless of tax rates" },
+              { id: "a", text: "There may be an optimal tax rate beyond which higher taxes reduce revenue via weaker incentives" },
+              { id: "b", text: "Taxes do not affect behaviour" },
+              { id: "c", text: "Government revenue is fixed regardless of tax rates" },
+              { id: "d", text: "Tax cuts always reduce government revenue" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -843,10 +843,10 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Growth with permanently zero inflation" },
+              { id: "a", text: "Growth funded entirely by government borrowing" },
               { id: "b", text: "Rising output without a rising price level" },
-              { id: "c", text: "Growth funded entirely by government borrowing" },
-              { id: "d", text: "Falling unemployment with no output change" },
+              { id: "c", text: "Falling unemployment with no output change" },
+              { id: "d", text: "Growth with permanently zero inflation" },
             ],
             correctChoiceId: "b",
           },

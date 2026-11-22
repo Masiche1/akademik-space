@@ -59,8 +59,8 @@ export const lesson23: Lesson = {
             choices: [
               { id: "a", text: "metres" },
               { id: "b", text: "hertz" },
-              { id: "c", text: "seconds" },
-              { id: "d", text: "joules" },
+              { id: "c", text: "joules" },
+              { id: "d", text: "seconds" },
             ],
             correctChoiceId: "b",
           },
@@ -83,9 +83,9 @@ export const lesson23: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "0.75 m" },
-              { id: "b", text: "145 200 m" },
+              { id: "b", text: "1.33 m" },
               { id: "c", text: "0.0013 m" },
-              { id: "d", text: "1.33 m" },
+              { id: "d", text: "145 200 m" },
             ],
             correctChoiceId: "a",
           },
@@ -108,12 +108,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Both need a medium to travel" },
-              { id: "b", text: "Sound is longitudinal, light is transverse; only sound needs a medium" },
+              { id: "a", text: "Sound is longitudinal, light is transverse; only sound needs a medium" },
+              { id: "b", text: "Both need a medium to travel" },
               { id: "c", text: "Both travel at the same speed in air" },
               { id: "d", text: "Light is longitudinal, sound is transverse" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Wave types", statement: "Sound = longitudinal mechanical; light = transverse EM." }],
@@ -166,12 +166,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "hertz" },
-              { id: "b", text: "metres" },
-              { id: "c", text: "seconds" },
-              { id: "d", text: "m/s" },
+              { id: "a", text: "metres" },
+              { id: "b", text: "seconds" },
+              { id: "c", text: "m/s" },
+              { id: "d", text: "hertz" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Wavelength", statement: "$\\lambda$ is a distance → metres." }],
@@ -235,12 +235,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Transverse" },
-              { id: "b", text: "Longitudinal" },
-              { id: "c", text: "Stationary" },
+              { id: "a", text: "Stationary" },
+              { id: "b", text: "Transverse" },
+              { id: "c", text: "Longitudinal" },
               { id: "d", text: "Electromagnetic" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Wave types", statement: "Sound = longitudinal mechanical wave (compressions/rarefactions)." }],
@@ -285,11 +285,11 @@ export const lesson23: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "It doubles" },
-              { id: "b", text: "It halves" },
-              { id: "c", text: "It stays the same" },
-              { id: "d", text: "It quadruples" },
+              { id: "b", text: "It quadruples" },
+              { id: "c", text: "It halves" },
+              { id: "d", text: "It stays the same" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "v = fλ", statement: "Constant $v$: $f$ and $\\lambda$ are inversely proportional." }],
@@ -333,12 +333,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Matter" },
-              { id: "b", text: "Energy" },
-              { id: "c", text: "Both matter and energy" },
-              { id: "d", text: "Nothing" },
+              { id: "a", text: "Nothing" },
+              { id: "b", text: "Both matter and energy" },
+              { id: "c", text: "Matter" },
+              { id: "d", text: "Energy" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Wave", statement: "A wave transfers energy without transferring matter." }],
@@ -406,12 +406,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "0.25 m" },
-              { id: "b", text: "4 m" },
-              { id: "c", text: "36 m" },
-              { id: "d", text: "9 m" },
+              { id: "a", text: "9 m" },
+              { id: "b", text: "36 m" },
+              { id: "c", text: "0.25 m" },
+              { id: "d", text: "4 m" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "v = fλ", statement: "$\\lambda = v/f = 12/3$" }],
@@ -433,12 +433,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Sound waves are too slow in vacuum" },
-              { id: "b", text: "Sound is a mechanical wave needing a medium of particles to vibrate" },
-              { id: "c", text: "Space is too cold for sound" },
+              { id: "a", text: "Sound is a mechanical wave needing a medium of particles to vibrate" },
+              { id: "b", text: "Space is too cold for sound" },
+              { id: "c", text: "Sound waves are too slow in vacuum" },
               { id: "d", text: "Gravity blocks sound waves" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Mechanical wave", statement: "Sound needs particles to compress and rarefy — vacuum has none." }],
@@ -494,10 +494,10 @@ export const lesson23: Lesson = {
             choices: [
               { id: "a", text: "Radio waves" },
               { id: "b", text: "Visible light" },
-              { id: "c", text: "X-rays" },
-              { id: "d", text: "Gamma rays" },
+              { id: "c", text: "Gamma rays" },
+              { id: "d", text: "X-rays" },
             ],
-            correctChoiceId: "d",
+            correctChoiceIc: "d",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "EM spectrum", statement: "Gamma rays have highest frequency." }],
@@ -517,12 +517,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "330 m/s" },
-              { id: "b", text: "$3 \\times 10^8$ m/s" },
-              { id: "c", text: "Speed of sound" },
-              { id: "d", text: "Depends on frequency" },
+              { id: "a", text: "Depends on frequency" },
+              { id: "b", text: "330 m/s" },
+              { id: "c", text: "$3 \\times 10^8$ m/s" },
+              { id: "d", text: "Speed of sound" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "EM speed", statement: "All EM waves travel at $3 \\times 10^8$ m/s in vacuum." }],
@@ -543,12 +543,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "UV is ionising and damages cells" },
+              { id: "a", text: "UV only affects eyes" },
               { id: "b", text: "UV is too slow to be absorbed" },
-              { id: "c", text: "UV only affects eyes" },
-              { id: "d", text: "UV converts to sound" },
+              { id: "c", text: "UV converts to sound" },
+              { id: "d", text: "UV is ionising and damages cells" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "UV hazard", statement: "UV has enough energy to damage DNA/cells." }],
@@ -603,11 +603,11 @@ export const lesson23: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Gamma rays" },
-              { id: "b", text: "Radio waves" },
-              { id: "c", text: "Visible light" },
+              { id: "b", text: "Visible light" },
+              { id: "c", text: "Radio waves" },
               { id: "d", text: "X-rays" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "EM spectrum", statement: "Radio waves are at the low-frequency end." }],
@@ -671,12 +671,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Medical X-ray imaging" },
-              { id: "b", text: "Cooking food and satellite communications" },
-              { id: "c", text: "Sunburn" },
-              { id: "d", text: "Cancer radiotherapy" },
+              { id: "a", text: "Cooking food and satellite communications" },
+              { id: "b", text: "Cancer radiotherapy" },
+              { id: "c", text: "Medical X-ray imaging" },
+              { id: "d", text: "Sunburn" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "EM uses", statement: "Microwaves: cooking, satellite links, mobile phones." }],
@@ -719,12 +719,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Gamma rays are less energetic" },
-              { id: "b", text: "Gamma rays are ionising and can destroy cancer cells when targeted precisely" },
-              { id: "c", text: "Visible light cannot penetrate skin" },
-              { id: "d", text: "Gamma rays are easier to produce" },
+              { id: "a", text: "Gamma rays are easier to produce" },
+              { id: "b", text: "Visible light cannot penetrate skin" },
+              { id: "c", text: "Gamma rays are ionising and can destroy cancer cells when targeted precisely" },
+              { id: "d", text: "Gamma rays are less energetic" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Ionising radiation", statement: "High-frequency EM radiation ionises cells — kills cancer cells but also damages healthy tissue." }],
@@ -768,12 +768,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Radio waves" },
-              { id: "b", text: "Microwaves" },
-              { id: "c", text: "Visible light" },
-              { id: "d", text: "X-rays" },
+              { id: "a", text: "Microwaves" },
+              { id: "b", text: "Visible light" },
+              { id: "c", text: "X-rays" },
+              { id: "d", text: "Radio waves" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "EM spectrum", statement: "Order: IR → visible → UV." }],
@@ -865,12 +865,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "X-rays" },
-              { id: "b", text: "Visible light" },
-              { id: "c", text: "Radio waves" },
+              { id: "a", text: "Radio waves" },
+              { id: "b", text: "X-rays" },
+              { id: "c", text: "Visible light" },
               { id: "d", text: "Ultraviolet" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "v = fλ", statement: "Same speed in vacuum: lowest frequency → longest wavelength." }],

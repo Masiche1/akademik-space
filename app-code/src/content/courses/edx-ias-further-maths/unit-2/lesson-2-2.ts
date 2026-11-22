@@ -52,8 +52,8 @@ export const lesson22: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "A circle through the pole" },
-              { id: "b", text: "A straight line" },
-              { id: "c", text: "A spiral" },
+              { id: "b", text: "A spiral" },
+              { id: "c", text: "A straight line" },
               { id: "d", text: "A cardioid" },
             ],
             correctChoiceId: "a",
@@ -168,12 +168,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\frac{dr}{d\\theta}=0$" },
+              { id: "a", text: "$\\theta=0$" },
               { id: "b", text: "$r=0$" },
-              { id: "c", text: "$\\theta=0$" },
-              { id: "d", text: "$\\frac{dr}{d\\theta}=1$" },
+              { id: "c", text: "$\\frac{dr}{d\\theta}=1$" },
+              { id: "d", text: "$\\frac{dr}{d\\theta}=0$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "property", name: "Tangent condition", statement: "Stationary $r$ gives perpendicular tangent." }],

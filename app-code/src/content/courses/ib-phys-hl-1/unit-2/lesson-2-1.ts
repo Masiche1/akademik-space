@@ -91,12 +91,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\Delta U = Q + W$" },
+              { id: "a", text: "$\\Delta U = Q \\times W$" },
               { id: "b", text: "$\\Delta U = Q - W$" },
-              { id: "c", text: "$\\Delta U = Q \\times W$" },
-              { id: "d", text: "$\\Delta U = \\frac{Q}{W}$" },
+              { id: "c", text: "$\\Delta U = \\frac{Q}{W}$" },
+              { id: "d", text: "$\\Delta U = Q + W$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -320,12 +320,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Work done ON the system" },
+              { id: "a", text: "Heat lost to the surroundings" },
               { id: "b", text: "Work done BY the system" },
-              { id: "c", text: "Heat lost to the surroundings" },
+              { id: "c", text: "Work done ON the system" },
               { id: "d", text: "Total energy of the system" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -364,12 +364,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$Q = \\Delta U$" },
-              { id: "b", text: "$Q = -W$" },
-              { id: "c", text: "$Q = \\Delta U + P\\Delta V$" },
-              { id: "d", text: "$Q = 0$" },
+              { id: "a", text: "$Q = -W$" },
+              { id: "b", text: "$Q = \\Delta U + P\\Delta V$" },
+              { id: "c", text: "$Q = 0$" },
+              { id: "d", text: "$Q = \\Delta U$" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -409,9 +409,9 @@ export const lesson21: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$Q = 0$ and $\\Delta U > 0$" },
-              { id: "b", text: "$Q > 0$ and $\\Delta U = 0$" },
-              { id: "c", text: "$Q = 0$ and $\\Delta U < 0$" },
-              { id: "d", text: "$\\Delta U = 0$" },
+              { id: "b", text: "$\\Delta U = 0$" },
+              { id: "c", text: "$Q > 0$ and $\\Delta U = 0$" },
+              { id: "d", text: "$Q = 0$ and $\\Delta U < 0$" },
             ],
             correctChoiceId: "a",
           },
@@ -452,12 +452,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Isothermal" },
+              { id: "a", text: "Adiabatic" },
               { id: "b", text: "Isobaric" },
-              { id: "c", text: "Adiabatic" },
+              { id: "c", text: "Isothermal" },
               { id: "d", text: "Isochoric" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -496,12 +496,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The area under the curve" },
-              { id: "b", text: "The area above the curve" },
-              { id: "c", text: "The slope of the curve" },
-              { id: "d", text: "The perimeter enclosed by the curve" },
+              { id: "a", text: "The area above the curve" },
+              { id: "b", text: "The area under the curve" },
+              { id: "c", text: "The perimeter enclosed by the curve" },
+              { id: "d", text: "The slope of the curve" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1086,12 +1086,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Heat exchange $Q$" },
-              { id: "b", text: "Work done $W$" },
+              { id: "a", text: "Work done $W$" },
+              { id: "b", text: "Heat exchange $Q$" },
               { id: "c", text: "Change in internal energy $\\Delta U$" },
               { id: "d", text: "Temperature change $\\Delta T$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1310,8 +1310,8 @@ export const lesson21: Lesson = {
             choices: [
               { id: "a", text: "A horizontal line" },
               { id: "b", text: "A vertical line" },
-              { id: "c", text: "A rectangular hyperbola" },
-              { id: "d", text: "A steep curve" },
+              { id: "c", text: "A steep curve" },
+              { id: "d", text: "A rectangular hyperbola" },
             ],
             correctChoiceId: "a",
           },
@@ -1352,12 +1352,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$W = 0$ and $\\Delta U = Q$" },
-              { id: "b", text: "$\\Delta U = 0$ and $Q = W$" },
+              { id: "a", text: "$W = P\\Delta V$" },
+              { id: "b", text: "$W = 0$ and $\\Delta U = Q$" },
               { id: "c", text: "$Q = 0$ and $\\Delta U = W$" },
-              { id: "d", text: "$W = P\\Delta V$" },
+              { id: "d", text: "$\\Delta U = 0$ and $Q = W$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1397,9 +1397,9 @@ export const lesson21: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Steeper" },
-              { id: "b", text: "Shallower" },
-              { id: "c", text: "Identical" },
-              { id: "d", text: "Horizontal" },
+              { id: "b", text: "Horizontal" },
+              { id: "c", text: "Shallower" },
+              { id: "d", text: "Identical" },
             ],
             correctChoiceId: "a",
           },
@@ -1440,12 +1440,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$5/3 \\approx 1.67$" },
-              { id: "b", text: "$7/5 = 1.40$" },
-              { id: "c", text: "$4/3 \\approx 1.33$" },
-              { id: "d", text: "$1.00$" },
+              { id: "a", text: "$7/5 = 1.40$" },
+              { id: "b", text: "$5/3 \\approx 1.67$" },
+              { id: "c", text: "$1.00$" },
+              { id: "d", text: "$4/3 \\approx 1.33$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1484,12 +1484,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Temperature $T$ and internal energy $U$" },
-              { id: "b", text: "Pressure $P$ and volume $V$" },
+              { id: "a", text: "Pressure $P$ and volume $V$" },
+              { id: "b", text: "Temperature $T$ and internal energy $U$" },
               { id: "c", text: "Heat supplied $Q$" },
               { id: "d", text: "Work done $W$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1528,12 +1528,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Falls, because the gas does work using its internal energy" },
-              { id: "b", text: "Rises, because expansion creates heat" },
+              { id: "a", text: "Rises, because expansion creates heat" },
+              { id: "b", text: "Falls, because the gas does work using its internal energy" },
               { id: "c", text: "Stays constant" },
               { id: "d", text: "Rises, because heat flows in" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [

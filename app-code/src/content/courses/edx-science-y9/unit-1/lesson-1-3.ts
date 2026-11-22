@@ -54,12 +54,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A section of DNA that codes for a protein" },
-              { id: "b", text: "A cell that contains a nucleus" },
-              { id: "c", text: "A type of chromosome found only in gametes" },
-              { id: "d", text: "A pair of chromosomes" },
+              { id: "a", text: "A type of chromosome found only in gametes" },
+              { id: "b", text: "A pair of chromosomes" },
+              { id: "c", text: "A cell that contains a nucleus" },
+              { id: "d", text: "A section of DNA that codes for a protein" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -184,9 +184,9 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Gregor Mendel" },
+              { id: "a", text: "Louis Pasteur" },
               { id: "b", text: "Charles Darwin" },
-              { id: "c", text: "Louis Pasteur" },
+              { id: "c", text: "Gregor Mendel" },
               { id: "d", text: "Alexander Fleming" },
             ],
             correctChoiceId: "b",

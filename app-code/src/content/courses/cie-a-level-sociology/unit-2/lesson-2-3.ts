@@ -74,15 +74,15 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "Political voting" },
+              { id: "b", text: "Equal distribution of resources" },
               {
-                id: "a",
+                id: "c",
                 text: "Hierarchical arrangement of society into strata",
               },
-              { id: "b", text: "Equal distribution of resources" },
-              { id: "c", text: "Random social mixing" },
-              { id: "d", text: "Political voting" },
+              { id: "d", text: "Random social mixing" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -265,6 +265,455 @@ export const lesson23: Lesson = {
               "(a) hierarchy (b) class/caste (c) mobility (d) types (e) meritocracy evaluation",
           },
         },
+        {
+          id: "asoc-u2-st-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "What is the caste system?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "A system based on personal ability" },
+              {
+                id: "b",
+                text: "A fixed, birth-based hierarchy with little mobility",
+              },
+              { id: "c", text: "A religious ceremony" },
+              { id: "d", text: "A type of democracy" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Caste",
+                statement: "Fixed birth-based hierarchy.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Caste = ascribed, fixed.",
+                marks: 1,
+                markCode: "AO1",
+              },
+            ],
+            finalAnswer: "**(a)** Fixed birth-based hierarchy",
+            commonErrors: ["Confusing with class system."],
+          },
+        },
+        {
+          id: "asoc-u2-st-q6",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "What is intergenerational social mobility?",
+          response: {
+            type: "mcq",
+            choices: [
+              {
+                id: "a",
+                text: "Movement between generations, e.g. a worker's child becoming a manager",
+              },
+              { id: "b", text: "Movement between social positions within a lifetime" },
+              { id: "c", text: "Moving to a different country" },
+              { id: "d", text: "Changing jobs at the same level" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Intergenerational mobility",
+                statement: "Movement between generations.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Inter = between generations.",
+                marks: 1,
+                markCode: "AO1",
+              },
+            ],
+            finalAnswer: "**(b)** Between generations",
+            commonErrors: ["Confusing with intragenerational."],
+          },
+        },
+        {
+          id: "asoc-u2-st-q7",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "What is horizontal social mobility?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Moving to a higher social class" },
+              { id: "b", text: "Moving between generations" },
+              { id: "c", text: "Moving to a lower social class" },
+              {
+                id: "d",
+                text: "Moving to a different job at roughly the same social level",
+              },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Horizontal mobility",
+                statement: "Same level, different position.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Horizontal = sideways movement.",
+                marks: 1,
+                markCode: "AO1",
+              },
+            ],
+            finalAnswer: "**(b)** Same level, different job",
+            commonErrors: ["Confusing with vertical."],
+          },
+        },
+        {
+          id: "asoc-u2-st-q8",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "What does the 'estate' system of stratification refer to?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Modern class divisions" },
+              { id: "b", text: "The feudal hierarchy of lords, clergy and peasants" },
+              { id: "c", text: "A merit-based system" },
+              { id: "d", text: "A system of equal status" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Estate system",
+                statement: "Feudal hierarchy.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Estate = feudal orders.",
+                marks: 1,
+                markCode: "AO1",
+              },
+            ],
+            finalAnswer: "**(a)** Feudal hierarchy",
+            commonErrors: ["Confusing with class/caste."],
+          },
+        },
+        {
+          id: "asoc-u2-st-q9",
+          difficulty: "foundation",
+          totalMarks: 2,
+          stem: "In a study of 600 people, 20% experienced upward social mobility. How many people is this?",
+          response: { type: "numeric", parts: [{ label: "a", answer: 120 }] },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Percentage of sample",
+                statement: "20% of 600 = 0.2 x 600 = 120.",
+              },
+            ],
+            steps: [
+              { reasoning: "Convert 20% to 0.2.", marks: 1, markCode: "AO1" },
+              {
+                reasoning: "Multiply 0.2 by 600 to get 120.",
+                marks: 1,
+                markCode: "AO2",
+              },
+            ],
+            finalAnswer: "120",
+            commonErrors: ["Using 20 instead of 0.2."],
+          },
+        },
+        {
+          id: "asoc-u2-st-q10",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "Of 400 workers surveyed, 15% moved down a social class during their lifetime. How many workers is this?",
+          response: { type: "numeric", parts: [{ label: "a", answer: 60 }] },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Percentage of sample",
+                statement: "15% of 400 = 0.15 x 400 = 60.",
+              },
+            ],
+            steps: [
+              { reasoning: "Convert 15% to 0.15.", marks: 1, markCode: "AO1" },
+              {
+                reasoning: "Multiply 0.15 by 400 to get 60.",
+                marks: 1,
+                markCode: "AO2",
+              },
+            ],
+            finalAnswer: "60",
+            commonErrors: ["Reporting 0.15 instead of 60."],
+          },
+        },
+        {
+          id: "asoc-u2-st-q11",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "A stratified society divides 450 people equally among 3 social strata. How many people are in each stratum?",
+          response: { type: "numeric", parts: [{ label: "a", answer: 150 }] },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Equal strata",
+                statement: "450 / 3 = 150 per stratum.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Divide total by number of strata.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                reasoning: "450 / 3 = 150.",
+                marks: 1,
+                markCode: "AO2",
+              },
+            ],
+            finalAnswer: "150",
+            commonErrors: ["Dividing by 2 or 4 instead of 3."],
+          },
+        },
+        {
+          id: "asoc-u2-st-q12",
+          difficulty: "challenge",
+          totalMarks: 2,
+          stem: "The professional class grows from 12% to 18% of a workforce of 500. By how many workers did the professional class increase?",
+          response: { type: "numeric", parts: [{ label: "a", answer: 30 }] },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Class growth",
+                statement: "18% of 500 = 90; 12% of 500 = 60; increase = 30.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "90 professionals at 18%; 60 at 12%.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                reasoning: "Increase = 90 - 60 = 30.",
+                marks: 1,
+                markCode: "AO2",
+              },
+            ],
+            finalAnswer: "30",
+            commonErrors: ["Answering 6 (percentage points) not workers."],
+          },
+        },
+        {
+          id: "asoc-u2-st-q13",
+          difficulty: "challenge",
+          totalMarks: 2,
+          stem: "Of 250 adults tracked over a decade, 8% experienced downward social mobility. How many adults is this?",
+          response: { type: "numeric", parts: [{ label: "a", answer: 20 }] },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Percentage of sample",
+                statement: "8% of 250 = 0.08 x 250 = 20.",
+              },
+            ],
+            steps: [
+              { reasoning: "Convert 8% to 0.08.", marks: 1, markCode: "AO1" },
+              {
+                reasoning: "Multiply 0.08 by 250 to get 20.",
+                marks: 1,
+                markCode: "AO2",
+              },
+            ],
+            finalAnswer: "20",
+            commonErrors: ["Using 8 instead of 0.08."],
+          },
+        },
+        {
+          id: "asoc-u2-st-q14",
+          difficulty: "challenge",
+          totalMarks: 1,
+          stem: "Why is the caste system more closed than the class system?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "It allows free movement between groups" },
+              { id: "b", text: "It is based on achieved status" },
+              {
+                id: "c",
+                text: "Status is fixed at birth with almost no possibility of mobility",
+              },
+              { id: "d", text: "It distributes resources equally" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Caste vs class",
+                statement: "Ascribed and closed vs achieved.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Caste = birth-fixed, no mobility.",
+                marks: 1,
+                markCode: "AO1",
+              },
+            ],
+            finalAnswer: "**(b)** Fixed at birth, no mobility",
+            commonErrors: ["Saying caste allows mobility."],
+          },
+        },
+        {
+          id: "asoc-u2-st-q15",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "What is a meritocracy?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "A society ruled by the oldest family" },
+              { id: "b", text: "A society based on birth status" },
+              { id: "c", text: "A society where rewards depend mainly on ability and effort" },
+              { id: "d", text: "A society with no inequality" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Meritocracy",
+                statement: "Rewards based on ability/effort.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Merit = ability-based.",
+                marks: 1,
+                markCode: "AO1",
+              },
+            ],
+            finalAnswer: "**(a)** Ability and effort based",
+            commonErrors: ["Saying it means perfect equality."],
+          },
+        },
+        {
+          id: "asoc-u2-st-q16",
+          difficulty: "challenge",
+          totalMarks: 10,
+          stem: "Social stratification.",
+          parts: [
+            { label: "a", prompt: "Define social stratification.", marks: 1 },
+            { label: "b", prompt: "Distinguish class from caste.", marks: 2 },
+            {
+              label: "c",
+              prompt: "Explain intergenerational and intragenerational mobility.",
+              marks: 2,
+            },
+            { label: "d", prompt: "Define vertical mobility.", marks: 2 },
+            {
+              label: "e",
+              prompt: "Evaluate the claim that modern society is a meritocracy.",
+              marks: 3,
+            },
+          ],
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Stratification",
+                statement: "Definition+class/caste+mobility+meritocracy.",
+              },
+            ],
+            steps: [
+              {
+                part: "a",
+                reasoning: "Hierarchical arrangement.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                part: "b",
+                reasoning: "Class = economic/achieved.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                part: "b",
+                reasoning: "Caste = birth/ascribed.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                part: "c",
+                reasoning: "Inter = between generations.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                part: "c",
+                reasoning: "Intra = within lifetime.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                part: "d",
+                reasoning: "Up/down movement.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                part: "d",
+                reasoning: "Contrasted with horizontal.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                part: "e",
+                reasoning: "Ability matters.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                part: "e",
+                reasoning: "Structural barriers persist.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                part: "e",
+                reasoning: "Balanced judgement.",
+                marks: 1,
+                markCode: "AO3",
+              },
+            ],
+            finalAnswer:
+              "(a) hierarchy (b) class vs caste (c) mobility types (d) vertical (e) meritocracy",
+          },
+        },
       ],
     },
     {
@@ -308,15 +757,15 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "Educational qualification" },
               {
-                id: "a",
+                id: "b",
                 text: "Invisible barrier limiting women's advancement",
               },
-              { id: "b", text: "Physical barrier in workplace" },
               { id: "c", text: "Type of pay gap" },
-              { id: "d", text: "Educational qualification" },
+              { id: "d", text: "Physical barrier in workplace" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -485,6 +934,463 @@ export const lesson23: Lesson = {
             ],
             finalAnswer:
               "(a) glass ceiling (b) cultural capital (c) institutional racism (d) pay gap (e) intersectionality",
+          },
+        },
+        {
+          id: "asoc-u2-ie-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "What is the 'gender pay gap'?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Men earning less than women" },
+              { id: "b", text: "A gap in educational attainment" },
+              {
+                id: "c",
+                text: "Women earning less than men for comparable work",
+              },
+              { id: "d", text: "A difference in working hours only" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Gender pay gap",
+                statement: "Women earn less than men.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Pay gap = unequal pay.",
+                marks: 1,
+                markCode: "AO1",
+              },
+            ],
+            finalAnswer: "**(a)** Women earn less",
+            commonErrors: ["Confusing with glass ceiling."],
+          },
+        },
+        {
+          id: "asoc-u2-ie-q6",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "What is 'patriarchy'?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "A type of family structure" },
+              { id: "b", text: "A political party" },
+              { id: "c", text: "A system of equal gender roles" },
+              { id: "d", text: "A system where men hold dominant power in institutions" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Patriarchy",
+                statement: "Male dominance in institutions.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Patriarchy = male dominance.",
+                marks: 1,
+                markCode: "AO1",
+              },
+            ],
+            finalAnswer: "**(a)** Male dominance",
+            commonErrors: ["Confusing with matriarchy."],
+          },
+        },
+        {
+          id: "asoc-u2-ie-q7",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "What is 'institutional racism'?",
+          response: {
+            type: "mcq",
+            choices: [
+              {
+                id: "a",
+                text: "Policies and structures that disadvantage ethnic groups regardless of intent",
+              },
+              { id: "b", text: "Individual prejudice by one person" },
+              { id: "c", text: "Racism in the media only" },
+              { id: "d", text: "A form of positive discrimination" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Institutional racism",
+                statement: "Structural disadvantage, not intent.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Institutional = structural level.",
+                marks: 1,
+                markCode: "AO1",
+              },
+            ],
+            finalAnswer: "**(b)** Structural disadvantage",
+            commonErrors: ["Confusing with individual prejudice."],
+          },
+        },
+        {
+          id: "asoc-u2-ie-q8",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "The statistic 'the top 1% own about 40% of global wealth' best illustrates...",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "High social mobility" },
+              { id: "b", text: "The glass ceiling" },
+              { id: "c", text: "Perfect equality of wealth" },
+              { id: "d", text: "Extreme concentration of wealth at the top" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Wealth concentration",
+                statement: "Top share disproportionate.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "40% for 1% = concentration.",
+                marks: 1,
+                markCode: "AO1",
+              },
+            ],
+            finalAnswer: "**(b)** Wealth concentration",
+            commonErrors: ["Saying it shows equality."],
+          },
+        },
+        {
+          id: "asoc-u2-ie-q9",
+          difficulty: "foundation",
+          totalMarks: 2,
+          stem: "A man earns $50,000. If the gender pay gap is 18%, how much does a woman in a comparable role earn?",
+          response: { type: "numeric", parts: [{ label: "a", answer: 41000 }] },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Pay gap calculation",
+                statement: "50,000 x 0.82 = 41,000.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Woman earns 82% of man's salary.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                reasoning: "50,000 x 0.82 = 41,000.",
+                marks: 1,
+                markCode: "AO2",
+              },
+            ],
+            finalAnswer: "41000",
+            commonErrors: ["Subtracting $18,000 instead of applying 82%."],
+          },
+        },
+        {
+          id: "asoc-u2-ie-q10",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "Of 400 workers surveyed, 25% work in low-paid care jobs, which are predominantly held by women. How many workers is this?",
+          response: { type: "numeric", parts: [{ label: "a", answer: 100 }] },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Percentage of sample",
+                statement: "25% of 400 = 0.25 x 400 = 100.",
+              },
+            ],
+            steps: [
+              { reasoning: "Convert 25% to 0.25.", marks: 1, markCode: "AO1" },
+              {
+                reasoning: "Multiply 0.25 by 400 to get 100.",
+                marks: 1,
+                markCode: "AO2",
+              },
+            ],
+            finalAnswer: "100",
+            commonErrors: ["Reporting 0.25 instead of 100."],
+          },
+        },
+        {
+          id: "asoc-u2-ie-q11",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "Of 300 ethnic minority respondents, 40% reported experiencing discrimination at work. How many respondents is this?",
+          response: { type: "numeric", parts: [{ label: "a", answer: 120 }] },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Percentage of sample",
+                statement: "40% of 300 = 0.4 x 300 = 120.",
+              },
+            ],
+            steps: [
+              { reasoning: "Convert 40% to 0.4.", marks: 1, markCode: "AO1" },
+              {
+                reasoning: "Multiply 0.4 by 300 to get 120.",
+                marks: 1,
+                markCode: "AO2",
+              },
+            ],
+            finalAnswer: "120",
+            commonErrors: ["Using 40 instead of 0.4."],
+          },
+        },
+        {
+          id: "asoc-u2-ie-q12",
+          difficulty: "challenge",
+          totalMarks: 2,
+          stem: "The top 1% increased their share of a $1,000 billion economy from 35% to 42%. By how many billions did their wealth grow?",
+          response: { type: "numeric", parts: [{ label: "a", answer: 70 }] },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Wealth share change",
+                statement: "42% of 1000 = 420; 35% of 1000 = 350; growth = 70.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "$420bn at 42%; $350bn at 35%.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                reasoning: "Growth = 420 - 350 = $70bn.",
+                marks: 1,
+                markCode: "AO2",
+              },
+            ],
+            finalAnswer: "70",
+            commonErrors: ["Answering 7 (percentage points) not billions."],
+          },
+        },
+        {
+          id: "asoc-u2-ie-q13",
+          difficulty: "challenge",
+          totalMarks: 2,
+          stem: "A man earns $60,000. At a 20% pay gap, a comparable woman earned $48,000. When the gap falls to 15%, what does she earn?",
+          response: { type: "numeric", parts: [{ label: "a", answer: 51000 }] },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Pay gap calculation",
+                statement: "60,000 x 0.85 = 51,000.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "At 15% gap she earns 85% of his salary.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                reasoning: "60,000 x 0.85 = 51,000.",
+                marks: 1,
+                markCode: "AO2",
+              },
+            ],
+            finalAnswer: "51000",
+            commonErrors: ["Using 15% instead of 85% of salary."],
+          },
+        },
+        {
+          id: "asoc-u2-ie-q14",
+          difficulty: "challenge",
+          totalMarks: 1,
+          stem: "Why does cultural capital reproduce class inequality?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "It reduces all inequality" },
+              { id: "b", text: "It only affects the wealthy" },
+              {
+                id: "c",
+                text: "Schools reward middle-class values learned at home, passing advantage to the next generation",
+              },
+              { id: "d", text: "It has no effect on education" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Cultural capital",
+                statement: "Reproduces class advantage.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Middle-class values rewarded → reproduction.",
+                marks: 1,
+                markCode: "AO1",
+              },
+            ],
+            finalAnswer: "**(b)** Reproduces advantage",
+            commonErrors: ["Saying cultural capital is money."],
+          },
+        },
+        {
+          id: "asoc-u2-ie-q15",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "What is 'intersectionality'?",
+          response: {
+            type: "mcq",
+            choices: [
+              {
+                id: "a",
+                text: "How class, gender and ethnicity combine to compound disadvantage",
+              },
+              { id: "b", text: "A road-crossing system" },
+              { id: "c", text: "Inequality caused by only one factor" },
+              { id: "d", text: "A type of social mobility" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Intersectionality",
+                statement: "Overlapping identities compound disadvantage.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Identities interact.",
+                marks: 1,
+                markCode: "AO1",
+              },
+            ],
+            finalAnswer: "**(b)** Overlapping disadvantages",
+            commonErrors: ["Treating factors separately."],
+          },
+        },
+        {
+          id: "asoc-u2-ie-q16",
+          difficulty: "challenge",
+          totalMarks: 10,
+          stem: "Inequality.",
+          parts: [
+            { label: "a", prompt: "Define the gender pay gap.", marks: 1 },
+            { label: "b", prompt: "Explain what is meant by the glass ceiling.", marks: 2 },
+            {
+              label: "c",
+              prompt: "Explain institutional racism.",
+              marks: 2,
+            },
+            {
+              label: "d",
+              prompt: "Explain how cultural capital reproduces class advantage.",
+              marks: 2,
+            },
+            {
+              label: "e",
+              prompt: "Suggest how inequalities of class, gender and ethnicity can combine.",
+              marks: 3,
+            },
+          ],
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Inequality",
+                statement: "Definitions+explanations+intersectionality.",
+              },
+            ],
+            steps: [
+              {
+                part: "a",
+                reasoning: "Women earn less than men.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                part: "b",
+                reasoning: "Invisible barrier to advancement.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                part: "b",
+                reasoning: "Limits women's progression.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                part: "c",
+                reasoning: "Structural/policy disadvantage.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                part: "c",
+                reasoning: "Regardless of individual intent.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                part: "d",
+                reasoning: "Middle-class values valued by schools.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                part: "d",
+                reasoning: "Advantage passed to next generation.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                part: "e",
+                reasoning: "Class+gender+ethnicity interact.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                part: "e",
+                reasoning: "Example of compounded disadvantage.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                part: "e",
+                reasoning: "Clear explanation.",
+                marks: 1,
+                markCode: "AO3",
+              },
+            ],
+            finalAnswer:
+              "(a) pay gap (b) glass ceiling (c) institutional racism (d) cultural capital (e) intersectionality",
           },
         },
       ],

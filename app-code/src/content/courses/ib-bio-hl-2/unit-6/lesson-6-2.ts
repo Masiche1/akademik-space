@@ -95,19 +95,19 @@ export const lesson62: Lesson = {
             choices: [
               {
                 id: "a",
-                text: "Increasing the thickness of the alveolar membrane",
-              },
-              {
-                id: "b",
                 text: "Increasing the surface area and steepening the concentration gradient",
               },
               {
-                id: "c",
+                id: "b",
                 text: "Decreasing the oxygen partial pressure gradient",
               },
-              { id: "d", text: "Reducing pulmonary blood flow" },
+              { id: "c", text: "Reducing pulmonary blood flow" },
+              {
+                id: "d",
+                text: "Increasing the thickness of the alveolar membrane",
+              },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -151,15 +151,15 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Haemoglobin binds one oxygen molecule only" },
               {
-                id: "b",
+                id: "a",
                 text: "Cooperative binding — binding of one O$_2$ molecule makes it easier for subsequent molecules to bind",
               },
-              { id: "c", text: "Oxygen dissolves directly in plasma" },
-              { id: "d", text: "The curve is an artefact of measurement" },
+              { id: "b", text: "Haemoglobin binds one oxygen molecule only" },
+              { id: "c", text: "The curve is an artefact of measurement" },
+              { id: "d", text: "Oxygen dissolves directly in plasma" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -212,7 +212,7 @@ export const lesson62: Lesson = {
             choices: [
               {
                 id: "a",
-                text: "It lets the fetus unload more oxygen to maternal tissues",
+                text: "It prevents the fetus from producing its own red cells",
               },
               {
                 id: "b",
@@ -220,7 +220,7 @@ export const lesson62: Lesson = {
               },
               {
                 id: "c",
-                text: "It prevents the fetus from producing its own red cells",
+                text: "It lets the fetus unload more oxygen to maternal tissues",
               },
               { id: "d", text: "It speeds up fetal heart rate" },
             ],
@@ -404,15 +404,15 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Surface area" },
-              { id: "b", text: "The partial pressure gradient" },
               {
-                id: "c",
+                id: "a",
                 text: "The thickness (diffusion distance) of the exchange surface",
               },
+              { id: "b", text: "Surface area" },
+              { id: "c", text: "The partial pressure gradient" },
               { id: "d", text: "The temperature of the blood" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -506,11 +506,11 @@ export const lesson62: Lesson = {
             choices: [
               {
                 id: "a",
-                text: "The curve shifts left, increasing oxygen affinity so muscles can store more oxygen",
+                text: "The curve shifts right (Bohr effect), lowering haemoglobin's oxygen affinity so more oxygen is unloaded to the active muscle",
               },
               {
                 id: "b",
-                text: "The curve shifts right (Bohr effect), lowering haemoglobin's oxygen affinity so more oxygen is unloaded to the active muscle",
+                text: "The curve shifts left, increasing oxygen affinity so muscles can store more oxygen",
               },
               {
                 id: "c",
@@ -521,7 +521,7 @@ export const lesson62: Lesson = {
                 text: "The curve shifts right, increasing oxygen affinity",
               },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -680,22 +680,22 @@ export const lesson62: Lesson = {
             choices: [
               {
                 id: "a",
-                text: "Low oxygen directly stimulates the lungs to absorb more oxygen without any blood change",
-              },
-              {
-                id: "b",
                 text: "Low $\\text{pO}_2$ stimulates EPO release, which increases red blood cell production, raising the blood's oxygen-carrying capacity",
               },
               {
-                id: "c",
+                id: "b",
                 text: "Haemoglobin switches to a left-shifted curve, increasing affinity until tissues starve",
+              },
+              {
+                id: "c",
+                text: "Low oxygen directly stimulates the lungs to absorb more oxygen without any blood change",
               },
               {
                 id: "d",
                 text: "Plasma volume increases, diluting the blood and improving diffusion",
               },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -811,18 +811,18 @@ export const lesson62: Lesson = {
               },
               {
                 id: "b",
-                text: "Airflow (ventilation) to each lung region is matched to the blood flow (perfusion) through that region",
+                text: "The heart pumps blood only when the diaphragm contracts",
               },
               {
                 id: "c",
-                text: "The heart pumps blood only when the diaphragm contracts",
+                text: "Airflow (ventilation) to each lung region is matched to the blood flow (perfusion) through that region",
               },
               {
                 id: "d",
                 text: "Oxygen and carbon dioxide diffuse at identical rates",
               },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1025,22 +1025,22 @@ export const lesson62: Lesson = {
             choices: [
               {
                 id: "a",
-                text: "Deoxygenated haemoglobin binds CO$_2$ more readily than oxygenated haemoglobin, so CO$_2$ is loaded in tissues and released in the lungs",
-              },
-              {
-                id: "b",
                 text: "Oxygenated haemoglobin binds CO$_2$ more readily, trapping CO$_2$ in arterial blood",
               },
               {
-                id: "c",
+                id: "b",
                 text: "Haemoglobin's oxygen affinity increases as CO$_2$ falls",
               },
               {
-                id: "d",
+                id: "c",
                 text: "The Bohr effect describes CO$_2$ transport, not oxygen",
               },
+              {
+                id: "d",
+                text: "Deoxygenated haemoglobin binds CO$_2$ more readily than oxygenated haemoglobin, so CO$_2$ is loaded in tissues and released in the lungs",
+              },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1182,11 +1182,11 @@ export const lesson62: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "A surge in FSH" },
-              { id: "b", text: "A surge in LH" },
-              { id: "c", text: "A fall in oestrogen" },
-              { id: "d", text: "A rise in progesterone" },
+              { id: "b", text: "A fall in oestrogen" },
+              { id: "c", text: "A rise in progesterone" },
+              { id: "d", text: "A surge in LH" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1229,13 +1229,13 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "They are more effective biologically" },
+              { id: "a", text: "They are cheaper" },
               {
                 id: "b",
                 text: "They require no ongoing user action once fitted, eliminating user error",
               },
-              { id: "c", text: "They prevent ovulation more completely" },
-              { id: "d", text: "They are cheaper" },
+              { id: "c", text: "They are more effective biologically" },
+              { id: "d", text: "They prevent ovulation more completely" },
             ],
             correctChoiceId: "b",
           },
@@ -1291,15 +1291,15 @@ export const lesson62: Lesson = {
               { id: "a", text: "The hormones kill sperm in the uterus" },
               {
                 id: "b",
-                text: "Exogenous oestrogen and progestogen maintain high steroid levels, so negative feedback suppresses FSH and LH — no LH surge means no ovulation",
-              },
-              { id: "c", text: "The pill thickens cervical mucus only" },
-              {
-                id: "d",
                 text: "The pill prevents fertilisation by blocking the fallopian tubes",
               },
+              {
+                id: "c",
+                text: "Exogenous oestrogen and progestogen maintain high steroid levels, so negative feedback suppresses FSH and LH — no LH surge means no ovulation",
+              },
+              { id: "d", text: "The pill thickens cervical mucus only" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1479,12 +1479,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The corpus luteum secretes progesterone" },
-              { id: "b", text: "The corpus luteum secretes oestrogen only" },
+              { id: "a", text: "The zona pellucida secretes FSH" },
+              { id: "b", text: "The corpus luteum secretes progesterone" },
               { id: "c", text: "The endometrium secretes LH" },
-              { id: "d", text: "The zona pellucida secretes FSH" },
+              { id: "d", text: "The corpus luteum secretes oestrogen only" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1569,19 +1569,19 @@ export const lesson62: Lesson = {
             choices: [
               {
                 id: "a",
-                text: "It triggers the LH surge that causes ovulation",
+                text: "It maintains and prepares the endometrium for implantation and, via negative feedback, suppresses further ovulation",
               },
               {
                 id: "b",
                 text: "It thickens the cervical mucus to block sperm entry",
               },
+              { id: "c", text: "It stimulates FSH to develop new follicles" },
               {
-                id: "c",
-                text: "It maintains and prepares the endometrium for implantation and, via negative feedback, suppresses further ovulation",
+                id: "d",
+                text: "It triggers the LH surge that causes ovulation",
               },
-              { id: "d", text: "It stimulates FSH to develop new follicles" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1740,15 +1740,15 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The combined oral contraceptive pill alone" },
-              { id: "b", text: "A copper IUD alone" },
               {
-                id: "c",
+                id: "a",
                 text: "A long-acting reversible contraceptive (implant or IUD) PLUS condoms",
               },
-              { id: "d", text: "Fertility awareness methods" },
+              { id: "b", text: "Fertility awareness methods" },
+              { id: "c", text: "A copper IUD alone" },
+              { id: "d", text: "The combined oral contraceptive pill alone" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1846,9 +1846,9 @@ export const lesson62: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "The combined oral contraceptive pill" },
-              { id: "b", text: "A copper IUD" },
+              { id: "b", text: "A contraceptive implant" },
               { id: "c", text: "Male or female condoms" },
-              { id: "d", text: "A contraceptive implant" },
+              { id: "d", text: "A copper IUD" },
             ],
             correctChoiceId: "c",
           },
@@ -2051,7 +2051,7 @@ export const lesson62: Lesson = {
             choices: [
               {
                 id: "a",
-                text: "It blocks the vas deferens so sperm cannot enter the semen; reversal is unreliable because the cut ends scar and may not rejoin successfully",
+                text: "It blocks the urethra so semen cannot be ejaculated",
               },
               {
                 id: "b",
@@ -2059,14 +2059,14 @@ export const lesson62: Lesson = {
               },
               {
                 id: "c",
-                text: "It suppresses testosterone so no sperm are produced",
+                text: "It blocks the vas deferens so sperm cannot enter the semen; reversal is unreliable because the cut ends scar and may not rejoin successfully",
               },
               {
                 id: "d",
-                text: "It blocks the urethra so semen cannot be ejaculated",
+                text: "It suppresses testosterone so no sperm are produced",
               },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -2120,7 +2120,7 @@ export const lesson62: Lesson = {
               { id: "a", text: "It eliminates all risk of blood clots" },
               {
                 id: "b",
-                text: "It slightly increases the risk of venous thromboembolism (blood clots), so contraindications such as smoking over age 35 or history of clots must be screened for",
+                text: "It prevents ovulation only in the first month of use",
               },
               {
                 id: "c",
@@ -2128,10 +2128,10 @@ export const lesson62: Lesson = {
               },
               {
                 id: "d",
-                text: "It prevents ovulation only in the first month of use",
+                text: "It slightly increases the risk of venous thromboembolism (blood clots), so contraindications such as smoking over age 35 or history of clots must be screened for",
               },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

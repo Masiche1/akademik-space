@@ -50,12 +50,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "${}^{222}_{86}\\text{Rn}$" },
-              { id: "b", text: "${}^{226}_{89}\\text{Ac}$" },
-              { id: "c", text: "${}^{230}_{90}\\text{Th}$" },
-              { id: "d", text: "${}^{222}_{88}\\text{Ra}$" },
+              { id: "a", text: "${}^{226}_{89}\\text{Ac}$" },
+              { id: "b", text: "${}^{222}_{88}\\text{Ra}$" },
+              { id: "c", text: "${}^{222}_{86}\\text{Rn}$" },
+              { id: "d", text: "${}^{230}_{90}\\text{Th}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -185,12 +185,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A heavy nucleus splits into two smaller nuclei." },
-              { id: "b", text: "Two light nuclei combine to form a heavier nucleus." },
-              { id: "c", text: "An unstable nucleus emits an electron." },
-              { id: "d", text: "Two atoms share electrons to form a bond." },
+              { id: "a", text: "Two atoms share electrons to form a bond." },
+              { id: "b", text: "An unstable nucleus emits an electron." },
+              { id: "c", text: "Two light nuclei combine to form a heavier nucleus." },
+              { id: "d", text: "A heavy nucleus splits into two smaller nuclei." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

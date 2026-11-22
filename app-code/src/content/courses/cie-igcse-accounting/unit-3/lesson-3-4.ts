@@ -94,8 +94,8 @@ export const lesson34: Lesson = {
                 text: "Two or more people who share profits according to an agreement",
               },
               { id: "b", text: "One person only" },
-              { id: "c", text: "Shareholders only" },
-              { id: "d", text: "The government" },
+              { id: "c", text: "The government" },
+              { id: "d", text: "Shareholders only" },
             ],
             correctChoiceId: "a",
           },
@@ -126,15 +126,15 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "Calculate total sales" },
               {
-                id: "a",
+                id: "b",
                 text: "Distribute net profit among partners after interest, salaries and drawings",
               },
-              { id: "b", text: "Calculate total sales" },
               { id: "c", text: "Record purchases" },
               { id: "d", text: "Value inventory" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -573,6 +573,252 @@ export const lesson34: Lesson = {
               "(a) Distributes profit per agreement. (b) A \\$27,350; B \\$22,150 (before IoD debits).",
           },
         },
+        {
+          id: "cieiacct-u3-part-basics-q11",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "In the appropriation account, profit is distributed in which order?",
+          response: {
+            type: "mcq",
+            choices: [
+              {
+                id: "a",
+                text: "Interest on capital, salaries/commission, interest on drawings, then residual profit"
+              },
+              { id: "b", text: "Residual profit first, then interest on capital" },
+              { id: "c", text: "Interest on drawings first, then everything else" },
+              { id: "d", text: "Salaries first, then residual profit, then interest" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Appropriation order",
+                statement:
+                  "Interest on capital → salaries/commission → interest on drawings → residual profit in agreed ratio.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "The partnership agreement fixes this order; residual profit is shared last.",
+                marks: 1,
+                markCode: "M",
+              },
+            ],
+            finalAnswer: "(a) Interest on capital, salaries, interest on drawings, residual.",
+          },
+        },
+        {
+          id: "cieiacct-u3-part-basics-q12",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "Net profit \\$10,000. Partners A and B share equally. Interest on capital: A \\$500, B \\$300. No salaries or drawings interest. Calculate each partner's profit share.",
+          response: {
+            type: "numeric",
+            parts: [
+              { label: "A's share", answer: 5100, unit: "$" },
+              { label: "B's share", answer: 4900, unit: "$" },
+            ],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "formula",
+                name: "Residual profit",
+                statement:
+                  "Residual = NP − interest on capital − salaries − interest on drawings.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "Residual = 10,000 − 500 − 300 = \\$9,200; each gets \\$4,600.",
+                working: "9200 / 2 = 4600",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "A = 500 + 4,600 = \\$5,100; B = 300 + 4,600 = \\$4,900.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "A \\$5,100; B \\$4,900.",
+          },
+        },
+        {
+          id: "cieiacct-u3-part-basics-q13",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "Explain how residual profit is calculated in a partnership appropriation account and why it is shared separately.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Residual profit",
+                statement:
+                  "Net profit minus all prior appropriations, shared in the agreed ratio.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "Residual profit = net profit − interest on capital − partner salaries/commission − interest on drawings.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "Prior items are deducted first because the partnership agreement entitles partners to them before sharing.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "The residual is then divided in the profit-sharing ratio, which may differ from capital ratios.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer:
+              "Residual = NP − interest on capital − salaries − interest on drawings, then shared in the agreed ratio.",
+          },
+        },
+        {
+          id: "cieiacct-u3-part-basics-q14",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Interest on drawings is shown in the appropriation account as:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Neither — it goes straight to the capital account" },
+              {
+                id: "b",
+                text: "A credit — it is income to the partnership"
+              },
+              { id: "c", text: "A debit — it reduces residual profit" },
+              { id: "d", text: "A debit — it is an expense of the partnership" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Interest on drawings",
+                statement:
+                  "It is credited in the appropriation account (partnership income) and debited to the partner's current account.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "Interest on drawings increases the profit available for sharing — it is a credit in appropriation.",
+                marks: 1,
+                markCode: "M",
+              },
+            ],
+            finalAnswer: "(a) A credit.",
+          },
+        },
+        {
+          id: "cieiacct-u3-part-basics-q15",
+          difficulty: "challenge",
+          totalMarks: 3,
+          stem: "Net profit \\$30,000. Partners A and B share equally. Interest on capital: A \\$800, B \\$600. Salary A \\$4,000. Interest on drawings: A \\$300, B \\$200. Calculate each partner's profit share.",
+          response: {
+            type: "numeric",
+            parts: [
+              { label: "A's share", answer: 16850, unit: "$" },
+              { label: "B's share", answer: 12650, unit: "$" },
+            ],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "formula",
+                name: "Residual profit",
+                statement:
+                  "Residual = NP − IoC − salaries − interest on drawings.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "Residual = 30,000 − 800 − 600 − 4,000 − 300 − 200 = \\$24,100; each \\$12,050.",
+                working: "30000 - 2400 - 4000 - 500 = 24100; 24100/2 = 12050",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "A share = 800 + 4,000 + 12,050 = \\$16,850.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "B share = 600 + 12,050 = \\$12,650.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "A \\$16,850; B \\$12,650.",
+          },
+        },
+        {
+          id: "cieiacct-u3-part-basics-q16",
+          difficulty: "challenge",
+          totalMarks: 4,
+          parts: [
+            {
+              label: "a",
+              prompt:
+                "Net profit \\$18,000; A and B share equally; interest on capital A \\$400, B \\$300. Calculate residual profit.",
+              marks: 2,
+            },
+            {
+              label: "b",
+              prompt:
+                "Calculate each partner's total profit share.",
+              marks: 2,
+            },
+          ],
+          stem: "A partnership prepares its appropriation account.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "formula",
+                name: "Residual profit",
+                statement:
+                  "Residual = NP − interest on capital − salaries − interest on drawings.",
+              },
+            ],
+            steps: [
+              {
+                part: "a",
+                reasoning: "Residual = 18,000 − 400 − 300 = \\$17,300.",
+                working: "18000 - 700 = 17300",
+                marks: 2,
+                markCode: "M",
+              },
+              {
+                part: "b",
+                reasoning:
+                  "Each residual share = \\$8,650; A total = 400 + 8,650 = \\$9,050; B total = 300 + 8,650 = \\$8,950.",
+                working: "17300/2 = 8650; A = 9050; B = 8950",
+                marks: 2,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "Residual \\$17,300; A \\$9,050; B \\$8,950.",
+          },
+        },
       ],
     },
     {
@@ -623,12 +869,12 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The partner's capital account balance" },
-              { id: "b", text: "The partner's drawings" },
+              { id: "a", text: "The current account balance" },
+              { id: "b", text: "The partner's capital account balance" },
               { id: "c", text: "The total profit" },
-              { id: "d", text: "The current account balance" },
+              { id: "d", text: "The partner's drawings" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -657,15 +903,15 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "The business's total assets" },
+              { id: "b", text: "The partner's capital" },
+              { id: "c", text: "The profit before tax" },
               {
-                id: "a",
+                id: "d",
                 text: "The amounts the partner has withdrawn during the year",
               },
-              { id: "b", text: "The partner's capital" },
-              { id: "c", text: "The business's total assets" },
-              { id: "d", text: "The profit before tax" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1106,6 +1352,243 @@ export const lesson34: Lesson = {
               "(a) Fair reward/charge per agreement. (b) A: \\$3,000 IoC, \\$2,000 IoD. B: \\$1,800 IoC, \\$800 IoD.",
           },
         },
+        {
+          id: "cieiacct-u3-part-interest-q11",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Interest on capital is calculated as:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Capital balance × agreed interest rate" },
+              { id: "b", text: "Drawings × agreed interest rate" },
+              { id: "c", text: "Sales × agreed interest rate" },
+              { id: "d", text: "Profit share × agreed interest rate" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "formula",
+                name: "Interest on capital",
+                statement: "Capital balance × rate — credited to the partner.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "Interest on capital rewards the partner's investment, so it uses the capital balance.",
+                marks: 1,
+                markCode: "M",
+              },
+            ],
+            finalAnswer: "(a) Capital balance × rate.",
+          },
+        },
+        {
+          id: "cieiacct-u3-part-interest-q12",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "Partner A has capital of \\$15,000 and interest on capital is agreed at 5%. Calculate the interest on capital.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "Interest on capital", answer: 750, unit: "$" }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "formula",
+                name: "Interest on capital",
+                statement: "Capital × rate.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "15,000 × 5%.",
+                working: "15000 × 0.05",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "Interest on capital = \\$750.",
+                working: "15000 × 0.05 = 750",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "\\$750",
+          },
+        },
+        {
+          id: "cieiacct-u3-part-interest-q13",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "Partner B drew \\$4,000 during the year and interest on drawings is 8%. Calculate the interest on drawings.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "Interest on drawings", answer: 320, unit: "$" }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "formula",
+                name: "Interest on drawings",
+                statement: "Drawings × rate — reduces the partner's net entitlement.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "4,000 × 8%.",
+                working: "4000 × 0.08",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "Interest on drawings = \\$320.",
+                working: "4000 × 0.08 = 320",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "\\$320",
+          },
+        },
+        {
+          id: "cieiacct-u3-part-interest-q14",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "Explain the difference between interest on capital and interest on drawings, including their effect on a partner's profit share.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Interest entries",
+                statement:
+                  "IoC increases a partner's share; IoD decreases it — both appear as credits in the appropriation account.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "Interest on capital rewards investment — credited to the partner's current account, increasing their share.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "Interest on drawings penalises withdrawals — debited to the partner's current account, reducing their net entitlement.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "In the appropriation account both are credits (IoD is partnership income); the difference is who ultimately bears them.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer:
+              "IoC increases the share (credit to partner); IoD decreases it (debit to partner) — both credited in appropriation.",
+          },
+        },
+        {
+          id: "cieiacct-u3-part-interest-q15",
+          difficulty: "challenge",
+          totalMarks: 3,
+          stem: "Partner A has capital \\$24,000 and drawings of \\$6,000. Interest on capital is 5% and interest on drawings is 10%. Calculate both interest figures.",
+          response: {
+            type: "numeric",
+            parts: [
+              { label: "Interest on capital", answer: 1200, unit: "$" },
+              { label: "Interest on drawings", answer: 600, unit: "$" },
+            ],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "formula",
+                name: "Interest calculations",
+                statement:
+                  "IoC = capital × rate; IoD = drawings × rate.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "IoC = 24,000 × 5% = \\$1,200.",
+                working: "24000 × 0.05 = 1200",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "IoD = 6,000 × 10% = \\$600.",
+                working: "6000 × 0.10 = 600",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "Both figures stated.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "IoC \\$1,200; IoD \\$600.",
+          },
+        },
+        {
+          id: "cieiacct-u3-part-interest-q16",
+          difficulty: "challenge",
+          totalMarks: 4,
+          parts: [
+            {
+              label: "a",
+              prompt:
+                "Partner A: capital \\$30,000, interest on capital 4%. Partner B: capital \\$20,000, interest on capital 4%. Calculate each partner's interest on capital.",
+              marks: 2,
+            },
+            {
+              label: "b",
+              prompt:
+                "A drew \\$5,000 and B drew \\$3,000; interest on drawings is 6% for both. Calculate each partner's interest on drawings.",
+              marks: 2,
+            },
+          ],
+          stem: "A partnership agreement specifies interest on capital and drawings.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "formula",
+                name: "Interest calculations",
+                statement:
+                  "IoC = capital × rate; IoD = drawings × rate.",
+              },
+            ],
+            steps: [
+              {
+                part: "a",
+                reasoning:
+                  "A: 30,000 × 4% = \\$1,200; B: 20,000 × 4% = \\$800.",
+                working: "30000 × 0.04 = 1200; 20000 × 0.04 = 800",
+                marks: 2,
+                markCode: "M",
+              },
+              {
+                part: "b",
+                reasoning:
+                  "A: 5,000 × 6% = \\$300; B: 3,000 × 6% = \\$180.",
+                working: "5000 × 0.06 = 300; 3000 × 0.06 = 180",
+                marks: 2,
+                markCode: "A",
+              },
+            ],
+            finalAnswer:
+              "(a) A \\$1,200; B \\$800. (b) A \\$300; B \\$180.",
+          },
+        },
       ],
     },
     {
@@ -1155,15 +1638,15 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "A drawing" },
               {
-                id: "a",
+                id: "b",
                 text: "An appropriation of profit — deducted in the appropriation account, not an expense",
               },
-              { id: "b", text: "An expense in the profit and loss account" },
-              { id: "c", text: "A drawing" },
-              { id: "d", text: "Interest on capital" },
+              { id: "c", text: "Interest on capital" },
+              { id: "d", text: "An expense in the profit and loss account" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1636,6 +2119,247 @@ export const lesson34: Lesson = {
               "(a) Appropriations deducted before residual. (b) A \\$29,250; B \\$15,750.",
           },
         },
+        {
+          id: "cieiacct-u3-part-salary-q11",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "A partner's salary is treated in the accounts as:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Part of drawings" },
+              { id: "b", text: "A liability owed to an employee" },
+              { id: "c", text: "An expense in the profit and loss account" },
+              {
+                id: "d",
+                text: "An appropriation of profit, deducted in the appropriation account"
+              },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Partner salary",
+                statement:
+                  "Partners cannot be employees — salary is a profit appropriation, not a P&L expense.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "Partner salaries are deducted in the appropriation account before residual profit is shared.",
+                marks: 1,
+                markCode: "M",
+              },
+            ],
+            finalAnswer: "(a) An appropriation of profit.",
+          },
+        },
+        {
+          id: "cieiacct-u3-part-salary-q12",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "Partner B receives commission of 2% of sales. Sales for the year are \\$250,000. Calculate the commission.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "Commission", answer: 5000, unit: "$" }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "formula",
+                name: "Partner commission",
+                statement: "Commission = agreed % × sales (or profit).",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "2% × 250,000.",
+                working: "0.02 × 250000",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "Commission = \\$5,000.",
+                working: "0.02 × 250000 = 5000",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "\\$5,000",
+          },
+        },
+        {
+          id: "cieiacct-u3-part-salary-q13",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "Explain why a partner's salary is NOT shown as an expense in the profit and loss account.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Partner salary",
+                statement:
+                  "A partner is an owner, not an employee — payments to owners are appropriations of profit.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "A partner cannot be an employee of their own partnership, so the payment is not a business expense.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "The salary is deducted in the appropriation account after net profit has been calculated.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "It is credited to the partner's current account as part of their profit share.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer:
+              "Partner salary is a profit appropriation (owner reward), deducted in the appropriation account — not a P&L expense.",
+          },
+        },
+        {
+          id: "cieiacct-u3-part-salary-q14",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Partner commission is usually calculated as a percentage of:",
+          response: {
+            type: "mcq",
+            choices: [
+              {
+                id: "a",
+                text: "Sales or profit, as agreed in the partnership agreement"
+              },
+              { id: "b", text: "Total assets" },
+              { id: "c", text: "Always net profit" },
+              { id: "d", text: "Always drawings" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Partner commission",
+                statement:
+                  "An agreed percentage of sales or profit — deducted in the appropriation account.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "The base (sales or profit) is set by the partnership agreement.",
+                marks: 1,
+                markCode: "M",
+              },
+            ],
+            finalAnswer: "(a) Sales or profit per the agreement.",
+          },
+        },
+        {
+          id: "cieiacct-u3-part-salary-q15",
+          difficulty: "challenge",
+          totalMarks: 3,
+          stem: "Net profit \\$40,000. Partner A receives salary \\$8,000. Partner B receives commission of 5% of sales of \\$200,000 (= \\$10,000). Interest on capital: A \\$1,000, B \\$1,000. Residual shared equally. Calculate each partner's profit share.",
+          response: {
+            type: "numeric",
+            parts: [
+              { label: "A's share", answer: 19000, unit: "$" },
+              { label: "B's share", answer: 21000, unit: "$" },
+            ],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "formula",
+                name: "Residual profit",
+                statement:
+                  "Residual = NP − IoC − salary − commission.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "Residual = 40,000 − 1,000 − 1,000 − 8,000 − 10,000 = \\$20,000; each \\$10,000.",
+                working: "40000 - 20000 = 20000; 20000/2 = 10000",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "A share = 1,000 + 8,000 + 10,000 = \\$19,000.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "B share = 1,000 + 10,000 + 10,000 = \\$21,000.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "A \\$19,000; B \\$21,000.",
+          },
+        },
+        {
+          id: "cieiacct-u3-part-salary-q16",
+          difficulty: "challenge",
+          totalMarks: 4,
+          parts: [
+            {
+              label: "a",
+              prompt:
+                "Net profit \\$22,000; partners A and B share equally. Salary A \\$3,000. Interest on capital A \\$600, B \\$400. Calculate residual profit.",
+              marks: 2,
+            },
+            {
+              label: "b",
+              prompt: "Calculate each partner's profit share.",
+              marks: 2,
+            },
+          ],
+          stem: "A partnership prepares its appropriation account.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "formula",
+                name: "Residual profit",
+                statement:
+                  "Residual = NP − IoC − salaries − interest on drawings.",
+              },
+            ],
+            steps: [
+              {
+                part: "a",
+                reasoning:
+                  "Residual = 22,000 − 600 − 400 − 3,000 = \\$18,000.",
+                working: "22000 - 4000 = 18000",
+                marks: 2,
+                markCode: "M",
+              },
+              {
+                part: "b",
+                reasoning:
+                  "Each residual = \\$9,000; A = 600 + 3,000 + 9,000 = \\$12,600; B = 400 + 9,000 = \\$9,400.",
+                working: "A = 12600; B = 9400",
+                marks: 2,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "Residual \\$18,000; A \\$12,600; B \\$9,400.",
+          },
+        },
       ],
     },
     {
@@ -1685,15 +2409,15 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "Inventory" },
               {
-                id: "a",
+                id: "b",
                 text: "The value of a business's reputation and expected future profits — an intangible asset",
               },
-              { id: "b", text: "Physical assets like buildings" },
-              { id: "c", text: "Cash in the bank" },
-              { id: "d", text: "Inventory" },
+              { id: "c", text: "Physical assets like buildings" },
+              { id: "d", text: "Cash in the bank" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1722,15 +2446,15 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "Nobody — it's retained" },
+              { id: "b", text: "The new partner" },
               {
-                id: "a",
+                id: "c",
                 text: "The existing (old) partners, in their existing profit-sharing ratio",
               },
-              { id: "b", text: "The new partner" },
-              { id: "c", text: "The business as a whole" },
-              { id: "d", text: "Nobody — it's retained" },
+              { id: "d", text: "The business as a whole" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -2151,6 +2875,251 @@ export const lesson34: Lesson = {
             ],
             finalAnswer:
               "(a) Premium to old partners in old ratio; capital to new partner. (b) X \\$7,500; Y \\$2,500.",
+          },
+        },
+        {
+          id: "cieiacct-u3-part-goodwill-q11",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Goodwill in accounting represents:",
+          response: {
+            type: "mcq",
+            choices: [
+              {
+                id: "a",
+                text: "The value of the business's reputation and expected future profits"
+              },
+              { id: "b", text: "The partners' drawings for the year" },
+              { id: "c", text: "The value of non-current assets" },
+              { id: "d", text: "The total cash in the bank" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Goodwill",
+                statement:
+                  "An intangible asset — reputation, customer base, expected future profits.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "Goodwill arises from the business's ability to earn above-average profits.",
+                marks: 1,
+                markCode: "M",
+              },
+            ],
+            finalAnswer: "(a) Reputation and expected future profits.",
+          },
+        },
+        {
+          id: "cieiacct-u3-part-goodwill-q12",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "A new partner pays a goodwill premium of \\$12,000. The two existing partners share profits in the ratio 3:2. Calculate each old partner's share of the premium.",
+          response: {
+            type: "numeric",
+            parts: [
+              { label: "First partner", answer: 7200, unit: "$" },
+              { label: "Second partner", answer: 4800, unit: "$" },
+            ],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "formula",
+                name: "Goodwill premium",
+                statement:
+                  "Premium is credited to old partners in their old profit-sharing ratio.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "3/5 × 12,000 = \\$7,200; 2/5 × 12,000 = \\$4,800.",
+                working: "12000 × 3/5 = 7200; 12000 × 2/5 = 4800",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "Shares stated correctly.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "\\$7,200 and \\$4,800.",
+          },
+        },
+        {
+          id: "cieiacct-u3-part-goodwill-q13",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "Explain how goodwill is treated when a new partner is admitted to a partnership.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Admission of partner",
+                statement:
+                  "The new partner pays a premium for goodwill, credited to the old partners.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "The new partner typically pays a premium (in addition to capital) for the right to share in the business's goodwill.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "The premium is credited to the old partners' current accounts in their old profit-sharing ratio.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "The new partner's capital account is debited with their total investment; goodwill itself may be recorded as an asset if valued.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer:
+              "The premium paid by the new partner is credited to the old partners in their old ratio; the new partner's capital is debited with their investment.",
+          },
+        },
+        {
+          id: "cieiacct-u3-part-goodwill-q14",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "When a partner retires, their final payment normally consists of:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Only their share of residual profit" },
+              { id: "b", text: "Only their drawings for the final year" },
+              { id: "c", text: "A fixed amount agreed in advance" },
+              {
+                id: "d",
+                text: "Capital balance + current account balance + share of goodwill"
+              },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Retirement",
+                statement:
+                  "Retiring partner is paid capital + current balance + goodwill share.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "The retiring partner is entitled to everything they are owed, including goodwill if valued.",
+                marks: 1,
+                markCode: "M",
+              },
+            ],
+            finalAnswer: "(a) Capital + current balance + goodwill share.",
+          },
+        },
+        {
+          id: "cieiacct-u3-part-goodwill-q15",
+          difficulty: "challenge",
+          totalMarks: 3,
+          stem: "Goodwill is valued at \\$20,000. The existing partners share profits in the ratio 3:1. Calculate each partner's share of the goodwill on retirement of one partner.",
+          response: {
+            type: "numeric",
+            parts: [
+              { label: "Partner on 3/4 share", answer: 15000, unit: "$" },
+              { label: "Partner on 1/4 share", answer: 5000, unit: "$" },
+            ],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "formula",
+                name: "Goodwill share",
+                statement: "Goodwill shared in the profit-sharing ratio.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "3/4 × 20,000 = \\$15,000; 1/4 × 20,000 = \\$5,000.",
+                working: "20000 × 3/4 = 15000; 20000 × 1/4 = 5000",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "Shares stated.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "Total = \\$20,000 — fully allocated.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "\\$15,000 and \\$5,000.",
+          },
+        },
+        {
+          id: "cieiacct-u3-part-goodwill-q16",
+          difficulty: "challenge",
+          totalMarks: 4,
+          parts: [
+            {
+              label: "a",
+              prompt:
+                "Explain what goodwill is and when it needs to be valued in partnership accounting.",
+              marks: 2,
+            },
+            {
+              label: "b",
+              prompt:
+                "Partners X and Y (equal) admit Z who pays \\$8,000 as a goodwill premium. State how the premium is shared.",
+              marks: 2,
+            },
+          ],
+          stem: "A partnership changes its membership.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Goodwill",
+                statement:
+                  "Intangible asset valued on admission, retirement or change of profit-sharing ratio.",
+              },
+            ],
+            steps: [
+              {
+                part: "a",
+                reasoning:
+                  "Goodwill = value of reputation and expected future profits; it is valued when a partner is admitted, retires, or the profit-sharing ratio changes.",
+                marks: 2,
+                markCode: "M",
+              },
+              {
+                part: "b",
+                reasoning:
+                  "The \\$8,000 premium is credited to X and Y equally — \\$4,000 each — in their old ratio.",
+                working: "8000 / 2 = 4000",
+                marks: 2,
+                markCode: "A",
+              },
+            ],
+            finalAnswer:
+              "(a) Intangible asset valued on membership/ratio changes. (b) X \\$4,000; Y \\$4,000.",
           },
         },
       ],
@@ -2618,6 +3587,601 @@ export const lesson34: Lesson = {
             ],
             finalAnswer:
               "(a) Income to partnership, charge to partner. (b) Residual \\$28,700; A \\$14,850; B \\$14,850.",
+          },
+        },
+        {
+          id: "cieiacct-u3-part-exam-q7",
+          difficulty: "core",
+          totalMarks: 6,
+          parts: [
+            {
+              label: "a",
+              prompt:
+                "Net profit \\$24,000; partners A and B share equally. Interest on capital: A \\$600, B \\$400. Salary A \\$2,000. Interest on drawings: A \\$150, B \\$100. Calculate the residual profit.",
+              marks: 2,
+            },
+            {
+              label: "b",
+              prompt: "Calculate A's profit share.",
+              marks: 2,
+            },
+            {
+              label: "c",
+              prompt: "Calculate B's profit share.",
+              marks: 2,
+            },
+          ],
+          stem: "A partnership prepares its appropriation account.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "formula",
+                name: "Residual profit",
+                statement:
+                  "Residual = NP − IoC − salaries − interest on drawings.",
+              },
+            ],
+            steps: [
+              {
+                part: "a",
+                reasoning:
+                  "Residual = 24,000 − 600 − 400 − 2,000 − 150 − 100 = \\$20,750.",
+                working: "24000 - 3250 = 20750",
+                marks: 2,
+                markCode: "M",
+              },
+              {
+                part: "b",
+                reasoning:
+                  "Each residual = \\$10,375; A share = 600 + 2,000 + 10,375 = \\$12,975.",
+                working: "20750/2 = 10375; 600+2000+10375 = 12975",
+                marks: 2,
+                markCode: "A",
+              },
+              {
+                part: "c",
+                reasoning:
+                  "B share = 400 + 10,375 = \\$10,775.",
+                working: "400 + 10375 = 10775",
+                marks: 2,
+                markCode: "A",
+              },
+            ],
+            finalAnswer:
+              "Residual \\$20,750; A \\$12,975; B \\$10,775.",
+          },
+        },
+        {
+          id: "cieiacct-u3-part-exam-q8",
+          difficulty: "core",
+          totalMarks: 6,
+          parts: [
+            {
+              label: "a",
+              prompt:
+                "Net profit \\$36,000; partners A and B share profits 3:2. Interest on capital: A \\$900, B \\$600. Salary A \\$3,000. Interest on drawings: A \\$200, B \\$150. Calculate the residual profit.",
+              marks: 2,
+            },
+            {
+              label: "b",
+              prompt: "Calculate A's profit share.",
+              marks: 2,
+            },
+            {
+              label: "c",
+              prompt: "Calculate B's profit share.",
+              marks: 2,
+            },
+          ],
+          stem: "A partnership prepares its appropriation account.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "formula",
+                name: "Residual profit",
+                statement:
+                  "Residual = NP − IoC − salaries − interest on drawings, shared in the agreed ratio.",
+              },
+            ],
+            steps: [
+              {
+                part: "a",
+                reasoning:
+                  "Residual = 36,000 − 900 − 600 − 3,000 − 200 − 150 = \\$31,150.",
+                working: "36000 - 4850 = 31150",
+                marks: 2,
+                markCode: "M",
+              },
+              {
+                part: "b",
+                reasoning:
+                  "A residual = 3/5 × 31,150 = \\$18,690; A share = 900 + 3,000 + 18,690 = \\$22,590.",
+                working: "31150 × 3/5 = 18690; 900+3000+18690 = 22590",
+                marks: 2,
+                markCode: "A",
+              },
+              {
+                part: "c",
+                reasoning:
+                  "B residual = 2/5 × 31,150 = \\$12,460; B share = 600 + 12,460 = \\$13,060.",
+                working: "31150 × 2/5 = 12460; 600+12460 = 13060",
+                marks: 2,
+                markCode: "A",
+              },
+            ],
+            finalAnswer:
+              "Residual \\$31,150; A \\$22,590; B \\$13,060.",
+          },
+        },
+        {
+          id: "cieiacct-u3-part-exam-q9",
+          difficulty: "challenge",
+          totalMarks: 8,
+          parts: [
+            {
+              label: "a",
+              prompt:
+                "Net profit \\$50,000; partners A, B and C share equally. Interest on capital: A \\$500, B \\$400, C \\$300. Salary A \\$4,000. Interest on drawings \\$100 each. Calculate the residual profit.",
+              marks: 2,
+            },
+            {
+              label: "b",
+              prompt: "Calculate A's profit share.",
+              marks: 2,
+            },
+            {
+              label: "c",
+              prompt: "Calculate B's profit share.",
+              marks: 2,
+            },
+            {
+              label: "d",
+              prompt: "Calculate C's profit share.",
+              marks: 2,
+            },
+          ],
+          stem: "A three-partner firm prepares its appropriation account.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "formula",
+                name: "Residual profit",
+                statement:
+                  "Residual = NP − IoC − salaries − interest on drawings.",
+              },
+            ],
+            steps: [
+              {
+                part: "a",
+                reasoning:
+                  "Residual = 50,000 − 500 − 400 − 300 − 4,000 − 300 = \\$44,100.",
+                working: "50000 - 5500 = 44100",
+                marks: 2,
+                markCode: "M",
+              },
+              {
+                part: "b",
+                reasoning:
+                  "Each residual = \\$14,700; A share = 500 + 4,000 + 14,700 = \\$19,200.",
+                working: "44100/3 = 14700; 500+4000+14700 = 19200",
+                marks: 2,
+                markCode: "A",
+              },
+              {
+                part: "c",
+                reasoning:
+                  "B share = 400 + 14,700 = \\$15,100.",
+                working: "400 + 14700 = 15100",
+                marks: 2,
+                markCode: "A",
+              },
+              {
+                part: "d",
+                reasoning:
+                  "C share = 300 + 14,700 = \\$15,000.",
+                working: "300 + 14700 = 15000",
+                marks: 2,
+                markCode: "A",
+              },
+            ],
+            finalAnswer:
+              "Residual \\$44,100; A \\$19,200; B \\$15,100; C \\$15,000.",
+          },
+        },
+        {
+          id: "cieiacct-u3-part-exam-q10",
+          difficulty: "challenge",
+          totalMarks: 8,
+          parts: [
+            {
+              label: "a",
+              prompt:
+                "Net profit \\$45,000; partners A and B share 2:1. Interest on capital: A \\$1,000, B \\$500. Salary A \\$5,000. Commission to B is 4% of sales of \\$300,000. Interest on drawings: A \\$250, B \\$150. Calculate the residual profit.",
+              marks: 3,
+            },
+            {
+              label: "b",
+              prompt: "Calculate A's profit share.",
+              marks: 3,
+            },
+            {
+              label: "c",
+              prompt: "Calculate B's profit share.",
+              marks: 2,
+            },
+          ],
+          stem: "A partnership prepares its appropriation account with salary and commission.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "formula",
+                name: "Residual profit",
+                statement:
+                  "Residual = NP − IoC − salary − commission − interest on drawings.",
+              },
+            ],
+            steps: [
+              {
+                part: "a",
+                reasoning:
+                  "Commission = 4% × 300,000 = \\$12,000. Residual = 45,000 − 1,000 − 500 − 5,000 − 12,000 − 250 − 150 = \\$26,100.",
+                working: "45000 - 18800 - 400 = 26100",
+                marks: 3,
+                markCode: "M",
+              },
+              {
+                part: "b",
+                reasoning:
+                  "A residual = 2/3 × 26,100 = \\$17,400; A share = 1,000 + 5,000 + 17,400 = \\$23,400.",
+                working: "26100 × 2/3 = 17400; 1000+5000+17400 = 23400",
+                marks: 3,
+                markCode: "A",
+              },
+              {
+                part: "c",
+                reasoning:
+                  "B residual = 1/3 × 26,100 = \\$8,700; B share = 500 + 12,000 + 8,700 = \\$21,200.",
+                working: "26100/3 = 8700; 500+12000+8700 = 21200",
+                marks: 2,
+                markCode: "A",
+              },
+            ],
+            finalAnswer:
+              "Residual \\$26,100; A \\$23,400; B \\$21,200.",
+          },
+        },
+        {
+          id: "cieiacct-u3-part-exam-q11",
+          difficulty: "core",
+          totalMarks: 4,
+          stem: "Net profit \\$28,000; partners A and B share equally. Interest on capital: A \\$700, B \\$500. Salary A \\$3,000. Interest on drawings: A \\$100, B \\$100. Calculate the residual profit and A's profit share.",
+          response: {
+            type: "numeric",
+            parts: [
+              { label: "Residual profit", answer: 23600, unit: "$" },
+              { label: "A's share", answer: 15500, unit: "$" },
+            ],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "formula",
+                name: "Residual profit",
+                statement:
+                  "Residual = NP − IoC − salaries − interest on drawings.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "Residual = 28,000 − 700 − 500 − 3,000 − 100 − 100 = \\$23,600.",
+                working: "28000 - 4400 = 23600",
+                marks: 2,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "Each residual = \\$11,800; A share = 700 + 3,000 + 11,800 = \\$15,500.",
+                working: "23600/2 = 11800; 700+3000+11800 = 15500",
+                marks: 2,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "Residual \\$23,600; A share \\$15,500.",
+          },
+        },
+        {
+          id: "cieiacct-u3-part-exam-q12",
+          difficulty: "core",
+          totalMarks: 6,
+          parts: [
+            {
+              label: "a",
+              prompt:
+                "Net profit \\$20,000; partners A, B and C share 2:2:1. Interest on capital: A \\$600, B \\$400, C \\$200. Salary A \\$2,000. Interest on drawings: A \\$150, B \\$100, C \\$50. Calculate the residual profit.",
+              marks: 2,
+            },
+            {
+              label: "b",
+              prompt: "Calculate A's and B's profit shares.",
+              marks: 2,
+            },
+            {
+              label: "c",
+              prompt: "Calculate C's profit share.",
+              marks: 2,
+            },
+          ],
+          stem: "A partnership prepares its appropriation account.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "formula",
+                name: "Residual profit",
+                statement:
+                  "Residual = NP − IoC − salaries − interest on drawings.",
+              },
+            ],
+            steps: [
+              {
+                part: "a",
+                reasoning:
+                  "Residual = 20,000 − 600 − 400 − 200 − 2,000 − 150 − 100 − 50 = \\$16,500.",
+                working: "20000 - 3500 = 16500",
+                marks: 2,
+                markCode: "M",
+              },
+              {
+                part: "b",
+                reasoning:
+                  "A and B each get 2/5 × 16,500 = \\$6,600 residual. A share = 600 + 2,000 + 6,600 = \\$9,200; B share = 400 + 6,600 = \\$7,000.",
+                working: "16500 × 2/5 = 6600; A = 9200; B = 7000",
+                marks: 2,
+                markCode: "A",
+              },
+              {
+                part: "c",
+                reasoning:
+                  "C residual = 1/5 × 16,500 = \\$3,300; C share = 200 + 3,300 = \\$3,500.",
+                working: "16500/5 = 3300; 200+3300 = 3500",
+                marks: 2,
+                markCode: "A",
+              },
+            ],
+            finalAnswer:
+              "Residual \\$16,500; A \\$9,200; B \\$7,000; C \\$3,500.",
+          },
+        },
+        {
+          id: "cieiacct-u3-part-exam-q13",
+          difficulty: "challenge",
+          totalMarks: 6,
+          parts: [
+            {
+              label: "a",
+              prompt:
+                "Net profit \\$60,000; partners A and B share 3:1. Interest on capital: A \\$1,800, B \\$600. Salary A \\$6,000. Interest on drawings: A \\$400, B \\$200. Calculate the residual profit.",
+              marks: 2,
+            },
+            {
+              label: "b",
+              prompt: "Calculate A's profit share.",
+              marks: 2,
+            },
+            {
+              label: "c",
+              prompt: "Calculate B's profit share.",
+              marks: 2,
+            },
+          ],
+          stem: "A partnership prepares its appropriation account.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "formula",
+                name: "Residual profit",
+                statement:
+                  "Residual = NP − IoC − salaries − interest on drawings.",
+              },
+            ],
+            steps: [
+              {
+                part: "a",
+                reasoning:
+                  "Residual = 60,000 − 1,800 − 600 − 6,000 − 400 − 200 = \\$51,000.",
+                working: "60000 - 9000 = 51000",
+                marks: 2,
+                markCode: "M",
+              },
+              {
+                part: "b",
+                reasoning:
+                  "A residual = 3/4 × 51,000 = \\$38,250; A share = 1,800 + 6,000 + 38,250 = \\$46,050.",
+                working: "51000 × 3/4 = 38250; 1800+6000+38250 = 46050",
+                marks: 2,
+                markCode: "A",
+              },
+              {
+                part: "c",
+                reasoning:
+                  "B residual = 1/4 × 51,000 = \\$12,750; B share = 600 + 12,750 = \\$13,350.",
+                working: "51000/4 = 12750; 600+12750 = 13350",
+                marks: 2,
+                markCode: "A",
+              },
+            ],
+            finalAnswer:
+              "Residual \\$51,000; A \\$46,050; B \\$13,350.",
+          },
+        },
+        {
+          id: "cieiacct-u3-part-exam-q14",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "Net profit \\$32,000. Interest on capital: A \\$800, B \\$600. Salary A \\$4,000. Interest on drawings: A \\$200, B \\$100. Calculate the residual profit.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "Residual profit", answer: 26300, unit: "$" }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "formula",
+                name: "Residual profit",
+                statement:
+                  "Residual = NP − IoC − salaries − interest on drawings.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Total deductions = 800 + 600 + 4,000 + 200 + 100 = \\$5,700.",
+                working: "800+600+4000+200+100 = 5700",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "Residual = 32,000 − 5,700.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "Residual profit = \\$26,300.",
+                working: "32000 - 5700 = 26300",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "\\$26,300",
+          },
+        },
+        {
+          id: "cieiacct-u3-part-exam-q15",
+          difficulty: "core",
+          totalMarks: 6,
+          parts: [
+            {
+              label: "a",
+              prompt:
+                "Net profit \\$15,000; partners A and B share equally. Interest on capital: A \\$400, B \\$300. Salary A \\$2,000. Interest on drawings: A \\$100, B \\$100. Calculate the residual profit.",
+              marks: 2,
+            },
+            {
+              label: "b",
+              prompt: "Calculate each partner's profit share.",
+              marks: 4,
+            },
+          ],
+          stem: "A partnership prepares its appropriation account.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "formula",
+                name: "Residual profit",
+                statement:
+                  "Residual = NP − IoC − salaries − interest on drawings.",
+              },
+            ],
+            steps: [
+              {
+                part: "a",
+                reasoning:
+                  "Residual = 15,000 − 400 − 300 − 2,000 − 100 − 100 = \\$12,100.",
+                working: "15000 - 2900 = 12100",
+                marks: 2,
+                markCode: "M",
+              },
+              {
+                part: "b",
+                reasoning:
+                  "Each residual = \\$6,050; A share = 400 + 2,000 + 6,050 = \\$8,450.",
+                working: "12100/2 = 6050; 400+2000+6050 = 8450",
+                marks: 2,
+                markCode: "A",
+              },
+              {
+                part: "b",
+                reasoning:
+                  "B share = 300 + 6,050 = \\$6,350.",
+                working: "300 + 6050 = 6350",
+                marks: 2,
+                markCode: "A",
+              },
+            ],
+            finalAnswer:
+              "Residual \\$12,100; A \\$8,450; B \\$6,350.",
+          },
+        },
+        {
+          id: "cieiacct-u3-part-exam-q16",
+          difficulty: "challenge",
+          totalMarks: 8,
+          parts: [
+            {
+              label: "a",
+              prompt:
+                "Net profit \\$40,000; partners A, B and C share 2:1:1. Interest on capital: A \\$1,000, B \\$600, C \\$400. Salary A \\$5,000. Commission to A is 3% of sales of \\$250,000. Interest on drawings: A \\$300, B \\$200, C \\$100. Calculate the residual profit.",
+              marks: 3,
+            },
+            {
+              label: "b",
+              prompt: "Calculate each partner's profit share.",
+              marks: 5,
+            },
+          ],
+          stem: "A partnership prepares its appropriation account with salary, commission and three partners.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "formula",
+                name: "Residual profit",
+                statement:
+                  "Residual = NP − IoC − salary − commission − interest on drawings.",
+              },
+            ],
+            steps: [
+              {
+                part: "a",
+                reasoning:
+                  "Commission = 3% × 250,000 = \\$7,500. Residual = 40,000 − 1,000 − 600 − 400 − 5,000 − 7,500 − 300 − 200 − 100 = \\$24,900.",
+                working: "40000 - 15100 = 24900",
+                marks: 3,
+                markCode: "M",
+              },
+              {
+                part: "b",
+                reasoning:
+                  "A residual = 2/4 × 24,900 = \\$12,450; A share = 1,000 + 5,000 + 7,500 + 12,450 = \\$25,950.",
+                working: "24900 × 2/4 = 12450; 1000+5000+7500+12450 = 25950",
+                marks: 2,
+                markCode: "A",
+              },
+              {
+                part: "b",
+                reasoning:
+                  "B residual = 1/4 × 24,900 = \\$6,225; B share = 600 + 6,225 = \\$6,825.",
+                working: "24900/4 = 6225; 600+6225 = 6825",
+                marks: 2,
+                markCode: "A",
+              },
+              {
+                part: "b",
+                reasoning:
+                  "C residual = \\$6,225; C share = 400 + 6,225 = \\$6,625.",
+                working: "400 + 6225 = 6625",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer:
+              "Residual \\$24,900; A \\$25,950; B \\$6,825; C \\$6,625.",
           },
         },
       ],

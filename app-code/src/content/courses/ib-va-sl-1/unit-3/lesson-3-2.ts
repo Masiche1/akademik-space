@@ -39,10 +39,10 @@ export const lesson32: Lesson = {
           id: "va-u3-analysis-structure-q1", difficulty: "foundation", totalMarks: 2,
           stem: "In a critical response, 'analysis' differs from 'description' because analysis:",
           response: { type: "mcq", choices: [
-            { id: "a", text: "Lists more details" },
+            { id: "a", text: "Avoids mentioning colour" },
             { id: "b", text: "Examines how elements produce effects" },
-            { id: "c", text: "Uses longer words" },
-            { id: "d", text: "Avoids mentioning colour" },
+            { id: "c", text: "Lists more details" },
+            { id: "d", text: "Uses longer words" },
           ], correctChoiceId: "b" },
           markscheme: {
             principles: [{ kind: "definition", name: "Analysis", statement: "Examining how formal elements and techniques create effects." }],
@@ -112,11 +112,11 @@ export const lesson32: Lesson = {
           id: "va-u3-analysis-structure-q5", difficulty: "foundation", totalMarks: 2,
           stem: "In a critical response, the stage where you state what is objectively present is called:",
           response: { type: "mcq", choices: [
-            { id: "a", text: "Interpretation" },
-            { id: "b", text: "Description" },
+            { id: "a", text: "Description" },
+            { id: "b", text: "Interpretation" },
             { id: "c", text: "Judgement" },
             { id: "d", text: "Evaluation" },
-          ], correctChoiceId: "b" },
+          ], correctChoiceId: "a" },
           markscheme: {
             principles: [{ kind: "definition", name: "Description", statement: "Objectively stating what is present — subject, medium, composition." }],
             steps: [
@@ -146,11 +146,11 @@ export const lesson32: Lesson = {
           id: "va-u3-analysis-structure-q7", difficulty: "core", totalMarks: 2,
           stem: "Which sentence is an example of evidence-based analysis?",
           response: { type: "mcq", choices: [
-            { id: "a", text: "\"The painting is beautiful and moving\"" },
-            { id: "b", text: "\"The diagonal composition drives the viewer's eye toward the figure's face\"" },
-            { id: "c", text: "\"This artist is very famous\"" },
-            { id: "d", text: "\"It looks like a landscape\"" },
-          ], correctChoiceId: "b" },
+            { id: "a", text: "\"The diagonal composition drives the viewer's eye toward the figure's face\"" },
+            { id: "b", text: "\"It looks like a landscape\"" },
+            { id: "c", text: "\"The painting is beautiful and moving\"" },
+            { id: "d", text: "\"This artist is very famous\"" },
+          ], correctChoiceId: "a" },
           markscheme: {
             principles: [{ kind: "technique", name: "Evidence-based analysis", statement: "Claims cite specific visual details that can be checked." }],
             steps: [
@@ -181,9 +181,9 @@ export const lesson32: Lesson = {
           id: "va-u3-analysis-structure-q9", difficulty: "challenge", totalMarks: 2,
           stem: "A response that only retells the subject matter fails because it:",
           response: { type: "mcq", choices: [
-            { id: "a", text: "Is too short" },
+            { id: "a", text: "Uses too many details" },
             { id: "b", text: "Stops at description and never analyses how formal elements work" },
-            { id: "c", text: "Uses too many details" },
+            { id: "c", text: "Is too short" },
             { id: "d", text: "Mentions colour" },
           ], correctChoiceId: "b" },
           markscheme: {
@@ -230,10 +230,10 @@ export const lesson32: Lesson = {
           stem: "'Interpretation' in a critical response refers to:",
           response: { type: "mcq", choices: [
             { id: "a", text: "The artwork's sale price" },
-            { id: "b", text: "What the artwork means or expresses" },
-            { id: "c", text: "The frame's material" },
-            { id: "d", text: "The date it was made" },
-          ], correctChoiceId: "b" },
+            { id: "b", text: "The date it was made" },
+            { id: "c", text: "What the artwork means or expresses" },
+            { id: "d", text: "The frame's material" },
+          ], correctChoiceId: "c" },
           markscheme: {
             principles: [{ kind: "definition", name: "Interpretation", statement: "Proposing what the artwork means — theme, mood or intention." }],
             steps: [
@@ -263,11 +263,11 @@ export const lesson32: Lesson = {
           id: "va-u3-analysis-structure-q13", difficulty: "core", totalMarks: 2,
           stem: "Which statement is a judgement rather than description or analysis?",
           response: { type: "mcq", choices: [
-            { id: "a", text: "\"The canvas measures two metres\"" },
+            { id: "a", text: "\"The work succeeds because its tension between order and chaos mirrors its theme\"" },
             { id: "b", text: "\"There are three figures in the foreground\"" },
-            { id: "c", text: "\"The work succeeds because its tension between order and chaos mirrors its theme\"" },
+            { id: "c", text: "\"The canvas measures two metres\"" },
             { id: "d", text: "\"The paint is oil on canvas\"" },
-          ], correctChoiceId: "c" },
+          ], aorrectChoiceId: "c" },
           markscheme: {
             principles: [{ kind: "definition", name: "Judgement", statement: "A reasoned conclusion about the work's success or significance." }],
             steps: [
@@ -302,11 +302,11 @@ export const lesson32: Lesson = {
           id: "va-u3-analysis-structure-q15", difficulty: "challenge", totalMarks: 2,
           stem: "The strongest critical responses typically:",
           response: { type: "mcq", choices: [
-            { id: "a", text: "Keep description, analysis and interpretation clearly separated" },
-            { id: "b", text: "Offer interpretation only" },
-            { id: "c", text: "Avoid judgement entirely" },
+            { id: "a", text: "Offer interpretation only" },
+            { id: "b", text: "Avoid judgement entirely" },
+            { id: "c", text: "Keep description, analysis and interpretation clearly separated" },
             { id: "d", text: "Retell the artwork's story" },
-          ], correctChoiceId: "a" },
+          ], correctChoiceId: "c" },
           markscheme: {
             principles: [{ kind: "technique", name: "Response structure", statement: "Description, analysis, interpretation and judgement each have a distinct function." }],
             steps: [
@@ -372,10 +372,10 @@ export const lesson32: Lesson = {
           stem: "A 'contextual' interpretation of an artwork refers to:",
           response: { type: "mcq", choices: [
             { id: "a", text: "What the artwork means to you personally" },
-            { id: "b", text: "What the artwork meant to its original audience and culture" },
-            { id: "c", text: "The artwork's market value" },
-            { id: "d", text: "The artist's biography alone" },
-          ], correctChoiceId: "b" },
+            { id: "b", text: "The artist's biography alone" },
+            { id: "c", text: "What the artwork meant to its original audience and culture" },
+            { id: "d", text: "The artwork's market value" },
+          ], correctChoiceId: "c" },
           markscheme: {
             principles: [{ kind: "definition", name: "Contextual interpretation", statement: "Reading the work through its original cultural and historical setting." }],
             steps: [
@@ -450,11 +450,11 @@ export const lesson32: Lesson = {
           id: "va-u3-interpretive-writing-q5", difficulty: "foundation", totalMarks: 2,
           stem: "A 'personal' interpretation of an artwork is:",
           response: { type: "mcq", choices: [
-            { id: "a", text: "What the work meant to its original audience" },
-            { id: "b", text: "Your own reading of what the work means" },
-            { id: "c", text: "The artwork's market value" },
-            { id: "d", text: "The artist's biography" },
-          ], correctChoiceId: "b" },
+            { id: "a", text: "The artist's biography" },
+            { id: "b", text: "The artwork's market value" },
+            { id: "c", text: "What the work meant to its original audience" },
+            { id: "d", text: "Your own reading of what the work means" },
+          ], correctChoiceId: "d" },
           markscheme: {
             principles: [{ kind: "definition", name: "Personal interpretation", statement: "An individual's own reading of the work's meaning." }],
             steps: [
@@ -484,10 +484,10 @@ export const lesson32: Lesson = {
           id: "va-u3-interpretive-writing-q7", difficulty: "core", totalMarks: 2,
           stem: "An interpretation of an artwork is strongest when it is supported by:",
           response: { type: "mcq", choices: [
-            { id: "a", text: "The artist's fame" },
+            { id: "a", text: "The title alone" },
             { id: "b", text: "Specific visual evidence from the work" },
-            { id: "c", text: "The title alone" },
-            { id: "d", text: "Other students' opinions" },
+            { id: "c", text: "Other students' opinions" },
+            { id: "d", text: "The artist's fame" },
           ], correctChoiceId: "b" },
           markscheme: {
             principles: [{ kind: "skill", name: "Evidence for interpretation", statement: "Interpretation must be anchored in specific visual details." }],
@@ -520,9 +520,9 @@ export const lesson32: Lesson = {
           stem: "Multiple valid interpretations of one artwork can coexist because:",
           response: { type: "mcq", choices: [
             { id: "a", text: "Artworks are ambiguous and different evidence selections yield different readings" },
-            { id: "b", text: "Critics disagree randomly" },
-            { id: "c", text: "Artworks have no meaning" },
-            { id: "d", text: "Interpretations are guesses" },
+            { id: "b", text: "Artworks have no meaning" },
+            { id: "c", text: "Interpretations are guesses" },
+            { id: "d", text: "Critics disagree randomly" },
           ], correctChoiceId: "a" },
           markscheme: {
             principles: [{ kind: "principle", name: "Plural interpretation", statement: "Ambiguity allows several evidence-based readings to coexist." }],
@@ -567,11 +567,11 @@ export const lesson32: Lesson = {
           id: "va-u3-interpretive-writing-q11", difficulty: "foundation", totalMarks: 2,
           stem: "A 'universal' interpretation asks what an artwork says about:",
           response: { type: "mcq", choices: [
-            { id: "a", text: "Its original historical audience only" },
-            { id: "b", text: "Human experience across cultures and times" },
-            { id: "c", text: "Its auction price" },
-            { id: "d", text: "The artist's nationality" },
-          ], correctChoiceId: "b" },
+            { id: "a", text: "Human experience across cultures and times" },
+            { id: "b", text: "Its auction price" },
+            { id: "c", text: "The artist's nationality" },
+            { id: "d", text: "Its original historical audience only" },
+          ], correctChoiceId: "a" },
           markscheme: {
             principles: [{ kind: "definition", name: "Universal interpretation", statement: "Reading the work as speaking to shared human experience." }],
             steps: [
@@ -601,11 +601,11 @@ export const lesson32: Lesson = {
           id: "va-u3-interpretive-writing-q13", difficulty: "core", totalMarks: 2,
           stem: "Which judgement is specific and linked to evidence?",
           response: { type: "mcq", choices: [
-            { id: "a", text: "\"It is good\"" },
-            { id: "b", text: "\"The empty space around the lone figure creates isolation that mirrors the theme of exile\"" },
+            { id: "a", text: "\"I prefer the other work\"" },
+            { id: "b", text: "\"It is good\"" },
             { id: "c", text: "\"The colours are nice\"" },
-            { id: "d", text: "\"I prefer the other work\"" },
-          ], correctChoiceId: "b" },
+            { id: "d", text: "\"The empty space around the lone figure creates isolation that mirrors the theme of exile\"" },
+          ], correctChoiceId: "d" },
           markscheme: {
             principles: [{ kind: "skill", name: "Specific judgement", statement: "Strong judgements cite evidence and connect form to meaning." }],
             steps: [
@@ -640,11 +640,11 @@ export const lesson32: Lesson = {
           id: "va-u3-interpretive-writing-q15", difficulty: "challenge", totalMarks: 2,
           stem: "A balanced judgement of an artwork should assess whether:",
           response: { type: "mcq", choices: [
-            { id: "a", text: "The artist is famous" },
-            { id: "b", text: "The form serves the content and the work achieves its apparent aims coherently" },
-            { id: "c", text: "The frame is expensive" },
+            { id: "a", text: "The form serves the content and the work achieves its apparent aims coherently" },
+            { id: "b", text: "The frame is expensive" },
+            { id: "c", text: "The artist is famous" },
             { id: "d", text: "The work is old" },
-          ], correctChoiceId: "b" },
+          ], correctChoiceId: "a" },
           markscheme: {
             principles: [{ kind: "principle", name: "Judgement criteria", statement: "Judgement asks whether form serves content and aims are achieved." }],
             steps: [

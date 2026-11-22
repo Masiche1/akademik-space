@@ -75,10 +75,10 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Blueshift" },
+              { id: "a", text: "Scattering" },
               { id: "b", text: "Redshift" },
               { id: "c", text: "Doppler broadening" },
-              { id: "d", text: "Scattering" },
+              { id: "d", text: "Blueshift" },
             ],
             correctChoiceId: "b",
           },
@@ -314,12 +314,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Its distance (inverse square law)" },
+              { id: "a", text: "The Moon's phase" },
               { id: "b", text: "Its colour only" },
-              { id: "c", text: "The Earth's rotation" },
-              { id: "d", text: "The Moon's phase" },
+              { id: "c", text: "Its distance (inverse square law)" },
+              { id: "d", text: "The Earth's rotation" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

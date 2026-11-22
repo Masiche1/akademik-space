@@ -57,12 +57,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Primary consumer (herbivore)" },
-              { id: "b", text: "Producer" },
-              { id: "c", text: "Secondary consumer" },
-              { id: "d", text: "Top predator" },
+              { id: "a", text: "Top predator" },
+              { id: "b", text: "Primary consumer (herbivore)" },
+              { id: "c", text: "Producer" },
+              { id: "d", text: "Secondary consumer" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -84,12 +84,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Direction of energy flow" },
+              { id: "a", text: "Movement of organisms" },
               { id: "b", text: "Who eats whom only" },
-              { id: "c", text: "Movement of organisms" },
-              { id: "d", text: "Direction of water flow" },
+              { id: "c", text: "Direction of water flow" },
+              { id: "d", text: "Direction of energy flow" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -112,12 +112,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Only ~10% of energy transfers between levels; insufficient energy remains for more levels" },
+              { id: "a", text: "Decomposers eat all top predators" },
               { id: "b", text: "There aren't enough species" },
-              { id: "c", text: "Decomposers eat all top predators" },
+              { id: "c", text: "Only ~10% of energy transfers between levels; insufficient energy remains for more levels" },
               { id: "d", text: "Food chains must be simple" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -171,12 +171,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A producer" },
-              { id: "b", text: "A carnivore" },
-              { id: "c", text: "A decomposer" },
-              { id: "d", text: "A top predator" },
+              { id: "a", text: "A carnivore" },
+              { id: "b", text: "A producer" },
+              { id: "c", text: "A top predator" },
+              { id: "d", text: "A decomposer" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -199,8 +199,8 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "The direction of energy flow" },
-              { id: "b", text: "The direction of water flow" },
-              { id: "c", text: "Migration patterns" },
+              { id: "b", text: "Migration patterns" },
+              { id: "c", text: "The direction of water flow" },
               { id: "d", text: "Who is bigger" },
             ],
             correctChoiceId: "a",
@@ -226,12 +226,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Multiple feeding pathways provide redundancy — if one species is lost, alternatives buffer the effect" },
-              { id: "b", text: "Food webs have more energy" },
-              { id: "c", text: "Food chains are always longer" },
+              { id: "a", text: "Food chains are always longer" },
+              { id: "b", text: "Multiple feeding pathways provide redundancy — if one species is lost, alternatives buffer the effect" },
+              { id: "c", text: "Food webs have more energy" },
               { id: "d", text: "Webs contain no predators" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -465,12 +465,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Dead matter would accumulate and nutrients would be locked away — producers would eventually starve" },
-              { id: "b", text: "Nothing — decomposers aren't important" },
-              { id: "c", text: "More food would be available" },
+              { id: "a", text: "Nothing — decomposers aren't important" },
+              { id: "b", text: "More food would be available" },
+              { id: "c", text: "Dead matter would accumulate and nutrients would be locked away — producers would eventually starve" },
               { id: "d", text: "Predators would increase" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -527,9 +527,9 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Respiration" },
-              { id: "b", text: "Photosynthesis" },
-              { id: "c", text: "Nitrogen fixation" },
-              { id: "d", text: "Absorption" },
+              { id: "b", text: "Nitrogen fixation" },
+              { id: "c", text: "Absorption" },
+              { id: "d", text: "Photosynthesis" },
             ],
             correctChoiceId: "a",
           },
@@ -553,12 +553,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Convert atmospheric N₂ into usable nitrates/nitrites for plants" },
-              { id: "b", text: "Break down dead matter" },
-              { id: "c", text: "Produce oxygen" },
-              { id: "d", text: "Fix carbon dioxide" },
+              { id: "a", text: "Fix carbon dioxide" },
+              { id: "b", text: "Produce oxygen" },
+              { id: "c", text: "Break down dead matter" },
+              { id: "d", text: "Convert atmospheric N₂ into usable nitrates/nitrites for plants" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -581,12 +581,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Legumes host nitrogen-fixing bacteria in root nodules, enriching soil nitrogen for subsequent crops" },
-              { id: "b", text: "Legumes kill pests" },
-              { id: "c", text: "Legumes use less water" },
-              { id: "d", text: "Legumes break up soil only" },
+              { id: "a", text: "Legumes break up soil only" },
+              { id: "b", text: "Legumes use less water" },
+              { id: "c", text: "Legumes kill pests" },
+              { id: "d", text: "Legumes host nitrogen-fixing bacteria in root nodules, enriching soil nitrogen for subsequent crops" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -642,9 +642,9 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Photosynthesis" },
-              { id: "b", text: "Respiration" },
-              { id: "c", text: "Combustion" },
-              { id: "d", text: "Decomposition" },
+              { id: "b", text: "Combustion" },
+              { id: "c", text: "Decomposition" },
+              { id: "d", text: "Respiration" },
             ],
             correctChoiceId: "a",
           },
@@ -669,9 +669,9 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Nitrates/nitrites usable by plants" },
-              { id: "b", text: "Carbon dioxide" },
-              { id: "c", text: "Oxygen" },
-              { id: "d", text: "Glucose" },
+              { id: "b", text: "Oxygen" },
+              { id: "c", text: "Glucose" },
+              { id: "d", text: "Carbon dioxide" },
             ],
             correctChoiceId: "a",
           },
@@ -696,12 +696,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The triple bond in N₂ is very strong — plants lack the enzymes to break it" },
-              { id: "b", text: "N₂ is too heavy for roots to absorb" },
-              { id: "c", text: "N₂ is poisonous to plants" },
-              { id: "d", text: "Plants only absorb oxygen" },
+              { id: "a", text: "Plants only absorb oxygen" },
+              { id: "b", text: "N₂ is poisonous to plants" },
+              { id: "c", text: "The triple bond in N₂ is very strong — plants lack the enzymes to break it" },
+              { id: "d", text: "N₂ is too heavy for roots to absorb" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -935,12 +935,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Prey populations may explode, overgrazing plants and disrupting the whole food web (trophic cascade)" },
-              { id: "b", text: "Nothing changes" },
-              { id: "c", text: "Only the predator population is affected" },
-              { id: "d", text: "Plants increase without limit" },
+              { id: "a", text: "Only the predator population is affected" },
+              { id: "b", text: "Plants increase without limit" },
+              { id: "c", text: "Prey populations may explode, overgrazing plants and disrupting the whole food web (trophic cascade)" },
+              { id: "d", text: "Nothing changes" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

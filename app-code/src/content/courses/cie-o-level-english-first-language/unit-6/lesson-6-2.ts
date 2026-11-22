@@ -76,15 +76,15 @@ export const lesson162: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              {
-                id: "a",
-                text: "Words chosen to provoke an emotional response",
-              },
+              { id: "a", text: "Words repeated for effect" },
               { id: "b", text: "Words that state facts" },
               { id: "c", text: "Words with technical meaning" },
-              { id: "d", text: "Words repeated for effect" },
+              {
+                id: "d",
+                text: "Words chosen to provoke an emotional response",
+              },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -373,6 +373,581 @@ export const lesson162: Lesson = {
             ],
           },
         },
+        {
+          id: "cie-ol-fl-ua-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "What are 'inclusive pronouns' in persuasive writing?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Words like 'we' and 'us' that include the reader" },
+              { id: "b", text: "Words that describe objects" },
+              { id: "c", text: "Names of famous people" },
+              { id: "d", text: "Numbers and statistics" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Inclusive pronouns",
+                statement:
+                  "'We'/'us' make the reader feel part of the writer's side.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "'We' includes the audience.",
+                marks: 1,
+                markCode: "AO1",
+              },
+            ],
+            finalAnswer: "**(a)** Words like 'we' and 'us' that include the reader",
+            commonErrors: ["Thinking pronouns are just grammar, not persuasion."],
+          },
+        },
+        {
+          id: "cie-ol-fl-ua-q6",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Which persuasive technique does the leaflet mainly use?",
+          extract: {
+            title: "Save the Playground",
+            author: "Written for Akademik Space",
+            text: "Every child deserves a safe place to play. Last year, the council cut playground funding by half — and now our only green space is threatened with development. We cannot stand by while they build over our children's futures. Sign the petition today, before it's too late.",
+          },
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Statistics only" },
+              { id: "b", text: "Emotive language and direct address" },
+              { id: "c", text: "Neutral reporting" },
+              { id: "d", text: "Expert quotations" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Emotive language",
+                statement:
+                  "Words like 'deserves' and 'threatened' provoke feeling; 'sign' is direct address.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Emotive words plus 'Sign the petition' direct the reader.",
+                marks: 1,
+                markCode: "AO2",
+              },
+            ],
+            finalAnswer: "**(a)** Emotive language and direct address",
+            commonErrors: ["Missing the direct command to sign."],
+          },
+        },
+        {
+          id: "cie-ol-fl-ua-q7",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "Explain the effect of the emotive language in the leaflet.",
+          extract: {
+            title: "Save the Playground",
+            author: "Written for Akademik Space",
+            text: "Every child deserves a safe place to play. Last year, the council cut playground funding by half — and now our only green space is threatened with development. We cannot stand by while they build over our children's futures. Sign the petition today, before it's too late.",
+          },
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Emotive language",
+                statement:
+                  "Feeling-laden words bypass reason and appeal to sympathy or fear.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "'Deserves', 'threatened', 'children's futures' appeal to sympathy.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "This pressures the reader to act emotionally.",
+                marks: 1,
+                markCode: "AO3",
+              },
+            ],
+            finalAnswer:
+              "Emotive words provoke sympathy and urgency, pushing the reader to sign.",
+            commonErrors: ["Identifying words without explaining their emotional pull."],
+          },
+        },
+        {
+          id: "cie-ol-fl-ua-q8",
+          difficulty: "challenge",
+          totalMarks: 3,
+          stem: "What effect does the rhetorical question create in the article?",
+          extract: {
+            title: "Cycling to School",
+            author: "Written for Akademik Space",
+            text: "Nine out of ten parents say they would let their children cycle to school if the roads were safer. Yet many still drive them, caught between fear and habit. Safer cycle lanes aren't a luxury — they're a necessity for healthier, happier children.",
+          },
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Rhetorical devices",
+                statement:
+                  "The contrast 'aren't a luxury — they're a necessity' functions like a rhetorical challenge.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "The contrast challenges the reader's assumption.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "It forces the reader to reconsider 'luxury' vs 'necessity'.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "This strengthens the persuasive case for cycle lanes.",
+                marks: 1,
+                markCode: "AO3",
+              },
+            ],
+            finalAnswer:
+              "The contrast challenges assumptions and strengthens the argument for safer lanes.",
+            commonErrors: ["Calling it a question when it is a contrast — still persuasive."],
+          },
+        },
+        {
+          id: "cie-ol-fl-ua-q9",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "How does the poster mix fact and opinion? Is it biased? Justify.",
+          extract: {
+            title: "Library Campaign",
+            author: "Written for Akademik Space",
+            text: "Did you know our library lends more books per reader than any in the region? It's free, it's quiet, and it's yours. This Saturday, join the summer reading challenge — bring a friend, pick a book, and discover what you've been missing.",
+          },
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "skill",
+                name: "Fact vs opinion",
+                statement:
+                  "Statistics are verifiable; 'discover what you've been missing' is opinionated appeal.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "'Lends more books per reader' is a checkable fact.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "'It's yours', 'what you've been missing' are value judgements.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "The poster is one-sided by design — it promotes an event.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "Justified assessment of bias.",
+                marks: 1,
+                markCode: "AO3",
+              },
+            ],
+            finalAnswer:
+              "It mixes a statistic with promotional opinion; one-sided because it aims to persuade, not inform neutrally.",
+            commonErrors: ["Calling everything 'fact' or everything 'opinion'."],
+          },
+        },
+        {
+          id: "cie-ol-fl-ua-q10",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "What is 'bias' in a persuasive text?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "A neutral report" },
+              { id: "b", text: "A one-sided presentation favouring one viewpoint" },
+              { id: "c", text: "A list of statistics" },
+              { id: "d", text: "A balanced argument" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Bias",
+                statement:
+                  "One-sided presentation that favours a particular viewpoint.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Bias = one-sided favouring.",
+                marks: 1,
+                markCode: "AO1",
+              },
+            ],
+            finalAnswer: "**(a)** A one-sided presentation favouring one viewpoint",
+            commonErrors: ["Confusing bias with balance."],
+          },
+        },
+        {
+          id: "cie-ol-fl-ua-q11",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Which phrase best illustrates the 'rule of three'?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "'The meeting is on Tuesday'" },
+              { id: "b", text: "'We want changes'" },
+              { id: "c", text: "'We want fair pay, safe conditions and dignity at work'" },
+              { id: "d", text: "'Please read the document carefully'" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Rule of three",
+                statement:
+                  "Three parallel items create rhythm and memorability.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Three parallel demands = rule of three.",
+                marks: 1,
+                markCode: "AO2",
+              },
+            ],
+            finalAnswer: "**(a)** 'We want fair pay, safe conditions and dignity at work'",
+            commonErrors: ["Choosing a single item or unrelated sentence."],
+          },
+        },
+        {
+          id: "cie-ol-fl-ua-q12",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "Name two persuasive techniques used in the cycling article.",
+          extract: {
+            title: "Cycling to School",
+            author: "Written for Akademik Space",
+            text: "Nine out of ten parents say they would let their children cycle to school if the roads were safer. Yet many still drive them, caught between fear and habit. Safer cycle lanes aren't a luxury — they're a necessity for healthier, happier children.",
+          },
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Persuasive devices",
+                statement:
+                  "Statistics, emotive language ('healthier, happier') and contrast are used.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Any two of statistics, emotive language, contrast, inclusive 'our'.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                reasoning: "Both identified from the text.",
+                marks: 1,
+                markCode: "AO3",
+              },
+            ],
+            finalAnswer: "Statistics ('nine out of ten') and emotive language ('healthier, happier').",
+            commonErrors: ["Naming techniques not present in the extract."],
+          },
+        },
+        {
+          id: "cie-ol-fl-ua-q13",
+          difficulty: "challenge",
+          totalMarks: 3,
+          stem: "How does direct address persuade a reader?",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Direct address",
+                statement:
+                  "Commands and 'you'/'we' make the reader feel personally involved and responsible.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "'Sign', 'join', 'you' make the reader the actor.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "Personal involvement increases pressure to comply.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "Clear explanation of effect.",
+                marks: 1,
+                markCode: "AO3",
+              },
+            ],
+            finalAnswer:
+              "Direct address makes the reader feel personally responsible, increasing persuasive pressure.",
+            commonErrors: ["Defining direct address without explaining its effect."],
+          },
+        },
+        {
+          id: "cie-ol-fl-ua-q14",
+          difficulty: "challenge",
+          totalMarks: 8,
+          stem: "The Campaign Leaflet",
+          extract: {
+            title: "Campaign Leaflet",
+            author: "Written for Akademik Space",
+            text: "Don't let them take our library. Every week, thousands of residents borrow books, use the computers, and attend free events. The council wants to close it and sell the building. We can't let that happen — not while our children still need a safe place to learn and our elderly still need warmth and company. Join us at the public meeting on Thursday. Together, we can save it.",
+          },
+          parts: [
+            { label: "a", prompt: "State the leaflet's purpose and audience.", marks: 2 },
+            { label: "b", prompt: "Identify two persuasive techniques used.", marks: 2 },
+            { label: "c", prompt: "Explain the effect of 'Together, we can save it'.", marks: 2 },
+            { label: "d", prompt: "Is the leaflet biased? Justify.", marks: 2 },
+          ],
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "skill",
+                name: "Persuasive analysis",
+                statement: "Purpose+audience+technique+effect+bias.",
+              },
+            ],
+            steps: [
+              {
+                part: "a",
+                reasoning: "Purpose: persuade residents to oppose closure/join meeting.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                part: "a",
+                reasoning: "Audience: local residents who use the library.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                part: "b",
+                reasoning: "First technique, e.g. emotive language ('warmth and company').",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                part: "b",
+                reasoning: "Second technique, e.g. inclusive 'we' or direct address.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                part: "c",
+                reasoning: "Inclusive 'we' unites writer and reader against 'them'.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                part: "c",
+                reasoning: "Creates shared purpose and momentum.",
+                marks: 1,
+                markCode: "AO3",
+              },
+              {
+                part: "d",
+                reasoning: "Yes — it presents only the campaign's side.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                part: "d",
+                reasoning: "Justified by one-sided emotional appeal.",
+                marks: 1,
+                markCode: "AO3",
+              },
+            ],
+            finalAnswer:
+              "(a) persuade residents (b) two techniques (c) unity+shared purpose (d) yes, one-sided",
+            levels: [
+              { level: "Level 2", marks: "1-2", descriptor: "Purpose+audience.", part: "a" },
+              { level: "Level 1", marks: "0", descriptor: "Partial.", part: "a" },
+              { level: "Level 2", marks: "1-2", descriptor: "Two techniques.", part: "b" },
+              { level: "Level 1", marks: "0", descriptor: "None.", part: "b" },
+              { level: "Level 2", marks: "1-2", descriptor: "Effect explained.", part: "c" },
+              { level: "Level 1", marks: "0", descriptor: "None.", part: "c" },
+              { level: "Level 2", marks: "1-2", descriptor: "Bias judged.", part: "d" },
+              { level: "Level 1", marks: "0", descriptor: "None.", part: "d" },
+            ],
+            commonErrors: ["Identifying techniques without linking to persuasive effect."],
+          },
+        },
+        {
+          id: "cie-ol-fl-ua-q15",
+          difficulty: "challenge",
+          totalMarks: 9,
+          stem: "Analysing a persuasive text.",
+          extract: {
+            title: "An Open Letter",
+            author: "Written for Akademik Space",
+            text: "Dear Councillor, I am writing because our town's youth club faces closure. Three hundred young people use it every week. It is not just a building — it is where they learn to swim, play music and feel they belong. Cutting it would save money, yes, but at what cost to a generation? I urge you to reconsider. Yours sincerely, A Concerned Resident.",
+          },
+          parts: [
+            { label: "a", prompt: "State the writer's purpose.", marks: 1 },
+            { label: "b", prompt: "Identify two persuasive techniques.", marks: 2 },
+            { label: "c", prompt: "Explain the effect of the rhetorical question.", marks: 3 },
+            { label: "d", prompt: "Evaluate how well the argument is supported.", marks: 3 },
+          ],
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "skill",
+                name: "Persuasive analysis",
+                statement: "Purpose+technique+effect+evaluation.",
+              },
+            ],
+            steps: [
+              {
+                part: "a",
+                reasoning: "To persuade the councillor to save the youth club.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                part: "b",
+                reasoning: "First technique, e.g. emotive language ('belong').",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                part: "b",
+                reasoning: "Second technique, e.g. statistics ('three hundred') or rhetorical question.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                part: "c",
+                reasoning: "'At what cost to a generation?' challenges the decision.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                part: "c",
+                reasoning: "It reframes saving money as a moral cost.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                part: "c",
+                reasoning: "Effect clearly explained.",
+                marks: 1,
+                markCode: "AO3",
+              },
+              {
+                part: "d",
+                reasoning: "Evidence given: numbers, benefits listed.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                part: "d",
+                reasoning: "But mostly emotional appeal, limited counter-argument.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                part: "d",
+                reasoning: "Balanced evaluation.",
+                marks: 1,
+                markCode: "AO3",
+              },
+            ],
+            finalAnswer:
+              "(a) save youth club (b) two techniques (c) moral reframing (d) emotive+some evidence",
+            levels: [
+              { level: "Level 2", marks: "1", descriptor: "Purpose stated.", part: "a" },
+              { level: "Level 1", marks: "0", descriptor: "None.", part: "a" },
+              { level: "Level 2", marks: "1-2", descriptor: "Two techniques.", part: "b" },
+              { level: "Level 1", marks: "0", descriptor: "None.", part: "b" },
+              { level: "Level 3", marks: "2-3", descriptor: "Effect explained.", part: "c" },
+              { level: "Level 2", marks: "1", descriptor: "Partial.", part: "c" },
+              { level: "Level 1", marks: "0", descriptor: "None.", part: "c" },
+              { level: "Level 3", marks: "2-3", descriptor: "Evaluation balanced.", part: "d" },
+              { level: "Level 2", marks: "1", descriptor: "Partial.", part: "d" },
+              { level: "Level 1", marks: "0", descriptor: "None.", part: "d" },
+            ],
+            commonErrors: ["Listing techniques without linking to persuasive effect."],
+          },
+        },
+        {
+          id: "cie-ol-fl-ua-q16",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "Discuss how statistics and anecdote differ as persuasive evidence.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Evidence types",
+                statement:
+                  "Statistics give apparent authority; anecdotes give emotional, human proof.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Statistics feel objective and authoritative.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "Anecdotes feel personal and relatable.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "Each can be manipulated or misused.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "Clear comparison.",
+                marks: 1,
+                markCode: "AO3",
+              },
+            ],
+            finalAnswer:
+              "Statistics persuade through authority; anecdotes through emotion and relatability.",
+            commonErrors: ["Treating all evidence as equally convincing."],
+          },
+        },
       ],
     },
     {
@@ -416,12 +991,12 @@ export const lesson162: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Clear, objective explanation of a topic" },
-              { id: "b", text: "Emotional persuasion" },
-              { id: "c", text: "Fictional storytelling" },
-              { id: "d", text: "Personal opinion only" },
+              { id: "a", text: "Fictional storytelling" },
+              { id: "b", text: "Clear, objective explanation of a topic" },
+              { id: "c", text: "Personal opinion only" },
+              { id: "d", text: "Emotional persuasion" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -694,6 +1269,585 @@ export const lesson162: Lesson = {
             commonErrors: [
               "Summarising without analysing structure or purpose.",
             ],
+          },
+        },
+        {
+          id: "cie-ol-fl-ui-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "What is 'expository writing'?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Personal diary entries" },
+              { id: "b", text: "Emotional persuasion" },
+              { id: "c", text: "Fictional storytelling" },
+              { id: "d", text: "Objective explanation of a factual topic" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Expository writing",
+                statement:
+                  "Clear, objective explanation of factual topics.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Expository = objective explanation.",
+                marks: 1,
+                markCode: "AO1",
+              },
+            ],
+            finalAnswer: "**(a)** Objective explanation of a factual topic",
+            commonErrors: ["Confusing exposition with argument or narrative."],
+          },
+        },
+        {
+          id: "cie-ol-fl-ui-q6",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "How is the recycling text mainly organised?",
+          extract: {
+            title: "How Recycling Works",
+            author: "Written for Akademik Space",
+            text: "Recycling begins at the kerbside bin. Collected materials are sorted at a facility, then processed into raw materials. Paper becomes pulp; plastic is melted and reformed; glass is crushed and remelted. Therefore, what you put in the right bin directly determines what can be reused.",
+          },
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "As a story with characters" },
+              { id: "b", text: "As a comparison of two products" },
+              { id: "c", text: "As a sequence of steps" },
+              { id: "d", text: "As a list of opinions" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "convention",
+                name: "Text structure",
+                statement:
+                  "The text follows a process: collect, sort, process, reuse.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Sequence of steps from bin to reuse.",
+                marks: 1,
+                markCode: "AO2",
+              },
+            ],
+            finalAnswer: "**(a)** As a sequence of steps",
+            commonErrors: ["Missing the chronological process structure."],
+          },
+        },
+        {
+          id: "cie-ol-fl-ui-q7",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "How do the stages in the water cycle text help the reader?",
+          extract: {
+            title: "The Water Cycle",
+            author: "Written for Akademik Space",
+            text: "The water cycle describes how water moves around the Earth. The sun heats water in oceans and lakes, turning it into vapour that rises. As the air cools, the vapour condenses into clouds. Finally, precipitation returns the water to the ground, where it may flow back to the sea.",
+          },
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "convention",
+                name: "Text organisation",
+                statement:
+                  "Stage-by-stage organisation makes a process easy to follow.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Each stage is signalled ('finally', 'as the air cools').",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "The reader can track the process in order.",
+                marks: 1,
+                markCode: "AO3",
+              },
+            ],
+            finalAnswer:
+              "Clear stages and connectors let the reader follow the process step by step.",
+            commonErrors: ["Summarising content without analysing structure."],
+          },
+        },
+        {
+          id: "cie-ol-fl-ui-q8",
+          difficulty: "challenge",
+          totalMarks: 3,
+          stem: "How does the impersonal tone of the solar panel text serve its purpose?",
+          extract: {
+            title: "Solar Panels Explained",
+            author: "Written for Akademik Space",
+            text: "Solar panels convert sunlight into electricity. When light hits the panel's cells, it knocks electrons loose, creating a flow of current. This current is collected by wires and can power homes, schools and businesses. Unlike fossil fuels, sunlight is free and produces no pollution.",
+          },
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Expository tone",
+                statement:
+                  "Impersonal, precise language keeps focus on the process, not the writer.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "No 'I' or personal opinion — the process is the subject.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "Precise verbs ('convert', 'knocks loose') explain clearly.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "Objectivity suits an explanatory purpose.",
+                marks: 1,
+                markCode: "AO3",
+              },
+            ],
+            finalAnswer:
+              "Impersonal precision keeps the focus on how the technology works, serving the explanatory purpose.",
+            commonErrors: ["Describing the topic without analysing the tone."],
+          },
+        },
+        {
+          id: "cie-ol-fl-ui-q9",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "Evaluate the reliability of the solar panel text as a source of information.",
+          extract: {
+            title: "Solar Panels Explained",
+            author: "Written for Akademik Space",
+            text: "Solar panels convert sunlight into electricity. When light hits the panel's cells, it knocks electrons loose, creating a flow of current. This current is collected by wires and can power homes, schools and businesses. Unlike fossil fuels, sunlight is free and produces no pollution.",
+          },
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "skill",
+                name: "Evaluating information",
+                statement:
+                  "Assess clarity, accuracy and balance of an information text.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "The explanation is clear and technically accurate.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "It is somewhat one-sided — no mention of costs or limits.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "No source or evidence is cited for claims.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "Overall judgement justified.",
+                marks: 1,
+                markCode: "AO3",
+              },
+            ],
+            finalAnswer:
+              "Clear and accurate but one-sided; lacks balance and cited evidence, so reliable for basics but incomplete.",
+            commonErrors: ["Accepting the text without evaluating balance."],
+          },
+        },
+        {
+          id: "cie-ol-fl-ui-q10",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "What does a compare/contrast structure do in an information text?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "It tells events in time order" },
+              { id: "b", text: "It lists a problem then a solution" },
+              { id: "c", text: "It persuades the reader" },
+              { id: "d", text: "It shows similarities and differences between things" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "convention",
+                name: "Compare/contrast",
+                statement:
+                  "Organises information by similarities and differences.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Compare/contrast = similarities + differences.",
+                marks: 1,
+                markCode: "AO1",
+              },
+            ],
+            finalAnswer: "**(a)** It shows similarities and differences between things",
+            commonErrors: ["Confusing with sequence or problem/solution."],
+          },
+        },
+        {
+          id: "cie-ol-fl-ui-q11",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "What does the connector 'Therefore' signal in the recycling text?",
+          extract: {
+            title: "How Recycling Works",
+            author: "Written for Akademik Space",
+            text: "Recycling begins at the kerbside bin. Collected materials are sorted at a facility, then processed into raw materials. Paper becomes pulp; plastic is melted and reformed; glass is crushed and remelted. Therefore, what you put in the right bin directly determines what can be reused.",
+          },
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "A new topic" },
+              { id: "b", text: "An example" },
+              { id: "c", text: "A conclusion drawn from the previous steps" },
+              { id: "d", text: "A contradiction" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Connectors",
+                statement:
+                  "'Therefore' signals a logical conclusion from what precedes.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "'Therefore' = conclusion follows.",
+                marks: 1,
+                markCode: "AO2",
+              },
+            ],
+            finalAnswer: "**(a)** A conclusion drawn from the previous steps",
+            commonErrors: ["Treating it as a topic shift."],
+          },
+        },
+        {
+          id: "cie-ol-fl-ui-q12",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "Name two organisational features of the water cycle text.",
+          extract: {
+            title: "The Water Cycle",
+            author: "Written for Akademik Space",
+            text: "The water cycle describes how water moves around the Earth. The sun heats water in oceans and lakes, turning it into vapour that rises. As the air cools, the vapour condenses into clouds. Finally, precipitation returns the water to the ground, where it may flow back to the sea.",
+          },
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "convention",
+                name: "Text organisation",
+                statement:
+                  "Sequential stages and signal words organise the explanation.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Any two of chronological stages, connectors, single topic focus.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                reasoning: "Both correctly identified from the text.",
+                marks: 1,
+                markCode: "AO3",
+              },
+            ],
+            finalAnswer: "Chronological stages with connectors like 'finally' and 'as'.",
+            commonErrors: ["Describing content without identifying structure."],
+          },
+        },
+        {
+          id: "cie-ol-fl-ui-q13",
+          difficulty: "challenge",
+          totalMarks: 3,
+          stem: "How do examples make abstract points concrete in an information text?",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Examples",
+                statement:
+                  "Concrete instances give the reader something familiar to grasp.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Abstract ideas are hard to picture without an instance.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "Examples translate them into familiar, checkable cases.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "This improves clarity and credibility.",
+                marks: 1,
+                markCode: "AO3",
+              },
+            ],
+            finalAnswer:
+              "Examples turn abstract ideas into familiar, concrete cases, improving clarity.",
+            commonErrors: ["Saying 'examples help' without explaining how."],
+          },
+        },
+        {
+          id: "cie-ol-fl-ui-q14",
+          difficulty: "challenge",
+          totalMarks: 8,
+          stem: "The Museum Guide",
+          extract: {
+            title: "The Museum Guide",
+            author: "Written for Akademik Space",
+            text: "The City Museum occupies a former railway station built in 1898. Its main gallery displays local history, from the first settlers to the industrial boom. A second wing houses a working print shop where visitors can try handset type. Admission is free on the first Sunday of each month.",
+          },
+          parts: [
+            { label: "a", prompt: "State two literal details about the museum.", marks: 2 },
+            { label: "b", prompt: "How is the information organised?", marks: 2 },
+            { label: "c", prompt: "What tone does the text use and why?", marks: 2 },
+            { label: "d", prompt: "Suggest one improvement to make the text more informative.", marks: 2 },
+          ],
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "skill",
+                name: "Info text analysis",
+                statement: "Literal+structure+tone+evaluation.",
+              },
+            ],
+            steps: [
+              {
+                part: "a",
+                reasoning: "Former railway station from 1898; free first Sunday monthly.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                part: "a",
+                reasoning: "Accurate stated detail.",
+                marks: 1,
+                markCode: "AO3",
+              },
+              {
+                part: "b",
+                reasoning: "Organised by location/features: building, galleries, admission.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                part: "b",
+                reasoning: "Clear organisational description.",
+                marks: 1,
+                markCode: "AO3",
+              },
+              {
+                part: "c",
+                reasoning: "Formal and factual, suiting an information guide.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                part: "c",
+                reasoning: "Tone linked to purpose.",
+                marks: 1,
+                markCode: "AO3",
+              },
+              {
+                part: "d",
+                reasoning: "A plausible improvement, e.g. opening hours or directions.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                part: "d",
+                reasoning: "Improvement is relevant and practical.",
+                marks: 1,
+                markCode: "AO3",
+              },
+            ],
+            finalAnswer:
+              "(a) two details (b) organised by feature (c) formal/factual (d) practical improvement",
+            levels: [
+              { level: "Level 2", marks: "1-2", descriptor: "Two details.", part: "a" },
+              { level: "Level 1", marks: "0", descriptor: "Fewer.", part: "a" },
+              { level: "Level 2", marks: "1-2", descriptor: "Structure described.", part: "b" },
+              { level: "Level 1", marks: "0", descriptor: "None.", part: "b" },
+              { level: "Level 2", marks: "1-2", descriptor: "Tone identified.", part: "c" },
+              { level: "Level 1", marks: "0", descriptor: "None.", part: "c" },
+              { level: "Level 2", marks: "1-2", descriptor: "Improvement given.", part: "d" },
+              { level: "Level 1", marks: "0", descriptor: "None.", part: "d" },
+            ],
+            commonErrors: ["Summarising without analysing structure or purpose."],
+          },
+        },
+        {
+          id: "cie-ol-fl-ui-q15",
+          difficulty: "challenge",
+          totalMarks: 9,
+          stem: "Analysing an information text.",
+          extract: {
+            title: "Composting at Home",
+            author: "Written for Akademik Space",
+            text: "Home composting turns kitchen scraps into garden food. To begin, choose a bin with a lid to keep pests out. Add green materials — vegetable peelings, grass clippings — and brown materials — dry leaves, cardboard. Turn the heap every few weeks to add air, and keep it moist but not soggy. In three to six months, you will have dark, crumbly compost.",
+          },
+          parts: [
+            { label: "a", prompt: "State the text's purpose.", marks: 1 },
+            { label: "b", prompt: "Identify two structural features.", marks: 2 },
+            { label: "c", prompt: "Explain how the language keeps the text objective.", marks: 3 },
+            { label: "d", prompt: "Evaluate whether the instructions are complete.", marks: 3 },
+          ],
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "skill",
+                name: "Info text analysis",
+                statement: "Purpose+structure+language+evaluation.",
+              },
+            ],
+            steps: [
+              {
+                part: "a",
+                reasoning: "To instruct readers how to compost at home.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                part: "b",
+                reasoning: "First feature, e.g. sequential instructions or bullet-like listing.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                part: "b",
+                reasoning: "Second feature, e.g. clear categories of materials.",
+                marks: 1,
+                markCode: "AO3",
+              },
+              {
+                part: "c",
+                reasoning: "Imperative, factual verbs ('choose', 'add', 'turn').",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                part: "c",
+                reasoning: "No personal opinion or persuasion.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                part: "c",
+                reasoning: "Precise, practical vocabulary.",
+                marks: 1,
+                markCode: "AO3",
+              },
+              {
+                part: "d",
+                reasoning: "Steps are clear and mostly complete.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                part: "d",
+                reasoning: "But lacks detail on location/size or troubleshooting.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                part: "d",
+                reasoning: "Balanced judgement.",
+                marks: 1,
+                markCode: "AO3",
+              },
+            ],
+            finalAnswer:
+              "(a) instruct composting (b) two features (c) imperative+factual (d) mostly complete",
+            levels: [
+              { level: "Level 2", marks: "1", descriptor: "Purpose stated.", part: "a" },
+              { level: "Level 1", marks: "0", descriptor: "None.", part: "a" },
+              { level: "Level 2", marks: "1-2", descriptor: "Two features.", part: "b" },
+              { level: "Level 1", marks: "0", descriptor: "None.", part: "b" },
+              { level: "Level 3", marks: "2-3", descriptor: "Objectivity explained.", part: "c" },
+              { level: "Level 2", marks: "1", descriptor: "Partial.", part: "c" },
+              { level: "Level 1", marks: "0", descriptor: "None.", part: "c" },
+              { level: "Level 3", marks: "2-3", descriptor: "Evaluation balanced.", part: "d" },
+              { level: "Level 2", marks: "1", descriptor: "Partial.", part: "d" },
+              { level: "Level 1", marks: "0", descriptor: "None.", part: "d" },
+            ],
+            commonErrors: ["Summarising without analysing structure or purpose."],
+          },
+        },
+        {
+          id: "cie-ol-fl-ui-q16",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "Discuss how to evaluate the reliability of an information text.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "skill",
+                name: "Evaluating information",
+                statement:
+                  "Check source, accuracy, balance, currency and evidence.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Consider who wrote it and their authority.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "Check whether evidence is verifiable and current.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "Note whether alternative viewpoints are acknowledged.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "Clear evaluation framework.",
+                marks: 1,
+                markCode: "AO3",
+              },
+            ],
+            finalAnswer:
+              "Source+accuracy+balance+currency+evidence determine reliability.",
+            commonErrors: ["Judging reliability by appearance alone."],
           },
         },
       ],

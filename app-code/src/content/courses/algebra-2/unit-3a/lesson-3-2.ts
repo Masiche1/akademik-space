@@ -54,12 +54,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$-19$" },
-              { id: "b", text: "$5$" },
-              { id: "c", text: "$12$" },
-              { id: "d", text: "$-3$" },
+              { id: "a", text: "$12$" },
+              { id: "b", text: "$-3$" },
+              { id: "c", text: "$-19$" },
+              { id: "d", text: "$5$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -199,10 +199,10 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\frac{1}{2}$" },
+              { id: "a", text: "$8$" },
               { id: "b", text: "$2$" },
               { id: "c", text: "$-2$" },
-              { id: "d", text: "$8$" },
+              { id: "d", text: "$\\frac{1}{2}$" },
             ],
             correctChoiceId: "b",
           },
@@ -348,12 +348,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$y=-3x+5$" },
-              { id: "b", text: "$3x+y=5$" },
-              { id: "c", text: "$x-3y=5$" },
-              { id: "d", text: "$3x-y=5$" },
+              { id: "a", text: "$3x+y=5$" },
+              { id: "b", text: "$x-3y=5$" },
+              { id: "c", text: "$3x-y=5$" },
+              { id: "d", text: "$y=-3x+5$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

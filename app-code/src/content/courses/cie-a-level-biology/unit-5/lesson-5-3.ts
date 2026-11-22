@@ -76,12 +76,12 @@ export const lesson513: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "6CO₂ + 6H₂O + light → C₆H₁₂O₆ + 6O₂" },
+              { id: "a", text: "CO₂ + H₂O → O₂ + glucose" },
               { id: "b", text: "C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O" },
               { id: "c", text: "6O₂ + 6H₂O → C₆H₁₂O₆ + 6CO₂" },
-              { id: "d", text: "CO₂ + H₂O → O₂ + glucose" },
+              { id: "d", text: "6CO₂ + 6H₂O + light → C₆H₁₂O₆ + 6O₂" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -222,6 +222,334 @@ export const lesson513: Lesson = {
               "(a) equation (b) ATP+NADPH+O₂ (c) uses light products (d) water photolysis",
           },
         },
+        {
+          id: "cial-b-u5-ph-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "In which organelle does photosynthesis occur?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Nucleus" },
+              { id: "b", text: "Chloroplast" },
+              { id: "c", text: "Mitochondrion" },
+              { id: "d", text: "Ribosome" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Chloroplast",
+                statement: "Chloroplasts contain chlorophyll and are the site of photosynthesis.",
+              },
+            ],
+            steps: [
+              { reasoning: "Photosynthesis occurs in chloroplasts.", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** Chloroplast",
+            commonErrors: ["Confusing chloroplasts with mitochondria."],
+          },
+        },
+        {
+          id: "cial-b-u5-ph-q6",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Where do the light-dependent reactions occur?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "In the cell wall" },
+              { id: "b", text: "In the stroma" },
+              { id: "c", text: "In the thylakoid membranes" },
+              { id: "d", text: "In the nucleus" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Light-dependent reactions",
+                statement: "Light reactions occur in thylakoid membranes.",
+              },
+            ],
+            steps: [
+              { reasoning: "Thylakoids contain the photosynthetic pigments and electron transport components.", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** Thylakoid membranes",
+            commonErrors: ["Placing light reactions in the stroma."],
+          },
+        },
+        {
+          id: "cial-b-u5-ph-q7",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "What is the source of oxygen released during photosynthesis?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Carbon dioxide" },
+              { id: "b", text: "Chlorophyll" },
+              { id: "c", text: "Photolysis of water" },
+              { id: "d", text: "Breakdown of glucose" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Photolysis",
+                statement: "Water is split in light-dependent reactions, releasing oxygen.",
+              },
+            ],
+            steps: [
+              { reasoning: "Oxygen comes from water, not carbon dioxide.", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** Photolysis of water",
+            commonErrors: ["Saying oxygen comes from $CO_2$."],
+          },
+        },
+        {
+          id: "cial-b-u5-ph-q8",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Which enzyme fixes carbon dioxide in the Calvin cycle?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Amylase" },
+              { id: "b", text: "RuBisCO" },
+              { id: "c", text: "Lipase" },
+              { id: "d", text: "Catalase" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "RuBisCO",
+                statement: "RuBisCO catalyses carbon dioxide fixation onto RuBP.",
+              },
+            ],
+            steps: [
+              { reasoning: "RuBisCO is the $CO_2$-fixing enzyme.", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** RuBisCO",
+            commonErrors: ["Confusing RuBisCO with digestive enzymes."],
+          },
+        },
+        {
+          id: "cial-b-u5-ph-q9",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Which molecules are produced by the light-dependent reactions for use in the Calvin cycle?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Lactate and ethanol" },
+              { id: "b", text: "ATP and NADPH" },
+              { id: "c", text: "Glucose and oxygen only" },
+              { id: "d", text: "DNA and RNA" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Light reaction products",
+                statement: "Light reactions produce ATP, NADPH and oxygen.",
+              },
+            ],
+            steps: [
+              { reasoning: "ATP and NADPH supply energy and reducing power to Calvin cycle.", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** ATP and NADPH",
+            commonErrors: ["Saying glucose is produced directly in light reactions."],
+          },
+        },
+        {
+          id: "cial-b-u5-ph-q10",
+          difficulty: "challenge",
+          totalMarks: 1,
+          stem: "Why does the Calvin cycle depend on the light-dependent reactions?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "It produces light directly" },
+              { id: "b", text: "It uses ATP and NADPH produced by light reactions" },
+              { id: "c", text: "It occurs in thylakoids" },
+              { id: "d", text: "It releases oxygen" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Calvin cycle dependence",
+                statement: "Calvin cycle requires ATP and NADPH from light-dependent reactions.",
+              },
+            ],
+            steps: [
+              { reasoning: "Light products provide energy and reducing equivalents.", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** Uses ATP and NADPH",
+            commonErrors: ["Thinking Calvin cycle is independent of light reactions."],
+          },
+        },
+        {
+          id: "cial-b-u5-ph-q11",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "The overall photosynthesis equation uses 6 carbon dioxide molecules per glucose. How many carbon dioxide molecules are needed to produce 5 glucose molecules?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 30 }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "formula",
+                name: "Photosynthesis equation",
+                statement: "Six $CO_2$ molecules are fixed per glucose produced.",
+              },
+            ],
+            steps: [
+              { reasoning: "$5 \\times 6 = 30$ $CO_2$ molecules.", marks: 1, markCode: "M" },
+              { reasoning: "Thirty carbon dioxide molecules are required.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "30 carbon dioxide molecules",
+            commonErrors: ["Using one $CO_2$ per glucose."],
+          },
+        },
+        {
+          id: "cial-b-u5-ph-q12",
+          difficulty: "challenge",
+          totalMarks: 2,
+          stem: "Twelve water molecules are split during photolysis, producing oxygen molecules. How many oxygen molecules are released?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 6 }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "formula",
+                name: "Photolysis",
+                statement: "Two water molecules provide the atoms for one oxygen molecule.",
+              },
+            ],
+            steps: [
+              { reasoning: "$12 \\div 2 = 6$ oxygen molecules.", marks: 1, markCode: "M" },
+              { reasoning: "Six $O_2$ molecules are released.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "6 oxygen molecules",
+            commonErrors: ["Answering 12 oxygen molecules."],
+          },
+        },
+        {
+          id: "cial-b-u5-ph-q13",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "If 3 glucose molecules are produced, how many carbon dioxide molecules were fixed assuming the overall equation ratio?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 18 }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "formula",
+                name: "Carbon fixation ratio",
+                statement: "Six $CO_2$ molecules are fixed per glucose molecule.",
+              },
+            ],
+            steps: [
+              { reasoning: "$3 \\times 6 = 18$ $CO_2$ molecules.", marks: 1, markCode: "M" },
+              { reasoning: "Eighteen carbon dioxide molecules were fixed.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "18 carbon dioxide molecules",
+            commonErrors: ["Dividing by 6 instead of multiplying."],
+          },
+        },
+        {
+          id: "cial-b-u5-ph-q14",
+          difficulty: "challenge",
+          totalMarks: 2,
+          stem: "The overall equation produces 6 oxygen molecules per glucose. How many oxygen molecules are released when 4 glucose molecules are produced?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 24 }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "formula",
+                name: "Oxygen production",
+                statement: "Six $O_2$ molecules are released per glucose produced.",
+              },
+            ],
+            steps: [
+              { reasoning: "$4 \\times 6 = 24$ oxygen molecules.", marks: 1, markCode: "M" },
+              { reasoning: "Twenty-four oxygen molecules are released.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "24 oxygen molecules",
+            commonErrors: ["Using carbon dioxide count instead of oxygen."],
+          },
+        },
+        {
+          id: "cial-b-u5-ph-q15",
+          difficulty: "challenge",
+          totalMarks: 2,
+          stem: "A chloroplast produces ATP and NADPH in light reactions. If a Calvin cycle turn requires ATP and NADPH from light reactions, how many product types are transferred between the two stages?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 2 }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Light reaction products",
+                statement: "ATP and NADPH are the main products transferred to the Calvin cycle.",
+              },
+            ],
+            steps: [
+              { reasoning: "ATP and NADPH are the two transferred products.", marks: 1, markCode: "M" },
+              { reasoning: "The number is 2 product types.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "2 product types",
+            commonErrors: ["Counting oxygen as a Calvin cycle substrate."],
+          },
+        },
+        {
+          id: "cial-b-u5-ph-q16",
+          difficulty: "challenge",
+          totalMarks: 3,
+          stem: "Explain how the light-dependent reactions and Calvin cycle work together in photosynthesis.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Photosynthesis coupling",
+                statement: "Light reactions capture energy as ATP and NADPH, which power carbon fixation in the Calvin cycle.",
+              },
+            ],
+            steps: [
+              { reasoning: "Light reactions in thylakoids produce ATP, NADPH and oxygen.", marks: 1, markCode: "M" },
+              { reasoning: "The Calvin cycle in stroma uses ATP and NADPH to fix $CO_2$ into carbohydrate.", marks: 1, markCode: "M" },
+              { reasoning: "Together they convert light energy into chemical energy stored in glucose.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "Light reactions supply ATP/NADPH for the Calvin cycle to fix $CO_2$ into glucose.",
+            commonErrors: ["Treating the two stages as independent."],
+          },
+        },
       ],
     },
     {
@@ -267,15 +595,15 @@ export const lesson513: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "Nitrogen, phosphorus, potassium" },
+              { id: "b", text: "Water, soil, wind" },
               {
-                id: "a",
+                id: "c",
                 text: "Light intensity, CO₂ concentration, temperature",
               },
-              { id: "b", text: "Water, soil, wind" },
-              { id: "c", text: "Nitrogen, phosphorus, potassium" },
               { id: "d", text: "Oxygen, nitrogen, hydrogen" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -434,6 +762,334 @@ export const lesson513: Lesson = {
             ],
             finalAnswer:
               "(a) light/CO₂/temp (b) O₂/CO₂/product (c) broad+palisade+thin (d) factor limiting→plateau",
+          },
+        },
+        {
+          id: "cial-b-u5-pl-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Which factor does not directly limit the rate of photosynthesis?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Light intensity" },
+              { id: "b", text: "Soil colour" },
+              { id: "c", text: "Temperature" },
+              { id: "d", text: "Carbon dioxide concentration" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Limiting factors",
+                statement: "Light intensity, $CO_2$ concentration and temperature are the main limiting factors.",
+              },
+            ],
+            steps: [
+              { reasoning: "Soil colour is not a standard limiting factor.", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** Soil colour",
+            commonErrors: ["Listing nutrients as direct limiting factors."],
+          },
+        },
+        {
+          id: "cial-b-u5-pl-q6",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Which leaf feature maximises light absorption?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Absence of chlorophyll" },
+              { id: "b", text: "Thick waxy cuticle only" },
+              { id: "c", text: "Needle shape" },
+              { id: "d", text: "Broad flat surface" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Leaf adaptation",
+                statement: "A broad flat leaf presents a large surface area to light.",
+              },
+            ],
+            steps: [
+              { reasoning: "Broad leaves capture more light.", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** Broad flat surface",
+            commonErrors: ["Focusing only on thickness."],
+          },
+        },
+        {
+          id: "cial-b-u5-pl-q7",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "What is the role of stomata in photosynthesis?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "They store starch" },
+              { id: "b", text: "They transport water only" },
+              { id: "c", text: "They produce chlorophyll" },
+              { id: "d", text: "They allow carbon dioxide to enter and oxygen to leave" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Stomata",
+                statement: "Stomata regulate gas exchange for photosynthesis.",
+              },
+            ],
+            steps: [
+              { reasoning: "$CO_2$ enters and $O_2$/water vapour leave through stomata.", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** Gas exchange",
+            commonErrors: ["Saying stomata absorb light."],
+          },
+        },
+        {
+          id: "cial-b-u5-pl-q8",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Why does the rate of photosynthesis plateau at high light intensity?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Another factor such as $CO_2$ or temperature becomes limiting" },
+              { id: "b", text: "Stomata close permanently" },
+              { id: "c", text: "Chlorophyll disappears" },
+              { id: "d", text: "Light stops being absorbed" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Limiting factor",
+                statement: "When one factor is in excess, another factor limits the rate.",
+              },
+            ],
+            steps: [
+              { reasoning: "$CO_2$ or temperature may limit further increase.", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** Another factor becomes limiting",
+            commonErrors: ["Thinking light has no effect above a threshold."],
+          },
+        },
+        {
+          id: "cial-b-u5-pl-q9",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "What happens to photosynthetic enzymes at temperatures above their optimum?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "They work faster indefinitely" },
+              { id: "b", text: "They denature and the rate falls" },
+              { id: "c", text: "They become light-independent" },
+              { id: "d", text: "They produce oxygen" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Temperature effect",
+                statement: "High temperature denatures enzymes involved in photosynthesis.",
+              },
+            ],
+            steps: [
+              { reasoning: "Denaturation reduces enzyme activity and rate.", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** Enzymes denature",
+            commonErrors: ["Assuming higher temperature always increases rate."],
+          },
+        },
+        {
+          id: "cial-b-u5-pl-q10",
+          difficulty: "challenge",
+          totalMarks: 1,
+          stem: "Which method can be used to measure the rate of photosynthesis?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Counting stomata only" },
+              { id: "b", text: "Measuring root length only" },
+              { id: "c", text: "Measuring oxygen production or carbon dioxide uptake" },
+              { id: "d", text: "Measuring leaf colour only" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "method",
+                name: "Rate measurement",
+                statement: "Rate can be measured by $O_2$ production, $CO_2$ uptake or carbohydrate production.",
+              },
+            ],
+            steps: [
+              { reasoning: "Gas exchange or product formation indicates rate.", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** $O_2$ production or $CO_2$ uptake",
+            commonErrors: ["Measuring only light intensity."],
+          },
+        },
+        {
+          id: "cial-b-u5-pl-q11",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "The rate of photosynthesis rises from 10 units min$^{-1}$ to 50 units min$^{-1}$ as light intensity increases before plateauing. Calculate the increase in rate.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 40 }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "formula",
+                name: "Rate increase",
+                statement: "Increase $=$ maximum rate $-$ initial rate.",
+              },
+            ],
+            steps: [
+              { reasoning: "$50-10=40$ units min$^{-1}$.", marks: 1, markCode: "M" },
+              { reasoning: "The rate increased by 40 units min$^{-1}$.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "40 units min$^{-1}$",
+            commonErrors: ["Answering the final rate rather than the increase."],
+          },
+        },
+        {
+          id: "cial-b-u5-pl-q12",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "Carbon dioxide concentration increases from $0.04\\%$ to $0.08\\%$. Calculate the increase in percentage concentration.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 0.04 }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "formula",
+                name: "Concentration change",
+                statement: "Increase $=$ final concentration $-$ initial concentration.",
+              },
+            ],
+            steps: [
+              { reasoning: "$0.08-0.04=0.04\\%$.", marks: 1, markCode: "M" },
+              { reasoning: "The increase is 0.04%.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "0.04%",
+            commonErrors: ["Doubling the value instead of subtracting."],
+          },
+        },
+        {
+          id: "cial-b-u5-pl-q13",
+          difficulty: "challenge",
+          totalMarks: 2,
+          stem: "A leaf has surface area $25\\ \\text{cm}^2$ and is replaced by a leaf of area $50\\ \\text{cm}^2$. Assuming all else is equal, calculate the increase in surface area.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 25 }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "formula",
+                name: "Area increase",
+                statement: "Increase $=$ new area $-$ old area.",
+              },
+            ],
+            steps: [
+              { reasoning: "$50-25=25\\ \\text{cm}^2$.", marks: 1, markCode: "M" },
+              { reasoning: "The surface area increases by 25 cm$^2$.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "25 cm$^2$",
+            commonErrors: ["Answering 50 instead of the increase."],
+          },
+        },
+        {
+          id: "cial-b-u5-pl-q14",
+          difficulty: "challenge",
+          totalMarks: 2,
+          stem: "The photosynthesis rate is 15 units min$^{-1}$ at $20^\\circ\\text{C}$ and 30 units min$^{-1}$ at the optimum temperature. Calculate the increase in rate at the optimum.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 15 }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "formula",
+                name: "Rate increase",
+                statement: "Increase $=$ optimum rate $-$ lower-temperature rate.",
+              },
+            ],
+            steps: [
+              { reasoning: "$30-15=15$ units min$^{-1}$.", marks: 1, markCode: "M" },
+              { reasoning: "The rate increases by 15 units min$^{-1}$.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "15 units min$^{-1}$",
+            commonErrors: ["Confusing temperature with rate."],
+          },
+        },
+        {
+          id: "cial-b-u5-pl-q15",
+          difficulty: "challenge",
+          totalMarks: 2,
+          stem: "An experiment runs for 10 minutes at an average photosynthesis rate of 20 units min$^{-1}$. Calculate the total amount of product formed in arbitrary units.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 200 }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "formula",
+                name: "Total product",
+                statement: "Total product $=$ rate $\\times$ time.",
+              },
+            ],
+            steps: [
+              { reasoning: "$20 \\times 10 = 200$ units.", marks: 1, markCode: "M" },
+              { reasoning: "The total product formed is 200 units.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "200 units",
+            commonErrors: ["Dividing rate by time."],
+          },
+        },
+        {
+          id: "cial-b-u5-pl-q16",
+          difficulty: "challenge",
+          totalMarks: 3,
+          stem: "Explain what is meant by a limiting factor and why the rate of photosynthesis reaches a plateau.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Limiting factor",
+                statement: "The factor in shortest supply limits the overall rate even if other factors are increased.",
+              },
+            ],
+            steps: [
+              { reasoning: "At low levels, increasing light, $CO_2$ or suitable temperature raises the rate.", marks: 1, markCode: "M" },
+              { reasoning: "Eventually one factor cannot support further increase.", marks: 1, markCode: "M" },
+              { reasoning: "The rate plateaus because another factor, such as $CO_2$ or enzyme activity, becomes limiting.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "The scarcest factor limits rate; increasing another factor then produces a plateau.",
+            commonErrors: ["Thinking all factors must be increased together."],
           },
         },
       ],

@@ -54,12 +54,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Melting ice" },
+              { id: "a", text: "Compressing a gas" },
               { id: "b", text: "Freezing water" },
-              { id: "c", text: "Compressing a gas" },
+              { id: "c", text: "Melting ice" },
               { id: "d", text: "Condensing steam" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -153,12 +153,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "J K$^{-1}$" },
+              { id: "a", text: "J K" },
               { id: "b", text: "J" },
               { id: "c", text: "K$^{-1}$" },
-              { id: "d", text: "J K" },
+              { id: "d", text: "J K$^{-1}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -181,12 +181,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Only the initial and final states, not the path" },
-              { id: "b", text: "The speed of the process" },
-              { id: "c", text: "The work done during the process" },
-              { id: "d", text: "The number of steps in the process" },
+              { id: "a", text: "The work done during the process" },
+              { id: "b", text: "The number of steps in the process" },
+              { id: "c", text: "Only the initial and final states, not the path" },
+              { id: "d", text: "The speed of the process" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -209,12 +209,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It increases — the gas occupies more states" },
-              { id: "b", text: "It decreases — the gas does no work" },
-              { id: "c", text: "It stays the same — temperature is unchanged" },
-              { id: "d", text: "It decreases — pressure falls" },
+              { id: "a", text: "It decreases — the gas does no work" },
+              { id: "b", text: "It increases — the gas occupies more states" },
+              { id: "c", text: "It decreases — pressure falls" },
+              { id: "d", text: "It stays the same — temperature is unchanged" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -237,12 +237,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Heat is transferred reversibly at constant temperature $T$" },
-              { id: "b", text: "Any heat is transferred at temperature $T$" },
-              { id: "c", text: "The process is adiabatic" },
-              { id: "d", text: "Work is done on the system" },
+              { id: "a", text: "Any heat is transferred at temperature $T$" },
+              { id: "b", text: "Work is done on the system" },
+              { id: "c", text: "Heat is transferred reversibly at constant temperature $T$" },
+              { id: "d", text: "The process is adiabatic" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -266,11 +266,11 @@ export const lesson22: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Vaporising water" },
-              { id: "b", text: "Condensing steam" },
-              { id: "c", text: "Melting ice" },
+              { id: "b", text: "Melting ice" },
+              { id: "c", text: "Condensing steam" },
               { id: "d", text: "Gas expanding" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -293,12 +293,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Never decreases" },
+              { id: "a", text: "Can decrease spontaneously" },
               { id: "b", text: "Is always zero" },
               { id: "c", text: "Decreases in reversible processes" },
-              { id: "d", text: "Can decrease spontaneously" },
+              { id: "d", text: "Never decreases" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -511,12 +511,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Entropy of an isolated system never decreases" },
-              { id: "b", text: "Energy is always conserved" },
-              { id: "c", text: "Heat flows from hot to cold" },
+              { id: "a", text: "Heat flows from hot to cold" },
+              { id: "b", text: "Entropy of an isolated system never decreases" },
+              { id: "c", text: "Energy is always conserved" },
               { id: "d", text: "Absolute zero is unattainable" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -610,12 +610,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Heat cannot spontaneously flow from a cold body to a hot body" },
-              { id: "b", text: "Heat cannot flow from hot to cold" },
-              { id: "c", text: "Energy cannot be converted to work" },
-              { id: "d", text: "Entropy must always increase" },
+              { id: "a", text: "Entropy must always increase" },
+              { id: "b", text: "Heat cannot spontaneously flow from a cold body to a hot body" },
+              { id: "c", text: "Heat cannot flow from hot to cold" },
+              { id: "d", text: "Energy cannot be converted to work" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -638,12 +638,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "No cyclic process can convert heat entirely into work" },
-              { id: "b", text: "Heat cannot flow from cold to hot" },
-              { id: "c", text: "Entropy of the universe decreases" },
-              { id: "d", text: "All engines are 100% efficient" },
+              { id: "a", text: "All engines are 100% efficient" },
+              { id: "b", text: "Entropy of the universe decreases" },
+              { id: "c", text: "Heat cannot flow from cold to hot" },
+              { id: "d", text: "No cyclic process can convert heat entirely into work" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -666,12 +666,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "First law conserves energy; second law gives the direction of natural processes" },
-              { id: "b", text: "First law applies to engines; second law to refrigerators" },
+              { id: "a", text: "First law applies to engines; second law to refrigerators" },
+              { id: "b", text: "First law conserves energy; second law gives the direction of natural processes" },
               { id: "c", text: "First law is about heat; second law is about work" },
               { id: "d", text: "They are identical statements" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -694,12 +694,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Pumping heat cold → hot decreases the system's entropy, so work must increase total entropy elsewhere" },
-              { id: "b", text: "The compressor generates the cold itself" },
+              { id: "a", text: "The compressor generates the cold itself" },
+              { id: "b", text: "Heat cannot flow at all without work" },
               { id: "c", text: "Friction would otherwise stop it" },
-              { id: "d", text: "Heat cannot flow at all without work" },
+              { id: "d", text: "Pumping heat cold → hot decreases the system's entropy, so work must increase total entropy elsewhere" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -722,12 +722,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Zero" },
-              { id: "b", text: "Infinite" },
-              { id: "c", text: "Maximum" },
-              { id: "d", text: "Equal to $C_V$" },
+              { id: "a", text: "Equal to $C_V$" },
+              { id: "b", text: "Zero" },
+              { id: "c", text: "Infinite" },
+              { id: "d", text: "Maximum" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -750,12 +750,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Heat flowing spontaneously from a hot cup of coffee to the cooler room" },
+              { id: "a", text: "An engine converting all absorbed heat into work" },
               { id: "b", text: "A cup of coffee spontaneously heating up from the room" },
-              { id: "c", text: "An engine converting all absorbed heat into work" },
-              { id: "d", text: "Ice spontaneously melting in a freezer below 0 °C" },
+              { id: "c", text: "Ice spontaneously melting in a freezer below 0 °C" },
+              { id: "d", text: "Heat flowing spontaneously from a hot cup of coffee to the cooler room" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

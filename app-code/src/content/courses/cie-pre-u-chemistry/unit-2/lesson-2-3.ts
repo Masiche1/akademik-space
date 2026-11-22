@@ -87,18 +87,18 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "They are all radioactive" },
+              { id: "b", text: "They form ionic bonds only" },
               {
-                id: "a",
-                text: "They contain unpaired electrons that absorb light",
-              },
-              {
-                id: "b",
+                id: "c",
                 text: "They have partially filled d orbitals that absorb visible light",
               },
-              { id: "c", text: "They are all radioactive" },
-              { id: "d", text: "They form ionic bonds only" },
+              {
+                id: "d",
+                text: "They contain unpaired electrons that absorb light",
+              },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -230,6 +230,434 @@ export const lesson23: Lesson = {
               },
             ],
             finalAnswer: "d⁵ coloured vs d¹⁰ colourless.",
+          },
+        },
+        {
+          id: "cipuc-u2-inorg-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Which species can act as a ligand in a transition metal complex?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "H₂O" },
+              { id: "b", text: "He" },
+              { id: "c", text: "Ne" },
+              { id: "d", text: "Na⁺" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Ligand",
+                statement:
+                  "A ligand is an electron-pair donor bonded to a metal ion — e.g. H₂O, NH₃, Cl⁻, CN⁻.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "H₂O has lone pairs on oxygen that can be donated to a metal ion; the others cannot act as ligands.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "b",
+          },
+        },
+        {
+          id: "cipuc-u2-inorg-q6",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Calculate the oxidation state of manganese in the manganate(VII) ion, MnO₄⁻.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "Oxidation state", answer: 7 }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "formula",
+                name: "Oxidation state",
+                statement: "Sum of oxidation states equals the overall charge of the ion.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "$x + 4(-2) = -1$ → $x = +7$; manganese is +7 (consistent with 'manganate(VII)').",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "+7",
+          },
+        },
+        {
+          id: "cipuc-u2-inorg-q7",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "When excess ammonia solution is added to aqueous copper(II) sulfate, the blue colour changes to deep blue. What causes this?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Precipitation of copper(II) hydroxide" },
+              { id: "b", text: "Reduction of Cu²⁺ to copper metal" },
+              { id: "c", text: "Formation of copper(II) oxide" },
+              {
+                id: "d",
+                text: "Formation of the [Cu(NH₃)₄(H₂O)₂]²⁺ complex ion",
+              },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Ligand substitution",
+                statement:
+                  "NH₃ is a stronger ligand than H₂O, so it substitutes into the complex, changing the colour.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "NH₃ replaces H₂O ligands → deep-blue ammine complex [Cu(NH₃)₄(H₂O)₂]²⁺.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "a",
+          },
+        },
+        {
+          id: "cipuc-u2-inorg-q8",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "What is the flame test colour of potassium ions?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Yellow" },
+              { id: "b", text: "Brick-red" },
+              { id: "c", text: "Blue-green" },
+              { id: "d", text: "Lilac (violet)" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Flame tests",
+                statement:
+                  "Na⁺ gives yellow, K⁺ gives lilac, Ca²⁺ gives brick-red, Cu²⁺ gives blue-green.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "Potassium ions produce a lilac/violet flame; yellow would indicate sodium.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "b",
+          },
+        },
+        {
+          id: "cipuc-u2-inorg-q9",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "Calculate the oxidation state of iron in the complex ion [Fe(CN)₆]⁴⁻.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "Oxidation state", answer: 2 }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "formula",
+                name: "Oxidation state in complexes",
+                statement:
+                  "Each CN⁻ carries −1; the sum of oxidation states equals the ion's charge.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "$x + 6(-1) = -4$ → $x = +2$.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "Iron is in the +2 oxidation state → hexacyanoferrate(II).",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "+2",
+          },
+        },
+        {
+          id: "cipuc-u2-inorg-q10",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "Explain how the spectrochemical series affects the colour of transition metal complex ions.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Ligand field splitting",
+                statement:
+                  "Ligands split the d orbitals by an amount Δ that depends on the ligand (spectrochemical series) and geometry.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "In a ligand field, the five d orbitals split into lower and higher energy sets separated by Δ.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "Stronger field ligands (e.g. CN⁻) give a larger Δ than weaker ones (e.g. Cl⁻), so d–d transitions absorb higher-energy (shorter-wavelength) light.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "The perceived colour is the complementary colour of the light absorbed, so different ligands produce different colours for the same metal ion.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "Example: [Cu(H₂O)₆]²⁺ is pale blue while [Cu(NH₃)₄]²⁺ is deep blue because NH₃ lies above H₂O in the spectrochemical series.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer:
+              "Stronger ligand → larger Δ → different absorbed wavelength → different colour.",
+          },
+        },
+        {
+          id: "cipuc-u2-inorg-q11",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Which observation confirms the presence of ammonium ions, NH₄⁺?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Effervescence when acid is added" },
+              {
+                id: "b",
+                text: "Ammonia gas released with NaOH that turns damp red litmus blue",
+              },
+              { id: "c", text: "A blue precipitate with sodium hydroxide" },
+              { id: "d", text: "A blood-red colour with thiocyanate ions" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Ammonium test",
+                statement:
+                  "NH₄⁺ + OH⁻ → NH₃ + H₂O; NH₃ turns damp red litmus blue.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "Warming with NaOH releases ammonia gas, identified by the blue colour on damp red litmus.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "b",
+          },
+        },
+        {
+          id: "cipuc-u2-inorg-q12",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "What is the coordination number of copper in the complex ion [Cu(H₂O)₆]²⁺?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "Coordination number", answer: 6 }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Coordination number",
+                statement:
+                  "Coordination number = number of ligand donor atoms attached to the metal — commonly 4 or 6.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "Six H₂O ligands each donate one lone pair → coordination number 6 (octahedral).",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "6",
+          },
+        },
+        {
+          id: "cipuc-u2-inorg-q13",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Which reaction is an example of disproportionation?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Fe + S → FeS" },
+              { id: "b", text: "H₂ + Cl₂ → 2HCl" },
+              { id: "c", text: "Na + Cl₂ → NaCl" },
+              {
+                id: "d",
+                text: "Cl₂ + cold dilute NaOH → Cl⁻ + ClO⁻",
+              },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Disproportionation",
+                statement:
+                  "One element is both oxidised and reduced in the same reaction.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "In Cl₂ + OH⁻, chlorine goes from 0 to −1 (in Cl⁻) and to +1 (in ClO⁻) — the same element in two oxidation states.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "a",
+          },
+        },
+        {
+          id: "cipuc-u2-inorg-q14",
+          difficulty: "challenge",
+          totalMarks: 1,
+          stem: "Which aqueous ion gives a colourless solution?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Ni²⁺" },
+              { id: "b", text: "Cu²⁺" },
+              { id: "c", text: "Fe³⁺" },
+              { id: "d", text: "Zn²⁺" },
+            ],
+            dorrectChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Colour and d electrons",
+                statement:
+                  "Colourless ions have empty or full d subshells (d⁰ or d¹⁰) — no d–d transitions possible.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "Zn²⁺ is d¹⁰ (full d subshell) → colourless; Fe³⁺ d⁵, Cu²⁺ d⁹ and Ni²⁺ d⁸ are all partially filled → coloured.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "c",
+          },
+        },
+        {
+          id: "cipuc-u2-inorg-q15",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "How many d electrons does the Cu²⁺ ion have? (Cu: $Z = 29$)",
+          response: {
+            type: "numeric",
+            parts: [{ label: "d electrons", answer: 9 }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Electron configuration",
+                statement:
+                  "Cu is [Ar] 3d¹⁰4s¹; Cu²⁺ loses the 4s electron then one 3d electron → d⁹.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Cu²⁺ has configuration [Ar] 3d⁹ → 9 d electrons.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "9",
+          },
+        },
+        {
+          id: "cipuc-u2-inorg-q16",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "A solution contains either Fe²⁺ or Fe³⁺ ions. Describe tests you would perform to identify which is present.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Cation tests",
+                statement:
+                  "Fe²⁺ gives a green→brown hydroxide precipitate and is oxidised by dichromate; Fe³⁺ gives blood-red with SCN⁻ and a red-brown hydroxide precipitate.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "Add NaOH: Fe²⁺ gives a green precipitate that turns brown in air (oxidation to Fe³⁺); Fe³⁺ gives an immediate red-brown precipitate.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "Add SCN⁻: Fe³⁺ gives a blood-red colour immediately; Fe²⁺ shows no red colour (any colour appears only after oxidation).",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "Add acidified potassium dichromate(VI): Fe²⁺ reduces it, turning the orange solution green; Fe³⁺ does not.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "Conclusion: blood-red SCN⁻ test is definitive for Fe³⁺; green ppt turning brown plus dichromate reduction identifies Fe²⁺.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer:
+              "SCN⁻ red = Fe³⁺; green→brown ppt and dichromate reduction = Fe²⁺.",
           },
         },
       ],

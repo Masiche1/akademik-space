@@ -54,12 +54,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Mass number decreases by 4; proton number decreases by 2" },
-              { id: "b", text: "Mass number unchanged; proton number increases by 1" },
-              { id: "c", text: "Mass number decreases by 2; proton number decreases by 4" },
-              { id: "d", text: "Both unchanged" },
+              { id: "a", text: "Mass number unchanged; proton number increases by 1" },
+              { id: "b", text: "Mass number decreases by 4; proton number decreases by 2" },
+              { id: "c", text: "Both unchanged" },
+              { id: "d", text: "Mass number decreases by 2; proton number decreases by 4" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -81,12 +81,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A helium nucleus ${}^{4}_{2}\\alpha$" },
-              { id: "b", text: "An electron ${}^{0}_{-1}\\beta$" },
+              { id: "a", text: "An electron ${}^{0}_{-1}\\beta$" },
+              { id: "b", text: "A helium nucleus ${}^{4}_{2}\\alpha$" },
               { id: "c", text: "A photon $\\gamma$" },
               { id: "d", text: "A proton ${}^{1}_{1}\\mathrm{p}$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -109,12 +109,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Daughter $^{14}_{7}$N; mass number unchanged, proton number increases by 1" },
-              { id: "b", text: "Daughter $^{10}_{4}$Be; mass number decreases by 4, proton number decreases by 2" },
-              { id: "c", text: "Daughter $^{14}_{5}$B; proton number decreases by 1" },
-              { id: "d", text: "Daughter $^{14}_{6}$C; no change" },
+              { id: "a", text: "Daughter $^{10}_{4}$Be; mass number decreases by 4, proton number decreases by 2" },
+              { id: "b", text: "Daughter $^{14}_{6}$C; no change" },
+              { id: "c", text: "Daughter $^{14}_{7}$N; mass number unchanged, proton number increases by 1" },
+              { id: "d", text: "Daughter $^{14}_{5}$B; proton number decreases by 1" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -173,12 +173,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Alpha radiation" },
-              { id: "b", text: "Beta radiation" },
-              { id: "c", text: "Gamma radiation" },
-              { id: "d", text: "All three equally" },
+              { id: "a", text: "All three equally" },
+              { id: "b", text: "Gamma radiation" },
+              { id: "c", text: "Alpha radiation" },
+              { id: "d", text: "Beta radiation" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -200,12 +200,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$A$ unchanged; $Z$ increases by 1" },
-              { id: "b", text: "$A$ decreases by 4; $Z$ decreases by 2" },
-              { id: "c", text: "$A$ unchanged; $Z$ decreases by 1" },
+              { id: "a", text: "$A$ decreases by 4; $Z$ decreases by 2" },
+              { id: "b", text: "$A$ unchanged; $Z$ decreases by 1" },
+              { id: "c", text: "$A$ unchanged; $Z$ increases by 1" },
               { id: "d", text: "$A$ increases by 1; $Z$ unchanged" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -338,12 +338,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It is the most penetrating of the three radiations and carries no charge or mass" },
+              { id: "a", text: "It consists of helium nuclei" },
               { id: "b", text: "It is stopped by a sheet of paper" },
-              { id: "c", text: "It consists of helium nuclei" },
-              { id: "d", text: "It changes the proton number of the nucleus when emitted" },
+              { id: "c", text: "It changes the proton number of the nucleus when emitted" },
+              { id: "d", text: "It is the most penetrating of the three radiations and carries no charge or mass" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -366,12 +366,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The daughter nucleus is often formed in an excited state and de-excites by emitting a gamma photon" },
-              { id: "b", text: "Gamma rays are needed to conserve charge" },
-              { id: "c", text: "Gamma rays carry away the alpha particle's mass" },
-              { id: "d", text: "Gamma emission converts the alpha particle into a beta particle" },
+              { id: "a", text: "Gamma rays are needed to conserve charge" },
+              { id: "b", text: "The daughter nucleus is often formed in an excited state and de-excites by emitting a gamma photon" },
+              { id: "c", text: "Gamma emission converts the alpha particle into a beta particle" },
+              { id: "d", text: "Gamma rays carry away the alpha particle's mass" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -548,11 +548,11 @@ export const lesson62: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "The time for all the nuclei to decay" },
-              { id: "b", text: "The time for half of the undecayed nuclei to decay" },
-              { id: "c", text: "The time for the activity to halve" },
-              { id: "d", text: "The time for the sample to become stable" },
+              { id: "b", text: "The time for the sample to become stable" },
+              { id: "c", text: "The time for half of the undecayed nuclei to decay" },
+              { id: "d", text: "The time for the activity to halve" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -574,12 +574,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$1/8$" },
+              { id: "a", text: "$1/2$" },
               { id: "b", text: "$1/4$" },
-              { id: "c", text: "$1/2$" },
-              { id: "d", text: "$3/10$" },
+              { id: "c", text: "$3/10$" },
+              { id: "d", text: "$1/8$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -602,12 +602,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$3.0 \\times 10^{5}$ nuclei remain after $12$ h" },
-              { id: "b", text: "$1.5 \\times 10^{5}$ nuclei remain after $12$ h" },
-              { id: "c", text: "$6.0 \\times 10^{5}$ nuclei remain after $12$ h" },
-              { id: "d", text: "$3.0 \\times 10^{5}$ nuclei remain after $8$ h" },
+              { id: "a", text: "$3.0 \\times 10^{5}$ nuclei remain after $8$ h" },
+              { id: "b", text: "$3.0 \\times 10^{5}$ nuclei remain after $12$ h" },
+              { id: "c", text: "$1.5 \\times 10^{5}$ nuclei remain after $12$ h" },
+              { id: "d", text: "$6.0 \\times 10^{5}$ nuclei remain after $12$ h" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -664,12 +664,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Becquerel (Bq), equal to one decay per second" },
+              { id: "a", text: "Watt (W)" },
               { id: "b", text: "Joule (J)" },
-              { id: "c", text: "Watt (W)" },
+              { id: "c", text: "Becquerel (Bq), equal to one decay per second" },
               { id: "d", text: "Metre (m)" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -691,12 +691,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$1/2$" },
-              { id: "b", text: "$1/4$" },
+              { id: "a", text: "$1/4$" },
+              { id: "b", text: "$1/2$" },
               { id: "c", text: "$1/8$" },
               { id: "d", text: "$1/16$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -829,12 +829,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Because a constant fraction of the remaining nuclei decays per unit time" },
-              { id: "b", text: "Because every nucleus has the same lifetime" },
-              { id: "c", text: "Because the sample is kept at constant temperature" },
-              { id: "d", text: "Because activity does not change with time" },
+              { id: "a", text: "Because the sample is kept at constant temperature" },
+              { id: "b", text: "Because activity does not change with time" },
+              { id: "c", text: "Because every nucleus has the same lifetime" },
+              { id: "d", text: "Because a constant fraction of the remaining nuclei decays per unit time" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -857,10 +857,10 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "2" },
+              { id: "a", text: "8" },
               { id: "b", text: "4" },
-              { id: "c", text: "8" },
-              { id: "d", text: "16" },
+              { id: "c", text: "16" },
+              { id: "d", text: "2" },
             ],
             correctChoiceId: "b",
           },

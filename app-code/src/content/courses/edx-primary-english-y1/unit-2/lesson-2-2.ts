@@ -52,12 +52,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Beginning" },
-              { id: "b", text: "Middle" },
-              { id: "c", text: "End" },
-              { id: "d", text: "Title" },
+              { id: "a", text: "Middle" },
+              { id: "b", text: "Beginning" },
+              { id: "c", text: "Title" },
+              { id: "d", text: "End" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -86,12 +86,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "3, 2, 1" },
-              { id: "b", text: "1, 2, 3" },
-              { id: "c", text: "2, 3, 1" },
-              { id: "d", text: "3, 1, 2" },
+              { id: "a", text: "1, 2, 3" },
+              { id: "b", text: "3, 1, 2" },
+              { id: "c", text: "3, 2, 1" },
+              { id: "d", text: "2, 3, 1" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -232,12 +232,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Go to sleep" },
-              { id: "b", text: "Eat some food" },
+              { id: "a", text: "Read a book" },
+              { id: "b", text: "Go to sleep" },
               { id: "c", text: "Play outside" },
-              { id: "d", text: "Read a book" },
+              { id: "d", text: "Eat some food" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -264,8 +264,8 @@ export const lesson22: Lesson = {
             choices: [
               { id: "a", text: "It will snow" },
               { id: "b", text: "It will rain" },
-              { id: "c", text: "It will be sunny" },
-              { id: "d", text: "It will be windy only" },
+              { id: "c", text: "It will be windy only" },
+              { id: "d", text: "It will be sunny" },
             ],
             correctChoiceId: "b",
           },

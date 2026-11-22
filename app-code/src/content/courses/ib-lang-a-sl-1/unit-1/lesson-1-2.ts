@@ -52,10 +52,10 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Simile" },
+              { id: "a", text: "Personification" },
               { id: "b", text: "Metaphor" },
-              { id: "c", text: "Personification" },
-              { id: "d", text: "Hyperbole" },
+              { id: "c", text: "Hyperbole" },
+              { id: "d", text: "Simile" },
             ],
             correctChoiceId: "b",
           },
@@ -164,12 +164,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Simile" },
-              { id: "b", text: "Metaphor" },
+              { id: "a", text: "Onomatopoeia" },
+              { id: "b", text: "Simile" },
               { id: "c", text: "Personification" },
-              { id: "d", text: "Onomatopoeia" },
+              { id: "d", text: "Metaphor" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -191,12 +191,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "'as' — making it a simile" },
-              { id: "b", text: "'stood' — making it a metaphor" },
+              { id: "a", text: "'stood' — making it a metaphor" },
+              { id: "b", text: "'as' — making it a simile" },
               { id: "c", text: "'brave' — making it personification" },
               { id: "d", text: "'lion' — making it hyperbole" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -218,12 +218,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A metaphor" },
-              { id: "b", text: "A simile" },
-              { id: "c", text: "Personification" },
+              { id: "a", text: "A simile" },
+              { id: "b", text: "Personification" },
+              { id: "c", text: "A metaphor" },
               { id: "d", text: "An oxymoron" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -247,11 +247,11 @@ export const lesson12: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Hyperbole" },
-              { id: "b", text: "Oxymoron" },
-              { id: "c", text: "Personification" },
-              { id: "d", text: "Synecdoche" },
+              { id: "b", text: "Synecdoche" },
+              { id: "c", text: "Oxymoron" },
+              { id: "d", text: "Personification" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -281,9 +281,9 @@ export const lesson12: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "The tenor is 'confidence' and the vehicle is 'a borrowed coat'; the image suggests confidence is external, conditional and easily exposed." },
-              { id: "b", text: "The tenor is 'a borrowed coat' and the vehicle is 'confidence'; the image proves he owns expensive clothes." },
+              { id: "b", text: "It is an oxymoron because confidence and rain are opposites." },
               { id: "c", text: "It is a simile because 'fit' compares two things." },
-              { id: "d", text: "It is an oxymoron because confidence and rain are opposites." },
+              { id: "d", text: "The tenor is 'a borrowed coat' and the vehicle is 'confidence'; the image proves he owns expensive clothes." },
             ],
             correctChoiceId: "a",
           },
@@ -315,12 +315,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Each image is unrelated, describing separate objects." },
-              { id: "b", text: "The shared fire imagery builds a coherent atmosphere of dying warmth and exhausted conflict." },
+              { id: "a", text: "The shared fire imagery builds a coherent atmosphere of dying warmth and exhausted conflict." },
+              { id: "b", text: "The images contradict each other, producing confusion." },
               { id: "c", text: "The cluster is purely decorative and carries no meaning." },
-              { id: "d", text: "The images contradict each other, producing confusion." },
+              { id: "d", text: "Each image is unrelated, describing separate objects." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -555,11 +555,11 @@ export const lesson12: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Assonance" },
-              { id: "b", text: "Alliteration" },
-              { id: "c", text: "Onomatopoeia" },
-              { id: "d", text: "Rhyme" },
+              { id: "b", text: "Rhyme" },
+              { id: "c", text: "Alliteration" },
+              { id: "d", text: "Onomatopoeia" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -669,12 +669,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Alliteration" },
-              { id: "b", text: "Assonance" },
-              { id: "c", text: "Onomatopoeia" },
-              { id: "d", text: "Consonance" },
+              { id: "a", text: "Assonance" },
+              { id: "b", text: "Onomatopoeia" },
+              { id: "c", text: "Consonance" },
+              { id: "d", text: "Alliteration" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -696,10 +696,10 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Assonance" },
-              { id: "b", text: "Consonance" },
+              { id: "a", text: "Consonance" },
+              { id: "b", text: "Alliteration" },
               { id: "c", text: "Onomatopoeia" },
-              { id: "d", text: "Alliteration" },
+              { id: "d", text: "Assonance" },
             ],
             correctChoiceId: "c",
           },
@@ -723,12 +723,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Alliteration" },
-              { id: "b", text: "Consonance" },
-              { id: "c", text: "Assonance" },
+              { id: "a", text: "Consonance" },
+              { id: "b", text: "Assonance" },
+              { id: "c", text: "Alliteration" },
               { id: "d", text: "Onomatopoeia" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -751,12 +751,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "a loud, percussive effect" },
-              { id: "b", text: "a hissing quality suggesting whispering, secrecy or menace" },
-              { id: "c", text: "a smooth, liquid rhythm" },
-              { id: "d", text: "a comic, bouncy tone" },
+              { id: "a", text: "a comic, bouncy tone" },
+              { id: "b", text: "a loud, percussive effect" },
+              { id: "c", text: "a hissing quality suggesting whispering, secrecy or menace" },
+              { id: "d", text: "a smooth, liquid rhythm" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -779,12 +779,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "a mid-line pause marked by a comma" },
-              { id: "b", text: "running a sentence over a line break without punctuation, creating flow or tension" },
-              { id: "c", text: "rhyming the last words of each stanza" },
-              { id: "d", text: "repeating the same line at intervals" },
+              { id: "a", text: "rhyming the last words of each stanza" },
+              { id: "b", text: "a mid-line pause marked by a comma" },
+              { id: "c", text: "repeating the same line at intervals" },
+              { id: "d", text: "running a sentence over a line break without punctuation, creating flow or tension" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -814,12 +814,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Regular iambic pentameter gives the poem a ceremonial calm." },
-              { id: "b", text: "The repeated 'ee' vowel sounds and sibilant 's' create a humid, hissing atmosphere that makes the waiting feel oppressive." },
-              { id: "c", text: "Heavy plosives of 'b', 'd' and 'g' produce a muffled, sleepy sound." },
-              { id: "d", text: "The end-stopped lines slow the poem into elegiac stillness." },
+              { id: "a", text: "The end-stopped lines slow the poem into elegiac stillness." },
+              { id: "b", text: "Heavy plosives of 'b', 'd' and 'g' produce a muffled, sleepy sound." },
+              { id: "c", text: "The repeated 'ee' vowel sounds and sibilant 's' create a humid, hissing atmosphere that makes the waiting feel oppressive." },
+              { id: "d", text: "Regular iambic pentameter gives the poem a ceremonial calm." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

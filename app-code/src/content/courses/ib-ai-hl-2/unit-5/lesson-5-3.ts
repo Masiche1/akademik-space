@@ -53,10 +53,10 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Every row sums to 1" },
+              { id: "a", text: "The diagonal entries sum to 1" },
               { id: "b", text: "Every column sums to 1" },
               { id: "c", text: "Every entry is at least 0.5" },
-              { id: "d", text: "The diagonal entries sum to 1" },
+              { id: "d", text: "Every row sums to 1" },
             ],
             correctChoiceId: "b",
           },
@@ -154,12 +154,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$0.49$" },
-              { id: "b", text: "$0.52$" },
-              { id: "c", text: "$0.58$" },
-              { id: "d", text: "$0.70$" },
+              { id: "a", text: "$0.70$" },
+              { id: "b", text: "$0.49$" },
+              { id: "c", text: "$0.52$" },
+              { id: "d", text: "$0.58$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "State vector", statement: "$\\boldsymbol{s}_{n+1}=T\\boldsymbol{s}_n$." }],
@@ -180,12 +180,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\begin{pmatrix}0.4\\\\0.6\\end{pmatrix}$" },
-              { id: "b", text: "$\\begin{pmatrix}1.2\\\\-0.2\\end{pmatrix}$" },
-              { id: "c", text: "$\\begin{pmatrix}0.5\\\\0.4\\end{pmatrix}$" },
-              { id: "d", text: "$\\begin{pmatrix}0\\\\0\\end{pmatrix}$" },
+              { id: "a", text: "$\\begin{pmatrix}0.5\\\\0.4\\end{pmatrix}$" },
+              { id: "b", text: "$\\begin{pmatrix}0\\\\0\\end{pmatrix}$" },
+              { id: "c", text: "$\\begin{pmatrix}0.4\\\\0.6\\end{pmatrix}$" },
+              { id: "d", text: "$\\begin{pmatrix}1.2\\\\-0.2\\end{pmatrix}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "property", name: "State vector", statement: "Entries are probabilities: each lies between 0 and 1 and they sum to 1." }],
@@ -293,8 +293,8 @@ export const lesson53: Lesson = {
             choices: [
               { id: "a", text: "The probability of moving from state $i$ to state $j$ in $n$ steps" },
               { id: "b", text: "The probability of moving from state $j$ to state $i$ in $n$ steps" },
-              { id: "c", text: "The steady-state probability of state $i$" },
-              { id: "d", text: "The expected number of visits to state $i$ in $n$ steps" },
+              { id: "c", text: "The expected number of visits to state $i$ in $n$ steps" },
+              { id: "d", text: "The steady-state probability of state $i$" },
             ],
             correctChoiceId: "b",
           },
@@ -317,12 +317,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Its entries lie between 0 and 1 and sum to 1" },
-              { id: "b", text: "All its entries are equal" },
-              { id: "c", text: "Its entries sum to 0" },
+              { id: "a", text: "Its entries sum to 0" },
+              { id: "b", text: "Its entries lie between 0 and 1 and sum to 1" },
+              { id: "c", text: "All its entries are equal" },
               { id: "d", text: "Exactly one entry equals 1" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "property", name: "State vector", statement: "A state vector holds probabilities, so entries are in $[0,1]$ and sum to 1." }],
@@ -343,12 +343,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "approaches the zero vector" },
-              { id: "b", text: "approaches the steady state, whatever the starting state" },
-              { id: "c", text: "returns to the initial state vector" },
-              { id: "d", text: "oscillates between two states forever" },
+              { id: "a", text: "oscillates between two states forever" },
+              { id: "b", text: "returns to the initial state vector" },
+              { id: "c", text: "approaches the zero vector" },
+              { id: "d", text: "approaches the steady state, whatever the starting state" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "theorem", name: "Long-term behaviour", statement: "A regular chain has a unique steady state reached from every starting state." }],
@@ -434,12 +434,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$T\\boldsymbol{s}=\\boldsymbol{0}$" },
-              { id: "b", text: "$T\\boldsymbol{s}=\\boldsymbol{s}$" },
-              { id: "c", text: "$T\\boldsymbol{s}=T^{-1}\\boldsymbol{s}$" },
-              { id: "d", text: "$T\\boldsymbol{s}=2\\boldsymbol{s}$" },
+              { id: "a", text: "$T\\boldsymbol{s}=\\boldsymbol{s}$" },
+              { id: "b", text: "$T\\boldsymbol{s}=T^{-1}\\boldsymbol{s}$" },
+              { id: "c", text: "$T\\boldsymbol{s}=2\\boldsymbol{s}$" },
+              { id: "d", text: "$T\\boldsymbol{s}=\\boldsymbol{0}$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Steady state", statement: "A state vector unchanged by a transition: $T\\boldsymbol{s}=\\boldsymbol{s}$." }],
@@ -545,12 +545,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$-1$" },
-              { id: "b", text: "$0$" },
-              { id: "c", text: "$1$" },
-              { id: "d", text: "It has no fixed eigenvalue" },
+              { id: "a", text: "$1$" },
+              { id: "b", text: "It has no fixed eigenvalue" },
+              { id: "c", text: "$-1$" },
+              { id: "d", text: "$0$" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "property", name: "Eigenvalue 1", statement: "Since each column of $T$ sums to 1, $T\\boldsymbol{1}=\\boldsymbol{1}$ up to the steady-state scaling, so $\\lambda=1$ is always an eigenvalue." }],
@@ -571,12 +571,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\begin{pmatrix}0.714\\\\0.286\\end{pmatrix}$" },
-              { id: "b", text: "$\\begin{pmatrix}0.286\\\\0.714\\end{pmatrix}$" },
+              { id: "a", text: "$\\begin{pmatrix}0.8\\\\0.2\\end{pmatrix}$" },
+              { id: "b", text: "$\\begin{pmatrix}0.714\\\\0.286\\end{pmatrix}$" },
               { id: "c", text: "$\\begin{pmatrix}0.5\\\\0.5\\end{pmatrix}$" },
-              { id: "d", text: "$\\begin{pmatrix}0.8\\\\0.2\\end{pmatrix}$" },
+              { id: "d", text: "$\\begin{pmatrix}0.286\\\\0.714\\end{pmatrix}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Steady state", statement: "Solve $T\\boldsymbol{s}=\\boldsymbol{s}$ with the components summing to 1." }],
@@ -700,10 +700,10 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "converges to its steady state faster" },
+              { id: "a", text: "does not converge" },
               { id: "b", text: "converges to its steady state more slowly" },
-              { id: "c", text: "converges immediately" },
-              { id: "d", text: "does not converge" },
+              { id: "c", text: "converges to its steady state faster" },
+              { id: "d", text: "converges immediately" },
             ],
             correctChoiceId: "b",
           },
@@ -726,12 +726,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "columns are all equal to the steady state vector" },
-              { id: "b", text: "rows sum to 0" },
-              { id: "c", text: "diagonal entries are all 1" },
-              { id: "d", text: "entries are all equal" },
+              { id: "a", text: "diagonal entries are all 1" },
+              { id: "b", text: "columns are all equal to the steady state vector" },
+              { id: "c", text: "entries are all equal" },
+              { id: "d", text: "rows sum to 0" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "theorem", name: "Diagonalisation", statement: "$T^n=PD^nP^{-1}$; as $n\\to\\infty$ only the eigenvalue 1 survives, giving identical columns equal to the steady state." }],
@@ -752,12 +752,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "some power of its transition matrix has all entries positive" },
-              { id: "b", text: "all entries of its transition matrix are positive" },
+              { id: "a", text: "all entries of its transition matrix are positive" },
+              { id: "b", text: "some power of its transition matrix has all entries positive" },
               { id: "c", text: "its transition matrix is symmetric" },
               { id: "d", text: "its diagonal entries are all positive" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Regular chain", statement: "Some power $T^k$ has all entries positive; such a chain has a unique steady state reached from any start." }],

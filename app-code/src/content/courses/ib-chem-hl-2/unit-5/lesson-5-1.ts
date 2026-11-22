@@ -54,12 +54,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Stronger oxidising agent" },
-              { id: "b", text: "Stronger reducing agent" },
-              { id: "c", text: "Weaker oxidising agent" },
-              { id: "d", text: "Neutral species" },
+              { id: "a", text: "Weaker oxidising agent" },
+              { id: "b", text: "Stronger oxidising agent" },
+              { id: "c", text: "Neutral species" },
+              { id: "d", text: "Stronger reducing agent" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -155,11 +155,11 @@ export const lesson51: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Li" },
-              { id: "b", text: "F$_2$" },
-              { id: "c", text: "Zn" },
+              { id: "b", text: "Zn" },
+              { id: "c", text: "F$_2$" },
               { id: "d", text: "Mg" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -205,12 +205,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Ag" },
-              { id: "b", text: "Cu" },
-              { id: "c", text: "Zn" },
-              { id: "d", text: "Fe" },
+              { id: "a", text: "Fe" },
+              { id: "b", text: "Ag" },
+              { id: "c", text: "Cu" },
+              { id: "d", text: "Zn" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -256,12 +256,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Non-spontaneous and requires energy input" },
-              { id: "b", text: "At equilibrium" },
-              { id: "c", text: "Spontaneous and can generate electrical energy" },
+              { id: "a", text: "Spontaneous and can generate electrical energy" },
+              { id: "b", text: "Non-spontaneous and requires energy input" },
+              { id: "c", text: "At equilibrium" },
               { id: "d", text: "Impossible — EMF cannot be positive" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -353,12 +353,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Ag only" },
-              { id: "b", text: "Cu and Zn" },
+              { id: "a", text: "Cu and Zn" },
+              { id: "b", text: "Ag only" },
               { id: "c", text: "Ag and Au" },
               { id: "d", text: "None of them" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -489,12 +489,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Anode" },
-              { id: "b", text: "Cathode" },
+              { id: "a", text: "Cathode" },
+              { id: "b", text: "External circuit" },
               { id: "c", text: "Salt bridge" },
-              { id: "d", text: "External circuit" },
+              { id: "d", text: "Anode" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -590,11 +590,11 @@ export const lesson51: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Cathode to anode" },
-              { id: "b", text: "Anode to cathode" },
-              { id: "c", text: "Salt bridge to cathode" },
-              { id: "d", text: "Anode to salt bridge" },
+              { id: "b", text: "Salt bridge to cathode" },
+              { id: "c", text: "Anode to salt bridge" },
+              { id: "d", text: "Anode to cathode" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -640,12 +640,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Positive and site of oxidation" },
-              { id: "b", text: "Negative and site of reduction" },
-              { id: "c", text: "Positive and site of reduction" },
-              { id: "d", text: "Negative and site of oxidation" },
+              { id: "a", text: "Negative and site of reduction" },
+              { id: "b", text: "Negative and site of oxidation" },
+              { id: "c", text: "Positive and site of oxidation" },
+              { id: "d", text: "Positive and site of reduction" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -692,10 +692,10 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Allow electrons to flow between half-cells" },
+              { id: "a", text: "Provide the electrolyte ions that react" },
               { id: "b", text: "Allow ion migration to maintain charge neutrality" },
-              { id: "c", text: "Increase the cell EMF" },
-              { id: "d", text: "Provide the electrolyte ions that react" },
+              { id: "c", text: "Allow electrons to flow between half-cells" },
+              { id: "d", text: "Increase the cell EMF" },
             ],
             correctChoiceId: "b",
           },
@@ -788,12 +788,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Zn-Cu cell ($E^\\circ_{cell} = +1.10$ V)" },
-              { id: "b", text: "Ag-Zn cell ($E^\\circ_{cell} = +1.56$ V)" },
-              { id: "c", text: "Cell with $E^\\circ_{cell} = -0.46$ V" },
-              { id: "d", text: "Cell with $E^\\circ_{cell} = +0.34$ V" },
+              { id: "a", text: "Ag-Zn cell ($E^\\circ_{cell} = +1.56$ V)" },
+              { id: "b", text: "Cell with $E^\\circ_{cell} = +0.34$ V" },
+              { id: "c", text: "Zn-Cu cell ($E^\\circ_{cell} = +1.10$ V)" },
+              { id: "d", text: "Cell with $E^\\circ_{cell} = -0.46$ V" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [

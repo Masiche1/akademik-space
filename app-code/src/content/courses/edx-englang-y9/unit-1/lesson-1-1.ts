@@ -65,12 +65,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Burned with a bright, steady flame" },
-              { id: "b", text: "Flickered weakly as if close to going out" },
-              { id: "c", text: "Dripped wax onto the ledgers" },
-              { id: "d", text: "Had already been put out" },
+              { id: "a", text: "Had already been put out" },
+              { id: "b", text: "Dripped wax onto the ledgers" },
+              { id: "c", text: "Burned with a bright, steady flame" },
+              { id: "d", text: "Flickered weakly as if close to going out" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "skill", name: "Context clues", statement: "Use surrounding words ('ill-lit', 'sickly glimmer') to infer a word's meaning." }],
@@ -198,9 +198,9 @@ export const lesson11: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "A lonely, misty marshland as evening and the tide approach" },
-              { id: "b", text: "A quiet village green on a mild autumn afternoon" },
+              { id: "b", text: "A busy farmyard where the day's work is ending" },
               { id: "c", text: "A dangerous sea crossing in the middle of a storm" },
-              { id: "d", text: "A busy farmyard where the day's work is ending" },
+              { id: "d", text: "A quiet village green on a mild autumn afternoon" },
             ],
             correctChoiceId: "a",
           },

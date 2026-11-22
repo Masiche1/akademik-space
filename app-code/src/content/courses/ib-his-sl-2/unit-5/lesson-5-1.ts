@@ -53,10 +53,10 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Martin Luther King Jr." },
+              { id: "a", text: "Malcolm X" },
               { id: "b", text: "Rosa Parks" },
               { id: "c", text: "John Lewis" },
-              { id: "d", text: "Malcolm X" },
+              { id: "d", text: "Martin Luther King Jr." },
             ],
             correctChoiceId: "b",
           },
@@ -151,12 +151,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "1950" },
-              { id: "b", text: "1955" },
-              { id: "c", text: "1960" },
-              { id: "d", text: "1963" },
+              { id: "a", text: "1963" },
+              { id: "b", text: "1950" },
+              { id: "c", text: "1955" },
+              { id: "d", text: "1960" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -180,9 +180,9 @@ export const lesson51: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "381 days" },
-              { id: "b", text: "100 days" },
-              { id: "c", text: "2 years" },
-              { id: "d", text: "6 months" },
+              { id: "b", text: "6 months" },
+              { id: "c", text: "100 days" },
+              { id: "d", text: "2 years" },
             ],
             correctChoiceId: "a",
           },
@@ -207,12 +207,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A bus station in Montgomery" },
-              { id: "b", text: "A Woolworth's in Greensboro, North Carolina" },
+              { id: "a", text: "A Woolworth's in Greensboro, North Carolina" },
+              { id: "b", text: "A lunch counter in Selma" },
               { id: "c", text: "The University of Mississippi" },
-              { id: "d", text: "A lunch counter in Selma" },
+              { id: "d", text: "A bus station in Montgomery" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -235,12 +235,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The Montgomery Bus Boycott" },
-              { id: "b", text: "The sit-in campaigns of 1960" },
+              { id: "a", text: "The March on Washington" },
+              { id: "b", text: "The Montgomery Bus Boycott" },
               { id: "c", text: "The Selma voting-rights campaign" },
-              { id: "d", text: "The March on Washington" },
+              { id: "d", text: "The sit-in campaigns of 1960" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -263,12 +263,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Voter registration in the North" },
-              { id: "b", text: "Desegregation on interstate buses in the South" },
-              { id: "c", text: "School integration in northern cities" },
-              { id: "d", text: "The right to vote in federal elections" },
+              { id: "a", text: "School integration in northern cities" },
+              { id: "b", text: "The right to vote in federal elections" },
+              { id: "c", text: "Desegregation on interstate buses in the South" },
+              { id: "d", text: "Voter registration in the North" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -292,9 +292,9 @@ export const lesson51: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Killed four young girls and shocked the nation" },
-              { id: "b", text: "Ended the Montgomery boycott" },
-              { id: "c", text: "Led to the founding of SNCC" },
-              { id: "d", text: "Forced Eisenhower to send troops to Little Rock" },
+              { id: "b", text: "Forced Eisenhower to send troops to Little Rock" },
+              { id: "c", text: "Ended the Montgomery boycott" },
+              { id: "d", text: "Led to the founding of SNCC" },
             ],
             correctChoiceId: "a",
           },
@@ -472,10 +472,10 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "End school segregation" },
+              { id: "a", text: "Guarantee equal pay" },
               { id: "b", text: "Remove barriers preventing Black Americans from voting" },
-              { id: "c", text: "Guarantee equal pay" },
-              { id: "d", text: "Desegregate public transport" },
+              { id: "c", text: "Desegregate public transport" },
+              { id: "d", text: "End school segregation" },
             ],
             correctChoiceId: "b",
           },
@@ -571,12 +571,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Only school segregation" },
-              { id: "b", text: "Segregation in public accommodations and employment discrimination" },
+              { id: "a", text: "Segregation in public accommodations and employment discrimination" },
+              { id: "b", text: "Only school segregation" },
               { id: "c", text: "All forms of racism in the South" },
               { id: "d", text: "Poll taxes in northern states" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -600,11 +600,11 @@ export const lesson51: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "1963" },
-              { id: "b", text: "1964" },
-              { id: "c", text: "1965" },
+              { id: "b", text: "1965" },
+              { id: "c", text: "1964" },
               { id: "d", text: "1968" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -627,12 +627,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The March on Washington in 1963" },
-              { id: "b", text: "The Selma march in 1965" },
+              { id: "a", text: "The Selma march in 1965" },
+              { id: "b", text: "The Greensboro sit-ins in 1960" },
               { id: "c", text: "The Montgomery boycott in 1955" },
-              { id: "d", text: "The Greensboro sit-ins in 1960" },
+              { id: "d", text: "The March on Washington in 1963" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -655,12 +655,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "1960" },
-              { id: "b", text: "1963" },
-              { id: "c", text: "1964" },
-              { id: "d", text: "1968" },
+              { id: "a", text: "1963" },
+              { id: "b", text: "1960" },
+              { id: "c", text: "1968" },
+              { id: "d", text: "1964" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -683,12 +683,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Integration into white society through nonviolence" },
-              { id: "b", text: "Black nationalism, self-defence and separation" },
-              { id: "c", text: "Electoral politics only" },
-              { id: "d", text: "Emigration to Africa as the only solution" },
+              { id: "a", text: "Black nationalism, self-defence and separation" },
+              { id: "b", text: "Integration into white society through nonviolence" },
+              { id: "c", text: "Emigration to Africa as the only solution" },
+              { id: "d", text: "Electoral politics only" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -711,12 +711,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The March on Washington" },
-              { id: "b", text: "The Selma campaign" },
-              { id: "c", text: "King's assassination in Memphis" },
-              { id: "d", text: "The Birmingham bombing" },
+              { id: "a", text: "The Selma campaign" },
+              { id: "b", text: "The March on Washington" },
+              { id: "c", text: "The Birmingham bombing" },
+              { id: "d", text: "King's assassination in Memphis" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [

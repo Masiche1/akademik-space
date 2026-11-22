@@ -110,15 +110,15 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "No brain involvement" },
+              { id: "b", text: "Only detecting stimuli" },
               {
-                id: "a",
+                id: "c",
                 text: "Interpreting sensory information using experience",
               },
-              { id: "b", text: "Only detecting stimuli" },
-              { id: "c", text: "No brain involvement" },
               { id: "d", text: "Automatic responses" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -146,12 +146,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The same size despite changes in distance" },
-              { id: "b", text: "Growing as it approaches" },
-              { id: "c", text: "Smaller when far away" },
-              { id: "d", text: "Always accurate" },
+              { id: "a", text: "Growing as it approaches" },
+              { id: "b", text: "The same size despite changes in distance" },
+              { id: "c", text: "Always accurate" },
+              { id: "d", text: "Smaller when far away" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -179,12 +179,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Constant even when the retinal image changes" },
-              { id: "b", text: "Changing with viewing angle" },
+              { id: "a", text: "Dependent on colour" },
+              { id: "b", text: "Constant even when the retinal image changes" },
               { id: "c", text: "Always circular" },
-              { id: "d", text: "Dependent on colour" },
+              { id: "d", text: "Changing with viewing angle" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -212,12 +212,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The same under different lighting conditions" },
-              { id: "b", text: "Changing with light" },
-              { id: "c", text: "Always bright" },
-              { id: "d", text: "Dependent on distance" },
+              { id: "a", text: "Dependent on distance" },
+              { id: "b", text: "Always bright" },
+              { id: "c", text: "The same under different lighting conditions" },
+              { id: "d", text: "Changing with light" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -245,12 +245,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Retinal disparity" },
-              { id: "b", text: "Linear perspective" },
-              { id: "c", text: "Relative size" },
-              { id: "d", text: "Texture gradient" },
+              { id: "a", text: "Linear perspective" },
+              { id: "b", text: "Relative size" },
+              { id: "c", text: "Texture gradient" },
+              { id: "d", text: "Retinal disparity" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -278,12 +278,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Linear perspective" },
-              { id: "b", text: "Retinal disparity" },
-              { id: "c", text: "Convergence" },
+              { id: "a", text: "Convergence" },
+              { id: "b", text: "Linear perspective" },
+              { id: "c", text: "Retinal disparity" },
               { id: "d", text: "Binocular vision" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -311,12 +311,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Each eye sees a slightly different image" },
-              { id: "b", text: "Objects appear larger" },
-              { id: "c", text: "Colours differ" },
-              { id: "d", text: "It requires no eyes" },
+              { id: "a", text: "It requires no eyes" },
+              { id: "b", text: "Colours differ" },
+              { id: "c", text: "Each eye sees a slightly different image" },
+              { id: "d", text: "Objects appear larger" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -348,9 +348,9 @@ export const lesson32: Lesson = {
                 id: "a",
                 text: "Interpreting arrow fins as inside/outside corners",
               },
-              { id: "b", text: "Colour differences" },
+              { id: "b", text: "Binocular vision" },
               { id: "c", text: "Size constancy" },
-              { id: "d", text: "Binocular vision" },
+              { id: "d", text: "Colour differences" },
             ],
             correctChoiceId: "a",
           },
@@ -381,15 +381,15 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "Random" },
               {
-                id: "a",
+                id: "b",
                 text: "An active construction, not passive recording",
               },
-              { id: "b", text: "Always accurate" },
               { id: "c", text: "Dependent only on eyes" },
-              { id: "d", text: "Random" },
+              { id: "d", text: "Always accurate" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -562,12 +562,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Overlapping objects appear nearer" },
-              { id: "b", text: "Distant objects are hazier" },
+              { id: "a", text: "Distant objects are hazier" },
+              { id: "b", text: "Objects shrink" },
               { id: "c", text: "Lines converge" },
-              { id: "d", text: "Objects shrink" },
+              { id: "d", text: "Overlapping objects appear nearer" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -624,15 +624,15 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "Colour constancy" },
               {
-                id: "a",
+                id: "b",
                 text: "Ambiguous perception that flips between interpretations",
               },
-              { id: "b", text: "Perfect depth perception" },
-              { id: "c", text: "Colour constancy" },
+              { id: "c", text: "Perfect depth perception" },
               { id: "d", text: "Size constancy" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -772,12 +772,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Linear perspective" },
-              { id: "b", text: "Interposition" },
-              { id: "c", text: "Retinal disparity" },
-              { id: "d", text: "Texture gradient" },
+              { id: "a", text: "Interposition" },
+              { id: "b", text: "Texture gradient" },
+              { id: "c", text: "Linear perspective" },
+              { id: "d", text: "Retinal disparity" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -916,12 +916,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Distance constancy" },
+              { id: "a", text: "Colour constancy" },
               { id: "b", text: "Size constancy" },
               { id: "c", text: "Shape constancy" },
-              { id: "d", text: "Colour constancy" },
+              { id: "d", text: "Distance constancy" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1017,8 +1017,8 @@ export const lesson32: Lesson = {
             choices: [
               { id: "a", text: "Convergence" },
               { id: "b", text: "Relative size" },
-              { id: "c", text: "Interposition" },
-              { id: "d", text: "Aerial perspective" },
+              { id: "c", text: "Aerial perspective" },
+              { id: "d", text: "Interposition" },
             ],
             correctChoiceId: "a",
           },
@@ -1196,12 +1196,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Sensory, short-term and long-term memory" },
-              { id: "b", text: "Visual, auditory and motor" },
-              { id: "c", text: "STM, LTM and cache" },
-              { id: "d", text: "Conscious, unconscious, preconscious" },
+              { id: "a", text: "STM, LTM and cache" },
+              { id: "b", text: "Conscious, unconscious, preconscious" },
+              { id: "c", text: "Visual, auditory and motor" },
+              { id: "d", text: "Sensory, short-term and long-term memory" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1230,9 +1230,9 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "7 items" },
-              { id: "b", text: "Unlimited" },
-              { id: "c", text: "100 items" },
-              { id: "d", text: "1 item" },
+              { id: "b", text: "1 item" },
+              { id: "c", text: "Unlimited" },
+              { id: "d", text: "100 items" },
             ],
             correctChoiceId: "a",
           },
@@ -1262,12 +1262,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "18 seconds" },
-              { id: "b", text: "Permanent" },
-              { id: "c", text: "1 hour" },
-              { id: "d", text: "1 day" },
+              { id: "a", text: "Permanent" },
+              { id: "b", text: "1 hour" },
+              { id: "c", text: "1 day" },
+              { id: "d", text: "18 seconds" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1295,12 +1295,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Keep information in STM" },
-              { id: "b", text: "Transfer to LTM" },
-              { id: "c", text: "Encode permanently" },
-              { id: "d", text: "Forget information" },
+              { id: "a", text: "Transfer to LTM" },
+              { id: "b", text: "Keep information in STM" },
+              { id: "c", text: "Forget information" },
+              { id: "d", text: "Encode permanently" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1328,12 +1328,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Long-term memory" },
-              { id: "b", text: "Sensory memory" },
+              { id: "a", text: "Sensory memory" },
+              { id: "b", text: "Long-term memory" },
               { id: "c", text: "Short-term memory" },
               { id: "d", text: "Nowhere" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1361,12 +1361,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Baddeley and Hitch" },
-              { id: "b", text: "Atkinson and Shiffrin" },
+              { id: "a", text: "Atkinson and Shiffrin" },
+              { id: "b", text: "Pavlov" },
               { id: "c", text: "Ebbinghaus" },
-              { id: "d", text: "Pavlov" },
+              { id: "d", text: "Baddeley and Hitch" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1398,9 +1398,9 @@ export const lesson32: Lesson = {
                 id: "a",
                 text: "Controls attention and coordinates the slave systems",
               },
-              { id: "b", text: "Stores verbal information" },
-              { id: "c", text: "Stores visual information" },
-              { id: "d", text: "Is the phonological loop" },
+              { id: "b", text: "Is the phonological loop" },
+              { id: "c", text: "Stores verbal information" },
+              { id: "d", text: "Stores visual information" },
             ],
             correctChoiceId: "a",
           },
@@ -1430,12 +1430,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Verbal and auditory information" },
-              { id: "b", text: "Visual information" },
+              { id: "a", text: "Visual information" },
+              { id: "b", text: "All information equally" },
               { id: "c", text: "Spatial information" },
-              { id: "d", text: "All information equally" },
+              { id: "d", text: "Verbal and auditory information" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1464,8 +1464,8 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Visual and spatial information" },
-              { id: "b", text: "Verbal information" },
-              { id: "c", text: "Attention only" },
+              { id: "b", text: "Attention only" },
+              { id: "c", text: "Verbal information" },
               { id: "d", text: "Long-term storage" },
             ],
             correctChoiceId: "a",
@@ -1639,9 +1639,9 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Rapidly at first, then more slowly" },
-              { id: "b", text: "Steadily over time" },
-              { id: "c", text: "Never" },
-              { id: "d", text: "Only at the end" },
+              { id: "b", text: "Never" },
+              { id: "c", text: "Only at the end" },
+              { id: "d", text: "Steadily over time" },
             ],
             correctChoiceId: "a",
           },
@@ -1703,9 +1703,9 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Selective attention" },
-              { id: "b", text: "Divided attention" },
-              { id: "c", text: "Sensory memory" },
-              { id: "d", text: "LTM" },
+              { id: "b", text: "LTM" },
+              { id: "c", text: "Divided attention" },
+              { id: "d", text: "Sensory memory" },
             ],
             correctChoiceId: "a",
           },
@@ -1847,12 +1847,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A fraction of a second to a few seconds" },
-              { id: "b", text: "Permanently" },
+              { id: "a", text: "Permanently" },
+              { id: "b", text: "A fraction of a second to a few seconds" },
               { id: "c", text: "Hours" },
               { id: "d", text: "Days" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1989,15 +1989,15 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "No storage" },
+              { id: "b", text: "18 second duration" },
               {
-                id: "a",
+                id: "c",
                 text: "Unlimited capacity and potentially permanent duration",
               },
-              { id: "b", text: "7 item limit" },
-              { id: "c", text: "18 second duration" },
-              { id: "d", text: "No storage" },
+              { id: "d", text: "7 item limit" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -2090,12 +2090,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Phonological loop" },
+              { id: "a", text: "Episodic buffer" },
               { id: "b", text: "Visuo-spatial sketchpad" },
-              { id: "c", text: "Central executive" },
-              { id: "d", text: "Episodic buffer" },
+              { id: "c", text: "Phonological loop" },
+              { id: "d", text: "Central executive" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

@@ -52,9 +52,9 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Object + Verb + Subject" },
+              { id: "a", text: "Verb + Subject + Object" },
               { id: "b", text: "Subject + Verb + Object" },
-              { id: "c", text: "Verb + Subject + Object" },
+              { id: "c", text: "Object + Verb + Subject" },
               { id: "d", text: "Any order is fine" },
             ],
             correctChoiceId: "b",
@@ -144,10 +144,10 @@ export const lesson42: Lesson = {
             choices: [
               { id: "a", text: "reads" },
               { id: "b", text: "books" },
-              { id: "c", text: "She" },
-              { id: "d", text: "She reads" },
+              { id: "c", text: "She reads" },
+              { id: "d", text: "She" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -171,8 +171,8 @@ export const lesson42: Lesson = {
             choices: [
               { id: "a", text: "Football they like." },
               { id: "b", text: "They like football." },
-              { id: "c", text: "Like they football." },
-              { id: "d", text: "Football like they." },
+              { id: "c", text: "Football like they." },
+              { id: "d", text: "Like they football." },
             ],
             correctChoiceId: "b",
           },
@@ -215,12 +215,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "After the noun" },
-              { id: "b", text: "Before the noun, after the article" },
+              { id: "a", text: "Before the noun, after the article" },
+              { id: "b", text: "Anywhere in the sentence" },
               { id: "c", text: "At the start of the sentence" },
-              { id: "d", text: "Anywhere in the sentence" },
+              { id: "d", text: "After the noun" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -267,12 +267,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Books reads my brother." },
-              { id: "b", text: "My brother reads books." },
+              { id: "a", text: "Books my brother reads." },
+              { id: "b", text: "Books reads my brother." },
               { id: "c", text: "Reads books my brother." },
-              { id: "d", text: "Books my brother reads." },
+              { id: "d", text: "My brother reads books." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -337,12 +337,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "I like a car red." },
-              { id: "b", text: "I like a red car." },
-              { id: "c", text: "I like red a car." },
-              { id: "d", text: "I like car a red." },
+              { id: "a", text: "I like a red car." },
+              { id: "b", text: "I like red a car." },
+              { id: "c", text: "I like car a red." },
+              { id: "d", text: "I like a car red." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -389,12 +389,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "cat" },
-              { id: "b", text: "sleeps" },
-              { id: "c", text: "chair" },
-              { id: "d", text: "the" },
+              { id: "a", text: "chair" },
+              { id: "b", text: "cat" },
+              { id: "c", text: "the" },
+              { id: "d", text: "sleeps" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -440,12 +440,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "I have a dog big." },
-              { id: "b", text: "I have a big dog." },
-              { id: "c", text: "I have big a dog." },
+              { id: "a", text: "I have big a dog." },
+              { id: "b", text: "I have a dog big." },
+              { id: "c", text: "I have a big dog." },
               { id: "d", text: "I have dog a big." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -511,12 +511,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "students" },
-              { id: "b", text: "are" },
-              { id: "c", text: "good" },
-              { id: "d", text: "The" },
+              { id: "a", text: "are" },
+              { id: "b", text: "good" },
+              { id: "c", text: "The" },
+              { id: "d", text: "students" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -569,12 +569,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "I not like coffee." },
-              { id: "b", text: "I don't like coffee." },
-              { id: "c", text: "I no like coffee." },
-              { id: "d", text: "Don't I like coffee." },
+              { id: "a", text: "Don't I like coffee." },
+              { id: "b", text: "I no like coffee." },
+              { id: "c", text: "I not like coffee." },
+              { id: "d", text: "I don't like coffee." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -663,12 +663,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "She not likes tea." },
-              { id: "b", text: "She doesn't like tea." },
-              { id: "c", text: "She don't like tea." },
-              { id: "d", text: "She no likes tea." },
+              { id: "a", text: "She no likes tea." },
+              { id: "b", text: "She don't like tea." },
+              { id: "c", text: "She not likes tea." },
+              { id: "d", text: "She doesn't like tea." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -690,12 +690,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "They play chess?" },
-              { id: "b", text: "Do they play chess?" },
-              { id: "c", text: "Does they play chess?" },
-              { id: "d", text: "Play they chess?" },
+              { id: "a", text: "Play they chess?" },
+              { id: "b", text: "Does they play chess?" },
+              { id: "c", text: "They play chess?" },
+              { id: "d", text: "Do they play chess?" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -736,12 +736,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "He doesn't goes to school by bus." },
-              { id: "b", text: "He doesn't go to school by bus." },
-              { id: "c", text: "He don't go to school by bus." },
-              { id: "d", text: "He not go to school by bus." },
+              { id: "a", text: "He don't go to school by bus." },
+              { id: "b", text: "He not go to school by bus." },
+              { id: "c", text: "He doesn't go to school by bus." },
+              { id: "d", text: "He doesn't goes to school by bus." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -788,12 +788,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Yes, he play." },
-              { id: "b", text: "Yes, he does." },
-              { id: "c", text: "Yes, he is." },
-              { id: "d", text: "Yes, does he." },
+              { id: "a", text: "Yes, does he." },
+              { id: "b", text: "Yes, he is." },
+              { id: "c", text: "Yes, he play." },
+              { id: "d", text: "Yes, he does." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -858,12 +858,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Do she like music?" },
-              { id: "b", text: "Does she like music?" },
-              { id: "c", text: "Does she likes music?" },
-              { id: "d", text: "She does like music?" },
+              { id: "a", text: "She does like music?" },
+              { id: "b", text: "Does she likes music?" },
+              { id: "c", text: "Does she like music?" },
+              { id: "d", text: "Do she like music?" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -909,12 +909,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "I doesn't like tea." },
-              { id: "b", text: "I don't like tea." },
-              { id: "c", text: "I am not like tea." },
-              { id: "d", text: "I not like tea." },
+              { id: "a", text: "I am not like tea." },
+              { id: "b", text: "I not like tea." },
+              { id: "c", text: "I doesn't like tea." },
+              { id: "d", text: "I don't like tea." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -936,12 +936,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Yes, we do." },
-              { id: "b", text: "Yes, we are." },
-              { id: "c", text: "Yes, we does." },
-              { id: "d", text: "Yes, are we." },
+              { id: "a", text: "Yes, are we." },
+              { id: "b", text: "Yes, we does." },
+              { id: "c", text: "Yes, we are." },
+              { id: "d", text: "Yes, we do." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1030,12 +1030,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Does" },
-              { id: "b", text: "Do" },
-              { id: "c", text: "Is" },
+              { id: "a", text: "Is" },
+              { id: "b", text: "Does" },
+              { id: "c", text: "Do" },
               { id: "d", text: "Are" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

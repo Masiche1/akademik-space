@@ -82,12 +82,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$-1$" },
-              { id: "b", text: "$1$" },
-              { id: "c", text: "$0$" },
+              { id: "a", text: "$1$" },
+              { id: "b", text: "$0$" },
+              { id: "c", text: "$-1$" },
               { id: "d", text: "$-0.5$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -373,12 +373,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$2.1$" },
-              { id: "b", text: "$2.0$" },
+              { id: "a", text: "$2.0$" },
+              { id: "b", text: "$2.1$" },
               { id: "c", text: "$1.9$" },
               { id: "d", text: "$6$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [

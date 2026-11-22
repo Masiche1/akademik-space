@@ -55,9 +55,9 @@ export const lesson22: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$x = 3$" },
-              { id: "b", text: "$x = -3$" },
+              { id: "b", text: "$x = 7$" },
               { id: "c", text: "$x = 6$" },
-              { id: "d", text: "$x = 7$" },
+              { id: "d", text: "$x = -3$" },
             ],
             correctChoiceId: "a",
           },
@@ -158,12 +158,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$x = 2$" },
-              { id: "b", text: "$x = -2$" },
-              { id: "c", text: "$x = 4$" },
-              { id: "d", text: "$x = 6$" },
+              { id: "a", text: "$x = -2$" },
+              { id: "b", text: "$x = 4$" },
+              { id: "c", text: "$x = 6$" },
+              { id: "d", text: "$x = 2$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -187,8 +187,8 @@ export const lesson22: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$4$" },
-              { id: "b", text: "$-4$" },
-              { id: "c", text: "$20$" },
+              { id: "b", text: "$20$" },
+              { id: "c", text: "$-4$" },
               { id: "d", text: "$8$" },
             ],
             correctChoiceId: "a",
@@ -215,8 +215,8 @@ export const lesson22: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "None" },
-              { id: "b", text: "One" },
-              { id: "c", text: "Two" },
+              { id: "b", text: "Two" },
+              { id: "c", text: "One" },
               { id: "d", text: "Three" },
             ],
             correctChoiceId: "a",
@@ -242,12 +242,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$t = 3$ s" },
-              { id: "b", text: "$t = 6$ s" },
-              { id: "c", text: "$t = 1$ s" },
+              { id: "a", text: "$t = 6$ s" },
+              { id: "b", text: "$t = 1$ s" },
+              { id: "c", text: "$t = 3$ s" },
               { id: "d", text: "$t = 30$ s" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -410,12 +410,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It has a maximum value" },
+              { id: "a", text: "It has no turning point" },
               { id: "b", text: "It has a minimum value" },
               { id: "c", text: "Its graph opens upwards" },
-              { id: "d", text: "It has no turning point" },
+              { id: "d", text: "It has a maximum value" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -438,12 +438,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The initial height of the ball above the ground" },
-              { id: "b", text: "The maximum height of the ball" },
-              { id: "c", text: "The time at which the ball lands" },
-              { id: "d", text: "The horizontal distance travelled" },
+              { id: "a", text: "The horizontal distance travelled" },
+              { id: "b", text: "The time at which the ball lands" },
+              { id: "c", text: "The maximum height of the ball" },
+              { id: "d", text: "The initial height of the ball above the ground" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -497,12 +497,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$4$ hours" },
-              { id: "b", text: "$36$ hours" },
-              { id: "c", text: "$108$ hours" },
+              { id: "a", text: "$108$ hours" },
+              { id: "b", text: "$4$ hours" },
+              { id: "c", text: "$36$ hours" },
               { id: "d", text: "$3$ hours" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -601,12 +601,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$50$" },
-              { id: "b", text: "$30$" },
+              { id: "a", text: "$30$" },
+              { id: "b", text: "$50$" },
               { id: "c", text: "$90$" },
               { id: "d", text: "$10$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -629,12 +629,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$10\\%$" },
-              { id: "b", text: "$90\\%$" },
-              { id: "c", text: "$0.9\\%$" },
-              { id: "d", text: "$9\\%$" },
+              { id: "a", text: "$0.9\\%$" },
+              { id: "b", text: "$9\\%$" },
+              { id: "c", text: "$10\\%$" },
+              { id: "d", text: "$90\\%$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -657,12 +657,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$1.25$" },
-              { id: "b", text: "$2.5$" },
-              { id: "c", text: "$10$" },
-              { id: "d", text: "$0.625$" },
+              { id: "a", text: "$0.625$" },
+              { id: "b", text: "$10$" },
+              { id: "c", text: "$2.5$" },
+              { id: "d", text: "$1.25$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -685,12 +685,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$3$" },
+              { id: "a", text: "$0$" },
               { id: "b", text: "$1$" },
               { id: "c", text: "$2$" },
-              { id: "d", text: "$0$" },
+              { id: "d", text: "$3$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -853,9 +853,9 @@ export const lesson22: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$y = \\dfrac{k}{x^3}$" },
-              { id: "b", text: "$y = kx^3$" },
+              { id: "b", text: "$y = kx$" },
               { id: "c", text: "$y = \\dfrac{k}{x}$" },
-              { id: "d", text: "$y = kx$" },
+              { id: "d", text: "$y = kx^3$" },
             ],
             correctChoiceId: "a",
           },
@@ -880,12 +880,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A continuous decay rate of $2\\%$ per year" },
-              { id: "b", text: "A decay of exactly $2\\%$ of the original mass each year" },
-              { id: "c", text: "The half-life of the substance in years" },
-              { id: "d", text: "The initial mass of the substance" },
+              { id: "a", text: "The half-life of the substance in years" },
+              { id: "b", text: "The initial mass of the substance" },
+              { id: "c", text: "A decay of exactly $2\\%$ of the original mass each year" },
+              { id: "d", text: "A continuous decay rate of $2\\%$ per year" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

@@ -51,12 +51,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Everyone talks at the same time" },
-              { id: "b", text: "One person speaks at a time while others listen" },
-              { id: "c", text: "Only the teacher may speak" },
-              { id: "d", text: "The loudest voice wins" },
+              { id: "a", text: "Only the teacher may speak" },
+              { id: "b", text: "Everyone talks at the same time" },
+              { id: "c", text: "The loudest voice wins" },
+              { id: "d", text: "One person speaks at a time while others listen" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -143,12 +143,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Everyone at once" },
-              { id: "b", text: "Two or three" },
-              { id: "c", text: "One at a time" },
-              { id: "d", text: "Nobody" },
+              { id: "a", text: "Two or three" },
+              { id: "b", text: "One at a time" },
+              { id: "c", text: "Nobody" },
+              { id: "d", text: "Everyone at once" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -188,12 +188,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "'You're wrong, that's silly.'" },
-              { id: "b", text: "'I see it differently because...'" },
-              { id: "c", text: "'Shut up, I don't agree.'" },
-              { id: "d", text: "Say nothing and laugh at them" },
+              { id: "a", text: "Say nothing and laugh at them" },
+              { id: "b", text: "'Shut up, I don't agree.'" },
+              { id: "c", text: "'I see it differently because...'" },
+              { id: "d", text: "'You're wrong, that's silly.'" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -270,12 +270,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "So only you get to talk" },
-              { id: "b", text: "So others get a chance to join in" },
-              { id: "c", text: "Because short sentences are easier to spell" },
-              { id: "d", text: "It does not matter" },
+              { id: "a", text: "So others get a chance to join in" },
+              { id: "b", text: "So only you get to talk" },
+              { id: "c", text: "It does not matter" },
+              { id: "d", text: "Because short sentences are easier to spell" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -334,9 +334,9 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Ignoring what others say" },
+              { id: "a", text: "Copying someone's exact words" },
               { id: "b", text: "Adding to or improving an idea someone else shared" },
-              { id: "c", text: "Copying someone's exact words" },
+              { id: "c", text: "Ignoring what others say" },
               { id: "d", text: "Talking over everyone" },
             ],
             correctChoiceId: "b",
@@ -360,12 +360,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "'Dogs are boring.'" },
-              { id: "b", text: "'I agree — dogs are loyal and fun to play with.'" },
-              { id: "c", text: "'I was talking, not you.'" },
-              { id: "d", text: "'Whatever.'" },
+              { id: "a", text: "'I was talking, not you.'" },
+              { id: "b", text: "'Dogs are boring.'" },
+              { id: "c", text: "'Whatever.'" },
+              { id: "d", text: "'I agree — dogs are loyal and fun to play with.'" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -442,12 +442,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Saying 'hello'" },
-              { id: "b", text: "Smiling at someone" },
+              { id: "a", text: "Smiling at someone" },
+              { id: "b", text: "Saying 'hello'" },
               { id: "c", text: "Reading a book aloud" },
               { id: "d", text: "Writing a letter" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -534,12 +534,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Speakers" },
-              { id: "b", text: "Actors" },
-              { id: "c", text: "Audience" },
+              { id: "a", text: "Audience" },
+              { id: "b", text: "Speakers" },
+              { id: "c", text: "Actors" },
               { id: "d", text: "Writers" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -581,8 +581,8 @@ export const lesson13: Lesson = {
             choices: [
               { id: "a", text: "Saying 'thank you'" },
               { id: "b", text: "Holding up a photo for everyone to see" },
-              { id: "c", text: "Reading a story aloud" },
-              { id: "d", text: "Writing a letter" },
+              { id: "c", text: "Writing a letter" },
+              { id: "d", text: "Reading a story aloud" },
             ],
             correctChoiceId: "b",
           },
@@ -661,12 +661,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Behind a big desk" },
-              { id: "b", text: "Where everyone can see you" },
-              { id: "c", text: "In the corner facing the wall" },
-              { id: "d", text: "It does not matter" },
+              { id: "a", text: "It does not matter" },
+              { id: "b", text: "In the corner facing the wall" },
+              { id: "c", text: "Where everyone can see you" },
+              { id: "d", text: "Behind a big desk" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -725,12 +725,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Hiding behind the teacher" },
-              { id: "b", text: "Standing tall and looking at the audience" },
-              { id: "c", text: "Reading as fast as possible" },
-              { id: "d", text: "Looking at the floor" },
+              { id: "a", text: "Looking at the floor" },
+              { id: "b", text: "Hiding behind the teacher" },
+              { id: "c", text: "Standing tall and looking at the audience" },
+              { id: "d", text: "Reading as fast as possible" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -751,12 +751,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "'That's everything, bye.'" },
+              { id: "a", text: "Keep talking until someone stops you" },
               { id: "b", text: "Walk away without a word" },
-              { id: "c", text: "'Thank you for listening.'" },
-              { id: "d", text: "Keep talking until someone stops you" },
+              { id: "c", text: "'That's everything, bye.'" },
+              { id: "d", text: "'Thank you for listening.'" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [

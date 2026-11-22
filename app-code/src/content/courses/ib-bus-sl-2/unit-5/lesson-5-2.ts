@@ -55,12 +55,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Induction training" },
-              { id: "b", text: "Refresher training" },
+              { id: "a", text: "Refresher training" },
+              { id: "b", text: "Induction training" },
               { id: "c", text: "Apprenticeship" },
               { id: "d", text: "Rehabilitation" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Refresher training", statement: "Updating existing skills to keep pace with new methods or technology." }],
@@ -145,12 +145,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Advanced training for experienced managers" },
-              { id: "b", text: "The introductory training given to new employees on rules, culture and the role" },
-              { id: "c", text: "Training delivered only by external consultants" },
+              { id: "a", text: "The introductory training given to new employees on rules, culture and the role" },
+              { id: "b", text: "Training delivered only by external consultants" },
+              { id: "c", text: "Advanced training for experienced managers" },
               { id: "d", text: "A course taken after promotion" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Induction training", statement: "The introductory training given to new employees on rules, culture and the role." }],
@@ -171,12 +171,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A new cashier learning on the shop floor" },
-              { id: "b", text: "Staff attending an external course at a training centre" },
+              { id: "a", text: "New starters being shown the staff handbook" },
+              { id: "b", text: "A new cashier learning on the shop floor" },
               { id: "c", text: "A worker shadowing a colleague on shift" },
-              { id: "d", text: "New starters being shown the staff handbook" },
+              { id: "d", text: "Staff attending an external course at a training centre" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Off-the-job training", statement: "Training away from the workplace, e.g. courses, workshops, external providers." }],
@@ -198,11 +198,11 @@ export const lesson52: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Brand-new employees during their first week" },
-              { id: "b", text: "Update existing employees' skills as methods or technology change" },
+              { id: "b", text: "Train workers for a different career" },
               { id: "c", text: "Replace initial vocational qualifications" },
-              { id: "d", text: "Train workers for a different career" },
+              { id: "d", text: "Update existing employees' skills as methods or technology change" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Refresher training", statement: "Updating existing skills to keep pace with new methods or technology." }],
@@ -223,10 +223,10 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Refresher training" },
+              { id: "a", text: "No training is needed" },
               { id: "b", text: "Induction training" },
               { id: "c", text: "Management training" },
-              { id: "d", text: "No training is needed" },
+              { id: "d", text: "Refresher training" },
             ],
             correctChoiceId: "b",
           },
@@ -285,12 +285,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Higher course fees and training costs" },
-              { id: "b", text: "Increased productivity and lower staff turnover" },
-              { id: "c", text: "The need to recruit replacement staff" },
-              { id: "d", text: "Reduced staff morale and loyalty" }
+              { id: "a", text: "The need to recruit replacement staff" },
+              { id: "b", text: "Reduced staff morale and loyalty" },
+              { id: "c", text: "Higher course fees and training costs" },
+              { id: "d", text: "Increased productivity and lower staff turnover" }
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Training returns", statement: "Higher productivity + lower errors + better retention." }],
@@ -330,10 +330,10 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Ask trainees if they enjoyed the course" },
+              { id: "a", text: "Count how many staff attended" },
               { id: "b", text: "Measure output, error rates or observed performance after training" },
-              { id: "c", text: "Count how many staff attended" },
-              { id: "d", text: "Review the training provider's brochure" },
+              { id: "c", text: "Review the training provider's brochure" },
+              { id: "d", text: "Ask trainees if they enjoyed the course" },
             ],
             correctChoiceId: "b",
           },
@@ -421,12 +421,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Off-the-job training" },
-              { id: "b", text: "On-the-job training" },
-              { id: "c", text: "Induction only" },
+              { id: "a", text: "Induction only" },
+              { id: "b", text: "Off-the-job training" },
+              { id: "c", text: "On-the-job training" },
               { id: "d", text: "Performance appraisal" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "On-the-job training", statement: "Learning skills while performing the actual job under supervision." }],
@@ -485,11 +485,11 @@ export const lesson52: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Only covers health and safety rules" },
-              { id: "b", text: "Focuses on career growth and broader skills beyond the immediate job" },
-              { id: "c", text: "Is always delivered on the job" },
-              { id: "d", text: "Ends after induction" },
+              { id: "b", text: "Is always delivered on the job" },
+              { id: "c", text: "Ends after induction" },
+              { id: "d", text: "Focuses on career growth and broader skills beyond the immediate job" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "comparison", name: "Training vs development", statement: "Training targets job skills; development supports wider growth." }],
@@ -531,10 +531,10 @@ export const lesson52: Lesson = {
             choices: [
               { id: "a", text: "Ask trainees whether they enjoyed the session" },
               { id: "b", text: "Count certificates issued" },
-              { id: "c", text: "Compare error rates or output before and after training" },
-              { id: "d", text: "Review the trainer's qualifications" },
+              { id: "c", text: "Review the trainer's qualifications" },
+              { id: "d", text: "Compare error rates or output before and after training" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Training evaluation", statement: "Effectiveness is judged by changes in performance or output." }],
@@ -580,8 +580,8 @@ export const lesson52: Lesson = {
             choices: [
               { id: "a", text: "On-the-job training" },
               { id: "b", text: "Off-the-job training" },
-              { id: "c", text: "Refresher pay" },
-              { id: "d", text: "Performance appraisal" },
+              { id: "c", text: "Performance appraisal" },
+              { id: "d", text: "Refresher pay" },
             ],
             correctChoiceId: "b",
           },
@@ -604,12 +604,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Induction training" },
-              { id: "b", text: "Refresher training" },
-              { id: "c", text: "Recruitment" },
-              { id: "d", text: "Remuneration" },
+              { id: "a", text: "Remuneration" },
+              { id: "b", text: "Recruitment" },
+              { id: "c", text: "Refresher training" },
+              { id: "d", text: "Induction training" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Refresher training", statement: "Updating existing employees' skills as methods or technology change." }],
@@ -700,11 +700,11 @@ export const lesson52: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Grievance procedure" },
-              { id: "b", text: "Collective bargaining" },
+              { id: "b", text: "Mediation" },
               { id: "c", text: "Arbitration" },
-              { id: "d", text: "Mediation" },
+              { id: "d", text: "Collective bargaining" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Collective bargaining", statement: "Negotiation between employers and unions over wages and conditions." }],
@@ -726,11 +726,11 @@ export const lesson52: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "A strike" },
-              { id: "b", text: "A lock-out" },
-              { id: "c", text: "Work-to-rule" },
-              { id: "d", text: "Overtime ban" },
+              { id: "b", text: "Work-to-rule" },
+              { id: "c", text: "Overtime ban" },
+              { id: "d", text: "A lock-out" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Work-to-rule", statement: "Workers follow rules exactly, slowing output without illegal action." }],
@@ -797,12 +797,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A government department that sets wages" },
-              { id: "b", text: "An organisation of workers that negotiates with employers over pay and conditions" },
-              { id: "c", text: "A type of employment contract" },
-              { id: "d", text: "A tribunal that settles all disputes" },
+              { id: "a", text: "A tribunal that settles all disputes" },
+              { id: "b", text: "A government department that sets wages" },
+              { id: "c", text: "An organisation of workers that negotiates with employers over pay and conditions" },
+              { id: "d", text: "A type of employment contract" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Trade union", statement: "An organisation of workers that negotiates with employers over pay and conditions." }],
@@ -823,12 +823,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The employer closes the workplace" },
-              { id: "b", text: "Workers stop work to press their demands" },
-              { id: "c", text: "Workers follow every rule exactly" },
-              { id: "d", text: "A neutral third party makes a binding decision" },
+              { id: "a", text: "Workers follow every rule exactly" },
+              { id: "b", text: "The employer closes the workplace" },
+              { id: "c", text: "A neutral third party makes a binding decision" },
+              { id: "d", text: "Workers stop work to press their demands" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Industrial action", statement: "Actions by workers such as strikes or work-to-rule to press demands." }],
@@ -849,10 +849,10 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Workers refusing to work overtime" },
+              { id: "a", text: "Workers following rules strictly to slow output" },
               { id: "b", text: "The employer preventing workers from entering the workplace" },
-              { id: "c", text: "Workers following rules strictly to slow output" },
-              { id: "d", text: "Union members voting on a pay claim" },
+              { id: "c", text: "Union members voting on a pay claim" },
+              { id: "d", text: "Workers refusing to work overtime" },
             ],
             correctChoiceId: "b",
           },
@@ -876,11 +876,11 @@ export const lesson52: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Negotiation over pay between union and employer" },
-              { id: "b", text: "A formal process for workers to raise complaints about their treatment" },
-              { id: "c", text: "A binding decision by an independent arbitrator" },
-              { id: "d", text: "The final stage of a strike ballot" },
+              { id: "b", text: "The final stage of a strike ballot" },
+              { id: "c", text: "A formal process for workers to raise complaints about their treatment" },
+              { id: "d", text: "A binding decision by an independent arbitrator" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Grievance procedure", statement: "A formal process for workers to raise complaints about their treatment." }],
@@ -937,12 +937,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It guarantees a pay rise every year" },
-              { id: "b", text: "Workers gain more bargaining power over pay and conditions" },
+              { id: "a", text: "Workers gain more bargaining power over pay and conditions" },
+              { id: "b", text: "It applies only to senior managers" },
               { id: "c", text: "It removes the need for any negotiation" },
-              { id: "d", text: "It applies only to senior managers" }
+              { id: "d", text: "It guarantees a pay rise every year" }
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Collective bargaining", statement: "Union negotiates pay and conditions for all members." }],
@@ -963,9 +963,9 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Produces a legally binding decision" },
+              { id: "a", text: "Is the final stage before a lock-out" },
               { id: "b", text: "Uses a neutral third party whose suggestions are not binding" },
-              { id: "c", text: "Is the final stage before a lock-out" },
+              { id: "c", text: "Produces a legally binding decision" },
               { id: "d", text: "Is only used in court hearings" },
             ],
             correctChoiceId: "b",
@@ -1072,12 +1072,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A government department" },
-              { id: "b", text: "An organisation representing workers collectively" },
-              { id: "c", text: "A recruitment agency" },
-              { id: "d", text: "A type of bonus scheme" },
+              { id: "a", text: "A recruitment agency" },
+              { id: "b", text: "A type of bonus scheme" },
+              { id: "c", text: "A government department" },
+              { id: "d", text: "An organisation representing workers collectively" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Trade union", statement: "An organisation of workers that negotiates with employers." }],
@@ -1135,12 +1135,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A lock-out" },
-              { id: "b", text: "Work-to-rule" },
-              { id: "c", text: "Redundancy" },
-              { id: "d", text: "Mediation" },
+              { id: "a", text: "Redundancy" },
+              { id: "b", text: "Mediation" },
+              { id: "c", text: "Work-to-rule" },
+              { id: "d", text: "A lock-out" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Work-to-rule", statement: "Workers follow rules strictly to slow output without striking." }],
@@ -1180,9 +1180,9 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Imposes a binding decision on both sides" },
+              { id: "a", text: "Stops all workers from working" },
               { id: "b", text: "Helps the parties reach their own agreement" },
-              { id: "c", text: "Stops all workers from working" },
+              { id: "c", text: "Imposes a binding decision on both sides" },
               { id: "d", text: "Negotiates only with managers" },
             ],
             correctChoiceId: "b",
@@ -1246,12 +1246,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Workers vote to strike" },
-              { id: "b", text: "The employer prevents employees from working during a dispute" },
-              { id: "c", text: "A mediator suggests a compromise" },
-              { id: "d", text: "Employees follow all rules strictly" },
+              { id: "a", text: "Employees follow all rules strictly" },
+              { id: "b", text: "A mediator suggests a compromise" },
+              { id: "c", text: "The employer prevents employees from working during a dispute" },
+              { id: "d", text: "Workers vote to strike" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Lock-out", statement: "Employer action preventing employees from working during a dispute." }],
@@ -1293,9 +1293,9 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Only advisory" },
+              { id: "a", text: "Ignored by management" },
               { id: "b", text: "Usually binding on both parties" },
-              { id: "c", text: "Ignored by management" },
+              { id: "c", text: "Only advisory" },
               { id: "d", text: "Decided by a strike vote" },
             ],
             correctChoiceId: "b",

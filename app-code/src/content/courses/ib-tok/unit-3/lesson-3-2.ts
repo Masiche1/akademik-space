@@ -53,11 +53,11 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "One" },
-              { id: "b", text: "Two" },
-              { id: "c", text: "Three" },
+              { id: "b", text: "Three" },
+              { id: "c", text: "Two" },
               { id: "d", text: "Five" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -147,12 +147,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "An external examination paper" },
-              { id: "b", text: "Internal assessment completed in class" },
+              { id: "a", text: "Internal assessment completed in class" },
+              { id: "b", text: "An external examination paper" },
               { id: "c", text: "An oral examination" },
               { id: "d", text: "A take-home portfolio only" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -174,12 +174,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Three" },
+              { id: "a", text: "As many as students invent" },
               { id: "b", text: "Twelve" },
-              { id: "c", text: "Thirty-two" },
-              { id: "d", text: "As many as students invent" },
+              { id: "c", text: "Three" },
+              { id: "d", text: "Thirty-two" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -201,12 +201,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A photograph of a book" },
-              { id: "b", text: "A smartphone used in daily life" },
-              { id: "c", text: "A paragraph from a textbook" },
-              { id: "d", text: "A quotation about knowledge" },
+              { id: "a", text: "A smartphone used in daily life" },
+              { id: "b", text: "A photograph of a book" },
+              { id: "c", text: "A quotation about knowledge" },
+              { id: "d", text: "A paragraph from a textbook" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -248,12 +248,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Three unrelated components" },
-              { id: "b", text: "Theme frames the issue; objects supply cases; commentaries link each object to the theme via a knowledge question" },
-              { id: "c", text: "Commentaries replace the need for objects" },
-              { id: "d", text: "Objects are chosen independently of the theme" },
+              { id: "a", text: "Theme frames the issue; objects supply cases; commentaries link each object to the theme via a knowledge question" },
+              { id: "b", text: "Commentaries replace the need for objects" },
+              { id: "c", text: "Objects are chosen independently of the theme" },
+              { id: "d", text: "Three unrelated components" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -300,10 +300,10 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Posters are always too colourful" },
+              { id: "a", text: "The poster is too expensive" },
               { id: "b", text: "It is an image or text rather than a physical object" },
               { id: "c", text: "Science is never allowed as a theme" },
-              { id: "d", text: "The poster is too expensive" },
+              { id: "d", text: "Posters are always too colourful" },
             ],
             correctChoiceId: "b",
           },
@@ -398,12 +398,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "As an external examination" },
-              { id: "b", text: "Internally, usually in a supervised classroom session" },
-              { id: "c", text: "Anonymously online" },
+              { id: "a", text: "Anonymously online" },
+              { id: "b", text: "As an external examination" },
+              { id: "c", text: "Internally, usually in a supervised classroom session" },
               { id: "d", text: "By the examiner on the student's behalf" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -478,11 +478,11 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "50–100 words" },
-              { id: "b", text: "200–300 words" },
+              { id: "b", text: "1000+ words" },
               { id: "c", text: "500–800 words" },
-              { id: "d", text: "1000+ words" },
+              { id: "d", text: "200–300 words" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -573,11 +573,11 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "A summary of the theme" },
-              { id: "b", text: "A knowledge question" },
-              { id: "c", text: "A list of academic sources" },
-              { id: "d", text: "A personal anecdote" },
+              { id: "b", text: "A personal anecdote" },
+              { id: "c", text: "A knowledge question" },
+              { id: "d", text: "A list of academic sources" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -599,12 +599,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Decoration for the theme" },
-              { id: "b", text: "Evidence for a knowledge claim" },
-              { id: "c", text: "A mere illustration" },
-              { id: "d", text: "Background context only" },
+              { id: "a", text: "Evidence for a knowledge claim" },
+              { id: "b", text: "Decoration for the theme" },
+              { id: "c", text: "Background context only" },
+              { id: "d", text: "A mere illustration" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -627,11 +627,11 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "This object is red and made of plastic." },
-              { id: "b", text: "This thermometer measures the expansion of mercury rather than temperature directly — what does instrument-mediated knowledge reveal?" },
+              { id: "b", text: "My grandmother once owned one." },
               { id: "c", text: "Objects are interesting things to study." },
-              { id: "d", text: "My grandmother once owned one." },
+              { id: "d", text: "This thermometer measures the expansion of mercury rather than temperature directly — what does instrument-mediated knowledge reveal?" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -673,12 +673,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "What is a diary?" },
-              { id: "b", text: "To what extent can personal records be trusted as knowledge of the past?" },
-              { id: "c", text: "Who keeps diaries?" },
-              { id: "d", text: "Are diaries popular?" },
+              { id: "a", text: "Are diaries popular?" },
+              { id: "b", text: "Who keeps diaries?" },
+              { id: "c", text: "What is a diary?" },
+              { id: "d", text: "To what extent can personal records be trusted as knowledge of the past?" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -726,11 +726,11 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Excellent, because detail is rewarded" },
-              { id: "b", text: "Inadequate — it fails the analytical requirement" },
-              { id: "c", text: "Too short for assessment" },
-              { id: "d", text: "Perfect as written" },
+              { id: "b", text: "Perfect as written" },
+              { id: "c", text: "Inadequate — it fails the analytical requirement" },
+              { id: "d", text: "Too short for assessment" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -823,12 +823,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A random label for grouping" },
-              { id: "b", text: "The knowledge context that unifies the three objects and commentaries" },
-              { id: "c", text: "A grading rubric" },
-              { id: "d", text: "A decorative heading" },
+              { id: "a", text: "A decorative heading" },
+              { id: "b", text: "A grading rubric" },
+              { id: "c", text: "The knowledge context that unifies the three objects and commentaries" },
+              { id: "d", text: "A random label for grouping" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

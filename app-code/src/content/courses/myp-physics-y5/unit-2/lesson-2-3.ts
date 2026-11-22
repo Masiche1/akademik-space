@@ -57,12 +57,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Radio waves" },
-              { id: "b", text: "Infrared" },
-              { id: "c", text: "X-rays" },
-              { id: "d", text: "Microwaves" },
+              { id: "a", text: "X-rays" },
+              { id: "b", text: "Microwaves" },
+              { id: "c", text: "Radio waves" },
+              { id: "d", text: "Infrared" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "X-rays", statement: "Penetrate soft tissue, absorbed differently by materials → images." }],
@@ -84,10 +84,10 @@ export const lesson23: Lesson = {
             choices: [
               { id: "a", text: "Gamma ray is faster" },
               { id: "b", text: "Radio wave is faster" },
-              { id: "c", text: "They are equal at $3 \\times 10^8$ m/s" },
-              { id: "d", text: "Speed depends on wavelength" },
+              { id: "c", text: "Speed depends on wavelength" },
+              { id: "d", text: "They are equal at $3 \\times 10^8$ m/s" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "c = fλ", statement: "All EM waves share speed $c$ in vacuum." }],
@@ -108,12 +108,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "They travel slower" },
-              { id: "b", text: "They can carry more information due to higher frequency" },
+              { id: "a", text: "They can carry more information due to higher frequency" },
+              { id: "b", text: "They travel slower" },
               { id: "c", text: "They are less energetic" },
               { id: "d", text: "They do not need dishes" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Information capacity", statement: "Higher frequency → more oscillations per second → greater data bandwidth." }],
@@ -165,10 +165,10 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Gamma, X-ray, UV, visible, IR, microwave, radio" },
+              { id: "a", text: "Radio, visible, microwave, IR, UV, X-ray, gamma" },
               { id: "b", text: "Radio, microwave, IR, visible, UV, X-ray, gamma" },
               { id: "c", text: "Visible, radio, microwave, IR, UV, gamma, X-ray" },
-              { id: "d", text: "Radio, visible, microwave, IR, UV, X-ray, gamma" },
+              { id: "d", text: "Gamma, X-ray, UV, visible, IR, microwave, radio" },
             ],
             correctChoiceId: "b",
           },
@@ -209,12 +209,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Radio waves only" },
-              { id: "b", text: "Infrared only" },
-              { id: "c", text: "UV, X-rays and gamma rays" },
+              { id: "a", text: "UV, X-rays and gamma rays" },
+              { id: "b", text: "Radio waves only" },
+              { id: "c", text: "Infrared only" },
               { id: "d", text: "Visible light only" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Ionising radiation", statement: "UV, X-ray and gamma have enough energy per photon to ionise atoms." }],
@@ -255,12 +255,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "X-rays — they penetrate walls" },
-              { id: "b", text: "Infrared — warm objects emit IR in proportion to temperature" },
-              { id: "c", text: "Radio waves — they travel far" },
-              { id: "d", text: "UV — it is energetic" },
+              { id: "a", text: "Infrared — warm objects emit IR in proportion to temperature" },
+              { id: "b", text: "Radio waves — they travel far" },
+              { id: "c", text: "UV — it is energetic" },
+              { id: "d", text: "X-rays — they penetrate walls" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "context", name: "Applications", statement: "IR detects heat patterns without visible light." }],
@@ -362,11 +362,11 @@ export const lesson23: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$3 \\times 10^6$ m/s" },
-              { id: "b", text: "$3 \\times 10^8$ m/s" },
-              { id: "c", text: "Depends on frequency" },
-              { id: "d", text: "340 m/s" },
+              { id: "b", text: "Depends on frequency" },
+              { id: "c", text: "340 m/s" },
+              { id: "d", text: "$3 \\times 10^8$ m/s" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Speed of light", statement: "$c = 3 \\times 10^8$ m/s for all EM waves in vacuum." }],
@@ -386,12 +386,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "X-rays come from nuclear decay; gamma rays from electron transitions" },
-              { id: "b", text: "Gamma rays come from nuclear processes; X-rays from electron transitions in atoms" },
-              { id: "c", text: "They are identical" },
-              { id: "d", text: "X-rays are visible; gamma rays are not" },
+              { id: "a", text: "They are identical" },
+              { id: "b", text: "X-rays are visible; gamma rays are not" },
+              { id: "c", text: "X-rays come from nuclear decay; gamma rays from electron transitions" },
+              { id: "d", text: "Gamma rays come from nuclear processes; X-rays from electron transitions in atoms" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "X-ray vs gamma", statement: "Origin differs: X-rays from atomic electron transitions, gamma from nucleus; both ionising EM." }],
@@ -504,12 +504,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Conduction" },
+              { id: "a", text: "Radiation" },
               { id: "b", text: "Convection" },
-              { id: "c", text: "Radiation" },
-              { id: "d", text: "All require a medium" },
+              { id: "c", text: "All require a medium" },
+              { id: "d", text: "Conduction" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Radiation", statement: "Infrared waves transfer heat through vacuum." }],
@@ -529,12 +529,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "They are shiny" },
-              { id: "b", text: "Free electrons transfer energy quickly between atoms" },
-              { id: "c", text: "They have low density" },
-              { id: "d", text: "They reflect heat" },
+              { id: "a", text: "They have low density" },
+              { id: "b", text: "They reflect heat" },
+              { id: "c", text: "They are shiny" },
+              { id: "d", text: "Free electrons transfer energy quickly between atoms" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Conduction in metals", statement: "Free electrons carry thermal energy rapidly." }],
@@ -555,12 +555,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "More sunlight reaches Earth's surface" },
-              { id: "b", text: "Increased greenhouse gases trap more outgoing infrared radiation" },
-              { id: "c", text: "Ozone layer blocks visible light" },
-              { id: "d", text: "Clouds reflect all heat" },
+              { id: "a", text: "Ozone layer blocks visible light" },
+              { id: "b", text: "Clouds reflect all heat" },
+              { id: "c", text: "More sunlight reaches Earth's surface" },
+              { id: "d", text: "Increased greenhouse gases trap more outgoing infrared radiation" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Enhanced greenhouse", statement: "Extra CO₂/methane absorb more outgoing IR → extra warming." }],
@@ -612,12 +612,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A solid material" },
-              { id: "b", text: "A fluid (liquid or gas) that can circulate" },
-              { id: "c", text: "A vacuum" },
-              { id: "d", text: "Shiny surfaces" },
+              { id: "a", text: "A vacuum" },
+              { id: "b", text: "Shiny surfaces" },
+              { id: "c", text: "A solid material" },
+              { id: "d", text: "A fluid (liquid or gas) that can circulate" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Convection", statement: "Heat transfer by circulating fluid — warm fluid rises, cool fluid sinks." }],
@@ -656,12 +656,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Shiny white" },
-              { id: "b", text: "Dark and matt" },
-              { id: "c", text: "Light and reflective" },
+              { id: "a", text: "Light and reflective" },
+              { id: "b", text: "Shiny white" },
+              { id: "c", text: "Dark and matt" },
               { id: "d", text: "Transparent" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "property", name: "Radiation absorption", statement: "Dark, matt surfaces absorb IR best; light shiny surfaces reflect it." }],
@@ -702,12 +702,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Silvered walls reflect radiation; vacuum stops conduction and convection" },
-              { id: "b", text: "The vacuum stops radiation" },
+              { id: "a", text: "The vacuum stops radiation" },
+              { id: "b", text: "Silvered walls reflect radiation; vacuum stops conduction and convection" },
               { id: "c", text: "The flask works mainly by conduction" },
               { id: "d", text: "The lid prevents convection only" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Vacuum flask", statement: "Vacuum eliminates conduction/convection; silvered surfaces reflect IR radiation." }],
@@ -750,12 +750,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Conduction" },
-              { id: "b", text: "Convection" },
-              { id: "c", text: "Radiation" },
-              { id: "d", text: "Condensation" },
+              { id: "a", text: "Condensation" },
+              { id: "b", text: "Conduction" },
+              { id: "c", text: "Convection" },
+              { id: "d", text: "Radiation" },
             ],
-            correctChoiceId: "d",
+            correctChoiceIa: "d",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Heat transfer", statement: "Only conduction, convection and radiation transfer heat; condensation is a phase change." }],
@@ -794,12 +794,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It is pushed by the radiator" },
-              { id: "b", text: "Warm air is less dense, so it rises and cooler air sinks to replace it" },
-              { id: "c", text: "Radiation pushes it up" },
+              { id: "a", text: "Radiation pushes it up" },
+              { id: "b", text: "It is pushed by the radiator" },
+              { id: "c", text: "Warm air is less dense, so it rises and cooler air sinks to replace it" },
               { id: "d", text: "Warm air has greater mass" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Convection", statement: "Heating expands gas → lower density → rises; cooler dense air sinks." }],
@@ -849,12 +849,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Oxygen and nitrogen" },
-              { id: "b", text: "Carbon dioxide, methane and water vapour" },
+              { id: "a", text: "Only ozone" },
+              { id: "b", text: "Oxygen and nitrogen" },
               { id: "c", text: "Hydrogen and helium" },
-              { id: "d", text: "Only ozone" },
+              { id: "d", text: "Carbon dioxide, methane and water vapour" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "context", name: "Greenhouse gases", statement: "CO₂, methane, water vapour and nitrous oxide absorb outgoing IR." }],

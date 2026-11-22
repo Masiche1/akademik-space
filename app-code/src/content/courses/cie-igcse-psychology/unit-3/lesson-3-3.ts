@@ -121,15 +121,15 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "A learned behaviour" },
               {
-                id: "a",
+                id: "b",
                 text: "A close emotional bond between infant and caregiver",
               },
-              { id: "b", text: "A learned behaviour" },
               { id: "c", text: "A feeding relationship" },
               { id: "d", text: "A social contract" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -157,12 +157,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Innate and adaptive" },
-              { id: "b", text: "Learned through reinforcement" },
-              { id: "c", text: "Optional" },
-              { id: "d", text: "Only with food" },
+              { id: "a", text: "Optional" },
+              { id: "b", text: "Only with food" },
+              { id: "c", text: "Learned through reinforcement" },
+              { id: "d", text: "Innate and adaptive" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -190,12 +190,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "2.5 years" },
-              { id: "b", text: "10 years" },
+              { id: "a", text: "10 years" },
+              { id: "b", text: "2.5 years" },
               { id: "c", text: "1 month" },
               { id: "d", text: "20 years" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -223,12 +223,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "One primary attachment figure is essential" },
-              { id: "b", text: "Multiple attachments are impossible" },
+              { id: "a", text: "Multiple attachments are impossible" },
+              { id: "b", text: "One primary attachment figure is essential" },
               { id: "c", text: "Fathers cannot attach" },
               { id: "d", text: "Attachment is optional" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -256,12 +256,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It provided contact comfort" },
+              { id: "a", text: "It was warmer" },
               { id: "b", text: "It provided food" },
-              { id: "c", text: "It was bigger" },
-              { id: "d", text: "It was warmer" },
+              { id: "c", text: "It provided contact comfort" },
+              { id: "d", text: "It was bigger" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -290,9 +290,9 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Ainsworth" },
-              { id: "b", text: "Bowlby" },
+              { id: "b", text: "Piaget" },
               { id: "c", text: "Harlow" },
-              { id: "d", text: "Piaget" },
+              { id: "d", text: "Bowlby" },
             ],
             correctChoiceId: "a",
           },
@@ -322,12 +322,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Is easily soothed and returns to play" },
-              { id: "b", text: "Avoids the caregiver" },
-              { id: "c", text: "Is angry and clingy" },
-              { id: "d", text: "Shows no reaction" },
+              { id: "a", text: "Is angry and clingy" },
+              { id: "b", text: "Shows no reaction" },
+              { id: "c", text: "Avoids the caregiver" },
+              { id: "d", text: "Is easily soothed and returns to play" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -359,9 +359,9 @@ export const lesson33: Lesson = {
                 id: "a",
                 text: "Shows little distress and avoids caregiver on return",
               },
-              { id: "b", text: "Is very distressed" },
-              { id: "c", text: "Is easily soothed" },
-              { id: "d", text: "Is angry" },
+              { id: "b", text: "Is angry" },
+              { id: "c", text: "Is very distressed" },
+              { id: "d", text: "Is easily soothed" },
             ],
             correctChoiceId: "a",
           },
@@ -391,15 +391,15 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "Is easily soothed" },
+              { id: "b", text: "Shows no distress" },
               {
-                id: "a",
+                id: "c",
                 text: "Is very distressed and angry/clingy on return",
               },
-              { id: "b", text: "Avoids caregiver" },
-              { id: "c", text: "Is easily soothed" },
-              { id: "d", text: "Shows no distress" },
+              { id: "d", text: "Avoids caregiver" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -571,15 +571,15 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "Memory" },
+              { id: "b", text: "Language" },
               {
-                id: "a",
+                id: "c",
                 text: "Attachment type through separation and reunion behaviour",
               },
-              { id: "b", text: "Intelligence" },
-              { id: "c", text: "Memory" },
-              { id: "d", text: "Language" },
+              { id: "d", text: "Intelligence" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -639,9 +639,9 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Rhesus monkeys" },
-              { id: "b", text: "Human infants" },
+              { id: "b", text: "Adult humans" },
               { id: "c", text: "Dogs" },
-              { id: "d", text: "Adult humans" },
+              { id: "d", text: "Human infants" },
             ],
             correctChoiceId: "a",
           },
@@ -784,12 +784,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "65%" },
-              { id: "b", text: "10%" },
-              { id: "c", text: "90%" },
+              { id: "a", text: "10%" },
+              { id: "b", text: "90%" },
+              { id: "c", text: "65%" },
               { id: "d", text: "50%" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -930,12 +930,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Bowlby" },
+              { id: "a", text: "Harlow" },
               { id: "b", text: "Ainsworth" },
-              { id: "c", text: "Harlow" },
-              { id: "d", text: "Skinner" },
+              { id: "c", text: "Skinner" },
+              { id: "d", text: "Bowlby" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1033,8 +1033,8 @@ export const lesson33: Lesson = {
             choices: [
               { id: "a", text: "Infants aged 12-18 months" },
               { id: "b", text: "Adults" },
-              { id: "c", text: "Newborns" },
-              { id: "d", text: "Elderly" },
+              { id: "c", text: "Elderly" },
+              { id: "d", text: "Newborns" },
             ],
             correctChoiceId: "a",
           },
@@ -1213,12 +1213,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Learned through reinforcement and imitation" },
-              { id: "b", text: "Innate" },
-              { id: "c", text: "Genetic" },
-              { id: "d", text: "Automatic" },
+              { id: "a", text: "Genetic" },
+              { id: "b", text: "Automatic" },
+              { id: "c", text: "Learned through reinforcement and imitation" },
+              { id: "d", text: "Innate" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1246,15 +1246,15 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "Impossible without teaching" },
               {
-                id: "a",
+                id: "b",
                 text: "Innate — humans are born with a Language Acquisition Device",
               },
-              { id: "b", text: "Learned only through reward" },
-              { id: "c", text: "Impossible without teaching" },
+              { id: "c", text: "Learned only through reward" },
               { id: "d", text: "Only in adults" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1282,12 +1282,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "An innate mechanism for acquiring language" },
-              { id: "b", text: "A teaching method" },
-              { id: "c", text: "A computer program" },
-              { id: "d", text: "A speech therapy tool" },
+              { id: "a", text: "A teaching method" },
+              { id: "b", text: "A speech therapy tool" },
+              { id: "c", text: "An innate mechanism for acquiring language" },
+              { id: "d", text: "A computer program" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1315,15 +1315,15 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "A specific language" },
+              { id: "b", text: "Dialect differences" },
               {
-                id: "a",
+                id: "c",
                 text: "Innate rules of language shared by all humans",
               },
-              { id: "b", text: "A specific language" },
-              { id: "c", text: "Grammar books" },
-              { id: "d", text: "Dialect differences" },
+              { id: "d", text: "Grammar books" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1351,15 +1351,15 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "Using too many words" },
               {
-                id: "a",
+                id: "b",
                 text: "Applying grammar rules too broadly, e.g. 'foots'",
               },
-              { id: "b", text: "Speaking too loudly" },
-              { id: "c", text: "Using too many words" },
-              { id: "d", text: "Speaking too slowly" },
+              { id: "c", text: "Speaking too slowly" },
+              { id: "d", text: "Speaking too loudly" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1388,8 +1388,8 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Rule-learning rather than pure imitation" },
-              { id: "b", text: "Language is learned by reward" },
-              { id: "c", text: "Children can't learn grammar" },
+              { id: "b", text: "Children can't learn grammar" },
+              { id: "c", text: "Language is learned by reward" },
               { id: "d", text: "Parents teach grammar" },
             ],
             correctChoiceId: "a",
@@ -1421,12 +1421,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Sensorimotor" },
-              { id: "b", text: "Preoperational" },
+              { id: "a", text: "Preoperational" },
+              { id: "b", text: "Formal operational" },
               { id: "c", text: "Concrete operational" },
-              { id: "d", text: "Formal operational" },
+              { id: "d", text: "Sensorimotor" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1454,12 +1454,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Sensorimotor stage" },
-              { id: "b", text: "Preoperational stage" },
-              { id: "c", text: "Formal operational stage" },
-              { id: "d", text: "Adulthood" },
+              { id: "a", text: "Formal operational stage" },
+              { id: "b", text: "Adulthood" },
+              { id: "c", text: "Sensorimotor stage" },
+              { id: "d", text: "Preoperational stage" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1487,12 +1487,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Preoperational stage" },
-              { id: "b", text: "Sensorimotor stage" },
-              { id: "c", text: "Formal operational stage" },
+              { id: "a", text: "Sensorimotor stage" },
+              { id: "b", text: "Formal operational stage" },
+              { id: "c", text: "Preoperational stage" },
               { id: "d", text: "Adulthood" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1661,12 +1661,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "11-12 years" },
-              { id: "b", text: "2 years" },
+              { id: "a", text: "2 years" },
+              { id: "b", text: "11-12 years" },
               { id: "c", text: "7 years" },
               { id: "d", text: "18 years" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1724,12 +1724,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Social rules and approval" },
-              { id: "b", text: "Self-interest" },
-              { id: "c", text: "Universal principles" },
-              { id: "d", text: "Punishment" },
+              { id: "a", text: "Universal principles" },
+              { id: "b", text: "Social rules and approval" },
+              { id: "c", text: "Punishment" },
+              { id: "d", text: "Self-interest" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1869,12 +1869,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Conservation" },
-              { id: "b", text: "Abstract ideas" },
-              { id: "c", text: "Hypotheticals" },
-              { id: "d", text: "Nothing" },
+              { id: "a", text: "Abstract ideas" },
+              { id: "b", text: "Nothing" },
+              { id: "c", text: "Conservation" },
+              { id: "d", text: "Hypotheticals" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -2016,12 +2016,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Conventional level" },
-              { id: "b", text: "Pre-conventional level" },
+              { id: "a", text: "Sensorimotor" },
+              { id: "b", text: "Conventional level" },
               { id: "c", text: "Post-conventional level" },
-              { id: "d", text: "Sensorimotor" },
+              { id: "d", text: "Pre-conventional level" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -2117,12 +2117,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Concrete operational" },
-              { id: "b", text: "Preoperational" },
+              { id: "a", text: "Preoperational" },
+              { id: "b", text: "Concrete operational" },
               { id: "c", text: "Sensorimotor" },
               { id: "d", text: "Formal operational" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [

@@ -57,12 +57,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$4x-12$" },
-              { id: "b", text: "$4x-3$" },
-              { id: "c", text: "$4x+12$" },
+              { id: "a", text: "$4x+12$" },
+              { id: "b", text: "$4x-12$" },
+              { id: "c", text: "$4x-3$" },
               { id: "d", text: "$x-12$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -178,12 +178,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$3x+12$" },
+              { id: "a", text: "$3x+7$" },
               { id: "b", text: "$3x+4$" },
-              { id: "c", text: "$3x+7$" },
+              { id: "c", text: "$3x+12$" },
               { id: "d", text: "$x+12$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -205,12 +205,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$-2x-10$" },
-              { id: "b", text: "$-2x+10$" },
-              { id: "c", text: "$2x-10$" },
+              { id: "a", text: "$-2x+10$" },
+              { id: "b", text: "$2x-10$" },
+              { id: "c", text: "$-2x-10$" },
               { id: "d", text: "$-2x+7$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -283,11 +283,11 @@ export const lesson21: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$x^2+1$" },
-              { id: "b", text: "$x^2+2x+1$" },
-              { id: "c", text: "$x^2+x+1$" },
-              { id: "d", text: "$2x+2$" },
+              { id: "b", text: "$2x+2$" },
+              { id: "c", text: "$x^2+2x+1$" },
+              { id: "d", text: "$x^2+x+1$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -355,12 +355,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$(x+2)(x+3)$" },
-              { id: "b", text: "$(x-2)(x-3)$" },
+              { id: "a", text: "$(x-2)(x-3)$" },
+              { id: "b", text: "$(x+1)(x-6)$" },
               { id: "c", text: "$(x-1)(x-6)$" },
-              { id: "d", text: "$(x+1)(x-6)$" },
+              { id: "d", text: "$(x+2)(x+3)$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -526,12 +526,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$3(2x+5)$" },
-              { id: "b", text: "$3(2x+15)$" },
-              { id: "c", text: "$6(x+9)$" },
-              { id: "d", text: "$21x$" },
+              { id: "a", text: "$3(2x+15)$" },
+              { id: "b", text: "$3(2x+5)$" },
+              { id: "c", text: "$21x$" },
+              { id: "d", text: "$6(x+9)$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -649,8 +649,8 @@ export const lesson21: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$4(x+2)$" },
-              { id: "b", text: "$2(2x+4)$" },
-              { id: "c", text: "$4(x+8)$" },
+              { id: "b", text: "$4(x+8)$" },
+              { id: "c", text: "$2(2x+4)$" },
               { id: "d", text: "$12x$" },
             ],
             correctChoiceId: "a",
@@ -675,12 +675,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$5(x-10)$" },
-              { id: "b", text: "$5(x-2)$" },
+              { id: "a", text: "$5(x-2)$" },
+              { id: "b", text: "$5(x-10)$" },
               { id: "c", text: "$x(-5)$" },
               { id: "d", text: "$-5(x-2)$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -754,10 +754,10 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$5(2x^2+3x)$" },
+              { id: "a", text: "$x(10x+15)$" },
               { id: "b", text: "$5x(2x+3)$" },
-              { id: "c", text: "$x(10x+15)$" },
-              { id: "d", text: "$25x(2x+3)$" },
+              { id: "c", text: "$25x(2x+3)$" },
+              { id: "d", text: "$5(2x^2+3x)$" },
             ],
             correctChoiceId: "b",
           },
@@ -827,9 +827,9 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$7(2x^2-3x)$" },
+              { id: "a", text: "$14x(x-7)$" },
               { id: "b", text: "$7x(2x-3)$" },
-              { id: "c", text: "$14x(x-7)$" },
+              { id: "c", text: "$7(2x^2-3x)$" },
               { id: "d", text: "$x(14x-21)$" },
             ],
             correctChoiceId: "b",

@@ -51,12 +51,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Pulmonary artery" },
+              { id: "a", text: "Aorta" },
               { id: "b", text: "Pulmonary vein" },
-              { id: "c", text: "Aorta" },
+              { id: "c", text: "Pulmonary artery" },
               { id: "d", text: "Vena cava" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -138,6 +138,284 @@ export const lesson41: Lesson = {
             commonErrors: ["In (c) saying 'the rule is wrong' — it's a naming convention, not an error."],
           },
         },
+        {
+          id: "cieb-u4-heart-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Which chamber of the heart receives oxygenated blood from the lungs?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Left atrium" },
+              { id: "b", text: "Left ventricle" },
+              { id: "c", text: "Right ventricle" },
+              { id: "d", text: "Right atrium" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Heart chambers", statement: "Pulmonary vein → left atrium." },
+            ],
+            steps: [
+              { reasoning: "Trace the pulmonary return.", working: "\\text{lungs} \\to \\text{PV} \\to \\text{left atrium}", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** Left atrium",
+            commonErrors: ["Choosing right atrium — that receives deoxygenated blood from the vena cava."],
+          },
+        },
+        {
+          id: "cieb-u4-heart-q6",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Which vessel carries oxygenated blood from the heart to the body?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Pulmonary vein" },
+              { id: "b", text: "Pulmonary artery" },
+              { id: "c", text: "Aorta" },
+              { id: "d", text: "Vena cava" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Systemic circuit", statement: "Left ventricle → aorta → body." },
+            ],
+            steps: [
+              { reasoning: "Match vessel to route.", working: "\\text{aorta} \\to \\text{body}", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** Aorta",
+            commonErrors: ["Choosing pulmonary artery — that goes to the lungs, not the body."],
+          },
+        },
+        {
+          id: "cieb-u4-heart-q7",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "The main function of heart valves is to:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Increase blood pressure" },
+              { id: "b", text: "Prevent the backflow of blood" },
+              { id: "c", text: "Filter the blood" },
+              { id: "d", text: "Produce red blood cells" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Heart valves", statement: "Ensure one-way flow of blood." },
+            ],
+            steps: [
+              { reasoning: "Recall the valve function.", working: "\\text{prevent backflow}", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** Prevent the backflow of blood",
+            commonErrors: ["Choosing 'increase pressure' — valves maintain direction, not pressure."],
+          },
+        },
+        {
+          id: "cieb-u4-heart-q8",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "A person's heart beats at 70 beats per minute. Calculate how many beats occur in 30 seconds.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 35, unit: "beats" }],
+          },
+          markscheme: {
+            principles: [
+              { kind: "formula", name: "Rate scaling", statement: "$70 \\times \\frac{30}{60} = 35$" },
+            ],
+            steps: [
+              { reasoning: "Scale rate to half a minute.", working: "70 \\times 0.5", marks: 1, markCode: "M" },
+              { reasoning: "State answer.", working: "35\\,\\text{beats}", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "35 beats",
+            commonErrors: ["Multiplying 70 × 30 (forgetting to convert to minutes)."],
+          },
+        },
+        {
+          id: "cieb-u4-heart-q9",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "A heart beats at 60 beats per minute. Calculate the total number of beats in 2 hours.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 7200, unit: "beats" }],
+          },
+          markscheme: {
+            principles: [
+              { kind: "formula", name: "Total beats", statement: "$60 \\times 60 \\times 2 = 7200$" },
+            ],
+            steps: [
+              { reasoning: "Convert hours to minutes and multiply.", working: "60 \\times 120", marks: 1, markCode: "M" },
+              { reasoning: "State answer.", working: "7200\\,\\text{beats}", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "7200 beats",
+            commonErrors: ["Forgetting to convert 2 hours into minutes."],
+          },
+        },
+        {
+          id: "cieb-u4-heart-q10",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "How many chambers does the mammalian heart have?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 4, unit: "chambers" }],
+          },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Heart structure", statement: "Two atria + two ventricles = 4 chambers." },
+            ],
+            steps: [
+              { reasoning: "Recall the structure.", working: "2 \\text{ atria} + 2 \\text{ ventricles} = 4", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "4",
+            commonErrors: ["Answering 2 — forgetting both atria and ventricles."],
+          },
+        },
+        {
+          id: "cieb-u4-heart-q11",
+          difficulty: "challenge",
+          totalMarks: 3,
+          stem: "A person's resting heart rate is 60 beats per minute. During exercise it rises to 150 beats per minute. Calculate the increase in heart rate.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 90, unit: "beats/min" }],
+          },
+          markscheme: {
+            principles: [
+              { kind: "formula", name: "Rate change", statement: "$150 - 60 = 90$" },
+            ],
+            steps: [
+              { reasoning: "Subtract resting from exercise rate.", working: "150 - 60", marks: 1, markCode: "M" },
+              { reasoning: "Compute.", working: "90\\,\\text{beats/min}", marks: 1, markCode: "M" },
+              { reasoning: "State answer.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "90 beats/min",
+            commonErrors: ["Computing the ratio instead of the difference."],
+          },
+        },
+        {
+          id: "cieb-u4-heart-q12",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "State the function of the septum in the heart.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Septum", statement: "Separates oxygenated (left) and deoxygenated (right) blood." },
+            ],
+            steps: [
+              { reasoning: "Give the function.", working: "\\text{separates sides}", marks: 1, markCode: "M" },
+              { reasoning: "Complete with the benefit.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "The septum separates the oxygenated blood on the left from the deoxygenated blood on the right, keeping the two streams apart.",
+            commonErrors: ["Saying it 'pumps blood' — that is the ventricles' role."],
+          },
+        },
+        {
+          id: "cieb-u4-heart-q13",
+          difficulty: "challenge",
+          totalMarks: 1,
+          stem: "Blood pressure is highest in the aorta immediately after leaving the heart because:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Valves increase the pressure" },
+              { id: "b", text: "The aorta is the narrowest vessel" },
+              { id: "c", text: "The lungs push blood into it" },
+              { id: "d", text: "The left ventricle pumps blood directly into it" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Blood pressure", statement: "Highest at artery exit from heart; falls along circulation." },
+            ],
+            steps: [
+              { reasoning: "Link pressure to ventricle pump.", working: "\\text{LV} \\to \\text{aorta}", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** The left ventricle pumps blood directly into it",
+            commonErrors: ["Saying 'the aorta is narrow' — pressure is highest where the ventricle ejects blood."],
+          },
+        },
+        {
+          id: "cieb-u4-heart-q14",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Which vessel returns deoxygenated blood from the body to the heart?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Vena cava" },
+              { id: "b", text: "Pulmonary artery" },
+              { id: "c", text: "Pulmonary vein" },
+              { id: "d", text: "Aorta" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Systemic return", statement: "Body → vena cava → right atrium." },
+            ],
+            steps: [
+              { reasoning: "Match vessel to route.", working: "\\text{body} \\to \\text{VC} \\to \\text{heart}", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** Vena cava",
+            commonErrors: ["Choosing aorta — that carries blood AWAY from the heart."],
+          },
+        },
+        {
+          id: "cieb-u4-heart-q15",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "The pulmonary vein carries:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Oxygenated blood to the heart" },
+              { id: "b", text: "Deoxygenated blood to the lungs" },
+              { id: "c", text: "Deoxygenated blood to the heart" },
+              { id: "d", text: "Oxygenated blood to the body" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Pulmonary vein", statement: "Exception: vein carrying oxygenated blood to the heart." },
+            ],
+            steps: [
+              { reasoning: "Recall the exception.", working: "\\text{O}_2\\text{-rich} \\to \\text{heart}", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** Oxygenated blood to the heart",
+            commonErrors: ["Thinking all veins carry deoxygenated blood — pulmonary vein is the exception."],
+          },
+        },
+        {
+          id: "cieb-u4-heart-q16",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "Trace the path of a red blood cell from the left ventricle back to the right atrium, and explain what happens to it in the capillaries.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Systemic circuit", statement: "LV → aorta → body capillaries → vena cava → RA." },
+            ],
+            steps: [
+              { reasoning: "Left ventricle → aorta → body tissues.", working: "\\text{LV} \\to \\text{aorta}", marks: 1, markCode: "M" },
+              { reasoning: "In capillaries O₂ is delivered and CO₂ collected.", working: "\\text{O}_2 \\leftrightarrow \\text{CO}_2", marks: 1, markCode: "M" },
+              { reasoning: "Blood returns via vena cava to right atrium.", working: "\\text{VC} \\to \\text{RA}", marks: 1, markCode: "M" },
+              { reasoning: "Conclude: blood returns deoxygenated.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "Left ventricle → aorta → body capillaries (O₂ delivered, CO₂ collected) → vena cava → right atrium; the cell returns deoxygenated.",
+            commonErrors: ["Stopping at the aorta — must trace through capillaries to the vena cava."],
+          },
+        },
       ],
     },
     {
@@ -174,12 +452,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Red blood cells" },
+              { id: "a", text: "Plasma only" },
               { id: "b", text: "White blood cells" },
-              { id: "c", text: "Platelets" },
-              { id: "d", text: "Plasma only" },
+              { id: "c", text: "Red blood cells" },
+              { id: "d", text: "Platelets" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -258,6 +536,284 @@ export const lesson41: Lesson = {
             ],
             finalAnswer: "(a) artery thick wall / capillary one-cell / vein valves (b) artery high-pressure transport / capillary exchange / vein return (c) thin wall + slow flow → efficient diffusion",
             commonErrors: ["In (c) forgetting slow blood flow as a factor."],
+          },
+        },
+        {
+          id: "cieb-u4-blood-vessels-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Which blood vessels contain valves to prevent backflow?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Veins" },
+              { id: "b", text: "Capillaries" },
+              { id: "c", text: "Arteries" },
+              { id: "d", text: "Xylem" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Vein valves", statement: "Veins have valves; arteries and capillaries do not." },
+            ],
+            steps: [
+              { reasoning: "Recall vessel features.", working: "\\text{vein valves}", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** Veins",
+            commonErrors: ["Choosing arteries — high pressure means they need no valves."],
+          },
+        },
+        {
+          id: "cieb-u4-blood-vessels-q6",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Which blood component has no nucleus and is adapted for carrying oxygen?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Platelet" },
+              { id: "b", text: "White blood cell" },
+              { id: "c", text: "Red blood cell" },
+              { id: "d", text: "Plasma" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "RBC structure", statement: "Biconcave, no nucleus, packed with haemoglobin." },
+            ],
+            steps: [
+              { reasoning: "Match component to feature.", working: "\\text{RBC}: \\text{no nucleus}, \\text{haemoglobin}", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** Red blood cell",
+            commonErrors: ["Choosing white blood cell — those have nuclei and defend, not carry O₂."],
+          },
+        },
+        {
+          id: "cieb-u4-blood-vessels-q7",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "The main function of platelets is to:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Transport hormones" },
+              { id: "b", text: "Carry oxygen" },
+              { id: "c", text: "Help blood to clot" },
+              { id: "d", text: "Fight infection" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Platelets", statement: "Cell fragments involved in clotting." },
+            ],
+            steps: [
+              { reasoning: "Recall platelet function.", working: "\\text{clotting}", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** Help blood to clot",
+            commonErrors: ["Choosing WBC function — defence is white cells' role."],
+          },
+        },
+        {
+          id: "cieb-u4-blood-vessels-q8",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "Blood contains 5 million red blood cells per mm³. Calculate how many red blood cells are in 2 mm³ of blood.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 10000000, unit: "cells" }],
+          },
+          markscheme: {
+            principles: [
+              { kind: "formula", name: "Cell count", statement: "$5 \\times 10^6 \\times 2 = 10^7$" },
+            ],
+            steps: [
+              { reasoning: "Multiply concentration by volume.", working: "5 \\times 10^6 \\times 2", marks: 1, markCode: "M" },
+              { reasoning: "State answer.", working: "10^7\\,\\text{cells}", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "10,000,000 cells (10⁷)",
+            commonErrors: ["Writing 10 million as 10⁶ or adding instead of multiplying."],
+          },
+        },
+        {
+          id: "cieb-u4-blood-vessels-q9",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "A 2 mm³ sample of blood contains 9 million red blood cells. Calculate the concentration of red blood cells per mm³.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 4500000, unit: "cells/mm³" }],
+          },
+          markscheme: {
+            principles: [
+              { kind: "formula", name: "Concentration", statement: "$\\text{concentration} = \\dfrac{\\text{count}}{\\text{volume}}$" },
+            ],
+            steps: [
+              { reasoning: "Divide count by volume.", working: "\\frac{9 \\times 10^6}{2}", marks: 1, markCode: "M" },
+              { reasoning: "State answer with units.", working: "4.5 \\times 10^6\\,\\text{cells/mm}^3", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "4,500,000 cells/mm³ (4.5 × 10⁶)",
+            commonErrors: ["Multiplying instead of dividing."],
+          },
+        },
+        {
+          id: "cieb-u4-blood-vessels-q10",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "How many main types of blood component are there (red cells, white cells, platelets, plasma)?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 4, unit: "components" }],
+          },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Blood components", statement: "RBCs, WBCs, platelets, plasma." },
+            ],
+            steps: [
+              { reasoning: "Count the components.", working: "4\\,\\text{components}", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "4",
+            commonErrors: ["Answering 3 by forgetting plasma."],
+          },
+        },
+        {
+          id: "cieb-u4-blood-vessels-q11",
+          difficulty: "challenge",
+          totalMarks: 3,
+          stem: "Blood pressure in an artery is 120 mmHg and in a capillary is 20 mmHg. Calculate the difference in pressure between them.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 100, unit: "mmHg" }],
+          },
+          markscheme: {
+            principles: [
+              { kind: "formula", name: "Pressure drop", statement: "$120 - 20 = 100\\,\\text{mmHg}$" },
+            ],
+            steps: [
+              { reasoning: "Subtract capillary pressure from artery.", working: "120 - 20", marks: 1, markCode: "M" },
+              { reasoning: "Compute.", working: "100\\,\\text{mmHg}", marks: 1, markCode: "M" },
+              { reasoning: "State answer with units.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "100 mmHg",
+            commonErrors: ["Subtracting in the wrong order (giving -100)."],
+          },
+        },
+        {
+          id: "cieb-u4-blood-vessels-q12",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "State two functions of blood plasma.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Plasma", statement: "Straw-coloured liquid transporting dissolved substances." },
+            ],
+            steps: [
+              { reasoning: "Give two functions.", working: "\\text{transport glucose/CO}_2/\\text{urea/hormones}", marks: 1, markCode: "M" },
+              { reasoning: "State them clearly.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "Plasma transports dissolved substances such as glucose, carbon dioxide, urea and hormones around the body.",
+            commonErrors: ["Saying plasma 'carries oxygen' — O₂ is carried by haemoglobin in red cells."],
+          },
+        },
+        {
+          id: "cieb-u4-blood-vessels-q13",
+          difficulty: "challenge",
+          totalMarks: 1,
+          stem: "Capillary walls are only one cell thick mainly to:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Prevent blood clotting" },
+              { id: "b", text: "Increase blood pressure" },
+              { id: "c", text: "Minimise the diffusion distance for exchange of substances" },
+              { id: "d", text: "Make the vessel stronger" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Capillary structure", statement: "Thin wall → short diffusion path for exchange." },
+            ],
+            steps: [
+              { reasoning: "Link thin wall to exchange.", working: "\\text{thin} \\to \\text{short diffusion distance}", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** Minimise the diffusion distance for exchange of substances",
+            commonErrors: ["Saying 'for strength' — thin walls are weak but optimised for exchange."],
+          },
+        },
+        {
+          id: "cieb-u4-blood-vessels-q14",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Which blood vessel has the largest lumen and lowest blood pressure?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Artery" },
+              { id: "b", text: "Vein" },
+              { id: "c", text: "Capillary" },
+              { id: "d", text: "Aorta" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Vein structure", statement: "Thin wall, large lumen, low pressure, valves." },
+            ],
+            steps: [
+              { reasoning: "Match features to vessel.", working: "\\text{large lumen + low pressure} \\to \\text{vein}", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** Vein",
+            commonErrors: ["Choosing artery — arteries have small lumen and high pressure."],
+          },
+        },
+        {
+          id: "cieb-u4-blood-vessels-q15",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "White blood cells function mainly to:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Transport hormones" },
+              { id: "b", text: "Defend the body against pathogens" },
+              { id: "c", text: "Clot the blood" },
+              { id: "d", text: "Carry oxygen" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "White blood cells", statement: "Defence against pathogens (phagocytes, lymphocytes)." },
+            ],
+            steps: [
+              { reasoning: "Recall WBC function.", working: "\\text{defence}", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** Defend the body against pathogens",
+            commonErrors: ["Choosing 'carry oxygen' — that is red blood cells."],
+          },
+        },
+        {
+          id: "cieb-u4-blood-vessels-q16",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "Explain how the structure of capillaries enables efficient exchange of substances between blood and tissues.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Capillary exchange", statement: "One-cell wall + large area + slow flow → rapid diffusion." },
+            ],
+            steps: [
+              { reasoning: "Walls are one cell thick → short diffusion distance.", working: "\\text{one cell thick}", marks: 1, markCode: "M" },
+              { reasoning: "Huge total surface area and slow blood flow.", working: "\\text{area + slow flow}", marks: 1, markCode: "M" },
+              { reasoning: "O₂, CO₂, glucose diffuse between blood and tissue fluid.", working: "\\text{diffusion}", marks: 1, markCode: "M" },
+              { reasoning: "Conclude: efficient exchange.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "Capillaries have walls only one cell thick (short diffusion distance), a huge combined surface area, and slow blood flow, so oxygen, carbon dioxide and nutrients diffuse quickly between blood and tissues.",
+            commonErrors: ["Describing artery/vein structure instead of capillary."],
           },
         },
       ],

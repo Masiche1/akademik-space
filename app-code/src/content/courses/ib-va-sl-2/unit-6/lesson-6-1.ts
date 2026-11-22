@@ -55,12 +55,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A textbook about art history" },
-              { id: "b", text: "The artwork itself or an artist's statement" },
-              { id: "c", text: "A Wikipedia article" },
-              { id: "d", text: "A friend's opinion" },
+              { id: "a", text: "The artwork itself or an artist's statement" },
+              { id: "b", text: "A friend's opinion" },
+              { id: "c", text: "A textbook about art history" },
+              { id: "d", text: "A Wikipedia article" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -156,12 +156,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A high-resolution photograph of the artwork" },
-              { id: "b", text: "A peer-reviewed article interpreting the work" },
-              { id: "c", text: "The artist's own statement about the piece" },
-              { id: "d", text: "The exhibition catalogue essay written by the artist" },
+              { id: "a", text: "The artist's own statement about the piece" },
+              { id: "b", text: "A high-resolution photograph of the artwork" },
+              { id: "c", text: "The exhibition catalogue essay written by the artist" },
+              { id: "d", text: "A peer-reviewed article interpreting the work" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -207,11 +207,11 @@ export const lesson61: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Uses the word 'how'" },
-              { id: "b", text: "Does not name the artists or specify the aspect of comparison" },
-              { id: "c", text: "Is too short to be interesting" },
+              { id: "b", text: "Is too short to be interesting" },
+              { id: "c", text: "Does not name the artists or specify the aspect of comparison" },
               { id: "d", text: "Cannot be answered at all" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -259,11 +259,11 @@ export const lesson61: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "An anonymous forum post" },
-              { id: "b", text: "A museum publication or peer-reviewed scholarship" },
-              { id: "c", text: "An AI-generated summary of the artist" },
-              { id: "d", text: "A social media comment thread" },
+              { id: "b", text: "An AI-generated summary of the artist" },
+              { id: "c", text: "A social media comment thread" },
+              { id: "d", text: "A museum publication or peer-reviewed scholarship" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -311,12 +311,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Use it because it is interesting" },
-              { id: "b", text: "Reject all blogs automatically" },
-              { id: "c", text: "Verify it across reliable sources or find corroboration" },
-              { id: "d", text: "Copy it and cite the blog" },
+              { id: "a", text: "Verify it across reliable sources or find corroboration" },
+              { id: "b", text: "Copy it and cite the blog" },
+              { id: "c", text: "Use it because it is interesting" },
+              { id: "d", text: "Reject all blogs automatically" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -367,11 +367,11 @@ export const lesson61: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "'Is Frida Kahlo a good artist?'" },
-              { id: "b", text: "'How do Kahlo and O'Keeffe construct identity differently through scale and symbolism?'" },
+              { id: "b", text: "'Which artist is more famous?'" },
               { id: "c", text: "'Tell me everything about two artists.'" },
-              { id: "d", text: "'Which artist is more famous?'" },
+              { id: "d", text: "'How do Kahlo and O'Keeffe construct identity differently through scale and symbolism?'" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -427,12 +427,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Its length" },
-              { id: "b", text: "The author's expertise, publication venue and whether claims are evidenced" },
-              { id: "c", text: "Whether it agrees with your opinion" },
-              { id: "d", text: "Its publication date only" },
+              { id: "a", text: "Its publication date only" },
+              { id: "b", text: "Its length" },
+              { id: "c", text: "The author's expertise, publication venue and whether claims are evidenced" },
+              { id: "d", text: "Whether it agrees with your opinion" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -515,10 +515,10 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "As broad as possible" },
+              { id: "a", text: "About the artist's biography only" },
               { id: "b", text: "Specific, answerable and focused on a shared theme" },
-              { id: "c", text: "Answerable with yes or no" },
-              { id: "d", text: "About the artist's biography only" },
+              { id: "c", text: "As broad as possible" },
+              { id: "d", text: "Answerable with yes or no" },
             ],
             correctChoiceId: "b",
           },
@@ -616,12 +616,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Is too specific to research" },
-              { id: "b", text: "Cannot develop the nuanced argument an essay requires" },
+              { id: "a", text: "Cannot develop the nuanced argument an essay requires" },
+              { id: "b", text: "Is impossible to answer" },
               { id: "c", text: "Names too many artists" },
-              { id: "d", text: "Is impossible to answer" },
+              { id: "d", text: "Is too specific to research" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -666,12 +666,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "'How do the artists' brushwork techniques differ?'" },
-              { id: "b", text: "'How do their cultural backgrounds shape their treatment of the theme?'" },
-              { id: "c", text: "'Whose use of colour is better?'" },
+              { id: "a", text: "'Whose use of colour is better?'" },
+              { id: "b", text: "'How do the artists' brushwork techniques differ?'" },
+              { id: "c", text: "'How do their cultural backgrounds shape their treatment of the theme?'" },
               { id: "d", text: "'What materials did each artist use?'" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -718,10 +718,10 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It is as short as possible" },
+              { id: "a", text: "The teacher personally likes it" },
               { id: "b", text: "Enough evidence exists and it suits the essay's scope" },
-              { id: "c", text: "The teacher personally likes it" },
-              { id: "d", text: "It avoids comparison entirely" },
+              { id: "c", text: "It avoids comparison entirely" },
+              { id: "d", text: "It is as short as possible" },
             ],
             correctChoiceId: "b",
           },
@@ -773,8 +773,8 @@ export const lesson61: Lesson = {
             choices: [
               { id: "a", text: "Checking the spelling carefully" },
               { id: "b", text: "Asking whether the answer reveals something significant about art" },
-              { id: "c", text: "Counting the words in the question" },
-              { id: "d", text: "Checking whether it is easy to answer" },
+              { id: "c", text: "Checking whether it is easy to answer" },
+              { id: "d", text: "Counting the words in the question" },
             ],
             correctChoiceId: "b",
           },
@@ -826,12 +826,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "'Which artist is better?'" },
-              { id: "b", text: "'Whose treatment of grief is more effective, and through which formal means?'" },
-              { id: "c", text: "'Are both artists good?'" },
-              { id: "d", text: "'Who painted first?'" },
+              { id: "a", text: "'Whose treatment of grief is more effective, and through which formal means?'" },
+              { id: "b", text: "'Which artist is better?'" },
+              { id: "c", text: "'Who painted first?'" },
+              { id: "d", text: "'Are both artists good?'" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -888,11 +888,11 @@ export const lesson61: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "A single correct verdict" },
-              { id: "b", text: "Nuance and multiple defensible interpretations" },
-              { id: "c", text: "No supporting evidence" },
-              { id: "d", text: "Only a yes or no answer" },
+              { id: "b", text: "Only a yes or no answer" },
+              { id: "c", text: "Nuance and multiple defensible interpretations" },
+              { id: "d", text: "No supporting evidence" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

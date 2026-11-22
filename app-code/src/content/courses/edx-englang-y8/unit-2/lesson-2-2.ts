@@ -70,8 +70,8 @@ export const lesson22: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Anaphora (repetition at the start of sentences)" },
-              { id: "b", text: "Simile" },
-              { id: "c", text: "Onomatopoeia" },
+              { id: "b", text: "Onomatopoeia" },
+              { id: "c", text: "Simile" },
               { id: "d", text: "Alliteration" },
             ],
             correctChoiceId: "a",
@@ -193,12 +193,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Sceptical" },
-              { id: "b", text: "Enthusiastic" },
-              { id: "c", text: "Indifferent" },
+              { id: "a", text: "Indifferent" },
+              { id: "b", text: "Sceptical" },
+              { id: "c", text: "Enthusiastic" },
               { id: "d", text: "Fearful" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "skill", name: "Identifying viewpoint", statement: "Match an adjective to the evidence in the text." }],
@@ -216,12 +216,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "To seem fair and reasonable before disagreeing with homework policy" },
-              { id: "b", text: "To show that she agrees with teachers completely" },
-              { id: "c", text: "To mock teachers" },
-              { id: "d", text: "To change the subject" },
+              { id: "a", text: "To mock teachers" },
+              { id: "b", text: "To change the subject" },
+              { id: "c", text: "To show that she agrees with teachers completely" },
+              { id: "d", text: "To seem fair and reasonable before disagreeing with homework policy" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Concession", statement: "Granting a point to the opposition makes the writer seem balanced." }],

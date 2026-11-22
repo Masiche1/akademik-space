@@ -71,12 +71,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "That the ruler's power and glory have completely vanished" },
-              { id: "b", text: "That the statue is the only thing the traveller sees" },
-              { id: "c", text: "That the sculptor was never paid for his work" },
-              { id: "d", text: "That the desert is a welcoming place" },
+              { id: "a", text: "That the desert is a welcoming place" },
+              { id: "b", text: "That the ruler's power and glory have completely vanished" },
+              { id: "c", text: "That the statue is the only thing the traveller sees" },
+              { id: "d", text: "That the sculptor was never paid for his work" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Irony", statement: "The boast of greatness is undone by the reality of ruin." }],
@@ -210,12 +210,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It suggests that suffering is universal and inescapable" },
-              { id: "b", text: "It suggests that the speaker is counting the people he meets" },
-              { id: "c", text: "It suggests that the people are all the same age" },
-              { id: "d", text: "It suggests that the speaker is bored" },
+              { id: "a", text: "It suggests that the speaker is counting the people he meets" },
+              { id: "b", text: "It suggests that suffering is universal and inescapable" },
+              { id: "c", text: "It suggests that the speaker is bored" },
+              { id: "d", text: "It suggests that the people are all the same age" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Anaphora", statement: "Repetition at the start of lines builds emphasis and cumulative effect." }],

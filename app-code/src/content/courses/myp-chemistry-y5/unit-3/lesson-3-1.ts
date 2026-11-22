@@ -58,12 +58,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Small molecule that joins to form a polymer" },
-              { id: "b", text: "A type of catalyst" },
-              { id: "c", text: "The end product of recycling" },
-              { id: "d", text: "A solvent for plastics" },
+              { id: "a", text: "A type of catalyst" },
+              { id: "b", text: "Small molecule that joins to form a polymer" },
+              { id: "c", text: "A solvent for plastics" },
+              { id: "d", text: "The end product of recycling" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -85,12 +85,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Small molecules such as water are released as monomers join" },
-              { id: "b", text: "No atoms are lost" },
+              { id: "a", text: "No atoms are lost" },
+              { id: "b", text: "Small molecules such as water are released as monomers join" },
               { id: "c", text: "Only alkenes can be monomers" },
               { id: "d", text: "It requires no functional groups" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -113,12 +113,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "PTFE's strong C–F bonds and smooth surface prevent adhesion; PE is cheap, flexible and chemically inert for bags" },
-              { id: "b", text: "Both are identical polymers" },
-              { id: "c", text: "PTFE is a metal" },
-              { id: "d", text: "PE conducts electricity" },
+              { id: "a", text: "PTFE is a metal" },
+              { id: "b", text: "PTFE's strong C–F bonds and smooth surface prevent adhesion; PE is cheap, flexible and chemically inert for bags" },
+              { id: "c", text: "PE conducts electricity" },
+              { id: "d", text: "Both are identical polymers" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -174,9 +174,9 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Alkene monomers join through their C=C bonds without losing any atoms" },
-              { id: "b", text: "Small molecules like water are released" },
+              { id: "b", text: "Only metals can be monomers" },
               { id: "c", text: "The monomers break apart" },
-              { id: "d", text: "Only metals can be monomers" },
+              { id: "d", text: "Small molecules like water are released" },
             ],
             correctChoiceId: "a",
           },
@@ -265,12 +265,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Plasticisers are added to make it flexible; without them PVC is rigid" },
-              { id: "b", text: "Two different polymers are used" },
-              { id: "c", text: "Temperature alone changes the polymer" },
-              { id: "d", text: "The pipes are made of metal" },
+              { id: "a", text: "Temperature alone changes the polymer" },
+              { id: "b", text: "The pipes are made of metal" },
+              { id: "c", text: "Two different polymers are used" },
+              { id: "d", text: "Plasticisers are added to make it flexible; without them PVC is rigid" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -315,12 +315,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Their chains have polar groups enabling strong intermolecular forces (e.g. hydrogen bonding) between chains, plus chain entanglement" },
-              { id: "b", text: "They contain metal atoms" },
-              { id: "c", text: "They are always crystalline metals" },
-              { id: "d", text: "They dissolve easily in water" },
+              { id: "a", text: "They contain metal atoms" },
+              { id: "b", text: "Their chains have polar groups enabling strong intermolecular forces (e.g. hydrogen bonding) between chains, plus chain entanglement" },
+              { id: "c", text: "They dissolve easily in water" },
+              { id: "d", text: "They are always crystalline metals" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -496,12 +496,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Additive that makes plastic softer and more flexible" },
-              { id: "b", text: "A type of polymer" },
-              { id: "c", text: "A catalyst for polymerisation" },
-              { id: "d", text: "A solvent that dissolves plastic" },
+              { id: "a", text: "A catalyst for polymerisation" },
+              { id: "b", text: "A solvent that dissolves plastic" },
+              { id: "c", text: "A type of polymer" },
+              { id: "d", text: "Additive that makes plastic softer and more flexible" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -523,12 +523,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Carbon-fibre composites are strong and light, improving fuel efficiency" },
-              { id: "b", text: "They are cheaper than metals" },
-              { id: "c", text: "They cannot burn" },
-              { id: "d", text: "They are magnetic" },
+              { id: "a", text: "They cannot burn" },
+              { id: "b", text: "They are magnetic" },
+              { id: "c", text: "They are cheaper than metals" },
+              { id: "d", text: "Carbon-fibre composites are strong and light, improving fuel efficiency" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -551,12 +551,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Plastics fragment in oceans; plankton ingest them, transferring up the food chain where they may accumulate and release additives" },
+              { id: "a", text: "They only affect seaweed" },
               { id: "b", text: "Microplastics dissolve into harmless nutrients" },
-              { id: "c", text: "They only affect seaweed" },
+              { id: "c", text: "Plastics fragment in oceans; plankton ingest them, transferring up the food chain where they may accumulate and release additives" },
               { id: "d", text: "They cannot be ingested" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -612,9 +612,9 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Two or more materials combined so the result has better properties than either alone" },
-              { id: "b", text: "A single pure polymer" },
-              { id: "c", text: "A type of metal alloy only" },
-              { id: "d", text: "Recycled plastic pellets" },
+              { id: "b", text: "Recycled plastic pellets" },
+              { id: "c", text: "A single pure polymer" },
+              { id: "d", text: "A type of metal alloy only" },
             ],
             correctChoiceId: "a",
           },
@@ -659,12 +659,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It slows down or prevents the plastic from catching fire or burning quickly" },
-              { id: "b", text: "It makes the plastic colourful" },
-              { id: "c", text: "It softens the plastic" },
+              { id: "a", text: "It softens the plastic" },
+              { id: "b", text: "It slows down or prevents the plastic from catching fire or burning quickly" },
+              { id: "c", text: "It makes the plastic colourful" },
               { id: "d", text: "It makes the plastic biodegradable" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -709,12 +709,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Glass fibres provide tensile strength while the resin matrix distributes load and protects fibres — combined properties exceed either alone" },
-              { id: "b", text: "It is simply heavier" },
+              { id: "a", text: "It contains no glass" },
+              { id: "b", text: "Glass fibres provide tensile strength while the resin matrix distributes load and protects fibres — combined properties exceed either alone" },
               { id: "c", text: "The resin dissolves the fibres" },
-              { id: "d", text: "It contains no glass" },
+              { id: "d", text: "It is simply heavier" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -759,12 +759,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Plastics fragment into microplastics ingested by plankton and small organisms, then biomagnify up the food chain where they may accumulate and carry toxic additives" },
-              { id: "b", text: "Microplastics dissolve into nutrients" },
-              { id: "c", text: "They only affect large fish" },
-              { id: "d", text: "They cannot be ingested" },
+              { id: "a", text: "They only affect large fish" },
+              { id: "b", text: "They cannot be ingested" },
+              { id: "c", text: "Plastics fragment into microplastics ingested by plankton and small organisms, then biomagnify up the food chain where they may accumulate and carry toxic additives" },
+              { id: "d", text: "Microplastics dissolve into nutrients" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -811,12 +811,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "They prevent oxidative degradation — plastics becoming brittle, discoloured and weak when exposed to oxygen/UV over time" },
-              { id: "b", text: "They make plastics fireproof" },
-              { id: "c", text: "They increase flexibility" },
-              { id: "d", text: "They add colour" },
+              { id: "a", text: "They increase flexibility" },
+              { id: "b", text: "They prevent oxidative degradation — plastics becoming brittle, discoloured and weak when exposed to oxygen/UV over time" },
+              { id: "c", text: "They add colour" },
+              { id: "d", text: "They make plastics fireproof" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [

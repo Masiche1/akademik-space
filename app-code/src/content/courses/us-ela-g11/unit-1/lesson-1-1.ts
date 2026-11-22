@@ -80,12 +80,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Each person lives under public scrutiny and must act as an example for the whole community." },
-              { id: "b", text: "Each person should hide private beliefs to avoid being noticed." },
-              { id: "c", text: "Each person is free to follow individual conscience whatever others think." },
-              { id: "d", text: "Each person is expected to leave the community and travel widely." },
+              { id: "a", text: "Each person is expected to leave the community and travel widely." },
+              { id: "b", text: "Each person is free to follow individual conscience whatever others think." },
+              { id: "c", text: "Each person should hide private beliefs to avoid being noticed." },
+              { id: "d", text: "Each person lives under public scrutiny and must act as an example for the whole community." },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "context", name: "Puritan community", statement: "Puritan writers present the community as a visible covenant: individual conduct reflects on the whole group." }],
@@ -207,9 +207,9 @@ export const lesson11: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "It gives the building a human sadness, so the setting itself seems to carry emotion." },
-              { id: "b", text: "It states the narrator's cheerful mood on arriving." },
+              { id: "b", text: "It shows that the house has been newly built." },
               { id: "c", text: "It gives a literal description of the house's color." },
-              { id: "d", text: "It shows that the house has been newly built." },
+              { id: "d", text: "It states the narrator's cheerful mood on arriving." },
             ],
             correctChoiceId: "a",
           },

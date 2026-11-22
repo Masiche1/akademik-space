@@ -55,11 +55,11 @@ export const lesson21: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Oxygen gas, $\\text{O}_2$" },
-              { id: "b", text: "Water, $\\text{H}_2\\text{O}$" },
+              { id: "b", text: "Gold, $\\text{Au}$" },
               { id: "c", text: "Air" },
-              { id: "d", text: "Gold, $\\text{Au}$" },
+              { id: "d", text: "Water, $\\text{H}_2\\text{O}$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -188,12 +188,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\rho=m\\times V$" },
-              { id: "b", text: "$\\rho=\\dfrac{V}{m}$" },
-              { id: "c", text: "$\\rho=\\dfrac{m}{V}$" },
-              { id: "d", text: "$\\rho=m-V$" },
+              { id: "a", text: "$\\rho=m-V$" },
+              { id: "b", text: "$\\rho=\\dfrac{m}{V}$" },
+              { id: "c", text: "$\\rho=m\\times V$" },
+              { id: "d", text: "$\\rho=\\dfrac{V}{m}$" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [

@@ -54,10 +54,10 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Shift supply right and lower price" },
+              { id: "a", text: "Have no effect on the market" },
               { id: "b", text: "Shift supply left and raise price" },
-              { id: "c", text: "Shift demand right and raise quantity" },
-              { id: "d", text: "Have no effect on the market" },
+              { id: "c", text: "Shift supply right and lower price" },
+              { id: "d", text: "Shift demand right and raise quantity" },
             ],
             correctChoiceId: "b",
           },
@@ -155,8 +155,8 @@ export const lesson32: Lesson = {
             choices: [
               { id: "a", text: "Paid for by the government" },
               { id: "b", text: "Levied on production or consumption rather than directly on income or wealth" },
-              { id: "c", text: "Always progressive" },
-              { id: "d", text: "A payment to producers" },
+              { id: "c", text: "A payment to producers" },
+              { id: "d", text: "Always progressive" },
             ],
             correctChoiceId: "b",
           },
@@ -181,12 +181,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Shift left and price to rise" },
-              { id: "b", text: "Shift right and price to fall" },
+              { id: "a", text: "Shift right and price to fall" },
+              { id: "b", text: "Shift left and price to rise" },
               { id: "c", text: "Remain unchanged" },
               { id: "d", text: "Shift left and quantity to rise" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -209,12 +209,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The total external cost of production" },
-              { id: "b", text: "The marginal external cost at the socially optimal output" },
-              { id: "c", text: "The firm's average revenue" },
-              { id: "d", text: "The rate of a subsidy on clean goods" },
+              { id: "a", text: "The firm's average revenue" },
+              { id: "b", text: "The rate of a subsidy on clean goods" },
+              { id: "c", text: "The total external cost of production" },
+              { id: "d", text: "The marginal external cost at the socially optimal output" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -237,10 +237,10 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "MPC = MPB" },
+              { id: "a", text: "MR = MC for the government" },
               { id: "b", text: "MSC = MSB" },
-              { id: "c", text: "P = minimum ATC" },
-              { id: "d", text: "MR = MC for the government" },
+              { id: "c", text: "MPC = MPB" },
+              { id: "d", text: "P = minimum ATC" },
             ],
             correctChoiceId: "b",
           },
@@ -265,12 +265,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "They always increase the quantity consumed" },
-              { id: "b", text: "The government may not know the correct tax level and the tax may be regressive" },
-              { id: "c", text: "They eliminate all forms of market failure" },
+              { id: "a", text: "They eliminate all forms of market failure" },
+              { id: "b", text: "They always increase the quantity consumed" },
+              { id: "c", text: "The government may not know the correct tax level and the tax may be regressive" },
               { id: "d", text: "They subsidise the producers of the taxed good" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -319,12 +319,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$3,000" },
-              { id: "b", text: "$6,000" },
-              { id: "c", text: "$6,600" },
+              { id: "a", text: "$6,600" },
+              { id: "b", text: "$3,000" },
+              { id: "c", text: "$6,000" },
               { id: "d", text: "$2,200" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -522,10 +522,10 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Setting a tax on each unit of pollution" },
+              { id: "a", text: "Subsidising clean technology only" },
               { id: "b", text: "Capping total emissions and allowing firms to trade permits" },
               { id: "c", text: "Banning all pollution outright" },
-              { id: "d", text: "Subsidising clean technology only" },
+              { id: "d", text: "Setting a tax on each unit of pollution" },
             ],
             correctChoiceId: "b",
           },
@@ -622,11 +622,11 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Set a price for each unit of pollution" },
-              { id: "b", text: "Fix the total quantity of pollution and let firms trade allowances" },
-              { id: "c", text: "Ban pollution outright" },
-              { id: "d", text: "Subsidise firms that pollute less" },
+              { id: "b", text: "Ban pollution outright" },
+              { id: "c", text: "Subsidise firms that pollute less" },
+              { id: "d", text: "Fix the total quantity of pollution and let firms trade allowances" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -649,10 +649,10 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A shortage of the good" },
+              { id: "a", text: "No change in the market" },
               { id: "b", text: "A surplus of the good" },
-              { id: "c", text: "No change in the market" },
-              { id: "d", text: "A fall in the equilibrium price" },
+              { id: "c", text: "A fall in the equilibrium price" },
+              { id: "d", text: "A shortage of the good" },
             ],
             correctChoiceId: "b",
           },
@@ -677,12 +677,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Pay a lower tax rate" },
-              { id: "b", text: "Sell its surplus permits to other firms" },
+              { id: "a", text: "Receive a subsidy from consumers" },
+              { id: "b", text: "Pay a lower tax rate" },
               { id: "c", text: "Increase its output without limit" },
-              { id: "d", text: "Receive a subsidy from consumers" },
+              { id: "d", text: "Sell its surplus permits to other firms" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -705,12 +705,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Guarantee zero pollution" },
-              { id: "b", text: "Achieve the emission cap at the lowest aggregate abatement cost" },
-              { id: "c", text: "Require no monitoring or enforcement" },
-              { id: "d", text: "Always raise consumer prices" },
+              { id: "a", text: "Require no monitoring or enforcement" },
+              { id: "b", text: "Always raise consumer prices" },
+              { id: "c", text: "Achieve the emission cap at the lowest aggregate abatement cost" },
+              { id: "d", text: "Guarantee zero pollution" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -733,12 +733,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A price ceiling" },
-              { id: "b", text: "A quantity-control regulation" },
-              { id: "c", text: "A subsidy to fishers" },
-              { id: "d", text: "A tradable permit system" },
+              { id: "a", text: "A quantity-control regulation" },
+              { id: "b", text: "A subsidy to fishers" },
+              { id: "c", text: "A tradable permit system" },
+              { id: "d", text: "A price ceiling" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -934,8 +934,8 @@ export const lesson32: Lesson = {
             choices: [
               { id: "a", text: "10" },
               { id: "b", text: "20" },
-              { id: "c", text: "30" },
-              { id: "d", text: "40" },
+              { id: "c", text: "40" },
+              { id: "d", text: "30" },
             ],
             correctChoiceId: "b",
           },

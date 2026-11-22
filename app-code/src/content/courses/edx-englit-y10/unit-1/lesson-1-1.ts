@@ -74,12 +74,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The speaker's sorrow at the death of a woman few people noticed" },
-              { id: "b", text: "A celebration of a woman who became famous in her village" },
+              { id: "a", text: "A celebration of a woman who became famous in her village" },
+              { id: "b", text: "The speaker's sorrow at the death of a woman few people noticed" },
               { id: "c", text: "A description of the countryside near the River Dove" },
               { id: "d", text: "A speaker's anger that Lucy left the village" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "skill", name: "Establish the subject", statement: "Summarise what the poem is about in one sentence before analysing methods." }],
@@ -98,9 +98,9 @@ export const lesson11: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Her death has made little real difference, which is why the speaker sounds calm" },
-              { id: "b", text: "The speaker is relieved that Lucy's quiet life is over" },
+              { id: "b", text: "The speaker blames the village for ignoring Lucy" },
               { id: "c", text: "Although the world barely noticed her death, it has changed everything for the speaker, and the exclamation shows sudden emotion" },
-              { id: "d", text: "The speaker blames the village for ignoring Lucy" },
+              { id: "d", text: "The speaker is relieved that Lucy's quiet life is over" },
             ],
             correctChoiceId: "c",
           },
@@ -209,12 +209,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "That the worm is too small to be seen" },
-              { id: "b", text: "That the threat is hidden and cannot be guarded against" },
+              { id: "a", text: "That the threat is hidden and cannot be guarded against" },
+              { id: "b", text: "That the worm is too small to be seen" },
               { id: "c", text: "That it is night and too dark to see" },
               { id: "d", text: "That the worm is imaginary" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Connotation", statement: "Words suggest ideas beyond their literal meaning." }],
@@ -232,10 +232,10 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A sonnet whose fourteen lines build a logical argument" },
-              { id: "b", text: "Free verse, with no pattern, which reflects the rose's confusion" },
+              { id: "a", text: "Free verse, with no pattern, which reflects the rose's confusion" },
+              { id: "b", text: "A long narrative ballad that tells the rose's whole life story" },
               { id: "c", text: "Two short, song-like quatrains with rhyme in alternate lines, which contrasts with the disturbing subject" },
-              { id: "d", text: "A long narrative ballad that tells the rose's whole life story" },
+              { id: "d", text: "A sonnet whose fourteen lines build a logical argument" },
             ],
             correctChoiceId: "c",
           },

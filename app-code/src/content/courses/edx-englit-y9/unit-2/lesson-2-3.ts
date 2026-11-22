@@ -74,12 +74,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It suggests a weary, heavy mood" },
-              { id: "b", text: "It suggests the boats are fast and energetic" },
-              { id: "c", text: "It suggests the speaker is angry" },
-              { id: "d", text: "It suggests a cheerful homecoming" },
+              { id: "a", text: "It suggests the boats are fast and energetic" },
+              { id: "b", text: "It suggests the speaker is angry" },
+              { id: "c", text: "It suggests a cheerful homecoming" },
+              { id: "d", text: "It suggests a weary, heavy mood" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Simile", statement: "A comparison with 'like' or 'as'." }],
@@ -204,12 +204,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It is fierce, glowing and dangerous" },
-              { id: "b", text: "It is weak and fading" },
-              { id: "c", text: "It is cold and calm" },
-              { id: "d", text: "It is hidden and shy" },
+              { id: "a", text: "It is weak and fading" },
+              { id: "b", text: "It is hidden and shy" },
+              { id: "c", text: "It is fierce, glowing and dangerous" },
+              { id: "d", text: "It is cold and calm" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Metaphor and alliteration", statement: "Fire imagery suggests energy and danger; the repeated b sound adds emphasis." }],

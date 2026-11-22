@@ -52,10 +52,10 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Accepting all claims at face value" },
+              { id: "a", text: "Memorising facts" },
               { id: "b", text: "Examining one's own beliefs and assumptions" },
-              { id: "c", text: "Memorising facts" },
-              { id: "d", text: "Avoiding difficult questions" },
+              { id: "c", text: "Avoiding difficult questions" },
+              { id: "d", text: "Accepting all claims at face value" },
             ],
             correctChoiceId: "b",
           },
@@ -149,8 +149,8 @@ export const lesson33: Lesson = {
             choices: [
               { id: "a", text: "Only whether it is true" },
               { id: "b", text: "What evidence and assumptions support it" },
-              { id: "c", text: "Who originally asserted it" },
-              { id: "d", text: "How widely it is believed" },
+              { id: "c", text: "How widely it is believed" },
+              { id: "d", text: "Who originally asserted it" },
             ],
             correctChoiceId: "b",
           },
@@ -175,9 +175,9 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Seeking and favouring evidence that supports existing beliefs" },
-              { id: "b", text: "Rejecting all evidence equally" },
+              { id: "b", text: "A mathematical fallacy" },
               { id: "c", text: "A type of logical proof" },
-              { id: "d", text: "A mathematical fallacy" },
+              { id: "d", text: "Rejecting all evidence equally" },
             ],
             correctChoiceId: "a",
           },
@@ -201,10 +201,10 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Evidence that repeats the claim" },
+              { id: "a", text: "Evidence from an authority" },
               { id: "b", text: "Evidence that would count against the claim" },
-              { id: "c", text: "Evidence from an authority" },
-              { id: "d", text: "Evidence that feels intuitively right" },
+              { id: "c", text: "Evidence that feels intuitively right" },
+              { id: "d", text: "Evidence that repeats the claim" },
             ],
             correctChoiceId: "b",
           },
@@ -248,12 +248,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Is social media popular?" },
-              { id: "b", text: "What evidence would count against this claim?" },
-              { id: "c", text: "Who first said it?" },
-              { id: "d", text: "How many people use it?" },
+              { id: "a", text: "What evidence would count against this claim?" },
+              { id: "b", text: "Who first said it?" },
+              { id: "c", text: "How many people use it?" },
+              { id: "d", text: "Is social media popular?" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -300,12 +300,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Because reflection takes too long" },
-              { id: "b", text: "Because many biases operate below conscious awareness" },
-              { id: "c", text: "Because people dislike thinking" },
-              { id: "d", text: "Because evidence is always unavailable" },
+              { id: "a", text: "Because evidence is always unavailable" },
+              { id: "b", text: "Because reflection takes too long" },
+              { id: "c", text: "Because many biases operate below conscious awareness" },
+              { id: "d", text: "Because people dislike thinking" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -398,12 +398,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The emotions and their effects" },
-              { id: "b", text: "The nature, scope and justification of knowledge" },
+              { id: "a", text: "Logical fallacies exclusively" },
+              { id: "b", text: "The emotions and their effects" },
               { id: "c", text: "Ancient philosophical texts only" },
-              { id: "d", text: "Logical fallacies exclusively" },
+              { id: "d", text: "The nature, scope and justification of knowledge" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -477,10 +477,10 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The emotional intensity behind it" },
+              { id: "a", text: "Who asserts it" },
               { id: "b", text: "The evidence or reasons offered for it" },
               { id: "c", text: "How often it is repeated" },
-              { id: "d", text: "Who asserts it" },
+              { id: "d", text: "The emotional intensity behind it" },
             ],
             correctChoiceId: "b",
           },
@@ -573,11 +573,11 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Religious faith" },
-              { id: "b", text: "Empirical evidence and testability" },
+              { id: "b", text: "Tradition and custom" },
               { id: "c", text: "Authority alone" },
-              { id: "d", text: "Tradition and custom" },
+              { id: "d", text: "Empirical evidence and testability" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -599,10 +599,10 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Repeated experiment" },
+              { id: "a", text: "Expert consensus" },
               { id: "b", text: "Deductive proof from axioms" },
-              { id: "c", text: "Expert consensus" },
-              { id: "d", text: "Divine revelation" },
+              { id: "c", text: "Divine revelation" },
+              { id: "d", text: "Repeated experiment" },
             ],
             correctChoiceId: "b",
           },
@@ -627,11 +627,11 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "All knowledge uses a single standard of justification" },
-              { id: "b", text: "Different areas of knowledge may require different standards of justification" },
-              { id: "c", text: "Only the sciences produce genuine knowledge" },
+              { id: "b", text: "Only the sciences produce genuine knowledge" },
+              { id: "c", text: "Different areas of knowledge may require different standards of justification" },
               { id: "d", text: "Religion is necessarily irrational" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -673,12 +673,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Lying is sometimes enjoyable" },
-              { id: "b", text: "There are cases where lying prevents greater harm" },
-              { id: "c", text: "Some people lie frequently" },
-              { id: "d", text: "Lying is difficult to define" },
+              { id: "a", text: "Some people lie frequently" },
+              { id: "b", text: "Lying is difficult to define" },
+              { id: "c", text: "There are cases where lying prevents greater harm" },
+              { id: "d", text: "Lying is sometimes enjoyable" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -725,12 +725,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The claim is false" },
-              { id: "b", text: "It is not empirically testable in the way scientific claims are" },
-              { id: "c", text: "Scientists are inherently biased" },
-              { id: "d", text: "It involves no reasoning" },
+              { id: "a", text: "It involves no reasoning" },
+              { id: "b", text: "Scientists are inherently biased" },
+              { id: "c", text: "It is not empirically testable in the way scientific claims are" },
+              { id: "d", text: "The claim is false" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -823,12 +823,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It cannot be tested at all" },
-              { id: "b", text: "It is possible in principle to find evidence against it" },
-              { id: "c", text: "It has already been proven" },
+              { id: "a", text: "It has already been proven" },
+              { id: "b", text: "It cannot be tested at all" },
+              { id: "c", text: "It is possible in principle to find evidence against it" },
               { id: "d", text: "It is widely believed" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

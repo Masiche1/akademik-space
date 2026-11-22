@@ -54,12 +54,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "They absorb outgoing infrared radiation and re-emit part of it back toward the surface." },
+              { id: "a", text: "They reflect all incoming sunlight back to space." },
               { id: "b", text: "They make the Sun produce more energy." },
-              { id: "c", text: "They reflect all incoming sunlight back to space." },
+              { id: "c", text: "They absorb outgoing infrared radiation and re-emit part of it back toward the surface." },
               { id: "d", text: "They create heat by chemical reactions in the upper atmosphere." },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -188,10 +188,10 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Building solar and wind power plants" },
-              { id: "b", text: "Planting forests to absorb carbon dioxide" },
+              { id: "a", text: "Planting forests to absorb carbon dioxide" },
+              { id: "b", text: "Improving the energy efficiency of appliances" },
               { id: "c", text: "Building a sea wall to protect a coastal city from rising seas" },
-              { id: "d", text: "Improving the energy efficiency of appliances" },
+              { id: "d", text: "Building solar and wind power plants" },
             ],
             correctChoiceId: "c",
           },

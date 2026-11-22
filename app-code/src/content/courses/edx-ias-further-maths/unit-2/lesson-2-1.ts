@@ -52,12 +52,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\sinh x$" },
+              { id: "a", text: "$\\text{sech}^2x$" },
               { id: "b", text: "$\\cosh x$" },
               { id: "c", text: "$\\tanh x$" },
-              { id: "d", text: "$\\text{sech}^2x$" },
+              { id: "d", text: "$\\sinh x$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Derivative", statement: "$\\frac{d}{dx}\\cosh x=\\sinh x$." }],
@@ -172,9 +172,9 @@ export const lesson21: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$\\frac{1}{\\sqrt{x^2+1}}$" },
-              { id: "b", text: "$\\frac{1}{\\sqrt{1-x^2}}$" },
-              { id: "c", text: "$\\frac{1}{1+x^2}$" },
-              { id: "d", text: "$\\sqrt{x^2+1}$" },
+              { id: "b", text: "$\\frac{1}{1+x^2}$" },
+              { id: "c", text: "$\\sqrt{x^2+1}$" },
+              { id: "d", text: "$\\frac{1}{\\sqrt{1-x^2}}$" },
             ],
             correctChoiceId: "a",
           },

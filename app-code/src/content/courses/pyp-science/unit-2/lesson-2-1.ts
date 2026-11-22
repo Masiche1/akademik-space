@@ -51,8 +51,8 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Paper" },
-              { id: "b", text: "Fabric" },
+              { id: "a", text: "Fabric" },
+              { id: "b", text: "Paper" },
               { id: "c", text: "Plastic" },
               { id: "d", text: "Wood" },
             ],
@@ -145,11 +145,11 @@ export const lesson21: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Paper" },
-              { id: "b", text: "Waterproof plastic" },
+              { id: "b", text: "Cotton fabric" },
               { id: "c", text: "A sponge" },
-              { id: "d", text: "Cotton fabric" },
+              { id: "d", text: "Waterproof plastic" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -209,12 +209,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Absorbent" },
-              { id: "b", text: "Transparent" },
-              { id: "c", text: "Soft" },
-              { id: "d", text: "Rough" },
+              { id: "a", text: "Soft" },
+              { id: "b", text: "Rough" },
+              { id: "c", text: "Transparent" },
+              { id: "d", text: "Absorbent" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -257,10 +257,10 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Taste it" },
+              { id: "a", text: "Listen to it" },
               { id: "b", text: "Touch it carefully" },
               { id: "c", text: "Smell it" },
-              { id: "d", text: "Listen to it" },
+              { id: "d", text: "Taste it" },
             ],
             correctChoiceId: "b",
           },
@@ -324,11 +324,11 @@ export const lesson21: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Transparent" },
-              { id: "b", text: "Strong and durable" },
+              { id: "b", text: "Very soft" },
               { id: "c", text: "Absorbent" },
-              { id: "d", text: "Very soft" },
+              { id: "d", text: "Strong and durable" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -393,12 +393,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Paper is too heavy to hold" },
-              { id: "b", text: "Paper absorbs water and falls apart" },
-              { id: "c", text: "Paper is too colourful" },
-              { id: "d", text: "Paper cannot open" },
+              { id: "a", text: "Paper cannot open" },
+              { id: "b", text: "Paper is too heavy to hold" },
+              { id: "c", text: "Paper absorbs water and falls apart" },
+              { id: "d", text: "Paper is too colourful" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -447,9 +447,9 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It freezes" },
+              { id: "a", text: "It evaporates immediately" },
               { id: "b", text: "It melts" },
-              { id: "c", text: "It evaporates immediately" },
+              { id: "c", text: "It freezes" },
               { id: "d", text: "Nothing" },
             ],
             correctChoiceId: "b",
@@ -540,10 +540,10 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Liquid turning into a gas" },
+              { id: "a", text: "Gas turning into a liquid" },
               { id: "b", text: "Solid turning into a liquid" },
-              { id: "c", text: "Gas turning into a liquid" },
-              { id: "d", text: "Liquid turning into a solid" },
+              { id: "c", text: "Liquid turning into a solid" },
+              { id: "d", text: "Liquid turning into a gas" },
             ],
             correctChoiceId: "b",
           },
@@ -605,12 +605,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It melts into water" },
-              { id: "b", text: "It turns into ash and cannot be undone" },
-              { id: "c", text: "It freezes" },
-              { id: "d", text: "It dissolves" },
+              { id: "a", text: "It freezes" },
+              { id: "b", text: "It dissolves" },
+              { id: "c", text: "It turns into ash and cannot be undone" },
+              { id: "d", text: "It melts into water" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -654,11 +654,11 @@ export const lesson21: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Gas turning into a liquid" },
-              { id: "b", text: "Liquid turning into a gas" },
+              { id: "b", text: "Liquid turning into a solid" },
               { id: "c", text: "Solid turning into a liquid" },
-              { id: "d", text: "Liquid turning into a solid" },
+              { id: "d", text: "Liquid turning into a gas" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -719,12 +719,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The salt tastes sweet" },
-              { id: "b", text: "The water evaporates and salt crystals are left behind" },
-              { id: "c", text: "The salt turns into ash" },
-              { id: "d", text: "The water freezes solid" },
+              { id: "a", text: "The salt turns into ash" },
+              { id: "b", text: "The water freezes solid" },
+              { id: "c", text: "The salt tastes sweet" },
+              { id: "d", text: "The water evaporates and salt crystals are left behind" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -789,12 +789,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The substance changes into a different material" },
-              { id: "b", text: "The state changes from liquid to gas" },
-              { id: "c", text: "The water is destroyed" },
-              { id: "d", text: "Nothing changes" },
+              { id: "a", text: "Nothing changes" },
+              { id: "b", text: "The water is destroyed" },
+              { id: "c", text: "The substance changes into a different material" },
+              { id: "d", text: "The state changes from liquid to gas" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

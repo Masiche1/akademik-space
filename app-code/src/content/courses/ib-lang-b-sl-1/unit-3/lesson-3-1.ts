@@ -53,11 +53,11 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Writing down every word heard" },
-              { id: "b", text: "Catching the main idea of a spoken text" },
-              { id: "c", text: "Translating speech word by word" },
-              { id: "d", text: "Memorising the whole recording" },
+              { id: "b", text: "Memorising the whole recording" },
+              { id: "c", text: "Catching the main idea of a spoken text" },
+              { id: "d", text: "Translating speech word by word" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -146,10 +146,10 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "You can memorise the answers in advance" },
+              { id: "a", text: "You can skip parts of the audio" },
               { id: "b", text: "It focuses your attention on what to listen for" },
-              { id: "c", text: "The recording becomes easier to understand" },
-              { id: "d", text: "You can skip parts of the audio" },
+              { id: "c", text: "You can memorise the answers in advance" },
+              { id: "d", text: "The recording becomes easier to understand" },
             ],
             correctChoiceId: "b",
           },
@@ -173,10 +173,10 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A sequence of events" },
+              { id: "a", text: "The conclusion of the talk" },
               { id: "b", text: "A contrast or change of idea" },
-              { id: "c", text: "An example or detail" },
-              { id: "d", text: "The conclusion of the talk" },
+              { id: "c", text: "A sequence of events" },
+              { id: "d", text: "An example or detail" },
             ],
             correctChoiceId: "b",
           },
@@ -200,12 +200,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "They are always repeated later" },
-              { id: "b", text: "They are exact facts needed for answers" },
-              { id: "c", text: "They take a long time to write" },
-              { id: "d", text: "They are unimportant details" },
+              { id: "a", text: "They take a long time to write" },
+              { id: "b", text: "They are unimportant details" },
+              { id: "c", text: "They are always repeated later" },
+              { id: "d", text: "They are exact facts needed for answers" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -227,9 +227,9 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Writing down every word of the recording" },
+              { id: "a", text: "Guessing the meaning of unknown words" },
               { id: "b", text: "Catching specific facts such as names, dates and numbers" },
-              { id: "c", text: "Guessing the meaning of unknown words" },
+              { id: "c", text: "Writing down every word of the recording" },
               { id: "d", text: "Listening only for the main topic" },
             ],
             correctChoiceId: "b",
@@ -254,8 +254,8 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Stop listening and wait for the next section" },
-              { id: "b", text: "Panic and try to guess what was said" },
+              { id: "a", text: "Panic and try to guess what was said" },
+              { id: "b", text: "Stop listening and wait for the next section" },
               { id: "c", text: "Keep listening and use context to recover the meaning" },
               { id: "d", text: "Ask the examiner to replay that part" },
             ],
@@ -281,12 +281,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Guessing the correct answers before listening" },
-              { id: "b", text: "Predicting likely content and vocabulary before hearing it" },
-              { id: "c", text: "Repeating what the speaker says aloud" },
-              { id: "d", text: "Predicting the speaker's accent" },
+              { id: "a", text: "Repeating what the speaker says aloud" },
+              { id: "b", text: "Predicting the speaker's accent" },
+              { id: "c", text: "Predicting likely content and vocabulary before hearing it" },
+              { id: "d", text: "Guessing the correct answers before listening" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -308,12 +308,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Reading all the questions before the audio starts" },
+              { id: "a", text: "Translating the questions into your first language" },
               { id: "b", text: "Writing down every word you hear" },
-              { id: "c", text: "Translating the questions into your first language" },
+              { id: "c", text: "Reading all the questions before the audio starts" },
               { id: "d", text: "Waiting silently until the recording ends" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -476,12 +476,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Complete sentences copied exactly" },
-              { id: "b", text: "Keywords and abbreviations" },
-              { id: "c", text: "A summary paragraph" },
-              { id: "d", text: "Translations of every phrase" },
+              { id: "a", text: "Translations of every phrase" },
+              { id: "b", text: "A summary paragraph" },
+              { id: "c", text: "Complete sentences copied exactly" },
+              { id: "d", text: "Keywords and abbreviations" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -570,10 +570,10 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "They make notes look more professional" },
+              { id: "a", text: "They replace the need to listen carefully" },
               { id: "b", text: "They let you write faster so you keep up with speech" },
-              { id: "c", text: "They replace the need to listen carefully" },
-              { id: "d", text: "They are required in all exams" },
+              { id: "c", text: "They are required in all exams" },
+              { id: "d", text: "They make notes look more professional" },
             ],
             correctChoiceId: "b",
           },
@@ -598,11 +598,11 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "A numbered list" },
-              { id: "b", text: "A two-column table" },
-              { id: "c", text: "A spider diagram" },
-              { id: "d", text: "A single long sentence" },
+              { id: "b", text: "A spider diagram" },
+              { id: "c", text: "A single long sentence" },
+              { id: "d", text: "A two-column table" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -624,10 +624,10 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Full sentences in the target language" },
+              { id: "a", text: "Every word the speaker says" },
               { id: "b", text: "Keywords and abbreviations" },
               { id: "c", text: "A translation of the whole talk" },
-              { id: "d", text: "Every word the speaker says" },
+              { id: "d", text: "Full sentences in the target language" },
             ],
             correctChoiceId: "b",
           },
@@ -651,12 +651,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Ignore it because it was already said" },
-              { id: "b", text: "Underline or mark it because repetition signals importance" },
-              { id: "c", text: "Write it out in full as a sentence" },
-              { id: "d", text: "Stop taking notes until the repetition ends" },
+              { id: "a", text: "Underline or mark it because repetition signals importance" },
+              { id: "b", text: "Write it out in full as a sentence" },
+              { id: "c", text: "Stop taking notes until the repetition ends" },
+              { id: "d", text: "Ignore it because it was already said" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -678,12 +678,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It makes the notes look neater" },
-              { id: "b", text: "It gives room to add forgotten details later" },
-              { id: "c", text: "It slows you down so you listen more" },
-              { id: "d", text: "It is a rule of all examinations" },
+              { id: "a", text: "It is a rule of all examinations" },
+              { id: "b", text: "It slows you down so you listen more" },
+              { id: "c", text: "It gives room to add forgotten details later" },
+              { id: "d", text: "It makes the notes look neater" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -705,12 +705,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The audio will be played again" },
-              { id: "b", text: "Your memory of the talk is still fresh" },
-              { id: "c", text: "It is required before answering questions" },
-              { id: "d", text: "The notes will disappear otherwise" },
+              { id: "a", text: "The notes will disappear otherwise" },
+              { id: "b", text: "It is required before answering questions" },
+              { id: "c", text: "The audio will be played again" },
+              { id: "d", text: "Your memory of the talk is still fresh" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -732,12 +732,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "'b4' meaning 'before'" },
-              { id: "b", text: "'xylophone' meaning 'before'" },
+              { id: "a", text: "'xylophone' meaning 'before'" },
+              { id: "b", text: "'b4' meaning 'before'" },
               { id: "c", text: "'zzzz' meaning 'before'" },
               { id: "d", text: "Spelling 'before' out in full every time" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [

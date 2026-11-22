@@ -87,9 +87,9 @@ export const lesson14: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$4$" },
-              { id: "b", text: "$16$" },
-              { id: "c", text: "$\\frac{16}{3}$" },
-              { id: "d", text: "$\\frac43$" },
+              { id: "b", text: "$\\frac{16}{3}$" },
+              { id: "c", text: "$\\frac43$" },
+              { id: "d", text: "$16$" },
             ],
             correctChoiceId: "a",
           },
@@ -314,12 +314,12 @@ export const lesson14: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\frac{1}{9}$" },
-              { id: "b", text: "$9$" },
-              { id: "c", text: "$-9$" },
-              { id: "d", text: "$\\frac{1}{3}$" },
+              { id: "a", text: "$\\frac{1}{3}$" },
+              { id: "b", text: "$-9$" },
+              { id: "c", text: "$\\frac{1}{9}$" },
+              { id: "d", text: "$9$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -358,12 +358,12 @@ export const lesson14: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$x^{1/6}$" },
-              { id: "b", text: "$x^{5/6}$" },
-              { id: "c", text: "$x^{2/3}$" },
-              { id: "d", text: "$x^{3/2}$" },
+              { id: "a", text: "$x^{3/2}$" },
+              { id: "b", text: "$x^{2/3}$" },
+              { id: "c", text: "$x^{1/6}$" },
+              { id: "d", text: "$x^{5/6}$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -481,12 +481,12 @@ export const lesson14: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$x^2$" },
-              { id: "b", text: "$x^{8/9}$" },
-              { id: "c", text: "$x^3$" },
-              { id: "d", text: "$x^{1/2}$" },
+              { id: "a", text: "$x^{1/2}$" },
+              { id: "b", text: "$x^3$" },
+              { id: "c", text: "$x^2$" },
+              { id: "d", text: "$x^{8/9}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -725,12 +725,12 @@ export const lesson14: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\frac{3}{4}$" },
-              { id: "b", text: "$\\frac{4}{3}$" },
-              { id: "c", text: "$2$" },
+              { id: "a", text: "$\\frac{4}{3}$" },
+              { id: "b", text: "$2$" },
+              { id: "c", text: "$\\frac{3}{4}$" },
               { id: "d", text: "$\\frac{3}{2}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -915,12 +915,12 @@ export const lesson14: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$2$" },
-              { id: "b", text: "$1$" },
-              { id: "c", text: "$4$" },
+              { id: "a", text: "$1$" },
+              { id: "b", text: "$4$" },
+              { id: "c", text: "$2$" },
               { id: "d", text: "Does not exist" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1150,12 +1150,12 @@ export const lesson14: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$12$" },
+              { id: "a", text: "Does not exist" },
               { id: "b", text: "$9$" },
-              { id: "c", text: "$6$" },
-              { id: "d", text: "Does not exist" },
+              { id: "c", text: "$12$" },
+              { id: "d", text: "$6$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1195,12 +1195,12 @@ export const lesson14: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$r=0.9$" },
-              { id: "b", text: "$r=1$" },
-              { id: "c", text: "$r=-1.5$" },
-              { id: "d", text: "$r=2$" },
+              { id: "a", text: "$r=-1.5$" },
+              { id: "b", text: "$r=2$" },
+              { id: "c", text: "$r=0.9$" },
+              { id: "d", text: "$r=1$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1240,9 +1240,9 @@ export const lesson14: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$\\frac{4}{9}$" },
-              { id: "b", text: "$\\frac{4}{11}$" },
-              { id: "c", text: "$\\frac{9}{44}$" },
-              { id: "d", text: "$\\frac{44}{9}$" },
+              { id: "b", text: "$\\frac{9}{44}$" },
+              { id: "c", text: "$\\frac{44}{9}$" },
+              { id: "d", text: "$\\frac{4}{11}$" },
             ],
             correctChoiceId: "a",
           },
@@ -1673,10 +1673,10 @@ export const lesson14: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$0$" },
+              { id: "a", text: "$2$" },
               { id: "b", text: "$\\frac12$" },
               { id: "c", text: "Does not exist" },
-              { id: "d", text: "$2$" },
+              { id: "d", text: "$0$" },
             ],
             correctChoiceId: "c",
           },

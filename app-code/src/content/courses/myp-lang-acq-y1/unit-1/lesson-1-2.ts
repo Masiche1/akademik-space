@@ -57,8 +57,8 @@ export const lesson12: Lesson = {
             choices: [
               { id: "a", text: "Elephant" },
               { id: "b", text: "And" },
-              { id: "c", text: "Beautiful" },
-              { id: "d", text: "Yesterday" },
+              { id: "c", text: "Yesterday" },
+              { id: "d", text: "Beautiful" },
             ],
             correctChoiceId: "b",
           },
@@ -163,12 +163,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "cat" },
-              { id: "b", text: "is" },
-              { id: "c", text: "black" },
-              { id: "d", text: "The" },
+              { id: "a", text: "is" },
+              { id: "b", text: "The" },
+              { id: "c", text: "cat" },
+              { id: "d", text: "black" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -191,11 +191,11 @@ export const lesson12: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Apples I like" },
-              { id: "b", text: "I like apples" },
-              { id: "c", text: "Like I apples" },
+              { id: "b", text: "Like I apples" },
+              { id: "c", text: "I like apples" },
               { id: "d", text: "Apples like I" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -267,12 +267,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "You like tea?" },
-              { id: "b", text: "Do you like tea?" },
-              { id: "c", text: "Like you tea?" },
+              { id: "a", text: "Like you tea?" },
+              { id: "b", text: "You like tea?" },
+              { id: "c", text: "Do you like tea?" },
               { id: "d", text: "You do like tea?" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -294,12 +294,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Stop and translate every word" },
-              { id: "b", text: "Guess the meaning from the picture and context" },
-              { id: "c", text: "Ask the teacher immediately" },
-              { id: "d", text: "Skip the whole page" },
+              { id: "a", text: "Skip the whole page" },
+              { id: "b", text: "Ask the teacher immediately" },
+              { id: "c", text: "Guess the meaning from the picture and context" },
+              { id: "d", text: "Stop and translate every word" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -374,12 +374,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "She are my friend." },
-              { id: "b", text: "She is my friend." },
-              { id: "c", text: "She am my friend." },
-              { id: "d", text: "She be my friend." },
+              { id: "a", text: "She is my friend." },
+              { id: "b", text: "She are my friend." },
+              { id: "c", text: "She be my friend." },
+              { id: "d", text: "She am my friend." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -401,12 +401,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "I went to the park yesterday" },
-              { id: "b", text: "Yesterday I park went the" },
-              { id: "c", text: "Went I to the park yesterday" },
-              { id: "d", text: "I the park yesterday went" },
+              { id: "a", text: "Went I to the park yesterday" },
+              { id: "b", text: "I the park yesterday went" },
+              { id: "c", text: "I went to the park yesterday" },
+              { id: "d", text: "Yesterday I park went the" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -524,12 +524,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Who the characters are" },
-              { id: "b", text: "Where and when the story happens" },
-              { id: "c", text: "How the story ends" },
-              { id: "d", text: "How many pages the book has" },
+              { id: "a", text: "How the story ends" },
+              { id: "b", text: "How many pages the book has" },
+              { id: "c", text: "Who the characters are" },
+              { id: "d", text: "Where and when the story happens" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -639,12 +639,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The place where the story happens" },
-              { id: "b", text: "The people or animals in the story" },
-              { id: "c", text: "The title of the book" },
+              { id: "a", text: "The people or animals in the story" },
+              { id: "b", text: "The title of the book" },
+              { id: "c", text: "The place where the story happens" },
               { id: "d", text: "The last sentence" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -666,9 +666,9 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "At school" },
+              { id: "a", text: "At home" },
               { id: "b", text: "In the park" },
-              { id: "c", text: "At home" },
+              { id: "c", text: "At school" },
               { id: "d", text: "In a shop" },
             ],
             correctChoiceId: "b",
@@ -745,12 +745,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The gate" },
-              { id: "b", text: "The dog" },
-              { id: "c", text: "Loudly" },
-              { id: "d", text: "Barked" },
+              { id: "a", text: "The dog" },
+              { id: "b", text: "Loudly" },
+              { id: "c", text: "Barked" },
+              { id: "d", text: "The gate" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -772,12 +772,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Then the hero did a thing and stuff happened" },
-              { id: "b", text: "First the cat sat on the mat. Then the dog ran in." },
-              { id: "c", text: "The story was about many interesting things" },
-              { id: "d", text: "Once upon a time there was a very long and complicated tale" },
+              { id: "a", text: "The story was about many interesting things" },
+              { id: "b", text: "Then the hero did a thing and stuff happened" },
+              { id: "c", text: "Once upon a time there was a very long and complicated tale" },
+              { id: "d", text: "First the cat sat on the mat. Then the dog ran in." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -858,12 +858,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The first sentence" },
-              { id: "b", text: "How the story finishes" },
-              { id: "c", text: "The middle part" },
-              { id: "d", text: "The pictures" },
+              { id: "a", text: "How the story finishes" },
+              { id: "b", text: "The pictures" },
+              { id: "c", text: "The first sentence" },
+              { id: "d", text: "The middle part" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -892,11 +892,11 @@ export const lesson12: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Max loses his kite forever" },
-              { id: "b", text: "Max's friend helps him get the kite down" },
+              { id: "b", text: "Max goes home sad" },
               { id: "c", text: "The kite breaks in the tree" },
-              { id: "d", text: "Max goes home sad" },
+              { id: "d", text: "Max's friend helps him get the kite down" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

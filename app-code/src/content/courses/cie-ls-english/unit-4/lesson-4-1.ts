@@ -51,12 +51,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "He was angry." },
-              { id: "b", text: "He slammed the door so hard the picture frame fell." },
-              { id: "c", text: "Everyone could see he was angry." },
-              { id: "d", text: "His anger was obvious." },
+              { id: "a", text: "He slammed the door so hard the picture frame fell." },
+              { id: "b", text: "Everyone could see he was angry." },
+              { id: "c", text: "His anger was obvious." },
+              { id: "d", text: "He was angry." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -156,12 +156,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "She was a very patient person." },
-              { id: "b", text: "Everyone knew she never lost her temper." },
-              { id: "c", text: "She waited calmly, explaining each delay to the anxious child beside her." },
-              { id: "d", text: "Patience was her best quality." },
+              { id: "a", text: "Patience was her best quality." },
+              { id: "b", text: "She was a very patient person." },
+              { id: "c", text: "Everyone knew she never lost her temper." },
+              { id: "d", text: "She waited calmly, explaining each delay to the anxious child beside her." },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -220,12 +220,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Her hands trembled as she opened the letter." },
-              { id: "b", text: "He was so angry he could barely speak." },
-              { id: "c", text: "He paced the room, kicking at the skirting board." },
-              { id: "d", text: "Rain hammered the windows and she flinched at each clap of thunder." },
+              { id: "a", text: "He was so angry he could barely speak." },
+              { id: "b", text: "Rain hammered the windows and she flinched at each clap of thunder." },
+              { id: "c", text: "Her hands trembled as she opened the letter." },
+              { id: "d", text: "He paced the room, kicking at the skirting board." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -286,11 +286,11 @@ export const lesson41: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "The weather on the day of the story" },
-              { id: "b", text: "The reason they act as they do" },
+              { id: "b", text: "The number of pages in the book" },
               { id: "c", text: "The author's favourite colour" },
-              { id: "d", text: "The number of pages in the book" },
+              { id: "d", text: "The reason they act as they do" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -311,7 +311,7 @@ export const lesson41: Lesson = {
           response: { type: "open" },
           markscheme: {
             principles: [
-              { kind: "principle", name: "Believable motivation", statement: "Even unlikeable characters need logic — the villain believes they are right." },
+              { kind: "convention", name: "Believable motivation", statement: "Even unlikeable characters need logic — the villain believes they are right." },
             ],
             steps: [
               { reasoning: "Motivation stated — e.g. a childhood of being frightened made them crave control, or they believe fear keeps people safe.", working: "\\text{control/safety}", marks: 1, markCode: "AO2" },
@@ -410,12 +410,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "What other characters say and do around them" },
+              { id: "a", text: "The number of the chapter they appear in" },
               { id: "b", text: "The font size of their name on the page" },
-              { id: "c", text: "The number of the chapter they appear in" },
+              { id: "c", text: "What other characters say and do around them" },
               { id: "d", text: "The weather outside the story" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -462,12 +462,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A sunny park with children playing" },
-              { id: "b", text: "A narrow alley where the shadows seemed to follow" },
-              { id: "c", text: "A warm kitchen with bread baking" },
-              { id: "d", text: "A quiet library with tall windows" },
+              { id: "a", text: "A warm kitchen with bread baking" },
+              { id: "b", text: "A quiet library with tall windows" },
+              { id: "c", text: "A narrow alley where the shadows seemed to follow" },
+              { id: "d", text: "A sunny park with children playing" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -557,6 +557,289 @@ export const lesson41: Lesson = {
               { level: "Level 1", marks: "0", descriptor: "Vague.", part: "d" },
             ],
             commonErrors: ["In (a) writing a list of adjectives instead of a scene."],
+          },
+        },
+        {
+          id: "cile-u4-setting-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Which detail best creates a mood of loneliness in a setting description?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "A single lit window in a row of dark houses" },
+              { id: "b", text: "A busy market square full of laughing shoppers" },
+              { id: "c", text: "A crowded playground at break time" },
+              { id: "d", text: "A stadium roaring with fans" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              { kind: "technique", name: "Setting as mood", statement: "Isolated points of light and surrounding darkness create loneliness." },
+            ],
+            steps: [
+              { reasoning: "One lit window among dark houses isolates a single point of warmth — loneliness.", working: "\\text{isolated light}", marks: 1, markCode: "AO1" },
+            ],
+            finalAnswer: "**(b)** A single lit window in a row of dark houses",
+            commonErrors: ["Choosing (a) or (d) — crowds create energy, not loneliness."],
+          },
+        },
+        {
+          id: "cile-u4-setting-q6",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "State two ways a writer can use setting to symbolise a theme.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "technique", name: "Setting as symbol", statement: "Concrete places or objects can stand for abstract ideas such as freedom or imprisonment." },
+            ],
+            steps: [
+              { reasoning: "Way 1: a place or object stands for an idea — a locked room for imprisonment, an open field for freedom.", working: "\\text{place = idea}", marks: 1, markCode: "AO2" },
+              { reasoning: "Way 2: a recurring motif gains meaning — rain that returns at moments of grief becomes a symbol.", working: "\\text{recurring motif}", marks: 1, markCode: "AO3" },
+            ],
+            finalAnswer: "A concrete place or object can stand for an abstract idea (locked room = imprisonment), and a recurring motif can accumulate symbolic meaning (rain returning at moments of grief).",
+            commonErrors: ["Saying 'the setting shows the theme' without giving a concrete symbolic example."],
+          },
+        },
+        {
+          id: "cile-u4-setting-q7",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "Explain how a character's reaction to a setting can reveal their personality.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "technique", name: "Setting and character", statement: "What a character notices and how they respond to a place reveals who they are." },
+            ],
+            steps: [
+              { reasoning: "Selective attention — what they notice first shows their priorities or fears.", working: "\\text{selective attention}", marks: 1, markCode: "AO2" },
+              { reasoning: "Emotional response — fear, comfort or indifference signals temperament.", working: "\\text{emotional response}", marks: 1, markCode: "AO2" },
+              { reasoning: "Contrast with others — a different reaction to the same setting highlights their uniqueness.", working: "\\text{contrast}", marks: 1, markCode: "AO3" },
+            ],
+            finalAnswer: "A character's selective attention, emotional response and contrast with others' reactions to the same setting all reveal personality — what they notice and how they feel is characterisation.",
+            commonErrors: ["Describing the setting itself instead of the character's reaction to it."],
+          },
+        },
+        {
+          id: "cile-u4-setting-q8",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Which sentence describes a setting using the sense of smell?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Gulls cried somewhere above the breakwater." },
+              { id: "b", text: "The air tasted of salt and old rope." },
+              { id: "c", text: "The harbour glittered in the afternoon light." },
+              { id: "d", text: "Rope fibres scratched her palms." },
+            ],
+            borrectChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              { kind: "technique", name: "Sensory detail", statement: "Smell and taste are linked senses — 'salt and old rope' evokes the harbour's smell." },
+            ],
+            steps: [
+              { reasoning: "'Tasted of salt and old rope' engages smell/taste; the others are sight, sound and touch.", working: "\\text{smell/taste}", marks: 1, markCode: "AO1" },
+            ],
+            finalAnswer: "**(c)** The air tasted of salt and old rope.",
+            commonErrors: ["Choosing (b) — bird calls are sound, not smell."],
+          },
+        },
+        {
+          id: "cile-u4-setting-q9",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "A student writes: 'The city was busy.' Improve this with sensory detail that creates a mood of excitement.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "technique", name: "Sensory detail", statement: "Specific sensory images create mood; 'busy' is too vague." },
+            ],
+            steps: [
+              { reasoning: "Problem: 'busy' names a state without sensory evidence.", working: "\\text{vague}", marks: 1, markCode: "AO2" },
+              { reasoning: "Add sound and sight: traffic noise, headlights, crowds.", working: "\\text{sound/sight}", marks: 1, markCode: "AO2" },
+              { reasoning: "Add smell or touch: petrol, dust, summer heat.", working: "\\text{smell/touch}", marks: 1, markCode: "AO2" },
+              { reasoning: "Result: specific details create excitement rather than a label.", marks: 1, markCode: "AO3" },
+            ],
+            finalAnswer: "e.g. 'The city roared — horns blared, headlights swept the wet asphalt, and the pavements steamed with heat and petrol. Somewhere a bus sighed at the lights, and the whole street seemed to pulse.' — sensory detail creates excitement.",
+            commonErrors: ["Writing 'very busy and exciting' — still labels, not sensory evidence."],
+          },
+        },
+        {
+          id: "cile-u4-setting-q10",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "Explain how the time of day can be used to establish mood in a setting.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "technique", name: "Time and mood", statement: "Different times carry different connotations — dawn suggests hope, midnight suggests danger." },
+            ],
+            steps: [
+              { reasoning: "Connotation: readers associate times of day with moods — dawn with beginnings, dusk with endings.", working: "\\text{connotation}", marks: 1, markCode: "AO2" },
+              { reasoning: "Effect: choosing the time of day sets expectations before any action occurs.", marks: 1, markCode: "AO3" },
+            ],
+            finalAnswer: "Times of day carry connotations — dawn suggests hope or new beginnings, midday suggests energy, dusk and midnight suggest endings or danger. Setting the scene at a particular time establishes mood before any event occurs.",
+            commonErrors: ["Listing times of day without explaining their mood connotations."],
+          },
+        },
+        {
+          id: "cile-u4-setting-q11",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Which setting would best symbolise freedom in a story?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "A locked cell with barred windows" },
+              { id: "b", text: "A crowded train carriage" },
+              { id: "c", text: "A windowless basement room" },
+              { id: "d", text: "A wide open field under a huge sky" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              { kind: "technique", name: "Setting as symbol", statement: "Open space and sky symbolise freedom; confinement symbolises its opposite." },
+            ],
+            steps: [
+              { reasoning: "The open field and huge sky carry no barriers — freedom.", working: "\\text{open space}", marks: 1, markCode: "AO1" },
+            ],
+            finalAnswer: "**(b)** A wide open field under a huge sky",
+            commonErrors: ["Choosing (c) — crowds suggest restriction, not freedom."],
+          },
+        },
+        {
+          id: "cile-u4-setting-q12",
+          difficulty: "challenge",
+          totalMarks: 3,
+          stem: "A student writes 'The forest was very scary.' Rewrite this using a zoom-in technique: start with the broad forest, then move to one specific terrifying detail.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "technique", name: "Zooming in", statement: "Moving from broad scene to specific detail focuses the reader's fear." },
+            ],
+            steps: [
+              { reasoning: "Broad opening: the forest as a whole — its scale or silence.", working: "\\text{broad}", marks: 1, markCode: "AO2" },
+              { reasoning: "Specific detail: one concrete terrifying image — a sound, a shape, a smell.", working: "\\text{specific}", marks: 1, markCode: "AO2" },
+              { reasoning: "Result: the zoom creates focus and tension rather than a vague label.", marks: 1, markCode: "AO3" },
+            ],
+            finalAnswer: "e.g. 'The forest went on forever, swallowing the path behind her. Then she heard it — a branch snapping somewhere to her left, and the silence rushed back in twice as dark.' — broad to specific zoom intensifies fear.",
+            commonErrors: ["Listing many scary details at once — zooming in requires narrowing to one focus."],
+          },
+        },
+        {
+          id: "cile-u4-setting-q13",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Which setting description creates a calm, peaceful mood?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Shadows lengthened as sirens wailed in the distance." },
+              { id: "b", text: "The door slammed and footsteps pounded up the stairs." },
+              { id: "c", text: "Water lapped gently against the boat, and the evening air smelled of jasmine." },
+              { id: "d", text: "Wind howled through the broken windows all night." },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              { kind: "technique", name: "Setting as mood", statement: "Gentle sounds, soft light and pleasant smells create calm." },
+            ],
+            steps: [
+              { reasoning: "Lapping water and jasmine are soothing sensory details — calm.", working: "\\text{soothing}", marks: 1, markCode: "AO1" },
+            ],
+            finalAnswer: "**(b)** Water lapped gently against the boat, and the evening air smelled of jasmine.",
+            commonErrors: ["Choosing (d) — howling wind creates unease, not calm."],
+          },
+        },
+        {
+          id: "cile-u4-setting-q14",
+          difficulty: "challenge",
+          totalMarks: 9,
+          stem: "You are describing the setting for the opening of a narrative about a character returning to their childhood home.",
+          parts: [
+            { label: "a", prompt: "Describe the setting in 2-3 sentences using at least three senses.", marks: 3 },
+            { label: "b", prompt: "State the mood this setting creates.", marks: 2 },
+            { label: "c", prompt: "Explain how the setting could symbolise a theme such as memory or change.", marks: 2 },
+            { label: "d", prompt: "Suggest how the character's reaction to this setting reveals their personality.", marks: 2 },
+          ],
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "technique", name: "Setting", statement: "Setting should create mood, carry symbolism, and reveal character through response." },
+            ],
+            steps: [
+              { part: "a", reasoning: "2-3 sentences with at least three senses engaged.", working: "\\text{sensory}", marks: 1, markCode: "AO2" },
+              { part: "a", reasoning: "Specific, vivid details — not generic.", marks: 1, markCode: "AO2" },
+              { part: "a", reasoning: "Atmospheric and purposeful.", marks: 1, markCode: "AO3" },
+              { part: "b", reasoning: "Mood accurately identified.", working: "\\text{mood}", marks: 1, markCode: "AO2" },
+              { part: "b", reasoning: "Mood linked to specific details.", marks: 1, markCode: "AO3" },
+              { part: "c", reasoning: "Symbolic reading offered.", working: "\\text{symbol}", marks: 1, markCode: "AO2" },
+              { part: "c", reasoning: "Symbol justified by the description.", marks: 1, markCode: "AO3" },
+              { part: "d", reasoning: "Character reaction described.", working: "\\text{reaction}", marks: 1, markCode: "AO2" },
+              { part: "d", reasoning: "Reaction linked to personality trait.", marks: 1, markCode: "AO3" },
+            ],
+            finalAnswer: "(a) multi-sensory description (b) mood identified (c) symbolic meaning justified (d) character reaction reveals trait",
+            levels: [
+              { level: "Level 3", marks: "2-3", descriptor: "Vivid multi-sensory description.", part: "a" },
+              { level: "Level 2", marks: "1", descriptor: "Some sensory detail.", part: "a" },
+              { level: "Level 2", marks: "1-2", descriptor: "Mood identified and linked.", part: "b" },
+              { level: "Level 1", marks: "0", descriptor: "Vague.", part: "b" },
+              { level: "Level 2", marks: "1-2", descriptor: "Symbolism justified.", part: "c" },
+              { level: "Level 1", marks: "0", descriptor: "Vague.", part: "c" },
+              { level: "Level 2", marks: "1-2", descriptor: "Reaction reveals trait.", part: "d" },
+              { level: "Level 1", marks: "0", descriptor: "Vague.", part: "d" },
+            ],
+            commonErrors: ["In (a) writing a list of adjectives instead of a scene."],
+          },
+        },
+        {
+          id: "cile-u4-setting-q15",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "Give two reasons why setting should not be treated as mere decoration in a narrative.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "technique", name: "Setting's function", statement: "Setting creates mood, symbolises themes and reveals character." },
+            ],
+            steps: [
+              { reasoning: "Reason 1: setting establishes mood and atmosphere, shaping the reader's emotional response.", working: "\\text{mood}", marks: 1, markCode: "AO2" },
+              { reasoning: "Reason 2: setting can symbolise themes and reveal character through reaction.", working: "\\text{symbol/character}", marks: 1, markCode: "AO3" },
+            ],
+            finalAnswer: "Setting creates mood and atmosphere (shaping the reader's response) and can symbolise themes and reveal character — so it works, it is not decoration.",
+            commonErrors: ["Saying 'it makes the story interesting' without functional reasons."],
+          },
+        },
+        {
+          id: "cile-u4-setting-q16",
+          difficulty: "challenge",
+          totalMarks: 1,
+          stem: "Which revision best turns a neutral description into one that mirrors a character's grief?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "The garden she had tended for years now lay untended, weeds strangling the roses she once loved." },
+              { id: "b", text: "The garden was very nice and well kept." },
+              { id: "c", text: "The garden contained roses, a bench and a small pond." },
+              { id: "d", text: "She looked at the garden and felt sad." },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              { kind: "technique", name: "Pathetic fallacy", statement: "The neglected garden mirrors the character's neglected grief — nature reflects emotion." },
+            ],
+            steps: [
+              { reasoning: "(b) lets the setting's decay mirror her loss without naming the emotion.", working: "\\text{mirrored decay}", marks: 1, markCode: "AO1" },
+            ],
+            finalAnswer: "**(b)** The garden she had tended for years now lay untended, weeds strangling the roses she once loved.",
+            commonErrors: ["Choosing (d) — it tells the emotion directly instead of mirroring it in setting."],
           },
         },
       ],

@@ -57,12 +57,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$C(x)=0.10x+20$" },
+              { id: "a", text: "$C(x)=0.10x$" },
               { id: "b", text: "$C(x)=20x+0.10$" },
-              { id: "c", text: "$C(x)=20x+0.10x$" },
-              { id: "d", text: "$C(x)=0.10x$" },
+              { id: "c", text: "$C(x)=0.10x+20$" },
+              { id: "d", text: "$C(x)=20x+0.10x$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -84,12 +84,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$P(x)=2x-200$" },
-              { id: "b", text: "$P(x)=8x-200$" },
+              { id: "a", text: "$P(x)=8x-200$" },
+              { id: "b", text: "$P(x)=5x-3x-200$ only" },
               { id: "c", text: "$P(x)=2x+200$" },
-              { id: "d", text: "$P(x)=5x-3x-200$ only" },
+              { id: "d", text: "$P(x)=2x-200$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -112,12 +112,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "100 cups" },
-              { id: "b", text: "200 cups" },
+              { id: "a", text: "200 cups" },
+              { id: "b", text: "400 cups" },
               { id: "c", text: "50 cups" },
-              { id: "d", text: "400 cups" },
+              { id: "d", text: "100 cups" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -173,12 +173,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The fixed cost" },
-              { id: "b", text: "The cost per unit" },
-              { id: "c", text: "The revenue" },
-              { id: "d", text: "The number of units" },
+              { id: "a", text: "The number of units" },
+              { id: "b", text: "The fixed cost" },
+              { id: "c", text: "The cost per unit" },
+              { id: "d", text: "The revenue" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -217,12 +217,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "30 units" },
-              { id: "b", text: "50 units" },
-              { id: "c", text: "18.75 units" },
-              { id: "d", text: "150 units" },
+              { id: "a", text: "50 units" },
+              { id: "b", text: "30 units" },
+              { id: "c", text: "150 units" },
+              { id: "d", text: "18.75 units" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -263,12 +263,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "80" },
-              { id: "b", text: "2.5" },
+              { id: "a", text: "2.5" },
+              { id: "b", text: "80" },
               { id: "c", text: "$x$" },
               { id: "d", text: "Cannot be determined" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -309,12 +309,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "40" },
-              { id: "b", text: "280" },
-              { id: "c", text: "-40" },
+              { id: "a", text: "-40" },
+              { id: "b", text: "40" },
+              { id: "c", text: "280" },
               { id: "d", text: "520" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -444,12 +444,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "115" },
-              { id: "b", text: "114" },
+              { id: "a", text: "114" },
+              { id: "b", text: "115" },
               { id: "c", text: "800" },
               { id: "d", text: "57" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -505,9 +505,9 @@ export const lesson23: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "After 4 seconds, distance is 12 metres" },
-              { id: "b", text: "After 12 seconds, distance is 4 metres" },
-              { id: "c", text: "Speed is 12 m/s" },
-              { id: "d", text: "Distance is 4 metres" },
+              { id: "b", text: "Speed is 12 m/s" },
+              { id: "c", text: "Distance is 4 metres" },
+              { id: "d", text: "After 12 seconds, distance is 4 metres" },
             ],
             correctChoiceId: "a",
           },
@@ -531,12 +531,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$CF(d)=0.116d$" },
-              { id: "b", text: "$CF(d)=1.45d$" },
-              { id: "c", text: "$CF(d)=0.08\\times1.45d$ only" },
-              { id: "d", text: "$CF(d)=0.08d+1.45$" },
+              { id: "a", text: "$CF(d)=0.08\\times1.45d$ only" },
+              { id: "b", text: "$CF(d)=0.08d+1.45$" },
+              { id: "c", text: "$CF(d)=0.116d$" },
+              { id: "d", text: "$CF(d)=1.45d$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -559,12 +559,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "29" },
+              { id: "a", text: "290" },
               { id: "b", text: "0.29" },
-              { id: "c", text: "2.9" },
-              { id: "d", text: "290" },
+              { id: "c", text: "29" },
+              { id: "d", text: "2.9" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -620,9 +620,9 @@ export const lesson23: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "After 4 seconds the distance is 12 metres" },
-              { id: "b", text: "After 12 seconds the distance is 4 metres" },
-              { id: "c", text: "The speed is 12 m/s" },
-              { id: "d", text: "The distance is 4 metres" },
+              { id: "b", text: "The distance is 4 metres" },
+              { id: "c", text: "After 12 seconds the distance is 4 metres" },
+              { id: "d", text: "The speed is 12 m/s" },
             ],
             correctChoiceId: "a",
           },
@@ -663,12 +663,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$CF(d)=0.16d$" },
+              { id: "a", text: "$CF(d)=1.6d$" },
               { id: "b", text: "$CF(d)=0.1d+1.6$" },
-              { id: "c", text: "$CF(d)=1.6d$" },
-              { id: "d", text: "$CF(d)=0.26d$" },
+              { id: "c", text: "$CF(d)=0.26d$" },
+              { id: "d", text: "$CF(d)=0.16d$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -709,12 +709,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$CF(d)=0.15d+0.5$" },
-              { id: "b", text: "$CF(d)=0.1d+2.0$" },
-              { id: "c", text: "$FC(d)=1.5d+0.5$" },
-              { id: "d", text: "$C(d)=1.5(0.1d)$ only" },
+              { id: "a", text: "$C(d)=1.5(0.1d)$ only" },
+              { id: "b", text: "$FC(d)=1.5d+0.5$" },
+              { id: "c", text: "$CF(d)=0.1d+2.0$" },
+              { id: "d", text: "$CF(d)=0.15d+0.5$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -755,12 +755,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A loss of 50 when producing 30 units" },
+              { id: "a", text: "The break-even point is 30" },
               { id: "b", text: "A profit of 50 when producing 30 units" },
-              { id: "c", text: "A loss of 30 when producing 50 units" },
-              { id: "d", text: "The break-even point is 30" },
+              { id: "c", text: "A loss of 50 when producing 30 units" },
+              { id: "d", text: "A loss of 30 when producing 50 units" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -862,9 +862,9 @@ export const lesson23: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$t>\\frac{11}{10.6}\\approx1.04$ hours" },
-              { id: "b", text: "$t<1.04$ hours" },
-              { id: "c", text: "For all $t>0$" },
-              { id: "d", text: "Never" },
+              { id: "b", text: "Never" },
+              { id: "c", text: "$t<1.04$ hours" },
+              { id: "d", text: "For all $t>0$" },
             ],
             correctChoiceId: "a",
           },
@@ -890,12 +890,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "10 hours" },
-              { id: "b", text: "8 hours" },
-              { id: "c", text: "12 hours" },
+              { id: "a", text: "12 hours" },
+              { id: "b", text: "10 hours" },
+              { id: "c", text: "8 hours" },
               { id: "d", text: "15 hours" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [

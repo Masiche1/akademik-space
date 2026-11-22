@@ -90,12 +90,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$E_k = \\frac{1}{2}I\\omega^2$" },
-              { id: "b", text: "$E_k = I\\omega$" },
-              { id: "c", text: "$E_k = \\frac{1}{2}mv^2$" },
-              { id: "d", text: "$E_k = \\tau\\theta$" },
+              { id: "a", text: "$E_k = I\\omega$" },
+              { id: "b", text: "$E_k = \\tau\\theta$" },
+              { id: "c", text: "$E_k = \\frac{1}{2}I\\omega^2$" },
+              { id: "d", text: "$E_k = \\frac{1}{2}mv^2$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -316,10 +316,10 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$E_k = I\\omega$" },
+              { id: "a", text: "$E_k = I\\omega^2$" },
               { id: "b", text: "$E_k = \\frac{1}{2}I\\omega^2$" },
-              { id: "c", text: "$E_k = \\frac{1}{2}I^2\\omega$" },
-              { id: "d", text: "$E_k = I\\omega^2$" },
+              { id: "c", text: "$E_k = I\\omega$" },
+              { id: "d", text: "$E_k = \\frac{1}{2}I^2\\omega$" },
             ],
             correctChoiceId: "b",
           },
@@ -360,12 +360,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "only $\\frac{1}{2}mv^2$" },
-              { id: "b", text: "only $\\frac{1}{2}I\\omega^2$" },
-              { id: "c", text: "$\\frac{1}{2}mv^2 + \\frac{1}{2}I\\omega^2$" },
-              { id: "d", text: "$mv^2 + I\\omega^2$" },
+              { id: "a", text: "only $\\frac{1}{2}I\\omega^2$" },
+              { id: "b", text: "only $\\frac{1}{2}mv^2$" },
+              { id: "c", text: "$mv^2 + I\\omega^2$" },
+              { id: "d", text: "$\\frac{1}{2}mv^2 + \\frac{1}{2}I\\omega^2$" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -404,12 +404,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "hoop ($I = MR^2$)" },
-              { id: "b", text: "solid cylinder ($I = \\frac{1}{2}MR^2$)" },
-              { id: "c", text: "solid sphere ($I = \\frac{2}{5}MR^2$)" },
-              { id: "d", text: "rod about its end ($I = \\frac{1}{3}ML^2$)" },
+              { id: "a", text: "solid cylinder ($I = \\frac{1}{2}MR^2$)" },
+              { id: "b", text: "rod about its end ($I = \\frac{1}{3}ML^2$)" },
+              { id: "c", text: "hoop ($I = MR^2$)" },
+              { id: "d", text: "solid sphere ($I = \\frac{2}{5}MR^2$)" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -449,12 +449,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\omega = v/r$" },
-              { id: "b", text: "$\\omega = vr$" },
-              { id: "c", text: "$\\omega = v^2/r$" },
+              { id: "a", text: "$\\omega = vr$" },
+              { id: "b", text: "$\\omega = v^2/r$" },
+              { id: "c", text: "$\\omega = v/r$" },
               { id: "d", text: "$\\omega = r/v$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1053,9 +1053,9 @@ export const lesson13: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$v = \\omega r$" },
-              { id: "b", text: "$v = \\omega / r$" },
-              { id: "c", text: "$v = \\omega r^2$" },
-              { id: "d", text: "$v = I\\omega$" },
+              { id: "b", text: "$v = I\\omega$" },
+              { id: "c", text: "$v = \\omega / r$" },
+              { id: "d", text: "$v = \\omega r^2$" },
             ],
             correctChoiceId: "a",
           },
@@ -1275,8 +1275,8 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "equal to $v$" },
-              { id: "b", text: "equal to $2v$" },
+              { id: "a", text: "equal to $2v$" },
+              { id: "b", text: "equal to $v$" },
               { id: "c", text: "instantaneously zero" },
               { id: "d", text: "equal to $\\omega r/2$" },
             ],
@@ -1319,15 +1319,15 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "down the slope, opposing the motion" },
+              { id: "a", text: "perpendicular to the slope" },
+              { id: "b", text: "there is no friction when rolling" },
               {
-                id: "b",
+                id: "c",
                 text: "up the slope, providing the torque that spins the ball",
               },
-              { id: "c", text: "perpendicular to the slope" },
-              { id: "d", text: "there is no friction when rolling" },
+              { id: "d", text: "down the slope, opposing the motion" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1367,12 +1367,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "wheel A" },
-              { id: "b", text: "wheel B" },
-              { id: "c", text: "they are equal" },
-              { id: "d", text: "cannot be determined" },
+              { id: "a", text: "cannot be determined" },
+              { id: "b", text: "they are equal" },
+              { id: "c", text: "wheel B" },
+              { id: "d", text: "wheel A" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1412,13 +1412,13 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "there is no friction" },
+              { id: "a", text: "friction always does negative work" },
               {
                 id: "b",
                 text: "the contact point is instantaneously at rest relative to the surface",
               },
-              { id: "c", text: "friction always does negative work" },
-              { id: "d", text: "the ball is accelerating" },
+              { id: "c", text: "the ball is accelerating" },
+              { id: "d", text: "there is no friction" },
             ],
             correctChoiceId: "b",
           },

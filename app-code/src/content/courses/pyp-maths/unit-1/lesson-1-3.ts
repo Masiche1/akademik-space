@@ -196,12 +196,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$2$ and $5$ tenths — two and a half" },
-              { id: "b", text: "$25$" },
-              { id: "c", text: "$2$ multiplied by $5$" },
+              { id: "a", text: "$25$" },
+              { id: "b", text: "$2$ multiplied by $5$" },
+              { id: "c", text: "$2$ and $5$ tenths — two and a half" },
               { id: "d", text: "$2.05$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -222,12 +222,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Five" },
-              { id: "b", text: "One half" },
-              { id: "c", text: "Two and a half" },
-              { id: "d", text: "Zero" },
+              { id: "a", text: "One half" },
+              { id: "b", text: "Two and a half" },
+              { id: "c", text: "Zero" },
+              { id: "d", text: "Five" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -250,8 +250,8 @@ export const lesson13: Lesson = {
             choices: [
               { id: "a", text: "$3.25$" },
               { id: "b", text: "$3.5$" },
-              { id: "c", text: "They are equal" },
-              { id: "d", text: "Cannot tell" },
+              { id: "c", text: "Cannot tell" },
+              { id: "d", text: "They are equal" },
             ],
             correctChoiceId: "b",
           },
@@ -275,10 +275,10 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$5.00$" },
+              { id: "a", text: "$6.25$" },
               { id: "b", text: "$6.00$" },
               { id: "c", text: "$5.90$" },
-              { id: "d", text: "$6.25$" },
+              { id: "d", text: "$5.00$" },
             ],
             correctChoiceId: "b",
           },
@@ -358,12 +358,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Ten $5$-cent coins" },
-              { id: "b", text: "Five $10$-cent coins" },
+              { id: "a", text: "One $50$-cent coin" },
+              { id: "b", text: "Ten $5$-cent coins" },
               { id: "c", text: "Two $25$-cent coins" },
-              { id: "d", text: "One $50$-cent coin" },
+              { id: "d", text: "Five $10$-cent coins" },
             ],
-            correctChoiceId: "d",
+            correctChoiceIa: "d",
           },
           markscheme: {
             principles: [
@@ -406,9 +406,9 @@ export const lesson13: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$1.25$" },
-              { id: "b", text: "$2.25$" },
+              { id: "b", text: "$8.75$" },
               { id: "c", text: "$1.35$" },
-              { id: "d", text: "$8.75$" },
+              { id: "d", text: "$2.25$" },
             ],
             correctChoiceId: "a",
           },
@@ -460,12 +460,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Add $5$" },
+              { id: "a", text: "Multiply by $5$" },
               { id: "b", text: "Add $10$" },
-              { id: "c", text: "Multiply by $5$" },
-              { id: "d", text: "Subtract $5$" },
+              { id: "c", text: "Subtract $5$" },
+              { id: "d", text: "Add $5$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -560,12 +560,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Add $2$" },
-              { id: "b", text: "Add $4$" },
-              { id: "c", text: "Multiply by $2$" },
-              { id: "d", text: "Subtract $2$" },
+              { id: "a", text: "Subtract $2$" },
+              { id: "b", text: "Add $2$" },
+              { id: "c", text: "Add $4$" },
+              { id: "d", text: "Multiply by $2$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -603,12 +603,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$45$" },
-              { id: "b", text: "$60$" },
-              { id: "c", text: "$80$" },
-              { id: "d", text: "$50$" },
+              { id: "a", text: "$50$" },
+              { id: "b", text: "$45$" },
+              { id: "c", text: "$60$" },
+              { id: "d", text: "$80$" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -664,12 +664,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Add $6$" },
-              { id: "b", text: "Add $3$ — it is the $3$ times table" },
-              { id: "c", text: "Multiply by $3$" },
+              { id: "a", text: "Multiply by $3$" },
+              { id: "b", text: "Add $6$" },
+              { id: "c", text: "Add $3$ — it is the $3$ times table" },
               { id: "d", text: "Subtract $3$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -747,12 +747,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$20, 25, 30, 35$" },
-              { id: "b", text: "$20, 15, 10, 5$" },
-              { id: "c", text: "$5, 10, 15, 20$" },
+              { id: "a", text: "$5, 10, 15, 20$" },
+              { id: "b", text: "$20, 25, 30, 35$" },
+              { id: "c", text: "$20, 15, 10, 5$" },
               { id: "d", text: "$20, 22, 24, 26$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

@@ -77,9 +77,9 @@ export const lesson23: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$y$ against $x$" },
-              { id: "b", text: "$\\ln y$ against $x$" },
+              { id: "b", text: "$y$ against $\\ln x$" },
               { id: "c", text: "$\\ln y$ against $\\ln x$" },
-              { id: "d", text: "$y$ against $\\ln x$" },
+              { id: "d", text: "$\\ln y$ against $x$" },
             ],
             correctChoiceId: "c",
           },
@@ -380,12 +380,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$y$ against $x$" },
-              { id: "b", text: "$\\ln y$ against $\\ln x$" },
-              { id: "c", text: "$\\ln y$ against $x$" },
-              { id: "d", text: "$y$ against $\\ln x$" },
+              { id: "a", text: "$y$ against $\\ln x$" },
+              { id: "b", text: "$\\ln y$ against $x$" },
+              { id: "c", text: "$\\ln y$ against $\\ln x$" },
+              { id: "d", text: "$y$ against $x$" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -426,12 +426,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$b$" },
+              { id: "a", text: "$\\frac{1}{b}$" },
               { id: "b", text: "$a$" },
-              { id: "c", text: "$\\ln a$" },
-              { id: "d", text: "$\\frac{1}{b}$" },
+              { id: "c", text: "$b$" },
+              { id: "d", text: "$\\ln a$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -472,9 +472,9 @@ export const lesson23: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$\\ln k$" },
-              { id: "b", text: "$k$" },
-              { id: "c", text: "$\\ln a$" },
-              { id: "d", text: "$a$" },
+              { id: "b", text: "$a$" },
+              { id: "c", text: "$k$" },
+              { id: "d", text: "$\\ln a$" },
             ],
             correctChoiceId: "a",
           },
@@ -517,11 +517,11 @@ export const lesson23: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$y=ka^x$" },
-              { id: "b", text: "$y=ax^b$" },
-              { id: "c", text: "$y=mx+c$" },
+              { id: "b", text: "$y=mx+c$" },
+              { id: "c", text: "$y=ax^b$" },
               { id: "d", text: "$y=ax^2+bx+c$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -563,8 +563,8 @@ export const lesson23: Lesson = {
             choices: [
               { id: "a", text: "$5$" },
               { id: "b", text: "$\\ln 5\\approx1.61$" },
-              { id: "c", text: "$e^5\\approx148$" },
-              { id: "d", text: "$0$" },
+              { id: "c", text: "$0$" },
+              { id: "d", text: "$e^5\\approx148$" },
             ],
             correctChoiceId: "b",
           },
@@ -607,12 +607,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$y=e^{1.5}x^{-2}\\approx4.48x^{-2}$" },
+              { id: "a", text: "$y=e^{-2}x^{1.5}\\approx0.135x^{1.5}$" },
               { id: "b", text: "$y=e^{2}x^{1.5}\\approx7.39x^{1.5}$" },
-              { id: "c", text: "$y=e^{-2}x^{1.5}\\approx0.135x^{1.5}$" },
-              { id: "d", text: "$y=1.5x^{-2}$" },
+              { id: "c", text: "$y=1.5x^{-2}$" },
+              { id: "d", text: "$y=e^{1.5}x^{-2}\\approx4.48x^{-2}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1162,18 +1162,18 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "The model predicts 96% of values exactly." },
               {
-                id: "a",
+                id: "b",
                 text: "96% of the variation in $y$ is explained by the model.",
               },
-              { id: "b", text: "The model predicts 96% of values exactly." },
               { id: "c", text: "The correlation coefficient is 0.96." },
               {
                 id: "d",
                 text: "There is a 4% chance that the model is wrong.",
               },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1436,18 +1436,18 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "There is an 85% chance the model is correct." },
+              { id: "b", text: "The correlation coefficient is 0.85." },
               {
-                id: "a",
+                id: "c",
                 text: "85% of the variation in $y$ is explained by the model.",
               },
               {
-                id: "b",
+                id: "d",
                 text: "The model predicts 85% of the data points exactly.",
               },
-              { id: "c", text: "The correlation coefficient is 0.85." },
-              { id: "d", text: "There is an 85% chance the model is correct." },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1489,12 +1489,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$R^2=r$" },
-              { id: "b", text: "$R^2=r^2$" },
-              { id: "c", text: "$R^2=1-r$" },
-              { id: "d", text: "$R^2=|r|$" },
+              { id: "a", text: "$R^2=1-r$" },
+              { id: "b", text: "$R^2=|r|$" },
+              { id: "c", text: "$R^2=r$" },
+              { id: "d", text: "$R^2=r^2$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1532,12 +1532,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\hat y-y$" },
-              { id: "b", text: "$y-\\hat y$" },
-              { id: "c", text: "$y+\\hat y$" },
-              { id: "d", text: "$\\frac{y}{\\hat y}$" },
+              { id: "a", text: "$\\frac{y}{\\hat y}$" },
+              { id: "b", text: "$y+\\hat y$" },
+              { id: "c", text: "$\\hat y-y$" },
+              { id: "d", text: "$y-\\hat y$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1576,16 +1576,16 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              {
-                id: "a",
-                text: "The model fits well; residuals scatter randomly.",
-              },
+              { id: "a", text: "The data are constant." },
               {
                 id: "b",
                 text: "The model has the wrong shape; residuals show a systematic trend.",
               },
               { id: "c", text: "$R^2$ must be negative." },
-              { id: "d", text: "The data are constant." },
+              {
+                id: "d",
+                text: "The model fits well; residuals scatter randomly.",
+              },
             ],
             correctChoiceId: "b",
           },
@@ -1630,12 +1630,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$0.6$" },
-              { id: "b", text: "$0.36$" },
-              { id: "c", text: "$0.3$" },
-              { id: "d", text: "$-0.36$" },
+              { id: "a", text: "$0.3$" },
+              { id: "b", text: "$0.6$" },
+              { id: "c", text: "$-0.36$" },
+              { id: "d", text: "$0.36$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1673,21 +1673,21 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              {
-                id: "a",
-                text: "The model is definitely the correct model for the data.",
-              },
+              { id: "a", text: "97% of the predictions are exact." },
               {
                 id: "b",
-                text: "The model explains most of the variation, but residuals and context should still be checked.",
+                text: "The model is definitely the correct model for the data.",
               },
               {
                 id: "c",
                 text: "The model will predict accurately for any $x$ outside the data range.",
               },
-              { id: "d", text: "97% of the predictions are exact." },
+              {
+                id: "d",
+                text: "The model explains most of the variation, but residuals and context should still be checked.",
+              },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

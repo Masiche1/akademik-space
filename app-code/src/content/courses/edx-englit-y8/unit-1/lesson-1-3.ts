@@ -83,12 +83,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Similarly" },
-              { id: "b", text: "Likewise" },
-              { id: "c", text: "Whereas" },
-              { id: "d", text: "In the same way" },
+              { id: "a", text: "Whereas" },
+              { id: "b", text: "In the same way" },
+              { id: "c", text: "Likewise" },
+              { id: "d", text: "Similarly" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "skill", name: "Comparative connectives", statement: "'Whereas' and 'in contrast' show difference; 'similarly' and 'likewise' show similarity." }],
@@ -212,12 +212,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Copy out the longest quotation you can find" },
-              { id: "b", text: "Say what effect the writer's words create" },
-              { id: "c", text: "Retell what happens next in the poem" },
-              { id: "d", text: "List every technique in the poem" },
+              { id: "a", text: "Say what effect the writer's words create" },
+              { id: "b", text: "Retell what happens next in the poem" },
+              { id: "c", text: "List every technique in the poem" },
+              { id: "d", text: "Copy out the longest quotation you can find" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "skill", name: "PEE", statement: "Point, Evidence, Explain: explain the effect of the writer's choices." }],

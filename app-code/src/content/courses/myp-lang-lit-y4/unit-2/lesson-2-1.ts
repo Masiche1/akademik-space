@@ -55,12 +55,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The speed of reading" },
-              { id: "b", text: "The level of formality in language" },
+              { id: "a", text: "The level of formality in language" },
+              { id: "b", text: "The length of sentences" },
               { id: "c", text: "The size of the vocabulary" },
-              { id: "d", text: "The length of sentences" },
+              { id: "d", text: "The speed of reading" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Register", statement: "Register = level of formality of language." }],
@@ -140,12 +140,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Complete sentences" },
-              { id: "b", text: "Contractions like 'don't' and 'can't'" },
-              { id: "c", text: "Formal vocabulary" },
+              { id: "a", text: "Contractions like 'don't' and 'can't'" },
+              { id: "b", text: "Formal vocabulary" },
+              { id: "c", text: "Complete sentences" },
               { id: "d", text: "Passive voice" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Register features", statement: "Contractions, slang and short sentences signal informal register." }],
@@ -183,12 +183,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Loud, quiet, silent" },
-              { id: "b", text: "Formal, neutral, informal" },
-              { id: "c", text: "Fast, slow, medium" },
+              { id: "a", text: "Formal, neutral, informal" },
+              { id: "b", text: "Fast, slow, medium" },
+              { id: "c", text: "Loud, quiet, silent" },
               { id: "d", text: "Written, spoken, signed" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Register spectrum", statement: "Formal ←→ Neutral ←→ Informal." }],
@@ -228,10 +228,10 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Gotta go, ttyl!" },
+              { id: "a", text: "The meeting's been moved, no biggie." },
               { id: "b", text: "I am writing to inform you that the meeting has been postponed." },
-              { id: "c", text: "The meeting's been moved, no biggie." },
-              { id: "d", text: "OMG the meeting got cancelled!!" },
+              { id: "c", text: "OMG the meeting got cancelled!!" },
+              { id: "d", text: "Gotta go, ttyl!" },
             ],
             correctChoiceId: "b",
           },
@@ -302,12 +302,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Very informal slang" },
-              { id: "b", text: "Specialist vocabulary used within a profession or field" },
-              { id: "c", text: "Foreign words" },
-              { id: "d", text: "Long sentences" },
+              { id: "a", text: "Long sentences" },
+              { id: "b", text: "Very informal slang" },
+              { id: "c", text: "Specialist vocabulary used within a profession or field" },
+              { id: "d", text: "Foreign words" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Jargon", statement: "Specialist vocabulary within a profession or field." }],
@@ -345,9 +345,9 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Complete sentences" },
+              { id: "a", text: "Official vocabulary" },
               { id: "b", text: "Contractions" },
-              { id: "c", text: "Official vocabulary" },
+              { id: "c", text: "Complete sentences" },
               { id: "d", text: "Passive voice" },
             ],
             correctChoiceId: "b",
@@ -451,8 +451,8 @@ export const lesson21: Lesson = {
             choices: [
               { id: "a", text: "Nothing — it's just style" },
               { id: "b", text: "Communication is weakened — confusion or lost credibility" },
-              { id: "c", text: "The text becomes longer" },
-              { id: "d", text: "The audience is flattered" },
+              { id: "c", text: "The audience is flattered" },
+              { id: "d", text: "The text becomes longer" },
             ],
             correctChoiceId: "b",
           },
@@ -534,12 +534,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The people listening to a speech" },
-              { id: "b", text: "The people a text is written for" },
+              { id: "a", text: "The critics who review books" },
+              { id: "b", text: "The people listening to a speech" },
               { id: "c", text: "The theatre where a play is performed" },
-              { id: "d", text: "The critics who review books" },
+              { id: "d", text: "The people a text is written for" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Audience", statement: "Audience = the people a text is written for." }],
@@ -577,10 +577,10 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Nothing — it's just style" },
+              { id: "a", text: "The text becomes longer" },
               { id: "b", text: "Communication is weakened — seems disrespectful and loses credibility" },
-              { id: "c", text: "The audience is impressed" },
-              { id: "d", text: "The text becomes longer" },
+              { id: "c", text: "Nothing — it's just style" },
+              { id: "d", text: "The audience is impressed" },
             ],
             correctChoiceId: "b",
           },
@@ -622,9 +622,9 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Close friends" },
+              { id: "a", text: "Children" },
               { id: "b", text: "General customers" },
-              { id: "c", text: "Children" },
+              { id: "c", text: "Close friends" },
               { id: "d", text: "University students" },
             ],
             correctChoiceId: "b",
@@ -696,12 +696,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Because matching register impresses the reader" },
-              { id: "b", text: "Because mismatched register weakens communication and credibility" },
-              { id: "c", text: "Because it makes the text longer" },
-              { id: "d", text: "Because audiences prefer formal language" },
+              { id: "a", text: "Because audiences prefer formal language" },
+              { id: "b", text: "Because matching register impresses the reader" },
+              { id: "c", text: "Because mismatched register weakens communication and credibility" },
+              { id: "d", text: "Because it makes the text longer" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Register fit", statement: "Register must match audience for effective communication." }],
@@ -739,12 +739,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The audience is very distant" },
-              { id: "b", text: "The writer is including themselves with the audience — inclusive tone" },
+              { id: "a", text: "The text is a formal report" },
+              { id: "b", text: "The audience is very distant" },
               { id: "c", text: "The audience is confused" },
-              { id: "d", text: "The text is a formal report" },
+              { id: "d", text: "The writer is including themselves with the audience — inclusive tone" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Pronouns and audience", statement: "'We/us' creates inclusive tone; 'you' is direct address." }],

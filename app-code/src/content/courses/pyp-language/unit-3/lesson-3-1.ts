@@ -51,12 +51,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Running to the park" },
-              { id: "b", text: "The big red ball" },
-              { id: "c", text: "The cat slept on the mat." },
-              { id: "d", text: "Because it was raining" },
+              { id: "a", text: "The big red ball" },
+              { id: "b", text: "Running to the park" },
+              { id: "c", text: "Because it was raining" },
+              { id: "d", text: "The cat slept on the mat." },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -144,11 +144,11 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "A small letter" },
-              { id: "b", text: "A capital letter" },
-              { id: "c", text: "A number" },
-              { id: "d", text: "A picture" },
+              { id: "b", text: "A number" },
+              { id: "c", text: "A picture" },
+              { id: "d", text: "A capital letter" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -188,12 +188,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "dog" },
-              { id: "b", text: "london" },
+              { id: "a", text: "london" },
+              { id: "b", text: "dog" },
               { id: "c", text: "ran" },
               { id: "d", text: "the" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -270,12 +270,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "my dog rex likes to play." },
-              { id: "b", text: "My dog Rex likes to play." },
-              { id: "c", text: "My dog rex likes to play" },
-              { id: "d", text: "my dog Rex likes to play." },
+              { id: "a", text: "my dog Rex likes to play." },
+              { id: "b", text: "my dog rex likes to play." },
+              { id: "c", text: "My dog Rex likes to play." },
+              { id: "d", text: "My dog rex likes to play" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -334,10 +334,10 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Question mark (?)" },
-              { id: "b", text: "Comma (, )" },
+              { id: "a", text: "Comma (, )" },
+              { id: "b", text: "Exclamation mark only (!)" },
               { id: "c", text: "Full stop (.)" },
-              { id: "d", text: "Exclamation mark only (!)" },
+              { id: "d", text: "Question mark (?)" },
             ],
             correctChoiceId: "c",
           },
@@ -360,12 +360,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The birds sang." },
-              { id: "b", text: "Running through the field" },
-              { id: "c", text: "I like ice cream." },
-              { id: "d", text: "She reads every night." },
+              { id: "a", text: "She reads every night." },
+              { id: "b", text: "The birds sang." },
+              { id: "c", text: "Running through the field" },
+              { id: "d", text: "I like ice cream." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -441,12 +441,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Full stop (.)" },
+              { id: "a", text: "Question mark (?)" },
               { id: "b", text: "Comma (, )" },
-              { id: "c", text: "Question mark (?)" },
-              { id: "d", text: "Exclamation mark only (!)" },
+              { id: "c", text: "Exclamation mark only (!)" },
+              { id: "d", text: "Full stop (.)" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -534,12 +534,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "End a sentence" },
-              { id: "b", text: "Separate items in a list" },
-              { id: "c", text: "Ask a question" },
-              { id: "d", text: "Start a new paragraph" },
+              { id: "a", text: "Separate items in a list" },
+              { id: "b", text: "End a sentence" },
+              { id: "c", text: "Start a new paragraph" },
+              { id: "d", text: "Ask a question" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -580,9 +580,9 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Where is my hat?" },
-              { id: "b", text: "My hat is red." },
+              { id: "b", text: "The hat is on the chair." },
               { id: "c", text: "I have a hat." },
-              { id: "d", text: "The hat is on the chair." },
+              { id: "d", text: "My hat is red." },
             ],
             correctChoiceId: "a",
           },
@@ -663,11 +663,11 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Run" },
-              { id: "b", text: "Fluffy" },
-              { id: "c", text: "Quickly" },
-              { id: "d", text: "The" },
+              { id: "b", text: "The" },
+              { id: "c", text: "Fluffy" },
+              { id: "d", text: "Quickly" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -726,12 +726,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "After lunch, we played outside." },
-              { id: "b", text: "After, lunch we played outside." },
-              { id: "c", text: "After lunch we, played outside." },
-              { id: "d", text: "After lunch we played, outside." },
+              { id: "a", text: "After lunch we played, outside." },
+              { id: "b", text: "After lunch we, played outside." },
+              { id: "c", text: "After, lunch we played outside." },
+              { id: "d", text: "After lunch, we played outside." },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -753,11 +753,11 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "I like apples bananas and grapes." },
-              { id: "b", text: "I like apples, bananas, and grapes." },
-              { id: "c", text: "I like, apples bananas and grapes." },
-              { id: "d", text: "I like apples, bananas and grapes." },
+              { id: "b", text: "I like apples, bananas and grapes." },
+              { id: "c", text: "I like apples, bananas, and grapes." },
+              { id: "d", text: "I like, apples bananas and grapes." },
             ],
-            correctChoiceId: "d",
+            correctChoiceIb: "d",
           },
           markscheme: {
             principles: [

@@ -52,12 +52,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Attacking the argument's evidence" },
-              { id: "b", text: "Attacking the person making the argument rather than the argument itself" },
+              { id: "a", text: "Attacking the person making the argument rather than the argument itself" },
+              { id: "b", text: "Attacking the argument's evidence" },
               { id: "c", text: "Presenting two false options" },
               { id: "d", text: "Using too many statistics" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -152,12 +152,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Attacking the person making the argument" },
-              { id: "b", text: "Misrepresenting an opponent's argument to make it easier to defeat" },
-              { id: "c", text: "Presenting only two options when more exist" },
-              { id: "d", text: "Using weak evidence" },
+              { id: "a", text: "Using weak evidence" },
+              { id: "b", text: "Presenting only two options when more exist" },
+              { id: "c", text: "Attacking the person making the argument" },
+              { id: "d", text: "Misrepresenting an opponent's argument to make it easier to defeat" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -180,11 +180,11 @@ export const lesson43: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Ad hominem" },
-              { id: "b", text: "Straw man" },
-              { id: "c", text: "False dilemma" },
-              { id: "d", text: "Correlation/causation" },
+              { id: "b", text: "Correlation/causation" },
+              { id: "c", text: "Straw man" },
+              { id: "d", text: "False dilemma" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -206,12 +206,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Ad hominem attack" },
-              { id: "b", text: "Correlation mistaken for causation — a third factor (heat) explains both" },
-              { id: "c", text: "False dilemma" },
+              { id: "a", text: "False dilemma" },
+              { id: "b", text: "Ad hominem attack" },
+              { id: "c", text: "Correlation mistaken for causation — a third factor (heat) explains both" },
               { id: "d", text: "Straw man" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -233,12 +233,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Ad hominem — attacking the person rather than the plan" },
-              { id: "b", text: "Straw man" },
-              { id: "c", text: "False dilemma" },
+              { id: "a", text: "Straw man" },
+              { id: "b", text: "False dilemma" },
+              { id: "c", text: "Ad hominem — attacking the person rather than the plan" },
               { id: "d", text: "Appeal to evidence" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -260,12 +260,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Ad hominem" },
-              { id: "b", text: "False dilemma" },
-              { id: "c", text: "Straw man — the opponent's view is exaggerated into an easier target" },
-              { id: "d", text: "Correlation/causation" },
+              { id: "a", text: "Correlation/causation" },
+              { id: "b", text: "Ad hominem" },
+              { id: "c", text: "False dilemma" },
+              { id: "d", text: "Straw man — the opponent's view is exaggerated into an easier target" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -287,12 +287,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Because they use accurate statistics" },
-              { id: "b", text: "Because simplification and emotional tribal loyalty bypass careful reasoning" },
-              { id: "c", text: "Because they always cite experts" },
-              { id: "d", text: "Because they are hard to understand" },
+              { id: "a", text: "Because they are hard to understand" },
+              { id: "b", text: "Because they use accurate statistics" },
+              { id: "c", text: "Because simplification and emotional tribal loyalty bypass careful reasoning" },
+              { id: "d", text: "Because they always cite experts" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -492,12 +492,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Summarising a single text briefly" },
-              { id: "b", text: "Combining information from multiple sources into a coherent view" },
-              { id: "c", text: "Translating a text accurately" },
-              { id: "d", text: "Counting the arguments in a text" },
+              { id: "a", text: "Counting the arguments in a text" },
+              { id: "b", text: "Summarising a single text briefly" },
+              { id: "c", text: "Combining information from multiple sources into a coherent view" },
+              { id: "d", text: "Translating a text accurately" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -592,12 +592,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Repeating the writer's opinion accurately" },
-              { id: "b", text: "Weighing the text's claims against evidence and logic to reach a supported position" },
+              { id: "a", text: "Weighing the text's claims against evidence and logic to reach a supported position" },
+              { id: "b", text: "Rejecting every opinion in the text" },
               { id: "c", text: "Deciding whether you enjoyed it" },
-              { id: "d", text: "Rejecting every opinion in the text" },
+              { id: "d", text: "Repeating the writer's opinion accurately" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -619,12 +619,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Because enjoyment is never relevant" },
-              { id: "b", text: "Because it gives a reaction, not a judgement anchored in the text's reasoning and evidence" },
-              { id: "c", text: "Because it is too short" },
-              { id: "d", text: "Because essays must always disagree" },
+              { id: "a", text: "Because it gives a reaction, not a judgement anchored in the text's reasoning and evidence" },
+              { id: "b", text: "Because essays must always disagree" },
+              { id: "c", text: "Because enjoyment is never relevant" },
+              { id: "d", text: "Because it is too short" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -646,9 +646,9 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "That one source is always wrong" },
+              { id: "a", text: "That the topic has no truth" },
               { id: "b", text: "That bias, different evidence or different cultural frames may be at work" },
-              { id: "c", text: "That the topic has no truth" },
+              { id: "c", text: "That one source is always wrong" },
               { id: "d", text: "That both sources must be ignored" },
             ],
             correctChoiceId: "b",
@@ -673,12 +673,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Write your opinion immediately" },
-              { id: "b", text: "Identify the writer's claim and the evidence offered for it" },
+              { id: "a", text: "Identify the writer's claim and the evidence offered for it" },
+              { id: "b", text: "Write your opinion immediately" },
               { id: "c", text: "Count the number of paragraphs" },
               { id: "d", text: "Check the publication date only" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -700,12 +700,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The text was brilliant and perfect in every way" },
-              { id: "b", text: "The argument is persuasive but relies on one unnamed study and ignores cost concerns" },
-              { id: "c", text: "The text was boring and should not exist" },
-              { id: "d", text: "I agree with everything the writer says" },
+              { id: "a", text: "The text was boring and should not exist" },
+              { id: "b", text: "I agree with everything the writer says" },
+              { id: "c", text: "The argument is persuasive but relies on one unnamed study and ignores cost concerns" },
+              { id: "d", text: "The text was brilliant and perfect in every way" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -727,12 +727,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Because combining sources always proves them wrong" },
-              { id: "b", text: "Because agreements across sources strengthen confidence and divergences reveal what to question" },
-              { id: "c", text: "Because more sources means more words" },
-              { id: "d", text: "Because single sources are never accurate" },
+              { id: "a", text: "Because more sources means more words" },
+              { id: "b", text: "Because combining sources always proves them wrong" },
+              { id: "c", text: "Because single sources are never accurate" },
+              { id: "d", text: "Because agreements across sources strengthen confidence and divergences reveal what to question" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

@@ -51,12 +51,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Amino acid" },
-              { id: "b", text: "Glucose" },
-              { id: "c", text: "Glycerol" },
+              { id: "a", text: "Glucose" },
+              { id: "b", text: "Glycerol" },
+              { id: "c", text: "Amino acid" },
               { id: "d", text: "Fatty acid" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -138,6 +138,275 @@ export const lesson21: Lesson = {
             commonErrors: ["In (a) giving 'glucose' for all carbohydrates — monosaccharide is the class."],
           },
         },
+        {
+          id: "cieb-u2-biomolecules-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Which of the following is a monosaccharide?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Starch" },
+              { id: "b", text: "Sucrose" },
+              { id: "c", text: "Cellulose" },
+              { id: "d", text: "Glucose" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Monosaccharide", statement: "Simplest sugar — glucose, fructose." },
+            ],
+            steps: [
+              { reasoning: "Identify the simple sugar.", working: "\\text{glucose}", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** Glucose",
+            commonErrors: ["Choosing sucrose — that is a disaccharide."],
+          },
+        },
+        {
+          id: "cieb-u2-biomolecules-q6",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "The monomer of proteins is:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Fatty acid" },
+              { id: "b", text: "Monosaccharide" },
+              { id: "c", text: "Amino acid" },
+              { id: "d", text: "Glycerol" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Protein monomer", statement: "Proteins are polymers of amino acids." },
+            ],
+            steps: [
+              { reasoning: "Recall the monomer.", working: "\\text{amino acid}", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** Amino acid",
+            commonErrors: ["Choosing fatty acid — that is a lipid component."],
+          },
+        },
+        {
+          id: "cieb-u2-biomolecules-q7",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Glycogen is mainly found as an energy store in:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Plant cell walls" },
+              { id: "b", text: "Fungal spores only" },
+              { id: "c", text: "Cell membranes only" },
+              { id: "d", text: "Animal cells (e.g. liver and muscle)" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Glycogen", statement: "Highly branched animal/fungal glucose polymer — quick-release energy store." },
+            ],
+            steps: [
+              { reasoning: "Recall where glycogen is stored.", working: "\\text{animal cells}", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** Animal cells (e.g. liver and muscle)",
+            commonErrors: ["Choosing plant cell walls — that is cellulose's role."],
+          },
+        },
+        {
+          id: "cieb-u2-biomolecules-q8",
+          difficulty: "foundation",
+          totalMarks: 2,
+          stem: "State the components of a triglyceride molecule.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Triglyceride", statement: "Glycerol + three fatty acids." },
+            ],
+            steps: [
+              { reasoning: "Name glycerol.", working: "\\text{glycerol}", marks: 1, markCode: "M" },
+              { reasoning: "Name the fatty acids and their number.", working: "3 \\text{ fatty acids}", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "One glycerol molecule joined to three fatty acid molecules.",
+            commonErrors: ["Saying two fatty acids — that describes a phospholipid."],
+          },
+        },
+        {
+          id: "cieb-u2-biomolecules-q9",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "Explain why cellulose is strong enough to form plant cell walls.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Cellulose", statement: "Straight glucose chains linked by hydrogen bonds → strong fibres." },
+            ],
+            steps: [
+              { reasoning: "Cellulose is a polysaccharide of glucose.", working: "\\text{glucose polymer}", marks: 1, markCode: "M" },
+              { reasoning: "Chains are straight (not branched).", working: "\\text{straight chains}", marks: 1, markCode: "M" },
+              { reasoning: "Hydrogen bonds form between adjacent chains.", working: "\\text{H-bonds}", marks: 1, markCode: "M" },
+              { reasoning: "Result: strong fibres for cell walls.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "Cellulose is made of straight glucose chains that form hydrogen bonds between adjacent chains, creating strong fibres that give plant cell walls their rigidity.",
+            commonErrors: ["Saying cellulose is strong because it stores energy — it is structural, not an energy store."],
+          },
+        },
+        {
+          id: "cieb-u2-biomolecules-q10",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Amino acids in a protein chain are joined by which bond?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Hydrogen bond only" },
+              { id: "b", text: "Ionic bond" },
+              { id: "c", text: "Peptide bond" },
+              { id: "d", text: "Glycosidic bond" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Peptide bond", statement: "Covalent bond joining amino acids in proteins." },
+            ],
+            steps: [
+              { reasoning: "Recall the bond type.", working: "\\text{peptide bond}", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** Peptide bond",
+            commonErrors: ["Choosing glycosidic — that joins sugars in carbohydrates."],
+          },
+        },
+        {
+          id: "cieb-u2-biomolecules-q11",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "A protein chain contains 100 amino acids joined by peptide bonds. Calculate the number of peptide bonds in the chain.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 99, unit: "bonds" }],
+          },
+          markscheme: {
+            principles: [
+              { kind: "formula", name: "Peptide bonds", statement: "$n \\text{ amino acids} \\to (n-1) \\text{ peptide bonds}$" },
+            ],
+            steps: [
+              { reasoning: "Subtract one — the ends are not bonded to each other.", working: "100 - 1 = 99", marks: 1, markCode: "M" },
+              { reasoning: "State the answer.", working: "99 \\text{ bonds}", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "99 bonds",
+            commonErrors: ["Answering 100 — there are only n−1 bonds joining n amino acids."],
+          },
+        },
+        {
+          id: "cieb-u2-biomolecules-q12",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "How many fatty acid tails does a phospholipid molecule have?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 2, unit: "tails" }],
+          },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Phospholipid", statement: "Glycerol + 2 fatty acids + phosphate group." },
+            ],
+            steps: [
+              { reasoning: "Recall the structure.", working: "2 \\text{ fatty acid tails}", marks: 1, markCode: "M" },
+            ],
+            finalAnswer: "2 tails",
+            commonErrors: ["Answering 3 — three fatty acids make a triglyceride, not a phospholipid."],
+          },
+        },
+        {
+          id: "cieb-u2-biomolecules-q13",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "Describe the structure of a phospholipid molecule.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Phospholipid structure", statement: "Glycerol + 2 fatty acids + phosphate; hydrophilic head, hydrophobic tails." },
+            ],
+            steps: [
+              { reasoning: "Name the components.", working: "\\text{glycerol + 2 FA + phosphate}", marks: 1, markCode: "M" },
+              { reasoning: "Describe the head as hydrophilic.", working: "\\text{hydrophilic head}", marks: 1, markCode: "M" },
+              { reasoning: "Describe the tails as hydrophobic.", working: "\\text{hydrophobic tails}", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "A phospholipid has a glycerol backbone with two fatty acid tails and a phosphate-containing head; the head is hydrophilic and the tails are hydrophobic.",
+            commonErrors: ["Saying it has three fatty acids — that is a triglyceride."],
+          },
+        },
+        {
+          id: "cieb-u2-biomolecules-q14",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "Describe the four levels of protein structure.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Protein structure", statement: "Primary → secondary → tertiary → quaternary." },
+            ],
+            steps: [
+              { reasoning: "Primary: amino acid sequence.", working: "\\text{sequence}", marks: 1, markCode: "M" },
+              { reasoning: "Secondary: α-helix/β-sheet from H-bonds.", working: "\\alpha\\text{-helix}", marks: 1, markCode: "M" },
+              { reasoning: "Tertiary: 3D folded shape.", working: "\\text{3D fold}", marks: 1, markCode: "M" },
+              { reasoning: "Quaternary: multiple chains associated.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "Primary = amino acid sequence; secondary = α-helices/β-sheets stabilised by hydrogen bonds; tertiary = overall 3D folding; quaternary = several polypeptide chains associated together.",
+            commonErrors: ["Missing quaternary or confusing secondary with tertiary."],
+          },
+        },
+        {
+          id: "cieb-u2-biomolecules-q15",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Which polysaccharide forms the structural component of plant cell walls?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Cellulose" },
+              { id: "b", text: "Starch" },
+              { id: "c", text: "Glycogen" },
+              { id: "d", text: "Sucrose" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Cellulose", statement: "Structural polysaccharide of plant cell walls." },
+            ],
+            steps: [
+              { reasoning: "Recall the structural carbohydrate.", working: "\\text{cellulose}", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** Cellulose",
+            commonErrors: ["Choosing starch — starch is an energy store, not structural."],
+          },
+        },
+        {
+          id: "cieb-u2-biomolecules-q16",
+          difficulty: "challenge",
+          totalMarks: 2,
+          stem: "A cellulose chain contains 50 glucose units joined by glycosidic bonds. Calculate the number of glycosidic bonds in the chain.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 49, unit: "bonds" }],
+          },
+          markscheme: {
+            principles: [
+              { kind: "formula", name: "Glycosidic bonds", statement: "$n \\text{ units} \\to (n-1) \\text{ bonds}$" },
+            ],
+            steps: [
+              { reasoning: "Subtract one — ends are unbonded.", working: "50 - 1 = 49", marks: 1, markCode: "M" },
+              { reasoning: "State the answer.", working: "49 \\text{ bonds}", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "49 bonds",
+            commonErrors: ["Answering 50 — only n−1 bonds join n units."],
+          },
+        },
       ],
     },
     {
@@ -174,12 +443,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Iodine solution" },
-              { id: "b", text: "Benedict's solution" },
-              { id: "c", text: "Biuret reagent" },
-              { id: "d", text: "Ethanol" },
+              { id: "a", text: "Ethanol" },
+              { id: "b", text: "Biuret reagent" },
+              { id: "c", text: "Benedict's solution" },
+              { id: "d", text: "Iodine solution" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -260,6 +529,274 @@ export const lesson21: Lesson = {
             ],
             finalAnswer: "(a) Benedict's + heat → orange/red (b) ethanol emulsion → cloudy white (c) iodine → blue-black (d) control validates reagents and method",
             commonErrors: ["In (b) forgetting the water step that produces the emulsion."],
+          },
+        },
+        {
+          id: "cieb-u2-food-tests-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Which reagent is used to test for starch?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Biuret reagent" },
+              { id: "b", text: "Iodine solution" },
+              { id: "c", text: "Hydrochloric acid" },
+              { id: "d", text: "Benedict's solution" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Starch test", statement: "Iodine: brown → blue-black." },
+            ],
+            steps: [
+              { reasoning: "Recall the reagent.", working: "\\text{iodine}", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** Iodine solution",
+            commonErrors: ["Choosing Benedict's — that tests reducing sugars."],
+          },
+        },
+        {
+          id: "cieb-u2-food-tests-q6",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "A positive Benedict's test, after heating, gives:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "A blue to orange/red precipitate" },
+              { id: "b", text: "A cloudy white emulsion" },
+              { id: "c", text: "A brown to blue-black colour" },
+              { id: "d", text: "A blue to lilac colour" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Benedict's result", statement: "Blue → orange/red precipitate on heating with reducing sugar." },
+            ],
+            steps: [
+              { reasoning: "Recall the colour change.", working: "\\text{blue} \\to \\text{orange/red}", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** A blue to orange/red precipitate",
+            commonErrors: ["Choosing lilac — that is the Biuret protein test."],
+          },
+        },
+        {
+          id: "cieb-u2-food-tests-q7",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Which test is used to detect protein?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Benedict's without heating" },
+              { id: "b", text: "Biuret test (NaOH + CuSO₄)" },
+              { id: "c", text: "Ethanol emulsion test" },
+              { id: "d", text: "Iodine test" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Biuret test", statement: "Detects protein: blue → lilac/violet." },
+            ],
+            steps: [
+              { reasoning: "Recall the test for protein.", working: "\\text{Biuret}", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** Biuret test (NaOH + CuSO₄)",
+            commonErrors: ["Choosing iodine — that detects starch."],
+          },
+        },
+        {
+          id: "cieb-u2-food-tests-q8",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "Describe the ethanol emulsion test for lipid.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "technique", name: "Lipid test", statement: "Ethanol + shake + water → cloudy white emulsion." },
+            ],
+            steps: [
+              { reasoning: "Add ethanol and shake the sample.", working: "\\text{ethanol + shake}", marks: 1, markCode: "M" },
+              { reasoning: "Add water → cloudy white emulsion if lipid present.", working: "\\text{water} \\to \\text{emulsion}", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "Add ethanol to the sample and shake, then add water; a cloudy white emulsion forms if lipid is present.",
+            commonErrors: ["Forgetting the water step — the emulsion only forms when water is added."],
+          },
+        },
+        {
+          id: "cieb-u2-food-tests-q9",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "Explain why a food sample containing carbohydrate might still give a negative result with Benedict's solution.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Benedict's limitations", statement: "Detects reducing sugars only and needs heating." },
+            ],
+            steps: [
+              { reasoning: "The carbohydrate may be a non-reducing sugar (e.g. sucrose).", working: "\\text{non-reducing sugar}", marks: 1, markCode: "M" },
+              { reasoning: "Or it may be starch, which needs the iodine test instead.", working: "\\text{starch}", marks: 1, markCode: "M" },
+              { reasoning: "Benedict's must be heated — cold test stays blue.", working: "\\text{heating required}", marks: 1, markCode: "M" },
+              { reasoning: "Conclude: negative Benedict's does not rule out all carbohydrate.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "Benedict's only detects reducing sugars and needs heating; sucrose is non-reducing and starch is not a sugar at all — so a carbohydrate-containing food can still test negative with Benedict's.",
+            commonErrors: ["Saying Benedict's detects 'all sugars' — it misses non-reducing sugars."],
+          },
+        },
+        {
+          id: "cieb-u2-food-tests-q10",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Which food test requires the mixture to be heated?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Iodine test" },
+              { id: "b", text: "Ethanol emulsion test" },
+              { id: "c", text: "Benedict's test" },
+              { id: "d", text: "Biuret test" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Benedict's", statement: "The reduction reaction only occurs on heating." },
+            ],
+            steps: [
+              { reasoning: "Recall which test needs heat.", working: "\\text{Benedict's}", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** Benedict's test",
+            commonErrors: ["Choosing Biuret — it is done at room temperature."],
+          },
+        },
+        {
+          id: "cieb-u2-food-tests-q11",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "A student tests 20 food samples for protein. 12 give a positive Biuret result. Calculate the percentage of samples containing protein.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 60, unit: "%" }],
+          },
+          markscheme: {
+            principles: [
+              { kind: "formula", name: "Percentage", statement: "$\\frac{12}{20} \\times 100 = 60\\%$" },
+            ],
+            steps: [
+              { reasoning: "Divide positives by total and convert to percentage.", working: "\\frac{12}{20} \\times 100 = 60", marks: 1, markCode: "M" },
+              { reasoning: "State the answer.", working: "60\\%", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "60%",
+            commonErrors: ["Forgetting to multiply by 100 — giving 0.6."],
+          },
+        },
+        {
+          id: "cieb-u2-food-tests-q12",
+          difficulty: "challenge",
+          totalMarks: 3,
+          stem: "An unknown food sample turns blue-black with iodine but shows no colour change with Benedict's, even after heating. Identify which molecules are present and which are absent.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Test interpretation", statement: "Iodine blue-black = starch; Benedict's negative = no reducing sugar." },
+            ],
+            steps: [
+              { reasoning: "Iodine result → starch present.", working: "\\text{starch present}", marks: 1, markCode: "M" },
+              { reasoning: "Benedict's negative → no reducing sugar present.", working: "\\text{no reducing sugar}", marks: 1, markCode: "M" },
+              { reasoning: "State both conclusions clearly.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "Starch is present (iodine turned blue-black); reducing sugar is absent (Benedict's stayed blue even after heating).",
+            commonErrors: ["Claiming 'no carbohydrate' — starch is a carbohydrate that Benedict's cannot detect."],
+          },
+        },
+        {
+          id: "cieb-u2-food-tests-q13",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "The positive result of the ethanol emulsion test for lipid is:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "A lilac colour" },
+              { id: "b", text: "A clear blue solution" },
+              { id: "c", text: "A cloudy white emulsion" },
+              { id: "d", text: "A blue-black colour" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Lipid test", statement: "Positive = cloudy white emulsion." },
+            ],
+            steps: [
+              { reasoning: "Recall the positive result.", working: "\\text{cloudy white emulsion}", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** A cloudy white emulsion",
+            commonErrors: ["Choosing lilac — that is protein."],
+          },
+        },
+        {
+          id: "cieb-u2-food-tests-q14",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "State why a control sample should be tested alongside an unknown food sample.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "technique", name: "Control", statement: "Verifies the reagent and method are working correctly." },
+            ],
+            steps: [
+              { reasoning: "It confirms the reagent is fresh/working.", working: "\\text{reagent validity}", marks: 1, markCode: "M" },
+              { reasoning: "It shows the result is due to the sample, not an error.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "A control (known positive/negative) confirms the reagent is working and the method is correct, so any colour change in the unknown can be trusted as a real result.",
+            commonErrors: ["Saying the control 'adds accuracy to the sample' — it validates the test itself."],
+          },
+        },
+        {
+          id: "cieb-u2-food-tests-q15",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "A student tests 5 food samples for lipid using the ethanol emulsion test. 4 give a positive result. Calculate the percentage of samples containing lipid.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 80, unit: "%" }],
+          },
+          markscheme: {
+            principles: [
+              { kind: "formula", name: "Percentage", statement: "$\\frac{4}{5} \\times 100 = 80\\%$" },
+            ],
+            steps: [
+              { reasoning: "Divide positives by total and convert to percentage.", working: "\\frac{4}{5} \\times 100 = 80", marks: 1, markCode: "M" },
+              { reasoning: "State the answer.", working: "80\\%", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "80%",
+            commonErrors: ["Giving 0.8 instead of 80%."],
+          },
+        },
+        {
+          id: "cieb-u2-food-tests-q16",
+          difficulty: "challenge",
+          totalMarks: 2,
+          stem: "In a class survey, 36 out of 48 samples give a positive Benedict's test. Calculate the percentage of samples containing reducing sugar.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 75, unit: "%" }],
+          },
+          markscheme: {
+            principles: [
+              { kind: "formula", name: "Percentage", statement: "$\\frac{36}{48} \\times 100 = 75\\%$" },
+            ],
+            steps: [
+              { reasoning: "Divide positives by total and convert to percentage.", working: "\\frac{36}{48} \\times 100 = 75", marks: 1, markCode: "M" },
+              { reasoning: "State the answer.", working: "75\\%", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "75%",
+            commonErrors: ["Forgetting ×100 or simplifying the fraction incorrectly."],
           },
         },
       ],

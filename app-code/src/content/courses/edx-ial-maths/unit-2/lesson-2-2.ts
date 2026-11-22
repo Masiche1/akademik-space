@@ -55,11 +55,11 @@ export const lesson22: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$36$" },
-              { id: "b", text: "$40$" },
-              { id: "c", text: "$41$" },
-              { id: "d", text: "$45$" },
+              { id: "b", text: "$41$" },
+              { id: "c", text: "$45$" },
+              { id: "d", text: "$40$" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -188,12 +188,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$5$" },
+              { id: "a", text: "$\\log_2 12$" },
               { id: "b", text: "$6$" },
               { id: "c", text: "$12$" },
-              { id: "d", text: "$\\log_2 12$" },
+              { id: "d", text: "$5$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

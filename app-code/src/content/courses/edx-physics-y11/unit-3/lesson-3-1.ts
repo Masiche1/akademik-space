@@ -51,9 +51,9 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Alpha" },
-              { id: "b", text: "Beta" },
+              { id: "b", text: "They are all equally ionising" },
               { id: "c", text: "Gamma" },
-              { id: "d", text: "They are all equally ionising" },
+              { id: "d", text: "Beta" },
             ],
             correctChoiceId: "a",
           },
@@ -191,12 +191,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Mass number decreases by 4 and atomic number decreases by 4" },
-              { id: "b", text: "Mass number decreases by 4 and atomic number decreases by 2" },
-              { id: "c", text: "Mass number is unchanged and atomic number increases by 1" },
-              { id: "d", text: "Mass number decreases by 2 and atomic number decreases by 4" },
+              { id: "a", text: "Mass number decreases by 4 and atomic number decreases by 2" },
+              { id: "b", text: "Mass number decreases by 2 and atomic number decreases by 4" },
+              { id: "c", text: "Mass number decreases by 4 and atomic number decreases by 4" },
+              { id: "d", text: "Mass number is unchanged and atomic number increases by 1" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

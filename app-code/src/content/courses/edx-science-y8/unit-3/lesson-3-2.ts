@@ -50,12 +50,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Kinetic to gravitational potential" },
-              { id: "b", text: "Gravitational potential to kinetic" },
-              { id: "c", text: "Chemical to thermal" },
+              { id: "a", text: "Chemical to thermal" },
+              { id: "b", text: "Kinetic to gravitational potential" },
+              { id: "c", text: "Gravitational potential to kinetic" },
               { id: "d", text: "Elastic potential to kinetic" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -185,12 +185,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "one joule" },
-              { id: "b", text: "one joule per second" },
+              { id: "a", text: "one joule per second" },
+              { id: "b", text: "one second per joule" },
               { id: "c", text: "one newton" },
-              { id: "d", text: "one second per joule" },
+              { id: "d", text: "one joule" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

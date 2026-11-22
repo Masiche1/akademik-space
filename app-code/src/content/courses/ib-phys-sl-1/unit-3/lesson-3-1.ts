@@ -54,10 +54,10 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$0$ °C" },
+              { id: "a", text: "$-459$ °C" },
               { id: "b", text: "$-273$ °C" },
-              { id: "c", text: "$273$ °C" },
-              { id: "d", text: "$-459$ °C" },
+              { id: "c", text: "$0$ °C" },
+              { id: "d", text: "$273$ °C" },
             ],
             correctChoiceId: "b",
           },
@@ -81,9 +81,9 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$300$ K" },
-              { id: "b", text: "$246$ K" },
-              { id: "c", text: "$27$ K" },
-              { id: "d", text: "$327$ K" },
+              { id: "b", text: "$27$ K" },
+              { id: "c", text: "$327$ K" },
+              { id: "d", text: "$246$ K" },
             ],
             correctChoiceId: "a",
           },
@@ -107,12 +107,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$336$ kJ" },
-              { id: "b", text: "$84$ kJ" },
-              { id: "c", text: "$168$ kJ" },
+              { id: "a", text: "$84$ kJ" },
+              { id: "b", text: "$168$ kJ" },
+              { id: "c", text: "$336$ kJ" },
               { id: "d", text: "$672$ kJ" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Q = mcΔT", statement: "Q = mc\\Delta T" }],
@@ -168,12 +168,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$400$ K" },
+              { id: "a", text: "$-146$ K" },
               { id: "b", text: "$154$ K" },
-              { id: "c", text: "$127$ K" },
-              { id: "d", text: "$-146$ K" },
+              { id: "c", text: "$400$ K" },
+              { id: "d", text: "$127$ K" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "T = θ + 273", statement: "T/K = \\theta/^{\\circ}\\text{C} + 273" }],
@@ -195,12 +195,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Increase the average kinetic energy of the particles" },
-              { id: "b", text: "Increase the potential energy of the particles" },
-              { id: "c", text: "Raise the temperature of the ice" },
-              { id: "d", text: "Increase the pressure of the ice" },
+              { id: "a", text: "Increase the pressure of the ice" },
+              { id: "b", text: "Raise the temperature of the ice" },
+              { id: "c", text: "Increase the potential energy of the particles" },
+              { id: "d", text: "Increase the average kinetic energy of the particles" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Phase change", statement: "During melting, added energy breaks intermolecular bonds, changing potential energy while temperature stays constant." }],
@@ -222,12 +222,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$95$ K" },
-              { id: "b", text: "$63$ K" },
-              { id: "c", text: "$190$ K" },
-              { id: "d", text: "$14$ K" },
+              { id: "a", text: "$190$ K" },
+              { id: "b", text: "$95$ K" },
+              { id: "c", text: "$14$ K" },
+              { id: "d", text: "$63$ K" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "E = Pt and Q = mcΔT", statement: "E = Pt\\ ;\\ \\Delta T = \\frac{E}{mc}" }],
@@ -249,12 +249,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Block X undergoes a larger temperature rise" },
-              { id: "b", text: "Block Y undergoes a larger temperature rise" },
-              { id: "c", text: "Both undergo the same temperature rise" },
-              { id: "d", text: "It cannot be determined without knowing the mass" },
+              { id: "a", text: "It cannot be determined without knowing the mass" },
+              { id: "b", text: "Both undergo the same temperature rise" },
+              { id: "c", text: "Block X undergoes a larger temperature rise" },
+              { id: "d", text: "Block Y undergoes a larger temperature rise" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Q = mcΔT", statement: "\\Delta T = \\frac{Q}{mc}\\ \\text{is inversely proportional to}\\ c" }],
@@ -276,12 +276,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$377$ s" },
-              { id: "b", text: "$754$ s" },
+              { id: "a", text: "$754$ s" },
+              { id: "b", text: "$377$ s" },
               { id: "c", text: "$188$ s" },
               { id: "d", text: "$42$ s" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Q = mL and t = E/P", statement: "Q = mL_v\\ ;\\ t = \\frac{Q}{P}" }],
@@ -494,12 +494,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Rises steadily" },
-              { id: "b", text: "Stays constant" },
+              { id: "a", text: "Stays constant" },
+              { id: "b", text: "Rises steadily" },
               { id: "c", text: "Falls steadily" },
               { id: "d", text: "Doubles" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Latent heat", statement: "During a phase change temperature is constant while energy breaks bonds." }],
@@ -520,12 +520,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$1.67 \\times 10^5$ J" },
-              { id: "b", text: "$3.34 \\times 10^5$ J" },
-              { id: "c", text: "$8.35 \\times 10^4$ J" },
-              { id: "d", text: "$6.68 \\times 10^5$ J" },
+              { id: "a", text: "$3.34 \\times 10^5$ J" },
+              { id: "b", text: "$8.35 \\times 10^4$ J" },
+              { id: "c", text: "$6.68 \\times 10^5$ J" },
+              { id: "d", text: "$1.67 \\times 10^5$ J" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Q = mL", statement: "Q = mL" }],
@@ -548,9 +548,9 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$2.26 \\times 10^5$ J" },
-              { id: "b", text: "$4.20 \\times 10^4$ J" },
+              { id: "b", text: "$4.23 \\times 10^4$ J" },
               { id: "c", text: "$2.26 \\times 10^6$ J" },
-              { id: "d", text: "$4.23 \\times 10^4$ J" },
+              { id: "d", text: "$4.20 \\times 10^4$ J" },
             ],
             correctChoiceId: "a",
           },
@@ -607,9 +607,9 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Rises steadily" },
+              { id: "a", text: "Falls steadily" },
               { id: "b", text: "Stays constant" },
-              { id: "c", text: "Falls steadily" },
+              { id: "c", text: "Rises steadily" },
               { id: "d", text: "Doubles" },
             ],
             correctChoiceId: "b",
@@ -633,12 +633,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$8.35 \\times 10^4$ J" },
+              { id: "a", text: "$6.68 \\times 10^4$ J" },
               { id: "b", text: "$3.34 \\times 10^5$ J" },
               { id: "c", text: "$1.34 \\times 10^5$ J" },
-              { id: "d", text: "$6.68 \\times 10^4$ J" },
+              { id: "d", text: "$8.35 \\times 10^4$ J" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Q = mL", statement: "Q = mL_f for freezing." }],
@@ -660,12 +660,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Vaporising $1$ kg of water requires much more energy than melting $1$ kg of ice" },
-              { id: "b", text: "Melting $1$ kg of ice requires more energy than vaporising $1$ kg of water" },
-              { id: "c", text: "Melting and vaporising equal masses require the same energy" },
-              { id: "d", text: "$L_f$ applies only to solids while $L_v$ applies only to liquids" },
+              { id: "a", text: "Melting $1$ kg of ice requires more energy than vaporising $1$ kg of water" },
+              { id: "b", text: "Vaporising $1$ kg of water requires much more energy than melting $1$ kg of ice" },
+              { id: "c", text: "$L_f$ applies only to solids while $L_v$ applies only to liquids" },
+              { id: "d", text: "Melting and vaporising equal masses require the same energy" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Latent heats of water", statement: "$L_f = 3.34 \\times 10^5$ J/kg, $L_v = 2.26 \\times 10^6$ J/kg; $L_v \\gg L_f$ because molecules must be fully separated." }],
@@ -688,11 +688,11 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Steady temperature rise of the substance" },
-              { id: "b", text: "Phase changes occurring at constant temperature" },
-              { id: "c", text: "Cooling of the substance" },
+              { id: "b", text: "Cooling of the substance" },
+              { id: "c", text: "Phase changes occurring at constant temperature" },
               { id: "d", text: "Changes in the pressure of the substance" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Heating curve", statement: "Sloped sections are temperature changes ($Q = mc\\Delta T$); flat sections are phase changes ($Q = mL$)." }],
@@ -857,11 +857,11 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Melting of ice" },
-              { id: "b", text: "Boiling of water" },
-              { id: "c", text: "Condensation of steam" },
-              { id: "d", text: "Evaporation of water" },
+              { id: "b", text: "Condensation of steam" },
+              { id: "c", text: "Evaporation of water" },
+              { id: "d", text: "Boiling of water" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Sign of latent heat", statement: "Melting, boiling and evaporation absorb energy; freezing and condensation release energy." }],

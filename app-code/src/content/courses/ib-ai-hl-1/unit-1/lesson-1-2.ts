@@ -79,10 +79,10 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$14$" },
+              { id: "a", text: "$12$" },
               { id: "b", text: "$10$" },
               { id: "c", text: "$-10$" },
-              { id: "d", text: "$12$" },
+              { id: "d", text: "$14$" },
             ],
             correctChoiceId: "b",
           },
@@ -361,12 +361,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$13$" },
+              { id: "a", text: "$-13$" },
               { id: "b", text: "$17$" },
-              { id: "c", text: "$-13$" },
-              { id: "d", text: "$11$" },
+              { id: "c", text: "$11$" },
+              { id: "d", text: "$13$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -405,12 +405,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$2\\times4$" },
-              { id: "b", text: "$3\\times3$" },
-              { id: "c", text: "$2\\times3$" },
-              { id: "d", text: "The product does not exist" },
+              { id: "a", text: "$2\\times3$" },
+              { id: "b", text: "$2\\times4$" },
+              { id: "c", text: "The product does not exist" },
+              { id: "d", text: "$3\\times3$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -451,12 +451,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$2$" },
-              { id: "b", text: "$-2$" },
-              { id: "c", text: "$-1$" },
-              { id: "d", text: "$10$" },
+              { id: "a", text: "$-2$" },
+              { id: "b", text: "$10$" },
+              { id: "c", text: "$2$" },
+              { id: "d", text: "$-1$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -844,12 +844,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$BA^{-1}$" },
-              { id: "b", text: "$A^{-1}B$" },
-              { id: "c", text: "$B/A$" },
-              { id: "d", text: "$AB^{-1}$" },
+              { id: "a", text: "$B/A$" },
+              { id: "b", text: "$AB^{-1}$" },
+              { id: "c", text: "$BA^{-1}$" },
+              { id: "d", text: "$A^{-1}B$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1140,10 +1140,10 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "No solution" },
+              { id: "a", text: "It depends on $B$" },
               { id: "b", text: "Infinitely many solutions" },
               { id: "c", text: "Exactly one solution" },
-              { id: "d", text: "It depends on $B$" },
+              { id: "d", text: "No solution" },
             ],
             correctChoiceId: "c",
           },
@@ -1186,12 +1186,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$2$" },
-              { id: "b", text: "$3$" },
-              { id: "c", text: "$4$" },
-              { id: "d", text: "$1$" },
+              { id: "a", text: "$4$" },
+              { id: "b", text: "$1$" },
+              { id: "c", text: "$2$" },
+              { id: "d", text: "$3$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1231,12 +1231,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$1$" },
-              { id: "b", text: "$2$" },
+              { id: "a", text: "$2$" },
+              { id: "b", text: "$1$" },
               { id: "c", text: "$3$" },
               { id: "d", text: "$4$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

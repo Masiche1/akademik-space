@@ -34,18 +34,42 @@ export const lesson23: Lesson = {
   goal: "I CAN delineate and evaluate an argument, identify fallacious reasoning, and analyze themes and concepts in seminal U.S. documents and speeches.",
   standards: ["RI.9-10.8", "RI.9-10.9"],
   vocabulary: [
-    { term: "Valid reasoning", definition: "Reasoning in which the conclusion follows logically from the evidence and premises offered." },
-    { term: "Fallacy", definition: "An error in reasoning that makes an argument seem stronger than it is." },
-    { term: "Ad hominem", definition: "A fallacy that attacks the person making an argument instead of the argument itself." },
-    { term: "Hasty generalization", definition: "A conclusion drawn from too few or unrepresentative examples." },
-    { term: "Seminal document", definition: "A foundational text that shaped a nation's ideas, laws, or history." },
-    { term: "Proposition", definition: "A statement or principle put forward for acceptance." },
+    {
+      term: "Valid reasoning",
+      definition:
+        "Reasoning in which the conclusion follows logically from the evidence and premises offered.",
+    },
+    {
+      term: "Fallacy",
+      definition:
+        "An error in reasoning that makes an argument seem stronger than it is.",
+    },
+    {
+      term: "Ad hominem",
+      definition:
+        "A fallacy that attacks the person making an argument instead of the argument itself.",
+    },
+    {
+      term: "Hasty generalization",
+      definition:
+        "A conclusion drawn from too few or unrepresentative examples.",
+    },
+    {
+      term: "Seminal document",
+      definition:
+        "A foundational text that shaped a nation's ideas, laws, or history.",
+    },
+    {
+      term: "Proposition",
+      definition: "A statement or principle put forward for acceptance.",
+    },
   ],
   concepts: [
     {
       id: "ela9-u2-evaluating-arguments",
       title: "Evaluating arguments and fallacies",
-      skill: "Delineate and evaluate an argument and its specific claims, assessing whether the reasoning is valid and the evidence relevant and sufficient, and identify false statements and fallacious reasoning.",
+      skill:
+        "Delineate and evaluate an argument and its specific claims, assessing whether the reasoning is valid and the evidence relevant and sufficient, and identify false statements and fallacious reasoning.",
       lesson: {
         sections: [
           {
@@ -62,13 +86,27 @@ export const lesson23: Lesson = {
           },
         ],
         keyFormulas: [
-          { name: "Relevant and sufficient", statement: "Relevant: connects to the claim. Sufficient: enough evidence from enough cases." },
-          { name: "Valid reasoning", statement: "The conclusion follows logically from the reasons and evidence." },
-          { name: "Fallacy", statement: "Flawed reasoning; name it, quote it, explain why the conclusion does not follow." },
+          {
+            name: "Relevant and sufficient",
+            statement:
+              "Relevant: connects to the claim. Sufficient: enough evidence from enough cases.",
+          },
+          {
+            name: "Valid reasoning",
+            statement:
+              "The conclusion follows logically from the reasons and evidence.",
+          },
+          {
+            name: "Fallacy",
+            statement:
+              "Flawed reasoning; name it, quote it, explain why the conclusion does not follow.",
+          },
         ],
         workedExample: {
-          problem: "Identify and explain one fallacy in paragraph 3 of 'Close the Roads to Cars on Saturdays'. (3 marks)",
-          solution: "Paragraph 3 uses a slippery slope: 'If we allow even one Saturday closure, soon the council will ban cars entirely, and then no one will be able to get to work.' The author offers no evidence that one closure leads to a total ban, so the chain of events is only assumed. The paragraph also contains a false dilemma: 'We must either close the street every week or accept traffic jams forever'. These are not the only options, so the reasoning is not valid.",
+          problem:
+            "Identify and explain one fallacy in paragraph 3 of 'Close the Roads to Cars on Saturdays'. (3 marks)",
+          solution:
+            "Paragraph 3 uses a slippery slope: 'If we allow even one Saturday closure, soon the council will ban cars entirely, and then no one will be able to get to work.' The author offers no evidence that one closure leads to a total ban, so the chain of events is only assumed. The paragraph also contains a false dilemma: 'We must either close the street every week or accept traffic jams forever'. These are not the only options, so the reasoning is not valid.",
         },
       },
       questions: [
@@ -81,18 +119,35 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Slippery slope" },
-              { id: "b", text: "Ad hominem" },
-              { id: "c", text: "Bandwagon" },
-              { id: "d", text: "Circular reasoning" },
+              { id: "a", text: "Bandwagon" },
+              { id: "b", text: "Slippery slope" },
+              { id: "c", text: "Circular reasoning" },
+              { id: "d", text: "Ad hominem" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
-            principles: [{ kind: "definition", name: "Ad hominem", statement: "Attacks the person instead of the argument." }],
-            steps: [{ reasoning: "The sentence criticizes the councilor's personal record instead of answering her argument.", evidence: "has been late with her own taxes", marks: 1, markCode: "AO1" }],
-            finalAnswer: "**(b)** The councilor's taxes have nothing to do with whether closures are a good idea.",
-            commonErrors: ["Choosing bandwagon because of 'everyone knows' elsewhere in the text; that is a different sentence."],
+            principles: [
+              {
+                kind: "definition",
+                name: "Ad hominem",
+                statement: "Attacks the person instead of the argument.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "The sentence criticizes the councilor's personal record instead of answering her argument.",
+                evidence: "has been late with her own taxes",
+                marks: 1,
+                markCode: "AO1",
+              },
+            ],
+            finalAnswer:
+              "**(b)** The councilor's taxes have nothing to do with whether closures are a good idea.",
+            commonErrors: [
+              "Choosing bandwagon because of 'everyone knows' elsewhere in the text; that is a different sentence.",
+            ],
           },
         },
         {
@@ -104,21 +159,51 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It uses an emotional appeal rather than facts." },
-              { id: "b", text: "It assumes one case guarantees the same result here without considering differences between the cities." },
-              { id: "c", text: "It attacks the people in the neighboring city." },
-              { id: "d", text: "It is a rhetorical question." },
+              {
+                id: "a",
+                text: "It uses an emotional appeal rather than facts.",
+              },
+              {
+                id: "b",
+                text: "It assumes one case guarantees the same result here without considering differences between the cities.",
+              },
+              { id: "c", text: "It is a rhetorical question." },
+              {
+                id: "d",
+                text: "It attacks the people in the neighboring city.",
+              },
             ],
             correctChoiceId: "b",
           },
           markscheme: {
-            principles: [{ kind: "skill", name: "Sufficiency", statement: "One example, or an example from a different context, cannot guarantee a result elsewhere." }],
-            steps: [
-              { reasoning: "The conclusion rests on a single case.", evidence: "a success in the neighboring city", marks: 1, markCode: "AO1" },
-              { reasoning: "The word 'certainly' overstates what that one case can prove.", evidence: "it will certainly succeed here", marks: 1, markCode: "AO1" },
+            principles: [
+              {
+                kind: "skill",
+                name: "Sufficiency",
+                statement:
+                  "One example, or an example from a different context, cannot guarantee a result elsewhere.",
+              },
             ],
-            finalAnswer: "**(b)** The statement generalizes from one neighboring city to a certain result here. Sweeping words like 'certainly' claim more than the evidence supports.",
-            commonErrors: ["Choosing (a); the sentence offers a comparison, not an emotional appeal."],
+            steps: [
+              {
+                reasoning: "The conclusion rests on a single case.",
+                evidence: "a success in the neighboring city",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                reasoning:
+                  "The word 'certainly' overstates what that one case can prove.",
+                evidence: "it will certainly succeed here",
+                marks: 1,
+                markCode: "AO1",
+              },
+            ],
+            finalAnswer:
+              "**(b)** The statement generalizes from one neighboring city to a certain result here. Sweeping words like 'certainly' claim more than the evidence supports.",
+            commonErrors: [
+              "Choosing (a); the sentence offers a comparison, not an emotional appeal.",
+            ],
           },
         },
         {
@@ -130,17 +215,52 @@ export const lesson23: Lesson = {
           response: { type: "open" },
           markscheme: {
             principles: [
-              { kind: "skill", name: "Unsupported claims", statement: "A statement presented as obvious fact still needs evidence." },
-              { kind: "skill", name: "Naming fallacies", statement: "Name the fallacy, quote it, and explain why the conclusion does not follow." },
+              {
+                kind: "skill",
+                name: "Unsupported claims",
+                statement:
+                  "A statement presented as obvious fact still needs evidence.",
+              },
+              {
+                kind: "skill",
+                name: "Naming fallacies",
+                statement:
+                  "Name the fallacy, quote it, and explain why the conclusion does not follow.",
+              },
             ],
             steps: [
-              { reasoning: "Bandwagon and unsupported claim: 'everyone knows' and 'nobody can disagree' replace evidence with claimed agreement, and the sweeping statement that cars are bad is not supported.", evidence: "Nobody can seriously disagree, because everyone knows that cars are bad for cities", marks: 2, markCode: "AO1" },
-              { reasoning: "Ad hominem: the councilor's tax record is irrelevant to her argument, so ignoring her views is not justified.", evidence: "has been late with her own taxes, so her views should be ignored", marks: 2, markCode: "AO1" },
-              { reasoning: "The sales figure is relevant and specific, but it comes from only three cities and from a retailers' association with an interest in sales, so it is limited in sufficiency and neutrality.", evidence: "retail sales on the closed streets rose by an average of eight percent", marks: 2, markCode: "AO1" },
+              {
+                reasoning:
+                  "Bandwagon and unsupported claim: 'everyone knows' and 'nobody can disagree' replace evidence with claimed agreement, and the sweeping statement that cars are bad is not supported.",
+                evidence:
+                  "Nobody can seriously disagree, because everyone knows that cars are bad for cities",
+                marks: 2,
+                markCode: "AO1",
+              },
+              {
+                reasoning:
+                  "Ad hominem: the councilor's tax record is irrelevant to her argument, so ignoring her views is not justified.",
+                evidence:
+                  "has been late with her own taxes, so her views should be ignored",
+                marks: 2,
+                markCode: "AO1",
+              },
+              {
+                reasoning:
+                  "The sales figure is relevant and specific, but it comes from only three cities and from a retailers' association with an interest in sales, so it is limited in sufficiency and neutrality.",
+                evidence:
+                  "retail sales on the closed streets rose by an average of eight percent",
+                marks: 2,
+                markCode: "AO1",
+              },
             ],
             levels: rubric(6, [5, 3, 2]),
-            finalAnswer: "Paragraph 1 relies on the bandwagon fallacy and an unsupported claim: 'Nobody can seriously disagree, because everyone knows' replaces evidence with a claim of agreement. Paragraph 2 contains a relevant statistic, an eight percent rise in sales in three cities, but the source is a retailers' association and the sample is small. It then commits an ad hominem fallacy by dismissing a councilor because she was late with her taxes, which has nothing to do with her argument.",
-            commonErrors: ["Naming a fallacy without quoting or explaining it.", "Rejecting all the evidence rather than judging which is relevant and which is not."],
+            finalAnswer:
+              "Paragraph 1 relies on the bandwagon fallacy and an unsupported claim: 'Nobody can seriously disagree, because everyone knows' replaces evidence with a claim of agreement. Paragraph 2 contains a relevant statistic, an eight percent rise in sales in three cities, but the source is a retailers' association and the sample is small. It then commits an ad hominem fallacy by dismissing a councilor because she was late with her taxes, which has nothing to do with her argument.",
+            commonErrors: [
+              "Naming a fallacy without quoting or explaining it.",
+              "Rejecting all the evidence rather than judging which is relevant and which is not.",
+            ],
           },
         },
         {
@@ -150,34 +270,157 @@ export const lesson23: Lesson = {
           extract: RAIL,
           stem: "Answer all parts of this question about 'A Case for Rebuilding the Rail Line'.",
           parts: [
-            { label: "a", prompt: "State the author's central claim and write down one reason given in support.", marks: 2 },
-            { label: "b", prompt: "Explain how the author uses evidence from the state transportation department.", marks: 4 },
-            { label: "c", prompt: "Analyze how the author deals with the concern about building costs in paragraph 3.", marks: 6 },
-            { label: "d", prompt: "Evaluate the argument as a whole. Is the reasoning valid and the evidence relevant and sufficient? Identify any weaknesses.", marks: 8 },
+            {
+              label: "a",
+              prompt:
+                "State the author's central claim and write down one reason given in support.",
+              marks: 2,
+            },
+            {
+              label: "b",
+              prompt:
+                "Explain how the author uses evidence from the state transportation department.",
+              marks: 4,
+            },
+            {
+              label: "c",
+              prompt:
+                "Analyze how the author deals with the concern about building costs in paragraph 3.",
+              marks: 6,
+            },
+            {
+              label: "d",
+              prompt:
+                "Evaluate the argument as a whole. Is the reasoning valid and the evidence relevant and sufficient? Identify any weaknesses.",
+              marks: 8,
+            },
           ],
           response: { type: "open" },
           markscheme: {
             principles: [
-              { kind: "skill", name: "Delineating an argument", statement: "Separate the claim, reasons, evidence, and counterclaims." },
-              { kind: "technique", name: "Counterclaim and rebuttal", statement: "Concede a fair point, then answer it with evidence." },
-              { kind: "skill", name: "Evaluating evidence", statement: "Judge relevance, sufficiency, and credibility of sources." },
+              {
+                kind: "skill",
+                name: "Delineating an argument",
+                statement:
+                  "Separate the claim, reasons, evidence, and counterclaims.",
+              },
+              {
+                kind: "technique",
+                name: "Counterclaim and rebuttal",
+                statement:
+                  "Concede a fair point, then answer it with evidence.",
+              },
+              {
+                kind: "skill",
+                name: "Evaluating evidence",
+                statement:
+                  "Judge relevance, sufficiency, and credibility of sources.",
+              },
             ],
             steps: [
-              { part: "a", reasoning: "The claim is that the county should rebuild the old rail line to the coast.", evidence: "Our county should rebuild the old rail line to the coast", marks: 1, markCode: "AO1" },
-              { part: "a", reasoning: "One reason: it would cut travel time (or reduce commuter costs).", evidence: "it would cut travel time", marks: 1, markCode: "AO1" },
-              { part: "b", reasoning: "The study provides specific figures comparing train and car travel times, which make the claim concrete and testable.", evidence: "55 minutes by train, compared with 90 minutes by car", marks: 2, markCode: "AO2" },
-              { part: "b", reasoning: "The same credible source supports the cost reason, with a relative comparison that strengthens its reliability and consistency.", evidence: "a monthly pass would cost about half as much", marks: 2, markCode: "AO2" },
-              { part: "c", reasoning: "The author concedes the concern and gives a figure, which appears honest and fair-minded.", evidence: "That is a fair concern: the department projects a building cost of 300 million dollars", marks: 2, markCode: "AO2" },
-              { part: "c", reasoning: "The author answers with additional benefits, tourism and jobs, shifting from cost alone to overall value.", evidence: "the line would also bring tourism and jobs to the coast", marks: 2, markCode: "AO2" },
-              { part: "c", reasoning: "A comparison with a rebuilt line elsewhere offers precedent that the investment can pay off, though from one example.", evidence: "recovered its costs in twelve years", marks: 2, markCode: "AO1" },
-              { part: "d", reasoning: "Strength: reasons are clearly organized and rest on a credible state source with specific figures, so the evidence is relevant to the claim.", evidence: "A study by the state transportation department", marks: 2, markCode: "AO1" },
-              { part: "d", reasoning: "Strength: the counterclaim is acknowledged and answered rather than ignored, which improves the validity of the reasoning.", evidence: "That is a fair concern", marks: 2, markCode: "AO1" },
-              { part: "d", reasoning: "Weakness: the tourism and jobs claims have no figures, and the precedent rests on a single line in another state, which is not sufficient to show the county will recover costs.", evidence: "a similar rebuilt line in another state", marks: 2, markCode: "AO1" },
-              { part: "d", reasoning: "Weakness: the final sentence is an emotional urgency with no evidence for why waiting is unaffordable, and the time to recover the cost (twelve years) is not weighed against the 300 million dollar price.", evidence: "The county can afford to wait no longer", marks: 2, markCode: "AO1" },
+              {
+                part: "a",
+                reasoning:
+                  "The claim is that the county should rebuild the old rail line to the coast.",
+                evidence:
+                  "Our county should rebuild the old rail line to the coast",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                part: "a",
+                reasoning:
+                  "One reason: it would cut travel time (or reduce commuter costs).",
+                evidence: "it would cut travel time",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                part: "b",
+                reasoning:
+                  "The study provides specific figures comparing train and car travel times, which make the claim concrete and testable.",
+                evidence:
+                  "55 minutes by train, compared with 90 minutes by car",
+                marks: 2,
+                markCode: "AO2",
+              },
+              {
+                part: "b",
+                reasoning:
+                  "The same credible source supports the cost reason, with a relative comparison that strengthens its reliability and consistency.",
+                evidence: "a monthly pass would cost about half as much",
+                marks: 2,
+                markCode: "AO2",
+              },
+              {
+                part: "c",
+                reasoning:
+                  "The author concedes the concern and gives a figure, which appears honest and fair-minded.",
+                evidence:
+                  "That is a fair concern: the department projects a building cost of 300 million dollars",
+                marks: 2,
+                markCode: "AO2",
+              },
+              {
+                part: "c",
+                reasoning:
+                  "The author answers with additional benefits, tourism and jobs, shifting from cost alone to overall value.",
+                evidence:
+                  "the line would also bring tourism and jobs to the coast",
+                marks: 2,
+                markCode: "AO2",
+              },
+              {
+                part: "c",
+                reasoning:
+                  "A comparison with a rebuilt line elsewhere offers precedent that the investment can pay off, though from one example.",
+                evidence: "recovered its costs in twelve years",
+                marks: 2,
+                markCode: "AO1",
+              },
+              {
+                part: "d",
+                reasoning:
+                  "Strength: reasons are clearly organized and rest on a credible state source with specific figures, so the evidence is relevant to the claim.",
+                evidence: "A study by the state transportation department",
+                marks: 2,
+                markCode: "AO1",
+              },
+              {
+                part: "d",
+                reasoning:
+                  "Strength: the counterclaim is acknowledged and answered rather than ignored, which improves the validity of the reasoning.",
+                evidence: "That is a fair concern",
+                marks: 2,
+                markCode: "AO1",
+              },
+              {
+                part: "d",
+                reasoning:
+                  "Weakness: the tourism and jobs claims have no figures, and the precedent rests on a single line in another state, which is not sufficient to show the county will recover costs.",
+                evidence: "a similar rebuilt line in another state",
+                marks: 2,
+                markCode: "AO1",
+              },
+              {
+                part: "d",
+                reasoning:
+                  "Weakness: the final sentence is an emotional urgency with no evidence for why waiting is unaffordable, and the time to recover the cost (twelve years) is not weighed against the 300 million dollar price.",
+                evidence: "The county can afford to wait no longer",
+                marks: 2,
+                markCode: "AO1",
+              },
             ],
-            levels: [...rubric(6, [5, 3, 2], "c"), ...rubric(8, [7, 5, 3], "d")],
-            finalAnswer: "(a) The author claims that the county should rebuild the old rail line; one reason is that it would cut travel time. (b) The state study gives specific, credible figures: 55 minutes by train against 90 by car, and a monthly pass at about half the cost of gas and parking. (c) The author concedes that 300 million dollars is a fair concern, then answers it with tourism, jobs, and an example of a line that recovered its costs in twelve years. (d) The argument is mostly valid: it is organized by reasons and uses credible specific evidence, and it answers a counterclaim. It is weaker where it relies on unsupported benefits, a single precedent, and an urgent closing sentence with no evidence.",
-            commonErrors: ["In (d), calling the argument 'good' or 'bad' without naming evidence or weaknesses.", "In (c), restating the cost without explaining how the author responds."],
+            levels: [
+              ...rubric(6, [5, 3, 2], "c"),
+              ...rubric(8, [7, 5, 3], "d"),
+            ],
+            finalAnswer:
+              "(a) The author claims that the county should rebuild the old rail line; one reason is that it would cut travel time. (b) The state study gives specific, credible figures: 55 minutes by train against 90 by car, and a monthly pass at about half the cost of gas and parking. (c) The author concedes that 300 million dollars is a fair concern, then answers it with tourism, jobs, and an example of a line that recovered its costs in twelve years. (d) The argument is mostly valid: it is organized by reasons and uses credible specific evidence, and it answers a counterclaim. It is weaker where it relies on unsupported benefits, a single precedent, and an urgent closing sentence with no evidence.",
+            commonErrors: [
+              "In (d), calling the argument 'good' or 'bad' without naming evidence or weaknesses.",
+              "In (c), restating the cost without explaining how the author responds.",
+            ],
           },
         },
       ],
@@ -185,7 +428,8 @@ export const lesson23: Lesson = {
     {
       id: "ela9-u2-seminal-documents",
       title: "Seminal U.S. documents and speeches",
-      skill: "Analyze seminal U.S. documents of historical and literary significance, including how they address related themes and concepts.",
+      skill:
+        "Analyze seminal U.S. documents of historical and literary significance, including how they address related themes and concepts.",
       lesson: {
         sections: [
           {
@@ -202,13 +446,27 @@ export const lesson23: Lesson = {
           },
         ],
         keyFormulas: [
-          { name: "Seminal document", statement: "A foundational text that shapes a nation's ideas and history." },
-          { name: "Tracing a concept", statement: "Show how the same idea (such as equality) is stated in one text and extended or tested in another." },
-          { name: "Four score and seven", statement: "A score is twenty, so 'four score and seven years' means eighty-seven years." },
+          {
+            name: "Seminal document",
+            statement:
+              "A foundational text that shapes a nation's ideas and history.",
+          },
+          {
+            name: "Tracing a concept",
+            statement:
+              "Show how the same idea (such as equality) is stated in one text and extended or tested in another.",
+          },
+          {
+            name: "Four score and seven",
+            statement:
+              "A score is twenty, so 'four score and seven years' means eighty-seven years.",
+          },
         ],
         workedExample: {
-          problem: "Explain how Lincoln connects the Gettysburg Address to the Declaration of Independence. (3 marks)",
-          solution: "Lincoln begins 'Four score and seven years ago', which means eighty-seven years before 1863, or 1776, the year of the Declaration. He then repeats the Declaration's central idea nearly word for word, saying the nation was 'dedicated to the proposition that all men are created equal'. By echoing the Declaration, he presents the Civil War as a test of whether that founding principle can survive: 'testing whether that nation, or any nation so conceived and so dedicated, can long endure'.",
+          problem:
+            "Explain how Lincoln connects the Gettysburg Address to the Declaration of Independence. (3 marks)",
+          solution:
+            "Lincoln begins 'Four score and seven years ago', which means eighty-seven years before 1863, or 1776, the year of the Declaration. He then repeats the Declaration's central idea nearly word for word, saying the nation was 'dedicated to the proposition that all men are created equal'. By echoing the Declaration, he presents the Civil War as a test of whether that founding principle can survive: 'testing whether that nation, or any nation so conceived and so dedicated, can long endure'.",
         },
       },
       questions: [
@@ -221,17 +479,33 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Eighty-seven years before the speech" },
+              { id: "a", text: "One hundred seven years before the speech" },
               { id: "b", text: "Forty-seven years before the speech" },
-              { id: "c", text: "One hundred seven years before the speech" },
+              { id: "c", text: "Eighty-seven years before the speech" },
               { id: "d", text: "Four years before the speech" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
-            principles: [{ kind: "context", name: "Four score and seven", statement: "A score is twenty; four score is eighty, plus seven makes eighty-seven." }],
-            steps: [{ reasoning: "Four times twenty plus seven equals eighty-seven years.", evidence: "Four score and seven years ago", marks: 1, markCode: "AO1" }],
-            finalAnswer: "**(a)** Four score = 80; 80 + 7 = 87. Counting back from 1863 leads to 1776.",
+            principles: [
+              {
+                kind: "context",
+                name: "Four score and seven",
+                statement:
+                  "A score is twenty; four score is eighty, plus seven makes eighty-seven.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "Four times twenty plus seven equals eighty-seven years.",
+                evidence: "Four score and seven years ago",
+                marks: 1,
+                markCode: "AO1",
+              },
+            ],
+            finalAnswer:
+              "**(a)** Four score = 80; 80 + 7 = 87. Counting back from 1863 leads to 1776.",
             commonErrors: ["Treating 'score' as meaning ten or one."],
           },
         },
@@ -244,20 +518,53 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "To ask other nations for permission to separate" },
-              { id: "b", text: "To suggest that the signers feel ashamed of separating" },
-              { id: "c", text: "To explain that the signers owe the world a public explanation of their reasons for separating" },
-              { id: "d", text: "To threaten other nations that might disagree" },
+              {
+                id: "a",
+                text: "To ask other nations for permission to separate",
+              },
+              {
+                id: "b",
+                text: "To suggest that the signers feel ashamed of separating",
+              },
+              {
+                id: "c",
+                text: "To threaten other nations that might disagree",
+              },
+              {
+                id: "d",
+                text: "To explain that the signers owe the world a public explanation of their reasons for separating",
+              },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
-            principles: [{ kind: "context", name: "Audience of the Declaration", statement: "The Declaration addresses the world, aiming to justify independence by reason." }],
-            steps: [
-              { reasoning: "'Decent respect' signals that the signers consider the world's judgment important.", evidence: "a decent respect to the opinions of mankind", marks: 1, markCode: "AO1" },
-              { reasoning: "They therefore feel required to explain their reasons openly, not to ask permission.", evidence: "declare the causes which impel them to the separation", marks: 1, markCode: "AO2" },
+            principles: [
+              {
+                kind: "context",
+                name: "Audience of the Declaration",
+                statement:
+                  "The Declaration addresses the world, aiming to justify independence by reason.",
+              },
             ],
-            finalAnswer: "**(c)** The sentence announces that the document will give reasons. It does not request permission, express shame, or threaten.",
+            steps: [
+              {
+                reasoning:
+                  "'Decent respect' signals that the signers consider the world's judgment important.",
+                evidence: "a decent respect to the opinions of mankind",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                reasoning:
+                  "They therefore feel required to explain their reasons openly, not to ask permission.",
+                evidence:
+                  "declare the causes which impel them to the separation",
+                marks: 1,
+                markCode: "AO2",
+              },
+            ],
+            finalAnswer:
+              "**(c)** The sentence announces that the document will give reasons. It does not request permission, express shame, or threaten.",
             commonErrors: ["Reading 'respect' as asking for permission."],
           },
         },
@@ -270,17 +577,50 @@ export const lesson23: Lesson = {
           response: { type: "open" },
           markscheme: {
             principles: [
-              { kind: "technique", name: "Parallel structure", statement: "Repeated 'that' clauses list ideas in a balanced series that gives them weight." },
-              { kind: "context", name: "Natural rights", statement: "The Declaration argues that rights come from nature or a Creator, not from government." },
+              {
+                kind: "technique",
+                name: "Parallel structure",
+                statement:
+                  "Repeated 'that' clauses list ideas in a balanced series that gives them weight.",
+              },
+              {
+                kind: "context",
+                name: "Natural rights",
+                statement:
+                  "The Declaration argues that rights come from nature or a Creator, not from government.",
+              },
             ],
             steps: [
-              { reasoning: "'We hold these truths to be self-evident' presents the ideas as obvious to any reasonable person, which asks the audience to agree without further proof.", evidence: "We hold these truths to be self-evident", marks: 2, markCode: "AO2" },
-              { reasoning: "The repeated 'that' clauses build a balanced, formal series that gives the statement authority.", evidence: "that all men are created equal, that they are endowed by their Creator", marks: 2, markCode: "AO2" },
-              { reasoning: "The rights are said to come from a Creator and to be 'unalienable', meaning they cannot be taken away, which makes liberty a basic claim and not a favor from a government.", evidence: "certain unalienable Rights", marks: 2, markCode: "AO1" },
+              {
+                reasoning:
+                  "'We hold these truths to be self-evident' presents the ideas as obvious to any reasonable person, which asks the audience to agree without further proof.",
+                evidence: "We hold these truths to be self-evident",
+                marks: 2,
+                markCode: "AO2",
+              },
+              {
+                reasoning:
+                  "The repeated 'that' clauses build a balanced, formal series that gives the statement authority.",
+                evidence:
+                  "that all men are created equal, that they are endowed by their Creator",
+                marks: 2,
+                markCode: "AO2",
+              },
+              {
+                reasoning:
+                  "The rights are said to come from a Creator and to be 'unalienable', meaning they cannot be taken away, which makes liberty a basic claim and not a favor from a government.",
+                evidence: "certain unalienable Rights",
+                marks: 2,
+                markCode: "AO1",
+              },
             ],
             levels: rubric(6, [5, 3, 2]),
-            finalAnswer: "The paragraph presents its central idea as beyond dispute: 'We hold these truths to be self-evident'. The repeated 'that' clauses create a balanced series that gives the statement formal authority. By describing rights as given by a Creator and 'unalienable', the writers argue that liberty belongs to people by nature, so a government cannot legitimately remove it.",
-            commonErrors: ["Paraphrasing the sentence without analyzing the language.", "Explaining 'unalienable' wrongly as rights that people may give up."],
+            finalAnswer:
+              "The paragraph presents its central idea as beyond dispute: 'We hold these truths to be self-evident'. The repeated 'that' clauses create a balanced series that gives the statement formal authority. By describing rights as given by a Creator and 'unalienable', the writers argue that liberty belongs to people by nature, so a government cannot legitimately remove it.",
+            commonErrors: [
+              "Paraphrasing the sentence without analyzing the language.",
+              "Explaining 'unalienable' wrongly as rights that people may give up.",
+            ],
           },
         },
         {
@@ -290,35 +630,156 @@ export const lesson23: Lesson = {
           extract: GETTY,
           stem: "Answer all parts of this question about the Gettysburg Address and the Declaration of Independence. The extracts are printed with the question and the Declaration's central sentence is: 'We hold these truths to be self-evident, that all men are created equal, that they are endowed by their Creator with certain unalienable Rights, that among these are Life, Liberty and the pursuit of Happiness.'",
           parts: [
-            { label: "a", prompt: "Write down the phrase in the first sentence of the Gettysburg Address that Lincoln takes from the Declaration's central idea.", marks: 2 },
-            { label: "b", prompt: "Explain what Lincoln suggests about the nation by describing it as 'conceived in Liberty'.", marks: 4 },
-            { label: "c", prompt: "Analyze how Lincoln uses the second paragraph to connect the idea of equality to the events of 1863.", marks: 6 },
-            { label: "d", prompt: "Compare how the Declaration and the Gettysburg Address treat the theme of equality. Refer to specific language in both.", marks: 8 },
+            {
+              label: "a",
+              prompt:
+                "Write down the phrase in the first sentence of the Gettysburg Address that Lincoln takes from the Declaration's central idea.",
+              marks: 2,
+            },
+            {
+              label: "b",
+              prompt:
+                "Explain what Lincoln suggests about the nation by describing it as 'conceived in Liberty'.",
+              marks: 4,
+            },
+            {
+              label: "c",
+              prompt:
+                "Analyze how Lincoln uses the second paragraph to connect the idea of equality to the events of 1863.",
+              marks: 6,
+            },
+            {
+              label: "d",
+              prompt:
+                "Compare how the Declaration and the Gettysburg Address treat the theme of equality. Refer to specific language in both.",
+              marks: 8,
+            },
           ],
           response: { type: "open" },
           markscheme: {
             principles: [
-              { kind: "context", name: "Historical purpose", statement: "The Declaration justifies independence; the Address honors the dead and renews the nation's purpose during the Civil War." },
-              { kind: "technique", name: "Allusion and echo", statement: "Repeating an earlier text's words links the new text to its authority." },
-              { kind: "skill", name: "Comparing texts", statement: "Trace one theme across two texts, using evidence from each." },
+              {
+                kind: "context",
+                name: "Historical purpose",
+                statement:
+                  "The Declaration justifies independence; the Address honors the dead and renews the nation's purpose during the Civil War.",
+              },
+              {
+                kind: "technique",
+                name: "Allusion and echo",
+                statement:
+                  "Repeating an earlier text's words links the new text to its authority.",
+              },
+              {
+                kind: "skill",
+                name: "Comparing texts",
+                statement:
+                  "Trace one theme across two texts, using evidence from each.",
+              },
             ],
             steps: [
-              { part: "a", reasoning: "Lincoln repeats the Declaration's phrase 'all men are created equal'.", evidence: "all men are created equal", marks: 1, markCode: "AO3" },
-              { part: "a", reasoning: "He calls it a 'proposition' to which the nation is dedicated, showing it is a principle to be tested.", evidence: "dedicated to the proposition", marks: 1, markCode: "AO3" },
-              { part: "b", reasoning: "'Conceived' suggests the nation was born from an idea, like a child, with liberty as its origin.", evidence: "a new nation, conceived in Liberty", marks: 2, markCode: "AO2" },
-              { part: "b", reasoning: "By capitalizing and emphasizing 'Liberty', Lincoln links the nation's identity to the principle from 1776, giving the nation a moral, not just a political, origin.", evidence: "conceived in Liberty", marks: 2, markCode: "AO2" },
-              { part: "c", reasoning: "'Now' moves from the founding to the present crisis, making the past ideals urgent.", evidence: "Now we are engaged in a great civil war", marks: 2, markCode: "AO2" },
-              { part: "c", reasoning: "The verb 'testing' presents the war as a trial of the founding principle, not just a military conflict.", evidence: "testing whether that nation", marks: 2, markCode: "AO2" },
-              { part: "c", reasoning: "The repeated 'so conceived and so dedicated' widens the question to 'any nation', giving it universal importance.", evidence: "or any nation so conceived and so dedicated, can long endure", marks: 2, markCode: "AO2" },
-              { part: "d", reasoning: "Similarity: both present equality as a basic principle; the Declaration calls it 'self-evident' and Lincoln calls it a 'proposition'.", evidence: "all men are created equal", marks: 2, markCode: "AO3" },
-              { part: "d", reasoning: "Difference: the Declaration states equality as a fact to justify separating from Britain; Lincoln treats it as an unfinished principle tested by war.", evidence: "testing whether that nation", marks: 2, markCode: "AO3" },
-              { part: "d", reasoning: "Language: the Declaration's formal, confident 'We hold these truths' contrasts with Lincoln's questioning 'testing whether... can long endure', which shows more uncertainty.", evidence: "We hold these truths to be self-evident", marks: 2, markCode: "AO3" },
-              { part: "d", reasoning: "Both use collective language, 'We' and 'our fathers', to unite the audience around a shared identity.", evidence: "our fathers brought forth on this continent", marks: 2, markCode: "AO3" },
+              {
+                part: "a",
+                reasoning:
+                  "Lincoln repeats the Declaration's phrase 'all men are created equal'.",
+                evidence: "all men are created equal",
+                marks: 1,
+                markCode: "AO3",
+              },
+              {
+                part: "a",
+                reasoning:
+                  "He calls it a 'proposition' to which the nation is dedicated, showing it is a principle to be tested.",
+                evidence: "dedicated to the proposition",
+                marks: 1,
+                markCode: "AO3",
+              },
+              {
+                part: "b",
+                reasoning:
+                  "'Conceived' suggests the nation was born from an idea, like a child, with liberty as its origin.",
+                evidence: "a new nation, conceived in Liberty",
+                marks: 2,
+                markCode: "AO2",
+              },
+              {
+                part: "b",
+                reasoning:
+                  "By capitalizing and emphasizing 'Liberty', Lincoln links the nation's identity to the principle from 1776, giving the nation a moral, not just a political, origin.",
+                evidence: "conceived in Liberty",
+                marks: 2,
+                markCode: "AO2",
+              },
+              {
+                part: "c",
+                reasoning:
+                  "'Now' moves from the founding to the present crisis, making the past ideals urgent.",
+                evidence: "Now we are engaged in a great civil war",
+                marks: 2,
+                markCode: "AO2",
+              },
+              {
+                part: "c",
+                reasoning:
+                  "The verb 'testing' presents the war as a trial of the founding principle, not just a military conflict.",
+                evidence: "testing whether that nation",
+                marks: 2,
+                markCode: "AO2",
+              },
+              {
+                part: "c",
+                reasoning:
+                  "The repeated 'so conceived and so dedicated' widens the question to 'any nation', giving it universal importance.",
+                evidence:
+                  "or any nation so conceived and so dedicated, can long endure",
+                marks: 2,
+                markCode: "AO2",
+              },
+              {
+                part: "d",
+                reasoning:
+                  "Similarity: both present equality as a basic principle; the Declaration calls it 'self-evident' and Lincoln calls it a 'proposition'.",
+                evidence: "all men are created equal",
+                marks: 2,
+                markCode: "AO3",
+              },
+              {
+                part: "d",
+                reasoning:
+                  "Difference: the Declaration states equality as a fact to justify separating from Britain; Lincoln treats it as an unfinished principle tested by war.",
+                evidence: "testing whether that nation",
+                marks: 2,
+                markCode: "AO3",
+              },
+              {
+                part: "d",
+                reasoning:
+                  "Language: the Declaration's formal, confident 'We hold these truths' contrasts with Lincoln's questioning 'testing whether... can long endure', which shows more uncertainty.",
+                evidence: "We hold these truths to be self-evident",
+                marks: 2,
+                markCode: "AO3",
+              },
+              {
+                part: "d",
+                reasoning:
+                  "Both use collective language, 'We' and 'our fathers', to unite the audience around a shared identity.",
+                evidence: "our fathers brought forth on this continent",
+                marks: 2,
+                markCode: "AO3",
+              },
             ],
-            levels: [...rubric(6, [5, 3, 2], "c"), ...rubric(8, [7, 5, 3], "d")],
-            finalAnswer: "(a) Lincoln takes the phrase 'all men are created equal' and calls it a 'proposition' to which the nation is dedicated. (b) 'Conceived in Liberty' suggests that the nation was born from an idea, linking it to the 1776 principle. (c) 'Now' brings the founding ideal into the crisis, 'testing' makes the war a trial of that ideal, and 'any nation so conceived and so dedicated' widens its importance. (d) Both texts treat equality as basic and use 'we'-style collective language. The Declaration states it confidently as 'self-evident', while Lincoln presents it as something tested by war that must be preserved.",
-            commonErrors: ["In (d), discussing only one text.", "In (c), retelling the history without analyzing Lincoln's word choices."],
-            examinerNote: "In (d), reward any well-supported comparison, for instance of tone, purpose, or collective language.",
+            levels: [
+              ...rubric(6, [5, 3, 2], "c"),
+              ...rubric(8, [7, 5, 3], "d"),
+            ],
+            finalAnswer:
+              "(a) Lincoln takes the phrase 'all men are created equal' and calls it a 'proposition' to which the nation is dedicated. (b) 'Conceived in Liberty' suggests that the nation was born from an idea, linking it to the 1776 principle. (c) 'Now' brings the founding ideal into the crisis, 'testing' makes the war a trial of that ideal, and 'any nation so conceived and so dedicated' widens its importance. (d) Both texts treat equality as basic and use 'we'-style collective language. The Declaration states it confidently as 'self-evident', while Lincoln presents it as something tested by war that must be preserved.",
+            commonErrors: [
+              "In (d), discussing only one text.",
+              "In (c), retelling the history without analyzing Lincoln's word choices.",
+            ],
+            examinerNote:
+              "In (d), reward any well-supported comparison, for instance of tone, purpose, or collective language.",
           },
         },
       ],

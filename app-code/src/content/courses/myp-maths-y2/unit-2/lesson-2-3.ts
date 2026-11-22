@@ -58,9 +58,9 @@ export const lesson23: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$(2,2)$" },
-              { id: "b", text: "$(4,4)$" },
-              { id: "c", text: "$(-4,6)$" },
-              { id: "d", text: "$(4,-6)$" },
+              { id: "b", text: "$(4,-6)$" },
+              { id: "c", text: "$(4,4)$" },
+              { id: "d", text: "$(-4,6)$" },
             ],
             correctChoiceId: "a",
           },
@@ -177,12 +177,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$(4,6)$" },
-              { id: "b", text: "$(8,12)$" },
-              { id: "c", text: "$(3,5)$" },
-              { id: "d", text: "$(4,12)$" },
+              { id: "a", text: "$(3,5)$" },
+              { id: "b", text: "$(4,12)$" },
+              { id: "c", text: "$(4,6)$" },
+              { id: "d", text: "$(8,12)$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -204,12 +204,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The first quadrant" },
-              { id: "b", text: "The second quadrant" },
-              { id: "c", text: "The third quadrant" },
-              { id: "d", text: "The fourth quadrant" },
+              { id: "a", text: "The fourth quadrant" },
+              { id: "b", text: "The third quadrant" },
+              { id: "c", text: "The second quadrant" },
+              { id: "d", text: "The first quadrant" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -281,12 +281,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$(1,2)$" },
-              { id: "b", text: "$(2,5)$" },
-              { id: "c", text: "$(3,6)$" },
-              { id: "d", text: "$(0,1)$" },
+              { id: "a", text: "$(0,1)$" },
+              { id: "b", text: "$(1,2)$" },
+              { id: "c", text: "$(2,5)$" },
+              { id: "d", text: "$(3,6)$" },
             ],
-            correctChoiceId: "d",
+            correctChoiceIa: "d",
           },
           markscheme: {
             principles: [
@@ -353,10 +353,10 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$y=4$" },
+              { id: "a", text: "$x+y=4$" },
               { id: "b", text: "$x=-2$" },
               { id: "c", text: "$y=x+4$" },
-              { id: "d", text: "$x+y=4$" },
+              { id: "d", text: "$y=4$" },
             ],
             correctChoiceId: "b",
           },
@@ -534,12 +534,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$3$" },
+              { id: "a", text: "$-3$" },
               { id: "b", text: "$\\frac{1}{3}$" },
-              { id: "c", text: "$5$" },
-              { id: "d", text: "$-3$" },
+              { id: "c", text: "$3$" },
+              { id: "d", text: "$5$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -655,12 +655,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$2$" },
+              { id: "a", text: "$4$" },
               { id: "b", text: "$\\frac{1}{2}$" },
-              { id: "c", text: "$4$" },
+              { id: "c", text: "$2$" },
               { id: "d", text: "$-2$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -683,11 +683,11 @@ export const lesson23: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$3$" },
-              { id: "b", text: "$-4$" },
-              { id: "c", text: "$4$" },
-              { id: "d", text: "$0$" },
+              { id: "b", text: "$4$" },
+              { id: "c", text: "$0$" },
+              { id: "d", text: "$-4$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -754,12 +754,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$(1,3)$" },
+              { id: "a", text: "$(2,2)$" },
               { id: "b", text: "$(3,1)$" },
-              { id: "c", text: "$(2,2)$" },
-              { id: "d", text: "$(0,2)$" },
+              { id: "c", text: "$(0,2)$" },
+              { id: "d", text: "$(1,3)$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -822,11 +822,11 @@ export const lesson23: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$1$" },
-              { id: "b", text: "$0$" },
-              { id: "c", text: "It is undefined" },
+              { id: "b", text: "It is undefined" },
+              { id: "c", text: "$0$" },
               { id: "d", text: "It depends on the line" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

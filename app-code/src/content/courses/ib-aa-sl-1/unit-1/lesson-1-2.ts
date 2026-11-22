@@ -51,9 +51,9 @@ export const lesson12: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$3$" },
-              { id: "b", text: "$\\log_2 28$" },
-              { id: "c", text: "$\\frac52$" },
-              { id: "d", text: "$8$" },
+              { id: "b", text: "$\\frac52$" },
+              { id: "c", text: "$8$" },
+              { id: "d", text: "$\\log_2 28$" },
             ],
             correctChoiceId: "a",
           },
@@ -151,12 +151,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$4$" },
-              { id: "b", text: "$27$" },
-              { id: "c", text: "$\\frac13$" },
-              { id: "d", text: "$3^4$" },
+              { id: "a", text: "$3^4$" },
+              { id: "b", text: "$4$" },
+              { id: "c", text: "$27$" },
+              { id: "d", text: "$\\frac13$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Logarithm", statement: "$\\log_a x=y\\Leftrightarrow a^y=x$." }],
@@ -179,8 +179,8 @@ export const lesson12: Lesson = {
             choices: [
               { id: "a", text: "$\\frac32$" },
               { id: "b", text: "$2$" },
-              { id: "c", text: "$\\frac23$" },
-              { id: "d", text: "$\\frac12$" },
+              { id: "c", text: "$\\frac12$" },
+              { id: "d", text: "$\\frac23$" },
             ],
             correctChoiceId: "a",
           },
@@ -203,12 +203,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$3$" },
+              { id: "a", text: "$5$" },
               { id: "b", text: "$\\log_5 125$" },
-              { id: "c", text: "$5$" },
+              { id: "c", text: "$3$" },
               { id: "d", text: "$\\frac{125}{5}=25$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "law", name: "Power of a power", statement: "$5^x=5^y\\Rightarrow x=y$" }],
@@ -287,12 +287,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$3$" },
-              { id: "b", text: "$e^3$" },
-              { id: "c", text: "$1$" },
+              { id: "a", text: "$e^3$" },
+              { id: "b", text: "$1$" },
+              { id: "c", text: "$3$" },
               { id: "d", text: "$\\frac{1}{3}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "law", name: "Inverse property", statement: "$\\log_a a^x=x$" }],
@@ -313,12 +313,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$2$" },
+              { id: "a", text: "$3$" },
               { id: "b", text: "$\\log_{10}990$" },
               { id: "c", text: "$1$" },
-              { id: "d", text: "$3$" },
+              { id: "d", text: "$2$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "law", name: "Quotient law", statement: "$\\log_a x-\\log_a y=\\log_a\\frac xy$" }],
@@ -463,12 +463,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\$1210$" },
+              { id: "a", text: "$\\$1331$" },
               { id: "b", text: "$\\$1200$" },
               { id: "c", text: "$\\$1100$" },
-              { id: "d", text: "$\\$1331$" },
+              { id: "d", text: "$\\$1210$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Compound interest", statement: "$FV=PV(1+\\frac{r}{100})^n$" }],
@@ -561,12 +561,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\$2315$" },
-              { id: "b", text: "$\\$2300$" },
+              { id: "a", text: "$\\$2300$" },
+              { id: "b", text: "$\\$2315$" },
               { id: "c", text: "$\\$2100$" },
               { id: "d", text: "$\\$2621$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Compound interest", statement: "$FV=PV(1+\\frac{r}{100})^n$" }],
@@ -587,12 +587,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\$4050$" },
-              { id: "b", text: "$\\$4000$" },
-              { id: "c", text: "$\\$4500$" },
-              { id: "d", text: "$\\$4950$" },
+              { id: "a", text: "$\\$4500$" },
+              { id: "b", text: "$\\$4950$" },
+              { id: "c", text: "$\\$4050$" },
+              { id: "d", text: "$\\$4000$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Percentage decrease", statement: "A $10\\%$ decrease multiplies by $0.9$." }],
@@ -613,12 +613,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\$541$" },
-              { id: "b", text: "$\\$540$" },
-              { id: "c", text: "$\\$500.80$" },
+              { id: "a", text: "$\\$500.80$" },
+              { id: "b", text: "$\\$541$" },
+              { id: "c", text: "$\\$540$" },
               { id: "d", text: "$\\$580$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Compound interest", statement: "$FV=PV\\left(1+\\frac{r}{100k}\\right)^{kn}$" }],
@@ -693,12 +693,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$1\\%$" },
-              { id: "b", text: "$12\\%$" },
-              { id: "c", text: "$0.12\\%$" },
-              { id: "d", text: "$6\\%$" },
+              { id: "a", text: "$6\\%$" },
+              { id: "b", text: "$0.12\\%$" },
+              { id: "c", text: "$1\\%$" },
+              { id: "d", text: "$12\\%$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Nominal annual rate", statement: "Divide the annual rate by the number of compounding periods per year." }],
@@ -719,12 +719,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\$5624$" },
-              { id: "b", text: "$\\$5600$" },
+              { id: "a", text: "$\\$5600$" },
+              { id: "b", text: "$\\$5624$" },
               { id: "c", text: "$\\$5200$" },
               { id: "d", text: "$\\$6242$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Compound interest", statement: "$FV=PV(1+\\frac{r}{100})^n$" }],

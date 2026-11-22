@@ -56,11 +56,11 @@ export const lesson52: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Can be moved to any location" },
-              { id: "b", text: "Is made for and inseparable from its particular location" },
+              { id: "b", text: "Uses only natural materials" },
               { id: "c", text: "Is always outdoors" },
-              { id: "d", text: "Uses only natural materials" },
+              { id: "d", text: "Is made for and inseparable from its particular location" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -162,12 +162,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Space is empty background to fill with objects" },
-              { id: "b", text: "Walls, light, sound and scale are designed elements that shape the viewer's experience" },
+              { id: "a", text: "Walls, light, sound and scale are designed elements that shape the viewer's experience" },
+              { id: "b", text: "Space is empty background to fill with objects" },
               { id: "c", text: "Only the artworks matter, not their surroundings" },
               { id: "d", text: "Space must always be maximised for capacity" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -191,10 +191,10 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The entrance door of the gallery" },
+              { id: "a", text: "The edge of the exhibition floor" },
               { id: "b", text: "A transition point marking a shift in mood, scale or meaning" },
-              { id: "c", text: "The minimum height for hanging art" },
-              { id: "d", text: "The edge of the exhibition floor" },
+              { id: "c", text: "The entrance door of the gallery" },
+              { id: "d", text: "The minimum height for hanging art" },
             ],
             correctChoiceId: "b",
           },
@@ -220,12 +220,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Immediate overview of the whole show" },
-              { id: "b", text: "Discovery and anticipation as viewers move" },
-              { id: "c", text: "Faster visitor exit times" },
-              { id: "d", text: "Better lighting conditions" },
+              { id: "a", text: "Better lighting conditions" },
+              { id: "b", text: "Faster visitor exit times" },
+              { id: "c", text: "Discovery and anticipation as viewers move" },
+              { id: "d", text: "Immediate overview of the whole show" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -249,10 +249,10 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Discovery through hidden corners" },
+              { id: "a", text: "Intimacy between viewer and work" },
               { id: "b", text: "An immediate overview and sense of the whole" },
               { id: "c", text: "A forced linear route" },
-              { id: "d", text: "Intimacy between viewer and work" },
+              { id: "d", text: "Discovery through hidden corners" },
             ],
             correctChoiceId: "b",
           },
@@ -278,10 +278,10 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Exposure and vulnerability" },
+              { id: "a", text: "Instant familiarity" },
               { id: "b", text: "Anticipation and build-up toward what lies ahead" },
-              { id: "c", text: "Instant familiarity" },
-              { id: "d", text: "Monotony and boredom" },
+              { id: "c", text: "Monotony and boredom" },
+              { id: "d", text: "Exposure and vulnerability" },
             ],
             correctChoiceId: "b",
           },
@@ -307,12 +307,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Places works behind glass" },
-              { id: "b", text: "Surrounds the viewer so they become part of the artwork" },
+              { id: "a", text: "Surrounds the viewer so they become part of the artwork" },
+              { id: "b", text: "Places works behind glass" },
               { id: "c", text: "Requires no spatial planning" },
               { id: "d", text: "Only uses two-dimensional works" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -336,12 +336,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The difference between random chaos and planned design" },
-              { id: "b", text: "The choice between inviting wandering exploration and imposing a narrative sequence" },
-              { id: "c", text: "The difference between good and bad lighting" },
+              { id: "a", text: "The difference between good and bad lighting" },
+              { id: "b", text: "The difference between random chaos and planned design" },
+              { id: "c", text: "The choice between inviting wandering exploration and imposing a narrative sequence" },
               { id: "d", text: "A legal requirement for gallery design" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -540,11 +540,11 @@ export const lesson52: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "A passive observer at a distance" },
-              { id: "b", text: "An active participant who moves through and may interact with the work" },
+              { id: "b", text: "A photographer documenting the work" },
               { id: "c", text: "A critic who evaluates the work" },
-              { id: "d", text: "A photographer documenting the work" },
+              { id: "d", text: "An active participant who moves through and may interact with the work" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -640,12 +640,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A framed picture hung on a wall" },
-              { id: "b", text: "A work that transforms a space the viewer moves through or inhabits" },
+              { id: "a", text: "A work that transforms a space the viewer moves through or inhabits" },
+              { id: "b", text: "A framed picture hung on a wall" },
               { id: "c", text: "A sculpture placed on a pedestal" },
               { id: "d", text: "A temporary sketch or study" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -669,12 +669,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Are cheaper than manufactured materials" },
-              { id: "b", text: "Carry their own histories and associations into the work" },
-              { id: "c", text: "Require no conservation" },
-              { id: "d", text: "Are always natural materials" },
+              { id: "a", text: "Carry their own histories and associations into the work" },
+              { id: "b", text: "Are cheaper than manufactured materials" },
+              { id: "c", text: "Are always natural materials" },
+              { id: "d", text: "Require no conservation" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -698,12 +698,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Nature and growth" },
-              { id: "b", text: "Labour, systems and modern infrastructure" },
+              { id: "a", text: "Religious ceremony" },
+              { id: "b", text: "Nature and growth" },
               { id: "c", text: "Comfort and domesticity" },
-              { id: "d", text: "Religious ceremony" },
+              { id: "d", text: "Labour, systems and modern infrastructure" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -727,12 +727,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Decay, growth and the natural world" },
-              { id: "b", text: "Precision and machinery" },
-              { id: "c", text: "Wealth and luxury" },
+              { id: "a", text: "Precision and machinery" },
+              { id: "b", text: "Wealth and luxury" },
+              { id: "c", text: "Decay, growth and the natural world" },
               { id: "d", text: "Digital technology" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -756,12 +756,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Buying materials" },
-              { id: "b", text: "Deciding the concept — the experience the viewer should have" },
-              { id: "c", text: "Photographing the finished work" },
-              { id: "d", text: "Choosing the gallery" },
+              { id: "a", text: "Photographing the finished work" },
+              { id: "b", text: "Choosing the gallery" },
+              { id: "c", text: "Buying materials" },
+              { id: "d", text: "Deciding the concept — the experience the viewer should have" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -786,11 +786,11 @@ export const lesson52: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Usually made of expensive materials" },
-              { id: "b", text: "Temporary — they are dismantled after exhibition, so the record preserves them" },
-              { id: "c", text: "Always interactive" },
-              { id: "d", text: "Illegal in schools" },
+              { id: "b", text: "Always interactive" },
+              { id: "c", text: "Illegal in schools" },
+              { id: "d", text: "Temporary — they are dismantled after exhibition, so the record preserves them" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -815,11 +815,11 @@ export const lesson52: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Viewers should touch every object" },
-              { id: "b", text: "The viewer's presence, movement and physical experience complete the work" },
+              { id: "b", text: "Only large works count as installations" },
               { id: "c", text: "The artist must appear in the work" },
-              { id: "d", text: "Only large works count as installations" },
+              { id: "d", text: "The viewer's presence, movement and physical experience complete the work" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

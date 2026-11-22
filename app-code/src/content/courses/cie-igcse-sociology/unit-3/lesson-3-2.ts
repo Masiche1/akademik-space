@@ -111,12 +111,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "In early childhood within the family" },
-              { id: "b", text: "At university" },
+              { id: "a", text: "At university" },
+              { id: "b", text: "Only at work" },
               { id: "c", text: "In old age" },
-              { id: "d", text: "Only at work" },
+              { id: "d", text: "In early childhood within the family" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -144,12 +144,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Learning norms through school, peers, media and work after childhood" },
-              { id: "b", text: "The first stage of learning" },
-              { id: "c", text: "Learning only from parents" },
-              { id: "d", text: "Forgetting what you learned" },
+              { id: "a", text: "Forgetting what you learned" },
+              { id: "b", text: "Learning only from parents" },
+              { id: "c", text: "The first stage of learning" },
+              { id: "d", text: "Learning norms through school, peers, media and work after childhood" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -178,12 +178,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "An institution or group that transmits norms and values" },
-              { id: "b", text: "A government department" },
-              { id: "c", text: "A type of punishment" },
-              { id: "d", text: "A sociological theory" },
+              { id: "a", text: "A type of punishment" },
+              { id: "b", text: "An institution or group that transmits norms and values" },
+              { id: "c", text: "A sociological theory" },
+              { id: "d", text: "A government department" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -212,12 +212,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Accepting society's norms as part of one's own identity" },
-              { id: "b", text: "Being forced to obey rules" },
-              { id: "c", text: "Forgetting social rules" },
-              { id: "d", text: "Teaching others" },
+              { id: "a", text: "Teaching others" },
+              { id: "b", text: "Forgetting social rules" },
+              { id: "c", text: "Being forced to obey rules" },
+              { id: "d", text: "Accepting society's norms as part of one's own identity" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -246,12 +246,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Entering an institution with very different norms, e.g. prison" },
-              { id: "b", text: "Starting primary school" },
+              { id: "a", text: "Being born" },
+              { id: "b", text: "Entering an institution with very different norms, e.g. prison" },
               { id: "c", text: "Learning to talk" },
-              { id: "d", text: "Being born" },
+              { id: "d", text: "Starting primary school" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -280,12 +280,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Adopting the norms of a future role before taking it on" },
-              { id: "b", text: "Forgetting old roles" },
-              { id: "c", text: "Socialising before work" },
-              { id: "d", text: "Rejecting all roles" },
+              { id: "a", text: "Rejecting all roles" },
+              { id: "b", text: "Socialising before work" },
+              { id: "c", text: "Forgetting old roles" },
+              { id: "d", text: "Adopting the norms of a future role before taking it on" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -314,12 +314,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The family" },
-              { id: "b", text: "The media" },
+              { id: "a", text: "The media" },
+              { id: "b", text: "The family" },
               { id: "c", text: "The workplace" },
               { id: "d", text: "The government" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -349,8 +349,8 @@ export const lesson32: Lesson = {
             choices: [
               { id: "a", text: "Controls all aspects of an individual's life" },
               { id: "b", text: "Is run by the state" },
-              { id: "c", text: "Only teaches academic subjects" },
-              { id: "d", text: "Is voluntary" },
+              { id: "c", text: "Is voluntary" },
+              { id: "d", text: "Only teaches academic subjects" },
             ],
             correctChoiceId: "a",
           },
@@ -381,12 +381,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Unofficial lessons and values pupils absorb at school" },
-              { id: "b", text: "The official exam syllabus" },
+              { id: "a", text: "The official exam syllabus" },
+              { id: "b", text: "Unofficial lessons and values pupils absorb at school" },
               { id: "c", text: "A secret school timetable" },
               { id: "d", text: "Religious education" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -560,12 +560,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Learning the norms and expectations of being male or female" },
-              { id: "b", text: "Choosing one's gender" },
-              { id: "c", text: "Biological differences" },
+              { id: "a", text: "Biological differences" },
+              { id: "b", text: "Learning the norms and expectations of being male or female" },
+              { id: "c", text: "Choosing one's gender" },
               { id: "d", text: "A type of punishment" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -626,12 +626,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "School" },
-              { id: "b", text: "Peer group" },
-              { id: "c", text: "Media" },
-              { id: "d", text: "The family in infancy" },
+              { id: "a", text: "The family in infancy" },
+              { id: "b", text: "School" },
+              { id: "c", text: "Peer group" },
+              { id: "d", text: "Media" },
             ],
-            correctChoiceId: "d",
+            correctChoiceIa: "d",
           },
           markscheme: {
             principles: [
@@ -775,8 +775,8 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Primary" },
-              { id: "b", text: "Secondary" },
-              { id: "c", text: "Resocialisation" },
+              { id: "b", text: "Resocialisation" },
+              { id: "c", text: "Secondary" },
               { id: "d", text: "Anticipatory" },
             ],
             correctChoiceId: "a",
@@ -921,12 +921,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The family" },
-              { id: "b", text: "The media" },
-              { id: "c", text: "The workplace" },
-              { id: "d", text: "The internet" },
+              { id: "a", text: "The workplace" },
+              { id: "b", text: "The internet" },
+              { id: "c", text: "The family" },
+              { id: "d", text: "The media" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1024,12 +1024,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A toddler learning to say 'please'" },
-              { id: "b", text: "A teenager learning workplace dress codes" },
-              { id: "c", text: "An infant learning language" },
-              { id: "d", text: "A newborn bonding with mother" },
+              { id: "a", text: "A teenager learning workplace dress codes" },
+              { id: "b", text: "A toddler learning to say 'please'" },
+              { id: "c", text: "A newborn bonding with mother" },
+              { id: "d", text: "An infant learning language" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -1135,11 +1135,11 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "A new job" },
-              { id: "b", text: "A prison" },
-              { id: "c", text: "A new school" },
-              { id: "d", text: "A new house" },
+              { id: "b", text: "A new house" },
+              { id: "c", text: "A prison" },
+              { id: "d", text: "A new school" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1282,9 +1282,9 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A child learning to walk" },
+              { id: "a", text: "An adult forgetting old habits" },
               { id: "b", text: "A law student acting like a lawyer before qualifying" },
-              { id: "c", text: "An adult forgetting old habits" },
+              { id: "c", text: "A child learning to walk" },
               { id: "d", text: "A prisoner entering prison" },
             ],
             correctChoiceId: "b",
@@ -1429,12 +1429,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The school" },
-              { id: "b", text: "The family" },
-              { id: "c", text: "The media" },
+              { id: "a", text: "The media" },
+              { id: "b", text: "The school" },
+              { id: "c", text: "The family" },
               { id: "d", text: "The workplace" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1652,10 +1652,10 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Primary" },
+              { id: "a", text: "Resocialisation" },
               { id: "b", text: "Secondary" },
               { id: "c", text: "Tertiary" },
-              { id: "d", text: "Resocialisation" },
+              { id: "d", text: "Primary" },
             ],
             correctChoiceId: "c",
           },
@@ -1799,12 +1799,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Primary socialisation" },
-              { id: "b", text: "Secondary socialisation only" },
-              { id: "c", text: "Resocialisation" },
-              { id: "d", text: "Deviance" },
+              { id: "a", text: "Secondary socialisation only" },
+              { id: "b", text: "Primary socialisation" },
+              { id: "c", text: "Deviance" },
+              { id: "d", text: "Resocialisation" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1956,12 +1956,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Parents and dependent children only" },
-              { id: "b", text: "Three generations living together" },
-              { id: "c", text: "Unrelated adults sharing a house" },
-              { id: "d", text: "A single parent and child" },
+              { id: "a", text: "Unrelated adults sharing a house" },
+              { id: "b", text: "Parents and dependent children only" },
+              { id: "c", text: "A single parent and child" },
+              { id: "d", text: "Three generations living together" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1989,12 +1989,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Relatives beyond the nuclear family living together or nearby" },
+              { id: "a", text: "Unrelated friends" },
               { id: "b", text: "Only parents and children" },
-              { id: "c", text: "Unrelated friends" },
-              { id: "d", text: "Only one parent" },
+              { id: "c", text: "Only one parent" },
+              { id: "d", text: "Relatives beyond the nuclear family living together or nearby" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -2022,12 +2022,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Unofficial values like punctuality and obedience" },
-              { id: "b", text: "Only academic subjects" },
-              { id: "c", text: "Sports skills only" },
-              { id: "d", text: "Nothing beyond the syllabus" },
+              { id: "a", text: "Nothing beyond the syllabus" },
+              { id: "b", text: "Unofficial values like punctuality and obedience" },
+              { id: "c", text: "Only academic subjects" },
+              { id: "d", text: "Sports skills only" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -2055,12 +2055,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Early childhood" },
-              { id: "b", text: "Adolescence" },
+              { id: "a", text: "Adolescence" },
+              { id: "b", text: "Early childhood" },
               { id: "c", text: "Old age" },
               { id: "d", text: "Infancy" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -2088,12 +2088,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Presenting role models and normalising certain behaviours" },
-              { id: "b", text: "Forcing people to watch" },
-              { id: "c", text: "Replacing all other agencies" },
-              { id: "d", text: "Only entertaining" },
+              { id: "a", text: "Only entertaining" },
+              { id: "b", text: "Replacing all other agencies" },
+              { id: "c", text: "Presenting role models and normalising certain behaviours" },
+              { id: "d", text: "Forcing people to watch" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -2121,12 +2121,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Socialises children and stabilises society" },
+              { id: "a", text: "Replaces the state" },
               { id: "b", text: "Produces goods" },
               { id: "c", text: "Controls the economy" },
-              { id: "d", text: "Replaces the state" },
+              { id: "d", text: "Socialises children and stabilises society" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -2154,12 +2154,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Transmitting class-based values and resources to children" },
-              { id: "b", text: "Being equally fair to all" },
-              { id: "c", text: "Eliminating inequality" },
-              { id: "d", text: "Ignoring social class" },
+              { id: "a", text: "Eliminating inequality" },
+              { id: "b", text: "Ignoring social class" },
+              { id: "c", text: "Transmitting class-based values and resources to children" },
+              { id: "d", text: "Being equally fair to all" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -2187,12 +2187,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "There is only one parental role model and possibly fewer resources" },
-              { id: "b", text: "It is always better" },
-              { id: "c", text: "It has no effect" },
-              { id: "d", text: "Children are identical" },
+              { id: "a", text: "Children are identical" },
+              { id: "b", text: "It has no effect" },
+              { id: "c", text: "There is only one parental role model and possibly fewer resources" },
+              { id: "d", text: "It is always better" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -2220,12 +2220,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The media and social media" },
-              { id: "b", text: "The extended family" },
-              { id: "c", text: "Religious institutions" },
-              { id: "d", text: "Local communities" },
+              { id: "a", text: "The extended family" },
+              { id: "b", text: "The media and social media" },
+              { id: "c", text: "Local communities" },
+              { id: "d", text: "Religious institutions" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -2399,12 +2399,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Extended family" },
-              { id: "b", text: "Single-parent family" },
-              { id: "c", text: "Childless couple" },
-              { id: "d", text: "Nuclear family" },
+              { id: "a", text: "Single-parent family" },
+              { id: "b", text: "Extended family" },
+              { id: "c", text: "Nuclear family" },
+              { id: "d", text: "Childless couple" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -2464,12 +2464,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Peer group" },
+              { id: "a", text: "School" },
               { id: "b", text: "Family" },
-              { id: "c", text: "School" },
+              { id: "c", text: "Peer group" },
               { id: "d", text: "Workplace" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -2612,8 +2612,8 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Peer group" },
-              { id: "b", text: "Family" },
-              { id: "c", text: "School" },
+              { id: "b", text: "School" },
+              { id: "c", text: "Family" },
               { id: "d", text: "Media" },
             ],
             correctChoiceId: "a",
@@ -2760,8 +2760,8 @@ export const lesson32: Lesson = {
             choices: [
               { id: "a", text: "Nuclear family" },
               { id: "b", text: "Extended family" },
-              { id: "c", text: "Communal family" },
-              { id: "d", text: "No family" },
+              { id: "c", text: "No family" },
+              { id: "d", text: "Communal family" },
             ],
             correctChoiceId: "a",
           },
@@ -2861,12 +2861,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Family" },
-              { id: "b", text: "School" },
-              { id: "c", text: "Peer group" },
-              { id: "d", text: "Government census" },
+              { id: "a", text: "Peer group" },
+              { id: "b", text: "Government census" },
+              { id: "c", text: "Family" },
+              { id: "d", text: "School" },
             ],
-            correctChoiceId: "d",
+            correctChoiceIb: "d",
           },
           markscheme: {
             principles: [
@@ -2971,8 +2971,8 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "School" },
-              { id: "b", text: "Family" },
-              { id: "c", text: "Media" },
+              { id: "b", text: "Media" },
+              { id: "c", text: "Family" },
               { id: "d", text: "Workplace" },
             ],
             correctChoiceId: "a",
@@ -3117,12 +3117,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "They provide belonging and identity" },
-              { id: "b", text: "They are always positive" },
-              { id: "c", text: "They eliminate family influence" },
-              { id: "d", text: "They are formal institutions" },
+              { id: "a", text: "They eliminate family influence" },
+              { id: "b", text: "They are formal institutions" },
+              { id: "c", text: "They provide belonging and identity" },
+              { id: "d", text: "They are always positive" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -3264,12 +3264,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "School" },
+              { id: "a", text: "Media" },
               { id: "b", text: "Family" },
-              { id: "c", text: "Media" },
+              { id: "c", text: "School" },
               { id: "d", text: "Peers" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -3487,12 +3487,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Peer group" },
-              { id: "b", text: "Family" },
-              { id: "c", text: "Primary school" },
+              { id: "a", text: "Primary school" },
+              { id: "b", text: "Peer group" },
+              { id: "c", text: "Family" },
               { id: "d", text: "Religious community" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -3635,8 +3635,8 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Family" },
-              { id: "b", text: "Peer group" },
-              { id: "c", text: "Media" },
+              { id: "b", text: "Media" },
+              { id: "c", text: "Peer group" },
               { id: "d", text: "Workplace" },
             ],
             correctChoiceId: "a",
@@ -3788,8 +3788,8 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Violates social norms" },
-              { id: "b", text: "Is always criminal" },
-              { id: "c", text: "Is biologically determined" },
+              { id: "b", text: "Is biologically determined" },
+              { id: "c", text: "Is always criminal" },
               { id: "d", text: "Is always punished" },
             ],
             correctChoiceId: "a",
@@ -3820,12 +3820,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Gossip and ridicule" },
-              { id: "b", text: "Arrest by police" },
-              { id: "c", text: "Court sentencing" },
-              { id: "d", text: "Imprisonment" },
+              { id: "a", text: "Arrest by police" },
+              { id: "b", text: "Imprisonment" },
+              { id: "c", text: "Gossip and ridicule" },
+              { id: "d", text: "Court sentencing" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -3853,12 +3853,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Society's reaction and labels" },
-              { id: "b", text: "Biological factors" },
-              { id: "c", text: "Economic inequality alone" },
-              { id: "d", text: "God's will" },
+              { id: "a", text: "Biological factors" },
+              { id: "b", text: "Economic inequality alone" },
+              { id: "c", text: "God's will" },
+              { id: "d", text: "Society's reaction and labels" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -3886,12 +3886,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Normal and serves functions for society" },
-              { id: "b", text: "Always harmful" },
+              { id: "a", text: "Always harmful" },
+              { id: "b", text: "Normal and serves functions for society" },
               { id: "c", text: "Caused only by poverty" },
               { id: "d", text: "Impossible to prevent" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -3919,12 +3919,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Economic inequality and lack of legitimate opportunities" },
-              { id: "b", text: "Biological defects" },
+              { id: "a", text: "Biological defects" },
+              { id: "b", text: "Economic inequality and lack of legitimate opportunities" },
               { id: "c", text: "Mental illness" },
               { id: "d", text: "Divine punishment" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -3952,12 +3952,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Being labelled deviant leads the person to act deviantly" },
-              { id: "b", text: "Labels always prevent crime" },
-              { id: "c", text: "People are born deviant" },
+              { id: "a", text: "People are born deviant" },
+              { id: "b", text: "Being labelled deviant leads the person to act deviantly" },
+              { id: "c", text: "Labels always prevent crime" },
               { id: "d", text: "Labels have no effect" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -3985,12 +3985,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Self-regulation through conscience and guilt" },
-              { id: "b", text: "Police patrols" },
-              { id: "c", text: "Court punishments" },
-              { id: "d", text: "Peer pressure only" },
+              { id: "a", text: "Peer pressure only" },
+              { id: "b", text: "Self-regulation through conscience and guilt" },
+              { id: "c", text: "Police patrols" },
+              { id: "d", text: "Court punishments" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -4018,12 +4018,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Laws, police and courts" },
-              { id: "b", text: "Gossip and ridicule" },
+              { id: "a", text: "Gossip and ridicule" },
+              { id: "b", text: "Laws, police and courts" },
               { id: "c", text: "Family approval" },
               { id: "d", text: "Religious beliefs" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -4052,8 +4052,8 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "What counts as deviant varies by culture and time" },
-              { id: "b", text: "It is always the same everywhere" },
-              { id: "c", text: "It is biologically fixed" },
+              { id: "b", text: "It is biologically fixed" },
+              { id: "c", text: "It is always the same everywhere" },
               { id: "d", text: "It never changes" },
             ],
             correctChoiceId: "a",
@@ -4231,8 +4231,8 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Labelling theory" },
-              { id: "b", text: "Functionalism" },
-              { id: "c", text: "Marxism" },
+              { id: "b", text: "Marxism" },
+              { id: "c", text: "Functionalism" },
               { id: "d", text: "Biological theory" },
             ],
             correctChoiceId: "a",
@@ -4295,12 +4295,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Police arrest" },
-              { id: "b", text: "Gossip" },
-              { id: "c", text: "Ridicule" },
-              { id: "d", text: "Ostracism by friends" },
+              { id: "a", text: "Ridicule" },
+              { id: "b", text: "Police arrest" },
+              { id: "c", text: "Ostracism by friends" },
+              { id: "d", text: "Gossip" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -4443,9 +4443,9 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Wearing unconventional clothing" },
-              { id: "b", text: "Murder" },
-              { id: "c", text: "Theft" },
-              { id: "d", text: "Fraud" },
+              { id: "b", text: "Fraud" },
+              { id: "c", text: "Murder" },
+              { id: "d", text: "Theft" },
             ],
             correctChoiceId: "a",
           },
@@ -4589,12 +4589,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Socialisation" },
-              { id: "b", text: "Gossip" },
-              { id: "c", text: "Arrest" },
-              { id: "d", text: "Ridicule" },
+              { id: "a", text: "Gossip" },
+              { id: "b", text: "Arrest" },
+              { id: "c", text: "Ridicule" },
+              { id: "d", text: "Socialisation" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -4693,12 +4693,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Peer pressure" },
-              { id: "b", text: "Prison sentence" },
+              { id: "a", text: "Prison sentence" },
+              { id: "b", text: "Peer pressure" },
               { id: "c", text: "Fine" },
               { id: "d", text: "Police warning" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -4802,12 +4802,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Education" },
-              { id: "b", text: "Laws" },
-              { id: "c", text: "Peer pressure" },
-              { id: "d", text: "Punishment" },
+              { id: "a", text: "Laws" },
+              { id: "b", text: "Peer pressure" },
+              { id: "c", text: "Punishment" },
+              { id: "d", text: "Education" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -4949,12 +4949,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Court sentencing" },
-              { id: "b", text: "Gossip" },
-              { id: "c", text: "Peer pressure" },
+              { id: "a", text: "Gossip" },
+              { id: "b", text: "Peer pressure" },
+              { id: "c", text: "Court sentencing" },
               { id: "d", text: "Ridicule" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -5096,12 +5096,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Labelling theory" },
-              { id: "b", text: "Functionalism" },
-              { id: "c", text: "Marxism" },
-              { id: "d", text: "Biological theory" },
+              { id: "a", text: "Functionalism" },
+              { id: "b", text: "Labelling theory" },
+              { id: "c", text: "Biological theory" },
+              { id: "d", text: "Marxism" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -5319,12 +5319,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Graffiti" },
-              { id: "b", text: "Going to school" },
-              { id: "c", text: "Paying taxes" },
-              { id: "d", text: "Working" },
+              { id: "a", text: "Paying taxes" },
+              { id: "b", text: "Working" },
+              { id: "c", text: "Graffiti" },
+              { id: "d", text: "Going to school" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -5466,12 +5466,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Vengeance only" },
-              { id: "b", text: "Deterrence" },
-              { id: "c", text: "Rehabilitation" },
-              { id: "d", text: "Protection of society" },
+              { id: "a", text: "Protection of society" },
+              { id: "b", text: "Rehabilitation" },
+              { id: "c", text: "Deterrence" },
+              { id: "d", text: "Vengeance only" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -5620,9 +5620,9 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Conscience and self-regulation" },
-              { id: "b", text: "Police patrols" },
-              { id: "c", text: "Court punishments" },
-              { id: "d", text: "Peer pressure" },
+              { id: "b", text: "Court punishments" },
+              { id: "c", text: "Peer pressure" },
+              { id: "d", text: "Police patrols" },
             ],
             correctChoiceId: "a",
           },
@@ -5652,12 +5652,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Gossip, ridicule and peer pressure" },
-              { id: "b", text: "Arrest and imprisonment" },
-              { id: "c", text: "Court fines" },
-              { id: "d", text: "Police warnings" },
+              { id: "a", text: "Police warnings" },
+              { id: "b", text: "Court fines" },
+              { id: "c", text: "Gossip, ridicule and peer pressure" },
+              { id: "d", text: "Arrest and imprisonment" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -5685,12 +5685,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Laws, police and courts" },
+              { id: "a", text: "Family approval" },
               { id: "b", text: "Gossip" },
-              { id: "c", text: "Family approval" },
-              { id: "d", text: "Religious beliefs" },
+              { id: "c", text: "Religious beliefs" },
+              { id: "d", text: "Laws, police and courts" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -5719,9 +5719,9 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Internal control" },
-              { id: "b", text: "Formal control" },
-              { id: "c", text: "Informal control" },
-              { id: "d", text: "None" },
+              { id: "b", text: "None" },
+              { id: "c", text: "Formal control" },
+              { id: "d", text: "Informal control" },
             ],
             correctChoiceId: "a",
           },
@@ -5751,12 +5751,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Prevent crime through fear of consequences" },
-              { id: "b", text: "Reform offenders" },
+              { id: "a", text: "Reform offenders" },
+              { id: "b", text: "Prevent crime through fear of consequences" },
               { id: "c", text: "Take revenge" },
               { id: "d", text: "Compensate victims" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -5784,12 +5784,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Repairing harm and reconciling offender and victim" },
+              { id: "a", text: "Only punishing" },
               { id: "b", text: "Maximum punishment" },
               { id: "c", text: "Ignoring victims" },
-              { id: "d", text: "Only punishing" },
+              { id: "d", text: "Repairing harm and reconciling offender and victim" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -5817,12 +5817,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Informal social control" },
-              { id: "b", text: "Formal social control" },
+              { id: "a", text: "Formal social control" },
+              { id: "b", text: "Legal punishment" },
               { id: "c", text: "Internal social control" },
-              { id: "d", text: "Legal punishment" },
+              { id: "d", text: "Informal social control" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -5850,12 +5850,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Informal social control" },
-              { id: "b", text: "Prison" },
+              { id: "a", text: "None" },
+              { id: "b", text: "Informal social control" },
               { id: "c", text: "Court trials" },
-              { id: "d", text: "None" },
+              { id: "d", text: "Prison" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -5883,12 +5883,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A reward or punishment for behaviour" },
+              { id: "a", text: "A social institution" },
               { id: "b", text: "A type of crime" },
-              { id: "c", text: "A social institution" },
+              { id: "c", text: "A reward or punishment for behaviour" },
               { id: "d", text: "A research method" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -6063,9 +6063,9 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Education" },
-              { id: "b", text: "Internal control" },
+              { id: "b", text: "Formal control" },
               { id: "c", text: "Informal control" },
-              { id: "d", text: "Formal control" },
+              { id: "d", text: "Internal control" },
             ],
             correctChoiceId: "a",
           },
@@ -6127,12 +6127,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Feeling guilty for lying" },
-              { id: "b", text: "Being arrested" },
-              { id: "c", text: "Peer pressure" },
-              { id: "d", text: "Fines" },
+              { id: "a", text: "Peer pressure" },
+              { id: "b", text: "Fines" },
+              { id: "c", text: "Being arrested" },
+              { id: "d", text: "Feeling guilty for lying" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -6274,12 +6274,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Internal control" },
-              { id: "b", text: "Formal control" },
+              { id: "a", text: "All equal" },
+              { id: "b", text: "Internal control" },
               { id: "c", text: "Informal control" },
-              { id: "d", text: "All equal" },
+              { id: "d", text: "Formal control" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -6421,12 +6421,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Education" },
-              { id: "b", text: "Internal" },
-              { id: "c", text: "Informal" },
-              { id: "d", text: "Formal" },
+              { id: "a", text: "Informal" },
+              { id: "b", text: "Formal" },
+              { id: "c", text: "Internal" },
+              { id: "d", text: "Education" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -6524,10 +6524,10 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Gossip" },
-              { id: "b", text: "Arrest" },
+              { id: "a", text: "Ridicule" },
+              { id: "b", text: "Gossip" },
               { id: "c", text: "Education" },
-              { id: "d", text: "Ridicule" },
+              { id: "d", text: "Arrest" },
             ],
             correctChoiceId: "c",
           },
@@ -6633,12 +6633,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Ridicule" },
-              { id: "b", text: "Prison" },
-              { id: "c", text: "Fine" },
-              { id: "d", text: "Arrest" },
+              { id: "a", text: "Fine" },
+              { id: "b", text: "Ridicule" },
+              { id: "c", text: "Arrest" },
+              { id: "d", text: "Prison" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -6780,12 +6780,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Imprisonment" },
-              { id: "b", text: "Gossip" },
-              { id: "c", text: "Peer pressure" },
-              { id: "d", text: "Ostracism" },
+              { id: "a", text: "Gossip" },
+              { id: "b", text: "Ostracism" },
+              { id: "c", text: "Imprisonment" },
+              { id: "d", text: "Peer pressure" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -6927,10 +6927,10 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Punishment" },
+              { id: "a", text: "Peer pressure" },
               { id: "b", text: "Education" },
-              { id: "c", text: "Peer pressure" },
-              { id: "d", text: "Arrest" },
+              { id: "c", text: "Arrest" },
+              { id: "d", text: "Punishment" },
             ],
             correctChoiceId: "b",
           },
@@ -7150,12 +7150,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Feeling guilty" },
-              { id: "b", text: "Being fined" },
-              { id: "c", text: "Peer pressure" },
+              { id: "a", text: "Being fined" },
+              { id: "b", text: "Peer pressure" },
+              { id: "c", text: "Feeling guilty" },
               { id: "d", text: "Arrest" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -7297,12 +7297,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Internal" },
-              { id: "b", text: "Informal" },
-              { id: "c", text: "Formal" },
-              { id: "d", text: "Education" },
+              { id: "a", text: "Informal" },
+              { id: "b", text: "Education" },
+              { id: "c", text: "Internal" },
+              { id: "d", text: "Formal" },
             ],
-            correctChoiceId: "d",
+            correctChoiceIb: "d",
           },
           markscheme: {
             principles: [

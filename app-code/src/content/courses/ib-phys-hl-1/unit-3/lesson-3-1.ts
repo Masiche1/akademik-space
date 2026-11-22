@@ -85,12 +85,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Amplitude is always zero" },
-              { id: "b", text: "Amplitude is maximum" },
+              { id: "a", text: "Amplitude is maximum" },
+              { id: "b", text: "Amplitude is always zero" },
               { id: "c", text: "Wavelength is maximum" },
               { id: "d", text: "Frequency is minimum" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -319,12 +319,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\lambda/2$" },
+              { id: "a", text: "$2\\lambda$" },
               { id: "b", text: "$\\lambda/4$" },
               { id: "c", text: "$\\lambda$" },
-              { id: "d", text: "$2\\lambda$" },
+              { id: "d", text: "$\\lambda/2$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -407,15 +407,15 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A node" },
-              { id: "b", text: "An antinode" },
+              { id: "a", text: "An antinode" },
+              { id: "b", text: "A node" },
               {
                 id: "c",
                 text: "Either a node or an antinode depending on frequency",
               },
               { id: "d", text: "Neither — the end does not vibrate" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -496,9 +496,9 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$2A$" },
-              { id: "b", text: "$A$" },
+              { id: "b", text: "$0$" },
               { id: "c", text: "$A/2$" },
-              { id: "d", text: "$0$" },
+              { id: "d", text: "$A$" },
             ],
             correctChoiceId: "a",
           },
@@ -649,12 +649,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "An antinode" },
-              { id: "b", text: "A node" },
-              { id: "c", text: "A point of zero pressure only" },
-              { id: "d", text: "Nothing — waves cannot reach it" },
+              { id: "a", text: "A point of zero pressure only" },
+              { id: "b", text: "Nothing — waves cannot reach it" },
+              { id: "c", text: "A node" },
+              { id: "d", text: "An antinode" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -876,15 +876,15 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "Complete cancellation everywhere" },
               {
-                id: "a",
+                id: "b",
                 text: "A stationary pattern of nodes and antinodes — a standing wave",
               },
-              { id: "b", text: "A single wave travelling in one direction" },
               { id: "c", text: "A beat pattern with varying amplitude" },
-              { id: "d", text: "Complete cancellation everywhere" },
+              { id: "d", text: "A single wave travelling in one direction" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -964,12 +964,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\lambda = 4L$" },
+              { id: "a", text: "$\\lambda = L/2$" },
               { id: "b", text: "$\\lambda = 2L$" },
-              { id: "c", text: "$\\lambda = L$" },
-              { id: "d", text: "$\\lambda = L/2$" },
+              { id: "c", text: "$\\lambda = 4L$" },
+              { id: "d", text: "$\\lambda = L$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1198,11 +1198,11 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "The 2nd harmonic" },
-              { id: "b", text: "The 3rd harmonic" },
-              { id: "c", text: "The fundamental" },
+              { id: "b", text: "The fundamental" },
+              { id: "c", text: "The 3rd harmonic" },
               { id: "d", text: "The 4th harmonic" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1313,12 +1313,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$v = \\sqrt{T/\\mu}$" },
-              { id: "b", text: "$v = T\\mu$" },
-              { id: "c", text: "$v = \\sqrt{\\mu/T}$" },
-              { id: "d", text: "$v = fL$" },
+              { id: "a", text: "$v = \\sqrt{\\mu/T}$" },
+              { id: "b", text: "$v = fL$" },
+              { id: "c", text: "$v = T\\mu$" },
+              { id: "d", text: "$v = \\sqrt{T/\\mu}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1399,12 +1399,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$1/\\sqrt{2}$ times that of Y" },
-              { id: "b", text: "Half that of Y" },
-              { id: "c", text: "$\\sqrt{2}$ times that of Y" },
-              { id: "d", text: "The same as Y" },
+              { id: "a", text: "$\\sqrt{2}$ times that of Y" },
+              { id: "b", text: "$1/\\sqrt{2}$ times that of Y" },
+              { id: "c", text: "The same as Y" },
+              { id: "d", text: "Half that of Y" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1486,12 +1486,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$n$" },
-              { id: "b", text: "$n+1$" },
+              { id: "a", text: "$n+1$" },
+              { id: "b", text: "$n$" },
               { id: "c", text: "$2n$" },
               { id: "d", text: "$n-1$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [

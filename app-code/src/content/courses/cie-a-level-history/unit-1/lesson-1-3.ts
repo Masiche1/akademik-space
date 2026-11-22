@@ -56,22 +56,22 @@ export const lesson613: Lesson = {
           "choices": [
                     {
                               "id": "a",
-                              "text": "1950-53 conflict in Korea"
-                    },
-                    {
-                              "id": "b",
-                              "text": "A trade war"
-                    },
-                    {
-                              "id": "c",
                               "text": "A peace treaty"
                     },
                     {
-                              "id": "d",
+                              "id": "b",
+                              "text": "1950-53 conflict in Korea"
+                    },
+                    {
+                              "id": "c",
                               "text": "A natural disaster"
+                    },
+                    {
+                              "id": "d",
+                              "text": "A trade war"
                     }
           ],
-          "correctChoiceId": "a"
+          "correctChoiceId": "b"
 },
           markscheme: {
           "principles": [
@@ -218,6 +218,266 @@ export const lesson613: Lesson = {
           ],
           "finalAnswer": "Proxy conflict analysis."
 },
+        },
+        {
+          id: "ciealhis-u1-px-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Which powers supported the opposing sides in the Korean War?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "The United States backed both sides" },
+              { id: "b", text: "The USSR and China backed the North; the United States backed the South" },
+              { id: "c", text: "Britain and France controlled the peninsula" },
+              { id: "d", text: "No external powers became involved" }
+            ],
+            correctChoiceId: "b"
+          },
+          markscheme: {
+            principles: [
+              { kind: "context", name: "Korean War", statement: "Cold War proxy conflict." }
+            ],
+            steps: [
+              { reasoning: "External support made Korea a proxy war.", marks: 1, markCode: "M" }
+            ],
+            finalAnswer: "**(a)** The USSR and China backed the North; the United States backed the South"
+          }
+        },
+        {
+          id: "ciealhis-u1-px-q6",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "In which year did the Korean War begin?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 1950 }]
+          },
+          markscheme: {
+            principles: [
+              { kind: "definition", name: "Korean War", statement: "1950-1953." }
+            ],
+            steps: [
+              { reasoning: "North Korea invaded South Korea in 1950.", marks: 1, markCode: "M" }
+            ],
+            finalAnswer: "1950"
+          }
+        },
+        {
+          id: "ciealhis-u1-px-q7",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Who were the Viet Cong?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "French colonial administrators" },
+              { id: "b", text: "South Vietnamese communist guerrillas supported by the North" },
+              { id: "c", text: "South Vietnamese government troops" },
+              { id: "d", text: "American military advisers in Saigon" }
+            ],
+            correctChoiceId: "b"
+          },
+          markscheme: {
+            principles: [
+              { kind: "definition", name: "Viet Cong", statement: "Communist guerrillas." }
+            ],
+            steps: [
+              { reasoning: "The Viet Cong fought against the US-backed South Vietnamese government.", marks: 1, markCode: "M" }
+            ],
+            finalAnswer: "**(a)** South Vietnamese communist guerrillas supported by the North"
+          }
+        },
+        {
+          id: "ciealhis-u1-px-q8",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "In which year did the Vietnam War end?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 1975 }]
+          },
+          markscheme: {
+            principles: [
+              { kind: "definition", name: "Vietnam War", statement: "1955-1975." }
+            ],
+            steps: [
+              { reasoning: "Saigon fell and the war ended in 1975.", marks: 1, markCode: "M" }
+            ],
+            finalAnswer: "1975"
+          }
+        },
+        {
+          id: "ciealhis-u1-px-q9",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "Explain why the Korean War ended in stalemate rather than victory for either side.",
+          response: {
+            type: "open"
+          },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Korean stalemate", statement: "Armistice outcome." }
+            ],
+            steps: [
+              { reasoning: "Neither side could achieve decisive victory after Chinese intervention and UN/US resistance.", marks: 1, markCode: "M" },
+              { reasoning: "The 1953 armistice roughly preserved the division near the 38th parallel.", marks: 1, markCode: "M" }
+            ],
+            finalAnswer: "Military and political stalemate"
+          }
+        },
+        {
+          id: "ciealhis-u1-px-q10",
+          difficulty: "challenge",
+          totalMarks: 1,
+          stem: "Why did the Soviet Union invade Afghanistan in 1979?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "To stop the United States invading Iran" },
+              { id: "b", text: "To support the pro-Soviet Afghan government against insurgency" },
+              { id: "c", text: "To annex Afghanistan as a Soviet republic" },
+              { id: "d", text: "To secure access to oil fields in the Persian Gulf" }
+            ],
+            correctChoiceId: "b"
+          },
+          markscheme: {
+            principles: [
+              { kind: "context", name: "Soviet-Afghan War", statement: "Support for communist government." }
+            ],
+            steps: [
+              { reasoning: "Moscow sought to preserve its influence over the Afghan regime.", marks: 1, markCode: "M" }
+            ],
+            finalAnswer: "**(a)** To support the pro-Soviet Afghan government against insurgency"
+          }
+        },
+        {
+          id: "ciealhis-u1-px-q11",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "In which year did the Soviet Union withdraw from Afghanistan?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 1989 }]
+          },
+          markscheme: {
+            principles: [
+              { kind: "definition", name: "Soviet-Afghan War", statement: "1979-1989." }
+            ],
+            steps: [
+              { reasoning: "Soviet forces completed their withdrawal in 1989.", marks: 1, markCode: "M" }
+            ],
+            finalAnswer: "1989"
+          }
+        },
+        {
+          id: "ciealhis-u1-px-q12",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "Compare the role of external powers in the Korean and Vietnam Wars.",
+          response: {
+            type: "open"
+          },
+          markscheme: {
+            principles: [
+              { kind: "comparison", name: "Proxy war comparison", statement: "Different levels of intervention." }
+            ],
+            steps: [
+              { reasoning: "In Korea, external powers provided major military support but avoided direct superpower combat.", marks: 1, markCode: "M" },
+              { reasoning: "In Vietnam, the United States deployed large conventional forces and sustained bombing campaigns.", marks: 1, markCode: "M" },
+              { reasoning: "Both conflicts showed limits of superpower power when local conditions resisted them.", marks: 1, markCode: "A" }
+            ],
+            finalAnswer: "Vietnam saw deeper US commitment than Korea"
+          }
+        },
+        {
+          id: "ciealhis-u1-px-q13",
+          difficulty: "challenge",
+          totalMarks: 1,
+          stem: "Which statement best explains the impact of the domino theory on US policy?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "It led directly to the creation of the United Nations" },
+              { id: "b", text: "It made the United States support colonial powers indefinitely" },
+              { id: "c", text: "It justified intervention to prevent the spread of communism" },
+              { id: "d", text: "It encouraged the United States to ignore Asia" }
+            ],
+            correctChoiceId: "c"
+          },
+          markscheme: {
+            principles: [
+              { kind: "context", name: "Domino theory", statement: "Containment rationale." }
+            ],
+            steps: [
+              { reasoning: "The theory framed Vietnam as part of a wider communist expansion.", marks: 1, markCode: "M" }
+            ],
+            finalAnswer: "**(a)** It justified intervention to prevent the spread of communism"
+          }
+        },
+        {
+          id: "ciealhis-u1-px-q14",
+          difficulty: "foundation",
+          totalMarks: 2,
+          stem: "What was Vietnam syndrome and why did it matter?",
+          response: {
+            type: "open"
+          },
+          markscheme: {
+            principles: [
+              { kind: "definition", name: "Vietnam syndrome", statement: "Post-war reluctance." }
+            ],
+            steps: [
+              { reasoning: "It described public and political reluctance to support overseas military intervention.", marks: 1, markCode: "M" },
+              { reasoning: "It constrained later US foreign policy after Vietnam.", marks: 1, markCode: "M" }
+            ],
+            finalAnswer: "Reluctance to intervene abroad"
+          }
+        },
+        {
+          id: "ciealhis-u1-px-q15",
+          difficulty: "challenge",
+          totalMarks: 1,
+          stem: "Which group received substantial external support during the Soviet-Afghan War?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "The Soviet conscripts, backed by India" },
+              { id: "b", text: "The Afghan royal family, backed by Britain" },
+              { id: "c", text: "The Iranian army, backed by the United Nations" },
+              { id: "d", text: "The mujahedeen, backed by the United States, China and Pakistan" }
+            ],
+            correctChoiceId: "d"
+          },
+          markscheme: {
+            principles: [
+              { kind: "context", name: "Soviet-Afghan War", statement: "Mujahedeen support." }
+            ],
+            steps: [
+              { reasoning: "Anti-Soviet fighters received weapons and funds from several powers.", marks: 1, markCode: "M" }
+            ],
+            finalAnswer: "**(a)** The mujahedeen, backed by the United States, China and Pakistan"
+          }
+        },
+        {
+          id: "ciealhis-u1-px-q16",
+          difficulty: "challenge",
+          totalMarks: 3,
+          stem: "Evaluate whether proxy wars achieved the superpowers' strategic objectives.",
+          response: {
+            type: "open"
+          },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Evaluation", statement: "Balanced judgement." }
+            ],
+            steps: [
+              { reasoning: "They sometimes contained rivals, as in Korea, without direct superpower war.", marks: 1, markCode: "M" },
+              { reasoning: "They failed to produce clear victories, especially in Vietnam and Afghanistan.", marks: 1, markCode: "M" },
+              { reasoning: "They imposed heavy human and economic costs while outcomes remained contested.", marks: 1, markCode: "A" }
+            ],
+            finalAnswer: "Mixed results; costly and often inconclusive"
+          }
         },
       ],
     },

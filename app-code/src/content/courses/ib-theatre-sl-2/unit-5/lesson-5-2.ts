@@ -55,12 +55,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Display the actors' costumes" },
-              { id: "b", text: "Create the physical environment of the play" },
-              { id: "c", text: "Provide seating for audience" },
+              { id: "a", text: "Create the physical environment of the play" },
+              { id: "b", text: "Provide seating for audience" },
+              { id: "c", text: "Display the actors' costumes" },
               { id: "d", text: "Show the director's name" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -156,12 +156,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Create the physical environment" },
-              { id: "b", text: "Define character and period" },
-              { id: "c", text: "Provide audience seating" },
-              { id: "d", text: "Control the lighting levels" },
+              { id: "a", text: "Provide audience seating" },
+              { id: "b", text: "Control the lighting levels" },
+              { id: "c", text: "Define character and period" },
+              { id: "d", text: "Create the physical environment" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -185,10 +185,10 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Replace all set design" },
+              { id: "a", text: "Be changed without rehearsal" },
               { id: "b", text: "Create mood, focus and atmosphere" },
-              { id: "c", text: "Eliminate the need for actors" },
-              { id: "d", text: "Be changed without rehearsal" },
+              { id: "c", text: "Replace all set design" },
+              { id: "d", text: "Eliminate the need for actors" },
             ],
             correctChoiceId: "b",
           },
@@ -214,12 +214,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "An open, airy space suggesting freedom" },
-              { id: "b", text: "A small, claustrophobic set suggesting entrapment" },
-              { id: "c", text: "No set at all" },
-              { id: "d", text: "A set that changes location every scene" },
+              { id: "a", text: "No set at all" },
+              { id: "b", text: "A set that changes location every scene" },
+              { id: "c", text: "An open, airy space suggesting freedom" },
+              { id: "d", text: "A small, claustrophobic set suggesting entrapment" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -243,12 +243,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "An incoherent production with no purpose" },
-              { id: "b", text: "Tension between perceived reality and psychological distortion" },
-              { id: "c", text: "A purely decorative effect" },
-              { id: "d", text: "A purely realistic production" },
+              { id: "a", text: "A purely realistic production" },
+              { id: "b", text: "An incoherent production with no purpose" },
+              { id: "c", text: "Tension between perceived reality and psychological distortion" },
+              { id: "d", text: "A purely decorative effect" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -272,12 +272,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Only the actors' voices" },
-              { id: "b", text: "Music, sound effects and ambient sound" },
-              { id: "c", text: "Only stage lighting" },
-              { id: "d", text: "Only the set construction" },
+              { id: "a", text: "Music, sound effects and ambient sound" },
+              { id: "b", text: "Only stage lighting" },
+              { id: "c", text: "Only the set construction" },
+              { id: "d", text: "Only the actors' voices" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -302,11 +302,11 @@ export const lesson52: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Only the set is impressive" },
-              { id: "b", text: "Set, costume, lighting and sound work together to serve the concept" },
-              { id: "c", text: "Each department designs independently" },
-              { id: "d", text: "The lighting is very bright" },
+              { id: "b", text: "The lighting is very bright" },
+              { id: "c", text: "Set, costume, lighting and sound work together to serve the concept" },
+              { id: "d", text: "Each department designs independently" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -330,12 +330,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Experience deeper immersion" },
-              { id: "b", text: "Feel confused and lose trust in the production's world" },
-              { id: "c", text: "Focus more on the dialogue" },
-              { id: "d", text: "Notice nothing" },
+              { id: "a", text: "Notice nothing" },
+              { id: "b", text: "Experience deeper immersion" },
+              { id: "c", text: "Feel confused and lose trust in the production's world" },
+              { id: "d", text: "Focus more on the dialogue" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -497,12 +497,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "As many actors as possible" },
-              { id: "b", text: "One clear visual focus that guides the audience's eye" },
-              { id: "c", text: "No lighting" },
-              { id: "d", text: "Actors facing the back wall" },
+              { id: "a", text: "Actors facing the back wall" },
+              { id: "b", text: "No lighting" },
+              { id: "c", text: "As many actors as possible" },
+              { id: "d", text: "One clear visual focus that guides the audience's eye" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -598,12 +598,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A photograph taken during rehearsal" },
-              { id: "b", text: "The visual composition of the stage at any moment" },
+              { id: "a", text: "The visual composition of the stage at any moment" },
+              { id: "b", text: "A photograph taken during rehearsal" },
               { id: "c", text: "The audience's programme" },
               { id: "d", text: "The set design blueprint" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -627,10 +627,10 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Actors standing on one leg" },
+              { id: "a", text: "The number of actors on stage" },
               { id: "b", text: "Distributing visual weight across the stage" },
-              { id: "c", text: "The number of actors on stage" },
-              { id: "d", text: "Even lighting levels" },
+              { id: "c", text: "Even lighting levels" },
+              { id: "d", text: "Actors standing on one leg" },
             ],
             correctChoiceId: "b",
           },
@@ -656,12 +656,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Too much lighting" },
-              { id: "b", text: "Lack of a clear visual focus" },
-              { id: "c", text: "Too few actors" },
-              { id: "d", text: "The actors' costumes" },
+              { id: "a", text: "The actors' costumes" },
+              { id: "b", text: "Too few actors" },
+              { id: "c", text: "Lack of a clear visual focus" },
+              { id: "d", text: "Too much lighting" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -686,11 +686,11 @@ export const lesson52: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Asking all other actors to leave the stage" },
-              { id: "b", text: "Lighting the focal actor and placing others at the edges or in shadow" },
-              { id: "c", text: "Increasing the volume of all actors equally" },
+              { id: "b", text: "Increasing the volume of all actors equally" },
+              { id: "c", text: "Lighting the focal actor and placing others at the edges or in shadow" },
               { id: "d", text: "Turning all actors to face the back wall" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -715,9 +715,9 @@ export const lesson52: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Light and dark, large and small, still and moving" },
-              { id: "b", text: "Dialogue volume only" },
-              { id: "c", text: "Actor ages only" },
-              { id: "d", text: "Costume colours only" },
+              { id: "b", text: "Actor ages only" },
+              { id: "c", text: "Costume colours only" },
+              { id: "d", text: "Dialogue volume only" },
             ],
             correctChoiceId: "a",
           },
@@ -743,12 +743,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Stay identical throughout the scene" },
-              { id: "b", text: "Change with the drama — movement, level shifts, focus changes" },
-              { id: "c", text: "Use only one actor" },
-              { id: "d", text: "Require no lighting changes" },
+              { id: "a", text: "Change with the drama — movement, level shifts, focus changes" },
+              { id: "b", text: "Stay identical throughout the scene" },
+              { id: "c", text: "Require no lighting changes" },
+              { id: "d", text: "Use only one actor" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -772,12 +772,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Dynamic and alive" },
-              { id: "b", text: "Dead and lifeless to the audience" },
+              { id: "a", text: "Dead and lifeless to the audience" },
+              { id: "b", text: "Dynamic and alive" },
               { id: "c", text: "Focused and clear" },
               { id: "d", text: "Balanced and intentional" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

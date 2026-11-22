@@ -56,10 +56,10 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "'stuff'" },
+              { id: "a", text: "'really big'" },
               { id: "b", text: "'significant'" },
               { id: "c", text: "'a lot'" },
-              { id: "d", text: "'really big'" },
+              { id: "d", text: "'stuff'" },
             ],
             correctChoiceId: "b",
           },
@@ -153,12 +153,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "'stuff'" },
-              { id: "b", text: "'demonstrate'" },
-              { id: "c", text: "'a lot'" },
+              { id: "a", text: "'demonstrate'" },
+              { id: "b", text: "'a lot'" },
+              { id: "c", text: "'stuff'" },
               { id: "d", text: "'very big'" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -180,10 +180,10 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "'significant'" },
+              { id: "a", text: "'analyse'" },
               { id: "b", text: "'a lot of'" },
-              { id: "c", text: "'however'" },
-              { id: "d", text: "'analyse'" },
+              { id: "c", text: "'significant'" },
+              { id: "d", text: "'however'" },
             ],
             correctChoiceId: "b",
           },
@@ -267,10 +267,10 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It is longer" },
+              { id: "a", text: "It uses simpler words" },
               { id: "b", text: "It uses precise, formal vocabulary" },
-              { id: "c", text: "It uses simpler words" },
-              { id: "d", text: "It is easier to read" },
+              { id: "c", text: "It is easier to read" },
+              { id: "d", text: "It is longer" },
             ],
             correctChoiceId: "b",
           },
@@ -347,12 +347,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "'huge issue'" },
-              { id: "b", text: "'significant issue'" },
+              { id: "a", text: "'significant issue'" },
+              { id: "b", text: "'huge issue'" },
               { id: "c", text: "'massive thing'" },
               { id: "d", text: "'really bad stuff'" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -380,12 +380,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "'The data shows that students like reading.'" },
-              { id: "b", text: "'The data demonstrates that students enjoy reading.'" },
-              { id: "c", text: "'The data is really cool.'" },
-              { id: "d", text: "'Students like reading a lot.'" },
+              { id: "a", text: "'Students like reading a lot.'" },
+              { id: "b", text: "'The data is really cool.'" },
+              { id: "c", text: "'The data shows that students like reading.'" },
+              { id: "d", text: "'The data demonstrates that students enjoy reading.'" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -443,8 +443,8 @@ export const lesson32: Lesson = {
             choices: [
               { id: "a", text: "'The results were super good.'" },
               { id: "b", text: "'The results were positive.'" },
-              { id: "c", text: "'The results were really nice.'" },
-              { id: "d", text: "'The results were awesome.'" },
+              { id: "c", text: "'The results were awesome.'" },
+              { id: "d", text: "'The results were really nice.'" },
             ],
             correctChoiceId: "b",
           },
@@ -536,8 +536,8 @@ export const lesson32: Lesson = {
             choices: [
               { id: "a", text: "'For example, the experiment worked well.'" },
               { id: "b", text: "'One benefit of exercise is better health.'" },
-              { id: "c", text: "'However, the results were unclear.'" },
-              { id: "d", text: "'In conclusion, we learned a lot.'" },
+              { id: "c", text: "'In conclusion, we learned a lot.'" },
+              { id: "d", text: "'However, the results were unclear.'" },
             ],
             correctChoiceId: "b",
           },
@@ -641,9 +641,9 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "'For example, homework helps.'" },
+              { id: "a", text: "'However, homework is difficult.'" },
               { id: "b", text: "'Homework can help students practise what they learn.'" },
-              { id: "c", text: "'However, homework is difficult.'" },
+              { id: "c", text: "'For example, homework helps.'" },
               { id: "d", text: "'In conclusion, homework matters.'" },
             ],
             correctChoiceId: "b",
@@ -668,12 +668,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "'also'" },
-              { id: "b", text: "'however'" },
-              { id: "c", text: "'for example'" },
+              { id: "a", text: "'however'" },
+              { id: "b", text: "'for example'" },
+              { id: "c", text: "'also'" },
               { id: "d", text: "'because'" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -755,12 +755,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It is too long" },
-              { id: "b", text: "Ideas are not connected with linking words or logic" },
-              { id: "c", text: "It uses too many examples" },
-              { id: "d", text: "It has a clear topic sentence" },
+              { id: "a", text: "It uses too many examples" },
+              { id: "b", text: "It has a clear topic sentence" },
+              { id: "c", text: "Ideas are not connected with linking words or logic" },
+              { id: "d", text: "It is too long" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -835,12 +835,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "'however'" },
-              { id: "b", text: "'therefore'" },
-              { id: "c", text: "'for example'" },
-              { id: "d", text: "'also'" },
+              { id: "a", text: "'therefore'" },
+              { id: "b", text: "'however'" },
+              { id: "c", text: "'also'" },
+              { id: "d", text: "'for example'" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -869,9 +869,9 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "It introduces a contrasting point smoothly" },
-              { id: "b", text: "It confuses the reader" },
-              { id: "c", text: "It repeats the same idea" },
-              { id: "d", text: "It ends the paragraph" },
+              { id: "b", text: "It repeats the same idea" },
+              { id: "c", text: "It ends the paragraph" },
+              { id: "d", text: "It confuses the reader" },
             ],
             correctChoiceId: "a",
           },
@@ -929,12 +929,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "'The results were surprising.'" },
+              { id: "a", text: "'Technology changes fast.'" },
               { id: "b", text: "'We need more research.'" },
-              { id: "c", text: "'Technology changes fast.'" },
-              { id: "d", text: "All sentences are cohesive" },
+              { id: "c", text: "All sentences are cohesive" },
+              { id: "d", text: "'The results were surprising.'" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [

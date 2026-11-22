@@ -54,12 +54,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Ask the first $30$ students who arrive at school" },
-              { id: "b", text: "Ask $30$ students chosen at random from the school roster" },
+              { id: "a", text: "Ask $30$ students chosen at random from the school roster" },
+              { id: "b", text: "Ask the first $30$ students who arrive at school" },
               { id: "c", text: "Ask the $30$ students in the cafeteria line" },
               { id: "d", text: "Ask the $30$ members of the cooking club" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -192,11 +192,11 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$\\frac{1}{5}$" },
-              { id: "b", text: "$\\frac{3}{10}$" },
+              { id: "b", text: "$\\frac{1}{2}$" },
               { id: "c", text: "$\\frac{5}{8}$" },
-              { id: "d", text: "$\\frac{1}{2}$" },
+              { id: "d", text: "$\\frac{3}{10}$" },
             ],
-            correctChoiceId: "d",
+            correctChoiceIb: "d",
           },
           markscheme: {
             principles: [

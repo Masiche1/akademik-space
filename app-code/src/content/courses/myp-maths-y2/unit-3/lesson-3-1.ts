@@ -59,9 +59,9 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$5\\pi\\ \\text{cm}$" },
+              { id: "a", text: "$20\\pi\\ \\text{cm}$" },
               { id: "b", text: "$10\\pi\\ \\text{cm}$" },
-              { id: "c", text: "$20\\pi\\ \\text{cm}$" },
+              { id: "c", text: "$5\\pi\\ \\text{cm}$" },
               { id: "d", text: "$25\\pi\\ \\text{cm}$" },
             ],
             correctChoiceId: "b",
@@ -164,10 +164,10 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$4\\pi\\ \\text{cm}$" },
+              { id: "a", text: "$64\\pi\\ \\text{cm}$" },
               { id: "b", text: "$8\\pi\\ \\text{cm}$" },
-              { id: "c", text: "$16\\pi\\ \\text{cm}$" },
-              { id: "d", text: "$64\\pi\\ \\text{cm}$" },
+              { id: "c", text: "$4\\pi\\ \\text{cm}$" },
+              { id: "d", text: "$16\\pi\\ \\text{cm}$" },
             ],
             correctChoiceId: "b",
           },
@@ -191,12 +191,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$10\\pi\\ \\text{cm}^2$" },
-              { id: "b", text: "$25\\pi\\ \\text{cm}^2$" },
-              { id: "c", text: "$5\\pi\\ \\text{cm}^2$" },
-              { id: "d", text: "$50\\pi\\ \\text{cm}^2$" },
+              { id: "a", text: "$25\\pi\\ \\text{cm}^2$" },
+              { id: "b", text: "$10\\pi\\ \\text{cm}^2$" },
+              { id: "c", text: "$50\\pi\\ \\text{cm}^2$" },
+              { id: "d", text: "$5\\pi\\ \\text{cm}^2$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -238,12 +238,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$9$" },
-              { id: "b", text: "$18$" },
-              { id: "c", text: "$36$" },
-              { id: "d", text: "$81$" },
+              { id: "a", text: "$36$" },
+              { id: "b", text: "$9$" },
+              { id: "c", text: "$81$" },
+              { id: "d", text: "$18$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -265,12 +265,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$8\\pi\\ \\text{cm}^2$" },
+              { id: "a", text: "$4\\pi\\ \\text{cm}^2$" },
               { id: "b", text: "$16\\pi\\ \\text{cm}^2$" },
-              { id: "c", text: "$4\\pi\\ \\text{cm}^2$" },
-              { id: "d", text: "$32\\pi\\ \\text{cm}^2$" },
+              { id: "c", text: "$32\\pi\\ \\text{cm}^2$" },
+              { id: "d", text: "$8\\pi\\ \\text{cm}^2$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -332,12 +332,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Circle A has twice the area of circle B" },
-              { id: "b", text: "Circle B has twice the area of circle A" },
-              { id: "c", text: "The areas are equal" },
+              { id: "a", text: "Circle B has twice the area of circle A" },
+              { id: "b", text: "The areas are equal" },
+              { id: "c", text: "Circle A has twice the area of circle B" },
               { id: "d", text: "Circle A has four times the area of circle B" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -510,12 +510,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\pi\\ \\text{cm}$" },
-              { id: "b", text: "$2\\pi\\ \\text{cm}$" },
-              { id: "c", text: "$4\\pi\\ \\text{cm}$" },
-              { id: "d", text: "$8\\pi\\ \\text{cm}$" },
+              { id: "a", text: "$4\\pi\\ \\text{cm}$" },
+              { id: "b", text: "$8\\pi\\ \\text{cm}$" },
+              { id: "c", text: "$2\\pi\\ \\text{cm}$" },
+              { id: "d", text: "$\\pi\\ \\text{cm}$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -617,12 +617,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\pi\\ \\text{cm}$" },
-              { id: "b", text: "$2\\pi\\ \\text{cm}$" },
-              { id: "c", text: "$6\\pi\\ \\text{cm}$" },
-              { id: "d", text: "$12\\pi\\ \\text{cm}$" },
+              { id: "a", text: "$12\\pi\\ \\text{cm}$" },
+              { id: "b", text: "$\\pi\\ \\text{cm}$" },
+              { id: "c", text: "$2\\pi\\ \\text{cm}$" },
+              { id: "d", text: "$6\\pi\\ \\text{cm}$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -644,12 +644,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$10\\pi\\ \\text{cm}^3$" },
-              { id: "b", text: "$20\\pi\\ \\text{cm}^3$" },
-              { id: "c", text: "$25\\pi\\ \\text{cm}^3$" },
-              { id: "d", text: "$4\\pi\\ \\text{cm}^3$" },
+              { id: "a", text: "$25\\pi\\ \\text{cm}^3$" },
+              { id: "b", text: "$10\\pi\\ \\text{cm}^3$" },
+              { id: "c", text: "$4\\pi\\ \\text{cm}^3$" },
+              { id: "d", text: "$20\\pi\\ \\text{cm}^3$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -690,10 +690,10 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$70\\ \\text{cm}^3$" },
+              { id: "a", text: "$240\\ \\text{cm}^3$" },
               { id: "b", text: "$120\\ \\text{cm}^3$" },
-              { id: "c", text: "$60\\ \\text{cm}^3$" },
-              { id: "d", text: "$240\\ \\text{cm}^3$" },
+              { id: "c", text: "$70\\ \\text{cm}^3$" },
+              { id: "d", text: "$60\\ \\text{cm}^3$" },
             ],
             correctChoiceId: "b",
           },
@@ -718,9 +718,9 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$5\\pi\\ \\text{cm}$" },
-              { id: "b", text: "$10\\pi\\ \\text{cm}$" },
-              { id: "c", text: "$2.5\\pi\\ \\text{cm}$" },
-              { id: "d", text: "$\\pi\\ \\text{cm}$" },
+              { id: "b", text: "$\\pi\\ \\text{cm}$" },
+              { id: "c", text: "$10\\pi\\ \\text{cm}$" },
+              { id: "d", text: "$2.5\\pi\\ \\text{cm}$" },
             ],
             correctChoiceId: "a",
           },
@@ -783,12 +783,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Cylinder A" },
-              { id: "b", text: "Cylinder B" },
+              { id: "a", text: "Cylinder B" },
+              { id: "b", text: "Cylinder A" },
               { id: "c", text: "They are equal" },
               { id: "d", text: "Cannot be determined" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

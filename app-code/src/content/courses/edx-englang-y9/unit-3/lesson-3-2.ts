@@ -65,12 +65,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "To raise a counter-argument and answer it" },
+              { id: "a", text: "To describe a school day in detail" },
               { id: "b", text: "To introduce the writer's family" },
-              { id: "c", text: "To summarise the whole argument" },
-              { id: "d", text: "To describe a school day in detail" },
+              { id: "c", text: "To raise a counter-argument and answer it" },
+              { id: "d", text: "To summarise the whole argument" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Counter-argument", statement: "Raising an opposing view in order to answer it." }],
@@ -216,12 +216,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Repetition for emphasis" },
-              { id: "b", text: "Simile" },
+              { id: "a", text: "Onomatopoeia" },
+              { id: "b", text: "Repetition for emphasis" },
               { id: "c", text: "Personification" },
-              { id: "d", text: "Onomatopoeia" },
+              { id: "d", text: "Simile" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Repetition", statement: "Repeating a word for emphasis and memorability." }],

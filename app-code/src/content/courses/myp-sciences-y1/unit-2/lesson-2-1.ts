@@ -59,12 +59,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Respiration" },
-              { id: "b", text: "Excretion" },
-              { id: "c", text: "Sensitivity" },
-              { id: "d", text: "Nutrition" },
+              { id: "a", text: "Sensitivity" },
+              { id: "b", text: "Nutrition" },
+              { id: "c", text: "Excretion" },
+              { id: "d", text: "Respiration" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -158,12 +158,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Excretion" },
-              { id: "b", text: "Nutrition" },
-              { id: "c", text: "Sensitivity" },
-              { id: "d", text: "Movement" },
+              { id: "a", text: "Movement" },
+              { id: "b", text: "Sensitivity" },
+              { id: "c", text: "Nutrition" },
+              { id: "d", text: "Excretion" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -185,12 +185,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Nucleus" },
-              { id: "b", text: "Cell membrane" },
-              { id: "c", text: "Chloroplasts" },
-              { id: "d", text: "Mitochondria" },
+              { id: "a", text: "Cell membrane" },
+              { id: "b", text: "Chloroplasts" },
+              { id: "c", text: "Mitochondria" },
+              { id: "d", text: "Nucleus" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -213,11 +213,11 @@ export const lesson21: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "To control what enters and leaves the cell" },
-              { id: "b", text: "To release energy by respiration" },
-              { id: "c", text: "To carry out photosynthesis" },
-              { id: "d", text: "To store water in plant cells" },
+              { id: "b", text: "To carry out photosynthesis" },
+              { id: "c", text: "To store water in plant cells" },
+              { id: "d", text: "To release energy by respiration" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -258,12 +258,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "To release energy by respiration" },
-              { id: "b", text: "To carry out a lot of photosynthesis" },
-              { id: "c", text: "To control what enters the cell" },
-              { id: "d", text: "To support the cell wall" },
+              { id: "a", text: "To carry out a lot of photosynthesis" },
+              { id: "b", text: "To release energy by respiration" },
+              { id: "c", text: "To support the cell wall" },
+              { id: "d", text: "To control what enters the cell" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -488,12 +488,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$2\\ \\mu\\text{m}$" },
-              { id: "b", text: "$20\\ \\mu\\text{m}$" },
-              { id: "c", text: "$200\\ \\mu\\text{m}$" },
-              { id: "d", text: "$2000\\ \\mu\\text{m}$" },
+              { id: "a", text: "$2000\\ \\mu\\text{m}$" },
+              { id: "b", text: "$200\\ \\mu\\text{m}$" },
+              { id: "c", text: "$2\\ \\mu\\text{m}$" },
+              { id: "d", text: "$20\\ \\mu\\text{m}$" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -589,10 +589,10 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\times50$" },
+              { id: "a", text: "$\\times14$" },
               { id: "b", text: "$\\times400$" },
               { id: "c", text: "$\\times410$" },
-              { id: "d", text: "$\\times14$" },
+              { id: "d", text: "$\\times50$" },
             ],
             correctChoiceId: "b",
           },
@@ -618,8 +618,8 @@ export const lesson21: Lesson = {
             choices: [
               { id: "a", text: "Because the image is always sharper at low power" },
               { id: "b", text: "Because the specimen is easier to find and the lens is less likely to damage the slide" },
-              { id: "c", text: "Because high-power lenses cannot be used on thin sections" },
-              { id: "d", text: "Because low-power lenses use less light" },
+              { id: "c", text: "Because low-power lenses use less light" },
+              { id: "d", text: "Because high-power lenses cannot be used on thin sections" },
             ],
             correctChoiceId: "b",
           },
@@ -643,12 +643,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Fine focus" },
-              { id: "b", text: "Coarse focus" },
+              { id: "a", text: "Coarse focus" },
+              { id: "b", text: "Fine focus" },
               { id: "c", text: "The light intensity dial" },
               { id: "d", text: "The stage clips" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -689,12 +689,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$5\\ \\mu\\text{m}$" },
-              { id: "b", text: "$50\\ \\mu\\text{m}$" },
-              { id: "c", text: "$500\\ \\mu\\text{m}$" },
+              { id: "a", text: "$50\\ \\mu\\text{m}$" },
+              { id: "b", text: "$500\\ \\mu\\text{m}$" },
+              { id: "c", text: "$5\\ \\mu\\text{m}$" },
               { id: "d", text: "$5000\\ \\mu\\text{m}$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

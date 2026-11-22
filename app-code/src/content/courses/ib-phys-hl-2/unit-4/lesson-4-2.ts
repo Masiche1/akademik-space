@@ -85,15 +85,15 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "The peak value divided by 2" },
               {
-                id: "a",
+                id: "b",
                 text: "The DC value giving the same power dissipation",
               },
-              { id: "b", text: "The peak value divided by 2" },
               { id: "c", text: "The average of positive and negative peaks" },
               { id: "d", text: "The maximum instantaneous value" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -305,12 +305,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "70.7 V" },
-              { id: "b", text: "141 V" },
-              { id: "c", text: "200 V" },
-              { id: "d", text: "100 V" },
+              { id: "a", text: "141 V" },
+              { id: "b", text: "70.7 V" },
+              { id: "c", text: "100 V" },
+              { id: "d", text: "200 V" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -347,15 +347,15 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "It varies less with frequency" },
+              { id: "b", text: "It is always half the peak value" },
+              { id: "c", text: "It is easier to measure with a voltmeter" },
               {
-                id: "a",
+                id: "d",
                 text: "It gives the same power dissipation as an equivalent DC supply",
               },
-              { id: "b", text: "It is easier to measure with a voltmeter" },
-              { id: "c", text: "It is always half the peak value" },
-              { id: "d", text: "It varies less with frequency" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -394,8 +394,8 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "163 V" },
-              { id: "b", text: "230 V" },
+              { id: "a", text: "230 V" },
+              { id: "b", text: "163 V" },
               { id: "c", text: "325 V" },
               { id: "d", text: "460 V" },
             ],
@@ -437,12 +437,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$P = V_{rms} I_{rms} = I_{rms}^2 R$" },
+              { id: "a", text: "$P = 0$ because current reverses" },
               { id: "b", text: "$P = V_0 I_0$ (peak values)" },
-              { id: "c", text: "$P = 0$ because current reverses" },
+              { id: "c", text: "$P = V_{rms} I_{rms} = I_{rms}^2 R$" },
               { id: "d", text: "$P = V_{rms}/I_{rms}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -480,12 +480,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "50 ms" },
-              { id: "b", text: "20 ms" },
-              { id: "c", text: "100 ms" },
-              { id: "d", text: "10 ms" },
+              { id: "a", text: "20 ms" },
+              { id: "b", text: "100 ms" },
+              { id: "c", text: "10 ms" },
+              { id: "d", text: "50 ms" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -933,12 +933,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "More secondary turns than primary turns" },
-              { id: "b", text: "Fewer secondary turns than primary turns" },
-              { id: "c", text: "Equal turns on both coils" },
-              { id: "d", text: "No iron core" },
+              { id: "a", text: "Equal turns on both coils" },
+              { id: "b", text: "More secondary turns than primary turns" },
+              { id: "c", text: "No iron core" },
+              { id: "d", text: "Fewer secondary turns than primary turns" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1162,11 +1162,11 @@ export const lesson42: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$N_p/N_s$" },
-              { id: "b", text: "$N_s/N_p$" },
-              { id: "c", text: "$I_s/I_p$" },
-              { id: "d", text: "1 for all transformers" },
+              { id: "b", text: "$I_s/I_p$" },
+              { id: "c", text: "1 for all transformers" },
+              { id: "d", text: "$N_s/N_p$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1204,12 +1204,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Decreases voltage and increases current" },
+              { id: "a", text: "Decreases both voltage and current" },
               { id: "b", text: "Increases voltage and decreases current" },
-              { id: "c", text: "Keeps voltage and current unchanged" },
-              { id: "d", text: "Decreases both voltage and current" },
+              { id: "c", text: "Decreases voltage and increases current" },
+              { id: "d", text: "Keeps voltage and current unchanged" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1248,12 +1248,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Reduce eddy current losses" },
-              { id: "b", text: "Increase the resistance of the windings" },
+              { id: "a", text: "Increase the resistance of the windings" },
+              { id: "b", text: "Reduce eddy current losses" },
               { id: "c", text: "Make the transformer lighter" },
               { id: "d", text: "Allow DC to pass through" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1292,12 +1292,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Eddy currents in the core" },
+              { id: "a", text: "Flux leakage between coils" },
               { id: "b", text: "$I^2R$ heating in the windings" },
-              { id: "c", text: "Flux leakage between coils" },
-              { id: "d", text: "Induced EMF in the secondary" },
+              { id: "c", text: "Induced EMF in the secondary" },
+              { id: "d", text: "Eddy currents in the core" },
             ],
-            correctChoiceId: "d",
+            correctChoiceIc: "d",
           },
           markscheme: {
             principles: [
@@ -1336,12 +1336,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A step-up transformer with $N_s > N_p$" },
-              { id: "b", text: "A step-down transformer with $N_s < N_p$" },
-              { id: "c", text: "An isolating transformer with $N_s = N_p$" },
+              { id: "a", text: "An isolating transformer with $N_s = N_p$" },
+              { id: "b", text: "A step-up transformer with $N_s > N_p$" },
+              { id: "c", text: "A step-down transformer with $N_s < N_p$" },
               { id: "d", text: "A transformer with no turns ratio" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

@@ -57,12 +57,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Maintaining stable internal conditions despite external changes" },
-              { id: "b", text: "Growing to adult size" },
-              { id: "c", text: "Repairing damaged tissues" },
+              { id: "a", text: "Repairing damaged tissues" },
+              { id: "b", text: "Maintaining stable internal conditions despite external changes" },
+              { id: "c", text: "Growing to adult size" },
               { id: "d", text: "Producing offspring" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -85,8 +85,8 @@ export const lesson23: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Insulin" },
-              { id: "b", text: "Glucagon" },
-              { id: "c", text: "Adrenaline" },
+              { id: "b", text: "Adrenaline" },
+              { id: "c", text: "Glucagon" },
               { id: "d", text: "Thyroxine" },
             ],
             correctChoiceId: "a",
@@ -112,12 +112,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Sweat glands secrete sweat (evaporative cooling), blood vessels dilate to increase heat loss, hairs lie flat" },
+              { id: "a", text: "Blood vessels constrict to trap heat" },
               { id: "b", text: "Shivering increases heat production" },
-              { id: "c", text: "Blood vessels constrict to trap heat" },
-              { id: "d", text: "Hairs erect to trap air" },
+              { id: "c", text: "Hairs erect to trap air" },
+              { id: "d", text: "Sweat glands secrete sweat (evaporative cooling), blood vessels dilate to increase heat loss, hairs lie flat" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -172,12 +172,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A change triggers a response that reverses the change, restoring the set point" },
-              { id: "b", text: "The body always heats up when cold" },
+              { id: "a", text: "Responses amplify the initial change" },
+              { id: "b", text: "A change triggers a response that reverses the change, restoring the set point" },
               { id: "c", text: "Conditions change randomly" },
-              { id: "d", text: "Responses amplify the initial change" },
+              { id: "d", text: "The body always heats up when cold" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -199,12 +199,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Insulin" },
-              { id: "b", text: "Glucagon" },
-              { id: "c", text: "Adrenaline" },
-              { id: "d", text: "Thyroxine" },
+              { id: "a", text: "Glucagon" },
+              { id: "b", text: "Adrenaline" },
+              { id: "c", text: "Thyroxine" },
+              { id: "d", text: "Insulin" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -228,9 +228,9 @@ export const lesson23: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Shivering generates heat, blood vessels constrict to reduce heat loss, hairs erect to trap air" },
-              { id: "b", text: "Sweating increases heat loss" },
+              { id: "b", text: "Hairs lie flat to release heat" },
               { id: "c", text: "Blood vessels dilate to warm skin" },
-              { id: "d", text: "Hairs lie flat to release heat" },
+              { id: "d", text: "Sweating increases heat loss" },
             ],
             correctChoiceId: "a",
           },
@@ -466,12 +466,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Without insulin, cells cannot absorb glucose and the liver cannot store it as glycogen — glucose accumulates in blood" },
-              { id: "b", text: "Glucagon stops being produced" },
-              { id: "c", text: "The pancreas produces too much insulin" },
-              { id: "d", text: "Cells start producing glucose" },
+              { id: "a", text: "Cells start producing glucose" },
+              { id: "b", text: "Without insulin, cells cannot absorb glucose and the liver cannot store it as glycogen — glucose accumulates in blood" },
+              { id: "c", text: "Glucagon stops being produced" },
+              { id: "d", text: "The pancreas produces too much insulin" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -527,12 +527,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Oviduct (fallopian tube)" },
-              { id: "b", text: "Uterus" },
-              { id: "c", text: "Ovary" },
-              { id: "d", text: "Vagina" },
+              { id: "a", text: "Uterus" },
+              { id: "b", text: "Vagina" },
+              { id: "c", text: "Oviduct (fallopian tube)" },
+              { id: "d", text: "Ovary" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -554,12 +554,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Exchanges nutrients and wastes between mother and fetus" },
-              { id: "b", text: "Produces hormones only" },
-              { id: "c", text: "Protects fetus from all disease" },
+              { id: "a", text: "Produces hormones only" },
+              { id: "b", text: "Protects fetus from all disease" },
+              { id: "c", text: "Exchanges nutrients and wastes between mother and fetus" },
               { id: "d", text: "Stores food for baby" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -583,8 +583,8 @@ export const lesson23: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Bright petals attract insects; nectaries reward them; stamens produce pollen; sticky stigma traps pollen; ovary contains ovules" },
-              { id: "b", text: "All parts are identical" },
-              { id: "c", text: "Only petals matter" },
+              { id: "b", text: "Only petals matter" },
+              { id: "c", text: "All parts are identical" },
               { id: "d", text: "Wind carries pollen to stigma" },
             ],
             correctChoiceId: "a",
@@ -642,12 +642,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Testes" },
-              { id: "b", text: "Ovaries" },
-              { id: "c", text: "Prostate gland" },
-              { id: "d", text: "Seminal vesicle" },
+              { id: "a", text: "Seminal vesicle" },
+              { id: "b", text: "Prostate gland" },
+              { id: "c", text: "Testes" },
+              { id: "d", text: "Ovaries" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -669,12 +669,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Exchanges nutrients and wastes between mother and fetus without blood mixing" },
-              { id: "b", text: "Produces all fetal hormones" },
-              { id: "c", text: "Protects fetus from all infection" },
+              { id: "a", text: "Produces all fetal hormones" },
+              { id: "b", text: "Protects fetus from all infection" },
+              { id: "c", text: "Exchanges nutrients and wastes between mother and fetus without blood mixing" },
               { id: "d", text: "Stores food for the baby" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -697,12 +697,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "One sperm fertilizes the egg forming the zygote while a second sperm fuses with polar nuclei forming the endosperm" },
-              { id: "b", text: "Two eggs are fertilized to make twins" },
-              { id: "c", text: "Two pollen grains fertilize one ovule" },
-              { id: "d", text: "The same sperm fertilizes twice" },
+              { id: "a", text: "Two pollen grains fertilize one ovule" },
+              { id: "b", text: "One sperm fertilizes the egg forming the zygote while a second sperm fuses with polar nuclei forming the endosperm" },
+              { id: "c", text: "The same sperm fertilizes twice" },
+              { id: "d", text: "Two eggs are fertilized to make twins" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -936,12 +936,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "To reduce competition for light, water and nutrients and colonise new areas" },
-              { id: "b", text: "To escape predators only" },
-              { id: "c", text: "To increase genetic diversity directly" },
+              { id: "a", text: "To escape predators only" },
+              { id: "b", text: "To increase genetic diversity directly" },
+              { id: "c", text: "To reduce competition for light, water and nutrients and colonise new areas" },
               { id: "d", text: "Seeds cannot germinate near parents" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

@@ -57,10 +57,10 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "They attract" },
+              { id: "a", text: "They cancel" },
               { id: "b", text: "They repel" },
-              { id: "c", text: "Nothing" },
-              { id: "d", text: "They cancel" },
+              { id: "c", text: "They attract" },
+              { id: "d", text: "Nothing" },
             ],
             correctChoiceId: "b",
           },
@@ -82,10 +82,10 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A permanent magnet made of electricity" },
+              { id: "a", text: "A magnet that only works underwater" },
               { id: "b", text: "A coil of wire around an iron core carrying current" },
-              { id: "c", text: "A magnet that only works underwater" },
-              { id: "d", text: "A battery-powered compass" },
+              { id: "c", text: "A battery-powered compass" },
+              { id: "d", text: "A permanent magnet made of electricity" },
             ],
             correctChoiceId: "b",
           },
@@ -108,10 +108,10 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Increasing the current" },
+              { id: "a", text: "Using soft iron instead of steel" },
               { id: "b", text: "Adding more coil turns" },
               { id: "c", text: "Replacing iron core with wood" },
-              { id: "d", text: "Using soft iron instead of steel" },
+              { id: "d", text: "Increasing the current" },
             ],
             correctChoiceId: "c",
           },
@@ -167,10 +167,10 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "repel" },
+              { id: "a", text: "cancel each other" },
               { id: "b", text: "attract" },
-              { id: "c", text: "do nothing" },
-              { id: "d", text: "cancel each other" },
+              { id: "c", text: "repel" },
+              { id: "d", text: "do nothing" },
             ],
             correctChoiceId: "b",
           },
@@ -236,12 +236,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "At the exact centre" },
-              { id: "b", text: "Near the poles" },
+              { id: "a", text: "Near the poles" },
+              { id: "b", text: "At the exact centre" },
               { id: "c", text: "Uniformly everywhere" },
               { id: "d", text: "Outside the magnet only" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Magnetic field", statement: "Field lines are densest near the poles → strongest field." }],
@@ -284,12 +284,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Electromagnets are always stronger" },
-              { id: "b", text: "They can be switched on to lift and off to release — permanent magnets cannot be controlled" },
+              { id: "a", text: "They can be switched on to lift and off to release — permanent magnets cannot be controlled" },
+              { id: "b", text: "Electromagnets are always stronger" },
               { id: "c", text: "Permanent magnets don't work on metal" },
               { id: "d", text: "Electromagnets are cheaper to make" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Electromagnet", statement: "Magnetic only while current flows — controllable on/off." }],
@@ -335,8 +335,8 @@ export const lesson32: Lesson = {
             choices: [
               { id: "a", text: "the geographic north pole" },
               { id: "b", text: "the geographic south pole" },
-              { id: "c", text: "the equator" },
-              { id: "d", text: "random directions" },
+              { id: "c", text: "random directions" },
+              { id: "d", text: "the equator" },
             ],
             correctChoiceId: "a",
           },
@@ -402,12 +402,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The air-core one — air doesn't interfere" },
-              { id: "b", text: "The iron-core one — soft iron concentrates and strengthens the magnetic field" },
-              { id: "c", text: "Both are equally strong" },
+              { id: "a", text: "Both are equally strong" },
+              { id: "b", text: "The air-core one — air doesn't interfere" },
+              { id: "c", text: "The iron-core one — soft iron concentrates and strengthens the magnetic field" },
               { id: "d", text: "Neither produces a field" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Core material", statement: "Ferromagnetic core (iron) concentrates field lines → stronger magnet." }],
@@ -429,12 +429,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Nothing changes" },
-              { id: "b", text: "The poles swap — north becomes south and vice versa" },
-              { id: "c", text: "The magnetism disappears" },
+              { id: "a", text: "The magnetism disappears" },
+              { id: "b", text: "Nothing changes" },
+              { id: "c", text: "The poles swap — north becomes south and vice versa" },
               { id: "d", text: "The strength doubles" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Field direction", statement: "Pole direction depends on current direction (right-hand grip rule)." }],
@@ -488,12 +488,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Kinetic to electrical" },
-              { id: "b", text: "Electrical to kinetic" },
+              { id: "a", text: "Light to sound" },
+              { id: "b", text: "Kinetic to electrical" },
               { id: "c", text: "Chemical to thermal" },
-              { id: "d", text: "Light to sound" },
+              { id: "d", text: "Electrical to kinetic" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Motor", statement: "Electrical energy → rotation." }],
@@ -513,12 +513,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Creating magnetism from electricity" },
-              { id: "b", text: "Inducing a voltage by moving a conductor in a magnetic field" },
-              { id: "c", text: "Storing charge in a capacitor" },
-              { id: "d", text: "Heating a wire with current" },
+              { id: "a", text: "Inducing a voltage by moving a conductor in a magnetic field" },
+              { id: "b", text: "Creating magnetism from electricity" },
+              { id: "c", text: "Heating a wire with current" },
+              { id: "d", text: "Storing charge in a capacitor" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Induction", statement: "Relative motion between conductor and field induces EMF." }],
@@ -539,12 +539,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It increases the voltage" },
-              { id: "b", text: "It reverses current direction every half-turn so force stays in same rotational direction" },
-              { id: "c", text: "It prevents overheating" },
-              { id: "d", text: "It stores energy" },
+              { id: "a", text: "It prevents overheating" },
+              { id: "b", text: "It stores energy" },
+              { id: "c", text: "It reverses current direction every half-turn so force stays in same rotational direction" },
+              { id: "d", text: "It increases the voltage" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Commutator", statement: "Reverses current each half-turn to maintain torque." }],
@@ -597,12 +597,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Electrical to kinetic" },
-              { id: "b", text: "Kinetic to electrical" },
+              { id: "a", text: "Light to sound" },
+              { id: "b", text: "Electrical to kinetic" },
               { id: "c", text: "Chemical to electrical" },
-              { id: "d", text: "Light to sound" },
+              { id: "d", text: "Kinetic to electrical" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Generator", statement: "Mechanical rotation → induced voltage → electrical energy." }],
@@ -666,10 +666,10 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "the direction of induced current in a generator" },
+              { id: "a", text: "the resistance of a wire" },
               { id: "b", text: "the direction of force on a current-carrying conductor in a motor" },
               { id: "c", text: "the voltage of a battery" },
-              { id: "d", text: "the resistance of a wire" },
+              { id: "d", text: "the direction of induced current in a generator" },
             ],
             correctChoiceId: "b",
           },
@@ -714,12 +714,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It increases the current" },
-              { id: "b", text: "It reverses current direction every half-turn so the force keeps rotating the coil the same way" },
-              { id: "c", text: "It stores charge" },
-              { id: "d", text: "It prevents the coil overheating" },
+              { id: "a", text: "It stores charge" },
+              { id: "b", text: "It prevents the coil overheating" },
+              { id: "c", text: "It reverses current direction every half-turn so the force keeps rotating the coil the same way" },
+              { id: "d", text: "It increases the current" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Commutator", statement: "Reverses current each half-turn → force direction maintained → continuous rotation." }],
@@ -764,11 +764,11 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "creating a magnet from a coil" },
-              { id: "b", text: "inducing a voltage when a conductor moves in a magnetic field" },
-              { id: "c", text: "storing energy in a battery" },
-              { id: "d", text: "heating a wire with current" },
+              { id: "b", text: "heating a wire with current" },
+              { id: "c", text: "inducing a voltage when a conductor moves in a magnetic field" },
+              { id: "d", text: "storing energy in a battery" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Induction", statement: "Relative motion between conductor and field induces EMF." }],
@@ -859,9 +859,9 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "AC is safer to touch" },
+              { id: "a", text: "DC cannot power appliances" },
               { id: "b", text: "Transformers only work with AC because they need a changing magnetic flux" },
-              { id: "c", text: "DC cannot power appliances" },
+              { id: "c", text: "AC is safer to touch" },
               { id: "d", text: "AC travels faster in wires" },
             ],
             correctChoiceId: "b",

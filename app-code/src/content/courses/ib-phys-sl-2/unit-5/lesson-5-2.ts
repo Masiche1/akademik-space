@@ -54,12 +54,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The p.d. across the cell when current flows" },
-              { id: "b", text: "The energy transferred per unit charge by the cell" },
+              { id: "a", text: "The energy transferred per unit charge by the cell" },
+              { id: "b", text: "The p.d. across the cell when current flows" },
               { id: "c", text: "The resistance inside the cell" },
               { id: "d", text: "The power output of the cell" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -81,12 +81,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$0.50$ A" },
-              { id: "b", text: "$0.60$ A" },
-              { id: "c", text: "$3.0$ A" },
-              { id: "d", text: "$1.7$ A" },
+              { id: "a", text: "$0.60$ A" },
+              { id: "b", text: "$3.0$ A" },
+              { id: "c", text: "$1.7$ A" },
+              { id: "d", text: "$0.50$ A" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -109,12 +109,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Current $2.0$ A; terminal p.d. $10$ V; lost volts $2.0$ V" },
+              { id: "a", text: "Current $1.4$ A; terminal p.d. $7.0$ V; lost volts $5.0$ V" },
               { id: "b", text: "Current $2.0$ A; terminal p.d. $12$ V; lost volts $0$ V" },
-              { id: "c", text: "Current $1.4$ A; terminal p.d. $7.0$ V; lost volts $5.0$ V" },
-              { id: "d", text: "Current $2.4$ A; terminal p.d. $10$ V; lost volts $2.0$ V" },
+              { id: "c", text: "Current $2.4$ A; terminal p.d. $10$ V; lost volts $2.0$ V" },
+              { id: "d", text: "Current $2.0$ A; terminal p.d. $10$ V; lost volts $2.0$ V" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -170,12 +170,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The resistance of the connecting wires in the circuit" },
-              { id: "b", text: "The resistance of the cell's own electrolyte and electrodes" },
-              { id: "c", text: "The resistance of the external load" },
-              { id: "d", text: "The resistance of the ammeter used to measure the current" },
+              { id: "a", text: "The resistance of the ammeter used to measure the current" },
+              { id: "b", text: "The resistance of the external load" },
+              { id: "c", text: "The resistance of the connecting wires in the circuit" },
+              { id: "d", text: "The resistance of the cell's own electrolyte and electrodes" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -197,12 +197,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$5.0$ V" },
-              { id: "b", text: "$4.0$ V" },
+              { id: "a", text: "$4.0$ V" },
+              { id: "b", text: "$5.0$ V" },
               { id: "c", text: "$1.0$ V" },
               { id: "d", text: "$0.80$ V" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -256,12 +256,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$0.60\\,\\Omega$" },
-              { id: "b", text: "$3.0\\,\\Omega$" },
-              { id: "c", text: "$0.30\\,\\Omega$" },
-              { id: "d", text: "$2.5\\,\\Omega$" },
+              { id: "a", text: "$2.5\\,\\Omega$" },
+              { id: "b", text: "$0.30\\,\\Omega$" },
+              { id: "c", text: "$0.60\\,\\Omega$" },
+              { id: "d", text: "$3.0\\,\\Omega$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -340,11 +340,11 @@ export const lesson52: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$18$ A" },
-              { id: "b", text: "$2.0$ A" },
-              { id: "c", text: "$9.0$ A" },
-              { id: "d", text: "$0.50$ A" },
+              { id: "b", text: "$9.0$ A" },
+              { id: "c", text: "$0.50$ A" },
+              { id: "d", text: "$2.0$ A" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -425,9 +425,9 @@ export const lesson52: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$Ir$" },
-              { id: "b", text: "$I/r$" },
+              { id: "b", text: "$V/r$" },
               { id: "c", text: "$\\varepsilon I$" },
-              { id: "d", text: "$V/r$" },
+              { id: "d", text: "$I/r$" },
             ],
             correctChoiceId: "a",
           },
@@ -542,11 +542,11 @@ export const lesson52: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Along the wire, in the direction of the current" },
-              { id: "b", text: "Perpendicular to both the field and the current" },
+              { id: "b", text: "There is no force" },
               { id: "c", text: "Parallel to the magnetic field" },
-              { id: "d", text: "There is no force" },
+              { id: "d", text: "Perpendicular to both the field and the current" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -568,12 +568,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$0.30$ N" },
-              { id: "b", text: "$0.083$ N" },
-              { id: "c", text: "$3.0$ N" },
+              { id: "a", text: "$3.0$ N" },
+              { id: "b", text: "$0.30$ N" },
+              { id: "c", text: "$0.083$ N" },
               { id: "d", text: "$0.15$ N" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -596,12 +596,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Induced e.m.f. $8.0$ V" },
-              { id: "b", text: "Induced e.m.f. $80$ V" },
-              { id: "c", text: "Induced e.m.f. $0.80$ V" },
-              { id: "d", text: "Induced e.m.f. $200$ V" },
+              { id: "a", text: "Induced e.m.f. $0.80$ V" },
+              { id: "b", text: "Induced e.m.f. $8.0$ V" },
+              { id: "c", text: "Induced e.m.f. $200$ V" },
+              { id: "d", text: "Induced e.m.f. $80$ V" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -657,12 +657,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "the direction of the induced e.m.f. in a coil" },
-              { id: "b", text: "the direction of the force on a current-carrying conductor in a magnetic field" },
-              { id: "c", text: "the magnitude of the magnetic flux through a loop" },
-              { id: "d", text: "the frequency of an a.c. supply" },
+              { id: "a", text: "the frequency of an a.c. supply" },
+              { id: "b", text: "the direction of the induced e.m.f. in a coil" },
+              { id: "c", text: "the direction of the force on a current-carrying conductor in a magnetic field" },
+              { id: "d", text: "the magnitude of the magnetic flux through a loop" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -787,11 +787,11 @@ export const lesson52: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "aids the change in magnetic flux that produces it" },
-              { id: "b", text: "opposes the change in magnetic flux that produces it" },
-              { id: "c", text: "flows only when the flux is constant" },
-              { id: "d", text: "is independent of the direction of the change" },
+              { id: "b", text: "flows only when the flux is constant" },
+              { id: "c", text: "is independent of the direction of the change" },
+              { id: "d", text: "opposes the change in magnetic flux that produces it" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -814,10 +814,10 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "creates a field that attracts the magnet, helping it move faster" },
+              { id: "a", text: "flows in a direction independent of the magnet's motion" },
               { id: "b", text: "creates a field that repels the magnet, opposing its approach" },
               { id: "c", text: "creates no field because the flux is increasing" },
-              { id: "d", text: "flows in a direction independent of the magnet's motion" },
+              { id: "d", text: "creates a field that attracts the magnet, helping it move faster" },
             ],
             correctChoiceId: "b",
           },
@@ -899,11 +899,11 @@ export const lesson52: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "A magnet is moved towards the coil" },
-              { id: "b", text: "The coil is rotated in a magnetic field" },
-              { id: "c", text: "A steady current flows in a stationary coil in a constant field" },
-              { id: "d", text: "The magnetic field through the coil is switched off" },
+              { id: "b", text: "The magnetic field through the coil is switched off" },
+              { id: "c", text: "The coil is rotated in a magnetic field" },
+              { id: "d", text: "A steady current flows in a stationary coil in a constant field" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -926,12 +926,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Coil A, because it has the larger flux change" },
+              { id: "a", text: "It cannot be determined without the areas of the coils" },
               { id: "b", text: "Coil B, because it has more turns" },
-              { id: "c", text: "They are equal" },
-              { id: "d", text: "It cannot be determined without the areas of the coils" },
+              { id: "c", text: "Coil A, because it has the larger flux change" },
+              { id: "d", text: "They are equal" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [

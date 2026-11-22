@@ -57,10 +57,10 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The list of characters" },
+              { id: "a", text: "The title of the story" },
               { id: "b", text: "The big idea or message the story explores" },
               { id: "c", text: "The setting of the story" },
-              { id: "d", text: "The title of the story" },
+              { id: "d", text: "The list of characters" },
             ],
             correctChoiceId: "b",
           },
@@ -188,12 +188,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Courage is more important than victory" },
-              { id: "b", text: "A girl climbs a mountain and finds a cave" },
-              { id: "c", text: "The story teaches us about friendship" },
-              { id: "d", text: "Nature is powerful" },
+              { id: "a", text: "The story teaches us about friendship" },
+              { id: "b", text: "Courage is more important than victory" },
+              { id: "c", text: "Nature is powerful" },
+              { id: "d", text: "A girl climbs a mountain and finds a cave" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

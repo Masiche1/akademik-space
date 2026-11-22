@@ -49,12 +49,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$9$ m" },
-              { id: "b", text: "$6$ m" },
+              { id: "a", text: "$6$ m" },
+              { id: "b", text: "$4.5$ m" },
               { id: "c", text: "$18$ m" },
-              { id: "d", text: "$4.5$ m" },
+              { id: "d", text: "$9$ m" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -170,12 +170,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$6$ m" },
-              { id: "b", text: "$12$ m" },
-              { id: "c", text: "$8$ m" },
-              { id: "d", text: "$4$ m" },
+              { id: "a", text: "$4$ m" },
+              { id: "b", text: "$8$ m" },
+              { id: "c", text: "$12$ m" },
+              { id: "d", text: "$6$ m" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -198,12 +198,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$9$ m" },
-              { id: "b", text: "$-9$ m" },
-              { id: "c", text: "$0$ m" },
-              { id: "d", text: "$18$ m" },
+              { id: "a", text: "$0$ m" },
+              { id: "b", text: "$9$ m" },
+              { id: "c", text: "$18$ m" },
+              { id: "d", text: "$-9$ m" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -226,9 +226,9 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$8$ m s$^{-1}$" },
+              { id: "a", text: "$5$ m s$^{-1}$" },
               { id: "b", text: "$9$ m s$^{-1}$" },
-              { id: "c", text: "$5$ m s$^{-1}$" },
+              { id: "c", text: "$8$ m s$^{-1}$" },
               { id: "d", text: "$17$ m s$^{-1}$" },
             ],
             correctChoiceId: "b",
@@ -254,12 +254,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$8$ m" },
-              { id: "b", text: "$8.5$ m" },
-              { id: "c", text: "$7.5$ m" },
-              { id: "d", text: "$-0.5$ m" },
+              { id: "a", text: "$7.5$ m" },
+              { id: "b", text: "$8$ m" },
+              { id: "c", text: "$-0.5$ m" },
+              { id: "d", text: "$8.5$ m" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -282,9 +282,9 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$0$ m" },
-              { id: "b", text: "$6$ m" },
-              { id: "c", text: "$-3$ m" },
+              { id: "a", text: "$-3$ m" },
+              { id: "b", text: "$0$ m" },
+              { id: "c", text: "$6$ m" },
               { id: "d", text: "$3$ m" },
             ],
             correctChoiceId: "d",
@@ -310,12 +310,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The particle must have changed direction during the interval." },
-              { id: "b", text: "The acceleration of the particle was constant." },
+              { id: "a", text: "The acceleration of the particle was constant." },
+              { id: "b", text: "The displacement must have been negative." },
               { id: "c", text: "The velocity of the particle was always positive." },
-              { id: "d", text: "The displacement must have been negative." },
+              { id: "d", text: "The particle must have changed direction during the interval." },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -535,12 +535,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$8$" },
-              { id: "b", text: "$2$" },
-              { id: "c", text: "$5$" },
-              { id: "d", text: "$15$" },
+              { id: "a", text: "$15$" },
+              { id: "b", text: "$5$" },
+              { id: "c", text: "$2$" },
+              { id: "d", text: "$8$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -660,12 +660,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$5$" },
-              { id: "b", text: "$14$" },
-              { id: "c", text: "$9$" },
-              { id: "d", text: "$-5$" },
+              { id: "a", text: "$9$" },
+              { id: "b", text: "$5$" },
+              { id: "c", text: "$-5$" },
+              { id: "d", text: "$14$" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -689,11 +689,11 @@ export const lesson63: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$3$" },
-              { id: "b", text: "$4$" },
+              { id: "b", text: "$2$" },
               { id: "c", text: "$5$" },
-              { id: "d", text: "$2$" },
+              { id: "d", text: "$4$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -716,12 +716,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Local minimum" },
-              { id: "b", text: "Local maximum" },
+              { id: "a", text: "Local maximum" },
+              { id: "b", text: "Not a stationary point" },
               { id: "c", text: "Point of inflection" },
-              { id: "d", text: "Not a stationary point" },
+              { id: "d", text: "Local minimum" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -745,11 +745,11 @@ export const lesson63: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$22$" },
-              { id: "b", text: "$8$" },
-              { id: "c", text: "$10$" },
-              { id: "d", text: "$18$" },
+              { id: "b", text: "$10$" },
+              { id: "c", text: "$18$" },
+              { id: "d", text: "$8$" },
             ],
-            correctChoiceId: "d",
+            correctChoiceIc: "d",
           },
           markscheme: {
             principles: [
@@ -772,12 +772,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$0$" },
-              { id: "b", text: "$4$" },
-              { id: "c", text: "$2$" },
+              { id: "a", text: "$2$" },
+              { id: "b", text: "$0$" },
+              { id: "c", text: "$4$" },
               { id: "d", text: "$-2$" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -800,12 +800,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The value of $f$ at one point." },
-              { id: "b", text: "The second derivative $f''(x)$." },
-              { id: "c", text: "The values of $f'$ at two points." },
+              { id: "a", text: "The values of $f'$ at two points." },
+              { id: "b", text: "The value of $f$ at one point." },
+              { id: "c", text: "The second derivative $f''(x)$." },
               { id: "d", text: "Nothing further; $f'(x)$ alone determines $f(x)$." },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [

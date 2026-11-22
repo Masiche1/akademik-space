@@ -56,12 +56,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Share capital" },
-              { id: "b", text: "Retained profit" },
-              { id: "c", text: "Working capital" },
-              { id: "d", text: "Loan capital" },
+              { id: "a", text: "Retained profit" },
+              { id: "b", text: "Loan capital" },
+              { id: "c", text: "Share capital" },
+              { id: "d", text: "Working capital" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Retained profit", statement: "Profit reinvested in the business rather than distributed to owners." }],
@@ -146,12 +146,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Bank loan" },
+              { id: "a", text: "Retained profit" },
               { id: "b", text: "Share issue" },
-              { id: "c", text: "Retained profit" },
-              { id: "d", text: "Government grant" },
+              { id: "c", text: "Government grant" },
+              { id: "d", text: "Bank loan" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Internal finance", statement: "Funds generated inside the business, such as retained profit, owner's capital and asset sales." }],
@@ -172,12 +172,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Requires no repayment or interest" },
-              { id: "b", text: "Never has any conditions attached" },
-              { id: "c", text: "Dilutes the owners' control" },
-              { id: "d", text: "Is always available to any business" },
+              { id: "a", text: "Is always available to any business" },
+              { id: "b", text: "Requires no repayment or interest" },
+              { id: "c", text: "Never has any conditions attached" },
+              { id: "d", text: "Dilutes the owners' control" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Grants", statement: "Government grants need no repayment but are competitive and often restricted to specific purposes." }],
@@ -301,10 +301,10 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Loan capital" },
+              { id: "a", text: "Trade credit" },
               { id: "b", text: "Internal finance" },
-              { id: "c", text: "Share capital" },
-              { id: "d", text: "Trade credit" },
+              { id: "c", text: "Loan capital" },
+              { id: "d", text: "Share capital" },
             ],
             correctChoiceId: "b",
           },
@@ -355,10 +355,10 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Retained profit" },
-              { id: "b", text: "Government grant" },
+              { id: "a", text: "Ordinary share issue" },
+              { id: "b", text: "Retained profit" },
               { id: "c", text: "Bank loan" },
-              { id: "d", text: "Ordinary share issue" },
+              { id: "d", text: "Government grant" },
             ],
             correctChoiceId: "c",
           },
@@ -422,12 +422,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A long-term loan from a bank" },
-              { id: "b", text: "A facility allowing a business to overdraw its current account up to an agreed limit" },
+              { id: "a", text: "A facility allowing a business to overdraw its current account up to an agreed limit" },
+              { id: "b", text: "A long-term loan from a bank" },
               { id: "c", text: "Money raised by selling shares" },
               { id: "d", text: "A government grant for expansion" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Overdraft", statement: "A bank facility letting a business overdraw its current account up to a limit — flexible short-term finance." }],
@@ -485,12 +485,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Must be repaid with interest after a fixed term" },
-              { id: "b", text: "Is permanent finance that does not have to be repaid" },
-              { id: "c", text: "Is only available to sole traders" },
-              { id: "d", text: "Never affects the owners' control" },
+              { id: "a", text: "Is permanent finance that does not have to be repaid" },
+              { id: "b", text: "Is only available to sole traders" },
+              { id: "c", text: "Never affects the owners' control" },
+              { id: "d", text: "Must be repaid with interest after a fixed term" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Share capital", statement: "Money raised by selling shares — permanent capital with no repayment obligation." }],
@@ -571,12 +571,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Issue of new shares" },
-              { id: "b", text: "Overdraft or short-term bank loan" },
+              { id: "a", text: "Overdraft or short-term bank loan" },
+              { id: "b", text: "Issue of new shares" },
               { id: "c", text: "Mortgage on company headquarters" },
               { id: "d", text: "Sale of the entire business" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Matching finance to need", statement: "Small, short-term gaps suit flexible short-term debt, not permanent equity." }],
@@ -670,8 +670,8 @@ export const lesson41: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Retained profit" },
-              { id: "b", text: "Owner's capital injection" },
-              { id: "c", text: "Sale of surplus assets" },
+              { id: "b", text: "Sale of surplus assets" },
+              { id: "c", text: "Owner's capital injection" },
               { id: "d", text: "Bank loan" },
             ],
             correctChoiceId: "d",
@@ -727,12 +727,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Hire purchase" },
-              { id: "b", text: "Trade credit" },
-              { id: "c", text: "Invoice discounting" },
+              { id: "a", text: "Trade credit" },
+              { id: "b", text: "Invoice discounting" },
+              { id: "c", text: "Hire purchase" },
               { id: "d", text: "Leasing" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Trade credit", statement: "Suppliers allow customers to pay after a delay, providing short-term finance." }],
@@ -754,11 +754,11 @@ export const lesson41: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Overdraft" },
-              { id: "b", text: "Trade credit" },
-              { id: "c", text: "Bank loan" },
+              { id: "b", text: "Bank loan" },
+              { id: "c", text: "Trade credit" },
               { id: "d", text: "Invoice discounting" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Matching rule", statement: "Long-term assets need long-term finance." }],
@@ -826,12 +826,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Mortgage" },
-              { id: "b", text: "Trade credit" },
-              { id: "c", text: "Share issue" },
-              { id: "d", text: "Leasing" },
+              { id: "a", text: "Trade credit" },
+              { id: "b", text: "Mortgage" },
+              { id: "c", text: "Leasing" },
+              { id: "d", text: "Share issue" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Short-term finance", statement: "Funds for day-to-day operations, repaid within about a year: trade credit, overdrafts, short-term loans." }],
@@ -852,12 +852,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A fixed-term loan with set repayments" },
-              { id: "b", text: "A facility allowing the business to overdraw its current account up to a limit" },
-              { id: "c", text: "Money raised by selling shares" },
-              { id: "d", text: "An interest-free government payment" },
+              { id: "a", text: "Money raised by selling shares" },
+              { id: "b", text: "A fixed-term loan with set repayments" },
+              { id: "c", text: "An interest-free government payment" },
+              { id: "d", text: "A facility allowing the business to overdraw its current account up to a limit" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Overdraft", statement: "A bank facility allowing a business to overdraw its current account up to an agreed limit." }],
@@ -981,11 +981,11 @@ export const lesson41: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "A bank loan over 10 years funding a new warehouse" },
-              { id: "b", text: "An overdraft funding next month's wages" },
-              { id: "c", text: "A 25-year mortgage funding a one-month seasonal stock purchase" },
-              { id: "d", text: "Leasing machinery over its 5-year useful life" },
+              { id: "b", text: "Leasing machinery over its 5-year useful life" },
+              { id: "c", text: "An overdraft funding next month's wages" },
+              { id: "d", text: "A 25-year mortgage funding a one-month seasonal stock purchase" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Term matching", statement: "Finance term should match the life of the asset or need." }],
@@ -1007,10 +1007,10 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Owns the asset outright after one payment" },
+              { id: "a", text: "Receives grants to fund the asset" },
               { id: "b", text: "Pays regular rentals to use the asset without owning it" },
               { id: "c", text: "Borrows money to buy the asset" },
-              { id: "d", text: "Receives grants to fund the asset" },
+              { id: "d", text: "Owns the asset outright after one payment" },
             ],
             correctChoiceId: "b",
           },
@@ -1097,8 +1097,8 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Trade credit" },
-              { id: "b", text: "Overdraft" },
+              { id: "a", text: "Overdraft" },
+              { id: "b", text: "Trade credit" },
               { id: "c", text: "Share issue" },
               { id: "d", text: "Invoice discounting" },
             ],
@@ -1124,12 +1124,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Borrowing against future profits" },
-              { id: "b", text: "Selling unpaid customer invoices to a finance company at a discount" },
-              { id: "c", text: "Leasing equipment from a supplier" },
+              { id: "a", text: "Leasing equipment from a supplier" },
+              { id: "b", text: "Borrowing against future profits" },
+              { id: "c", text: "Selling unpaid customer invoices to a finance company at a discount" },
               { id: "d", text: "Delaying payment to suppliers" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Invoice discounting", statement: "Selling unpaid invoices to a finance house for immediate cash at a discount — short-term finance." }],
@@ -1152,11 +1152,11 @@ export const lesson41: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "The business never pays interest or charges" },
-              { id: "b", text: "The business spreads the cost over time and may own the van at the end" },
-              { id: "c", text: "The business keeps the van at the end without paying anything more" },
-              { id: "d", text: "No deposit is required" },
+              { id: "b", text: "No deposit is required" },
+              { id: "c", text: "The business spreads the cost over time and may own the van at the end" },
+              { id: "d", text: "The business keeps the van at the end without paying anything more" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Hire purchase", statement: "Deposit plus instalments spread the cost; ownership usually passes after the final payment." }],
@@ -1177,12 +1177,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Overdraft or short-term bank loan" },
+              { id: "a", text: "Mortgage on the business premises" },
               { id: "b", text: "Issue of new shares" },
-              { id: "c", text: "Mortgage on the business premises" },
+              { id: "c", text: "Overdraft or short-term bank loan" },
               { id: "d", text: "Long-term hire purchase" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Matching rule", statement: "Short-term needs (stock, wages) need short-term finance repaid within months." }],
@@ -1204,12 +1204,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The firm gains ownership of the supplier" },
-              { id: "b", text: "The firm receives interest-free finance and keeps its cash for 60 days" },
-              { id: "c", text: "The supplier must repay the firm" },
-              { id: "d", text: "The stock becomes a non-current asset" },
+              { id: "a", text: "The firm receives interest-free finance and keeps its cash for 60 days" },
+              { id: "b", text: "The supplier must repay the firm" },
+              { id: "c", text: "The stock becomes a non-current asset" },
+              { id: "d", text: "The firm gains ownership of the supplier" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Trade credit", statement: "Supplier allows delayed payment — free short-term finance but may strain supplier relationships." }],
@@ -1301,9 +1301,9 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The business owns the asset from day one" },
+              { id: "a", text: "No payments are made until the lease ends" },
               { id: "b", text: "The business pays regular rentals and does not own the asset" },
-              { id: "c", text: "No payments are made until the lease ends" },
+              { id: "c", text: "The business owns the asset from day one" },
               { id: "d", text: "The asset is always cheaper than buying" },
             ],
             correctChoiceId: "b",
@@ -1370,12 +1370,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Trade credit" },
-              { id: "b", text: "Mortgage" },
+              { id: "a", text: "Mortgage" },
+              { id: "b", text: "Trade credit" },
               { id: "c", text: "Share issue" },
               { id: "d", text: "Retained profit" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Trade credit", statement: "Suppliers allow customers to pay after a delay — a form of short-term finance from supplier to customer." }],

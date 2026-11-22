@@ -50,11 +50,11 @@ In slope-intercept form, compare slopes and intercepts. Different slopes mean on
           totalMarks: 2,
           stem: "A graph shows two lines intersecting at $(2,-1)$. Which statement must be true?",
           response: { type: "mcq", choices: [
-            { id: "a", text: "$(2,-1)$ satisfies both equations in the system." },
-            { id: "b", text: "The system has no solution because the lines cross." },
+            { id: "a", text: "The system has no solution because the lines cross." },
+            { id: "b", text: "$(2,-1)$ satisfies both equations in the system." },
             { id: "c", text: "Every point on either line is a solution to the system." },
             { id: "d", text: "The lines have equal slopes and different intercepts." },
-          ], correctChoiceId: "a" },
+          ], correctChoiceId: "b" },
           markscheme: {
             principles: [
               { kind: "definition", name: "Solution to a system", statement: "A solution is an ordered pair that satisfies every equation in the system." },
@@ -185,11 +185,11 @@ Writing the algebraic conclusion is essential. Do not report $0=0$ as a solution
           totalMarks: 2,
           stem: "Given $y=x+3$ and $2x+y=12$, which equation correctly results from substituting for $y$?",
           response: { type: "mcq", choices: [
-            { id: "a", text: "$2x+(x+3)=12$" },
-            { id: "b", text: "$2x+(x-3)=12$" },
-            { id: "c", text: "$2(x+3)=12$" },
-            { id: "d", text: "$2x+y+x+3=12$" },
-          ], correctChoiceId: "a" },
+            { id: "a", text: "$2x+(x-3)=12$" },
+            { id: "b", text: "$2x+(x+3)=12$" },
+            { id: "c", text: "$2x+y+x+3=12$" },
+            { id: "d", text: "$2(x+3)=12$" },
+          ], correctChoiceId: "b" },
           markscheme: {
             principles: [
               { kind: "definition", name: "Substitution", statement: "An expression equal to a variable may replace that variable in another equation." },

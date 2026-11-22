@@ -52,8 +52,8 @@ export const lesson12: Lesson = {
             choices: [
               { id: "a", text: "number of valence electrons" },
               { id: "b", text: "number of energy levels" },
-              { id: "c", text: "mass number" },
-              { id: "d", text: "number of neutrons" },
+              { id: "c", text: "number of neutrons" },
+              { id: "d", text: "mass number" },
             ],
             correctChoiceId: "a",
           },
@@ -181,8 +181,8 @@ export const lesson12: Lesson = {
             choices: [
               { id: "a", text: "Sodium (Na)" },
               { id: "b", text: "Magnesium (Mg)" },
-              { id: "c", text: "Aluminum (Al)" },
-              { id: "d", text: "Chlorine (Cl)" },
+              { id: "c", text: "Chlorine (Cl)" },
+              { id: "d", text: "Aluminum (Al)" },
             ],
             correctChoiceId: "a",
           },

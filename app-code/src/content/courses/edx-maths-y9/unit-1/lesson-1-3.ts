@@ -53,12 +53,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$0.15$" },
-              { id: "b", text: "$1.15$" },
-              { id: "c", text: "$0.85$" },
+              { id: "a", text: "$0.85$" },
+              { id: "b", text: "$0.15$" },
+              { id: "c", text: "$1.15$" },
               { id: "d", text: "$0.115$" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Multiplier", statement: "A decrease of $p\\%$ has multiplier $1 - \\frac{p}{100}$." }],
@@ -181,12 +181,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "£20" },
-              { id: "b", text: "£60" },
-              { id: "c", text: "£63.05" },
-              { id: "d", text: "£460" },
+              { id: "a", text: "£63.05" },
+              { id: "b", text: "£460" },
+              { id: "c", text: "£60" },
+              { id: "d", text: "£20" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Simple interest", statement: "$I = P \\times \\frac{r}{100} \\times n$" }],

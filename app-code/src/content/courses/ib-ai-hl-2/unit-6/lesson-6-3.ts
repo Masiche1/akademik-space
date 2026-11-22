@@ -54,12 +54,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$8\\ \\text{m s}^{-2}$" },
-              { id: "b", text: "$10\\ \\text{m s}^{-2}$" },
-              { id: "c", text: "$12\\ \\text{m s}^{-2}$" },
-              { id: "d", text: "$t^3-t^2$ evaluated at 2, i.e. $4\\ \\text{m s}^{-2}$" },
+              { id: "a", text: "$t^3-t^2$ evaluated at 2, i.e. $4\\ \\text{m s}^{-2}$" },
+              { id: "b", text: "$12\\ \\text{m s}^{-2}$" },
+              { id: "c", text: "$8\\ \\text{m s}^{-2}$" },
+              { id: "d", text: "$10\\ \\text{m s}^{-2}$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Acceleration", statement: "$a=\\frac{dv}{dt}$." }],
@@ -162,12 +162,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$0\\ \\text{m s}^{-1}$" },
-              { id: "b", text: "$6\\ \\text{m s}^{-1}$" },
-              { id: "c", text: "$-6\\ \\text{m s}^{-1}$" },
-              { id: "d", text: "$12\\ \\text{m s}^{-1}$" },
+              { id: "a", text: "$12\\ \\text{m s}^{-1}$" },
+              { id: "b", text: "$-6\\ \\text{m s}^{-1}$" },
+              { id: "c", text: "$6\\ \\text{m s}^{-1}$" },
+              { id: "d", text: "$0\\ \\text{m s}^{-1}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Velocity", statement: "$v=\\frac{ds}{dt}$." }],
@@ -188,8 +188,8 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\frac{dy}{dx}=x+y$" },
-              { id: "b", text: "$\\frac{dy}{dx}=x^2+y^2$" },
+              { id: "a", text: "$\\frac{dy}{dx}=x^2+y^2$" },
+              { id: "b", text: "$\\frac{dy}{dx}=x+y$" },
               { id: "c", text: "$\\frac{dy}{dx}=x^2y$" },
               { id: "d", text: "$\\frac{dy}{dx}=e^{x+y}$" },
             ],
@@ -215,11 +215,11 @@ export const lesson63: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$2.72$" },
-              { id: "b", text: "$5.44$" },
-              { id: "c", text: "$7.39$" },
-              { id: "d", text: "$2.00$" },
+              { id: "b", text: "$7.39$" },
+              { id: "c", text: "$2.00$" },
+              { id: "d", text: "$5.44$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Separation of variables", statement: "$\\int\\frac{dy}{y}=\\int dx$ gives $\\ln y=x+c$." }],
@@ -240,9 +240,9 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$0.135$" },
+              { id: "a", text: "$3.68$" },
               { id: "b", text: "$1.35$" },
-              { id: "c", text: "$3.68$" },
+              { id: "c", text: "$0.135$" },
               { id: "d", text: "$8.20$" },
             ],
             correctChoiceId: "b",
@@ -266,12 +266,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$3.61$" },
-              { id: "b", text: "$4.12$" },
-              { id: "c", text: "$5.83$" },
-              { id: "d", text: "$4.50$" },
+              { id: "a", text: "$5.83$" },
+              { id: "b", text: "$4.50$" },
+              { id: "c", text: "$4.12$" },
+              { id: "d", text: "$3.61$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Separation of variables", statement: "$\\int y\\,dy=\\int 2x\\,dx$ gives $y^2=x^2+c$." }],
@@ -505,12 +505,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$4$" },
-              { id: "b", text: "$-2$" },
+              { id: "a", text: "$-2$" },
+              { id: "b", text: "$4$" },
               { id: "c", text: "$2$" },
               { id: "d", text: "$3$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Slope field", statement: "The segment at $(x,y)$ has gradient $\\frac{dy}{dx}$ evaluated there." }],
@@ -614,9 +614,9 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$(1,\\ 1)$" },
+              { id: "a", text: "$(2,\\ 2)$" },
               { id: "b", text: "$(1,\\ -1)$" },
-              { id: "c", text: "$(2,\\ 2)$" },
+              { id: "c", text: "$(1,\\ 1)$" },
               { id: "d", text: "$(0,\\ 1)$" },
             ],
             correctChoiceId: "b",
@@ -640,12 +640,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$1.1$" },
-              { id: "b", text: "$1.105$" },
-              { id: "c", text: "$1.01$" },
-              { id: "d", text: "$2.0$" },
+              { id: "a", text: "$1.01$" },
+              { id: "b", text: "$2.0$" },
+              { id: "c", text: "$1.105$" },
+              { id: "d", text: "$1.1$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Euler's method", statement: "$y_{n+1}=y_n+h\\,f(x_n,y_n)$." }],
@@ -668,8 +668,8 @@ export const lesson63: Lesson = {
             choices: [
               { id: "a", text: "$1$" },
               { id: "b", text: "$1.5$" },
-              { id: "c", text: "$0.5$" },
-              { id: "d", text: "$2.5$" },
+              { id: "c", text: "$2.5$" },
+              { id: "d", text: "$0.5$" },
             ],
             correctChoiceId: "a",
           },
@@ -692,12 +692,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Stable node" },
-              { id: "b", text: "Unstable node" },
-              { id: "c", text: "Saddle point" },
+              { id: "a", text: "Saddle point" },
+              { id: "b", text: "Stable node" },
+              { id: "c", text: "Unstable node" },
               { id: "d", text: "Stable spiral" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Classification", statement: "Both eigenvalues real and positive give an unstable node." }],
@@ -719,11 +719,11 @@ export const lesson63: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Unstable node" },
-              { id: "b", text: "Saddle point" },
-              { id: "c", text: "Stable node" },
+              { id: "b", text: "Stable node" },
+              { id: "c", text: "Saddle point" },
               { id: "d", text: "Stable spiral" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Classification", statement: "Eigenvalues $-1$ and $-2$ are both negative real, giving a stable node." }],

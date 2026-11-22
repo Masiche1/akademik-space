@@ -57,12 +57,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$a^{12}$" },
-              { id: "b", text: "$a^{7}$" },
-              { id: "c", text: "$2a^{7}$" },
-              { id: "d", text: "$a^{34}$" },
+              { id: "a", text: "$a^{34}$" },
+              { id: "b", text: "$2a^{7}$" },
+              { id: "c", text: "$a^{12}$" },
+              { id: "d", text: "$a^{7}$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -166,11 +166,11 @@ export const lesson11: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$m^{13}$" },
-              { id: "b", text: "$m^{5}$" },
-              { id: "c", text: "$m^{36}$" },
+              { id: "b", text: "$m^{36}$" },
+              { id: "c", text: "$m^{5}$" },
               { id: "d", text: "$5m$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -192,10 +192,10 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$0$" },
-              { id: "b", text: "$4$" },
+              { id: "a", text: "$16$" },
+              { id: "b", text: "$0$" },
               { id: "c", text: "$1$" },
-              { id: "d", text: "$16$" },
+              { id: "d", text: "$4$" },
             ],
             correctChoiceId: "c",
           },
@@ -258,10 +258,10 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$7^4$" },
+              { id: "a", text: "$7^0$" },
               { id: "b", text: "$7^3$" },
-              { id: "c", text: "$7^5$" },
-              { id: "d", text: "$7^0$" },
+              { id: "c", text: "$7^4$" },
+              { id: "d", text: "$7^5$" },
             ],
             correctChoiceId: "b",
           },
@@ -287,8 +287,8 @@ export const lesson11: Lesson = {
             choices: [
               { id: "a", text: "$5^{9}$" },
               { id: "b", text: "$5^{1}$" },
-              { id: "c", text: "$5^{24}$" },
-              { id: "d", text: "$5^{2}$" },
+              { id: "c", text: "$5^{2}$" },
+              { id: "d", text: "$5^{24}$" },
             ],
             correctChoiceId: "b",
           },
@@ -340,12 +340,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$4$" },
-              { id: "b", text: "$5$" },
-              { id: "c", text: "$9$" },
+              { id: "a", text: "$5$" },
+              { id: "b", text: "$9$" },
+              { id: "c", text: "$4$" },
               { id: "d", text: "$14$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -515,12 +515,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$45\\times10^{3}$" },
-              { id: "b", text: "$4.5\\times10^{3}$" },
-              { id: "c", text: "$4.5\\times10^{4}$" },
-              { id: "d", text: "$4.5\\times10^{5}$" },
+              { id: "a", text: "$4.5\\times10^{3}$" },
+              { id: "b", text: "$4.5\\times10^{4}$" },
+              { id: "c", text: "$4.5\\times10^{5}$" },
+              { id: "d", text: "$45\\times10^{3}$" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -628,12 +628,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$4\\times10^{-3}$" },
-              { id: "b", text: "$4\\times10^{3}$" },
-              { id: "c", text: "$0.4\\times10^{-2}$" },
-              { id: "d", text: "$4\\times10^{-4}$" },
+              { id: "a", text: "$4\\times10^{-4}$" },
+              { id: "b", text: "$0.4\\times10^{-2}$" },
+              { id: "c", text: "$4\\times10^{3}$" },
+              { id: "d", text: "$4\\times10^{-3}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -655,12 +655,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$3\\times10^{5}$" },
-              { id: "b", text: "$12\\times10^{2}$" },
+              { id: "a", text: "$12\\times10^{2}$" },
+              { id: "b", text: "$3\\times10^{5}$" },
               { id: "c", text: "$9\\times10^{-2}$" },
               { id: "d", text: "$0.6\\times10^{4}$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -733,10 +733,10 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$3\\times10^{4}$" },
-              { id: "b", text: "$8\\times10^{3}$" },
+              { id: "a", text: "$9\\times10^{4}$" },
+              { id: "b", text: "$3\\times10^{4}$" },
               { id: "c", text: "$2\\times10^{5}$" },
-              { id: "d", text: "$9\\times10^{4}$" },
+              { id: "d", text: "$8\\times10^{3}$" },
             ],
             correctChoiceId: "c",
           },
@@ -801,11 +801,11 @@ export const lesson11: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "About $8$ times" },
-              { id: "b", text: "About $80$ times" },
-              { id: "c", text: "About $800$ times" },
-              { id: "d", text: "About $0.1$ times" },
+              { id: "b", text: "About $800$ times" },
+              { id: "c", text: "About $0.1$ times" },
+              { id: "d", text: "About $80$ times" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

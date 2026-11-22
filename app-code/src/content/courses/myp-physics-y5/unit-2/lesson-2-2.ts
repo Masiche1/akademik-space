@@ -59,8 +59,8 @@ export const lesson22: Lesson = {
             choices: [
               { id: "a", text: "It increases" },
               { id: "b", text: "It decreases" },
-              { id: "c", text: "It stays the same" },
-              { id: "d", text: "It doubles" },
+              { id: "c", text: "It doubles" },
+              { id: "d", text: "It stays the same" },
             ],
             correctChoiceId: "b",
           },
@@ -82,12 +82,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "0.25 m" },
-              { id: "b", text: "1 m" },
-              { id: "c", text: "2 m" },
-              { id: "d", text: "4 m" },
+              { id: "a", text: "4 m" },
+              { id: "b", text: "2 m" },
+              { id: "c", text: "1 m" },
+              { id: "d", text: "0.25 m" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "v = fλ", statement: "$\\lambda = v/f = 0.5/2$" }],
@@ -108,12 +108,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Refraction" },
-              { id: "b", text: "Diffraction" },
-              { id: "c", text: "Interference" },
-              { id: "d", text: "Reflection" },
+              { id: "a", text: "Diffraction" },
+              { id: "b", text: "Interference" },
+              { id: "c", text: "Reflection" },
+              { id: "d", text: "Refraction" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Interference", statement: "Constructive interference → loud; destructive → quiet." }],
@@ -165,12 +165,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Angle of incidence equals angle of refraction" },
-              { id: "b", text: "Angle of incidence equals angle of reflection, measured from the normal" },
-              { id: "c", text: "The wave speed doubles on reflection" },
-              { id: "d", text: "Wavelength is unchanged on reflection" },
+              { id: "a", text: "Wavelength is unchanged on reflection" },
+              { id: "b", text: "The wave speed doubles on reflection" },
+              { id: "c", text: "Angle of incidence equals angle of refraction" },
+              { id: "d", text: "Angle of incidence equals angle of reflection, measured from the normal" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "law", name: "Reflection", statement: "$\\theta_i = \\theta_r$ measured from the normal." }],
@@ -210,11 +210,11 @@ export const lesson22: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "It bends away from the normal" },
-              { id: "b", text: "It bends towards the normal" },
+              { id: "b", text: "It speeds up" },
               { id: "c", text: "It is not bent" },
-              { id: "d", text: "It speeds up" },
+              { id: "d", text: "It bends towards the normal" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Refraction", statement: "Slower medium → ray bends towards normal; frequency unchanged." }],
@@ -256,11 +256,11 @@ export const lesson22: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Gap much larger than the wavelength" },
-              { id: "b", text: "Gap equal to the wavelength" },
-              { id: "c", text: "Gap much smaller than the wavelength" },
-              { id: "d", text: "No gap" },
+              { id: "b", text: "No gap" },
+              { id: "c", text: "Gap equal to the wavelength" },
+              { id: "d", text: "Gap much smaller than the wavelength" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Diffraction", statement: "Maximum spreading when gap width $\\approx$ wavelength." }],
@@ -363,10 +363,10 @@ export const lesson22: Lesson = {
             choices: [
               { id: "a", text: "Speed" },
               { id: "b", text: "Wavelength" },
-              { id: "c", text: "Frequency" },
-              { id: "d", text: "Direction" },
+              { id: "c", text: "Direction" },
+              { id: "d", text: "Frequency" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Boundary", statement: "Frequency is set by the source and unchanged across the boundary." }],
@@ -386,9 +386,9 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Constructive interference — larger amplitude" },
+              { id: "a", text: "Reflection" },
               { id: "b", text: "Destructive interference — cancellation" },
-              { id: "c", text: "Reflection" },
+              { id: "c", text: "Constructive interference — larger amplitude" },
               { id: "d", text: "Diffraction" },
             ],
             correctChoiceId: "b",
@@ -508,12 +508,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Pitch stays constant" },
-              { id: "b", text: "Pitch rises then falls" },
+              { id: "a", text: "Pitch rises then falls" },
+              { id: "b", text: "Pitch stays constant" },
               { id: "c", text: "Pitch falls then rises" },
               { id: "d", text: "Pitch doubles" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Doppler", statement: "Approach → higher f; recede → lower f." }],
@@ -533,12 +533,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The galaxy is approaching us" },
-              { id: "b", text: "The galaxy is moving away from us" },
+              { id: "a", text: "The galaxy is moving away from us" },
+              { id: "b", text: "The galaxy is getting hotter" },
               { id: "c", text: "The galaxy is stationary" },
-              { id: "d", text: "The galaxy is getting hotter" },
+              { id: "d", text: "The galaxy is approaching us" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Redshift", statement: "Receding source → longer observed wavelength." }],
@@ -559,12 +559,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "lower" },
-              { id: "b", text: "higher" },
+              { id: "a", text: "higher" },
+              { id: "b", text: "lower" },
               { id: "c", text: "unchanged" },
               { id: "d", text: "zero" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Doppler radar", statement: "Approaching reflector shifts frequency up." }],
@@ -617,11 +617,11 @@ export const lesson22: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "It stays constant" },
-              { id: "b", text: "It rises as it approaches and falls as it recedes" },
-              { id: "c", text: "It falls then rises" },
-              { id: "d", text: "It doubles" },
+              { id: "b", text: "It doubles" },
+              { id: "c", text: "It rises as it approaches and falls as it recedes" },
+              { id: "d", text: "It falls then rises" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Doppler effect", statement: "Approaching source → higher observed frequency; receding → lower." }],
@@ -661,12 +661,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The galaxies are approaching us" },
-              { id: "b", text: "The galaxies are moving away from us (receding)" },
-              { id: "c", text: "The galaxies are stationary" },
-              { id: "d", text: "The light is being absorbed" },
+              { id: "a", text: "The galaxies are moving away from us (receding)" },
+              { id: "b", text: "The galaxies are approaching us" },
+              { id: "c", text: "The light is being absorbed" },
+              { id: "d", text: "The galaxies are stationary" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Redshift", statement: "Receding source → wavelength stretched → redshift." }],
@@ -709,11 +709,11 @@ export const lesson22: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "There is no difference" },
-              { id: "b", text: "Both cases give exactly the same frequency shift formula" },
-              { id: "c", text: "The formulas differ because the medium (air) is stationary; for light only relative motion matters" },
-              { id: "d", text: "Moving observers cannot detect a shift" },
+              { id: "b", text: "The formulas differ because the medium (air) is stationary; for light only relative motion matters" },
+              { id: "c", text: "Moving observers cannot detect a shift" },
+              { id: "d", text: "Both cases give exactly the same frequency shift formula" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Doppler", statement: "Sound: source and observer motion have different formulas since air is the medium; light: only relative velocity matters." }],
@@ -756,12 +756,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The source emits a higher frequency" },
-              { id: "b", text: "Wavefronts bunch up in front of the moving source, shortening wavelength and raising observed frequency" },
-              { id: "c", text: "The sound travels faster towards you" },
-              { id: "d", text: "The amplitude increases" },
+              { id: "a", text: "Wavefronts bunch up in front of the moving source, shortening wavelength and raising observed frequency" },
+              { id: "b", text: "The amplitude increases" },
+              { id: "c", text: "The source emits a higher frequency" },
+              { id: "d", text: "The sound travels faster towards you" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Wavefront bunching", statement: "Moving source compresses wavefronts ahead → shorter λ → higher f." }],
@@ -800,12 +800,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Generating electricity" },
-              { id: "b", text: "Measuring blood flow with ultrasound" },
-              { id: "c", text: "Magnifying images" },
-              { id: "d", text: "Storing data" },
+              { id: "a", text: "Storing data" },
+              { id: "b", text: "Generating electricity" },
+              { id: "c", text: "Measuring blood flow with ultrasound" },
+              { id: "d", text: "Magnifying images" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "context", name: "Applications", statement: "Doppler ultrasound, radar speed guns, weather radar, astronomical redshift." }],
@@ -855,11 +855,11 @@ export const lesson22: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "The star is stationary" },
-              { id: "b", text: "The star is moving towards us" },
-              { id: "c", text: "The star is moving away from us" },
+              { id: "b", text: "The star is moving away from us" },
+              { id: "c", text: "The star is moving towards us" },
               { id: "d", text: "The star is very hot" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Blueshift", statement: "Approaching source → wavelength shortened → blueshift." }],

@@ -54,9 +54,9 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$P=800(0.15)^t$" },
+              { id: "a", text: "$P=800(1.15)^t$" },
               { id: "b", text: "$P=800(0.85)^t$" },
-              { id: "c", text: "$P=800(1.15)^t$" },
+              { id: "c", text: "$P=800(0.15)^t$" },
               { id: "d", text: "$P=800-0.15t$" },
             ],
             correctChoiceId: "b",
@@ -180,12 +180,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Linear, because the differences are all 6" },
-              { id: "b", text: "Exponential, because the ratios are all 1.5" },
-              { id: "c", text: "Linear, because the ratios are all 1.5" },
-              { id: "d", text: "Exponential, because the differences are all 6" },
+              { id: "a", text: "Exponential, because the ratios are all 1.5" },
+              { id: "b", text: "Linear, because the differences are all 6" },
+              { id: "c", text: "Exponential, because the differences are all 6" },
+              { id: "d", text: "Linear, because the ratios are all 1.5" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

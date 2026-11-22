@@ -74,11 +74,11 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Metres" },
-              { id: "b", text: "Centimetres" },
-              { id: "c", text: "Kilometres" },
+              { id: "b", text: "Kilometres" },
+              { id: "c", text: "Centimetres" },
               { id: "d", text: "Millilitres" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -306,12 +306,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "7" },
-              { id: "b", text: "8" },
-              { id: "c", text: "9" },
-              { id: "d", text: "10" },
+              { id: "a", text: "8" },
+              { id: "b", text: "7" },
+              { id: "c", text: "10" },
+              { id: "d", text: "9" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

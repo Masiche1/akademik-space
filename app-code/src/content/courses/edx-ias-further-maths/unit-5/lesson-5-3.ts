@@ -50,12 +50,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Change in momentum" },
-              { id: "b", text: "Change in KE" },
-              { id: "c", text: "Force × distance" },
-              { id: "d", text: "Mass × velocity" },
+              { id: "a", text: "Force × distance" },
+              { id: "b", text: "Mass × velocity" },
+              { id: "c", text: "Change in KE" },
+              { id: "d", text: "Change in momentum" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Impulse", statement: "$J=\\Delta p$." }],
@@ -169,12 +169,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$1$" },
-              { id: "b", text: "$0$" },
-              { id: "c", text: "$0.5$" },
-              { id: "d", text: "$-1$" },
+              { id: "a", text: "$0.5$" },
+              { id: "b", text: "$-1$" },
+              { id: "c", text: "$0$" },
+              { id: "d", text: "$1$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Restitution", statement: "$e=1$ elastic." }],

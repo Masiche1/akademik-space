@@ -95,8 +95,8 @@ export const lesson24: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Introduction" },
-              { id: "b", text: "Growth" },
+              { id: "a", text: "Growth" },
+              { id: "b", text: "Introduction" },
               { id: "c", text: "Maturity" },
               { id: "d", text: "Decline" },
             ],
@@ -331,12 +331,12 @@ export const lesson24: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Trend analysis" },
-              { id: "b", text: "Moving average" },
-              { id: "c", text: "Market segmentation" },
+              { id: "a", text: "Market segmentation" },
+              { id: "b", text: "Trend analysis" },
+              { id: "c", text: "Moving average" },
               { id: "d", text: "Quality control" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -375,10 +375,10 @@ export const lesson24: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A moving average" },
+              { id: "a", text: "Quality assurance" },
               { id: "b", text: "Trend analysis" },
-              { id: "c", text: "Quality assurance" },
-              { id: "d", text: "Sales promotion" },
+              { id: "c", text: "Sales promotion" },
+              { id: "d", text: "A moving average" },
             ],
             correctChoiceId: "b",
           },
@@ -417,12 +417,12 @@ export const lesson24: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$90k" },
+              { id: "a", text: "$120k" },
               { id: "b", text: "$360k" },
-              { id: "c", text: "$110k" },
-              { id: "d", text: "$120k" },
+              { id: "c", text: "$90k" },
+              { id: "d", text: "$110k" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -458,15 +458,15 @@ export const lesson24: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Sales grow most rapidly" },
+              { id: "a", text: "Promotion costs are at their highest" },
               { id: "b", text: "Sales reach their peak" },
+              { id: "c", text: "Sales grow most rapidly" },
               {
-                id: "c",
+                id: "d",
                 text: "Sales fall as tastes change or substitutes appear",
               },
-              { id: "d", text: "Promotion costs are at their highest" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -506,12 +506,12 @@ export const lesson24: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Ignoring competitor products" },
+              { id: "a", text: "Reducing quality to cut costs" },
               {
                 id: "b",
                 text: "Product development or repositioning into new segments",
               },
-              { id: "c", text: "Reducing quality to cut costs" },
+              { id: "c", text: "Ignoring competitor products" },
               { id: "d", text: "Stopping all promotion" },
             ],
             correctChoiceId: "b",
@@ -1011,12 +1011,12 @@ export const lesson24: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Television advertising" },
-              { id: "b", text: "Social media advertising" },
-              { id: "c", text: "Billboard posters" },
-              { id: "d", text: "Newspaper inserts" },
+              { id: "a", text: "Newspaper inserts" },
+              { id: "b", text: "Television advertising" },
+              { id: "c", text: "Social media advertising" },
+              { id: "d", text: "Billboard posters" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1240,10 +1240,10 @@ export const lesson24: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Pure e-commerce" },
+              { id: "a", text: "Search engine optimisation" },
               { id: "b", text: "Click-and-mortar" },
-              { id: "c", text: "Social media marketing" },
-              { id: "d", text: "Search engine optimisation" },
+              { id: "c", text: "Pure e-commerce" },
+              { id: "d", text: "Social media marketing" },
             ],
             correctChoiceId: "b",
           },
@@ -1283,12 +1283,12 @@ export const lesson24: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Click-and-mortar" },
-              { id: "b", text: "Search engine optimisation (SEO)" },
-              { id: "c", text: "Email marketing" },
-              { id: "d", text: "Sales promotion" },
+              { id: "a", text: "Sales promotion" },
+              { id: "b", text: "Click-and-mortar" },
+              { id: "c", text: "Search engine optimisation (SEO)" },
+              { id: "d", text: "Email marketing" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1326,12 +1326,12 @@ export const lesson24: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Sell only to local customers" },
-              { id: "b", text: "Sell 24/7 to a global audience" },
-              { id: "c", text: "Avoid all competition" },
-              { id: "d", text: "Never need delivery logistics" },
+              { id: "a", text: "Never need delivery logistics" },
+              { id: "b", text: "Avoid all competition" },
+              { id: "c", text: "Sell 24/7 to a global audience" },
+              { id: "d", text: "Sell only to local customers" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1370,10 +1370,10 @@ export const lesson24: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Lower overhead costs" },
+              { id: "a", text: "24/7 selling" },
               { id: "b", text: "Security and fraud risks" },
               { id: "c", text: "Wider customer reach" },
-              { id: "d", text: "24/7 selling" },
+              { id: "d", text: "Lower overhead costs" },
             ],
             correctChoiceId: "b",
           },
@@ -1413,12 +1413,12 @@ export const lesson24: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Search engine optimisation" },
-              { id: "b", text: "Social media marketing" },
-              { id: "c", text: "Public relations" },
+              { id: "a", text: "Social media marketing" },
+              { id: "b", text: "Public relations" },
+              { id: "c", text: "Search engine optimisation" },
               { id: "d", text: "Personal selling" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

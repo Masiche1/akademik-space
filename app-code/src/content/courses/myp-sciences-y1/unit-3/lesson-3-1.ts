@@ -56,11 +56,11 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Friction" },
-              { id: "b", text: "Air resistance" },
-              { id: "c", text: "Magnetic force" },
+              { id: "b", text: "Magnetic force" },
+              { id: "c", text: "Air resistance" },
               { id: "d", text: "Tension in a rope" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -153,12 +153,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Gravity" },
-              { id: "b", text: "Magnetism" },
-              { id: "c", text: "Friction" },
-              { id: "d", text: "Electrostatic force" },
+              { id: "a", text: "Friction" },
+              { id: "b", text: "Electrostatic force" },
+              { id: "c", text: "Magnetism" },
+              { id: "d", text: "Gravity" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -181,12 +181,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$2\\ \\text{N}$ to the left" },
-              { id: "b", text: "$12\\ \\text{N}$ to the left" },
+              { id: "a", text: "$12\\ \\text{N}$ to the left" },
+              { id: "b", text: "$2\\ \\text{N}$ to the left" },
               { id: "c", text: "$12\\ \\text{N}$ to the right" },
               { id: "d", text: "$0\\ \\text{N}$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -208,12 +208,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$28\\ \\text{N}$ to the right" },
-              { id: "b", text: "$12\\ \\text{N}$ to the right" },
-              { id: "c", text: "$12\\ \\text{N}$ to the left" },
-              { id: "d", text: "$0\\ \\text{N}$" },
+              { id: "a", text: "$12\\ \\text{N}$ to the right" },
+              { id: "b", text: "$28\\ \\text{N}$ to the right" },
+              { id: "c", text: "$0\\ \\text{N}$" },
+              { id: "d", text: "$12\\ \\text{N}$ to the left" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -256,10 +256,10 @@ export const lesson31: Lesson = {
             choices: [
               { id: "a", text: "Friction" },
               { id: "b", text: "Air resistance" },
-              { id: "c", text: "Magnetism" },
-              { id: "d", text: "The push of a hand" },
+              { id: "c", text: "The push of a hand" },
+              { id: "d", text: "Magnetism" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -482,12 +482,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Kilogram" },
-              { id: "b", text: "Newton" },
-              { id: "c", text: "Newton per kilogram" },
-              { id: "d", text: "Joule" },
+              { id: "a", text: "Newton" },
+              { id: "b", text: "Joule" },
+              { id: "c", text: "Kilogram" },
+              { id: "d", text: "Newton per kilogram" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -593,12 +593,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Mass" },
-              { id: "b", text: "Weight" },
+              { id: "a", text: "Weight" },
+              { id: "b", text: "Mass" },
               { id: "c", text: "Volume" },
               { id: "d", text: "Time" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -620,12 +620,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$6\\ \\text{N}$" },
-              { id: "b", text: "$16\\ \\text{N}$" },
-              { id: "c", text: "$60\\ \\text{N}$" },
+              { id: "a", text: "$16\\ \\text{N}$" },
+              { id: "b", text: "$60\\ \\text{N}$" },
+              { id: "c", text: "$6\\ \\text{N}$" },
               { id: "d", text: "$600\\ \\text{N}$" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -667,12 +667,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Making the surfaces rougher" },
-              { id: "b", text: "Adding oil between the surfaces" },
-              { id: "c", text: "Pressing the surfaces together harder" },
-              { id: "d", text: "Increasing the speed of sliding" },
+              { id: "a", text: "Increasing the speed of sliding" },
+              { id: "b", text: "Pressing the surfaces together harder" },
+              { id: "c", text: "Adding oil between the surfaces" },
+              { id: "d", text: "Making the surfaces rougher" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -694,12 +694,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "the object slows down" },
-              { id: "b", text: "the object has a smaller surface area" },
-              { id: "c", text: "the object speeds up or has a larger surface area" },
-              { id: "d", text: "the air becomes thinner" },
+              { id: "a", text: "the object has a smaller surface area" },
+              { id: "b", text: "the object slows down" },
+              { id: "c", text: "the air becomes thinner" },
+              { id: "d", text: "the object speeds up or has a larger surface area" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [

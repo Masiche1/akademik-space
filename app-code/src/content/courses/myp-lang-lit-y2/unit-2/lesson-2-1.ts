@@ -58,8 +58,8 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Noun" },
-              { id: "b", text: "Verb" },
+              { id: "a", text: "Verb" },
+              { id: "b", text: "Noun" },
               { id: "c", text: "Adjective" },
               { id: "d", text: "Adverb" },
             ],
@@ -174,12 +174,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "One" },
-              { id: "b", text: "Two" },
+              { id: "a", text: "Two" },
+              { id: "b", text: "One" },
               { id: "c", text: "Three" },
               { id: "d", text: "Zero" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

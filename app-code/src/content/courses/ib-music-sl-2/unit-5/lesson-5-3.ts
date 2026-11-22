@@ -55,12 +55,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Judging the music's quality" },
-              { id: "b", text: "Stating what is objectively present in the music" },
-              { id: "c", text: "Comparing to other pieces" },
-              { id: "d", text: "Writing about the composer" },
+              { id: "a", text: "Comparing to other pieces" },
+              { id: "b", text: "Judging the music's quality" },
+              { id: "c", text: "Writing about the composer" },
+              { id: "d", text: "Stating what is objectively present in the music" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -156,12 +156,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Only lists instruments" },
-              { id: "b", text: "Judges the music's success or significance using criteria" },
-              { id: "c", text: "Never cites evidence" },
-              { id: "d", text: "Describes only tempo" },
+              { id: "a", text: "Never cites evidence" },
+              { id: "b", text: "Only lists instruments" },
+              { id: "c", text: "Describes only tempo" },
+              { id: "d", text: "Judges the music's success or significance using criteria" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -228,10 +228,10 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "\"The piece is wonderful and moving.\"" },
+              { id: "a", text: "\"It sounds expensive.\"" },
               { id: "b", text: "\"The trumpet plays a muted melody over driving eighth-note accompaniment.\"" },
-              { id: "c", text: "\"Everyone should love this song.\"" },
-              { id: "d", text: "\"It sounds expensive.\"" },
+              { id: "c", text: "\"The piece is wonderful and moving.\"" },
+              { id: "d", text: "\"Everyone should love this song.\"" },
             ],
             correctChoiceId: "b",
           },
@@ -257,12 +257,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Whether it imitates a symphony exactly" },
-              { id: "b", text: "Jazz conventions such as improvisation, interaction and harmonic awareness" },
+              { id: "a", text: "Whether it is loud throughout" },
+              { id: "b", text: "Whether it imitates a symphony exactly" },
               { id: "c", text: "The number of pages in the score" },
-              { id: "d", text: "Whether it is loud throughout" },
+              { id: "d", text: "Jazz conventions such as improvisation, interaction and harmonic awareness" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -337,12 +337,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Before any musical evidence is given" },
-              { id: "b", text: "After description and analysis have established the musical facts" },
-              { id: "c", text: "Only in the title" },
-              { id: "d", text: "Instead of analysis" },
+              { id: "a", text: "After description and analysis have established the musical facts" },
+              { id: "b", text: "Before any musical evidence is given" },
+              { id: "c", text: "Instead of analysis" },
+              { id: "d", text: "Only in the title" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -366,12 +366,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Whether it has the loudest ending" },
-              { id: "b", text: "Whether the rhythmic interplay achieves its intended effect" },
-              { id: "c", text: "Whether it uses the most instruments" },
-              { id: "d", text: "Whether it is famous" },
+              { id: "a", text: "Whether it is famous" },
+              { id: "b", text: "Whether it has the loudest ending" },
+              { id: "c", text: "Whether the rhythmic interplay achieves its intended effect" },
+              { id: "d", text: "Whether it uses the most instruments" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -396,9 +396,9 @@ export const lesson53: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "A specific feature such as a descending chromatic line or sudden pianissimo" },
-              { id: "b", text: "The writer's general enthusiasm" },
+              { id: "b", text: "The number of times a song was streamed" },
               { id: "c", text: "The length of the piece" },
-              { id: "d", text: "The number of times a song was streamed" },
+              { id: "d", text: "The writer's general enthusiasm" },
             ],
             correctChoiceId: "a",
           },
@@ -519,12 +519,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Replace the music" },
-              { id: "b", text: "Prepare listeners with context and guidance" },
-              { id: "c", text: "List the musicians' names" },
-              { id: "d", text: "Advertise the venue" },
+              { id: "a", text: "List the musicians' names" },
+              { id: "b", text: "Advertise the venue" },
+              { id: "c", text: "Prepare listeners with context and guidance" },
+              { id: "d", text: "Replace the music" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -620,12 +620,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Replace the performance" },
-              { id: "b", text: "Prepare listeners with context and guidance" },
-              { id: "c", text: "List every instrument" },
-              { id: "d", text: "Promote the venue only" },
+              { id: "a", text: "List every instrument" },
+              { id: "b", text: "Promote the venue only" },
+              { id: "c", text: "Prepare listeners with context and guidance" },
+              { id: "d", text: "Replace the performance" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -692,12 +692,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "\"A monophonic aeolian melody over ostinato strings.\"" },
-              { id: "b", text: "\"A lone flute sings a mournful tune while strings repeat a quiet pattern beneath it.\"" },
+              { id: "a", text: "\"A lone flute sings a mournful tune while strings repeat a quiet pattern beneath it.\"" },
+              { id: "b", text: "\"The Lydian inflection at bar forty-two resolves enharmonically.\"" },
               { id: "c", text: "\"See the harmonic reduction in appendix nine.\"" },
-              { id: "d", text: "\"The Lydian inflection at bar forty-two resolves enharmonically.\"" },
+              { id: "d", text: "\"A monophonic aeolian melody over ostinato strings.\"" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -721,10 +721,10 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Avoid all musical detail" },
+              { id: "a", text: "Never mention the composer" },
               { id: "b", text: "Use deeper structural and analytical language appropriate to students" },
-              { id: "c", text: "Never mention the composer" },
-              { id: "d", text: "Be written only for specialists" },
+              { id: "c", text: "Be written only for specialists" },
+              { id: "d", text: "Avoid all musical detail" },
             ],
             correctChoiceId: "b",
           },
@@ -801,10 +801,10 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "As long as possible" },
+              { id: "a", text: "Unrelated to the music" },
               { id: "b", text: "Long enough to orient listeners but concise enough to preserve attention" },
               { id: "c", text: "Written only in technical language" },
-              { id: "d", text: "Unrelated to the music" },
+              { id: "d", text: "As long as possible" },
             ],
             correctChoiceId: "b",
           },
@@ -831,11 +831,11 @@ export const lesson53: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Must always be longer" },
-              { id: "b", text: "May examine structure, meaning and significance in greater depth" },
-              { id: "c", text: "Cannot mention context" },
+              { id: "b", text: "Cannot mention context" },
+              { id: "c", text: "May examine structure, meaning and significance in greater depth" },
               { id: "d", text: "Is only for composers" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -859,12 +859,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "\"The rondo form exploits hemiola and modal interchange.\"" },
-              { id: "b", text: "\"A cheerful tune keeps returning between quieter, more serious episodes.\"" },
-              { id: "c", text: "\"Consult the figured bass for harmonic realisation.\"" },
-              { id: "d", text: "\"The atonal pitch set derives from set class 4-27.\"" },
+              { id: "a", text: "\"Consult the figured bass for harmonic realisation.\"" },
+              { id: "b", text: "\"The rondo form exploits hemiola and modal interchange.\"" },
+              { id: "c", text: "\"The atonal pitch set derives from set class 4-27.\"" },
+              { id: "d", text: "\"A cheerful tune keeps returning between quieter, more serious episodes.\"" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

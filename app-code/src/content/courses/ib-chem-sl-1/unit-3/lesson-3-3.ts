@@ -54,9 +54,9 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Water molecules are polar and surround and stabilise the ions (hydration)" },
-              { id: "b", text: "Ionic bonds are weak" },
-              { id: "c", text: "Water is a non-polar solvent" },
-              { id: "d", text: "The ions evaporate" },
+              { id: "b", text: "Water is a non-polar solvent" },
+              { id: "c", text: "The ions evaporate" },
+              { id: "d", text: "Ionic bonds are weak" },
             ],
             correctChoiceId: "a",
           },
@@ -81,12 +81,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Layers of positive ions can slide over each other while the delocalised electron sea maintains the bonding" },
+              { id: "a", text: "Metals contain free molecules" },
               { id: "b", text: "The ionic bonds break and reform" },
-              { id: "c", text: "The atoms are not bonded at all" },
-              { id: "d", text: "Metals contain free molecules" },
+              { id: "c", text: "Layers of positive ions can slide over each other while the delocalised electron sea maintains the bonding" },
+              { id: "d", text: "The atoms are not bonded at all" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -163,12 +163,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "polar solutes dissolve in polar solvents and non-polar solutes dissolve in non-polar solvents" },
+              { id: "a", text: "gases never dissolve in liquids" },
               { id: "b", text: "all solutes dissolve in water" },
               { id: "c", text: "ionic compounds dissolve in oil" },
-              { id: "d", text: "gases never dissolve in liquids" },
+              { id: "d", text: "polar solutes dissolve in polar solvents and non-polar solutes dissolve in non-polar solvents" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -191,12 +191,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "ionic" },
+              { id: "a", text: "covalent molecular" },
               { id: "b", text: "metallic" },
-              { id: "c", text: "covalent molecular" },
+              { id: "c", text: "ionic" },
               { id: "d", text: "giant covalent" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -219,10 +219,10 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\mathrm{NaCl}$" },
-              { id: "b", text: "Diamond" },
+              { id: "a", text: "$\\mathrm{CO_2}$" },
+              { id: "b", text: "$\\mathrm{NaCl}$" },
               { id: "c", text: "Copper" },
-              { id: "d", text: "$\\mathrm{CO_2}$" },
+              { id: "d", text: "Diamond" },
             ],
             correctChoiceId: "c",
           },
@@ -248,9 +248,9 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$\\mathrm{SiO_2}$" },
-              { id: "b", text: "$\\mathrm{NaCl}$" },
+              { id: "b", text: "$\\mathrm{H_2O}$" },
               { id: "c", text: "Copper" },
-              { id: "d", text: "$\\mathrm{H_2O}$" },
+              { id: "d", text: "$\\mathrm{NaCl}$" },
             ],
             correctChoiceId: "a",
           },
@@ -275,12 +275,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "oil and grease are both non-polar with similar intermolecular forces" },
-              { id: "b", text: "grease is an ionic compound" },
-              { id: "c", text: "water is a non-polar solvent" },
-              { id: "d", text: "oil conducts electricity" },
+              { id: "a", text: "oil conducts electricity" },
+              { id: "b", text: "water is a non-polar solvent" },
+              { id: "c", text: "oil and grease are both non-polar with similar intermolecular forces" },
+              { id: "d", text: "grease is an ionic compound" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -521,10 +521,10 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\Delta H>0$, endothermic" },
+              { id: "a", text: "$\\Delta H>0$, exothermic" },
               { id: "b", text: "$\\Delta H<0$, exothermic" },
               { id: "c", text: "$\\Delta H=0$, neither" },
-              { id: "d", text: "$\\Delta H>0$, exothermic" },
+              { id: "d", text: "$\\Delta H>0$, endothermic" },
             ],
             correctChoiceId: "b",
           },
@@ -549,12 +549,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Increasing the concentration of a reactant" },
-              { id: "b", text: "Increasing the temperature" },
+              { id: "a", text: "Increasing the temperature" },
+              { id: "b", text: "Decreasing the surface area of a solid reactant" },
               { id: "c", text: "Adding a catalyst" },
-              { id: "d", text: "Decreasing the surface area of a solid reactant" },
+              { id: "d", text: "Increasing the concentration of a reactant" },
             ],
-            correctChoiceId: "d",
+            correctChoiceIb: "d",
           },
           markscheme: {
             principles: [
@@ -631,12 +631,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Combustion of methane" },
-              { id: "b", text: "Photosynthesis" },
-              { id: "c", text: "Neutralisation of an acid by a base" },
-              { id: "d", text: "Respiration" },
+              { id: "a", text: "Respiration" },
+              { id: "b", text: "Neutralisation of an acid by a base" },
+              { id: "c", text: "Combustion of methane" },
+              { id: "d", text: "Photosynthesis" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -660,9 +660,9 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "providing an alternative pathway with a lower activation energy" },
-              { id: "b", text: "raising the temperature of the mixture" },
-              { id: "c", text: "being consumed in the reaction" },
-              { id: "d", text: "increasing the concentration of reactants" },
+              { id: "b", text: "increasing the concentration of reactants" },
+              { id: "c", text: "raising the temperature of the mixture" },
+              { id: "d", text: "being consumed in the reaction" },
             ],
             correctChoiceId: "a",
           },
@@ -688,11 +688,11 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "an open system" },
-              { id: "b", text: "a closed system" },
-              { id: "c", text: "a system at very high temperature" },
-              { id: "d", text: "any system regardless of conditions" },
+              { id: "b", text: "a system at very high temperature" },
+              { id: "c", text: "any system regardless of conditions" },
+              { id: "d", text: "a closed system" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -715,12 +715,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "there are more particles per unit volume, so collisions are more frequent" },
-              { id: "b", text: "the covalent bonds within the molecules become weaker" },
-              { id: "c", text: "the temperature of the mixture rises automatically" },
+              { id: "a", text: "the temperature of the mixture rises automatically" },
+              { id: "b", text: "there are more particles per unit volume, so collisions are more frequent" },
+              { id: "c", text: "the covalent bonds within the molecules become weaker" },
               { id: "d", text: "the activation energy decreases" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -743,12 +743,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "the minimum energy particles must have in a collision for a reaction to occur" },
-              { id: "b", text: "the energy released to the surroundings" },
-              { id: "c", text: "the energy difference between products and reactants" },
-              { id: "d", text: "the energy stored in the covalent bonds of the products" },
+              { id: "a", text: "the energy released to the surroundings" },
+              { id: "b", text: "the energy stored in the covalent bonds of the products" },
+              { id: "c", text: "the minimum energy particles must have in a collision for a reaction to occur" },
+              { id: "d", text: "the energy difference between products and reactants" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

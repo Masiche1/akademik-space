@@ -52,12 +52,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The flower is beautiful" },
-              { id: "b", text: "The flower has 5 petals" },
-              { id: "c", text: "I like the flower" },
-              { id: "d", text: "The flower is my favourite" },
+              { id: "a", text: "I like the flower" },
+              { id: "b", text: "The flower is my favourite" },
+              { id: "c", text: "The flower is beautiful" },
+              { id: "d", text: "The flower has 5 petals" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -146,11 +146,11 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "The rock is beautiful" },
-              { id: "b", text: "The rock is grey and rough" },
-              { id: "c", text: "I like the rock" },
+              { id: "b", text: "I like the rock" },
+              { id: "c", text: "The rock is grey and rough" },
               { id: "d", text: "The rock is my favourite" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -210,12 +210,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It can be tested with an experiment" },
-              { id: "b", text: "It is always true" },
+              { id: "a", text: "It is always true" },
+              { id: "b", text: "It can be tested with an experiment" },
               { id: "c", text: "It is a feeling" },
               { id: "d", text: "It cannot be checked" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -300,8 +300,8 @@ export const lesson33: Lesson = {
             choices: [
               { id: "a", text: "The leaf is pretty" },
               { id: "b", text: "The leaf has five points and is green" },
-              { id: "c", text: "I love the leaf" },
-              { id: "d", text: "The leaf is the best" },
+              { id: "c", text: "The leaf is the best" },
+              { id: "d", text: "I love the leaf" },
             ],
             correctChoiceId: "b",
           },
@@ -345,12 +345,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Plants are nice" },
-              { id: "b", text: "If a plant gets more sunlight it will grow taller" },
-              { id: "c", text: "I think plants are good" },
-              { id: "d", text: "Plants are the best" },
+              { id: "a", text: "Plants are the best" },
+              { id: "b", text: "I think plants are good" },
+              { id: "c", text: "Plants are nice" },
+              { id: "d", text: "If a plant gets more sunlight it will grow taller" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -394,12 +394,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A hypothesis is a testable if-then statement" },
-              { id: "b", text: "A prediction can never be tested" },
-              { id: "c", text: "A hypothesis is always an opinion" },
-              { id: "d", text: "They are exactly the same" },
+              { id: "a", text: "A prediction can never be tested" },
+              { id: "b", text: "A hypothesis is a testable if-then statement" },
+              { id: "c", text: "They are exactly the same" },
+              { id: "d", text: "A hypothesis is always an opinion" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -448,12 +448,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "None" },
-              { id: "b", text: "One" },
-              { id: "c", text: "Two" },
-              { id: "d", text: "All of them" },
+              { id: "a", text: "One" },
+              { id: "b", text: "None" },
+              { id: "c", text: "All of them" },
+              { id: "d", text: "Two" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -541,12 +541,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "None" },
-              { id: "b", text: "One" },
-              { id: "c", text: "Two" },
+              { id: "a", text: "Two" },
+              { id: "b", text: "None" },
+              { id: "c", text: "One" },
               { id: "d", text: "Every variable" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -606,12 +606,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "In a table or chart" },
-              { id: "b", text: "Only in your head" },
-              { id: "c", text: "By guessing" },
-              { id: "d", text: "On the wall as art" },
+              { id: "a", text: "On the wall as art" },
+              { id: "b", text: "By guessing" },
+              { id: "c", text: "Only in your head" },
+              { id: "d", text: "In a table or chart" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -694,12 +694,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "To check the result is reliable" },
-              { id: "b", text: "To use more materials always" },
-              { id: "c", text: "To change the hypothesis" },
-              { id: "d", text: "To avoid recording" },
+              { id: "a", text: "To use more materials always" },
+              { id: "b", text: "To check the result is reliable" },
+              { id: "c", text: "To avoid recording" },
+              { id: "d", text: "To change the hypothesis" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -741,12 +741,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Measure the variable and record all results in a table" },
-              { id: "b", text: "Write only what you expected" },
+              { id: "a", text: "Stop after one try" },
+              { id: "b", text: "Measure the variable and record all results in a table" },
               { id: "c", text: "Change several variables" },
-              { id: "d", text: "Stop after one try" },
+              { id: "d", text: "Write only what you expected" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -790,12 +790,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The measured results and evidence" },
-              { id: "b", text: "Only what you hoped would happen" },
-              { id: "c", text: "A guess with no data" },
-              { id: "d", text: "What a friend said" },
+              { id: "a", text: "A guess with no data" },
+              { id: "b", text: "The measured results and evidence" },
+              { id: "c", text: "What a friend said" },
+              { id: "d", text: "Only what you hoped would happen" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [

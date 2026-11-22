@@ -50,12 +50,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Mass number" },
-              { id: "b", text: "Atomic (proton) number" },
-              { id: "c", text: "Neutron number" },
-              { id: "d", text: "Electron mass" },
+              { id: "a", text: "Atomic (proton) number" },
+              { id: "b", text: "Electron mass" },
+              { id: "c", text: "Mass number" },
+              { id: "d", text: "Neutron number" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Atomic number", statement: "Z = protons = element identity." }],
@@ -165,12 +165,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Alpha" },
+              { id: "a", text: "Gamma" },
               { id: "b", text: "Beta" },
-              { id: "c", text: "Gamma" },
-              { id: "d", text: "All equal" },
+              { id: "c", text: "All equal" },
+              { id: "d", text: "Alpha" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Gamma", statement: "EM wave, no charge → least interaction." }],

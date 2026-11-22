@@ -55,12 +55,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Their costume choice" },
-              { id: "b", text: "What they want to achieve in that moment" },
-              { id: "c", text: "Their height and build" },
-              { id: "d", text: "Their relationship to the audience" },
+              { id: "a", text: "Their relationship to the audience" },
+              { id: "b", text: "Their height and build" },
+              { id: "c", text: "What they want to achieve in that moment" },
+              { id: "d", text: "Their costume choice" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -163,11 +163,11 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "What a character wants" },
-              { id: "b", text: "What prevents a character from achieving their objective" },
-              { id: "c", text: "The character's costume" },
-              { id: "d", text: "The set design" },
+              { id: "b", text: "The set design" },
+              { id: "c", text: "What prevents a character from achieving their objective" },
+              { id: "d", text: "The character's costume" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -193,8 +193,8 @@ export const lesson32: Lesson = {
             choices: [
               { id: "a", text: "A goal within a single scene" },
               { id: "b", text: "The character's overall goal across the whole play" },
-              { id: "c", text: "The director's vision" },
-              { id: "d", text: "The audience's expectation" },
+              { id: "c", text: "The audience's expectation" },
+              { id: "d", text: "The director's vision" },
             ],
             correctChoiceId: "b",
           },
@@ -220,12 +220,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Objective" },
-              { id: "b", text: "Tactics" },
-              { id: "c", text: "Given circumstances" },
-              { id: "d", text: "Superobjective" },
+              { id: "a", text: "Superobjective" },
+              { id: "b", text: "Given circumstances" },
+              { id: "c", text: "Tactics" },
+              { id: "d", text: "Objective" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -249,10 +249,10 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The director's concept" },
+              { id: "a", text: "The lighting design" },
               { id: "b", text: "The play's fixed facts — time, place, relationships, history" },
-              { id: "c", text: "The costume choices" },
-              { id: "d", text: "The lighting design" },
+              { id: "c", text: "The director's concept" },
+              { id: "d", text: "The costume choices" },
             ],
             correctChoiceId: "b",
           },
@@ -278,12 +278,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Because actors forget their lines" },
-              { id: "b", text: "Because the character adapts their strategy as the obstacle responds" },
+              { id: "a", text: "Because objectives change with every line" },
+              { id: "b", text: "Because actors forget their lines" },
               { id: "c", text: "Because the director changes the script" },
-              { id: "d", text: "Because objectives change with every line" },
+              { id: "d", text: "Because the character adapts their strategy as the obstacle responds" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -308,11 +308,11 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "What costume to wear" },
-              { id: "b", text: "What to pursue and where to place emphasis in the scene" },
-              { id: "c", text: "How to design the set" },
-              { id: "d", text: "When to exit the stage" },
+              { id: "b", text: "When to exit the stage" },
+              { id: "c", text: "What to pursue and where to place emphasis in the scene" },
+              { id: "d", text: "How to design the set" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -506,11 +506,11 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "The script's structure" },
-              { id: "b", text: "The planned movement and positioning of actors on stage" },
-              { id: "c", text: "The costume design" },
-              { id: "d", text: "The lighting plot" },
+              { id: "b", text: "The lighting plot" },
+              { id: "c", text: "The planned movement and positioning of actors on stage" },
+              { id: "d", text: "The costume design" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -607,11 +607,11 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "The set design" },
-              { id: "b", text: "How lines are spoken — pace, volume, emphasis, pauses" },
+              { id: "b", text: "The audience's reaction" },
               { id: "c", text: "The costume choices" },
-              { id: "d", text: "The audience's reaction" },
+              { id: "d", text: "How lines are spoken — pace, volume, emphasis, pauses" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -635,12 +635,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Nothing in particular" },
-              { id: "b", text: "Intimacy or threat, depending on context" },
-              { id: "c", text: "The end of the scene" },
+              { id: "a", text: "Intimacy or threat, depending on context" },
+              { id: "b", text: "The end of the scene" },
+              { id: "c", text: "Nothing in particular" },
               { id: "d", text: "A costume change" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -664,10 +664,10 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Sound effects" },
+              { id: "a", text: "Lighting changes" },
               { id: "b", text: "Dramatic meaning such as dominance or vulnerability" },
-              { id: "c", text: "Lighting changes" },
-              { id: "d", text: "Scene transitions" },
+              { id: "c", text: "Scene transitions" },
+              { id: "d", text: "Sound effects" },
             ],
             correctChoiceId: "b",
           },
@@ -693,10 +693,10 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The stage directions beneath the dialogue" },
+              { id: "a", text: "The music played under scenes" },
               { id: "b", text: "What characters really mean beneath the spoken words" },
               { id: "c", text: "The audience's dialogue" },
-              { id: "d", text: "The music played under scenes" },
+              { id: "d", text: "The stage directions beneath the dialogue" },
             ],
             correctChoiceId: "b",
           },
@@ -722,12 +722,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Because it always looks better" },
-              { id: "b", text: "Because movement can externalise rising tension — advance, retreat, closeness" },
-              { id: "c", text: "Because it saves rehearsal time" },
+              { id: "a", text: "Because it saves rehearsal time" },
+              { id: "b", text: "Because it always looks better" },
+              { id: "c", text: "Because movement can externalise rising tension — advance, retreat, closeness" },
               { id: "d", text: "Because theatre convention requires it" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -751,12 +751,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Be safely cut in editing" },
-              { id: "b", text: "Create anticipation and weight, revealing subtext" },
+              { id: "a", text: "Create anticipation and weight, revealing subtext" },
+              { id: "b", text: "Be safely cut in editing" },
               { id: "c", text: "Indicate the actor forgot their lines" },
               { id: "d", text: "Signal the end of the scene" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

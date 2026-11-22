@@ -69,8 +69,8 @@ export const lesson22: Lesson = {
             choices: [
               { id: "a", text: "4" },
               { id: "b", text: "5" },
-              { id: "c", text: "10" },
-              { id: "d", text: "15" },
+              { id: "c", text: "15" },
+              { id: "d", text: "10" },
             ],
             correctChoiceId: "a",
           },
@@ -295,10 +295,10 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "1/8" },
+              { id: "a", text: "Cannot tell" },
               { id: "b", text: "1/4" },
-              { id: "c", text: "They are equal" },
-              { id: "d", text: "Cannot tell" },
+              { id: "c", text: "1/8" },
+              { id: "d", text: "They are equal" },
             ],
             correctChoiceId: "b",
           },

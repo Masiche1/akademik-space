@@ -50,12 +50,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Friction" },
-              { id: "b", text: "Magnetic force" },
-              { id: "c", text: "Gravity" },
-              { id: "d", text: "Air resistance" },
+              { id: "a", text: "Magnetic force" },
+              { id: "b", text: "Gravity" },
+              { id: "c", text: "Air resistance" },
+              { id: "d", text: "Friction" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -187,11 +187,11 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "A black hole" },
-              { id: "b", text: "A neutron star" },
+              { id: "b", text: "A white dwarf" },
               { id: "c", text: "A supernova" },
-              { id: "d", text: "A white dwarf" },
+              { id: "d", text: "A neutron star" },
             ],
-            correctChoiceId: "d",
+            correctChoiceIb: "d",
           },
           markscheme: {
             principles: [

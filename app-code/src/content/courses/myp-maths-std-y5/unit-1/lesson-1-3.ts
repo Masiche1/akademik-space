@@ -55,12 +55,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$4.5\\times10^{-4}$" },
-              { id: "b", text: "$4.5\\times10^{-5}$" },
+              { id: "a", text: "$4.5\\times10^{-5}$" },
+              { id: "b", text: "$4.5\\times10^{4}$" },
               { id: "c", text: "$45\\times10^{-5}$" },
-              { id: "d", text: "$4.5\\times10^{4}$" },
+              { id: "d", text: "$4.5\\times10^{-4}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -82,12 +82,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$3.18\\times10^5$" },
-              { id: "b", text: "$10.2\\times10^5$" },
+              { id: "a", text: "$10.2\\times10^5$" },
+              { id: "b", text: "$2.478\\times10^5$" },
               { id: "c", text: "$3.18\\times10^6$" },
-              { id: "d", text: "$2.478\\times10^5$" },
+              { id: "d", text: "$3.18\\times10^5$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -110,12 +110,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$1.4\\times10^{11}$ s" },
-              { id: "b", text: "$7.2\\times10^{21}$ s" },
-              { id: "c", text: "$1.3\\times10^{11}$ s" },
-              { id: "d", text: "$1.4\\times10^{12}$ s" },
+              { id: "a", text: "$1.4\\times10^{12}$ s" },
+              { id: "b", text: "$1.4\\times10^{11}$ s" },
+              { id: "c", text: "$7.2\\times10^{21}$ s" },
+              { id: "d", text: "$1.3\\times10^{11}$ s" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -170,12 +170,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$7.2\\times10^6$" },
-              { id: "b", text: "$72\\times10^5$" },
-              { id: "c", text: "$7.2\\times10^5$" },
+              { id: "a", text: "$7.2\\times10^5$" },
+              { id: "b", text: "$7.2\\times10^6$" },
+              { id: "c", text: "$72\\times10^5$" },
               { id: "d", text: "$0.72\\times10^7$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Standard form", statement: "$a\\times10^n$ with $1\\le a<10$." }],
@@ -203,12 +203,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$4\\times10^6$" },
-              { id: "b", text: "$4\\times10^12$" },
+              { id: "a", text: "$4\\times10^5$" },
+              { id: "b", text: "$4\\times10^6$" },
               { id: "c", text: "$6\\times10^6$" },
-              { id: "d", text: "$4\\times10^5$" },
+              { id: "d", text: "$4\\times10^12$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Standard form division", statement: "Divide mantissas and subtract powers." }],
@@ -257,12 +257,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$2\\times10^6$" },
-              { id: "b", text: "$20\\times10^5$" },
-              { id: "c", text: "$2\\times10^5$" },
-              { id: "d", text: "$9\\times10^5$" },
+              { id: "a", text: "$2\\times10^5$" },
+              { id: "b", text: "$2\\times10^6$" },
+              { id: "c", text: "$9\\times10^5$" },
+              { id: "d", text: "$20\\times10^5$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Standard form", statement: "Mantissas $5\\times4=20$; powers $10^{7-2}=10^5$; renormalise to $2\\times10^6$." }],
@@ -333,12 +333,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$2\\times10^{10}$" },
-              { id: "b", text: "$2\\times10^6$" },
+              { id: "a", text: "$2\\times10^6$" },
+              { id: "b", text: "$2\\times10^{10}$" },
               { id: "c", text: "$2\\times10^4$" },
               { id: "d", text: "$2\\times10^{12}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Standard form division", statement: "$\\frac{4.8}{2.4}=2$; $10^{8-(-2)}=10^{10}$." }],
@@ -422,10 +422,10 @@ export const lesson13: Lesson = {
             choices: [
               { id: "a", text: "$0.\\dot{4}$" },
               { id: "b", text: "$\\sqrt{9}$" },
-              { id: "c", text: "$\\sqrt{10}$" },
-              { id: "d", text: "$\\frac{22}{7}$" },
+              { id: "c", text: "$\\frac{22}{7}$" },
+              { id: "d", text: "$\\sqrt{10}$" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -447,12 +447,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\frac{4}{11}$" },
-              { id: "b", text: "$\\frac{11}{3}$" },
+              { id: "a", text: "$\\frac{11}{3}$" },
+              { id: "b", text: "$\\frac{4}{11}$" },
               { id: "c", text: "$\\frac{36}{99}$" },
               { id: "d", text: "$\\frac{4}{99}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -476,11 +476,11 @@ export const lesson13: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Suppose $\\sqrt{5}=\\frac{p}{q}$ in lowest terms; then $p^2=5q^2$, so $p$ is divisible by 5, but then $q$ is too — contradiction." },
-              { id: "b", text: "$\\sqrt{5}$ cannot be written as a fraction because its decimal never repeats." },
-              { id: "c", text: "Assume $\\sqrt{5}=\\frac{p}{q}$; then $5=\\frac{p^2}{q^2}$, so $p^2=5q^2$; this means $p$ is divisible by 5; let $p=5k$; then $25k^2=5q^2$ so $q^2=5k^2$; so $q$ is divisible by 5 — contradiction since $\\frac{p}{q}$ was in lowest terms." },
-              { id: "d", text: "All square roots of non-perfect squares are irrational by definition." },
+              { id: "b", text: "Assume $\\sqrt{5}=\\frac{p}{q}$; then $5=\\frac{p^2}{q^2}$, so $p^2=5q^2$; this means $p$ is divisible by 5; let $p=5k$; then $25k^2=5q^2$ so $q^2=5k^2$; so $q$ is divisible by 5 — contradiction since $\\frac{p}{q}$ was in lowest terms." },
+              { id: "c", text: "All square roots of non-perfect squares are irrational by definition." },
+              { id: "d", text: "$\\sqrt{5}$ cannot be written as a fraction because its decimal never repeats." },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -537,10 +537,10 @@ export const lesson13: Lesson = {
             choices: [
               { id: "a", text: "$\\sqrt{16}$" },
               { id: "b", text: "$0.\\dot{5}$" },
-              { id: "c", text: "$\\sqrt{13}$" },
-              { id: "d", text: "$\\frac{17}{4}$" },
+              { id: "c", text: "$\\frac{17}{4}$" },
+              { id: "d", text: "$\\sqrt{13}$" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Irrational", statement: "Cannot be written as $\\frac{p}{q}$; $\\sqrt{13}$ is irrational." }],
@@ -568,12 +568,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Rational, because $\\sqrt{0.04}=0.2=\\frac15$" },
+              { id: "a", text: "Irrational, because 0.04 is not a perfect square" },
               { id: "b", text: "Irrational, because it is a square root" },
               { id: "c", text: "Rational, because all decimals are rational" },
-              { id: "d", text: "Irrational, because 0.04 is not a perfect square" },
+              { id: "d", text: "Rational, because $\\sqrt{0.04}=0.2=\\frac15$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Simplify first", statement: "$\\sqrt{0.04}=0.2=\\frac15$, a rational number." }],
@@ -622,12 +622,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Real and irrational, but not rational" },
-              { id: "b", text: "Rational because $\\frac{22}{7}$ approximates it" },
-              { id: "c", text: "Integer because it is a constant" },
-              { id: "d", text: "Not a real number" },
+              { id: "a", text: "Not a real number" },
+              { id: "b", text: "Integer because it is a constant" },
+              { id: "c", text: "Rational because $\\frac{22}{7}$ approximates it" },
+              { id: "d", text: "Real and irrational, but not rational" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Number sets", statement: "$\\pi$ is real but cannot be written as $\\frac{p}{q}$." }],
@@ -699,8 +699,8 @@ export const lesson13: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$\\frac{7}{2}$" },
-              { id: "b", text: "$\\sqrt{5}$" },
-              { id: "c", text: "$0.\\dot{7}\\dot{7}$ only if it cannot be a fraction" },
+              { id: "b", text: "$0.\\dot{7}\\dot{7}$ only if it cannot be a fraction" },
+              { id: "c", text: "$\\sqrt{5}$" },
               { id: "d", text: "$\\pi$" },
             ],
             correctChoiceId: "a",

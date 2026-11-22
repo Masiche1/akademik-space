@@ -50,10 +50,10 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Mass number" },
+              { id: "a", text: "Electron mass" },
               { id: "b", text: "Atomic (proton) number" },
-              { id: "c", text: "Neutron number" },
-              { id: "d", text: "Electron mass" },
+              { id: "c", text: "Mass number" },
+              { id: "d", text: "Neutron number" },
             ],
             correctChoiceId: "b",
           },
@@ -165,12 +165,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Alpha" },
-              { id: "b", text: "Beta" },
-              { id: "c", text: "Gamma" },
-              { id: "d", text: "All equal" },
+              { id: "a", text: "Gamma" },
+              { id: "b", text: "All equal" },
+              { id: "c", text: "Beta" },
+              { id: "d", text: "Alpha" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Gamma", statement: "EM wave, no charge → least interaction." }],

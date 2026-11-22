@@ -50,12 +50,12 @@ export const lesson81: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\frac{1}{3}$" },
-              { id: "b", text: "$\\frac{1}{2}$" },
-              { id: "c", text: "$\\frac{2}{3}$" },
-              { id: "d", text: "$\\frac{5}{6}$" },
+              { id: "a", text: "$\\frac{5}{6}$" },
+              { id: "b", text: "$\\frac{2}{3}$" },
+              { id: "c", text: "$\\frac{1}{3}$" },
+              { id: "d", text: "$\\frac{1}{2}$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -172,12 +172,12 @@ export const lesson81: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\frac{6}{30}$" },
-              { id: "b", text: "$\\frac{6}{18}=\\frac{1}{3}$" },
-              { id: "c", text: "$\\frac{8}{30}$" },
-              { id: "d", text: "$\\frac{6}{8}=\\frac{3}{4}$" },
+              { id: "a", text: "$\\frac{6}{8}=\\frac{3}{4}$" },
+              { id: "b", text: "$\\frac{6}{30}$" },
+              { id: "c", text: "$\\frac{6}{18}=\\frac{1}{3}$" },
+              { id: "d", text: "$\\frac{8}{30}$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

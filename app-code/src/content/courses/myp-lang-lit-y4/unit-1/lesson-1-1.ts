@@ -53,12 +53,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Only the titles" },
-              { id: "b", text: "Theme, perspective, language, structure and effect" },
-              { id: "c", text: "Only the endings" },
-              { id: "d", text: "The page numbers" },
+              { id: "a", text: "Only the endings" },
+              { id: "b", text: "The page numbers" },
+              { id: "c", text: "Theme, perspective, language, structure and effect" },
+              { id: "d", text: "Only the titles" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -153,12 +153,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "similarly" },
-              { id: "b", text: "whereas" },
-              { id: "c", text: "both" },
-              { id: "d", text: "likewise" },
+              { id: "a", text: "whereas" },
+              { id: "b", text: "both" },
+              { id: "c", text: "likewise" },
+              { id: "d", text: "similarly" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -183,10 +183,10 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Both texts argue that homework should be abolished" },
+              { id: "a", text: "Text A is about school uniforms" },
               { id: "b", text: "Both discuss homework's effect on students, but A emphasises benefits while B emphasises costs" },
-              { id: "c", text: "Text A is about school uniforms" },
-              { id: "d", text: "Text B agrees completely with Text A" },
+              { id: "c", text: "Text B agrees completely with Text A" },
+              { id: "d", text: "Both texts argue that homework should be abolished" },
             ],
             correctChoiceId: "b",
           },
@@ -209,12 +209,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Page count and font size" },
-              { id: "b", text: "Perspective and language" },
+              { id: "a", text: "Perspective and language" },
+              { id: "b", text: "Page count and font size" },
               { id: "c", text: "Cover colour and price" },
               { id: "d", text: "Author's age and birthplace" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -258,12 +258,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Text A has 200 words; Text B has 300 words" },
-              { id: "b", text: "Text A uses the word 'the' more often" },
-              { id: "c", text: "Both explore grief, but A shows it through a funeral while B shows it through silence" },
+              { id: "a", text: "Both explore grief, but A shows it through a funeral while B shows it through silence" },
+              { id: "b", text: "Text A has 200 words; Text B has 300 words" },
+              { id: "c", text: "Text A uses the word 'the' more often" },
               { id: "d", text: "Text A is on page 1; Text B is on page 2" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -338,12 +338,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The number of pages" },
-              { id: "b", text: "How each text makes the reader feel or respond" },
-              { id: "c", text: "The price of the book" },
-              { id: "d", text: "The author's age" },
+              { id: "a", text: "The author's age" },
+              { id: "b", text: "The number of pages" },
+              { id: "c", text: "How each text makes the reader feel or respond" },
+              { id: "d", text: "The price of the book" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -385,12 +385,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Text A is good and Text B is bad." },
-              { id: "b", text: "Both explore loss; however, Text A shows it through silence while Text B shows it through anger." },
-              { id: "c", text: "Text A was written first." },
-              { id: "d", text: "I prefer Text B." },
+              { id: "a", text: "Text A was written first." },
+              { id: "b", text: "I prefer Text B." },
+              { id: "c", text: "Text A is good and Text B is bad." },
+              { id: "d", text: "Both explore loss; however, Text A shows it through silence while Text B shows it through anger." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -495,12 +495,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Text between two covers" },
-              { id: "b", text: "When a text references or responds to another text" },
-              { id: "c", text: "A type of poetry" },
+              { id: "a", text: "A type of poetry" },
+              { id: "b", text: "Text between two covers" },
+              { id: "c", text: "When a text references or responds to another text" },
               { id: "d", text: "Text written in foreign language" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -595,12 +595,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A serious retelling of a story" },
-              { id: "b", text: "A text that mocks or imitates another text for comic effect" },
-              { id: "c", text: "A copy of a famous painting" },
+              { id: "a", text: "A text that mocks or imitates another text for comic effect" },
+              { id: "b", text: "A copy of a famous painting" },
+              { id: "c", text: "A serious retelling of a story" },
               { id: "d", text: "A translation of a poem" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Parody", statement: "A parody mocks or imitates another text for comic effect." }],
@@ -639,11 +639,11 @@ export const lesson11: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Parody" },
-              { id: "b", text: "Adaptation" },
+              { id: "b", text: "Response" },
               { id: "c", text: "Allusion" },
-              { id: "d", text: "Response" },
+              { id: "d", text: "Adaptation" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Adaptation", statement: "An adaptation retells a story for a new medium or audience." }],
@@ -685,8 +685,8 @@ export const lesson11: Lesson = {
             choices: [
               { id: "a", text: "A poem with a rhyming couplet" },
               { id: "b", text: "A character named 'Romeo' in a modern play" },
-              { id: "c", text: "A textbook chapter on photosynthesis" },
-              { id: "d", text: "A recipe with numbered steps" },
+              { id: "c", text: "A recipe with numbered steps" },
+              { id: "d", text: "A textbook chapter on photosynthesis" },
             ],
             correctChoiceId: "b",
           },
@@ -759,12 +759,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A direct quotation with citation" },
-              { id: "b", text: "An indirect reference to another text, person or event" },
+              { id: "a", text: "An indirect reference to another text, person or event" },
+              { id: "b", text: "A direct quotation with citation" },
               { id: "c", text: "A type of rhyme" },
               { id: "d", text: "A footnote in an essay" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Allusion", statement: "An indirect reference to another text, person or event." }],
@@ -802,12 +802,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A text that copies another word for word" },
-              { id: "b", text: "A retelling of a story for a new audience or medium" },
-              { id: "c", text: "A text written in a foreign language" },
-              { id: "d", text: "A summary of a long book" },
+              { id: "a", text: "A text written in a foreign language" },
+              { id: "b", text: "A summary of a long book" },
+              { id: "c", text: "A text that copies another word for word" },
+              { id: "d", text: "A retelling of a story for a new audience or medium" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Adaptation", statement: "Adaptation = retelling a story for a new audience or medium." }],

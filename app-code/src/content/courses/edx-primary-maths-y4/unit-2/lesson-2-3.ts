@@ -73,8 +73,8 @@ export const lesson53: Lesson = {
             choices: [
               { id: "a", text: "0.03" },
               { id: "b", text: "0.3" },
-              { id: "c", text: "3.0" },
-              { id: "d", text: "0.13" },
+              { id: "c", text: "0.13" },
+              { id: "d", text: "3.0" },
             ],
             correctChoiceId: "b",
           },
@@ -275,10 +275,10 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "25p" },
+              { id: "a", text: "2005p" },
               { id: "b", text: "250p" },
-              { id: "c", text: "205p" },
-              { id: "d", text: "2005p" },
+              { id: "c", text: "25p" },
+              { id: "d", text: "205p" },
             ],
             correctChoiceId: "b",
           },

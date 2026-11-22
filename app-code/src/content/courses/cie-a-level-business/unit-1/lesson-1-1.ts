@@ -6,14 +6,32 @@ export const lesson371: Lesson = {
   title: "Business Objectives and Stakeholders",
   goal: "I CAN explain business objectives and analyse stakeholder interests.",
   standards: ["Cambridge A Level Business 9707", "Paper 1: business activity"],
-  
+
   vocabulary: [
-    { term: "Profit maximisation", definition: "Objective of achieving highest possible profit." },
-    { term: "Sales revenue maximisation", definition: "Objective of achieving highest possible revenue." },
-    { term: "Market share", definition: "Percentage of market controlled by business." },
-    { term: "Social enterprise", definition: "Business prioritising social/environmental aims." },
-    { term: "Stakeholder", definition: "Any group/person affected by business decisions." },
-    { term: "Conflict of objectives", definition: "When different objectives cannot all be achieved." },
+    {
+      term: "Profit maximisation",
+      definition: "Objective of achieving highest possible profit.",
+    },
+    {
+      term: "Sales revenue maximisation",
+      definition: "Objective of achieving highest possible revenue.",
+    },
+    {
+      term: "Market share",
+      definition: "Percentage of market controlled by business.",
+    },
+    {
+      term: "Social enterprise",
+      definition: "Business prioritising social/environmental aims.",
+    },
+    {
+      term: "Stakeholder",
+      definition: "Any group/person affected by business decisions.",
+    },
+    {
+      term: "Conflict of objectives",
+      definition: "When different objectives cannot all be achieved.",
+    },
   ],
   concepts: [
     {
@@ -38,11 +56,17 @@ export const lesson371: Lesson = {
         keyFormulas: [
           { name: "Profit max", statement: "highest possible profit" },
           { name: "Revenue max", statement: "highest possible turnover" },
-          { name: "Stakeholders", statement: "owners, employees, customers, suppliers, government, community" },
+          {
+            name: "Stakeholders",
+            statement:
+              "owners, employees, customers, suppliers, government, community",
+          },
         ],
         workedExample: {
-          problem: "A business wants to maximise profit but employees demand higher wages. How to resolve?",
-          solution: "Conflict of objectives — higher wages reduce profit. Business must balance stakeholder interests, possibly through productivity gains or accepting lower profit margin.",
+          problem:
+            "A business wants to maximise profit but employees demand higher wages. How to resolve?",
+          solution:
+            "Conflict of objectives — higher wages reduce profit. Business must balance stakeholder interests, possibly through productivity gains or accepting lower profit margin.",
         },
       },
       questions: [
@@ -52,44 +76,44 @@ export const lesson371: Lesson = {
           totalMarks: 1,
           stem: "What is profit maximisation?",
           response: {
-          "type": "mcq",
-          "choices": [
-                    {
-                              "id": "a",
-                              "text": "Objective of achieving highest possible profit"
-                    },
-                    {
-                              "id": "b",
-                              "text": "Highest revenue"
-                    },
-                    {
-                              "id": "c",
-                              "text": "Largest market share"
-                    },
-                    {
-                              "id": "d",
-                              "text": "Social aims"
-                    }
-          ],
-          "correctChoiceId": "a"
-},
+            type: "mcq",
+            choices: [
+              {
+                id: "a",
+                text: "Social aims",
+              },
+              {
+                id: "b",
+                text: "Largest market share",
+              },
+              {
+                id: "c",
+                text: "Highest revenue",
+              },
+              {
+                id: "d",
+                text: "Objective of achieving highest possible profit",
+              },
+            ],
+            correctChoiceId: "d",
+          },
           markscheme: {
-          "principles": [
-                    {
-                              "kind": "definition",
-                              "name": "Profit maximisation",
-                              "statement": "Highest profit objective."
-                    }
-          ],
-          "steps": [
-                    {
-                              "reasoning": "Profit maximisation = highest possible profit.",
-                              "marks": 1,
-                              "markCode": "M"
-                    }
-          ],
-          "finalAnswer": "Highest possible profit"
-},
+            principles: [
+              {
+                kind: "definition",
+                name: "Profit maximisation",
+                statement: "Highest profit objective.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Profit maximisation = highest possible profit.",
+                marks: 1,
+                markCode: "M",
+              },
+            ],
+            finalAnswer: "Highest possible profit",
+          },
         },
         {
           id: "ciealbus-u1-ob-q2",
@@ -97,30 +121,31 @@ export const lesson371: Lesson = {
           totalMarks: 2,
           stem: "Who are stakeholders? Give three examples.",
           response: {
-          "type": "open"
-},
+            type: "open",
+          },
           markscheme: {
-          "principles": [
-                    {
-                              "kind": "definition",
-                              "name": "Stakeholder",
-                              "statement": "Affected by business."
-                    }
-          ],
-          "steps": [
-                    {
-                              "reasoning": "Any group/person affected by business decisions.",
-                              "marks": 1,
-                              "markCode": "M"
-                    },
-                    {
-                              "reasoning": "Examples: owners, employees, customers, suppliers, government, community.",
-                              "marks": 1,
-                              "markCode": "M"
-                    }
-          ],
-          "finalAnswer": "Affected parties"
-},
+            principles: [
+              {
+                kind: "definition",
+                name: "Stakeholder",
+                statement: "Affected by business.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Any group/person affected by business decisions.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "Examples: owners, employees, customers, suppliers, government, community.",
+                marks: 1,
+                markCode: "M",
+              },
+            ],
+            finalAnswer: "Affected parties",
+          },
         },
         {
           id: "ciealbus-u1-ob-q3",
@@ -128,35 +153,35 @@ export const lesson371: Lesson = {
           totalMarks: 3,
           stem: "What is a conflict of objectives? Give an example.",
           response: {
-          "type": "open"
-},
+            type: "open",
+          },
           markscheme: {
-          "principles": [
-                    {
-                              "kind": "definition",
-                              "name": "Conflict",
-                              "statement": "Incompatible objectives."
-                    }
-          ],
-          "steps": [
-                    {
-                              "reasoning": "When different objectives cannot all be achieved.",
-                              "marks": 1,
-                              "markCode": "M"
-                    },
-                    {
-                              "reasoning": "Example: profit vs employee wages.",
-                              "marks": 1,
-                              "markCode": "M"
-                    },
-                    {
-                              "reasoning": "Requires prioritisation/balancing.",
-                              "marks": 1,
-                              "markCode": "A"
-                    }
-          ],
-          "finalAnswer": "Incompatible objectives example"
-},
+            principles: [
+              {
+                kind: "definition",
+                name: "Conflict",
+                statement: "Incompatible objectives.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "When different objectives cannot all be achieved.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "Example: profit vs employee wages.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "Requires prioritisation/balancing.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "Incompatible objectives example",
+          },
         },
         {
           id: "ciealbus-u1-ob-q4",
@@ -164,60 +189,60 @@ export const lesson371: Lesson = {
           totalMarks: 8,
           stem: "(a) Define profit maximisation, sales revenue maximisation, market share, social enterprise, stakeholder, conflict of objectives. (b) What is profit maximisation? (c) What is sales revenue maximisation? (d) What is a social enterprise? (e) Who are stakeholders? Give three. (f) What is conflict of objectives? Give example. (g) Why might profit maximisation be unrealistic? (h) Evaluate whether businesses should prioritise profit or social aims.",
           response: {
-          "type": "open"
-},
+            type: "open",
+          },
           markscheme: {
-          "principles": [
-                    {
-                              "kind": "technique",
-                              "name": "Objectives",
-                              "statement": "Analysis, stakeholders."
-                    }
-          ],
-          "steps": [
-                    {
-                              "reasoning": "(a) All six definitions.",
-                              "marks": 1,
-                              "markCode": "M"
-                    },
-                    {
-                              "reasoning": "(b) Highest profit objective.",
-                              "marks": 1,
-                              "markCode": "M"
-                    },
-                    {
-                              "reasoning": "(c) Highest turnover objective.",
-                              "marks": 1,
-                              "markCode": "M"
-                    },
-                    {
-                              "reasoning": "(d) Social/environmental aims.",
-                              "marks": 1,
-                              "markCode": "M"
-                    },
-                    {
-                              "reasoning": "(e) Owners, employees, customers etc.",
-                              "marks": 1,
-                              "markCode": "M"
-                    },
-                    {
-                              "reasoning": "(f) Incompatible objectives.",
-                              "marks": 1,
-                              "markCode": "M"
-                    },
-                    {
-                              "reasoning": "(g) Assumes perfect knowledge/rationality.",
-                              "marks": 1,
-                              "markCode": "M"
-                    },
-                    {
-                              "reasoning": "(h) Balanced evaluation.",
-                              "marks": 1,
-                              "markCode": "A"
-                    }
-          ],
-          "finalAnswer": "Business objectives and stakeholders."
-},
+            principles: [
+              {
+                kind: "technique",
+                name: "Objectives",
+                statement: "Analysis, stakeholders.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "(a) All six definitions.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "(b) Highest profit objective.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "(c) Highest turnover objective.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "(d) Social/environmental aims.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "(e) Owners, employees, customers etc.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "(f) Incompatible objectives.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "(g) Assumes perfect knowledge/rationality.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "(h) Balanced evaluation.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "Business objectives and stakeholders.",
+          },
         },
         {
           id: "ciealbus-u1-ob-q5",
@@ -227,22 +252,31 @@ export const lesson371: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Profit maximisation" },
-              { id: "b", text: "Sales revenue maximisation" },
-              { id: "c", text: "Market share growth" },
-              { id: "d", text: "Survival" }
+              { id: "a", text: "Sales revenue maximisation" },
+              { id: "b", text: "Market share growth" },
+              { id: "c", text: "Profit maximisation" },
+              { id: "d", text: "Survival" },
             ],
-            correctChoiceId: "b"
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
-              { kind: "definition", name: "Sales revenue maximisation", statement: "Highest possible turnover objective." }
+              {
+                kind: "definition",
+                name: "Sales revenue maximisation",
+                statement: "Highest possible turnover objective.",
+              },
             ],
             steps: [
-              { reasoning: "Sales revenue maximisation = highest possible turnover.", marks: 1, markCode: "M" }
+              {
+                reasoning:
+                  "Sales revenue maximisation = highest possible turnover.",
+                marks: 1,
+                markCode: "M",
+              },
             ],
-            finalAnswer: "Sales revenue maximisation"
-          }
+            finalAnswer: "Sales revenue maximisation",
+          },
         },
         {
           id: "ciealbus-u1-ob-q6",
@@ -252,22 +286,31 @@ export const lesson371: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Customers" },
-              { id: "b", text: "Suppliers" },
-              { id: "c", text: "Employees" },
-              { id: "d", text: "Government" }
+              { id: "a", text: "Suppliers" },
+              { id: "b", text: "Government" },
+              { id: "c", text: "Customers" },
+              { id: "d", text: "Employees" },
             ],
-            correctChoiceId: "c"
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
-              { kind: "definition", name: "Stakeholder interests", statement: "Employees want security and wages." }
+              {
+                kind: "definition",
+                name: "Stakeholder interests",
+                statement: "Employees want security and wages.",
+              },
             ],
             steps: [
-              { reasoning: "Employees want job security, fair wages and good conditions.", marks: 1, markCode: "M" }
+              {
+                reasoning:
+                  "Employees want job security, fair wages and good conditions.",
+                marks: 1,
+                markCode: "M",
+              },
             ],
-            finalAnswer: "Employees"
-          }
+            finalAnswer: "Employees",
+          },
         },
         {
           id: "ciealbus-u1-ob-q7",
@@ -278,21 +321,30 @@ export const lesson371: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "social enterprise" },
-              { id: "b", text: "public limited company" },
+              { id: "b", text: "monopoly" },
               { id: "c", text: "franchise" },
-              { id: "d", text: "monopoly" }
+              { id: "d", text: "public limited company" },
             ],
-            correctChoiceId: "a"
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
-              { kind: "definition", name: "Social enterprise", statement: "Prioritises social/environmental aims." }
+              {
+                kind: "definition",
+                name: "Social enterprise",
+                statement: "Prioritises social/environmental aims.",
+              },
             ],
             steps: [
-              { reasoning: "Social enterprises balance profit with social/environmental aims.", marks: 1, markCode: "M" }
+              {
+                reasoning:
+                  "Social enterprises balance profit with social/environmental aims.",
+                marks: 1,
+                markCode: "M",
+              },
             ],
-            finalAnswer: "Social enterprise"
-          }
+            finalAnswer: "Social enterprise",
+          },
         },
         {
           id: "ciealbus-u1-ob-q8",
@@ -302,22 +354,34 @@ export const lesson371: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Hiring more staff and raising wages simultaneously" },
-              { id: "b", text: "Paying higher wages reducing profit" },
+              { id: "a", text: "Paying higher wages reducing profit" },
+              {
+                id: "b",
+                text: "Hiring more staff and raising wages simultaneously",
+              },
               { id: "c", text: "Growth through new markets and expansion" },
-              { id: "d", text: "Marketing and sales working together" }
+              { id: "d", text: "Marketing and sales working together" },
             ],
-            correctChoiceId: "b"
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
-              { kind: "definition", name: "Conflict of objectives", statement: "Objectives that cannot all be achieved." }
+              {
+                kind: "definition",
+                name: "Conflict of objectives",
+                statement: "Objectives that cannot all be achieved.",
+              },
             ],
             steps: [
-              { reasoning: "Higher wages raise costs and reduce profit — the two objectives conflict.", marks: 1, markCode: "M" }
+              {
+                reasoning:
+                  "Higher wages raise costs and reduce profit — the two objectives conflict.",
+                marks: 1,
+                markCode: "M",
+              },
             ],
-            finalAnswer: "Higher wages reducing profit"
-          }
+            finalAnswer: "Higher wages reducing profit",
+          },
         },
         {
           id: "ciealbus-u1-ob-q9",
@@ -328,19 +392,35 @@ export const lesson371: Lesson = {
             type: "numeric",
             parts: [
               { label: "a", answer: 25000, unit: "£" },
-              { label: "b", answer: 45000, unit: "£" }
-            ]
+              { label: "b", answer: 45000, unit: "£" },
+            ],
           },
           markscheme: {
             principles: [
-              { kind: "formula", name: "Profit", statement: "Profit = revenue - total costs." }
+              {
+                kind: "formula",
+                name: "Profit",
+                statement: "Profit = revenue - total costs.",
+              },
             ],
             steps: [
-              { reasoning: "(a) Profit = revenue - costs.", working: "120000 - 95000", marks: 1, markCode: "M", part: "a" },
-              { reasoning: "(b) Same formula with new revenue.", working: "140000 - 95000", marks: 1, markCode: "M", part: "b" }
+              {
+                reasoning: "(a) Profit = revenue - costs.",
+                working: "120000 - 95000",
+                marks: 1,
+                markCode: "M",
+                part: "a",
+              },
+              {
+                reasoning: "(b) Same formula with new revenue.",
+                working: "140000 - 95000",
+                marks: 1,
+                markCode: "M",
+                part: "b",
+              },
             ],
-            finalAnswer: "£25,000 and £45,000"
-          }
+            finalAnswer: "£25,000 and £45,000",
+          },
         },
         {
           id: "ciealbus-u1-ob-q10",
@@ -351,19 +431,36 @@ export const lesson371: Lesson = {
             type: "numeric",
             parts: [
               { label: "a", answer: 20, unit: "%" },
-              { label: "b", answer: 15, unit: "%" }
-            ]
+              { label: "b", answer: 15, unit: "%" },
+            ],
           },
           markscheme: {
             principles: [
-              { kind: "formula", name: "Market share", statement: "Market share = firm sales / total market sales × 100." }
+              {
+                kind: "formula",
+                name: "Market share",
+                statement:
+                  "Market share = firm sales / total market sales × 100.",
+              },
             ],
             steps: [
-              { reasoning: "(a) Market share = firm sales / total market.", working: "\\frac{8}{40} \\times 100", marks: 1, markCode: "M", part: "a" },
-              { reasoning: "(b) Same formula for Firm B.", working: "\\frac{6}{40} \\times 100", marks: 1, markCode: "M", part: "b" }
+              {
+                reasoning: "(a) Market share = firm sales / total market.",
+                working: "\\frac{8}{40} \\times 100",
+                marks: 1,
+                markCode: "M",
+                part: "a",
+              },
+              {
+                reasoning: "(b) Same formula for Firm B.",
+                working: "\\frac{6}{40} \\times 100",
+                marks: 1,
+                markCode: "M",
+                part: "b",
+              },
             ],
-            finalAnswer: "20% and 15%"
-          }
+            finalAnswer: "20% and 15%",
+          },
         },
         {
           id: "ciealbus-u1-ob-q11",
@@ -373,14 +470,29 @@ export const lesson371: Lesson = {
           response: { type: "open" },
           markscheme: {
             principles: [
-              { kind: "definition", name: "Survival objective", statement: "Staying in business is the priority." }
+              {
+                kind: "definition",
+                name: "Survival objective",
+                statement: "Staying in business is the priority.",
+              },
             ],
             steps: [
-              { reasoning: "Small/new businesses face uncertainty and limited resources.", marks: 1, markCode: "M" },
-              { reasoning: "Survival must come before growth or profit maximisation.", marks: 1, markCode: "M" }
+              {
+                reasoning:
+                  "Small/new businesses face uncertainty and limited resources.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "Survival must come before growth or profit maximisation.",
+                marks: 1,
+                markCode: "M",
+              },
             ],
-            finalAnswer: "Survival is the priority for uncertain small businesses."
-          }
+            finalAnswer:
+              "Survival is the priority for uncertain small businesses.",
+          },
         },
         {
           id: "ciealbus-u1-ob-q12",
@@ -390,15 +502,34 @@ export const lesson371: Lesson = {
           response: { type: "open" },
           markscheme: {
             principles: [
-              { kind: "definition", name: "Conflict of objectives", statement: "Stakeholder aims that cannot all be met." }
+              {
+                kind: "definition",
+                name: "Conflict of objectives",
+                statement: "Stakeholder aims that cannot all be met.",
+              },
             ],
             steps: [
-              { reasoning: "Owners typically want higher prices/margins to maximise profit.", marks: 1, markCode: "M" },
-              { reasoning: "Customers want lower prices and better quality.", marks: 1, markCode: "M" },
-              { reasoning: "The business must balance the two — a genuine conflict.", marks: 1, markCode: "A" }
+              {
+                reasoning:
+                  "Owners typically want higher prices/margins to maximise profit.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "Customers want lower prices and better quality.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "The business must balance the two — a genuine conflict.",
+                marks: 1,
+                markCode: "A",
+              },
             ],
-            finalAnswer: "Owners want profit; customers want low prices — a conflict to balance."
-          }
+            finalAnswer:
+              "Owners want profit; customers want low prices — a conflict to balance.",
+          },
         },
         {
           id: "ciealbus-u1-ob-q13",
@@ -408,22 +539,35 @@ export const lesson371: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "always maximise profit at the same time" },
-              { id: "b", text: "produce beyond the profit-maximising level, possibly lowering profit" },
-              { id: "c", text: "ignore the interests of all stakeholders" },
-              { id: "d", text: "automatically become a social enterprise" }
+              { id: "a", text: "automatically become a social enterprise" },
+              { id: "b", text: "ignore the interests of all stakeholders" },
+              { id: "c", text: "always maximise profit at the same time" },
+              {
+                id: "d",
+                text: "produce beyond the profit-maximising level, possibly lowering profit",
+              },
             ],
-            correctChoiceId: "b"
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
-              { kind: "definition", name: "Sales revenue maximisation", statement: "Highest turnover, may sacrifice profit." }
+              {
+                kind: "definition",
+                name: "Sales revenue maximisation",
+                statement: "Highest turnover, may sacrifice profit.",
+              },
             ],
             steps: [
-              { reasoning: "Revenue maximisation can push output beyond the profit-maximising point.", marks: 1, markCode: "M" }
+              {
+                reasoning:
+                  "Revenue maximisation can push output beyond the profit-maximising point.",
+                marks: 1,
+                markCode: "M",
+              },
             ],
-            finalAnswer: "Output beyond profit-maximising level, lowering profit"
-          }
+            finalAnswer:
+              "Output beyond profit-maximising level, lowering profit",
+          },
         },
         {
           id: "ciealbus-u1-ob-q14",
@@ -433,15 +577,35 @@ export const lesson371: Lesson = {
           response: { type: "open" },
           markscheme: {
             principles: [
-              { kind: "skill", name: "Objective prioritisation", statement: "Survival vs growth trade-off." }
+              {
+                kind: "skill",
+                name: "Objective prioritisation",
+                statement: "Survival vs growth trade-off.",
+              },
             ],
             steps: [
-              { reasoning: "For small/new businesses survival is essential — failure means exit.", marks: 1, markCode: "M" },
-              { reasoning: "But ignoring growth may lose market position and competitiveness.", marks: 1, markCode: "M" },
-              { reasoning: "Judgement depends on stage, resources and market conditions.", marks: 1, markCode: "A" }
+              {
+                reasoning:
+                  "For small/new businesses survival is essential — failure means exit.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "But ignoring growth may lose market position and competitiveness.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "Judgement depends on stage, resources and market conditions.",
+                marks: 1,
+                markCode: "A",
+              },
             ],
-            finalAnswer: "Context-dependent — survival first for vulnerable firms, growth where feasible."
-          }
+            finalAnswer:
+              "Context-dependent — survival first for vulnerable firms, growth where feasible.",
+          },
         },
         {
           id: "ciealbus-u1-ob-q15",
@@ -452,20 +616,40 @@ export const lesson371: Lesson = {
             type: "numeric",
             parts: [
               { label: "a", answer: 50000, unit: "£" },
-              { label: "b", answer: 25, unit: "%" }
-            ]
+              { label: "b", answer: 25, unit: "%" },
+            ],
           },
           markscheme: {
             principles: [
-              { kind: "formula", name: "Profit", statement: "Profit = revenue - costs." },
-              { kind: "formula", name: "Profit margin", statement: "Profit margin = profit / revenue × 100." }
+              {
+                kind: "formula",
+                name: "Profit",
+                statement: "Profit = revenue - costs.",
+              },
+              {
+                kind: "formula",
+                name: "Profit margin",
+                statement: "Profit margin = profit / revenue × 100.",
+              },
             ],
             steps: [
-              { reasoning: "(a) Profit = revenue - costs.", working: "200000 - 150000", marks: 1, markCode: "M", part: "a" },
-              { reasoning: "(b) Profit margin = profit / revenue.", working: "\\frac{50000}{200000} \\times 100", marks: 1, markCode: "M", part: "b" }
+              {
+                reasoning: "(a) Profit = revenue - costs.",
+                working: "200000 - 150000",
+                marks: 1,
+                markCode: "M",
+                part: "a",
+              },
+              {
+                reasoning: "(b) Profit margin = profit / revenue.",
+                working: "\\frac{50000}{200000} \\times 100",
+                marks: 1,
+                markCode: "M",
+                part: "b",
+              },
             ],
-            finalAnswer: "£50,000 and 25%"
-          }
+            finalAnswer: "£50,000 and 25%",
+          },
         },
         {
           id: "ciealbus-u1-ob-q16",
@@ -475,17 +659,42 @@ export const lesson371: Lesson = {
           response: { type: "open" },
           markscheme: {
             principles: [
-              { kind: "technique", name: "Evaluation", statement: "Weigh profit aims against other objectives." }
+              {
+                kind: "technique",
+                name: "Evaluation",
+                statement: "Weigh profit aims against other objectives.",
+              },
             ],
             steps: [
-              { reasoning: "Profit maximisation rewards owners and signals efficiency.", marks: 1, markCode: "M" },
-              { reasoning: "But it ignores stakeholders — employees, customers, community.", marks: 1, markCode: "M" },
-              { reasoning: "Assumes perfect knowledge and rationality — unrealistic.", marks: 1, markCode: "A" },
-              { reasoning: "Conclusion: profit matters but 'always' is too strong — balance needed.", marks: 1, markCode: "A" }
+              {
+                reasoning:
+                  "Profit maximisation rewards owners and signals efficiency.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "But it ignores stakeholders — employees, customers, community.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "Assumes perfect knowledge and rationality — unrealistic.",
+                marks: 1,
+                markCode: "A",
+              },
+              {
+                reasoning:
+                  "Conclusion: profit matters but 'always' is too strong — balance needed.",
+                marks: 1,
+                markCode: "A",
+              },
             ],
-            finalAnswer: "Balanced evaluation — profit important but not always the sole aim."
-          }
-        }
+            finalAnswer:
+              "Balanced evaluation — profit important but not always the sole aim.",
+          },
+        },
       ],
     },
   ],
@@ -493,10 +702,17 @@ export const lesson371: Lesson = {
     {
       id: "ciealbus-u1-ob-notes",
       title: "Objectives — notes",
-      summary: "Profit max vs revenue max vs social aims. Stakeholders have competing interests → conflicts.",
+      summary:
+        "Profit max vs revenue max vs social aims. Stakeholders have competing interests → conflicts.",
       sections: [
-        { heading: "Key idea", body: "Business objectives must balance competing stakeholder interests." },
-        { heading: "Conflicts", body: "Profit vs wages, growth vs stability, short vs long-term aims." },
+        {
+          heading: "Key idea",
+          body: "Business objectives must balance competing stakeholder interests.",
+        },
+        {
+          heading: "Conflicts",
+          body: "Profit vs wages, growth vs stability, short vs long-term aims.",
+        },
       ],
     },
   ],

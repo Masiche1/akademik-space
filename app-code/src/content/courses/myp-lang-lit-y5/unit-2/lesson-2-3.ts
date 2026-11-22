@@ -54,12 +54,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Making words longer" },
-              { id: "b", text: "Turning verbs into nouns — often hiding who does the action" },
+              { id: "a", text: "Adding adjectives" },
+              { id: "b", text: "Making words longer" },
               { id: "c", text: "A type of spelling" },
-              { id: "d", text: "Adding adjectives" },
+              { id: "d", text: "Turning verbs into nouns — often hiding who does the action" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Nominalization", statement: "Verb → noun transformation that can hide agency." }],
@@ -144,12 +144,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Sentence A" },
-              { id: "b", text: "Sentence B — 'implementation' turns the verb into a noun" },
-              { id: "c", text: "Both" },
+              { id: "a", text: "Sentence B — 'implementation' turns the verb into a noun" },
+              { id: "b", text: "Both" },
+              { id: "c", text: "Sentence A" },
               { id: "d", text: "Neither" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Nominalization", statement: "Verb → noun transformation can hide agency." }],
@@ -190,12 +190,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Nothing — same meaning" },
-              { id: "b", text: "Modality — 'will definitely' is certain; 'might possibly' is hedged and uncertain" },
+              { id: "a", text: "Claim A uses passive voice" },
+              { id: "b", text: "Nothing — same meaning" },
               { id: "c", text: "Claim B is longer" },
-              { id: "d", text: "Claim A uses passive voice" },
+              { id: "d", text: "Modality — 'will definitely' is certain; 'might possibly' is hedged and uncertain" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Modality", statement: "Degree of certainty conveyed by modal verbs." }],
@@ -217,11 +217,11 @@ export const lesson23: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Nothing is hidden" },
-              { id: "b", text: "It omits the protesters as actors and frames 'dispersed' neutrally — the clash/violence is erased" },
+              { id: "b", text: "It uses too much detail" },
               { id: "c", text: "It names too many people" },
-              { id: "d", text: "It uses too much detail" },
+              { id: "d", text: "It omits the protesters as actors and frames 'dispersed' neutrally — the clash/violence is erased" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Transitivity", statement: "Who acts on whom shapes what is visible." }],
@@ -243,9 +243,9 @@ export const lesson23: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "That markets are neutral and natural — hiding human decisions behind an abstraction" },
-              { id: "b", text: "That prices are always fair" },
-              { id: "c", text: "That markets don't exist" },
-              { id: "d", text: "No ideology is present" },
+              { id: "b", text: "That markets don't exist" },
+              { id: "c", text: "No ideology is present" },
+              { id: "d", text: "That prices are always fair" },
             ],
             correctChoiceId: "a",
           },
@@ -304,12 +304,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Language that is too long" },
-              { id: "b", text: "Words with strong emotional or ideological connotations — 'regime' vs 'government'" },
+              { id: "a", text: "Poetic language only" },
+              { id: "b", text: "Language that is too long" },
               { id: "c", text: "Language with many facts" },
-              { id: "d", text: "Poetic language only" },
+              { id: "d", text: "Words with strong emotional or ideological connotations — 'regime' vs 'government'" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Loaded language", statement: "Words carrying emotional/ideological weight." }],
@@ -373,12 +373,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Nothing — it is fully transparent" },
-              { id: "b", text: "Who or what caused the tensions — 'were inflamed' is passive and 'recent events' is vague" },
-              { id: "c", text: "The tense of the sentence" },
-              { id: "d", text: "The spelling of 'inflamed'" },
+              { id: "a", text: "The tense of the sentence" },
+              { id: "b", text: "The spelling of 'inflamed'" },
+              { id: "c", text: "Nothing — it is fully transparent" },
+              { id: "d", text: "Who or what caused the tensions — 'were inflamed' is passive and 'recent events' is vague" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Hidden agency", statement: "Passive + vague noun phrases obscure causation." }],
@@ -448,11 +448,11 @@ export const lesson23: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "A type of essay" },
-              { id: "b", text: "The way language is used in a society or institution" },
-              { id: "c", text: "A public debate" },
+              { id: "b", text: "A public debate" },
+              { id: "c", text: "The way language is used in a society or institution" },
               { id: "d", text: "A speech" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Discourse", statement: "Language use patterns in society/institutions." }],
@@ -532,9 +532,9 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A speech against the government" },
+              { id: "a", text: "A type of legal document" },
               { id: "b", text: "Alternative ways of talking that challenge dominant ideology" },
-              { id: "c", text: "A type of legal document" },
+              { id: "c", text: "A speech against the government" },
               { id: "d", text: "Silent protest" },
             ],
             correctChoiceId: "b",
@@ -579,11 +579,11 @@ export const lesson23: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "The mother is more educated" },
-              { id: "b", text: "Legal jargon empowers the lawyer and excludes the mother — technical discourse marks expertise and status" },
-              { id: "c", text: "Both speak the same discourse" },
-              { id: "d", text: "Jargon has no power effect" },
+              { id: "b", text: "Both speak the same discourse" },
+              { id: "c", text: "Jargon has no power effect" },
+              { id: "d", text: "Legal jargon empowers the lawyer and excludes the mother — technical discourse marks expertise and status" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Discourse and power", statement: "Technical language creates authority and exclusion." }],
@@ -604,12 +604,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "They are identical in meaning" },
-              { id: "b", text: "Each frames the issue differently — 'all' universalises while 'Black' centres a specific group facing specific violence" },
-              { id: "c", text: "One is a question, one is a statement" },
+              { id: "a", text: "One is a question, one is a statement" },
+              { id: "b", text: "They are identical in meaning" },
+              { id: "c", text: "Each frames the issue differently — 'all' universalises while 'Black' centres a specific group facing specific violence" },
               { id: "d", text: "They are in different languages" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Discourse", statement: "Word choice frames reality through ideological lenses." }],
@@ -625,10 +625,10 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Writers should control readers" },
+              { id: "a", text: "Only newspapers matter" },
               { id: "b", text: "Institutions that dominate language use shape what counts as 'common sense' and truth" },
               { id: "c", text: "Reality doesn't exist" },
-              { id: "d", text: "Only newspapers matter" },
+              { id: "d", text: "Writers should control readers" },
             ],
             correctChoiceId: "b",
           },
@@ -687,12 +687,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A type of essay" },
-              { id: "b", text: "The patterned ways language is used within a society or institution" },
-              { id: "c", text: "A public argument" },
-              { id: "d", text: "A speech only" },
+              { id: "a", text: "A speech only" },
+              { id: "b", text: "A type of essay" },
+              { id: "c", text: "The patterned ways language is used within a society or institution" },
+              { id: "d", text: "A public argument" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Discourse", statement: "Institutional language patterns and conventions." }],
@@ -756,12 +756,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The government's own interests" },
-              { id: "b", text: "Opposition interests — 'regime' delegitimizes the government, framing it as illegitimate" },
-              { id: "c", text: "No one's — it is neutral" },
-              { id: "d", text: "The readers' interests only" },
+              { id: "a", text: "No one's — it is neutral" },
+              { id: "b", text: "The government's own interests" },
+              { id: "c", text: "The readers' interests only" },
+              { id: "d", text: "Opposition interests — 'regime' delegitimizes the government, framing it as illegitimate" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Loaded language", statement: "Labels like 'regime' serve ideological interests." }],

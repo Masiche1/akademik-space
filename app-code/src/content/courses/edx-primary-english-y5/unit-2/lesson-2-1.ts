@@ -56,11 +56,11 @@ export const lesson111: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Happy" },
-              { id: "b", text: "Angry" },
-              { id: "c", text: "Calm" },
-              { id: "d", text: "Sleepy" },
+              { id: "b", text: "Sleepy" },
+              { id: "c", text: "Angry" },
+              { id: "d", text: "Calm" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -85,12 +85,12 @@ export const lesson111: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "He's very happy" },
-              { id: "b", text: "He's pretending to laugh" },
-              { id: "c", text: "He's mute" },
-              { id: "d", text: "He's tired" },
+              { id: "a", text: "He's mute" },
+              { id: "b", text: "He's tired" },
+              { id: "c", text: "He's very happy" },
+              { id: "d", text: "He's pretending to laugh" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -237,12 +237,12 @@ export const lesson111: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The volume" },
-              { id: "b", text: "The writer's attitude" },
+              { id: "a", text: "The writer's attitude" },
+              { id: "b", text: "The genre" },
               { id: "c", text: "The mood" },
-              { id: "d", text: "The genre" },
+              { id: "d", text: "The volume" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -267,8 +267,8 @@ export const lesson111: Lesson = {
             choices: [
               { id: "a", text: "Sad" },
               { id: "b", text: "Heroic/exciting" },
-              { id: "c", text: "Scary" },
-              { id: "d", text: "Boring" },
+              { id: "c", text: "Boring" },
+              { id: "d", text: "Scary" },
             ],
             correctChoiceId: "b",
           },

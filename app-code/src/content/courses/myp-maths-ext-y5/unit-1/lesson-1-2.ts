@@ -56,12 +56,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "15" },
+              { id: "a", text: "20" },
               { id: "b", text: "10" },
-              { id: "c", text: "20" },
-              { id: "d", text: "25" },
+              { id: "c", text: "25" },
+              { id: "d", text: "15" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -83,12 +83,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Converges to 4.5" },
-              { id: "b", text: "Diverges" },
+              { id: "a", text: "Diverges" },
+              { id: "b", text: "Converges to 9" },
               { id: "c", text: "Converges to 3.5" },
-              { id: "d", text: "Converges to 9" },
+              { id: "d", text: "Converges to 4.5" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -111,12 +111,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$n=22$" },
-              { id: "b", text: "$n=20$" },
-              { id: "c", text: "$n=25$" },
-              { id: "d", text: "$n=18$" },
+              { id: "a", text: "$n=20$" },
+              { id: "b", text: "$n=25$" },
+              { id: "c", text: "$n=18$" },
+              { id: "d", text: "$n=22$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -205,12 +205,12 @@ export const lesson12: Lesson = {
       response: {
         type: "mcq",
         choices: [
-          { id: "a", text: "155" },
-          { id: "b", text: "210" },
+          { id: "a", text: "145" },
+          { id: "b", text: "155" },
           { id: "c", text: "165" },
-          { id: "d", text: "145" },
+          { id: "d", text: "210" },
         ],
-        correctChoiceId: "a",
+        correctChoiceId: "b",
       },
       markscheme: {
         principles: [
@@ -253,9 +253,9 @@ export const lesson12: Lesson = {
         type: "mcq",
         choices: [
           { id: "a", text: "10" },
-          { id: "b", text: "7.5" },
-          { id: "c", text: "5" },
-          { id: "d", text: "20" },
+          { id: "b", text: "5" },
+          { id: "c", text: "20" },
+          { id: "d", text: "7.5" },
         ],
         correctChoiceId: "a",
       },
@@ -366,12 +366,12 @@ export const lesson12: Lesson = {
       response: {
         type: "mcq",
         choices: [
-          { id: "a", text: "$\\sum_{n=1}^{\\infty}\\left(\\frac23\\right)^n$" },
-          { id: "b", text: "$\\sum_{n=1}^{\\infty}\\frac1n$" },
-          { id: "c", text: "$\\sum_{n=1}^{\\infty}\\frac{n}{n+1}$" },
-          { id: "d", text: "$\\sum_{n=1}^{\\infty}1$" },
+          { id: "a", text: "$\\sum_{n=1}^{\\infty}\\frac1n$" },
+          { id: "b", text: "$\\sum_{n=1}^{\\infty}1$" },
+          { id: "c", text: "$\\sum_{n=1}^{\\infty}\\left(\\frac23\\right)^n$" },
+          { id: "d", text: "$\\sum_{n=1}^{\\infty}\\frac{n}{n+1}$" },
         ],
-        correctChoiceId: "a",
+        correctChoiceId: "c",
       },
       markscheme: {
         principles: [
@@ -396,8 +396,8 @@ export const lesson12: Lesson = {
         choices: [
           { id: "a", text: "2" },
           { id: "b", text: "$\\frac{10}{3}$" },
-          { id: "c", text: "5" },
-          { id: "d", text: "3" },
+          { id: "c", text: "3" },
+          { id: "d", text: "5" },
         ],
         correctChoiceId: "a",
       },
@@ -483,8 +483,8 @@ export const lesson12: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "6312.13" },
-              { id: "b", text: "6200" },
-              { id: "c", text: "6000" },
+              { id: "b", text: "6000" },
+              { id: "c", text: "6200" },
               { id: "d", text: "6800" },
             ],
             correctChoiceId: "a",
@@ -509,12 +509,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "10240" },
-              { id: "b", text: "8000" },
-              { id: "c", text: "12000" },
-              { id: "d", text: "6400" },
+              { id: "a", text: "6400" },
+              { id: "b", text: "12000" },
+              { id: "c", text: "8000" },
+              { id: "d", text: "10240" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -537,12 +537,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\approx193.35$" },
-              { id: "b", text: "$\\approx166.67$" },
+              { id: "a", text: "$\\approx166.67$" },
+              { id: "b", text: "$\\approx150" },
               { id: "c", text: "$\\approx200" },
-              { id: "d", text: "$\\approx150" },
+              { id: "d", text: "$\\approx193.35$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -597,12 +597,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\$1100$" },
-              { id: "b", text: "$\\$110$" },
+              { id: "a", text: "$\\$110$" },
+              { id: "b", text: "$\\$1100$" },
               { id: "c", text: "$\\$1050$" },
               { id: "d", text: "$\\$1200$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -643,12 +643,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\$12\\,282.50$" },
-              { id: "b", text: "$\\$12\\,000$" },
-              { id: "c", text: "$\\$14\\,450$" },
-              { id: "d", text: "$\\$11\\,500$" },
+              { id: "a", text: "$\\$11\\,500$" },
+              { id: "b", text: "$\\$14\\,450$" },
+              { id: "c", text: "$\\$12\\,282.50$" },
+              { id: "d", text: "$\\$12\\,000$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -690,12 +690,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$8.24\\%$" },
-              { id: "b", text: "$8\\%$" },
-              { id: "c", text: "$8.30\\%$" },
-              { id: "d", text: "$32\\%$" },
+              { id: "a", text: "$32\\%$" },
+              { id: "b", text: "$8.24\\%$" },
+              { id: "c", text: "$8\\%$" },
+              { id: "d", text: "$8.30\\%$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -804,12 +804,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Compounded quarterly" },
-              { id: "b", text: "Compounded annually" },
-              { id: "c", text: "They are equal" },
-              { id: "d", text: "Cannot be determined" },
+              { id: "a", text: "Cannot be determined" },
+              { id: "b", text: "Compounded quarterly" },
+              { id: "c", text: "Compounded annually" },
+              { id: "d", text: "They are equal" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -833,9 +833,9 @@ export const lesson12: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "12 years" },
-              { id: "b", text: "11 years" },
-              { id: "c", text: "13 years" },
-              { id: "d", text: "10 years" },
+              { id: "b", text: "13 years" },
+              { id: "c", text: "10 years" },
+              { id: "d", text: "11 years" },
             ],
             correctChoiceId: "a",
           },

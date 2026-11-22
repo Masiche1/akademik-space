@@ -53,12 +53,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$(-3,2)$" },
-              { id: "b", text: "$(3,-2)$" },
-              { id: "c", text: "$(-3,-2)$" },
-              { id: "d", text: "$(2,3)$" },
+              { id: "a", text: "$(3,-2)$" },
+              { id: "b", text: "$(-3,-2)$" },
+              { id: "c", text: "$(2,3)$" },
+              { id: "d", text: "$(-3,2)$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "property", name: "Reflection in the y-axis", statement: "$(x,y)\\to(-x,y)$" }],
@@ -190,8 +190,8 @@ export const lesson21: Lesson = {
             choices: [
               { id: "a", text: "Rotation of $180^\\circ$ about the origin" },
               { id: "b", text: "Reflection in the line $y=x$" },
-              { id: "c", text: "Translation by $\\begin{pmatrix} 0 \\\\ 0 \\end{pmatrix}$" },
-              { id: "d", text: "Rotation of $90^\\circ$ about the origin" },
+              { id: "c", text: "Rotation of $90^\\circ$ about the origin" },
+              { id: "d", text: "Translation by $\\begin{pmatrix} 0 \\\\ 0 \\end{pmatrix}$" },
             ],
             correctChoiceId: "a",
           },

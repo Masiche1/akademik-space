@@ -54,12 +54,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Exponential growth" },
-              { id: "b", text: "The carrying capacity" },
-              { id: "c", text: "Extinction of the population" },
-              { id: "d", text: "A decrease in the number of limiting factors" },
+              { id: "a", text: "Extinction of the population" },
+              { id: "b", text: "A decrease in the number of limiting factors" },
+              { id: "c", text: "Exponential growth" },
+              { id: "d", text: "The carrying capacity" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -199,12 +199,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Building a road through a forest" },
-              { id: "b", text: "Planting native trees along a river" },
-              { id: "c", text: "Creating a wildlife corridor" },
+              { id: "a", text: "Creating a wildlife corridor" },
+              { id: "b", text: "Building a road through a forest" },
+              { id: "c", text: "Planting native trees along a river" },
               { id: "d", text: "Setting fishing quotas" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [

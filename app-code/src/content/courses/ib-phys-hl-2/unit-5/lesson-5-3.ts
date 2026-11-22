@@ -56,8 +56,8 @@ export const lesson53: Lesson = {
             choices: [
               { id: "a", text: "Bright lines on a dark background" },
               { id: "b", text: "Dark lines on a continuous spectrum" },
-              { id: "c", text: "A continuous rainbow" },
-              { id: "d", text: "Random colours" },
+              { id: "c", text: "Random colours" },
+              { id: "d", text: "A continuous rainbow" },
             ],
             correctChoiceId: "a",
           },
@@ -155,9 +155,9 @@ export const lesson53: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "emits a photon with $E = hf = \\Delta E$" },
-              { id: "b", text: "absorbs a photon of energy $hf$" },
-              { id: "c", text: "remains at the same energy level" },
-              { id: "d", text: "emits a continuous spectrum of light" },
+              { id: "b", text: "remains at the same energy level" },
+              { id: "c", text: "emits a continuous spectrum of light" },
+              { id: "d", text: "absorbs a photon of energy $hf$" },
             ],
             correctChoiceId: "a",
           },
@@ -183,9 +183,9 @@ export const lesson53: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "the photon energy exactly equals the gap between two allowed levels" },
-              { id: "b", text: "the photon is any colour of visible light" },
+              { id: "b", text: "the photon is red" },
               { id: "c", text: "the light intensity is very high" },
-              { id: "d", text: "the photon is red" },
+              { id: "d", text: "the photon is any colour of visible light" },
             ],
             correctChoiceId: "a",
           },
@@ -210,12 +210,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "ending at energy level $n = 2$" },
-              { id: "b", text: "ending at energy level $n = 1$" },
+              { id: "a", text: "ending at energy level $n = 1$" },
+              { id: "b", text: "ending at energy level $n = 2$" },
               { id: "c", text: "starting from $n = \\infty$ only" },
               { id: "d", text: "between any two levels" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -239,8 +239,8 @@ export const lesson53: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "its energy levels, and hence its transition energies, are unique" },
-              { id: "b", text: "its atoms all have different masses" },
-              { id: "c", text: "its electrons move randomly" },
+              { id: "b", text: "its electrons move randomly" },
+              { id: "c", text: "its atoms all have different masses" },
               { id: "d", text: "all elements share the same energy levels" },
             ],
             correctChoiceId: "a",
@@ -266,12 +266,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "excited electrons cascade down through discrete energy levels" },
+              { id: "a", text: "a metal is heated to a very high temperature" },
               { id: "b", text: "white light passes through a cold dense gas" },
-              { id: "c", text: "a metal is heated to a very high temperature" },
-              { id: "d", text: "atoms collide with each other" },
+              { id: "c", text: "atoms collide with each other" },
+              { id: "d", text: "excited electrons cascade down through discrete energy levels" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -506,12 +506,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Coherent, monochromatic and collimated" },
-              { id: "b", text: "Incoherent and spread out" },
-              { id: "c", text: "Multiple wavelengths" },
-              { id: "d", text: "Random phase" },
+              { id: "a", text: "Random phase" },
+              { id: "b", text: "Coherent, monochromatic and collimated" },
+              { id: "c", text: "Incoherent and spread out" },
+              { id: "d", text: "Multiple wavelengths" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -607,8 +607,8 @@ export const lesson53: Lesson = {
             choices: [
               { id: "a", text: "frequency, phase, direction and polarisation" },
               { id: "b", text: "frequency only" },
-              { id: "c", text: "direction only" },
-              { id: "d", text: "energy only" },
+              { id: "c", text: "energy only" },
+              { id: "d", text: "direction only" },
             ],
             correctChoiceId: "a",
           },
@@ -634,8 +634,8 @@ export const lesson53: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "more atoms are in the excited state than in the ground state" },
-              { id: "b", text: "equal numbers of atoms are in all states" },
-              { id: "c", text: "all atoms are in the ground state" },
+              { id: "b", text: "all atoms are in the ground state" },
+              { id: "c", text: "equal numbers of atoms are in all states" },
               { id: "d", text: "no atoms are excited" },
             ],
             correctChoiceId: "a",
@@ -661,12 +661,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "one fully reflective and one partially reflective" },
-              { id: "b", text: "both fully reflective" },
+              { id: "a", text: "one transparent and one opaque" },
+              { id: "b", text: "one fully reflective and one partially reflective" },
               { id: "c", text: "both partially reflective" },
-              { id: "d", text: "one transparent and one opaque" },
+              { id: "d", text: "both fully reflective" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -690,8 +690,8 @@ export const lesson53: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "supply energy that creates the population inversion" },
-              { id: "b", text: "cool the gain medium to absolute zero" },
-              { id: "c", text: "reflect photons back into the cavity" },
+              { id: "b", text: "reflect photons back into the cavity" },
+              { id: "c", text: "cool the gain medium to absolute zero" },
               { id: "d", text: "measure the wavelength of the output" },
             ],
             correctChoiceId: "a",
@@ -717,12 +717,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "has a single wavelength (and frequency)" },
-              { id: "b", text: "contains many different wavelengths" },
-              { id: "c", text: "is always white" },
-              { id: "d", text: "cannot be focused" },
+              { id: "a", text: "is always white" },
+              { id: "b", text: "has a single wavelength (and frequency)" },
+              { id: "c", text: "cannot be focused" },
+              { id: "d", text: "contains many different wavelengths" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [

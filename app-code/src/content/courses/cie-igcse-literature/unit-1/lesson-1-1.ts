@@ -88,11 +88,11 @@ export const lesson11: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "The plot summary of a text" },
-              { id: "b", text: "The central idea or message explored" },
+              { id: "b", text: "The setting of the story" },
               { id: "c", text: "The writer's biography" },
-              { id: "d", text: "The setting of the story" },
+              { id: "d", text: "The central idea or message explored" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -291,8 +291,8 @@ export const lesson11: Lesson = {
                 id: "b",
                 text: "A recurring image or idea that develops a theme",
               },
-              { id: "c", text: "The writer's personal opinion" },
-              { id: "d", text: "The story's stated moral lesson" },
+              { id: "c", text: "The story's stated moral lesson" },
+              { id: "d", text: "The writer's personal opinion" },
             ],
             correctChoiceId: "b",
           },
@@ -326,15 +326,15 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "Writing the story in first person" },
+              { id: "b", text: "Repeating the same word for emphasis" },
               {
-                id: "a",
+                id: "c",
                 text: "Using objects or events to represent abstract ideas",
               },
-              { id: "b", text: "Repeating the same word for emphasis" },
-              { id: "c", text: "Describing a setting in great detail" },
-              { id: "d", text: "Writing the story in first person" },
+              { id: "d", text: "Describing a setting in great detail" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -366,13 +366,13 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It uses a regular rhyme scheme" },
+              { id: "a", text: "It contains a volta" },
               {
                 id: "b",
                 text: "Its context gives it contemporary urgency and shared attitudes",
               },
-              { id: "c", text: "It is longer than other poems" },
-              { id: "d", text: "It contains a volta" },
+              { id: "c", text: "It uses a regular rhyme scheme" },
+              { id: "d", text: "It is longer than other poems" },
             ],
             correctChoiceId: "b",
           },
@@ -618,15 +618,15 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "What happens in the final chapter?" },
               {
-                id: "b",
+                id: "a",
                 text: "What idea is explored repeatedly through images, choices and turning points?",
               },
-              { id: "c", text: "How many pages does the book have?" },
+              { id: "b", text: "How many pages does the book have?" },
+              { id: "c", text: "What happens in the final chapter?" },
               { id: "d", text: "Who was the book's publisher?" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

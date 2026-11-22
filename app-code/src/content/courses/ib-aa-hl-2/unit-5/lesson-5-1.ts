@@ -82,12 +82,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$3$" },
-              { id: "b", text: "$1$" },
-              { id: "c", text: "$0$" },
-              { id: "d", text: "$\\dfrac13$" },
+              { id: "a", text: "$0$" },
+              { id: "b", text: "$3$" },
+              { id: "c", text: "$\\dfrac13$" },
+              { id: "d", text: "$1$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -384,9 +384,9 @@ export const lesson51: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$3$" },
-              { id: "b", text: "$1$" },
-              { id: "c", text: "$0$" },
-              { id: "d", text: "$\\dfrac13$" },
+              { id: "b", text: "$0$" },
+              { id: "c", text: "$\\dfrac13$" },
+              { id: "d", text: "$1$" },
             ],
             correctChoiceId: "a",
           },
@@ -634,12 +634,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\lim_{x\\to0}\\dfrac{x}{x+1}$" },
+              { id: "a", text: "$\\lim_{x\\to0}\\dfrac{\\tan x}{x}$" },
               { id: "b", text: "$\\lim_{x\\to0}\\dfrac{\\cos x}{x}$" },
-              { id: "c", text: "$\\lim_{x\\to0}\\dfrac{\\tan x}{x}$" },
+              { id: "c", text: "$\\lim_{x\\to0}\\dfrac{x}{x+1}$" },
               { id: "d", text: "$\\lim_{x\\to1}\\dfrac{x}{x-1}$" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -934,12 +934,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$1$" },
-              { id: "b", text: "$0$" },
+              { id: "a", text: "$e$" },
+              { id: "b", text: "$1$" },
               { id: "c", text: "$-1$" },
-              { id: "d", text: "$e$" },
+              { id: "d", text: "$0$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1167,12 +1167,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$6x$" },
-              { id: "b", text: "$3x$" },
-              { id: "c", text: "$6x+h$" },
-              { id: "d", text: "$3x^2$" },
+              { id: "a", text: "$3x^2$" },
+              { id: "b", text: "$6x+h$" },
+              { id: "c", text: "$3x$" },
+              { id: "d", text: "$6x$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1460,8 +1460,8 @@ export const lesson51: Lesson = {
             choices: [
               { id: "a", text: "$8x$" },
               { id: "b", text: "$4x$" },
-              { id: "c", text: "$2x$" },
-              { id: "d", text: "$8x^2$" },
+              { id: "c", text: "$8x^2$" },
+              { id: "d", text: "$2x$" },
             ],
             correctChoiceId: "a",
           },
@@ -1703,12 +1703,12 @@ export const lesson51: Lesson = {
                 id: "a",
                 text: "Because the quotient is undefined at $h=0$, so the limit cannot be evaluated directly.",
               },
-              { id: "b", text: "Because $h$ tends to $1$ as $h\\to0$." },
-              { id: "c", text: "Because $f(x+h)$ is undefined when $h=0$." },
               {
-                id: "d",
+                id: "b",
                 text: "Because $\\lim_{h\\to0}h=0$ makes every term vanish.",
               },
+              { id: "c", text: "Because $f(x+h)$ is undefined when $h=0$." },
+              { id: "d", text: "Because $h$ tends to $1$ as $h\\to0$." },
             ],
             correctChoiceId: "a",
           },
@@ -2020,8 +2020,8 @@ export const lesson51: Lesson = {
             choices: [
               { id: "a", text: "$\\dfrac{(x+h)^2-x^2}{h}$" },
               { id: "b", text: "$\\dfrac{x^2-h^2}{h}$" },
-              { id: "c", text: "$2x$" },
-              { id: "d", text: "$\\dfrac{(x+h)^2+x^2}{h}$" },
+              { id: "c", text: "$\\dfrac{(x+h)^2+x^2}{h}$" },
+              { id: "d", text: "$2x$" },
             ],
             correctChoiceId: "a",
           },

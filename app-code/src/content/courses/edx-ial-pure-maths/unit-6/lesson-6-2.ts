@@ -51,12 +51,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A circle through the pole" },
-              { id: "b", text: "A straight line" },
-              { id: "c", text: "A spiral" },
-              { id: "d", text: "A cardioid" },
+              { id: "a", text: "A spiral" },
+              { id: "b", text: "A cardioid" },
+              { id: "c", text: "A straight line" },
+              { id: "d", text: "A circle through the pole" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Standard curve", statement: "$r=a\\cos\\theta$ converts to $x^2+y^2=ax$, a circle." }],
@@ -169,9 +169,9 @@ export const lesson62: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$\\frac{dr}{d\\theta}=0$" },
-              { id: "b", text: "$r=0$" },
-              { id: "c", text: "$\\theta=0$" },
-              { id: "d", text: "$\\frac{dr}{d\\theta}=1$" },
+              { id: "b", text: "$\\theta=0$" },
+              { id: "c", text: "$\\frac{dr}{d\\theta}=1$" },
+              { id: "d", text: "$r=0$" },
             ],
             correctChoiceId: "a",
           },

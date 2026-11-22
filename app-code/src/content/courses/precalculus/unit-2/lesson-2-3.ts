@@ -49,12 +49,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\csc^2\\theta$" },
-              { id: "b", text: "$\\sec^2\\theta$" },
-              { id: "c", text: "$\\sin^2\\theta$" },
-              { id: "d", text: "$1-\\tan^2\\theta$" },
+              { id: "a", text: "$\\sin^2\\theta$" },
+              { id: "b", text: "$1-\\tan^2\\theta$" },
+              { id: "c", text: "$\\sec^2\\theta$" },
+              { id: "d", text: "$\\csc^2\\theta$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -186,12 +186,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\{\\pi/6\\}$" },
-              { id: "b", text: "$\\{\\pi/6,5\\pi/6\\}$" },
-              { id: "c", text: "$\\{7\\pi/6,11\\pi/6\\}$" },
-              { id: "d", text: "$\\{\\pi/6,\\pi/2,5\\pi/6\\}$" },
+              { id: "a", text: "$\\{\\pi/6,\\pi/2,5\\pi/6\\}$" },
+              { id: "b", text: "$\\{\\pi/6\\}$" },
+              { id: "c", text: "$\\{\\pi/6,5\\pi/6\\}$" },
+              { id: "d", text: "$\\{7\\pi/6,11\\pi/6\\}$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

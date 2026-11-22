@@ -59,12 +59,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Sound travels through a vacuum more slowly than through air." },
-              { id: "b", text: "Sound cannot travel through a vacuum because there are no particles to vibrate." },
+              { id: "a", text: "Sound cannot travel through a vacuum because there are no particles to vibrate." },
+              { id: "b", text: "Sound travels through a vacuum more slowly than through air." },
               { id: "c", text: "Sound travels faster in air than in a solid." },
               { id: "d", text: "A louder sound has a higher frequency." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -159,10 +159,10 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Amplitude" },
+              { id: "a", text: "Speed of the wave" },
               { id: "b", text: "Frequency" },
               { id: "c", text: "Wavelength only" },
-              { id: "d", text: "Speed of the wave" },
+              { id: "d", text: "Amplitude" },
             ],
             correctChoiceId: "b",
           },
@@ -186,12 +186,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Frequency" },
-              { id: "b", text: "Amplitude" },
-              { id: "c", text: "The medium it travels through" },
-              { id: "d", text: "The wavelength" },
+              { id: "a", text: "The medium it travels through" },
+              { id: "b", text: "Frequency" },
+              { id: "c", text: "The wavelength" },
+              { id: "d", text: "Amplitude" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -213,12 +213,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Air (a gas)" },
-              { id: "b", text: "Sea water (a liquid)" },
-              { id: "c", text: "A steel rail (a solid)" },
-              { id: "d", text: "A vacuum" },
+              { id: "a", text: "A vacuum" },
+              { id: "b", text: "A steel rail (a solid)" },
+              { id: "c", text: "Air (a gas)" },
+              { id: "d", text: "Sea water (a liquid)" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -375,12 +375,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It gets louder" },
-              { id: "b", text: "It fades and disappears as the air is removed" },
-              { id: "c", text: "It changes pitch but stays the same volume" },
-              { id: "d", text: "Nothing changes" },
+              { id: "a", text: "Nothing changes" },
+              { id: "b", text: "It changes pitch but stays the same volume" },
+              { id: "c", text: "It gets louder" },
+              { id: "d", text: "It fades and disappears as the air is removed" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -402,12 +402,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A whistle at 1000 Hz" },
-              { id: "b", text: "A deep drum at 50 Hz" },
-              { id: "c", text: "A bat call at 50 000 Hz" },
-              { id: "d", text: "A singing voice at 500 Hz" },
+              { id: "a", text: "A deep drum at 50 Hz" },
+              { id: "b", text: "A bat call at 50 000 Hz" },
+              { id: "c", text: "A singing voice at 500 Hz" },
+              { id: "d", text: "A whistle at 1000 Hz" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -492,12 +492,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$40^\\circ$" },
-              { id: "b", text: "$50^\\circ$" },
+              { id: "a", text: "$50^\\circ$" },
+              { id: "b", text: "$40^\\circ$" },
               { id: "c", text: "$80^\\circ$" },
               { id: "d", text: "$140^\\circ$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -592,11 +592,11 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "The mirror surface" },
-              { id: "b", text: "The normal" },
-              { id: "c", text: "The reflected ray" },
+              { id: "b", text: "The reflected ray" },
+              { id: "c", text: "The normal" },
               { id: "d", text: "The centre of the mirror" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -618,12 +618,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It bends away from the normal" },
-              { id: "b", text: "It bends towards the normal" },
-              { id: "c", text: "It does not bend at all" },
-              { id: "d", text: "It reflects back into the air" },
+              { id: "a", text: "It bends towards the normal" },
+              { id: "b", text: "It bends away from the normal" },
+              { id: "c", text: "It reflects back into the air" },
+              { id: "d", text: "It does not bend at all" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -645,12 +645,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Red light" },
-              { id: "b", text: "Green light" },
-              { id: "c", text: "Yellow light" },
-              { id: "d", text: "Almost no light" },
+              { id: "a", text: "Yellow light" },
+              { id: "b", text: "Almost no light" },
+              { id: "c", text: "Red light" },
+              { id: "d", text: "Green light" },
             ],
-            correctChoiceId: "d",
+            correctChoiceIb: "d",
           },
           markscheme: {
             principles: [
@@ -804,9 +804,9 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The wall absorbs all light" },
+              { id: "a", text: "The page is brighter than the wall" },
               { id: "b", text: "The rough surface reflects light in many directions (diffuse reflection)" },
-              { id: "c", text: "The page is brighter than the wall" },
+              { id: "c", text: "The wall absorbs all light" },
               { id: "d", text: "Light cannot reflect from walls" },
             ],
             correctChoiceId: "b",
@@ -831,12 +831,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Red" },
-              { id: "b", text: "Green" },
-              { id: "c", text: "Violet" },
-              { id: "d", text: "Yellow" },
+              { id: "a", text: "Green" },
+              { id: "b", text: "Yellow" },
+              { id: "c", text: "Red" },
+              { id: "d", text: "Violet" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [

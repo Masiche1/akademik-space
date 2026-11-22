@@ -88,12 +88,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$2:1$" },
-              { id: "b", text: "$1:1$" },
-              { id: "c", text: "$1:2$" },
-              { id: "d", text: "$4:2$" },
+              { id: "a", text: "$1:1$" },
+              { id: "b", text: "$4:2$" },
+              { id: "c", text: "$2:1$" },
+              { id: "d", text: "$1:2$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -376,12 +376,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$2:3$" },
-              { id: "b", text: "$3:2$" },
-              { id: "c", text: "$1:2$" },
-              { id: "d", text: "$3:1$" },
+              { id: "a", text: "$3:2$" },
+              { id: "b", text: "$3:1$" },
+              { id: "c", text: "$2:3$" },
+              { id: "d", text: "$1:2$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -423,12 +423,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$1.0\\ \\mathrm{mol}$" },
-              { id: "b", text: "$2.0\\ \\mathrm{mol}$" },
-              { id: "c", text: "$4.0\\ \\mathrm{mol}$" },
-              { id: "d", text: "$6.0\\ \\mathrm{mol}$" },
+              { id: "a", text: "$4.0\\ \\mathrm{mol}$" },
+              { id: "b", text: "$6.0\\ \\mathrm{mol}$" },
+              { id: "c", text: "$2.0\\ \\mathrm{mol}$" },
+              { id: "d", text: "$1.0\\ \\mathrm{mol}$" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -469,12 +469,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\mathrm{C_3H_8}+5\\mathrm{O_2}\\to3\\mathrm{CO_2}+4\\mathrm{H_2O}$" },
-              { id: "b", text: "$\\mathrm{C_3H_8}+4\\mathrm{O_2}\\to3\\mathrm{CO_2}+4\\mathrm{H_2O}$" },
+              { id: "a", text: "$\\mathrm{C_3H_8}+4\\mathrm{O_2}\\to3\\mathrm{CO_2}+4\\mathrm{H_2O}$" },
+              { id: "b", text: "$\\mathrm{C_3H_8}+5\\mathrm{O_2}\\to3\\mathrm{CO_2}+4\\mathrm{H_2O}$" },
               { id: "c", text: "$\\mathrm{C_3H_8}+5\\mathrm{O_2}\\to3\\mathrm{CO_2}+5\\mathrm{H_2O}$" },
               { id: "d", text: "$\\mathrm{C_3H_8}+\\mathrm{O_2}\\to3\\mathrm{CO_2}+4\\mathrm{H_2O}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -517,12 +517,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\mathrm{H_2}$" },
-              { id: "b", text: "$\\mathrm{O_2}$" },
-              { id: "c", text: "Both reactants are completely consumed" },
-              { id: "d", text: "Neither — the reaction cannot proceed" },
+              { id: "a", text: "Both reactants are completely consumed" },
+              { id: "b", text: "$\\mathrm{H_2}$" },
+              { id: "c", text: "Neither — the reaction cannot proceed" },
+              { id: "d", text: "$\\mathrm{O_2}$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1043,11 +1043,11 @@ export const lesson13: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$2:1$" },
-              { id: "b", text: "$1:2$" },
-              { id: "c", text: "$1:1$" },
+              { id: "b", text: "$1:1$" },
+              { id: "c", text: "$1:2$" },
               { id: "d", text: "$2:2$" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1218,11 +1218,11 @@ export const lesson13: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$36\\ \\mathrm{g}$" },
-              { id: "b", text: "$72\\ \\mathrm{g}$" },
-              { id: "c", text: "$18\\ \\mathrm{g}$" },
-              { id: "d", text: "$144\\ \\mathrm{g}$" },
+              { id: "b", text: "$18\\ \\mathrm{g}$" },
+              { id: "c", text: "$144\\ \\mathrm{g}$" },
+              { id: "d", text: "$72\\ \\mathrm{g}$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1524,11 +1524,11 @@ export const lesson13: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$18\\ \\mathrm{g}$" },
-              { id: "b", text: "$36\\ \\mathrm{g}$" },
-              { id: "c", text: "$72\\ \\mathrm{g}$" },
-              { id: "d", text: "$9.0\\ \\mathrm{g}$" },
+              { id: "b", text: "$72\\ \\mathrm{g}$" },
+              { id: "c", text: "$9.0\\ \\mathrm{g}$" },
+              { id: "d", text: "$36\\ \\mathrm{g}$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1569,9 +1569,9 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$4.40\\ \\mathrm{g}$" },
+              { id: "a", text: "$2.20\\ \\mathrm{g}$" },
               { id: "b", text: "$8.80\\ \\mathrm{g}$" },
-              { id: "c", text: "$2.20\\ \\mathrm{g}$" },
+              { id: "c", text: "$4.40\\ \\mathrm{g}$" },
               { id: "d", text: "$11.0\\ \\mathrm{g}$" },
             ],
             correctChoiceId: "b",
@@ -1616,9 +1616,9 @@ export const lesson13: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Convert the given mass to moles using $n=\\frac{m}{M}$" },
-              { id: "b", text: "Multiply the mass by the mole ratio directly" },
-              { id: "c", text: "Convert the mass to a gas volume using $24.0\\ \\mathrm{dm^3\\,mol^{-1}}$" },
-              { id: "d", text: "Balance the chemical equation" },
+              { id: "b", text: "Convert the mass to a gas volume using $24.0\\ \\mathrm{dm^3\\,mol^{-1}}$" },
+              { id: "c", text: "Balance the chemical equation" },
+              { id: "d", text: "Multiply the mass by the mole ratio directly" },
             ],
             correctChoiceId: "a",
           },
@@ -1662,12 +1662,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$6.0\\ \\mathrm{dm^3}$" },
-              { id: "b", text: "$12.0\\ \\mathrm{dm^3}$" },
+              { id: "a", text: "$12.0\\ \\mathrm{dm^3}$" },
+              { id: "b", text: "$48.0\\ \\mathrm{dm^3}$" },
               { id: "c", text: "$24.0\\ \\mathrm{dm^3}$" },
-              { id: "d", text: "$48.0\\ \\mathrm{dm^3}$" },
+              { id: "d", text: "$6.0\\ \\mathrm{dm^3}$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -2183,12 +2183,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$4.40\\ \\mathrm{g}$" },
-              { id: "b", text: "$2.20\\ \\mathrm{g}$" },
-              { id: "c", text: "$8.80\\ \\mathrm{g}$" },
+              { id: "a", text: "$8.80\\ \\mathrm{g}$" },
+              { id: "b", text: "$4.40\\ \\mathrm{g}$" },
+              { id: "c", text: "$2.20\\ \\mathrm{g}$" },
               { id: "d", text: "$1.10\\ \\mathrm{g}$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

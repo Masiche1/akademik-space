@@ -83,15 +83,15 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$6$" },
+              { id: "a", text: "$14$" },
               { id: "b", text: "$16$" },
               {
                 id: "c",
                 text: "$\\begin{pmatrix} 8 \\\\ -5 \\\\ 3 \\end{pmatrix}$",
               },
-              { id: "d", text: "$14$" },
+              { id: "d", text: "$6$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -345,15 +345,15 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$9$" },
-              { id: "b", text: "$6$" },
+              { id: "a", text: "$6$" },
               {
-                id: "c",
+                id: "b",
                 text: "$\\begin{pmatrix} 3 \\\\ -2 \\\\ 8 \\end{pmatrix}$",
               },
+              { id: "c", text: "$9$" },
               { id: "d", text: "$-1$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -393,12 +393,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$0^\\circ$" },
-              { id: "b", text: "$90^\\circ$" },
+              { id: "a", text: "$90^\\circ$" },
+              { id: "b", text: "$45^\\circ$" },
               { id: "c", text: "$180^\\circ$" },
-              { id: "d", text: "$45^\\circ$" },
+              { id: "d", text: "$0^\\circ$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -822,10 +822,10 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$0^\\circ<\\theta<90^\\circ$" },
+              { id: "a", text: "$\\theta=90^\\circ$" },
               { id: "b", text: "$90^\\circ<\\theta<180^\\circ$" },
-              { id: "c", text: "$\\theta=90^\\circ$" },
-              { id: "d", text: "$\\theta=0^\\circ$" },
+              { id: "c", text: "$\\theta=0^\\circ$" },
+              { id: "d", text: "$0^\\circ<\\theta<90^\\circ$" },
             ],
             correctChoiceId: "b",
           },
@@ -870,22 +870,22 @@ export const lesson32: Lesson = {
             choices: [
               {
                 id: "a",
-                text: "$\\begin{pmatrix} 1 \\\\ 1 \\\\ 1 \\end{pmatrix}$ and $\\begin{pmatrix} 1 \\\\ -2 \\\\ 1 \\end{pmatrix}$",
-              },
-              {
-                id: "b",
                 text: "$\\begin{pmatrix} 1 \\\\ 2 \\\\ 3 \\end{pmatrix}$ and $\\begin{pmatrix} 1 \\\\ 1 \\\\ 1 \\end{pmatrix}$",
               },
               {
-                id: "c",
+                id: "b",
                 text: "$\\begin{pmatrix} 2 \\\\ 0 \\\\ 1 \\end{pmatrix}$ and $\\begin{pmatrix} 1 \\\\ 1 \\\\ 0 \\end{pmatrix}$",
+              },
+              {
+                id: "c",
+                text: "$\\begin{pmatrix} 1 \\\\ 1 \\\\ 1 \\end{pmatrix}$ and $\\begin{pmatrix} 1 \\\\ -2 \\\\ 1 \\end{pmatrix}$",
               },
               {
                 id: "d",
                 text: "$\\begin{pmatrix} 1 \\\\ -1 \\\\ 0 \\end{pmatrix}$ and $\\begin{pmatrix} 3 \\\\ 1 \\\\ 0 \\end{pmatrix}$",
               },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -924,22 +924,22 @@ export const lesson32: Lesson = {
             choices: [
               {
                 id: "a",
-                text: "$\\cos\\theta=\\frac{|\\boldsymbol d_1\\cdot\\boldsymbol d_2|}{|\\boldsymbol d_1||\\boldsymbol d_2|}$",
-              },
-              {
-                id: "b",
                 text: "$\\sin\\theta=\\frac{|\\boldsymbol d_1\\times\\boldsymbol d_2|}{|\\boldsymbol d_1||\\boldsymbol d_2|}$ only",
               },
               {
+                id: "b",
+                text: "$\\boldsymbol d_1\\times\\boldsymbol d_2$ alone",
+              },
+              {
                 id: "c",
-                text: "$\\tan\\theta=\\frac{|\\boldsymbol d_1\\cdot\\boldsymbol d_2|}{|\\boldsymbol d_1||\\boldsymbol d_2|}$",
+                text: "$\\cos\\theta=\\frac{|\\boldsymbol d_1\\cdot\\boldsymbol d_2|}{|\\boldsymbol d_1||\\boldsymbol d_2|}$",
               },
               {
                 id: "d",
-                text: "$\\boldsymbol d_1\\times\\boldsymbol d_2$ alone",
+                text: "$\\tan\\theta=\\frac{|\\boldsymbol d_1\\cdot\\boldsymbol d_2|}{|\\boldsymbol d_1||\\boldsymbol d_2|}$",
               },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -981,12 +981,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$k=2$" },
+              { id: "a", text: "$k=1$" },
               { id: "b", text: "$k=-2$" },
-              { id: "c", text: "$k=1$" },
+              { id: "c", text: "$k=2$" },
               { id: "d", text: "$k=-1$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1065,15 +1065,15 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              {
-                id: "a",
-                text: "It is a scalar equal to $|\\boldsymbol a||\\boldsymbol b|\\cos\\theta$.",
-              },
+              { id: "a", text: "It is parallel to $\\boldsymbol a$." },
               {
                 id: "b",
                 text: "It is perpendicular to both $\\boldsymbol a$ and $\\boldsymbol b$.",
               },
-              { id: "c", text: "It is parallel to $\\boldsymbol a$." },
+              {
+                id: "c",
+                text: "It is a scalar equal to $|\\boldsymbol a||\\boldsymbol b|\\cos\\theta$.",
+              },
               {
                 id: "d",
                 text: "It equals $\\boldsymbol b\\times\\boldsymbol a$.",
@@ -1375,11 +1375,11 @@ export const lesson32: Lesson = {
             choices: [
               {
                 id: "a",
-                text: "$\\begin{pmatrix} 0 \\\\ 0 \\\\ 1 \\end{pmatrix}$",
+                text: "$\\begin{pmatrix} 0 \\\\ 0 \\\\ -1 \\end{pmatrix}$",
               },
               {
                 id: "b",
-                text: "$\\begin{pmatrix} 0 \\\\ 0 \\\\ -1 \\end{pmatrix}$",
+                text: "$\\begin{pmatrix} 0 \\\\ 0 \\\\ 1 \\end{pmatrix}$",
               },
               {
                 id: "c",
@@ -1390,7 +1390,7 @@ export const lesson32: Lesson = {
                 text: "$\\begin{pmatrix} 0 \\\\ 1 \\\\ 0 \\end{pmatrix}$",
               },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -1430,15 +1430,15 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$|\\boldsymbol a\\times\\boldsymbol b|$" },
-              { id: "b", text: "$\\boldsymbol a\\cdot\\boldsymbol b$" },
+              { id: "a", text: "$\\boldsymbol a\\cdot\\boldsymbol b$" },
+              { id: "b", text: "$|\\boldsymbol a\\times\\boldsymbol b|$" },
               { id: "c", text: "$|\\boldsymbol a||\\boldsymbol b|$" },
               {
                 id: "d",
                 text: "$\\frac12|\\boldsymbol a\\times\\boldsymbol b|$",
               },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1853,12 +1853,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "They are perpendicular." },
-              { id: "b", text: "They are parallel." },
-              { id: "c", text: "They are equal." },
+              { id: "a", text: "They are equal." },
+              { id: "b", text: "They are perpendicular." },
+              { id: "c", text: "They are parallel." },
               { id: "d", text: "They are unit vectors." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1899,18 +1899,18 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "$\\boldsymbol a\\cdot\\boldsymbol b$" },
               {
-                id: "a",
+                id: "b",
                 text: "$|\\boldsymbol a||\\boldsymbol b|\\cos\\theta$",
               },
               {
-                id: "b",
+                id: "c",
                 text: "$|\\boldsymbol a||\\boldsymbol b|\\sin\\theta$",
               },
-              { id: "c", text: "$|\\boldsymbol a||\\boldsymbol b|$" },
-              { id: "d", text: "$\\boldsymbol a\\cdot\\boldsymbol b$" },
+              { id: "d", text: "$|\\boldsymbol a||\\boldsymbol b|$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1954,7 +1954,7 @@ export const lesson32: Lesson = {
             choices: [
               {
                 id: "a",
-                text: "$\\begin{pmatrix} 1 \\\\ 0 \\\\ 0 \\end{pmatrix}$",
+                text: "$\\begin{pmatrix} 0 \\\\ 0 \\\\ 5 \\end{pmatrix}$",
               },
               {
                 id: "b",
@@ -1962,14 +1962,14 @@ export const lesson32: Lesson = {
               },
               {
                 id: "c",
-                text: "$\\begin{pmatrix} 0 \\\\ 0 \\\\ 5 \\end{pmatrix}$",
+                text: "$\\begin{pmatrix} 1 \\\\ 0 \\\\ 0 \\end{pmatrix}$",
               },
               {
                 id: "d",
                 text: "$\\begin{pmatrix} 1 \\\\ 1 \\\\ 0 \\end{pmatrix}$",
               },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -2010,12 +2010,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\sqrt{3}$" },
+              { id: "a", text: "$\\sqrt{2}$" },
               { id: "b", text: "$2$" },
-              { id: "c", text: "$\\sqrt{2}$" },
-              { id: "d", text: "$3$" },
+              { id: "c", text: "$3$" },
+              { id: "d", text: "$\\sqrt{3}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

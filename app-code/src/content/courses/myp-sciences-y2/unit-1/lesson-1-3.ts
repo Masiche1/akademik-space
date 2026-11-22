@@ -60,12 +60,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Blue (no change)" },
-              { id: "b", text: "Red" },
-              { id: "c", text: "Green" },
-              { id: "d", text: "Purple" },
+              { id: "a", text: "Red" },
+              { id: "b", text: "Purple" },
+              { id: "c", text: "Blue (no change)" },
+              { id: "d", text: "Green" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -160,12 +160,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "0" },
-              { id: "b", text: "5" },
-              { id: "c", text: "7" },
-              { id: "d", text: "14" },
+              { id: "a", text: "5" },
+              { id: "b", text: "7" },
+              { id: "c", text: "14" },
+              { id: "d", text: "0" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -187,12 +187,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "pH 1" },
-              { id: "b", text: "pH 4" },
+              { id: "a", text: "pH 4" },
+              { id: "b", text: "pH 1" },
               { id: "c", text: "pH 7" },
               { id: "d", text: "pH 11" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -214,10 +214,10 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Red" },
+              { id: "a", text: "Yellow" },
               { id: "b", text: "Blue (no change)" },
               { id: "c", text: "Green" },
-              { id: "d", text: "Yellow" },
+              { id: "d", text: "Red" },
             ],
             correctChoiceId: "b",
           },
@@ -369,11 +369,11 @@ export const lesson13: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "It is acidic" },
-              { id: "b", text: "It is alkaline" },
+              { id: "b", text: "It is a salt solution only" },
               { id: "c", text: "It is neutral" },
-              { id: "d", text: "It is a salt solution only" },
+              { id: "d", text: "It is alkaline" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -396,11 +396,11 @@ export const lesson13: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Hydrochloric acid at pH 1" },
-              { id: "b", text: "Ethanoic acid in vinegar at pH 3" },
-              { id: "c", text: "Sulfuric acid at pH 1" },
-              { id: "d", text: "A pH 13 bleach solution" },
+              { id: "b", text: "Sulfuric acid at pH 1" },
+              { id: "c", text: "A pH 13 bleach solution" },
+              { id: "d", text: "Ethanoic acid in vinegar at pH 3" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -485,10 +485,10 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A salt and hydrogen" },
+              { id: "a", text: "Only water" },
               { id: "b", text: "A salt and water" },
               { id: "c", text: "A salt and carbon dioxide" },
-              { id: "d", text: "Only water" },
+              { id: "d", text: "A salt and hydrogen" },
             ],
             correctChoiceId: "b",
           },
@@ -587,9 +587,9 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A salt and water" },
+              { id: "a", text: "A salt and carbon dioxide" },
               { id: "b", text: "A salt and hydrogen" },
-              { id: "c", text: "A salt and carbon dioxide" },
+              { id: "c", text: "A salt and water" },
               { id: "d", text: "Only hydrogen" },
             ],
             correctChoiceId: "b",
@@ -614,12 +614,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Sodium chloride" },
-              { id: "b", text: "Sodium nitrate" },
-              { id: "c", text: "Sodium sulfate" },
+              { id: "a", text: "Sodium sulfate" },
+              { id: "b", text: "Sodium chloride" },
+              { id: "c", text: "Sodium nitrate" },
               { id: "d", text: "Sodium hydroxide" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -641,10 +641,10 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Hydrochloric acid" },
+              { id: "a", text: "Ethanoic acid" },
               { id: "b", text: "Sulfuric acid" },
               { id: "c", text: "Nitric acid" },
-              { id: "d", text: "Ethanoic acid" },
+              { id: "d", text: "Hydrochloric acid" },
             ],
             correctChoiceId: "c",
           },
@@ -800,12 +800,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The volume of acid neutralised" },
-              { id: "b", text: "The type of antacid" },
-              { id: "c", text: "The mass of antacid used" },
-              { id: "d", text: "The temperature of the acid" },
+              { id: "a", text: "The temperature of the acid" },
+              { id: "b", text: "The volume of acid neutralised" },
+              { id: "c", text: "The type of antacid" },
+              { id: "d", text: "The mass of antacid used" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -827,12 +827,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The lime makes the soil more acidic" },
-              { id: "b", text: "The lime neutralises the acid in the soil, raising the pH" },
-              { id: "c", text: "The lime adds extra water to the soil" },
-              { id: "d", text: "The lime kills all the microbes in the soil" },
+              { id: "a", text: "The lime adds extra water to the soil" },
+              { id: "b", text: "The lime makes the soil more acidic" },
+              { id: "c", text: "The lime kills all the microbes in the soil" },
+              { id: "d", text: "The lime neutralises the acid in the soil, raising the pH" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

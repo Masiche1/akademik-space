@@ -54,12 +54,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "They live in the same habitat." },
-              { id: "b", text: "Their DNA sequences are very similar." },
-              { id: "c", text: "They are about the same body size." },
-              { id: "d", text: "They eat the same food." },
+              { id: "a", text: "Their DNA sequences are very similar." },
+              { id: "b", text: "They eat the same food." },
+              { id: "c", text: "They live in the same habitat." },
+              { id: "d", text: "They are about the same body size." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -186,12 +186,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Individuals change their traits to meet the needs of the environment." },
-              { id: "b", text: "All offspring survive to adulthood." },
-              { id: "c", text: "Differences between individuals are caused only by the environment." },
-              { id: "d", text: "Some differences between individuals are heritable and affect survival or reproduction." },
+              { id: "a", text: "Differences between individuals are caused only by the environment." },
+              { id: "b", text: "Some differences between individuals are heritable and affect survival or reproduction." },
+              { id: "c", text: "Individuals change their traits to meet the needs of the environment." },
+              { id: "d", text: "All offspring survive to adulthood." },
             ],
-            correctChoiceId: "d",
+            correctChoiceIb: "d",
           },
           markscheme: {
             principles: [

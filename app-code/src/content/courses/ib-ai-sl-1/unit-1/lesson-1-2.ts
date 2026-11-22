@@ -54,8 +54,8 @@ export const lesson12: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$43$" },
-              { id: "b", text: "$47$" },
-              { id: "c", text: "$40$" },
+              { id: "b", text: "$40$" },
+              { id: "c", text: "$47$" },
               { id: "d", text: "$39$" },
             ],
             correctChoiceId: "a",
@@ -155,12 +155,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$39$" },
-              { id: "b", text: "$44$" },
-              { id: "c", text: "$34$" },
-              { id: "d", text: "$24$" },
+              { id: "a", text: "$24$" },
+              { id: "b", text: "$34$" },
+              { id: "c", text: "$44$" },
+              { id: "d", text: "$39$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -184,9 +184,9 @@ export const lesson12: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$3$" },
-              { id: "b", text: "$7$" },
+              { id: "b", text: "$23$" },
               { id: "c", text: "$15$" },
-              { id: "d", text: "$23$" },
+              { id: "d", text: "$7$" },
             ],
             correctChoiceId: "a",
           },
@@ -250,12 +250,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$19$" },
-              { id: "b", text: "$18$" },
-              { id: "c", text: "$21$" },
-              { id: "d", text: "$16$" },
+              { id: "a", text: "$16$" },
+              { id: "b", text: "$21$" },
+              { id: "c", text: "$19$" },
+              { id: "d", text: "$18$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -346,12 +346,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$145$" },
+              { id: "a", text: "$155$" },
               { id: "b", text: "$290$" },
-              { id: "c", text: "$155$" },
-              { id: "d", text: "$300$" },
+              { id: "c", text: "$300$" },
+              { id: "d", text: "$145$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -407,12 +407,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$31$" },
-              { id: "b", text: "$28$" },
-              { id: "c", text: "$34$" },
-              { id: "d", text: "$37$" },
+              { id: "a", text: "$37$" },
+              { id: "b", text: "$31$" },
+              { id: "c", text: "$28$" },
+              { id: "d", text: "$34$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -435,12 +435,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$960$" },
+              { id: "a", text: "$990$" },
               { id: "b", text: "$930$" },
-              { id: "c", text: "$990$" },
+              { id: "c", text: "$960$" },
               { id: "d", text: "$1920$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -526,12 +526,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$96$" },
-              { id: "b", text: "$192$" },
-              { id: "c", text: "$36$" },
-              { id: "d", text: "$18$" },
+              { id: "a", text: "$18$" },
+              { id: "b", text: "$36$" },
+              { id: "c", text: "$96$" },
+              { id: "d", text: "$192$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -628,9 +628,9 @@ export const lesson12: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$500$" },
-              { id: "b", text: "$125$" },
-              { id: "c", text: "$100$" },
-              { id: "d", text: "$20$" },
+              { id: "b", text: "$20$" },
+              { id: "c", text: "$125$" },
+              { id: "d", text: "$100$" },
             ],
             correctChoiceId: "a",
           },
@@ -655,12 +655,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$2$" },
-              { id: "b", text: "$4$" },
-              { id: "c", text: "$8$" },
-              { id: "d", text: "$\\frac{1}{2}$" },
+              { id: "a", text: "$8$" },
+              { id: "b", text: "$2$" },
+              { id: "c", text: "$\\frac{1}{2}$" },
+              { id: "d", text: "$4$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -723,9 +723,9 @@ export const lesson12: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$405$" },
-              { id: "b", text: "$180$" },
-              { id: "c", text: "$540$" },
-              { id: "d", text: "$225$" },
+              { id: "b", text: "$540$" },
+              { id: "c", text: "$225$" },
+              { id: "d", text: "$180$" },
             ],
             correctChoiceId: "a",
           },
@@ -818,12 +818,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$3$" },
-              { id: "b", text: "$4$" },
+              { id: "a", text: "$4$" },
+              { id: "b", text: "$36$" },
               { id: "c", text: "$12$" },
-              { id: "d", text: "$36$" },
+              { id: "d", text: "$3$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -877,12 +877,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$0.4375$" },
-              { id: "b", text: "$0.875$" },
-              { id: "c", text: "$0.21875$" },
-              { id: "d", text: "$3.5$" },
+              { id: "a", text: "$3.5$" },
+              { id: "b", text: "$0.21875$" },
+              { id: "c", text: "$0.875$" },
+              { id: "d", text: "$0.4375$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -905,12 +905,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$381$" },
+              { id: "a", text: "$382$" },
               { id: "b", text: "$189$" },
-              { id: "c", text: "$254$" },
-              { id: "d", text: "$382$" },
+              { id: "c", text: "$381$" },
+              { id: "d", text: "$254$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

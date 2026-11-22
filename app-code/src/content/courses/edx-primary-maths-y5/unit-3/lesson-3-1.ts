@@ -55,12 +55,12 @@ export const lesson91: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "10 cm²" },
-              { id: "b", text: "20 cm²" },
-              { id: "c", text: "24 cm²" },
-              { id: "d", text: "48 cm²" },
+              { id: "a", text: "20 cm²" },
+              { id: "b", text: "24 cm²" },
+              { id: "c", text: "48 cm²" },
+              { id: "d", text: "10 cm²" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -256,12 +256,12 @@ export const lesson91: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "9 cm³" },
-              { id: "b", text: "24 cm³" },
-              { id: "c", text: "12 cm³" },
-              { id: "d", text: "48 cm³" },
+              { id: "a", text: "12 cm³" },
+              { id: "b", text: "48 cm³" },
+              { id: "c", text: "9 cm³" },
+              { id: "d", text: "24 cm³" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

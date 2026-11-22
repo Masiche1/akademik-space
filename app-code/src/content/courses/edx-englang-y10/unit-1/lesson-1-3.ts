@@ -75,12 +75,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Both are written in the first person." },
-              { id: "b", text: "Both show respect for the people who work at night." },
-              { id: "c", text: "Both use statistics to support their ideas." },
-              { id: "d", text: "Both argue that night work should be banned." },
+              { id: "a", text: "Both use statistics to support their ideas." },
+              { id: "b", text: "Both argue that night work should be banned." },
+              { id: "c", text: "Both show respect for the people who work at night." },
+              { id: "d", text: "Both are written in the first person." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "skill", name: "Identifying a similarity", statement: "Check each statement against both texts." }],
@@ -214,12 +214,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Text A is a diary and Text B is an article." },
-              { id: "b", text: "Both texts respect night workers, but Text A celebrates the work whereas Text B argues that it harms people." },
-              { id: "c", text: "Night work is difficult." },
-              { id: "d", text: "I will compare the texts." },
+              { id: "a", text: "Night work is difficult." },
+              { id: "b", text: "I will compare the texts." },
+              { id: "c", text: "Text A is a diary and Text B is an article." },
+              { id: "d", text: "Both texts respect night workers, but Text A celebrates the work whereas Text B argues that it harms people." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "skill", name: "Comparative thesis", statement: "A thesis states an overall similarity and difference in viewpoint." }],

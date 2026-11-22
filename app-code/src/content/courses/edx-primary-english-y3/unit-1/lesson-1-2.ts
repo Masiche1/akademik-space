@@ -62,12 +62,12 @@ export const lesson72: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "cat" },
-              { id: "b", text: "sunflower" },
-              { id: "c", text: "run" },
+              { id: "a", text: "sunflower" },
+              { id: "b", text: "run" },
+              { id: "c", text: "cat" },
               { id: "d", text: "big" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -92,12 +92,12 @@ export const lesson72: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "rain + bow" },
-              { id: "b", text: "rai + nbow" },
-              { id: "c", text: "rainb + ow" },
-              { id: "d", text: "ra + inbow" },
+              { id: "a", text: "rainb + ow" },
+              { id: "b", text: "ra + inbow" },
+              { id: "c", text: "rai + nbow" },
+              { id: "d", text: "rain + bow" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -229,9 +229,9 @@ export const lesson72: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "teacher" },
-              { id: "b", text: "learn" },
+              { id: "b", text: "book" },
               { id: "c", text: "school" },
-              { id: "d", text: "book" },
+              { id: "d", text: "learn" },
             ],
             correctChoiceId: "a",
           },
@@ -256,12 +256,12 @@ export const lesson72: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "small" },
-              { id: "b", text: "large" },
+              { id: "a", text: "little" },
+              { id: "b", text: "small" },
               { id: "c", text: "tiny" },
-              { id: "d", text: "little" },
+              { id: "d", text: "large" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

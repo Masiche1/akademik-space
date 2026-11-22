@@ -53,12 +53,12 @@ export const lesson24: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The Arts" },
-              { id: "b", text: "History" },
-              { id: "c", text: "Religion" },
+              { id: "a", text: "Religion" },
+              { id: "b", text: "The Arts" },
+              { id: "c", text: "History" },
               { id: "d", text: "Mathematics" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -150,8 +150,8 @@ export const lesson24: Lesson = {
             choices: [
               { id: "a", text: "Science, history, mathematics, arts, religion" },
               { id: "b", text: "Natural Sciences, Human Sciences, Mathematics, History, The Arts" },
-              { id: "c", text: "Physics, psychology, logic, memory, faith" },
-              { id: "d", text: "Language, reason, emotion, religion, politics" },
+              { id: "c", text: "Language, reason, emotion, religion, politics" },
+              { id: "d", text: "Physics, psychology, logic, memory, faith" },
             ],
             correctChoiceId: "b",
           },
@@ -175,10 +175,10 @@ export const lesson24: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Deductive proof from axioms" },
+              { id: "a", text: "Interpretation of sacred texts" },
               { id: "b", text: "Empirical observation and controlled testing" },
-              { id: "c", text: "Interpretation of sacred texts" },
-              { id: "d", text: "Aesthetic judgement" },
+              { id: "c", text: "Aesthetic judgement" },
+              { id: "d", text: "Deductive proof from axioms" },
             ],
             correctChoiceId: "b",
           },
@@ -203,11 +203,11 @@ export const lesson24: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Certain and law-like" },
-              { id: "b", text: "Probabilistic, interpretive and context-dependent" },
+              { id: "b", text: "Independent of evidence" },
               { id: "c", text: "Based only on revelation" },
-              { id: "d", text: "Independent of evidence" },
+              { id: "d", text: "Probabilistic, interpretive and context-dependent" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -229,12 +229,12 @@ export const lesson24: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Repeated laboratory tests" },
-              { id: "b", text: "Deductive proof from definitions and axioms" },
-              { id: "c", text: "Appeal to authority" },
-              { id: "d", text: "Statistical probability" },
+              { id: "a", text: "Deductive proof from definitions and axioms" },
+              { id: "b", text: "Statistical probability" },
+              { id: "c", text: "Repeated laboratory tests" },
+              { id: "d", text: "Appeal to authority" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -256,12 +256,12 @@ export const lesson24: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Repeating past experiments" },
-              { id: "b", text: "Interpreting primary and secondary sources" },
-              { id: "c", text: "Formulating axioms" },
-              { id: "d", text: "Testing chemical reactions" },
+              { id: "a", text: "Formulating axioms" },
+              { id: "b", text: "Testing chemical reactions" },
+              { id: "c", text: "Repeating past experiments" },
+              { id: "d", text: "Interpreting primary and secondary sources" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -283,12 +283,12 @@ export const lesson24: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Empirical measurement" },
-              { id: "b", text: "Expression, interpretation and aesthetic judgement" },
+              { id: "a", text: "Expression, interpretation and aesthetic judgement" },
+              { id: "b", text: "Religious revelation" },
               { id: "c", text: "Mathematical deduction" },
-              { id: "d", text: "Religious revelation" },
+              { id: "d", text: "Empirical measurement" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -466,12 +466,12 @@ export const lesson24: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Knowledge and politics" },
-              { id: "b", text: "Knowledge and the knower" },
-              { id: "c", text: "Knowledge and technology" },
-              { id: "d", text: "Knowledge and religion" },
+              { id: "a", text: "Knowledge and the knower" },
+              { id: "b", text: "Knowledge and religion" },
+              { id: "c", text: "Knowledge and politics" },
+              { id: "d", text: "Knowledge and technology" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -562,11 +562,11 @@ export const lesson24: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Knowledge and politics" },
-              { id: "b", text: "Knowledge and the knower" },
-              { id: "c", text: "Knowledge and technology" },
-              { id: "d", text: "Knowledge and religion" },
+              { id: "b", text: "Knowledge and religion" },
+              { id: "c", text: "Knowledge and the knower" },
+              { id: "d", text: "Knowledge and technology" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -588,12 +588,12 @@ export const lesson24: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Knowledge and the knower" },
-              { id: "b", text: "Knowledge and technology" },
+              { id: "a", text: "Knowledge and technology" },
+              { id: "b", text: "History and sources" },
               { id: "c", text: "Mathematics and proof" },
-              { id: "d", text: "History and sources" },
+              { id: "d", text: "Knowledge and the knower" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -615,12 +615,12 @@ export const lesson24: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Only mathematical proofs" },
-              { id: "b", text: "Scope, methods and tools, perspectives and ethics" },
-              { id: "c", text: "Only historical dates" },
-              { id: "d", text: "Only artistic techniques" },
+              { id: "a", text: "Scope, methods and tools, perspectives and ethics" },
+              { id: "b", text: "Only artistic techniques" },
+              { id: "c", text: "Only mathematical proofs" },
+              { id: "d", text: "Only historical dates" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -642,12 +642,12 @@ export const lesson24: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A textbook" },
-              { id: "b", text: "The individual whose perspectives and ways of knowing shape knowledge" },
+              { id: "a", text: "A mathematical axiom" },
+              { id: "b", text: "A textbook" },
               { id: "c", text: "A laboratory instrument" },
-              { id: "d", text: "A mathematical axiom" },
+              { id: "d", text: "The individual whose perspectives and ways of knowing shape knowledge" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -669,12 +669,12 @@ export const lesson24: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "To list facts" },
-              { id: "b", text: "To examine whose viewpoints shape an area of knowledge" },
-              { id: "c", text: "To calculate marks" },
-              { id: "d", text: "To replace evidence" },
+              { id: "a", text: "To calculate marks" },
+              { id: "b", text: "To replace evidence" },
+              { id: "c", text: "To examine whose viewpoints shape an area of knowledge" },
+              { id: "d", text: "To list facts" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

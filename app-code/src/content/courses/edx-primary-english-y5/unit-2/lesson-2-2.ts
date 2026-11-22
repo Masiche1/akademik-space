@@ -51,12 +51,12 @@ export const lesson112: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Being unfairly one-sided" },
-              { id: "b", text: "Being detailed" },
-              { id: "c", text: "Being short" },
-              { id: "d", text: "Being formal" },
+              { id: "a", text: "Being formal" },
+              { id: "b", text: "Being unfairly one-sided" },
+              { id: "c", text: "Being detailed" },
+              { id: "d", text: "Being short" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -81,10 +81,10 @@ export const lesson112: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The policy was implemented" },
+              { id: "a", text: "The policy affected 500 people" },
               { id: "b", text: "The stupid policy was forced on us" },
-              { id: "c", text: "The policy affected 500 people" },
-              { id: "d", text: "The policy was debated" },
+              { id: "c", text: "The policy was debated" },
+              { id: "d", text: "The policy was implemented" },
             ],
             correctChoiceId: "b",
           },
@@ -215,11 +215,11 @@ export const lesson112: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Emotional language" },
-              { id: "b", text: "Evidence and logic" },
+              { id: "b", text: "Being loud" },
               { id: "c", text: "Being long" },
-              { id: "d", text: "Being loud" },
+              { id: "d", text: "Evidence and logic" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

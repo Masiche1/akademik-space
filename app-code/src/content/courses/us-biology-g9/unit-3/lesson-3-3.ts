@@ -51,12 +51,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "3 : 1" },
+              { id: "a", text: "9 : 3 : 3 : 1" },
               { id: "b", text: "1 : 1 : 1 : 1" },
-              { id: "c", text: "9 : 3 : 3 : 1" },
-              { id: "d", text: "1 : 2 : 1" },
+              { id: "c", text: "1 : 2 : 1" },
+              { id: "d", text: "3 : 1" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -194,12 +194,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Red" },
-              { id: "b", text: "White" },
-              { id: "c", text: "Pink" },
-              { id: "d", text: "Half red and half white petals on each flower" },
+              { id: "a", text: "Pink" },
+              { id: "b", text: "Red" },
+              { id: "c", text: "Half red and half white petals on each flower" },
+              { id: "d", text: "White" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [

@@ -54,12 +54,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It shows the room has been decorated" },
-              { id: "b", text: "It signals a shift from comfortable ignorance to harsh scrutiny" },
+              { id: "a", text: "It tells the audience the scene has moved outdoors" },
+              { id: "b", text: "It shows the room has been decorated" },
               { id: "c", text: "It shows that the family is relaxed" },
-              { id: "d", text: "It tells the audience the scene has moved outdoors" },
+              { id: "d", text: "It signals a shift from comfortable ignorance to harsh scrutiny" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Stage direction as symbol", statement: "Lighting can symbolise changes in mood or truth." }],
@@ -184,12 +184,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The Inspector appears in the play." },
-              { id: "b", text: "Priestley uses the Inspector as a moral voice who forces the Birlings, and the audience, to confront shared responsibility." },
-              { id: "c", text: "The Inspector is a police officer." },
+              { id: "a", text: "Priestley uses the Inspector as a moral voice who forces the Birlings, and the audience, to confront shared responsibility." },
+              { id: "b", text: "The Inspector is a police officer." },
+              { id: "c", text: "The Inspector appears in the play." },
               { id: "d", text: "I will write about the Inspector." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "skill", name: "Thesis", statement: "An arguable claim that answers the question." }],

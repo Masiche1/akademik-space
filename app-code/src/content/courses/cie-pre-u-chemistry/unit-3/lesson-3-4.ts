@@ -109,12 +109,12 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Carbon-hydrogen bonds" },
-              { id: "b", text: "Only carbon" },
+              { id: "a", text: "Only carbon" },
+              { id: "b", text: "Carbon-hydrogen bonds" },
               { id: "c", text: "Only hydrogen" },
               { id: "d", text: "No carbon" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -132,12 +132,12 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Only carbon and hydrogen" },
-              { id: "b", text: "Only carbon" },
-              { id: "c", text: "Only hydrogen" },
-              { id: "d", text: "Oxygen too" },
+              { id: "a", text: "Only carbon" },
+              { id: "b", text: "Only hydrogen" },
+              { id: "c", text: "Oxygen too" },
+              { id: "d", text: "Only carbon and hydrogen" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -161,12 +161,12 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Saturated hydrocarbon — single bonds" },
+              { id: "a", text: "Alcohol" },
               { id: "b", text: "Unsaturated" },
-              { id: "c", text: "Aromatic" },
-              { id: "d", text: "Alcohol" },
+              { id: "c", text: "Saturated hydrocarbon — single bonds" },
+              { id: "d", text: "Aromatic" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -190,12 +190,12 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Unsaturated — at least one C=C" },
-              { id: "b", text: "Saturated" },
-              { id: "c", text: "Aromatic" },
-              { id: "d", text: "Alcohol" },
+              { id: "a", text: "Alcohol" },
+              { id: "b", text: "Aromatic" },
+              { id: "c", text: "Unsaturated — at least one C=C" },
+              { id: "d", text: "Saturated" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -219,12 +219,12 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "CnH₂n+₂" },
-              { id: "b", text: "CnH₂n" },
-              { id: "c", text: "CnH₂n-₂" },
-              { id: "d", text: "CnHn" },
+              { id: "a", text: "CnH₂n" },
+              { id: "b", text: "CnH₂n+₂" },
+              { id: "c", text: "CnHn" },
+              { id: "d", text: "CnH₂n-₂" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -248,12 +248,12 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "CnH₂n" },
-              { id: "b", text: "CnH₂n+₂" },
-              { id: "c", text: "CnH₂n-₂" },
-              { id: "d", text: "CnHn" },
+              { id: "a", text: "CnH₂n+₂" },
+              { id: "b", text: "CnH₂n" },
+              { id: "c", text: "CnHn" },
+              { id: "d", text: "CnH₂n-₂" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -275,12 +275,12 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "CH₄" },
-              { id: "b", text: "C₂H₆" },
-              { id: "c", text: "C₃H₈" },
+              { id: "a", text: "C₃H₈" },
+              { id: "b", text: "CH₄" },
+              { id: "c", text: "C₂H₆" },
               { id: "d", text: "CO₂" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -298,12 +298,12 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "-OH (alcohol)" },
-              { id: "b", text: "-COOH" },
-              { id: "c", text: "-CHO" },
-              { id: "d", text: "-COO-" },
+              { id: "a", text: "-CHO" },
+              { id: "b", text: "-COO-" },
+              { id: "c", text: "-COOH" },
+              { id: "d", text: "-OH (alcohol)" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -321,12 +321,12 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "-COOH (carboxylic acid)" },
-              { id: "b", text: "-OH" },
-              { id: "c", text: "-CHO" },
+              { id: "a", text: "-CHO" },
+              { id: "b", text: "-COOH (carboxylic acid)" },
+              { id: "c", text: "-OH" },
               { id: "d", text: "-COO-" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -350,12 +350,12 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Same formula, different structure" },
+              { id: "a", text: "No relation" },
               { id: "b", text: "Same structure" },
               { id: "c", text: "Different formula" },
-              { id: "d", text: "No relation" },
+              { id: "d", text: "Same formula, different structure" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -385,8 +385,8 @@ export const lesson34: Lesson = {
             choices: [
               { id: "a", text: "Same general formula and similar properties" },
               { id: "b", text: "Different formulas" },
-              { id: "c", text: "No relation" },
-              { id: "d", text: "Different properties" },
+              { id: "c", text: "Different properties" },
+              { id: "d", text: "No relation" },
             ],
             correctChoiceId: "a",
           },
@@ -416,12 +416,12 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "CH₂ group" },
+              { id: "a", text: "H group" },
               { id: "b", text: "C group" },
-              { id: "c", text: "H group" },
-              { id: "d", text: "O group" },
+              { id: "c", text: "O group" },
+              { id: "d", text: "CH₂ group" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -450,9 +450,9 @@ export const lesson34: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Atom/group determining chemical properties" },
-              { id: "b", text: "Any atom" },
-              { id: "c", text: "Any group" },
-              { id: "d", text: "No group" },
+              { id: "b", text: "No group" },
+              { id: "c", text: "Any atom" },
+              { id: "d", text: "Any group" },
             ],
             correctChoiceId: "a",
           },
@@ -483,9 +483,9 @@ export const lesson34: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "-CHO" },
-              { id: "b", text: "-OH" },
-              { id: "c", text: "-COOH" },
-              { id: "d", text: "-COO-" },
+              { id: "b", text: "-COOH" },
+              { id: "c", text: "-COO-" },
+              { id: "d", text: "-OH" },
             ],
             correctChoiceId: "a",
           },
@@ -505,12 +505,12 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "C=O in middle of chain" },
-              { id: "b", text: "-CHO" },
-              { id: "c", text: "-OH" },
-              { id: "d", text: "-COOH" },
+              { id: "a", text: "-CHO" },
+              { id: "b", text: "-OH" },
+              { id: "c", text: "-COOH" },
+              { id: "d", text: "C=O in middle of chain" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -530,12 +530,12 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "-COO-" },
+              { id: "a", text: "-CHO" },
               { id: "b", text: "-OH" },
-              { id: "c", text: "-CHO" },
+              { id: "c", text: "-COO-" },
               { id: "d", text: "-COOH" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -553,12 +553,12 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "-NH₂" },
-              { id: "b", text: "-OH" },
+              { id: "a", text: "-OH" },
+              { id: "b", text: "-NH₂" },
               { id: "c", text: "-COOH" },
               { id: "d", text: "-CHO" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -576,12 +576,12 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "-X (Cl, Br, I)" },
-              { id: "b", text: "-OH" },
-              { id: "c", text: "-COOH" },
-              { id: "d", text: "-CHO" },
+              { id: "a", text: "-CHO" },
+              { id: "b", text: "-X (Cl, Br, I)" },
+              { id: "c", text: "-OH" },
+              { id: "d", text: "-COOH" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -599,12 +599,12 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Same formula, different connectivity" },
-              { id: "b", text: "Same connectivity" },
+              { id: "a", text: "Same connectivity" },
+              { id: "b", text: "Same formula, different connectivity" },
               { id: "c", text: "Different formula" },
               { id: "d", text: "No relation" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -764,12 +764,12 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "C₂H₄" },
-              { id: "b", text: "C₂H₆" },
+              { id: "a", text: "C₂H₆" },
+              { id: "b", text: "CH₄" },
               { id: "c", text: "C₃H₆" },
-              { id: "d", text: "CH₄" },
+              { id: "d", text: "C₂H₄" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -850,12 +850,12 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "C₃H₈" },
-              { id: "b", text: "C₂H₆" },
-              { id: "c", text: "C₄H₁₀" },
-              { id: "d", text: "CH₄" },
+              { id: "a", text: "C₂H₆" },
+              { id: "b", text: "C₄H₁₀" },
+              { id: "c", text: "CH₄" },
+              { id: "d", text: "C₃H₈" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1019,8 +1019,8 @@ export const lesson34: Lesson = {
             choices: [
               { id: "a", text: "Atom/group replaced by another" },
               { id: "b", text: "Two molecules combine" },
-              { id: "c", text: "Molecule splits" },
-              { id: "d", text: "No change" },
+              { id: "c", text: "No change" },
+              { id: "d", text: "Molecule splits" },
             ],
             correctChoiceId: "a",
           },
@@ -1050,15 +1050,15 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              {
-                id: "a",
-                text: "Two molecules combine — unsaturated → saturated",
-              },
+              { id: "a", text: "No change" },
               { id: "b", text: "Replacement" },
               { id: "c", text: "Splitting" },
-              { id: "d", text: "No change" },
+              {
+                id: "d",
+                text: "Two molecules combine — unsaturated → saturated",
+              },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1082,12 +1082,12 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Molecule splits — saturated → unsaturated" },
-              { id: "b", text: "Replacement" },
-              { id: "c", text: "Addition" },
-              { id: "d", text: "No change" },
+              { id: "a", text: "Replacement" },
+              { id: "b", text: "Addition" },
+              { id: "c", text: "No change" },
+              { id: "d", text: "Molecule splits — saturated → unsaturated" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1111,12 +1111,12 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "H₂ across C=C" },
-              { id: "b", text: "O₂" },
-              { id: "c", text: "Br₂" },
-              { id: "d", text: "HCl only" },
+              { id: "a", text: "O₂" },
+              { id: "b", text: "Br₂" },
+              { id: "c", text: "HCl only" },
+              { id: "d", text: "H₂ across C=C" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1140,12 +1140,12 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Alkenes" },
-              { id: "b", text: "Alkanes" },
+              { id: "a", text: "Alkanes" },
+              { id: "b", text: "Alkenes" },
               { id: "c", text: "Alcohols" },
               { id: "d", text: "All organics" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1173,12 +1173,12 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Polymer from monomers" },
-              { id: "b", text: "Monomer" },
-              { id: "c", text: "Gas" },
-              { id: "d", text: "Liquid" },
+              { id: "a", text: "Monomer" },
+              { id: "b", text: "Gas" },
+              { id: "c", text: "Liquid" },
+              { id: "d", text: "Polymer from monomers" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1202,12 +1202,12 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Polymer + small molecule" },
-              { id: "b", text: "Only polymer" },
-              { id: "c", text: "Only monomer" },
-              { id: "d", text: "Gas" },
+              { id: "a", text: "Gas" },
+              { id: "b", text: "Polymer + small molecule" },
+              { id: "c", text: "Only polymer" },
+              { id: "d", text: "Only monomer" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1235,12 +1235,12 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Alcohol + carboxylic acid → ester + water" },
-              { id: "b", text: "Alcohol only" },
-              { id: "c", text: "Acid only" },
-              { id: "d", text: "No reaction" },
+              { id: "a", text: "No reaction" },
+              { id: "b", text: "Acid only" },
+              { id: "c", text: "Alcohol only" },
+              { id: "d", text: "Alcohol + carboxylic acid → ester + water" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1268,12 +1268,12 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Aldehyde then carboxylic acid" },
+              { id: "a", text: "Only acid" },
               { id: "b", text: "Only aldehyde" },
-              { id: "c", text: "Only acid" },
+              { id: "c", text: "Aldehyde then carboxylic acid" },
               { id: "d", text: "No change" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1301,12 +1301,12 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Nucleophile replaces leaving group" },
-              { id: "b", text: "Electrophile replaces" },
-              { id: "c", text: "No replacement" },
-              { id: "d", text: "Addition only" },
+              { id: "a", text: "No replacement" },
+              { id: "b", text: "Addition only" },
+              { id: "c", text: "Electrophile replaces" },
+              { id: "d", text: "Nucleophile replaces leaving group" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1334,12 +1334,12 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Electrophile replaces H on benzene" },
+              { id: "a", text: "Addition only" },
               { id: "b", text: "Nucleophile replaces" },
               { id: "c", text: "No replacement" },
-              { id: "d", text: "Addition only" },
+              { id: "d", text: "Electrophile replaces H on benzene" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1367,12 +1367,12 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Ethanol" },
-              { id: "b", text: "Ethanoic acid" },
+              { id: "a", text: "Ethanoic acid" },
+              { id: "b", text: "Ethanol" },
               { id: "c", text: "Ethane" },
               { id: "d", text: "Ethane" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1396,12 +1396,12 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "HX across C=C" },
-              { id: "b", text: "H₂" },
+              { id: "a", text: "H₂O" },
+              { id: "b", text: "HX across C=C" },
               { id: "c", text: "Br₂" },
-              { id: "d", text: "H₂O" },
+              { id: "d", text: "H₂" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1425,12 +1425,12 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Small molecule that joins to form polymer" },
-              { id: "b", text: "Large molecule" },
+              { id: "a", text: "Large molecule" },
+              { id: "b", text: "Small molecule that joins to form polymer" },
               { id: "c", text: "Polymer" },
               { id: "d", text: "No molecule" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1458,12 +1458,12 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Large molecule made of many monomers" },
+              { id: "a", text: "Monomer" },
               { id: "b", text: "Small molecule" },
-              { id: "c", text: "Monomer" },
+              { id: "c", text: "Large molecule made of many monomers" },
               { id: "d", text: "No molecule" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1493,8 +1493,8 @@ export const lesson34: Lesson = {
             choices: [
               { id: "a", text: "Ethene monomers" },
               { id: "b", text: "Ethane" },
-              { id: "c", text: "Ethanol" },
-              { id: "d", text: "Ethanoic acid" },
+              { id: "c", text: "Ethanoic acid" },
+              { id: "d", text: "Ethanol" },
             ],
             correctChoiceId: "a",
           },
@@ -1520,12 +1520,12 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Condensation polymer" },
-              { id: "b", text: "Addition polymer" },
+              { id: "a", text: "Addition polymer" },
+              { id: "b", text: "No polymer" },
               { id: "c", text: "Monomer" },
-              { id: "d", text: "No polymer" },
+              { id: "d", text: "Condensation polymer" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1549,12 +1549,12 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Addition polymer" },
+              { id: "a", text: "No polymer" },
               { id: "b", text: "Condensation polymer" },
-              { id: "c", text: "Monomer" },
-              { id: "d", text: "No polymer" },
+              { id: "c", text: "Addition polymer" },
+              { id: "d", text: "Monomer" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1576,12 +1576,12 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Group displaced in substitution" },
-              { id: "b", text: "Incoming group" },
-              { id: "c", text: "Catalyst" },
+              { id: "a", text: "Incoming group" },
+              { id: "b", text: "Catalyst" },
+              { id: "c", text: "Group displaced in substitution" },
               { id: "d", text: "Product only" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1739,12 +1739,12 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Ethanol + CO₂" },
-              { id: "b", text: "Methanol" },
+              { id: "a", text: "Methanol" },
+              { id: "b", text: "Ethanol + CO₂" },
               { id: "c", text: "Propane" },
               { id: "d", text: "No product" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1838,12 +1838,12 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Electron-rich species that donates electrons" },
-              { id: "b", text: "Electron-poor" },
-              { id: "c", text: "Neutral" },
-              { id: "d", text: "No charge" },
+              { id: "a", text: "Neutral" },
+              { id: "b", text: "No charge" },
+              { id: "c", text: "Electron-rich species that donates electrons" },
+              { id: "d", text: "Electron-poor" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

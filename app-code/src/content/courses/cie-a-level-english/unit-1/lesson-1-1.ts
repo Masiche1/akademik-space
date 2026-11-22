@@ -74,15 +74,15 @@ export const lesson211: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "The dictionary definition" },
+              { id: "b", text: "The number of syllables" },
               {
-                id: "a",
+                id: "c",
                 text: "The associations a word carries beyond its meaning",
               },
-              { id: "b", text: "The dictionary definition" },
-              { id: "c", text: "The spelling of a word" },
-              { id: "d", text: "The number of syllables" },
+              { id: "d", text: "The spelling of a word" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -357,9 +357,9 @@ export const lesson211: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Words that imitate sounds" },
-              { id: "b", text: "Repeated initial consonants" },
-              { id: "c", text: "A comparison using 'like'" },
-              { id: "d", text: "Giving human qualities to objects" },
+              { id: "b", text: "Giving human qualities to objects" },
+              { id: "c", text: "Repeated initial consonants" },
+              { id: "d", text: "A comparison using 'like'" },
             ],
             correctChoiceId: "a",
           },
@@ -421,12 +421,12 @@ export const lesson211: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Onomatopoeia" },
-              { id: "b", text: "Assonance" },
-              { id: "c", text: "Rhyme" },
+              { id: "a", text: "Rhyme" },
+              { id: "b", text: "Onomatopoeia" },
+              { id: "c", text: "Assonance" },
               { id: "d", text: "Caesura" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -589,10 +589,10 @@ export const lesson211: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "slender" },
+              { id: "a", text: "lean" },
               { id: "b", text: "skinny" },
-              { id: "c", text: "lean" },
-              { id: "d", text: "thin" },
+              { id: "c", text: "thin" },
+              { id: "d", text: "slender" },
             ],
             correctChoiceId: "b",
           },
@@ -818,12 +818,12 @@ export const lesson211: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The literal dictionary meaning of a word" },
-              { id: "b", text: "The emotional associations of a word" },
-              { id: "c", text: "The sound of a word" },
+              { id: "a", text: "The emotional associations of a word" },
+              { id: "b", text: "The sound of a word" },
+              { id: "c", text: "The literal dictionary meaning of a word" },
               { id: "d", text: "The origin of a word" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -970,9 +970,9 @@ export const lesson211: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Level of formality in language" },
-              { id: "b", text: "The writer's opinion" },
-              { id: "c", text: "The text's topic" },
-              { id: "d", text: "The text's length" },
+              { id: "b", text: "The text's length" },
+              { id: "c", text: "The writer's opinion" },
+              { id: "d", text: "The text's topic" },
             ],
             correctChoiceId: "a",
           },
@@ -1174,6 +1174,574 @@ export const lesson211: Lesson = {
             ],
             finalAnswer:
               "(a) formality (b) tense/formal (c) two features (d) register=audience",
+            levels: [
+              {
+                level: "Level 2",
+                marks: "1",
+                descriptor: "Correct.",
+                part: "a",
+              },
+              { level: "Level 1", marks: "0", descriptor: "Wrong.", part: "a" },
+              {
+                level: "Level 3",
+                marks: "2-3",
+                descriptor: "Tone justified.",
+                part: "b",
+              },
+              {
+                level: "Level 2",
+                marks: "1",
+                descriptor: "Tone only.",
+                part: "b",
+              },
+              { level: "Level 1", marks: "0", descriptor: "None.", part: "b" },
+              {
+                level: "Level 3",
+                marks: "2-3",
+                descriptor: "Two features linked.",
+                part: "c",
+              },
+              { level: "Level 2", marks: "1", descriptor: "One.", part: "c" },
+              { level: "Level 1", marks: "0", descriptor: "None.", part: "c" },
+              {
+                level: "Level 3",
+                marks: "2-3",
+                descriptor: "Audience link clear.",
+                part: "d",
+              },
+              {
+                level: "Level 2",
+                marks: "1",
+                descriptor: "Partial.",
+                part: "d",
+              },
+              { level: "Level 1", marks: "0", descriptor: "None.", part: "d" },
+            ],
+            commonErrors: ["Describing tone without textual evidence."],
+          },
+        },
+        {
+          id: "cial-e-u1-tr-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Which best describes an 'ironic' tone?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "The writer is excited" },
+              { id: "b", text: "The writer is angry" },
+              {
+                id: "c",
+                text: "The writer says the opposite of what they mean",
+              },
+              { id: "d", text: "The writer is sad" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Irony",
+                statement: "Saying or doing the opposite of what is meant.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Irony = gap between surface and intended meaning.",
+                marks: 1,
+                markCode: "AO1",
+              },
+            ],
+            finalAnswer: "**(a)** Saying the opposite of what is meant",
+            commonErrors: ["Confusing irony with simple criticism."],
+          },
+        },
+        {
+          id: "cial-e-u1-tr-q6",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "Read the extract and analyse its tone.",
+          extract: {
+            title: "The Letter",
+            author: "Written for Akademik Space",
+            text: "My dear Aunt Mabel, I write with the deepest regret. The wedding, as you know, coincided with a rather pressing family crisis — nothing serious, just the small matter of our dog eating three kilograms of your birthday cake. Yours, with undying affection, Tom.",
+          },
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Tone analysis",
+                statement: "Word choice, hyperbole and register reveal attitude.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "'Deepest regret', 'pressing family crisis', 'small matter' — mock-formal exaggeration.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning:
+                  "Undercutting 'three kilograms of cake' — playful, self-mocking tone.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "Tone: light-hearted, affectionate, gently ironic.",
+                marks: 1,
+                markCode: "AO3",
+              },
+            ],
+            finalAnswer:
+              "Playful, affectionate and mock-formal — humor through exaggerated apology.",
+            commonErrors: ["Missing the humor and reading it as genuinely apologetic."],
+          },
+        },
+        {
+          id: "cial-e-u1-tr-q7",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "What does 'register' signal about a text's intended audience?",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "skill",
+                name: "Register and audience",
+                statement: "Formality level reveals who the writer is addressing.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Formal register ('furthermore', 'one must') signals authority or officialdom.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "Informal register ('stuff', 'gonna') signals peers or intimacy.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "Register helps the reader infer purpose and audience.",
+                marks: 1,
+                markCode: "AO3",
+              },
+            ],
+            finalAnswer:
+              "Register signals whether the audience is official, expert, or familiar.",
+            commonErrors: ["Describing register without linking it to audience."],
+          },
+        },
+        {
+          id: "cial-e-u1-tr-q8",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Which sentence is in the MOST formal register?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "It kinda worked out okay." },
+              { id: "b", text: "The results were pretty good, honestly." },
+              {
+                id: "c",
+                text: "The results indicate a statistically significant improvement.",
+              },
+              { id: "d", text: "Things got better, basically." },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Formal register",
+                statement: "Technical vocabulary, complete sentences, no contractions.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "'Statistically significant' is technical, formal lexis.",
+                marks: 1,
+                markCode: "AO1",
+              },
+            ],
+            finalAnswer: "**(a)** The statistically significant sentence",
+            commonErrors: ["Ignoring contractions and colloquialisms."],
+          },
+        },
+        {
+          id: "cial-e-u1-tr-q9",
+          difficulty: "core",
+          totalMarks: 4,
+          stem: "Read the extract and analyse the shift in tone.",
+          extract: {
+            title: "The Announcement",
+            author: "Written for Akademik Space",
+            text: "The council has determined that the proposed development cannot proceed. Residents had gathered in considerable numbers, their patience visibly thinning with each postponement. When the decision was finally announced, one woman — Mrs Osei, who had waited four hours in the rain — let out a laugh that was not quite a laugh at all.",
+          },
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "skill",
+                name: "Tone shift",
+                statement: "Identify where tone changes and explain its effect.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "Opening is bureaucratic and detached ('has determined', 'cannot proceed').",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "Middle grows sympathetic ('patience visibly thinning', detail of waiting in rain).",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "Final image — laugh 'not quite a laugh' — bitter, ironic, defeated.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "Shift humanises the issue and conveys the residents' frustration.",
+                marks: 1,
+                markCode: "AO3",
+              },
+            ],
+            finalAnswer:
+              "Tone moves from bureaucratic detachment to bitter, ironic sympathy.",
+            commonErrors: ["Describing events instead of tracking the tone change."],
+          },
+        },
+        {
+          id: "cial-e-u1-tr-q10",
+          difficulty: "challenge",
+          totalMarks: 1,
+          stem: "A writer describes a rival's work as 'bold and original'. Which tone is most likely being conveyed?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Polite but dismissive irony" },
+              { id: "b", text: "Genuine praise" },
+              { id: "c", text: "Indifference" },
+              { id: "d", text: "Open hostility" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Tone through connotation",
+                statement: "Positive words can carry dismissive connotation.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "'Bold' and 'original' can imply eccentricity or pretension.",
+                marks: 1,
+                markCode: "AO2",
+              },
+            ],
+            finalAnswer: "**(b)** Polite but dismissive irony",
+            commonErrors: ["Reading positive adjectives as purely positive."],
+          },
+        },
+        {
+          id: "cial-e-u1-tr-q11",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "Explain how a writer can create an ominous tone.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "skill",
+                name: "Creating tone",
+                statement: "Lexis, imagery, rhythm and punctuation combine to signal menace.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Dark imagery: shadows, cold, decay, approaching threat.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "Slow, heavy rhythm and long sentences create suspense.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "Lexis of threat or unease ('looming', 'hollow', 'watched').",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "Coherent explanation linking choices to effect.",
+                marks: 1,
+                markCode: "AO3",
+              },
+            ],
+            finalAnswer:
+              "Ominous tone arises from threatening imagery, slow rhythm and uneasy lexis.",
+            commonErrors: ["Listing devices without explaining their ominous effect."],
+          },
+        },
+        {
+          id: "cial-e-u1-tr-q12",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "What does 'nostalgic' tone convey?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Fear of the future" },
+              { id: "b", text: "Longing for the past" },
+              { id: "c", text: "Anger at the present" },
+              { id: "d", text: "Neutral observation" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Nostalgic tone",
+                statement: "A wistful longing for times gone by.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Nostalgia = fond remembrance of the past.",
+                marks: 1,
+                markCode: "AO1",
+              },
+            ],
+            finalAnswer: "**(a)** Longing for the past",
+            commonErrors: ["Confusing nostalgia with sadness alone."],
+          },
+        },
+        {
+          id: "cial-e-u1-tr-q13",
+          difficulty: "challenge",
+          totalMarks: 5,
+          stem: "Analyse how tone and register work together in this extract.",
+          extract: {
+            title: "The Village",
+            author: "Written for Akademik Space",
+            text: "Dear Residents, pursuant to the recent review of the village green, it has been decided that the swings shall remain. We are aware that some parties expressed concerns regarding safety. However, the committee is of the view that the facility provides considerable benefit to the community. The swings will therefore be reinstated next Monday. Yours faithfully, The Parish Council.",
+          },
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "skill",
+                name: "Tone and register",
+                statement: "Formal register + bureaucratic tone = detached authority.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Highly formal register throughout ('pursuant to', 'it has been decided', 'Yours faithfully').",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "Passive constructions and committee voice distance the decision from individuals.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "Tone: impersonal, procedural, slightly defensive ('some parties expressed concerns').",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "The pair signals institutional authority and minimal accountability.",
+                marks: 1,
+                markCode: "AO3",
+              },
+              {
+                reasoning: "Well-evidenced, coherent analysis.",
+                marks: 1,
+                markCode: "AO3",
+              },
+            ],
+            finalAnswer:
+              "Formal, impersonal register and bureaucratic tone convey detached institutional authority.",
+            commonErrors: ["Analysing tone and register separately without showing how they interact."],
+          },
+        },
+        {
+          id: "cial-e-u1-tr-q14",
+          difficulty: "challenge",
+          totalMarks: 1,
+          stem: "Which tone best fits the phrase 'a most peculiar coincidence, don't you think?'",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Warmly approving" },
+              { id: "b", text: "Genuinely surprised" },
+              { id: "c", text: "Terrified" },
+              { id: "d", text: "Sceptical and ironic" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Tone identification",
+                statement: "Euphemistic phrasing often masks doubt or irony.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "'Peculiar' + rhetorical 'don't you think' signals scepticism.",
+                marks: 1,
+                markCode: "AO2",
+              },
+            ],
+            finalAnswer: "**(a)** Sceptical and ironic",
+            commonErrors: ["Taking 'don't you think' literally."],
+          },
+        },
+        {
+          id: "cial-e-u1-tr-q15",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "Name three factors that help a reader identify a text's tone.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "skill",
+                name: "Identifying tone",
+                statement: "Multiple linguistic features combine to signal attitude.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Word connotation and emotive lexis.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                reasoning: "Sentence length, rhythm and punctuation.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                reasoning: "Imagery choices and any tone shifts.",
+                marks: 1,
+                markCode: "AO1",
+              },
+            ],
+            finalAnswer:
+              "Lexis, sentence structure/punctuation, and imagery (plus tone shifts).",
+            commonErrors: ["Listing only one factor."],
+          },
+        },
+        {
+          id: "cial-e-u1-tr-q16",
+          difficulty: "challenge",
+          totalMarks: 10,
+          stem: "Tone and register.",
+          parts: [
+            { label: "a", prompt: "Define 'tone'.", marks: 1 },
+            {
+              label: "b",
+              prompt:
+                "Identify the tone of the extract: 'Dear Residents, pursuant to the recent review... Yours faithfully, The Parish Council.'",
+              marks: 3,
+            },
+            {
+              label: "c",
+              prompt: "Give two features that create this tone.",
+              marks: 3,
+            },
+            {
+              label: "d",
+              prompt: "Explain how register signals audience.",
+              marks: 3,
+            },
+          ],
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "skill",
+                name: "Tone/register",
+                statement: "Definition+identification+features+audience link.",
+              },
+            ],
+            steps: [
+              {
+                part: "a",
+                reasoning: "The writer's attitude toward subject and reader.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                part: "b",
+                reasoning: "Bureaucratic, impersonal, formal.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                part: "b",
+                reasoning: "Supported by 'pursuant to', passive voice, 'Yours faithfully'.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                part: "b",
+                reasoning: "Clear tone.",
+                marks: 1,
+                markCode: "AO3",
+              },
+              {
+                part: "c",
+                reasoning: "Any two of: passive constructions, formal lexis, committee voice, formulaic closing.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                part: "c",
+                reasoning: "Features linked to tone.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              { part: "c", reasoning: "Accurate.", marks: 1, markCode: "AO3" },
+              {
+                part: "d",
+                reasoning: "Formality level signals intended reader.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                part: "d",
+                reasoning: "Formal=official audience; informal=peer audience.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                part: "d",
+                reasoning: "Clear link.",
+                marks: 1,
+                markCode: "AO3",
+              },
+            ],
+            finalAnswer:
+              "(a) attitude (b) bureaucratic/impersonal (c) two features (d) register=audience",
             levels: [
               {
                 level: "Level 2",

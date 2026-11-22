@@ -58,8 +58,8 @@ export const lesson13: Lesson = {
             choices: [
               { id: "a", text: "The technical quality of a video" },
               { id: "b", text: "The angle or perspective through which an event is presented" },
-              { id: "c", text: "The number of facts included" },
-              { id: "d", text: "The length of a headline" },
+              { id: "c", text: "The length of a headline" },
+              { id: "d", text: "The number of facts included" },
             ],
             correctChoiceId: "b",
           },
@@ -173,12 +173,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The literal meaning of every word" },
-              { id: "b", text: "The underlying meaning or attitude beneath the surface text" },
-              { id: "c", text: "The font size used in a headline" },
+              { id: "a", text: "The underlying meaning or attitude beneath the surface text" },
+              { id: "b", text: "The font size used in a headline" },
+              { id: "c", text: "The literal meaning of every word" },
               { id: "d", text: "A direct quotation from a source" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -201,11 +201,11 @@ export const lesson13: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Literal description" },
-              { id: "b", text: "Understatement" },
+              { id: "b", text: "Neutral reporting" },
               { id: "c", text: "Direct quotation" },
-              { id: "d", text: "Neutral reporting" },
+              { id: "d", text: "Understatement" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -233,9 +233,9 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Headline A" },
+              { id: "a", text: "Both equally" },
               { id: "b", text: "Headline B" },
-              { id: "c", text: "Both equally" },
+              { id: "c", text: "Headline A" },
               { id: "d", text: "Neither — both are neutral" },
             ],
             correctChoiceId: "b",
@@ -321,8 +321,8 @@ export const lesson13: Lesson = {
             choices: [
               { id: "a", text: "Genuine admiration" },
               { id: "b", text: "Ironic criticism of the excuse" },
-              { id: "c", text: "Confusion about the delay" },
-              { id: "d", text: "Support for the minister's actions" },
+              { id: "c", text: "Support for the minister's actions" },
+              { id: "d", text: "Confusion about the delay" },
             ],
             correctChoiceId: "b",
           },
@@ -431,12 +431,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Nothing — omissions are always accidental" },
-              { id: "b", text: "The framing may privilege official or perpetrator perspectives" },
+              { id: "a", text: "The framing may privilege official or perpetrator perspectives" },
+              { id: "b", text: "The victims had nothing to say" },
               { id: "c", text: "The report is guaranteed to be false" },
-              { id: "d", text: "The victims had nothing to say" },
+              { id: "d", text: "Nothing — omissions are always accidental" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -501,12 +501,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The praise is fully independent" },
-              { id: "b", text: "The praise may be compromised by a conflict of interest" },
-              { id: "c", text: "The editorial is neutral reporting" },
-              { id: "d", text: "The plan is definitely flawless" },
+              { id: "a", text: "The editorial is neutral reporting" },
+              { id: "b", text: "The plan is definitely flawless" },
+              { id: "c", text: "The praise is fully independent" },
+              { id: "d", text: "The praise may be compromised by a conflict of interest" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -559,12 +559,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Because gestures are always random" },
-              { id: "b", text: "Because culture, history and social norms shape interpretation" },
+              { id: "a", text: "Because culture, history and social norms shape interpretation" },
+              { id: "b", text: "Because gestures cannot be observed" },
               { id: "c", text: "Because language is irrelevant" },
-              { id: "d", text: "Because gestures cannot be observed" },
+              { id: "d", text: "Because gestures are always random" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -676,12 +676,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Because cultures have no differences" },
-              { id: "b", text: "Because it overgeneralises a diverse group" },
-              { id: "c", text: "Because Japanese culture cannot be discussed" },
-              { id: "d", text: "Because 'everyone' is always grammatically wrong" },
+              { id: "a", text: "Because it overgeneralises a diverse group" },
+              { id: "b", text: "Because cultures have no differences" },
+              { id: "c", text: "Because 'everyone' is always grammatically wrong" },
+              { id: "d", text: "Because Japanese culture cannot be discussed" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -703,12 +703,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "In this culture, people always do X." },
-              { id: "b", text: "In some contexts, people may do X." },
+              { id: "a", text: "In some contexts, people may do X." },
+              { id: "b", text: "It is natural that everyone does X." },
               { id: "c", text: "All members of the group do X." },
-              { id: "d", text: "It is natural that everyone does X." },
+              { id: "d", text: "In this culture, people always do X." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -736,10 +736,10 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The students did not understand the language" },
+              { id: "a", text: "The teacher asked no question" },
               { id: "b", text: "The students were following the norm of waiting to be invited" },
               { id: "c", text: "The students were deliberately rude" },
-              { id: "d", text: "The teacher asked no question" },
+              { id: "d", text: "The students did not understand the language" },
             ],
             correctChoiceId: "b",
           },
@@ -824,8 +824,8 @@ export const lesson13: Lesson = {
             choices: [
               { id: "a", text: "Statement A" },
               { id: "b", text: "Statement B" },
-              { id: "c", text: "Both equally" },
-              { id: "d", text: "Neither can be written" },
+              { id: "c", text: "Neither can be written" },
+              { id: "d", text: "Both equally" },
             ],
             correctChoiceId: "b",
           },
@@ -934,12 +934,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Culture A is formal; Culture B is warm." },
-              { id: "b", text: "Similarity + difference + possible reason + limit" },
-              { id: "c", text: "A list of stereotypes about each culture" },
-              { id: "d", text: "A single sentence about one culture only" },
+              { id: "a", text: "A single sentence about one culture only" },
+              { id: "b", text: "A list of stereotypes about each culture" },
+              { id: "c", text: "Culture A is formal; Culture B is warm." },
+              { id: "d", text: "Similarity + difference + possible reason + limit" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1003,12 +1003,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It is longer" },
-              { id: "b", text: "It avoids an absolute generalisation about a whole country" },
-              { id: "c", text: "It uses more difficult vocabulary" },
-              { id: "d", text: "It agrees with every reader" },
+              { id: "a", text: "It uses more difficult vocabulary" },
+              { id: "b", text: "It agrees with every reader" },
+              { id: "c", text: "It is longer" },
+              { id: "d", text: "It avoids an absolute generalisation about a whole country" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

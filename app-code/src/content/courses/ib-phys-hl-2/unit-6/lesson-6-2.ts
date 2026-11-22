@@ -94,12 +94,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A proton + electron + antineutrino" },
-              { id: "b", text: "A proton + positron" },
+              { id: "a", text: "A gamma photon" },
+              { id: "b", text: "A proton + electron + antineutrino" },
               { id: "c", text: "An alpha particle" },
-              { id: "d", text: "A gamma photon" },
+              { id: "d", text: "A proton + positron" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -316,9 +316,9 @@ export const lesson62: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$A$ reduced by 4 and $Z$ reduced by 2" },
-              { id: "b", text: "$A$ unchanged and $Z$ increased by 1" },
+              { id: "b", text: "$A$ and $Z$ both unchanged" },
               { id: "c", text: "$A$ reduced by 2 and $Z$ unchanged" },
-              { id: "d", text: "$A$ and $Z$ both unchanged" },
+              { id: "d", text: "$A$ unchanged and $Z$ increased by 1" },
             ],
             correctChoiceId: "a",
           },
@@ -359,11 +359,11 @@ export const lesson62: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "A positron and a neutrino" },
-              { id: "b", text: "An electron and an antineutrino" },
-              { id: "c", text: "A helium nucleus" },
-              { id: "d", text: "Only a gamma photon" },
+              { id: "b", text: "A helium nucleus" },
+              { id: "c", text: "Only a gamma photon" },
+              { id: "d", text: "An electron and an antineutrino" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -401,12 +401,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$A$ and $Z$ change" },
-              { id: "b", text: "$A$ and $Z$ are unchanged" },
-              { id: "c", text: "$Z$ decreases by 2" },
-              { id: "d", text: "$A$ decreases by 4" },
+              { id: "a", text: "$A$ decreases by 4" },
+              { id: "b", text: "$Z$ decreases by 2" },
+              { id: "c", text: "$A$ and $Z$ are unchanged" },
+              { id: "d", text: "$A$ and $Z$ change" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -445,14 +445,14 @@ export const lesson62: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Emits a positron" },
+              { id: "b", text: "Increases its mass number" },
+              { id: "c", text: "Emits an alpha particle" },
               {
-                id: "b",
+                id: "d",
                 text: "Absorbs an inner electron and emits a neutrino",
               },
-              { id: "c", text: "Emits an alpha particle" },
-              { id: "d", text: "Increases its mass number" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -491,12 +491,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Alpha decay" },
-              { id: "b", text: "Beta-minus decay" },
-              { id: "c", text: "Beta-plus decay" },
-              { id: "d", text: "Gamma decay" },
+              { id: "a", text: "Beta-plus decay" },
+              { id: "b", text: "Gamma decay" },
+              { id: "c", text: "Alpha decay" },
+              { id: "d", text: "Beta-minus decay" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -866,12 +866,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Time for half the nuclei to decay" },
-              { id: "b", text: "Time for all nuclei to decay" },
-              { id: "c", text: "Time for activity to double" },
-              { id: "d", text: "Time for half the energy to release" },
+              { id: "a", text: "Time for half the energy to release" },
+              { id: "b", text: "Time for activity to double" },
+              { id: "c", text: "Time for half the nuclei to decay" },
+              { id: "d", text: "Time for all nuclei to decay" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1081,15 +1081,15 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The time taken for half the nuclei to decay" },
+              { id: "a", text: "The total number of decays per second" },
+              { id: "b", text: "The time taken for half the nuclei to decay" },
               {
-                id: "b",
+                id: "c",
                 text: "The probability of decay per unit time for each nucleus",
               },
-              { id: "c", text: "The total number of decays per second" },
               { id: "d", text: "The energy released per decay" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1128,12 +1128,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "One decay per second" },
-              { id: "b", text: "One decay per minute" },
-              { id: "c", text: "One nucleus remaining" },
-              { id: "d", text: "One joule of decay energy" },
+              { id: "a", text: "One nucleus remaining" },
+              { id: "b", text: "One joule of decay energy" },
+              { id: "c", text: "One decay per second" },
+              { id: "d", text: "One decay per minute" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1171,12 +1171,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$A=\\lambda N$" },
-              { id: "b", text: "$A=N/\\lambda$" },
+              { id: "a", text: "$A=N/\\lambda$" },
+              { id: "b", text: "$A=\\lambda N$" },
               { id: "c", text: "$A=\\lambda/N$" },
               { id: "d", text: "$A=N_0-N$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1214,8 +1214,8 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$n/2$" },
-              { id: "b", text: "$1/(2n)$" },
+              { id: "a", text: "$1/(2n)$" },
+              { id: "b", text: "$n/2$" },
               { id: "c", text: "$1/2^n$" },
               { id: "d", text: "$e^{-nt_{1/2}}$" },
             ],
@@ -1258,14 +1258,14 @@ export const lesson62: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "It works only on living organisms" },
+              { id: "b", text: "It requires a magnetic field" },
               {
-                id: "b",
+                id: "c",
                 text: "Its half-life makes it unreliable beyond roughly 50 000 years",
               },
-              { id: "c", text: "It requires a magnetic field" },
               { id: "d", text: "It can date rocks older than the Earth" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

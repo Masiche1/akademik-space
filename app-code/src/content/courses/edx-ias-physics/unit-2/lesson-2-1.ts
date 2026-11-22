@@ -51,10 +51,10 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "v = f/λ" },
+              { id: "a", text: "v = λ/f" },
               { id: "b", text: "v = fλ" },
-              { id: "c", text: "v = λ/f" },
-              { id: "d", text: "v = f+λ" },
+              { id: "c", text: "v = f+λ" },
+              { id: "d", text: "v = f/λ" },
             ],
             correctChoiceId: "b",
           },
@@ -169,11 +169,11 @@ export const lesson21: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Gamma" },
-              { id: "b", text: "X-ray" },
-              { id: "c", text: "Radio" },
+              { id: "b", text: "Radio" },
+              { id: "c", text: "X-ray" },
               { id: "d", text: "Visible" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "EM spectrum", statement: "Radio longest, gamma shortest." }],

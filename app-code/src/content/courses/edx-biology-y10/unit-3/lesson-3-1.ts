@@ -56,11 +56,11 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Ethanol" },
-              { id: "b", text: "Lactic acid" },
-              { id: "c", text: "Carbon dioxide and water" },
+              { id: "b", text: "Carbon dioxide and water" },
+              { id: "c", text: "Lactic acid" },
               { id: "d", text: "Glucose" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -190,12 +190,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It absorbs oxygen so that the organisms cannot respire" },
-              { id: "b", text: "It absorbs carbon dioxide so that the volume change is due to oxygen uptake only" },
+              { id: "a", text: "It absorbs carbon dioxide so that the volume change is due to oxygen uptake only" },
+              { id: "b", text: "It absorbs oxygen so that the organisms cannot respire" },
               { id: "c", text: "It releases oxygen for the organisms to use" },
               { id: "d", text: "It keeps the seeds moist" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

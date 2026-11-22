@@ -59,8 +59,8 @@ export const lesson31: Lesson = {
             choices: [
               { id: "a", text: "Glucose and oxygen" },
               { id: "b", text: "Carbon dioxide and water" },
-              { id: "c", text: "Oxygen only" },
-              { id: "d", text: "Starch and protein" },
+              { id: "c", text: "Starch and protein" },
+              { id: "d", text: "Oxygen only" },
             ],
             correctChoiceId: "a",
           },
@@ -86,8 +86,8 @@ export const lesson31: Lesson = {
             choices: [
               { id: "a", text: "Absorbs light energy to drive photosynthesis" },
               { id: "b", text: "Stores glucose" },
-              { id: "c", text: "Transports water" },
-              { id: "d", text: "Protects leaf from insects" },
+              { id: "c", text: "Protects leaf from insects" },
+              { id: "d", text: "Transports water" },
             ],
             correctChoiceId: "a",
           },
@@ -112,12 +112,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Broad = large surface area to capture light; thin = short diffusion distance for gases" },
-              { id: "b", text: "Thin leaves use less water" },
+              { id: "a", text: "Thin = more chlorophyll" },
+              { id: "b", text: "Broad = large surface area to capture light; thin = short diffusion distance for gases" },
               { id: "c", text: "Broad leaves are heavier" },
-              { id: "d", text: "Thin = more chlorophyll" },
+              { id: "d", text: "Thin leaves use less water" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -171,12 +171,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Mitochondria" },
-              { id: "b", text: "Chloroplasts" },
+              { id: "a", text: "Cell wall" },
+              { id: "b", text: "Mitochondria" },
               { id: "c", text: "Nucleus" },
-              { id: "d", text: "Cell wall" },
+              { id: "d", text: "Chloroplasts" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -198,12 +198,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Carbon dioxide, water and light energy" },
-              { id: "b", text: "Glucose and oxygen" },
-              { id: "c", text: "Oxygen and water" },
+              { id: "a", text: "Oxygen and water" },
+              { id: "b", text: "Carbon dioxide, water and light energy" },
+              { id: "c", text: "Glucose and oxygen" },
               { id: "d", text: "Glucose and carbon dioxide" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -226,12 +226,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Light energy splits water molecules (photolysis), releasing O₂ as a byproduct" },
-              { id: "b", text: "Oxygen is a waste product of respiration" },
-              { id: "c", text: "Plants absorb CO₂ and release O₂ to balance air" },
+              { id: "a", text: "Plants absorb CO₂ and release O₂ to balance air" },
+              { id: "b", text: "Light energy splits water molecules (photolysis), releasing O₂ as a byproduct" },
+              { id: "c", text: "Oxygen is a waste product of respiration" },
               { id: "d", text: "Oxygen is stored in chlorophyll" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -467,12 +467,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Another factor (CO₂ concentration, temperature or enzyme availability) becomes limiting" },
-              { id: "b", text: "Chlorophyll is used up" },
-              { id: "c", text: "Leaves close their stomata permanently" },
+              { id: "a", text: "Chlorophyll is used up" },
+              { id: "b", text: "Leaves close their stomata permanently" },
+              { id: "c", text: "Another factor (CO₂ concentration, temperature or enzyme availability) becomes limiting" },
               { id: "d", text: "Glucose inhibits the reaction" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -529,9 +529,9 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Mitochondria" },
-              { id: "b", text: "Nucleus" },
-              { id: "c", text: "Ribosome" },
-              { id: "d", text: "Chloroplast" },
+              { id: "b", text: "Ribosome" },
+              { id: "c", text: "Chloroplast" },
+              { id: "d", text: "Nucleus" },
             ],
             correctChoiceId: "a",
           },
@@ -555,12 +555,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Ethanol and carbon dioxide" },
-              { id: "b", text: "Lactic acid" },
+              { id: "a", text: "Lactic acid" },
+              { id: "b", text: "Ethanol and carbon dioxide" },
               { id: "c", text: "Water and oxygen" },
               { id: "d", text: "Glucose" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -585,8 +585,8 @@ export const lesson31: Lesson = {
             choices: [
               { id: "a", text: "Aerobic: uses O₂, ~36 ATP, CO₂+water; anaerobic: no O₂, ~2 ATP, lactic acid or ethanol+CO₂" },
               { id: "b", text: "Both are identical" },
-              { id: "c", text: "Anaerobic produces more ATP" },
-              { id: "d", text: "Aerobic produces lactic acid" },
+              { id: "c", text: "Aerobic produces lactic acid" },
+              { id: "d", text: "Anaerobic produces more ATP" },
             ],
             correctChoiceId: "a",
           },
@@ -644,8 +644,8 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "ATP (energy)" },
-              { id: "b", text: "Glucose" },
-              { id: "c", text: "Oxygen" },
+              { id: "b", text: "Oxygen" },
+              { id: "c", text: "Glucose" },
               { id: "d", text: "Starch" },
             ],
             correctChoiceId: "a",
@@ -670,12 +670,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Ethanol and carbon dioxide" },
+              { id: "a", text: "Glucose" },
               { id: "b", text: "Lactic acid only" },
               { id: "c", text: "Water and oxygen" },
-              { id: "d", text: "Glucose" },
+              { id: "d", text: "Ethanol and carbon dioxide" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -699,9 +699,9 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Photosynthesis uses CO₂ + H₂O to make glucose + O₂; respiration uses glucose + O₂ to make CO₂ + H₂O + energy" },
-              { id: "b", text: "They occur in the same organelle" },
-              { id: "c", text: "They produce identical products" },
-              { id: "d", text: "They both need light" },
+              { id: "b", text: "They both need light" },
+              { id: "c", text: "They occur in the same organelle" },
+              { id: "d", text: "They produce identical products" },
             ],
             correctChoiceId: "a",
           },
@@ -939,12 +939,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Respiration occurs in mitochondria continuously to release ATP needed for cell maintenance, growth and repair — it does not need light" },
-              { id: "b", text: "Plants respire only when photosynthesis stops" },
-              { id: "c", text: "Darkness triggers respiration" },
-              { id: "d", text: "Respiration is optional for plants" },
+              { id: "a", text: "Respiration is optional for plants" },
+              { id: "b", text: "Darkness triggers respiration" },
+              { id: "c", text: "Respiration occurs in mitochondria continuously to release ATP needed for cell maintenance, growth and repair — it does not need light" },
+              { id: "d", text: "Plants respire only when photosynthesis stops" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

@@ -52,12 +52,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "To translate every word accurately" },
-              { id: "b", text: "To find the gist or main idea quickly" },
+              { id: "a", text: "To find the gist or main idea quickly" },
+              { id: "b", text: "To count the number of paragraphs" },
               { id: "c", text: "To memorise the text for later" },
-              { id: "d", text: "To count the number of paragraphs" },
+              { id: "d", text: "To translate every word accurately" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -152,12 +152,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Read every sentence from the beginning" },
-              { id: "b", text: "Search for time expressions, numbers and clock words" },
-              { id: "c", text: "Translate the title into your first language" },
+              { id: "a", text: "Translate the title into your first language" },
+              { id: "b", text: "Read every sentence from the beginning" },
+              { id: "c", text: "Search for time expressions, numbers and clock words" },
               { id: "d", text: "Count the number of paragraphs" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -179,12 +179,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Translate the title, then read every paragraph slowly" },
-              { id: "b", text: "Read title and headings, sample first and last sentences, then scan for details" },
-              { id: "c", text: "Memorise the first paragraph before looking at the title" },
-              { id: "d", text: "Answer all questions before reading the text" },
+              { id: "a", text: "Memorise the first paragraph before looking at the title" },
+              { id: "b", text: "Answer all questions before reading the text" },
+              { id: "c", text: "Read title and headings, sample first and last sentences, then scan for details" },
+              { id: "d", text: "Translate the title, then read every paragraph slowly" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -206,12 +206,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Skim headings and topic sentences to locate the argument" },
-              { id: "b", text: "Scan only for dates and numbers" },
+              { id: "a", text: "Scan only for dates and numbers" },
+              { id: "b", text: "Skim headings and topic sentences to locate the argument" },
               { id: "c", text: "Read the bibliography carefully" },
               { id: "d", text: "Ignore the introduction completely" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -233,10 +233,10 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Ignore it because it is repeated" },
+              { id: "a", text: "Skip the text because one word is unknown" },
               { id: "b", text: "Treat it as important, infer from context and cognates, then verify" },
               { id: "c", text: "Translate every sentence containing it immediately" },
-              { id: "d", text: "Skip the text because one word is unknown" },
+              { id: "d", text: "Ignore it because it is repeated" },
             ],
             correctChoiceId: "b",
           },
@@ -262,9 +262,9 @@ export const lesson11: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "They provide a map of the topic and help predict likely vocabulary" },
-              { id: "b", text: "They replace the need to read any paragraph" },
-              { id: "c", text: "They are always written in the simplest language" },
-              { id: "d", text: "They guarantee every detail answer" },
+              { id: "b", text: "They guarantee every detail answer" },
+              { id: "c", text: "They replace the need to read any paragraph" },
+              { id: "d", text: "They are always written in the simplest language" },
             ],
             correctChoiceId: "a",
           },
@@ -289,12 +289,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Assume the answer is not in the text" },
-              { id: "b", text: "Scan for synonyms, cognates, numbers or related time expressions" },
+              { id: "a", text: "Scan for synonyms, cognates, numbers or related time expressions" },
+              { id: "b", text: "Assume the answer is not in the text" },
               { id: "c", text: "Choose the first sentence of the text" },
               { id: "d", text: "Translate the whole text into your first language" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -408,12 +408,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A gist question about the writer's opinion" },
-              { id: "b", text: "A detail question requiring one specific fact" },
-              { id: "c", text: "A vocabulary question about word families" },
-              { id: "d", text: "A production task requiring an essay" },
+              { id: "a", text: "A detail question requiring one specific fact" },
+              { id: "b", text: "A vocabulary question about word families" },
+              { id: "c", text: "A production task requiring an essay" },
+              { id: "d", text: "A gist question about the writer's opinion" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -522,12 +522,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A printed headline" },
-              { id: "b", text: "To, From and Subject lines" },
+              { id: "a", text: "Chapter headings" },
+              { id: "b", text: "A printed headline" },
               { id: "c", text: "A bibliography" },
-              { id: "d", text: "Chapter headings" },
+              { id: "d", text: "To, From and Subject lines" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -622,12 +622,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "To name the author" },
-              { id: "b", text: "To attract attention and signal the topic" },
-              { id: "c", text: "To list all the facts in the article" },
-              { id: "d", text: "To replace the introduction" },
+              { id: "a", text: "To attract attention and signal the topic" },
+              { id: "b", text: "To list all the facts in the article" },
+              { id: "c", text: "To replace the introduction" },
+              { id: "d", text: "To name the author" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -649,12 +649,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It shows the sender's home address" },
-              { id: "b", text: "It reveals the email's purpose before the body" },
-              { id: "c", text: "It replaces the greeting" },
-              { id: "d", text: "It proves the email is formal" },
+              { id: "a", text: "It reveals the email's purpose before the body" },
+              { id: "b", text: "It proves the email is formal" },
+              { id: "c", text: "It shows the sender's home address" },
+              { id: "d", text: "It replaces the greeting" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -676,12 +676,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A subject line" },
-              { id: "b", text: "Abbreviations, omissions and casual punctuation" },
-              { id: "c", text: "A formal sign-off" },
-              { id: "d", text: "Complete paragraphs" },
+              { id: "a", text: "A formal sign-off" },
+              { id: "b", text: "A subject line" },
+              { id: "c", text: "Complete paragraphs" },
+              { id: "d", text: "Abbreviations, omissions and casual punctuation" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -703,12 +703,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A headline, byline and personal anecdotes" },
-              { id: "b", text: "An introduction, headed sections, facts and a conclusion or recommendations" },
+              { id: "a", text: "An introduction, headed sections, facts and a conclusion or recommendations" },
+              { id: "b", text: "A headline, byline and personal anecdotes" },
               { id: "c", text: "Only emojis and abbreviations" },
               { id: "d", text: "A greeting and sign-off only" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -731,10 +731,10 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Lowercase abbreviations and emojis" },
+              { id: "a", text: "Numbered findings and data tables only" },
               { id: "b", text: "A formal opening such as 'Dear Sir or Madam' and a formal closing such as 'Yours faithfully'" },
-              { id: "c", text: "A subject field and casual greeting" },
-              { id: "d", text: "Numbered findings and data tables only" },
+              { id: "c", text: "Lowercase abbreviations and emojis" },
+              { id: "d", text: "A subject field and casual greeting" },
             ],
             correctChoiceId: "b",
           },
@@ -759,12 +759,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A casual text message" },
-              { id: "b", text: "A formal letter or formal email" },
+              { id: "a", text: "A formal letter or formal email" },
+              { id: "b", text: "A personal diary entry" },
               { id: "c", text: "A short social media post" },
-              { id: "d", text: "A personal diary entry" },
+              { id: "d", text: "A casual text message" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -896,12 +896,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A byline naming the author" },
-              { id: "b", text: "A Subject line" },
-              { id: "c", text: "A sign-off" },
-              { id: "d", text: "A greeting to a named person" },
+              { id: "a", text: "A greeting to a named person" },
+              { id: "b", text: "A byline naming the author" },
+              { id: "c", text: "A Subject line" },
+              { id: "d", text: "A sign-off" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [

@@ -50,12 +50,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Friction between a shoe and the floor" },
-              { id: "b", text: "Tension in a rope" },
-              { id: "c", text: "The force between two magnets" },
-              { id: "d", text: "Air resistance on a falling leaf" },
+              { id: "a", text: "Tension in a rope" },
+              { id: "b", text: "The force between two magnets" },
+              { id: "c", text: "Air resistance on a falling leaf" },
+              { id: "d", text: "Friction between a shoe and the floor" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -183,12 +183,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\text{speed}=\\text{distance}\\times\\text{time}$" },
-              { id: "b", text: "$\\text{speed}=\\dfrac{\\text{time}}{\\text{distance}}$" },
-              { id: "c", text: "$\\text{speed}=\\dfrac{\\text{distance}}{\\text{time}}$" },
-              { id: "d", text: "$\\text{speed}=\\text{distance}+\\text{time}$" },
+              { id: "a", text: "$\\text{speed}=\\dfrac{\\text{time}}{\\text{distance}}$" },
+              { id: "b", text: "$\\text{speed}=\\text{distance}\\times\\text{time}$" },
+              { id: "c", text: "$\\text{speed}=\\text{distance}+\\text{time}$" },
+              { id: "d", text: "$\\text{speed}=\\dfrac{\\text{distance}}{\\text{time}}$" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [

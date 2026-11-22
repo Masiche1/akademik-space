@@ -54,12 +54,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Prophase I" },
-              { id: "b", text: "Metaphase II" },
+              { id: "a", text: "Metaphase II" },
+              { id: "b", text: "Telophase II" },
               { id: "c", text: "Anaphase I" },
-              { id: "d", text: "Telophase II" },
+              { id: "d", text: "Prophase I" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -158,12 +158,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Pairing and crossing over of homologous chromosomes" },
+              { id: "a", text: "Division of the cytoplasm" },
               { id: "b", text: "Separation of sister chromatids" },
               { id: "c", text: "Alignment of chromosomes at the equator" },
-              { id: "d", text: "Division of the cytoplasm" },
+              { id: "d", text: "Pairing and crossing over of homologous chromosomes" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -186,12 +186,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "carry the same genes at the same loci but may carry different alleles" },
+              { id: "a", text: "always carry identical alleles" },
               { id: "b", text: "are identical copies joined at the centromere" },
               { id: "c", text: "are found only in gametes" },
-              { id: "d", text: "always carry identical alleles" },
+              { id: "d", text: "carry the same genes at the same loci but may carry different alleles" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -214,12 +214,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "sister chromatids" },
-              { id: "b", text: "homologous chromosomes" },
+              { id: "a", text: "homologous chromosomes" },
+              { id: "b", text: "centromeres" },
               { id: "c", text: "non-sister chromatids" },
-              { id: "d", text: "centromeres" },
+              { id: "d", text: "sister chromatids" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -242,12 +242,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "all four products of the meiosis" },
-              { id: "b", text: "only two of the four products" },
-              { id: "c", text: "none of the resulting gametes" },
-              { id: "d", text: "only the egg cells, never sperm" },
+              { id: "a", text: "only two of the four products" },
+              { id: "b", text: "all four products of the meiosis" },
+              { id: "c", text: "only the egg cells, never sperm" },
+              { id: "d", text: "none of the resulting gametes" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -270,12 +270,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "assort independently, as if located on different chromosomes" },
-              { id: "b", text: "are tightly linked on the same chromosome" },
-              { id: "c", text: "are located very close together on one chromosome" },
-              { id: "d", text: "cannot possibly be on the same chromosome" },
+              { id: "a", text: "cannot possibly be on the same chromosome" },
+              { id: "b", text: "are located very close together on one chromosome" },
+              { id: "c", text: "assort independently, as if located on different chromosomes" },
+              { id: "d", text: "are tightly linked on the same chromosome" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -299,9 +299,9 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$23$" },
-              { id: "b", text: "$46$" },
-              { id: "c", text: "$22$" },
-              { id: "d", text: "$24$" },
+              { id: "b", text: "$24$" },
+              { id: "c", text: "$46$" },
+              { id: "d", text: "$22$" },
             ],
             correctChoiceId: "a",
           },
@@ -590,12 +590,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A phenotype expressing both alleles equally" },
-              { id: "b", text: "A phenotype identical to one homozygote" },
+              { id: "a", text: "A phenotype identical to one homozygote" },
+              { id: "b", text: "No phenotype" },
               { id: "c", text: "A phenotype that is an intermediate blend of the two" },
-              { id: "d", text: "No phenotype" },
+              { id: "d", text: "A phenotype expressing both alleles equally" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -691,12 +691,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "linked genes on the same chromosome are inherited together unless crossing over separates them" },
-              { id: "b", text: "crossing over occurs during every single meiosis" },
-              { id: "c", text: "the genes assort independently of each other" },
-              { id: "d", text: "nondisjunction always increases the parental classes" },
+              { id: "a", text: "the genes assort independently of each other" },
+              { id: "b", text: "nondisjunction always increases the parental classes" },
+              { id: "c", text: "crossing over occurs during every single meiosis" },
+              { id: "d", text: "linked genes on the same chromosome are inherited together unless crossing over separates them" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -719,12 +719,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "males have only one X chromosome, so a single recessive allele is expressed without a second X to mask it" },
-              { id: "b", text: "males carry two X chromosomes and therefore two recessive alleles" },
+              { id: "a", text: "males carry two X chromosomes and therefore two recessive alleles" },
+              { id: "b", text: "males have only one X chromosome, so a single recessive allele is expressed without a second X to mask it" },
               { id: "c", text: "the recessive allele behaves as dominant in males" },
               { id: "d", text: "females do not carry the gene at all" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -747,12 +747,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A" },
-              { id: "b", text: "B" },
-              { id: "c", text: "AB" },
+              { id: "a", text: "AB" },
+              { id: "b", text: "A" },
+              { id: "c", text: "B" },
               { id: "d", text: "O" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -776,8 +776,8 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "in codominance both alleles are fully expressed, producing a distinct phenotype, whereas in incomplete dominance the heterozygote shows an intermediate blend" },
-              { id: "b", text: "codominant alleles are always located on the X chromosome" },
-              { id: "c", text: "incomplete dominance never produces a $1:2:1$ phenotypic ratio" },
+              { id: "b", text: "incomplete dominance never produces a $1:2:1$ phenotypic ratio" },
+              { id: "c", text: "codominant alleles are always located on the X chromosome" },
               { id: "d", text: "codominance can only occur when a gene has more than two alleles" },
             ],
             correctChoiceId: "a",

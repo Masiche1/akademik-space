@@ -58,12 +58,12 @@ export const lesson111: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Summarising" },
-              { id: "b", text: "Judging effectiveness" },
-              { id: "c", text: "Copying" },
-              { id: "d", text: "Reading aloud" },
+              { id: "a", text: "Reading aloud" },
+              { id: "b", text: "Summarising" },
+              { id: "c", text: "Judging effectiveness" },
+              { id: "d", text: "Copying" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -88,12 +88,12 @@ export const lesson111: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Too long" },
-              { id: "b", text: "No evidence or details" },
-              { id: "c", text: "Too formal" },
+              { id: "a", text: "No evidence or details" },
+              { id: "b", text: "Too formal" },
+              { id: "c", text: "Too long" },
               { id: "d", text: "Boring" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -228,12 +228,12 @@ export const lesson111: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Random order" },
-              { id: "b", text: "Time order" },
-              { id: "c", text: "Alphabetical" },
+              { id: "a", text: "Alphabetical" },
+              { id: "b", text: "Random order" },
+              { id: "c", text: "Time order" },
               { id: "d", text: "Importance order" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -258,12 +258,12 @@ export const lesson111: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Confusion" },
-              { id: "b", text: "Sense of completeness/cycle" },
-              { id: "c", text: "Suspense" },
+              { id: "a", text: "Suspense" },
+              { id: "b", text: "Confusion" },
+              { id: "c", text: "Sense of completeness/cycle" },
               { id: "d", text: "Speed" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

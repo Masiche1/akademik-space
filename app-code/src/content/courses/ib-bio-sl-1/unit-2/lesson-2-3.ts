@@ -54,12 +54,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "46" },
-              { id: "b", text: "23" },
-              { id: "c", text: "92" },
-              { id: "d", text: "44" },
+              { id: "a", text: "92" },
+              { id: "b", text: "44" },
+              { id: "c", text: "23" },
+              { id: "d", text: "46" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Haploid gametes", statement: "Gametes are haploid (n); humans have 2n = 46 in body cells and n = 23 in gametes." }],
@@ -82,8 +82,8 @@ export const lesson23: Lesson = {
             choices: [
               { id: "a", text: "1:1" },
               { id: "b", text: "3:1" },
-              { id: "c", text: "1:2:1" },
-              { id: "d", text: "9:3:3:1" },
+              { id: "c", text: "9:3:3:1" },
+              { id: "d", text: "1:2:1" },
             ],
             correctChoiceId: "b",
           },
@@ -106,9 +106,9 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "DNA replication and cytokinesis" },
+              { id: "a", text: "Mitosis and fertilisation" },
               { id: "b", text: "Crossing over and independent assortment" },
-              { id: "c", text: "Mitosis and fertilisation" },
+              { id: "c", text: "DNA replication and cytokinesis" },
               { id: "d", text: "Transcription and translation" },
             ],
             correctChoiceId: "b",
@@ -165,12 +165,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Two diploid cells" },
-              { id: "b", text: "Four haploid gametes" },
-              { id: "c", text: "One diploid gamete" },
-              { id: "d", text: "Two haploid cells only" },
+              { id: "a", text: "Two haploid cells only" },
+              { id: "b", text: "Two diploid cells" },
+              { id: "c", text: "Four haploid gametes" },
+              { id: "d", text: "One diploid gamete" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Meiosis", statement: "Meiosis is two divisions that produce four haploid gametes from one diploid cell." }],
@@ -192,11 +192,11 @@ export const lesson23: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Genotype is the observable characteristic; phenotype is the allele combination" },
-              { id: "b", text: "Genotype is the allele combination; phenotype is the observable characteristic" },
+              { id: "b", text: "Genotype applies only to gametes; phenotype only to zygotes" },
               { id: "c", text: "Both terms mean the same thing" },
-              { id: "d", text: "Genotype applies only to gametes; phenotype only to zygotes" },
+              { id: "d", text: "Genotype is the allele combination; phenotype is the observable characteristic" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Genotype and phenotype", statement: "Genotype is the genetic makeup (alleles); phenotype is the observable characteristic produced by genotype and environment." }],
@@ -217,12 +217,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "3:1" },
-              { id: "b", text: "1:1" },
-              { id: "c", text: "1:2:1" },
-              { id: "d", text: "All dominant" },
+              { id: "a", text: "1:2:1" },
+              { id: "b", text: "All dominant" },
+              { id: "c", text: "3:1" },
+              { id: "d", text: "1:1" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Test cross", statement: "A heterozygote crossed with a homozygous recessive produces equal numbers of dominant and recessive phenotypes." }],
@@ -243,9 +243,9 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Only when it is homozygous" },
+              { id: "a", text: "Only in gametes" },
               { id: "b", text: "Whenever at least one copy is present" },
-              { id: "c", text: "Only in gametes" },
+              { id: "c", text: "Only when it is homozygous" },
               { id: "d", text: "Never if a recessive allele is also present" },
             ],
             correctChoiceId: "b",
@@ -507,12 +507,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "To separate DNA fragments by size" },
-              { id: "b", text: "To amplify (copy) a specific DNA sequence many times" },
+              { id: "a", text: "To amplify (copy) a specific DNA sequence many times" },
+              { id: "b", text: "To join two DNA fragments together" },
               { id: "c", text: "To cut DNA at specific sequences" },
-              { id: "d", text: "To join two DNA fragments together" },
+              { id: "d", text: "To separate DNA fragments by size" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "PCR", statement: "PCR exponentially amplifies a target DNA sequence through repeated cycles of denaturation, annealing and extension." }],
@@ -533,10 +533,10 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Because smaller fragments are positively charged" },
+              { id: "a", text: "Because the electric field pushes them harder" },
               { id: "b", text: "Because smaller fragments move more easily through the pores of the gel" },
-              { id: "c", text: "Because the electric field pushes them harder" },
-              { id: "d", text: "Because larger fragments are destroyed by the current" },
+              { id: "c", text: "Because larger fragments are destroyed by the current" },
+              { id: "d", text: "Because smaller fragments are positively charged" },
             ],
             correctChoiceId: "b",
           },
@@ -559,10 +559,10 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "DNA polymerase and RNA polymerase" },
+              { id: "a", text: "Helicase and DNA polymerase" },
               { id: "b", text: "Restriction enzyme and DNA ligase" },
-              { id: "c", text: "Helicase and DNA polymerase" },
-              { id: "d", text: "Amylase and protease" },
+              { id: "c", text: "Amylase and protease" },
+              { id: "d", text: "DNA polymerase and RNA polymerase" },
             ],
             correctChoiceId: "b",
           },
@@ -618,12 +618,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It joins DNA fragments together" },
-              { id: "b", text: "It cuts DNA at specific base sequences" },
-              { id: "c", text: "It copies DNA during PCR" },
-              { id: "d", text: "It separates DNA fragments by size" },
+              { id: "a", text: "It separates DNA fragments by size" },
+              { id: "b", text: "It copies DNA during PCR" },
+              { id: "c", text: "It cuts DNA at specific base sequences" },
+              { id: "d", text: "It joins DNA fragments together" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Restriction enzyme", statement: "Restriction enzymes are bacterial enzymes that cut DNA at specific recognition sequences." }],
@@ -644,12 +644,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It cuts the gene from the chromosome" },
-              { id: "b", text: "It carries the gene into a host cell and allows it to be replicated" },
+              { id: "a", text: "It carries the gene into a host cell and allows it to be replicated" },
+              { id: "b", text: "It provides the energy for protein synthesis" },
               { id: "c", text: "It separates DNA fragments by size" },
-              { id: "d", text: "It provides the energy for protein synthesis" },
+              { id: "d", text: "It cuts the gene from the chromosome" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Vector", statement: "A vector such as a plasmid or virus carries foreign DNA into a host cell and replicates with it." }],
@@ -670,12 +670,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It is heat-stable and can survive the high temperatures used to denature DNA" },
+              { id: "a", text: "It joins DNA fragments together" },
               { id: "b", text: "It cuts DNA at specific sequences" },
-              { id: "c", text: "It joins DNA fragments together" },
-              { id: "d", text: "It separates DNA fragments by size" },
+              { id: "c", text: "It separates DNA fragments by size" },
+              { id: "d", text: "It is heat-stable and can survive the high temperatures used to denature DNA" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Taq polymerase", statement: "Taq polymerase is a heat-stable DNA polymerase from Thermus aquaticus used to amplify DNA in PCR." }],
@@ -696,12 +696,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Towards the negative electrode because DNA is positively charged" },
-              { id: "b", text: "Towards the positive electrode because DNA is negatively charged" },
+              { id: "a", text: "Towards the positive electrode because DNA is negatively charged" },
+              { id: "b", text: "Towards the negative electrode because DNA is positively charged" },
               { id: "c", text: "Towards the negative electrode because DNA is neutral" },
               { id: "d", text: "Towards the positive electrode because the gel pushes it" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "property", name: "DNA charge", statement: "DNA is negatively charged because of its phosphate groups, so it moves towards the positive electrode in an electric field." }],

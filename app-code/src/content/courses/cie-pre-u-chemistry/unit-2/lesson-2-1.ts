@@ -86,12 +86,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Propane" },
-              { id: "b", text: "Cyclohexane" },
-              { id: "c", text: "Propene" },
-              { id: "d", text: "Butane" },
+              { id: "a", text: "Propene" },
+              { id: "b", text: "Propane" },
+              { id: "c", text: "Butane" },
+              { id: "d", text: "Cyclohexane" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -223,6 +223,422 @@ export const lesson21: Lesson = {
               },
             ],
             finalAnswer: "2-bromopropane via carbocation.",
+          },
+        },
+        {
+          id: "cipuc-u2-org-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Which functional group is present in CH₃COOCH₂CH₃?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Alcohol" },
+              { id: "b", text: "Ester" },
+              { id: "c", text: "Ketone" },
+              { id: "d", text: "Aldehyde" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Functional groups",
+                statement:
+                  "Esters contain the –COO– group, formed from a carboxylic acid and an alcohol.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "CH₃COO– is the ethanoate (ester) group bonded to an ethyl group → ethyl ethanoate.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "b",
+          },
+        },
+        {
+          id: "cipuc-u2-org-q6",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Calculate the relative molecular mass, $M_r$, of propene, C₃H₆. ($A_r$: C = 12, H = 1)",
+          response: {
+            type: "numeric",
+            parts: [{ label: "$M_r$", answer: 42 }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "formula",
+                name: "Relative molecular mass",
+                statement:
+                  "$M_r = \\sum (A_r \\times \\text{atom count})$.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "$M_r = 3(12) + 6(1) = 42$.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "42",
+          },
+        },
+        {
+          id: "cipuc-u2-org-q7",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "Describe the products formed when (a) propan-1-ol and (b) propan-2-ol are oxidised with acidified potassium dichromate(VI).",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Alcohol oxidation",
+                statement:
+                  "Primary alcohols → aldehyde → carboxylic acid; secondary alcohols → ketone; tertiary alcohols resist oxidation.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "(a) Propan-1-ol is primary → propanal first, then propanoic acid with excess oxidant.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "(b) Propan-2-ol is secondary → propanone (a ketone) only; no further oxidation.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "The distinction arises because secondary alcohols have no H on the carbinol carbon to be removed for further oxidation.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer:
+              "Propan-1-ol → propanoic acid (via propanal); propan-2-ol → propanone.",
+          },
+        },
+        {
+          id: "cipuc-u2-org-q8",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "What is the major product when propene reacts with hydrogen bromide?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "1-bromopropane" },
+              { id: "b", text: "Propane" },
+              { id: "c", text: "1,2-dibromopropane" },
+              { id: "d", text: "2-bromopropane" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Markovnikov's rule",
+                statement:
+                  "H adds to the carbon with more hydrogens, forming the more stable carbocation.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "H⁺ adds to the CH₂ end → secondary carbocation → Br⁻ gives 2-bromopropane.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "b",
+          },
+        },
+        {
+          id: "cipuc-u2-org-q9",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "How many structural isomers have the molecular formula C₄H₁₀?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "Isomers", answer: 2 }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Structural isomerism",
+                statement:
+                  "Same formula, different connectivity — for C₄H₁₀ the chain can be straight or branched.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "Butane (straight chain) and 2-methylpropane (branched) — total 2 isomers.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "2",
+          },
+        },
+        {
+          id: "cipuc-u2-org-q10",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "Explain the difference between SN1 and SN2 mechanisms for nucleophilic substitution in halogenoalkanes, including which substrate type each favours.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "SN1 vs SN2",
+                statement:
+                  "SN2 is concerted backside attack (primary favoured); SN1 proceeds via a carbocation intermediate (tertiary favoured).",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "SN2: single concerted step — nucleophile attacks from the opposite side to the leaving group, causing inversion of configuration; rate depends on both [RX] and [Nu⁻].",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "SN1: two steps — the C–X bond breaks first to form a planar carbocation, then the nucleophile attacks from either face giving racemisation; rate depends only on [RX].",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "Steric hindrance decides the pathway: primary halogenoalkanes favour SN2; tertiary halogenoalkanes favour SN1 because the carbocation is stabilised.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "With alcoholic KOH, elimination competes with substitution, forming an alkene instead.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer:
+              "SN2 concerted/inversion, primary favoured; SN1 via carbocation, tertiary favoured.",
+          },
+        },
+        {
+          id: "cipuc-u2-org-q11",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Which test distinguishes ethanal from propanone?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Bromine water" },
+              { id: "b", text: "Sodium metal" },
+              { id: "c", text: "Fehling's solution" },
+              { id: "d", text: "Litmus paper" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Aldehyde tests",
+                statement:
+                  "Aldehydes are oxidised by Fehling's solution (brick-red precipitate) and Tollens' reagent (silver mirror); ketones are not.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "Fehling's solution oxidises ethanal (aldehyde) but not propanone (ketone).",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "b",
+          },
+        },
+        {
+          id: "cipuc-u2-org-q12",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "0.10 mol of ethene reacts completely with bromine to form 1,2-dibromoethane, C₂H₄Br₂. Calculate the mass of product formed. ($M_r(C_2H_4Br_2) = 188$)",
+          response: {
+            type: "numeric",
+            parts: [{ label: "Mass", answer: 18.8, unit: "g" }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "formula",
+                name: "Mass from moles",
+                statement: "$m = nM_r$; addition is 1:1 across the C=C bond.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "Ethene : product = 1 : 1, so $n(C_2H_4Br_2) = 0.10$ mol.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "$m = 0.10 \\times 188 = 18.8$ g.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "18.8 g",
+          },
+        },
+        {
+          id: "cipuc-u2-org-q13",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Which pair of reactants produces ethyl ethanoate in an esterification reaction?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Propanoic acid and ethanol" },
+              { id: "b", text: "Ethanol and water" },
+              { id: "c", text: "Ethanoic acid and ethanol" },
+              { id: "d", text: "Ethanoic acid and methanol" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Esterification",
+                statement:
+                  "Carboxylic acid + alcohol $\\xrightarrow{\\text{conc. } H_2SO_4}$ ester + water; the acid supplies the acyl part, the alcohol the alkyl part.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "Ethanoic acid gives the ethanoate part and ethanol gives the ethyl part → ethyl ethanoate.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "a",
+          },
+        },
+        {
+          id: "cipuc-u2-org-q14",
+          difficulty: "challenge",
+          totalMarks: 1,
+          stem: "Which condition must be met for an alkene to show E/Z (geometrical) isomerism?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "The molecule must contain an –OH group" },
+              { id: "b", text: "The molecule must have a branched carbon chain" },
+              {
+                id: "c",
+                text: "The molecule must contain at least one C–C single bond",
+              },
+              {
+                id: "d",
+                text: "Rotation about the C=C is restricted and each carbon of the double bond bears two different groups",
+              },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "E/Z isomerism",
+                statement:
+                  "Restricted C=C rotation plus two different substituents on each alkene carbon allows cis/trans (E/Z) isomers.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "If each double-bond carbon carries identical groups, the two arrangements are identical — no E/Z isomerism.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "a",
+          },
+        },
+        {
+          id: "cipuc-u2-org-q15",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Calculate the relative molecular mass, $M_r$, of ethanol, C₂H₅OH. ($A_r$: C = 12, H = 1, O = 16)",
+          response: {
+            type: "numeric",
+            parts: [{ label: "$M_r$", answer: 46 }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "formula",
+                name: "Relative molecular mass",
+                statement:
+                  "$M_r = 2(12) + 6(1) + 16 = 46$ for C$_2$H$_6$O.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "$M_r = 2(12) + 6(1) + 16 = 46$.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "46",
+          },
+        },
+        {
+          id: "cipuc-u2-org-q16",
+          difficulty: "challenge",
+          totalMarks: 2,
+          stem: "16 g of methane, CH₄, undergoes complete combustion. Calculate the mass of carbon dioxide produced. ($M_r$: CH₄ = 16, CO₂ = 44)",
+          response: {
+            type: "numeric",
+            parts: [{ label: "Mass of CO₂", answer: 44, unit: "g" }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "formula",
+                name: "Combustion stoichiometry",
+                statement:
+                  "$CH_4 + 2O_2 \\rightarrow CO_2 + 2H_2O$; 1 mol CH₄ gives 1 mol CO₂.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "$n(CH_4) = 16/16 = 1.0$ mol → $n(CO_2) = 1.0$ mol.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "$m(CO_2) = 1.0 \\times 44 = 44$ g.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "44 g",
           },
         },
       ],

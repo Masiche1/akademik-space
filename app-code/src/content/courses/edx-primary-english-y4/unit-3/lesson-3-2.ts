@@ -59,10 +59,10 @@ export const lesson122: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It's long" },
+              { id: "a", text: "It's formal" },
               { id: "b", text: "It has a main + subordinate clause" },
               { id: "c", text: "It has two verbs" },
-              { id: "d", text: "It's formal" },
+              { id: "d", text: "It's long" },
             ],
             correctChoiceId: "b",
           },
@@ -90,11 +90,11 @@ export const lesson122: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "and" },
-              { id: "b", text: "however" },
-              { id: "c", text: "then" },
+              { id: "b", text: "then" },
+              { id: "c", text: "however" },
               { id: "d", text: "because" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -228,11 +228,11 @@ export const lesson122: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Give an example" },
-              { id: "b", text: "State the main idea" },
-              { id: "c", text: "End the paragraph" },
-              { id: "d", text: "Ask a question" },
+              { id: "b", text: "End the paragraph" },
+              { id: "c", text: "Ask a question" },
+              { id: "d", text: "State the main idea" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -258,11 +258,11 @@ export const lesson122: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Many ideas" },
-              { id: "b", text: "One main idea" },
-              { id: "c", text: "No ideas" },
-              { id: "d", text: "The whole story" },
+              { id: "b", text: "The whole story" },
+              { id: "c", text: "One main idea" },
+              { id: "d", text: "No ideas" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

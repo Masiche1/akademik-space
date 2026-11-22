@@ -66,12 +66,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A librarian addresses residents and council members on the night of a vote, aiming to persuade them to keep the branch open." },
-              { id: "b", text: "A council member explains to residents why the library budget must be cut." },
+              { id: "a", text: "A resident thanks the librarian for years of service at a retirement party." },
+              { id: "b", text: "A librarian addresses residents and council members on the night of a vote, aiming to persuade them to keep the branch open." },
               { id: "c", text: "A librarian describes the history of the Harbor Street Library to visitors." },
-              { id: "d", text: "A resident thanks the librarian for years of service at a retirement party." },
+              { id: "d", text: "A council member explains to residents why the library budget must be cut." },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Rhetorical situation", statement: "Speaker, audience, purpose and context together define why a text is written as it is." }],
@@ -89,12 +89,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The librarian talks about a man who slept in his car and about forty children who learned to read." },
-              { id: "b", text: "The speech is very persuasive and makes the audience feel emotions." },
-              { id: "c", text: "By pairing two concrete stories with the admission that 'the numbers are real,' the librarian answers a budget argument with human evidence her cost-focused audience cannot easily dismiss." },
-              { id: "d", text: "The librarian ends by asking the council to vote and then says that the children are already seated." },
+              { id: "a", text: "The speech is very persuasive and makes the audience feel emotions." },
+              { id: "b", text: "The librarian ends by asking the council to vote and then says that the children are already seated." },
+              { id: "c", text: "The librarian talks about a man who slept in his car and about forty children who learned to read." },
+              { id: "d", text: "By pairing two concrete stories with the admission that 'the numbers are real,' the librarian answers a budget argument with human evidence her cost-focused audience cannot easily dismiss." },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "skill", name: "Analysis over summary", statement: "Analysis names a choice, its effect on the audience and its link to purpose." }],
@@ -200,10 +200,10 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Homework might possibly be maybe a little bit useless in some ways." },
-              { id: "b", text: "Homework is always bad and should be banned immediately." },
+              { id: "a", text: "Homework is always bad and should be banned immediately." },
+              { id: "b", text: "Many people have different opinions about homework." },
               { id: "c", text: "Because evidence shows little benefit from heavy homework in the early grades, schools should limit nightly assignments for elementary students." },
-              { id: "d", text: "Many people have different opinions about homework." },
+              { id: "d", text: "Homework might possibly be maybe a little bit useless in some ways." },
             ],
             correctChoiceId: "c",
           },
@@ -224,11 +224,11 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Parents who like homework are simply wrong and should read more research." },
-              { id: "b", text: "Parents rightly want children to develop discipline, but short, purposeful tasks build that habit as well as long assignments do, without the stress." },
+              { id: "b", text: "Some parents like homework and some do not, and that is fine." },
               { id: "c", text: "Homework is bad, so parents should stop caring about discipline." },
-              { id: "d", text: "Some parents like homework and some do not, and that is fine." },
+              { id: "d", text: "Parents rightly want children to develop discipline, but short, purposeful tasks build that habit as well as long assignments do, without the stress." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Concession", statement: "Acknowledge the audience's valid value, then explain why your position still holds." }],

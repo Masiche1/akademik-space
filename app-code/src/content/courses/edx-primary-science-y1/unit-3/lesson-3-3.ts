@@ -51,11 +51,11 @@ export const lesson123: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Helpful bacteria" },
-              { id: "b", text: "Tiny things that can make us ill" },
-              { id: "c", text: "Vitamins" },
-              { id: "d", text: "Food" },
+              { id: "b", text: "Vitamins" },
+              { id: "c", text: "Food" },
+              { id: "d", text: "Tiny things that can make us ill" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -78,12 +78,12 @@ export const lesson123: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Never" },
-              { id: "b", text: "Before eating and after toilet" },
-              { id: "c", text: "Only when dirty" },
-              { id: "d", text: "Once a week" },
+              { id: "a", text: "Only when dirty" },
+              { id: "b", text: "Once a week" },
+              { id: "c", text: "Before eating and after toilet" },
+              { id: "d", text: "Never" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -217,12 +217,12 @@ export const lesson123: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A computer" },
-              { id: "b", text: "A tool that makes work easier" },
+              { id: "a", text: "A tool that makes work easier" },
+              { id: "b", text: "A computer" },
               { id: "c", text: "A toy" },
               { id: "d", text: "A vehicle" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -251,9 +251,9 @@ export const lesson123: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Ramp" },
+              { id: "a", text: "Pulley" },
               { id: "b", text: "See-saw" },
-              { id: "c", text: "Pulley" },
+              { id: "c", text: "Ramp" },
               { id: "d", text: "Screw" },
             ],
             correctChoiceId: "b",

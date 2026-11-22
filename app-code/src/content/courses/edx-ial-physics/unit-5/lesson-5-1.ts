@@ -80,11 +80,11 @@ export const lesson51: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Isothermal" },
-              { id: "b", text: "Isobaric" },
-              { id: "c", text: "Adiabatic" },
-              { id: "d", text: "Isochoric" },
+              { id: "b", text: "Isochoric" },
+              { id: "c", text: "Isobaric" },
+              { id: "d", text: "Adiabatic" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -334,12 +334,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Intensity of the light" },
-              { id: "b", text: "Work function of the metal" },
+              { id: "a", text: "Area of the surface" },
+              { id: "b", text: "Intensity of the light" },
               { id: "c", text: "Number of photons" },
-              { id: "d", text: "Area of the surface" },
+              { id: "d", text: "Work function of the metal" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

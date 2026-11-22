@@ -54,12 +54,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Each person must look after themselves first" },
-              { id: "b", text: "Everyone is responsible for how their actions affect others" },
+              { id: "a", text: "Responsibility belongs to the police" },
+              { id: "b", text: "Each person must look after themselves first" },
               { id: "c", text: "Only the rich are responsible for society" },
-              { id: "d", text: "Responsibility belongs to the police" },
+              { id: "d", text: "Everyone is responsible for how their actions affect others" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "context", name: "Collective responsibility", statement: "Priestley's socialist belief that people are linked and accountable to each other." }],
@@ -184,12 +184,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Performed in 1912 and set in 1945" },
-              { id: "b", text: "Performed in 1945 and set in 1912" },
-              { id: "c", text: "Performed and set in 1945" },
+              { id: "a", text: "Performed in 1945 and set in 1912" },
+              { id: "b", text: "Performed and set in 1945" },
+              { id: "c", text: "Performed in 1912 and set in 1945" },
               { id: "d", text: "Performed and set in 1912" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "context", name: "Time gap", statement: "The gap between setting and writing allows dramatic irony." }],

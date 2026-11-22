@@ -57,12 +57,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$45°$" },
-              { id: "b", text: "$90°$" },
-              { id: "c", text: "$180°$" },
+              { id: "a", text: "$180°$" },
+              { id: "b", text: "$45°$" },
+              { id: "c", text: "$90°$" },
               { id: "d", text: "Depends on the circle" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -84,12 +84,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$40°$" },
+              { id: "a", text: "$20°$" },
               { id: "b", text: "$160°$" },
-              { id: "c", text: "$80°$" },
-              { id: "d", text: "$20°$" },
+              { id: "c", text: "$40°$" },
+              { id: "d", text: "$80°$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -112,12 +112,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$0°$" },
-              { id: "b", text: "$45°$" },
-              { id: "c", text: "$90°$" },
-              { id: "d", text: "Cannot be determined" },
+              { id: "a", text: "$90°$" },
+              { id: "b", text: "$0°$" },
+              { id: "c", text: "Cannot be determined" },
+              { id: "d", text: "$45°$" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -173,12 +173,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The tangent is parallel to the radius at $T$" },
-              { id: "b", text: "The tangent is perpendicular to the radius at $T$" },
-              { id: "c", text: "The tangent bisects the radius at $T$" },
+              { id: "a", text: "The tangent is perpendicular to the radius at $T$" },
+              { id: "b", text: "The tangent bisects the radius at $T$" },
+              { id: "c", text: "The tangent is parallel to the radius at $T$" },
               { id: "d", text: "The tangent passes through the centre" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -221,12 +221,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$PT_1+PT_2$ equals the diameter" },
-              { id: "b", text: "$PT_1=PT_2$" },
-              { id: "c", text: "$PT_1=2PT_2$" },
-              { id: "d", text: "No relationship" },
+              { id: "a", text: "$PT_1=PT_2$" },
+              { id: "b", text: "No relationship" },
+              { id: "c", text: "$PT_1+PT_2$ equals the diameter" },
+              { id: "d", text: "$PT_1=2PT_2$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -271,12 +271,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "bisects the chord" },
+              { id: "a", text: "passes through the circumference at two points" },
               { id: "b", text: "is parallel to the chord" },
               { id: "c", text: "equals the chord's length" },
-              { id: "d", text: "passes through the circumference at two points" },
+              { id: "d", text: "bisects the chord" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -494,12 +494,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$(5,7)$" },
-              { id: "b", text: "$(6,7)$" },
-              { id: "c", text: "$(5,6)$" },
+              { id: "a", text: "$(6,7)$" },
+              { id: "b", text: "$(5,6)$" },
+              { id: "c", text: "$(5,7)$" },
               { id: "d", text: "$(4,7)$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -522,9 +522,9 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "10" },
-              { id: "b", text: "14" },
+              { id: "b", text: "48" },
               { id: "c", text: "$\\sqrt{14}$" },
-              { id: "d", text: "48" },
+              { id: "d", text: "14" },
             ],
             correctChoiceId: "a",
           },
@@ -549,12 +549,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$y=2x-1$" },
-              { id: "b", text: "$y=2x+1$" },
-              { id: "c", text: "$y=x+1$" },
-              { id: "d", text: "$y=4x-5$" },
+              { id: "a", text: "$y=4x-5$" },
+              { id: "b", text: "$y=x+1$" },
+              { id: "c", text: "$y=2x-1$" },
+              { id: "d", text: "$y=2x+1$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -611,12 +611,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$(2,4)$" },
-              { id: "b", text: "$(4,8)$" },
-              { id: "c", text: "$(0,4)$" },
-              { id: "d", text: "$(2,8)$" },
+              { id: "a", text: "$(4,8)$" },
+              { id: "b", text: "$(2,8)$" },
+              { id: "c", text: "$(2,4)$" },
+              { id: "d", text: "$(0,4)$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -659,12 +659,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "5" },
-              { id: "b", text: "7" },
+              { id: "a", text: "25" },
+              { id: "b", text: "5" },
               { id: "c", text: "$\\sqrt{7}$" },
-              { id: "d", text: "25" },
+              { id: "d", text: "7" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -709,12 +709,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "4" },
-              { id: "b", text: "-4" },
-              { id: "c", text: "9" },
-              { id: "d", text: "$\\frac{1}{4}$" },
+              { id: "a", text: "-4" },
+              { id: "b", text: "$\\frac{1}{4}$" },
+              { id: "c", text: "4" },
+              { id: "d", text: "9" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -737,12 +737,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$y=-\\frac{1}{2}x$" },
-              { id: "b", text: "$y=2x$" },
-              { id: "c", text: "$y=-6x+3$" },
-              { id: "d", text: "$y=-\\frac{1}{2}x+3$" },
+              { id: "a", text: "$y=-\\frac{1}{2}x+3$" },
+              { id: "b", text: "$y=-6x+3$" },
+              { id: "c", text: "$y=2x$" },
+              { id: "d", text: "$y=-\\frac{1}{2}x$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

@@ -54,12 +54,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Nitrogen gas" },
-              { id: "b", text: "Nitrates" },
+              { id: "a", text: "Nitrates" },
+              { id: "b", text: "Nitrogen gas" },
               { id: "c", text: "Ammonium ions only" },
               { id: "d", text: "Urea" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -188,12 +188,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Carbon dioxide and methane" },
-              { id: "b", text: "Oxygen and nitrogen" },
-              { id: "c", text: "Sulfur dioxide and oxygen" },
-              { id: "d", text: "Carbon dioxide and nitrogen" },
+              { id: "a", text: "Sulfur dioxide and oxygen" },
+              { id: "b", text: "Carbon dioxide and methane" },
+              { id: "c", text: "Carbon dioxide and nitrogen" },
+              { id: "d", text: "Oxygen and nitrogen" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [

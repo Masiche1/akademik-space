@@ -85,15 +85,15 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "A more advanced computer system" },
               {
-                id: "a",
+                id: "b",
                 text: "Only the recording stage; accounting also analyses and reports",
               },
-              { id: "b", text: "A more advanced computer system" },
-              { id: "c", text: "Done only by accountants" },
-              { id: "d", text: "Illegal without a licence" },
+              { id: "c", text: "Illegal without a licence" },
+              { id: "d", text: "Done only by accountants" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -284,11 +284,11 @@ export const lesson11: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "The business owner" },
-              { id: "b", text: "A bank that has lent money to the business" },
-              { id: "c", text: "A competing business" },
+              { id: "b", text: "A competing business" },
+              { id: "c", text: "A bank that has lent money to the business" },
               { id: "d", text: "A customer buying goods" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -393,15 +393,15 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Set the prices the business may charge" },
+              { id: "a", text: "Choose the firm's advertising" },
+              { id: "b", text: "Set the prices the business may charge" },
+              { id: "c", text: "Decide which supplier the firm uses" },
               {
-                id: "b",
+                id: "d",
                 text: "Assess tax liabilities and compile economic statistics",
               },
-              { id: "c", text: "Choose the firm's advertising" },
-              { id: "d", text: "Decide which supplier the firm uses" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -550,15 +550,15 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "Preparing the income statement" },
+              { id: "b", text: "Checking another firm's accounts" },
+              { id: "c", text: "Analysing accounts to help decisions" },
               {
-                id: "a",
+                id: "d",
                 text: "The systematic recording of financial transactions in books of prime entry",
               },
-              { id: "b", text: "Analysing accounts to help decisions" },
-              { id: "c", text: "Preparing the income statement" },
-              { id: "d", text: "Checking another firm's accounts" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -629,14 +629,14 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Paying a supplier's invoice" },
+              { id: "a", text: "Submitting a tax return" },
               {
                 id: "b",
                 text: "Preparing a budget for next year's expansion",
               },
-              { id: "c", text: "Submitting a tax return" },
+              { id: "c", text: "Recording a cash sale" },
               { id: "d", text: "Paying the weekly wages" },
-              { id: "e", text: "Recording a cash sale" },
+              { id: "e", text: "Paying a supplier's invoice" },
             ],
             correctChoiceId: "b",
           },

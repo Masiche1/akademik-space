@@ -55,11 +55,11 @@ export const lesson11: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Cells can form from nonliving material." },
-              { id: "b", text: "All living things are made of one or more cells." },
-              { id: "c", text: "Only animals are made of cells." },
-              { id: "d", text: "Organelles are the smallest living units." },
+              { id: "b", text: "Only animals are made of cells." },
+              { id: "c", text: "Organelles are the smallest living units." },
+              { id: "d", text: "All living things are made of one or more cells." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -185,12 +185,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Amoeba" },
-              { id: "b", text: "Mushroom" },
-              { id: "c", text: "Earthworm" },
-              { id: "d", text: "Maple tree" },
+              { id: "a", text: "Maple tree" },
+              { id: "b", text: "Earthworm" },
+              { id: "c", text: "Amoeba" },
+              { id: "d", text: "Mushroom" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

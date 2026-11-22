@@ -54,12 +54,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Condensation" },
-              { id: "b", text: "Transpiration" },
-              { id: "c", text: "Infiltration" },
+              { id: "a", text: "Transpiration" },
+              { id: "b", text: "Infiltration" },
+              { id: "c", text: "Condensation" },
               { id: "d", text: "Runoff" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -153,12 +153,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Rivers and lakes" },
-              { id: "b", text: "The oceans" },
-              { id: "c", text: "Ice caps and glaciers" },
-              { id: "d", text: "Groundwater" },
+              { id: "a", text: "Groundwater" },
+              { id: "b", text: "Ice caps and glaciers" },
+              { id: "c", text: "The oceans" },
+              { id: "d", text: "Rivers and lakes" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -181,12 +181,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Water falling to the surface as rain or snow" },
-              { id: "b", text: "The combined loss of water vapour through evaporation and plant transpiration" },
-              { id: "c", text: "The movement of water through pores in rock" },
-              { id: "d", text: "Surface runoff flowing into rivers" },
+              { id: "a", text: "The combined loss of water vapour through evaporation and plant transpiration" },
+              { id: "b", text: "The movement of water through pores in rock" },
+              { id: "c", text: "Surface runoff flowing into rivers" },
+              { id: "d", text: "Water falling to the surface as rain or snow" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -209,12 +209,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Precipitation" },
+              { id: "a", text: "Evaporation" },
               { id: "b", text: "Runoff" },
-              { id: "c", text: "Evaporation" },
-              { id: "d", text: "Infiltration" },
+              { id: "c", text: "Infiltration" },
+              { id: "d", text: "Precipitation" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -237,12 +237,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "About 25%" },
-              { id: "b", text: "About 10%" },
-              { id: "c", text: "About 3%" },
-              { id: "d", text: "About 30%" },
+              { id: "a", text: "About 3%" },
+              { id: "b", text: "About 30%" },
+              { id: "c", text: "About 10%" },
+              { id: "d", text: "About 25%" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -265,10 +265,10 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "About 5%" },
+              { id: "a", text: "About 50%" },
               { id: "b", text: "About 15%" },
               { id: "c", text: "About 35%" },
-              { id: "d", text: "About 50%" },
+              { id: "d", text: "About 5%" },
             ],
             correctChoiceId: "b",
           },
@@ -505,9 +505,9 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A drought in an arid climate" },
+              { id: "a", text: "Pollution of all rivers in a region" },
               { id: "b", text: "Lack of infrastructure and finance to access available water" },
-              { id: "c", text: "Pollution of all rivers in a region" },
+              { id: "c", text: "A drought in an arid climate" },
               { id: "d", text: "Over-abstraction of groundwater" },
             ],
             correctChoiceId: "b",
@@ -604,12 +604,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Water exists but infrastructure is missing to reach it" },
-              { id: "b", text: "Demand for water exceeds the renewable supply available" },
-              { id: "c", text: "Rivers are polluted by industrial waste" },
-              { id: "d", text: "A region experiences a single dry year" },
+              { id: "a", text: "Demand for water exceeds the renewable supply available" },
+              { id: "b", text: "Water exists but infrastructure is missing to reach it" },
+              { id: "c", text: "A region experiences a single dry year" },
+              { id: "d", text: "Rivers are polluted by industrial waste" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -632,12 +632,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Building a large reservoir" },
-              { id: "b", text: "Pricing water to encourage conservation" },
+              { id: "a", text: "Constructing a desalination plant" },
+              { id: "b", text: "Building a large reservoir" },
               { id: "c", text: "Drilling new boreholes" },
-              { id: "d", text: "Constructing a desalination plant" },
+              { id: "d", text: "Pricing water to encourage conservation" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -660,12 +660,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The Gulf states" },
-              { id: "b", text: "The Amazon basin" },
-              { id: "c", text: "Northern Europe" },
-              { id: "d", text: "The Sahel" },
+              { id: "a", text: "The Amazon basin" },
+              { id: "b", text: "Northern Europe" },
+              { id: "c", text: "The Sahel" },
+              { id: "d", text: "The Gulf states" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -688,12 +688,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Water stored in underground aquifers" },
-              { id: "b", text: "The volume of freshwater used to produce a traded good" },
-              { id: "c", text: "Water lost through leaking pipes" },
-              { id: "d", text: "Evaporation from irrigated fields" },
+              { id: "a", text: "The volume of freshwater used to produce a traded good" },
+              { id: "b", text: "Water stored in underground aquifers" },
+              { id: "c", text: "Evaporation from irrigated fields" },
+              { id: "d", text: "Water lost through leaking pipes" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -716,12 +716,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Equal populations in all riparian states" },
-              { id: "b", text: "Upstream states controlling flow that downstream states depend on" },
+              { id: "a", text: "Upstream states controlling flow that downstream states depend on" },
+              { id: "b", text: "Strong enforcement of international water treaties" },
               { id: "c", text: "Uniform rainfall across the whole basin" },
-              { id: "d", text: "Strong enforcement of international water treaties" },
+              { id: "d", text: "Equal populations in all riparian states" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

@@ -55,8 +55,8 @@ export const lesson11: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$106$" },
-              { id: "b", text: "$84$" },
-              { id: "c", text: "$98$" },
+              { id: "b", text: "$98$" },
+              { id: "c", text: "$84$" },
               { id: "d", text: "$116$" },
             ],
             correctChoiceId: "a",
@@ -165,9 +165,9 @@ export const lesson11: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$101.1$" },
-              { id: "b", text: "$54.1$" },
-              { id: "c", text: "$85.1$" },
-              { id: "d", text: "$69.1$" },
+              { id: "b", text: "$85.1$" },
+              { id: "c", text: "$69.1$" },
+              { id: "d", text: "$54.1$" },
             ],
             correctChoiceId: "a",
           },
@@ -192,12 +192,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$24.5\\ \\mathrm{g}$" },
-              { id: "b", text: "$12.3\\ \\mathrm{g}$" },
-              { id: "c", text: "$49.0\\ \\mathrm{g}$" },
+              { id: "a", text: "$12.3\\ \\mathrm{g}$" },
+              { id: "b", text: "$49.0\\ \\mathrm{g}$" },
+              { id: "c", text: "$24.5\\ \\mathrm{g}$" },
               { id: "d", text: "$98.1\\ \\mathrm{g}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -220,12 +220,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$8.0\\ \\mathrm{g}$ of $\\mathrm{H_2}$" },
-              { id: "b", text: "$16\\ \\mathrm{g}$ of $\\mathrm{CH_4}$" },
+              { id: "a", text: "$16\\ \\mathrm{g}$ of $\\mathrm{CH_4}$" },
+              { id: "b", text: "$8.0\\ \\mathrm{g}$ of $\\mathrm{H_2}$" },
               { id: "c", text: "$18\\ \\mathrm{g}$ of $\\mathrm{H_2O}$" },
               { id: "d", text: "$44\\ \\mathrm{g}$ of $\\mathrm{CO_2}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -248,12 +248,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$0.0200\\ \\mathrm{mol}$" },
-              { id: "b", text: "$0.100\\ \\mathrm{mol}$" },
+              { id: "a", text: "$0.100\\ \\mathrm{mol}$" },
+              { id: "b", text: "$0.0200\\ \\mathrm{mol}$" },
               { id: "c", text: "$0.0400\\ \\mathrm{mol}$" },
               { id: "d", text: "$0.500\\ \\mathrm{mol}$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -276,12 +276,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$106\\ \\mathrm{g}$" },
-              { id: "b", text: "$212\\ \\mathrm{g}$" },
-              { id: "c", text: "$53.0\\ \\mathrm{g}$" },
-              { id: "d", text: "$424\\ \\mathrm{g}$" },
+              { id: "a", text: "$53.0\\ \\mathrm{g}$" },
+              { id: "b", text: "$424\\ \\mathrm{g}$" },
+              { id: "c", text: "$106\\ \\mathrm{g}$" },
+              { id: "d", text: "$212\\ \\mathrm{g}$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -577,12 +577,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$1.20\\times10^{24}$" },
-              { id: "b", text: "$3.01\\times10^{23}$" },
-              { id: "c", text: "$6.02\\times10^{23}$" },
-              { id: "d", text: "$2.41\\times10^{24}$" },
+              { id: "a", text: "$3.01\\times10^{23}$" },
+              { id: "b", text: "$1.20\\times10^{24}$" },
+              { id: "c", text: "$2.41\\times10^{24}$" },
+              { id: "d", text: "$6.02\\times10^{23}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -689,12 +689,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$0.250\\ \\mathrm{mol}$" },
-              { id: "b", text: "$0.500\\ \\mathrm{mol}$" },
-              { id: "c", text: "$1.00\\ \\mathrm{mol}$" },
+              { id: "a", text: "$1.00\\ \\mathrm{mol}$" },
+              { id: "b", text: "$0.250\\ \\mathrm{mol}$" },
+              { id: "c", text: "$0.500\\ \\mathrm{mol}$" },
               { id: "d", text: "$3.01\\ \\mathrm{mol}$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -717,12 +717,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$0.500\\ \\mathrm{mol}$" },
-              { id: "b", text: "$1.00\\ \\mathrm{mol}$" },
-              { id: "c", text: "$0.250\\ \\mathrm{mol}$" },
-              { id: "d", text: "$2.00\\ \\mathrm{mol}$" },
+              { id: "a", text: "$2.00\\ \\mathrm{mol}$" },
+              { id: "b", text: "$0.500\\ \\mathrm{mol}$" },
+              { id: "c", text: "$1.00\\ \\mathrm{mol}$" },
+              { id: "d", text: "$0.250\\ \\mathrm{mol}$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -746,11 +746,11 @@ export const lesson11: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$1.0\\ \\mathrm{g}$" },
-              { id: "b", text: "$2.0\\ \\mathrm{g}$" },
-              { id: "c", text: "$4.0\\ \\mathrm{g}$" },
-              { id: "d", text: "$8.0\\ \\mathrm{g}$" },
+              { id: "b", text: "$8.0\\ \\mathrm{g}$" },
+              { id: "c", text: "$2.0\\ \\mathrm{g}$" },
+              { id: "d", text: "$4.0\\ \\mathrm{g}$" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -774,12 +774,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$6.02\\times10^{22}$" },
-              { id: "b", text: "$1.21\\times10^{23}$" },
-              { id: "c", text: "$1.81\\times10^{23}$" },
+              { id: "a", text: "$1.21\\times10^{23}$" },
+              { id: "b", text: "$1.81\\times10^{23}$" },
+              { id: "c", text: "$6.02\\times10^{22}$" },
               { id: "d", text: "$3.61\\times10^{23}$" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -966,12 +966,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$1.00\\ \\mathrm{mol}$" },
-              { id: "b", text: "$2.00\\ \\mathrm{mol}$" },
-              { id: "c", text: "$4.00\\ \\mathrm{mol}$" },
-              { id: "d", text: "$6.00\\ \\mathrm{mol}$" },
+              { id: "a", text: "$6.00\\ \\mathrm{mol}$" },
+              { id: "b", text: "$1.00\\ \\mathrm{mol}$" },
+              { id: "c", text: "$2.00\\ \\mathrm{mol}$" },
+              { id: "d", text: "$4.00\\ \\mathrm{mol}$" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [

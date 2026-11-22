@@ -56,12 +56,12 @@ export const lesson64: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Radical change" },
-              { id: "b", text: "Incremental change" },
-              { id: "c", text: "Revolutionary change" },
-              { id: "d", text: "Disruptive innovation" },
+              { id: "a", text: "Incremental change" },
+              { id: "b", text: "Radical change" },
+              { id: "c", text: "Disruptive innovation" },
+              { id: "d", text: "Revolutionary change" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -155,12 +155,12 @@ export const lesson64: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Incremental change" },
-              { id: "b", text: "Radical change" },
-              { id: "c", text: "Status quo" },
+              { id: "a", text: "Radical change" },
+              { id: "b", text: "Status quo" },
+              { id: "c", text: "Incremental change" },
               { id: "d", text: "Market pull" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Radical change", statement: "Major, fundamental transformation of the business." }],
@@ -181,12 +181,12 @@ export const lesson64: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "New technology creates products customers did not ask for" },
-              { id: "b", text: "Customer demand or complaints drive the development of new products" },
+              { id: "a", text: "Government bans the old product" },
+              { id: "b", text: "New technology creates products customers did not ask for" },
               { id: "c", text: "Competitors force a price war" },
-              { id: "d", text: "Government bans the old product" },
+              { id: "d", text: "Customer demand or complaints drive the development of new products" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Market pull", statement: "Innovation responding to customer demand, needs or complaints." }],
@@ -207,12 +207,12 @@ export const lesson64: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Fear of losing their jobs or status" },
-              { id: "b", text: "Too much communication about the change" },
+              { id: "a", text: "Receiving too much training" },
+              { id: "b", text: "Fear of losing their jobs or status" },
               { id: "c", text: "Being involved in planning too early" },
-              { id: "d", text: "Receiving too much training" },
+              { id: "d", text: "Too much communication about the change" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Resistance to change", statement: "Employees resist due to fear of job loss, status loss, unfamiliarity and inertia." }],
@@ -235,10 +235,10 @@ export const lesson64: Lesson = {
             choices: [
               { id: "a", text: "Change" },
               { id: "b", text: "Refreeze" },
-              { id: "c", text: "Unfreeze" },
-              { id: "d", text: "Implement" },
+              { id: "c", text: "Implement" },
+              { id: "d", text: "Unfreeze" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Lewin's model", statement: "Unfreeze → change → refreeze." }],
@@ -259,10 +259,10 @@ export const lesson64: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Launching an entirely new product" },
+              { id: "a", text: "Entering a foreign market" },
               { id: "b", text: "Finding new or improved ways of producing goods or services" },
               { id: "c", text: "Changing the ownership structure" },
-              { id: "d", text: "Entering a foreign market" },
+              { id: "d", text: "Launching an entirely new product" },
             ],
             correctChoiceId: "b",
           },
@@ -479,12 +479,12 @@ export const lesson64: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Used once and sent to landfill" },
-              { id: "b", text: "Reused, repaired and recycled in a closed loop" },
+              { id: "a", text: "Reused, repaired and recycled in a closed loop" },
+              { id: "b", text: "Used once and sent to landfill" },
               { id: "c", text: "Exported to developing countries" },
               { id: "d", text: "Incinerated for energy" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -577,12 +577,12 @@ export const lesson64: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Circular economy" },
-              { id: "b", text: "Linear economy" },
-              { id: "c", text: "Sharing economy" },
-              { id: "d", text: "Green economy" },
+              { id: "a", text: "Sharing economy" },
+              { id: "b", text: "Circular economy" },
+              { id: "c", text: "Green economy" },
+              { id: "d", text: "Linear economy" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Linear economy", statement: "Resources are extracted, made into products and discarded — take, make, dispose." }],
@@ -604,11 +604,11 @@ export const lesson64: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Planned obsolescence" },
-              { id: "b", text: "Circular economy thinking" },
-              { id: "c", text: "Linear production" },
+              { id: "b", text: "Linear production" },
+              { id: "c", text: "Circular economy thinking" },
               { id: "d", text: "Outsourcing" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Circular economy", statement: "Designing products for reuse, repair and recycling in a closed loop." }],
@@ -629,12 +629,12 @@ export const lesson64: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Profit maximisation" },
-              { id: "b", text: "Sustainability" },
-              { id: "c", text: "Globalisation" },
-              { id: "d", text: "Innovation" },
+              { id: "a", text: "Globalisation" },
+              { id: "b", text: "Innovation" },
+              { id: "c", text: "Profit maximisation" },
+              { id: "d", text: "Sustainability" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Sustainability", statement: "Meeting present needs without compromising future generations' ability to meet theirs." }],
@@ -655,12 +655,12 @@ export const lesson64: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Sending all waste to landfill" },
-              { id: "b", text: "Using renewable energy and reducing waste" },
-              { id: "c", text: "Designing products to break quickly" },
-              { id: "d", text: "Ignoring emissions regulations" },
+              { id: "a", text: "Ignoring emissions regulations" },
+              { id: "b", text: "Designing products to break quickly" },
+              { id: "c", text: "Using renewable energy and reducing waste" },
+              { id: "d", text: "Sending all waste to landfill" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Sustainable practices", statement: "Energy efficiency, waste reduction, sustainable sourcing and emissions cuts." }],
@@ -681,10 +681,10 @@ export const lesson64: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The complete absence of environmental laws" },
+              { id: "a", text: "The lack of any recycling technology" },
               { id: "b", text: "High upfront costs of redesigning products and supply chains" },
               { id: "c", text: "Customers refusing recycled materials" },
-              { id: "d", text: "The lack of any recycling technology" },
+              { id: "d", text: "The complete absence of environmental laws" },
             ],
             correctChoiceId: "b",
           },

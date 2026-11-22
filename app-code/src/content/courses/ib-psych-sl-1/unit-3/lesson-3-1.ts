@@ -53,10 +53,10 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Unconditioned stimulus" },
+              { id: "a", text: "Unconditioned response" },
               { id: "b", text: "Conditioned stimulus" },
-              { id: "c", text: "Unconditioned response" },
-              { id: "d", text: "Conditioned response" },
+              { id: "c", text: "Conditioned response" },
+              { id: "d", text: "Unconditioned stimulus" },
             ],
             correctChoiceId: "b",
           },
@@ -152,12 +152,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Unconditioned stimulus" },
-              { id: "b", text: "Conditioned stimulus" },
+              { id: "a", text: "Conditioned response" },
+              { id: "b", text: "Unconditioned stimulus" },
               { id: "c", text: "Unconditioned response" },
-              { id: "d", text: "Conditioned response" },
+              { id: "d", text: "Conditioned stimulus" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -180,12 +180,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Unconditioned stimulus" },
-              { id: "b", text: "Conditioned stimulus" },
-              { id: "c", text: "Unconditioned response" },
-              { id: "d", text: "Conditioned response" },
+              { id: "a", text: "Conditioned response" },
+              { id: "b", text: "Unconditioned stimulus" },
+              { id: "c", text: "Conditioned stimulus" },
+              { id: "d", text: "Unconditioned response" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -208,12 +208,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Discrimination" },
-              { id: "b", text: "Extinction" },
-              { id: "c", text: "Generalisation" },
-              { id: "d", text: "Spontaneous recovery" },
+              { id: "a", text: "Spontaneous recovery" },
+              { id: "b", text: "Discrimination" },
+              { id: "c", text: "Extinction" },
+              { id: "d", text: "Generalisation" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -281,12 +281,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Generalisation" },
-              { id: "b", text: "Discrimination" },
-              { id: "c", text: "Extinction" },
-              { id: "d", text: "Acquisition" },
+              { id: "a", text: "Discrimination" },
+              { id: "b", text: "Extinction" },
+              { id: "c", text: "Acquisition" },
+              { id: "d", text: "Generalisation" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -358,11 +358,11 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "The UCS is presented without the CS" },
-              { id: "b", text: "The CS is presented repeatedly without the UCS" },
+              { id: "b", text: "A new stimulus is paired with the CS" },
               { id: "c", text: "The CS and UCS are presented simultaneously every trial" },
-              { id: "d", text: "A new stimulus is paired with the CS" },
+              { id: "d", text: "The CS is presented repeatedly without the UCS" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -493,12 +493,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Adding an unpleasant stimulus" },
-              { id: "b", text: "Removing a pleasant stimulus" },
-              { id: "c", text: "Removing an unpleasant stimulus" },
+              { id: "a", text: "Removing an unpleasant stimulus" },
+              { id: "b", text: "Adding an unpleasant stimulus" },
+              { id: "c", text: "Removing a pleasant stimulus" },
               { id: "d", text: "Adding a pleasant stimulus" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -592,12 +592,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Removing an unpleasant stimulus to increase behaviour" },
-              { id: "b", text: "Adding a pleasant stimulus to increase behaviour" },
+              { id: "a", text: "Adding a pleasant stimulus to increase behaviour" },
+              { id: "b", text: "Removing an unpleasant stimulus to increase behaviour" },
               { id: "c", text: "Adding an unpleasant stimulus to decrease behaviour" },
               { id: "d", text: "Removing a pleasant stimulus to decrease behaviour" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -620,12 +620,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Removing a pleasant stimulus" },
-              { id: "b", text: "Removing an unpleasant stimulus" },
-              { id: "c", text: "Adding an unpleasant stimulus" },
-              { id: "d", text: "Adding a pleasant stimulus" },
+              { id: "a", text: "Adding an unpleasant stimulus" },
+              { id: "b", text: "Adding a pleasant stimulus" },
+              { id: "c", text: "Removing a pleasant stimulus" },
+              { id: "d", text: "Removing an unpleasant stimulus" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -648,10 +648,10 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "After every nth response" },
-              { id: "b", text: "After an unpredictable number of responses" },
+              { id: "a", text: "After an unpredictable number of responses" },
+              { id: "b", text: "At unpredictable time intervals" },
               { id: "c", text: "For the first response after a set amount of time" },
-              { id: "d", text: "At unpredictable time intervals" },
+              { id: "d", text: "After every nth response" },
             ],
             correctChoiceId: "c",
           },
@@ -791,12 +791,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Removing an unpleasant stimulus to increase behaviour" },
-              { id: "b", text: "Removing a pleasant stimulus to decrease behaviour" },
-              { id: "c", text: "Adding an unpleasant stimulus to decrease behaviour" },
-              { id: "d", text: "Adding a pleasant stimulus to increase behaviour" },
+              { id: "a", text: "Adding an unpleasant stimulus to decrease behaviour" },
+              { id: "b", text: "Adding a pleasant stimulus to increase behaviour" },
+              { id: "c", text: "Removing an unpleasant stimulus to increase behaviour" },
+              { id: "d", text: "Removing a pleasant stimulus to decrease behaviour" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -865,12 +865,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Continuous reinforcement" },
-              { id: "b", text: "Variable ratio reinforcement" },
-              { id: "c", text: "Negative punishment" },
+              { id: "a", text: "Variable ratio reinforcement" },
+              { id: "b", text: "Negative punishment" },
+              { id: "c", text: "Continuous reinforcement" },
               { id: "d", text: "Stimulus generalisation" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

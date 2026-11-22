@@ -53,11 +53,11 @@ export const lesson53: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "The introduction" },
-              { id: "b", text: "A comparative thesis" },
+              { id: "b", text: "The conclusion" },
               { id: "c", text: "The first body paragraph" },
-              { id: "d", text: "The conclusion" },
+              { id: "d", text: "A comparative thesis" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -151,12 +151,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "50 minutes writing, 10 minutes planning" },
-              { id: "b", text: "10 minutes planning, 40 minutes writing, 10 minutes review" },
-              { id: "c", text: "30 minutes planning, 20 minutes writing, 10 minutes review" },
+              { id: "a", text: "10 minutes planning, 40 minutes writing, 10 minutes review" },
+              { id: "b", text: "30 minutes planning, 20 minutes writing, 10 minutes review" },
+              { id: "c", text: "50 minutes writing, 10 minutes planning" },
               { id: "d", text: "55 minutes writing, 5 minutes everything else" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -177,10 +177,10 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Write the introduction" },
+              { id: "a", text: "Count the words in the texts" },
               { id: "b", text: "Draft a comparative thesis, even if rough" },
-              { id: "c", text: "Choose quotations for every paragraph" },
-              { id: "d", text: "Count the words in the texts" },
+              { id: "c", text: "Write the introduction" },
+              { id: "d", text: "Choose quotations for every paragraph" },
             ],
             correctChoiceId: "b",
           },
@@ -203,10 +203,10 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "To add more quotations" },
+              { id: "a", text: "To check spelling only" },
               { id: "b", text: "To catch argument-level errors — missing comparison, imbalance, unresolved conclusion — that cost more marks than grammar" },
               { id: "c", text: "To rewrite the introduction" },
-              { id: "d", text: "To check spelling only" },
+              { id: "d", text: "To add more quotations" },
             ],
             correctChoiceId: "b",
           },
@@ -231,8 +231,8 @@ export const lesson53: Lesson = {
             choices: [
               { id: "a", text: "Grammar, then thesis, then pairing" },
               { id: "b", text: "Thesis, pairing, evidence, synthesis, then grammar" },
-              { id: "c", text: "Conclusion, then introduction, then body" },
-              { id: "d", text: "Whatever is quickest to fix" },
+              { id: "c", text: "Whatever is quickest to fix" },
+              { id: "d", text: "Conclusion, then introduction, then body" },
             ],
             correctChoiceId: "b",
           },
@@ -255,12 +255,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Guarantees a high grade" },
-              { id: "b", text: "Ensures a coherent, comparative structure even if writing time runs short" },
+              { id: "a", text: "Ensures a coherent, comparative structure even if writing time runs short" },
+              { id: "b", text: "Guarantees a high grade" },
               { id: "c", text: "Eliminates the need for evidence" },
               { id: "d", text: "Counts as extra marks" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -282,11 +282,11 @@ export const lesson53: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "15/20/10" },
-              { id: "b", text: "8/30/7" },
-              { id: "c", text: "20/20/5" },
-              { id: "d", text: "5/35/5" },
+              { id: "b", text: "20/20/5" },
+              { id: "c", text: "5/35/5" },
+              { id: "d", text: "8/30/7" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -470,12 +470,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Writing about the texts generally" },
-              { id: "b", text: "Ensuring every paragraph serves the question's terms" },
-              { id: "c", text: "Using literary terminology" },
-              { id: "d", text: "Writing a long introduction" },
+              { id: "a", text: "Writing a long introduction" },
+              { id: "b", text: "Using literary terminology" },
+              { id: "c", text: "Ensuring every paragraph serves the question's terms" },
+              { id: "d", text: "Writing about the texts generally" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -575,12 +575,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Only grammatical accuracy" },
-              { id: "b", text: "Knowledge, understanding, analysis, synthesis, evaluation, organisation and communication" },
-              { id: "c", text: "Only the number of quotations used" },
+              { id: "a", text: "Knowledge, understanding, analysis, synthesis, evaluation, organisation and communication" },
+              { id: "b", text: "Only the number of quotations used" },
+              { id: "c", text: "Only grammatical accuracy" },
               { id: "d", text: "Only the essay's length" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -602,11 +602,11 @@ export const lesson53: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Writing about literature in general" },
-              { id: "b", text: "Every claim is supported by evidence from the specific text" },
-              { id: "c", text: "Quoting the entire text" },
-              { id: "d", text: "Using critical theory terminology" },
+              { id: "b", text: "Quoting the entire text" },
+              { id: "c", text: "Using critical theory terminology" },
+              { id: "d", text: "Every claim is supported by evidence from the specific text" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -627,12 +627,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Earns full marks for analysis" },
-              { id: "b", text: "Fails to address the question — analysis without relevance to the question's terms earns limited marks" },
-              { id: "c", text: "Should be longer" },
+              { id: "a", text: "Should be longer" },
+              { id: "b", text: "Earns full marks for analysis" },
+              { id: "c", text: "Fails to address the question — analysis without relevance to the question's terms earns limited marks" },
               { id: "d", text: "Needs more quotations" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -653,10 +653,10 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A memorised speech" },
+              { id: "a", text: "A creative writing piece" },
               { id: "b", text: "A guided literary analysis — a structured commentary on an extract" },
-              { id: "c", text: "A comparison of two full novels" },
-              { id: "d", text: "A creative writing piece" },
+              { id: "c", text: "A memorised speech" },
+              { id: "d", text: "A comparison of two full novels" },
             ],
             correctChoiceId: "b",
           },
@@ -679,12 +679,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Delivering a fully prepared commentary regardless of the extract" },
-              { id: "b", text: "Applying a flexible framework — context, structure, language, themes — while responding to what the text actually does" },
-              { id: "c", text: "Reading the extract aloud slowly" },
-              { id: "d", text: "Listing every literary device without analysis" },
+              { id: "a", text: "Reading the extract aloud slowly" },
+              { id: "b", text: "Listing every literary device without analysis" },
+              { id: "c", text: "Applying a flexible framework — context, structure, language, themes — while responding to what the text actually does" },
+              { id: "d", text: "Delivering a fully prepared commentary regardless of the extract" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -705,12 +705,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "One that lists similarities and differences" },
-              { id: "b", text: "One whose conclusion draws the comparison together into a final judgement about how the texts relate" },
-              { id: "c", text: "One that summarises each text in turn" },
-              { id: "d", text: "One that uses the most technical vocabulary" },
+              { id: "a", text: "One that summarises each text in turn" },
+              { id: "b", text: "One that lists similarities and differences" },
+              { id: "c", text: "One that uses the most technical vocabulary" },
+              { id: "d", text: "One whose conclusion draws the comparison together into a final judgement about how the texts relate" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

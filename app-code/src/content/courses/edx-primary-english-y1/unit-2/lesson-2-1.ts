@@ -49,12 +49,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The prince" },
-              { id: "b", text: "Cinderella" },
+              { id: "a", text: "Cinderella" },
+              { id: "b", text: "The stepmother" },
               { id: "c", text: "The fairy godmother" },
-              { id: "d", text: "The stepmother" },
+              { id: "d", text: "The prince" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -83,12 +83,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Happy" },
-              { id: "b", text: "Scared" },
-              { id: "c", text: "Angry" },
-              { id: "d", text: "Sleepy" },
+              { id: "a", text: "Sleepy" },
+              { id: "b", text: "Angry" },
+              { id: "c", text: "Happy" },
+              { id: "d", text: "Scared" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -227,12 +227,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A castle" },
-              { id: "b", text: "A house in the woods" },
-              { id: "c", text: "A school" },
+              { id: "a", text: "A house in the woods" },
+              { id: "b", text: "A school" },
+              { id: "c", text: "A castle" },
               { id: "d", text: "A beach" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -257,12 +257,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Morning" },
-              { id: "b", text: "Afternoon" },
-              { id: "c", text: "Night" },
-              { id: "d", text: "Evening" },
+              { id: "a", text: "Night" },
+              { id: "b", text: "Morning" },
+              { id: "c", text: "Evening" },
+              { id: "d", text: "Afternoon" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [

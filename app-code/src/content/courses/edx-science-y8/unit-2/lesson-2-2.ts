@@ -56,8 +56,8 @@ export const lesson22: Lesson = {
             choices: [
               { id: "a", text: "Oxygen, $\\text{O}_2$" },
               { id: "b", text: "Carbon dioxide, $\\text{CO}_2$" },
-              { id: "c", text: "Air" },
-              { id: "d", text: "Iron, Fe" },
+              { id: "c", text: "Iron, Fe" },
+              { id: "d", text: "Air" },
             ],
             correctChoiceId: "b",
           },
@@ -186,12 +186,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Filtration" },
-              { id: "b", text: "Evaporation" },
-              { id: "c", text: "Chromatography" },
-              { id: "d", text: "Distillation" },
+              { id: "a", text: "Evaporation" },
+              { id: "b", text: "Chromatography" },
+              { id: "c", text: "Distillation" },
+              { id: "d", text: "Filtration" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

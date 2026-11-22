@@ -54,12 +54,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Vein" },
-              { id: "b", text: "Capillary" },
-              { id: "c", text: "Artery" },
-              { id: "d", text: "Vena cava" },
+              { id: "a", text: "Vena cava" },
+              { id: "b", text: "Artery" },
+              { id: "c", text: "Vein" },
+              { id: "d", text: "Capillary" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -83,9 +83,9 @@ export const lesson52: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "To keep oxygenated and deoxygenated blood separate and maintain high pressure to the body" },
-              { id: "b", text: "To reduce the total volume of blood in the body" },
-              { id: "c", text: "To allow the heart to beat twice as fast" },
-              { id: "d", text: "To prevent blood from entering the lungs" },
+              { id: "b", text: "To allow the heart to beat twice as fast" },
+              { id: "c", text: "To prevent blood from entering the lungs" },
+              { id: "d", text: "To reduce the total volume of blood in the body" },
             ],
             correctChoiceId: "a",
           },
@@ -111,12 +111,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The semilunar valves" },
-              { id: "b", text: "The atrioventricular (AV) valves" },
+              { id: "a", text: "The atrioventricular (AV) valves" },
+              { id: "b", text: "The semilunar valves" },
               { id: "c", text: "Skeletal muscle contraction" },
               { id: "d", text: "Haemoglobin binding oxygen" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -175,11 +175,11 @@ export const lesson52: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "The AV node" },
-              { id: "b", text: "The sinoatrial (SA) node" },
-              { id: "c", text: "A coronary artery" },
-              { id: "d", text: "A heart valve" },
+              { id: "b", text: "A heart valve" },
+              { id: "c", text: "The sinoatrial (SA) node" },
+              { id: "d", text: "A coronary artery" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -202,10 +202,10 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The aorta" },
+              { id: "a", text: "The vena cava" },
               { id: "b", text: "The pulmonary vein" },
               { id: "c", text: "The pulmonary artery" },
-              { id: "d", text: "The vena cava" },
+              { id: "d", text: "The aorta" },
             ],
             correctChoiceId: "c",
           },
@@ -231,12 +231,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The volume of blood pumped by one ventricle per minute" },
-              { id: "b", text: "The total volume of blood in the body" },
-              { id: "c", text: "The pressure inside the arteries" },
-              { id: "d", text: "The number of heartbeats per day" },
+              { id: "a", text: "The total volume of blood in the body" },
+              { id: "b", text: "The volume of blood pumped by one ventricle per minute" },
+              { id: "c", text: "The number of heartbeats per day" },
+              { id: "d", text: "The pressure inside the arteries" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -261,11 +261,11 @@ export const lesson52: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Ventricular systole → atrial systole → diastole" },
-              { id: "b", text: "Diastole (filling) → atrial systole → ventricular systole" },
-              { id: "c", text: "Atrial systole → diastole → ventricular systole" },
+              { id: "b", text: "Atrial systole → diastole → ventricular systole" },
+              { id: "c", text: "Diastole (filling) → atrial systole → ventricular systole" },
               { id: "d", text: "Ventricular systole → diastole → atrial filling only" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -290,12 +290,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Arteries carry blood at much higher pressure leaving the heart, so they need strong walls to resist it" },
+              { id: "a", text: "Arteries must filter the blood before it reaches capillaries" },
               { id: "b", text: "Arteries contain more red blood cells than veins" },
               { id: "c", text: "Veins do not need walls because blood flows by gravity alone" },
-              { id: "d", text: "Arteries must filter the blood before it reaches capillaries" },
+              { id: "d", text: "Arteries carry blood at much higher pressure leaving the heart, so they need strong walls to resist it" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -526,11 +526,11 @@ export const lesson52: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "From blood into the alveolus" },
-              { id: "b", text: "From the alveolus into the blood" },
-              { id: "c", text: "From the trachea into the bronchi" },
-              { id: "d", text: "From the alveolus into the diaphragm" },
+              { id: "b", text: "From the alveolus into the diaphragm" },
+              { id: "c", text: "From the alveolus into the blood" },
+              { id: "d", text: "From the trachea into the bronchi" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -553,12 +553,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Thick walls and a small surface area" },
-              { id: "b", text: "Thin walls, very large surface area, moist lining and dense capillary network" },
+              { id: "a", text: "Thin walls, very large surface area, moist lining and dense capillary network" },
+              { id: "b", text: "Thick walls and a small surface area" },
               { id: "c", text: "Cartilage rings and ciliated lining" },
               { id: "d", text: "Strong muscles and valves" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -582,12 +582,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "ADH decreases and urine becomes more dilute" },
-              { id: "b", text: "ADH increases and urine volume decreases while becoming more concentrated" },
-              { id: "c", text: "ADH is unchanged because it controls sodium, not water" },
-              { id: "d", text: "ADH increases and urine volume increases" },
+              { id: "a", text: "ADH increases and urine volume increases" },
+              { id: "b", text: "ADH is unchanged because it controls sodium, not water" },
+              { id: "c", text: "ADH increases and urine volume decreases while becoming more concentrated" },
+              { id: "d", text: "ADH decreases and urine becomes more dilute" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -644,12 +644,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The diaphragm" },
+              { id: "a", text: "The intercostal relaxers only" },
               { id: "b", text: "The heart" },
-              { id: "c", text: "The intercostal relaxers only" },
-              { id: "d", text: "The abdominal wall" },
+              { id: "c", text: "The abdominal wall" },
+              { id: "d", text: "The diaphragm" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -672,12 +672,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Dissolved CO2 gas only" },
-              { id: "b", text: "Bicarbonate ions in plasma" },
-              { id: "c", text: "Bound to haemoglobin exclusively" },
-              { id: "d", text: "As carbonic acid in red cells only" },
+              { id: "a", text: "As carbonic acid in red cells only" },
+              { id: "b", text: "Bound to haemoglobin exclusively" },
+              { id: "c", text: "Bicarbonate ions in plasma" },
+              { id: "d", text: "Dissolved CO2 gas only" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -701,12 +701,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "To warm incoming air" },
-              { id: "b", text: "To move mucus and trapped particles upward toward the throat" },
-              { id: "c", text: "To exchange oxygen with the blood" },
-              { id: "d", text: "To produce surfactant" },
+              { id: "a", text: "To produce surfactant" },
+              { id: "b", text: "To exchange oxygen with the blood" },
+              { id: "c", text: "To warm incoming air" },
+              { id: "d", text: "To move mucus and trapped particles upward toward the throat" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -730,12 +730,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It makes the capillaries stronger against high blood pressure" },
-              { id: "b", text: "It minimises the diffusion distance so gases cross quickly down their concentration gradients" },
-              { id: "c", text: "It allows red blood cells to pass through the walls" },
-              { id: "d", text: "It prevents carbon dioxide from entering the blood" },
+              { id: "a", text: "It allows red blood cells to pass through the walls" },
+              { id: "b", text: "It prevents carbon dioxide from entering the blood" },
+              { id: "c", text: "It minimises the diffusion distance so gases cross quickly down their concentration gradients" },
+              { id: "d", text: "It makes the capillaries stronger against high blood pressure" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -761,11 +761,11 @@ export const lesson52: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "They would produce concentrated urine and become more dehydrated" },
-              { id: "b", text: "They would be unable to reabsorb water effectively, producing large volumes of dilute urine and worsening dehydration" },
-              { id: "c", text: "They would retain more water because ADH is blocked" },
+              { id: "b", text: "They would retain more water because ADH is blocked" },
+              { id: "c", text: "They would be unable to reabsorb water effectively, producing large volumes of dilute urine and worsening dehydration" },
               { id: "d", text: "No effect, because ADH only controls sodium" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

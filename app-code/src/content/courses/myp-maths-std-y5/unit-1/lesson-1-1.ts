@@ -56,12 +56,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$3\\sqrt{5}$" },
-              { id: "b", text: "$5\\sqrt{3}$" },
-              { id: "c", text: "$9\\sqrt{5}$" },
-              { id: "d", text: "$15$" },
+              { id: "a", text: "$5\\sqrt{3}$" },
+              { id: "b", text: "$3\\sqrt{5}$" },
+              { id: "c", text: "$15$" },
+              { id: "d", text: "$9\\sqrt{5}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -83,12 +83,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$2\\sqrt{3}$" },
+              { id: "a", text: "$\\frac{\\sqrt{3}}{2}$" },
               { id: "b", text: "$3\\sqrt{2}$" },
-              { id: "c", text: "$\\sqrt{18}$" },
-              { id: "d", text: "$\\frac{\\sqrt{3}}{2}$" },
+              { id: "c", text: "$2\\sqrt{3}$" },
+              { id: "d", text: "$\\sqrt{18}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -111,12 +111,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\frac{\\sqrt{5}-1}{2}$" },
-              { id: "b", text: "$\\frac{\\sqrt{5}+1}{3}$" },
-              { id: "c", text: "$2\\sqrt{5}-2$" },
-              { id: "d", text: "$\\frac{1}{\\sqrt{5}-1}$" },
+              { id: "a", text: "$\\frac{\\sqrt{5}+1}{3}$" },
+              { id: "b", text: "$\\frac{1}{\\sqrt{5}-1}$" },
+              { id: "c", text: "$\\frac{\\sqrt{5}-1}{2}$" },
+              { id: "d", text: "$2\\sqrt{5}-2$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -171,12 +171,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$10\\sqrt{2}$" },
-              { id: "b", text: "$5\\sqrt{8}$" },
-              { id: "c", text: "$20\\sqrt{5}$" },
-              { id: "d", text: "$100\\sqrt{2}$" },
+              { id: "a", text: "$5\\sqrt{8}$" },
+              { id: "b", text: "$20\\sqrt{5}$" },
+              { id: "c", text: "$100\\sqrt{2}$" },
+              { id: "d", text: "$10\\sqrt{2}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Surd simplification", statement: "Extract the largest square factor: $\\sqrt{200}=\\sqrt{100\\times2}=10\\sqrt{2}$." }],
@@ -204,12 +204,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$12$" },
-              { id: "b", text: "$\\sqrt{144}$ only" },
-              { id: "c", text: "$6\\sqrt{2}$" },
-              { id: "d", text: "$24$" },
+              { id: "a", text: "$24$" },
+              { id: "b", text: "$6\\sqrt{2}$" },
+              { id: "c", text: "$12$" },
+              { id: "d", text: "$\\sqrt{144}$ only" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Surd multiplication", statement: "$\\sqrt{a}\\times\\sqrt{b}=\\sqrt{ab}$." }],
@@ -258,12 +258,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\frac{\\sqrt{7}+\\sqrt{3}}{4}$" },
-              { id: "b", text: "$\\frac{\\sqrt{7}-\\sqrt{3}}{4}$" },
-              { id: "c", text: "$\\sqrt{7}+\\sqrt{3}$" },
-              { id: "d", text: "$\\frac{1}{4}$" },
+              { id: "a", text: "$\\frac{\\sqrt{7}-\\sqrt{3}}{4}$" },
+              { id: "b", text: "$\\frac{\\sqrt{7}+\\sqrt{3}}{4}$" },
+              { id: "c", text: "$\\frac{1}{4}$" },
+              { id: "d", text: "$\\sqrt{7}+\\sqrt{3}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Conjugate", statement: "Multiply by $\\sqrt{7}+\\sqrt{3}$; denominator $=7-3=4$." }],
@@ -334,12 +334,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\frac{\\sqrt{5}-1}{2}$" },
-              { id: "b", text: "$\\frac{\\sqrt{5}+1}{2}$" },
+              { id: "a", text: "$\\frac{\\sqrt{5}+1}{2}$" },
+              { id: "b", text: "$\\frac{\\sqrt{5}-1}{2}$" },
               { id: "c", text: "$2\\sqrt{5}-2$" },
               { id: "d", text: "$\\frac{2}{\\sqrt{5}-1}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Conjugate", statement: "Multiply by $\\sqrt{5}-1$; denominator $=5-1=4$." }],
@@ -429,8 +429,8 @@ export const lesson11: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "3" },
-              { id: "b", text: "9" },
-              { id: "c", text: "$\\frac{1}{9}$" },
+              { id: "b", text: "$\\frac{1}{9}$" },
+              { id: "c", text: "9" },
               { id: "d", text: "81" },
             ],
             correctChoiceId: "a",
@@ -455,12 +455,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$x^4$" },
-              { id: "b", text: "$x^2$" },
+              { id: "a", text: "$x^2$" },
+              { id: "b", text: "$x^4$" },
               { id: "c", text: "$x^8$" },
               { id: "d", text: "$x^{-2}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -483,12 +483,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$x=\\frac{5}{3}$" },
-              { id: "b", text: "$x=4$" },
-              { id: "c", text: "$x=\\frac{3}{5}$" },
+              { id: "a", text: "$x=4$" },
+              { id: "b", text: "$x=\\frac{3}{5}$" },
+              { id: "c", text: "$x=\\frac{5}{3}$" },
               { id: "d", text: "$x=\\frac{5}{2}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -542,12 +542,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "8" },
-              { id: "b", text: "4" },
-              { id: "c", text: "12" },
-              { id: "d", text: "64" },
+              { id: "a", text: "4" },
+              { id: "b", text: "8" },
+              { id: "c", text: "64" },
+              { id: "d", text: "12" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Fractional index", statement: "$a^{\\frac{m}{n}}=(\\sqrt[n]{a})^m$; $16^{\\frac{3}{4}}=(\\sqrt[4]{16})^3=2^3=8$." }],
@@ -575,12 +575,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$x^4$" },
+              { id: "a", text: "$x^3$" },
               { id: "b", text: "$x^{10}$" },
-              { id: "c", text: "$x^{-4}$" },
-              { id: "d", text: "$x^3$" },
+              { id: "c", text: "$x^4$" },
+              { id: "d", text: "$x^{-4}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "law", name: "Index law", statement: "$a^m\\div a^n=a^{m-n}$; $7-3=4$." }],
@@ -629,12 +629,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$x=2$" },
-              { id: "b", text: "$x=3$" },
+              { id: "a", text: "$x=3$" },
+              { id: "b", text: "$x=2$" },
               { id: "c", text: "$x=4$" },
               { id: "d", text: "$x=\\frac{1}{2}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Same base", statement: "$125=5^3$, so $x+1=3$." }],
@@ -706,12 +706,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$x^{\\frac54}$" },
-              { id: "b", text: "$x^{\\frac38}$" },
-              { id: "c", text: "$x^{\\frac74}$" },
-              { id: "d", text: "$x^2$" },
+              { id: "a", text: "$x^{\\frac74}$" },
+              { id: "b", text: "$x^2$" },
+              { id: "c", text: "$x^{\\frac54}$" },
+              { id: "d", text: "$x^{\\frac38}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "law", name: "Index law", statement: "Add indices: $\\frac12+\\frac34=\\frac54$." }],

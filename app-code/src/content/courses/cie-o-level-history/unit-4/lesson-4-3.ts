@@ -74,12 +74,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "War mobilising entire society and economy" },
-              { id: "b", text: "War only between armies" },
-              { id: "c", text: "Nuclear war" },
+              { id: "a", text: "Nuclear war" },
+              { id: "b", text: "War mobilising entire society and economy" },
+              { id: "c", text: "War only between armies" },
               { id: "d", text: "War with no casualties" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -247,6 +247,454 @@ export const lesson43: Lesson = {
             finalAnswer: "(a) total war (b) mobilise (c) suffering (d) Russia",
           },
         },
+        {
+          id: "oleh-u4-hf-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "What was DORA?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "A peace treaty" },
+              { id: "b", text: "UK Defence of the Realm Act — wartime powers" },
+              { id: "c", text: "A German naval weapon" },
+              { id: "d", text: "A propaganda film" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "DORA",
+                statement: "Defence of the Realm Act — UK wartime powers.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "DORA gave sweeping wartime powers.",
+                marks: 1,
+                markCode: "AO1",
+              },
+            ],
+            finalAnswer: "**(a)** UK Defence of the Realm Act — wartime powers",
+            commonErrors: ["Confusing with other acts."],
+          },
+        },
+        {
+          id: "oleh-u4-hf-q6",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "What caused Germany's 'turnip winter' of 1916–17?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Naval blockade starving the country of food" },
+              { id: "b", text: "Failed harvests alone" },
+              { id: "c", text: "Allied invasion" },
+              { id: "d", text: "A volcanic eruption" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Turnip winter",
+                statement: "Blockade caused severe hunger in Germany.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Blockade cut food supplies.",
+                marks: 1,
+                markCode: "AO1",
+              },
+            ],
+            finalAnswer: "**(a)** Naval blockade starving the country of food",
+            commonErrors: ["Blaming weather/famine only."],
+          },
+        },
+        {
+          id: "oleh-u4-hf-q7",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "In which year was conscription introduced in Britain?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 1916 }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Conscription",
+                statement: "UK conscription introduced 1916.",
+              },
+            ],
+            steps: [
+              { reasoning: "Conscription began 1916.", marks: 1, markCode: "AO1" },
+            ],
+            finalAnswer: "1916",
+          },
+        },
+        {
+          id: "oleh-u4-hf-q8",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "What was unrestricted submarine warfare?",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Unrestricted submarine warfare",
+                statement: "U-boats sinking ships without warning.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "U-boats sank ships without warning.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                reasoning: "Targeted all shipping incl. neutral/US vessels.",
+                marks: 1,
+                markCode: "AO2",
+              },
+            ],
+            finalAnswer:
+              "German U-boats sinking ships without warning — including neutral and American vessels.",
+            commonErrors: ["Confusing with surface warfare."],
+          },
+        },
+        {
+          id: "oleh-u4-hf-q9",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "What was the Spanish flu?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "A peace treaty provision" },
+              { id: "b", text: "A naval battle" },
+              { id: "c", text: "A propaganda campaign" },
+              { id: "d", text: "1918-19 pandemic that killed ~50 million worldwide" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Spanish flu",
+                statement: "1918-19 pandemic, ~50m deaths.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Pandemic killed ~50 million.",
+                marks: 1,
+                markCode: "AO1",
+              },
+            ],
+            finalAnswer: "**(a)** 1918-19 pandemic that killed ~50 million worldwide",
+            commonErrors: ["Underestimating deaths."],
+          },
+        },
+        {
+          id: "oleh-u4-hf-q10",
+          difficulty: "challenge",
+          totalMarks: 3,
+          stem: "Explain two ways propaganda affected the home front in WWI.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Propaganda",
+                statement: "Boosted morale; demonised enemy.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Campaigns boosted morale and recruitment.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                reasoning: "Demonised the enemy; encouraged sacrifice.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              { reasoning: "Clear explanation.", marks: 1, markCode: "AO3" },
+            ],
+            finalAnswer:
+              "Propaganda boosted morale/recruitment and demonised the enemy to encourage sacrifice.",
+            commonErrors: ["Only one effect."],
+          },
+        },
+        {
+          id: "oleh-u4-hf-q11",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "In which year was the Treaty of Brest-Litovsk signed?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 1918 }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Brest-Litovsk",
+                statement: "Signed March 1918.",
+              },
+            ],
+            steps: [
+              { reasoning: "Brest-Litovsk March 1918.", marks: 1, markCode: "AO1" },
+            ],
+            finalAnswer: "1918",
+          },
+        },
+        {
+          id: "oleh-u4-hf-q12",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "What did 'munitionettes' do in WWI?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Drove tanks" },
+              { id: "b", text: "Worked as spies" },
+              { id: "c", text: "Served as nurses at the front" },
+              { id: "d", text: "Built shells and munitions in factories" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Munitions workers",
+                statement: "Women building shells in factories.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Munitions workers built shells.",
+                marks: 1,
+                markCode: "AO1",
+              },
+            ],
+            finalAnswer: "**(a)** Built shells and munitions in factories",
+            commonErrors: ["Confusing with combat roles."],
+          },
+        },
+        {
+          id: "oleh-u4-hf-q13",
+          difficulty: "challenge",
+          totalMarks: 1,
+          stem: "Why did Russia sign the Treaty of Brest-Litovsk?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "The Tsar ordered it" },
+              { id: "b", text: "Russia had won the war" },
+              { id: "c", text: "The new Bolshevik government wanted to exit the war" },
+              { id: "d", text: "Germany offered Russia colonies" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Brest-Litovsk",
+                statement: "Bolsheviks ended Russian involvement.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Bolsheviks wanted out of the war.",
+                marks: 1,
+                markCode: "AO2",
+              },
+            ],
+            finalAnswer: "**(a)** The new Bolshevik government wanted to exit the war",
+            commonErrors: ["Thinking Russia won."],
+          },
+        },
+        {
+          id: "oleh-u4-hf-q14",
+          difficulty: "challenge",
+          totalMarks: 6,
+          stem: "Home front and total war.",
+          parts: [
+            { label: "a", prompt: "Total war definition?", marks: 1 },
+            { label: "b", prompt: "Mobilisation measures?", marks: 2 },
+            { label: "c", prompt: "Civilian suffering?", marks: 2 },
+            { label: "d", prompt: "Russia's exit?", marks: 1 },
+          ],
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Home front",
+                statement: "Definition+mobilisation+suffering+Russia.",
+              },
+            ],
+            steps: [
+              {
+                part: "a",
+                reasoning: "Whole society/economy mobilised.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                part: "b",
+                reasoning: "Rationing, conscription, women workers.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                part: "b",
+                reasoning: "Propaganda campaigns.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                part: "c",
+                reasoning: "Blockade hunger, bombing, Spanish flu.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                part: "c",
+                reasoning: "Correct examples.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                part: "d",
+                reasoning: "1917 revolutions → Brest-Litovsk.",
+                marks: 1,
+                markCode: "AO1",
+              },
+            ],
+            finalAnswer: "(a) total war (b) mobilisation (c) suffering (d) Russia",
+          },
+        },
+        {
+          id: "oleh-u4-hf-q15",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Approximately how many people (in millions) did the Spanish flu kill?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 50, tolerance: 10 }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Spanish flu",
+                statement: "Killed ~50 million.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "~50 million deaths worldwide.",
+                marks: 1,
+                markCode: "AO1",
+              },
+            ],
+            finalAnswer: "50",
+          },
+        },
+        {
+          id: "oleh-u4-hf-q16",
+          difficulty: "challenge",
+          totalMarks: 9,
+          stem: "Explain how total war changed civilian life in WWI.",
+          parts: [
+            { label: "a", prompt: "What was total war?", marks: 1 },
+            { label: "b", prompt: "Mobilisation measures?", marks: 2 },
+            { label: "c", prompt: "Women's changing roles?", marks: 2 },
+            { label: "d", prompt: "Civilian suffering?", marks: 2 },
+            { label: "e", prompt: "Russia's exit?", marks: 2 },
+          ],
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Total war",
+                statement: "Mobilisation+women+suffering+Russia.",
+              },
+            ],
+            steps: [
+              {
+                part: "a",
+                reasoning: "Society+economy mobilised for war.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                part: "b",
+                reasoning: "Rationing/conscription/price controls.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                part: "b",
+                reasoning: "Propaganda and government control (DORA).",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                part: "c",
+                reasoning: "Women replaced men in factories/farms/transport.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                part: "c",
+                reasoning: "'Munitions girls' built shells.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                part: "d",
+                reasoning: "Blockade hunger; bombing; Spanish flu.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                part: "d",
+                reasoning: "Turnip winter in Germany.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                part: "e",
+                reasoning: "1917 revolutions; Bolsheviks.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                part: "e",
+                reasoning: "Brest-Litovsk March 1918 freed German troops.",
+                marks: 1,
+                markCode: "AO2",
+              },
+            ],
+            finalAnswer:
+              "(a) total war (b) mobilisation (c) women (d) suffering (e) Russia",
+          },
+        },
       ],
     },
     {
@@ -290,12 +738,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "April 1917" },
-              { id: "b", text: "August 1914" },
+              { id: "a", text: "August 1914" },
+              { id: "b", text: "April 1917" },
               { id: "c", text: "November 1918" },
               { id: "d", text: "June 1916" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -447,6 +895,456 @@ export const lesson43: Lesson = {
               },
             ],
             finalAnswer: "(a) entry (b) offensives (c) collapse (d) armistice",
+          },
+        },
+        {
+          id: "oleh-u4-ua-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "What was the Zimmermann Telegram?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "German message proposing Mexico attack the USA" },
+              { id: "b", text: "A British naval code" },
+              { id: "c", text: "A treaty with Japan" },
+              { id: "d", text: "A US declaration of war" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Zimmermann Telegram",
+                statement: "1917 German proposal re: Mexico.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Proposed Mexico attack USA.",
+                marks: 1,
+                markCode: "AO1",
+              },
+            ],
+            finalAnswer: "**(a)** German message proposing Mexico attack the USA",
+            commonErrors: ["Confusing with submarine warfare."],
+          },
+        },
+        {
+          id: "oleh-u4-ua-q6",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "What were American soldiers in WWI nicknamed?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Tommy" },
+              { id: "b", text: "Doughboys" },
+              { id: "c", text: "Huns" },
+              { id: "d", text: "Poilus" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Doughboys",
+                statement: "Nickname for US soldiers.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "US troops called doughboys.",
+                marks: 1,
+                markCode: "AO1",
+              },
+            ],
+            finalAnswer: "**(a)** Doughboys",
+            commonErrors: ["Confusing with British 'Tommy'."],
+          },
+        },
+        {
+          id: "oleh-u4-ua-q7",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "In which year was the armistice ending WWI signed?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 1918 }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Armistice",
+                statement: "Signed 11 November 1918.",
+              },
+            ],
+            steps: [
+              { reasoning: "Armistice Nov 1918.", marks: 1, markCode: "AO1" },
+            ],
+            finalAnswer: "1918",
+          },
+        },
+        {
+          id: "oleh-u4-ua-q8",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "What was the Hundred Days Offensive?",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Hundred Days",
+                statement: "Aug-Nov 1918 Allied offensive.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Allied offensive Aug-Nov 1918.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                reasoning: "Pushed Germans back; forced armistice.",
+                marks: 1,
+                markCode: "AO2",
+              },
+            ],
+            finalAnswer:
+              "Allied offensive August-September 1918 that pushed German forces back and led to the armistice.",
+            commonErrors: ["Confusing with Spring Offensive."],
+          },
+        },
+        {
+          id: "oleh-u4-ua-q9",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "What happened to Kaiser Wilhelm II in November 1918?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "He was assassinated" },
+              { id: "b", text: "He led the army to victory" },
+              { id: "c", text: "He abdicated" },
+              { id: "d", text: "He became president" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Kaiser abdication",
+                statement: "Wilhelm II abdicated Nov 1918.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Kaiser abdicated as collapse loomed.",
+                marks: 1,
+                markCode: "AO1",
+              },
+            ],
+            finalAnswer: "**(a)** He abdicated",
+            commonErrors: ["Wrong outcome."],
+          },
+        },
+        {
+          id: "oleh-u4-ua-q10",
+          difficulty: "challenge",
+          totalMarks: 3,
+          stem: "Why did Germany's Spring Offensive of 1918 fail?",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Spring Offensive",
+                statement: "Nearly broke through but exhausted Germany.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Initial gains but overextended.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                reasoning: "Exhausted troops/supplies; fresh US troops arrived.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              { reasoning: "Clear explanation.", marks: 1, markCode: "AO3" },
+            ],
+            finalAnswer:
+              "Offensive gained ground but exhausted Germany; fresh US troops enabled Allied counterattack.",
+            commonErrors: ["Saying it was a total failure immediately."],
+          },
+        },
+        {
+          id: "oleh-u4-ua-q11",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "In which year did the German Spring Offensive take place?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 1918 }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Spring Offensive",
+                statement: "March 1918.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Spring Offensive March 1918.",
+                marks: 1,
+                markCode: "AO1",
+              },
+            ],
+            finalAnswer: "1918",
+          },
+        },
+        {
+          id: "oleh-u4-ua-q12",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "What happened to Germany's allies in late 1918?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "They won the war" },
+              { id: "b", text: "Bulgaria, Austria-Hungary and the Ottoman Empire collapsed" },
+              { id: "c", text: "They joined the Allies" },
+              { id: "d", text: "They invaded France" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Allied collapse",
+                statement: "Central Powers empires collapsed 1918.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Central Powers empires collapsed.",
+                marks: 1,
+                markCode: "AO1",
+              },
+            ],
+            finalAnswer: "**(a)** Bulgaria, Austria-Hungary and the Ottoman Empire collapsed",
+            commonErrors: ["Confusing alliances."],
+          },
+        },
+        {
+          id: "oleh-u4-ua-q13",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "On which date was the WWI armistice signed?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "11 November 1919" },
+              { id: "b", text: "11 November 1918" },
+              { id: "c", text: "4 July 1918" },
+              { id: "d", text: "1 September 1939" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Armistice",
+                statement: "11 November 1918.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Armistice 11 Nov 1918.",
+                marks: 1,
+                markCode: "AO1",
+              },
+            ],
+            finalAnswer: "**(a)** 11 November 1918",
+            commonErrors: ["Confusing with other dates."],
+          },
+        },
+        {
+          id: "oleh-u4-ua-q14",
+          difficulty: "challenge",
+          totalMarks: 6,
+          stem: "USA and the armistice.",
+          parts: [
+            { label: "a", prompt: "US entry reasons?", marks: 2 },
+            { label: "b", prompt: "1918 offensives?", marks: 2 },
+            { label: "c", prompt: "German collapse?", marks: 2 },
+          ],
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "USA/armistice",
+                statement: "Entry+offensives+collapse.",
+              },
+            ],
+            steps: [
+              {
+                part: "a",
+                reasoning: "U-boats/Zimmermann/democracy.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                part: "a",
+                reasoning: "April 1917 entry.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                part: "b",
+                reasoning: "Spring Offensive failed; Hundred Days succeeded.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                part: "b",
+                reasoning: "Fresh US troops decisive.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                part: "c",
+                reasoning: "Exhaustion; allies collapsing.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                part: "c",
+                reasoning: "Kaiser abdicated Nov 1918.",
+                marks: 1,
+                markCode: "AO2",
+              },
+            ],
+            finalAnswer: "(a) entry (b) offensives (c) collapse",
+          },
+        },
+        {
+          id: "oleh-u4-ua-q15",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Approximately how many military personnel died in WWI (in millions)?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 10, tolerance: 2 }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "WWI deaths",
+                statement: "~10 million military dead.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "About 10 million military dead.",
+                marks: 1,
+                markCode: "AO1",
+              },
+            ],
+            finalAnswer: "10",
+          },
+        },
+        {
+          id: "oleh-u4-ua-q16",
+          difficulty: "challenge",
+          totalMarks: 9,
+          stem: "Explain how WWI ended in 1918.",
+          parts: [
+            { label: "a", prompt: "US entry reasons?", marks: 2 },
+            { label: "b", prompt: "1918 offensives?", marks: 2 },
+            { label: "c", prompt: "German collapse?", marks: 2 },
+            { label: "d", prompt: "Armistice and consequences?", marks: 3 },
+          ],
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "End of WWI",
+                statement: "Entry+offensives+collapse+armistice.",
+              },
+            ],
+            steps: [
+              {
+                part: "a",
+                reasoning: "U-boats/Zimmermann → USA enters April 1917.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                part: "a",
+                reasoning: "Fresh US troops decisive.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                part: "b",
+                reasoning: "Spring Offensive failed March 1918.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                part: "b",
+                reasoning: "Hundred Days Offensive Aug-Nov.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                part: "c",
+                reasoning: "Exhaustion+allies collapsing.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                part: "c",
+                reasoning: "Kaiser abdicates; Germany can't continue.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                part: "d",
+                reasoning: "Armistice 11 Nov 1918 ceasefire.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                part: "d",
+                reasoning: "Empires destroyed; ~10m+ dead.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                part: "d",
+                reasoning: "Versailles 1919 set peace terms.",
+                marks: 1,
+                markCode: "AO2",
+              },
+            ],
+            finalAnswer:
+              "(a) US entry (b) offensives (c) collapse (d) armistice/consequences",
           },
         },
       ],

@@ -88,7 +88,7 @@ export const lesson53: Lesson = {
               },
               {
                 "id": "b",
-                "text": "A line graph"
+                "text": "A pictogram"
               },
               {
                 "id": "c",
@@ -96,10 +96,10 @@ export const lesson53: Lesson = {
               },
               {
                 "id": "d",
-                "text": "A pictogram"
+                "text": "A line graph"
               }
             ],
-            "correctChoiceId": "b"
+            "correctChoiceId": "d"
           },
           "markscheme": {
             "principles": [
@@ -357,7 +357,7 @@ export const lesson53: Lesson = {
             "choices": [
               {
                 "id": "a",
-                "text": "Consistency of repeats"
+                "text": "Taking many readings"
               },
               {
                 "id": "b",
@@ -365,11 +365,11 @@ export const lesson53: Lesson = {
               },
               {
                 "id": "c",
-                "text": "Using the most expensive apparatus"
+                "text": "Consistency of repeats"
               },
               {
                 "id": "d",
-                "text": "Taking many readings"
+                "text": "Using the most expensive apparatus"
               }
             ],
             "correctChoiceId": "b"

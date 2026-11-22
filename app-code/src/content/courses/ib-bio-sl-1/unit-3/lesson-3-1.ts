@@ -55,11 +55,11 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "The species" },
-              { id: "b", text: "The genus" },
+              { id: "b", text: "The kingdom" },
               { id: "c", text: "The family" },
-              { id: "d", text: "The kingdom" },
+              { id: "d", text: "The genus" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Binomial nomenclature", statement: "The first part of a binomial name is the genus (capitalised); the second is the species (lowercase)." }],
@@ -80,12 +80,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Kingdom, Phylum, Class, Order, Family, Genus, Species" },
-              { id: "b", text: "Species, Genus, Family, Order, Class, Phylum, Kingdom" },
-              { id: "c", text: "Phylum, Kingdom, Class, Order, Family, Genus, Species" },
+              { id: "a", text: "Phylum, Kingdom, Class, Order, Family, Genus, Species" },
+              { id: "b", text: "Kingdom, Phylum, Class, Order, Family, Genus, Species" },
+              { id: "c", text: "Species, Genus, Family, Order, Class, Phylum, Kingdom" },
               { id: "d", text: "Kingdom, Class, Phylum, Order, Family, Genus, Species" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Taxonomic hierarchy", statement: "Kingdom is the broadest level; species is the most specific." }],
@@ -107,9 +107,9 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Ant" },
-              { id: "b", text: "Spider" },
+              { id: "b", text: "Butterfly" },
               { id: "c", text: "Housefly" },
-              { id: "d", text: "Butterfly" },
+              { id: "d", text: "Spider" },
             ],
             correctChoiceId: "a",
           },
@@ -165,8 +165,8 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "They are the same species because they share a genus" },
-              { id: "b", text: "They belong to different families" },
+              { id: "a", text: "They belong to different families" },
+              { id: "b", text: "They are the same species because they share a genus" },
               { id: "c", text: "They are more closely related to each other than either is to a wolf (*Canis lupus*)" },
               { id: "d", text: "They are unrelated because they cannot interbreed" },
             ],
@@ -214,12 +214,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Felis Catus" },
-              { id: "b", text: "felis catus" },
-              { id: "c", text: "*Felis catus* — genus capitalised, both names italicised" },
-              { id: "d", text: "FELIS CATUS" },
+              { id: "a", text: "*Felis catus* — genus capitalised, both names italicised" },
+              { id: "b", text: "FELIS CATUS" },
+              { id: "c", text: "Felis Catus" },
+              { id: "d", text: "felis catus" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "convention", name: "Binomial nomenclature", statement: "The genus is capitalised, the species is lowercase, and both are italicised (or underlined)." }],
@@ -240,12 +240,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Couplet 2, via statement 2a" },
-              { id: "b", text: "Couplet 3, via statement 1b" },
-              { id: "c", text: "Couplet 6, via statement 3a" },
-              { id: "d", text: "Couplet 7, via statement 3b" },
+              { id: "a", text: "Couplet 7, via statement 3b" },
+              { id: "b", text: "Couplet 6, via statement 3a" },
+              { id: "c", text: "Couplet 2, via statement 2a" },
+              { id: "d", text: "Couplet 3, via statement 1b" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Using a dichotomous key", statement: "Start at couplet 1 and follow the matching statement; each choice leads to the next couplet." }],
@@ -292,12 +292,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Domestic cat (*Felis catus*) — both are carnivores in order Carnivora" },
-              { id: "b", text: "Earthworm — both are invertebrates" },
-              { id: "c", text: "Oak tree — both are multicellular" },
-              { id: "d", text: "Mushroom — both are decomposers" },
+              { id: "a", text: "Oak tree — both are multicellular" },
+              { id: "b", text: "Mushroom — both are decomposers" },
+              { id: "c", text: "Domestic cat (*Felis catus*) — both are carnivores in order Carnivora" },
+              { id: "d", text: "Earthworm — both are invertebrates" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Classification", statement: "Organisms sharing an order share a more recent common ancestor than those sharing only a kingdom or broad features." }],
@@ -320,8 +320,8 @@ export const lesson31: Lesson = {
             choices: [
               { id: "a", text: "Either statement can be chosen — both lead to the same result" },
               { id: "b", text: "The specimen is atypical or the key is poorly constructed, since each specimen should match only one statement" },
-              { id: "c", text: "The key should be abandoned immediately" },
-              { id: "d", text: "The specimen belongs to two different species" },
+              { id: "c", text: "The specimen belongs to two different species" },
+              { id: "d", text: "The key should be abandoned immediately" },
             ],
             correctChoiceId: "b",
           },
@@ -514,11 +514,11 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "All species were created at the same time" },
-              { id: "b", text: "Fossils showing gradual changes in species over geological time" },
-              { id: "c", text: "The fact that all organisms are perfectly adapted" },
+              { id: "b", text: "The fact that all organisms are perfectly adapted" },
+              { id: "c", text: "Fossils showing gradual changes in species over geological time" },
               { id: "d", text: "The similarity of all living cells" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Evidence for evolution", statement: "Fossils, comparative anatomy, DNA/protein similarity and biogeography all support common descent with modification." }],
@@ -539,12 +539,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The process by which organisms choose their mates" },
-              { id: "b", text: "The process by which advantageous inherited traits become more common in a population over generations" },
-              { id: "c", text: "The process by which an organism adapts during its lifetime" },
-              { id: "d", text: "The process by which all organisms become identical" },
+              { id: "a", text: "The process by which all organisms become identical" },
+              { id: "b", text: "The process by which an organism adapts during its lifetime" },
+              { id: "c", text: "The process by which organisms choose their mates" },
+              { id: "d", text: "The process by which advantageous inherited traits become more common in a population over generations" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Natural selection", statement: "Individuals with advantageous inherited traits survive and reproduce more, increasing the frequency of those alleles over time." }],
@@ -565,12 +565,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The insects learned to avoid the pesticide and passed this behaviour to offspring" },
-              { id: "b", text: "Random mutations produced some resistant insects; they survived spraying and reproduced, so resistance became common" },
-              { id: "c", text: "The pesticide caused mutations that made all insects resistant" },
-              { id: "d", text: "The insects gradually became immune through repeated exposure" },
+              { id: "a", text: "The pesticide caused mutations that made all insects resistant" },
+              { id: "b", text: "The insects gradually became immune through repeated exposure" },
+              { id: "c", text: "Random mutations produced some resistant insects; they survived spraying and reproduced, so resistance became common" },
+              { id: "d", text: "The insects learned to avoid the pesticide and passed this behaviour to offspring" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Natural selection", statement: "Selection acts on pre-existing genetic variation; advantageous alleles increase in frequency over generations." }],
@@ -624,12 +624,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Individual organisms learning useful behaviours during their lifetime" },
-              { id: "b", text: "Natural selection acting on heritable variation" },
+              { id: "a", text: "Natural selection acting on heritable variation" },
+              { id: "b", text: "Artificial selection carried out by humans" },
               { id: "c", text: "The environment directly instructing DNA to change" },
-              { id: "d", text: "Artificial selection carried out by humans" },
+              { id: "d", text: "Individual organisms learning useful behaviours during their lifetime" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Natural selection", statement: "Natural selection changes allele frequencies because individuals with advantageous alleles survive and reproduce more successfully." }],
@@ -650,12 +650,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It is produced deliberately by the environment to meet the organism's needs" },
-              { id: "b", text: "It arises randomly through mutation and the reshuffling of alleles during meiosis" },
+              { id: "a", text: "All members of a species are genetically identical" },
+              { id: "b", text: "It is produced deliberately by the environment to meet the organism's needs" },
               { id: "c", text: "It is created when organisms struggle to survive" },
-              { id: "d", text: "All members of a species are genetically identical" },
+              { id: "d", text: "It arises randomly through mutation and the reshuffling of alleles during meiosis" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Variation", statement: "Genetic variation arises randomly from mutation and meiosis; selection does not create variation." }],
@@ -676,12 +676,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Soot caused moths to mutate into dark forms" },
-              { id: "b", text: "Dark moths were camouflaged on darkened trees, survived bird predation better, and the dark allele increased in frequency" },
-              { id: "c", text: "Light moths migrated away and dark moths moved in to replace them" },
-              { id: "d", text: "Birds preferentially ate light moths because they were easier to see" },
+              { id: "a", text: "Dark moths were camouflaged on darkened trees, survived bird predation better, and the dark allele increased in frequency" },
+              { id: "b", text: "Soot caused moths to mutate into dark forms" },
+              { id: "c", text: "Birds preferentially ate light moths because they were easier to see" },
+              { id: "d", text: "Light moths migrated away and dark moths moved in to replace them" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Natural selection", statement: "Differential survival due to camouflage changes allele frequencies in the population." }],
@@ -704,11 +704,11 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Antibiotic resistance evolving in a population of bacteria" },
-              { id: "b", text: "A farmer breeding dairy cattle with the highest milk yield over many generations" },
-              { id: "c", text: "Galápagos finches diverging into different species on separate islands" },
-              { id: "d", text: "Industrial melanism in peppered moths" },
+              { id: "b", text: "Industrial melanism in peppered moths" },
+              { id: "c", text: "A farmer breeding dairy cattle with the highest milk yield over many generations" },
+              { id: "d", text: "Galápagos finches diverging into different species on separate islands" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Artificial selection", statement: "Humans selectively breed organisms with desired traits, changing the population over generations." }],
@@ -912,12 +912,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Dark moths surviving better on polluted trees" },
-              { id: "b", text: "A storm randomly kills most individuals in a small island population, changing allele frequencies by chance" },
-              { id: "c", text: "Cattle bred for high milk yield over generations" },
+              { id: "a", text: "Cattle bred for high milk yield over generations" },
+              { id: "b", text: "Dark moths surviving better on polluted trees" },
+              { id: "c", text: "A storm randomly kills most individuals in a small island population, changing allele frequencies by chance" },
               { id: "d", text: "Antibiotic-resistant bacteria surviving treatment" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Genetic drift", statement: "Random changes in allele frequencies, especially in small populations, unrelated to fitness advantages." }],

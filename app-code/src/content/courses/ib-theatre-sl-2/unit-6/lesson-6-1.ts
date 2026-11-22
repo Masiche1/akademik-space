@@ -55,12 +55,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Judging the performance's quality" },
-              { id: "b", text: "Stating what was objectively present in the performance" },
-              { id: "c", text: "Comparing to other productions" },
-              { id: "d", text: "Writing about the playwright" },
+              { id: "a", text: "Comparing to other productions" },
+              { id: "b", text: "Writing about the playwright" },
+              { id: "c", text: "Judging the performance's quality" },
+              { id: "d", text: "Stating what was objectively present in the performance" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -156,10 +156,10 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Description" },
-              { id: "b", text: "Analysis" },
+              { id: "a", text: "Analysis" },
+              { id: "b", text: "Context" },
               { id: "c", text: "Evaluation" },
-              { id: "d", text: "Context" },
+              { id: "d", text: "Description" },
             ],
             correctChoiceId: "c",
           },
@@ -185,12 +185,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The ticket price of the performance" },
-              { id: "b", text: "The circumstances surrounding the performance, such as its production history or cultural setting" },
-              { id: "c", text: "The colour of the costumes" },
+              { id: "a", text: "The circumstances surrounding the performance, such as its production history or cultural setting" },
+              { id: "b", text: "The colour of the costumes" },
+              { id: "c", text: "The ticket price of the performance" },
               { id: "d", text: "The actors' ages" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -214,12 +214,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It uses an evaluative adjective" },
-              { id: "b", text: "It cites a specific moment in the performance" },
-              { id: "c", text: "It is written in the past tense" },
-              { id: "d", text: "It names the lighting designer" },
+              { id: "a", text: "It names the lighting designer" },
+              { id: "b", text: "It uses an evaluative adjective" },
+              { id: "c", text: "It cites a specific moment in the performance" },
+              { id: "d", text: "It is written in the past tense" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -244,11 +244,11 @@ export const lesson61: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "'The play was really good.'" },
-              { id: "b", text: "'The minimalist set focused attention on the actors' stillness.'" },
+              { id: "b", text: "'The actors tried very hard.'" },
               { id: "c", text: "'I enjoyed the costumes.'" },
-              { id: "d", text: "'The actors tried very hard.'" },
+              { id: "d", text: "'The minimalist set focused attention on the actors' stillness.'" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -272,12 +272,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It cites too much evidence" },
-              { id: "b", text: "It judges the work by criteria inappropriate to its genre" },
-              { id: "c", text: "It lacks a context section" },
-              { id: "d", text: "It describes the plot in detail" },
+              { id: "a", text: "It judges the work by criteria inappropriate to its genre" },
+              { id: "b", text: "It cites too much evidence" },
+              { id: "c", text: "It describes the plot in detail" },
+              { id: "d", text: "It lacks a context section" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -301,12 +301,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "To write a longer review" },
-              { id: "b", text: "To judge the work against appropriate criteria for that form" },
+              { id: "a", text: "To judge the work against appropriate criteria for that form" },
+              { id: "b", text: "To write a longer review" },
               { id: "c", text: "To avoid naming the genre" },
               { id: "d", text: "To imitate the production's style" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -507,11 +507,11 @@ export const lesson61: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "The actors' fame" },
-              { id: "b", text: "The believability, skill and commitment of the performances" },
-              { id: "c", text: "The costume quality" },
+              { id: "b", text: "The costume quality" },
+              { id: "c", text: "The believability, skill and commitment of the performances" },
               { id: "d", text: "The ticket price" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -607,12 +607,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Acting quality" },
-              { id: "b", text: "Pace" },
-              { id: "c", text: "Costume design" },
-              { id: "d", text: "Ticket sales" },
+              { id: "a", text: "Pace" },
+              { id: "b", text: "Acting quality" },
+              { id: "c", text: "Ticket sales" },
+              { id: "d", text: "Costume design" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -636,12 +636,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The director's fame" },
-              { id: "b", text: "The director's interpretive concept and how clearly it was executed" },
-              { id: "c", text: "The theatre's marketing" },
-              { id: "d", text: "The audience's reaction" },
+              { id: "a", text: "The audience's reaction" },
+              { id: "b", text: "The theatre's marketing" },
+              { id: "c", text: "The director's interpretive concept and how clearly it was executed" },
+              { id: "d", text: "The director's fame" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -665,12 +665,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Ignore the acting entirely" },
+              { id: "a", text: "Judge only the staging" },
               { id: "b", text: "Praise every element equally" },
-              { id: "c", text: "Evaluate each element independently" },
-              { id: "d", text: "Judge only the staging" },
+              { id: "c", text: "Ignore the acting entirely" },
+              { id: "d", text: "Evaluate each element independently" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -696,8 +696,8 @@ export const lesson61: Lesson = {
             choices: [
               { id: "a", text: "Comparing it to the reviewer's favourite play" },
               { id: "b", text: "Evaluating it against its apparent aims and conventions" },
-              { id: "c", text: "Ignoring technical quality" },
-              { id: "d", text: "Assuming it is perfect" },
+              { id: "c", text: "Assuming it is perfect" },
+              { id: "d", text: "Ignoring technical quality" },
             ],
             correctChoiceId: "b",
           },
@@ -724,11 +724,11 @@ export const lesson61: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Description" },
-              { id: "b", text: "Contextualising" },
-              { id: "c", text: "Plot summary" },
-              { id: "d", text: "Casting" },
+              { id: "b", text: "Plot summary" },
+              { id: "c", text: "Casting" },
+              { id: "d", text: "Contextualising" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -752,12 +752,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It avoids making any judgement" },
-              { id: "b", text: "It shows that elements can succeed or fail independently" },
+              { id: "a", text: "It shows that elements can succeed or fail independently" },
+              { id: "b", text: "It avoids making any judgement" },
               { id: "c", text: "It flatters the actors" },
               { id: "d", text: "It shortens the review" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

@@ -46,8 +46,11 @@ export const lesson12: Lesson = {
           totalMarks: 1,
           stem: "What is the value of the digit 7 in 374?",
           response: { type: "mcq", choices: [
-            { id: "a", text: "7" }, { id: "b", text: "70" }, { id: "c", text: "700" }, { id: "d", text: "7000" },
-          ], correctChoiceId: "b" },
+            { id: "a", text: "70" },
+            { id: "b", text: "7" },
+            { id: "c", text: "700" },
+            { id: "d", text: "7000" },
+          ], correctChoiceId: "a" },
           markscheme: {
             principles: [{ kind: "definition", name: "Place value", statement: "Digit value depends on position." }],
             steps: [{ reasoning: "The 7 is in the tens column, so it is worth 70.", marks: 1, markCode: "A" }],
@@ -108,8 +111,11 @@ export const lesson12: Lesson = {
           totalMarks: 1,
           stem: "What is the value of the digit 5 in 572?",
           response: { type: "mcq", choices: [
-            { id: "a", text: "5" }, { id: "b", text: "50" }, { id: "c", text: "500" }, { id: "d", text: "5000" },
-          ], correctChoiceId: "c" },
+            { id: "a", text: "500" },
+            { id: "b", text: "5" },
+            { id: "c", text: "50" },
+            { id: "d", text: "5000" },
+          ], aorrectChoiceId: "c" },
           markscheme: {
             principles: [{ kind: "definition", name: "Place value", statement: "Digit value depends on position." }],
             steps: [{ reasoning: "The 5 is in the hundreds column, so it is worth 500.", marks: 1, markCode: "A" }],
@@ -139,8 +145,11 @@ export const lesson12: Lesson = {
           totalMarks: 1,
           stem: "Which number is made of 7 hundreds, 3 tens and 9 ones?",
           response: { type: "mcq", choices: [
-            { id: "a", text: "739" }, { id: "b", text: "793" }, { id: "c", text: "937" }, { id: "d", text: "379" },
-          ], correctChoiceId: "a" },
+            { id: "a", text: "793" },
+            { id: "b", text: "739" },
+            { id: "c", text: "937" },
+            { id: "d", text: "379" },
+          ], correctChoiceId: "b" },
           markscheme: {
             principles: [{ kind: "definition", name: "Place value", statement: "Hundreds, then tens, then ones." }],
             steps: [{ reasoning: "7 hundreds = 700, 3 tens = 30, 9 ones = 9, so $700 + 30 + 9 = 739$.", marks: 1, markCode: "A" }],
@@ -185,8 +194,11 @@ export const lesson12: Lesson = {
           totalMarks: 1,
           stem: "Which is the smallest number: 308, 380, 803 or 830?",
           response: { type: "mcq", choices: [
-            { id: "a", text: "308" }, { id: "b", text: "380" }, { id: "c", text: "803" }, { id: "d", text: "830" },
-          ], correctChoiceId: "a" },
+            { id: "a", text: "803" },
+            { id: "b", text: "380" },
+            { id: "c", text: "830" },
+            { id: "d", text: "308" },
+          ], correctChoiceId: "d" },
           markscheme: {
             principles: [{ kind: "technique", name: "Comparing", statement: "Compare hundreds first." }],
             steps: [{ reasoning: "308 and 380 have 3 hundreds; all others have 8 hundreds. Of 308 and 380, 308 has fewer tens.", marks: 1, markCode: "A" }],
@@ -230,8 +242,11 @@ export const lesson12: Lesson = {
           totalMarks: 2,
           stem: "Which list shows the numbers in order from smallest to largest?",
           response: { type: "mcq", choices: [
-            { id: "a", text: "412, 421, 142" }, { id: "b", text: "142, 412, 421" }, { id: "c", text: "142, 421, 412" }, { id: "d", text: "421, 412, 142" },
-          ], correctChoiceId: "b" },
+            { id: "a", text: "412, 421, 142" },
+            { id: "b", text: "142, 421, 412" },
+            { id: "c", text: "142, 412, 421" },
+            { id: "d", text: "421, 412, 142" },
+          ], correctChoiceId: "c" },
           markscheme: {
             principles: [{ kind: "technique", name: "Ordering", statement: "Compare hundreds, then tens, then ones." }],
             steps: [
@@ -323,8 +338,11 @@ export const lesson12: Lesson = {
           totalMarks: 1,
           stem: "What is $45 - 23$?",
           response: { type: "mcq", choices: [
-            { id: "a", text: "22" }, { id: "b", text: "32" }, { id: "c", text: "28" }, { id: "d", text: "68" },
-          ], correctChoiceId: "a" },
+            { id: "a", text: "32" },
+            { id: "b", text: "22" },
+            { id: "c", text: "68" },
+            { id: "d", text: "28" },
+          ], correctChoiceId: "b" },
           markscheme: {
             principles: [{ kind: "technique", name: "Subtraction", statement: "Subtract ones then tens." }],
             steps: [{ reasoning: "$45 - 23 = 22$.", marks: 1, markCode: "A" }],
@@ -376,6 +394,203 @@ export const lesson12: Lesson = {
               { reasoning: "Answer: 35.", marks: 1, markCode: "A" },
             ],
             finalAnswer: "35",
+          },
+        },
+        {
+          id: "cipm-u1-s2-sub-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "What is $68 - 35$?",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "33" },
+            { id: "b", text: "103" },
+            { id: "c", text: "43" },
+            { id: "d", text: "23" },
+          ], correctChoiceId: "a" },
+          markscheme: {
+            principles: [{ kind: "technique", name: "Subtraction", statement: "Subtract ones then tens." }],
+            steps: [{ reasoning: "$68 - 35 = 33$.", marks: 1, markCode: "A" }],
+            finalAnswer: "33",
+          },
+        },
+        {
+          id: "cipm-u1-s2-sub-q6",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "What is $76 - 29$?",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "43" },
+            { id: "b", text: "47" },
+            { id: "c", text: "57" },
+            { id: "d", text: "53" },
+          ], correctChoiceId: "b" },
+          markscheme: {
+            principles: [{ kind: "technique", name: "Exchange", statement: "Exchange a ten when ones are too small." }],
+            steps: [{ reasoning: "Exchange: 76 becomes 6 tens and 16 ones; $16 - 9 = 7$ and $6 - 2 = 4$, so the answer is 47.", marks: 1, markCode: "A" }],
+            finalAnswer: "47",
+          },
+        },
+        {
+          id: "cipm-u1-s2-sub-q7",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "Work out $85 - 48$.",
+          response: { type: "numeric", parts: [{ label: "a", answer: 37 }] },
+          markscheme: {
+            principles: [{ kind: "technique", name: "Exchange", statement: "Exchange a ten when ones are too small." }],
+            steps: [
+              { reasoning: "Exchange: 85 becomes 7 tens and 15 ones.", marks: 1, markCode: "M" },
+              { reasoning: "$15 - 8 = 7$; $7 - 4 = 3$; answer 37.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "37",
+          },
+        },
+        {
+          id: "cipm-u1-s2-sub-q8",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "There are 60 pencils in a box. 27 pencils are taken out. How many pencils are left in the box?",
+          response: { type: "open" },
+          markscheme: {
+            principles: [{ kind: "technique", name: "Subtraction word problem", statement: "Left over means subtract." }],
+            steps: [
+              { reasoning: "Work out $60 - 27$.", marks: 1, markCode: "M" },
+              { reasoning: "Exchange: 60 becomes 5 tens and 10 ones; $10 - 7 = 3$ and $5 - 2 = 3$.", marks: 1, markCode: "M" },
+              { reasoning: "33 pencils are left in the box.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "33 pencils",
+          },
+        },
+        {
+          id: "cipm-u1-s2-sub-q9",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Which subtraction needs exchanging a ten?",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "$43 - 18$" },
+            { id: "b", text: "$65 - 30$" },
+            { id: "c", text: "$52 - 21$" },
+            { id: "d", text: "$76 - 54$" },
+          ], aorrectChoiceId: "c" },
+          markscheme: {
+            principles: [{ kind: "technique", name: "Exchange", statement: "Exchange when the top ones digit is smaller." }],
+            steps: [{ reasoning: "Only $43 - 18$ has 3 ones, which is less than 8 ones, so a ten must be exchanged.", marks: 1, markCode: "A" }],
+            finalAnswer: "$43 - 18$",
+          },
+        },
+        {
+          id: "cipm-u1-s2-sub-q10",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "What is the missing number: $84 - \\_\\_ = 56$?",
+          response: { type: "numeric", parts: [{ label: "a", answer: 28 }] },
+          markscheme: {
+            principles: [{ kind: "technique", name: "Inverse operation", statement: "Addition undoes subtraction." }],
+            steps: [
+              { reasoning: "$84 - 56 = 28$; check: $56 + 28 = 84$.", marks: 1, markCode: "M" },
+              { reasoning: "Missing number is 28.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "28",
+          },
+        },
+        {
+          id: "cipm-u1-s2-sub-q11",
+          difficulty: "challenge",
+          totalMarks: 1,
+          stem: "Mia works out $70 - 34 = 36$. Which addition can she use to check her answer?",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "$34 + 36 = 70$" },
+            { id: "b", text: "$70 + 34 = 104$" },
+            { id: "c", text: "$36 + 34 = 71$" },
+            { id: "d", text: "$36 - 34 = 2$" },
+          ], correctChoiceId: "a" },
+          markscheme: {
+            principles: [{ kind: "technique", name: "Inverse check", statement: "Subtraction is checked by adding the answer to the smaller number." }],
+            steps: [{ reasoning: "Addition is the inverse of subtraction: $34 + 36 = 70$ checks $70 - 34 = 36$.", marks: 1, markCode: "A" }],
+            finalAnswer: "$34 + 36 = 70$",
+          },
+        },
+        {
+          id: "cipm-u1-s2-sub-q12",
+          difficulty: "challenge",
+          totalMarks: 2,
+          stem: "Work out (a) $97 - 68$. (b) What is 3 more than your answer to part (a)?",
+          response: { type: "numeric", parts: [
+            { label: "a", answer: 29 }, { label: "b", answer: 32 },
+          ] },
+          markscheme: {
+            principles: [{ kind: "technique", name: "Exchange", statement: "Exchange a ten when ones are too small." }],
+            steps: [
+              { reasoning: "Exchange: 97 becomes 8 tens and 17 ones; $17 - 8 = 9$ and $8 - 6 = 2$; answer 29.", marks: 1, markCode: "M" },
+              { reasoning: "Part (b): $29 + 3 = 32$.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "29 and 32",
+          },
+        },
+        {
+          id: "cipm-u1-s2-sub-q13",
+          difficulty: "challenge",
+          totalMarks: 3,
+          stem: "A box holds 95 marbles. 36 of the marbles are red and the rest are blue. How many marbles are blue?",
+          response: { type: "open" },
+          markscheme: {
+            principles: [{ kind: "technique", name: "Subtraction word problem", statement: "The rest means subtract." }],
+            steps: [
+              { reasoning: "Work out $95 - 36$.", marks: 1, markCode: "M" },
+              { reasoning: "Exchange: 95 becomes 8 tens and 15 ones; $15 - 6 = 9$ and $8 - 3 = 5$.", marks: 1, markCode: "M" },
+              { reasoning: "59 marbles are blue.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "59 marbles",
+          },
+        },
+        {
+          id: "cipm-u1-s2-sub-q14",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "What is $52 - 21$?",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "41" },
+            { id: "b", text: "33" },
+            { id: "c", text: "71" },
+            { id: "d", text: "31" },
+          ], correctChoiceId: "d" },
+          markscheme: {
+            principles: [{ kind: "technique", name: "Subtraction", statement: "Subtract ones then tens." }],
+            steps: [{ reasoning: "$52 - 21 = 31$.", marks: 1, markCode: "A" }],
+            finalAnswer: "31",
+          },
+        },
+        {
+          id: "cipm-u1-s2-sub-q15",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "What is $60 - 27$?",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "23" },
+            { id: "b", text: "33" },
+            { id: "c", text: "37" },
+            { id: "d", text: "43" },
+          ], correctChoiceId: "b" },
+          markscheme: {
+            principles: [{ kind: "technique", name: "Exchange", statement: "Exchange a ten when ones are too small." }],
+            steps: [{ reasoning: "Exchange: 60 becomes 5 tens and 10 ones; $10 - 7 = 3$ and $5 - 2 = 3$, so the answer is 33.", marks: 1, markCode: "A" }],
+            finalAnswer: "33",
+          },
+        },
+        {
+          id: "cipm-u1-s2-sub-q16",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "Work out (a) $75 - 38$. (b) What is 100 less than your answer to part (a)?",
+          response: { type: "open" },
+          markscheme: {
+            principles: [{ kind: "technique", name: "Subtraction and place value steps", statement: "100 less reduces the hundreds digit." }],
+            steps: [
+              { reasoning: "Exchange: 75 becomes 6 tens and 15 ones; $15 - 8 = 7$ and $6 - 3 = 3$; answer 37.", marks: 1, markCode: "M" },
+              { reasoning: "Part (b): $100 - 37 = 63$.", marks: 1, markCode: "M" },
+              { reasoning: "Answers: 37 and 63.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "37 and 63",
           },
         },
       ],

@@ -51,12 +51,12 @@ export const lesson102: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "again" },
-              { id: "b", text: "not" },
-              { id: "c", text: "before" },
-              { id: "d", text: "wrongly" },
+              { id: "a", text: "not" },
+              { id: "b", text: "before" },
+              { id: "c", text: "wrongly" },
+              { id: "d", text: "again" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -76,11 +76,11 @@ export const lesson102: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "not" },
-              { id: "b", text: "again" },
+              { id: "b", text: "under" },
               { id: "c", text: "before" },
-              { id: "d", text: "under" },
+              { id: "d", text: "again" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -208,10 +208,10 @@ export const lesson102: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "earth" },
+              { id: "a", text: "sound" },
               { id: "b", text: "life" },
-              { id: "c", text: "sound" },
-              { id: "d", text: "write" },
+              { id: "c", text: "write" },
+              { id: "d", text: "earth" },
             ],
             correctChoiceId: "b",
           },
@@ -232,12 +232,12 @@ export const lesson102: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "carry" },
-              { id: "b", text: "look" },
-              { id: "c", text: "say" },
-              { id: "d", text: "throw" },
+              { id: "a", text: "look" },
+              { id: "b", text: "carry" },
+              { id: "c", text: "throw" },
+              { id: "d", text: "say" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

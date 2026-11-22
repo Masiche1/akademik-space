@@ -57,12 +57,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Pulmonary artery" },
-              { id: "b", text: "Vena cava" },
-              { id: "c", text: "Aorta" },
+              { id: "a", text: "Aorta" },
+              { id: "b", text: "Pulmonary artery" },
+              { id: "c", text: "Vena cava" },
               { id: "d", text: "Pulmonary vein" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -84,10 +84,10 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Active transport by living xylem cells" },
+              { id: "a", text: "Phloem loading pressure" },
               { id: "b", text: "Transpiration pull from evaporation at the leaves" },
               { id: "c", text: "Root pressure alone" },
-              { id: "d", text: "Phloem loading pressure" },
+              { id: "d", text: "Active transport by living xylem cells" },
             ],
             correctChoiceId: "b",
           },
@@ -112,12 +112,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Reduced oxygen delivery to body tissues because blood leaks back into the ventricle" },
-              { id: "b", text: "Improved circulation due to extra pumping" },
+              { id: "a", text: "Improved circulation due to extra pumping" },
+              { id: "b", text: "Reduced oxygen delivery to body tissues because blood leaks back into the ventricle" },
               { id: "c", text: "No effect because valves are not essential" },
               { id: "d", text: "Blood flows backwards to the lungs only" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -205,7 +205,7 @@ export const lesson23: Lesson = {
           difficulty: "core",
           totalMarks: 1,
           stem: "Which vessel type allows exchange of substances between blood and tissues?",
-          response: { type: "mcq", choices: [{ id: "a", text: "Artery" }, { id: "b", text: "Vein" }, { id: "c", text: "Capillary" }, { id: "d", text: "Lymph vessel" }], correctChoiceId: "c" },
+          response: { type: "mcq", choices: [ { id: "a", text: "Capillary" }, { id: "b", text: "Lymph vessel" }, { id: "c", text: "Vein" }, { id: "d", text: "Artery" } ], aorrectChoiceId: "c" },
           markscheme: { principles: [{ kind: "definition", name: "Capillary", statement: "Capillaries are thin-walled vessels where exchange occurs." }], steps: [{ reasoning: "Capillaries have thin walls and slow flow for diffusion.", working: "capillary", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Capillary" },
         },
         {
@@ -233,7 +233,7 @@ export const lesson23: Lesson = {
           difficulty: "challenge",
           totalMarks: 1,
           stem: "Why are valves important in veins and the heart?",
-          response: { type: "mcq", choices: [{ id: "a", text: "They increase blood pressure" }, { id: "b", text: "They prevent backflow of blood" }, { id: "c", text: "They produce hormones" }, { id: "d", text: "They filter blood" }], correctChoiceId: "b" },
+          response: { type: "mcq", choices: [ { id: "a", text: "They increase blood pressure" }, { id: "b", text: "They filter blood" }, { id: "c", text: "They produce hormones" }, { id: "d", text: "They prevent backflow of blood" } ], correctChoiceId: "d" },
           markscheme: { principles: [{ kind: "definition", name: "Valves", statement: "Valves ensure one-way blood flow and prevent backflow." }], steps: [{ reasoning: "Valves close when blood would reverse direction.", working: "one-way", marks: 1, markCode: "B" }], finalAnswer: "**(b)** They prevent backflow of blood" },
         },
         {
@@ -261,7 +261,7 @@ export const lesson23: Lesson = {
           difficulty: "core",
           totalMarks: 1,
           stem: "Which statement correctly compares xylem and phloem?",
-          response: { type: "mcq", choices: [{ id: "a", text: "Xylem carries sugars; phloem carries water" }, { id: "b", text: "Xylem carries water upward; phloem carries sucrose from sources to sinks" }, { id: "c", text: "Both tissues are living sieve tubes" }, { id: "d", text: "Phloem only moves upward" }], correctChoiceId: "b" },
+          response: { type: "mcq", choices: [ { id: "a", text: "Xylem carries sugars; phloem carries water" }, { id: "b", text: "Phloem only moves upward" }, { id: "c", text: "Xylem carries water upward; phloem carries sucrose from sources to sinks" }, { id: "d", text: "Both tissues are living sieve tubes" } ], correctChoiceId: "c" },
           markscheme: { principles: [{ kind: "comparison", name: "Plant transport", statement: "Xylem = water/minerals upward; phloem = sucrose source-to-sink." }], steps: [{ reasoning: "Xylem is dead lignified tissue; phloem contains living sieve tubes.", working: "xylem\\neq phloem", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Xylem carries water upward; phloem carries sucrose from sources to sinks" },
         },
         {
@@ -269,7 +269,7 @@ export const lesson23: Lesson = {
           difficulty: "challenge",
           totalMarks: 1,
           stem: "Which adaptation helps plants in dry habitats reduce water loss?",
-          response: { type: "mcq", choices: [{ id: "a", text: "Sunken stomata and a waxy cuticle" }, { id: "b", text: "More open stomata" }, { id: "c", text: "Thinner xylem walls" }, { id: "d", text: "Fewer root hairs" }], correctChoiceId: "a" },
+          response: { type: "mcq", choices: [ { id: "a", text: "More open stomata" }, { id: "b", text: "Thinner xylem walls" }, { id: "c", text: "Sunken stomata and a waxy cuticle" }, { id: "d", text: "Fewer root hairs" } ], correctChoiceId: "c" },
           markscheme: { principles: [{ kind: "principle", name: "Plant adaptations", statement: "Dry-habitat plants reduce transpiration with sunken stomata, waxy cuticles and deep roots." }], steps: [{ reasoning: "These features conserve water while maintaining transport.", working: "water\\text{ conservation}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Sunken stomata and a waxy cuticle" },
         },
       ],
@@ -312,12 +312,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "In the uterus" },
-              { id: "b", text: "In the ovary" },
-              { id: "c", text: "In the oviduct (fallopian tube)" },
-              { id: "d", text: "In the cervix" },
+              { id: "a", text: "In the ovary" },
+              { id: "b", text: "In the uterus" },
+              { id: "c", text: "In the cervix" },
+              { id: "d", text: "In the oviduct (fallopian tube)" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -339,12 +339,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "FSH" },
-              { id: "b", text: "LH" },
-              { id: "c", text: "Progesterone" },
-              { id: "d", text: "Oestrogen alone" },
+              { id: "a", text: "Progesterone" },
+              { id: "b", text: "Oestrogen alone" },
+              { id: "c", text: "LH" },
+              { id: "d", text: "FSH" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -367,12 +367,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Ovulation has occurred; progesterone raises metabolic heat production" },
-              { id: "b", text: "Menstruation is starting; body temperature always falls" },
-              { id: "c", text: "FSH is peaking; temperature rises randomly" },
-              { id: "d", text: "Pregnancy is impossible to detect this way" },
+              { id: "a", text: "FSH is peaking; temperature rises randomly" },
+              { id: "b", text: "Pregnancy is impossible to detect this way" },
+              { id: "c", text: "Menstruation is starting; body temperature always falls" },
+              { id: "d", text: "Ovulation has occurred; progesterone raises metabolic heat production" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -460,7 +460,7 @@ export const lesson23: Lesson = {
           difficulty: "core",
           totalMarks: 1,
           stem: "Which hormone surge directly triggers ovulation?",
-          response: { type: "mcq", choices: [{ id: "a", text: "FSH" }, { id: "b", text: "Oestrogen" }, { id: "c", text: "LH" }, { id: "d", text: "Progesterone" }], correctChoiceId: "c" },
+          response: { type: "mcq", choices: [ { id: "a", text: "LH" }, { id: "b", text: "Progesterone" }, { id: "c", text: "FSH" }, { id: "d", text: "Oestrogen" } ], aorrectChoiceId: "c" },
           markscheme: { principles: [{ kind: "definition", name: "LH surge", statement: "A peak in LH around mid-cycle triggers ovulation." }], steps: [{ reasoning: "High oestrogen stimulates the LH surge that releases the ovum.", working: "LH\\text{ surge}", marks: 1, markCode: "B" }], finalAnswer: "**(c)** LH" },
         },
         {
@@ -488,7 +488,7 @@ export const lesson23: Lesson = {
           difficulty: "challenge",
           totalMarks: 1,
           stem: "Which contraception method physically blocks sperm from reaching the ovum?",
-          response: { type: "mcq", choices: [{ id: "a", text: "Barrier method such as a condom" }, { id: "b", text: "Hormonal pill" }, { id: "c", text: "IUD" }, { id: "d", text: "Sterilisation" }], correctChoiceId: "a" },
+          response: { type: "mcq", choices: [ { id: "a", text: "Hormonal pill" }, { id: "b", text: "Barrier method such as a condom" }, { id: "c", text: "IUD" }, { id: "d", text: "Sterilisation" } ], correctChoiceId: "b" },
           markscheme: { principles: [{ kind: "definition", name: "Barrier contraception", statement: "Barrier methods prevent sperm from contacting the ovum." }], steps: [{ reasoning: "Hormonal methods and IUDs act by different mechanisms.", working: "barrier", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Barrier method such as a condom" },
         },
         {
@@ -512,7 +512,7 @@ export const lesson23: Lesson = {
           difficulty: "core",
           totalMarks: 1,
           stem: "Which hormone maintains the uterine lining after ovulation?",
-          response: { type: "mcq", choices: [{ id: "a", text: "FSH" }, { id: "b", text: "Oestrogen only" }, { id: "c", text: "Progesterone" }, { id: "d", text: "Insulin" }], correctChoiceId: "c" },
+          response: { type: "mcq", choices: [ { id: "a", text: "Insulin" }, { id: "b", text: "Oestrogen only" }, { id: "c", text: "FSH" }, { id: "d", text: "Progesterone" } ], dorrectChoiceId: "c" },
           markscheme: { principles: [{ kind: "definition", name: "Progesterone", statement: "Progesterone maintains the endometrium for possible implantation." }], steps: [{ reasoning: "The corpus luteum secretes progesterone after ovulation.", working: "progesterone", marks: 1, markCode: "B" }], finalAnswer: "**(c)** Progesterone" },
         },
         {
@@ -520,7 +520,7 @@ export const lesson23: Lesson = {
           difficulty: "challenge",
           totalMarks: 1,
           stem: "Which plant reproduction method produces clones?",
-          response: { type: "mcq", choices: [{ id: "a", text: "Seed formation after pollination" }, { id: "b", text: "Asexual reproduction by runners, bulbs or cuttings" }, { id: "c", text: "Cross-pollination between species" }, { id: "d", text: "Fertilisation in flowers" }], correctChoiceId: "b" },
+          response: { type: "mcq", choices: [ { id: "a", text: "Seed formation after pollination" }, { id: "b", text: "Fertilisation in flowers" }, { id: "c", text: "Asexual reproduction by runners, bulbs or cuttings" }, { id: "d", text: "Cross-pollination between species" } ], correctChoiceId: "c" },
           markscheme: { principles: [{ kind: "definition", name: "Asexual plant reproduction", statement: "Runners, bulbs and cuttings produce genetically identical clones." }], steps: [{ reasoning: "Sexual reproduction introduces variation; asexual reproduction clones the parent.", working: "clone", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Asexual reproduction by runners, bulbs or cuttings" },
         },
       ],

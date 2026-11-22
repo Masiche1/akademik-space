@@ -57,12 +57,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "8" },
+              { id: "a", text: "18" },
               { id: "b", text: "2" },
-              { id: "c", text: "18" },
+              { id: "c", text: "8" },
               { id: "d", text: "32" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -85,8 +85,8 @@ export const lesson11: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "1s²2s²2p⁶3s¹" },
-              { id: "b", text: "1s²2s²2p⁶3s²3p¹" },
-              { id: "c", text: "2,8,2" },
+              { id: "b", text: "2,8,2" },
+              { id: "c", text: "1s²2s²2p⁶3s²3p¹" },
               { id: "d", text: "1s²2s²2p⁵3s²" },
             ],
             correctChoiceId: "a",
@@ -112,12 +112,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Period 3, group 16, 6 valence electrons" },
-              { id: "b", text: "Period 3, group 6, 4 valence electrons" },
-              { id: "c", text: "Period 4, group 16, 6 valence electrons" },
+              { id: "a", text: "Period 3, group 6, 4 valence electrons" },
+              { id: "b", text: "Period 4, group 16, 6 valence electrons" },
+              { id: "c", text: "Period 3, group 16, 6 valence electrons" },
               { id: "d", text: "Period 3, group 8, 2 valence electrons" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -172,12 +172,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "18" },
-              { id: "b", text: "8" },
+              { id: "a", text: "8" },
+              { id: "b", text: "18" },
               { id: "c", text: "32" },
               { id: "d", text: "2" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -199,12 +199,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "4s" },
-              { id: "b", text: "3d" },
-              { id: "c", text: "4p" },
-              { id: "d", text: "5s" },
+              { id: "a", text: "4p" },
+              { id: "b", text: "5s" },
+              { id: "c", text: "3d" },
+              { id: "d", text: "4s" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -226,12 +226,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "1s²2s²2p⁶3s²" },
-              { id: "b", text: "1s²2s²2p⁶3s¹3p¹" },
-              { id: "c", text: "2,8,2" },
-              { id: "d", text: "1s²2s²2p⁵3s³" },
+              { id: "a", text: "1s²2s²2p⁵3s³" },
+              { id: "b", text: "1s²2s²2p⁶3s²" },
+              { id: "c", text: "1s²2s²2p⁶3s¹3p¹" },
+              { id: "d", text: "2,8,2" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -279,12 +279,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Inner shells are lower in energy, so electrons occupy them first" },
-              { id: "b", text: "Outer shells cannot hold electrons" },
-              { id: "c", text: "Inner shells are larger" },
-              { id: "d", text: "Electrons prefer to be near the nucleus" },
+              { id: "a", text: "Inner shells are larger" },
+              { id: "b", text: "Electrons prefer to be near the nucleus" },
+              { id: "c", text: "Inner shells are lower in energy, so electrons occupy them first" },
+              { id: "d", text: "Outer shells cannot hold electrons" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -307,12 +307,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Period 4, group 15, 5 valence electrons" },
+              { id: "a", text: "Period 4, group 13, 3 valence electrons" },
               { id: "b", text: "Period 4, group 5, 3 valence electrons" },
               { id: "c", text: "Period 3, group 15, 5 valence electrons" },
-              { id: "d", text: "Period 4, group 13, 3 valence electrons" },
+              { id: "d", text: "Period 4, group 15, 5 valence electrons" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -363,12 +363,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "1s²2s²2p⁶" },
+              { id: "a", text: "2,8,1" },
               { id: "b", text: "1s²2s²2p⁵" },
-              { id: "c", text: "2,8,1" },
-              { id: "d", text: "1s²2s²2p⁶3s¹" },
+              { id: "c", text: "1s²2s²2p⁶3s¹" },
+              { id: "d", text: "1s²2s²2p⁶" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -523,12 +523,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "They have the same number of valence electrons" },
-              { id: "b", text: "They have the same mass number" },
+              { id: "a", text: "They have the same mass number" },
+              { id: "b", text: "They have the same number of valence electrons" },
               { id: "c", text: "They are all metals" },
               { id: "d", text: "They have the same number of shells" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -550,12 +550,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It is a metalloid used as a semiconductor in electronics" },
-              { id: "b", text: "It is a noble gas" },
-              { id: "c", text: "It is an alkali metal" },
-              { id: "d", text: "It cannot conduct electricity at all" },
+              { id: "a", text: "It cannot conduct electricity at all" },
+              { id: "b", text: "It is an alkali metal" },
+              { id: "c", text: "It is a metalloid used as a semiconductor in electronics" },
+              { id: "d", text: "It is a noble gas" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -578,12 +578,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Across a period, nuclear charge increases but electron shells stay the same, so electrons are pulled in more strongly" },
-              { id: "b", text: "Sodium has more shells" },
-              { id: "c", text: "Magnesium is a non-metal" },
-              { id: "d", text: "They have identical radii" },
+              { id: "a", text: "Sodium has more shells" },
+              { id: "b", text: "Magnesium is a non-metal" },
+              { id: "c", text: "They have identical radii" },
+              { id: "d", text: "Across a period, nuclear charge increases but electron shells stay the same, so electrons are pulled in more strongly" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -638,12 +638,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The highest occupied electron shell" },
-              { id: "b", text: "The number of valence electrons" },
-              { id: "c", text: "The total number of protons" },
-              { id: "d", text: "The number of electron shells minus one" },
+              { id: "a", text: "The number of valence electrons" },
+              { id: "b", text: "The highest occupied electron shell" },
+              { id: "c", text: "The number of electron shells minus one" },
+              { id: "d", text: "The total number of protons" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -665,12 +665,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Silicon" },
-              { id: "b", text: "Sodium" },
-              { id: "c", text: "Sulphur" },
-              { id: "d", text: "Silver" },
+              { id: "a", text: "Sulphur" },
+              { id: "b", text: "Silver" },
+              { id: "c", text: "Sodium" },
+              { id: "d", text: "Silicon" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -693,9 +693,9 @@ export const lesson11: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "s-block" },
-              { id: "b", text: "p-block" },
-              { id: "c", text: "d-block" },
-              { id: "d", text: "f-block" },
+              { id: "b", text: "d-block" },
+              { id: "c", text: "f-block" },
+              { id: "d", text: "p-block" },
             ],
             correctChoiceId: "a",
           },
@@ -746,9 +746,9 @@ export const lesson11: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "They have few valence electrons and low ionisation energies, so they easily lose electrons to form cations" },
-              { id: "b", text: "They have the most electron shells" },
-              { id: "c", text: "They are the smallest atoms" },
-              { id: "d", text: "They gain electrons easily" },
+              { id: "b", text: "They are the smallest atoms" },
+              { id: "c", text: "They gain electrons easily" },
+              { id: "d", text: "They have the most electron shells" },
             ],
             correctChoiceId: "a",
           },
@@ -773,12 +773,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Li < Na < K" },
-              { id: "b", text: "K < Na < Li" },
-              { id: "c", text: "Na < Li < K" },
-              { id: "d", text: "Li = Na = K" },
+              { id: "a", text: "K < Na < Li" },
+              { id: "b", text: "Li < Na < K" },
+              { id: "c", text: "Li = Na = K" },
+              { id: "d", text: "Na < Li < K" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -829,12 +829,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Lanthanides and actinides" },
-              { id: "b", text: "Alkali and alkaline earth metals" },
-              { id: "c", text: "Halogens and noble gases" },
-              { id: "d", text: "Metalloids" },
+              { id: "a", text: "Metalloids" },
+              { id: "b", text: "Halogens and noble gases" },
+              { id: "c", text: "Alkali and alkaline earth metals" },
+              { id: "d", text: "Lanthanides and actinides" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

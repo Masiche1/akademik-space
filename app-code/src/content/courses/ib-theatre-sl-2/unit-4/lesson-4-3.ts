@@ -55,12 +55,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The playwright's biography" },
-              { id: "b", text: "Dramatic structure, character and dialogue" },
-              { id: "c", text: "The play's political context" },
+              { id: "a", text: "Dramatic structure, character and dialogue" },
+              { id: "b", text: "The play's political context" },
+              { id: "c", text: "The playwright's biography" },
               { id: "d", text: "The audience's reaction" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -164,8 +164,8 @@ export const lesson43: Lesson = {
             choices: [
               { id: "a", text: "The theatre's stage design" },
               { id: "b", text: "A lens or set of questions used to analyse drama from a particular perspective" },
-              { id: "c", text: "The play's ticket price" },
-              { id: "d", text: "A list of actors" },
+              { id: "c", text: "A list of actors" },
+              { id: "d", text: "The play's ticket price" },
             ],
             correctChoiceId: "b",
           },
@@ -212,12 +212,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Formalism ignores gender representation and power" },
-              { id: "b", text: "Feminist critics dislike all plays" },
-              { id: "c", text: "The play has too many scenes" },
-              { id: "d", text: "Formalists never praise plays" },
+              { id: "a", text: "Formalists never praise plays" },
+              { id: "b", text: "The play has too many scenes" },
+              { id: "c", text: "Formalism ignores gender representation and power" },
+              { id: "d", text: "Feminist critics dislike all plays" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -263,12 +263,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Only the plot structure" },
-              { id: "b", text: "How power and representation shape meaning" },
-              { id: "c", text: "The actors' salaries" },
-              { id: "d", text: "The theatre's architecture" },
+              { id: "a", text: "The theatre's architecture" },
+              { id: "b", text: "Only the plot structure" },
+              { id: "c", text: "How power and representation shape meaning" },
+              { id: "d", text: "The actors' salaries" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -319,12 +319,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Whether the dialogue is witty" },
-              { id: "b", text: "How the play relates to its historical and social moment" },
-              { id: "c", text: "How many acts the play has" },
-              { id: "d", text: "Whether the audience clapped" },
+              { id: "a", text: "How the play relates to its historical and social moment" },
+              { id: "b", text: "Whether the dialogue is witty" },
+              { id: "c", text: "Whether the audience clapped" },
+              { id: "d", text: "How many acts the play has" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -378,11 +378,11 @@ export const lesson43: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "It makes the essay longer" },
-              { id: "b", text: "Each framework covers the blind spots of the others" },
-              { id: "c", text: "Critics always disagree" },
-              { id: "d", text: "It avoids making judgements" },
+              { id: "b", text: "It avoids making judgements" },
+              { id: "c", text: "Each framework covers the blind spots of the others" },
+              { id: "d", text: "Critics always disagree" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -435,12 +435,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "May excuse weak dramatic craft as 'typical of its era'" },
-              { id: "b", text: "Ignores all historical facts" },
+              { id: "a", text: "Ignores all historical facts" },
+              { id: "b", text: "May excuse weak dramatic craft as 'typical of its era'" },
               { id: "c", text: "Cannot discuss representation" },
               { id: "d", text: "Only works for comedies" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -526,12 +526,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Decide if you liked it" },
-              { id: "b", text: "Establish explicit criteria for judgement" },
-              { id: "c", text: "Compare it to Shakespeare" },
-              { id: "d", text: "Check ticket prices" },
+              { id: "a", text: "Check ticket prices" },
+              { id: "b", text: "Compare it to Shakespeare" },
+              { id: "c", text: "Decide if you liked it" },
+              { id: "d", text: "Establish explicit criteria for judgement" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -633,12 +633,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Decide whether you personally liked it" },
-              { id: "b", text: "Establish explicit criteria before judging" },
+              { id: "a", text: "Establish explicit criteria before judging" },
+              { id: "b", text: "Check the reviews first" },
               { id: "c", text: "Compare it to the most famous play" },
-              { id: "d", text: "Check the reviews first" },
+              { id: "d", text: "Decide whether you personally liked it" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -683,12 +683,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Tragic weight and inevitability" },
-              { id: "b", text: "Comic timing, wit and effective resolution of confusion" },
+              { id: "a", text: "Comic timing, wit and effective resolution of confusion" },
+              { id: "b", text: "Tragic weight and inevitability" },
               { id: "c", text: "Historical accuracy" },
               { id: "d", text: "Poetic language" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -734,12 +734,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It specifies no dimension or criteria" },
-              { id: "b", text: "It is always wrong" },
-              { id: "c", text: "It compares different genres" },
-              { id: "d", text: "It uses too few words" },
+              { id: "a", text: "It compares different genres" },
+              { id: "b", text: "It specifies no dimension or criteria" },
+              { id: "c", text: "It uses too few words" },
+              { id: "d", text: "It is always wrong" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -790,11 +790,11 @@ export const lesson43: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Vague and flexible" },
-              { id: "b", text: "Explicit and applied consistently" },
+              { id: "b", text: "Chosen after the verdict" },
               { id: "c", text: "Different for each play" },
-              { id: "d", text: "Chosen after the verdict" },
+              { id: "d", text: "Explicit and applied consistently" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -847,12 +847,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "How long the play runs" },
-              { id: "b", text: "Originality, cultural impact and expansion of dramatic possibility" },
+              { id: "a", text: "The playwright's fame" },
+              { id: "b", text: "How long the play runs" },
               { id: "c", text: "The number of set changes" },
-              { id: "d", text: "The playwright's fame" },
+              { id: "d", text: "Originality, cultural impact and expansion of dramatic possibility" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -905,12 +905,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Success means different things in different forms" },
-              { id: "b", text: "Criteria are arbitrary" },
+              { id: "a", text: "Criteria are arbitrary" },
+              { id: "b", text: "It makes evaluation easier" },
               { id: "c", text: "Genres never overlap" },
-              { id: "d", text: "It makes evaluation easier" },
+              { id: "d", text: "Success means different things in different forms" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

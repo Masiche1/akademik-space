@@ -86,9 +86,9 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Guilty and regretful" },
+              { id: "a", text: "Panicked and afraid" },
               { id: "b", text: "Quietly pleased by his enemy's fate" },
-              { id: "c", text: "Panicked and afraid" },
+              { id: "c", text: "Guilty and regretful" },
               { id: "d", text: "Forgiving and gentle" },
             ],
             correctChoiceId: "b",
@@ -214,12 +214,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Metaphor" },
-              { id: "b", text: "Simile" },
-              { id: "c", text: "Personification" },
-              { id: "d", text: "Onomatopoeia" },
+              { id: "a", text: "Personification" },
+              { id: "b", text: "Metaphor" },
+              { id: "c", text: "Onomatopoeia" },
+              { id: "d", text: "Simile" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Simile", statement: "A comparison using 'like' or 'as'." }],

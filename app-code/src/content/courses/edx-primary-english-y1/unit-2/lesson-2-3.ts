@@ -56,12 +56,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The Three Little Pigs" },
-              { id: "b", text: "All About Sharks" },
+              { id: "a", text: "All About Sharks" },
+              { id: "b", text: "The Three Little Pigs" },
               { id: "c", text: "Cinderella" },
               { id: "d", text: "The Hungry Caterpillar" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -90,10 +90,10 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A shark story" },
+              { id: "a", text: "A shark toy" },
               { id: "b", text: "Facts about sharks" },
               { id: "c", text: "A fishing trip" },
-              { id: "d", text: "A shark toy" },
+              { id: "d", text: "A shark story" },
             ],
             correctChoiceId: "b",
           },
@@ -255,12 +255,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It has pictures" },
-              { id: "b", text: "It often has rhythm and rhyme" },
+              { id: "a", text: "It has a plot" },
+              { id: "b", text: "It has pictures" },
               { id: "c", text: "It is longer" },
-              { id: "d", text: "It has a plot" },
+              { id: "d", text: "It often has rhythm and rhyme" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -285,12 +285,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "cat and sat" },
-              { id: "b", text: "mat and fat" },
-              { id: "c", text: "cat and mat" },
-              { id: "d", text: "sat and fat" },
+              { id: "a", text: "sat and fat" },
+              { id: "b", text: "cat and mat" },
+              { id: "c", text: "mat and fat" },
+              { id: "d", text: "cat and sat" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

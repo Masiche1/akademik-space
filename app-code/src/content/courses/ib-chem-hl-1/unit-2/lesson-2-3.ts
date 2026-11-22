@@ -91,12 +91,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Purely covalent" },
+              { id: "a", text: "Coordinate" },
               { id: "b", text: "Purely ionic" },
-              { id: "c", text: "Metallic" },
-              { id: "d", text: "Coordinate" },
+              { id: "c", text: "Purely covalent" },
+              { id: "d", text: "Metallic" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -327,12 +327,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Ionic" },
-              { id: "b", text: "Polar covalent" },
-              { id: "c", text: "Non-polar covalent" },
-              { id: "d", text: "Metallic" },
+              { id: "a", text: "Metallic" },
+              { id: "b", text: "Ionic" },
+              { id: "c", text: "Polar covalent" },
+              { id: "d", text: "Non-polar covalent" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -370,12 +370,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Pure copper" },
-              { id: "b", text: "Brass (Cu + Zn)" },
+              { id: "a", text: "Brass (Cu + Zn)" },
+              { id: "b", text: "Carbon dioxide" },
               { id: "c", text: "Water" },
-              { id: "d", text: "Carbon dioxide" },
+              { id: "d", text: "Pure copper" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -575,15 +575,15 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "The alloy has no iron atoms" },
+              { id: "b", text: "It is coated in plastic during manufacture" },
+              { id: "c", text: "Nickel makes the steel magnetic" },
               {
-                id: "a",
+                id: "d",
                 text: "Chromium forms a protective oxide layer on the surface",
               },
-              { id: "b", text: "Nickel makes the steel magnetic" },
-              { id: "c", text: "The alloy has no iron atoms" },
-              { id: "d", text: "It is coated in plastic during manufacture" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -622,9 +622,9 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "More branched and more flexible" },
+              { id: "a", text: "Made by condensation polymerisation" },
               { id: "b", text: "More crystalline and rigid" },
-              { id: "c", text: "Made by condensation polymerisation" },
+              { id: "c", text: "More branched and more flexible" },
               { id: "d", text: "A copolymer of two different monomers" },
             ],
             correctChoiceId: "b",
@@ -887,8 +887,8 @@ export const lesson23: Lesson = {
                 id: "a",
                 text: "A lattice of positive ions surrounded by delocalised electrons",
               },
-              { id: "b", text: "Sharing of electron pairs between two atoms" },
-              { id: "c", text: "Complete transfer of electrons between atoms" },
+              { id: "b", text: "Complete transfer of electrons between atoms" },
+              { id: "c", text: "Sharing of electron pairs between two atoms" },
               { id: "d", text: "Hydrogen bonds between molecules" },
             ],
             correctChoiceId: "a",
@@ -1024,15 +1024,15 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "Produces only plastics" },
+              { id: "b", text: "Requires no monomers" },
               {
-                id: "a",
+                id: "c",
                 text: "Eliminates a small molecule such as water with each bond formed",
               },
-              { id: "b", text: "Requires no monomers" },
-              { id: "c", text: "Only works with alkenes" },
-              { id: "d", text: "Produces only plastics" },
+              { id: "d", text: "Only works with alkenes" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1259,12 +1259,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A dicarboxylic acid and a diol" },
-              { id: "b", text: "Two alkenes" },
-              { id: "c", text: "A single amino acid" },
-              { id: "d", text: "Two alcohols only" },
+              { id: "a", text: "Two alkenes" },
+              { id: "b", text: "Two alcohols only" },
+              { id: "c", text: "A dicarboxylic acid and a diol" },
+              { id: "d", text: "A single amino acid" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1303,12 +1303,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Poly(ethene)" },
-              { id: "b", text: "Nylon-6,6" },
+              { id: "a", text: "Nylon-6,6" },
+              { id: "b", text: "Poly(ethene)" },
               { id: "c", text: "Terylene (PET)" },
               { id: "d", text: "Kevlar" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1491,15 +1491,15 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              {
-                id: "a",
-                text: "Its amide groups form hydrogen bonds between chains",
-              },
+              { id: "a", text: "It has no oxygen atoms" },
               { id: "b", text: "It contains more carbon atoms" },
               { id: "c", text: "It is made by addition polymerisation" },
-              { id: "d", text: "It has no oxygen atoms" },
+              {
+                id: "d",
+                text: "Its amide groups form hydrogen bonds between chains",
+              },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1536,15 +1536,15 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "Ethene monomers" },
+              { id: "b", text: "Propene and chloroethene" },
+              { id: "c", text: "Hexane-1,6-diamine only" },
               {
-                id: "a",
+                id: "d",
                 text: "Ethane-1,2-diol and benzene-1,4-dicarboxylic acid",
               },
-              { id: "b", text: "Ethene monomers" },
-              { id: "c", text: "Hexane-1,6-diamine only" },
-              { id: "d", text: "Propene and chloroethene" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1809,12 +1809,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Nylon-6,6" },
-              { id: "b", text: "Poly(ethene)" },
-              { id: "c", text: "Poly(propene)" },
-              { id: "d", text: "Poly(chloroethene) (PVC)" },
+              { id: "a", text: "Poly(chloroethene) (PVC)" },
+              { id: "b", text: "Poly(propene)" },
+              { id: "c", text: "Poly(ethene)" },
+              { id: "d", text: "Nylon-6,6" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

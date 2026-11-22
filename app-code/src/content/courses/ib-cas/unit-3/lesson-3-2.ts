@@ -52,12 +52,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Only the most expensive activities" },
-              { id: "b", text: "Regular engagement across all strands with reflection" },
-              { id: "c", text: "Only certificates" },
-              { id: "d", text: "Nothing — it's optional" },
+              { id: "a", text: "Regular engagement across all strands with reflection" },
+              { id: "b", text: "Only the most expensive activities" },
+              { id: "c", text: "Nothing — it's optional" },
+              { id: "d", text: "Only certificates" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -147,12 +147,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Only attendance signatures" },
-              { id: "b", text: "Photos, logs, certificates and reflections" },
-              { id: "c", text: "Only certificates" },
-              { id: "d", text: "Nothing — the portfolio is optional" },
+              { id: "a", text: "Photos, logs, certificates and reflections" },
+              { id: "b", text: "Only certificates" },
+              { id: "c", text: "Nothing — the portfolio is optional" },
+              { id: "d", text: "Only attendance signatures" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -174,12 +174,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Randomly" },
-              { id: "b", text: "By strand or chronologically, consistently" },
-              { id: "c", text: "Only by cost" },
+              { id: "a", text: "Only by cost" },
+              { id: "b", text: "Randomly" },
+              { id: "c", text: "By strand or chronologically, consistently" },
               { id: "d", text: "In one long undivided list" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -201,12 +201,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Only the most recent activities" },
-              { id: "b", text: "Skills and perspectives developing over time" },
+              { id: "a", text: "Skills and perspectives developing over time" },
+              { id: "b", text: "Identical activities repeated" },
               { id: "c", text: "The most expensive activities" },
-              { id: "d", text: "Identical activities repeated" },
+              { id: "d", text: "Only the most recent activities" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -228,12 +228,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "They are not accepted for CAS" },
-              { id: "b", text: "They allow easy updating, sharing and multimedia" },
-              { id: "c", text: "They are always required" },
-              { id: "d", text: "They cannot include reflections" },
+              { id: "a", text: "They cannot include reflections" },
+              { id: "b", text: "They are always required" },
+              { id: "c", text: "They allow easy updating, sharing and multimedia" },
+              { id: "d", text: "They are not accepted for CAS" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -256,11 +256,11 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Genuine engagement" },
-              { id: "b", text: "Box-ticking rather than learning" },
-              { id: "c", text: "Deep reflection" },
-              { id: "d", text: "Balanced strands" },
+              { id: "b", text: "Balanced strands" },
+              { id: "c", text: "Box-ticking rather than learning" },
+              { id: "d", text: "Deep reflection" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -282,12 +282,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Lasts only one day" },
-              { id: "b", text: "Combines all three strands over several months" },
+              { id: "a", text: "Combines all three strands over several months" },
+              { id: "b", text: "Is optional for all students" },
               { id: "c", text: "Requires no reflection" },
-              { id: "d", text: "Is optional for all students" },
+              { id: "d", text: "Lasts only one day" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -309,12 +309,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Only certificates sorted by date" },
-              { id: "b", text: "Evidence plus reflections showing growth over time" },
-              { id: "c", text: "A list of activities with no commentary" },
-              { id: "d", text: "Only the CAS project documentation" },
+              { id: "a", text: "Only the CAS project documentation" },
+              { id: "b", text: "A list of activities with no commentary" },
+              { id: "c", text: "Only certificates sorted by date" },
+              { id: "d", text: "Evidence plus reflections showing growth over time" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -573,12 +573,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Randomly" },
-              { id: "b", text: "By strand or chronologically, consistently" },
+              { id: "a", text: "By difficulty" },
+              { id: "b", text: "Randomly" },
               { id: "c", text: "Only by date" },
-              { id: "d", text: "By difficulty" },
+              { id: "d", text: "By strand or chronologically, consistently" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -669,11 +669,11 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Randomly scattered" },
-              { id: "b", text: "By strand or chronologically" },
+              { id: "b", text: "By photo quality" },
               { id: "c", text: "Only alphabetically by activity name" },
-              { id: "d", text: "By photo quality" },
+              { id: "d", text: "By strand or chronologically" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -695,12 +695,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Including every single artifact" },
-              { id: "b", text: "Selecting the most representative evidence" },
+              { id: "a", text: "Organising by date only" },
+              { id: "b", text: "Including every single artifact" },
               { id: "c", text: "Removing all reflections" },
-              { id: "d", text: "Organising by date only" },
+              { id: "d", text: "Selecting the most representative evidence" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -722,12 +722,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It is required by law" },
-              { id: "b", text: "Regular updates prevent gaps and reduce stress" },
-              { id: "c", text: "It impresses classmates" },
-              { id: "d", text: "It eliminates the need for reflections" },
+              { id: "a", text: "It eliminates the need for reflections" },
+              { id: "b", text: "It impresses classmates" },
+              { id: "c", text: "Regular updates prevent gaps and reduce stress" },
+              { id: "d", text: "It is required by law" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -749,10 +749,10 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Randomly" },
+              { id: "a", text: "Alphabetically by file name" },
               { id: "b", text: "Logically: description, artifacts, reflection" },
-              { id: "c", text: "Only by photo size" },
-              { id: "d", text: "Alphabetically by file name" },
+              { id: "c", text: "Randomly" },
+              { id: "d", text: "Only by photo size" },
             ],
             correctChoiceId: "b",
           },
@@ -776,12 +776,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It looks untidy" },
-              { id: "b", text: "All strands must be covered for completion" },
-              { id: "c", text: "Activity is the only assessed strand" },
-              { id: "d", text: "Certificates are required for all strands" },
+              { id: "a", text: "Activity is the only assessed strand" },
+              { id: "b", text: "Certificates are required for all strands" },
+              { id: "c", text: "It looks untidy" },
+              { id: "d", text: "All strands must be covered for completion" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -803,12 +803,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Including every photo ever taken" },
-              { id: "b", text: "Selecting evidence that best shows engagement and learning" },
+              { id: "a", text: "Selecting evidence that best shows engagement and learning" },
+              { id: "b", text: "Including every photo ever taken" },
               { id: "c", text: "Including only the cheapest activities" },
               { id: "d", text: "Removing all written reflections" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -830,12 +830,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Makes the portfolio longer" },
-              { id: "b", text: "Reveals missing strands or thin evidence early" },
-              { id: "c", text: "Is required by the IB" },
+              { id: "a", text: "Is required by the IB" },
+              { id: "b", text: "Makes the portfolio longer" },
+              { id: "c", text: "Reveals missing strands or thin evidence early" },
               { id: "d", text: "Eliminates the need for a supervisor" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

@@ -56,9 +56,9 @@ export const lesson11: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$3\\sqrt{2}$" },
-              { id: "b", text: "$2\\sqrt{3}$" },
-              { id: "c", text: "$9\\sqrt{2}$" },
-              { id: "d", text: "$6\\sqrt{3}$" },
+              { id: "b", text: "$9\\sqrt{2}$" },
+              { id: "c", text: "$6\\sqrt{3}$" },
+              { id: "d", text: "$2\\sqrt{3}$" },
             ],
             correctChoiceId: "a",
           },
@@ -82,10 +82,10 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$9\\sqrt{3}$" },
+              { id: "a", text: "$9\\sqrt{12}$" },
               { id: "b", text: "$14\\sqrt{3}$" },
-              { id: "c", text: "$24\\sqrt{3}$" },
-              { id: "d", text: "$9\\sqrt{12}$" },
+              { id: "c", text: "$9\\sqrt{3}$" },
+              { id: "d", text: "$24\\sqrt{3}$" },
             ],
             correctChoiceId: "b",
           },
@@ -110,12 +110,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$2\\sqrt{3}$" },
-              { id: "b", text: "$3\\sqrt{2}$" },
+              { id: "a", text: "$3\\sqrt{2}$" },
+              { id: "b", text: "$2\\sqrt{3}$" },
               { id: "c", text: "$\\sqrt{18}$" },
               { id: "d", text: "$2$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -169,12 +169,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$4\\sqrt{3}$" },
-              { id: "b", text: "$2\\sqrt{12}$" },
-              { id: "c", text: "$6\\sqrt{2}$" },
-              { id: "d", text: "$8\\sqrt{3}$" },
+              { id: "a", text: "$2\\sqrt{12}$" },
+              { id: "b", text: "$8\\sqrt{3}$" },
+              { id: "c", text: "$4\\sqrt{3}$" },
+              { id: "d", text: "$6\\sqrt{2}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -217,12 +217,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\sqrt{5}$" },
+              { id: "a", text: "$\\sqrt{45}$" },
               { id: "b", text: "$\\sqrt{15}$" },
-              { id: "c", text: "$5\\sqrt{5}$" },
-              { id: "d", text: "$\\sqrt{45}$" },
+              { id: "c", text: "$\\sqrt{5}$" },
+              { id: "d", text: "$5\\sqrt{5}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -267,12 +267,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$2\\sqrt{2}$" },
-              { id: "b", text: "$4\\sqrt{2}$" },
-              { id: "c", text: "$\\sqrt{8}$" },
-              { id: "d", text: "$2$" },
+              { id: "a", text: "$2$" },
+              { id: "b", text: "$2\\sqrt{2}$" },
+              { id: "c", text: "$4\\sqrt{2}$" },
+              { id: "d", text: "$\\sqrt{8}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -434,12 +434,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$5\\sqrt{3}$" },
-              { id: "b", text: "$7\\sqrt{3}$" },
-              { id: "c", text: "$\\sqrt{39}$" },
-              { id: "d", text: "$13\\sqrt{3}$" },
+              { id: "a", text: "$\\sqrt{39}$" },
+              { id: "b", text: "$13\\sqrt{3}$" },
+              { id: "c", text: "$7\\sqrt{3}$" },
+              { id: "d", text: "$5\\sqrt{3}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -496,12 +496,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$-9$" },
-              { id: "b", text: "$\\frac{1}{9}$" },
+              { id: "a", text: "$9$" },
+              { id: "b", text: "$-9$" },
               { id: "c", text: "$-6$" },
-              { id: "d", text: "$9$" },
+              { id: "d", text: "$\\frac{1}{9}$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -523,12 +523,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$y^{10}$" },
-              { id: "b", text: "$y^4$" },
+              { id: "a", text: "$y^4$" },
+              { id: "b", text: "$y^{10}$" },
               { id: "c", text: "$y^{-4}$" },
               { id: "d", text: "$y^{21}$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -551,12 +551,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$-16$" },
+              { id: "a", text: "$16$" },
               { id: "b", text: "$\\frac{1}{16}$" },
-              { id: "c", text: "$16$" },
+              { id: "c", text: "$-16$" },
               { id: "d", text: "$8$" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -611,12 +611,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$0$" },
-              { id: "b", text: "$1$" },
-              { id: "c", text: "$7$" },
-              { id: "d", text: "$49$" },
+              { id: "a", text: "$1$" },
+              { id: "b", text: "$49$" },
+              { id: "c", text: "$0$" },
+              { id: "d", text: "$7$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -660,11 +660,11 @@ export const lesson11: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$x^{12}$" },
-              { id: "b", text: "$x^8$" },
-              { id: "c", text: "$x^4$" },
+              { id: "b", text: "$x^4$" },
+              { id: "c", text: "$x^8$" },
               { id: "d", text: "$x^3$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -710,11 +710,11 @@ export const lesson11: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$x^7$" },
-              { id: "b", text: "$x^{12}$" },
-              { id: "c", text: "$x^{64}$" },
-              { id: "d", text: "$x^{81}$" },
+              { id: "b", text: "$x^{64}$" },
+              { id: "c", text: "$x^{81}$" },
+              { id: "d", text: "$x^{12}$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -737,10 +737,10 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$x^3$" },
+              { id: "a", text: "$x^{-7}$" },
               { id: "b", text: "$x^7$" },
-              { id: "c", text: "$x^{-7}$" },
-              { id: "d", text: "$x^{10}$" },
+              { id: "c", text: "$x^{10}$" },
+              { id: "d", text: "$x^3$" },
             ],
             correctChoiceId: "b",
           },
@@ -883,12 +883,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$x^3$" },
-              { id: "b", text: "$x^7$" },
-              { id: "c", text: "$x^{-3}$" },
-              { id: "d", text: "$x^{10}$" },
+              { id: "a", text: "$x^7$" },
+              { id: "b", text: "$x^{-3}$" },
+              { id: "c", text: "$x^{10}$" },
+              { id: "d", text: "$x^3$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

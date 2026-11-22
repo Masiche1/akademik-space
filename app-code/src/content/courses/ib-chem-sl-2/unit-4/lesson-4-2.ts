@@ -94,8 +94,8 @@ export const lesson42: Lesson = {
             choices: [
               { id: "a", text: "$0.00300$ mol" },
               { id: "b", text: "$0.0300$ mol" },
-              { id: "c", text: "$0.000300$ mol" },
-              { id: "d", text: "$7.50$ mol" },
+              { id: "c", text: "$7.50$ mol" },
+              { id: "d", text: "$0.000300$ mol" },
             ],
             correctChoiceId: "a",
           },
@@ -138,10 +138,10 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$16.0$ cm$^3$" },
+              { id: "a", text: "$12.5$ cm$^3$" },
               { id: "b", text: "$25.0$ cm$^3$" },
               { id: "c", text: "$40.0$ cm$^3$" },
-              { id: "d", text: "$12.5$ cm$^3$" },
+              { id: "d", text: "$16.0$ cm$^3$" },
             ],
             correctChoiceId: "b",
           },
@@ -192,12 +192,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$25.0$ cm$^3$" },
-              { id: "b", text: "$12.5$ cm$^3$" },
-              { id: "c", text: "$50.0$ cm$^3$" },
-              { id: "d", text: "$6.25$ cm$^3$" },
+              { id: "a", text: "$12.5$ cm$^3$" },
+              { id: "b", text: "$50.0$ cm$^3$" },
+              { id: "c", text: "$6.25$ cm$^3$" },
+              { id: "d", text: "$25.0$ cm$^3$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -349,12 +349,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$0.00300$ mol" },
-              { id: "b", text: "$0.0300$ mol" },
-              { id: "c", text: "$0.000300$ mol" },
-              { id: "d", text: "$1.33$ mol" },
+              { id: "a", text: "$1.33$ mol" },
+              { id: "b", text: "$0.00300$ mol" },
+              { id: "c", text: "$0.0300$ mol" },
+              { id: "d", text: "$0.000300$ mol" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -392,12 +392,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Methyl orange" },
-              { id: "b", text: "Phenolphthalein" },
+              { id: "a", text: "Phenolphthalein" },
+              { id: "b", text: "Methyl orange" },
               { id: "c", text: "Litmus only" },
               { id: "d", text: "Any indicator gives the same result" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -440,12 +440,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$0.0800$ mol dm$^{-3}$" },
-              { id: "b", text: "$0.125$ mol dm$^{-3}$" },
-              { id: "c", text: "$0.100$ mol dm$^{-3}$" },
-              { id: "d", text: "$0.200$ mol dm$^{-3}$" },
+              { id: "a", text: "$0.100$ mol dm$^{-3}$" },
+              { id: "b", text: "$0.0800$ mol dm$^{-3}$" },
+              { id: "c", text: "$0.200$ mol dm$^{-3}$" },
+              { id: "d", text: "$0.125$ mol dm$^{-3}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -498,12 +498,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$30.0$ cm$^3$" },
-              { id: "b", text: "$15.0$ cm$^3$" },
+              { id: "a", text: "$15.0$ cm$^3$" },
+              { id: "b", text: "$30.0$ cm$^3$" },
               { id: "c", text: "$7.50$ cm$^3$" },
               { id: "d", text: "$60.0$ cm$^3$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -630,12 +630,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The calculated concentration is too high" },
-              { id: "b", text: "The calculated concentration is too low" },
-              { id: "c", text: "The calculated concentration is unaffected" },
-              { id: "d", text: "The concentration cannot be calculated" },
+              { id: "a", text: "The calculated concentration is too low" },
+              { id: "b", text: "The concentration cannot be calculated" },
+              { id: "c", text: "The calculated concentration is too high" },
+              { id: "d", text: "The calculated concentration is unaffected" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -893,10 +893,10 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$12.5$ cm$^3$" },
+              { id: "a", text: "$20.0$ cm$^3$" },
               { id: "b", text: "$25.0$ cm$^3$" },
               { id: "c", text: "$50.0$ cm$^3$" },
-              { id: "d", text: "$20.0$ cm$^3$" },
+              { id: "d", text: "$12.5$ cm$^3$" },
             ],
             correctChoiceId: "b",
           },
@@ -1208,11 +1208,11 @@ export const lesson42: Lesson = {
             choices: [
               {
                 id: "a",
-                text: "Calcium carbonate is insoluble and reacts slowly, so an excess of acid is added and the leftover acid is titrated",
+                text: "Calcium carbonate does not react with acid at all",
               },
               {
                 id: "b",
-                text: "Calcium carbonate does not react with acid at all",
+                text: "Calcium carbonate is insoluble and reacts slowly, so an excess of acid is added and the leftover acid is titrated",
               },
               { id: "c", text: "A back titration requires no indicator" },
               {
@@ -1220,7 +1220,7 @@ export const lesson42: Lesson = {
                 text: "Direct titration would produce too much carbon dioxide to measure",
               },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1264,12 +1264,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$0.00150$ mol" },
-              { id: "b", text: "$0.00500$ mol" },
-              { id: "c", text: "$0.00350$ mol" },
-              { id: "d", text: "$0.00100$ mol" },
+              { id: "a", text: "$0.00350$ mol" },
+              { id: "b", text: "$0.00100$ mol" },
+              { id: "c", text: "$0.00500$ mol" },
+              { id: "d", text: "$0.00150$ mol" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1322,12 +1322,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$0.175$ g" },
-              { id: "b", text: "$0.350$ g" },
-              { id: "c", text: "$0.0875$ g" },
-              { id: "d", text: "$0.125$ g" },
+              { id: "a", text: "$0.350$ g" },
+              { id: "b", text: "$0.175$ g" },
+              { id: "c", text: "$0.125$ g" },
+              { id: "d", text: "$0.0875$ g" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1489,19 +1489,19 @@ export const lesson42: Lesson = {
             choices: [
               {
                 id: "a",
-                text: "Add excess reagent to the sample, titrate the leftover excess, find the amount that reacted by difference",
+                text: "Add the sample to the burette and titrate with itself",
               },
               {
                 id: "b",
-                text: "Titrate the sample directly, then add more reagent",
+                text: "Add excess reagent to the sample, titrate the leftover excess, find the amount that reacted by difference",
               },
               { id: "c", text: "Weigh the sample, add water, then titrate" },
               {
                 id: "d",
-                text: "Add the sample to the burette and titrate with itself",
+                text: "Titrate the sample directly, then add more reagent",
               },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1546,12 +1546,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$0.00500$ mol" },
-              { id: "b", text: "$0.00200$ mol" },
-              { id: "c", text: "$0.00300$ mol" },
-              { id: "d", text: "$0.00100$ mol" },
+              { id: "a", text: "$0.00200$ mol" },
+              { id: "b", text: "$0.00100$ mol" },
+              { id: "c", text: "$0.00500$ mol" },
+              { id: "d", text: "$0.00300$ mol" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -1607,8 +1607,8 @@ export const lesson42: Lesson = {
                 id: "a",
                 text: "So that all of the calcium carbonate reacts completely, leaving a measurable amount of acid to titrate",
               },
-              { id: "b", text: "So that the sample dissolves faster" },
-              { id: "c", text: "So that no indicator is needed" },
+              { id: "b", text: "So that no indicator is needed" },
+              { id: "c", text: "So that the sample dissolves faster" },
               {
                 id: "d",
                 text: "Because calcium carbonate cannot react with a limited amount of acid",
@@ -1663,9 +1663,9 @@ export const lesson42: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "The purity is calculated too high" },
-              { id: "b", text: "The purity is calculated too low" },
-              { id: "c", text: "The purity is unaffected" },
-              { id: "d", text: "The purity cannot be calculated" },
+              { id: "b", text: "The purity cannot be calculated" },
+              { id: "c", text: "The purity is calculated too low" },
+              { id: "d", text: "The purity is unaffected" },
             ],
             correctChoiceId: "a",
           },
@@ -1917,12 +1917,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$75.0\\%$" },
-              { id: "b", text: "$50.0\\%$" },
-              { id: "c", text: "$87.5\\%$" },
-              { id: "d", text: "$37.5\\%$" },
+              { id: "a", text: "$37.5\\%$" },
+              { id: "b", text: "$87.5\\%$" },
+              { id: "c", text: "$75.0\\%$" },
+              { id: "d", text: "$50.0\\%$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -2184,8 +2184,8 @@ export const lesson42: Lesson = {
                 id: "a",
                 text: "The endpoint is easier to detect because the sample reacts slowly with the excess reagent added all at once",
               },
-              { id: "b", text: "No indicator is required at all" },
-              { id: "c", text: "Only one standard solution is needed" },
+              { id: "b", text: "Only one standard solution is needed" },
+              { id: "c", text: "No indicator is required at all" },
               { id: "d", text: "The sample does not need to be weighed" },
             ],
             correctChoiceId: "a",

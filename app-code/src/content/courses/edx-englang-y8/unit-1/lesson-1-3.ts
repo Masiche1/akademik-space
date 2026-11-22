@@ -69,9 +69,9 @@ export const lesson13: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "To create mystery and make the reader want to know more" },
-              { id: "b", text: "To describe the village in detail" },
-              { id: "c", text: "To show that the story is about to end" },
-              { id: "d", text: "To explain who Noor is" },
+              { id: "b", text: "To show that the story is about to end" },
+              { id: "c", text: "To explain who Noor is" },
+              { id: "d", text: "To describe the village in detail" },
             ],
             correctChoiceId: "a",
           },
@@ -91,12 +91,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It moves from the whole village to one character, creating contrast and intrigue" },
-              { id: "b", text: "It slows the story down by repeating earlier events" },
-              { id: "c", text: "It shows the village is now safe" },
-              { id: "d", text: "It moves the story back to Monday" },
+              { id: "a", text: "It slows the story down by repeating earlier events" },
+              { id: "b", text: "It moves from the whole village to one character, creating contrast and intrigue" },
+              { id: "c", text: "It moves the story back to Monday" },
+              { id: "d", text: "It shows the village is now safe" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Shift in focus", statement: "Moving from many people to one individual spotlights that person." }],
@@ -201,12 +201,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "To make the moment stand out as a sudden shock" },
-              { id: "b", text: "Because the paragraph before it was too long" },
-              { id: "c", text: "To show that the race is over" },
+              { id: "a", text: "To show that the race is over" },
+              { id: "b", text: "To make the moment stand out as a sudden shock" },
+              { id: "c", text: "Because the paragraph before it was too long" },
               { id: "d", text: "To describe Jonas's training" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "One-line paragraph", statement: "Isolation gives a sentence maximum impact." }],

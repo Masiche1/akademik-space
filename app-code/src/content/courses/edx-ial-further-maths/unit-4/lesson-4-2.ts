@@ -53,12 +53,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$5$ m/s$^2$" },
-              { id: "b", text: "$180$ m/s$^2$" },
-              { id: "c", text: "$0.2$ m/s$^2$" },
+              { id: "a", text: "$0.2$ m/s$^2$" },
+              { id: "b", text: "$5$ m/s$^2$" },
+              { id: "c", text: "$180$ m/s$^2$" },
               { id: "d", text: "$36$ m/s$^2$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -184,9 +184,9 @@ export const lesson42: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$15$ kg m/s" },
-              { id: "b", text: "$1.67$ kg m/s" },
-              { id: "c", text: "$8$ kg m/s" },
-              { id: "d", text: "$-15$ kg m/s" },
+              { id: "b", text: "$-15$ kg m/s" },
+              { id: "c", text: "$1.67$ kg m/s" },
+              { id: "d", text: "$8$ kg m/s" },
             ],
             correctChoiceId: "a",
           },

@@ -92,12 +92,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Positive symptoms" },
-              { id: "b", text: "Negative symptoms" },
-              { id: "c", text: "Cognitive symptoms" },
-              { id: "d", text: "Personality traits" },
+              { id: "a", text: "Cognitive symptoms" },
+              { id: "b", text: "Positive symptoms" },
+              { id: "c", text: "Personality traits" },
+              { id: "d", text: "Negative symptoms" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -329,15 +329,15 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "Loss of emotional expression" },
               {
-                id: "a",
+                id: "b",
                 text: "False perceptions occurring without external stimulus",
               },
-              { id: "b", text: "Fixed false beliefs about reality" },
-              { id: "c", text: "Loss of emotional expression" },
+              { id: "c", text: "Fixed false beliefs about reality" },
               { id: "d", text: "Incoherent patterns of speech" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -376,15 +376,15 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Excessive goal-directed activity" },
+              { id: "a", text: "Inability to speak coherently" },
+              { id: "b", text: "Excessive goal-directed activity" },
+              { id: "c", text: "False beliefs about persecution" },
               {
-                id: "b",
+                id: "d",
                 text: "Loss of motivation and goal-directed behaviour",
               },
-              { id: "c", text: "Inability to speak coherently" },
-              { id: "d", text: "False beliefs about persecution" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -424,13 +424,13 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "An acute environmental stressor" },
+              { id: "a", text: "The treatment that resolves the disorder" },
               {
                 id: "b",
                 text: "A genetic or biological predisposition to the disorder",
               },
-              { id: "c", text: "The symptoms produced by the disorder" },
-              { id: "d", text: "The treatment that resolves the disorder" },
+              { id: "c", text: "An acute environmental stressor" },
+              { id: "d", text: "The symptoms produced by the disorder" },
             ],
             correctChoiceId: "b",
           },
@@ -471,12 +471,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Increasing serotonin availability" },
-              { id: "b", text: "Blocking dopamine receptors" },
-              { id: "c", text: "Enhancing GABA transmission" },
-              { id: "d", text: "Reducing cortisol production" },
+              { id: "a", text: "Enhancing GABA transmission" },
+              { id: "b", text: "Reducing cortisol production" },
+              { id: "c", text: "Increasing serotonin availability" },
+              { id: "d", text: "Blocking dopamine receptors" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -515,18 +515,18 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "High levels of warmth and acceptance" },
               {
-                id: "b",
+                id: "a",
                 text: "Critical, hostile or emotionally over-involved family climates",
               },
+              { id: "b", text: "High levels of warmth and acceptance" },
               {
                 id: "c",
                 text: "Complete emotional detachment from the patient",
               },
               { id: "d", text: "Medication non-compliance by relatives" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -566,12 +566,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Odd and eccentric patterns" },
-              { id: "b", text: "Dramatic, emotional and erratic patterns" },
-              { id: "c", text: "Anxious and fearful patterns" },
-              { id: "d", text: "Psychotic symptoms like hallucinations" },
+              { id: "a", text: "Dramatic, emotional and erratic patterns" },
+              { id: "b", text: "Psychotic symptoms like hallucinations" },
+              { id: "c", text: "Odd and eccentric patterns" },
+              { id: "d", text: "Anxious and fearful patterns" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -1061,12 +1061,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Blocking dopamine receptors" },
-              { id: "b", text: "Increasing serotonin availability" },
-              { id: "c", text: "Reducing cortisol levels" },
+              { id: "a", text: "Reducing cortisol levels" },
+              { id: "b", text: "Blocking dopamine receptors" },
+              { id: "c", text: "Increasing serotonin availability" },
               { id: "d", text: "Stimulating the amygdala" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1299,11 +1299,11 @@ export const lesson53: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Major depressive disorder" },
-              { id: "b", text: "Specific phobias" },
-              { id: "c", text: "Obsessive-compulsive disorder" },
-              { id: "d", text: "Schizophrenia" },
+              { id: "b", text: "Obsessive-compulsive disorder" },
+              { id: "c", text: "Schizophrenia" },
+              { id: "d", text: "Specific phobias" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1342,12 +1342,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "SSRIs" },
-              { id: "b", text: "Antipsychotic medication" },
-              { id: "c", text: "CBT" },
-              { id: "d", text: "Community care programmes" },
+              { id: "a", text: "CBT" },
+              { id: "b", text: "Community care programmes" },
+              { id: "c", text: "Antipsychotic medication" },
+              { id: "d", text: "SSRIs" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1386,15 +1386,15 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Long-term hospitalisation" },
               {
-                id: "b",
+                id: "a",
                 text: "Supporting patients in their own living environments",
               },
-              { id: "c", text: "Isolating patients from society" },
-              { id: "d", text: "Using only medication" },
+              { id: "b", text: "Long-term hospitalisation" },
+              { id: "c", text: "Using only medication" },
+              { id: "d", text: "Isolating patients from society" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -1434,12 +1434,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Mild anxiety disorders" },
-              { id: "b", text: "Severe treatment-resistant depression" },
-              { id: "c", text: "Personality disorders" },
-              { id: "d", text: "Phobias in children" },
+              { id: "a", text: "Severe treatment-resistant depression" },
+              { id: "b", text: "Mild anxiety disorders" },
+              { id: "c", text: "Phobias in children" },
+              { id: "d", text: "Personality disorders" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -1478,15 +1478,15 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Challenging negative automatic thoughts" },
               {
-                id: "b",
+                id: "a",
                 text: "Gradually increasing engagement in rewarding activities",
               },
-              { id: "c", text: "Exploring unconscious conflicts" },
+              { id: "b", text: "Exploring unconscious conflicts" },
+              { id: "c", text: "Challenging negative automatic thoughts" },
               { id: "d", text: "Blocking dopamine receptors" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -1530,9 +1530,9 @@ export const lesson53: Lesson = {
                 id: "a",
                 text: "Targets multiple mechanisms maintaining the disorder",
               },
-              { id: "b", text: "Requires less time from the patient" },
-              { id: "c", text: "Eliminates all side effects" },
-              { id: "d", text: "Works for every patient equally" },
+              { id: "b", text: "Works for every patient equally" },
+              { id: "c", text: "Requires less time from the patient" },
+              { id: "d", text: "Eliminates all side effects" },
             ],
             correctChoiceId: "a",
           },

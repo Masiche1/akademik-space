@@ -52,12 +52,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A culture with many famous landmarks" },
-              { id: "b", text: "A culture relying on shared context and indirect communication" },
-              { id: "c", text: "A culture where everyone speaks loudly" },
-              { id: "d", text: "A culture that avoids all social contact" },
+              { id: "a", text: "A culture where everyone speaks loudly" },
+              { id: "b", text: "A culture that avoids all social contact" },
+              { id: "c", text: "A culture with many famous landmarks" },
+              { id: "d", text: "A culture relying on shared context and indirect communication" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -146,12 +146,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Meaning relies on shared background knowledge and implication" },
-              { id: "b", text: "Communication is explicit, direct and states things clearly" },
-              { id: "c", text: "People avoid speaking directly" },
-              { id: "d", text: "Non-verbal cues carry most meaning" },
+              { id: "a", text: "Non-verbal cues carry most meaning" },
+              { id: "b", text: "Meaning relies on shared background knowledge and implication" },
+              { id: "c", text: "Communication is explicit, direct and states things clearly" },
+              { id: "d", text: "People avoid speaking directly" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -174,11 +174,11 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "They are being rude" },
-              { id: "b", text: "Their culture has different personal space norms" },
-              { id: "c", text: "They dislike you" },
+              { id: "b", text: "They dislike you" },
+              { id: "c", text: "Their culture has different personal space norms" },
               { id: "d", text: "They are trying to intimidate you" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -201,11 +201,11 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Everyone in your family behaves the same way" },
-              { id: "b", text: "What feels normal to you reflects the culture you grew up in" },
-              { id: "c", text: "Your habits are wrong and need changing" },
+              { id: "b", text: "Your habits are wrong and need changing" },
+              { id: "c", text: "What feels normal to you reflects the culture you grew up in" },
               { id: "d", text: "Only your culture has rules of politeness" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -228,11 +228,11 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Every culture greets with a handshake" },
-              { id: "b", text: "Some cultures bow, some kiss cheeks, some simply nod" },
+              { id: "b", text: "All greetings happen at the same time of day" },
               { id: "c", text: "Greetings are always spoken aloud" },
-              { id: "d", text: "All greetings happen at the same time of day" },
+              { id: "d", text: "Some cultures bow, some kiss cheeks, some simply nod" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -255,11 +255,11 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Direct 'no' would be too casual" },
-              { id: "b", text: "Indirect phrasing preserves harmony and avoids direct confrontation" },
-              { id: "c", text: "The speaker cannot find the word 'no'" },
+              { id: "b", text: "The speaker cannot find the word 'no'" },
+              { id: "c", text: "Indirect phrasing preserves harmony and avoids direct confrontation" },
               { id: "d", text: "It is a translation error" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -281,12 +281,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Memorising facts about every country" },
-              { id: "b", text: "Noticing that your own 'normal' is culturally specific" },
-              { id: "c", text: "Avoiding contact with other cultures" },
+              { id: "a", text: "Noticing that your own 'normal' is culturally specific" },
+              { id: "b", text: "Avoiding contact with other cultures" },
+              { id: "c", text: "Memorising facts about every country" },
               { id: "d", text: "Adopting foreign customs immediately" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -308,9 +308,9 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Use your usual greeting confidently" },
+              { id: "a", text: "Refuse to greet them at all" },
               { id: "b", text: "Observe local custom and adapt politely" },
-              { id: "c", text: "Refuse to greet them at all" },
+              { id: "c", text: "Use your usual greeting confidently" },
               { id: "d", text: "Laugh at their customs" },
             ],
             correctChoiceId: "b",
@@ -476,12 +476,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Believing all cultures are identical" },
-              { id: "b", text: "Judging behaviour within its own cultural context" },
+              { id: "a", text: "Judging behaviour within its own cultural context" },
+              { id: "b", text: "Believing all cultures are identical" },
               { id: "c", text: "Rejecting all foreign customs" },
               { id: "d", text: "Adopting every custom you meet" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -570,12 +570,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Curiosity, Clarification, Respect" },
-              { id: "b", text: "Culture, Communication, Competition" },
-              { id: "c", text: "Courage, Confidence, Control" },
-              { id: "d", text: "Custom, Courtesy, Conversation" },
+              { id: "a", text: "Courage, Confidence, Control" },
+              { id: "b", text: "Curiosity, Clarification, Respect" },
+              { id: "c", text: "Custom, Courtesy, Conversation" },
+              { id: "d", text: "Culture, Communication, Competition" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -597,12 +597,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Deciding that eating with your hands is dirty" },
-              { id: "b", text: "Recognising that eating with hands is normal in some cultures and unusual in others" },
+              { id: "a", text: "Avoiding all meals with foreign friends" },
+              { id: "b", text: "Deciding that eating with your hands is dirty" },
               { id: "c", text: "Forcing everyone to use cutlery" },
-              { id: "d", text: "Avoiding all meals with foreign friends" },
+              { id: "d", text: "Recognising that eating with hands is normal in some cultures and unusual in others" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -624,12 +624,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Asking about the other person's culture rather than assuming" },
-              { id: "b", text: "Being nosy about private matters" },
-              { id: "c", text: "Memorising facts about foreign countries" },
-              { id: "d", text: "Avoiding unfamiliar situations" },
+              { id: "a", text: "Avoiding unfamiliar situations" },
+              { id: "b", text: "Asking about the other person's culture rather than assuming" },
+              { id: "c", text: "Being nosy about private matters" },
+              { id: "d", text: "Memorising facts about foreign countries" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -652,11 +652,11 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Making your meaning very loud and clear" },
-              { id: "b", text: "Politely asking what a custom or phrase means when unsure" },
-              { id: "c", text: "Explaining your own culture in detail" },
+              { id: "b", text: "Explaining your own culture in detail" },
+              { id: "c", text: "Politely asking what a custom or phrase means when unsure" },
               { id: "d", text: "Repeating the other person's words exactly" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -678,10 +678,10 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Agreeing with everything the other person says" },
+              { id: "a", text: "Adopting all foreign customs" },
               { id: "b", text: "Treating differences as interesting rather than wrong" },
-              { id: "c", text: "Keeping your distance from other cultures" },
-              { id: "d", text: "Adopting all foreign customs" },
+              { id: "c", text: "Agreeing with everything the other person says" },
+              { id: "d", text: "Keeping your distance from other cultures" },
             ],
             correctChoiceId: "b",
           },
@@ -705,12 +705,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Ignore the custom and ask your teacher" },
-              { id: "b", text: "Observe, withhold judgement, then ask politely about the custom" },
-              { id: "c", text: "Immediately copy the custom without understanding it" },
-              { id: "d", text: "Criticise the custom privately" },
+              { id: "a", text: "Immediately copy the custom without understanding it" },
+              { id: "b", text: "Ignore the custom and ask your teacher" },
+              { id: "c", text: "Criticise the custom privately" },
+              { id: "d", text: "Observe, withhold judgement, then ask politely about the custom" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -732,12 +732,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Asking politely 'What do you mean by that custom?'" },
-              { id: "b", text: "Agreeing with everything your partner says" },
-              { id: "c", text: "Changing the subject quickly" },
-              { id: "d", text: "Staying completely silent" },
+              { id: "a", text: "Agreeing with everything your partner says" },
+              { id: "b", text: "Changing the subject quickly" },
+              { id: "c", text: "Staying completely silent" },
+              { id: "d", text: "Asking politely 'What do you mean by that custom?'" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

@@ -53,12 +53,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$7$ cm" },
-              { id: "b", text: "$11$ cm" },
-              { id: "c", text: "$\\sqrt{45}$ cm" },
+              { id: "a", text: "$11$ cm" },
+              { id: "b", text: "$\\sqrt{45}$ cm" },
+              { id: "c", text: "$7$ cm" },
               { id: "d", text: "$49$ cm" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -196,12 +196,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Angle $GAC$" },
-              { id: "b", text: "Angle $GAB$" },
-              { id: "c", text: "Angle $GAE$" },
-              { id: "d", text: "Angle $AGC$" },
+              { id: "a", text: "Angle $GAE$" },
+              { id: "b", text: "Angle $GAC$" },
+              { id: "c", text: "Angle $AGC$" },
+              { id: "d", text: "Angle $GAB$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [

@@ -55,12 +55,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "They are close together in a regular pattern and vibrate about fixed positions." },
-              { id: "b", text: "They are close together in an irregular arrangement and move around each other." },
+              { id: "a", text: "They are close together in a regular pattern and move freely around each other." },
+              { id: "b", text: "They are close together in a regular pattern and vibrate about fixed positions." },
               { id: "c", text: "They are far apart and move quickly in random directions." },
-              { id: "d", text: "They are close together in a regular pattern and move freely around each other." },
+              { id: "d", text: "They are close together in an irregular arrangement and move around each other." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -190,10 +190,10 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Simple distillation" },
+              { id: "a", text: "Fractional distillation" },
               { id: "b", text: "Filtration" },
               { id: "c", text: "Crystallisation" },
-              { id: "d", text: "Fractional distillation" },
+              { id: "d", text: "Simple distillation" },
             ],
             correctChoiceId: "b",
           },

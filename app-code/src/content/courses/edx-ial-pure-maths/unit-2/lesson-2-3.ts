@@ -52,12 +52,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$8(2x-3)^3$" },
-              { id: "b", text: "$4(2x-3)^3$" },
-              { id: "c", text: "$(2x-3)^3$" },
-              { id: "d", text: "$8x(2x-3)^3$" },
+              { id: "a", text: "$8x(2x-3)^3$" },
+              { id: "b", text: "$(2x-3)^3$" },
+              { id: "c", text: "$8(2x-3)^3$" },
+              { id: "d", text: "$4(2x-3)^3$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -182,11 +182,11 @@ export const lesson23: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$\\theta=\\frac{\\pi}{6}$ only" },
-              { id: "b", text: "$\\theta=\\frac{\\pi}{6}$ or $\\frac{5\\pi}{6}$" },
-              { id: "c", text: "$\\theta=\\frac{\\pi}{3}$ or $\\frac{2\\pi}{3}$" },
-              { id: "d", text: "$\\theta=\\frac{\\pi}{6}$ or $\\frac{\\pi}{3}$" },
+              { id: "b", text: "$\\theta=\\frac{\\pi}{3}$ or $\\frac{2\\pi}{3}$" },
+              { id: "c", text: "$\\theta=\\frac{\\pi}{6}$ or $\\frac{\\pi}{3}$" },
+              { id: "d", text: "$\\theta=\\frac{\\pi}{6}$ or $\\frac{5\\pi}{6}$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

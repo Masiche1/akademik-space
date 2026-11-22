@@ -54,12 +54,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "First-person narration" },
-              { id: "b", text: "Third-person narration adopting a character's voice and thoughts" },
+              { id: "a", text: "A stage direction" },
+              { id: "b", text: "First-person narration" },
               { id: "c", text: "A direct quote" },
-              { id: "d", text: "A stage direction" },
+              { id: "d", text: "Third-person narration adopting a character's voice and thoughts" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Free indirect discourse", statement: "Third-person narration adopting character's voice/thoughts." }],
@@ -139,12 +139,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "First person — the narrator is a character using 'I'" },
-              { id: "b", text: "Third person omniscient" },
+              { id: "a", text: "Free indirect discourse" },
+              { id: "b", text: "First person — the narrator is a character using 'I'" },
               { id: "c", text: "Second person" },
-              { id: "d", text: "Free indirect discourse" },
+              { id: "d", text: "Third person omniscient" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "First person", statement: "Narrator is a character — 'I', 'me', 'my'." }],
@@ -180,12 +180,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "To give the reader access to every character's thoughts" },
-              { id: "b", text: "To create intimacy and subjectivity, limited to one character's knowledge" },
-              { id: "c", text: "To make the story objective and impartial" },
-              { id: "d", text: "To avoid describing any emotions" },
+              { id: "a", text: "To make the story objective and impartial" },
+              { id: "b", text: "To avoid describing any emotions" },
+              { id: "c", text: "To give the reader access to every character's thoughts" },
+              { id: "d", text: "To create intimacy and subjectivity, limited to one character's knowledge" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Perspective effects", statement: "First person = intimate, subjective, limited knowledge." }],
@@ -208,8 +208,8 @@ export const lesson11: Lesson = {
             choices: [
               { id: "a", text: "The reader cannot know what other characters are thinking" },
               { id: "b", text: "The narrator can describe events they never witnessed" },
-              { id: "c", text: "The reader learns everyone's private thoughts" },
-              { id: "d", text: "The narrator becomes an unreliable third-person voice" },
+              { id: "c", text: "The narrator becomes an unreliable third-person voice" },
+              { id: "d", text: "The reader learns everyone's private thoughts" },
             ],
             correctChoiceId: "a",
           },
@@ -227,10 +227,10 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Whether the grammar is correct" },
+              { id: "a", text: "The narrator's spelling" },
               { id: "b", text: "The narrator's reliability — 'everyone agreed' is an unverifiable, self-serving claim" },
               { id: "c", text: "Whether the story has a happy ending" },
-              { id: "d", text: "The narrator's spelling" },
+              { id: "d", text: "Whether the grammar is correct" },
             ],
             correctChoiceId: "b",
           },
@@ -290,11 +290,11 @@ export const lesson11: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Only their own thoughts" },
-              { id: "b", text: "Everything — all characters' thoughts and all events, past and future" },
+              { id: "b", text: "Only what they can see" },
               { id: "c", text: "Nothing at all" },
-              { id: "d", text: "Only what they can see" },
+              { id: "d", text: "Everything — all characters' thoughts and all events, past and future" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Omniscient", statement: "God-like narrator who knows all thoughts and events." }],
@@ -359,11 +359,11 @@ export const lesson11: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "First-person narration" },
-              { id: "b", text: "Free indirect discourse — third person adopting a character's unspoken thoughts" },
+              { id: "b", text: "A stage direction" },
               { id: "c", text: "Direct speech" },
-              { id: "d", text: "A stage direction" },
+              { id: "d", text: "Free indirect discourse — third person adopting a character's unspoken thoughts" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Free indirect discourse", statement: "Third-person narration coloured by a character's thoughts and voice." }],
@@ -432,10 +432,10 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Only their name" },
+              { id: "a", text: "Their publisher" },
               { id: "b", text: "Word choice, sentence structure and attitude" },
               { id: "c", text: "The length of their books" },
-              { id: "d", text: "Their publisher" },
+              { id: "d", text: "Only their name" },
             ],
             correctChoiceId: "b",
           },
@@ -517,12 +517,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Sentence structure" },
-              { id: "b", text: "Word choice" },
+              { id: "a", text: "Word choice" },
+              { id: "b", text: "Punctuation" },
               { id: "c", text: "Paragraph length" },
-              { id: "d", text: "Punctuation" },
+              { id: "d", text: "Sentence structure" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Diction", statement: "Diction = word choice." }],
@@ -558,10 +558,10 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The literal dictionary meaning" },
+              { id: "a", text: "The spelling" },
               { id: "b", text: "The connotation — 'slim' is positive, 'skinny' is negative" },
-              { id: "c", text: "The grammar" },
-              { id: "d", text: "The spelling" },
+              { id: "c", text: "The literal dictionary meaning" },
+              { id: "d", text: "The grammar" },
             ],
             correctChoiceId: "b",
           },
@@ -584,10 +584,10 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Warm and personal" },
+              { id: "a", text: "Angry and blaming" },
               { id: "b", text: "Formal, impersonal and bureaucratic" },
               { id: "c", text: "Playful and joking" },
-              { id: "d", text: "Angry and blaming" },
+              { id: "d", text: "Warm and personal" },
             ],
             correctChoiceId: "b",
           },
@@ -610,12 +610,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Version A — 'commotion' and 'extraordinary' are formal" },
-              { id: "b", text: "Version B — 'mad scene', 'what a' are colloquial" },
-              { id: "c", text: "Both are equally formal" },
-              { id: "d", text: "Neither is informal" },
+              { id: "a", text: "Both are equally formal" },
+              { id: "b", text: "Version A — 'commotion' and 'extraordinary' are formal" },
+              { id: "c", text: "Neither is informal" },
+              { id: "d", text: "Version B — 'mad scene', 'what a' are colloquial" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Register and diction", statement: "Formal vs colloquial diction creates different voices." }],
@@ -671,12 +671,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "'Gonna grab some food.'" },
-              { id: "b", text: "'I am going to purchase a meal.'" },
-              { id: "c", text: "'Wanna eat?'" },
-              { id: "d", text: "'Let's grub.'" },
+              { id: "a", text: "'I am going to purchase a meal.'" },
+              { id: "b", text: "'Gonna grab some food.'" },
+              { id: "c", text: "'Let's grub.'" },
+              { id: "d", text: "'Wanna eat?'" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Formal register", statement: "Formal language is precise, impersonal and follows conventions." }],
@@ -740,12 +740,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Casual and friendly" },
-              { id: "b", text: "Formal but angry — 'utter disappointment' is a strong negative judgement" },
-              { id: "c", text: "Ironic and joking" },
-              { id: "d", text: "Neutral and factual" },
+              { id: "a", text: "Ironic and joking" },
+              { id: "b", text: "Neutral and factual" },
+              { id: "c", text: "Formal but angry — 'utter disappointment' is a strong negative judgement" },
+              { id: "d", text: "Casual and friendly" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Tone analysis", statement: "Formal register can still carry strong emotion." }],

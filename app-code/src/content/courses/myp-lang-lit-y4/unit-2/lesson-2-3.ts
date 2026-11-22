@@ -54,12 +54,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "How long is it?" },
-              { id: "b", text: "What's its purpose?" },
-              { id: "c", text: "Who wrote it?" },
-              { id: "d", text: "Is it in a book?" },
+              { id: "a", text: "Is it in a book?" },
+              { id: "b", text: "Who wrote it?" },
+              { id: "c", text: "How long is it?" },
+              { id: "d", text: "What's its purpose?" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Analysis order", statement: "Purpose first — what does the text want to achieve?" }],
@@ -140,11 +140,11 @@ export const lesson23: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "To inform about history" },
-              { id: "b", text: "To persuade the reader to buy or act" },
+              { id: "b", text: "To educate" },
               { id: "c", text: "To entertain" },
-              { id: "d", text: "To educate" },
+              { id: "d", text: "To persuade the reader to buy or act" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Persuasive purpose", statement: "Advertising aims to persuade — sell products or change behaviour." }],
@@ -182,12 +182,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The critics who review texts" },
-              { id: "b", text: "The specific group the text aims to persuade" },
-              { id: "c", text: "The people who wrote the text" },
-              { id: "d", text: "Everyone who reads anything" },
+              { id: "a", text: "The specific group the text aims to persuade" },
+              { id: "b", text: "The people who wrote the text" },
+              { id: "c", text: "Everyone who reads anything" },
+              { id: "d", text: "The critics who review texts" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Intended audience", statement: "The specific group the text aims to persuade." }],
@@ -227,12 +227,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Proof that is social" },
-              { id: "b", text: "Claiming others have done/chosen it — 'join millions'" },
-              { id: "c", text: "Evidence from studies" },
-              { id: "d", text: "A type of advertisement" },
+              { id: "a", text: "Evidence from studies" },
+              { id: "b", text: "Proof that is social" },
+              { id: "c", text: "A type of advertisement" },
+              { id: "d", text: "Claiming others have done/chosen it — 'join millions'" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Social proof", statement: "Claiming others have done it creates conformity pressure." }],
@@ -301,12 +301,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A phone call" },
-              { id: "b", text: "A direct request for the reader to do something" },
+              { id: "a", text: "A direct request for the reader to do something" },
+              { id: "b", text: "A phone call" },
               { id: "c", text: "A type of argument" },
               { id: "d", text: "A legal term" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Call to action", statement: "Direct request for reader to do something." }],
@@ -344,12 +344,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "'Everyone knows this works'" },
-              { id: "b", text: "'A 2023 study of 500 people showed 80% improvement'" },
+              { id: "a", text: "'A 2023 study of 500 people showed 80% improvement'" },
+              { id: "b", text: "'Trust me'" },
               { id: "c", text: "'It's obvious'" },
-              { id: "d", text: "'Trust me'" },
+              { id: "d", text: "'Everyone knows this works'" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Evidence quality", statement: "Specific, verifiable evidence beats vague assertions." }],
@@ -448,12 +448,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A factual error" },
-              { id: "b", text: "A preference that distorts objectivity" },
+              { id: "a", text: "A preference that distorts objectivity" },
+              { id: "b", text: "A factual error" },
               { id: "c", text: "A long argument" },
               { id: "d", text: "A formal tone" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Bias", statement: "Bias = preference that distorts objectivity." }],
@@ -533,9 +533,9 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Words with heavy meanings" },
+              { id: "a", text: "Long words" },
               { id: "b", text: "Words chosen to trigger emotion or prejudice" },
-              { id: "c", text: "Long words" },
+              { id: "c", text: "Words with heavy meanings" },
               { id: "d", text: "Foreign words" },
             ],
             correctChoiceId: "b",
@@ -576,12 +576,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Making extreme claims" },
-              { id: "b", text: "Being balanced, sourced and acknowledging opposition" },
+              { id: "a", text: "Being balanced, sourced and acknowledging opposition" },
+              { id: "b", text: "Attacking opponents" },
               { id: "c", text: "Using emotional language" },
-              { id: "d", text: "Attacking opponents" },
+              { id: "d", text: "Making extreme claims" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Credibility", statement: "Balanced, sourced, acknowledges opposition = credible." }],
@@ -623,8 +623,8 @@ export const lesson23: Lesson = {
             choices: [
               { id: "a", text: "'The study found...'" },
               { id: "b", text: "'The so-called experts claim...'" },
-              { id: "c", text: "'According to the report...'" },
-              { id: "d", text: "'Data shows...'" },
+              { id: "c", text: "'Data shows...'" },
+              { id: "d", text: "'According to the report...'" },
             ],
             correctChoiceId: "b",
           },
@@ -696,8 +696,8 @@ export const lesson23: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Presenting both sides equally when evidence strongly favours one" },
-              { id: "b", text: "A balanced argument" },
-              { id: "c", text: "A fair review" },
+              { id: "b", text: "A fair review" },
+              { id: "c", text: "A balanced argument" },
               { id: "d", text: "Equal word count" },
             ],
             correctChoiceId: "a",
@@ -738,12 +738,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Citing multiple sources" },
-              { id: "b", text: "Making extreme claims with no evidence" },
-              { id: "c", text: "Acknowledging uncertainty" },
-              { id: "d", text: "Presenting both sides" },
+              { id: "a", text: "Acknowledging uncertainty" },
+              { id: "b", text: "Citing multiple sources" },
+              { id: "c", text: "Presenting both sides" },
+              { id: "d", text: "Making extreme claims with no evidence" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Credibility indicators", statement: "Evidence, balance, uncertainty = credible; extreme claims = low credibility." }],

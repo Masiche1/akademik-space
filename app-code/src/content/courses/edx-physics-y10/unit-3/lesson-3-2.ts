@@ -54,11 +54,11 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Radio waves" },
-              { id: "b", text: "Ultraviolet" },
-              { id: "c", text: "X-rays" },
-              { id: "d", text: "Gamma rays" },
+              { id: "b", text: "X-rays" },
+              { id: "c", text: "Gamma rays" },
+              { id: "d", text: "Ultraviolet" },
             ],
-            correctChoiceId: "d",
+            correctChoiceIc: "d",
           },
           markscheme: {
             principles: [
@@ -189,8 +189,8 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Light goes from air to glass and the angle of incidence is greater than the critical angle." },
-              { id: "b", text: "Light goes from glass to air and the angle of incidence is less than the critical angle." },
+              { id: "a", text: "Light goes from glass to air and the angle of incidence is less than the critical angle." },
+              { id: "b", text: "Light goes from air to glass and the angle of incidence is greater than the critical angle." },
               { id: "c", text: "Light goes from glass to air and the angle of incidence is greater than the critical angle." },
               { id: "d", text: "Light goes from air to glass and the angle of incidence is less than the critical angle." },
             ],

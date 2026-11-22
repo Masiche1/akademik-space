@@ -49,12 +49,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$0.2\\text{ mol}$" },
-              { id: "b", text: "$5\\text{ mol}$" },
-              { id: "c", text: "$320\\text{ mol}$" },
-              { id: "d", text: "$48\\text{ mol}$" },
+              { id: "a", text: "$48\\text{ mol}$" },
+              { id: "b", text: "$320\\text{ mol}$" },
+              { id: "c", text: "$5\\text{ mol}$" },
+              { id: "d", text: "$0.2\\text{ mol}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -183,12 +183,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\text{CH}_2\\text{O}$" },
-              { id: "b", text: "$\\text{C}_6\\text{H}_{12}\\text{O}_6$" },
-              { id: "c", text: "$\\text{CHO}$" },
+              { id: "a", text: "$\\text{CHO}$" },
+              { id: "b", text: "$\\text{CH}_2\\text{O}$" },
+              { id: "c", text: "$\\text{C}_6\\text{H}_{12}\\text{O}_6$" },
               { id: "d", text: "$\\text{C}_3\\text{H}_6\\text{O}_3$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [

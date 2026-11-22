@@ -22,7 +22,11 @@ function range(from: number, to: number): string {
 }
 
 /** Four-level rubric for an answer or part worth `marks` (at least 4). The top level's upper mark equals `marks`. */
-export function levels(focus: LevelFocus, marks: number, part?: string): MarkLevel[] {
+export function levels(
+  focus: LevelFocus,
+  marks: number,
+  part?: string,
+): MarkLevel[] {
   const [d4, d3, d2, d1] = DESCRIPTORS[focus];
   const c1 = Math.floor(marks / 4);
   const c2 = Math.floor(marks / 2);

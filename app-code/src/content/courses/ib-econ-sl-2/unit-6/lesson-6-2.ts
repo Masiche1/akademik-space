@@ -53,12 +53,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "GDP, inflation and unemployment" },
-              { id: "b", text: "Health, education and income" },
-              { id: "c", text: "Exports, imports and investment" },
+              { id: "a", text: "Exports, imports and investment" },
+              { id: "b", text: "GDP, inflation and unemployment" },
+              { id: "c", text: "Health, education and income" },
               { id: "d", text: "Population, area and climate" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -151,12 +151,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Low development" },
-              { id: "b", text: "Medium development" },
-              { id: "c", text: "Very high development" },
-              { id: "d", text: "No development" },
+              { id: "a", text: "Medium development" },
+              { id: "b", text: "No development" },
+              { id: "c", text: "Low development" },
+              { id: "d", text: "Very high development" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -181,8 +181,8 @@ export const lesson62: Lesson = {
             choices: [
               { id: "a", text: "A temporary fall in income during a recession" },
               { id: "b", text: "A self-reinforcing cycle of low income, low saving, low investment and low productivity" },
-              { id: "c", text: "A country with no natural resources" },
-              { id: "d", text: "High inflation causing prices to rise quickly" },
+              { id: "c", text: "High inflation causing prices to rise quickly" },
+              { id: "d", text: "A country with no natural resources" },
             ],
             correctChoiceId: "b",
           },
@@ -208,8 +208,8 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Low capital accumulation" },
-              { id: "b", text: "Weak institutions and corruption" },
+              { id: "a", text: "Weak institutions and corruption" },
+              { id: "b", text: "Low capital accumulation" },
               { id: "c", text: "High levels of domestic saving and investment" },
               { id: "d", text: "Poor health and low education" },
             ],
@@ -236,12 +236,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "GDP per capita is always superior because it is simpler" },
-              { id: "b", text: "The HDI is superior in all cases because GDP is useless" },
-              { id: "c", text: "GDP per capita captures income only; the HDI adds health and education but is harder to measure and update" },
-              { id: "d", text: "Both measures are identical and interchangeable" },
+              { id: "a", text: "The HDI is superior in all cases because GDP is useless" },
+              { id: "b", text: "GDP per capita is always superior because it is simpler" },
+              { id: "c", text: "Both measures are identical and interchangeable" },
+              { id: "d", text: "GDP per capita captures income only; the HDI adds health and education but is harder to measure and update" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -267,8 +267,8 @@ export const lesson62: Lesson = {
             choices: [
               { id: "a", text: "Reduces the money available for infrastructure and public services" },
               { id: "b", text: "Increases household saving automatically" },
-              { id: "c", text: "Raises interest rates on foreign loans" },
-              { id: "d", text: "Guarantees higher GDP growth" },
+              { id: "c", text: "Guarantees higher GDP growth" },
+              { id: "d", text: "Raises interest rates on foreign loans" },
             ],
             correctChoiceId: "a",
           },
@@ -514,12 +514,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Large loans to governments" },
-              { id: "b", text: "Small loans and financial services to poor people" },
-              { id: "c", text: "Free goods to communities" },
-              { id: "d", text: "Military assistance" },
+              { id: "a", text: "Small loans and financial services to poor people" },
+              { id: "b", text: "Large loans to governments" },
+              { id: "c", text: "Military assistance" },
+              { id: "d", text: "Free goods to communities" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -613,9 +613,9 @@ export const lesson62: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Must be spent on goods and services from the donor country" },
-              { id: "b", text: "Is given only during natural disasters" },
-              { id: "c", text: "Comes with no conditions attached" },
-              { id: "d", text: "Is repaid with interest immediately" },
+              { id: "b", text: "Is repaid with interest immediately" },
+              { id: "c", text: "Is given only during natural disasters" },
+              { id: "d", text: "Comes with no conditions attached" },
             ],
             correctChoiceId: "a",
           },
@@ -640,12 +640,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It provides loans that are too large for borrowers" },
-              { id: "b", text: "It excludes women from financial services" },
-              { id: "c", text: "High interest rates can cause over-indebtedness, and it may not reach the poorest" },
+              { id: "a", text: "High interest rates can cause over-indebtedness, and it may not reach the poorest" },
+              { id: "b", text: "It provides loans that are too large for borrowers" },
+              { id: "c", text: "It excludes women from financial services" },
               { id: "d", text: "It is only available in rich countries" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -670,11 +670,11 @@ export const lesson62: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Foreign aid programmes" },
-              { id: "b", text: "Microfinance and microcredit" },
-              { id: "c", text: "Debt relief initiatives" },
-              { id: "d", text: "Central banking" },
+              { id: "b", text: "Central banking" },
+              { id: "c", text: "Microfinance and microcredit" },
+              { id: "d", text: "Debt relief initiatives" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -697,12 +697,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Aid is always effective because money automatically reduces poverty" },
-              { id: "b", text: "Aid never works because it always creates dependency" },
-              { id: "c", text: "Aid's effectiveness depends on governance, design and whether it builds local capacity" },
-              { id: "d", text: "Aid only works when it is tied to donor goods" },
+              { id: "a", text: "Aid never works because it always creates dependency" },
+              { id: "b", text: "Aid's effectiveness depends on governance, design and whether it builds local capacity" },
+              { id: "c", text: "Aid only works when it is tied to donor goods" },
+              { id: "d", text: "Aid is always effective because money automatically reduces poverty" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -726,12 +726,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Increase a country's export earnings" },
-              { id: "b", text: "Free resources so governments can spend on health, education and infrastructure" },
+              { id: "a", text: "Free resources so governments can spend on health, education and infrastructure" },
+              { id: "b", text: "Increase a country's export earnings" },
               { id: "c", text: "Force countries to borrow more" },
               { id: "d", text: "Replace all foreign aid" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

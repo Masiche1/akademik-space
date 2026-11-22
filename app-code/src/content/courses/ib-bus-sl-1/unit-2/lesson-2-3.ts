@@ -96,12 +96,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Job production" },
-              { id: "b", text: "Batch production" },
-              { id: "c", text: "Flow production" },
-              { id: "d", text: "Craft production" },
+              { id: "a", text: "Flow production" },
+              { id: "b", text: "Craft production" },
+              { id: "c", text: "Batch production" },
+              { id: "d", text: "Job production" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -137,12 +137,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Flow production" },
-              { id: "b", text: "Batch production" },
-              { id: "c", text: "Job production" },
-              { id: "d", text: "Lean production" },
+              { id: "a", text: "Batch production" },
+              { id: "b", text: "Job production" },
+              { id: "c", text: "Lean production" },
+              { id: "d", text: "Flow production" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -318,12 +318,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Job production" },
-              { id: "b", text: "Batch production" },
+              { id: "a", text: "Lean production" },
+              { id: "b", text: "Job production" },
               { id: "c", text: "Flow production" },
-              { id: "d", text: "Lean production" },
+              { id: "d", text: "Batch production" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -362,12 +362,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Quality assurance" },
-              { id: "b", text: "Quality control" },
-              { id: "c", text: "Kaizen" },
-              { id: "d", text: "Just-in-time" },
+              { id: "a", text: "Just-in-time" },
+              { id: "b", text: "Kaizen" },
+              { id: "c", text: "Quality control" },
+              { id: "d", text: "Quality assurance" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -406,8 +406,8 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Flow production" },
-              { id: "b", text: "Batch production" },
+              { id: "a", text: "Batch production" },
+              { id: "b", text: "Flow production" },
               { id: "c", text: "Job production" },
               { id: "d", text: "Cell production" },
             ],
@@ -450,12 +450,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Too flexible for mass markets" },
-              { id: "b", text: "Inflexible and vulnerable to breakdowns" },
-              { id: "c", text: "Only suitable for services" },
-              { id: "d", text: "Unable to achieve low unit costs" },
+              { id: "a", text: "Inflexible and vulnerable to breakdowns" },
+              { id: "b", text: "Unable to achieve low unit costs" },
+              { id: "c", text: "Too flexible for mass markets" },
+              { id: "d", text: "Only suitable for services" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -494,15 +494,15 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Only managers inspect finished goods" },
-              { id: "b", text: "Every employee is responsible for quality" },
+              { id: "a", text: "Defects are tolerated if costs are low" },
+              { id: "b", text: "Only managers inspect finished goods" },
+              { id: "c", text: "Every employee is responsible for quality" },
               {
-                id: "c",
+                id: "d",
                 text: "Quality is checked only at the end of production",
               },
-              { id: "d", text: "Defects are tolerated if costs are low" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -539,10 +539,10 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Flow production" },
+              { id: "a", text: "Just-in-time" },
               { id: "b", text: "Batch production" },
-              { id: "c", text: "Job production" },
-              { id: "d", text: "Just-in-time" },
+              { id: "c", text: "Flow production" },
+              { id: "d", text: "Job production" },
             ],
             correctChoiceId: "b",
           },
@@ -1006,12 +1006,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Kaizen" },
-              { id: "b", text: "Just-in-time" },
-              { id: "c", text: "Cell production" },
+              { id: "a", text: "Cell production" },
+              { id: "b", text: "Kaizen" },
+              { id: "c", text: "Just-in-time" },
               { id: "d", text: "Quality control" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1231,12 +1231,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Just-in-time" },
-              { id: "b", text: "Kaizen" },
-              { id: "c", text: "Cell production" },
-              { id: "d", text: "Economic order quantity" },
+              { id: "a", text: "Cell production" },
+              { id: "b", text: "Just-in-time" },
+              { id: "c", text: "Economic order quantity" },
+              { id: "d", text: "Kaizen" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1273,12 +1273,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Flow production" },
-              { id: "b", text: "Kaizen" },
-              { id: "c", text: "Cell production" },
+              { id: "a", text: "Kaizen" },
+              { id: "b", text: "Cell production" },
+              { id: "c", text: "Flow production" },
               { id: "d", text: "Quality control" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1317,12 +1317,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Higher storage costs" },
-              { id: "b", text: "Lower storage costs and less waste" },
+              { id: "a", text: "Larger buffer stocks" },
+              { id: "b", text: "Higher storage costs" },
               { id: "c", text: "Eliminating all supplier risk" },
-              { id: "d", text: "Larger buffer stocks" },
+              { id: "d", text: "Lower storage costs and less waste" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1361,15 +1361,15 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Quality always falls" },
               {
-                id: "b",
+                id: "a",
                 text: "A supplier delay can stop the whole production line",
               },
-              { id: "c", text: "Inventory levels always rise" },
-              { id: "d", text: "Staffing costs always increase" },
+              { id: "b", text: "Quality always falls" },
+              { id: "c", text: "Staffing costs always increase" },
+              { id: "d", text: "Inventory levels always rise" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -1409,15 +1409,15 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Maximise waste in the process" },
+              { id: "a", text: "Slow down production to improve quality" },
+              { id: "b", text: "Maximise waste in the process" },
               {
-                id: "b",
+                id: "c",
                 text: "Produce more output with fewer resources by eliminating waste",
               },
-              { id: "c", text: "Increase stock levels for security" },
-              { id: "d", text: "Slow down production to improve quality" },
+              { id: "d", text: "Increase stock levels for security" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

@@ -54,11 +54,11 @@ export const lesson43: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$\\frac{1}{6}$" },
-              { id: "b", text: "$\\frac{1}{3}$" },
-              { id: "c", text: "$\\frac{1}{2}$" },
-              { id: "d", text: "$\\frac{2}{3}$" },
+              { id: "b", text: "$\\frac{1}{2}$" },
+              { id: "c", text: "$\\frac{2}{3}$" },
+              { id: "d", text: "$\\frac{1}{3}$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Probability", statement: "$P=\\frac{\\text{favourable}}{\\text{total}}$" }],
@@ -179,12 +179,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$8$" },
-              { id: "b", text: "$12$" },
-              { id: "c", text: "$18$" },
-              { id: "d", text: "$36$" },
+              { id: "a", text: "$36$" },
+              { id: "b", text: "$18$" },
+              { id: "c", text: "$8$" },
+              { id: "d", text: "$12$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Counting outcomes", statement: "Multiply the number of outcomes of each event." }],

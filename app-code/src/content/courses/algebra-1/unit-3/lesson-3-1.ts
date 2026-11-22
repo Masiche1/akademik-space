@@ -53,10 +53,10 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$x^8$" },
+              { id: "a", text: "$x^{-8}$" },
               { id: "b", text: "$x^2$" },
-              { id: "c", text: "$x^{-8}$" },
-              { id: "d", text: "$2x^2$" },
+              { id: "c", text: "$2x^2$" },
+              { id: "d", text: "$x^8$" },
             ],
             correctChoiceId: "b",
           },
@@ -180,9 +180,9 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\sqrt[3]{x^5}$" },
+              { id: "a", text: "$5\\sqrt{x^3}$" },
               { id: "b", text: "$\\sqrt[5]{x^3}$" },
-              { id: "c", text: "$5\\sqrt{x^3}$" },
+              { id: "c", text: "$\\sqrt[3]{x^5}$" },
               { id: "d", text: "$\\sqrt[5]{3x}$" },
             ],
             correctChoiceId: "b",

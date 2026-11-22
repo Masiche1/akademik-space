@@ -53,12 +53,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$4x^2-3x+3$" },
-              { id: "b", text: "$4x^2+7x+3$" },
-              { id: "c", text: "$3x^4-10x+3$" },
-              { id: "d", text: "$4x^2-3x-5$" },
+              { id: "a", text: "$4x^2+7x+3$" },
+              { id: "b", text: "$4x^2-3x+3$" },
+              { id: "c", text: "$4x^2-3x-5$" },
+              { id: "d", text: "$3x^4-10x+3$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -185,12 +185,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$6x^2-15x$" },
-              { id: "b", text: "$6x^2-5$" },
+              { id: "a", text: "$6x^2-5$" },
+              { id: "b", text: "$6x^2+15x$" },
               { id: "c", text: "$6x-15$" },
-              { id: "d", text: "$6x^2+15x$" },
+              { id: "d", text: "$6x^2-15x$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

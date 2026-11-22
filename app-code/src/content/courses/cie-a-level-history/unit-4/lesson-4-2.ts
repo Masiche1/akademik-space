@@ -52,7 +52,7 @@ export const lesson642: Lesson = {
           "choices": [
                     {
                               "id": "a",
-                              "text": "Prevent communism spread"
+                              "text": "A trade agreement"
                     },
                     {
                               "id": "b",
@@ -60,14 +60,14 @@ export const lesson642: Lesson = {
                     },
                     {
                               "id": "c",
-                              "text": "A trade agreement"
+                              "text": "Prevent communism spread"
                     },
                     {
                               "id": "d",
                               "text": "A military alliance"
                     }
           ],
-          "correctChoiceId": "a"
+          "correctChoiceId": "c"
 },
           markscheme: {
           "principles": [
@@ -213,6 +213,472 @@ export const lesson642: Lesson = {
                     }
           ],
           "finalAnswer": "Cold War comparative analysis."
+},
+        },
+        {
+          id: "ciealhis-u4-comp-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "What was the Marshall Plan?",
+          response: {
+          "type": "mcq",
+          "choices": [
+                    {
+                              "id": "a",
+                              "text": "A trade embargo on the USSR"
+                    },
+                    {
+                              "id": "b",
+                              "text": "A nuclear arms treaty"
+                    },
+                    {
+                              "id": "c",
+                              "text": "US economic aid to rebuild Western Europe"
+                    },
+                    {
+                              "id": "d",
+                              "text": "A Soviet military alliance"
+                    }
+          ],
+          "correctChoiceId": "c"
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "definition",
+                              "name": "Marshall Plan",
+                              "statement": "US economic aid."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "The Marshall Plan provided US economic aid to rebuild Western Europe.",
+                              "marks": 1,
+                              "markCode": "M"
+                    }
+          ],
+          "finalAnswer": "**(a)** US economic aid to rebuild Europe"
+},
+        },
+        {
+          id: "ciealhis-u4-comp-q6",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "In what year was NATO founded?",
+          response: {
+          "type": "numeric",
+          "parts": [
+                    {
+                              "label": "a",
+                              "answer": 1949
+                    }
+          ]
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "definition",
+                              "name": "NATO",
+                              "statement": "1949 founding."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "NATO was founded in 1949 as a Western military alliance.",
+                              "marks": 1,
+                              "markCode": "M"
+                    }
+          ],
+          "finalAnswer": "1949"
+},
+        },
+        {
+          id: "ciealhis-u4-comp-q7",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "Compare the roles of NATO and the Warsaw Pact.",
+          response: {
+          "type": "open"
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "comparison",
+                              "name": "Alliances",
+                              "statement": "NATO vs Warsaw Pact."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "NATO was the Western military alliance led by the USA; the Warsaw Pact was the Soviet-bloc military alliance.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "Both were collective defence alliances that institutionalised the Cold War division of Europe.",
+                              "marks": 1,
+                              "markCode": "A"
+                    }
+          ],
+          "finalAnswer": "Western vs Soviet-bloc collective defence alliances"
+},
+        },
+        {
+          id: "ciealhis-u4-comp-q8",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "What is a proxy war?",
+          response: {
+          "type": "mcq",
+          "choices": [
+                    {
+                              "id": "a",
+                              "text": "A naval blockade of enemy ports"
+                    },
+                    {
+                              "id": "b",
+                              "text": "A conflict fought through allied third parties or client states"
+                    },
+                    {
+                              "id": "c",
+                              "text": "A war fought directly between the superpowers"
+                    },
+                    {
+                              "id": "d",
+                              "text": "A diplomatic summit between leaders"
+                    }
+          ],
+          "correctChoiceId": "b"
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "definition",
+                              "name": "Proxy war",
+                              "statement": "Allied conflict."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "A proxy war is fought through allies or client states rather than direct superpower combat.",
+                              "marks": 1,
+                              "markCode": "M"
+                    }
+          ],
+          "finalAnswer": "**(b)** Conflict fought through allies"
+},
+        },
+        {
+          id: "ciealhis-u4-comp-q9",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "In what year was the Warsaw Pact established?",
+          response: {
+          "type": "numeric",
+          "parts": [
+                    {
+                              "label": "a",
+                              "answer": 1955
+                    }
+          ]
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "definition",
+                              "name": "Warsaw Pact",
+                              "statement": "1955 founding."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "The Warsaw Pact was established in 1955 as the Soviet-bloc military alliance.",
+                              "marks": 1,
+                              "markCode": "M"
+                    }
+          ],
+          "finalAnswer": "1955"
+},
+        },
+        {
+          id: "ciealhis-u4-comp-q10",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "Compare US and Soviet approaches to the arms race, including the MAD doctrine and proxy support.",
+          response: {
+          "type": "open"
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "comparison",
+                              "name": "Arms race",
+                              "statement": "Nuclear competition."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "US approach: massive nuclear and conventional buildup justified by containment and deterrence.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "Soviet approach: matched US arsenals to maintain parity and project superpower status.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "MAD doctrine made direct war suicidal for both sides, channelling rivalry into proxy conflicts.",
+                              "marks": 1,
+                              "markCode": "A"
+                    },
+                    {
+                              "reasoning": "Both used proxy support — US in Korea/Vietnam, USSR in Afghanistan — to avoid direct confrontation.",
+                              "marks": 1,
+                              "markCode": "A"
+                    }
+          ],
+          "finalAnswer": "Deterrence parity drove rivalry into proxy wars"
+},
+        },
+        {
+          id: "ciealhis-u4-comp-q11",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Which US programme provided economic aid to rebuild Western Europe?",
+          response: {
+          "type": "mcq",
+          "choices": [
+                    {
+                              "id": "a",
+                              "text": "The Marshall Plan"
+                    },
+                    {
+                              "id": "b",
+                              "text": "The Berlin Blockade"
+                    },
+                    {
+                              "id": "c",
+                              "text": "The Warsaw Pact"
+                    },
+                    {
+                              "id": "d",
+                              "text": "The Comecon"
+                    }
+          ],
+          "correctChoiceId": "a"
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "definition",
+                              "name": "Marshall Plan",
+                              "statement": "Economic aid."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "The Marshall Plan provided US economic aid to rebuild Western Europe.",
+                              "marks": 1,
+                              "markCode": "M"
+                    }
+          ],
+          "finalAnswer": "**(a)** The Marshall Plan"
+},
+        },
+        {
+          id: "ciealhis-u4-comp-q12",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Which of the following was a Soviet proxy intervention?",
+          response: {
+          "type": "mcq",
+          "choices": [
+                    {
+                              "id": "a",
+                              "text": "The formation of NATO in 1949"
+                    },
+                    {
+                              "id": "b",
+                              "text": "The Soviet invasion of Afghanistan in 1979"
+                    },
+                    {
+                              "id": "c",
+                              "text": "The Berlin airlift"
+                    },
+                    {
+                              "id": "d",
+                              "text": "The Marshall Plan"
+                    }
+          ],
+          "correctChoiceId": "b"
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "definition",
+                              "name": "Proxy support",
+                              "statement": "Soviet interventions."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "The 1979 invasion of Afghanistan was a Soviet proxy intervention supporting a communist government.",
+                              "marks": 1,
+                              "markCode": "M"
+                    }
+          ],
+          "finalAnswer": "**(a)** The Soviet invasion of Afghanistan in 1979"
+},
+        },
+        {
+          id: "ciealhis-u4-comp-q13",
+          difficulty: "challenge",
+          totalMarks: 1,
+          stem: "In what year did the Berlin Wall fall, symbolising the end of the Cold War division of Europe?",
+          response: {
+          "type": "numeric",
+          "parts": [
+                    {
+                              "label": "a",
+                              "answer": 1989
+                    }
+          ]
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "definition",
+                              "name": "Berlin Wall",
+                              "statement": "1989 fall."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "The Berlin Wall fell in 1989, marking the end of the divided Europe of the Cold War.",
+                              "marks": 1,
+                              "markCode": "M"
+                    }
+          ],
+          "finalAnswer": "1989"
+},
+        },
+        {
+          id: "ciealhis-u4-comp-q14",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Which best describes detente?",
+          response: {
+          "type": "mcq",
+          "choices": [
+                    {
+                              "id": "a",
+                              "text": "An intensification of the nuclear arms race"
+                    },
+                    {
+                              "id": "b",
+                              "text": "A period of reduced tension and negotiation between the superpowers"
+                    },
+                    {
+                              "id": "c",
+                              "text": "A proxy war in Asia"
+                    },
+                    {
+                              "id": "d",
+                              "text": "Soviet expansion into Europe"
+                    }
+          ],
+          "correctChoiceId": "b"
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "definition",
+                              "name": "Detente",
+                              "statement": "Reduced tension."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "Detente was a period of reduced tension and increased negotiation between the superpowers.",
+                              "marks": 1,
+                              "markCode": "M"
+                    }
+          ],
+          "finalAnswer": "**(a)** Reduced tension and negotiation"
+},
+        },
+        {
+          id: "ciealhis-u4-comp-q15",
+          difficulty: "challenge",
+          totalMarks: 1,
+          stem: "In what year did the Soviet Union invade Afghanistan?",
+          response: {
+          "type": "numeric",
+          "parts": [
+                    {
+                              "label": "a",
+                              "answer": 1979
+                    }
+          ]
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "definition",
+                              "name": "Afghanistan War",
+                              "statement": "1979 invasion."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "The USSR invaded Afghanistan in 1979 to support the communist government.",
+                              "marks": 1,
+                              "markCode": "M"
+                    }
+          ],
+          "finalAnswer": "1979"
+},
+        },
+        {
+          id: "ciealhis-u4-comp-q16",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "Evaluate the claim that the USSR 'lost' the Cold War, considering economic, military and political factors.",
+          response: {
+          "type": "open"
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "skill",
+                              "name": "Evaluation",
+                              "statement": "Cold War outcome."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "Economic: the USSR could not sustain military spending alongside failing economic reforms.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "Military: the arms race and Afghanistan drained resources without decisive gains.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "Political: loss of Eastern European satellites and nationalist pressures undermined the bloc.",
+                              "marks": 1,
+                              "markCode": "A"
+                    },
+                    {
+                              "reasoning": "However, US policies such as containment and alliance-building actively contributed to the outcome.",
+                              "marks": 1,
+                              "markCode": "A"
+                    }
+          ],
+          "finalAnswer": "Economic strain, military overstretch and bloc collapse ended USSR power"
 },
         },
       ],

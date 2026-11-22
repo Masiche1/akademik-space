@@ -87,12 +87,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A headline and byline" },
-              { id: "b", text: "A salutation and sign-off" },
+              { id: "a", text: "Stage directions" },
+              { id: "b", text: "A headline and byline" },
               { id: "c", text: "Stanzas and rhyme" },
-              { id: "d", text: "Stage directions" },
+              { id: "d", text: "A salutation and sign-off" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -314,9 +314,9 @@ export const lesson23: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "A headline and byline" },
-              { id: "b", text: "Stanzas and rhyme" },
-              { id: "c", text: "A salutation and sign-off" },
-              { id: "d", text: "Direct address to an audience" },
+              { id: "b", text: "Direct address to an audience" },
+              { id: "c", text: "Stanzas and rhyme" },
+              { id: "d", text: "A salutation and sign-off" },
             ],
             correctChoiceId: "a",
           },
@@ -355,15 +355,15 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The font used in the text" },
+              { id: "a", text: "The plot's setting" },
+              { id: "b", text: "The number of paragraphs" },
+              { id: "c", text: "The font used in the text" },
               {
-                id: "b",
+                id: "d",
                 text: "The degree of formality matched to audience and purpose",
               },
-              { id: "c", text: "The number of paragraphs" },
-              { id: "d", text: "The plot's setting" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -401,12 +401,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Retell the whole plot in order" },
-              { id: "b", text: "Judge against criteria and deliver a verdict" },
+              { id: "a", text: "Judge against criteria and deliver a verdict" },
+              { id: "b", text: "Retell the whole plot in order" },
               { id: "c", text: "Remain completely objective" },
               { id: "d", text: "Avoid all quotation" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -442,10 +442,10 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A byline" },
+              { id: "a", text: "Balanced quotation of sources" },
               { id: "b", text: "Direct address and rhetorical repetition" },
               { id: "c", text: "Short news paragraphs" },
-              { id: "d", text: "Balanced quotation of sources" },
+              { id: "d", text: "A byline" },
             ],
             correctChoiceId: "b",
           },
@@ -485,12 +485,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Objective/reporting in register" },
-              { id: "b", text: "Subjective/arguing in register" },
-              { id: "c", text: "A personal letter" },
-              { id: "d", text: "A poem" },
+              { id: "a", text: "A personal letter" },
+              { id: "b", text: "A poem" },
+              { id: "c", text: "Objective/reporting in register" },
+              { id: "d", text: "Subjective/arguing in register" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -526,18 +526,18 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The letter's length" },
               {
-                id: "b",
+                id: "a",
                 text: "Whether the recipient was named or unknown — register matching",
               },
+              { id: "b", text: "The letter's length" },
               { id: "c", text: "The letter's topic" },
               {
                 id: "d",
                 text: "Whether the letter is formal or informal in all cases",
               },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -1022,12 +1022,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The introduction's first sentence" },
-              { id: "b", text: "A thesis statement" },
-              { id: "c", text: "The first body paragraph" },
-              { id: "d", text: "The conclusion" },
+              { id: "a", text: "A thesis statement" },
+              { id: "b", text: "The conclusion" },
+              { id: "c", text: "The introduction's first sentence" },
+              { id: "d", text: "The first body paragraph" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -1249,12 +1249,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "About 2 minutes" },
-              { id: "b", text: "About 5 minutes (roughly 10%)" },
+              { id: "a", text: "About 5 minutes (roughly 10%)" },
+              { id: "b", text: "About 2 minutes" },
               { id: "c", text: "About 20 minutes" },
               { id: "d", text: "No planning time is needed" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -1289,15 +1289,15 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Comma placement" },
-              { id: "b", text: "Capital letters" },
               {
-                id: "c",
+                id: "a",
                 text: "Whether the thesis is present and paragraphs are logically ordered",
               },
-              { id: "d", text: "Spelling of difficult words" },
+              { id: "b", text: "Spelling of difficult words" },
+              { id: "c", text: "Comma placement" },
+              { id: "d", text: "Capital letters" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1334,18 +1334,18 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "Because examiners only read the thesis" },
+              { id: "b", text: "Because it saves time on evidence" },
               {
-                id: "a",
-                text: "Because introductions are always written last",
-              },
-              {
-                id: "b",
+                id: "c",
                 text: "Because the thesis controls everything that follows — writing it first prevents backtracking",
               },
-              { id: "c", text: "Because examiners only read the thesis" },
-              { id: "d", text: "Because it saves time on evidence" },
+              {
+                id: "d",
+                text: "Because introductions are always written last",
+              },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1380,15 +1380,15 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Abandon the essay and start over" },
+              { id: "a", text: "Write only a conclusion" },
+              { id: "b", text: "Stop and hand in" },
+              { id: "c", text: "Abandon the essay and start over" },
               {
-                id: "b",
+                id: "d",
                 text: "Continue with planned topic sentences, even briefly developed",
               },
-              { id: "c", text: "Write only a conclusion" },
-              { id: "d", text: "Stop and hand in" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1427,14 +1427,14 @@ export const lesson23: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Reread the whole essay slowly" },
+              { id: "b", text: "Check only the last paragraph" },
               {
-                id: "b",
+                id: "c",
                 text: "Check thesis, paragraph order, evidence, conclusion in that priority order",
               },
-              { id: "c", text: "Check only the last paragraph" },
               { id: "d", text: "Check spelling word by word" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1471,14 +1471,14 @@ export const lesson23: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Using too much evidence" },
+              { id: "b", text: "Writing too quickly" },
               {
-                id: "b",
+                id: "c",
                 text: "Discovering the thesis in paragraph three and having to backtrack",
               },
-              { id: "c", text: "Writing too quickly" },
               { id: "d", text: "Choosing a difficult text" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

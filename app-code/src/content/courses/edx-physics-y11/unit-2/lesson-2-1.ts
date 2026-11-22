@@ -56,8 +56,8 @@ export const lesson21: Lesson = {
             choices: [
               { id: "a", text: "The field lines run from the south pole to the north pole." },
               { id: "b", text: "The field lines run from the north pole to the south pole." },
-              { id: "c", text: "The field lines are straight and parallel everywhere." },
-              { id: "d", text: "The field is strongest in the middle of the magnet, between the poles." },
+              { id: "c", text: "The field is strongest in the middle of the magnet, between the poles." },
+              { id: "d", text: "The field lines are straight and parallel everywhere." },
             ],
             correctChoiceId: "b",
           },
@@ -186,12 +186,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The direction of the magnetic field" },
-              { id: "b", text: "The direction of the current" },
-              { id: "c", text: "The direction of the force (motion)" },
-              { id: "d", text: "The direction of the induced voltage" },
+              { id: "a", text: "The direction of the current" },
+              { id: "b", text: "The direction of the induced voltage" },
+              { id: "c", text: "The direction of the magnetic field" },
+              { id: "d", text: "The direction of the force (motion)" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [

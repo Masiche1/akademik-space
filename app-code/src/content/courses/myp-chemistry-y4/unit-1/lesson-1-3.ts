@@ -57,12 +57,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Ionic" },
-              { id: "b", text: "Covalent" },
-              { id: "c", text: "Metallic" },
+              { id: "a", text: "Covalent" },
+              { id: "b", text: "Metallic" },
+              { id: "c", text: "Ionic" },
               { id: "d", text: "Hydrogen" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -84,12 +84,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Sodium loses an electron to become Na⁺; chlorine gains it to become Cl⁻" },
-              { id: "b", text: "They share electrons equally" },
-              { id: "c", text: "Both lose electrons" },
-              { id: "d", text: "Nothing changes" },
+              { id: "a", text: "They share electrons equally" },
+              { id: "b", text: "Both lose electrons" },
+              { id: "c", text: "Nothing changes" },
+              { id: "d", text: "Sodium loses an electron to become Na⁺; chlorine gains it to become Cl⁻" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -112,12 +112,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Delocalised electrons in metallic bond can move freely and carry charge" },
-              { id: "b", text: "Metals have free protons" },
-              { id: "c", text: "Metals are liquids" },
+              { id: "a", text: "Metals have free protons" },
+              { id: "b", text: "Metals are liquids" },
+              { id: "c", text: "Delocalised electrons in metallic bond can move freely and carry charge" },
               { id: "d", text: "Ions move through metal" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -172,12 +172,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A metal and a non-metal" },
-              { id: "b", text: "Two non-metals" },
-              { id: "c", text: "Two metals" },
-              { id: "d", text: "Any two elements" },
+              { id: "a", text: "Any two elements" },
+              { id: "b", text: "A metal and a non-metal" },
+              { id: "c", text: "Two non-metals" },
+              { id: "d", text: "Two metals" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -200,8 +200,8 @@ export const lesson13: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "It loses 2 electrons to form Mg²⁺" },
-              { id: "b", text: "It gains 2 electrons to form Mg²⁻" },
-              { id: "c", text: "It shares electrons equally" },
+              { id: "b", text: "It shares electrons equally" },
+              { id: "c", text: "It gains 2 electrons to form Mg²⁻" },
               { id: "d", text: "Nothing changes" },
             ],
             correctChoiceId: "a",
@@ -275,12 +275,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Sharing of electron pairs between atoms" },
-              { id: "b", text: "Transfer of electrons" },
-              { id: "c", text: "Attraction between ions" },
-              { id: "d", text: "Movement of protons" },
+              { id: "a", text: "Attraction between ions" },
+              { id: "b", text: "Movement of protons" },
+              { id: "c", text: "Sharing of electron pairs between atoms" },
+              { id: "d", text: "Transfer of electrons" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -328,12 +328,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Each ion is attracted to many oppositely charged ions in all directions" },
-              { id: "b", text: "Ions share electrons in a network" },
+              { id: "a", text: "Ions share electrons in a network" },
+              { id: "b", text: "Each ion is attracted to many oppositely charged ions in all directions" },
               { id: "c", text: "Ions are neutral particles" },
               { id: "d", text: "They contain only one type of ion" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -522,8 +522,8 @@ export const lesson13: Lesson = {
             choices: [
               { id: "a", text: "Weak intermolecular forces between molecules" },
               { id: "b", text: "Strong covalent bonds" },
-              { id: "c", text: "Ionic bonds" },
-              { id: "d", text: "Metallic bonds" },
+              { id: "c", text: "Metallic bonds" },
+              { id: "d", text: "Ionic bonds" },
             ],
             correctChoiceId: "a",
           },
@@ -547,12 +547,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Layers slide easily (lubricant) and delocalised electrons conduct (electrode)" },
+              { id: "a", text: "It is an insulator" },
               { id: "b", text: "It is very hard" },
-              { id: "c", text: "It is an insulator" },
-              { id: "d", text: "It melts easily" },
+              { id: "c", text: "It melts easily" },
+              { id: "d", text: "Layers slide easily (lubricant) and delocalised electrons conduct (electrode)" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -575,12 +575,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "When layers shift, like charges come opposite and repel, causing the lattice to break" },
+              { id: "a", text: "They are always liquids" },
               { id: "b", text: "Ions are weakly bonded" },
-              { id: "c", text: "They have low melting points" },
-              { id: "d", text: "They are always liquids" },
+              { id: "c", text: "When layers shift, like charges come opposite and repel, causing the lattice to break" },
+              { id: "d", text: "They have low melting points" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -635,12 +635,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Diamond" },
-              { id: "b", text: "Water" },
-              { id: "c", text: "Carbon dioxide" },
-              { id: "d", text: "Sodium chloride" },
+              { id: "a", text: "Sodium chloride" },
+              { id: "b", text: "Carbon dioxide" },
+              { id: "c", text: "Water" },
+              { id: "d", text: "Diamond" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -662,12 +662,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Graphite has delocalised electrons between its layers; diamond has all electrons in covalent bonds" },
+              { id: "a", text: "Diamond is too hard to conduct" },
               { id: "b", text: "Graphite is a metal" },
-              { id: "c", text: "Diamond is too hard to conduct" },
-              { id: "d", text: "Graphite contains ions" },
+              { id: "c", text: "Graphite contains ions" },
+              { id: "d", text: "Graphite has delocalised electrons between its layers; diamond has all electrons in covalent bonds" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -737,12 +737,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "When the lattice is shifted, like charges become adjacent and repel, shattering the crystal" },
-              { id: "b", text: "Ionic bonds are weak" },
+              { id: "a", text: "The lattice has gaps" },
+              { id: "b", text: "When the lattice is shifted, like charges become adjacent and repel, shattering the crystal" },
               { id: "c", text: "Ions are free to move" },
-              { id: "d", text: "The lattice has gaps" },
+              { id: "d", text: "Ionic bonds are weak" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -791,12 +791,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Weak forces between its layers allow them to slide over each other easily" },
-              { id: "b", text: "It is extremely hard" },
-              { id: "c", text: "It melts at low temperature" },
-              { id: "d", text: "It is soluble in oil" },
+              { id: "a", text: "It is soluble in oil" },
+              { id: "b", text: "It melts at low temperature" },
+              { id: "c", text: "It is extremely hard" },
+              { id: "d", text: "Weak forces between its layers allow them to slide over each other easily" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -845,12 +845,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "1" },
-              { id: "b", text: "2" },
+              { id: "a", text: "4" },
+              { id: "b", text: "1" },
               { id: "c", text: "3" },
-              { id: "d", text: "4" },
+              { id: "d", text: "2" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [

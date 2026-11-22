@@ -55,12 +55,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$g(x)=2x-3$" },
-              { id: "b", text: "$g(x)=2(x-4)+1$" },
-              { id: "c", text: "$g(x)=2x+5$" },
-              { id: "d", text: "$g(x)=2x+1+4x$" },
+              { id: "a", text: "$g(x)=2x+5$" },
+              { id: "b", text: "$g(x)=2x+1+4x$" },
+              { id: "c", text: "$g(x)=2(x-4)+1$" },
+              { id: "d", text: "$g(x)=2x-3$" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -83,10 +83,10 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "5 units right; $g(1)=16$" },
+              { id: "a", text: "5 units left; $g(1)=1$" },
               { id: "b", text: "5 units left; $g(1)=16$" },
-              { id: "c", text: "5 units left; $g(1)=1$" },
-              { id: "d", text: "5 units right; $g(1)=1$" },
+              { id: "c", text: "5 units right; $g(1)=1$" },
+              { id: "d", text: "5 units right; $g(1)=16$" },
             ],
             correctChoiceId: "b",
           },
@@ -230,12 +230,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$g(x)=-3x-4$" },
-              { id: "b", text: "$g(x)=3x-4$" },
-              { id: "c", text: "$g(x)=-3x+4$" },
-              { id: "d", text: "$g(x)=3x+4$" },
+              { id: "a", text: "$g(x)=3x-4$" },
+              { id: "b", text: "$g(x)=-3x-4$" },
+              { id: "c", text: "$g(x)=3x+4$" },
+              { id: "d", text: "$g(x)=-3x+4$" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -359,12 +359,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$(3x,y)$; a horizontal stretch by 3" },
-              { id: "b", text: "$(x,3y)$; a vertical stretch by 3" },
+              { id: "a", text: "$(-x,3y)$; a reflection across the $y$-axis and vertical stretch" },
+              { id: "b", text: "$(3x,y)$; a horizontal stretch by 3" },
               { id: "c", text: "$(x,\\frac{y}{3})$; a vertical compression by 3" },
-              { id: "d", text: "$(-x,3y)$; a reflection across the $y$-axis and vertical stretch" },
+              { id: "d", text: "$(x,3y)$; a vertical stretch by 3" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

@@ -52,12 +52,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$3.2\\times10^{-4}$" },
-              { id: "b", text: "$3.2\\times10^{-3}$" },
-              { id: "c", text: "$3.2\\times10^{4}$" },
-              { id: "d", text: "$32\\times10^{-5}$" },
+              { id: "a", text: "$32\\times10^{-5}$" },
+              { id: "b", text: "$3.2\\times10^{4}$" },
+              { id: "c", text: "$3.2\\times10^{-4}$" },
+              { id: "d", text: "$3.2\\times10^{-3}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

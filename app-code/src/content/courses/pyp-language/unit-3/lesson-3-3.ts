@@ -51,12 +51,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Publish it on the wall" },
-              { id: "b", text: "Plan what will happen" },
-              { id: "c", text: "Check every spelling" },
-              { id: "d", text: "Read it to the class" },
+              { id: "a", text: "Read it to the class" },
+              { id: "b", text: "Publish it on the wall" },
+              { id: "c", text: "Plan what will happen" },
+              { id: "d", text: "Check every spelling" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -77,12 +77,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "'It was fun. We went somewhere. It ended.'" },
-              { id: "b", text: "'Arrived → saw animals → ate lunch → went home'" },
-              { id: "c", text: "'Dragons, space, robots'" },
-              { id: "d", text: "'One big word: fun'" },
+              { id: "a", text: "'One big word: fun'" },
+              { id: "b", text: "'It was fun. We went somewhere. It ended.'" },
+              { id: "c", text: "'Arrived → saw animals → ate lunch → went home'" },
+              { id: "d", text: "'Dragons, space, robots'" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -152,12 +152,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Plan" },
-              { id: "b", text: "Draft" },
-              { id: "c", text: "Title" },
-              { id: "d", text: "Checklist" },
+              { id: "a", text: "Checklist" },
+              { id: "b", text: "Title" },
+              { id: "c", text: "Plan" },
+              { id: "d", text: "Draft" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -198,9 +198,9 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Notes showing what you will write and in what order" },
-              { id: "b", text: "The finished story" },
-              { id: "c", text: "A list of spellings" },
-              { id: "d", text: "A picture of your desk" },
+              { id: "b", text: "A picture of your desk" },
+              { id: "c", text: "The finished story" },
+              { id: "d", text: "A list of spellings" },
             ],
             correctChoiceId: "a",
           },
@@ -279,12 +279,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Stop and fix every spelling mistake immediately" },
-              { id: "b", text: "Get your ideas down without worrying about mistakes yet" },
-              { id: "c", text: "Give up if the first sentence is hard" },
-              { id: "d", text: "Copy someone else's story exactly" },
+              { id: "a", text: "Get your ideas down without worrying about mistakes yet" },
+              { id: "b", text: "Give up if the first sentence is hard" },
+              { id: "c", text: "Copy someone else's story exactly" },
+              { id: "d", text: "Stop and fix every spelling mistake immediately" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -343,12 +343,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Perfect spelling and punctuation" },
-              { id: "b", text: "Your ideas in order — rough is okay" },
-              { id: "c", text: "Only the ending" },
-              { id: "d", text: "Someone else's ideas" },
+              { id: "a", text: "Your ideas in order — rough is okay" },
+              { id: "b", text: "Only the ending" },
+              { id: "c", text: "Someone else's ideas" },
+              { id: "d", text: "Perfect spelling and punctuation" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -369,12 +369,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Throw it away after one sentence" },
-              { id: "b", text: "Use it as a guide so you remember what happens next" },
-              { id: "c", text: "Copy it word for word into the story" },
-              { id: "d", text: "Only use it for spelling" },
+              { id: "a", text: "Use it as a guide so you remember what happens next" },
+              { id: "b", text: "Copy it word for word into the story" },
+              { id: "c", text: "Only use it for spelling" },
+              { id: "d", text: "Throw it away after one sentence" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -451,11 +451,11 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Planning" },
-              { id: "b", text: "Drafting" },
-              { id: "c", text: "Editing" },
+              { id: "b", text: "Editing" },
+              { id: "c", text: "Drafting" },
               { id: "d", text: "Reading aloud only" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -542,8 +542,8 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Planning" },
-              { id: "b", text: "Drafting" },
+              { id: "a", text: "Drafting" },
+              { id: "b", text: "Planning" },
               { id: "c", text: "Revising" },
               { id: "d", text: "Publishing" },
             ],
@@ -588,11 +588,11 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Revising" },
-              { id: "b", text: "Editing" },
-              { id: "c", text: "Planning" },
-              { id: "d", text: "Drafting" },
+              { id: "b", text: "Drafting" },
+              { id: "c", text: "Editing" },
+              { id: "d", text: "Planning" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -669,10 +669,10 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Messy with crossed-out words" },
+              { id: "a", text: "Only drawings, no words" },
               { id: "b", text: "Neat, with a title, good spacing and correct punctuation" },
-              { id: "c", text: "Written in tiny secret code" },
-              { id: "d", text: "Only drawings, no words" },
+              { id: "c", text: "Messy with crossed-out words" },
+              { id: "d", text: "Written in tiny secret code" },
             ],
             correctChoiceId: "b",
           },
@@ -733,12 +733,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Fixing 'teh' to 'the'" },
-              { id: "b", text: "Adding a describing word like 'fluffy'" },
-              { id: "c", text: "Adding a missing full stop" },
-              { id: "d", text: "Capitalising 'i' to 'I'" },
+              { id: "a", text: "Adding a describing word like 'fluffy'" },
+              { id: "b", text: "Capitalising 'i' to 'I'" },
+              { id: "c", text: "Fixing 'teh' to 'the'" },
+              { id: "d", text: "Adding a missing full stop" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -759,12 +759,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Add a describing word" },
-              { id: "b", text: "Change 'it' to 'It' with a capital letter" },
+              { id: "a", text: "Change 'it' to 'It' with a capital letter" },
+              { id: "b", text: "Rewrite the whole story" },
               { id: "c", text: "Add a question mark" },
-              { id: "d", text: "Rewrite the whole story" },
+              { id: "d", text: "Add a describing word" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

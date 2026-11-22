@@ -57,12 +57,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Two identical diploid cells" },
+              { id: "a", text: "One identical diploid cell" },
               { id: "b", text: "Four varied haploid cells" },
-              { id: "c", text: "Two varied haploid cells" },
-              { id: "d", text: "One identical diploid cell" },
+              { id: "c", text: "Two identical diploid cells" },
+              { id: "d", text: "Two varied haploid cells" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -85,11 +85,11 @@ export const lesson12: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Metaphase II" },
-              { id: "b", text: "Anaphase I" },
-              { id: "c", text: "Prophase I" },
-              { id: "d", text: "Telophase II" },
+              { id: "b", text: "Telophase II" },
+              { id: "c", text: "Anaphase I" },
+              { id: "d", text: "Prophase I" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -112,12 +112,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "23" },
-              { id: "b", text: "46" },
-              { id: "c", text: "92" },
-              { id: "d", text: "69" },
+              { id: "a", text: "46" },
+              { id: "b", text: "23" },
+              { id: "c", text: "69" },
+              { id: "d", text: "92" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -233,7 +233,7 @@ export const lesson12: Lesson = {
           difficulty: "challenge",
           totalMarks: 1,
           stem: "Which process creates new allele combinations during meiosis I?",
-          response: { type: "mcq", choices: [{ id: "a", text: "DNA replication" }, { id: "b", text: "Crossing over and independent assortment" }, { id: "c", text: "Cytokinesis" }, { id: "d", text: "Sister chromatid separation" }], correctChoiceId: "b" },
+          response: { type: "mcq", choices: [ { id: "a", text: "Crossing over and independent assortment" }, { id: "b", text: "Cytokinesis" }, { id: "c", text: "Sister chromatid separation" }, { id: "d", text: "DNA replication" } ], correctChoiceId: "a" },
           markscheme: { principles: [{ kind: "principle", name: "Meiotic variation", statement: "Crossing over and independent assortment generate genetically different gametes." }], steps: [{ reasoning: "These mechanisms shuffle alleles between homologous chromosomes and gametes.", working: "crossing\\text{ over}+assortment", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Crossing over and independent assortment" },
         },
         {
@@ -249,7 +249,7 @@ export const lesson12: Lesson = {
           difficulty: "foundation",
           totalMarks: 1,
           stem: "What is nondisjunction?",
-          response: { type: "mcq", choices: [{ id: "a", text: "Failure of chromosomes to separate correctly during meiosis" }, { id: "b", text: "Exchange of segments between homologous chromosomes" }, { id: "c", text: "Normal splitting of sister chromatids" }, { id: "d", text: "A type of fertilisation" }], correctChoiceId: "a" },
+          response: { type: "mcq", choices: [ { id: "a", text: "Failure of chromosomes to separate correctly during meiosis" }, { id: "b", text: "Normal splitting of sister chromatids" }, { id: "c", text: "Exchange of segments between homologous chromosomes" }, { id: "d", text: "A type of fertilisation" } ], correctChoiceId: "a" },
           markscheme: { principles: [{ kind: "definition", name: "Nondisjunction", statement: "Failure of homologous chromosomes or sister chromatids to separate during division." }], steps: [{ reasoning: "Nondisjunction can produce gametes with abnormal chromosome numbers.", working: "aneuploidy", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Failure of chromosomes to separate correctly during meiosis" },
         },
         {
@@ -257,7 +257,7 @@ export const lesson12: Lesson = {
           difficulty: "core",
           totalMarks: 1,
           stem: "Which process separates the cytoplasm after nuclear division?",
-          response: { type: "mcq", choices: [{ id: "a", text: "Crossing over" }, { id: "b", text: "Cytokinesis" }, { id: "c", text: "Transcription" }, { id: "d", text: "Osmosis" }], correctChoiceId: "b" },
+          response: { type: "mcq", choices: [ { id: "a", text: "Osmosis" }, { id: "b", text: "Crossing over" }, { id: "c", text: "Transcription" }, { id: "d", text: "Cytokinesis" } ], correctChoiceId: "d" },
           markscheme: { principles: [{ kind: "definition", name: "Cytokinesis", statement: "Cytokinesis divides the cytoplasm after mitosis or meiosis." }], steps: [{ reasoning: "Nuclear division is completed before the cytoplasm is partitioned.", working: "cytokinesis", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Cytokinesis" },
         },
         {
@@ -265,7 +265,7 @@ export const lesson12: Lesson = {
           difficulty: "challenge",
           totalMarks: 1,
           stem: "A gamete contains 24 chromosomes. What is the diploid chromosome number of the organism?",
-          response: { type: "mcq", choices: [{ id: "a", text: "12" }, { id: "b", text: "24" }, { id: "c", text: "48" }, { id: "d", text: "96" }], correctChoiceId: "c" },
+          response: { type: "mcq", choices: [ { id: "a", text: "24" }, { id: "b", text: "12" }, { id: "c", text: "96" }, { id: "d", text: "48" } ], dorrectChoiceId: "c" },
           markscheme: { principles: [{ kind: "formula", name: "Haploid–diploid relation", statement: "Fertilisation restores $2n$ by combining two $n$ gametes." }], steps: [{ reasoning: "Diploid number is twice the haploid number.", working: "2\\times24=48", marks: 1, markCode: "B" }], finalAnswer: "**(c)** 48" },
         },
       ],
@@ -308,12 +308,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\frac{1}{4}$" },
-              { id: "b", text: "$\\frac{1}{2}$" },
-              { id: "c", text: "$\\frac{3}{4}$" },
+              { id: "a", text: "$\\frac{1}{2}$" },
+              { id: "b", text: "$\\frac{3}{4}$" },
+              { id: "c", text: "$\\frac{1}{4}$" },
               { id: "d", text: "$1$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -335,8 +335,8 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Both must be aa" },
-              { id: "b", text: "Both must be AA" },
+              { id: "a", text: "Both must be AA" },
+              { id: "b", text: "Both must be aa" },
               { id: "c", text: "Both must be Aa (carriers)" },
               { id: "d", text: "One AA and one aa" },
             ],
@@ -363,12 +363,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "BB" },
+              { id: "a", text: "Cannot be determined" },
               { id: "b", text: "Bb" },
-              { id: "c", text: "bb" },
-              { id: "d", text: "Cannot be determined" },
+              { id: "c", text: "BB" },
+              { id: "d", text: "bb" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -484,7 +484,7 @@ export const lesson12: Lesson = {
           difficulty: "challenge",
           totalMarks: 1,
           stem: "What is a test cross used to determine?",
-          response: { type: "mcq", choices: [{ id: "a", text: "The phenotype of a gamete" }, { id: "b", text: "The genotype of an individual showing a dominant trait" }, { id: "c", text: "The number of chromosomes in a cell" }, { id: "d", text: "The rate of mutation" }], correctChoiceId: "b" },
+          response: { type: "mcq", choices: [ { id: "a", text: "The rate of mutation" }, { id: "b", text: "The number of chromosomes in a cell" }, { id: "c", text: "The phenotype of a gamete" }, { id: "d", text: "The genotype of an individual showing a dominant trait" } ], correctChoiceId: "d" },
           markscheme: { principles: [{ kind: "definition", name: "Test cross", statement: "A dominant phenotype is crossed with a recessive homozygote to reveal the dominant parent's genotype." }], steps: [{ reasoning: "If all offspring are dominant the parent is homozygous; if half are recessive it is heterozygous.", working: "T_\\times tt", marks: 1, markCode: "B" }], finalAnswer: "**(b)** The genotype of an individual showing a dominant trait" },
         },
         {
@@ -508,7 +508,7 @@ export const lesson12: Lesson = {
           difficulty: "core",
           totalMarks: 1,
           stem: "Which statement about a dominant allele is correct?",
-          response: { type: "mcq", choices: [{ id: "a", text: "It is always more common in a population" }, { id: "b", text: "It masks the effect of a recessive allele in a heterozygote" }, { id: "c", text: "It can only be inherited from the mother" }, { id: "d", text: "It never affects the phenotype" }], correctChoiceId: "b" },
+          response: { type: "mcq", choices: [ { id: "a", text: "It never affects the phenotype" }, { id: "b", text: "It can only be inherited from the mother" }, { id: "c", text: "It is always more common in a population" }, { id: "d", text: "It masks the effect of a recessive allele in a heterozygote" } ], correctChoiceId: "d" },
           markscheme: { principles: [{ kind: "definition", name: "Dominant allele", statement: "A dominant allele determines the phenotype when present with a recessive allele." }], steps: [{ reasoning: "Dominance is about expression, not frequency or parental origin.", working: "dominant\\text{ masks}", marks: 1, markCode: "B" }], finalAnswer: "**(b)** It masks the effect of a recessive allele in a heterozygote" },
         },
         {
@@ -516,7 +516,7 @@ export const lesson12: Lesson = {
           difficulty: "challenge",
           totalMarks: 1,
           stem: "Two carrier parents have four children. What is the probability that all four are unaffected?",
-          response: { type: "mcq", choices: [{ id: "a", text: "$1/4$" }, { id: "b", text: "$9/16$" }, { id: "c", text: "$81/256$" }, { id: "d", text: "$3/4$" }], correctChoiceId: "c" },
+          response: { type: "mcq", choices: [ { id: "a", text: "$9/16$" }, { id: "b", text: "$81/256$" }, { id: "c", text: "$1/4$" }, { id: "d", text: "$3/4$" } ], borrectChoiceId: "c" },
           markscheme: { principles: [{ kind: "formula", name: "Independent probability", statement: "Each child has an independent 3/4 chance of being unaffected." }], steps: [{ reasoning: "For four independent children, $(3/4)^4=81/256$.", working: "(3/4)^4=81/256", marks: 1, markCode: "B" }], finalAnswer: "**(c)** $81/256$" },
         },
       ],

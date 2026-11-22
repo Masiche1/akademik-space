@@ -55,12 +55,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A poem with no rules at all — it can be anything" },
-              { id: "b", text: "A poem without fixed rhyme or rhythm" },
+              { id: "a", text: "A poem without fixed rhyme or rhythm" },
+              { id: "b", text: "A poem with no rules at all — it can be anything" },
               { id: "c", text: "A poem that must rhyme every line" },
               { id: "d", text: "A poem written only about freedom" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -141,8 +141,8 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "A pair of rhyming lines" },
-              { id: "b", text: "A group of four lines" },
-              { id: "c", text: "A poem without rhyme" },
+              { id: "b", text: "A poem without rhyme" },
+              { id: "c", text: "A group of four lines" },
               { id: "d", text: "The title of a poem" },
             ],
             correctChoiceId: "a",
@@ -161,12 +161,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A single word" },
-              { id: "b", text: "A group of lines, like a paragraph" },
-              { id: "c", text: "The rhyming pattern" },
+              { id: "a", text: "A group of lines, like a paragraph" },
+              { id: "b", text: "The rhyming pattern" },
+              { id: "c", text: "A single word" },
               { id: "d", text: "The poem's title" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "convention", name: "Stanza", statement: "A stanza is a group of lines in a poem." }],
@@ -182,12 +182,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "ABAB" },
-              { id: "b", text: "AABB" },
-              { id: "c", text: "AAAA" },
-              { id: "d", text: "ABCABC" },
+              { id: "a", text: "AABB" },
+              { id: "b", text: "ABCABC" },
+              { id: "c", text: "ABAB" },
+              { id: "d", text: "AAAA" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "convention", name: "Rhyme scheme", statement: "Label rhyming end-words with letters." }],
@@ -249,10 +249,10 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It decides how long the poem takes to read aloud" },
+              { id: "a", text: "It only matters in stories" },
               { id: "b", text: "Short lines feel quick; long lines feel slow" },
-              { id: "c", text: "It changes the poem's title" },
-              { id: "d", text: "It only matters in stories" },
+              { id: "c", text: "It decides how long the poem takes to read aloud" },
+              { id: "d", text: "It changes the poem's title" },
             ],
             correctChoiceId: "b",
           },
@@ -314,12 +314,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A poem that must rhyme every line" },
-              { id: "b", text: "A poem without fixed rhyme or rhythm" },
-              { id: "c", text: "A poem only about freedom" },
-              { id: "d", text: "A poem with no words" },
+              { id: "a", text: "A poem with no words" },
+              { id: "b", text: "A poem that must rhyme every line" },
+              { id: "c", text: "A poem without fixed rhyme or rhythm" },
+              { id: "d", text: "A poem only about freedom" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "convention", name: "Free verse", statement: "Free verse has no fixed rhyme or rhythm." }],
@@ -337,8 +337,8 @@ export const lesson32: Lesson = {
             choices: [
               { id: "a", text: "ABAB" },
               { id: "b", text: "AABB" },
-              { id: "c", text: "AAAA" },
-              { id: "d", text: "ABBA" },
+              { id: "c", text: "ABBA" },
+              { id: "d", text: "AAAA" },
             ],
             correctChoiceId: "a",
           },
@@ -409,12 +409,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Whisper" },
-              { id: "b", text: "Buzz" },
-              { id: "c", text: "Beautiful" },
-              { id: "d", text: "Silent" },
+              { id: "a", text: "Beautiful" },
+              { id: "b", text: "Whisper" },
+              { id: "c", text: "Silent" },
+              { id: "d", text: "Buzz" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -499,12 +499,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Repeating the same end sound" },
-              { id: "b", text: "Repeating the same beginning sound" },
-              { id: "c", text: "Writing without rhyme" },
-              { id: "d", text: "Using only long lines" },
+              { id: "a", text: "Using only long lines" },
+              { id: "b", text: "Repeating the same end sound" },
+              { id: "c", text: "Repeating the same beginning sound" },
+              { id: "d", text: "Writing without rhyme" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Alliteration", statement: "Alliteration repeats beginning sounds ('slippery, slithering')." }],
@@ -520,12 +520,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Crackle" },
-              { id: "b", text: "Beautiful" },
-              { id: "c", text: "Slowly" },
-              { id: "d", text: "Green" },
+              { id: "a", text: "Green" },
+              { id: "b", text: "Slowly" },
+              { id: "c", text: "Beautiful" },
+              { id: "d", text: "Crackle" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Onomatopoeia", statement: "Sound words imitate the noise they name." }],
@@ -541,10 +541,10 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The bell rang across the valley" },
+              { id: "a", text: "The kite flew high in the sky" },
               { id: "b", text: "The sand was hot between our toes" },
-              { id: "c", text: "The kite flew high in the sky" },
-              { id: "d", text: "The soup smelled of herbs" },
+              { id: "c", text: "The soup smelled of herbs" },
+              { id: "d", text: "The bell rang across the valley" },
             ],
             correctChoiceId: "b",
           },
@@ -613,12 +613,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "To check rhyme and rhythm sound right" },
+              { id: "a", text: "To change the subject" },
               { id: "b", text: "To make it longer" },
-              { id: "c", text: "To change the subject" },
-              { id: "d", text: "To count the words" },
+              { id: "c", text: "To count the words" },
+              { id: "d", text: "To check rhyme and rhythm sound right" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "skill", name: "Reading aloud", statement: "The ear catches rhythm and rhyme problems." }],
@@ -673,12 +673,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Words that appeal to the five senses and paint pictures" },
-              { id: "b", text: "The rhyming pattern" },
-              { id: "c", text: "The poem's title" },
+              { id: "a", text: "The rhyming pattern" },
+              { id: "b", text: "The poem's title" },
+              { id: "c", text: "Words that appeal to the five senses and paint pictures" },
               { id: "d", text: "A group of lines" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Imagery", statement: "Imagery is words that appeal to the senses." }],
@@ -694,12 +694,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The snow is white and cold" },
-              { id: "b", text: "Snowflakes fell like feathers" },
-              { id: "c", text: "The snow whispered down all night" },
-              { id: "d", text: "The ground was covered in snow" },
+              { id: "a", text: "Snowflakes fell like feathers" },
+              { id: "b", text: "The snow is white and cold" },
+              { id: "c", text: "The ground was covered in snow" },
+              { id: "d", text: "The snow whispered down all night" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Sound words", statement: "Sound words imitate noises — 'whispered' imitates soft snow." }],

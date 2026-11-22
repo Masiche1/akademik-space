@@ -54,12 +54,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Real electric shocks to a learner" },
-              { id: "b", text: "Simulated shocks in a role-play" },
-              { id: "c", text: "Verbal instructions only" },
-              { id: "d", text: "Mild static electricity" },
+              { id: "a", text: "Simulated shocks in a role-play" },
+              { id: "b", text: "Real electric shocks to a learner" },
+              { id: "c", text: "Mild static electricity" },
+              { id: "d", text: "Verbal instructions only" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -153,12 +153,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Judge which of two lines matched a standard line while confederates gave wrong answers" },
-              { id: "b", text: "Deliver electric shocks to a learner on an experimenter's orders" },
+              { id: "a", text: "Deliver electric shocks to a learner on an experimenter's orders" },
+              { id: "b", text: "Judge which of two lines matched a standard line while confederates gave wrong answers" },
               { id: "c", text: "Rate emotional expressions in photographs" },
               { id: "d", text: "Sort objects into categories on command" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -181,12 +181,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Informational social influence" },
-              { id: "b", text: "Normative social influence" },
-              { id: "c", text: "Social loafing" },
-              { id: "d", text: "Deindividuation" },
+              { id: "a", text: "Normative social influence" },
+              { id: "b", text: "Deindividuation" },
+              { id: "c", text: "Informational social influence" },
+              { id: "d", text: "Social loafing" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -227,12 +227,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Greater group unanimity" },
-              { id: "b", text: "A single confederate who disagrees with the majority" },
+              { id: "a", text: "A single confederate who disagrees with the majority" },
+              { id: "b", text: "Larger group size" },
               { id: "c", text: "Public rather than private responding" },
-              { id: "d", text: "Larger group size" },
+              { id: "d", text: "Greater group unanimity" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -295,11 +295,11 @@ export const lesson41: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "The learner was in another room" },
-              { id: "b", text: "The learner was in the same room and could be seen" },
-              { id: "c", text: "The authority figure was in a remote room" },
-              { id: "d", text: "The learner was an attractive confederate" },
+              { id: "b", text: "The authority figure was in a remote room" },
+              { id: "c", text: "The learner was an attractive confederate" },
+              { id: "d", text: "The learner was in the same room and could be seen" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -363,12 +363,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The experimenter wore a lab coat" },
-              { id: "b", text: "Two peers (confederates) refused to continue shocking" },
-              { id: "c", text: "The learner moved to another room" },
-              { id: "d", text: "The voltage increased more slowly" },
+              { id: "a", text: "Two peers (confederates) refused to continue shocking" },
+              { id: "b", text: "The experimenter wore a lab coat" },
+              { id: "c", text: "The voltage increased more slowly" },
+              { id: "d", text: "The learner moved to another room" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -413,11 +413,11 @@ export const lesson41: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Agreeing only privately while disagreeing publicly" },
-              { id: "b", text: "Following direct orders from an authority figure" },
-              { id: "c", text: "Matching the majority's opinion" },
-              { id: "d", text: "Working harder when others are present" },
+              { id: "b", text: "Matching the majority's opinion" },
+              { id: "c", text: "Working harder when others are present" },
+              { id: "d", text: "Following direct orders from an authority figure" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -511,10 +511,10 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Want to be liked by the group" },
+              { id: "a", text: "Fear punishment from the group" },
               { id: "b", text: "Believe the group may know better than they do" },
-              { id: "c", text: "Fear punishment from the group" },
-              { id: "d", text: "Lose awareness of their own identity" },
+              { id: "c", text: "Lose awareness of their own identity" },
+              { id: "d", text: "Want to be liked by the group" },
             ],
             correctChoiceId: "b",
           },
@@ -572,8 +572,8 @@ export const lesson41: Lesson = {
             choices: [
               { id: "a", text: "Improved performance in groups" },
               { id: "b", text: "Reduced individual effort in groups" },
-              { id: "c", text: "Loss of identity in crowds" },
-              { id: "d", text: "Group pressure to conform" },
+              { id: "c", text: "Group pressure to conform" },
+              { id: "d", text: "Loss of identity in crowds" },
             ],
             correctChoiceId: "b",
           },
@@ -670,9 +670,9 @@ export const lesson41: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Improved performance on well-learned tasks when others are present" },
-              { id: "b", text: "Reduced individual effort when working in a group" },
+              { id: "b", text: "Pressure to match group opinions" },
               { id: "c", text: "Loss of personal identity in crowds" },
-              { id: "d", text: "Pressure to match group opinions" },
+              { id: "d", text: "Reduced individual effort when working in a group" },
             ],
             correctChoiceId: "a",
           },
@@ -697,12 +697,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "reduces the effort people are willing to expend" },
-              { id: "b", text: "strengthens the dominant response, which is usually correct for simple tasks" },
+              { id: "a", text: "strengthens the dominant response, which is usually correct for simple tasks" },
+              { id: "b", text: "reduces the effort people are willing to expend" },
               { id: "c", text: "eliminates evaluation apprehension" },
               { id: "d", text: "promotes social loafing" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -744,12 +744,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "easily identifiable and personally accountable" },
-              { id: "b", text: "anonymous and feel less individually responsible" },
-              { id: "c", text: "in small groups with clear leadership" },
-              { id: "d", text: "performing well-learned tasks" },
+              { id: "a", text: "in small groups with clear leadership" },
+              { id: "b", text: "performing well-learned tasks" },
+              { id: "c", text: "anonymous and feel less individually responsible" },
+              { id: "d", text: "easily identifiable and personally accountable" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -811,12 +811,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "pooling diverse knowledge to improve decisions" },
-              { id: "b", text: "cohesion suppressing dissent, leading to poor decisions" },
+              { id: "a", text: "cohesion suppressing dissent, leading to poor decisions" },
+              { id: "b", text: "pooling diverse knowledge to improve decisions" },
               { id: "c", text: "discussion making attitudes more extreme" },
               { id: "d", text: "reduced effort when tasks are shared" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -881,11 +881,11 @@ export const lesson41: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "always produces aggressive behaviour" },
-              { id: "b", text: "can disinhibit both anti-social and pro-social behaviour" },
-              { id: "c", text: "requires a strong central leader" },
+              { id: "b", text: "requires a strong central leader" },
+              { id: "c", text: "can disinhibit both anti-social and pro-social behaviour" },
               { id: "d", text: "eliminates all personal norms" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -929,10 +929,10 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "groups becoming more moderate after discussion" },
+              { id: "a", text: "loss of personal identity in crowds" },
               { id: "b", text: "discussion shifting group attitudes toward greater extremity" },
               { id: "c", text: "individuals conforming to a unanimous majority" },
-              { id: "d", text: "loss of personal identity in crowds" },
+              { id: "d", text: "groups becoming more moderate after discussion" },
             ],
             correctChoiceId: "b",
           },
@@ -1027,10 +1027,10 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "complex new tasks requiring novel solutions" },
+              { id: "a", text: "creative tasks performed for the first time" },
               { id: "b", text: "well-learned, simple tasks" },
               { id: "c", text: "tasks with ambiguous goals under pressure" },
-              { id: "d", text: "creative tasks performed for the first time" },
+              { id: "d", text: "complex new tasks requiring novel solutions" },
             ],
             correctChoiceId: "b",
           },

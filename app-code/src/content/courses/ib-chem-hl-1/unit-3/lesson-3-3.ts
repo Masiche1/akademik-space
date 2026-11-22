@@ -91,12 +91,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "First order" },
-              { id: "b", text: "Second order" },
+              { id: "a", text: "Second order" },
+              { id: "b", text: "First order" },
               { id: "c", text: "Zero order" },
               { id: "d", text: "Cannot be determined" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -328,14 +328,14 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Adding the stoichiometric coefficients" },
+              { id: "b", text: "Multiplying the concentrations" },
+              { id: "c", text: "Counting the number of reactants" },
               {
-                id: "b",
+                id: "d",
                 text: "Adding the individual orders in the rate expression",
               },
-              { id: "c", text: "Multiplying the concentrations" },
-              { id: "d", text: "Counting the number of reactants" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -374,12 +374,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "2" },
-              { id: "b", text: "4" },
+              { id: "a", text: "No change" },
+              { id: "b", text: "2" },
               { id: "c", text: "8" },
-              { id: "d", text: "No change" },
+              { id: "d", text: "4" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -418,11 +418,11 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Doubles the rate" },
-              { id: "b", text: "Has no effect on the rate" },
-              { id: "c", text: "Halves the rate" },
-              { id: "d", text: "Stops the reaction" },
+              { id: "b", text: "Halves the rate" },
+              { id: "c", text: "Stops the reaction" },
+              { id: "d", text: "Has no effect on the rate" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -461,12 +461,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "mol dm$^{-3}$ s$^{-1}$" },
-              { id: "b", text: "dm$^3$ mol$^{-1}$ s$^{-1}$" },
-              { id: "c", text: "dm$^6$ mol$^{-2}$ s$^{-1}$" },
-              { id: "d", text: "s$^{-1}$" },
+              { id: "a", text: "dm$^3$ mol$^{-1}$ s$^{-1}$" },
+              { id: "b", text: "s$^{-1}$" },
+              { id: "c", text: "mol dm$^{-3}$ s$^{-1}$" },
+              { id: "d", text: "dm$^6$ mol$^{-2}$ s$^{-1}$" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -505,12 +505,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The balanced chemical equation" },
-              { id: "b", text: "Experimental initial-rate data" },
-              { id: "c", text: "The rate constant $k$" },
-              { id: "d", text: "The colour of the products" },
+              { id: "a", text: "The rate constant $k$" },
+              { id: "b", text: "The colour of the products" },
+              { id: "c", text: "Experimental initial-rate data" },
+              { id: "d", text: "The balanced chemical equation" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -950,15 +950,15 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "Changing the enthalpy of reaction" },
               {
-                id: "a",
+                id: "b",
                 text: "Providing an alternative pathway with lower activation energy",
               },
-              { id: "b", text: "Increasing the temperature" },
-              { id: "c", text: "Changing the enthalpy of reaction" },
+              { id: "c", text: "Increasing the temperature" },
               { id: "d", text: "Increasing the concentration" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1193,15 +1193,15 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The most stable product" },
+              { id: "a", text: "The catalyst active site" },
+              { id: "b", text: "The starting reactant complex" },
+              { id: "c", text: "The most stable product" },
               {
-                id: "b",
+                id: "d",
                 text: "The highest-energy arrangement along the reaction pathway",
               },
-              { id: "c", text: "The starting reactant complex" },
-              { id: "d", text: "The catalyst active site" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1240,15 +1240,15 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The enthalpy change of the reaction" },
+              { id: "a", text: "The energy of the catalyst" },
+              { id: "b", text: "The enthalpy change of the reaction" },
               {
-                id: "b",
+                id: "c",
                 text: "The minimum energy reactants need to reach the transition state",
               },
-              { id: "c", text: "The energy released by the products" },
-              { id: "d", text: "The energy of the catalyst" },
+              { id: "d", text: "The energy released by the products" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1292,8 +1292,8 @@ export const lesson33: Lesson = {
                 text: "Lowering $E_a$ for both directions without changing $\\Delta H$ or equilibrium",
               },
               { id: "b", text: "Making the reaction exothermic" },
-              { id: "c", text: "Shifting the equilibrium to products" },
-              { id: "d", text: "Being consumed in the reaction" },
+              { id: "c", text: "Being consumed in the reaction" },
+              { id: "d", text: "Shifting the equilibrium to products" },
             ],
             correctChoiceId: "a",
           },
@@ -1336,14 +1336,14 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Particles become larger" },
+              { id: "b", text: "$E_a$ decreases with temperature" },
+              { id: "c", text: "Concentrations automatically increase" },
               {
-                id: "b",
+                id: "d",
                 text: "A larger fraction of molecules have energy greater than $E_a$",
               },
-              { id: "c", text: "$E_a$ decreases with temperature" },
-              { id: "d", text: "Concentrations automatically increase" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1382,10 +1382,10 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The fastest elementary step" },
+              { id: "a", text: "The first step in the mechanism" },
               { id: "b", text: "The slowest elementary step" },
-              { id: "c", text: "The first step in the mechanism" },
-              { id: "d", text: "The step producing the most product" },
+              { id: "c", text: "The step producing the most product" },
+              { id: "d", text: "The fastest elementary step" },
             ],
             correctChoiceId: "b",
           },

@@ -91,12 +91,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The smell of the apples" },
+              { id: "a", text: "A photograph of the orchard" },
               { id: "b", text: "A conversation with her grandmother" },
-              { id: "c", text: "The noise of a child in the supermarket" },
-              { id: "d", text: "A photograph of the orchard" },
+              { id: "c", text: "The smell of the apples" },
+              { id: "d", text: "The noise of a child in the supermarket" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Sensory trigger", statement: "A smell or sound that moves a character to the past." }],
@@ -224,8 +224,8 @@ export const lesson32: Lesson = {
             choices: [
               { id: "a", text: "He values difference and does not insist on everything being the same" },
               { id: "b", text: "He is careless about his work" },
-              { id: "c", text: "He wants to argue with his customers" },
-              { id: "d", text: "He cannot read clocks" },
+              { id: "c", text: "He cannot read clocks" },
+              { id: "d", text: "He wants to argue with his customers" },
             ],
             correctChoiceId: "a",
           },

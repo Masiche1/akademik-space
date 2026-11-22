@@ -52,10 +52,10 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "10" },
+              { id: "a", text: "5" },
               { id: "b", text: "15" },
               { id: "c", text: "20" },
-              { id: "d", text: "5" },
+              { id: "d", text: "10" },
             ],
             correctChoiceId: "b",
           },
@@ -188,12 +188,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "At the lower end of each class" },
-              { id: "b", text: "At the upper end of each class" },
-              { id: "c", text: "At the midpoint of each class" },
-              { id: "d", text: "At the class width" },
+              { id: "a", text: "At the midpoint of each class" },
+              { id: "b", text: "At the class width" },
+              { id: "c", text: "At the lower end of each class" },
+              { id: "d", text: "At the upper end of each class" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [

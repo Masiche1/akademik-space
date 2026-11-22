@@ -57,12 +57,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Small intestine" },
-              { id: "b", text: "Stomach" },
-              { id: "c", text: "Large intestine" },
+              { id: "a", text: "Stomach" },
+              { id: "b", text: "Large intestine" },
+              { id: "c", text: "Small intestine" },
               { id: "d", text: "Mouth" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -84,12 +84,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Emulsifies fats, increasing surface area for lipase" },
-              { id: "b", text: "Digests protein" },
-              { id: "c", text: "Neutralises all stomach acid" },
-              { id: "d", text: "Kills bacteria in mouth" },
+              { id: "a", text: "Neutralises all stomach acid" },
+              { id: "b", text: "Kills bacteria in mouth" },
+              { id: "c", text: "Digests protein" },
+              { id: "d", text: "Emulsifies fats, increasing surface area for lipase" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -112,12 +112,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Mouth: amylase → maltose; stomach: no starch digestion; small intestine: maltase → glucose → absorbed by villi" },
+              { id: "a", text: "Absorbed in stomach" },
               { id: "b", text: "Digested entirely in mouth" },
-              { id: "c", text: "Absorbed in stomach" },
-              { id: "d", text: "Converted to protein in intestine" },
+              { id: "c", text: "Converted to protein in intestine" },
+              { id: "d", text: "Mouth: amylase → maltose; stomach: no starch digestion; small intestine: maltase → glucose → absorbed by villi" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -172,10 +172,10 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Amylase" },
-              { id: "b", text: "Lipase" },
+              { id: "a", text: "Maltase" },
+              { id: "b", text: "Amylase" },
               { id: "c", text: "Pepsin" },
-              { id: "d", text: "Maltase" },
+              { id: "d", text: "Lipase" },
             ],
             correctChoiceId: "c",
           },
@@ -199,12 +199,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "They massively increase surface area for absorption" },
-              { id: "b", text: "They store digestive enzymes" },
-              { id: "c", text: "They produce bile" },
-              { id: "d", text: "They kill bacteria" },
+              { id: "a", text: "They kill bacteria" },
+              { id: "b", text: "They massively increase surface area for absorption" },
+              { id: "c", text: "They store digestive enzymes" },
+              { id: "d", text: "They produce bile" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -227,12 +227,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Stomach: pepsin → polypeptides; small intestine: proteases → amino acids; villi absorb amino acids into blood capillaries" },
-              { id: "b", text: "Protein is absorbed whole in the stomach" },
-              { id: "c", text: "Protein becomes glucose in the intestine" },
-              { id: "d", text: "Protein passes undigested to the large intestine" },
+              { id: "a", text: "Protein becomes glucose in the intestine" },
+              { id: "b", text: "Stomach: pepsin → polypeptides; small intestine: proteases → amino acids; villi absorb amino acids into blood capillaries" },
+              { id: "c", text: "Protein passes undigested to the large intestine" },
+              { id: "d", text: "Protein is absorbed whole in the stomach" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -465,12 +465,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It emulsifies fats into small droplets, greatly increasing surface area for lipase to act on" },
-              { id: "b", text: "It digests fats directly into glycerol" },
+              { id: "a", text: "It digests fats directly into glycerol" },
+              { id: "b", text: "It emulsifies fats into small droplets, greatly increasing surface area for lipase to act on" },
               { id: "c", text: "It neutralises all stomach acid permanently" },
               { id: "d", text: "It absorbs fatty acids into blood" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -526,12 +526,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Left ventricle" },
-              { id: "b", text: "Right ventricle" },
-              { id: "c", text: "Left atrium" },
+              { id: "a", text: "Left atrium" },
+              { id: "b", text: "Left ventricle" },
+              { id: "c", text: "Right ventricle" },
               { id: "d", text: "Right atrium" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -553,12 +553,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Capillaries" },
-              { id: "b", text: "Arteries" },
-              { id: "c", text: "Veins" },
-              { id: "d", text: "Heart chambers" },
+              { id: "a", text: "Veins" },
+              { id: "b", text: "Capillaries" },
+              { id: "c", text: "Heart chambers" },
+              { id: "d", text: "Arteries" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -581,12 +581,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Pulmonary artery → lungs → pulmonary vein → left atrium" },
+              { id: "a", text: "Vena cava → right atrium → right ventricle" },
               { id: "b", text: "Aorta → body → vena cava → left atrium" },
-              { id: "c", text: "Vena cava → right atrium → right ventricle" },
-              { id: "d", text: "Pulmonary vein → lungs → pulmonary artery" },
+              { id: "c", text: "Pulmonary vein → lungs → pulmonary artery" },
+              { id: "d", text: "Pulmonary artery → lungs → pulmonary vein → left atrium" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -641,12 +641,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Vein" },
-              { id: "b", text: "Capillary" },
-              { id: "c", text: "Artery" },
-              { id: "d", text: "Lacteal" },
+              { id: "a", text: "Capillary" },
+              { id: "b", text: "Artery" },
+              { id: "c", text: "Lacteal" },
+              { id: "d", text: "Vein" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -668,12 +668,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It must generate higher pressure to pump blood to the whole body" },
-              { id: "b", text: "It pumps more blood volume" },
+              { id: "a", text: "It is larger to store blood" },
+              { id: "b", text: "It must generate higher pressure to pump blood to the whole body" },
               { id: "c", text: "It contains more valves" },
-              { id: "d", text: "It is larger to store blood" },
+              { id: "d", text: "It pumps more blood volume" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -696,12 +696,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Vena cava → right atrium → right ventricle → pulmonary artery → lungs → pulmonary vein → left atrium → left ventricle → aorta" },
-              { id: "b", text: "Vena cava → left atrium → left ventricle → aorta" },
-              { id: "c", text: "Vena cava → right atrium → aorta" },
-              { id: "d", text: "Aorta → lungs → pulmonary vein → heart" },
+              { id: "a", text: "Vena cava → left atrium → left ventricle → aorta" },
+              { id: "b", text: "Aorta → lungs → pulmonary vein → heart" },
+              { id: "c", text: "Vena cava → right atrium → right ventricle → pulmonary artery → lungs → pulmonary vein → left atrium → left ventricle → aorta" },
+              { id: "d", text: "Vena cava → right atrium → aorta" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -937,8 +937,8 @@ export const lesson21: Lesson = {
             choices: [
               { id: "a", text: "It carries deoxygenated blood away from the heart — most arteries carry oxygenated blood" },
               { id: "b", text: "It carries blood towards the heart" },
-              { id: "c", text: "It has no muscle wall" },
-              { id: "d", text: "It connects directly to veins" },
+              { id: "c", text: "It connects directly to veins" },
+              { id: "d", text: "It has no muscle wall" },
             ],
             correctChoiceId: "a",
           },

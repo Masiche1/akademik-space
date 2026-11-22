@@ -54,8 +54,8 @@ export const lesson21: Lesson = {
             choices: [
               { id: "a", text: "$y=3x$" },
               { id: "b", text: "$y=3x+1$" },
-              { id: "c", text: "$y=x+3$" },
-              { id: "d", text: "$y=x^2$" },
+              { id: "c", text: "$y=x^2$" },
+              { id: "d", text: "$y=x+3$" },
             ],
             correctChoiceId: "a",
           },
@@ -190,10 +190,10 @@ export const lesson21: Lesson = {
             choices: [
               { id: "a", text: "$\\frac{1}{3}$" },
               { id: "b", text: "$2$" },
-              { id: "c", text: "$3$" },
-              { id: "d", text: "$6$" },
+              { id: "c", text: "$6$" },
+              { id: "d", text: "$3$" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [

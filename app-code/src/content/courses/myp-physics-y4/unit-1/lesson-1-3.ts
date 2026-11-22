@@ -57,12 +57,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Newton" },
-              { id: "b", text: "Pascal" },
-              { id: "c", text: "Joule" },
-              { id: "d", text: "Watt" },
+              { id: "a", text: "Watt" },
+              { id: "b", text: "Joule" },
+              { id: "c", text: "Pascal" },
+              { id: "d", text: "Newton" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Pressure", statement: "$P = F/A$, unit Pa = N/m²." }],
@@ -83,9 +83,9 @@ export const lesson13: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "100 Pa" },
-              { id: "b", text: "250 Pa" },
+              { id: "b", text: "0.0025 Pa" },
               { id: "c", text: "400 Pa" },
-              { id: "d", text: "0.0025 Pa" },
+              { id: "d", text: "250 Pa" },
             ],
             correctChoiceId: "c",
           },
@@ -108,12 +108,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "1350 kg/m³" },
-              { id: "b", text: "0.0054 kg/m³" },
-              { id: "c", text: "4.7 kg/m³" },
+              { id: "a", text: "0.0054 kg/m³" },
+              { id: "b", text: "4.7 kg/m³" },
+              { id: "c", text: "1350 kg/m³" },
               { id: "d", text: "5400 kg/m³" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "ρ = m/V", statement: "$\\rho = 2.7/0.002$" }],
@@ -167,10 +167,10 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "10 000 Pa" },
+              { id: "a", text: "1 000 000 Pa" },
               { id: "b", text: "101 000 Pa" },
-              { id: "c", text: "1 000 000 Pa" },
-              { id: "d", text: "100 Pa" },
+              { id: "c", text: "100 Pa" },
+              { id: "d", text: "10 000 Pa" },
             ],
             correctChoiceId: "b",
           },
@@ -236,12 +236,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "They increase the force on the ground" },
-              { id: "b", text: "They increase the contact area, reducing pressure $P = F/A$" },
-              { id: "c", text: "They reduce the vehicle's weight" },
+              { id: "a", text: "They increase the contact area, reducing pressure $P = F/A$" },
+              { id: "b", text: "They reduce the vehicle's weight" },
+              { id: "c", text: "They increase the force on the ground" },
               { id: "d", text: "They increase friction" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "P = F/A", statement: "Same force over larger area gives lower pressure." }],
@@ -264,8 +264,8 @@ export const lesson13: Lesson = {
             choices: [
               { id: "a", text: "It sinks" },
               { id: "b", text: "It floats" },
-              { id: "c", text: "It dissolves" },
-              { id: "d", text: "Nothing — density is irrelevant" },
+              { id: "c", text: "Nothing — density is irrelevant" },
+              { id: "d", text: "It dissolves" },
             ],
             correctChoiceId: "b",
           },
@@ -311,12 +311,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It exerts a larger force" },
-              { id: "b", text: "It has a much smaller contact area, giving higher pressure" },
+              { id: "a", text: "It has a much smaller contact area, giving higher pressure" },
+              { id: "b", text: "It weighs less" },
               { id: "c", text: "It is made of stronger material" },
-              { id: "d", text: "It weighs less" },
+              { id: "d", text: "It exerts a larger force" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "P = F/A", statement: "Same force over smaller area → higher pressure." }],
@@ -340,8 +340,8 @@ export const lesson13: Lesson = {
             choices: [
               { id: "a", text: "kg" },
               { id: "b", text: "kg/m³" },
-              { id: "c", text: "N/m²" },
-              { id: "d", text: "g/cm" },
+              { id: "c", text: "g/cm" },
+              { id: "d", text: "N/m²" },
             ],
             correctChoiceId: "b",
           },
@@ -434,12 +434,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Ice is warmer than water" },
-              { id: "b", text: "Ice is less dense than water, so buoyancy supports it" },
+              { id: "a", text: "Water pushes ice down but ice is slippery" },
+              { id: "b", text: "Ice is warmer than water" },
               { id: "c", text: "Ice has no mass" },
-              { id: "d", text: "Water pushes ice down but ice is slippery" },
+              { id: "d", text: "Ice is less dense than water, so buoyancy supports it" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Buoyancy", statement: "Objects less dense than the fluid float." }],
@@ -493,10 +493,10 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "N" },
+              { id: "a", text: "J" },
               { id: "b", text: "N m" },
               { id: "c", text: "Pa" },
-              { id: "d", text: "J" },
+              { id: "d", text: "N" },
             ],
             correctChoiceId: "b",
           },
@@ -518,12 +518,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "2 N m" },
-              { id: "b", text: "8.25 N m" },
-              { id: "c", text: "32 N m" },
-              { id: "d", text: "0.03 N m" },
+              { id: "a", text: "0.03 N m" },
+              { id: "b", text: "32 N m" },
+              { id: "c", text: "2 N m" },
+              { id: "d", text: "8.25 N m" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "M = Fd", statement: "$M = 8 \\times 0.25$" }],
@@ -544,12 +544,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "200 N" },
-              { id: "b", text: "450 N" },
+              { id: "a", text: "900 N" },
+              { id: "b", text: "200 N" },
               { id: "c", text: "600 N" },
-              { id: "d", text: "900 N" },
+              { id: "d", text: "450 N" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Balance", statement: "$F_1 d_1 = F_2 d_2$" }],
@@ -604,12 +604,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "force × perpendicular distance from pivot" },
-              { id: "b", text: "force ÷ distance" },
-              { id: "c", text: "mass × velocity" },
-              { id: "d", text: "force + distance" },
+              { id: "a", text: "mass × velocity" },
+              { id: "b", text: "force + distance" },
+              { id: "c", text: "force × perpendicular distance from pivot" },
+              { id: "d", text: "force ÷ distance" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Moment", statement: "$M = F \\times d$ where $d$ is perpendicular distance from pivot." }],
@@ -673,12 +673,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The handle is further from the pivot, giving a larger moment" },
-              { id: "b", text: "The handle applies more force" },
-              { id: "c", text: "The hinges are too slippery" },
-              { id: "d", text: "The door is lighter near the handle" },
+              { id: "a", text: "The door is lighter near the handle" },
+              { id: "b", text: "The hinges are too slippery" },
+              { id: "c", text: "The handle is further from the pivot, giving a larger moment" },
+              { id: "d", text: "The handle applies more force" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "M = Fd", statement: "Larger distance from pivot → larger moment for same force." }],
@@ -744,12 +744,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The 70 cm mark — distance from pivot is 40 cm vs 20 cm" },
-              { id: "b", text: "The 10 cm mark — closer forces are stronger" },
+              { id: "a", text: "The 10 cm mark — closer forces are stronger" },
+              { id: "b", text: "The 70 cm mark — distance from pivot is 40 cm vs 20 cm" },
               { id: "c", text: "Both produce equal moments" },
               { id: "d", text: "Neither — moments need weight, not force" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "M = Fd", statement: "Same force: larger distance from pivot → larger moment." }],
@@ -771,12 +771,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "N" },
-              { id: "b", text: "N m" },
-              { id: "c", text: "J" },
-              { id: "d", text: "W" },
+              { id: "a", text: "N m" },
+              { id: "b", text: "N" },
+              { id: "c", text: "W" },
+              { id: "d", text: "J" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Moment", statement: "$M = Fd$ → N × m = N m." }],

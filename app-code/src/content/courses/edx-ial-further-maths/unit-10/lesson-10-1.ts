@@ -52,9 +52,9 @@ export const lesson101: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$n-1$" },
-              { id: "b", text: "$n$" },
-              { id: "c", text: "$\\frac{n(n-1)}{2}$" },
-              { id: "d", text: "$2n$" },
+              { id: "b", text: "$\\frac{n(n-1)}{2}$" },
+              { id: "c", text: "$2n$" },
+              { id: "d", text: "$n$" },
             ],
             correctChoiceId: "a",
           },
@@ -183,12 +183,12 @@ export const lesson101: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Inflow equals outflow" },
-              { id: "b", text: "Inflow exceeds outflow" },
-              { id: "c", text: "Outflow equals capacity" },
-              { id: "d", text: "Flow equals zero" },
+              { id: "a", text: "Inflow exceeds outflow" },
+              { id: "b", text: "Flow equals zero" },
+              { id: "c", text: "Inflow equals outflow" },
+              { id: "d", text: "Outflow equals capacity" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -316,12 +316,12 @@ export const lesson101: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$0$" },
+              { id: "a", text: "Half the project length" },
               { id: "b", text: "$1$" },
-              { id: "c", text: "Depends on duration" },
-              { id: "d", text: "Half the project length" },
+              { id: "c", text: "$0$" },
+              { id: "d", text: "Depends on duration" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

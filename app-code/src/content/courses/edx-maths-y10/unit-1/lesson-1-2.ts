@@ -187,12 +187,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "£24" },
-              { id: "b", text: "£36" },
-              { id: "c", text: "£20" },
+              { id: "a", text: "£36" },
+              { id: "b", text: "£20" },
+              { id: "c", text: "£24" },
               { id: "d", text: "£30" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

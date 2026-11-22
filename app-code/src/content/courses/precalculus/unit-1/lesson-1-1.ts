@@ -49,11 +49,11 @@ export const lesson11: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "As $x\\to-\\infty$, $f(x)\\to-\\infty$; as $x\\to\\infty$, $f(x)\\to\\infty$." },
-              { id: "b", text: "As $x\\to-\\infty$, $f(x)\\to\\infty$; as $x\\to\\infty$, $f(x)\\to-\\infty$." },
-              { id: "c", text: "Both ends rise to $\\infty$." },
+              { id: "b", text: "Both ends rise to $\\infty$." },
+              { id: "c", text: "As $x\\to-\\infty$, $f(x)\\to\\infty$; as $x\\to\\infty$, $f(x)\\to-\\infty$." },
               { id: "d", text: "Both ends fall to $-\\infty$." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -188,11 +188,11 @@ export const lesson11: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "The graph crosses the $x$-axis because the multiplicity is 4." },
-              { id: "b", text: "The graph touches the $x$-axis and turns because the multiplicity is even." },
-              { id: "c", text: "The graph has a vertical asymptote because the multiplicity is 4." },
+              { id: "b", text: "The graph has a vertical asymptote because the multiplicity is 4." },
+              { id: "c", text: "The graph touches the $x$-axis and turns because the multiplicity is even." },
               { id: "d", text: "The graph does not meet the $x$-axis at $x=2$." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

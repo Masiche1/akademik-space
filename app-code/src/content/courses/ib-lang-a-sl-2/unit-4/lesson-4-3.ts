@@ -52,12 +52,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Historical context" },
-              { id: "b", text: "How linguistic choices create meaning" },
+              { id: "a", text: "How linguistic choices create meaning" },
+              { id: "b", text: "Historical context" },
               { id: "c", text: "Character psychology" },
               { id: "d", text: "Plot structure" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -165,12 +165,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Sentence length" },
-              { id: "b", text: "Word choice, including connotation and register" },
-              { id: "c", text: "The plot's development" },
-              { id: "d", text: "The physical setting" },
+              { id: "a", text: "Word choice, including connotation and register" },
+              { id: "b", text: "The plot's development" },
+              { id: "c", text: "The physical setting" },
+              { id: "d", text: "Sentence length" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -191,12 +191,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The weather described in the text" },
-              { id: "b", text: "The level of formality of the language" },
-              { id: "c", text: "The rhyme scheme" },
-              { id: "d", text: "The number of characters" },
+              { id: "a", text: "The number of characters" },
+              { id: "b", text: "The weather described in the text" },
+              { id: "c", text: "The level of formality of the language" },
+              { id: "d", text: "The rhyme scheme" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -218,11 +218,11 @@ export const lesson43: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Spelling only" },
-              { id: "b", text: "Connotation: 'frugal' approves the trait, 'stingy' condemns it" },
-              { id: "c", text: "Grammatical tense" },
+              { id: "b", text: "Grammatical tense" },
+              { id: "c", text: "Connotation: 'frugal' approves the trait, 'stingy' condemns it" },
               { id: "d", text: "Word length" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -354,12 +354,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Ends immediately" },
-              { id: "b", text: "Delays its main clause until the end, building suspense" },
+              { id: "a", text: "Delays its main clause until the end, building suspense" },
+              { id: "b", text: "Ends immediately" },
               { id: "c", text: "Has no verb" },
               { id: "d", text: "Is always short" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -380,12 +380,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Turning verbs into nouns, e.g. 'decided' becomes 'arrived at a decision'" },
-              { id: "b", text: "Making sentences shorter" },
-              { id: "c", text: "Using slang vocabulary" },
-              { id: "d", text: "Repeating key words" },
+              { id: "a", text: "Using slang vocabulary" },
+              { id: "b", text: "Repeating key words" },
+              { id: "c", text: "Turning verbs into nouns, e.g. 'decided' becomes 'arrived at a decision'" },
+              { id: "d", text: "Making sentences shorter" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -433,12 +433,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Boredom" },
-              { id: "b", text: "Urgency, emphasis or interruption" },
-              { id: "c", text: "Formal distance" },
-              { id: "d", text: "Longer descriptions" },
+              { id: "a", text: "Formal distance" },
+              { id: "b", text: "Longer descriptions" },
+              { id: "c", text: "Urgency, emphasis or interruption" },
+              { id: "d", text: "Boredom" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -525,12 +525,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A departure from linguistic norms" },
-              { id: "b", text: "A spelling error" },
+              { id: "a", text: "A spelling error" },
+              { id: "b", text: "A departure from linguistic norms" },
               { id: "c", text: "A change in plot" },
               { id: "d", text: "A new character" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -637,12 +637,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Hiding meaning from the reader" },
-              { id: "b", text: "Linguistic features that stand out and demand attention" },
-              { id: "c", text: "Stage directions in drama" },
-              { id: "d", text: "Footnotes in poetry" },
+              { id: "a", text: "Linguistic features that stand out and demand attention" },
+              { id: "b", text: "Footnotes in poetry" },
+              { id: "c", text: "Hiding meaning from the reader" },
+              { id: "d", text: "Stage directions in drama" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -663,12 +663,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A spelling mistake" },
-              { id: "b", text: "A newly coined word or phrase" },
-              { id: "c", text: "An old proverb" },
-              { id: "d", text: "A foreign loanword only" },
+              { id: "a", text: "An old proverb" },
+              { id: "b", text: "A foreign loanword only" },
+              { id: "c", text: "A newly coined word or phrase" },
+              { id: "d", text: "A spelling mistake" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -689,12 +689,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The vocabulary used" },
-              { id: "b", text: "Syntactic parallelism that foregrounds the triadic structure" },
-              { id: "c", text: "The past tense" },
-              { id: "d", text: "The subject pronoun" },
+              { id: "a", text: "The subject pronoun" },
+              { id: "b", text: "The vocabulary used" },
+              { id: "c", text: "Syntactic parallelism that foregrounds the triadic structure" },
+              { id: "d", text: "The past tense" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -827,11 +827,11 @@ export const lesson43: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Confusing the reader" },
-              { id: "b", text: "Repeating structure so the pattern itself becomes visible and meaningful" },
-              { id: "c", text: "Hiding the theme" },
-              { id: "d", text: "Speeding up the plot" },
+              { id: "b", text: "Hiding the theme" },
+              { id: "c", text: "Speeding up the plot" },
+              { id: "d", text: "Repeating structure so the pattern itself becomes visible and meaningful" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -853,11 +853,11 @@ export const lesson43: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Is accidental" },
-              { id: "b", text: "Breaks expected patterns to make the reader notice the language itself" },
+              { id: "b", text: "Appears in textbooks" },
               { id: "c", text: "Corrects grammar mistakes" },
-              { id: "d", text: "Appears in textbooks" },
+              { id: "d", text: "Breaks expected patterns to make the reader notice the language itself" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -905,12 +905,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Fill space" },
-              { id: "b", text: "Foreground meaning — making language strange so meaning becomes visible" },
-              { id: "c", text: "Avoid editing" },
-              { id: "d", text: "Imitate errors" },
+              { id: "a", text: "Avoid editing" },
+              { id: "b", text: "Fill space" },
+              { id: "c", text: "Imitate errors" },
+              { id: "d", text: "Foreground meaning — making language strange so meaning becomes visible" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

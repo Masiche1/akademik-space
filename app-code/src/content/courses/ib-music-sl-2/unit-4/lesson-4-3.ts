@@ -55,10 +55,10 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Replacing traditional music with pop" },
+              { id: "a", text: "Copying famous songs" },
               { id: "b", text: "Blending two or more musical traditions to create new forms" },
-              { id: "c", text: "Copying famous songs" },
-              { id: "d", text: "Simplifying complex music" },
+              { id: "c", text: "Simplifying complex music" },
+              { id: "d", text: "Replacing traditional music with pop" },
             ],
             correctChoiceId: "b",
           },
@@ -162,12 +162,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Ghanaian highlife with funk and jazz" },
-              { id: "b", text: "Bach chorales with blues" },
-              { id: "c", text: "Salsa with techno only" },
-              { id: "d", text: "Gamelan with opera" },
+              { id: "a", text: "Salsa with techno only" },
+              { id: "b", text: "Ghanaian highlife with funk and jazz" },
+              { id: "c", text: "Gamelan with opera" },
+              { id: "d", text: "Bach chorales with blues" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -212,11 +212,11 @@ export const lesson43: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "With credit and benefit to the source community" },
-              { id: "b", text: "Without understanding, credit or benefit to the source" },
-              { id: "c", text: "At a fast tempo" },
+              { id: "b", text: "At a fast tempo" },
+              { id: "c", text: "Without understanding, credit or benefit to the source" },
               { id: "d", text: "In a minor key" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -261,12 +261,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Promotes too much diversity" },
-              { id: "b", text: "Flattens distinct traditions into a single marketing category" },
-              { id: "c", text: "Excludes all non-Western artists" },
-              { id: "d", text: "Requires musicians to write scores" },
+              { id: "a", text: "Requires musicians to write scores" },
+              { id: "b", text: "Excludes all non-Western artists" },
+              { id: "c", text: "Flattens distinct traditions into a single marketing category" },
+              { id: "d", text: "Promotes too much diversity" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -322,12 +322,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "How many genres are blended" },
-              { id: "b", text: "Reciprocity — credit, benefit and respect for source traditions" },
-              { id: "c", text: "The complexity of the production" },
+              { id: "a", text: "The complexity of the production" },
+              { id: "b", text: "How many genres are blended" },
+              { id: "c", text: "Reciprocity — credit, benefit and respect for source traditions" },
               { id: "d", text: "Whether it becomes a hit" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -408,9 +408,9 @@ export const lesson43: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Forcing cultural contact and often unequal exchange between traditions" },
-              { id: "b", text: "Protecting all traditions equally" },
+              { id: "b", text: "Inventing recording technology" },
               { id: "c", text: "Banning all cross-cultural music" },
-              { id: "d", text: "Inventing recording technology" },
+              { id: "d", text: "Protecting all traditions equally" },
             ],
             correctChoiceId: "a",
           },
@@ -458,12 +458,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A loss of both traditions" },
-              { id: "b", text: "An exchange where blues feeling met harmonic sophistication to create something new" },
-              { id: "c", text: "Pure copying of European classical music" },
-              { id: "d", text: "An accidental result of poor musicianship" },
+              { id: "a", text: "An accidental result of poor musicianship" },
+              { id: "b", text: "Pure copying of European classical music" },
+              { id: "c", text: "An exchange where blues feeling met harmonic sophistication to create something new" },
+              { id: "d", text: "A loss of both traditions" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -518,9 +518,9 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Remain unchanged" },
+              { id: "a", text: "Disappear completely" },
               { id: "b", text: "Transform and adapt to new contexts" },
-              { id: "c", text: "Disappear completely" },
+              { id: "c", text: "Remain unchanged" },
               { id: "d", text: "Become illegal" },
             ],
             correctChoiceId: "b",
@@ -625,9 +625,9 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Remain unchanged in every detail" },
+              { id: "a", text: "Lose all connection to their origin" },
               { id: "b", text: "Transform while retaining some original characteristics" },
-              { id: "c", text: "Lose all connection to their origin" },
+              { id: "c", text: "Remain unchanged in every detail" },
               { id: "d", text: "Become unrecognisable immediately" },
             ],
             correctChoiceId: "b",
@@ -675,11 +675,11 @@ export const lesson43: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Which cultural group is richest" },
-              { id: "b", text: "Which specific elements — rhythm, melody, instruments, technique — were taken" },
+              { id: "b", text: "Which songs sold best" },
               { id: "c", text: "Which instruments cost the most" },
-              { id: "d", text: "Which songs sold best" },
+              { id: "d", text: "Which specific elements — rhythm, melody, instruments, technique — were taken" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -724,12 +724,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Complete preservation" },
-              { id: "b", text: "Partial transformation — surface retained, context altered" },
-              { id: "c", text: "Cultural appropriation by definition" },
-              { id: "d", text: "No exchange at all" },
+              { id: "a", text: "No exchange at all" },
+              { id: "b", text: "Cultural appropriation by definition" },
+              { id: "c", text: "Partial transformation — surface retained, context altered" },
+              { id: "d", text: "Complete preservation" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -785,12 +785,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Which recording sounds best" },
-              { id: "b", text: "Who benefits and whether the exchange is reciprocal" },
+              { id: "a", text: "Who benefits and whether the exchange is reciprocal" },
+              { id: "b", text: "Which recording sounds best" },
               { id: "c", text: "Which tradition has more instruments" },
               { id: "d", text: "Which genre sells more records" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -871,12 +871,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It produces better music" },
-              { id: "b", text: "Both parties benefit and retain agency over their elements" },
-              { id: "c", text: "It involves more genres" },
-              { id: "d", text: "It happens more quickly" },
+              { id: "a", text: "Both parties benefit and retain agency over their elements" },
+              { id: "b", text: "It produces better music" },
+              { id: "c", text: "It happens more quickly" },
+              { id: "d", text: "It involves more genres" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -922,12 +922,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "How many instruments are used" },
-              { id: "b", text: "Who profits from the borrowing and is it reciprocal" },
+              { id: "a", text: "Who profits from the borrowing and is it reciprocal" },
+              { id: "b", text: "How many instruments are used" },
               { id: "c", text: "What key the song is in" },
               { id: "d", text: "How long the track lasts" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

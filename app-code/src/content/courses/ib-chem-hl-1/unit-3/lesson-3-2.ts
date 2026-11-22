@@ -93,8 +93,8 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Ice melting to water" },
-              { id: "b", text: "Water freezing to ice" },
-              { id: "c", text: "Gas dissolving in water to form ions" },
+              { id: "b", text: "Gas dissolving in water to form ions" },
+              { id: "c", text: "Water freezing to ice" },
               { id: "d", text: "A gas condensing to liquid" },
             ],
             correctChoiceId: "a",
@@ -327,11 +327,11 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Always zero" },
-              { id: "b", text: "Always positive (non-zero)" },
-              { id: "c", text: "Always negative" },
-              { id: "d", text: "Impossible to measure" },
+              { id: "b", text: "Impossible to measure" },
+              { id: "c", text: "Always positive (non-zero)" },
+              { id: "d", text: "Always negative" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -370,12 +370,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$N_2(g) + 3H_2(g) \\to 2NH_3(g)$" },
+              { id: "a", text: "$H_2(g) + Cl_2(g) \\to 2HCl(g)$" },
               { id: "b", text: "$2NO_2(g) \\to N_2O_4(g)$" },
-              { id: "c", text: "$N_2O_4(g) \\to 2NO_2(g)$" },
-              { id: "d", text: "$H_2(g) + Cl_2(g) \\to 2HCl(g)$" },
+              { id: "c", text: "$N_2(g) + 3H_2(g) \\to 2NH_3(g)$" },
+              { id: "d", text: "$N_2O_4(g) \\to 2NO_2(g)$" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -416,11 +416,11 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "kJ mol$^{-1}$" },
-              { id: "b", text: "J K$^{-1}$ mol$^{-1}$" },
-              { id: "c", text: "J mol$^{-1}$" },
+              { id: "b", text: "J mol$^{-1}$" },
+              { id: "c", text: "J K$^{-1}$ mol$^{-1}$" },
               { id: "d", text: "kJ K$^{-1}$ mol$^{-1}$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -459,12 +459,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Solid $>$ liquid $>$ gas" },
-              { id: "b", text: "Gas $>$ liquid $>$ solid" },
-              { id: "c", text: "Liquid $>$ gas $>$ solid" },
-              { id: "d", text: "All states have equal entropy" },
+              { id: "a", text: "All states have equal entropy" },
+              { id: "b", text: "Liquid $>$ gas $>$ solid" },
+              { id: "c", text: "Gas $>$ liquid $>$ solid" },
+              { id: "d", text: "Solid $>$ liquid $>$ gas" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -508,8 +508,8 @@ export const lesson32: Lesson = {
                 text: "Diluting a concentrated salt solution with water",
               },
               { id: "b", text: "Freezing water into ice" },
-              { id: "c", text: "Condensing water vapour" },
-              { id: "d", text: "Crystallising a solution" },
+              { id: "c", text: "Crystallising a solution" },
+              { id: "d", text: "Condensing water vapour" },
             ],
             correctChoiceId: "a",
           },
@@ -985,12 +985,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\Delta H < 0$ and $\\Delta S > 0$" },
-              { id: "b", text: "$\\Delta H > 0$ and $\\Delta S > 0$" },
+              { id: "a", text: "$\\Delta H > 0$ and $\\Delta S > 0$" },
+              { id: "b", text: "$\\Delta H > 0$ and $\\Delta S < 0$" },
               { id: "c", text: "$\\Delta H < 0$ and $\\Delta S < 0$" },
-              { id: "d", text: "$\\Delta H > 0$ and $\\Delta S < 0$" },
+              { id: "d", text: "$\\Delta H < 0$ and $\\Delta S > 0$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1214,12 +1214,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Spontaneous at that temperature" },
+              { id: "a", text: "At equilibrium" },
               { id: "b", text: "Non-spontaneous at that temperature" },
-              { id: "c", text: "At equilibrium" },
+              { id: "c", text: "Spontaneous at that temperature" },
               { id: "d", text: "Impossible" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1258,12 +1258,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Spontaneous in the forward direction" },
-              { id: "b", text: "At equilibrium" },
-              { id: "c", text: "Spontaneous in the reverse direction" },
-              { id: "d", text: "Non-spontaneous in both directions" },
+              { id: "a", text: "Spontaneous in the reverse direction" },
+              { id: "b", text: "Spontaneous in the forward direction" },
+              { id: "c", text: "Non-spontaneous in both directions" },
+              { id: "d", text: "At equilibrium" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1302,12 +1302,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\Delta H < 0$, $\\Delta S > 0$" },
-              { id: "b", text: "$\\Delta H > 0$, $\\Delta S > 0$" },
-              { id: "c", text: "$\\Delta H > 0$, $\\Delta S < 0$" },
+              { id: "a", text: "$\\Delta H > 0$, $\\Delta S < 0$" },
+              { id: "b", text: "$\\Delta H < 0$, $\\Delta S > 0$" },
+              { id: "c", text: "$\\Delta H > 0$, $\\Delta S > 0$" },
               { id: "d", text: "$\\Delta H < 0$, $\\Delta S < 0$" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1346,12 +1346,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Become more negative (more spontaneous)" },
-              { id: "b", text: "Become more positive (less spontaneous)" },
-              { id: "c", text: "Stay constant" },
-              { id: "d", text: "Become zero immediately" },
+              { id: "a", text: "Become zero immediately" },
+              { id: "b", text: "Stay constant" },
+              { id: "c", text: "Become more negative (more spontaneous)" },
+              { id: "d", text: "Become more positive (less spontaneous)" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1393,8 +1393,8 @@ export const lesson32: Lesson = {
             choices: [
               { id: "a", text: "$\\Delta G = \\Delta H + T\\Delta S$" },
               { id: "b", text: "$\\Delta G = \\Delta H - T\\Delta S$" },
-              { id: "c", text: "$\\Delta G = \\Delta H \\times T\\Delta S$" },
-              { id: "d", text: "$\\Delta G = T\\Delta S - \\Delta H$" },
+              { id: "c", text: "$\\Delta G = T\\Delta S - \\Delta H$" },
+              { id: "d", text: "$\\Delta G = \\Delta H \\times T\\Delta S$" },
             ],
             correctChoiceId: "b",
           },

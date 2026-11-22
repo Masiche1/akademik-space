@@ -86,12 +86,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Sum of nucleon masses minus nuclear mass" },
-              { id: "b", text: "Nuclear mass minus sum of nucleons" },
-              { id: "c", text: "Mass of protons only" },
+              { id: "a", text: "Mass of protons only" },
+              { id: "b", text: "Sum of nucleon masses minus nuclear mass" },
+              { id: "c", text: "Nuclear mass minus sum of nucleons" },
               { id: "d", text: "Mass of neutrons only" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -378,12 +378,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The mass number $A$" },
-              { id: "b", text: "The atomic number $Z$" },
-              { id: "c", text: "The number of protons only" },
+              { id: "a", text: "The atomic number $Z$" },
+              { id: "b", text: "The number of protons only" },
+              { id: "c", text: "The mass number $A$" },
               { id: "d", text: "The number of neutrons only" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -422,12 +422,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Deuterium ($A=2$)" },
-              { id: "b", text: "Helium-4 ($A=4$)" },
-              { id: "c", text: "Iron-56 ($A=56$)" },
+              { id: "a", text: "Helium-4 ($A=4$)" },
+              { id: "b", text: "Iron-56 ($A=56$)" },
+              { id: "c", text: "Deuterium ($A=2$)" },
               { id: "d", text: "Uranium-238 ($A=238$)" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -578,16 +578,16 @@ export const lesson61: Lesson = {
             choices: [
               {
                 id: "a",
-                text: "The strong nuclear force binds the neutron to the nucleus, lowering its energy",
-              },
-              { id: "b", text: "Neutrons cannot decay at all" },
-              {
-                id: "c",
                 text: "The nucleus shields the neutron from all forces",
               },
+              {
+                id: "b",
+                text: "The strong nuclear force binds the neutron to the nucleus, lowering its energy",
+              },
+              { id: "c", text: "Neutrons cannot decay at all" },
               { id: "d", text: "Binding energy makes neutrons heavier" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -876,8 +876,8 @@ export const lesson61: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Fusion with another light nucleus" },
-              { id: "b", text: "Fission into two heavy fragments" },
-              { id: "c", text: "Alpha decay only" },
+              { id: "b", text: "Alpha decay only" },
+              { id: "c", text: "Fission into two heavy fragments" },
               { id: "d", text: "No process can release energy" },
             ],
             correctChoiceId: "a",
@@ -919,15 +919,15 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "P must have more neutrons" },
+              { id: "b", text: "P has a lower binding energy per nucleon" },
               {
-                id: "a",
+                id: "c",
                 text: "P has a higher binding energy per nucleon and is more stable",
               },
-              { id: "b", text: "P has a lower binding energy per nucleon" },
-              { id: "c", text: "They are equally stable" },
-              { id: "d", text: "P must have more neutrons" },
+              { id: "d", text: "They are equally stable" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1011,12 +1011,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "All nucleons (protons and neutrons)" },
-              { id: "b", text: "Only protons" },
-              { id: "c", text: "Only neutrons" },
-              { id: "d", text: "Electrons and protons" },
+              { id: "a", text: "Only neutrons" },
+              { id: "b", text: "All nucleons (protons and neutrons)" },
+              { id: "c", text: "Electrons and protons" },
+              { id: "d", text: "Only protons" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1239,16 +1239,16 @@ export const lesson61: Lesson = {
             choices: [
               {
                 id: "a",
-                text: "An attractive force between nucleons at very short range",
+                text: "An electromagnetic attraction between electrons and protons",
               },
               { id: "b", text: "A repulsive force between protons only" },
               { id: "c", text: "A long-range gravitational force" },
               {
                 id: "d",
-                text: "An electromagnetic attraction between electrons and protons",
+                text: "An attractive force between nucleons at very short range",
               },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1287,12 +1287,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Less than 1" },
-              { id: "b", text: "Approximately equal to 1" },
-              { id: "c", text: "Greater than 1" },
+              { id: "a", text: "Greater than 1" },
+              { id: "b", text: "Less than 1" },
+              { id: "c", text: "Approximately equal to 1" },
               { id: "d", text: "Zero" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1331,12 +1331,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Beta-minus decay" },
-              { id: "b", text: "Beta-plus decay or electron capture" },
-              { id: "c", text: "Alpha decay only" },
+              { id: "a", text: "Beta-plus decay or electron capture" },
+              { id: "b", text: "Alpha decay only" },
+              { id: "c", text: "Beta-minus decay" },
               { id: "d", text: "Gamma emission only" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -1666,14 +1666,14 @@ export const lesson61: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "They increase the electrostatic repulsion" },
+              { id: "b", text: "They always make alpha decay impossible" },
+              { id: "c", text: "They reduce the mass number" },
               {
-                id: "b",
+                id: "d",
                 text: "They add strong-force attraction without adding charge",
               },
-              { id: "c", text: "They always make alpha decay impossible" },
-              { id: "d", text: "They reduce the mass number" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1712,12 +1712,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A nucleus with 19 protons" },
-              { id: "b", text: "A nucleus with 20 protons" },
-              { id: "c", text: "A nucleus with 21 protons" },
-              { id: "d", text: "A nucleus with 22 protons" },
+              { id: "a", text: "A nucleus with 21 protons" },
+              { id: "b", text: "A nucleus with 19 protons" },
+              { id: "c", text: "A nucleus with 22 protons" },
+              { id: "d", text: "A nucleus with 20 protons" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

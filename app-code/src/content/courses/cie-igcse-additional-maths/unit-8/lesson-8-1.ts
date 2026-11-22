@@ -44,8 +44,11 @@ export const lesson81: Lesson = {
           totalMarks: 1,
           stem: "Solve $x + y = 7$ and $x - y = 1$.",
           response: { type: "mcq", choices: [
-            { id: "a", text: "$x=4, y=3$" }, { id: "b", text: "$x=3, y=4$" }, { id: "c", text: "$x=5, y=2$" }, { id: "d", text: "No solution" },
-          ], correctChoiceId: "a" },
+            { id: "a", text: "No solution" },
+            { id: "b", text: "$x=3, y=4$" },
+            { id: "c", text: "$x=4, y=3$" },
+            { id: "d", text: "$x=5, y=2$" },
+          ], correctChoiceId: "c" },
           markscheme: {
             principles: [{ kind: "technique", name: "Elimination", statement: "Add equations." }],
             steps: [{ reasoning: "Adding: $2x = 8 \\Rightarrow x = 4$, $y = 3$.", marks: 1, markCode: "A" }],
@@ -107,7 +110,10 @@ export const lesson81: Lesson = {
           totalMarks: 1,
           stem: "Solve $x + y = 9$ and $x - y = 3$.",
           response: { type: "mcq", choices: [
-            { id: "a", text: "$x=6, y=3$" }, { id: "b", text: "$x=3, y=6$" }, { id: "c", text: "$x=4, y=5$" }, { id: "d", text: "$x=5, y=4$" },
+            { id: "a", text: "$x=6, y=3$" },
+            { id: "b", text: "$x=3, y=6$" },
+            { id: "c", text: "$x=5, y=4$" },
+            { id: "d", text: "$x=4, y=5$" },
           ], correctChoiceId: "a" },
           markscheme: {
             principles: [{ kind: "technique", name: "Elimination", statement: "Add equations." }],
@@ -152,8 +158,11 @@ export const lesson81: Lesson = {
           totalMarks: 1,
           stem: "How many solutions do $y = x + 1$ and $y = x^2 - 5$ have?",
           response: { type: "mcq", choices: [
-            { id: "a", text: "Two" }, { id: "b", text: "One" }, { id: "c", text: "None" }, { id: "d", text: "Infinitely many" },
-          ], correctChoiceId: "a" },
+            { id: "a", text: "Infinitely many" },
+            { id: "b", text: "One" },
+            { id: "c", text: "Two" },
+            { id: "d", text: "None" },
+          ], correctChoiceId: "c" },
           markscheme: {
             principles: [{ kind: "technique", name: "Intersection", statement: "Solve the resulting quadratic." }],
             steps: [{ reasoning: "$x + 1 = x^2 - 5 \\Rightarrow x^2 - x - 6 = 0 \\Rightarrow (x-3)(x+2) = 0$: two solutions.", marks: 1, markCode: "A" }],
@@ -183,8 +192,11 @@ export const lesson81: Lesson = {
           totalMarks: 1,
           stem: "What can be said about the equations $x + y = 5$ and $x + y = 7$?",
           response: { type: "mcq", choices: [
-            { id: "a", text: "One solution" }, { id: "b", text: "No solution" }, { id: "c", text: "Two solutions" }, { id: "d", text: "Infinitely many solutions" },
-          ], correctChoiceId: "b" },
+            { id: "a", text: "No solution" },
+            { id: "b", text: "Two solutions" },
+            { id: "c", text: "Infinitely many solutions" },
+            { id: "d", text: "One solution" },
+          ], correctChoiceId: "a" },
           markscheme: {
             principles: [{ kind: "technique", name: "Consistency", statement: "Parallel lines never meet." }],
             steps: [{ reasoning: "Subtracting gives $0 = -2$, impossible — the lines are parallel with no solution.", marks: 1, markCode: "A" }],
@@ -231,7 +243,10 @@ export const lesson81: Lesson = {
           totalMarks: 1,
           stem: "If $3x + y = 11$ and $x + y = 5$, find $y$.",
           response: { type: "mcq", choices: [
-            { id: "a", text: "2" }, { id: "b", text: "3" }, { id: "c", text: "5" }, { id: "d", text: "4" },
+            { id: "a", text: "2" },
+            { id: "b", text: "4" },
+            { id: "c", text: "3" },
+            { id: "d", text: "5" },
           ], correctChoiceId: "a" },
           markscheme: {
             principles: [{ kind: "technique", name: "Elimination", statement: "Subtract equations." }],
@@ -277,8 +292,11 @@ export const lesson81: Lesson = {
           totalMarks: 1,
           stem: "Solve $x + 2y = 8$ and $3x - y = 3$. The solution is…",
           response: { type: "mcq", choices: [
-            { id: "a", text: "$(2, 3)$" }, { id: "b", text: "$(3, 2)$" }, { id: "c", text: "$(4, 2)$" }, { id: "d", text: "$(1, 3)$" },
-          ], correctChoiceId: "a" },
+            { id: "a", text: "$(1, 3)$" },
+            { id: "b", text: "$(3, 2)$" },
+            { id: "c", text: "$(2, 3)$" },
+            { id: "d", text: "$(4, 2)$" },
+          ], correctChoiceId: "c" },
           markscheme: {
             principles: [{ kind: "technique", name: "Substitution", statement: "Check each pair or solve." }],
             steps: [{ reasoning: "$y = 3x - 3$; substituting: $x + 2(3x - 3) = 8 \\Rightarrow x = 2$, $y = 3$.", marks: 1, markCode: "A" }],

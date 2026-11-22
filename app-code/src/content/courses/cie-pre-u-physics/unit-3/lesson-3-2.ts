@@ -88,9 +88,9 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "fλ" },
-              { id: "b", text: "f/λ" },
+              { id: "b", text: "f+λ" },
               { id: "c", text: "λ/f" },
-              { id: "d", text: "f+λ" },
+              { id: "d", text: "f/λ" },
             ],
           correctChoiceId: "a",
           },
@@ -110,12 +110,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Hertz (Hz)" },
-              { id: "b", text: "m/s" },
-              { id: "c", text: "metres" },
-              { id: "d", text: "Watts" },
+              { id: "a", text: "Watts" },
+              { id: "b", text: "Hertz (Hz)" },
+              { id: "c", text: "m/s" },
+              { id: "d", text: "metres" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -133,12 +133,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Distance between consecutive crests" },
-              { id: "b", text: "Max displacement" },
-              { id: "c", text: "Frequency" },
-              { id: "d", text: "Speed" },
+              { id: "a", text: "Speed" },
+              { id: "b", text: "Frequency" },
+              { id: "c", text: "Distance between consecutive crests" },
+              { id: "d", text: "Max displacement" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -162,12 +162,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Max displacement from equilibrium" },
+              { id: "a", text: "Frequency" },
               { id: "b", text: "Wavelength" },
-              { id: "c", text: "Frequency" },
+              { id: "c", text: "Max displacement from equilibrium" },
               { id: "d", text: "Speed" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -192,8 +192,8 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Perpendicular to propagation" },
-              { id: "b", text: "Parallel to propagation" },
-              { id: "c", text: "No direction" },
+              { id: "b", text: "No direction" },
+              { id: "c", text: "Parallel to propagation" },
               { id: "d", text: "Circular only" },
             ],
           correctChoiceId: "a",
@@ -218,12 +218,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Parallel to propagation" },
-              { id: "b", text: "Perpendicular" },
+              { id: "a", text: "Perpendicular" },
+              { id: "b", text: "Circular only" },
               { id: "c", text: "No direction" },
-              { id: "d", text: "Circular only" },
+              { id: "d", text: "Parallel to propagation" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -248,9 +248,9 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Bending of wave at boundary" },
-              { id: "b", text: "Spreading around obstacle" },
+              { id: "b", text: "Absorption" },
               { id: "c", text: "Reflection" },
-              { id: "d", text: "Absorption" },
+              { id: "d", text: "Spreading around obstacle" },
             ],
           correctChoiceId: "a",
           },
@@ -276,12 +276,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Spreading of wave around obstacle" },
-              { id: "b", text: "Bending" },
-              { id: "c", text: "Reflection" },
-              { id: "d", text: "Absorption" },
+              { id: "a", text: "Reflection" },
+              { id: "b", text: "Absorption" },
+              { id: "c", text: "Bending" },
+              { id: "d", text: "Spreading of wave around obstacle" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -309,12 +309,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Longitudinal wave" },
-              { id: "b", text: "Transverse wave" },
-              { id: "c", text: "Not a wave" },
-              { id: "d", text: "Electromagnetic" },
+              { id: "a", text: "Transverse wave" },
+              { id: "b", text: "Longitudinal wave" },
+              { id: "c", text: "Electromagnetic" },
+              { id: "d", text: "Not a wave" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -334,12 +334,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Transverse electromagnetic wave" },
-              { id: "b", text: "Longitudinal" },
+              { id: "a", text: "Sound" },
+              { id: "b", text: "Transverse electromagnetic wave" },
               { id: "c", text: "Not a wave" },
-              { id: "d", text: "Sound" },
+              { id: "d", text: "Longitudinal" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -363,12 +363,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "2 m" },
-              { id: "b", text: "1 m" },
-              { id: "c", text: "0.5 m" },
-              { id: "d", text: "4 m" },
+              { id: "a", text: "0.5 m" },
+              { id: "b", text: "4 m" },
+              { id: "c", text: "2 m" },
+              { id: "d", text: "1 m" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -390,12 +390,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "50 m/s" },
-              { id: "b", text: "2 m/s" },
-              { id: "c", text: "15 m/s" },
-              { id: "d", text: "500 m/s" },
+              { id: "a", text: "500 m/s" },
+              { id: "b", text: "50 m/s" },
+              { id: "c", text: "2 m/s" },
+              { id: "d", text: "15 m/s" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -413,12 +413,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "1/f" },
-              { id: "b", text: "f" },
-              { id: "c", text: "fλ" },
-              { id: "d", text: "λ/f" },
+              { id: "a", text: "fλ" },
+              { id: "b", text: "λ/f" },
+              { id: "c", text: "f" },
+              { id: "d", text: "1/f" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -436,12 +436,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Gap size ≈ wavelength" },
-              { id: "b", text: "Gap >> wavelength" },
-              { id: "c", text: "Gap << wavelength" },
-              { id: "d", text: "No gap" },
+              { id: "a", text: "Gap >> wavelength" },
+              { id: "b", text: "Gap size ≈ wavelength" },
+              { id: "c", text: "No gap" },
+              { id: "d", text: "Gap << wavelength" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -465,12 +465,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Whole number of wavelengths" },
-              { id: "b", text: "Half wavelength" },
+              { id: "a", text: "Half wavelength" },
+              { id: "b", text: "Whole number of wavelengths" },
               { id: "c", text: "Zero only" },
               { id: "d", text: "Any" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -490,12 +490,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "(n+½)λ" },
-              { id: "b", text: "nλ" },
-              { id: "c", text: "Zero" },
-              { id: "d", text: "Any" },
+              { id: "a", text: "nλ" },
+              { id: "b", text: "Zero" },
+              { id: "c", text: "Any" },
+              { id: "d", text: "(n+½)λ" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -515,12 +515,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "n₁sinθ₁ = n₂sinθ₂" },
-              { id: "b", text: "n₁cosθ₁ = n₂cosθ₂" },
-              { id: "c", text: "v₁ = v₂" },
-              { id: "d", text: "f₁ = f₂" },
+              { id: "a", text: "v₁ = v₂" },
+              { id: "b", text: "n₁sinθ₁ = n₂sinθ₂" },
+              { id: "c", text: "f₁ = f₂" },
+              { id: "d", text: "n₁cosθ₁ = n₂cosθ₂" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -542,12 +542,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Slows down and bends toward normal" },
-              { id: "b", text: "Speeds up" },
-              { id: "c", text: "No change" },
-              { id: "d", text: "Stops" },
+              { id: "a", text: "Stops" },
+              { id: "b", text: "No change" },
+              { id: "c", text: "Speeds up" },
+              { id: "d", text: "Slows down and bends toward normal" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -569,12 +569,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Higher" },
-              { id: "b", text: "Lower" },
-              { id: "c", text: "Same" },
-              { id: "d", text: "Zero" },
+              { id: "a", text: "Lower" },
+              { id: "b", text: "Zero" },
+              { id: "c", text: "Higher" },
+              { id: "d", text: "Same" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -727,12 +727,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "3 × 10⁸ m/s in vacuum" },
-              { id: "b", text: "340 m/s" },
-              { id: "c", text: "Variable" },
-              { id: "d", text: "Zero" },
+              { id: "a", text: "Zero" },
+              { id: "b", text: "Variable" },
+              { id: "c", text: "3 × 10⁸ m/s in vacuum" },
+              { id: "d", text: "340 m/s" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -813,15 +813,15 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "One wave only" },
               {
-                id: "a",
+                id: "b",
                 text: "Two identical waves travelling opposite directions",
               },
-              { id: "b", text: "One wave only" },
-              { id: "c", text: "No waves" },
-              { id: "d", text: "Sound only" },
+              { id: "c", text: "Sound only" },
+              { id: "d", text: "No waves" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -971,8 +971,8 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "V = IR" },
-              { id: "b", text: "V = I/R" },
-              { id: "c", text: "I = VR" },
+              { id: "b", text: "I = VR" },
+              { id: "c", text: "V = I/R" },
               { id: "d", text: "R = VI" },
             ],
           correctChoiceId: "a",
@@ -994,9 +994,9 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "VI" },
-              { id: "b", text: "V/I" },
-              { id: "c", text: "I/V" },
-              { id: "d", text: "V+I" },
+              { id: "b", text: "I/V" },
+              { id: "c", text: "V+I" },
+              { id: "d", text: "V/I" },
             ],
           correctChoiceId: "a",
           },
@@ -1017,9 +1017,9 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Same through all components" },
-              { id: "b", text: "Different" },
-              { id: "c", text: "Zero" },
-              { id: "d", text: "Variable" },
+              { id: "b", text: "Variable" },
+              { id: "c", text: "Different" },
+              { id: "d", text: "Zero" },
             ],
           correctChoiceId: "a",
           },
@@ -1040,9 +1040,9 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Same across all components" },
-              { id: "b", text: "Different" },
+              { id: "b", text: "Variable" },
               { id: "c", text: "Zero" },
-              { id: "d", text: "Variable" },
+              { id: "d", text: "Different" },
             ],
           correctChoiceId: "a",
           },
@@ -1064,12 +1064,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "q₁q₂/r²" },
-              { id: "b", text: "q/r" },
-              { id: "c", text: "q²r" },
-              { id: "d", text: "qr" },
+              { id: "a", text: "q²r" },
+              { id: "b", text: "q₁q₂/r²" },
+              { id: "c", text: "qr" },
+              { id: "d", text: "q/r" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1087,12 +1087,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "EMF = rate of change of flux linkage" },
-              { id: "b", text: "EMF = IR" },
-              { id: "c", text: "EMF = VI" },
-              { id: "d", text: "No law" },
+              { id: "a", text: "No law" },
+              { id: "b", text: "EMF = VI" },
+              { id: "c", text: "EMF = IR" },
+              { id: "d", text: "EMF = rate of change of flux linkage" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1112,12 +1112,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Opposes the change causing it" },
-              { id: "b", text: "Enhances change" },
-              { id: "c", text: "No effect" },
+              { id: "a", text: "Enhances change" },
+              { id: "b", text: "No effect" },
+              { id: "c", text: "Opposes the change causing it" },
               { id: "d", text: "Random" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1135,12 +1135,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Vp/Vs = Np/Ns" },
-              { id: "b", text: "Vp/Vs = Ns/Np" },
-              { id: "c", text: "Vp = Vs" },
+              { id: "a", text: "Vp = Vs" },
+              { id: "b", text: "Vp/Vs = Np/Ns" },
+              { id: "c", text: "Vp/Vs = Ns/Np" },
               { id: "d", text: "No equation" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1163,9 +1163,9 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "F = qvB sin θ" },
-              { id: "b", text: "F = qv" },
-              { id: "c", text: "F = BIL" },
-              { id: "d", text: "F = qE" },
+              { id: "b", text: "F = BIL" },
+              { id: "c", text: "F = qE" },
+              { id: "d", text: "F = qv" },
             ],
           correctChoiceId: "a",
           },
@@ -1189,12 +1189,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Alternating current" },
-              { id: "b", text: "Direct current" },
-              { id: "c", text: "No current" },
-              { id: "d", text: "Static" },
+              { id: "a", text: "Static" },
+              { id: "b", text: "Alternating current" },
+              { id: "c", text: "Direct current" },
+              { id: "d", text: "No current" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1216,12 +1216,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "3 A" },
-              { id: "b", text: "48 A" },
-              { id: "c", text: "0.33 A" },
-              { id: "d", text: "16 A" },
+              { id: "a", text: "48 A" },
+              { id: "b", text: "0.33 A" },
+              { id: "c", text: "16 A" },
+              { id: "d", text: "3 A" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1239,12 +1239,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "24 W" },
-              { id: "b", text: "12 W" },
-              { id: "c", text: "3 W" },
-              { id: "d", text: "36 W" },
+              { id: "a", text: "3 W" },
+              { id: "b", text: "36 W" },
+              { id: "c", text: "12 W" },
+              { id: "d", text: "24 W" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1262,12 +1262,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "8 Ω" },
-              { id: "b", text: "2 Ω" },
-              { id: "c", text: "16 Ω" },
-              { id: "d", text: "4 Ω" },
+              { id: "a", text: "4 Ω" },
+              { id: "b", text: "16 Ω" },
+              { id: "c", text: "8 Ω" },
+              { id: "d", text: "2 Ω" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1289,12 +1289,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "2 Ω" },
-              { id: "b", text: "8 Ω" },
-              { id: "c", text: "16 Ω" },
-              { id: "d", text: "4 Ω" },
+              { id: "a", text: "4 Ω" },
+              { id: "b", text: "16 Ω" },
+              { id: "c", text: "8 Ω" },
+              { id: "d", text: "2 Ω" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1316,12 +1316,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Voltage" },
-              { id: "b", text: "Current" },
-              { id: "c", text: "Nothing" },
-              { id: "d", text: "Resistance" },
+              { id: "a", text: "Resistance" },
+              { id: "b", text: "Voltage" },
+              { id: "c", text: "Current" },
+              { id: "d", text: "Nothing" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1344,8 +1344,8 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Magnetic flux changes" },
-              { id: "b", text: "Flux constant" },
-              { id: "c", text: "No field" },
+              { id: "b", text: "No field" },
+              { id: "c", text: "Flux constant" },
               { id: "d", text: "Static" },
             ],
           correctChoiceId: "a",
@@ -1368,12 +1368,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "BIL" },
-              { id: "b", text: "qvB" },
-              { id: "c", text: "VI" },
-              { id: "d", text: "IR" },
+              { id: "a", text: "qvB" },
+              { id: "b", text: "IR" },
+              { id: "c", text: "BIL" },
+              { id: "d", text: "VI" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1392,8 +1392,8 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Bar magnet when current flows" },
-              { id: "b", text: "No magnet" },
-              { id: "c", text: "Conductor only" },
+              { id: "b", text: "Conductor only" },
+              { id: "c", text: "No magnet" },
               { id: "d", text: "Insulator" },
             ],
           correctChoiceId: "a",
@@ -1420,15 +1420,15 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "Static" },
+              { id: "b", text: "EMF induction" },
               {
-                id: "a",
+                id: "c",
                 text: "Force on current-carrying coil in magnetic field",
               },
-              { id: "b", text: "EMF induction" },
-              { id: "c", text: "No force" },
-              { id: "d", text: "Static" },
+              { id: "d", text: "No force" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1576,9 +1576,9 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "F/q" },
-              { id: "b", text: "q/F" },
-              { id: "c", text: "V/d only" },
-              { id: "d", text: "IR" },
+              { id: "b", text: "IR" },
+              { id: "c", text: "q/F" },
+              { id: "d", text: "V/d only" },
             ],
           correctChoiceId: "a",
           },
@@ -1654,12 +1654,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Melting when current too high" },
-              { id: "b", text: "Increasing current" },
-              { id: "c", text: "No effect" },
-              { id: "d", text: "Storing charge" },
+              { id: "a", text: "Storing charge" },
+              { id: "b", text: "No effect" },
+              { id: "c", text: "Increasing current" },
+              { id: "d", text: "Melting when current too high" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1799,12 +1799,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "3 × 10⁸ m/s in vacuum" },
-              { id: "b", text: "340 m/s" },
-              { id: "c", text: "Variable" },
-              { id: "d", text: "Zero" },
+              { id: "a", text: "Variable" },
+              { id: "b", text: "3 × 10⁸ m/s in vacuum" },
+              { id: "c", text: "Zero" },
+              { id: "d", text: "340 m/s" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1822,15 +1822,15 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "Random" },
+              { id: "b", text: "Visible only" },
               {
-                id: "a",
+                id: "c",
                 text: "Radio → microwave → IR → visible → UV → X-ray → gamma",
               },
-              { id: "b", text: "Gamma → radio" },
-              { id: "c", text: "Visible only" },
-              { id: "d", text: "Random" },
+              { id: "d", text: "Gamma → radio" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1852,12 +1852,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "hf" },
-              { id: "b", text: "h/f" },
+              { id: "a", text: "h/f" },
+              { id: "b", text: "hf" },
               { id: "c", text: "hc" },
               { id: "d", text: "f/h" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1875,12 +1875,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Cooking and satellite communication" },
+              { id: "a", text: "Sunburn" },
               { id: "b", text: "Medical imaging" },
-              { id: "c", text: "Sunburn" },
-              { id: "d", text: "Nothing" },
+              { id: "c", text: "Nothing" },
+              { id: "d", text: "Cooking and satellite communication" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1908,12 +1908,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Medical imaging" },
+              { id: "a", text: "Radio" },
               { id: "b", text: "Cooking" },
-              { id: "c", text: "Radio" },
-              { id: "d", text: "Nothing" },
+              { id: "c", text: "Nothing" },
+              { id: "d", text: "Medical imaging" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1935,12 +1935,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Sunburn and skin cancer" },
-              { id: "b", text: "Nothing" },
+              { id: "a", text: "Nothing" },
+              { id: "b", text: "Sunburn and skin cancer" },
               { id: "c", text: "Cooling" },
               { id: "d", text: "Vision only" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1962,12 +1962,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Cancer treatment and sterilisation" },
+              { id: "a", text: "Radio" },
               { id: "b", text: "Cooking" },
-              { id: "c", text: "Radio" },
+              { id: "c", text: "Cancer treatment and sterilisation" },
               { id: "d", text: "Nothing" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1992,9 +1992,9 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Decreases" },
-              { id: "b", text: "Increases" },
+              { id: "b", text: "Zero" },
               { id: "c", text: "Stays same" },
-              { id: "d", text: "Zero" },
+              { id: "d", text: "Increases" },
             ],
           correctChoiceId: "a",
           },
@@ -2015,9 +2015,9 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Heat" },
-              { id: "b", text: "Light" },
-              { id: "c", text: "Sound" },
-              { id: "d", text: "Nothing" },
+              { id: "b", text: "Sound" },
+              { id: "c", text: "Nothing" },
+              { id: "d", text: "Light" },
             ],
           correctChoiceId: "a",
           },
@@ -2037,12 +2037,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Damage cells and DNA" },
-              { id: "b", text: "Nothing" },
-              { id: "c", text: "Cool" },
-              { id: "d", text: "Heal" },
+              { id: "a", text: "Heal" },
+              { id: "b", text: "Cool" },
+              { id: "c", text: "Damage cells and DNA" },
+              { id: "d", text: "Nothing" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -2066,12 +2066,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Lowest frequency and longest wavelength" },
-              { id: "b", text: "Highest f" },
+              { id: "a", text: "Highest f" },
+              { id: "b", text: "Lowest frequency and longest wavelength" },
               { id: "c", text: "Shortest λ" },
               { id: "d", text: "No λ" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -2095,12 +2095,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Highest frequency and shortest wavelength" },
-              { id: "b", text: "Lowest f" },
-              { id: "c", text: "Longest λ" },
-              { id: "d", text: "No λ" },
+              { id: "a", text: "Lowest f" },
+              { id: "b", text: "Highest frequency and shortest wavelength" },
+              { id: "c", text: "No λ" },
+              { id: "d", text: "Longest λ" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -2124,12 +2124,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "400-700 nm" },
-              { id: "b", text: "1-10 m" },
-              { id: "c", text: "1-10 km" },
-              { id: "d", text: "10⁻¹⁵ m" },
+              { id: "a", text: "1-10 m" },
+              { id: "b", text: "1-10 km" },
+              { id: "c", text: "10⁻¹⁵ m" },
+              { id: "d", text: "400-700 nm" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -2150,8 +2150,8 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "X-rays and gamma" },
-              { id: "b", text: "Radio" },
-              { id: "c", text: "Visible" },
+              { id: "b", text: "Visible" },
+              { id: "c", text: "Radio" },
               { id: "d", text: "Microwave" },
             ],
           correctChoiceId: "a",
@@ -2178,12 +2178,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "6.63 × 10⁻³⁴ J s" },
-              { id: "b", text: "9.81" },
-              { id: "c", text: "3×10⁸" },
-              { id: "d", text: "1.6×10⁻¹⁹" },
+              { id: "a", text: "3×10⁸" },
+              { id: "b", text: "1.6×10⁻¹⁹" },
+              { id: "c", text: "6.63 × 10⁻³⁴ J s" },
+              { id: "d", text: "9.81" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -2204,8 +2204,8 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Water molecules absorbing microwave energy" },
-              { id: "b", text: "Burning" },
-              { id: "c", text: "Conduction only" },
+              { id: "b", text: "Conduction only" },
+              { id: "c", text: "Burning" },
               { id: "d", text: "No mechanism" },
             ],
           correctChoiceId: "a",
@@ -2236,12 +2236,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Radio waves from space" },
-              { id: "b", text: "Visible light" },
-              { id: "c", text: "Sound" },
-              { id: "d", text: "Nothing" },
+              { id: "a", text: "Visible light" },
+              { id: "b", text: "Nothing" },
+              { id: "c", text: "Radio waves from space" },
+              { id: "d", text: "Sound" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -2265,12 +2265,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Higher photon energy" },
-              { id: "b", text: "Lower energy" },
-              { id: "c", text: "Same energy" },
-              { id: "d", text: "No energy" },
+              { id: "a", text: "Same energy" },
+              { id: "b", text: "No energy" },
+              { id: "c", text: "Lower energy" },
+              { id: "d", text: "Higher photon energy" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -2288,12 +2288,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Higher photon energy — ionising" },
-              { id: "b", text: "Lower energy" },
+              { id: "a", text: "Lower energy" },
+              { id: "b", text: "Higher photon energy — ionising" },
               { id: "c", text: "Same" },
               { id: "d", text: "No reason" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -2432,12 +2432,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Communication" },
+              { id: "a", text: "Nothing" },
               { id: "b", text: "Medical imaging" },
               { id: "c", text: "Cooking" },
-              { id: "d", text: "Nothing" },
+              { id: "d", text: "Communication" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -2526,12 +2526,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Thermal imaging and remote controls" },
-              { id: "b", text: "Cooking" },
-              { id: "c", text: "Radio" },
-              { id: "d", text: "Nothing" },
+              { id: "a", text: "Cooking" },
+              { id: "b", text: "Nothing" },
+              { id: "c", text: "Thermal imaging and remote controls" },
+              { id: "d", text: "Radio" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "c",
           },
           markscheme: {
             principles: [

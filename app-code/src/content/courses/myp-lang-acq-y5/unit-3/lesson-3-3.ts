@@ -56,10 +56,10 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A detailed cultural description" },
+              { id: "a", text: "A respectful greeting" },
               { id: "b", text: "An oversimplified belief about a group" },
-              { id: "c", text: "A respectful greeting" },
-              { id: "d", text: "A formal translation" },
+              { id: "c", text: "A formal translation" },
+              { id: "d", text: "A detailed cultural description" },
             ],
             correctChoiceId: "b",
           },
@@ -173,10 +173,10 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "An accurate description of a group" },
+              { id: "a", text: "A type of formal greeting" },
               { id: "b", text: "A belief that treats a whole group as uniform" },
-              { id: "c", text: "A type of formal greeting" },
-              { id: "d", text: "A statistical finding" },
+              { id: "c", text: "A statistical finding" },
+              { id: "d", text: "An accurate description of a group" },
             ],
             correctChoiceId: "b",
           },
@@ -200,9 +200,9 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "How many pages does it have?" },
+              { id: "a", text: "Is it written in formal English?" },
               { id: "b", text: "Whose voice is absent?" },
-              { id: "c", text: "Is it written in formal English?" },
+              { id: "c", text: "How many pages does it have?" },
               { id: "d", text: "Does it use big words?" },
             ],
             correctChoiceId: "b",
@@ -233,12 +233,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It is too long" },
-              { id: "b", text: "It overgeneralises a whole country" },
-              { id: "c", text: "It uses formal grammar" },
-              { id: "d", text: "It mentions women" },
+              { id: "a", text: "It mentions women" },
+              { id: "b", text: "It uses formal grammar" },
+              { id: "c", text: "It overgeneralises a whole country" },
+              { id: "d", text: "It is too long" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -313,12 +313,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It is too short" },
-              { id: "b", text: "It omits insider perspectives, privileging outsider voices" },
+              { id: "a", text: "It omits insider perspectives, privileging outsider voices" },
+              { id: "b", text: "It is too short" },
               { id: "c", text: "It uses too much technology" },
               { id: "d", text: "It is in the wrong language" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -425,12 +425,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "All people in Country X are traditional." },
-              { id: "b", text: "In some regions of Country X, people may maintain traditional practices, though this varies." },
+              { id: "a", text: "In some regions of Country X, people may maintain traditional practices, though this varies." },
+              { id: "b", text: "All people in Country X are traditional." },
               { id: "c", text: "Country X has no diversity." },
               { id: "d", text: "Everyone in Country X is the same." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -495,12 +495,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It is longer" },
-              { id: "b", text: "It avoids an absolute claim about a whole region" },
-              { id: "c", text: "It uses harder vocabulary" },
-              { id: "d", text: "It agrees with everyone" },
+              { id: "a", text: "It avoids an absolute claim about a whole region" },
+              { id: "b", text: "It uses harder vocabulary" },
+              { id: "c", text: "It agrees with everyone" },
+              { id: "d", text: "It is longer" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -553,12 +553,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It has only one clear cause" },
-              { id: "b", text: "It involves multiple dimensions, stakeholders and trade-offs" },
-              { id: "c", text: "It affects only one country" },
-              { id: "d", text: "It can be solved immediately" },
+              { id: "a", text: "It can be solved immediately" },
+              { id: "b", text: "It affects only one country" },
+              { id: "c", text: "It has only one clear cause" },
+              { id: "d", text: "It involves multiple dimensions, stakeholders and trade-offs" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -669,12 +669,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Because they are too boring to discuss simply" },
-              { id: "b", text: "Because they are interconnected and involve trade-offs" },
-              { id: "c", text: "Because they have no causes" },
+              { id: "a", text: "Because they have no causes" },
+              { id: "b", text: "Because they are too boring to discuss simply" },
+              { id: "c", text: "Because they are interconnected and involve trade-offs" },
               { id: "d", text: "Because only experts can understand them" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -696,12 +696,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Only national governments" },
-              { id: "b", text: "Local communities affected by the issue" },
-              { id: "c", text: "Only international companies" },
-              { id: "d", text: "Only scientists" },
+              { id: "a", text: "Only international companies" },
+              { id: "b", text: "Only scientists" },
+              { id: "c", text: "Local communities affected by the issue" },
+              { id: "d", text: "Only national governments" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -729,12 +729,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It is too short" },
-              { id: "b", text: "It oversimplifies a complex issue with an absolute claim" },
-              { id: "c", text: "It uses too many words" },
+              { id: "a", text: "It oversimplifies a complex issue with an absolute claim" },
+              { id: "b", text: "It uses too many words" },
+              { id: "c", text: "It is too short" },
               { id: "d", text: "It is too polite" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -810,11 +810,11 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Speaker A" },
-              { id: "b", text: "Speaker B" },
-              { id: "c", text: "Both equally" },
+              { id: "b", text: "Both equally" },
+              { id: "c", text: "Speaker B" },
               { id: "d", text: "Neither" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -917,12 +917,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "We must do X because they are wrong." },
-              { id: "b", text: "Different stakeholders may prioritise different outcomes, and the evidence suggests trade-offs exist." },
+              { id: "a", text: "Different stakeholders may prioritise different outcomes, and the evidence suggests trade-offs exist." },
+              { id: "b", text: "We must do X because they are wrong." },
               { id: "c", text: "Everyone agrees that X is the only answer." },
               { id: "d", text: "Only our country understands this issue." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -987,9 +987,9 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It is shorter" },
+              { id: "a", text: "It is more emotional" },
               { id: "b", text: "It avoids us-versus-them framing and acknowledges multiple perspectives" },
-              { id: "c", text: "It is more emotional" },
+              { id: "c", text: "It is shorter" },
               { id: "d", text: "It uses simpler words" },
             ],
             correctChoiceId: "b",

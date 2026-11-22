@@ -54,10 +54,10 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$13$ cm$^2$" },
+              { id: "a", text: "$26$ cm$^2$" },
               { id: "b", text: "$20$ cm$^2$" },
               { id: "c", text: "$40$ cm$^2$" },
-              { id: "d", text: "$26$ cm$^2$" },
+              { id: "d", text: "$13$ cm$^2$" },
             ],
             correctChoiceId: "b",
           },
@@ -193,10 +193,10 @@ export const lesson32: Lesson = {
             choices: [
               { id: "a", text: "$12$ cm$^3$" },
               { id: "b", text: "$47$ cm$^3$" },
-              { id: "c", text: "$60$ cm$^3$" },
-              { id: "d", text: "$94$ cm$^3$" },
+              { id: "c", text: "$94$ cm$^3$" },
+              { id: "d", text: "$60$ cm$^3$" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Volume of a cuboid", statement: "$V=lwh$" }],

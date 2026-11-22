@@ -60,8 +60,8 @@ For 5, 8, 11, 14, ...: $d=3$, $a_1=5$, so $a_n=5+(n-1)3=3n+2$.`,
             type: "mcq",
             choices: [
               { id: "a", text: "29" },
-              { id: "b", text: "30" },
-              { id: "c", text: "31" },
+              { id: "b", text: "31" },
+              { id: "c", text: "30" },
               { id: "d", text: "32" },
             ],
             correctChoiceId: "a",
@@ -158,12 +158,12 @@ For 5, 8, 11, 14, ...: $d=3$, $a_1=5$, so $a_n=5+(n-1)3=3n+2$.`,
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$4n+3$" },
-              { id: "b", text: "$4n+7$" },
+              { id: "a", text: "$4n-1$" },
+              { id: "b", text: "$4n+3$" },
               { id: "c", text: "$3n+4$" },
-              { id: "d", text: "$4n-1$" },
+              { id: "d", text: "$4n+7$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -185,12 +185,12 @@ For 5, 8, 11, 14, ...: $d=3$, $a_1=5$, so $a_n=5+(n-1)3=3n+2$.`,
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$76$" },
-              { id: "b", text: "$79$" },
-              { id: "c", text: "$80$" },
-              { id: "d", text: "$83$" },
+              { id: "a", text: "$80$" },
+              { id: "b", text: "$76$" },
+              { id: "c", text: "$83$" },
+              { id: "d", text: "$79$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -212,12 +212,12 @@ For 5, 8, 11, 14, ...: $d=3$, $a_1=5$, so $a_n=5+(n-1)3=3n+2$.`,
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$38$" },
-              { id: "b", text: "$40$" },
+              { id: "a", text: "$40$" },
+              { id: "b", text: "$38$" },
               { id: "c", text: "$42$" },
               { id: "d", text: "$36$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -239,9 +239,9 @@ For 5, 8, 11, 14, ...: $d=3$, $a_1=5$, so $a_n=5+(n-1)3=3n+2$.`,
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$5$" },
+              { id: "a", text: "$2$" },
               { id: "b", text: "$7$" },
-              { id: "c", text: "$2$" },
+              { id: "c", text: "$5$" },
               { id: "d", text: "$10$" },
             ],
             correctChoiceId: "b",
@@ -324,11 +324,11 @@ For 5, 8, 11, 14, ...: $d=3$, $a_1=5$, so $a_n=5+(n-1)3=3n+2$.`,
             type: "mcq",
             choices: [
               { id: "a", text: "2, 4, 6, 8, ..." },
-              { id: "b", text: "1, 4, 9, 16, ..." },
+              { id: "b", text: "1, 2, 4, 8, ..." },
               { id: "c", text: "5, 5, 5, 5, ..." },
-              { id: "d", text: "1, 2, 4, 8, ..." },
+              { id: "d", text: "1, 4, 9, 16, ..." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -351,9 +351,9 @@ For 5, 8, 11, 14, ...: $d=3$, $a_1=5$, so $a_n=5+(n-1)3=3n+2$.`,
             type: "mcq",
             choices: [
               { id: "a", text: "$3n+1$" },
-              { id: "b", text: "$3n+4$" },
-              { id: "c", text: "$4n+3$" },
-              { id: "d", text: "$7n-3$" },
+              { id: "b", text: "$7n-3$" },
+              { id: "c", text: "$3n+4$" },
+              { id: "d", text: "$4n+3$" },
             ],
             correctChoiceId: "a",
           },
@@ -467,12 +467,12 @@ For 5, 8, 11, 14, ...: $d=3$, $a_1=5$, so $a_n=5+(n-1)3=3n+2$.`,
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "2" },
+              { id: "a", text: "5" },
               { id: "b", text: "3" },
-              { id: "c", text: "4" },
-              { id: "d", text: "5" },
+              { id: "c", text: "2" },
+              { id: "d", text: "4" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -565,12 +565,12 @@ For 5, 8, 11, 14, ...: $d=3$, $a_1=5$, so $a_n=5+(n-1)3=3n+2$.`,
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$1$" },
-              { id: "b", text: "$2$" },
-              { id: "c", text: "$3$" },
-              { id: "d", text: "$4$" },
+              { id: "a", text: "$4$" },
+              { id: "b", text: "$1$" },
+              { id: "c", text: "$2$" },
+              { id: "d", text: "$3$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -592,12 +592,12 @@ For 5, 8, 11, 14, ...: $d=3$, $a_1=5$, so $a_n=5+(n-1)3=3n+2$.`,
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$n^2+2$" },
-              { id: "b", text: "$n^2+n$" },
+              { id: "a", text: "$n^2-2$" },
+              { id: "b", text: "$n^2+2$" },
               { id: "c", text: "$2n+1$" },
-              { id: "d", text: "$n^2-2$" },
+              { id: "d", text: "$n^2+n$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -619,12 +619,12 @@ For 5, 8, 11, 14, ...: $d=3$, $a_1=5$, so $a_n=5+(n-1)3=3n+2$.`,
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$2$" },
-              { id: "b", text: "$3$" },
-              { id: "c", text: "$6$" },
-              { id: "d", text: "$12$" },
+              { id: "a", text: "$6$" },
+              { id: "b", text: "$12$" },
+              { id: "c", text: "$2$" },
+              { id: "d", text: "$3$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -647,11 +647,11 @@ For 5, 8, 11, 14, ...: $d=3$, $a_1=5$, so $a_n=5+(n-1)3=3n+2$.`,
             type: "mcq",
             choices: [
               { id: "a", text: "$n^2$" },
-              { id: "b", text: "$n^2+1$" },
-              { id: "c", text: "$2n+1$" },
-              { id: "d", text: "$n^2-n+2$" },
+              { id: "b", text: "$n^2-n+2$" },
+              { id: "c", text: "$n^2+1$" },
+              { id: "d", text: "$2n+1$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -673,12 +673,12 @@ For 5, 8, 11, 14, ...: $d=3$, $a_1=5$, so $a_n=5+(n-1)3=3n+2$.`,
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "2, 4, 8, 14, 22" },
-              { id: "b", text: "2, 4, 6, 8, 10" },
+              { id: "a", text: "2, 4, 6, 8, 10" },
+              { id: "b", text: "1, 2, 3, 4, 5" },
               { id: "c", text: "3, 6, 11, 18, 27" },
-              { id: "d", text: "1, 2, 3, 4, 5" },
+              { id: "d", text: "2, 4, 8, 14, 22" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

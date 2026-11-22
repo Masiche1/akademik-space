@@ -49,12 +49,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\text{N}\\cdot\\text{m}$" },
-              { id: "b", text: "$\\text{N}\\cdot\\text{s}$" },
-              { id: "c", text: "$\\text{kg}\\cdot\\text{m/s}^2$" },
-              { id: "d", text: "$\\text{J/s}$" },
+              { id: "a", text: "$\\text{N}\\cdot\\text{s}$" },
+              { id: "b", text: "$\\text{kg}\\cdot\\text{m/s}^2$" },
+              { id: "c", text: "$\\text{J/s}$" },
+              { id: "d", text: "$\\text{N}\\cdot\\text{m}$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -182,12 +182,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Momentum and kinetic energy are both conserved." },
-              { id: "b", text: "Momentum is conserved but kinetic energy decreases." },
-              { id: "c", text: "Kinetic energy is conserved but momentum decreases." },
-              { id: "d", text: "Neither momentum nor kinetic energy is conserved." },
+              { id: "a", text: "Momentum is conserved but kinetic energy decreases." },
+              { id: "b", text: "Momentum and kinetic energy are both conserved." },
+              { id: "c", text: "Neither momentum nor kinetic energy is conserved." },
+              { id: "d", text: "Kinetic energy is conserved but momentum decreases." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

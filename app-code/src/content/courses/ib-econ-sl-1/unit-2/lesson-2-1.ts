@@ -55,11 +55,11 @@ export const lesson21: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "As price rises, quantity demanded rises" },
-              { id: "b", text: "As price rises, quantity demanded falls" },
-              { id: "c", text: "As price rises, demand shifts right" },
-              { id: "d", text: "As price rises, supply falls" },
+              { id: "b", text: "As price rises, supply falls" },
+              { id: "c", text: "As price rises, quantity demanded falls" },
+              { id: "d", text: "As price rises, demand shifts right" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -152,10 +152,10 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A change in consumer income" },
+              { id: "a", text: "A change in the population" },
               { id: "b", text: "A change in the good's own price" },
-              { id: "c", text: "A change in consumer tastes" },
-              { id: "d", text: "A change in the population" },
+              { id: "c", text: "A change in consumer income" },
+              { id: "d", text: "A change in consumer tastes" },
             ],
             correctChoiceId: "b",
           },
@@ -182,8 +182,8 @@ export const lesson21: Lesson = {
             choices: [
               { id: "a", text: "Shift to the left" },
               { id: "b", text: "Shift to the right" },
-              { id: "c", text: "Not change at all" },
-              { id: "d", text: "Become steeper" },
+              { id: "c", text: "Become steeper" },
+              { id: "d", text: "Not change at all" },
             ],
             correctChoiceId: "b",
           },
@@ -208,12 +208,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Quantity demanded has increased" },
-              { id: "b", text: "Quantity demanded has decreased" },
-              { id: "c", text: "Supply has increased" },
+              { id: "a", text: "Quantity demanded has decreased" },
+              { id: "b", text: "Supply has increased" },
+              { id: "c", text: "Quantity demanded has increased" },
               { id: "d", text: "Price has fallen" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -236,12 +236,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A rise in consumer income" },
-              { id: "b", text: "A change in the good's own price" },
+              { id: "a", text: "An increase in the population" },
+              { id: "b", text: "A rise in consumer income" },
               { id: "c", text: "A rise in the price of a substitute" },
-              { id: "d", text: "An increase in the population" },
+              { id: "d", text: "A change in the good's own price" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -264,12 +264,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Demand increases as consumers buy now" },
-              { id: "b", text: "Demand decreases as consumers delay purchases" },
+              { id: "a", text: "Demand decreases as consumers delay purchases" },
+              { id: "b", text: "Demand increases as consumers buy now" },
               { id: "c", text: "No effect on demand" },
               { id: "d", text: "Supply increases immediately" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -292,12 +292,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Shift to the right" },
-              { id: "b", text: "Shift to the left" },
+              { id: "a", text: "Slope downward more steeply" },
+              { id: "b", text: "Shift to the right" },
               { id: "c", text: "Stay unchanged" },
-              { id: "d", text: "Slope downward more steeply" },
+              { id: "d", text: "Shift to the left" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -496,12 +496,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Demand rises when income rises" },
-              { id: "b", text: "Demand falls when income rises" },
-              { id: "c", text: "Demand is unaffected by price" },
-              { id: "d", text: "Supply exceeds demand" },
+              { id: "a", text: "Demand falls when income rises" },
+              { id: "b", text: "Demand rises when income rises" },
+              { id: "c", text: "Supply exceeds demand" },
+              { id: "d", text: "Demand is unaffected by price" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -594,12 +594,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Demand falls when income rises" },
-              { id: "b", text: "Demand rises when income rises" },
-              { id: "c", text: "Demand is unaffected by income changes" },
-              { id: "d", text: "Price and quantity demanded move together" },
+              { id: "a", text: "Demand rises when income rises" },
+              { id: "b", text: "Demand falls when income rises" },
+              { id: "c", text: "Price and quantity demanded move together" },
+              { id: "d", text: "Demand is unaffected by income changes" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -623,11 +623,11 @@ export const lesson21: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Shift to the right" },
-              { id: "b", text: "Shift to the left" },
-              { id: "c", text: "Remain unchanged" },
-              { id: "d", text: "Become vertical" },
+              { id: "b", text: "Remain unchanged" },
+              { id: "c", text: "Become vertical" },
+              { id: "d", text: "Shift to the left" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -650,12 +650,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Complements" },
-              { id: "b", text: "Substitutes" },
-              { id: "c", text: "Inferior goods" },
-              { id: "d", text: "Unrelated products" },
+              { id: "a", text: "Substitutes" },
+              { id: "b", text: "Inferior goods" },
+              { id: "c", text: "Unrelated products" },
+              { id: "d", text: "Complements" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -678,12 +678,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Demand falls as consumers delay spending" },
-              { id: "b", text: "Demand rises as consumers bring purchases forward" },
-              { id: "c", text: "No effect until incomes actually rise" },
+              { id: "a", text: "Demand rises as consumers bring purchases forward" },
+              { id: "b", text: "No effect until incomes actually rise" },
+              { id: "c", text: "Demand falls as consumers delay spending" },
               { id: "d", text: "Supply shifts to the left" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -707,11 +707,11 @@ export const lesson21: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Shift to the left" },
-              { id: "b", text: "Shift to the right" },
-              { id: "c", text: "Remain unchanged" },
-              { id: "d", text: "Become steeper" },
+              { id: "b", text: "Remain unchanged" },
+              { id: "c", text: "Become steeper" },
+              { id: "d", text: "Shift to the right" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

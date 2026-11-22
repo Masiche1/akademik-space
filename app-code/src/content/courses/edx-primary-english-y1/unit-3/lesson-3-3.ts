@@ -67,8 +67,8 @@ export const lesson33: Lesson = {
             choices: [
               { id: "a", text: "The weather" },
               { id: "b", text: "The cat and what it's doing" },
-              { id: "c", text: "Your holiday" },
-              { id: "d", text: "School" },
+              { id: "c", text: "School" },
+              { id: "d", text: "Your holiday" },
             ],
             correctChoiceId: "b",
           },
@@ -255,12 +255,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Put your pen down immediately" },
-              { id: "b", text: "Read it back and check for mistakes" },
+              { id: "a", text: "Read it back and check for mistakes" },
+              { id: "b", text: "Put your pen down immediately" },
               { id: "c", text: "Write another one" },
               { id: "d", text: "Nothing" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

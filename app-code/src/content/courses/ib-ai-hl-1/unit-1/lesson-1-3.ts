@@ -77,12 +77,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$2$ and $5$" },
-              { id: "b", text: "$7$ and $10$" },
+              { id: "a", text: "$-2$ and $-5$" },
+              { id: "b", text: "$2$ and $5$" },
               { id: "c", text: "$0$ and $10$" },
-              { id: "d", text: "$-2$ and $-5$" },
+              { id: "d", text: "$7$ and $10$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -373,12 +373,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$3$ and $-2$" },
-              { id: "b", text: "$1$ and $-5$" },
-              { id: "c", text: "$5$ and $6$" },
-              { id: "d", text: "$-3$ and $2$" },
+              { id: "a", text: "$-3$ and $2$" },
+              { id: "b", text: "$5$ and $6$" },
+              { id: "c", text: "$1$ and $-5$" },
+              { id: "d", text: "$3$ and $-2$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -418,12 +418,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$1$ and $3$" },
-              { id: "b", text: "$2$ and $2$" },
+              { id: "a", text: "$2$ and $2$" },
+              { id: "b", text: "$4$ and $3$" },
               { id: "c", text: "$-1$ and $-3$" },
-              { id: "d", text: "$4$ and $3$" },
+              { id: "d", text: "$1$ and $3$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -460,12 +460,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\begin{pmatrix} 1 \\\\ 1 \\end{pmatrix}$" },
-              { id: "b", text: "$\\begin{pmatrix} 1 \\\\ -1 \\end{pmatrix}$" },
-              { id: "c", text: "$\\begin{pmatrix} 2 \\\\ 1 \\end{pmatrix}$" },
+              { id: "a", text: "$\\begin{pmatrix} 1 \\\\ -1 \\end{pmatrix}$" },
+              { id: "b", text: "$\\begin{pmatrix} 2 \\\\ 1 \\end{pmatrix}$" },
+              { id: "c", text: "$\\begin{pmatrix} 1 \\\\ 1 \\end{pmatrix}$" },
               { id: "d", text: "$\\begin{pmatrix} 1 \\\\ 0 \\end{pmatrix}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -649,12 +649,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\lambda^2-(a+d)\\lambda+(ad-bc)=0$" },
-              { id: "b", text: "$\\lambda^2+(a+d)\\lambda+(ad-bc)=0$" },
-              { id: "c", text: "$\\lambda^2-(a+d)\\lambda-(ad-bc)=0$" },
-              { id: "d", text: "$\\lambda^2-(ad-bc)\\lambda+(a+d)=0$" },
+              { id: "a", text: "$\\lambda^2+(a+d)\\lambda+(ad-bc)=0$" },
+              { id: "b", text: "$\\lambda^2-(a+d)\\lambda+(ad-bc)=0$" },
+              { id: "c", text: "$\\lambda^2-(ad-bc)\\lambda+(a+d)=0$" },
+              { id: "d", text: "$\\lambda^2-(a+d)\\lambda-(ad-bc)=0$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1018,10 +1018,10 @@ export const lesson13: Lesson = {
             choices: [
               { id: "a", text: "$P^5DP^{-5}$" },
               { id: "b", text: "$5PDP^{-1}$" },
-              { id: "c", text: "$PD^5P^{-1}$" },
-              { id: "d", text: "$P^{-1}D^5P$" },
+              { id: "c", text: "$P^{-1}D^5P$" },
+              { id: "d", text: "$PD^5P^{-1}$" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1304,22 +1304,22 @@ export const lesson13: Lesson = {
             choices: [
               {
                 id: "a",
-                text: "$\\begin{pmatrix} 16 & 0 \\\\ 0 & 81 \\end{pmatrix}$",
-              },
-              {
-                id: "b",
-                text: "$\\begin{pmatrix} 8 & 0 \\\\ 0 & 12 \\end{pmatrix}$",
-              },
-              {
-                id: "c",
                 text: "$\\begin{pmatrix} 6 & 0 \\\\ 0 & 9 \\end{pmatrix}$",
               },
               {
-                id: "d",
+                id: "b",
                 text: "$\\begin{pmatrix} 16 & 0 \\\\ 0 & 27 \\end{pmatrix}$",
               },
+              {
+                id: "c",
+                text: "$\\begin{pmatrix} 16 & 0 \\\\ 0 & 81 \\end{pmatrix}$",
+              },
+              {
+                id: "d",
+                text: "$\\begin{pmatrix} 8 & 0 \\\\ 0 & 12 \\end{pmatrix}$",
+              },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1361,12 +1361,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The eigenvectors of $A$" },
-              { id: "b", text: "The eigenvalues of $A$" },
-              { id: "c", text: "The inverse of $A$" },
+              { id: "a", text: "The eigenvalues of $A$" },
+              { id: "b", text: "The inverse of $A$" },
+              { id: "c", text: "The eigenvectors of $A$" },
               { id: "d", text: "The powers of $A$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -1407,11 +1407,11 @@ export const lesson13: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "The eigenvalue $0.8$, since it is smaller" },
-              { id: "b", text: "The eigenvalue $1$, since $|1|$ is largest" },
-              { id: "c", text: "Both eigenvalues equally" },
+              { id: "b", text: "Both eigenvalues equally" },
+              { id: "c", text: "The eigenvalue $1$, since $|1|$ is largest" },
               { id: "d", text: "Neither; $A^n$ tends to zero" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1593,14 +1593,14 @@ export const lesson13: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "It always tends to the zero matrix" },
-              { id: "b", text: "It grows without bound" },
               {
-                id: "c",
+                id: "b",
                 text: "It depends on the eigenvector decomposition of the initial vector",
               },
+              { id: "c", text: "It grows without bound" },
               { id: "d", text: "It oscillates between two fixed values" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1797,15 +1797,15 @@ export const lesson13: Lesson = {
               },
               {
                 id: "b",
-                text: "$\\begin{pmatrix} 25 & 0 \\\\ 0 & -9 \\end{pmatrix}$",
-              },
-              {
-                id: "c",
                 text: "$\\begin{pmatrix} 10 & 0 \\\\ 0 & -6 \\end{pmatrix}$",
               },
               {
-                id: "d",
+                id: "c",
                 text: "$\\begin{pmatrix} 5 & 0 \\\\ 0 & 3 \\end{pmatrix}$",
+              },
+              {
+                id: "d",
+                text: "$\\begin{pmatrix} 25 & 0 \\\\ 0 & -9 \\end{pmatrix}$",
               },
             ],
             correctChoiceId: "a",

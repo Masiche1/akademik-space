@@ -84,9 +84,9 @@ export const lesson53: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$10\\sqrt2$ N south-west" },
-              { id: "b", text: "$20$ N west" },
-              { id: "c", text: "$10$ N south" },
-              { id: "d", text: "$0$ N" },
+              { id: "b", text: "$10$ N south" },
+              { id: "c", text: "$0$ N" },
+              { id: "d", text: "$20$ N west" },
             ],
             correctChoiceId: "a",
           },
@@ -362,12 +362,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$10$ N m" },
-              { id: "b", text: "$40$ N m" },
+              { id: "a", text: "$40$ N m" },
+              { id: "b", text: "$10$ N m" },
               { id: "c", text: "$0.025$ N m" },
               { id: "d", text: "$10.5$ N m" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [

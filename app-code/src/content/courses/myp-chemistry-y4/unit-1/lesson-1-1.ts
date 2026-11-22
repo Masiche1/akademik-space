@@ -57,12 +57,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Gas" },
+              { id: "a", text: "All states equally" },
               { id: "b", text: "Solid" },
-              { id: "c", text: "Liquid" },
-              { id: "d", text: "All states equally" },
+              { id: "c", text: "Gas" },
+              { id: "d", text: "Liquid" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -84,12 +84,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "They gain enough energy to escape as gas" },
-              { id: "b", text: "They slow down" },
-              { id: "c", text: "They form a solid" },
-              { id: "d", text: "Nothing changes" },
+              { id: "a", text: "They form a solid" },
+              { id: "b", text: "They gain enough energy to escape as gas" },
+              { id: "c", text: "Nothing changes" },
+              { id: "d", text: "They slow down" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -112,12 +112,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Gas particles have more energy and move faster through large empty spaces" },
+              { id: "a", text: "Gas particles are larger" },
               { id: "b", text: "Gases are heavier" },
-              { id: "c", text: "Liquids cannot diffuse" },
-              { id: "d", text: "Gas particles are larger" },
+              { id: "c", text: "Gas particles have more energy and move faster through large empty spaces" },
+              { id: "d", text: "Liquids cannot diffuse" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -172,12 +172,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Lose energy and move closer together to form a liquid" },
-              { id: "b", text: "Gain energy and move further apart" },
+              { id: "a", text: "Gain energy and move further apart" },
+              { id: "b", text: "Become ions" },
               { id: "c", text: "Are destroyed and reform as new particles" },
-              { id: "d", text: "Become ions" },
+              { id: "d", text: "Lose energy and move closer together to form a liquid" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -199,12 +199,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Particles vibrate about fixed positions in a regular arrangement" },
+              { id: "a", text: "Particles move freely in all directions" },
               { id: "b", text: "Particles slide past each other freely" },
-              { id: "c", text: "Particles move freely in all directions" },
-              { id: "d", text: "Particles do not move at all" },
+              { id: "c", text: "Particles do not move at all" },
+              { id: "d", text: "Particles vibrate about fixed positions in a regular arrangement" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -274,12 +274,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Gas particles have more energy and move through large empty spaces" },
+              { id: "a", text: "Gases are always warmer substances" },
               { id: "b", text: "Gas particles are larger" },
-              { id: "c", text: "Liquid particles cannot move at all" },
-              { id: "d", text: "Gases are always warmer substances" },
+              { id: "c", text: "Gas particles have more energy and move through large empty spaces" },
+              { id: "d", text: "Liquid particles cannot move at all" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -327,12 +327,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Liquid particles can slide past each other, while solid particles are fixed in place" },
-              { id: "b", text: "Liquid particles are larger" },
-              { id: "c", text: "Solid particles attract the container" },
+              { id: "a", text: "Liquid particles are larger" },
+              { id: "b", text: "Solid particles attract the container" },
+              { id: "c", text: "Liquid particles can slide past each other, while solid particles are fixed in place" },
               { id: "d", text: "Liquids have no particles" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -380,12 +380,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "1" },
-              { id: "b", text: "2" },
-              { id: "c", text: "3" },
-              { id: "d", text: "4" },
+              { id: "a", text: "4" },
+              { id: "b", text: "3" },
+              { id: "c", text: "1" },
+              { id: "d", text: "2" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -522,12 +522,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Water (H₂O)" },
-              { id: "b", text: "Air" },
-              { id: "c", text: "Salt solution" },
-              { id: "d", text: "Iron filings" },
+              { id: "a", text: "Iron filings" },
+              { id: "b", text: "Water (H₂O)" },
+              { id: "c", text: "Air" },
+              { id: "d", text: "Salt solution" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -549,12 +549,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Filter to remove sand, then evaporate water to get salt" },
-              { id: "b", text: "Distillation only" },
-              { id: "c", text: "Magnetic separation" },
-              { id: "d", text: "Cannot be separated" },
+              { id: "a", text: "Magnetic separation" },
+              { id: "b", text: "Cannot be separated" },
+              { id: "c", text: "Distillation only" },
+              { id: "d", text: "Filter to remove sand, then evaporate water to get salt" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -577,12 +577,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Compound: chemically bonded, fixed ratio, new properties; mixture: physically combined, variable ratio, retains properties" },
-              { id: "b", text: "They are the same" },
-              { id: "c", text: "Mixtures are always pure" },
-              { id: "d", text: "Compounds cannot be separated" },
+              { id: "a", text: "Compounds cannot be separated" },
+              { id: "b", text: "Compound: chemically bonded, fixed ratio, new properties; mixture: physically combined, variable ratio, retains properties" },
+              { id: "c", text: "They are the same" },
+              { id: "d", text: "Mixtures are always pure" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -637,12 +637,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Oxygen (O₂)" },
-              { id: "b", text: "Water (H₂O)" },
-              { id: "c", text: "Salt solution" },
-              { id: "d", text: "Air" },
+              { id: "a", text: "Salt solution" },
+              { id: "b", text: "Air" },
+              { id: "c", text: "Oxygen (O₂)" },
+              { id: "d", text: "Water (H₂O)" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -664,12 +664,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Magnetic separation" },
-              { id: "b", text: "Distillation" },
-              { id: "c", text: "Filtration" },
-              { id: "d", text: "Chromatography" },
+              { id: "a", text: "Chromatography" },
+              { id: "b", text: "Magnetic separation" },
+              { id: "c", text: "Distillation" },
+              { id: "d", text: "Filtration" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -739,12 +739,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Distillation" },
-              { id: "b", text: "Filtration" },
-              { id: "c", text: "Magnetic separation" },
-              { id: "d", text: "Evaporation only" },
+              { id: "a", text: "Filtration" },
+              { id: "b", text: "Distillation" },
+              { id: "c", text: "Evaporation only" },
+              { id: "d", text: "Magnetic separation" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -793,9 +793,9 @@ export const lesson11: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Mixture components are not chemically bonded, while compound components are chemically bonded in fixed proportions" },
-              { id: "b", text: "Mixtures are always liquids" },
-              { id: "c", text: "Compounds are always pure elements" },
-              { id: "d", text: "Mixtures contain only one substance" },
+              { id: "b", text: "Compounds are always pure elements" },
+              { id: "c", text: "Mixtures contain only one substance" },
+              { id: "d", text: "Mixtures are always liquids" },
             ],
             correctChoiceId: "a",
           },
@@ -895,10 +895,10 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "2" },
+              { id: "a", text: "7" },
               { id: "b", text: "3" },
-              { id: "c", text: "4" },
-              { id: "d", text: "7" },
+              { id: "c", text: "2" },
+              { id: "d", text: "4" },
             ],
             correctChoiceId: "b",
           },

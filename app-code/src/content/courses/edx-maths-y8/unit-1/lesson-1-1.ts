@@ -50,9 +50,9 @@ export const lesson11: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$-10$" },
-              { id: "b", text: "$-4$" },
+              { id: "b", text: "$10$" },
               { id: "c", text: "$4$" },
-              { id: "d", text: "$10$" },
+              { id: "d", text: "$-4$" },
             ],
             correctChoiceId: "c",
           },
@@ -188,12 +188,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$2^2\\times3^2$" },
+              { id: "a", text: "$2^3\\times3$" },
               { id: "b", text: "$4\\times9$" },
-              { id: "c", text: "$2^3\\times3$" },
-              { id: "d", text: "$2\\times3^3$" },
+              { id: "c", text: "$2\\times3^3$" },
+              { id: "d", text: "$2^2\\times3^2$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

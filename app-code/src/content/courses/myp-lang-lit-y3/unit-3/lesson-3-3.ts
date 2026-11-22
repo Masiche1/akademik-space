@@ -55,12 +55,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The first sentence" },
-              { id: "b", text: "The ending that tells the audience what to do" },
-              { id: "c", text: "A type of question" },
-              { id: "d", text: "The speech title" },
+              { id: "a", text: "The speech title" },
+              { id: "b", text: "The first sentence" },
+              { id: "c", text: "The ending that tells the audience what to do" },
+              { id: "d", text: "A type of question" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -146,12 +146,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The ending" },
-              { id: "b", text: "The opening that grabs the audience's attention" },
-              { id: "c", text: "A type of question" },
-              { id: "d", text: "The main argument" },
+              { id: "a", text: "A type of question" },
+              { id: "b", text: "The main argument" },
+              { id: "c", text: "The opening that grabs the audience's attention" },
+              { id: "d", text: "The ending" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -171,12 +171,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A question expecting a factual answer" },
-              { id: "b", text: "A question asked for effect, not to be answered" },
-              { id: "c", text: "A question in a textbook" },
-              { id: "d", text: "A question with no answer" },
+              { id: "a", text: "A question with no answer" },
+              { id: "b", text: "A question in a textbook" },
+              { id: "c", text: "A question expecting a factual answer" },
+              { id: "d", text: "A question asked for effect, not to be answered" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -203,8 +203,8 @@ export const lesson33: Lesson = {
             choices: [
               { id: "a", text: "A rhetorical question" },
               { id: "b", text: "A triad — a three-part list" },
-              { id: "c", text: "A metaphor" },
-              { id: "d", text: "An idiom" },
+              { id: "c", text: "An idiom" },
+              { id: "d", text: "A metaphor" },
             ],
             correctChoiceId: "b",
           },
@@ -226,12 +226,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "'Good morning everyone, my name is...'" },
-              { id: "b", text: "'What if I told you the playground you play on every day could be gone by September?'" },
-              { id: "c", text: "'Today I will discuss parking.'" },
-              { id: "d", text: "'Thank you for having me.'" },
+              { id: "a", text: "'What if I told you the playground you play on every day could be gone by September?'" },
+              { id: "b", text: "'Good morning everyone, my name is...'" },
+              { id: "c", text: "'Thank you for having me.'" },
+              { id: "d", text: "'Today I will discuss parking.'" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -326,12 +326,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Speaking only to the front row" },
-              { id: "b", text: "Using 'you', 'we', 'my friends' to speak directly to the audience" },
-              { id: "c", text: "Reading from a script" },
-              { id: "d", text: "Using long sentences" },
+              { id: "a", text: "Using long sentences" },
+              { id: "b", text: "Reading from a script" },
+              { id: "c", text: "Using 'you', 'we', 'my friends' to speak directly to the audience" },
+              { id: "d", text: "Speaking only to the front row" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -384,11 +384,11 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Because repetition is easier" },
-              { id: "b", text: "Because listeners can't re-read — repetition aids memory and builds momentum" },
-              { id: "c", text: "Because speeches are always shorter" },
-              { id: "d", text: "There's no difference" },
+              { id: "b", text: "There's no difference" },
+              { id: "c", text: "Because listeners can't re-read — repetition aids memory and builds momentum" },
+              { id: "d", text: "Because speeches are always shorter" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -408,12 +408,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Speeches are read; essays are spoken" },
-              { id: "b", text: "Speeches are heard — they need repetition, direct address and shorter sentences; essays can be scanned" },
+              { id: "a", text: "Essays are always shorter" },
+              { id: "b", text: "Speeches are read; essays are spoken" },
               { id: "c", text: "There is no difference" },
-              { id: "d", text: "Essays are always shorter" },
+              { id: "d", text: "Speeches are heard — they need repetition, direct address and shorter sentences; essays can be scanned" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -494,11 +494,11 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "It's faster" },
-              { id: "b", text: "You catch awkward phrasing and timing issues that silent reading misses" },
+              { id: "b", text: "It makes the speech shorter" },
               { id: "c", text: "It uses less paper" },
-              { id: "d", text: "It makes the speech shorter" },
+              { id: "d", text: "You catch awkward phrasing and timing issues that silent reading misses" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -584,11 +584,11 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "It's faster than silent reading" },
-              { id: "b", text: "You catch awkward phrasing, timing and rhythm issues silent reading misses" },
+              { id: "b", text: "It makes the speech shorter" },
               { id: "c", text: "It uses less paper" },
-              { id: "d", text: "It makes the speech shorter" },
+              { id: "d", text: "You catch awkward phrasing, timing and rhythm issues silent reading misses" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -608,12 +608,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Notes are easier to carry" },
-              { id: "b", text: "Notes let you make eye contact and speak naturally instead of reading" },
-              { id: "c", text: "Scripts are not allowed" },
-              { id: "d", text: "Notes make the speech shorter" },
+              { id: "a", text: "Scripts are not allowed" },
+              { id: "b", text: "Notes make the speech shorter" },
+              { id: "c", text: "Notes are easier to carry" },
+              { id: "d", text: "Notes let you make eye contact and speak naturally instead of reading" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -638,10 +638,10 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Reading the script faster" },
+              { id: "a", text: "Making the speech longer" },
               { id: "b", text: "Pausing to compose herself before speaking" },
-              { id: "c", text: "Making the speech longer" },
-              { id: "d", text: "Avoiding the audience" },
+              { id: "c", text: "Avoiding the audience" },
+              { id: "d", text: "Reading the script faster" },
             ],
             correctChoiceId: "b",
           },
@@ -664,11 +664,11 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Memorise every word and read from a full script" },
-              { id: "b", text: "Practise aloud several times and breathe deeply before starting" },
-              { id: "c", text: "Skip practice and improvise entirely" },
-              { id: "d", text: "Avoid eye contact with everyone" },
+              { id: "b", text: "Skip practice and improvise entirely" },
+              { id: "c", text: "Avoid eye contact with everyone" },
+              { id: "d", text: "Practise aloud several times and breathe deeply before starting" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -762,12 +762,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Avoid practicing" },
-              { id: "b", text: "Practice thoroughly and remember the audience wants you to succeed" },
+              { id: "a", text: "Ignore the audience" },
+              { id: "b", text: "Avoid practicing" },
               { id: "c", text: "Read the speech as fast as possible" },
-              { id: "d", text: "Ignore the audience" },
+              { id: "d", text: "Practice thoroughly and remember the audience wants you to succeed" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -820,11 +820,11 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "It makes the speech shorter" },
-              { id: "b", text: "It connects you with the audience and shows confidence" },
+              { id: "b", text: "It helps you read faster" },
               { id: "c", text: "It's required by law" },
-              { id: "d", text: "It helps you read faster" },
+              { id: "d", text: "It connects you with the audience and shows confidence" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

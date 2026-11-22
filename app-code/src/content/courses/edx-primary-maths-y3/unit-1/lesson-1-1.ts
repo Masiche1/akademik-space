@@ -74,10 +74,10 @@ export const lesson11: Lesson = {
             choices: [
               { id: "a", text: "8" },
               { id: "b", text: "80" },
-              { id: "c", text: "800" },
-              { id: "d", text: "8000" },
+              { id: "c", text: "8000" },
+              { id: "d", text: "800" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -312,12 +312,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "1000" },
+              { id: "a", text: "990" },
               { id: "b", text: "1001" },
-              { id: "c", text: "990" },
+              { id: "c", text: "1000" },
               { id: "d", text: "1999" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

@@ -89,12 +89,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "2,8" },
-              { id: "b", text: "2,8,7" },
-              { id: "c", text: "2,8,8" },
-              { id: "d", text: "2,8,9" },
+              { id: "a", text: "2,8,8" },
+              { id: "b", text: "2,8,9" },
+              { id: "c", text: "2,8" },
+              { id: "d", text: "2,8,7" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -240,16 +240,16 @@ export const lesson11: Lesson = {
             choices: [
               {
                 id: "a",
-                text: "Atoms of the same element with the same number of protons but different numbers of neutrons",
-              },
-              {
-                id: "b",
                 text: "Atoms of the same element with different numbers of protons",
               },
-              { id: "c", text: "Ions formed from the same neutral atom" },
-              { id: "d", text: "Atoms with different numbers of electrons" },
+              { id: "b", text: "Atoms with different numbers of electrons" },
+              {
+                id: "c",
+                text: "Atoms of the same element with the same number of protons but different numbers of neutrons",
+              },
+              { id: "d", text: "Ions formed from the same neutral atom" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -383,12 +383,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "CH₄" },
-              { id: "b", text: "CO₂" },
-              { id: "c", text: "H₂O" },
-              { id: "d", text: "CCl₄" },
+              { id: "a", text: "H₂O" },
+              { id: "b", text: "CH₄" },
+              { id: "c", text: "CCl₄" },
+              { id: "d", text: "CO₂" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [

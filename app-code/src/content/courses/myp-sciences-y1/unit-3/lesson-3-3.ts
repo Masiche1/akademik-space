@@ -61,12 +61,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The Earth orbiting the Sun once a year" },
-              { id: "b", text: "The Earth rotating on its axis once every 24 hours" },
-              { id: "c", text: "The Sun moving around the Earth" },
-              { id: "d", text: "The Moon blocking light from the Sun" },
+              { id: "a", text: "The Sun moving around the Earth" },
+              { id: "b", text: "The Moon blocking light from the Sun" },
+              { id: "c", text: "The Earth orbiting the Sun once a year" },
+              { id: "d", text: "The Earth rotating on its axis once every 24 hours" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -163,12 +163,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The time for the Earth to spin once on its axis" },
-              { id: "b", text: "The time for the Earth to orbit the Sun once" },
+              { id: "a", text: "The time for the Earth to orbit the Sun once" },
+              { id: "b", text: "The time for the Sun to move across the sky once" },
               { id: "c", text: "The time for the Moon to orbit the Earth once" },
-              { id: "d", text: "The time for the Sun to move across the sky once" },
+              { id: "d", text: "The time for the Earth to spin once on its axis" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -190,12 +190,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Venus" },
-              { id: "b", text: "Earth" },
-              { id: "c", text: "Mercury" },
-              { id: "d", text: "Mars" },
+              { id: "a", text: "Mercury" },
+              { id: "b", text: "Mars" },
+              { id: "c", text: "Venus" },
+              { id: "d", text: "Earth" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -217,12 +217,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "They are all closer to the Sun" },
-              { id: "b", text: "They are all smaller than Earth" },
-              { id: "c", text: "They are the four outer planets and are much larger" },
+              { id: "a", text: "They are the four outer planets and are much larger" },
+              { id: "b", text: "They are all closer to the Sun" },
+              { id: "c", text: "They are all smaller than Earth" },
               { id: "d", text: "They have no moons" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -263,12 +263,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The Earth being closer to the Sun in summer" },
-              { id: "b", text: "The tilt of the Earth's axis at about $23.5^\\circ$" },
-              { id: "c", text: "The Moon blocking more sunlight in winter" },
-              { id: "d", text: "The Earth spinning faster in summer" },
+              { id: "a", text: "The Moon blocking more sunlight in winter" },
+              { id: "b", text: "The Earth spinning faster in summer" },
+              { id: "c", text: "The Earth being closer to the Sun in summer" },
+              { id: "d", text: "The tilt of the Earth's axis at about $23.5^\\circ$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -491,12 +491,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The Earth is between the Sun and the Moon" },
-              { id: "b", text: "The Sun is between the Earth and the Moon" },
-              { id: "c", text: "The Moon is between the Sun and the Earth" },
-              { id: "d", text: "A planet is between the Sun and the Earth" },
+              { id: "a", text: "A planet is between the Sun and the Earth" },
+              { id: "b", text: "The Moon is between the Sun and the Earth" },
+              { id: "c", text: "The Sun is between the Earth and the Moon" },
+              { id: "d", text: "The Earth is between the Sun and the Moon" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -593,12 +593,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The Moon makes its own light like a star" },
-              { id: "b", text: "The Moon reflects light from the Sun" },
+              { id: "a", text: "The Earth's shadow lighting the Moon" },
+              { id: "b", text: "The Moon makes its own light like a star" },
               { id: "c", text: "Light from cities on Earth" },
-              { id: "d", text: "The Earth's shadow lighting the Moon" },
+              { id: "d", text: "The Moon reflects light from the Sun" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -620,12 +620,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The Moon is between the Sun and the Earth" },
-              { id: "b", text: "The Earth is between the Sun and the Moon" },
+              { id: "a", text: "The Earth is between the Sun and the Moon" },
+              { id: "b", text: "The Moon is between the Sun and the Earth" },
               { id: "c", text: "The Sun is between the Earth and the Moon" },
               { id: "d", text: "The Moon is between the Earth and the Sun" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -685,12 +685,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The Moon has rockets keeping it in place" },
-              { id: "b", text: "The Earth's gravity pulls the Moon inwards while it keeps moving forwards" },
-              { id: "c", text: "The Moon is held by a rope of magnetic force" },
+              { id: "a", text: "The Moon is held by a rope of magnetic force" },
+              { id: "b", text: "The Moon has rockets keeping it in place" },
+              { id: "c", text: "The Earth's gravity pulls the Moon inwards while it keeps moving forwards" },
               { id: "d", text: "The Moon is not moving at all" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -712,12 +712,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Mass stays the same and weight stays the same" },
-              { id: "b", text: "Mass stays the same but weight decreases because gravity is weaker" },
-              { id: "c", text: "Mass decreases and weight decreases" },
-              { id: "d", text: "Mass increases because the astronaut is floating" },
+              { id: "a", text: "Mass decreases and weight decreases" },
+              { id: "b", text: "Mass stays the same and weight stays the same" },
+              { id: "c", text: "Mass increases because the astronaut is floating" },
+              { id: "d", text: "Mass stays the same but weight decreases because gravity is weaker" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

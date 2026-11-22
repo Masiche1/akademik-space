@@ -55,12 +55,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The play's plot summary" },
-              { id: "b", text: "The unifying interpretation guiding all production choices" },
-              { id: "c", text: "The costume design" },
-              { id: "d", text: "The actor's biography" },
+              { id: "a", text: "The unifying interpretation guiding all production choices" },
+              { id: "b", text: "The play's plot summary" },
+              { id: "c", text: "The actor's biography" },
+              { id: "d", text: "The costume design" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -158,8 +158,8 @@ export const lesson51: Lesson = {
             choices: [
               { id: "a", text: "The fixed facts of the play that the director must respect" },
               { id: "b", text: "The director's personal opinions about the play" },
-              { id: "c", text: "The costumes chosen by the designer" },
-              { id: "d", text: "The audience's expectations" },
+              { id: "c", text: "The audience's expectations" },
+              { id: "d", text: "The costumes chosen by the designer" },
             ],
             correctChoiceId: "a",
           },
@@ -185,12 +185,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Summarise the plot for the audience" },
-              { id: "b", text: "Guide every production choice toward a unifying interpretation" },
-              { id: "c", text: "Decide only the costume design" },
-              { id: "d", text: "Replace the playwright's text" },
+              { id: "a", text: "Replace the playwright's text" },
+              { id: "b", text: "Summarise the plot for the audience" },
+              { id: "c", text: "Guide every production choice toward a unifying interpretation" },
+              { id: "d", text: "Decide only the costume design" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -214,12 +214,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Realistic stylisation" },
-              { id: "b", text: "Metatheatrical or abstract stylisation" },
-              { id: "c", text: "Naturalistic acting" },
+              { id: "a", text: "Metatheatrical or abstract stylisation" },
+              { id: "b", text: "Naturalistic acting" },
+              { id: "c", text: "Realistic stylisation" },
               { id: "d", text: "Method acting" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -243,12 +243,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Bright, open lighting suggesting freedom" },
+              { id: "a", text: "Minimal set suggesting nothing" },
               { id: "b", text: "Light, pastel costumes suggesting innocence" },
-              { id: "c", text: "Dark, heavy, oppressive set and lighting suggesting control" },
-              { id: "d", text: "Minimal set suggesting nothing" },
+              { id: "c", text: "Bright, open lighting suggesting freedom" },
+              { id: "d", text: "Dark, heavy, oppressive set and lighting suggesting control" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -273,11 +273,11 @@ export const lesson51: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "A strong vision serving the play" },
-              { id: "b", text: "A choice serving the director's ego rather than the play" },
-              { id: "c", text: "A necessary modernisation" },
+              { id: "b", text: "A necessary modernisation" },
+              { id: "c", text: "A choice serving the director's ego rather than the play" },
               { id: "d", text: "A technique for engaging young audiences" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -301,12 +301,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The literal meaning of the words spoken" },
-              { id: "b", text: "The meaning beneath the spoken words" },
-              { id: "c", text: "The stage directions in the script" },
-              { id: "d", text: "The title of the play" },
+              { id: "a", text: "The stage directions in the script" },
+              { id: "b", text: "The title of the play" },
+              { id: "c", text: "The meaning beneath the spoken words" },
+              { id: "d", text: "The literal meaning of the words spoken" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -330,12 +330,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Let each member guess the vision independently" },
-              { id: "b", text: "Clearly and specifically explain the unifying concept and goals" },
-              { id: "c", text: "Keep the vision secret until opening night" },
-              { id: "d", text: "Delegate all interpretation to the designers" },
+              { id: "a", text: "Delegate all interpretation to the designers" },
+              { id: "b", text: "Keep the vision secret until opening night" },
+              { id: "c", text: "Clearly and specifically explain the unifying concept and goals" },
+              { id: "d", text: "Let each member guess the vision independently" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -498,12 +498,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Uses realistic sets" },
-              { id: "b", text: "Acknowledges its own theatricality — breaking the fourth wall" },
-              { id: "c", text: "Has no actors" },
-              { id: "d", text: "Is performed outdoors" },
+              { id: "a", text: "Acknowledges its own theatricality — breaking the fourth wall" },
+              { id: "b", text: "Is performed outdoors" },
+              { id: "c", text: "Uses realistic sets" },
+              { id: "d", text: "Has no actors" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -599,12 +599,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Convince the audience they are watching real life" },
-              { id: "b", text: "Comment on the play's construction" },
+              { id: "a", text: "Comment on the play's construction" },
+              { id: "b", text: "Convince the audience they are watching real life" },
               { id: "c", text: "Use only abstract movement" },
               { id: "d", text: "Avoid any set design" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -628,12 +628,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A production with no style at all" },
-              { id: "b", text: "A mix of realistic elements and deliberate distortion" },
+              { id: "a", text: "A production performed without a script" },
+              { id: "b", text: "A production with no style at all" },
               { id: "c", text: "Only costumes are stylised" },
-              { id: "d", text: "A production performed without a script" },
+              { id: "d", text: "A mix of realistic elements and deliberate distortion" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -657,12 +657,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Prove it is the most expensive option" },
-              { id: "b", text: "Show that it is the most surprising option" },
-              { id: "c", text: "Articulate reasoning linking the choice to the play's themes" },
+              { id: "a", text: "Show that it is the most surprising option" },
+              { id: "b", text: "Articulate reasoning linking the choice to the play's themes" },
+              { id: "c", text: "Prove it is the most expensive option" },
               { id: "d", text: "Ensure everyone on the team agrees" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -687,11 +687,11 @@ export const lesson51: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "It makes the production stand out from others" },
-              { id: "b", text: "It reveals the play's complexity rather than imposing the director's agenda" },
-              { id: "c", text: "It gives actors more to do" },
+              { id: "b", text: "It gives actors more to do" },
+              { id: "c", text: "It reveals the play's complexity rather than imposing the director's agenda" },
               { id: "d", text: "It is easier to stage than a conventional production" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -715,9 +715,9 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The number of rehearsals" },
+              { id: "a", text: "The size of the theatre" },
               { id: "b", text: "The degree of realism or abstraction in performance and design" },
-              { id: "c", text: "The size of the theatre" },
+              { id: "c", text: "The number of rehearsals" },
               { id: "d", text: "The actor's training method" },
             ],
             correctChoiceId: "b",
@@ -745,11 +745,11 @@ export const lesson51: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Realism" },
-              { id: "b", text: "Naturalism" },
-              { id: "c", text: "Metatheatrical or abstract stylisation" },
-              { id: "d", text: "Illusionism" },
+              { id: "b", text: "Metatheatrical or abstract stylisation" },
+              { id: "c", text: "Illusionism" },
+              { id: "d", text: "Naturalism" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -774,11 +774,11 @@ export const lesson51: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "The budget against the ticket price" },
-              { id: "b", text: "The risk against the reward — whether the choice serves the play" },
+              { id: "b", text: "The number of seats in the theatre" },
               { id: "c", text: "The critics' likely opinions" },
-              { id: "d", text: "The number of seats in the theatre" },
+              { id: "d", text: "The risk against the reward — whether the choice serves the play" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

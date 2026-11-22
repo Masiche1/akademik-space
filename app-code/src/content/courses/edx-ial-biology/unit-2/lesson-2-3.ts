@@ -50,11 +50,11 @@ export const lesson23: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Phloem" },
-              { id: "b", text: "Xylem" },
-              { id: "c", text: "Cortex" },
+              { id: "b", text: "Cortex" },
+              { id: "c", text: "Xylem" },
               { id: "d", text: "Epidermis" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Xylem", statement: "Transports water and minerals upward." }],
@@ -162,12 +162,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Left ventricle" },
-              { id: "b", text: "Right ventricle" },
-              { id: "c", text: "Left atrium" },
+              { id: "a", text: "Left atrium" },
+              { id: "b", text: "Left ventricle" },
+              { id: "c", text: "Right ventricle" },
               { id: "d", text: "Right atrium" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Heart", statement: "RV → pulmonary artery → lungs." }],

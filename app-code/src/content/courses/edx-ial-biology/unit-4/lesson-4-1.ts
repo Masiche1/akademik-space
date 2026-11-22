@@ -50,11 +50,11 @@ export const lesson41: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "A protein" },
-              { id: "b", text: "Energy currency molecule" },
-              { id: "c", text: "A carbohydrate" },
-              { id: "d", text: "A lipid" },
+              { id: "b", text: "A carbohydrate" },
+              { id: "c", text: "A lipid" },
+              { id: "d", text: "Energy currency molecule" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "ATP", statement: "Universal energy currency." }],
@@ -162,12 +162,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Glucagon" },
-              { id: "b", text: "Insulin" },
-              { id: "c", text: "Adrenaline" },
-              { id: "d", text: "Thyroxine" },
+              { id: "a", text: "Adrenaline" },
+              { id: "b", text: "Thyroxine" },
+              { id: "c", text: "Insulin" },
+              { id: "d", text: "Glucagon" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Insulin", statement: "Lowers blood glucose." }],

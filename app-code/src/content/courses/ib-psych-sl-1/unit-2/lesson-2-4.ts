@@ -54,12 +54,12 @@ export const lesson24: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Cognitive development" },
-              { id: "b", text: "Attachment styles in infants" },
+              { id: "a", text: "Attachment styles in infants" },
+              { id: "b", text: "Memory capacity" },
               { id: "c", text: "Language acquisition" },
-              { id: "d", text: "Memory capacity" },
+              { id: "d", text: "Cognitive development" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -153,12 +153,12 @@ export const lesson24: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Ignores the caregiver completely on reunion" },
-              { id: "b", text: "Shows intense distress that cannot be soothed" },
-              { id: "c", text: "Is distressed by separation and easily comforted on reunion" },
-              { id: "d", text: "Shows no reaction to either separation or reunion" },
+              { id: "a", text: "Shows intense distress that cannot be soothed" },
+              { id: "b", text: "Ignores the caregiver completely on reunion" },
+              { id: "c", text: "Shows no reaction to either separation or reunion" },
+              { id: "d", text: "Is distressed by separation and easily comforted on reunion" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -181,12 +181,12 @@ export const lesson24: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Clings to the caregiver and cannot be comforted" },
-              { id: "b", text: "Shows little distress and avoids or ignores the caregiver on reunion" },
-              { id: "c", text: "Seeks comfort and explores confidently" },
-              { id: "d", text: "Displays disorganised, frozen behaviour" },
+              { id: "a", text: "Seeks comfort and explores confidently" },
+              { id: "b", text: "Displays disorganised, frozen behaviour" },
+              { id: "c", text: "Clings to the caregiver and cannot be comforted" },
+              { id: "d", text: "Shows little distress and avoids or ignores the caregiver on reunion" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -209,12 +209,12 @@ export const lesson24: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The time needed to complete the strange situation" },
-              { id: "b", text: "The roughly first year of life when attachment most readily forms" },
-              { id: "c", text: "The period of adolescence when identity forms" },
+              { id: "a", text: "The roughly first year of life when attachment most readily forms" },
+              { id: "b", text: "The period of adolescence when identity forms" },
+              { id: "c", text: "The time needed to complete the strange situation" },
               { id: "d", text: "The window for learning language" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -237,12 +237,12 @@ export const lesson24: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "That attachment is learned through reinforcement" },
-              { id: "b", text: "That attachment depends primarily on food provision" },
+              { id: "a", text: "That attachment styles vary across cultures" },
+              { id: "b", text: "That attachment is learned through reinforcement" },
               { id: "c", text: "That infants form attachments to multiple caregivers" },
-              { id: "d", text: "That attachment styles vary across cultures" },
+              { id: "d", text: "That attachment depends primarily on food provision" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -266,11 +266,11 @@ export const lesson24: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "A laboratory procedure for measuring attachment" },
-              { id: "b", text: "A mental template of relationships formed in infancy that guides later expectations" },
-              { id: "c", text: "The genetic programme for attachment behaviour" },
+              { id: "b", text: "The genetic programme for attachment behaviour" },
+              { id: "c", text: "A mental template of relationships formed in infancy that guides later expectations" },
               { id: "d", text: "A list of caregiving techniques" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -481,12 +481,12 @@ export const lesson24: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Tasks a child cannot yet do at all" },
-              { id: "b", text: "Tasks a child can do only with guidance" },
-              { id: "c", text: "Tasks a child has fully mastered" },
-              { id: "d", text: "The age when puberty begins" },
+              { id: "a", text: "The age when puberty begins" },
+              { id: "b", text: "Tasks a child cannot yet do at all" },
+              { id: "c", text: "Tasks a child can do only with guidance" },
+              { id: "d", text: "Tasks a child has fully mastered" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -582,8 +582,8 @@ export const lesson24: Lesson = {
             choices: [
               { id: "a", text: "Permanent help given by a teacher" },
               { id: "b", text: "Temporary support that helps a learner succeed within the ZPD, then fades" },
-              { id: "c", text: "The genetic programme for cognitive development" },
-              { id: "d", text: "A child's independent problem-solving" },
+              { id: "c", text: "A child's independent problem-solving" },
+              { id: "d", text: "The genetic programme for cognitive development" },
             ],
             correctChoiceId: "b",
           },
@@ -608,12 +608,12 @@ export const lesson24: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Whispering secrets to friends" },
-              { id: "b", text: "Self-directed talk children use to guide their own thinking, later internalised as inner speech" },
-              { id: "c", text: "Talking to imaginary companions" },
-              { id: "d", text: "Reading aloud silently" },
+              { id: "a", text: "Reading aloud silently" },
+              { id: "b", text: "Whispering secrets to friends" },
+              { id: "c", text: "Self-directed talk children use to guide their own thinking, later internalised as inner speech" },
+              { id: "d", text: "Talking to imaginary companions" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -636,10 +636,10 @@ export const lesson24: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "5–10 years" },
+              { id: "a", text: "18–25 years" },
               { id: "b", text: "8–12 years" },
               { id: "c", text: "11–18 years" },
-              { id: "d", text: "18–25 years" },
+              { id: "d", text: "5–10 years" },
             ],
             correctChoiceId: "c",
           },
@@ -664,9 +664,9 @@ export const lesson24: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The prefrontal cortex matures before the limbic system" },
+              { id: "a", text: "Adolescents have lower dopamine levels than adults" },
               { id: "b", text: "The limbic/emotional system develops before the prefrontal cortex fully matures" },
-              { id: "c", text: "Adolescents have lower dopamine levels than adults" },
+              { id: "c", text: "The prefrontal cortex matures before the limbic system" },
               { id: "d", text: "Puberty has no effect on brain development" },
             ],
             correctChoiceId: "b",
@@ -692,12 +692,12 @@ export const lesson24: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Be maintained permanently to ensure success" },
-              { id: "b", text: "Be withdrawn gradually as the learner's competence increases" },
+              { id: "a", text: "Only be provided by parents, not teachers" },
+              { id: "b", text: "Be maintained permanently to ensure success" },
               { id: "c", text: "Be replaced by independent worksheets immediately" },
-              { id: "d", text: "Only be provided by parents, not teachers" },
+              { id: "d", text: "Be withdrawn gradually as the learner's competence increases" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

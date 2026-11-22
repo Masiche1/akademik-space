@@ -53,12 +53,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Words that are very long" },
-              { id: "b", text: "Words chosen to carry emotion or judgment" },
-              { id: "c", text: "Words in a foreign language" },
+              { id: "a", text: "Words in a foreign language" },
+              { id: "b", text: "Words that are very long" },
+              { id: "c", text: "Words chosen to carry emotion or judgment" },
               { id: "d", text: "Words that are hard to spell" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -154,12 +154,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "To read very quickly" },
-              { id: "b", text: "To work out meanings and intentions that are not stated directly" },
+              { id: "a", text: "To work out meanings and intentions that are not stated directly" },
+              { id: "b", text: "To read very quickly" },
               { id: "c", text: "To skip the first paragraph" },
               { id: "d", text: "To read only the headlines" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -180,11 +180,11 @@ export const lesson12: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "The project is small and unimportant" },
-              { id: "b", text: "The mayor personally favours it, possibly beyond public interest" },
-              { id: "c", text: "The project involves animals" },
-              { id: "d", text: "The project is new and untested" },
+              { id: "b", text: "The project is new and untested" },
+              { id: "c", text: "The mayor personally favours it, possibly beyond public interest" },
+              { id: "d", text: "The project involves animals" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -209,12 +209,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Lead A — it gives the vote count and facts" },
-              { id: "b", text: "Lead B — it gives more detail" },
-              { id: "c", text: "Both are equally neutral" },
-              { id: "d", text: "Neither is neutral" },
+              { id: "a", text: "Lead B — it gives more detail" },
+              { id: "b", text: "Neither is neutral" },
+              { id: "c", text: "Lead A — it gives the vote count and facts" },
+              { id: "d", text: "Both are equally neutral" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -239,12 +239,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The names of all the actors" },
-              { id: "b", text: "The real reason for the postponement and a new date — 'unforeseen circumstances' hides the cause" },
-              { id: "c", text: "The ticket prices" },
-              { id: "d", text: "The spelling of 'postponed'" },
+              { id: "a", text: "The ticket prices" },
+              { id: "b", text: "The names of all the actors" },
+              { id: "c", text: "The spelling of 'postponed'" },
+              { id: "d", text: "The real reason for the postponement and a new date — 'unforeseen circumstances' hides the cause" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -343,12 +343,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The date of the trip" },
-              { id: "b", text: "The students' or parents' views, especially any complaints" },
-              { id: "c", text: "The destination" },
-              { id: "d", text: "The cost" },
+              { id: "a", text: "The cost" },
+              { id: "b", text: "The destination" },
+              { id: "c", text: "The date of the trip" },
+              { id: "d", text: "The students' or parents' views, especially any complaints" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -400,12 +400,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "To save space" },
-              { id: "b", text: "Because naming sources would weaken the appearance of support" },
-              { id: "c", text: "Because it sounds more formal" },
-              { id: "d", text: "Because residents asked not to be named" },
+              { id: "a", text: "Because it sounds more formal" },
+              { id: "b", text: "Because residents asked not to be named" },
+              { id: "c", text: "Because naming sources would weaken the appearance of support" },
+              { id: "d", text: "To save space" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -425,12 +425,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Headline A — it gives a checkable figure" },
-              { id: "b", text: "Headline B — it gives more emotion" },
-              { id: "c", text: "Both are equally informative" },
+              { id: "a", text: "Both are equally informative" },
+              { id: "b", text: "Headline A — it gives a checkable figure" },
+              { id: "c", text: "Headline B — it gives more emotion" },
               { id: "d", text: "Neither is informative" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -510,12 +510,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A mistake in spelling" },
-              { id: "b", text: "A slant or preference that shapes the presentation of information" },
-              { id: "c", text: "A type of poem" },
-              { id: "d", text: "A long paragraph" },
+              { id: "a", text: "A long paragraph" },
+              { id: "b", text: "A type of poem" },
+              { id: "c", text: "A mistake in spelling" },
+              { id: "d", text: "A slant or preference that shapes the presentation of information" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -610,12 +610,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A spelling mistake" },
-              { id: "b", text: "Information left out that would change the picture" },
-              { id: "c", text: "A very long paragraph" },
+              { id: "a", text: "Information left out that would change the picture" },
+              { id: "b", text: "A very long paragraph" },
+              { id: "c", text: "A spelling mistake" },
               { id: "d", text: "A quotation from an expert" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -635,12 +635,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It gives the date of the event" },
-              { id: "b", text: "It only quotes people who support one side" },
+              { id: "a", text: "It only quotes people who support one side" },
+              { id: "b", text: "It gives the date of the event" },
               { id: "c", text: "It uses short sentences" },
               { id: "d", text: "It has a headline" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -665,10 +665,10 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The source is neutral" },
+              { id: "a", text: "The source is describing a fact" },
               { id: "b", text: "The source is strongly opposed to the supermarket" },
               { id: "c", text: "The source works for the supermarket" },
-              { id: "d", text: "The source is describing a fact" },
+              { id: "d", text: "The source is neutral" },
             ],
             correctChoiceId: "b",
           },
@@ -695,12 +695,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Because 'thousands' is always false" },
-              { id: "b", text: "Because the number is vague and unverifiable, and the charity refused to give figures" },
-              { id: "c", text: "Because charities never help anyone" },
-              { id: "d", text: "Because the sentence is too long" },
+              { id: "a", text: "Because the sentence is too long" },
+              { id: "b", text: "Because charities never help anyone" },
+              { id: "c", text: "Because the number is vague and unverifiable, and the charity refused to give figures" },
+              { id: "d", text: "Because 'thousands' is always false" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -799,12 +799,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The reviewer is very honest" },
-              { id: "b", text: "The rating contradicts the lukewarm description — something may be influencing the score" },
-              { id: "c", text: "Five stars is always correct" },
-              { id: "d", text: "The review is too short to judge" },
+              { id: "a", text: "The rating contradicts the lukewarm description — something may be influencing the score" },
+              { id: "b", text: "Five stars is always correct" },
+              { id: "c", text: "The review is too short to judge" },
+              { id: "d", text: "The reviewer is very honest" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -856,12 +856,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It is biased by omission — critics' perspectives are missing" },
-              { id: "b", text: "It is biased because it is too short" },
-              { id: "c", text: "It is biased because it uses formal language" },
-              { id: "d", text: "It is not biased at all" },
+              { id: "a", text: "It is biased because it uses formal language" },
+              { id: "b", text: "It is not biased at all" },
+              { id: "c", text: "It is biased because it is too short" },
+              { id: "d", text: "It is biased by omission — critics' perspectives are missing" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -881,12 +881,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Review A — balanced evaluation seems more trustworthy" },
+              { id: "a", text: "Both are equally credible" },
               { id: "b", text: "Review B — praise is always better" },
-              { id: "c", text: "Both are equally credible" },
+              { id: "c", text: "Review A — balanced evaluation seems more trustworthy" },
               { id: "d", text: "Neither is credible" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

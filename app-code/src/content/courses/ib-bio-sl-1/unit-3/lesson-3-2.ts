@@ -54,12 +54,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "An organism that eats other organisms" },
-              { id: "b", text: "An organism that makes its own food by photosynthesis" },
+              { id: "a", text: "An organism that makes its own food by photosynthesis" },
+              { id: "b", text: "An organism that eats other organisms" },
               { id: "c", text: "An organism that breaks down dead matter" },
               { id: "d", text: "An organism that only consumes plants" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Producer", statement: "Producers such as plants and algae make their own food by photosynthesis and form the base of food chains." }],
@@ -81,8 +81,8 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$500$ kJ" },
-              { id: "b", text: "$5000$ kJ" },
-              { id: "c", text: "$50$ kJ" },
+              { id: "b", text: "$50$ kJ" },
+              { id: "c", text: "$5000$ kJ" },
               { id: "d", text: "$4500$ kJ" },
             ],
             correctChoiceId: "a",
@@ -106,12 +106,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Because there are not enough species to support more levels" },
-              { id: "b", text: "Because only about 10% of energy is transferred at each level, so energy runs out after a few steps" },
-              { id: "c", text: "Because top predators eat everything below them" },
-              { id: "d", text: "Because decomposers stop working at higher levels" },
+              { id: "a", text: "Because decomposers stop working at higher levels" },
+              { id: "b", text: "Because top predators eat everything below them" },
+              { id: "c", text: "Because there are not enough species to support more levels" },
+              { id: "d", text: "Because only about 10% of energy is transferred at each level, so energy runs out after a few steps" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Energy transfer", statement: "About 90% of energy is lost at each trophic level, leaving too little to support many higher levels." }],
@@ -165,10 +165,10 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The grass" },
+              { id: "a", text: "The snake" },
               { id: "b", text: "The grasshopper" },
-              { id: "c", text: "The frog" },
-              { id: "d", text: "The snake" },
+              { id: "c", text: "The grass" },
+              { id: "d", text: "The frog" },
             ],
             correctChoiceId: "b",
           },
@@ -191,12 +191,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A single linear feeding pathway from producer to top predator" },
-              { id: "b", text: "A diagram showing the many interlinked food chains in an ecosystem" },
-              { id: "c", text: "A pyramid showing the number of organisms at each trophic level" },
-              { id: "d", text: "A chart showing energy loss between trophic levels" },
+              { id: "a", text: "A diagram showing the many interlinked food chains in an ecosystem" },
+              { id: "b", text: "A chart showing energy loss between trophic levels" },
+              { id: "c", text: "A single linear feeding pathway from producer to top predator" },
+              { id: "d", text: "A pyramid showing the number of organisms at each trophic level" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Food web", statement: "A food web shows all the interconnected feeding relationships in an ecosystem." }],
@@ -217,12 +217,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "They produce most of the ecosystem's food through photosynthesis" },
-              { id: "b", text: "They break down dead organic matter at every trophic level and recycle nutrients" },
-              { id: "c", text: "They are always the top predators in food chains" },
+              { id: "a", text: "They break down dead organic matter at every trophic level and recycle nutrients" },
+              { id: "b", text: "They are always the top predators in food chains" },
+              { id: "c", text: "They produce most of the ecosystem's food through photosynthesis" },
               { id: "d", text: "They convert light energy into chemical energy" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Decomposer", statement: "Decomposers break down dead organic matter and recycle nutrients back into the ecosystem." }],
@@ -244,11 +244,11 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "It always decreases upwards: producers are always most numerous" },
-              { id: "b", text: "It is inverted at the base because there are more insects than trees" },
-              { id: "c", text: "It shows $500$ producers at the bottom level" },
+              { id: "b", text: "It shows $500$ producers at the bottom level" },
+              { id: "c", text: "It is inverted at the base because there are more insects than trees" },
               { id: "d", text: "It is identical to a pyramid of biomass" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Pyramid of numbers", statement: "Pyramids of numbers usually decrease upwards but can be inverted, e.g. one tree supports many insects." }],
@@ -451,12 +451,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Both can be inverted when there is one large producer" },
-              { id: "b", text: "Pyramids of energy always decrease upwards and can never be inverted" },
-              { id: "c", text: "Pyramids of biomass can never be inverted" },
+              { id: "a", text: "Pyramids of energy always decrease upwards and can never be inverted" },
+              { id: "b", text: "Pyramids of biomass can never be inverted" },
+              { id: "c", text: "Both can be inverted when there is one large producer" },
               { id: "d", text: "Pyramids of numbers and pyramids of energy are always identical" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Ecological pyramids", statement: "Energy always decreases at each trophic level; biomass usually decreases but can rarely be inverted." }],
@@ -512,8 +512,8 @@ export const lesson32: Lesson = {
             choices: [
               { id: "a", text: "They convert atmospheric nitrogen into ammonia" },
               { id: "b", text: "They break down dead organic matter and release nutrients back into the environment" },
-              { id: "c", text: "They produce oxygen for other organisms" },
-              { id: "d", text: "They fix carbon dioxide into organic compounds" },
+              { id: "c", text: "They fix carbon dioxide into organic compounds" },
+              { id: "d", text: "They produce oxygen for other organisms" },
             ],
             correctChoiceId: "b",
           },
@@ -536,12 +536,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The conversion of nitrates into nitrogen gas" },
-              { id: "b", text: "The conversion of atmospheric nitrogen gas into ammonia by bacteria" },
+              { id: "a", text: "The conversion of atmospheric nitrogen gas into ammonia by bacteria" },
+              { id: "b", text: "The conversion of nitrates into nitrogen gas" },
               { id: "c", text: "The absorption of nitrogen by plant roots" },
               { id: "d", text: "The release of nitrogen during decomposition" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Nitrogen fixation", statement: "Nitrogen-fixing bacteria convert atmospheric $N_2$ into ammonia, making nitrogen available to plants." }],
@@ -562,12 +562,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Nitrates poison the fish directly, killing them immediately" },
-              { id: "b", text: "Excess nitrate causes algal blooms; when algae die, decomposers use up dissolved oxygen, suffocating the fish" },
-              { id: "c", text: "The nitrate makes the water too acidic for fish to survive" },
-              { id: "d", text: "Algae eat the fish when nitrate levels rise" },
+              { id: "a", text: "Algae eat the fish when nitrate levels rise" },
+              { id: "b", text: "Nitrates poison the fish directly, killing them immediately" },
+              { id: "c", text: "Excess nitrate causes algal blooms; when algae die, decomposers use up dissolved oxygen, suffocating the fish" },
+              { id: "d", text: "The nitrate makes the water too acidic for fish to survive" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Eutrophication", statement: "Excess nutrients → algal bloom → decomposition consumes oxygen → fish die from oxygen depletion." }],
@@ -623,8 +623,8 @@ export const lesson32: Lesson = {
             choices: [
               { id: "a", text: "Respiration" },
               { id: "b", text: "Photosynthesis" },
-              { id: "c", text: "Decomposition" },
-              { id: "d", text: "Combustion of fossil fuels" },
+              { id: "c", text: "Combustion of fossil fuels" },
+              { id: "d", text: "Decomposition" },
             ],
             correctChoiceId: "b",
           },
@@ -647,12 +647,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "They convert atmospheric nitrogen gas into ammonia" },
-              { id: "b", text: "They convert ammonia into nitrite and then nitrate, which plants can absorb" },
+              { id: "a", text: "They convert ammonia into nitrite and then nitrate, which plants can absorb" },
+              { id: "b", text: "They convert atmospheric nitrogen gas into ammonia" },
               { id: "c", text: "They convert nitrates back into nitrogen gas" },
               { id: "d", text: "They break down dead organic matter to release ammonia" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Nitrification", statement: "Nitrifying bacteria oxidise ammonia to nitrite and then nitrate for plant uptake." }],
@@ -673,12 +673,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The conversion of atmospheric nitrogen into ammonia by bacteria" },
-              { id: "b", text: "The conversion of nitrates in the soil back into nitrogen gas by bacteria" },
-              { id: "c", text: "The absorption of nitrate ions by plant roots" },
-              { id: "d", text: "The release of ammonia during decomposition of proteins" },
+              { id: "a", text: "The absorption of nitrate ions by plant roots" },
+              { id: "b", text: "The conversion of atmospheric nitrogen into ammonia by bacteria" },
+              { id: "c", text: "The release of ammonia during decomposition of proteins" },
+              { id: "d", text: "The conversion of nitrates in the soil back into nitrogen gas by bacteria" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Denitrification", statement: "Denitrifying bacteria convert soil nitrates back to atmospheric nitrogen gas, completing the cycle." }],
@@ -700,11 +700,11 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Photosynthesis by marine algae" },
-              { id: "b", text: "Combustion of fossil fuels such as coal and oil" },
-              { id: "c", text: "Nitrogen fixation in root nodules" },
-              { id: "d", text: "Formation of limestone from coral skeletons" },
+              { id: "b", text: "Formation of limestone from coral skeletons" },
+              { id: "c", text: "Combustion of fossil fuels such as coal and oil" },
+              { id: "d", text: "Nitrogen fixation in root nodules" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Carbon cycle", statement: "Fossil fuels store carbon over millions of years; combustion releases it rapidly as CO₂." }],
@@ -908,12 +908,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Populations always grow exponentially without limit" },
-              { id: "b", text: "Logistic growth levels off at the carrying capacity when resources become limiting" },
-              { id: "c", text: "The carrying capacity is the maximum population that can be reached instantly" },
-              { id: "d", text: "Population growth is unaffected by disease or predation" },
+              { id: "a", text: "Population growth is unaffected by disease or predation" },
+              { id: "b", text: "The carrying capacity is the maximum population that can be reached instantly" },
+              { id: "c", text: "Logistic growth levels off at the carrying capacity when resources become limiting" },
+              { id: "d", text: "Populations always grow exponentially without limit" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Population growth", statement: "Exponential growth is limited by resources; logistic (S-shaped) growth stabilises at carrying capacity." }],

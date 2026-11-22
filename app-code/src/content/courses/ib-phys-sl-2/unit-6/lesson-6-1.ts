@@ -54,12 +54,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The maximum kinetic energy of the photoelectrons increases" },
-              { id: "b", text: "The number of photoelectrons emitted per second increases" },
-              { id: "c", text: "The threshold frequency decreases" },
-              { id: "d", text: "No photoelectrons are emitted" },
+              { id: "a", text: "The number of photoelectrons emitted per second increases" },
+              { id: "b", text: "The threshold frequency decreases" },
+              { id: "c", text: "No photoelectrons are emitted" },
+              { id: "d", text: "The maximum kinetic energy of the photoelectrons increases" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -81,12 +81,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$4.0 \\times 10^{-19}$ J" },
-              { id: "b", text: "$2.0 \\times 10^{-19}$ J" },
-              { id: "c", text: "$1.1 \\times 10^{-48}$ J" },
-              { id: "d", text: "$4.0 \\times 10^{-20}$ J" },
+              { id: "a", text: "$2.0 \\times 10^{-19}$ J" },
+              { id: "b", text: "$4.0 \\times 10^{-20}$ J" },
+              { id: "c", text: "$4.0 \\times 10^{-19}$ J" },
+              { id: "d", text: "$1.1 \\times 10^{-48}$ J" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -109,12 +109,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "No photoelectrons are emitted" },
-              { id: "b", text: "$K_{\\max} = 2.3 \\times 10^{-19}$ J" },
-              { id: "c", text: "$K_{\\max} = 5.3 \\times 10^{-19}$ J" },
-              { id: "d", text: "$K_{\\max} = 1.5 \\times 10^{-19}$ J" },
+              { id: "a", text: "$K_{\\max} = 1.5 \\times 10^{-19}$ J" },
+              { id: "b", text: "No photoelectrons are emitted" },
+              { id: "c", text: "$K_{\\max} = 2.3 \\times 10^{-19}$ J" },
+              { id: "d", text: "$K_{\\max} = 5.3 \\times 10^{-19}$ J" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -169,12 +169,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The minimum energy needed to remove an electron from the surface" },
-              { id: "b", text: "The energy carried by a single photon of light" },
+              { id: "a", text: "The energy carried by a single photon of light" },
+              { id: "b", text: "The frequency at which photoemission begins" },
               { id: "c", text: "The maximum kinetic energy of emitted photoelectrons" },
-              { id: "d", text: "The frequency at which photoemission begins" },
+              { id: "d", text: "The minimum energy needed to remove an electron from the surface" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -196,12 +196,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$3.3 \\times 10^{-19}$ J" },
-              { id: "b", text: "$1.3 \\times 10^{-48}$ J" },
-              { id: "c", text: "$6.6 \\times 10^{-20}$ J" },
+              { id: "a", text: "$1.3 \\times 10^{-48}$ J" },
+              { id: "b", text: "$6.6 \\times 10^{-20}$ J" },
+              { id: "c", text: "$3.3 \\times 10^{-19}$ J" },
               { id: "d", text: "$3.3 \\times 10^{-20}$ J" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -340,12 +340,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$K_{\\max}$ increases; number per second unchanged" },
-              { id: "b", text: "$K_{\\max}$ unchanged; number per second increases" },
-              { id: "c", text: "$K_{\\max}$ increases; number per second increases" },
-              { id: "d", text: "Both remain unchanged" },
+              { id: "a", text: "$K_{\\max}$ unchanged; number per second increases" },
+              { id: "b", text: "Both remain unchanged" },
+              { id: "c", text: "$K_{\\max}$ increases; number per second unchanged" },
+              { id: "d", text: "$K_{\\max}$ increases; number per second increases" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -368,12 +368,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Metal A emits photoelectrons with greater $K_{\\max}$" },
-              { id: "b", text: "Metal B emits photoelectrons with greater $K_{\\max}$" },
-              { id: "c", text: "Both metals emit photoelectrons with the same $K_{\\max}$" },
-              { id: "d", text: "Neither metal emits photoelectrons" },
+              { id: "a", text: "Both metals emit photoelectrons with the same $K_{\\max}$" },
+              { id: "b", text: "Metal A emits photoelectrons with greater $K_{\\max}$" },
+              { id: "c", text: "Neither metal emits photoelectrons" },
+              { id: "d", text: "Metal B emits photoelectrons with greater $K_{\\max}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -552,11 +552,11 @@ export const lesson61: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "A continuous band of all colours" },
-              { id: "b", text: "Bright lines at discrete wavelengths on a dark background" },
-              { id: "c", text: "Dark lines on a continuous spectrum" },
-              { id: "d", text: "A spectrum that is the same for every element" },
+              { id: "b", text: "A spectrum that is the same for every element" },
+              { id: "c", text: "Bright lines at discrete wavelengths on a dark background" },
+              { id: "d", text: "Dark lines on a continuous spectrum" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -578,12 +578,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$6.0 \\times 10^{14}$ Hz" },
-              { id: "b", text: "$2.7 \\times 10^{-53}$ Hz" },
+              { id: "a", text: "$6.0 \\times 10^{13}$ Hz" },
+              { id: "b", text: "$6.0 \\times 10^{14}$ Hz" },
               { id: "c", text: "$1.2 \\times 10^{15}$ Hz" },
-              { id: "d", text: "$6.0 \\times 10^{13}$ Hz" },
+              { id: "d", text: "$2.7 \\times 10^{-53}$ Hz" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -606,12 +606,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Wavelength $2.0 \\times 10^{-7}$ m; frequency $1.5 \\times 10^{15}$ Hz" },
-              { id: "b", text: "Wavelength $6.6 \\times 10^{-7}$ m; frequency $4.5 \\times 10^{14}$ Hz" },
+              { id: "a", text: "Wavelength $2.2 \\times 10^{-16}$ m; frequency $4.5 \\times 10^{14}$ Hz" },
+              { id: "b", text: "Wavelength $2.0 \\times 10^{-7}$ m; frequency $1.5 \\times 10^{15}$ Hz" },
               { id: "c", text: "Wavelength $6.6 \\times 10^{-7}$ m; frequency $1.5 \\times 10^{15}$ Hz" },
-              { id: "d", text: "Wavelength $2.2 \\times 10^{-16}$ m; frequency $4.5 \\times 10^{14}$ Hz" },
+              { id: "d", text: "Wavelength $6.6 \\times 10^{-7}$ m; frequency $4.5 \\times 10^{14}$ Hz" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -668,12 +668,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Electrons can only occupy discrete energy levels, so only certain energy changes are possible" },
-              { id: "b", text: "Light is absorbed by the nucleus" },
-              { id: "c", text: "The atom is continuously heated" },
-              { id: "d", text: "Photons are destroyed in the atom" },
+              { id: "a", text: "Light is absorbed by the nucleus" },
+              { id: "b", text: "Photons are destroyed in the atom" },
+              { id: "c", text: "Electrons can only occupy discrete energy levels, so only certain energy changes are possible" },
+              { id: "d", text: "The atom is continuously heated" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -695,12 +695,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$3.0 \\times 10^{14}$ Hz" },
-              { id: "b", text: "$6.6 \\times 10^{-16}$ Hz" },
-              { id: "c", text: "$1.3 \\times 10^{15}$ Hz" },
-              { id: "d", text: "$3.0 \\times 10^{15}$ Hz" },
+              { id: "a", text: "$6.6 \\times 10^{-16}$ Hz" },
+              { id: "b", text: "$3.0 \\times 10^{14}$ Hz" },
+              { id: "c", text: "$3.0 \\times 10^{15}$ Hz" },
+              { id: "d", text: "$1.3 \\times 10^{15}$ Hz" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -837,12 +837,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Bright lines on a dark background, produced when electrons fall to lower levels" },
-              { id: "b", text: "Dark lines on a continuous spectrum, produced when electrons absorb photons to reach higher levels" },
-              { id: "c", text: "A continuous spectrum with no lines" },
-              { id: "d", text: "Dark lines on a dark background" },
+              { id: "a", text: "A continuous spectrum with no lines" },
+              { id: "b", text: "Dark lines on a dark background" },
+              { id: "c", text: "Dark lines on a continuous spectrum, produced when electrons absorb photons to reach higher levels" },
+              { id: "d", text: "Bright lines on a dark background, produced when electrons fall to lower levels" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -865,12 +865,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The $800$ nm photon has twice the energy of the $400$ nm photon" },
-              { id: "b", text: "The $400$ nm photon has twice the energy of the $800$ nm photon" },
-              { id: "c", text: "Both photons have the same energy" },
-              { id: "d", text: "The $800$ nm photon has four times the energy of the $400$ nm photon" },
+              { id: "a", text: "The $400$ nm photon has twice the energy of the $800$ nm photon" },
+              { id: "b", text: "The $800$ nm photon has four times the energy of the $400$ nm photon" },
+              { id: "c", text: "The $800$ nm photon has twice the energy of the $400$ nm photon" },
+              { id: "d", text: "Both photons have the same energy" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

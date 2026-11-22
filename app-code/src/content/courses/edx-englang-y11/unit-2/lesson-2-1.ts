@@ -91,12 +91,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Opening 1" },
-              { id: "b", text: "Opening 2" },
+              { id: "a", text: "Opening 2" },
+              { id: "b", text: "Opening 1" },
               { id: "c", text: "Opening 3" },
               { id: "d", text: "None of them" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "convention", name: "Scene-setting hook", statement: "A precise time, place and image drop the reader into the topic." }],
@@ -221,12 +221,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It is true that exams reduce stress for some pupils; however, they test memory far more than understanding." },
-              { id: "b", text: "Exams are awful and nobody should have to take them." },
-              { id: "c", text: "Many people disagree with me, but they are wrong." },
-              { id: "d", text: "Exams are stressful, which is why they are stressful." },
+              { id: "a", text: "Many people disagree with me, but they are wrong." },
+              { id: "b", text: "Exams are stressful, which is why they are stressful." },
+              { id: "c", text: "It is true that exams reduce stress for some pupils; however, they test memory far more than understanding." },
+              { id: "d", text: "Exams are awful and nobody should have to take them." },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "convention", name: "Concession and pivot", statement: "Acknowledge fairly, then pivot with 'however' to a reasoned point." }],

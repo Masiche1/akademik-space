@@ -77,12 +77,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$20\\pi$ cm$^2$ s$^{-1}$" },
-              { id: "b", text: "$10\\pi$ cm$^2$ s$^{-1}$" },
-              { id: "c", text: "$50\\pi$ cm$^2$ s$^{-1}$" },
-              { id: "d", text: "$25\\pi$ cm$^2$ s$^{-1}$" },
+              { id: "a", text: "$25\\pi$ cm$^2$ s$^{-1}$" },
+              { id: "b", text: "$50\\pi$ cm$^2$ s$^{-1}$" },
+              { id: "c", text: "$20\\pi$ cm$^2$ s$^{-1}$" },
+              { id: "d", text: "$10\\pi$ cm$^2$ s$^{-1}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -377,12 +377,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$24$ cm$^3$ s$^{-1}$" },
-              { id: "b", text: "$12$ cm$^3$ s$^{-1}$" },
-              { id: "c", text: "$8$ cm$^3$ s$^{-1}$" },
-              { id: "d", text: "$16$ cm$^3$ s$^{-1}$" },
+              { id: "a", text: "$12$ cm$^3$ s$^{-1}$" },
+              { id: "b", text: "$16$ cm$^3$ s$^{-1}$" },
+              { id: "c", text: "$24$ cm$^3$ s$^{-1}$" },
+              { id: "d", text: "$8$ cm$^3$ s$^{-1}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -659,15 +659,15 @@ export const lesson53: Lesson = {
               },
               {
                 id: "b",
-                text: "Because differentiation is not allowed on equations.",
-              },
-              {
-                id: "c",
                 text: "Because the variables cannot be differentiated with respect to $t$.",
               },
               {
-                id: "d",
+                id: "c",
                 text: "Because substituting first makes the equation easier.",
+              },
+              {
+                id: "d",
+                text: "Because differentiation is not allowed on equations.",
               },
             ],
             correctChoiceId: "a",
@@ -1266,12 +1266,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$(x+2)e^x$" },
+              { id: "a", text: "$(2x+1)e^x$" },
               { id: "b", text: "$(x+1)e^x$" },
-              { id: "c", text: "$xe^x$" },
-              { id: "d", text: "$(2x+1)e^x$" },
+              { id: "c", text: "$(x+2)e^x$" },
+              { id: "d", text: "$xe^x$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1565,12 +1565,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$x=\\pm1$" },
-              { id: "b", text: "$x=0$ and $x=3$" },
-              { id: "c", text: "$x=\\pm\\sqrt3$" },
-              { id: "d", text: "$x=1$ only" },
+              { id: "a", text: "$x=\\pm\\sqrt3$" },
+              { id: "b", text: "$x=\\pm1$" },
+              { id: "c", text: "$x=1$ only" },
+              { id: "d", text: "$x=0$ and $x=3$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1809,19 +1809,19 @@ export const lesson53: Lesson = {
             choices: [
               {
                 id: "a",
-                text: "$f''(a)=0$ is necessary but not sufficient: $f''$ must change sign at $a$.",
+                text: "$f''(a)=0$ and $f'''(a)=0$ are both required.",
               },
               {
                 id: "b",
+                text: "$f''(a)=0$ is necessary but not sufficient: $f''$ must change sign at $a$.",
+              },
+              {
+                id: "c",
                 text: "$f''(a)=0$ always gives a point of inflection.",
               },
-              { id: "c", text: "A point of inflection requires $f'(a)=0$." },
-              {
-                id: "d",
-                text: "$f''(a)=0$ and $f'''(a)=0$ are both required.",
-              },
+              { id: "d", text: "A point of inflection requires $f'(a)=0$." },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [

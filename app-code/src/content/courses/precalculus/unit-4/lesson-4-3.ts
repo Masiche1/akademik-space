@@ -54,12 +54,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$2\\left(\\cos\\frac{\\pi}{4}+i\\sin\\frac{\\pi}{4}\\right)$" },
-              { id: "b", text: "$\\sqrt2\\left(\\cos\\frac{\\pi}{4}+i\\sin\\frac{\\pi}{4}\\right)$" },
-              { id: "c", text: "$\\sqrt2\\left(\\cos\\frac{3\\pi}{4}+i\\sin\\frac{3\\pi}{4}\\right)$" },
-              { id: "d", text: "$\\sqrt2\\left(\\cos\\frac{\\pi}{2}+i\\sin\\frac{\\pi}{2}\\right)$" },
+              { id: "a", text: "$\\sqrt2\\left(\\cos\\frac{\\pi}{4}+i\\sin\\frac{\\pi}{4}\\right)$" },
+              { id: "b", text: "$\\sqrt2\\left(\\cos\\frac{\\pi}{2}+i\\sin\\frac{\\pi}{2}\\right)$" },
+              { id: "c", text: "$2\\left(\\cos\\frac{\\pi}{4}+i\\sin\\frac{\\pi}{4}\\right)$" },
+              { id: "d", text: "$\\sqrt2\\left(\\cos\\frac{3\\pi}{4}+i\\sin\\frac{3\\pi}{4}\\right)$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -204,12 +204,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\cos23^\\circ+i\\sin23^\\circ$" },
-              { id: "b", text: "$3\\cos20^\\circ+3i\\sin20^\\circ$" },
-              { id: "c", text: "$\\cos60^\\circ+i\\sin60^\\circ$" },
-              { id: "d", text: "$\\cos8000^\\circ+i\\sin8000^\\circ$" },
+              { id: "a", text: "$\\cos60^\\circ+i\\sin60^\\circ$" },
+              { id: "b", text: "$\\cos8000^\\circ+i\\sin8000^\\circ$" },
+              { id: "c", text: "$3\\cos20^\\circ+3i\\sin20^\\circ$" },
+              { id: "d", text: "$\\cos23^\\circ+i\\sin23^\\circ$" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [

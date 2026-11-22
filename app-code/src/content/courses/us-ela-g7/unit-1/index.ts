@@ -7,6 +7,7 @@ export const unit1: Unit = {
   id: "ela7-u1",
   code: "1",
   title: "Reading Literature",
-  description: "Cite textual evidence, determine theme, analyze setting and figurative language, and explain how point of view and structure shape meaning in stories, poems, and drama.",
+  description:
+    "Cite textual evidence, determine theme, analyze setting and figurative language, and explain how point of view and structure shape meaning in stories, poems, and drama.",
   lessons: [lesson11, lesson12, lesson13],
 };

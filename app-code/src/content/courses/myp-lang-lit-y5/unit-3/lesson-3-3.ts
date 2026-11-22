@@ -54,12 +54,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Saying whether you liked it" },
-              { id: "b", text: "Using criteria and evidence" },
-              { id: "c", text: "Being very long" },
+              { id: "a", text: "Using criteria and evidence" },
+              { id: "b", text: "Being very long" },
+              { id: "c", text: "Saying whether you liked it" },
               { id: "d", text: "Only finding faults" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Evaluation", statement: "Good evaluation = criteria + evidence." }],
@@ -140,11 +140,11 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Being very positive" },
-              { id: "b", text: "Using criteria and evidence, and acknowledging strengths and weaknesses" },
-              { id: "c", text: "Being very long" },
-              { id: "d", text: "Only finding faults" },
+              { id: "b", text: "Only finding faults" },
+              { id: "c", text: "Using criteria and evidence, and acknowledging strengths and weaknesses" },
+              { id: "d", text: "Being very long" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Evaluation", statement: "Credible evaluation = criteria + evidence + balance." }],
@@ -186,11 +186,11 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "One-sided praise" },
-              { id: "b", text: "Balanced evaluation — strengths (clear, fluent) and weakness (thin evidence)" },
-              { id: "c", text: "No evaluation" },
-              { id: "d", text: "Only criticism" },
+              { id: "b", text: "Only criticism" },
+              { id: "c", text: "Balanced evaluation — strengths (clear, fluent) and weakness (thin evidence)" },
+              { id: "d", text: "No evaluation" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Balanced evaluation", statement: "Strengths + weaknesses = credible." }],
@@ -211,12 +211,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It is perfectly evaluative" },
-              { id: "b", text: "No criteria or evidence — vague praise ('great', 'loved') without specific features" },
-              { id: "c", text: "It is too detailed" },
-              { id: "d", text: "It is too negative" },
+              { id: "a", text: "No criteria or evidence — vague praise ('great', 'loved') without specific features" },
+              { id: "b", text: "It is perfectly evaluative" },
+              { id: "c", text: "It is too negative" },
+              { id: "d", text: "It is too detailed" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Evidence-based evaluation", statement: "Evaluation needs criteria + evidence, not just opinion." }],
@@ -232,10 +232,10 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It is shorter" },
+              { id: "a", text: "It is easier to write" },
               { id: "b", text: "It acknowledges complexity — texts have strengths and weaknesses, and balance shows critical thinking" },
-              { id: "c", text: "It is easier to write" },
-              { id: "d", text: "It avoids making judgments" },
+              { id: "c", text: "It avoids making judgments" },
+              { id: "d", text: "It is shorter" },
             ],
             correctChoiceId: "b",
           },
@@ -294,12 +294,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Only using statistics" },
-              { id: "b", text: "Supporting judgments with specific features from the text" },
-              { id: "c", text: "Ignoring your own opinion" },
-              { id: "d", text: "Writing very long reviews" },
+              { id: "a", text: "Supporting judgments with specific features from the text" },
+              { id: "b", text: "Ignoring your own opinion" },
+              { id: "c", text: "Writing very long reviews" },
+              { id: "d", text: "Only using statistics" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Evidence-based evaluation", statement: "Judgment + criteria + evidence." }],
@@ -364,12 +364,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It is very negative" },
-              { id: "b", text: "It cites specific criteria — structure, evidence, conclusion — even though all are negative" },
-              { id: "c", text: "It is very long" },
-              { id: "d", text: "It uses big words" },
+              { id: "a", text: "It is very long" },
+              { id: "b", text: "It is very negative" },
+              { id: "c", text: "It uses big words" },
+              { id: "d", text: "It cites specific criteria — structure, evidence, conclusion — even though all are negative" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Credible criticism", statement: "Specific criteria make even negative evaluations credible." }],
@@ -439,12 +439,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Spelling first, then ideas" },
-              { id: "b", text: "Content/structure first, then language/mechanics" },
-              { id: "c", text: "All at once" },
-              { id: "d", text: "Only at the end" },
+              { id: "a", text: "All at once" },
+              { id: "b", text: "Only at the end" },
+              { id: "c", text: "Content/structure first, then language/mechanics" },
+              { id: "d", text: "Spelling first, then ideas" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Revision order", statement: "Big picture first, details last." }],
@@ -524,12 +524,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Spelling first, then ideas" },
-              { id: "b", text: "Content and structure first, then language and mechanics" },
-              { id: "c", text: "All at once" },
-              { id: "d", text: "Only check the introduction" },
+              { id: "a", text: "Content and structure first, then language and mechanics" },
+              { id: "b", text: "All at once" },
+              { id: "c", text: "Only check the introduction" },
+              { id: "d", text: "Spelling first, then ideas" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Revision order", statement: "Big picture first, details last." }],
@@ -565,12 +565,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "They are the same" },
-              { id: "b", text: "Revision improves content and structure; editing fixes language and mechanics" },
-              { id: "c", text: "Editing is more important" },
-              { id: "d", text: "Revision is only for the title" },
+              { id: "a", text: "Editing is more important" },
+              { id: "b", text: "Revision is only for the title" },
+              { id: "c", text: "Revision improves content and structure; editing fixes language and mechanics" },
+              { id: "d", text: "They are the same" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Revision vs editing", statement: "Revision = content/structure; editing = language/mechanics." }],
@@ -591,12 +591,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The grammar is wrong" },
-              { id: "b", text: "Repetitive structure — 'I will talk about' repeated three times with no development or cohesion" },
-              { id: "c", text: "It is too long" },
+              { id: "a", text: "It is too long" },
+              { id: "b", text: "The grammar is wrong" },
+              { id: "c", text: "Repetitive structure — 'I will talk about' repeated three times with no development or cohesion" },
               { id: "d", text: "No issue exists" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Revision", statement: "Repetitive, undeveloped structure needs revision." }],
@@ -612,12 +612,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "To get a grade" },
-              { id: "b", text: "To get fresh eyes and specific feedback that identify strengths and weaknesses you might miss" },
+              { id: "a", text: "To get fresh eyes and specific feedback that identify strengths and weaknesses you might miss" },
+              { id: "b", text: "To avoid revision" },
               { id: "c", text: "To copy someone's work" },
-              { id: "d", text: "To avoid revision" },
+              { id: "d", text: "To get a grade" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Peer review", statement: "Feedback identifies what you miss." }],
@@ -674,10 +674,10 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The final version" },
+              { id: "a", text: "A type of pen" },
               { id: "b", text: "A preliminary version of a text, subject to revision" },
               { id: "c", text: "A published book" },
-              { id: "d", text: "A type of pen" },
+              { id: "d", text: "The final version" },
             ],
             correctChoiceId: "b",
           },
@@ -744,11 +744,11 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "The spelling" },
-              { id: "b", text: "The argument/structure — the essay has no thesis, no development, and a generic conclusion" },
+              { id: "b", text: "Nothing needs revision" },
               { id: "c", text: "The font" },
-              { id: "d", text: "Nothing needs revision" },
+              { id: "d", text: "The argument/structure — the essay has no thesis, no development, and a generic conclusion" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Revision priority", statement: "Fix structure/argument before details." }],

@@ -55,9 +55,9 @@ export const lesson12: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$\\mathrm{CH_3}$" },
-              { id: "b", text: "$\\mathrm{C_2H_6}$" },
+              { id: "b", text: "$\\mathrm{C_3H_9}$" },
               { id: "c", text: "$\\mathrm{CH_2}$" },
-              { id: "d", text: "$\\mathrm{C_3H_9}$" },
+              { id: "d", text: "$\\mathrm{C_2H_6}$" },
             ],
             correctChoiceId: "a",
           },
@@ -82,12 +82,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\mathrm{CH_2O}$" },
-              { id: "b", text: "$\\mathrm{C_2H_4O_2}$" },
-              { id: "c", text: "$\\mathrm{C_3H_6O_3}$" },
-              { id: "d", text: "$\\mathrm{CH_4O}$" },
+              { id: "a", text: "$\\mathrm{CH_4O}$" },
+              { id: "b", text: "$\\mathrm{C_3H_6O_3}$" },
+              { id: "c", text: "$\\mathrm{CH_2O}$" },
+              { id: "d", text: "$\\mathrm{C_2H_4O_2}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -167,12 +167,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\mathrm{CH_3O}$" },
-              { id: "b", text: "$\\mathrm{C_2H_6O_2}$" },
-              { id: "c", text: "$\\mathrm{CH_2O}$" },
-              { id: "d", text: "$\\mathrm{C_3H_9O_3}$" },
+              { id: "a", text: "$\\mathrm{C_3H_9O_3}$" },
+              { id: "b", text: "$\\mathrm{CH_2O}$" },
+              { id: "c", text: "$\\mathrm{C_2H_6O_2}$" },
+              { id: "d", text: "$\\mathrm{CH_3O}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -195,12 +195,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\mathrm{CH_4}$" },
-              { id: "b", text: "$\\mathrm{CH_2}$" },
-              { id: "c", text: "$\\mathrm{C_2H_4}$" },
-              { id: "d", text: "$\\mathrm{CH}$" },
+              { id: "a", text: "$\\mathrm{CH}$" },
+              { id: "b", text: "$\\mathrm{CH_4}$" },
+              { id: "c", text: "$\\mathrm{CH_2}$" },
+              { id: "d", text: "$\\mathrm{C_2H_4}$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -223,12 +223,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\mathrm{MgH}$" },
-              { id: "b", text: "$\\mathrm{MgH_2}$" },
-              { id: "c", text: "$\\mathrm{Mg_2H}$" },
-              { id: "d", text: "$\\mathrm{MgH_4}$" },
+              { id: "a", text: "$\\mathrm{MgH_4}$" },
+              { id: "b", text: "$\\mathrm{Mg_2H}$" },
+              { id: "c", text: "$\\mathrm{MgH_2}$" },
+              { id: "d", text: "$\\mathrm{MgH}$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -251,12 +251,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\mathrm{C_2H_3O_4}$" },
-              { id: "b", text: "$\\mathrm{CH_{1.5}O_2}$" },
+              { id: "a", text: "$\\mathrm{CH_{1.5}O_2}$" },
+              { id: "b", text: "$\\mathrm{C_2H_3O_4}$" },
               { id: "c", text: "$\\mathrm{C_3H_4O_6}$" },
               { id: "d", text: "$\\mathrm{C_2H_4O_4}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -455,9 +455,9 @@ export const lesson12: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$\\mathrm{CH_2O_3}$" },
-              { id: "b", text: "$\\mathrm{C_2H_4O_6}$" },
-              { id: "c", text: "$\\mathrm{CHO_2}$" },
-              { id: "d", text: "$\\mathrm{C_3H_6O_9}$" },
+              { id: "b", text: "$\\mathrm{CHO_2}$" },
+              { id: "c", text: "$\\mathrm{C_3H_6O_9}$" },
+              { id: "d", text: "$\\mathrm{C_2H_4O_6}$" },
             ],
             correctChoiceId: "a",
           },
@@ -537,12 +537,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\mathrm{C_3H_6}$" },
-              { id: "b", text: "$\\mathrm{CH_2}$" },
-              { id: "c", text: "$\\mathrm{C_6H_{12}}$" },
-              { id: "d", text: "$\\mathrm{C_2H_4}$" },
+              { id: "a", text: "$\\mathrm{CH_2}$" },
+              { id: "b", text: "$\\mathrm{C_3H_6}$" },
+              { id: "c", text: "$\\mathrm{C_2H_4}$" },
+              { id: "d", text: "$\\mathrm{C_6H_{12}}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -565,12 +565,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\mathrm{C_5H_{10}O_5}$" },
-              { id: "b", text: "$\\mathrm{C_6H_{12}O_6}$" },
-              { id: "c", text: "$\\mathrm{C_4H_8O_4}$" },
+              { id: "a", text: "$\\mathrm{C_6H_{12}O_6}$" },
+              { id: "b", text: "$\\mathrm{C_4H_8O_4}$" },
+              { id: "c", text: "$\\mathrm{C_5H_{10}O_5}$" },
               { id: "d", text: "$\\mathrm{C_{10}H_{20}O_{10}}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -650,12 +650,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\mathrm{C_2H_4}$" },
-              { id: "b", text: "$\\mathrm{CH_2}$" },
-              { id: "c", text: "$\\mathrm{C_3H_6}$" },
-              { id: "d", text: "$\\mathrm{C_4H_8}$" },
+              { id: "a", text: "$\\mathrm{C_3H_6}$" },
+              { id: "b", text: "$\\mathrm{C_4H_8}$" },
+              { id: "c", text: "$\\mathrm{C_2H_4}$" },
+              { id: "d", text: "$\\mathrm{CH_2}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -679,11 +679,11 @@ export const lesson12: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$\\mathrm{N_2O}$" },
-              { id: "b", text: "$\\mathrm{N_2O_2}$" },
-              { id: "c", text: "$\\mathrm{N_4O_2}$" },
-              { id: "d", text: "$\\mathrm{NO}$" },
+              { id: "b", text: "$\\mathrm{N_4O_2}$" },
+              { id: "c", text: "$\\mathrm{NO}$" },
+              { id: "d", text: "$\\mathrm{N_2O_2}$" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -706,12 +706,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\mathrm{C_3H_6O_3}$" },
-              { id: "b", text: "$\\mathrm{C_2H_4O_2}$" },
-              { id: "c", text: "$\\mathrm{C_6H_{12}O_6}$" },
-              { id: "d", text: "$\\mathrm{CH_2O}$" },
+              { id: "a", text: "$\\mathrm{C_2H_4O_2}$" },
+              { id: "b", text: "$\\mathrm{C_3H_6O_3}$" },
+              { id: "c", text: "$\\mathrm{CH_2O}$" },
+              { id: "d", text: "$\\mathrm{C_6H_{12}O_6}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -734,12 +734,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\mathrm{C_4H_8O_4}$" },
-              { id: "b", text: "$\\mathrm{C_2H_4O_2}$" },
-              { id: "c", text: "$\\mathrm{C_6H_{12}O_6}$" },
-              { id: "d", text: "$\\mathrm{C_3H_6O_3}$" },
+              { id: "a", text: "$\\mathrm{C_6H_{12}O_6}$" },
+              { id: "b", text: "$\\mathrm{C_3H_6O_3}$" },
+              { id: "c", text: "$\\mathrm{C_4H_8O_4}$" },
+              { id: "d", text: "$\\mathrm{C_2H_4O_2}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -938,12 +938,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$30.0\\ \\mathrm{g\\,mol^{-1}}$" },
-              { id: "b", text: "$60.0\\ \\mathrm{g\\,mol^{-1}}$" },
-              { id: "c", text: "$90.0\\ \\mathrm{g\\,mol^{-1}}$" },
-              { id: "d", text: "$180\\ \\mathrm{g\\,mol^{-1}}$" },
+              { id: "a", text: "$60.0\\ \\mathrm{g\\,mol^{-1}}$" },
+              { id: "b", text: "$90.0\\ \\mathrm{g\\,mol^{-1}}$" },
+              { id: "c", text: "$180\\ \\mathrm{g\\,mol^{-1}}$" },
+              { id: "d", text: "$30.0\\ \\mathrm{g\\,mol^{-1}}$" },
             ],
-            correctChoiceId: "d",
+            correctChoiceIc: "d",
           },
           markscheme: {
             principles: [

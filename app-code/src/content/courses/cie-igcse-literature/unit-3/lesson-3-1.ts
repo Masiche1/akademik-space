@@ -113,15 +113,15 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "Always the poet" },
+              { id: "b", text: "The critic" },
               {
-                id: "a",
+                id: "c",
                 text: "The voice/persona narrating the poem — not always the poet",
               },
-              { id: "b", text: "Always the poet" },
-              { id: "c", text: "The reader" },
-              { id: "d", text: "The critic" },
+              { id: "d", text: "The reader" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -150,9 +150,9 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "A grouped set of lines in a poem" },
-              { id: "b", text: "A single line" },
+              { id: "b", text: "The poet's name" },
               { id: "c", text: "The title" },
-              { id: "d", text: "The poet's name" },
+              { id: "d", text: "A single line" },
             ],
             correctChoiceId: "a",
           },
@@ -182,12 +182,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Language appealing to the senses" },
-              { id: "b", text: "Rhyme" },
-              { id: "c", text: "Meter" },
+              { id: "a", text: "Meter" },
+              { id: "b", text: "Language appealing to the senses" },
+              { id: "c", text: "Rhyme" },
               { id: "d", text: "Structure" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -215,12 +215,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Direct comparison — 'life is a journey'" },
+              { id: "a", text: "Rhyme" },
               { id: "b", text: "Comparison using 'like'" },
               { id: "c", text: "Repetition of sounds" },
-              { id: "d", text: "Rhyme" },
+              { id: "d", text: "Direct comparison — 'life is a journey'" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -248,12 +248,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Comparison using 'like' or 'as'" },
-              { id: "b", text: "Direct comparison" },
-              { id: "c", text: "Rhyme" },
-              { id: "d", text: "Structure" },
+              { id: "a", text: "Structure" },
+              { id: "b", text: "Comparison using 'like' or 'as'" },
+              { id: "c", text: "Direct comparison" },
+              { id: "d", text: "Rhyme" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -281,12 +281,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Human qualities to non-human things" },
+              { id: "a", text: "No qualities" },
               { id: "b", text: "Animal qualities" },
               { id: "c", text: "Machine qualities" },
-              { id: "d", text: "No qualities" },
+              { id: "d", text: "Human qualities to non-human things" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -315,9 +315,9 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Repetition of initial consonant sounds" },
-              { id: "b", text: "Repetition of vowel sounds" },
-              { id: "c", text: "Rhyme" },
-              { id: "d", text: "Meter" },
+              { id: "b", text: "Meter" },
+              { id: "c", text: "Repetition of vowel sounds" },
+              { id: "d", text: "Rhyme" },
             ],
             correctChoiceId: "a",
           },
@@ -347,12 +347,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Pattern of rhymes at line endings" },
+              { id: "a", text: "Tone" },
               { id: "b", text: "Meter" },
-              { id: "c", text: "Imagery" },
-              { id: "d", text: "Tone" },
+              { id: "c", text: "Pattern of rhymes at line endings" },
+              { id: "d", text: "Imagery" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -380,12 +380,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The speaker's attitude or mood" },
+              { id: "a", text: "Structure" },
               { id: "b", text: "Rhyme" },
-              { id: "c", text: "Structure" },
-              { id: "d", text: "Imagery" },
+              { id: "c", text: "Imagery" },
+              { id: "d", text: "The speaker's attitude or mood" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -413,15 +413,15 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "The poem ends" },
+              { id: "b", text: "Stanzas break" },
+              { id: "c", text: "Lines rhyme" },
               {
-                id: "a",
+                id: "d",
                 text: "A sentence continues beyond the end of a line",
               },
-              { id: "b", text: "Lines rhyme" },
-              { id: "c", text: "Stanzas break" },
-              { id: "d", text: "The poem ends" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -449,12 +449,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A turn or shift in thought" },
-              { id: "b", text: "A rhyme" },
-              { id: "c", text: "A stanza" },
-              { id: "d", text: "A meter" },
+              { id: "a", text: "A stanza" },
+              { id: "b", text: "A meter" },
+              { id: "c", text: "A rhyme" },
+              { id: "d", text: "A turn or shift in thought" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -482,12 +482,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Repetition of vowel sounds" },
-              { id: "b", text: "Repetition of consonants" },
-              { id: "c", text: "Rhyme" },
-              { id: "d", text: "Meter" },
+              { id: "a", text: "Repetition of consonants" },
+              { id: "b", text: "Rhyme" },
+              { id: "c", text: "Meter" },
+              { id: "d", text: "Repetition of vowel sounds" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -517,8 +517,8 @@ export const lesson31: Lesson = {
             choices: [
               { id: "a", text: "No fixed rhyme or meter" },
               { id: "b", text: "Fixed rhyme" },
-              { id: "c", text: "Fixed meter" },
-              { id: "d", text: "Sonnet form" },
+              { id: "c", text: "Sonnet form" },
+              { id: "d", text: "Fixed meter" },
             ],
             correctChoiceId: "a",
           },
@@ -550,8 +550,8 @@ export const lesson31: Lesson = {
             choices: [
               { id: "a", text: "Words that sound like what they describe" },
               { id: "b", text: "Rhyme" },
-              { id: "c", text: "Meter" },
-              { id: "d", text: "Imagery" },
+              { id: "c", text: "Imagery" },
+              { id: "d", text: "Meter" },
             ],
             correctChoiceId: "a",
           },
@@ -581,12 +581,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "14" },
-              { id: "b", text: "12" },
-              { id: "c", text: "10" },
-              { id: "d", text: "16" },
+              { id: "a", text: "16" },
+              { id: "b", text: "14" },
+              { id: "c", text: "12" },
+              { id: "d", text: "10" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -614,12 +614,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "ABBAABBA CDECDE (octave/sestet)" },
-              { id: "b", text: "ABAB CDCD EFEF GG" },
-              { id: "c", text: "AAAA BBBB" },
-              { id: "d", text: "No rhyme" },
+              { id: "a", text: "No rhyme" },
+              { id: "b", text: "ABBAABBA CDECDE (octave/sestet)" },
+              { id: "c", text: "ABAB CDCD EFEF GG" },
+              { id: "d", text: "AAAA BBBB" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -647,12 +647,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "ABAB CDCD EFEF GG" },
-              { id: "b", text: "ABBAABBA CDECDE" },
-              { id: "c", text: "AAAA BBBB" },
-              { id: "d", text: "No rhyme" },
+              { id: "a", text: "AAAA BBBB" },
+              { id: "b", text: "No rhyme" },
+              { id: "c", text: "ABAB CDCD EFEF GG" },
+              { id: "d", text: "ABBAABBA CDECDE" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -681,9 +681,9 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Understand the meaning" },
-              { id: "b", text: "Identify techniques" },
+              { id: "b", text: "Count syllables" },
               { id: "c", text: "Write an essay" },
-              { id: "d", text: "Count syllables" },
+              { id: "d", text: "Identify techniques" },
             ],
             correctChoiceId: "a",
           },
@@ -714,8 +714,8 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Link every technique to meaning" },
-              { id: "b", text: "List techniques only" },
-              { id: "c", text: "Ignore context" },
+              { id: "b", text: "Ignore context" },
+              { id: "c", text: "List techniques only" },
               { id: "d", text: "Count words" },
             ],
             correctChoiceId: "a",
@@ -883,12 +883,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Human ability to whisper" },
-              { id: "b", text: "Animal qualities" },
-              { id: "c", text: "Machine qualities" },
+              { id: "a", text: "Machine qualities" },
+              { id: "b", text: "Human ability to whisper" },
+              { id: "c", text: "Animal qualities" },
               { id: "d", text: "No qualities" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -984,8 +984,8 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Alliteration is not a device" },
-              { id: "b", text: "Metaphor" },
-              { id: "c", text: "Simile" },
+              { id: "b", text: "Simile" },
+              { id: "c", text: "Metaphor" },
               { id: "d", text: "Personification" },
             ],
             correctChoiceId: "a",
@@ -1118,12 +1118,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Visual imagery" },
+              { id: "a", text: "Rhyme scheme" },
               { id: "b", text: "Rhyme" },
-              { id: "c", text: "Meter" },
-              { id: "d", text: "Rhyme scheme" },
+              { id: "c", text: "Visual imagery" },
+              { id: "d", text: "Meter" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1216,12 +1216,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Four lines" },
-              { id: "b", text: "Two lines" },
-              { id: "c", text: "Three lines" },
+              { id: "a", text: "Two lines" },
+              { id: "b", text: "Three lines" },
+              { id: "c", text: "Four lines" },
               { id: "d", text: "Five lines" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1317,12 +1317,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Two lines" },
-              { id: "b", text: "Four lines" },
-              { id: "c", text: "Three lines" },
-              { id: "d", text: "Six lines" },
+              { id: "a", text: "Three lines" },
+              { id: "b", text: "Six lines" },
+              { id: "c", text: "Four lines" },
+              { id: "d", text: "Two lines" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1413,12 +1413,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Visual rhyme" },
-              { id: "b", text: "Perfect rhyme" },
-              { id: "c", text: "Slant rhyme" },
-              { id: "d", text: "Internal rhyme" },
+              { id: "a", text: "Internal rhyme" },
+              { id: "b", text: "Slant rhyme" },
+              { id: "c", text: "Perfect rhyme" },
+              { id: "d", text: "Visual rhyme" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1553,8 +1553,8 @@ export const lesson31: Lesson = {
             choices: [
               { id: "a", text: "Sonnet" },
               { id: "b", text: "Haiku" },
-              { id: "c", text: "Ballad" },
-              { id: "d", text: "Free verse" },
+              { id: "c", text: "Free verse" },
+              { id: "d", text: "Ballad" },
             ],
             correctChoiceId: "a",
           },
@@ -1647,12 +1647,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The smell of rain" },
-              { id: "b", text: "The concept of time" },
+              { id: "a", text: "The concept of time" },
+              { id: "b", text: "The smell of rain" },
               { id: "c", text: "The idea of freedom" },
               { id: "d", text: "The meaning of life" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1815,12 +1815,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "17 syllables in 3 lines" },
-              { id: "b", text: "14 lines" },
+              { id: "a", text: "14 lines" },
+              { id: "b", text: "Rhyme required" },
               { id: "c", text: "No structure" },
-              { id: "d", text: "Rhyme required" },
+              { id: "d", text: "17 syllables in 3 lines" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1916,12 +1916,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Novel" },
-              { id: "b", text: "Sonnet" },
-              { id: "c", text: "Haiku" },
+              { id: "a", text: "Haiku" },
+              { id: "b", text: "Novel" },
+              { id: "c", text: "Sonnet" },
               { id: "d", text: "Ballad" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -2012,12 +2012,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Alliteration" },
-              { id: "b", text: "Metaphor" },
-              { id: "c", text: "Simile" },
-              { id: "d", text: "Personification" },
+              { id: "a", text: "Simile" },
+              { id: "b", text: "Alliteration" },
+              { id: "c", text: "Personification" },
+              { id: "d", text: "Metaphor" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -2159,12 +2159,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "'I' as the narrator" },
-              { id: "b", text: "'He' or 'she'" },
+              { id: "a", text: "Multiple narrators" },
+              { id: "b", text: "'I' as the narrator" },
               { id: "c", text: "No narrator" },
-              { id: "d", text: "Multiple narrators" },
+              { id: "d", text: "'He' or 'she'" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -2192,12 +2192,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "One character's perspective" },
-              { id: "b", text: "All characters equally" },
+              { id: "a", text: "All characters equally" },
+              { id: "b", text: "No characters" },
               { id: "c", text: "The narrator's thoughts" },
-              { id: "d", text: "No characters" },
+              { id: "d", text: "One character's perspective" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -2226,8 +2226,8 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "All characters' thoughts and feelings" },
-              { id: "b", text: "Only one character" },
-              { id: "c", text: "No thoughts" },
+              { id: "b", text: "No thoughts" },
+              { id: "c", text: "Only one character" },
               { id: "d", text: "Only actions" },
             ],
             correctChoiceId: "a",
@@ -2258,12 +2258,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Blends narrator and character's voice" },
-              { id: "b", text: "Is only first person" },
-              { id: "c", text: "Has no narrator" },
-              { id: "d", text: "Is always omniscient" },
+              { id: "a", text: "Has no narrator" },
+              { id: "b", text: "Is always omniscient" },
+              { id: "c", text: "Blends narrator and character's voice" },
+              { id: "d", text: "Is only first person" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -2291,15 +2291,15 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "Character is absent" },
+              { id: "b", text: "Character speaks" },
+              { id: "c", text: "Character is shown through actions" },
               {
-                id: "a",
+                id: "d",
                 text: "The narrator tells us what a character is like",
               },
-              { id: "b", text: "Character is shown through actions" },
-              { id: "c", text: "Character speaks" },
-              { id: "d", text: "Character is absent" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -2331,9 +2331,9 @@ export const lesson31: Lesson = {
                 id: "a",
                 text: "Character is shown through actions, speech, thoughts",
               },
-              { id: "b", text: "Narrator describes directly" },
-              { id: "c", text: "Character is absent" },
-              { id: "d", text: "No information given" },
+              { id: "b", text: "No information given" },
+              { id: "c", text: "Narrator describes directly" },
+              { id: "d", text: "Character is absent" },
             ],
             correctChoiceId: "a",
           },
@@ -2367,8 +2367,8 @@ export const lesson31: Lesson = {
                 id: "a",
                 text: "Weather/environment reflects character's emotions",
               },
-              { id: "b", text: "Weather is described" },
-              { id: "c", text: "Character is sad" },
+              { id: "b", text: "Character is sad" },
+              { id: "c", text: "Weather is described" },
               { id: "d", text: "Setting is ignored" },
             ],
             correctChoiceId: "a",
@@ -2399,12 +2399,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Objects/places representing bigger ideas" },
-              { id: "b", text: "Literal meaning only" },
-              { id: "c", text: "Character names" },
+              { id: "a", text: "Character names" },
+              { id: "b", text: "Objects/places representing bigger ideas" },
+              { id: "c", text: "Literal meaning only" },
               { id: "d", text: "Dialogue" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -2432,15 +2432,15 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "Never appears" },
               {
-                id: "a",
+                id: "b",
                 text: "May not tell the truth or have biased perspective",
               },
-              { id: "b", text: "Always tells truth" },
               { id: "c", text: "Is omniscient" },
-              { id: "d", text: "Never appears" },
+              { id: "d", text: "Always tells truth" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -2469,8 +2469,8 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "How they speak — vocabulary, tone, manner" },
-              { id: "b", text: "What they look like" },
-              { id: "c", text: "Their age" },
+              { id: "b", text: "Their age" },
+              { id: "c", text: "What they look like" },
               { id: "d", text: "Their job" },
             ],
             correctChoiceId: "a",
@@ -2501,12 +2501,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Feeling created by description" },
-              { id: "b", text: "Plot" },
-              { id: "c", text: "Character" },
-              { id: "d", text: "Setting" },
+              { id: "a", text: "Character" },
+              { id: "b", text: "Setting" },
+              { id: "c", text: "Feeling created by description" },
+              { id: "d", text: "Plot" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -2534,12 +2534,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The main character" },
-              { id: "b", text: "The villain" },
-              { id: "c", text: "A minor character" },
-              { id: "d", text: "The narrator" },
+              { id: "a", text: "The villain" },
+              { id: "b", text: "The main character" },
+              { id: "c", text: "The narrator" },
+              { id: "d", text: "A minor character" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -2567,12 +2567,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The character opposing the protagonist" },
-              { id: "b", text: "The main character" },
+              { id: "a", text: "The main character" },
+              { id: "b", text: "The character opposing the protagonist" },
               { id: "c", text: "A minor character" },
               { id: "d", text: "The narrator" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -2604,9 +2604,9 @@ export const lesson31: Lesson = {
                 id: "a",
                 text: "How a character changes/grows through the story",
               },
-              { id: "b", text: "Character description" },
-              { id: "c", text: "Character names" },
-              { id: "d", text: "Character count" },
+              { id: "b", text: "Character count" },
+              { id: "c", text: "Character description" },
+              { id: "d", text: "Character names" },
             ],
             correctChoiceId: "a",
           },
@@ -2636,12 +2636,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Doesn't change or develop" },
-              { id: "b", text: "Is complex" },
+              { id: "a", text: "Is the main character" },
+              { id: "b", text: "Doesn't change or develop" },
               { id: "c", text: "Changes a lot" },
-              { id: "d", text: "Is the main character" },
+              { id: "d", text: "Is complex" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -2670,9 +2670,9 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Is complex and develops" },
-              { id: "b", text: "Is simple" },
-              { id: "c", text: "Doesn't change" },
-              { id: "d", text: "Is minor" },
+              { id: "b", text: "Is minor" },
+              { id: "c", text: "Is simple" },
+              { id: "d", text: "Doesn't change" },
             ],
             correctChoiceId: "a",
           },
@@ -2702,12 +2702,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Hints at future events" },
-              { id: "b", text: "Past events" },
+              { id: "a", text: "Past events" },
+              { id: "b", text: "Setting description" },
               { id: "c", text: "Character names" },
-              { id: "d", text: "Setting description" },
+              { id: "d", text: "Hints at future events" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -2735,12 +2735,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A scene from the past" },
-              { id: "b", text: "Future events" },
-              { id: "c", text: "Present events" },
-              { id: "d", text: "Character thoughts" },
+              { id: "a", text: "Present events" },
+              { id: "b", text: "Character thoughts" },
+              { id: "c", text: "A scene from the past" },
+              { id: "d", text: "Future events" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -2768,15 +2768,15 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "A soliloquy" },
+              { id: "b", text: "A main speech" },
               {
-                id: "a",
+                id: "c",
                 text: "A remark heard by audience but not other characters",
               },
-              { id: "b", text: "A main speech" },
-              { id: "c", text: "A stage direction" },
-              { id: "d", text: "A soliloquy" },
+              { id: "d", text: "A stage direction" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -2938,12 +2938,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Weather to character's emotions" },
-              { id: "b", text: "Character to setting" },
-              { id: "c", text: "Plot to theme" },
-              { id: "d", text: "Dialogue to action" },
+              { id: "a", text: "Plot to theme" },
+              { id: "b", text: "Dialogue to action" },
+              { id: "c", text: "Weather to character's emotions" },
+              { id: "d", text: "Character to setting" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -3036,8 +3036,8 @@ export const lesson31: Lesson = {
             choices: [
               { id: "a", text: "Second person limited" },
               { id: "b", text: "First person" },
-              { id: "c", text: "Third person limited" },
-              { id: "d", text: "Third person omniscient" },
+              { id: "c", text: "Third person omniscient" },
+              { id: "d", text: "Third person limited" },
             ],
             correctChoiceId: "a",
           },
@@ -3165,12 +3165,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Character speaking alone/thoughts aloud" },
-              { id: "b", text: "Dialogue between characters" },
-              { id: "c", text: "Stage direction" },
-              { id: "d", text: "Narration" },
+              { id: "a", text: "Stage direction" },
+              { id: "b", text: "Narration" },
+              { id: "c", text: "Character speaking alone/thoughts aloud" },
+              { id: "d", text: "Dialogue between characters" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -3262,9 +3262,9 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Static narrator" },
-              { id: "b", text: "Flat character" },
+              { id: "b", text: "Dynamic character" },
               { id: "c", text: "Round character" },
-              { id: "d", text: "Dynamic character" },
+              { id: "d", text: "Flat character" },
             ],
             correctChoiceId: "a",
           },
@@ -3366,9 +3366,9 @@ export const lesson31: Lesson = {
                 id: "a",
                 text: "Reveal character through actions not description",
               },
-              { id: "b", text: "Describe everything" },
+              { id: "b", text: "Hide information" },
               { id: "c", text: "Tell the plot" },
-              { id: "d", text: "Hide information" },
+              { id: "d", text: "Describe everything" },
             ],
             correctChoiceId: "a",
           },
@@ -3461,12 +3461,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Alliteration" },
-              { id: "b", text: "Flashback" },
-              { id: "c", text: "Foreshadowing" },
-              { id: "d", text: "Stream of consciousness" },
+              { id: "a", text: "Foreshadowing" },
+              { id: "b", text: "Alliteration" },
+              { id: "c", text: "Stream of consciousness" },
+              { id: "d", text: "Flashback" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -3603,8 +3603,8 @@ export const lesson31: Lesson = {
                 text: "Contrasts with protagonist to highlight traits",
               },
               { id: "b", text: "Is identical to protagonist" },
-              { id: "c", text: "Is the villain" },
-              { id: "d", text: "Is absent" },
+              { id: "c", text: "Is absent" },
+              { id: "d", text: "Is the villain" },
             ],
             correctChoiceId: "a",
           },
@@ -3698,12 +3698,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Fourth person" },
+              { id: "a", text: "Third omniscient" },
               { id: "b", text: "First person" },
-              { id: "c", text: "Third limited" },
-              { id: "d", text: "Third omniscient" },
+              { id: "c", text: "Fourth person" },
+              { id: "d", text: "Third limited" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -3863,12 +3863,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Plays a small role" },
-              { id: "b", text: "Is the main character" },
-              { id: "c", text: "Is the villain" },
-              { id: "d", text: "Is the narrator" },
+              { id: "a", text: "Is the main character" },
+              { id: "b", text: "Is the narrator" },
+              { id: "c", text: "Plays a small role" },
+              { id: "d", text: "Is the villain" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -3965,12 +3965,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Alliteration" },
-              { id: "b", text: "Plot" },
-              { id: "c", text: "Character" },
-              { id: "d", text: "Setting" },
+              { id: "a", text: "Character" },
+              { id: "b", text: "Alliteration" },
+              { id: "c", text: "Setting" },
+              { id: "d", text: "Plot" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -4061,12 +4061,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Resolution/end of story" },
-              { id: "b", text: "Beginning" },
-              { id: "c", text: "Climax" },
+              { id: "a", text: "Beginning" },
+              { id: "b", text: "Climax" },
+              { id: "c", text: "Resolution/end of story" },
               { id: "d", text: "Conflict" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

@@ -54,12 +54,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Zinc, because it loses electrons and its oxidation number increases from $0$ to $+2$" },
-              { id: "b", text: "Copper(II) ions, because they gain electrons" },
+              { id: "a", text: "Both species are oxidised equally" },
+              { id: "b", text: "Zinc, because it loses electrons and its oxidation number increases from $0$ to $+2$" },
               { id: "c", text: "Neither species is oxidised" },
-              { id: "d", text: "Both species are oxidised equally" },
+              { id: "d", text: "Copper(II) ions, because they gain electrons" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -82,12 +82,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\mathrm{Fe} \\rightarrow \\mathrm{Fe}^{3+} + 3e^-$" },
-              { id: "b", text: "$\\mathrm{Fe} + 3e^- \\rightarrow \\mathrm{Fe}^{3+}$" },
-              { id: "c", text: "$\\mathrm{Fe} \\rightarrow \\mathrm{Fe}^{3+} + e^-$" },
-              { id: "d", text: "$\\mathrm{Fe}^{3+} + 3e^- \\rightarrow \\mathrm{Fe}$" },
+              { id: "a", text: "$\\mathrm{Fe} \\rightarrow \\mathrm{Fe}^{3+} + e^-$" },
+              { id: "b", text: "$\\mathrm{Fe}^{3+} + 3e^- \\rightarrow \\mathrm{Fe}$" },
+              { id: "c", text: "$\\mathrm{Fe} + 3e^- \\rightarrow \\mathrm{Fe}^{3+}$" },
+              { id: "d", text: "$\\mathrm{Fe} \\rightarrow \\mathrm{Fe}^{3+} + 3e^-$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -112,9 +112,9 @@ export const lesson62: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$+2$ in $\\mathrm{ZnCl}_2$ and $0$ in Zn; $\\mathrm{Zn}^{2+}$ is the oxidising agent" },
-              { id: "b", text: "$0$ in $\\mathrm{ZnCl}_2$ and $+2$ in Zn; Mg is the oxidising agent" },
-              { id: "c", text: "$+1$ in $\\mathrm{ZnCl}_2$ and $0$ in Zn; Cl is the oxidising agent" },
-              { id: "d", text: "$+2$ in both; no redox occurs" },
+              { id: "b", text: "$+2$ in both; no redox occurs" },
+              { id: "c", text: "$0$ in $\\mathrm{ZnCl}_2$ and $+2$ in Zn; Mg is the oxidising agent" },
+              { id: "d", text: "$+1$ in $\\mathrm{ZnCl}_2$ and $0$ in Zn; Cl is the oxidising agent" },
             ],
             correctChoiceId: "a",
           },
@@ -171,12 +171,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$+6$" },
-              { id: "b", text: "$+4$" },
-              { id: "c", text: "$+2$" },
+              { id: "a", text: "$+4$" },
+              { id: "b", text: "$+2$" },
+              { id: "c", text: "$+6$" },
               { id: "d", text: "$-2$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -199,12 +199,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\mathrm{Cu}^{2+}$, because its oxidation number decreases from $+2$ to $0$" },
+              { id: "a", text: "Neither species is reduced" },
               { id: "b", text: "Zn, because it loses electrons" },
-              { id: "c", text: "Both species are reduced" },
-              { id: "d", text: "Neither species is reduced" },
+              { id: "c", text: "$\\mathrm{Cu}^{2+}$, because its oxidation number decreases from $+2$ to $0$" },
+              { id: "d", text: "Both species are reduced" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -228,8 +228,8 @@ export const lesson62: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$\\mathrm{Cu}^{2+} + 2e^- \\rightarrow \\mathrm{Cu}$" },
-              { id: "b", text: "$\\mathrm{Cu}^{2+} \\rightarrow \\mathrm{Cu} + 2e^-$" },
-              { id: "c", text: "$\\mathrm{Cu}^{2+} + e^- \\rightarrow \\mathrm{Cu}$" },
+              { id: "b", text: "$\\mathrm{Cu}^{2+} + e^- \\rightarrow \\mathrm{Cu}$" },
+              { id: "c", text: "$\\mathrm{Cu}^{2+} \\rightarrow \\mathrm{Cu} + 2e^-$" },
               { id: "d", text: "$\\mathrm{Cu} + 2e^- \\rightarrow \\mathrm{Cu}^{2+}$" },
             ],
             correctChoiceId: "a",
@@ -255,12 +255,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\mathrm{NaOH} + \\mathrm{HCl} \\rightarrow \\mathrm{NaCl} + \\mathrm{H}_2\\mathrm{O}$" },
+              { id: "a", text: "$2\\mathrm{Mg} + \\mathrm{O}_2 \\rightarrow 2\\mathrm{MgO}$" },
               { id: "b", text: "$\\mathrm{Zn} + \\mathrm{CuSO}_4 \\rightarrow \\mathrm{ZnSO}_4 + \\mathrm{Cu}$" },
-              { id: "c", text: "$2\\mathrm{Mg} + \\mathrm{O}_2 \\rightarrow 2\\mathrm{MgO}$" },
+              { id: "c", text: "$\\mathrm{NaOH} + \\mathrm{HCl} \\rightarrow \\mathrm{NaCl} + \\mathrm{H}_2\\mathrm{O}$" },
               { id: "d", text: "$\\mathrm{Fe} + 2\\mathrm{HCl} \\rightarrow \\mathrm{FeCl}_2 + \\mathrm{H}_2$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -333,12 +333,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$+7$" },
-              { id: "b", text: "$+4$" },
-              { id: "c", text: "$+2$" },
-              { id: "d", text: "$-1$" },
+              { id: "a", text: "$-1$" },
+              { id: "b", text: "$+2$" },
+              { id: "c", text: "$+4$" },
+              { id: "d", text: "$+7$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -527,12 +527,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "From the anode to the cathode through the external circuit" },
-              { id: "b", text: "From the cathode to the anode through the external circuit" },
-              { id: "c", text: "Through the electrolyte solution" },
-              { id: "d", text: "From the salt bridge to the electrodes" },
+              { id: "a", text: "From the salt bridge to the electrodes" },
+              { id: "b", text: "From the anode to the cathode through the external circuit" },
+              { id: "c", text: "From the cathode to the anode through the external circuit" },
+              { id: "d", text: "Through the electrolyte solution" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -556,9 +556,9 @@ export const lesson62: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$+1.10$ V" },
-              { id: "b", text: "$-1.10$ V" },
+              { id: "b", text: "$-0.42$ V" },
               { id: "c", text: "$+0.42$ V" },
-              { id: "d", text: "$-0.42$ V" },
+              { id: "d", text: "$-1.10$ V" },
             ],
             correctChoiceId: "a",
           },
@@ -585,8 +585,8 @@ export const lesson62: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "The anode is positive and chloride ions are oxidised to chlorine; the cathode is negative and sodium ions are reduced to sodium" },
-              { id: "b", text: "The anode is negative and sodium ions are oxidised; the cathode is positive and chloride ions are reduced" },
-              { id: "c", text: "The anode is positive and sodium ions are oxidised; the cathode is negative and chlorine is reduced" },
+              { id: "b", text: "The anode is positive and sodium ions are oxidised; the cathode is negative and chlorine is reduced" },
+              { id: "c", text: "The anode is negative and sodium ions are oxidised; the cathode is positive and chloride ions are reduced" },
               { id: "d", text: "Both electrodes are positive and both Na and Cl$_2$ form at the anode" },
             ],
             correctChoiceId: "a",
@@ -643,12 +643,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The anode is connected to the positive terminal of the power supply and the cathode to the negative terminal" },
-              { id: "b", text: "The anode is connected to the negative terminal and the cathode to the positive terminal" },
-              { id: "c", text: "Both electrodes are connected to the positive terminal" },
+              { id: "a", text: "The anode is connected to the negative terminal and the cathode to the positive terminal" },
+              { id: "b", text: "Both electrodes are connected to the positive terminal" },
+              { id: "c", text: "The anode is connected to the positive terminal of the power supply and the cathode to the negative terminal" },
               { id: "d", text: "The anode is negative because oxidation occurs there" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -671,12 +671,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$0.00$ V" },
-              { id: "b", text: "$+1.00$ V" },
+              { id: "a", text: "$+1.00$ V" },
+              { id: "b", text: "$0.00$ V" },
               { id: "c", text: "$-1.00$ V" },
               { id: "d", text: "It varies with temperature" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -699,12 +699,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$E^\\theta_{\\text{cell}} = E^\\theta_{\\text{cathode}} - E^\\theta_{\\text{anode}}$" },
-              { id: "b", text: "$E^\\theta_{\\text{cell}} = E^\\theta_{\\text{anode}} - E^\\theta_{\\text{cathode}}$" },
-              { id: "c", text: "$E^\\theta_{\\text{cell}} = E^\\theta_{\\text{cathode}} + E^\\theta_{\\text{anode}}$" },
-              { id: "d", text: "$E^\\theta_{\\text{cell}} = E^\\theta_{\\text{cathode}} \\times E^\\theta_{\\text{anode}}$" },
+              { id: "a", text: "$E^\\theta_{\\text{cell}} = E^\\theta_{\\text{cathode}} + E^\\theta_{\\text{anode}}$" },
+              { id: "b", text: "$E^\\theta_{\\text{cell}} = E^\\theta_{\\text{cathode}} \\times E^\\theta_{\\text{anode}}$" },
+              { id: "c", text: "$E^\\theta_{\\text{cell}} = E^\\theta_{\\text{cathode}} - E^\\theta_{\\text{anode}}$" },
+              { id: "d", text: "$E^\\theta_{\\text{cell}} = E^\\theta_{\\text{anode}} - E^\\theta_{\\text{cathode}}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -728,8 +728,8 @@ export const lesson62: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Ag as cathode with Cu as anode: $E^\\theta_{\\text{cell}} = +0.46$ V" },
-              { id: "b", text: "Cu as cathode with Ag as anode: $E^\\theta_{\\text{cell}} = -0.46$ V" },
-              { id: "c", text: "Both as cathodes: $E^\\theta_{\\text{cell}} = +1.14$ V" },
+              { id: "b", text: "Both as cathodes: $E^\\theta_{\\text{cell}} = +1.14$ V" },
+              { id: "c", text: "Cu as cathode with Ag as anode: $E^\\theta_{\\text{cell}} = -0.46$ V" },
               { id: "d", text: "Ag as anode with Cu as anode: $E^\\theta_{\\text{cell}} = 0.00$ V" },
             ],
             correctChoiceId: "a",
@@ -832,8 +832,8 @@ export const lesson62: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Copper is deposited at the cathode and copper dissolves at the anode" },
-              { id: "b", text: "Hydrogen is evolved at the cathode and oxygen at the anode" },
-              { id: "c", text: "Copper is deposited at both electrodes" },
+              { id: "b", text: "Copper is deposited at both electrodes" },
+              { id: "c", text: "Hydrogen is evolved at the cathode and oxygen at the anode" },
               { id: "d", text: "Oxygen is evolved at the cathode and copper dissolves at the anode" },
             ],
             correctChoiceId: "a",

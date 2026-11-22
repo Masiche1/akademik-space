@@ -55,12 +55,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Body mass" },
-              { id: "b", text: "Height" },
-              { id: "c", text: "ABO blood group" },
-              { id: "d", text: "Leaf length" },
+              { id: "a", text: "Leaf length" },
+              { id: "b", text: "Body mass" },
+              { id: "c", text: "Height" },
+              { id: "d", text: "ABO blood group" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -190,11 +190,11 @@ export const lesson23: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Bacteria choose to become resistant when exposed to antibiotics" },
-              { id: "b", text: "Antibiotics cause bacteria to mutate into resistant forms" },
-              { id: "c", text: "Resistant bacteria survive antibiotics, reproduce and pass on the resistance allele" },
-              { id: "d", text: "Individual bacteria gradually become used to the antibiotic" },
+              { id: "b", text: "Resistant bacteria survive antibiotics, reproduce and pass on the resistance allele" },
+              { id: "c", text: "Individual bacteria gradually become used to the antibiotic" },
+              { id: "d", text: "Antibiotics cause bacteria to mutate into resistant forms" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [

@@ -54,12 +54,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "When characters know the truth" },
-              { id: "b", text: "When the audience knows something characters don't" },
-              { id: "c", text: "When the ending is sad" },
-              { id: "d", text: "When the writer is funny" },
+              { id: "a", text: "When the ending is sad" },
+              { id: "b", text: "When the writer is funny" },
+              { id: "c", text: "When the audience knows something characters don't" },
+              { id: "d", text: "When characters know the truth" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Dramatic irony", statement: "Audience knows more than characters." }],
@@ -139,12 +139,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A character says 'I love Mondays' while crying" },
-              { id: "b", text: "A marriage counsellor announces her own divorce" },
+              { id: "a", text: "A marriage counsellor announces her own divorce" },
+              { id: "b", text: "A character says 'I love Mondays' while crying" },
               { id: "c", text: "The audience knows the killer is in the room" },
               { id: "d", text: "A sentence can be read two ways" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Situational irony", statement: "Outcome opposite to expectation." }],
@@ -185,12 +185,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Verbal irony — the detective says the opposite of what he means" },
-              { id: "b", text: "Dramatic irony — the audience knows about the bomb but the detective and other characters do not" },
+              { id: "a", text: "No irony is present" },
+              { id: "b", text: "Verbal irony — the detective says the opposite of what he means" },
               { id: "c", text: "Situational irony — the outcome is unexpected" },
-              { id: "d", text: "No irony is present" },
+              { id: "d", text: "Dramatic irony — the audience knows about the bomb but the detective and other characters do not" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Dramatic irony", statement: "Audience knows something characters don't." }],
@@ -211,12 +211,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Genuine agreement" },
-              { id: "b", text: "Verbal irony — 'fine' means the opposite given her body language" },
-              { id: "c", text: "A factual report" },
-              { id: "d", text: "A question" },
+              { id: "a", text: "Verbal irony — 'fine' means the opposite given her body language" },
+              { id: "b", text: "A question" },
+              { id: "c", text: "Genuine agreement" },
+              { id: "d", text: "A factual report" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Verbal irony", statement: "Words contradict meaning when context signals the opposite." }],
@@ -232,12 +232,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "There is no difference" },
-              { id: "b", text: "Ambiguity offers multiple possible meanings; irony specifically means the opposite of what is expected" },
-              { id: "c", text: "Irony is always accidental; ambiguity is always deliberate" },
-              { id: "d", text: "Ambiguity only occurs in poetry" },
+              { id: "a", text: "Irony is always accidental; ambiguity is always deliberate" },
+              { id: "b", text: "There is no difference" },
+              { id: "c", text: "Ambiguity only occurs in poetry" },
+              { id: "d", text: "Ambiguity offers multiple possible meanings; irony specifically means the opposite of what is expected" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Ambiguity vs irony", statement: "Ambiguity = multiple meanings; irony = opposite expectation." }],
@@ -294,10 +294,10 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "When the audience knows more than characters" },
+              { id: "a", text: "When an outcome surprises everyone" },
               { id: "b", text: "When someone says the opposite of what they mean" },
-              { id: "c", text: "When an outcome surprises everyone" },
-              { id: "d", text: "When a text has two meanings" },
+              { id: "c", text: "When a text has two meanings" },
+              { id: "d", text: "When the audience knows more than characters" },
             ],
             correctChoiceId: "b",
           },
@@ -364,11 +364,11 @@ export const lesson13: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "A practical seating arrangement" },
-              { id: "b", text: "A poignant ambiguity — the absent person (dead or gone) makes the toast ambiguous between celebration and mourning" },
-              { id: "c", text: "A comic moment about bad manners" },
+              { id: "b", text: "A comic moment about bad manners" },
+              { id: "c", text: "A poignant ambiguity — the absent person (dead or gone) makes the toast ambiguous between celebration and mourning" },
               { id: "d", text: "Evidence the party is over" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Ambiguity", statement: "An unexplained detail can carry multiple emotional meanings." }],
@@ -438,11 +438,11 @@ export const lesson13: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "A long quotation" },
-              { id: "b", text: "A brief reference to another work, event or person" },
-              { id: "c", text: "A type of rhyme" },
-              { id: "d", text: "A character's name" },
+              { id: "b", text: "A character's name" },
+              { id: "c", text: "A brief reference to another work, event or person" },
+              { id: "d", text: "A type of rhyme" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Allusion", statement: "Brief reference to another work/event/person." }],
@@ -522,12 +522,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A direct quotation of a whole poem" },
-              { id: "b", text: "A brief, indirect reference to another work, event or person" },
-              { id: "c", text: "A type of rhyme scheme" },
-              { id: "d", text: "A character's nickname" },
+              { id: "a", text: "A character's nickname" },
+              { id: "b", text: "A direct quotation of a whole poem" },
+              { id: "c", text: "A brief, indirect reference to another work, event or person" },
+              { id: "d", text: "A type of rhyme scheme" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Allusion", statement: "Brief reference to another work/event/person." }],
@@ -568,12 +568,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A Greek vase — it suggests archaeology" },
-              { id: "b", text: "The myth of Pandora — it suggests unleashing trouble or irreversible consequences" },
-              { id: "c", text: "A children's toy — it suggests playfulness" },
-              { id: "d", text: "Nothing — it is a literal box" },
+              { id: "a", text: "The myth of Pandora — it suggests unleashing trouble or irreversible consequences" },
+              { id: "b", text: "A Greek vase — it suggests archaeology" },
+              { id: "c", text: "Nothing — it is a literal box" },
+              { id: "d", text: "A children's toy — it suggests playfulness" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Mythological allusion", statement: "Allusions borrow meaning from the original story." }],
@@ -596,8 +596,8 @@ export const lesson13: Lesson = {
             choices: [
               { id: "a", text: "It makes the sentence longer without meaning" },
               { id: "b", text: "It invokes Job's legendary endurance, giving the patience biblical weight" },
-              { id: "c", text: "It suggests she is unemployed" },
-              { id: "d", text: "It is a spelling error" },
+              { id: "c", text: "It is a spelling error" },
+              { id: "d", text: "It suggests she is unemployed" },
             ],
             correctChoiceId: "b",
           },
@@ -622,8 +622,8 @@ export const lesson13: Lesson = {
             choices: [
               { id: "a", text: "Nothing — it is just decoration" },
               { id: "b", text: "It adds futility and Sisyphean struggle — determination despite repetition and possible meaninglessness" },
-              { id: "c", text: "It makes him look weak" },
-              { id: "d", text: "It changes the setting to ancient Greece" },
+              { id: "c", text: "It changes the setting to ancient Greece" },
+              { id: "d", text: "It makes him look weak" },
             ],
             correctChoiceId: "b",
           },
@@ -682,10 +682,10 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "They are identical" },
+              { id: "a", text: "A quotation never references other texts" },
               { id: "b", text: "A quotation repeats exact words; an allusion is a brief indirect reference" },
-              { id: "c", text: "An allusion is always longer" },
-              { id: "d", text: "A quotation never references other texts" },
+              { id: "c", text: "They are identical" },
+              { id: "d", text: "An allusion is always longer" },
             ],
             correctChoiceId: "b",
           },
@@ -751,12 +751,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Fishing — it suggests the character loves fishing" },
-              { id: "b", text: "The idiom of opening a can of worms — it suggests unleashing problems that are hard to control" },
+              { id: "a", text: "The idiom of opening a can of worms — it suggests unleashing problems that are hard to control" },
+              { id: "b", text: "Fishing — it suggests the character loves fishing" },
               { id: "c", text: "A literal container — it is not an allusion" },
               { id: "d", text: "A biblical story — it suggests sin" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Idiom and allusion", statement: "Idioms borrow figurative meaning from cultural usage." }],

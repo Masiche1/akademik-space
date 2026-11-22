@@ -49,10 +49,10 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$4$" },
-              { id: "b", text: "$3$" },
+              { id: "a", text: "$-4$" },
+              { id: "b", text: "$4$" },
               { id: "c", text: "$-3$" },
-              { id: "d", text: "$-4$" },
+              { id: "d", text: "$3$" },
             ],
             correctChoiceId: "c",
           },
@@ -185,12 +185,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The object is moving at a constant speed" },
-              { id: "b", text: "The object is stationary" },
+              { id: "a", text: "The object is stationary" },
+              { id: "b", text: "The object is moving at a constant speed" },
               { id: "c", text: "The object is returning to the start" },
               { id: "d", text: "The object is accelerating" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Distance-time graphs", statement: "The gradient is the speed, so a gradient of zero means no movement." }],

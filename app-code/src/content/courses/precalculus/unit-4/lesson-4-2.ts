@@ -54,11 +54,11 @@ export const lesson42: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$3\\times3$" },
-              { id: "b", text: "$2\\times4$" },
-              { id: "c", text: "$4\\times2$" },
-              { id: "d", text: "$AB$ is not defined" },
+              { id: "b", text: "$4\\times2$" },
+              { id: "c", text: "$AB$ is not defined" },
+              { id: "d", text: "$2\\times4$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -208,9 +208,9 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$26$" },
+              { id: "a", text: "$-14$" },
               { id: "b", text: "$14$" },
-              { id: "c", text: "$-14$" },
+              { id: "c", text: "$26$" },
               { id: "d", text: "$7$" },
             ],
             correctChoiceId: "b",

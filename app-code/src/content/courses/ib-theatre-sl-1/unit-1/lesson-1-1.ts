@@ -56,11 +56,11 @@ export const lesson11: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "The volume of speech" },
-              { id: "b", text: "The height at which performers work — standing, sitting, lying" },
-              { id: "c", text: "The tempo of movement" },
+              { id: "b", text: "The tempo of movement" },
+              { id: "c", text: "The height at which performers work — standing, sitting, lying" },
               { id: "d", text: "The lighting intensity" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -162,10 +162,10 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The pitch of the voice" },
+              { id: "a", text: "The tempo of movement" },
               { id: "b", text: "The use of distance and spatial relationships between performers" },
-              { id: "c", text: "The tempo of movement" },
-              { id: "d", text: "The intensity of stage lighting" },
+              { id: "c", text: "The intensity of stage lighting" },
+              { id: "d", text: "The pitch of the voice" },
             ],
             correctChoiceId: "b",
           },
@@ -191,12 +191,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A performer lying curled in the centre of the stage" },
-              { id: "b", text: "A performer standing over another and invading their personal space" },
+              { id: "a", text: "A performer facing away from the audience" },
+              { id: "b", text: "A performer lying curled in the centre of the stage" },
               { id: "c", text: "A performer making small, hesitant movements at the edge of the stage" },
-              { id: "d", text: "A performer facing away from the audience" },
+              { id: "d", text: "A performer standing over another and invading their personal space" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -221,11 +221,11 @@ export const lesson11: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Speaking in a regional dialect" },
-              { id: "b", text: "Creating illusion through gesture and movement without props" },
-              { id: "c", text: "Dancing to recorded music" },
+              { id: "b", text: "Dancing to recorded music" },
+              { id: "c", text: "Creating illusion through gesture and movement without props" },
               { id: "d", text: "Performing with a script" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -250,9 +250,9 @@ export const lesson11: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "A frozen physical tableau that captures a moment or relationship" },
-              { id: "b", text: "A sequence of fast movements" },
+              { id: "b", text: "A costume change" },
               { id: "c", text: "A lighting state on stage" },
-              { id: "d", text: "A costume change" },
+              { id: "d", text: "A sequence of fast movements" },
             ],
             correctChoiceId: "a",
           },
@@ -278,12 +278,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Accidental and spontaneous" },
-              { id: "b", text: "Deliberate, clear and readable by the audience" },
+              { id: "a", text: "Deliberate, clear and readable by the audience" },
+              { id: "b", text: "Accidental and spontaneous" },
               { id: "c", text: "As small as possible" },
               { id: "d", text: "Performed only with the face" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -307,12 +307,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Hostility and threat" },
-              { id: "b", text: "Intimacy, connection or tension" },
-              { id: "c", text: "Nothing — distance is irrelevant" },
-              { id: "d", text: "A scene transition" },
+              { id: "a", text: "Intimacy, connection or tension" },
+              { id: "b", text: "A scene transition" },
+              { id: "c", text: "Hostility and threat" },
+              { id: "d", text: "Nothing — distance is irrelevant" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -518,10 +518,10 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The lighting on stage" },
+              { id: "a", text: "The tempo of movement" },
               { id: "b", text: "Where the performer directs their gaze and attention" },
-              { id: "c", text: "The tempo of movement" },
-              { id: "d", text: "The volume of voice" },
+              { id: "c", text: "The volume of voice" },
+              { id: "d", text: "The lighting on stage" },
             ],
             correctChoiceId: "b",
           },
@@ -619,12 +619,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Stay fixed on their own hands" },
-              { id: "b", text: "Lead the gesture and direct the audience's attention" },
-              { id: "c", text: "Remain closed throughout" },
-              { id: "d", text: "Look randomly at the floor" },
+              { id: "a", text: "Remain closed throughout" },
+              { id: "b", text: "Look randomly at the floor" },
+              { id: "c", text: "Stay fixed on their own hands" },
+              { id: "d", text: "Lead the gesture and direct the audience's attention" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -649,11 +649,11 @@ export const lesson11: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Memorising your blocking" },
-              { id: "b", text: "Being aware of the whole stage picture — other performers, audience sightlines and space" },
-              { id: "c", text: "Keeping a fixed distance from the audience" },
-              { id: "d", text: "Avoiding movement" },
+              { id: "b", text: "Keeping a fixed distance from the audience" },
+              { id: "c", text: "Avoiding movement" },
+              { id: "d", text: "Being aware of the whole stage picture — other performers, audience sightlines and space" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -677,12 +677,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Find the essential shape of each movement before adding energy" },
-              { id: "b", text: "Reduce rehearsal time" },
+              { id: "a", text: "Memorise the music" },
+              { id: "b", text: "Find the essential shape of each movement before adding energy" },
               { id: "c", text: "Avoid using focus" },
-              { id: "d", text: "Memorise the music" },
+              { id: "d", text: "Reduce rehearsal time" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -706,12 +706,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Accidental and spontaneous" },
-              { id: "b", text: "Intentional and controlled rather than accidental" },
-              { id: "c", text: "As small as possible" },
-              { id: "d", text: "Identical for every performer" },
+              { id: "a", text: "As small as possible" },
+              { id: "b", text: "Accidental and spontaneous" },
+              { id: "c", text: "Identical for every performer" },
+              { id: "d", text: "Intentional and controlled rather than accidental" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -735,12 +735,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "To make performers look larger" },
-              { id: "b", text: "So that gestures and levels remain readable from every seat" },
-              { id: "c", text: "To fill the stage faster" },
+              { id: "a", text: "So that gestures and levels remain readable from every seat" },
+              { id: "b", text: "To fill the stage faster" },
+              { id: "c", text: "To make performers look larger" },
               { id: "d", text: "To avoid microphones" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -764,12 +764,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Is always technically perfect" },
-              { id: "b", text: "Communicates clear intention that the audience can read confidently" },
-              { id: "c", text: "Requires less rehearsal" },
-              { id: "d", text: "Hides mistakes completely" },
+              { id: "a", text: "Hides mistakes completely" },
+              { id: "b", text: "Is always technically perfect" },
+              { id: "c", text: "Communicates clear intention that the audience can read confidently" },
+              { id: "d", text: "Requires less rehearsal" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

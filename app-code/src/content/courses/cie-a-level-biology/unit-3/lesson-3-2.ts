@@ -70,12 +70,12 @@ export const lesson312: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "In the nucleus" },
+              { id: "a", text: "At the ribosome" },
               { id: "b", text: "In the cytoplasm" },
-              { id: "c", text: "At the ribosome" },
-              { id: "d", text: "In the mitochondria" },
+              { id: "c", text: "In the mitochondria" },
+              { id: "d", text: "In the nucleus" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -234,6 +234,334 @@ export const lesson312: Lesson = {
               "(a) nucleus (b) codon=3-base (c) degenerate=multiple codons (d) AUG CCG",
           },
         },
+        {
+          id: "cial-b-u3-tr-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Which enzyme synthesises mRNA during transcription?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Helicase" },
+              { id: "b", text: "DNA polymerase" },
+              { id: "c", text: "RNA polymerase" },
+              { id: "d", text: "Ligase" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "RNA polymerase",
+                statement: "RNA polymerase synthesises mRNA complementary to the DNA template.",
+              },
+            ],
+            steps: [
+              { reasoning: "RNA polymerase carries out transcription.", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** RNA polymerase",
+            commonErrors: ["Confusing RNA and DNA polymerase."],
+          },
+        },
+        {
+          id: "cial-b-u3-tr-q6",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Which base replaces thymine in mRNA?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Cytosine" },
+              { id: "b", text: "Adenine" },
+              { id: "c", text: "Uracil" },
+              { id: "d", text: "Guanine" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "RNA bases",
+                statement: "RNA contains uracil instead of thymine.",
+              },
+            ],
+            steps: [
+              { reasoning: "Uracil pairs with adenine in RNA.", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** Uracil",
+            commonErrors: ["Using thymine in mRNA."],
+          },
+        },
+        {
+          id: "cial-b-u3-tr-q7",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Which codon is the usual start codon in translation?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "CCC" },
+              { id: "b", text: "UGA" },
+              { id: "c", text: "AUG" },
+              { id: "d", text: "UAA" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Start codon",
+                statement: "AUG codes for methionine and initiates translation.",
+              },
+            ],
+            steps: [
+              { reasoning: "AUG is the start codon.", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** AUG",
+            commonErrors: ["Choosing a stop codon."],
+          },
+        },
+        {
+          id: "cial-b-u3-tr-q8",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Which set contains only stop codons?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "UUU, UUC, UUA" },
+              { id: "b", text: "UAA, UAG, UGA" },
+              { id: "c", text: "AUG, AAA, GGG" },
+              { id: "d", text: "CCC, CCA, CCG" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Stop codons",
+                statement: "UAA, UAG and UGA terminate translation.",
+              },
+            ],
+            steps: [
+              { reasoning: "The three stop codons are UAA, UAG and UGA.", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** UAA, UAG, UGA",
+            commonErrors: ["Confusing stop codons with sense codons."],
+          },
+        },
+        {
+          id: "cial-b-u3-tr-q9",
+          difficulty: "challenge",
+          totalMarks: 1,
+          stem: "Why is the genetic code described as degenerate?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Codons are random" },
+              { id: "b", text: "DNA changes every codon" },
+              { id: "c", text: "Every amino acid has exactly one codon" },
+              { id: "d", text: "Several codons can specify the same amino acid" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Degenerate code",
+                statement: "Multiple codons may encode the same amino acid.",
+              },
+            ],
+            steps: [
+              { reasoning: "Degeneracy means redundancy in codon assignment.", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** Multiple codons per amino acid",
+            commonErrors: ["Thinking degeneracy means inaccurate coding."],
+          },
+        },
+        {
+          id: "cial-b-u3-tr-q10",
+          difficulty: "challenge",
+          totalMarks: 1,
+          stem: "What is the main advantage of degeneracy in the genetic code?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "It eliminates all mutations" },
+              { id: "b", text: "It reduces the number of tRNAs to zero" },
+              { id: "c", text: "It makes translation faster" },
+              { id: "d", text: "Some point mutations may not change the amino acid produced" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Mutation buffering",
+                statement: "Degeneracy can reduce the effect of some mutations.",
+              },
+            ],
+            steps: [
+              { reasoning: "A codon change may still code for the same amino acid.", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** Mutations may be silent",
+            commonErrors: ["Claiming degeneracy prevents all mutation effects."],
+          },
+        },
+        {
+          id: "cial-b-u3-tr-q11",
+          difficulty: "foundation",
+          totalMarks: 2,
+          stem: "How many nucleotide bases are present in one mRNA codon?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 3 }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Codon",
+                statement: "A codon is a three-base sequence on mRNA.",
+              },
+            ],
+            steps: [
+              { reasoning: "The genetic code is read in triplets.", marks: 1, markCode: "M" },
+              { reasoning: "Therefore a codon has 3 bases.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "3 bases",
+            commonErrors: ["Counting two or four bases."],
+          },
+        },
+        {
+          id: "cial-b-u3-tr-q12",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "An mRNA molecule contains 9 nucleotide bases. How many complete codons can be read from it?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 3 }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "formula",
+                name: "Codon number",
+                statement: "Number of codons $=$ number of mRNA bases $\\div 3$.",
+              },
+            ],
+            steps: [
+              { reasoning: "$9 \\div 3 = 3$ codons.", marks: 1, markCode: "M" },
+              { reasoning: "Three complete codons are present.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "3 codons",
+            commonErrors: ["Answering 9 by counting bases."],
+          },
+        },
+        {
+          id: "cial-b-u3-tr-q13",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "A DNA template strand contains 12 bases. How many bases are present in the mRNA transcribed from it?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 12 }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Transcription",
+                statement: "mRNA is complementary to the DNA template and has the same number of bases in the transcribed region.",
+              },
+            ],
+            steps: [
+              { reasoning: "Each template base is copied once.", marks: 1, markCode: "M" },
+              { reasoning: "The mRNA also has 12 bases.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "12 bases",
+            commonErrors: ["Counting codons rather than bases."],
+          },
+        },
+        {
+          id: "cial-b-u3-tr-q14",
+          difficulty: "challenge",
+          totalMarks: 2,
+          stem: "An mRNA contains 5 codons including one start codon and one stop codon. How many amino acids are coded by the sense codons between them?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 3 }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Coding sequence",
+                statement: "The start codon codes for methionine, stop codons code for no amino acid, and remaining codons code for amino acids.",
+              },
+            ],
+            steps: [
+              { reasoning: "$5-2=3$ codons remain after removing start and stop.", marks: 1, markCode: "M" },
+              { reasoning: "These three sense codons code for three amino acids, excluding the stop.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "3 amino acids",
+            commonErrors: ["Counting the stop codon as an amino acid."],
+          },
+        },
+        {
+          id: "cial-b-u3-tr-q15",
+          difficulty: "challenge",
+          totalMarks: 2,
+          stem: "A DNA template has sequence $TAC\\,GGC$. How many mRNA bases are transcribed from this template?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 6 }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Transcription",
+                statement: "Each DNA base in the template corresponds to one mRNA base.",
+              },
+            ],
+            steps: [
+              { reasoning: "The template has six bases: TACGGC.", marks: 1, markCode: "M" },
+              { reasoning: "Six mRNA bases are produced.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "6 mRNA bases",
+            commonErrors: ["Counting codons as two instead of bases."],
+          },
+        },
+        {
+          id: "cial-b-u3-tr-q16",
+          difficulty: "challenge",
+          totalMarks: 3,
+          stem: "Explain why transcription is necessary before translation in eukaryotic cells.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "DNA to protein",
+                statement: "DNA remains in the nucleus while mRNA carries the code to ribosomes.",
+              },
+            ],
+            steps: [
+              { reasoning: "DNA is located in the nucleus and cannot leave easily.", marks: 1, markCode: "M" },
+              { reasoning: "Transcription copies the needed sequence into mRNA.", marks: 1, markCode: "M" },
+              { reasoning: "mRNA moves to ribosomes where translation produces protein.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "mRNA carries the genetic code from nucleus to ribosomes for translation.",
+            commonErrors: ["Saying DNA directly leaves the nucleus."],
+          },
+        },
       ],
     },
     {
@@ -277,12 +605,12 @@ export const lesson312: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "At ribosomes in the cytoplasm" },
+              { id: "a", text: "In the Golgi apparatus" },
               { id: "b", text: "In the nucleus" },
-              { id: "c", text: "In the mitochondria" },
-              { id: "d", text: "In the Golgi apparatus" },
+              { id: "c", text: "At ribosomes in the cytoplasm" },
+              { id: "d", text: "In the mitochondria" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -443,6 +771,334 @@ export const lesson312: Lesson = {
             ],
             finalAnswer:
               "(a) ribosomes (b) tRNA carries AA (c) initiation/elongation/termination (d) polypeptide released",
+          },
+        },
+        {
+          id: "cial-b-u3-tl-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Which organelle is the main site of translation?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Ribosome" },
+              { id: "b", text: "Vacuole" },
+              { id: "c", text: "Nucleus" },
+              { id: "d", text: "Chloroplast only" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Ribosome",
+                statement: "Ribosomes decode mRNA and assemble polypeptides.",
+              },
+            ],
+            steps: [
+              { reasoning: "Translation occurs at ribosomes.", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** Ribosome",
+            commonErrors: ["Confusing ribosomes with the nucleus."],
+          },
+        },
+        {
+          id: "cial-b-u3-tl-q6",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "What is carried by tRNA during translation?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "A phosphate group" },
+              { id: "b", text: "A lipid" },
+              { id: "c", text: "An amino acid" },
+              { id: "d", text: "A DNA base" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "tRNA",
+                statement: "tRNA carries amino acids and has an anticodon matching the mRNA codon.",
+              },
+            ],
+            steps: [
+              { reasoning: "tRNA delivers amino acids to the ribosome.", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** An amino acid",
+            commonErrors: ["Confusing tRNA with mRNA."],
+          },
+        },
+        {
+          id: "cial-b-u3-tl-q7",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "What is an anticodon?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "A ribosomal protein" },
+              { id: "b", text: "The three-base sequence on tRNA complementary to an mRNA codon" },
+              { id: "c", text: "The mRNA sequence itself" },
+              { id: "d", text: "A DNA triplet" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Anticodon",
+                statement: "The anticodon on tRNA is complementary to the mRNA codon.",
+              },
+            ],
+            steps: [
+              { reasoning: "Anticodon pairs with codon during translation.", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** tRNA sequence complementary to codon",
+            commonErrors: ["Confusing anticodon with codon."],
+          },
+        },
+        {
+          id: "cial-b-u3-tl-q8",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "During elongation, what joins successive amino acids in the growing polypeptide?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Hydrogen bonds only" },
+              { id: "b", text: "Peptide bonds" },
+              { id: "c", text: "Glycosidic bonds" },
+              { id: "d", text: "Ionic bonds only" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Polypeptide formation",
+                statement: "Peptide bonds join amino acids during translation.",
+              },
+            ],
+            steps: [
+              { reasoning: "The ribosome catalyses peptide bond formation.", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** Peptide bonds",
+            commonErrors: ["Saying glycosidic bonds join amino acids."],
+          },
+        },
+        {
+          id: "cial-b-u3-tl-q9",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "What happens when the ribosome reaches a stop codon?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "A new amino acid is added" },
+              { id: "b", text: "Release factors bind and the polypeptide is released" },
+              { id: "c", text: "Translation starts again" },
+              { id: "d", text: "mRNA is destroyed immediately" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Termination",
+                statement: "Stop codons recruit release factors; no tRNA carries an amino acid for them.",
+              },
+            ],
+            steps: [
+              { reasoning: "Stop codons terminate polypeptide synthesis.", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** Polypeptide released",
+            commonErrors: ["Thinking stop codons code for an amino acid."],
+          },
+        },
+        {
+          id: "cial-b-u3-tl-q10",
+          difficulty: "challenge",
+          totalMarks: 1,
+          stem: "Why does the genetic code need both a start codon and stop codons?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "They replace tRNA" },
+              { id: "b", text: "They define where translation begins and ends" },
+              { id: "c", text: "They code for all amino acids" },
+              { id: "d", text: "They proofread DNA" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Translation boundaries",
+                statement: "Start and stop codons delimit the coding region.",
+              },
+            ],
+            steps: [
+              { reasoning: "Start and stop codons mark translation boundaries.", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** Define translation boundaries",
+            commonErrors: ["Thinking stop codons add amino acids."],
+          },
+        },
+        {
+          id: "cial-b-u3-tl-q11",
+          difficulty: "foundation",
+          totalMarks: 2,
+          stem: "How many binding sites for tRNA are present on a ribosome in the standard A, P and E model?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 3 }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Ribosome sites",
+                statement: "Ribosomes have A, P and E sites for tRNA.",
+              },
+            ],
+            steps: [
+              { reasoning: "List A, P and E sites.", marks: 1, markCode: "M" },
+              { reasoning: "There are three tRNA binding sites.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "3 sites",
+            commonErrors: ["Counting only the A and P sites."],
+          },
+        },
+        {
+          id: "cial-b-u3-tl-q12",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "How many nucleotide bases are present in a tRNA anticodon?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 3 }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Anticodon",
+                statement: "An anticodon is complementary to a three-base mRNA codon.",
+              },
+            ],
+            steps: [
+              { reasoning: "Codons are triplets, so anticodons are also triplets.", marks: 1, markCode: "M" },
+              { reasoning: "The anticodon has 3 bases.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "3 bases",
+            commonErrors: ["Thinking anticodons have one or two bases."],
+          },
+        },
+        {
+          id: "cial-b-u3-tl-q13",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "An mRNA contains 6 codons: one start codon, four sense codons and one stop codon. How many amino acids are incorporated into the polypeptide, including methionine from the start codon?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 5 }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Translation product",
+                statement: "Start codon contributes methionine; sense codons contribute amino acids; stop codon contributes none.",
+              },
+            ],
+            steps: [
+              { reasoning: "$6-1=5$ codons can code for amino acids after removing stop.", marks: 1, markCode: "M" },
+              { reasoning: "Five amino acids are incorporated, including methionine.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "5 amino acids",
+            commonErrors: ["Excluding methionine from the count."],
+          },
+        },
+        {
+          id: "cial-b-u3-tl-q14",
+          difficulty: "challenge",
+          totalMarks: 2,
+          stem: "An mRNA has 9 codons including one start codon and one stop codon. How many amino acids are coded by the seven non-start, non-stop codons?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 7 }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Sense codons",
+                statement: "Stop codons code for no amino acid and each remaining codon specifies one amino acid.",
+              },
+            ],
+            steps: [
+              { reasoning: "$9-2=7$ codons remain after removing start and stop codons.", marks: 1, markCode: "M" },
+              { reasoning: "Each of the seven codons specifies one amino acid.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "7 amino acids",
+            commonErrors: ["Counting the stop codon as coding for an amino acid."],
+          },
+        },
+        {
+          id: "cial-b-u3-tl-q15",
+          difficulty: "challenge",
+          totalMarks: 2,
+          stem: "Four amino acids are to be added to a growing polypeptide. How many tRNA molecules are minimally required to deliver those four amino acids, assuming one tRNA per amino acid addition?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 4 }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "tRNA delivery",
+                statement: "Each amino acid is delivered by a tRNA molecule with a matching anticodon.",
+              },
+            ],
+            steps: [
+              { reasoning: "Four amino acids require four delivery events.", marks: 1, markCode: "M" },
+              { reasoning: "At least 4 tRNA molecules are needed.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "4 tRNA molecules",
+            commonErrors: ["Counting codons instead of tRNA molecules."],
+          },
+        },
+        {
+          id: "cial-b-u3-tl-q16",
+          difficulty: "challenge",
+          totalMarks: 3,
+          stem: "Explain how the sequence of codons on mRNA determines the sequence of amino acids in a protein.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Genetic code",
+                statement: "Each codon specifies a particular amino acid, so mRNA sequence determines protein sequence.",
+              },
+            ],
+            steps: [
+              { reasoning: "mRNA is read in three-base codons.", marks: 1, markCode: "M" },
+              { reasoning: "Each codon is matched by a tRNA anticodon carrying a specific amino acid.", marks: 1, markCode: "M" },
+              { reasoning: "The order of amino acids added therefore follows the mRNA codon order.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "Codon order determines amino acid order through complementary tRNA anticodons.",
+            commonErrors: ["Saying amino acids pair directly with DNA."],
           },
         },
       ],

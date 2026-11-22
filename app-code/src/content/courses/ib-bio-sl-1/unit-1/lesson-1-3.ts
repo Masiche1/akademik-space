@@ -54,12 +54,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It releases energy for the reaction" },
-              { id: "b", text: "It is the region where the substrate binds" },
+              { id: "a", text: "It is the region where the substrate binds" },
+              { id: "b", text: "It releases energy for the reaction" },
               { id: "c", text: "It is the part of the enzyme that is denatured" },
               { id: "d", text: "It is the product released after the reaction" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Active site", statement: "The active site is the part of the enzyme where the substrate binds to form the enzyme-substrate complex." }],
@@ -80,12 +80,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The rate decreases because enzymes denature" },
-              { id: "b", text: "The rate increases because collisions between enzyme and substrate become more frequent" },
+              { id: "a", text: "The rate increases because collisions between enzyme and substrate become more frequent" },
+              { id: "b", text: "The rate decreases because enzymes denature" },
               { id: "c", text: "The rate stays constant" },
               { id: "d", text: "The rate increases because the enzyme is used up more quickly" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Temperature and enzyme rate", statement: "Raising temperature increases kinetic energy and collision frequency, so the rate rises until the optimum, then denaturation causes a fall." }],
@@ -106,12 +106,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The amylase is denatured because extreme pH breaks the bonds maintaining its tertiary structure" },
-              { id: "b", text: "The amylase works faster because acid increases the rate of reaction" },
-              { id: "c", text: "The amylase is converted into its product starch" },
-              { id: "d", text: "The amylase temporarily stops working but recovers when the pH is restored" },
+              { id: "a", text: "The amylase is converted into its product starch" },
+              { id: "b", text: "The amylase temporarily stops working but recovers when the pH is restored" },
+              { id: "c", text: "The amylase is denatured because extreme pH breaks the bonds maintaining its tertiary structure" },
+              { id: "d", text: "The amylase works faster because acid increases the rate of reaction" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Denaturation by pH", statement: "Extreme pH alters charges on amino acids, breaking bonds that maintain tertiary structure; the active site permanently loses its shape." }],
@@ -165,12 +165,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The enzyme changes shape slightly to fit the substrate" },
-              { id: "b", text: "The substrate permanently binds to the enzyme" },
-              { id: "c", text: "The enzyme is broken down into products" },
-              { id: "d", text: "The active site disappears" },
+              { id: "a", text: "The enzyme is broken down into products" },
+              { id: "b", text: "The enzyme changes shape slightly to fit the substrate" },
+              { id: "c", text: "The active site disappears" },
+              { id: "d", text: "The substrate permanently binds to the enzyme" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Induced fit", statement: "The substrate binds the active site and the enzyme changes shape slightly to fit it." }],
@@ -227,11 +227,11 @@ export const lesson13: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "It is converted into the product" },
-              { id: "b", text: "It is unchanged and can catalyse another reaction" },
+              { id: "b", text: "It moves into the nucleus" },
               { id: "c", text: "It permanently loses its active site" },
-              { id: "d", text: "It moves into the nucleus" },
+              { id: "d", text: "It is unchanged and can catalyse another reaction" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Enzyme reuse", statement: "Enzymes are biological catalysts and are unchanged at the end of the reaction." }],
@@ -370,8 +370,8 @@ export const lesson13: Lesson = {
             choices: [
               { id: "a", text: "It is a temporary change that reverses when conditions return to normal" },
               { id: "b", text: "It permanently changes the enzyme shape because bonds maintaining tertiary structure break" },
-              { id: "c", text: "It increases the rate of reaction" },
-              { id: "d", text: "It only occurs in substrate molecules" },
+              { id: "c", text: "It only occurs in substrate molecules" },
+              { id: "d", text: "It increases the rate of reaction" },
             ],
             correctChoiceId: "b",
           },
@@ -427,9 +427,9 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A carbohydrate that provides energy" },
+              { id: "a", text: "A lipid that forms membranes" },
               { id: "b", text: "A protein that acts as a biological catalyst" },
-              { id: "c", text: "A lipid that forms membranes" },
+              { id: "c", text: "A carbohydrate that provides energy" },
               { id: "d", text: "A nucleic acid that stores genetic information" },
             ],
             correctChoiceId: "b",
@@ -485,9 +485,9 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "G1 phase" },
+              { id: "a", text: "G2 phase" },
               { id: "b", text: "S phase" },
-              { id: "c", text: "G2 phase" },
+              { id: "c", text: "G1 phase" },
               { id: "d", text: "Mitosis" },
             ],
             correctChoiceId: "b",
@@ -511,12 +511,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "To produce gametes with half the chromosome number" },
-              { id: "b", text: "To produce genetically identical cells for growth and repair" },
-              { id: "c", text: "To halve the chromosome number in each cell" },
-              { id: "d", text: "To create genetic variation between cells" },
+              { id: "a", text: "To halve the chromosome number in each cell" },
+              { id: "b", text: "To create genetic variation between cells" },
+              { id: "c", text: "To produce gametes with half the chromosome number" },
+              { id: "d", text: "To produce genetically identical cells for growth and repair" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Mitosis function", statement: "Mitosis produces two genetically identical daughter cells, used for growth, repair and asexual reproduction; meiosis produces gametes." }],
@@ -537,12 +537,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Prophase" },
-              { id: "b", text: "Metaphase" },
-              { id: "c", text: "Anaphase" },
-              { id: "d", text: "Telophase" },
+              { id: "a", text: "Anaphase" },
+              { id: "b", text: "Telophase" },
+              { id: "c", text: "Metaphase" },
+              { id: "d", text: "Prophase" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Stages of mitosis", statement: "Prophase: chromosomes condense. Metaphase: line up at equator. Anaphase: chromatids separate to poles. Telophase: nuclei reform." }],
@@ -596,12 +596,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Prophase" },
-              { id: "b", text: "Metaphase" },
-              { id: "c", text: "Anaphase" },
-              { id: "d", text: "Telophase" },
+              { id: "a", text: "Anaphase" },
+              { id: "b", text: "Telophase" },
+              { id: "c", text: "Metaphase" },
+              { id: "d", text: "Prophase" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Metaphase", statement: "In metaphase chromosomes align at the equator and attach to spindle fibres." }],
@@ -666,10 +666,10 @@ export const lesson13: Lesson = {
             choices: [
               { id: "a", text: "Chromosomes line up at the equator" },
               { id: "b", text: "Sister chromatids are pulled to opposite poles" },
-              { id: "c", text: "Chromosomes condense and the nuclear envelope breaks down" },
-              { id: "d", text: "The cytoplasm divides to form two cells" },
+              { id: "c", text: "The cytoplasm divides to form two cells" },
+              { id: "d", text: "Chromosomes condense and the nuclear envelope breaks down" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Prophase", statement: "In prophase chromosomes condense, the nuclear envelope breaks down and spindle fibres form." }],
@@ -805,10 +805,10 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The division of the nucleus during mitosis" },
+              { id: "a", text: "The separation of homologous chromosomes" },
               { id: "b", text: "The division of the cytoplasm to form two daughter cells" },
               { id: "c", text: "The replication of DNA in S phase" },
-              { id: "d", text: "The separation of homologous chromosomes" },
+              { id: "d", text: "The division of the nucleus during mitosis" },
             ],
             correctChoiceId: "b",
           },

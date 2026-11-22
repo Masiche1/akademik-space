@@ -55,12 +55,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Diaphragm contracts and flattens; pressure in the thorax decreases" },
-              { id: "b", text: "Diaphragm relaxes and domes upwards; pressure in the thorax decreases" },
-              { id: "c", text: "Diaphragm contracts and flattens; pressure in the thorax increases" },
-              { id: "d", text: "Diaphragm relaxes and domes upwards; pressure in the thorax increases" },
+              { id: "a", text: "Diaphragm relaxes and domes upwards; pressure in the thorax increases" },
+              { id: "b", text: "Diaphragm contracts and flattens; pressure in the thorax decreases" },
+              { id: "c", text: "Diaphragm relaxes and domes upwards; pressure in the thorax decreases" },
+              { id: "d", text: "Diaphragm contracts and flattens; pressure in the thorax increases" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -196,12 +196,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Palisade mesophyll cells" },
-              { id: "b", text: "Guard cells" },
-              { id: "c", text: "Xylem vessels" },
-              { id: "d", text: "Root hair cells" },
+              { id: "a", text: "Root hair cells" },
+              { id: "b", text: "Xylem vessels" },
+              { id: "c", text: "Guard cells" },
+              { id: "d", text: "Palisade mesophyll cells" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

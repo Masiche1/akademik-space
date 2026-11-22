@@ -49,12 +49,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$62$" },
-              { id: "b", text: "$65$" },
-              { id: "c", text: "$59$" },
-              { id: "d", text: "$300$" },
+              { id: "a", text: "$59$" },
+              { id: "b", text: "$300$" },
+              { id: "c", text: "$65$" },
+              { id: "d", text: "$62$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "nth term of an arithmetic sequence", statement: "$u_n=u_1+(n-1)d$" }],
@@ -160,8 +160,8 @@ export const lesson11: Lesson = {
             choices: [
               { id: "a", text: "$26$" },
               { id: "b", text: "$21$" },
-              { id: "c", text: "$31$" },
-              { id: "d", text: "$-14$" },
+              { id: "c", text: "$-14$" },
+              { id: "d", text: "$31$" },
             ],
             correctChoiceId: "a",
           },
@@ -184,12 +184,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$465$" },
-              { id: "b", text: "$450$" },
-              { id: "c", text: "$495$" },
-              { id: "d", text: "$930$" },
+              { id: "a", text: "$930$" },
+              { id: "b", text: "$495$" },
+              { id: "c", text: "$450$" },
+              { id: "d", text: "$465$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Sum", statement: "$S_n=\\frac n2\\left(2u_1+(n-1)d\\right)$" }],
@@ -210,12 +210,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$140$" },
+              { id: "a", text: "$65$" },
               { id: "b", text: "$110$" },
-              { id: "c", text: "$65$" },
+              { id: "c", text: "$140$" },
               { id: "d", text: "$120$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Sum of an arithmetic sequence", statement: "$\\sum_{k=1}^{n}(ak+b)$ has $u_1=a+b$ and $d=a$." }],
@@ -312,12 +312,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$-220$" },
+              { id: "a", text: "$-440$" },
               { id: "b", text: "$220$" },
-              { id: "c", text: "$-180$" },
-              { id: "d", text: "$-440$" },
+              { id: "c", text: "$-220$" },
+              { id: "d", text: "$-180$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Sum", statement: "$S_n=\\frac n2\\left(2u_1+(n-1)d\\right)$" }],
@@ -339,9 +339,9 @@ export const lesson11: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$1890$" },
-              { id: "b", text: "$1830$" },
+              { id: "b", text: "$3780$" },
               { id: "c", text: "$1950$" },
-              { id: "d", text: "$3780$" },
+              { id: "d", text: "$1830$" },
             ],
             correctChoiceId: "a",
           },
@@ -364,12 +364,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$13$" },
-              { id: "b", text: "$12$" },
-              { id: "c", text: "$12.5$" },
+              { id: "a", text: "$12$" },
+              { id: "b", text: "$12.5$" },
+              { id: "c", text: "$13$" },
               { id: "d", text: "$96$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "nth term", statement: "$u_n=u_1+(n-1)d$" }],
@@ -506,12 +506,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$162$" },
+              { id: "a", text: "$32$" },
               { id: "b", text: "$486$" },
               { id: "c", text: "$54$" },
-              { id: "d", text: "$32$" },
+              { id: "d", text: "$162$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "nth term of a geometric sequence", statement: "$u_n=u_1r^{n-1}$" }],
@@ -613,12 +613,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$128$" },
-              { id: "b", text: "$64$" },
-              { id: "c", text: "$256$" },
-              { id: "d", text: "$24$" },
+              { id: "a", text: "$24$" },
+              { id: "b", text: "$256$" },
+              { id: "c", text: "$64$" },
+              { id: "d", text: "$128$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "nth term of a geometric sequence", statement: "$u_n=u_1r^{n-1}$" }],
@@ -640,9 +640,9 @@ export const lesson11: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$-24$" },
-              { id: "b", text: "$24$" },
+              { id: "b", text: "$6$" },
               { id: "c", text: "$-12$" },
-              { id: "d", text: "$6$" },
+              { id: "d", text: "$24$" },
             ],
             correctChoiceId: "a",
           },
@@ -665,12 +665,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$40$" },
+              { id: "a", text: "$30$" },
               { id: "b", text: "$60$" },
-              { id: "c", text: "$80$" },
-              { id: "d", text: "$30$" },
+              { id: "c", text: "$40$" },
+              { id: "d", text: "$80$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Sum to infinity", statement: "$S_\\infty=\\frac{u_1}{1-r}$, valid when $|r|<1$." }],
@@ -756,12 +756,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$5+4+3.2+\\dots$ with $r=0.8$" },
-              { id: "b", text: "$3+6+12+\\dots$ with $r=2$" },
-              { id: "c", text: "$1-1+1-\\dots$ with $r=-1$" },
+              { id: "a", text: "$1-1+1-\\dots$ with $r=-1$" },
+              { id: "b", text: "$5+4+3.2+\\dots$ with $r=0.8$" },
+              { id: "c", text: "$3+6+12+\\dots$ with $r=2$" },
               { id: "d", text: "$7+7+7+\\dots$ with $r=1$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Convergent series", statement: "A geometric series converges exactly when $|r|<1$." }],
@@ -782,12 +782,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$0.6$" },
-              { id: "b", text: "$-0.6$" },
-              { id: "c", text: "$2.5$" },
-              { id: "d", text: "$0.4$" },
+              { id: "a", text: "$2.5$" },
+              { id: "b", text: "$0.6$" },
+              { id: "c", text: "$0.4$" },
+              { id: "d", text: "$-0.6$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Sum to infinity", statement: "$S_\\infty=\\frac{u_1}{1-r}$, valid when $|r|<1$." }],
@@ -826,12 +826,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$0.75$" },
-              { id: "b", text: "$0.25$" },
-              { id: "c", text: "$4$" },
-              { id: "d", text: "$-0.75$" },
+              { id: "a", text: "$0.25$" },
+              { id: "b", text: "$0.75$" },
+              { id: "c", text: "$-0.75$" },
+              { id: "d", text: "$4$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Sum to infinity", statement: "$S_\\infty=\\frac{u_1}{1-r}$, valid when $|r|<1$." }],

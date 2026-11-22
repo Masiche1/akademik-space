@@ -65,12 +65,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "chucking it down" },
-              { id: "b", text: "training for weeks" },
+              { id: "a", text: "training for weeks" },
+              { id: "b", text: "honestly" },
               { id: "c", text: "the match" },
-              { id: "d", text: "honestly" },
+              { id: "d", text: "chucking it down" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "convention", name: "Register", statement: "Slang and idioms mark an informal register." }],
@@ -201,9 +201,9 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "The lockers were broken and the floor was wet." },
-              { id: "b", text: "The lockers was broken and the floor were wet." },
-              { id: "c", text: "The lockers was broken and the floor was wet." },
-              { id: "d", text: "The lockers were broken and the floor were wet." },
+              { id: "b", text: "The lockers were broken and the floor were wet." },
+              { id: "c", text: "The lockers was broken and the floor were wet." },
+              { id: "d", text: "The lockers was broken and the floor was wet." },
             ],
             correctChoiceId: "a",
           },

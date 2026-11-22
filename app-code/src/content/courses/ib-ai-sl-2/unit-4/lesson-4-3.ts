@@ -50,10 +50,10 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "5" },
+              { id: "a", text: "7" },
               { id: "b", text: "6" },
-              { id: "c", text: "7" },
-              { id: "d", text: "12" },
+              { id: "c", text: "12" },
+              { id: "d", text: "5" },
             ],
             correctChoiceId: "b",
           },
@@ -159,12 +159,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$H_0$: the variables are independent; $H_1$: the variables are not independent" },
-              { id: "b", text: "$H_0$: the variables are not independent; $H_1$: the variables are independent" },
+              { id: "a", text: "$H_0$: there is association; $H_1$: there is no association" },
+              { id: "b", text: "$H_0$: the variables are independent; $H_1$: the variables are not independent" },
               { id: "c", text: "$H_0$: the observed frequencies equal the expected frequencies; $H_1$: they never do" },
-              { id: "d", text: "$H_0$: there is association; $H_1$: there is no association" },
+              { id: "d", text: "$H_0$: the variables are not independent; $H_1$: the variables are independent" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Hypotheses for independence", statement: "$H_0$ states the variables are independent (no association); $H_1$ states they are associated." }],
@@ -186,9 +186,9 @@ export const lesson43: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$\\frac{\\text{row total}\\times\\text{column total}}{\\text{grand total}}$" },
-              { id: "b", text: "$\\frac{\\text{observed frequency}}{\\text{grand total}}$" },
-              { id: "c", text: "$\\frac{\\text{row total}+\\text{column total}}{\\text{grand total}}$" },
-              { id: "d", text: "$\\frac{\\text{grand total}}{\\text{row total}\\times\\text{column total}}$" },
+              { id: "b", text: "$\\frac{\\text{grand total}}{\\text{row total}\\times\\text{column total}}$" },
+              { id: "c", text: "$\\frac{\\text{observed frequency}}{\\text{grand total}}$" },
+              { id: "d", text: "$\\frac{\\text{row total}+\\text{column total}}{\\text{grand total}}$" },
             ],
             correctChoiceId: "a",
           },
@@ -211,12 +211,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Every observed frequency must be at least 5" },
-              { id: "b", text: "Every expected frequency should be at least 5" },
-              { id: "c", text: "The sample size must be exactly 100" },
-              { id: "d", text: "The variables must be numerical" },
+              { id: "a", text: "The sample size must be exactly 100" },
+              { id: "b", text: "Every observed frequency must be at least 5" },
+              { id: "c", text: "The variables must be numerical" },
+              { id: "d", text: "Every expected frequency should be at least 5" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Validity of $\\chi^2$ test", statement: "Expected frequencies should each be at least 5 for the chi-squared approximation to be valid." }],
@@ -302,12 +302,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Reject $H_0$: there is sufficient evidence of association" },
-              { id: "b", text: "Do not reject $H_0$: there is insufficient evidence of association" },
-              { id: "c", text: "Accept $H_0$: the variables are proved independent" },
-              { id: "d", text: "The test is invalid because $p>0.5$" },
+              { id: "a", text: "Do not reject $H_0$: there is insufficient evidence of association" },
+              { id: "b", text: "Accept $H_0$: the variables are proved independent" },
+              { id: "c", text: "The test is invalid because $p>0.5$" },
+              { id: "d", text: "Reject $H_0$: there is sufficient evidence of association" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Decision rule", statement: "Reject $H_0$ only when the $p$-value is less than the significance level; otherwise do not reject." }],
@@ -328,12 +328,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "2" },
-              { id: "b", text: "3" },
-              { id: "c", text: "4" },
-              { id: "d", text: "6" },
+              { id: "a", text: "3" },
+              { id: "b", text: "6" },
+              { id: "c", text: "2" },
+              { id: "d", text: "4" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Degrees of freedom", statement: "$\\nu=(r-1)(c-1)$." }],
@@ -423,12 +423,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The probability that $H_0$ is true" },
-              { id: "b", text: "The probability, assuming $H_0$ is true, of obtaining a result at least as extreme as the one observed" },
+              { id: "a", text: "The probability, assuming $H_0$ is true, of obtaining a result at least as extreme as the one observed" },
+              { id: "b", text: "The probability that $H_0$ is true" },
               { id: "c", text: "The probability that the alternative hypothesis is correct" },
               { id: "d", text: "The size of the sample" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "$p$-value", statement: "The probability, assuming $H_0$ is true, of a result at least as extreme as observed." }],
@@ -466,9 +466,9 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Drinking coffee causes heart disease" },
+              { id: "a", text: "Heart disease prevents people from drinking coffee" },
               { id: "b", text: "There is an association between the variables, but the test does not establish causation" },
-              { id: "c", text: "Heart disease prevents people from drinking coffee" },
+              { id: "c", text: "Drinking coffee causes heart disease" },
               { id: "d", text: "The variables are independent" },
             ],
             correctChoiceId: "b",
@@ -519,9 +519,9 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "3" },
+              { id: "a", text: "5" },
               { id: "b", text: "4" },
-              { id: "c", text: "5" },
+              { id: "c", text: "3" },
               { id: "d", text: "6" },
             ],
             correctChoiceId: "b",
@@ -636,12 +636,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The data do not fit the stated distribution" },
-              { id: "b", text: "The data fit the stated distribution" },
-              { id: "c", text: "All categories have equal observed frequencies" },
-              { id: "d", text: "The sample size is too small" },
+              { id: "a", text: "All categories have equal observed frequencies" },
+              { id: "b", text: "The data do not fit the stated distribution" },
+              { id: "c", text: "The sample size is too small" },
+              { id: "d", text: "The data fit the stated distribution" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Goodness-of-fit hypotheses", statement: "$H_0$: the data follow the stated distribution; $H_1$: they do not." }],
@@ -662,10 +662,10 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "4" },
+              { id: "a", text: "6" },
               { id: "b", text: "5" },
-              { id: "c", text: "6" },
-              { id: "d", text: "7" },
+              { id: "c", text: "7" },
+              { id: "d", text: "4" },
             ],
             correctChoiceId: "b",
           },
@@ -688,12 +688,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Both populations are approximately normal with equal variances" },
-              { id: "b", text: "Both samples have exactly the same size" },
-              { id: "c", text: "The population means are equal" },
-              { id: "d", text: "The data are categorical" },
+              { id: "a", text: "Both samples have exactly the same size" },
+              { id: "b", text: "The population means are equal" },
+              { id: "c", text: "The data are categorical" },
+              { id: "d", text: "Both populations are approximately normal with equal variances" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Pooled t-test assumptions", statement: "Independent samples from approximately normal populations with equal variances." }],
@@ -814,12 +814,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The two-tailed $p$-value" },
-              { id: "b", text: "The one-tailed $p$-value in the stated direction" },
-              { id: "c", text: "Half of the critical value" },
+              { id: "a", text: "The one-tailed $p$-value in the stated direction" },
+              { id: "b", text: "Half of the critical value" },
+              { id: "c", text: "The two-tailed $p$-value" },
               { id: "d", text: "The $p$-value divided by the degrees of freedom" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "One-tailed tests", statement: "A one-tailed alternative requires the one-tailed $p$-value in the stated direction." }],
@@ -841,11 +841,11 @@ export const lesson43: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Reject $H_0$: the data do not fit the distribution" },
-              { id: "b", text: "Do not reject $H_0$: there is insufficient evidence that the data do not fit the distribution" },
-              { id: "c", text: "Accept $H_0$: the distribution is proved correct" },
+              { id: "b", text: "Accept $H_0$: the distribution is proved correct" },
+              { id: "c", text: "Do not reject $H_0$: there is insufficient evidence that the data do not fit the distribution" },
               { id: "d", text: "The test cannot be performed because $p>0.5$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Decision rule", statement: "Reject $H_0$ only when $p<$ significance level." }],
@@ -937,11 +937,11 @@ export const lesson43: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Whether the die has equal mass on all faces" },
-              { id: "b", text: "Whether the observed frequencies are consistent with the expected (fair) distribution" },
+              { id: "b", text: "Whether the sample size is large enough" },
               { id: "c", text: "Whether the die lands on 6 more often than any other face" },
-              { id: "d", text: "Whether the sample size is large enough" },
+              { id: "d", text: "Whether the observed frequencies are consistent with the expected (fair) distribution" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Goodness of fit", statement: "Compares observed counts with the counts expected under a stated model." }],
@@ -963,12 +963,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Because it uses only one combined estimate of variance for both samples" },
-              { id: "b", text: "Because the test statistic is always positive" },
+              { id: "a", text: "Because the test statistic is always positive" },
+              { id: "b", text: "Because it uses only one combined estimate of variance for both samples" },
               { id: "c", text: "Because the means must be equal" },
               { id: "d", text: "Because it only works for two-sided alternatives" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Pooled variance", statement: "Pooling combines the sample variances into a single estimate, which is only valid if the population variances are equal." }],

@@ -55,12 +55,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Knowing your lines perfectly" },
-              { id: "b", text: "Awareness of the whole group and responding to other performers" },
-              { id: "c", text: "Standing in the centre of stage" },
+              { id: "a", text: "Awareness of the whole group and responding to other performers" },
+              { id: "b", text: "Standing in the centre of stage" },
+              { id: "c", text: "Knowing your lines perfectly" },
               { id: "d", text: "Wearing matching costumes" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -156,12 +156,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A single star performer" },
-              { id: "b", text: "A group of performers working together as a company" },
-              { id: "c", text: "The stage crew" },
-              { id: "d", text: "The audience" },
+              { id: "a", text: "A group of performers working together as a company" },
+              { id: "b", text: "The stage crew" },
+              { id: "c", text: "The audience" },
+              { id: "d", text: "A single star performer" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -185,10 +185,10 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The performer's costume rank" },
+              { id: "a", text: "The stage position only" },
               { id: "b", text: "The relative power or social position a performer projects" },
-              { id: "c", text: "The stage position only" },
-              { id: "d", text: "The volume of the voice" },
+              { id: "c", text: "The volume of the voice" },
+              { id: "d", text: "The performer's costume rank" },
             ],
             correctChoiceId: "b",
           },
@@ -214,12 +214,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The lights change" },
-              { id: "b", text: "The relative power between characters reverses — e.g. a servant outsmarts the master" },
-              { id: "c", text: "A performer exits" },
-              { id: "d", text: "The music changes" },
+              { id: "a", text: "The relative power between characters reverses — e.g. a servant outsmarts the master" },
+              { id: "b", text: "A performer exits" },
+              { id: "c", text: "The music changes" },
+              { id: "d", text: "The lights change" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -244,11 +244,11 @@ export const lesson13: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Individual line memorisation" },
-              { id: "b", text: "The group's trust, communication and cohesion" },
-              { id: "c", text: "Stage fighting skills" },
-              { id: "d", text: "Costume care" },
+              { id: "b", text: "Costume care" },
+              { id: "c", text: "The group's trust, communication and cohesion" },
+              { id: "d", text: "Stage fighting skills" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -272,12 +272,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The scene becomes more exciting" },
-              { id: "b", text: "The group image becomes unbalanced and the scene loses clarity" },
-              { id: "c", text: "Nothing changes" },
-              { id: "d", text: "The other performers benefit" },
+              { id: "a", text: "The group image becomes unbalanced and the scene loses clarity" },
+              { id: "b", text: "Nothing changes" },
+              { id: "c", text: "The other performers benefit" },
+              { id: "d", text: "The scene becomes more exciting" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -301,12 +301,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Copying lines exactly" },
-              { id: "b", text: "Matching a partner's movement in real time to build awareness and responsiveness" },
-              { id: "c", text: "Standing still" },
-              { id: "d", text: "Individual choreography" },
+              { id: "a", text: "Standing still" },
+              { id: "b", text: "Individual choreography" },
+              { id: "c", text: "Matching a partner's movement in real time to build awareness and responsiveness" },
+              { id: "d", text: "Copying lines exactly" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -513,11 +513,11 @@ export const lesson13: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Always agree with everything" },
-              { id: "b", text: "Accept offers and build on them" },
-              { id: "c", text: "Say yes to the director" },
-              { id: "d", text: "Never say no" },
+              { id: "b", text: "Say yes to the director" },
+              { id: "c", text: "Never say no" },
+              { id: "d", text: "Accept offers and build on them" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -614,11 +614,11 @@ export const lesson13: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Accepting and building on a partner's suggestion" },
-              { id: "b", text: "Rejecting or negating a partner's suggestion, which stalls the scene" },
+              { id: "b", text: "Speaking louder than your partner" },
               { id: "c", text: "Standing in the centre of the stage" },
-              { id: "d", text: "Speaking louder than your partner" },
+              { id: "d", text: "Rejecting or negating a partner's suggestion, which stalls the scene" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -642,12 +642,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Waiting silently for your turn to speak" },
-              { id: "b", text: "Responding to what is actually happening in the moment rather than your planned response" },
-              { id: "c", text: "Memorising your partner's lines" },
-              { id: "d", text: "Standing near the speaker" },
+              { id: "a", text: "Responding to what is actually happening in the moment rather than your planned response" },
+              { id: "b", text: "Memorising your partner's lines" },
+              { id: "c", text: "Standing near the speaker" },
+              { id: "d", text: "Waiting silently for your turn to speak" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -671,12 +671,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Walk to music" },
-              { id: "b", text: "Move across the space as a character or emotional state" },
-              { id: "c", text: "Repeat lines" },
-              { id: "d", text: "Face the wall" },
+              { id: "a", text: "Move across the space as a character or emotional state" },
+              { id: "b", text: "Repeat lines" },
+              { id: "c", text: "Face the wall" },
+              { id: "d", text: "Walk to music" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -700,12 +700,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A warm-up only" },
-              { id: "b", text: "The primary creative process from which material is shaped" },
-              { id: "c", text: "A punishment for mistakes" },
-              { id: "d", text: "Only for comedy" },
+              { id: "a", text: "A punishment for mistakes" },
+              { id: "b", text: "Only for comedy" },
+              { id: "c", text: "A warm-up only" },
+              { id: "d", text: "The primary creative process from which material is shaped" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -729,10 +729,10 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Line memorisation" },
+              { id: "a", text: "Costume awareness" },
               { id: "b", text: "Real-time responsiveness and partnership awareness" },
-              { id: "c", text: "Vocal projection" },
-              { id: "d", text: "Costume awareness" },
+              { id: "c", text: "Line memorisation" },
+              { id: "d", text: "Vocal projection" },
             ],
             correctChoiceId: "b",
           },
@@ -758,12 +758,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Following the planned scene" },
-              { id: "b", text: "Going with each choice fully without hesitation or half-measures" },
-              { id: "c", text: "Agreeing with the director" },
-              { id: "d", text: "Repeating the same bit" },
+              { id: "a", text: "Repeating the same bit" },
+              { id: "b", text: "Agreeing with the director" },
+              { id: "c", text: "Following the planned scene" },
+              { id: "d", text: "Going with each choice fully without hesitation or half-measures" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

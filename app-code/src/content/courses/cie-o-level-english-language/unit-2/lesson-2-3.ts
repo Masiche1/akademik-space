@@ -51,12 +51,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Instruction prompting response" },
-              { id: "b", text: "Product name" },
+              { id: "a", text: "Product name" },
+              { id: "b", text: "Instruction prompting response" },
               { id: "c", text: "Company logo" },
               { id: "d", text: "Price" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -148,6 +148,307 @@ export const lesson23: Lesson = {
             commonErrors: ["Missing call to action — key element."],
           },
         },
+        {
+          id: "cie-ol-el-media-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "A 'slogan' in advertising is what?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "The company's address" },
+              { id: "b", text: "The product's price" },
+              { id: "c", text: "A description of the logo" },
+              { id: "d", text: "A catchy phrase representing the product" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              { kind: "definition", name: "Slogan", statement: "Catchy phrase representing product or idea." },
+            ],
+            steps: [
+              { reasoning: "Slogan = catchy phrase.", working: "catchy", marks: 1, markCode: "AO1" },
+            ],
+            finalAnswer: "**(a)** A catchy phrase representing the product",
+            commonErrors: ["Choosing (b) — that's price."],
+          },
+        },
+        {
+          id: "cie-ol-el-media-q6",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "Advertisement structure has 5 elements: headline, visual, body text, slogan, call to action. A student writes an ad missing the slogan and the call to action. (a) How many elements are required? (b) How many are missing?",
+          response: {
+            type: "numeric",
+            parts: [
+              { label: "a", answer: 5 },
+              { label: "b", answer: 2 },
+            ],
+          },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Ad structure", statement: "All 5 elements needed." },
+            ],
+            steps: [
+              { reasoning: "5 elements are required.", working: "5", marks: 1, markCode: "AO1" },
+              { reasoning: "2 elements are missing.", working: "2 missing", marks: 1, markCode: "AO2" },
+            ],
+            finalAnswer: "(a) 5; (b) 2",
+            commonErrors: ["Forgetting the call to action."],
+          },
+        },
+        {
+          id: "cie-ol-el-media-q7",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "'Target audience' in advertising means what?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Only children" },
+              { id: "b", text: "The specific group the ad aims at" },
+              { id: "c", text: "Only adults" },
+              { id: "d", text: "Everyone in the world" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              { kind: "definition", name: "Target audience", statement: "Specific group the media targets." },
+            ],
+            steps: [
+              { reasoning: "Target audience = specific group.", working: "specific group", marks: 1, markCode: "AO1" },
+            ],
+            finalAnswer: "**(a)** The specific group the ad aims at",
+            commonErrors: ["Thinking all ads target everyone."],
+          },
+        },
+        {
+          id: "cie-ol-el-media-q8",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "Name two persuasive techniques used in advertising.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "convention", name: "Ad techniques", statement: "Emotive language, expert endorsements, statistics, repetition." },
+            ],
+            steps: [
+              { reasoning: "Any two valid.", working: "techniques", marks: 1, markCode: "AO2" },
+              { reasoning: "Correct.", marks: 1, markCode: "AO3" },
+            ],
+            finalAnswer: "Emotive language, expert endorsements, statistics, repetition, celebrity association (any two).",
+            commonErrors: ["Only one — need multiple."],
+          },
+        },
+        {
+          id: "cie-ol-el-media-q9",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "An advertisement uses 3 statistics, 2 celebrity references and 1 slogan. (a) How many statistics appear? (b) How many celebrity references appear? (c) How many persuasive elements are counted in total?",
+          response: {
+            type: "numeric",
+            parts: [
+              { label: "a", answer: 3 },
+              { label: "b", answer: 2 },
+              { label: "c", answer: 6 },
+            ],
+          },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Ad analysis counting", statement: "Count each persuasive element." },
+            ],
+            steps: [
+              { reasoning: "3 statistics are given.", working: "3", marks: 1, markCode: "AO1" },
+              { reasoning: "2 celebrity references are given.", working: "2", marks: 1, markCode: "AO2" },
+              { reasoning: "3 plus 2 plus 1 equals 6 elements.", working: "3 + 2 + 1 = 6", marks: 1, markCode: "AO3" },
+            ],
+            finalAnswer: "(a) 3; (b) 2; (c) 6",
+            commonErrors: ["Counting the slogan as a separate category — it's still an element."],
+          },
+        },
+        {
+          id: "cie-ol-el-media-q10",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Bright colours and cartoon characters in an advertisement suggest a target audience of what?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "University lecturers" },
+              { id: "b", text: "Elderly people" },
+              { id: "c", text: "Business professionals" },
+              { id: "d", text: "Children" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Audience targeting", statement: "Visual style matches target group." },
+            ],
+            steps: [
+              { reasoning: "Bright colours/cartoons appeal to children.", working: "children", marks: 1, markCode: "AO1" },
+            ],
+            finalAnswer: "**(a)** Children",
+            commonErrors: ["Choosing (c) — business ads use professional imagery."],
+          },
+        },
+        {
+          id: "cie-ol-el-media-q11",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "Explain how to analyse an advertisement effectively.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Ad analysis", statement: "Structure, techniques, audience, call to action." },
+            ],
+            steps: [
+              { reasoning: "Check the headline — does it grab attention?", working: "headline", marks: 1, markCode: "AO2" },
+              { reasoning: "Analyse the imagery and language — persuasive techniques.", working: "techniques", marks: 1, markCode: "AO2" },
+              { reasoning: "Identify the target audience from colours/references.", working: "audience", marks: 1, markCode: "AO2" },
+              { reasoning: "Find the call to action — what does it ask you to do?", working: "CTA", marks: 1, markCode: "AO3" },
+            ],
+            finalAnswer: "Headline→techniques→audience→call to action.",
+            commonErrors: ["Only describing the product — analyse the persuasion."],
+          },
+        },
+        {
+          id: "cie-ol-el-media-q12",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "'Buy now — limited offer!' is an example of what?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "A slogan" },
+              { id: "b", text: "A headline only" },
+              { id: "c", text: "A byline" },
+              { id: "d", text: "A call to action" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              { kind: "definition", name: "Call to action", statement: "Instruction prompting the reader to act." },
+            ],
+            steps: [
+              { reasoning: "'Buy now' prompts action.", working: "act", marks: 1, markCode: "AO1" },
+            ],
+            finalAnswer: "**(a)** A call to action",
+            commonErrors: ["Choosing (c) — it's an instruction, not a phrase."],
+          },
+        },
+        {
+          id: "cie-ol-el-media-q13",
+          difficulty: "challenge",
+          totalMarks: 2,
+          stem: "An ad needs 5 elements; a student includes only 3. (a) How many elements are missing? (b) A slogan must be under 6 words; a draft slogan has 9 words. By how many words does it exceed the limit?",
+          response: {
+            type: "numeric",
+            parts: [
+              { label: "a", answer: 2 },
+              { label: "b", answer: 3, unit: "words" },
+            ],
+          },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Ad checking", statement: "Include all elements; meet word limits." },
+            ],
+            steps: [
+              { reasoning: "5 minus 3 equals 2 missing elements.", working: "5 - 3 = 2", marks: 1, markCode: "AO2" },
+              { reasoning: "9 minus 6 equals 3 words over.", working: "9 - 6 = 3", marks: 1, markCode: "AO3" },
+            ],
+            finalAnswer: "(a) 2; (b) 3 words",
+            commonErrors: ["Exceeding the slogan word limit."],
+          },
+        },
+        {
+          id: "cie-ol-el-media-q14",
+          difficulty: "challenge",
+          totalMarks: 6,
+          stem: "Apply media analysis skills.",
+          parts: [
+            { label: "a", prompt: "Describe the structure of an advertisement.", marks: 2 },
+            { label: "b", prompt: "Name three persuasive techniques in ads.", marks: 2 },
+            { label: "c", prompt: "How do you identify the target audience?", marks: 2 },
+          ],
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Media analysis", statement: "Structure, techniques, audience." },
+            ],
+            steps: [
+              { part: "a", reasoning: "Headline→visual→body→slogan→CTA.", working: "structure", marks: 1, markCode: "AO2" },
+              { part: "a", reasoning: "Complete.", working: "complete", marks: 1, markCode: "AO3" },
+              { part: "b", reasoning: "Emotive, expert, statistics, repetition, celebrity — any three.", working: "techniques", marks: 1, markCode: "AO2" },
+              { part: "b", reasoning: "Three valid.", working: "three", marks: 1, markCode: "AO3" },
+              { part: "c", reasoning: "Colours, language, references match to specific group.", working: "audience", marks: 1, markCode: "AO2" },
+              { part: "c", reasoning: "Clear.", working: "clear", marks: 1, markCode: "AO3" },
+            ],
+            finalAnswer: "(a) headline→CTA (b) three techniques (c) match to group",
+            levels: [
+              { level: "Level 2", marks: "1-2", descriptor: "Complete.", part: "a" },
+              { level: "Level 1", marks: "0", descriptor: "Partial.", part: "a" },
+              { level: "Level 2", marks: "1-2", descriptor: "Three valid.", part: "b" },
+              { level: "Level 1", marks: "0", descriptor: "Few.", part: "b" },
+              { level: "Level 2", marks: "1-2", descriptor: "Clear.", part: "c" },
+              { level: "Level 1", marks: "0", descriptor: "Vague.", part: "c" },
+            ],
+            commonErrors: ["Missing the call to action element."],
+          },
+        },
+        {
+          id: "cie-ol-el-media-q15",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "An 'expert endorsement' in advertising means what?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "A price list" },
+              { id: "b", text: "A safety warning" },
+              { id: "c", text: "A guarantee" },
+              { id: "d", text: "A famous person or expert recommends the product" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              { kind: "definition", name: "Expert endorsement", statement: "Authority figure recommends product." },
+            ],
+            steps: [
+              { reasoning: "Endorsement = recommendation by authority.", working: "endorsement", marks: 1, markCode: "AO1" },
+            ],
+            finalAnswer: "**(a)** A famous person or expert recommends the product",
+            commonErrors: ["Choosing (d) — that's a guarantee."],
+          },
+        },
+        {
+          id: "cie-ol-el-media-q16",
+          difficulty: "challenge",
+          totalMarks: 2,
+          stem: "(a) An ad uses 4 persuasive techniques; a student identifies only 2 of them. How many are missed? (b) A headline limit is 10 words; a draft headline has 14 words. By how many words does it exceed the limit?",
+          response: {
+            type: "numeric",
+            parts: [
+              { label: "a", answer: 2 },
+              { label: "b", answer: 4, unit: "words" },
+            ],
+          },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Ad checking", statement: "Find all techniques; meet word limits." },
+            ],
+            steps: [
+              { reasoning: "4 minus 2 equals 2 missed techniques.", working: "4 - 2 = 2", marks: 1, markCode: "AO2" },
+              { reasoning: "14 minus 10 equals 4 words over.", working: "14 - 10 = 4", marks: 1, markCode: "AO3" },
+            ],
+            finalAnswer: "(a) 2; (b) 4 words",
+            commonErrors: ["Missing techniques or exceeding word limits."],
+          },
+        },
       ],
     },
     {
@@ -186,12 +487,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "One-sided perspective" },
-              { id: "b", text: "Complete truth" },
-              { id: "c", text: "No opinion" },
-              { id: "d", text: "Factual report" },
+              { id: "a", text: "Complete truth" },
+              { id: "b", text: "Factual report" },
+              { id: "c", text: "One-sided perspective" },
+              { id: "d", text: "No opinion" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -283,6 +584,307 @@ export const lesson23: Lesson = {
             commonErrors: ["Accepting media at face value — must be critical."],
           },
         },
+        {
+          id: "cie-ol-el-meff-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Objectivity in media means what?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Fictional" },
+              { id: "b", text: "Balanced and factual" },
+              { id: "c", text: "One-sided" },
+              { id: "d", text: "Emotional" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              { kind: "definition", name: "Objectivity", statement: "Balanced, factual presentation." },
+            ],
+            steps: [
+              { reasoning: "Objectivity = balanced/factual.", working: "balanced", marks: 1, markCode: "AO1" },
+            ],
+            finalAnswer: "**(a)** Balanced and factual",
+            commonErrors: ["Choosing (b) — that's bias."],
+          },
+        },
+        {
+          id: "cie-ol-el-meff-q6",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "There are 5 critical questions for media analysis. A student asks only 3 of them. (a) How many questions exist? (b) How many has the student asked?",
+          response: {
+            type: "numeric",
+            parts: [
+              { label: "a", answer: 5 },
+              { label: "b", answer: 3 },
+            ],
+          },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Critical questions", statement: "Ask all key questions." },
+            ],
+            steps: [
+              { reasoning: "5 critical questions exist.", working: "5", marks: 1, markCode: "AO1" },
+              { reasoning: "3 are asked.", working: "3", marks: 1, markCode: "AO2" },
+            ],
+            finalAnswer: "(a) 5; (b) 3",
+            commonErrors: ["Asking too few critical questions."],
+          },
+        },
+        {
+          id: "cie-ol-el-meff-q7",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "'Loaded language' in media is what?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Neutral words" },
+              { id: "b", text: "Words with strong emotional bias" },
+              { id: "c", text: "Technical terms" },
+              { id: "d", text: "Foreign words" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              { kind: "definition", name: "Loaded language", statement: "Words carrying emotional bias." },
+            ],
+            steps: [
+              { reasoning: "Loaded = emotionally biased.", working: "biased", marks: 1, markCode: "AO1" },
+            ],
+            finalAnswer: "**(a)** Words with strong emotional bias",
+            commonErrors: ["Choosing (b) — that's neutral."],
+          },
+        },
+        {
+          id: "cie-ol-el-meff-q8",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "Name two critical questions for analysing media texts.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "convention", name: "Critical questions", statement: "Who created? Why? Who benefits? What's omitted?" },
+            ],
+            steps: [
+              { reasoning: "Any two valid.", working: "questions", marks: 1, markCode: "AO2" },
+              { reasoning: "Correct.", marks: 1, markCode: "AO3" },
+            ],
+            finalAnswer: "Who created? Why? Who benefits? What's omitted? Who is the audience? (any two).",
+            commonErrors: ["Only one — need multiple."],
+          },
+        },
+        {
+          id: "cie-ol-el-meff-q9",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "A news article omits 3 key facts and uses 4 emotionally loaded words. (a) How many facts are omitted? (b) How many loaded words are used? (c) What is the total number of red flags?",
+          response: {
+            type: "numeric",
+            parts: [
+              { label: "a", answer: 3 },
+              { label: "b", answer: 4 },
+              { label: "c", answer: 7 },
+            ],
+          },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Bias detection", statement: "Omissions and loaded language signal bias." },
+            ],
+            steps: [
+              { reasoning: "3 facts are omitted.", working: "3", marks: 1, markCode: "AO1" },
+              { reasoning: "4 loaded words are used.", working: "4", marks: 1, markCode: "AO2" },
+              { reasoning: "3 plus 4 equals 7 red flags.", working: "3 + 4 = 7", marks: 1, markCode: "AO3" },
+            ],
+            finalAnswer: "(a) 3; (b) 4; (c) 7",
+            commonErrors: ["Not counting omissions as bias signals."],
+          },
+        },
+        {
+          id: "cie-ol-el-meff-q10",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Media can manipulate audiences through which method?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Random chance" },
+              { id: "b", text: "Remaining silent" },
+              { id: "c", text: "Selective facts and repetition" },
+              { id: "d", text: "Only presenting truth" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Manipulation", statement: "Selective facts, repetition, emotive language." },
+            ],
+            steps: [
+              { reasoning: "Selective facts + repetition manipulate.", working: "selective", marks: 1, markCode: "AO1" },
+            ],
+            finalAnswer: "**(a)** Selective facts and repetition",
+            commonErrors: ["Thinking media is neutral."],
+          },
+        },
+        {
+          id: "cie-ol-el-meff-q11",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "Explain why all media texts have some form of perspective or bias.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Media bias", statement: "Creators have perspectives; selection shapes meaning." },
+            ],
+            steps: [
+              { reasoning: "Every creator has a viewpoint — complete objectivity is rare.", working: "perspective", marks: 1, markCode: "AO2" },
+              { reasoning: "Choices of what to include or omit shape the message.", working: "selection", marks: 1, markCode: "AO2" },
+              { reasoning: "Purpose and agenda influence presentation.", working: "agenda", marks: 1, markCode: "AO2" },
+              { reasoning: "Explanation given.", marks: 1, markCode: "AO3" },
+            ],
+            finalAnswer: "Creators have perspectives; selection and purpose shape the message.",
+            commonErrors: ["Assuming media is neutral — it always has a viewpoint."],
+          },
+        },
+        {
+          id: "cie-ol-el-meff-q12",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Which is a clear sign of bias in a news article?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Multiple sources are used" },
+              { id: "b", text: "Formal register is used" },
+              { id: "c", text: "Only one side of the story is quoted" },
+              { id: "d", text: "Statistics are included" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Bias signs", statement: "One-sided sourcing signals bias." },
+            ],
+            steps: [
+              { reasoning: "One-sided sourcing = bias.", working: "one-sided", marks: 1, markCode: "AO1" },
+            ],
+            finalAnswer: "**(a)** Only one side of the story is quoted",
+            commonErrors: ["Choosing (b) — multiple sources suggest balance."],
+          },
+        },
+        {
+          id: "cie-ol-el-meff-q13",
+          difficulty: "challenge",
+          totalMarks: 2,
+          stem: "(a) There are 6 critical questions for media analysis; a student uses only 4 of them. How many are unused? (b) An article has 5 paragraphs; 2 of them give opinion. How many paragraphs are factual?",
+          response: {
+            type: "numeric",
+            parts: [
+              { label: "a", answer: 2 },
+              { label: "b", answer: 3 },
+            ],
+          },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Critical analysis counting", statement: "Count questions used and factual paragraphs." },
+            ],
+            steps: [
+              { reasoning: "6 minus 4 equals 2 unused questions.", working: "6 - 4 = 2", marks: 1, markCode: "AO2" },
+              { reasoning: "5 minus 2 equals 3 factual paragraphs.", working: "5 - 2 = 3", marks: 1, markCode: "AO3" },
+            ],
+            finalAnswer: "(a) 2; (b) 3",
+            commonErrors: ["Not distinguishing opinion from factual paragraphs."],
+          },
+        },
+        {
+          id: "cie-ol-el-meff-q14",
+          difficulty: "challenge",
+          totalMarks: 6,
+          stem: "Evaluate media influence.",
+          parts: [
+            { label: "a", prompt: "Define bias in media.", marks: 2 },
+            { label: "b", prompt: "Name three critical questions.", marks: 2 },
+            { label: "c", prompt: "Name two manipulation techniques.", marks: 2 },
+          ],
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Media influence", statement: "Bias, critical questions, manipulation." },
+            ],
+            steps: [
+              { part: "a", reasoning: "One-sided perspective favouring one view.", working: "bias", marks: 1, markCode: "AO2" },
+              { part: "a", reasoning: "Clear.", working: "clear", marks: 1, markCode: "AO3" },
+              { part: "b", reasoning: "Who created? Why? Who benefits? What's omitted? — any three.", working: "questions", marks: 1, markCode: "AO2" },
+              { part: "b", reasoning: "Three valid.", working: "three", marks: 1, markCode: "AO3" },
+              { part: "c", reasoning: "Emotive language, selective facts, repetition, endorsements — any two.", working: "techniques", marks: 1, markCode: "AO2" },
+              { part: "c", reasoning: "Two valid.", working: "two", marks: 1, markCode: "AO3" },
+            ],
+            finalAnswer: "(a) one-sided (b) three questions (c) two techniques",
+            levels: [
+              { level: "Level 2", marks: "1-2", descriptor: "Clear.", part: "a" },
+              { level: "Level 1", marks: "0", descriptor: "Vague.", part: "a" },
+              { level: "Level 2", marks: "1-2", descriptor: "Three valid.", part: "b" },
+              { level: "Level 1", marks: "0", descriptor: "Few.", part: "b" },
+              { level: "Level 2", marks: "1-2", descriptor: "Two valid.", part: "c" },
+              { level: "Level 1", marks: "0", descriptor: "One.", part: "c" },
+            ],
+            commonErrors: ["Accepting media at face value."],
+          },
+        },
+        {
+          id: "cie-ol-el-meff-q15",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "What is the best way to be a critical media consumer?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Believe everything you read" },
+              { id: "b", text: "Only read headlines" },
+              { id: "c", text: "Check sources and multiple perspectives" },
+              { id: "d", text: "Trust experts blindly" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Critical consumption", statement: "Verify sources, seek multiple views." },
+            ],
+            steps: [
+              { reasoning: "Critical consumers check sources and perspectives.", working: "verify", marks: 1, markCode: "AO1" },
+            ],
+            finalAnswer: "**(a)** Check sources and multiple perspectives",
+            commonErrors: ["Choosing (b) — passive acceptance is not critical."],
+          },
+        },
+        {
+          id: "cie-ol-el-meff-q16",
+          difficulty: "challenge",
+          totalMarks: 2,
+          stem: "(a) 4 manipulation techniques are listed; a student names only 3 of them. How many are missing? (b) An article has 10 facts checked; 7 are verified. How many are unverified?",
+          response: {
+            type: "numeric",
+            parts: [
+              { label: "a", answer: 1 },
+              { label: "b", answer: 3 },
+            ],
+          },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Media checking", statement: "Count techniques and verify facts." },
+            ],
+            steps: [
+              { reasoning: "4 minus 3 equals 1 missing technique.", working: "4 - 3 = 1", marks: 1, markCode: "AO2" },
+              { reasoning: "10 minus 7 equals 3 unverified facts.", working: "10 - 7 = 3", marks: 1, markCode: "AO3" },
+            ],
+            finalAnswer: "(a) 1; (b) 3",
+            commonErrors: ["Not verifying all facts."],
+          },
+        },
       ],
     },
     {
@@ -321,12 +923,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Read all questions" },
-              { id: "b", text: "Start writing" },
+              { id: "a", text: "Start writing" },
+              { id: "b", text: "Skip" },
               { id: "c", text: "Guess" },
-              { id: "d", text: "Skip" },
+              { id: "d", text: "Read all questions" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -416,6 +1018,307 @@ export const lesson23: Lesson = {
               { level: "Level 1", marks: "0", descriptor: "Vague.", part: "d" },
             ],
             commonErrors: ["No proofreading — errors remain."],
+          },
+        },
+        {
+          id: "cie-ol-el-exam2-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "What should you do before starting the reading paper?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Start writing immediately" },
+              { id: "b", text: "Guess the answers" },
+              { id: "c", text: "Read all the questions first" },
+              { id: "d", text: "Skip to the end" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              { kind: "convention", name: "Reading strategy", statement: "Read questions first — plan approach." },
+            ],
+            steps: [
+              { reasoning: "Read all questions first.", working: "read", marks: 1, markCode: "AO1" },
+            ],
+            finalAnswer: "**(a)** Read all the questions first",
+            commonErrors: ["Starting immediately — no plan."],
+          },
+        },
+        {
+          id: "cie-ol-el-exam2-q6",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "An exam lasts 2 hours and is worth 80 marks. (a) How many marks are available per hour? (b) How many minutes are available per mark?",
+          response: {
+            type: "numeric",
+            parts: [
+              { label: "a", answer: 40 },
+              { label: "b", answer: 1.5, unit: "minutes" },
+            ],
+          },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Time calculation", statement: "Total time divided by total marks." },
+            ],
+            steps: [
+              { reasoning: "80 marks in 2 hours equals 40 marks per hour.", working: "80 / 2 = 40", marks: 1, markCode: "AO2" },
+              { reasoning: "120 minutes divided by 80 equals 1.5 minutes per mark.", working: "120 / 80 = 1.5", marks: 1, markCode: "AO3" },
+            ],
+            finalAnswer: "(a) 40 marks per hour; (b) 1.5 minutes per mark",
+            commonErrors: ["Mixing hours and minutes."],
+          },
+        },
+        {
+          id: "cie-ol-el-exam2-q7",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "What is the best first step in a writing task?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Plan and brainstorm" },
+              { id: "b", text: "Proofread" },
+              { id: "c", text: "Count the words" },
+              { id: "d", text: "Write the final version" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              { kind: "convention", name: "Writing strategy", statement: "Plan before writing." },
+            ],
+            steps: [
+              { reasoning: "Planning comes first.", working: "plan", marks: 1, markCode: "AO1" },
+            ],
+            finalAnswer: "**(a)** Plan and brainstorm",
+            commonErrors: ["Starting to write — no structure."],
+          },
+        },
+        {
+          id: "cie-ol-el-exam2-q8",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "Name two writing exam techniques.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "convention", name: "Writing techniques", statement: "Plan, structure, varied sentences, proofread." },
+            ],
+            steps: [
+              { reasoning: "Any two valid.", working: "techniques", marks: 1, markCode: "AO2" },
+              { reasoning: "Correct.", marks: 1, markCode: "AO3" },
+            ],
+            finalAnswer: "Plan, structure, varied sentences, proofread (any two).",
+            commonErrors: ["Only one — need multiple."],
+          },
+        },
+        {
+          id: "cie-ol-el-exam2-q9",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "An exam has three sections worth 30, 40 and 20 marks. (a) What is the total number of marks? (b) If time is allocated by marks and the exam is 90 minutes, how many minutes does the 40-mark section get? (c) How many minutes does the 20-mark section get?",
+          response: {
+            type: "numeric",
+            parts: [
+              { label: "a", answer: 90 },
+              { label: "b", answer: 40, unit: "minutes" },
+              { label: "c", answer: 20, unit: "minutes" },
+            ],
+          },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Proportional allocation", statement: "Time per section proportional to marks." },
+            ],
+            steps: [
+              { reasoning: "30 plus 40 plus 20 equals 90 marks.", working: "30 + 40 + 20 = 90", marks: 1, markCode: "AO2" },
+              { reasoning: "40 marks equals 40 minutes (1 min per mark).", working: "40 min", marks: 1, markCode: "AO2" },
+              { reasoning: "20 marks equals 20 minutes.", working: "20 min", marks: 1, markCode: "AO3" },
+            ],
+            finalAnswer: "(a) 90 marks; (b) 40 minutes; (c) 20 minutes",
+            commonErrors: ["Splitting time equally."],
+          },
+        },
+        {
+          id: "cie-ol-el-exam2-q10",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Answering easier questions first helps by doing what?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Saving no time" },
+              { id: "b", text: "Being required" },
+              { id: "c", text: "Confusing the examiner" },
+              { id: "d", text: "Securing marks and building confidence" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Exam strategy", statement: "Easy first — secure marks early." },
+            ],
+            steps: [
+              { reasoning: "Easy questions guarantee marks.", working: "marks", marks: 1, markCode: "AO1" },
+            ],
+            finalAnswer: "**(a)** Securing marks and building confidence",
+            commonErrors: ["Choosing (b) — order doesn't confuse examiner."],
+          },
+        },
+        {
+          id: "cie-ol-el-exam2-q11",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "Explain a good time allocation strategy for exams.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Time management", statement: "Allocate by marks, easy first, review buffer." },
+            ],
+            steps: [
+              { reasoning: "Calculate time per mark and allocate proportionally.", working: "allocate", marks: 1, markCode: "AO2" },
+              { reasoning: "Answer easier questions first.", working: "easy", marks: 1, markCode: "AO2" },
+              { reasoning: "Leave buffer time for review.", working: "buffer", marks: 1, markCode: "AO2" },
+              { reasoning: "Strategy clear.", marks: 1, markCode: "AO3" },
+            ],
+            finalAnswer: "Allocate by marks, easy first, review buffer.",
+            commonErrors: ["No plan — running out of time."],
+          },
+        },
+        {
+          id: "cie-ol-el-exam2-q12",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Which is a common exam mistake?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Reading the questions" },
+              { id: "b", text: "Planning first" },
+              { id: "c", text: "Not answering the question set" },
+              { id: "d", text: "Checking work" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              { kind: "convention", name: "Exam mistakes", statement: "Must answer the required question set." },
+            ],
+            steps: [
+              { reasoning: "Wrong question set = marks lost.", working: "question set", marks: 1, markCode: "AO1" },
+            ],
+            finalAnswer: "**(a)** Not answering the question set",
+            commonErrors: ["Choosing (d) — checking is good."],
+          },
+        },
+        {
+          id: "cie-ol-el-exam2-q13",
+          difficulty: "challenge",
+          totalMarks: 2,
+          stem: "A 60-minute exam has 30 marks. (a) How many minutes are available per mark? (b) How much time should a 10-mark question take?",
+          response: {
+            type: "numeric",
+            parts: [
+              { label: "a", answer: 2, unit: "minutes" },
+              { label: "b", answer: 20, unit: "minutes" },
+            ],
+          },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Time per mark", statement: "Total time ÷ total marks." },
+            ],
+            steps: [
+              { reasoning: "60 divided by 30 equals 2 minutes per mark.", working: "60 / 30 = 2", marks: 1, markCode: "AO2" },
+              { reasoning: "10 marks times 2 equals 20 minutes.", working: "10 x 2 = 20", marks: 1, markCode: "AO3" },
+            ],
+            finalAnswer: "(a) 2 minutes per mark; (b) 20 minutes",
+            commonErrors: ["Forgetting to multiply by question marks."],
+          },
+        },
+        {
+          id: "cie-ol-el-exam2-q14",
+          difficulty: "challenge",
+          totalMarks: 6,
+          stem: "Prepare for the O Level English exam.",
+          parts: [
+            { label: "a", prompt: "Describe your approach to the reading paper.", marks: 2 },
+            { label: "b", prompt: "Describe your approach to the writing paper.", marks: 2 },
+            { label: "c", prompt: "How will you check your work?", marks: 2 },
+          ],
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Exam preparation", statement: "Reading, writing, checking strategies." },
+            ],
+            steps: [
+              { part: "a", reasoning: "Read questions, allocate time, answer with evidence.", working: "reading", marks: 1, markCode: "AO2" },
+              { part: "a", reasoning: "Clear.", working: "clear", marks: 1, markCode: "AO3" },
+              { part: "b", reasoning: "Plan, structure, write, check word count, proofread.", working: "writing", marks: 1, markCode: "AO2" },
+              { part: "b", reasoning: "Complete.", working: "complete", marks: 1, markCode: "AO3" },
+              { part: "c", reasoning: "Check all questions answered, proofread, verify word limits.", working: "check", marks: 1, markCode: "AO2" },
+              { part: "c", reasoning: "Clear.", working: "clear", marks: 1, markCode: "AO3" },
+            ],
+            finalAnswer: "(a) read/plan (b) plan/write/proofread (c) check all/proofread",
+            levels: [
+              { level: "Level 2", marks: "1-2", descriptor: "Clear.", part: "a" },
+              { level: "Level 1", marks: "0", descriptor: "Vague.", part: "a" },
+              { level: "Level 2", marks: "1-2", descriptor: "Complete.", part: "b" },
+              { level: "Level 1", marks: "0", descriptor: "Partial.", part: "b" },
+              { level: "Level 2", marks: "1-2", descriptor: "Clear.", part: "c" },
+              { level: "Level 1", marks: "0", descriptor: "Vague.", part: "c" },
+            ],
+            commonErrors: ["No proofreading — errors remain."],
+          },
+        },
+        {
+          id: "cie-ol-el-exam2-q15",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Why is proofreading important before submitting?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "It confuses the reader" },
+              { id: "b", text: "It is required decoration" },
+              { id: "c", text: "It fills time" },
+              { id: "d", text: "It catches errors and improves marks" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Proofreading", statement: "Catches errors — improves accuracy." },
+            ],
+            steps: [
+              { reasoning: "Proofreading catches mistakes.", working: "errors", marks: 1, markCode: "AO1" },
+            ],
+            finalAnswer: "**(a)** It catches errors and improves marks",
+            commonErrors: ["Skipping proofreading — errors cost marks."],
+          },
+        },
+        {
+          id: "cie-ol-el-exam2-q16",
+          difficulty: "challenge",
+          totalMarks: 2,
+          stem: "(a) A student plans to spend 25 minutes writing but the task should take about 10 minutes. By how many minutes do they overspend? (b) If an exam is 120 minutes and 10% should be left for review, how many review minutes are needed?",
+          response: {
+            type: "numeric",
+            parts: [
+              { label: "a", answer: 15, unit: "minutes" },
+              { label: "b", answer: 12, unit: "minutes" },
+            ],
+          },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Time checking", statement: "Compare planned vs actual; reserve review." },
+            ],
+            steps: [
+              { reasoning: "25 minus 10 equals 15 minutes overspent.", working: "25 - 10 = 15", marks: 1, markCode: "AO2" },
+              { reasoning: "10% of 120 equals 12 review minutes.", working: "0.1 x 120 = 12", marks: 1, markCode: "AO3" },
+            ],
+            finalAnswer: "(a) 15 minutes; (b) 12 minutes",
+            commonErrors: ["Not comparing time to task requirements."],
           },
         },
       ],

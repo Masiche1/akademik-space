@@ -63,11 +63,11 @@ export const lesson12: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "cat" },
-              { id: "b", text: "the" },
-              { id: "c", text: "sun" },
+              { id: "b", text: "sun" },
+              { id: "c", text: "the" },
               { id: "d", text: "dog" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -96,12 +96,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "4" },
-              { id: "b", text: "5" },
-              { id: "c", text: "6" },
+              { id: "a", text: "5" },
+              { id: "b", text: "6" },
+              { id: "c", text: "4" },
               { id: "d", text: "7" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -233,12 +233,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A cat" },
-              { id: "b", text: "A bird" },
-              { id: "c", text: "A dog" },
-              { id: "d", text: "A fish" },
+              { id: "a", text: "A dog" },
+              { id: "b", text: "A fish" },
+              { id: "c", text: "A bird" },
+              { id: "d", text: "A cat" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -263,12 +263,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Sleeping" },
-              { id: "b", text: "Cooking dinner" },
-              { id: "c", text: "Reading" },
-              { id: "d", text: "Playing" },
+              { id: "a", text: "Playing" },
+              { id: "b", text: "Reading" },
+              { id: "c", text: "Cooking dinner" },
+              { id: "d", text: "Sleeping" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

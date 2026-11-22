@@ -58,8 +58,8 @@ export const lesson33: Lesson = {
             choices: [
               { id: "a", text: "Crust" },
               { id: "b", text: "Mantle" },
-              { id: "c", text: "Outer core" },
-              { id: "d", text: "Inner core" },
+              { id: "c", text: "Inner core" },
+              { id: "d", text: "Outer core" },
             ],
             correctChoiceId: "b",
           },
@@ -153,12 +153,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Crust" },
+              { id: "a", text: "Outer core" },
               { id: "b", text: "Mantle" },
-              { id: "c", text: "Outer core" },
+              { id: "c", text: "Crust" },
               { id: "d", text: "Inner core" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -180,12 +180,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Move apart" },
-              { id: "b", text: "Collide" },
-              { id: "c", text: "Slide past each other" },
-              { id: "d", text: "Stay still" },
+              { id: "a", text: "Slide past each other" },
+              { id: "b", text: "Stay still" },
+              { id: "c", text: "Move apart" },
+              { id: "d", text: "Collide" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -207,12 +207,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Constructive" },
-              { id: "b", text: "Destructive" },
-              { id: "c", text: "Conservative" },
-              { id: "d", text: "Transform" },
+              { id: "a", text: "Conservative" },
+              { id: "b", text: "Transform" },
+              { id: "c", text: "Destructive" },
+              { id: "d", text: "Constructive" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -271,12 +271,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The Moon's gravity" },
-              { id: "b", text: "Convection currents in the mantle" },
-              { id: "c", text: "Ocean tides" },
-              { id: "d", text: "Earthquakes" },
+              { id: "a", text: "Earthquakes" },
+              { id: "b", text: "Ocean tides" },
+              { id: "c", text: "The Moon's gravity" },
+              { id: "d", text: "Convection currents in the mantle" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -298,12 +298,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Constructive boundaries" },
-              { id: "b", text: "Conservative boundaries" },
-              { id: "c", text: "Destructive boundaries" },
-              { id: "d", text: "Mid-ocean ridges" },
+              { id: "a", text: "Conservative boundaries" },
+              { id: "b", text: "Mid-ocean ridges" },
+              { id: "c", text: "Constructive boundaries" },
+              { id: "d", text: "Destructive boundaries" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -381,10 +381,10 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Solid rock" },
+              { id: "a", text: "Ice" },
               { id: "b", text: "Liquid metal" },
               { id: "c", text: "A gas" },
-              { id: "d", text: "Ice" },
+              { id: "d", text: "Solid rock" },
             ],
             correctChoiceId: "b",
           },
@@ -408,12 +408,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Stress builds slowly and unpredictably underground, then is released suddenly" },
-              { id: "b", text: "They only happen on land" },
-              { id: "c", text: "Seismometers cannot detect them" },
-              { id: "d", text: "They are caused by weather" },
+              { id: "a", text: "They are caused by weather" },
+              { id: "b", text: "Seismometers cannot detect them" },
+              { id: "c", text: "Stress builds slowly and unpredictably underground, then is released suddenly" },
+              { id: "d", text: "They only happen on land" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -462,12 +462,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The weather today" },
-              { id: "b", text: "The long-term average weather of a region" },
-              { id: "c", text: "A single storm event" },
-              { id: "d", text: "The temperature right now" },
+              { id: "a", text: "A single storm event" },
+              { id: "b", text: "The temperature right now" },
+              { id: "c", text: "The long-term average weather of a region" },
+              { id: "d", text: "The weather today" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -559,12 +559,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The weather on a particular day" },
-              { id: "b", text: "The long-term average weather pattern of a region" },
+              { id: "a", text: "The temperature right now" },
+              { id: "b", text: "The weather on a particular day" },
               { id: "c", text: "A single storm event" },
-              { id: "d", text: "The temperature right now" },
+              { id: "d", text: "The long-term average weather pattern of a region" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -586,12 +586,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Clear, dry weather" },
-              { id: "b", text: "Cloudy, wet weather" },
-              { id: "c", text: "Strong winds only" },
-              { id: "d", text: "No change in weather" },
+              { id: "a", text: "No change in weather" },
+              { id: "b", text: "Strong winds only" },
+              { id: "c", text: "Clear, dry weather" },
+              { id: "d", text: "Cloudy, wet weather" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -613,12 +613,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The region has hot, dry summers on average" },
-              { id: "b", text: "Heavy rain fell yesterday" },
-              { id: "c", text: "Winters are usually mild over decades" },
-              { id: "d", text: "Average rainfall is 800 mm per year" },
+              { id: "a", text: "Heavy rain fell yesterday" },
+              { id: "b", text: "Average rainfall is 800 mm per year" },
+              { id: "c", text: "The region has hot, dry summers on average" },
+              { id: "d", text: "Winters are usually mild over decades" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -659,12 +659,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Uneven heating of the surface creating pressure differences that move air" },
-              { id: "b", text: "The Moon's gravity pulling on the atmosphere" },
-              { id: "c", text: "Clouds pushing the air" },
-              { id: "d", text: "Ocean waves" },
+              { id: "a", text: "The Moon's gravity pulling on the atmosphere" },
+              { id: "b", text: "Uneven heating of the surface creating pressure differences that move air" },
+              { id: "c", text: "Ocean waves" },
+              { id: "d", text: "Clouds pushing the air" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -685,12 +685,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Oxygen and nitrogen" },
-              { id: "b", text: "Carbon dioxide and methane" },
-              { id: "c", text: "Hydrogen and helium" },
-              { id: "d", text: "Argon and neon" },
+              { id: "a", text: "Hydrogen and helium" },
+              { id: "b", text: "Argon and neon" },
+              { id: "c", text: "Carbon dioxide and methane" },
+              { id: "d", text: "Oxygen and nitrogen" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -713,9 +713,9 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "It is caused by human activities adding extra greenhouse gases" },
-              { id: "b", text: "It removes all greenhouse gases" },
-              { id: "c", text: "It only happens at night" },
-              { id: "d", text: "It cools the planet" },
+              { id: "b", text: "It cools the planet" },
+              { id: "c", text: "It removes all greenhouse gases" },
+              { id: "d", text: "It only happens at night" },
             ],
             correctChoiceId: "a",
           },
@@ -777,12 +777,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The warm air rises over the cold air and forms clouds and precipitation" },
+              { id: "a", text: "The air masses mix without any weather" },
               { id: "b", text: "The cold air rises over the warm air" },
-              { id: "c", text: "Nothing changes" },
-              { id: "d", text: "The air masses mix without any weather" },
+              { id: "c", text: "The warm air rises over the cold air and forms clouds and precipitation" },
+              { id: "d", text: "Nothing changes" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -803,12 +803,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Planting trees" },
-              { id: "b", text: "Burning fossil fuels" },
-              { id: "c", text: "Recycling paper" },
+              { id: "a", text: "Recycling paper" },
+              { id: "b", text: "Planting trees" },
+              { id: "c", text: "Burning fossil fuels" },
               { id: "d", text: "Walking to school" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

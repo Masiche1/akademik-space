@@ -57,12 +57,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Decomposition of an ionic compound using electricity" },
-              { id: "b", text: "Combining elements to form compounds" },
+              { id: "a", text: "Dissolving in water" },
+              { id: "b", text: "Decomposition of an ionic compound using electricity" },
               { id: "c", text: "Burning in oxygen" },
-              { id: "d", text: "Dissolving in water" },
+              { id: "d", text: "Combining elements to form compounds" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -84,12 +84,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Cathode (negative)" },
+              { id: "a", text: "Both equally" },
               { id: "b", text: "Anode (positive)" },
-              { id: "c", text: "Both equally" },
+              { id: "c", text: "Cathode (negative)" },
               { id: "d", text: "Neither" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -112,12 +112,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Each water molecule has 2 H atoms and 1 O atom → 2H₂O → 2H₂ + O₂" },
-              { id: "b", text: "Hydrogen is lighter" },
+              { id: "a", text: "Random chance" },
+              { id: "b", text: "Each water molecule has 2 H atoms and 1 O atom → 2H₂O → 2H₂ + O₂" },
               { id: "c", text: "Oxygen dissolves in water" },
-              { id: "d", text: "Random chance" },
+              { id: "d", text: "Hydrogen is lighter" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -172,12 +172,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Negative electrode where reduction occurs" },
-              { id: "b", text: "Positive electrode where oxidation occurs" },
-              { id: "c", text: "Neutral electrode" },
-              { id: "d", text: "Container wall" },
+              { id: "a", text: "Neutral electrode" },
+              { id: "b", text: "Container wall" },
+              { id: "c", text: "Positive electrode where oxidation occurs" },
+              { id: "d", text: "Negative electrode where reduction occurs" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -200,9 +200,9 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Gain of electrons" },
-              { id: "b", text: "Loss of electrons" },
-              { id: "c", text: "Gain of protons" },
-              { id: "d", text: "Loss of neutrons" },
+              { id: "b", text: "Loss of neutrons" },
+              { id: "c", text: "Loss of electrons" },
+              { id: "d", text: "Gain of protons" },
             ],
             correctChoiceId: "a",
           },
@@ -274,12 +274,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "In the solid, ions are fixed in the lattice; when molten, ions are free to move" },
-              { id: "b", text: "Molten NaCl has more ions" },
-              { id: "c", text: "Solid NaCl has no ions" },
-              { id: "d", text: "Electricity creates the ions" },
+              { id: "a", text: "Solid NaCl has no ions" },
+              { id: "b", text: "In the solid, ions are fixed in the lattice; when molten, ions are free to move" },
+              { id: "c", text: "Electricity creates the ions" },
+              { id: "d", text: "Molten NaCl has more ions" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -326,12 +326,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Aluminium is very reactive — carbon cannot reduce its oxide, so electrolysis is needed" },
-              { id: "b", text: "Aluminium is cheap" },
-              { id: "c", text: "Carbon reacts with aluminium" },
+              { id: "a", text: "Carbon reacts with aluminium" },
+              { id: "b", text: "Aluminium is very reactive — carbon cannot reduce its oxide, so electrolysis is needed" },
+              { id: "c", text: "Aluminium is cheap" },
               { id: "d", text: "Electrolysis is always easier" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -522,8 +522,8 @@ export const lesson31: Lesson = {
             choices: [
               { id: "a", text: "Zinc (more reactive)" },
               { id: "b", text: "Copper" },
-              { id: "c", text: "Both" },
-              { id: "d", text: "Neither" },
+              { id: "c", text: "Neither" },
+              { id: "d", text: "Both" },
             ],
             correctChoiceId: "a",
           },
@@ -548,8 +548,8 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "It's very reactive — carbon can't reduce its oxide" },
-              { id: "b", text: "It's cheap to extract" },
-              { id: "c", text: "It conducts electricity" },
+              { id: "b", text: "It conducts electricity" },
+              { id: "c", text: "It's cheap to extract" },
               { id: "d", text: "It's found in seawater" },
             ],
             correctChoiceId: "a",
@@ -576,9 +576,9 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Coke burns to heat furnace + provides CO for reduction; limestone removes impurities as slag" },
-              { id: "b", text: "Coke is the iron ore" },
+              { id: "b", text: "Both are fuels only" },
               { id: "c", text: "Limestone produces iron" },
-              { id: "d", text: "Both are fuels only" },
+              { id: "d", text: "Coke is the iron ore" },
             ],
             correctChoiceId: "a",
           },
@@ -635,12 +635,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Zinc to copper" },
-              { id: "b", text: "Copper to zinc" },
+              { id: "a", text: "Copper to zinc" },
+              { id: "b", text: "They do not flow" },
               { id: "c", text: "Both directions equally" },
-              { id: "d", text: "They do not flow" },
+              { id: "d", text: "Zinc to copper" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -662,12 +662,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Anode (oxidised, loses electrons)" },
-              { id: "b", text: "Cathode (reduced, gains electrons)" },
+              { id: "a", text: "Both electrodes equally" },
+              { id: "b", text: "Anode (oxidised, loses electrons)" },
               { id: "c", text: "Electrolyte" },
-              { id: "d", text: "Both electrodes equally" },
+              { id: "d", text: "Cathode (reduced, gains electrons)" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -737,12 +737,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Carbon monoxide (CO)" },
-              { id: "b", text: "Oxygen" },
-              { id: "c", text: "Hydrogen" },
+              { id: "a", text: "Hydrogen" },
+              { id: "b", text: "Carbon monoxide (CO)" },
+              { id: "c", text: "Oxygen" },
               { id: "d", text: "Nitrogen" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -789,12 +789,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Gold is the least reactive metal, so it doesn't form compounds easily" },
-              { id: "b", text: "Gold is the most reactive" },
-              { id: "c", text: "Gold is always molten" },
-              { id: "d", text: "Gold reacts only with acids" },
+              { id: "a", text: "Gold is the most reactive" },
+              { id: "b", text: "Gold is always molten" },
+              { id: "c", text: "Gold reacts only with acids" },
+              { id: "d", text: "Gold is the least reactive metal, so it doesn't form compounds easily" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

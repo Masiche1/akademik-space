@@ -50,12 +50,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$120$" },
-              { id: "b", text: "$60$" },
-              { id: "c", text: "$30$" },
-              { id: "d", text: "$10$" },
+              { id: "a", text: "$30$" },
+              { id: "b", text: "$10$" },
+              { id: "c", text: "$120$" },
+              { id: "d", text: "$60$" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -154,12 +154,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$720$" },
-              { id: "b", text: "$360$" },
-              { id: "c", text: "$120$" },
-              { id: "d", text: "$60$" },
+              { id: "a", text: "$120$" },
+              { id: "b", text: "$720$" },
+              { id: "c", text: "$60$" },
+              { id: "d", text: "$360$" },
             ],
-            correctChoiceId: "d",
+            correctChoiceIc: "d",
           },
           markscheme: {
             principles: [
@@ -202,12 +202,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$343$" },
+              { id: "a", text: "$210$" },
               { id: "b", text: "$120$" },
-              { id: "c", text: "$210$" },
+              { id: "c", text: "$343$" },
               { id: "d", text: "$35$" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -304,12 +304,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$240$" },
-              { id: "b", text: "$480$" },
-              { id: "c", text: "$720$" },
-              { id: "d", text: "$360$" },
+              { id: "a", text: "$720$" },
+              { id: "b", text: "$240$" },
+              { id: "c", text: "$360$" },
+              { id: "d", text: "$480$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -414,12 +414,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$1-2x+4x^2$" },
-              { id: "b", text: "$1-2x+2x^2$" },
-              { id: "c", text: "$1+2x+4x^2$" },
-              { id: "d", text: "$1-2x-4x^2$" },
+              { id: "a", text: "$1-2x+2x^2$" },
+              { id: "b", text: "$1-2x-4x^2$" },
+              { id: "c", text: "$1-2x+4x^2$" },
+              { id: "d", text: "$1+2x+4x^2$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -523,10 +523,10 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$1-3x+9x^2$" },
+              { id: "a", text: "$1-3x-9x^2$" },
               { id: "b", text: "$1+3x+9x^2$" },
-              { id: "c", text: "$1-3x-9x^2$" },
-              { id: "d", text: "$1+3x-9x^2$" },
+              { id: "c", text: "$1+3x-9x^2$" },
+              { id: "d", text: "$1-3x+9x^2$" },
             ],
             correctChoiceId: "b",
           },
@@ -572,12 +572,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$12$" },
-              { id: "b", text: "$24$" },
-              { id: "c", text: "$16$" },
-              { id: "d", text: "$6$" },
+              { id: "a", text: "$6$" },
+              { id: "b", text: "$16$" },
+              { id: "c", text: "$24$" },
+              { id: "d", text: "$12$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -649,12 +649,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$-\\frac18$" },
-              { id: "b", text: "$-\\frac14$" },
-              { id: "c", text: "$\\frac18$" },
-              { id: "d", text: "$-\\frac1{16}$" },
+              { id: "a", text: "$-\\frac1{16}$" },
+              { id: "b", text: "$\\frac18$" },
+              { id: "c", text: "$-\\frac18$" },
+              { id: "d", text: "$-\\frac14$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -677,12 +677,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\frac{1}{x-1}+\\frac{2}{x+1}$" },
-              { id: "b", text: "$\\frac{2}{x-1}+\\frac{1}{x+1}$" },
-              { id: "c", text: "$\\frac{1}{x-1}-\\frac{2}{x+1}$" },
-              { id: "d", text: "$\\frac{3}{x-1}-\\frac{2}{x+1}$" },
+              { id: "a", text: "$\\frac{2}{x-1}+\\frac{1}{x+1}$" },
+              { id: "b", text: "$\\frac{1}{x-1}-\\frac{2}{x+1}$" },
+              { id: "c", text: "$\\frac{3}{x-1}-\\frac{2}{x+1}$" },
+              { id: "d", text: "$\\frac{1}{x-1}+\\frac{2}{x+1}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

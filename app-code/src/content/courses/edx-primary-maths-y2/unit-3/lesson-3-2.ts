@@ -81,11 +81,11 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Quarter to 4" },
-              { id: "b", text: "Quarter past 4" },
-              { id: "c", text: "Half past 4" },
-              { id: "d", text: "4 o'clock" },
+              { id: "b", text: "Half past 4" },
+              { id: "c", text: "4 o'clock" },
+              { id: "d", text: "Quarter past 4" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -308,9 +308,9 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "10p + 10p" },
-              { id: "b", text: "5p + 5p + 5p + 5p" },
-              { id: "c", text: "20p" },
+              { id: "a", text: "20p" },
+              { id: "b", text: "10p + 10p" },
+              { id: "c", text: "5p + 5p + 5p + 5p" },
               { id: "d", text: "All of these" },
             ],
             correctChoiceId: "d",

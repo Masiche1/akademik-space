@@ -51,10 +51,10 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "1" },
+              { id: "a", text: "18" },
               { id: "b", text: "2" },
-              { id: "c", text: "18" },
-              { id: "d", text: "0.5" },
+              { id: "c", text: "0.5" },
+              { id: "d", text: "1" },
             ],
             correctChoiceId: "b",
           },
@@ -166,10 +166,10 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Photosynthesis" },
+              { id: "a", text: "Dissolving ammonium nitrate" },
               { id: "b", text: "Thermal decomposition of limestone" },
               { id: "c", text: "Combustion of methane" },
-              { id: "d", text: "Dissolving ammonium nitrate" },
+              { id: "d", text: "Photosynthesis" },
             ],
             correctChoiceId: "c",
           },

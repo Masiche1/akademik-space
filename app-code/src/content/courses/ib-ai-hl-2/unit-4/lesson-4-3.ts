@@ -54,10 +54,10 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The optimal tour has weight exactly 52" },
-              { id: "b", text: "The optimal tour has weight at least 52" },
+              { id: "a", text: "The optimal tour has weight at least 52" },
+              { id: "b", text: "The optimal tour has weight less than 52" },
               { id: "c", text: "The optimal tour has weight at most 52" },
-              { id: "d", text: "The optimal tour has weight less than 52" },
+              { id: "d", text: "The optimal tour has weight exactly 52" },
             ],
             correctChoiceId: "c",
           },
@@ -161,12 +161,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Its weight is exactly 45" },
-              { id: "b", text: "Its weight is at most 45" },
-              { id: "c", text: "Its weight is at least 45" },
-              { id: "d", text: "Its weight is less than 45" },
+              { id: "a", text: "Its weight is at most 45" },
+              { id: "b", text: "Its weight is at least 45" },
+              { id: "c", text: "Its weight is less than 45" },
+              { id: "d", text: "Its weight is exactly 45" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Upper bound", statement: "Any Hamiltonian cycle is a valid tour, so the optimum is no larger than its weight." }],
@@ -184,12 +184,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It always finds the optimal tour" },
-              { id: "b", text: "It always produces a Hamiltonian cycle, which gives an upper bound, but not necessarily the optimal one" },
+              { id: "a", text: "It always produces a Hamiltonian cycle, which gives an upper bound, but not necessarily the optimal one" },
+              { id: "b", text: "It always finds the optimal tour" },
               { id: "c", text: "It gives a lower bound for the optimal tour" },
               { id: "d", text: "It may visit some vertices twice before returning" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Nearest neighbour", statement: "The algorithm visits each unvisited vertex once and returns, so it always yields a valid tour (upper bound), but greedy choices can be suboptimal." }],
@@ -275,11 +275,11 @@ export const lesson43: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "The algorithm must stop, since the choice is ambiguous" },
-              { id: "b", text: "Either choice is allowed, but the student must state which was chosen; different choices may give different tour weights" },
+              { id: "b", text: "The algorithm always gives the same tour weight regardless of the tie" },
               { id: "c", text: "Both vertices must be visited next, which is impossible" },
-              { id: "d", text: "The algorithm always gives the same tour weight regardless of the tie" },
+              { id: "d", text: "Either choice is allowed, but the student must state which was chosen; different choices may give different tour weights" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Nearest neighbour", statement: "On a tie, state which vertex was chosen; the resulting tour is still a valid upper bound." }],
@@ -387,8 +387,8 @@ export const lesson43: Lesson = {
             choices: [
               { id: "a", text: "chosen freely as the cheapest remaining edge" },
               { id: "b", text: "forced: it is the direct edge from the last vertex to the start" },
-              { id: "c", text: "the longest edge in the graph" },
-              { id: "d", text: "optional, since the tour need not return" },
+              { id: "c", text: "optional, since the tour need not return" },
+              { id: "d", text: "the longest edge in the graph" },
             ],
             correctChoiceId: "b",
           },
@@ -511,12 +511,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It gives an upper bound, found by adding the two longest edges at the deleted vertex" },
-              { id: "b", text: "It gives a lower bound, found from a minimum spanning tree plus the two shortest edges at the deleted vertex" },
-              { id: "c", text: "It gives a lower bound, found from a minimum spanning tree plus all edges at the deleted vertex" },
-              { id: "d", text: "It gives the exact optimal tour weight" },
+              { id: "a", text: "It gives a lower bound, found from a minimum spanning tree plus all edges at the deleted vertex" },
+              { id: "b", text: "It gives the exact optimal tour weight" },
+              { id: "c", text: "It gives a lower bound, found from a minimum spanning tree plus the two shortest edges at the deleted vertex" },
+              { id: "d", text: "It gives an upper bound, found by adding the two longest edges at the deleted vertex" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Deleted vertex", statement: "Lower bound $=$ MST of the remaining graph $+$ the two shortest edges at the deleted vertex." }],
@@ -613,10 +613,10 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "An upper bound" },
+              { id: "a", text: "Neither bound; it gives a tour" },
               { id: "b", text: "A lower bound" },
               { id: "c", text: "The exact optimal tour weight" },
-              { id: "d", text: "Neither bound; it gives a tour" },
+              { id: "d", text: "An upper bound" },
             ],
             correctChoiceId: "b",
           },
@@ -636,12 +636,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The smallest value" },
-              { id: "b", text: "The largest value" },
-              { id: "c", text: "The average of the values" },
-              { id: "d", text: "Any value; they are all equal" },
+              { id: "a", text: "Any value; they are all equal" },
+              { id: "b", text: "The smallest value" },
+              { id: "c", text: "The largest value" },
+              { id: "d", text: "The average of the values" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Best lower bound", statement: "Every deletion gives a valid lower bound; the largest is the strongest." }],
@@ -730,12 +730,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The optimal tour has weight strictly between 28 and 28, so no conclusion is possible" },
-              { id: "b", text: "The optimal tour has weight exactly 28" },
-              { id: "c", text: "The optimal tour has weight at least 28" },
+              { id: "a", text: "The optimal tour has weight at least 28" },
+              { id: "b", text: "The optimal tour has weight strictly between 28 and 28, so no conclusion is possible" },
+              { id: "c", text: "The optimal tour has weight exactly 28" },
               { id: "d", text: "The bounds must have been computed incorrectly" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Combining bounds", statement: "Lower bound $\\le$ optimal $\\le$ upper bound; equality forces the optimal value." }],
@@ -837,11 +837,11 @@ export const lesson43: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "A disconnected graph" },
-              { id: "b", text: "A path through all the remaining vertices, which is a spanning tree of $G-v$" },
-              { id: "c", text: "A cycle through the remaining vertices" },
-              { id: "d", text: "A minimum spanning tree of $G$" },
+              { id: "b", text: "A cycle through the remaining vertices" },
+              { id: "c", text: "A minimum spanning tree of $G$" },
+              { id: "d", text: "A path through all the remaining vertices, which is a spanning tree of $G-v$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Spanning tree", statement: "A connected acyclic subgraph containing all vertices." }],

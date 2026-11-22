@@ -54,12 +54,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Strong backwash and cliff erosion" },
-              { id: "b", text: "Strong swash and beach deposition" },
-              { id: "c", text: "Storm conditions only" },
-              { id: "d", text: "Long fetch over oceans" },
+              { id: "a", text: "Strong swash and beach deposition" },
+              { id: "b", text: "Strong backwash and cliff erosion" },
+              { id: "c", text: "Long fetch over oceans" },
+              { id: "d", text: "Storm conditions only" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -153,12 +153,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The distance wind blows over open water" },
-              { id: "b", text: "The height of breaking waves" },
+              { id: "a", text: "The angle waves make with the shore" },
+              { id: "b", text: "The distance wind blows over open water" },
               { id: "c", text: "The speed of tidal currents" },
-              { id: "d", text: "The angle waves make with the shore" },
+              { id: "d", text: "The height of breaking waves" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -181,12 +181,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Water rushing up the beach face" },
-              { id: "b", text: "The return flow of water down the beach face" },
-              { id: "c", text: "Sediment moving along the shore" },
-              { id: "d", text: "The rise of the tide" },
+              { id: "a", text: "The rise of the tide" },
+              { id: "b", text: "Water rushing up the beach face" },
+              { id: "c", text: "The return flow of water down the beach face" },
+              { id: "d", text: "Sediment moving along the shore" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -209,12 +209,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Parallel to the shoreline" },
-              { id: "b", text: "At an angle to the shoreline" },
-              { id: "c", text: "Only during storms" },
-              { id: "d", text: "From deep water without breaking" },
+              { id: "a", text: "At an angle to the shoreline" },
+              { id: "b", text: "From deep water without breaking" },
+              { id: "c", text: "Parallel to the shoreline" },
+              { id: "d", text: "Only during storms" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -237,12 +237,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A small tidal range" },
-              { id: "b", text: "A large tidal range" },
-              { id: "c", text: "An absence of tides" },
-              { id: "d", text: "A constant wave height" },
+              { id: "a", text: "An absence of tides" },
+              { id: "b", text: "A constant wave height" },
+              { id: "c", text: "A large tidal range" },
+              { id: "d", text: "A small tidal range" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -265,9 +265,9 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Deposit sediment across the surf zone" },
+              { id: "a", text: "Erode cliffs directly at the waterline" },
               { id: "b", text: "Return water offshore through channels in the surf zone" },
-              { id: "c", text: "Erode cliffs directly at the waterline" },
+              { id: "c", text: "Deposit sediment across the surf zone" },
               { id: "d", text: "Generate longshore drift" },
             ],
             correctChoiceId: "b",
@@ -520,12 +520,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Erosion of a headland by waves" },
-              { id: "b", text: "Longshore drift depositing sediment across a bay" },
+              { id: "a", text: "Longshore drift depositing sediment across a bay" },
+              { id: "b", text: "Volcanic eruption building a cone" },
               { id: "c", text: "Glacial deposition in a valley" },
-              { id: "d", text: "Volcanic eruption building a cone" },
+              { id: "d", text: "Erosion of a headland by waves" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -619,12 +619,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A ridge of deposited sand" },
-              { id: "b", text: "An isolated pillar of rock left after an arch collapses" },
-              { id: "c", text: "A flooded sea cave" },
-              { id: "d", text: "A river terrace" },
+              { id: "a", text: "An isolated pillar of rock left after an arch collapses" },
+              { id: "b", text: "A river terrace" },
+              { id: "c", text: "A ridge of deposited sand" },
+              { id: "d", text: "A flooded sea cave" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -647,12 +647,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Connects an island to the mainland" },
-              { id: "b", text: "Blocks a river mouth" },
-              { id: "c", text: "Forms behind a spit" },
-              { id: "d", text: "Fills a plunge pool" },
+              { id: "a", text: "Forms behind a spit" },
+              { id: "b", text: "Connects an island to the mainland" },
+              { id: "c", text: "Fills a plunge pool" },
+              { id: "d", text: "Blocks a river mouth" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -675,9 +675,9 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Longshore drift along the shore" },
+              { id: "a", text: "River deposition at the coast" },
               { id: "b", text: "Abrasion of the rock platform at the cliff base" },
-              { id: "c", text: "River deposition at the coast" },
+              { id: "c", text: "Longshore drift along the shore" },
               { id: "d", text: "Volcanic lava flows" },
             ],
             correctChoiceId: "b",
@@ -703,12 +703,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A bar or spit seals off part of a bay" },
-              { id: "b", text: "Sea level falls below the bay floor" },
-              { id: "c", text: "A glacier retreats inland" },
-              { id: "d", text: "A river floods its banks" },
+              { id: "a", text: "Sea level falls below the bay floor" },
+              { id: "b", text: "A river floods its banks" },
+              { id: "c", text: "A bar or spit seals off part of a bay" },
+              { id: "d", text: "A glacier retreats inland" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -731,10 +731,10 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Bays are always deeper than headlands" },
+              { id: "a", text: "Headlands are made of softer rock" },
               { id: "b", text: "Wave rays are refracted and focused onto headlands, while bays receive less energy" },
-              { id: "c", text: "Headlands are made of softer rock" },
-              { id: "d", text: "Longshore drift removes all sediment from bays" },
+              { id: "c", text: "Longshore drift removes all sediment from bays" },
+              { id: "d", text: "Bays are always deeper than headlands" },
             ],
             correctChoiceId: "b",
           },

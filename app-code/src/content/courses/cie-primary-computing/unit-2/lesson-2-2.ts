@@ -51,11 +51,11 @@ export const lesson22: Lesson = {
           "choices": [
                     {
                               "id": "a",
-                              "text": "Checks another condition if earlier ones were false"
+                              "text": "Repeats a loop"
                     },
                     {
                               "id": "b",
-                              "text": "Repeats a loop"
+                              "text": "Checks another condition if earlier ones were false"
                     },
                     {
                               "id": "c",
@@ -66,7 +66,7 @@ export const lesson22: Lesson = {
                               "text": "Creates a variable"
                     }
           ],
-          "correctChoiceId": "a"
+          "correctChoiceId": "b"
 },
           markscheme: {
           "principles": [
@@ -213,6 +213,219 @@ export const lesson22: Lesson = {
           ],
           "finalAnswer": "ELIF, ordering, tracing, nested IFs, real-world chains."
 },
+        },
+        {
+          id: "cipc-u2-ms-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "What does an ELIF block check?",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "The same condition again" },
+            { id: "b", text: "Always the last condition" },
+            { id: "c", text: "Nothing — it is decorative" },
+            { id: "d", text: "Another condition, only if earlier conditions were false" },
+          ], correctChoiceId: "d" },
+          markscheme: {
+            principles: [{ kind: "definition", name: "ELIF", statement: "'Else if' — next condition in chain." }],
+            steps: [
+              { reasoning: "ELIF checks its condition only when all previous IF/ELIF conditions were false.", marks: 1, markCode: "M" },
+            ],
+            finalAnswer: "**(a)** Another condition, only if earlier ones were false",
+          },
+        },
+        {
+          id: "cipc-u2-ms-q6",
+          difficulty: "foundation",
+          totalMarks: 2,
+          stem: "What happens if no condition in an IF/ELIF/ELSE chain is true and there is no ELSE?",
+          response: { type: "open" },
+          markscheme: {
+            principles: [{ kind: "skill", name: "Missing ELSE", statement: "Nothing runs if all conditions false." }],
+            steps: [
+              { reasoning: "No branch runs — the program skips the whole chain.", marks: 1, markCode: "M" },
+              { reasoning: "ELSE is needed to catch the 'none of the above' case.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "Nothing runs; add ELSE for the remaining case.",
+          },
+        },
+        {
+          id: "cipc-u2-ms-q7",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "score = 85. Chain: 'IF score >= 90 THEN 'A' ELIF score >= 80 THEN 'B' ELSE 'C''. What is output?",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "A" },
+            { id: "b", text: "B" },
+            { id: "c", text: "C" },
+            { id: "d", text: "Nothing" },
+          ], correctChoiceId: "b" },
+          markscheme: {
+            principles: [{ kind: "skill", name: "Tracing ELIF", statement: "First true condition wins." }],
+            steps: [
+              { reasoning: "85 >= 90 false; 85 >= 80 true → 'B'.", marks: 1, markCode: "M" },
+              { reasoning: "Output is B.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "**(a)** B",
+          },
+        },
+        {
+          id: "cipc-u2-ms-q8",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "In an IF/ELIF/ELSE chain, how many branches can run for a single input?",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "All of them" },
+            { id: "b", text: "Two" },
+            { id: "c", text: "It depends on the colour" },
+            { id: "d", text: "Only one" },
+          ], correctChoiceId: "d" },
+          markscheme: {
+            principles: [{ kind: "skill", name: "Selection", statement: "Exactly one branch runs." }],
+            steps: [
+              { reasoning: "Once a condition is true its branch runs and the rest are skipped — one branch only.", marks: 1, markCode: "M" },
+            ],
+            finalAnswer: "**(a)** Only one",
+          },
+        },
+        {
+          id: "cipc-u2-ms-q9",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "Trace: x = 50. 'IF x > 100 THEN say A ELIF x > 10 THEN say B ELSE say C'. What is said? Explain each check.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [{ kind: "skill", name: "ELIF tracing", statement: "Evaluate each condition in order." }],
+            steps: [
+              { reasoning: "50 > 100 is false → check ELIF.", marks: 1, markCode: "M" },
+              { reasoning: "50 > 10 is true → 'say B' runs.", marks: 1, markCode: "M" },
+              { reasoning: "Output: B; ELSE never reached.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "Says B.",
+          },
+        },
+        {
+          id: "cipc-u2-ms-q10",
+          difficulty: "challenge",
+          totalMarks: 2,
+          stem: "Why should specific conditions come BEFORE general ones in an IF/ELIF chain?",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "ELSE must come first" },
+            { id: "b", text: "Specific conditions are faster to type" },
+            { id: "c", text: "Order never matters" },
+            { id: "d", text: "A general condition first would 'catch' cases meant for later specific checks" },
+          ], correctChoiceId: "d" },
+          markscheme: {
+            principles: [{ kind: "skill", name: "Condition ordering", statement: "First true wins — order matters." }],
+            steps: [
+              { reasoning: "A broad condition checked first would run for cases that should match a later specific branch.", marks: 1, markCode: "M" },
+              { reasoning: "Specific-first ensures special cases are handled correctly.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "**(a)** Broad conditions would steal special cases",
+          },
+        },
+        {
+          id: "cipc-u2-ms-q11",
+          difficulty: "challenge",
+          totalMarks: 3,
+          stem: "A chain checks 'IF temp > 30 hot ELIF temp > 20 warm ELSE cold'. temp = 20. Output? Explain the boundary.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [{ kind: "skill", name: "Boundary conditions", statement: "Check > carefully at the limit." }],
+            steps: [
+              { reasoning: "20 > 30 false; 20 > 20 false (strictly greater).", marks: 1, markCode: "M" },
+              { reasoning: "Both conditions false → ELSE runs: 'cold'.", marks: 1, markCode: "M" },
+              { reasoning: "20 is exactly the boundary — not greater than 20, so 'cold'.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "cold — 20 is not > 20.",
+          },
+        },
+        {
+          id: "cipc-u2-ms-q12",
+          difficulty: "foundation",
+          totalMarks: 2,
+          stem: "What is a nested IF? Give a simple example.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [{ kind: "definition", name: "Nested IF", statement: "An IF inside another IF." }],
+            steps: [
+              { reasoning: "Nested IF = an IF statement placed inside another IF's branch.", marks: 1, markCode: "M" },
+              { reasoning: "Example: IF hasTicket THEN IF age > 12 THEN say ADULT price ELSE say CHILD price.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "IF inside IF; e.g. check ticket then age.",
+          },
+        },
+        {
+          id: "cipc-u2-ms-q13",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "level = 3. Chain: 'IF level = 1 THEN 'easy' ELIF level = 2 THEN 'medium' ELIF level = 3 THEN 'hard' ELSE 'unknown''. What is output?",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "hard" },
+            { id: "b", text: "unknown" },
+            { id: "c", text: "medium" },
+            { id: "d", text: "easy" },
+          ], correctChoiceId: "a" },
+          markscheme: {
+            principles: [{ kind: "skill", name: "Tracing equality chain", statement: "Match the exact value." }],
+            steps: [
+              { reasoning: "level = 3 fails first two checks, matches 'level = 3' → 'hard'.", marks: 1, markCode: "M" },
+              { reasoning: "Output is hard.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "**(a)** hard",
+          },
+        },
+        {
+          id: "cipc-u2-ms-q14",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "Write the output for each input of 'IF n > 0 THEN say POSITIVE ELSE say NOT POSITIVE': n = 5, n = 0, n = -3.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [{ kind: "skill", name: "Multi-input tracing", statement: "Evaluate per input." }],
+            steps: [
+              { reasoning: "n = 5: 5 > 0 true → 'POSITIVE'.", marks: 1, markCode: "M" },
+              { reasoning: "n = 0: 0 > 0 false → 'NOT POSITIVE'.", marks: 1, markCode: "M" },
+              { reasoning: "n = -3: -3 > 0 false → 'NOT POSITIVE'.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "POSITIVE, NOT POSITIVE, NOT POSITIVE.",
+          },
+        },
+        {
+          id: "cipc-u2-ms-q15",
+          difficulty: "challenge",
+          totalMarks: 3,
+          stem: "Design an IF/ELIF/ELSE chain for exam grades: 80+ = 'A', 60-79 = 'B', 40-59 = 'C', below 40 = 'D'. Write the conditions.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [{ kind: "skill", name: "Designing chains", statement: "Descending thresholds, specific first." }],
+            steps: [
+              { reasoning: "IF grade >= 80 THEN 'A'.", marks: 1, markCode: "M" },
+              { reasoning: "ELIF grade >= 60 THEN 'B'; ELIF grade >= 40 THEN 'C'.", marks: 1, markCode: "M" },
+              { reasoning: "ELSE 'D' — catches everything below 40.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: ">=80 A; >=60 B; >=40 C; else D.",
+          },
+        },
+        {
+          id: "cipc-u2-ms-q16",
+          difficulty: "challenge",
+          totalMarks: 8,
+          stem: "(a) What is ELIF? (b) Why does condition order matter? (c) Trace: x=50, 'IF x>100 A ELIF x>10 B ELSE C'. (d) What runs if no condition is true and no ELSE? (e) Write a chain for BMI categories. (f) What is a nested IF? (g) Why check specific conditions before general? (h) Design a 3-way choice for traffic light colours.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [{ kind: "technique", name: "Selection", statement: "ELIF, ordering, tracing, nesting, design." }],
+            steps: [
+              { reasoning: "(a) 'Else if' — next condition when earlier ones fail.", marks: 1, markCode: "M" },
+              { reasoning: "(b) First true branch wins — wrong order gives wrong results.", marks: 1, markCode: "M" },
+              { reasoning: "(c) 50>100 false, 50>10 true → B.", marks: 1, markCode: "M" },
+              { reasoning: "(d) Nothing runs.", marks: 1, markCode: "M" },
+              { reasoning: "(e) e.g. <18 underweight, 18-25 healthy, >25 overweight.", marks: 1, markCode: "M" },
+              { reasoning: "(f) IF inside another IF.", marks: 1, markCode: "M" },
+              { reasoning: "(g) General conditions would catch special cases first.", marks: 1, markCode: "M" },
+              { reasoning: "(h) e.g. IF red stop ELIF amber slow ELSE green go.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "ELIF, order, trace B, nothing without ELSE, BMI chain, nested IF, specific-first, traffic lights.",
+          },
         },
       ],
     },

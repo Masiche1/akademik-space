@@ -53,12 +53,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$2$" },
-              { id: "b", text: "$5$" },
-              { id: "c", text: "$5.2$" },
-              { id: "d", text: "$7$" },
+              { id: "a", text: "$5$" },
+              { id: "b", text: "$5.2$" },
+              { id: "c", text: "$7$" },
+              { id: "d", text: "$2$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Median", statement: "The middle value when the data is in order." }],
@@ -173,11 +173,11 @@ export const lesson41: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$18^\\circ$" },
-              { id: "b", text: "$72^\\circ$" },
-              { id: "c", text: "$90^\\circ$" },
-              { id: "d", text: "$180^\\circ$" },
+              { id: "b", text: "$180^\\circ$" },
+              { id: "c", text: "$72^\\circ$" },
+              { id: "d", text: "$90^\\circ$" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Pie chart angle", statement: "angle $=\\frac{f}{\\text{total}}\\times360^\\circ$" }],

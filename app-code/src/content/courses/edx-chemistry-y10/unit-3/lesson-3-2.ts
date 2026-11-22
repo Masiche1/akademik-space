@@ -55,12 +55,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Iron" },
-              { id: "b", text: "Zinc" },
-              { id: "c", text: "Aluminium" },
-              { id: "d", text: "Copper" },
+              { id: "a", text: "Copper" },
+              { id: "b", text: "Iron" },
+              { id: "c", text: "Zinc" },
+              { id: "d", text: "Aluminium" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -191,12 +191,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Oxygen and water" },
-              { id: "b", text: "Nitrogen and water" },
-              { id: "c", text: "Oxygen and carbon dioxide" },
-              { id: "d", text: "Water and salt" },
+              { id: "a", text: "Water and salt" },
+              { id: "b", text: "Oxygen and carbon dioxide" },
+              { id: "c", text: "Oxygen and water" },
+              { id: "d", text: "Nitrogen and water" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

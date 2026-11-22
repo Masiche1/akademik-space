@@ -52,12 +52,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Add $4$" },
-              { id: "b", text: "Add $8$" },
-              { id: "c", text: "Multiply by $4$" },
-              { id: "d", text: "Subtract $4$" },
+              { id: "a", text: "Multiply by $4$" },
+              { id: "b", text: "Subtract $4$" },
+              { id: "c", text: "Add $8$" },
+              { id: "d", text: "Add $4$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -151,12 +151,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Add $6$" },
-              { id: "b", text: "Add $12$" },
+              { id: "a", text: "Add $12$" },
+              { id: "b", text: "Subtract $6$" },
               { id: "c", text: "Multiply by $6$" },
-              { id: "d", text: "Subtract $6$" },
+              { id: "d", text: "Add $6$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -194,12 +194,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Add $10$" },
-              { id: "b", text: "Subtract $10$" },
-              { id: "c", text: "Multiply by $10$" },
+              { id: "a", text: "Subtract $10$" },
+              { id: "b", text: "Multiply by $10$" },
+              { id: "c", text: "Add $10$" },
               { id: "d", text: "Subtract $20$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -220,12 +220,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$14$" },
-              { id: "b", text: "$15$" },
-              { id: "c", text: "$16$" },
-              { id: "d", text: "$17$" },
+              { id: "a", text: "$17$" },
+              { id: "b", text: "$14$" },
+              { id: "c", text: "$15$" },
+              { id: "d", text: "$16$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -247,12 +247,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$4$" },
-              { id: "b", text: "$1$" },
+              { id: "a", text: "$1$" },
+              { id: "b", text: "$4$" },
               { id: "c", text: "$2$" },
               { id: "d", text: "$3$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -274,8 +274,8 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Add $3$" },
-              { id: "b", text: "Add $6$" },
+              { id: "a", text: "Add $6$" },
+              { id: "b", text: "Add $3$" },
               { id: "c", text: "Double each time (multiply by $2$)" },
               { id: "d", text: "Multiply by $3$" },
             ],
@@ -357,10 +357,10 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$50, 55, 60, 65$" },
+              { id: "a", text: "$50, 25, 12, 6$" },
               { id: "b", text: "$50, 45, 40, 35$" },
-              { id: "c", text: "$50, 25, 12, 6$" },
-              { id: "d", text: "$5, 10, 15, 20$" },
+              { id: "c", text: "$5, 10, 15, 20$" },
+              { id: "d", text: "$50, 55, 60, 65$" },
             ],
             correctChoiceId: "b",
           },
@@ -404,12 +404,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Add $3$; next is $14$" },
-              { id: "b", text: "Add $2$; next is $13$" },
-              { id: "c", text: "Multiply by $2$; next is $22$" },
-              { id: "d", text: "Subtract $3$; next is $8$" },
+              { id: "a", text: "Multiply by $2$; next is $22$" },
+              { id: "b", text: "Subtract $3$; next is $8$" },
+              { id: "c", text: "Add $2$; next is $13$" },
+              { id: "d", text: "Add $3$; next is $14$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -549,12 +549,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$5$" },
+              { id: "a", text: "$4$" },
               { id: "b", text: "$13$" },
-              { id: "c", text: "$4$" },
-              { id: "d", text: "$6$" },
+              { id: "c", text: "$6$" },
+              { id: "d", text: "$5$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -592,12 +592,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Multiplication" },
-              { id: "b", text: "Subtraction" },
-              { id: "c", text: "Division" },
-              { id: "d", text: "Addition" },
+              { id: "a", text: "Subtraction" },
+              { id: "b", text: "Multiplication" },
+              { id: "c", text: "Addition" },
+              { id: "d", text: "Division" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -653,12 +653,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$28$" },
-              { id: "b", text: "$12$" },
-              { id: "c", text: "$8$" },
-              { id: "d", text: "$2$" },
+              { id: "a", text: "$2$" },
+              { id: "b", text: "$8$" },
+              { id: "c", text: "$12$" },
+              { id: "d", text: "$28$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -736,12 +736,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$17$" },
-              { id: "b", text: "$7$" },
+              { id: "a", text: "$60$" },
+              { id: "b", text: "$17$" },
               { id: "c", text: "$5$" },
-              { id: "d", text: "$60$" },
+              { id: "d", text: "$7$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

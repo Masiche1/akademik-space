@@ -73,9 +73,9 @@ export const lesson41: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Alliances" },
-              { id: "b", text: "Armistice" },
-              { id: "c", text: "Atlantic" },
-              { id: "d", text: "Atomic" },
+              { id: "b", text: "Atomic" },
+              { id: "c", text: "Armistice" },
+              { id: "d", text: "Atlantic" },
             ],
             correctChoiceId: "a",
           },
@@ -235,6 +235,326 @@ export const lesson41: Lesson = {
               "(a) militarism (b) alliances (c) imperialism (d) nationalism",
           },
         },
+        {
+          id: "oleh-u4-mn-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "What does the 'M' in MAIN stand for?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Monarchy" },
+              { id: "b", text: "Modernism" },
+              { id: "c", text: "Militarism" },
+              { id: "d", text: "Mobilisation" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "MAIN",
+                statement: "Militarism, Alliances, Imperialism, Nationalism.",
+              },
+            ],
+            steps: [{ reasoning: "M = Militarism.", marks: 1, markCode: "AO1" }],
+            finalAnswer: "**(a)** Militarism",
+            commonErrors: ["Confusing with mobilisation."],
+          },
+        },
+        {
+          id: "oleh-u4-mn-q6",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Which alliance included Austria-Hungary before 1914?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "The Central Powers only" },
+              { id: "b", text: "The Triple Alliance" },
+              { id: "c", text: "The League of Nations" },
+              { id: "d", text: "The Triple Entente" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Triple Alliance",
+                statement: "Germany, Austria-Hungary and Italy.",
+              },
+            ],
+            steps: [
+              { reasoning: "Austria-Hungary was in the Triple Alliance.", marks: 1, markCode: "AO1" },
+            ],
+            finalAnswer: "**(a)** The Triple Alliance",
+            commonErrors: ["Confusing the two alliance blocs."],
+          },
+        },
+        {
+          id: "oleh-u4-mn-q7",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Which event best illustrates imperial rivalry before WWI?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "The signing of the Treaty of Brest-Litovsk" },
+              { id: "b", text: "The formation of the Duma" },
+              { id: "c", text: "The Battle of Jutland" },
+              { id: "d", text: "The Moroccan crises of 1905 and 1911" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "context",
+                name: "Imperial rivalry",
+                statement: "Colonial disputes created tension.",
+              },
+            ],
+            steps: [
+              { reasoning: "Morocco was disputed between France and Germany.", marks: 1, markCode: "AO1" },
+            ],
+            finalAnswer: "**(a)** The Moroccan crises of 1905 and 1911",
+            commonErrors: ["Choosing an event after 1914."],
+          },
+        },
+        {
+          id: "oleh-u4-mn-q8",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Pan-Slavism most directly threatened which power?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Austria-Hungary" },
+              { id: "b", text: "The Ottoman Empire" },
+              { id: "c", text: "Britain" },
+              { id: "d", text: "Italy" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Pan-Slavism",
+                statement: "Slavic self-determination threatened Austria-Hungary.",
+              },
+            ],
+            steps: [
+              { reasoning: "Slavic nationalism challenged the multi-ethnic empire.", marks: 1, markCode: "AO1" },
+            ],
+            finalAnswer: "**(a)** Austria-Hungary",
+            commonErrors: ["Confusing nationalism with imperialism."],
+          },
+        },
+        {
+          id: "oleh-u4-mn-q9",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Which interpretation suggests European leaders unintentionally stumbled into war?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "The total war model" },
+              { id: "b", text: "The Fischer thesis" },
+              { id: "c", text: "The 'sleepwalkers' view" },
+              { id: "d", text: "The appeasement view" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "context",
+                name: "Historians' debate",
+                statement: "Some argue leaders stumbled into war.",
+              },
+            ],
+            steps: [
+              { reasoning: "Sleepwalkers implies unintentional escalation.", marks: 1, markCode: "AO1" },
+            ],
+            finalAnswer: "**(a)** The 'sleepwalkers' view",
+            commonErrors: ["Confusing it with the Fischer thesis."],
+          },
+        },
+        {
+          id: "oleh-u4-mn-q10",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Which country was NOT in the Triple Entente?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Russia" },
+              { id: "b", text: "Austria-Hungary" },
+              { id: "c", text: "France" },
+              { id: "d", text: "Britain" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Triple Entente",
+                statement: "France, Russia and Britain.",
+              },
+            ],
+            steps: [
+              { reasoning: "Austria-Hungary belonged to the Triple Alliance.", marks: 1, markCode: "AO1" },
+            ],
+            finalAnswer: "**(a)** Austria-Hungary",
+            commonErrors: ["Mixing the alliance systems."],
+          },
+        },
+        {
+          id: "oleh-u4-mn-q11",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "In which year did World War I begin?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 1914 }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "context",
+                name: "Outbreak of WWI",
+                statement: "General war began in 1914.",
+              },
+            ],
+            steps: [{ reasoning: "War declarations followed July 1914.", marks: 1, markCode: "AO1" }],
+            finalAnswer: "1914",
+          },
+        },
+        {
+          id: "oleh-u4-mn-q12",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "How many powers formed the Triple Entente?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 3 }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Triple Entente",
+                statement: "France, Russia and Britain.",
+              },
+            ],
+            steps: [{ reasoning: "France, Russia and Britain made three powers.", marks: 1, markCode: "AO1" }],
+            finalAnswer: "3",
+          },
+        },
+        {
+          id: "oleh-u4-mn-q13",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "How many Moroccan crises are usually named as examples of imperial rivalry?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 2 }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "context",
+                name: "Moroccan crises",
+                statement: "1905 and 1911 disputes over Morocco.",
+              },
+            ],
+            steps: [{ reasoning: "The crises occurred in 1905 and 1911.", marks: 1, markCode: "AO1" }],
+            finalAnswer: "2",
+          },
+        },
+        {
+          id: "oleh-u4-mn-q14",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "In which year did the second Moroccan crisis occur?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 1911 }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "context",
+                name: "Moroccan crisis",
+                statement: "The second crisis occurred in 1911.",
+              },
+            ],
+            steps: [{ reasoning: "The Agadir crisis took place in 1911.", marks: 1, markCode: "AO1" }],
+            finalAnswer: "1911",
+          },
+        },
+        {
+          id: "oleh-u4-mn-q15",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "In which year was HMS Dreadnought launched, intensifying the naval arms race?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 1906 }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "context",
+                name: "Dreadnought race",
+                statement: "Britain launched HMS Dreadnought in 1906.",
+              },
+            ],
+            steps: [{ reasoning: "The battleship was launched in 1906.", marks: 1, markCode: "AO1" }],
+            finalAnswer: "1906",
+          },
+        },
+        {
+          id: "oleh-u4-mn-q16",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "Compare the Fischer thesis with the 'sleepwalkers' interpretation of the causes of WWI.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "comparison",
+                name: "Historians' debate",
+                statement: "Deliberate German war aims vs unintentional escalation.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Fischer argued Germany sought war deliberately.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                reasoning: "Sleepwalkers stressed miscalculation and accidents.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                reasoning: "Both link MAIN causes to escalation.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              { reasoning: "Clear comparison.", marks: 1, markCode: "AO3" },
+            ],
+            finalAnswer:
+              "Fischer blamed deliberate German ambitions; sleepwalkers emphasised shared misjudgements — both see structural causes turning crisis into war.",
+            commonErrors: ["Describing only one interpretation."],
+          },
+        },
       ],
     },
     {
@@ -278,12 +598,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Archduke Franz Ferdinand" },
+              { id: "a", text: "King George V" },
               { id: "b", text: "Tsar Nicholas II" },
               { id: "c", text: "Kaiser Wilhelm II" },
-              { id: "d", text: "King George V" },
+              { id: "d", text: "Archduke Franz Ferdinand" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -450,6 +770,328 @@ export const lesson41: Lesson = {
             ],
             finalAnswer:
               "(a) Sarajevo (b) escalation (c) Schlieffen (d) world war",
+          },
+        },
+        {
+          id: "oleh-u4-jc-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "On what date was Archduke Franz Ferdinand assassinated?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "11 November 1918" },
+              { id: "b", text: "4 August 1914" },
+              { id: "c", text: "1 January 1915" },
+              { id: "d", text: "28 June 1914" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "context",
+                name: "Sarajevo",
+                statement: "Assassination on 28 June 1914.",
+              },
+            ],
+            steps: [
+              { reasoning: "The Sarajevo shooting was 28 June 1914.", marks: 1, markCode: "AO1" },
+            ],
+            finalAnswer: "**(a)** 28 June 1914",
+            commonErrors: ["Confusing with later war dates."],
+          },
+        },
+        {
+          id: "oleh-u4-jc-q6",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Who shot Archduke Franz Ferdinand in Sarajevo?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Vladimir Lenin" },
+              { id: "b", text: "Kaiser Wilhelm II" },
+              { id: "c", text: "Tsar Nicholas II" },
+              { id: "d", text: "Gavrilo Princip" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "context",
+                name: "Sarajevo assassin",
+                statement: "Gavrilo Princip was a Serbian nationalist.",
+              },
+            ],
+            steps: [
+              { reasoning: "Princip carried out the assassination.", marks: 1, markCode: "AO1" },
+            ],
+            finalAnswer: "**(a)** Gavrilo Princip",
+            commonErrors: ["Choosing a political leader rather than assassin."],
+          },
+        },
+        {
+          id: "oleh-u4-jc-q7",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "What did Austria-Hungary send to Serbia in July 1914?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "A deliberately harsh ultimatum" },
+              { id: "b", text: "A request for Russian mediation" },
+              { id: "c", text: "A declaration of neutrality" },
+              { id: "d", text: "An offer of alliance" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "context",
+                name: "July Crisis",
+                statement: "The ultimatum was designed to provoke Serbia.",
+              },
+            ],
+            steps: [
+              { reasoning: "Austria-Hungary issued a harsh ultimatum.", marks: 1, markCode: "AO1" },
+            ],
+            finalAnswer: "**(a)** A deliberately harsh ultimatum",
+            commonErrors: ["Thinking Serbia rejected every term."],
+          },
+        },
+        {
+          id: "oleh-u4-jc-q8",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "What was Germany's 'blank cheque' to Austria-Hungary?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Unconditional support in a war with Serbia" },
+              { id: "b", text: "Permission to join the Triple Entente" },
+              { id: "c", text: "A promise to remain neutral" },
+              { id: "d", text: "Financial aid for colonial expansion" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Blank cheque",
+                statement: "Unconditional German support for Austria-Hungary.",
+              },
+            ],
+            steps: [
+              { reasoning: "Germany backed Austria-Hungary whatever happened.", marks: 1, markCode: "AO1" },
+            ],
+            finalAnswer: "**(a)** Unconditional support in a war with Serbia",
+            commonErrors: ["Thinking it applied to Russia."],
+          },
+        },
+        {
+          id: "oleh-u4-jc-q9",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Why did Britain declare war on Germany in August 1914?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Germany attacked British colonies" },
+              { id: "b", text: "Germany invaded neutral Belgium" },
+              { id: "c", text: "The USA asked Britain to join" },
+              { id: "d", text: "Russia declared war on Britain" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "context",
+                name: "British entry",
+                statement: "Belgium's invasion triggered Britain's commitment.",
+              },
+            ],
+            steps: [
+              { reasoning: "Britain honoured its guarantee of Belgian neutrality.", marks: 1, markCode: "AO1" },
+            ],
+            finalAnswer: "**(a)** Germany invaded neutral Belgium",
+            commonErrors: ["Confusing Belgian neutrality with the Entente."],
+          },
+        },
+        {
+          id: "oleh-u4-jc-q10",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Why did Italy initially remain neutral in 1914?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Italy had no army" },
+              { id: "b", text: "Italy joined the war immediately" },
+              { id: "c", text: "Britain blocked Italian ports" },
+              { id: "d", text: "The Triple Alliance was defensive" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "context",
+                name: "Italian neutrality",
+                statement: "Italy argued the alliance did not require war.",
+              },
+            ],
+            steps: [
+              { reasoning: "Italy claimed its alliance obligations were defensive.", marks: 1, markCode: "AO1" },
+            ],
+            finalAnswer: "**(a)** The Triple Alliance was defensive",
+            commonErrors: ["Thinking Italy was absent from the alliance."],
+          },
+        },
+        {
+          id: "oleh-u4-jc-q11",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "In which year was Franz Ferdinand assassinated?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 1914 }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "context",
+                name: "Sarajevo",
+                statement: "The assassination occurred in 1914.",
+              },
+            ],
+            steps: [{ reasoning: "The crisis began in June 1914.", marks: 1, markCode: "AO1" }],
+            finalAnswer: "1914",
+          },
+        },
+        {
+          id: "oleh-u4-jc-q12",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "How many days passed between the Sarajevo assassination on 28 June and Austria-Hungary's declaration of war on 28 July?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 30 }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "context",
+                name: "July Crisis",
+                statement: "Austria-Hungary declared war on 28 July 1914.",
+              },
+            ],
+            steps: [{ reasoning: "28 June to 28 July is 30 days.", marks: 1, markCode: "AO1" }],
+            finalAnswer: "30",
+          },
+        },
+        {
+          id: "oleh-u4-jc-q13",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "On which day of July did Austria-Hungary issue its ultimatum to Serbia?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 23 }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "context",
+                name: "July Crisis",
+                statement: "The ultimatum was issued on 23 July.",
+              },
+            ],
+            steps: [{ reasoning: "The ultimatum date was 23 July 1914.", marks: 1, markCode: "AO1" }],
+            finalAnswer: "23",
+          },
+        },
+        {
+          id: "oleh-u4-jc-q14",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "On which day of August did Britain declare war on Germany?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 4 }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "context",
+                name: "British entry",
+                statement: "Britain declared war on 4 August.",
+              },
+            ],
+            steps: [{ reasoning: "The declaration was on 4 August 1914.", marks: 1, markCode: "AO1" }],
+            finalAnswer: "4",
+          },
+        },
+        {
+          id: "oleh-u4-jc-q15",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "In which month did the Battle of the Marne stop the German advance?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 9 }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "context",
+                name: "Battle of the Marne",
+                statement: "The battle occurred in September 1914.",
+              },
+            ],
+            steps: [{ reasoning: "September is month 9 of the year.", marks: 1, markCode: "AO1" }],
+            finalAnswer: "9",
+          },
+        },
+        {
+          id: "oleh-u4-jc-q16",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "Explain why the Schlieffen Plan failed and how this contributed to stalemate.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Schlieffen Plan",
+                statement: "Fast victory in France was required before Russia mobilised.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Germany aimed to defeat France quickly through Belgium.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                reasoning: "The Marne stopped the advance in September 1914.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                reasoning: "Both sides dug trenches along the Western Front.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              { reasoning: "Clear link to stalemate.", marks: 1, markCode: "AO3" },
+            ],
+            finalAnswer:
+              "The plan expected a rapid French defeat, but the Marne halted the advance; entrenched positions then produced stalemate.",
+            commonErrors: ["Saying the plan succeeded initially."],
           },
         },
       ],

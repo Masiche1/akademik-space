@@ -57,12 +57,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "10" },
+              { id: "a", text: "\\sqrt{14}" },
               { id: "b", text: "14" },
-              { id: "c", text: "\\sqrt{14}" },
-              { id: "d", text: "48" },
+              { id: "c", text: "48" },
+              { id: "d", text: "10" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -85,9 +85,9 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$\\vec{AB}=\\begin{pmatrix}3\\\\4\\end{pmatrix}$, $|\\vec{AB}|=5$" },
-              { id: "b", text: "$\\vec{AB}=\\begin{pmatrix}-3\\\\-4\\end{pmatrix}$, $|\\vec{AB}|=5$" },
-              { id: "c", text: "$\\vec{AB}=\\begin{pmatrix}3\\\\4\\end{pmatrix}$, $|\\vec{AB}|=7$" },
-              { id: "d", text: "$\\vec{AB}=\\begin{pmatrix}5\\\\8\\end{pmatrix}$, $|\\vec{AB}|=13$" },
+              { id: "b", text: "$\\vec{AB}=\\begin{pmatrix}3\\\\4\\end{pmatrix}$, $|\\vec{AB}|=7$" },
+              { id: "c", text: "$\\vec{AB}=\\begin{pmatrix}5\\\\8\\end{pmatrix}$, $|\\vec{AB}|=13$" },
+              { id: "d", text: "$\\vec{AB}=\\begin{pmatrix}-3\\\\-4\\end{pmatrix}$, $|\\vec{AB}|=5$" },
             ],
             correctChoiceId: "a",
           },
@@ -112,12 +112,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\begin{pmatrix}\\frac{2}{3}\\\\-\\frac{1}{3}\\\\\\frac{2}{3}\\end{pmatrix}$" },
-              { id: "b", text: "$\\begin{pmatrix}2\\\\-1\\\\2\\end{pmatrix}$" },
+              { id: "a", text: "$\\begin{pmatrix}2\\\\-1\\\\2\\end{pmatrix}$" },
+              { id: "b", text: "$\\begin{pmatrix}\\frac{2}{3}\\\\-\\frac{1}{3}\\\\\\frac{2}{3}\\end{pmatrix}$" },
               { id: "c", text: "$\\begin{pmatrix}\\frac{1}{3}\\\\-\\frac{1}{6}\\\\\\frac{1}{3}\\end{pmatrix}$" },
               { id: "d", text: "$\\begin{pmatrix}\\frac{2}{9}\\\\-\\frac{1}{9}\\\\\\frac{2}{9}\\end{pmatrix}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -172,12 +172,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "5" },
+              { id: "a", text: "$\\sqrt7$" },
               { id: "b", text: "7" },
-              { id: "c", text: "12" },
-              { id: "d", text: "$\\sqrt7$" },
+              { id: "c", text: "5" },
+              { id: "d", text: "12" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -216,12 +216,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\begin{pmatrix}0.6\\\\0.8\\end{pmatrix}$" },
-              { id: "b", text: "$\\begin{pmatrix}3\\\\4\\end{pmatrix}$" },
+              { id: "a", text: "$\\begin{pmatrix}3\\\\4\\end{pmatrix}$" },
+              { id: "b", text: "$\\begin{pmatrix}5\\\\5\\end{pmatrix}$" },
               { id: "c", text: "$\\begin{pmatrix}0.3\\\\0.4\\end{pmatrix}$" },
-              { id: "d", text: "$\\begin{pmatrix}5\\\\5\\end{pmatrix}$" },
+              { id: "d", text: "$\\begin{pmatrix}0.6\\\\0.8\\end{pmatrix}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -263,12 +263,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$ABCD$ is a parallelogram" },
-              { id: "b", text: "$ABCD$ is a rectangle" },
-              { id: "c", text: "$ABCD$ is a kite" },
-              { id: "d", text: "Nothing can be concluded" },
+              { id: "a", text: "$ABCD$ is a rectangle" },
+              { id: "b", text: "$ABCD$ is a kite" },
+              { id: "c", text: "Nothing can be concluded" },
+              { id: "d", text: "$ABCD$ is a parallelogram" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -383,12 +383,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\begin{pmatrix}4\\\\-6\\end{pmatrix}$" },
-              { id: "b", text: "$\\begin{pmatrix}4\\\\6\\end{pmatrix}$" },
-              { id: "c", text: "$\\begin{pmatrix}6\\\\4\\end{pmatrix}$" },
-              { id: "d", text: "$\\begin{pmatrix}3\\\\-2\\end{pmatrix}$" },
+              { id: "a", text: "$\\begin{pmatrix}3\\\\-2\\end{pmatrix}$" },
+              { id: "b", text: "$\\begin{pmatrix}6\\\\4\\end{pmatrix}$" },
+              { id: "c", text: "$\\begin{pmatrix}4\\\\6\\end{pmatrix}$" },
+              { id: "d", text: "$\\begin{pmatrix}4\\\\-6\\end{pmatrix}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -491,9 +491,9 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "5" },
-              { id: "b", text: "-5" },
+              { id: "b", text: "1" },
               { id: "c", text: "11" },
-              { id: "d", text: "1" },
+              { id: "d", text: "-5" },
             ],
             correctChoiceId: "a",
           },
@@ -517,12 +517,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Yes, $\\vec{a}\\cdot\\vec{b}=0$" },
+              { id: "a", text: "Yes, because magnitudes are equal" },
               { id: "b", text: "No" },
-              { id: "c", text: "Yes, because magnitudes are equal" },
+              { id: "c", text: "Yes, $\\vec{a}\\cdot\\vec{b}=0$" },
               { id: "d", text: "Cannot determine" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -545,12 +545,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "60°" },
-              { id: "b", text: "45°" },
-              { id: "c", text: "90°" },
-              { id: "d", text: "30°" },
+              { id: "a", text: "45°" },
+              { id: "b", text: "90°" },
+              { id: "c", text: "30°" },
+              { id: "d", text: "60°" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -605,12 +605,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "5" },
-              { id: "b", text: "11" },
-              { id: "c", text: "-5" },
-              { id: "d", text: "14" },
+              { id: "a", text: "14" },
+              { id: "b", text: "5" },
+              { id: "c", text: "11" },
+              { id: "d", text: "-5" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -649,12 +649,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Their dot product is $12-12=0$" },
-              { id: "b", text: "Their magnitudes are equal" },
-              { id: "c", text: "They are scalar multiples" },
-              { id: "d", text: "Their dot product is 24" },
+              { id: "a", text: "Their dot product is 24" },
+              { id: "b", text: "Their dot product is $12-12=0$" },
+              { id: "c", text: "Their magnitudes are equal" },
+              { id: "d", text: "They are scalar multiples" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -697,9 +697,9 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "4" },
-              { id: "b", text: "$\\sqrt{20}$" },
+              { id: "b", text: "$2\\sqrt5$" },
               { id: "c", text: "2" },
-              { id: "d", text: "$2\\sqrt5$" },
+              { id: "d", text: "$\\sqrt{20}$" },
             ],
             correctChoiceId: "a",
           },
@@ -809,12 +809,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$|\\vec a\\cdot\\vec b|\\le|\\vec a||\\vec b|$ (Cauchy–Schwarz)" },
-              { id: "b", text: "$\\vec a\\cdot\\vec b=|\\vec a||\\vec b|$ always" },
-              { id: "c", text: "$\\vec a\\cdot\\vec b$ is always positive" },
+              { id: "a", text: "$\\vec a\\cdot\\vec b=|\\vec a||\\vec b|$ always" },
+              { id: "b", text: "$\\vec a\\cdot\\vec b$ is always positive" },
+              { id: "c", text: "$|\\vec a\\cdot\\vec b|\\le|\\vec a||\\vec b|$ (Cauchy–Schwarz)" },
               { id: "d", text: "$\\vec a\\cdot\\vec b=0$ implies $\\vec a=\\vec0$ or $\\vec b=\\vec0$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -837,12 +837,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$20\\sqrt{10}\\approx63.2$ N" },
-              { id: "b", text: "$50\\sqrt{2}\\approx70.7$ N" },
+              { id: "a", text: "$40\\sqrt{2}\\approx56.6$ N" },
+              { id: "b", text: "$20\\sqrt{10}\\approx63.2$ N" },
               { id: "c", text: "80 N" },
-              { id: "d", text: "$40\\sqrt{2}\\approx56.6$ N" },
+              { id: "d", text: "$50\\sqrt{2}\\approx70.7$ N" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [

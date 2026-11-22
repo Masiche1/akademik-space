@@ -65,12 +65,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Metaphor" },
-              { id: "b", text: "Simile" },
-              { id: "c", text: "Alliteration" },
+              { id: "a", text: "Alliteration" },
+              { id: "b", text: "Metaphor" },
+              { id: "c", text: "Simile" },
               { id: "d", text: "Onomatopoeia" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Metaphor", statement: "Describing something as if it is something else, without 'like' or 'as'." }],
@@ -204,12 +204,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "To illustrate the argument with an amusing anecdote" },
-              { id: "b", text: "To provide the history of railway timetables" },
-              { id: "c", text: "To criticise farmers for being late" },
-              { id: "d", text: "To advertise a particular railway company" },
+              { id: "a", text: "To provide the history of railway timetables" },
+              { id: "b", text: "To criticise farmers for being late" },
+              { id: "c", text: "To advertise a particular railway company" },
+              { id: "d", text: "To illustrate the argument with an amusing anecdote" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Anecdote", statement: "A short personal story used to illustrate a point." }],

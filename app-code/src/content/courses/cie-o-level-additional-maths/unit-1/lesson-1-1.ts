@@ -33,8 +33,11 @@ export const lesson11: Lesson = {
           id: "olam-u1-s1-so-q1", difficulty: "foundation", totalMarks: 1,
           stem: "Solve $x^2-7x+12=0$.",
           response: { type: "mcq", choices: [
-            { id: "a", text: "$x=3,4$" }, { id: "b", text: "$x=-3,-4$" }, { id: "c", text: "$x=2,6$" }, { id: "d", text: "$x=1,12$" },
-          ], correctChoiceId: "a" },
+            { id: "a", text: "$x=2,6$" },
+            { id: "b", text: "$x=3,4$" },
+            { id: "c", text: "$x=1,12$" },
+            { id: "d", text: "$x=-3,-4$" },
+          ], correctChoiceId: "b" },
           markscheme: { principles: [{ kind: "technique", name: "Factorise", statement: "Find two numbers." }], steps: [{ reasoning: "$(x-3)(x-4)=0$ → $x=3,4$.", marks: 1, markCode: "A" }], finalAnswer: "$x=3,4$" },
         },
         {
@@ -67,6 +70,136 @@ export const lesson11: Lesson = {
             { reasoning: "Answer to 3 s.f.", marks: 1, markCode: "A" },
           ], finalAnswer: "$x=3.73, 0.268$" },
         },
+        {
+          id: "olam-u1-s1-so-q5", difficulty: "foundation", totalMarks: 1,
+          stem: "Solve $x^2+2x-15=0$.",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "$x=-5,3$" },
+            { id: "b", text: "$x=-1,-15$" },
+            { id: "c", text: "$x=1,15$" },
+            { id: "d", text: "$x=5,-3$" },
+          ], correctChoiceId: "a" },
+          markscheme: { principles: [{ kind: "technique", name: "Factorise", statement: "Find two numbers." }], steps: [{ reasoning: "$(x+5)(x-3)=0$ → $x=-5$ or $x=3$.", marks: 1, markCode: "A" }], finalAnswer: "$x=-5,3$" },
+        },
+        {
+          id: "olam-u1-s1-so-q6", difficulty: "foundation", totalMarks: 2,
+          stem: "Solve $x^2-8x+15=0$. Give the smaller root.",
+          response: { type: "numeric", parts: [{ label: "a", answer: 3 }] },
+          markscheme: { principles: [{ kind: "technique", name: "Factorise", statement: "Find roots then select." }], steps: [
+            { reasoning: "$(x-3)(x-5)=0$ → $x=3$ or $x=5$.", marks: 1, markCode: "M" },
+            { reasoning: "Smaller root is 3.", marks: 1, markCode: "A" },
+          ], finalAnswer: "3" },
+        },
+        {
+          id: "olam-u1-s1-so-q7", difficulty: "foundation", totalMarks: 2,
+          stem: "Solve $x^2+3x-10=0$.",
+          response: { type: "open" },
+          markscheme: { principles: [{ kind: "technique", name: "Factorise", statement: "Standard." }], steps: [
+            { reasoning: "$(x+5)(x-2)=0$.", marks: 1, markCode: "M" },
+            { reasoning: "$x=-5$ or $x=2$.", marks: 1, markCode: "A" },
+          ], finalAnswer: "$x=-5,2$" },
+        },
+        {
+          id: "olam-u1-s1-so-q8", difficulty: "core", totalMarks: 3,
+          stem: "Solve $2x^2+7x+3=0$.",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "$x=-3,\\frac12$" },
+            { id: "b", text: "$x=-2,\\frac32$" },
+            { id: "c", text: "$x=-\\frac12,-3$" },
+            { id: "d", text: "$x=\\frac12,3$" },
+          ], correctChoiceId: "c" },
+          markscheme: { principles: [{ kind: "technique", name: "Factorise", statement: "Non-monic." }], steps: [
+            { reasoning: "$(2x+1)(x+3)=0$ → $x=-\\frac12$ or $x=-3$.", marks: 1, markCode: "M" },
+            { reasoning: "Both roots verified by expansion.", marks: 1, markCode: "M" },
+            { reasoning: "Answer shown.", marks: 1, markCode: "A" },
+          ], finalAnswer: "$x=-\\frac12,-3$" },
+        },
+        {
+          id: "olam-u1-s1-so-q9", difficulty: "core", totalMarks: 2,
+          stem: "Solve $4x^2-25=0$. Give the positive root.",
+          response: { type: "numeric", parts: [{ label: "a", answer: 2.5 }] },
+          markscheme: { principles: [{ kind: "technique", name: "Difference of squares", statement: "Factorise." }], steps: [
+            { reasoning: "$(2x-5)(2x+5)=0$ → $x=\\pm\\frac52$.", marks: 1, markCode: "M" },
+            { reasoning: "Positive root is $2.5$.", marks: 1, markCode: "A" },
+          ], finalAnswer: "2.5" },
+        },
+        {
+          id: "olam-u1-s1-so-q10", difficulty: "core", totalMarks: 3,
+          stem: "Solve $x^2-6x+4=0$, giving answers in surd form.",
+          response: { type: "open" },
+          markscheme: { principles: [{ kind: "technique", name: "Formula", statement: "Use formula." }], steps: [
+            { reasoning: "$x=\\frac{6\\pm\\sqrt{36-16}}{2}=\\frac{6\\pm\\sqrt{20}}{2}$.", marks: 1, markCode: "M" },
+            { reasoning: "$=\\frac{6\\pm2\\sqrt5}{2}=3\\pm\\sqrt5$.", marks: 1, markCode: "M" },
+            { reasoning: "Answer: $x=3+\\sqrt5$ or $3-\\sqrt5$.", marks: 1, markCode: "A" },
+          ], finalAnswer: "$x=3\\pm\\sqrt5$" },
+        },
+        {
+          id: "olam-u1-s1-so-q11", difficulty: "challenge", totalMarks: 3,
+          stem: "Which pair of values solves $3x^2-5x-2=0$?",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "$x=1,-2$" },
+            { id: "b", text: "$x=-2,\\frac13$" },
+            { id: "c", text: "$x=2,-\\frac13$" },
+            { id: "d", text: "$x=3,-\\frac12$" },
+          ], correctChoiceId: "c" },
+          markscheme: { principles: [{ kind: "technique", name: "Factorise", statement: "Non-monic." }], steps: [
+            { reasoning: "$(3x+1)(x-2)=0$ → $x=-\\frac13$ or $x=2$.", marks: 1, markCode: "M" },
+            { reasoning: "Check $x=2$: $12-10-2=0$ ✓.", marks: 1, markCode: "M" },
+            { reasoning: "Answer shown.", marks: 1, markCode: "A" },
+          ], finalAnswer: "$x=2,-\\frac13$" },
+        },
+        {
+          id: "olam-u1-s1-so-q12", difficulty: "challenge", totalMarks: 3,
+          stem: "Solve $x^2-4x-1=0$, giving the larger root to 3 s.f.",
+          response: { type: "numeric", parts: [{ label: "a", answer: 4.24 }] },
+          markscheme: { principles: [{ kind: "technique", name: "Formula", statement: "Use formula." }], steps: [
+            { reasoning: "$x=\\frac{4\\pm\\sqrt{16+4}}{2}=2\\pm\\sqrt5$.", marks: 1, markCode: "M" },
+            { reasoning: "Larger root $2+\\sqrt5\\approx4.236$.", marks: 1, markCode: "M" },
+            { reasoning: "To 3 s.f.: $4.24$.", marks: 1, markCode: "A" },
+          ], finalAnswer: "4.24" },
+        },
+        {
+          id: "olam-u1-s1-so-q13", difficulty: "challenge", totalMarks: 4,
+          stem: "Solve $(x-3)(x+2)=4x-6$.",
+          response: { type: "open" },
+          markscheme: { principles: [{ kind: "technique", name: "Expand then solve", statement: "Form standard quadratic." }], steps: [
+            { reasoning: "Expand: $x^2-x-6=4x-6$ → $x^2-5x=0$.", marks: 1, markCode: "M" },
+            { reasoning: "Factorise: $x(x-5)=0$.", marks: 1, markCode: "M" },
+            { reasoning: "$x=0$ or $x=5$.", marks: 1, markCode: "M" },
+            { reasoning: "Verify $x=5$: $(2)(7)=14$ and $4(5)-6=14$ ✓.", marks: 1, markCode: "A" },
+          ], finalAnswer: "$x=0$ or $x=5$" },
+        },
+        {
+          id: "olam-u1-s1-so-q14", difficulty: "foundation", totalMarks: 1,
+          stem: "Solve $x^2-9x+20=0$.",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "$x=4,5$" },
+            { id: "b", text: "$x=3,6$" },
+            { id: "c", text: "$x=-4,-5$" },
+            { id: "d", text: "$x=2,10$" },
+          ], correctChoiceId: "a" },
+          markscheme: { principles: [{ kind: "technique", name: "Factorise", statement: "Find two numbers." }], steps: [{ reasoning: "$(x-4)(x-5)=0$ → $x=4,5$.", marks: 1, markCode: "A" }], finalAnswer: "$x=4,5$" },
+        },
+        {
+          id: "olam-u1-s1-so-q15", difficulty: "core", totalMarks: 3,
+          stem: "Solve $5x^2-4x-1=0$.",
+          response: { type: "open" },
+          markscheme: { principles: [{ kind: "technique", name: "Factorise", statement: "Non-monic." }], steps: [
+            { reasoning: "$(5x+1)(x-1)=0$.", marks: 1, markCode: "M" },
+            { reasoning: "$x=-\\frac15$ or $x=1$.", marks: 1, markCode: "M" },
+            { reasoning: "Answer shown.", marks: 1, markCode: "A" },
+          ], finalAnswer: "$x=-\\frac15,1$" },
+        },
+        {
+          id: "olam-u1-s1-so-q16", difficulty: "core", totalMarks: 3,
+          stem: "Solve $2x^2-8x+6=0$ and give the larger root.",
+          response: { type: "numeric", parts: [{ label: "a", answer: 3 }] },
+          markscheme: { principles: [{ kind: "technique", name: "Simplify then solve", statement: "Divide by common factor." }], steps: [
+            { reasoning: "Divide by 2: $x^2-4x+3=0$ → $(x-1)(x-3)=0$.", marks: 1, markCode: "M" },
+            { reasoning: "Roots $x=1,3$.", marks: 1, markCode: "M" },
+            { reasoning: "Larger root is 3.", marks: 1, markCode: "A" },
+          ], finalAnswer: "3" },
+        },
       ],
     },
     {
@@ -89,8 +222,11 @@ export const lesson11: Lesson = {
           id: "olam-u1-s1-di-q1", difficulty: "foundation", totalMarks: 1,
           stem: "The discriminant of $x^2+4x+4$ is…",
           response: { type: "mcq", choices: [
-            { id: "a", text: "0" }, { id: "b", text: "32" }, { id: "c", text: "16" }, { id: "d", text: "-16" },
-          ], correctChoiceId: "a" },
+            { id: "a", text: "-16" },
+            { id: "b", text: "32" },
+            { id: "c", text: "16" },
+            { id: "d", text: "0" },
+          ], correctChoiceId: "d" },
           markscheme: { principles: [{ kind: "formula", name: "Discriminant", statement: "$b^2-4ac$." }], steps: [{ reasoning: "$16-16=0$.", marks: 1, markCode: "A" }], finalAnswer: "0" },
         },
         {
@@ -122,6 +258,136 @@ export const lesson11: Lesson = {
             { reasoning: "Check: $k=-1$ gives $\\Delta=16>0$; $k=1$ gives $\\Delta=-8<0$. ✓", marks: 1, markCode: "M" },
             { reasoning: "Answer: $k<0$ or $k>3$.", marks: 1, markCode: "A" },
           ], finalAnswer: "$k<0$ or $k>3$" },
+        },
+        {
+          id: "olam-u1-s1-di-q5", difficulty: "foundation", totalMarks: 1,
+          stem: "The discriminant of $2x^2+5x+3$ is…",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "25" },
+            { id: "b", text: "-1" },
+            { id: "c", text: "1" },
+            { id: "d", text: "19" },
+          ], correctChoiceId: "c" },
+          markscheme: { principles: [{ kind: "formula", name: "Discriminant", statement: "$b^2-4ac$." }], steps: [{ reasoning: "$25-24=1$.", marks: 1, markCode: "A" }], finalAnswer: "1" },
+        },
+        {
+          id: "olam-u1-s1-di-q6", difficulty: "foundation", totalMarks: 2,
+          stem: "Find the discriminant of $x^2-6x+9$.",
+          response: { type: "numeric", parts: [{ label: "a", answer: 0 }] },
+          markscheme: { principles: [{ kind: "formula", name: "Discriminant", statement: "$b^2-4ac$." }], steps: [
+            { reasoning: "$36-36=0$.", marks: 1, markCode: "M" },
+            { reasoning: "Answer: 0.", marks: 1, markCode: "A" },
+          ], finalAnswer: "0" },
+        },
+        {
+          id: "olam-u1-s1-di-q7", difficulty: "foundation", totalMarks: 2,
+          stem: "Classify the roots of $x^2+2x+5=0$.",
+          response: { type: "open" },
+          markscheme: { principles: [{ kind: "property", name: "Discriminant", statement: "Classify." }], steps: [
+            { reasoning: "$\Delta=4-20=-16<0$.", marks: 1, markCode: "M" },
+            { reasoning: "No real roots (complex roots).", marks: 1, markCode: "A" },
+          ], finalAnswer: "No real roots" },
+        },
+        {
+          id: "olam-u1-s1-di-q8", difficulty: "core", totalMarks: 3,
+          stem: "The discriminant of $x^2+kx+4=0$ is 9. Find $k$.",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "$k=\\pm3$" },
+            { id: "b", text: "$k=5$ only" },
+            { id: "c", text: "$k=\\pm4$" },
+            { id: "d", text: "$k=\\pm5$" },
+          ], correctChoiceId: "d" },
+          markscheme: { principles: [{ kind: "technique", name: "Discriminant equation", statement: "Set $\Delta$ and solve." }], steps: [
+            { reasoning: "$k^2-16=9$ → $k^2=25$.", marks: 1, markCode: "M" },
+            { reasoning: "$k=\\pm5$.", marks: 1, markCode: "M" },
+            { reasoning: "Both signs satisfy.", marks: 1, markCode: "A" },
+          ], finalAnswer: "$k=\\pm5$" },
+        },
+        {
+          id: "olam-u1-s1-di-q9", difficulty: "core", totalMarks: 3,
+          stem: "Find the positive value of $k$ for which $x^2+kx+16=0$ has equal roots.",
+          response: { type: "numeric", parts: [{ label: "a", answer: 8 }] },
+          markscheme: { principles: [{ kind: "technique", name: "Equal roots", statement: "Set $\Delta=0$." }], steps: [
+            { reasoning: "$k^2-64=0$ → $k=\\pm8$.", marks: 1, markCode: "M" },
+            { reasoning: "Positive value: $k=8$.", marks: 1, markCode: "M" },
+            { reasoning: "Check: $x^2+8x+16=(x+4)^2$. ✓", marks: 1, markCode: "A" },
+          ], finalAnswer: "8" },
+        },
+        {
+          id: "olam-u1-s1-di-q10", difficulty: "core", totalMarks: 3,
+          stem: "Find the range of $m$ for which $x^2+mx+9=0$ has no real roots.",
+          response: { type: "open" },
+          markscheme: { principles: [{ kind: "technique", name: "Discriminant inequality", statement: "Require $\Delta<0$." }], steps: [
+            { reasoning: "$m^2-36<0$ → $(m-6)(m+6)<0$.", marks: 1, markCode: "M" },
+            { reasoning: "$-6<m<6$.", marks: 1, markCode: "M" },
+            { reasoning: "Answer shown.", marks: 1, markCode: "A" },
+          ], finalAnswer: "$-6<m<6$" },
+        },
+        {
+          id: "olam-u1-s1-di-q11", difficulty: "core", totalMarks: 2,
+          stem: "$2x^2-3x+5=0$ has…",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "One real and one complex root" },
+            { id: "b", text: "A repeated real root" },
+            { id: "c", text: "Two distinct real roots" },
+            { id: "d", text: "No real roots" },
+          ], correctChoiceId: "d" },
+          markscheme: { principles: [{ kind: "property", name: "Discriminant", statement: "Compute and classify." }], steps: [
+            { reasoning: "$\Delta=9-40=-31<0$ → no real roots.", marks: 1, markCode: "M" },
+            { reasoning: "Answer shown.", marks: 1, markCode: "A" },
+          ], finalAnswer: "No real roots" },
+        },
+        {
+          id: "olam-u1-s1-di-q12", difficulty: "core", totalMarks: 3,
+          stem: "The equation $x^2-2kx+9=0$ has a repeated root. Find $k$.",
+          response: { type: "numeric", parts: [{ label: "a", answer: 3 }] },
+          markscheme: { principles: [{ kind: "technique", name: "Repeated root", statement: "Set $\Delta=0$." }], steps: [
+            { reasoning: "$4k^2-36=0$ → $k=\\pm3$.", marks: 1, markCode: "M" },
+            { reasoning: "If a single positive value required: $k=3$.", marks: 1, markCode: "M" },
+            { reasoning: "Answer: 3.", marks: 1, markCode: "A" },
+          ], finalAnswer: "3" },
+        },
+        {
+          id: "olam-u1-s1-di-q13", difficulty: "challenge", totalMarks: 4,
+          stem: "Find the range of values of $k$ for which $x^2+kx+(k+3)=0$ has two distinct real roots.",
+          response: { type: "open" },
+          markscheme: { principles: [{ kind: "technique", name: "Discriminant inequality", statement: "Require $\Delta>0$." }], steps: [
+            { reasoning: "$\Delta=k^2-4(k+3)=k^2-4k-12$.", marks: 1, markCode: "M" },
+            { reasoning: "$k^2-4k-12>0$ → $(k-6)(k+2)>0$.", marks: 1, markCode: "M" },
+            { reasoning: "$k<-2$ or $k>6$.", marks: 1, markCode: "M" },
+            { reasoning: "Answer shown.", marks: 1, markCode: "A" },
+          ], finalAnswer: "$k<-2$ or $k>6$" },
+        },
+        {
+          id: "olam-u1-s1-di-q14", difficulty: "foundation", totalMarks: 1,
+          stem: "If a quadratic has discriminant 0, its roots are…",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "One real root and one complex root" },
+            { id: "b", text: "One repeated real root" },
+            { id: "c", text: "Two distinct real roots" },
+            { id: "d", text: "No real roots" },
+          ], correctChoiceId: "b" },
+          markscheme: { principles: [{ kind: "property", name: "Discriminant", statement: "Classification." }], steps: [{ reasoning: "$\Delta=0$ → repeated root.", marks: 1, markCode: "A" }], finalAnswer: "Repeated real root" },
+        },
+        {
+          id: "olam-u1-s1-di-q15", difficulty: "core", totalMarks: 3,
+          stem: "For what values of $k$ does $x^2-4x+k=0$ have no real roots?",
+          response: { type: "open" },
+          markscheme: { principles: [{ kind: "technique", name: "Discriminant inequality", statement: "Require $\Delta<0$." }], steps: [
+            { reasoning: "$16-4k<0$.", marks: 1, markCode: "M" },
+            { reasoning: "$-4k<-16$ → $k>4$.", marks: 1, markCode: "M" },
+            { reasoning: "Answer: $k>4$.", marks: 1, markCode: "A" },
+          ], finalAnswer: "$k>4$" },
+        },
+        {
+          id: "olam-u1-s1-di-q16", difficulty: "challenge", totalMarks: 3,
+          stem: "The equation $2x^2+bx+8=0$ has equal roots. Find the positive value of $b$.",
+          response: { type: "numeric", parts: [{ label: "a", answer: 8 }] },
+          markscheme: { principles: [{ kind: "technique", name: "Equal roots", statement: "Set $\Delta=0$." }], steps: [
+            { reasoning: "$b^2-4(2)(8)=b^2-64=0$ → $b=\\pm8$.", marks: 1, markCode: "M" },
+            { reasoning: "Positive value: $b=8$.", marks: 1, markCode: "M" },
+            { reasoning: "Check: $2x^2+8x+8=2(x+2)^2$. ✓", marks: 1, markCode: "A" },
+          ], finalAnswer: "8" },
         },
       ],
     },

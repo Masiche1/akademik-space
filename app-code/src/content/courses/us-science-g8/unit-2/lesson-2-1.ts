@@ -49,12 +49,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The number of waves that pass a point each second" },
-              { id: "b", text: "The distance from one crest to the next crest" },
-              { id: "c", text: "The maximum distance the medium moves from its rest position" },
-              { id: "d", text: "The distance a wave travels each second" },
+              { id: "a", text: "The maximum distance the medium moves from its rest position" },
+              { id: "b", text: "The number of waves that pass a point each second" },
+              { id: "c", text: "The distance a wave travels each second" },
+              { id: "d", text: "The distance from one crest to the next crest" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -181,12 +181,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Water" },
-              { id: "b", text: "Steel" },
-              { id: "c", text: "A vacuum" },
-              { id: "d", text: "Air" },
+              { id: "a", text: "Steel" },
+              { id: "b", text: "Air" },
+              { id: "c", text: "Water" },
+              { id: "d", text: "A vacuum" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [

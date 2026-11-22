@@ -52,12 +52,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$8\\frac{1}{3}$ miles" },
-              { id: "b", text: "$28$ miles" },
-              { id: "c", text: "$75$ miles" },
-              { id: "d", text: "$125$ miles" },
+              { id: "a", text: "$28$ miles" },
+              { id: "b", text: "$75$ miles" },
+              { id: "c", text: "$125$ miles" },
+              { id: "d", text: "$8\\frac{1}{3}$ miles" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -188,12 +188,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\$20$" },
-              { id: "b", text: "$\\$60$" },
-              { id: "c", text: "$\\$560$" },
-              { id: "d", text: "$\\$6{,}000$" },
+              { id: "a", text: "$\\$60$" },
+              { id: "b", text: "$\\$6{,}000$" },
+              { id: "c", text: "$\\$20$" },
+              { id: "d", text: "$\\$560$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

@@ -57,12 +57,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$y=-5$" },
-              { id: "b", text: "$y=0$" },
-              { id: "c", text: "$y=3$" },
-              { id: "d", text: "$y=5$" },
+              { id: "a", text: "$y=3$" },
+              { id: "b", text: "$y=5$" },
+              { id: "c", text: "$y=0$" },
+              { id: "d", text: "$y=-5$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -86,8 +86,8 @@ export const lesson23: Lesson = {
             choices: [
               { id: "a", text: "$x>3$" },
               { id: "b", text: "$x\\ge3$" },
-              { id: "c", text: "$x>1$" },
-              { id: "d", text: "All real $x$" },
+              { id: "c", text: "All real $x$" },
+              { id: "d", text: "$x>1$" },
             ],
             correctChoiceId: "a",
           },
@@ -112,12 +112,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$x=4$" },
+              { id: "a", text: "$x=-2$" },
               { id: "b", text: "$x=3$" },
-              { id: "c", text: "$x=-2$" },
-              { id: "d", text: "$x=8$" },
+              { id: "c", text: "$x=8$" },
+              { id: "d", text: "$x=4$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -173,12 +173,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$x>0$" },
+              { id: "a", text: "All real $x$" },
               { id: "b", text: "$x\\ge0$" },
               { id: "c", text: "$x>1$" },
-              { id: "d", text: "All real $x$" },
+              { id: "d", text: "$x>0$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -217,12 +217,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Translate 1 unit right and 3 units up" },
-              { id: "b", text: "Translate 1 unit left and 3 units up" },
-              { id: "c", text: "Stretch SF 2 and translate 3 up" },
-              { id: "d", text: "Translate 3 units right and 1 unit up" },
+              { id: "a", text: "Stretch SF 2 and translate 3 up" },
+              { id: "b", text: "Translate 3 units right and 1 unit up" },
+              { id: "c", text: "Translate 1 unit right and 3 units up" },
+              { id: "d", text: "Translate 1 unit left and 3 units up" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -264,12 +264,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "They are inverse functions — reflections of each other in $y=x$" },
-              { id: "b", text: "They are the same function" },
-              { id: "c", text: "They are perpendicular at all points" },
-              { id: "d", text: "$\\ln x$ is the derivative of $e^x$" },
+              { id: "a", text: "$\\ln x$ is the derivative of $e^x$" },
+              { id: "b", text: "They are perpendicular at all points" },
+              { id: "c", text: "They are the same function" },
+              { id: "d", text: "They are inverse functions — reflections of each other in $y=x$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -378,12 +378,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$x=1$" },
-              { id: "b", text: "$x=0$" },
-              { id: "c", text: "$y=0$" },
-              { id: "d", text: "$x=-1$" },
+              { id: "a", text: "$x=-1$" },
+              { id: "b", text: "$x=1$" },
+              { id: "c", text: "$x=0$" },
+              { id: "d", text: "$y=0$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -406,12 +406,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Asymptote $y=-2$; image $(0,-1)$" },
-              { id: "b", text: "Asymptote $y=2$; image $(0,3)$" },
-              { id: "c", text: "Asymptote $y=-2$; image $(0,1)$" },
-              { id: "d", text: "Asymptote $y=0$; image $(0,-1)$" },
+              { id: "a", text: "Asymptote $y=0$; image $(0,-1)$" },
+              { id: "b", text: "Asymptote $y=-2$; image $(0,-1)$" },
+              { id: "c", text: "Asymptote $y=2$; image $(0,3)$" },
+              { id: "d", text: "Asymptote $y=-2$; image $(0,1)$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -494,12 +494,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "2" },
-              { id: "b", text: "-2" },
-              { id: "c", text: "8" },
-              { id: "d", text: "0" },
+              { id: "a", text: "0" },
+              { id: "b", text: "8" },
+              { id: "c", text: "2" },
+              { id: "d", text: "-2" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -521,12 +521,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$x=3$ or $x=-2$" },
+              { id: "a", text: "$x=-2$ only" },
               { id: "b", text: "$x=3$ only" },
-              { id: "c", text: "$x=-2$ only" },
-              { id: "d", text: "$x=\\frac{5}{2}$" },
+              { id: "c", text: "$x=\\frac{5}{2}$" },
+              { id: "d", text: "$x=3$ or $x=-2$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -549,12 +549,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Yes, both give $f(2)=4$" },
-              { id: "b", text: "No, the two pieces do not connect at $x=2$" },
-              { id: "c", text: "No, left gives 0" },
+              { id: "a", text: "No, the two pieces do not connect at $x=2$" },
+              { id: "b", text: "No, left gives 0" },
+              { id: "c", text: "Yes, both give $f(2)=4$" },
               { id: "d", text: "Cannot determine" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -609,12 +609,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "2" },
-              { id: "b", text: "-2" },
-              { id: "c", text: "4" },
-              { id: "d", text: "1" },
+              { id: "a", text: "4" },
+              { id: "b", text: "1" },
+              { id: "c", text: "2" },
+              { id: "d", text: "-2" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -653,12 +653,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "No — left limit is 3, right value is 2" },
+              { id: "a", text: "Yes — $f(1)=2$ exists" },
               { id: "b", text: "Yes — both pieces give 3" },
-              { id: "c", text: "Yes — $f(1)=2$ exists" },
-              { id: "d", text: "No — the function is undefined at $x=1$" },
+              { id: "c", text: "No — the function is undefined at $x=1$" },
+              { id: "d", text: "No — left limit is 3, right value is 2" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -704,9 +704,9 @@ export const lesson23: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$y=|x|+1$ has vertex $(0,1)$; $y=|x+1|$ has vertex $(-1,0)$" },
-              { id: "b", text: "Both have vertex $(0,1)$" },
+              { id: "b", text: "$y=|x+1|$ is $y=|x|+1$ shifted left" },
               { id: "c", text: "$y=|x|+1$ has vertex $(-1,0)$; $y=|x+1|$ has vertex $(0,1)$" },
-              { id: "d", text: "$y=|x+1|$ is $y=|x|+1$ shifted left" },
+              { id: "d", text: "Both have vertex $(0,1)$" },
             ],
             correctChoiceId: "a",
           },
@@ -822,12 +822,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "9" },
-              { id: "b", text: "1" },
+              { id: "a", text: "1" },
+              { id: "b", text: "9" },
               { id: "c", text: "-9" },
               { id: "d", text: "6" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -851,8 +851,8 @@ export const lesson23: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "4, for all $x$ in $[-2,2]$" },
-              { id: "b", text: "0, at $x=0$" },
-              { id: "c", text: "2, at $x=2$" },
+              { id: "b", text: "2, at $x=2$" },
+              { id: "c", text: "0, at $x=0$" },
               { id: "d", text: "No minimum — it is unbounded" },
             ],
             correctChoiceId: "a",

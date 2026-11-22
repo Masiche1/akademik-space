@@ -51,22 +51,22 @@ export const lesson211: Lesson = {
           "choices": [
                     {
                               "id": "a",
-                              "text": "A message one sprite sends to all others"
+                              "text": "A loop"
                     },
                     {
                               "id": "b",
-                              "text": "A TV channel"
+                              "text": "A message one sprite sends to all others"
                     },
                     {
                               "id": "c",
-                              "text": "A file type"
+                              "text": "A TV channel"
                     },
                     {
                               "id": "d",
-                              "text": "A loop"
+                              "text": "A file type"
                     }
           ],
-          "correctChoiceId": "a"
+          "correctChoiceId": "b"
 },
           markscheme: {
           "principles": [
@@ -213,6 +213,214 @@ export const lesson211: Lesson = {
           ],
           "finalAnswer": "Events, broadcasts, clones, parallel scripts, game design."
 },
+        },
+        {
+          id: "cipc-u2-av-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "What is a broadcast in Scratch?",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "A loop" },
+            { id: "b", text: "A message one sprite sends to all others" },
+            { id: "c", text: "A loud speaker sound" },
+            { id: "d", text: "A type of sprite" },
+          ], correctChoiceId: "b" },
+          markscheme: {
+            principles: [{ kind: "definition", name: "Broadcast", statement: "Message to all sprites." }],
+            steps: [
+              { reasoning: "Broadcast sends a named message that all listening sprites can react to.", marks: 1, markCode: "M" },
+            ],
+            finalAnswer: "**(a)** A message sent to all sprites",
+          },
+        },
+        {
+          id: "cipc-u2-av-q6",
+          difficulty: "foundation",
+          totalMarks: 2,
+          stem: "What is a clone in Scratch? When would you use one?",
+          response: { type: "open" },
+          markscheme: {
+            principles: [{ kind: "definition", name: "Clone", statement: "Temporary copy of a sprite." }],
+            steps: [
+              { reasoning: "Clone = a temporary copy of a sprite made during the program.", marks: 1, markCode: "M" },
+              { reasoning: "Use for effects like confetti, bullets, or many identical objects.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "Temp sprite copy; e.g. confetti or bullets.",
+          },
+        },
+        {
+          id: "cipc-u2-av-q7",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "A sprite broadcasts 'game over'. How many sprites can react to that broadcast?",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "None — broadcasts don't reach sprites" },
+            { id: "b", text: "Only the sender" },
+            { id: "c", text: "Only one sprite" },
+            { id: "d", text: "All sprites listening for 'game over'" },
+          ], correctChoiceId: "d" },
+          markscheme: {
+            principles: [{ kind: "skill", name: "Broadcast reach", statement: "All listeners react." }],
+            steps: [
+              { reasoning: "Every sprite with a 'when I receive game over' block reacts.", marks: 1, markCode: "M" },
+              { reasoning: "Broadcasts reach all listening sprites.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "**(a)** All sprites listening for it",
+          },
+        },
+        {
+          id: "cipc-u2-av-q8",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "What is an event handler?",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "A type of variable" },
+            { id: "b", text: "A loop" },
+            { id: "c", text: "An error message" },
+            { id: "d", text: "A block that starts code when an event happens" },
+          ], correctChoiceId: "d" },
+          markscheme: {
+            principles: [{ kind: "definition", name: "Event handler", statement: "Code triggered by events." }],
+            steps: [
+              { reasoning: "Event handler = code that runs when an event (click, key, message) occurs.", marks: 1, markCode: "M" },
+            ],
+            finalAnswer: "**(a)** Code triggered by an event",
+          },
+        },
+        {
+          id: "cipc-u2-av-q9",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "Explain how a broadcast makes sprites communicate. Use 'player hits enemy → broadcast gameover' as an example.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [{ kind: "skill", name: "Sprite communication", statement: "Broadcasts decouple sprites." }],
+            steps: [
+              { reasoning: "Player detects collision and broadcasts 'gameover'.", marks: 1, markCode: "M" },
+              { reasoning: "Enemy, score keeper, etc. have 'when I receive gameover' handlers.", marks: 1, markCode: "M" },
+              { reasoning: "Each reacts independently — sprites don't need direct references.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "Broadcast 'gameover'; all listeners react independently.",
+          },
+        },
+        {
+          id: "cipc-u2-av-q10",
+          difficulty: "challenge",
+          totalMarks: 2,
+          stem: "Why use clones instead of placing 50 confetti sprites on stage?",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "Clones are bigger" },
+            { id: "b", text: "One sprite makes clones only when needed — less clutter and easier control" },
+            { id: "c", text: "Sprites cannot move" },
+            { id: "d", text: "Clones cost less money" },
+          ], correctChoiceId: "b" },
+          markscheme: {
+            principles: [{ kind: "skill", name: "Clone efficiency", statement: "Create/destroy on demand." }],
+            steps: [
+              { reasoning: "One sprite clones confetti when needed, then deletes them — no 50 permanent sprites.", marks: 1, markCode: "M" },
+              { reasoning: "Cleaner project and easier to manage.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "**(a)** On-demand copies, less clutter",
+          },
+        },
+        {
+          id: "cipc-u2-av-q11",
+          difficulty: "challenge",
+          totalMarks: 3,
+          stem: "What should clones do when they finish their job (e.g. confetti lands)? Why?",
+          response: { type: "open" },
+          markscheme: {
+            principles: [{ kind: "skill", name: "Clone cleanup", statement: "Delete clones to avoid clutter." }],
+            steps: [
+              { reasoning: "Clones should delete themselves when done (e.g. after landing).", marks: 1, markCode: "M" },
+              { reasoning: "Otherwise they keep running and slow the project / cause bugs.", marks: 1, markCode: "M" },
+              { reasoning: "'delete this clone' ends their scripts.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "Delete themselves with 'delete this clone'.",
+          },
+        },
+        {
+          id: "cipc-u2-av-q12",
+          difficulty: "foundation",
+          totalMarks: 2,
+          stem: "What is a parallel script?",
+          response: { type: "open" },
+          markscheme: {
+            principles: [{ kind: "definition", name: "Parallel script", statement: "Scripts running at the same time." }],
+            steps: [
+              { reasoning: "Parallel script = separate code stacks running simultaneously.", marks: 1, markCode: "M" },
+              { reasoning: "e.g. one script moves the player while another checks collisions.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "Code stacks running simultaneously.",
+          },
+        },
+        {
+          id: "cipc-u2-av-q13",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "How do clones differ from duplicates (copy-pasted sprites)?",
+          response: { type: "open" },
+          markscheme: {
+            principles: [{ kind: "skill", name: "Clones vs duplicates", statement: "Temporary dynamic copies vs permanent sprites." }],
+            steps: [
+              { reasoning: "Clones are created/destroyed by code during runtime; duplicates are permanent sprites.", marks: 1, markCode: "M" },
+              { reasoning: "Clones share the original's scripts; duplicates need their own blocks.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "Clones are temporary code-made copies.",
+          },
+        },
+        {
+          id: "cipc-u2-av-q14",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "Design a 'pop' effect: when the player clicks a balloon, it should burst into confetti. Describe the broadcasts/clones involved.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [{ kind: "skill", name: "Effect design", statement: "Event → broadcast → clones." }],
+            steps: [
+              { reasoning: "Balloon: 'when this sprite clicked' → broadcast 'pop', hide/delete itself.", marks: 1, markCode: "M" },
+              { reasoning: "Confetti sprite: 'when I receive pop' → create 10 clones.", marks: 1, markCode: "M" },
+              { reasoning: "Each clone flies outward then deletes itself.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "Click → broadcast pop → confetti clones burst out.",
+          },
+        },
+        {
+          id: "cipc-u2-av-q15",
+          difficulty: "challenge",
+          totalMarks: 3,
+          stem: "Describe a simple two-sprite chase game structure: how do the sprites communicate using events and broadcasts?",
+          response: { type: "open" },
+          markscheme: {
+            principles: [{ kind: "skill", name: "Game structure", statement: "Chaser follows; caught broadcasts end." }],
+            steps: [
+              { reasoning: "Chaser script: forever move toward player.", marks: 1, markCode: "M" },
+              { reasoning: "Player script: move with arrow keys.", marks: 1, markCode: "M" },
+              { reasoning: "Collision check broadcasts 'caught' → both stop / show game over.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "Chaser follows, player moves, collision broadcasts 'caught'.",
+          },
+        },
+        {
+          id: "cipc-u2-av-q16",
+          difficulty: "challenge",
+          totalMarks: 8,
+          stem: "(a) Define broadcast, clone, event handler, parallel script. (b) How do sprites communicate? (c) Why use clones instead of many sprites? (d) Design a 'pop' effect: balloon clicked → clone confetti. (e) What triggers a 'game over' broadcast? (f) How do clones differ from duplicates? (g) Describe a multi-sprite chase game structure. (h) What should clones do when finished?",
+          response: { type: "open" },
+          markscheme: {
+            principles: [{ kind: "technique", name: "Advanced programming", statement: "Broadcasts, clones, events, parallel scripts." }],
+            steps: [
+              { reasoning: "(a) Broadcast=message to all; clone=temp copy; event handler=triggered code; parallel=simultaneous scripts.", marks: 1, markCode: "M" },
+              { reasoning: "(b) Via broadcasts — send message, listeners react.", marks: 1, markCode: "M" },
+              { reasoning: "(c) Fewer permanent sprites; create/destroy on demand.", marks: 1, markCode: "M" },
+              { reasoning: "(d) Click → broadcast pop → confetti clones.", marks: 1, markCode: "M" },
+              { reasoning: "(e) e.g. lives reach 0 or collision with enemy.", marks: 1, markCode: "M" },
+              { reasoning: "(f) Clones temporary/code-made; duplicates permanent sprites.", marks: 1, markCode: "M" },
+              { reasoning: "(g) Chaser follows player; collision broadcasts end.", marks: 1, markCode: "M" },
+              { reasoning: "(h) Delete themselves to stop scripts and save resources.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "Broadcasts, clones, events, communication, pop effect, game over trigger, clones vs duplicates, chase game, clone cleanup.",
+          },
         },
       ],
     },

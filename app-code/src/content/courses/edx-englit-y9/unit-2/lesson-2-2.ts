@@ -74,12 +74,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Onomatopoeia and alliteration" },
-              { id: "b", text: "A metaphor for peace" },
-              { id: "c", text: "A rhetorical question" },
-              { id: "d", text: "Direct address to the reader" },
+              { id: "a", text: "A rhetorical question" },
+              { id: "b", text: "Onomatopoeia and alliteration" },
+              { id: "c", text: "Direct address to the reader" },
+              { id: "d", text: "A metaphor for peace" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Onomatopoeia", statement: "Sound words imitate the noise they describe, and repeated r sounds add a harsh rattle." }],
@@ -204,12 +204,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It feels heavy and trapping" },
-              { id: "b", text: "It is bright and welcoming" },
-              { id: "c", text: "It is full of stars" },
-              { id: "d", text: "It is about to rain" },
+              { id: "a", text: "It is about to rain" },
+              { id: "b", text: "It is full of stars" },
+              { id: "c", text: "It feels heavy and trapping" },
+              { id: "d", text: "It is bright and welcoming" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Metaphor", statement: "A direct comparison: the sky is a heavy lid." }],

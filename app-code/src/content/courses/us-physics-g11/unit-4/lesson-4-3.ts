@@ -50,12 +50,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Digital signals are not affected by noise at all." },
-              { id: "b", text: "Digital signals can be regenerated to remove noise, so the copy is as good as the original." },
-              { id: "c", text: "Digital signals always need less data to store." },
+              { id: "a", text: "Digital signals can be regenerated to remove noise, so the copy is as good as the original." },
+              { id: "b", text: "Digital signals always need less data to store." },
+              { id: "c", text: "Digital signals are not affected by noise at all." },
               { id: "d", text: "Digital signals travel faster than analog signals." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -182,12 +182,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Diffraction at the end of the fiber" },
-              { id: "b", text: "Total internal reflection at the core-cladding boundary" },
-              { id: "c", text: "Absorption by the cladding" },
-              { id: "d", text: "Destructive interference inside the core" },
+              { id: "a", text: "Destructive interference inside the core" },
+              { id: "b", text: "Absorption by the cladding" },
+              { id: "c", text: "Total internal reflection at the core-cladding boundary" },
+              { id: "d", text: "Diffraction at the end of the fiber" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

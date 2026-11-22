@@ -53,12 +53,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$y=x^2$" },
-              { id: "b", text: "$y=x^3$" },
-              { id: "c", text: "$y=\\frac{1}{x}$" },
+              { id: "a", text: "$y=\\frac{1}{x}$" },
+              { id: "b", text: "$y=x^2$" },
+              { id: "c", text: "$y=x^3$" },
               { id: "d", text: "$y=-\\frac{1}{x}$" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "property", name: "Reciprocal graph", statement: "For $k>0$, $y=\\frac{k}{x}$ has branches in the first and third quadrants." }],
@@ -184,12 +184,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$10$" },
-              { id: "b", text: "$14$" },
-              { id: "c", text: "$7$" },
+              { id: "a", text: "$14$" },
+              { id: "b", text: "$7$" },
+              { id: "c", text: "$10$" },
               { id: "d", text: "$12$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Function notation", statement: "$f(a)$ is the output when the input is $a$." }],

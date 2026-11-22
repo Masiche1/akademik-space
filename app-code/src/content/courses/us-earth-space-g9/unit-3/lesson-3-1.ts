@@ -53,10 +53,10 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Wind energy" },
+              { id: "a", text: "Sustainably managed forest" },
               { id: "b", text: "Coal" },
               { id: "c", text: "Sunlight" },
-              { id: "d", text: "Sustainably managed forest" },
+              { id: "d", text: "Wind energy" },
             ],
             correctChoiceId: "b",
           },
@@ -188,8 +188,8 @@ export const lesson31: Lesson = {
             choices: [
               { id: "a", text: "The benefits are 0.8 times as large as the costs, so costs are greater than benefits." },
               { id: "b", text: "The benefits are greater than the costs by 80%." },
-              { id: "c", text: "The project will make a profit of 80%." },
-              { id: "d", text: "The benefits and costs are equal." },
+              { id: "c", text: "The benefits and costs are equal." },
+              { id: "d", text: "The project will make a profit of 80%." },
             ],
             correctChoiceId: "a",
           },

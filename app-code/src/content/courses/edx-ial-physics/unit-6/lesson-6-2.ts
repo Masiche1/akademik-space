@@ -84,22 +84,22 @@ export const lesson62: Lesson = {
             "choices": [
               {
                 "id": "a",
-                "text": "1 m"
+                "text": "0.1 mm"
               },
               {
                 "id": "b",
-                "text": "1 cm"
-              },
-              {
-                "id": "c",
                 "text": "1 mm"
               },
               {
+                "id": "c",
+                "text": "1 cm"
+              },
+              {
                 "id": "d",
-                "text": "0.1 mm"
+                "text": "1 m"
               }
             ],
-            "correctChoiceId": "c"
+            "borrectChoiceId": "c"
           },
           "markscheme": {
             "principles": [
@@ -357,22 +357,22 @@ export const lesson62: Lesson = {
             "choices": [
               {
                 "id": "a",
-                "text": "use a single reading"
-              },
-              {
-                "id": "b",
-                "text": "plot a graph and determine the gradient from the line of best fit"
-              },
-              {
-                "id": "c",
                 "text": "ignore units"
               },
               {
-                "id": "d",
+                "id": "b",
                 "text": "join anomalous points"
+              },
+              {
+                "id": "c",
+                "text": "use a single reading"
+              },
+              {
+                "id": "d",
+                "text": "plot a graph and determine the gradient from the line of best fit"
               }
             ],
-            "correctChoiceId": "b"
+            "correctChoiceId": "d"
           },
           "markscheme": {
             "principles": [

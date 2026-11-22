@@ -55,11 +55,11 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$2\\pi$" },
-              { id: "b", text: "$\\pi$" },
+              { id: "b", text: "$4\\pi$" },
               { id: "c", text: "$\\dfrac{\\pi}{2}$" },
-              { id: "d", text: "$4\\pi$" },
+              { id: "d", text: "$\\pi$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -209,12 +209,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Midline $y=6$, amplitude $4$" },
-              { id: "b", text: "Midline $y=6$, amplitude $8$" },
+              { id: "a", text: "Midline $y=6$, amplitude $8$" },
+              { id: "b", text: "Midline $y=8$, amplitude $4$" },
               { id: "c", text: "Midline $y=4$, amplitude $6$" },
-              { id: "d", text: "Midline $y=8$, amplitude $4$" },
+              { id: "d", text: "Midline $y=6$, amplitude $4$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

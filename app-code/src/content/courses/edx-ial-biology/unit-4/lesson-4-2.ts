@@ -49,12 +49,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Stroma" },
-              { id: "b", text: "Thylakoid membranes" },
-              { id: "c", text: "Cytoplasm" },
-              { id: "d", text: "Mitochondria" },
+              { id: "a", text: "Mitochondria" },
+              { id: "b", text: "Cytoplasm" },
+              { id: "c", text: "Stroma" },
+              { id: "d", text: "Thylakoid membranes" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Light-dependent", statement: "Thylakoid membranes." }],
@@ -164,12 +164,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Mitochondrial matrix" },
-              { id: "b", text: "Cytoplasm" },
+              { id: "a", text: "Cytoplasm" },
+              { id: "b", text: "Mitochondrial matrix" },
               { id: "c", text: "Inner mitochondrial membrane" },
               { id: "d", text: "Nucleus" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Glycolysis", statement: "Cytoplasm." }],

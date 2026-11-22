@@ -53,12 +53,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The Iraqi government" },
-              { id: "b", text: "Al-Qaeda" },
-              { id: "c", text: "The Taliban government" },
+              { id: "a", text: "Al-Qaeda" },
+              { id: "b", text: "The Taliban government" },
+              { id: "c", text: "The Iraqi government" },
               { id: "d", text: "Iranian agents" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -152,12 +152,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "11 September 2001" },
+              { id: "a", text: "7 December 1941" },
               { id: "b", text: "11 November 1918" },
-              { id: "c", text: "7 December 1941" },
+              { id: "c", text: "11 September 2001" },
               { id: "d", text: "23 August 1990" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -181,11 +181,11 @@ export const lesson63: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Saddam Hussein" },
-              { id: "b", text: "Osama bin Laden" },
-              { id: "c", text: "Ayatollah Khomeini" },
-              { id: "d", text: "Muammar Gaddafi" },
+              { id: "b", text: "Muammar Gaddafi" },
+              { id: "c", text: "Osama bin Laden" },
+              { id: "d", text: "Ayatollah Khomeini" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -208,12 +208,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Hit the Pentagon" },
-              { id: "b", text: "Crashed in Pennsylvania after passengers fought back" },
-              { id: "c", text: "Was shot down over the Atlantic" },
-              { id: "d", text: "Landed safely in Canada" },
+              { id: "a", text: "Crashed in Pennsylvania after passengers fought back" },
+              { id: "b", text: "Hit the Pentagon" },
+              { id: "c", text: "Landed safely in Canada" },
+              { id: "d", text: "Was shot down over the Atlantic" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -236,12 +236,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Banned all surveillance" },
-              { id: "b", text: "Expanded US government surveillance and security powers" },
+              { id: "a", text: "Declared war on Iraq" },
+              { id: "b", text: "Banned all surveillance" },
               { id: "c", text: "Created the Department of Homeland Security" },
-              { id: "d", text: "Declared war on Iraq" },
+              { id: "d", text: "Expanded US government surveillance and security powers" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -264,12 +264,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Capture Saddam Hussein" },
-              { id: "b", text: "Remove the Taliban and destroy al-Qaeda" },
-              { id: "c", text: "Seize Afghan oil fields" },
+              { id: "a", text: "Remove the Taliban and destroy al-Qaeda" },
+              { id: "b", text: "Seize Afghan oil fields" },
+              { id: "c", text: "Capture Saddam Hussein" },
               { id: "d", text: "Punish Pakistan" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -292,12 +292,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Under Geneva Convention protections" },
-              { id: "b", text: "In indefinite detention without trial" },
-              { id: "c", text: "Only until their trials in US courts" },
-              { id: "d", text: "As civilian refugees" },
+              { id: "a", text: "As civilian refugees" },
+              { id: "b", text: "Only until their trials in US courts" },
+              { id: "c", text: "In indefinite detention without trial" },
+              { id: "d", text: "Under Geneva Convention protections" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -473,12 +473,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Iraqi support for al-Qaeda" },
-              { id: "b", text: "Iraqi weapons of mass destruction" },
-              { id: "c", text: "Iraqi nuclear weapons" },
-              { id: "d", text: "Iraqi attacks on Israel" },
+              { id: "a", text: "Iraqi attacks on Israel" },
+              { id: "b", text: "Iraqi nuclear weapons" },
+              { id: "c", text: "Iraqi weapons of mass destruction" },
+              { id: "d", text: "Iraqi support for al-Qaeda" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -572,12 +572,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A UN-authorised peacekeeping mission" },
-              { id: "b", text: "A US-led invasion justified by claims of weapons of mass destruction" },
-              { id: "c", text: "An Iraqi invasion of Kuwait" },
-              { id: "d", text: "A NATO bombing campaign" },
+              { id: "a", text: "A US-led invasion justified by claims of weapons of mass destruction" },
+              { id: "b", text: "A NATO bombing campaign" },
+              { id: "c", text: "A UN-authorised peacekeeping mission" },
+              { id: "d", text: "An Iraqi invasion of Kuwait" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -600,12 +600,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Later proven accurate" },
-              { id: "b", text: "Shown to be false, undermining the war's legitimacy" },
+              { id: "a", text: "Shown to be false, undermining the war's legitimacy" },
+              { id: "b", text: "Later proven accurate" },
               { id: "c", text: "Irrelevant because the UN approved the war" },
               { id: "d", text: "Based on Iraqi nuclear tests" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -628,10 +628,10 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "2003" },
+              { id: "a", text: "2017" },
               { id: "b", text: "2011" },
               { id: "c", text: "2014" },
-              { id: "d", text: "2017" },
+              { id: "d", text: "2003" },
             ],
             correctChoiceId: "c",
           },
@@ -656,12 +656,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The Kurds of Iraq" },
-              { id: "b", text: "The Yazidis" },
-              { id: "c", text: "The Armenians of Syria" },
+              { id: "a", text: "The Armenians of Syria" },
+              { id: "b", text: "The Kurds of Iraq" },
+              { id: "c", text: "The Yazidis" },
               { id: "d", text: "The Druze of Lebanon" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -684,8 +684,8 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "2014" },
-              { id: "b", text: "2017" },
+              { id: "a", text: "2017" },
+              { id: "b", text: "2014" },
               { id: "c", text: "2021" },
               { id: "d", text: "2001" },
             ],
@@ -712,9 +712,9 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "2001" },
-              { id: "b", text: "2003" },
-              { id: "c", text: "2008" },
+              { id: "a", text: "2003" },
+              { id: "b", text: "2008" },
+              { id: "c", text: "2001" },
               { id: "d", text: "2011" },
             ],
             correctChoiceId: "d",

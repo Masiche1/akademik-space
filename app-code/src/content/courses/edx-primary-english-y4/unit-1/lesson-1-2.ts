@@ -65,12 +65,12 @@ export const lesson102: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "its" },
-              { id: "b", text: "it's" },
+              { id: "a", text: "it's" },
+              { id: "b", text: "it is" },
               { id: "c", text: "its'" },
-              { id: "d", text: "it is" },
+              { id: "d", text: "its" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -99,10 +99,10 @@ export const lesson102: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Your" },
+              { id: "a", text: "U're" },
               { id: "b", text: "You're" },
-              { id: "c", text: "Yore" },
-              { id: "d", text: "U're" },
+              { id: "c", text: "Your" },
+              { id: "d", text: "Yore" },
             ],
             correctChoiceId: "b",
           },
@@ -240,12 +240,12 @@ export const lesson102: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "definately" },
-              { id: "b", text: "definitely" },
-              { id: "c", text: "definitly" },
-              { id: "d", text: "definitly" },
+              { id: "a", text: "definitly" },
+              { id: "b", text: "definitly" },
+              { id: "c", text: "definitely" },
+              { id: "d", text: "definately" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -268,10 +268,10 @@ export const lesson102: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "seperate" },
+              { id: "a", text: "separete" },
               { id: "b", text: "separate" },
               { id: "c", text: "seprate" },
-              { id: "d", text: "separete" },
+              { id: "d", text: "seperate" },
             ],
             correctChoiceId: "b",
           },

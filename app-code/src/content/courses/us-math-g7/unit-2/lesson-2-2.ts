@@ -52,12 +52,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$6x-5$" },
+              { id: "a", text: "$5x-8$" },
               { id: "b", text: "$6x+15$" },
-              { id: "c", text: "$6x-15$" },
-              { id: "d", text: "$5x-8$" },
+              { id: "c", text: "$6x-5$" },
+              { id: "d", text: "$6x-15$" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -200,12 +200,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\$6$" },
-              { id: "b", text: "$\\$12$" },
+              { id: "a", text: "$\\$12$" },
+              { id: "b", text: "$\\$6$" },
               { id: "c", text: "$\\$30$" },
               { id: "d", text: "$\\$120$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

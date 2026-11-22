@@ -55,12 +55,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Only the plot summary" },
-              { id: "b", text: "A consistent set of criteria applied to both plays" },
+              { id: "a", text: "The theatre's address" },
+              { id: "b", text: "Only the plot summary" },
               { id: "c", text: "The actors' names" },
-              { id: "d", text: "The theatre's address" },
+              { id: "d", text: "A consistent set of criteria applied to both plays" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -162,12 +162,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Because criteria make the essay longer" },
-              { id: "b", text: "Because consistent criteria make the comparison fair and balanced" },
+              { id: "a", text: "Because consistent criteria make the comparison fair and balanced" },
+              { id: "b", text: "Because criteria make the essay longer" },
               { id: "c", text: "Because both plays necessarily share a theme" },
               { id: "d", text: "Because it is quicker to write" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -212,12 +212,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Analytical" },
-              { id: "b", text: "Descriptive" },
-              { id: "c", text: "Evaluative" },
-              { id: "d", text: "Contextual" },
+              { id: "a", text: "Evaluative" },
+              { id: "b", text: "Contextual" },
+              { id: "c", text: "Analytical" },
+              { id: "d", text: "Descriptive" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -263,8 +263,8 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Play A uses more descriptive adjectives than Play B" },
-              { id: "b", text: "Both plays are set indoors" },
+              { id: "a", text: "Both plays are set indoors" },
+              { id: "b", text: "Play A uses more descriptive adjectives than Play B" },
               { id: "c", text: "Play A treats betrayal as fate while Play B treats it as choice, revealing different worldviews" },
               { id: "d", text: "Play B has more scenes than Play A" },
             ],
@@ -320,11 +320,11 @@ export const lesson41: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "The critic's final verdict" },
-              { id: "b", text: "A standard applied consistently to both plays" },
+              { id: "b", text: "The theatre's seating plan" },
               { id: "c", text: "The play's title" },
-              { id: "d", text: "The theatre's seating plan" },
+              { id: "d", text: "A standard applied consistently to both plays" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -377,12 +377,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Selecting only evidence that supports a preferred conclusion" },
-              { id: "b", text: "Comparing every detail of both plays equally" },
-              { id: "c", text: "Ignoring both texts completely" },
-              { id: "d", text: "Using too many criteria at once" },
+              { id: "a", text: "Using too many criteria at once" },
+              { id: "b", text: "Ignoring both texts completely" },
+              { id: "c", text: "Comparing every detail of both plays equally" },
+              { id: "d", text: "Selecting only evidence that supports a preferred conclusion" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -435,12 +435,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Declare one play superior to the other" },
-              { id: "b", text: "Weigh evidence and acknowledge the limits of the comparison" },
-              { id: "c", text: "Avoid making any judgement at all" },
-              { id: "d", text: "List every difference without ranking them" },
+              { id: "a", text: "Avoid making any judgement at all" },
+              { id: "b", text: "List every difference without ranking them" },
+              { id: "c", text: "Declare one play superior to the other" },
+              { id: "d", text: "Weigh evidence and acknowledge the limits of the comparison" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -528,8 +528,8 @@ export const lesson41: Lesson = {
             choices: [
               { id: "a", text: "Is easiest to describe" },
               { id: "b", text: "Reveals something meaningful about intention, context or innovation" },
-              { id: "c", text: "Is the most dramatic" },
-              { id: "d", text: "Appears first in the text" },
+              { id: "c", text: "Appears first in the text" },
+              { id: "d", text: "Is the most dramatic" },
             ],
             correctChoiceId: "b",
           },
@@ -633,10 +633,10 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Is easiest to spot" },
+              { id: "a", text: "Is the most recent addition" },
               { id: "b", text: "Reveals a shared concern, influence or meaningful connection" },
-              { id: "c", text: "Appears in both titles" },
-              { id: "d", text: "Is the most recent addition" },
+              { id: "c", text: "Is easiest to spot" },
+              { id: "d", text: "Appears in both titles" },
             ],
             correctChoiceId: "b",
           },
@@ -683,12 +683,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Which play is longer?" },
-              { id: "b", text: "How does each era's context reframe the theme's meaning?" },
+              { id: "a", text: "How does each era's context reframe the theme's meaning?" },
+              { id: "b", text: "Which play is longer?" },
               { id: "c", text: "Which play has more characters?" },
               { id: "d", text: "Which theatre staged it first?" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -734,12 +734,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Critics are always uncertain people" },
-              { id: "b", text: "The chosen criteria and available evidence are selected and open to interpretation" },
+              { id: "a", text: "It makes the essay shorter" },
+              { id: "b", text: "Critics are always uncertain people" },
               { id: "c", text: "Plays are never fully understood" },
-              { id: "d", text: "It makes the essay shorter" },
+              { id: "d", text: "The chosen criteria and available evidence are selected and open to interpretation" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -790,9 +790,9 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "How large or dramatic the difference appears" },
+              { id: "a", text: "Which play is more famous" },
               { id: "b", text: "What the difference reveals about intention, context or innovation" },
-              { id: "c", text: "Which play is more famous" },
+              { id: "c", text: "How large or dramatic the difference appears" },
               { id: "d", text: "How many pages the difference spans" },
             ],
             correctChoiceId: "b",
@@ -848,12 +848,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Two plays with identical plots set in the same city" },
-              { id: "b", text: "Two plays sharing a theme but written in different eras and genres" },
-              { id: "c", text: "Two plays with no shared subject at all" },
-              { id: "d", text: "Two plays by the same playwright with identical themes" },
+              { id: "a", text: "Two plays with no shared subject at all" },
+              { id: "b", text: "Two plays by the same playwright with identical themes" },
+              { id: "c", text: "Two plays sharing a theme but written in different eras and genres" },
+              { id: "d", text: "Two plays with identical plots set in the same city" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -906,12 +906,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Whichever is easier to describe" },
-              { id: "b", text: "Whichever reveals more about intention, context or innovation" },
-              { id: "c", text: "Always the similarities" },
+              { id: "a", text: "Whichever reveals more about intention, context or innovation" },
+              { id: "b", text: "Always the similarities" },
+              { id: "c", text: "Whichever is easier to describe" },
               { id: "d", text: "Always the differences" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

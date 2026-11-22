@@ -55,12 +55,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "goed" },
-              { id: "b", text: "went" },
+              { id: "a", text: "went" },
+              { id: "b", text: "goed" },
               { id: "c", text: "gone" },
               { id: "d", text: "going" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -152,12 +152,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "eated" },
-              { id: "b", text: "ate" },
+              { id: "a", text: "ate" },
+              { id: "b", text: "eated" },
               { id: "c", text: "eaten" },
               { id: "d", text: "eating" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -180,11 +180,11 @@ export const lesson23: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "I play football every day." },
-              { id: "b", text: "I played football yesterday." },
-              { id: "c", text: "I am playing football now." },
-              { id: "d", text: "I will play football tomorrow." },
+              { id: "b", text: "I am playing football now." },
+              { id: "c", text: "I will play football tomorrow." },
+              { id: "d", text: "I played football yesterday." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -206,9 +206,9 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Did you went to school?" },
+              { id: "a", text: "Do you went to school?" },
               { id: "b", text: "Did you go to school?" },
-              { id: "c", text: "Do you went to school?" },
+              { id: "c", text: "Did you went to school?" },
               { id: "d", text: "You did go to school?" },
             ],
             correctChoiceId: "b",
@@ -338,12 +338,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "tomorrow" },
-              { id: "b", text: "yesterday" },
-              { id: "c", text: "next week" },
+              { id: "a", text: "yesterday" },
+              { id: "b", text: "next week" },
+              { id: "c", text: "tomorrow" },
               { id: "d", text: "every day" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -396,12 +396,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "I didn't went to the party." },
-              { id: "b", text: "I didn't go to the party." },
+              { id: "a", text: "I didn't go to the party." },
+              { id: "b", text: "I not went to the party." },
               { id: "c", text: "I didn't goes to the party." },
-              { id: "d", text: "I not went to the party." },
+              { id: "d", text: "I didn't went to the party." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -514,8 +514,8 @@ export const lesson23: Lesson = {
             choices: [
               { id: "a", text: "I going to visit my aunt." },
               { id: "b", text: "I am going to visit my aunt." },
-              { id: "c", text: "I going to visited my aunt." },
-              { id: "d", text: "I am going visit my aunt." },
+              { id: "c", text: "I am going visit my aunt." },
+              { id: "d", text: "I going to visited my aunt." },
             ],
             correctChoiceId: "b",
           },
@@ -609,12 +609,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "I going to visit my grandma." },
-              { id: "b", text: "I am going to visit my grandma." },
-              { id: "c", text: "I going to visited my grandma." },
-              { id: "d", text: "I am going visit my grandma." },
+              { id: "a", text: "I going to visited my grandma." },
+              { id: "b", text: "I am going visit my grandma." },
+              { id: "c", text: "I going to visit my grandma." },
+              { id: "d", text: "I am going to visit my grandma." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -636,12 +636,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "They mean exactly the same thing" },
-              { id: "b", text: "'Going to' = a plan; 'will' = a quick decision or prediction" },
+              { id: "a", text: "'Going to' = a plan; 'will' = a quick decision or prediction" },
+              { id: "b", text: "'Will' is only for hobbies" },
               { id: "c", text: "'Going to' is only for the past" },
-              { id: "d", text: "'Will' is only for hobbies" },
+              { id: "d", text: "They mean exactly the same thing" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -663,12 +663,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "She are going to study tonight." },
-              { id: "b", text: "She is going to study tonight." },
+              { id: "a", text: "She is going to study tonight." },
+              { id: "b", text: "She are going to study tonight." },
               { id: "c", text: "She am going to study tonight." },
               { id: "d", text: "She going to study tonight." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -796,11 +796,11 @@ export const lesson23: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "You are going to come?" },
-              { id: "b", text: "Are you going to come?" },
-              { id: "c", text: "Going to you come?" },
-              { id: "d", text: "Are going you to come?" },
+              { id: "b", text: "Are going you to come?" },
+              { id: "c", text: "Are you going to come?" },
+              { id: "d", text: "Going to you come?" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -853,12 +853,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "I am going to go alone." },
-              { id: "b", text: "Let's play football together." },
-              { id: "c", text: "You must do it yourself." },
-              { id: "d", text: "Never mind, forget it." },
+              { id: "a", text: "Never mind, forget it." },
+              { id: "b", text: "You must do it yourself." },
+              { id: "c", text: "Let's play football together." },
+              { id: "d", text: "I am going to go alone." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

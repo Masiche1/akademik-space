@@ -54,12 +54,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$3$" },
-              { id: "b", text: "$6$" },
-              { id: "c", text: "$\\frac{1}{3}$" },
-              { id: "d", text: "$4$" },
+              { id: "a", text: "$4$" },
+              { id: "b", text: "$\\frac{1}{3}$" },
+              { id: "c", text: "$3$" },
+              { id: "d", text: "$6$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -142,6 +142,305 @@ export const lesson31: Lesson = {
             examinerNote: "Part (d) is a 'show that' — the substitution must be shown.",
           },
         },
+        {
+          id: "ciem-u3-gradient-equation-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Find the gradient of the line $y=5x-2$.",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$\\frac{1}{5}$" },
+              { id: "b", text: "0" },
+              { id: "c", text: "$-2$" },
+              { id: "d", text: "5" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              { kind: "definition", name: "Gradient", statement: "In $y=mx+c$, $m$ is the gradient." },
+            ],
+            steps: [
+              { reasoning: "Read off the coefficient of $x$.", working: "m=5", marks: 1, markCode: "M" },
+            ],
+            finalAnswer: "**(b)** $m=5$",
+            commonErrors: ["Reading the constant term $-2$ as the gradient.", "Taking the reciprocal to get $\\frac{1}{5}$."],
+          },
+        },
+        {
+          id: "ciem-u3-gradient-equation-q6",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Find the $y$-intercept of the line $y=3x+7$.",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "7" },
+              { id: "b", text: "3" },
+              { id: "c", text: "$(7,0)$" },
+              { id: "d", text: "$(0,3)$" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              { kind: "definition", name: "y-intercept", statement: "In $y=mx+c$, $c$ is the value of $y$ when $x=0$ — the $y$-intercept." },
+            ],
+            steps: [
+              { reasoning: "Set $x=0$: $y=3(0)+7=7$; the intercept value is $c=7$.", working: "c=7", marks: 1, markCode: "M" },
+            ],
+            finalAnswer: "**(b)** $7$",
+            commonErrors: ["Confusing the gradient 3 with the intercept.", "Giving the point $(0,7)$ when asked for the value."],
+          },
+        },
+        {
+          id: "ciem-u3-gradient-equation-q7",
+          difficulty: "challenge",
+          totalMarks: 1,
+          stem: "Find the gradient of the line $2x+3y=12$.",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$\\frac{2}{3}$" },
+              { id: "b", text: "$-6$" },
+              { id: "c", text: "$-\\frac{2}{3}$" },
+              { id: "d", text: "$-\\frac{3}{2}$" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              { kind: "technique", name: "Gradient from general form", statement: "Rearrange $ax+by=c$ into $y=mx+c$ to read the gradient $m=-\\frac{a}{b}$." },
+            ],
+            steps: [
+              { reasoning: "Rearrange: $3y=12-2x$, so $y=-\\frac{2}{3}x+4$.", working: "m=-\\frac{2}{3}", marks: 1, markCode: "M" },
+            ],
+            finalAnswer: "**(a)** $m=-\\frac{2}{3}$",
+            commonErrors: ["Writing $m=-\\frac{3}{2}$ by inverting the fraction.", "Forgetting the negative sign."],
+          },
+        },
+        {
+          id: "ciem-u3-gradient-equation-q8",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "The line $y=4x-3$ passes through a point. Find the value of $y$ when $x=-1$. Enter the value.",
+          response: { type: "numeric", parts: [{ label: "y", answer: -7 }] },
+          markscheme: {
+            principles: [
+              { kind: "technique", name: "Evaluating a linear function", statement: "Substitute the $x$-value into $y=mx+c$." },
+            ],
+            steps: [
+              { reasoning: "Substitute $x=-1$.", working: "y=4(-1)-3", marks: 1, markCode: "M" },
+              { reasoning: "Evaluate, taking care with the negative.", working: "=-4-3=-7", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$y=-7$",
+            commonErrors: ["Computing $4(-1)-3=-1$ by sign error.", "Writing $y=4(-1)+3=-1$."],
+          },
+        },
+        {
+          id: "ciem-u3-gradient-equation-q9",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "Find the equation of the line that passes through $(0,5)$ and has gradient $-2$. Give your answer in the form $y=mx+c$.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "formula", name: "Point-gradient form", statement: "$y-y_1=m(x-x_1)$" },
+            ],
+            steps: [
+              { reasoning: "Substitute $m=-2$ and the point $(0,5)$ into point-gradient form.", working: "y-5=-2(x-0)", marks: 1, markCode: "M" },
+              { reasoning: "Simplify.", working: "y=-2x+5", marks: 1, markCode: "M" },
+              { reasoning: "State the equation.", working: "y=-2x+5", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$y=-2x+5$",
+            commonErrors: ["Writing $y=-2x-5$ — sign error on the constant.", "Using $y=mx+c$ and forgetting to use the point to find $c$."],
+          },
+        },
+        {
+          id: "ciem-u3-gradient-equation-q10",
+          difficulty: "challenge",
+          totalMarks: 3,
+          stem: "Find the equation of the line that passes through $(-2,1)$ and $(2,9)$. Give your answer in the form $y=mx+c$.",
+          response: {
+            type: "numeric",
+            parts: [
+              { label: "Gradient m", answer: 2 },
+              { label: "Intercept c", answer: 5 },
+            ],
+          },
+          markscheme: {
+            principles: [
+              { kind: "formula", name: "Gradient", statement: "$m=\\frac{y_2-y_1}{x_2-x_1}$" },
+              { kind: "formula", name: "Point-gradient form", statement: "$y-y_1=m(x-x_1)$" },
+            ],
+            steps: [
+              { reasoning: "Compute the gradient.", working: "m=\\frac{9-1}{2-(-2)}=\\frac{8}{4}=2", marks: 1, markCode: "M" },
+              { reasoning: "Substitute a point to find $c$.", working: "1=2(-2)+c\\Rightarrow c=5", marks: 1, markCode: "M" },
+              { reasoning: "State $m$ and $c$.", working: "y=2x+5", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$y=2x+5$ ($m=2$, $c=5$)",
+            commonErrors: ["Gradient sign error: $\\frac{9-1}{-2-2}$ gives $-2$.", "Using only one point and guessing $c$."],
+          },
+        },
+        {
+          id: "ciem-u3-gradient-equation-q11",
+          difficulty: "challenge",
+          totalMarks: 9,
+          stem: "The line $L$ passes through the points $P(2,-1)$ and $Q(6,3)$.",
+          parts: [
+            { label: "a", prompt: "Find the gradient of $L$.", marks: 2 },
+            { label: "b", prompt: "Find the equation of $L$ in the form $y=mx+c$.", marks: 3 },
+            { label: "c", prompt: "Write down the coordinates of the point where $L$ crosses the $x$-axis.", marks: 2 },
+            { label: "d", prompt: "Show that the point $(4,1)$ lies on $L$.", marks: 2 },
+          ],
+          response: {
+            type: "numeric",
+            parts: [
+              { label: "(c) x-intercept", answer: 3 },
+              { label: "(d) check", answer: 1 },
+            ],
+          },
+          markscheme: {
+            principles: [
+              { kind: "formula", name: "Gradient", statement: "$m=\\frac{y_2-y_1}{x_2-x_1}$" },
+              { kind: "formula", name: "Point-gradient form", statement: "$y-y_1=m(x-x_1)$" },
+            ],
+            steps: [
+              { part: "a", reasoning: "Apply the gradient formula.", working: "m=\\frac{3-(-1)}{6-2}=\\frac{4}{4}=1", marks: 1, markCode: "M" },
+              { part: "a", reasoning: "State the gradient.", working: "m=1", marks: 1, markCode: "A" },
+              { part: "b", reasoning: "Use point-gradient form with $P$.", working: "y-(-1)=1(x-2)", marks: 1, markCode: "M" },
+              { part: "b", reasoning: "Simplify to $y=mx+c$.", working: "y=x-3", marks: 1, markCode: "M" },
+              { part: "b", reasoning: "State the equation.", working: "y=x-3", marks: 1, markCode: "A" },
+              { part: "c", reasoning: "Set $y=0$ and solve for $x$.", working: "0=x-3\\Rightarrow x=3", marks: 1, markCode: "M" },
+              { part: "c", reasoning: "State the intercept.", working: "(3,0)", marks: 1, markCode: "A" },
+              { part: "d", reasoning: "Substitute $x=4$ into the equation.", working: "y=4-3=1", marks: 1, markCode: "M" },
+              { part: "d", reasoning: "Since $y=1$ matches, the point lies on $L$.", working: "(4,1)\\text{ satisfies }y=x-3", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "(a) $m=1$ (b) $y=x-3$ (c) $(3,0)$ (d) shown",
+            commonErrors: ["In (c) setting $x=0$ instead of $y=0$.", "In (d) only checking one coordinate."],
+          },
+        },
+        {
+          id: "ciem-u3-gradient-equation-q12",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "Explain what the gradient of a straight line represents, and how it is calculated from two points.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "definition", name: "Gradient", statement: "The gradient measures steepness: change in $y$ per unit change in $x$." },
+            ],
+            steps: [
+              { reasoning: "Gradient is the ratio of vertical change to horizontal change between two points.", marks: 1, markCode: "M" },
+              { reasoning: "For points $(x_1,y_1)$ and $(x_2,y_2)$, $m=\\frac{y_2-y_1}{x_2-x_1}$.", marks: 1, markCode: "M" },
+              { reasoning: "A larger $|m|$ means a steeper line; negative $m$ means the line slopes downwards.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "Gradient = $\\frac{\\text{rise}}{\\text{run}}=\\frac{y_2-y_1}{x_2-x_1}$, measuring steepness.",
+            commonErrors: ["Reversing the formula to $\\frac{x_2-x_1}{y_2-y_1}$."],
+          },
+        },
+        {
+          id: "ciem-u3-gradient-equation-q13",
+          difficulty: "core",
+          totalMarks: 4,
+          stem: "Find the equation of the line that passes through $(4,1)$ and is perpendicular to $y=2x+1$. Give your answer in the form $y=mx+c$.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "law", name: "Perpendicular gradients", statement: "$m_1\\times m_2=-1$; perpendicular to $m=2$ means $m=-\\frac{1}{2}$." },
+              { kind: "formula", name: "Point-gradient form", statement: "$y-y_1=m(x-x_1)$" },
+            ],
+            steps: [
+              { reasoning: "The given line has gradient 2, so the perpendicular gradient is $-\\frac{1}{2}$.", working: "m=-\\frac{1}{2}", marks: 1, markCode: "M" },
+              { reasoning: "Substitute the point and gradient.", working: "y-1=-\\frac{1}{2}(x-4)", marks: 1, markCode: "M" },
+              { reasoning: "Expand and rearrange.", working: "y=-\\frac{1}{2}x+3", marks: 1, markCode: "M" },
+              { reasoning: "State the equation.", working: "y=-\\frac{1}{2}x+3", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$y=-\\frac{1}{2}x+3$",
+            commonErrors: ["Using $m=2$ or $m=-2$ instead of the negative reciprocal $-\\frac{1}{2}$."],
+          },
+        },
+        {
+          id: "ciem-u3-gradient-equation-q14",
+          difficulty: "challenge",
+          totalMarks: 6,
+          stem: "Line $L_1$ has equation $y=3x-2$. Line $L_2$ passes through $(0,4)$.",
+          parts: [
+            { label: "a", prompt: "Find the gradient of $L_1$.", marks: 1 },
+            { label: "b", prompt: "Given that $L_1$ and $L_2$ are parallel, find the gradient of $L_2$.", marks: 1 },
+            { label: "c", prompt: "Find the equation of $L_2$ in the form $y=mx+c$.", marks: 2 },
+            { label: "d", prompt: "Explain whether $L_1$ and $L_2$ intersect.", marks: 2 },
+          ],
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "law", name: "Parallel lines", statement: "Parallel lines have the same gradient." },
+            ],
+            steps: [
+              { part: "a", reasoning: "Read off the coefficient of $x$.", working: "m=3", marks: 1, markCode: "M" },
+              { part: "b", reasoning: "Parallel lines share the same gradient.", working: "m=3", marks: 1, markCode: "M" },
+              { part: "c", reasoning: "Use $y=mx+c$ with the point $(0,4)$.", working: "4=3(0)+c\\Rightarrow c=4", marks: 1, markCode: "M" },
+              { part: "c", reasoning: "State the equation.", working: "y=3x+4", marks: 1, markCode: "A" },
+              { part: "d", reasoning: "Same gradient but different intercepts means the lines never meet.", working: "3x-2\\ne3x+4", marks: 1, markCode: "M" },
+              { part: "d", reasoning: "Conclude they are parallel and do not intersect.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "(a) $m=3$ (b) $m=3$ (c) $y=3x+4$ (d) no — parallel lines do not intersect",
+            commonErrors: ["In (c) using the gradient of $L_1$ but the intercept of $L_1$.", "Claiming the lines intersect at $(0,4)$."],
+          },
+        },
+        {
+          id: "ciem-u3-gradient-equation-q15",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "What is the gradient of the line $y=-4x+9$?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "4" },
+              { id: "b", text: "$-\\frac{1}{4}$" },
+              { id: "c", text: "$-4$" },
+              { id: "d", text: "$9$" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              { kind: "definition", name: "Gradient", statement: "In $y=mx+c$, $m$ is the gradient." },
+            ],
+            steps: [
+              { reasoning: "Read off the coefficient of $x$, including its sign.", working: "m=-4", marks: 1, markCode: "M" },
+            ],
+            finalAnswer: "**(b)** $m=-4$",
+            commonErrors: ["Dropping the negative sign to get 4."],
+          },
+        },
+        {
+          id: "ciem-u3-gradient-equation-q16",
+          difficulty: "challenge",
+          totalMarks: 1,
+          stem: "The line $y=mx+c$ passes through $(1,5)$ and $(3,11)$. What is the value of $c$?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "5" },
+              { id: "b", text: "8" },
+              { id: "c", text: "3" },
+              { id: "d", text: "2" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              { kind: "formula", name: "Gradient", statement: "$m=\\frac{y_2-y_1}{x_2-x_1}$" },
+            ],
+            steps: [
+              { reasoning: "$m=\\frac{11-5}{3-1}=3$; then $5=3(1)+c$ gives $c=2$.", working: "c=2", marks: 1, markCode: "M" },
+            ],
+            finalAnswer: "**(a)** $c=2$",
+            commonErrors: ["Using $c=5$ — confusing the $y$-value with the intercept."],
+          },
+        },
       ],
     },
     {
@@ -183,12 +482,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$-\\frac{1}{3}$" },
-              { id: "b", text: "$\\frac{1}{3}$" },
-              { id: "c", text: "$-3$" },
-              { id: "d", text: "$3$" },
+              { id: "a", text: "$3$" },
+              { id: "b", text: "$-\\frac{1}{3}$" },
+              { id: "c", text: "$\\frac{1}{3}$" },
+              { id: "d", text: "$-3$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -274,6 +573,303 @@ export const lesson31: Lesson = {
             finalAnswer: "(a) $(5,7)$ (b) $m_{AB}=1$, perpendicular gradient $=-1$ (c) $y=-x+12$",
             commonErrors: ["Using the same gradient for the perpendicular bisector.", "Using point $A$ or $B$ instead of the midpoint."],
             examinerNote: "The perpendicular bisector must pass through the midpoint — check $y=-x+12$ gives 7 when $x=5$.",
+          },
+        },
+        {
+          id: "ciem-u3-parallel-perpendicular-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "What is the gradient of a line parallel to $y=-2x+3$?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "2" },
+              { id: "b", text: "$-\\frac{1}{2}$" },
+              { id: "c", text: "$\\frac{1}{2}$" },
+              { id: "d", text: "$-2$" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              { kind: "law", name: "Parallel lines", statement: "Parallel lines have the same gradient." },
+            ],
+            steps: [
+              { reasoning: "Parallel lines share the gradient $m=-2$.", working: "m=-2", marks: 1, markCode: "M" },
+            ],
+            finalAnswer: "**(b)** $m=-2$",
+            commonErrors: ["Taking the negative reciprocal — that gives the perpendicular gradient."],
+          },
+        },
+        {
+          id: "ciem-u3-parallel-perpendicular-q6",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "What is the gradient of a line perpendicular to $y=4x-1$?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$-4$" },
+              { id: "b", text: "4" },
+              { id: "c", text: "$-\\frac{1}{4}$" },
+              { id: "d", text: "$\\frac{1}{4}$" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              { kind: "law", name: "Perpendicular lines", statement: "$m_1\\times m_2=-1$; the perpendicular gradient is the negative reciprocal." },
+            ],
+            steps: [
+              { reasoning: "Negative reciprocal of 4 is $-\\frac{1}{4}$.", working: "m=-\\frac{1}{4}", marks: 1, markCode: "M" },
+            ],
+            finalAnswer: "**(c)** $m=-\\frac{1}{4}$",
+            commonErrors: ["Writing $m=\\frac{1}{4}$ and forgetting the negative sign."],
+          },
+        },
+        {
+          id: "ciem-u3-parallel-perpendicular-q7",
+          difficulty: "challenge",
+          totalMarks: 1,
+          stem: "Are the lines $y=2x+1$ and $y=2x-5$ parallel, perpendicular, or neither?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Parallel" },
+              { id: "b", text: "Neither" },
+              { id: "c", text: "Perpendicular" },
+              { id: "d", text: "Identical" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              { kind: "law", name: "Parallel lines", statement: "Lines with equal gradients are parallel (or identical if intercepts also match)." },
+            ],
+            steps: [
+              { reasoning: "Both gradients are 2; the intercepts differ ($1$ vs $-5$), so they are distinct parallel lines.", working: "m_1=m_2=2", marks: 1, markCode: "M" },
+            ],
+            finalAnswer: "**(b)** Parallel",
+            commonErrors: ["Calling them identical — the intercepts differ."],
+          },
+        },
+        {
+          id: "ciem-u3-parallel-perpendicular-q8",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "Find the midpoint of the line segment joining $(1,3)$ and $(5,7)$. Enter the $x$-coordinate and the $y$-coordinate.",
+          response: { type: "numeric", parts: [{ label: "x", answer: 3 }, { label: "y", answer: 5 }] },
+          markscheme: {
+            principles: [
+              { kind: "formula", name: "Midpoint", statement: "$M=\\left(\\frac{x_1+x_2}{2},\\frac{y_1+y_2}{2}\\right)$" },
+            ],
+            steps: [
+              { reasoning: "Average the coordinates.", working: "\\left(\\frac{1+5}{2},\\frac{3+7}{2}\\right)=(3,5)", marks: 1, markCode: "M" },
+              { reasoning: "State both coordinates.", working: "(3,5)", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$(3,5)$",
+            commonErrors: ["Adding without dividing by 2.", "Swapping coordinates."],
+          },
+        },
+        {
+          id: "ciem-u3-parallel-perpendicular-q9",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "Find the length of the line segment joining $(1,1)$ and $(4,5)$. Enter the length.",
+          response: { type: "numeric", parts: [{ label: "Length", answer: 5 }] },
+          markscheme: {
+            principles: [
+              { kind: "formula", name: "Distance formula", statement: "$d=\\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}$" },
+            ],
+            steps: [
+              { reasoning: "Compute the differences: $\\Delta x=3$, $\\Delta y=4$.", working: "\\sqrt{3^2+4^2}", marks: 1, markCode: "M" },
+              { reasoning: "Apply Pythagoras inside the root.", working: "=\\sqrt{9+16}=\\sqrt{25}", marks: 1, markCode: "M" },
+              { reasoning: "Evaluate.", working: "=5", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$5$",
+            commonErrors: ["Writing $\\sqrt{3^2+4^2}=3+4=7$.", "Forgetting to square the differences."],
+          },
+        },
+        {
+          id: "ciem-u3-parallel-perpendicular-q10",
+          difficulty: "challenge",
+          totalMarks: 3,
+          stem: "Find the length of the line segment joining $(2,-1)$ and $(6,3)$. Enter the length, giving your answer to 2 decimal places if necessary.",
+          response: { type: "numeric", parts: [{ label: "Length", answer: 5.66, tolerance: 0.01 }] },
+          markscheme: {
+            principles: [
+              { kind: "formula", name: "Distance formula", statement: "$d=\\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}$" },
+            ],
+            steps: [
+              { reasoning: "Compute the differences: $\\Delta x=4$, $\\Delta y=4$.", working: "\\sqrt{4^2+4^2}", marks: 1, markCode: "M" },
+              { reasoning: "Evaluate the root.", working: "=\\sqrt{32}=4\\sqrt{2}\\approx5.66", marks: 1, markCode: "M" },
+              { reasoning: "State the rounded value.", working: "5.66", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$4\\sqrt{2}\\approx5.66$",
+            commonErrors: ["Writing $\\sqrt{32}=16$ by halving instead of rooting.", "Computing $\\Delta y$ as $3-(-1)=2$."],
+          },
+        },
+        {
+          id: "ciem-u3-parallel-perpendicular-q11",
+          difficulty: "challenge",
+          totalMarks: 9,
+          stem: "The points $A(0,0)$, $B(6,0)$ and $C(3,4)$ are the vertices of a triangle.",
+          parts: [
+            { label: "a", prompt: "Find the midpoint of $AB$.", marks: 2 },
+            { label: "b", prompt: "Find the midpoint of $BC$.", marks: 2 },
+            { label: "c", prompt: "Find the length of $AC$.", marks: 2 },
+            { label: "d", prompt: "Find the area of triangle $ABC$.", marks: 3 },
+          ],
+          response: {
+            type: "numeric",
+            parts: [
+              { label: "(a) midpoint x", answer: 3 },
+              { label: "(a) midpoint y", answer: 0 },
+              { label: "(b) midpoint x", answer: 4.5 },
+              { label: "(b) midpoint y", answer: 2 },
+              { label: "(c) length AC", answer: 5 },
+              { label: "(d) area", answer: 12, unit: "square units" },
+            ],
+          },
+          markscheme: {
+            principles: [
+              { kind: "formula", name: "Midpoint", statement: "$M=\\left(\\frac{x_1+x_2}{2},\\frac{y_1+y_2}{2}\\right)$" },
+              { kind: "formula", name: "Distance formula", statement: "$d=\\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}$" },
+            ],
+            steps: [
+              { part: "a", reasoning: "Average the coordinates of $A$ and $B$.", working: "\\left(\\frac{0+6}{2},\\frac{0+0}{2}\\right)=(3,0)", marks: 1, markCode: "M" },
+              { part: "a", reasoning: "State the midpoint.", working: "(3,0)", marks: 1, markCode: "A" },
+              { part: "b", reasoning: "Average the coordinates of $B$ and $C$.", working: "\\left(\\frac{6+3}{2},\\frac{0+4}{2}\\right)=(4.5,2)", marks: 1, markCode: "M" },
+              { part: "b", reasoning: "State the midpoint.", working: "(4.5,2)", marks: 1, markCode: "A" },
+              { part: "c", reasoning: "Apply the distance formula to $A$ and $C$.", working: "AC=\\sqrt{3^2+4^2}=\\sqrt{25}", marks: 1, markCode: "M" },
+              { part: "c", reasoning: "Evaluate.", working: "=5", marks: 1, markCode: "A" },
+              { part: "d", reasoning: "Take $AB$ as the base: length 6, height is the $y$-coordinate of $C$.", working: "\\text{base}=6,\\ \\text{height}=4", marks: 1, markCode: "M" },
+              { part: "d", reasoning: "Apply $\\frac{1}{2}\\times\\text{base}\\times\\text{height}$.", working: "A=\\frac{1}{2}\\times6\\times4", marks: 1, markCode: "M" },
+              { part: "d", reasoning: "Evaluate and state.", working: "=12\\text{ square units}", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "(a) $(3,0)$ (b) $(4.5,2)$ (c) $5$ (d) $12$ square units",
+            commonErrors: ["In (d) using $AC$ as base without finding the corresponding height.", "In (c) computing $\\sqrt{3+4}=\\sqrt{7}$."],
+          },
+        },
+        {
+          id: "ciem-u3-parallel-perpendicular-q12",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "Explain why two parallel lines have the same gradient.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "law", name: "Parallel lines", statement: "Parallel lines never meet, so they have identical steepness." },
+            ],
+            steps: [
+              { reasoning: "Parallel lines have the same direction — neither rises faster than the other.", marks: 1, markCode: "M" },
+              { reasoning: "Gradient measures steepness ($\\frac{\\text{rise}}{\\text{run}}$), so equal steepness means equal gradient.", marks: 1, markCode: "M" },
+              { reasoning: "Conclude equal gradients; only the intercept $c$ differs.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "Parallel lines have the same steepness, hence the same gradient.",
+            commonErrors: ["Claiming parallel lines have gradient 0 — only horizontal lines do."],
+          },
+        },
+        {
+          id: "ciem-u3-parallel-perpendicular-q13",
+          difficulty: "core",
+          totalMarks: 4,
+          stem: "Find the equation of the line that passes through $(1,2)$ and is perpendicular to $y=3x+1$. Give your answer in the form $y=mx+c$.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "law", name: "Perpendicular lines", statement: "$m_1\\times m_2=-1$; perpendicular to $m=3$ means $m=-\\frac{1}{3}$." },
+              { kind: "formula", name: "Point-gradient form", statement: "$y-y_1=m(x-x_1)$" },
+            ],
+            steps: [
+              { reasoning: "Find the perpendicular gradient.", working: "m=-\\frac{1}{3}", marks: 1, markCode: "M" },
+              { reasoning: "Substitute the point.", working: "y-2=-\\frac{1}{3}(x-1)", marks: 1, markCode: "M" },
+              { reasoning: "Expand and simplify.", working: "y=-\\frac{1}{3}x+\\frac{7}{3}", marks: 1, markCode: "M" },
+              { reasoning: "State the equation.", working: "y=-\\frac{1}{3}x+\\frac{7}{3}", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$y=-\\frac{1}{3}x+\\frac{7}{3}$",
+            commonErrors: ["Using $m=-3$ instead of $-\\frac{1}{3}$."],
+          },
+        },
+        {
+          id: "ciem-u3-parallel-perpendicular-q14",
+          difficulty: "challenge",
+          totalMarks: 6,
+          stem: "The points $A(1,1)$ and $B(7,5)$ are joined by a line segment.",
+          parts: [
+            { label: "a", prompt: "Find the midpoint of $AB$.", marks: 2 },
+            { label: "b", prompt: "Find the gradient of $AB$.", marks: 1 },
+            { label: "c", prompt: "Find the gradient of the perpendicular bisector of $AB$.", marks: 1 },
+            { label: "d", prompt: "Find the equation of the perpendicular bisector of $AB$.", marks: 2 },
+          ],
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "formula", name: "Midpoint", statement: "$M=\\left(\\frac{x_1+x_2}{2},\\frac{y_1+y_2}{2}\\right)$" },
+              { kind: "law", name: "Perpendicular lines", statement: "$m_1\\times m_2=-1$." },
+            ],
+            steps: [
+              { part: "a", reasoning: "Average the coordinates.", working: "\\left(\\frac{1+7}{2},\\frac{1+5}{2}\\right)=(4,3)", marks: 1, markCode: "M" },
+              { part: "a", reasoning: "State the midpoint.", working: "(4,3)", marks: 1, markCode: "A" },
+              { part: "b", reasoning: "Apply the gradient formula.", working: "m=\\frac{5-1}{7-1}=\\frac{4}{6}=\\frac{2}{3}", marks: 1, markCode: "M" },
+              { part: "c", reasoning: "Negative reciprocal of $\\frac{2}{3}$.", working: "m=-\\frac{3}{2}", marks: 1, markCode: "M" },
+              { part: "d", reasoning: "Use point-gradient form through the midpoint $(4,3)$.", working: "y-3=-\\frac{3}{2}(x-4)", marks: 1, markCode: "M" },
+              { part: "d", reasoning: "Simplify to $y=mx+c$.", working: "y=-\\frac{3}{2}x+9", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "(a) $(4,3)$ (b) $m=\\frac{2}{3}$ (c) $m=-\\frac{3}{2}$ (d) $y=-\\frac{3}{2}x+9$",
+            commonErrors: ["Using the midpoint of $AB$ but the gradient of $AB$ for the bisector — gradients must be perpendicular.", "Sign error in the negative reciprocal."],
+          },
+        },
+        {
+          id: "ciem-u3-parallel-perpendicular-q15",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Two lines are perpendicular. One has gradient $5$. What is the gradient of the other line?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$-\\frac{1}{5}$" },
+              { id: "b", text: "$-5$" },
+              { id: "c", text: "$\\frac{1}{5}$" },
+              { id: "d", text: "5" },
+            ],
+            aorrectChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              { kind: "law", name: "Perpendicular lines", statement: "$m_1\\times m_2=-1$; the perpendicular gradient is the negative reciprocal." },
+            ],
+            steps: [
+              { reasoning: "Negative reciprocal of 5 is $-\\frac{1}{5}$; check $5\\times(-\\frac{1}{5})=-1$.", working: "m=-\\frac{1}{5}", marks: 1, markCode: "M" },
+            ],
+            finalAnswer: "**(c)** $m=-\\frac{1}{5}$",
+            commonErrors: ["Writing $m=\\frac{1}{5}$ without the negative sign."],
+          },
+        },
+        {
+          id: "ciem-u3-parallel-perpendicular-q16",
+          difficulty: "challenge",
+          totalMarks: 1,
+          stem: "The midpoint of a line segment is $(3,4)$ and one endpoint is $(1,2)$. What are the coordinates of the other endpoint?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$(4,5)$" },
+              { id: "b", text: "$(2,3)$" },
+              { id: "c", text: "$(5,4)$" },
+              { id: "d", text: "$(5,6)$" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              { kind: "formula", name: "Midpoint", statement: "$M=\\left(\\frac{x_1+x_2}{2},\\frac{y_1+y_2}{2}\\right)$; rearrange to find the missing endpoint." },
+            ],
+            steps: [
+              { reasoning: "$x_2=2\\times3-1=5$, $y_2=2\\times4-2=6$.", working: "(5,6)", marks: 1, markCode: "M" },
+            ],
+            finalAnswer: "**(a)** $(5,6)$",
+            commonErrors: ["Averaging again to get $(2,3)$ instead of doubling and subtracting."],
           },
         },
       ],

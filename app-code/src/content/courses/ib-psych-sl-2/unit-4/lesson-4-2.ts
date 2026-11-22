@@ -54,10 +54,10 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Overestimate situational causes for others" },
+              { id: "a", text: "Ignore consensus information" },
               { id: "b", text: "Overestimate dispositional causes for others" },
               { id: "c", text: "Attribute own failures to internal causes" },
-              { id: "d", text: "Ignore consensus information" },
+              { id: "d", text: "Overestimate situational causes for others" },
             ],
             correctChoiceId: "b",
           },
@@ -153,12 +153,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "external (situational) attribution" },
-              { id: "b", text: "internal (dispositional) attribution" },
-              { id: "c", text: "self-serving bias" },
-              { id: "d", text: "covariation analysis" },
+              { id: "a", text: "internal (dispositional) attribution" },
+              { id: "b", text: "external (situational) attribution" },
+              { id: "c", text: "covariation analysis" },
+              { id: "d", text: "self-serving bias" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -181,10 +181,10 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "how consistent the behaviour is across time" },
+              { id: "a", text: "the agreement of observers' ratings" },
               { id: "b", text: "whether other people behave the same way toward the same stimulus" },
               { id: "c", text: "whether the person acts this way in all situations" },
-              { id: "d", text: "the agreement of observers' ratings" },
+              { id: "d", text: "how consistent the behaviour is across time" },
             ],
             correctChoiceId: "b",
           },
@@ -229,9 +229,9 @@ export const lesson42: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "explain our own actions by situation but others' actions by disposition" },
-              { id: "b", text: "overestimate dispositional causes for everyone equally" },
-              { id: "c", text: "blame all failures on bad luck" },
-              { id: "d", text: "ignore consensus information entirely" },
+              { id: "b", text: "ignore consensus information entirely" },
+              { id: "c", text: "overestimate dispositional causes for everyone equally" },
+              { id: "d", text: "blame all failures on bad luck" },
             ],
             correctChoiceId: "a",
           },
@@ -295,12 +295,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "consensus, distinctiveness and consistency are all high" },
-              { id: "b", text: "consensus is low but distinctiveness is high" },
+              { id: "a", text: "consensus is low but distinctiveness is high" },
+              { id: "b", text: "consensus, distinctiveness and consistency are all high" },
               { id: "c", text: "consistency is low across situations" },
               { id: "d", text: "the person behaves this way in every situation" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -365,11 +365,11 @@ export const lesson42: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "conduct formal experiments on each other's behaviour" },
-              { id: "b", text: "naturally try to explain the causes of behaviour" },
-              { id: "c", text: "always make perfectly accurate attributions" },
-              { id: "d", text: "avoid making judgements about others" },
+              { id: "b", text: "always make perfectly accurate attributions" },
+              { id: "c", text: "avoid making judgements about others" },
+              { id: "d", text: "naturally try to explain the causes of behaviour" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -413,12 +413,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "whether the behaviour occurs consistently across time" },
-              { id: "b", text: "whether the person behaves this way only toward this stimulus or in many situations" },
-              { id: "c", text: "whether other people behave similarly" },
-              { id: "d", text: "the strength of the dispositional cause" },
+              { id: "a", text: "the strength of the dispositional cause" },
+              { id: "b", text: "whether other people behave similarly" },
+              { id: "c", text: "whether the person behaves this way only toward this stimulus or in many situations" },
+              { id: "d", text: "whether the behaviour occurs consistently across time" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -512,12 +512,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Fundamental attribution error" },
-              { id: "b", text: "Self-serving bias" },
-              { id: "c", text: "Actor-observer bias" },
-              { id: "d", text: "Confirmation bias" },
+              { id: "a", text: "Self-serving bias" },
+              { id: "b", text: "Actor-observer bias" },
+              { id: "c", text: "Confirmation bias" },
+              { id: "d", text: "Fundamental attribution error" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -572,12 +572,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Reciprocity norm" },
-              { id: "b", text: "Consistency principle" },
-              { id: "c", text: "Social proof" },
-              { id: "d", text: "Authority bias" },
+              { id: "a", text: "Authority bias" },
+              { id: "b", text: "Social proof" },
+              { id: "c", text: "Consistency principle" },
+              { id: "d", text: "Reciprocity norm" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -671,12 +671,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "a temporary emotional reaction to an event" },
-              { id: "b", text: "a relatively stable positive or negative evaluation of a person, object or idea" },
+              { id: "a", text: "a relatively stable positive or negative evaluation of a person, object or idea" },
+              { id: "b", text: "a temporary emotional reaction to an event" },
               { id: "c", text: "a behaviour directed toward others" },
               { id: "d", text: "a generalised belief about a group" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -700,11 +700,11 @@ export const lesson42: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "The peripheral route" },
-              { id: "b", text: "The central route" },
+              { id: "b", text: "The door-in-the-face technique" },
               { id: "c", text: "The foot-in-the-door technique" },
-              { id: "d", text: "The door-in-the-face technique" },
+              { id: "d", text: "The central route" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -746,11 +746,11 @@ export const lesson42: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "the consistency principle" },
-              { id: "b", text: "the reciprocity norm" },
+              { id: "b", text: "the scarcity principle" },
               { id: "c", text: "social proof" },
-              { id: "d", text: "the scarcity principle" },
+              { id: "d", text: "the reciprocity norm" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -812,10 +812,10 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "is highly motivated and able to evaluate arguments" },
+              { id: "a", text: "faces a detailed two-sided argument" },
               { id: "b", text: "has low motivation or limited ability to process the message" },
-              { id: "c", text: "faces a detailed two-sided argument" },
-              { id: "d", text: "holds strong prior attitudes on the topic" },
+              { id: "c", text: "holds strong prior attitudes on the topic" },
+              { id: "d", text: "is highly motivated and able to evaluate arguments" },
             ],
             correctChoiceId: "b",
           },
@@ -881,9 +881,9 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "a completely unrelated large request" },
+              { id: "a", text: "a smaller request than the first" },
               { id: "b", text: "a larger related request consistent with the first" },
-              { id: "c", text: "a smaller request than the first" },
+              { id: "c", text: "a completely unrelated large request" },
               { id: "d", text: "nothing further at all" },
             ],
             correctChoiceId: "b",
@@ -931,11 +931,11 @@ export const lesson42: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "harmony between beliefs and behaviour" },
-              { id: "b", text: "discomfort from contradictory beliefs or behaviour inconsistent with beliefs" },
+              { id: "b", text: "conformity to group norms" },
               { id: "c", text: "persuasion through emotional cues" },
-              { id: "d", text: "conformity to group norms" },
+              { id: "d", text: "discomfort from contradictory beliefs or behaviour inconsistent with beliefs" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1029,10 +1029,10 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "the central route to persuasion" },
+              { id: "a", text: "cognitive dissonance" },
               { id: "b", text: "the peripheral route to persuasion" },
-              { id: "c", text: "cognitive dissonance" },
-              { id: "d", text: "the foot-in-the-door technique" },
+              { id: "c", text: "the foot-in-the-door technique" },
+              { id: "d", text: "the central route to persuasion" },
             ],
             correctChoiceId: "b",
           },

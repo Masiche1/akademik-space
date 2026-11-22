@@ -58,12 +58,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "5" },
+              { id: "a", text: "6" },
               { id: "b", text: "16" },
-              { id: "c", text: "6" },
-              { id: "d", text: "10" },
+              { id: "c", text: "10" },
+              { id: "d", text: "5" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -85,12 +85,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\log 10=1$" },
-              { id: "b", text: "$\\log 60$" },
-              { id: "c", text: "$\\log 23$" },
-              { id: "d", text: "1.778" },
+              { id: "a", text: "$\\log 60$" },
+              { id: "b", text: "$\\log 23$" },
+              { id: "c", text: "1.778" },
+              { id: "d", text: "$\\log 10=1$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -113,12 +113,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$x=\\frac{\\ln7}{\\ln4}=\\frac{\\log7}{\\log4}\\approx1.404$" },
-              { id: "b", text: "$x=\\frac{\\ln4}{\\ln7}\\approx0.712$" },
+              { id: "a", text: "$x=\\frac{\\ln4}{\\ln7}\\approx0.712$" },
+              { id: "b", text: "$x=\\frac{\\ln7}{\\ln4}=\\frac{\\log7}{\\log4}\\approx1.404$" },
               { id: "c", text: "$x=\\frac{7}{4}=1.75$" },
               { id: "d", text: "$x=\\log_4 7\\approx0.85$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -173,12 +173,12 @@ export const lesson11: Lesson = {
       response: {
         type: "mcq",
         choices: [
-          { id: "a", text: "2" },
-          { id: "b", text: "5" },
-          { id: "c", text: "25" },
-          { id: "d", text: "125" },
+          { id: "a", text: "25" },
+          { id: "b", text: "125" },
+          { id: "c", text: "5" },
+          { id: "d", text: "2" },
         ],
-        correctChoiceId: "a",
+        correctChoiceId: "d",
       },
       markscheme: {
         principles: [
@@ -217,12 +217,12 @@ export const lesson11: Lesson = {
       response: {
         type: "mcq",
         choices: [
-          { id: "a", text: "1" },
-          { id: "b", text: "2" },
+          { id: "a", text: "2" },
+          { id: "b", text: "1" },
           { id: "c", text: "$\\log 42$" },
           { id: "d", text: "0" },
         ],
-        correctChoiceId: "a",
+        correctChoiceId: "b",
       },
       markscheme: {
         principles: [
@@ -300,12 +300,12 @@ export const lesson11: Lesson = {
       response: {
         type: "mcq",
         choices: [
-          { id: "a", text: "$x=12.25$" },
+          { id: "a", text: "$x=11$" },
           { id: "b", text: "$x=45$" },
-          { id: "c", text: "$x=11$" },
-          { id: "d", text: "$x=49$" },
+          { id: "c", text: "$x=49$" },
+          { id: "d", text: "$x=12.25$" },
         ],
-        correctChoiceId: "a",
+        correctChoiceId: "d",
       },
       markscheme: {
         principles: [
@@ -378,12 +378,12 @@ export const lesson11: Lesson = {
       response: {
         type: "mcq",
         choices: [
-          { id: "a", text: "$2\\log_a b-\\log_a c$" },
+          { id: "a", text: "$\\log_a(2b-c)$" },
           { id: "b", text: "$\\frac{2\\log_a b}{\\log_a c}$" },
-          { id: "c", text: "$2\\log_a b+\\log_a c$" },
-          { id: "d", text: "$\\log_a(2b-c)$" },
+          { id: "c", text: "$2\\log_a b-\\log_a c$" },
+          { id: "d", text: "$2\\log_a b+\\log_a c$" },
         ],
-        correctChoiceId: "a",
+        correctChoiceId: "c",
       },
       markscheme: {
         principles: [
@@ -406,12 +406,12 @@ export const lesson11: Lesson = {
       response: {
         type: "mcq",
         choices: [
-          { id: "a", text: "$x=\\log_2\\frac53\\approx0.737$" },
-          { id: "b", text: "$x=\\log_2\\frac32\\approx0.585$" },
-          { id: "c", text: "$x=\\frac53\\approx1.667$" },
-          { id: "d", text: "$x=\\log_5 3\\approx0.683$" },
+          { id: "a", text: "$x=\\log_5 3\\approx0.683$" },
+          { id: "b", text: "$x=\\frac53\\approx1.667$" },
+          { id: "c", text: "$x=\\log_2\\frac53\\approx0.737$" },
+          { id: "d", text: "$x=\\log_2\\frac32\\approx0.585$" },
         ],
-        correctChoiceId: "a",
+        correctChoiceId: "c",
       },
       markscheme: {
         principles: [
@@ -496,9 +496,9 @@ export const lesson11: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "8.25 to 8.35 cm" },
-              { id: "b", text: "8.3 to 8.4 cm" },
-              { id: "c", text: "8.0 to 8.5 cm" },
-              { id: "d", text: "8.25 to 8.30 cm" },
+              { id: "b", text: "8.0 to 8.5 cm" },
+              { id: "c", text: "8.25 to 8.30 cm" },
+              { id: "d", text: "8.3 to 8.4 cm" },
             ],
             correctChoiceId: "a",
           },
@@ -522,12 +522,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "80 km/h" },
-              { id: "b", text: "75 km/h" },
+              { id: "a", text: "75 km/h" },
+              { id: "b", text: "80 km/h" },
               { id: "c", text: "72.7 km/h" },
               { id: "d", text: "85.7 km/h" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -550,12 +550,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "117.649 to 132.651 cm³" },
-              { id: "b", text: "125 cm³ exactly" },
-              { id: "c", text: "110 to 140 cm³" },
-              { id: "d", text: "120 to 130 cm³" },
+              { id: "a", text: "110 to 140 cm³" },
+              { id: "b", text: "120 to 130 cm³" },
+              { id: "c", text: "117.649 to 132.651 cm³" },
+              { id: "d", text: "125 cm³ exactly" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -609,12 +609,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "7.55 to 7.65 cm" },
+              { id: "a", text: "7.0 to 8.0 cm" },
               { id: "b", text: "7.5 to 7.7 cm" },
               { id: "c", text: "7.55 to 7.60 cm" },
-              { id: "d", text: "7.0 to 8.0 cm" },
+              { id: "d", text: "7.55 to 7.65 cm" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -654,9 +654,9 @@ export const lesson11: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "49.2525 to 50.7525 cm²" },
-              { id: "b", text: "49.75 to 50.25 cm²" },
-              { id: "c", text: "50 cm² exactly" },
-              { id: "d", text: "49.5 to 50.5 cm²" },
+              { id: "b", text: "50 cm² exactly" },
+              { id: "c", text: "49.5 to 50.5 cm²" },
+              { id: "d", text: "49.75 to 50.25 cm²" },
             ],
             correctChoiceId: "a",
           },
@@ -700,12 +700,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "max mass and min volume" },
-              { id: "b", text: "max mass and max volume" },
-              { id: "c", text: "min mass and min volume" },
-              { id: "d", text: "min mass and max volume" },
+              { id: "a", text: "max mass and max volume" },
+              { id: "b", text: "min mass and max volume" },
+              { id: "c", text: "max mass and min volume" },
+              { id: "d", text: "min mass and min volume" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -815,8 +815,8 @@ export const lesson11: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "19.6 s to 20.4 s" },
-              { id: "b", text: "18 s to 22 s" },
-              { id: "c", text: "19 s to 21 s" },
+              { id: "b", text: "19 s to 21 s" },
+              { id: "c", text: "18 s to 22 s" },
               { id: "d", text: "20 s exactly" },
             ],
             correctChoiceId: "a",
@@ -842,12 +842,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "4.85 to 5.15 g/cm³" },
-              { id: "b", text: "4.90 to 5.10 g/cm³" },
-              { id: "c", text: "5.0 g/cm³ exactly" },
+              { id: "a", text: "5.0 g/cm³ exactly" },
+              { id: "b", text: "4.85 to 5.15 g/cm³" },
+              { id: "c", text: "4.90 to 5.10 g/cm³" },
               { id: "d", text: "4.75 to 5.25 g/cm³" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [

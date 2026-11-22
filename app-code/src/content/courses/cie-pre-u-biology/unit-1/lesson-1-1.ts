@@ -59,12 +59,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Ribosome" },
-              { id: "b", text: "Mitochondrion" },
+              { id: "a", text: "Mitochondrion" },
+              { id: "b", text: "Ribosome" },
               { id: "c", text: "Golgi apparatus" },
               { id: "d", text: "Lysosome" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -192,8 +192,8 @@ export const lesson11: Lesson = {
             choices: [
               { id: "a", text: "Lysosome" },
               { id: "b", text: "Golgi apparatus" },
-              { id: "c", text: "Ribosome" },
-              { id: "d", text: "Nucleus" },
+              { id: "c", text: "Nucleus" },
+              { id: "d", text: "Ribosome" },
             ],
             correctChoiceId: "b",
           },
@@ -282,11 +282,11 @@ export const lesson11: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Water moves from low to high water potential" },
-              { id: "b", text: "Water moves from high to low water potential across a partially permeable membrane" },
-              { id: "c", text: "Osmosis requires ATP" },
-              { id: "d", text: "Osmosis occurs only in plant cells" },
+              { id: "b", text: "Osmosis requires ATP" },
+              { id: "c", text: "Osmosis occurs only in plant cells" },
+              { id: "d", text: "Water moves from high to low water potential across a partially permeable membrane" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -371,12 +371,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Proteins are fixed rigidly in a solid bilayer" },
-              { id: "b", text: "A phospholipid bilayer contains proteins that can move laterally within the membrane" },
-              { id: "c", text: "The membrane is a solid layer of protein" },
-              { id: "d", text: "Cholesterol stops all movement of membrane components" },
+              { id: "a", text: "A phospholipid bilayer contains proteins that can move laterally within the membrane" },
+              { id: "b", text: "Cholesterol stops all movement of membrane components" },
+              { id: "c", text: "Proteins are fixed rigidly in a solid bilayer" },
+              { id: "d", text: "The membrane is a solid layer of protein" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -499,12 +499,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Simple diffusion" },
-              { id: "b", text: "Facilitated diffusion" },
-              { id: "c", text: "Osmosis" },
-              { id: "d", text: "Active transport" },
+              { id: "a", text: "Active transport" },
+              { id: "b", text: "Simple diffusion" },
+              { id: "c", text: "Facilitated diffusion" },
+              { id: "d", text: "Osmosis" },
             ],
-            correctChoiceId: "d",
+            correctChoiceIa: "d",
           },
           markscheme: {
             principles: [

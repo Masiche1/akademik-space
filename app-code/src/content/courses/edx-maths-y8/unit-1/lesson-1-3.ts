@@ -47,11 +47,11 @@ export const lesson13: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$6:9$" },
-              { id: "b", text: "$2:3$" },
-              { id: "c", text: "$3:2$" },
-              { id: "d", text: "$4:6$" },
+              { id: "b", text: "$3:2$" },
+              { id: "c", text: "$4:6$" },
+              { id: "d", text: "$2:3$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -178,8 +178,8 @@ export const lesson13: Lesson = {
             choices: [
               { id: "a", text: "£5" },
               { id: "b", text: "£6" },
-              { id: "c", text: "£8" },
-              { id: "d", text: "£30" },
+              { id: "c", text: "£30" },
+              { id: "d", text: "£8" },
             ],
             correctChoiceId: "b",
           },

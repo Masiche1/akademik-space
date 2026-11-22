@@ -53,12 +53,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$C = 25m + 30$" },
+              { id: "a", text: "$C = 25m - 30$" },
               { id: "b", text: "$C = 30m + 25$" },
-              { id: "c", text: "$C = 55m$" },
-              { id: "d", text: "$C = 25m - 30$" },
+              { id: "c", text: "$C = 25m + 30$" },
+              { id: "d", text: "$C = 55m$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -155,9 +155,9 @@ export const lesson21: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$y = 2x + 5$" },
-              { id: "b", text: "$y = 4x + 1$" },
-              { id: "c", text: "$y = 2x - 5$" },
-              { id: "d", text: "$y = -2x + 13$" },
+              { id: "b", text: "$y = -2x + 13$" },
+              { id: "c", text: "$y = 4x + 1$" },
+              { id: "d", text: "$y = 2x - 5$" },
             ],
             correctChoiceId: "a",
           },
@@ -183,12 +183,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$-11$" },
+              { id: "a", text: "$23$" },
               { id: "b", text: "$11$" },
               { id: "c", text: "$-9$" },
-              { id: "d", text: "$23$" },
+              { id: "d", text: "$-11$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -211,12 +211,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$-\\frac{4}{3}$" },
+              { id: "a", text: "$-\\frac{3}{4}$" },
               { id: "b", text: "$\\frac{3}{4}$" },
-              { id: "c", text: "$-\\frac{3}{4}$" },
-              { id: "d", text: "$\\frac{4}{3}$" },
+              { id: "c", text: "$\\frac{4}{3}$" },
+              { id: "d", text: "$-\\frac{4}{3}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -239,12 +239,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The fixed fee charged at the start of every journey" },
-              { id: "b", text: "The cost per kilometre travelled" },
-              { id: "c", text: "The cost of a 5 km journey" },
+              { id: "a", text: "The cost per kilometre travelled" },
+              { id: "b", text: "The cost of a 5 km journey" },
+              { id: "c", text: "The fixed fee charged at the start of every journey" },
               { id: "d", text: "The gradient of the cost function" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -269,8 +269,8 @@ export const lesson21: Lesson = {
             choices: [
               { id: "a", text: "The volume decreases by 12 litres each minute" },
               { id: "b", text: "The tank is empty after 12 minutes" },
-              { id: "c", text: "The initial volume is 12 litres" },
-              { id: "d", text: "The tank loses 480 litres per minute" },
+              { id: "c", text: "The tank loses 480 litres per minute" },
+              { id: "d", text: "The initial volume is 12 litres" },
             ],
             correctChoiceId: "a",
           },
@@ -296,9 +296,9 @@ export const lesson21: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$5$" },
-              { id: "b", text: "$11$" },
-              { id: "c", text: "$9$" },
-              { id: "d", text: "$-5$" },
+              { id: "b", text: "$9$" },
+              { id: "c", text: "$-5$" },
+              { id: "d", text: "$11$" },
             ],
             correctChoiceId: "a",
           },
@@ -506,12 +506,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\dfrac{x - 3}{2}$" },
-              { id: "b", text: "$\\dfrac{x}{2} - 3$" },
+              { id: "a", text: "$\\dfrac{x}{2} - 3$" },
+              { id: "b", text: "$2x - 3$" },
               { id: "c", text: "$\\dfrac{1}{2x + 3}$" },
-              { id: "d", text: "$2x - 3$" },
+              { id: "d", text: "$\\dfrac{x - 3}{2}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -608,12 +608,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$10$" },
-              { id: "b", text: "$14$" },
-              { id: "c", text: "$-10$" },
-              { id: "d", text: "$5$" },
+              { id: "a", text: "$14$" },
+              { id: "b", text: "$-10$" },
+              { id: "c", text: "$5$" },
+              { id: "d", text: "$10$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -636,12 +636,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$1 \\le f(x) \\le 11$" },
-              { id: "b", text: "$0 \\le f(x) \\le 5$" },
+              { id: "a", text: "$1 \\le f(x) \\le 5$" },
+              { id: "b", text: "$1 \\le f(x) \\le 11$" },
               { id: "c", text: "$f(x) \\ge 1$" },
-              { id: "d", text: "$1 \\le f(x) \\le 5$" },
+              { id: "d", text: "$0 \\le f(x) \\le 5$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -664,12 +664,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$3x - 6$" },
+              { id: "a", text: "$3x + 6$" },
               { id: "b", text: "$\\frac{x}{3} - 2$" },
-              { id: "c", text: "$3x + 6$" },
-              { id: "d", text: "$\\frac{x - 2}{3}$" },
+              { id: "c", text: "$\\frac{x - 2}{3}$" },
+              { id: "d", text: "$3x - 6$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -693,9 +693,9 @@ export const lesson21: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$(9, 2)$" },
-              { id: "b", text: "$(-2, -9)$" },
+              { id: "b", text: "$\\left(\\frac{1}{9}, \\frac{1}{2}\\right)$" },
               { id: "c", text: "$(2, -9)$" },
-              { id: "d", text: "$\\left(\\frac{1}{9}, \\frac{1}{2}\\right)$" },
+              { id: "d", text: "$(-2, -9)$" },
             ],
             correctChoiceId: "a",
           },
@@ -720,12 +720,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$1$" },
-              { id: "b", text: "$-1$" },
-              { id: "c", text: "$4$" },
+              { id: "a", text: "$4$" },
+              { id: "b", text: "$1$" },
+              { id: "c", text: "$-1$" },
               { id: "d", text: "$\\frac{1}{3}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -748,12 +748,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Reflection in the line $y = x$" },
-              { id: "b", text: "Reflection in the $x$-axis" },
-              { id: "c", text: "Translation by $2$ units to the right" },
-              { id: "d", text: "Rotation of $180^\\circ$ about the origin" },
+              { id: "a", text: "Reflection in the $x$-axis" },
+              { id: "b", text: "Rotation of $180^\\circ$ about the origin" },
+              { id: "c", text: "Reflection in the line $y = x$" },
+              { id: "d", text: "Translation by $2$ units to the right" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

@@ -55,8 +55,8 @@ export const lesson42: Lesson = {
             choices: [
               { id: "a", text: "6" },
               { id: "b", text: "7" },
-              { id: "c", text: "8" },
-              { id: "d", text: "9" },
+              { id: "c", text: "9" },
+              { id: "d", text: "8" },
             ],
             correctChoiceId: "b",
           },
@@ -160,11 +160,11 @@ export const lesson42: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "It is connected" },
-              { id: "b", text: "It contains no cycle" },
-              { id: "c", text: "It contains every vertex of the graph" },
-              { id: "d", text: "It has exactly $n$ edges" },
+              { id: "b", text: "It has exactly $n$ edges" },
+              { id: "c", text: "It contains no cycle" },
+              { id: "d", text: "It contains every vertex of the graph" },
             ],
-            correctChoiceId: "d",
+            correctChoiceIb: "d",
           },
           markscheme: {
             principles: [{ kind: "property", name: "Tree", statement: "A tree on $n$ vertices has $n-1$ edges." }],
@@ -184,8 +184,8 @@ export const lesson42: Lesson = {
             choices: [
               { id: "a", text: "its weight is larger than the average edge weight" },
               { id: "b", text: "adding it would complete a cycle" },
-              { id: "c", text: "it joins two vertices already in different components" },
-              { id: "d", text: "the tree already has $n$ edges" },
+              { id: "c", text: "the tree already has $n$ edges" },
+              { id: "d", text: "it joins two vertices already in different components" },
             ],
             correctChoiceId: "b",
           },
@@ -291,10 +291,10 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "They always produce the same spanning tree" },
+              { id: "a", text: "Prim's algorithm always gives a smaller weight than Kruskal's" },
               { id: "b", text: "They always produce minimum spanning trees of the same weight, but the trees may differ when there are ties" },
-              { id: "c", text: "Only Kruskal's algorithm guarantees a minimum spanning tree" },
-              { id: "d", text: "Prim's algorithm always gives a smaller weight than Kruskal's" },
+              { id: "c", text: "They always produce the same spanning tree" },
+              { id: "d", text: "Only Kruskal's algorithm guarantees a minimum spanning tree" },
             ],
             correctChoiceId: "b",
           },
@@ -380,12 +380,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "14" },
-              { id: "b", text: "15" },
-              { id: "c", text: "16" },
-              { id: "d", text: "7" },
+              { id: "a", text: "15" },
+              { id: "b", text: "14" },
+              { id: "c", text: "7" },
+              { id: "d", text: "16" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "property", name: "Tree", statement: "A tree on $n$ vertices has $n-1$ edges." }],
@@ -520,10 +520,10 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "2" },
+              { id: "a", text: "6" },
               { id: "b", text: "3" },
               { id: "c", text: "4" },
-              { id: "d", text: "6" },
+              { id: "d", text: "2" },
             ],
             correctChoiceId: "b",
           },
@@ -616,12 +616,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The total weight of the edges plus the smallest edge weight" },
-              { id: "b", text: "The total weight of the edges" },
+              { id: "a", text: "The total weight of the edges" },
+              { id: "b", text: "The total weight of the edges plus the number of odd vertices" },
               { id: "c", text: "Twice the total weight of the edges" },
-              { id: "d", text: "The total weight of the edges plus the number of odd vertices" },
+              { id: "d", text: "The total weight of the edges plus the smallest edge weight" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "theorem", name: "Eulerian circuit", statement: "All vertices even means an Eulerian circuit exists, so no edge needs repeating." }],
@@ -639,12 +639,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "8" },
-              { id: "b", text: "15" },
-              { id: "c", text: "30" },
-              { id: "d", text: "6" },
+              { id: "a", text: "6" },
+              { id: "b", text: "30" },
+              { id: "c", text: "15" },
+              { id: "d", text: "8" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Pairing", statement: "The number of pairings of $2m$ items is $(2m-1)!!$; for 6 vertices it is $5\\times3\\times1=15$." }],
@@ -730,11 +730,11 @@ export const lesson42: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "the weight of the direct edge between them" },
-              { id: "b", text: "the weight of the shortest path between them" },
-              { id: "c", text: "the sum of all edges incident to both vertices" },
-              { id: "d", text: "the average degree of the two vertices" },
+              { id: "b", text: "the average degree of the two vertices" },
+              { id: "c", text: "the weight of the shortest path between them" },
+              { id: "d", text: "the sum of all edges incident to both vertices" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Route inspection", statement: "The path between paired odd vertices is repeated, and the cheapest repetition uses the shortest path." }],
@@ -838,10 +838,10 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "a spanning tree of the graph" },
+              { id: "a", text: "a Hamiltonian cycle" },
               { id: "b", text: "paths that pair up the odd-degree vertices" },
               { id: "c", text: "the longest path in the graph" },
-              { id: "d", text: "a Hamiltonian cycle" },
+              { id: "d", text: "a spanning tree of the graph" },
             ],
             correctChoiceId: "b",
           },

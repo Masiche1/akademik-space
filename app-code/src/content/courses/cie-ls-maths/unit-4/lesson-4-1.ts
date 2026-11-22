@@ -51,10 +51,10 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$(3, 4)$" },
+              { id: "a", text: "$(3, −4)$" },
               { id: "b", text: "$(−3, 4)$" },
-              { id: "c", text: "$(3, −4)$" },
-              { id: "d", text: "$(−3, −4)$" },
+              { id: "c", text: "$(−3, −4)$" },
+              { id: "d", text: "$(3, 4)$" },
             ],
             correctChoiceId: "b",
           },
@@ -148,6 +148,264 @@ export const lesson41: Lesson = {
             commonErrors: ["In (d) adding $6+6=12$ — diagonal needs Pythagoras."],
           },
         },
+        {
+          id: "cilm-u4-coord-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Which point lies on the x-axis?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$(3, 4)$" },
+              { id: "b", text: "$(0, 5)$" },
+              { id: "c", text: "$(−2, −3)$" },
+              { id: "d", text: "$(−4, 0)$" },
+            ],
+            dorrectChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              { kind: "definition", name: "Axes", statement: "Points on the x-axis have $y=0$." },
+            ],
+            steps: [
+              { reasoning: "Only $(−4,0)$ has $y=0$, so it lies on the x-axis.", working: "y=0", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(c)** $(−4, 0)$",
+            commonErrors: ["Choosing (b) — $(0,5)$ is on the y-axis because $x=0$."],
+          },
+        },
+        {
+          id: "cilm-u4-coord-q6",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "Find the horizontal distance between $P(−3, 2)$ and $Q(5, 2)$.",
+          response: { type: "numeric", parts: [{ label: "Answer", answer: 8 }] },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Horizontal distance", statement: "Same $y$ coordinate means the distance is the difference in $x$ values." },
+            ],
+            steps: [
+              { reasoning: "The points have the same $y=2$, so the distance is $5-(-3)=8$.", working: "5-(-3)=8", marks: 1, markCode: "M" },
+              { reasoning: "Distance $=8$ units.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$8$ units",
+            commonErrors: ["Using $5-3=2$ — include the negative sign in the subtraction."],
+          },
+        },
+        {
+          id: "cilm-u4-coord-q7",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Which statement about the point $(0, 4)$ is correct?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "It is on the x-axis" },
+              { id: "b", text: "It is on the y-axis" },
+              { id: "c", text: "It is the origin" },
+              { id: "d", text: "It is in Quadrant II" },
+            ],
+            borrectChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              { kind: "definition", name: "Axes", statement: "A point with $x=0$ lies on the y-axis and belongs to no quadrant." },
+            ],
+            steps: [
+              { reasoning: "$(0,4)$ has $x=0$, so it lies on the y-axis above the origin.", working: "x=0", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(c)** It is on the y-axis",
+            commonErrors: ["Calling it Quadrant II — points on axes are not in a quadrant."],
+          },
+        },
+        {
+          id: "cilm-u4-coord-q8",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "Find the distance between $A(1, −2)$ and $B(4, 2)$ using Pythagoras' theorem.",
+          response: { type: "numeric", parts: [{ label: "Answer", answer: 5, tolerance: 0.001 }] },
+          markscheme: {
+            principles: [
+              { kind: "formula", name: "Distance formula", statement: "For a right-angled displacement, distance $=\sqrt{(\Delta x)^2+(\Delta y)^2}$." },
+            ],
+            steps: [
+              { reasoning: "Horizontal change $=4-1=3$ and vertical change $=2-(-2)=4$.", working: "3,4", marks: 1, markCode: "M" },
+              { reasoning: "Distance $=\sqrt{3^2+4^2}=\sqrt{25}=5$.", working: "\\sqrt{25}=5", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$5$ units",
+            commonErrors: ["Subtracting $2-2=0$ for the vertical change — subtract the negative correctly."],
+          },
+        },
+        {
+          id: "cilm-u4-coord-q9",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Starting at $(2, 3)$, a point moves $4$ units right and $1$ unit down. What are its new coordinates?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$(6, 4)$" },
+              { id: "b", text: "$(6, 2)$" },
+              { id: "c", text: "$(2, 2)$" },
+              { id: "d", text: "$(−2, 2)$" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              { kind: "definition", name: "Coordinate movement", statement: "Right increases $x$; down decreases $y$." },
+            ],
+            steps: [
+              { reasoning: "New $x=2+4=6$ and new $y=3-1=2$, giving $(6,2)$.", working: "(2+4,3-1)=(6,2)", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(b)** $(6, 2)$",
+            commonErrors: ["Increasing $y$ when moving down — downward movement subtracts from $y$."],
+          },
+        },
+        {
+          id: "cilm-u4-coord-q10",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "Find the vertical distance between $M(−4, −1)$ and $N(−4, 6)$.",
+          response: { type: "numeric", parts: [{ label: "Answer", answer: 7 }] },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Vertical distance", statement: "Same $x$ coordinate means the distance is the difference in $y$ values." },
+            ],
+            steps: [
+              { reasoning: "The points have the same $x=-4$, so distance $=6-(-1)=7$.", working: "6-(-1)=7", marks: 1, markCode: "M" },
+              { reasoning: "Distance $=7$ units.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$7$ units",
+            commonErrors: ["Computing $6-1=5$ — subtracting a negative requires adding its absolute value."],
+          },
+        },
+        {
+          id: "cilm-u4-coord-q11",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Which pair of points are both in Quadrant III?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$(−2, 5)$ and $(4, −3)$" },
+              { id: "b", text: "$(2, −5)$ and $(−7, 1)$" },
+              { id: "c", text: "$(−2, −5)$ and $(−7, −1)$" },
+              { id: "d", text: "$(−2, 0)$ and $(0, −5)$" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              { kind: "definition", name: "Quadrants", statement: "Quadrant III has $x<0$ and $y<0$." },
+            ],
+            steps: [
+              { reasoning: "Both $(−2,−5)$ and $(−7,−1)$ have negative $x$ and negative $y$.", working: "x<0,y<0", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(b)** $(−2, −5)$ and $(−7, −1)$",
+            commonErrors: ["Choosing (d) — points on axes do not belong to a quadrant."],
+          },
+        },
+        {
+          id: "cilm-u4-coord-q12",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "Find the distance between $R(1, 1)$ and $S(4, 5)$ using Pythagoras' theorem.",
+          response: { type: "numeric", parts: [{ label: "Answer", answer: 5, tolerance: 0.001 }] },
+          markscheme: {
+            principles: [
+              { kind: "formula", name: "Distance formula", statement: "Distance $=\sqrt{(\Delta x)^2+(\Delta y)^2}$." },
+            ],
+            steps: [
+              { reasoning: "Horizontal change $=3$ and vertical change $=4$.", working: "3,4", marks: 1, markCode: "M" },
+              { reasoning: "Distance $=\sqrt{3^2+4^2}=5$.", working: "\\sqrt{25}=5", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$5$ units",
+            commonErrors: ["Adding the coordinate changes to get $7$ — diagonal distance requires Pythagoras."],
+          },
+        },
+        {
+          id: "cilm-u4-coord-q13",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "The vertices of a rectangle are $(0, 0)$, $(6, 0)$, $(6, 4)$ and $(0, 4)$. Work out its perimeter.",
+          response: { type: "numeric", parts: [{ label: "Answer", answer: 20 }] },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Coordinate perimeter", statement: "Horizontal and vertical side lengths come from coordinate differences." },
+            ],
+            steps: [
+              { reasoning: "Width $=6-0=6$ and height $=4-0=4$.", working: "6,4", marks: 1, markCode: "M" },
+              { reasoning: "Perimeter $=2(6+4)=20$ units.", working: "2(6+4)=20", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$20$ units",
+            commonErrors: ["Multiplying $6\\times4=24$ — that is the area, not the perimeter."],
+          },
+        },
+        {
+          id: "cilm-u4-coord-q14",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "Plot and join $(−1, 2)$, $(3, 2)$, $(3, 6)$ and $(−1, 6)$ in order. Identify the shape and find its perimeter.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Coordinates to shape", statement: "Joining ordered points forms a rectangle; side lengths come from coordinate differences." },
+            ],
+            steps: [
+              { reasoning: "The points form a rectangle with width $3-(-1)=4$ and height $6-2=4$.", working: "w=4,h=4", marks: 1, markCode: "M" },
+              { reasoning: "Each side length is found from the coordinate differences.", working: "4\\text{ and }4", marks: 1, markCode: "M" },
+              { reasoning: "Perimeter $=2(4+4)=16$ units.", working: "2(4+4)=16", marks: 1, markCode: "M" },
+              { reasoning: "Shape is a square; perimeter is $16$ units.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "Square with perimeter $16$ units",
+            commonErrors: ["Joining points out of order can create crossed sides."],
+          },
+        },
+        {
+          id: "cilm-u4-coord-q15",
+          difficulty: "foundation",
+          totalMarks: 2,
+          stem: "Find the distance between $U(2, −5)$ and $V(2, −1)$.",
+          response: { type: "numeric", parts: [{ label: "Answer", answer: 4 }] },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Vertical distance", statement: "Same $x$ coordinate means the distance is the difference in $y$ values." },
+            ],
+            steps: [
+              { reasoning: "The points have the same $x=2$, so distance $=-1-(-5)=4$.", working: "-1-(-5)=4", marks: 1, markCode: "M" },
+              { reasoning: "Distance $=4$ units.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$4$ units",
+            commonErrors: ["Taking $5-1=4$ by accident gives the right magnitude here, but $-1-(-5)=4$ is the correct signed difference."],
+          },
+        },
+        {
+          id: "cilm-u4-coord-q16",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Which point is farthest from the origin?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$(6, 0)$" },
+              { id: "b", text: "$(3, 4)$" },
+              { id: "c", text: "$(0, 5)$" },
+              { id: "d", text: "$(2, 2)$" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              { kind: "formula", name: "Distance from origin", statement: "Distance from $(0,0)$ to $(x,y)$ is $\\sqrt{x^2+y^2}$." },
+            ],
+            steps: [
+              { reasoning: "Distances from the origin are $5$, $6$, $5$ and about $2.83$, so $(6,0)$ is farthest.", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(b)** $(6, 0)$",
+            commonErrors: ["Comparing only the coordinate values without calculating distance."],
+          },
+        },
       ],
     },
     {
@@ -188,9 +446,9 @@ export const lesson41: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$3$" },
-              { id: "b", text: "$-2$" },
+              { id: "b", text: "$x$" },
               { id: "c", text: "$2$" },
-              { id: "d", text: "$x$" },
+              { id: "d", text: "$-2$" },
             ],
             correctChoiceId: "a",
           },
@@ -282,6 +540,287 @@ export const lesson41: Lesson = {
               { level: "Level 1", marks: "0", descriptor: "Missing.", part: "d" },
             ],
             commonErrors: ["In (a) giving positive gradient — tank empties so volume decreases."],
+          },
+        },
+        {
+          id: "cilm-u4-lg-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "What is the y-intercept of $y = 5x + 7$?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$-7$" },
+              { id: "b", text: "$7$" },
+              { id: "c", text: "$5$" },
+              { id: "d", text: "$x$" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              { kind: "definition", name: "y-intercept", statement: "In $y=mx+c$, $c$ is where the line crosses the y-axis." },
+            ],
+            steps: [
+              { reasoning: "$c=7$; the line crosses the y-axis at $(0,7)$.", working: "c=7", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(b)** $7$",
+            commonErrors: ["Choosing (a) — that's the gradient, not the intercept."],
+          },
+        },
+        {
+          id: "cilm-u4-lg-q6",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "Find the gradient of the line through $(2, 5)$ and $(6, 13)$.",
+          response: { type: "numeric", parts: [{ label: "Answer", answer: 2 }] },
+          markscheme: {
+            principles: [
+              { kind: "convention", name: "Gradient formula", statement: "$m=\\frac{\\Delta y}{\\Delta x}$." },
+            ],
+            steps: [
+              { reasoning: "Rise $=13-5=8$; run $=6-2=4$.", working: "8/4", marks: 1, markCode: "M" },
+              { reasoning: "Gradient $=\\frac{8}{4}=2$.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$m = 2$",
+            commonErrors: ["$\\frac{4}{8}=0.5$ — gradient is rise over run, y change over x change."],
+          },
+        },
+        {
+          id: "cilm-u4-lg-q7",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Which point lies on the line $y = 2x + 1$?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$(1, 3)$" },
+              { id: "b", text: "$(0, 2)$" },
+              { id: "c", text: "$(3, 6)$" },
+              { id: "d", text: "$(2, 4)$" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              { kind: "convention", name: "Points on a line", statement: "Substitute $x$ into the equation — the result must equal the point's $y$." },
+            ],
+            steps: [
+              { reasoning: "For $(1,3)$: $2(1)+1=3$ ✓ — the only point that satisfies the equation.", working: "2(1)+1=3", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** $(1, 3)$",
+            commonErrors: ["Choosing (b) — $2(2)+1=5 \\neq 4$, so $(2,4)$ is not on the line."],
+          },
+        },
+        {
+          id: "cilm-u4-lg-q8",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "Find the gradient of the line through $(-1, 4)$ and $(3, -2)$.",
+          response: { type: "numeric", parts: [{ label: "Answer", answer: -1.5, tolerance: 0.001 }] },
+          markscheme: {
+            principles: [
+              { kind: "convention", name: "Gradient formula", statement: "$m=\\frac{\\Delta y}{\\Delta x}=\\frac{-2-4}{3-(-1)}$ — include the negatives." },
+            ],
+            steps: [
+              { reasoning: "Rise $=-2-4=-6$; run $=3-(-1)=4$.", working: "-6/4", marks: 1, markCode: "M" },
+              { reasoning: "Gradient $=\\frac{-6}{4}=-1.5$.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$m = -1.5$",
+            commonErrors: ["$\\frac{6}{4}$ — forgetting the rise is negative gives the wrong sign."],
+          },
+        },
+        {
+          id: "cilm-u4-lg-q9",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "Find the equation of the line through $(0, 4)$ and $(3, 10)$.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Equation from two points", statement: "Gradient from two points; intercept from a point (here $(0,4)$ gives $c=4$ directly)." },
+            ],
+            steps: [
+              { reasoning: "Gradient $=\\frac{10-4}{3-0}=\\frac{6}{3}=2$.", working: "m=2", marks: 1, markCode: "M" },
+              { reasoning: "At $x=0$, $y=4$ so $c=4$.", working: "c=4", marks: 1, markCode: "M" },
+              { reasoning: "Equation: $y = 2x + 4$.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$y = 2x + 4$",
+            commonErrors: ["Writing $y=2x+10$ — the intercept is the $y$-value at $x=0$, which is $4$, not $10$."],
+          },
+        },
+        {
+          id: "cilm-u4-lg-q10",
+          difficulty: "challenge",
+          totalMarks: 1,
+          stem: "Where does the line $y = -2x + 5$ cross the y-axis?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$(5, 0)$" },
+              { id: "b", text: "$(0, 5)$" },
+              { id: "c", text: "$(0, -2)$" },
+              { id: "d", text: "$(-2, 0)$" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              { kind: "definition", name: "y-intercept", statement: "Set $x=0$: $y=-2(0)+5=5$, so the crossing point is $(0,5)$." },
+            ],
+            steps: [
+              { reasoning: "At $x=0$, $y=5$ → crosses at $(0,5)$.", working: "(0,5)", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** $(0, 5)$",
+            commonErrors: ["Choosing (b) — $(5,0)$ is on the x-axis; the y-axis crossing needs $x=0$."],
+          },
+        },
+        {
+          id: "cilm-u4-lg-q11",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "A car travels $150$ km in $2.5$ hours at constant speed. What is the gradient of the distance-time graph, in km per hour?",
+          response: { type: "numeric", parts: [{ label: "Answer", answer: 60 }] },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Distance-time graphs", statement: "Gradient = speed $=\\frac{\\text{distance}}{\\text{time}}$." },
+            ],
+            steps: [
+              { reasoning: "Gradient $=\\frac{150}{2.5}$.", working: "150/2.5", marks: 1, markCode: "M" },
+              { reasoning: "Gradient $=60$ km/h.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$60$ km/h",
+            commonErrors: ["$\\frac{2.5}{150}$ — speed is distance over time, not time over distance."],
+          },
+        },
+        {
+          id: "cilm-u4-lg-q12",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "A gym charges a $\\pounds15$ joining fee plus $\\pounds6$ per month. The cost $C$ against months $m$ is linear. Write the equation, find the cost for $12$ months, and interpret both constants in the equation.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Linear modelling", statement: "Fixed fee = intercept; per-unit rate = gradient." },
+            ],
+            steps: [
+              { reasoning: "Equation: $C = 6m + 15$ ($6$/month gradient, $15$ intercept).", working: "C=6m+15", marks: 1, markCode: "M" },
+              { reasoning: "Cost for $12$ months: $C = 6(12)+15 = 87$.", working: "6\\times12+15=87", marks: 1, markCode: "M" },
+              { reasoning: "$\\pounds87$.", marks: 1, markCode: "M" },
+              { reasoning: "Interpretation: $15$ is the one-off joining fee; $6$ is the monthly charge.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$C = 6m + 15$; $\\pounds87$ for $12$ months; $15$ = joining fee, $6$ = monthly rate",
+            commonErrors: ["$C=15m+6$ — swapping the fixed fee and the monthly rate."],
+          },
+        },
+        {
+          id: "cilm-u4-lg-q13",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "What is the y-intercept of $y = 4x$?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$x$" },
+              { id: "b", text: "$4$" },
+              { id: "c", text: "$0$" },
+              { id: "d", text: "$-4$" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              { kind: "definition", name: "y-intercept", statement: "Here $c=0$, so the line passes through the origin $(0,0)$." },
+            ],
+            steps: [
+              { reasoning: "At $x=0$, $y=4(0)=0$ → intercept is $0$.", working: "c=0", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(b)** $0$",
+            commonErrors: ["Choosing (a) — $4$ is the gradient, not the intercept."],
+          },
+        },
+        {
+          id: "cilm-u4-lg-q14",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "For the line $y = 3x - 2$, find the value of $y$ when $x = 5$.",
+          response: { type: "numeric", parts: [{ label: "Answer", answer: 13 }] },
+          markscheme: {
+            principles: [
+              { kind: "convention", name: "Points on a line", statement: "Substitute $x=5$: $y=3(5)-2$." },
+            ],
+            steps: [
+              { reasoning: "$y = 3(5)-2 = 15-2 = 13$.", working: "15-2=13", marks: 1, markCode: "M" },
+            ],
+            finalAnswer: "$13$",
+            commonErrors: ["$3(5)-2$ mis-evaluated — multiply before subtracting."],
+          },
+        },
+        {
+          id: "cilm-u4-lg-q15",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Which of these lines is the steepest?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$y = x + 7$" },
+              { id: "b", text: "$y = 5x + 1$" },
+              { id: "c", text: "$y = 0.5x + 4$" },
+              { id: "d", text: "$y = 2x + 9$" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              { kind: "definition", name: "Gradient and steepness", statement: "Steepness depends on $|m|$ — larger gradient means steeper." },
+            ],
+            steps: [
+              { reasoning: "Gradients are $5$, $2$, $0.5$, $1$ — $5$ is largest, so $y=5x+1$ is steepest.", working: "m=5", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** $y = 5x + 1$",
+            commonErrors: ["Choosing (b) because of the larger intercept — steepness depends on the gradient only."],
+          },
+        },
+        {
+          id: "cilm-u4-lg-q16",
+          difficulty: "challenge",
+          totalMarks: 9,
+          stem: "A delivery van leaves a depot and drives at constant speed. Its distance $d$ km from the depot after $t$ hours is linear. After $1$ hour it is $20$ km away; after $4$ hours it is $74$ km away.",
+          parts: [
+            { label: "a", prompt: "Find the equation relating $d$ to $t$.", marks: 3 },
+            { label: "b", prompt: "Interpret the gradient of your equation.", marks: 2 },
+            { label: "c", prompt: "When will the van be $110$ km from the depot?", marks: 2 },
+            { label: "d", prompt: "Explain why the line does not pass through the origin.", marks: 2 },
+          ],
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Linear graphs", statement: "Two points → gradient → intercept → equation → solve; interpret in context." },
+            ],
+            steps: [
+              { part: "a", reasoning: "Gradient $=\\frac{74-20}{4-1}=\\frac{54}{3}=18$ km/h.", working: "m=18", marks: 1, markCode: "M" },
+              { part: "a", reasoning: "Using $(1,20)$: $20=18(1)+c$ → $c=2$.", working: "c=2", marks: 1, markCode: "M" },
+              { part: "a", reasoning: "Equation: $d = 18t + 2$.", working: "d=18t+2", marks: 1, markCode: "A" },
+              { part: "b", reasoning: "Gradient $18$ means the van travels at $18$ km/h.", working: "18\\text{ km/h}", marks: 1, markCode: "M" },
+              { part: "b", reasoning: "Interpretation correct.", marks: 1, markCode: "A" },
+              { part: "c", reasoning: "$110=18t+2$ → $18t=108$ → $t=6$ hours.", working: "t=6", marks: 1, markCode: "M" },
+              { part: "c", reasoning: "Correct.", marks: 1, markCode: "A" },
+              { part: "d", reasoning: "Intercept $c=2$ means the van was already $2$ km from the depot at $t=0$ (or started $2$ km away).", working: "c=2 \\Rightarrow 2\\text{ km at }t=0", marks: 1, markCode: "M" },
+              { part: "d", reasoning: "Explanation links intercept to context.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "(a) $d=18t+2$ (b) gradient $18$ = speed of $18$ km/h (c) $t=6$ hours (d) van started $2$ km from the depot",
+            levels: [
+              { level: "Level 3", marks: "2-3", descriptor: "Equation correct.", part: "a" },
+              { level: "Level 2", marks: "1", descriptor: "Partial.", part: "a" },
+              { level: "Level 2", marks: "1-2", descriptor: "Gradient interpreted.", part: "b" },
+              { level: "Level 1", marks: "0", descriptor: "Missing.", part: "b" },
+              { level: "Level 2", marks: "1-2", descriptor: "Time correct.", part: "c" },
+              { level: "Level 1", marks: "0", descriptor: "Wrong.", part: "c" },
+              { level: "Level 2", marks: "1-2", descriptor: "Intercept explained in context.", part: "d" },
+              { level: "Level 1", marks: "0", descriptor: "Vague.", part: "d" },
+            ],
+            commonErrors: ["In (a) finding gradient as $\\frac{4}{54}$ — rise over run, not run over rise."],
           },
         },
       ],

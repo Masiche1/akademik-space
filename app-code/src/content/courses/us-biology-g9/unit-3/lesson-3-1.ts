@@ -50,12 +50,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Adenine" },
-              { id: "b", text: "Thymine" },
-              { id: "c", text: "Cytosine" },
-              { id: "d", text: "Uracil" },
+              { id: "a", text: "Thymine" },
+              { id: "b", text: "Adenine" },
+              { id: "c", text: "Uracil" },
+              { id: "d", text: "Cytosine" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -191,10 +191,10 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Nucleus" },
+              { id: "a", text: "Nucleolus" },
               { id: "b", text: "Ribosome" },
-              { id: "c", text: "Nucleolus" },
-              { id: "d", text: "Cell membrane" },
+              { id: "c", text: "Cell membrane" },
+              { id: "d", text: "Nucleus" },
             ],
             correctChoiceId: "b",
           },

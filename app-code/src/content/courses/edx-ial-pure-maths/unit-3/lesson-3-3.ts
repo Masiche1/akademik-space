@@ -51,12 +51,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$2x\\sin x+x^2\\cos x$" },
-              { id: "b", text: "$x^2\\cos x$" },
-              { id: "c", text: "$2x\\cos x$" },
-              { id: "d", text: "$2x\\sin x-x^2\\cos x$" },
+              { id: "a", text: "$x^2\\cos x$" },
+              { id: "b", text: "$2x\\cos x$" },
+              { id: "c", text: "$2x\\sin x-x^2\\cos x$" },
+              { id: "d", text: "$2x\\sin x+x^2\\cos x$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -180,12 +180,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$x^2$" },
-              { id: "b", text: "$2x$" },
-              { id: "c", text: "$\\sin(x^2)$" },
+              { id: "a", text: "$2x$" },
+              { id: "b", text: "$\\sin(x^2)$" },
+              { id: "c", text: "$x^2$" },
               { id: "d", text: "$x$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

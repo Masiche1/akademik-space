@@ -53,12 +53,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$6\\sqrt2$" },
-              { id: "b", text: "$8\\sqrt9$" },
-              { id: "c", text: "$3\\sqrt8$" },
-              { id: "d", text: "$36\\sqrt2$" },
+              { id: "a", text: "$8\\sqrt9$" },
+              { id: "b", text: "$3\\sqrt8$" },
+              { id: "c", text: "$36\\sqrt2$" },
+              { id: "d", text: "$6\\sqrt2$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -101,12 +101,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\frac{7(\\sqrt5-\\sqrt2)}{3}$" },
-              { id: "b", text: "$7(\\sqrt5-\\sqrt2)$" },
-              { id: "c", text: "$\\frac{7(\\sqrt5+\\sqrt2)}{3}$" },
-              { id: "d", text: "$\\frac{7}{3\\sqrt{10}}$" },
+              { id: "a", text: "$\\frac{7(\\sqrt5+\\sqrt2)}{3}$" },
+              { id: "b", text: "$\\frac{7}{3\\sqrt{10}}$" },
+              { id: "c", text: "$7(\\sqrt5-\\sqrt2)$" },
+              { id: "d", text: "$\\frac{7(\\sqrt5-\\sqrt2)}{3}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -212,12 +212,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$x=3$; $x=-1$ is extraneous" },
+              { id: "a", text: "There are no real solutions" },
               { id: "b", text: "$x=-1$ and $x=3$ are both solutions" },
-              { id: "c", text: "$x=-1$ only" },
-              { id: "d", text: "There are no real solutions" },
+              { id: "c", text: "$x=3$; $x=-1$ is extraneous" },
+              { id: "d", text: "$x=-1$ only" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

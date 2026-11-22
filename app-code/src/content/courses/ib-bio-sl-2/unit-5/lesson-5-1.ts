@@ -55,9 +55,9 @@ export const lesson51: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Motor neuron" },
-              { id: "b", text: "Relay neuron" },
+              { id: "b", text: "Effector cell" },
               { id: "c", text: "Sensory neuron" },
-              { id: "d", text: "Effector cell" },
+              { id: "d", text: "Relay neuron" },
             ],
             correctChoiceId: "c",
           },
@@ -82,12 +82,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It diffuses across the cleft and binds receptors on the postsynaptic neuron, generating a new impulse" },
-              { id: "b", text: "It flows through gap junctions as an electrical current" },
-              { id: "c", text: "It is carried across by red blood cells" },
-              { id: "d", text: "It enters the nucleus of the next neuron" },
+              { id: "a", text: "It flows through gap junctions as an electrical current" },
+              { id: "b", text: "It enters the nucleus of the next neuron" },
+              { id: "c", text: "It diffuses across the cleft and binds receptors on the postsynaptic neuron, generating a new impulse" },
+              { id: "d", text: "It is carried across by red blood cells" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -112,11 +112,11 @@ export const lesson51: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Muscles would contract more strongly" },
-              { id: "b", text: "Transmission from motor neurons to muscles would fail, causing muscle weakness or paralysis" },
-              { id: "c", text: "Sensory neurons would fire faster" },
-              { id: "d", text: "The spinal cord would produce more reflexes" },
+              { id: "b", text: "The spinal cord would produce more reflexes" },
+              { id: "c", text: "Transmission from motor neurons to muscles would fail, causing muscle weakness or paralysis" },
+              { id: "d", text: "Sensory neurons would fire faster" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -174,10 +174,10 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The synaptic cleft" },
+              { id: "a", text: "The axon terminal" },
               { id: "b", text: "The myelin sheath" },
-              { id: "c", text: "The axon terminal" },
-              { id: "d", text: "The cell body nucleus" },
+              { id: "c", text: "The cell body nucleus" },
+              { id: "d", text: "The synaptic cleft" },
             ],
             correctChoiceId: "b",
           },
@@ -203,12 +203,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A sensory neuron" },
-              { id: "b", text: "A motor neuron" },
-              { id: "c", text: "A relay neuron" },
-              { id: "d", text: "An effector cell" },
+              { id: "a", text: "An effector cell" },
+              { id: "b", text: "A relay neuron" },
+              { id: "c", text: "A sensory neuron" },
+              { id: "d", text: "A motor neuron" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -232,12 +232,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Impulses would travel faster along the axons" },
-              { id: "b", text: "Synapses would fail to transmit and muscles supplied by them would weaken or become paralysed" },
-              { id: "c", text: "Neurotransmitter would accumulate harmlessly in the cleft" },
-              { id: "d", text: "Reflex responses would become faster" },
+              { id: "a", text: "Neurotransmitter would accumulate harmlessly in the cleft" },
+              { id: "b", text: "Reflex responses would become faster" },
+              { id: "c", text: "Synapses would fail to transmit and muscles supplied by them would weaken or become paralysed" },
+              { id: "d", text: "Impulses would travel faster along the axons" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -378,12 +378,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Conscious thought and memory" },
-              { id: "b", text: "Coordination of movement and balance" },
+              { id: "a", text: "Coordination of movement and balance" },
+              { id: "b", text: "Conscious thought and memory" },
               { id: "c", text: "Control of breathing rate" },
               { id: "d", text: "Release of hormones into the blood" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -428,12 +428,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Because the synaptic cleft only allows diffusion in one direction" },
-              { id: "b", text: "Because neurotransmitter receptors are only on the postsynaptic membrane and vesicles only in the presynaptic neuron" },
-              { id: "c", text: "Because myelin blocks any backward flow" },
-              { id: "d", text: "Because the axon contains one-way valves" },
+              { id: "a", text: "Because myelin blocks any backward flow" },
+              { id: "b", text: "Because the axon contains one-way valves" },
+              { id: "c", text: "Because the synaptic cleft only allows diffusion in one direction" },
+              { id: "d", text: "Because neurotransmitter receptors are only on the postsynaptic membrane and vesicles only in the presynaptic neuron" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -522,10 +522,10 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Glucagon" },
+              { id: "a", text: "Thyroxine" },
               { id: "b", text: "Adrenaline" },
               { id: "c", text: "Insulin" },
-              { id: "d", text: "Thyroxine" },
+              { id: "d", text: "Glucagon" },
             ],
             correctChoiceId: "c",
           },
@@ -550,12 +550,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Hormones act faster but on fewer cells" },
-              { id: "b", text: "Hormones are slower, widespread through the blood, and longer-lasting" },
-              { id: "c", text: "Hormones travel along nerves" },
-              { id: "d", text: "Hormones act only on the gland that produced them" },
+              { id: "a", text: "Hormones travel along nerves" },
+              { id: "b", text: "Hormones act only on the gland that produced them" },
+              { id: "c", text: "Hormones are slower, widespread through the blood, and longer-lasting" },
+              { id: "d", text: "Hormones act faster but on fewer cells" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -579,12 +579,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Type 1 diabetes caused by failure of insulin-producing cells" },
-              { id: "b", text: "Type 2 diabetes caused by insulin resistance" },
+              { id: "a", text: "Type 2 diabetes caused by insulin resistance" },
+              { id: "b", text: "Type 1 diabetes caused by failure of insulin-producing cells" },
               { id: "c", text: "Hypoglycaemia" },
               { id: "d", text: "Hyperthyroidism" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -641,12 +641,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Insulin" },
-              { id: "b", text: "Glucagon" },
-              { id: "c", text: "Thyroxine" },
-              { id: "d", text: "Adrenaline" },
+              { id: "a", text: "Thyroxine" },
+              { id: "b", text: "Adrenaline" },
+              { id: "c", text: "Insulin" },
+              { id: "d", text: "Glucagon" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -669,12 +669,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Cells nearest to the gland that secreted it" },
-              { id: "b", text: "Cells carrying the specific receptor for that hormone" },
-              { id: "c", text: "Cells that are the largest in the body" },
-              { id: "d", text: "All cells respond equally to every hormone" },
+              { id: "a", text: "All cells respond equally to every hormone" },
+              { id: "b", text: "Cells that are the largest in the body" },
+              { id: "c", text: "Cells nearest to the gland that secreted it" },
+              { id: "d", text: "Cells carrying the specific receptor for that hormone" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -698,12 +698,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The hormone always stimulates more of itself being released" },
-              { id: "b", text: "The effect of a response reduces the stimulus that triggered it, stabilising the variable" },
-              { id: "c", text: "One hormone permanently blocks another hormone" },
-              { id: "d", text: "The gland stops working once a hormone is released" },
+              { id: "a", text: "The effect of a response reduces the stimulus that triggered it, stabilising the variable" },
+              { id: "b", text: "One hormone permanently blocks another hormone" },
+              { id: "c", text: "The gland stops working once a hormone is released" },
+              { id: "d", text: "The hormone always stimulates more of itself being released" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -727,10 +727,10 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Decreased heart rate and increased insulin secretion" },
+              { id: "a", text: "Decreased breathing rate and reduced blood glucose" },
               { id: "b", text: "Increased heart rate, increased blood glucose and bronchodilation" },
-              { id: "c", text: "Decreased breathing rate and reduced blood glucose" },
-              { id: "d", text: "Increased urine production and decreased gut activity only" },
+              { id: "c", text: "Increased urine production and decreased gut activity only" },
+              { id: "d", text: "Decreased heart rate and increased insulin secretion" },
             ],
             correctChoiceId: "b",
           },
@@ -757,12 +757,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Insulin from beta cells of the pancreas" },
-              { id: "b", text: "Glucagon from alpha cells of the pancreas" },
-              { id: "c", text: "Thyroxine from the thyroid gland" },
-              { id: "d", text: "Progesterone from the ovaries" },
+              { id: "a", text: "Progesterone from the ovaries" },
+              { id: "b", text: "Insulin from beta cells of the pancreas" },
+              { id: "c", text: "Glucagon from alpha cells of the pancreas" },
+              { id: "d", text: "Thyroxine from the thyroid gland" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

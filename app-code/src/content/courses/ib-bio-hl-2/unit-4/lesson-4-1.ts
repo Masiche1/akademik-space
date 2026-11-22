@@ -92,12 +92,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Directional selection" },
-              { id: "b", text: "Stabilising selection" },
-              { id: "c", text: "Disruptive selection" },
-              { id: "d", text: "Artificial selection only" },
+              { id: "a", text: "Artificial selection only" },
+              { id: "b", text: "Disruptive selection" },
+              { id: "c", text: "Stabilising selection" },
+              { id: "d", text: "Directional selection" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -142,19 +142,19 @@ export const lesson41: Lesson = {
             choices: [
               {
                 id: "a",
-                text: "Directional selection favouring larger babies",
-              },
-              {
-                id: "b",
                 text: "Stabilising selection favouring average birth mass",
               },
-              { id: "c", text: "Disruptive selection favouring both extremes" },
+              { id: "b", text: "Disruptive selection favouring both extremes" },
               {
-                id: "d",
+                id: "c",
                 text: "No selection because birth mass is not inherited",
               },
+              {
+                id: "d",
+                text: "Directional selection favouring larger babies",
+              },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -215,11 +215,11 @@ export const lesson41: Lesson = {
               },
               {
                 id: "c",
-                text: "Disruptive selection favouring both homozygotes",
+                text: "Genetic drift alone in a very large population",
               },
               {
                 id: "d",
-                text: "Genetic drift alone in a very large population",
+                text: "Disruptive selection favouring both homozygotes",
               },
             ],
             correctChoiceId: "b",
@@ -406,8 +406,8 @@ export const lesson41: Lesson = {
             choices: [
               { id: "a", text: "Stabilising selection" },
               { id: "b", text: "Directional selection" },
-              { id: "c", text: "Disruptive selection" },
-              { id: "d", text: "Sexual selection" },
+              { id: "c", text: "Sexual selection" },
+              { id: "d", text: "Disruptive selection" },
             ],
             correctChoiceId: "b",
           },
@@ -454,11 +454,11 @@ export const lesson41: Lesson = {
             choices: [
               {
                 id: "a",
-                text: "The fittest variant in a population is always assigned $w = 1$",
+                text: "Relative fitness can exceed $1$ for advantageous alleles",
               },
               {
                 id: "b",
-                text: "Relative fitness can exceed $1$ for advantageous alleles",
+                text: "The fittest variant in a population is always assigned $w = 1$",
               },
               {
                 id: "c",
@@ -469,7 +469,7 @@ export const lesson41: Lesson = {
                 text: "Relative fitness can only be measured for heterozygous genotypes",
               },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -515,11 +515,11 @@ export const lesson41: Lesson = {
             choices: [
               {
                 id: "a",
-                text: "Stabilising selection removes genetic variation",
+                text: "Directional selection increases the frequency of the resistance allele",
               },
               {
                 id: "b",
-                text: "Directional selection increases the frequency of the resistance allele",
+                text: "No evolution occurs because bacteria reproduce asexually",
               },
               {
                 id: "c",
@@ -527,10 +527,10 @@ export const lesson41: Lesson = {
               },
               {
                 id: "d",
-                text: "No evolution occurs because bacteria reproduce asexually",
+                text: "Stabilising selection removes genetic variation",
               },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -725,22 +725,22 @@ export const lesson41: Lesson = {
             choices: [
               {
                 id: "a",
-                text: "The intermediate beak size is favoured, narrowing the distribution",
+                text: "Speciation is impossible without a geographic barrier",
               },
               {
                 id: "b",
-                text: "Both extremes have higher fitness than intermediates, increasing variance and potentially isolating the forms",
-              },
-              {
-                id: "c",
                 text: "Gene flow between the clusters will inevitably merge them into one species",
               },
               {
+                id: "c",
+                text: "Both extremes have higher fitness than intermediates, increasing variance and potentially isolating the forms",
+              },
+              {
                 id: "d",
-                text: "Speciation is impossible without a geographic barrier",
+                text: "The intermediate beak size is favoured, narrowing the distribution",
               },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1242,15 +1242,15 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Directional natural selection against tails" },
+              { id: "a", text: "Disruptive selection between tail lengths" },
+              { id: "b", text: "Stabilising selection on tail length" },
+              { id: "c", text: "Directional natural selection against tails" },
               {
-                id: "b",
+                id: "d",
                 text: "Intersexual selection driven by female mate choice",
               },
-              { id: "c", text: "Stabilising selection on tail length" },
-              { id: "d", text: "Disruptive selection between tail lengths" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1296,11 +1296,11 @@ export const lesson41: Lesson = {
             choices: [
               {
                 id: "a",
-                text: "This is intersexual selection because antlers attract females",
+                text: "This is intrasexual selection because males compete directly for mating access",
               },
               {
                 id: "b",
-                text: "This is intrasexual selection because males compete directly for mating access",
+                text: "This is intersexual selection because antlers attract females",
               },
               {
                 id: "c",
@@ -1311,7 +1311,7 @@ export const lesson41: Lesson = {
                 text: "This is balancing selection because two types persist",
               },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -1368,15 +1368,15 @@ export const lesson41: Lesson = {
               },
               {
                 id: "b",
-                text: "Frequency-dependent selection maintaining both morphs at intermediate frequencies",
+                text: "Disruptive selection favouring the common morph",
               },
               { id: "c", text: "Stabilising selection removing all variation" },
               {
                 id: "d",
-                text: "Disruptive selection favouring the common morph",
+                text: "Frequency-dependent selection maintaining both morphs at intermediate frequencies",
               },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1556,12 +1556,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Intersexual selection" },
-              { id: "b", text: "Intrasexual selection" },
-              { id: "c", text: "Stabilising selection" },
-              { id: "d", text: "Frequency-dependent selection" },
+              { id: "a", text: "Intrasexual selection" },
+              { id: "b", text: "Frequency-dependent selection" },
+              { id: "c", text: "Intersexual selection" },
+              { id: "d", text: "Stabilising selection" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -1606,19 +1606,19 @@ export const lesson41: Lesson = {
             choices: [
               {
                 id: "a",
-                text: "Heterozygotes always have the highest mutation rate",
-              },
-              {
-                id: "b",
                 text: "The heterozygote has higher fitness than either homozygote, maintaining both alleles",
               },
-              { id: "c", text: "Both homozygotes outcompete the heterozygote" },
+              { id: "b", text: "Both homozygotes outcompete the heterozygote" },
               {
-                id: "d",
+                id: "c",
                 text: "Allele frequencies change randomly each generation",
               },
+              {
+                id: "d",
+                text: "Heterozygotes always have the highest mutation rate",
+              },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -1664,7 +1664,7 @@ export const lesson41: Lesson = {
             choices: [
               {
                 id: "a",
-                text: "Directional selection favouring the larger morph",
+                text: "Stabilising selection fixing an intermediate mouth shape",
               },
               {
                 id: "b",
@@ -1672,7 +1672,7 @@ export const lesson41: Lesson = {
               },
               {
                 id: "c",
-                text: "Stabilising selection fixing an intermediate mouth shape",
+                text: "Directional selection favouring the larger morph",
               },
               {
                 id: "d",
@@ -1886,18 +1886,18 @@ export const lesson41: Lesson = {
               },
               {
                 id: "b",
-                text: "A genetic correlation between the ornament and female preference amplifies both over generations",
+                text: "Ornaments are maintained only by mutation pressure",
               },
               {
                 id: "c",
-                text: "Females choose mates randomly, so ornaments cannot evolve",
+                text: "A genetic correlation between the ornament and female preference amplifies both over generations",
               },
               {
                 id: "d",
-                text: "Ornaments are maintained only by mutation pressure",
+                text: "Females choose mates randomly, so ornaments cannot evolve",
               },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

@@ -53,12 +53,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Biological factors only" },
-              { id: "b", text: "Psychological factors only" },
-              { id: "c", text: "Biological, psychological and social factors" },
+              { id: "a", text: "Biological, psychological and social factors" },
+              { id: "b", text: "Biological factors only" },
+              { id: "c", text: "Psychological factors only" },
               { id: "d", text: "Social factors only" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -152,12 +152,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Illness results only from biological dysfunction" },
-              { id: "b", text: "Psychological factors cause all illness" },
+              { id: "a", text: "Psychological factors cause all illness" },
+              { id: "b", text: "Illness results only from biological dysfunction" },
               { id: "c", text: "Social factors are irrelevant to health" },
               { id: "d", text: "Patients control their own illness" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -181,11 +181,11 @@ export const lesson62: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "How serious the illness would be" },
-              { id: "b", text: "How likely one believes oneself to be at risk of the illness" },
-              { id: "c", text: "Whether the treatment is affordable" },
+              { id: "b", text: "Whether the treatment is affordable" },
+              { id: "c", text: "How likely one believes oneself to be at risk of the illness" },
               { id: "d", text: "Confidence in performing the health behaviour" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -208,12 +208,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The seriousness of the illness" },
-              { id: "b", text: "Costs, effort and side effects of the health behaviour" },
+              { id: "a", text: "Costs, effort and side effects of the health behaviour" },
+              { id: "b", text: "Belief in personal ability to change" },
               { id: "c", text: "Reminders to take action" },
-              { id: "d", text: "Belief in personal ability to change" },
+              { id: "d", text: "The seriousness of the illness" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -236,12 +236,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Internal motivators like fear of illness" },
-              { id: "b", text: "External triggers or reminders that prompt health behaviour" },
+              { id: "a", text: "External triggers or reminders that prompt health behaviour" },
+              { id: "b", text: "Internal motivators like fear of illness" },
               { id: "c", text: "Evidence that the behaviour works" },
               { id: "d", text: "Costs that discourage the behaviour" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -264,12 +264,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Belief that the illness is serious" },
-              { id: "b", text: "Confidence in one's ability to perform the health behaviour" },
-              { id: "c", text: "Access to healthcare services" },
-              { id: "d", text: "Knowledge about the illness" },
+              { id: "a", text: "Knowledge about the illness" },
+              { id: "b", text: "Access to healthcare services" },
+              { id: "c", text: "Belief that the illness is serious" },
+              { id: "d", text: "Confidence in one's ability to perform the health behaviour" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -292,12 +292,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Attribute illness entirely to luck" },
-              { id: "b", text: "Take personal responsibility for health behaviours" },
+              { id: "a", text: "Take personal responsibility for health behaviours" },
+              { id: "b", text: "Attribute illness entirely to luck" },
               { id: "c", text: "Rely passively on doctors" },
               { id: "d", text: "Avoid preventive check-ups" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -320,12 +320,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Preventing disease before it occurs" },
-              { id: "b", text: "Early detection of disease through screening" },
-              { id: "c", text: "Reducing complications of established illness" },
-              { id: "d", text: "Treating terminal illness" },
+              { id: "a", text: "Early detection of disease through screening" },
+              { id: "b", text: "Reducing complications of established illness" },
+              { id: "c", text: "Treating terminal illness" },
+              { id: "d", text: "Preventing disease before it occurs" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -592,10 +592,10 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Deliberate deception by practitioners" },
+              { id: "a", text: "Worsening after stopping medication" },
               { id: "b", text: "Improvement from expecting treatment to work" },
-              { id: "c", text: "Side effects of inactive substances" },
-              { id: "d", text: "Worsening after stopping medication" },
+              { id: "c", text: "Deliberate deception by practitioners" },
+              { id: "d", text: "Side effects of inactive substances" },
             ],
             correctChoiceId: "b",
           },
@@ -693,8 +693,8 @@ export const lesson62: Lesson = {
             choices: [
               { id: "a", text: "The patient's satisfaction with the practitioner" },
               { id: "b", text: "The extent to which patients follow prescribed treatment regimens" },
-              { id: "c", text: "The speed of recovery after treatment" },
-              { id: "d", text: "The cost of the prescribed medication" },
+              { id: "c", text: "The cost of the prescribed medication" },
+              { id: "d", text: "The speed of recovery after treatment" },
             ],
             correctChoiceId: "b",
           },
@@ -719,10 +719,10 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The doctor deciding treatment alone" },
+              { id: "a", text: "Patients prescribing their own medication" },
               { id: "b", text: "Involving patients in choosing among treatment options" },
-              { id: "c", text: "Patients prescribing their own medication" },
-              { id: "d", text: "Insurance companies setting treatment" },
+              { id: "c", text: "Insurance companies setting treatment" },
+              { id: "d", text: "The doctor deciding treatment alone" },
             ],
             correctChoiceId: "b",
           },
@@ -747,10 +747,10 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Clear written instructions" },
+              { id: "a", text: "Follow-up appointments" },
               { id: "b", text: "Unpleasant side effects" },
-              { id: "c", text: "Follow-up appointments" },
-              { id: "d", text: "Involvement in treatment decisions" },
+              { id: "c", text: "Involvement in treatment decisions" },
+              { id: "d", text: "Clear written instructions" },
             ],
             correctChoiceId: "b",
           },
@@ -775,12 +775,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The chemical action of the inactive substance" },
-              { id: "b", text: "Patient expectation that the treatment will work" },
+              { id: "a", text: "Patient expectation that the treatment will work" },
+              { id: "b", text: "The chemical action of the inactive substance" },
               { id: "c", text: "Natural recovery unrelated to treatment" },
               { id: "d", text: "Deception by the practitioner" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -803,12 +803,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Improvement from expecting treatment to work" },
-              { id: "b", text: "Harm produced by expecting negative effects" },
-              { id: "c", text: "Side effects of active medication" },
-              { id: "d", text: "Recovery after stopping treatment" },
+              { id: "a", text: "Side effects of active medication" },
+              { id: "b", text: "Recovery after stopping treatment" },
+              { id: "c", text: "Harm produced by expecting negative effects" },
+              { id: "d", text: "Improvement from expecting treatment to work" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -831,12 +831,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The patient's insurance coverage" },
-              { id: "b", text: "The trusting relationship between practitioner and patient" },
+              { id: "a", text: "The trusting relationship between practitioner and patient" },
+              { id: "b", text: "The patient's insurance coverage" },
               { id: "c", text: "The prescribed drug regimen" },
               { id: "d", text: "The physical clinic environment" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -859,10 +859,10 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "They are too expensive" },
+              { id: "a", text: "They require hospital admission" },
               { id: "b", text: "Deception violates the principle of informed consent" },
-              { id: "c", text: "They never produce any effect" },
-              { id: "d", text: "They require hospital admission" },
+              { id: "c", text: "They are too expensive" },
+              { id: "d", text: "They never produce any effect" },
             ],
             correctChoiceId: "b",
           },

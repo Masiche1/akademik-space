@@ -72,12 +72,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Similarly" },
-              { id: "b", text: "Likewise" },
-              { id: "c", text: "Whereas" },
-              { id: "d", text: "In the same way" },
+              { id: "a", text: "Likewise" },
+              { id: "b", text: "Whereas" },
+              { id: "c", text: "In the same way" },
+              { id: "d", text: "Similarly" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "skill", name: "Comparative connectives", statement: "Choose connectives that signal similarity or difference accurately." }],
@@ -199,12 +199,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Both poets present loss differently: Owen with bitter outrage, Shakespeare through confidence in lasting love." },
-              { id: "b", text: "Owen was a soldier born in 1893." },
-              { id: "c", text: "In this essay I will write about two poems." },
-              { id: "d", text: "Poems are written by poets." },
+              { id: "a", text: "In this essay I will write about two poems." },
+              { id: "b", text: "Poems are written by poets." },
+              { id: "c", text: "Both poets present loss differently: Owen with bitter outrage, Shakespeare through confidence in lasting love." },
+              { id: "d", text: "Owen was a soldier born in 1893." },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "skill", name: "Clear thesis", statement: "An opening that answers the question and signals a comparison." }],

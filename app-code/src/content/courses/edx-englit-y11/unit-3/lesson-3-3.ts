@@ -54,12 +54,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "'Because Longbourn is entailed to a male heir, Mrs Bennet's panic about her daughters' futures reflects a real danger.'" },
-              { id: "b", text: "'Jane Austen was born in 1775 and lived in Hampshire.'" },
-              { id: "c", text: "'Context is important in the novel.'" },
-              { id: "d", text: "'In the nineteenth century many things were different from today.'" },
+              { id: "a", text: "'In the nineteenth century many things were different from today.'" },
+              { id: "b", text: "'Because Longbourn is entailed to a male heir, Mrs Bennet's panic about her daughters' futures reflects a real danger.'" },
+              { id: "c", text: "'Jane Austen was born in 1775 and lived in Hampshire.'" },
+              { id: "d", text: "'Context is important in the novel.'" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "skill", name: "Integrated context", statement: "A precise fact explaining a specific character or event." }],
@@ -191,8 +191,8 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "AO2" },
-              { id: "b", text: "AO1" },
-              { id: "c", text: "AO3" },
+              { id: "b", text: "AO3" },
+              { id: "c", text: "AO1" },
               { id: "d", text: "AO4" },
             ],
             correctChoiceId: "a",

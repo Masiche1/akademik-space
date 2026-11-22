@@ -50,8 +50,8 @@ export const lesson11: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$0\\ \\text{m}$" },
-              { id: "b", text: "$200\\ \\text{m}$" },
-              { id: "c", text: "$400\\ \\text{m}$" },
+              { id: "b", text: "$400\\ \\text{m}$" },
+              { id: "c", text: "$200\\ \\text{m}$" },
               { id: "d", text: "$800\\ \\text{m}$" },
             ],
             correctChoiceId: "a",
@@ -187,12 +187,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$v_f = v_i + at$" },
-              { id: "b", text: "$\\Delta x = v_i t + \\frac{1}{2}at^2$" },
-              { id: "c", text: "$v_f^2 = v_i^2 + 2a\\Delta x$" },
-              { id: "d", text: "$v = \\frac{\\Delta x}{\\Delta t}$" },
+              { id: "a", text: "$v_f^2 = v_i^2 + 2a\\Delta x$" },
+              { id: "b", text: "$v = \\frac{\\Delta x}{\\Delta t}$" },
+              { id: "c", text: "$v_f = v_i + at$" },
+              { id: "d", text: "$\\Delta x = v_i t + \\frac{1}{2}at^2$" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [

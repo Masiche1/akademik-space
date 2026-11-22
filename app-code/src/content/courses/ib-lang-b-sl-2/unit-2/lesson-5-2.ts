@@ -91,18 +91,18 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Argumentative essays are always longer" },
               {
-                id: "b",
+                id: "a",
                 text: "Argumentative essays take a clear position; discursive essays explore multiple views",
               },
-              { id: "c", text: "Discursive essays use more evidence" },
               {
-                id: "d",
+                id: "b",
                 text: "Argumentative essays cannot mention opposing views",
               },
+              { id: "c", text: "Discursive essays use more evidence" },
+              { id: "d", text: "Argumentative essays are always longer" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -311,12 +311,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Use more formal vocabulary" },
-              { id: "b", text: "Defend one clear position" },
-              { id: "c", text: "Be longer" },
-              { id: "d", text: "Avoid mentioning opposing views" },
+              { id: "a", text: "Avoid mentioning opposing views" },
+              { id: "b", text: "Be longer" },
+              { id: "c", text: "Defend one clear position" },
+              { id: "d", text: "Use more formal vocabulary" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -353,12 +353,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Only in the introduction" },
-              { id: "b", text: "In its own paragraph before the conclusion" },
+              { id: "a", text: "In its own paragraph before the conclusion" },
+              { id: "b", text: "It never appears" },
               { id: "c", text: "Only in the conclusion" },
-              { id: "d", text: "It never appears" },
+              { id: "d", text: "Only in the introduction" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -396,15 +396,15 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Uniforms are bad and everyone knows it." },
+              { id: "a", text: "Uniforms exist in many schools." },
+              { id: "b", text: "Some people like uniforms and some do not." },
               {
-                id: "b",
+                id: "c",
                 text: "Although uniforms limit expression, their benefits outweigh the cost.",
               },
-              { id: "c", text: "Some people like uniforms and some do not." },
-              { id: "d", text: "Uniforms exist in many schools." },
+              { id: "d", text: "Uniforms are bad and everyone knows it." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -445,10 +445,10 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Introduces a new topic" },
+              { id: "a", text: "Lists more examples" },
               { id: "b", text: "Answers or weakens the counter-argument" },
               { id: "c", text: "Repeats the thesis" },
-              { id: "d", text: "Lists more examples" },
+              { id: "d", text: "Introduces a new topic" },
             ],
             correctChoiceId: "b",
           },
@@ -487,15 +487,15 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It is always shorter" },
+              { id: "a", text: "Examiners forbid mentioning other views" },
+              { id: "b", text: "It uses less formal language" },
+              { id: "c", text: "It is always shorter" },
               {
-                id: "b",
+                id: "d",
                 text: "It ignores complexity and cannot convince a sceptical reader",
               },
-              { id: "c", text: "It uses less formal language" },
-              { id: "d", text: "Examiners forbid mentioning other views" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -540,15 +540,15 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Homework is good." },
               {
-                id: "b",
+                id: "a",
                 text: "Homework reinforces learning because repeated practice helps students retain material.",
               },
-              { id: "c", text: "Homework is a thing students do." },
-              { id: "d", text: "Many people have opinions about homework." },
+              { id: "b", text: "Homework is good." },
+              { id: "c", text: "Many people have opinions about homework." },
+              { id: "d", text: "Homework is a thing students do." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -952,17 +952,17 @@ export const lesson52: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Discursive essays are always shorter" },
+              { id: "b", text: "Discursive essays cannot have a conclusion" },
               {
-                id: "b",
-                text: "Discursive essays explore multiple views; argumentative essays defend one position",
-              },
-              { id: "c", text: "Discursive essays cannot have a conclusion" },
-              {
-                id: "d",
+                id: "c",
                 text: "Argumentative essays use more formal language",
               },
+              {
+                id: "d",
+                text: "Discursive essays explore multiple views; argumentative essays defend one position",
+              },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1180,15 +1180,15 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It defends one position forcefully" },
               {
-                id: "b",
+                id: "a",
                 text: "It explores a topic from multiple perspectives",
               },
-              { id: "c", text: "It narrates a personal story" },
-              { id: "d", text: "It lists facts without comment" },
+              { id: "b", text: "It lists facts without comment" },
+              { id: "c", text: "It defends one position forcefully" },
+              { id: "d", text: "It narrates a personal story" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -1227,11 +1227,11 @@ export const lesson52: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Obviously everyone agrees that..." },
-              { id: "b", text: "Supporters argue that..." },
-              { id: "c", text: "The truth is that..." },
-              { id: "d", text: "It goes without saying that..." },
+              { id: "b", text: "It goes without saying that..." },
+              { id: "c", text: "Supporters argue that..." },
+              { id: "d", text: "The truth is that..." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1267,13 +1267,13 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Both sides have some good points." },
+              { id: "a", text: "We will never know the answer." },
               {
                 id: "b",
                 text: "On balance, the evidence leans towards X because...",
               },
               { id: "c", text: "In conclusion, X is obviously correct." },
-              { id: "d", text: "We will never know the answer." },
+              { id: "d", text: "Both sides have some good points." },
             ],
             correctChoiceId: "b",
           },
@@ -1322,16 +1322,16 @@ export const lesson52: Lesson = {
             choices: [
               {
                 id: "a",
-                text: "Presenting the strongest version of an opposing view",
-              },
-              {
-                id: "b",
                 text: "Presenting a weak, distorted version of the opposing view to defeat it easily",
               },
-              { id: "c", text: "Using a formal tone throughout" },
+              { id: "b", text: "Using a formal tone throughout" },
+              {
+                id: "c",
+                text: "Presenting the strongest version of an opposing view",
+              },
               { id: "d", text: "Citing evidence for every claim" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -1370,15 +1370,15 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "View A is right and View B is wrong." },
               {
-                id: "b",
+                id: "a",
                 text: "While both views have merit, the evidence suggests View A is stronger.",
               },
-              { id: "c", text: "View B is completely absurd." },
-              { id: "d", text: "It depends on who you ask." },
+              { id: "b", text: "It depends on who you ask." },
+              { id: "c", text: "View A is right and View B is wrong." },
+              { id: "d", text: "View B is completely absurd." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -1417,15 +1417,15 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Discursive essays have no introduction" },
               {
-                id: "b",
+                id: "a",
                 text: "Discursive essays present several perspectives fairly before a considered conclusion",
               },
+              { id: "b", text: "Discursive essays have no introduction" },
               { id: "c", text: "Discursive essays are always opinion pieces" },
               { id: "d", text: "Discursive essays must be longer" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

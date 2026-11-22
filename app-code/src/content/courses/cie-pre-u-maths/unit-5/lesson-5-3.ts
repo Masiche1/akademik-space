@@ -86,12 +86,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "5 N" },
+              { id: "a", text: "10 N" },
               { id: "b", text: "8.66 N" },
-              { id: "c", text: "10 N" },
+              { id: "c", text: "5 N" },
               { id: "d", text: "5.77 N" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -220,6 +220,421 @@ export const lesson53: Lesson = {
               },
             ],
             finalAnswer: "T ≈ 4.33 s; H ≈ 23.0 m; R ≈ 91.8 m",
+          },
+        },
+        {
+          id: "cipum-u5-mec-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "A force of 20 N acts at 30° to the horizontal. Its vertical component is:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "10 N" },
+              { id: "b", text: "17.3 N" },
+              { id: "c", text: "5 N" },
+              { id: "d", text: "20 N" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Force resolution",
+                statement: "$F_y = F\\sin\\theta$.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "$F_y = 20\\sin 30° = 20 \\times 0.5 = 10$ N.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "10 N",
+          },
+        },
+        {
+          id: "cipum-u5-mec-q6",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "Two forces of 3 N east and 4 N north act on a particle. What is the magnitude of the force needed for equilibrium?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 5 }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Equilibrium",
+                statement: "The balancing force equals the resultant in magnitude, opposite in direction.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "Resultant $= \\sqrt{3^2 + 4^2} = \\sqrt{25} = 5$ N.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "Required force $= 5$ N.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "5 N",
+          },
+        },
+        {
+          id: "cipum-u5-mec-q7",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "A uniform beam AB of length 8 m and weight 400 N is supported at A and B. A load of 300 N hangs 2 m from A. Find the reactions at A and B.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Moments",
+                statement: "$\\sum M = 0$ about a chosen pivot; $\\sum F = 0$.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "Moments about A: $R_B \\times 8 = 400 \\times 4 + 300 \\times 2 = 2200$.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "$R_B = \\frac{2200}{8} = 275$ N.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "$R_A = 400 + 300 - 275 = 425$ N.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "$R_A = 425$ N, $R_B = 275$ N",
+          },
+        },
+        {
+          id: "cipum-u5-mec-q8",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "A force of 10 N acts at right angles to a lever arm of length 3 m. What is its moment about the pivot?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "7 N m" },
+              { id: "b", text: "30 N m" },
+              { id: "c", text: "3.33 N m" },
+              { id: "d", text: "13 N m" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Moment",
+                statement: "Moment = force × perpendicular distance.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Moment $= 10 \\times 3 = 30$ N m.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "30 N m",
+          },
+        },
+        {
+          id: "cipum-u5-mec-q9",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "A block on a rough surface has normal reaction $R = 50$ N and coefficient of friction $\\mu = 0.4$. What is the maximum frictional force?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 20 }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "law",
+                name: "Friction",
+                statement: "Maximum friction $F = \\mu R$.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "$F_{\\max} = 0.4 \\times 50$.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "$F_{\\max} = 20$ N.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "20 N",
+          },
+        },
+        {
+          id: "cipum-u5-mec-q10",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "Three forces act on a particle in equilibrium: 10 N east, 10 N at 120° to the east direction, and a third force. Find the magnitude and direction of the third force.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Equilibrium",
+                statement: "Resolve forces into components; $\\sum F_x = \\sum F_y = 0$.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "$F_1 = (10, 0)$; $F_2 = (10\\cos 120°, 10\\sin 120°) = (-5, 5\\sqrt{3})$.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "Resultant $= (10 - 5, 5\\sqrt{3}) = (5, 5\\sqrt{3})$; magnitude $= \\sqrt{25 + 75} = 10$ N at $\\tan^{-1}(\\sqrt{3}) = 60°$.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "Third force must be equal and opposite: 10 N at $60° + 180° = 240°$.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "Third force: 10 N at 240° to the east direction.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "10 N at 240°",
+          },
+        },
+        {
+          id: "cipum-u5-mec-q11",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "The range of a projectile is maximum when it is launched at an angle of:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$30°$" },
+              { id: "b", text: "$45°$" },
+              { id: "c", text: "$90°$" },
+              { id: "d", text: "$60°$" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "law",
+                name: "Projectile range",
+                statement: "$R = \\frac{u^2\\sin 2\\theta}{g}$ is maximised when $\\sin 2\\theta = 1$, i.e. $\\theta = 45°$.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Maximum range occurs at $\\theta = 45°$.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "$45°$",
+          },
+        },
+        {
+          id: "cipum-u5-mec-q12",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "A projectile is launched at 20 m/s at 30° to the horizontal. Find its time of flight (take $g = 9.8$ m/s²).",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 2.040816, tolerance: 0.01 }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "law",
+                name: "Projectile motion",
+                statement: "$T = \\frac{2u\\sin\\theta}{g}$.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "$T = \\frac{2 \\times 20 \\times \\sin 30°}{9.8} = \\frac{20}{9.8}$.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "$T \\approx 2.04$ s.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "$T \\approx 2.04$ s",
+          },
+        },
+        {
+          id: "cipum-u5-mec-q13",
+          difficulty: "challenge",
+          totalMarks: 2,
+          stem: "A projectile is launched at 25 m/s at 60° to the horizontal on level ground. Find its range (take $g = 9.8$ m/s²).",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 55.234694, tolerance: 0.01 }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "law",
+                name: "Projectile range",
+                statement: "$R = \\frac{u^2\\sin 2\\theta}{g}$.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "$R = \\frac{25^2 \\sin 120°}{9.8} = \\frac{625 \\times 0.8660}{9.8}$.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "$R \\approx 55.2$ m.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "$R \\approx 55.2$ m",
+          },
+        },
+        {
+          id: "cipum-u5-mec-q14",
+          difficulty: "challenge",
+          totalMarks: 1,
+          stem: "The moment of a couple is equal to:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Force × perpendicular distance between the forces" },
+              { id: "b", text: "Force × mass" },
+              { id: "c", text: "Force × velocity" },
+              { id: "d", text: "Force × time" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Couple",
+                statement: "A couple is two equal opposite forces; its moment is $F \\times d$.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Moment of a couple $= F \\times$ perpendicular separation.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "$F \\times d$",
+          },
+        },
+        {
+          id: "cipum-u5-mec-q15",
+          difficulty: "challenge",
+          totalMarks: 1,
+          stem: "A force has horizontal component $16$ N and vertical component $12$ N. Its magnitude is:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "20 N" },
+              { id: "b", text: "28 N" },
+              { id: "c", text: "\\sqrt{28} N" },
+              { id: "d", text: "14 N" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Force resolution",
+                statement: "$F = \\sqrt{F_x^2 + F_y^2}$.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "$F = \\sqrt{16^2 + 12^2} = \\sqrt{256 + 144} = \\sqrt{400} = 20$ N.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "20 N",
+          },
+        },
+        {
+          id: "cipum-u5-mec-q16",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "A projectile is launched at 15 m/s at 40° to the horizontal on level ground. Find its range and maximum height (take $g = 9.8$ m/s²).",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Projectile motion",
+                statement: "$R = \\frac{u^2\\sin 2\\theta}{g}$; $H = \\frac{u^2\\sin^2\\theta}{2g}$.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "Range: $R = \\frac{15^2 \\sin 80°}{9.8} = \\frac{225 \\times 0.9848}{9.8}$.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "$R \\approx 22.6$ m.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "Max height: $H = \\frac{225 \\sin^2 40°}{19.6} = \\frac{225 \\times 0.4132}{19.6}$.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "$H \\approx 4.74$ m.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "$R \\approx 22.6$ m; $H \\approx 4.74$ m",
           },
         },
       ],

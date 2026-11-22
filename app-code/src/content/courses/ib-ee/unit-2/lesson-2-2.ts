@@ -52,12 +52,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A source is popular" },
-              { id: "b", text: "Experts evaluate research before publication" },
-              { id: "c", text: "The source is old" },
-              { id: "d", text: "The source is free" },
+              { id: "a", text: "Experts evaluate research before publication" },
+              { id: "b", text: "A source is popular" },
+              { id: "c", text: "The source is free" },
+              { id: "d", text: "The source is old" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -148,11 +148,11 @@ export const lesson22: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Evidence produced at the time of events" },
-              { id: "b", text: "Later analysis or interpretation of primary material" },
+              { id: "b", text: "A raw experimental dataset" },
               { id: "c", text: "The student's own research notes" },
-              { id: "d", text: "A raw experimental dataset" },
+              { id: "d", text: "Later analysis or interpretation of primary material" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -174,10 +174,10 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It guarantees the source is correct" },
+              { id: "a", text: "It makes the source free to access" },
               { id: "b", text: "Independent experts evaluate the research before publication" },
-              { id: "c", text: "It makes the source free to access" },
-              { id: "d", text: "It ensures the source is recent" },
+              { id: "c", text: "It ensures the source is recent" },
+              { id: "d", text: "It guarantees the source is correct" },
             ],
             correctChoiceId: "b",
           },
@@ -240,11 +240,11 @@ export const lesson22: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "The author's book is on a bestseller list" },
-              { id: "b", text: "The author holds relevant qualifications and has published peer-reviewed work" },
-              { id: "c", text: "The source has many social media followers" },
-              { id: "d", text: "The source is the first result on a search engine" },
+              { id: "b", text: "The source is the first result on a search engine" },
+              { id: "c", text: "The author holds relevant qualifications and has published peer-reviewed work" },
+              { id: "d", text: "The source has many social media followers" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -286,12 +286,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Choose the more recent historian and ignore the other" },
-              { id: "b", text: "Present both arguments, compare them and develop your own position" },
-              { id: "c", text: "Assume both historians are wrong" },
-              { id: "d", text: "Cite neither to avoid confusion" },
+              { id: "a", text: "Present both arguments, compare them and develop your own position" },
+              { id: "b", text: "Choose the more recent historian and ignore the other" },
+              { id: "c", text: "Cite neither to avoid confusion" },
+              { id: "d", text: "Assume both historians are wrong" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -352,12 +352,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Less reliable because it admits doubt" },
-              { id: "b", text: "More reliable because it is transparent about its basis and limits" },
-              { id: "c", text: "Irrelevant to the essay" },
-              { id: "d", text: "Actually a primary source" },
+              { id: "a", text: "More reliable because it is transparent about its basis and limits" },
+              { id: "b", text: "Less reliable because it admits doubt" },
+              { id: "c", text: "Actually a primary source" },
+              { id: "d", text: "Irrelevant to the essay" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -459,12 +459,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Using any source in an essay" },
-              { id: "b", text: "Using others' work without proper attribution" },
-              { id: "c", text: "Writing too slowly" },
-              { id: "d", text: "Using too many sources" },
+              { id: "a", text: "Using others' work without proper attribution" },
+              { id: "b", text: "Using any source in an essay" },
+              { id: "c", text: "Using too many sources" },
+              { id: "d", text: "Writing too slowly" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -554,12 +554,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A fact everyone already knows" },
-              { id: "b", text: "A paraphrased idea taken from a source" },
-              { id: "c", text: "Your own original analysis" },
+              { id: "a", text: "Your own original analysis" },
+              { id: "b", text: "A fact everyone already knows" },
+              { id: "c", text: "A paraphrased idea taken from a source" },
               { id: "d", text: "Common knowledge" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -581,12 +581,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Nothing, if the argument is good" },
-              { id: "b", text: "Academic integrity" },
-              { id: "c", text: "Only style guidelines" },
-              { id: "d", text: "Citation format rules only" },
+              { id: "a", text: "Citation format rules only" },
+              { id: "b", text: "Only style guidelines" },
+              { id: "c", text: "Nothing, if the argument is good" },
+              { id: "d", text: "Academic integrity" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -646,12 +646,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Legitimate paraphrasing" },
-              { id: "b", text: "Patchwriting, which is still plagiarism" },
-              { id: "c", text: "Proper summarising" },
-              { id: "d", text: "Acceptable if the result is shorter" },
+              { id: "a", text: "Proper summarising" },
+              { id: "b", text: "Legitimate paraphrasing" },
+              { id: "c", text: "Acceptable if the result is shorter" },
+              { id: "d", text: "Patchwriting, which is still plagiarism" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -694,11 +694,11 @@ export const lesson22: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Copying another student's essay" },
-              { id: "b", text: "Reusing one's own previous work without acknowledgement" },
-              { id: "c", text: "Citing too many of your own sources" },
-              { id: "d", text: "Writing an essay about yourself" },
+              { id: "b", text: "Citing too many of your own sources" },
+              { id: "c", text: "Writing an essay about yourself" },
+              { id: "d", text: "Reusing one's own previous work without acknowledgement" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -759,10 +759,10 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Plagiarism only" },
+              { id: "a", text: "A formatting error" },
               { id: "b", text: "A breach of academic integrity — submitting work that is not your own" },
               { id: "c", text: "Acceptable collaboration" },
-              { id: "d", text: "A formatting error" },
+              { id: "d", text: "Plagiarism only" },
             ],
             correctChoiceId: "b",
           },

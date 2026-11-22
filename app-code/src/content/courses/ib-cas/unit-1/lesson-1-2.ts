@@ -53,8 +53,8 @@ export const lesson12: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Specific, Measurable, Achievable, Relevant, Time-bound" },
-              { id: "b", text: "Simple, Meaningful, Ambitious, Realistic, Tough" },
-              { id: "c", text: "Strategic, Motivational, Adaptive, Rewarding, Targeted" },
+              { id: "b", text: "Strategic, Motivational, Adaptive, Rewarding, Targeted" },
+              { id: "c", text: "Simple, Meaningful, Ambitious, Realistic, Tough" },
               { id: "d", text: "Short-term, Manageable, Achievable, Regular, Tested" },
             ],
             correctChoiceId: "a",
@@ -147,10 +147,10 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Do more sport" },
+              { id: "a", text: "Exercise sometimes when possible" },
               { id: "b", text: "Play basketball twice weekly for one term and record match statistics" },
-              { id: "c", text: "Get fit eventually" },
-              { id: "d", text: "Exercise sometimes when possible" },
+              { id: "c", text: "Do more sport" },
+              { id: "d", text: "Get fit eventually" },
             ],
             correctChoiceId: "b",
           },
@@ -174,12 +174,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Specific" },
-              { id: "b", text: "Measurable" },
+              { id: "a", text: "Time-bound" },
+              { id: "b", text: "Specific" },
               { id: "c", text: "Achievable" },
-              { id: "d", text: "Time-bound" },
+              { id: "d", text: "Measurable" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -201,12 +201,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Is too ambitious" },
-              { id: "b", text: "Lacks specificity, measurability and a timeframe" },
-              { id: "c", text: "Is irrelevant to CAS" },
-              { id: "d", text: "Is unachievable" },
+              { id: "a", text: "Is unachievable" },
+              { id: "b", text: "Is too ambitious" },
+              { id: "c", text: "Lacks specificity, measurability and a timeframe" },
+              { id: "d", text: "Is irrelevant to CAS" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -229,11 +229,11 @@ export const lesson12: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Become an Olympic athlete within a month" },
-              { id: "b", text: "Learn to play three songs on guitar by the end of term for a class concert" },
+              { id: "b", text: "Give up music entirely" },
               { id: "c", text: "Master every instrument in the world" },
-              { id: "d", text: "Give up music entirely" },
+              { id: "d", text: "Learn to play three songs on guitar by the end of term for a class concert" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -255,12 +255,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Time-bound only" },
-              { id: "b", text: "Specific, measurable or achievable" },
-              { id: "c", text: "Relevant to CAS" },
+              { id: "a", text: "Specific, measurable or achievable" },
+              { id: "b", text: "Relevant to CAS" },
+              { id: "c", text: "Time-bound only" },
               { id: "d", text: "Ambitious enough" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -282,12 +282,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Takes a long time" },
-              { id: "b", text: "Has a deadline or defined duration" },
+              { id: "a", text: "Has a deadline or defined duration" },
+              { id: "b", text: "Takes a long time" },
               { id: "c", text: "Is scheduled at a convenient time" },
               { id: "d", text: "Is about managing time" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -495,12 +495,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Only to prove participation" },
-              { id: "b", text: "Monitor progress and identify patterns" },
-              { id: "c", text: "Avoid reflection" },
-              { id: "d", text: "Skip planning" },
+              { id: "a", text: "Monitor progress and identify patterns" },
+              { id: "b", text: "Skip planning" },
+              { id: "c", text: "Only to prove participation" },
+              { id: "d", text: "Avoid reflection" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -590,12 +590,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Relying on memory" },
-              { id: "b", text: "Keeping a journal, spreadsheet or portfolio record" },
-              { id: "c", text: "Asking friends to remind you" },
-              { id: "d", text: "Not tracking at all" },
+              { id: "a", text: "Not tracking at all" },
+              { id: "b", text: "Asking friends to remind you" },
+              { id: "c", text: "Keeping a journal, spreadsheet or portfolio record" },
+              { id: "d", text: "Relying on memory" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -617,12 +617,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Prove attendance" },
-              { id: "b", text: "Identify patterns and adjust plans" },
+              { id: "a", text: "Identify patterns and adjust plans" },
+              { id: "b", text: "Skip planning" },
               { id: "c", text: "Avoid reflection" },
-              { id: "d", text: "Skip planning" },
+              { id: "d", text: "Prove attendance" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -644,12 +644,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Abandon CAS entirely" },
-              { id: "b", text: "Break it into smaller steps or adjust the timeline" },
+              { id: "a", text: "Add even more goals" },
+              { id: "b", text: "Abandon CAS entirely" },
               { id: "c", text: "Pretend it was achieved" },
-              { id: "d", text: "Add even more goals" },
+              { id: "d", text: "Break it into smaller steps or adjust the timeline" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -671,12 +671,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Exam revision" },
-              { id: "b", text: "Reflection and evidence for your portfolio" },
-              { id: "c", text: "Social media posts" },
+              { id: "a", text: "Social media posts" },
+              { id: "b", text: "Exam revision" },
+              { id: "c", text: "Reflection and evidence for your portfolio" },
               { id: "d", text: "Grade prediction" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -698,12 +698,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Lack of commitment" },
-              { id: "b", text: "Adaptability and reflective practice" },
+              { id: "a", text: "Adaptability and reflective practice" },
+              { id: "b", text: "Indecisiveness" },
               { id: "c", text: "Confusion" },
-              { id: "d", text: "Indecisiveness" },
+              { id: "d", text: "Lack of commitment" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -725,12 +725,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "What activity you did" },
-              { id: "b", text: "When you did it" },
-              { id: "c", text: "What you learned" },
-              { id: "d", text: "Unrelated personal worries" },
+              { id: "a", text: "When you did it" },
+              { id: "b", text: "Unrelated personal worries" },
+              { id: "c", text: "What activity you did" },
+              { id: "d", text: "What you learned" },
             ],
-            correctChoiceId: "d",
+            correctChoiceIb: "d",
           },
           markscheme: {
             principles: [

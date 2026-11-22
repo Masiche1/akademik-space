@@ -53,12 +53,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\text{N}$" },
-              { id: "b", text: "$\\text{N/m}^2$" },
-              { id: "c", text: "$\\text{Nm}$" },
-              { id: "d", text: "$\\text{kg/m}^3$" },
+              { id: "a", text: "$\\text{kg/m}^3$" },
+              { id: "b", text: "$\\text{Nm}$" },
+              { id: "c", text: "$\\text{N/m}^2$" },
+              { id: "d", text: "$\\text{N}$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -188,11 +188,11 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$\\text{N/m}$" },
-              { id: "b", text: "$\\text{N/m}^2$" },
-              { id: "c", text: "$\\text{Nm}$" },
-              { id: "d", text: "$\\text{N/kg}$" },
+              { id: "b", text: "$\\text{N/kg}$" },
+              { id: "c", text: "$\\text{N/m}^2$" },
+              { id: "d", text: "$\\text{Nm}$" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [

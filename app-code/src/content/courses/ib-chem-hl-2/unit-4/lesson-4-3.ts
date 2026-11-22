@@ -91,12 +91,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "BF$_3$" },
-              { id: "b", text: "NH$_3$" },
-              { id: "c", text: "H$_2$O" },
-              { id: "d", text: "Cl$^-$" },
+              { id: "a", text: "NH$_3$" },
+              { id: "b", text: "BF$_3$" },
+              { id: "c", text: "Cl$^-$" },
+              { id: "d", text: "H$_2$O" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -326,8 +326,8 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "BF$_3$" },
-              { id: "b", text: "AlCl$_3$" },
+              { id: "a", text: "AlCl$_3$" },
+              { id: "b", text: "BF$_3$" },
               { id: "c", text: "NH$_3$" },
               { id: "d", text: "CO$_2$" },
             ],
@@ -369,15 +369,15 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Each atom contributes one electron" },
+              { id: "a", text: "No electrons are shared" },
+              { id: "b", text: "Both electrons come from the Lewis acid" },
               {
-                id: "b",
+                id: "c",
                 text: "Both bonding electrons come from the Lewis base",
               },
-              { id: "c", text: "Both electrons come from the Lewis acid" },
-              { id: "d", text: "No electrons are shared" },
+              { id: "d", text: "Each atom contributes one electron" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -454,10 +454,10 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "H$_2$O" },
-              { id: "b", text: "OH$^-$" },
+              { id: "a", text: "Cl$^-$" },
+              { id: "b", text: "H$_2$O" },
               { id: "c", text: "Al$^{3+}$" },
-              { id: "d", text: "Cl$^-$" },
+              { id: "d", text: "OH$^-$" },
             ],
             correctChoiceId: "c",
           },
@@ -657,14 +657,14 @@ export const lesson43: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "It has lone pairs on oxygen that it donates" },
+              { id: "b", text: "It contains no hydrogen" },
+              { id: "c", text: "It is a gas" },
               {
-                id: "b",
+                id: "d",
                 text: "Its carbon atom is electron-deficient and can accept an electron pair",
               },
-              { id: "c", text: "It contains no hydrogen" },
-              { id: "d", text: "It is a gas" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -863,12 +863,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "H$_2$O" },
-              { id: "b", text: "OH$^-$" },
-              { id: "c", text: "BF$_3$" },
-              { id: "d", text: "Cl$^-$" },
+              { id: "a", text: "Cl$^-$" },
+              { id: "b", text: "H$_2$O" },
+              { id: "c", text: "OH$^-$" },
+              { id: "d", text: "BF$_3$" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -954,12 +954,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Lewis > Brønsted–Lowry > Arrhenius" },
-              { id: "b", text: "Arrhenius > Brønsted–Lowry > Lewis" },
+              { id: "a", text: "All three are equally general" },
+              { id: "b", text: "Lewis > Brønsted–Lowry > Arrhenius" },
               { id: "c", text: "Brønsted–Lowry > Lewis > Arrhenius" },
-              { id: "d", text: "All three are equally general" },
+              { id: "d", text: "Arrhenius > Brønsted–Lowry > Lewis" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1188,11 +1188,11 @@ export const lesson43: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Donates a proton" },
-              { id: "b", text: "Produces OH$^-$ ions in water" },
+              { id: "b", text: "Donates an electron pair" },
               { id: "c", text: "Accepts an electron pair" },
-              { id: "d", text: "Donates an electron pair" },
+              { id: "d", text: "Produces OH$^-$ ions in water" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1231,11 +1231,11 @@ export const lesson43: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Every Lewis acid is a Brønsted acid" },
-              { id: "b", text: "Every Brønsted acid is a Lewis acid" },
-              { id: "c", text: "The two theories are identical" },
-              { id: "d", text: "No Brønsted acid is a Lewis acid" },
+              { id: "b", text: "No Brønsted acid is a Lewis acid" },
+              { id: "c", text: "Every Brønsted acid is a Lewis acid" },
+              { id: "d", text: "The two theories are identical" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1275,9 +1275,9 @@ export const lesson43: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Only donate a proton" },
-              { id: "b", text: "Only accept a proton" },
+              { id: "b", text: "Neither donate nor accept a proton" },
               { id: "c", text: "Both donate and accept a proton" },
-              { id: "d", text: "Neither donate nor accept a proton" },
+              { id: "d", text: "Only accept a proton" },
             ],
             correctChoiceId: "c",
           },
@@ -1368,12 +1368,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It dissolves in both acids and bases" },
-              { id: "b", text: "It is a white solid" },
-              { id: "c", text: "It contains aluminium" },
-              { id: "d", text: "It forms hydrogen gas with all metals" },
+              { id: "a", text: "It contains aluminium" },
+              { id: "b", text: "It dissolves in both acids and bases" },
+              { id: "c", text: "It forms hydrogen gas with all metals" },
+              { id: "d", text: "It is a white solid" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1510,10 +1510,10 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "H$_2$O" },
-              { id: "b", text: "HCO$_3^-$" },
+              { id: "a", text: "HCO$_3^-$" },
+              { id: "b", text: "Al(OH)$_3$" },
               { id: "c", text: "NH$_4^+$" },
-              { id: "d", text: "Al(OH)$_3$" },
+              { id: "d", text: "H$_2$O" },
             ],
             correctChoiceId: "c",
           },
@@ -1748,12 +1748,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "HCl" },
-              { id: "b", text: "BF$_3$" },
-              { id: "c", text: "NH$_4^+$" },
-              { id: "d", text: "HNO$_3$" },
+              { id: "a", text: "HNO$_3$" },
+              { id: "b", text: "NH$_4^+$" },
+              { id: "c", text: "HCl" },
+              { id: "d", text: "BF$_3$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

@@ -91,12 +91,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "She feels uneasy and would prefer not to stay." },
-              { id: "b", text: "She has another appointment and is short of time." },
-              { id: "c", text: "She wants to take charge of clearing the shed." },
-              { id: "d", text: "She is angry with the narrator for being there." },
+              { id: "a", text: "She has another appointment and is short of time." },
+              { id: "b", text: "She feels uneasy and would prefer not to stay." },
+              { id: "c", text: "She is angry with the narrator for being there." },
+              { id: "d", text: "She wants to take charge of clearing the shed." },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "skill", name: "Inference from behaviour", statement: "A character's posture or props can imply feelings the writer never states." }],
@@ -225,9 +225,9 @@ export const lesson11: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Passengers who arrive at 7.40 will miss the train and be left with nothing but the platform." },
-              { id: "b", text: "The station will now provide food and drink on the platform." },
-              { id: "c", text: "The platform staff will give special help to late arrivals." },
-              { id: "d", text: "The writer is grateful that the company now runs an earlier service." },
+              { id: "b", text: "The platform staff will give special help to late arrivals." },
+              { id: "c", text: "The writer is grateful that the company now runs an earlier service." },
+              { id: "d", text: "The station will now provide food and drink on the platform." },
             ],
             correctChoiceId: "a",
           },

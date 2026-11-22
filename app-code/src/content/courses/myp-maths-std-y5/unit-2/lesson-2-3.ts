@@ -57,12 +57,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$y=x^2+4$" },
-              { id: "b", text: "$y=(x+4)^2$" },
-              { id: "c", text: "$y=x^2-4$" },
-              { id: "d", text: "$y=4x^2$" },
+              { id: "a", text: "$y=4x^2$" },
+              { id: "b", text: "$y=x^2-4$" },
+              { id: "c", text: "$y=x^2+4$" },
+              { id: "d", text: "$y=(x+4)^2$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -85,8 +85,8 @@ export const lesson23: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$(5,7)$" },
-              { id: "b", text: "$(5,3)$" },
-              { id: "c", text: "$(2,7)$" },
+              { id: "b", text: "$(2,7)$" },
+              { id: "c", text: "$(5,3)$" },
               { id: "d", text: "$(0,7)$" },
             ],
             correctChoiceId: "a",
@@ -112,12 +112,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Translation 4 right, vertical stretch factor 3, translation 1 down" },
-              { id: "b", text: "Translation 4 left, vertical stretch factor 3, translation 1 up" },
+              { id: "a", text: "Translation 4 left, vertical stretch factor 3, translation 1 up" },
+              { id: "b", text: "Translation 4 right, vertical stretch factor 3, translation 1 down" },
               { id: "c", text: "Translation 4 right, vertical stretch factor $\\frac{1}{3}$, translation 1 down" },
               { id: "d", text: "Reflection in $x$-axis, translation 4 right, stretch 3" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -173,12 +173,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$y=(x+3)^2$" },
-              { id: "b", text: "$y=(x-3)^2$" },
-              { id: "c", text: "$y=x^2+3$" },
-              { id: "d", text: "$y=x^2-3$" },
+              { id: "a", text: "$y=(x-3)^2$" },
+              { id: "b", text: "$y=x^2+3$" },
+              { id: "c", text: "$y=x^2-3$" },
+              { id: "d", text: "$y=(x+3)^2$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Translation", statement: "Left 3 means replace $x$ by $x+3$." }],
@@ -206,12 +206,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Reflection in the $x$-axis" },
-              { id: "b", text: "Reflection in the $y$-axis" },
-              { id: "c", text: "Translation 1 unit down" },
-              { id: "d", text: "Vertical stretch factor $-1$ only" },
+              { id: "a", text: "Translation 1 unit down" },
+              { id: "b", text: "Vertical stretch factor $-1$ only" },
+              { id: "c", text: "Reflection in the $x$-axis" },
+              { id: "d", text: "Reflection in the $y$-axis" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "property", name: "Reflection", statement: "$y=-f(x)$ reflects in the $x$-axis." }],
@@ -260,12 +260,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$y=3f(x)$" },
-              { id: "b", text: "$y=f(3x)$" },
+              { id: "a", text: "$y=f(3x)$" },
+              { id: "b", text: "$y=3f(x)$" },
               { id: "c", text: "$y=f(x)+3$" },
               { id: "d", text: "$y=3f(x-3)$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "property", name: "Stretch", statement: "Multiply outputs by 3 for vertical stretch." }],
@@ -337,12 +337,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Factor $\\frac12$" },
-              { id: "b", text: "Factor 2" },
-              { id: "c", text: "Translation 2 units right" },
+              { id: "a", text: "Factor 2" },
+              { id: "b", text: "Translation 2 units right" },
+              { id: "c", text: "Factor $\\frac12$" },
               { id: "d", text: "Reflection in the $y$-axis" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "property", name: "Horizontal stretch", statement: "$f(bx)$ stretches horizontally by factor $\\frac1b$." }],
@@ -424,12 +424,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$2^{0.2}\\approx1.149$" },
-              { id: "b", text: "2" },
-              { id: "c", text: "$2^5=32$" },
-              { id: "d", text: "1.5" },
+              { id: "a", text: "2" },
+              { id: "b", text: "$2^5=32$" },
+              { id: "c", text: "1.5" },
+              { id: "d", text: "$2^{0.2}\\approx1.149$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -451,12 +451,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\approx15360$" },
+              { id: "a", text: "$\\approx11250$" },
               { id: "b", text: "$\\approx18200$" },
-              { id: "c", text: "$\\approx21000$" },
-              { id: "d", text: "$\\approx11250$" },
+              { id: "c", text: "$\\approx15360$" },
+              { id: "d", text: "$\\approx21000$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -481,8 +481,8 @@ export const lesson23: Lesson = {
             choices: [
               { id: "a", text: "$x=4$" },
               { id: "b", text: "$x=3$" },
-              { id: "c", text: "$x=16$" },
-              { id: "d", text: "$x=\\frac{48}{6}=8$" },
+              { id: "c", text: "$x=\\frac{48}{6}=8$" },
+              { id: "d", text: "$x=16$" },
             ],
             correctChoiceId: "a",
           },
@@ -539,12 +539,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "1.08" },
-              { id: "b", text: "0.08" },
-              { id: "c", text: "1.8" },
-              { id: "d", text: "8" },
+              { id: "a", text: "0.08" },
+              { id: "b", text: "8" },
+              { id: "c", text: "1.08" },
+              { id: "d", text: "1.8" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Growth factor", statement: "$1+0.08=1.08$." }],
@@ -572,12 +572,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "5" },
-              { id: "b", text: "10" },
-              { id: "c", text: "2" },
-              { id: "d", text: "0" },
+              { id: "a", text: "2" },
+              { id: "b", text: "5" },
+              { id: "c", text: "0" },
+              { id: "d", text: "10" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Exponential model", statement: "$y=ab^x$ has initial value $a$." }],
@@ -626,12 +626,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$M(t)=80\\left(\\frac12\\right)^{t/10}$" },
-              { id: "b", text: "$M(t)=80(2)^{t/10}$" },
+              { id: "a", text: "$M(t)=80(2)^{t/10}$" },
+              { id: "b", text: "$M(t)=80\\left(\\frac12\\right)^{t/10}$" },
               { id: "c", text: "$M(t)=10(\\frac12)^{t/80}$" },
               { id: "d", text: "$M(t)=80(\\frac12)^{10t}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Half-life", statement: "$M(t)=M_0(\\frac12)^{t/T}$." }],
@@ -702,12 +702,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Positive and decreasing toward the $x$-axis" },
-              { id: "b", text: "Positive and increasing without bound" },
-              { id: "c", text: "Negative and decreasing" },
-              { id: "d", text: "Linear" },
+              { id: "a", text: "Linear" },
+              { id: "b", text: "Positive and decreasing toward the $x$-axis" },
+              { id: "c", text: "Positive and increasing without bound" },
+              { id: "d", text: "Negative and decreasing" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "property", name: "Decay graph", statement: "Base between 0 and 1 gives decrease; outputs stay positive." }],

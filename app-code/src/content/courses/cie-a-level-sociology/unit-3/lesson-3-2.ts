@@ -69,12 +69,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Traditional nuclear family" },
-              { id: "b", text: "Lone-parent family" },
-              { id: "c", text: "Same-sex family" },
+              { id: "a", text: "Lone-parent family" },
+              { id: "b", text: "Same-sex family" },
+              { id: "c", text: "Traditional nuclear family" },
               { id: "d", text: "Reconstituted family" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -214,6 +214,465 @@ export const lesson32: Lesson = {
             finalAnswer: "(a) diversity (b) forms (c) reasons (d) evaluation",
           },
         },
+        {
+          id: "asoc-u3-dv-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "What is a 'beanpole' family?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "A family that eats only vegetables" },
+              {
+                id: "b",
+                text: "A multi-generational family with few children in each generation",
+              },
+              { id: "c", text: "A single-parent family" },
+              { id: "d", text: "A wealthy extended family" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Beanpole family",
+                statement: "Tall, thin multi-generational family.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Beanpole = generations, few children.",
+                marks: 1,
+                markCode: "AO1",
+              },
+            ],
+            finalAnswer: "**(a)** Multi-generational, few children",
+            commonErrors: ["Confusing with nuclear family."],
+          },
+        },
+        {
+          id: "asoc-u3-dv-q6",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "What is a 'family of choice'?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "A family arranged by the state" },
+              {
+                id: "b",
+                text: "Chosen relationships, often without biological or legal ties",
+              },
+              { id: "c", text: "The nuclear family only" },
+              { id: "d", text: "A family that adopts children" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Family of choice",
+                statement: "Chosen, non-biological ties.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Choice = chosen relationships.",
+                marks: 1,
+                markCode: "AO1",
+              },
+            ],
+            finalAnswer: "**(a)** Chosen non-biological ties",
+            commonErrors: ["Saying it's legally defined."],
+          },
+        },
+        {
+          id: "asoc-u3-dv-q7",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "What is a reconstituted (blended) family?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "A family with no parents" },
+              {
+                id: "b",
+                text: "A family formed when a parent remarries and children from previous relationships join",
+              },
+              { id: "c", text: "A cohabiting couple without children" },
+              { id: "d", text: "A family that never divorces" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Reconstituted family",
+                statement: "Remarriage blending children.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Reconstituted = step-family.",
+                marks: 1,
+                markCode: "AO1",
+              },
+            ],
+            finalAnswer: "**(a)** Remarriage blending children",
+            commonErrors: ["Confusing with lone-parent."],
+          },
+        },
+        {
+          id: "asoc-u3-dv-q8",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "What does 'individualisation' help explain about family diversity?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "It has no effect on the family" },
+              { id: "b", text: "Only rich people have diverse families" },
+              { id: "c", text: "Families are forced by law to diversify" },
+              {
+                id: "d",
+                text: "People increasingly choose relationships based on personal preference rather than tradition",
+              },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Individualisation",
+                statement: "Personal choice over tradition.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Choice replaces tradition.",
+                marks: 1,
+                markCode: "AO1",
+              },
+            ],
+            finalAnswer: "**(b)** Personal choice over tradition",
+            commonErrors: ["Saying diversity is forced."],
+          },
+        },
+        {
+          id: "asoc-u3-dv-q9",
+          difficulty: "foundation",
+          totalMarks: 2,
+          stem: "In a survey of 500 families, 22% are lone-parent families. How many families is this?",
+          response: { type: "numeric", parts: [{ label: "a", answer: 110 }] },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Percentage of sample",
+                statement: "22% of 500 = 0.22 x 500 = 110.",
+              },
+            ],
+            steps: [
+              { reasoning: "Convert 22% to 0.22.", marks: 1, markCode: "AO1" },
+              {
+                reasoning: "Multiply 0.22 by 500 to get 110.",
+                marks: 1,
+                markCode: "AO2",
+              },
+            ],
+            finalAnswer: "110",
+            commonErrors: ["Using 22 instead of 0.22."],
+          },
+        },
+        {
+          id: "asoc-u3-dv-q10",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "Of 300 couples surveyed, 35% lived together before marriage (cohabitation). How many couples is this?",
+          response: { type: "numeric", parts: [{ label: "a", answer: 105 }] },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Percentage of sample",
+                statement: "35% of 300 = 0.35 x 300 = 105.",
+              },
+            ],
+            steps: [
+              { reasoning: "Convert 35% to 0.35.", marks: 1, markCode: "AO1" },
+              {
+                reasoning: "Multiply 0.35 by 300 to get 105.",
+                marks: 1,
+                markCode: "AO2",
+              },
+            ],
+            finalAnswer: "105",
+            commonErrors: ["Reporting 0.35 instead of 105."],
+          },
+        },
+        {
+          id: "asoc-u3-dv-q11",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "Of 400 adults surveyed, 15% chose to remain child-free. How many adults is this?",
+          response: { type: "numeric", parts: [{ label: "a", answer: 60 }] },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Percentage of sample",
+                statement: "15% of 400 = 0.15 x 400 = 60.",
+              },
+            ],
+            steps: [
+              { reasoning: "Convert 15% to 0.15.", marks: 1, markCode: "AO1" },
+              {
+                reasoning: "Multiply 0.15 by 400 to get 60.",
+                marks: 1,
+                markCode: "AO2",
+              },
+            ],
+            finalAnswer: "60",
+            commonErrors: ["Using 15 instead of 0.15."],
+          },
+        },
+        {
+          id: "asoc-u3-dv-q12",
+          difficulty: "challenge",
+          totalMarks: 2,
+          stem: "Lone-parent families rose from 12% to 20% of 600 families. By how many families did the number rise?",
+          response: { type: "numeric", parts: [{ label: "a", answer: 48 }] },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Change in families",
+                statement: "20% of 600 = 120; 12% of 600 = 72; rise = 48.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "120 families at 20%; 72 at 12%.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                reasoning: "Increase = 120 - 72 = 48.",
+                marks: 1,
+                markCode: "AO2",
+              },
+            ],
+            finalAnswer: "48",
+            commonErrors: ["Answering 8 (percentage points) not families."],
+          },
+        },
+        {
+          id: "asoc-u3-dv-q13",
+          difficulty: "challenge",
+          totalMarks: 2,
+          stem: "Same-sex couples rose from 2% to 5% of 1,000 couples in a study. By how many couples did the number rise?",
+          response: { type: "numeric", parts: [{ label: "a", answer: 30 }] },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Change in couples",
+                statement: "5% of 1000 = 50; 2% of 1000 = 20; rise = 30.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "50 couples at 5%; 20 at 2%.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                reasoning: "Increase = 50 - 20 = 30.",
+                marks: 1,
+                markCode: "AO2",
+              },
+            ],
+            finalAnswer: "30",
+            commonErrors: ["Answering 3 (percentage points) not couples."],
+          },
+        },
+        {
+          id: "asoc-u3-dv-q14",
+          difficulty: "challenge",
+          totalMarks: 1,
+          stem: "Why might family diversity reflect class and ethnic differences?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Diversity is random with no pattern" },
+              { id: "b", text: "All groups have identical family forms" },
+              { id: "c", text: "Only middle-class families are diverse" },
+              {
+                id: "d",
+                text: "Different groups have different resources, values and traditions shaping family forms",
+              },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Diversity patterns",
+                statement: "Class/ethnicity shape family forms.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Groups differ in resources/values.",
+                marks: 1,
+                markCode: "AO1",
+              },
+            ],
+            finalAnswer: "**(b)** Resources/values differ",
+            commonErrors: ["Claiming all groups are identical."],
+          },
+        },
+        {
+          id: "asoc-u3-dv-q15",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "What is cohabitation?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Sharing a house with strangers" },
+              {
+                id: "b",
+                text: "A couple living together in a sexual relationship without being married",
+              },
+              { id: "c", text: "Living with parents as an adult" },
+              { id: "d", text: "A type of marriage ceremony" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Cohabitation",
+                statement: "Living together unmarried.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Cohabit = unmarried couple.",
+                marks: 1,
+                markCode: "AO1",
+              },
+            ],
+            finalAnswer: "**(a)** Unmarried co-residence",
+            commonErrors: ["Confusing with marriage."],
+          },
+        },
+        {
+          id: "asoc-u3-dv-q16",
+          difficulty: "challenge",
+          totalMarks: 10,
+          stem: "Family diversity.",
+          parts: [
+            { label: "a", prompt: "Define family diversity.", marks: 1 },
+            { label: "b", prompt: "Name three diverse family forms.", marks: 2 },
+            {
+              label: "c",
+              prompt: "Explain two reasons for rising family diversity.",
+              marks: 3,
+            },
+            {
+              label: "d",
+              prompt: "Explain what is meant by a 'family of choice'.",
+              marks: 2,
+            },
+            {
+              label: "e",
+              prompt: "Evaluate the view that the nuclear family is in decline.",
+              marks: 2,
+            },
+          ],
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Diversity",
+                statement: "Definition+forms+reasons+choice+evaluation.",
+              },
+            ],
+            steps: [
+              {
+                part: "a",
+                reasoning: "Forms beyond nuclear family.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                part: "b",
+                reasoning: "Any three diverse forms.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                part: "b",
+                reasoning: "Correctly identified.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                part: "c",
+                reasoning: "Any two factors (divorce/employment/attitudes).",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                part: "c",
+                reasoning: "First factor explained.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                part: "c",
+                reasoning: "Second factor explained.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                part: "d",
+                reasoning: "Chosen non-biological relationships.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                part: "d",
+                reasoning: "Friends as family example.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                part: "e",
+                reasoning: "Diversity rising vs nuclear persists.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                part: "e",
+                reasoning: "Balanced judgement.",
+                marks: 1,
+                markCode: "AO3",
+              },
+            ],
+            finalAnswer:
+              "(a) diversity (b) forms (c) reasons (d) choice (e) evaluation",
+          },
+        },
       ],
     },
     {
@@ -258,12 +717,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Paid work plus most housework/childcare" },
-              { id: "b", text: "Two jobs at once" },
-              { id: "c", text: "Caring for two children" },
+              { id: "a", text: "Two jobs at once" },
+              { id: "b", text: "Caring for two children" },
+              { id: "c", text: "Paid work plus most housework/childcare" },
               { id: "d", text: "Double parenting responsibilities" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -426,6 +885,456 @@ export const lesson32: Lesson = {
             ],
             finalAnswer:
               "(a) dual burden (b) symmetrical (c) age roles (d) power",
+          },
+        },
+        {
+          id: "asoc-u3-fr-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "What is the 'sandwich generation'?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Parents who only have one child" },
+              { id: "b", text: "Retired people living alone" },
+              { id: "c", text: "Teenagers caring for siblings" },
+              {
+                id: "d",
+                text: "Adults caring for both their children and their elderly parents",
+              },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Sandwich generation",
+                statement: "Caring for children + elderly parents.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Sandwiched between generations.",
+                marks: 1,
+                markCode: "AO1",
+              },
+            ],
+            finalAnswer: "**(a)** Caring for children and elderly",
+            commonErrors: ["Confusing with grandparents only."],
+          },
+        },
+        {
+          id: "asoc-u3-fr-q6",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "What is the 'breadwinner' role in the traditional family?",
+          response: {
+            type: "mcq",
+            choices: [
+              {
+                id: "a",
+                text: "The male partner who is the primary earner",
+              },
+              { id: "b", text: "The child who does homework" },
+              { id: "c", text: "The parent who cooks meals" },
+              { id: "d", text: "The person who pays all bills equally" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Breadwinner role",
+                statement: "Primary male earner.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Breadwinner = main earner.",
+                marks: 1,
+                markCode: "AO1",
+              },
+            ],
+            finalAnswer: "**(a)** Primary male earner",
+            commonErrors: ["Saying it's gender-neutral."],
+          },
+        },
+        {
+          id: "asoc-u3-fr-q7",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "What did Young and Willmott's symmetrical family thesis claim?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Women should do all housework" },
+              { id: "b", text: "Men never do housework" },
+              { id: "c", text: "Family roles are becoming more equal and shared" },
+              { id: "d", text: "The family is disappearing" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Symmetrical thesis",
+                statement: "Roles becoming equal.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Young & Willmott = shared roles.",
+                marks: 1,
+                markCode: "AO1",
+              },
+            ],
+            finalAnswer: "**(a)** Roles becoming equal",
+            commonErrors: ["Saying it's a feminist critique."],
+          },
+        },
+        {
+          id: "asoc-u3-fr-q8",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "What is 'domestic labour'?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Paid office work" },
+              { id: "b", text: "Childcare provided by the state" },
+              {
+                id: "c",
+                text: "Unpaid housework and childcare performed in the home",
+              },
+              { id: "d", text: "Work in a factory" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Domestic labour",
+                statement: "Unpaid home work.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Domestic = unpaid home work.",
+                marks: 1,
+                markCode: "AO1",
+              },
+            ],
+            finalAnswer: "**(a)** Unpaid housework/childcare",
+            commonErrors: ["Saying it is paid work."],
+          },
+        },
+        {
+          id: "asoc-u3-fr-q9",
+          difficulty: "foundation",
+          totalMarks: 2,
+          stem: "In a survey of 300 mothers, 70% said they do the majority of childcare. How many mothers is this?",
+          response: { type: "numeric", parts: [{ label: "a", answer: 210 }] },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Percentage of sample",
+                statement: "70% of 300 = 0.7 x 300 = 210.",
+              },
+            ],
+            steps: [
+              { reasoning: "Convert 70% to 0.7.", marks: 1, markCode: "AO1" },
+              {
+                reasoning: "Multiply 0.7 by 300 to get 210.",
+                marks: 1,
+                markCode: "AO2",
+              },
+            ],
+            finalAnswer: "210",
+            commonErrors: ["Using 70 instead of 0.7."],
+          },
+        },
+        {
+          id: "asoc-u3-fr-q10",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "Of 250 adults surveyed, 40% described themselves as part of the 'sandwich generation'. How many adults is this?",
+          response: { type: "numeric", parts: [{ label: "a", answer: 100 }] },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Percentage of sample",
+                statement: "40% of 250 = 0.4 x 250 = 100.",
+              },
+            ],
+            steps: [
+              { reasoning: "Convert 40% to 0.4.", marks: 1, markCode: "AO1" },
+              {
+                reasoning: "Multiply 0.4 by 250 to get 100.",
+                marks: 1,
+                markCode: "AO2",
+              },
+            ],
+            finalAnswer: "100",
+            commonErrors: ["Reporting 0.4 instead of 100."],
+          },
+        },
+        {
+          id: "asoc-u3-fr-q11",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "Family roles are studied across 3 life stages — childhood, adulthood and old age — with 450 people divided equally. How many people are in each stage?",
+          response: { type: "numeric", parts: [{ label: "a", answer: 150 }] },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Equal groups",
+                statement: "450 / 3 = 150 per stage.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Divide total by number of stages.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                reasoning: "450 / 3 = 150.",
+                marks: 1,
+                markCode: "AO2",
+              },
+            ],
+            finalAnswer: "150",
+            commonErrors: ["Dividing by 2 or 4 instead of 3."],
+          },
+        },
+        {
+          id: "asoc-u3-fr-q12",
+          difficulty: "challenge",
+          totalMarks: 2,
+          stem: "In a study of 200 families, grandparents provide regular childcare in 35% of them. How many families is this?",
+          response: { type: "numeric", parts: [{ label: "a", answer: 70 }] },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Percentage of sample",
+                statement: "35% of 200 = 0.35 x 200 = 70.",
+              },
+            ],
+            steps: [
+              { reasoning: "Convert 35% to 0.35.", marks: 1, markCode: "AO1" },
+              {
+                reasoning: "Multiply 0.35 by 200 to get 70.",
+                marks: 1,
+                markCode: "AO2",
+              },
+            ],
+            finalAnswer: "70",
+            commonErrors: ["Reporting 0.35 instead of 70."],
+          },
+        },
+        {
+          id: "asoc-u3-fr-q13",
+          difficulty: "challenge",
+          totalMarks: 2,
+          stem: "A woman works 30 paid hours and does 20 hours of domestic labour each week. What is her total weekly work commitment in hours?",
+          response: { type: "numeric", parts: [{ label: "a", answer: 50 }] },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Total work",
+                statement: "30 + 20 = 50 hours.",
+              },
+            ],
+            steps: [
+              { reasoning: "Add paid and domestic hours.", marks: 1, markCode: "AO1" },
+              {
+                reasoning: "30 + 20 = 50 hours.",
+                marks: 1,
+                markCode: "AO2",
+              },
+            ],
+            finalAnswer: "50",
+            commonErrors: ["Counting only paid hours (30)."],
+          },
+        },
+        {
+          id: "asoc-u3-fr-q14",
+          difficulty: "challenge",
+          totalMarks: 1,
+          stem: "Why do feminists reject the symmetrical family thesis?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Because it ignores class differences" },
+              { id: "b", text: "Because it was written by men only" },
+              { id: "c", text: "Because women still do most domestic labour despite paid work" },
+              { id: "d", text: "Because it is supported by all evidence" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Feminist critique",
+                statement: "Dual burden persists.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Work adds to, not replaces, domestic load.",
+                marks: 1,
+                markCode: "AO1",
+              },
+            ],
+            finalAnswer: "**(a)** Dual burden persists",
+            commonErrors: ["Accepting the thesis uncritically."],
+          },
+        },
+        {
+          id: "asoc-u3-fr-q15",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Who typically holds more decision-making power in the family, according to feminist research?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Women" },
+              { id: "b", text: "Elderly relatives" },
+              { id: "c", text: "Men" },
+              { id: "d", text: "Children" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Family power",
+                statement: "Men often hold more power.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Feminists: men dominate decisions.",
+                marks: 1,
+                markCode: "AO1",
+              },
+            ],
+            finalAnswer: "**(b)** Men",
+            commonErrors: ["Saying power is always equal."],
+          },
+        },
+        {
+          id: "asoc-u3-fr-q16",
+          difficulty: "challenge",
+          totalMarks: 10,
+          stem: "Family roles.",
+          parts: [
+            { label: "a", prompt: "Define the dual burden.", marks: 1 },
+            {
+              label: "b",
+              prompt: "Explain the symmetrical family thesis.",
+              marks: 2,
+            },
+            {
+              label: "c",
+              prompt: "Describe how family roles change with age.",
+              marks: 3,
+            },
+            {
+              label: "d",
+              prompt: "Explain the role of the 'sandwich generation'.",
+              marks: 2,
+            },
+            {
+              label: "e",
+              prompt: "Evaluate the view that family roles are becoming more equal.",
+              marks: 2,
+            },
+          ],
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Family roles",
+                statement: "Dual burden+symmetrical+age+sandwich+evaluation.",
+              },
+            ],
+            steps: [
+              {
+                part: "a",
+                reasoning: "Paid work + domestic labour.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                part: "b",
+                reasoning: "Young & Willmott — equal roles.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                part: "b",
+                reasoning: "Claim explained.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                part: "c",
+                reasoning: "Children/adults/older roles differ.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                part: "c",
+                reasoning: "Grandparent care mentioned.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                part: "c",
+                reasoning: "Roles explained across life course.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                part: "d",
+                reasoning: "Cares for children + elderly parents.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                part: "d",
+                reasoning: "Dual caring pressure explained.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                part: "e",
+                reasoning: "Some sharing vs dual burden.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                part: "e",
+                reasoning: "Balanced judgement.",
+                marks: 1,
+                markCode: "AO3",
+              },
+            ],
+            finalAnswer:
+              "(a) dual burden (b) symmetrical (c) age roles (d) sandwich (e) evaluation",
           },
         },
       ],

@@ -58,11 +58,11 @@ export const lesson11: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "An outside observer" },
-              { id: "b", text: "The character who lived through it" },
-              { id: "c", text: "The author's parent" },
-              { id: "d", text: "A detective" },
+              { id: "b", text: "The author's parent" },
+              { id: "c", text: "A detective" },
+              { id: "d", text: "The character who lived through it" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -188,12 +188,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A character who is very active" },
-              { id: "b", text: "A character who changes during the story" },
-              { id: "c", text: "A character who is always angry" },
-              { id: "d", text: "A character in a sports story" },
+              { id: "a", text: "A character who is always angry" },
+              { id: "b", text: "A character in a sports story" },
+              { id: "c", text: "A character who changes during the story" },
+              { id: "d", text: "A character who is very active" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

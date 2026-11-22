@@ -50,12 +50,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$3\\cos(3x)$" },
-              { id: "b", text: "$\\cos(3x)$" },
-              { id: "c", text: "$-3\\cos(3x)$" },
-              { id: "d", text: "$3\\sin(3x)$" },
+              { id: "a", text: "$-3\\cos(3x)$" },
+              { id: "b", text: "$3\\sin(3x)$" },
+              { id: "c", text: "$3\\cos(3x)$" },
+              { id: "d", text: "$\\cos(3x)$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -170,12 +170,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$-4\\sin(4x)$" },
+              { id: "a", text: "$\\cos(4x)$" },
               { id: "b", text: "$4\\sin(4x)$" },
-              { id: "c", text: "$-\\sin(4x)$" },
-              { id: "d", text: "$\\cos(4x)$" },
+              { id: "c", text: "$-4\\sin(4x)$" },
+              { id: "d", text: "$-\\sin(4x)$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -198,12 +198,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$5e^{5x}$" },
-              { id: "b", text: "$e^{5x}$" },
-              { id: "c", text: "$5xe^{5x}$" },
-              { id: "d", text: "$25e^{5x}$" },
+              { id: "a", text: "$25e^{5x}$" },
+              { id: "b", text: "$5e^{5x}$" },
+              { id: "c", text: "$e^{5x}$" },
+              { id: "d", text: "$5xe^{5x}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -226,12 +226,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\dfrac{2}{x}$" },
+              { id: "a", text: "$\\dfrac{1}{2x}$" },
               { id: "b", text: "$\\dfrac{1}{x}$" },
               { id: "c", text: "$2x$" },
-              { id: "d", text: "$\\dfrac{1}{2x}$" },
+              { id: "d", text: "$\\dfrac{2}{x}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -254,12 +254,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$2x\\sin x+x^2\\cos x$" },
-              { id: "b", text: "$2x\\cos x$" },
-              { id: "c", text: "$2x\\sin x-x^2\\cos x$" },
-              { id: "d", text: "$\\sin x+x^2\\cos x$" },
+              { id: "a", text: "$2x\\sin x-x^2\\cos x$" },
+              { id: "b", text: "$\\sin x+x^2\\cos x$" },
+              { id: "c", text: "$2x\\cos x$" },
+              { id: "d", text: "$2x\\sin x+x^2\\cos x$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -438,12 +438,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$-3\\sin(3x-1)$" },
-              { id: "b", text: "$3\\sin(3x-1)$" },
+              { id: "a", text: "$3\\sin(3x-1)$" },
+              { id: "b", text: "$3\\cos(3x-1)$" },
               { id: "c", text: "$-\\sin(3x-1)$" },
-              { id: "d", text: "$3\\cos(3x-1)$" },
+              { id: "d", text: "$-3\\sin(3x-1)$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -521,8 +521,8 @@ export const lesson52: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Local maximum" },
-              { id: "b", text: "Local minimum" },
-              { id: "c", text: "Point of inflection" },
+              { id: "b", text: "Point of inflection" },
+              { id: "c", text: "Local minimum" },
               { id: "d", text: "Cannot be determined" },
             ],
             correctChoiceId: "a",
@@ -646,12 +646,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Local minimum" },
-              { id: "b", text: "Local maximum" },
+              { id: "a", text: "Local maximum" },
+              { id: "b", text: "Local minimum" },
               { id: "c", text: "Point of inflection" },
               { id: "d", text: "Cannot be determined" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -674,12 +674,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$x>1$" },
-              { id: "b", text: "$x<1$" },
+              { id: "a", text: "$x<1$" },
+              { id: "b", text: "All real $x$" },
               { id: "c", text: "$x>0$" },
-              { id: "d", text: "All real $x$" },
+              { id: "d", text: "$x>1$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -702,12 +702,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$f''(a)=0$" },
-              { id: "b", text: "$f''(a)=0$ and $f''$ changes sign at $a$" },
-              { id: "c", text: "$f'(a)=0$ and $f''(a)=0$" },
-              { id: "d", text: "$f'''(a)\\neq0$" },
+              { id: "a", text: "$f'(a)=0$ and $f''(a)=0$" },
+              { id: "b", text: "$f'''(a)\\neq0$" },
+              { id: "c", text: "$f''(a)=0$" },
+              { id: "d", text: "$f''(a)=0$ and $f''$ changes sign at $a$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -917,12 +917,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A stationary point of inflection" },
-              { id: "b", text: "A non-stationary point of inflection" },
-              { id: "c", text: "A local maximum" },
-              { id: "d", text: "Not a point of inflection" },
+              { id: "a", text: "A local maximum" },
+              { id: "b", text: "Not a point of inflection" },
+              { id: "c", text: "A stationary point of inflection" },
+              { id: "d", text: "A non-stationary point of inflection" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

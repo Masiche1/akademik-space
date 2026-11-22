@@ -55,11 +55,11 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "It makes the text longer" },
-              { id: "b", text: "It prevents rambling and ensures logical flow" },
-              { id: "c", text: "It impresses the teacher" },
-              { id: "d", text: "It uses more paper" },
+              { id: "b", text: "It impresses the teacher" },
+              { id: "c", text: "It uses more paper" },
+              { id: "d", text: "It prevents rambling and ensures logical flow" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Planning", statement: "Planning ensures coherence and prevents rambling." }],
@@ -136,8 +136,8 @@ export const lesson32: Lesson = {
             choices: [
               { id: "a", text: "Write the introduction" },
               { id: "b", text: "Brainstorm ideas" },
-              { id: "c", text: "Check spelling" },
-              { id: "d", text: "Choose a font" },
+              { id: "c", text: "Choose a font" },
+              { id: "d", text: "Check spelling" },
             ],
             correctChoiceId: "b",
           },
@@ -172,12 +172,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Chronological (time order) and problem-solution" },
-              { id: "b", text: "Alphabetical and by colour" },
-              { id: "c", text: "Random and by length" },
-              { id: "d", text: "Only chronological" },
+              { id: "a", text: "Random and by length" },
+              { id: "b", text: "Chronological (time order) and problem-solution" },
+              { id: "c", text: "Only chronological" },
+              { id: "d", text: "Alphabetical and by colour" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Organization methods", statement: "Chronological, spatial, importance, problem-solution." }],
@@ -217,12 +217,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "To make the essay longer" },
-              { id: "b", text: "To organize ideas hierarchically before writing" },
-              { id: "c", text: "To check spelling" },
+              { id: "a", text: "To organize ideas hierarchically before writing" },
+              { id: "b", text: "To check spelling" },
+              { id: "c", text: "To make the essay longer" },
               { id: "d", text: "To choose a topic" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Outline", statement: "Skeletal structure showing main points and their order." }],
@@ -292,12 +292,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It makes writing faster" },
-              { id: "b", text: "It prevents rambling and ensures logical flow" },
-              { id: "c", text: "It uses more paper" },
-              { id: "d", text: "It impresses the teacher" },
+              { id: "a", text: "It prevents rambling and ensures logical flow" },
+              { id: "b", text: "It impresses the teacher" },
+              { id: "c", text: "It makes writing faster" },
+              { id: "d", text: "It uses more paper" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Planning", statement: "Planning ensures coherence and prevents rambling." }],
@@ -315,12 +315,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A list of words in alphabetical order" },
-              { id: "b", text: "A visual diagram grouping related ideas around a central topic" },
-              { id: "c", text: "A type of essay" },
+              { id: "a", text: "A type of essay" },
+              { id: "b", text: "A list of words in alphabetical order" },
+              { id: "c", text: "A visual diagram grouping related ideas around a central topic" },
               { id: "d", text: "A spelling check" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Planning techniques", statement: "Mind map = visual grouping of related ideas." }],
@@ -339,12 +339,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Brainstorming" },
-              { id: "b", text: "Creating an outline" },
-              { id: "c", text: "Writing the essay without planning" },
-              { id: "d", text: "Making a mind map" },
+              { id: "a", text: "Writing the essay without planning" },
+              { id: "b", text: "Brainstorming" },
+              { id: "c", text: "Making a mind map" },
+              { id: "d", text: "Creating an outline" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Planning", statement: "Planning techniques organize ideas before writing." }],
@@ -445,8 +445,8 @@ export const lesson32: Lesson = {
             choices: [
               { id: "a", text: "The last sentence of a paragraph" },
               { id: "b", text: "The first sentence stating the paragraph's main idea" },
-              { id: "c", text: "A question in the middle" },
-              { id: "d", text: "The title of the essay" },
+              { id: "c", text: "The title of the essay" },
+              { id: "d", text: "A question in the middle" },
             ],
             correctChoiceId: "b",
           },
@@ -529,10 +529,10 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "To end the paragraph" },
+              { id: "a", text: "To give an example" },
               { id: "b", text: "To state the paragraph's main idea" },
               { id: "c", text: "To ask a question" },
-              { id: "d", text: "To give an example" },
+              { id: "d", text: "To end the paragraph" },
             ],
             correctChoiceId: "b",
           },
@@ -572,12 +572,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Addition, contrast, and cause/effect" },
-              { id: "b", text: "Nouns, verbs, and adjectives" },
+              { id: "a", text: "Only 'and' and 'but'" },
+              { id: "b", text: "Addition, contrast, and cause/effect" },
               { id: "c", text: "Past, present, and future" },
-              { id: "d", text: "Only 'and' and 'but'" },
+              { id: "d", text: "Nouns, verbs, and adjectives" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Transitions", statement: "Addition, contrast, cause/effect, example, sequence." }],
@@ -617,12 +617,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Furthermore" },
-              { id: "b", text: "However" },
-              { id: "c", text: "Therefore" },
-              { id: "d", text: "For example" },
+              { id: "a", text: "Therefore" },
+              { id: "b", text: "For example" },
+              { id: "c", text: "However" },
+              { id: "d", text: "Furthermore" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Transitions", statement: "'However' signals contrast." }],
@@ -691,12 +691,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Correct spelling" },
-              { id: "b", text: "Ideas that flow logically and connect" },
-              { id: "c", text: "Long sentences" },
-              { id: "d", text: "Using big words" },
+              { id: "a", text: "Using big words" },
+              { id: "b", text: "Correct spelling" },
+              { id: "c", text: "Ideas that flow logically and connect" },
+              { id: "d", text: "Long sentences" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Coherence", statement: "Coherence = ideas flow logically and connect." }],
@@ -734,12 +734,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Exercise is fun." },
-              { id: "b", text: "Therefore, regular exercise is essential for health and wellbeing." },
-              { id: "c", text: "I like sports." },
-              { id: "d", text: "The end." },
+              { id: "a", text: "I like sports." },
+              { id: "b", text: "Exercise is fun." },
+              { id: "c", text: "The end." },
+              { id: "d", text: "Therefore, regular exercise is essential for health and wellbeing." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Concluding sentence", statement: "Summarizes and reinforces the paragraph's main idea." }],

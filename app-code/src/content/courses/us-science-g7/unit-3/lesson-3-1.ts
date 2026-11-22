@@ -50,8 +50,8 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Sedimentary rock" },
-              { id: "b", text: "Metamorphic rock" },
+              { id: "a", text: "Metamorphic rock" },
+              { id: "b", text: "Sedimentary rock" },
               { id: "c", text: "Igneous rock" },
               { id: "d", text: "Fossil rock" },
             ],
@@ -185,11 +185,11 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "The reptile could swim across the Atlantic Ocean." },
-              { id: "b", text: "The two continents were once joined together." },
+              { id: "b", text: "Fossils form only near mid-ocean ridges." },
               { id: "c", text: "Earth's climate has never changed." },
-              { id: "d", text: "Fossils form only near mid-ocean ridges." },
+              { id: "d", text: "The two continents were once joined together." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

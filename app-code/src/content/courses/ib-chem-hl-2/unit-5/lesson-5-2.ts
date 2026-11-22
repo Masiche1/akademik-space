@@ -54,12 +54,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The charge carried by one mole of electrons ($96485$ C mol$^{-1}$)" },
-              { id: "b", text: "The mass of one mole of electrons" },
-              { id: "c", text: "The charge of one electron" },
-              { id: "d", text: "The number of electrons in one atom" },
+              { id: "a", text: "The mass of one mole of electrons" },
+              { id: "b", text: "The charge carried by one mole of electrons ($96485$ C mol$^{-1}$)" },
+              { id: "c", text: "The number of electrons in one atom" },
+              { id: "d", text: "The charge of one electron" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -153,12 +153,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The current in amperes" },
-              { id: "b", text: "The charge passed in coulombs" },
-              { id: "c", text: "The time in seconds" },
-              { id: "d", text: "The mass of product in grams" },
+              { id: "a", text: "The time in seconds" },
+              { id: "b", text: "The current in amperes" },
+              { id: "c", text: "The mass of product in grams" },
+              { id: "d", text: "The charge passed in coulombs" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -204,10 +204,10 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The number of atoms in the molecule" },
+              { id: "a", text: "The charge on the ion" },
               { id: "b", text: "The number of electrons transferred per ion discharged" },
-              { id: "c", text: "The number of moles of product" },
-              { id: "d", text: "The charge on the ion" },
+              { id: "c", text: "The number of atoms in the molecule" },
+              { id: "d", text: "The number of moles of product" },
             ],
             correctChoiceId: "b",
           },
@@ -279,12 +279,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Cu$^{2+}$" },
-              { id: "b", text: "Na$^+$" },
-              { id: "c", text: "Al$^{3+}$" },
-              { id: "d", text: "Cl$^-$" },
+              { id: "a", text: "Cl$^-$" },
+              { id: "b", text: "Al$^{3+}$" },
+              { id: "c", text: "Na$^+$" },
+              { id: "d", text: "Cu$^{2+}$" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -486,12 +486,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "H$_2$" },
-              { id: "b", text: "Na" },
-              { id: "c", text: "Cl$_2$" },
-              { id: "d", text: "O$_2$" },
+              { id: "a", text: "Cl$_2$" },
+              { id: "b", text: "O$_2$" },
+              { id: "c", text: "H$_2$" },
+              { id: "d", text: "Na" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -585,12 +585,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "O$_2$" },
-              { id: "b", text: "Cl$_2$" },
-              { id: "c", text: "H$_2$" },
-              { id: "d", text: "SO$_2$" },
+              { id: "a", text: "Cl$_2$" },
+              { id: "b", text: "H$_2$" },
+              { id: "c", text: "SO$_2$" },
+              { id: "d", text: "O$_2$" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -637,12 +637,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "H$_2$" },
-              { id: "b", text: "O$_2$" },
+              { id: "a", text: "SO$_2$" },
+              { id: "b", text: "H$_2$" },
               { id: "c", text: "Cl$_2$" },
-              { id: "d", text: "SO$_2$" },
+              { id: "d", text: "O$_2$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -690,11 +690,11 @@ export const lesson52: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "They are larger ions" },
-              { id: "b", text: "They are more easily oxidised (lower oxidation potential)" },
-              { id: "c", text: "They have a more positive reduction potential" },
-              { id: "d", text: "Water cannot be oxidised at all" },
+              { id: "b", text: "They have a more positive reduction potential" },
+              { id: "c", text: "Water cannot be oxidised at all" },
+              { id: "d", text: "They are more easily oxidised (lower oxidation potential)" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -762,12 +762,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "O$_2$" },
-              { id: "b", text: "I$_2$" },
-              { id: "c", text: "H$_2$" },
-              { id: "d", text: "K metal" },
+              { id: "a", text: "I$_2$" },
+              { id: "b", text: "H$_2$" },
+              { id: "c", text: "K metal" },
+              { id: "d", text: "O$_2$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

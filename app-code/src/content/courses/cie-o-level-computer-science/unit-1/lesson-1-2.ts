@@ -39,8 +39,11 @@ export const lesson12: Lesson = {
           id: "olcs-u1-ts-q1", difficulty: "foundation", totalMarks: 1,
           stem: "ASCII uses how many bits per character?",
           response: { type: "mcq", choices: [
-            { id: "a", text: "7" }, { id: "b", text: "8" }, { id: "c", text: "16" }, { id: "d", text: "32" },
-          ], correctChoiceId: "a" },
+            { id: "a", text: "32" },
+            { id: "b", text: "7" },
+            { id: "c", text: "8" },
+            { id: "d", text: "16" },
+          ], correctChoiceId: "b" },
           markscheme: { principles: [{ kind: "definition", name: "ASCII", statement: "7-bit encoding." }], steps: [{ reasoning: "ASCII = 7 bits.", working: "7", marks: 1, markCode: "B" }], finalAnswer: "**(a)** 7" },
         },
         {
@@ -87,6 +90,129 @@ export const lesson12: Lesson = {
             { part: "d", reasoning: "Disadvantage: larger file size.", working: "\\text{size}", marks: 1, markCode: "A" },
           ], finalAnswer: "(a) covers all scripts (b) bits per sample (c) ≈1.37 MB (d) accuracy vs size" },
         },
+        {
+          id: "olcs-u1-ts-q5", difficulty: "foundation", totalMarks: 1,
+          stem: "How many different character codes can ASCII represent?",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "256" },
+            { id: "b", text: "1 048 576" },
+            { id: "c", text: "65 536" },
+            { id: "d", text: "128" },
+          ], correctChoiceId: "d" },
+          markscheme: { principles: [{ kind: "definition", name: "ASCII", statement: "7 bits → $2^7=128$ codes." }], steps: [{ reasoning: "$2^7=128$ codes.", working: "128", marks: 1, markCode: "B" }], finalAnswer: "**(a)** 128" },
+        },
+        {
+          id: "olcs-u1-ts-q6", difficulty: "core", totalMarks: 2,
+          stem: "An 8-bit sound sample uses how many amplitude levels?",
+          response: { type: "numeric", parts: [{ label: "Levels", answer: 256 }] },
+          markscheme: { principles: [{ kind: "formula", name: "Levels", statement: "$2^{\\text{bits}}$ levels." }], steps: [
+            { reasoning: "$2^8=256$ amplitude levels.", working: "2^8=256", marks: 1, markCode: "M" },
+            { reasoning: "Correct value.", working: "256", marks: 1, markCode: "A" },
+          ], finalAnswer: "256" },
+        },
+        {
+          id: "olcs-u1-ts-q7", difficulty: "foundation", totalMarks: 1,
+          stem: "Unicode is needed instead of ASCII when…",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "The file is large" },
+            { id: "b", text: "Text contains non-English characters" },
+            { id: "c", text: "The text is encrypted" },
+            { id: "d", text: "The computer has little RAM" },
+          ], correctChoiceId: "b" },
+          markscheme: { principles: [{ kind: "principle", name: "Unicode", statement: "Covers all world scripts; ASCII only English/basic." }], steps: [{ reasoning: "ASCII cannot represent other scripts.", working: "\\text{non-English}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Non-English characters" },
+        },
+        {
+          id: "olcs-u1-ts-q8", difficulty: "core", totalMarks: 2,
+          stem: "A mono recording is sampled at 12 kHz with 8-bit resolution for 5 seconds. Calculate the uncompressed size in bits.",
+          response: { type: "numeric", parts: [{ label: "Bits", answer: 480000 }] },
+          markscheme: { principles: [{ kind: "formula", name: "Sound size", statement: "$f\\times b\\times t\\times c$ bits." }], steps: [
+            { reasoning: "Bits = $12000\\times8\\times5\\times1$.", working: "12000\\times8\\times5", marks: 1, markCode: "M" },
+            { reasoning: "= $480\\,000$ bits.", working: "480000", marks: 1, markCode: "A" },
+          ], finalAnswer: "480 000 bits" },
+        },
+        {
+          id: "olcs-u1-ts-q9", difficulty: "core", totalMarks: 2,
+          stem: "State one effect of increasing the sample resolution when recording sound.",
+          response: { type: "open" },
+          markscheme: { principles: [{ kind: "principle", name: "Sample resolution", statement: "More bits → finer amplitude detail." }], steps: [
+            { reasoning: "Reduces quantisation noise / smoother reproduction.", working: "\\text{less noise}", marks: 1, markCode: "M" },
+            { reasoning: "Increases file size.", working: "\\text{larger file}", marks: 1, markCode: "A" },
+          ], finalAnswer: "Finer amplitude detail (less quantisation noise); larger file size." },
+        },
+        {
+          id: "olcs-u1-ts-q10", difficulty: "core", totalMarks: 1,
+          stem: "To reduce quantisation noise in a digitised recording, you should increase the…",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "Number of channels" },
+            { id: "b", text: "Sample resolution" },
+            { id: "c", text: "Duration" },
+            { id: "d", text: "File name length" },
+          ], correctChoiceId: "b" },
+          markscheme: { principles: [{ kind: "principle", name: "Quantisation", statement: "Noise reduced by more bits per sample." }], steps: [{ reasoning: "More bits per sample → smaller amplitude steps.", working: "\\text{bits/sample}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Sample resolution" },
+        },
+        {
+          id: "olcs-u1-ts-q11", difficulty: "core", totalMarks: 2,
+          stem: "A stereo file sampled at 44.1 kHz with 16-bit resolution lasts 1 second. Calculate the uncompressed size in bytes.",
+          response: { type: "numeric", parts: [{ label: "Bytes", answer: 176400 }] },
+          markscheme: { principles: [{ kind: "formula", name: "Sound size", statement: "Bits = $f\\times b\\times t\\times c$; bytes = bits $\\div 8$." }], steps: [
+            { reasoning: "Bits = $44100\\times16\\times1\\times2=1\\,411\\,200$.", working: "1411200", marks: 1, markCode: "M" },
+            { reasoning: "Bytes = $1411200/8=176\\,400$.", working: "176400", marks: 1, markCode: "A" },
+          ], finalAnswer: "176 400 bytes" },
+        },
+        {
+          id: "olcs-u1-ts-q12", difficulty: "core", totalMarks: 2,
+          stem: "Which encoding scheme can represent characters from all world languages, including emoji?",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "Binary" },
+            { id: "b", text: "Baudot" },
+            { id: "c", text: "ASCII" },
+            { id: "d", text: "Unicode (UTF-8)" },
+          ], correctChoiceId: "d" },
+          markscheme: { principles: [{ kind: "definition", name: "Unicode", statement: "All scripts, variable-length codes." }], steps: [{ reasoning: "Unicode covers all languages.", working: "\\text{Unicode}", marks: 1, markCode: "M" }, { reasoning: "ASCII is English-only.", working: "\\text{128 codes}", marks: 1, markCode: "A" }], finalAnswer: "**(a)** Unicode (UTF-8)" },
+        },
+        {
+          id: "olcs-u1-ts-q13", difficulty: "challenge", totalMarks: 4,
+          stem: "Explain why the uncompressed size of a sound file depends on the sample rate, sample resolution, duration and number of channels.",
+          response: { type: "open" },
+          markscheme: { principles: [{ kind: "formula", name: "Sound size", statement: "$f\\times b\\times t\\times c$ bits." }], steps: [
+            { reasoning: "Sample rate = samples per second.", working: "\\text{samples/s}", marks: 1, markCode: "M" },
+            { reasoning: "Sample resolution = bits stored per sample.", working: "\\text{bits/sample}", marks: 1, markCode: "M" },
+            { reasoning: "Duration and channels multiply the total samples.", working: "\\text{t}\\times\\text{c}", marks: 1, markCode: "M" },
+            { reasoning: "All four multiply to give total bits.", marks: 1, markCode: "A" },
+          ], finalAnswer: "Size = rate × bits-per-sample × seconds × channels; each factor scales the total number of bits stored." },
+        },
+        {
+          id: "olcs-u1-ts-q14", difficulty: "challenge", totalMarks: 1,
+          stem: "A recording doubles its sample rate but halves its duration, keeping the same sample resolution and channels. The file size…",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "Doubles" },
+            { id: "b", text: "Halves" },
+            { id: "c", text: "Quadruples" },
+            { id: "d", text: "Stays the same" },
+          ], correctChoiceId: "d" },
+          markscheme: { principles: [{ kind: "principle", name: "Sound size", statement: "Size $\\propto f\\times t$ — the two changes cancel." }], steps: [{ reasoning: "$\\times2$ rate and $\\times0.5$ time cancel.", working: "2\\times0.5=1", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Stays the same" },
+        },
+        {
+          id: "olcs-u1-ts-q15", difficulty: "challenge", totalMarks: 3,
+          stem: "A stereo file uses 22.05 kHz sampling, 8-bit resolution and lasts 30 seconds. Calculate the uncompressed size in kB ($1\\text{ kB}=1024$ bytes).",
+          response: { type: "numeric", parts: [{ label: "kB", answer: 1292, tolerance: 0.01 }] },
+          markscheme: { principles: [{ kind: "formula", name: "Sound size", statement: "$f\\times b\\times t\\times c$ bits, then $\\div 8$ bytes and $\\div 1024$ kB." }], steps: [
+            { reasoning: "Bits = $22050\\times8\\times30\\times2=10\\,584\\,000$.", working: "10584000", marks: 1, markCode: "M" },
+            { reasoning: "Bytes = $1\\,323\\,000$; kB = $1323000/1024\\approx1292$.", working: "1292", marks: 1, markCode: "M" },
+            { reasoning: "Correct final value in kB.", working: "1292", marks: 1, markCode: "A" },
+          ], finalAnswer: "≈1292 kB" },
+        },
+        {
+          id: "olcs-u1-ts-q16", difficulty: "foundation", totalMarks: 1,
+          stem: "UTF-8 is…",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "A sound sampling rate" },
+            { id: "b", text: "A Unicode character encoding" },
+            { id: "c", text: "A network protocol" },
+            { id: "d", text: "A type of compression" },
+          ], correctChoiceId: "b" },
+          markscheme: { principles: [{ kind: "definition", name: "UTF-8", statement: "Variable-length Unicode encoding." }], steps: [{ reasoning: "UTF-8 encodes Unicode characters.", working: "\\text{Unicode}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Unicode character encoding" },
+        },
       ],
     },
     {
@@ -113,8 +239,11 @@ export const lesson12: Lesson = {
           id: "olcs-u1-img-q1", difficulty: "foundation", totalMarks: 1,
           stem: "How many colours can an 8-bit image store?",
           response: { type: "mcq", choices: [
-            { id: "a", text: "256" }, { id: "b", text: "64" }, { id: "c", text: "1024" }, { id: "d", text: "16 million" },
-          ], correctChoiceId: "a" },
+            { id: "a", text: "1024" },
+            { id: "b", text: "256" },
+            { id: "c", text: "64" },
+            { id: "d", text: "16 million" },
+          ], correctChoiceId: "b" },
           markscheme: { principles: [{ kind: "formula", name: "Colours", statement: "$2^8=256$." }], steps: [{ reasoning: "$2^8=256$.", working: "256", marks: 1, markCode: "B" }], finalAnswer: "**(a)** 256" },
         },
         {
@@ -160,6 +289,129 @@ export const lesson12: Lesson = {
             { part: "d", reasoning: "Metadata/headers add bytes.", working: "\\text{metadata}", marks: 1, markCode: "M" },
             { part: "d", reasoning: "Or file stored uncompressed vs container overhead.", working: "\\text{container}", marks: 1, markCode: "A" },
           ], finalAnswer: "(a) 65 536 (b) f×b×t×c (c) ≈36 MB (d) metadata, container overhead" },
+        },
+        {
+          id: "olcs-u1-img-q5", difficulty: "foundation", totalMarks: 1,
+          stem: "How many colours can a 4-bit image store?",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "256" },
+            { id: "b", text: "16" },
+            { id: "c", text: "8" },
+            { id: "d", text: "4" },
+          ], correctChoiceId: "b" },
+          markscheme: { principles: [{ kind: "formula", name: "Colours", statement: "$2^4=16$." }], steps: [{ reasoning: "$2^4=16$ colours.", working: "16", marks: 1, markCode: "B" }], finalAnswer: "**(a)** 16" },
+        },
+        {
+          id: "olcs-u1-img-q6", difficulty: "core", totalMarks: 2,
+          stem: "A 320 × 200 image uses 24-bit colour depth. Calculate the uncompressed size in bytes.",
+          response: { type: "numeric", parts: [{ label: "Bytes", answer: 192000 }] },
+          markscheme: { principles: [{ kind: "formula", name: "Image size", statement: "$w\\times h\\times d/8$ bytes." }], steps: [
+            { reasoning: "Bytes = $320\\times200\\times24/8$.", working: "320\\times200\\times24\\div8", marks: 1, markCode: "M" },
+            { reasoning: "= $192\\,000$ bytes.", working: "192000", marks: 1, markCode: "A" },
+          ], finalAnswer: "192 000 bytes" },
+        },
+        {
+          id: "olcs-u1-img-q7", difficulty: "foundation", totalMarks: 1,
+          stem: "Halving both the width and height of an image reduces its pixel count to…",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "It stays the same" },
+            { id: "b", text: "One quarter" },
+            { id: "c", text: "One half" },
+            { id: "d", text: "One eighth" },
+          ], correctChoiceId: "b" },
+          markscheme: { principles: [{ kind: "principle", name: "Pixels", statement: "Pixels $=$ width × height — halving each quarters it." }], steps: [{ reasoning: "$0.5\\times0.5=0.25$ of pixels.", working: "0.25", marks: 1, markCode: "B" }], finalAnswer: "**(a)** One quarter" },
+        },
+        {
+          id: "olcs-u1-img-q8", difficulty: "core", totalMarks: 2,
+          stem: "A 1000 × 800 greyscale image uses 8-bit colour depth. Calculate its uncompressed size in bytes.",
+          response: { type: "numeric", parts: [{ label: "Bytes", answer: 800000 }] },
+          markscheme: { principles: [{ kind: "formula", name: "Image size", statement: "$w\\times h\\times d/8$ bytes." }], steps: [
+            { reasoning: "Bytes = $1000\\times800\\times8/8=800\\,000$.", working: "800000", marks: 1, markCode: "M" },
+            { reasoning: "Correct value.", working: "800000", marks: 1, markCode: "A" },
+          ], finalAnswer: "800 000 bytes" },
+        },
+        {
+          id: "olcs-u1-img-q9", difficulty: "core", totalMarks: 2,
+          stem: "State one effect of increasing the colour depth of an image.",
+          response: { type: "open" },
+          markscheme: { principles: [{ kind: "principle", name: "Colour depth", statement: "More bits → more colours, larger file." }], steps: [
+            { reasoning: "More colours / smoother gradients.", working: "\\text{more colours}", marks: 1, markCode: "M" },
+            { reasoning: "Larger file size.", working: "\\text{larger file}", marks: 1, markCode: "A" },
+          ], finalAnswer: "More colours and smoother gradients; larger file size." },
+        },
+        {
+          id: "olcs-u1-img-q10", difficulty: "core", totalMarks: 1,
+          stem: "Which colour depth gives the smoothest colour gradients (true colour)?",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "24-bit" },
+            { id: "b", text: "1-bit" },
+            { id: "c", text: "8-bit" },
+            { id: "d", text: "4-bit" },
+          ], correctChoiceId: "a" },
+          markscheme: { principles: [{ kind: "definition", name: "True colour", statement: "24-bit ≈ 16.7 million colours." }], steps: [{ reasoning: "24-bit gives the most colours.", working: "2^{24}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** 24-bit" },
+        },
+        {
+          id: "olcs-u1-img-q11", difficulty: "core", totalMarks: 2,
+          stem: "A 500 × 400 black-and-white image uses 1-bit colour depth. Calculate the uncompressed size in bytes.",
+          response: { type: "numeric", parts: [{ label: "Bytes", answer: 25000 }] },
+          markscheme: { principles: [{ kind: "formula", name: "Image size", statement: "$w\\times h\\times d/8$ bytes." }], steps: [
+            { reasoning: "Bytes = $500\\times400\\times1/8=25\\,000$.", working: "25000", marks: 1, markCode: "M" },
+            { reasoning: "Correct value.", working: "25000", marks: 1, markCode: "A" },
+          ], finalAnswer: "25 000 bytes" },
+        },
+        {
+          id: "olcs-u1-img-q12", difficulty: "core", totalMarks: 2,
+          stem: "Which of these is an example of image metadata?",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "The bitmap data itself" },
+            { id: "b", text: "EXIF camera settings" },
+            { id: "c", text: "Pixel colour values" },
+            { id: "d", text: "Image width in pixels" },
+          ], correctChoiceId: "b" },
+          markscheme: { principles: [{ kind: "definition", name: "Metadata", statement: "Extra data about the file, not the pixels." }], steps: [{ reasoning: "EXIF tags store camera/settings info.", working: "\\text{EXIF}", marks: 1, markCode: "M" }, { reasoning: "Pixels/bitmap are image data, not metadata.", working: "\\text{pixels}", marks: 1, markCode: "A" }], finalAnswer: "**(a)** EXIF camera settings" },
+        },
+        {
+          id: "olcs-u1-img-q13", difficulty: "challenge", totalMarks: 4,
+          stem: "Explain how resolution and colour depth each affect an image's file size and visual quality.",
+          response: { type: "open" },
+          markscheme: { principles: [{ kind: "principle", name: "Size factors", statement: "Size $\\propto$ pixels × bits per pixel." }], steps: [
+            { reasoning: "Higher resolution = more pixels = sharper but larger.", working: "\\text{pixels}", marks: 1, markCode: "M" },
+            { reasoning: "Higher colour depth = more colours = smoother but larger.", working: "\\text{depth}", marks: 1, markCode: "M" },
+            { reasoning: "Both multiply in the size formula.", working: "w\\times h\\times d", marks: 1, markCode: "M" },
+            { reasoning: "Trade-off between quality and storage.", marks: 1, markCode: "A" },
+          ], finalAnswer: "Resolution controls sharpness (more pixels); colour depth controls colour range; both increase file size proportionally." },
+        },
+        {
+          id: "olcs-u1-img-q14", difficulty: "challenge", totalMarks: 1,
+          stem: "Doubling both the width and height of an image multiplies its uncompressed size by…",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "2" },
+            { id: "b", text: "16" },
+            { id: "c", text: "4" },
+            { id: "d", text: "8" },
+          ], correctChoiceId: "c" },
+          markscheme: { principles: [{ kind: "principle", name: "Scaling", statement: "Area scales as the square of linear dimension." }], steps: [{ reasoning: "$2\\times2=4$ times the pixels.", working: "4", marks: 1, markCode: "B" }], finalAnswer: "**(a)** 4" },
+        },
+        {
+          id: "olcs-u1-img-q15", difficulty: "challenge", totalMarks: 3,
+          stem: "A 2048 × 1536 photo uses 24-bit colour. Estimate the raw file size in MB ($1\\text{ MB}=1024^2$ bytes).",
+          response: { type: "numeric", parts: [{ label: "MB", answer: 9 }] },
+          markscheme: { principles: [{ kind: "formula", name: "Image size", statement: "$w\\times h\\times d/8$ bytes." }], steps: [
+            { reasoning: "Bytes = $2048\\times1536\\times24/8=9\\,437\\,184$.", working: "9437184", marks: 1, markCode: "M" },
+            { reasoning: "MB = $9437184/1024^2=9.0$ MB.", working: "9", marks: 1, markCode: "M" },
+            { reasoning: "Correct value in MB.", working: "9", marks: 1, markCode: "A" },
+          ], finalAnswer: "9 MB" },
+        },
+        {
+          id: "olcs-u1-img-q16", difficulty: "foundation", totalMarks: 1,
+          stem: "A 1-bit image can store how many colours?",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "256" },
+            { id: "b", text: "16" },
+            { id: "c", text: "2" },
+            { id: "d", text: "65 536" },
+          ], correctChoiceId: "c" },
+          markscheme: { principles: [{ kind: "formula", name: "Colours", statement: "$2^1=2$ (e.g. black/white)." }], steps: [{ reasoning: "$2^1=2$ colours.", working: "2", marks: 1, markCode: "B" }], finalAnswer: "**(a)** 2" },
         },
       ],
     },

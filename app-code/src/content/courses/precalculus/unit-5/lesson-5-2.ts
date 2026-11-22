@@ -53,12 +53,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$(5,-1)$" },
-              { id: "b", text: "$(3,-1)$" },
-              { id: "c", text: "$(5,-5)$" },
-              { id: "d", text: "$(-1,5)$" },
+              { id: "a", text: "$(-1,5)$" },
+              { id: "b", text: "$(5,-1)$" },
+              { id: "c", text: "$(3,-1)$" },
+              { id: "d", text: "$(5,-5)$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -190,8 +190,8 @@ export const lesson52: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$(2,2\\sqrt3)$" },
-              { id: "b", text: "$(2\\sqrt3,2)$" },
-              { id: "c", text: "$(4,\\sqrt3)$" },
+              { id: "b", text: "$(4,\\sqrt3)$" },
+              { id: "c", text: "$(2\\sqrt3,2)$" },
               { id: "d", text: "$(\\sqrt3,4)$" },
             ],
             correctChoiceId: "a",

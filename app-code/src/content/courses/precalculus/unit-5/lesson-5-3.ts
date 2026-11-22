@@ -52,12 +52,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$6$" },
-              { id: "b", text: "$0$" },
-              { id: "c", text: "$3$" },
-              { id: "d", text: "The limit does not exist" },
+              { id: "a", text: "$3$" },
+              { id: "b", text: "The limit does not exist" },
+              { id: "c", text: "$0$" },
+              { id: "d", text: "$6$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -187,12 +187,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$3$" },
-              { id: "b", text: "$0$" },
-              { id: "c", text: "$-\\frac15$" },
+              { id: "a", text: "$0$" },
+              { id: "b", text: "$-\\frac15$" },
+              { id: "c", text: "$3$" },
               { id: "d", text: "$\\infty$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

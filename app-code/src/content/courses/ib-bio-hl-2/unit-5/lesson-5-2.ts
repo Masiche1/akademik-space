@@ -55,11 +55,11 @@ export const lesson52: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$90\\%$" },
-              { id: "b", text: "$50\\%$" },
-              { id: "c", text: "$10\\%$" },
+              { id: "b", text: "$10\\%$" },
+              { id: "c", text: "$50\\%$" },
               { id: "d", text: "$1\\%$" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -83,10 +83,10 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$30\\,000\\ \\text{kJ m}^{-2}$" },
+              { id: "a", text: "$12\\,000\\ \\text{kJ m}^{-2}$" },
               { id: "b", text: "$18\\,000\\ \\text{kJ m}^{-2}$" },
-              { id: "c", text: "$42\\,000\\ \\text{kJ m}^{-2}$" },
-              { id: "d", text: "$12\\,000\\ \\text{kJ m}^{-2}$" },
+              { id: "c", text: "$30\\,000\\ \\text{kJ m}^{-2}$" },
+              { id: "d", text: "$42\\,000\\ \\text{kJ m}^{-2}$" },
             ],
             correctChoiceId: "b",
           },
@@ -113,12 +113,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Energy pyramids can never invert because energy is recycled between levels" },
-              { id: "b", text: "Number pyramids can invert because few large producers can support many small consumers; energy always decreases upward so energy pyramids are always upright" },
-              { id: "c", text: "Energy pyramids are always upright because producers are always the most numerous" },
-              { id: "d", text: "Number pyramids cannot invert; only biomass pyramids can" },
+              { id: "a", text: "Number pyramids cannot invert; only biomass pyramids can" },
+              { id: "b", text: "Energy pyramids can never invert because energy is recycled between levels" },
+              { id: "c", text: "Number pyramids can invert because few large producers can support many small consumers; energy always decreases upward so energy pyramids are always upright" },
+              { id: "d", text: "Energy pyramids are always upright because producers are always the most numerous" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -177,11 +177,11 @@ export const lesson52: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Pyramid of numbers" },
-              { id: "b", text: "Pyramid of biomass" },
-              { id: "c", text: "Pyramid of energy" },
-              { id: "d", text: "All three pyramids are always upright" },
+              { id: "b", text: "All three pyramids are always upright" },
+              { id: "c", text: "Pyramid of biomass" },
+              { id: "d", text: "Pyramid of energy" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -205,9 +205,9 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Because some producers are eaten before photosynthesising" },
+              { id: "a", text: "Because energy is lost as heat to the atmosphere" },
               { id: "b", text: "Because producers use some of the energy they fix for their own respiration" },
-              { id: "c", text: "Because energy is lost as heat to the atmosphere" },
+              { id: "c", text: "Because some producers are eaten before photosynthesising" },
               { id: "d", text: "Because only $10\\%$ of light reaches producers" },
             ],
             correctChoiceId: "b",
@@ -234,12 +234,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Because food webs include decomposers while food chains do not" },
-              { id: "b", text: "Because most organisms feed at several trophic levels and on several prey, so energy flows through many overlapping pathways" },
-              { id: "c", text: "Because food chains cannot show predators" },
-              { id: "d", text: "Because food webs always contain more species" },
+              { id: "a", text: "Because most organisms feed at several trophic levels and on several prey, so energy flows through many overlapping pathways" },
+              { id: "b", text: "Because food chains cannot show predators" },
+              { id: "c", text: "Because food webs always contain more species" },
+              { id: "d", text: "Because food webs include decomposers while food chains do not" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -264,12 +264,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Because producers cannot fix enough energy for more levels" },
-              { id: "b", text: "Because about $90\\%$ of energy is lost at each transfer, so too little remains to support higher levels" },
+              { id: "a", text: "Because decomposers consume all energy before it reaches the top" },
+              { id: "b", text: "Because producers cannot fix enough energy for more levels" },
               { id: "c", text: "Because top predators reproduce too slowly" },
-              { id: "d", text: "Because decomposers consume all energy before it reaches the top" },
+              { id: "d", text: "Because about $90\\%$ of energy is lost at each transfer, so too little remains to support higher levels" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -510,11 +510,11 @@ export const lesson52: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Parasitism" },
-              { id: "b", text: "Commensalism" },
-              { id: "c", text: "Mutualism" },
-              { id: "d", text: "Competition" },
+              { id: "b", text: "Competition" },
+              { id: "c", text: "Commensalism" },
+              { id: "d", text: "Mutualism" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -538,12 +538,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Competitive exclusion" },
+              { id: "a", text: "Trophic cascade" },
               { id: "b", text: "Resource partitioning" },
-              { id: "c", text: "Trophic cascade" },
-              { id: "d", text: "Character displacement" },
+              { id: "c", text: "Character displacement" },
+              { id: "d", text: "Competitive exclusion" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -568,12 +568,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Wolves directly increased willow growth through pollination" },
-              { id: "b", text: "A trophic cascade: wolves (keystone predator) altered elk herbivory, releasing vegetation and benefiting multiple trophic levels" },
-              { id: "c", text: "Competitive exclusion removed the elk population entirely" },
+              { id: "a", text: "A trophic cascade: wolves (keystone predator) altered elk herbivory, releasing vegetation and benefiting multiple trophic levels" },
+              { id: "b", text: "Competitive exclusion removed the elk population entirely" },
+              { id: "c", text: "Wolves directly increased willow growth through pollination" },
               { id: "d", text: "The wolves and elk formed a mutualistic relationship" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -632,12 +632,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Parasitism" },
+              { id: "a", text: "Commensalism" },
               { id: "b", text: "Mutualism" },
-              { id: "c", text: "Commensalism" },
-              { id: "d", text: "Competition" },
+              { id: "c", text: "Competition" },
+              { id: "d", text: "Parasitism" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -661,9 +661,9 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "+ for predator, + for prey" },
+              { id: "a", text: "− for predator, + for prey" },
               { id: "b", text: "+ for predator, − for prey" },
-              { id: "c", text: "− for predator, + for prey" },
+              { id: "c", text: "+ for predator, + for prey" },
               { id: "d", text: "− for both species" },
             ],
             correctChoiceId: "b",
@@ -690,9 +690,9 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Competitive exclusion" },
+              { id: "a", text: "Trophic cascade" },
               { id: "b", text: "Resource partitioning (niche differentiation)" },
-              { id: "c", text: "Trophic cascade" },
+              { id: "c", text: "Competitive exclusion" },
               { id: "d", text: "Character displacement through predation" },
             ],
             correctChoiceId: "b",
@@ -720,12 +720,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "They will coexist indefinitely at equal densities" },
+              { id: "a", text: "One species will exclude the other locally" },
               { id: "b", text: "They will partition resources and diverge" },
-              { id: "c", text: "One species will exclude the other locally" },
+              { id: "c", text: "They will coexist indefinitely at equal densities" },
               { id: "d", text: "They will form a mutualism" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [

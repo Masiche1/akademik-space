@@ -98,11 +98,11 @@ export const lesson44: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Saving, taxes and imports" },
-              { id: "b", text: "Consumption, saving and investment" },
-              { id: "c", text: "Investment, government spending and exports" },
-              { id: "d", text: "Wages, rent and profit" },
+              { id: "b", text: "Wages, rent and profit" },
+              { id: "c", text: "Consumption, saving and investment" },
+              { id: "d", text: "Investment, government spending and exports" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -333,15 +333,15 @@ export const lesson44: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Investment, government spending and exports" },
-              { id: "b", text: "Saving, taxes and imports" },
+              { id: "a", text: "Wages, rent, interest and profit" },
+              { id: "b", text: "Investment, government spending and exports" },
               {
                 id: "c",
                 text: "Consumption, investment and government spending",
               },
-              { id: "d", text: "Wages, rent, interest and profit" },
+              { id: "d", text: "Saving, taxes and imports" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -385,8 +385,8 @@ export const lesson44: Lesson = {
                 id: "b",
                 text: "The flow of goods, services and factor services between households and firms",
               },
-              { id: "c", text: "Government tax revenue" },
-              { id: "d", text: "International trade flows" },
+              { id: "c", text: "International trade flows" },
+              { id: "d", text: "Government tax revenue" },
             ],
             correctChoiceId: "b",
           },
@@ -428,10 +428,10 @@ export const lesson44: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Investment (I)" },
+              { id: "a", text: "Net exports (X − M)" },
               { id: "b", text: "Government spending (G)" },
               { id: "c", text: "Consumption (C)" },
-              { id: "d", text: "Net exports (X − M)" },
+              { id: "d", text: "Investment (I)" },
             ],
             correctChoiceId: "c",
           },
@@ -472,12 +472,12 @@ export const lesson44: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "MPC" },
-              { id: "b", text: "1 / MPC" },
-              { id: "c", text: "1 / (1 − MPC)" },
-              { id: "d", text: "1 − MPC" },
+              { id: "a", text: "1 / MPC" },
+              { id: "b", text: "MPC" },
+              { id: "c", text: "1 − MPC" },
+              { id: "d", text: "1 / (1 − MPC)" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -515,12 +515,12 @@ export const lesson44: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Rise" },
-              { id: "b", text: "Fall" },
-              { id: "c", text: "Remain unchanged" },
-              { id: "d", text: "Rise only if the multiplier is large" },
+              { id: "a", text: "Rise only if the multiplier is large" },
+              { id: "b", text: "Rise" },
+              { id: "c", text: "Fall" },
+              { id: "d", text: "Remain unchanged" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1040,10 +1040,10 @@ export const lesson44: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A leftward shift of the AD curve" },
+              { id: "a", text: "A leftward shift of the LRAS curve" },
               { id: "b", text: "A rightward shift of the AD curve" },
-              { id: "c", text: "A leftward shift of the LRAS curve" },
-              { id: "d", text: "A rightward shift of the SRAS curve" },
+              { id: "c", text: "A rightward shift of the SRAS curve" },
+              { id: "d", text: "A leftward shift of the AD curve" },
             ],
             correctChoiceId: "b",
           },
@@ -1272,18 +1272,18 @@ export const lesson44: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "Wages always fall when prices rise" },
+              { id: "b", text: "Government spending decreases as prices rise" },
               {
-                id: "a",
-                text: "Higher prices increase the quantity of goods supplied",
-              },
-              {
-                id: "b",
+                id: "c",
                 text: "At higher prices, consumption, investment and net exports fall",
               },
-              { id: "c", text: "Government spending decreases as prices rise" },
-              { id: "d", text: "Wages always fall when prices rise" },
+              {
+                id: "d",
+                text: "Higher prices increase the quantity of goods supplied",
+              },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1323,12 +1323,12 @@ export const lesson44: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "AD right" },
-              { id: "b", text: "SRAS left" },
-              { id: "c", text: "LRAS right" },
+              { id: "a", text: "SRAS left" },
+              { id: "b", text: "LRAS right" },
+              { id: "c", text: "AD right" },
               { id: "d", text: "AD left" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -1368,14 +1368,14 @@ export const lesson44: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Interest rates fall" },
+              { id: "b", text: "Consumer confidence rises" },
+              { id: "c", text: "The price level falls" },
               {
-                id: "b",
+                id: "d",
                 text: "Productive capacity increases (e.g. technology, education)",
               },
-              { id: "c", text: "Consumer confidence rises" },
-              { id: "d", text: "The price level falls" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1415,12 +1415,12 @@ export const lesson44: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Deflation" },
+              { id: "a", text: "Inflationary pressure" },
               { id: "b", text: "Rising unemployment" },
-              { id: "c", text: "Inflationary pressure" },
+              { id: "c", text: "Deflation" },
               { id: "d", text: "A recession" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1460,11 +1460,11 @@ export const lesson44: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Lower output and lower prices" },
-              { id: "b", text: "Higher output and higher prices" },
-              { id: "c", text: "Higher output and lower prices" },
-              { id: "d", text: "No change in output or prices" },
+              { id: "b", text: "No change in output or prices" },
+              { id: "c", text: "Higher output and higher prices" },
+              { id: "d", text: "Higher output and lower prices" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

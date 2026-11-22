@@ -93,15 +93,15 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Hydrogen" },
-              { id: "b", text: "Nitrogen" },
               {
-                id: "c",
+                id: "a",
                 text: "Neither — the reactants are in the exact mole ratio",
               },
+              { id: "b", text: "Hydrogen" },
+              { id: "c", text: "Nitrogen" },
               { id: "d", text: "Both reactants are limiting" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -146,12 +146,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$1.2$ dm$^3$" },
-              { id: "b", text: "$2.4$ dm$^3$" },
-              { id: "c", text: "$4.8$ dm$^3$" },
-              { id: "d", text: "$0.24$ dm$^3$" },
+              { id: "a", text: "$2.4$ dm$^3$" },
+              { id: "b", text: "$4.8$ dm$^3$" },
+              { id: "c", text: "$0.24$ dm$^3$" },
+              { id: "d", text: "$1.2$ dm$^3$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -204,10 +204,10 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$17$ g" },
+              { id: "a", text: "$51$ g" },
               { id: "b", text: "$34$ g" },
-              { id: "c", text: "$51$ g" },
-              { id: "d", text: "$68$ g" },
+              { id: "c", text: "$68$ g" },
+              { id: "d", text: "$17$ g" },
             ],
             correctChoiceId: "b",
           },
@@ -383,15 +383,15 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Hydrogen" },
-              { id: "b", text: "Oxygen" },
+              { id: "a", text: "Both reactants are in excess" },
+              { id: "b", text: "Hydrogen" },
+              { id: "c", text: "Oxygen" },
               {
-                id: "c",
+                id: "d",
                 text: "Neither — the reactants are in the exact mole ratio",
               },
-              { id: "d", text: "Both reactants are in excess" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -436,12 +436,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$0.10$ mol" },
-              { id: "b", text: "$0.20$ mol" },
-              { id: "c", text: "$0.40$ mol" },
-              { id: "d", text: "$0.050$ mol" },
+              { id: "a", text: "$0.20$ mol" },
+              { id: "b", text: "$0.050$ mol" },
+              { id: "c", text: "$0.10$ mol" },
+              { id: "d", text: "$0.40$ mol" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -484,11 +484,11 @@ export const lesson41: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$26.7$ g" },
-              { id: "b", text: "$17.8$ g" },
-              { id: "c", text: "$35.6$ g" },
+              { id: "b", text: "$35.6$ g" },
+              { id: "c", text: "$17.8$ g" },
               { id: "d", text: "$13.4$ g" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1021,12 +1021,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$0.30$ mol" },
-              { id: "b", text: "$0.40$ mol" },
-              { id: "c", text: "$0.60$ mol" },
+              { id: "a", text: "$0.40$ mol" },
+              { id: "b", text: "$0.60$ mol" },
+              { id: "c", text: "$0.30$ mol" },
               { id: "d", text: "$0.80$ mol" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -1067,12 +1067,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$0.125$ mol" },
-              { id: "b", text: "$0.500$ mol" },
-              { id: "c", text: "$2.00$ mol" },
+              { id: "a", text: "$0.500$ mol" },
+              { id: "b", text: "$2.00$ mol" },
+              { id: "c", text: "$0.125$ mol" },
               { id: "d", text: "$0.250$ mol" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -1222,15 +1222,15 @@ export const lesson41: Lesson = {
               },
               {
                 id: "b",
-                text: "$100 \\times \\dfrac{\\text{theoretical yield}}{\\text{actual yield}}$",
-              },
-              {
-                id: "c",
                 text: "$100 \\times \\dfrac{\\text{mass of reactants}}{\\text{mass of products}}$",
               },
               {
-                id: "d",
+                id: "c",
                 text: "$100 \\times \\dfrac{\\text{mass of desired product}}{\\text{total mass of all products}}$",
+              },
+              {
+                id: "d",
+                text: "$100 \\times \\dfrac{\\text{theoretical yield}}{\\text{actual yield}}$",
               },
             ],
             correctChoiceId: "a",
@@ -1274,12 +1274,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$125\\%$" },
-              { id: "b", text: "$80.0\\%$" },
-              { id: "c", text: "$20.0\\%$" },
-              { id: "d", text: "$5.00\\%$" },
+              { id: "a", text: "$80.0\\%$" },
+              { id: "b", text: "$20.0\\%$" },
+              { id: "c", text: "$5.00\\%$" },
+              { id: "d", text: "$125\\%$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -1328,22 +1328,22 @@ export const lesson41: Lesson = {
             choices: [
               {
                 id: "a",
-                text: "$\\mathrm{CH}_4 + \\mathrm{Cl}_2 \\rightarrow \\mathrm{CH}_3\\mathrm{Cl} + \\mathrm{HCl}$",
-              },
-              {
-                id: "b",
                 text: "$\\mathrm{CaCO}_3 \\rightarrow \\mathrm{CaO} + \\mathrm{CO}_2$",
               },
               {
-                id: "c",
+                id: "b",
                 text: "$\\mathrm{C}_2\\mathrm{H}_4 + \\mathrm{H}_2\\mathrm{O} \\rightarrow \\mathrm{C}_2\\mathrm{H}_5\\mathrm{OH}$",
               },
               {
-                id: "d",
+                id: "c",
                 text: "$\\mathrm{C}_3\\mathrm{H}_8 + 5\\mathrm{O}_2 \\rightarrow 3\\mathrm{CO}_2 + 4\\mathrm{H}_2\\mathrm{O}$",
               },
+              {
+                id: "d",
+                text: "$\\mathrm{CH}_4 + \\mathrm{Cl}_2 \\rightarrow \\mathrm{CH}_3\\mathrm{Cl} + \\mathrm{HCl}$",
+              },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1522,12 +1522,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$133\\%$" },
-              { id: "b", text: "$75.0\\%$" },
+              { id: "a", text: "$75.0\\%$" },
+              { id: "b", text: "$133\\%$" },
               { id: "c", text: "$30.0\\%$" },
               { id: "d", text: "$10.0\\%$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -1568,11 +1568,11 @@ export const lesson41: Lesson = {
             choices: [
               {
                 id: "a",
-                text: "$\\mathrm{CH}_4 + \\mathrm{Cl}_2 \\rightarrow \\mathrm{CH}_3\\mathrm{Cl} + \\mathrm{HCl}$",
+                text: "$\\mathrm{H}_2 + \\mathrm{Cl}_2 \\rightarrow 2\\mathrm{HCl}$",
               },
               {
                 id: "b",
-                text: "$\\mathrm{H}_2 + \\mathrm{Cl}_2 \\rightarrow 2\\mathrm{HCl}$",
+                text: "$\\mathrm{CH}_4 + \\mathrm{Cl}_2 \\rightarrow \\mathrm{CH}_3\\mathrm{Cl} + \\mathrm{HCl}$",
               },
               {
                 id: "c",
@@ -1583,7 +1583,7 @@ export const lesson41: Lesson = {
                 text: "$\\mathrm{CH}_4 + 2\\mathrm{O}_2 \\rightarrow \\mathrm{CO}_2 + 2\\mathrm{H}_2\\mathrm{O}$",
               },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -1628,12 +1628,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$56.0\\%$" },
-              { id: "b", text: "$44.0\\%$" },
-              { id: "c", text: "$100\\%$" },
-              { id: "d", text: "$112\\%$" },
+              { id: "a", text: "$44.0\\%$" },
+              { id: "b", text: "$112\\%$" },
+              { id: "c", text: "$56.0\\%$" },
+              { id: "d", text: "$100\\%$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1794,22 +1794,22 @@ export const lesson41: Lesson = {
             choices: [
               {
                 id: "a",
-                text: "Percentage yield depends only on the balanced equation; atom economy is measured experimentally",
-              },
-              {
-                id: "b",
                 text: "Percentage yield is actual yield as a percentage of theoretical yield; atom economy is the fraction of reactant mass ending up in the desired product",
               },
               {
+                id: "b",
+                text: "Percentage yield depends only on the balanced equation; atom economy is measured experimentally",
+              },
+              {
                 id: "c",
-                text: "Percentage yield and atom economy are two names for the same quantity",
+                text: "Atom economy can exceed $100\\%$ if the reaction is efficient",
               },
               {
                 id: "d",
-                text: "Atom economy can exceed $100\\%$ if the reaction is efficient",
+                text: "Percentage yield and atom economy are two names for the same quantity",
               },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -2086,17 +2086,17 @@ export const lesson41: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Removing the by-product as it forms" },
-              { id: "b", text: "Using a catalyst" },
               {
-                id: "c",
+                id: "b",
                 text: "Changing the reactants so no by-product forms",
               },
               {
-                id: "d",
+                id: "c",
                 text: "Allowing the reaction to reach completion and minimising losses during purification",
               },
+              { id: "d", text: "Using a catalyst" },
             ],
-            correctChoiceId: "d",
+            correctChoiceIc: "d",
           },
           markscheme: {
             principles: [

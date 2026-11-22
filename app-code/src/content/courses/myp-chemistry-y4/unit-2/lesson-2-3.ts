@@ -57,12 +57,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Speeds it up by lowering activation energy" },
-              { id: "b", text: "Slows it down" },
-              { id: "c", text: "Is used up in reaction" },
-              { id: "d", text: "Changes products" },
+              { id: "a", text: "Is used up in reaction" },
+              { id: "b", text: "Changes products" },
+              { id: "c", text: "Slows it down" },
+              { id: "d", text: "Speeds it up by lowering activation energy" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -84,12 +84,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Particles move faster → more collisions, and more have energy ≥ activation energy" },
-              { id: "b", text: "Particles become bigger" },
+              { id: "a", text: "Particles become bigger" },
+              { id: "b", text: "Particles stop moving" },
               { id: "c", text: "Activation energy decreases" },
-              { id: "d", text: "Particles stop moving" },
+              { id: "d", text: "Particles move faster → more collisions, and more have energy ≥ activation energy" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -113,8 +113,8 @@ export const lesson23: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Measure gas volume every 10 s and calculate volume/time" },
-              { id: "b", text: "Weigh the flask only at end" },
-              { id: "c", text: "Count bubbles without timing" },
+              { id: "b", text: "Count bubbles without timing" },
+              { id: "c", text: "Weigh the flask only at end" },
               { id: "d", text: "Measure temperature only" },
             ],
             correctChoiceId: "a",
@@ -173,9 +173,9 @@ export const lesson23: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Quantity of product formed per unit time" },
-              { id: "b", text: "Total mass of reactants" },
+              { id: "b", text: "Volume of the container" },
               { id: "c", text: "Temperature of the mixture" },
-              { id: "d", text: "Volume of the container" },
+              { id: "d", text: "Total mass of reactants" },
             ],
             correctChoiceId: "a",
           },
@@ -199,12 +199,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Powder has a larger surface area, so more particles are exposed to collide" },
+              { id: "a", text: "Powder has fewer particles" },
               { id: "b", text: "Powder is a catalyst" },
-              { id: "c", text: "Lumps are colder" },
-              { id: "d", text: "Powder has fewer particles" },
+              { id: "c", text: "Powder has a larger surface area, so more particles are exposed to collide" },
+              { id: "d", text: "Lumps are colder" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -274,12 +274,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Providing an alternative pathway with lower activation energy" },
-              { id: "b", text: "Increasing the temperature" },
-              { id: "c", text: "Being consumed in the reaction" },
-              { id: "d", text: "Changing the products formed" },
+              { id: "a", text: "Increasing the temperature" },
+              { id: "b", text: "Changing the products formed" },
+              { id: "c", text: "Providing an alternative pathway with lower activation energy" },
+              { id: "d", text: "Being consumed in the reaction" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -326,12 +326,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Reactant particles are used up, so there are fewer particles and fewer collisions per second" },
+              { id: "a", text: "Temperature drops automatically" },
               { id: "b", text: "The activation energy increases" },
               { id: "c", text: "Products block the container" },
-              { id: "d", text: "Temperature drops automatically" },
+              { id: "d", text: "Reactant particles are used up, so there are fewer particles and fewer collisions per second" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -518,12 +518,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "6.02×10²³" },
-              { id: "b", text: "6.02×10²²" },
+              { id: "a", text: "6.02×10²⁴" },
+              { id: "b", text: "6.02×10²³" },
               { id: "c", text: "1×10²³" },
-              { id: "d", text: "6.02×10²⁴" },
+              { id: "d", text: "6.02×10²²" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -545,12 +545,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "0.5 mol" },
-              { id: "b", text: "2.0 mol" },
+              { id: "a", text: "2.0 mol" },
+              { id: "b", text: "0.5 mol" },
               { id: "c", text: "0.25 mol" },
               { id: "d", text: "18 mol" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -573,12 +573,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "0.125 mol" },
-              { id: "b", text: "0.5 mol" },
+              { id: "a", text: "0.5 mol" },
+              { id: "b", text: "0.125 mol" },
               { id: "c", text: "125 mol" },
               { id: "d", text: "0.025 mol" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -633,12 +633,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "6.02×10²³" },
-              { id: "b", text: "6.02×10²²" },
+              { id: "a", text: "1.00×10²⁴" },
+              { id: "b", text: "6.02×10²³" },
               { id: "c", text: "3.01×10²³" },
-              { id: "d", text: "1.00×10²⁴" },
+              { id: "d", text: "6.02×10²²" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -661,9 +661,9 @@ export const lesson23: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "n = mass / Mr" },
-              { id: "b", text: "n = mass × Mr" },
-              { id: "c", text: "n = Mr / mass" },
-              { id: "d", text: "n = mass + Mr" },
+              { id: "b", text: "n = mass + Mr" },
+              { id: "c", text: "n = mass × Mr" },
+              { id: "d", text: "n = Mr / mass" },
             ],
             correctChoiceId: "a",
           },
@@ -735,12 +735,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "44" },
-              { id: "b", text: "28" },
+              { id: "a", text: "46" },
+              { id: "b", text: "44" },
               { id: "c", text: "32" },
-              { id: "d", text: "46" },
+              { id: "d", text: "28" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -787,12 +787,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Concentration is defined per dm³, so volume must be in dm³ for units to match" },
-              { id: "b", text: "cm³ is not a real unit" },
+              { id: "a", text: "Moles are always in dm³" },
+              { id: "b", text: "Concentration is defined per dm³, so volume must be in dm³ for units to match" },
               { id: "c", text: "It makes the answer bigger" },
-              { id: "d", text: "Moles are always in dm³" },
+              { id: "d", text: "cm³ is not a real unit" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -843,11 +843,11 @@ export const lesson23: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "0.5 mol" },
-              { id: "b", text: "1.0 mol" },
-              { id: "c", text: "6.0 mol" },
-              { id: "d", text: "12 mol" },
+              { id: "b", text: "6.0 mol" },
+              { id: "c", text: "12 mol" },
+              { id: "d", text: "1.0 mol" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

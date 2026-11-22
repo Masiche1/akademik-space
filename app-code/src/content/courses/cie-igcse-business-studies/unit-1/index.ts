@@ -14,5 +14,14 @@ export const unit1: Unit = {
   title: "Understanding Business Activity",
   description:
     "Business fundamentals, organisation types, objectives, growth, financial performance, marketing and HR — Cambridge IGCSE Business Studies 0450 Paper 1.",
-  lessons: [lesson251, lesson252, lesson253, lesson254, lesson255, lesson256, lesson257, lesson258],
+  lessons: [
+    lesson251,
+    lesson252,
+    lesson253,
+    lesson254,
+    lesson255,
+    lesson256,
+    lesson257,
+    lesson258,
+  ],
 };

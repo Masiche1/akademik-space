@@ -53,11 +53,11 @@ export const lesson11: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Sight" },
-              { id: "b", text: "Touch" },
-              { id: "c", text: "Memory" },
+              { id: "b", text: "Memory" },
+              { id: "c", text: "Touch" },
               { id: "d", text: "Hearing" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -147,12 +147,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Sensation is raw sensory input; perception is its interpretation using prior knowledge" },
-              { id: "b", text: "Sensation requires memory while perception does not" },
-              { id: "c", text: "Sensation is conscious while perception is unconscious" },
-              { id: "d", text: "Sensation occurs only in animals while perception occurs only in humans" },
+              { id: "a", text: "Sensation is conscious while perception is unconscious" },
+              { id: "b", text: "Sensation occurs only in animals while perception occurs only in humans" },
+              { id: "c", text: "Sensation requires memory while perception does not" },
+              { id: "d", text: "Sensation is raw sensory input; perception is its interpretation using prior knowledge" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -175,11 +175,11 @@ export const lesson11: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "The senses are always accurate" },
-              { id: "b", text: "Interpretation can distort or override accurate sensory data" },
-              { id: "c", text: "Perception is impossible without language" },
+              { id: "b", text: "Perception is impossible without language" },
+              { id: "c", text: "Interpretation can distort or override accurate sensory data" },
               { id: "d", text: "All observers perceive illusions identically" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -201,9 +201,9 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Two astronomers using the same telescope record different star positions" },
+              { id: "a", text: "A camera records an image regardless of the observer's beliefs" },
               { id: "b", text: "A radiologist trained to spot tumours notices a shadow a layperson misses" },
-              { id: "c", text: "A camera records an image regardless of the observer's beliefs" },
+              { id: "c", text: "Two astronomers using the same telescope record different star positions" },
               { id: "d", text: "Two people disagree about the proof of a mathematical theorem" },
             ],
             correctChoiceId: "b",
@@ -360,10 +360,10 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It is immune to error" },
+              { id: "a", text: "It operates independently of the senses" },
               { id: "b", text: "It gives direct, checkable access to the physical world" },
-              { id: "c", text: "It requires no interpretation" },
-              { id: "d", text: "It operates independently of the senses" },
+              { id: "c", text: "It is immune to error" },
+              { id: "d", text: "It requires no interpretation" },
             ],
             correctChoiceId: "b",
           },
@@ -387,12 +387,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Changing the physics of light entering the eye" },
-              { id: "b", text: "Shaping the categories and expectations used to interpret stimuli" },
-              { id: "c", text: "Eliminating optical illusions" },
-              { id: "d", text: "Making all perception identical across cultures" },
+              { id: "a", text: "Making all perception identical across cultures" },
+              { id: "b", text: "Eliminating optical illusions" },
+              { id: "c", text: "Changing the physics of light entering the eye" },
+              { id: "d", text: "Shaping the categories and expectations used to interpret stimuli" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -414,12 +414,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Replacing perception with reason" },
-              { id: "b", text: "Extending the range of what can be perceived while still requiring interpretation" },
-              { id: "c", text: "Proving that perception is unreliable" },
-              { id: "d", text: "Making direct observation unnecessary" },
+              { id: "a", text: "Proving that perception is unreliable" },
+              { id: "b", text: "Replacing perception with reason" },
+              { id: "c", text: "Making direct observation unnecessary" },
+              { id: "d", text: "Extending the range of what can be perceived while still requiring interpretation" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -512,12 +512,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Accurate, because senses record reality directly" },
-              { id: "b", text: "False, because the brain actively interprets sensation using prior knowledge" },
-              { id: "c", text: "False, because perception requires imagination alone" },
-              { id: "d", text: "Accurate, because theory-laden perception is impossible" },
+              { id: "a", text: "False, because the brain actively interprets sensation using prior knowledge" },
+              { id: "b", text: "Accurate, because senses record reality directly" },
+              { id: "c", text: "Accurate, because theory-laden perception is impossible" },
+              { id: "d", text: "False, because perception requires imagination alone" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -571,9 +571,9 @@ export const lesson11: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "The ability to form mental representations beyond immediate perception" },
-              { id: "b", text: "Direct observation of physical objects" },
-              { id: "c", text: "Logical deduction from premises" },
-              { id: "d", text: "The storage of past experiences" },
+              { id: "b", text: "The storage of past experiences" },
+              { id: "c", text: "Direct observation of physical objects" },
+              { id: "d", text: "Logical deduction from premises" },
             ],
             correctChoiceId: "a",
           },
@@ -666,11 +666,11 @@ export const lesson11: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Recording what the senses directly detect" },
-              { id: "b", text: "Generating possibilities, models and hypotheses beyond direct observation" },
-              { id: "c", text: "Storing past experiences for later recall" },
-              { id: "d", text: "Deducting conclusions from accepted premises" },
+              { id: "b", text: "Deducting conclusions from accepted premises" },
+              { id: "c", text: "Generating possibilities, models and hypotheses beyond direct observation" },
+              { id: "d", text: "Storing past experiences for later recall" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -692,12 +692,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Is limited to artistic creativity" },
-              { id: "b", text: "Can generate testable hypotheses in science" },
+              { id: "a", text: "Replaces the need for evidence" },
+              { id: "b", text: "Is limited to artistic creativity" },
               { id: "c", text: "Cannot contribute to knowledge" },
-              { id: "d", text: "Replaces the need for evidence" },
+              { id: "d", text: "Can generate testable hypotheses in science" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -719,10 +719,10 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Imagination produces knowledge directly, without testing" },
+              { id: "a", text: "Evidence is unnecessary once an idea is imagined" },
               { id: "b", text: "Imagination proposes possibilities; reason and evidence test them" },
-              { id: "c", text: "Evidence is unnecessary once an idea is imagined" },
-              { id: "d", text: "Imagination and evidence are identical processes" },
+              { id: "c", text: "Imagination and evidence are identical processes" },
+              { id: "d", text: "Imagination produces knowledge directly, without testing" },
             ],
             correctChoiceId: "b",
           },
@@ -878,12 +878,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Forms representations not given by the senses" },
+              { id: "a", text: "Stores only past events" },
               { id: "b", text: "Requires direct sensory input" },
               { id: "c", text: "Is always accurate about the world" },
-              { id: "d", text: "Stores only past events" },
+              { id: "d", text: "Forms representations not given by the senses" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -905,10 +905,10 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Replaces the need for experimentation" },
+              { id: "a", text: "Proves theories without evidence" },
               { id: "b", text: "Generates hypotheses that can be tested empirically" },
-              { id: "c", text: "Proves theories without evidence" },
-              { id: "d", text: "Confirms existing beliefs" },
+              { id: "c", text: "Confirms existing beliefs" },
+              { id: "d", text: "Replaces the need for experimentation" },
             ],
             correctChoiceId: "b",
           },
@@ -932,10 +932,10 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Memorising a list of historical dates" },
+              { id: "a", text: "Repeating a mathematical proof already established" },
               { id: "b", text: "An engineer imagining a bridge design that is later tested and built successfully" },
-              { id: "c", text: "Reading a description of a famous painting" },
-              { id: "d", text: "Repeating a mathematical proof already established" },
+              { id: "c", text: "Memorising a list of historical dates" },
+              { id: "d", text: "Reading a description of a famous painting" },
             ],
             correctChoiceId: "b",
           },
@@ -1030,12 +1030,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Imagination alone is a complete way of knowing" },
-              { id: "b", text: "Imagination generates claims; justification comes from other ways of knowing" },
+              { id: "a", text: "Imagination generates claims; justification comes from other ways of knowing" },
+              { id: "b", text: "Imagination alone is a complete way of knowing" },
               { id: "c", text: "Testing destroys the value of imagination" },
               { id: "d", text: "Only scientific knowledge uses imagination" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

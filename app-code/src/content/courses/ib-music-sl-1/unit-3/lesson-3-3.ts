@@ -55,10 +55,10 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Writing the melody" },
+              { id: "a", text: "Composing a new piece" },
               { id: "b", text: "Assigning musical parts to specific instruments" },
               { id: "c", text: "Recording the final mix" },
-              { id: "d", text: "Composing a new piece" },
+              { id: "d", text: "Writing the melody" },
             ],
             correctChoiceId: "b",
           },
@@ -157,11 +157,11 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Composing a new piece" },
-              { id: "b", text: "Arranging" },
-              { id: "c", text: "Mastering" },
+              { id: "b", text: "Mastering" },
+              { id: "c", text: "Arranging" },
               { id: "d", text: "Transcribing by ear" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -185,12 +185,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The exact piano texture" },
-              { id: "b", text: "The melody and harmonic essence" },
-              { id: "c", text: "The original tempo only" },
-              { id: "d", text: "The original instruments" },
+              { id: "a", text: "The original instruments" },
+              { id: "b", text: "The original tempo only" },
+              { id: "c", text: "The exact piano texture" },
+              { id: "d", text: "The melody and harmonic essence" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -214,12 +214,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Delicate, rapid ornamentation" },
-              { id: "b", text: "Power, brilliance and sustained force" },
-              { id: "c", text: "Whisper-quiet passages" },
-              { id: "d", text: "Extremely high register only" },
+              { id: "a", text: "Whisper-quiet passages" },
+              { id: "b", text: "Extremely high register only" },
+              { id: "c", text: "Power, brilliance and sustained force" },
+              { id: "d", text: "Delicate, rapid ornamentation" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -286,10 +286,10 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Recording a performance" },
+              { id: "a", text: "Mastering a recording" },
               { id: "b", text: "Writing out music by ear into notation" },
-              { id: "c", text: "Arranging for orchestra" },
-              { id: "d", text: "Mastering a recording" },
+              { id: "c", text: "Recording a performance" },
+              { id: "d", text: "Arranging for orchestra" },
             ],
             correctChoiceId: "b",
           },
@@ -358,12 +358,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Add as many parts as possible" },
-              { id: "b", text: "Simplify texture to keep parts clear" },
-              { id: "c", text: "Change the melody completely" },
-              { id: "d", text: "Ignore instrument ranges" },
+              { id: "a", text: "Ignore instrument ranges" },
+              { id: "b", text: "Add as many parts as possible" },
+              { id: "c", text: "Simplify texture to keep parts clear" },
+              { id: "d", text: "Change the melody completely" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -387,12 +387,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Showcase the arranger's technical skill" },
-              { id: "b", text: "Serve the music and preserve its essence" },
-              { id: "c", text: "Be as complex as possible" },
-              { id: "d", text: "Change the original beyond recognition" },
+              { id: "a", text: "Change the original beyond recognition" },
+              { id: "b", text: "Showcase the arranger's technical skill" },
+              { id: "c", text: "Serve the music and preserve its essence" },
+              { id: "d", text: "Be as complex as possible" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -498,12 +498,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Writing the song" },
-              { id: "b", text: "Balancing and processing individual tracks" },
-              { id: "c", text: "Composing melodies" },
+              { id: "a", text: "Balancing and processing individual tracks" },
+              { id: "b", text: "Composing melodies" },
+              { id: "c", text: "Writing the song" },
               { id: "d", text: "Booking studio time" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -601,8 +601,8 @@ export const lesson33: Lesson = {
             choices: [
               { id: "a", text: "Recording all parts live in one take" },
               { id: "b", text: "Recording parts separately for later mixing" },
-              { id: "c", text: "Writing the song's melody" },
-              { id: "d", text: "Mastering the final mix" },
+              { id: "c", text: "Mastering the final mix" },
+              { id: "d", text: "Writing the song's melody" },
             ],
             correctChoiceId: "b",
           },
@@ -628,12 +628,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Recording the first take" },
-              { id: "b", text: "Balancing individual tracks" },
-              { id: "c", text: "Final processing of the stereo mix for distribution" },
-              { id: "d", text: "Writing chord progressions" },
+              { id: "a", text: "Writing chord progressions" },
+              { id: "b", text: "Recording the first take" },
+              { id: "c", text: "Balancing individual tracks" },
+              { id: "d", text: "Final processing of the stereo mix for distribution" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -658,11 +658,11 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "The volume of each track" },
-              { id: "b", text: "The left-right placement of instruments for stereo width" },
-              { id: "c", text: "The speed of the song" },
+              { id: "b", text: "The speed of the song" },
+              { id: "c", text: "The left-right placement of instruments for stereo width" },
               { id: "d", text: "The pitch of instruments" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -730,11 +730,11 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Make the track louder overall" },
-              { id: "b", text: "Control dynamic range — reducing the gap between loud and quiet" },
+              { id: "b", text: "Change the key" },
               { id: "c", text: "Add stereo width" },
-              { id: "d", text: "Change the key" },
+              { id: "d", text: "Control dynamic range — reducing the gap between loud and quiet" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -801,12 +801,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The whole ensemble performing together in one take" },
+              { id: "a", text: "Only the vocals" },
               { id: "b", text: "Each instrument separately" },
-              { id: "c", text: "Only the vocals" },
+              { id: "c", text: "The whole ensemble performing together in one take" },
               { id: "d", text: "The final mastered mix" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -832,8 +832,8 @@ export const lesson33: Lesson = {
             choices: [
               { id: "a", text: "Recording the final mix" },
               { id: "b", text: "Adding new layers or parts to an existing recording" },
-              { id: "c", text: "Changing the tempo" },
-              { id: "d", text: "Writing the lyrics" },
+              { id: "c", text: "Writing the lyrics" },
+              { id: "d", text: "Changing the tempo" },
             ],
             correctChoiceId: "b",
           },

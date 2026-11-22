@@ -54,12 +54,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "She wants financial security and a home of her own" },
-              { id: "b", text: "She is deeply in love with him" },
-              { id: "c", text: "She wants to make Elizabeth jealous" },
-              { id: "d", text: "She has been ordered to by Lady Catherine" },
+              { id: "a", text: "She wants to make Elizabeth jealous" },
+              { id: "b", text: "She has been ordered to by Lady Catherine" },
+              { id: "c", text: "She wants financial security and a home of her own" },
+              { id: "d", text: "She is deeply in love with him" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "context", name: "Women and marriage", statement: "For women without fortune, marriage was often the only route to security." }],
@@ -190,12 +190,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Longbourn will pass to a male relative, not to the Bennet daughters" },
-              { id: "b", text: "The Bennets must sell their house to pay debts" },
+              { id: "a", text: "The Bennets must sell their house to pay debts" },
+              { id: "b", text: "Longbourn will pass to a male relative, not to the Bennet daughters" },
               { id: "c", text: "The eldest daughter will inherit the estate" },
               { id: "d", text: "The family will be given an allowance by Mr Darcy" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "context", name: "Entail", statement: "An estate was limited to male heirs." }],

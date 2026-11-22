@@ -53,10 +53,10 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Filament lamp" },
-              { id: "b", text: "Fixed resistor" },
+              { id: "a", text: "Diode" },
+              { id: "b", text: "Filament lamp" },
               { id: "c", text: "Thermistor" },
-              { id: "d", text: "Diode" },
+              { id: "d", text: "Fixed resistor" },
             ],
             correctChoiceId: "c",
           },
@@ -191,12 +191,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$E = IV$" },
-              { id: "b", text: "$E = \\frac{IV}{t}$" },
-              { id: "c", text: "$E = IVt$" },
-              { id: "d", text: "$E = \\frac{V}{It}$" },
+              { id: "a", text: "$E = \\frac{V}{It}$" },
+              { id: "b", text: "$E = IVt$" },
+              { id: "c", text: "$E = IV$" },
+              { id: "d", text: "$E = \\frac{IV}{t}$" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [

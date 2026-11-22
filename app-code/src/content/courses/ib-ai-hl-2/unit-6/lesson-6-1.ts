@@ -53,12 +53,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\sec x$" },
-              { id: "b", text: "$\\sec^2x$" },
-              { id: "c", text: "$\\cot x$" },
-              { id: "d", text: "$-\\csc^2x$" },
+              { id: "a", text: "$-\\csc^2x$" },
+              { id: "b", text: "$\\sec x$" },
+              { id: "c", text: "$\\sec^2x$" },
+              { id: "d", text: "$\\cot x$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Standard derivative", statement: "$\\frac{d}{dx}\\tan x=\\sec^2x$." }],
@@ -157,10 +157,10 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$e^{3x}(3x^2-2x)$" },
+              { id: "a", text: "$3x^2e^{3x}$" },
               { id: "b", text: "$e^{3x}(3x^2+2x)$" },
               { id: "c", text: "$xe^{3x}(3x+2)$" },
-              { id: "d", text: "$3x^2e^{3x}$" },
+              { id: "d", text: "$e^{3x}(3x^2-2x)$" },
             ],
             correctChoiceId: "b",
           },
@@ -183,12 +183,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\frac{1}{1+4x^2}$" },
-              { id: "b", text: "$\\frac{2}{1+4x^2}$" },
+              { id: "a", text: "$\\frac{2}{1+4x^2}$" },
+              { id: "b", text: "$\\frac{1}{1+4x^2}$" },
               { id: "c", text: "$\\frac{2}{1+2x^2}$" },
               { id: "d", text: "$\\frac{4x}{1+4x^2}$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Chain rule with arctangent", statement: "$\\frac{d}{dx}\\arctan u=\\frac{u'}{1+u^2}$." }],
@@ -211,8 +211,8 @@ export const lesson61: Lesson = {
             choices: [
               { id: "a", text: "$3\\cos(3x^2)$" },
               { id: "b", text: "$6x\\cos(3x^2)$" },
-              { id: "c", text: "$\\cos(3x^2)$" },
-              { id: "d", text: "$6x\\sin(3x^2)$" },
+              { id: "c", text: "$6x\\sin(3x^2)$" },
+              { id: "d", text: "$\\cos(3x^2)$" },
             ],
             correctChoiceId: "b",
           },
@@ -235,10 +235,10 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\frac{7}{(x-3)^2}$" },
+              { id: "a", text: "$\\frac{7}{(2x+1)^2}$" },
               { id: "b", text: "$\\frac{-7}{(x-3)^2}$" },
-              { id: "c", text: "$\\frac{7}{(2x+1)^2}$" },
-              { id: "d", text: "$\\frac{-1}{(x-3)^2}$" },
+              { id: "c", text: "$\\frac{-1}{(x-3)^2}$" },
+              { id: "d", text: "$\\frac{7}{(x-3)^2}$" },
             ],
             correctChoiceId: "b",
           },
@@ -261,12 +261,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\frac{1}{x^2+4}$" },
-              { id: "b", text: "$\\frac{2}{x^2+4}$" },
-              { id: "c", text: "$\\frac{2x}{x^2+4}$" },
-              { id: "d", text: "$\\frac{x}{x^2+4}$" },
+              { id: "a", text: "$\\frac{2x}{x^2+4}$" },
+              { id: "b", text: "$\\frac{1}{x^2+4}$" },
+              { id: "c", text: "$\\frac{x}{x^2+4}$" },
+              { id: "d", text: "$\\frac{2}{x^2+4}$" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Chain rule with logarithm", statement: "$\\frac{d}{dx}\\ln u=\\frac{u'}{u}$." }],
@@ -288,11 +288,11 @@ export const lesson61: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$\\sec^2(2x)$" },
-              { id: "b", text: "$2\\sec^2(2x)$" },
-              { id: "c", text: "$2\\tan(2x)$" },
+              { id: "b", text: "$2\\tan(2x)$" },
+              { id: "c", text: "$2\\sec^2(2x)$" },
               { id: "d", text: "$\\sec(2x)\\tan(2x)$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Chain rule", statement: "$\\frac{d}{dx}\\tan u=\\sec^2u\\cdot u'$." }],
@@ -485,9 +485,9 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Local minimum at $x=a$" },
+              { id: "a", text: "Point of inflection at $x=a$" },
               { id: "b", text: "Local maximum at $x=a$" },
-              { id: "c", text: "Point of inflection at $x=a$" },
+              { id: "c", text: "Local minimum at $x=a$" },
               { id: "d", text: "Nothing can be concluded" },
             ],
             correctChoiceId: "b",
@@ -593,11 +593,11 @@ export const lesson61: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$-6$" },
-              { id: "b", text: "$0$" },
-              { id: "c", text: "$6$" },
-              { id: "d", text: "$12$" },
+              { id: "b", text: "$12$" },
+              { id: "c", text: "$0$" },
+              { id: "d", text: "$6$" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Second derivative", statement: "$f''$ is the derivative of $f'$." }],
@@ -618,12 +618,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Concave up for all $x$" },
+              { id: "a", text: "Neither concave up nor concave down anywhere" },
               { id: "b", text: "Concave down for all $x$" },
               { id: "c", text: "Point of inflection at $x=0$" },
-              { id: "d", text: "Neither concave up nor concave down anywhere" },
+              { id: "d", text: "Concave up for all $x$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Concavity", statement: "$f''(x)>0$ means concave up." }],
@@ -644,8 +644,8 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$0$" },
-              { id: "b", text: "$1$" },
+              { id: "a", text: "$1$" },
+              { id: "b", text: "$0$" },
               { id: "c", text: "$2$" },
               { id: "d", text: "$3$" },
             ],
@@ -670,12 +670,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$1$" },
-              { id: "b", text: "$-3$" },
-              { id: "c", text: "$3$" },
-              { id: "d", text: "$6$" },
+              { id: "a", text: "$6$" },
+              { id: "b", text: "$3$" },
+              { id: "c", text: "$1$" },
+              { id: "d", text: "$-3$" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Point of inflection", statement: "$f''(a)=0$ with a change of sign." }],
@@ -696,12 +696,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$f(x)=x^3$" },
-              { id: "b", text: "$f(x)=x^5$" },
-              { id: "c", text: "$f(x)=x^6$" },
-              { id: "d", text: "$f(x)=x^3-x$" },
+              { id: "a", text: "$f(x)=x^3-x$" },
+              { id: "b", text: "$f(x)=x^6$" },
+              { id: "c", text: "$f(x)=x^5$" },
+              { id: "d", text: "$f(x)=x^3$" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Point of inflection", statement: "$f''=0$ with a change of sign is required." }],

@@ -80,12 +80,12 @@ export const lesson153: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Yours faithfully" },
-              { id: "b", text: "Yours sincerely" },
-              { id: "c", text: "Best wishes" },
-              { id: "d", text: "Love" },
+              { id: "a", text: "Love" },
+              { id: "b", text: "Best wishes" },
+              { id: "c", text: "Yours sincerely" },
+              { id: "d", text: "Yours faithfully" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -354,6 +354,545 @@ export const lesson153: Lesson = {
             commonErrors: ["Using 'Yours sincerely' with 'Dear Sir or Madam'."],
           },
         },
+        {
+          id: "cie-ol-fl-lr-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Which salutation is correct for a named recipient?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Dear Sir or Madam" },
+              { id: "b", text: "To whom it may concern" },
+              { id: "c", text: "Hey there" },
+              { id: "d", text: "Dear Mr Khan" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "convention",
+                name: "Salutation",
+                statement:
+                  "A named recipient takes 'Dear [Name]'; unknown takes 'Dear Sir or Madam'.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Named recipient = 'Dear Mr Khan'.",
+                marks: 1,
+                markCode: "AO1",
+              },
+            ],
+            finalAnswer: "**(a)** Dear Mr Khan",
+            commonErrors: ["Using 'Dear Sir or Madam' when the name is known."],
+          },
+        },
+        {
+          id: "cie-ol-fl-lr-q6",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Why is 'Yours sincerely' incorrect with 'Dear Sir or Madam'?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "It is too long" },
+              { id: "b", text: "That pairing requires 'Yours faithfully'" },
+              { id: "c", text: "It is too informal" },
+              { id: "d", text: "There is no rule" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "convention",
+                name: "Letter pairings",
+                statement:
+                  "'Dear Sir or Madam' pairs with 'Yours faithfully'; 'Dear [Name]' pairs with 'Yours sincerely'.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Unknown recipient demands 'Yours faithfully'.",
+                marks: 1,
+                markCode: "AO1",
+              },
+            ],
+            finalAnswer: "**(a)** That pairing requires 'Yours faithfully'",
+            commonErrors: ["Mixing formal closings incorrectly."],
+          },
+        },
+        {
+          id: "cie-ol-fl-lr-q7",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "What tense is typically used in reports and why?",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "convention",
+                name: "Report tense",
+                statement:
+                  "Reports usually use past tense for events already observed or completed.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Findings describe events that already happened.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "Past tense keeps the report factual and objective.",
+                marks: 1,
+                markCode: "AO3",
+              },
+            ],
+            finalAnswer:
+              "Past tense, because reports record events and findings that have already occurred.",
+            commonErrors: ["Using present tense as if narrating live."],
+          },
+        },
+        {
+          id: "cie-ol-fl-lr-q8",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "How do headings and numbered sections help a report?",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "convention",
+                name: "Report structure",
+                statement:
+                  "Headings and numbering organise findings for quick reference.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Headings signal what each section covers.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "Numbering makes findings easy to locate and cite.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "This serves the reader's practical purpose.",
+                marks: 1,
+                markCode: "AO3",
+              },
+            ],
+            finalAnswer:
+              "They organise findings clearly and let the reader locate information quickly.",
+            commonErrors: ["Thinking structure is only decorative."],
+          },
+        },
+        {
+          id: "cie-ol-fl-lr-q9",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "Explain how to write a clear recommendation in a report's conclusion.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "skill",
+                name: "Recommendations",
+                statement:
+                  "A recommendation should be specific, actionable and based on the findings.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Base the recommendation on the report's findings.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "Make it specific and actionable.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "Keep the language objective and formal.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "Clear, decisive phrasing.",
+                marks: 1,
+                markCode: "AO3",
+              },
+            ],
+            finalAnswer:
+              "A recommendation should be specific, actionable, evidence-based and objectively phrased.",
+            commonErrors: ["Vague suggestions like 'do something about it'."],
+          },
+        },
+        {
+          id: "cie-ol-fl-lr-q10",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Where should the purpose of a formal letter appear?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Early, in the first paragraph" },
+              { id: "b", text: "In the sender's address" },
+              { id: "c", text: "In the signature" },
+              { id: "d", text: "In the last line only" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "convention",
+                name: "Letter purpose",
+                statement:
+                  "The reason for writing should be stated early so the reader knows the letter's point.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Purpose goes early, first paragraph.",
+                marks: 1,
+                markCode: "AO1",
+              },
+            ],
+            finalAnswer: "**(a)** Early, in the first paragraph",
+            commonErrors: ["Burying the purpose at the end."],
+          },
+        },
+        {
+          id: "cie-ol-fl-lr-q11",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Which phrase is appropriate in a formal letter?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Stuff is broken" },
+              { id: "b", text: "Just wanna ask..." },
+              { id: "c", text: "Gimme the info" },
+              { id: "d", text: "I am writing to enquire about..." },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "convention",
+                name: "Formal register",
+                statement:
+                  "Formal letters use polite, impersonal phrasing without contractions or slang.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "'I am writing to enquire' is formal.",
+                marks: 1,
+                markCode: "AO2",
+              },
+            ],
+            finalAnswer: "**(a)** I am writing to enquire about...",
+            commonErrors: ["Choosing casual phrasing."],
+          },
+        },
+        {
+          id: "cie-ol-fl-lr-q12",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "Name two features that distinguish a report from an essay.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "convention",
+                name: "Report vs essay",
+                statement:
+                  "Reports are factual, structured and objective; essays argue a viewpoint.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Any two of structure, objectivity, factual tone, purpose.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                reasoning: "Both correctly distinguished.",
+                marks: 1,
+                markCode: "AO3",
+              },
+            ],
+            finalAnswer: "Structured headings, factual objectivity, practical purpose.",
+            commonErrors: ["Saying reports are 'shorter' — the difference is purpose and style."],
+          },
+        },
+        {
+          id: "cie-ol-fl-lr-q13",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "How can a report remain objective rather than persuasive?",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "skill",
+                name: "Objectivity",
+                statement:
+                  "Factual language, balanced presentation and evidence keep a report objective.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Use factual, neutral language without emotive words.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "Present findings fairly, including unflattering ones.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "Support claims with evidence rather than opinion.",
+                marks: 1,
+                markCode: "AO3",
+              },
+            ],
+            finalAnswer:
+              "Neutral language+fair presentation+evidence=objective report.",
+            commonErrors: ["Using persuasive or emotive language."],
+          },
+        },
+        {
+          id: "cie-ol-fl-lr-q14",
+          difficulty: "challenge",
+          totalMarks: 8,
+          stem: "Writing a letter of application.",
+          parts: [
+            { label: "a", prompt: "Give the salutation and closing for a named recipient.", marks: 2 },
+            { label: "b", prompt: "State the purpose in an opening sentence.", marks: 2 },
+            { label: "c", prompt: "Give two formal phrases you would use.", marks: 2 },
+            { label: "d", prompt: "Plan the three paragraphs of the letter.", marks: 2 },
+          ],
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "convention",
+                name: "Formal letter",
+                statement: "Salutation+purpose+formal register+paragraph plan.",
+              },
+            ],
+            steps: [
+              {
+                part: "a",
+                reasoning: "'Dear [Name]' and 'Yours sincerely'.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                part: "a",
+                reasoning: "Correct pairing.",
+                marks: 1,
+                markCode: "AO3",
+              },
+              {
+                part: "b",
+                reasoning: "An opening stating the application purpose.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                part: "b",
+                reasoning: "Clear and early.",
+                marks: 1,
+                markCode: "AO3",
+              },
+              {
+                part: "c",
+                reasoning: "First formal phrase, e.g. 'I am writing to apply'.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                part: "c",
+                reasoning: "Second formal phrase, e.g. 'I look forward to hearing from you'.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                part: "d",
+                reasoning: "A coherent three-paragraph plan.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                part: "d",
+                reasoning: "Logical ordering.",
+                marks: 1,
+                markCode: "AO3",
+              },
+            ],
+            finalAnswer:
+              "(a) Dear [Name]/Yours sincerely (b) early purpose (c) two formal phrases (d) three-paragraph plan",
+            levels: [
+              { level: "Level 2", marks: "1-2", descriptor: "Correct pairings.", part: "a" },
+              { level: "Level 1", marks: "0", descriptor: "Wrong.", part: "a" },
+              { level: "Level 2", marks: "1-2", descriptor: "Purpose stated.", part: "b" },
+              { level: "Level 1", marks: "0", descriptor: "None.", part: "b" },
+              { level: "Level 2", marks: "1-2", descriptor: "Two formal phrases.", part: "c" },
+              { level: "Level 1", marks: "0", descriptor: "None.", part: "c" },
+              { level: "Level 2", marks: "1-2", descriptor: "Coherent plan.", part: "d" },
+              { level: "Level 1", marks: "0", descriptor: "None.", part: "d" },
+            ],
+            commonErrors: ["Casual register slipping into a formal letter."],
+          },
+        },
+        {
+          id: "cie-ol-fl-lr-q15",
+          difficulty: "challenge",
+          totalMarks: 9,
+          stem: "Report writing.",
+          parts: [
+            { label: "a", prompt: "State the main purpose of a report.", marks: 1 },
+            { label: "b", prompt: "List two structural features of a report.", marks: 2 },
+            { label: "c", prompt: "Explain how to keep a report objective.", marks: 3 },
+            { label: "d", prompt: "Draft a title and introduction for a report on a school trip.", marks: 3 },
+          ],
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "skill",
+                name: "Report writing",
+                statement: "Purpose+structure+objectivity+draft.",
+              },
+            ],
+            steps: [
+              {
+                part: "a",
+                reasoning: "To present factual findings for a practical purpose.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                part: "b",
+                reasoning: "Any two of headings, numbered sections, conclusion, title.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                part: "b",
+                reasoning: "Both correctly identified.",
+                marks: 1,
+                markCode: "AO3",
+              },
+              {
+                part: "c",
+                reasoning: "Neutral factual language.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                part: "c",
+                reasoning: "Balanced presentation of findings.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                part: "c",
+                reasoning: "Evidence over opinion.",
+                marks: 1,
+                markCode: "AO3",
+              },
+              {
+                part: "d",
+                reasoning: "A clear title and purpose-stating introduction.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                part: "d",
+                reasoning: "Factual, formal register.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                part: "d",
+                reasoning: "Controlled and appropriate.",
+                marks: 1,
+                markCode: "AO3",
+              },
+            ],
+            finalAnswer:
+              "(a) factual findings (b) two structures (c) neutral+balanced+evidence (d) title+intro",
+            levels: [
+              { level: "Level 2", marks: "1", descriptor: "Correct.", part: "a" },
+              { level: "Level 1", marks: "0", descriptor: "Wrong.", part: "a" },
+              { level: "Level 2", marks: "1-2", descriptor: "Two features.", part: "b" },
+              { level: "Level 1", marks: "0", descriptor: "None.", part: "b" },
+              { level: "Level 3", marks: "2-3", descriptor: "Objectivity explained.", part: "c" },
+              { level: "Level 2", marks: "1", descriptor: "Partial.", part: "c" },
+              { level: "Level 1", marks: "0", descriptor: "None.", part: "c" },
+              { level: "Level 3", marks: "2-3", descriptor: "Clear draft.", part: "d" },
+              { level: "Level 2", marks: "1", descriptor: "Attempted.", part: "d" },
+              { level: "Level 1", marks: "0", descriptor: "None.", part: "d" },
+            ],
+            commonErrors: ["Persuasive rather than factual language."],
+          },
+        },
+        {
+          id: "cie-ol-fl-lr-q16",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "Discuss how audience shapes the register and content of a formal letter.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "skill",
+                name: "Audience and register",
+                statement:
+                  "Audience determines formality, vocabulary and what details to include.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "A formal audience demands formal register.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "Vocabulary and sentence length adapt to the reader.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "Content selects details relevant to that audience.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "Clear discussion.",
+                marks: 1,
+                markCode: "AO3",
+              },
+            ],
+            finalAnswer:
+              "Audience determines register, vocabulary and which details to include.",
+            commonErrors: ["Using the same style regardless of recipient."],
+          },
+        },
       ],
     },
     {
@@ -400,8 +939,8 @@ export const lesson153: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "To evaluate and give a judgement" },
-              { id: "b", text: "To retell the plot" },
-              { id: "c", text: "To advertise a product" },
+              { id: "b", text: "To advertise a product" },
+              { id: "c", text: "To retell the plot" },
               { id: "d", text: "To report facts only" },
             ],
             correctChoiceId: "a",
@@ -661,6 +1200,546 @@ export const lesson153: Lesson = {
               },
             ],
             commonErrors: ["Confusing a review with a plot summary."],
+          },
+        },
+        {
+          id: "cie-ol-fl-ssa-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "What is 'direct address' in a speech?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Reading from a script" },
+              { id: "b", text: "Speaking to the audience using 'you' and 'we'" },
+              { id: "c", text: "Writing a formal letter" },
+              { id: "d", text: "Describing scenery" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Direct address",
+                statement:
+                  "Using 'you'/'we' makes the audience feel directly involved.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Direct address involves the audience with 'you'/'we'.",
+                marks: 1,
+                markCode: "AO1",
+              },
+            ],
+            finalAnswer: "**(a)** Speaking to the audience using 'you' and 'we'",
+            commonErrors: ["Confusing with narration or description."],
+          },
+        },
+        {
+          id: "cie-ol-fl-ssa-q6",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Which is the best verdict line for a film review?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "I went to the cinema on Saturday." },
+              { id: "b", text: "Tickets cost twelve dollars." },
+              { id: "c", text: "The film was 120 minutes long." },
+              { id: "d", text: "Overall, a gripping and rewarding film." },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "convention",
+                name: "Review verdict",
+                statement:
+                  "A verdict gives an evaluative overall judgement, not a fact.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "(a) is evaluative; others are facts.",
+                marks: 1,
+                markCode: "AO2",
+              },
+            ],
+            finalAnswer: "**(a)** Overall, a gripping and rewarding film.",
+            commonErrors: ["Confusing facts with evaluation."],
+          },
+        },
+        {
+          id: "cie-ol-fl-ssa-q7",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "Why do speeches use rhetorical questions?",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Rhetorical question",
+                statement:
+                  "Questions without expected answers involve the audience and prompt reflection.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "They make the audience think rather than just listen.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "They create a sense of shared enquiry with 'we'.",
+                marks: 1,
+                markCode: "AO3",
+              },
+            ],
+            finalAnswer:
+              "They involve the audience and prompt reflection, creating engagement.",
+            commonErrors: ["Thinking rhetorical questions need answers."],
+          },
+        },
+        {
+          id: "cie-ol-fl-ssa-q8",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "How should a review balance strengths and weaknesses?",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "convention",
+                name: "Balanced review",
+                statement:
+                  "A fair review acknowledges both merits and flaws before judging.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Identify genuine strengths with evaluative language.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "Identify weaknesses fairly, not just to criticise.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "Weigh them into an overall verdict.",
+                marks: 1,
+                markCode: "AO3",
+              },
+            ],
+            finalAnswer:
+              "Strengths+weaknesses+weighed verdict=fair, credible review.",
+            commonErrors: ["One-sided praise or criticism."],
+          },
+        },
+        {
+          id: "cie-ol-fl-ssa-q9",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "Explain how a for/against article should present opposing viewpoints fairly.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "skill",
+                name: "Discursive writing",
+                statement:
+                  "Both sides should be presented fairly before a reasoned conclusion.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "State the issue clearly in the introduction.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "Present each side's strongest arguments fairly.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "Weigh the evidence on both sides.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "Conclude with a reasoned position.",
+                marks: 1,
+                markCode: "AO3",
+              },
+            ],
+            finalAnswer:
+              "Issue+fair viewpoints+weighed evidence+reasoned conclusion.",
+            commonErrors: ["Straw-manning the opposing side."],
+          },
+        },
+        {
+          id: "cie-ol-fl-ssa-q10",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "What is a 'hook' in a speech?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "The speech's ending" },
+              { id: "b", text: "An opening that grabs the audience's attention" },
+              { id: "c", text: "A type of microphone" },
+              { id: "d", text: "A stage prop" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Hook",
+                statement:
+                  "An attention-grabbing opening that draws the audience in.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Hook = attention-grabbing opening.",
+                marks: 1,
+                markCode: "AO1",
+              },
+            ],
+            finalAnswer: "**(a)** An opening that grabs the audience's attention",
+            commonErrors: ["Confusing hook with conclusion."],
+          },
+        },
+        {
+          id: "cie-ol-fl-ssa-q11",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Why should a speech vary sentence length?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "To confuse the audience" },
+              { id: "b", text: "There is no reason" },
+              { id: "c", text: "To fill time" },
+              { id: "d", text: "Short lines land punchily while longer ones build rhythm" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Spoken rhythm",
+                statement:
+                  "Varying sentence length controls emphasis and keeps listeners engaged.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Variety controls emphasis and rhythm for listeners.",
+                marks: 1,
+                markCode: "AO2",
+              },
+            ],
+            finalAnswer: "**(a)** Short lines land punchily while longer ones build rhythm",
+            commonErrors: ["Writing speeches like essays with uniform sentences."],
+          },
+        },
+        {
+          id: "cie-ol-fl-ssa-q12",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "Give two features of evaluative language in a review.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Evaluative language",
+                statement:
+                  "Adjectives and phrases that judge quality, e.g. 'gripping', 'predictable'.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Any two evaluative adjectives or judgement phrases.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                reasoning: "Both express judgement, not fact.",
+                marks: 1,
+                markCode: "AO3",
+              },
+            ],
+            finalAnswer: "Judgement adjectives/phrases like 'gripping', 'thoroughly enjoyable'.",
+            commonErrors: ["Listing factual details instead of judgements."],
+          },
+        },
+        {
+          id: "cie-ol-fl-ssa-q13",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "How can a discussion article signal a reasoned conclusion?",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "skill",
+                name: "Reasoned conclusion",
+                statement:
+                  "The conclusion should weigh the evidence and state a justified position.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Refer back to the key points of both sides.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "Weigh the evidence explicitly.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "State a clear, justified position.",
+                marks: 1,
+                markCode: "AO3",
+              },
+            ],
+            finalAnswer:
+              "Summarise points+weigh evidence+state justified position.",
+            commonErrors: ["Ending with an unsupported opinion."],
+          },
+        },
+        {
+          id: "cie-ol-fl-ssa-q14",
+          difficulty: "challenge",
+          totalMarks: 8,
+          stem: "Planning a speech on keeping fit.",
+          parts: [
+            { label: "a", prompt: "Give a hook idea for the opening.", marks: 1 },
+            { label: "b", prompt: "Name two rhetorical devices you would use.", marks: 2 },
+            { label: "c", prompt: "Give an example of direct address.", marks: 2 },
+            { label: "d", prompt: "Write a closing line that lands punchily.", marks: 3 },
+          ],
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "skill",
+                name: "Speech planning",
+                statement: "Hook+devices+direct address+closing=effective speech.",
+              },
+            ],
+            steps: [
+              {
+                part: "a",
+                reasoning: "An attention-grabbing opening idea.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                part: "b",
+                reasoning: "First device, e.g. rhetorical question or rule of three.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                part: "b",
+                reasoning: "Second device correctly named.",
+                marks: 1,
+                markCode: "AO3",
+              },
+              {
+                part: "c",
+                reasoning: "A 'you'/'we' sentence addressing the audience.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                part: "c",
+                reasoning: "Clearly direct address.",
+                marks: 1,
+                markCode: "AO3",
+              },
+              {
+                part: "d",
+                reasoning: "A short, emphatic closing line.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                part: "d",
+                reasoning: "Punchy and memorable.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                part: "d",
+                reasoning: "Fitting for spoken delivery.",
+                marks: 1,
+                markCode: "AO3",
+              },
+            ],
+            finalAnswer:
+              "(a) hook (b) two devices (c) direct-address line (d) punchy close",
+            levels: [
+              { level: "Level 2", marks: "1", descriptor: "Hook given.", part: "a" },
+              { level: "Level 1", marks: "0", descriptor: "None.", part: "a" },
+              { level: "Level 2", marks: "1-2", descriptor: "Two devices.", part: "b" },
+              { level: "Level 1", marks: "0", descriptor: "None.", part: "b" },
+              { level: "Level 2", marks: "1-2", descriptor: "Direct address.", part: "c" },
+              { level: "Level 1", marks: "0", descriptor: "None.", part: "c" },
+              { level: "Level 3", marks: "2-3", descriptor: "Punchy close.", part: "d" },
+              { level: "Level 2", marks: "1", descriptor: "Attempted.", part: "d" },
+              { level: "Level 1", marks: "0", descriptor: "None.", part: "d" },
+            ],
+            commonErrors: ["Speech written like an essay, without spoken devices."],
+          },
+        },
+        {
+          id: "cie-ol-fl-ssa-q15",
+          difficulty: "challenge",
+          totalMarks: 9,
+          stem: "Writing a review.",
+          parts: [
+            { label: "a", prompt: "Define what a review does.", marks: 1 },
+            { label: "b", prompt: "Give two evaluative adjectives for a film.", marks: 2 },
+            { label: "c", prompt: "Explain what a balanced judgement means.", marks: 3 },
+            { label: "d", prompt: "Plan the structure of a short review.", marks: 3 },
+          ],
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "skill",
+                name: "Review writing",
+                statement: "Evaluation+adjectives+balance+structure.",
+              },
+            ],
+            steps: [
+              {
+                part: "a",
+                reasoning: "Evaluates and gives a judgement on a work.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                part: "b",
+                reasoning: "First evaluative adjective.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                part: "b",
+                reasoning: "Second evaluative adjective.",
+                marks: 1,
+                markCode: "AO3",
+              },
+              {
+                part: "c",
+                reasoning: "Weighing strengths and weaknesses fairly.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                part: "c",
+                reasoning: "Neither pure praise nor pure criticism.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                part: "c",
+                reasoning: "Clear explanation.",
+                marks: 1,
+                markCode: "AO3",
+              },
+              {
+                part: "d",
+                reasoning: "A coherent structure, e.g. intro+points+verdict.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                part: "d",
+                reasoning: "Elements ordered logically.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                part: "d",
+                reasoning: "Ends with a verdict.",
+                marks: 1,
+                markCode: "AO3",
+              },
+            ],
+            finalAnswer:
+              "(a) evaluates+judges (b) two adjectives (c) strengths+weaknesses weighed (d) intro+points+verdict",
+            levels: [
+              { level: "Level 2", marks: "1", descriptor: "Correct.", part: "a" },
+              { level: "Level 1", marks: "0", descriptor: "Wrong.", part: "a" },
+              { level: "Level 2", marks: "1-2", descriptor: "Two adjectives.", part: "b" },
+              { level: "Level 1", marks: "0", descriptor: "None.", part: "b" },
+              { level: "Level 3", marks: "2-3", descriptor: "Balance explained.", part: "c" },
+              { level: "Level 2", marks: "1", descriptor: "Partial.", part: "c" },
+              { level: "Level 1", marks: "0", descriptor: "None.", part: "c" },
+              { level: "Level 3", marks: "2-3", descriptor: "Coherent plan.", part: "d" },
+              { level: "Level 2", marks: "1", descriptor: "Some plan.", part: "d" },
+              { level: "Level 1", marks: "0", descriptor: "No plan.", part: "d" },
+            ],
+            commonErrors: ["A plot summary instead of an evaluation."],
+          },
+        },
+        {
+          id: "cie-ol-fl-ssa-q16",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "Discuss how purpose and audience shape the tone of a speech or article.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "skill",
+                name: "Purpose and tone",
+                statement:
+                  "Purpose and audience determine whether the tone is formal, humorous, critical or persuasive.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Purpose decides the overall attitude needed.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "Audience decides the level of formality.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "Tone is built through word choice and sentence style.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "Clear discussion.",
+                marks: 1,
+                markCode: "AO3",
+              },
+            ],
+            finalAnswer:
+              "Purpose sets the attitude; audience sets the formality; together they shape tone.",
+            commonErrors: ["Choosing a tone without considering purpose or audience."],
           },
         },
       ],

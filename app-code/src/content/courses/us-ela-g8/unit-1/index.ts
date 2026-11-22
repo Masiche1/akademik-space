@@ -7,6 +7,7 @@ export const unit1: Unit = {
   id: "ela8-u1",
   code: "1",
   title: "Reading Literature",
-  description: "Cite the strongest textual evidence, trace how themes develop, analyze dialogue, incidents, and word choice, and explain how structure, point of view, and traditional sources shape meaning in stories and drama.",
+  description:
+    "Cite the strongest textual evidence, trace how themes develop, analyze dialogue, incidents, and word choice, and explain how structure, point of view, and traditional sources shape meaning in stories and drama.",
   lessons: [lesson11, lesson12, lesson13],
 };

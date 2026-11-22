@@ -53,11 +53,11 @@ export const lesson61: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Introduction, body, conclusion" },
-              { id: "b", text: "Opening, development, conclusion" },
-              { id: "c", text: "Point 1, point 2, point 3" },
+              { id: "b", text: "Point 1, point 2, point 3" },
+              { id: "c", text: "Opening, development, conclusion" },
               { id: "d", text: "Greeting, speech, thanks" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -149,11 +149,11 @@ export const lesson61: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Um, like, you know" },
-              { id: "b", text: "The first point I want to make is..." },
+              { id: "b", text: "Anyway, moving on" },
               { id: "c", text: "Sorry, I lost my place" },
-              { id: "d", text: "Anyway, moving on" },
+              { id: "d", text: "The first point I want to make is..." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -175,11 +175,11 @@ export const lesson61: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Thank the audience and apologise for nerves" },
-              { id: "b", text: "Present a hook and state the thesis" },
-              { id: "c", text: "Define every literary term you will use" },
-              { id: "d", text: "Read the extract aloud word for word" },
+              { id: "b", text: "Read the extract aloud word for word" },
+              { id: "c", text: "Present a hook and state the thesis" },
+              { id: "d", text: "Define every literary term you will use" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -200,12 +200,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It is quicker to deliver" },
-              { id: "b", text: "It draws the points together into a judgement the listener can retain" },
-              { id: "c", text: "It avoids using further evidence" },
+              { id: "a", text: "It draws the points together into a judgement the listener can retain" },
+              { id: "b", text: "It avoids using further evidence" },
+              { id: "c", text: "It is quicker to deliver" },
               { id: "d", text: "It is easier to memorise" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -227,12 +227,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Speak faster to finish sooner" },
-              { id: "b", text: "Slow down, pause and restate the key point" },
+              { id: "a", text: "Apologise repeatedly and continue as before" },
+              { id: "b", text: "Speak faster to finish sooner" },
               { id: "c", text: "Skip the remaining points entirely" },
-              { id: "d", text: "Apologise repeatedly and continue as before" },
+              { id: "d", text: "Slow down, pause and restate the key point" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -254,12 +254,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Pace" },
-              { id: "b", text: "Volume" },
-              { id: "c", text: "Gesture" },
-              { id: "d", text: "Eye contact" },
+              { id: "a", text: "Gesture" },
+              { id: "b", text: "Pace" },
+              { id: "c", text: "Eye contact" },
+              { id: "d", text: "Volume" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -280,12 +280,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Fixed on your notes" },
-              { id: "b", text: "Distributed across the audience" },
-              { id: "c", text: "Focused on the teacher only" },
-              { id: "d", text: "Avoided entirely" },
+              { id: "a", text: "Focused on the teacher only" },
+              { id: "b", text: "Fixed on your notes" },
+              { id: "c", text: "Avoided entirely" },
+              { id: "d", text: "Distributed across the audience" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -486,12 +486,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Avoid presentations" },
-              { id: "b", text: "Prepare thoroughly and channel energy" },
-              { id: "c", text: "Memorise every word" },
-              { id: "d", text: "Speak as fast as possible" },
+              { id: "a", text: "Memorise every word" },
+              { id: "b", text: "Speak as fast as possible" },
+              { id: "c", text: "Prepare thoroughly and channel energy" },
+              { id: "d", text: "Avoid presentations" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -586,11 +586,11 @@ export const lesson61: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "It removes the adrenaline from your body" },
-              { id: "b", text: "The same arousal is interpreted positively, channelling energy into delivery" },
-              { id: "c", text: "It lowers your heart rate" },
+              { id: "b", text: "It lowers your heart rate" },
+              { id: "c", text: "The same arousal is interpreted positively, channelling energy into delivery" },
               { id: "d", text: "It guarantees a calm delivery" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -611,10 +611,10 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Natural personality" },
+              { id: "a", text: "A lucky audience" },
               { id: "b", text: "Thorough preparation" },
-              { id: "c", text: "A lucky audience" },
-              { id: "d", text: "Memorising every word" },
+              { id: "c", text: "Memorising every word" },
+              { id: "d", text: "Natural personality" },
             ],
             correctChoiceId: "b",
           },
@@ -637,12 +637,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Signals weakness to the audience" },
-              { id: "b", text: "Creates anticipation, marks the transition and signals composure" },
-              { id: "c", text: "Gives you time to remember your script" },
-              { id: "d", text: "Shortens the presentation" },
+              { id: "a", text: "Creates anticipation, marks the transition and signals composure" },
+              { id: "b", text: "Signals weakness to the audience" },
+              { id: "c", text: "Shortens the presentation" },
+              { id: "d", text: "Gives you time to remember your script" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -664,12 +664,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "As fast as possible" },
-              { id: "b", text: "Deliberately slower than feels natural" },
-              { id: "c", text: "Exactly conversational speed" },
-              { id: "d", text: "Variable and unpredictable" },
+              { id: "a", text: "Variable and unpredictable" },
+              { id: "b", text: "Exactly conversational speed" },
+              { id: "c", text: "As fast as possible" },
+              { id: "d", text: "Deliberately slower than feels natural" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -691,12 +691,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It flatters the teacher" },
-              { id: "b", text: "It establishes early connection and builds confidence gradually" },
-              { id: "c", text: "It avoids harder questions" },
-              { id: "d", text: "It is required by exam rules" },
+              { id: "a", text: "It is required by exam rules" },
+              { id: "b", text: "It flatters the teacher" },
+              { id: "c", text: "It establishes early connection and builds confidence gradually" },
+              { id: "d", text: "It avoids harder questions" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -717,12 +717,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A brief, thoughtful pause" },
-              { id: "b", text: "Rushing, filler words and apologising" },
-              { id: "c", text: "A steady, projected voice" },
+              { id: "a", text: "Rushing, filler words and apologising" },
+              { id: "b", text: "A steady, projected voice" },
+              { id: "c", text: "A brief, thoughtful pause" },
               { id: "d", text: "A planned transition" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

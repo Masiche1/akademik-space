@@ -56,22 +56,22 @@ export const lesson721: Lesson = {
           "choices": [
                     {
                               "id": "a",
-                              "text": "Psychology as product of brain, genes, chemistry"
-                    },
-                    {
-                              "id": "b",
-                              "text": "Behaviour learned by conditioning"
-                    },
-                    {
-                              "id": "c",
                               "text": "Focus on thoughts"
                     },
                     {
-                              "id": "d",
+                              "id": "b",
                               "text": "Focus on free will"
+                    },
+                    {
+                              "id": "c",
+                              "text": "Psychology as product of brain, genes, chemistry"
+                    },
+                    {
+                              "id": "d",
+                              "text": "Behaviour learned by conditioning"
                     }
           ],
-          "correctChoiceId": "a"
+          "correctChoiceId": "c"
 },
           markscheme: {
           "principles": [
@@ -217,6 +217,493 @@ export const lesson721: Lesson = {
                     }
           ],
           "finalAnswer": "Approach comparison."
+},
+        },
+        {
+          id: "ciealpsy-u2-appro-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Which research methods are associated with the biological approach?",
+          response: {
+          "type": "mcq",
+          "choices": [
+                    {
+                              "id": "a",
+                              "text": "Brain scans, twin studies and case studies"
+                    },
+                    {
+                              "id": "b",
+                              "text": "Naturalistic observation only"
+                    },
+                    {
+                              "id": "c",
+                              "text": "Only self-report questionnaires"
+                    },
+                    {
+                              "id": "d",
+                              "text": "Free association and dream analysis"
+                    }
+          ],
+          "correctChoiceId": "a"
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "context",
+                              "name": "Biological approach",
+                              "statement": "Scans, twins, cases."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "The biological approach uses brain imaging, twin studies and case studies to investigate biological influences on behaviour.",
+                              "marks": 1,
+                              "markCode": "M"
+                    }
+          ],
+          "finalAnswer": "Brain scans, twin studies and case studies"
+},
+        },
+        {
+          id: "ciealpsy-u2-appro-q6",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "How many types of conditioning does the behaviourist approach describe?",
+          response: {
+          "type": "numeric",
+          "parts": [
+                    { "label": "a", "answer": 2 }
+          ]
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "definition",
+                              "name": "Conditioning",
+                              "statement": "Classical and operant."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "The behaviourist approach describes classical conditioning and operant conditioning.",
+                              "marks": 1,
+                              "markCode": "A"
+                    }
+          ],
+          "finalAnswer": "2"
+},
+        },
+        {
+          id: "ciealpsy-u2-appro-q7",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Classical conditioning, as demonstrated by Pavlov, involves learning through:",
+          response: {
+          "type": "mcq",
+          "choices": [
+                    {
+                              "id": "a",
+                              "text": "Association between two stimuli"
+                    },
+                    {
+                              "id": "b",
+                              "text": "Genetic inheritance"
+                    },
+                    {
+                              "id": "c",
+                              "text": "Rewards and punishments only"
+                    },
+                    {
+                              "id": "d",
+                              "text": "Sudden insight"
+                    }
+          ],
+          "correctChoiceId": "a"
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "definition",
+                              "name": "Classical conditioning",
+                              "statement": "Learning by association."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "In classical conditioning a neutral stimulus becomes associated with an unconditioned stimulus so that it elicits the same response.",
+                              "marks": 1,
+                              "markCode": "M"
+                    }
+          ],
+          "finalAnswer": "Association between stimuli"
+},
+        },
+        {
+          id: "ciealpsy-u2-appro-q8",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "How many types of consequence does operant conditioning use to modify behaviour?",
+          response: {
+          "type": "numeric",
+          "parts": [
+                    { "label": "a", "answer": 2 }
+          ]
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "definition",
+                              "name": "Operant conditioning",
+                              "statement": "Reinforcement and punishment."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "Operant conditioning uses reinforcement (increasing behaviour) and punishment (decreasing behaviour).",
+                              "marks": 1,
+                              "markCode": "A"
+                    }
+          ],
+          "finalAnswer": "2"
+},
+        },
+        {
+          id: "ciealpsy-u2-appro-q9",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Which assumption is shared by BOTH the biological and behaviourist approaches?",
+          response: {
+          "type": "mcq",
+          "choices": [
+                    {
+                              "id": "a",
+                              "text": "They both focus on mental processes"
+                    },
+                    {
+                              "id": "b",
+                              "text": "They both emphasise free will"
+                    },
+                    {
+                              "id": "c",
+                              "text": "They both reject scientific methods"
+                    },
+                    {
+                              "id": "d",
+                              "text": "They are both deterministic and reductionist"
+                    }
+          ],
+          "correctChoiceId": "d"
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "principle",
+                              "name": "Shared assumptions",
+                              "statement": "Deterministic, reductionist."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "Both approaches assume behaviour is caused by factors beyond conscious control (deterministic) and can be reduced to simpler components.",
+                              "marks": 1,
+                              "markCode": "M"
+                    }
+          ],
+          "finalAnswer": "Both deterministic and reductionist"
+},
+        },
+        {
+          id: "ciealpsy-u2-appro-q10",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "How many treatments for psychological disorders are mentioned from a biological perspective?",
+          response: {
+          "type": "numeric",
+          "parts": [
+                    { "label": "a", "answer": 2 }
+          ]
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "context",
+                              "name": "Biological approach",
+                              "statement": "Drugs and surgery."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "The biological approach leads to treatments such as drug therapy and, in severe cases, surgery.",
+                              "marks": 1,
+                              "markCode": "A"
+                    }
+          ],
+          "finalAnswer": "2"
+},
+        },
+        {
+          id: "ciealpsy-u2-appro-q11",
+          difficulty: "challenge",
+          totalMarks: 1,
+          stem: "A therapist gives a client a reward each time they successfully approach a feared spider without anxiety. This technique is most consistent with:",
+          response: {
+          "type": "mcq",
+          "choices": [
+                    {
+                              "id": "a",
+                              "text": "Free association"
+                    },
+                    {
+                              "id": "b",
+                              "text": "Biological determinism"
+                    },
+                    {
+                              "id": "c",
+                              "text": "The behaviourist approach using operant conditioning"
+                    },
+                    {
+                              "id": "d",
+                              "text": "The psychodynamic approach"
+                    }
+          ],
+          "correctChoiceId": "c"
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "principle",
+                              "name": "Behaviour therapy",
+                              "statement": "Reinforcement changes behaviour."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "Rewarding desired behaviour is operant conditioning, a core behaviourist treatment method.",
+                              "marks": 1,
+                              "markCode": "M"
+                    }
+          ],
+          "finalAnswer": "Behaviourist approach using operant conditioning"
+},
+        },
+        {
+          id: "ciealpsy-u2-appro-q12",
+          difficulty: "challenge",
+          totalMarks: 2,
+          stem: "State the number of (a) types of conditioning described and (b) research methods used by the biological approach.",
+          response: {
+          "type": "numeric",
+          "parts": [
+                    { "label": "a", "answer": 2 },
+                    { "label": "b", "answer": 3 }
+          ]
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "context",
+                              "name": "Approaches",
+                              "statement": "2 conditioning types; 3 biological methods."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "(a) Classical and operant conditioning = 2.",
+                              "marks": 1,
+                              "markCode": "A",
+                              "part": "a"
+                    },
+                    {
+                              "reasoning": "(b) Brain scans, twin studies and case studies = 3.",
+                              "marks": 1,
+                              "markCode": "A",
+                              "part": "b"
+                    }
+          ],
+          "finalAnswer": "2 and 3"
+},
+        },
+        {
+          id: "ciealpsy-u2-appro-q13",
+          difficulty: "challenge",
+          totalMarks: 1,
+          stem: "A psychologist explains depression as caused by an imbalance of serotonin in the brain. This explanation reflects which approach?",
+          response: {
+          "type": "mcq",
+          "choices": [
+                    {
+                              "id": "a",
+                              "text": "The biological approach"
+                    },
+                    {
+                              "id": "b",
+                              "text": "The psychodynamic approach"
+                    },
+                    {
+                              "id": "c",
+                              "text": "The behaviourist approach"
+                    },
+                    {
+                              "id": "d",
+                              "text": "The humanistic approach"
+                    }
+          ],
+          "correctChoiceId": "a"
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "principle",
+                              "name": "Biological explanation",
+                              "statement": "Neurotransmitter imbalance."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "Explaining behaviour through brain chemistry such as serotonin is the biological approach.",
+                              "marks": 1,
+                              "markCode": "M"
+                    }
+          ],
+          "finalAnswer": "The biological approach"
+},
+        },
+        {
+          id: "ciealpsy-u2-appro-q14",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "Explain how classical conditioning can account for the acquisition of a phobia.",
+          response: {
+          "type": "open"
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "principle",
+                              "name": "Classical conditioning",
+                              "statement": "Neutral stimulus paired with fear."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "A neutral stimulus (e.g. a dog) is repeatedly paired with an unconditioned stimulus that naturally causes fear (e.g. a painful bite).",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "Through association, the previously neutral stimulus alone comes to elicit the fear response as a conditioned response.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "Generalisation can extend the fear to similar stimuli, producing a phobia.",
+                              "marks": 1,
+                              "markCode": "A"
+                    }
+          ],
+          "finalAnswer": "Neutral stimulus becomes associated with fear"
+},
+        },
+        {
+          id: "ciealpsy-u2-appro-q15",
+          difficulty: "core",
+          totalMarks: 4,
+          stem: "Compare the biological and behaviourist explanations of depression.",
+          response: {
+          "type": "open"
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "principle",
+                              "name": "Depression explanations",
+                              "statement": "Chemical vs learned."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "The biological approach explains depression through neurotransmitter imbalances such as low serotonin.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "The behaviourist approach explains depression through learned patterns such as learned helplessness from uncontrollable negative experiences.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "Both approaches are deterministic and reductionist.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "The behaviourist view ignores internal processes, while the biological view reduces depression to chemistry alone.",
+                              "marks": 1,
+                              "markCode": "A"
+                    }
+          ],
+          "finalAnswer": "Serotonin imbalance vs learned helplessness"
+},
+        },
+        {
+          id: "ciealpsy-u2-appro-q16",
+          difficulty: "challenge",
+          totalMarks: 8,
+          stem: "(a) Define biological approach, behaviourist approach, classical conditioning, operant conditioning, neurotransmitter and genotype. (b) What is the biological approach? (c) What is the behaviourist approach? (d) What is classical conditioning? (e) What is operant conditioning? (f) What research methods does the biological approach use? (g) What treatments arise from the biological approach? (h) Evaluate the strengths and weaknesses of the biological and behaviourist approaches.",
+          response: {
+          "type": "open"
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "technique",
+                              "name": "Approaches",
+                              "statement": "Comparison and evaluation."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "(a) All six definitions.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "(b) Behaviour explained by brain, genes and chemistry.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "(c) Behaviour learned through conditioning.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "(d) Learning by association between stimuli.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "(e) Learning by consequences — reinforcement and punishment.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "(f) Brain scans, twin studies and case studies.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "(g) Drug therapy and, in severe cases, surgery.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "(h) Both are reductionist and deterministic; biological explains internal processes, behaviourist explains observable learning, but both ignore cognition and free will.",
+                              "marks": 1,
+                              "markCode": "A"
+                    }
+          ],
+          "finalAnswer": "Biological and behaviourist approaches analysis."
 },
         },
       ],

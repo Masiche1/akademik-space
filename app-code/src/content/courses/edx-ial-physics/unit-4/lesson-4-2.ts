@@ -74,11 +74,11 @@ export const lesson42: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "kg m/s²" },
-              { id: "b", text: "N s" },
+              { id: "b", text: "kg m/s" },
               { id: "c", text: "J s" },
-              { id: "d", text: "kg m/s" },
+              { id: "d", text: "N s" },
             ],
-            correctChoiceId: "d",
+            correctChoiceIb: "d",
           },
           markscheme: {
             principles: [
@@ -329,12 +329,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "mv" },
+              { id: "a", text: "½mv²" },
               { id: "b", text: "mv²" },
-              { id: "c", text: "½mv²" },
+              { id: "c", text: "mv" },
               { id: "d", text: "2mv²" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [

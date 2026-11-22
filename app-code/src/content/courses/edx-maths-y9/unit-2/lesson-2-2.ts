@@ -47,12 +47,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$x = 5,\\; y = 2$" },
-              { id: "b", text: "$x = 2,\\; y = 5$" },
+              { id: "a", text: "$x = 2,\\; y = 5$" },
+              { id: "b", text: "$x = 10,\\; y = -3$" },
               { id: "c", text: "$x = 4,\\; y = 3$" },
-              { id: "d", text: "$x = 10,\\; y = -3$" },
+              { id: "d", text: "$x = 5,\\; y = 2$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Elimination", statement: "Add the equations when the signs of a matching term are different." }],
@@ -187,12 +187,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$x = \\dfrac{y - 2}{3}$" },
-              { id: "b", text: "$x = \\dfrac{y}{3} - 2$" },
-              { id: "c", text: "$x = 3y - 2$" },
-              { id: "d", text: "$x = \\dfrac{y + 2}{3}$" },
+              { id: "a", text: "$x = \\dfrac{y + 2}{3}$" },
+              { id: "b", text: "$x = \\dfrac{y - 2}{3}$" },
+              { id: "c", text: "$x = \\dfrac{y}{3} - 2$" },
+              { id: "d", text: "$x = 3y - 2$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Inverse operations", statement: "Undo operations in reverse order, doing the same to both sides." }],

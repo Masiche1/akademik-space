@@ -55,12 +55,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The play's plot summary" },
-              { id: "b", text: "The unifying interpretation guiding all staging choices" },
+              { id: "a", text: "The actor's biography" },
+              { id: "b", text: "The play's plot summary" },
               { id: "c", text: "The costume design" },
-              { id: "d", text: "The actor's biography" },
+              { id: "d", text: "The unifying interpretation guiding all staging choices" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -157,11 +157,11 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Only costume choices" },
-              { id: "b", text: "All staging choices through a unifying interpretation" },
-              { id: "c", text: "Only the lighting plot" },
+              { id: "b", text: "Only the lighting plot" },
+              { id: "c", text: "All staging choices through a unifying interpretation" },
               { id: "d", text: "The ticket price" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -185,12 +185,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Ignores the audience completely" },
-              { id: "b", text: "Acknowledges its own theatricality — breaking the fourth wall" },
-              { id: "c", text: "Uses no set at all" },
-              { id: "d", text: "Is always performed outdoors" },
+              { id: "a", text: "Uses no set at all" },
+              { id: "b", text: "Is always performed outdoors" },
+              { id: "c", text: "Acknowledges its own theatricality — breaking the fourth wall" },
+              { id: "d", text: "Ignores the audience completely" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -214,12 +214,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The degree of realism or abstraction in performance and design" },
+              { id: "a", text: "A rehearsal method" },
               { id: "b", text: "A lighting technique" },
               { id: "c", text: "A type of costume" },
-              { id: "d", text: "A rehearsal method" },
+              { id: "d", text: "The degree of realism or abstraction in performance and design" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -243,12 +243,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Comment on society" },
-              { id: "b", text: "Convince the audience that what they see is real life" },
+              { id: "a", text: "Convince the audience that what they see is real life" },
+              { id: "b", text: "Comment on society" },
               { id: "c", text: "Abstract the characters" },
               { id: "d", text: "Break the fourth wall" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -272,12 +272,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Because it is always easier" },
-              { id: "b", text: "Because it can comment on the play's themes rather than merely reproduce them" },
+              { id: "a", text: "Because it can comment on the play's themes rather than merely reproduce them" },
+              { id: "b", text: "Because it is always better" },
               { id: "c", text: "Because it requires less rehearsal" },
-              { id: "d", text: "Because it is always better" },
+              { id: "d", text: "Because it is always easier" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -302,11 +302,11 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Saying 'I liked it'" },
-              { id: "b", text: "Explaining how the choice serves the play's concept" },
-              { id: "c", text: "Following theatrical tradition" },
-              { id: "d", text: "Copying another production" },
+              { id: "b", text: "Copying another production" },
+              { id: "c", text: "Explaining how the choice serves the play's concept" },
+              { id: "d", text: "Following theatrical tradition" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -499,12 +499,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The script's plot" },
-              { id: "b", text: "The visual composition of the stage at any moment" },
+              { id: "a", text: "The visual composition of the stage at any moment" },
+              { id: "b", text: "The audience's view" },
               { id: "c", text: "The actor's costume" },
-              { id: "d", text: "The audience's view" },
+              { id: "d", text: "The script's plot" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -600,12 +600,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Script, actors, audience, critic" },
-              { id: "b", text: "Set, costume, lighting, sound" },
+              { id: "a", text: "Set, costume, lighting, sound" },
+              { id: "b", text: "Script, actors, audience, critic" },
               { id: "c", text: "Plot, theme, character, dialogue" },
               { id: "d", text: "Rehearsal, performance, review, award" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -629,12 +629,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The actor's emotional performance" },
-              { id: "b", text: "One clear point the audience is meant to watch" },
-              { id: "c", text: "The colour of the lighting" },
-              { id: "d", text: "The detail of the set" },
+              { id: "a", text: "One clear point the audience is meant to watch" },
+              { id: "b", text: "The detail of the set" },
+              { id: "c", text: "The actor's emotional performance" },
+              { id: "d", text: "The colour of the lighting" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -658,12 +658,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "All design elements working together to serve one vision" },
+              { id: "a", text: "Fast scene changes" },
               { id: "b", text: "Matching costumes only" },
               { id: "c", text: "Loud sound design" },
-              { id: "d", text: "Fast scene changes" },
+              { id: "d", text: "All design elements working together to serve one vision" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -687,12 +687,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Only play music" },
-              { id: "b", text: "Reinforce emotion and create a sense of space" },
+              { id: "a", text: "Replace the actors" },
+              { id: "b", text: "Only play music" },
               { id: "c", text: "Replace the lighting" },
-              { id: "d", text: "Replace the actors" },
+              { id: "d", text: "Reinforce emotion and create a sense of space" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -717,11 +717,11 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "It is always a mistake" },
-              { id: "b", text: "It can express psychological tension when used intentionally" },
-              { id: "c", text: "It saves money" },
-              { id: "d", text: "It confuses the audience productively" },
+              { id: "b", text: "It saves money" },
+              { id: "c", text: "It confuses the audience productively" },
+              { id: "d", text: "It can express psychological tension when used intentionally" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -745,12 +745,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Actors ranked by fame" },
-              { id: "b", text: "The audience's eye is guided to the most important element first" },
-              { id: "c", text: "Lighting chosen by price" },
-              { id: "d", text: "The order costumes are listed" },
+              { id: "a", text: "The order costumes are listed" },
+              { id: "b", text: "Actors ranked by fame" },
+              { id: "c", text: "The audience's eye is guided to the most important element first" },
+              { id: "d", text: "Lighting chosen by price" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

@@ -52,12 +52,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Only activity hours" },
-              { id: "b", text: "All three strands, a project and reflection" },
-              { id: "c", text: "Only a portfolio" },
-              { id: "d", text: "Nothing formal" },
+              { id: "a", text: "Nothing formal" },
+              { id: "b", text: "Only activity hours" },
+              { id: "c", text: "All three strands, a project and reflection" },
+              { id: "d", text: "Only a portfolio" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -147,12 +147,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Only service" },
-              { id: "b", text: "All three strands" },
-              { id: "c", text: "Only activity" },
-              { id: "d", text: "Creativity and service only" },
+              { id: "a", text: "Creativity and service only" },
+              { id: "b", text: "Only service" },
+              { id: "c", text: "All three strands" },
+              { id: "d", text: "Only activity" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -175,11 +175,11 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "A written exam" },
-              { id: "b", text: "A portfolio review and interview" },
-              { id: "c", text: "A peer vote" },
-              { id: "d", text: "Nothing — completion is automatic" },
+              { id: "b", text: "Nothing — completion is automatic" },
+              { id: "c", text: "A portfolio review and interview" },
+              { id: "d", text: "A peer vote" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -201,12 +201,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Are the same for every strand and never change" },
-              { id: "b", text: "Should be checked against current IB guidelines" },
-              { id: "c", text: "Do not exist" },
-              { id: "d", text: "Apply only to activity" },
+              { id: "a", text: "Do not exist" },
+              { id: "b", text: "Apply only to activity" },
+              { id: "c", text: "Are the same for every strand and never change" },
+              { id: "d", text: "Should be checked against current IB guidelines" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -228,12 +228,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Only individual" },
-              { id: "b", text: "Individual or collaborative" },
+              { id: "a", text: "Individual or collaborative" },
+              { id: "b", text: "Only individual" },
               { id: "c", text: "Only group" },
               { id: "d", text: "Completed in one afternoon" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -255,12 +255,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Engagement in all three strands" },
-              { id: "b", text: "A CAS project" },
-              { id: "c", text: "A written examination" },
-              { id: "d", text: "Meaningful reflection" },
+              { id: "a", text: "Meaningful reflection" },
+              { id: "b", text: "A written examination" },
+              { id: "c", text: "A CAS project" },
+              { id: "d", text: "Engagement in all three strands" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -283,11 +283,11 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Complete" },
-              { id: "b", text: "Incomplete — the project is essential" },
-              { id: "c", text: "Complete if reflections are good" },
-              { id: "d", text: "Exempt" },
+              { id: "b", text: "Complete if reflections are good" },
+              { id: "c", text: "Exempt" },
+              { id: "d", text: "Incomplete — the project is essential" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -309,10 +309,10 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Only the number of hours logged" },
+              { id: "a", text: "Peer opinions" },
               { id: "b", text: "Genuine engagement, reflection and requirement coverage" },
-              { id: "c", text: "Only the CAS project" },
-              { id: "d", text: "Peer opinions" },
+              { id: "c", text: "Only the number of hours logged" },
+              { id: "d", text: "Only the CAS project" },
             ],
             correctChoiceId: "b",
           },
@@ -573,10 +573,10 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Written exams" },
+              { id: "a", text: "Peer voting" },
               { id: "b", text: "Portfolio review and supervisor assessment" },
               { id: "c", text: "Only attendance" },
-              { id: "d", text: "Peer voting" },
+              { id: "d", text: "Written exams" },
             ],
             correctChoiceId: "b",
           },
@@ -668,10 +668,10 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "By written examination" },
+              { id: "a", text: "It is not assessed at all" },
               { id: "b", text: "Holistically through portfolio and supervisor review" },
-              { id: "c", text: "By peer voting only" },
-              { id: "d", text: "It is not assessed at all" },
+              { id: "c", text: "By written examination" },
+              { id: "d", text: "By peer voting only" },
             ],
             correctChoiceId: "b",
           },
@@ -695,10 +695,10 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Imagination" },
+              { id: "a", text: "Academic grades" },
               { id: "b", text: "Physical health and wellbeing" },
-              { id: "c", text: "Community empathy" },
-              { id: "d", text: "Academic grades" },
+              { id: "c", text: "Imagination" },
+              { id: "d", text: "Community empathy" },
             ],
             correctChoiceId: "b",
           },
@@ -722,12 +722,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Physical fitness" },
-              { id: "b", text: "Empathy and community engagement" },
+              { id: "a", text: "Empathy and community engagement" },
+              { id: "b", text: "Physical fitness" },
               { id: "c", text: "Artistic skill" },
               { id: "d", text: "Exam technique" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -749,12 +749,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Physical endurance" },
-              { id: "b", text: "Imagination and original thinking" },
-              { id: "c", text: "Community service hours" },
-              { id: "d", text: "Research skills" },
+              { id: "a", text: "Community service hours" },
+              { id: "b", text: "Research skills" },
+              { id: "c", text: "Physical endurance" },
+              { id: "d", text: "Imagination and original thinking" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -777,11 +777,11 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Is assessed by written examination" },
-              { id: "b", text: "Values the learning process over final products" },
+              { id: "b", text: "Is optional" },
               { id: "c", text: "Has no supervisor involvement" },
-              { id: "d", text: "Is optional" },
+              { id: "d", text: "Values the learning process over final products" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -803,12 +803,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The number of certificates collected" },
-              { id: "b", text: "Whether the student has genuinely grown" },
-              { id: "c", text: "Hours logged per strand" },
-              { id: "d", text: "Portfolio length" },
+              { id: "a", text: "Portfolio length" },
+              { id: "b", text: "The number of certificates collected" },
+              { id: "c", text: "Whether the student has genuinely grown" },
+              { id: "d", text: "Hours logged per strand" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -830,12 +830,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "End at graduation" },
-              { id: "b", text: "Continue as lifelong learning habits" },
-              { id: "c", text: "Apply only to school" },
-              { id: "d", text: "Replace academic study" },
+              { id: "a", text: "Continue as lifelong learning habits" },
+              { id: "b", text: "End at graduation" },
+              { id: "c", text: "Replace academic study" },
+              { id: "d", text: "Apply only to school" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

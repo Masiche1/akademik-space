@@ -53,12 +53,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Mutual Aid Doctrine" },
-              { id: "b", text: "Mutually Assured Destruction" },
-              { id: "c", text: "Military Alliance Defence" },
-              { id: "d", text: "Massive Attack Deterrence" },
+              { id: "a", text: "Military Alliance Defence" },
+              { id: "b", text: "Mutual Aid Doctrine" },
+              { id: "c", text: "Massive Attack Deterrence" },
+              { id: "d", text: "Mutually Assured Destruction" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -151,12 +151,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "1945" },
-              { id: "b", text: "1949" },
+              { id: "a", text: "1949" },
+              { id: "b", text: "1945" },
               { id: "c", text: "1955" },
               { id: "d", text: "1962" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -180,11 +180,11 @@ export const lesson41: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Long-range bombers alone" },
-              { id: "b", text: "Intercontinental ballistic missiles and submarine-launched missiles" },
-              { id: "c", text: "Chemical weapons stockpiles" },
-              { id: "d", text: "Naval blockades of each other's ports" },
+              { id: "b", text: "Naval blockades of each other's ports" },
+              { id: "c", text: "Intercontinental ballistic missiles and submarine-launched missiles" },
+              { id: "d", text: "Chemical weapons stockpiles" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -207,12 +207,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A space exploration programme" },
-              { id: "b", text: "A proposed missile defence shield" },
-              { id: "c", text: "A submarine missile fleet expansion" },
-              { id: "d", text: "A new arms-control treaty" },
+              { id: "a", text: "A submarine missile fleet expansion" },
+              { id: "b", text: "A space exploration programme" },
+              { id: "c", text: "A new arms-control treaty" },
+              { id: "d", text: "A proposed missile defence shield" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -235,12 +235,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A Soviet submarine entering US waters" },
-              { id: "b", text: "A US spy plane being shot down over the USSR" },
-              { id: "c", text: "A failed US invasion of Cuba" },
+              { id: "a", text: "A US spy plane being shot down over the USSR" },
+              { id: "b", text: "A failed US invasion of Cuba" },
+              { id: "c", text: "A Soviet submarine entering US waters" },
               { id: "d", text: "A Berlin blockade convoy" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -263,12 +263,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Faster missile delivery" },
-              { id: "b", text: "Multiple warheads to be carried on a single missile" },
-              { id: "c", text: "Missiles to be launched from submarines" },
-              { id: "d", text: "Nuclear weapons to be miniaturised for artillery shells" },
+              { id: "a", text: "Missiles to be launched from submarines" },
+              { id: "b", text: "Nuclear weapons to be miniaturised for artillery shells" },
+              { id: "c", text: "Multiple warheads to be carried on a single missile" },
+              { id: "d", text: "Faster missile delivery" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -292,11 +292,11 @@ export const lesson41: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Anti-nuclear political parties in both superpowers" },
-              { id: "b", text: "Massive military-industrial complexes in both societies" },
-              { id: "c", text: "Abolition of conventional armies" },
-              { id: "d", text: "International disarmament agencies" },
+              { id: "b", text: "International disarmament agencies" },
+              { id: "c", text: "Massive military-industrial complexes in both societies" },
+              { id: "d", text: "Abolition of conventional armies" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -473,11 +473,11 @@ export const lesson41: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "A war fought only with spies" },
-              { id: "b", text: "Superpowers backing rival local forces without direct fighting" },
-              { id: "c", text: "Negotiations through neutral countries" },
-              { id: "d", text: "War between two European allies" },
+              { id: "b", text: "War between two European allies" },
+              { id: "c", text: "Superpowers backing rival local forces without direct fighting" },
+              { id: "d", text: "Negotiations through neutral countries" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -571,12 +571,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Contain communism by offering aid to Greece and Turkey" },
-              { id: "b", text: "Create a permanent UN peacekeeping force" },
+              { id: "a", text: "Create a permanent UN peacekeeping force" },
+              { id: "b", text: "Contain communism by offering aid to Greece and Turkey" },
               { id: "c", text: "Nationalise the Suez Canal" },
               { id: "d", text: "Negotiate SALT arms-control treaties" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -599,12 +599,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Rebuild the economies of Western Europe" },
-              { id: "b", text: "Form a military alliance against the USSR" },
+              { id: "a", text: "Support communist parties in France and Italy" },
+              { id: "b", text: "Rebuild the economies of Western Europe" },
               { id: "c", text: "Divide Germany into occupation zones" },
-              { id: "d", text: "Support communist parties in France and Italy" },
+              { id: "d", text: "Form a military alliance against the USSR" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -628,11 +628,11 @@ export const lesson41: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "1947" },
-              { id: "b", text: "1949" },
-              { id: "c", text: "1955" },
+              { id: "b", text: "1955" },
+              { id: "c", text: "1949" },
               { id: "d", text: "1961" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -655,12 +655,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A Soviet-led military alliance of Eastern European states" },
-              { id: "b", text: "A Western economic recovery programme" },
-              { id: "c", text: "A UN agency for refugee relief" },
+              { id: "a", text: "A Western economic recovery programme" },
+              { id: "b", text: "A UN agency for refugee relief" },
+              { id: "c", text: "A Soviet-led military alliance of Eastern European states" },
               { id: "d", text: "A nuclear test-ban agreement" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -683,12 +683,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "1962" },
-              { id: "b", text: "1972" },
+              { id: "a", text: "1972" },
+              { id: "b", text: "1962" },
               { id: "c", text: "1975" },
               { id: "d", text: "1979" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -711,12 +711,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Capped the superpowers' nuclear arsenals" },
-              { id: "b", text: "Recognised post-war European borders while committing signatories to human rights" },
-              { id: "c", text: "Ended the Vietnam War" },
-              { id: "d", text: "Created the Warsaw Pact" },
+              { id: "a", text: "Ended the Vietnam War" },
+              { id: "b", text: "Capped the superpowers' nuclear arsenals" },
+              { id: "c", text: "Created the Warsaw Pact" },
+              { id: "d", text: "Recognised post-war European borders while committing signatories to human rights" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

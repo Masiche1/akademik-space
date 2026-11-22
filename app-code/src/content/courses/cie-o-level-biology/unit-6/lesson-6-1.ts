@@ -1,4 +1,41 @@
-import type { Lesson } from "../../../types.ts";
+import type { Difficulty, Lesson, MarkPrinciple, MarkStep, Markscheme, Question, QuestionPart, QuestionResponse } from "../../../types.ts";
+
+type StepTuple = [string, number, MarkStep["markCode"], string?];
+type StructStepTuple = [string, string, number, MarkStep["markCode"], string?];
+type PartTuple = [string, string, number];
+
+function prin(kind: MarkPrinciple["kind"], name: string, statement: string): MarkPrinciple { return { kind, name, statement }; }
+function step(reasoning: string, marks: number, markCode: MarkStep["markCode"], working?: string, part?: string): MarkStep {
+  const s: MarkStep = { reasoning, marks, markCode };
+  if (working !== undefined) s.working = working;
+  if (part !== undefined) s.part = part;
+  return s;
+}
+function scheme(principles: MarkPrinciple[], steps: MarkStep[], finalAnswer: string, commonErrors?: string[]): Markscheme {
+  const m: Markscheme = { principles, steps, finalAnswer };
+  if (commonErrors && commonErrors.length) m.commonErrors = commonErrors;
+  return m;
+}
+function makeQ(id: string, difficulty: Difficulty, totalMarks: number, stem: string, response: QuestionResponse, markscheme: Markscheme, parts?: QuestionPart[]): Question {
+  const q: Question = { id, difficulty, totalMarks, stem, response, markscheme };
+  if (parts) q.parts = parts;
+  return q;
+}
+function mcq(id: string, difficulty: Difficulty, stem: string, choices: [string, string, string, string], correct: "a" | "b" | "c" | "d", principle: MarkPrinciple, reasoning: string, commonError?: string): Question {
+  const textById = { a: choices[0], b: choices[1], c: choices[2], d: choices[3] };
+  return makeQ(id, difficulty, 1, stem, { type: "mcq", choices: [{ id: "a", text: choices[0] }, { id: "b", text: choices[1] }, { id: "c", text: choices[2] }, { id: "d", text: choices[3] }], correctChoiceId: correct }, scheme([principle], [step(reasoning, 1, "B")], `**(${correct})** ${textById[correct]}`, commonError ? [commonError] : undefined));
+}
+function num(id: string, difficulty: Difficulty, stem: string, answer: number, unit: string | undefined, principle: MarkPrinciple, reasoning: string, working: string, finalAnswer: string, markCode: MarkStep["markCode"] = "M", commonError?: string): Question {
+  const part: { label: string; answer: number; unit?: string } = { label: "a", answer, ...(unit !== undefined ? { unit } : {}) };
+  return makeQ(id, difficulty, 1, stem, { type: "numeric", parts: [part] }, scheme([principle], [step(reasoning, 1, markCode, working)], finalAnswer, commonError ? [commonError] : undefined));
+}
+function open(id: string, difficulty: Difficulty, totalMarks: number, stem: string, principle: MarkPrinciple, steps: StepTuple[], finalAnswer: string, commonError?: string): Question {
+  return makeQ(id, difficulty, totalMarks, stem, { type: "open" }, scheme([principle], steps.map((s) => step(s[0], s[1], s[2], s[3])), finalAnswer, commonError ? [commonError] : undefined));
+}
+function struct(id: string, difficulty: Difficulty, stem: string, parts: PartTuple[], principle: MarkPrinciple, steps: StructStepTuple[], finalAnswer: string, commonError?: string): Question {
+  const total = parts.reduce((sum, p) => sum + p[2], 0);
+  return makeQ(id, difficulty, total, stem, { type: "open" }, scheme([principle], steps.map((s) => step(s[1], s[2], s[3], s[4], s[0])), finalAnswer, commonError ? [commonError] : undefined), parts.map((p) => ({ label: p[0], prompt: p[1], marks: p[2] })));
+}
 
 export const lesson61: Lesson = {
   id: "olbio-u6-lesson-6-1",
@@ -50,12 +87,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A stable internal environment" },
+              { id: "a", text: "Maximum growth rate" },
               { id: "b", text: "A constant external temperature" },
-              { id: "c", text: "Maximum growth rate" },
-              { id: "d", text: "High blood pressure" },
+              { id: "c", text: "High blood pressure" },
+              { id: "d", text: "A stable internal environment" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -136,6 +173,18 @@ export const lesson61: Lesson = {
             commonErrors: ["Mixing up vasodilation (hot) and vasoconstriction (cold)."],
           },
         },
+        mcq("olbio-u6-homeostasis-q5", "foundation", "In a negative feedback loop, which component detects the change?", ["Receptor", "Coordinator", "Effector", "Stimulus"], "a", prin("definition", "Feedback components", "Receptors detect changes; coordinators process them; effectors produce responses."), "Receptors detect the change.", "Confusing the receptor with the effector."),
+        mcq("olbio-u6-homeostasis-q6", "foundation", "Which is an example of homeostasis?", ["Body temperature kept near 37°C", "Digesting a meal", "Growing taller", "Increasing heart rate during exercise"], "a", prin("definition", "Homeostasis", "Maintaining stable internal conditions despite external changes."), "Recall the definition.", "Exercise responses are not homeostatic set points."),
+        mcq("olbio-u6-homeostasis-q7", "core", "During temperature regulation, the hypothalamus acts as the:", ["Coordinator", "Receptor", "Effector", "Stimulus"], "a", prin("property", "Coordinator", "The coordinator processes information from receptors and directs effectors."), "Match the component role.", "The hypothalamus does not detect temperature directly."),
+        mcq("olbio-u6-homeostasis-q8", "core", "When body temperature rises above its set point, which response is triggered?", ["Sweating and vasodilation", "Vasoconstriction and shivering", "Hair erection", "Reduced breathing"], "a", prin("property", "Hot responses", "Overheating triggers sweating and vasodilation to increase heat loss."), "Recall heat-loss responses.", "Vasoconstriction and shivering are cold responses."),
+        mcq("olbio-u6-homeostasis-q9", "challenge", "Why is the feedback called 'negative'?", ["The response opposes the original change", "It uses negative ions", "It slows all reactions", "It only works at night"], "a", prin("definition", "Negative feedback", "The response reverses the change, returning the variable to its set point."), "Recall the meaning of 'negative'.", "It is not about electrical charge or time of day."),
+        num("olbio-u6-homeostasis-q10", "foundation", "Normal body temperature is about 37°C. If it falls by 1.5°C, what is the new temperature?", 35.5, "°C", prin("property", "Body temperature", "Normal body temperature is about 37°C."), "Subtract the fall from the set point.", "37 - 1.5 = 35.5", "**35.5 °C**"),
+        num("olbio-u6-homeostasis-q11", "core", "A person's heart rate rises from 70 bpm to 110 bpm during exercise. Calculate the increase in heart rate.", 40, "bpm", prin("property", "Heart rate change", "Increase = final value - initial value."), "Subtract initial from final.", "110 - 70 = 40", "**40 bpm increase**"),
+        num("olbio-u6-homeostasis-q12", "core", "Blood glucose is normally about 90 mg/dL. If it rises to 108 mg/dL, calculate the percentage increase.", 20, "%", prin("property", "Percentage change", "Percentage increase = change / original x 100."), "Compute change then percentage.", "(108 - 90) / 90 x 100 = 20", "**20% increase**"),
+        num("olbio-u6-homeostasis-q13", "challenge", "Blood glucose rises from 90 mg/dL to 135 mg/dL after a meal. Calculate the percentage rise.", 50, "%", prin("property", "Percentage change", "Percentage increase = (new - old) / old x 100."), "Compute the percentage rise.", "(135 - 90) / 90 x 100 = 50", "**50% rise**"),
+        open("olbio-u6-homeostasis-q14", "core", 3, "Explain the roles of the receptor, coordinator and effector in a negative feedback loop.", prin("definition", "Feedback loop", "Receptor detects, coordinator processes, effector responds."), [["The receptor detects the change in the variable.", 1, "M"], ["The coordinator processes the information and decides on a response.", 1, "M"], ["The effector carries out the response that reverses the change.", 1, "A"]], "Receptor detects the change, coordinator processes it, and effector produces the reversing response.", "Confusing the coordinator with the receptor."),
+        open("olbio-u6-homeostasis-q15", "challenge", 4, "Describe the negative feedback that restores blood glucose after a meal.", prin("property", "Glucose homeostasis", "High glucose triggers insulin, glycogen storage and a fall back to the set point."), [["Blood glucose rises after food is absorbed.", 1, "M"], ["The pancreas releases insulin.", 1, "M"], ["Cells take up glucose and the liver converts it to glycogen.", 1, "M"], ["Blood glucose falls back towards its set point.", 1, "A"]], "Glucose rises, insulin is released, glucose is stored as glycogen, and blood glucose returns to normal.", "Omitting glycogen storage as the mechanism."),
+        struct("olbio-u6-homeostasis-q16", "challenge", "A student is asked to explain homeostasis and negative feedback.", [["a", "Define homeostasis and state why it is needed.", 2], ["b", "Name the three components of a negative feedback loop.", 2], ["c", "Give two examples of homeostatic variables.", 2], ["d", "Explain why negative feedback is important for survival.", 3]], prin("definition", "Homeostasis", "Stable internal conditions maintained by negative feedback."), [["a", "Homeostasis is maintenance of stable internal conditions.", 1, "M", "stable internal environment"], ["a", "It lets cells function despite external changes.", 1, "A"], ["b", "Receptor detects the change.", 1, "M"], ["b", "Coordinator processes and effector responds.", 1, "A"], ["c", "Body temperature is one variable.", 1, "M"], ["c", "Blood glucose (or water balance) is another.", 1, "A"], ["d", "Keeps conditions within the range cells need.", 1, "M"], ["d", "Reverses deviations automatically.", 1, "M"], ["d", "Prevents dangerous extremes.", 1, "A"]], "(a) stable internal environment (b) receptor/coordinator/effector (c) temperature, glucose (d) keeps conditions in a safe range", "Listing positive feedback as the main mechanism."),
       ],
     },
     {
@@ -172,12 +221,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Vasodilation" },
+              { id: "a", text: "Shivering" },
               { id: "b", text: "Vasoconstriction" },
-              { id: "c", text: "Shivering" },
-              { id: "d", text: "Hairs standing up" },
+              { id: "c", text: "Hairs standing up" },
+              { id: "d", text: "Vasodilation" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -258,6 +307,18 @@ export const lesson61: Lesson = {
             commonErrors: ["In (c) not distinguishing heat LOSS (hot responses) from heat CONSERVATION+GENERATION (cold responses)."],
           },
         },
+        mcq("olbio-u6-temperature-q5", "foundation", "Which response increases heat loss when the body is hot?", ["Vasodilation", "Vasoconstriction", "Shivering", "Hair erection"], "a", prin("property", "Cooling responses", "Vasodilation and sweating increase heat loss when hot."), "Recall heat-loss responses.", "Vasoconstriction, shivering and hair erection conserve heat."),
+        mcq("olbio-u6-temperature-q6", "foundation", "What does shivering do?", ["Generates heat by muscle contraction", "Cools by evaporation", "Filters the blood", "Produces sweat"], "a", prin("property", "Shivering", "Rapid involuntary muscle contraction generates heat."), "Recall the mechanism.", "Shivering warms; it does not cool."),
+        mcq("olbio-u6-temperature-q7", "core", "When the body is cold, blood vessels near the skin undergo:", ["Vasoconstriction", "Vasodilation", "Dilation of alveoli", "Increased sweating"], "a", prin("property", "Cold responses", "Vasoconstriction reduces blood flow to the skin and conserves heat."), "Match response to condition.", "Vasodilation is a hot response."),
+        mcq("olbio-u6-temperature-q8", "core", "Hairs standing up when cold helps by:", ["Trapping an insulating layer of air", "Increasing sweat production", "Lowering body temperature directly", "Blocking light"], "a", prin("property", "Hair erection", "Erect hairs trap air, which insulates the body."), "Recall the insulation mechanism.", "It does not directly lower temperature."),
+        mcq("olbio-u6-temperature-q9", "challenge", "Why must body temperature stay near 37°C?", ["Enzymes work best at their optimum temperature", "To feel warm", "To speed up digestion only", "There is no reason"], "a", prin("property", "Enzyme optimum", "Enzymes function best near 37°C; extremes denature or slow them."), "Link temperature to enzyme function.", "It is about enzyme efficiency, not comfort."),
+        num("olbio-u6-temperature-q10", "foundation", "Normal body temperature is 37°C. On a cold day skin temperature falls to 30°C. Calculate the fall in temperature.", 7, "°C", prin("property", "Temperature change", "Change = initial - final for a fall."), "Subtract final from initial.", "37 - 30 = 7", "**7 °C fall**"),
+        num("olbio-u6-temperature-q11", "core", "A person sweats at 2 L per hour. How much sweat is produced in 30 minutes?", 1, "L", prin("property", "Sweat rate", "Amount = rate x time; 30 min = 0.5 h."), "Multiply rate by time in hours.", "2 x 0.5 = 1", "**1 L**"),
+        num("olbio-u6-temperature-q12", "core", "Vasodilation increases blood flow to the skin from 0.5 L/min to 1.5 L/min. Calculate the increase.", 1, "L/min", prin("property", "Blood flow change", "Increase = final - initial."), "Subtract initial from final.", "1.5 - 0.5 = 1.0", "**1.0 L/min increase**"),
+        num("olbio-u6-temperature-q13", "challenge", "A thermometer reads 38.5°C while the set point is 37°C. How many degrees above the set point is the reading?", 1.5, "°C", prin("property", "Deviation from set point", "Deviation = measured - set point."), "Subtract set point from reading.", "38.5 - 37 = 1.5", "**1.5 °C above set point**"),
+        open("olbio-u6-temperature-q14", "core", 3, "Explain how vasodilation helps to cool the body.", prin("property", "Vasodilation", "Widening skin blood vessels increases heat loss by radiation."), [["Vasodilation widens blood vessels near the skin surface.", 1, "M"], ["More warm blood flows close to the skin.", 1, "M"], ["Heat is lost to the surroundings by radiation/convection.", 1, "A"]], "Vasodilation brings more warm blood to the skin so heat is radiated away, cooling the body.", "Confusing vasodilation with vasoconstriction."),
+        open("olbio-u6-temperature-q15", "challenge", 4, "Explain why sweating is less effective at cooling the body in humid conditions.", prin("property", "Sweating", "Cooling depends on evaporation of sweat from the skin."), [["Sweat must evaporate to remove heat from the skin.", 1, "M"], ["In humid air the air is already saturated with water vapour.", 1, "M"], ["Evaporation is slower, so less heat is removed.", 1, "M"], ["The body may overheat because cooling is reduced.", 1, "A"]], "Sweat evaporates more slowly in humid air because the gradient for water vapour is smaller, so less cooling occurs.", "Saying sweat itself is cold rather than evaporation cooling."),
+        struct("olbio-u6-temperature-q16", "challenge", "A student compares the body's responses to overheating and overcooling.", [["a", "List two responses to overheating.", 2], ["b", "List two responses to overcooling.", 2], ["c", "Explain how each response affects heat loss or heat gain.", 5]], prin("property", "Thermoregulation", "Hot responses increase heat loss; cold responses conserve and generate heat."), [["a", "Sweating is one hot response.", 1, "M"], ["a", "Vasodilation (or hairs flat) is another.", 1, "A"], ["b", "Vasoconstriction is one cold response.", 1, "M"], ["b", "Shivering (or hairs erect) is another.", 1, "A"], ["c", "Sweating removes heat by evaporation.", 1, "M"], ["c", "Vasodilation increases heat loss through the skin.", 1, "M"], ["c", "Vasoconstriction reduces heat loss.", 1, "M"], ["c", "Shivering generates heat by muscle contraction.", 1, "M"], ["c", "Complete the heat balance explanation.", 1, "A"]], "(a) sweating, vasodilation (b) vasoconstriction, shivering (c) hot responses lose heat, cold responses conserve/generate heat", "Mixing up heat loss (hot) with heat conservation (cold)."),
       ],
     },
   ],

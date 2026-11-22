@@ -57,12 +57,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Metallic" },
-              { id: "b", text: "Ionic" },
-              { id: "c", text: "Covalent" },
-              { id: "d", text: "Hydrogen" },
+              { id: "a", text: "Hydrogen" },
+              { id: "b", text: "Metallic" },
+              { id: "c", text: "Ionic" },
+              { id: "d", text: "Covalent" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -84,12 +84,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Only weak intermolecular forces must be overcome; the covalent bonds within molecules stay intact" },
-              { id: "b", text: "They contain no atoms" },
-              { id: "c", text: "Covalent bonds are weak" },
-              { id: "d", text: "They are all gases" },
+              { id: "a", text: "They contain no atoms" },
+              { id: "b", text: "They are all gases" },
+              { id: "c", text: "Only weak intermolecular forces must be overcome; the covalent bonds within molecules stay intact" },
+              { id: "d", text: "Covalent bonds are weak" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -112,12 +112,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "When layers shift, like-charged ions align and repel, causing the lattice to shatter" },
-              { id: "b", text: "Ions are too large to touch" },
+              { id: "a", text: "Ions move freely" },
+              { id: "b", text: "When layers shift, like-charged ions align and repel, causing the lattice to shatter" },
               { id: "c", text: "Ionic bonds are weak" },
-              { id: "d", text: "Ions move freely" },
+              { id: "d", text: "Ions are too large to touch" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -172,12 +172,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Ionic" },
-              { id: "b", text: "Covalent" },
+              { id: "a", text: "Covalent" },
+              { id: "b", text: "Ionic" },
               { id: "c", text: "Metallic" },
               { id: "d", text: "Hydrogen" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -199,12 +199,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Water (H₂O)" },
-              { id: "b", text: "Sodium chloride" },
+              { id: "a", text: "Sodium chloride" },
+              { id: "b", text: "Copper metal" },
               { id: "c", text: "Magnesium oxide" },
-              { id: "d", text: "Copper metal" },
+              { id: "d", text: "Water (H₂O)" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -226,12 +226,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Layers of positive ions can slide over each other while the sea of delocalised electrons keeps them bonded" },
-              { id: "b", text: "Metallic bonds are weak" },
-              { id: "c", text: "Ions move freely in all directions" },
+              { id: "a", text: "Metallic bonds are weak" },
+              { id: "b", text: "Ions move freely in all directions" },
+              { id: "c", text: "Layers of positive ions can slide over each other while the sea of delocalised electrons keeps them bonded" },
               { id: "d", text: "Metals have no bonds" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -254,12 +254,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Diamond is a giant covalent lattice needing many bonds broken; iodine consists of small I₂ molecules held by weak intermolecular forces" },
-              { id: "b", text: "Diamond's bonds are weaker" },
-              { id: "c", text: "Iodine atoms are larger" },
-              { id: "d", text: "Diamond is metallic" },
+              { id: "a", text: "Diamond's bonds are weaker" },
+              { id: "b", text: "Diamond is metallic" },
+              { id: "c", text: "Diamond is a giant covalent lattice needing many bonds broken; iodine consists of small I₂ molecules held by weak intermolecular forces" },
+              { id: "d", text: "Iodine atoms are larger" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -282,12 +282,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Each carbon has a delocalised electron free to move between layers" },
-              { id: "b", text: "It contains metal ions" },
-              { id: "c", text: "Its bonds are ionic" },
-              { id: "d", text: "It is a liquid" },
+              { id: "a", text: "Its bonds are ionic" },
+              { id: "b", text: "Each carbon has a delocalised electron free to move between layers" },
+              { id: "c", text: "It is a liquid" },
+              { id: "d", text: "It contains metal ions" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -310,12 +310,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Polar water molecules surround and stabilise ions (hydration); non-polar hexane cannot interact strongly enough with charged ions to overcome lattice energy" },
+              { id: "a", text: "Ionic compounds always dissolve in any liquid" },
               { id: "b", text: "Hexane is too dense" },
-              { id: "c", text: "Ionic compounds always dissolve in any liquid" },
-              { id: "d", text: "Water is non-polar" },
+              { id: "c", text: "Water is non-polar" },
+              { id: "d", text: "Polar water molecules surround and stabilise ions (hydration); non-polar hexane cannot interact strongly enough with charged ions to overcome lattice energy" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -339,12 +339,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "SiO₂ is a giant covalent network; CO₂ consists of discrete O=C=O molecules held by weak intermolecular forces" },
-              { id: "b", text: "CO₂ has stronger bonds" },
-              { id: "c", text: "SiO₂ is ionic" },
-              { id: "d", text: "They have the same structure" },
+              { id: "a", text: "SiO₂ is ionic" },
+              { id: "b", text: "SiO₂ is a giant covalent network; CO₂ consists of discrete O=C=O molecules held by weak intermolecular forces" },
+              { id: "c", text: "They have the same structure" },
+              { id: "d", text: "CO₂ has stronger bonds" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -368,12 +368,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Its metallic bonds are relatively weak for a metal" },
-              { id: "b", text: "It has no metallic bonding" },
-              { id: "c", text: "It is a non-metal" },
-              { id: "d", text: "It has covalent bonds" },
+              { id: "a", text: "It is a non-metal" },
+              { id: "b", text: "It has covalent bonds" },
+              { id: "c", text: "Its metallic bonds are relatively weak for a metal" },
+              { id: "d", text: "It has no metallic bonding" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -527,12 +527,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Hydrogen bond" },
-              { id: "b", text: "Van der Waals" },
-              { id: "c", text: "Dipole-dipole" },
-              { id: "d", text: "Ionic bond" },
+              { id: "a", text: "Ionic bond" },
+              { id: "b", text: "Dipole-dipole" },
+              { id: "c", text: "Hydrogen bond" },
+              { id: "d", text: "Van der Waals" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -555,9 +555,9 @@ export const lesson13: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Ammonia (NH₃)" },
-              { id: "b", text: "Methane (CH₄)" },
-              { id: "c", text: "Carbon dioxide (CO₂)" },
-              { id: "d", text: "Nitrogen (N₂)" },
+              { id: "b", text: "Nitrogen (N₂)" },
+              { id: "c", text: "Methane (CH₄)" },
+              { id: "d", text: "Carbon dioxide (CO₂)" },
             ],
             correctChoiceId: "a",
           },
@@ -582,12 +582,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Hydrogen bonding holds water molecules in an open hexagonal lattice in ice, making it less dense than liquid water" },
+              { id: "a", text: "Ice contains air bubbles" },
               { id: "b", text: "Ice is warmer than water" },
-              { id: "c", text: "Water molecules are larger in ice" },
-              { id: "d", text: "Ice contains air bubbles" },
+              { id: "c", text: "Hydrogen bonding holds water molecules in an open hexagonal lattice in ice, making it less dense than liquid water" },
+              { id: "d", text: "Water molecules are larger in ice" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -643,9 +643,9 @@ export const lesson13: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Van der Waals (dispersion) forces" },
-              { id: "b", text: "Hydrogen bonds" },
-              { id: "c", text: "Dipole-dipole attractions" },
-              { id: "d", text: "Ionic bonds" },
+              { id: "b", text: "Dipole-dipole attractions" },
+              { id: "c", text: "Ionic bonds" },
+              { id: "d", text: "Hydrogen bonds" },
             ],
             correctChoiceId: "a",
           },
@@ -740,12 +740,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Ethanol (C₂H₅OH) — polar with O–H bonds that hydrogen bond with water" },
-              { id: "b", text: "Hexane (C₆H₁₄) — non-polar hydrocarbon" },
+              { id: "a", text: "Polythene — non-polar polymer" },
+              { id: "b", text: "Ethanol (C₂H₅OH) — polar with O–H bonds that hydrogen bond with water" },
               { id: "c", text: "Vegetable oil — non-polar mixture" },
-              { id: "d", text: "Polythene — non-polar polymer" },
+              { id: "d", text: "Hexane (C₆H₁₄) — non-polar hydrocarbon" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -790,12 +790,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Ionic lattices are held by strong electrostatic forces between ions throughout the crystal; methane molecules are held only by weak van der Waals forces" },
-              { id: "b", text: "NaCl molecules are larger" },
-              { id: "c", text: "Methane contains no atoms" },
+              { id: "a", text: "Methane contains no atoms" },
+              { id: "b", text: "Ionic lattices are held by strong electrostatic forces between ions throughout the crystal; methane molecules are held only by weak van der Waals forces" },
+              { id: "c", text: "NaCl molecules are larger" },
               { id: "d", text: "Ionic compounds contain metals only" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [

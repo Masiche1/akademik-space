@@ -51,11 +51,11 @@ export const lesson42: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$\\Delta H$ is positive and the surroundings get cooler" },
-              { id: "b", text: "$\\Delta H$ is negative and the surroundings get warmer" },
+              { id: "b", text: "$\\Delta H$ is negative and the surroundings get cooler" },
               { id: "c", text: "$\\Delta H$ is positive and the surroundings get warmer" },
-              { id: "d", text: "$\\Delta H$ is negative and the surroundings get cooler" },
+              { id: "d", text: "$\\Delta H$ is negative and the surroundings get warmer" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Exothermic reaction", statement: "Releases heat to the surroundings; products have lower enthalpy so $\\Delta H < 0$." }],
@@ -173,10 +173,10 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It lowers the activation energy of the reaction" },
+              { id: "a", text: "It makes the reaction more exothermic" },
               { id: "b", text: "More particles have at least the activation energy, and collisions are more frequent" },
-              { id: "c", text: "It increases the number of reactant particles" },
-              { id: "d", text: "It makes the reaction more exothermic" },
+              { id: "c", text: "It lowers the activation energy of the reaction" },
+              { id: "d", text: "It increases the number of reactant particles" },
             ],
             correctChoiceId: "b",
           },

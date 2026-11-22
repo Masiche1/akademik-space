@@ -66,12 +66,12 @@ export const lesson93: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Poisson distribution" },
+              { id: "a", text: "Binomial only" },
               { id: "b", text: "Normal only" },
-              { id: "c", text: "Binomial only" },
-              { id: "d", text: "Uniform" },
+              { id: "c", text: "Uniform" },
+              { id: "d", text: "Poisson distribution" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -288,12 +288,12 @@ export const lesson93: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$n-1$" },
-              { id: "b", text: "$n$" },
-              { id: "c", text: "$n-2$" },
-              { id: "d", text: "$n+1$" },
+              { id: "a", text: "$n$" },
+              { id: "b", text: "$n-1$" },
+              { id: "c", text: "$n+1$" },
+              { id: "d", text: "$n-2$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [

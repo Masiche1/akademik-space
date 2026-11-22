@@ -56,9 +56,9 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "I have went there." },
+              { id: "a", text: "I have go there." },
               { id: "b", text: "I have gone there." },
-              { id: "c", text: "I have go there." },
+              { id: "c", text: "I have went there." },
               { id: "d", text: "I have going there." },
             ],
             correctChoiceId: "b",
@@ -153,10 +153,10 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "She has write a letter." },
+              { id: "a", text: "She has wrote a letter." },
               { id: "b", text: "She has written a letter." },
               { id: "c", text: "She has writing a letter." },
-              { id: "d", text: "She has wrote a letter." },
+              { id: "d", text: "She has write a letter." },
             ],
             correctChoiceId: "b",
           },
@@ -180,10 +180,10 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "must" },
+              { id: "a", text: "could" },
               { id: "b", text: "should" },
-              { id: "c", text: "can" },
-              { id: "d", text: "could" },
+              { id: "c", text: "must" },
+              { id: "d", text: "can" },
             ],
             correctChoiceId: "b",
           },
@@ -207,12 +207,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Must" },
-              { id: "b", text: "Should" },
-              { id: "c", text: "Can" },
-              { id: "d", text: "Have to" },
+              { id: "a", text: "Have to" },
+              { id: "b", text: "Must" },
+              { id: "c", text: "Should" },
+              { id: "d", text: "Can" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -234,12 +234,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "There is no difference" },
-              { id: "b", text: "'Must' = strong obligation; 'have to' = external obligation/rule" },
-              { id: "c", text: "'Must' is informal, 'have to' is formal" },
-              { id: "d", text: "'Must' is past, 'have to' is present" },
+              { id: "a", text: "'Must' is informal, 'have to' is formal" },
+              { id: "b", text: "There is no difference" },
+              { id: "c", text: "'Must' is past, 'have to' is present" },
+              { id: "d", text: "'Must' = strong obligation; 'have to' = external obligation/rule" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -288,12 +288,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "You must to wear a helmet." },
-              { id: "b", text: "You must wear a helmet." },
-              { id: "c", text: "You must wearing a helmet." },
-              { id: "d", text: "You must wore a helmet." },
+              { id: "a", text: "You must wearing a helmet." },
+              { id: "b", text: "You must wore a helmet." },
+              { id: "c", text: "You must wear a helmet." },
+              { id: "d", text: "You must to wear a helmet." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -497,12 +497,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "and" },
-              { id: "b", text: "but" },
-              { id: "c", text: "because" },
-              { id: "d", text: "so" },
+              { id: "a", text: "because" },
+              { id: "b", text: "and" },
+              { id: "c", text: "so" },
+              { id: "d", text: "but" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -595,11 +595,11 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "but" },
-              { id: "b", text: "so" },
-              { id: "c", text: "although" },
+              { id: "b", text: "although" },
+              { id: "c", text: "so" },
               { id: "d", text: "because" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -621,12 +621,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "for example" },
-              { id: "b", text: "however" },
+              { id: "a", text: "first" },
+              { id: "b", text: "for example" },
               { id: "c", text: "because" },
-              { id: "d", text: "first" },
+              { id: "d", text: "however" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -648,9 +648,9 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "I like football, so my brother prefers swimming." },
+              { id: "a", text: "I like football, because my brother prefers swimming." },
               { id: "b", text: "I like football, but my brother prefers swimming." },
-              { id: "c", text: "I like football, because my brother prefers swimming." },
+              { id: "c", text: "I like football, so my brother prefers swimming." },
               { id: "d", text: "I like football, and my brother prefers swimming." },
             ],
             correctChoiceId: "b",
@@ -675,12 +675,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "I like football, however my brother prefers swimming." },
-              { id: "b", text: "I like football. However, my brother prefers swimming." },
-              { id: "c", text: "However I like football my brother prefers swimming." },
-              { id: "d", text: "I like however football." },
+              { id: "a", text: "However I like football my brother prefers swimming." },
+              { id: "b", text: "I like football, however my brother prefers swimming." },
+              { id: "c", text: "I like however football." },
+              { id: "d", text: "I like football. However, my brother prefers swimming." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -729,12 +729,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "and" },
-              { id: "b", text: "on the other hand" },
-              { id: "c", text: "the" },
-              { id: "d", text: "very" },
+              { id: "a", text: "on the other hand" },
+              { id: "b", text: "and" },
+              { id: "c", text: "very" },
+              { id: "d", text: "the" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

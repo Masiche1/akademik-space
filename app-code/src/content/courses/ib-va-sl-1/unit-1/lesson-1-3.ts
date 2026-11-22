@@ -40,10 +40,10 @@ export const lesson13: Lesson = {
           stem: "The main difference between cutting and tearing paper for collage is that tearing tends to produce:",
           response: { type: "mcq", choices: [
             { id: "a", text: "More precise, designed edges" },
-            { id: "b", text: "Rawer, more spontaneous edges" },
-            { id: "c", text: "Waterproof edges" },
+            { id: "b", text: "Waterproof edges" },
+            { id: "c", text: "Rawer, more spontaneous edges" },
             { id: "d", text: "Symmetrical edges" },
-          ], correctChoiceId: "b" },
+          ], correctChoiceId: "c" },
           markscheme: {
             principles: [{ kind: "technique", name: "Cut vs tear", statement: "Torn edges look raw and spontaneous; cut edges look precise." }],
             steps: [
@@ -112,10 +112,10 @@ export const lesson13: Lesson = {
           id: "va-u1-collage-mixed-q5", difficulty: "foundation", totalMarks: 2,
           stem: "Collage is best defined as:",
           response: { type: "mcq", choices: [
-            { id: "a", text: "A three-dimensional arrangement of objects" },
+            { id: "a", text: "A single-medium painting technique" },
             { id: "b", text: "An artwork assembled by gluing cut or torn materials onto a surface" },
             { id: "c", text: "A rubbing of a textured surface" },
-            { id: "d", text: "A single-medium painting technique" },
+            { id: "d", text: "A three-dimensional arrangement of objects" },
           ], correctChoiceId: "b" },
           markscheme: {
             principles: [{ kind: "definition", name: "Collage", statement: "Cut or torn materials glued onto a surface to form an image." }],
@@ -131,11 +131,11 @@ export const lesson13: Lesson = {
           id: "va-u1-collage-mixed-q6", difficulty: "foundation", totalMarks: 2,
           stem: "Assemblage differs from collage in that assemblage is:",
           response: { type: "mcq", choices: [
-            { id: "a", text: "Always made with paint" },
-            { id: "b", text: "A three-dimensional arrangement of found objects" },
-            { id: "c", text: "Limited to paper materials" },
-            { id: "d", text: "Drawn rather than constructed" },
-          ], correctChoiceId: "b" },
+            { id: "a", text: "A three-dimensional arrangement of found objects" },
+            { id: "b", text: "Drawn rather than constructed" },
+            { id: "c", text: "Always made with paint" },
+            { id: "d", text: "Limited to paper materials" },
+          ], correctChoiceId: "a" },
           markscheme: {
             principles: [{ kind: "definition", name: "Assemblage", statement: "Found objects combined into a three-dimensional sculptural composition." }],
             steps: [
@@ -151,10 +151,10 @@ export const lesson13: Lesson = {
           stem: "The choice of adhesive in a collage — glue stick versus gel medium — mainly affects:",
           response: { type: "mcq", choices: [
             { id: "a", text: "The colour of the image" },
-            { id: "b", text: "The surface finish and longevity of the work" },
-            { id: "c", text: "The composition of the image" },
-            { id: "d", text: "The size of the elements" },
-          ], correctChoiceId: "b" },
+            { id: "b", text: "The composition of the image" },
+            { id: "c", text: "The size of the elements" },
+            { id: "d", text: "The surface finish and longevity of the work" },
+          ], correctChoiceId: "d" },
           markscheme: {
             principles: [{ kind: "technique", name: "Adhesives", statement: "Different adherents affect surface sheen, texture and archival longevity." }],
             steps: [
@@ -169,11 +169,11 @@ export const lesson13: Lesson = {
           id: "va-u1-collage-mixed-q8", difficulty: "core", totalMarks: 2,
           stem: "In building a collage, the correct general layering order is:",
           response: { type: "mcq", choices: [
-            { id: "a", text: "Focal elements first, background last" },
-            { id: "b", text: "Background first, focal elements on top" },
+            { id: "a", text: "Background first, focal elements on top" },
+            { id: "b", text: "Random order with no hierarchy" },
             { id: "c", text: "All elements simultaneously" },
-            { id: "d", text: "Random order with no hierarchy" },
-          ], correctChoiceId: "b" },
+            { id: "d", text: "Focal elements first, background last" },
+          ], correctChoiceId: "a" },
           markscheme: {
             principles: [{ kind: "technique", name: "Layering order", statement: "Background layers are placed first so focal elements sit on top." }],
             steps: [
@@ -189,10 +189,10 @@ export const lesson13: Lesson = {
           stem: "Restricting the colour palette in a mixed media work unifies it because it:",
           response: { type: "mcq", choices: [
             { id: "a", text: "Makes every material identical" },
-            { id: "b", text: "Creates shared colour relationships across different materials" },
-            { id: "c", text: "Removes the need for composition" },
-            { id: "d", text: "Reduces the number of elements allowed" },
-          ], correctChoiceId: "b" },
+            { id: "b", text: "Reduces the number of elements allowed" },
+            { id: "c", text: "Creates shared colour relationships across different materials" },
+            { id: "d", text: "Removes the need for composition" },
+          ], correctChoiceId: "c" },
           markscheme: {
             principles: [{ kind: "technique", name: "Palette unification", statement: "Shared colours bind disparate materials into one visual field." }],
             steps: [
@@ -207,11 +207,11 @@ export const lesson13: Lesson = {
           id: "va-u1-collage-mixed-q10", difficulty: "core", totalMarks: 2,
           stem: "Torn paper edges in a collage tend to suggest:",
           response: { type: "mcq", choices: [
-            { id: "a", text: "Precision and control" },
-            { id: "b", text: "Rawness and spontaneity" },
+            { id: "a", text: "Rawness and spontaneity" },
+            { id: "b", text: "Formal symmetry" },
             { id: "c", text: "Mechanical reproduction" },
-            { id: "d", text: "Formal symmetry" },
-          ], correctChoiceId: "b" },
+            { id: "d", text: "Precision and control" },
+          ], correctChoiceId: "a" },
           markscheme: {
             principles: [{ kind: "technique", name: "Cut versus tear", statement: "Torn edges read as raw and spontaneous; cut edges as precise." }],
             steps: [
@@ -357,10 +357,10 @@ export const lesson13: Lesson = {
           id: "va-u1-experimental-process-q1", difficulty: "foundation", totalMarks: 2,
           stem: "Frottage involves:",
           response: { type: "mcq", choices: [
-            { id: "a", text: "Carving a design into wood" },
+            { id: "a", text: "Cutting shapes from paper" },
             { id: "b", text: "Rubbing a surface to transfer its texture" },
-            { id: "c", text: "Pouring paint onto canvas" },
-            { id: "d", text: "Cutting shapes from paper" },
+            { id: "c", text: "Carving a design into wood" },
+            { id: "d", text: "Pouring paint onto canvas" },
           ], correctChoiceId: "b" },
           markscheme: {
             principles: [{ kind: "technique", name: "Frottage", statement: "A rubbing technique that transfers surface texture onto paper." }],
@@ -430,10 +430,10 @@ export const lesson13: Lesson = {
           id: "va-u1-experimental-process-q5", difficulty: "foundation", totalMarks: 2,
           stem: "A monoprint differs from other print techniques in that it produces:",
           response: { type: "mcq", choices: [
-            { id: "a", text: "Identical numbered editions" },
+            { id: "a", text: "Photographic reproductions" },
             { id: "b", text: "Unique one-off impressions" },
             { id: "c", text: "Images carved into wood" },
-            { id: "d", text: "Photographic reproductions" },
+            { id: "d", text: "Identical numbered editions" },
           ], correctChoiceId: "b" },
           markscheme: {
             principles: [{ kind: "technique", name: "Monoprint", statement: "A plate is inked once, so each impression is unique." }],
@@ -449,11 +449,11 @@ export const lesson13: Lesson = {
           id: "va-u1-experimental-process-q6", difficulty: "foundation", totalMarks: 2,
           stem: "Frottage works best on which kinds of surfaces?",
           response: { type: "mcq", choices: [
-            { id: "a", text: "Smooth, flat glass" },
-            { id: "b", text: "Textured surfaces such as bark, leaves or manhole covers" },
+            { id: "a", text: "Textured surfaces such as bark, leaves or manhole covers" },
+            { id: "b", text: "Purely digital textures" },
             { id: "c", text: "Wet, glossy surfaces" },
-            { id: "d", text: "Purely digital textures" },
-          ], correctChoiceId: "b" },
+            { id: "d", text: "Smooth, flat glass" },
+          ], correctChoiceId: "a" },
           markscheme: {
             principles: [{ kind: "technique", name: "Frottage surfaces", statement: "Raised texture transfers through rubbing; flat surfaces yield little." }],
             steps: [
@@ -468,11 +468,11 @@ export const lesson13: Lesson = {
           id: "va-u1-experimental-process-q7", difficulty: "core", totalMarks: 2,
           stem: "In digital painting, layers function most like which traditional technique?",
           response: { type: "mcq", choices: [
-            { id: "a", text: "Underpainting with opaque colour" },
-            { id: "b", text: "Transparent glazing layers" },
+            { id: "a", text: "Transparent glazing layers" },
+            { id: "b", text: "Underpainting with opaque colour" },
             { id: "c", text: "Dry brushing" },
             { id: "d", text: "Impasto" },
-          ], correctChoiceId: "b" },
+          ], correctChoiceId: "a" },
           markscheme: {
             principles: [{ kind: "comparison", name: "Digital layers", statement: "Digital layers stack transparently like successive glazes." }],
             steps: [
@@ -488,10 +488,10 @@ export const lesson13: Lesson = {
           stem: "A hybrid workflow combining analogue and digital processes gains its character from:",
           response: { type: "mcq", choices: [
             { id: "a", text: "Eliminating all physical accident" },
-            { id: "b", text: "Combining physical accident with digital control" },
-            { id: "c", text: "Using only one medium consistently" },
-            { id: "d", text: "Avoiding any printed output" },
-          ], correctChoiceId: "b" },
+            { id: "b", text: "Avoiding any printed output" },
+            { id: "c", text: "Combining physical accident with digital control" },
+            { id: "d", text: "Using only one medium consistently" },
+          ], correctChoiceId: "c" },
           markscheme: {
             principles: [{ kind: "principle", name: "Hybrid workflow", statement: "Analogue accident plus digital control creates layered authorship." }],
             steps: [
@@ -506,11 +506,11 @@ export const lesson13: Lesson = {
           id: "va-u1-experimental-process-q9", difficulty: "challenge", totalMarks: 2,
           stem: "Process-led techniques like frottage and monoprinting appeal to artists mainly because they:",
           response: { type: "mcq", choices: [
-            { id: "a", text: "Are faster than drawing" },
-            { id: "b", text: "Make process itself a creative partner through chance and constraint" },
-            { id: "c", text: "Require no artistic skill" },
+            { id: "a", text: "Make process itself a creative partner through chance and constraint" },
+            { id: "b", text: "Require no artistic skill" },
+            { id: "c", text: "Are faster than drawing" },
             { id: "d", text: "Produce identical results every time" },
-          ], correctChoiceId: "b" },
+          ], correctChoiceId: "a" },
           markscheme: {
             principles: [{ kind: "principle", name: "Process-led art", statement: "Chance and irreversibility generate forms the artist could not plan." }],
             steps: [
@@ -526,10 +526,10 @@ export const lesson13: Lesson = {
           stem: "In monoprinting, the artist can vary each impression by:",
           response: { type: "mcq", choices: [
             { id: "a", text: "Using identical ink layers" },
-            { id: "b", text: "Altering the inked plate between impressions" },
-            { id: "c", text: "Printing at different times of day" },
-            { id: "d", text: "Changing the paper size only" },
-          ], correctChoiceId: "b" },
+            { id: "b", text: "Printing at different times of day" },
+            { id: "c", text: "Changing the paper size only" },
+            { id: "d", text: "Altering the inked plate between impressions" },
+          ], correctChoiceId: "d" },
           markscheme: {
             principles: [{ kind: "technique", name: "Variable monoprint", statement: "The plate can be re-inked or altered between unique impressions." }],
             steps: [

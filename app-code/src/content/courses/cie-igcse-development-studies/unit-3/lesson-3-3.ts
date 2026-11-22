@@ -112,12 +112,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Births per 1000 population per year" },
-              { id: "b", text: "Total births" },
+              { id: "a", text: "Total births" },
+              { id: "b", text: "Births per 1000 population per year" },
               { id: "c", text: "Births per family" },
               { id: "d", text: "Births per woman" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -145,12 +145,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Deaths per 1000 population per year" },
-              { id: "b", text: "Total deaths" },
+              { id: "a", text: "Deaths per year" },
+              { id: "b", text: "Deaths per 1000 population per year" },
               { id: "c", text: "Deaths per family" },
-              { id: "d", text: "Deaths per year" },
+              { id: "d", text: "Total deaths" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -183,8 +183,8 @@ export const lesson33: Lesson = {
                 text: "Average number of children a woman is expected to have",
               },
               { id: "b", text: "Birth rate" },
-              { id: "c", text: "Total births" },
-              { id: "d", text: "Population growth" },
+              { id: "c", text: "Population growth" },
+              { id: "d", text: "Total births" },
             ],
             correctChoiceId: "a",
           },
@@ -215,9 +215,9 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Birth rate minus death rate (+ migration)" },
-              { id: "b", text: "Birth rate plus death rate" },
-              { id: "c", text: "Birth rate only" },
-              { id: "d", text: "Death rate only" },
+              { id: "b", text: "Birth rate only" },
+              { id: "c", text: "Death rate only" },
+              { id: "d", text: "Birth rate plus death rate" },
             ],
             correctChoiceId: "a",
           },
@@ -247,12 +247,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Dependents to working-age population" },
-              { id: "b", text: "Births to deaths" },
-              { id: "c", text: "Population size" },
+              { id: "a", text: "Population size" },
+              { id: "b", text: "Dependents to working-age population" },
+              { id: "c", text: "Births to deaths" },
               { id: "d", text: "Employment rate" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -280,15 +280,15 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "High birth and death rates" },
+              { id: "b", text: "Low birth and death rates" },
+              { id: "c", text: "No population" },
               {
-                id: "a",
+                id: "d",
                 text: "Falling death rates, high birth rates — rapid growth",
               },
-              { id: "b", text: "Low birth and death rates" },
-              { id: "c", text: "High birth and death rates" },
-              { id: "d", text: "No population" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -316,12 +316,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Working-age population exceeds dependents" },
-              { id: "b", text: "Birth rate is high" },
-              { id: "c", text: "Death rate is high" },
+              { id: "a", text: "Death rate is high" },
+              { id: "b", text: "Working-age population exceeds dependents" },
+              { id: "c", text: "Birth rate is high" },
               { id: "d", text: "Population is declining" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -349,12 +349,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Female education" },
-              { id: "b", text: "Poverty" },
+              { id: "a", text: "Poverty" },
+              { id: "b", text: "Female education" },
               { id: "c", text: "Rural living" },
               { id: "d", text: "Early marriage" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -382,12 +382,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Outpacing resources and services" },
-              { id: "b", text: "Increasing GDP" },
-              { id: "c", text: "Improving education" },
-              { id: "d", text: "Reducing poverty" },
+              { id: "a", text: "Increasing GDP" },
+              { id: "b", text: "Reducing poverty" },
+              { id: "c", text: "Outpacing resources and services" },
+              { id: "d", text: "Improving education" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -552,12 +552,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Low birth and death rates" },
+              { id: "a", text: "High death rates" },
               { id: "b", text: "High birth rates" },
               { id: "c", text: "Rapid growth" },
-              { id: "d", text: "High death rates" },
+              { id: "d", text: "Low birth and death rates" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -615,12 +615,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Poverty" },
-              { id: "b", text: "Female education" },
-              { id: "c", text: "Urbanisation" },
-              { id: "d", text: "Access to contraception" },
+              { id: "a", text: "Access to contraception" },
+              { id: "b", text: "Poverty" },
+              { id: "c", text: "Female education" },
+              { id: "d", text: "Urbanisation" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -755,8 +755,8 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Shift from high to low birth/death rates" },
-              { id: "b", text: "Population decline" },
-              { id: "c", text: "Migration" },
+              { id: "b", text: "Migration" },
+              { id: "c", text: "Population decline" },
               { id: "d", text: "Urbanisation" },
             ],
             correctChoiceId: "a",
@@ -896,9 +896,9 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Many dependents per working-age person" },
-              { id: "b", text: "Many workers" },
-              { id: "c", text: "Low population" },
-              { id: "d", text: "High GDP" },
+              { id: "b", text: "Low population" },
+              { id: "c", text: "High GDP" },
+              { id: "d", text: "Many workers" },
             ],
             correctChoiceId: "a",
           },
@@ -996,8 +996,8 @@ export const lesson33: Lesson = {
             choices: [
               { id: "a", text: "Stage 2" },
               { id: "b", text: "Stage 1" },
-              { id: "c", text: "Stage 4" },
-              { id: "d", text: "Stage 3" },
+              { id: "c", text: "Stage 3" },
+              { id: "d", text: "Stage 4" },
             ],
             correctChoiceId: "a",
           },
@@ -1172,15 +1172,15 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "Food exports" },
               {
-                id: "a",
+                id: "b",
                 text: "Reliable access to sufficient, safe, nutritious food",
               },
-              { id: "b", text: "Growing food" },
-              { id: "c", text: "Food exports" },
-              { id: "d", text: "Food prices" },
+              { id: "c", text: "Food prices" },
+              { id: "d", text: "Growing food" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1208,12 +1208,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Farming to feed the farmer's family" },
-              { id: "b", text: "Growing for export" },
-              { id: "c", text: "Large-scale farming" },
-              { id: "d", text: "Commercial farming" },
+              { id: "a", text: "Large-scale farming" },
+              { id: "b", text: "Commercial farming" },
+              { id: "c", text: "Farming to feed the farmer's family" },
+              { id: "d", text: "Growing for export" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1241,12 +1241,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Crops grown for sale rather than consumption" },
-              { id: "b", text: "Subsistence crops" },
-              { id: "c", text: "Free crops" },
-              { id: "d", text: "Food crops" },
+              { id: "a", text: "Food crops" },
+              { id: "b", text: "Free crops" },
+              { id: "c", text: "Subsistence crops" },
+              { id: "d", text: "Crops grown for sale rather than consumption" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1274,12 +1274,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "High-yield seeds and fertilisers" },
-              { id: "b", text: "Organic farming" },
-              { id: "c", text: "Subsistence farming" },
-              { id: "d", text: "Food aid" },
+              { id: "a", text: "Food aid" },
+              { id: "b", text: "High-yield seeds and fertilisers" },
+              { id: "c", text: "Organic farming" },
+              { id: "d", text: "Subsistence farming" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1307,15 +1307,15 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "Food grown locally" },
               {
-                id: "a",
+                id: "b",
                 text: "Food donated by other countries or organisations",
               },
-              { id: "b", text: "Food grown locally" },
               { id: "c", text: "Food imports" },
               { id: "d", text: "Food exports" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1343,12 +1343,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Poverty" },
-              { id: "b", text: "Abundant food" },
+              { id: "a", text: "Abundant food" },
+              { id: "b", text: "Poverty" },
               { id: "c", text: "Good infrastructure" },
               { id: "d", text: "Peace" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1378,8 +1378,8 @@ export const lesson33: Lesson = {
             choices: [
               { id: "a", text: "It produces little surplus" },
               { id: "b", text: "It's very productive" },
-              { id: "c", text: "It uses modern technology" },
-              { id: "d", text: "It's highly mechanised" },
+              { id: "c", text: "It's highly mechanised" },
+              { id: "d", text: "It uses modern technology" },
             ],
             correctChoiceId: "a",
           },
@@ -1409,12 +1409,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Farmers grow crops for sale instead of food" },
+              { id: "a", text: "They improve nutrition" },
               { id: "b", text: "They increase food supply" },
-              { id: "c", text: "They reduce prices" },
-              { id: "d", text: "They improve nutrition" },
+              { id: "c", text: "Farmers grow crops for sale instead of food" },
+              { id: "d", text: "They reduce prices" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1442,12 +1442,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Extreme food shortage causing mass death" },
+              { id: "a", text: "Food exports" },
               { id: "b", text: "Food aid" },
-              { id: "c", text: "High food prices" },
-              { id: "d", text: "Food exports" },
+              { id: "c", text: "Extreme food shortage causing mass death" },
+              { id: "d", text: "High food prices" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1611,12 +1611,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Redistribute land to small farmers" },
+              { id: "a", text: "Increase exports" },
               { id: "b", text: "Increase land prices" },
               { id: "c", text: "Reduce farming" },
-              { id: "d", text: "Increase exports" },
+              { id: "d", text: "Redistribute land to small farmers" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1675,12 +1675,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Large-scale, mechanised, export-oriented" },
-              { id: "b", text: "Subsistence" },
-              { id: "c", text: "Small-scale" },
+              { id: "a", text: "Subsistence" },
+              { id: "b", text: "Small-scale" },
+              { id: "c", text: "Large-scale, mechanised, export-oriented" },
               { id: "d", text: "Family farming" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1820,12 +1820,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Abundant food supply" },
-              { id: "b", text: "Poverty" },
+              { id: "a", text: "Poverty" },
+              { id: "b", text: "Abundant food supply" },
               { id: "c", text: "Conflict" },
               { id: "d", text: "Climate change" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1960,9 +1960,9 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Asia and Latin America" },
-              { id: "b", text: "Europe" },
+              { id: "b", text: "North America" },
               { id: "c", text: "Africa only" },
-              { id: "d", text: "North America" },
+              { id: "d", text: "Europe" },
             ],
             correctChoiceId: "a",
           },
@@ -2057,12 +2057,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Digital farming" },
-              { id: "b", text: "Subsistence farming" },
+              { id: "a", text: "Subsistence farming" },
+              { id: "b", text: "Commercial farming" },
               { id: "c", text: "Cash crop farming" },
-              { id: "d", text: "Commercial farming" },
+              { id: "d", text: "Digital farming" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

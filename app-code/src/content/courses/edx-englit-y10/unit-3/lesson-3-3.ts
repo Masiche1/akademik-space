@@ -56,12 +56,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "That life is insubstantial and has no real substance" },
-              { id: "b", text: "That life is bright and full of energy" },
-              { id: "c", text: "That people follow each other everywhere" },
-              { id: "d", text: "That it is always daytime" },
+              { id: "a", text: "That people follow each other everywhere" },
+              { id: "b", text: "That life is insubstantial and has no real substance" },
+              { id: "c", text: "That it is always daytime" },
+              { id: "d", text: "That life is bright and full of energy" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Metaphor", statement: "A direct comparison transfers qualities from one thing to another." }],
@@ -188,12 +188,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The appearance of Banquo's ghost at the banquet" },
-              { id: "b", text: "The arrival of the English army" },
+              { id: "a", text: "The arrival of the English army" },
+              { id: "b", text: "The Porter's speech" },
               { id: "c", text: "Malcolm's coronation" },
-              { id: "d", text: "The Porter's speech" },
+              { id: "d", text: "The appearance of Banquo's ghost at the banquet" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "skill", name: "Linking", statement: "Choose a moment that develops the same idea." }],

@@ -57,12 +57,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Restriction enzyme" },
-              { id: "b", text: "DNA ligase" },
-              { id: "c", text: "DNA polymerase" },
-              { id: "d", text: "RNA polymerase" },
+              { id: "a", text: "DNA ligase" },
+              { id: "b", text: "RNA polymerase" },
+              { id: "c", text: "Restriction enzyme" },
+              { id: "d", text: "DNA polymerase" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -86,8 +86,8 @@ export const lesson13: Lesson = {
             choices: [
               { id: "a", text: "To make the bacteria resistant to human disease" },
               { id: "b", text: "To identify and select bacteria that have taken up the recombinant plasmid" },
-              { id: "c", text: "To increase the rate of insulin production" },
-              { id: "d", text: "To cut the plasmid DNA into fragments" },
+              { id: "c", text: "To cut the plasmid DNA into fragments" },
+              { id: "d", text: "To increase the rate of insulin production" },
             ],
             correctChoiceId: "b",
           },
@@ -112,12 +112,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The largest fragments" },
-              { id: "b", text: "The smallest fragments" },
-              { id: "c", text: "All fragments move the same distance" },
-              { id: "d", text: "Only positively charged fragments" },
+              { id: "a", text: "All fragments move the same distance" },
+              { id: "b", text: "Only positively charged fragments" },
+              { id: "c", text: "The smallest fragments" },
+              { id: "d", text: "The largest fragments" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -205,7 +205,7 @@ export const lesson13: Lesson = {
           difficulty: "core",
           totalMarks: 1,
           stem: "Which enzyme seals nicks in the sugar-phosphate backbone after a gene is inserted?",
-          response: { type: "mcq", choices: [{ id: "a", text: "DNA ligase" }, { id: "b", text: "Restriction enzyme" }, { id: "c", text: "DNA polymerase" }, { id: "d", text: "Lipase" }], correctChoiceId: "a" },
+          response: { type: "mcq", choices: [ { id: "a", text: "DNA ligase" }, { id: "b", text: "DNA polymerase" }, { id: "c", text: "Restriction enzyme" }, { id: "d", text: "Lipase" } ], correctChoiceId: "a" },
           markscheme: { principles: [{ kind: "definition", name: "DNA ligase", statement: "DNA ligase joins DNA fragments by forming phosphodiester bonds." }], steps: [{ reasoning: "Ligase seals the recombinant plasmid after insertion.", working: "ligase\\text{ seals}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** DNA ligase" },
         },
         {
@@ -233,7 +233,7 @@ export const lesson13: Lesson = {
           difficulty: "challenge",
           totalMarks: 1,
           stem: "Why is a plasmid a useful vector for genetic engineering?",
-          response: { type: "mcq", choices: [{ id: "a", text: "It cannot enter bacterial cells" }, { id: "b", text: "It is a small circular DNA molecule that can carry foreign genes" }, { id: "c", text: "It contains only human DNA" }, { id: "d", text: "It prevents gene expression" }], correctChoiceId: "b" },
+          response: { type: "mcq", choices: [ { id: "a", text: "It is a small circular DNA molecule that can carry foreign genes" }, { id: "b", text: "It prevents gene expression" }, { id: "c", text: "It contains only human DNA" }, { id: "d", text: "It cannot enter bacterial cells" } ], correctChoiceId: "a" },
           markscheme: { principles: [{ kind: "definition", name: "Vector", statement: "A vector carries foreign DNA into a host cell; plasmids are common bacterial vectors." }], steps: [{ reasoning: "Plasmids can be cut, ligated and replicated inside bacteria.", working: "plasmid\\text{ vector}", marks: 1, markCode: "B" }], finalAnswer: "**(b)** It is a small circular DNA molecule that can carry foreign genes" },
         },
         {
@@ -249,7 +249,7 @@ export const lesson13: Lesson = {
           difficulty: "foundation",
           totalMarks: 1,
           stem: "What does gel electrophoresis separate?",
-          response: { type: "mcq", choices: [{ id: "a", text: "Proteins by colour only" }, { id: "b", text: "DNA fragments by size using an electric field" }, { id: "c", text: "Cells by age" }, { id: "d", text: "Lipids by smell" }], correctChoiceId: "b" },
+          response: { type: "mcq", choices: [ { id: "a", text: "Proteins by colour only" }, { id: "b", text: "Lipids by smell" }, { id: "c", text: "Cells by age" }, { id: "d", text: "DNA fragments by size using an electric field" } ], correctChoiceId: "d" },
           markscheme: { principles: [{ kind: "definition", name: "Gel electrophoresis", statement: "An electric field moves negatively charged DNA through a gel, separating fragments by size." }], steps: [{ reasoning: "Smaller fragments travel farther, producing bands.", working: "size\\text{ separation}", marks: 1, markCode: "B" }], finalAnswer: "**(b)** DNA fragments by size using an electric field" },
         },
         {
@@ -257,7 +257,7 @@ export const lesson13: Lesson = {
           difficulty: "core",
           totalMarks: 1,
           stem: "Which feature allows transformed bacteria to be selected on agar containing an antibiotic?",
-          response: { type: "mcq", choices: [{ id: "a", text: "A gene for antibiotic resistance on the plasmid" }, { id: "b", text: "A larger cell wall" }, { id: "c", text: "A flagellum" }, { id: "d", text: "A capsule" }], correctChoiceId: "a" },
+          response: { type: "mcq", choices: [ { id: "a", text: "A flagellum" }, { id: "b", text: "A gene for antibiotic resistance on the plasmid" }, { id: "c", text: "A capsule" }, { id: "d", text: "A larger cell wall" } ], correctChoiceId: "b" },
           markscheme: { principles: [{ kind: "definition", name: "Selectable marker", statement: "Antibiotic-resistance genes on vectors allow selection of transformed cells." }], steps: [{ reasoning: "Only bacteria carrying the resistance gene survive the antibiotic.", working: "marker\\text{ selection}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** A gene for antibiotic resistance on the plasmid" },
         },
         {
@@ -265,7 +265,7 @@ export const lesson13: Lesson = {
           difficulty: "challenge",
           totalMarks: 1,
           stem: "Why is cDNA often used instead of a human gene containing introns for bacterial expression?",
-          response: { type: "mcq", choices: [{ id: "a", text: "cDNA contains introns" }, { id: "b", text: "cDNA is made from spliced mRNA and lacks introns that bacteria cannot remove" }, { id: "c", text: "cDNA cannot be translated" }, { id: "d", text: "cDNA is larger than genomic DNA" }], correctChoiceId: "b" },
+          response: { type: "mcq", choices: [ { id: "a", text: "cDNA is made from spliced mRNA and lacks introns that bacteria cannot remove" }, { id: "b", text: "cDNA contains introns" }, { id: "c", text: "cDNA is larger than genomic DNA" }, { id: "d", text: "cDNA cannot be translated" } ], correctChoiceId: "a" },
           markscheme: { principles: [{ kind: "principle", name: "cDNA", statement: "cDNA is reverse-transcribed from mature mRNA and excludes introns." }], steps: [{ reasoning: "Bacteria lack the splicing machinery needed to remove introns.", working: "no\\text{ introns}", marks: 1, markCode: "B" }], finalAnswer: "**(b)** cDNA is made from spliced mRNA and lacks introns that bacteria cannot remove" },
         },
       ],
@@ -308,9 +308,9 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Gel electrophoresis alone" },
+              { id: "a", text: "Restriction digestion alone" },
               { id: "b", text: "Polymerase chain reaction (PCR)" },
-              { id: "c", text: "Restriction digestion alone" },
+              { id: "c", text: "Gel electrophoresis alone" },
               { id: "d", text: "Translation" },
             ],
             correctChoiceId: "b",
@@ -336,11 +336,11 @@ export const lesson13: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Bacterial insulin is chemically different from human insulin" },
-              { id: "b", text: "It is cheaper, faster to scale up and produces a pure human protein" },
-              { id: "c", text: "It requires no quality control" },
-              { id: "d", text: "It avoids all ethical concerns" },
+              { id: "b", text: "It avoids all ethical concerns" },
+              { id: "c", text: "It is cheaper, faster to scale up and produces a pure human protein" },
+              { id: "d", text: "It requires no quality control" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -363,12 +363,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Benefit: prevents vitamin A deficiency; concern: seed patents may make farmers dependent on companies" },
+              { id: "a", text: "Benefit: removes need for fertiliser; concern: it cannot be eaten" },
               { id: "b", text: "Benefit: increases protein content; concern: it always fails in the field" },
-              { id: "c", text: "Benefit: removes need for fertiliser; concern: it cannot be eaten" },
+              { id: "c", text: "Benefit: prevents vitamin A deficiency; concern: seed patents may make farmers dependent on companies" },
               { id: "d", text: "Benefit: cures malaria; concern: it harms soil permanently" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -456,7 +456,7 @@ export const lesson13: Lesson = {
           difficulty: "core",
           totalMarks: 1,
           stem: "What is the main purpose of DNA fingerprinting?",
-          response: { type: "mcq", choices: [{ id: "a", text: "To sequence every gene in a genome" }, { id: "b", text: "To compare variable DNA band patterns between individuals" }, { id: "c", text: "To produce insulin" }, { id: "d", text: "To stain cells" }], correctChoiceId: "b" },
+          response: { type: "mcq", choices: [ { id: "a", text: "To produce insulin" }, { id: "b", text: "To stain cells" }, { id: "c", text: "To sequence every gene in a genome" }, { id: "d", text: "To compare variable DNA band patterns between individuals" } ], correctChoiceId: "d" },
           markscheme: { principles: [{ kind: "definition", name: "DNA fingerprinting", statement: "PCR and gel electrophoresis produce band patterns used to identify individuals." }], steps: [{ reasoning: "The band pattern is highly variable between people.", working: "band\\text{ pattern}", marks: 1, markCode: "B" }], finalAnswer: "**(b)** To compare variable DNA band patterns between individuals" },
         },
         {
@@ -484,7 +484,7 @@ export const lesson13: Lesson = {
           difficulty: "challenge",
           totalMarks: 1,
           stem: "Which is a possible risk of growing GM crops?",
-          response: { type: "mcq", choices: [{ id: "a", text: "They always increase biodiversity" }, { id: "b", text: "Transgenes may spread to wild relatives or create resistant pests" }, { id: "c", text: "They cannot be labelled" }, { id: "d", text: "They require no regulation" }], correctChoiceId: "b" },
+          response: { type: "mcq", choices: [ { id: "a", text: "They always increase biodiversity" }, { id: "b", text: "They require no regulation" }, { id: "c", text: "They cannot be labelled" }, { id: "d", text: "Transgenes may spread to wild relatives or create resistant pests" } ], correctChoiceId: "d" },
           markscheme: { principles: [{ kind: "principle", name: "GM crop risk", statement: "Gene flow and resistance evolution are recognised environmental risks." }], steps: [{ reasoning: "GM traits can move to wild populations or select for resistant pests.", working: "gene\\text{ flow}", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Transgenes may spread to wild relatives or create resistant pests" },
         },
         {
@@ -508,7 +508,7 @@ export const lesson13: Lesson = {
           difficulty: "core",
           totalMarks: 1,
           stem: "Which ethical concern is most directly linked to GM crops?",
-          response: { type: "mcq", choices: [{ id: "a", text: "Whether all people have equal access to benefits and risks" }, { id: "b", text: "Whether DNA has a colour" }, { id: "c", text: "Whether plants photosynthesise" }, { id: "d", text: "Whether seeds need water" }], correctChoiceId: "a" },
+          response: { type: "mcq", choices: [ { id: "a", text: "Whether all people have equal access to benefits and risks" }, { id: "b", text: "Whether plants photosynthesise" }, { id: "c", text: "Whether seeds need water" }, { id: "d", text: "Whether DNA has a colour" } ], correctChoiceId: "a" },
           markscheme: { principles: [{ kind: "principle", name: "Biotechnology ethics", statement: "GM technology raises issues of equity, safety, labelling and environmental impact." }], steps: [{ reasoning: "Unequal access to benefits is a recognised social/ethical concern.", working: "equity\\text{ concern}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Whether all people have equal access to benefits and risks" },
         },
         {
@@ -516,7 +516,7 @@ export const lesson13: Lesson = {
           difficulty: "challenge",
           totalMarks: 1,
           stem: "How do mRNA vaccines differ from vaccines containing live viruses?",
-          response: { type: "mcq", choices: [{ id: "a", text: "They deliver instructions for cells to make viral antigens without using live virus" }, { id: "b", text: "They insert viral DNA into the human genome" }, { id: "c", text: "They cannot trigger immunity" }, { id: "d", text: "They require antibiotics" }], correctChoiceId: "a" },
+          response: { type: "mcq", choices: [ { id: "a", text: "They cannot trigger immunity" }, { id: "b", text: "They require antibiotics" }, { id: "c", text: "They deliver instructions for cells to make viral antigens without using live virus" }, { id: "d", text: "They insert viral DNA into the human genome" } ], correctChoiceId: "c" },
           markscheme: { principles: [{ kind: "definition", name: "mRNA vaccine", statement: "mRNA vaccines provide temporary instructions for cells to produce an antigen." }], steps: [{ reasoning: "The immune system responds to the antigen without infection by live virus.", working: "mRNA\\to antigen", marks: 1, markCode: "B" }], finalAnswer: "**(a)** They deliver instructions for cells to make viral antigens without using live virus" },
         },
       ],

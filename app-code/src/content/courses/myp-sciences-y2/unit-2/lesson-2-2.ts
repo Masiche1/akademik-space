@@ -59,12 +59,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Trachea" },
-              { id: "b", text: "Bronchi" },
-              { id: "c", text: "Alveoli" },
-              { id: "d", text: "Diaphragm" },
+              { id: "a", text: "Diaphragm" },
+              { id: "b", text: "Trachea" },
+              { id: "c", text: "Bronchi" },
+              { id: "d", text: "Alveoli" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -160,12 +160,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Alveoli" },
-              { id: "b", text: "Bronchi" },
+              { id: "a", text: "Capillaries" },
+              { id: "b", text: "Alveoli" },
               { id: "c", text: "Bronchioles" },
-              { id: "d", text: "Capillaries" },
+              { id: "d", text: "Bronchi" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -188,11 +188,11 @@ export const lesson22: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Carbon dioxide" },
-              { id: "b", text: "Oxygen" },
-              { id: "c", text: "Nitrogen" },
+              { id: "b", text: "Nitrogen" },
+              { id: "c", text: "Oxygen" },
               { id: "d", text: "Carbon monoxide" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -214,12 +214,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "To make the alveolus stronger" },
-              { id: "b", text: "To give a short diffusion distance for gases" },
+              { id: "a", text: "To store oxygen" },
+              { id: "b", text: "To make the alveolus stronger" },
               { id: "c", text: "To trap dust particles" },
-              { id: "d", text: "To store oxygen" },
+              { id: "d", text: "To give a short diffusion distance for gases" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -375,12 +375,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Nicotine" },
-              { id: "b", text: "Tar" },
-              { id: "c", text: "Carbon monoxide" },
+              { id: "a", text: "Carbon monoxide" },
+              { id: "b", text: "Nicotine" },
+              { id: "c", text: "Tar" },
               { id: "d", text: "Oxygen" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -402,12 +402,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It is useless because smokers can still smoke at home" },
-              { id: "b", text: "It protects non-smokers from passive smoking and may encourage smokers to quit, though it limits personal freedom" },
-              { id: "c", text: "It cures lung cancer immediately" },
-              { id: "d", text: "It only helps children, not adults" },
+              { id: "a", text: "It protects non-smokers from passive smoking and may encourage smokers to quit, though it limits personal freedom" },
+              { id: "b", text: "It is useless because smokers can still smoke at home" },
+              { id: "c", text: "It only helps children, not adults" },
+              { id: "d", text: "It cures lung cancer immediately" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -493,12 +493,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Vein" },
-              { id: "b", text: "Capillary" },
-              { id: "c", text: "Artery" },
-              { id: "d", text: "Atrium" },
+              { id: "a", text: "Atrium" },
+              { id: "b", text: "Artery" },
+              { id: "c", text: "Vein" },
+              { id: "d", text: "Capillary" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -598,10 +598,10 @@ export const lesson22: Lesson = {
             choices: [
               { id: "a", text: "White blood cells" },
               { id: "b", text: "Platelets" },
-              { id: "c", text: "Plasma" },
-              { id: "d", text: "Red blood cells" },
+              { id: "c", text: "Red blood cells" },
+              { id: "d", text: "Plasma" },
             ],
-            correctChoiceId: "d",
+            correctChoiceIc: "d",
           },
           markscheme: {
             principles: [
@@ -623,9 +623,9 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Artery" },
+              { id: "a", text: "Capillary" },
               { id: "b", text: "Vein" },
-              { id: "c", text: "Capillary" },
+              { id: "c", text: "Artery" },
               { id: "d", text: "Ventricle" },
             ],
             correctChoiceId: "b",
@@ -651,11 +651,11 @@ export const lesson22: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "To the rest of the body" },
-              { id: "b", text: "To the lungs" },
+              { id: "b", text: "Back to the heart" },
               { id: "c", text: "To the brain only" },
-              { id: "d", text: "Back to the heart" },
+              { id: "d", text: "To the lungs" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -816,8 +816,8 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Carry oxygen" },
-              { id: "b", text: "Fight pathogens" },
+              { id: "a", text: "Fight pathogens" },
+              { id: "b", text: "Carry oxygen" },
               { id: "c", text: "Help blood to clot" },
               { id: "d", text: "Carry hormones" },
             ],
@@ -845,10 +845,10 @@ export const lesson22: Lesson = {
             choices: [
               { id: "a", text: "Only oxygen" },
               { id: "b", text: "Only red blood cells" },
-              { id: "c", text: "Dissolved glucose, carbon dioxide, hormones and waste" },
-              { id: "d", text: "Only platelets" },
+              { id: "c", text: "Only platelets" },
+              { id: "d", text: "Dissolved glucose, carbon dioxide, hormones and waste" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [

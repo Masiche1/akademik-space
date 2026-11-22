@@ -75,12 +75,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "To foreshadow Caesar's death and show that he ignores warnings" },
-              { id: "b", text: "To make the audience laugh" },
-              { id: "c", text: "To explain how Rome became a republic" },
-              { id: "d", text: "To show Cassius's loyalty to Caesar" },
+              { id: "a", text: "To explain how Rome became a republic" },
+              { id: "b", text: "To foreshadow Caesar's death and show that he ignores warnings" },
+              { id: "c", text: "To show Cassius's loyalty to Caesar" },
+              { id: "d", text: "To make the audience laugh" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Foreshadowing", statement: "Early hints about later events create tension." }],
@@ -204,12 +204,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The divine right of kings" },
+              { id: "a", text: "That omens were always false" },
               { id: "b", text: "That all rulers should be elected every year" },
               { id: "c", text: "That Rome never had a senate" },
-              { id: "d", text: "That omens were always false" },
+              { id: "d", text: "The divine right of kings" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "context", name: "Divine right", statement: "Rulers were seen as appointed by God." }],

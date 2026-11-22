@@ -53,12 +53,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Ending the slave trade" },
-              { id: "b", text: "Partitioning Africa among European powers" },
-              { id: "c", text: "Founding the League of Nations" },
-              { id: "d", text: "Abolishing colonialism" },
+              { id: "a", text: "Abolishing colonialism" },
+              { id: "b", text: "Founding the League of Nations" },
+              { id: "c", text: "Partitioning Africa among European powers" },
+              { id: "d", text: "Ending the slave trade" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -152,12 +152,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Egypt and Morocco" },
-              { id: "b", text: "Liberia and Ethiopia" },
-              { id: "c", text: "Nigeria and Kenya" },
-              { id: "d", text: "South Africa and Algeria" },
+              { id: "a", text: "Nigeria and Kenya" },
+              { id: "b", text: "South Africa and Algeria" },
+              { id: "c", text: "Egypt and Morocco" },
+              { id: "d", text: "Liberia and Ethiopia" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -180,12 +180,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The East India Company" },
-              { id: "b", text: "The Raj" },
-              { id: "c", text: "The Mughal Empire" },
-              { id: "d", text: "The British Commonwealth" },
+              { id: "a", text: "The Mughal Empire" },
+              { id: "b", text: "The British Commonwealth" },
+              { id: "c", text: "The East India Company" },
+              { id: "d", text: "The Raj" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -209,11 +209,11 @@ export const lesson13: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Free trade between nations" },
-              { id: "b", text: "Claimed European racial and civilisational superiority over colonised peoples" },
-              { id: "c", text: "The abolition of slavery" },
-              { id: "d", text: "International arbitration" },
+              { id: "b", text: "International arbitration" },
+              { id: "c", text: "Claimed European racial and civilisational superiority over colonised peoples" },
+              { id: "d", text: "The abolition of slavery" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -236,12 +236,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Ended the Russo-Japanese War with Russian victory" },
-              { id: "b", text: "Was the first time an Asian power defeated a European great power, challenging assumptions of white dominance" },
-              { id: "c", text: "Led to Japan joining the League of Nations" },
-              { id: "d", text: "Paved the way for European partition of Japan" },
+              { id: "a", text: "Was the first time an Asian power defeated a European great power, challenging assumptions of white dominance" },
+              { id: "b", text: "Led to Japan joining the League of Nations" },
+              { id: "c", text: "Paved the way for European partition of Japan" },
+              { id: "d", text: "Ended the Russo-Japanese War with Russian victory" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -265,11 +265,11 @@ export const lesson13: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "A single European conference decided all borders at once" },
-              { id: "b", text: "The combination of industrial demand for resources, nationalist rivalry and superior technology" },
-              { id: "c", text: "African kingdoms voluntarily ceded their territories" },
-              { id: "d", text: "Religious missions requested colonial annexation" },
+              { id: "b", text: "Religious missions requested colonial annexation" },
+              { id: "c", text: "The combination of industrial demand for resources, nationalist rivalry and superior technology" },
+              { id: "d", text: "African kingdoms voluntarily ceded their territories" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -476,12 +476,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Rapid mobile warfare" },
-              { id: "b", text: "Static stalemate with huge casualties" },
-              { id: "c", text: "Naval blockade" },
-              { id: "d", text: "Guerrilla warfare" },
+              { id: "a", text: "Guerrilla warfare" },
+              { id: "b", text: "Rapid mobile warfare" },
+              { id: "c", text: "Static stalemate with huge casualties" },
+              { id: "d", text: "Naval blockade" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -577,8 +577,8 @@ export const lesson13: Lesson = {
             choices: [
               { id: "a", text: "Decisive victories that ended the war" },
               { id: "b", text: "Massive casualties for minimal territorial gain" },
-              { id: "c", text: "The introduction of tanks" },
-              { id: "d", text: "Naval engagements in the Atlantic" },
+              { id: "c", text: "Naval engagements in the Atlantic" },
+              { id: "d", text: "The introduction of tanks" },
             ],
             correctChoiceId: "b",
           },
@@ -604,11 +604,11 @@ export const lesson13: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "A naval blockade of Britain" },
-              { id: "b", text: "A rapid German attack on France through Belgium to avoid a two-front war" },
-              { id: "c", text: "Trench warfare on the Eastern Front" },
-              { id: "d", text: "Alliances with Italy and the Ottomans" },
+              { id: "b", text: "Alliances with Italy and the Ottomans" },
+              { id: "c", text: "A rapid German attack on France through Belgium to avoid a two-front war" },
+              { id: "d", text: "Trench warfare on the Eastern Front" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -631,12 +631,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "28 June 1914" },
-              { id: "b", text: "11 November 1918" },
+              { id: "a", text: "11 November 1919" },
+              { id: "b", text: "28 June 1914" },
               { id: "c", text: "28 June 1919" },
-              { id: "d", text: "11 November 1919" },
+              { id: "d", text: "11 November 1918" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -660,11 +660,11 @@ export const lesson13: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "The League of Nations covenant" },
-              { id: "b", text: "The 'war guilt' clause assigning sole responsibility for the war to Germany" },
-              { id: "c", text: "The disarmament provision" },
-              { id: "d", text: "The clause creating Poland" },
+              { id: "b", text: "The disarmament provision" },
+              { id: "c", text: "The clause creating Poland" },
+              { id: "d", text: "The 'war guilt' clause assigning sole responsibility for the war to Germany" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -687,12 +687,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A direct German attack on American territory" },
-              { id: "b", text: "Unrestricted submarine warfare, the Zimmerman Telegram and economic ties to the Allies" },
+              { id: "a", text: "Unrestricted submarine warfare, the Zimmerman Telegram and economic ties to the Allies" },
+              { id: "b", text: "The assassination of an American diplomat" },
               { id: "c", text: "A formal alliance obligation to Britain" },
-              { id: "d", text: "The assassination of an American diplomat" },
+              { id: "d", text: "A direct German attack on American territory" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

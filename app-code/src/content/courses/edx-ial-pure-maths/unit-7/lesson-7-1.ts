@@ -51,12 +51,12 @@ export const lesson71: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\begin{pmatrix}4&0\\\\0&9\\end{pmatrix}$" },
+              { id: "a", text: "$\\begin{pmatrix}6&0\\\\0&6\\end{pmatrix}$" },
               { id: "b", text: "$\\begin{pmatrix}4&0\\\\0&6\\end{pmatrix}$" },
               { id: "c", text: "$\\begin{pmatrix}2&0\\\\0&3\\end{pmatrix}$" },
-              { id: "d", text: "$\\begin{pmatrix}6&0\\\\0&6\\end{pmatrix}$" },
+              { id: "d", text: "$\\begin{pmatrix}4&0\\\\0&9\\end{pmatrix}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Matrix product", statement: "Diagonal matrices multiply entrywise." }],
@@ -169,12 +169,12 @@ export const lesson71: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "An eigenvector of $A$" },
-              { id: "b", text: "A characteristic vector" },
+              { id: "a", text: "A characteristic vector" },
+              { id: "b", text: "An eigenvector of $A$" },
               { id: "c", text: "A singular vector" },
               { id: "d", text: "A basis vector" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Eigenvector", statement: "$A\\mathbf{v}=\\lambda\\mathbf{v}$ defines eigenvector." }],

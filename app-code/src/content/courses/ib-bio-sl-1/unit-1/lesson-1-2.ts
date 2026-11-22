@@ -54,12 +54,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "From low to high concentration" },
-              { id: "b", text: "From high to low concentration" },
-              { id: "c", text: "In both directions equally" },
-              { id: "d", text: "Against the concentration gradient" },
+              { id: "a", text: "Against the concentration gradient" },
+              { id: "b", text: "In both directions equally" },
+              { id: "c", text: "From high to low concentration" },
+              { id: "d", text: "From low to high concentration" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Diffusion", statement: "Diffusion is the net movement of particles down a concentration gradient, from high to low concentration." }],
@@ -80,12 +80,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It loses water and shrinks" },
-              { id: "b", text: "It gains water and may burst" },
-              { id: "c", text: "Nothing — there is no net water movement" },
-              { id: "d", text: "It becomes plasmolysed" },
+              { id: "a", text: "It becomes plasmolysed" },
+              { id: "b", text: "Nothing — there is no net water movement" },
+              { id: "c", text: "It loses water and shrinks" },
+              { id: "d", text: "It gains water and may burst" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Osmosis in hypotonic solution", statement: "In a hypotonic solution the external water potential is higher, so water enters the cell; animal cells without walls may burst (lysis)." }],
@@ -106,12 +106,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It moves by facilitated diffusion through carrier proteins, down its concentration gradient" },
-              { id: "b", text: "It moves by active transport against its concentration gradient, using ATP" },
+              { id: "a", text: "It moves by active transport against its concentration gradient, using ATP" },
+              { id: "b", text: "It moves by facilitated diffusion through carrier proteins, down its concentration gradient" },
               { id: "c", text: "It diffuses directly through the hydrophobic core of the bilayer" },
               { id: "d", text: "It moves by osmosis because it is a solvent" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Facilitated diffusion", statement: "Polar/charged molecules cross membranes through channel or carrier proteins down their concentration gradient without ATP." }],
@@ -165,12 +165,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Movement of solute down its concentration gradient" },
-              { id: "b", text: "Net movement of water across a partially permeable membrane down a water potential gradient" },
-              { id: "c", text: "Movement of ions against their concentration gradient using ATP" },
-              { id: "d", text: "Diffusion of oxygen through the phospholipid bilayer" },
+              { id: "a", text: "Movement of ions against their concentration gradient using ATP" },
+              { id: "b", text: "Diffusion of oxygen through the phospholipid bilayer" },
+              { id: "c", text: "Net movement of water across a partially permeable membrane down a water potential gradient" },
+              { id: "d", text: "Movement of solute down its concentration gradient" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Osmosis", statement: "Osmosis is the net movement of water across a partially permeable membrane from higher to lower water potential." }],
@@ -232,12 +232,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It requires ATP because it moves molecules against a gradient" },
-              { id: "b", text: "It moves polar molecules through membrane proteins down a concentration gradient" },
-              { id: "c", text: "It only occurs for water molecules" },
+              { id: "a", text: "It moves polar molecules through membrane proteins down a concentration gradient" },
+              { id: "b", text: "It only occurs for water molecules" },
+              { id: "c", text: "It requires ATP because it moves molecules against a gradient" },
               { id: "d", text: "It occurs without any membrane proteins" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Facilitated diffusion", statement: "Facilitated diffusion uses channel or carrier proteins to move polar or charged molecules down a concentration gradient without ATP." }],
@@ -370,12 +370,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It becomes turgid and bursts" },
-              { id: "b", text: "It loses water and the plasma membrane pulls away from the cell wall" },
-              { id: "c", text: "Nothing, because the cell wall prevents water movement" },
-              { id: "d", text: "It gains water until the vacuole fills" },
+              { id: "a", text: "It loses water and the plasma membrane pulls away from the cell wall" },
+              { id: "b", text: "It becomes turgid and bursts" },
+              { id: "c", text: "It gains water until the vacuole fills" },
+              { id: "d", text: "Nothing, because the cell wall prevents water movement" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Plasmolysis", statement: "In a hypertonic solution water leaves a plant cell and the plasma membrane retracts from the cell wall." }],
@@ -483,12 +483,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A concentration gradient" },
-              { id: "b", text: "Energy from ATP" },
-              { id: "c", text: "A partially permeable membrane" },
-              { id: "d", text: "A phospholipid bilayer" },
+              { id: "a", text: "A partially permeable membrane" },
+              { id: "b", text: "A phospholipid bilayer" },
+              { id: "c", text: "Energy from ATP" },
+              { id: "d", text: "A concentration gradient" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Active transport", statement: "Active transport moves molecules against their concentration gradient and requires energy from ATP." }],
@@ -509,12 +509,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Channel proteins change shape to carry molecules; carrier proteins form fixed pores" },
-              { id: "b", text: "Channel proteins form pores specific for a molecule; carrier proteins bind and change shape" },
-              { id: "c", text: "Channel proteins are found only on the outside of the membrane; carrier proteins only inside" },
+              { id: "a", text: "Channel proteins form pores specific for a molecule; carrier proteins bind and change shape" },
+              { id: "b", text: "Channel proteins are found only on the outside of the membrane; carrier proteins only inside" },
+              { id: "c", text: "Channel proteins change shape to carry molecules; carrier proteins form fixed pores" },
               { id: "d", text: "Channel proteins require ATP; carrier proteins do not" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Membrane proteins", statement: "Channel proteins form pores; carrier proteins bind a specific molecule and change shape to transport it." }],
@@ -537,8 +537,8 @@ export const lesson12: Lesson = {
             choices: [
               { id: "a", text: "To store water for the plant" },
               { id: "b", text: "To release energy for active transport of mineral ions" },
-              { id: "c", text: "To carry out photosynthesis in the roots" },
-              { id: "d", text: "To produce glucose from soil minerals" },
+              { id: "c", text: "To produce glucose from soil minerals" },
+              { id: "d", text: "To carry out photosynthesis in the roots" },
             ],
             correctChoiceId: "b",
           },
@@ -594,12 +594,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The hydrophobic fatty acid tails" },
-              { id: "b", text: "The hydrophilic phosphate heads" },
+              { id: "a", text: "The hydrophilic phosphate heads" },
+              { id: "b", text: "The hydrophobic fatty acid tails" },
               { id: "c", text: "The cholesterol molecules" },
               { id: "d", text: "The glycoprotein receptors" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Phospholipid", statement: "Phospholipids are amphipathic: hydrophilic phosphate heads face water while hydrophobic tails face inwards." }],
@@ -661,12 +661,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It prevents all movement of membrane proteins" },
-              { id: "b", text: "It helps maintain membrane fluidity at different temperatures" },
-              { id: "c", text: "It is the main source of ATP for active transport" },
-              { id: "d", text: "It forms channels for facilitated diffusion" },
+              { id: "a", text: "It helps maintain membrane fluidity at different temperatures" },
+              { id: "b", text: "It prevents all movement of membrane proteins" },
+              { id: "c", text: "It forms channels for facilitated diffusion" },
+              { id: "d", text: "It is the main source of ATP for active transport" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Cholesterol", statement: "Cholesterol is a steroid embedded in the membrane that helps regulate fluidity." }],
@@ -810,11 +810,11 @@ export const lesson12: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Oxygen diffusing into a leaf cell" },
-              { id: "b", text: "Glucose moving into a cell through a carrier protein down its gradient" },
-              { id: "c", text: "Nitrate ions being absorbed by root hair cells against their gradient" },
-              { id: "d", text: "Water moving by osmosis into a plant cell" },
+              { id: "b", text: "Water moving by osmosis into a plant cell" },
+              { id: "c", text: "Glucose moving into a cell through a carrier protein down its gradient" },
+              { id: "d", text: "Nitrate ions being absorbed by root hair cells against their gradient" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Active transport", statement: "Active transport moves substances against their concentration gradient and requires ATP." }],

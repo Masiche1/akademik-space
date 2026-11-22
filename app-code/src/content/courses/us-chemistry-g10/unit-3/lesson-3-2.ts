@@ -49,12 +49,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$6.02 \\times 10^{-23}$" },
-              { id: "b", text: "$6.02 \\times 10^{23}$" },
-              { id: "c", text: "$6.02 \\times 10^{32}$" },
-              { id: "d", text: "$1.66 \\times 10^{24}$" },
+              { id: "a", text: "$6.02 \\times 10^{23}$" },
+              { id: "b", text: "$6.02 \\times 10^{32}$" },
+              { id: "c", text: "$1.66 \\times 10^{24}$" },
+              { id: "d", text: "$6.02 \\times 10^{-23}$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -183,12 +183,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The actual number of atoms in one molecule" },
-              { id: "b", text: "The simplest whole-number ratio of atoms of each element" },
-              { id: "c", text: "The mass of one mole of the compound" },
-              { id: "d", text: "The percent of each element by volume" },
+              { id: "a", text: "The mass of one mole of the compound" },
+              { id: "b", text: "The actual number of atoms in one molecule" },
+              { id: "c", text: "The percent of each element by volume" },
+              { id: "d", text: "The simplest whole-number ratio of atoms of each element" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

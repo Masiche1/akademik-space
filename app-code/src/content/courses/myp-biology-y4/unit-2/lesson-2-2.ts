@@ -58,9 +58,9 @@ export const lesson22: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Alveoli" },
-              { id: "b", text: "Trachea" },
-              { id: "c", text: "Bronchi" },
-              { id: "d", text: "Larynx" },
+              { id: "b", text: "Larynx" },
+              { id: "c", text: "Trachea" },
+              { id: "d", text: "Bronchi" },
             ],
             correctChoiceId: "a",
           },
@@ -84,12 +84,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It contracts and flattens, increasing thoracic volume" },
-              { id: "b", text: "It relaxes and domes upward" },
+              { id: "a", text: "It expands outward" },
+              { id: "b", text: "It contracts and flattens, increasing thoracic volume" },
               { id: "c", text: "It stays unchanged" },
-              { id: "d", text: "It expands outward" },
+              { id: "d", text: "It relaxes and domes upward" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -112,12 +112,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Thin walls, huge surface area from millions of alveoli, dense capillary network, moist lining" },
-              { id: "b", text: "Thick walls protect them" },
-              { id: "c", text: "They contain cilia to move air" },
+              { id: "a", text: "They contain cilia to move air" },
+              { id: "b", text: "Thin walls, huge surface area from millions of alveoli, dense capillary network, moist lining" },
+              { id: "c", text: "Thick walls protect them" },
               { id: "d", text: "They store oxygen" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -172,12 +172,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Diaphragm" },
-              { id: "b", text: "Heart" },
-              { id: "c", text: "Trachea" },
+              { id: "a", text: "Heart" },
+              { id: "b", text: "Trachea" },
+              { id: "c", text: "Diaphragm" },
               { id: "d", text: "Bronchioles" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -199,12 +199,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It reduces surface tension inside alveoli, preventing collapse" },
+              { id: "a", text: "It carries oxygen in blood" },
               { id: "b", text: "It digests mucus" },
-              { id: "c", text: "It carries oxygen in blood" },
+              { id: "c", text: "It reduces surface tension inside alveoli, preventing collapse" },
               { id: "d", text: "It stimulates breathing" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -227,12 +227,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "O₂ concentration is higher in alveolar air than blood; CO₂ concentration is higher in blood than alveolar air — both move down gradients" },
-              { id: "b", text: "Active transport pumps O₂ in and CO₂ out" },
-              { id: "c", text: "O₂ is lighter so rises into blood" },
-              { id: "d", text: "CO₂ dissolves in water preferentially" },
+              { id: "a", text: "O₂ is lighter so rises into blood" },
+              { id: "b", text: "CO₂ dissolves in water preferentially" },
+              { id: "c", text: "Active transport pumps O₂ in and CO₂ out" },
+              { id: "d", text: "O₂ concentration is higher in alveolar air than blood; CO₂ concentration is higher in blood than alveolar air — both move down gradients" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -465,12 +465,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Thin walls give short diffusion distance; millions of alveoli give huge surface area; capillary blood flow maintains the concentration gradient" },
-              { id: "b", text: "Thick walls protect delicate tissue" },
+              { id: "a", text: "Cilia sweep gases into blood" },
+              { id: "b", text: "Thin walls give short diffusion distance; millions of alveoli give huge surface area; capillary blood flow maintains the concentration gradient" },
               { id: "c", text: "Alveoli store oxygen for later use" },
-              { id: "d", text: "Cilia sweep gases into blood" },
+              { id: "d", text: "Thick walls protect delicate tissue" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -526,12 +526,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The gap between two neurones where neurotransmitters are released" },
-              { id: "b", text: "The cell body of a neurone" },
-              { id: "c", text: "The protective sheath around an axon" },
-              { id: "d", text: "The junction between muscle fibres" },
+              { id: "a", text: "The cell body of a neurone" },
+              { id: "b", text: "The junction between muscle fibres" },
+              { id: "c", text: "The gap between two neurones where neurotransmitters are released" },
+              { id: "d", text: "The protective sheath around an axon" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -553,12 +553,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Speeds up nerve impulse transmission by saltatory conduction" },
-              { id: "b", text: "Provides nutrients to neurones" },
-              { id: "c", text: "Protects neurones from damage" },
+              { id: "a", text: "Provides nutrients to neurones" },
+              { id: "b", text: "Protects neurones from damage" },
+              { id: "c", text: "Speeds up nerve impulse transmission by saltatory conduction" },
               { id: "d", text: "Stores neurotransmitters" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -581,12 +581,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Receptor → sensory neurone → relay neurone (spinal cord) → motor neurone → muscle effector" },
-              { id: "b", text: "Receptor → brain → motor neurone → effector" },
-              { id: "c", text: "Sensory neurone → brain → sensory neurone → effector" },
+              { id: "a", text: "Receptor → brain → motor neurone → effector" },
+              { id: "b", text: "Sensory neurone → brain → sensory neurone → effector" },
+              { id: "c", text: "Receptor → sensory neurone → relay neurone (spinal cord) → motor neurone → muscle effector" },
               { id: "d", text: "Receptor → motor neurone → spinal cord → effector" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -641,12 +641,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Motor neurone" },
-              { id: "b", text: "Sensory neurone" },
-              { id: "c", text: "Relay neurone" },
-              { id: "d", text: "Effector cell" },
+              { id: "a", text: "Relay neurone" },
+              { id: "b", text: "Effector cell" },
+              { id: "c", text: "Motor neurone" },
+              { id: "d", text: "Sensory neurone" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -668,12 +668,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Synapse" },
-              { id: "b", text: "Axon" },
+              { id: "a", text: "Axon" },
+              { id: "b", text: "Synapse" },
               { id: "c", text: "Dendrite" },
               { id: "d", text: "Myelin sheath" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -696,12 +696,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The reflex arc uses only the spinal cord relay, bypassing the brain" },
-              { id: "b", text: "Reflexes use more neurones" },
-              { id: "c", text: "The brain is slower than the spinal cord" },
-              { id: "d", text: "Reflexes don't involve neurones" },
+              { id: "a", text: "Reflexes use more neurones" },
+              { id: "b", text: "Reflexes don't involve neurones" },
+              { id: "c", text: "The reflex arc uses only the spinal cord relay, bypassing the brain" },
+              { id: "d", text: "The brain is slower than the spinal cord" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -936,9 +936,9 @@ export const lesson22: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Impulse transmission would slow dramatically — saltatory conduction lost" },
-              { id: "b", text: "Nothing — myelin only insulates against cold" },
-              { id: "c", text: "Impulses would travel faster" },
-              { id: "d", text: "Neurotransmitters would increase" },
+              { id: "b", text: "Impulses would travel faster" },
+              { id: "c", text: "Neurotransmitters would increase" },
+              { id: "d", text: "Nothing — myelin only insulates against cold" },
             ],
             correctChoiceId: "a",
           },

@@ -53,12 +53,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A fantasy novel about dragons" },
-              { id: "b", text: "A newspaper report about a local event" },
-              { id: "c", text: "A poem about love" },
+              { id: "a", text: "A poem about love" },
+              { id: "b", text: "A fantasy novel about dragons" },
+              { id: "c", text: "A newspaper report about a local event" },
               { id: "d", text: "A play about a family" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -148,12 +148,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A biography of a famous scientist" },
-              { id: "b", text: "A short story about a dragon who learns to fly" },
-              { id: "c", text: "A news report on school exam results" },
+              { id: "a", text: "A short story about a dragon who learns to fly" },
+              { id: "b", text: "A news report on school exam results" },
+              { id: "c", text: "A biography of a famous scientist" },
               { id: "d", text: "A set of instructions for baking bread" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -173,9 +173,9 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A play about two sisters" },
+              { id: "a", text: "A fantasy novel about a hidden world" },
               { id: "b", text: "A poem about autumn leaves" },
-              { id: "c", text: "A fantasy novel about a hidden world" },
+              { id: "c", text: "A play about two sisters" },
               { id: "d", text: "A history textbook chapter on the Roman Empire" },
             ],
             correctChoiceId: "d",
@@ -203,12 +203,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Text A" },
-              { id: "b", text: "Text B" },
+              { id: "a", text: "Neither text" },
+              { id: "b", text: "Text A" },
               { id: "c", text: "Both texts" },
-              { id: "d", text: "Neither text" },
+              { id: "d", text: "Text B" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -228,12 +228,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The novel is non-fiction because it uses real events; the memoir is fiction because it has a narrator" },
-              { id: "b", text: "The novel is fiction — its characters and scenes are invented; the memoir is non-fiction — it documents the survivor's real experience" },
-              { id: "c", text: "Both are fiction because they are about the past" },
-              { id: "d", text: "Both are non-fiction because they use real events" },
+              { id: "a", text: "The novel is fiction — its characters and scenes are invented; the memoir is non-fiction — it documents the survivor's real experience" },
+              { id: "b", text: "Both are fiction because they are about the past" },
+              { id: "c", text: "Both are non-fiction because they use real events" },
+              { id: "d", text: "The novel is non-fiction because it uses real events; the memoir is fiction because it has a narrator" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -328,11 +328,11 @@ export const lesson11: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "It uses a character's name" },
-              { id: "b", text: "It cites a source and gives dates" },
-              { id: "c", text: "It describes a character's feelings" },
-              { id: "d", text: "It ends with a made-up surprise" },
+              { id: "b", text: "It describes a character's feelings" },
+              { id: "c", text: "It ends with a made-up surprise" },
+              { id: "d", text: "It cites a source and gives dates" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -384,12 +384,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A fantasy novel" },
+              { id: "a", text: "A memoir written with vivid imagery and careful craft" },
               { id: "b", text: "A newspaper report" },
-              { id: "c", text: "A memoir written with vivid imagery and careful craft" },
+              { id: "c", text: "A fantasy novel" },
               { id: "d", text: "A comic book" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -409,12 +409,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A novel inspired by a flood" },
-              { id: "b", text: "A podcast interview with a flood survivor" },
+              { id: "a", text: "A podcast interview with a flood survivor" },
+              { id: "b", text: "A novel inspired by a flood" },
               { id: "c", text: "A fictional story about a flood" },
               { id: "d", text: "A comic book about a flood" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -494,12 +494,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A made-up character's thoughts" },
-              { id: "b", text: "A headline and factual reporting" },
-              { id: "c", text: "Rhyme and rhythm" },
-              { id: "d", text: "A made-up ending" },
+              { id: "a", text: "A made-up ending" },
+              { id: "b", text: "Rhyme and rhythm" },
+              { id: "c", text: "A headline and factual reporting" },
+              { id: "d", text: "A made-up character's thoughts" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -594,10 +594,10 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A made-up plot twist" },
+              { id: "a", text: "An imaginary character" },
               { id: "b", text: "Repetition used for persuasive emphasis" },
               { id: "c", text: "A rhyming couplet" },
-              { id: "d", text: "An imaginary character" },
+              { id: "d", text: "A made-up plot twist" },
             ],
             correctChoiceId: "b",
           },
@@ -620,11 +620,11 @@ export const lesson11: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Invented dialogue between characters" },
-              { id: "b", text: "Subheadings, quotations and attributed facts" },
-              { id: "c", text: "A surprise ending" },
-              { id: "d", text: "Rhyme scheme" },
+              { id: "b", text: "Rhyme scheme" },
+              { id: "c", text: "Subheadings, quotations and attributed facts" },
+              { id: "d", text: "A surprise ending" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -650,9 +650,9 @@ export const lesson11: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Text A — it uses imagery ('streets still smelling of rain') to create a mood" },
-              { id: "b", text: "Text B — it gives more facts" },
-              { id: "c", text: "Both are equally literary" },
-              { id: "d", text: "Neither is literary" },
+              { id: "b", text: "Neither is literary" },
+              { id: "c", text: "Text B — it gives more facts" },
+              { id: "d", text: "Both are equally literary" },
             ],
             correctChoiceId: "a",
           },
@@ -679,12 +679,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Simile and alliteration" },
-              { id: "b", text: "Rhetorical question ('Tired of slow mornings?') and metaphor/hyperbole ('rocket fuel', 'unstoppable')" },
+              { id: "a", text: "Rhetorical question ('Tired of slow mornings?') and metaphor/hyperbole ('rocket fuel', 'unstoppable')" },
+              { id: "b", text: "Footnotes and a bibliography" },
               { id: "c", text: "A cast list and stage directions" },
-              { id: "d", text: "Footnotes and a bibliography" },
+              { id: "d", text: "Simile and alliteration" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -785,8 +785,8 @@ export const lesson11: Lesson = {
             choices: [
               { id: "a", text: "It is written in capital letters" },
               { id: "b", text: "'Slashes' is a violent metaphor making cuts sound brutal" },
-              { id: "c", text: "It is short" },
-              { id: "d", text: "It mentions services" },
+              { id: "c", text: "It mentions services" },
+              { id: "d", text: "It is short" },
             ],
             correctChoiceId: "b",
           },
@@ -840,10 +840,10 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Literary techniques only appear in fiction" },
-              { id: "b", text: "Non-literary texts never use imagery" },
+              { id: "a", text: "Non-fiction is always more carefully written" },
+              { id: "b", text: "Literary techniques only appear in fiction" },
               { id: "c", text: "Literary techniques can appear in any text — the difference is purpose and convention, not technique alone" },
-              { id: "d", text: "Non-fiction is always more carefully written" },
+              { id: "d", text: "Non-literary texts never use imagery" },
             ],
             correctChoiceId: "c",
           },
@@ -866,11 +866,11 @@ export const lesson11: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Statistics" },
-              { id: "b", text: "Imagery that creates an emotional picture" },
-              { id: "c", text: "A formal report structure" },
-              { id: "d", text: "A headline" },
+              { id: "b", text: "A formal report structure" },
+              { id: "c", text: "A headline" },
+              { id: "d", text: "Imagery that creates an emotional picture" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

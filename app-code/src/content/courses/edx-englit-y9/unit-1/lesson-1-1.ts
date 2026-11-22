@@ -75,8 +75,8 @@ export const lesson11: Lesson = {
             choices: [
               { id: "a", text: "A crumbling, isolated building at night" },
               { id: "b", text: "A comic character who lightens the mood" },
-              { id: "c", text: "Futuristic technology that solves a mystery" },
-              { id: "d", text: "A cheerful reunion between old friends" },
+              { id: "c", text: "A cheerful reunion between old friends" },
+              { id: "d", text: "Futuristic technology that solves a mystery" },
             ],
             correctChoiceId: "a",
           },
@@ -202,8 +202,8 @@ export const lesson11: Lesson = {
             choices: [
               { id: "a", text: "That it is gloomy and depressing" },
               { id: "b", text: "That it is gentle and comforting" },
-              { id: "c", text: "That the storm is loud and violent" },
-              { id: "d", text: "That the rain has a calming rhythm" },
+              { id: "c", text: "That the rain has a calming rhythm" },
+              { id: "d", text: "That the storm is loud and violent" },
             ],
             correctChoiceId: "a",
           },

@@ -51,12 +51,12 @@ export const lesson71: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Dendrites" },
-              { id: "b", text: "Axon" },
-              { id: "c", text: "Myelin sheath" },
+              { id: "a", text: "Axon" },
+              { id: "b", text: "Myelin sheath" },
+              { id: "c", text: "Dendrites" },
               { id: "d", text: "Cell body only" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -146,12 +146,12 @@ export const lesson71: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "In the cell body" },
-              { id: "b", text: "In the axon" },
-              { id: "c", text: "In the myelin sheath" },
-              { id: "d", text: "At the axon terminals" },
+              { id: "a", text: "At the axon terminals" },
+              { id: "b", text: "In the myelin sheath" },
+              { id: "c", text: "In the axon" },
+              { id: "d", text: "In the cell body" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -172,12 +172,12 @@ export const lesson71: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Sensory neuron" },
-              { id: "b", text: "Motor neuron" },
-              { id: "c", text: "Relay neuron" },
-              { id: "d", text: "Effector" },
+              { id: "a", text: "Motor neuron" },
+              { id: "b", text: "Relay neuron" },
+              { id: "c", text: "Effector" },
+              { id: "d", text: "Sensory neuron" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -254,12 +254,12 @@ export const lesson71: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Lipid (fatty) material" },
-              { id: "b", text: "Protein fibres" },
+              { id: "a", text: "DNA" },
+              { id: "b", text: "Lipid (fatty) material" },
               { id: "c", text: "Carbohydrate" },
-              { id: "d", text: "DNA" },
+              { id: "d", text: "Protein fibres" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -300,12 +300,12 @@ export const lesson71: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Are myelinated with nodes of Ranvier" },
-              { id: "b", text: "Have no cell body" },
-              { id: "c", text: "Are very short" },
-              { id: "d", text: "Lack dendrites" },
+              { id: "a", text: "Lack dendrites" },
+              { id: "b", text: "Are very short" },
+              { id: "c", text: "Are myelinated with nodes of Ranvier" },
+              { id: "d", text: "Have no cell body" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -344,12 +344,12 @@ export const lesson71: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Connect sensory and motor neurons within the CNS" },
-              { id: "b", text: "Produce neurotransmitter" },
-              { id: "c", text: "Detect stimuli" },
-              { id: "d", text: "Carry impulses to muscles" },
+              { id: "a", text: "Carry impulses to muscles" },
+              { id: "b", text: "Detect stimuli" },
+              { id: "c", text: "Connect sensory and motor neurons within the CNS" },
+              { id: "d", text: "Produce neurotransmitter" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -449,12 +449,12 @@ export const lesson71: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Sensory neuron" },
-              { id: "b", text: "Motor neuron" },
-              { id: "c", text: "Effector" },
+              { id: "a", text: "Motor neuron" },
+              { id: "b", text: "Effector" },
+              { id: "c", text: "Sensory neuron" },
               { id: "d", text: "Receptor only" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -543,12 +543,12 @@ export const lesson71: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Detecting the stimulus" },
-              { id: "b", text: "Producing the response" },
+              { id: "a", text: "Producing the response" },
+              { id: "b", text: "Detecting the stimulus" },
               { id: "c", text: "Carrying impulse to muscle" },
               { id: "d", text: "Processing the signal in the brain" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -625,9 +625,9 @@ export const lesson71: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Motor neuron" },
-              { id: "b", text: "Sensory neuron" },
+              { id: "b", text: "Red blood cell" },
               { id: "c", text: "Receptor cell" },
-              { id: "d", text: "Red blood cell" },
+              { id: "d", text: "Sensory neuron" },
             ],
             correctChoiceId: "a",
           },
@@ -672,8 +672,8 @@ export const lesson71: Lesson = {
             choices: [
               { id: "a", text: "Occurs without conscious thought" },
               { id: "b", text: "Is always harmful" },
-              { id: "c", text: "Requires learning" },
-              { id: "d", text: "Uses only one neuron" },
+              { id: "c", text: "Uses only one neuron" },
+              { id: "d", text: "Requires learning" },
             ],
             correctChoiceId: "a",
           },
@@ -733,12 +733,12 @@ export const lesson71: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Relay neuron" },
-              { id: "b", text: "Receptor" },
+              { id: "a", text: "Skin" },
+              { id: "b", text: "Relay neuron" },
               { id: "c", text: "Effector muscle" },
-              { id: "d", text: "Skin" },
+              { id: "d", text: "Receptor" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [

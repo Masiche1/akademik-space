@@ -54,12 +54,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$6.28$ cm" },
+              { id: "a", text: "$3.14$ cm" },
               { id: "b", text: "$18.8$ cm" },
-              { id: "c", text: "$37.7$ cm" },
-              { id: "d", text: "$3.14$ cm" },
+              { id: "c", text: "$6.28$ cm" },
+              { id: "d", text: "$37.7$ cm" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Arc length", statement: "$\\text{arc}=\\frac{\\theta}{360}\\times2\\pi r$" }],
@@ -188,12 +188,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$37.7\\text{ cm}^3$" },
-              { id: "b", text: "$113\\text{ cm}^3$" },
-              { id: "c", text: "$339\\text{ cm}^3$" },
-              { id: "d", text: "$28.3\\text{ cm}^3$" },
+              { id: "a", text: "$28.3\\text{ cm}^3$" },
+              { id: "b", text: "$339\\text{ cm}^3$" },
+              { id: "c", text: "$37.7\\text{ cm}^3$" },
+              { id: "d", text: "$113\\text{ cm}^3$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Volume of a sphere", statement: "$V=\\frac43\\pi r^3$" }],

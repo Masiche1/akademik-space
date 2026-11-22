@@ -40,11 +40,11 @@ export const lesson12: Lesson = {
           id: "va-u1-colour-theory-q1", difficulty: "foundation", totalMarks: 2,
           stem: "Complementary colours are located:",
           response: { type: "mcq", choices: [
-            { id: "a", text: "Next to each other on the colour wheel" },
-            { id: "b", text: "Opposite each other on the colour wheel" },
+            { id: "a", text: "Only in the warm half of the wheel" },
+            { id: "b", text: "Next to each other on the colour wheel" },
             { id: "c", text: "At the centre of the colour wheel" },
-            { id: "d", text: "Only in the warm half of the wheel" },
-          ], correctChoiceId: "b" },
+            { id: "d", text: "Opposite each other on the colour wheel" },
+          ], correctChoiceId: "d" },
           markscheme: {
             principles: [{ kind: "definition", name: "Complementary colours", statement: "Hues opposite on the colour wheel that intensify each other." }],
             steps: [
@@ -115,8 +115,8 @@ export const lesson12: Lesson = {
           response: { type: "mcq", choices: [
             { id: "a", text: "Cannot be produced by mixing other colours" },
             { id: "b", text: "Are always warm in temperature" },
-            { id: "c", text: "Appear only in nature" },
-            { id: "d", text: "Have the highest saturation" },
+            { id: "c", text: "Have the highest saturation" },
+            { id: "d", text: "Appear only in nature" },
           ], correctChoiceId: "a" },
           markscheme: {
             principles: [{ kind: "definition", name: "Primary colours", statement: "Red, yellow and blue cannot be mixed from other hues." }],
@@ -132,11 +132,11 @@ export const lesson12: Lesson = {
           id: "va-u1-colour-theory-q6", difficulty: "foundation", totalMarks: 2,
           stem: "An analogous colour scheme uses hues that are:",
           response: { type: "mcq", choices: [
-            { id: "a", text: "Opposite each other on the colour wheel" },
-            { id: "b", text: "Adjacent to each other on the colour wheel" },
-            { id: "c", text: "Evenly spaced around the wheel" },
+            { id: "a", text: "Evenly spaced around the wheel" },
+            { id: "b", text: "Opposite each other on the colour wheel" },
+            { id: "c", text: "Adjacent to each other on the colour wheel" },
             { id: "d", text: "All neutral greys" },
-          ], correctChoiceId: "b" },
+          ], correctChoiceId: "c" },
           markscheme: {
             principles: [{ kind: "definition", name: "Analogous colours", statement: "Hues neighbouring each other on the wheel create calm unity." }],
             steps: [
@@ -151,11 +151,11 @@ export const lesson12: Lesson = {
           id: "va-u1-colour-theory-q7", difficulty: "core", totalMarks: 2,
           stem: "A triadic colour scheme consists of:",
           response: { type: "mcq", choices: [
-            { id: "a", text: "Three hues evenly spaced around the colour wheel" },
-            { id: "b", text: "Three shades of the same hue" },
-            { id: "c", text: "Two complementary hues plus white" },
-            { id: "d", text: "A hue and its two neighbours" },
-          ], correctChoiceId: "a" },
+            { id: "a", text: "Two complementary hues plus white" },
+            { id: "b", text: "A hue and its two neighbours" },
+            { id: "c", text: "Three shades of the same hue" },
+            { id: "d", text: "Three hues evenly spaced around the colour wheel" },
+          ], correctChoiceId: "d" },
           markscheme: {
             principles: [{ kind: "definition", name: "Triadic scheme", statement: "Three hues spaced evenly around the wheel balance variety and harmony." }],
             steps: [
@@ -170,11 +170,11 @@ export const lesson12: Lesson = {
           id: "va-u1-colour-theory-q8", difficulty: "core", totalMarks: 2,
           stem: "Warm colours such as red and orange tend to appear:",
           response: { type: "mcq", choices: [
-            { id: "a", text: "To recede behind cool colours" },
-            { id: "b", text: "To advance toward the viewer" },
+            { id: "a", text: "To advance toward the viewer" },
+            { id: "b", text: "To reduce contrast" },
             { id: "c", text: "To flatten the picture plane" },
-            { id: "d", text: "To reduce contrast" },
-          ], correctChoiceId: "b" },
+            { id: "d", text: "To recede behind cool colours" },
+          ], correctChoiceId: "a" },
           markscheme: {
             principles: [{ kind: "principle", name: "Warm-cool spatial effect", statement: "Warm hues advance and energise; cool hues recede and calm." }],
             steps: [
@@ -189,11 +189,11 @@ export const lesson12: Lesson = {
           id: "va-u1-colour-theory-q9", difficulty: "challenge", totalMarks: 2,
           stem: "A complementary accent colour is most useful for:",
           response: { type: "mcq", choices: [
-            { id: "a", text: "Unifying a quiet background" },
-            { id: "b", text: "Creating a focal point through maximum contrast" },
-            { id: "c", text: "Reducing the value range" },
-            { id: "d", text: "Mimicking natural lighting exactly" },
-          ], correctChoiceId: "b" },
+            { id: "a", text: "Mimicking natural lighting exactly" },
+            { id: "b", text: "Reducing the value range" },
+            { id: "c", text: "Unifying a quiet background" },
+            { id: "d", text: "Creating a focal point through maximum contrast" },
+          ], correctChoiceId: "d" },
           markscheme: {
             principles: [{ kind: "technique", name: "Complementary accent", statement: "A small dose of the opposite hue creates intense contrast and draws attention." }],
             steps: [
@@ -208,11 +208,11 @@ export const lesson12: Lesson = {
           id: "va-u1-colour-theory-q10", difficulty: "core", totalMarks: 2,
           stem: "Increasing the range of light and dark values in a painting mainly helps to:",
           response: { type: "mcq", choices: [
-            { id: "a", text: "Make all colours equally bright" },
-            { id: "b", text: "Separate forms and create spatial depth" },
-            { id: "c", text: "Remove the need for a colour scheme" },
-            { id: "d", text: "Simulate black and white printing" },
-          ], correctChoiceId: "b" },
+            { id: "a", text: "Simulate black and white printing" },
+            { id: "b", text: "Make all colours equally bright" },
+            { id: "c", text: "Separate forms and create spatial depth" },
+            { id: "d", text: "Remove the need for a colour scheme" },
+          ], correctChoiceId: "c" },
           markscheme: {
             principles: [{ kind: "principle", name: "Value and space", statement: "Value contrast separates forms and describes spatial recession." }],
             steps: [
@@ -360,8 +360,8 @@ export const lesson12: Lesson = {
           response: { type: "mcq", choices: [
             { id: "a", text: "The geometric centre of the work" },
             { id: "b", text: "The area that first draws the viewer's attention" },
-            { id: "c", text: "The largest shape in the work" },
-            { id: "d", text: "The border of the picture plane" },
+            { id: "c", text: "The border of the picture plane" },
+            { id: "d", text: "The largest shape in the work" },
           ], correctChoiceId: "b" },
           markscheme: {
             principles: [{ kind: "definition", name: "Focal point", statement: "The area that first attracts the viewer's attention." }],
@@ -431,11 +431,11 @@ export const lesson12: Lesson = {
           id: "va-u1-composition-q5", difficulty: "foundation", totalMarks: 2,
           stem: "The rule of thirds places key compositional elements:",
           response: { type: "mcq", choices: [
-            { id: "a", text: "Dead centre of the picture" },
-            { id: "b", text: "At intersections of a nine-part grid" },
-            { id: "c", text: "Only along the outer edges" },
-            { id: "d", text: "Randomly across the surface" },
-          ], correctChoiceId: "b" },
+            { id: "a", text: "At intersections of a nine-part grid" },
+            { id: "b", text: "Randomly across the surface" },
+            { id: "c", text: "Dead centre of the picture" },
+            { id: "d", text: "Only along the outer edges" },
+          ], correctChoiceId: "a" },
           markscheme: {
             principles: [{ kind: "technique", name: "Rule of thirds", statement: "Key elements at grid intersections create dynamic balance." }],
             steps: [
@@ -451,10 +451,10 @@ export const lesson12: Lesson = {
           stem: "Symmetrical balance in a composition typically feels:",
           response: { type: "mcq", choices: [
             { id: "a", text: "Chaotic and unstable" },
-            { id: "b", text: "Stable, formal and ordered" },
-            { id: "c", text: "Accidental and unresolved" },
-            { id: "d", text: "Loud and confrontational" },
-          ], correctChoiceId: "b" },
+            { id: "b", text: "Accidental and unresolved" },
+            { id: "c", text: "Loud and confrontational" },
+            { id: "d", text: "Stable, formal and ordered" },
+          ], correctChoiceId: "d" },
           markscheme: {
             principles: [{ kind: "principle", name: "Symmetrical balance", statement: "Mirrored arrangement feels stable and formal." }],
             steps: [
@@ -469,11 +469,11 @@ export const lesson12: Lesson = {
           id: "va-u1-composition-q7", difficulty: "core", totalMarks: 2,
           stem: "Leading lines in a composition function primarily to:",
           response: { type: "mcq", choices: [
-            { id: "a", text: "Decorate empty areas" },
-            { id: "b", text: "Direct the viewer's eye along a path" },
+            { id: "a", text: "Balance symmetrical masses" },
+            { id: "b", text: "Decorate empty areas" },
             { id: "c", text: "Create literal perspective only" },
-            { id: "d", text: "Balance symmetrical masses" },
-          ], correctChoiceId: "b" },
+            { id: "d", text: "Direct the viewer's eye along a path" },
+          ], correctChoiceId: "d" },
           markscheme: {
             principles: [{ kind: "technique", name: "Leading lines", statement: "Lines or edges that channel the viewer's gaze toward a focal point." }],
             steps: [
@@ -488,11 +488,11 @@ export const lesson12: Lesson = {
           id: "va-u1-composition-q8", difficulty: "core", totalMarks: 2,
           stem: "Repeating a shape, mark or colour across a composition mainly creates:",
           response: { type: "mcq", choices: [
-            { id: "a", text: "A single focal point" },
-            { id: "b", text: "Rhythm and visual unity" },
-            { id: "c", text: "Symmetrical balance only" },
+            { id: "a", text: "Symmetrical balance only" },
+            { id: "b", text: "A single focal point" },
+            { id: "c", text: "Rhythm and visual unity" },
             { id: "d", text: "Negative space" },
-          ], correctChoiceId: "b" },
+          ], correctChoiceId: "c" },
           markscheme: {
             principles: [{ kind: "technique", name: "Repetition and rhythm", statement: "Repeated elements create tempo and bind the composition." }],
             steps: [
@@ -509,8 +509,8 @@ export const lesson12: Lesson = {
           response: { type: "mcq", choices: [
             { id: "a", text: "Isolation and reverence" },
             { id: "b", text: "Chaos, intensity or information overload" },
-            { id: "c", text: "Calm and meditation" },
-            { id: "d", text: "Formal symmetry" },
+            { id: "c", text: "Formal symmetry" },
+            { id: "d", text: "Calm and meditation" },
           ], correctChoiceId: "b" },
           markscheme: {
             principles: [{ kind: "principle", name: "Density as meaning", statement: "Crowding can express chaos; sparseness can express isolation." }],
@@ -526,11 +526,11 @@ export const lesson12: Lesson = {
           id: "va-u1-composition-q10", difficulty: "core", totalMarks: 2,
           stem: "Negative space in a composition should be understood as:",
           response: { type: "mcq", choices: [
-            { id: "a", text: "Unused area to be filled" },
-            { id: "b", text: "An active element that shapes positive forms" },
-            { id: "c", text: "A sign of incomplete work" },
-            { id: "d", text: "Only relevant in minimalist art" },
-          ], correctChoiceId: "b" },
+            { id: "a", text: "An active element that shapes positive forms" },
+            { id: "b", text: "A sign of incomplete work" },
+            { id: "c", text: "Only relevant in minimalist art" },
+            { id: "d", text: "Unused area to be filled" },
+          ], correctChoiceId: "a" },
           markscheme: {
             principles: [{ kind: "principle", name: "Negative space", statement: "Empty areas define positive forms and can carry meaning." }],
             steps: [

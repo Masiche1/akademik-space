@@ -58,12 +58,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Carbon monoxide and/or soot (carbon)" },
-              { id: "b", text: "Only carbon dioxide and water" },
-              { id: "c", text: "Oxygen and nitrogen" },
-              { id: "d", text: "Sulphur dioxide" },
+              { id: "a", text: "Only carbon dioxide and water" },
+              { id: "b", text: "Sulphur dioxide" },
+              { id: "c", text: "Carbon monoxide and/or soot (carbon)" },
+              { id: "d", text: "Oxygen and nitrogen" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -85,12 +85,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It binds haemoglobin more strongly than oxygen, reducing oxygen transport in blood" },
-              { id: "b", text: "It is acidic" },
-              { id: "c", text: "It causes acid rain directly" },
-              { id: "d", text: "It dissolves in water harmlessly" },
+              { id: "a", text: "It is acidic" },
+              { id: "b", text: "It causes acid rain directly" },
+              { id: "c", text: "It dissolves in water harmlessly" },
+              { id: "d", text: "It binds haemoglobin more strongly than oxygen, reducing oxygen transport in blood" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -113,12 +113,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Complete — all carbon ends as CO₂ and all hydrogen as H₂O; sufficient O₂ used" },
-              { id: "b", text: "Incomplete — CO is produced" },
-              { id: "c", text: "Neither — it is a decomposition" },
+              { id: "a", text: "Neither — it is a decomposition" },
+              { id: "b", text: "Complete — all carbon ends as CO₂ and all hydrogen as H₂O; sufficient O₂ used" },
+              { id: "c", text: "Incomplete — CO is produced" },
               { id: "d", text: "Cannot be classified" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -173,12 +173,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Carbon dioxide and water (plus energy)" },
-              { id: "b", text: "Carbon monoxide and soot" },
-              { id: "c", text: "Oxygen and nitrogen" },
-              { id: "d", text: "Sulphur dioxide only" },
+              { id: "a", text: "Carbon monoxide and soot" },
+              { id: "b", text: "Sulphur dioxide only" },
+              { id: "c", text: "Carbon dioxide and water (plus energy)" },
+              { id: "d", text: "Oxygen and nitrogen" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -221,12 +221,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "When oxygen supply is limited — producing CO and/or soot (carbon) plus water" },
-              { id: "b", text: "When oxygen is plentiful — producing only CO₂" },
-              { id: "c", text: "When the fuel is cold — producing nitrogen" },
-              { id: "d", text: "Never in practice" },
+              { id: "a", text: "When the fuel is cold — producing nitrogen" },
+              { id: "b", text: "When oxygen supply is limited — producing CO and/or soot (carbon) plus water" },
+              { id: "c", text: "Never in practice" },
+              { id: "d", text: "When oxygen is plentiful — producing only CO₂" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -271,12 +271,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "CO binds haemoglobin ~200× more strongly than O₂, blocking oxygen transport → asphyxiation" },
-              { id: "b", text: "CO is a strong acid" },
+              { id: "a", text: "CO is a strong acid" },
+              { id: "b", text: "CO binds haemoglobin ~200× more strongly than O₂, blocking oxygen transport → asphyxiation" },
               { id: "c", text: "CO explodes easily" },
               { id: "d", text: "CO causes acid rain" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -367,9 +367,9 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Converts them to less harmful products: 2CO + 2NO → 2CO₂ + N₂ on a Pt/Rh catalyst surface" },
-              { id: "b", text: "Removes all oxygen from exhaust" },
-              { id: "c", text: "Converts CO₂ back to CO" },
-              { id: "d", text: "It has no effect on gases" },
+              { id: "b", text: "It has no effect on gases" },
+              { id: "c", text: "Removes all oxygen from exhaust" },
+              { id: "d", text: "Converts CO₂ back to CO" },
             ],
             correctChoiceId: "a",
           },
@@ -493,8 +493,8 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Carbon dioxide" },
-              { id: "b", text: "Oxygen" },
-              { id: "c", text: "Nitrogen" },
+              { id: "b", text: "Nitrogen" },
+              { id: "c", text: "Oxygen" },
               { id: "d", text: "Hydrogen" },
             ],
             correctChoiceId: "a",
@@ -519,12 +519,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "SO₂ dissolves in water forming sulphurous acid, which is oxidised to sulphuric acid" },
-              { id: "b", text: "SO₂ directly melts rocks" },
+              { id: "a", text: "SO₂ directly melts rocks" },
+              { id: "b", text: "SO₂ dissolves in water forming sulphurous acid, which is oxidised to sulphuric acid" },
               { id: "c", text: "SO₂ evaporates into space" },
               { id: "d", text: "Rain becomes alkaline" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -547,12 +547,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Polar stratospheric clouds provide surfaces for reactions that release chlorine radicals from CFCs; cold temperatures favour the chemistry" },
-              { id: "b", text: "There are no CFCs at the equator" },
+              { id: "a", text: "There are no CFCs at the equator" },
+              { id: "b", text: "UV radiation is weaker at poles" },
               { id: "c", text: "Ozone only exists at the poles" },
-              { id: "d", text: "UV radiation is weaker at poles" },
+              { id: "d", text: "Polar stratospheric clouds provide surfaces for reactions that release chlorine radicals from CFCs; cold temperatures favour the chemistry" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -607,12 +607,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Oxygen (O₂)" },
-              { id: "b", text: "Carbon dioxide (CO₂)" },
-              { id: "c", text: "Methane (CH₄)" },
-              { id: "d", text: "Nitrous oxide (N₂O)" },
+              { id: "a", text: "Methane (CH₄)" },
+              { id: "b", text: "Nitrous oxide (N₂O)" },
+              { id: "c", text: "Carbon dioxide (CO₂)" },
+              { id: "d", text: "Oxygen (O₂)" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -655,12 +655,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Greenhouse gases absorb outgoing infrared radiation from Earth's surface and re-emit it in all directions, warming the atmosphere" },
-              { id: "b", text: "Greenhouse gases reflect sunlight back" },
-              { id: "c", text: "They generate heat directly" },
-              { id: "d", text: "They block all radiation" },
+              { id: "a", text: "They block all radiation" },
+              { id: "b", text: "Greenhouse gases absorb outgoing infrared radiation from Earth's surface and re-emit it in all directions, warming the atmosphere" },
+              { id: "c", text: "Greenhouse gases reflect sunlight back" },
+              { id: "d", text: "They generate heat directly" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -705,12 +705,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It acidifies lakes killing fish, and corrodes limestone buildings/monuments" },
+              { id: "a", text: "It depletes the ozone layer" },
               { id: "b", text: "It causes global warming directly" },
-              { id: "c", text: "It depletes the ozone layer" },
+              { id: "c", text: "It acidifies lakes killing fish, and corrodes limestone buildings/monuments" },
               { id: "d", text: "It has no environmental effects" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -800,12 +800,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "International agreement to phase out CFCs; succeeded because alternatives existed and nearly all countries signed it, allowing the ozone layer to recover" },
-              { id: "b", text: "A law banning all aerosols permanently" },
-              { id: "c", text: "It created the ozone hole" },
-              { id: "d", text: "It only applied to Antarctica" },
+              { id: "a", text: "A law banning all aerosols permanently" },
+              { id: "b", text: "It only applied to Antarctica" },
+              { id: "c", text: "International agreement to phase out CFCs; succeeded because alternatives existed and nearly all countries signed it, allowing the ozone layer to recover" },
+              { id: "d", text: "It created the ozone hole" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

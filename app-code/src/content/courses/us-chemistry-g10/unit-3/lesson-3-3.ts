@@ -48,12 +48,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$1.0\\ \\text{mol}$" },
-              { id: "b", text: "$2.0\\ \\text{mol}$" },
+              { id: "a", text: "$9.0\\ \\text{mol}$" },
+              { id: "b", text: "$1.0\\ \\text{mol}$" },
               { id: "c", text: "$4.5\\ \\text{mol}$" },
-              { id: "d", text: "$9.0\\ \\text{mol}$" },
+              { id: "d", text: "$2.0\\ \\text{mol}$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -183,12 +183,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The reactant present in the largest mass" },
-              { id: "b", text: "The reactant that is used up first and limits the amount of product" },
-              { id: "c", text: "The reactant with the largest coefficient" },
-              { id: "d", text: "The reactant that is left over at the end" },
+              { id: "a", text: "The reactant that is used up first and limits the amount of product" },
+              { id: "b", text: "The reactant that is left over at the end" },
+              { id: "c", text: "The reactant present in the largest mass" },
+              { id: "d", text: "The reactant with the largest coefficient" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

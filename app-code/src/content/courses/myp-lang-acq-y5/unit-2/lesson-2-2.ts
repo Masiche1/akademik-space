@@ -56,12 +56,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A thesis names the subject; a topic argues a claim" },
-              { id: "b", text: "A thesis is an arguable claim; a topic only names the subject" },
-              { id: "c", text: "A thesis appears only in the conclusion" },
-              { id: "d", text: "A topic is always longer than a thesis" },
+              { id: "a", text: "A thesis appears only in the conclusion" },
+              { id: "b", text: "A topic is always longer than a thesis" },
+              { id: "c", text: "A thesis names the subject; a topic argues a claim" },
+              { id: "d", text: "A thesis is an arguable claim; a topic only names the subject" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -174,11 +174,11 @@ export const lesson22: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "They are the same thing" },
-              { id: "b", text: "A topic names the subject; a thesis makes an arguable claim about it" },
-              { id: "c", text: "A thesis is always a question" },
-              { id: "d", text: "A topic comes at the end of the essay" },
+              { id: "b", text: "A topic comes at the end of the essay" },
+              { id: "c", text: "A topic names the subject; a thesis makes an arguable claim about it" },
+              { id: "d", text: "A thesis is always a question" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -200,12 +200,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Evidence -> topic sentence -> conclusion" },
-              { id: "b", text: "Topic sentence -> explanation -> evidence -> analysis" },
-              { id: "c", text: "Analysis -> evidence -> topic sentence" },
-              { id: "d", text: "Quotation -> topic sentence -> evidence" },
+              { id: "a", text: "Analysis -> evidence -> topic sentence" },
+              { id: "b", text: "Quotation -> topic sentence -> evidence" },
+              { id: "c", text: "Evidence -> topic sentence -> conclusion" },
+              { id: "d", text: "Topic sentence -> explanation -> evidence -> analysis" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -233,12 +233,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "School uniform policies are often defended as promoting equality." },
-              { id: "b", text: "However, their effect depends heavily on how they are designed." },
-              { id: "c", text: "This essay argues that uniform policies can reduce inequality, yet their design determines whether they protect or suppress student identity." },
-              { id: "d", text: "All three sentences equally" },
+              { id: "a", text: "All three sentences equally" },
+              { id: "b", text: "School uniform policies are often defended as promoting equality." },
+              { id: "c", text: "However, their effect depends heavily on how they are designed." },
+              { id: "d", text: "This essay argues that uniform policies can reduce inequality, yet their design determines whether they protect or suppress student identity." },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -315,8 +315,8 @@ export const lesson22: Lesson = {
             choices: [
               { id: "a", text: "Sentence 1" },
               { id: "b", text: "Sentence 2" },
-              { id: "c", text: "Both equally" },
-              { id: "d", text: "Neither" },
+              { id: "c", text: "Neither" },
+              { id: "d", text: "Both equally" },
             ],
             correctChoiceId: "b",
           },
@@ -425,12 +425,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Introduce entirely new evidence" },
-              { id: "b", text: "Repeat the introduction word for word" },
-              { id: "c", text: "Synthesise the argument and explain why the thesis matters" },
-              { id: "d", text: "List every quotation used" },
+              { id: "a", text: "Synthesise the argument and explain why the thesis matters" },
+              { id: "b", text: "List every quotation used" },
+              { id: "c", text: "Introduce entirely new evidence" },
+              { id: "d", text: "Repeat the introduction word for word" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -495,12 +495,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It repeats the introduction" },
-              { id: "b", text: "It synthesises complexity rather than giving a simplistic verdict" },
-              { id: "c", text: "It introduces new evidence" },
+              { id: "a", text: "It synthesises complexity rather than giving a simplistic verdict" },
+              { id: "b", text: "It introduces new evidence" },
+              { id: "c", text: "It repeats the introduction" },
               { id: "d", text: "It avoids all judgement" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -553,12 +553,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A personal anecdote" },
-              { id: "b", text: "Findings and analysis" },
-              { id: "c", text: "A bibliography only" },
-              { id: "d", text: "An unrelated introduction" },
+              { id: "a", text: "Findings and analysis" },
+              { id: "b", text: "A bibliography only" },
+              { id: "c", text: "An unrelated introduction" },
+              { id: "d", text: "A personal anecdote" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -671,11 +671,11 @@ export const lesson22: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Emotional persuasion" },
-              { id: "b", text: "Clarity and usability" },
+              { id: "b", text: "Personal opinion" },
               { id: "c", text: "Literary style" },
-              { id: "d", text: "Personal opinion" },
+              { id: "d", text: "Clarity and usability" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -698,11 +698,11 @@ export const lesson22: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "They mean the same thing" },
-              { id: "b", text: "A finding states what was discovered; a recommendation proposes action" },
-              { id: "c", text: "A finding comes first in the report" },
-              { id: "d", text: "A recommendation is always optional" },
+              { id: "b", text: "A finding comes first in the report" },
+              { id: "c", text: "A recommendation is always optional" },
+              { id: "d", text: "A finding states what was discovered; a recommendation proposes action" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -730,12 +730,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Students reported difficulty accessing reliable sources." },
-              { id: "b", text: "The library should provide a verified-source guide." },
-              { id: "c", text: "Both equally" },
-              { id: "d", text: "Neither" },
+              { id: "a", text: "Neither" },
+              { id: "b", text: "Students reported difficulty accessing reliable sources." },
+              { id: "c", text: "The library should provide a verified-source guide." },
+              { id: "d", text: "Both equally" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -814,12 +814,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Analysis" },
-              { id: "b", text: "Recommendations" },
-              { id: "c", text: "Title" },
-              { id: "d", text: "Purpose" },
+              { id: "a", text: "Purpose" },
+              { id: "b", text: "Analysis" },
+              { id: "c", text: "Recommendations" },
+              { id: "d", text: "Title" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -926,12 +926,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Never — reports must be prose only" },
-              { id: "b", text: "When they improve readability, such as listing recommendations" },
+              { id: "a", text: "When they improve readability, such as listing recommendations" },
+              { id: "b", text: "Only in informal emails" },
               { id: "c", text: "Only in the title" },
-              { id: "d", text: "Only in informal emails" },
+              { id: "d", text: "Never — reports must be prose only" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -996,12 +996,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "In the salutation" },
-              { id: "b", text: "In the opening paragraph, in the first two sentences" },
-              { id: "c", text: "In the complimentary close" },
+              { id: "a", text: "In the complimentary close" },
+              { id: "b", text: "In the salutation" },
+              { id: "c", text: "In the opening paragraph, in the first two sentences" },
               { id: "d", text: "At the very end" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

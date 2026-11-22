@@ -87,15 +87,15 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "A transaction not recorded at all" },
               {
-                id: "a",
+                id: "b",
                 text: "The correct amount posted to the wrong account",
               },
-              { id: "b", text: "A transaction not recorded at all" },
               { id: "c", text: "The wrong amount taken from a document" },
               { id: "d", text: "A transaction recorded on the wrong side" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -126,16 +126,16 @@ export const lesson32: Lesson = {
             choices: [
               {
                 id: "a",
-                text: "The correct account for an error is not yet known, so the difference is parked temporarily",
-              },
-              {
-                id: "b",
                 text: "The trial balance refuses to balance permanently",
               },
+              { id: "b", text: "Preparing the profit and loss account" },
               { id: "c", text: "A business has too many ledger accounts" },
-              { id: "d", text: "Preparing the profit and loss account" },
+              {
+                id: "d",
+                text: "The correct account for an error is not yet known, so the difference is parked temporarily",
+              },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -490,6 +490,259 @@ export const lesson32: Lesson = {
               "(a) Omission = nothing recorded; original entry = wrong figure both sides. (b) Neither is detected by the TB.",
           },
         },
+        {
+          id: "cieiacct-u3-errors-q11",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "An error of omission means:",
+          response: {
+            type: "mcq",
+            choices: [
+              {
+                id: "a",
+                text: "A transaction was never recorded in the books at all",
+              },
+              { id: "b", text: "A transaction was entered on the wrong side" },
+              { id: "c", text: "A transaction was recorded in the wrong account" },
+              { id: "d", text: "A transaction was recorded with a wrong amount" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Error of omission",
+                statement: "The transaction is completely left out of the books.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "Omission = no entry whatsoever, so debits and credits stay equal.",
+                marks: 1,
+                markCode: "M",
+              },
+            ],
+            finalAnswer: "(a) Never recorded at all.",
+          },
+        },
+        {
+          id: "cieiacct-u3-errors-q12",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "A payment to a supplier of \\$600 was entered as a debit to the supplier instead of a credit. The trial balance would:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Not agree — the difference would be \\$1,200" },
+              { id: "b", text: "Agree — the amount is still \\$600" },
+              { id: "c", text: "Agree if the bank was also credited" },
+              {
+                id: "d",
+                text: "Not agree — the wrong side unbalances debits and credits",
+              },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Wrong-side error",
+                statement:
+                  "Posting on the wrong side reverses the effect and unbalances the trial balance.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "The supplier should have been credited; debiting instead makes debits exceed credits by \\$1,200 total effect.",
+                marks: 1,
+                markCode: "M",
+              },
+            ],
+            finalAnswer: "(a) Not agree.",
+          },
+        },
+        {
+          id: "cieiacct-u3-errors-q13",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "Distinguish between an error of omission and an error of original entry, giving an example of each.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Omission vs original entry",
+                statement:
+                  "Omission = nothing recorded; original entry = the wrong figure from the source document used on both sides.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "Error of omission: e.g. a cash sale of \\$200 never entered — no debit or credit exists.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "Error of original entry: e.g. an invoice for \\$450 read as \\$540 and both debit and credit posted at \\$540.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "Neither is detected by the trial balance — both keep debits equal to credits.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer:
+              "Omission = transaction left out entirely; original entry = wrong figure used consistently on both sides. Neither shows in the TB.",
+          },
+        },
+        {
+          id: "cieiacct-u3-errors-q14",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "A trial balance shows total debits exceeding total credits by \\$350. Before the error is found, a suspense account is opened. What will its balance be?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "Suspense balance", answer: 350, unit: "$" }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Suspense account",
+                statement:
+                  "The suspense account absorbs the trial balance difference until the error is located.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "The \\$350 difference is placed in suspense — a credit balance since debits are higher.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "Suspense balance = \\$350 Cr.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "\\$350 Cr",
+          },
+        },
+        {
+          id: "cieiacct-u3-errors-q15",
+          difficulty: "challenge",
+          totalMarks: 4,
+          parts: [
+            {
+              label: "a",
+              prompt:
+                "State two errors the trial balance can detect and two it cannot.",
+              marks: 2,
+            },
+            {
+              label: "b",
+              prompt:
+                "Explain the role of the suspense account when an error cannot be found immediately.",
+              marks: 2,
+            },
+          ],
+          stem: "A business finds its trial balance does not agree.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Error detection",
+                statement:
+                  "The TB detects only errors that make debits unequal to credits.",
+              },
+            ],
+            steps: [
+              {
+                part: "a",
+                reasoning:
+                  "Detectable: wrong-side entry, one-sided (single) entry, wrong amount on one side. Undetectable: omission, commission, principle, original entry, compensating errors.",
+                marks: 2,
+                markCode: "M",
+              },
+              {
+                part: "b",
+                reasoning:
+                  "The suspense account temporarily holds the difference so the TB can be made to agree while the error is investigated.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                part: "b",
+                reasoning:
+                  "Once found, correcting entries clear suspense to zero before final accounts are prepared.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer:
+              "(a) Any two detectable and two undetectable errors. (b) Temporary holder of the difference until the error is corrected.",
+          },
+        },
+        {
+          id: "cieiacct-u3-errors-q16",
+          difficulty: "challenge",
+          totalMarks: 5,
+          parts: [
+            {
+              label: "a",
+              prompt:
+                "For each scenario state the type of error: (i) goods returned by a customer never recorded; (ii) an invoice for \\$300 entered as \\$400 on both sides; (iii) a receipt from Mr A posted to Mr B's account.",
+              marks: 3,
+            },
+            {
+              label: "b",
+              prompt:
+                "State which of the three errors the trial balance would reveal.",
+              marks: 2,
+            },
+          ],
+          stem: "A student is revising error types for the exam.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Error types",
+                statement:
+                  "Each error type has a distinct cause and detection profile.",
+              },
+            ],
+            steps: [
+              {
+                part: "a",
+                reasoning:
+                  "(i) Error of omission; (ii) error of original entry; (iii) error of commission.",
+                marks: 3,
+                markCode: "M",
+              },
+              {
+                part: "b",
+                reasoning:
+                  "None of them — all three keep debits equal to credits, so the trial balance would agree in every case.",
+                marks: 2,
+                markCode: "A",
+              },
+            ],
+            finalAnswer:
+              "(a) (i) Omission, (ii) original entry, (iii) commission. (b) None — all are TB-invisible.",
+          },
+        },
       ],
     },
     {
@@ -530,9 +783,9 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "\\$500 Dr — to balance the excess credits" },
-              { id: "b", text: "\\$500 Cr" },
-              { id: "c", text: "\\$500 with no specified side" },
-              { id: "d", text: "Zero — suspense only used for debit errors" },
+              { id: "b", text: "\\$500 with no specified side" },
+              { id: "c", text: "Zero — suspense only used for debit errors" },
+              { id: "d", text: "\\$500 Cr" },
             ],
             correctChoiceId: "a",
           },
@@ -568,9 +821,9 @@ export const lesson32: Lesson = {
                 id: "a",
                 text: "Have a zero balance — all errors identified and corrected",
               },
-              { id: "b", text: "Show the remaining error for next year" },
-              { id: "c", text: "Be transferred to retained earnings" },
-              { id: "d", text: "Be included in the profit and loss account" },
+              { id: "b", text: "Be transferred to retained earnings" },
+              { id: "c", text: "Be included in the profit and loss account" },
+              { id: "d", text: "Show the remaining error for next year" },
             ],
             correctChoiceId: "a",
           },
@@ -951,6 +1204,259 @@ export const lesson32: Lesson = {
               "(a) Temporary holder for unidentified errors. (b) \\$250 error remains; keep investigating until suspense = zero.",
           },
         },
+        {
+          id: "cieiacct-u3-suspense-q11",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Before the final accounts are prepared, the suspense account must:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Show a debit balance" },
+              { id: "b", text: "Be transferred to the profit and loss account" },
+              { id: "c", text: "Equal the trial balance difference" },
+              { id: "d", text: "Have a zero balance" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Suspense account",
+                statement:
+                  "It is temporary — all errors must be corrected so it returns to zero.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "A suspense balance in final accounts means an error is still unresolved.",
+                marks: 1,
+                markCode: "M",
+              },
+            ],
+            finalAnswer: "(a) Zero balance.",
+          },
+        },
+        {
+          id: "cieiacct-u3-suspense-q12",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "A trial balance shows total credits exceeding total debits by \\$180. The suspense account is opened. On which side and for how much?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "Suspense balance", answer: 180, unit: "$" }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Suspense account",
+                statement:
+                  "The suspense account takes the side needed to restore equality.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "Credits exceed debits, so the suspense account is debited \\$180 to balance the TB.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "Suspense balance = \\$180 Dr.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "\\$180 Dr",
+          },
+        },
+        {
+          id: "cieiacct-u3-suspense-q13",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "Explain how a suspense account is cleared once the error has been found.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Suspense clearing",
+                statement:
+                  "Correcting journal entries move amounts between suspense and the correct accounts.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "The error is identified and the correct double entry is worked out.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "A journal entry is posted with suspense on one side and the correct account on the other.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "The suspense account returns to zero and no longer appears in the trial balance or final accounts.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer:
+              "Post a correcting entry through suspense to the correct account(s) until suspense nets to zero.",
+          },
+        },
+        {
+          id: "cieiacct-u3-suspense-q14",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "The suspense account has a credit balance of \\$600. Two errors are then found: an insurance payment of \\$400 was never debited to insurance, and a \\$200 receipt was never credited to sales. After both corrections are posted, what is the suspense account balance?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "Suspense balance", answer: 0, unit: "$" }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Suspense clearing",
+                statement:
+                  "Each correction moves the suspense balance towards zero.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "Insurance: Dr insurance \\$400 / Cr suspense \\$400 — suspense Cr falls to \\$200.",
+                working: "600 - 400 = 200",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "Receipt: Dr suspense \\$200 / Cr sales \\$200 — suspense Cr falls to \\$0.",
+                working: "200 - 200 = 0",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "Suspense balance = \\$0 — fully cleared.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "\\$0",
+          },
+        },
+        {
+          id: "cieiacct-u3-suspense-q15",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "A \\$300 insurance payment was recorded with only the bank credited — the debit to insurance was omitted. The correcting entry through suspense is:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Debit insurance \\$300 / Credit bank \\$300" },
+              { id: "b", text: "Debit suspense \\$300 / Credit insurance \\$300" },
+              { id: "c", text: "Debit bank \\$300 / Credit insurance \\$300" },
+              {
+                id: "d",
+                text: "Debit insurance \\$300 / Credit suspense \\$300",
+              },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Suspense correction",
+                statement:
+                  "The missing debit is posted against suspense to clear it.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "The bank credit already exists; only Dr insurance is missing, so suspense (which holds the imbalance) is credited.",
+                marks: 1,
+                markCode: "M",
+              },
+            ],
+            finalAnswer: "(a) Dr insurance / Cr suspense \\$300.",
+          },
+        },
+        {
+          id: "cieiacct-u3-suspense-q16",
+          difficulty: "challenge",
+          totalMarks: 4,
+          parts: [
+            {
+              label: "a",
+              prompt:
+                "The trial balance fails with credits exceeding debits by \\$500. State the suspense account entry.",
+              marks: 1,
+            },
+            {
+              label: "b",
+              prompt:
+                "The error is found: a \\$500 rent payment was recorded with only the bank credited — the debit to rent was omitted. State the correcting entry.",
+              marks: 2,
+            },
+            {
+              label: "c",
+              prompt: "State the suspense account balance after correction.",
+              marks: 1,
+            },
+          ],
+          stem: "A business cannot locate a trial balance error immediately.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Suspense account mechanics",
+                statement:
+                  "Suspense holds the difference; corrections move amounts to the right accounts.",
+              },
+            ],
+            steps: [
+              {
+                part: "a",
+                reasoning: "Debit suspense \\$500 (credits were higher).",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                part: "b",
+                reasoning: "Dr rent \\$500 / Cr suspense \\$500.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                part: "b",
+                reasoning:
+                  "This posts the missing expense debit and clears the suspense balance.",
+                marks: 1,
+                markCode: "A",
+              },
+              {
+                part: "c",
+                reasoning: "Suspense balance = \\$0.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer:
+              "(a) Dr suspense \\$500. (b) Dr rent / Cr suspense \\$500. (c) \\$0.",
+          },
+        },
       ],
     },
     {
@@ -1003,15 +1509,15 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "Computerised records with no printouts" },
               {
-                id: "a",
+                id: "b",
                 text: "A cash book and partial totals rather than a full double-entry system",
               },
-              { id: "b", text: "No records at all" },
-              { id: "c", text: "Only a trial balance" },
-              { id: "d", text: "Computerised records with no printouts" },
+              { id: "c", text: "No records at all" },
+              { id: "d", text: "Only a trial balance" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1468,6 +1974,259 @@ export const lesson32: Lesson = {
               "(a) Sales, purchases, inventories, expenses, drawings, capitals. (b) Drawings \\$5,000; verified by substitution.",
           },
         },
+        {
+          id: "cieiacct-u3-incomplete-q11",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "The formula for calculating closing capital is:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Opening capital + drawings − net profit" },
+              { id: "b", text: "Opening capital − net profit − drawings" },
+              { id: "c", text: "Net profit − opening capital + drawings" },
+              {
+                id: "d",
+                text: "Opening capital + net profit − drawings",
+              },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "formula",
+                name: "Closing capital",
+                statement: "Opening capital + net profit − drawings.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "Profit increases capital; drawings reduce it.",
+                marks: 1,
+                markCode: "M",
+              },
+            ],
+            finalAnswer: "(a) Opening capital + net profit − drawings.",
+          },
+        },
+        {
+          id: "cieiacct-u3-incomplete-q12",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "A business has opening capital of \\$10,000, net profit of \\$4,500 and drawings of \\$2,000. Calculate the closing capital.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "Closing capital", answer: 12500, unit: "$" }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "formula",
+                name: "Closing capital",
+                statement: "Opening capital + net profit − drawings.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "10,000 + 4,500 − 2,000.",
+                working: "10000 + 4500 - 2000",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "Closing capital = \\$12,500.",
+                working: "10000 + 4500 - 2000 = 12500",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "\\$12,500",
+          },
+        },
+        {
+          id: "cieiacct-u3-incomplete-q13",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "Opening inventory \\$3,000; purchases \\$15,000; closing inventory \\$4,500. Calculate the cost of sales.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "Cost of sales", answer: 13500, unit: "$" }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "formula",
+                name: "Cost of sales",
+                statement: "Opening inventory + purchases − closing inventory.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Goods available = 3,000 + 15,000 = \\$18,000.",
+                working: "3000 + 15000 = 18000",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "Unsold goods = closing inventory \\$4,500.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "Cost of sales = 18,000 − 4,500 = \\$13,500.",
+                working: "18000 - 4500 = 13500",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "\\$13,500",
+          },
+        },
+        {
+          id: "cieiacct-u3-incomplete-q14",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "Explain why drawings are often the 'plug figure' when preparing accounts from incomplete records.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Plug figure",
+                statement:
+                  "When one figure is unknown it can be found by rearranging the accounting equation.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "In incomplete records, most figures can be found from the cash book and totals, but drawings are often not fully recorded.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "The capital formula can be rearranged: drawings = opening capital + net profit − closing capital.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "This makes drawings the balancing figure that reconciles the known capitals and profit.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer:
+              "Drawings are usually the only unrecorded figure, so they are found by rearranging the capital formula — the 'plug'.",
+          },
+        },
+        {
+          id: "cieiacct-u3-incomplete-q15",
+          difficulty: "challenge",
+          totalMarks: 3,
+          stem: "Sales \\$50,000; cost of sales \\$32,000; expenses \\$9,000. Calculate gross profit and net profit.",
+          response: {
+            type: "numeric",
+            parts: [
+              { label: "Gross profit", answer: 18000, unit: "$" },
+              { label: "Net profit", answer: 9000, unit: "$" },
+            ],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "formula",
+                name: "Profit chain",
+                statement: "GP = sales − cost of sales; NP = GP − expenses.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Gross profit = 50,000 − 32,000 = \\$18,000.",
+                working: "50000 - 32000 = 18000",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "Net profit = 18,000 − 9,000 = \\$9,000.",
+                working: "18000 - 9000 = 9000",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "Both figures stated correctly.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "Gross profit \\$18,000; net profit \\$9,000.",
+          },
+        },
+        {
+          id: "cieiacct-u3-incomplete-q16",
+          difficulty: "challenge",
+          totalMarks: 5,
+          parts: [
+            {
+              label: "a",
+              prompt:
+                "Opening capital \\$18,000; closing capital \\$21,500; net profit \\$6,000. Calculate drawings.",
+              marks: 2,
+            },
+            {
+              label: "b",
+              prompt:
+                "Explain how you would check that your answer is reasonable.",
+              marks: 1,
+            },
+            {
+              label: "c",
+              prompt:
+                "State one figure you would need to prepare a full income statement that is still missing.",
+              marks: 2,
+            },
+          ],
+          stem: "A trader keeps incomplete records.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "formula",
+                name: "Drawings",
+                statement: "Drawings = opening capital + net profit − closing capital.",
+              },
+            ],
+            steps: [
+              {
+                part: "a",
+                reasoning:
+                  "Drawings = 18,000 + 6,000 − 21,500 = \\$2,500.",
+                working: "18000 + 6000 - 21500 = 2500",
+                marks: 2,
+                markCode: "M",
+              },
+              {
+                part: "b",
+                reasoning:
+                  "Substitute drawings back into the formula: 18,000 + 6,000 − 2,500 = 21,500 — matches closing capital.",
+                marks: 1,
+                markCode: "A",
+              },
+              {
+                part: "c",
+                reasoning:
+                  "Any valid missing figure: sales, purchases, opening/closing inventory, or total expenses — needed to build the trading and profit and loss account.",
+                marks: 2,
+                markCode: "M",
+              },
+            ],
+            finalAnswer:
+              "(a) \\$2,500. (b) Verified by substitution. (c) Any valid missing figure such as sales or purchases.",
+          },
+        },
       ],
     },
     {
@@ -1519,9 +2278,9 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Cost price" },
-              { id: "b", text: "Selling price" },
-              { id: "c", text: "Revenue" },
-              { id: "d", text: "Total assets" },
+              { id: "b", text: "Total assets" },
+              { id: "c", text: "Selling price" },
+              { id: "d", text: "Revenue" },
             ],
             correctChoiceId: "a",
           },
@@ -1995,6 +2754,245 @@ export const lesson32: Lesson = {
             ],
             finalAnswer:
               "(a) Mark-up bridges sales and cost of sales. (b) CoS \\$40,000; GP \\$12,000; NP \\$3,000; CC \\$18,000.",
+          },
+        },
+        {
+          id: "cieiacct-u3-markup-q11",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Mark-up is calculated as a percentage of:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Total expenses" },
+              { id: "b", text: "Opening capital" },
+              { id: "c", text: "Selling price" },
+              { id: "d", text: "Cost of sales" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Mark-up",
+                statement: "Mark-up % = (profit ÷ cost of sales) × 100.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "Mark-up is always expressed on cost, unlike margin which uses selling price.",
+                marks: 1,
+                markCode: "M",
+              },
+            ],
+            finalAnswer: "(a) Cost of sales.",
+          },
+        },
+        {
+          id: "cieiacct-u3-markup-q12",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "Cost of sales is \\$8,000 and the mark-up is 25%. Calculate the gross profit.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "Gross profit", answer: 2000, unit: "$" }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "formula",
+                name: "Mark-up",
+                statement: "GP = mark-up% × cost of sales.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "GP = 25% × 8,000.",
+                working: "0.25 × 8000",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "Gross profit = \\$2,000.",
+                working: "0.25 × 8000 = 2000",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "\\$2,000",
+          },
+        },
+        {
+          id: "cieiacct-u3-markup-q13",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "An item originally selling at \\$120 is reduced by a mark-down of 10%. Calculate the new selling price.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "New price", answer: 108, unit: "$" }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "formula",
+                name: "Mark-down",
+                statement:
+                  "Mark-down % = reduction ÷ original selling price; new price = original × (1 − mark-down%).",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Reduction = 10% × 120 = \\$12.",
+                working: "0.10 × 120 = 12",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "New price = 120 − 12 = \\$108.",
+                working: "120 - 12 = 108",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "\\$108",
+          },
+        },
+        {
+          id: "cieiacct-u3-markup-q14",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "Explain the difference between mark-up and margin, and why confusing them produces wrong answers.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Mark-up vs margin",
+                statement:
+                  "Mark-up is on cost; margin is on selling price — different bases give different percentages.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "Mark-up % = profit ÷ cost of sales × 100; margin % = profit ÷ sales × 100.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "The same profit gives a higher percentage when expressed on the smaller cost base.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "Using the wrong base inflates or deflates the calculated sales or cost figure.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer:
+              "Mark-up is on cost, margin is on selling price; they are not interchangeable — different bases give different results.",
+          },
+        },
+        {
+          id: "cieiacct-u3-markup-q15",
+          difficulty: "challenge",
+          totalMarks: 3,
+          stem: "A business has a cost of sales of \\$30,000 and applies a mark-up of 40%. Calculate sales and gross profit.",
+          response: {
+            type: "numeric",
+            parts: [
+              { label: "Sales", answer: 42000, unit: "$" },
+              { label: "Gross profit", answer: 12000, unit: "$" },
+            ],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "formula",
+                name: "Mark-up",
+                statement:
+                  "GP = mark-up% × CoS; sales = CoS + GP.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "GP = 40% × 30,000 = \\$12,000.",
+                working: "0.40 × 30000 = 12000",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "Sales = 30,000 + 12,000 = \\$42,000.",
+                working: "30000 + 12000 = 42000",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "Both answers stated.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "Sales \\$42,000; gross profit \\$12,000.",
+          },
+        },
+        {
+          id: "cieiacct-u3-markup-q16",
+          difficulty: "challenge",
+          totalMarks: 4,
+          parts: [
+            {
+              label: "a",
+              prompt:
+                "Sales are \\$60,000 and the mark-up on cost of sales is 50%. Calculate the cost of sales.",
+              marks: 2,
+            },
+            {
+              label: "b",
+              prompt:
+                "Opening inventory \\$4,000 and closing inventory \\$6,000. Calculate purchases.",
+              marks: 2,
+            },
+          ],
+          stem: "A trader uses mark-up to find missing figures in incomplete records.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "formula",
+                name: "Mark-up chain",
+                statement:
+                  "Sales = CoS × (1 + mark-up); CoS = opening inv + purchases − closing inv.",
+              },
+            ],
+            steps: [
+              {
+                part: "a",
+                reasoning:
+                  "Sales = CoS × 1.5, so CoS = 60,000 ÷ 1.5 = \\$40,000.",
+                working: "60000 / 1.5 = 40000",
+                marks: 2,
+                markCode: "M",
+              },
+              {
+                part: "b",
+                reasoning:
+                  "Purchases = CoS − opening inv + closing inv = 40,000 − 4,000 + 6,000 = \\$42,000.",
+                working: "40000 - 4000 + 6000 = 42000",
+                marks: 2,
+                markCode: "A",
+              },
+            ],
+            finalAnswer:
+              "(a) Cost of sales \\$40,000. (b) Purchases \\$42,000.",
+            commonErrors: [
+              "Dividing by 0.5 instead of 1.5 — mark-up adds profit ON TOP of cost.",
+            ],
           },
         },
       ],
@@ -2563,6 +3561,291 @@ export const lesson32: Lesson = {
             ],
             finalAnswer:
               "(a) Sales, purchases, inventories, expenses, drawings, capital. (b) CoS \\$48,000; GP \\$37,000; NP \\$23,000; CC \\$36,000.",
+          },
+        },
+        {
+          id: "cieiacct-u3-ir-exam-q11",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "The first step when solving an incomplete records problem is to:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Calculate mark-up before anything else" },
+              { id: "b", text: "List all the figures you are given" },
+              { id: "c", text: "Prepare the balance sheet immediately" },
+              { id: "d", text: "Guess the missing sales figure" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Exam technique",
+                statement:
+                  "List knowns first, then identify the target and work through the chain of formulas.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "Knowing which figures exist determines which formula chain to use.",
+                marks: 1,
+                markCode: "M",
+              },
+            ],
+            finalAnswer: "(a) List all given figures.",
+          },
+        },
+        {
+          id: "cieiacct-u3-ir-exam-q12",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "Opening capital \\$12,000; drawings \\$5,000; closing capital \\$16,000. Calculate net profit.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "Net profit", answer: 9000, unit: "$" }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "formula",
+                name: "Capital chain",
+                statement:
+                  "Closing capital = opening capital + net profit − drawings.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "Rearrange: NP = closing capital − opening capital + drawings.",
+                working: "16000 - 12000 + 5000",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "NP = 4,000 + 5,000 = \\$9,000.",
+                working: "4000 + 5000 = 9000",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "Net profit = \\$9,000.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "\\$9,000",
+          },
+        },
+        {
+          id: "cieiacct-u3-ir-exam-q13",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "Sales \\$80,000; opening inventory \\$5,000; purchases \\$45,000; closing inventory \\$8,000. Calculate gross profit.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "Gross profit", answer: 38000, unit: "$" }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "formula",
+                name: "Trading chain",
+                statement:
+                  "CoS = opening inv + purchases − closing inv; GP = sales − CoS.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "Cost of sales = 5,000 + 45,000 − 8,000 = \\$42,000.",
+                working: "5000 + 45000 - 8000 = 42000",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "Gross profit = 80,000 − 42,000 = \\$38,000.",
+                working: "80000 - 42000 = 38000",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "Gross profit = \\$38,000.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "\\$38,000",
+          },
+        },
+        {
+          id: "cieiacct-u3-ir-exam-q14",
+          difficulty: "core",
+          totalMarks: 4,
+          parts: [
+            {
+              label: "a",
+              prompt:
+                "Opening capital \\$20,000; drawings \\$6,000; closing capital \\$26,000. Calculate net profit.",
+              marks: 2,
+            },
+            {
+              label: "b",
+              prompt:
+                "Gross profit is \\$15,000. Calculate total expenses.",
+              marks: 2,
+            },
+          ],
+          stem: "A business prepares accounts from incomplete records.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "formula",
+                name: "Profit chain",
+                statement:
+                  "NP = CC − OC + drawings; NP = GP − expenses.",
+              },
+            ],
+            steps: [
+              {
+                part: "a",
+                reasoning:
+                  "NP = 26,000 − 20,000 + 6,000 = \\$12,000.",
+                working: "26000 - 20000 + 6000 = 12000",
+                marks: 2,
+                markCode: "M",
+              },
+              {
+                part: "b",
+                reasoning:
+                  "Expenses = GP − NP = 15,000 − 12,000 = \\$3,000.",
+                working: "15000 - 12000 = 3000",
+                marks: 2,
+                markCode: "A",
+              },
+            ],
+            finalAnswer:
+              "(a) Net profit \\$12,000. (b) Expenses \\$3,000.",
+          },
+        },
+        {
+          id: "cieiacct-u3-ir-exam-q15",
+          difficulty: "challenge",
+          totalMarks: 5,
+          parts: [
+            {
+              label: "a",
+              prompt:
+                "Sales \\$90,000; cost of sales \\$63,000. Calculate gross profit and the gross profit margin.",
+              marks: 3,
+            },
+            {
+              label: "b",
+              prompt:
+                "Expenses are \\$11,000. Calculate net profit.",
+              marks: 2,
+            },
+          ],
+          stem: "A trader wants to check profitability from incomplete records.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "formula",
+                name: "Profit chain",
+                statement:
+                  "GP = sales − CoS; margin = GP ÷ sales; NP = GP − expenses.",
+              },
+            ],
+            steps: [
+              {
+                part: "a",
+                reasoning:
+                  "GP = 90,000 − 63,000 = \\$27,000; margin = 27,000 ÷ 90,000 × 100 = 30%.",
+                working: "90000 - 63000 = 27000; 27000/90000 = 30%",
+                marks: 3,
+                markCode: "M",
+              },
+              {
+                part: "b",
+                reasoning: "NP = 27,000 − 11,000 = \\$16,000.",
+                working: "27000 - 11000 = 16000",
+                marks: 2,
+                markCode: "A",
+              },
+            ],
+            finalAnswer:
+              "(a) GP \\$27,000; margin 30%. (b) NP \\$16,000.",
+          },
+        },
+        {
+          id: "cieiacct-u3-ir-exam-q16",
+          difficulty: "challenge",
+          totalMarks: 6,
+          parts: [
+            {
+              label: "a",
+              prompt:
+                "Opening inventory \\$6,000; purchases \\$55,000; closing inventory \\$9,000. Calculate cost of sales.",
+              marks: 2,
+            },
+            {
+              label: "b",
+              prompt:
+                "Sales \\$100,000 and mark-up on cost of sales is 25%. Verify whether the given sales figure is consistent with the mark-up.",
+              marks: 2,
+            },
+            {
+              label: "c",
+              prompt:
+                "State one other figure needed to calculate net profit.",
+              marks: 2,
+            },
+          ],
+          stem: "A business keeps incomplete records and uses mark-up to check its figures.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "formula",
+                name: "Trading chain",
+                statement:
+                  "CoS = OI + purchases − CI; sales = CoS × (1 + mark-up).",
+              },
+            ],
+            steps: [
+              {
+                part: "a",
+                reasoning:
+                  "CoS = 6,000 + 55,000 − 9,000 = \\$52,000.",
+                working: "6000 + 55000 - 9000 = 52000",
+                marks: 2,
+                markCode: "M",
+              },
+              {
+                part: "b",
+                reasoning:
+                  "Expected sales = 52,000 × 1.25 = \\$65,000 — the given \\$100,000 is NOT consistent; investigate.",
+                working: "52000 × 1.25 = 65000",
+                marks: 2,
+                markCode: "A",
+              },
+              {
+                part: "c",
+                reasoning:
+                  "Any valid figure: total expenses (or gross profit and expenses) — needed to move from GP to NP.",
+                marks: 2,
+                markCode: "M",
+              },
+            ],
+            finalAnswer:
+              "(a) CoS \\$52,000. (b) Expected sales \\$65,000 — given \\$100,000 inconsistent. (c) Expenses (or equivalent).",
+            commonErrors: [
+              "Applying mark-up to sales instead of cost of sales.",
+            ],
           },
         },
       ],

@@ -50,11 +50,11 @@ export const lesson42: Lesson = {
           totalMarks: 2,
           stem: "Solve $x^2-5x+6=0$. Which pair gives all solutions?",
           response: { type: "mcq", choices: [
-            { id: "a", text: "$x=2$ or $x=3$" },
-            { id: "b", text: "$x=-2$ or $x=-3$" },
-            { id: "c", text: "$x=1$ or $x=6$" },
-            { id: "d", text: "$x=2$ only" },
-          ], correctChoiceId: "a" },
+            { id: "a", text: "$x=1$ or $x=6$" },
+            { id: "b", text: "$x=2$ only" },
+            { id: "c", text: "$x=2$ or $x=3$" },
+            { id: "d", text: "$x=-2$ or $x=-3$" },
+          ], correctChoiceId: "c" },
           markscheme: {
             principles: [
               { kind: "law", name: "Factoring a monic quadratic", statement: "$x^2-(r_1+r_2)x+r_1r_2=(x-r_1)(x-r_2)$." },
@@ -192,11 +192,11 @@ export const lesson42: Lesson = {
           totalMarks: 2,
           stem: "Without solving, classify the roots of $2x^2-4x+5=0$ over the real numbers.",
           response: { type: "mcq", choices: [
-            { id: "a", text: "Two distinct real roots" },
-            { id: "b", text: "One repeated real root" },
-            { id: "c", text: "No real roots; two nonreal complex roots" },
-            { id: "d", text: "No roots in any number system" },
-          ], correctChoiceId: "c" },
+            { id: "a", text: "No real roots; two nonreal complex roots" },
+            { id: "b", text: "No roots in any number system" },
+            { id: "c", text: "Two distinct real roots" },
+            { id: "d", text: "One repeated real root" },
+          ], aorrectChoiceId: "c" },
           markscheme: {
             principles: [
               { kind: "formula", name: "Discriminant", statement: "$D=b^2-4ac$." },

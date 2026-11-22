@@ -96,11 +96,11 @@ export const lesson21: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Penetration pricing" },
-              { id: "b", text: "Skimming" },
-              { id: "c", text: "Cost-plus pricing" },
-              { id: "d", text: "Predatory pricing" },
+              { id: "b", text: "Cost-plus pricing" },
+              { id: "c", text: "Predatory pricing" },
+              { id: "d", text: "Skimming" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -318,12 +318,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Product" },
-              { id: "b", text: "Place" },
-              { id: "c", text: "Promotion" },
-              { id: "d", text: "Price" },
+              { id: "a", text: "Place" },
+              { id: "b", text: "Promotion" },
+              { id: "c", text: "Price" },
+              { id: "d", text: "Product" },
             ],
-            correctChoiceId: "d",
+            correctChoiceIc: "d",
           },
           markscheme: {
             principles: [
@@ -363,11 +363,11 @@ export const lesson21: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Maturity, growth, introduction, decline" },
-              { id: "b", text: "Introduction, growth, maturity, decline" },
-              { id: "c", text: "Growth, introduction, decline, maturity" },
+              { id: "b", text: "Growth, introduction, decline, maturity" },
+              { id: "c", text: "Introduction, growth, maturity, decline" },
               { id: "d", text: "Introduction, maturity, growth, decline" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -405,12 +405,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$14$" },
-              { id: "b", text: "$15$" },
-              { id: "c", text: "$30$" },
-              { id: "d", text: "$37$" },
+              { id: "a", text: "$15$" },
+              { id: "b", text: "$14$" },
+              { id: "c", text: "$37$" },
+              { id: "d", text: "$30$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -445,12 +445,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Penetration pricing" },
+              { id: "a", text: "Value-based pricing" },
               { id: "b", text: "Skimming" },
-              { id: "c", text: "Cost-plus pricing" },
-              { id: "d", text: "Value-based pricing" },
+              { id: "c", text: "Penetration pricing" },
+              { id: "d", text: "Cost-plus pricing" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -489,12 +489,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Competition-based pricing" },
-              { id: "b", text: "Cost-plus pricing" },
-              { id: "c", text: "Value-based pricing" },
+              { id: "a", text: "Cost-plus pricing" },
+              { id: "b", text: "Value-based pricing" },
+              { id: "c", text: "Competition-based pricing" },
               { id: "d", text: "Predatory pricing" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -901,10 +901,10 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Introduction" },
+              { id: "a", text: "Maturity" },
               { id: "b", text: "Growth" },
-              { id: "c", text: "Maturity" },
-              { id: "d", text: "Decline" },
+              { id: "c", text: "Decline" },
+              { id: "d", text: "Introduction" },
             ],
             correctChoiceId: "b",
           },
@@ -945,12 +945,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Subtracting fixed costs from the unit cost" },
-              { id: "b", text: "Adding a percentage markup to the unit cost" },
-              { id: "c", text: "Matching the lowest rival's price" },
-              { id: "d", text: "Adding the promotion budget to the price" },
+              { id: "a", text: "Matching the lowest rival's price" },
+              { id: "b", text: "Adding the promotion budget to the price" },
+              { id: "c", text: "Subtracting fixed costs from the unit cost" },
+              { id: "d", text: "Adding a percentage markup to the unit cost" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -991,11 +991,11 @@ export const lesson21: Lesson = {
                 id: "a",
                 text: "Run heavy launch promotion to build awareness",
               },
-              { id: "b", text: "Focus on cost control and differentiation" },
+              { id: "b", text: "Withdraw all marketing support" },
               { id: "c", text: "Raise prices sharply to exploit peak demand" },
-              { id: "d", text: "Withdraw all marketing support" },
+              { id: "d", text: "Focus on cost control and differentiation" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1036,16 +1036,16 @@ export const lesson21: Lesson = {
             choices: [
               {
                 id: "a",
-                text: "The product is undifferentiated and sold in bulk",
-              },
-              {
-                id: "b",
                 text: "Customers strongly value unique features or the brand",
               },
-              { id: "c", text: "The firm wants to recover costs quickly" },
-              { id: "d", text: "Rivals are pricing below cost" },
+              { id: "b", text: "The firm wants to recover costs quickly" },
+              { id: "c", text: "Rivals are pricing below cost" },
+              {
+                id: "d",
+                text: "The product is undifferentiated and sold in bulk",
+              },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -1085,15 +1085,15 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Too much promotion overall" },
               {
-                id: "b",
+                id: "a",
                 text: "The pricing contradicts the premium positioning",
               },
+              { id: "b", text: "Too much promotion overall" },
               { id: "c", text: "The place is too selective" },
               { id: "d", text: "The product quality is too low" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -1135,17 +1135,17 @@ export const lesson21: Lesson = {
             choices: [
               {
                 id: "a",
-                text: "The product is a highly differentiated luxury good",
+                text: "The firm has enormous spare production capacity",
               },
               {
                 id: "b",
                 text: "The market is crowded and customers are price-sensitive",
               },
+              { id: "c", text: "There are no rival products at all" },
               {
-                id: "c",
-                text: "The firm has enormous spare production capacity",
+                id: "d",
+                text: "The product is a highly differentiated luxury good",
               },
-              { id: "d", text: "There are no rival products at all" },
             ],
             correctChoiceId: "b",
           },
@@ -1607,12 +1607,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Personal selling" },
-              { id: "b", text: "Public relations" },
-              { id: "c", text: "Advertising" },
+              { id: "a", text: "Advertising" },
+              { id: "b", text: "Personal selling" },
+              { id: "c", text: "Public relations" },
               { id: "d", text: "Sales promotion" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1826,12 +1826,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A wholesaler" },
-              { id: "b", text: "A retailer" },
-              { id: "c", text: "The firm's own website" },
-              { id: "d", text: "A supermarket chain" },
+              { id: "a", text: "A retailer" },
+              { id: "b", text: "A supermarket chain" },
+              { id: "c", text: "A wholesaler" },
+              { id: "d", text: "The firm's own website" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1870,8 +1870,8 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Advertising" },
-              { id: "b", text: "Sales promotion" },
+              { id: "a", text: "Sales promotion" },
+              { id: "b", text: "Advertising" },
               { id: "c", text: "Public relations" },
               { id: "d", text: "Personal selling" },
             ],
@@ -1914,12 +1914,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Advertising" },
-              { id: "b", text: "Sales promotion" },
-              { id: "c", text: "Public relations" },
-              { id: "d", text: "Personal selling" },
+              { id: "a", text: "Sales promotion" },
+              { id: "b", text: "Advertising" },
+              { id: "c", text: "Personal selling" },
+              { id: "d", text: "Public relations" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -1963,8 +1963,8 @@ export const lesson21: Lesson = {
                 text: "Selective distribution through a few exclusive outlets",
               },
               { id: "b", text: "Wide availability through many outlets" },
-              { id: "c", text: "No distribution at all" },
-              { id: "d", text: "Online-only sales" },
+              { id: "c", text: "Online-only sales" },
+              { id: "d", text: "No distribution at all" },
             ],
             correctChoiceId: "b",
           },
@@ -2006,11 +2006,11 @@ export const lesson21: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "The product" },
-              { id: "b", text: "The price" },
-              { id: "c", text: "The place" },
-              { id: "d", text: "The promotion" },
+              { id: "b", text: "The place" },
+              { id: "c", text: "The promotion" },
+              { id: "d", text: "The price" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -2421,10 +2421,10 @@ export const lesson21: Lesson = {
             choices: [
               { id: "a", text: "The firm's own shop" },
               { id: "b", text: "The firm's own website" },
-              { id: "c", text: "A wholesaler" },
-              { id: "d", text: "A direct mail-order catalogue" },
+              { id: "c", text: "A direct mail-order catalogue" },
+              { id: "d", text: "A wholesaler" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -2462,12 +2462,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Advertising" },
-              { id: "b", text: "Sales promotion" },
-              { id: "c", text: "Public relations" },
-              { id: "d", text: "Personal selling" },
+              { id: "a", text: "Sales promotion" },
+              { id: "b", text: "Public relations" },
+              { id: "c", text: "Personal selling" },
+              { id: "d", text: "Advertising" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -2506,12 +2506,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Bottled water" },
-              { id: "b", text: "Breakfast cereal" },
-              { id: "c", text: "Industrial machinery" },
-              { id: "d", text: "Newspapers" },
+              { id: "a", text: "Industrial machinery" },
+              { id: "b", text: "Newspapers" },
+              { id: "c", text: "Bottled water" },
+              { id: "d", text: "Breakfast cereal" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -2550,12 +2550,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Advertising" },
-              { id: "b", text: "Sales promotion" },
-              { id: "c", text: "Public relations" },
-              { id: "d", text: "Personal selling" },
+              { id: "a", text: "Sales promotion" },
+              { id: "b", text: "Public relations" },
+              { id: "c", text: "Personal selling" },
+              { id: "d", text: "Advertising" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -2595,11 +2595,11 @@ export const lesson21: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "The product" },
-              { id: "b", text: "The price" },
-              { id: "c", text: "The place" },
-              { id: "d", text: "The promotion" },
+              { id: "b", text: "The place" },
+              { id: "c", text: "The promotion" },
+              { id: "d", text: "The price" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [

@@ -96,12 +96,12 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Three separate written reflections" },
-              { id: "b", text: "One 500-word statement plus a viva voce" },
+              { id: "a", text: "One 500-word statement plus a viva voce" },
+              { id: "b", text: "A bibliography and word count" },
               { id: "c", text: "A presentation to classmates" },
-              { id: "d", text: "A bibliography and word count" },
+              { id: "d", text: "Three separate written reflections" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -326,13 +326,13 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Summarising the essay's findings" },
+              { id: "a", text: "Rewriting the essay's introduction" },
               {
                 id: "b",
                 text: "The learning process and development behind the research",
               },
-              { id: "c", text: "Listing all sources consulted" },
-              { id: "d", text: "Rewriting the essay's introduction" },
+              { id: "c", text: "Summarising the essay's findings" },
+              { id: "d", text: "Listing all sources consulted" },
             ],
             correctChoiceId: "b",
           },
@@ -371,15 +371,15 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Only your final grade" },
               {
-                id: "b",
+                id: "a",
                 text: "Your essay, sources, reasoning and reflection with your supervisor",
               },
+              { id: "b", text: "Only your final grade" },
               { id: "c", text: "Other students' essays" },
               { id: "d", text: "Nothing — it is a silent formality" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -461,19 +461,19 @@ export const lesson34: Lesson = {
             choices: [
               {
                 id: "a",
-                text: "I misidentified a key source and had to rebuild my argument",
+                text: "I struggled with the data and sought my supervisor's help",
               },
-              { id: "b", text: "I learned to manage my time better" },
               {
-                id: "c",
+                id: "b",
                 text: "My question narrowed after reading Smith's study",
               },
               {
-                id: "d",
-                text: "I struggled with the data and sought my supervisor's help",
+                id: "c",
+                text: "I misidentified a key source and had to rebuild my argument",
               },
+              { id: "d", text: "I learned to manage my time better" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -511,15 +511,15 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Memorise the essay verbatim" },
               {
-                id: "b",
+                id: "a",
                 text: "Re-read your research question, reflective statement and key arguments",
               },
+              { id: "b", text: "Memorise the essay verbatim" },
               { id: "c", text: "Bring written notes to read aloud" },
               { id: "d", text: "Skip it — it is informal" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -557,15 +557,15 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Repeats the findings in order" },
+              { id: "a", text: "Lists the sources used" },
+              { id: "b", text: "Repeats the findings in order" },
               {
-                id: "b",
+                id: "c",
                 text: "Accounts for the learning process, challenges and growth",
               },
-              { id: "c", text: "Is always shorter" },
-              { id: "d", text: "Lists the sources used" },
+              { id: "d", text: "Is always shorter" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1054,12 +1054,12 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "20" },
-              { id: "b", text: "24" },
-              { id: "c", text: "30" },
+              { id: "a", text: "30" },
+              { id: "b", text: "20" },
+              { id: "c", text: "24" },
               { id: "d", text: "36" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1279,12 +1279,12 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "24 marks" },
-              { id: "b", text: "30 marks" },
-              { id: "c", text: "36 marks" },
-              { id: "d", text: "40 marks" },
+              { id: "a", text: "30 marks" },
+              { id: "b", text: "24 marks" },
+              { id: "c", text: "40 marks" },
+              { id: "d", text: "36 marks" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -1316,15 +1316,15 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Only citation accuracy" },
               {
-                id: "b",
+                id: "a",
                 text: "The research question, introduction and conclusion",
               },
-              { id: "c", text: "Only the viva voce" },
-              { id: "d", text: "Word count compliance" },
+              { id: "b", text: "Only citation accuracy" },
+              { id: "c", text: "Word count compliance" },
+              { id: "d", text: "Only the viva voce" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -1402,12 +1402,12 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The quality of the research question" },
-              { id: "b", text: "Depth of knowledge and sources" },
-              { id: "c", text: "Discussion and evaluation of perspectives" },
-              { id: "d", text: "Quality of reflection" },
+              { id: "a", text: "Depth of knowledge and sources" },
+              { id: "b", text: "The quality of the research question" },
+              { id: "c", text: "Quality of reflection" },
+              { id: "d", text: "Discussion and evaluation of perspectives" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1442,12 +1442,12 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The essay's citations" },
-              { id: "b", text: "The RPF reflective statement and viva voce" },
-              { id: "c", text: "The essay's abstract" },
-              { id: "d", text: "The word count" },
+              { id: "a", text: "The word count" },
+              { id: "b", text: "The essay's abstract" },
+              { id: "c", text: "The essay's citations" },
+              { id: "d", text: "The RPF reflective statement and viva voce" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1485,15 +1485,15 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Elegant prose alone" },
+              { id: "a", text: "Essay length" },
+              { id: "b", text: "Speed of writing" },
               {
-                id: "b",
+                id: "c",
                 text: "Command of relevant research, sources and argument",
               },
-              { id: "c", text: "Speed of writing" },
-              { id: "d", text: "Essay length" },
+              { id: "d", text: "Elegant prose alone" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

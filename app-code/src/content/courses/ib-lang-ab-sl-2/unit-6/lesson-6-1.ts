@@ -79,8 +79,8 @@ export const lesson61: Lesson = {
             choices: [
               { id: "a", text: "A law of the country" },
               { id: "b", text: "A traditional way of doing something" },
-              { id: "c", text: "A type of food" },
-              { id: "d", text: "A building" },
+              { id: "c", text: "A building" },
+              { id: "d", text: "A type of food" },
             ],
             correctChoiceId: "b",
           },
@@ -246,12 +246,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "One single culture" },
-              { id: "b", text: "Many different kinds of people and cultures" },
-              { id: "c", text: "A type of music" },
-              { id: "d", text: "A law of the country" },
+              { id: "a", text: "A law of the country" },
+              { id: "b", text: "One single culture" },
+              { id: "c", text: "Many different kinds of people and cultures" },
+              { id: "d", text: "A type of music" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -319,9 +319,9 @@ export const lesson61: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Refuse to eat" },
-              { id: "b", text: "Eat with a fork only" },
+              { id: "b", text: "Leave the table" },
               { id: "c", text: "Watch others, try politely and ask questions" },
-              { id: "d", text: "Leave the table" },
+              { id: "d", text: "Eat with a fork only" },
             ],
             correctChoiceId: "c",
           },
@@ -403,15 +403,15 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Closed to new ideas" },
               {
-                id: "b",
+                id: "a",
                 text: "Willing to accept and learn about differences",
               },
-              { id: "c", text: "Very fast at learning" },
+              { id: "b", text: "Very fast at learning" },
+              { id: "c", text: "Closed to new ideas" },
               { id: "d", text: "Good at exams" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -481,8 +481,8 @@ export const lesson61: Lesson = {
             choices: [
               { id: "a", text: "Why do you do that?" },
               { id: "b", text: "Is this a custom here?" },
-              { id: "c", text: "That is weird." },
-              { id: "d", text: "Stop doing that!" },
+              { id: "c", text: "Stop doing that!" },
+              { id: "d", text: "That is weird." },
             ],
             correctChoiceId: "b",
           },
@@ -557,10 +557,10 @@ export const lesson61: Lesson = {
             choices: [
               { id: "a", text: "Eat it anyway" },
               { id: "b", text: "Throw it away" },
-              { id: "c", text: "Politely explain your allergy and thank them" },
-              { id: "d", text: "Leave without eating" },
+              { id: "c", text: "Leave without eating" },
+              { id: "d", text: "Politely explain your allergy and thank them" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -660,8 +660,8 @@ export const lesson61: Lesson = {
             choices: [
               { id: "a", text: "Because of random accidents" },
               { id: "b", text: "History, geography, religion and family life" },
-              { id: "c", text: "Only because of the weather" },
-              { id: "d", text: "Because of school exams" },
+              { id: "c", text: "Because of school exams" },
+              { id: "d", text: "Only because of the weather" },
             ],
             correctChoiceId: "b",
           },
@@ -775,12 +775,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Copying every gesture" },
-              { id: "b", text: "Speaking clearly and smiling" },
+              { id: "a", text: "Speaking clearly and smiling" },
+              { id: "b", text: "Copying every gesture" },
               { id: "c", text: "Refusing to try new foods" },
               { id: "d", text: "Speaking very fast" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -946,8 +946,8 @@ export const lesson61: Lesson = {
             choices: [
               { id: "a", text: "Pretend you understand" },
               { id: "b", text: "Ask politely and use simple words" },
-              { id: "c", text: "Speak louder and faster" },
-              { id: "d", text: "Stop listening" },
+              { id: "c", text: "Stop listening" },
+              { id: "d", text: "Speak louder and faster" },
             ],
             correctChoiceId: "b",
           },
@@ -1016,12 +1016,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Use it everywhere" },
-              { id: "b", text: "Watch what locals do and ask before copying" },
-              { id: "c", text: "Teach everyone it means OK" },
-              { id: "d", text: "Never learn any gestures" },
+              { id: "a", text: "Watch what locals do and ask before copying" },
+              { id: "b", text: "Use it everywhere" },
+              { id: "c", text: "Never learn any gestures" },
+              { id: "d", text: "Teach everyone it means OK" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -1108,12 +1108,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Pointing at people" },
-              { id: "b", text: "Making rude gestures" },
-              { id: "c", text: "Smiling and keeping hands relaxed" },
-              { id: "d", text: "Staring without blinking" },
+              { id: "a", text: "Staring without blinking" },
+              { id: "b", text: "Smiling and keeping hands relaxed" },
+              { id: "c", text: "Pointing at people" },
+              { id: "d", text: "Making rude gestures" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1180,9 +1180,9 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "You must only adapt" },
+              { id: "a", text: "You must travel abroad" },
               { id: "b", text: "Both sides share and learn from each other" },
-              { id: "c", text: "You must travel abroad" },
+              { id: "c", text: "You must only adapt" },
               { id: "d", text: "Only one person talks" },
             ],
             correctChoiceId: "b",
@@ -1246,10 +1246,10 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Say it again louder" },
+              { id: "a", text: "Ignore it and walk away" },
               { id: "b", text: "Apologise politely and learn what it means" },
-              { id: "c", text: "Blame the other person" },
-              { id: "d", text: "Ignore it and walk away" },
+              { id: "c", text: "Say it again louder" },
+              { id: "d", text: "Blame the other person" },
             ],
             correctChoiceId: "b",
           },
@@ -1343,12 +1343,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Copy it immediately" },
-              { id: "b", text: "Observe others or ask politely" },
-              { id: "c", text: "Show it to everyone first" },
-              { id: "d", text: "Forget about it" },
+              { id: "a", text: "Show it to everyone first" },
+              { id: "b", text: "Copy it immediately" },
+              { id: "c", text: "Forget about it" },
+              { id: "d", text: "Observe others or ask politely" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

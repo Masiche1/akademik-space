@@ -1,4 +1,41 @@
-import type { Lesson } from "../../../types.ts";
+import type { Difficulty, Lesson, MarkPrinciple, MarkStep, Markscheme, Question, QuestionPart, QuestionResponse } from "../../../types.ts";
+
+type StepTuple = [string, number, MarkStep["markCode"], string?];
+type StructStepTuple = [string, string, number, MarkStep["markCode"], string?];
+type PartTuple = [string, string, number];
+
+function prin(kind: MarkPrinciple["kind"], name: string, statement: string): MarkPrinciple { return { kind, name, statement }; }
+function step(reasoning: string, marks: number, markCode: MarkStep["markCode"], working?: string, part?: string): MarkStep {
+  const s: MarkStep = { reasoning, marks, markCode };
+  if (working !== undefined) s.working = working;
+  if (part !== undefined) s.part = part;
+  return s;
+}
+function scheme(principles: MarkPrinciple[], steps: MarkStep[], finalAnswer: string, commonErrors?: string[]): Markscheme {
+  const m: Markscheme = { principles, steps, finalAnswer };
+  if (commonErrors && commonErrors.length) m.commonErrors = commonErrors;
+  return m;
+}
+function makeQ(id: string, difficulty: Difficulty, totalMarks: number, stem: string, response: QuestionResponse, markscheme: Markscheme, parts?: QuestionPart[]): Question {
+  const q: Question = { id, difficulty, totalMarks, stem, response, markscheme };
+  if (parts) q.parts = parts;
+  return q;
+}
+function mcq(id: string, difficulty: Difficulty, stem: string, choices: [string, string, string, string], correct: "a" | "b" | "c" | "d", principle: MarkPrinciple, reasoning: string, commonError?: string): Question {
+  const textById = { a: choices[0], b: choices[1], c: choices[2], d: choices[3] };
+  return makeQ(id, difficulty, 1, stem, { type: "mcq", choices: [{ id: "a", text: choices[0] }, { id: "b", text: choices[1] }, { id: "c", text: choices[2] }, { id: "d", text: choices[3] }], correctChoiceId: correct }, scheme([principle], [step(reasoning, 1, "B")], `**(${correct})** ${textById[correct]}`, commonError ? [commonError] : undefined));
+}
+function num(id: string, difficulty: Difficulty, stem: string, answer: number, unit: string | undefined, principle: MarkPrinciple, reasoning: string, working: string, finalAnswer: string, markCode: MarkStep["markCode"] = "M", commonError?: string): Question {
+  const part: { label: string; answer: number; unit?: string } = { label: "a", answer, ...(unit !== undefined ? { unit } : {}) };
+  return makeQ(id, difficulty, 1, stem, { type: "numeric", parts: [part] }, scheme([principle], [step(reasoning, 1, markCode, working)], finalAnswer, commonError ? [commonError] : undefined));
+}
+function open(id: string, difficulty: Difficulty, totalMarks: number, stem: string, principle: MarkPrinciple, steps: StepTuple[], finalAnswer: string, commonError?: string): Question {
+  return makeQ(id, difficulty, totalMarks, stem, { type: "open" }, scheme([principle], steps.map((s) => step(s[0], s[1], s[2], s[3])), finalAnswer, commonError ? [commonError] : undefined));
+}
+function struct(id: string, difficulty: Difficulty, stem: string, parts: PartTuple[], principle: MarkPrinciple, steps: StructStepTuple[], finalAnswer: string, commonError?: string): Question {
+  const total = parts.reduce((sum, p) => sum + p[2], 0);
+  return makeQ(id, difficulty, total, stem, { type: "open" }, scheme([principle], steps.map((s) => step(s[1], s[2], s[3], s[4], s[0])), finalAnswer, commonError ? [commonError] : undefined), parts.map((p) => ({ label: p[0], prompt: p[1], marks: p[2] })));
+}
 
 export const lesson82: Lesson = {
   id: "olbio-u8-lesson-8-2",
@@ -52,9 +89,9 @@ export const lesson82: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Testis" },
-              { id: "b", text: "Ovary" },
-              { id: "c", text: "Uterus" },
-              { id: "d", text: "Penis" },
+              { id: "b", text: "Penis" },
+              { id: "c", text: "Ovary" },
+              { id: "d", text: "Uterus" },
             ],
             correctChoiceId: "a",
           },
@@ -138,6 +175,18 @@ export const lesson82: Lesson = {
             commonErrors: ["In (d) saying uterus — fertilisation happens BEFORE implantation in uterus."],
           },
         },
+        mcq("olbio-u8-reproductive-systems-q5", "foundation", "The ovaries produce:", ["Eggs and hormones such as oestrogen", "Sperm and testosterone", "Urine", "Milk"], "a", prin("property", "Ovaries", "Ovaries produce eggs and hormones oestrogen/progesterone."), "Match organ to product.", "Testes produce sperm and testosterone."),
+        mcq("olbio-u8-reproductive-systems-q6", "foundation", "Fertilisation usually occurs in the:", ["Oviduct (Fallopian tube)", "Uterus", "Ovary", "Vagina"], "a", prin("property", "Fertilisation site", "Sperm meets egg in the oviduct."), "Recall the site.", "The uterus is where the embryo develops after implantation."),
+        mcq("olbio-u8-reproductive-systems-q7", "core", "Sperm are produced in the:", ["Testes", "Ovaries", "Uterus", "Prostate only"], "a", prin("property", "Sperm production", "The testes produce sperm and testosterone."), "Match organ to gamete.", "Ovaries produce eggs."),
+        mcq("olbio-u8-reproductive-systems-q8", "core", "Compared with sperm, an egg is:", ["Large and immobile", "Small and mobile", "Produced in millions", "Able to swim"], "a", prin("property", "Egg structure", "The egg is large, contains nutrients and does not move."), "Compare gamete adaptations.", "Sperm are small and mobile."),
+        mcq("olbio-u8-reproductive-systems-q9", "challenge", "Sperm are produced in vast numbers while usually only one egg is released per cycle because:", ["Many sperm must reach the egg for fertilisation", "Eggs are too large to make many", "Sperm cannot fertilise", "Only males reproduce"], "a", prin("property", "Gamete numbers", "Many sperm increase the chance that one reaches and fertilises the egg."), "Link numbers to fertilisation success.", "Egg production is limited by the cycle."),
+        num("olbio-u8-reproductive-systems-q10", "foundation", "The main female reproductive organs are ovaries, oviducts and uterus. How many are there?", 3, "organs", prin("property", "Female organs", "Ovaries, oviducts and uterus are the main organs."), "Count the organs.", "3", "**3 organs**"),
+        num("olbio-u8-reproductive-systems-q11", "core", "A sperm cell has one flagellum for swimming. How many flagella does one sperm have?", 1, "flagellum", prin("property", "Sperm flagellum", "Sperm have a single flagellum for movement."), "Recall the number.", "1", "**1 flagellum**"),
+        num("olbio-u8-reproductive-systems-q12", "core", "In a 28-day menstrual cycle, ovulation occurs about day 14. How many days into the cycle is ovulation?", 14, "days", prin("property", "Ovulation timing", "Ovulation occurs around day 14 of a ~28-day cycle."), "Read the day.", "14", "**Day 14**"),
+        num("olbio-u8-reproductive-systems-q13", "challenge", "If the menstrual cycle is 28 days and ovulation is on day 14, what percentage of the cycle has passed before ovulation?", 50, "%", prin("property", "Cycle percentage", "Percentage = day / cycle length x 100."), "Divide day by cycle length.", "14 / 28 x 100 = 50", "**50%**"),
+        open("olbio-u8-reproductive-systems-q14", "core", 3, "Describe two structural differences between sperm and egg that suit their functions.", prin("property", "Gamete adaptations", "Sperm are small/mobile with enzymes; egg is large with nutrients."), [["Sperm has a flagellum for swimming to the egg.", 1, "M"], ["Sperm has acrosome enzymes to penetrate the egg.", 1, "M"], ["The egg is large with nutrient-rich cytoplasm for early development.", 1, "A"]], "Sperm is small/mobile with a flagellum and enzymes; the egg is large and nutrient-rich.", "Describing only one gamete."),
+        open("olbio-u8-reproductive-systems-q15", "challenge", 4, "Describe the role of each main part of the female reproductive system.", prin("property", "Female system", "Ovaries produce eggs; oviducts transport; uterus develops embryo."), [["Ovaries produce eggs and hormones.", 1, "M"], ["Oviducts transport the egg and are the fertilisation site.", 1, "M"], ["The uterus is where the embryo develops.", 1, "M"], ["Complete the roles of all parts.", 1, "A"]], "Ovaries produce eggs/hormones, oviducts transport to fertilisation site, uterus supports development.", "Saying fertilisation occurs in the uterus."),
+        struct("olbio-u8-reproductive-systems-q16", "challenge", "A student compares the male and female reproductive systems.", [["a", "Name the organ that produces sperm and the one that produces eggs.", 2], ["b", "State where fertilisation occurs.", 1], ["c", "Describe two adaptations of sperm for its role.", 2], ["d", "Describe two adaptations of the egg for its role.", 2], ["e", "State the function of the uterus.", 2]], prin("property", "Reproductive systems", "Testes produce sperm; ovaries produce eggs; fertilisation in oviduct; uterus develops embryo."), [["a", "Testes produce sperm.", 1, "M"], ["a", "Ovaries produce eggs.", 1, "A"], ["b", "Fertilisation occurs in the oviduct.", 1, "A"], ["c", "Sperm has a flagellum for swimming.", 1, "M"], ["c", "Sperm has acrosome enzymes to penetrate the egg.", 1, "A"], ["d", "Egg is large with nutrient-rich cytoplasm.", 1, "M"], ["d", "Egg is immobile and released one per cycle.", 1, "A"], ["e", "The uterus is where the embryo/fetus develops.", 1, "M"], ["e", "Its muscular wall contracts during birth.", 1, "A"]], "(a) testes/ovaries (b) oviduct (c) flagellum+enzymes (d) large+nutrients (e) embryo development", "Placing fertilisation in the uterus instead of the oviduct."),
       ],
     },
     {
@@ -174,12 +223,12 @@ export const lesson82: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Release of an egg from the ovary" },
+              { id: "a", text: "Fertilisation of egg" },
               { id: "b", text: "Shedding of uterus lining" },
-              { id: "c", text: "Fertilisation of egg" },
+              { id: "c", text: "Release of an egg from the ovary" },
               { id: "d", text: "Formation of placenta" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -261,6 +310,18 @@ export const lesson82: Lesson = {
             commonErrors: ["In (b) saying 'baby forms immediately' — it's a zygote then embryo."],
           },
         },
+        mcq("olbio-u8-menstrual-pregnancy-q5", "foundation", "Menstruation is:", ["Shedding of the uterus lining when there is no pregnancy", "Release of an egg", "Fertilisation of the egg", "Formation of the placenta"], "a", prin("property", "Menstruation", "If no pregnancy occurs, the uterus lining is shed."), "Recall the event.", "Ovulation releases the egg; menstruation sheds the lining."),
+        mcq("olbio-u8-menstrual-pregnancy-q6", "foundation", "Ovulation is the:", ["Release of an egg from the ovary", "Shedding of the uterus lining", "Implantation of the embryo", "Production of milk"], "a", prin("property", "Ovulation", "Ovulation releases an egg from the ovary around day 14."), "Recall the event.", "Menstruation is lining shedding."),
+        mcq("olbio-u8-menstrual-pregnancy-q7", "core", "During the luteal phase, progesterone:", ["Maintains and thickens the uterus lining", "Stimulates ovulation", "Causes menstruation immediately", "Produces eggs"], "a", prin("property", "Progesterone", "Progesterone maintains the uterus lining to prepare for pregnancy."), "Recall the hormone role.", "FSH/LH are involved earlier in the cycle."),
+        mcq("olbio-u8-menstrual-pregnancy-q8", "core", "Implantation is:", ["Embedding of the embryo in the uterus lining", "Release of the egg", "Shedding of the lining", "Formation of gametes"], "a", prin("property", "Implantation", "The embryo embeds in the uterus lining to attach and form the placenta."), "Recall the definition.", "It happens after the embryo reaches the uterus."),
+        mcq("olbio-u8-menstrual-pregnancy-q9", "challenge", "The placenta is important because it:", ["Exchanges materials between mother and fetus without mixing their blood", "Produces sperm", "Releases the egg", "Digests food for the fetus"], "a", prin("property", "Placenta", "The placenta exchanges gases, nutrients and wastes across its surface."), "Recall the exchange role.", "Maternal and fetal blood do not mix."),
+        num("olbio-u8-menstrual-pregnancy-q10", "foundation", "The menstrual cycle lasts about how many days?", 28, "days", prin("property", "Cycle length", "The menstrual cycle is about 28 days."), "Recall the length.", "28", "**28 days**"),
+        num("olbio-u8-menstrual-pregnancy-q11", "core", "Menstruation typically lasts days 1 to 5 of the cycle. How many days is that?", 5, "days", prin("property", "Menstruation", "Menstruation occurs during days 1-5."), "Subtract start from end+1.", "5 - 1 + 1 = 5", "**5 days**"),
+        num("olbio-u8-menstrual-pregnancy-q12", "core", "In a 28-day cycle, ovulation occurs around day 14. On which day does ovulation occur?", 14, "day", prin("property", "Ovulation timing", "Ovulation is around day 14."), "Read the day.", "14", "**Day 14**"),
+        num("olbio-u8-menstrual-pregnancy-q13", "challenge", "The luteal phase lasts from day 15 to day 28. How many days is the luteal phase?", 14, "days", prin("property", "Luteal phase", "Luteal phase runs days 15-28."), "Subtract 14 from 28.", "28 - 14 = 14", "**14 days**"),
+        open("olbio-u8-menstrual-pregnancy-q14", "core", 3, "Describe the main phases of the menstrual cycle.", prin("property", "Menstrual cycle", "Menstruation, repair, ovulation and luteal phase."), [["Menstruation: the uterus lining is shed if no pregnancy.", 1, "M"], ["Repair: the lining rebuilds and an egg develops.", 1, "M"], ["Ovulation releases the egg; the luteal phase maintains the lining via progesterone.", 1, "A"]], "The cycle includes menstruation, lining repair, ovulation around day 14, and the progesterone-maintained luteal phase.", "Omitting ovulation or progesterone."),
+        open("olbio-u8-menstrual-pregnancy-q15", "challenge", 4, "Explain the role of the placenta during pregnancy.", prin("property", "Placenta", "Exchanges gases, nutrients and wastes between mother and fetus."), [["The placenta is embedded in the uterus wall.", 1, "M"], ["Oxygen and nutrients pass from mother to fetus.", 1, "M"], ["Carbon dioxide and wastes pass from fetus to mother.", 1, "M"], ["It also produces hormones such as progesterone to maintain pregnancy.", 1, "A"]], "The placenta exchanges respiratory gases, nutrients and wastes between mother and fetus and supports pregnancy hormones.", "Saying maternal and fetal blood mix."),
+        struct("olbio-u8-menstrual-pregnancy-q16", "challenge", "A student describes events from fertilisation to pregnancy.", [["a", "State where fertilisation occurs.", 1], ["b", "Describe what happens to the zygote.", 2], ["c", "Explain implantation.", 2], ["d", "State the role of the placenta.", 2], ["e", "Name the hormone that maintains the uterus lining in the luteal phase.", 2]], prin("property", "Fertilisation to pregnancy", "Oviduct fertilisation → zygote → embryo → implantation → placenta exchange."), [["a", "Fertilisation occurs in the oviduct.", 1, "A"], ["b", "The zygote divides by mitosis.", 1, "M"], ["b", "It becomes an embryo that travels to the uterus.", 1, "A"], ["c", "The embryo embeds in the uterus lining.", 1, "M"], ["c", "This allows the placenta to form and nourish it.", 1, "A"], ["d", "The placenta exchanges gases, nutrients and wastes.", 1, "M"], ["d", "It supports pregnancy without blood mixing.", 1, "A"], ["e", "Progesterone maintains the lining.", 1, "M"], ["e", "It is produced by the corpus luteum/placenta.", 1, "A"]], "(a) oviduct (b) zygote→embryo→uterus (c) embed for placenta (d) material exchange (e) progesterone", "Placing fertilisation in the uterus rather than the oviduct."),
       ],
     },
   ],

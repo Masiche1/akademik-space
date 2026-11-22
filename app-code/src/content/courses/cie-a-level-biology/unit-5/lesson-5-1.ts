@@ -72,12 +72,12 @@ export const lesson511: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Amylase" },
-              { id: "b", text: "Protease" },
-              { id: "c", text: "Lipase" },
-              { id: "d", text: "Bile" },
+              { id: "a", text: "Protease" },
+              { id: "b", text: "Lipase" },
+              { id: "c", text: "Bile" },
+              { id: "d", text: "Amylase" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -258,12 +258,12 @@ export const lesson511: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Small intestine" },
+              { id: "a", text: "Large intestine" },
               { id: "b", text: "Stomach" },
-              { id: "c", text: "Large intestine" },
+              { id: "c", text: "Small intestine" },
               { id: "d", text: "Oesophagus" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -284,12 +284,12 @@ export const lesson511: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It is produced by the liver and stored in the gall bladder" },
-              { id: "b", text: "It is an enzyme that digests starch" },
+              { id: "a", text: "It is an enzyme that digests starch" },
+              { id: "b", text: "It chemically breaks down proteins into amino acids" },
               { id: "c", text: "It is produced by the pancreas" },
-              { id: "d", text: "It chemically breaks down proteins into amino acids" },
+              { id: "d", text: "It is produced by the liver and stored in the gall bladder" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -388,12 +388,12 @@ export const lesson511: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Absorption of most of the remaining water" },
+              { id: "a", text: "Emulsification of lipids by bile" },
               { id: "b", text: "Digestion of starch by amylase" },
-              { id: "c", text: "Absorption of amino acids into blood capillaries" },
-              { id: "d", text: "Emulsification of lipids by bile" },
+              { id: "c", text: "Absorption of most of the remaining water" },
+              { id: "d", text: "Absorption of amino acids into blood capillaries" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -563,12 +563,12 @@ export const lesson511: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Lipid" },
+              { id: "a", text: "Vitamin" },
               { id: "b", text: "Carbohydrate" },
               { id: "c", text: "Protein" },
-              { id: "d", text: "Vitamin" },
+              { id: "d", text: "Lipid" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -718,6 +718,297 @@ export const lesson511: Lesson = {
             ],
             finalAnswer:
               "(a) lipid (b) collagen+immune (c) Fe→Hb→O₂ (d) scurvy/rickets etc.",
+          },
+        },
+        {
+          id: "cial-b-u5-nt-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Which nutrient class is mainly used for growth and repair of body tissues?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Lipid" },
+              { id: "b", text: "Fibre" },
+              { id: "c", text: "Carbohydrate" },
+              { id: "d", text: "Protein" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Protein",
+                statement: "Needed for growth and repair; made of amino acids.",
+              },
+            ],
+            steps: [
+              { reasoning: "Protein is used for growth and repair.", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(b)** Protein",
+            commonErrors: ["Choosing carbohydrate, which mainly provides energy."],
+          },
+        },
+        {
+          id: "cial-b-u5-nt-q6",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "Calculate the energy, in kcal, provided by 50 g of carbohydrate. (Energy value of carbohydrate = 4 kcal g$^{-1}$.)",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 200 }],
+          },
+          markscheme: {
+            principles: [
+              { kind: "definition", name: "Energy values", statement: "Carbohydrate provides 4 kcal per gram." },
+            ],
+            steps: [
+              { reasoning: "$50 \\times 4 = 200$ kcal.", marks: 1, markCode: "M" },
+              { reasoning: "Correct energy calculated.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "200 kcal",
+            commonErrors: ["Using the lipid value of 9 kcal/g."],
+          },
+        },
+        {
+          id: "cial-b-u5-nt-q7",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "Distinguish between macronutrients and micronutrients, giving two examples of each.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "comparison",
+                name: "Macro vs micro",
+                statement:
+                  "Macronutrients needed in large amounts (carbs, protein, lipid); micronutrients in small amounts (vitamins, minerals).",
+              },
+            ],
+            steps: [
+              { reasoning: "Macronutrients needed in large amounts — e.g. carbohydrate, protein, lipid.", marks: 1, markCode: "M" },
+              { reasoning: "Micronutrients needed in small amounts — e.g. vitamins, minerals.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "Macros = large amounts (carbs/protein/lipid); micros = small amounts (vitamins/minerals).",
+            commonErrors: ["Confusing quantity needed with energy content."],
+          },
+        },
+        {
+          id: "cial-b-u5-nt-q8",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "A deficiency of which nutrient mainly causes rickets?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Iodine" },
+              { id: "b", text: "Iron" },
+              { id: "c", text: "Vitamin C" },
+              { id: "d", text: "Vitamin D" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              { kind: "definition", name: "Rickets", statement: "Vitamin D/calcium deficiency → weak bones." },
+            ],
+            steps: [
+              { reasoning: "Vitamin D deficiency causes rickets.", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(b)** Vitamin D",
+            commonErrors: ["Confusing rickets with scurvy or anaemia."],
+          },
+        },
+        {
+          id: "cial-b-u5-nt-q9",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "A meal contains 30 g of protein and 10 g of lipid. Calculate the energy it provides in kcal. (Protein = 4 kcal g$^{-1}$; lipid = 9 kcal g$^{-1}$.)",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 210 }],
+          },
+          markscheme: {
+            principles: [
+              { kind: "definition", name: "Energy values", statement: "Protein 4 kcal/g, lipid 9 kcal/g." },
+            ],
+            steps: [
+              { reasoning: "$30 \\times 4 = 120$ kcal from protein; $10 \\times 9 = 90$ kcal from lipid.", marks: 1, markCode: "M" },
+              { reasoning: "Total $= 120 + 90 = 210$ kcal.", marks: 1, markCode: "M" },
+              { reasoning: "Correct total energy.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "210 kcal",
+            commonErrors: ["Adding masses before multiplying by energy values."],
+          },
+        },
+        {
+          id: "cial-b-u5-nt-q10",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "Explain how a balanced diet helps to prevent deficiency diseases.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Balanced diet",
+                statement: "All nutrients in correct proportions — prevents deficiency and excess.",
+              },
+            ],
+            steps: [
+              { reasoning: "Provides all nutrients in correct proportions.", marks: 1, markCode: "M" },
+              { reasoning: "Ensures adequate vitamins/minerals e.g. vit C, D, iron, iodine.", marks: 1, markCode: "M" },
+              { reasoning: "Avoids deficiency diseases such as scurvy and rickets.", marks: 1, markCode: "M" },
+              { reasoning: "Also avoids excess that leads to obesity/CVD.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "A balanced diet supplies all nutrients in correct proportions, preventing both deficiency and excess.",
+            commonErrors: ["Describing a balanced diet without linking to disease prevention."],
+          },
+        },
+        {
+          id: "cial-b-u5-nt-q11",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "What is the main role of dietary fibre?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Transports oxygen in the blood" },
+              { id: "b", text: "Builds cell membranes" },
+              { id: "c", text: "Aids digestion and prevents constipation" },
+              { id: "d", text: "Provides most of the body's energy" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              { kind: "definition", name: "Fibre", statement: "Indigestible carbohydrate aiding digestion." },
+            ],
+            steps: [
+              { reasoning: "Fibre aids digestion; it is not digested for energy.", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(c)** Aids digestion and prevents constipation",
+            commonErrors: ["Thinking fibre is digested like starch."],
+          },
+        },
+        {
+          id: "cial-b-u5-nt-q12",
+          difficulty: "challenge",
+          totalMarks: 3,
+          stem: "100 g of lipid provides the same energy as approximately how many grams of carbohydrate? (Lipid = 9 kcal g$^{-1}$; carbohydrate = 4 kcal g$^{-1}$.)",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 225 }],
+          },
+          markscheme: {
+            principles: [
+              { kind: "definition", name: "Energy values", statement: "Carbohydrate 4 kcal/g, lipid 9 kcal/g." },
+            ],
+            steps: [
+              { reasoning: "$100 \\times 9 = 900$ kcal from lipid.", marks: 1, markCode: "M" },
+              { reasoning: "$900 \\div 4 = 225$ g carbohydrate.", marks: 1, markCode: "M" },
+              { reasoning: "Correct mass calculated.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "225 g",
+            commonErrors: ["Multiplying by 4 instead of dividing."],
+          },
+        },
+        {
+          id: "cial-b-u5-nt-q13",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Which mineral is needed to make haemoglobin?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Iron" },
+              { id: "b", text: "Sodium" },
+              { id: "c", text: "Iodine" },
+              { id: "d", text: "Calcium" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              { kind: "definition", name: "Iron", statement: "Component of haemoglobin for oxygen transport." },
+            ],
+            steps: [
+              { reasoning: "Iron is needed for haemoglobin.", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(b)** Iron",
+            commonErrors: ["Choosing calcium, which is for bones."],
+          },
+        },
+        {
+          id: "cial-b-u5-nt-q14",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "Explain how excessive consumption of lipids can lead to obesity and cardiovascular disease.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Lipid excess",
+                statement: "Lipid 9 kcal/g — high energy; excess stored as fat.",
+              },
+            ],
+            steps: [
+              { reasoning: "Lipid has the highest energy value (9 kcal/g).", marks: 1, markCode: "M" },
+              { reasoning: "Excess energy is stored as fat tissue.", marks: 1, markCode: "M" },
+              { reasoning: "Obesity increases strain on the heart and blood vessels.", marks: 1, markCode: "M" },
+              { reasoning: "Linked to raised risk of cardiovascular disease.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "High energy value → excess stored as fat → obesity → cardiovascular strain.",
+            commonErrors: ["Describing obesity without linking to lipid energy content."],
+          },
+        },
+        {
+          id: "cial-b-u5-nt-q15",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "A 250 g food sample contains 20 g of protein. Calculate the percentage of protein by mass.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 8, unit: "%" }],
+          },
+          markscheme: {
+            principles: [
+              { kind: "formula", name: "Percentage", statement: "Percentage = (part / whole) $\\times$ 100." },
+            ],
+            steps: [
+              { reasoning: "$(20 \\div 250) \\times 100 = 8$%.", working: "20 \\div 250 = 0.08", marks: 1, markCode: "M" },
+              { reasoning: "Percentage protein $= 8$%.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "8%",
+            commonErrors: ["Dividing by 20 instead of 250."],
+          },
+        },
+        {
+          id: "cial-b-u5-nt-q16",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Which statement about vitamins is correct?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "They are needed in large amounts every day" },
+              { id: "b", text: "They provide most of the body's energy" },
+              { id: "c", text: "They are micronutrients needed in small amounts" },
+              { id: "d", text: "They are made of amino acids" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              { kind: "definition", name: "Vitamins", statement: "Micronutrients needed in small amounts; not used for energy." },
+            ],
+            steps: [
+              { reasoning: "Vitamins are micronutrients needed in small amounts.", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(c)** Micronutrients needed in small amounts",
+            commonErrors: ["Confusing vitamins with macronutrients."],
           },
         },
       ],

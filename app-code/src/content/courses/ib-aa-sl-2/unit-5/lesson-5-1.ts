@@ -49,12 +49,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$12x^3-2$" },
+              { id: "a", text: "$3x^3-2$" },
               { id: "b", text: "$12x^3-2x$" },
-              { id: "c", text: "$3x^3-2$" },
+              { id: "c", text: "$12x^3-2$" },
               { id: "d", text: "$12x^3-2+5$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -164,12 +164,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$15x^2-8x+1$" },
+              { id: "a", text: "$15x^2-8x-7$" },
               { id: "b", text: "$15x^2-8x$" },
               { id: "c", text: "$5x^2-8x+1$" },
-              { id: "d", text: "$15x^2-8x-7$" },
+              { id: "d", text: "$15x^2-8x+1$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -192,12 +192,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$-\\dfrac{6}{x^3}$" },
-              { id: "b", text: "$\\dfrac{6}{x^3}$" },
-              { id: "c", text: "$-\\dfrac{6}{x}$" },
-              { id: "d", text: "$-\\dfrac{3}{x^3}$" },
+              { id: "a", text: "$-\\dfrac{6}{x}$" },
+              { id: "b", text: "$-\\dfrac{6}{x^3}$" },
+              { id: "c", text: "$-\\dfrac{3}{x^3}$" },
+              { id: "d", text: "$\\dfrac{6}{x^3}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -220,12 +220,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$-1<x<3$" },
-              { id: "b", text: "$x<-1$ or $x>3$" },
-              { id: "c", text: "$1<x<3$" },
-              { id: "d", text: "$x<3$" },
+              { id: "a", text: "$1<x<3$" },
+              { id: "b", text: "$-1<x<3$" },
+              { id: "c", text: "$x<3$" },
+              { id: "d", text: "$x<-1$ or $x>3$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -249,9 +249,9 @@ export const lesson51: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$15$" },
-              { id: "b", text: "$7$" },
-              { id: "c", text: "$19$" },
-              { id: "d", text: "$-3$" },
+              { id: "b", text: "$-3$" },
+              { id: "c", text: "$7$" },
+              { id: "d", text: "$19$" },
             ],
             correctChoiceId: "a",
           },
@@ -435,12 +435,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$0<x<2$" },
-              { id: "b", text: "$x>2$" },
-              { id: "c", text: "$0<x<4$" },
-              { id: "d", text: "$x<2$" },
+              { id: "a", text: "$x<2$" },
+              { id: "b", text: "$0<x<4$" },
+              { id: "c", text: "$x>2$" },
+              { id: "d", text: "$0<x<2$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -512,12 +512,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$-\\dfrac14$" },
-              { id: "b", text: "$\\dfrac14$" },
+              { id: "a", text: "$4$" },
+              { id: "b", text: "$-\\dfrac14$" },
               { id: "c", text: "$-4$" },
-              { id: "d", text: "$4$" },
+              { id: "d", text: "$\\dfrac14$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -635,12 +635,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$2$" },
-              { id: "b", text: "$6$" },
-              { id: "c", text: "$-4$" },
-              { id: "d", text: "$8$" },
+              { id: "a", text: "$-4$" },
+              { id: "b", text: "$8$" },
+              { id: "c", text: "$2$" },
+              { id: "d", text: "$6$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -665,8 +665,8 @@ export const lesson51: Lesson = {
             choices: [
               { id: "a", text: "$-\\dfrac13$" },
               { id: "b", text: "$\\dfrac13$" },
-              { id: "c", text: "$-3$" },
-              { id: "d", text: "$3$" },
+              { id: "c", text: "$3$" },
+              { id: "d", text: "$-3$" },
             ],
             correctChoiceId: "b",
           },
@@ -693,8 +693,8 @@ export const lesson51: Lesson = {
             choices: [
               { id: "a", text: "$y=4x-3$" },
               { id: "b", text: "$y=4x+5$" },
-              { id: "c", text: "$y=2x+1$" },
-              { id: "d", text: "$y=4x-11$" },
+              { id: "c", text: "$y=4x-11$" },
+              { id: "d", text: "$y=2x+1$" },
             ],
             correctChoiceId: "a",
           },
@@ -906,12 +906,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$y=-\\dfrac15x+\\dfrac{11}{5}$" },
-              { id: "b", text: "$y=-5x+7$" },
-              { id: "c", text: "$y=\\dfrac15x+\\dfrac95$" },
-              { id: "d", text: "$y=-\\dfrac15x+\\dfrac95$" },
+              { id: "a", text: "$y=\\dfrac15x+\\dfrac95$" },
+              { id: "b", text: "$y=-\\dfrac15x+\\dfrac{11}{5}$" },
+              { id: "c", text: "$y=-\\dfrac15x+\\dfrac95$" },
+              { id: "d", text: "$y=-5x+7$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [

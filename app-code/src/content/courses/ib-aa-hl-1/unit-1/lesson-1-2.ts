@@ -51,8 +51,8 @@ export const lesson12: Lesson = {
             choices: [
               { id: "a", text: "$5+i$" },
               { id: "b", text: "$-1+5i$" },
-              { id: "c", text: "$2-3i$" },
-              { id: "d", text: "$-1+i$" },
+              { id: "c", text: "$-1+i$" },
+              { id: "d", text: "$2-3i$" },
             ],
             correctChoiceId: "a",
           },
@@ -154,8 +154,8 @@ export const lesson12: Lesson = {
             choices: [
               { id: "a", text: "$5+3i$" },
               { id: "b", text: "$1+5i$" },
-              { id: "c", text: "$6-4i$" },
-              { id: "d", text: "$-1-5i$" },
+              { id: "c", text: "$-1-5i$" },
+              { id: "d", text: "$6-4i$" },
             ],
             correctChoiceId: "a",
           },
@@ -200,12 +200,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$3-i$" },
-              { id: "b", text: "$1+3i$" },
+              { id: "a", text: "$1+3i$" },
+              { id: "b", text: "$3-i$" },
               { id: "c", text: "$2-i$" },
               { id: "d", text: "$3+i$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -304,12 +304,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$3+4i$" },
-              { id: "b", text: "$5+4i$" },
-              { id: "c", text: "$3$" },
-              { id: "d", text: "$1+4i$" },
+              { id: "a", text: "$3$" },
+              { id: "b", text: "$3+4i$" },
+              { id: "c", text: "$1+4i$" },
+              { id: "d", text: "$5+4i$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -332,12 +332,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\frac{4-7i}{5}$" },
-              { id: "b", text: "$\\frac{8-i}{5}$" },
-              { id: "c", text: "$\\frac{4+7i}{5}$" },
-              { id: "d", text: "$\\frac{2-i}{5}$" },
+              { id: "a", text: "$\\frac{2-i}{5}$" },
+              { id: "b", text: "$\\frac{4+7i}{5}$" },
+              { id: "c", text: "$\\frac{4-7i}{5}$" },
+              { id: "d", text: "$\\frac{8-i}{5}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -418,12 +418,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$2e^{i\\pi/6}$" },
-              { id: "b", text: "$2e^{i\\pi/3}$" },
-              { id: "c", text: "$4e^{i\\pi/6}$" },
-              { id: "d", text: "$\\sqrt2\\,e^{i\\pi/6}$" },
+              { id: "a", text: "$2e^{i\\pi/3}$" },
+              { id: "b", text: "$\\sqrt2\\,e^{i\\pi/6}$" },
+              { id: "c", text: "$2e^{i\\pi/6}$" },
+              { id: "d", text: "$4e^{i\\pi/6}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -527,11 +527,11 @@ export const lesson12: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$-\\frac{\\pi}{4}$" },
-              { id: "b", text: "$-\\frac{3\\pi}{4}$" },
-              { id: "c", text: "$\\frac{3\\pi}{4}$" },
-              { id: "d", text: "$\\frac{5\\pi}{4}$" },
+              { id: "b", text: "$\\frac{3\\pi}{4}$" },
+              { id: "c", text: "$\\frac{5\\pi}{4}$" },
+              { id: "d", text: "$-\\frac{3\\pi}{4}$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -554,12 +554,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\sqrt2$" },
+              { id: "a", text: "$\\sqrt5$" },
               { id: "b", text: "$2$" },
-              { id: "c", text: "$1$" },
-              { id: "d", text: "$\\sqrt5$" },
+              { id: "c", text: "$\\sqrt2$" },
+              { id: "d", text: "$1$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -582,12 +582,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$6i$" },
-              { id: "b", text: "$6e^{i\\pi}$" },
-              { id: "c", text: "$5e^{i\\pi/2}$" },
-              { id: "d", text: "$6e^{i5\\pi/6}$" },
+              { id: "a", text: "$5e^{i\\pi/2}$" },
+              { id: "b", text: "$6e^{i5\\pi/6}$" },
+              { id: "c", text: "$6i$" },
+              { id: "d", text: "$6e^{i\\pi}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -682,12 +682,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$re^{-i\\theta}$" },
-              { id: "b", text: "$re^{i\\theta}$" },
-              { id: "c", text: "$r^{-1}e^{i\\theta}$" },
-              { id: "d", text: "$re^{i(\\pi-\\theta)}$" },
+              { id: "a", text: "$re^{i\\theta}$" },
+              { id: "b", text: "$r^{-1}e^{i\\theta}$" },
+              { id: "c", text: "$re^{i(\\pi-\\theta)}$" },
+              { id: "d", text: "$re^{-i\\theta}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

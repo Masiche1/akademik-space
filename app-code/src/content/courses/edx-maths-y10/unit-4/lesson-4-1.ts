@@ -54,12 +54,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$20$" },
-              { id: "b", text: "$40$" },
-              { id: "c", text: "$60$" },
-              { id: "d", text: "$80$" },
+              { id: "a", text: "$80$" },
+              { id: "b", text: "$20$" },
+              { id: "c", text: "$40$" },
+              { id: "d", text: "$60$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Median", statement: "The median is at cumulative frequency $\\frac{n}{2}$." }],
@@ -181,12 +181,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$150$" },
-              { id: "b", text: "$6$" },
-              { id: "c", text: "$35$" },
+              { id: "a", text: "$35$" },
+              { id: "b", text: "$150$" },
+              { id: "c", text: "$6$" },
               { id: "d", text: "$0.17$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Frequency density", statement: "$\\text{FD}=\\frac{\\text{frequency}}{\\text{class width}}$" }],

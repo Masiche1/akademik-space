@@ -53,12 +53,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Defend West Berlin from invasion" },
-              { id: "b", text: "Stop East Germans fleeing to the West" },
+              { id: "a", text: "Stop East Germans fleeing to the West" },
+              { id: "b", text: "Defend West Berlin from invasion" },
               { id: "c", text: "Divide Berlin between the superpowers" },
               { id: "d", text: "Protect Soviet supply routes" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -151,12 +151,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "1945" },
-              { id: "b", text: "1948" },
-              { id: "c", text: "1950" },
+              { id: "a", text: "1948" },
+              { id: "b", text: "1950" },
+              { id: "c", text: "1945" },
               { id: "d", text: "1961" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -179,10 +179,10 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "One month" },
+              { id: "a", text: "Three years" },
               { id: "b", text: "Six months" },
               { id: "c", text: "Eleven months" },
-              { id: "d", text: "Three years" },
+              { id: "d", text: "One month" },
             ],
             correctChoiceId: "c",
           },
@@ -207,12 +207,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "1948" },
-              { id: "b", text: "1950" },
-              { id: "c", text: "1961" },
-              { id: "d", text: "1975" },
+              { id: "a", text: "1950" },
+              { id: "b", text: "1961" },
+              { id: "c", text: "1975" },
+              { id: "d", text: "1948" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -237,8 +237,8 @@ export const lesson42: Lesson = {
             choices: [
               { id: "a", text: "The 17th parallel" },
               { id: "b", text: "The 38th parallel" },
-              { id: "c", text: "The Yalu River" },
-              { id: "d", text: "The DMZ established in 1953" },
+              { id: "c", text: "The DMZ established in 1953" },
+              { id: "d", text: "The Yalu River" },
             ],
             correctChoiceId: "b",
           },
@@ -263,12 +263,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The UN forces invaded North Korea" },
-              { id: "b", text: "North Korea invaded South Korea" },
-              { id: "c", text: "China attacked South Korea" },
+              { id: "a", text: "China attacked South Korea" },
+              { id: "b", text: "The UN forces invaded North Korea" },
+              { id: "c", text: "North Korea invaded South Korea" },
               { id: "d", text: "The Soviet Union declared war on the UN" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -291,10 +291,10 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A UN victory and reunification of Korea" },
+              { id: "a", text: "North Korea's annexation of the South" },
               { id: "b", text: "An armistice near the original border — a stalemate" },
-              { id: "c", text: "A formal peace treaty" },
-              { id: "d", text: "North Korea's annexation of the South" },
+              { id: "c", text: "A UN victory and reunification of Korea" },
+              { id: "d", text: "A formal peace treaty" },
             ],
             correctChoiceId: "b",
           },
@@ -472,12 +472,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Communist states would inevitably collapse" },
-              { id: "b", text: "One country's fall to communism would trigger neighbouring collapses" },
-              { id: "c", text: "Nuclear war would begin in Asia" },
+              { id: "a", text: "Nuclear war would begin in Asia" },
+              { id: "b", text: "Communist states would inevitably collapse" },
+              { id: "c", text: "One country's fall to communism would trigger neighbouring collapses" },
               { id: "d", text: "The US should abandon Asia" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -572,11 +572,11 @@ export const lesson42: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "1958" },
-              { id: "b", text: "1961" },
-              { id: "c", text: "1962" },
-              { id: "d", text: "1965" },
+              { id: "b", text: "1962" },
+              { id: "c", text: "1965" },
+              { id: "d", text: "1961" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -600,11 +600,11 @@ export const lesson42: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Immediately invading Cuba" },
-              { id: "b", text: "Imposing a naval quarantine and demanding removal" },
-              { id: "c", text: "Withdrawing US missiles from Turkey first" },
-              { id: "d", text: "Asking the UN to mediate" },
+              { id: "b", text: "Asking the UN to mediate" },
+              { id: "c", text: "Imposing a naval quarantine and demanding removal" },
+              { id: "d", text: "Withdrawing US missiles from Turkey first" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -628,11 +628,11 @@ export const lesson42: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "The USSR paying war reparations to the US" },
-              { id: "b", text: "US Jupiter missiles withdrawn from Turkey in exchange for Soviet withdrawal from Cuba" },
-              { id: "c", text: "Cuba joining the Warsaw Pact" },
-              { id: "d", text: "Castro being removed from power" },
+              { id: "b", text: "Castro being removed from power" },
+              { id: "c", text: "US Jupiter missiles withdrawn from Turkey in exchange for Soviet withdrawal from Cuba" },
+              { id: "d", text: "Cuba joining the Warsaw Pact" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -656,8 +656,8 @@ export const lesson42: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Communist victory in one country would topple its neighbours" },
-              { id: "b", text: "China would invade Vietnam within five years" },
-              { id: "c", text: "Nuclear war was inevitable" },
+              { id: "b", text: "Nuclear war was inevitable" },
+              { id: "c", text: "China would invade Vietnam within five years" },
               { id: "d", text: "The USSR would attack Europe if Vietnam fell" },
             ],
             correctChoiceId: "a",
@@ -683,10 +683,10 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Won the war for North Vietnam immediately" },
+              { id: "a", text: "Brought Soviet troops into Vietnam" },
               { id: "b", text: "Destroyed US public confidence despite being a military setback for the North" },
-              { id: "c", text: "Brought Soviet troops into Vietnam" },
-              { id: "d", text: "Forced China's withdrawal from the war" },
+              { id: "c", text: "Forced China's withdrawal from the war" },
+              { id: "d", text: "Won the war for North Vietnam immediately" },
             ],
             correctChoiceId: "b",
           },
@@ -711,10 +711,10 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "1968" },
-              { id: "b", text: "1973" },
+              { id: "a", text: "1979" },
+              { id: "b", text: "1968" },
               { id: "c", text: "1975" },
-              { id: "d", text: "1979" },
+              { id: "d", text: "1973" },
             ],
             correctChoiceId: "c",
           },

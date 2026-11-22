@@ -83,12 +83,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$1+2x+2x^2$" },
-              { id: "b", text: "$1+2x+x^2$" },
-              { id: "c", text: "$1+2x+4x^2$" },
+              { id: "a", text: "$1+2x+x^2$" },
+              { id: "b", text: "$1+2x+4x^2$" },
+              { id: "c", text: "$1+2x+2x^2$" },
               { id: "d", text: "$2+2x+2x^2$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -426,12 +426,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$1-2x^2$" },
-              { id: "b", text: "$1-\\frac{x^2}{2}$" },
-              { id: "c", text: "$1-4x^2$" },
+              { id: "a", text: "$1-4x^2$" },
+              { id: "b", text: "$1-2x^2$" },
+              { id: "c", text: "$1-\\frac{x^2}{2}$" },
               { id: "d", text: "$1-2x^2+\\frac{2x^4}{3}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -472,12 +472,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$x-\\frac{x^2}{2}+\\frac{x^3}{3}$" },
-              { id: "b", text: "$x+\\frac{x^2}{2}+\\frac{x^3}{3}$" },
-              { id: "c", text: "$x-\\frac{x^2}{2}-\\frac{x^3}{3}$" },
-              { id: "d", text: "$1+x-\\frac{x^2}{2}+\\frac{x^3}{3}$" },
+              { id: "a", text: "$1+x-\\frac{x^2}{2}+\\frac{x^3}{3}$" },
+              { id: "b", text: "$x-\\frac{x^2}{2}-\\frac{x^3}{3}$" },
+              { id: "c", text: "$x-\\frac{x^2}{2}+\\frac{x^3}{3}$" },
+              { id: "d", text: "$x+\\frac{x^2}{2}+\\frac{x^3}{3}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -606,12 +606,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$1+x+x^2+x^3$" },
-              { id: "b", text: "$1-x+x^2-x^3$" },
+              { id: "a", text: "$1-x+x^2-x^3$" },
+              { id: "b", text: "$1+x+x^2+x^3$" },
               { id: "c", text: "$1+x+2x^2+3x^3$" },
               { id: "d", text: "$x+x^2+x^3$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -692,12 +692,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$1-x+\\frac{x^2}{2}-\\frac{x^3}{6}$" },
-              { id: "b", text: "$1+x+\\frac{x^2}{2}+\\frac{x^3}{6}$" },
-              { id: "c", text: "$1-x-\\frac{x^2}{2}-\\frac{x^3}{6}$" },
-              { id: "d", text: "$-1+x-\\frac{x^2}{2}+\\frac{x^3}{6}$" },
+              { id: "a", text: "$1-x-\\frac{x^2}{2}-\\frac{x^3}{6}$" },
+              { id: "b", text: "$-1+x-\\frac{x^2}{2}+\\frac{x^3}{6}$" },
+              { id: "c", text: "$1+x+\\frac{x^2}{2}+\\frac{x^3}{6}$" },
+              { id: "d", text: "$1-x+\\frac{x^2}{2}-\\frac{x^3}{6}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -886,12 +886,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$1+x-\\frac{x^3}{3}$" },
-              { id: "b", text: "$1+x+\\frac{x^3}{3}$" },
-              { id: "c", text: "$1+x+x^2-\\frac{x^3}{3}$" },
-              { id: "d", text: "$1-x-\\frac{x^3}{3}$" },
+              { id: "a", text: "$1+x+\\frac{x^3}{3}$" },
+              { id: "b", text: "$1-x-\\frac{x^3}{3}$" },
+              { id: "c", text: "$1+x-\\frac{x^3}{3}$" },
+              { id: "d", text: "$1+x+x^2-\\frac{x^3}{3}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1227,12 +1227,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\dfrac12$" },
-              { id: "b", text: "$1$" },
+              { id: "a", text: "$1$" },
+              { id: "b", text: "$\\dfrac12$" },
               { id: "c", text: "$0$" },
               { id: "d", text: "$2$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1495,12 +1495,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$1$" },
+              { id: "a", text: "$\\infty$" },
               { id: "b", text: "$0$" },
-              { id: "c", text: "$e$" },
-              { id: "d", text: "$\\infty$" },
+              { id: "c", text: "$1$" },
+              { id: "d", text: "$e$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1538,10 +1538,10 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$1$" },
+              { id: "a", text: "$\\frac13$" },
               { id: "b", text: "$3$" },
-              { id: "c", text: "$\\frac13$" },
-              { id: "d", text: "$0$" },
+              { id: "c", text: "$0$" },
+              { id: "d", text: "$1$" },
             ],
             correctChoiceId: "b",
           },
@@ -1620,12 +1620,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\frac12$" },
-              { id: "b", text: "$1$" },
-              { id: "c", text: "$0$" },
-              { id: "d", text: "$2$" },
+              { id: "a", text: "$1$" },
+              { id: "b", text: "$\\frac12$" },
+              { id: "c", text: "$2$" },
+              { id: "d", text: "$0$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1664,12 +1664,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$1$" },
-              { id: "b", text: "$2$" },
-              { id: "c", text: "$\\frac12$" },
+              { id: "a", text: "$\\frac12$" },
+              { id: "b", text: "$1$" },
+              { id: "c", text: "$2$" },
               { id: "d", text: "$4$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1819,11 +1819,11 @@ export const lesson63: Lesson = {
             choices: [
               {
                 id: "a",
-                text: "The error has magnitude less than $\\frac{1}{n+1}$.",
+                text: "The error has magnitude less than $\\frac{1}{n}$.",
               },
               {
                 id: "b",
-                text: "The error has magnitude less than $\\frac{1}{n}$.",
+                text: "The error cannot be bounded without more terms.",
               },
               {
                 id: "c",
@@ -1831,10 +1831,10 @@ export const lesson63: Lesson = {
               },
               {
                 id: "d",
-                text: "The error cannot be bounded without more terms.",
+                text: "The error has magnitude less than $\\frac{1}{n+1}$.",
               },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

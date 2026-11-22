@@ -86,11 +86,11 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Analyse Text A fully, then Text B" },
-              { id: "b", text: "Frame, paired points, synthesis" },
+              { id: "b", text: "Summary of both texts" },
               { id: "c", text: "List similarities, then list differences" },
-              { id: "d", text: "Summary of both texts" },
+              { id: "d", text: "Frame, paired points, synthesis" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -298,13 +298,13 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Summarise both texts fully" },
+              { id: "a", text: "List every theme in both texts" },
               {
                 id: "b",
                 text: "Name both texts and state the comparative focus",
               },
-              { id: "c", text: "Give your personal opinion immediately" },
-              { id: "d", text: "List every theme in both texts" },
+              { id: "c", text: "Summarise both texts fully" },
+              { id: "d", text: "Give your personal opinion immediately" },
             ],
             correctChoiceId: "b",
           },
@@ -344,17 +344,17 @@ export const lesson33: Lesson = {
                 id: "a",
                 text: "These are two poems about night. Here is my analysis.",
               },
+              { id: "b", text: "I liked the second poem more than the first." },
               {
-                id: "b",
+                id: "c",
                 text: "Both poems treat night as a force that acts on the sleeper — but where the first makes it shelter, the second makes it surveillance. I will compare how each achieves this.",
               },
               {
-                id: "c",
+                id: "d",
                 text: "Poem 1 is about night. Poem 2 is also about night.",
               },
-              { id: "d", text: "I liked the second poem more than the first." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -390,15 +390,15 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A summary of what was said" },
+              { id: "a", text: "A quotation from the text" },
+              { id: "b", text: "A summary of what was said" },
+              { id: "c", text: "A pause for dramatic effect only" },
               {
-                id: "b",
+                id: "d",
                 text: "A phrase signalling a shift between texts or points, keeping the comparison audible",
               },
-              { id: "c", text: "A quotation from the text" },
-              { id: "d", text: "A pause for dramatic effect only" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -432,15 +432,15 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Poem A uses metaphor. Poem B uses metaphor." },
+              { id: "a", text: "Poem A line 3 says X. Poem B line 5 says Y." },
+              { id: "b", text: "Poem A uses metaphor. Poem B uses metaphor." },
               {
-                id: "b",
+                id: "c",
                 text: "Where Poem A's night is 'a held breath' — suspension without threat — Poem B's night is 'a patient creditor' — debt and obligation; the poems share the agent but differ on its moral character.",
               },
-              { id: "c", text: "Poem A line 3 says X. Poem B line 5 says Y." },
               { id: "d", text: "Both poems have three stanzas." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -477,14 +477,14 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Repeat the introduction" },
-              { id: "b", text: "Summarise each text separately" },
               {
-                id: "c",
+                id: "b",
                 text: "Deliver a final judgement on how the texts relate — resolving the comparison",
               },
-              { id: "d", text: "Apologise for running out of time" },
+              { id: "c", text: "Apologise for running out of time" },
+              { id: "d", text: "Summarise each text separately" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -519,12 +519,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Giving each text equal word count" },
+              { id: "a", text: "Only comparing similarities" },
               {
                 id: "b",
                 text: "Each text anchors paired points throughout — neither dominates nor is tokenised",
               },
-              { id: "c", text: "Only comparing similarities" },
+              { id: "c", text: "Giving each text equal word count" },
               { id: "d", text: "Avoiding the harder text" },
             ],
             correctChoiceId: "b",
@@ -943,15 +943,15 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Giving both texts equal page count" },
+              { id: "a", text: "Avoiding any judgement" },
+              { id: "b", text: "Giving both texts equal page count" },
               {
-                id: "b",
+                id: "c",
                 text: "Giving each text comparable analytical attention",
               },
-              { id: "c", text: "Avoiding any judgement" },
               { id: "d", text: "Reading both texts aloud" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1158,15 +1158,15 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Examiners require them" },
               {
-                id: "b",
+                id: "a",
                 text: "Listeners cannot re-read; transitions make the comparison audible in real time",
               },
+              { id: "b", text: "Examiners require them" },
               { id: "c", text: "They fill silence" },
               { id: "d", text: "They sound clever" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -1200,15 +1200,15 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Speed up and finish Text A" },
               {
-                id: "b",
+                id: "a",
                 text: "Signal the shift, deliver one sharp paired point, and move to synthesis",
               },
+              { id: "b", text: "Apologise and stop" },
               { id: "c", text: "Drop Text B entirely" },
-              { id: "d", text: "Apologise and stop" },
+              { id: "d", text: "Speed up and finish Text A" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -1243,15 +1243,15 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Reading as fast as possible" },
+              { id: "a", text: "Speaking as loudly as possible" },
+              { id: "b", text: "Delivering in a monotone" },
+              { id: "c", text: "Reading as fast as possible" },
               {
-                id: "b",
+                id: "d",
                 text: "Varying pace between description and analysis; pausing before key comparative points",
               },
-              { id: "c", text: "Delivering in a monotone" },
-              { id: "d", text: "Speaking as loudly as possible" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1328,15 +1328,15 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "End weakly with 'thank you'" },
+              { id: "a", text: "Introduce a new point" },
+              { id: "b", text: "End weakly with 'thank you'" },
+              { id: "c", text: "Repeat everything that was said" },
               {
-                id: "b",
+                id: "d",
                 text: "Land the final judgement with conviction — the listener should hear the argument resolve",
               },
-              { id: "c", text: "Introduce a new point" },
-              { id: "d", text: "Repeat everything that was said" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1370,15 +1370,15 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A famous quotation" },
+              { id: "a", text: "The podium" },
+              { id: "b", text: "A famous quotation" },
+              { id: "c", text: "A timer" },
               {
-                id: "b",
+                id: "d",
                 text: "A specific detail or quotation that grounds a comparative claim in evidence",
               },
-              { id: "c", text: "The podium" },
-              { id: "d", text: "A timer" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1644,15 +1644,15 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: '"Moving on", "next", "the end"' },
               {
-                id: "b",
+                id: "a",
                 text: '"The first thing they share is...", "now the second poem answers with...", "so what do these add up to?"',
               },
-              { id: "c", text: '"As I said", "repeating", "finally"' },
+              { id: "b", text: '"As I said", "repeating", "finally"' },
+              { id: "c", text: '"Moving on", "next", "the end"' },
               { id: "d", text: '"Quote", "analysis", "conclusion"' },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

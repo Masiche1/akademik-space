@@ -54,12 +54,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Guanine" },
-              { id: "b", text: "Cytosine" },
-              { id: "c", text: "Thymine" },
+              { id: "a", text: "Cytosine" },
+              { id: "b", text: "Thymine" },
+              { id: "c", text: "Guanine" },
               { id: "d", text: "Uracil" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Base pairing", statement: "In DNA, adenine pairs with thymine and guanine pairs with cytosine; uracil replaces thymine in RNA." }],
@@ -81,11 +81,11 @@ export const lesson21: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Deoxyribose" },
-              { id: "b", text: "Ribose" },
-              { id: "c", text: "Glucose" },
+              { id: "b", text: "Glucose" },
+              { id: "c", text: "Ribose" },
               { id: "d", text: "Fructose" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Nucleotide sugar", statement: "DNA contains deoxyribose; RNA contains ribose (one extra oxygen atom)." }],
@@ -106,12 +106,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "20% — because %G = %C so %C = 30%, leaving %A + %T = 40%, and %A = %T" },
-              { id: "b", text: "30% — because %G equals %A" },
+              { id: "a", text: "20% — because the four bases are always equal" },
+              { id: "b", text: "20% — because %G = %C so %C = 30%, leaving %A + %T = 40%, and %A = %T" },
               { id: "c", text: "40% — because adenine always equals cytosine" },
-              { id: "d", text: "20% — because the four bases are always equal" },
+              { id: "d", text: "30% — because %G equals %A" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Chargaff's rule", statement: "%A = %T and %G = %C in any DNA molecule because of complementary base pairing." }],
@@ -165,12 +165,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "3'-ATGCCT-5'" },
-              { id: "b", text: "3'-TACGGA-5'" },
-              { id: "c", text: "5'-ATGCCT-3'" },
+              { id: "a", text: "5'-ATGCCT-3'" },
+              { id: "b", text: "3'-ATGCCT-5'" },
+              { id: "c", text: "3'-TACGGA-5'" },
               { id: "d", text: "3'-AUGCCU-5'" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Complementary base pairing", statement: "A pairs with T and G pairs with C; the complementary strand runs antiparallel to the template." }],
@@ -191,12 +191,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "18%" },
-              { id: "b", text: "32%" },
-              { id: "c", text: "36%" },
-              { id: "d", text: "64%" },
+              { id: "a", text: "64%" },
+              { id: "b", text: "18%" },
+              { id: "c", text: "32%" },
+              { id: "d", text: "36%" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Chargaff's rule", statement: "%A = %T and %G = %C in any DNA molecule because of complementary base pairing." }],
@@ -218,11 +218,11 @@ export const lesson21: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Adenine pairs with guanine through two hydrogen bonds" },
-              { id: "b", text: "An A-T pair is joined by three hydrogen bonds and a G-C pair by two" },
-              { id: "c", text: "A G-C pair is joined by three hydrogen bonds and an A-T pair by two" },
-              { id: "d", text: "Any purine can pair with any pyrimidine regardless of the base" },
+              { id: "b", text: "Any purine can pair with any pyrimidine regardless of the base" },
+              { id: "c", text: "An A-T pair is joined by three hydrogen bonds and a G-C pair by two" },
+              { id: "d", text: "A G-C pair is joined by three hydrogen bonds and an A-T pair by two" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Base pairing", statement: "A pairs only with T and G pairs only with C; G-C pairs share three hydrogen bonds, A-T pairs share two." }],
@@ -244,10 +244,10 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Guanine" },
-              { id: "b", text: "Cytosine" },
+              { id: "a", text: "Cytosine" },
+              { id: "b", text: "Thymine" },
               { id: "c", text: "Adenine" },
-              { id: "d", text: "Thymine" },
+              { id: "d", text: "Guanine" },
             ],
             correctChoiceId: "c",
           },
@@ -270,12 +270,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Both contain the base thymine" },
-              { id: "b", text: "Both are usually double-stranded" },
-              { id: "c", text: "Both contain ribose sugar" },
-              { id: "d", text: "Both are polynucleotides built from nucleotide monomers" },
+              { id: "a", text: "Both contain ribose sugar" },
+              { id: "b", text: "Both contain the base thymine" },
+              { id: "c", text: "Both are polynucleotides built from nucleotide monomers" },
+              { id: "d", text: "Both are usually double-stranded" },
             ],
-            correctChoiceId: "d",
+            correctChoiceIc: "d",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Nucleic acids", statement: "DNA and RNA are both polynucleotides made of nucleotides; they differ in strand number, sugar and one base." }],
@@ -498,12 +498,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Only half of the DNA is copied each time" },
-              { id: "b", text: "Each new DNA molecule contains one original strand and one newly synthesised strand" },
-              { id: "c", text: "The two strands of DNA separate and are never rejoined" },
-              { id: "d", text: "Replication uses only half the available nucleotides" },
+              { id: "a", text: "Replication uses only half the available nucleotides" },
+              { id: "b", text: "Only half of the DNA is copied each time" },
+              { id: "c", text: "Each new DNA molecule contains one original strand and one newly synthesised strand" },
+              { id: "d", text: "The two strands of DNA separate and are never rejoined" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Semi-conservative replication", statement: "Each new double helix contains one parental strand and one newly synthesised complementary strand." }],
@@ -524,12 +524,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It unwinds the double helix" },
-              { id: "b", text: "It adds complementary nucleotides to the growing strand" },
-              { id: "c", text: "It joins Okazaki fragments together" },
-              { id: "d", text: "It cuts the DNA at specific sequences" },
+              { id: "a", text: "It adds complementary nucleotides to the growing strand" },
+              { id: "b", text: "It cuts the DNA at specific sequences" },
+              { id: "c", text: "It unwinds the double helix" },
+              { id: "d", text: "It joins Okazaki fragments together" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "DNA polymerase", statement: "DNA polymerase catalyses the addition of complementary nucleotides to the growing DNA strand and has a proofreading function." }],
@@ -550,12 +550,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Because DNA polymerase can only work in the 5' to 3' direction, and the lagging template runs the other way" },
-              { id: "b", text: "Because the lagging strand contains more guanine than cytosine" },
-              { id: "c", text: "Because helicase cannot unwind the lagging strand fully" },
-              { id: "d", text: "Because DNA ligase is too slow to work continuously" },
+              { id: "a", text: "Because the lagging strand contains more guanine than cytosine" },
+              { id: "b", text: "Because DNA ligase is too slow to work continuously" },
+              { id: "c", text: "Because DNA polymerase can only work in the 5' to 3' direction, and the lagging template runs the other way" },
+              { id: "d", text: "Because helicase cannot unwind the lagging strand fully" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Replication direction", statement: "DNA polymerase adds nucleotides only in the 5' to 3' direction; the two template strands are antiparallel." }],
@@ -609,12 +609,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Helicase" },
-              { id: "b", text: "DNA polymerase" },
-              { id: "c", text: "DNA ligase" },
+              { id: "a", text: "DNA polymerase" },
+              { id: "b", text: "DNA ligase" },
+              { id: "c", text: "Helicase" },
               { id: "d", text: "RNA polymerase" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Helicase", statement: "Helicase unwinds the double helix and breaks the hydrogen bonds between complementary bases." }],
@@ -636,9 +636,9 @@ export const lesson21: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "The leading strand is synthesised continuously and the lagging strand in Okazaki fragments" },
-              { id: "b", text: "Both strands are always synthesised continuously" },
-              { id: "c", text: "The lagging strand is synthesised continuously and the leading strand in fragments" },
-              { id: "d", text: "Okazaki fragments are formed on the leading strand" },
+              { id: "b", text: "The lagging strand is synthesised continuously and the leading strand in fragments" },
+              { id: "c", text: "Okazaki fragments are formed on the leading strand" },
+              { id: "d", text: "Both strands are always synthesised continuously" },
             ],
             correctChoiceId: "a",
           },
@@ -661,12 +661,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "3' to 5'" },
-              { id: "b", text: "5' to 3'" },
-              { id: "c", text: "In either direction" },
-              { id: "d", text: "Only on the lagging strand" },
+              { id: "a", text: "In either direction" },
+              { id: "b", text: "3' to 5'" },
+              { id: "c", text: "Only on the lagging strand" },
+              { id: "d", text: "5' to 3'" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "property", name: "DNA polymerase direction", statement: "DNA polymerase adds nucleotides only in the 5' to 3' direction." }],
@@ -687,12 +687,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It unwinds the DNA double helix" },
-              { id: "b", text: "It adds complementary nucleotides to the new strand" },
-              { id: "c", text: "It removes mismatched bases" },
-              { id: "d", text: "It joins Okazaki fragments into a continuous strand" },
+              { id: "a", text: "It joins Okazaki fragments into a continuous strand" },
+              { id: "b", text: "It removes mismatched bases" },
+              { id: "c", text: "It adds complementary nucleotides to the new strand" },
+              { id: "d", text: "It unwinds the DNA double helix" },
             ],
-            correctChoiceId: "d",
+            correctChoiceIa: "d",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "DNA ligase", statement: "DNA ligase seals nicks in the DNA backbone by joining adjacent nucleotides, including the fragments on the lagging strand." }],

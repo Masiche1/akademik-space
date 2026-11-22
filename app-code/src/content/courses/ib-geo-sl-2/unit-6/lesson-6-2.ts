@@ -55,11 +55,11 @@ export const lesson62: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Private insurance model" },
-              { id: "b", text: "Beveridge model (tax-funded)" },
+              { id: "b", text: "Out-of-pocket model" },
               { id: "c", text: "Bismarck model (social insurance)" },
-              { id: "d", text: "Out-of-pocket model" },
+              { id: "d", text: "Beveridge model (tax-funded)" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -153,12 +153,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Private insurance funding" },
-              { id: "b", text: "Tax-funded, state-provided healthcare (e.g. UK NHS)" },
-              { id: "c", text: "Patients paying directly for all care" },
-              { id: "d", text: "Employer-based social insurance" },
+              { id: "a", text: "Tax-funded, state-provided healthcare (e.g. UK NHS)" },
+              { id: "b", text: "Private insurance funding" },
+              { id: "c", text: "Employer-based social insurance" },
+              { id: "d", text: "Patients paying directly for all care" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -181,12 +181,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "General taxation only" },
-              { id: "b", text: "Social insurance contributions from employers and employees" },
-              { id: "c", text: "Out-of-pocket payments only" },
-              { id: "d", text: "Charitable donations" },
+              { id: "a", text: "Social insurance contributions from employers and employees" },
+              { id: "b", text: "General taxation only" },
+              { id: "c", text: "Charitable donations" },
+              { id: "d", text: "Out-of-pocket payments only" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -209,12 +209,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Only emergency care for all" },
-              { id: "b", text: "All people access needed health services without financial hardship" },
-              { id: "c", text: "Free healthcare only for citizens" },
+              { id: "a", text: "Free healthcare only for citizens" },
+              { id: "b", text: "Only emergency care for all" },
+              { id: "c", text: "All people access needed health services without financial hardship" },
               { id: "d", text: "Private insurance for everyone" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -237,12 +237,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Acceptability" },
+              { id: "a", text: "Luxury" },
               { id: "b", text: "Speed" },
-              { id: "c", text: "Luxury" },
+              { id: "c", text: "Acceptability" },
               { id: "d", text: "Technology" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -265,12 +265,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It has the best health outcomes globally" },
-              { id: "b", text: "Its private insurance model is costly and leaves gaps in coverage" },
-              { id: "c", text: "It spends the least on healthcare" },
-              { id: "d", text: "It has universal free healthcare" },
+              { id: "a", text: "It has universal free healthcare" },
+              { id: "b", text: "It has the best health outcomes globally" },
+              { id: "c", text: "Its private insurance model is costly and leaves gaps in coverage" },
+              { id: "d", text: "It spends the least on healthcare" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -472,10 +472,10 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Health differences between men and women" },
+              { id: "a", text: "Health changes with age" },
               { id: "b", text: "Steady improvement in health with increasing income" },
               { id: "c", text: "Differences in health between countries only" },
-              { id: "d", text: "Health changes with age" },
+              { id: "d", text: "Health differences between men and women" },
             ],
             correctChoiceId: "b",
           },
@@ -571,12 +571,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Health improving only at the top income level" },
-              { id: "b", text: "Health improving steadily with income across all groups" },
+              { id: "a", text: "Health improving steadily with income across all groups" },
+              { id: "b", text: "Health improving only at the top income level" },
               { id: "c", text: "No relationship between income and health" },
               { id: "d", text: "Health worsening with income" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -599,12 +599,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Any difference in health between groups" },
-              { id: "b", text: "Unfair, avoidable differences rooted in injustice" },
-              { id: "c", text: "A natural biological difference" },
-              { id: "d", text: "Always caused by genetics" },
+              { id: "a", text: "Always caused by genetics" },
+              { id: "b", text: "A natural biological difference" },
+              { id: "c", text: "Any difference in health between groups" },
+              { id: "d", text: "Unfair, avoidable differences rooted in injustice" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -627,12 +627,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Only access to hospitals" },
-              { id: "b", text: "Income, education, housing and employment" },
+              { id: "a", text: "Only medical technology" },
+              { id: "b", text: "Only access to hospitals" },
               { id: "c", text: "Only genetic inheritance" },
-              { id: "d", text: "Only medical technology" },
+              { id: "d", text: "Income, education, housing and employment" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -655,12 +655,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Health equality" },
-              { id: "b", text: "Health inequity driven by social determinants" },
-              { id: "c", text: "Genetic differences" },
-              { id: "d", text: "Random variation" },
+              { id: "a", text: "Genetic differences" },
+              { id: "b", text: "Random variation" },
+              { id: "c", text: "Health inequity driven by social determinants" },
+              { id: "d", text: "Health equality" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -684,11 +684,11 @@ export const lesson62: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "It is too expensive to implement" },
-              { id: "b", text: "Health outcomes are shaped by social determinants beyond medical care" },
-              { id: "c", text: "It only treats infectious diseases" },
+              { id: "b", text: "It only treats infectious diseases" },
+              { id: "c", text: "Health outcomes are shaped by social determinants beyond medical care" },
               { id: "d", text: "It excludes the poorest" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

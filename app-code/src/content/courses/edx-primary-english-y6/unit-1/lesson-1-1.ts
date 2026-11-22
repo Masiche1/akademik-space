@@ -51,12 +51,12 @@ export const lesson101: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A whole word" },
-              { id: "b", text: "Smallest unit of meaning" },
+              { id: "a", text: "Smallest unit of meaning" },
+              { id: "b", text: "A paragraph" },
               { id: "c", text: "A sentence" },
-              { id: "d", text: "A paragraph" },
+              { id: "d", text: "A whole word" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -85,12 +85,12 @@ export const lesson101: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "re + organ + ise" },
-              { id: "b", text: "reorg + anise" },
+              { id: "a", text: "reorg + anise" },
+              { id: "b", text: "re + organ + ise" },
               { id: "c", text: "reo + ganise" },
               { id: "d", text: "re + organise" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -217,12 +217,12 @@ export const lesson101: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Ignore" },
-              { id: "b", text: "Examine in detail" },
-              { id: "c", text: "Summarise" },
-              { id: "d", text: "Guess" },
+              { id: "a", text: "Examine in detail" },
+              { id: "b", text: "Summarise" },
+              { id: "c", text: "Guess" },
+              { id: "d", text: "Ignore" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -251,12 +251,12 @@ export const lesson101: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Describe" },
-              { id: "b", text: "Judge value" },
+              { id: "a", text: "Judge value" },
+              { id: "b", text: "Describe" },
               { id: "c", text: "Create" },
               { id: "d", text: "Copy" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

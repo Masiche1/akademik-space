@@ -53,12 +53,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$(1,3)$" },
-              { id: "b", text: "$(2,5)$" },
-              { id: "c", text: "$(3,7)$" },
-              { id: "d", text: "$(5,2)$" },
+              { id: "a", text: "$(5,2)$" },
+              { id: "b", text: "$(1,3)$" },
+              { id: "c", text: "$(2,5)$" },
+              { id: "d", text: "$(3,7)$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -201,9 +201,9 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Positive linear association" },
+              { id: "a", text: "Negative nonlinear association" },
               { id: "b", text: "Negative linear association" },
-              { id: "c", text: "Negative nonlinear association" },
+              { id: "c", text: "Positive linear association" },
               { id: "d", text: "No association" },
             ],
             correctChoiceId: "b",

@@ -53,10 +53,10 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Self-actualisation" },
-              { id: "b", text: "Physiological needs" },
+              { id: "a", text: "Physiological needs" },
+              { id: "b", text: "Safety needs" },
               { id: "c", text: "Love and belonging" },
-              { id: "d", text: "Safety needs" },
+              { id: "d", text: "Self-actualisation" },
             ],
             correctChoiceId: "c",
           },
@@ -152,12 +152,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "An external reward that pulls behaviour" },
-              { id: "b", text: "An internal state of tension arising from a need" },
-              { id: "c", text: "A learned association between stimuli" },
-              { id: "d", text: "An optimal level of arousal" },
+              { id: "a", text: "An internal state of tension arising from a need" },
+              { id: "b", text: "A learned association between stimuli" },
+              { id: "c", text: "An optimal level of arousal" },
+              { id: "d", text: "An external reward that pulls behaviour" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -180,12 +180,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The reduction of internal drives" },
-              { id: "b", text: "The attraction of external rewards or goals" },
-              { id: "c", text: "The maintenance of optimal arousal" },
-              { id: "d", text: "The fulfilment of a strict need hierarchy" },
+              { id: "a", text: "The fulfilment of a strict need hierarchy" },
+              { id: "b", text: "The maintenance of optimal arousal" },
+              { id: "c", text: "The attraction of external rewards or goals" },
+              { id: "d", text: "The reduction of internal drives" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -208,12 +208,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The lowest possible arousal" },
+              { id: "a", text: "A moderate level of arousal" },
               { id: "b", text: "The highest possible arousal" },
-              { id: "c", text: "A moderate level of arousal" },
-              { id: "d", text: "Zero arousal" },
+              { id: "c", text: "Zero arousal" },
+              { id: "d", text: "The lowest possible arousal" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -351,12 +351,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Arousal below the optimal level" },
-              { id: "b", text: "Arousal above the optimal level" },
-              { id: "c", text: "A complete absence of arousal" },
-              { id: "d", text: "Stable homeostasis" },
+              { id: "a", text: "A complete absence of arousal" },
+              { id: "b", text: "Stable homeostasis" },
+              { id: "c", text: "Arousal below the optimal level" },
+              { id: "d", text: "Arousal above the optimal level" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -425,12 +425,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Achievement motives are always strongest" },
-              { id: "b", text: "Physiological and safety needs must be satisfied before higher needs motivate behaviour" },
-              { id: "c", text: "Self-actualisation is the easiest need to fulfil" },
+              { id: "a", text: "Self-actualisation is the easiest need to fulfil" },
+              { id: "b", text: "Achievement motives are always strongest" },
+              { id: "c", text: "Physiological and safety needs must be satisfied before higher needs motivate behaviour" },
               { id: "d", text: "All needs are satisfied simultaneously" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -485,12 +485,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Before any physiological response" },
-              { id: "b", text: "Simultaneously with physiological arousal" },
-              { id: "c", text: "Because we notice our physiological response" },
-              { id: "d", text: "Only after cognitive appraisal" },
+              { id: "a", text: "Simultaneously with physiological arousal" },
+              { id: "b", text: "Before any physiological response" },
+              { id: "c", text: "Only after cognitive appraisal" },
+              { id: "d", text: "Because we notice our physiological response" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -584,12 +584,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Occur sequentially, arousal first" },
-              { id: "b", text: "Occur simultaneously and independently" },
-              { id: "c", text: "Require a cognitive label" },
-              { id: "d", text: "Only occur after appraisal" },
+              { id: "a", text: "Require a cognitive label" },
+              { id: "b", text: "Only occur after appraisal" },
+              { id: "c", text: "Occur simultaneously and independently" },
+              { id: "d", text: "Occur sequentially, arousal first" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -612,12 +612,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Physiological arousal alone" },
-              { id: "b", text: "Cognitive appraisal alone" },
-              { id: "c", text: "The combination of arousal and a cognitive label" },
-              { id: "d", text: "Facial expressions alone" },
+              { id: "a", text: "Facial expressions alone" },
+              { id: "b", text: "Physiological arousal alone" },
+              { id: "c", text: "Cognitive appraisal alone" },
+              { id: "d", text: "The combination of arousal and a cognitive label" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -640,9 +640,9 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A person feels no emotion at all" },
+              { id: "a", text: "Physiological arousal is completely absent" },
               { id: "b", text: "Arousal from one source is labelled as caused by another" },
-              { id: "c", text: "Physiological arousal is completely absent" },
+              { id: "c", text: "A person feels no emotion at all" },
               { id: "d", text: "Two different emotions occur simultaneously" },
             ],
             correctChoiceId: "b",
@@ -783,10 +783,10 @@ export const lesson33: Lesson = {
             choices: [
               { id: "a", text: "James-Lange" },
               { id: "b", text: "Schachter-Singer" },
-              { id: "c", text: "Cannon-Bard" },
-              { id: "d", text: "Drive reduction" },
+              { id: "c", text: "Drive reduction" },
+              { id: "d", text: "Cannon-Bard" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -855,12 +855,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Arousal must be completely eliminated" },
-              { id: "b", text: "Changing the cognitive label applied to arousal changes the emotion experienced" },
-              { id: "c", text: "All emotions are purely physiological" },
-              { id: "d", text: "Cognition plays no role in emotion" },
+              { id: "a", text: "All emotions are purely physiological" },
+              { id: "b", text: "Cognition plays no role in emotion" },
+              { id: "c", text: "Changing the cognitive label applied to arousal changes the emotion experienced" },
+              { id: "d", text: "Arousal must be completely eliminated" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

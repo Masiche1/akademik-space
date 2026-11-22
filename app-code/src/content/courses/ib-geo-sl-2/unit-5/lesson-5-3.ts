@@ -54,12 +54,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Production, processing, distribution, consumption" },
-              { id: "b", text: "Availability, access, utilisation, stability" },
+              { id: "a", text: "Supply, demand, price, profit" },
+              { id: "b", text: "Production, processing, distribution, consumption" },
               { id: "c", text: "Land, water, seeds, fertiliser" },
-              { id: "d", text: "Supply, demand, price, profit" },
+              { id: "d", text: "Availability, access, utilisation, stability" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -154,11 +154,11 @@ export const lesson53: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Affordability" },
-              { id: "b", text: "Stability" },
-              { id: "c", text: "Quantity" },
+              { id: "b", text: "Quantity" },
+              { id: "c", text: "Stability" },
               { id: "d", text: "Production" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -181,12 +181,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Absolute lack of food production" },
-              { id: "b", text: "Poverty — inability to afford food" },
+              { id: "a", text: "Poverty — inability to afford food" },
+              { id: "b", text: "Absolute lack of food production" },
               { id: "c", text: "Overpopulation alone" },
               { id: "d", text: "Climate change alone" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -209,12 +209,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The quantity of food produced" },
-              { id: "b", text: "Nutritional quality, food safety and health of consumers" },
-              { id: "c", text: "The distance food travels" },
+              { id: "a", text: "Nutritional quality, food safety and health of consumers" },
+              { id: "b", text: "The distance food travels" },
+              { id: "c", text: "The quantity of food produced" },
               { id: "d", text: "The price of food" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -237,12 +237,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "~80 million" },
-              { id: "b", text: "~800 million" },
-              { id: "c", text: "~8 billion" },
-              { id: "d", text: "~80 billion" },
+              { id: "a", text: "~800 million" },
+              { id: "b", text: "~80 million" },
+              { id: "c", text: "~80 billion" },
+              { id: "d", text: "~8 billion" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -265,12 +265,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It addresses acute crises but not the structural causes of poverty and access" },
-              { id: "b", text: "It produces too much food" },
-              { id: "c", text: "It is always rejected by recipients" },
-              { id: "d", text: "It only works in cities" },
+              { id: "a", text: "It only works in cities" },
+              { id: "b", text: "It is always rejected by recipients" },
+              { id: "c", text: "It produces too much food" },
+              { id: "d", text: "It addresses acute crises but not the structural causes of poverty and access" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -472,12 +472,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Growing crops in vertical stacks indoors" },
-              { id: "b", text: "Applying ecological principles to agriculture" },
+              { id: "a", text: "Applying ecological principles to agriculture" },
+              { id: "b", text: "Genetically modifying all crops" },
               { id: "c", text: "Using only synthetic fertilisers" },
-              { id: "d", text: "Genetically modifying all crops" },
+              { id: "d", text: "Growing crops in vertical stacks indoors" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -571,10 +571,10 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "7 billion" },
-              { id: "b", text: "8 billion" },
+              { id: "a", text: "12 billion" },
+              { id: "b", text: "7 billion" },
               { id: "c", text: "9.7 billion" },
-              { id: "d", text: "12 billion" },
+              { id: "d", text: "8 billion" },
             ],
             correctChoiceId: "c",
           },
@@ -599,12 +599,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Growing crops in stacked indoor layers under controlled conditions" },
+              { id: "a", text: "Raising livestock indoors" },
               { id: "b", text: "Traditional open-field cultivation" },
-              { id: "c", text: "Raising livestock indoors" },
+              { id: "c", text: "Growing crops in stacked indoor layers under controlled conditions" },
               { id: "d", text: "Planting crops in deserts only" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -627,12 +627,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It requires too much land" },
-              { id: "b", text: "It is extremely energy-intensive for lighting and climate control" },
-              { id: "c", text: "It cannot grow any crops" },
-              { id: "d", text: "It always uses more water than fields" },
+              { id: "a", text: "It is extremely energy-intensive for lighting and climate control" },
+              { id: "b", text: "It cannot grow any crops" },
+              { id: "c", text: "It always uses more water than fields" },
+              { id: "d", text: "It requires too much land" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -657,8 +657,8 @@ export const lesson53: Lesson = {
             choices: [
               { id: "a", text: "A method for precise modification of crop genes" },
               { id: "b", text: "A pesticide application technique" },
-              { id: "c", text: "A soil testing method" },
-              { id: "d", text: "A water irrigation system" },
+              { id: "c", text: "A water irrigation system" },
+              { id: "d", text: "A soil testing method" },
             ],
             correctChoiceId: "a",
           },
@@ -683,12 +683,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "They eliminate all agricultural land use" },
-              { id: "b", text: "They could reduce livestock emissions and land/water demands of meat production" },
-              { id: "c", text: "They are already cheaper than all conventional meat" },
-              { id: "d", text: "They require no energy inputs" },
+              { id: "a", text: "They require no energy inputs" },
+              { id: "b", text: "They are already cheaper than all conventional meat" },
+              { id: "c", text: "They could reduce livestock emissions and land/water demands of meat production" },
+              { id: "d", text: "They eliminate all agricultural land use" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

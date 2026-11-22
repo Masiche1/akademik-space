@@ -51,12 +51,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Title" },
-              { id: "b", text: "Caption" },
-              { id: "c", text: "Heading" },
-              { id: "d", text: "Paragraph" },
+              { id: "a", text: "Heading" },
+              { id: "b", text: "Paragraph" },
+              { id: "c", text: "Title" },
+              { id: "d", text: "Caption" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -145,8 +145,8 @@ export const lesson23: Lesson = {
             choices: [
               { id: "a", text: "Title" },
               { id: "b", text: "Caption" },
-              { id: "c", text: "Paragraph" },
-              { id: "d", text: "Speech" },
+              { id: "c", text: "Speech" },
+              { id: "d", text: "Paragraph" },
             ],
             correctChoiceId: "b",
           },
@@ -188,12 +188,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Nature and growth" },
-              { id: "b", text: "Stop or danger" },
+              { id: "a", text: "Stop or danger" },
+              { id: "b", text: "Nature and growth" },
               { id: "c", text: "Calm and sleep" },
               { id: "d", text: "Nothing important" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -270,10 +270,10 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Watch it once quickly and guess" },
+              { id: "a", text: "Close your eyes" },
               { id: "b", text: "Pause it and look for clues like faces, weather and actions" },
-              { id: "c", text: "Turn the sound off forever" },
-              { id: "d", text: "Close your eyes" },
+              { id: "c", text: "Watch it once quickly and guess" },
+              { id: "d", text: "Turn the sound off forever" },
             ],
             correctChoiceId: "b",
           },
@@ -334,12 +334,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "To tell a long story" },
-              { id: "b", text: "To give information or advertise something" },
-              { id: "c", text: "To be a poem" },
+              { id: "a", text: "To be a poem" },
+              { id: "b", text: "To tell a long story" },
+              { id: "c", text: "To give information or advertise something" },
               { id: "d", text: "To list instructions only" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -361,11 +361,11 @@ export const lesson23: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Buy a dog" },
-              { id: "b", text: "Walk their dog every day" },
-              { id: "c", text: "Feed the dog bones only" },
-              { id: "d", text: "Draw a picture of a dog" },
+              { id: "b", text: "Feed the dog bones only" },
+              { id: "c", text: "Draw a picture of a dog" },
+              { id: "d", text: "Walk their dog every day" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -442,11 +442,11 @@ export const lesson23: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Summarising" },
-              { id: "b", text: "Predicting" },
-              { id: "c", text: "Rhyming" },
+              { id: "b", text: "Rhyming" },
+              { id: "c", text: "Predicting" },
               { id: "d", text: "Counting" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -551,12 +551,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Summary" },
-              { id: "b", text: "Response" },
-              { id: "c", text: "Spelling" },
-              { id: "d", text: "Title" },
+              { id: "a", text: "Title" },
+              { id: "b", text: "Spelling" },
+              { id: "c", text: "Response" },
+              { id: "d", text: "Summary" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -596,12 +596,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A random guess with no reason" },
-              { id: "b", text: "Clues in the text" },
-              { id: "c", text: "The book's cover only" },
+              { id: "a", text: "The book's cover only" },
+              { id: "b", text: "A random guess with no reason" },
+              { id: "c", text: "Clues in the text" },
               { id: "d", text: "What a friend said, not the text" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -678,12 +678,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "To tell them the book is good and they should try it" },
+              { id: "a", text: "To copy the book" },
               { id: "b", text: "To hide the book from them" },
-              { id: "c", text: "To copy the book" },
-              { id: "d", text: "To read it backwards" },
+              { id: "c", text: "To read it backwards" },
+              { id: "d", text: "To tell them the book is good and they should try it" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -743,11 +743,11 @@ export const lesson23: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "'It was okay, I guess.'" },
-              { id: "b", text: "'I liked it because the ending surprised me.'" },
-              { id: "c", text: "'I did not read it.'" },
-              { id: "d", text: "'Everyone says it is boring.'" },
+              { id: "b", text: "'Everyone says it is boring.'" },
+              { id: "c", text: "'I liked it because the ending surprised me.'" },
+              { id: "d", text: "'I did not read it.'" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -768,12 +768,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "'The dog will fly to the moon.'" },
-              { id: "b", text: "'Its owner will open the gate and take it home.'" },
+              { id: "a", text: "'Its owner will open the gate and take it home.'" },
+              { id: "b", text: "'Nothing will happen.'" },
               { id: "c", text: "'The dog will become a cat.'" },
-              { id: "d", text: "'Nothing will happen.'" },
+              { id: "d", text: "'The dog will fly to the moon.'" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

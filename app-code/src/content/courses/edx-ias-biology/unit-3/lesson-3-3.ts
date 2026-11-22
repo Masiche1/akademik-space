@@ -84,11 +84,11 @@ export const lesson33: Lesson = {
             "choices": [
               {
                 "id": "a",
-                "text": "A pie chart"
+                "text": "A pictogram"
               },
               {
                 "id": "b",
-                "text": "A line graph"
+                "text": "A pie chart"
               },
               {
                 "id": "c",
@@ -96,10 +96,10 @@ export const lesson33: Lesson = {
               },
               {
                 "id": "d",
-                "text": "A pictogram"
+                "text": "A line graph"
               }
             ],
-            "correctChoiceId": "b"
+            "correctChoiceId": "d"
           },
           "markscheme": {
             "principles": [
@@ -357,22 +357,22 @@ export const lesson33: Lesson = {
             "choices": [
               {
                 "id": "a",
-                "text": "Consistency of repeats"
+                "text": "Taking many readings"
               },
               {
                 "id": "b",
-                "text": "Measuring what the investigation claims to measure"
-              },
-              {
-                "id": "c",
                 "text": "Using the most expensive apparatus"
               },
               {
+                "id": "c",
+                "text": "Measuring what the investigation claims to measure"
+              },
+              {
                 "id": "d",
-                "text": "Taking many readings"
+                "text": "Consistency of repeats"
               }
             ],
-            "correctChoiceId": "b"
+            "correctChoiceId": "c"
           },
           "markscheme": {
             "principles": [

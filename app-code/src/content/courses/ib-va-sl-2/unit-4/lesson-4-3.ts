@@ -55,12 +55,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The artist's biography" },
-              { id: "b", text: "Formal elements like line, colour and composition" },
+              { id: "a", text: "Formal elements like line, colour and composition" },
+              { id: "b", text: "The artist's biography" },
               { id: "c", text: "The artwork's market value" },
               { id: "d", text: "The political context of creation" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -162,12 +162,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Painting techniques and brushwork" },
-              { id: "b", text: "How colonial power relations shape representation and artistic production" },
-              { id: "c", text: "The colour theory of a work" },
-              { id: "d", text: "The style of its frame" },
+              { id: "a", text: "The colour theory of a work" },
+              { id: "b", text: "The style of its frame" },
+              { id: "c", text: "How colonial power relations shape representation and artistic production" },
+              { id: "d", text: "Painting techniques and brushwork" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -191,12 +191,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The market price of the work" },
-              { id: "b", text: "Gender representation, power distribution and the controlling gaze" },
-              { id: "c", text: "The weave of the canvas" },
-              { id: "d", text: "The artist's signature style" },
+              { id: "a", text: "The artist's signature style" },
+              { id: "b", text: "The market price of the work" },
+              { id: "c", text: "Gender representation, power distribution and the controlling gaze" },
+              { id: "d", text: "The weave of the canvas" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -220,12 +220,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Because it is too expensive to practice" },
-              { id: "b", text: "Because it judges visual craft well but misses context, meaning and representation" },
-              { id: "c", text: "Because it requires no analytical skill" },
-              { id: "d", text: "Because it only works for sculpture" },
+              { id: "a", text: "Because it requires no analytical skill" },
+              { id: "b", text: "Because it only works for sculpture" },
+              { id: "c", text: "Because it is too expensive to practice" },
+              { id: "d", text: "Because it judges visual craft well but misses context, meaning and representation" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -249,12 +249,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Is the composition balanced?" },
-              { id: "b", text: "How does the work relate to its historical, cultural and social moment?" },
-              { id: "c", text: "Is the paint expensive?" },
-              { id: "d", text: "Did the artist sign it?" },
+              { id: "a", text: "Did the artist sign it?" },
+              { id: "b", text: "Is the composition balanced?" },
+              { id: "c", text: "How does the work relate to its historical, cultural and social moment?" },
+              { id: "d", text: "Is the paint expensive?" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -365,12 +365,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Using only the formalist framework" },
-              { id: "b", text: "Applying multiple analytical lenses to reach a fuller judgement" },
+              { id: "a", text: "Applying multiple analytical lenses to reach a fuller judgement" },
+              { id: "b", text: "Using only the formalist framework" },
               { id: "c", text: "Avoiding analysis entirely" },
               { id: "d", text: "Using whichever framework is newest" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -394,12 +394,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Well-made works can never be problematic" },
-              { id: "b", text: "Craft excellence and ethical or contextual soundness are separate dimensions" },
-              { id: "c", text: "Problematic automatically means ugly" },
-              { id: "d", text: "Only bad art can be problematic" },
+              { id: "a", text: "Problematic automatically means ugly" },
+              { id: "b", text: "Only bad art can be problematic" },
+              { id: "c", text: "Craft excellence and ethical or contextual soundness are separate dimensions" },
+              { id: "d", text: "Well-made works can never be problematic" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -544,12 +544,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Decide if you like it" },
-              { id: "b", text: "Establish explicit criteria for judgement" },
+              { id: "a", text: "Establish explicit criteria for judgement" },
+              { id: "b", text: "Decide if you like it" },
               { id: "c", text: "Compare it to the most famous artwork" },
               { id: "d", text: "Check its price" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -651,12 +651,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The market value of the work" },
-              { id: "b", text: "How well the elements are organised into a unified whole" },
-              { id: "c", text: "The fame of the artist" },
+              { id: "a", text: "How well the elements are organised into a unified whole" },
+              { id: "b", text: "The fame of the artist" },
+              { id: "c", text: "The market value of the work" },
               { id: "d", text: "The colour of the frame" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -681,11 +681,11 @@ export const lesson43: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Judging whichever one you personally prefer" },
-              { id: "b", text: "Applying the same criteria to both and specifying the dimension judged" },
-              { id: "c", text: "Choosing the physically larger work" },
-              { id: "d", text: "Using different criteria for each work" },
+              { id: "b", text: "Choosing the physically larger work" },
+              { id: "c", text: "Using different criteria for each work" },
+              { id: "d", text: "Applying the same criteria to both and specifying the dimension judged" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -709,12 +709,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Whether the work is the most expensive" },
-              { id: "b", text: "Whether the work says or does something new or distinctive" },
-              { id: "c", text: "Whether the work is signed" },
-              { id: "d", text: "Whether the work uses rare materials" },
+              { id: "a", text: "Whether the work uses rare materials" },
+              { id: "b", text: "Whether the work is signed" },
+              { id: "c", text: "Whether the work is the most expensive" },
+              { id: "d", text: "Whether the work says or does something new or distinctive" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -738,12 +738,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Technical finish" },
-              { id: "b", text: "Economy of means and expressive power" },
-              { id: "c", text: "Monumental scale" },
-              { id: "d", text: "Colour richness" },
+              { id: "a", text: "Colour richness" },
+              { id: "b", text: "Monumental scale" },
+              { id: "c", text: "Economy of means and expressive power" },
+              { id: "d", text: "Technical finish" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -855,11 +855,11 @@ export const lesson43: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "It is always false" },
-              { id: "b", text: "It does not specify the criterion or dimension of judgement" },
-              { id: "c", text: "It uses too many words" },
-              { id: "d", text: "It mentions the work by name" },
+              { id: "b", text: "It uses too many words" },
+              { id: "c", text: "It mentions the work by name" },
+              { id: "d", text: "It does not specify the criterion or dimension of judgement" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -883,12 +883,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Technical finish" },
-              { id: "b", text: "Economy of means and formal purity" },
+              { id: "a", text: "Economy of means and formal purity" },
+              { id: "b", text: "Monumental size" },
               { id: "c", text: "Variety of colour" },
-              { id: "d", text: "Monumental size" },
+              { id: "d", text: "Technical finish" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

@@ -55,11 +55,11 @@ export const lesson22: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Sea level only" },
-              { id: "b", text: "An arbitrarily chosen zero level" },
+              { id: "b", text: "The top of the object" },
               { id: "c", text: "The centre of the Earth" },
-              { id: "d", text: "The top of the object" },
+              { id: "d", text: "An arbitrarily chosen zero level" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "GPE", statement: "E_p = mgh; the zero level is arbitrary because only changes matter." }],
@@ -80,12 +80,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$98.1$ J" },
-              { id: "b", text: "$19.6$ J" },
-              { id: "c", text: "$4.90$ J" },
-              { id: "d", text: "$490.5$ J" },
+              { id: "a", text: "$19.6$ J" },
+              { id: "b", text: "$98.1$ J" },
+              { id: "c", text: "$490.5$ J" },
+              { id: "d", text: "$4.90$ J" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "E_p = mgh", statement: "E_p = mgh" }],
@@ -107,12 +107,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$235$ J" },
-              { id: "b", text: "$78.5$ J" },
-              { id: "c", text: "$24$ J" },
-              { id: "d", text: "$118$ J" },
+              { id: "a", text: "$118$ J" },
+              { id: "b", text: "$235$ J" },
+              { id: "c", text: "$78.5$ J" },
+              { id: "d", text: "$24$ J" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -172,9 +172,9 @@ export const lesson22: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "the mass, the height and $g$" },
-              { id: "b", text: "the path taken to reach the height" },
+              { id: "b", text: "the temperature of the surroundings" },
               { id: "c", text: "the speed of the mass" },
-              { id: "d", text: "the temperature of the surroundings" },
+              { id: "d", text: "the path taken to reach the height" },
             ],
             correctChoiceId: "a",
           },
@@ -197,12 +197,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$235$ J" },
-              { id: "b", text: "$24$ J" },
+              { id: "a", text: "$24$ J" },
+              { id: "b", text: "$39$ J" },
               { id: "c", text: "$470$ J" },
-              { id: "d", text: "$39$ J" },
+              { id: "d", text: "$235$ J" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "E_p = mgh", statement: "E_p = mgh" }],
@@ -226,8 +226,8 @@ export const lesson22: Lesson = {
             choices: [
               { id: "a", text: "$mgh$" },
               { id: "b", text: "$\\frac{1}{2}mgh$" },
-              { id: "c", text: "$2mgh$" },
-              { id: "d", text: "$gh$" },
+              { id: "c", text: "$gh$" },
+              { id: "d", text: "$2mgh$" },
             ],
             correctChoiceId: "a",
           },
@@ -250,12 +250,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "They reach the ground with the same speed, $\\sqrt{2gh}$" },
-              { id: "b", text: "The heavier sphere reaches the ground first and with greater speed" },
-              { id: "c", text: "The lighter sphere reaches the ground first" },
-              { id: "d", text: "They reach the ground with speeds proportional to their masses" },
+              { id: "a", text: "The lighter sphere reaches the ground first" },
+              { id: "b", text: "They reach the ground with speeds proportional to their masses" },
+              { id: "c", text: "They reach the ground with the same speed, $\\sqrt{2gh}$" },
+              { id: "d", text: "The heavier sphere reaches the ground first and with greater speed" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "v = √(2gh)", statement: "v = \\sqrt{2gh}; mass cancels in free fall." }],
@@ -279,8 +279,8 @@ export const lesson22: Lesson = {
             choices: [
               { id: "a", text: "$10$ m" },
               { id: "b", text: "$5.0$ m" },
-              { id: "c", text: "$20$ m" },
-              { id: "d", text: "$100$ m" },
+              { id: "c", text: "$100$ m" },
+              { id: "d", text: "$20$ m" },
             ],
             correctChoiceId: "a",
           },
@@ -564,12 +564,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Only gravity acts on the body" },
-              { id: "b", text: "No non-conservative forces do work" },
-              { id: "c", text: "The body moves at constant speed" },
+              { id: "a", text: "The body moves at constant speed" },
+              { id: "b", text: "Only gravity acts on the body" },
+              { id: "c", text: "No non-conservative forces do work" },
               { id: "d", text: "The body is stationary" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Conservation of mechanical energy", statement: "E_p + E_k constant when only conservative forces act." }],
@@ -590,12 +590,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$14.0$ m/s" },
-              { id: "b", text: "$9.81$ m/s" },
+              { id: "a", text: "$4.95$ m/s" },
+              { id: "b", text: "$14.0$ m/s" },
               { id: "c", text: "$98.1$ m/s" },
-              { id: "d", text: "$4.95$ m/s" },
+              { id: "d", text: "$9.81$ m/s" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "v = √(2gh)", statement: "v = \\sqrt{2gh}" }],
@@ -617,12 +617,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$75\\%$" },
-              { id: "b", text: "$25\\%$" },
+              { id: "a", text: "$25\\%$" },
+              { id: "b", text: "$75\\%$" },
               { id: "c", text: "$133\\%$" },
               { id: "d", text: "$30\\%$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Efficiency", statement: "\\eta = \\frac{\\text{useful output}}{\\text{total input}}" }],
@@ -678,12 +678,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "its kinetic energy and its gravitational potential energy" },
+              { id: "a", text: "its potential energy and its chemical energy" },
               { id: "b", text: "its kinetic energy and its heat energy" },
-              { id: "c", text: "its potential energy and its chemical energy" },
-              { id: "d", text: "its work done and its power" },
+              { id: "c", text: "its work done and its power" },
+              { id: "d", text: "its kinetic energy and its gravitational potential energy" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Mechanical energy", statement: "Mechanical energy = E_k + E_p." }],
@@ -704,12 +704,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$20\\%$" },
-              { id: "b", text: "$80\\%$" },
+              { id: "a", text: "$80\\%$" },
+              { id: "b", text: "$20\\%$" },
               { id: "c", text: "$125\\%$" },
               { id: "d", text: "$44\\%$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Efficiency", statement: "\\eta = \\frac{\\text{useful output}}{\\text{total input}}" }],
@@ -731,9 +731,9 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "increases because friction adds energy" },
+              { id: "a", text: "stays the same because energy is conserved" },
               { id: "b", text: "decreases as it is converted into heat and sound" },
-              { id: "c", text: "stays the same because energy is conserved" },
+              { id: "c", text: "increases because friction adds energy" },
               { id: "d", text: "becomes zero immediately" },
             ],
             correctChoiceId: "b",
@@ -757,12 +757,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$8.9$ m/s" },
-              { id: "b", text: "$39$ m/s" },
-              { id: "c", text: "$4.4$ m/s" },
-              { id: "d", text: "$17.7$ m/s" },
+              { id: "a", text: "$39$ m/s" },
+              { id: "b", text: "$17.7$ m/s" },
+              { id: "c", text: "$8.9$ m/s" },
+              { id: "d", text: "$4.4$ m/s" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "v = √(2gh)", statement: "v = \\sqrt{2gh}" }],
@@ -784,12 +784,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$mgh$" },
-              { id: "b", text: "$\\frac{1}{2}mgh$" },
+              { id: "a", text: "$\\frac{1}{2}mgh$" },
+              { id: "b", text: "$\\frac{1}{4}mgh$" },
               { id: "c", text: "$2mgh$" },
-              { id: "d", text: "$\\frac{1}{4}mgh$" },
+              { id: "d", text: "$mgh$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Conservation of mechanical energy", statement: "Loss of GPE = gain of KE on a frictionless path." }],

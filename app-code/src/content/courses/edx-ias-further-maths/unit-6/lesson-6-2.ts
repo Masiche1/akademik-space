@@ -50,8 +50,8 @@ export const lesson62: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Directed toward equilibrium" },
-              { id: "b", text: "Directed away" },
-              { id: "c", text: "Constant" },
+              { id: "b", text: "Constant" },
+              { id: "c", text: "Directed away" },
               { id: "d", text: "Zero at centre" },
             ],
             correctChoiceId: "a",
@@ -169,8 +169,8 @@ export const lesson62: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Extension" },
-              { id: "b", text: "Length" },
-              { id: "c", text: "Mass" },
+              { id: "b", text: "Mass" },
+              { id: "c", text: "Length" },
               { id: "d", text: "Time" },
             ],
             correctChoiceId: "a",

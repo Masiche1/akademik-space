@@ -54,12 +54,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$6.28$ cm" },
-              { id: "b", text: "$18.8$ cm" },
-              { id: "c", text: "$37.7$ cm" },
-              { id: "d", text: "$3.14$ cm" },
+              { id: "a", text: "$37.7$ cm" },
+              { id: "b", text: "$3.14$ cm" },
+              { id: "c", text: "$6.28$ cm" },
+              { id: "d", text: "$18.8$ cm" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -159,12 +159,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$113$" },
-              { id: "b", text: "$452$" },
+              { id: "a", text: "$226$" },
+              { id: "b", text: "$113$" },
               { id: "c", text: "$18.8$" },
-              { id: "d", text: "$226$" },
+              { id: "d", text: "$452$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -207,12 +207,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$10$ cm" },
-              { id: "b", text: "$17.3$ cm" },
-              { id: "c", text: "$5$ cm" },
-              { id: "d", text: "$20$ cm" },
+              { id: "a", text: "$5$ cm" },
+              { id: "b", text: "$10$ cm" },
+              { id: "c", text: "$20$ cm" },
+              { id: "d", text: "$17.3$ cm" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -255,12 +255,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$y = x - 2$" },
+              { id: "a", text: "$y = 2$" },
               { id: "b", text: "$y = -x + 6$" },
-              { id: "c", text: "$x = 4$" },
-              { id: "d", text: "$y = 2$" },
+              { id: "c", text: "$y = x - 2$" },
+              { id: "d", text: "$x = 4$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -304,12 +304,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$y = 3$" },
-              { id: "b", text: "$x = 1$" },
+              { id: "a", text: "$x = 1$" },
+              { id: "b", text: "$y = 3$" },
               { id: "c", text: "$y = 1$" },
               { id: "d", text: "$x = 3$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -332,12 +332,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$22.0$" },
+              { id: "a", text: "$44.0$" },
               { id: "b", text: "$11.0$" },
               { id: "c", text: "$153.9$" },
-              { id: "d", text: "$44.0$" },
+              { id: "d", text: "$22.0$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -394,12 +394,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$-\\frac{3}{2}$" },
-              { id: "b", text: "$\\frac{2}{3}$" },
-              { id: "c", text: "$-\\frac{2}{3}$" },
-              { id: "d", text: "$\\frac{3}{2}$" },
+              { id: "a", text: "$\\frac{2}{3}$" },
+              { id: "b", text: "$-\\frac{3}{2}$" },
+              { id: "c", text: "$\\frac{3}{2}$" },
+              { id: "d", text: "$-\\frac{2}{3}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -505,9 +505,9 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$x = 3$" },
-              { id: "b", text: "$y = 1$" },
-              { id: "c", text: "$y = 3$" },
-              { id: "d", text: "$x = 1$" },
+              { id: "b", text: "$x = 1$" },
+              { id: "c", text: "$y = 1$" },
+              { id: "d", text: "$y = 3$" },
             ],
             correctChoiceId: "a",
           },
@@ -615,8 +615,8 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$x = 4$" },
-              { id: "b", text: "$y = 4$" },
-              { id: "c", text: "$y = 3$" },
+              { id: "b", text: "$y = 3$" },
+              { id: "c", text: "$y = 4$" },
               { id: "d", text: "$x = 1$" },
             ],
             correctChoiceId: "a",
@@ -642,12 +642,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "closer to $A$" },
-              { id: "b", text: "closer to $B$" },
-              { id: "c", text: "equidistant from $A$ and $B$" },
-              { id: "d", text: "outside both cells" },
+              { id: "a", text: "outside both cells" },
+              { id: "b", text: "equidistant from $A$ and $B$" },
+              { id: "c", text: "closer to $B$" },
+              { id: "d", text: "closer to $A$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -710,12 +710,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$(5, 3)$" },
-              { id: "b", text: "$(3, 5)$" },
-              { id: "c", text: "$(8, 5)$" },
-              { id: "d", text: "$(4, 4)$" },
+              { id: "a", text: "$(3, 5)$" },
+              { id: "b", text: "$(4, 4)$" },
+              { id: "c", text: "$(5, 3)$" },
+              { id: "d", text: "$(8, 5)$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -766,12 +766,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "equidistant from three or more sites" },
-              { id: "b", text: "the midpoint of the segment joining two sites" },
+              { id: "a", text: "the midpoint of the segment joining two sites" },
+              { id: "b", text: "equidistant from three or more sites" },
               { id: "c", text: "the point closest to exactly one site" },
               { id: "d", text: "any point on a Voronoi edge" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -850,9 +850,9 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$y = -x + 2$" },
-              { id: "b", text: "$y = x + 2$" },
-              { id: "c", text: "$y = -x$" },
-              { id: "d", text: "$x = 0$" },
+              { id: "b", text: "$y = -x$" },
+              { id: "c", text: "$x = 0$" },
+              { id: "d", text: "$y = x + 2$" },
             ],
             correctChoiceId: "a",
           },

@@ -53,12 +53,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\begin{pmatrix} 5 \\\\ 3 \\end{pmatrix}$" },
-              { id: "b", text: "$\\begin{pmatrix} 1 \\\\ -5 \\end{pmatrix}$" },
+              { id: "a", text: "$\\begin{pmatrix} 1 \\\\ -5 \\end{pmatrix}$" },
+              { id: "b", text: "$\\begin{pmatrix} 6 \\\\ -4 \\end{pmatrix}$" },
               { id: "c", text: "$\\begin{pmatrix} 5 \\\\ -3 \\end{pmatrix}$" },
-              { id: "d", text: "$\\begin{pmatrix} 6 \\\\ -4 \\end{pmatrix}$" },
+              { id: "d", text: "$\\begin{pmatrix} 5 \\\\ 3 \\end{pmatrix}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "law", name: "Vector addition", statement: "Add corresponding entries." }],
@@ -182,12 +182,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\frac12(\\mathbf{a}+\\mathbf{b})$" },
-              { id: "b", text: "$\\frac12(\\mathbf{b}-\\mathbf{a})$" },
-              { id: "c", text: "$\\mathbf{a}+\\mathbf{b}$" },
-              { id: "d", text: "$\\frac12\\mathbf{a}+\\mathbf{b}$" },
+              { id: "a", text: "$\\frac12(\\mathbf{b}-\\mathbf{a})$" },
+              { id: "b", text: "$\\frac12\\mathbf{a}+\\mathbf{b}$" },
+              { id: "c", text: "$\\frac12(\\mathbf{a}+\\mathbf{b})$" },
+              { id: "d", text: "$\\mathbf{a}+\\mathbf{b}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "law", name: "Triangle law", statement: "$\\overrightarrow{OM}=\\overrightarrow{OA}+\\overrightarrow{AM}$" }],

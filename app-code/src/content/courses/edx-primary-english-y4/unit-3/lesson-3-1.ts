@@ -60,12 +60,12 @@ export const lesson121: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Hey there!" },
-              { id: "b", text: "Dear Sir or Madam," },
-              { id: "c", text: "Yo!" },
-              { id: "d", text: "Hi mate" },
+              { id: "a", text: "Yo!" },
+              { id: "b", text: "Hey there!" },
+              { id: "c", text: "Hi mate" },
+              { id: "d", text: "Dear Sir or Madam," },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -90,8 +90,8 @@ export const lesson121: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "gonna" },
-              { id: "b", text: "want to" },
+              { id: "a", text: "want to" },
+              { id: "b", text: "gonna" },
               { id: "c", text: "I would like to request" },
               { id: "d", text: "stuff" },
             ],
@@ -234,10 +234,10 @@ export const lesson121: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Writing that entertains" },
+              { id: "a", text: "Writing that describes" },
               { id: "b", text: "Writing that convinces" },
               { id: "c", text: "Writing that informs" },
-              { id: "d", text: "Writing that describes" },
+              { id: "d", text: "Writing that entertains" },
             ],
             correctChoiceId: "b",
           },
@@ -268,12 +268,12 @@ export const lesson121: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The pizza is nice" },
-              { id: "b", text: "Try it today!" },
-              { id: "c", text: "Pizzas exist" },
-              { id: "d", text: "Some like it" },
+              { id: "a", text: "Pizzas exist" },
+              { id: "b", text: "Some like it" },
+              { id: "c", text: "Try it today!" },
+              { id: "d", text: "The pizza is nice" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

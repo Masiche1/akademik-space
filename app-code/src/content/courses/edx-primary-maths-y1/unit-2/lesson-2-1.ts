@@ -65,10 +65,10 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A half" },
+              { id: "a", text: "One third" },
               { id: "b", text: "A quarter" },
-              { id: "c", text: "Three quarters" },
-              { id: "d", text: "One third" },
+              { id: "c", text: "A half" },
+              { id: "d", text: "Three quarters" },
             ],
             correctChoiceId: "b",
           },
@@ -311,12 +311,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Cube" },
-              { id: "b", text: "Cylinder" },
-              { id: "c", text: "Sphere" },
-              { id: "d", text: "Cone" },
+              { id: "a", text: "Cone" },
+              { id: "b", text: "Cube" },
+              { id: "c", text: "Cylinder" },
+              { id: "d", text: "Sphere" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [

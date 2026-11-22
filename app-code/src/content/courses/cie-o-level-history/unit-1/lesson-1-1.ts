@@ -73,15 +73,15 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "A nuclear war" },
               {
-                id: "a",
+                id: "b",
                 text: "Rivalry between USA and USSR without direct war",
               },
-              { id: "b", text: "A nuclear war" },
               { id: "c", text: "A trade agreement" },
               { id: "d", text: "A peace treaty" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -246,6 +246,387 @@ export const lesson11: Lesson = {
               "(a) Cold War (b) Truman (c) ideology (d) expansion (e) Marshall",
           },
         },
+        {
+          id: "oleh-u1-cw-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "In which year did Churchill give his 'Iron Curtain' speech?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "1955" },
+              { id: "b", text: "1946" },
+              { id: "c", text: "1945" },
+              { id: "d", text: "1949" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Iron Curtain speech",
+                statement: "Churchill warned of Soviet threat in 1946.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Speech given 1946.",
+                marks: 1,
+                markCode: "AO1",
+              },
+            ],
+            finalAnswer: "**(a)** 1946",
+            commonErrors: ["Confusing with NATO year."],
+          },
+        },
+        {
+          id: "oleh-u1-cw-q6",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "What was the Marshall Plan?",
+          response: {
+            type: "mcq",
+            choices: [
+              {
+                id: "a",
+                text: "US economic aid to rebuild Western Europe",
+              },
+              { id: "b", text: "A trade embargo on the USSR" },
+              { id: "c", text: "A nuclear arms treaty" },
+              { id: "d", text: "A military alliance" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Marshall Plan",
+                statement: "$13bn aid to rebuild Western Europe.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Economic aid, not military.",
+                marks: 1,
+                markCode: "AO1",
+              },
+            ],
+            finalAnswer: "**(a)** US economic aid to rebuild Western Europe",
+            commonErrors: ["Confusing with NATO."],
+          },
+        },
+        {
+          id: "oleh-u1-cw-q7",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "In which year was the Warsaw Pact formed?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 1955 }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Warsaw Pact",
+                statement: "Soviet counter-alliance formed 1955.",
+              },
+            ],
+            steps: [
+              { reasoning: "Warsaw Pact 1955.", marks: 1, markCode: "AO1" },
+            ],
+            finalAnswer: "1955",
+          },
+        },
+        {
+          id: "oleh-u1-cw-q8",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "What was the 'Iron Curtain'?",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Iron Curtain",
+                statement: "Dividing line between Soviet East and West.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Churchill's term for the divide.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                reasoning: "Separated communist East from West.",
+                marks: 1,
+                markCode: "AO2",
+              },
+            ],
+            finalAnswer:
+              "Dividing line between Soviet-controlled Eastern Europe and the West.",
+            commonErrors: ["Thinking it was a physical wall only."],
+          },
+        },
+        {
+          id: "oleh-u1-cw-q9",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Which country was the leading member of NATO?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Poland" },
+              { id: "b", text: "USA" },
+              { id: "c", text: "France" },
+              { id: "d", text: "USSR" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "NATO leader",
+                statement: "USA led the Western alliance.",
+              },
+            ],
+            steps: [
+              { reasoning: "USA led NATO.", marks: 1, markCode: "AO1" },
+            ],
+            finalAnswer: "**(a)** USA",
+            commonErrors: ["Choosing USSR (Warsaw Pact)."],
+          },
+        },
+        {
+          id: "oleh-u1-cw-q10",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "In which year was the Truman Doctrine announced?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 1947 }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Truman Doctrine",
+                statement: "Announced 1947.",
+              },
+            ],
+            steps: [
+              { reasoning: "Truman Doctrine 1947.", marks: 1, markCode: "AO1" },
+            ],
+            finalAnswer: "1947",
+          },
+        },
+        {
+          id: "oleh-u1-cw-q11",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "Explain why the USA feared Soviet expansion in Eastern Europe.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "US fear",
+                statement: "Communist spread threatened Western Europe.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "USSR occupied Eastern Europe.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                reasoning: "Communist governments installed.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                reasoning: "Fear of spread to Western Europe.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "Led to containment policy.",
+                marks: 1,
+                markCode: "AO3",
+              },
+            ],
+            finalAnswer:
+              "USSR occupied Eastern Europe and installed communist governments — USA feared communism would spread west, prompting containment.",
+            commonErrors: ["Only one point developed."],
+          },
+        },
+        {
+          id: "oleh-u1-cw-q12",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Which features belong to the capitalist system?",
+          response: {
+            type: "mcq",
+            choices: [
+              {
+                id: "a",
+                text: "Democracy, individual freedom, private ownership",
+              },
+              { id: "b", text: "No political parties" },
+              { id: "c", text: "One-party state, collective ownership" },
+              { id: "d", text: "State control of all production" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Capitalism",
+                statement: "Democracy+individual freedom+private ownership.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Capitalism = private ownership.",
+                marks: 1,
+                markCode: "AO1",
+              },
+            ],
+            finalAnswer: "**(a)** Democracy, individual freedom, private ownership",
+            commonErrors: ["Choosing communist features."],
+          },
+        },
+        {
+          id: "oleh-u1-cw-q13",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "In which year did the USSR test its first atomic bomb?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 1949 }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "USSR atomic bomb",
+                statement: "First tested 1949.",
+              },
+            ],
+            steps: [
+              { reasoning: "USSR bomb 1949.", marks: 1, markCode: "AO1" },
+            ],
+            finalAnswer: "1949",
+          },
+        },
+        {
+          id: "oleh-u1-cw-q14",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "Why did the USSR set up communist governments in Eastern Europe?",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Eastern Europe",
+                statement: "Security buffer + spread communism.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Security buffer zone.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                reasoning: "Spread communist influence.",
+                marks: 1,
+                markCode: "AO2",
+              },
+            ],
+            finalAnswer:
+              "To create a buffer zone against Western attack and spread communism.",
+            commonErrors: ["Only giving one reason."],
+          },
+        },
+        {
+          id: "oleh-u1-cw-q15",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "What was the policy of containment?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Preventing the spread of communism" },
+              { id: "b", text: "Containing trade with Asia" },
+              { id: "c", text: "Containing nuclear weapons" },
+              { id: "d", text: "Containing population growth" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Containment",
+                statement: "Stop spread of communism.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Containment = stop communism.",
+                marks: 1,
+                markCode: "AO1",
+              },
+            ],
+            finalAnswer: "**(a)** Preventing the spread of communism",
+            commonErrors: ["Confusing with nuclear policy."],
+          },
+        },
+        {
+          id: "oleh-u1-cw-q16",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "Explain how ideology contributed to the start of the Cold War.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Ideology",
+                statement: "Capitalism vs communism = mutual threat.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "USA = capitalism/democracy.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                reasoning: "USSR = communism/one-party state.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                reasoning: "Each saw the other as a threat.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              { reasoning: "Clear explanation.", marks: 1, markCode: "AO3" },
+            ],
+            finalAnswer:
+              "Capitalism and communism were mutually exclusive — each side saw the other as a threat to its way of life.",
+            commonErrors: ["Only one side described."],
+          },
+        },
       ],
     },
     {
@@ -289,12 +670,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "USSR blocked land routes to West Berlin" },
-              { id: "b", text: "USA invaded Berlin" },
-              { id: "c", text: "Berlin wall built" },
-              { id: "d", text: "Nuclear attack" },
+              { id: "a", text: "USA invaded Berlin" },
+              { id: "b", text: "Nuclear attack" },
+              { id: "c", text: "USSR blocked land routes to West Berlin" },
+              { id: "d", text: "Berlin wall built" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -451,6 +832,381 @@ export const lesson11: Lesson = {
             ],
             finalAnswer:
               "(a) blockade (b) airlift (c) Korea (d) arms race (e) MAD",
+          },
+        },
+        {
+          id: "oleh-u1-ce-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "In which year was the Berlin Blockade lifted?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "1948" },
+              { id: "b", text: "1949" },
+              { id: "c", text: "1950" },
+              { id: "d", text: "1955" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Berlin Blockade",
+                statement: "Lifted in 1949 after 11-month airlift.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Blockade lifted 1949.",
+                marks: 1,
+                markCode: "AO1",
+              },
+            ],
+            finalAnswer: "**(a)** 1949",
+            commonErrors: ["Confusing start/end years."],
+          },
+        },
+        {
+          id: "oleh-u1-ce-q6",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Which country led the UN forces in the Korean War?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "China" },
+              { id: "b", text: "USA" },
+              { id: "c", text: "USSR" },
+              { id: "d", text: "Britain" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "UN forces",
+                statement: "Led by the USA.",
+              },
+            ],
+            steps: [
+              { reasoning: "USA led UN forces.", marks: 1, markCode: "AO1" },
+            ],
+            finalAnswer: "**(a)** USA",
+            commonErrors: ["Choosing USSR or China."],
+          },
+        },
+        {
+          id: "oleh-u1-ce-q7",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "In which year was the Korean War armistice signed?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 1953 }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Korean armistice",
+                statement: "Signed 1953.",
+              },
+            ],
+            steps: [
+              { reasoning: "Armistice 1953.", marks: 1, markCode: "AO1" },
+            ],
+            finalAnswer: "1953",
+          },
+        },
+        {
+          id: "oleh-u1-ce-q8",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "What did MAD stand for in the arms race?",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "MAD",
+                statement: "Mutual Assured Destruction.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Mutual Assured Destruction.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                reasoning: "Both sides could destroy each other.",
+                marks: 1,
+                markCode: "AO2",
+              },
+            ],
+            finalAnswer:
+              "Mutual Assured Destruction — nuclear deterrence preventing war.",
+            commonErrors: ["Guessing letters wrongly."],
+          },
+        },
+        {
+          id: "oleh-u1-ce-q9",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "In which year did the USSR test its first atomic bomb?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "1955" },
+              { id: "b", text: "1952" },
+              { id: "c", text: "1949" },
+              { id: "d", text: "1945" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "USSR bomb",
+                statement: "First atomic test 1949.",
+              },
+            ],
+            steps: [
+              { reasoning: "USSR bomb 1949.", marks: 1, markCode: "AO1" },
+            ],
+            finalAnswer: "**(a)** 1949",
+            commonErrors: ["Confusing with USA 1945."],
+          },
+        },
+        {
+          id: "oleh-u1-ce-q10",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "For how many months did the Berlin Airlift supply West Berlin?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 11 }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Berlin Airlift",
+                statement: "Lasted 11 months.",
+              },
+            ],
+            steps: [
+              { reasoning: "Airlift lasted 11 months.", marks: 1, markCode: "AO1" },
+            ],
+            finalAnswer: "11",
+          },
+        },
+        {
+          id: "oleh-u1-ce-q11",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "Explain why the Korean War ended in stalemate.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Korean stalemate",
+                statement: "Neither side could win decisively.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "UN advance stopped at 38th parallel.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                reasoning: "Chinese intervention prevented victory.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                reasoning: "Neither side could win decisively.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "Armistice signed 1953.",
+                marks: 1,
+                markCode: "AO3",
+              },
+            ],
+            finalAnswer:
+              "Neither side could win — armistice at the 38th parallel in 1953.",
+            commonErrors: ["Saying one side won."],
+          },
+        },
+        {
+          id: "oleh-u1-ce-q12",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "What was the 38th parallel?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Soviet defensive line" },
+              { id: "b", text: "UN headquarters line" },
+              { id: "c", text: "Border between Germany and Poland" },
+              { id: "d", text: "Dividing line between North and South Korea" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "38th parallel",
+                statement: "Divided North and South Korea.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Korea divided at 38th parallel.",
+                marks: 1,
+                markCode: "AO1",
+              },
+            ],
+            finalAnswer: "**(a)** Dividing line between North and South Korea",
+            commonErrors: ["Linking to Germany."],
+          },
+        },
+        {
+          id: "oleh-u1-ce-q13",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "In which year did the USA test its first hydrogen bomb?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 1952 }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "H-bomb",
+                statement: "USA tested first H-bomb 1952.",
+              },
+            ],
+            steps: [
+              { reasoning: "USA H-bomb 1952.", marks: 1, markCode: "AO1" },
+            ],
+            finalAnswer: "1952",
+          },
+        },
+        {
+          id: "oleh-u1-ce-q14",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "What was the significance of the Korean War for the Cold War?",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Korea significance",
+                statement: "First 'hot' conflict; proxy war pattern.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "First direct military conflict.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                reasoning: "Showed proxy war pattern.",
+                marks: 1,
+                markCode: "AO2",
+              },
+            ],
+            finalAnswer:
+              "First 'hot' conflict — showed superpowers fighting through proxies.",
+            commonErrors: ["Saying it ended the Cold War."],
+          },
+        },
+        {
+          id: "oleh-u1-ce-q15",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Approximately how long did the Berlin Blockade last?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "3 years" },
+              { id: "b", text: "1 month" },
+              { id: "c", text: "10 days" },
+              { id: "d", text: "11 months" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Blockade duration",
+                statement: "1948–49, about 11 months.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Blockade ~11 months.",
+                marks: 1,
+                markCode: "AO1",
+              },
+            ],
+            finalAnswer: "**(a)** 11 months",
+            commonErrors: ["Confusing with wall duration."],
+          },
+        },
+        {
+          id: "oleh-u1-ce-q16",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "Explain how the arms race affected the Cold War.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Arms race",
+                statement: "Nuclear escalation + MAD deterrence.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Both sides developed nuclear weapons.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                reasoning: "Escalation increased tension.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                reasoning: "MAD acted as deterrent.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "Also raised crisis risk.",
+                marks: 1,
+                markCode: "AO3",
+              },
+            ],
+            finalAnswer:
+              "Nuclear escalation raised tension but MAD deterred direct war — a dangerous balance.",
+            commonErrors: ["Only describing weapons."],
           },
         },
       ],

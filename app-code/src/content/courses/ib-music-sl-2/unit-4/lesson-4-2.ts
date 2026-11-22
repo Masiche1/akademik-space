@@ -55,12 +55,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A rhythmic cycle" },
-              { id: "b", text: "A melodic framework prescribing notes, ornamentation and mood" },
-              { id: "c", text: "A type of instrument" },
-              { id: "d", text: "A dance form" },
+              { id: "a", text: "A dance form" },
+              { id: "b", text: "A rhythmic cycle" },
+              { id: "c", text: "A melodic framework prescribing notes, ornamentation and mood" },
+              { id: "d", text: "A type of instrument" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -156,12 +156,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A melodic framework of notes and moods" },
-              { id: "b", text: "A repeating rhythmic cycle organising the performance" },
-              { id: "c", text: "A type of sitar tuning" },
-              { id: "d", text: "A devotional hymn" },
+              { id: "a", text: "A type of sitar tuning" },
+              { id: "b", text: "A devotional hymn" },
+              { id: "c", text: "A melodic framework of notes and moods" },
+              { id: "d", text: "A repeating rhythmic cycle organising the performance" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -205,9 +205,9 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A single soloist with orchestral accompaniment" },
+              { id: "a", text: "Western functional harmony" },
               { id: "b", text: "Interlocking parts played by gongs, metallophones and drums" },
-              { id: "c", text: "Western functional harmony" },
+              { id: "c", text: "A single soloist with orchestral accompaniment" },
               { id: "d", text: "Through-composed linear development" },
             ],
             correctChoiceId: "b",
@@ -257,8 +257,8 @@ export const lesson42: Lesson = {
             choices: [
               { id: "a", text: "A random collection of notes" },
               { id: "b", text: "A framework linking melody, mood and cosmic/temporal order" },
-              { id: "c", text: "A fixed composition" },
-              { id: "d", text: "A dance notation system" },
+              { id: "c", text: "A dance notation system" },
+              { id: "d", text: "A fixed composition" },
             ],
             correctChoiceId: "b",
           },
@@ -316,12 +316,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Indian music has no rhythm" },
-              { id: "b", text: "Indian classical centres on a soloist improvising over accompaniment while gamelan interlocks equally among all players" },
-              { id: "c", text: "Gamelan uses solo improvisation exclusively" },
-              { id: "d", text: "Both are identical in structure" },
+              { id: "a", text: "Indian classical centres on a soloist improvising over accompaniment while gamelan interlocks equally among all players" },
+              { id: "b", text: "Both are identical in structure" },
+              { id: "c", text: "Indian music has no rhythm" },
+              { id: "d", text: "Gamelan uses solo improvisation exclusively" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -403,9 +403,9 @@ export const lesson42: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Oral transmission and improvisation within strict frameworks" },
-              { id: "b", text: "Written notation as primary transmission" },
-              { id: "c", text: "Individual authorship of compositions" },
-              { id: "d", text: "Linear through-composed forms" },
+              { id: "b", text: "Linear through-composed forms" },
+              { id: "c", text: "Written notation as primary transmission" },
+              { id: "d", text: "Individual authorship of compositions" },
             ],
             correctChoiceId: "a",
           },
@@ -454,11 +454,11 @@ export const lesson42: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Raga" },
-              { id: "b", text: "Tala" },
-              { id: "c", text: "Tanpura drone" },
+              { id: "b", text: "Tanpura drone" },
+              { id: "c", text: "Tala" },
               { id: "d", text: "Sargam notation" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -513,10 +513,10 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Casual folk songs" },
+              { id: "a", text: "Religious hymns" },
               { id: "b", text: "Musical narratives mapping landscape and ancestral knowledge" },
               { id: "c", text: "Dance competitions" },
-              { id: "d", text: "Religious hymns" },
+              { id: "d", text: "Casual folk songs" },
             ],
             correctChoiceId: "b",
           },
@@ -614,12 +614,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A complex melodic line" },
-              { id: "b", text: "A continuous low drone" },
-              { id: "c", text: "A percussive rhythm pattern" },
-              { id: "d", text: "Harmonic accompaniment" },
+              { id: "a", text: "A continuous low drone" },
+              { id: "b", text: "A percussive rhythm pattern" },
+              { id: "c", text: "Harmonic accompaniment" },
+              { id: "d", text: "A complex melodic line" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -663,12 +663,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Entertainment for travellers" },
-              { id: "b", text: "Musical maps encoding routes, landmarks and ancestral knowledge" },
+              { id: "a", text: "Lullabies for children" },
+              { id: "b", text: "Entertainment for travellers" },
               { id: "c", text: "Dance accompaniment only" },
-              { id: "d", text: "Lullabies for children" },
+              { id: "d", text: "Musical maps encoding routes, landmarks and ancestral knowledge" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -713,12 +713,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Eliminate weaker dancers" },
-              { id: "b", text: "Celebrate culture and maintain tradition through skilled performance" },
-              { id: "c", text: "Earn money for the drum group only" },
-              { id: "d", text: "Impress judges from outside the community" },
+              { id: "a", text: "Celebrate culture and maintain tradition through skilled performance" },
+              { id: "b", text: "Impress judges from outside the community" },
+              { id: "c", text: "Eliminate weaker dancers" },
+              { id: "d", text: "Earn money for the drum group only" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -776,8 +776,8 @@ export const lesson42: Lesson = {
             choices: [
               { id: "a", text: "Lack of access to manufactured instruments" },
               { id: "b", text: "A deep connection between music, land and tradition" },
-              { id: "c", text: "Deliberate primitivism" },
-              { id: "d", text: "European missionary influence" },
+              { id: "c", text: "European missionary influence" },
+              { id: "d", text: "Deliberate primitivism" },
             ],
             correctChoiceId: "b",
           },
@@ -860,12 +860,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Written notation and composed scores" },
-              { id: "b", text: "Oral transmission, land connection and communal function" },
-              { id: "c", text: "Western harmonic structures" },
-              { id: "d", text: "Passive audience listening" },
+              { id: "a", text: "Oral transmission, land connection and communal function" },
+              { id: "b", text: "Passive audience listening" },
+              { id: "c", text: "Written notation and composed scores" },
+              { id: "d", text: "Western harmonic structures" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -911,12 +911,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Powwow drum circles" },
-              { id: "b", text: "Songlines that encode the landscape in melody" },
-              { id: "c", text: "Competitive dance categories" },
+              { id: "a", text: "Songlines that encode the landscape in melody" },
+              { id: "b", text: "Competitive dance categories" },
+              { id: "c", text: "Powwow drum circles" },
               { id: "d", text: "Clapstick rhythms" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

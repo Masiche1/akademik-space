@@ -33,7 +33,10 @@ export const lesson62: Lesson = {
           id: "olam-u6-s2-ru-q1", difficulty: "foundation", totalMarks: 1,
           stem: "$\\int 2x\\,dx$ equals…",
           response: { type: "mcq", choices: [
-            { id: "a", text: "$x^2+c$" }, { id: "b", text: "$2x^2+c$" }, { id: "c", text: "$x+c$" }, { id: "d", text: "$\\frac{x^2}{2}+c$" },
+            { id: "a", text: "$x^2+c$" },
+            { id: "b", text: "$\\frac{x^2}{2}+c$" },
+            { id: "c", text: "$x+c$" },
+            { id: "d", text: "$2x^2+c$" },
           ], correctChoiceId: "a" },
           markscheme: { principles: [{ kind: "formula", name: "Reverse power", statement: "Increase power, divide." }], steps: [{ reasoning: "$\\int2x\\,dx=2\\times\\frac{x^2}{2}+c=x^2+c$.", marks: 1, markCode: "A" }], finalAnswer: "$x^2+c$" },
         },
@@ -67,6 +70,128 @@ export const lesson62: Lesson = {
             { reasoning: "Verify: at $x=1$, $3-4+4=3$. ✓", marks: 1, markCode: "A" },
           ], finalAnswer: "$y=3x^2-4x+4$" },
         },
+        {
+          id: "olam-u6-s2-ru-q5", difficulty: "foundation", totalMarks: 1,
+          stem: "$\\int 3x^2\\,dx$ equals…",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "$6x+c$" },
+            { id: "b", text: "$x^3+c$" },
+            { id: "c", text: "$\\frac{3x^3}{2}+c$" },
+            { id: "d", text: "$x^3+3+c$" },
+          ], correctChoiceId: "b" },
+          markscheme: { principles: [{ kind: "formula", name: "Reverse power", statement: "Increase power, divide by new power." }], steps: [{ reasoning: "$3\\times\\frac{x^3}{3}=x^3$, so $x^3+c$.", marks: 1, markCode: "A" }], finalAnswer: "$x^3+c$" },
+        },
+        {
+          id: "olam-u6-s2-ru-q6", difficulty: "foundation", totalMarks: 2,
+          stem: "$\\int 4x\\,dx = 2x^2+c$ passes through $(1,5)$. Find $c$.",
+          response: { type: "numeric", parts: [{ label: "a", answer: 3 }] },
+          markscheme: { principles: [{ kind: "technique", name: "Find constant", statement: "Substitute the point." }], steps: [
+            { reasoning: "$5=2(1)^2+c$ → $c=3$.", marks: 1, markCode: "M" },
+            { reasoning: "Answer: 3.", marks: 1, markCode: "A" },
+          ], finalAnswer: "3" },
+        },
+        {
+          id: "olam-u6-s2-ru-q7", difficulty: "foundation", totalMarks: 1,
+          stem: "$\\int \\frac{1}{x}\\,dx$ equals…",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "$x\\ln x+c$" },
+            { id: "b", text: "$\\ln x$" },
+            { id: "c", text: "$\\frac{1}{x^2}+c$" },
+            { id: "d", text: "$\\ln|x|+c$" },
+          ], correctChoiceId: "d" },
+          markscheme: { principles: [{ kind: "formula", name: "Log case", statement: "$\\int x^{-1}dx=\\ln|x|+c$." }], steps: [{ reasoning: "Special case memorised.", marks: 1, markCode: "A" }], finalAnswer: "$\\ln|x|+c$" },
+        },
+        {
+          id: "olam-u6-s2-ru-q8", difficulty: "core", totalMarks: 3,
+          stem: "Integrate $y=3x^2-4x+2$.",
+          response: { type: "open" },
+          markscheme: { principles: [{ kind: "technique", name: "Reverse power", statement: "Term by term." }], steps: [
+            { reasoning: "$\\int y\\,dx=x^3-2x^2+2x+c$.", marks: 1, markCode: "M" },
+            { reasoning: "Check: $3x^2\\to x^3$; $-4x\\to-2x^2$; $2\\to2x$.", marks: 1, markCode: "M" },
+            { reasoning: "Answer shown.", marks: 1, markCode: "A" },
+          ], finalAnswer: "$x^3-2x^2+2x+c$" },
+        },
+        {
+          id: "olam-u6-s2-ru-q9", difficulty: "core", totalMarks: 2,
+          stem: "$\\int(2x+3)\\,dx=x^2+3x+c$ passes through $(0,4)$. Find $c$.",
+          response: { type: "numeric", parts: [{ label: "a", answer: 4 }] },
+          markscheme: { principles: [{ kind: "technique", name: "Find constant", statement: "Substitute the point." }], steps: [
+            { reasoning: "At $x=0$, $y=4$: $4=0+0+c$ → $c=4$.", marks: 1, markCode: "M" },
+            { reasoning: "Answer: 4.", marks: 1, markCode: "A" },
+          ], finalAnswer: "4" },
+        },
+        {
+          id: "olam-u6-s2-ru-q10", difficulty: "core", totalMarks: 1,
+          stem: "$\\int 5\\,dx$ equals…",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "$\\frac{5x^2}{2}+c$" },
+            { id: "b", text: "$5+c$" },
+            { id: "c", text: "$5x+c$" },
+            { id: "d", text: "$x^5+c$" },
+          ], correctChoiceId: "c" },
+          markscheme: { principles: [{ kind: "technique", name: "Reverse power", statement: "Constant integrates to $x$ times constant." }], steps: [{ reasoning: "$\\int5\\,dx=5x+c$.", marks: 1, markCode: "A" }], finalAnswer: "$5x+c$" },
+        },
+        {
+          id: "olam-u6-s2-ru-q11", difficulty: "challenge", totalMarks: 4,
+          stem: "Given $\\frac{dy}{dx}=8x-6$ and the curve passes through $(2,1)$, find $y$.",
+          response: { type: "open" },
+          markscheme: { principles: [{ kind: "technique", name: "Integrate with condition", statement: "Find $c$ from point." }], steps: [
+            { reasoning: "$y=\\int(8x-6)dx=4x^2-6x+c$.", marks: 1, markCode: "M" },
+            { reasoning: "At $(2,1)$: $1=16-12+c$ → $c=-3$.", marks: 1, markCode: "M" },
+            { reasoning: "$y=4x^2-6x-3$.", marks: 1, markCode: "M" },
+            { reasoning: "Verify: $16-12-3=1$ ✓.", marks: 1, markCode: "A" },
+          ], finalAnswer: "$y=4x^2-6x-3$" },
+        },
+        {
+          id: "olam-u6-s2-ru-q12", difficulty: "core", totalMarks: 2,
+          stem: "Evaluate $\\int x^{1/2}\\,dx$ at $x=4$ (take $c=0$).",
+          response: { type: "numeric", parts: [{ label: "a", answer: 5.3333, tolerance: 0.001 }] },
+          markscheme: { principles: [{ kind: "formula", name: "Reverse power", statement: "Fractional powers integrate." }], steps: [
+            { reasoning: "$\\int x^{1/2}dx=\\frac{x^{3/2}}{3/2}=\\frac23x^{3/2}$; at $x=4$: $\\frac23(8)=\\frac{16}{3}\\approx5.33$.", marks: 1, markCode: "M" },
+            { reasoning: "Answer: $\\frac{16}{3}\\approx5.33$.", marks: 1, markCode: "A" },
+          ], finalAnswer: "$\\frac{16}{3}$" },
+        },
+        {
+          id: "olam-u6-s2-ru-q13", difficulty: "core", totalMarks: 1,
+          stem: "$\\int\\left(x^2+\\frac{1}{x}\\right)dx$ equals…",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "$\\frac{x^3}{3}+\\frac{1}{x^2}+c$" },
+            { id: "b", text: "$\\frac{x^3}{3}+\\ln|x|+c$" },
+            { id: "c", text: "$2x+\\ln|x|+c$" },
+            { id: "d", text: "$\\frac{x^3}{3}-\\ln|x|+c$" },
+          ], correctChoiceId: "b" },
+          markscheme: { principles: [{ kind: "formula", name: "Reverse power", statement: "Two cases: $n\\neq-1$ and $n=-1$." }], steps: [{ reasoning: "$x^2\\to\\frac{x^3}{3}$; $\\frac1x\\to\\ln|x|$.", marks: 1, markCode: "A" }], finalAnswer: "$\\frac{x^3}{3}+\\ln|x|+c$" },
+        },
+        {
+          id: "olam-u6-s2-ru-q14", difficulty: "core", totalMarks: 3,
+          stem: "Integrate $y=x^{-2}+3$.",
+          response: { type: "open" },
+          markscheme: { principles: [{ kind: "technique", name: "Reverse power", statement: "Negative power and constant." }], steps: [
+            { reasoning: "$\\int x^{-2}dx=\\frac{x^{-1}}{-1}=-\\frac1x$.", marks: 1, markCode: "M" },
+            { reasoning: "$\\int3\\,dx=3x$; total: $-\\frac1x+3x+c$.", marks: 1, markCode: "M" },
+            { reasoning: "Answer shown.", marks: 1, markCode: "A" },
+          ], finalAnswer: "$-\\frac1x+3x+c$" },
+        },
+        {
+          id: "olam-u6-s2-ru-q15", difficulty: "core", totalMarks: 2,
+          stem: "$\\int 4x^3\\,dx = x^4+c$ passes through $(1,6)$. Find $c$.",
+          response: { type: "numeric", parts: [{ label: "a", answer: 5 }] },
+          markscheme: { principles: [{ kind: "technique", name: "Find constant", statement: "Substitute the point." }], steps: [
+            { reasoning: "$6=1+c$ → $c=5$.", marks: 1, markCode: "M" },
+            { reasoning: "Answer: 5.", marks: 1, markCode: "A" },
+          ], finalAnswer: "5" },
+        },
+        {
+          id: "olam-u6-s2-ru-q16", difficulty: "challenge", totalMarks: 4,
+          stem: "Given $\\frac{dy}{dx}=6x^2-4x+1$ and $y=2$ when $x=0$, find $y$.",
+          response: { type: "open" },
+          markscheme: { principles: [{ kind: "technique", name: "Integrate with condition", statement: "Find $c$ from initial value." }], steps: [
+            { reasoning: "$y=2x^3-2x^2+x+c$.", marks: 1, markCode: "M" },
+            { reasoning: "At $x=0$, $y=2$: $c=2$.", marks: 1, markCode: "M" },
+            { reasoning: "$y=2x^3-2x^2+x+2$.", marks: 1, markCode: "M" },
+            { reasoning: "Answer shown.", marks: 1, markCode: "A" },
+          ], finalAnswer: "$y=2x^3-2x^2+x+2$" },
+        },
       ],
     },
     {
@@ -89,8 +214,11 @@ export const lesson62: Lesson = {
           id: "olam-u6-s2-ar-q1", difficulty: "foundation", totalMarks: 1,
           stem: "$\\int_0^2 3x^2\\,dx$ equals…",
           response: { type: "mcq", choices: [
-            { id: "a", text: "8" }, { id: "b", text: "4" }, { id: "c", text: "12" }, { id: "d", text: "6" },
-          ], correctChoiceId: "a" },
+            { id: "a", text: "6" },
+            { id: "b", text: "4" },
+            { id: "c", text: "12" },
+            { id: "d", text: "8" },
+          ], correctChoiceId: "d" },
           markscheme: { principles: [{ kind: "technique", name: "Definite integral", statement: "Evaluate limits." }], steps: [{ reasoning: "$[x^3]_0^2=8-0=8$.", marks: 1, markCode: "A" }], finalAnswer: "8" },
         },
         {
@@ -122,6 +250,128 @@ export const lesson62: Lesson = {
             { reasoning: "Answer: $\\frac16$ units².", marks: 1, markCode: "M" },
             { reasoning: "Verify intersection at $x=0,1$. ✓", marks: 1, markCode: "A" },
           ], finalAnswer: "$\\frac16$ units²" },
+        },
+        {
+          id: "olam-u6-s2-ar-q5", difficulty: "foundation", totalMarks: 1,
+          stem: "$\\int_0^1 x^2\\,dx$ equals…",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "$\\frac23$" },
+            { id: "b", text: "$1$" },
+            { id: "c", text: "$\\frac12$" },
+            { id: "d", text: "$\\frac13$" },
+          ], correctChoiceId: "d" },
+          markscheme: { principles: [{ kind: "technique", name: "Definite integral", statement: "Evaluate limits." }], steps: [{ reasoning: "$[\\frac{x^3}{3}]_0^1=\\frac13-0=\\frac13$.", marks: 1, markCode: "A" }], finalAnswer: "$\\frac13$" },
+        },
+        {
+          id: "olam-u6-s2-ar-q6", difficulty: "foundation", totalMarks: 2,
+          stem: "Find the area under $y=4x$ from $x=0$ to $x=2$.",
+          response: { type: "numeric", parts: [{ label: "a", answer: 8 }] },
+          markscheme: { principles: [{ kind: "technique", name: "Area", statement: "Integral of function." }], steps: [
+            { reasoning: "$\\int_0^2 4x\\,dx=[2x^2]_0^2=8-0=8$ units².", marks: 1, markCode: "M" },
+            { reasoning: "Answer: 8 units².", marks: 1, markCode: "A" },
+          ], finalAnswer: "8 units²" },
+        },
+        {
+          id: "olam-u6-s2-ar-q7", difficulty: "foundation", totalMarks: 1,
+          stem: "The definite integral $\\int_a^b f(x)\\,dx$ equals…",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "$F(a)-F(b)$" },
+            { id: "b", text: "$f(b)-f(a)$" },
+            { id: "c", text: "$F(b)+F(a)$" },
+            { id: "d", text: "$F(b)-F(a)$" },
+          ], correctChoiceId: "d" },
+          markscheme: { principles: [{ kind: "formula", name: "Definite integral", statement: "Upper minus lower limit." }], steps: [{ reasoning: "$\\int_a^b f\\,dx=F(b)-F(a)$.", marks: 1, markCode: "A" }], finalAnswer: "$F(b)-F(a)$" },
+        },
+        {
+          id: "olam-u6-s2-ar-q8", difficulty: "core", totalMarks: 3,
+          stem: "Find the area under $y=x^2$ from $x=0$ to $x=3$.",
+          response: { type: "open" },
+          markscheme: { principles: [{ kind: "technique", name: "Area", statement: "Definite integral." }], steps: [
+            { reasoning: "$\\int_0^3 x^2\\,dx=[\\frac{x^3}{3}]_0^3=9-0=9$.", marks: 1, markCode: "M" },
+            { reasoning: "Answer: 9 units².", marks: 1, markCode: "M" },
+            { reasoning: "Curve is above axis on $[0,3]$ so this is the geometric area.", marks: 1, markCode: "A" },
+          ], finalAnswer: "9 units²" },
+        },
+        {
+          id: "olam-u6-s2-ar-q9", difficulty: "core", totalMarks: 2,
+          stem: "Evaluate $\\int_1^2 3x^2\\,dx$.",
+          response: { type: "numeric", parts: [{ label: "a", answer: 7 }] },
+          markscheme: { principles: [{ kind: "technique", name: "Definite integral", statement: "Evaluate limits." }], steps: [
+            { reasoning: "$[x^3]_1^2=8-1=7$.", marks: 1, markCode: "M" },
+            { reasoning: "Answer: 7.", marks: 1, markCode: "A" },
+          ], finalAnswer: "7" },
+        },
+        {
+          id: "olam-u6-s2-ar-q10", difficulty: "core", totalMarks: 1,
+          stem: "The area enclosed by $y=x$ and $y=x^2$ between their intersections is…",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "$\\frac16$" },
+            { id: "b", text: "$\\frac12$" },
+            { id: "c", text: "$\\frac13$" },
+            { id: "d", text: "$1$" },
+          ], correctChoiceId: "a" },
+          markscheme: { principles: [{ kind: "technique", name: "Area between", statement: "$\\int_0^1(x-x^2)dx$." }], steps: [{ reasoning: "$[\\frac{x^2}{2}-\\frac{x^3}{3}]_0^1=\\frac16$.", marks: 1, markCode: "A" }], finalAnswer: "$\\frac16$" },
+        },
+        {
+          id: "olam-u6-s2-ar-q11", difficulty: "challenge", totalMarks: 4,
+          stem: "Find the total area enclosed between $y=x^2$ and $y=4x$.",
+          response: { type: "open" },
+          markscheme: { principles: [{ kind: "technique", name: "Area between curves", statement: "Find intersections, integrate top minus bottom." }], steps: [
+            { reasoning: "Intersections: $x^2=4x$ → $x=0,4$; on $[0,4]$, $4x\\geq x^2$.", marks: 1, markCode: "M" },
+            { reasoning: "$\\int_0^4(4x-x^2)dx=[2x^2-\\frac{x^3}{3}]_0^4=32-\\frac{64}{3}=\\frac{32}{3}$.", marks: 1, markCode: "M" },
+            { reasoning: "Answer: $\\frac{32}{3}$ units² ≈ 10.67.", marks: 1, markCode: "M" },
+            { reasoning: "Verify endpoints: at $x=0,4$ curves meet. ✓", marks: 1, markCode: "A" },
+          ], finalAnswer: "$\\frac{32}{3}$ units²" },
+        },
+        {
+          id: "olam-u6-s2-ar-q12", difficulty: "foundation", totalMarks: 2,
+          stem: "Evaluate $\\int_0^2 (x+1)\\,dx$.",
+          response: { type: "numeric", parts: [{ label: "a", answer: 4 }] },
+          markscheme: { principles: [{ kind: "technique", name: "Definite integral", statement: "Evaluate limits." }], steps: [
+            { reasoning: "$[\\frac{x^2}{2}+x]_0^2=(2+2)-0=4$.", marks: 1, markCode: "M" },
+            { reasoning: "Answer: 4.", marks: 1, markCode: "A" },
+          ], finalAnswer: "4" },
+        },
+        {
+          id: "olam-u6-s2-ar-q13", difficulty: "core", totalMarks: 1,
+          stem: "If $f(x)<0$ on $[a,b]$, then $\\int_a^b f(x)\\,dx$ gives…",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "The geometric area (positive)" },
+            { id: "b", text: "A negative value — the region counts negatively" },
+            { id: "c", text: "Undefined" },
+            { id: "d", text: "Zero" },
+          ], correctChoiceId: "b" },
+          markscheme: { principles: [{ kind: "property", name: "Signed area", statement: "Below axis counts negative." }], steps: [{ reasoning: "Definite integrals are signed; negative $f$ gives negative result.", marks: 1, markCode: "A" }], finalAnswer: "Negative value" },
+        },
+        {
+          id: "olam-u6-s2-ar-q14", difficulty: "core", totalMarks: 3,
+          stem: "Find the area under $y=x^2-1$ from $x=1$ to $x=3$.",
+          response: { type: "open" },
+          markscheme: { principles: [{ kind: "technique", name: "Area", statement: "Check sign then integrate." }], steps: [
+            { reasoning: "On $[1,3]$, $x^2-1\\geq0$ → area $=\\int_1^3(x^2-1)dx$.", marks: 1, markCode: "M" },
+            { reasoning: "$=[\\frac{x^3}{3}-x]_1^3=(9-3)-(\\frac13-1)=6+\\frac23=\\frac{20}{3}$.", marks: 1, markCode: "M" },
+            { reasoning: "Answer: $\\frac{20}{3}$ units² ≈ 6.67.", marks: 1, markCode: "A" },
+          ], finalAnswer: "$\\frac{20}{3}$ units²" },
+        },
+        {
+          id: "olam-u6-s2-ar-q15", difficulty: "core", totalMarks: 2,
+          stem: "Find the area under $y=x^3$ from $x=0$ to $x=1$.",
+          response: { type: "numeric", parts: [{ label: "a", answer: 0.25 }] },
+          markscheme: { principles: [{ kind: "technique", name: "Area", statement: "Definite integral." }], steps: [
+            { reasoning: "$\\int_0^1 x^3dx=[\\frac{x^4}{4}]_0^1=\\frac14=0.25$ units².", marks: 1, markCode: "M" },
+            { reasoning: "Answer: 0.25 units².", marks: 1, markCode: "A" },
+          ], finalAnswer: "$\\frac14$ units²" },
+        },
+        {
+          id: "olam-u6-s2-ar-q16", difficulty: "challenge", totalMarks: 4,
+          stem: "Find the area enclosed by $y=x^2$ and $y=2x$.",
+          response: { type: "open" },
+          markscheme: { principles: [{ kind: "technique", name: "Area between curves", statement: "Find intersections, integrate top minus bottom." }], steps: [
+            { reasoning: "Intersections: $x^2=2x$ → $x=0,2$; on $[0,2]$, $2x\\geq x^2$.", marks: 1, markCode: "M" },
+            { reasoning: "$\\int_0^2(2x-x^2)dx=[x^2-\\frac{x^3}{3}]_0^2=4-\\frac83=\\frac43$.", marks: 1, markCode: "M" },
+            { reasoning: "Answer: $\\frac43$ units² ≈ 1.33.", marks: 1, markCode: "M" },
+            { reasoning: "Verify endpoints: at $x=0,2$ curves meet. ✓", marks: 1, markCode: "A" },
+          ], finalAnswer: "$\\frac43$ units²" },
         },
       ],
     },

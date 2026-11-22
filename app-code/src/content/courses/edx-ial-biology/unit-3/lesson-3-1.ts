@@ -47,12 +47,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Species, Genus, Family, Order" },
-              { id: "b", text: "Kingdom, Phylum, Class, Order, Family, Genus, Species" },
+              { id: "a", text: "Order, Class, Phylum" },
+              { id: "b", text: "Species, Genus, Family, Order" },
               { id: "c", text: "Genus, Species, Kingdom" },
-              { id: "d", text: "Order, Class, Phylum" },
+              { id: "d", text: "Kingdom, Phylum, Class, Order, Family, Genus, Species" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Taxonomy", statement: "Kingdom→Species hierarchy." }],
@@ -163,11 +163,11 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Species richness" },
-              { id: "b", text: "Genetic diversity" },
-              { id: "c", text: "Population density" },
-              { id: "d", text: "Habitat diversity" },
+              { id: "b", text: "Population density" },
+              { id: "c", text: "Habitat diversity" },
+              { id: "d", text: "Genetic diversity" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Biodiversity", statement: "Richness, evenness, genetic, habitat." }],

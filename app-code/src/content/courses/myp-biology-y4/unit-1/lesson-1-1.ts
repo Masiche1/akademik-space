@@ -57,12 +57,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Nucleus" },
-              { id: "b", text: "Mitochondrion" },
-              { id: "c", text: "Chloroplast" },
-              { id: "d", text: "Cell membrane" },
+              { id: "a", text: "Mitochondrion" },
+              { id: "b", text: "Chloroplast" },
+              { id: "c", text: "Cell membrane" },
+              { id: "d", text: "Nucleus" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -84,12 +84,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Photosynthesis" },
-              { id: "b", text: "Aerobic respiration and ATP production" },
-              { id: "c", text: "Protein synthesis" },
-              { id: "d", text: "Cell division" },
+              { id: "a", text: "Aerobic respiration and ATP production" },
+              { id: "b", text: "Cell division" },
+              { id: "c", text: "Photosynthesis" },
+              { id: "d", text: "Protein synthesis" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -114,8 +114,8 @@ export const lesson11: Lesson = {
             choices: [
               { id: "a", text: "Plant cell — these three structures are unique to plant cells" },
               { id: "b", text: "Animal cell — all cells have these" },
-              { id: "c", text: "Bacterial cell — no nucleus needed" },
-              { id: "d", text: "Fungal cell — has a cell wall" },
+              { id: "c", text: "Fungal cell — has a cell wall" },
+              { id: "d", text: "Bacterial cell — no nucleus needed" },
             ],
             correctChoiceId: "a",
           },
@@ -172,12 +172,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Nucleus" },
-              { id: "b", text: "Ribosome" },
-              { id: "c", text: "Lysosome" },
-              { id: "d", text: "Vacuole" },
+              { id: "a", text: "Ribosome" },
+              { id: "b", text: "Lysosome" },
+              { id: "c", text: "Vacuole" },
+              { id: "d", text: "Nucleus" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -199,12 +199,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Nucleus and mitochondrion" },
-              { id: "b", text: "Cell wall and chloroplast" },
+              { id: "a", text: "Ribosome and vacuole" },
+              { id: "b", text: "Nucleus and mitochondrion" },
               { id: "c", text: "Cell membrane and cytoplasm" },
-              { id: "d", text: "Ribosome and vacuole" },
+              { id: "d", text: "Cell wall and chloroplast" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -227,12 +227,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Nucleus" },
+              { id: "a", text: "Lysosome" },
               { id: "b", text: "Mitochondrion" },
-              { id: "c", text: "Lysosome" },
+              { id: "c", text: "Nucleus" },
               { id: "d", text: "Chloroplast" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -462,12 +462,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Mature red blood cells have no nucleus" },
-              { id: "b", text: "Plant cells contain chloroplasts" },
+              { id: "a", text: "Plant cells contain chloroplasts" },
+              { id: "b", text: "Some cells have a large vacuole" },
               { id: "c", text: "Some cells have a cellulose wall" },
-              { id: "d", text: "Some cells have a large vacuole" },
+              { id: "d", text: "Mature red blood cells have no nucleus" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -523,12 +523,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Kingdom, Phylum, Class, Order, Family, Genus, Species" },
-              { id: "b", text: "Species, Genus, Family, Order, Class, Phylum, Kingdom" },
-              { id: "c", text: "Phylum, Kingdom, Class, Order, Family, Genus, Species" },
-              { id: "d", text: "Kingdom, Class, Phylum, Order, Family, Genus, Species" },
+              { id: "a", text: "Species, Genus, Family, Order, Class, Phylum, Kingdom" },
+              { id: "b", text: "Kingdom, Class, Phylum, Order, Family, Genus, Species" },
+              { id: "c", text: "Kingdom, Phylum, Class, Order, Family, Genus, Species" },
+              { id: "d", text: "Phylum, Kingdom, Class, Order, Family, Genus, Species" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -550,12 +550,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The genus" },
-              { id: "b", text: "The species" },
-              { id: "c", text: "The family" },
-              { id: "d", text: "The kingdom" },
+              { id: "a", text: "The kingdom" },
+              { id: "b", text: "The family" },
+              { id: "c", text: "The genus" },
+              { id: "d", text: "The species" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -578,12 +578,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Ant" },
-              { id: "b", text: "Spider" },
+              { id: "a", text: "Crane fly" },
+              { id: "b", text: "Ant" },
               { id: "c", text: "Housefly" },
-              { id: "d", text: "Crane fly" },
+              { id: "d", text: "Spider" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -638,12 +638,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Kingdom" },
-              { id: "b", text: "Genus" },
-              { id: "c", text: "Family" },
+              { id: "a", text: "Genus" },
+              { id: "b", text: "Family" },
+              { id: "c", text: "Kingdom" },
               { id: "d", text: "Phylum" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -665,12 +665,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "*Homo*" },
-              { id: "b", text: "*sapiens*" },
+              { id: "a", text: "*sapiens*" },
+              { id: "b", text: "*Homo*" },
               { id: "c", text: "Both names together" },
               { id: "d", text: "Neither name" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -693,12 +693,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Ant" },
-              { id: "b", text: "Spider" },
+              { id: "a", text: "Spider" },
+              { id: "b", text: "Ant" },
               { id: "c", text: "Housefly" },
               { id: "d", text: "Butterfly" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -931,12 +931,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "*Panthera leo* and *Panthera tigris*" },
-              { id: "b", text: "*Panthera leo* and *Felis catus*" },
+              { id: "a", text: "*Panthera leo* and *Felis catus*" },
+              { id: "b", text: "*Panthera leo* and *Panthera tigris*" },
               { id: "c", text: "*Felis catus* and *Canis lupus*" },
               { id: "d", text: "All pairs are equally related" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [

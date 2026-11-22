@@ -55,12 +55,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "No difference" },
-              { id: "b", text: "Cohesion = surface connections; coherence = logical flow" },
-              { id: "c", text: "Cohesion is for poems" },
+              { id: "a", text: "Cohesion = surface connections; coherence = logical flow" },
+              { id: "b", text: "Cohesion is for poems" },
+              { id: "c", text: "No difference" },
               { id: "d", text: "Coherence is for essays" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Cohesion vs coherence", statement: "Cohesion = surface links; coherence = logical flow." }],
@@ -141,12 +141,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "No difference" },
-              { id: "b", text: "Cohesion = surface connections between sentences; coherence = logical flow of ideas across the text" },
-              { id: "c", text: "Cohesion is only for poems" },
-              { id: "d", text: "Coherence is only for essays" },
+              { id: "a", text: "Coherence is only for essays" },
+              { id: "b", text: "Cohesion is only for poems" },
+              { id: "c", text: "No difference" },
+              { id: "d", text: "Cohesion = surface connections between sentences; coherence = logical flow of ideas across the text" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Cohesion vs coherence", statement: "Cohesion = surface links; coherence = logical flow." }],
@@ -187,12 +187,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It adds more of the same idea" },
-              { id: "b", text: "It signals contrast — staying contradicts wanting to leave" },
-              { id: "c", text: "It is decorative" },
-              { id: "d", text: "It marks a conclusion" },
+              { id: "a", text: "It signals contrast — staying contradicts wanting to leave" },
+              { id: "b", text: "It is decorative" },
+              { id: "c", text: "It marks a conclusion" },
+              { id: "d", text: "It adds more of the same idea" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Transitions", statement: "Contrastive transitions signal opposing ideas." }],
@@ -214,11 +214,11 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "It is perfectly cohesive" },
-              { id: "b", text: "No transitions or linking phrases — sentences are abrupt and the connection between social media and students is unclear" },
-              { id: "c", text: "It is too long" },
-              { id: "d", text: "It has too many examples" },
+              { id: "b", text: "It has too many examples" },
+              { id: "c", text: "No transitions or linking phrases — sentences are abrupt and the connection between social media and students is unclear" },
+              { id: "d", text: "It is too long" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Cohesion", statement: "Transitions and links create flow." }],
@@ -234,12 +234,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Writing on actual signs" },
-              { id: "b", text: "Explicit markers of structure — 'firstly', 'on the other hand', 'in conclusion' — that guide the reader" },
+              { id: "a", text: "Explicit markers of structure — 'firstly', 'on the other hand', 'in conclusion' — that guide the reader" },
+              { id: "b", text: "Writing on actual signs" },
               { id: "c", text: "A type of paragraph" },
               { id: "d", text: "Pointing at words" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Signposting", statement: "Explicit structural markers guide the reader." }],
@@ -297,11 +297,11 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "The last sentence of a paragraph" },
-              { id: "b", text: "The first sentence stating the paragraph's main idea" },
-              { id: "c", text: "A heading" },
-              { id: "d", text: "A question" },
+              { id: "b", text: "A question" },
+              { id: "c", text: "The first sentence stating the paragraph's main idea" },
+              { id: "d", text: "A heading" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Topic sentence", statement: "First sentence stating the paragraph's main idea." }],
@@ -360,12 +360,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "They are the same" },
-              { id: "b", text: "Macro = whole-text organization (intro/body/conclusion); micro = paragraph-level structure (topic/support/transition)" },
-              { id: "c", text: "Macro is for poems" },
-              { id: "d", text: "Micro is only spelling" },
+              { id: "a", text: "Micro is only spelling" },
+              { id: "b", text: "They are the same" },
+              { id: "c", text: "Macro = whole-text organization (intro/body/conclusion); micro = paragraph-level structure (topic/support/transition)" },
+              { id: "d", text: "Macro is for poems" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Macro vs micro structure", statement: "Whole-text vs paragraph-level organization." }],
@@ -434,12 +434,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Ending a story" },
-              { id: "b", text: "Starting in the middle of the action" },
+              { id: "a", text: "Starting in the middle of the action" },
+              { id: "b", text: "A character name" },
               { id: "c", text: "A type of rhyme" },
-              { id: "d", text: "A character name" },
+              { id: "d", text: "Ending a story" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "In medias res", statement: "Starting in the middle of action." }],
@@ -519,12 +519,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Ending the story early" },
-              { id: "b", text: "Interrupting the present to show earlier events" },
-              { id: "c", text: "A type of camera" },
+              { id: "a", text: "Interrupting the present to show earlier events" },
+              { id: "b", text: "A type of camera" },
+              { id: "c", text: "Ending the story early" },
               { id: "d", text: "A repeated word" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Flashback", statement: "Jump to earlier events within the narrative." }],
@@ -560,12 +560,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A story with no ending" },
-              { id: "b", text: "A narrative that ends where it began, but changed" },
-              { id: "c", text: "A story told backwards" },
-              { id: "d", text: "A poem about circles" },
+              { id: "a", text: "A narrative that ends where it began, but changed" },
+              { id: "b", text: "A poem about circles" },
+              { id: "c", text: "A story with no ending" },
+              { id: "d", text: "A story told backwards" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Circular structure", statement: "Ending where the story began, but transformed." }],
@@ -587,11 +587,11 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Chronological order" },
-              { id: "b", text: "In medias res — starting mid-action, then flashing back" },
-              { id: "c", text: "Circular structure" },
+              { id: "b", text: "Circular structure" },
+              { id: "c", text: "In medias res — starting mid-action, then flashing back" },
               { id: "d", text: "A list" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "In medias res", statement: "Starting mid-action creates immediate tension." }],
@@ -608,11 +608,11 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Always — it is always better" },
-              { id: "b", text: "When it serves a purpose — mystery, revelation, thematic resonance — not for novelty alone" },
-              { id: "c", text: "Never — linear is always best" },
+              { id: "b", text: "Never — linear is always best" },
+              { id: "c", text: "When it serves a purpose — mystery, revelation, thematic resonance — not for novelty alone" },
               { id: "d", text: "Only in poems" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Structural purpose", statement: "Advanced structure must enhance meaning, not confuse." }],
@@ -669,12 +669,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Telling events out of order" },
-              { id: "b", text: "Telling events in the order they happened" },
-              { id: "c", text: "Starting with the ending" },
-              { id: "d", text: "A type of rhyme" },
+              { id: "a", text: "Starting with the ending" },
+              { id: "b", text: "A type of rhyme" },
+              { id: "c", text: "Telling events out of order" },
+              { id: "d", text: "Telling events in the order they happened" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Chronological order", statement: "Events in the order they occurred." }],
@@ -738,12 +738,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Story A — linear is always better" },
-              { id: "b", text: "Neither — A is linear, B is confusing without purpose; effective non-linearity needs clarity" },
-              { id: "c", text: "Story B — confusing is always sophisticated" },
-              { id: "d", text: "Both equally" },
+              { id: "a", text: "Story B — confusing is always sophisticated" },
+              { id: "b", text: "Both equally" },
+              { id: "c", text: "Story A — linear is always better" },
+              { id: "d", text: "Neither — A is linear, B is confusing without purpose; effective non-linearity needs clarity" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Structural clarity", statement: "Confusion ≠ sophistication; non-linear needs purpose and clarity." }],

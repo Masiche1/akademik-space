@@ -53,12 +53,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The volume of the writer's voice" },
-              { id: "b", text: "The writer's attitude toward the subject" },
-              { id: "c", text: "The punctuation used" },
-              { id: "d", text: "The length of sentences" },
+              { id: "a", text: "The writer's attitude toward the subject" },
+              { id: "b", text: "The punctuation used" },
+              { id: "c", text: "The length of sentences" },
+              { id: "d", text: "The volume of the writer's voice" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -154,9 +154,9 @@ export const lesson22: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Tone is the writer's attitude; mood is the reader's feeling" },
-              { id: "b", text: "Tone is the plot; mood is the setting" },
-              { id: "c", text: "They mean the same thing" },
-              { id: "d", text: "Tone is in poems only; mood is in novels only" },
+              { id: "b", text: "Tone is in poems only; mood is in novels only" },
+              { id: "c", text: "Tone is the plot; mood is the setting" },
+              { id: "d", text: "They mean the same thing" },
             ],
             correctChoiceId: "a",
           },
@@ -178,12 +178,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "slim" },
-              { id: "b", text: "skinny" },
-              { id: "c", text: "slender" },
+              { id: "a", text: "skinny" },
+              { id: "b", text: "slender" },
+              { id: "c", text: "slim" },
               { id: "d", text: "All are equally positive" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -208,12 +208,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Version A is calm; Version B is aggressive" },
-              { id: "b", text: "Both are equally calm" },
-              { id: "c", text: "Version B is more polite" },
-              { id: "d", text: "There is no difference" },
+              { id: "a", text: "Version B is more polite" },
+              { id: "b", text: "There is no difference" },
+              { id: "c", text: "Both are equally calm" },
+              { id: "d", text: "Version A is calm; Version B is aggressive" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -238,10 +238,10 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Joyful and lively" },
+              { id: "a", text: "Romantic and warm" },
               { id: "b", text: "Lonely, bleak and desolate — created by empty imagery, the grey sky and the motionless, watching seagull" },
-              { id: "c", text: "Angry and aggressive" },
-              { id: "d", text: "Romantic and warm" },
+              { id: "c", text: "Joyful and lively" },
+              { id: "d", text: "Angry and aggressive" },
             ],
             correctChoiceId: "b",
           },
@@ -342,12 +342,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A calm, relaxed mood" },
-              { id: "b", text: "Tension and urgency" },
+              { id: "a", text: "Tension and urgency" },
+              { id: "b", text: "A calm, relaxed mood" },
               { id: "c", text: "A humorous tone" },
               { id: "d", text: "No effect on mood" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -400,11 +400,11 @@ export const lesson22: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Because events have fixed meanings" },
-              { id: "b", text: "Because diction, imagery and pacing shape the reader's emotional response" },
-              { id: "c", text: "Because readers are always wrong" },
-              { id: "d", text: "Because the events are different" },
+              { id: "b", text: "Because the events are different" },
+              { id: "c", text: "Because diction, imagery and pacing shape the reader's emotional response" },
+              { id: "d", text: "Because readers are always wrong" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -425,11 +425,11 @@ export const lesson22: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Because it is shorter" },
-              { id: "b", text: "Because 'home' connotes warmth and belonging" },
+              { id: "b", text: "Because 'house' is a spelling mistake" },
               { id: "c", text: "Because it is more formal" },
-              { id: "d", text: "Because 'house' is a spelling mistake" },
+              { id: "d", text: "Because 'home' connotes warmth and belonging" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -510,11 +510,11 @@ export const lesson22: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "They want to make you laugh" },
-              { id: "b", text: "The subject is important or sensitive" },
-              { id: "c", text: "They are being sarcastic" },
-              { id: "d", text: "The text is very short" },
+              { id: "b", text: "They are being sarcastic" },
+              { id: "c", text: "The text is very short" },
+              { id: "d", text: "The subject is important or sensitive" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -609,12 +609,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "To match the subject and achieve their purpose" },
-              { id: "b", text: "Because it's required by law" },
-              { id: "c", text: "To make the text longer" },
-              { id: "d", text: "Because all writers have the same tone" },
+              { id: "a", text: "Because it's required by law" },
+              { id: "b", text: "To make the text longer" },
+              { id: "c", text: "Because all writers have the same tone" },
+              { id: "d", text: "To match the subject and achieve their purpose" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -635,11 +635,11 @@ export const lesson22: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Children only read long books" },
-              { id: "b", text: "The audience is young and the purpose is entertainment" },
+              { id: "b", text: "Playful tones are easier to write" },
               { id: "c", text: "Dragons require serious tones" },
-              { id: "d", text: "Playful tones are easier to write" },
+              { id: "d", text: "The audience is young and the purpose is entertainment" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -665,11 +665,11 @@ export const lesson22: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Playful — to entertain" },
-              { id: "b", text: "Formal and apologetic — to inform politely about bad news" },
-              { id: "c", text: "Aggressive — to frighten" },
-              { id: "d", text: "No tone — notices are neutral" },
+              { id: "b", text: "No tone — notices are neutral" },
+              { id: "c", text: "Formal and apologetic — to inform politely about bad news" },
+              { id: "d", text: "Aggressive — to frighten" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -694,12 +694,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Version B — it is more emotional" },
-              { id: "b", text: "Version A — its formal, respectful tone shows maturity and suits a request to authority" },
-              { id: "c", text: "Neither — tone doesn't matter" },
-              { id: "d", text: "Both equally" },
+              { id: "a", text: "Version A — its formal, respectful tone shows maturity and suits a request to authority" },
+              { id: "b", text: "Neither — tone doesn't matter" },
+              { id: "c", text: "Both equally" },
+              { id: "d", text: "Version B — it is more emotional" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -798,12 +798,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "They loved it" },
-              { id: "b", text: "They actually dislike it — sarcasm says the opposite of what they mean" },
-              { id: "c", text: "They are confused" },
+              { id: "a", text: "They are confused" },
+              { id: "b", text: "They loved it" },
+              { id: "c", text: "They actually dislike it — sarcasm says the opposite of what they mean" },
               { id: "d", text: "They have no opinion" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -855,12 +855,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A calm, measured tone seems more credible than an angry or gushing one" },
+              { id: "a", text: "Only short texts are trustworthy" },
               { id: "b", text: "Tone has no effect on trust" },
               { id: "c", text: "Louder tones are always more trustworthy" },
-              { id: "d", text: "Only short texts are trustworthy" },
+              { id: "d", text: "A calm, measured tone seems more credible than an angry or gushing one" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -880,12 +880,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "To make readers feel sympathy and want to donate" },
-              { id: "b", text: "To confuse donors" },
-              { id: "c", text: "Because it's required by law" },
-              { id: "d", text: "To make the letter longer" },
+              { id: "a", text: "To confuse donors" },
+              { id: "b", text: "To make the letter longer" },
+              { id: "c", text: "To make readers feel sympathy and want to donate" },
+              { id: "d", text: "Because it's required by law" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

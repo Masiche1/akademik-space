@@ -53,12 +53,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The French Revolution" },
-              { id: "b", text: "The American Revolution" },
-              { id: "c", text: "The Haitian Revolution" },
-              { id: "d", text: "The Russian Revolution" },
+              { id: "a", text: "The American Revolution" },
+              { id: "b", text: "The Russian Revolution" },
+              { id: "c", text: "The French Revolution" },
+              { id: "d", text: "The Haitian Revolution" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -152,12 +152,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "1776" },
+              { id: "a", text: "1789" },
               { id: "b", text: "1783" },
-              { id: "c", text: "1787" },
-              { id: "d", text: "1789" },
+              { id: "c", text: "1776" },
+              { id: "d", text: "1787" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -180,12 +180,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Napoleon Bonaparte" },
-              { id: "b", text: "Maximilien Robespierre" },
-              { id: "c", text: "King Louis XVI" },
-              { id: "d", text: "Marquis de Lafayette" },
+              { id: "a", text: "King Louis XVI" },
+              { id: "b", text: "Napoleon Bonaparte" },
+              { id: "c", text: "Marquis de Lafayette" },
+              { id: "d", text: "Maximilien Robespierre" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -209,11 +209,11 @@ export const lesson12: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Was the first revolution in the Americas" },
-              { id: "b", text: "Permanently abolished slavery and created the first Black republic" },
-              { id: "c", text: "Was led by a European monarch" },
+              { id: "b", text: "Was led by a European monarch" },
+              { id: "c", text: "Permanently abolished slavery and created the first Black republic" },
               { id: "d", text: "Produced a constitutional monarchy" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -236,12 +236,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Medieval religious ideals" },
-              { id: "b", text: "Enlightenment ideals of liberty and equality" },
+              { id: "a", text: "Colonial trade doctrine" },
+              { id: "b", text: "Medieval religious ideals" },
               { id: "c", text: "Monarchist principles of order" },
-              { id: "d", text: "Colonial trade doctrine" },
+              { id: "d", text: "Enlightenment ideals of liberty and equality" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -265,11 +265,11 @@ export const lesson12: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "France hoped to reconquer its former Canadian territories" },
-              { id: "b", text: "France sought revenge on Britain and to weaken its rival, encouraged by Enlightenment sympathy for the colonists" },
-              { id: "c", text: "France was treaty-bound to defend all colonies" },
+              { id: "b", text: "France was treaty-bound to defend all colonies" },
+              { id: "c", text: "France sought revenge on Britain and to weaken its rival, encouraged by Enlightenment sympathy for the colonists" },
               { id: "d", text: "The US paid France large sums for protection" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -476,12 +476,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Following idealistic principles" },
-              { id: "b", text: "Pursuing power through practical means" },
+              { id: "a", text: "Pursuing power through practical means" },
+              { id: "b", text: "Following idealistic principles" },
               { id: "c", text: "Avoiding all wars" },
               { id: "d", text: "Delegating decisions to parliament" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -575,12 +575,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "1861" },
-              { id: "b", text: "1871" },
-              { id: "c", text: "1848" },
-              { id: "d", text: "1884" },
+              { id: "a", text: "1848" },
+              { id: "b", text: "1861" },
+              { id: "c", text: "1884" },
+              { id: "d", text: "1871" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -603,10 +603,10 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Prussian military unification of Germany" },
+              { id: "a", text: "British factory workers' movement" },
               { id: "b", text: "Popular conquest of southern Italy during unification" },
               { id: "c", text: "The French revolutionary armies" },
-              { id: "d", text: "British factory workers' movement" },
+              { id: "d", text: "Prussian military unification of Germany" },
             ],
             correctChoiceId: "b",
           },
@@ -631,12 +631,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Its abundant coal and iron deposits and navigable transport routes" },
-              { id: "b", text: "Its large population of enslaved workers" },
-              { id: "c", text: "The absence of any rival powers" },
-              { id: "d", text: "Government bans on agriculture" },
+              { id: "a", text: "Its large population of enslaved workers" },
+              { id: "b", text: "The absence of any rival powers" },
+              { id: "c", text: "Government bans on agriculture" },
+              { id: "d", text: "Its abundant coal and iron deposits and navigable transport routes" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -661,8 +661,8 @@ export const lesson12: Lesson = {
             choices: [
               { id: "a", text: "First invented steam power" },
               { id: "b", text: "Made steam power efficient enough for widespread factory and mine use" },
-              { id: "c", text: "Eliminated the need for coal" },
-              { id: "d", text: "Powered the first railway network" },
+              { id: "c", text: "Powered the first railway network" },
+              { id: "d", text: "Eliminated the need for coal" },
             ],
             correctChoiceId: "b",
           },
@@ -687,12 +687,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Industrial states competed for colonies to secure raw materials and captive markets" },
-              { id: "b", text: "Factories produced weapons that made war impossible" },
-              { id: "c", text: "Industrial workers demanded the end of all colonies" },
-              { id: "d", text: "Steamships made trade with colonies unnecessary" },
+              { id: "a", text: "Industrial workers demanded the end of all colonies" },
+              { id: "b", text: "Steamships made trade with colonies unnecessary" },
+              { id: "c", text: "Industrial states competed for colonies to secure raw materials and captive markets" },
+              { id: "d", text: "Factories produced weapons that made war impossible" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

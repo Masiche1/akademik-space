@@ -87,15 +87,15 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Rising production costs" },
               {
-                id: "b",
+                id: "a",
                 text: "Aggregate demand exceeding productive capacity",
               },
-              { id: "c", text: "A fall in the money supply" },
-              { id: "d", text: "Government budget surpluses" },
+              { id: "b", text: "A fall in the money supply" },
+              { id: "c", text: "Government budget surpluses" },
+              { id: "d", text: "Rising production costs" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -328,15 +328,15 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The price of all goods produced in a country" },
+              { id: "a", text: "Total government spending" },
+              { id: "b", text: "The exchange rate" },
+              { id: "c", text: "The price of all goods produced in a country" },
               {
-                id: "b",
+                id: "d",
                 text: "The average price of a representative basket of consumer goods and services",
               },
-              { id: "c", text: "Total government spending" },
-              { id: "d", text: "The exchange rate" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -376,12 +376,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A fall in the inflation rate" },
+              { id: "a", text: "A rise in the cost of living" },
               {
                 id: "b",
                 text: "A sustained decrease in the general price level",
               },
-              { id: "c", text: "A rise in the cost of living" },
+              { id: "c", text: "A fall in the inflation rate" },
               { id: "d", text: "A fall in nominal GDP only" },
             ],
             correctChoiceId: "b",
@@ -421,12 +421,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Demand-pull inflation" },
-              { id: "b", text: "Cost-push inflation" },
+              { id: "a", text: "Cost-push inflation" },
+              { id: "b", text: "Demand-pull inflation" },
               { id: "c", text: "Hyperinflation" },
               { id: "d", text: "Disinflation" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -471,15 +471,15 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "A fall in the money supply" },
               {
-                id: "a",
+                id: "b",
                 text: "Workers demanding higher wages because they expect inflation, and firms raising prices to cover costs",
               },
-              { id: "b", text: "Government spending causing prices to rise" },
-              { id: "c", text: "Imports becoming more expensive" },
-              { id: "d", text: "A fall in the money supply" },
+              { id: "c", text: "Government spending causing prices to rise" },
+              { id: "d", text: "Imports becoming more expensive" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -519,8 +519,8 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "5%" },
-              { id: "b", text: "10%" },
+              { id: "a", text: "10%" },
+              { id: "b", text: "5%" },
               { id: "c", text: "50%" },
               { id: "d", text: "100%" },
             ],
@@ -1083,11 +1083,11 @@ export const lesson42: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Costs of importing goods" },
-              { id: "b", text: "Costs firms incur changing their prices" },
-              { id: "c", text: "Costs of unemployment" },
-              { id: "d", text: "Government budget costs" },
+              { id: "b", text: "Costs of unemployment" },
+              { id: "c", text: "Government budget costs" },
+              { id: "d", text: "Costs firms incur changing their prices" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1316,15 +1316,15 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The cost of updating price lists and menus" },
+              { id: "a", text: "The cost of importing goods" },
+              { id: "b", text: "The cost of updating price lists and menus" },
+              { id: "c", text: "The cost of unemployment benefits" },
               {
-                id: "b",
+                id: "d",
                 text: "The cost of making extra transactions to reduce cash holdings",
               },
-              { id: "c", text: "The cost of importing goods" },
-              { id: "d", text: "The cost of unemployment benefits" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1364,15 +1364,15 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Borrowers with fixed-rate mortgages" },
-              { id: "b", text: "Savers on fixed incomes" },
-              { id: "c", text: "Debtors repaying fixed nominal loans" },
+              { id: "a", text: "Savers on fixed incomes" },
+              { id: "b", text: "Debtors repaying fixed nominal loans" },
+              { id: "c", text: "Borrowers with fixed-rate mortgages" },
               {
                 id: "d",
                 text: "Exporters in a country with higher inflation than rivals",
               },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -1411,12 +1411,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Government spending cuts" },
-              { id: "b", text: "Interest rate changes" },
-              { id: "c", text: "Wage controls" },
-              { id: "d", text: "Tariffs on imports" },
+              { id: "a", text: "Wage controls" },
+              { id: "b", text: "Government spending cuts" },
+              { id: "c", text: "Tariffs on imports" },
+              { id: "d", text: "Interest rate changes" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1455,12 +1455,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Higher interest rates to reduce demand" },
-              { id: "b", text: "Supply-side policies to raise productivity" },
-              { id: "c", text: "Increased government spending" },
-              { id: "d", text: "Currency depreciation" },
+              { id: "a", text: "Supply-side policies to raise productivity" },
+              { id: "b", text: "Increased government spending" },
+              { id: "c", text: "Currency depreciation" },
+              { id: "d", text: "Higher interest rates to reduce demand" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -1505,10 +1505,10 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Reduce unemployment permanently" },
+              { id: "a", text: "Increase inflation further" },
               { id: "b", text: "Increase unemployment in the short run" },
               { id: "c", text: "Have no effect on unemployment" },
-              { id: "d", text: "Increase inflation further" },
+              { id: "d", text: "Reduce unemployment permanently" },
             ],
             correctChoiceId: "b",
           },

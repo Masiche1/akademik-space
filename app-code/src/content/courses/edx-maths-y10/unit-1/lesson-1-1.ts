@@ -55,12 +55,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$2^2\\times3^2\\times5$" },
+              { id: "a", text: "$2\\times3^2\\times5$" },
               { id: "b", text: "$2^2\\times3\\times5$" },
-              { id: "c", text: "$2\\times3^2\\times5$" },
-              { id: "d", text: "$2^2\\times9\\times5$" },
+              { id: "c", text: "$2^2\\times9\\times5$" },
+              { id: "d", text: "$2^2\\times3^2\\times5$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -212,12 +212,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$6\\sqrt{2}$" },
-              { id: "b", text: "$18\\sqrt{2}$" },
+              { id: "a", text: "$18\\sqrt{2}$" },
+              { id: "b", text: "$2\\sqrt{36}$" },
               { id: "c", text: "$9\\sqrt{2}$" },
-              { id: "d", text: "$2\\sqrt{36}$" },
+              { id: "d", text: "$6\\sqrt{2}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

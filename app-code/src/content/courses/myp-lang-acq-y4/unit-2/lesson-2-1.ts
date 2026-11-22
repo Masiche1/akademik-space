@@ -55,12 +55,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "'You are wrong.'" },
-              { id: "b", text: "'I see your point, but I think...'" },
+              { id: "a", text: "'I see your point, but I think...'" },
+              { id: "b", text: "'You are wrong.'" },
               { id: "c", text: "'Whatever.'" },
               { id: "d", text: "'That is stupid.'" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "convention", name: "Polite disagreement", statement: "Respectful language acknowledges the other person before disagreeing." }],
@@ -162,12 +162,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "'You are completely wrong.'" },
-              { id: "b", text: "'I agree because...'." },
-              { id: "c", text: "'Boring.'" },
-              { id: "d", text: "'Whatever you say.'" },
+              { id: "a", text: "'Whatever you say.'" },
+              { id: "b", text: "'Boring.'" },
+              { id: "c", text: "'I agree because...'." },
+              { id: "d", text: "'You are completely wrong.'" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -189,12 +189,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "'What evidence supports that?'" },
-              { id: "b", text: "'Can we stop talking?'" },
-              { id: "c", text: "'That is boring.'" },
-              { id: "d", text: "'I do not care.'" },
+              { id: "a", text: "'I do not care.'" },
+              { id: "b", text: "'What evidence supports that?'" },
+              { id: "c", text: "'Can we stop talking?'" },
+              { id: "d", text: "'That is boring.'" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -277,11 +277,11 @@ export const lesson21: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Complete agreement" },
-              { id: "b", text: "Partial agreement followed by a different view" },
-              { id: "c", text: "Strong disagreement" },
-              { id: "d", text: "Ending the discussion" },
+              { id: "b", text: "Strong disagreement" },
+              { id: "c", text: "Ending the discussion" },
+              { id: "d", text: "Partial agreement followed by a different view" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -356,12 +356,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "'Could you explain that?'" },
-              { id: "b", text: "'You are stupid.'" },
-              { id: "c", text: "'For example...'" },
-              { id: "d", text: "'I see your point.'" },
+              { id: "a", text: "'You are stupid.'" },
+              { id: "b", text: "'I see your point.'" },
+              { id: "c", text: "'Could you explain that?'" },
+              { id: "d", text: "'For example...'" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -389,12 +389,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "They fully support uniforms" },
-              { id: "b", text: "They mostly agree but see limited value" },
-              { id: "c", text: "They completely reject uniforms" },
-              { id: "d", text: "They have no opinion" },
+              { id: "a", text: "They mostly agree but see limited value" },
+              { id: "b", text: "They completely reject uniforms" },
+              { id: "c", text: "They have no opinion" },
+              { id: "d", text: "They fully support uniforms" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -451,11 +451,11 @@ export const lesson21: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "They are hostile" },
-              { id: "b", text: "They are open-minded and curious" },
-              { id: "c", text: "They disagree strongly" },
-              { id: "d", text: "They want to leave" },
+              { id: "b", text: "They disagree strongly" },
+              { id: "c", text: "They want to leave" },
+              { id: "d", text: "They are open-minded and curious" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -543,12 +543,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Conclusion" },
-              { id: "b", text: "Introduction" },
-              { id: "c", text: "Questions from audience" },
-              { id: "d", text: "References" },
+              { id: "a", text: "References" },
+              { id: "b", text: "Questions from audience" },
+              { id: "c", text: "Introduction" },
+              { id: "d", text: "Conclusion" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "convention", name: "Presentation order", statement: "Introduction comes before main points and conclusion." }],
@@ -650,12 +650,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Introduction" },
+              { id: "a", text: "Examples" },
               { id: "b", text: "Main points" },
-              { id: "c", text: "Conclusion" },
-              { id: "d", text: "Examples" },
+              { id: "c", text: "Introduction" },
+              { id: "d", text: "Conclusion" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -677,9 +677,9 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "'In conclusion...'" },
+              { id: "a", text: "'Good morning...'" },
               { id: "b", text: "'For example...'" },
-              { id: "c", text: "'Good morning...'" },
+              { id: "c", text: "'In conclusion...'" },
               { id: "d", text: "'Thank you...'" },
             ],
             correctChoiceId: "b",
@@ -764,12 +764,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Introduction and main points, but no conclusion" },
-              { id: "b", text: "Only an introduction" },
-              { id: "c", text: "Introduction, main points and conclusion" },
-              { id: "d", text: "Conclusion only" },
+              { id: "a", text: "Introduction, main points and conclusion" },
+              { id: "b", text: "Introduction and main points, but no conclusion" },
+              { id: "c", text: "Conclusion only" },
+              { id: "d", text: "Only an introduction" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -844,12 +844,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Stop and apologise repeatedly" },
-              { id: "b", text: "Pause briefly and continue" },
-              { id: "c", text: "End the presentation immediately" },
-              { id: "d", text: "Shout the word louder" },
+              { id: "a", text: "End the presentation immediately" },
+              { id: "b", text: "Shout the word louder" },
+              { id: "c", text: "Pause briefly and continue" },
+              { id: "d", text: "Stop and apologise repeatedly" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -877,12 +877,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It has no structure, detail or examples" },
-              { id: "b", text: "It is too long" },
-              { id: "c", text: "It uses too much formal language" },
-              { id: "d", text: "It is perfectly structured" },
+              { id: "a", text: "It uses too much formal language" },
+              { id: "b", text: "It has no structure, detail or examples" },
+              { id: "c", text: "It is perfectly structured" },
+              { id: "d", text: "It is too long" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -938,12 +938,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It introduces a new topic" },
-              { id: "b", text: "It signals the conclusion or summary" },
-              { id: "c", text: "It asks a question" },
-              { id: "d", text: "It gives an example" },
+              { id: "a", text: "It gives an example" },
+              { id: "b", text: "It asks a question" },
+              { id: "c", text: "It introduces a new topic" },
+              { id: "d", text: "It signals the conclusion or summary" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

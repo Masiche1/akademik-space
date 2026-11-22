@@ -1,4 +1,41 @@
-import type { Lesson } from "../../../types.ts";
+import type { Difficulty, Lesson, MarkPrinciple, MarkStep, Markscheme, Question, QuestionPart, QuestionResponse } from "../../../types.ts";
+
+type StepTuple = [string, number, MarkStep["markCode"], string?];
+type StructStepTuple = [string, string, number, MarkStep["markCode"], string?];
+type PartTuple = [string, string, number];
+
+function prin(kind: MarkPrinciple["kind"], name: string, statement: string): MarkPrinciple { return { kind, name, statement }; }
+function step(reasoning: string, marks: number, markCode: MarkStep["markCode"], working?: string, part?: string): MarkStep {
+  const s: MarkStep = { reasoning, marks, markCode };
+  if (working !== undefined) s.working = working;
+  if (part !== undefined) s.part = part;
+  return s;
+}
+function scheme(principles: MarkPrinciple[], steps: MarkStep[], finalAnswer: string, commonErrors?: string[]): Markscheme {
+  const m: Markscheme = { principles, steps, finalAnswer };
+  if (commonErrors && commonErrors.length) m.commonErrors = commonErrors;
+  return m;
+}
+function makeQ(id: string, difficulty: Difficulty, totalMarks: number, stem: string, response: QuestionResponse, markscheme: Markscheme, parts?: QuestionPart[]): Question {
+  const q: Question = { id, difficulty, totalMarks, stem, response, markscheme };
+  if (parts) q.parts = parts;
+  return q;
+}
+function mcq(id: string, difficulty: Difficulty, stem: string, choices: [string, string, string, string], correct: "a" | "b" | "c" | "d", principle: MarkPrinciple, reasoning: string, commonError?: string): Question {
+  const textById = { a: choices[0], b: choices[1], c: choices[2], d: choices[3] };
+  return makeQ(id, difficulty, 1, stem, { type: "mcq", choices: [{ id: "a", text: choices[0] }, { id: "b", text: choices[1] }, { id: "c", text: choices[2] }, { id: "d", text: choices[3] }], correctChoiceId: correct }, scheme([principle], [step(reasoning, 1, "B")], `**(${correct})** ${textById[correct]}`, commonError ? [commonError] : undefined));
+}
+function num(id: string, difficulty: Difficulty, stem: string, answer: number, unit: string | undefined, principle: MarkPrinciple, reasoning: string, working: string, finalAnswer: string, markCode: MarkStep["markCode"] = "M", commonError?: string): Question {
+  const part: { label: string; answer: number; unit?: string } = { label: "a", answer, ...(unit !== undefined ? { unit } : {}) };
+  return makeQ(id, difficulty, 1, stem, { type: "numeric", parts: [part] }, scheme([principle], [step(reasoning, 1, markCode, working)], finalAnswer, commonError ? [commonError] : undefined));
+}
+function open(id: string, difficulty: Difficulty, totalMarks: number, stem: string, principle: MarkPrinciple, steps: StepTuple[], finalAnswer: string, commonError?: string): Question {
+  return makeQ(id, difficulty, totalMarks, stem, { type: "open" }, scheme([principle], steps.map((s) => step(s[0], s[1], s[2], s[3])), finalAnswer, commonError ? [commonError] : undefined));
+}
+function struct(id: string, difficulty: Difficulty, stem: string, parts: PartTuple[], principle: MarkPrinciple, steps: StructStepTuple[], finalAnswer: string, commonError?: string): Question {
+  const total = parts.reduce((sum, p) => sum + p[2], 0);
+  return makeQ(id, difficulty, total, stem, { type: "open" }, scheme([principle], steps.map((s) => step(s[1], s[2], s[3], s[4], s[0])), finalAnswer, commonError ? [commonError] : undefined), parts.map((p) => ({ label: p[0], prompt: p[1], marks: p[2] })));
+}
 
 export const lesson63: Lesson = {
   id: "olbio-u6-lesson-6-3",
@@ -50,12 +87,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Removal of CO₂ by lungs" },
-              { id: "b", text: "Removal of undigested food" },
-              { id: "c", text: "Removal of faeces" },
-              { id: "d", text: "Removal of saliva" },
+              { id: "a", text: "Removal of faeces" },
+              { id: "b", text: "Removal of CO₂ by lungs" },
+              { id: "c", text: "Removal of saliva" },
+              { id: "d", text: "Removal of undigested food" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -137,6 +174,18 @@ export const lesson63: Lesson = {
             commonErrors: ["In (d) forgetting skin also regulates temperature."],
           },
         },
+        mcq("olbio-u6-excretion-q5", "foundation", "Excretion is the removal of:", ["Metabolic waste products", "Undigested food", "Saliva", "Ingested water"], "a", prin("definition", "Excretion", "Excretion removes metabolic wastes produced by cells."), "Recall the definition.", "Undigested food is removed by egestion."),
+        mcq("olbio-u6-excretion-q6", "foundation", "Egestion is the removal of:", ["Undigested food as faeces", "Carbon dioxide", "Urea", "Sweat"], "a", prin("definition", "Egestion", "Egestion removes undigested food material that was never absorbed."), "Distinguish egestion from excretion.", "CO2 and urea are excreted, not egested."),
+        mcq("olbio-u6-excretion-q7", "core", "Urea is produced in the:", ["Liver", "Kidney", "Lung", "Heart"], "a", prin("property", "Urea formation", "The liver deaminates amino acids and converts ammonia to urea."), "Recall the organ.", "The kidney excretes urea but does not produce it."),
+        mcq("olbio-u6-excretion-q8", "core", "Carbon dioxide produced in respiration is excreted by the:", ["Lungs", "Kidneys", "Skin", "Liver"], "a", prin("property", "CO2 excretion", "CO2 diffuses into alveoli and is removed in expired air."), "Recall the organ.", "The kidneys excrete urea, not CO2."),
+        mcq("olbio-u6-excretion-q9", "challenge", "Bile pigments in faeces are an example of:", ["Excretion", "Egestion", "Digestion", "Absorption"], "a", prin("property", "Bile pigments", "Bile pigments are metabolic waste from haemoglobin breakdown, so their removal is excretion."), "Recognise metabolic origin.", "Faeces overall is egestion, but bile pigments are excreted."),
+        num("olbio-u6-excretion-q10", "foundation", "The main organs of excretion are the lungs, kidneys, skin and liver. How many are there?", 4, "organs", prin("property", "Excretion organs", "Lungs, kidneys, skin and liver all remove metabolic wastes."), "Count the organs.", "4", "**4 organs**"),
+        num("olbio-u6-excretion-q11", "core", "Blood urea concentration is 5 mmol/L and urine urea concentration is 50 mmol/L. How many times more concentrated is the urine?", 10, "times", prin("property", "Concentration ratio", "Ratio = urine concentration / blood concentration."), "Divide urine by blood concentration.", "50 / 5 = 10", "**10 times more concentrated**"),
+        num("olbio-u6-excretion-q12", "core", "Sweat contains water, salts and a small amount of urea. How many named components does sweat contain?", 3, "components", prin("property", "Sweat composition", "Sweat contains water, salts and urea."), "Count the components.", "3", "**3 components**"),
+        num("olbio-u6-excretion-q13", "challenge", "If the kidneys filter 200 L per day and produce 1.5 L of urine, what percentage of the filtered fluid becomes urine?", 0.75, "%", prin("property", "Urine percentage", "Percentage = urine / filtrate x 100."), "Divide urine by filtrate and multiply by 100.", "1.5 / 200 x 100 = 0.75", "**0.75%**"),
+        open("olbio-u6-excretion-q14", "core", 3, "Distinguish excretion from egestion, giving an example of each.", prin("definition", "Excretion vs egestion", "Excretion removes metabolic waste; egestion removes undigested food."), [["Excretion removes metabolic wastes such as CO2 or urea.", 1, "M"], ["Egestion removes undigested food as faeces.", 1, "M"], ["Give a correct example for each.", 1, "A"]], "Excretion removes metabolic waste (e.g. urea); egestion removes undigested food (faeces).", "Calling faeces excretion."),
+        open("olbio-u6-excretion-q15", "challenge", 4, "Explain how the liver produces urea from amino acids.", prin("property", "Urea formation", "Deamination of amino acids yields ammonia, converted to urea in the liver."), [["Amino acids are deaminated in the liver.", 1, "M"], ["The amino group is removed, forming ammonia.", 1, "M"], ["Toxic ammonia is converted into urea.", 1, "M"], ["Urea is transported to the kidney for excretion.", 1, "A"]], "Amino acids are deaminated in the liver; ammonia formed is converted to urea, which is excreted by the kidney.", "Saying ammonia itself is excreted."),
+        struct("olbio-u6-excretion-q16", "challenge", "A student is asked about excretion and the organs involved.", [["a", "Define excretion.", 2], ["b", "Name three metabolic wastes and the organ that removes each.", 3], ["c", "Explain what deamination is.", 2], ["d", "State why faeces are not excretion.", 2]], prin("property", "Excretion", "Excretion removes metabolic wastes via lungs, kidney, skin and liver."), [["a", "Excretion is removal of metabolic waste products.", 1, "M"], ["a", "It is produced by cells, unlike undigested food.", 1, "A"], ["b", "CO2 is removed by the lungs.", 1, "M"], ["b", "Urea is removed by the kidneys.", 1, "M"], ["b", "Excess water/salts are removed by kidney and skin.", 1, "A"], ["c", "Deamination removes the amino group from amino acids.", 1, "M"], ["c", "It occurs in the liver to form urea.", 1, "A"], ["d", "Faeces are undigested food, not metabolic waste.", 1, "M"], ["d", "Their removal is egestion.", 1, "A"]], "(a) metabolic waste removal (b) CO2-lungs, urea-kidney, water-skin (c) amino group removal in liver (d) faeces = egestion", "Including faeces as excretion."),
       ],
     },
     {
@@ -173,12 +222,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Artificial filtering of blood when kidneys fail" },
-              { id: "b", text: "A type of kidney stone" },
-              { id: "c", text: "Surgery to remove kidneys" },
-              { id: "d", text: "A blood transfusion" },
+              { id: "a", text: "A blood transfusion" },
+              { id: "b", text: "Surgery to remove kidneys" },
+              { id: "c", text: "A type of kidney stone" },
+              { id: "d", text: "Artificial filtering of blood when kidneys fail" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -259,6 +308,18 @@ export const lesson63: Lesson = {
             commonErrors: ["In (c) saying transplant always works — rejection is a real risk."],
           },
         },
+        mcq("olbio-u6-kidney-failure-q5", "foundation", "Dialysis filters blood using a:", ["Partially permeable membrane", "Fully permeable membrane", "Solid metal filter", "Sponge"], "a", prin("property", "Dialysis membrane", "A partially permeable membrane lets wastes pass but retains useful substances."), "Recall the membrane type.", "A fully permeable membrane would lose everything."),
+        mcq("olbio-u6-kidney-failure-q6", "foundation", "In kidney failure, waste products in the blood:", ["Accumulate to toxic levels", "Decrease to zero", "Are converted to glucose", "Are stored safely"], "a", prin("property", "Kidney failure", "Failed kidneys cannot remove urea and excess substances, so they accumulate."), "Recall the consequence.", "Wastes build up rather than fall."),
+        mcq("olbio-u6-kidney-failure-q7", "core", "During dialysis, urea moves:", ["Out of the blood into the dialysis fluid", "Into the blood from the fluid", "Into the bladder", "Into the lungs"], "a", prin("property", "Dialysis direction", "Urea diffuses down its concentration gradient out of blood into dialysis fluid."), "Recall the direction of movement.", "Useful substances like glucose stay in the blood."),
+        mcq("olbio-u6-kidney-failure-q8", "core", "A kidney transplant patient usually needs:", ["Immunosuppressants to prevent rejection", "Insulin injections", "Dialysis forever", "Antibiotics only"], "a", prin("property", "Transplant", "Immunosuppressants stop the immune system rejecting the new kidney."), "Recall transplant requirement.", "Dialysis is the alternative, not a transplant need."),
+        mcq("olbio-u6-kidney-failure-q9", "challenge", "Dialysis fluid contains no urea. Urea leaves the blood because:", ["It diffuses down its concentration gradient", "It is actively pumped out", "It evaporates", "It is filtered by the liver"], "a", prin("property", "Dialysis principle", "Wastes diffuse from high concentration in blood to low concentration in dialysis fluid."), "Recall diffusion down the gradient.", "Movement is by diffusion, not active transport."),
+        num("olbio-u6-kidney-failure-q10", "foundation", "A dialysis patient has sessions 3 times per week. How many sessions occur in 2 weeks?", 6, "sessions", prin("property", "Dialysis frequency", "Sessions = per week x number of weeks."), "Multiply sessions per week by weeks.", "3 x 2 = 6", "**6 sessions**"),
+        num("olbio-u6-kidney-failure-q11", "core", "Dialysis reduces a patient's blood urea from 20 mmol/L to 5 mmol/L. Calculate the percentage reduction.", 75, "%", prin("property", "Percentage reduction", "Percentage = decrease / original x 100."), "Compute decrease then percentage.", "(20 - 5) / 20 x 100 = 75", "**75% reduction**"),
+        num("olbio-u6-kidney-failure-q12", "core", "A person normally has 2 kidneys. If one kidney fails completely, how many functioning kidneys remain?", 1, "kidney", prin("property", "Kidney number", "One functioning kidney can maintain health."), "Subtract failed from total.", "2 - 1 = 1", "**1 kidney**"),
+        num("olbio-u6-kidney-failure-q13", "challenge", "Dialysis removes 90% of urea from the blood. If blood urea is 10 units before dialysis, how many units remain?", 1, "units", prin("property", "Residual urea", "Remaining = initial x (1 - removal fraction)."), "Keep 10% of the original.", "10 x 0.10 = 1", "**1 unit remains**"),
+        open("olbio-u6-kidney-failure-q14", "core", 3, "Explain why kidney failure is dangerous if untreated.", prin("property", "Kidney failure danger", "Wastes accumulate to toxic levels without filtration."), [["Failed kidneys cannot filter urea and excess substances from blood.", 1, "M"], ["These wastes accumulate in the body.", 1, "M"], ["Toxic levels cause illness and can be fatal without treatment.", 1, "A"]], "Without working kidneys, urea and wastes build up to toxic concentrations, poisoning the body.", "Saying only urine production stops without mentioning toxicity."),
+        open("olbio-u6-kidney-failure-q15", "challenge", 4, "Compare dialysis and kidney transplant as treatments for kidney failure.", prin("property", "Dialysis vs transplant", "Dialysis is ongoing machine filtration; transplant replaces the kidney but risks rejection."), [["Dialysis filters blood through a machine with a partially permeable membrane.", 1, "M"], ["It must be repeated regularly for life.", 1, "M"], ["A transplant replaces the kidney with a healthy one.", 1, "M"], ["Transplant needs immunosuppressants and can be rejected.", 1, "A"]], "Dialysis is repeated artificial filtration; transplant is a permanent new kidney but carries rejection risk.", "Claiming transplant always succeeds."),
+        struct("olbio-u6-kidney-failure-q16", "challenge", "A student compares treatments for kidney failure.", [["a", "Describe how dialysis removes waste from blood.", 3], ["b", "State what the dialysis membrane allows to pass and what it retains.", 2], ["c", "Describe how a kidney transplant works.", 2], ["d", "Give one advantage and one disadvantage of dialysis.", 2]], prin("property", "Kidney failure treatment", "Dialysis uses a membrane; transplant replaces the kidney."), [["a", "Blood is passed through a dialysis machine.", 1, "M"], ["a", "A partially permeable membrane separates blood from dialysis fluid.", 1, "M"], ["a", "Wastes diffuse out while cleaned blood returns.", 1, "A"], ["b", "Urea and excess salts pass out.", 1, "M"], ["b", "Glucose, proteins and cells are retained.", 1, "A"], ["c", "A healthy kidney is transplanted into the patient.", 1, "M"], ["c", "Immunosuppressants prevent rejection.", 1, "A"], ["d", "Advantage: no surgery/organ needed; disadvantage: lifelong sessions.", 1, "M"], ["d", "State one of each clearly.", 1, "A"]], "(a) machine filtration via membrane (b) wastes out, useful retained (c) new kidney + immunosuppressants (d) dialysis ongoing but avoids surgery", "Saying dialysis cures kidney failure permanently."),
       ],
     },
   ],

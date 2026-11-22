@@ -114,8 +114,8 @@ export const lesson32: Lesson = {
             choices: [
               { id: "a", text: "Deoxyribonucleic acid" },
               { id: "b", text: "Ribonucleic acid" },
-              { id: "c", text: "Deoxyribose acid" },
-              { id: "d", text: "Nucleic acid only" },
+              { id: "c", text: "Nucleic acid only" },
+              { id: "d", text: "Deoxyribose acid" },
             ],
             correctChoiceId: "a",
           },
@@ -145,12 +145,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Phosphate + sugar + base" },
-              { id: "b", text: "Only base" },
-              { id: "c", text: "Only sugar" },
+              { id: "a", text: "Only base" },
+              { id: "b", text: "Only sugar" },
+              { id: "c", text: "Phosphate + sugar + base" },
               { id: "d", text: "Only phosphate" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -178,12 +178,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Thymine" },
-              { id: "b", text: "Guanine" },
-              { id: "c", text: "Cytosine" },
+              { id: "a", text: "Cytosine" },
+              { id: "b", text: "Thymine" },
+              { id: "c", text: "Guanine" },
               { id: "d", text: "Uracil" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -205,12 +205,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Cytosine" },
-              { id: "b", text: "Thymine" },
+              { id: "a", text: "Thymine" },
+              { id: "b", text: "Cytosine" },
               { id: "c", text: "Adenine" },
               { id: "d", text: "Uracil" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -228,12 +228,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Double helix structure" },
+              { id: "a", text: "No structure" },
               { id: "b", text: "Single strand" },
-              { id: "c", text: "Triple helix" },
-              { id: "d", text: "No structure" },
+              { id: "c", text: "Double helix structure" },
+              { id: "d", text: "Triple helix" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -257,12 +257,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Each new DNA has one old + one new strand" },
-              { id: "b", text: "Both strands are new" },
+              { id: "a", text: "Both strands are new" },
+              { id: "b", text: "Each new DNA has one old + one new strand" },
               { id: "c", text: "Both strands are old" },
               { id: "d", text: "No replication" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -291,9 +291,9 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Unwinds DNA double helix" },
-              { id: "b", text: "Synthesises DNA" },
+              { id: "b", text: "Repairs DNA" },
               { id: "c", text: "Joins DNA" },
-              { id: "d", text: "Repairs DNA" },
+              { id: "d", text: "Synthesises DNA" },
             ],
             correctChoiceId: "a",
           },
@@ -319,12 +319,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Synthesises new DNA strand" },
-              { id: "b", text: "Unwinds DNA" },
-              { id: "c", text: "Joins DNA" },
-              { id: "d", text: "Copies RNA" },
+              { id: "a", text: "Copies RNA" },
+              { id: "b", text: "Joins DNA" },
+              { id: "c", text: "Unwinds DNA" },
+              { id: "d", text: "Synthesises new DNA strand" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -352,12 +352,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A=T and G=C" },
-              { id: "b", text: "A=G and T=C" },
-              { id: "c", text: "A=C and G=T" },
-              { id: "d", text: "All equal" },
+              { id: "a", text: "A=G and T=C" },
+              { id: "b", text: "All equal" },
+              { id: "c", text: "A=T and G=C" },
+              { id: "d", text: "A=C and G=T" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -381,12 +381,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Deoxyribose" },
-              { id: "b", text: "Ribose" },
-              { id: "c", text: "Glucose" },
-              { id: "d", text: "Fructose" },
+              { id: "a", text: "Ribose" },
+              { id: "b", text: "Deoxyribose" },
+              { id: "c", text: "Fructose" },
+              { id: "d", text: "Glucose" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -410,12 +410,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Adenine, thymine, guanine, cytosine" },
-              { id: "b", text: "A, T, G, U" },
-              { id: "c", text: "Only A and T" },
-              { id: "d", text: "Only G and C" },
+              { id: "a", text: "Only G and C" },
+              { id: "b", text: "Adenine, thymine, guanine, cytosine" },
+              { id: "c", text: "A, T, G, U" },
+              { id: "d", text: "Only A and T" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -439,12 +439,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "RNA, not DNA" },
-              { id: "b", text: "DNA" },
-              { id: "c", text: "Both" },
-              { id: "d", text: "Neither" },
+              { id: "a", text: "Neither" },
+              { id: "b", text: "Both" },
+              { id: "c", text: "RNA, not DNA" },
+              { id: "d", text: "DNA" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -464,8 +464,8 @@ export const lesson32: Lesson = {
             choices: [
               { id: "a", text: "30%" },
               { id: "b", text: "20%" },
-              { id: "c", text: "40%" },
-              { id: "d", text: "70%" },
+              { id: "c", text: "70%" },
+              { id: "d", text: "40%" },
             ],
             correctChoiceId: "a",
           },
@@ -490,9 +490,9 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "25%" },
-              { id: "b", text: "50%" },
-              { id: "c", text: "75%" },
-              { id: "d", text: "12.5%" },
+              { id: "b", text: "75%" },
+              { id: "c", text: "12.5%" },
+              { id: "d", text: "50%" },
             ],
             correctChoiceId: "a",
           },
@@ -516,12 +516,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "S phase of interphase" },
-              { id: "b", text: "Mitosis" },
-              { id: "c", text: "Meiosis" },
-              { id: "d", text: "Cytokinesis" },
+              { id: "a", text: "Mitosis" },
+              { id: "b", text: "Cytokinesis" },
+              { id: "c", text: "S phase of interphase" },
+              { id: "d", text: "Meiosis" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -546,8 +546,8 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Short DNA segments on lagging strand" },
-              { id: "b", text: "Enzymes" },
-              { id: "c", text: "RNA primers" },
+              { id: "b", text: "RNA primers" },
+              { id: "c", text: "Enzymes" },
               { id: "d", text: "Proteins" },
             ],
             correctChoiceId: "a",
@@ -578,15 +578,15 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "Synthesised in fragments" },
+              { id: "b", text: "RNA" },
+              { id: "c", text: "The template" },
               {
-                id: "a",
+                id: "d",
                 text: "Synthesised continuously toward replication fork",
               },
-              { id: "b", text: "Synthesised in fragments" },
-              { id: "c", text: "The template" },
-              { id: "d", text: "RNA" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -610,12 +610,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Synthesised in fragments (Okazaki)" },
-              { id: "b", text: "Continuous" },
+              { id: "a", text: "RNA" },
+              { id: "b", text: "Synthesised in fragments (Okazaki)" },
               { id: "c", text: "The template" },
-              { id: "d", text: "RNA" },
+              { id: "d", text: "Continuous" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -639,12 +639,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "DNA polymerase" },
-              { id: "b", text: "Helicase" },
-              { id: "c", text: "Ligase" },
+              { id: "a", text: "Helicase" },
+              { id: "b", text: "Ligase" },
+              { id: "c", text: "DNA polymerase" },
               { id: "d", text: "Primase" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -804,12 +804,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Joins Okazaki fragments" },
+              { id: "a", text: "Synthesises DNA" },
               { id: "b", text: "Unwinds DNA" },
-              { id: "c", text: "Synthesises DNA" },
+              { id: "c", text: "Joins Okazaki fragments" },
               { id: "d", text: "Copies RNA" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -894,12 +894,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Uracil" },
-              { id: "b", text: "Thymine" },
-              { id: "c", text: "Guanine" },
-              { id: "d", text: "Cytosine" },
+              { id: "a", text: "Guanine" },
+              { id: "b", text: "Cytosine" },
+              { id: "c", text: "Uracil" },
+              { id: "d", text: "Thymine" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1067,8 +1067,8 @@ export const lesson32: Lesson = {
             choices: [
               { id: "a", text: "DNA → mRNA" },
               { id: "b", text: "mRNA → protein" },
-              { id: "c", text: "DNA → protein" },
-              { id: "d", text: "Protein → DNA" },
+              { id: "c", text: "Protein → DNA" },
+              { id: "d", text: "DNA → protein" },
             ],
             correctChoiceId: "a",
           },
@@ -1098,12 +1098,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "mRNA → protein" },
-              { id: "b", text: "DNA → mRNA" },
-              { id: "c", text: "DNA → protein" },
-              { id: "d", text: "Protein → mRNA" },
+              { id: "a", text: "Protein → mRNA" },
+              { id: "b", text: "DNA → protein" },
+              { id: "c", text: "DNA → mRNA" },
+              { id: "d", text: "mRNA → protein" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1131,12 +1131,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Messenger RNA" },
+              { id: "a", text: "DNA" },
               { id: "b", text: "Transfer RNA" },
-              { id: "c", text: "Ribosomal RNA" },
-              { id: "d", text: "DNA" },
+              { id: "c", text: "Messenger RNA" },
+              { id: "d", text: "Ribosomal RNA" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1156,12 +1156,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Transfer RNA" },
-              { id: "b", text: "Messenger RNA" },
-              { id: "c", text: "Ribosomal RNA" },
-              { id: "d", text: "DNA" },
+              { id: "a", text: "Messenger RNA" },
+              { id: "b", text: "DNA" },
+              { id: "c", text: "Transfer RNA" },
+              { id: "d", text: "Ribosomal RNA" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1179,12 +1179,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Three-base sequence on mRNA" },
-              { id: "b", text: "Three-base sequence on tRNA" },
-              { id: "c", text: "Amino acid" },
-              { id: "d", text: "Gene" },
+              { id: "a", text: "Gene" },
+              { id: "b", text: "Amino acid" },
+              { id: "c", text: "Three-base sequence on tRNA" },
+              { id: "d", text: "Three-base sequence on mRNA" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1204,15 +1204,15 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "On mRNA" },
               {
-                id: "a",
+                id: "b",
                 text: "Three-base sequence on tRNA complementary to codon",
               },
-              { id: "b", text: "On mRNA" },
-              { id: "c", text: "On DNA" },
-              { id: "d", text: "Amino acid" },
+              { id: "c", text: "Amino acid" },
+              { id: "d", text: "On DNA" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1236,12 +1236,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Synthesises mRNA during transcription" },
-              { id: "b", text: "Synthesises DNA" },
-              { id: "c", text: "Unwinds DNA" },
+              { id: "a", text: "Unwinds DNA" },
+              { id: "b", text: "Synthesises mRNA during transcription" },
+              { id: "c", text: "Synthesises DNA" },
               { id: "d", text: "Joins fragments" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1269,12 +1269,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "AUG (methionine)" },
-              { id: "b", text: "UAA" },
-              { id: "c", text: "UAG" },
-              { id: "d", text: "UGA" },
+              { id: "a", text: "UGA" },
+              { id: "b", text: "UAG" },
+              { id: "c", text: "UAA" },
+              { id: "d", text: "AUG (methionine)" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1292,12 +1292,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "UAA, UAG, UGA" },
+              { id: "a", text: "UUU" },
               { id: "b", text: "AUG" },
-              { id: "c", text: "UUU" },
-              { id: "d", text: "AAA" },
+              { id: "c", text: "AAA" },
+              { id: "d", text: "UAA, UAG, UGA" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1321,12 +1321,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "64" },
-              { id: "b", text: "20" },
+              { id: "a", text: "20" },
+              { id: "b", text: "64" },
               { id: "c", text: "61" },
               { id: "d", text: "32" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1348,12 +1348,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Nucleus" },
-              { id: "b", text: "Ribosome" },
-              { id: "c", text: "Cytoplasm only" },
-              { id: "d", text: "Mitochondria" },
+              { id: "a", text: "Cytoplasm only" },
+              { id: "b", text: "Nucleus" },
+              { id: "c", text: "Mitochondria" },
+              { id: "d", text: "Ribosome" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1381,12 +1381,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Ribosome" },
-              { id: "b", text: "Nucleus" },
-              { id: "c", text: "Mitochondria" },
+              { id: "a", text: "Nucleus" },
+              { id: "b", text: "Mitochondria" },
+              { id: "c", text: "Ribosome" },
               { id: "d", text: "Golgi" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1410,12 +1410,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Splicing — removing introns" },
+              { id: "a", text: "Nothing" },
               { id: "b", text: "Translation" },
               { id: "c", text: "Replication" },
-              { id: "d", text: "Nothing" },
+              { id: "d", text: "Splicing — removing introns" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1443,12 +1443,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Non-coding regions removed from mRNA" },
-              { id: "b", text: "Coding regions" },
-              { id: "c", text: "Proteins" },
-              { id: "d", text: "DNA" },
+              { id: "a", text: "DNA" },
+              { id: "b", text: "Proteins" },
+              { id: "c", text: "Coding regions" },
+              { id: "d", text: "Non-coding regions removed from mRNA" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1473,9 +1473,9 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Coding regions kept in mRNA" },
-              { id: "b", text: "Non-coding" },
-              { id: "c", text: "Removed" },
-              { id: "d", text: "Proteins" },
+              { id: "b", text: "Proteins" },
+              { id: "c", text: "Non-coding" },
+              { id: "d", text: "Removed" },
             ],
             correctChoiceId: "a",
           },
@@ -1495,12 +1495,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Section of DNA coding for a protein" },
-              { id: "b", text: "A chromosome" },
-              { id: "c", text: "An amino acid" },
-              { id: "d", text: "A codon" },
+              { id: "a", text: "A codon" },
+              { id: "b", text: "Section of DNA coding for a protein" },
+              { id: "c", text: "A chromosome" },
+              { id: "d", text: "An amino acid" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1524,12 +1524,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Multiple codons can code for same amino acid" },
-              { id: "b", text: "It has few codons" },
-              { id: "c", text: "It's simple" },
+              { id: "a", text: "It has few codons" },
+              { id: "b", text: "It's simple" },
+              { id: "c", text: "Multiple codons can code for same amino acid" },
               { id: "d", text: "It's universal" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1557,15 +1557,15 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "It's simple" },
+              { id: "b", text: "It's complex" },
               {
-                id: "a",
+                id: "c",
                 text: "Same codons code for same amino acids in all organisms",
               },
-              { id: "b", text: "It varies" },
-              { id: "c", text: "It's simple" },
-              { id: "d", text: "It's complex" },
+              { id: "d", text: "It varies" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1593,12 +1593,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Change in DNA sequence" },
-              { id: "b", text: "Normal variation" },
-              { id: "c", text: "Gene expression" },
+              { id: "a", text: "Gene expression" },
+              { id: "b", text: "Change in DNA sequence" },
+              { id: "c", text: "Normal variation" },
               { id: "d", text: "Protein synthesis" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1755,12 +1755,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "DNA change that doesn't alter amino acid" },
-              { id: "b", text: "Mutation causing disease" },
-              { id: "c", text: "Lethal mutation" },
-              { id: "d", text: "No mutation" },
+              { id: "a", text: "Mutation causing disease" },
+              { id: "b", text: "No mutation" },
+              { id: "c", text: "DNA change that doesn't alter amino acid" },
+              { id: "d", text: "Lethal mutation" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1784,12 +1784,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "DNA change altering one amino acid" },
-              { id: "b", text: "No change" },
-              { id: "c", text: "Stops protein" },
-              { id: "d", text: "Deletes gene" },
+              { id: "a", text: "No change" },
+              { id: "b", text: "Deletes gene" },
+              { id: "c", text: "DNA change altering one amino acid" },
+              { id: "d", text: "Stops protein" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1817,12 +1817,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "DNA change creating stop codon" },
-              { id: "b", text: "No change" },
-              { id: "c", text: "Changes amino acid" },
-              { id: "d", text: "Silent" },
+              { id: "a", text: "Silent" },
+              { id: "b", text: "Changes amino acid" },
+              { id: "c", text: "DNA change creating stop codon" },
+              { id: "d", text: "No change" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1850,12 +1850,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Insertion or deletion of bases" },
-              { id: "b", text: "Substitution" },
-              { id: "c", text: "No change" },
-              { id: "d", text: "Silent change" },
+              { id: "a", text: "Substitution" },
+              { id: "b", text: "No change" },
+              { id: "c", text: "Silent change" },
+              { id: "d", text: "Insertion or deletion of bases" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

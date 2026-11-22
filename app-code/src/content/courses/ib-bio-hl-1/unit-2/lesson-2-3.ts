@@ -92,12 +92,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "RuBisCO" },
-              { id: "b", text: "ATP synthase" },
-              { id: "c", text: "$NADP^+$ reductase" },
-              { id: "d", text: "DNA polymerase" },
+              { id: "a", text: "DNA polymerase" },
+              { id: "b", text: "RuBisCO" },
+              { id: "c", text: "ATP synthase" },
+              { id: "d", text: "$NADP^+$ reductase" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -342,12 +342,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The attachment of $CO_2$ to RuBP" },
-              { id: "b", text: "The reduction of 3-PGA to G3P" },
-              { id: "c", text: "The photolysis of water" },
-              { id: "d", text: "The phosphorylation of ADP" },
+              { id: "a", text: "The phosphorylation of ADP" },
+              { id: "b", text: "The photolysis of water" },
+              { id: "c", text: "The reduction of 3-PGA to G3P" },
+              { id: "d", text: "The attachment of $CO_2$ to RuBP" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -387,12 +387,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Two molecules of 3-phosphoglycerate (3-PGA)" },
+              { id: "a", text: "One molecule of RuBP" },
               { id: "b", text: "One molecule of glucose" },
-              { id: "c", text: "One molecule of RuBP" },
-              { id: "d", text: "Two molecules of G3P directly" },
+              { id: "c", text: "Two molecules of G3P directly" },
+              { id: "d", text: "Two molecules of 3-phosphoglycerate (3-PGA)" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -431,15 +431,15 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "Oxygen release" },
               {
-                id: "a",
+                id: "b",
                 text: "ATP phosphorylation followed by NADPH reduction",
               },
-              { id: "b", text: "Photolysis of water" },
-              { id: "c", text: "Oxygen release" },
-              { id: "d", text: "Cyclic electron flow alone" },
+              { id: "c", text: "Cyclic electron flow alone" },
+              { id: "d", text: "Photolysis of water" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -481,11 +481,11 @@ export const lesson23: Lesson = {
             choices: [
               {
                 id: "a",
-                text: "RuBisCO uses oxygen instead of $CO_2$, wasting ATP and NADPH; it increases at high temperature, high light and low $CO_2$",
+                text: "Photosynthesis uses extra oxygen to make more ATP; it decreases at high temperature",
               },
               {
                 id: "b",
-                text: "Photosynthesis uses extra oxygen to make more ATP; it decreases at high temperature",
+                text: "The Calvin cycle stops completely; it occurs only in the dark",
               },
               {
                 id: "c",
@@ -493,10 +493,10 @@ export const lesson23: Lesson = {
               },
               {
                 id: "d",
-                text: "The Calvin cycle stops completely; it occurs only in the dark",
+                text: "RuBisCO uses oxygen instead of $CO_2$, wasting ATP and NADPH; it increases at high temperature, high light and low $CO_2$",
               },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -539,22 +539,22 @@ export const lesson23: Lesson = {
             choices: [
               {
                 id: "a",
-                text: "They concentrate $CO_2$ around RuBisCO so that carboxylation is favoured over oxygenation",
-              },
-              {
-                id: "b",
                 text: "They eliminate RuBisCO from their chloroplasts",
               },
               {
+                id: "b",
+                text: "They increase oxygen concentration in leaf cells",
+              },
+              {
                 id: "c",
-                text: "They photosynthesise only at night using light",
+                text: "They concentrate $CO_2$ around RuBisCO so that carboxylation is favoured over oxygenation",
               },
               {
                 id: "d",
-                text: "They increase oxygen concentration in leaf cells",
+                text: "They photosynthesise only at night using light",
               },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1031,19 +1031,19 @@ export const lesson23: Lesson = {
             choices: [
               {
                 id: "a",
-                text: "Light limits the rate of the light-dependent reactions, which supply ATP and NADPH",
-              },
-              {
-                id: "b",
                 text: "Light directly increases the activity of RuBisCO",
               },
               {
-                id: "c",
+                id: "b",
                 text: "Higher light increases the $CO_2$ concentration in the leaf",
               },
-              { id: "d", text: "Light converts $CO_2$ into glucose" },
+              { id: "c", text: "Light converts $CO_2$ into glucose" },
+              {
+                id: "d",
+                text: "Light limits the rate of the light-dependent reactions, which supply ATP and NADPH",
+              },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1299,16 +1299,16 @@ export const lesson23: Lesson = {
             choices: [
               {
                 id: "a",
-                text: "The factor in shortest supply that restricts the rate even when other factors are adequate",
-              },
-              { id: "b", text: "The factor present in the largest amount" },
-              { id: "c", text: "Any factor that has no effect on the rate" },
-              {
-                id: "d",
                 text: "The factor that always limits growth permanently",
               },
+              { id: "b", text: "Any factor that has no effect on the rate" },
+              { id: "c", text: "The factor present in the largest amount" },
+              {
+                id: "d",
+                text: "The factor in shortest supply that restricts the rate even when other factors are adequate",
+              },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1351,19 +1351,19 @@ export const lesson23: Lesson = {
             choices: [
               {
                 id: "a",
-                text: "RuBisCO and the Calvin cycle become saturated, so another factor limits the rate",
-              },
-              {
-                id: "b",
                 text: "High $CO_2$ denatures all chloroplast enzymes immediately",
               },
               {
-                id: "c",
+                id: "b",
                 text: "Light is no longer required for carbon fixation",
               },
-              { id: "d", text: "Oxygen completely stops being released" },
+              { id: "c", text: "Oxygen completely stops being released" },
+              {
+                id: "d",
+                text: "RuBisCO and the Calvin cycle become saturated, so another factor limits the rate",
+              },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1406,11 +1406,11 @@ export const lesson23: Lesson = {
             choices: [
               {
                 id: "a",
-                text: "The rate rises to an optimum and then falls as enzymes denature",
+                text: "The rate increases linearly with temperature indefinitely",
               },
               {
                 id: "b",
-                text: "The rate increases linearly with temperature indefinitely",
+                text: "The rate rises to an optimum and then falls as enzymes denature",
               },
               {
                 id: "c",
@@ -1421,7 +1421,7 @@ export const lesson23: Lesson = {
                 text: "The rate decreases continuously as temperature rises",
               },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1462,11 +1462,11 @@ export const lesson23: Lesson = {
             choices: [
               {
                 id: "a",
-                text: "Respiration exceeds photosynthesis, so the plant loses carbon",
+                text: "Photosynthesis exceeds respiration, so the plant gains carbon",
               },
               {
                 id: "b",
-                text: "Photosynthesis exceeds respiration, so the plant gains carbon",
+                text: "Respiration exceeds photosynthesis, so the plant loses carbon",
               },
               {
                 id: "c",
@@ -1474,7 +1474,7 @@ export const lesson23: Lesson = {
               },
               { id: "d", text: "No respiration occurs in the leaf" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1517,16 +1517,16 @@ export const lesson23: Lesson = {
             choices: [
               {
                 id: "a",
-                text: "$CO_2$ is the limiting factor, so extra light cannot raise the rate until $CO_2$ is increased",
-              },
-              { id: "b", text: "Light always inhibits RuBisCO" },
-              { id: "c", text: "Respiration stops completely" },
-              {
-                id: "d",
                 text: "More light converts oxygen into carbon dioxide",
               },
+              { id: "b", text: "Light always inhibits RuBisCO" },
+              {
+                id: "c",
+                text: "$CO_2$ is the limiting factor, so extra light cannot raise the rate until $CO_2$ is increased",
+              },
+              { id: "d", text: "Respiration stops completely" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

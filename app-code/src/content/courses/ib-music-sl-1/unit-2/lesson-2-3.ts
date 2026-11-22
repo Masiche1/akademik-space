@@ -86,14 +86,14 @@ export const lesson23: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Entertain audiences" },
+              { id: "b", text: "Promote government policies" },
+              { id: "c", text: "Celebrate national holidays" },
               {
-                id: "b",
+                id: "d",
                 text: "Give voice to dissent and challenge authority",
               },
-              { id: "c", text: "Promote government policies" },
-              { id: "d", text: "Celebrate national holidays" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -304,13 +304,13 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "entertain international tourists" },
+              { id: "a", text: "advertise the nation's products" },
               {
                 id: "b",
                 text: "unify citizens around a shared national identity",
               },
-              { id: "c", text: "advertise the nation's products" },
-              { id: "d", text: "accompany military parades only" },
+              { id: "c", text: "accompany military parades only" },
+              { id: "d", text: "entertain international tourists" },
             ],
             correctChoiceId: "b",
           },
@@ -355,14 +355,14 @@ export const lesson23: Lesson = {
                 id: "a",
                 text: "voluntary radio playlists chosen by listeners",
               },
+              { id: "b", text: "the editing of recordings for sound quality" },
               {
-                id: "b",
+                id: "c",
                 text: "the suppression or restriction of musical works for political, moral or religious reasons",
               },
-              { id: "c", text: "a music award given by critics" },
-              { id: "d", text: "the editing of recordings for sound quality" },
+              { id: "d", text: "a music award given by critics" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -403,8 +403,8 @@ export const lesson23: Lesson = {
             choices: [
               { id: "a", text: "Nazi Germany" },
               { id: "b", text: "Renaissance Florence" },
-              { id: "c", text: "Victorian England" },
-              { id: "d", text: "Medieval Byzantium" },
+              { id: "c", text: "Medieval Byzantium" },
+              { id: "d", text: "Victorian England" },
             ],
             correctChoiceId: "a",
           },
@@ -444,15 +444,15 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "advertising consumer products" },
               {
-                id: "b",
+                id: "a",
                 text: "giving collective voice to dissent and shared grievance",
               },
+              { id: "b", text: "accompanying official ceremonies" },
               { id: "c", text: "supporting existing government policies" },
-              { id: "d", text: "accompanying official ceremonies" },
+              { id: "d", text: "advertising consumer products" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -491,15 +491,15 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Banned songs automatically sound better" },
               {
-                id: "b",
+                id: "a",
                 text: "Censorship creates forbidden-fruit appeal and may drive the music underground or into coded forms",
               },
+              { id: "b", text: "Banned songs automatically sound better" },
               { id: "c", text: "The ban guarantees the song wins awards" },
               { id: "d", text: "Listeners immediately forget the song exists" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -538,15 +538,15 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "lulling soldiers to sleep" },
+              { id: "a", text: "marking purely religious ceremonies" },
+              { id: "b", text: "lulling soldiers to sleep" },
               {
-                id: "b",
+                id: "c",
                 text: "mobilising populations and projecting state power and discipline",
               },
-              { id: "c", text: "accompanying classical ballet only" },
-              { id: "d", text: "marking purely religious ceremonies" },
+              { id: "d", text: "accompanying classical ballet only" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -993,13 +993,13 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A neutral preference" },
+              { id: "a", text: "A measure of musical skill" },
               {
                 id: "b",
                 text: "A marker of personal identity and social belonging",
               },
-              { id: "c", text: "A measure of musical skill" },
-              { id: "d", text: "A form of entertainment only" },
+              { id: "c", text: "A form of entertainment only" },
+              { id: "d", text: "A neutral preference" },
             ],
             correctChoiceId: "b",
           },
@@ -1217,15 +1217,15 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "only their income level" },
               {
-                id: "b",
+                id: "a",
                 text: "personal identity, values and social belonging",
               },
-              { id: "c", text: "their musical performing skill" },
-              { id: "d", text: "their nationality alone" },
+              { id: "b", text: "only their income level" },
+              { id: "c", text: "their nationality alone" },
+              { id: "d", text: "their musical performing skill" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -1264,15 +1264,15 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "paying royalties to tradition-bearers" },
               {
-                id: "b",
+                id: "a",
                 text: "adopting another group's musical traditions without credit, understanding or benefit to that community",
               },
-              { id: "c", text: "writing original songs in a borrowed style" },
-              { id: "d", text: "performing folk songs respectfully" },
+              { id: "b", text: "performing folk songs respectfully" },
+              { id: "c", text: "paying royalties to tradition-bearers" },
+              { id: "d", text: "writing original songs in a borrowed style" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -1311,12 +1311,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "individual musical taste" },
-              { id: "b", text: "collective national identity and belonging" },
+              { id: "a", text: "collective national identity and belonging" },
+              { id: "b", text: "individual musical taste" },
               { id: "c", text: "religious doctrine exclusively" },
               { id: "d", text: "entertainment for foreign visitors" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -1354,15 +1354,15 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "inevitable cultural conflict" },
+              { id: "a", text: "only copyright disputes" },
+              { id: "b", text: "the disappearance of all source traditions" },
               {
-                id: "b",
+                id: "c",
                 text: "new musical identities through respectful exchange between traditions",
               },
-              { id: "c", text: "only copyright disputes" },
-              { id: "d", text: "the disappearance of all source traditions" },
+              { id: "d", text: "inevitable cultural conflict" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1399,15 +1399,15 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              {
-                id: "a",
-                text: "'Who profits, who is represented, and who gets to define the meaning?'",
-              },
+              { id: "a", text: "'Which instrument is hardest to play?'" },
               { id: "b", text: "'Which genre sells the most records?'" },
               { id: "c", text: "'Who owns the master recording?'" },
-              { id: "d", text: "'Which instrument is hardest to play?'" },
+              {
+                id: "d",
+                text: "'Who profits, who is represented, and who gets to define the meaning?'",
+              },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1446,15 +1446,15 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "top commercial charts" },
+              { id: "a", text: "accompany religious ritual exclusively" },
+              { id: "b", text: "top commercial charts" },
+              { id: "c", text: "advertise modern products" },
               {
-                id: "b",
+                id: "d",
                 text: "preserve cultural memory and communal tradition",
               },
-              { id: "c", text: "advertise modern products" },
-              { id: "d", text: "accompany religious ritual exclusively" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

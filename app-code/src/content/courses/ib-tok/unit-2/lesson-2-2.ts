@@ -52,12 +52,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Physics" },
-              { id: "b", text: "Sociology" },
-              { id: "c", text: "Chemistry" },
-              { id: "d", text: "Astronomy" },
+              { id: "a", text: "Sociology" },
+              { id: "b", text: "Chemistry" },
+              { id: "c", text: "Astronomy" },
+              { id: "d", text: "Physics" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -147,12 +147,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Geology" },
-              { id: "b", text: "Anthropology" },
-              { id: "c", text: "Physics" },
+              { id: "a", text: "Physics" },
+              { id: "b", text: "Geology" },
+              { id: "c", text: "Anthropology" },
               { id: "d", text: "Astronomy" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -174,10 +174,10 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Researchers have no influence on results" },
+              { id: "a", text: "Participants cannot influence the study" },
               { id: "b", text: "The researcher shares the human nature being studied and may affect interpretation" },
-              { id: "c", text: "Participants cannot influence the study" },
-              { id: "d", text: "Only instruments determine knowledge" },
+              { id: "c", text: "Only instruments determine knowledge" },
+              { id: "d", text: "Researchers have no influence on results" },
             ],
             correctChoiceId: "b",
           },
@@ -202,11 +202,11 @@ export const lesson22: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "All psychological knowledge is false" },
-              { id: "b", text: "Some published findings were fragile or difficult to reproduce" },
-              { id: "c", text: "Experiments are unnecessary" },
-              { id: "d", text: "Human behaviour cannot be studied" },
+              { id: "b", text: "Human behaviour cannot be studied" },
+              { id: "c", text: "Some published findings were fragile or difficult to reproduce" },
+              { id: "d", text: "Experiments are unnecessary" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -229,11 +229,11 @@ export const lesson22: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Universal laws with no exceptions" },
-              { id: "b", text: "Tendencies and correlations rather than exceptionless laws" },
+              { id: "b", text: "Revealed truths" },
               { id: "c", text: "Mathematical proofs" },
-              { id: "d", text: "Revealed truths" },
+              { id: "d", text: "Tendencies and correlations rather than exceptionless laws" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -256,11 +256,11 @@ export const lesson22: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Because all human behaviour is identical" },
-              { id: "b", text: "Because culture, institutions and norms shape behaviour differently" },
-              { id: "c", text: "Because psychology has no methods" },
-              { id: "d", text: "Because language prevents all communication" },
+              { id: "b", text: "Because psychology has no methods" },
+              { id: "c", text: "Because language prevents all communication" },
+              { id: "d", text: "Because culture, institutions and norms shape behaviour differently" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -282,12 +282,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "They are defined without judgement" },
-              { id: "b", text: "They involve choices about what counts as desirable or appropriate" },
-              { id: "c", text: "They are proven by mathematics" },
-              { id: "d", text: "They cannot be studied empirically" },
+              { id: "a", text: "They involve choices about what counts as desirable or appropriate" },
+              { id: "b", text: "They are proven by mathematics" },
+              { id: "c", text: "They cannot be studied empirically" },
+              { id: "d", text: "They are defined without judgement" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -465,11 +465,11 @@ export const lesson22: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "A later analysis of events" },
-              { id: "b", text: "Evidence produced at the time of the event" },
-              { id: "c", text: "A textbook summary" },
-              { id: "d", text: "An opinion piece" },
+              { id: "b", text: "An opinion piece" },
+              { id: "c", text: "Evidence produced at the time of the event" },
+              { id: "d", text: "A textbook summary" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -560,11 +560,11 @@ export const lesson22: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "A soldier's letter written during the war" },
-              { id: "b", text: "A modern historian's book analysing the war" },
-              { id: "c", text: "A photograph taken during the war" },
-              { id: "d", text: "A treaty signed at the time" },
+              { id: "b", text: "A treaty signed at the time" },
+              { id: "c", text: "A modern historian's book analysing the war" },
+              { id: "d", text: "A photograph taken during the war" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -587,11 +587,11 @@ export const lesson22: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Because history has no evidence" },
-              { id: "b", text: "Because the past cannot be directly observed or manipulated again" },
-              { id: "c", text: "Because historians reject all methods" },
-              { id: "d", text: "Because experiments were invented after history began" },
+              { id: "b", text: "Because experiments were invented after history began" },
+              { id: "c", text: "Because the past cannot be directly observed or manipulated again" },
+              { id: "d", text: "Because historians reject all methods" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -613,12 +613,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Purely factual measurements" },
-              { id: "b", text: "Value-laden assessments of which events mattered" },
-              { id: "c", text: "Mathematical calculations" },
-              { id: "d", text: "Revealed truths" },
+              { id: "a", text: "Value-laden assessments of which events mattered" },
+              { id: "b", text: "Purely factual measurements" },
+              { id: "c", text: "Revealed truths" },
+              { id: "d", text: "Mathematical calculations" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -641,11 +641,11 @@ export const lesson22: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Rejecting all sources equally" },
-              { id: "b", text: "Evaluating reliability, bias and context of evidence" },
-              { id: "c", text: "Accepting the oldest source automatically" },
-              { id: "d", text: "Avoiding interpretation entirely" },
+              { id: "b", text: "Accepting the oldest source automatically" },
+              { id: "c", text: "Avoiding interpretation entirely" },
+              { id: "d", text: "Evaluating reliability, bias and context of evidence" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -667,12 +667,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Because history has no evidence" },
-              { id: "b", text: "Because they may emphasise different causes or significance supported by sources" },
-              { id: "c", text: "Because all interpretations are equally certain" },
+              { id: "a", text: "Because all interpretations are equally certain" },
+              { id: "b", text: "Because history has no evidence" },
+              { id: "c", text: "Because they may emphasise different causes or significance supported by sources" },
               { id: "d", text: "Because sources cannot be compared" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

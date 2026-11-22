@@ -90,6 +90,9 @@ const EDEXCEL_SUBJECTS: EdexcelInfo["subject"][] = [
   "psychology",
   "sociology",
   "computer-science",
+  "engineering",
+  "health-social-care",
+  "information-technology",
 ];
 
 const ibLabel = (c: Course) => (c.ib ? courseLabel(c) : c.title);
@@ -101,10 +104,11 @@ const EDEXCEL_STAGE_SECTIONS: {
   section: string;
 }[] = [
   { stage: "primary", section: "Primary (Years 1-6)" },
-  { stage: "lower-secondary", section: "Key Stage 3 (Years 8-9)" },
+  { stage: "lower-secondary", section: "Key Stage 3 (Years 7-9)" },
   { stage: "igcse", section: "International GCSE (Years 10-11)" },
   { stage: "ias", section: "International Advanced Subsidiary (IAS)" },
   { stage: "ial", section: "International A Level (IAL)" },
+  { stage: "btec", section: "BTEC Nationals (Level 3)" },
 ];
 
 const edexcelLabel = (c: Course) =>
@@ -241,7 +245,7 @@ export const CURRICULA: Curriculum[] = [
     summary:
       "Primary through International A Level: Maths, English, Sciences, Business, Economics and more.",
     description:
-      "Primary Years 1-6, Key Stage 3 in Years 8-9, International GCSE in Years 10-11, and International Advanced Subsidiary and International A Level courses. Maths uses Foundation and Higher tiers at IGCSE; English uses level-based markschemes; Sciences use Edexcel marking points.",
+      "Primary Years 1-6, Key Stage 3 in Years 7-9, International GCSE in Years 10-11, and International Advanced Subsidiary and International A Level courses. Maths uses Foundation and Higher tiers at IGCSE; English uses level-based markschemes; Sciences use Edexcel marking points.",
     // Stage sections first, then subject groups within each stage. Only subjects that have courses appear.
     groups: EDEXCEL_STAGE_SECTIONS.flatMap(({ stage, section }) =>
       EDEXCEL_SUBJECTS.map((s) => ({

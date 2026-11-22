@@ -86,10 +86,10 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$19$" },
+              { id: "a", text: "$5$" },
               { id: "b", text: "$13$" },
               { id: "c", text: "$\\sqrt{19}$" },
-              { id: "d", text: "$5$" },
+              { id: "d", text: "$19$" },
             ],
             correctChoiceId: "b",
           },
@@ -362,12 +362,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$9$" },
-              { id: "b", text: "$7$" },
-              { id: "c", text: "$\\sqrt{81}$" },
+              { id: "a", text: "$\\sqrt{81}$" },
+              { id: "b", text: "$9$" },
+              { id: "c", text: "$7$" },
               { id: "d", text: "$81$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -406,22 +406,22 @@ export const lesson31: Lesson = {
             choices: [
               {
                 id: "a",
-                text: "$\\begin{pmatrix} 3 \\ 6 \\ -6 \\end{pmatrix}$",
-              },
-              {
-                id: "b",
-                text: "$\\begin{pmatrix} 3 \\ -6 \\ -6 \\end{pmatrix}$",
-              },
-              {
-                id: "c",
                 text: "$\\begin{pmatrix} 3 \\ 6 \\ 6 \\end{pmatrix}$",
               },
               {
-                id: "d",
+                id: "b",
                 text: "$\\begin{pmatrix} -3 \\ -6 \\ 6 \\end{pmatrix}$",
               },
+              {
+                id: "c",
+                text: "$\\begin{pmatrix} 3 \\ 6 \\ -6 \\end{pmatrix}$",
+              },
+              {
+                id: "d",
+                text: "$\\begin{pmatrix} 3 \\ -6 \\ -6 \\end{pmatrix}$",
+              },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -463,12 +463,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$(5,3,-7)$" },
-              { id: "b", text: "$(3,1,-3)$" },
-              { id: "c", text: "$(4,2,-5)$" },
+              { id: "a", text: "$(4,2,-5)$" },
+              { id: "b", text: "$(5,3,-7)$" },
+              { id: "c", text: "$(3,1,-3)$" },
               { id: "d", text: "$(2,0,-3)$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -509,22 +509,22 @@ export const lesson31: Lesson = {
             choices: [
               {
                 id: "a",
-                text: "$\\begin{pmatrix} 4 \\ -2 \\ 8 \\end{pmatrix}$",
+                text: "$\\begin{pmatrix} 2 \\ 1 \\ 4 \\end{pmatrix}$",
               },
               {
                 id: "b",
-                text: "$\\begin{pmatrix} -2 \\ 1 \\ -4 \\end{pmatrix}$",
+                text: "$\\begin{pmatrix} 4 \\ -2 \\ 8 \\end{pmatrix}$",
               },
               {
                 id: "c",
-                text: "$\\begin{pmatrix} 1 \\ -0.5 \\ 2 \\end{pmatrix}$",
+                text: "$\\begin{pmatrix} -2 \\ 1 \\ -4 \\end{pmatrix}$",
               },
               {
                 id: "d",
-                text: "$\\begin{pmatrix} 2 \\ 1 \\ 4 \\end{pmatrix}$",
+                text: "$\\begin{pmatrix} 1 \\ -0.5 \\ 2 \\end{pmatrix}$",
               },
             ],
-            correctChoiceId: "d",
+            correctChoiceIa: "d",
           },
           markscheme: {
             principles: [
@@ -1179,10 +1179,10 @@ export const lesson31: Lesson = {
             choices: [
               { id: "a", text: "$14$ km per hour" },
               { id: "b", text: "$48$ km per hour" },
-              { id: "c", text: "$10$ km per hour" },
-              { id: "d", text: "$2$ km per hour" },
+              { id: "c", text: "$2$ km per hour" },
+              { id: "d", text: "$10$ km per hour" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1497,10 +1497,10 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$7$ m s$^{-1}$" },
+              { id: "a", text: "$\\sqrt{7}$ m s$^{-1}$" },
               { id: "b", text: "$5$ m s$^{-1}$" },
               { id: "c", text: "$25$ m s$^{-1}$" },
-              { id: "d", text: "$\\sqrt{7}$ m s$^{-1}$" },
+              { id: "d", text: "$7$ m s$^{-1}$" },
             ],
             correctChoiceId: "b",
           },
@@ -1543,9 +1543,9 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$\\begin{pmatrix} 7 \\\\ -1 \\end{pmatrix}$" },
-              { id: "b", text: "$\\begin{pmatrix} 7 \\\\ -2 \\end{pmatrix}$" },
+              { id: "b", text: "$\\begin{pmatrix} 3 \\\\ -1 \\end{pmatrix}$" },
               { id: "c", text: "$\\begin{pmatrix} 6 \\\\ -1 \\end{pmatrix}$" },
-              { id: "d", text: "$\\begin{pmatrix} 3 \\\\ -1 \\end{pmatrix}$" },
+              { id: "d", text: "$\\begin{pmatrix} 7 \\\\ -2 \\end{pmatrix}$" },
             ],
             correctChoiceId: "a",
           },
@@ -2003,12 +2003,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$t=\\frac{1}{3}$" },
-              { id: "b", text: "$t=-\\frac{1}{3}$" },
-              { id: "c", text: "$t=3$" },
-              { id: "d", text: "$t=\\frac{1}{2}$" },
+              { id: "a", text: "$t=-\\frac{1}{3}$" },
+              { id: "b", text: "$t=3$" },
+              { id: "c", text: "$t=\\frac{1}{2}$" },
+              { id: "d", text: "$t=\\frac{1}{3}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -2047,22 +2047,22 @@ export const lesson31: Lesson = {
             choices: [
               {
                 id: "a",
-                text: "$\\begin{pmatrix} 3-3t \\\\ -1+2t \\\\ -3+t \\end{pmatrix}$",
-              },
-              {
-                id: "b",
                 text: "$\\begin{pmatrix} 3+3t \\\\ -1-2t \\\\ -3-t \\end{pmatrix}$",
               },
               {
+                id: "b",
+                text: "$\\begin{pmatrix} 3-3t \\\\ -1+2t \\\\ -3+t \\end{pmatrix}$",
+              },
+              {
                 id: "c",
-                text: "$\\begin{pmatrix} 3-3t \\\\ 1+2t \\\\ -3+t \\end{pmatrix}$",
+                text: "$\\begin{pmatrix} 3-3t \\\\ -1+2t \\\\ 3+t \\end{pmatrix}$",
               },
               {
                 id: "d",
-                text: "$\\begin{pmatrix} 3-3t \\\\ -1+2t \\\\ 3+t \\end{pmatrix}$",
+                text: "$\\begin{pmatrix} 3-3t \\\\ 1+2t \\\\ -3+t \\end{pmatrix}$",
               },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -2105,15 +2105,15 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The paths of the two objects intersect." },
               {
-                id: "b",
+                id: "a",
                 text: "$\\boldsymbol r_A=\\boldsymbol r_B$ for the same value of $t$.",
               },
-              { id: "c", text: "$\\boldsymbol u=\\boldsymbol v$." },
-              { id: "d", text: "The distance between them is constant." },
+              { id: "b", text: "The paths of the two objects intersect." },
+              { id: "c", text: "The distance between them is constant." },
+              { id: "d", text: "$\\boldsymbol u=\\boldsymbol v$." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -2153,12 +2153,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$2$" },
+              { id: "a", text: "$6$" },
               { id: "b", text: "$4$" },
-              { id: "c", text: "$3$" },
-              { id: "d", text: "$6$" },
+              { id: "c", text: "$2$" },
+              { id: "d", text: "$3$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

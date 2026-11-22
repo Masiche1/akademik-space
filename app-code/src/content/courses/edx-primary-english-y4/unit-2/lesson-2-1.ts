@@ -59,8 +59,8 @@ export const lesson111: Lesson = {
             choices: [
               { id: "a", text: "1900" },
               { id: "b", text: "1850" },
-              { id: "c", text: "1800" },
-              { id: "d", text: "1950" },
+              { id: "c", text: "1950" },
+              { id: "d", text: "1800" },
             ],
             correctChoiceId: "b",
           },
@@ -87,10 +87,10 @@ export const lesson111: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Happy" },
+              { id: "a", text: "Tired" },
               { id: "b", text: "Angry" },
-              { id: "c", text: "Calm" },
-              { id: "d", text: "Tired" },
+              { id: "c", text: "Happy" },
+              { id: "d", text: "Calm" },
             ],
             correctChoiceId: "b",
           },
@@ -234,11 +234,11 @@ export const lesson111: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Everything in detail" },
-              { id: "b", text: "Main idea and key events only" },
-              { id: "c", text: "Your opinion" },
-              { id: "d", text: "The title" },
+              { id: "b", text: "Your opinion" },
+              { id: "c", text: "The title" },
+              { id: "d", text: "Main idea and key events only" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -263,12 +263,12 @@ export const lesson111: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "They're bad" },
-              { id: "b", text: "They're good" },
-              { id: "c", text: "They're expensive" },
-              { id: "d", text: "They're boring" },
+              { id: "a", text: "They're good" },
+              { id: "b", text: "They're expensive" },
+              { id: "c", text: "They're boring" },
+              { id: "d", text: "They're bad" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

@@ -54,12 +54,12 @@ export const lesson113: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Repeated initial sounds" },
-              { id: "b", text: "Rhyme at line ends" },
-              { id: "c", text: "A pause in verse" },
-              { id: "d", text: "A metaphor" },
+              { id: "a", text: "A metaphor" },
+              { id: "b", text: "Repeated initial sounds" },
+              { id: "c", text: "Rhyme at line ends" },
+              { id: "d", text: "A pause in verse" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -88,12 +88,12 @@ export const lesson113: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The wind blew" },
-              { id: "b", text: "The thunder went boom" },
-              { id: "c", text: "Dark clouds gathered" },
-              { id: "d", text: "Rain fell down" },
+              { id: "a", text: "The thunder went boom" },
+              { id: "b", text: "Dark clouds gathered" },
+              { id: "c", text: "Rain fell down" },
+              { id: "d", text: "The wind blew" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -233,9 +233,9 @@ export const lesson113: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The plot" },
+              { id: "a", text: "The setting" },
               { id: "b", text: "Whose viewpoint we're seeing" },
-              { id: "c", text: "The setting" },
+              { id: "c", text: "The plot" },
               { id: "d", text: "The genre" },
             ],
             correctChoiceId: "b",
@@ -267,12 +267,12 @@ export const lesson113: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "No effect" },
-              { id: "b", text: "We see events from villain's biased view" },
+              { id: "a", text: "The story is confusing" },
+              { id: "b", text: "No effect" },
               { id: "c", text: "We see everything clearly" },
-              { id: "d", text: "The story is confusing" },
+              { id: "d", text: "We see events from villain's biased view" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

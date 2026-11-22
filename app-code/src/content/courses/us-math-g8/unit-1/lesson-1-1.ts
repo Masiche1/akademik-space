@@ -48,10 +48,10 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\sqrt{16}$" },
-              { id: "b", text: "$0.\\overline{3}$" },
+              { id: "a", text: "$-\\frac{7}{3}$" },
+              { id: "b", text: "$\\sqrt{16}$" },
               { id: "c", text: "$\\sqrt{18}$" },
-              { id: "d", text: "$-\\frac{7}{3}$" },
+              { id: "d", text: "$0.\\overline{3}$" },
             ],
             correctChoiceId: "c",
           },
@@ -197,8 +197,8 @@ export const lesson11: Lesson = {
             choices: [
               { id: "a", text: "$5$ and $6$" },
               { id: "b", text: "$6$ and $7$" },
-              { id: "c", text: "$7$ and $8$" },
-              { id: "d", text: "$20$ and $21$" },
+              { id: "c", text: "$20$ and $21$" },
+              { id: "d", text: "$7$ and $8$" },
             ],
             correctChoiceId: "b",
           },

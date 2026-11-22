@@ -48,11 +48,11 @@ export const lesson12: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Starch" },
-              { id: "b", text: "Glycogen" },
-              { id: "c", text: "Cellulose" },
-              { id: "d", text: "Lactose" },
+              { id: "b", text: "Lactose" },
+              { id: "c", text: "Glycogen" },
+              { id: "d", text: "Cellulose" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Glycogen", statement: "Animal storage polysaccharide of glucose." }],
@@ -160,10 +160,10 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Glycosidic" },
+              { id: "a", text: "Hydrogen only" },
               { id: "b", text: "Peptide" },
-              { id: "c", text: "Ester" },
-              { id: "d", text: "Hydrogen only" },
+              { id: "c", text: "Glycosidic" },
+              { id: "d", text: "Ester" },
             ],
             correctChoiceId: "b",
           },

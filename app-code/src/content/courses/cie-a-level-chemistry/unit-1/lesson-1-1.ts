@@ -86,12 +86,12 @@ export const lesson111: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$100$ g/mol" },
-              { id: "b", text: "$68$ g/mol" },
+              { id: "a", text: "$120$ g/mol" },
+              { id: "b", text: "$100$ g/mol" },
               { id: "c", text: "$84$ g/mol" },
-              { id: "d", text: "$120$ g/mol" },
+              { id: "d", text: "$68$ g/mol" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -300,7 +300,6 @@ export const lesson111: Lesson = {
             finalAnswer: "(a) 148 (b) 0.033 mol (c) 3.01e23 (d) 36 g",
           },
         },
-      ],
         {
           id: "cial-c-u1-mc-q5",
           difficulty: "foundation",
@@ -309,12 +308,12 @@ export const lesson111: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$6.02 \\times 10^{23}$" },
-              { id: "b", text: "$1.20 \\times 10^{24}$" },
-              { id: "c", text: "$3.01 \\times 10^{23}$" },
-              { id: "d", text: "$2.41 \\times 10^{24}$" },
+              { id: "a", text: "$2.41 \\times 10^{24}$" },
+              { id: "b", text: "$3.01 \\times 10^{23}$" },
+              { id: "c", text: "$6.02 \\times 10^{23}$" },
+              { id: "d", text: "$1.20 \\times 10^{24}$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -343,12 +342,12 @@ export const lesson111: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$4$ g of $H_2$" },
-              { id: "b", text: "$16$ g of $CH_4$" },
-              { id: "c", text: "$32$ g of $O_2$" },
-              { id: "d", text: "$40$ g of $Ar$" },
+              { id: "a", text: "$32$ g of $O_2$" },
+              { id: "b", text: "$4$ g of $H_2$" },
+              { id: "c", text: "$40$ g of $Ar$" },
+              { id: "d", text: "$16$ g of $CH_4$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -377,12 +376,12 @@ export const lesson111: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$1.51 \\times 10^{24}$" },
-              { id: "b", text: "$2.56 \\times 10^{24}$" },
-              { id: "c", text: "$3.01 \\times 10^{24}$" },
-              { id: "d", text: "$4.25 \\times 10^{24}$" },
+              { id: "a", text: "$4.25 \\times 10^{24}$" },
+              { id: "b", text: "$3.01 \\times 10^{24}$" },
+              { id: "c", text: "$2.56 \\times 10^{24}$" },
+              { id: "d", text: "$1.51 \\times 10^{24}$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -414,8 +413,8 @@ export const lesson111: Lesson = {
             choices: [
               { id: "a", text: "$1.06$ g" },
               { id: "b", text: "$2.12$ g" },
-              { id: "c", text: "$10.6$ g" },
-              { id: "d", text: "$21.2$ g" },
+              { id: "c", text: "$21.2$ g" },
+              { id: "d", text: "$10.6$ g" },
             ],
             correctChoiceId: "b",
           },
@@ -446,12 +445,12 @@ export const lesson111: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$1$ mol of $O_2$ and $1$ mol of $O_3$ contain the same number of atoms" },
-              { id: "b", text: "$1$ mol of any gas occupies the same volume at the same temperature and pressure" },
-              { id: "c", text: "$1$ mol of $NaCl$ contains $6.02 \\times 10^{23}$ ions" },
-              { id: "d", text: "$1$ mol of $H_2SO_4$ has a mass of $49$ g" },
+              { id: "a", text: "$1$ mol of $NaCl$ contains $6.02 \\times 10^{23}$ ions" },
+              { id: "b", text: "$1$ mol of $O_2$ and $1$ mol of $O_3$ contain the same number of atoms" },
+              { id: "c", text: "$1$ mol of $H_2SO_4$ has a mass of $49$ g" },
+              { id: "d", text: "$1$ mol of any gas occupies the same volume at the same temperature and pressure" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -685,12 +684,12 @@ export const lesson111: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$18$ g of $H_2O$" },
-              { id: "b", text: "$6.02 \\times 10^{23}$ molecules of $H_2O$" },
-              { id: "c", text: "$24$ dm$^3$ of $CO_2$ gas at r.t.p." },
-              { id: "d", text: "$6.02 \\times 10^{23}$ ions in one mole of $NaCl$" },
+              { id: "a", text: "$6.02 \\times 10^{23}$ ions in one mole of $NaCl$" },
+              { id: "b", text: "$24$ dm$^3$ of $CO_2$ gas at r.t.p." },
+              { id: "c", text: "$18$ g of $H_2O$" },
+              { id: "d", text: "$6.02 \\times 10^{23}$ molecules of $H_2O$" },
             ],
-            correctChoiceId: "d",
+            correctChoiceIa: "d",
           },
           markscheme: {
             principles: [
@@ -816,6 +815,7 @@ export const lesson111: Lesson = {
             finalAnswer: "(a) 0.20 mol (b) 1.20e23 molecules (c) 34 g (d) 82.4%",
           },
         },
+      ],
     },
     {
       id: "cial-c-u1-formulae",
@@ -864,12 +864,12 @@ export const lesson111: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$CH_3$" },
+              { id: "a", text: "$CH_2$" },
               { id: "b", text: "$C_2H_6$" },
-              { id: "c", text: "$CH_2$" },
-              { id: "d", text: "$C_3H_9$" },
+              { id: "c", text: "$C_3H_9$" },
+              { id: "d", text: "$CH_3$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1070,6 +1070,484 @@ export const lesson111: Lesson = {
               },
             ],
             finalAnswer: "(a) CH2O (b) C6H12O6 (c) 53.3%",
+          },
+        },
+        {
+          id: "cial-c-u1-ef-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "What is the empirical formula of $C_6H_{12}O_6$?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$C_6H_{12}O_6$" },
+              { id: "b", text: "$C_3H_6O_3$" },
+              { id: "c", text: "$CH_2O$" },
+              { id: "d", text: "$CHO$" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Empirical formula",
+                statement: "Simplest whole-number ratio of atoms.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Divide all subscripts by 6: $C_6H_{12}O_6 \\to CH_2O$.",
+                working: "C_6H_{12}O_6 \\div 6 = CH_2O",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "**(a)** $CH_2O$",
+          },
+        },
+        {
+          id: "cial-c-u1-ef-q6",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "Calculate the percentage by mass of carbon in ethane, $C_2H_6$ ($M_r = 30$).",
+          response: { type: "numeric", parts: [{ label: "%C", answer: 80 }] },
+          markscheme: {
+            principles: [
+              {
+                kind: "formula",
+                name: "Percentage composition",
+                statement: "$\\%\\text{element} = \\frac{\\text{mass of element}}{M_r} \\times 100$.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Mass of C per mole $= 2 \\times 12 = 24$ g.",
+                working: "2 \\times 12 = 24",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "$\\%C = \\frac{24}{30} \\times 100 = 80\\%$.",
+                working: "\\frac{24}{30} \\times 100 = 80",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "$80\\%$",
+          },
+        },
+        {
+          id: "cial-c-u1-ef-q7",
+          difficulty: "core",
+          totalMarks: 4,
+          stem: "A compound contains $13.2$ g of carbon, $2.2$ g of hydrogen and $8.8$ g of oxygen. Determine its empirical formula. ($A_r$: C=12, H=1, O=16)",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "law",
+                name: "Empirical formula method",
+                statement: "Moles $=$ mass/$A_r$; divide by smallest moles.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "C: $13.2/12=1.1$; H: $2.2/1=2.2$; O: $8.8/16=0.55$ mol.",
+                working: "1.1 : 2.2 : 0.55",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "Divide by smallest (0.55): $2 : 4 : 1$.",
+                working: "2:4:1",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "Empirical formula is $C_2H_4O$.",
+                working: "C_2H_4O",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "Stated correctly.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "$C_2H_4O$",
+            commonErrors: ["Using $A_r$ of O as 8 instead of 16, doubling the oxygen count."],
+          },
+        },
+        {
+          id: "cial-c-u1-ef-q8",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Which pair of compounds have the same empirical formula?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$CH_4$ and $C_2H_6$" },
+              { id: "b", text: "$CH_2O$ and $C_6H_{12}O_6$" },
+              { id: "c", text: "$NO_2$ and $N_2O$" },
+              { id: "d", text: "$KCl$ and $NaCl$" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Empirical formula",
+                statement: "Same atom ratio gives the same empirical formula.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "$C_6H_{12}O_6$ simplifies to $CH_2O$; the others have different ratios.",
+                working: "a",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "**(a)** $CH_2O$ and $C_6H_{12}O_6$",
+          },
+        },
+        {
+          id: "cial-c-u1-ef-q9",
+          difficulty: "challenge",
+          totalMarks: 1,
+          stem: "A compound has empirical formula $CH_2$ and $M_r = 70$. What is its molecular formula?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$C_5H_{10}$" },
+              { id: "b", text: "$C_7H_{14}$" },
+              { id: "c", text: "$C_4H_8$" },
+              { id: "d", text: "$C_6H_{12}$" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "formula",
+                name: "Molecular = empirical × n",
+                statement: "$n = \\frac{M_r(\\text{molecular})}{M_r(\\text{empirical})} = \\frac{70}{14} = 5$.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "$M_r(CH_2)=14$, so $n=70/14=5$ and the formula is $5 \\times CH_2 = C_5H_{10}$.",
+                working: "n=5 \\Rightarrow C_5H_{10}",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "**(b)** $C_5H_{10}$",
+          },
+        },
+        {
+          id: "cial-c-u1-ef-q10",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "A $10.0$ g sample of a compound contains $6.00$ g of carbon and $4.00$ g of hydrogen. Calculate the amount in moles of carbon and of hydrogen in the sample. ($A_r$: C=12, H=1)",
+          response: {
+            type: "numeric",
+            parts: [
+              { label: "n(C)", answer: 0.5 },
+              { label: "n(H)", answer: 4 },
+            ],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "formula",
+                name: "Moles from mass",
+                statement: "$n = \\frac{m}{A_r}$ for each element.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "$n(C) = \\frac{6.00}{12} = 0.50$ mol.",
+                working: "\\frac{6.00}{12}=0.5",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "$n(H) = \\frac{4.00}{1} = 4.0$ mol.",
+                working: "\\frac{4.00}{1}=4",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "$n(C)=0.50$ mol, $n(H)=4.0$ mol",
+          },
+        },
+        {
+          id: "cial-c-u1-ef-q11",
+          difficulty: "challenge",
+          totalMarks: 7,
+          stem: "A compound is $40.0\\%$ C, $6.7\\%$ H and $53.3\\%$ O by mass, with $M_r = 60$. ($A_r$: C=12, H=1, O=16)",
+          parts: [
+            { label: "a", prompt: "Determine the empirical formula.", marks: 3 },
+            { label: "b", prompt: "Determine the molecular formula.", marks: 2 },
+            { label: "c", prompt: "Calculate the percentage by mass of oxygen in this molecular compound.", marks: 2 },
+          ],
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "law",
+                name: "Empirical then molecular",
+                statement:
+                  "Mole ratio first; scale by $n=M_r(\\text{mol})/M_r(\\text{emp})$.",
+              },
+            ],
+            steps: [
+              {
+                part: "a",
+                reasoning: "Assume 100 g: C $40/12=3.33$, H $6.7/1=6.7$, O $53.3/16=3.33$.",
+                working: "3.33 : 6.7 : 3.33",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                part: "a",
+                reasoning: "Divide by 3.33: $1:2:1$, giving empirical formula $CH_2O$.",
+                working: "1:2:1 \\Rightarrow CH_2O",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                part: "a",
+                reasoning: "Empirical formula stated correctly.",
+                marks: 1,
+                markCode: "A",
+              },
+              {
+                part: "b",
+                reasoning: "$M_r(CH_2O)=30$, so $n=60/30=2$.",
+                working: "\\frac{60}{30}=2",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                part: "b",
+                reasoning: "Molecular formula $C_2H_4O_2$.",
+                working: "C_2H_4O_2",
+                marks: 1,
+                markCode: "A",
+              },
+              {
+                part: "c",
+                reasoning: "Mass of O in one mole $= 2 \\times 16 = 32$ g.",
+                working: "2 \\times 16=32",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                part: "c",
+                reasoning: "$\\%O = \\frac{32}{60} \\times 100 = 53.3\\%$.",
+                working: "\\frac{32}{60} \\times 100 = 53.3",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "(a) CH2O (b) C2H4O2 (c) 53.3%",
+          },
+        },
+        {
+          id: "cial-c-u1-ef-q12",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "What is the empirical formula of $N_2O_4$?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$N_2O_4$" },
+              { id: "b", text: "$N_2O$" },
+              { id: "c", text: "$NO$" },
+              { id: "d", text: "$NO_2$" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Empirical formula",
+                statement: "Simplest whole-number ratio of atoms.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Divide subscripts by 2: $N_2O_4 \\to NO_2$.",
+                working: "N_2O_4 \\div 2 = NO_2",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "**(a)** $NO_2$",
+          },
+        },
+        {
+          id: "cial-c-u1-ef-q13",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "What is the percentage by mass of oxygen in $CO_2$? ($A_r$: C=12, O=16)",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$27.3\\%$" },
+              { id: "b", text: "$32.0\\%$" },
+              { id: "c", text: "$72.7\\%$" },
+              { id: "d", text: "$57.1\\%$" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "formula",
+                name: "Percentage composition",
+                statement: "$\\%O = \\frac{32}{44} \\times 100$ with $M_r(CO_2)=44$.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "$M_r(CO_2)=12+32=44$; $\\%O=\\frac{32}{44}\\times 100=72.7\\%$.",
+                working: "\\frac{32}{44} \\times 100 = 72.7",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "**(b)** $72.7\\%$",
+            commonErrors: ["Using $M_r=28$ (CO) instead of 44."],
+          },
+        },
+        {
+          id: "cial-c-u1-ef-q14",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "A hydrocarbon contains $85.7\\%$ carbon and $14.3\\%$ hydrogen by mass and has $M_r = 56$. ($A_r$: C=12, H=1)",
+          response: {
+            type: "numeric",
+            parts: [
+              { label: "Mr_emp", answer: 14 },
+              { label: "n", answer: 4 },
+            ],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "law",
+                name: "Empirical then molecular",
+                statement:
+                  "Mole ratio $\\to$ empirical formula; $n = \\frac{M_r(\\text{mol})}{M_r(\\text{emp})}$.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Mole ratio C:H $= \\frac{85.7}{12} : \\frac{14.3}{1} \\approx 7.14 : 14.3 = 1:2$, so empirical formula $CH_2$.",
+                working: "1:2 \\Rightarrow CH_2",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "$M_r(CH_2) = 12 + 2 = 14$.",
+                working: "12+2=14",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "$n = \\frac{56}{14} = 4$.",
+                working: "\\frac{56}{14}=4",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "Molecular formula $C_4H_8$; consistent with a hydrocarbon.",
+                working: "C_4H_8",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "$M_r(\\text{emp})=14$, $n=4$; molecular formula $C_4H_8$",
+          },
+        },
+        {
+          id: "cial-c-u1-ef-q15",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "A compound of nitrogen and oxygen contains $30.4\\%$ N and $69.6\\%$ O by mass. Find its empirical formula. ($A_r$: N=14, O=16)",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "law",
+                name: "Empirical formula method",
+                statement: "Moles $=$ mass/$A_r$; divide by smallest moles.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Assume 100 g: N $30.4/14=2.17$, O $69.6/16=4.35$ mol.",
+                working: "2.17 : 4.35",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "Divide by 2.17: ratio $1 : 2$.",
+                working: "1:2",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "Empirical formula $NO_2$.",
+                working: "NO_2",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "$NO_2$",
+            commonErrors: ["Rounding 2.17 and 4.35 to whole numbers before dividing."],
+          },
+        },
+        {
+          id: "cial-c-u1-ef-q16",
+          difficulty: "challenge",
+          totalMarks: 1,
+          stem: "Two different compounds have exactly the same percentage composition by mass. What must they have in common?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "The same physical properties" },
+              { id: "b", text: "The same molar mass" },
+              { id: "c", text: "The same empirical formula" },
+              { id: "d", text: "The same molecular formula" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Empirical formula",
+                statement: "Percentage composition fixes only the simplest atom ratio.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Same % composition means the same mole ratio of elements, i.e. the same empirical formula; molecular formulae may differ by a multiplier.",
+                working: "b",
+                marks: 1,
+                markCode: "B",
+              },
+            ],
+            finalAnswer: "**(b)** The same empirical formula",
+            commonErrors: ["Assuming identical % composition implies identical molecular formula."],
           },
         },
       ],

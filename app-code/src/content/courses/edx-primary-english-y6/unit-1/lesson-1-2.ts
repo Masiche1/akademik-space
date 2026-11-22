@@ -52,11 +52,11 @@ export const lesson102: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Emotional meaning" },
-              { id: "b", text: "Literal dictionary meaning" },
-              { id: "c", text: "Slang" },
-              { id: "d", text: "Metaphor" },
+              { id: "b", text: "Metaphor" },
+              { id: "c", text: "Literal dictionary meaning" },
+              { id: "d", text: "Slang" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -81,12 +81,12 @@ export const lesson102: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Positive" },
-              { id: "b", text: "Negative" },
-              { id: "c", text: "Neutral" },
-              { id: "d", text: "Formal" },
+              { id: "a", text: "Neutral" },
+              { id: "b", text: "Formal" },
+              { id: "c", text: "Positive" },
+              { id: "d", text: "Negative" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -211,12 +211,12 @@ export const lesson102: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Eat something" },
-              { id: "b", text: "Face difficulty bravely" },
-              { id: "c", text: "Be angry" },
-              { id: "d", text: "Give up" },
+              { id: "a", text: "Give up" },
+              { id: "b", text: "Be angry" },
+              { id: "c", text: "Eat something" },
+              { id: "d", text: "Face difficulty bravely" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -241,10 +241,10 @@ export const lesson102: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Play tennis" },
+              { id: "a", text: "You're in trouble" },
               { id: "b", text: "It's your decision" },
-              { id: "c", text: "You're in trouble" },
-              { id: "d", text: "Wait" },
+              { id: "c", text: "Wait" },
+              { id: "d", text: "Play tennis" },
             ],
             correctChoiceId: "b",
           },

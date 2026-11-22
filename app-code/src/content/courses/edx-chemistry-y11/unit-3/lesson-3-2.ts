@@ -55,10 +55,10 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\text{C}_n\\text{H}_{2n+2}$" },
+              { id: "a", text: "$\\text{C}_n\\text{H}_{2n-2}$" },
               { id: "b", text: "$\\text{C}_n\\text{H}_{2n}$" },
-              { id: "c", text: "$\\text{C}_n\\text{H}_{2n-2}$" },
-              { id: "d", text: "$\\text{C}_n\\text{H}_{n}$" },
+              { id: "c", text: "$\\text{C}_n\\text{H}_{n}$" },
+              { id: "d", text: "$\\text{C}_n\\text{H}_{2n+2}$" },
             ],
             correctChoiceId: "b",
           },
@@ -197,10 +197,10 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Same structural formula, different molecular formula" },
+              { id: "a", text: "Same number of carbon atoms but different elements" },
               { id: "b", text: "Same molecular formula, different structural formula" },
-              { id: "c", text: "Same number of carbon atoms but different elements" },
-              { id: "d", text: "Same physical properties, different chemical properties" },
+              { id: "c", text: "Same physical properties, different chemical properties" },
+              { id: "d", text: "Same structural formula, different molecular formula" },
             ],
             correctChoiceId: "b",
           },
@@ -224,8 +224,8 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Pentane" },
-              { id: "b", text: "2-methylpropane" },
+              { id: "a", text: "2-methylpropane" },
+              { id: "b", text: "Pentane" },
               { id: "c", text: "2-methylbutane" },
               { id: "d", text: "3-methylbutane" },
             ],

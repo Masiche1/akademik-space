@@ -87,12 +87,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Excessive worry about future events" },
-              { id: "b", text: "Loss of pleasure or interest in activities" },
-              { id: "c", text: "Intrusive repetitive thoughts" },
-              { id: "d", text: "Persistent sadness lasting months" },
+              { id: "a", text: "Loss of pleasure or interest in activities" },
+              { id: "b", text: "Excessive worry about future events" },
+              { id: "c", text: "Persistent sadness lasting months" },
+              { id: "d", text: "Intrusive repetitive thoughts" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -318,10 +318,10 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Two weeks" },
-              { id: "b", text: "One month" },
+              { id: "a", text: "One year" },
+              { id: "b", text: "Two weeks" },
               { id: "c", text: "Six months" },
-              { id: "d", text: "One year" },
+              { id: "d", text: "One month" },
             ],
             correctChoiceId: "c",
           },
@@ -362,12 +362,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Self, world and future" },
-              { id: "b", text: "Self, family and work" },
-              { id: "c", text: "Past, present and future" },
-              { id: "d", text: "Self, others and God" },
+              { id: "a", text: "Self, family and work" },
+              { id: "b", text: "Self, world and future" },
+              { id: "c", text: "Self, others and God" },
+              { id: "d", text: "Past, present and future" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -406,15 +406,15 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Ignoring positive information entirely" },
+              { id: "a", text: "Blaming oneself for unrelated events" },
+              { id: "b", text: "Ignoring positive information entirely" },
               {
-                id: "b",
+                id: "c",
                 text: "Magnifying the worst possible outcome of an event",
               },
-              { id: "c", text: "Blaming oneself for unrelated events" },
               { id: "d", text: "Predicting success in all situations" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -453,12 +453,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "One week" },
-              { id: "b", text: "Two weeks" },
+              { id: "a", text: "Two weeks" },
+              { id: "b", text: "One week" },
               { id: "c", text: "Six months" },
               { id: "d", text: "One year" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -497,18 +497,18 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Chronic worry about everyday events" },
               {
-                id: "b",
+                id: "a",
                 text: "Sudden, unexpected panic attacks with intense physical symptoms",
               },
+              { id: "b", text: "Obsessive thoughts and compulsive rituals" },
               {
                 id: "c",
                 text: "Fear of a specific object leading to avoidance",
               },
-              { id: "d", text: "Obsessive thoughts and compulsive rituals" },
+              { id: "d", text: "Chronic worry about everyday events" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -557,12 +557,12 @@ export const lesson52: Lesson = {
                 id: "a",
                 text: "Focusing on one negative detail while ignoring the wider context",
               },
+              { id: "b", text: "Discounting positive achievements entirely" },
               {
-                id: "b",
+                id: "c",
                 text: "Applying one bad experience to all future situations",
               },
-              { id: "c", text: "Expecting the worst possible outcome" },
-              { id: "d", text: "Discounting positive achievements entirely" },
+              { id: "d", text: "Expecting the worst possible outcome" },
             ],
             correctChoiceId: "a",
           },
@@ -1060,9 +1060,9 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Intrusive unwanted thoughts" },
+              { id: "a", text: "Persistent low mood" },
               { id: "b", text: "Repetitive behaviours reducing anxiety" },
-              { id: "c", text: "Persistent low mood" },
+              { id: "c", text: "Intrusive unwanted thoughts" },
               { id: "d", text: "Avoidance of all social situations" },
             ],
             correctChoiceId: "b",
@@ -1295,15 +1295,15 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Repetitive behaviours that reduce anxiety" },
+              { id: "a", text: "Delusions about being controlled" },
+              { id: "b", text: "Persistent feelings of sadness" },
               {
-                id: "b",
+                id: "c",
                 text: "Intrusive, unwanted thoughts or images causing anxiety",
               },
-              { id: "c", text: "Persistent feelings of sadness" },
-              { id: "d", text: "Delusions about being controlled" },
+              { id: "d", text: "Repetitive behaviours that reduce anxiety" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1342,15 +1342,15 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "Are rewarded with money or privileges" },
               {
-                id: "a",
+                id: "b",
                 text: "Receive praise from others for being performed",
               },
-              { id: "b", text: "Reduce the anxiety produced by obsessions" },
-              { id: "c", text: "Produce a pleasant physical sensation" },
-              { id: "d", text: "Are rewarded with money or privileges" },
+              { id: "c", text: "Reduce the anxiety produced by obsessions" },
+              { id: "d", text: "Produce a pleasant physical sensation" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1389,19 +1389,19 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              {
-                id: "a",
-                text: "'I must wash until the anxiety completely disappears'",
-              },
+              { id: "a", text: "'I cannot control my urges'" },
               {
                 id: "b",
                 text: "'If I do not check the door, something terrible will happen'",
               },
               {
                 id: "c",
+                text: "'I must wash until the anxiety completely disappears'",
+              },
+              {
+                id: "d",
                 text: "'I am a bad person for having these thoughts'",
               },
-              { id: "d", text: "'I cannot control my urges'" },
             ],
             correctChoiceId: "b",
           },
@@ -1443,15 +1443,15 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Blocking dopamine receptors" },
+              { id: "a", text: "Reducing GABA activity" },
+              { id: "b", text: "Blocking dopamine receptors" },
+              { id: "c", text: "Stimulating endorphin release" },
               {
-                id: "b",
+                id: "d",
                 text: "Increasing serotonin availability in the brain",
               },
-              { id: "c", text: "Reducing GABA activity" },
-              { id: "d", text: "Stimulating endorphin release" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1494,9 +1494,9 @@ export const lesson52: Lesson = {
                 id: "a",
                 text: "Thinking about harm makes the harm more likely to occur",
               },
-              { id: "b", text: "Compulsions eliminate obsessions permanently" },
+              { id: "b", text: "All thoughts must be controlled at all times" },
               { id: "c", text: "Other people can read one's thoughts" },
-              { id: "d", text: "All thoughts must be controlled at all times" },
+              { id: "d", text: "Compulsions eliminate obsessions permanently" },
             ],
             correctChoiceId: "a",
           },
@@ -1543,18 +1543,18 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Medication with psychoeducation" },
+              { id: "a", text: "Free association with dream analysis" },
               {
                 id: "b",
-                text: "Gradual exposure to feared situations with resisting the compulsion",
-              },
-              { id: "c", text: "Free association with dream analysis" },
-              {
-                id: "d",
                 text: "Systematic desensitisation with relaxation only",
               },
+              { id: "c", text: "Medication with psychoeducation" },
+              {
+                id: "d",
+                text: "Gradual exposure to feared situations with resisting the compulsion",
+              },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

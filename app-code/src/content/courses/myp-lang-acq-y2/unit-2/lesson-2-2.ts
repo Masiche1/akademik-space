@@ -56,10 +56,10 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "There is three shops near my house." },
+              { id: "a", text: "There has three shops near my house." },
               { id: "b", text: "There are three shops near my house." },
-              { id: "c", text: "There has three shops near my house." },
-              { id: "d", text: "There three shops near my house." },
+              { id: "c", text: "There three shops near my house." },
+              { id: "d", text: "There is three shops near my house." },
             ],
             correctChoiceId: "b",
           },
@@ -153,12 +153,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "I have a dog big." },
-              { id: "b", text: "I have a big dog." },
-              { id: "c", text: "I have big a dog." },
-              { id: "d", text: "I have dog a big." },
+              { id: "a", text: "I have big a dog." },
+              { id: "b", text: "I have dog a big." },
+              { id: "c", text: "I have a big dog." },
+              { id: "d", text: "I have a dog big." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -180,12 +180,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "There are a park near my house." },
-              { id: "b", text: "There is a park near my house." },
+              { id: "a", text: "There is a park near my house." },
+              { id: "b", text: "There are a park near my house." },
               { id: "c", text: "There has a park near my house." },
               { id: "d", text: "There park near my house." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -208,11 +208,11 @@ export const lesson22: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "tall" },
-              { id: "b", text: "blonde" },
-              { id: "c", text: "kind" },
-              { id: "d", text: "short" },
+              { id: "b", text: "kind" },
+              { id: "c", text: "short" },
+              { id: "d", text: "blonde" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -333,12 +333,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "a old house" },
-              { id: "b", text: "an old house" },
-              { id: "c", text: "an old a house" },
-              { id: "d", text: "old an house" },
+              { id: "a", text: "an old house" },
+              { id: "b", text: "a old house" },
+              { id: "c", text: "old an house" },
+              { id: "d", text: "an old a house" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -392,11 +392,11 @@ export const lesson22: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "There is three cats in the garden." },
-              { id: "b", text: "There are three cats in the garden." },
-              { id: "c", text: "There has three cats in the garden." },
-              { id: "d", text: "There three cats are in garden." },
+              { id: "b", text: "There three cats are in garden." },
+              { id: "c", text: "There are three cats in the garden." },
+              { id: "d", text: "There has three cats in the garden." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -507,11 +507,11 @@ export const lesson22: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Body → greeting → sign-off" },
-              { id: "b", text: "Greeting → body → sign-off" },
-              { id: "c", text: "Sign-off → body → greeting" },
+              { id: "b", text: "Sign-off → body → greeting" },
+              { id: "c", text: "Greeting → body → sign-off" },
               { id: "d", text: "Subject → sign-off → body" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -609,12 +609,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Dear Sir or Madam," },
-              { id: "b", text: "Hi Tom," },
-              { id: "c", text: "To whom it may concern," },
-              { id: "d", text: "Hello everybody in the world," },
+              { id: "a", text: "To whom it may concern," },
+              { id: "b", text: "Hello everybody in the world," },
+              { id: "c", text: "Hi Tom," },
+              { id: "d", text: "Dear Sir or Madam," },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -636,12 +636,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "To start the email" },
-              { id: "b", text: "To end the email politely before your name" },
+              { id: "a", text: "To ask a question" },
+              { id: "b", text: "To start the email" },
               { id: "c", text: "To give the subject" },
-              { id: "d", text: "To ask a question" },
+              { id: "d", text: "To end the email politely before your name" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -663,12 +663,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Very formal language and long sentences" },
-              { id: "b", text: "Contractions like I'm and don't" },
-              { id: "c", text: "No greeting at all" },
-              { id: "d", text: "Only numbers, no words" },
+              { id: "a", text: "No greeting at all" },
+              { id: "b", text: "Only numbers, no words" },
+              { id: "c", text: "Contractions like I'm and don't" },
+              { id: "d", text: "Very formal language and long sentences" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -795,12 +795,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "To greet the reader" },
-              { id: "b", text: "To tell what the email is about in a few words" },
-              { id: "c", text: "To say goodbye" },
-              { id: "d", text: "To give your address" },
+              { id: "a", text: "To tell what the email is about in a few words" },
+              { id: "b", text: "To give your address" },
+              { id: "c", text: "To greet the reader" },
+              { id: "d", text: "To say goodbye" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -853,10 +853,10 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "You will reply to me immediately." },
+              { id: "a", text: "Reply or else." },
               { id: "b", text: "Please let me know what you think." },
-              { id: "c", text: "Reply or else." },
-              { id: "d", text: "I demand your answer." },
+              { id: "c", text: "I demand your answer." },
+              { id: "d", text: "You will reply to me immediately." },
             ],
             correctChoiceId: "b",
           },

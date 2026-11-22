@@ -54,12 +54,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Abrasion" },
-              { id: "b", text: "Hydraulic action" },
+              { id: "a", text: "Hydraulic action" },
+              { id: "b", text: "Abrasion" },
               { id: "c", text: "Solution" },
               { id: "d", text: "Attrition" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -153,10 +153,10 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Perpendicular to the coastline" },
+              { id: "a", text: "From the seabed directly to the dunes" },
               { id: "b", text: "Along the coast, driven by waves approaching at an angle" },
-              { id: "c", text: "From the seabed directly to the dunes" },
-              { id: "d", text: "Inland through river channels" },
+              { id: "c", text: "Inland through river channels" },
+              { id: "d", text: "Perpendicular to the coastline" },
             ],
             correctChoiceId: "b",
           },
@@ -181,10 +181,10 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Waves grind rock using sediment" },
+              { id: "a", text: "Air is compressed into rock cracks" },
               { id: "b", text: "Sediment particles collide and become rounded" },
-              { id: "c", text: "Air is compressed into rock cracks" },
-              { id: "d", text: "Rock dissolves in seawater" },
+              { id: "c", text: "Rock dissolves in seawater" },
+              { id: "d", text: "Waves grind rock using sediment" },
             ],
             correctChoiceId: "b",
           },
@@ -209,12 +209,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A river deposits sediment into a lake" },
-              { id: "b", text: "Longshore drift carries sediment past a change in coast direction" },
-              { id: "c", text: "A glacier melts directly into the sea" },
-              { id: "d", text: "Wind blows sand inland to form dunes" },
+              { id: "a", text: "A glacier melts directly into the sea" },
+              { id: "b", text: "Wind blows sand inland to form dunes" },
+              { id: "c", text: "Longshore drift carries sediment past a change in coast direction" },
+              { id: "d", text: "A river deposits sediment into a lake" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -237,12 +237,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The distance wind blows over open water" },
+              { id: "a", text: "The tidal range of a coast" },
               { id: "b", text: "The height of storm waves" },
-              { id: "c", text: "The tidal range of a coast" },
+              { id: "c", text: "The distance wind blows over open water" },
               { id: "d", text: "The steepness of a beach face" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -265,12 +265,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Increase wave energy locally" },
-              { id: "b", text: "Trap sediment that would otherwise feed downdrift beaches" },
-              { id: "c", text: "Block all river sediment entirely" },
-              { id: "d", text: "Raise local sea level" },
+              { id: "a", text: "Raise local sea level" },
+              { id: "b", text: "Block all river sediment entirely" },
+              { id: "c", text: "Trap sediment that would otherwise feed downdrift beaches" },
+              { id: "d", text: "Increase wave energy locally" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -500,12 +500,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Provide timber for construction" },
-              { id: "b", text: "Nursery fish habitat and stabilise shorelines" },
-              { id: "c", text: "Produce most of the world's oil" },
+              { id: "a", text: "Produce most of the world's oil" },
+              { id: "b", text: "Provide timber for construction" },
+              { id: "c", text: "Nursery fish habitat and stabilise shorelines" },
               { id: "d", text: "Are found only in temperate zones" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -599,9 +599,9 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Are permanently submerged below the seabed" },
+              { id: "a", text: "Exist only around coral reefs" },
               { id: "b", text: "Are flooded by tides and dominated by salt-tolerant grasses" },
-              { id: "c", text: "Exist only around coral reefs" },
+              { id: "c", text: "Are permanently submerged below the seabed" },
               { id: "d", text: "Contain no vegetation at all" },
             ],
             correctChoiceId: "b",
@@ -627,12 +627,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A deep ocean trench" },
-              { id: "b", text: "A semi-enclosed water body where river fresh water mixes with sea water" },
-              { id: "c", text: "A sandy beach above the high-tide line" },
-              { id: "d", text: "An offshore coral reef" },
+              { id: "a", text: "A sandy beach above the high-tide line" },
+              { id: "b", text: "A deep ocean trench" },
+              { id: "c", text: "An offshore coral reef" },
+              { id: "d", text: "A semi-enclosed water body where river fresh water mixes with sea water" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -656,11 +656,11 @@ export const lesson13: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Produce most of the world's oxygen" },
-              { id: "b", text: "Provide nursery habitat and store carbon ('blue carbon')" },
-              { id: "c", text: "Block all coastal erosion permanently" },
-              { id: "d", text: "Are a major source of crude oil" },
+              { id: "b", text: "Are a major source of crude oil" },
+              { id: "c", text: "Provide nursery habitat and store carbon ('blue carbon')" },
+              { id: "d", text: "Block all coastal erosion permanently" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -683,12 +683,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Waves erode an exposed cliff face" },
-              { id: "b", text: "Intertidal habitat is lost between rising sea levels and fixed hard defences" },
+              { id: "a", text: "Mangroves expand inland" },
+              { id: "b", text: "Waves erode an exposed cliff face" },
               { id: "c", text: "A spit grows across a bay mouth" },
-              { id: "d", text: "Mangroves expand inland" },
+              { id: "d", text: "Intertidal habitat is lost between rising sea levels and fixed hard defences" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -711,12 +711,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Increases local rainfall" },
-              { id: "b", text: "Destroys nursery habitat, storm protection and carbon storage" },
-              { id: "c", text: "Creates new coral reefs" },
-              { id: "d", text: "Lowers sea level" },
+              { id: "a", text: "Lowers sea level" },
+              { id: "b", text: "Creates new coral reefs" },
+              { id: "c", text: "Destroys nursery habitat, storm protection and carbon storage" },
+              { id: "d", text: "Increases local rainfall" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

@@ -52,10 +52,10 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "4 o'clock" },
+              { id: "a", text: "Quarter to 5" },
               { id: "b", text: "Half past 4" },
-              { id: "c", text: "Quarter past 4" },
-              { id: "d", text: "Quarter to 5" },
+              { id: "c", text: "4 o'clock" },
+              { id: "d", text: "Quarter past 4" },
             ],
             correctChoiceId: "b",
           },
@@ -78,12 +78,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$3{:}00$" },
-              { id: "b", text: "$3{:}30$" },
-              { id: "c", text: "$2{:}30$" },
-              { id: "d", text: "$4{:}30$" },
+              { id: "a", text: "$4{:}30$" },
+              { id: "b", text: "$3{:}00$" },
+              { id: "c", text: "$3{:}30$" },
+              { id: "d", text: "$2{:}30$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -161,11 +161,11 @@ export const lesson23: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Half past" },
-              { id: "b", text: "Quarter past" },
-              { id: "c", text: "O'clock" },
-              { id: "d", text: "Quarter to" },
+              { id: "b", text: "Quarter to" },
+              { id: "c", text: "Quarter past" },
+              { id: "d", text: "O'clock" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -203,9 +203,9 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "O'clock" },
+              { id: "a", text: "Quarter past" },
               { id: "b", text: "Half past" },
-              { id: "c", text: "Quarter past" },
+              { id: "c", text: "O'clock" },
               { id: "d", text: "Quarter to" },
             ],
             correctChoiceId: "b",
@@ -229,12 +229,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Half past" },
-              { id: "b", text: "Quarter past" },
-              { id: "c", text: "Quarter to" },
+              { id: "a", text: "Quarter to" },
+              { id: "b", text: "Half past" },
+              { id: "c", text: "Quarter past" },
               { id: "d", text: "O'clock" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -255,12 +255,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Half past 4" },
-              { id: "b", text: "Quarter past 4" },
-              { id: "c", text: "Quarter to 5" },
-              { id: "d", text: "4 o'clock" },
+              { id: "a", text: "4 o'clock" },
+              { id: "b", text: "Quarter to 5" },
+              { id: "c", text: "Quarter past 4" },
+              { id: "d", text: "Half past 4" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -282,12 +282,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$3{:}00$" },
-              { id: "b", text: "$3{:}30$" },
+              { id: "a", text: "$4{:}30$" },
+              { id: "b", text: "$3{:}00$" },
               { id: "c", text: "$2{:}30$" },
-              { id: "d", text: "$4{:}30$" },
+              { id: "d", text: "$3{:}30$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -365,12 +365,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$8{:}15$ PM" },
+              { id: "a", text: "$8{:}30$ PM" },
               { id: "b", text: "$8{:}45$ PM" },
-              { id: "c", text: "$9{:}15$ PM" },
-              { id: "d", text: "$8{:}30$ PM" },
+              { id: "c", text: "$8{:}15$ PM" },
+              { id: "d", text: "$9{:}15$ PM" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -413,11 +413,11 @@ export const lesson23: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$7{:}15$" },
-              { id: "b", text: "$6{:}45$" },
+              { id: "b", text: "$6{:}15$" },
               { id: "c", text: "$7{:}45$" },
-              { id: "d", text: "$6{:}15$" },
+              { id: "d", text: "$6{:}45$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -467,12 +467,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Cup" },
-              { id: "b", text: "Bucket" },
-              { id: "c", text: "They hold the same" },
-              { id: "d", text: "Cannot tell" },
+              { id: "a", text: "Cannot tell" },
+              { id: "b", text: "They hold the same" },
+              { id: "c", text: "Bucket" },
+              { id: "d", text: "Cup" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -493,12 +493,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$750$ g" },
-              { id: "b", text: "$1$ kg" },
-              { id: "c", text: "They are equal" },
-              { id: "d", text: "Cannot compare" },
+              { id: "a", text: "$1$ kg" },
+              { id: "b", text: "$750$ g" },
+              { id: "c", text: "Cannot compare" },
+              { id: "d", text: "They are equal" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -575,12 +575,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Feather" },
-              { id: "b", text: "Brick" },
-              { id: "c", text: "They weigh the same" },
-              { id: "d", text: "Cannot tell without scales" },
+              { id: "a", text: "They weigh the same" },
+              { id: "b", text: "Feather" },
+              { id: "c", text: "Cannot tell without scales" },
+              { id: "d", text: "Brick" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -618,12 +618,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$500$ mL" },
-              { id: "b", text: "$1$ L" },
-              { id: "c", text: "They hold the same" },
-              { id: "d", text: "Cannot compare" },
+              { id: "a", text: "$1$ L" },
+              { id: "b", text: "Cannot compare" },
+              { id: "c", text: "$500$ mL" },
+              { id: "d", text: "They hold the same" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -679,12 +679,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$750$ g of cheese" },
-              { id: "b", text: "$1$ kg of butter" },
-              { id: "c", text: "They weigh the same" },
-              { id: "d", text: "Cannot compare" },
+              { id: "a", text: "$1$ kg of butter" },
+              { id: "b", text: "Cannot compare" },
+              { id: "c", text: "$750$ g of cheese" },
+              { id: "d", text: "They weigh the same" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -762,12 +762,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Yes — both are $1200$ mL" },
-              { id: "b", text: "No — the jug holds more" },
-              { id: "c", text: "No — the bottle holds more" },
-              { id: "d", text: "Cannot compare" },
+              { id: "a", text: "No — the jug holds more" },
+              { id: "b", text: "Cannot compare" },
+              { id: "c", text: "Yes — both are $1200$ mL" },
+              { id: "d", text: "No — the bottle holds more" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

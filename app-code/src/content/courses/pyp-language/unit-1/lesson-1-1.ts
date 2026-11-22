@@ -50,12 +50,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Talk about their own story at the same time" },
-              { id: "b", text: "Watch the speaker and wait for their turn to talk" },
+              { id: "a", text: "Watch the speaker and wait for their turn to talk" },
+              { id: "b", text: "Talk about their own story at the same time" },
               { id: "c", text: "Look out of the window" },
               { id: "d", text: "Start talking before they finish" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -142,12 +142,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Drawing pictures while the teacher talks" },
-              { id: "b", text: "Looking at the speaker, staying quiet and thinking about the words" },
-              { id: "c", text: "Talking to a friend at the same time" },
-              { id: "d", text: "Looking out of the window" },
+              { id: "a", text: "Looking at the speaker, staying quiet and thinking about the words" },
+              { id: "b", text: "Looking out of the window" },
+              { id: "c", text: "Drawing pictures while the teacher talks" },
+              { id: "d", text: "Talking to a friend at the same time" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -189,8 +189,8 @@ export const lesson11: Lesson = {
             choices: [
               { id: "a", text: "Guess what was said and hope it is right" },
               { id: "b", text: "Ask the teacher to repeat it, or ask a friend quietly" },
-              { id: "c", text: "Ignore it and hope it does not matter" },
-              { id: "d", text: "Copy what the person next to you does" },
+              { id: "c", text: "Copy what the person next to you does" },
+              { id: "d", text: "Ignore it and hope it does not matter" },
             ],
             correctChoiceId: "b",
           },
@@ -269,12 +269,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "'I lined up, then got my book, then tidied my desk.'" },
-              { id: "b", text: "'I tidied my desk, got my book, then lined up quietly.'" },
-              { id: "c", text: "'I got my book, tidied my desk, then lined up.'" },
-              { id: "d", text: "'I did all three things at the same time.'" },
+              { id: "a", text: "'I did all three things at the same time.'" },
+              { id: "b", text: "'I got my book, tidied my desk, then lined up.'" },
+              { id: "c", text: "'I lined up, then got my book, then tidied my desk.'" },
+              { id: "d", text: "'I tidied my desk, got my book, then lined up quietly.'" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -334,11 +334,11 @@ export const lesson11: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Two friends talk at the same time" },
-              { id: "b", text: "One person speaks while the other listens, then they swap" },
-              { id: "c", text: "The loudest voice gets to speak" },
+              { id: "b", text: "The loudest voice gets to speak" },
+              { id: "c", text: "One person speaks while the other listens, then they swap" },
               { id: "d", text: "Nobody gets a turn to talk" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -359,12 +359,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Jo was listening carefully" },
-              { id: "b", text: "Jo did not follow the order of the instruction" },
-              { id: "c", text: "Jo did both jobs, so it does not matter" },
+              { id: "a", text: "Jo did both jobs, so it does not matter" },
+              { id: "b", text: "Jo was listening carefully" },
+              { id: "c", text: "Jo did not follow the order of the instruction" },
               { id: "d", text: "Jo was too quick" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -441,11 +441,11 @@ export const lesson11: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Be as quiet as possible" },
-              { id: "b", text: "Be loud enough for everyone to hear" },
-              { id: "c", text: "Stay the same as when talking to one friend" },
+              { id: "b", text: "Stay the same as when talking to one friend" },
+              { id: "c", text: "Be loud enough for everyone to hear" },
               { id: "d", text: "Shout as fast as possible" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -532,12 +532,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "As loud as possible" },
-              { id: "b", text: "Quiet, so other classes are not disturbed" },
+              { id: "a", text: "You cannot speak at all" },
+              { id: "b", text: "As loud as possible" },
               { id: "c", text: "Exactly the same as shouting in the playground" },
-              { id: "d", text: "You cannot speak at all" },
+              { id: "d", text: "Quiet, so other classes are not disturbed" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -577,12 +577,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "As fast as possible so you finish quickly" },
-              { id: "b", text: "Very slow so you can think" },
-              { id: "c", text: "A steady pace — not too fast, not too slow" },
-              { id: "d", text: "Stopping and starting randomly" },
+              { id: "a", text: "Stopping and starting randomly" },
+              { id: "b", text: "As fast as possible so you finish quickly" },
+              { id: "c", text: "Very slow so you can think" },
+              { id: "d", text: "A steady pace — not too fast, not too slow" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -659,12 +659,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "At your shoes" },
-              { id: "b", text: "At the window" },
+              { id: "a", text: "At the window" },
+              { id: "b", text: "At your listeners" },
               { id: "c", text: "At your notes the whole time" },
-              { id: "d", text: "At your listeners" },
+              { id: "d", text: "At your shoes" },
             ],
-            correctChoiceId: "d",
+            correctChoiceIb: "d",
           },
           markscheme: {
             principles: [
@@ -723,12 +723,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "'Give me your pencil.'" },
-              { id: "b", text: "'Please may I borrow your pencil?'" },
-              { id: "c", text: "'I want that pencil now.'" },
-              { id: "d", text: "Just take the pencil without asking" },
+              { id: "a", text: "Just take the pencil without asking" },
+              { id: "b", text: "'I want that pencil now.'" },
+              { id: "c", text: "'Please may I borrow your pencil?'" },
+              { id: "d", text: "'Give me your pencil.'" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -749,8 +749,8 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "'That's all, I guess.'" },
-              { id: "b", text: "'Okay, done.'" },
+              { id: "a", text: "'Okay, done.'" },
+              { id: "b", text: "'That's all, I guess.'" },
               { id: "c", text: "'Bye everyone, see ya.'" },
               { id: "d", text: "'Thank you for listening.'" },
             ],

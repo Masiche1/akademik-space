@@ -52,12 +52,12 @@ export const lesson71: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$4-2x$" },
+              { id: "a", text: "$3x^2+4$" },
               { id: "b", text: "$4+4x$" },
-              { id: "c", text: "$3x^2+4$" },
-              { id: "d", text: "$x+1$" },
+              { id: "c", text: "$x+1$" },
+              { id: "d", text: "$4-2x$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -178,9 +178,9 @@ export const lesson71: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$4x+7$" },
+              { id: "a", text: "$\\frac{x-7}{4}$" },
               { id: "b", text: "$\\frac{x+7}{4}$" },
-              { id: "c", text: "$\\frac{x-7}{4}$" },
+              { id: "c", text: "$4x+7$" },
               { id: "d", text: "$7-4x$" },
             ],
             correctChoiceId: "b",

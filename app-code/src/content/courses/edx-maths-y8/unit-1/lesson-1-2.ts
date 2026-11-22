@@ -48,10 +48,10 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\frac{2}{5}$" },
-              { id: "b", text: "$\\frac{1}{6}$" },
+              { id: "a", text: "$\\frac{1}{6}$" },
+              { id: "b", text: "$\\frac{2}{6}$" },
               { id: "c", text: "$\\frac{5}{6}$" },
-              { id: "d", text: "$\\frac{2}{6}$" },
+              { id: "d", text: "$\\frac{2}{5}$" },
             ],
             correctChoiceId: "c",
           },
@@ -183,11 +183,11 @@ export const lesson12: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$8$" },
-              { id: "b", text: "$12$" },
+              { id: "b", text: "$16$" },
               { id: "c", text: "$15$" },
-              { id: "d", text: "$16$" },
+              { id: "d", text: "$12$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

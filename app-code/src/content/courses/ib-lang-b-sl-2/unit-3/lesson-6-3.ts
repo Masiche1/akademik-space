@@ -52,10 +52,10 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "To avoid doing any practice" },
+              { id: "a", text: "To impress the teacher" },
               { id: "b", text: "To accurately identify strengths and weaknesses for targeted improvement" },
-              { id: "c", text: "To impress the teacher" },
-              { id: "d", text: "To replace all teacher feedback" },
+              { id: "c", text: "To replace all teacher feedback" },
+              { id: "d", text: "To avoid doing any practice" },
             ],
             correctChoiceId: "b",
           },
@@ -146,12 +146,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Avoid doing any practice" },
-              { id: "b", text: "Accurately identify strengths and weaknesses so practice targets real gaps" },
-              { id: "c", text: "Replace all teacher feedback" },
-              { id: "d", text: "Impress examiners" },
+              { id: "a", text: "Accurately identify strengths and weaknesses so practice targets real gaps" },
+              { id: "b", text: "Impress examiners" },
+              { id: "c", text: "Avoid doing any practice" },
+              { id: "d", text: "Replace all teacher feedback" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -173,12 +173,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Task fulfilment and organisation" },
-              { id: "b", text: "Speed of writing" },
-              { id: "c", text: "Neatness of handwriting" },
-              { id: "d", text: "Length of the response only" },
+              { id: "a", text: "Speed of writing" },
+              { id: "b", text: "Length of the response only" },
+              { id: "c", text: "Task fulfilment and organisation" },
+              { id: "d", text: "Neatness of handwriting" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -200,12 +200,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Because it is shorter" },
-              { id: "b", text: "Because it identifies exactly what to fix, enabling targeted practice" },
+              { id: "a", text: "Because it identifies exactly what to fix, enabling targeted practice" },
+              { id: "b", text: "Because it is shorter" },
               { id: "c", text: "Because teachers prefer numbers" },
               { id: "d", text: "Because adjectives are the only vocabulary that matters" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -227,9 +227,9 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Collects every mistake you ever made" },
+              { id: "a", text: "Replaces practice entirely" },
               { id: "b", text: "Reveals recurring error patterns so you can target them specifically" },
-              { id: "c", text: "Replaces practice entirely" },
+              { id: "c", text: "Collects every mistake you ever made" },
               { id: "d", text: "Is required by the IB" },
             ],
             correctChoiceId: "b",
@@ -254,12 +254,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Personal judgement of you as a person" },
-              { id: "b", text: "Data pointing to patterns you can act on" },
-              { id: "c", text: "Something to argue with" },
-              { id: "d", text: "Optional reading" },
+              { id: "a", text: "Something to argue with" },
+              { id: "b", text: "Personal judgement of you as a person" },
+              { id: "c", text: "Optional reading" },
+              { id: "d", text: "Data pointing to patterns you can act on" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -281,9 +281,9 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The teacher is lazy" },
+              { id: "a", text: "The comment was random" },
               { id: "b", text: "It is a recurring pattern — your highest-priority area to fix" },
-              { id: "c", text: "The comment was random" },
+              { id: "c", text: "The teacher is lazy" },
               { id: "d", text: "You should ignore it this time" },
             ],
             correctChoiceId: "b",
@@ -308,12 +308,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Because teachers only allow one change" },
-              { id: "b", text: "Because focused change allows measurable improvement — fixing everything at once fixes nothing" },
-              { id: "c", text: "Because students can only remember one thing" },
+              { id: "a", text: "Because students can only remember one thing" },
+              { id: "b", text: "Because teachers only allow one change" },
+              { id: "c", text: "Because focused change allows measurable improvement — fixing everything at once fixes nothing" },
               { id: "d", text: "Because it saves time" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -491,12 +491,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A diary of personal feelings only" },
-              { id: "b", text: "A record of what you studied, struggled with and achieved over time" },
+              { id: "a", text: "A record of what you studied, struggled with and achieved over time" },
+              { id: "b", text: "A diary of personal feelings only" },
               { id: "c", text: "A grammar textbook" },
               { id: "d", text: "A list of vocabulary words" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -585,12 +585,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A personal diary about your feelings" },
-              { id: "b", text: "A record of what you studied, struggled with and achieved over time" },
+              { id: "a", text: "A record of what you studied, struggled with and achieved over time" },
+              { id: "b", text: "A personal diary about your feelings" },
               { id: "c", text: "A vocabulary list" },
               { id: "d", text: "A grammar textbook" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -613,11 +613,11 @@ export const lesson63: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Believing you are naturally talented at languages" },
-              { id: "b", text: "Treating errors as learning data — abilities improve through effort" },
+              { id: "b", text: "Comparing yourself only to weaker students" },
               { id: "c", text: "Avoiding difficult tasks to prevent mistakes" },
-              { id: "d", text: "Comparing yourself only to weaker students" },
+              { id: "d", text: "Treating errors as learning data — abilities improve through effort" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -640,9 +640,9 @@ export const lesson63: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Which study strategies actually work for you — and which don't" },
-              { id: "b", text: "That journaling replaces practice" },
+              { id: "b", text: "Nothing useful" },
               { id: "c", text: "Your exact future exam score" },
-              { id: "d", text: "Nothing useful" },
+              { id: "d", text: "That journaling replaces practice" },
             ],
             correctChoiceId: "a",
           },
@@ -666,10 +666,10 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Study -> forget -> restart" },
+              { id: "a", text: "Read -> copy -> paste" },
               { id: "b", text: "Study -> record -> review patterns -> adjust strategy -> repeat" },
-              { id: "c", text: "Cram -> test -> forget" },
-              { id: "d", text: "Read -> copy -> paste" },
+              { id: "c", text: "Study -> forget -> restart" },
+              { id: "d", text: "Cram -> test -> forget" },
             ],
             correctChoiceId: "b",
           },
@@ -693,10 +693,10 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Whatever feels easiest" },
+              { id: "a", text: "What other students are doing" },
               { id: "b", text: "Evidence — your journal, assessments and feedback" },
-              { id: "c", text: "What other students are doing" },
-              { id: "d", text: "Random choice" },
+              { id: "c", text: "Random choice" },
+              { id: "d", text: "Whatever feels easiest" },
             ],
             correctChoiceId: "b",
           },
@@ -720,12 +720,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Check whether you are progressing and which strategies need adjusting" },
-              { id: "b", text: "Fill time productively" },
+              { id: "a", text: "Fill time productively" },
+              { id: "b", text: "Prove you have a journal" },
               { id: "c", text: "Avoid studying" },
-              { id: "d", text: "Prove you have a journal" },
+              { id: "d", text: "Check whether you are progressing and which strategies need adjusting" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -747,12 +747,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Reflection is complete — nothing follows" },
-              { id: "b", text: "Turning diagnosis into a new informed goal — reflection ends with action" },
-              { id: "c", text: "Stopping all language study" },
-              { id: "d", text: "Copying someone else's plan" },
+              { id: "a", text: "Turning diagnosis into a new informed goal — reflection ends with action" },
+              { id: "b", text: "Copying someone else's plan" },
+              { id: "c", text: "Reflection is complete — nothing follows" },
+              { id: "d", text: "Stopping all language study" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

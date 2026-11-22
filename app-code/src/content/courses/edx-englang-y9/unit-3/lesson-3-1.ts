@@ -65,12 +65,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "This August was different." },
+              { id: "a", text: "I never asked what it opened." },
               { id: "b", text: "Every summer of my childhood ended the same way." },
-              { id: "c", text: "I never asked what it opened." },
+              { id: "c", text: "This August was different." },
               { id: "d", text: "I knelt." },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Turning point", statement: "A sentence that breaks the established pattern and signals change." }],
@@ -205,12 +205,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Her fingers twisted the strap of her bag until the knuckles whitened." },
-              { id: "b", text: "She was very nervous about the interview." },
-              { id: "c", text: "Dara felt nervous and worried." },
-              { id: "d", text: "She said that she was nervous." },
+              { id: "a", text: "She said that she was nervous." },
+              { id: "b", text: "Dara felt nervous and worried." },
+              { id: "c", text: "She was very nervous about the interview." },
+              { id: "d", text: "Her fingers twisted the strap of her bag until the knuckles whitened." },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "skill", name: "Show, don't tell", statement: "Use physical detail to imply emotion." }],

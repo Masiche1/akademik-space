@@ -69,12 +69,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Versailles Treaty resentment" },
-              { id: "b", text: "Invasion of Poland" },
-              { id: "c", text: "Nazi-Soviet Pact" },
+              { id: "a", text: "Invasion of Poland" },
+              { id: "b", text: "Nazi-Soviet Pact" },
+              { id: "c", text: "Versailles Treaty resentment" },
               { id: "d", text: "Declaration of war" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -237,6 +237,452 @@ export const lesson32: Lesson = {
               "(a) Versailles (b) economic/ideological (c) expansion",
           },
         },
+        {
+          id: "oleh-u3-wl-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Which of these is a SHORT-term cause of WWII?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "The Great Depression" },
+              { id: "b", text: "The rise of fascism" },
+              { id: "c", text: "The invasion of Poland in 1939" },
+              { id: "d", text: "The Treaty of Versailles" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Long vs short term",
+                statement: "Short-term = immediate triggers.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Poland invasion was the immediate trigger.",
+                marks: 1,
+                markCode: "AO1",
+              },
+            ],
+            finalAnswer: "**(a)** The invasion of Poland in 1939",
+            commonErrors: ["Confusing long and short term."],
+          },
+        },
+        {
+          id: "oleh-u3-wl-q6",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "What was 'Lebensraum'?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "A League of Nations body" },
+              { id: "b", text: "A type of submarine" },
+              { id: "c", text: "A German welfare programme" },
+              { id: "d", text: "Nazi idea of 'living space' for German expansion" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Lebensraum",
+                statement: "Nazi 'living space' expansion ideology.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Lebensraum = living space for expansion.",
+                marks: 1,
+                markCode: "AO1",
+              },
+            ],
+            finalAnswer: "**(a)** Nazi idea of 'living space' for German expansion",
+            commonErrors: ["Confusing with economic policy."],
+          },
+        },
+        {
+          id: "oleh-u3-wl-q7",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "In which year did the Great Depression begin?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 1929 }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Great Depression",
+                statement: "Began 1929 (Wall Street Crash).",
+              },
+            ],
+            steps: [
+              { reasoning: "Depression began 1929.", marks: 1, markCode: "AO1" },
+            ],
+            finalAnswer: "1929",
+          },
+        },
+        {
+          id: "oleh-u3-wl-q8",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "How did the Great Depression help extremist parties gain power?",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Depression effect",
+                statement: "Economic crisis boosted extremism.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Mass unemployment and hardship.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                reasoning: "Voters turned to parties promising order/jobs.",
+                marks: 1,
+                markCode: "AO2",
+              },
+            ],
+            finalAnswer:
+              "Unemployment and hardship made voters support extremist parties promising order and jobs.",
+            commonErrors: ["Unrelated answers."],
+          },
+        },
+        {
+          id: "oleh-u3-wl-q9",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Which powers are classed as 'revisionist' — wanting to overturn the Versailles settlement?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Spain and Portugal" },
+              { id: "b", text: "USSR and Poland" },
+              { id: "c", text: "Germany, Italy and Japan" },
+              { id: "d", text: "Britain, France and USA" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Revisionist powers",
+                statement: "Germany, Italy, Japan.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Revisionists wanted to overturn treaties.",
+                marks: 1,
+                markCode: "AO1",
+              },
+            ],
+            finalAnswer: "**(a)** Germany, Italy and Japan",
+            commonErrors: ["Including the victors."],
+          },
+        },
+        {
+          id: "oleh-u3-wl-q10",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "Explain how the Treaty of Versailles created long-term resentment in Germany.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Versailles legacy",
+                statement: "Guilt+reparations+territory loss=resentment.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "War guilt clause (Article 231) humiliated Germany.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                reasoning: "Massive reparations burdened economy.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                reasoning: "Territorial losses (Polish Corridor) seen as national humiliation.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              { reasoning: "Clear explanation.", marks: 1, markCode: "AO3" },
+            ],
+            finalAnswer:
+              "War guilt, reparations, territorial losses and military limits created lasting German resentment.",
+            commonErrors: ["Only one grievance."],
+          },
+        },
+        {
+          id: "oleh-u3-wl-q11",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "In which year did Japan invade Manchuria?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 1931 }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Manchuria",
+                statement: "Invaded 1931.",
+              },
+            ],
+            steps: [
+              { reasoning: "Manchuria invaded 1931.", marks: 1, markCode: "AO1" },
+            ],
+            finalAnswer: "1931",
+          },
+        },
+        {
+          id: "oleh-u3-wl-q12",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Which ideological clash contributed to WWII?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Capitalism versus feudalism" },
+              { id: "b", text: "Christianity versus Islam" },
+              { id: "c", text: "Monarchy versus republic" },
+              { id: "d", text: "Fascism versus democracy and communism" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Ideological clash",
+                statement: "Fascism vs democracy/communism.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Ideological conflict deepened tensions.",
+                marks: 1,
+                markCode: "AO1",
+              },
+            ],
+            finalAnswer: "**(a)** Fascism versus democracy and communism",
+            commonErrors: ["Unrelated ideological pairs."],
+          },
+        },
+        {
+          id: "oleh-u3-wl-q13",
+          difficulty: "challenge",
+          totalMarks: 1,
+          stem: "Why did unchallenged aggression embolden the Axis powers?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "They were invited to expand" },
+              { id: "b", text: "The League's failures showed collective security was weak" },
+              { id: "c", text: "The USA supported them" },
+              { id: "d", text: "The USSR declared war on them" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Aggressor expansion",
+                statement: "League weakness encouraged aggression.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Unpunished aggression emboldened aggressors.",
+                marks: 1,
+                markCode: "AO2",
+              },
+            ],
+            finalAnswer: "**(a)** The League's failures showed collective security was weak",
+            commonErrors: ["Saying aggression was invited."],
+          },
+        },
+        {
+          id: "oleh-u3-wl-q14",
+          difficulty: "challenge",
+          totalMarks: 6,
+          stem: "Long-term causes of WWII.",
+          parts: [
+            { label: "a", prompt: "Versailles legacy?", marks: 2 },
+            { label: "b", prompt: "Economic/ideological factors?", marks: 2 },
+            { label: "c", prompt: "Aggressor expansion?", marks: 2 },
+          ],
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Long-term causes",
+                statement: "Versailles+Depression+expansion.",
+              },
+            ],
+            steps: [
+              {
+                part: "a",
+                reasoning: "German resentment/revisionism.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                part: "a",
+                reasoning: "Territorial/military humiliations.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                part: "b",
+                reasoning: "Depression→extremism; ideological clash.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                part: "b",
+                reasoning: "League failure encouraged aggression.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                part: "c",
+                reasoning: "Japan/Italy/Germany expansion.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                part: "c",
+                reasoning: "Each unchallenged step emboldened next.",
+                marks: 1,
+                markCode: "AO2",
+              },
+            ],
+            finalAnswer: "(a) Versailles (b) economic/ideological (c) expansion",
+          },
+        },
+        {
+          id: "oleh-u3-wl-q15",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "In which year did Italy invade Abyssinia?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 1935 }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Abyssinia",
+                statement: "Invaded 1935.",
+              },
+            ],
+            steps: [
+              { reasoning: "Italy invaded 1935.", marks: 1, markCode: "AO1" },
+            ],
+            finalAnswer: "1935",
+          },
+        },
+        {
+          id: "oleh-u3-wl-q16",
+          difficulty: "challenge",
+          totalMarks: 9,
+          stem: "Evaluate the long-term causes of World War II.",
+          parts: [
+            { label: "a", prompt: "Versailles legacy?", marks: 2 },
+            { label: "b", prompt: "Economic and ideological factors?", marks: 3 },
+            { label: "c", prompt: "Aggressor expansion?", marks: 2 },
+            { label: "d", prompt: "Overall significance?", marks: 2 },
+          ],
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Long-term causes",
+                statement: "Versailles+Depression+League+expansion.",
+              },
+            ],
+            steps: [
+              {
+                part: "a",
+                reasoning: "German resentment/revisionist powers.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                part: "a",
+                reasoning: "Territorial/military grievances.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                part: "b",
+                reasoning: "Depression→extremist support.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                part: "b",
+                reasoning: "Ideological clash fascism vs democracy.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                part: "b",
+                reasoning: "League failure encouraged aggression.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                part: "c",
+                reasoning: "Japan/Italy/Germany expansion unchallenged.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                part: "c",
+                reasoning: "Escalation pattern clear.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                part: "d",
+                reasoning: "Created conditions for war.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                part: "d",
+                reasoning: "Needed short-term triggers too.",
+                marks: 1,
+                markCode: "AO3",
+              },
+            ],
+            finalAnswer: "(a) Versailles (b) economic/ideological (c) expansion (d) significance",
+          },
+        },
       ],
     },
     {
@@ -280,12 +726,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "1 September 1939" },
-              { id: "b", text: "3 September 1939" },
-              { id: "c", text: "1 September 1938" },
-              { id: "d", text: "August 1939" },
+              { id: "a", text: "August 1939" },
+              { id: "b", text: "1 September 1938" },
+              { id: "c", text: "1 September 1939" },
+              { id: "d", text: "3 September 1939" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -443,6 +889,449 @@ export const lesson32: Lesson = {
               },
             ],
             finalAnswer: "(a) appeasement end (b) guarantee (c) Pact (d) war",
+          },
+        },
+        {
+          id: "oleh-u3-ws-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "When did Britain and France guarantee Poland's borders?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "June 1940" },
+              { id: "b", text: "March 1939" },
+              { id: "c", text: "August 1939" },
+              { id: "d", text: "September 1939" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Guarantee to Poland",
+                statement: "March 1939, after Hitler took Czechoslovakia.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Guarantee given March 1939.",
+                marks: 1,
+                markCode: "AO1",
+              },
+            ],
+            finalAnswer: "**(a)** March 1939",
+            commonErrors: ["Confusing with declarations of war."],
+          },
+        },
+        {
+          id: "oleh-u3-ws-q6",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "What effectively ended appeasement in March 1939?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "The Nazi-Soviet Pact" },
+              { id: "b", text: "Hitler took the rest of Czechoslovakia" },
+              { id: "c", text: "Pearl Harbor" },
+              { id: "d", text: "The invasion of Poland" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Appeasement end",
+                statement: "Hitler seized rest of Czechoslovakia.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Czechoslovakia's seizure ended appeasement.",
+                marks: 1,
+                markCode: "AO1",
+              },
+            ],
+            finalAnswer: "**(a)** Hitler took the rest of Czechoslovakia",
+            commonErrors: ["Confusing with Poland invasion."],
+          },
+        },
+        {
+          id: "oleh-u3-ws-q7",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "In which year did Germany invade France and the Low Countries?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 1940 }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Fall of France",
+                statement: "Invaded April-May 1940.",
+              },
+            ],
+            steps: [
+              { reasoning: "France invaded 1940.", marks: 1, markCode: "AO1" },
+            ],
+            finalAnswer: "1940",
+          },
+        },
+        {
+          id: "oleh-u3-ws-q8",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "What was Blitzkrieg?",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Blitzkrieg",
+                statement: "'Lightning war' — fast combined-arms tactic.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Fast combined air/armour/infantry assault.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                reasoning: "Used against Poland/France/USSR.",
+                marks: 1,
+                markCode: "AO2",
+              },
+            ],
+            finalAnswer:
+              "'Lightning war' — rapid combined-arms attack using tanks, aircraft and infantry.",
+            commonErrors: ["Thinking it was a defensive tactic."],
+          },
+        },
+        {
+          id: "oleh-u3-ws-q9",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "What happened on 7 December 1941?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "The Battle of Britain began" },
+              { id: "b", text: "VE Day" },
+              { id: "c", text: "Germany invaded Poland" },
+              { id: "d", text: "Japan attacked Pearl Harbor" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Pearl Harbor",
+                statement: "Dec 1941 — USA enters war.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Pearl Harbor attack Dec 1941.",
+                marks: 1,
+                markCode: "AO1",
+              },
+            ],
+            finalAnswer: "**(a)** Japan attacked Pearl Harbor",
+            commonErrors: ["Confusing dates."],
+          },
+        },
+        {
+          id: "oleh-u3-ws-q10",
+          difficulty: "challenge",
+          totalMarks: 3,
+          stem: "Why did the war become truly global in December 1941?",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Global war",
+                statement: "Pearl Harbor → USA enters.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Japan's Pearl Harbor attack.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                reasoning: "USA entered war against Axis.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              { reasoning: "Clear explanation.", marks: 1, markCode: "AO3" },
+            ],
+            finalAnswer:
+              "Pearl Harbor attack brought the USA into the war — fighting became genuinely global.",
+            commonErrors: ["Vague 'more countries joined' answer."],
+          },
+        },
+        {
+          id: "oleh-u3-ws-q11",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "In which year did France fall to Germany?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 1940 }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Fall of France",
+                statement: "France fell June 1940.",
+              },
+            ],
+            steps: [
+              { reasoning: "France fell 1940.", marks: 1, markCode: "AO1" },
+            ],
+            finalAnswer: "1940",
+          },
+        },
+        {
+          id: "oleh-u3-ws-q12",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "What was the Battle of Britain?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Naval battle in the Pacific" },
+              { id: "b", text: "Air battle that prevented German invasion of Britain" },
+              { id: "c", text: "Battle for Stalingrad" },
+              { id: "d", text: "Ground battle in Poland" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Battle of Britain",
+                statement: "1940 air battle; RAF won.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Air superiority prevented invasion.",
+                marks: 1,
+                markCode: "AO1",
+              },
+            ],
+            finalAnswer: "**(a)** Air battle that prevented German invasion of Britain",
+            commonErrors: ["Confusing with D-Day."],
+          },
+        },
+        {
+          id: "oleh-u3-ws-q13",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "When did Italy enter WWII on Germany's side?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "December 1941" },
+              { id: "b", text: "June 1940" },
+              { id: "c", text: "September 1939" },
+              { id: "d", text: "August 1945" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Italy enters",
+                statement: "June 1940.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Italy entered June 1940.",
+                marks: 1,
+                markCode: "AO1",
+              },
+            ],
+            finalAnswer: "**(a)** June 1940",
+            commonErrors: ["Confusing with later events."],
+          },
+        },
+        {
+          id: "oleh-u3-ws-q14",
+          difficulty: "challenge",
+          totalMarks: 6,
+          stem: "The outbreak of WWII.",
+          parts: [
+            { label: "a", prompt: "End of appeasement?", marks: 1 },
+            { label: "b", prompt: "Guarantee to Poland?", marks: 1 },
+            { label: "c", prompt: "Nazi-Soviet Pact?", marks: 2 },
+            { label: "d", prompt: "War declared?", marks: 2 },
+          ],
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Outbreak",
+                statement: "Appeasement→guarantee→Pact→war.",
+              },
+            ],
+            steps: [
+              {
+                part: "a",
+                reasoning: "Hitler took Czechoslovakia March 1939.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                part: "b",
+                reasoning: "Guarantee given March 1939.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                part: "c",
+                reasoning: "Non-aggression pact August 1939.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                part: "c",
+                reasoning: "Secret protocol split Poland.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                part: "d",
+                reasoning: "Poland invaded 1 Sept 1939.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                part: "d",
+                reasoning: "Britain/France declared war 3 Sept.",
+                marks: 1,
+                markCode: "AO2",
+              },
+            ],
+            finalAnswer: "(a) appeasement end (b) guarantee (c) Pact (d) war",
+          },
+        },
+        {
+          id: "oleh-u3-ws-q15",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "In which year did Japan attack Pearl Harbor?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 1941 }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Pearl Harbor",
+                statement: "December 1941.",
+              },
+            ],
+            steps: [
+              { reasoning: "Pearl Harbor 1941.", marks: 1, markCode: "AO1" },
+            ],
+            finalAnswer: "1941",
+          },
+        },
+        {
+          id: "oleh-u3-ws-q16",
+          difficulty: "challenge",
+          totalMarks: 9,
+          stem: "Explain the immediate causes of WWII's outbreak in 1939.",
+          parts: [
+            { label: "a", prompt: "Appeasement and its end?", marks: 2 },
+            { label: "b", prompt: "Guarantee to Poland?", marks: 2 },
+            { label: "c", prompt: "Nazi-Soviet Pact?", marks: 2 },
+            { label: "d", prompt: "Invasion and declarations of war?", marks: 3 },
+          ],
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Short-term causes",
+                statement: "Appeasement→guarantee→Pact→invasion→war.",
+              },
+            ],
+            steps: [
+              {
+                part: "a",
+                reasoning: "Munich 1938 concessions.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                part: "a",
+                reasoning: "Failed when Hitler took Czechoslovakia.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                part: "b",
+                reasoning: "March 1939 guarantee to Poland.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                part: "b",
+                reasoning: "Committed Britain/France to defend Poland.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                part: "c",
+                reasoning: "Pact August 1939 removed two-front war fear.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                part: "c",
+                reasoning: "Secret protocol divided Poland.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                part: "d",
+                reasoning: "Germany invaded Poland 1 Sept 1939.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                part: "d",
+                reasoning: "USSR invaded eastern Poland 17 Sept.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                part: "d",
+                reasoning: "Britain/France declared war 3 Sept; sequence clear.",
+                marks: 1,
+                markCode: "AO3",
+              },
+            ],
+            finalAnswer:
+              "(a) appeasement (b) guarantee (c) Pact (d) invasion and declarations",
           },
         },
       ],

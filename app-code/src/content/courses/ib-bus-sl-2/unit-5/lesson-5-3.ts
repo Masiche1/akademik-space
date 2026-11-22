@@ -56,10 +56,10 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A salary" },
+              { id: "a", text: "Piece rate" },
               { id: "b", text: "Commission" },
-              { id: "c", text: "Piece rate" },
-              { id: "d", text: "Overtime pay" },
+              { id: "c", text: "Overtime pay" },
+              { id: "d", text: "A salary" },
             ],
             correctChoiceId: "b",
           },
@@ -147,11 +147,11 @@ export const lesson53: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Pay calculated per unit produced" },
-              { id: "b", text: "Pay calculated per hour or per week worked" },
-              { id: "c", text: "A percentage of sales achieved" },
-              { id: "d", text: "A share of company profits" },
+              { id: "b", text: "A share of company profits" },
+              { id: "c", text: "Pay calculated per hour or per week worked" },
+              { id: "d", text: "A percentage of sales achieved" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Time rate", statement: "Pay calculated per hour or per week worked." }],
@@ -174,8 +174,8 @@ export const lesson53: Lesson = {
             choices: [
               { id: "a", text: "A fixed monthly salary regardless of output" },
               { id: "b", text: "For each unit produced" },
-              { id: "c", text: "A percentage of the firm's profits" },
-              { id: "d", text: "Only when weekly targets are missed" },
+              { id: "c", text: "Only when weekly targets are missed" },
+              { id: "d", text: "A percentage of the firm's profits" },
             ],
             correctChoiceId: "b",
           },
@@ -200,8 +200,8 @@ export const lesson53: Lesson = {
             choices: [
               { id: "a", text: "Salaries are always higher than wages" },
               { id: "b", text: "A salary is usually a fixed regular payment, often monthly, while a wage is usually calculated hourly" },
-              { id: "c", text: "Wages are paid only to managers" },
-              { id: "d", text: "Salaries are paid per unit produced" },
+              { id: "c", text: "Salaries are paid per unit produced" },
+              { id: "d", text: "Wages are paid only to managers" },
             ],
             correctChoiceId: "b",
           },
@@ -224,12 +224,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Pay deducted for poor performance" },
-              { id: "b", text: "An extra payment for exceeding targets or performing well" },
-              { id: "c", text: "The basic hourly rate of pay" },
-              { id: "d", text: "A loan repaid through payroll" },
+              { id: "a", text: "A loan repaid through payroll" },
+              { id: "b", text: "The basic hourly rate of pay" },
+              { id: "c", text: "An extra payment for exceeding targets or performing well" },
+              { id: "d", text: "Pay deducted for poor performance" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Bonus", statement: "Extra payment linked to exceeding targets or good performance." }],
@@ -250,12 +250,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A fixed amount regardless of results" },
-              { id: "b", text: "A share of the company's profits" },
-              { id: "c", text: "Pay only when targets are missed" },
-              { id: "d", text: "A bonus for working overtime" },
+              { id: "a", text: "A share of the company's profits" },
+              { id: "b", text: "A fixed amount regardless of results" },
+              { id: "c", text: "A bonus for working overtime" },
+              { id: "d", text: "Pay only when targets are missed" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Profit-related pay", statement: "Pay that shares company profits with employees." }],
@@ -331,12 +331,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It always maximises output per worker" },
-              { id: "b", text: "It gives workers a secure, predictable income" },
-              { id: "c", text: "It rewards each unit produced" },
-              { id: "d", text: "It removes the need for supervision" }
+              { id: "a", text: "It removes the need for supervision" },
+              { id: "b", text: "It rewards each unit produced" },
+              { id: "c", text: "It gives workers a secure, predictable income" },
+              { id: "d", text: "It always maximises output per worker" }
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Time-rate pay", statement: "Pay for hours worked — simple, secure, predictable." }],
@@ -422,11 +422,11 @@ export const lesson53: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Piece rate" },
-              { id: "b", text: "Commission" },
-              { id: "c", text: "Time rate" },
-              { id: "d", text: "Bonus" },
+              { id: "b", text: "Bonus" },
+              { id: "c", text: "Commission" },
+              { id: "d", text: "Time rate" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Time rate", statement: "Pay calculated per hour or per week worked." }],
@@ -484,12 +484,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Piece rate" },
-              { id: "b", text: "Commission" },
-              { id: "c", text: "Salary" },
-              { id: "d", text: "Profit-related pay" },
+              { id: "a", text: "Salary" },
+              { id: "b", text: "Piece rate" },
+              { id: "c", text: "Profit-related pay" },
+              { id: "d", text: "Commission" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Commission", statement: "Pay as a percentage of sales achieved." }],
@@ -511,11 +511,11 @@ export const lesson53: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "They are paid for time rather than output" },
-              { id: "b", text: "Rushing to produce more units can increase earnings" },
-              { id: "c", text: "Quality checks become stricter" },
+              { id: "b", text: "Quality checks become stricter" },
+              { id: "c", text: "Rushing to produce more units can increase earnings" },
               { id: "d", text: "Bonuses are guaranteed" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Piece-rate risk", statement: "Output incentives can reward speed over careful work." }],
@@ -536,12 +536,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A fixed salary only" },
-              { id: "b", text: "A share of company profits" },
-              { id: "c", text: "Pay per unit produced" },
-              { id: "d", text: "A bonus for working overtime" },
+              { id: "a", text: "A bonus for working overtime" },
+              { id: "b", text: "Pay per unit produced" },
+              { id: "c", text: "A share of company profits" },
+              { id: "d", text: "A fixed salary only" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Profit-related pay", statement: "Employees share in company profits." }],
@@ -602,12 +602,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Always rewards higher output" },
-              { id: "b", text: "May not motivate workers to increase output" },
-              { id: "c", text: "Is impossible to calculate" },
-              { id: "d", text: "Requires measuring every unit" },
+              { id: "a", text: "Is impossible to calculate" },
+              { id: "b", text: "Requires measuring every unit" },
+              { id: "c", text: "Always rewards higher output" },
+              { id: "d", text: "May not motivate workers to increase output" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Time-rate limitation", statement: "Pay for time may not reward extra effort or output." }],
@@ -697,10 +697,10 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Induction" },
+              { id: "a", text: "Job analysis" },
               { id: "b", text: "Performance appraisal" },
-              { id: "c", text: "Job analysis" },
-              { id: "d", text: "Grievance" },
+              { id: "c", text: "Grievance" },
+              { id: "d", text: "Induction" },
             ],
             correctChoiceId: "b",
           },
@@ -723,10 +723,10 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Only the employee's manager" },
-              { id: "b", text: "Only the employee" },
+              { id: "a", text: "Only external consultants" },
+              { id: "b", text: "Only the employee's manager" },
               { id: "c", text: "Managers, peers, subordinates and customers" },
-              { id: "d", text: "Only external consultants" },
+              { id: "d", text: "Only the employee" },
             ],
             correctChoiceId: "c",
           },
@@ -797,8 +797,8 @@ export const lesson53: Lesson = {
             choices: [
               { id: "a", text: "Set the employee's salary permanently" },
               { id: "b", text: "Review work against objectives and identify development needs" },
-              { id: "c", text: "Replace the need for training" },
-              { id: "d", text: "Decide who to hire" },
+              { id: "c", text: "Decide who to hire" },
+              { id: "d", text: "Replace the need for training" },
             ],
             correctChoiceId: "b",
           },
@@ -821,9 +821,9 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The manager rating the employee without discussion" },
+              { id: "a", text: "Collecting feedback from customers only" },
               { id: "b", text: "Setting specific targets and reviewing achievement against them" },
-              { id: "c", text: "Collecting feedback from customers only" },
+              { id: "c", text: "The manager rating the employee without discussion" },
               { id: "d", text: "A peer voting system for promotions" },
             ],
             correctChoiceId: "b",
@@ -847,12 +847,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Rates their own performance before discussion with the manager" },
-              { id: "b", text: "Is rated only by subordinates" },
+              { id: "a", text: "Is rated only by subordinates" },
+              { id: "b", text: "Is assessed by an external consultant" },
               { id: "c", text: "Skips the appraisal entirely" },
-              { id: "d", text: "Is assessed by an external consultant" },
+              { id: "d", text: "Rates their own performance before discussion with the manager" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Self-appraisal", statement: "The employee assesses their own work as part of the review." }],
@@ -873,12 +873,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Rating all employees the same" },
-              { id: "b", text: "One positive or negative trait colouring the whole appraisal" },
+              { id: "a", text: "Focusing only on recent mistakes" },
+              { id: "b", text: "Rating all employees the same" },
               { id: "c", text: "Giving everyone the highest rating" },
-              { id: "d", text: "Focusing only on recent mistakes" },
+              { id: "d", text: "One positive or negative trait colouring the whole appraisal" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Halo effect", statement: "One positive (or negative) trait colours the whole appraisal." }],
@@ -936,11 +936,11 @@ export const lesson53: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "(4 + 3 + 5) / 5" },
-              { id: "b", text: "(4 + 3 + 5) / 15 x 100" },
-              { id: "c", text: "(4 + 3 + 5) x 5" },
-              { id: "d", text: "(4 + 3 + 5) / 3" },
+              { id: "b", text: "(4 + 3 + 5) / 3" },
+              { id: "c", text: "(4 + 3 + 5) / 15 x 100" },
+              { id: "d", text: "(4 + 3 + 5) x 5" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Percentage score", statement: "Percentage = (total marks / maximum marks) x 100" }],
@@ -961,12 +961,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It guarantees promotion for good performers" },
-              { id: "b", text: "It identifies strengths, weaknesses and development needs" },
+              { id: "a", text: "It is always completely free of bias" },
+              { id: "b", text: "It guarantees promotion for good performers" },
               { id: "c", text: "It removes the need for clear objectives" },
-              { id: "d", text: "It is always completely free of bias" }
+              { id: "d", text: "It identifies strengths, weaknesses and development needs" }
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Appraisal benefits", statement: "Clear feedback, identifies training needs, motivates through recognition." }],
@@ -1071,12 +1071,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Replace all training" },
-              { id: "b", text: "Review work against objectives and identify development needs" },
-              { id: "c", text: "Set the recruitment budget" },
-              { id: "d", text: "Negotiate union pay claims" },
+              { id: "a", text: "Set the recruitment budget" },
+              { id: "b", text: "Replace all training" },
+              { id: "c", text: "Negotiate union pay claims" },
+              { id: "d", text: "Review work against objectives and identify development needs" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Performance appraisal", statement: "A formal review of work against agreed objectives." }],
@@ -1134,12 +1134,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Is reviewed only by customers" },
-              { id: "b", text: "Assesses their own performance before discussion with the manager" },
-              { id: "c", text: "Replaces the manager completely" },
-              { id: "d", text: "Sets company-wide targets" },
+              { id: "a", text: "Assesses their own performance before discussion with the manager" },
+              { id: "b", text: "Sets company-wide targets" },
+              { id: "c", text: "Is reviewed only by customers" },
+              { id: "d", text: "Replaces the manager completely" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Self-appraisal", statement: "Employee assesses their own performance before review." }],
@@ -1180,9 +1180,9 @@ export const lesson53: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "One good trait leads the manager to rate all areas highly" },
-              { id: "b", text: "Employees set their own targets" },
-              { id: "c", text: "Peers provide anonymous feedback" },
-              { id: "d", text: "Appraisals are held monthly" },
+              { id: "b", text: "Appraisals are held monthly" },
+              { id: "c", text: "Employees set their own targets" },
+              { id: "d", text: "Peers provide anonymous feedback" },
             ],
             correctChoiceId: "a",
           },
@@ -1245,8 +1245,8 @@ export const lesson53: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Identify training needs and support pay or promotion decisions" },
-              { id: "b", text: "Replace supervision entirely" },
-              { id: "c", text: "Eliminate the need for job descriptions" },
+              { id: "b", text: "Eliminate the need for job descriptions" },
+              { id: "c", text: "Replace supervision entirely" },
               { id: "d", text: "Avoid all performance discussions" },
             ],
             correctChoiceId: "a",
@@ -1289,9 +1289,9 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Manager relies on personal impressions" },
+              { id: "a", text: "Only the employee's self-assessment is used" },
               { id: "b", text: "Review uses measurable criteria linked to agreed objectives" },
-              { id: "c", text: "Only the employee's self-assessment is used" },
+              { id: "c", text: "Manager relies on personal impressions" },
               { id: "d", text: "Appraisal questions are unrelated to the job" },
             ],
             correctChoiceId: "b",

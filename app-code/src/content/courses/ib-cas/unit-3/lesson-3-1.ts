@@ -52,12 +52,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Just describing what happened" },
-              { id: "b", text: "Examining experience to extract learning" },
-              { id: "c", text: "Taking photographs" },
-              { id: "d", text: "Signing attendance sheets" },
+              { id: "a", text: "Signing attendance sheets" },
+              { id: "b", text: "Just describing what happened" },
+              { id: "c", text: "Examining experience to extract learning" },
+              { id: "d", text: "Taking photographs" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -147,12 +147,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Keeping a reflective journal" },
-              { id: "b", text: "Using Gibbs' reflective cycle" },
-              { id: "c", text: "Asking critical reflection questions" },
-              { id: "d", text: "Taking photographs of activities" },
+              { id: "a", text: "Asking critical reflection questions" },
+              { id: "b", text: "Taking photographs of activities" },
+              { id: "c", text: "Using Gibbs' reflective cycle" },
+              { id: "d", text: "Keeping a reflective journal" },
             ],
-            correctChoiceId: "d",
+            correctChoiceIb: "d",
           },
           markscheme: {
             principles: [
@@ -174,10 +174,10 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Is written in more detail" },
+              { id: "a", text: "Takes longer to complete" },
               { id: "b", text: "Analyses meaning, skills gained and future application" },
-              { id: "c", text: "Takes longer to complete" },
-              { id: "d", text: "Uses more photographs" },
+              { id: "c", text: "Uses more photographs" },
+              { id: "d", text: "Is written in more detail" },
             ],
             correctChoiceId: "b",
           },
@@ -201,12 +201,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Deep and critical" },
-              { id: "b", text: "Surface-level description" },
-              { id: "c", text: "A completed CAS project" },
-              { id: "d", text: "Metacognitive analysis" },
+              { id: "a", text: "Metacognitive analysis" },
+              { id: "b", text: "Deep and critical" },
+              { id: "c", text: "Surface-level description" },
+              { id: "d", text: "A completed CAS project" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -228,12 +228,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It is required by the supervisor" },
-              { id: "b", text: "It transforms experience into learning" },
-              { id: "c", text: "It increases the number of hours logged" },
-              { id: "d", text: "It replaces the need for activities" },
+              { id: "a", text: "It increases the number of hours logged" },
+              { id: "b", text: "It is required by the supervisor" },
+              { id: "c", text: "It replaces the need for activities" },
+              { id: "d", text: "It transforms experience into learning" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -255,12 +255,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Thinking about your own thinking and learning" },
+              { id: "a", text: "Memorising CAS requirements" },
               { id: "b", text: "Writing about other students' activities" },
-              { id: "c", text: "Memorising CAS requirements" },
+              { id: "c", text: "Thinking about your own thinking and learning" },
               { id: "d", text: "Counting completed hours" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -282,12 +282,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "What time did the activity start?" },
-              { id: "b", text: "What assumptions did I bring to this experience?" },
+              { id: "a", text: "What assumptions did I bring to this experience?" },
+              { id: "b", text: "What time did the activity start?" },
               { id: "c", text: "How many people attended?" },
               { id: "d", text: "What equipment was used?" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -311,8 +311,8 @@ export const lesson31: Lesson = {
             choices: [
               { id: "a", text: "Surface reflection" },
               { id: "b", text: "A changed perspective through analysis" },
-              { id: "c", text: "Incomplete documentation" },
-              { id: "d", text: "Lack of engagement" },
+              { id: "c", text: "Lack of engagement" },
+              { id: "d", text: "Incomplete documentation" },
             ],
             correctChoiceId: "b",
           },
@@ -573,12 +573,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Description" },
-              { id: "b", text: "Action plan" },
+              { id: "a", text: "Action plan" },
+              { id: "b", text: "Description" },
               { id: "c", text: "Feelings" },
               { id: "d", text: "Evaluation" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -668,12 +668,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "What will you do next time?" },
-              { id: "b", text: "What was good or bad about the experience?" },
-              { id: "c", text: "How did you feel during it?" },
-              { id: "d", text: "What exactly happened?" },
+              { id: "a", text: "What exactly happened?" },
+              { id: "b", text: "What will you do next time?" },
+              { id: "c", text: "What was good or bad about the experience?" },
+              { id: "d", text: "How did you feel during it?" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -696,11 +696,11 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Action plan comes first" },
-              { id: "b", text: "Description comes first" },
+              { id: "b", text: "Neither is part of the cycle" },
               { id: "c", text: "They happen simultaneously" },
-              { id: "d", text: "Neither is part of the cycle" },
+              { id: "d", text: "Description comes first" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -722,12 +722,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Listing the activities done" },
-              { id: "b", text: "Exploring why things happened as they did" },
-              { id: "c", text: "Planning future actions" },
-              { id: "d", text: "Recording attendance" },
+              { id: "a", text: "Recording attendance" },
+              { id: "b", text: "Planning future actions" },
+              { id: "c", text: "Exploring why things happened as they did" },
+              { id: "d", text: "Listing the activities done" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -749,12 +749,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Reduces the number of reflections needed" },
-              { id: "b", text: "Reveals patterns and builds integrated understanding" },
+              { id: "a", text: "Reveals patterns and builds integrated understanding" },
+              { id: "b", text: "Reduces the number of reflections needed" },
               { id: "c", text: "Is required for certificates" },
               { id: "d", text: "Only matters for the project" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -776,12 +776,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "How long did the activity last?" },
-              { id: "b", text: "What surprised me about the creative process?" },
-              { id: "c", text: "Who else participated?" },
-              { id: "d", text: "What materials were provided?" },
+              { id: "a", text: "What surprised me about the creative process?" },
+              { id: "b", text: "Who else participated?" },
+              { id: "c", text: "What materials were provided?" },
+              { id: "d", text: "How long did the activity last?" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -803,12 +803,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Surface reflection" },
-              { id: "b", text: "Connecting experiences to find patterns" },
-              { id: "c", text: "Incomplete documentation" },
+              { id: "a", text: "Connecting experiences to find patterns" },
+              { id: "b", text: "Incomplete documentation" },
+              { id: "c", text: "Surface reflection" },
               { id: "d", text: "Box-ticking" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -831,11 +831,11 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "What will you do next time?" },
-              { id: "b", text: "What did you learn from the experience?" },
-              { id: "c", text: "How did you feel?" },
-              { id: "d", text: "What was good or bad?" },
+              { id: "b", text: "How did you feel?" },
+              { id: "c", text: "What was good or bad?" },
+              { id: "d", text: "What did you learn from the experience?" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

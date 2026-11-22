@@ -39,11 +39,11 @@ export const lesson21: Lesson = {
           id: "va-u2-formal-elements-q1", difficulty: "foundation", totalMarks: 2,
           stem: "In formal analysis, 'implied texture' refers to:",
           response: { type: "mcq", choices: [
-            { id: "a", text: "Texture you can physically feel" },
-            { id: "b", text: "The illusion of texture created by paint or marks" },
-            { id: "c", text: "Texture found in the artist's materials" },
-            { id: "d", text: "Texture applied only in sculpture" },
-          ], correctChoiceId: "b" },
+            { id: "a", text: "The illusion of texture created by paint or marks" },
+            { id: "b", text: "Texture you can physically feel" },
+            { id: "c", text: "Texture applied only in sculpture" },
+            { id: "d", text: "Texture found in the artist's materials" },
+          ], correctChoiceId: "a" },
           markscheme: {
             principles: [{ kind: "definition", name: "Implied texture", statement: "Painted or drawn illusion of surface quality rather than actual relief." }],
             steps: [
@@ -119,10 +119,10 @@ export const lesson21: Lesson = {
           stem: "Which formal element most directly creates the illusion of depth on a flat picture surface?",
           response: { type: "mcq", choices: [
             { id: "a", text: "Hue of the colour scheme" },
-            { id: "b", text: "Overlapping forms and relative size" },
-            { id: "c", text: "Actual raised surface texture" },
+            { id: "b", text: "Actual raised surface texture" },
+            { id: "c", text: "Overlapping forms and relative size" },
             { id: "d", text: "The material of the frame" },
-          ], correctChoiceId: "b" },
+          ], correctChoiceId: "c" },
           markscheme: {
             principles: [{ kind: "principle", name: "Illusion of space", statement: "Overlapping, relative size and placement signal depth on a flat surface." }],
             steps: [
@@ -152,11 +152,11 @@ export const lesson21: Lesson = {
           id: "va-u2-formal-elements-q7", difficulty: "core", totalMarks: 3,
           stem: "A drawing in which all parallel lines converge toward a single vanishing point is using:",
           response: { type: "mcq", choices: [
-            { id: "a", text: "One-point linear perspective" },
+            { id: "a", text: "All-over composition" },
             { id: "b", text: "Chiaroscuro lighting" },
             { id: "c", text: "Tonal gradation" },
-            { id: "d", text: "All-over composition" },
-          ], correctChoiceId: "a" },
+            { id: "d", text: "One-point linear perspective" },
+          ], correctChoiceId: "d" },
           markscheme: {
             principles: [{ kind: "definition", name: "Linear perspective", statement: "Converging parallel lines toward a vanishing point create measurable depth." }],
             steps: [
@@ -174,8 +174,8 @@ export const lesson21: Lesson = {
           response: { type: "mcq", choices: [
             { id: "a", text: "Is canvas area the artist failed to use" },
             { id: "b", text: "Defines forms, balances positive shapes and paces the viewer's eye" },
-            { id: "c", text: "Refers to the unpainted border only" },
-            { id: "d", text: "Describes three-dimensional shadows" },
+            { id: "c", text: "Describes three-dimensional shadows" },
+            { id: "d", text: "Refers to the unpainted border only" },
           ], correctChoiceId: "b" },
           markscheme: {
             principles: [{ kind: "principle", name: "Negative space", statement: "Empty areas define forms, balance positives and can become meaningful shapes themselves." }],
@@ -191,11 +191,11 @@ export const lesson21: Lesson = {
           id: "va-u2-formal-elements-q9", difficulty: "foundation", totalMarks: 2,
           stem: "An implied line in an artwork is:",
           response: { type: "mcq", choices: [
-            { id: "a", text: "A physical ridge of paint or material" },
-            { id: "b", text: "A line suggested by aligned elements, gazes or edges" },
+            { id: "a", text: "A line suggested by aligned elements, gazes or edges" },
+            { id: "b", text: "The decorative border of the canvas" },
             { id: "c", text: "A line drawn strictly with a ruler" },
-            { id: "d", text: "The decorative border of the canvas" },
-          ], correctChoiceId: "b" },
+            { id: "d", text: "A physical ridge of paint or material" },
+          ], correctChoiceId: "a" },
           markscheme: {
             principles: [{ kind: "definition", name: "Implied line", statement: "A line created by alignment or direction rather than a continuous drawn mark." }],
             steps: [
@@ -226,11 +226,11 @@ export const lesson21: Lesson = {
           id: "va-u2-formal-elements-q11", difficulty: "core", totalMarks: 2,
           stem: "Chiaroscuro refers to:",
           response: { type: "mcq", choices: [
-            { id: "a", text: "Strong contrast between light and dark areas" },
-            { id: "b", text: "The repetition of a single motif" },
+            { id: "a", text: "The repetition of a single motif" },
+            { id: "b", text: "Strong contrast between light and dark areas" },
             { id: "c", text: "Perfect mirror symmetry" },
             { id: "d", text: "The use of complementary hues" },
-          ], correctChoiceId: "a" },
+          ], correctChoiceId: "b" },
           markscheme: {
             principles: [{ kind: "definition", name: "Chiaroscuro", statement: "Dramatic light-dark contrast that models form and heightens mood." }],
             steps: [
@@ -261,11 +261,11 @@ export const lesson21: Lesson = {
           id: "va-u2-formal-elements-q13", difficulty: "foundation", totalMarks: 2,
           stem: "Proportion in art refers to:",
           response: { type: "mcq", choices: [
-            { id: "a", text: "The price of the materials used" },
-            { id: "b", text: "The relative size of parts to each other and to the whole" },
-            { id: "c", text: "The number of figures depicted" },
-            { id: "d", text: "The dimensions of the canvas" },
-          ], correctChoiceId: "b" },
+            { id: "a", text: "The relative size of parts to each other and to the whole" },
+            { id: "b", text: "The price of the materials used" },
+            { id: "c", text: "The dimensions of the canvas" },
+            { id: "d", text: "The number of figures depicted" },
+          ], correctChoiceId: "a" },
           markscheme: {
             principles: [{ kind: "definition", name: "Proportion", statement: "The relative size relationships among parts of a form or composition." }],
             steps: [
@@ -325,11 +325,11 @@ export const lesson21: Lesson = {
           id: "va-u2-formal-elements-q16", difficulty: "core", totalMarks: 2,
           stem: "In a still life, a reflected image in a mirror or window primarily adds:",
           response: { type: "mcq", choices: [
-            { id: "a", text: "Actual surface texture" },
-            { id: "b", text: "Implied space and depth" },
+            { id: "a", text: "Implied space and depth" },
+            { id: "b", text: "Actual surface texture" },
             { id: "c", text: "Higher colour saturation" },
             { id: "d", text: "Guaranteed symmetry" },
-          ], correctChoiceId: "b" },
+          ], correctChoiceId: "a" },
           markscheme: {
             principles: [{ kind: "principle", name: "Reflections and space", statement: "Reflected images extend the depicted world and deepen spatial illusion." }],
             steps: [
@@ -366,11 +366,11 @@ export const lesson21: Lesson = {
           id: "va-u2-principles-organisation-q1", difficulty: "foundation", totalMarks: 2,
           stem: "Radial balance in a composition arranges elements:",
           response: { type: "mcq", choices: [
-            { id: "a", text: "In mirror image on either side" },
-            { id: "b", text: "Around a central point" },
-            { id: "c", text: "Along a horizontal baseline" },
+            { id: "a", text: "Along a horizontal baseline" },
+            { id: "b", text: "In mirror image on either side" },
+            { id: "c", text: "Around a central point" },
             { id: "d", text: "In random scattered positions" },
-          ], correctChoiceId: "b" },
+          ], correctChoiceId: "c" },
           markscheme: {
             principles: [{ kind: "definition", name: "Radial balance", statement: "Elements distributed evenly around a central axis or point." }],
             steps: [
@@ -445,11 +445,11 @@ export const lesson21: Lesson = {
           id: "va-u2-principles-organisation-q5", difficulty: "foundation", totalMarks: 2,
           stem: "Asymmetrical balance is achieved when:",
           response: { type: "mcq", choices: [
-            { id: "a", text: "Identical forms mirror each other exactly" },
-            { id: "b", text: "Different elements are arranged so their visual weight is equal" },
-            { id: "c", text: "All elements radiate from one centre" },
-            { id: "d", text: "Elements are placed randomly" },
-          ], correctChoiceId: "b" },
+            { id: "a", text: "Elements are placed randomly" },
+            { id: "b", text: "Identical forms mirror each other exactly" },
+            { id: "c", text: "Different elements are arranged so their visual weight is equal" },
+            { id: "d", text: "All elements radiate from one centre" },
+          ], correctChoiceId: "c" },
           markscheme: {
             principles: [{ kind: "definition", name: "Asymmetrical balance", statement: "Unequal but visually equivalent elements create dynamic equilibrium." }],
             steps: [
@@ -479,11 +479,11 @@ export const lesson21: Lesson = {
           id: "va-u2-principles-organisation-q7", difficulty: "core", totalMarks: 2,
           stem: "Unity in an artwork is best described as:",
           response: { type: "mcq", choices: [
-            { id: "a", text: "The absence of colour" },
-            { id: "b", text: "The quality that makes diverse parts feel like one coherent whole" },
-            { id: "c", text: "Perfect mirror symmetry" },
-            { id: "d", text: "Realistic detail in every element" },
-          ], correctChoiceId: "b" },
+            { id: "a", text: "The quality that makes diverse parts feel like one coherent whole" },
+            { id: "b", text: "Perfect mirror symmetry" },
+            { id: "c", text: "Realistic detail in every element" },
+            { id: "d", text: "The absence of colour" },
+          ], correctChoiceId: "a" },
           markscheme: {
             principles: [{ kind: "definition", name: "Unity", statement: "The cohesive quality that binds varied parts into a single work." }],
             steps: [
@@ -513,11 +513,11 @@ export const lesson21: Lesson = {
           id: "va-u2-principles-organisation-q9", difficulty: "foundation", totalMarks: 2,
           stem: "Visual weight refers to:",
           response: { type: "mcq", choices: [
-            { id: "a", text: "The physical heaviness of the materials" },
-            { id: "b", text: "How much an element attracts the eye and balances others" },
+            { id: "a", text: "The weight of the frame" },
+            { id: "b", text: "The physical heaviness of the materials" },
             { id: "c", text: "The market price of the artwork" },
-            { id: "d", text: "The weight of the frame" },
-          ], correctChoiceId: "b" },
+            { id: "d", text: "How much an element attracts the eye and balances others" },
+          ], correctChoiceId: "d" },
           markscheme: {
             principles: [{ kind: "definition", name: "Visual weight", statement: "The perceived pull an element exerts on the composition." }],
             steps: [
@@ -548,11 +548,11 @@ export const lesson21: Lesson = {
           id: "va-u2-principles-organisation-q11", difficulty: "core", totalMarks: 2,
           stem: "A poster uses one repeated logo shape in many colours and sizes. The quality that makes these varied elements feel like a single unified design is:",
           response: { type: "mcq", choices: [
-            { id: "a", text: "Contrast" },
-            { id: "b", text: "Asymmetry" },
-            { id: "c", text: "Unity" },
-            { id: "d", text: "Linear perspective" },
-          ], correctChoiceId: "c" },
+            { id: "a", text: "Linear perspective" },
+            { id: "b", text: "Unity" },
+            { id: "c", text: "Asymmetry" },
+            { id: "d", text: "Contrast" },
+          ], borrectChoiceId: "c" },
           markscheme: {
             principles: [{ kind: "definition", name: "Unity", statement: "The cohesive quality that binds varied elements into one whole." }],
             steps: [
@@ -583,11 +583,11 @@ export const lesson21: Lesson = {
           id: "va-u2-principles-organisation-q13", difficulty: "foundation", totalMarks: 2,
           stem: "A composition in which one large dark shape on one side is balanced by several small light shapes on the other is an example of:",
           response: { type: "mcq", choices: [
-            { id: "a", text: "Symmetrical balance" },
-            { id: "b", text: "Asymmetrical balance" },
-            { id: "c", text: "Radial balance" },
-            { id: "d", text: "Random placement" },
-          ], correctChoiceId: "b" },
+            { id: "a", text: "Asymmetrical balance" },
+            { id: "b", text: "Symmetrical balance" },
+            { id: "c", text: "Random placement" },
+            { id: "d", text: "Radial balance" },
+          ], correctChoiceId: "a" },
           markscheme: {
             principles: [{ kind: "principle", name: "Balance types", statement: "Equal weight can come from mirroring or from distributed difference." }],
             steps: [
@@ -632,9 +632,9 @@ export const lesson21: Lesson = {
           stem: "Creating emphasis through scale within a composition works by:",
           response: { type: "mcq", choices: [
             { id: "a", text: "Enlarging one element to raise its visual weight and establish hierarchy" },
-            { id: "b", text: "Adding more layers of varnish" },
-            { id: "c", text: "Repeating the picture frame" },
-            { id: "d", text: "Using only primary colours" },
+            { id: "b", text: "Using only primary colours" },
+            { id: "c", text: "Adding more layers of varnish" },
+            { id: "d", text: "Repeating the picture frame" },
           ], correctChoiceId: "a" },
           markscheme: {
             principles: [{ kind: "technique", name: "Scale as emphasis", statement: "Enlarging one element raises its visual weight and establishes hierarchy." }],
@@ -650,11 +650,11 @@ export const lesson21: Lesson = {
           id: "va-u2-principles-organisation-q16", difficulty: "core", totalMarks: 2,
           stem: "Rhythm in visual composition is most closely related to:",
           response: { type: "mcq", choices: [
-            { id: "a", text: "Musical notation" },
-            { id: "b", text: "Repeated elements creating a visual beat" },
-            { id: "c", text: "Colour saturation" },
-            { id: "d", text: "Linear perspective" },
-          ], correctChoiceId: "b" },
+            { id: "a", text: "Colour saturation" },
+            { id: "b", text: "Musical notation" },
+            { id: "c", text: "Linear perspective" },
+            { id: "d", text: "Repeated elements creating a visual beat" },
+          ], correctChoiceId: "d" },
           markscheme: {
             principles: [{ kind: "definition", name: "Rhythm", statement: "A visual beat produced by repeated elements at intervals." }],
             steps: [

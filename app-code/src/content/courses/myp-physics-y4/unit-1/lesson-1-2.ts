@@ -57,12 +57,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Joule" },
-              { id: "b", text: "Newton" },
-              { id: "c", text: "Pascal" },
-              { id: "d", text: "Watt" },
+              { id: "a", text: "Newton" },
+              { id: "b", text: "Joule" },
+              { id: "c", text: "Watt" },
+              { id: "d", text: "Pascal" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Force", statement: "Force measured in newtons (N)." }],
@@ -82,12 +82,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "2.7 N" },
-              { id: "b", text: "5.3 N" },
-              { id: "c", text: "6.0 N" },
-              { id: "d", text: "10.7 N" },
+              { id: "a", text: "10.7 N" },
+              { id: "b", text: "6.0 N" },
+              { id: "c", text: "2.7 N" },
+              { id: "d", text: "5.3 N" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "F = ma", statement: "$F = 4 \\times 1.5$" }],
@@ -108,12 +108,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Newton's first law — the body tends to continue moving forward" },
+              { id: "a", text: "Newton's third law — the seat pushes back" },
               { id: "b", text: "Newton's second law — the bus accelerates the person" },
-              { id: "c", text: "Newton's third law — the seat pushes back" },
+              { id: "c", text: "Newton's first law — the body tends to continue moving forward" },
               { id: "d", text: "Gravity pulls the person forward" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Inertia", statement: "Bodies resist changes in motion (first law)." }],
@@ -168,11 +168,11 @@ export const lesson12: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$F = mv$" },
-              { id: "b", text: "$F = ma$" },
+              { id: "b", text: "$F = \\frac{1}{2}mv^2$" },
               { id: "c", text: "$F = mgh$" },
-              { id: "d", text: "$F = \\frac{1}{2}mv^2$" },
+              { id: "d", text: "$F = ma$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "law", name: "Newton's second law", statement: "Resultant force = mass × acceleration." }],
@@ -236,12 +236,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "2 N" },
-              { id: "b", text: "9.8 N" },
-              { id: "c", text: "19.6 N" },
-              { id: "d", text: "20 N" },
+              { id: "a", text: "20 N" },
+              { id: "b", text: "19.6 N" },
+              { id: "c", text: "2 N" },
+              { id: "d", text: "9.8 N" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "W = mg", statement: "Weight = mass × gravitational field strength." }],
@@ -262,12 +262,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Weight of book and normal force on book" },
-              { id: "b", text: "Book pushes down on table; table pushes up on book" },
-              { id: "c", text: "Gravity pulls book down; table holds book up" },
-              { id: "d", text: "Book's weight and Earth's pull on book" },
+              { id: "a", text: "Book pushes down on table; table pushes up on book" },
+              { id: "b", text: "Gravity pulls book down; table holds book up" },
+              { id: "c", text: "Book's weight and Earth's pull on book" },
+              { id: "d", text: "Weight of book and normal force on book" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "law", name: "Newton's third law", statement: "Action–reaction: equal, opposite, act on different bodies." }],
@@ -288,12 +288,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "2.4 m/s² to the right" },
-              { id: "b", text: "5.6 m/s² to the right" },
-              { id: "c", text: "1.6 m/s² to the left" },
-              { id: "d", text: "4.0 m/s² to the right" },
+              { id: "a", text: "5.6 m/s² to the right" },
+              { id: "b", text: "2.4 m/s² to the right" },
+              { id: "c", text: "4.0 m/s² to the right" },
+              { id: "d", text: "1.6 m/s² to the left" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Resultant force", statement: "$F_{net} = 20 - 8 = 12$ N; then $a = F/m$." }],
@@ -338,12 +338,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "the tendency of an object to resist changes in its motion" },
-              { id: "b", text: "a force that pushes objects forward" },
-              { id: "c", text: "the speed of a moving object" },
+              { id: "a", text: "a force that pushes objects forward" },
+              { id: "b", text: "the speed of a moving object" },
+              { id: "c", text: "the tendency of an object to resist changes in its motion" },
               { id: "d", text: "the mass of an object" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Inertia", statement: "Resistance to change in motion — explained by Newton's first law." }],
@@ -435,10 +435,10 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The force on the rocket is larger than on the gases" },
+              { id: "a", text: "The forces cancel so nothing moves" },
               { id: "b", text: "The forces are equal in size, opposite in direction, and act on different bodies" },
               { id: "c", text: "Only the rocket experiences a force" },
-              { id: "d", text: "The forces cancel so nothing moves" },
+              { id: "d", text: "The force on the rocket is larger than on the gases" },
             ],
             correctChoiceId: "b",
           },
@@ -495,9 +495,9 @@ export const lesson12: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "kg m/s" },
-              { id: "b", text: "N" },
-              { id: "c", text: "J" },
-              { id: "d", text: "kg m/s²" },
+              { id: "b", text: "J" },
+              { id: "c", text: "kg m/s²" },
+              { id: "d", text: "N" },
             ],
             correctChoiceId: "a",
           },
@@ -519,10 +519,10 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "1.5 kg m/s" },
+              { id: "a", text: "9 kg m/s" },
               { id: "b", text: "5 kg m/s" },
               { id: "c", text: "6 kg m/s" },
-              { id: "d", text: "9 kg m/s" },
+              { id: "d", text: "1.5 kg m/s" },
             ],
             correctChoiceId: "c",
           },
@@ -545,12 +545,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "1 m/s" },
-              { id: "b", text: "0.4 m/s" },
-              { id: "c", text: "4 m/s" },
-              { id: "d", text: "100 m/s" },
+              { id: "a", text: "4 m/s" },
+              { id: "b", text: "100 m/s" },
+              { id: "c", text: "1 m/s" },
+              { id: "d", text: "0.4 m/s" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Conservation", statement: "$m_b v_b = m_r v_r$" }],
@@ -604,12 +604,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "only in perfectly elastic collisions" },
-              { id: "b", text: "no external forces act on the system" },
+              { id: "a", text: "the objects have equal mass" },
+              { id: "b", text: "only in perfectly elastic collisions" },
               { id: "c", text: "objects are moving slowly" },
-              { id: "d", text: "the objects have equal mass" },
+              { id: "d", text: "no external forces act on the system" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Conservation of momentum", statement: "Total momentum is conserved when no external forces act." }],
@@ -673,12 +673,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Zero — speed is unchanged" },
-              { id: "b", text: "Twice the original momentum, because direction reverses" },
-              { id: "c", text: "Half the original momentum" },
-              { id: "d", text: "The same as before but negative only" },
+              { id: "a", text: "The same as before but negative only" },
+              { id: "b", text: "Zero — speed is unchanged" },
+              { id: "c", text: "Twice the original momentum, because direction reverses" },
+              { id: "d", text: "Half the original momentum" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Δp = mΔv", statement: "Momentum is a vector; reversing direction doubles the change." }],
@@ -745,11 +745,11 @@ export const lesson12: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "A small force acting for a short time" },
-              { id: "b", text: "A large force acting for a long time" },
-              { id: "c", text: "A small force acting for a long time" },
-              { id: "d", text: "A large force acting for an instant" },
+              { id: "b", text: "A large force acting for an instant" },
+              { id: "c", text: "A large force acting for a long time" },
+              { id: "d", text: "A small force acting for a long time" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Impulse", statement: "$\\text{Impulse} = F \\times t = \\Delta p$ — larger F and larger t give larger impulse." }],
@@ -771,12 +771,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "N s" },
-              { id: "b", text: "J" },
-              { id: "c", text: "kg m/s²" },
-              { id: "d", text: "W" },
+              { id: "a", text: "W" },
+              { id: "b", text: "kg m/s²" },
+              { id: "c", text: "N s" },
+              { id: "d", text: "J" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Impulse", statement: "$\\text{Impulse} = F \\times t$ → N × s." }],
@@ -869,9 +869,9 @@ export const lesson12: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Equal to the momentum before the explosion (zero)" },
-              { id: "b", text: "Greater than before because energy is released" },
+              { id: "b", text: "Impossible to determine" },
               { id: "c", text: "Zero only if fragments have equal mass" },
-              { id: "d", text: "Impossible to determine" },
+              { id: "d", text: "Greater than before because energy is released" },
             ],
             correctChoiceId: "a",
           },

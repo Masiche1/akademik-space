@@ -50,8 +50,8 @@ export const lesson21: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$-\\frac13$" },
-              { id: "b", text: "$\\frac13$" },
-              { id: "c", text: "$-3$" },
+              { id: "b", text: "$-3$" },
+              { id: "c", text: "$\\frac13$" },
               { id: "d", text: "$3$" },
             ],
             correctChoiceId: "a",
@@ -160,9 +160,9 @@ export const lesson21: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$-2$" },
-              { id: "b", text: "$2$" },
-              { id: "c", text: "$-4$" },
-              { id: "d", text: "$4$" },
+              { id: "b", text: "$-4$" },
+              { id: "c", text: "$4$" },
+              { id: "d", text: "$2$" },
             ],
             correctChoiceId: "a",
           },
@@ -185,12 +185,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$(3,2)$" },
-              { id: "b", text: "$(2,2)$" },
-              { id: "c", text: "$(3,3)$" },
-              { id: "d", text: "$(-3,5)$" },
+              { id: "a", text: "$(-3,5)$" },
+              { id: "b", text: "$(3,3)$" },
+              { id: "c", text: "$(2,2)$" },
+              { id: "d", text: "$(3,2)$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "property", name: "Point on a line", statement: "A point $(x,y)$ lies on $ax+by+d=0$ when $ax+by+d=0$." }],
@@ -238,12 +238,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$y=4x-5$" },
-              { id: "b", text: "$y=4x+11$" },
-              { id: "c", text: "$y=4x+3$" },
-              { id: "d", text: "$y=-\\frac14x+\\frac72$" },
+              { id: "a", text: "$y=4x+3$" },
+              { id: "b", text: "$y=-\\frac14x+\\frac72$" },
+              { id: "c", text: "$y=4x+11$" },
+              { id: "d", text: "$y=4x-5$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "property", name: "Parallel lines", statement: "Parallel lines have equal gradients." }],
@@ -292,10 +292,10 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$4$" },
+              { id: "a", text: "$8$" },
               { id: "b", text: "$6$" },
-              { id: "c", text: "$8$" },
-              { id: "d", text: "$-2$" },
+              { id: "c", text: "$-2$" },
+              { id: "d", text: "$4$" },
             ],
             correctChoiceId: "b",
           },
@@ -380,12 +380,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$5$" },
-              { id: "b", text: "$-5$" },
-              { id: "c", text: "$-2$" },
+              { id: "a", text: "$-5$" },
+              { id: "b", text: "$-2$" },
+              { id: "c", text: "$5$" },
               { id: "d", text: "$10$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Intercept", statement: "Set $x=0$ to find the $y$-intercept." }],
@@ -464,12 +464,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$x+y=4$" },
-              { id: "b", text: "$x+y=2$" },
-              { id: "c", text: "$y=-x+2$" },
-              { id: "d", text: "$y=x+4$" },
+              { id: "a", text: "$y=x+4$" },
+              { id: "b", text: "$y=-x+2$" },
+              { id: "c", text: "$x+y=2$" },
+              { id: "d", text: "$x+y=4$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -520,12 +520,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$11$" },
-              { id: "b", text: "$49$" },
-              { id: "c", text: "$7$" },
+              { id: "a", text: "$7$" },
+              { id: "b", text: "$11$" },
+              { id: "c", text: "$49$" },
               { id: "d", text: "$16$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Composite function", statement: "$(f\\circ g)(x)=f(g(x))$" }],
@@ -625,12 +625,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$8$" },
-              { id: "b", text: "$4$" },
-              { id: "c", text: "$6$" },
-              { id: "d", text: "$5$" },
+              { id: "a", text: "$6$" },
+              { id: "b", text: "$5$" },
+              { id: "c", text: "$8$" },
+              { id: "d", text: "$4$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Composite function", statement: "$(g\\circ f)(x)=g(f(x))$: apply $f$ first, then $g$." }],
@@ -651,12 +651,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$x\\ne0$" },
-              { id: "b", text: "$x\\ne5$" },
+              { id: "a", text: "$x\\ne5$" },
+              { id: "b", text: "$x\\ne0$" },
               { id: "c", text: "$x>5$" },
               { id: "d", text: "$x\\in\\mathbb R$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "property", name: "Domain restriction", statement: "A rational function is undefined where its denominator is zero." }],
@@ -698,12 +698,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$y\\ge4$" },
-              { id: "b", text: "$y>4$" },
+              { id: "a", text: "$y>4$" },
+              { id: "b", text: "$y\\ge4$" },
               { id: "c", text: "$y\\ge0$" },
               { id: "d", text: "$y\\le4$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "property", name: "Range of a quadratic", statement: "Since $x^2\\ge0$, the minimum value of $x^2+4$ is $4$." }],
@@ -749,12 +749,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$x\\ge-3$" },
-              { id: "b", text: "$x>-3$" },
-              { id: "c", text: "$x\\ge3$" },
-              { id: "d", text: "$x\\le-3$" },
+              { id: "a", text: "$x\\le-3$" },
+              { id: "b", text: "$x\\ge-3$" },
+              { id: "c", text: "$x>-3$" },
+              { id: "d", text: "$x\\ge3$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "property", name: "Domain of a square root", statement: "The radicand must be non-negative: $x+3\\ge0$." }],
@@ -834,12 +834,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$3x-1$" },
-              { id: "b", text: "$\\frac{x-1}{3}$" },
-              { id: "c", text: "$3(x+1)$" },
+              { id: "a", text: "$\\frac{x-1}{3}$" },
+              { id: "b", text: "$3(x+1)$" },
+              { id: "c", text: "$3x-1$" },
               { id: "d", text: "$\\frac{x}{3}+1$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Inverse function", statement: "Swap $x$ and $y$ and solve for $y$." }],
@@ -906,12 +906,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\frac32$" },
-              { id: "b", text: "$\\frac13$" },
-              { id: "c", text: "$\\frac52$" },
+              { id: "a", text: "$\\frac13$" },
+              { id: "b", text: "$\\frac52$" },
+              { id: "c", text: "$\\frac32$" },
               { id: "d", text: "$2$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Composite function", statement: "$(g\\circ f)(x)=g(f(x))$: apply $f$ first." }],

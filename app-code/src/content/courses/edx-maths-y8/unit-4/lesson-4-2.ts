@@ -52,10 +52,10 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Positive correlation" },
+              { id: "a", text: "Perfect correlation" },
               { id: "b", text: "Negative correlation" },
-              { id: "c", text: "No correlation" },
-              { id: "d", text: "Perfect correlation" },
+              { id: "c", text: "Positive correlation" },
+              { id: "d", text: "No correlation" },
             ],
             correctChoiceId: "b",
           },
@@ -178,12 +178,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Route A is more consistent because it has the smaller range" },
+              { id: "a", text: "Both routes are equally consistent" },
               { id: "b", text: "Route B is more consistent because it has the larger range" },
-              { id: "c", text: "Route A is slower because it has the smaller range" },
-              { id: "d", text: "Both routes are equally consistent" },
+              { id: "c", text: "Route A is more consistent because it has the smaller range" },
+              { id: "d", text: "Route A is slower because it has the smaller range" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Range and consistency", statement: "A smaller range means the data is less spread out, so more consistent." }],

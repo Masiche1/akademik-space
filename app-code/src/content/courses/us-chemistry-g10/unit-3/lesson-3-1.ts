@@ -49,12 +49,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Atoms are conserved, so each element has the same number of atoms on both sides." },
+              { id: "a", text: "Subscripts can be changed to make the numbers of atoms equal." },
               { id: "b", text: "The number of molecules is always the same before and after a reaction." },
               { id: "c", text: "The number of compounds is always the same before and after a reaction." },
-              { id: "d", text: "Subscripts can be changed to make the numbers of atoms equal." },
+              { id: "d", text: "Atoms are conserved, so each element has the same number of atoms on both sides." },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -179,12 +179,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Synthesis" },
-              { id: "b", text: "Decomposition" },
-              { id: "c", text: "Single replacement" },
-              { id: "d", text: "Combustion" },
+              { id: "a", text: "Single replacement" },
+              { id: "b", text: "Synthesis" },
+              { id: "c", text: "Combustion" },
+              { id: "d", text: "Decomposition" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

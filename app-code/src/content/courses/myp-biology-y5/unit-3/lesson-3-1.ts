@@ -57,12 +57,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The fastest rate of population growth" },
-              { id: "b", text: "The maximum population size an environment can sustain" },
-              { id: "c", text: "The smallest viable population" },
-              { id: "d", text: "The number of predators in an area" },
+              { id: "a", text: "The maximum population size an environment can sustain" },
+              { id: "b", text: "The fastest rate of population growth" },
+              { id: "c", text: "The number of predators in an area" },
+              { id: "d", text: "The smallest viable population" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -84,10 +84,10 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A volcanic eruption" },
+              { id: "a", text: "A flood" },
               { id: "b", text: "Competition for food" },
               { id: "c", text: "An early frost" },
-              { id: "d", text: "A flood" },
+              { id: "d", text: "A volcanic eruption" },
             ],
             correctChoiceId: "b",
           },
@@ -112,12 +112,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Primary succession — soil must form from rock first" },
-              { id: "b", text: "Secondary succession — surviving soil, seeds and organic matter speed recovery" },
+              { id: "a", text: "Pioneer stage — no soil exists" },
+              { id: "b", text: "Primary succession — soil must form from rock first" },
               { id: "c", text: "Climax community — succession is complete" },
-              { id: "d", text: "Pioneer stage — no soil exists" },
+              { id: "d", text: "Secondary succession — surviving soil, seeds and organic matter speed recovery" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -205,7 +205,7 @@ export const lesson31: Lesson = {
           difficulty: "core",
           totalMarks: 1,
           stem: "During which phase does population growth occur most rapidly?",
-          response: { type: "mcq", choices: [{ id: "a", text: "Lag phase" }, { id: "b", text: "Log/exponential phase" }, { id: "c", text: "Stationary phase" }, { id: "d", text: "Extinction phase" }], correctChoiceId: "b" },
+          response: { type: "mcq", choices: [ { id: "a", text: "Stationary phase" }, { id: "b", text: "Log/exponential phase" }, { id: "c", text: "Lag phase" }, { id: "d", text: "Extinction phase" } ], correctChoiceId: "b" },
           markscheme: { principles: [{ kind: "definition", name: "Log phase", statement: "During log/exponential phase resources are abundant and growth is fastest." }], steps: [{ reasoning: "Growth rate is proportional to population size when resources are unlimited.", working: "log\\text{ phase}", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Log/exponential phase" },
         },
         {
@@ -233,7 +233,7 @@ export const lesson31: Lesson = {
           difficulty: "challenge",
           totalMarks: 1,
           stem: "Which factor is density-dependent?",
-          response: { type: "mcq", choices: [{ id: "a", text: "A frost killing plants regardless of density" }, { id: "b", text: "Disease spreading faster when population density is high" }, { id: "c", text: "A volcanic eruption" }, { id: "d", text: "A flood" }], correctChoiceId: "b" },
+          response: { type: "mcq", choices: [ { id: "a", text: "Disease spreading faster when population density is high" }, { id: "b", text: "A volcanic eruption" }, { id: "c", text: "A flood" }, { id: "d", text: "A frost killing plants regardless of density" } ], correctChoiceId: "a" },
           markscheme: { principles: [{ kind: "definition", name: "Density-dependent factor", statement: "Its effect changes with population density, e.g. disease, food shortage and predation." }], steps: [{ reasoning: "Frost, volcanoes and floods act regardless of density.", working: "density\\text{ dependent}", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Disease spreading faster when population density is high" },
         },
         {
@@ -249,7 +249,7 @@ export const lesson31: Lesson = {
           difficulty: "foundation",
           totalMarks: 1,
           stem: "Which organisms are usually pioneer species?",
-          response: { type: "mcq", choices: [{ id: "a", text: "Large slow-growing trees" }, { id: "b", text: "Small hardy fast-reproducing organisms such as lichens" }, { id: "c", text: "Top predators" }, { id: "d", text: "Domestic animals" }], correctChoiceId: "b" },
+          response: { type: "mcq", choices: [ { id: "a", text: "Small hardy fast-reproducing organisms such as lichens" }, { id: "b", text: "Large slow-growing trees" }, { id: "c", text: "Top predators" }, { id: "d", text: "Domestic animals" } ], correctChoiceId: "a" },
           markscheme: { principles: [{ kind: "definition", name: "Pioneer species", statement: "Pioneers are hardy, fast-colonising organisms that tolerate harsh conditions." }], steps: [{ reasoning: "Lichens and mosses can survive on bare rock and start soil formation.", working: "pioneers", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Small hardy fast-reproducing organisms such as lichens" },
         },
         {
@@ -257,7 +257,7 @@ export const lesson31: Lesson = {
           difficulty: "core",
           totalMarks: 1,
           stem: "What distinguishes secondary succession from primary succession?",
-          response: { type: "mcq", choices: [{ id: "a", text: "Secondary succession starts on bare rock" }, { id: "b", text: "Secondary succession occurs where soil and some organisms remain after disturbance" }, { id: "c", text: "Secondary succession has no climax community" }, { id: "d", text: "Secondary succession cannot produce trees" }], correctChoiceId: "b" },
+          response: { type: "mcq", choices: [ { id: "a", text: "Secondary succession starts on bare rock" }, { id: "b", text: "Secondary succession has no climax community" }, { id: "c", text: "Secondary succession cannot produce trees" }, { id: "d", text: "Secondary succession occurs where soil and some organisms remain after disturbance" } ], correctChoiceId: "d" },
           markscheme: { principles: [{ kind: "comparison", name: "Succession types", statement: "Primary starts without soil; secondary starts after disturbance with soil remaining." }], steps: [{ reasoning: "Remaining soil makes secondary succession faster than primary.", working: "soil remains", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Secondary succession occurs where soil and some organisms remain after disturbance" },
         },
         {
@@ -265,7 +265,7 @@ export const lesson31: Lesson = {
           difficulty: "challenge",
           totalMarks: 1,
           stem: "What is a climax community?",
-          response: { type: "mcq", choices: [{ id: "a", text: "The first organisms to arrive" }, { id: "b", text: "A relatively stable final community in succession" }, { id: "c", text: "A population below carrying capacity" }, { id: "d", text: "A community destroyed by fire" }], correctChoiceId: "b" },
+          response: { type: "mcq", choices: [ { id: "a", text: "A population below carrying capacity" }, { id: "b", text: "A relatively stable final community in succession" }, { id: "c", text: "A community destroyed by fire" }, { id: "d", text: "The first organisms to arrive" } ], correctChoiceId: "b" },
           markscheme: { principles: [{ kind: "definition", name: "Climax community", statement: "The climax community is the relatively stable endpoint of succession." }], steps: [{ reasoning: "It is usually dominated by late-successional species such as trees.", working: "climax", marks: 1, markCode: "B" }], finalAnswer: "**(b)** A relatively stable final community in succession" },
         },
       ],
@@ -308,12 +308,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Denitrification" },
-              { id: "b", text: "Nitrogen fixation" },
-              { id: "c", text: "Photosynthesis" },
-              { id: "d", text: "Respiration" },
+              { id: "a", text: "Respiration" },
+              { id: "b", text: "Photosynthesis" },
+              { id: "c", text: "Nitrogen fixation" },
+              { id: "d", text: "Denitrification" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -335,12 +335,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Photosynthesis and cellular respiration" },
+              { id: "a", text: "Transpiration and combustion" },
               { id: "b", text: "Decomposition and evaporation" },
-              { id: "c", text: "Transpiration and combustion" },
+              { id: "c", text: "Photosynthesis and cellular respiration" },
               { id: "d", text: "Nitrogen fixation and denitrification" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -363,12 +363,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Legumes fix nitrogen via Rhizobium in root nodules, enriching soil for following crops" },
+              { id: "a", text: "Legumes release oxygen that kills soil bacteria" },
               { id: "b", text: "Legumes absorb all nitrates, preventing leaching" },
-              { id: "c", text: "Legumes release oxygen that kills soil bacteria" },
-              { id: "d", text: "Legumes convert nitrates directly to N2 gas" },
+              { id: "c", text: "Legumes convert nitrates directly to N2 gas" },
+              { id: "d", text: "Legumes fix nitrogen via Rhizobium in root nodules, enriching soil for following crops" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -484,7 +484,7 @@ export const lesson31: Lesson = {
           difficulty: "challenge",
           totalMarks: 1,
           stem: "Which process returns nitrogen gas to the atmosphere?",
-          response: { type: "mcq", choices: [{ id: "a", text: "Nitrification" }, { id: "b", text: "Denitrification" }, { id: "c", text: "Nitrogen fixation" }, { id: "d", text: "Transpiration" }], correctChoiceId: "b" },
+          response: { type: "mcq", choices: [ { id: "a", text: "Transpiration" }, { id: "b", text: "Denitrification" }, { id: "c", text: "Nitrification" }, { id: "d", text: "Nitrogen fixation" } ], correctChoiceId: "b" },
           markscheme: { principles: [{ kind: "definition", name: "Denitrification", statement: "Denitrifying bacteria convert nitrates back to atmospheric N$_2$." }], steps: [{ reasoning: "Denitrification completes the nitrogen cycle.", working: "NO_3^-\\to N_2", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Denitrification" },
         },
         {
@@ -512,7 +512,7 @@ export const lesson31: Lesson = {
           difficulty: "core",
           totalMarks: 1,
           stem: "Where is biological nitrogen fixation commonly carried out?",
-          response: { type: "mcq", choices: [{ id: "a", text: "In root nodules of legumes by Rhizobium" }, { id: "b", text: "In the lungs" }, { id: "c", text: "In the stomach only" }, { id: "d", text: "In xylem vessels" }], correctChoiceId: "a" },
+          response: { type: "mcq", choices: [ { id: "a", text: "In root nodules of legumes by Rhizobium" }, { id: "b", text: "In the stomach only" }, { id: "c", text: "In the lungs" }, { id: "d", text: "In xylem vessels" } ], correctChoiceId: "a" },
           markscheme: { principles: [{ kind: "definition", name: "Nitrogen fixation", statement: "Rhizobium bacteria in legume root nodules fix atmospheric N$_2$." }], steps: [{ reasoning: "The plant–bacterium mutualism provides usable nitrogen.", working: "Rhizobium", marks: 1, markCode: "B" }], finalAnswer: "**(a)** In root nodules of legumes by Rhizobium" },
         },
         {
@@ -520,7 +520,7 @@ export const lesson31: Lesson = {
           difficulty: "challenge",
           totalMarks: 1,
           stem: "Why does absorbing more CO$_2$ cause ocean acidification?",
-          response: { type: "mcq", choices: [{ id: "a", text: "CO$_2$ forms carbonic acid in seawater" }, { id: "b", text: "It increases salt concentration only" }, { id: "c", text: "It stops all photosynthesis" }, { id: "d", text: "It removes oxygen from water" }], correctChoiceId: "a" },
+          response: { type: "mcq", choices: [ { id: "a", text: "It increases salt concentration only" }, { id: "b", text: "CO$_2$ forms carbonic acid in seawater" }, { id: "c", text: "It removes oxygen from water" }, { id: "d", text: "It stops all photosynthesis" } ], correctChoiceId: "b" },
           markscheme: { principles: [{ kind: "principle", name: "Ocean acidification", statement: "Dissolved CO$_2$ reacts with water to form carbonic acid, lowering pH." }], steps: [{ reasoning: "Lower pH harms coral and shell-forming organisms.", working: "carbonic\\text{ acid}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** CO$_2$ forms carbonic acid in seawater" },
         },
       ],

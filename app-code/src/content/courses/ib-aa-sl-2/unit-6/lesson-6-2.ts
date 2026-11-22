@@ -49,9 +49,9 @@ export const lesson62: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$8$" },
-              { id: "b", text: "$12$" },
-              { id: "c", text: "$6$" },
-              { id: "d", text: "$4$" },
+              { id: "b", text: "$6$" },
+              { id: "c", text: "$4$" },
+              { id: "d", text: "$12$" },
             ],
             correctChoiceId: "a",
           },
@@ -168,10 +168,10 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$6$" },
+              { id: "a", text: "$8$" },
               { id: "b", text: "$4$" },
-              { id: "c", text: "$2$" },
-              { id: "d", text: "$8$" },
+              { id: "c", text: "$6$" },
+              { id: "d", text: "$2$" },
             ],
             correctChoiceId: "b",
           },
@@ -196,10 +196,10 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$0$" },
-              { id: "b", text: "$-2$" },
+              { id: "a", text: "$1$" },
+              { id: "b", text: "$0$" },
               { id: "c", text: "$2$" },
-              { id: "d", text: "$1$" },
+              { id: "d", text: "$-2$" },
             ],
             correctChoiceId: "c",
           },
@@ -224,10 +224,10 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$2$" },
+              { id: "a", text: "$\\dfrac{3}{2}$" },
               { id: "b", text: "$1$" },
-              { id: "c", text: "$\\ln 2$" },
-              { id: "d", text: "$\\dfrac{3}{2}$" },
+              { id: "c", text: "$2$" },
+              { id: "d", text: "$\\ln 2$" },
             ],
             correctChoiceId: "b",
           },
@@ -253,11 +253,11 @@ export const lesson62: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$\\dfrac{1}{2}$" },
-              { id: "b", text: "$0$" },
-              { id: "c", text: "$-\\dfrac{1}{2}$" },
-              { id: "d", text: "$2$" },
+              { id: "b", text: "$2$" },
+              { id: "c", text: "$0$" },
+              { id: "d", text: "$-\\dfrac{1}{2}$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -281,9 +281,9 @@ export const lesson62: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$-\\dfrac{1}{6}$" },
-              { id: "b", text: "$\\dfrac{1}{6}$" },
-              { id: "c", text: "$-\\dfrac{1}{2}$" },
-              { id: "d", text: "$0$" },
+              { id: "b", text: "$0$" },
+              { id: "c", text: "$\\dfrac{1}{6}$" },
+              { id: "d", text: "$-\\dfrac{1}{2}$" },
             ],
             correctChoiceId: "a",
           },
@@ -309,11 +309,11 @@ export const lesson62: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$4$" },
-              { id: "b", text: "$0$" },
-              { id: "c", text: "$-4$" },
-              { id: "d", text: "$8$" },
+              { id: "b", text: "$8$" },
+              { id: "c", text: "$0$" },
+              { id: "d", text: "$-4$" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -530,9 +530,9 @@ export const lesson62: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$\\displaystyle\\int_0^1(x-x^2)\\,dx$" },
-              { id: "b", text: "$\\displaystyle\\int_0^1(x^2-x)\\,dx$" },
-              { id: "c", text: "$\\displaystyle\\int_0^1(x+x^2)\\,dx$" },
-              { id: "d", text: "$\\displaystyle\\int_0^1x\\cdot x^2\\,dx$" },
+              { id: "b", text: "$\\displaystyle\\int_0^1x\\cdot x^2\\,dx$" },
+              { id: "c", text: "$\\displaystyle\\int_0^1(x^2-x)\\,dx$" },
+              { id: "d", text: "$\\displaystyle\\int_0^1(x+x^2)\\,dx$" },
             ],
             correctChoiceId: "a",
           },
@@ -649,12 +649,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\displaystyle\\int_0^2(x^2-2x)\\,dx$" },
-              { id: "b", text: "$\\displaystyle\\int_0^2(2x-x^2)\\,dx$" },
-              { id: "c", text: "$\\displaystyle\\int_0^2(2x+x^2)\\,dx$" },
-              { id: "d", text: "$\\displaystyle\\int_0^2(2x)(x^2)\\,dx$" },
+              { id: "a", text: "$\\displaystyle\\int_0^2(2x+x^2)\\,dx$" },
+              { id: "b", text: "$\\displaystyle\\int_0^2(2x)(x^2)\\,dx$" },
+              { id: "c", text: "$\\displaystyle\\int_0^2(2x-x^2)\\,dx$" },
+              { id: "d", text: "$\\displaystyle\\int_0^2(x^2-2x)\\,dx$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -677,12 +677,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\dfrac{1}{6}$" },
-              { id: "b", text: "$\\dfrac{1}{2}$" },
+              { id: "a", text: "$\\dfrac{1}{2}$" },
+              { id: "b", text: "$\\dfrac{5}{6}$" },
               { id: "c", text: "$\\dfrac{1}{3}$" },
-              { id: "d", text: "$\\dfrac{5}{6}$" },
+              { id: "d", text: "$\\dfrac{1}{6}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -706,11 +706,11 @@ export const lesson62: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$\\displaystyle\\int_{-2}^{3}(x^2-x-6)\\,dx$" },
-              { id: "b", text: "$\\displaystyle\\int_{-2}^{3}(x+6-x^2)\\,dx$" },
-              { id: "c", text: "$\\displaystyle\\int_{0}^{3}(x+6-x^2)\\,dx$" },
-              { id: "d", text: "$\\displaystyle\\int_{-2}^{3}(6-x-x^2)\\,dx$" },
+              { id: "b", text: "$\\displaystyle\\int_{-2}^{3}(6-x-x^2)\\,dx$" },
+              { id: "c", text: "$\\displaystyle\\int_{-2}^{3}(x+6-x^2)\\,dx$" },
+              { id: "d", text: "$\\displaystyle\\int_{0}^{3}(x+6-x^2)\\,dx$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -733,12 +733,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$0.307$" },
-              { id: "b", text: "$0.693$" },
-              { id: "c", text: "$1.307$" },
-              { id: "d", text: "$2$" },
+              { id: "a", text: "$2$" },
+              { id: "b", text: "$1.307$" },
+              { id: "c", text: "$0.307$" },
+              { id: "d", text: "$0.693$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -763,10 +763,10 @@ export const lesson62: Lesson = {
             choices: [
               { id: "a", text: "$8$" },
               { id: "b", text: "$5.33$" },
-              { id: "c", text: "$10.7$" },
-              { id: "d", text: "$21.3$" },
+              { id: "c", text: "$21.3$" },
+              { id: "d", text: "$10.7$" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -791,8 +791,8 @@ export const lesson62: Lesson = {
             choices: [
               { id: "a", text: "Split the region at $x=2.5$ and integrate the absolute difference of the curves on each part." },
               { id: "b", text: "Integrate the difference of the curves from $x=1$ to $x=4$ and take the absolute value of the result." },
-              { id: "c", text: "Integrate the difference of the curves from $x=1$ to $x=4$; crossing points do not affect the area." },
-              { id: "d", text: "Find the equation of the tangent at $x=2.5$ and use it to split the region." },
+              { id: "c", text: "Find the equation of the tangent at $x=2.5$ and use it to split the region." },
+              { id: "d", text: "Integrate the difference of the curves from $x=1$ to $x=4$; crossing points do not affect the area." },
             ],
             correctChoiceId: "a",
           },

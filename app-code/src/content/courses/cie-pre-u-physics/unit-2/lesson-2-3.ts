@@ -87,10 +87,10 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It runs faster" },
+              { id: "a", text: "It stops completely" },
               { id: "b", text: "It runs slower" },
               { id: "c", text: "It runs at the same rate" },
-              { id: "d", text: "It stops completely" },
+              { id: "d", text: "It runs faster" },
             ],
             correctChoiceId: "b",
           },
@@ -223,6 +223,455 @@ export const lesson23: Lesson = {
               },
             ],
             finalAnswer: "9.0 × 10¹³ J",
+          },
+        },
+        {
+          id: "cipup-u2-modern-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "What is the value of the Lorentz factor $\\gamma$ for an object at rest?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$0$" },
+              { id: "b", text: "$\\infty$" },
+              { id: "c", text: "$c$" },
+              { id: "d", text: "$1$" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "formula",
+                name: "Lorentz factor",
+                statement:
+                  "$\\gamma = 1/\\sqrt{1 - v^2/c^2}$; at $v = 0$, $\\gamma = 1$.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "With $v = 0$: $\\gamma = 1/\\sqrt{1 - 0} = 1$ — no relativistic effects at rest.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "b",
+          },
+        },
+        {
+          id: "cipup-u2-modern-q6",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "Calculate $\\gamma$ for a particle moving at $0.8c$.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "Lorentz factor", answer: 1.667, tolerance: 0.01 }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "formula",
+                name: "Lorentz factor",
+                statement: "$\\gamma = 1/\\sqrt{1 - v^2/c^2}$.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "$\\gamma = 1/\\sqrt{1 - 0.64} = 1/\\sqrt{0.36} = 1/0.6$.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "$\\gamma = 1.667$.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "1.67",
+          },
+        },
+        {
+          id: "cipup-u2-modern-q7",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "A meter stick moves past an observer at 0.6c parallel to its length. Calculate its observed length.",
+          response: {
+            type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "formula",
+                name: "Length contraction",
+                statement: "$L = L_0/\\gamma$ along the direction of motion only.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "$\\gamma = 1/\\sqrt{1 - 0.36} = 1/0.8 = 1.25$.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "$L = L_0/\\gamma = 1.0/1.25$.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "$L = 0.80$ m — the stick appears shortened by 20%.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "0.80 m",
+          },
+        },
+        {
+          id: "cipup-u2-modern-q8",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Which time interval is called the 'proper time' $\\Delta t_0$ in time dilation?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "The time measured by the moving clock itself" },
+              { id: "b", text: "The time measured by the stationary observer" },
+              { id: "c", text: "The longest possible time interval" },
+              { id: "d", text: "The time at which events are simultaneous" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Proper time",
+                statement:
+                  "$\\Delta t_0$ is measured in the frame where the events occur at the same position — the shortest interval.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "Proper time is the interval measured by a clock present at both events; it is always the shortest.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "a",
+          },
+        },
+        {
+          id: "cipup-u2-modern-q9",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "A spacecraft of proper length 100 m travels at 0.6c. Calculate its length as measured by a stationary observer.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "Observed length", answer: 80, tolerance: 0.5, unit: "m" }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "formula",
+                name: "Length contraction",
+                statement: "$L = L_0/\\gamma$; $\\gamma(0.6c) = 1.25$.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "$L = 100/1.25$ m.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "$L = 80$ m.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "80 m",
+          },
+        },
+        {
+          id: "cipup-u2-modern-q10",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "Describe the evolution of a low-mass star like the Sun from formation to its final state.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Stellar evolution",
+                statement:
+                  "Low-mass stars (< 8 M☉): nebula → main sequence → red giant → planetary nebula → white dwarf.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "A gas cloud collapses under gravity until hydrogen fusion ignites — the star enters the main sequence.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "When core hydrogen is exhausted, the core contracts and outer layers expand and cool — the star becomes a red giant.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "Outer layers are shed as a planetary nebula; the remaining core is supported by electron degeneracy pressure as a white dwarf.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer:
+              "Nebula → main sequence → red giant → planetary nebula → white dwarf.",
+          },
+        },
+        {
+          id: "cipup-u2-modern-q11",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "What determines whether a massive star's core becomes a neutron star or a black hole after a supernova?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Its surface temperature" },
+              { id: "b", text: "The colour of the star" },
+              { id: "c", text: "The mass of the remaining core" },
+              { id: "d", text: "Its distance from Earth" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Stellar remnants",
+                statement:
+                  "Remnant below ~3 M☉ → neutron star; above ~3 M☉ → black hole (escape velocity exceeds $c$).",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "The remnant's mass decides whether neutron degeneracy pressure can halt collapse; too much mass → black hole.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "b",
+          },
+        },
+        {
+          id: "cipup-u2-modern-q12",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "A galaxy is 20 Mpc away. Using Hubble's law with $H_0 = 70$ km s⁻¹ Mpc⁻¹, calculate its recession velocity.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "Recession velocity", answer: 1400, tolerance: 1, unit: "km/s" }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "formula",
+                name: "Hubble's law",
+                statement: "$v = H_0 d$.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "$v = 70 \\times 20$ km/s.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "$v = 1400$ km/s.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "1400 km/s",
+          },
+        },
+        {
+          id: "cipup-u2-modern-q13",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "Explain why GPS satellite clocks must be corrected for both special and general relativistic effects, and state the direction of each correction.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Relativistic time dilation",
+                statement:
+                  "Moving clocks run slow (special relativity); clocks in weaker gravitational fields run fast (general relativity).",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "Satellites orbit at high speed → special relativistic time dilation makes their clocks run slow relative to Earth.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "Satellites are farther from Earth's gravitational well → general relativistic effect makes their clocks run fast.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "The gravitational (general relativistic) effect is larger, so net effect is satellite clocks gaining ~38 μs per day.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "Uncorrected, position errors would accumulate ~10 km/day, so corrections are essential for navigation accuracy.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer:
+              "Speed slows satellite clocks; weaker gravity speeds them up — net gain corrected daily.",
+          },
+        },
+        {
+          id: "cipup-u2-modern-q14",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "A galaxy's spectral lines are shifted to longer wavelengths. What does this 'redshift' indicate?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "The galaxy is moving toward us" },
+              { id: "b", text: "The galaxy contains little hydrogen" },
+              { id: "c", text: "The galaxy is moving away from us" },
+              { id: "d", text: "The galaxy is very hot" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Doppler redshift",
+                statement:
+                  "Receding sources shift spectral lines to longer (redder) wavelengths; $z = \\Delta\\lambda/\\lambda$ grows with recession speed.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "Longer observed wavelengths mean the source is receding — the Doppler effect.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "b",
+          },
+        },
+        {
+          id: "cipup-u2-modern-q15",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "Calculate the total relativistic energy of an electron ($m = 9.1 \\times 10^{-31}$ kg) moving at 0.6c. ($c = 3.0 \\times 10^8$ m/s)",
+          response: {
+            type: "numeric",
+            parts: [{ label: "Total energy", answer: 1.02e-13, tolerance: 2e-15, unit: "J" }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "formula",
+                name: "Relativistic energy",
+                statement: "$E = \\gamma mc^2$; $\\gamma(0.6c) = 1.25$.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "Rest energy: $mc^2 = 9.1 \\times 10^{-31} \\times 9.0 \\times 10^{16} = 8.19 \\times 10^{-14}$ J.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "$E = \\gamma mc^2 = 1.25 \\times 8.19 \\times 10^{-14}$ J.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "Kinetic energy = $(\\gamma - 1)mc^2 = 0.25 \\times 8.19 \\times 10^{-14} = 2.05 \\times 10^{-14}$ J.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "$E_{total} \\approx 1.02 \\times 10^{-13}$ J.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "≈ 1.02 × 10⁻¹³ J",
+          },
+        },
+        {
+          id: "cipup-u2-modern-q16",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "Explain how doping a silicon crystal with phosphorus and boron creates n-type and p-type semiconductors, and how their junction forms a diode.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Band theory and doping",
+                statement:
+                  "Doping adds extra electrons (n-type) or holes (p-type); their junction creates a depletion region that rectifies current.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "Phosphorus has 5 valence electrons — one extra donated to the conduction band, giving an n-type semiconductor with free electrons.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "Boron has 3 valence electrons — it accepts an electron leaving a mobile hole, giving a p-type semiconductor.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "At the p–n junction electrons diffuse to the p-side and holes to the n-side, creating a depletion region and a potential barrier.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "Forward bias reduces the barrier (current flows); reverse bias widens it (negligible current) — the basis of a diode/rectifier.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer:
+              "Doping creates n- and p-types; junction depletion region rectifies current.",
           },
         },
       ],

@@ -54,12 +54,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Brown" },
-              { id: "b", text: "Blue" },
-              { id: "c", text: "Green and yellow" },
+              { id: "a", text: "Green and yellow" },
+              { id: "b", text: "Brown" },
+              { id: "c", text: "Blue" },
               { id: "d", text: "Red" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -193,12 +193,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The rod has gained electrons from the cloth." },
+              { id: "a", text: "The rod has lost electrons to the cloth." },
               { id: "b", text: "The rod has gained protons from the cloth." },
-              { id: "c", text: "The rod has lost electrons to the cloth." },
+              { id: "c", text: "The rod has gained electrons from the cloth." },
               { id: "d", text: "The rod has lost protons to the cloth." },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

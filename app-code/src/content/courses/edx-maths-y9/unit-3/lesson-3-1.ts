@@ -53,12 +53,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "10 cm" },
-              { id: "b", text: "14 cm" },
+              { id: "a", text: "14 cm" },
+              { id: "b", text: "10 cm" },
               { id: "c", text: "100 cm" },
               { id: "d", text: "7 cm" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -198,12 +198,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\frac{3}{5}$" },
+              { id: "a", text: "$\\frac{3}{4}$" },
               { id: "b", text: "$\\frac{4}{5}$" },
-              { id: "c", text: "$\\frac{3}{4}$" },
-              { id: "d", text: "$\\frac{5}{3}$" },
+              { id: "c", text: "$\\frac{5}{3}$" },
+              { id: "d", text: "$\\frac{3}{5}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

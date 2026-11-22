@@ -51,12 +51,12 @@ export const lesson123: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Good description" },
-              { id: "b", text: "Unnecessary repetition" },
+              { id: "a", text: "Complex sentences" },
+              { id: "b", text: "Good description" },
               { id: "c", text: "Strong verbs" },
-              { id: "d", text: "Complex sentences" },
+              { id: "d", text: "Unnecessary repetition" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -85,9 +85,9 @@ export const lesson123: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "sprinted" },
+              { id: "a", text: "whispered" },
               { id: "b", text: "went" },
-              { id: "c", text: "whispered" },
+              { id: "c", text: "sprinted" },
               { id: "d", text: "devoured" },
             ],
             correctChoiceId: "b",
@@ -223,12 +223,12 @@ export const lesson123: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Spelling, punctuation, grammar, sense" },
-              { id: "b", text: "Grammar, spelling, style, format" },
-              { id: "c", text: "Read, write, check, submit" },
+              { id: "a", text: "Read, write, check, submit" },
+              { id: "b", text: "Spelling, punctuation, grammar, sense" },
+              { id: "c", text: "Grammar, spelling, style, format" },
               { id: "d", text: "Only spelling" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -251,12 +251,12 @@ export const lesson123: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It's faster" },
-              { id: "b", text: "Catches errors eyes miss" },
+              { id: "a", text: "Catches errors eyes miss" },
+              { id: "b", text: "No reason" },
               { id: "c", text: "It's required" },
-              { id: "d", text: "No reason" },
+              { id: "d", text: "It's faster" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

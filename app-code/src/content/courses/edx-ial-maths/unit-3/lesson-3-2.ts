@@ -50,12 +50,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$3$" },
+              { id: "a", text: "$1$" },
               { id: "b", text: "$e^3$" },
-              { id: "c", text: "$1$" },
-              { id: "d", text: "$\\frac{1}{3}$" },
+              { id: "c", text: "$\\frac{1}{3}$" },
+              { id: "d", text: "$3$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -180,12 +180,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$|x|<1$" },
-              { id: "b", text: "$x<1$" },
-              { id: "c", text: "$|x|<2$" },
-              { id: "d", text: "All real $x$" },
+              { id: "a", text: "$|x|<2$" },
+              { id: "b", text: "All real $x$" },
+              { id: "c", text: "$x<1$" },
+              { id: "d", text: "$|x|<1$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

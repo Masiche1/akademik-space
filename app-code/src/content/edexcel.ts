@@ -21,6 +21,9 @@ export const EDEXCEL_SUBJECT_NAME: Record<EdexcelInfo["subject"], string> = {
   psychology: "Psychology",
   sociology: "Sociology",
   "computer-science": "Computer Science",
+  engineering: "Engineering",
+  "health-social-care": "Health and Social Care",
+  "information-technology": "Information Technology",
 };
 
 /** Display label for an Edexcel stage, e.g. "International A Level". */
@@ -30,23 +33,37 @@ export const EDEXCEL_STAGE_NAME: Record<EdexcelInfo["stage"], string> = {
   igcse: "International GCSE",
   ias: "International AS",
   ial: "International A Level",
+  btec: "BTEC",
 };
 
-const SCIENCE_SUBJECTS = new Set<EdexcelInfo["subject"]>(["science", "biology", "chemistry", "physics"]);
+const SCIENCE_SUBJECTS = new Set<EdexcelInfo["subject"]>([
+  "science",
+  "biology",
+  "chemistry",
+  "physics",
+]);
 
 /** Science courses: maths-style marking points, never tiered. */
 export function isScience(course: Course): boolean {
-  return course.edexcel !== undefined && SCIENCE_SUBJECTS.has(course.edexcel.subject);
+  return (
+    course.edexcel !== undefined && SCIENCE_SUBJECTS.has(course.edexcel.subject)
+  );
 }
 
 /** Tiered courses are the International GCSE years. */
 export function isTiered(course: Course): boolean {
-  return course.edexcel?.stage === "igcse" && course.edexcel.subject === "maths";
+  return (
+    course.edexcel?.stage === "igcse" && course.edexcel.subject === "maths"
+  );
 }
 
 /** English courses (Edexcel Language and Literature, US ELA): no maths tools, AO-based markschemes. */
 export function isEnglish(course: Course): boolean {
-  return course.edexcel?.subject === "english-language" || course.edexcel?.subject === "english-literature" || course.us?.subject === "ela";
+  return (
+    course.edexcel?.subject === "english-language" ||
+    course.edexcel?.subject === "english-literature" ||
+    course.us?.subject === "ela"
+  );
 }
 
 const AO_HELP = {
@@ -62,5 +79,7 @@ const AO_HELP = {
 export function aoHelpFor(course: Course): string | undefined {
   if (course.us?.subject === "ela") return AO_HELP["us-ela"];
   const s = course.edexcel?.subject;
-  return s === "english-language" || s === "english-literature" ? AO_HELP[s] : undefined;
+  return s === "english-language" || s === "english-literature"
+    ? AO_HELP[s]
+    : undefined;
 }

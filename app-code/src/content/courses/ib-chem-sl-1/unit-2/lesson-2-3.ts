@@ -54,12 +54,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Group 1" },
-              { id: "b", text: "Group 17" },
-              { id: "c", text: "Group 18" },
+              { id: "a", text: "Group 17" },
+              { id: "b", text: "Group 18" },
+              { id: "c", text: "Group 1" },
               { id: "d", text: "Group 2" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -82,12 +82,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "They have the same number of electron shells" },
-              { id: "b", text: "They have the same number of valence electrons" },
-              { id: "c", text: "They have the same atomic mass" },
-              { id: "d", text: "They are all metals" },
+              { id: "a", text: "They are all metals" },
+              { id: "b", text: "They have the same atomic mass" },
+              { id: "c", text: "They have the same number of electron shells" },
+              { id: "d", text: "They have the same number of valence electrons" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -165,12 +165,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Group 17" },
-              { id: "b", text: "Group 7" },
+              { id: "a", text: "Group 2" },
+              { id: "b", text: "Group 17" },
               { id: "c", text: "Group 18" },
-              { id: "d", text: "Group 2" },
+              { id: "d", text: "Group 7" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -247,12 +247,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Alkali metals" },
-              { id: "b", text: "Halogens" },
-              { id: "c", text: "Noble gases" },
-              { id: "d", text: "Alkaline earth metals" },
+              { id: "a", text: "Halogens" },
+              { id: "b", text: "Alkali metals" },
+              { id: "c", text: "Alkaline earth metals" },
+              { id: "d", text: "Noble gases" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -275,12 +275,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Period 3, Group 16" },
-              { id: "b", text: "Period 2, Group 6" },
-              { id: "c", text: "Period 3, Group 6" },
-              { id: "d", text: "Period 4, Group 16" },
+              { id: "a", text: "Period 3, Group 6" },
+              { id: "b", text: "Period 4, Group 16" },
+              { id: "c", text: "Period 3, Group 16" },
+              { id: "d", text: "Period 2, Group 6" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -303,12 +303,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The number of occupied electron shells" },
-              { id: "b", text: "The number of valence electrons" },
-              { id: "c", text: "The group number of the element" },
-              { id: "d", text: "The number of neutrons in the nucleus" },
+              { id: "a", text: "The number of neutrons in the nucleus" },
+              { id: "b", text: "The group number of the element" },
+              { id: "c", text: "The number of valence electrons" },
+              { id: "d", text: "The number of occupied electron shells" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -381,8 +381,8 @@ export const lesson23: Lesson = {
             choices: [
               { id: "a", text: "They each have one valence electron that is easily lost" },
               { id: "b", text: "They have the same number of electron shells" },
-              { id: "c", text: "They have identical atomic masses" },
-              { id: "d", text: "They are all liquids at room temperature" },
+              { id: "c", text: "They are all liquids at room temperature" },
+              { id: "d", text: "They have identical atomic masses" },
             ],
             correctChoiceId: "a",
           },
@@ -524,12 +524,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It increases because more electrons are added" },
-              { id: "b", text: "It decreases because nuclear charge increases within the same shells" },
-              { id: "c", text: "It stays constant" },
-              { id: "d", text: "It increases then decreases" },
+              { id: "a", text: "It decreases because nuclear charge increases within the same shells" },
+              { id: "b", text: "It stays constant" },
+              { id: "c", text: "It increases then decreases" },
+              { id: "d", text: "It increases because more electrons are added" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -552,12 +552,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "K" },
-              { id: "b", text: "Na" },
-              { id: "c", text: "Li" },
-              { id: "d", text: "They are equal" },
+              { id: "a", text: "Li" },
+              { id: "b", text: "They are equal" },
+              { id: "c", text: "K" },
+              { id: "d", text: "Na" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -636,12 +636,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It increases" },
-              { id: "b", text: "It decreases" },
-              { id: "c", text: "It stays constant" },
-              { id: "d", text: "It increases then decreases" },
+              { id: "a", text: "It increases then decreases" },
+              { id: "b", text: "It stays constant" },
+              { id: "c", text: "It decreases" },
+              { id: "d", text: "It increases" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -718,12 +718,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Fluorine" },
-              { id: "b", text: "Oxygen" },
+              { id: "a", text: "Oxygen" },
+              { id: "b", text: "Fluorine" },
               { id: "c", text: "Chlorine" },
               { id: "d", text: "Nitrogen" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -748,8 +748,8 @@ export const lesson23: Lesson = {
             choices: [
               { id: "a", text: "It decreases because the outer electron is further from the nucleus and more shielded" },
               { id: "b", text: "It increases because nuclear charge increases down the group" },
-              { id: "c", text: "It stays constant because all have one valence electron" },
-              { id: "d", text: "It increases then decreases down the group" },
+              { id: "c", text: "It increases then decreases down the group" },
+              { id: "d", text: "It stays constant because all have one valence electron" },
             ],
             correctChoiceId: "a",
           },
@@ -774,12 +774,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Each successive element adds a new electron shell, placing outer electrons further from the nucleus" },
-              { id: "b", text: "The nuclear charge decreases down the group" },
-              { id: "c", text: "Electrons are progressively lost down the group" },
+              { id: "a", text: "Electrons are progressively lost down the group" },
+              { id: "b", text: "Each successive element adds a new electron shell, placing outer electrons further from the nucleus" },
+              { id: "c", text: "The nuclear charge decreases down the group" },
               { id: "d", text: "Shielding between shells decreases" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -849,12 +849,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Oxygen's $2p$ subshell contains a pair of electrons, and separating a pair costs less energy than disrupting nitrogen's stable half-filled subshell" },
-              { id: "b", text: "Oxygen has fewer protons than nitrogen" },
-              { id: "c", text: "Nitrogen is a gas at room temperature" },
-              { id: "d", text: "Oxygen is more electronegative than nitrogen" },
+              { id: "a", text: "Oxygen is more electronegative than nitrogen" },
+              { id: "b", text: "Oxygen's $2p$ subshell contains a pair of electrons, and separating a pair costs less energy than disrupting nitrogen's stable half-filled subshell" },
+              { id: "c", text: "Oxygen has fewer protons than nitrogen" },
+              { id: "d", text: "Nitrogen is a gas at room temperature" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [

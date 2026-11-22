@@ -79,12 +79,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Grams" },
-              { id: "b", text: "Kilograms" },
+              { id: "a", text: "Centimetres" },
+              { id: "b", text: "Grams" },
               { id: "c", text: "Millilitres" },
-              { id: "d", text: "Centimetres" },
+              { id: "d", text: "Kilograms" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -307,12 +307,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "10 cm" },
-              { id: "b", text: "20 cm" },
-              { id: "c", text: "25 cm" },
-              { id: "d", text: "15 cm" },
+              { id: "a", text: "25 cm" },
+              { id: "b", text: "10 cm" },
+              { id: "c", text: "15 cm" },
+              { id: "d", text: "20 cm" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

@@ -55,11 +55,11 @@ export const lesson113: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "A single line" },
-              { id: "b", text: "A group of lines" },
-              { id: "c", text: "The title" },
-              { id: "d", text: "The rhyme" },
+              { id: "b", text: "The title" },
+              { id: "c", text: "The rhyme" },
+              { id: "d", text: "A group of lines" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -85,11 +85,11 @@ export const lesson113: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Calm" },
-              { id: "b", text: "Fear/power" },
-              { id: "c", text: "Happiness" },
+              { id: "b", text: "Happiness" },
+              { id: "c", text: "Fear/power" },
               { id: "d", text: "Boredom" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -229,12 +229,12 @@ export const lesson113: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Cats are cute" },
-              { id: "b", text: "Cats are mammals" },
-              { id: "c", text: "Cats are the best pets" },
-              { id: "d", text: "I love cats" },
+              { id: "a", text: "I love cats" },
+              { id: "b", text: "Cats are the best pets" },
+              { id: "c", text: "Cats are cute" },
+              { id: "d", text: "Cats are mammals" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -261,8 +261,8 @@ export const lesson113: Lesson = {
             choices: [
               { id: "a", text: "They're decorative" },
               { id: "b", text: "They show key terms" },
-              { id: "c", text: "They're titles" },
-              { id: "d", text: "No reason" },
+              { id: "c", text: "No reason" },
+              { id: "d", text: "They're titles" },
             ],
             correctChoiceId: "b",
           },

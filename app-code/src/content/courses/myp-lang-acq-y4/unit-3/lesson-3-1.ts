@@ -56,12 +56,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "'The students wrote the report.'" },
-              { id: "b", text: "'The report was written by the students.'" },
-              { id: "c", text: "'The students are writing the report.'" },
-              { id: "d", text: "'The students will write the report.'" },
+              { id: "a", text: "'The report was written by the students.'" },
+              { id: "b", text: "'The students wrote the report.'" },
+              { id: "c", text: "'The students will write the report.'" },
+              { id: "d", text: "'The students are writing the report.'" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Passive voice", statement: "Subject receives action; uses be + past participle." }],
@@ -164,11 +164,11 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "'The chef cooked the meal.'" },
-              { id: "b", text: "'The meal was cooked by the chef.'" },
-              { id: "c", text: "'The chef is cooking the meal.'" },
-              { id: "d", text: "'The chef will cook the meal.'" },
+              { id: "b", text: "'The chef is cooking the meal.'" },
+              { id: "c", text: "'The chef will cook the meal.'" },
+              { id: "d", text: "'The meal was cooked by the chef.'" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -191,11 +191,11 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "'The project completed the students.'" },
-              { id: "b", text: "'The project was completed by the students.'" },
-              { id: "c", text: "'The students were completed.'" },
-              { id: "d", text: "'The project is completing.'" },
+              { id: "b", text: "'The project is completing.'" },
+              { id: "c", text: "'The project was completed by the students.'" },
+              { id: "d", text: "'The students were completed.'" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -277,12 +277,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Only sentence 2" },
-              { id: "b", text: "Sentences 1 and 3" },
-              { id: "c", text: "All three sentences" },
-              { id: "d", text: "None of them" },
+              { id: "a", text: "All three sentences" },
+              { id: "b", text: "None of them" },
+              { id: "c", text: "Sentences 1 and 3" },
+              { id: "d", text: "Only sentence 2" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -357,12 +357,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "'The new drug will be tested.'" },
+              { id: "a", text: "'The new drug tested.'" },
               { id: "b", text: "'The new drug is tested.'" },
-              { id: "c", text: "'The new drug was tested.'" },
-              { id: "d", text: "'The new drug tested.'" },
+              { id: "c", text: "'The new drug will be tested.'" },
+              { id: "d", text: "'The new drug was tested.'" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -390,12 +390,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Present simple" },
+              { id: "a", text: "Present perfect" },
               { id: "b", text: "Past simple" },
-              { id: "c", text: "Present perfect" },
+              { id: "c", text: "Present simple" },
               { id: "d", text: "Future" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -451,12 +451,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "To emphasise the cake rather than the children" },
-              { id: "b", text: "To hide who ate the cake" },
+              { id: "a", text: "To hide who ate the cake" },
+              { id: "b", text: "To emphasise the cake rather than the children" },
               { id: "c", text: "Because it is shorter" },
               { id: "d", text: "Because active is impossible" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -544,12 +544,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "'If I had time, I would help.'" },
-              { id: "b", text: "'If it rains, we will cancel the trip.'" },
+              { id: "a", text: "'If it rains, we will cancel the trip.'" },
+              { id: "b", text: "'If I had time, I would help.'" },
               { id: "c", text: "'If I were rich, I would travel.'" },
               { id: "d", text: "'If she studied, she would pass.'" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "First conditional", statement: "If + present, will + base for real possibilities." }],
@@ -651,12 +651,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "'If it rains, we will stay inside.'" },
-              { id: "b", text: "'If I had more time, I would study more.'" },
-              { id: "c", text: "'If she studies, she will pass.'" },
-              { id: "d", text: "'If they hurry, they will catch the bus.'" },
+              { id: "a", text: "'If she studies, she will pass.'" },
+              { id: "b", text: "'If it rains, we will stay inside.'" },
+              { id: "c", text: "'If they hurry, they will catch the bus.'" },
+              { id: "d", text: "'If I had more time, I would study more.'" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -678,12 +678,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "studies" },
-              { id: "b", text: "studied" },
-              { id: "c", text: "will study" },
-              { id: "d", text: "is studying" },
+              { id: "a", text: "is studying" },
+              { id: "b", text: "will study" },
+              { id: "c", text: "studied" },
+              { id: "d", text: "studies" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -765,12 +765,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "1. studies; 2. have" },
-              { id: "b", text: "1. will study; 2. had" },
-              { id: "c", text: "1. studies; 2. had" },
-              { id: "d", text: "1. studied; 2. have" },
+              { id: "a", text: "1. studied; 2. have" },
+              { id: "b", text: "1. studies; 2. have" },
+              { id: "c", text: "1. will study; 2. had" },
+              { id: "d", text: "1. studies; 2. had" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -845,9 +845,9 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "am" },
+              { id: "a", text: "will be" },
               { id: "b", text: "was" },
-              { id: "c", text: "will be" },
+              { id: "c", text: "am" },
               { id: "d", text: "were" },
             ],
             correctChoiceId: "d",
@@ -878,12 +878,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Because it describes a real future plan" },
-              { id: "b", text: "Because it describes an unreal or hypothetical past situation" },
-              { id: "c", text: "Because it is a command" },
-              { id: "d", text: "Because it is a question" },
+              { id: "a", text: "Because it is a command" },
+              { id: "b", text: "Because it is a question" },
+              { id: "c", text: "Because it describes a real future plan" },
+              { id: "d", text: "Because it describes an unreal or hypothetical past situation" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -939,12 +939,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It uses the second conditional for a past unreal situation" },
+              { id: "a", text: "It uses the first conditional" },
               { id: "b", text: "It is grammatically wrong" },
-              { id: "c", text: "It uses the first conditional" },
-              { id: "d", text: "It is a question" },
+              { id: "c", text: "It is a question" },
+              { id: "d", text: "It uses the second conditional for a past unreal situation" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

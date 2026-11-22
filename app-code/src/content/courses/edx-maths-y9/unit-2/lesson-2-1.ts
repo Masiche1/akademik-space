@@ -50,8 +50,8 @@ export const lesson21: Lesson = {
             choices: [
               { id: "a", text: "$x^2 + 9x + 14$" },
               { id: "b", text: "$x^2 + 14$" },
-              { id: "c", text: "$x^2 + 9x + 9$" },
-              { id: "d", text: "$x^2 + 5x + 14$" },
+              { id: "c", text: "$x^2 + 5x + 14$" },
+              { id: "d", text: "$x^2 + 9x + 9$" },
             ],
             correctChoiceId: "a",
           },
@@ -185,12 +185,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$(x + 3)(x + 5)$" },
-              { id: "b", text: "$(x + 1)(x + 15)$" },
-              { id: "c", text: "$(x - 3)(x - 5)$" },
-              { id: "d", text: "$(x + 2)(x + 6)$" },
+              { id: "a", text: "$(x + 2)(x + 6)$" },
+              { id: "b", text: "$(x - 3)(x - 5)$" },
+              { id: "c", text: "$(x + 3)(x + 5)$" },
+              { id: "d", text: "$(x + 1)(x + 15)$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Factorising a quadratic", statement: "Find two numbers with product $c$ and sum $b$." }],

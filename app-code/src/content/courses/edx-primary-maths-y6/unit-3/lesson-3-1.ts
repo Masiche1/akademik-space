@@ -62,9 +62,9 @@ export const lesson81: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "20 cm²" },
-              { id: "b", text: "40 cm²" },
+              { id: "b", text: "26 cm²" },
               { id: "c", text: "13 cm²" },
-              { id: "d", text: "26 cm²" },
+              { id: "d", text: "40 cm²" },
             ],
             correctChoiceId: "a",
           },
@@ -260,12 +260,12 @@ export const lesson81: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "90°" },
-              { id: "b", text: "180°" },
+              { id: "a", text: "180°" },
+              { id: "b", text: "360°" },
               { id: "c", text: "270°" },
-              { id: "d", text: "360°" },
+              { id: "d", text: "90°" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

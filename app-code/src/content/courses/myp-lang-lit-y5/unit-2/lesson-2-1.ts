@@ -54,12 +54,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It makes the subject more powerful" },
-              { id: "b", text: "It can hide who is responsible for an action" },
+              { id: "a", text: "It sounds more formal" },
+              { id: "b", text: "It makes the subject more powerful" },
               { id: "c", text: "It makes sentences longer" },
-              { id: "d", text: "It sounds more formal" },
+              { id: "d", text: "It can hide who is responsible for an action" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Passive voice and agency", statement: "Passive voice can obscure responsibility." }],
@@ -139,12 +139,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It makes sentences more exciting" },
-              { id: "b", text: "It can hide who is responsible for an action" },
-              { id: "c", text: "It always strengthens the speaker" },
-              { id: "d", text: "It has no effect on meaning" },
+              { id: "a", text: "It has no effect on meaning" },
+              { id: "b", text: "It always strengthens the speaker" },
+              { id: "c", text: "It makes sentences more exciting" },
+              { id: "d", text: "It can hide who is responsible for an action" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Passive voice and agency", statement: "Passive voice can obscure responsibility." }],
@@ -185,12 +185,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It is more exciting" },
-              { id: "b", text: "It uses nominalization — 'reached a decision' turns the action into a noun, softening agency" },
-              { id: "c", text: "It is ungrammatical" },
-              { id: "d", text: "It names a different committee" },
+              { id: "a", text: "It names a different committee" },
+              { id: "b", text: "It is more exciting" },
+              { id: "c", text: "It uses nominalization — 'reached a decision' turns the action into a noun, softening agency" },
+              { id: "d", text: "It is ungrammatical" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Nominalization", statement: "Turning verbs into nouns can hide agency." }],
@@ -211,12 +211,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It requests politely and offers choice" },
-              { id: "b", text: "It uses bureaucratic indirectness and euphemism ('kindly be advised', 'not optional') to assert authority while appearing polite" },
-              { id: "c", text: "It surrenders all authority" },
-              { id: "d", text: "It has no power dynamic" },
+              { id: "a", text: "It surrenders all authority" },
+              { id: "b", text: "It has no power dynamic" },
+              { id: "c", text: "It uses bureaucratic indirectness and euphemism ('kindly be advised', 'not optional') to assert authority while appearing polite" },
+              { id: "d", text: "It requests politely and offers choice" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Bureaucratic power", statement: "Euphemism and formality can assert authority indirectly." }],
@@ -232,12 +232,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A type of government" },
-              { id: "b", text: "Dominance maintained through consent — when the powerful seem natural and unquestioned" },
+              { id: "a", text: "Dominance maintained through consent — when the powerful seem natural and unquestioned" },
+              { id: "b", text: "A type of government" },
               { id: "c", text: "A military strategy" },
               { id: "d", text: "A writing style" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Hegemony", statement: "Dominance maintained through consent — power seems natural." }],
@@ -295,11 +295,11 @@ export const lesson21: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "A question" },
-              { id: "b", text: "Commanding language — 'Do this', 'You must'" },
-              { id: "c", text: "A type of poem" },
+              { id: "b", text: "A type of poem" },
+              { id: "c", text: "Commanding language — 'Do this', 'You must'" },
               { id: "d", text: "A polite request" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Imperative", statement: "Commanding language asserts authority." }],
@@ -363,12 +363,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Is the grammar correct?" },
-              { id: "b", text: "Who benefits from hiding who made the mistakes?" },
-              { id: "c", text: "Is the sentence long enough?" },
-              { id: "d", text: "Does it rhyme?" },
+              { id: "a", text: "Does it rhyme?" },
+              { id: "b", text: "Is the sentence long enough?" },
+              { id: "c", text: "Who benefits from hiding who made the mistakes?" },
+              { id: "d", text: "Is the grammar correct?" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Critical reading", statement: "Ask who benefits from obscured agency." }],
@@ -439,8 +439,8 @@ export const lesson21: Lesson = {
             choices: [
               { id: "a", text: "Switching between languages or dialects depending on context" },
               { id: "b", text: "Changing jobs" },
-              { id: "c", text: "A type of dance" },
-              { id: "d", text: "A computer program" },
+              { id: "c", text: "A computer program" },
+              { id: "d", text: "A type of dance" },
             ],
             correctChoiceId: "a",
           },
@@ -522,12 +522,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Changing jobs frequently" },
-              { id: "b", text: "Switching between languages or dialects depending on context" },
-              { id: "c", text: "A type of computer programming" },
-              { id: "d", text: "Writing in two fonts" },
+              { id: "a", text: "Writing in two fonts" },
+              { id: "b", text: "Changing jobs frequently" },
+              { id: "c", text: "Switching between languages or dialects depending on context" },
+              { id: "d", text: "A type of computer programming" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Code-switching", statement: "Switching between languages/dialects by context." }],
@@ -563,12 +563,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "They mean exactly the same thing" },
-              { id: "b", text: "'Newcomer' emphasises recent arrival neutrally; 'immigrant' emphasises permanent migration status — different identity implications" },
+              { id: "a", text: "'Newcomer' emphasises recent arrival neutrally; 'immigrant' emphasises permanent migration status — different identity implications" },
+              { id: "b", text: "'Newcomer' is a legal term" },
               { id: "c", text: "'Immigrant' is always more positive" },
-              { id: "d", text: "'Newcomer' is a legal term" },
+              { id: "d", text: "They mean exactly the same thing" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Labels and identity", statement: "Labels carry different connotations and identity implications." }],
@@ -589,12 +589,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "She has two different personalities" },
-              { id: "b", text: "Code-switching — she adapts her language to context, negotiating different identities at work and with friends" },
+              { id: "a", text: "Formal language is always better" },
+              { id: "b", text: "She has two different personalities" },
               { id: "c", text: "She is inconsistent and careless" },
-              { id: "d", text: "Formal language is always better" },
+              { id: "d", text: "Code-switching — she adapts her language to context, negotiating different identities at work and with friends" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Code-switching", statement: "Language adapts to context — each version is authentic." }],
@@ -610,12 +610,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "They are identical" },
-              { id: "b", text: "Person-first puts the person before the attribute ('person with disability'); identity-first centres the identity ('disabled person')" },
+              { id: "a", text: "Person-first puts the person before the attribute ('person with disability'); identity-first centres the identity ('disabled person')" },
+              { id: "b", text: "They are identical" },
               { id: "c", text: "Person-first is always wrong" },
               { id: "d", text: "Identity-first is a legal requirement" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Person-first vs identity-first", statement: "Different ordering of person and attribute changes emphasis." }],
@@ -672,9 +672,9 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The weather outside" },
+              { id: "a", text: "The colour of a book cover" },
               { id: "b", text: "Whether someone says 'How do you do?' or 'Yo, what's good?'" },
-              { id: "c", text: "The colour of a book cover" },
+              { id: "c", text: "The weather outside" },
               { id: "d", text: "How tall a building is" },
             ],
             correctChoiceId: "b",
@@ -741,12 +741,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "He is uneducated — dialect is always a flaw" },
-              { id: "b", text: "Regional and social identity — dialect marks belonging to a particular community and can be a source of pride" },
-              { id: "c", text: "He is pretending to be someone else" },
-              { id: "d", text: "Dialect has no identity meaning" },
+              { id: "a", text: "Regional and social identity — dialect marks belonging to a particular community and can be a source of pride" },
+              { id: "b", text: "He is pretending to be someone else" },
+              { id: "c", text: "Dialect has no identity meaning" },
+              { id: "d", text: "He is uneducated — dialect is always a flaw" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Dialect and identity", statement: "Dialect signals regional/social belonging." }],

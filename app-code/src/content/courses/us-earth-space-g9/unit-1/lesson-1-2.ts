@@ -54,12 +54,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The galaxies are moving away from us, because space is expanding" },
-              { id: "b", text: "The galaxies are moving toward us" },
+              { id: "a", text: "The galaxies are made of different elements from nearby stars" },
+              { id: "b", text: "The galaxies are moving away from us, because space is expanding" },
               { id: "c", text: "The galaxies are colder than the Sun" },
-              { id: "d", text: "The galaxies are made of different elements from nearby stars" },
+              { id: "d", text: "The galaxies are moving toward us" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -184,12 +184,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "When it is farthest from the Sun" },
-              { id: "b", text: "When it is closest to the Sun" },
+              { id: "a", text: "When it is closest to the Sun" },
+              { id: "b", text: "When it is farthest from the Sun" },
               { id: "c", text: "It always moves at the same speed" },
               { id: "d", text: "When it is at the middle of its orbit" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

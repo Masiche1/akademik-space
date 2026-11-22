@@ -60,11 +60,11 @@ export const lesson28: Lesson = {
                     },
                     {
                               "id": "c",
-                              "text": "A network cable"
+                              "text": "A computer virus"
                     },
                     {
                               "id": "d",
-                              "text": "A computer virus"
+                              "text": "A network cable"
                     }
           ],
           "correctChoiceId": "a"
@@ -213,6 +213,484 @@ export const lesson28: Lesson = {
                     }
           ],
           "finalAnswer": "Digital footprint management and privacy."
+},
+        },
+        {
+          id: "cils-c-u2-df-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "What do privacy settings on a social media account control?",
+          response: {
+          "type": "mcq",
+          "choices": [
+                    {
+                              "id": "a",
+                              "text": "The colour of the app"
+                    },
+                    {
+                              "id": "b",
+                              "text": "Your internet speed"
+                    },
+                    {
+                              "id": "c",
+                              "text": "Who can see your posts and profile"
+                    },
+                    {
+                              "id": "d",
+                              "text": "How many photos you can upload"
+                    }
+          ],
+          "correctChoiceId": "c"
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "definition",
+                              "name": "Privacy settings",
+                              "statement": "Control visibility."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "Privacy settings decide who sees your content.",
+                              "marks": 1,
+                              "markCode": "M"
+                    }
+          ],
+          "finalAnswer": "Who sees your content"
+},
+        },
+        {
+          id: "cils-c-u2-df-q6",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "A photo's metadata includes its location, timestamp and the device used. How many types of metadata are listed?",
+          response: {
+          "type": "numeric",
+          "parts": [
+                    { "label": "a", "answer": 3 }
+          ]
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "definition",
+                              "name": "Metadata",
+                              "statement": "Data about data."
+                    }
+          ],
+          "steps": [
+                    {
+                              "part": "a",
+                              "reasoning": "Location, timestamp, device = 3.",
+                              "marks": 1,
+                              "markCode": "M"
+                    }
+          ],
+          "finalAnswer": "3"
+},
+        },
+        {
+          id: "cils-c-u2-df-q7",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "A user posts 5 photos per week for 10 weeks. How many photos are posted in total?",
+          response: {
+          "type": "numeric",
+          "parts": [
+                    { "label": "a", "answer": 50 }
+          ]
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "skill",
+                              "name": "Footprint",
+                              "statement": "Posts accumulate over time."
+                    }
+          ],
+          "steps": [
+                    {
+                              "part": "a",
+                              "reasoning": "5 × 10 = 50 posts.",
+                              "marks": 1,
+                              "markCode": "M"
+                    }
+          ],
+          "finalAnswer": "50"
+},
+        },
+        {
+          id: "cils-c-u2-df-q8",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "Why might deleting a post not fully remove it from the internet? Give two reasons.",
+          response: {
+          "type": "open"
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "skill",
+                              "name": "Footprint permanence",
+                              "statement": "Copies and caches persist."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "Others may have screenshotted or shared it.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "Search engines and caches may keep copies.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "Treat everything posted as permanent.",
+                              "marks": 1,
+                              "markCode": "A"
+                    }
+          ],
+          "finalAnswer": "Content can persist"
+},
+        },
+        {
+          id: "cils-c-u2-df-q9",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "What is 'metadata'?",
+          response: {
+          "type": "mcq",
+          "choices": [
+                    {
+                              "id": "a",
+                              "text": "A type of virus"
+                    },
+                    {
+                              "id": "b",
+                              "text": "A programming language"
+                    },
+                    {
+                              "id": "c",
+                              "text": "Data about data — e.g. who, when, where"
+                    },
+                    {
+                              "id": "d",
+                              "text": "The main content of a file"
+                    }
+          ],
+          "correctChoiceId": "c"
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "definition",
+                              "name": "Metadata",
+                              "statement": "Data about data."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "Metadata describes context: who, when, where.",
+                              "marks": 1,
+                              "markCode": "M"
+                    }
+          ],
+          "finalAnswer": "Data about data"
+},
+        },
+        {
+          id: "cils-c-u2-df-q10",
+          difficulty: "challenge",
+          totalMarks: 1,
+          stem: "An account has 200 posts, and half are set to public. How many posts are public?",
+          response: {
+          "type": "numeric",
+          "parts": [
+                    { "label": "a", "answer": 100 }
+          ]
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "skill",
+                              "name": "Privacy",
+                              "statement": "Half of 200."
+                    }
+          ],
+          "steps": [
+                    {
+                              "part": "a",
+                              "reasoning": "200 / 2 = 100 public posts.",
+                              "marks": 1,
+                              "markCode": "M"
+                    }
+          ],
+          "finalAnswer": "100"
+},
+        },
+        {
+          id: "cils-c-u2-df-q11",
+          difficulty: "challenge",
+          totalMarks: 1,
+          stem: "What is a 'data broker'?",
+          response: {
+          "type": "mcq",
+          "choices": [
+                    {
+                              "id": "a",
+                              "text": "An internet provider"
+                    },
+                    {
+                              "id": "b",
+                              "text": "A type of firewall"
+                    },
+                    {
+                              "id": "c",
+                              "text": "A company that collects and sells personal data"
+                    },
+                    {
+                              "id": "d",
+                              "text": "A shop selling computers"
+                    }
+          ],
+          "correctChoiceId": "c"
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "definition",
+                              "name": "Data broker",
+                              "statement": "Collects/sells personal data."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "Data brokers trade in collected personal information.",
+                              "marks": 1,
+                              "markCode": "M"
+                    }
+          ],
+          "finalAnswer": "Collects/sells personal data"
+},
+        },
+        {
+          id: "cils-c-u2-df-q12",
+          difficulty: "challenge",
+          totalMarks: 5,
+          stem: "(a) Define digital footprint, metadata, privacy settings, netiquette, data broker. (b) How can a digital footprint affect future opportunities? (c) Why is location metadata risky to share? (d) When should you choose encrypted messaging? (e) List four habits that reduce your digital footprint.",
+          response: {
+          "type": "open"
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "technique",
+                              "name": "Digital footprint",
+                              "statement": "Privacy, metadata, habits."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "(a) All five definitions correct.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "(b) Colleges/employers may check online presence.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "(c) Reveals home/school locations and routines.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "(d) For sensitive personal or confidential conversations.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "(e) e.g. check privacy settings, think before posting, limit location tags, use strong passwords.",
+                              "marks": 1,
+                              "markCode": "A"
+                    }
+          ],
+          "finalAnswer": "Footprint, metadata, privacy habits."
+},
+        },
+        {
+          id: "cils-c-u2-df-q13",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "What is 'netiquette'?",
+          response: {
+          "type": "mcq",
+          "choices": [
+                    {
+                              "id": "a",
+                              "text": "A programming language"
+                    },
+                    {
+                              "id": "b",
+                              "text": "A type of network cable"
+                    },
+                    {
+                              "id": "c",
+                              "text": "A privacy setting"
+                    },
+                    {
+                              "id": "d",
+                              "text": "Rules of polite and respectful online behaviour"
+                    }
+          ],
+          "correctChoiceId": "d"
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "definition",
+                              "name": "Netiquette",
+                              "statement": "Online manners."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "Netiquette = etiquette for the internet.",
+                              "marks": 1,
+                              "markCode": "M"
+                    }
+          ],
+          "finalAnswer": "Polite online behaviour"
+},
+        },
+        {
+          id: "cils-c-u2-df-q14",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "An app has 5 privacy settings. The user has enabled 3 of them. How many are still off?",
+          response: {
+          "type": "numeric",
+          "parts": [
+                    { "label": "a", "answer": 2 }
+          ]
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "skill",
+                              "name": "Privacy settings",
+                              "statement": "5 - 3 = 2 off."
+                    }
+          ],
+          "steps": [
+                    {
+                              "part": "a",
+                              "reasoning": "5 - 3 = 2 settings off.",
+                              "marks": 1,
+                              "markCode": "M"
+                    }
+          ],
+          "finalAnswer": "2"
+},
+        },
+        {
+          id: "cils-c-u2-df-q15",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "What does end-to-end encryption in messaging apps protect?",
+          response: {
+          "type": "mcq",
+          "choices": [
+                    {
+                              "id": "a",
+                              "text": "Your contact list from yourself"
+                    },
+                    {
+                              "id": "b",
+                              "text": "Your internet speed"
+                    },
+                    {
+                              "id": "c",
+                              "text": "Message content so only sender and receiver can read it"
+                    },
+                    {
+                              "id": "d",
+                              "text": "The app's colour scheme"
+                    }
+          ],
+          "correctChoiceId": "c"
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "definition",
+                              "name": "Encryption",
+                              "statement": "Only endpoints can read."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "End-to-end encryption keeps messages private from intermediaries.",
+                              "marks": 1,
+                              "markCode": "M"
+                    }
+          ],
+          "finalAnswer": "Only sender/receiver read"
+},
+        },
+        {
+          id: "cils-c-u2-df-q16",
+          difficulty: "challenge",
+          totalMarks: 6,
+          stem: "(a) Define digital footprint, metadata, privacy settings, encryption, netiquette, data broker. (b) Why do people say 'the internet never forgets'? (c) What metadata does a social media post typically carry? (d) Give two situations where encrypted messaging is the right choice. (e) How do data brokers get your information? (f) Write a 'digital hygiene' checklist of 5 items.",
+          response: {
+          "type": "open"
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "technique",
+                              "name": "Digital footprint",
+                              "statement": "Privacy, metadata, habits."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "(a) All six definitions correct.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "(b) Content persists via copies, caches, screenshots, archives.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "(c) e.g. timestamp, location, device, account ID.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "(d) e.g. confidential chats, sharing personal documents.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "(e) Collected from apps, purchases, public records, other data sales.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "(f) Valid 5-item checklist e.g. review privacy settings, think before posting, limit location, use 2FA, delete old accounts.",
+                              "marks": 1,
+                              "markCode": "A"
+                    }
+          ],
+          "finalAnswer": "Footprint management and privacy."
 },
         },
       ],

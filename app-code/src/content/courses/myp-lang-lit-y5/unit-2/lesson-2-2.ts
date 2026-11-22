@@ -54,12 +54,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Including many diverse characters" },
-              { id: "b", text: "Including one representative to appear inclusive without real representation" },
-              { id: "c", text: "Using tokens as currency" },
-              { id: "d", text: "A type of voting" },
+              { id: "a", text: "Using tokens as currency" },
+              { id: "b", text: "A type of voting" },
+              { id: "c", text: "Including one representative to appear inclusive without real representation" },
+              { id: "d", text: "Including many diverse characters" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Tokenism", statement: "One representative included superficially, not real representation." }],
@@ -139,12 +139,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "An accurate, detailed portrait" },
-              { id: "b", text: "An oversimplified, fixed idea about a group" },
-              { id: "c", text: "A type of camera angle" },
-              { id: "d", text: "A character's hobby" },
+              { id: "a", text: "An oversimplified, fixed idea about a group" },
+              { id: "b", text: "A character's hobby" },
+              { id: "c", text: "An accurate, detailed portrait" },
+              { id: "d", text: "A type of camera angle" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Stereotype", statement: "Oversimplified, fixed idea about a group." }],
@@ -185,12 +185,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Excellent representation — disability is shown positively" },
-              { id: "b", text: "Tokenism — the character exists to serve another's narrative, not as a full person" },
-              { id: "c", text: "No problem at all" },
-              { id: "d", text: "A spelling error" },
+              { id: "a", text: "No problem at all" },
+              { id: "b", text: "A spelling error" },
+              { id: "c", text: "Tokenism — the character exists to serve another's narrative, not as a full person" },
+              { id: "d", text: "Excellent representation — disability is shown positively" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Tokenism", statement: "Inclusion that serves others' narratives, not the character's own." }],
@@ -211,12 +211,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It represents all genders equally" },
-              { id: "b", text: "It reinforces the stereotype that cleaning is women's work — gendered representation" },
-              { id: "c", text: "It is perfectly neutral" },
-              { id: "d", text: "It shows too many people" },
+              { id: "a", text: "It shows too many people" },
+              { id: "b", text: "It represents all genders equally" },
+              { id: "c", text: "It reinforces the stereotype that cleaning is women's work — gendered representation" },
+              { id: "d", text: "It is perfectly neutral" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Stereotyped representation", statement: "Texts reinforce assumptions about who does what." }],
@@ -233,11 +233,11 @@ export const lesson22: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "How famous a character is" },
-              { id: "b", text: "The capacity of characters to act and make choices — often denied to marginalised groups" },
-              { id: "c", text: "The size of a character's role" },
-              { id: "d", text: "The author's agency" },
+              { id: "b", text: "The size of a character's role" },
+              { id: "c", text: "The author's agency" },
+              { id: "d", text: "The capacity of characters to act and make choices — often denied to marginalised groups" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Agency", statement: "Capacity to act and make choices." }],
@@ -294,12 +294,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Representing a group as fundamentally different or inferior" },
-              { id: "b", text: "Showing a group accurately" },
-              { id: "c", text: "Giving a character a nickname" },
-              { id: "d", text: "Using a different font" },
+              { id: "a", text: "Giving a character a nickname" },
+              { id: "b", text: "Using a different font" },
+              { id: "c", text: "Representing a group as fundamentally different or inferior" },
+              { id: "d", text: "Showing a group accurately" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Othering", statement: "Representing a group as different/inferior — 'them' vs 'us'." }],
@@ -364,11 +364,11 @@ export const lesson22: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Because deaf people cannot act" },
-              { id: "b", text: "Because it is tokenism — inclusion without real representation, agency or complexity" },
-              { id: "c", text: "Because one line is too many" },
-              { id: "d", text: "It isn't poor — any inclusion is good" },
+              { id: "b", text: "Because one line is too many" },
+              { id: "c", text: "It isn't poor — any inclusion is good" },
+              { id: "d", text: "Because it is tokenism — inclusion without real representation, agency or complexity" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Tokenism", statement: "Inclusion without agency/complexity is superficial." }],
@@ -437,12 +437,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It doesn't — stories are stories" },
-              { id: "b", text: "It determines whose reality is centred and whose is marginalised" },
+              { id: "a", text: "It determines whose reality is centred and whose is marginalised" },
+              { id: "b", text: "It doesn't — stories are stories" },
               { id: "c", text: "It only affects the plot" },
               { id: "d", text: "It makes the story longer" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Perspective and representation", statement: "Perspective determines whose voice is centred." }],
@@ -522,12 +522,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It only affects the ending" },
-              { id: "b", text: "It determines whose reality is centred and whose is marginalised" },
-              { id: "c", text: "It doesn't affect meaning" },
+              { id: "a", text: "It determines whose reality is centred and whose is marginalised" },
+              { id: "b", text: "It doesn't affect meaning" },
+              { id: "c", text: "It only affects the ending" },
               { id: "d", text: "It only matters in poetry" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Perspective and representation", statement: "Perspective determines whose voice is centred." }],
@@ -563,12 +563,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Reading the text backwards" },
-              { id: "b", text: "Questioning the text's assumptions and imagining silenced perspectives" },
-              { id: "c", text: "Skimming quickly" },
-              { id: "d", text: "Only reading the ending" },
+              { id: "a", text: "Only reading the ending" },
+              { id: "b", text: "Skimming quickly" },
+              { id: "c", text: "Questioning the text's assumptions and imagining silenced perspectives" },
+              { id: "d", text: "Reading the text backwards" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Reading against the grain", statement: "Critical reading questions assumptions and finds silences." }],
@@ -589,12 +589,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The workers have no voice — the dead are reduced to 'casualties', centring the privileged perspective" },
+              { id: "a", text: "There is no problem" },
               { id: "b", text: "The owner's son is underrepresented" },
-              { id: "c", text: "There is no problem" },
-              { id: "d", text: "The fire is described too briefly" },
+              { id: "c", text: "The fire is described too briefly" },
+              { id: "d", text: "The workers have no voice — the dead are reduced to 'casualties', centring the privileged perspective" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Centred perspective", statement: "Privileged narrator centres own view; victims become statistics." }],
@@ -615,12 +615,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The valley was already known — 'discovered' is colonial language erasing prior knowledge" },
-              { id: "b", text: "The guide was the true discoverer" },
-              { id: "c", text: "Nothing — the text is objective" },
-              { id: "d", text: "The expedition failed" },
+              { id: "a", text: "Nothing — the text is objective" },
+              { id: "b", text: "The expedition failed" },
+              { id: "c", text: "The guide was the true discoverer" },
+              { id: "d", text: "The valley was already known — 'discovered' is colonial language erasing prior knowledge" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Colonial discourse", statement: "'Discovery' language erases indigenous knowledge." }],
@@ -679,8 +679,8 @@ export const lesson22: Lesson = {
             choices: [
               { id: "a", text: "To put the perspective in the middle of the page" },
               { id: "b", text: "To make one viewpoint the main focus while others are marginalised" },
-              { id: "c", text: "To give all perspectives equal space" },
-              { id: "d", text: "To avoid all perspectives" },
+              { id: "c", text: "To avoid all perspectives" },
+              { id: "d", text: "To give all perspectives equal space" },
             ],
             correctChoiceId: "b",
           },
@@ -746,12 +746,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The prisoners' — we see their inner lives" },
-              { id: "b", text: "The guard's — the prisoners' inner lives, voices and individuality are lost" },
-              { id: "c", text: "No perspective is centred" },
+              { id: "a", text: "No perspective is centred" },
+              { id: "b", text: "The prisoners' — we see their inner lives" },
+              { id: "c", text: "The guard's — the prisoners' inner lives, voices and individuality are lost" },
               { id: "d", text: "The director's" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Perspective and representation", statement: "Whose eyes we see through determines whose humanity is visible." }],

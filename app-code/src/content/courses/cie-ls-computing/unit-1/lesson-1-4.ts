@@ -51,11 +51,11 @@ export const lesson14: Lesson = {
           "choices": [
                     {
                               "id": "a",
-                              "text": "Input passed to a function when called"
+                              "text": "A type of loop"
                     },
                     {
                               "id": "b",
-                              "text": "A type of loop"
+                              "text": "A file format"
                     },
                     {
                               "id": "c",
@@ -63,10 +63,10 @@ export const lesson14: Lesson = {
                     },
                     {
                               "id": "d",
-                              "text": "A file format"
+                              "text": "Input passed to a function when called"
                     }
           ],
-          "correctChoiceId": "a"
+          "correctChoiceId": "d"
 },
           markscheme: {
           "principles": [
@@ -212,6 +212,484 @@ export const lesson14: Lesson = {
                     }
           ],
           "finalAnswer": "Functions, parameters, scope, modularity."
+},
+        },
+        {
+          id: "cils-c-u1-fn-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "What does the 'return' statement do in a function?",
+          response: {
+          "type": "mcq",
+          "choices": [
+                    {
+                              "id": "a",
+                              "text": "Prints text to the screen"
+                    },
+                    {
+                              "id": "b",
+                              "text": "Ends the whole program"
+                    },
+                    {
+                              "id": "c",
+                              "text": "Sends a result back to where the function was called"
+                    },
+                    {
+                              "id": "d",
+                              "text": "Deletes a variable"
+                    }
+          ],
+          "correctChoiceId": "c"
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "definition",
+                              "name": "Return value",
+                              "statement": "Result sent back to caller."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "return passes a value back to the calling code.",
+                              "marks": 1,
+                              "markCode": "M"
+                    }
+          ],
+          "finalAnswer": "Sends result back"
+},
+        },
+        {
+          id: "cils-c-u1-fn-q6",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "def double(n): return n * 2. What does double(6) return?",
+          response: {
+          "type": "numeric",
+          "parts": [
+                    { "label": "a", "answer": 12 }
+          ]
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "skill",
+                              "name": "Function calls",
+                              "statement": "Substitute argument for parameter."
+                    }
+          ],
+          "steps": [
+                    {
+                              "part": "a",
+                              "reasoning": "6 * 2 = 12.",
+                              "marks": 1,
+                              "markCode": "M"
+                    }
+          ],
+          "finalAnswer": "12"
+},
+        },
+        {
+          id: "cils-c-u1-fn-q7",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "def add(a, b): return a + b. What does add(7, 8) return?",
+          response: {
+          "type": "numeric",
+          "parts": [
+                    { "label": "a", "answer": 15 }
+          ]
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "skill",
+                              "name": "Parameters",
+                              "statement": "a=7, b=8 at call."
+                    }
+          ],
+          "steps": [
+                    {
+                              "part": "a",
+                              "reasoning": "7 + 8 = 15.",
+                              "marks": 1,
+                              "markCode": "M"
+                    }
+          ],
+          "finalAnswer": "15"
+},
+        },
+        {
+          id: "cils-c-u1-fn-q8",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "def square(x): return x * x. (a) What does square(9) return? (b) Why is writing this as a function better than writing '9 * 9' each time? (c) What is the parameter and what is the argument in square(9)?",
+          response: {
+          "type": "open"
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "skill",
+                              "name": "Functions",
+                              "statement": "Calls, parameters, reuse."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "(a) 81.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "(b) Reusable for any input; change once.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "(c) Parameter = x; argument = 9.",
+                              "marks": 1,
+                              "markCode": "A"
+                    }
+          ],
+          "finalAnswer": "81; reuse; param x, arg 9"
+},
+        },
+        {
+          id: "cils-c-u1-fn-q9",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "What is 'local scope' in a function?",
+          response: {
+          "type": "mcq",
+          "choices": [
+                    {
+                              "id": "a",
+                              "text": "A type of loop"
+                    },
+                    {
+                              "id": "b",
+                              "text": "A variable that exists only inside the function"
+                    },
+                    {
+                              "id": "c",
+                              "text": "A network setting"
+                    },
+                    {
+                              "id": "d",
+                              "text": "A variable visible to the whole program"
+                    }
+          ],
+          "correctChoiceId": "b"
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "definition",
+                              "name": "Local scope",
+                              "statement": "Visible only inside function."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "Local variables don't exist outside the function.",
+                              "marks": 1,
+                              "markCode": "M"
+                    }
+          ],
+          "finalAnswer": "Inside function only"
+},
+        },
+        {
+          id: "cils-c-u1-fn-q10",
+          difficulty: "challenge",
+          totalMarks: 1,
+          stem: "def f(n): return n * 2 + 1. What does f(5) return?",
+          response: {
+          "type": "numeric",
+          "parts": [
+                    { "label": "a", "answer": 11 }
+          ]
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "skill",
+                              "name": "Function evaluation",
+                              "statement": "Apply operations in order."
+                    }
+          ],
+          "steps": [
+                    {
+                              "part": "a",
+                              "reasoning": "5 * 2 + 1 = 11.",
+                              "marks": 1,
+                              "markCode": "M"
+                    }
+          ],
+          "finalAnswer": "11"
+},
+        },
+        {
+          id: "cils-c-u1-fn-q11",
+          difficulty: "challenge",
+          totalMarks: 1,
+          stem: "Two different functions both use a variable named 'total'. Does this cause a conflict?",
+          response: {
+          "type": "mcq",
+          "choices": [
+                    {
+                              "id": "a",
+                              "text": "No — local scope keeps them separate"
+                    },
+                    {
+                              "id": "b",
+                              "text": "Yes — duplicate names always crash"
+                    },
+                    {
+                              "id": "c",
+                              "text": "Yes — the second function overwrites the first"
+                    },
+                    {
+                              "id": "d",
+                              "text": "Only if both return a value"
+                    }
+          ],
+          "correctChoiceId": "a"
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "definition",
+                              "name": "Scope",
+                              "statement": "Local variables are independent."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "Each function's 'total' is local — no conflict.",
+                              "marks": 1,
+                              "markCode": "M"
+                    }
+          ],
+          "finalAnswer": "No conflict — local scope"
+},
+        },
+        {
+          id: "cils-c-u1-fn-q12",
+          difficulty: "challenge",
+          totalMarks: 5,
+          stem: "(a) Define parameter and argument. (b) Write def is_positive(n) returning a Boolean. (c) What does it return for n = -3? (d) Give an example showing why local variables are safer than global ones. (e) Give one reason modularity makes programs easier to debug.",
+          response: {
+          "type": "open"
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "technique",
+                              "name": "Functions",
+                              "statement": "Params, scope, modularity."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "(a) Parameter = named input in definition; argument = value passed at call.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "(b) def is_positive(n): return n > 0.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "(c) False.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "(d) Local var can't be changed by other code; global can be overwritten accidentally.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "(e) Each function tested separately; bugs isolated.",
+                              "marks": 1,
+                              "markCode": "A"
+                    }
+          ],
+          "finalAnswer": "Parameters, Boolean function, scope, modularity."
+},
+        },
+        {
+          id: "cils-c-u1-fn-q13",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "In the call area(4, 5), what are 4 and 5 called?",
+          response: {
+          "type": "mcq",
+          "choices": [
+                    {
+                              "id": "a",
+                              "text": "Arguments"
+                    },
+                    {
+                              "id": "b",
+                              "text": "Variables"
+                    },
+                    {
+                              "id": "c",
+                              "text": "Parameters"
+                    },
+                    {
+                              "id": "d",
+                              "text": "Return values"
+                    }
+          ],
+          "correctChoiceId": "a"
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "definition",
+                              "name": "Argument",
+                              "statement": "Value passed at call time."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "Values supplied when calling are arguments.",
+                              "marks": 1,
+                              "markCode": "M"
+                    }
+          ],
+          "finalAnswer": "Arguments"
+},
+        },
+        {
+          id: "cils-c-u1-fn-q14",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "def cube(n): return n * n * n. What does cube(4) return?",
+          response: {
+          "type": "numeric",
+          "parts": [
+                    { "label": "a", "answer": 64 }
+          ]
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "skill",
+                              "name": "Function calls",
+                              "statement": "n = 4 substituted."
+                    }
+          ],
+          "steps": [
+                    {
+                              "part": "a",
+                              "reasoning": "4 * 4 * 4 = 64.",
+                              "marks": 1,
+                              "markCode": "M"
+                    }
+          ],
+          "finalAnswer": "64"
+},
+        },
+        {
+          id: "cils-c-u1-fn-q15",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "def area(w, h): return w * h. What does area(3, 7) return?",
+          response: {
+          "type": "mcq",
+          "choices": [
+                    {
+                              "id": "a",
+                              "text": "21"
+                    },
+                    {
+                              "id": "b",
+                              "text": "An error"
+                    },
+                    {
+                              "id": "c",
+                              "text": "37"
+                    },
+                    {
+                              "id": "d",
+                              "text": "10"
+                    }
+          ],
+          "correctChoiceId": "a"
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "skill",
+                              "name": "Function calls",
+                              "statement": "w=3, h=7."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "3 * 7 = 21.",
+                              "marks": 1,
+                              "markCode": "M"
+                    }
+          ],
+          "finalAnswer": "21"
+},
+        },
+        {
+          id: "cils-c-u1-fn-q16",
+          difficulty: "challenge",
+          totalMarks: 6,
+          stem: "(a) Define function, parameter, return value, local scope. (b) Write def discount(price): return price * 0.9. (c) What does discount(50) return? (d) Can a function call another function? Give an example. (e) Why should global variables be used sparingly? (f) Design two functions for a simple calculator.",
+          response: {
+          "type": "open"
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "technique",
+                              "name": "Functions",
+                              "statement": "Params, returns, scope, composition."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "(a) All four definitions correct.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "(b) def discount(price): return price * 0.9.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "(c) 45.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "(d) Yes, e.g. def total(x,y): return add(x,y) * tax.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "(e) Globals visible everywhere — easy to change accidentally.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "(f) Valid calculator function set.",
+                              "marks": 1,
+                              "markCode": "A"
+                    }
+          ],
+          "finalAnswer": "Functions, composition, scope, design."
 },
         },
       ],

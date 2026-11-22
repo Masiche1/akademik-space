@@ -85,12 +85,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The word 'peace' and all Montagues" },
-              { id: "b", text: "His own family" },
-              { id: "c", text: "The Prince" },
-              { id: "d", text: "Verona" },
+              { id: "a", text: "Verona" },
+              { id: "b", text: "The Prince" },
+              { id: "c", text: "The word 'peace' and all Montagues" },
+              { id: "d", text: "His own family" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "skill", name: "Retrieval", statement: "Use the exact words of the text." }],
@@ -211,12 +211,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "He refuses to accept what fate has done" },
-              { id: "b", text: "He is looking at the night sky" },
-              { id: "c", text: "He wants to become an astronomer" },
-              { id: "d", text: "He is praying for luck" },
+              { id: "a", text: "He wants to become an astronomer" },
+              { id: "b", text: "He refuses to accept what fate has done" },
+              { id: "c", text: "He is praying for luck" },
+              { id: "d", text: "He is looking at the night sky" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Apostrophe", statement: "Addressing the stars directly shows belief in fate." }],

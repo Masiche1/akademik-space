@@ -54,12 +54,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "They are far apart and move quickly in all directions" },
+              { id: "a", text: "They are close together in a regular pattern and vibrate" },
               { id: "b", text: "They are close together and slide past each other" },
-              { id: "c", text: "They are close together in a regular pattern and vibrate" },
-              { id: "d", text: "They are stationary and do not move at all" },
+              { id: "c", text: "They are stationary and do not move at all" },
+              { id: "d", text: "They are far apart and move quickly in all directions" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -155,12 +155,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Solid" },
-              { id: "b", text: "Liquid" },
-              { id: "c", text: "Gas" },
-              { id: "d", text: "Plasma" },
+              { id: "a", text: "Gas" },
+              { id: "b", text: "Solid" },
+              { id: "c", text: "Plasma" },
+              { id: "d", text: "Liquid" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -182,12 +182,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Close together in a regular arrangement, vibrating in place" },
-              { id: "b", text: "Close together but sliding past each other" },
-              { id: "c", text: "Far apart, moving quickly in random directions" },
-              { id: "d", text: "Attached to each other by strong forces" },
+              { id: "a", text: "Close together but sliding past each other" },
+              { id: "b", text: "Close together in a regular arrangement, vibrating in place" },
+              { id: "c", text: "Attached to each other by strong forces" },
+              { id: "d", text: "Far apart, moving quickly in random directions" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -248,9 +248,9 @@ export const lesson12: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "It shows that particles in a solid vibrate in fixed positions" },
-              { id: "b", text: "It shows that particles are close together" },
+              { id: "b", text: "It shows that a solid has a fixed shape" },
               { id: "c", text: "It does not show the real shape, size or movement of particles, or the forces between them" },
-              { id: "d", text: "It shows that a solid has a fixed shape" },
+              { id: "d", text: "It shows that particles are close together" },
             ],
             correctChoiceId: "c",
           },
@@ -478,12 +478,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Melting" },
-              { id: "b", text: "Evaporation" },
-              { id: "c", text: "Condensation" },
-              { id: "d", text: "Freezing" },
+              { id: "a", text: "Condensation" },
+              { id: "b", text: "Melting" },
+              { id: "c", text: "Freezing" },
+              { id: "d", text: "Evaporation" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -580,12 +580,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Freezing" },
-              { id: "b", text: "Melting" },
-              { id: "c", text: "Condensation" },
-              { id: "d", text: "Boiling" },
+              { id: "a", text: "Condensation" },
+              { id: "b", text: "Freezing" },
+              { id: "c", text: "Boiling" },
+              { id: "d", text: "Melting" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -607,12 +607,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$0\\ ^\\circ\\text{C}$" },
+              { id: "a", text: "$100\\ ^\\circ\\text{C}$" },
               { id: "b", text: "$50\\ ^\\circ\\text{C}$" },
-              { id: "c", text: "$100\\ ^\\circ\\text{C}$" },
+              { id: "c", text: "$0\\ ^\\circ\\text{C}$" },
               { id: "d", text: "$1000\\ ^\\circ\\text{C}$" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -673,12 +673,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Evaporation; particles move from low to high concentration" },
-              { id: "b", text: "Diffusion; particles move randomly from high to low concentration" },
-              { id: "c", text: "Condensation; particles move from cold to hot regions" },
-              { id: "d", text: "Boiling; particles move in straight lines" },
+              { id: "a", text: "Boiling; particles move in straight lines" },
+              { id: "b", text: "Condensation; particles move from cold to hot regions" },
+              { id: "c", text: "Evaporation; particles move from low to high concentration" },
+              { id: "d", text: "Diffusion; particles move randomly from high to low concentration" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

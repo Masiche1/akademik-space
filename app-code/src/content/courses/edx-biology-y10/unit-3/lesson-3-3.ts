@@ -56,11 +56,11 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Glomerulus" },
-              { id: "b", text: "Proximal convoluted tubule" },
-              { id: "c", text: "Collecting duct" },
+              { id: "b", text: "Collecting duct" },
+              { id: "c", text: "Proximal convoluted tubule" },
               { id: "d", text: "Bowman's capsule" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -193,12 +193,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Kidney" },
-              { id: "b", text: "Liver" },
-              { id: "c", text: "Pituitary gland" },
-              { id: "d", text: "Pancreas" },
+              { id: "a", text: "Pancreas" },
+              { id: "b", text: "Kidney" },
+              { id: "c", text: "Liver" },
+              { id: "d", text: "Pituitary gland" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [

@@ -55,12 +55,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Practising one line repeatedly" },
-              { id: "b", text: "Performing the complete piece without stopping" },
-              { id: "c", text: "Only technical elements" },
-              { id: "d", text: "Only costume fittings" },
+              { id: "a", text: "Only technical elements" },
+              { id: "b", text: "Only costume fittings" },
+              { id: "c", text: "Practising one line repeatedly" },
+              { id: "d", text: "Performing the complete piece without stopping" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -156,12 +156,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Practising fight choreography" },
-              { id: "b", text: "Reading and analysing the text with the cast" },
-              { id: "c", text: "Setting up the lighting rig" },
-              { id: "d", text: "Fitting costumes" },
+              { id: "a", text: "Reading and analysing the text with the cast" },
+              { id: "b", text: "Practising fight choreography" },
+              { id: "c", text: "Fitting costumes" },
+              { id: "d", text: "Setting up the lighting rig" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -185,12 +185,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Reading the script aloud" },
-              { id: "b", text: "Staging movement and positioning of actors" },
-              { id: "c", text: "Costume fittings" },
+              { id: "a", text: "Costume fittings" },
+              { id: "b", text: "Reading the script aloud" },
+              { id: "c", text: "Staging movement and positioning of actors" },
               { id: "d", text: "Auditioning new actors" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -214,12 +214,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Only the actors' voices" },
-              { id: "b", text: "Lighting, sound and set elements with the performance" },
+              { id: "a", text: "Only audience seating" },
+              { id: "b", text: "Only the actors' voices" },
               { id: "c", text: "Only costume changes" },
-              { id: "d", text: "Only audience seating" },
+              { id: "d", text: "Lighting, sound and set elements with the performance" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -243,12 +243,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Because run-throughs are always boring" },
-              { id: "b", text: "Because unsettled blocking undermines the foundations of the production" },
-              { id: "c", text: "Because actors refuse to run scenes" },
-              { id: "d", text: "Because lighting is not ready" },
+              { id: "a", text: "Because actors refuse to run scenes" },
+              { id: "b", text: "Because run-throughs are always boring" },
+              { id: "c", text: "Because lighting is not ready" },
+              { id: "d", text: "Because unsettled blocking undermines the foundations of the production" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -272,12 +272,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The first reading of the script" },
-              { id: "b", text: "A rehearsal with costumes, makeup and full technical elements" },
-              { id: "c", text: "Only a lighting check" },
-              { id: "d", text: "An open performance for critics" },
+              { id: "a", text: "Only a lighting check" },
+              { id: "b", text: "The first reading of the script" },
+              { id: "c", text: "An open performance for critics" },
+              { id: "d", text: "A rehearsal with costumes, makeup and full technical elements" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -301,12 +301,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Repeat the whole scene over and over" },
-              { id: "b", text: "Isolate the scene and diagnose the specific problem" },
-              { id: "c", text: "Skip the scene entirely" },
-              { id: "d", text: "Let the actors decide" },
+              { id: "a", text: "Skip the scene entirely" },
+              { id: "b", text: "Let the actors decide" },
+              { id: "c", text: "Repeat the whole scene over and over" },
+              { id: "d", text: "Isolate the scene and diagnose the specific problem" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -330,12 +330,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Frees group time for coordination and problem-solving" },
-              { id: "b", text: "Eliminates the need for communication" },
-              { id: "c", text: "Allows actors to avoid rehearsals" },
-              { id: "d", text: "Replaces the director's role" },
+              { id: "a", text: "Eliminates the need for communication" },
+              { id: "b", text: "Replaces the director's role" },
+              { id: "c", text: "Frees group time for coordination and problem-solving" },
+              { id: "d", text: "Allows actors to avoid rehearsals" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -497,12 +497,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The director making all decisions alone" },
-              { id: "b", text: "Clear communication, mutual respect and shared ownership" },
-              { id: "c", text: "Actors never questioning direction" },
-              { id: "d", text: "Designers working separately" },
+              { id: "a", text: "Actors never questioning direction" },
+              { id: "b", text: "Designers working separately" },
+              { id: "c", text: "The director making all decisions alone" },
+              { id: "d", text: "Clear communication, mutual respect and shared ownership" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -598,12 +598,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Individual vocal projection" },
-              { id: "b", text: "Trust, awareness and responsiveness within the group" },
-              { id: "c", text: "Set construction skills" },
-              { id: "d", text: "Audience seating plans" },
+              { id: "a", text: "Trust, awareness and responsiveness within the group" },
+              { id: "b", text: "Set construction skills" },
+              { id: "c", text: "Audience seating plans" },
+              { id: "d", text: "Individual vocal projection" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -627,12 +627,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The director owns all decisions" },
-              { id: "b", text: "The production belongs to the whole ensemble, not just the director" },
-              { id: "c", text: "Each actor owns their costume" },
-              { id: "d", text: "The theatre owns the set" },
+              { id: "a", text: "Each actor owns their costume" },
+              { id: "b", text: "The theatre owns the set" },
+              { id: "c", text: "The production belongs to the whole ensemble, not just the director" },
+              { id: "d", text: "The director owns all decisions" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -656,12 +656,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "'That was wrong.'" },
-              { id: "b", text: "'Try slowing that gesture on the second line.'" },
-              { id: "c", text: "'You should quit.'" },
-              { id: "d", text: "'I preferred yesterday.'" },
+              { id: "a", text: "'I preferred yesterday.'" },
+              { id: "b", text: "'That was wrong.'" },
+              { id: "c", text: "'Try slowing that gesture on the second line.'" },
+              { id: "d", text: "'You should quit.'" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -685,12 +685,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The actor silently complies" },
-              { id: "b", text: "The actor voices concerns respectfully; the director listens, then decides and explains" },
+              { id: "a", text: "The actor voices concerns respectfully; the director listens, then decides and explains" },
+              { id: "b", text: "The actor performs the opposite interpretation" },
               { id: "c", text: "The actor quits the production" },
-              { id: "d", text: "The actor performs the opposite interpretation" },
+              { id: "d", text: "The actor silently complies" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -714,12 +714,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Vague and general" },
-              { id: "b", text: "Specific and constructive" },
+              { id: "a", text: "Directed only at the lead actor" },
+              { id: "b", text: "Vague and general" },
               { id: "c", text: "Saved until opening night" },
-              { id: "d", text: "Directed only at the lead actor" },
+              { id: "d", text: "Specific and constructive" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -743,10 +743,10 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Individual vocal technique" },
+              { id: "a", text: "Stage combat" },
               { id: "b", text: "Awareness and responsiveness to others" },
-              { id: "c", text: "Stage combat" },
-              { id: "d", text: "Costume design" },
+              { id: "c", text: "Costume design" },
+              { id: "d", text: "Individual vocal technique" },
             ],
             correctChoiceId: "b",
           },
@@ -772,12 +772,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A group of solo performers sharing a stage" },
-              { id: "b", text: "One organism where each member supports the whole" },
+              { id: "a", text: "One organism where each member supports the whole" },
+              { id: "b", text: "A group of solo performers sharing a stage" },
               { id: "c", text: "A committee making decisions" },
               { id: "d", text: "A hierarchy with one leader" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

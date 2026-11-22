@@ -50,12 +50,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It is moving at a constant speed." },
-              { id: "b", text: "It is speeding up." },
-              { id: "c", text: "It is stationary." },
-              { id: "d", text: "It is moving backward." },
+              { id: "a", text: "It is stationary." },
+              { id: "b", text: "It is moving backward." },
+              { id: "c", text: "It is speeding up." },
+              { id: "d", text: "It is moving at a constant speed." },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -177,12 +177,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "First law: the passenger's body tends to keep moving at its original velocity." },
-              { id: "b", text: "Second law: the passenger has more mass than the car." },
-              { id: "c", text: "Third law: the seat pushes the passenger forward." },
+              { id: "a", text: "Second law: the passenger has more mass than the car." },
+              { id: "b", text: "Third law: the seat pushes the passenger forward." },
+              { id: "c", text: "First law: the passenger's body tends to keep moving at its original velocity." },
               { id: "d", text: "None; forces are not involved." },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

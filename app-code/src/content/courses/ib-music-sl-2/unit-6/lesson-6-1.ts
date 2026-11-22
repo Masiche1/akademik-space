@@ -55,12 +55,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Only the best performances" },
-              { id: "b", text: "Musical growth across performance, composition and analysis" },
+              { id: "a", text: "Instrument prices" },
+              { id: "b", text: "Only the best performances" },
               { id: "c", text: "Music theory knowledge" },
-              { id: "d", text: "Instrument prices" },
+              { id: "d", text: "Musical growth across performance, composition and analysis" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -156,12 +156,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Only the student's name" },
-              { id: "b", text: "Date, piece and performance context" },
+              { id: "a", text: "Date, piece and performance context" },
+              { id: "b", text: "Only the student's name" },
               { id: "c", text: "The recording equipment model" },
               { id: "d", text: "The audience size" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -185,12 +185,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Technical accuracy of the instrument" },
-              { id: "b", text: "Audible musical growth over time" },
-              { id: "c", text: "Knowledge of music history" },
-              { id: "d", text: "The student's favourite piece" },
+              { id: "a", text: "Knowledge of music history" },
+              { id: "b", text: "Technical accuracy of the instrument" },
+              { id: "c", text: "The student's favourite piece" },
+              { id: "d", text: "Audible musical growth over time" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -214,12 +214,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Only finished scores" },
-              { id: "b", text: "Scores, recordings and programme notes explaining intent" },
+              { id: "a", text: "Copying famous compositions" },
+              { id: "b", text: "Only finished scores" },
               { id: "c", text: "Only audio files" },
-              { id: "d", text: "Copying famous compositions" },
+              { id: "d", text: "Scores, recordings and programme notes explaining intent" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -243,12 +243,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Show the student lacks talent" },
-              { id: "b", text: "Demonstrate learning from mistakes" },
+              { id: "a", text: "Demonstrate learning from mistakes" },
+              { id: "b", text: "Show the student lacks talent" },
               { id: "c", text: "Fill space in the portfolio" },
               { id: "d", text: "Replace the need for successful performances" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -273,11 +273,11 @@ export const lesson61: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Audio recordings only" },
-              { id: "b", text: "Video recordings" },
+              { id: "b", text: "Photographs of the instrument" },
               { id: "c", text: "Written diary entries only" },
-              { id: "d", text: "Photographs of the instrument" },
+              { id: "d", text: "Video recordings" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -303,8 +303,8 @@ export const lesson61: Lesson = {
             choices: [
               { id: "a", text: "List the recording equipment" },
               { id: "b", text: "Explain the musical intent and context of the performance" },
-              { id: "c", text: "Replace the need for the recording" },
-              { id: "d", text: "Show the student's grades" },
+              { id: "c", text: "Show the student's grades" },
+              { id: "d", text: "Replace the need for the recording" },
             ],
             correctChoiceId: "b",
           },
@@ -330,12 +330,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Many copies of the same piece" },
-              { id: "b", text: "Works across different genres, styles or periods" },
-              { id: "c", text: "Only technically difficult pieces" },
-              { id: "d", text: "Only pieces the student enjoys" },
+              { id: "a", text: "Only pieces the student enjoys" },
+              { id: "b", text: "Only technically difficult pieces" },
+              { id: "c", text: "Works across different genres, styles or periods" },
+              { id: "d", text: "Many copies of the same piece" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -359,12 +359,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A single flawless final performance" },
-              { id: "b", text: "A sequence of recordings with dated reflections showing progress" },
-              { id: "c", text: "A list of awards received" },
-              { id: "d", text: "A written claim that the student improved" },
+              { id: "a", text: "A list of awards received" },
+              { id: "b", text: "A written claim that the student improved" },
+              { id: "c", text: "A single flawless final performance" },
+              { id: "d", text: "A sequence of recordings with dated reflections showing progress" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -609,11 +609,11 @@ export const lesson61: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Including every recording" },
-              { id: "b", text: "Showing range and growth in musical development" },
-              { id: "c", text: "Using the most expensive equipment" },
-              { id: "d", text: "Including only famous pieces" },
+              { id: "b", text: "Using the most expensive equipment" },
+              { id: "c", text: "Including only famous pieces" },
+              { id: "d", text: "Showing range and growth in musical development" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -709,9 +709,9 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The most technically perfect takes" },
+              { id: "a", text: "The longest performances" },
               { id: "b", text: "Recordings that show growth and range" },
-              { id: "c", text: "The longest performances" },
+              { id: "c", text: "The most technically perfect takes" },
               { id: "d", text: "Recordings made with expensive equipment" },
             ],
             correctChoiceId: "b",
@@ -739,11 +739,11 @@ export const lesson61: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Hides early weaknesses" },
-              { id: "b", text: "Makes musical development visible over time" },
-              { id: "c", text: "Is required by all assessment boards" },
+              { id: "b", text: "Is required by all assessment boards" },
+              { id: "c", text: "Makes musical development visible over time" },
               { id: "d", text: "Reduces the number of items needed" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -768,11 +768,11 @@ export const lesson61: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Only concert dates" },
-              { id: "b", text: "Performances given, repertoire played and experiences gained" },
-              { id: "c", text: "Instrument purchase receipts" },
+              { id: "b", text: "Instrument purchase receipts" },
+              { id: "c", text: "Performances given, repertoire played and experiences gained" },
               { id: "d", text: "Practice room schedules" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -796,12 +796,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Increasing the page count" },
-              { id: "b", text: "Providing context and showing critical thinking" },
-              { id: "c", text: "Replacing the need for recordings" },
-              { id: "d", text: "Proving the student can write essays" },
+              { id: "a", text: "Replacing the need for recordings" },
+              { id: "b", text: "Increasing the page count" },
+              { id: "c", text: "Proving the student can write essays" },
+              { id: "d", text: "Providing context and showing critical thinking" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -826,11 +826,11 @@ export const lesson61: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Kept in a single unmarked folder" },
-              { id: "b", text: "Clearly labelled with date, title and context" },
-              { id: "c", text: "Printed on expensive paper" },
+              { id: "b", text: "Printed on expensive paper" },
+              { id: "c", text: "Clearly labelled with date, title and context" },
               { id: "d", text: "Stored only digitally" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -854,12 +854,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The portfolio must show range within each domain" },
-              { id: "b", text: "The student wants to hide weak areas" },
-              { id: "c", text: "Only digital portfolios are used" },
-              { id: "d", text: "The student has very few materials" },
+              { id: "a", text: "The student has very few materials" },
+              { id: "b", text: "Only digital portfolios are used" },
+              { id: "c", text: "The portfolio must show range within each domain" },
+              { id: "d", text: "The student wants to hide weak areas" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -883,12 +883,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The student's favourite songs" },
-              { id: "b", text: "Pieces performed or studied" },
-              { id: "c", text: "The student's practice schedule" },
-              { id: "d", text: "Music theory definitions" },
+              { id: "a", text: "Pieces performed or studied" },
+              { id: "b", text: "The student's practice schedule" },
+              { id: "c", text: "Music theory definitions" },
+              { id: "d", text: "The student's favourite songs" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -912,12 +912,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Replace the need for written reflection" },
-              { id: "b", text: "Include video, audio and interactive elements accessibly" },
-              { id: "c", text: "Automatically assess the music" },
-              { id: "d", text: "Guarantee higher marks" },
+              { id: "a", text: "Guarantee higher marks" },
+              { id: "b", text: "Automatically assess the music" },
+              { id: "c", text: "Include video, audio and interactive elements accessibly" },
+              { id: "d", text: "Replace the need for written reflection" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

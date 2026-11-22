@@ -57,9 +57,9 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Sine rule" },
-              { id: "b", text: "Cosine rule" },
+              { id: "b", text: "Neither" },
               { id: "c", text: "Pythagoras" },
-              { id: "d", text: "Neither" },
+              { id: "d", text: "Cosine rule" },
             ],
             correctChoiceId: "a",
           },
@@ -83,12 +83,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\sqrt{28}$" },
-              { id: "b", text: "$\\sqrt{52}$" },
-              { id: "c", text: "6" },
-              { id: "d", text: "$\\sqrt{76}$" },
+              { id: "a", text: "$\\sqrt{76}$" },
+              { id: "b", text: "$\\sqrt{28}$" },
+              { id: "c", text: "$\\sqrt{52}$" },
+              { id: "d", text: "6" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -111,12 +111,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$53.1°$" },
-              { id: "b", text: "$36.9°$" },
-              { id: "c", text: "$126.9°$" },
-              { id: "d", text: "$63.4°$" },
+              { id: "a", text: "$36.9°$" },
+              { id: "b", text: "$53.1°$" },
+              { id: "c", text: "$63.4°$" },
+              { id: "d", text: "$126.9°$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -170,12 +170,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Sine rule" },
-              { id: "b", text: "Cosine rule" },
-              { id: "c", text: "Pythagoras" },
-              { id: "d", text: "Area formula" },
+              { id: "a", text: "Cosine rule" },
+              { id: "b", text: "Area formula" },
+              { id: "c", text: "Sine rule" },
+              { id: "d", text: "Pythagoras" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -219,12 +219,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "One side and two angles" },
-              { id: "b", text: "Two sides and the included angle" },
+              { id: "a", text: "One side and one angle" },
+              { id: "b", text: "One side and two angles" },
               { id: "c", text: "Two angles and one side" },
-              { id: "d", text: "One side and one angle" },
+              { id: "d", text: "Two sides and the included angle" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -270,12 +270,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Two sides and the included angle" },
-              { id: "b", text: "All three sides" },
+              { id: "a", text: "All three sides" },
+              { id: "b", text: "Two sides and the included angle" },
               { id: "c", text: "One side and two angles" },
               { id: "d", text: "Two angles only" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -437,12 +437,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Acute" },
-              { id: "b", text: "Right angle" },
+              { id: "a", text: "Right angle" },
+              { id: "b", text: "Cannot be determined" },
               { id: "c", text: "Obtuse" },
-              { id: "d", text: "Cannot be determined" },
+              { id: "d", text: "Acute" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

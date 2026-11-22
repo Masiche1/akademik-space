@@ -54,12 +54,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Light" },
-              { id: "b", text: "Sound" },
+              { id: "a", text: "Sound" },
+              { id: "b", text: "Light" },
               { id: "c", text: "Ripples on water" },
               { id: "d", text: "Radio waves" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -192,12 +192,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The ray speeds up and bends away from the normal." },
-              { id: "b", text: "The ray slows down and bends towards the normal." },
-              { id: "c", text: "The ray slows down and bends away from the normal." },
-              { id: "d", text: "The ray keeps the same speed and bends towards the normal." },
+              { id: "a", text: "The ray slows down and bends towards the normal." },
+              { id: "b", text: "The ray slows down and bends away from the normal." },
+              { id: "c", text: "The ray keeps the same speed and bends towards the normal." },
+              { id: "d", text: "The ray speeds up and bends away from the normal." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

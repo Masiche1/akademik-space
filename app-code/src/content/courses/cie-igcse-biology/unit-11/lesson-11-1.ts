@@ -50,12 +50,12 @@ export const lesson111: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Carbon dioxide" },
+              { id: "a", text: "Nitrogen" },
               { id: "b", text: "Oxygen" },
-              { id: "c", text: "Nitrogen" },
-              { id: "d", text: "Hydrogen" },
+              { id: "c", text: "Hydrogen" },
+              { id: "d", text: "Carbon dioxide" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -136,6 +136,274 @@ export const lesson111: Lesson = {
             commonErrors: ["In (a) saying 'yeast makes bread soft by itself' — CO₂ gas is the mechanism."],
           },
         },
+        {
+          id: "cieb-u11-fermentation-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "What are the two products of alcoholic fermentation by yeast?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Ethanol and carbon dioxide" },
+              { id: "b", text: "Carbon dioxide and water only" },
+              { id: "c", text: "Ethanol and nitrogen" },
+              { id: "d", text: "Lactic acid and oxygen" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Fermentation", statement: "Yeast anaerobic respiration → ethanol + CO₂." },
+            ],
+            steps: [
+              { reasoning: "Recall the products.", working: "\\text{ethanol} + \\text{CO}_2", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** Ethanol and carbon dioxide",
+            commonErrors: ["Choosing lactic acid — that is lactic acid fermentation, not alcoholic."],
+          },
+        },
+        {
+          id: "cieb-u11-fermentation-q6",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Which microorganism is used to produce penicillin industrially?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Penicillium mould" },
+              { id: "b", text: "Lactobacillus" },
+              { id: "c", text: "A virus" },
+              { id: "d", text: "Yeast" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Penicillin", statement: "Produced by Penicillium mould in fermenters." },
+            ],
+            steps: [
+              { reasoning: "Recall the producing organism.", working: "\\text{Penicillium}", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** Penicillium mould",
+            commonErrors: ["Choosing yeast — yeast is used for bread/beer, not penicillin."],
+          },
+        },
+        {
+          id: "cieb-u11-fermentation-q7",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "For ethanol production by yeast, the fermenter must be:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "At freezing temperature" },
+              { id: "b", text: "Full of oxygen" },
+              { id: "c", text: "Acidic at pH 1" },
+              { id: "d", text: "Oxygen-free (anaerobic)" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Anaerobic fermentation", statement: "Ethanol production requires oxygen-free conditions." },
+            ],
+            steps: [
+              { reasoning: "Recall the oxygen requirement.", working: "\\text{anaerobic}", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** Oxygen-free (anaerobic)",
+            commonErrors: ["Choosing (b) — with oxygen yeast respires aerobically and makes no ethanol."],
+          },
+        },
+        {
+          id: "cieb-u11-fermentation-q8",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "Name two food products made using fermentation.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Fermentation uses", statement: "Bread, beer/wine, yoghurt/cheese." },
+            ],
+            steps: [
+              { reasoning: "Give two examples.", working: "\\text{bread, beer, yoghurt}", marks: 1, markCode: "M" },
+              { reasoning: "State them clearly.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "Bread (yeast → CO₂) and beer/wine (yeast → ethanol), or yoghurt/cheese (lactic acid bacteria).",
+            commonErrors: ["Naming a product not made by fermentation, e.g. fresh milk."],
+          },
+        },
+        {
+          id: "cieb-u11-fermentation-q9",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "In yeast fermentation, glucose (C₆H₁₂O₆, Mr = 180) is converted to ethanol (C₂H₅OH, Mr = 46) and carbon dioxide: C₆H₁₂O₆ → 2C₂H₅OH + 2CO₂. Calculate the mass of ethanol produced from 18 g of glucose.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 9.2, unit: "g" }],
+          },
+          markscheme: {
+            principles: [
+              { kind: "formula", name: "Fermentation equation", statement: "$1 \\text{ mol glucose} \\to 2 \\text{ mol ethanol}$" },
+            ],
+            steps: [
+              { reasoning: "Find moles of glucose, then ethanol, then mass.", working: "\\frac{18}{180} = 0.1 \\text{ mol glucose} \\to 0.2 \\text{ mol ethanol} \\to 0.2 \\times 46 = 9.2 \\text{ g}", marks: 1, markCode: "M" },
+              { reasoning: "State the answer with units.", working: "9.2 \\text{ g}", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "9.2 g",
+            commonErrors: ["Using 1 mol ethanol per glucose — the equation gives 2 mol."],
+          },
+        },
+        {
+          id: "cieb-u11-fermentation-q10",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "Explain why oxygen must be excluded when producing ethanol by fermentation.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Anaerobic respiration", statement: "With oxygen, yeast respires aerobically producing CO₂ and water; without oxygen it ferments to ethanol + CO₂." },
+            ],
+            steps: [
+              { reasoning: "With oxygen present, yeast carries out aerobic respiration.", working: "\\text{aerobic respiration}", marks: 1, markCode: "M" },
+              { reasoning: "Aerobic respiration produces CO₂ and water, not ethanol.", working: "\\text{CO}_2 + \\text{water}", marks: 1, markCode: "M" },
+              { reasoning: "Only anaerobic conditions give alcoholic fermentation.", working: "\\text{anaerobic}", marks: 1, markCode: "M" },
+              { reasoning: "Conclude: oxygen must be excluded for ethanol production.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "If oxygen is present, yeast respires aerobically, producing only carbon dioxide and water. Ethanol is only produced under anaerobic conditions, so oxygen must be excluded.",
+            commonErrors: ["Saying oxygen 'kills' the yeast — it just switches the respiration pathway."],
+          },
+        },
+        {
+          id: "cieb-u11-fermentation-q11",
+          difficulty: "challenge",
+          totalMarks: 1,
+          stem: "Lactic acid bacteria are used industrially to produce:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Insulin" },
+              { id: "b", text: "Yoghurt and cheese" },
+              { id: "c", text: "Ethanol for fuel only" },
+              { id: "d", text: "Penicillin" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Lactic acid fermentation", statement: "Lactic acid bacteria ferment lactose → lactic acid → yoghurt/cheese." },
+            ],
+            steps: [
+              { reasoning: "Recall the industrial use.", working: "\\text{yoghurt/cheese}", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** Yoghurt and cheese",
+            commonErrors: ["Choosing penicillin — that is made by Penicillium mould."],
+          },
+        },
+        {
+          id: "cieb-u11-fermentation-q12",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "Describe the role of agitation in a fermenter.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "technique", name: "Agitation", statement: "Mixing distributes nutrients and keeps conditions uniform." },
+            ],
+            steps: [
+              { reasoning: "It mixes the contents.", working: "\\text{mixing}", marks: 1, markCode: "M" },
+              { reasoning: "Purpose: distribute nutrients/oxygen evenly.", working: "\\text{uniform conditions}", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "Agitation mixes the fermenter contents so nutrients, microorganisms and gases are distributed evenly, keeping conditions uniform for growth.",
+            commonErrors: ["Saying agitation is only for show — it has a functional role."],
+          },
+        },
+        {
+          id: "cieb-u11-fermentation-q13",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "A fermenter produces penicillin at a rate of 2.5 g per hour. How much penicillin is produced in 8 hours?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 20, unit: "g" }],
+          },
+          markscheme: {
+            principles: [
+              { kind: "formula", name: "Rate × time", statement: "$2.5 \\text{ g/h} \\times 8 \\text{ h} = 20 \\text{ g}$" },
+            ],
+            steps: [
+              { reasoning: "Multiply rate by time.", working: "2.5 \\times 8 = 20", marks: 1, markCode: "M" },
+            ],
+            finalAnswer: "20 g",
+            commonErrors: ["Dividing instead of multiplying rate by time."],
+          },
+        },
+        {
+          id: "cieb-u11-fermentation-q14",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "Compare the fermenter conditions needed for ethanol production and for penicillin production.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Fermenter conditions", statement: "Both need sterile, optimal temp/pH and nutrients; oxygen requirement differs." },
+            ],
+            steps: [
+              { reasoning: "Ethanol needs anaerobic conditions.", working: "\\text{no oxygen}", marks: 1, markCode: "M" },
+              { reasoning: "Penicillin production is aerobic.", working: "\\text{oxygen required}", marks: 1, markCode: "M" },
+              { reasoning: "Both need sterile conditions and optimal temperature/pH.", working: "\\text{sterile + temp/pH}", marks: 1, markCode: "M" },
+              { reasoning: "Conclude: oxygen level is the key difference.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "Both processes need sterile conditions, optimal temperature, pH control and nutrients; the key difference is oxygen — ethanol fermentation is anaerobic while penicillin production by Penicillium is aerobic.",
+            commonErrors: ["Saying both need the same oxygen level — ethanol must exclude oxygen."],
+          },
+        },
+        {
+          id: "cieb-u11-fermentation-q15",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Human insulin can be produced industrially by:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Lactic acid bacteria" },
+              { id: "b", text: "Genetically modified bacteria grown in a fermenter" },
+              { id: "c", text: "Penicillium mould" },
+              { id: "d", text: "Extracting it from human donors" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Insulin production", statement: "Human insulin gene inserted into bacteria → insulin made in fermenters." },
+            ],
+            steps: [
+              { reasoning: "Recall the production method.", working: "\\text{GM bacteria}", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** Genetically modified bacteria grown in a fermenter",
+            commonErrors: ["Choosing (b) — insulin is not extracted from humans; bacteria produce it."],
+          },
+        },
+        {
+          id: "cieb-u11-fermentation-q16",
+          difficulty: "challenge",
+          totalMarks: 2,
+          stem: "Glucose is fermented by yeast: C₆H₁₂O₆ → 2C₂H₅OH + 2CO₂. If 0.2 mol of glucose is fully fermented, how many moles of carbon dioxide are produced?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 0.4, unit: "mol" }],
+          },
+          markscheme: {
+            principles: [
+              { kind: "formula", name: "Fermentation equation", statement: "$1 \\text{ mol glucose} \\to 2 \\text{ mol CO}_2$" },
+            ],
+            steps: [
+              { reasoning: "Use the 1:2 mole ratio.", working: "0.2 \\times 2 = 0.4 \\text{ mol}", marks: 1, markCode: "M" },
+              { reasoning: "State answer with units.", working: "0.4 \\text{ mol}", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "0.4 mol",
+            commonErrors: ["Answering 0.2 — forgetting the 2 CO₂ per glucose ratio."],
+          },
+        },
       ],
     },
     {
@@ -172,12 +440,12 @@ export const lesson111: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Direct manipulation of genes to produce desired traits" },
-              { id: "b", text: "Breeding animals selectively" },
-              { id: "c", text: "Cloning organisms" },
-              { id: "d", text: "Natural selection" },
+              { id: "a", text: "Cloning organisms" },
+              { id: "b", text: "Natural selection" },
+              { id: "c", text: "Breeding animals selectively" },
+              { id: "d", text: "Direct manipulation of genes to produce desired traits" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -257,6 +525,277 @@ export const lesson111: Lesson = {
             ],
             finalAnswer: "(a) insulin, vaccines (b) pest resistance, herbicide tolerance (c) yield/cheap (d) unknown long-term effects/gene flow",
             commonErrors: ["In (d) saying 'it's always bad' — evaluation needs balanced points."],
+          },
+        },
+        {
+          id: "cieb-u11-genetic-engineering-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "What is the role of a plasmid in genetic engineering?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "It acts as a vector carrying the foreign gene into the host cell" },
+              { id: "b", text: "It is the host organism" },
+              { id: "c", text: "It digests foreign DNA" },
+              { id: "d", text: "It produces the desired protein directly" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Plasmid vector", statement: "Small circular DNA used to carry foreign genes into host cells." },
+            ],
+            steps: [
+              { reasoning: "Recall the function of a plasmid.", working: "\\text{vector}", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** It acts as a vector carrying the foreign gene into the host cell",
+            commonErrors: ["Choosing (c) — the host cell produces the protein, not the plasmid itself."],
+          },
+        },
+        {
+          id: "cieb-u11-genetic-engineering-q6",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Which organism is most commonly used as a host in genetic engineering?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Humans" },
+              { id: "b", text: "Mammals only" },
+              { id: "c", text: "Bacteria (e.g. E. coli)" },
+              { id: "d", text: "Viruses" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Host", statement: "Bacteria are common hosts — easy to culture and contain plasmids." },
+            ],
+            steps: [
+              { reasoning: "Recall the typical host.", working: "\\text{bacteria}", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** Bacteria (e.g. E. coli)",
+            commonErrors: ["Choosing humans — human cells are not used as production hosts at this level."],
+          },
+        },
+        {
+          id: "cieb-u11-genetic-engineering-q7",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "The first step in producing a genetically engineered protein is to:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Extract the protein" },
+              { id: "b", text: "Isolate the gene for the desired product" },
+              { id: "c", text: "Kill the host cells" },
+              { id: "d", text: "Insert the gene into the host" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              { kind: "technique", name: "GE steps", statement: "Isolate gene → insert into vector → host → extract product." },
+            ],
+            steps: [
+              { reasoning: "Recall the sequence.", working: "\\text{isolate gene first}", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** Isolate the gene for the desired product",
+            commonErrors: ["Choosing (b) — you cannot insert a gene you have not isolated."],
+          },
+        },
+        {
+          id: "cieb-u11-genetic-engineering-q8",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "State two advantages of producing insulin using bacteria rather than extracting it from animals.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Bacterial insulin", statement: "Cheaper, faster, consistent, no animal-derived contamination." },
+            ],
+            steps: [
+              { reasoning: "Give two valid advantages.", working: "\\text{cheap, fast, consistent, safe}", marks: 1, markCode: "M" },
+              { reasoning: "State them clearly.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "It is cheaper and faster to produce, gives a consistent pure product, and avoids contamination risks associated with animal-derived insulin.",
+            commonErrors: ["Saying bacteria produce 'better' insulin chemically — it is identical human insulin; the advantage is production method."],
+          },
+        },
+        {
+          id: "cieb-u11-genetic-engineering-q9",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "Describe the steps involved in producing a pest-resistant genetically modified crop plant.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "technique", name: "GM crops", statement: "Isolate pest-resistance gene → vector → plant cells → plant produces protective protein." },
+            ],
+            steps: [
+              { reasoning: "Identify/isolate the gene conferring pest resistance.", working: "\\text{gene isolated}", marks: 1, markCode: "M" },
+              { reasoning: "Insert the gene into a plant vector (e.g. plasmid or Agrobacterium).", working: "\\text{vector}", marks: 1, markCode: "M" },
+              { reasoning: "Introduce vector into plant cells and regenerate plants.", working: "\\text{plant cells}", marks: 1, markCode: "M" },
+              { reasoning: "GM plant produces the protective protein → pests killed.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "Isolate the pest-resistance gene, insert it into a plant vector, transfer it into plant cells, and regenerate whole plants that produce the protective protein so pests feeding on them are killed.",
+            commonErrors: ["Describing bacterial insulin production instead of plant transformation."],
+          },
+        },
+        {
+          id: "cieb-u11-genetic-engineering-q10",
+          difficulty: "challenge",
+          totalMarks: 2,
+          stem: "Human insulin consists of two polypeptide chains containing 21 and 30 amino acids respectively. Calculate the total number of amino acids in insulin.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 51, unit: "amino acids" }],
+          },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Insulin structure", statement: "Two chains: 21 + 30 = 51 amino acids." },
+            ],
+            steps: [
+              { reasoning: "Add the two chain lengths.", working: "21 + 30 = 51", marks: 1, markCode: "M" },
+              { reasoning: "State the answer.", working: "51 \\text{ amino acids}", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "51 amino acids",
+            commonErrors: ["Multiplying instead of adding the chain lengths."],
+          },
+        },
+        {
+          id: "cieb-u11-genetic-engineering-q11",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Which is an example of a trait introduced into a GM crop?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Ability to photosynthesise" },
+              { id: "b", text: "Herbicide tolerance" },
+              { id: "c", text: "Producing seeds" },
+              { id: "d", text: "Growing roots" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "GM crops", statement: "Traits include pest resistance and herbicide tolerance." },
+            ],
+            steps: [
+              { reasoning: "Identify the introduced trait.", working: "\\text{herbicide tolerance}", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** Herbicide tolerance",
+            commonErrors: ["Choosing photosynthesis — all plants photosynthesise; GM traits are novel additions."],
+          },
+        },
+        {
+          id: "cieb-u11-genetic-engineering-q12",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "Explain two concerns about growing genetically modified crops.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "GM concerns", statement: "Gene flow to wild relatives, unknown long-term effects, reduced biodiversity." },
+            ],
+            steps: [
+              { reasoning: "Concern 1: GM genes may spread to wild relatives.", working: "\\text{gene flow}", marks: 1, markCode: "M" },
+              { reasoning: "Concern 2: long-term health/ecological effects are unknown.", working: "\\text{unknown effects}", marks: 1, markCode: "M" },
+              { reasoning: "Develop concern 1.", working: "\\text{wild relatives affected}", marks: 1, markCode: "M" },
+              { reasoning: "Develop concern 2 and conclude.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "GM genes could spread to wild relatives through cross-pollination, and the long-term effects on health and ecosystems are not fully known — creating uncertainty about growing GM crops.",
+            commonErrors: ["Listing only benefits — the question asks for concerns."],
+          },
+        },
+        {
+          id: "cieb-u11-genetic-engineering-q13",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "A fermenter batch produces 250 mg of insulin. Each dose requires 10 mg. Calculate how many doses can be made from one batch.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 25, unit: "doses" }],
+          },
+          markscheme: {
+            principles: [
+              { kind: "formula", name: "Division", statement: "$\\frac{250}{10} = 25$" },
+            ],
+            steps: [
+              { reasoning: "Divide total insulin by dose size.", working: "250 \\div 10 = 25", marks: 1, markCode: "M" },
+              { reasoning: "State the answer.", working: "25 \\text{ doses}", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "25 doses",
+            commonErrors: ["Multiplying instead of dividing."],
+          },
+        },
+        {
+          id: "cieb-u11-genetic-engineering-q14",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "A bacterial culture produces insulin at 0.5 g per litre per hour. Calculate the mass of insulin produced by 200 litres of culture over 4 hours.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 400, unit: "g" }],
+          },
+          markscheme: {
+            principles: [
+              { kind: "formula", name: "Rate × volume × time", statement: "$0.5 \\times 200 \\times 4 = 400 \\text{ g}$" },
+            ],
+            steps: [
+              { reasoning: "Multiply rate by volume and time.", working: "0.5 \\times 200 \\times 4 = 400", marks: 1, markCode: "M" },
+              { reasoning: "State the answer with units.", working: "400 \\text{ g}", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "400 g",
+            commonErrors: ["Forgetting to multiply by the volume."],
+          },
+        },
+        {
+          id: "cieb-u11-genetic-engineering-q15",
+          difficulty: "challenge",
+          totalMarks: 1,
+          stem: "Which is a disadvantage of genetic engineering?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "It cannot produce useful proteins" },
+              { id: "b", text: "It is always cheaper than conventional methods" },
+              { id: "c", text: "It requires no specialist equipment" },
+              { id: "d", text: "Unknown long-term effects on health and ecosystems" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "GE concerns", statement: "Long-term effects are uncertain — a key disadvantage." },
+            ],
+            steps: [
+              { reasoning: "Identify the valid disadvantage.", working: "\\text{unknown effects}", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** Unknown long-term effects on health and ecosystems",
+            commonErrors: ["Choosing (c) — GE is specifically used to produce proteins like insulin."],
+          },
+        },
+        {
+          id: "cieb-u11-genetic-engineering-q16",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "Explain how genetic engineering could be used in gene therapy to treat a genetic disorder.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Gene therapy", statement: "Insert a normal copy of a faulty gene so cells produce functional protein." },
+            ],
+            steps: [
+              { reasoning: "Identify the faulty gene causing the disorder.", working: "\\text{faulty gene}", marks: 1, markCode: "M" },
+              { reasoning: "Obtain a normal copy of the gene.", working: "\\text{normal gene}", marks: 1, markCode: "M" },
+              { reasoning: "Insert the normal gene into the patient's cells using a vector.", working: "\\text{vector delivery}", marks: 1, markCode: "M" },
+              { reasoning: "Cells produce functional protein → disorder treated.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "The faulty gene is identified, a normal copy is inserted into the patient's cells using a vector, and the cells then produce the functional protein needed, treating the disorder.",
+            commonErrors: ["Describing insulin production — gene therapy targets the patient's own cells."],
           },
         },
       ],

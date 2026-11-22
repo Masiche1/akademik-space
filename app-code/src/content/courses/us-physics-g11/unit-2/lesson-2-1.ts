@@ -52,9 +52,9 @@ export const lesson21: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "It is zero, because the force is perpendicular to the displacement." },
-              { id: "b", text: "It is positive, because the person is exerting a force." },
+              { id: "b", text: "It equals the weight of the bag multiplied by the distance walked." },
               { id: "c", text: "It is negative, because the force opposes gravity." },
-              { id: "d", text: "It equals the weight of the bag multiplied by the distance walked." },
+              { id: "d", text: "It is positive, because the person is exerting a force." },
             ],
             correctChoiceId: "a",
           },
@@ -180,12 +180,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$200\\ \\text{W}$" },
-              { id: "b", text: "$1800\\ \\text{W}$" },
+              { id: "a", text: "$1800\\ \\text{W}$" },
+              { id: "b", text: "$200\\ \\text{W}$" },
               { id: "c", text: "$200\\ \\text{J}$" },
               { id: "d", text: "$0.005\\ \\text{W}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [

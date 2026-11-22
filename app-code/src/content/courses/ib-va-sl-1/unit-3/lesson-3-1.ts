@@ -39,11 +39,11 @@ export const lesson31: Lesson = {
           id: "va-u3-comparison-method-q1", difficulty: "foundation", totalMarks: 2,
           stem: "A comparative framework in art analysis is:",
           response: { type: "mcq", choices: [
-            { id: "a", text: "A picture frame used for two paintings" },
-            { id: "b", text: "A consistent set of criteria applied to both works" },
-            { id: "c", text: "A list of artists' birth dates" },
+            { id: "a", text: "A list of artists' birth dates" },
+            { id: "b", text: "A picture frame used for two paintings" },
+            { id: "c", text: "A consistent set of criteria applied to both works" },
             { id: "d", text: "A scoring system for grading art" },
-          ], correctChoiceId: "b" },
+          ], correctChoiceId: "c" },
           markscheme: {
             principles: [{ kind: "definition", name: "Comparative framework", statement: "Consistent criteria used to analyse works side by side." }],
             steps: [
@@ -118,11 +118,11 @@ export const lesson31: Lesson = {
           id: "va-u3-comparison-method-q5", difficulty: "foundation", totalMarks: 2,
           stem: "Which of the following is a contextual criterion for comparing two artworks?",
           response: { type: "mcq", choices: [
-            { id: "a", text: "The colour palette used" },
-            { id: "b", text: "The brushwork technique" },
-            { id: "c", text: "The historical period and patronage" },
-            { id: "d", text: "The composition of the picture plane" },
-          ], correctChoiceId: "c" },
+            { id: "a", text: "The composition of the picture plane" },
+            { id: "b", text: "The historical period and patronage" },
+            { id: "c", text: "The colour palette used" },
+            { id: "d", text: "The brushwork technique" },
+          ], borrectChoiceId: "c" },
           markscheme: {
             principles: [{ kind: "definition", name: "Contextual criterion", statement: "Period, culture, patronage and purpose situate a work historically and socially." }],
             steps: [
@@ -152,11 +152,11 @@ export const lesson31: Lesson = {
           id: "va-u3-comparison-method-q7", difficulty: "core", totalMarks: 2,
           stem: "Applying the same criteria to both artworks in a comparison prevents:",
           response: { type: "mcq", choices: [
-            { id: "a", text: "Describing the works at all" },
-            { id: "b", text: "Cherry-picking features that favour one work" },
+            { id: "a", text: "Cherry-picking features that favour one work" },
+            { id: "b", text: "Reaching any judgement" },
             { id: "c", text: "Using colour as a criterion" },
-            { id: "d", text: "Reaching any judgement" },
-          ], correctChoiceId: "b" },
+            { id: "d", text: "Describing the works at all" },
+          ], correctChoiceId: "a" },
           markscheme: {
             principles: [{ kind: "principle", name: "Fair comparison", statement: "Consistent criteria applied equally prevent biased selection of evidence." }],
             steps: [
@@ -188,10 +188,10 @@ export const lesson31: Lesson = {
           stem: "Two artworks share a subject but treat it in opposite ways. The most revealing comparison would focus on:",
           response: { type: "mcq", choices: [
             { id: "a", text: "The titles of the works only" },
-            { id: "b", text: "How each treats the subject formally and what that reveals about intention" },
-            { id: "c", text: "The colours of the frames" },
-            { id: "d", text: "The artists' ages" },
-          ], correctChoiceId: "b" },
+            { id: "b", text: "The artists' ages" },
+            { id: "c", text: "How each treats the subject formally and what that reveals about intention" },
+            { id: "d", text: "The colours of the frames" },
+          ], correctChoiceId: "c" },
           markscheme: {
             principles: [{ kind: "principle", name: "Treatment of subject", statement: "Divergent treatment of a shared subject reveals divergent intentions and contexts." }],
             steps: [
@@ -235,11 +235,11 @@ export const lesson31: Lesson = {
           id: "va-u3-comparison-method-q11", difficulty: "foundation", totalMarks: 2,
           stem: "Provenance is useful in comparison because it provides:",
           response: { type: "mcq", choices: [
-            { id: "a", text: "Automatic proof of which work is older" },
-            { id: "b", text: "The history of ownership and location, which informs context" },
-            { id: "c", text: "A substitute for looking at the work" },
-            { id: "d", text: "Only the sale price of the work" },
-          ], correctChoiceId: "b" },
+            { id: "a", text: "Only the sale price of the work" },
+            { id: "b", text: "Automatic proof of which work is older" },
+            { id: "c", text: "The history of ownership and location, which informs context" },
+            { id: "d", text: "A substitute for looking at the work" },
+          ], correctChoiceId: "c" },
           markscheme: {
             principles: [{ kind: "definition", name: "Provenance", statement: "The ownership and location history of a work, which shapes its context." }],
             steps: [
@@ -269,11 +269,11 @@ export const lesson31: Lesson = {
           id: "va-u3-comparison-method-q13", difficulty: "core", totalMarks: 2,
           stem: "A student compares a Renaissance altarpiece and a graffiti mural using only colour. This approach is limited because:",
           response: { type: "mcq", choices: [
-            { id: "a", text: "Colour is never a valid comparison criterion" },
-            { id: "b", text: "One criterion misses major differences in medium, context and intention" },
-            { id: "c", text: "Graffiti cannot be analysed" },
-            { id: "d", text: "Altarpieces contain no colour" },
-          ], correctChoiceId: "b" },
+            { id: "a", text: "Graffiti cannot be analysed" },
+            { id: "b", text: "Altarpieces contain no colour" },
+            { id: "c", text: "Colour is never a valid comparison criterion" },
+            { id: "d", text: "One criterion misses major differences in medium, context and intention" },
+          ], correctChoiceId: "d" },
           markscheme: {
             principles: [{ kind: "principle", name: "Multiple criteria", statement: "A single criterion cannot capture differences across medium, context and intention." }],
             steps: [
@@ -315,10 +315,10 @@ export const lesson31: Lesson = {
           stem: "The strongest comparative conclusion typically:",
           response: { type: "mcq", choices: [
             { id: "a", text: "Declares one work universally superior" },
-            { id: "b", text: "Weighs the evidence and acknowledges limits" },
-            { id: "c", text: "Avoids all judgement" },
-            { id: "d", text: "Simply repeats the descriptions" },
-          ], correctChoiceId: "b" },
+            { id: "b", text: "Simply repeats the descriptions" },
+            { id: "c", text: "Weighs the evidence and acknowledges limits" },
+            { id: "d", text: "Avoids all judgement" },
+          ], correctChoiceId: "c" },
           markscheme: {
             principles: [{ kind: "skill", name: "Weighed judgement", statement: "Good conclusions weigh evidence and state what the comparison can and cannot claim." }],
             steps: [
@@ -383,11 +383,11 @@ export const lesson31: Lesson = {
           id: "va-u3-comparison-evaluation-q1", difficulty: "foundation", totalMarks: 2,
           stem: "In comparative analysis, a 'significant' difference is one that:",
           response: { type: "mcq", choices: [
-            { id: "a", text: "Is easiest to describe" },
-            { id: "b", text: "Reveals something meaningful about intention, context or innovation" },
-            { id: "c", text: "Is the largest visually" },
-            { id: "d", text: "Appears first in the description" },
-          ], correctChoiceId: "b" },
+            { id: "a", text: "Is the largest visually" },
+            { id: "b", text: "Appears first in the description" },
+            { id: "c", text: "Reveals something meaningful about intention, context or innovation" },
+            { id: "d", text: "Is easiest to describe" },
+          ], correctChoiceId: "c" },
           markscheme: {
             principles: [{ kind: "principle", name: "Significant difference", statement: "Differences matter when they reveal intention, context or innovation." }],
             steps: [
@@ -463,10 +463,10 @@ export const lesson31: Lesson = {
           stem: "Which difference between two artworks would likely be MOST significant in analysis?",
           response: { type: "mcq", choices: [
             { id: "a", text: "The colour of the picture frame" },
-            { id: "b", text: "How each artist treats the human figure" },
-            { id: "c", text: "The style of the artist's signature" },
-            { id: "d", text: "The language of the title" },
-          ], correctChoiceId: "b" },
+            { id: "b", text: "The style of the artist's signature" },
+            { id: "c", text: "The language of the title" },
+            { id: "d", text: "How each artist treats the human figure" },
+          ], correctChoiceId: "d" },
           markscheme: {
             principles: [{ kind: "principle", name: "Significance test", statement: "Differences matter most when they reveal intention, context or innovation." }],
             steps: [
@@ -496,11 +496,11 @@ export const lesson31: Lesson = {
           id: "va-u3-comparison-evaluation-q7", difficulty: "core", totalMarks: 2,
           stem: "Two artworks look visually similar but were made for very different purposes. This situation shows that:",
           response: { type: "mcq", choices: [
-            { id: "a", text: "Comparison between them is impossible" },
-            { id: "b", text: "Context determines whether a similarity is meaningful" },
+            { id: "a", text: "Formal analysis is useless" },
+            { id: "b", text: "Comparison between them is impossible" },
             { id: "c", text: "One work must be a copy of the other" },
-            { id: "d", text: "Formal analysis is useless" },
-          ], correctChoiceId: "b" },
+            { id: "d", text: "Context determines whether a similarity is meaningful" },
+          ], correctChoiceId: "d" },
           markscheme: {
             principles: [{ kind: "principle", name: "Contextual significance", statement: "The same forms can carry different meanings in different cultural settings." }],
             steps: [
@@ -531,11 +531,11 @@ export const lesson31: Lesson = {
           id: "va-u3-comparison-evaluation-q9", difficulty: "challenge", totalMarks: 2,
           stem: "A comparative conclusion should acknowledge its limits because:",
           response: { type: "mcq", choices: [
-            { id: "a", text: "It makes the writing longer" },
-            { id: "b", text: "The chosen criteria and available evidence are selected and may be incomplete" },
-            { id: "c", text: "Judgements are always wrong" },
-            { id: "d", text: "Examiners require it" },
-          ], correctChoiceId: "b" },
+            { id: "a", text: "Judgements are always wrong" },
+            { id: "b", text: "It makes the writing longer" },
+            { id: "c", text: "Examiners require it" },
+            { id: "d", text: "The chosen criteria and available evidence are selected and may be incomplete" },
+          ], correctChoiceId: "d" },
           markscheme: {
             principles: [{ kind: "skill", name: "Acknowledging limits", statement: "Analysis rests on selected criteria and partial evidence." }],
             steps: [
@@ -577,10 +577,10 @@ export const lesson31: Lesson = {
           id: "va-u3-comparison-evaluation-q11", difficulty: "foundation", totalMarks: 2,
           stem: "Context can make a visual similarity between artworks:",
           response: { type: "mcq", choices: [
-            { id: "a", text: "Irrelevant to analysis" },
+            { id: "a", text: "Prove the works are copies" },
             { id: "b", text: "Mean opposite things depending on function and audience" },
-            { id: "c", text: "Prove the works are copies" },
-            { id: "d", text: "Make comparison impossible" },
+            { id: "c", text: "Make comparison impossible" },
+            { id: "d", text: "Irrelevant to analysis" },
           ], correctChoiceId: "b" },
           markscheme: {
             principles: [{ kind: "principle", name: "Contextual meaning", statement: "Function and audience determine what shared forms signify." }],
@@ -611,9 +611,9 @@ export const lesson31: Lesson = {
           id: "va-u3-comparison-evaluation-q13", difficulty: "core", totalMarks: 2,
           stem: "An artist's religious icon and an advertiser's use of the same motif share a visual feature. The comparison shows that:",
           response: { type: "mcq", choices: [
-            { id: "a", text: "The motif means exactly the same thing in both" },
+            { id: "a", text: "The image is meaningless in advertising" },
             { id: "b", text: "Context can give the same feature different significance" },
-            { id: "c", text: "The image is meaningless in advertising" },
+            { id: "c", text: "The motif means exactly the same thing in both" },
             { id: "d", text: "One artist must have copied the other" },
           ], correctChoiceId: "b" },
           markscheme: {
@@ -656,11 +656,11 @@ export const lesson31: Lesson = {
           id: "va-u3-comparison-evaluation-q15", difficulty: "challenge", totalMarks: 2,
           stem: "Weighing evidence in comparative analysis means:",
           response: { type: "mcq", choices: [
-            { id: "a", text: "Counting the number of similarities" },
-            { id: "b", text: "Judging which differences carry the most interpretive weight" },
-            { id: "c", text: "Ignoring context entirely" },
-            { id: "d", text: "Choosing the more attractive work" },
-          ], correctChoiceId: "b" },
+            { id: "a", text: "Choosing the more attractive work" },
+            { id: "b", text: "Ignoring context entirely" },
+            { id: "c", text: "Counting the number of similarities" },
+            { id: "d", text: "Judging which differences carry the most interpretive weight" },
+          ], correctChoiceId: "d" },
           markscheme: {
             principles: [{ kind: "skill", name: "Weighing evidence", statement: "Not all differences matter equally; judgement ranks their significance." }],
             steps: [

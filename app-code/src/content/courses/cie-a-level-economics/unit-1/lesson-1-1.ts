@@ -56,7 +56,7 @@ export const lesson411: Lesson = {
           "choices": [
                     {
                               "id": "a",
-                              "text": "Price ↑ → quantity demanded ↓"
+                              "text": "Price ↓ → quantity supplied ↓"
                     },
                     {
                               "id": "b",
@@ -64,14 +64,14 @@ export const lesson411: Lesson = {
                     },
                     {
                               "id": "c",
-                              "text": "Price ↓ → quantity supplied ↓"
+                              "text": "Price ↑ → quantity demanded ↓"
                     },
                     {
                               "id": "d",
                               "text": "Price and quantity always move together"
                     }
           ],
-          "correctChoiceId": "a"
+          "correctChoiceId": "c"
 },
           markscheme: {
           "principles": [
@@ -229,22 +229,22 @@ export const lesson411: Lesson = {
           "choices": [
                     {
                               "id": "a",
-                              "text": "A rise in the price of a substitute good"
-                    },
-                    {
-                              "id": "b",
                               "text": "A fall in the price of the good itself"
                     },
                     {
+                              "id": "b",
+                              "text": "A rise in the price of a substitute good"
+                    },
+                    {
                               "id": "c",
-                              "text": "A fall in consumer income"
+                              "text": "A weakening of consumer tastes for the good"
                     },
                     {
                               "id": "d",
-                              "text": "A weakening of consumer tastes for the good"
+                              "text": "A fall in consumer income"
                     }
           ],
-          "correctChoiceId": "a"
+          "correctChoiceId": "b"
 },
           markscheme: {
           "principles": [
@@ -274,11 +274,11 @@ export const lesson411: Lesson = {
           "choices": [
                     {
                               "id": "a",
-                              "text": "a change in the price of the good itself"
+                              "text": "a change in consumer preferences"
                     },
                     {
                               "id": "b",
-                              "text": "a change in consumer income"
+                              "text": "a change in the price of the good itself"
                     },
                     {
                               "id": "c",
@@ -286,10 +286,10 @@ export const lesson411: Lesson = {
                     },
                     {
                               "id": "d",
-                              "text": "a change in consumer preferences"
+                              "text": "a change in consumer income"
                     }
           ],
-          "correctChoiceId": "a"
+          "correctChoiceId": "b"
 },
           markscheme: {
           "principles": [
@@ -319,22 +319,22 @@ export const lesson411: Lesson = {
           "choices": [
                     {
                               "id": "a",
-                              "text": "the price falling until quantity demanded equals quantity supplied"
-                    },
-                    {
-                              "id": "b",
                               "text": "the price rising until quantity demanded equals quantity supplied"
                     },
                     {
+                              "id": "b",
+                              "text": "the demand curve shifting to the right"
+                    },
+                    {
                               "id": "c",
-                              "text": "the supply curve shifting to the left"
+                              "text": "the price falling until quantity demanded equals quantity supplied"
                     },
                     {
                               "id": "d",
-                              "text": "the demand curve shifting to the right"
+                              "text": "the supply curve shifting to the left"
                     }
           ],
-          "correctChoiceId": "a"
+          "correctChoiceId": "c"
 },
           markscheme: {
           "principles": [
@@ -368,15 +368,15 @@ export const lesson411: Lesson = {
                     },
                     {
                               "id": "b",
-                              "text": "shift the demand curve to the left"
-                    },
-                    {
-                              "id": "c",
                               "text": "raise the equilibrium price"
                     },
                     {
-                              "id": "d",
+                              "id": "c",
                               "text": "reduce the quantity traded"
+                    },
+                    {
+                              "id": "d",
+                              "text": "shift the demand curve to the left"
                     }
           ],
           "correctChoiceId": "a"
@@ -413,15 +413,15 @@ export const lesson411: Lesson = {
                     },
                     {
                               "id": "b",
-                              "text": "the total revenue earned by producers"
+                              "text": "the tax revenue collected by government"
                     },
                     {
                               "id": "c",
-                              "text": "the profit earned by firms"
+                              "text": "the total revenue earned by producers"
                     },
                     {
                               "id": "d",
-                              "text": "the tax revenue collected by government"
+                              "text": "the profit earned by firms"
                     }
           ],
           "correctChoiceId": "a"
@@ -454,22 +454,22 @@ export const lesson411: Lesson = {
           "choices": [
                     {
                               "id": "a",
-                              "text": "a higher quantity traded and an unchanged price"
-                    },
-                    {
-                              "id": "b",
-                              "text": "a higher price and a higher quantity traded"
-                    },
-                    {
-                              "id": "c",
                               "text": "a lower price and a higher quantity traded"
                     },
                     {
-                              "id": "d",
+                              "id": "b",
                               "text": "an unchanged quantity traded"
+                    },
+                    {
+                              "id": "c",
+                              "text": "a higher quantity traded and an unchanged price"
+                    },
+                    {
+                              "id": "d",
+                              "text": "a higher price and a higher quantity traded"
                     }
           ],
-          "correctChoiceId": "a"
+          "correctChoiceId": "c"
 },
           markscheme: {
           "principles": [

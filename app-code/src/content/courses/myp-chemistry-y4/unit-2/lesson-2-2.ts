@@ -57,12 +57,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "7" },
-              { id: "b", text: "0" },
-              { id: "c", text: "14" },
+              { id: "a", text: "14" },
+              { id: "b", text: "7" },
+              { id: "c", text: "0" },
               { id: "d", text: "1" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -84,12 +84,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Forms NaCl (salt) and water — neutralisation" },
-              { id: "b", text: "Forms hydrogen gas" },
-              { id: "c", text: "Forms carbon dioxide" },
+              { id: "a", text: "Forms hydrogen gas" },
+              { id: "b", text: "Forms carbon dioxide" },
+              { id: "c", text: "Forms NaCl (salt) and water — neutralisation" },
               { id: "d", text: "No reaction" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -112,12 +112,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Strongly acidic; turns blue litmus red; universal indicator orange/red" },
-              { id: "b", text: "Alkaline; litmus blue" },
+              { id: "a", text: "Alkaline; litmus blue" },
+              { id: "b", text: "Weak acid only" },
               { id: "c", text: "Neutral; litmus purple" },
-              { id: "d", text: "Weak acid only" },
+              { id: "d", text: "Strongly acidic; turns blue litmus red; universal indicator orange/red" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -172,12 +172,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Acidic" },
-              { id: "b", text: "Alkaline" },
-              { id: "c", text: "Neutral" },
-              { id: "d", text: "A salt" },
+              { id: "a", text: "Alkaline" },
+              { id: "b", text: "A salt" },
+              { id: "c", text: "Acidic" },
+              { id: "d", text: "Neutral" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -199,12 +199,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Red" },
-              { id: "b", text: "Blue" },
-              { id: "c", text: "Green" },
-              { id: "d", text: "Colourless" },
+              { id: "a", text: "Colourless" },
+              { id: "b", text: "Green" },
+              { id: "c", text: "Red" },
+              { id: "d", text: "Blue" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -275,9 +275,9 @@ export const lesson22: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "A salt and hydrogen gas" },
-              { id: "b", text: "A salt and water" },
+              { id: "b", text: "An oxide and hydrogen" },
               { id: "c", text: "A salt and carbon dioxide" },
-              { id: "d", text: "An oxide and hydrogen" },
+              { id: "d", text: "A salt and water" },
             ],
             correctChoiceId: "a",
           },
@@ -326,12 +326,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It changes sharply from colourless to pink at the endpoint, giving a clear colour change" },
+              { id: "a", text: "It is toxic" },
               { id: "b", text: "It is pink in acid" },
               { id: "c", text: "It does not change colour" },
-              { id: "d", text: "It is toxic" },
+              { id: "d", text: "It changes sharply from colourless to pink at the endpoint, giving a clear colour change" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -519,12 +519,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Sodium chloride (NaCl)" },
-              { id: "b", text: "Sodium sulfate" },
-              { id: "c", text: "Hydrochloric sodium" },
-              { id: "d", text: "Water" },
+              { id: "a", text: "Sodium sulfate" },
+              { id: "b", text: "Sodium chloride (NaCl)" },
+              { id: "c", text: "Water" },
+              { id: "d", text: "Hydrochloric sodium" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -547,9 +547,9 @@ export const lesson22: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Exact point where moles of acid equal moles of base" },
-              { id: "b", text: "When solution turns blue" },
-              { id: "c", text: "When all liquid evaporates" },
-              { id: "d", text: "When temperature peaks" },
+              { id: "b", text: "When all liquid evaporates" },
+              { id: "c", text: "When temperature peaks" },
+              { id: "d", text: "When solution turns blue" },
             ],
             correctChoiceId: "a",
           },
@@ -574,12 +574,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Cl⁻ + Ag⁺ → AgCl white precipitate (insoluble); other halides give different colors" },
-              { id: "b", text: "It makes solution acidic" },
-              { id: "c", text: "It dissolves all salts" },
-              { id: "d", text: "It produces gas" },
+              { id: "a", text: "It produces gas" },
+              { id: "b", text: "Cl⁻ + Ag⁺ → AgCl white precipitate (insoluble); other halides give different colors" },
+              { id: "c", text: "It makes solution acidic" },
+              { id: "d", text: "It dissolves all salts" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -634,12 +634,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Sulfate (SO₄²⁻)" },
-              { id: "b", text: "Chloride (Cl⁻)" },
+              { id: "a", text: "Chloride (Cl⁻)" },
+              { id: "b", text: "Sulfate (SO₄²⁻)" },
               { id: "c", text: "Nitrate (NO₃⁻)" },
               { id: "d", text: "Hydroxide (OH⁻)" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -661,12 +661,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "KCl + H₂O" },
+              { id: "a", text: "No reaction" },
               { id: "b", text: "KCl + H₂" },
               { id: "c", text: "KClO + H₂O" },
-              { id: "d", text: "No reaction" },
+              { id: "d", text: "KCl + H₂O" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -736,12 +736,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Silver chloride (AgCl)" },
-              { id: "b", text: "Sodium chloride (NaCl)" },
-              { id: "c", text: "Potassium nitrate (KNO₃)" },
-              { id: "d", text: "Ammonium sulfate ((NH₄)₂SO₄)" },
+              { id: "a", text: "Ammonium sulfate ((NH₄)₂SO₄)" },
+              { id: "b", text: "Silver chloride (AgCl)" },
+              { id: "c", text: "Sodium chloride (NaCl)" },
+              { id: "d", text: "Potassium nitrate (KNO₃)" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -788,12 +788,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "To obtain consistent results and reduce the effect of random errors" },
+              { id: "a", text: "To change the concentration" },
               { id: "b", text: "To use up more acid" },
-              { id: "c", text: "To change the concentration" },
+              { id: "c", text: "To obtain consistent results and reduce the effect of random errors" },
               { id: "d", text: "Because one titration is always wrong" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -844,8 +844,8 @@ export const lesson22: Lesson = {
             choices: [
               { id: "a", text: "1" },
               { id: "b", text: "2" },
-              { id: "c", text: "3" },
-              { id: "d", text: "4" },
+              { id: "c", text: "4" },
+              { id: "d", text: "3" },
             ],
             correctChoiceId: "b",
           },

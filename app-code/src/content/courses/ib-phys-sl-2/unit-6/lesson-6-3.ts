@@ -54,12 +54,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The joining of two light nuclei" },
-              { id: "b", text: "The splitting of a heavy nucleus into lighter fragments" },
-              { id: "c", text: "The emission of an alpha particle" },
-              { id: "d", text: "The capture of an electron by a nucleus" },
+              { id: "a", text: "The capture of an electron by a nucleus" },
+              { id: "b", text: "The joining of two light nuclei" },
+              { id: "c", text: "The splitting of a heavy nucleus into lighter fragments" },
+              { id: "d", text: "The emission of an alpha particle" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -81,12 +81,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$0.85$ MeV per nucleon" },
-              { id: "b", text: "$200$ MeV per nucleon" },
+              { id: "a", text: "$200$ MeV per nucleon" },
+              { id: "b", text: "$47000$ MeV per nucleon" },
               { id: "c", text: "$0.47$ MeV per nucleon" },
-              { id: "d", text: "$47000$ MeV per nucleon" },
+              { id: "d", text: "$0.85$ MeV per nucleon" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -109,12 +109,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Energy is released because mass is converted to energy, $E = \\Delta mc^2$" },
-              { id: "b", text: "Energy is absorbed because mass is created" },
-              { id: "c", text: "No energy is released in fusion" },
+              { id: "a", text: "Energy is absorbed because mass is created" },
+              { id: "b", text: "No energy is released in fusion" },
+              { id: "c", text: "Energy is released because mass is converted to energy, $E = \\Delta mc^2$" },
               { id: "d", text: "Energy is released because the products have greater mass" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -172,12 +172,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "They absorb neutrons to regulate the rate of the chain reaction" },
-              { id: "b", text: "They slow down fast neutrons" },
-              { id: "c", text: "They reflect neutrons back into the core" },
-              { id: "d", text: "They cool the reactor core directly" },
+              { id: "a", text: "They reflect neutrons back into the core" },
+              { id: "b", text: "They absorb neutrons to regulate the rate of the chain reaction" },
+              { id: "c", text: "They cool the reactor core directly" },
+              { id: "d", text: "They slow down fast neutrons" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -200,9 +200,9 @@ export const lesson63: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "It slows the fast neutrons released in fission so they can cause further fissions efficiently" },
-              { id: "b", text: "It absorbs all the neutrons to stop the reaction" },
-              { id: "c", text: "It increases the temperature of the core" },
-              { id: "d", text: "It converts uranium-238 into uranium-235" },
+              { id: "b", text: "It increases the temperature of the core" },
+              { id: "c", text: "It converts uranium-238 into uranium-235" },
+              { id: "d", text: "It absorbs all the neutrons to stop the reaction" },
             ],
             correctChoiceId: "a",
           },
@@ -339,12 +339,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Neutrons released in one fission cause further fissions, sustaining the reaction" },
-              { id: "b", text: "Nuclei collide with each other at high speed" },
-              { id: "c", text: "Protons are emitted to balance charge" },
-              { id: "d", text: "Gamma rays knock neutrons out of nuclei" },
+              { id: "a", text: "Protons are emitted to balance charge" },
+              { id: "b", text: "Gamma rays knock neutrons out of nuclei" },
+              { id: "c", text: "Nuclei collide with each other at high speed" },
+              { id: "d", text: "Neutrons released in one fission cause further fissions, sustaining the reaction" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -367,12 +367,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The positively charged nuclei must have enough kinetic energy to overcome their electrostatic repulsion" },
+              { id: "a", text: "Fusion can only occur in plasmas of electrons" },
               { id: "b", text: "The strong nuclear force only operates at high temperature" },
-              { id: "c", text: "Fusion can only occur in plasmas of electrons" },
-              { id: "d", text: "The mass defect only appears at high temperature" },
+              { id: "c", text: "The mass defect only appears at high temperature" },
+              { id: "d", text: "The positively charged nuclei must have enough kinetic energy to overcome their electrostatic repulsion" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -546,12 +546,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The galaxy is moving towards us" },
-              { id: "b", text: "The galaxy is moving away from us" },
+              { id: "a", text: "The galaxy is moving away from us" },
+              { id: "b", text: "The galaxy contains no hydrogen" },
               { id: "c", text: "The galaxy is hotter than the Sun" },
-              { id: "d", text: "The galaxy contains no hydrogen" },
+              { id: "d", text: "The galaxy is moving towards us" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -573,12 +573,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$8.0 \\times 10^{-10}$ W m$^{-2}$" },
-              { id: "b", text: "$3.2 \\times 10^{-9}$ W m$^{-2}$" },
+              { id: "a", text: "$3.2 \\times 10^{-9}$ W m$^{-2}$" },
+              { id: "b", text: "$1.3 \\times 10^{-8}$ W m$^{-2}$" },
               { id: "c", text: "$8.0 \\times 10^{-9}$ W m$^{-2}$" },
-              { id: "d", text: "$1.3 \\times 10^{-8}$ W m$^{-2}$" },
+              { id: "d", text: "$8.0 \\times 10^{-10}$ W m$^{-2}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -603,8 +603,8 @@ export const lesson63: Lesson = {
             choices: [
               { id: "a", text: "Redshift $z = 0.10$; galaxy is approaching" },
               { id: "b", text: "Redshift $z = 0.10$; galaxy is receding" },
-              { id: "c", text: "Redshift $z = 0.50$; galaxy is receding" },
-              { id: "d", text: "Redshift $z = 9.0$; galaxy is approaching" },
+              { id: "c", text: "Redshift $z = 9.0$; galaxy is approaching" },
+              { id: "d", text: "Redshift $z = 0.50$; galaxy is receding" },
             ],
             correctChoiceId: "b",
           },
@@ -665,8 +665,8 @@ export const lesson63: Lesson = {
             choices: [
               { id: "a", text: "The total power radiated by the star per unit time" },
               { id: "b", text: "The brightness of the star as seen from Earth" },
-              { id: "c", text: "The distance to the star" },
-              { id: "d", text: "The temperature of the star's surface" },
+              { id: "c", text: "The temperature of the star's surface" },
+              { id: "d", text: "The distance to the star" },
             ],
             correctChoiceId: "a",
           },
@@ -690,12 +690,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "One quarter as bright" },
-              { id: "b", text: "One half as bright" },
-              { id: "c", text: "Twice as bright" },
+              { id: "a", text: "One half as bright" },
+              { id: "b", text: "Twice as bright" },
+              { id: "c", text: "One quarter as bright" },
               { id: "d", text: "Four times as bright" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -822,12 +822,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Nuclear fusion of hydrogen in the core" },
-              { id: "b", text: "Gravitational contraction only" },
+              { id: "a", text: "Gravitational contraction only" },
+              { id: "b", text: "Nuclear fusion of hydrogen in the core" },
               { id: "c", text: "Radioactive decay of heavy elements" },
               { id: "d", text: "Reflection of light from nearby stars" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -850,12 +850,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$z = 0.5$; the galaxy is receding from us" },
+              { id: "a", text: "$z = 2.0$; the galaxy is receding from us" },
               { id: "b", text: "$z = 0.5$; the galaxy is approaching us" },
-              { id: "c", text: "$z = 2.0$; the galaxy is receding from us" },
-              { id: "d", text: "$z = 0.33$; the galaxy is approaching us" },
+              { id: "c", text: "$z = 0.33$; the galaxy is approaching us" },
+              { id: "d", text: "$z = 0.5$; the galaxy is receding from us" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

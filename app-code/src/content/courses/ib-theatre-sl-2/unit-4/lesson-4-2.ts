@@ -55,12 +55,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The plot's events" },
-              { id: "b", text: "The central idea or subject a play explores" },
-              { id: "c", text: "The setting description" },
+              { id: "a", text: "The setting description" },
+              { id: "b", text: "The plot's events" },
+              { id: "c", text: "The central idea or subject a play explores" },
               { id: "d", text: "The character's name" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -162,12 +162,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The play's setting" },
-              { id: "b", text: "The particular way a playwright treats a theme" },
+              { id: "a", text: "The particular way a playwright treats a theme" },
+              { id: "b", text: "The play's setting" },
               { id: "c", text: "The list of characters" },
               { id: "d", text: "The theatre's programme notes" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -213,11 +213,11 @@ export const lesson42: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "All plays look the same on stage" },
-              { id: "b", text: "The way a theme is treated itself communicates meaning" },
-              { id: "c", text: "Form has no effect on audience" },
-              { id: "d", text: "Only dialogue matters" },
+              { id: "b", text: "Only dialogue matters" },
+              { id: "c", text: "The way a theme is treated itself communicates meaning" },
+              { id: "d", text: "Form has no effect on audience" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -263,12 +263,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Which playwright wrote faster" },
-              { id: "b", text: "Different genre worldviews about power" },
-              { id: "c", text: "The plays' running times" },
-              { id: "d", text: "Which theatre had better lighting" },
+              { id: "a", text: "The plays' running times" },
+              { id: "b", text: "Which playwright wrote faster" },
+              { id: "c", text: "Which theatre had better lighting" },
+              { id: "d", text: "Different genre worldviews about power" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -319,12 +319,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A theme found only in one culture" },
-              { id: "b", text: "A subject that transcends cultures and periods" },
-              { id: "c", text: "A theme with a happy ending" },
+              { id: "a", text: "A theme with a happy ending" },
+              { id: "b", text: "A theme found only in one culture" },
+              { id: "c", text: "A subject that transcends cultures and periods" },
               { id: "d", text: "A theme written by famous playwrights" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -378,11 +378,11 @@ export const lesson42: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Celebrating it uncritically" },
-              { id: "b", text: "Ridiculing it to expose folly or vice" },
-              { id: "c", text: "Ignoring it entirely" },
-              { id: "d", text: "Presenting it as sacred" },
+              { id: "b", text: "Ignoring it entirely" },
+              { id: "c", text: "Presenting it as sacred" },
+              { id: "d", text: "Ridiculing it to expose folly or vice" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -435,12 +435,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Affirms life's clear purpose" },
-              { id: "b", text: "Denies that stable meaning can be found" },
+              { id: "a", text: "Denies that stable meaning can be found" },
+              { id: "b", text: "Affirms life's clear purpose" },
               { id: "c", text: "Avoids the subject" },
               { id: "d", text: "Resolves meaning through a happy ending" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -526,12 +526,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The length of the play" },
-              { id: "b", text: "The cultural and historical context of its creation" },
-              { id: "c", text: "The actors' fame" },
-              { id: "d", text: "The theatre's size" },
+              { id: "a", text: "The theatre's size" },
+              { id: "b", text: "The actors' fame" },
+              { id: "c", text: "The length of the play" },
+              { id: "d", text: "The cultural and historical context of its creation" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -633,12 +633,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A theme that never changes meaning" },
-              { id: "b", text: "A theme whose meaning is shaped by its cultural and historical context" },
-              { id: "c", text: "A theme set in a specific building" },
+              { id: "a", text: "A theme set in a specific building" },
+              { id: "b", text: "A theme that never changes meaning" },
+              { id: "c", text: "A theme whose meaning is shaped by its cultural and historical context" },
               { id: "d", text: "A theme invented for one play only" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -684,11 +684,11 @@ export const lesson42: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Proves older plays were better" },
-              { id: "b", text: "Reveals changing values, technology and power structures" },
-              { id: "c", text: "Eliminates the need for analysis" },
-              { id: "d", text: "Shows themes never actually change" },
+              { id: "b", text: "Eliminates the need for analysis" },
+              { id: "c", text: "Shows themes never actually change" },
+              { id: "d", text: "Reveals changing values, technology and power structures" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -734,12 +734,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Only plays written in the same year" },
-              { id: "b", text: "Both time and culture" },
-              { id: "c", text: "Only plays by the same author" },
-              { id: "d", text: "Only plays in the same genre" },
+              { id: "a", text: "Both time and culture" },
+              { id: "b", text: "Only plays by the same author" },
+              { id: "c", text: "Only plays in the same genre" },
+              { id: "d", text: "Only plays written in the same year" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -792,8 +792,8 @@ export const lesson42: Lesson = {
             choices: [
               { id: "a", text: "The main plot event" },
               { id: "b", text: "A recurring element or image within a play or across plays" },
-              { id: "c", text: "The playwright's biography" },
-              { id: "d", text: "The stage lighting plan" },
+              { id: "c", text: "The stage lighting plan" },
+              { id: "d", text: "The playwright's biography" },
             ],
             correctChoiceId: "b",
           },
@@ -848,12 +848,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Decline in theatrical quality" },
-              { id: "b", text: "Cultural and social change" },
-              { id: "c", text: "Better writing techniques" },
-              { id: "d", text: "Larger audiences" },
+              { id: "a", text: "Larger audiences" },
+              { id: "b", text: "Better writing techniques" },
+              { id: "c", text: "Cultural and social change" },
+              { id: "d", text: "Decline in theatrical quality" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -907,9 +907,9 @@ export const lesson42: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Each era's anxieties give the subject new meaning" },
-              { id: "b", text: "Older plays are always more complex" },
+              { id: "b", text: "Themes are invented by critics" },
               { id: "c", text: "Context changes the plot events" },
-              { id: "d", text: "Themes are invented by critics" },
+              { id: "d", text: "Older plays are always more complex" },
             ],
             correctChoiceId: "a",
           },

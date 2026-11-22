@@ -54,11 +54,11 @@ export const lesson12: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Conduction" },
-              { id: "b", text: "Convection" },
-              { id: "c", text: "Radiation" },
-              { id: "d", text: "Evaporation" },
+              { id: "b", text: "Evaporation" },
+              { id: "c", text: "Convection" },
+              { id: "d", text: "Radiation" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -186,10 +186,10 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\text{kg m}^3$" },
+              { id: "a", text: "$\\text{N/m}^2$" },
               { id: "b", text: "$\\text{kg/m}^3$" },
-              { id: "c", text: "$\\text{m}^3\\text{/kg}$" },
-              { id: "d", text: "$\\text{N/m}^2$" },
+              { id: "c", text: "$\\text{kg m}^3$" },
+              { id: "d", text: "$\\text{m}^3\\text{/kg}$" },
             ],
             correctChoiceId: "b",
           },

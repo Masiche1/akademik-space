@@ -55,11 +55,11 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$\\mathrm{MgCl}$" },
-              { id: "b", text: "$\\mathrm{MgCl_2}$" },
-              { id: "c", text: "$\\mathrm{Mg_2Cl}$" },
-              { id: "d", text: "$\\mathrm{Mg_2Cl_3}$" },
+              { id: "b", text: "$\\mathrm{Mg_2Cl}$" },
+              { id: "c", text: "$\\mathrm{Mg_2Cl_3}$" },
+              { id: "d", text: "$\\mathrm{MgCl_2}$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -82,12 +82,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The ions are held by strong electrostatic attractions throughout the lattice" },
+              { id: "a", text: "Ions move freely in the solid" },
               { id: "b", text: "Each ion is covalently bonded to its neighbours" },
               { id: "c", text: "The molecules are large" },
-              { id: "d", text: "Ions move freely in the solid" },
+              { id: "d", text: "The ions are held by strong electrostatic attractions throughout the lattice" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -167,8 +167,8 @@ export const lesson31: Lesson = {
             choices: [
               { id: "a", text: "$\\mathrm{K^+}$" },
               { id: "b", text: "$\\mathrm{K^{2+}}$" },
-              { id: "c", text: "$\\mathrm{K^-}$" },
-              { id: "d", text: "$\\mathrm{K^{2-}}$" },
+              { id: "c", text: "$\\mathrm{K^{2-}}$" },
+              { id: "d", text: "$\\mathrm{K^-}$" },
             ],
             correctChoiceId: "a",
           },
@@ -193,12 +193,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\mathrm{AlCl}$" },
-              { id: "b", text: "$\\mathrm{AlCl_2}$" },
-              { id: "c", text: "$\\mathrm{AlCl_3}$" },
-              { id: "d", text: "$\\mathrm{Al_2Cl_3}$" },
+              { id: "a", text: "$\\mathrm{Al_2Cl_3}$" },
+              { id: "b", text: "$\\mathrm{AlCl_3}$" },
+              { id: "c", text: "$\\mathrm{AlCl_2}$" },
+              { id: "d", text: "$\\mathrm{AlCl}$" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -221,10 +221,10 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It conducts electricity because its ions move freely through the solid" },
-              { id: "b", text: "It is malleable because its ions can slide past each other" },
+              { id: "a", text: "It dissolves in oil because oil is a polar solvent" },
+              { id: "b", text: "It conducts electricity because its ions move freely through the solid" },
               { id: "c", text: "It does not conduct electricity because its ions are fixed in the lattice" },
-              { id: "d", text: "It dissolves in oil because oil is a polar solvent" },
+              { id: "d", text: "It is malleable because its ions can slide past each other" },
             ],
             correctChoiceId: "c",
           },
@@ -249,12 +249,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\mathrm{CaCO_3}$" },
+              { id: "a", text: "$\\mathrm{Ca_2CO_3}$" },
               { id: "b", text: "$\\mathrm{Ca(HCO_3)_2}$" },
               { id: "c", text: "$\\mathrm{CaCO_2}$" },
-              { id: "d", text: "$\\mathrm{Ca_2CO_3}$" },
+              { id: "d", text: "$\\mathrm{CaCO_3}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -276,12 +276,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A sharp blow shifts the ion layers so that like charges become adjacent and repel" },
-              { id: "b", text: "The covalent bonds between ions break instantly" },
-              { id: "c", text: "The ions gain electrons and escape as a gas" },
-              { id: "d", text: "The electrostatic attractions are too weak to hold the lattice" },
+              { id: "a", text: "The ions gain electrons and escape as a gas" },
+              { id: "b", text: "The electrostatic attractions are too weak to hold the lattice" },
+              { id: "c", text: "A sharp blow shifts the ion layers so that like charges become adjacent and repel" },
+              { id: "d", text: "The covalent bonds between ions break instantly" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -526,12 +526,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$1$" },
-              { id: "b", text: "$2$" },
-              { id: "c", text: "$3$" },
-              { id: "d", text: "$4$" },
+              { id: "a", text: "$3$" },
+              { id: "b", text: "$4$" },
+              { id: "c", text: "$2$" },
+              { id: "d", text: "$1$" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -554,12 +554,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Oxygen shares one electron pair with each hydrogen atom (two single bonds)" },
-              { id: "b", text: "Oxygen transfers two electrons to each hydrogen" },
-              { id: "c", text: "Hydrogen shares three electron pairs with oxygen" },
-              { id: "d", text: "The molecule contains ionic bonds" },
+              { id: "a", text: "Oxygen transfers two electrons to each hydrogen" },
+              { id: "b", text: "Oxygen shares one electron pair with each hydrogen atom (two single bonds)" },
+              { id: "c", text: "The molecule contains ionic bonds" },
+              { id: "d", text: "Hydrogen shares three electron pairs with oxygen" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -638,12 +638,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\mathrm{H_2}$" },
-              { id: "b", text: "$\\mathrm{CO_2}$" },
-              { id: "c", text: "$\\mathrm{CH_4}$" },
-              { id: "d", text: "$\\mathrm{HCl}$" },
+              { id: "a", text: "$\\mathrm{CH_4}$" },
+              { id: "b", text: "$\\mathrm{HCl}$" },
+              { id: "c", text: "$\\mathrm{H_2}$" },
+              { id: "d", text: "$\\mathrm{CO_2}$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -666,12 +666,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Both shared electrons are donated by the nitrogen atom of $\\mathrm{NH_3}$" },
-              { id: "b", text: "The bond is formed by transfer of electrons, making it ionic" },
-              { id: "c", text: "The bond contains no shared electrons" },
-              { id: "d", text: "The bond can only form between two metal atoms" },
+              { id: "a", text: "The bond can only form between two metal atoms" },
+              { id: "b", text: "The bond contains no shared electrons" },
+              { id: "c", text: "The bond is formed by transfer of electrons, making it ionic" },
+              { id: "d", text: "Both shared electrons are donated by the nitrogen atom of $\\mathrm{NH_3}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -694,12 +694,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$1$" },
-              { id: "b", text: "$2$" },
-              { id: "c", text: "$3$" },
-              { id: "d", text: "$4$" },
+              { id: "a", text: "$4$" },
+              { id: "b", text: "$3$" },
+              { id: "c", text: "$1$" },
+              { id: "d", text: "$2$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -722,12 +722,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "They conduct electricity when molten because ions are released" },
-              { id: "b", text: "They have low melting points because only weak intermolecular forces act between molecules" },
-              { id: "c", text: "They form giant covalent networks like diamond" },
-              { id: "d", text: "Their molecules contain charged particles" },
+              { id: "a", text: "They have low melting points because only weak intermolecular forces act between molecules" },
+              { id: "b", text: "They form giant covalent networks like diamond" },
+              { id: "c", text: "Their molecules contain charged particles" },
+              { id: "d", text: "They conduct electricity when molten because ions are released" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -752,8 +752,8 @@ export const lesson31: Lesson = {
             choices: [
               { id: "a", text: "Diamond" },
               { id: "b", text: "$\\mathrm{CO_2}$" },
-              { id: "c", text: "$\\mathrm{NaCl}$" },
-              { id: "d", text: "$\\mathrm{H_2O}$" },
+              { id: "c", text: "$\\mathrm{H_2O}$" },
+              { id: "d", text: "$\\mathrm{NaCl}$" },
             ],
             correctChoiceId: "a",
           },

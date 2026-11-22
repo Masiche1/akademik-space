@@ -86,8 +86,8 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "About 10%" },
-              { id: "b", text: "About 25%" },
+              { id: "a", text: "About 25%" },
+              { id: "b", text: "About 10%" },
               { id: "c", text: "About 65%" },
               { id: "d", text: "About 95%" },
             ],
@@ -275,6 +275,481 @@ export const lesson23: Lesson = {
               "(a) Shock procedure, 65% obedience. (b) Deception and distress. (c) Validity questioned by artificiality; reliability supported by replications.",
             commonErrors: [
               "Claiming real people were harmed — debriefing occurred and shocks were fake.",
+            ],
+          },
+        },
+        {
+          id: "cieipsych-u2-soc-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "In Asch's line-judgement studies, participants gave the majority's incorrect answer on roughly what percentage of trials?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "About 5%" },
+              { id: "b", text: "About 65%" },
+              { id: "c", text: "About 37%" },
+              { id: "d", text: "About 90%" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "context",
+                name: "Asch conformity",
+                statement: "People often conform to a wrong majority answer when unsure.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "Asch found conformity on about 37% of critical trials when participants were unsure of the correct line length.",
+                marks: 1,
+                markCode: "M",
+              },
+            ],
+            finalAnswer: "(b) About 37%.",
+            commonErrors: [
+              "Confusing Asch's conformity rate with Milgram's obedience rate.",
+            ],
+          },
+        },
+        {
+          id: "cieipsych-u2-soc-q6",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "In a conformity exercise, 18 of 24 students publicly agreed with a wrong group answer. What percentage conformed?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 75, unit: "%" }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "context",
+                name: "Percentage calculation",
+                statement: "Percentage = part / whole × 100.",
+              },
+            ],
+            steps: [
+              {
+                part: "a",
+                reasoning: "18 / 24 = 0.75, so 75% conformed.",
+                working: "18 / 24 \\times 100 = 75",
+                marks: 1,
+                markCode: "M",
+              },
+            ],
+            finalAnswer: "75%",
+            commonErrors: ["Answering 0.75 instead of 75%."],
+          },
+        },
+        {
+          id: "cieipsych-u2-soc-q7",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Compliance is best described as:",
+          response: {
+            type: "mcq",
+            choices: [
+              {
+                id: "a",
+                text: "Publicly conforming while privately disagreeing"
+              },
+              { id: "b", text: "Following an authority figure's orders" },
+              { id: "c", text: "Refusing to change behaviour under pressure" },
+              { id: "d", text: "Genuinely accepting the group's view" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Compliance",
+                statement: "Public agreement with a group while privately disagreeing.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "Compliance means outward agreement for social reasons even when private beliefs differ; obedience is following authority orders.",
+                marks: 1,
+                markCode: "M",
+              },
+            ],
+            finalAnswer: "(a) Publicly conforming while privately disagreeing.",
+            commonErrors: [
+              "Confusing compliance with obedience or genuine conversion.",
+            ],
+          },
+        },
+        {
+          id: "cieipsych-u2-soc-q8",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "Explain how group size, unanimity and task ambiguity can affect conformity.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Conformity factors",
+                statement: "Larger, unanimous groups and ambiguous tasks increase conformity.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "Larger groups increase pressure to conform because the majority seems more convincing or harder to resist.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "Unanimity increases conformity because there is no dissenting ally; one ally greatly reduces conformity.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "Ambiguous tasks increase conformity because informational influence leads people to assume the group is right when unsure.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer:
+              "Conformity rises with larger groups, unanimous groups and ambiguous tasks.",
+            commonErrors: [
+              "Listing factors without explaining how each affects conformity.",
+            ],
+          },
+        },
+        {
+          id: "cieipsych-u2-soc-q9",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "In an obedience study, 39 of 60 participants obeyed to the maximum level. What percentage obeyed fully?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 65, unit: "%" }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "context",
+                name: "Obedience percentage",
+                statement: "Percentage = part / whole × 100.",
+              },
+            ],
+            steps: [
+              {
+                part: "a",
+                reasoning: "39 / 60 = 0.65, so 65% obeyed fully.",
+                working: "39 / 60 \\times 100 = 65",
+                marks: 1,
+                markCode: "M",
+              },
+            ],
+            finalAnswer: "65%",
+            commonErrors: ["Answering 0.65 instead of 65%."],
+          },
+        },
+        {
+          id: "cieipsych-u2-soc-q10",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "Explain diffusion of responsibility as an explanation of obedience.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Diffusion of responsibility",
+                statement: "Responsibility for harmful actions is shared or shifted, reducing personal guilt.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "People feel less personally responsible when an authority figure gives the orders and others appear involved.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "The experimenter or authority is seen as responsible for consequences, so the participant feels only an agent.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "This reduced accountability helps explain why people obey orders they might refuse to initiate themselves.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer:
+              "Responsibility is shared or shifted to authority, lowering personal guilt and increasing obedience.",
+            commonErrors: [
+              "Confusing diffusion of responsibility with the agentic state, though both explain obedience.",
+            ],
+          },
+        },
+        {
+          id: "cieipsych-u2-soc-q11",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Which condition was most likely to reduce obedience in Milgram-style studies?",
+          response: {
+            type: "mcq",
+            choices: [
+              {
+                id: "a",
+                text: "Several confederates urging the participant to continue"
+              },
+              {
+                id: "b",
+                text: "The learner being brought closer and visibly protesting"
+              },
+              {
+                id: "c",
+                text: "The participant being told the learner had agreed beforehand"
+              },
+              {
+                id: "d",
+                text: "The experimenter remaining unseen in another room"
+              },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "context",
+                name: "Milgram variations",
+                statement: "Obedience falls when the victim is closer or the authority is less immediate.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "Greater proximity to the victim and visible distress made the harm harder to ignore, reducing obedience; remote authority can increase it.",
+                marks: 1,
+                markCode: "M",
+              },
+            ],
+            finalAnswer: "(b) The learner being brought closer and visibly protesting.",
+            commonErrors: [
+              "Thinking an unseen experimenter increases obedience — proximity and legitimacy matter.",
+            ],
+          },
+        },
+        {
+          id: "cieipsych-u2-soc-q12",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "In an Asch-style study, a participant made 30 critical-trial judgments and conformed on 18. (a) What percentage of judgments showed conformity? (b) On how many judgments did the participant resist conformity?",
+          response: {
+            type: "numeric",
+            parts: [
+              { label: "a", answer: 60, unit: "%" },
+              { label: "b", answer: 12, unit: "judgments" },
+            ],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "context",
+                name: "Conformity calculation",
+                statement: "Conformity percentage = conforming trials / total trials × 100; resistance = total − conforming.",
+              },
+            ],
+            steps: [
+              {
+                part: "a",
+                reasoning: "18 / 30 = 0.60, so 60% of judgments showed conformity.",
+                working: "18 / 30 \\times 100 = 60",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                part: "b",
+                reasoning: "30 − 18 = 12 judgments showed resistance to conformity.",
+                working: "30 - 18 = 12",
+                marks: 1,
+                markCode: "M",
+              },
+            ],
+            finalAnswer: "(a) 60%  (b) 12 judgments",
+            commonErrors: [
+              "Using 30 as the conforming number instead of 18.",
+            ],
+          },
+        },
+        {
+          id: "cieipsych-u2-soc-q13",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "An authority figure's legitimacy refers to:",
+          response: {
+            type: "mcq",
+            choices: [
+              {
+                id: "a",
+                text: "The number of people in the room"
+              },
+              {
+                id: "b",
+                text: "How loudly the orders are given"
+              },
+              {
+                id: "c",
+                text: "The perceived right to give orders based on role or status"
+              },
+              {
+                id: "d",
+                text: "The person's physical strength"
+              },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Legitimate authority",
+                statement: "Authority perceived as having a rightful role to give orders.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "Legitimacy comes from recognised role, status or right to command; it helps explain why people obey authority figures.",
+                marks: 1,
+                markCode: "M",
+              },
+            ],
+            finalAnswer: "(b) The perceived right to give orders based on role or status.",
+            commonErrors: [
+              "Confusing legitimacy with physical power or volume.",
+            ],
+          },
+        },
+        {
+          id: "cieipsych-u2-soc-q14",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "In an obedience study, 48 of 80 participants obeyed fully. What percentage obeyed?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 60, unit: "%" }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "context",
+                name: "Percentage calculation",
+                statement: "Percentage = part / whole × 100.",
+              },
+            ],
+            steps: [
+              {
+                part: "a",
+                reasoning: "48 / 80 = 0.60, so 60% obeyed fully.",
+                working: "48 / 80 \\times 100 = 60",
+                marks: 1,
+                markCode: "M",
+              },
+            ],
+            finalAnswer: "60%",
+            commonErrors: ["Answering 0.60 instead of 60%."],
+          },
+        },
+        {
+          id: "cieipsych-u2-soc-q15",
+          difficulty: "challenge",
+          totalMarks: 1,
+          stem: "A nurse follows a doctor's questionable order because she sees herself as carrying out the doctor's responsibility rather than her own. Which explanation best fits this behaviour?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Compliance with peers" },
+              { id: "b", text: "Informational social influence" },
+              { id: "c", text: "Normative social influence" },
+              { id: "d", text: "Agentic state" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Agentic state",
+                statement: "People obey when they see themselves as agents of a legitimate authority.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "Shifting responsibility to the doctor and seeing herself as carrying out orders matches Milgram's agentic-state explanation.",
+                marks: 1,
+                markCode: "M",
+              },
+            ],
+            finalAnswer: "(b) Agentic state.",
+            commonErrors: [
+              "Choosing conformity explanations — this is obedience to authority, not group conformity.",
+            ],
+          },
+        },
+        {
+          id: "cieipsych-u2-soc-q16",
+          difficulty: "challenge",
+          totalMarks: 1,
+          stem: "Which criticism most directly questions the ecological validity of Milgram's obedience experiments?",
+          response: {
+            type: "mcq",
+            choices: [
+              {
+                id: "a",
+                text: "The sample included too many cultures"
+              },
+              {
+                id: "b",
+                text: "The artificial laboratory setting may not reflect real-world obedience"
+              },
+              {
+                id: "c",
+                text: "The results were impossible to replicate"
+              },
+              {
+                id: "d",
+                text: "Participants may have guessed the shocks were fake"
+              },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Ecological validity",
+                statement: "Findings should reflect real-world settings and behaviour.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "A controlled laboratory with an actor learner may not represent everyday obedience, which directly limits ecological validity.",
+                marks: 1,
+                markCode: "M",
+              },
+            ],
+            finalAnswer: "(b) The artificial laboratory setting may not reflect real-world obedience.",
+            commonErrors: [
+              "Choosing cultural bias or deception — those are separate criticisms.",
             ],
           },
         },

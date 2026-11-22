@@ -53,10 +53,10 @@ export const lesson92: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "run" },
+              { id: "a", text: "and" },
               { id: "b", text: "big" },
               { id: "c", text: "quickly" },
-              { id: "d", text: "and" },
+              { id: "d", text: "run" },
             ],
             correctChoiceId: "b",
           },
@@ -83,12 +83,12 @@ export const lesson92: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "beautiful" },
-              { id: "b", text: "beautifully" },
-              { id: "c", text: "beauty" },
-              { id: "d", text: "beautifulness" },
+              { id: "a", text: "beauty" },
+              { id: "b", text: "beautiful" },
+              { id: "c", text: "beautifulness" },
+              { id: "d", text: "beautifully" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -207,8 +207,8 @@ export const lesson92: Lesson = {
             choices: [
               { id: "a", text: "Hand it in immediately" },
               { id: "b", text: "Read it back and check for mistakes" },
-              { id: "c", text: "Start a new one" },
-              { id: "d", text: "Nothing" },
+              { id: "c", text: "Nothing" },
+              { id: "d", text: "Start a new one" },
             ],
             correctChoiceId: "b",
           },
@@ -239,12 +239,12 @@ export const lesson92: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "receive" },
-              { id: "b", text: "receeve" },
-              { id: "c", text: "receve" },
+              { id: "a", text: "receeve" },
+              { id: "b", text: "receve" },
+              { id: "c", text: "receive" },
               { id: "d", text: "receiv" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

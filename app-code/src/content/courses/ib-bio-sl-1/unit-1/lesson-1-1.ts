@@ -91,9 +91,9 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Nucleus" },
+              { id: "a", text: "Ribosome" },
               { id: "b", text: "Mitochondrion" },
-              { id: "c", text: "Ribosome" },
+              { id: "c", text: "Nucleus" },
               { id: "d", text: "Chloroplast" },
             ],
             correctChoiceId: "b",
@@ -139,12 +139,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Animal cell" },
-              { id: "b", text: "Plant cell" },
-              { id: "c", text: "Prokaryotic cell" },
+              { id: "a", text: "Prokaryotic cell" },
+              { id: "b", text: "Animal cell" },
+              { id: "c", text: "Plant cell" },
               { id: "d", text: "Fungal cell" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -193,11 +193,11 @@ export const lesson11: Lesson = {
                 id: "b",
                 text: "The smooth ER is the site of protein synthesis",
               },
+              { id: "c", text: "Lysosomes produce ATP" },
               {
-                id: "c",
+                id: "d",
                 text: "The Golgi apparatus stores the cell's genetic material",
               },
-              { id: "d", text: "Lysosomes produce ATP" },
             ],
             correctChoiceId: "a",
           },
@@ -362,12 +362,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Rough endoplasmic reticulum" },
-              { id: "b", text: "Golgi apparatus" },
+              { id: "a", text: "Golgi apparatus" },
+              { id: "b", text: "Rough endoplasmic reticulum" },
               { id: "c", text: "Lysosome" },
               { id: "d", text: "Chloroplast" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -496,12 +496,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A root hair cell actively absorbing mineral ions" },
-              { id: "b", text: "A leaf epidermal cell" },
-              { id: "c", text: "A storage cell in a potato tuber" },
-              { id: "d", text: "A red blood cell" },
+              { id: "a", text: "A leaf epidermal cell" },
+              { id: "b", text: "A root hair cell actively absorbing mineral ions" },
+              { id: "c", text: "A red blood cell" },
+              { id: "d", text: "A storage cell in a potato tuber" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -770,11 +770,11 @@ export const lesson11: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Chloroplast" },
-              { id: "b", text: "Cell wall" },
-              { id: "c", text: "Nucleus" },
+              { id: "b", text: "Nucleus" },
+              { id: "c", text: "Cell wall" },
               { id: "d", text: "Smooth ER" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -856,12 +856,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Ribosome, Golgi apparatus, rough ER, cell membrane" },
-              { id: "b", text: "Ribosome, rough ER, Golgi apparatus, vesicle, cell membrane" },
+              { id: "a", text: "Golgi apparatus, ribosome, mitochondrion, cell membrane" },
+              { id: "b", text: "Ribosome, Golgi apparatus, rough ER, cell membrane" },
               { id: "c", text: "Nucleus, lysosome, rough ER, cell membrane" },
-              { id: "d", text: "Golgi apparatus, ribosome, mitochondrion, cell membrane" },
+              { id: "d", text: "Ribosome, rough ER, Golgi apparatus, vesicle, cell membrane" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -947,12 +947,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A membrane-bound nucleus" },
-              { id: "b", text: "Circular DNA in a nucleoid region" },
-              { id: "c", text: "Membrane-bound mitochondria" },
-              { id: "d", text: "Rough endoplasmic reticulum" },
+              { id: "a", text: "Rough endoplasmic reticulum" },
+              { id: "b", text: "Membrane-bound mitochondria" },
+              { id: "c", text: "Circular DNA in a nucleoid region" },
+              { id: "d", text: "A membrane-bound nucleus" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -997,8 +997,8 @@ export const lesson11: Lesson = {
                 id: "a",
                 text: "It uses electrons which have a much shorter wavelength than light",
               },
-              { id: "b", text: "It magnifies specimens to a greater degree" },
-              { id: "c", text: "It stains specimens more effectively" },
+              { id: "b", text: "It stains specimens more effectively" },
+              { id: "c", text: "It magnifies specimens to a greater degree" },
               { id: "d", text: "It uses a stronger lens made of glass" },
             ],
             correctChoiceId: "a",
@@ -1054,11 +1054,11 @@ export const lesson11: Lesson = {
               },
               {
                 id: "c",
-                text: "Viruses contain ribosomes and can carry out respiration",
+                text: "Viruses are a type of bacterium that infects plant cells",
               },
               {
                 id: "d",
-                text: "Viruses are a type of bacterium that infects plant cells",
+                text: "Viruses contain ribosomes and can carry out respiration",
               },
             ],
             correctChoiceId: "b",
@@ -1228,11 +1228,11 @@ export const lesson11: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Inside a membrane-bound nucleus" },
-              { id: "b", text: "In a nucleoid region of the cytoplasm" },
-              { id: "c", text: "Inside the Golgi apparatus" },
-              { id: "d", text: "Within a mitochondrion" },
+              { id: "b", text: "Within a mitochondrion" },
+              { id: "c", text: "In a nucleoid region of the cytoplasm" },
+              { id: "d", text: "Inside the Golgi apparatus" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Nucleoid", statement: "The nucleoid is the region of cytoplasm containing the single circular chromosome of a prokaryote." }],
@@ -1296,12 +1296,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Pilus" },
-              { id: "b", text: "Flagellum" },
-              { id: "c", text: "Capsid" },
+              { id: "a", text: "Flagellum" },
+              { id: "b", text: "Capsid" },
+              { id: "c", text: "Pilus" },
               { id: "d", text: "Plasmid" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Flagellum", statement: "A flagellum is a long protein filament that rotates to move a bacterium through its environment." }],
@@ -1434,12 +1434,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "They contain ribosomes and can respire independently" },
-              { id: "b", text: "They are acellular and reproduce only inside a host cell" },
+              { id: "a", text: "They are acellular and reproduce only inside a host cell" },
+              { id: "b", text: "They contain ribosomes and can respire independently" },
               { id: "c", text: "They have a peptidoglycan cell wall" },
               { id: "d", text: "They contain a single circular chromosome in a nucleoid" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Virus", statement: "A virus is an acellular particle of nucleic acid in a protein capsid and is an obligate parasite." }],

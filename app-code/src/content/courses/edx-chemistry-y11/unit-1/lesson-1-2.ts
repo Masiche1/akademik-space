@@ -53,12 +53,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Using more concentrated acid" },
-              { id: "b", text: "Warming the acid" },
-              { id: "c", text: "Using magnesium powder instead of ribbon of the same mass" },
-              { id: "d", text: "Using a larger volume of acid of the same concentration" },
+              { id: "a", text: "Using a larger volume of acid of the same concentration" },
+              { id: "b", text: "Using magnesium powder instead of ribbon of the same mass" },
+              { id: "c", text: "Warming the acid" },
+              { id: "d", text: "Using more concentrated acid" },
             ],
-            correctChoiceId: "d",
+            correctChoiceIa: "d",
           },
           markscheme: {
             principles: [
@@ -186,10 +186,10 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It increases the energy of the reacting particles" },
+              { id: "a", text: "It makes the reaction more exothermic" },
               { id: "b", text: "It provides an alternative pathway with a lower activation energy" },
-              { id: "c", text: "It increases the amount of product formed" },
-              { id: "d", text: "It makes the reaction more exothermic" },
+              { id: "c", text: "It increases the energy of the reacting particles" },
+              { id: "d", text: "It increases the amount of product formed" },
             ],
             correctChoiceId: "b",
           },

@@ -55,12 +55,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$(x+2)^2-4$" },
+              { id: "a", text: "$(x+2)^2+4$" },
               { id: "b", text: "$(x+4)^2-16$" },
-              { id: "c", text: "$(x+2)^2+4$" },
+              { id: "c", text: "$(x+2)^2-4$" },
               { id: "d", text: "$(x-2)^2-4$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -82,12 +82,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$(x-5)^2-4$" },
-              { id: "b", text: "$(x-5)^2+4$" },
+              { id: "a", text: "$(x-5)^2+4$" },
+              { id: "b", text: "$(x-5)^2-4$" },
               { id: "c", text: "$(x+5)^2-4$" },
               { id: "d", text: "$(x-10)^2+21$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -110,12 +110,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$x=1$ or $x=-7$" },
-              { id: "b", text: "$x=-1$ or $x=7$" },
-              { id: "c", text: "$x=2$ or $x=-8$" },
+              { id: "a", text: "$x=2$ or $x=-8$" },
+              { id: "b", text: "$x=1$ or $x=-7$" },
+              { id: "c", text: "$x=-1$ or $x=7$" },
               { id: "d", text: "$x=-3$ or $x=3$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -170,12 +170,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$(x+4)^2-16$" },
+              { id: "a", text: "$(x+4)^2+16$" },
               { id: "b", text: "$(x+8)^2-64$" },
-              { id: "c", text: "$(x+4)^2+16$" },
+              { id: "c", text: "$(x+4)^2-16$" },
               { id: "d", text: "$(x-4)^2-16$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -219,9 +219,9 @@ export const lesson23: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$(x+5)^2-1$" },
-              { id: "b", text: "$(x+5)^2+1$" },
+              { id: "b", text: "$(x+10)^2+24$" },
               { id: "c", text: "$(x-5)^2-1$" },
-              { id: "d", text: "$(x+10)^2+24$" },
+              { id: "d", text: "$(x+5)^2+1$" },
             ],
             correctChoiceId: "a",
           },
@@ -268,12 +268,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$x=4$ or $x=-2$" },
-              { id: "b", text: "$x=-4$ or $x=2$" },
-              { id: "c", text: "$x=1$ or $x=-8$" },
-              { id: "d", text: "$x=8$ or $x=-1$" },
+              { id: "a", text: "$x=1$ or $x=-8$" },
+              { id: "b", text: "$x=8$ or $x=-1$" },
+              { id: "c", text: "$x=-4$ or $x=2$" },
+              { id: "d", text: "$x=4$ or $x=-2$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -438,9 +438,9 @@ export const lesson23: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$(2,5)$" },
-              { id: "b", text: "$(-2,5)$" },
+              { id: "b", text: "$(5,2)$" },
               { id: "c", text: "$(2,-5)$" },
-              { id: "d", text: "$(5,2)$" },
+              { id: "d", text: "$(-2,5)$" },
             ],
             correctChoiceId: "a",
           },
@@ -499,9 +499,9 @@ export const lesson23: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "3" },
-              { id: "b", text: "4" },
+              { id: "b", text: "$\\frac{1}{3}$" },
               { id: "c", text: "8" },
-              { id: "d", text: "$\\frac{1}{3}$" },
+              { id: "d", text: "4" },
             ],
             correctChoiceId: "a",
           },
@@ -525,12 +525,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "27" },
-              { id: "b", text: "32" },
+              { id: "a", text: "32" },
+              { id: "b", text: "27" },
               { id: "c", text: "22" },
               { id: "d", text: "37" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -553,12 +553,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "324" },
-              { id: "b", text: "108" },
-              { id: "c", text: "972" },
-              { id: "d", text: "256" },
+              { id: "a", text: "108" },
+              { id: "b", text: "256" },
+              { id: "c", text: "324" },
+              { id: "d", text: "972" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -613,12 +613,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "3" },
-              { id: "b", text: "4" },
+              { id: "a", text: "4" },
+              { id: "b", text: "$\\frac{7}{3}$" },
               { id: "c", text: "7" },
-              { id: "d", text: "$\\frac{7}{3}$" },
+              { id: "d", text: "3" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -661,12 +661,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "34" },
-              { id: "b", text: "40" },
-              { id: "c", text: "36" },
+              { id: "a", text: "36" },
+              { id: "b", text: "34" },
+              { id: "c", text: "40" },
               { id: "d", text: "28" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -711,12 +711,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "2, 4, 8, 16, ..." },
-              { id: "b", text: "5, 9, 13, 17, ..." },
+              { id: "a", text: "3, 6, 12, 24, ..." },
+              { id: "b", text: "2, 4, 8, 16, ..." },
               { id: "c", text: "1, 2, 4, 7, ..." },
-              { id: "d", text: "3, 6, 12, 24, ..." },
+              { id: "d", text: "5, 9, 13, 17, ..." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -878,10 +878,10 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$S_n=ar^{n-1}$" },
+              { id: "a", text: "$S_n=na+d$" },
               { id: "b", text: "$S_n=\\frac{n}{2}[2a+(n-1)d]$" },
               { id: "c", text: "$S_n=a+(n-1)d$" },
-              { id: "d", text: "$S_n=na+d$" },
+              { id: "d", text: "$S_n=ar^{n-1}$" },
             ],
             correctChoiceId: "b",
           },

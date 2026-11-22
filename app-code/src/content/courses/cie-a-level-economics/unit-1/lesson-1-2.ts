@@ -56,11 +56,11 @@ export const lesson412: Lesson = {
           "choices": [
                     {
                               "id": "a",
-                              "text": "Elastic demand — quantity changes twice as much as price"
+                              "text": "Inelastic demand"
                     },
                     {
                               "id": "b",
-                              "text": "Inelastic demand"
+                              "text": "Elastic demand — quantity changes twice as much as price"
                     },
                     {
                               "id": "c",
@@ -71,7 +71,7 @@ export const lesson412: Lesson = {
                               "text": "No demand response"
                     }
           ],
-          "correctChoiceId": "a"
+          "correctChoiceId": "b"
 },
           markscheme: {
           "principles": [
@@ -225,12 +225,12 @@ export const lesson412: Lesson = {
           response: {
           "type": "mcq",
           "choices": [
-            { "id": "a", "text": "price inelastic — quantity changes less than proportionately to price" },
+            { "id": "a", "text": "perfectly inelastic — quantity does not change" },
             { "id": "b", "text": "price elastic — quantity changes more than proportionately to price" },
             { "id": "c", "text": "unit elastic — total revenue is constant" },
-            { "id": "d", "text": "perfectly inelastic — quantity does not change" }
+            { "id": "d", "text": "price inelastic — quantity changes less than proportionately to price" }
           ],
-          "correctChoiceId": "a"
+          "correctChoiceId": "d"
 },
           markscheme: {
           "principles": [ { "kind": "definition", "name": "PED", "statement": "%ΔQd/%ΔP; <1 inelastic." } ],
@@ -244,12 +244,12 @@ export const lesson412: Lesson = {
           response: {
           "type": "mcq",
           "choices": [
-            { "id": "a", "text": "an inferior good" },
-            { "id": "b", "text": "a normal good" },
-            { "id": "c", "text": "a luxury good" },
+            { "id": "a", "text": "a normal good" },
+            { "id": "b", "text": "a luxury good" },
+            { "id": "c", "text": "an inferior good" },
             { "id": "d", "text": "a necessity" }
           ],
-          "correctChoiceId": "a"
+          "correctChoiceId": "c"
 },
           markscheme: {
           "principles": [ { "kind": "definition", "name": "YED", "statement": "Negative YED = inferior good." } ],
@@ -263,12 +263,12 @@ export const lesson412: Lesson = {
           response: {
           "type": "mcq",
           "choices": [
-            { "id": "a", "text": "substitutes" },
-            { "id": "b", "text": "complements" },
-            { "id": "c", "text": "unrelated goods" },
-            { "id": "d", "text": "the same good" }
+            { "id": "a", "text": "unrelated goods" },
+            { "id": "b", "text": "the same good" },
+            { "id": "c", "text": "substitutes" },
+            { "id": "d", "text": "complements" }
           ],
-          "correctChoiceId": "a"
+          "correctChoiceId": "c"
 },
           markscheme: {
           "principles": [ { "kind": "definition", "name": "XED", "statement": "Positive XED = substitutes." } ],
@@ -283,9 +283,9 @@ export const lesson412: Lesson = {
           "type": "mcq",
           "choices": [
             { "id": "a", "text": "quantity supplied responds strongly to a change in price" },
-            { "id": "b", "text": "quantity supplied responds weakly to a change in price" },
+            { "id": "b", "text": "demand is price elastic" },
             { "id": "c", "text": "supply is perfectly inelastic" },
-            { "id": "d", "text": "demand is price elastic" }
+            { "id": "d", "text": "quantity supplied responds weakly to a change in price" }
           ],
           "correctChoiceId": "a"
 },
@@ -301,12 +301,12 @@ export const lesson412: Lesson = {
           response: {
           "type": "mcq",
           "choices": [
-            { "id": "a", "text": "A branded smartphone with many close rivals" },
+            { "id": "a", "text": "Table salt" },
             { "id": "b", "text": "Insulin for a diabetic patient" },
-            { "id": "c", "text": "Table salt" },
+            { "id": "c", "text": "A branded smartphone with many close rivals" },
             { "id": "d", "text": "A staple bread loaf in the short run" }
           ],
-          "correctChoiceId": "a"
+          "correctChoiceId": "c"
 },
           markscheme: {
           "principles": [ { "kind": "principle", "name": "PED determinants", "statement": "Substitutes, luxury status, time." } ],
@@ -321,8 +321,8 @@ export const lesson412: Lesson = {
           "type": "mcq",
           "choices": [
             { "id": "a", "text": "be borne mainly by consumers, who pay a higher price" },
-            { "id": "b", "text": "be borne mainly by producers through a much lower net price" },
-            { "id": "c", "text": "generate no change in the market price" },
+            { "id": "b", "text": "generate no change in the market price" },
+            { "id": "c", "text": "be borne mainly by producers through a much lower net price" },
             { "id": "d", "text": "eliminate deadweight loss" }
           ],
           "correctChoiceId": "a"

@@ -49,12 +49,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$-1\\le f(x)\\le5$" },
-              { id: "b", text: "$-3\\le f(x)\\le3$" },
-              { id: "c", text: "$-1\\le f(x)\\le3$" },
-              { id: "d", text: "$2\\le f(x)\\le5$" },
+              { id: "a", text: "$-1\\le f(x)\\le3$" },
+              { id: "b", text: "$2\\le f(x)\\le5$" },
+              { id: "c", text: "$-1\\le f(x)\\le5$" },
+              { id: "d", text: "$-3\\le f(x)\\le3$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "property", name: "Range of a sinusoid", statement: "$d-|a|\\le f\\le d+|a|$" }],
@@ -163,12 +163,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$4$" },
-              { id: "b", text: "$2$" },
-              { id: "c", text: "$-3$" },
-              { id: "d", text: "$7$" },
+              { id: "a", text: "$7$" },
+              { id: "b", text: "$-3$" },
+              { id: "c", text: "$2$" },
+              { id: "d", text: "$4$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Amplitude", statement: "The amplitude is $|a|$ in $a\\cos(bx)+d$." }],
@@ -189,12 +189,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\dfrac{\\pi}{2}$" },
-              { id: "b", text: "$2\\pi$" },
-              { id: "c", text: "$\\dfrac{\\pi}{4}$" },
-              { id: "d", text: "$4\\pi$" },
+              { id: "a", text: "$4\\pi$" },
+              { id: "b", text: "$\\dfrac{\\pi}{2}$" },
+              { id: "c", text: "$2\\pi$" },
+              { id: "d", text: "$\\dfrac{\\pi}{4}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Period", statement: "$T=\\frac{2\\pi}{b}$" }],
@@ -215,12 +215,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\dfrac{\\pi}{4}$ units to the right" },
-              { id: "b", text: "$\\dfrac{\\pi}{4}$ units to the left" },
+              { id: "a", text: "$\\dfrac{\\pi}{4}$ units to the left" },
+              { id: "b", text: "$\\dfrac{\\pi}{8}$ units to the right" },
               { id: "c", text: "$\\dfrac{\\pi}{2}$ units to the right" },
-              { id: "d", text: "$\\dfrac{\\pi}{8}$ units to the right" },
+              { id: "d", text: "$\\dfrac{\\pi}{4}$ units to the right" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Phase shift", statement: "$f(x)=\\sin(b(x-h))$ is $\\sin(bx)$ translated $h$ units to the right." }],
@@ -241,12 +241,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$1$" },
-              { id: "b", text: "$-5$" },
-              { id: "c", text: "$5$" },
+              { id: "a", text: "$5$" },
+              { id: "b", text: "$1$" },
+              { id: "c", text: "$-5$" },
               { id: "d", text: "$-1$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "property", name: "Range of a sinusoid", statement: "Maximum $=d+|a|$, minimum $=d-|a|$." }],
@@ -375,12 +375,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$f(x)=\\sin(2x)$" },
-              { id: "b", text: "$f(x)=\\sin x$" },
-              { id: "c", text: "$f(x)=\\cos(3x)$" },
-              { id: "d", text: "$f(x)=\\sin\\dfrac{x}{2}$" },
+              { id: "a", text: "$f(x)=\\cos(3x)$" },
+              { id: "b", text: "$f(x)=\\sin(2x)$" },
+              { id: "c", text: "$f(x)=\\sin\\dfrac{x}{2}$" },
+              { id: "d", text: "$f(x)=\\sin x$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Period", statement: "$T=\\frac{2\\pi}{b}$" }],
@@ -402,8 +402,8 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$y=-1$" },
-              { id: "b", text: "$y=4$" },
-              { id: "c", text: "$y=1$" },
+              { id: "b", text: "$y=1$" },
+              { id: "c", text: "$y=4$" },
               { id: "d", text: "$y=0$" },
             ],
             correctChoiceId: "a",
@@ -524,9 +524,9 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$x=\\dfrac\\pi6,\\ \\dfrac{5\\pi}6$" },
-              { id: "b", text: "$x=\\dfrac\\pi6,\\ \\dfrac{7\\pi}6$" },
-              { id: "c", text: "$x=\\dfrac\\pi3,\\ \\dfrac{2\\pi}3$" },
-              { id: "d", text: "$x=\\dfrac\\pi6$ only" },
+              { id: "b", text: "$x=\\dfrac\\pi6$ only" },
+              { id: "c", text: "$x=\\dfrac\\pi6,\\ \\dfrac{7\\pi}6$" },
+              { id: "d", text: "$x=\\dfrac\\pi3,\\ \\dfrac{2\\pi}3$" },
             ],
             correctChoiceId: "a",
           },
@@ -636,9 +636,9 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$x=\\dfrac\\pi3,\\ \\dfrac{2\\pi}3$" },
-              { id: "b", text: "$x=\\dfrac\\pi6,\\ \\dfrac{5\\pi}6$" },
-              { id: "c", text: "$x=\\dfrac\\pi3,\\ \\dfrac\\pi2$" },
-              { id: "d", text: "$x=\\dfrac\\pi4,\\ \\dfrac{3\\pi}4$" },
+              { id: "b", text: "$x=\\dfrac\\pi3,\\ \\dfrac\\pi2$" },
+              { id: "c", text: "$x=\\dfrac\\pi4,\\ \\dfrac{3\\pi}4$" },
+              { id: "d", text: "$x=\\dfrac\\pi6,\\ \\dfrac{5\\pi}6$" },
             ],
             correctChoiceId: "a",
           },
@@ -661,12 +661,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$x=\\dfrac\\pi3,\\ \\dfrac{5\\pi}3$" },
-              { id: "b", text: "$x=\\dfrac\\pi3,\\ \\dfrac{2\\pi}3$" },
-              { id: "c", text: "$x=\\dfrac\\pi6,\\ \\dfrac{11\\pi}6$" },
-              { id: "d", text: "$x=\\dfrac{2\\pi}3,\\ \\dfrac{4\\pi}3$" },
+              { id: "a", text: "$x=\\dfrac\\pi3,\\ \\dfrac{2\\pi}3$" },
+              { id: "b", text: "$x=\\dfrac{2\\pi}3,\\ \\dfrac{4\\pi}3$" },
+              { id: "c", text: "$x=\\dfrac\\pi3,\\ \\dfrac{5\\pi}3$" },
+              { id: "d", text: "$x=\\dfrac\\pi6,\\ \\dfrac{11\\pi}6$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "property", name: "Symmetry of cosine", statement: "$\\cos(2\\pi-x)=\\cos x$" }],
@@ -687,12 +687,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$x=\\dfrac\\pi4,\\ \\dfrac{5\\pi}4$" },
+              { id: "a", text: "$x=0,\\ \\pi$" },
               { id: "b", text: "$x=\\dfrac\\pi4$ only" },
               { id: "c", text: "$x=\\dfrac\\pi4,\\ \\dfrac{3\\pi}4$" },
-              { id: "d", text: "$x=0,\\ \\pi$" },
+              { id: "d", text: "$x=\\dfrac\\pi4,\\ \\dfrac{5\\pi}4$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "property", name: "Period of tangent", statement: "$\\tan$ has period $\\pi$, so there is one solution per $\\pi$ interval." }],
@@ -713,10 +713,10 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$2$" },
+              { id: "a", text: "$6$" },
               { id: "b", text: "$3$" },
               { id: "c", text: "$4$" },
-              { id: "d", text: "$6$" },
+              { id: "d", text: "$2$" },
             ],
             correctChoiceId: "c",
           },
@@ -841,12 +841,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$x=\\dfrac\\pi3,\\ \\dfrac{4\\pi}3$" },
+              { id: "a", text: "$x=\\dfrac\\pi3$ only" },
               { id: "b", text: "$x=\\dfrac\\pi3,\\ \\dfrac{2\\pi}3$" },
               { id: "c", text: "$x=\\dfrac\\pi6,\\ \\dfrac{7\\pi}6$" },
-              { id: "d", text: "$x=\\dfrac\\pi3$ only" },
+              { id: "d", text: "$x=\\dfrac\\pi3,\\ \\dfrac{4\\pi}3$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "property", name: "Period of tangent", statement: "$\\tan$ has period $\\pi$." }],
@@ -867,12 +867,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$x=\\dfrac\\pi2,\\ \\dfrac{3\\pi}2$" },
+              { id: "a", text: "$x=\\dfrac\\pi2$ only" },
               { id: "b", text: "$x=0,\\ \\pi$" },
-              { id: "c", text: "$x=\\dfrac\\pi2$ only" },
-              { id: "d", text: "$x=\\pi,\\ \\dfrac{3\\pi}2$" },
+              { id: "c", text: "$x=\\pi,\\ \\dfrac{3\\pi}2$" },
+              { id: "d", text: "$x=\\dfrac\\pi2,\\ \\dfrac{3\\pi}2$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "property", name: "Unit circle", statement: "$\\cos x=0$ where the $x$-coordinate of the point on the unit circle is $0$." }],

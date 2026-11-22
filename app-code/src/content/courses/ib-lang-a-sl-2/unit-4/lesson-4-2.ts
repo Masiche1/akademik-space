@@ -52,12 +52,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "How a text was written" },
-              { id: "b", text: "How a text is read and valued across different periods" },
-              { id: "c", text: "The author's first draft" },
-              { id: "d", text: "The text's publication date" },
+              { id: "a", text: "How a text is read and valued across different periods" },
+              { id: "b", text: "How a text was written" },
+              { id: "c", text: "The text's publication date" },
+              { id: "d", text: "The author's first draft" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -163,10 +163,10 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The author's birth date" },
+              { id: "a", text: "The genre's conventions" },
               { id: "b", text: "The events, conditions and assumptions of the period in which the text was produced" },
               { id: "c", text: "The book's sales figures" },
-              { id: "d", text: "The genre's conventions" },
+              { id: "d", text: "The author's birth date" },
             ],
             correctChoiceId: "b",
           },
@@ -189,12 +189,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The plot's physical setting" },
-              { id: "b", text: "The shared values, beliefs, symbols and practices of the text's society" },
-              { id: "c", text: "The author's nationality alone" },
-              { id: "d", text: "The price of the book" },
+              { id: "a", text: "The author's nationality alone" },
+              { id: "b", text: "The price of the book" },
+              { id: "c", text: "The plot's physical setting" },
+              { id: "d", text: "The shared values, beliefs, symbols and practices of the text's society" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -215,12 +215,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "How many pages is the novel?" },
-              { id: "b", text: "What did 'taking the waters' assume about class, health and gender in that period?" },
-              { id: "c", text: "Was the author famous?" },
-              { id: "d", text: "What colour was the spa?" },
+              { id: "a", text: "What colour was the spa?" },
+              { id: "b", text: "Was the author famous?" },
+              { id: "c", text: "What did 'taking the waters' assume about class, health and gender in that period?" },
+              { id: "d", text: "How many pages is the novel?" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -352,12 +352,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It makes texts longer" },
-              { id: "b", text: "It actively produces meaning — the same words mean different things in different moments" },
-              { id: "c", text: "It dates the text" },
+              { id: "a", text: "It actively produces meaning — the same words mean different things in different moments" },
+              { id: "b", text: "It dates the text" },
+              { id: "c", text: "It makes texts longer" },
               { id: "d", text: "It explains the plot" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -378,9 +378,9 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Identifies grammar errors" },
+              { id: "a", text: "Counts the words in the text" },
               { id: "b", text: "Reveals what a period's assumptions permitted or forbade a text to say" },
-              { id: "c", text: "Counts the words in the text" },
+              { id: "c", text: "Identifies grammar errors" },
               { id: "d", text: "Finds the theme" },
             ],
             correctChoiceId: "b",
@@ -431,12 +431,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Texts are rewritten over time" },
-              { id: "b", text: "Readers' assumptions and values change, so the same words produce different meanings" },
-              { id: "c", text: "Paper deteriorates" },
-              { id: "d", text: "Authors revise their work" },
+              { id: "a", text: "Paper deteriorates" },
+              { id: "b", text: "Authors revise their work" },
+              { id: "c", text: "Texts are rewritten over time" },
+              { id: "d", text: "Readers' assumptions and values change, so the same words produce different meanings" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -523,8 +523,8 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Allusion" },
-              { id: "b", text: "Parody" },
+              { id: "a", text: "Parody" },
+              { id: "b", text: "Allusion" },
               { id: "c", text: "Rhyme scheme" },
               { id: "d", text: "Quotation" },
             ],
@@ -634,10 +634,10 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A character remembering the past" },
+              { id: "a", text: "The plot's flashback structure" },
               { id: "b", text: "A text invoking a genre's conventions to fulfil or subvert them" },
               { id: "c", text: "A footnote about the author" },
-              { id: "d", text: "The plot's flashback structure" },
+              { id: "d", text: "A character remembering the past" },
             ],
             correctChoiceId: "b",
           },
@@ -660,12 +660,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Ignores all earlier texts" },
-              { id: "b", text: "Answers, argues with or rewrites a predecessor text" },
-              { id: "c", text: "Copies a source exactly" },
-              { id: "d", text: "Summarises a famous plot" },
+              { id: "a", text: "Copies a source exactly" },
+              { id: "b", text: "Summarises a famous plot" },
+              { id: "c", text: "Ignores all earlier texts" },
+              { id: "d", text: "Answers, argues with or rewrites a predecessor text" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -686,12 +686,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Direct allusion to a specific poem" },
-              { id: "b", text: "Ironic transformation of the sea's conventional symbolism into environmental critique" },
-              { id: "c", text: "Parody of epic simile" },
+              { id: "a", text: "Parody of epic simile" },
+              { id: "b", text: "Direct allusion to a specific poem" },
+              { id: "c", text: "Ironic transformation of the sea's conventional symbolism into environmental critique" },
               { id: "d", text: "Verbatim quotation of a source" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -823,12 +823,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Copies a source exactly" },
-              { id: "b", text: "Imitates for comic or critical effect, exaggerating the source's features" },
-              { id: "c", text: "Is always serious" },
-              { id: "d", text: "Has no source text" },
+              { id: "a", text: "Has no source text" },
+              { id: "b", text: "Is always serious" },
+              { id: "c", text: "Imitates for comic or critical effect, exaggerating the source's features" },
+              { id: "d", text: "Copies a source exactly" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -849,10 +849,10 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Whether the student knows the source" },
+              { id: "a", text: "The original author's intentions" },
               { id: "b", text: "How the imported associations transform the new text's meaning" },
-              { id: "c", text: "The original author's intentions" },
-              { id: "d", text: "The price of the original work" },
+              { id: "c", text: "The price of the original work" },
+              { id: "d", text: "Whether the student knows the source" },
             ],
             correctChoiceId: "b",
           },
@@ -902,12 +902,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "How long the source text is" },
-              { id: "b", text: "What the new text does to the source — honour, ironise or reverse it" },
-              { id: "c", text: "Whether the source is famous" },
-              { id: "d", text: "If the author plagiarised" },
+              { id: "a", text: "Whether the source is famous" },
+              { id: "b", text: "If the author plagiarised" },
+              { id: "c", text: "What the new text does to the source — honour, ironise or reverse it" },
+              { id: "d", text: "How long the source text is" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

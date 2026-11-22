@@ -57,8 +57,8 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Electron" },
-              { id: "b", text: "Neutron" },
+              { id: "a", text: "Neutron" },
+              { id: "b", text: "Electron" },
               { id: "c", text: "Proton" },
               { id: "d", text: "Nucleus" },
             ],
@@ -156,12 +156,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Proton" },
-              { id: "b", text: "Neutron" },
-              { id: "c", text: "Electron" },
+              { id: "a", text: "Neutron" },
+              { id: "b", text: "Electron" },
+              { id: "c", text: "Proton" },
               { id: "d", text: "Nucleus" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -183,12 +183,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Protons only" },
-              { id: "b", text: "Protons and neutrons" },
+              { id: "a", text: "Neutrons only" },
+              { id: "b", text: "Protons only" },
               { id: "c", text: "Protons and electrons" },
-              { id: "d", text: "Neutrons only" },
+              { id: "d", text: "Protons and neutrons" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -249,12 +249,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "2, 8, 1" },
-              { id: "b", text: "2, 8, 2" },
-              { id: "c", text: "8, 2, 1" },
-              { id: "d", text: "2, 7, 2" },
+              { id: "a", text: "2, 7, 2" },
+              { id: "b", text: "8, 2, 1" },
+              { id: "c", text: "2, 8, 1" },
+              { id: "d", text: "2, 8, 2" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -314,12 +314,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Isotopes" },
-              { id: "b", text: "Ions" },
-              { id: "c", text: "Compounds" },
-              { id: "d", text: "Allotropes" },
+              { id: "a", text: "Compounds" },
+              { id: "b", text: "Allotropes" },
+              { id: "c", text: "Isotopes" },
+              { id: "d", text: "Ions" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -380,11 +380,11 @@ export const lesson11: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Electron shells" },
-              { id: "b", text: "The nucleus" },
-              { id: "c", text: "The electron cloud" },
+              { id: "b", text: "The electron cloud" },
+              { id: "c", text: "The nucleus" },
               { id: "d", text: "The outer shell" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -459,8 +459,8 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Protons" },
-              { id: "b", text: "Neutrons" },
+              { id: "a", text: "Neutrons" },
+              { id: "b", text: "Protons" },
               { id: "c", text: "Valence electrons" },
               { id: "d", text: "Shells" },
             ],
@@ -557,8 +557,8 @@ export const lesson11: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "In columns, from top to bottom" },
-              { id: "b", text: "In rows, from left to right" },
-              { id: "c", text: "In diagonal lines" },
+              { id: "b", text: "In diagonal lines" },
+              { id: "c", text: "In rows, from left to right" },
               { id: "d", text: "Randomly by mass" },
             ],
             correctChoiceId: "a",
@@ -583,10 +583,10 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "On the left side" },
-              { id: "b", text: "In the centre" },
+              { id: "a", text: "In the centre" },
+              { id: "b", text: "At the bottom" },
               { id: "c", text: "On the right side" },
-              { id: "d", text: "At the bottom" },
+              { id: "d", text: "On the left side" },
             ],
             correctChoiceId: "c",
           },
@@ -610,12 +610,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Lithium" },
-              { id: "b", text: "Calcium" },
-              { id: "c", text: "Neon" },
+              { id: "a", text: "Calcium" },
+              { id: "b", text: "Neon" },
+              { id: "c", text: "Lithium" },
               { id: "d", text: "Argon" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -674,12 +674,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It increases" },
-              { id: "b", text: "It decreases" },
-              { id: "c", text: "It stays the same" },
-              { id: "d", text: "It doubles at each step" },
+              { id: "a", text: "It doubles at each step" },
+              { id: "b", text: "It stays the same" },
+              { id: "c", text: "It decreases" },
+              { id: "d", text: "It increases" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -741,11 +741,11 @@ export const lesson11: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Metal" },
-              { id: "b", text: "Non-metal" },
-              { id: "c", text: "Metalloid" },
+              { id: "b", text: "Metalloid" },
+              { id: "c", text: "Non-metal" },
               { id: "d", text: "Noble gas" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [

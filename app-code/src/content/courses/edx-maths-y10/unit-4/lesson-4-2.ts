@@ -54,12 +54,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\frac12$" },
-              { id: "b", text: "$\\frac14$" },
-              { id: "c", text: "$\\frac13$" },
+              { id: "a", text: "$\\frac14$" },
+              { id: "b", text: "$\\frac13$" },
+              { id: "c", text: "$\\frac12$" },
               { id: "d", text: "$\\frac18$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "law", name: "Multiplication rule", statement: "For independent events, $P(A\\text{ and }B)=P(A)\\times P(B)$." }],
@@ -193,12 +193,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\frac{4}{25}$" },
-              { id: "b", text: "$\\frac{2}{15}$" },
-              { id: "c", text: "$\\frac{4}{10}$" },
-              { id: "d", text: "$\\frac{1}{5}$" },
+              { id: "a", text: "$\\frac{2}{15}$" },
+              { id: "b", text: "$\\frac{4}{25}$" },
+              { id: "c", text: "$\\frac{1}{5}$" },
+              { id: "d", text: "$\\frac{4}{10}$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "law", name: "Without replacement", statement: "After one red is removed there are 3 red among 9 counters." }],

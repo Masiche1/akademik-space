@@ -94,12 +94,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Downward communication" },
-              { id: "b", text: "Upward communication" },
-              { id: "c", text: "Horizontal communication" },
-              { id: "d", text: "Diagonal communication" },
+              { id: "a", text: "Diagonal communication" },
+              { id: "b", text: "Horizontal communication" },
+              { id: "c", text: "Upward communication" },
+              { id: "d", text: "Downward communication" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -138,12 +138,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Storming" },
-              { id: "b", text: "Norming" },
-              { id: "c", text: "Forming" },
-              { id: "d", text: "Performing" },
+              { id: "a", text: "Forming" },
+              { id: "b", text: "Storming" },
+              { id: "c", text: "Performing" },
+              { id: "d", text: "Norming" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -322,12 +322,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Grapevine" },
+              { id: "a", text: "Formal channel" },
               { id: "b", text: "Chain of command" },
-              { id: "c", text: "Formal channel" },
+              { id: "c", text: "Grapevine" },
               { id: "d", text: "Hierarchy" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -365,12 +365,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Informal communication" },
+              { id: "a", text: "Diagonal communication" },
               { id: "b", text: "The grapevine" },
-              { id: "c", text: "Formal communication" },
-              { id: "d", text: "Diagonal communication" },
+              { id: "c", text: "Informal communication" },
+              { id: "d", text: "Formal communication" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -727,12 +727,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "An email" },
-              { id: "b", text: "A poster" },
-              { id: "c", text: "A face-to-face meeting" },
-              { id: "d", text: "A notice board" },
+              { id: "a", text: "A notice board" },
+              { id: "b", text: "A face-to-face meeting" },
+              { id: "c", text: "A poster" },
+              { id: "d", text: "An email" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -772,11 +772,11 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Forming" },
-              { id: "b", text: "Storming" },
-              { id: "c", text: "Norming" },
-              { id: "d", text: "Performing" },
+              { id: "b", text: "Performing" },
+              { id: "c", text: "Storming" },
+              { id: "d", text: "Norming" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -905,12 +905,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Downward communication" },
-              { id: "b", text: "Upward communication" },
-              { id: "c", text: "Horizontal communication" },
+              { id: "a", text: "Horizontal communication" },
+              { id: "b", text: "Downward communication" },
+              { id: "c", text: "Upward communication" },
               { id: "d", text: "Lateral communication" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -990,12 +990,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Forming" },
-              { id: "b", text: "Storming" },
-              { id: "c", text: "Norming" },
-              { id: "d", text: "Performing" },
+              { id: "a", text: "Storming" },
+              { id: "b", text: "Norming" },
+              { id: "c", text: "Performing" },
+              { id: "d", text: "Forming" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1034,11 +1034,11 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Objective" },
-              { id: "b", text: "Norm" },
+              { id: "b", text: "Status" },
               { id: "c", text: "Role" },
-              { id: "d", text: "Status" },
+              { id: "d", text: "Norm" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1216,10 +1216,10 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Performing" },
-              { id: "b", text: "Norming" },
+              { id: "a", text: "Storming" },
+              { id: "b", text: "Performing" },
               { id: "c", text: "Adjourning" },
-              { id: "d", text: "Storming" },
+              { id: "d", text: "Norming" },
             ],
             correctChoiceId: "c",
           },
@@ -1260,12 +1260,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Task role" },
-              { id: "b", text: "Maintenance (people) role" },
-              { id: "c", text: "Leadership role" },
-              { id: "d", text: "Formal role" },
+              { id: "a", text: "Formal role" },
+              { id: "b", text: "Task role" },
+              { id: "c", text: "Maintenance (people) role" },
+              { id: "d", text: "Leadership role" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1572,12 +1572,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Objectives" },
-              { id: "b", text: "Norms" },
-              { id: "c", text: "Roles" },
-              { id: "d", text: "Statuses" },
+              { id: "a", text: "Statuses" },
+              { id: "b", text: "Roles" },
+              { id: "c", text: "Objectives" },
+              { id: "d", text: "Norms" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1613,10 +1613,10 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Plant" },
-              { id: "b", text: "Shaper" },
+              { id: "a", text: "Monitor-evaluator" },
+              { id: "b", text: "Plant" },
               { id: "c", text: "Team-worker" },
-              { id: "d", text: "Monitor-evaluator" },
+              { id: "d", text: "Shaper" },
             ],
             correctChoiceId: "c",
           },
@@ -1793,12 +1793,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Forming" },
-              { id: "b", text: "Storming" },
-              { id: "c", text: "Performing" },
-              { id: "d", text: "Adjourning" },
+              { id: "a", text: "Storming" },
+              { id: "b", text: "Performing" },
+              { id: "c", text: "Adjourning" },
+              { id: "d", text: "Forming" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [

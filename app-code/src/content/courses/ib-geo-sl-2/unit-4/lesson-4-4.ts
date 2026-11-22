@@ -54,12 +54,12 @@ export const lesson44: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "1 million" },
-              { id: "b", text: "5 million" },
-              { id: "c", text: "10 million" },
-              { id: "d", text: "50 million" },
+              { id: "a", text: "10 million" },
+              { id: "b", text: "50 million" },
+              { id: "c", text: "1 million" },
+              { id: "d", text: "5 million" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -153,8 +153,8 @@ export const lesson44: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "1 million" },
-              { id: "b", text: "5 million" },
+              { id: "a", text: "5 million" },
+              { id: "b", text: "1 million" },
               { id: "c", text: "10 million" },
               { id: "d", text: "50 million" },
             ],
@@ -182,11 +182,11 @@ export const lesson44: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Increased rainfall in cities" },
-              { id: "b", text: "Dark surfaces, buildings and lost vegetation retaining heat" },
-              { id: "c", text: "Higher wind speeds over urban areas" },
+              { id: "b", text: "Higher wind speeds over urban areas" },
+              { id: "c", text: "Dark surfaces, buildings and lost vegetation retaining heat" },
               { id: "d", text: "Reduced human activity at night" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -209,12 +209,12 @@ export const lesson44: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Any form of housing structure" },
-              { id: "b", text: "Legal land tenure, piped water and sanitation" },
+              { id: "a", text: "Proximity to employment" },
+              { id: "b", text: "Any form of housing structure" },
               { id: "c", text: "Any economic activity" },
-              { id: "d", text: "Proximity to employment" },
+              { id: "d", text: "Legal land tenure, piped water and sanitation" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -237,9 +237,9 @@ export const lesson44: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "High-income countries of Europe and North America" },
+              { id: "a", text: "Only coastal megacities" },
               { id: "b", text: "Low- and middle-income countries" },
-              { id: "c", text: "Only coastal megacities" },
+              { id: "c", text: "High-income countries of Europe and North America" },
               { id: "d", text: "Declining industrial regions" },
             ],
             correctChoiceId: "b",
@@ -265,12 +265,12 @@ export const lesson44: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Cities grow far faster than services can be funded and built" },
-              { id: "b", text: "LMIC cities always have smaller populations" },
-              { id: "c", text: "European cities never faced infrastructure strain" },
-              { id: "d", text: "Migration in LMICs is always voluntary" },
+              { id: "a", text: "Migration in LMICs is always voluntary" },
+              { id: "b", text: "European cities never faced infrastructure strain" },
+              { id: "c", text: "Cities grow far faster than services can be funded and built" },
+              { id: "d", text: "LMIC cities always have smaller populations" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -472,12 +472,12 @@ export const lesson44: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Recycling facilities in cities" },
-              { id: "b", text: "Network of natural spaces providing ecosystem services" },
-              { id: "c", text: "Solar panels on buildings" },
-              { id: "d", text: "Waste-to-energy plants" },
+              { id: "a", text: "Waste-to-energy plants" },
+              { id: "b", text: "Recycling facilities in cities" },
+              { id: "c", text: "Network of natural spaces providing ecosystem services" },
+              { id: "d", text: "Solar panels on buildings" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -571,9 +571,9 @@ export const lesson44: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Spread development evenly across rural areas" },
+              { id: "a", text: "Maximise car dependence for convenience" },
               { id: "b", text: "Concentrate development along transit corridors to reduce sprawl" },
-              { id: "c", text: "Maximise car dependence for convenience" },
+              { id: "c", text: "Spread development evenly across rural areas" },
               { id: "d", text: "Eliminate all green space in cities" },
             ],
             correctChoiceId: "b",
@@ -599,12 +599,12 @@ export const lesson44: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Grey infrastructure" },
-              { id: "b", text: "Green infrastructure" },
-              { id: "c", text: "Smart city technology" },
-              { id: "d", text: "Urban sprawl" },
+              { id: "a", text: "Green infrastructure" },
+              { id: "b", text: "Smart city technology" },
+              { id: "c", text: "Urban sprawl" },
+              { id: "d", text: "Grey infrastructure" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -627,12 +627,12 @@ export const lesson44: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It is always too expensive for any city" },
-              { id: "b", text: "It can deepen the digital divide and raise surveillance/privacy concerns" },
-              { id: "c", text: "It eliminates the need for urban planning" },
-              { id: "d", text: "It only works in small towns" },
+              { id: "a", text: "It only works in small towns" },
+              { id: "b", text: "It eliminates the need for urban planning" },
+              { id: "c", text: "It can deepen the digital divide and raise surveillance/privacy concerns" },
+              { id: "d", text: "It is always too expensive for any city" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -656,11 +656,11 @@ export const lesson44: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Remove residents to distant locations" },
-              { id: "b", text: "Improve existing settlements in place with services and tenure" },
-              { id: "c", text: "Ignore infrastructure entirely" },
-              { id: "d", text: "Are only funded by international NGOs" },
+              { id: "b", text: "Ignore infrastructure entirely" },
+              { id: "c", text: "Are only funded by international NGOs" },
+              { id: "d", text: "Improve existing settlements in place with services and tenure" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -683,12 +683,12 @@ export const lesson44: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "They lack employment, services and amenities, so residents commute elsewhere" },
-              { id: "b", text: "They are always located in rural areas" },
-              { id: "c", text: "They prohibit all commercial activity" },
-              { id: "d", text: "They are too small to house people" },
+              { id: "a", text: "They prohibit all commercial activity" },
+              { id: "b", text: "They are too small to house people" },
+              { id: "c", text: "They are always located in rural areas" },
+              { id: "d", text: "They lack employment, services and amenities, so residents commute elsewhere" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

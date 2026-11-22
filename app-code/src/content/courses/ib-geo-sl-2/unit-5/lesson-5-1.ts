@@ -54,10 +54,10 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Organic farming methods" },
+              { id: "a", text: "Small-scale subsistence farming" },
               { id: "b", text: "High-yield varieties, fertilisers and irrigation" },
-              { id: "c", text: "Small-scale subsistence farming" },
-              { id: "d", text: "Genetic modification of all crops" },
+              { id: "c", text: "Genetic modification of all crops" },
+              { id: "d", text: "Organic farming methods" },
             ],
             correctChoiceId: "b",
           },
@@ -153,12 +153,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Consumption" },
-              { id: "b", text: "Processing" },
+              { id: "a", text: "Processing" },
+              { id: "b", text: "Consumption" },
               { id: "c", text: "Waste disposal" },
               { id: "d", text: "Retail only" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -181,12 +181,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Organic farming movements of the 1990s" },
-              { id: "b", text: "High-yield crop varieties with fertilisers and irrigation raising yields" },
-              { id: "c", text: "Local food movements rejecting trade" },
-              { id: "d", text: "Genetic modification of all crops" },
+              { id: "a", text: "High-yield crop varieties with fertilisers and irrigation raising yields" },
+              { id: "b", text: "Organic farming movements of the 1990s" },
+              { id: "c", text: "Genetic modification of all crops" },
+              { id: "d", text: "Local food movements rejecting trade" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -209,12 +209,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Abundant flat land only" },
-              { id: "b", text: "Warm wet climate and paddy irrigation suited to the crop" },
+              { id: "a", text: "Warm wet climate and paddy irrigation suited to the crop" },
+              { id: "b", text: "Abundant flat land only" },
               { id: "c", text: "Low labour costs alone" },
               { id: "d", text: "Government subsidies only" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -237,9 +237,9 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Eliminating all international trade in food" },
+              { id: "a", text: "Forcing all food to be grown locally" },
               { id: "b", text: "Creating complex international supply chains linking producers and consumers worldwide" },
-              { id: "c", text: "Forcing all food to be grown locally" },
+              { id: "c", text: "Eliminating all international trade in food" },
               { id: "d", text: "Removing processing from the food chain" },
             ],
             correctChoiceId: "b",
@@ -265,10 +265,10 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "They are too small to be affected by events" },
+              { id: "a", text: "They have no dependence on transport" },
               { id: "b", text: "Concentrated supply chains and few suppliers mean disruption propagates widely" },
-              { id: "c", text: "They rely entirely on local production" },
-              { id: "d", text: "They have no dependence on transport" },
+              { id: "c", text: "They are too small to be affected by events" },
+              { id: "d", text: "They rely entirely on local production" },
             ],
             correctChoiceId: "b",
           },
@@ -472,12 +472,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "10%" },
-              { id: "b", text: "30%" },
-              { id: "c", text: "70%" },
-              { id: "d", text: "95%" },
+              { id: "a", text: "30%" },
+              { id: "b", text: "95%" },
+              { id: "c", text: "10%" },
+              { id: "d", text: "70%" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -571,12 +571,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "About 20%" },
+              { id: "a", text: "About 80%" },
               { id: "b", text: "About 50%" },
-              { id: "c", text: "About 80%" },
+              { id: "c", text: "About 20%" },
               { id: "d", text: "About 10%" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -599,12 +599,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Producing too much food in all countries" },
-              { id: "b", text: "Simultaneous overconsumption/obesity in some groups and undernutrition in others" },
+              { id: "a", text: "Simultaneous overconsumption/obesity in some groups and undernutrition in others" },
+              { id: "b", text: "Food being both too cheap and too expensive" },
               { id: "c", text: "Both too much and too little farmland globally" },
-              { id: "d", text: "Food being both too cheap and too expensive" },
+              { id: "d", text: "Producing too much food in all countries" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -627,12 +627,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "~40% GDP, ~40% employment" },
-              { id: "b", text: "~4% GDP, ~27% employment" },
+              { id: "a", text: "~4% GDP, ~27% employment" },
+              { id: "b", text: "~40% GDP, ~40% employment" },
               { id: "c", text: "~27% GDP, ~4% employment" },
               { id: "d", text: "~10% GDP, ~10% employment" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -655,12 +655,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Guaranteed stable prices for all crops" },
-              { id: "b", text: "Marginalisation through price competition and corporate control of inputs" },
+              { id: "a", text: "Marginalisation through price competition and corporate control of inputs" },
+              { id: "b", text: "Guaranteed stable prices for all crops" },
               { id: "c", text: "Complete independence from markets" },
               { id: "d", text: "Freedom from all labour concerns" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -684,11 +684,11 @@ export const lesson51: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "They increase demand for all agricultural products equally" },
-              { id: "b", text: "They distort world markets by undercutting prices of unsubsidised producers" },
+              { id: "b", text: "They eliminate food exports entirely" },
               { id: "c", text: "They force poor countries to adopt identical policies" },
-              { id: "d", text: "They eliminate food exports entirely" },
+              { id: "d", text: "They distort world markets by undercutting prices of unsubsidised producers" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

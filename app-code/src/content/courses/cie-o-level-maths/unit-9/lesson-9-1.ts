@@ -33,8 +33,11 @@ export const lesson91: Lesson = {
           id: "olm-u9-s1-iso-q1", difficulty: "foundation", totalMarks: 1,
           stem: "A reflection preserves…",
           response: { type: "mcq", choices: [
-            { id: "a", text: "Size and shape" }, { id: "b", text: "Orientation" }, { id: "c", text: "Position" }, { id: "d", text: "Angles only" },
-          ], correctChoiceId: "a" },
+            { id: "a", text: "Orientation" },
+            { id: "b", text: "Size and shape" },
+            { id: "c", text: "Position" },
+            { id: "d", text: "Angles only" },
+          ], correctChoiceId: "b" },
           markscheme: { principles: [{ kind: "property", name: "Isometry", statement: "Preserves size/shape." }], steps: [{ reasoning: "Reflection is an isometry.", marks: 1, markCode: "A" }], finalAnswer: "Size and shape" },
         },
         {
@@ -67,6 +70,129 @@ export const lesson91: Lesson = {
             { reasoning: "Check: side lengths unchanged ✓.", marks: 1, markCode: "A" },
           ], finalAnswer: "$(3,0),(5,0),(3,3)$" },
         },
+        {
+          id: "olm-u9-s1-iso-q5", difficulty: "foundation", totalMarks: 1,
+          stem: "Point $(3,-2)$ is reflected in the y-axis. What is the image?",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "$(-3,2)$" },
+            { id: "b", text: "$(3,-2)$" },
+            { id: "c", text: "$(-3,-2)$" },
+            { id: "d", text: "$(3,2)$" },
+          ], correctChoiceId: "c" },
+          markscheme: { principles: [{ kind: "technique", name: "Reflection", statement: "Reflect in y-axis by negating x." }], steps: [{ reasoning: "$(3,-2)\\to(-3,-2)$.", marks: 1, markCode: "A" }], finalAnswer: "$(-3,-2)$" },
+        },
+        {
+          id: "olm-u9-s1-iso-q6", difficulty: "foundation", totalMarks: 2,
+          stem: "Point $(4,1)$ is rotated $90°$ anticlockwise about the origin. Find the y-coordinate of the image.",
+          response: { type: "numeric", parts: [{ label: "a", answer: 4 }] },
+          markscheme: { principles: [{ kind: "technique", name: "Rotation", statement: "$90°$ anticlockwise sends $(x,y)\\to(-y,x)$." }], steps: [
+            { reasoning: "$(4,1)\\to(-1,4)$.", marks: 1, markCode: "M" },
+            { reasoning: "The y-coordinate is $4$.", marks: 1, markCode: "A" },
+          ], finalAnswer: "4" },
+        },
+        {
+          id: "olm-u9-s1-iso-q7", difficulty: "core", totalMarks: 3,
+          stem: "Point $(5,1)$ is translated by vector $(-2,4)$ and then reflected in the x-axis. Find the final position.",
+          response: { type: "open" },
+          markscheme: { principles: [{ kind: "technique", name: "Combined transformation", statement: "Apply each transformation in order." }], steps: [
+            { reasoning: "Translation gives $(5-2,1+4)=(3,5)$.", marks: 1, markCode: "M" },
+            { reasoning: "Reflection in x-axis gives $(3,-5)$.", marks: 1, markCode: "M" },
+            { reasoning: "Final position: $(3,-5)$.", marks: 1, markCode: "A" },
+          ], finalAnswer: "$(3,-5)$" },
+        },
+        {
+          id: "olm-u9-s1-iso-q8", difficulty: "core", totalMarks: 1,
+          stem: "Point $(2,5)$ is reflected in the line $y=x$. What is the image?",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "$(-5,-2)$" },
+            { id: "b", text: "$(-2,5)$" },
+            { id: "c", text: "$(5,2)$" },
+            { id: "d", text: "$(2,-5)$" },
+          ], correctChoiceId: "c" },
+          markscheme: { principles: [{ kind: "technique", name: "Reflection", statement: "Reflection in $y=x$ swaps coordinates." }], steps: [{ reasoning: "$(2,5)\\to(5,2)$.", marks: 1, markCode: "A" }], finalAnswer: "$(5,2)$" },
+        },
+        {
+          id: "olm-u9-s1-iso-q9", difficulty: "challenge", totalMarks: 4,
+          stem: "Triangle $ABC$ has vertices $A(1,2)$, $B(4,2)$ and $C(1,6)$. It is reflected in the x-axis and then translated by vector $(0,-3)$. Find the new vertices and describe the single equivalent reflection.",
+          response: { type: "open" },
+          markscheme: { principles: [{ kind: "technique", name: "Combined transformations", statement: "Apply in order, then compare with a single reflection." }], steps: [
+            { reasoning: "After reflection in x-axis: $(1,-2),(4,-2),(1,-6)$.", marks: 1, markCode: "M" },
+            { reasoning: "After translation $(0,-3)$: $(1,-5),(4,-5),(1,-9)$.", marks: 1, markCode: "M" },
+            { reasoning: "The combined map sends $(x,y)$ to $(x,-y-3)$, a reflection in $y=-\\frac32$.", marks: 1, markCode: "M" },
+            { reasoning: "New vertices $(1,-5),(4,-5),(1,-9)$; equivalent reflection in $y=-\\frac32$.", marks: 1, markCode: "A" },
+          ], finalAnswer: "$(1,-5),(4,-5),(1,-9)$; reflection in $y=-\\frac32$" },
+        },
+        {
+          id: "olm-u9-s1-iso-q10", difficulty: "core", totalMarks: 2,
+          stem: "Point $(-3,6)$ is rotated $90°$ clockwise about the origin. Find the x-coordinate of the image.",
+          response: { type: "numeric", parts: [{ label: "a", answer: 6 }] },
+          markscheme: { principles: [{ kind: "technique", name: "Rotation", statement: "$90°$ clockwise sends $(x,y)\\to(y,-x)$." }], steps: [
+            { reasoning: "$(-3,6)\\to(6,3)$.", marks: 1, markCode: "M" },
+            { reasoning: "The x-coordinate is $6$.", marks: 1, markCode: "A" },
+          ], finalAnswer: "6" },
+        },
+        {
+          id: "olm-u9-s1-iso-q11", difficulty: "foundation", totalMarks: 1,
+          stem: "A rotation about the origin through $180°$ maps $(x,y)$ to…",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "$(x,-y)$" },
+            { id: "b", text: "$(-x,y)$" },
+            { id: "c", text: "$(-x,-y)$" },
+            { id: "d", text: "$(y,x)$" },
+          ], correctChoiceId: "c" },
+          markscheme: { principles: [{ kind: "property", name: "Rotation", statement: "$180°$ rotation negates both coordinates." }], steps: [{ reasoning: "Both coordinates change sign.", marks: 1, markCode: "A" }], finalAnswer: "$(-x,-y)$" },
+        },
+        {
+          id: "olm-u9-s1-iso-q12", difficulty: "core", totalMarks: 1,
+          stem: "Which transformation leaves every point the same distance from a fixed centre?",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "Shear" },
+            { id: "b", text: "Rotation" },
+            { id: "c", text: "Translation" },
+            { id: "d", text: "Reflection" },
+          ], correctChoiceId: "b" },
+          markscheme: { principles: [{ kind: "property", name: "Rotation", statement: "Distance from centre is preserved." }], steps: [{ reasoning: "Rotation is about a fixed centre.", marks: 1, markCode: "A" }], finalAnswer: "Rotation" },
+        },
+        {
+          id: "olm-u9-s1-iso-q13", difficulty: "core", totalMarks: 2,
+          stem: "Point $(8,-2)$ is translated by vector $(-5,3)$. Find the x-coordinate of the image.",
+          response: { type: "numeric", parts: [{ label: "a", answer: 3 }] },
+          markscheme: { principles: [{ kind: "technique", name: "Translation", statement: "Add the vector components." }], steps: [
+            { reasoning: "New x-coordinate: $8-5=3$.", marks: 1, markCode: "M" },
+            { reasoning: "Answer: $3$.", marks: 1, markCode: "A" },
+          ], finalAnswer: "3" },
+        },
+        {
+          id: "olm-u9-s1-iso-q14", difficulty: "challenge", totalMarks: 1,
+          stem: "A shape undergoes translation by vector $(2,1)$ followed by translation by vector $(-1,4)$. The equivalent single translation is…",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "$(1,-3)$" },
+            { id: "b", text: "$(-1,5)$" },
+            { id: "c", text: "$(3,-3)$" },
+            { id: "d", text: "$(1,5)$" },
+          ], correctChoiceId: "d" },
+          markscheme: { principles: [{ kind: "technique", name: "Combined translations", statement: "Add successive vectors." }], steps: [{ reasoning: "$(2,1)+(-1,4)=(1,5)$.", marks: 1, markCode: "A" }], finalAnswer: "$(1,5)$" },
+        },
+        {
+          id: "olm-u9-s1-iso-q15", difficulty: "challenge", totalMarks: 2,
+          stem: "Point $(4,-5)$ is reflected in the horizontal line $y=1$. Find the y-coordinate of the image.",
+          response: { type: "numeric", parts: [{ label: "a", answer: 7 }] },
+          markscheme: { principles: [{ kind: "technique", name: "Reflection", statement: "Reflect across $y=1$ using equal perpendicular distances." }], steps: [
+            { reasoning: "Distance from $y=-5$ to $y=1$ is $6$, so the image is $6$ above: $1+6=7$.", marks: 1, markCode: "M" },
+            { reasoning: "Answer: $7$.", marks: 1, markCode: "A" },
+          ], finalAnswer: "7" },
+        },
+        {
+          id: "olm-u9-s1-iso-q16", difficulty: "challenge", totalMarks: 4,
+          stem: "Point $P(4,1)$ is translated by vector $(2,-1)$ and then by vector $(-5,3)$. Find the final position and the equivalent single translation.",
+          response: { type: "open" },
+          markscheme: { principles: [{ kind: "technique", name: "Combined transformations", statement: "Translations add component-wise." }], steps: [
+            { reasoning: "Combined vector: $(2,-1)+(-5,3)=(-3,2)$.", marks: 1, markCode: "M" },
+            { reasoning: "Apply to $P$: $(4-3,1+2)=(1,3)$.", marks: 1, markCode: "M" },
+            { reasoning: "The equivalent single translation is $(-3,2)$.", marks: 1, markCode: "M" },
+            { reasoning: "Final position $(1,3)$.", marks: 1, markCode: "A" },
+          ], finalAnswer: "$(1,3)$; translation $(-3,2)$" },
+        },
       ],
     },
     {
@@ -89,8 +215,11 @@ export const lesson91: Lesson = {
           id: "olm-u9-s1-en-q1", difficulty: "foundation", totalMarks: 1,
           stem: "An enlargement with scale factor 2 from centre (0,0) maps (3,4) to…",
           response: { type: "mcq", choices: [
-            { id: "a", text: "$(6,8)$" }, { id: "b", text: "$(1.5,2)$" }, { id: "c", text: "$(5,6)$" }, { id: "d", text: "$(9,12)$" },
-          ], correctChoiceId: "a" },
+            { id: "a", text: "$(1.5,2)$" },
+            { id: "b", text: "$(5,6)$" },
+            { id: "c", text: "$(6,8)$" },
+            { id: "d", text: "$(9,12)$" },
+          ], correctChoiceId: "c" },
           markscheme: { principles: [{ kind: "technique", name: "Enlargement", statement: "Multiply by k." }], steps: [{ reasoning: "$2\\times(3,4)=(6,8)$.", marks: 1, markCode: "A" }], finalAnswer: "$(6,8)$" },
         },
         {
@@ -122,6 +251,126 @@ export const lesson91: Lesson = {
             { reasoning: "Equivalent single transformation: translation by $(1,0)$.", marks: 1, markCode: "M" },
             { reasoning: "Answer shown.", marks: 1, markCode: "A" },
           ], finalAnswer: "$(2,2)$; translation $(1,0)$" },
+        },
+        {
+          id: "olm-u9-s1-en-q5", difficulty: "foundation", totalMarks: 1,
+          stem: "Point $(2,-1)$ is enlarged by scale factor $3$ with centre $(0,0)$. What is the image?",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "$(2/3,-1/3)$" },
+            { id: "b", text: "$(6,-3)$" },
+            { id: "c", text: "$(8,-4)$" },
+            { id: "d", text: "$(5,2)$" },
+          ], correctChoiceId: "b" },
+          markscheme: { principles: [{ kind: "technique", name: "Enlargement", statement: "Multiply coordinates by the scale factor." }], steps: [{ reasoning: "$3(2,-1)=(6,-3)$.", marks: 1, markCode: "A" }], finalAnswer: "$(6,-3)$" },
+        },
+        {
+          id: "olm-u9-s1-en-q6", difficulty: "foundation", totalMarks: 2,
+          stem: "Point $(8,-6)$ is enlarged by scale factor $1/2$ with centre $(0,0)$. Find the x-coordinate of the image.",
+          response: { type: "numeric", parts: [{ label: "a", answer: 4 }] },
+          markscheme: { principles: [{ kind: "technique", name: "Enlargement", statement: "Halving distances from the centre." }], steps: [
+            { reasoning: "New x-coordinate: $8\\times\\frac12=4$.", marks: 1, markCode: "M" },
+            { reasoning: "Answer: $4$.", marks: 1, markCode: "A" },
+          ], finalAnswer: "4" },
+        },
+        {
+          id: "olm-u9-s1-en-q7", difficulty: "core", totalMarks: 3,
+          stem: "Point $(4,1)$ is enlarged by scale factor $3$ with centre $(2,2)$. Find the image.",
+          response: { type: "open" },
+          markscheme: { principles: [{ kind: "formula", name: "Enlargement", statement: "Image $=(a+k(x-a),b+k(y-b))$." }], steps: [
+            { reasoning: "Offset from centre: $(4-2,1-2)=(2,-1)$.", marks: 1, markCode: "M" },
+            { reasoning: "Scale offset by $3$: $(6,-3)$; add centre: $(2+6,2-3)=(8,-1)$.", marks: 1, markCode: "M" },
+            { reasoning: "Image: $(8,-1)$.", marks: 1, markCode: "A" },
+          ], finalAnswer: "$(8,-1)$" },
+        },
+        {
+          id: "olm-u9-s1-en-q8", difficulty: "core", totalMarks: 2,
+          stem: "Point $(3,5)$ is enlarged by scale factor $-1$ with centre $(1,1)$. Find the x-coordinate of the image.",
+          response: { type: "numeric", parts: [{ label: "a", answer: -1 }] },
+          markscheme: { principles: [{ kind: "technique", name: "Negative enlargement", statement: "Reflect through the centre as well as scaling." }], steps: [
+            { reasoning: "Offset: $(3-1,5-1)=(2,4)$; multiply by $-1$: $(-2,-4)$.", marks: 1, markCode: "M" },
+            { reasoning: "Add centre: $(1-2,1-4)=(-1,-3)$, so x-coordinate is $-1$.", marks: 1, markCode: "A" },
+          ], finalAnswer: "-1" },
+        },
+        {
+          id: "olm-u9-s1-en-q9", difficulty: "challenge", totalMarks: 1,
+          stem: "An enlargement with scale factor $-2$ and centre $(0,0)$ maps $(1,2)$ to…",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "$(1/2,1/4)$" },
+            { id: "b", text: "$(-2,-4)$" },
+            { id: "c", text: "$(2,4)$" },
+            { id: "d", text: "$(-2,4)$" },
+          ], correctChoiceId: "b" },
+          markscheme: { principles: [{ kind: "technique", name: "Negative scale factor", statement: "Multiply by $-2$ reverses direction." }], steps: [{ reasoning: "$-2(1,2)=(-2,-4)$.", marks: 1, markCode: "A" }], finalAnswer: "$(-2,-4)$" },
+        },
+        {
+          id: "olm-u9-s1-en-q10", difficulty: "foundation", totalMarks: 2,
+          stem: "What is the inverse enlargement scale factor for an enlargement with scale factor $4$?",
+          response: { type: "numeric", parts: [{ label: "a", answer: 0.25 }] },
+          markscheme: { principles: [{ kind: "property", name: "Inverse transformation", statement: "Enlargement inverse uses $1/k$." }], steps: [
+            { reasoning: "Inverse scale factor: $1/4$.", marks: 1, markCode: "M" },
+            { reasoning: "As a decimal: $0.25$.", marks: 1, markCode: "A" },
+          ], finalAnswer: "0.25" },
+        },
+        {
+          id: "olm-u9-s1-en-q11", difficulty: "core", totalMarks: 1,
+          stem: "Which point remains fixed under every enlargement with centre $(2,3)$?",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "$(2,3)$" },
+            { id: "b", text: "$(1,1)$" },
+            { id: "c", text: "$(4,6)$" },
+            { id: "d", text: "$(0,0)$" },
+          ], correctChoiceId: "a" },
+          markscheme: { principles: [{ kind: "property", name: "Enlargement centre", statement: "The centre is invariant." }], steps: [{ reasoning: "Only the centre maps to itself.", marks: 1, markCode: "A" }], finalAnswer: "$(2,3)$" },
+        },
+        {
+          id: "olm-u9-s1-en-q12", difficulty: "core", totalMarks: 3,
+          stem: "Point $(5,3)$ is enlarged by scale factor $2$ with centre $(1,1)$ and then translated by vector $(-2,1)$. Find the final position.",
+          response: { type: "open" },
+          markscheme: { principles: [{ kind: "technique", name: "Combined transformations", statement: "Enlarge first, then translate." }], steps: [
+            { reasoning: "Enlargement: $(1+2(5-1),1+2(3-1))=(9,5)$.", marks: 1, markCode: "M" },
+            { reasoning: "Translation: $(9-2,5+1)=(7,6)$.", marks: 1, markCode: "M" },
+            { reasoning: "Final position: $(7,6)$.", marks: 1, markCode: "A" },
+          ], finalAnswer: "$(7,6)$" },
+        },
+        {
+          id: "olm-u9-s1-en-q13", difficulty: "core", totalMarks: 2,
+          stem: "A shape has area $12\\text{ cm}^2$. It is enlarged by scale factor $3$. Find the image area.",
+          response: { type: "numeric", parts: [{ label: "a", answer: 108 }] },
+          markscheme: { principles: [{ kind: "property", name: "Area scale factor", statement: "Area is multiplied by $k^2$." }], steps: [
+            { reasoning: "Area multiplier: $3^2=9$.", marks: 1, markCode: "M" },
+            { reasoning: "Image area: $12\\times9=108\\text{ cm}^2$.", marks: 1, markCode: "A" },
+          ], finalAnswer: "$108\\text{ cm}^2$" },
+        },
+        {
+          id: "olm-u9-s1-en-q14", difficulty: "challenge", totalMarks: 1,
+          stem: "An enlargement with scale factor $-1$ and centre $O$ is equivalent to…",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "Translation by $(1,1)$" },
+            { id: "b", text: "Rotation of $90°$ about $O$" },
+            { id: "c", text: "Reflection in the x-axis" },
+            { id: "d", text: "Rotation of $180°$ about $O$" },
+          ], correctChoiceId: "d" },
+          markscheme: { principles: [{ kind: "property", name: "Equivalent transformations", statement: "Scale factor $-1$ reverses both coordinates." }], steps: [{ reasoning: "$(x,y)\\to(-x,-y)$ is a $180°$ rotation.", marks: 1, markCode: "A" }], finalAnswer: "Rotation of $180°$ about $O$" },
+        },
+        {
+          id: "olm-u9-s1-en-q15", difficulty: "challenge", totalMarks: 2,
+          stem: "Point $(6,2)$ is enlarged by scale factor $1/2$ with centre $(2,2)$. Find the x-coordinate of the image.",
+          response: { type: "numeric", parts: [{ label: "a", answer: 4 }] },
+          markscheme: { principles: [{ kind: "technique", name: "Enlargement", statement: "Move halfway from centre to point." }], steps: [
+            { reasoning: "Offset: $(6-2,2-2)=(4,0)$; half is $(2,0)$.", marks: 1, markCode: "M" },
+            { reasoning: "Add centre: $(2+2,2+0)=(4,2)$, so x-coordinate is $4$.", marks: 1, markCode: "A" },
+          ], finalAnswer: "4" },
+        },
+        {
+          id: "olm-u9-s1-en-q16", difficulty: "challenge", totalMarks: 4,
+          stem: "Point $A(3,-1)$ is enlarged by scale factor $2$ with centre $(0,0)$ and then reflected in the y-axis. Find the final position and verify an equivalent two-step sequence using scale factor $-2$.",
+          response: { type: "open" },
+          markscheme: { principles: [{ kind: "technique", name: "Combined transformations", statement: "Compare order and signs of the scale factor." }], steps: [
+            { reasoning: "Enlargement: $(6,-2)$; reflection in y-axis: $(-6,-2)$.", marks: 1, markCode: "M" },
+            { reasoning: "Equivalent sequence: enlarge by $-2$ gives $(-6,2)$, then reflect in x-axis gives $(-6,-2)$.", marks: 1, markCode: "M" },
+            { reasoning: "Both sequences give the same image.", marks: 1, markCode: "M" },
+            { reasoning: "Final position: $(-6,-2)$.", marks: 1, markCode: "A" },
+          ], finalAnswer: "$(-6,-2)$" },
         },
       ],
     },

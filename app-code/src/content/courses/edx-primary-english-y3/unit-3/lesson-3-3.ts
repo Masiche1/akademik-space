@@ -53,8 +53,8 @@ export const lesson93: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The problem" },
-              { id: "b", text: "The ending" },
+              { id: "a", text: "The ending" },
+              { id: "b", text: "The problem" },
               { id: "c", text: "The beginning" },
               { id: "d", text: "The resolution" },
             ],
@@ -87,12 +87,12 @@ export const lesson93: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The ending" },
-              { id: "b", text: "Character and setting" },
+              { id: "a", text: "Character and setting" },
+              { id: "b", text: "The conclusion" },
               { id: "c", text: "The problem" },
-              { id: "d", text: "The conclusion" },
+              { id: "d", text: "The ending" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -228,15 +228,15 @@ export const lesson93: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "They're the same" },
+              { id: "a", text: "Revising is deleting" },
+              { id: "b", text: "They're the same" },
               {
-                id: "b",
+                id: "c",
                 text: "Editing fixes mistakes; revising improves content",
               },
-              { id: "c", text: "Editing is spelling only" },
-              { id: "d", text: "Revising is deleting" },
+              { id: "d", text: "Editing is spelling only" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -261,12 +261,12 @@ export const lesson93: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Changing 'big' to 'enormous'" },
-              { id: "b", text: "Fixing 'recieve' to 'receive'" },
-              { id: "c", text: "Adding more detail" },
+              { id: "a", text: "Fixing 'recieve' to 'receive'" },
+              { id: "b", text: "Adding more detail" },
+              { id: "c", text: "Changing 'big' to 'enormous'" },
               { id: "d", text: "Changing the ending" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

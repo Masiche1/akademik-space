@@ -58,9 +58,9 @@ export const lesson11: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "kg" },
-              { id: "b", text: "N" },
+              { id: "b", text: "N s" },
               { id: "c", text: "kg m/s" },
-              { id: "d", text: "N s" },
+              { id: "d", text: "N" },
             ],
             correctChoiceId: "c",
           },
@@ -82,12 +82,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "3600 N s" },
-              { id: "b", text: "9000 N s" },
-              { id: "c", text: "18000 N s" },
-              { id: "d", text: "72 000 N s" },
+              { id: "a", text: "18000 N s" },
+              { id: "b", text: "3600 N s" },
+              { id: "c", text: "72 000 N s" },
+              { id: "d", text: "9000 N s" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Impulse", statement: "$J = \\Delta p = m\\Delta v = 1200 \\times 15$" }],
@@ -108,12 +108,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "2 m/s" },
-              { id: "b", text: "1.5 m/s" },
-              { id: "c", text: "3 m/s" },
-              { id: "d", text: "6 m/s" },
+              { id: "a", text: "6 m/s" },
+              { id: "b", text: "2 m/s" },
+              { id: "c", text: "1.5 m/s" },
+              { id: "d", text: "3 m/s" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Conservation", statement: "$2 \\times 3 = (2+1)v$" }],
@@ -168,12 +168,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "N s" },
-              { id: "b", text: "kg m/s" },
-              { id: "c", text: "J/s" },
+              { id: "a", text: "kg m/s" },
+              { id: "b", text: "J/s" },
+              { id: "c", text: "N s" },
               { id: "d", text: "Pa" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Impulse", statement: "$J = F\\Delta t = \\Delta p$; unit newton-second (N s)." }],
@@ -213,11 +213,11 @@ export const lesson11: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "800 N s" },
-              { id: "b", text: "8 000 N s" },
+              { id: "b", text: "80 N s" },
               { id: "c", text: "80 000 N s" },
-              { id: "d", text: "80 N s" },
+              { id: "d", text: "8 000 N s" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Impulse", statement: "$J = \\Delta p = mv = 800 \\times 10$" }],
@@ -258,12 +258,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "1.5 m/s" },
-              { id: "b", text: "2.0 m/s" },
-              { id: "c", text: "0.75 m/s" },
+              { id: "a", text: "2.0 m/s" },
+              { id: "b", text: "0.75 m/s" },
+              { id: "c", text: "1.5 m/s" },
               { id: "d", text: "6.0 m/s" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Conservation", statement: "$3 \\times 2 = (3+1)v$" }],
@@ -365,12 +365,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "When kinetic energy is conserved" },
-              { id: "b", text: "When no external force acts on the system" },
-              { id: "c", text: "When the objects are equal mass" },
+              { id: "a", text: "When the objects are equal mass" },
+              { id: "b", text: "When kinetic energy is conserved" },
+              { id: "c", text: "When no external force acts on the system" },
               { id: "d", text: "When the collision is perfectly inelastic" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Conservation", statement: "Momentum is conserved when the net external force on the system is zero." }],
@@ -390,12 +390,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The same" },
-              { id: "b", text: "Larger, because momentum changes from +5 to −4 m/s" },
-              { id: "c", text: "Smaller, because the ball returns more slowly" },
+              { id: "a", text: "Larger, because momentum changes from +5 to −4 m/s" },
+              { id: "b", text: "Smaller, because the ball returns more slowly" },
+              { id: "c", text: "The same" },
               { id: "d", text: "Zero, because the ball ends up moving" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Impulse", statement: "$J = \\Delta p = m(v - u)$ with sign." }],
@@ -514,12 +514,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Perfectly inelastic" },
-              { id: "b", text: "Elastic" },
-              { id: "c", text: "Inelastic" },
-              { id: "d", text: "Explosive" },
+              { id: "a", text: "Inelastic" },
+              { id: "b", text: "Explosive" },
+              { id: "c", text: "Elastic" },
+              { id: "d", text: "Perfectly inelastic" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Elastic collision", statement: "Both momentum and kinetic energy conserved." }],
@@ -539,12 +539,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It stops and the other moves at 3 m/s" },
-              { id: "b", text: "Both move at 1.5 m/s" },
-              { id: "c", text: "It continues at 3 m/s" },
-              { id: "d", text: "Both stop" },
+              { id: "a", text: "Both stop" },
+              { id: "b", text: "It stops and the other moves at 3 m/s" },
+              { id: "c", text: "Both move at 1.5 m/s" },
+              { id: "d", text: "It continues at 3 m/s" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Equal-mass elastic", statement: "Equal masses exchange velocities in 1-D elastic collision." }],
@@ -565,12 +565,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "0.5 m/s" },
-              { id: "b", text: "1.0 m/s" },
+              { id: "a", text: "1.0 m/s" },
+              { id: "b", text: "0.5 m/s" },
               { id: "c", text: "1.5 m/s" },
               { id: "d", text: "2.0 m/s" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Perfectly inelastic", statement: "$4 \\times 1.5 = 6v$" }],
@@ -625,12 +625,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It is fully conserved" },
-              { id: "b", text: "It is reduced to the maximum possible while momentum is still conserved" },
+              { id: "a", text: "It is reduced to the maximum possible while momentum is still conserved" },
+              { id: "b", text: "It is fully conserved" },
               { id: "c", text: "It increases" },
               { id: "d", text: "It becomes gravitational PE" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Perfectly inelastic", statement: "Objects stick; maximum KE loss compatible with momentum conservation." }],
@@ -669,12 +669,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "3 m/s" },
-              { id: "b", text: "1 m/s" },
+              { id: "a", text: "1 m/s" },
+              { id: "b", text: "4 m/s" },
               { id: "c", text: "0.25 m/s" },
-              { id: "d", text: "4 m/s" },
+              { id: "d", text: "3 m/s" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Perfectly inelastic", statement: "$1 \\times 4 = (1+3)v$" }],
@@ -715,12 +715,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "6.25 J" },
-              { id: "b", text: "12.5 J" },
-              { id: "c", text: "25 J" },
-              { id: "d", text: "50 J" },
+              { id: "a", text: "25 J" },
+              { id: "b", text: "50 J" },
+              { id: "c", text: "6.25 J" },
+              { id: "d", text: "12.5 J" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "KE comparison", statement: "$KE_{before} = 25$ J; $KE_{after} = 12.5$ J" }],
@@ -829,10 +829,10 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Kinetic energy" },
+              { id: "a", text: "Direction of motion" },
               { id: "b", text: "Momentum" },
               { id: "c", text: "Speed" },
-              { id: "d", text: "Direction of motion" },
+              { id: "d", text: "Kinetic energy" },
             ],
             correctChoiceId: "b",
           },
@@ -854,12 +854,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Both move at 3 m/s" },
-              { id: "b", text: "A stops; B moves at 6 m/s" },
-              { id: "c", text: "Both move at 6 m/s" },
+              { id: "a", text: "Both move at 6 m/s" },
+              { id: "b", text: "Both move at 3 m/s" },
+              { id: "c", text: "A stops; B moves at 6 m/s" },
               { id: "d", text: "A rebounds at 6 m/s; B stays at rest" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Equal masses", statement: "In 1-D elastic collision of equal masses, velocities are exchanged." }],

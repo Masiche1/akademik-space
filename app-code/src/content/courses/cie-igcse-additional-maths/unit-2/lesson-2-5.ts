@@ -33,8 +33,11 @@ export const lesson25: Lesson = {
           id: "ciam-u2-s5-ex-q1", difficulty: "foundation", totalMarks: 1,
           stem: "$2^5$ equals…",
           response: { type: "mcq", choices: [
-            { id: "a", text: "32" }, { id: "b", text: "10" }, { id: "c", text: "25" }, { id: "d", text: "64" },
-          ], correctChoiceId: "a" },
+            { id: "a", text: "10" },
+            { id: "b", text: "32" },
+            { id: "c", text: "64" },
+            { id: "d", text: "25" },
+          ], correctChoiceId: "b" },
           markscheme: { principles: [{ kind: "property", name: "Exponent", statement: "Repeated multiplication." }], steps: [{ reasoning: "$2^5=2\\times2\\times2\\times2\\times2=32$.", marks: 1, markCode: "A" }], finalAnswer: "32" },
         },
         {
@@ -67,6 +70,126 @@ export const lesson25: Lesson = {
             { reasoning: "Answer: approximately 5040.", marks: 1, markCode: "A" },
           ], finalAnswer: "$\\approx5040$" },
         },
+        {
+          id: "ciam-u2-s5-ex-q5", difficulty: "foundation", totalMarks: 1,
+          stem: "$3^4$ equals…",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "12" },
+            { id: "b", text: "27" },
+            { id: "c", text: "81" },
+            { id: "d", text: "64" },
+          ], correctChoiceId: "c" },
+          markscheme: { principles: [{ kind: "property", name: "Exponent", statement: "Repeated multiplication." }], steps: [{ reasoning: "$3^4=81$.", marks: 1, markCode: "A" }], finalAnswer: "81" },
+        },
+        {
+          id: "ciam-u2-s5-ex-q6", difficulty: "foundation", totalMarks: 2,
+          stem: "Solve $4^x=64$.",
+          response: { type: "numeric", parts: [{ label: "a", answer: 3 }] },
+          markscheme: { principles: [{ kind: "technique", name: "Exponential equation", statement: "Match powers or use logs." }], steps: [
+            { reasoning: "$64=4^3$ → $x=3$.", marks: 1, markCode: "M" },
+            { reasoning: "Answer: 3.", marks: 1, markCode: "A" },
+          ], finalAnswer: "$x=3$" },
+        },
+        {
+          id: "ciam-u2-s5-ex-q7", difficulty: "foundation", totalMarks: 2,
+          stem: "Solve $5^x=125$.",
+          response: { type: "open" },
+          markscheme: { principles: [{ kind: "technique", name: "Exponential equation", statement: "Match powers." }], steps: [
+            { reasoning: "$125=5^3$ → $x=3$.", marks: 1, markCode: "M" },
+            { reasoning: "Answer shown.", marks: 1, markCode: "A" },
+          ], finalAnswer: "$x=3$" },
+        },
+        {
+          id: "ciam-u2-s5-ex-q8", difficulty: "core", totalMarks: 1,
+          stem: "$2^x=32$ gives $x=$…",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "5" },
+            { id: "b", text: "6" },
+            { id: "c", text: "10" },
+            { id: "d", text: "16" },
+          ], correctChoiceId: "a" },
+          markscheme: { principles: [{ kind: "technique", name: "Exponential equation", statement: "Match powers." }], steps: [{ reasoning: "$32=2^5$ → $x=5$.", marks: 1, markCode: "A" }], finalAnswer: "5" },
+        },
+        {
+          id: "ciam-u2-s5-ex-q9", difficulty: "core", totalMarks: 2,
+          stem: "Solve $10^x=1000$.",
+          response: { type: "numeric", parts: [{ label: "a", answer: 3 }] },
+          markscheme: { principles: [{ kind: "technique", name: "Exponential equation", statement: "Match powers." }], steps: [
+            { reasoning: "$1000=10^3$ → $x=3$.", marks: 1, markCode: "M" },
+            { reasoning: "Answer: 3.", marks: 1, markCode: "A" },
+          ], finalAnswer: "3" },
+        },
+        {
+          id: "ciam-u2-s5-ex-q10", difficulty: "core", totalMarks: 3,
+          stem: "Solve $2^x=20$, giving $x$ to 3 s.f.",
+          response: { type: "open" },
+          markscheme: { principles: [{ kind: "technique", name: "Logarithmic solution", statement: "Take logs." }], steps: [
+            { reasoning: "$x=\\frac{\\ln20}{\\ln2}=\\frac{2.9957}{0.6931}\\approx4.32$.", marks: 1, markCode: "M" },
+            { reasoning: "Answer: $x\\approx4.32$.", marks: 1, markCode: "M" },
+            { reasoning: "Check: $2^{4.32}\\approx20$ ✓.", marks: 1, markCode: "A" },
+          ], finalAnswer: "$x\\approx4.32$" },
+        },
+        {
+          id: "ciam-u2-s5-ex-q11", difficulty: "challenge", totalMarks: 1,
+          stem: "$3^x=\\frac19$ gives $x=$…",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "$-2$" },
+            { id: "b", text: "$-\\frac13$" },
+            { id: "c", text: "2" },
+            { id: "d", text: "$\\frac13$" },
+          ], correctChoiceId: "a" },
+          markscheme: { principles: [{ kind: "technique", name: "Negative exponent", statement: "$a^{-n}=\\frac{1}{a^n}$." }], steps: [{ reasoning: "$\\frac19=3^{-2}$ → $x=-2$.", marks: 1, markCode: "A" }], finalAnswer: "$-2$" },
+        },
+        {
+          id: "ciam-u2-s5-ex-q12", difficulty: "challenge", totalMarks: 2,
+          stem: "A population triples every 4 hours. Starting from 200, find the population after 8 hours.",
+          response: { type: "numeric", parts: [{ label: "a", answer: 1800 }] },
+          markscheme: { principles: [{ kind: "technique", name: "Exponential model", statement: "$P=P_0\\cdot3^{t/4}$." }], steps: [
+            { reasoning: "$P=200\\times3^{8/4}=200\\times3^2=200\\times9$.", marks: 1, markCode: "M" },
+            { reasoning: "$=1800$.", marks: 1, markCode: "A" },
+          ], finalAnswer: "1800" },
+        },
+        {
+          id: "ciam-u2-s5-ex-q13", difficulty: "core", totalMarks: 3,
+          stem: "Solve $2^{x+1}=32$.",
+          response: { type: "open" },
+          markscheme: { principles: [{ kind: "technique", name: "Exponential equation", statement: "Match powers." }], steps: [
+            { reasoning: "$32=2^5$ → $x+1=5$.", marks: 1, markCode: "M" },
+            { reasoning: "$x=4$.", marks: 1, markCode: "M" },
+            { reasoning: "Answer shown.", marks: 1, markCode: "A" },
+          ], finalAnswer: "$x=4$" },
+        },
+        {
+          id: "ciam-u2-s5-ex-q14", difficulty: "challenge", totalMarks: 1,
+          stem: "A quantity halves every 5 hours. What fraction remains after 15 hours?",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "$\\frac14$" },
+            { id: "b", text: "$\\frac15$" },
+            { id: "c", text: "$\\frac1{15}$" },
+            { id: "d", text: "$\\frac18$" },
+          ], correctChoiceId: "d" },
+          markscheme: { principles: [{ kind: "property", name: "Exponential decay", statement: "Multiply by $\\frac12$ each period." }], steps: [{ reasoning: "Three half-lives: $\\left(\\frac12\\right)^3=\\frac18$.", marks: 1, markCode: "A" }], finalAnswer: "$\\frac18$" },
+        },
+        {
+          id: "ciam-u2-s5-ex-q15", difficulty: "core", totalMarks: 2,
+          stem: "Solve $5^{2x}=125$.",
+          response: { type: "numeric", parts: [{ label: "a", answer: 1.5 }] },
+          markscheme: { principles: [{ kind: "technique", name: "Exponential equation", statement: "Match powers." }], steps: [
+            { reasoning: "$125=5^3$ → $2x=3$.", marks: 1, markCode: "M" },
+            { reasoning: "$x=1.5$.", marks: 1, markCode: "A" },
+          ], finalAnswer: "$x=1.5$" },
+        },
+        {
+          id: "ciam-u2-s5-ex-q16", difficulty: "challenge", totalMarks: 1,
+          stem: "The graph of $y=\\left(\\frac12\\right)^x$ shows…",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "Oscillation" },
+            { id: "b", text: "Growth without bound" },
+            { id: "c", text: "A straight line" },
+            { id: "d", text: "Decay towards 0" },
+          ], correctChoiceId: "d" },
+          markscheme: { principles: [{ kind: "property", name: "Growth/decay", statement: "$0<a<1$ decays." }], steps: [{ reasoning: "Base $\\frac12<1$, so values decrease towards 0.", marks: 1, markCode: "A" }], finalAnswer: "Decay" },
+        },
       ],
     },
     {
@@ -90,8 +213,11 @@ export const lesson25: Lesson = {
           id: "ciam-u2-s5-lo-q1", difficulty: "foundation", totalMarks: 1,
           stem: "$\\log_3 9$ equals…",
           response: { type: "mcq", choices: [
-            { id: "a", text: "2" }, { id: "b", text: "3" }, { id: "c", text: "$\\frac13$" }, { id: "d", text: "27" },
-          ], correctChoiceId: "a" },
+            { id: "a", text: "3" },
+            { id: "b", text: "2" },
+            { id: "c", text: "$\\frac13$" },
+            { id: "d", text: "27" },
+          ], correctChoiceId: "b" },
           markscheme: { principles: [{ kind: "property", name: "Log definition", statement: "$a^y=x$." }], steps: [{ reasoning: "$3^2=9$ → $\\log_3 9=2$.", marks: 1, markCode: "A" }], finalAnswer: "2" },
         },
         {
@@ -123,6 +249,128 @@ export const lesson25: Lesson = {
             { reasoning: "Check $x=2$: $\\log_2 2+\\log_2 8=1+3=4$. ✓", marks: 1, markCode: "M" },
             { reasoning: "Answer: $x=2$.", marks: 1, markCode: "A" },
           ], finalAnswer: "$x=2$" },
+        },
+        {
+          id: "ciam-u2-s5-lo-q5", difficulty: "foundation", totalMarks: 1,
+          stem: "$\\log_2 8$ equals…",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "3" },
+            { id: "b", text: "8" },
+            { id: "c", text: "2" },
+            { id: "d", text: "4" },
+          ], correctChoiceId: "a" },
+          markscheme: { principles: [{ kind: "property", name: "Log definition", statement: "$a^y=x$." }], steps: [{ reasoning: "$2^3=8$ → $\\log_2 8=3$.", marks: 1, markCode: "A" }], finalAnswer: "3" },
+        },
+        {
+          id: "ciam-u2-s5-lo-q6", difficulty: "foundation", totalMarks: 2,
+          stem: "Evaluate $\\log_{10} 1000$.",
+          response: { type: "numeric", parts: [{ label: "a", answer: 3 }] },
+          markscheme: { principles: [{ kind: "property", name: "Log evaluation", statement: "Recognise power." }], steps: [
+            { reasoning: "$10^3=1000$ → $\\log_{10}1000=3$.", marks: 1, markCode: "M" },
+            { reasoning: "Answer: 3.", marks: 1, markCode: "A" },
+          ], finalAnswer: "3" },
+        },
+        {
+          id: "ciam-u2-s5-lo-q7", difficulty: "foundation", totalMarks: 3,
+          stem: "Simplify $\\log_3 54-\\log_3 2$.",
+          response: { type: "open" },
+          markscheme: { principles: [{ kind: "technique", name: "Log laws", statement: "Condense." }], steps: [
+            { reasoning: "$\\log_3 54-\\log_3 2=\\log_3\\frac{54}{2}=\\log_3 27$.", marks: 1, markCode: "M" },
+            { reasoning: "$\\log_3 27=3$ since $3^3=27$.", marks: 1, markCode: "M" },
+            { reasoning: "Answer: 3.", marks: 1, markCode: "A" },
+          ], finalAnswer: "3" },
+        },
+        {
+          id: "ciam-u2-s5-lo-q8", difficulty: "core", totalMarks: 1,
+          stem: "$\\log_a a$ equals…",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "$\\frac1a$" },
+            { id: "b", text: "0" },
+            { id: "c", text: "1" },
+            { id: "d", text: "$a$" },
+          ], correctChoiceId: "c" },
+          markscheme: { principles: [{ kind: "property", name: "Log definition", statement: "$a^1=a$." }], steps: [{ reasoning: "$a^1=a$ → $\\log_a a=1$.", marks: 1, markCode: "A" }], finalAnswer: "1" },
+        },
+        {
+          id: "ciam-u2-s5-lo-q9", difficulty: "core", totalMarks: 2,
+          stem: "Evaluate $\\log_4 64$.",
+          response: { type: "numeric", parts: [{ label: "a", answer: 3 }] },
+          markscheme: { principles: [{ kind: "property", name: "Log evaluation", statement: "Recognise power." }], steps: [
+            { reasoning: "$4^3=64$ → $\\log_4 64=3$.", marks: 1, markCode: "M" },
+            { reasoning: "Answer: 3.", marks: 1, markCode: "A" },
+          ], finalAnswer: "3" },
+        },
+        {
+          id: "ciam-u2-s5-lo-q10", difficulty: "core", totalMarks: 4,
+          stem: "Solve $\\log x+\\log(x+3)=1$ (base 10).",
+          response: { type: "open" },
+          markscheme: { principles: [{ kind: "technique", name: "Log equation", statement: "Combine and exponentiate." }], steps: [
+            { reasoning: "$\\log[x(x+3)]=1$ → $x(x+3)=10$ → $x^2+3x-10=0$ → $(x+5)(x-2)=0$.", marks: 1, markCode: "M" },
+            { reasoning: "$x=2$ or $x=-5$; reject $-5$ since arguments must be positive.", marks: 1, markCode: "M" },
+            { reasoning: "Check $x=2$: $\\log2+\\log5=\\log10=1$ ✓.", marks: 1, markCode: "M" },
+            { reasoning: "Answer: $x=2$.", marks: 1, markCode: "A" },
+          ], finalAnswer: "$x=2$" },
+        },
+        {
+          id: "ciam-u2-s5-lo-q11", difficulty: "challenge", totalMarks: 1,
+          stem: "$\\log_2 x=5$ gives $x=$…",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "25" },
+            { id: "b", text: "32" },
+            { id: "c", text: "10" },
+            { id: "d", text: "5" },
+          ], correctChoiceId: "b" },
+          markscheme: { principles: [{ kind: "technique", name: "Log to exponential", statement: "$x=a^y$." }], steps: [{ reasoning: "$x=2^5=32$.", marks: 1, markCode: "A" }], finalAnswer: "32" },
+        },
+        {
+          id: "ciam-u2-s5-lo-q12", difficulty: "challenge", totalMarks: 2,
+          stem: "Solve $\\log_3 x=4$.",
+          response: { type: "numeric", parts: [{ label: "a", answer: 81 }] },
+          markscheme: { principles: [{ kind: "technique", name: "Log to exponential", statement: "$x=a^y$." }], steps: [
+            { reasoning: "$x=3^4=81$.", marks: 1, markCode: "M" },
+            { reasoning: "Answer: 81.", marks: 1, markCode: "A" },
+          ], finalAnswer: "81" },
+        },
+        {
+          id: "ciam-u2-s5-lo-q13", difficulty: "core", totalMarks: 3,
+          stem: "Expand $\\log_2(8x^3)$ for $x>0$.",
+          response: { type: "open" },
+          markscheme: { principles: [{ kind: "technique", name: "Log laws", statement: "Product and power laws." }], steps: [
+            { reasoning: "$\\log_2 8+\\log_2 x^3$.", marks: 1, markCode: "M" },
+            { reasoning: "$=3+3\\log_2 x$.", marks: 1, markCode: "M" },
+            { reasoning: "Answer shown.", marks: 1, markCode: "A" },
+          ], finalAnswer: "$3+3\\log_2 x$" },
+        },
+        {
+          id: "ciam-u2-s5-lo-q14", difficulty: "challenge", totalMarks: 1,
+          stem: "$\\log_b\\frac1b$ equals…",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "1" },
+            { id: "b", text: "$-1$" },
+            { id: "c", text: "$\\frac1b$" },
+            { id: "d", text: "0" },
+          ], correctChoiceId: "b" },
+          markscheme: { principles: [{ kind: "property", name: "Log definition", statement: "$b^{-1}=\\frac1b$." }], steps: [{ reasoning: "$b^{-1}=\\frac1b$ → $\\log_b\\frac1b=-1$.", marks: 1, markCode: "A" }], finalAnswer: "$-1$" },
+        },
+        {
+          id: "ciam-u2-s5-lo-q15", difficulty: "core", totalMarks: 2,
+          stem: "Evaluate $\\ln e^2$.",
+          response: { type: "numeric", parts: [{ label: "a", answer: 2 }] },
+          markscheme: { principles: [{ kind: "property", name: "Natural log", statement: "$\\ln e^x=x$." }], steps: [
+            { reasoning: "$\\ln e^2=2$.", marks: 1, markCode: "M" },
+            { reasoning: "Answer: 2.", marks: 1, markCode: "A" },
+          ], finalAnswer: "2" },
+        },
+        {
+          id: "ciam-u2-s5-lo-q16", difficulty: "challenge", totalMarks: 1,
+          stem: "Which statement is a correct logarithm law for $x,y>0$?",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "$\\log(xy)=\\log x-\\log y$" },
+            { id: "b", text: "$\\log x^2=(\\log x)^2$" },
+            { id: "c", text: "$\\log(x+y)=\\log x+\\log y$" },
+            { id: "d", text: "$\\log(xy)=\\log x+\\log y$" },
+          ], correctChoiceId: "d" },
+          markscheme: { principles: [{ kind: "law", name: "Product law", statement: "$\\log(ab)=\\log a+\\log b$." }], steps: [{ reasoning: "Product law applies to multiplication only.", marks: 1, markCode: "A" }], finalAnswer: "$\\log(xy)=\\log x+\\log y$" },
         },
       ],
     },

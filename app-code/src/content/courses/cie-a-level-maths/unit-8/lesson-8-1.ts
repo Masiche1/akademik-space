@@ -83,8 +83,8 @@ export const lesson81: Lesson = {
             choices: [
               { id: "a", text: "$5x^4$" },
               { id: "b", text: "$x^4$" },
-              { id: "c", text: "$5x^6$" },
-              { id: "d", text: "$\\frac{1}{5}x^4$" },
+              { id: "c", text: "$\\frac{1}{5}x^4$" },
+              { id: "d", text: "$5x^6$" },
             ],
             correctChoiceId: "a",
           },
@@ -267,12 +267,12 @@ export const lesson81: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$-3x^{-4}$" },
+              { id: "a", text: "$3x^{-4}$" },
               { id: "b", text: "$-3x^{-2}$" },
-              { id: "c", text: "$3x^{-4}$" },
-              { id: "d", text: "$-\\frac{1}{3}x^{-4}$" },
+              { id: "c", text: "$-\\frac{1}{3}x^{-4}$" },
+              { id: "d", text: "$-3x^{-4}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -301,12 +301,12 @@ export const lesson81: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$15(5x-2)^2$" },
+              { id: "a", text: "$5(5x-2)^2$" },
               { id: "b", text: "$3(5x-2)^2$" },
-              { id: "c", text: "$5(5x-2)^2$" },
-              { id: "d", text: "$15(5x-2)^3$" },
+              { id: "c", text: "$15(5x-2)^3$" },
+              { id: "d", text: "$15(5x-2)^2$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -335,12 +335,12 @@ export const lesson81: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$-\\frac{2x}{(x^2+4)^2}$" },
+              { id: "a", text: "$-\\frac{2x}{x^2+4}$" },
               { id: "b", text: "$\\frac{2x}{(x^2+4)^2}$" },
-              { id: "c", text: "$-\\frac{x}{(x^2+4)^2}$" },
-              { id: "d", text: "$-\\frac{2x}{x^2+4}$" },
+              { id: "c", text: "$-\\frac{2x}{(x^2+4)^2}$" },
+              { id: "d", text: "$-\\frac{x}{(x^2+4)^2}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -371,9 +371,9 @@ export const lesson81: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$12x^2 - 6$" },
-              { id: "b", text: "$12x^2 + 6$" },
+              { id: "b", text: "$12x^3 - 6$" },
               { id: "c", text: "$4x^2 - 6$" },
-              { id: "d", text: "$12x^3 - 6$" },
+              { id: "d", text: "$12x^2 + 6$" },
             ],
             correctChoiceId: "a",
           },
@@ -404,12 +404,12 @@ export const lesson81: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$9x^2 + 2x$" },
-              { id: "b", text: "$3x^2 + 2x$" },
-              { id: "c", text: "$9x^2 - 2x$" },
-              { id: "d", text: "$6x^2 + 6x$" },
+              { id: "a", text: "$3x^2 + 2x$" },
+              { id: "b", text: "$9x^2 + 2x$" },
+              { id: "c", text: "$6x^2 + 6x$" },
+              { id: "d", text: "$9x^2 - 2x$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -775,8 +775,8 @@ export const lesson81: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$0$" },
-              { id: "b", text: "$1$" },
-              { id: "c", text: "Undefined" },
+              { id: "b", text: "Undefined" },
+              { id: "c", text: "$1$" },
               { id: "d", text: "Maximum" },
             ],
             correctChoiceId: "a",
@@ -978,12 +978,12 @@ export const lesson81: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Positive" },
-              { id: "b", text: "Negative" },
+              { id: "a", text: "Negative" },
+              { id: "b", text: "Positive" },
               { id: "c", text: "Zero" },
               { id: "d", text: "Undefined" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1013,9 +1013,9 @@ export const lesson81: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Tangent" },
-              { id: "b", text: "$x$-axis" },
+              { id: "b", text: "Asymptote" },
               { id: "c", text: "$y$-axis" },
-              { id: "d", text: "Asymptote" },
+              { id: "d", text: "$x$-axis" },
             ],
             correctChoiceId: "a",
           },
@@ -1046,12 +1046,12 @@ export const lesson81: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$(2, -4)$" },
-              { id: "b", text: "$(4, 0)$" },
+              { id: "a", text: "$(4, 0)$" },
+              { id: "b", text: "$(2, -4)$" },
               { id: "c", text: "$(-2, 12)$" },
               { id: "d", text: "$(2, 0)$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1080,12 +1080,12 @@ export const lesson81: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Maximum" },
-              { id: "b", text: "Minimum" },
+              { id: "a", text: "Minimum" },
+              { id: "b", text: "Stationary point only" },
               { id: "c", text: "Point of inflexion" },
-              { id: "d", text: "Stationary point only" },
+              { id: "d", text: "Maximum" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1116,8 +1116,8 @@ export const lesson81: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$12$" },
-              { id: "b", text: "$6$" },
-              { id: "c", text: "$4$" },
+              { id: "b", text: "$4$" },
+              { id: "c", text: "$6$" },
               { id: "d", text: "$36$" },
             ],
             correctChoiceId: "a",

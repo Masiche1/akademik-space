@@ -52,12 +52,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The main headline of the article" },
-              { id: "b", text: "The name of the article's author" },
+              { id: "a", text: "The publication date" },
+              { id: "b", text: "The main headline of the article" },
               { id: "c", text: "The first paragraph" },
-              { id: "d", text: "The publication date" },
+              { id: "d", text: "The name of the article's author" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -152,12 +152,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The publication date" },
-              { id: "b", text: "The name of the journalist or author" },
-              { id: "c", text: "The main argument" },
-              { id: "d", text: "The section where it appears" },
+              { id: "a", text: "The name of the journalist or author" },
+              { id: "b", text: "The main argument" },
+              { id: "c", text: "The section where it appears" },
+              { id: "d", text: "The publication date" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -179,12 +179,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "To list every source used" },
-              { id: "b", text: "To introduce the topic and present the main news or idea" },
-              { id: "c", text: "To repeat the headline word for word" },
-              { id: "d", text: "To give the author's personal opinion only" },
+              { id: "a", text: "To repeat the headline word for word" },
+              { id: "b", text: "To give the author's personal opinion only" },
+              { id: "c", text: "To list every source used" },
+              { id: "d", text: "To introduce the topic and present the main news or idea" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -206,9 +206,9 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Hey there!" },
+              { id: "a", text: "Yo," },
               { id: "b", text: "Dear Sir or Madam," },
-              { id: "c", text: "Yo," },
+              { id: "c", text: "Hey there!" },
               { id: "d", text: "What's up?" },
             ],
             correctChoiceId: "b",
@@ -233,12 +233,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Cheers!" },
-              { id: "b", text: "Yours faithfully" },
+              { id: "a", text: "Yours faithfully" },
+              { id: "b", text: "Later!" },
               { id: "c", text: "TTYL" },
-              { id: "d", text: "Later!" },
+              { id: "d", text: "Cheers!" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -261,12 +261,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Translate every line before answering" },
-              { id: "b", text: "Read the Subject, then the greeting, then scan the body for the request or information" },
-              { id: "c", text: "Start at the sign-off and work backwards" },
-              { id: "d", text: "Read only the longest paragraph" },
+              { id: "a", text: "Read only the longest paragraph" },
+              { id: "b", text: "Start at the sign-off and work backwards" },
+              { id: "c", text: "Read the Subject, then the greeting, then scan the body for the request or information" },
+              { id: "d", text: "Translate every line before answering" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -289,12 +289,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Replacing the byline with a Subject, To/From fields and a sign-off" },
-              { id: "b", text: "Adding more descriptive paragraphs" },
-              { id: "c", text: "Using a more exciting headline" },
+              { id: "a", text: "Adding more descriptive paragraphs" },
+              { id: "b", text: "Using a more exciting headline" },
+              { id: "c", text: "Replacing the byline with a Subject, To/From fields and a sign-off" },
               { id: "d", text: "Including a quotation from a witness" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -375,11 +375,11 @@ export const lesson12: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Cheers!" },
-              { id: "b", text: "Yours sincerely" },
-              { id: "c", text: "TTYL" },
-              { id: "d", text: "Catch you later!" },
+              { id: "b", text: "Catch you later!" },
+              { id: "c", text: "Yours sincerely" },
+              { id: "d", text: "TTYL" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -513,8 +513,8 @@ export const lesson12: Lesson = {
             choices: [
               { id: "a", text: "Numbered section headings" },
               { id: "b", text: "Abbreviations and omitted words" },
-              { id: "c", text: "A formal sign-off" },
-              { id: "d", text: "Data tables" },
+              { id: "c", text: "Data tables" },
+              { id: "d", text: "A formal sign-off" },
             ],
             correctChoiceId: "b",
           },
@@ -611,12 +611,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "To make the message faster to write and read between known people" },
-              { id: "b", text: "To show the sender does not know grammar" },
+              { id: "a", text: "To show the sender does not know grammar" },
+              { id: "b", text: "To make the message faster to write and read between known people" },
               { id: "c", text: "To make the message suitable for a formal report" },
               { id: "d", text: "To replace the need for any context" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -638,12 +638,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Tell a personal story" },
-              { id: "b", text: "State the report's purpose, scope and context" },
+              { id: "a", text: "Use slang to engage readers" },
+              { id: "b", text: "Tell a personal story" },
               { id: "c", text: "List every recommendation immediately" },
-              { id: "d", text: "Use slang to engage readers" },
+              { id: "d", text: "State the report's purpose, scope and context" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -667,8 +667,8 @@ export const lesson12: Lesson = {
             choices: [
               { id: "a", text: "Experts need more background; general readers need clearer explanations" },
               { id: "b", text: "All audiences need identical detail" },
-              { id: "c", text: "Friends need more data than managers" },
-              { id: "d", text: "Audience has no effect on reports" },
+              { id: "c", text: "Audience has no effect on reports" },
+              { id: "d", text: "Friends need more data than managers" },
             ],
             correctChoiceId: "a",
           },
@@ -693,11 +693,11 @@ export const lesson12: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "'u coming tonight? bring snacks lol'" },
-              { id: "b", text: "A titled text with an introduction, headed findings and recommendations" },
-              { id: "c", text: "'see u at 6, dont be late!!'" },
-              { id: "d", text: "'hey, can u send the file?'" },
+              { id: "b", text: "'see u at 6, dont be late!!'" },
+              { id: "c", text: "'hey, can u send the file?'" },
+              { id: "d", text: "A titled text with an introduction, headed findings and recommendations" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -720,12 +720,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It is too formal and impersonal for a friendly relationship" },
+              { id: "a", text: "Messages cannot contain polite words" },
               { id: "b", text: "Friends never apologise" },
-              { id: "c", text: "Messages cannot contain polite words" },
-              { id: "d", text: "It is grammatically incorrect in notices" },
+              { id: "c", text: "It is grammatically incorrect in notices" },
+              { id: "d", text: "It is too formal and impersonal for a friendly relationship" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -748,12 +748,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "To entertain the reader" },
-              { id: "b", text: "To turn findings into suggested actions" },
-              { id: "c", text: "To repeat the introduction" },
-              { id: "d", text: "To hide missing information" },
+              { id: "a", text: "To turn findings into suggested actions" },
+              { id: "b", text: "To repeat the introduction" },
+              { id: "c", text: "To hide missing information" },
+              { id: "d", text: "To entertain the reader" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -833,12 +833,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A casual text message" },
-              { id: "b", text: "A structured report" },
-              { id: "c", text: "A social media post" },
-              { id: "d", text: "A personal diary entry" },
+              { id: "a", text: "A personal diary entry" },
+              { id: "b", text: "A social media post" },
+              { id: "c", text: "A structured report" },
+              { id: "d", text: "A casual text message" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

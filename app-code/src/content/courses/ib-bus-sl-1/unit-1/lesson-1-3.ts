@@ -93,11 +93,11 @@ export const lesson13: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Avoiding all risk" },
-              { id: "b", text: "Waiting for others to act first" },
-              { id: "c", text: "Taking calculated risks to start ventures" },
+              { id: "b", text: "Taking calculated risks to start ventures" },
+              { id: "c", text: "Waiting for others to act first" },
               { id: "d", text: "Preferring guaranteed salaries" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -318,15 +318,15 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Manages an existing business for a salary" },
-              { id: "b", text: "Lends money to businesses" },
+              { id: "a", text: "Works only for a government agency" },
               {
-                id: "c",
+                id: "b",
                 text: "Identifies opportunities, takes risks and organises resources to create a venture",
               },
-              { id: "d", text: "Works only for a government agency" },
+              { id: "c", text: "Lends money to businesses" },
+              { id: "d", text: "Manages an existing business for a salary" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -366,15 +366,15 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Train people to be accountants" },
+              { id: "a", text: "Guarantee business success" },
+              { id: "b", text: "Replace university degrees" },
               {
-                id: "b",
+                id: "c",
                 text: "Develop enterprise skills and awareness of business opportunities",
               },
-              { id: "c", text: "Replace university degrees" },
-              { id: "d", text: "Guarantee business success" },
+              { id: "d", text: "Train people to be accountants" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -414,15 +414,15 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Starting a business outside any organisation" },
               {
-                id: "b",
+                id: "a",
                 text: "Employees acting entrepreneurially inside an established firm",
               },
+              { id: "b", text: "Starting a business outside any organisation" },
               { id: "c", text: "Buying a franchise" },
               { id: "d", text: "Working for a social enterprise only" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -467,8 +467,8 @@ export const lesson13: Lesson = {
                 id: "b",
                 text: "Combines profit-making with social or environmental aims",
               },
-              { id: "c", text: "Never makes a profit" },
-              { id: "d", text: "Operates only as a charity" },
+              { id: "c", text: "Operates only as a charity" },
+              { id: "d", text: "Never makes a profit" },
             ],
             correctChoiceId: "b",
           },
@@ -510,15 +510,15 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It guarantees the venture will succeed" },
+              { id: "a", text: "It removes the need for finance" },
+              { id: "b", text: "It means avoiding all risk" },
+              { id: "c", text: "It guarantees the venture will succeed" },
               {
-                id: "b",
+                id: "d",
                 text: "Most entrepreneurs fail several times before succeeding",
               },
-              { id: "c", text: "It removes the need for finance" },
-              { id: "d", text: "It means avoiding all risk" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -558,8 +558,8 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "No need to pay any fees" },
-              { id: "b", text: "Complete freedom to change the product" },
+              { id: "a", text: "Complete freedom to change the product" },
+              { id: "b", text: "No need to pay any fees" },
               {
                 id: "c",
                 text: "Paying fees or royalties and having less independence",
@@ -1007,12 +1007,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Market analysis" },
-              { id: "b", text: "Cash-flow forecast" },
-              { id: "c", text: "Management structure" },
-              { id: "d", text: "Marketing plan" },
+              { id: "a", text: "Marketing plan" },
+              { id: "b", text: "Management structure" },
+              { id: "c", text: "Cash-flow forecast" },
+              { id: "d", text: "Market analysis" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1229,15 +1229,15 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A legal contract with customers" },
+              { id: "a", text: "A list of staff salaries" },
+              { id: "b", text: "A tax return for the business" },
               {
-                id: "b",
+                id: "c",
                 text: "A document setting out objectives, strategies, finances and forecasts",
               },
-              { id: "c", text: "A tax return for the business" },
-              { id: "d", text: "A list of staff salaries" },
+              { id: "d", text: "A legal contract with customers" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1278,8 +1278,8 @@ export const lesson13: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Market analysis" },
-              { id: "b", text: "Cash-flow forecast" },
-              { id: "c", text: "Operations plan" },
+              { id: "b", text: "Operations plan" },
+              { id: "c", text: "Cash-flow forecast" },
               { id: "d", text: "Management structure" },
             ],
             correctChoiceId: "a",
@@ -1321,13 +1321,13 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Ignores all costs" },
+              { id: "a", text: "Is written by the bank" },
               {
                 id: "b",
                 text: "Tracks the timing of cash inflows and outflows",
               },
-              { id: "c", text: "Only covers the first month" },
-              { id: "d", text: "Is written by the bank" },
+              { id: "c", text: "Ignores all costs" },
+              { id: "d", text: "Only covers the first month" },
             ],
             correctChoiceId: "b",
           },
@@ -1369,12 +1369,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Take over the business" },
+              { id: "a", text: "Set the interest rate at zero" },
               {
                 id: "b",
                 text: "Assess whether the venture can generate enough cash to repay the loan",
               },
-              { id: "c", text: "Set the interest rate at zero" },
+              { id: "c", text: "Take over the business" },
               { id: "d", text: "Guarantee the business will succeed" },
             ],
             correctChoiceId: "b",
@@ -1417,13 +1417,13 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Businesses being too well planned" },
+              { id: "a", text: "Charging prices that are too high" },
               {
                 id: "b",
                 text: "Poor planning — weak market research and cash-flow forecasts",
               },
-              { id: "c", text: "Charging prices that are too high" },
-              { id: "d", text: "Employing too many staff" },
+              { id: "c", text: "Employing too many staff" },
+              { id: "d", text: "Businesses being too well planned" },
             ],
             correctChoiceId: "b",
           },

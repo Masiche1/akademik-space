@@ -59,12 +59,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Bikes are fun" },
-              { id: "b", text: "A girl learns to ride a bike" },
-              { id: "c", text: "She has a dog" },
-              { id: "d", text: "The park is nice" },
+              { id: "a", text: "The park is nice" },
+              { id: "b", text: "Bikes are fun" },
+              { id: "c", text: "A girl learns to ride a bike" },
+              { id: "d", text: "She has a dog" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -90,11 +90,11 @@ export const lesson53: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "The class likes flowers" },
-              { id: "b", text: "The class planted seeds and flowers grew" },
-              { id: "c", text: "Watering plants is fun" },
-              { id: "d", text: "Seeds need sun" },
+              { id: "b", text: "Seeds need sun" },
+              { id: "c", text: "The class planted seeds and flowers grew" },
+              { id: "d", text: "Watering plants is fun" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -236,12 +236,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Rainy" },
-              { id: "b", text: "Sunny" },
-              { id: "c", text: "Snowy" },
-              { id: "d", text: "Windy" },
+              { id: "a", text: "Sunny" },
+              { id: "b", text: "Snowy" },
+              { id: "c", text: "Windy" },
+              { id: "d", text: "Rainy" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -266,10 +266,10 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It's raining" },
+              { id: "a", text: "She lost something" },
               { id: "b", text: "She wants to go out" },
               { id: "c", text: "It's cold" },
-              { id: "d", text: "She lost something" },
+              { id: "d", text: "It's raining" },
             ],
             correctChoiceId: "b",
           },

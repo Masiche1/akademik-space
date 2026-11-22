@@ -56,11 +56,11 @@ export const lesson23: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Writing the ending first" },
-              { id: "b", text: "Clues that hint at future events" },
+              { id: "b", text: "A flashback to the past" },
               { id: "c", text: "A type of poem" },
-              { id: "d", text: "A flashback to the past" },
+              { id: "d", text: "Clues that hint at future events" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -155,12 +155,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A scene that jumps forward in time" },
-              { id: "b", text: "A scene that jumps back to show earlier events" },
+              { id: "a", text: "A scene that jumps back to show earlier events" },
+              { id: "b", text: "A scene that jumps forward in time" },
               { id: "c", text: "A sudden loud noise" },
               { id: "d", text: "The story's ending" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -180,12 +180,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The number of characters" },
-              { id: "b", text: "The speed at which events unfold" },
-              { id: "c", text: "The book's price" },
-              { id: "d", text: "The setting's location" },
+              { id: "a", text: "The speed at which events unfold" },
+              { id: "b", text: "The book's price" },
+              { id: "c", text: "The setting's location" },
+              { id: "d", text: "The number of characters" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -210,10 +210,10 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Foreshadowing" },
+              { id: "a", text: "Frame narrative" },
               { id: "b", text: "Flashback" },
-              { id: "c", text: "Frame narrative" },
-              { id: "d", text: "Circular structure" },
+              { id: "c", text: "Circular structure" },
+              { id: "d", text: "Foreshadowing" },
             ],
             correctChoiceId: "b",
           },
@@ -240,12 +240,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Describing the detective's childhood" },
-              { id: "b", text: "The stretched pause ('stared at it for a long moment') and the unexplained bitter laugh that delays meaning" },
+              { id: "a", text: "The stretched pause ('stared at it for a long moment') and the unexplained bitter laugh that delays meaning" },
+              { id: "b", text: "Describing the detective's childhood" },
               { id: "c", text: "Listing every object in the room" },
               { id: "d", text: "Explaining the plot immediately" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -344,12 +344,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A story that ends where it began" },
-              { id: "b", text: "A story within a story — an outer narrator tells an inner tale" },
-              { id: "c", text: "A flashback to the past" },
-              { id: "d", text: "A cliffhanger ending" },
+              { id: "a", text: "A story within a story — an outer narrator tells an inner tale" },
+              { id: "b", text: "A story that ends where it began" },
+              { id: "c", text: "A cliffhanger ending" },
+              { id: "d", text: "A flashback to the past" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -402,11 +402,11 @@ export const lesson23: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "To confuse the reader" },
-              { id: "b", text: "To create a sense of inevitability, timelessness or completion" },
-              { id: "c", text: "To make the story longer" },
-              { id: "d", text: "Because it's easier to write" },
+              { id: "b", text: "To make the story longer" },
+              { id: "c", text: "Because it's easier to write" },
+              { id: "d", text: "To create a sense of inevitability, timelessness or completion" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -426,9 +426,9 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It tells the reader exactly what will happen" },
+              { id: "a", text: "It makes the story confusing" },
               { id: "b", text: "It hints at events without revealing them — rewarding attention while preserving suspense" },
-              { id: "c", text: "It makes the story confusing" },
+              { id: "c", text: "It tells the reader exactly what will happen" },
               { id: "d", text: "It speeds up the plot" },
             ],
             correctChoiceId: "b",
@@ -512,11 +512,11 @@ export const lesson23: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "The number of pages" },
-              { id: "b", text: "The speed at which events unfold" },
+              { id: "b", text: "The number of characters" },
               { id: "c", text: "The font size" },
-              { id: "d", text: "The number of characters" },
+              { id: "d", text: "The speed at which events unfold" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -611,12 +611,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Starting a story in the middle of the action" },
-              { id: "b", text: "Ending a story early" },
-              { id: "c", text: "Using a flashback" },
-              { id: "d", text: "Writing in first person" },
+              { id: "a", text: "Ending a story early" },
+              { id: "b", text: "Writing in first person" },
+              { id: "c", text: "Starting a story in the middle of the action" },
+              { id: "d", text: "Using a flashback" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -636,12 +636,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A boring, confusing experience" },
-              { id: "b", text: "Mystery and curiosity about how events led to the ending" },
-              { id: "c", text: "A faster story" },
+              { id: "a", text: "A faster story" },
+              { id: "b", text: "A boring, confusing experience" },
+              { id: "c", text: "Mystery and curiosity about how events led to the ending" },
               { id: "d", text: "No effect on the reader" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -667,9 +667,9 @@ export const lesson23: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Version A — it drops us into the crisis" },
-              { id: "b", text: "Version B — it describes waking up" },
+              { id: "b", text: "Neither" },
               { id: "c", text: "Both equally" },
-              { id: "d", text: "Neither" },
+              { id: "d", text: "Version B — it describes waking up" },
             ],
             correctChoiceId: "a",
           },
@@ -697,11 +697,11 @@ export const lesson23: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "It rushes through the scene quickly" },
-              { id: "b", text: "It stretches a small decision into an eternity — 'time seemed to slow' and 'thick and golden' silence make the reader wait in suspense" },
+              { id: "b", text: "It explains the character's thoughts directly" },
               { id: "c", text: "It removes all description" },
-              { id: "d", text: "It explains the character's thoughts directly" },
+              { id: "d", text: "It stretches a small decision into an eternity — 'time seemed to slow' and 'thick and golden' silence make the reader wait in suspense" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -800,12 +800,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A happy ending" },
-              { id: "b", text: "An ending that leaves the reader in suspense at a tense moment" },
-              { id: "c", text: "A story about mountains" },
-              { id: "d", text: "A very long chapter" },
+              { id: "a", text: "A story about mountains" },
+              { id: "b", text: "A happy ending" },
+              { id: "c", text: "A very long chapter" },
+              { id: "d", text: "An ending that leaves the reader in suspense at a tense moment" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -858,11 +858,11 @@ export const lesson23: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Telling the reader everything immediately" },
-              { id: "b", text: "Delaying key information to build suspense or curiosity" },
-              { id: "c", text: "Making the story confusing on purpose" },
-              { id: "d", text: "Removing all description" },
+              { id: "b", text: "Removing all description" },
+              { id: "c", text: "Delaying key information to build suspense or curiosity" },
+              { id: "d", text: "Making the story confusing on purpose" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -882,12 +882,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It tells the reader everything at once" },
-              { id: "b", text: "It delays key information to control suspense and curiosity" },
-              { id: "c", text: "It removes all description" },
-              { id: "d", text: "It makes the story confusing" },
+              { id: "a", text: "It delays key information to control suspense and curiosity" },
+              { id: "b", text: "It tells the reader everything at once" },
+              { id: "c", text: "It makes the story confusing" },
+              { id: "d", text: "It removes all description" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

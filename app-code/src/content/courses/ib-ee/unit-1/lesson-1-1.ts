@@ -52,9 +52,9 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Any subject the student chooses" },
+              { id: "a", text: "Only Group 3 subjects" },
               { id: "b", text: "A DP subject the student studies" },
-              { id: "c", text: "Only Group 3 subjects" },
+              { id: "c", text: "Any subject the student chooses" },
               { id: "d", text: "Only sciences" },
             ],
             correctChoiceId: "b",
@@ -147,10 +147,10 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Only the subject-focused pathway" },
-              { id: "b", text: "Only the interdisciplinary pathway" },
+              { id: "a", text: "A pathway chosen by the IB rather than the student" },
+              { id: "b", text: "Only the subject-focused pathway" },
               { id: "c", text: "Either the subject-focused or interdisciplinary pathway" },
-              { id: "d", text: "A pathway chosen by the IB rather than the student" },
+              { id: "d", text: "Only the interdisciplinary pathway" },
             ],
             correctChoiceId: "c",
           },
@@ -174,10 +174,10 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "How far did censorship shape jazz in 1920s Berlin?" },
-              { id: "b", text: "To what extent did urban planning affect flooding in Rotterdam between 1950 and 1980?" },
+              { id: "a", text: "To what extent did urban planning affect flooding in Rotterdam between 1950 and 1980?" },
+              { id: "b", text: "How did one novel's narrative structure shape its treatment of memory?" },
               { id: "c", text: "Why did the French Revolution happen?" },
-              { id: "d", text: "How did one novel's narrative structure shape its treatment of memory?" },
+              { id: "d", text: "How far did censorship shape jazz in 1920s Berlin?" },
             ],
             correctChoiceId: "c",
           },
@@ -202,12 +202,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The subject with the highest predicted grade" },
-              { id: "b", text: "Sustained personal interest combined with access to suitable sources" },
-              { id: "c", text: "The subject with the shortest set texts" },
-              { id: "d", text: "The subject the supervisor knows least about" },
+              { id: "a", text: "Sustained personal interest combined with access to suitable sources" },
+              { id: "b", text: "The subject with the highest predicted grade" },
+              { id: "c", text: "The subject the supervisor knows least about" },
+              { id: "d", text: "The subject with the shortest set texts" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -230,12 +230,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Any topic may combine two subjects without using DP frameworks" },
-              { id: "b", text: "A coherent study integrating concepts or methods from two DP subjects" },
-              { id: "c", text: "A topic that must be registered as the discontinued World Studies EE" },
-              { id: "d", text: "A comparison in which the two subjects remain entirely separate" },
+              { id: "a", text: "A coherent study integrating concepts or methods from two DP subjects" },
+              { id: "b", text: "Any topic may combine two subjects without using DP frameworks" },
+              { id: "c", text: "A comparison in which the two subjects remain entirely separate" },
+              { id: "d", text: "A topic that must be registered as the discontinued World Studies EE" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -259,12 +259,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Assign the topic and write the proposal" },
-              { id: "b", text: "Challenge feasibility and suitability while the student makes the decision" },
-              { id: "c", text: "Choose whichever subject produces the highest grade" },
-              { id: "d", text: "Approve the final essay without discussion" },
+              { id: "a", text: "Challenge feasibility and suitability while the student makes the decision" },
+              { id: "b", text: "Assign the topic and write the proposal" },
+              { id: "c", text: "Approve the final essay without discussion" },
+              { id: "d", text: "Choose whichever subject produces the highest grade" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -512,12 +512,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A specific event in 1914" },
-              { id: "b", text: "The causes of World War I" },
-              { id: "c", text: "One scientist's contribution" },
-              { id: "d", text: "A single poem's analysis" },
+              { id: "a", text: "One scientist's contribution" },
+              { id: "b", text: "A specific event in 1914" },
+              { id: "c", text: "A single poem's analysis" },
+              { id: "d", text: "The causes of World War I" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -607,10 +607,10 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The history of democracy" },
-              { id: "b", text: "Climate change and the environment" },
+              { id: "a", text: "Climate change and the environment" },
+              { id: "b", text: "All causes of World War I" },
               { id: "c", text: "The role of German militarism in the July Crisis of 1914" },
-              { id: "d", text: "All causes of World War I" },
+              { id: "d", text: "The history of democracy" },
             ],
             correctChoiceId: "c",
           },
@@ -634,12 +634,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Title, bibliography, conclusion and grade" },
-              { id: "b", text: "Time period, place or context, key actors and specific aspect" },
-              { id: "c", text: "Personal opinion, popularity and length of readings" },
+              { id: "a", text: "Personal opinion, popularity and length of readings" },
+              { id: "b", text: "Title, bibliography, conclusion and grade" },
+              { id: "c", text: "Time period, place or context, key actors and specific aspect" },
               { id: "d", text: "Supervisor preference, classroom topic and essay format" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -662,12 +662,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Whether the topic sounds impressive" },
-              { id: "b", text: "Whether enough suitable sources and methods are accessible" },
-              { id: "c", text: "Whether the supervisor has published on it" },
+              { id: "a", text: "Whether the supervisor has published on it" },
+              { id: "b", text: "Whether the topic sounds impressive" },
+              { id: "c", text: "Whether enough suitable sources and methods are accessible" },
               { id: "d", text: "Whether it can be answered in one sentence" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -690,12 +690,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The topic is now too narrow to sustain analysis and evidence" },
-              { id: "b", text: "The word count has become too generous" },
+              { id: "a", text: "The word count has become too generous" },
+              { id: "b", text: "The topic is now too narrow to sustain analysis and evidence" },
               { id: "c", text: "The essay must now become interdisciplinary" },
               { id: "d", text: "The title must be removed from the title page" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -719,10 +719,10 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Keep 'The impact of technology' but write faster" },
+              { id: "a", text: "Remove the research question entirely" },
               { id: "b", text: "Study how mobile phones changed family communication in one city between 2005 and 2015" },
               { id: "c", text: "Compare every technology ever invented" },
-              { id: "d", text: "Remove the research question entirely" },
+              { id: "d", text: "Keep 'The impact of technology' but write faster" },
             ],
             correctChoiceId: "b",
           },

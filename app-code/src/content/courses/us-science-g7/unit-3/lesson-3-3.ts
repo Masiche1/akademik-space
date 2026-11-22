@@ -50,12 +50,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "They formed only in places where the Sun is strongest." },
-              { id: "b", text: "They formed where specific geologic conditions existed over millions of years." },
+              { id: "a", text: "They formed where specific geologic conditions existed over millions of years." },
+              { id: "b", text: "They formed only in places where the Sun is strongest." },
               { id: "c", text: "They are carried to different regions by wind." },
               { id: "d", text: "They are made quickly wherever people drill." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -181,12 +181,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Earthquake" },
-              { id: "b", text: "Hurricane" },
-              { id: "c", text: "Drought" },
-              { id: "d", text: "Blizzard" },
+              { id: "a", text: "Blizzard" },
+              { id: "b", text: "Drought" },
+              { id: "c", text: "Earthquake" },
+              { id: "d", text: "Hurricane" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

@@ -57,12 +57,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$x=5$" },
+              { id: "a", text: "$x=3$" },
               { id: "b", text: "$x=\\frac{7}{3}$" },
-              { id: "c", text: "$x=3$" },
+              { id: "c", text: "$x=5$" },
               { id: "d", text: "$x=15$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -163,12 +163,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$x=23$" },
-              { id: "b", text: "$x=5$" },
-              { id: "c", text: "$x=-5$" },
-              { id: "d", text: "$x=9$" },
+              { id: "a", text: "$x=-5$" },
+              { id: "b", text: "$x=9$" },
+              { id: "c", text: "$x=5$" },
+              { id: "d", text: "$x=23$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -190,12 +190,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$x=7$" },
-              { id: "b", text: "$x=32$" },
-              { id: "c", text: "$x=112$" },
-              { id: "d", text: "$x=24$" },
+              { id: "a", text: "$x=112$" },
+              { id: "b", text: "$x=24$" },
+              { id: "c", text: "$x=32$" },
+              { id: "d", text: "$x=7$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -218,9 +218,9 @@ export const lesson22: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$x=6$" },
-              { id: "b", text: "$x=13$" },
+              { id: "b", text: "$x=5.5$" },
               { id: "c", text: "$x=12$" },
-              { id: "d", text: "$x=5.5$" },
+              { id: "d", text: "$x=13$" },
             ],
             correctChoiceId: "a",
           },
@@ -282,10 +282,10 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$x=10$" },
+              { id: "a", text: "$x=-4$" },
               { id: "b", text: "$x=4$" },
-              { id: "c", text: "$x=-4$" },
-              { id: "d", text: "$x=3$" },
+              { id: "c", text: "$x=3$" },
+              { id: "d", text: "$x=10$" },
             ],
             correctChoiceId: "b",
           },
@@ -331,11 +331,11 @@ export const lesson22: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$3x+4=10$" },
-              { id: "b", text: "$5x-1=-11$" },
-              { id: "c", text: "$\\frac{x}{2}-3=2$" },
+              { id: "b", text: "$\\frac{x}{2}-3=2$" },
+              { id: "c", text: "$5x-1=-11$" },
               { id: "d", text: "$2x+5=3$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -491,12 +491,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$2n+4=18$" },
+              { id: "a", text: "$4n+2=18$" },
               { id: "b", text: "$2(n+4)=18$" },
-              { id: "c", text: "$n+8=18$" },
-              { id: "d", text: "$4n+2=18$" },
+              { id: "c", text: "$2n+4=18$" },
+              { id: "d", text: "$n+8=18$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -596,12 +596,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$3n-6=21$" },
-              { id: "b", text: "$3(n-6)=21$" },
-              { id: "c", text: "$6n-3=21$" },
-              { id: "d", text: "$3n+6=21$" },
+              { id: "a", text: "$3n+6=21$" },
+              { id: "b", text: "$6n-3=21$" },
+              { id: "c", text: "$3(n-6)=21$" },
+              { id: "d", text: "$3n-6=21$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -623,12 +623,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$4x-4$" },
-              { id: "b", text: "$2x-4$" },
-              { id: "c", text: "$4x-8$" },
-              { id: "d", text: "$x-4$" },
+              { id: "a", text: "$2x-4$" },
+              { id: "b", text: "$4x-8$" },
+              { id: "c", text: "$x-4$" },
+              { id: "d", text: "$4x-4$" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -650,12 +650,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$x+2x+3x+4x=180$" },
-              { id: "b", text: "$x+2x+3x+4x=360$" },
+              { id: "a", text: "$x+2x+3x+4x=360$" },
+              { id: "b", text: "$x+2x+3x+4x=180$" },
               { id: "c", text: "$10x=360$ only, with no sum" },
               { id: "d", text: "$x\\times2x\\times3x\\times4x=360$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -716,9 +716,9 @@ export const lesson22: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$n+(n+1)+(n+2)=48$" },
-              { id: "b", text: "$n+(n+1)+(n+3)=48$" },
-              { id: "c", text: "$n+2n+3n=48$" },
-              { id: "d", text: "$n\\times(n+1)\\times(n+2)=48$" },
+              { id: "b", text: "$n\\times(n+1)\\times(n+2)=48$" },
+              { id: "c", text: "$n+(n+1)+(n+3)=48$" },
+              { id: "d", text: "$n+2n+3n=48$" },
             ],
             correctChoiceId: "a",
           },
@@ -762,12 +762,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$4n+7=31$" },
-              { id: "b", text: "$4(n+7)=31$" },
-              { id: "c", text: "$7n+4=31$" },
-              { id: "d", text: "$4n-7=31$" },
+              { id: "a", text: "$7n+4=31$" },
+              { id: "b", text: "$4n-7=31$" },
+              { id: "c", text: "$4(n+7)=31$" },
+              { id: "d", text: "$4n+7=31$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -814,12 +814,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\frac{n}{2}+3=11$" },
-              { id: "b", text: "$\\frac{n+3}{2}=11$" },
-              { id: "c", text: "$2n+3=11$" },
-              { id: "d", text: "$\\frac{n}{2}-3=11$" },
+              { id: "a", text: "$\\frac{n+3}{2}=11$" },
+              { id: "b", text: "$2n+3=11$" },
+              { id: "c", text: "$\\frac{n}{2}-3=11$" },
+              { id: "d", text: "$\\frac{n}{2}+3=11$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

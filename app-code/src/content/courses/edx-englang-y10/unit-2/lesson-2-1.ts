@@ -92,8 +92,8 @@ export const lesson21: Lesson = {
             choices: [
               { id: "a", text: "Yours faithfully" },
               { id: "b", text: "Yours sincerely" },
-              { id: "c", text: "Best wishes" },
-              { id: "d", text: "Cheers" },
+              { id: "c", text: "Cheers" },
+              { id: "d", text: "Best wishes" },
             ],
             correctChoiceId: "b",
           },
@@ -222,11 +222,11 @@ export const lesson21: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Chatty" },
-              { id: "b", text: "Formal" },
-              { id: "c", text: "Aggressive" },
-              { id: "d", text: "Humorous" },
+              { id: "b", text: "Aggressive" },
+              { id: "c", text: "Humorous" },
+              { id: "d", text: "Formal" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "convention", name: "Formal register", statement: "Polite, precise phrasing and no slang." }],

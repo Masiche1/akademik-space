@@ -50,12 +50,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Na₂O and H₂" },
-              { id: "b", text: "NaOH and H₂" },
-              { id: "c", text: "NaCl and H₂" },
+              { id: "a", text: "NaOH and H₂" },
+              { id: "b", text: "NaCl and H₂" },
+              { id: "c", text: "Na₂O and H₂" },
               { id: "d", text: "NaH and O₂" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Group 1 + water", statement: "Alkali metal → hydroxide + H₂." }],
@@ -166,12 +166,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "0" },
-              { id: "b", text: "7" },
-              { id: "c", text: "14" },
-              { id: "d", text: "1" },
+              { id: "a", text: "14" },
+              { id: "b", text: "0" },
+              { id: "c", text: "1" },
+              { id: "d", text: "7" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "pH", statement: "7 = neutral." }],

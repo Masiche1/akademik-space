@@ -56,12 +56,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$x=3,\\ y=2$" },
-              { id: "b", text: "$x=2,\\ y=3$" },
-              { id: "c", text: "$x=4,\\ y=1$" },
+              { id: "a", text: "$x=2,\\ y=3$" },
+              { id: "b", text: "$x=4,\\ y=1$" },
+              { id: "c", text: "$x=3,\\ y=2$" },
               { id: "d", text: "$x=3,\\ y=1$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -83,12 +83,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$x=2,\\ y=5$" },
-              { id: "b", text: "$x=3,\\ y=7$" },
-              { id: "c", text: "$x=1,\\ y=3$" },
-              { id: "d", text: "$x=2,\\ y=4$" },
+              { id: "a", text: "$x=1,\\ y=3$" },
+              { id: "b", text: "$x=2,\\ y=4$" },
+              { id: "c", text: "$x=2,\\ y=5$" },
+              { id: "d", text: "$x=3,\\ y=7$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -111,12 +111,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "13 and 7" },
-              { id: "b", text: "14 and 6" },
-              { id: "c", text: "12 and 8" },
-              { id: "d", text: "15 and 5" },
+              { id: "a", text: "12 and 8" },
+              { id: "b", text: "15 and 5" },
+              { id: "c", text: "14 and 6" },
+              { id: "d", text: "13 and 7" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -171,12 +171,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$x=5,\\ y=3$" },
-              { id: "b", text: "$x=3,\\ y=5$" },
+              { id: "a", text: "$x=3,\\ y=5$" },
+              { id: "b", text: "$x=5,\\ y=3$" },
               { id: "c", text: "$x=4,\\ y=4$" },
               { id: "d", text: "$x=6,\\ y=2$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -220,12 +220,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$x=4,\\ y=1$" },
-              { id: "b", text: "$x=4,\\ y=5$" },
+              { id: "a", text: "$x=4,\\ y=5$" },
+              { id: "b", text: "$x=3,\\ y=3$" },
               { id: "c", text: "$x=2,\\ y=5$" },
-              { id: "d", text: "$x=3,\\ y=3$" },
+              { id: "d", text: "$x=4,\\ y=1$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -270,12 +270,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$x=7,\\ y=3$" },
-              { id: "b", text: "$x=6,\\ y=4$" },
-              { id: "c", text: "$x=8,\\ y=2$" },
-              { id: "d", text: "$x=7,\\ y=4$" },
+              { id: "a", text: "$x=8,\\ y=2$" },
+              { id: "b", text: "$x=7,\\ y=4$" },
+              { id: "c", text: "$x=6,\\ y=4$" },
+              { id: "d", text: "$x=7,\\ y=3$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -299,9 +299,9 @@ export const lesson22: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$x=4,\\ y=2$" },
-              { id: "b", text: "$x=2,\\ y=5$" },
+              { id: "b", text: "$x=3,\\ y=3$" },
               { id: "c", text: "$x=6,\\ y=-1$" },
-              { id: "d", text: "$x=3,\\ y=3$" },
+              { id: "d", text: "$x=2,\\ y=5$" },
             ],
             correctChoiceId: "a",
           },
@@ -443,9 +443,9 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "They have exactly one solution" },
+              { id: "a", text: "They have infinitely many solutions" },
               { id: "b", text: "They have no solution" },
-              { id: "c", text: "They have infinitely many solutions" },
+              { id: "c", text: "They have exactly one solution" },
               { id: "d", text: "They have two solutions" },
             ],
             correctChoiceId: "b",
@@ -504,12 +504,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$f(x)=3x+1$" },
-              { id: "b", text: "$f(x)=x^2-4$" },
-              { id: "c", text: "$f(x)=\\frac{1}{x}$" },
-              { id: "d", text: "$f(x)=5$" },
+              { id: "a", text: "$f(x)=x^2-4$" },
+              { id: "b", text: "$f(x)=3x+1$" },
+              { id: "c", text: "$f(x)=5$" },
+              { id: "d", text: "$f(x)=\\frac{1}{x}$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -531,12 +531,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$(x+4)(x+5)$" },
-              { id: "b", text: "$(x+2)(x+10)$" },
-              { id: "c", text: "$(x-4)(x-5)$" },
-              { id: "d", text: "$(x+3)(x+7)$" },
+              { id: "a", text: "$(x+3)(x+7)$" },
+              { id: "b", text: "$(x-4)(x-5)$" },
+              { id: "c", text: "$(x+2)(x+10)$" },
+              { id: "d", text: "$(x+4)(x+5)$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -559,12 +559,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$x=2$ or $x=5$" },
+              { id: "a", text: "$x=1$ or $x=10$" },
               { id: "b", text: "$x=-2$ or $x=-5$" },
-              { id: "c", text: "$x=1$ or $x=10$" },
+              { id: "c", text: "$x=2$ or $x=5$" },
               { id: "d", text: "$x=3$ or $x=4$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -620,12 +620,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$f(x)=x^2+3x-1$" },
-              { id: "b", text: "$f(x)=4x-7$" },
+              { id: "a", text: "$f(x)=x^3+1$" },
+              { id: "b", text: "$f(x)=x^2+3x-1$" },
               { id: "c", text: "$f(x)=\\frac{2}{x}$" },
-              { id: "d", text: "$f(x)=x^3+1$" },
+              { id: "d", text: "$f(x)=4x-7$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -668,12 +668,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$(x+3)(x+5)$" },
-              { id: "b", text: "$(x+1)(x+15)$" },
+              { id: "a", text: "$(x+1)(x+15)$" },
+              { id: "b", text: "$(x+3)(x+5)$" },
               { id: "c", text: "$(x-3)(x-5)$" },
               { id: "d", text: "$(x+2)(x+6)$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -719,12 +719,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$x=2$ or $x=-4$" },
-              { id: "b", text: "$x=-2$ or $x=4$" },
-              { id: "c", text: "$x=1$ or $x=-8$" },
-              { id: "d", text: "$x=4$ or $x=-2$ only" },
+              { id: "a", text: "$x=-2$ or $x=4$" },
+              { id: "b", text: "$x=1$ or $x=-8$" },
+              { id: "c", text: "$x=4$ or $x=-2$ only" },
+              { id: "d", text: "$x=2$ or $x=-4$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -749,8 +749,8 @@ export const lesson22: Lesson = {
             choices: [
               { id: "a", text: "$2x^2-5x-3$" },
               { id: "b", text: "$2x^2-7x-3$" },
-              { id: "c", text: "$2x^2+x-3$" },
-              { id: "d", text: "$2x^2-5x+3$" },
+              { id: "c", text: "$2x^2-5x+3$" },
+              { id: "d", text: "$2x^2+x-3$" },
             ],
             correctChoiceId: "a",
           },

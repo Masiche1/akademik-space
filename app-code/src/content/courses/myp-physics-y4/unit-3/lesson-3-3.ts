@@ -57,12 +57,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Magnetism" },
-              { id: "b", text: "Gravity" },
-              { id: "c", text: "Friction" },
-              { id: "d", text: "Inertia alone" },
+              { id: "a", text: "Friction" },
+              { id: "b", text: "Inertia alone" },
+              { id: "c", text: "Gravity" },
+              { id: "d", text: "Magnetism" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Gravity", statement: "Gravity provides centripetal force for orbits." }],
@@ -82,12 +82,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "1.1 km/s" },
-              { id: "b", text: "7.9 km/s" },
-              { id: "c", text: "11.2 km/s" },
-              { id: "d", text: "300 000 km/s" },
+              { id: "a", text: "11.2 km/s" },
+              { id: "b", text: "300 000 km/s" },
+              { id: "c", text: "1.1 km/s" },
+              { id: "d", text: "7.9 km/s" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Escape velocity", statement: "~11.2 km/s needed to leave Earth's gravity." }],
@@ -108,12 +108,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Its orbital period is shorter than 24 hours" },
-              { id: "b", text: "It is too small to see" },
+              { id: "a", text: "Clouds block it" },
+              { id: "b", text: "Its orbital period is shorter than 24 hours" },
               { id: "c", text: "It orbits in the opposite direction" },
-              { id: "d", text: "Clouds block it" },
+              { id: "d", text: "It is too small to see" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Orbit period", statement: "Lower orbit → shorter period → moves relative to Earth." }],
@@ -167,12 +167,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$F = ma$" },
-              { id: "b", text: "$W = mg$" },
-              { id: "c", text: "$p = mv$" },
-              { id: "d", text: "$E_k = \\frac{1}{2}mv^2$" },
+              { id: "a", text: "$W = mg$" },
+              { id: "b", text: "$F = ma$" },
+              { id: "c", text: "$E_k = \\frac{1}{2}mv^2$" },
+              { id: "d", text: "$p = mv$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Weight", statement: "Weight = mass × gravitational field strength: $W = mg$." }],
@@ -236,12 +236,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "There is no gravity in space" },
-              { id: "b", text: "It is continuously falling toward Earth but moving fast enough sideways to keep missing it" },
-              { id: "c", text: "Its engines push it upwards constantly" },
-              { id: "d", text: "The Moon's gravity cancels Earth's" },
+              { id: "a", text: "It is continuously falling toward Earth but moving fast enough sideways to keep missing it" },
+              { id: "b", text: "Its engines push it upwards constantly" },
+              { id: "c", text: "The Moon's gravity cancels Earth's" },
+              { id: "d", text: "There is no gravity in space" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Orbit", statement: "Orbit = balance of gravity (pulls inward) and inertia (tangential motion)." }],
@@ -285,11 +285,11 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Gravity is a contact force" },
-              { id: "b", text: "Gravitational force follows an inverse-square law: $F \\propto 1/r^2$" },
-              { id: "c", text: "Objects lose mass with distance" },
-              { id: "d", text: "Air resistance cancels gravity" },
+              { id: "b", text: "Air resistance cancels gravity" },
+              { id: "c", text: "Gravitational force follows an inverse-square law: $F \\propto 1/r^2$" },
+              { id: "d", text: "Objects lose mass with distance" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "law", name: "Newton's law of gravitation", statement: "$F = Gm_1m_2/r^2$ — force ∝ 1/r²." }],
@@ -333,12 +333,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "90 minutes" },
-              { id: "b", text: "24 hours" },
-              { id: "c", text: "7 days" },
-              { id: "d", text: "1 year" },
+              { id: "a", text: "1 year" },
+              { id: "b", text: "7 days" },
+              { id: "c", text: "24 hours" },
+              { id: "d", text: "90 minutes" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Geostationary", statement: "Period matches Earth's rotation: 24 h." }],
@@ -430,11 +430,11 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "It increases with the square of the distance between them" },
-              { id: "b", text: "It increases with the product of the masses and decreases with the square of the distance" },
-              { id: "c", text: "It only acts between objects touching each other" },
-              { id: "d", text: "It is the same everywhere in the universe" },
+              { id: "b", text: "It only acts between objects touching each other" },
+              { id: "c", text: "It is the same everywhere in the universe" },
+              { id: "d", text: "It increases with the product of the masses and decreases with the square of the distance" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "law", name: "Newton's gravitation", statement: "$F = Gm_1m_2/r^2$." }],
@@ -488,12 +488,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "7" },
-              { id: "b", text: "8" },
-              { id: "c", text: "9" },
-              { id: "d", text: "10" },
+              { id: "a", text: "8" },
+              { id: "b", text: "7" },
+              { id: "c", text: "10" },
+              { id: "d", text: "9" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Solar System", statement: "8 planets since Pluto reclassified 2006." }],
@@ -513,12 +513,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It's cheaper" },
-              { id: "b", text: "No atmospheric distortion and can detect wavelengths blocked by atmosphere" },
+              { id: "a", text: "No atmospheric distortion and can detect wavelengths blocked by atmosphere" },
+              { id: "b", text: "It's cheaper" },
               { id: "c", text: "It's closer to stars" },
               { id: "d", text: "It uses less power" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Space telescopes", statement: "Above atmosphere → clearer, broader spectrum." }],
@@ -539,12 +539,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "They can take rock samples and test soil chemistry directly" },
-              { id: "b", text: "They are cheaper" },
-              { id: "c", text: "They orbit faster" },
+              { id: "a", text: "They are cheaper" },
+              { id: "b", text: "They orbit faster" },
+              { id: "c", text: "They can take rock samples and test soil chemistry directly" },
               { id: "d", text: "They need no fuel" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Rovers", statement: "Surface access enables direct sampling and experiments." }],
@@ -598,12 +598,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Mars" },
-              { id: "b", text: "Venus" },
-              { id: "c", text: "Jupiter" },
-              { id: "d", text: "Mercury" },
+              { id: "a", text: "Venus" },
+              { id: "b", text: "Mercury" },
+              { id: "c", text: "Mars" },
+              { id: "d", text: "Jupiter" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Solar System", statement: "Rocky inner planets; gas/ice giants outer." }],
@@ -667,9 +667,9 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It is cheaper to build" },
+              { id: "a", text: "It is closer to the stars" },
               { id: "b", text: "No atmospheric distortion and access to wavelengths blocked by the atmosphere" },
-              { id: "c", text: "It is closer to the stars" },
+              { id: "c", text: "It is cheaper to build" },
               { id: "d", text: "It needs no power" },
             ],
             correctChoiceId: "b",
@@ -715,12 +715,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "They can collect rock samples and test soil chemistry directly on the surface" },
-              { id: "b", text: "They are cheaper to operate" },
-              { id: "c", text: "They orbit Mars faster" },
+              { id: "a", text: "They orbit Mars faster" },
+              { id: "b", text: "They can collect rock samples and test soil chemistry directly on the surface" },
+              { id: "c", text: "They are cheaper to operate" },
               { id: "d", text: "They need no fuel" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Rovers", statement: "Surface access enables direct sampling and experiments." }],
@@ -765,12 +765,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Optical telescope" },
-              { id: "b", text: "Radio telescope" },
+              { id: "a", text: "Radio telescope" },
+              { id: "b", text: "Seismometer" },
               { id: "c", text: "Barometer" },
-              { id: "d", text: "Seismometer" },
+              { id: "d", text: "Optical telescope" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Telescopes", statement: "Different telescopes detect different EM regions." }],
@@ -861,12 +861,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The Sun's gravity pulls the tail out" },
-              { id: "b", text: "Solar heat vaporises ice and dust, which are then pushed by solar wind and radiation" },
-              { id: "c", text: "Comets catch fire near the Sun" },
-              { id: "d", text: "The tail is made of molten rock" },
+              { id: "a", text: "Solar heat vaporises ice and dust, which are then pushed by solar wind and radiation" },
+              { id: "b", text: "The Sun's gravity pulls the tail out" },
+              { id: "c", text: "The tail is made of molten rock" },
+              { id: "d", text: "Comets catch fire near the Sun" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Comets", statement: "Icy bodies; solar heating vaporises material forming a tail blown by solar wind." }],

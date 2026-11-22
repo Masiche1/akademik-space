@@ -50,12 +50,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Lettuce" },
-              { id: "b", text: "Snail" },
-              { id: "c", text: "Thrush" },
-              { id: "d", text: "The Sun" },
+              { id: "a", text: "The Sun" },
+              { id: "b", text: "Thrush" },
+              { id: "c", text: "Lettuce" },
+              { id: "d", text: "Snail" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -179,12 +179,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A feature that helps an organism survive in its environment" },
-              { id: "b", text: "A change that an individual makes during its life to cope with the weather" },
-              { id: "c", text: "A group of organisms of the same species living in one area" },
-              { id: "d", text: "The place where an organism lives" },
+              { id: "a", text: "A change that an individual makes during its life to cope with the weather" },
+              { id: "b", text: "The place where an organism lives" },
+              { id: "c", text: "A feature that helps an organism survive in its environment" },
+              { id: "d", text: "A group of organisms of the same species living in one area" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

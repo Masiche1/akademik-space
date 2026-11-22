@@ -55,12 +55,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "2 cells, mitosis" },
-              { id: "b", text: "2 cells, meiosis" },
-              { id: "c", text: "4 cells, mitosis" },
-              { id: "d", text: "4 cells, meiosis" },
+              { id: "a", text: "2 cells, meiosis" },
+              { id: "b", text: "4 cells, meiosis" },
+              { id: "c", text: "2 cells, mitosis" },
+              { id: "d", text: "4 cells, mitosis" },
             ],
-            correctChoiceId: "d",
+            correctChoiceIb: "d",
           },
           markscheme: {
             principles: [
@@ -191,12 +191,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Homozygous dominant" },
-              { id: "b", text: "Homozygous recessive" },
-              { id: "c", text: "Heterozygous" },
-              { id: "d", text: "Haploid" },
+              { id: "a", text: "Haploid" },
+              { id: "b", text: "Heterozygous" },
+              { id: "c", text: "Homozygous dominant" },
+              { id: "d", text: "Homozygous recessive" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [

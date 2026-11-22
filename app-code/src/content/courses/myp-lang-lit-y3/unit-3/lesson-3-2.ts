@@ -55,12 +55,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Verdict → description → evaluation" },
-              { id: "b", text: "Description → evaluation → verdict" },
-              { id: "c", text: "Evaluation → verdict → description" },
-              { id: "d", text: "No fixed structure" },
+              { id: "a", text: "No fixed structure" },
+              { id: "b", text: "Evaluation → verdict → description" },
+              { id: "c", text: "Description → evaluation → verdict" },
+              { id: "d", text: "Verdict → description → evaluation" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -145,12 +145,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The verdict" },
-              { id: "b", text: "Description — what the thing is and what happens" },
+              { id: "a", text: "A list of prices" },
+              { id: "b", text: "The verdict" },
               { id: "c", text: "The author's biography" },
-              { id: "d", text: "A list of prices" },
+              { id: "d", text: "Description — what the thing is and what happens" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -170,12 +170,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A description of the plot" },
-              { id: "b", text: "The writer's final judgment or recommendation" },
-              { id: "c", text: "A quote from the author" },
+              { id: "a", text: "The writer's final judgment or recommendation" },
+              { id: "b", text: "A quote from the author" },
+              { id: "c", text: "A description of the plot" },
               { id: "d", text: "The review's title" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -200,8 +200,8 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "'The new Italian restaurant on High Street'" },
-              { id: "b", text: "'The pasta dishes are rich and generous'" },
+              { id: "a", text: "'The pasta dishes are rich and generous'" },
+              { id: "b", text: "'The new Italian restaurant on High Street'" },
               { id: "c", text: "'Overall, a solid choice for a relaxed dinner'" },
               { id: "d", text: "'Service is friendly but slow'" },
             ],
@@ -225,12 +225,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "'It was absolutely brilliant.'" },
-              { id: "b", text: "'The novel follows a young detective solving thefts in 1950s London.'" },
+              { id: "a", text: "'The novel follows a young detective solving thefts in 1950s London.'" },
+              { id: "b", text: "'It was absolutely brilliant.'" },
               { id: "c", text: "'You must read this immediately!'" },
               { id: "d", text: "'One of the worst books ever written.'" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -325,11 +325,11 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "To make the review longer" },
-              { id: "b", text: "Because specific evidence makes judgments convincing and credible" },
-              { id: "c", text: "Because it's required by law" },
-              { id: "d", text: "To hide the writer's opinion" },
+              { id: "b", text: "To hide the writer's opinion" },
+              { id: "c", text: "Because specific evidence makes judgments convincing and credible" },
+              { id: "d", text: "Because it's required by law" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -381,10 +381,10 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A review that only praises" },
+              { id: "a", text: "A very long review" },
               { id: "b", text: "A review that considers both strengths and weaknesses fairly" },
               { id: "c", text: "A review with no opinions" },
-              { id: "d", text: "A very long review" },
+              { id: "d", text: "A review that only praises" },
             ],
             correctChoiceId: "b",
           },
@@ -407,11 +407,11 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "It is too formal" },
-              { id: "b", text: "It is vague — it doesn't say what aspect or why" },
+              { id: "b", text: "It uses big words" },
               { id: "c", text: "It is too long" },
-              { id: "d", text: "It uses big words" },
+              { id: "d", text: "It is vague — it doesn't say what aspect or why" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -492,11 +492,11 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "A type of essay" },
-              { id: "b", text: "The writer's main position stated in one sentence" },
-              { id: "c", text: "A long conclusion" },
-              { id: "d", text: "A quotation from an expert" },
+              { id: "b", text: "A long conclusion" },
+              { id: "c", text: "A quotation from an expert" },
+              { id: "d", text: "The writer's main position stated in one sentence" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -582,12 +582,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The evidence used" },
-              { id: "b", text: "The writer's main position in one sentence" },
+              { id: "a", text: "The writer's main position in one sentence" },
+              { id: "b", text: "The evidence used" },
               { id: "c", text: "The conclusion" },
               { id: "d", text: "A quotation" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -608,11 +608,11 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "'I think homework is bad' — it's shorter" },
-              { id: "b", text: "'Homework should be reduced because...' — it states position and reason" },
+              { id: "b", text: "Neither is a thesis" },
               { id: "c", text: "Both are equally strong" },
-              { id: "d", text: "Neither is a thesis" },
+              { id: "d", text: "'Homework should be reduced because...' — it states position and reason" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -637,12 +637,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "'They suppress individuality'" },
-              { id: "b", text: "'School uniforms should be abolished'" },
-              { id: "c", text: "'The evidence shows'" },
-              { id: "d", text: "There is no thesis" },
+              { id: "a", text: "'The evidence shows'" },
+              { id: "b", text: "There is no thesis" },
+              { id: "c", text: "'School uniforms should be abolished'" },
+              { id: "d", text: "'They suppress individuality'" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -662,12 +662,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "'School is interesting.'" },
-              { id: "b", text: "'Students should have more say in school decisions because their input improves decisions and engagement.'" },
-              { id: "c", text: "'This piece is about school decisions.'" },
-              { id: "d", text: "'Why do students even care?'" },
+              { id: "a", text: "'This piece is about school decisions.'" },
+              { id: "b", text: "'Why do students even care?'" },
+              { id: "c", text: "'Students should have more say in school decisions because their input improves decisions and engagement.'" },
+              { id: "d", text: "'School is interesting.'" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -762,12 +762,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "To confuse the reader" },
-              { id: "b", text: "Because it shows fairness and strengthens your argument by addressing counterarguments" },
-              { id: "c", text: "Because it's required by law" },
+              { id: "a", text: "Because it shows fairness and strengthens your argument by addressing counterarguments" },
+              { id: "b", text: "Because it's required by law" },
+              { id: "c", text: "To confuse the reader" },
               { id: "d", text: "To make the piece longer" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -819,12 +819,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It's too formal" },
-              { id: "b", text: "It's a false generalization — it pressures agreement without evidence" },
+              { id: "a", text: "It's a false generalization — it pressures agreement without evidence" },
+              { id: "b", text: "It's too formal" },
               { id: "c", text: "It's too long" },
               { id: "d", text: "It uses big words" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

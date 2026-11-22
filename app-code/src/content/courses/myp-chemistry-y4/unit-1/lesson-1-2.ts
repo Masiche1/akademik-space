@@ -58,9 +58,9 @@ export const lesson12: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Number of protons (atomic number)" },
-              { id: "b", text: "Number of neutrons" },
-              { id: "c", text: "Number of electrons shells" },
-              { id: "d", text: "Total mass" },
+              { id: "b", text: "Total mass" },
+              { id: "c", text: "Number of neutrons" },
+              { id: "d", text: "Number of electrons shells" },
             ],
             correctChoiceId: "a",
           },
@@ -84,12 +84,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "17 protons, 18 neutrons, 17 electrons" },
+              { id: "a", text: "18 protons, 17 neutrons, 17 electrons" },
               { id: "b", text: "17 protons, 18 neutrons, 18 electrons" },
-              { id: "c", text: "18 protons, 17 neutrons, 17 electrons" },
+              { id: "c", text: "17 protons, 18 neutrons, 17 electrons" },
               { id: "d", text: "35 protons, 17 neutrons, 35 electrons" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -112,12 +112,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Same protons (same element) but different neutrons; chemical properties depend on electrons which are identical" },
+              { id: "a", text: "Isotopes are radioactive only" },
               { id: "b", text: "Different elements entirely" },
-              { id: "c", text: "They have different electrons" },
-              { id: "d", text: "Isotopes are radioactive only" },
+              { id: "c", text: "Same protons (same element) but different neutrons; chemical properties depend on electrons which are identical" },
+              { id: "d", text: "They have different electrons" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -172,12 +172,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Neutron" },
-              { id: "b", text: "Proton" },
+              { id: "a", text: "Proton" },
+              { id: "b", text: "Neutron" },
               { id: "c", text: "Electron" },
               { id: "d", text: "All particles are charged" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -199,12 +199,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Number of protons + number of neutrons" },
-              { id: "b", text: "Number of protons only" },
-              { id: "c", text: "Number of electrons + neutrons" },
-              { id: "d", text: "Number of protons + electrons" },
+              { id: "a", text: "Number of protons + electrons" },
+              { id: "b", text: "Number of electrons + neutrons" },
+              { id: "c", text: "Number of protons only" },
+              { id: "d", text: "Number of protons + number of neutrons" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -275,12 +275,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Neutrons" },
+              { id: "a", text: "Electrons in the outer shell" },
               { id: "b", text: "Protons" },
-              { id: "c", text: "Electrons in the outer shell" },
+              { id: "c", text: "Neutrons" },
               { id: "d", text: "Chemical properties" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -330,12 +330,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It is a weighted average of the masses of chlorine-35 and chlorine-37 in their natural abundances" },
-              { id: "b", text: "Chlorine atoms constantly change mass" },
+              { id: "a", text: "All elements have decimal atomic masses" },
+              { id: "b", text: "It is a weighted average of the masses of chlorine-35 and chlorine-37 in their natural abundances" },
               { id: "c", text: "It is an experimental error" },
-              { id: "d", text: "All elements have decimal atomic masses" },
+              { id: "d", text: "Chlorine atoms constantly change mass" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -384,12 +384,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "12" },
-              { id: "b", text: "13" },
-              { id: "c", text: "14" },
-              { id: "d", text: "26" },
+              { id: "a", text: "26" },
+              { id: "b", text: "12" },
+              { id: "c", text: "13" },
+              { id: "d", text: "14" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -528,12 +528,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Outer (valence) electrons" },
-              { id: "b", text: "Total electrons" },
-              { id: "c", text: "Neutrons" },
-              { id: "d", text: "Electron shells" },
+              { id: "a", text: "Neutrons" },
+              { id: "b", text: "Electron shells" },
+              { id: "c", text: "Outer (valence) electrons" },
+              { id: "d", text: "Total electrons" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -555,12 +555,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "2,8,7" },
+              { id: "a", text: "8,8,1" },
               { id: "b", text: "2,8,8" },
               { id: "c", text: "2,7,8" },
-              { id: "d", text: "8,8,1" },
+              { id: "d", text: "2,8,7" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -584,8 +584,8 @@ export const lesson12: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Outer electron is further from nucleus and shielded, so easier to lose" },
-              { id: "b", text: "They have more protons" },
-              { id: "c", text: "They are heavier" },
+              { id: "b", text: "They are heavier" },
+              { id: "c", text: "They have more protons" },
               { id: "d", text: "They gain electrons more easily" },
             ],
             correctChoiceId: "a",
@@ -643,12 +643,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Outer (valence) electrons" },
-              { id: "b", text: "Electron shells" },
-              { id: "c", text: "Neutrons" },
-              { id: "d", text: "Protons" },
+              { id: "a", text: "Protons" },
+              { id: "b", text: "Neutrons" },
+              { id: "c", text: "Outer (valence) electrons" },
+              { id: "d", text: "Electron shells" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -670,12 +670,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "2,8,2" },
+              { id: "a", text: "8,2,2" },
               { id: "b", text: "2,8,8" },
               { id: "c", text: "2,2,8" },
-              { id: "d", text: "8,2,2" },
+              { id: "d", text: "2,8,2" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -746,12 +746,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "They have a full outer electron shell, so they do not need to gain or lose electrons" },
-              { id: "b", text: "They have no electrons" },
-              { id: "c", text: "They are too heavy to react" },
-              { id: "d", text: "They are all gases at room temperature" },
+              { id: "a", text: "They are all gases at room temperature" },
+              { id: "b", text: "They are too heavy to react" },
+              { id: "c", text: "They have a full outer electron shell, so they do not need to gain or lose electrons" },
+              { id: "d", text: "They have no electrons" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -801,12 +801,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The outer electron is further from the nucleus and more shielded, so it is lost more easily" },
-              { id: "b", text: "Atoms get smaller down the group" },
-              { id: "c", text: "They gain electrons more easily" },
-              { id: "d", text: "Their outer shells become full" },
+              { id: "a", text: "Atoms get smaller down the group" },
+              { id: "b", text: "Their outer shells become full" },
+              { id: "c", text: "The outer electron is further from the nucleus and more shielded, so it is lost more easily" },
+              { id: "d", text: "They gain electrons more easily" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

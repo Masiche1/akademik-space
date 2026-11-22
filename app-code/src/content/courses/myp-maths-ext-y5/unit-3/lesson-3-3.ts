@@ -57,12 +57,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "16" },
-              { id: "b", text: "8" },
+              { id: "a", text: "8" },
+              { id: "b", text: "32" },
               { id: "c", text: "4" },
-              { id: "d", text: "32" },
+              { id: "d", text: "16" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -84,12 +84,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "9" },
-              { id: "b", text: "11" },
-              { id: "c", text: "18" },
-              { id: "d", text: "8" },
+              { id: "a", text: "18" },
+              { id: "b", text: "8" },
+              { id: "c", text: "11" },
+              { id: "d", text: "9" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -112,12 +112,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Yes, from vertex with degree 3 to the other degree-3 vertex" },
+              { id: "a", text: "Yes, from degree-2 to degree-4 vertex" },
               { id: "b", text: "Yes, it's a circuit" },
               { id: "c", text: "No, too many odd vertices" },
-              { id: "d", text: "Yes, from degree-2 to degree-4 vertex" },
+              { id: "d", text: "Yes, from vertex with degree 3 to the other degree-3 vertex" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -172,12 +172,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The number of edges meeting that vertex" },
-              { id: "b", text: "The number of vertices in the graph" },
+              { id: "a", text: "The number of connected components" },
+              { id: "b", text: "The number of edges meeting that vertex" },
               { id: "c", text: "The length of the longest path" },
-              { id: "d", text: "The number of connected components" },
+              { id: "d", text: "The number of vertices in the graph" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -216,12 +216,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The sum of degrees must be even (handshaking), so odd-degree vertices come in pairs" },
-              { id: "b", text: "All vertices must have even degree" },
-              { id: "c", text: "Loops are not allowed" },
-              { id: "d", text: "Graphs must have an even number of edges" },
+              { id: "a", text: "Loops are not allowed" },
+              { id: "b", text: "The sum of degrees must be even (handshaking), so odd-degree vertices come in pairs" },
+              { id: "c", text: "Graphs must have an even number of edges" },
+              { id: "d", text: "All vertices must have even degree" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -263,12 +263,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Exactly 2" },
-              { id: "b", text: "Exactly 0" },
+              { id: "a", text: "Exactly 0" },
+              { id: "b", text: "Exactly 2" },
               { id: "c", text: "Exactly 1" },
               { id: "d", text: "Any even number" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -376,12 +376,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A square matrix where entry $(i,j)$ gives the number of edges between vertices $i$ and $j$" },
-              { id: "b", text: "A list of all vertex degrees" },
-              { id: "c", text: "The weights of all edges in order" },
+              { id: "a", text: "A list of all vertex degrees" },
+              { id: "b", text: "The weights of all edges in order" },
+              { id: "c", text: "A square matrix where entry $(i,j)$ gives the number of edges between vertices $i$ and $j$" },
               { id: "d", text: "A matrix of shortest path distances only" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -405,9 +405,9 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "5" },
-              { id: "b", text: "6" },
-              { id: "c", text: "15" },
-              { id: "d", text: "12" },
+              { id: "b", text: "15" },
+              { id: "c", text: "12" },
+              { id: "d", text: "6" },
             ],
             correctChoiceId: "a",
           },
@@ -492,12 +492,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\binom{5}{3}(0.6)^3(0.4)^2=0.3466$" },
-              { id: "b", text: "$(0.6)^3=0.216$" },
-              { id: "c", text: "$\\binom{5}{3}(0.6)^5=0.2592$" },
-              { id: "d", text: "0.5" },
+              { id: "a", text: "0.5" },
+              { id: "b", text: "$\\binom{5}{3}(0.6)^5=0.2592$" },
+              { id: "c", text: "$\\binom{5}{3}(0.6)^3(0.4)^2=0.3466$" },
+              { id: "d", text: "$(0.6)^3=0.216$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -519,12 +519,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Mean 6, variance 4.2" },
-              { id: "b", text: "Mean 6, variance 6" },
-              { id: "c", text: "Mean 20, variance 4.2" },
-              { id: "d", text: "Mean 0.3, variance 0.21" },
+              { id: "a", text: "Mean 20, variance 4.2" },
+              { id: "b", text: "Mean 0.3, variance 0.21" },
+              { id: "c", text: "Mean 6, variance 4.2" },
+              { id: "d", text: "Mean 6, variance 6" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -547,12 +547,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$1-(\\frac{5}{6})^4=0.518$" },
-              { id: "b", text: "$4(\\frac{1}{6})=0.667$" },
-              { id: "c", text: "$1-(\\frac{1}{6})^4=0.999$" },
+              { id: "a", text: "$4(\\frac{1}{6})=0.667$" },
+              { id: "b", text: "$1-(\\frac{1}{6})^4=0.999$" },
+              { id: "c", text: "$1-(\\frac{5}{6})^4=0.518$" },
               { id: "d", text: "$\\frac{4}{6}=0.667$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -607,12 +607,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "10" },
-              { id: "b", text: "20" },
-              { id: "c", text: "5" },
+              { id: "a", text: "20" },
+              { id: "b", text: "5" },
+              { id: "c", text: "10" },
               { id: "d", text: "25" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -653,12 +653,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Fixed number $n$ of independent trials, each with two outcomes and constant success probability $p$" },
-              { id: "b", text: "Any number of trials with changing probabilities" },
-              { id: "c", text: "Outcomes must be equally likely" },
-              { id: "d", text: "Trials must be dependent" },
+              { id: "a", text: "Any number of trials with changing probabilities" },
+              { id: "b", text: "Trials must be dependent" },
+              { id: "c", text: "Fixed number $n$ of independent trials, each with two outcomes and constant success probability $p$" },
+              { id: "d", text: "Outcomes must be equally likely" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -701,9 +701,9 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "3" },
-              { id: "b", text: "10" },
+              { id: "b", text: "7" },
               { id: "c", text: "0.3" },
-              { id: "d", text: "7" },
+              { id: "d", text: "10" },
             ],
             correctChoiceId: "a",
           },
@@ -813,12 +813,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Strong negative linear relationship" },
+              { id: "a", text: "Perfect positive relationship" },
               { id: "b", text: "Strong positive linear relationship" },
               { id: "c", text: "No relationship" },
-              { id: "d", text: "Perfect positive relationship" },
+              { id: "d", text: "Strong negative linear relationship" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -841,12 +841,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "For each unit increase in $x$, $y$ increases by 2.5 on average" },
-              { id: "b", text: "$y$ starts at 2.5" },
-              { id: "c", text: "$x$ increases by 2.5 for each unit of $y$" },
-              { id: "d", text: "The correlation is 2.5" },
+              { id: "a", text: "The correlation is 2.5" },
+              { id: "b", text: "$x$ increases by 2.5 for each unit of $y$" },
+              { id: "c", text: "For each unit increase in $x$, $y$ increases by 2.5 on average" },
+              { id: "d", text: "$y$ starts at 2.5" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

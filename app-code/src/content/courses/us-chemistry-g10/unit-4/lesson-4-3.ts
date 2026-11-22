@@ -50,12 +50,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A proton acceptor" },
-              { id: "b", text: "An electron pair donor" },
-              { id: "c", text: "A proton donor" },
-              { id: "d", text: "A substance that produces $\\text{OH}^-$ in water" },
+              { id: "a", text: "An electron pair donor" },
+              { id: "b", text: "A proton donor" },
+              { id: "c", text: "A substance that produces $\\text{OH}^-$ in water" },
+              { id: "d", text: "A proton acceptor" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Brønsted-Lowry acid", statement: "A Brønsted-Lowry acid is a proton ($\\text{H}^+$) donor." }],
@@ -171,12 +171,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Sodium chloride and hydrogen gas" },
-              { id: "b", text: "Sodium chloride and water" },
-              { id: "c", text: "Sodium hydroxide and chlorine" },
-              { id: "d", text: "Sodium chloride and carbon dioxide" },
+              { id: "a", text: "Sodium hydroxide and chlorine" },
+              { id: "b", text: "Sodium chloride and hydrogen gas" },
+              { id: "c", text: "Sodium chloride and carbon dioxide" },
+              { id: "d", text: "Sodium chloride and water" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Neutralization", statement: "acid + base $\\rightarrow$ salt + water" }],

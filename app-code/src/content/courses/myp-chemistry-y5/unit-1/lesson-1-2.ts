@@ -57,12 +57,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Fluorine" },
-              { id: "b", text: "Oxygen" },
-              { id: "c", text: "Chlorine" },
-              { id: "d", text: "Sodium" },
+              { id: "a", text: "Chlorine" },
+              { id: "b", text: "Sodium" },
+              { id: "c", text: "Oxygen" },
+              { id: "d", text: "Fluorine" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -84,12 +84,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Nuclear charge increases while electrons remain in the same shells, so electrons are held more tightly" },
+              { id: "a", text: "Atoms become less metallic" },
               { id: "b", text: "Atoms gain more shells" },
               { id: "c", text: "Electrons move further from the nucleus" },
-              { id: "d", text: "Atoms become less metallic" },
+              { id: "d", text: "Nuclear charge increases while electrons remain in the same shells, so electrons are held more tightly" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -114,8 +114,8 @@ export const lesson12: Lesson = {
             choices: [
               { id: "a", text: "K's outer electron is in the 4s subshell further from the nucleus with more shielding, so it is easier to remove" },
               { id: "b", text: "K has fewer protons" },
-              { id: "c", text: "Ca cannot form ions" },
-              { id: "d", text: "They have equal ionisation energies" },
+              { id: "c", text: "They have equal ionisation energies" },
+              { id: "d", text: "Ca cannot form ions" },
             ],
             correctChoiceId: "a",
           },
@@ -172,12 +172,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "K" },
-              { id: "b", text: "Na" },
-              { id: "c", text: "Li" },
+              { id: "a", text: "Na" },
+              { id: "b", text: "Li" },
+              { id: "c", text: "K" },
               { id: "d", text: "They are equal" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -200,8 +200,8 @@ export const lesson12: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Increases" },
-              { id: "b", text: "Decreases" },
-              { id: "c", text: "Stays constant" },
+              { id: "b", text: "Stays constant" },
+              { id: "c", text: "Decreases" },
               { id: "d", text: "First increases then decreases randomly" },
             ],
             correctChoiceId: "a",
@@ -226,12 +226,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It is small with high nuclear charge, so bonding electrons are pulled very strongly" },
-              { id: "b", text: "It has the most electron shells" },
-              { id: "c", text: "It is the lightest halogen" },
+              { id: "a", text: "It is the lightest halogen" },
+              { id: "b", text: "It is small with high nuclear charge, so bonding electrons are pulled very strongly" },
+              { id: "c", text: "It has the most electron shells" },
               { id: "d", text: "It forms the most bonds" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -279,12 +279,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Chlorine's outer electron is closer to a higher nuclear charge and its p-subshell is nearly full, making removal harder" },
-              { id: "b", text: "Chlorine has fewer protons" },
+              { id: "a", text: "Chlorine has fewer protons" },
+              { id: "b", text: "Chlorine's outer electron is closer to a higher nuclear charge and its p-subshell is nearly full, making removal harder" },
               { id: "c", text: "Sulphur has no valence electrons" },
               { id: "d", text: "They have identical ionisation energies" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -307,12 +307,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "After losing one electron Na⁺ has a full noble-gas shell; removing a second electron from this stable, tightly held configuration requires much more energy" },
+              { id: "a", text: "Second ionisation energies are always smaller" },
               { id: "b", text: "Na⁺ has more electrons than Na" },
-              { id: "c", text: "Second ionisation energies are always smaller" },
-              { id: "d", text: "The nucleus disappears after the first ionisation" },
+              { id: "c", text: "The nucleus disappears after the first ionisation" },
+              { id: "d", text: "After losing one electron Na⁺ has a full noble-gas shell; removing a second electron from this stable, tightly held configuration requires much more energy" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -363,12 +363,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "An anion" },
+              { id: "a", text: "An isotope" },
               { id: "b", text: "A cation" },
-              { id: "c", text: "A noble gas" },
-              { id: "d", text: "An isotope" },
+              { id: "c", text: "An anion" },
+              { id: "d", text: "A noble gas" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -522,12 +522,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "2+" },
-              { id: "b", text: "1+" },
-              { id: "c", text: "2−" },
+              { id: "a", text: "2−" },
+              { id: "b", text: "2+" },
+              { id: "c", text: "1+" },
               { id: "d", text: "1−" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -550,9 +550,9 @@ export const lesson12: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Gaining one electron completes its outer shell (octet), releasing energy; losing seven would be very difficult" },
-              { id: "b", text: "Chlorine has no protons" },
-              { id: "c", text: "Chlorine is a metal" },
-              { id: "d", text: "Atoms never lose electrons" },
+              { id: "b", text: "Chlorine is a metal" },
+              { id: "c", text: "Atoms never lose electrons" },
+              { id: "d", text: "Chlorine has no protons" },
             ],
             correctChoiceId: "a",
           },
@@ -577,12 +577,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Al₂O₃" },
-              { id: "b", text: "AlO" },
+              { id: "a", text: "AlO" },
+              { id: "b", text: "Al₂O₃" },
               { id: "c", text: "Al₂O" },
               { id: "d", text: "AlO₃" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -637,12 +637,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "1s²2s²2p⁶ (2,8)" },
+              { id: "a", text: "2,8,8" },
               { id: "b", text: "1s²2s²2p⁶3s¹ (2,8,1)" },
-              { id: "c", text: "2,8,8" },
-              { id: "d", text: "1s²2s²2p⁵" },
+              { id: "c", text: "1s²2s²2p⁵" },
+              { id: "d", text: "1s²2s²2p⁶ (2,8)" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -664,12 +664,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Chlorine" },
-              { id: "b", text: "Sodium" },
-              { id: "c", text: "Magnesium" },
-              { id: "d", text: "Aluminium" },
+              { id: "a", text: "Magnesium" },
+              { id: "b", text: "Aluminium" },
+              { id: "c", text: "Chlorine" },
+              { id: "d", text: "Sodium" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -691,12 +691,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Na⁺ has one fewer electron but the same nuclear charge, so remaining electrons are pulled closer" },
-              { id: "b", text: "Na⁺ has more protons" },
-              { id: "c", text: "Ions are always larger than atoms" },
-              { id: "d", text: "Na⁺ has an extra shell" },
+              { id: "a", text: "Ions are always larger than atoms" },
+              { id: "b", text: "Na⁺ has one fewer electron but the same nuclear charge, so remaining electrons are pulled closer" },
+              { id: "c", text: "Na⁺ has an extra shell" },
+              { id: "d", text: "Na⁺ has more protons" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -744,12 +744,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Extra electrons increase electron-electron repulsion while nuclear charge stays the same" },
+              { id: "a", text: "They are identical in size" },
               { id: "b", text: "O²⁻ has more protons" },
-              { id: "c", text: "O²⁻ loses electrons" },
-              { id: "d", text: "They are identical in size" },
+              { id: "c", text: "Extra electrons increase electron-electron repulsion while nuclear charge stays the same" },
+              { id: "d", text: "O²⁻ loses electrons" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -773,9 +773,9 @@ export const lesson12: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "[Ar] 3d⁶ — the 4s electrons are lost before the 3d electrons" },
-              { id: "b", text: "[Ar] 4s²3d⁴ — the 3d electrons are lost first" },
-              { id: "c", text: "[Ar] 4s²3d⁶ — no electrons are lost" },
-              { id: "d", text: "1s²2s²2p⁶3s²3p⁶4s²3d⁴ — inner electrons are lost" },
+              { id: "b", text: "[Ar] 4s²3d⁶ — no electrons are lost" },
+              { id: "c", text: "1s²2s²2p⁶3s²3p⁶4s²3d⁴ — inner electrons are lost" },
+              { id: "d", text: "[Ar] 4s²3d⁴ — the 3d electrons are lost first" },
             ],
             correctChoiceId: "a",
           },
@@ -828,9 +828,9 @@ export const lesson12: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "−1" },
-              { id: "b", text: "+1" },
-              { id: "c", text: "−2" },
-              { id: "d", text: "0" },
+              { id: "b", text: "0" },
+              { id: "c", text: "+1" },
+              { id: "d", text: "−2" },
             ],
             correctChoiceId: "a",
           },

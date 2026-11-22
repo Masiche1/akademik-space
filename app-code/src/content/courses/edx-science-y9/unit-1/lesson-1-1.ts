@@ -55,12 +55,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Carbohydrate" },
-              { id: "b", text: "Protein" },
-              { id: "c", text: "Fibre" },
-              { id: "d", text: "Lipid (fat)" },
+              { id: "a", text: "Lipid (fat)" },
+              { id: "b", text: "Fibre" },
+              { id: "c", text: "Protein" },
+              { id: "d", text: "Carbohydrate" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -186,12 +186,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Stomach" },
-              { id: "b", text: "Oesophagus" },
-              { id: "c", text: "Small intestine" },
-              { id: "d", text: "Large intestine" },
+              { id: "a", text: "Small intestine" },
+              { id: "b", text: "Large intestine" },
+              { id: "c", text: "Stomach" },
+              { id: "d", text: "Oesophagus" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [

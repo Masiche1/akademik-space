@@ -48,10 +48,10 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$3.47$" },
+              { id: "a", text: "$3.5$" },
               { id: "b", text: "$3.48$" },
               { id: "c", text: "$3.50$" },
-              { id: "d", text: "$3.5$" },
+              { id: "d", text: "$3.47$" },
             ],
             correctChoiceId: "b",
           },
@@ -174,12 +174,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$6 \\le l < 8$" },
-              { id: "b", text: "$6.5 \\le l \\le 7.5$" },
-              { id: "c", text: "$6.5 \\le l < 7.5$" },
+              { id: "a", text: "$6.5 \\le l \\le 7.5$" },
+              { id: "b", text: "$6.5 \\le l < 7.5$" },
+              { id: "c", text: "$6 \\le l < 8$" },
               { id: "d", text: "$6.9 \\le l < 7.1$" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Error interval", statement: "$\\text{lower bound} \\le x < \\text{upper bound}$, using half the rounding unit." }],

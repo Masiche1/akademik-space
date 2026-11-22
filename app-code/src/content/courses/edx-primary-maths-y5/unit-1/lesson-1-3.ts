@@ -65,11 +65,11 @@ export const lesson73: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "2 × 6" },
-              { id: "b", text: "2 × 2 × 3" },
-              { id: "c", text: "3 × 4" },
+              { id: "b", text: "3 × 4" },
+              { id: "c", text: "2 × 2 × 3" },
               { id: "d", text: "2 × 3 × 2" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -253,12 +253,12 @@ export const lesson73: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "4" },
-              { id: "b", text: "6" },
-              { id: "c", text: "2" },
+              { id: "a", text: "6" },
+              { id: "b", text: "2" },
+              { id: "c", text: "4" },
               { id: "d", text: "8" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [

@@ -39,11 +39,11 @@ export const lesson23: Lesson = {
           id: "va-u2-contemporary-media-q1", difficulty: "foundation", totalMarks: 2,
           stem: "An installation artwork is best described as:",
           response: { type: "mcq", choices: [
-            { id: "a", text: "A framed painting hung in a gallery" },
-            { id: "b", text: "A work that transforms a space the viewer moves through" },
-            { id: "c", text: "A printed poster series" },
-            { id: "d", text: "A small sculpture on a pedestal" },
-          ], correctChoiceId: "b" },
+            { id: "a", text: "A printed poster series" },
+            { id: "b", text: "A small sculpture on a pedestal" },
+            { id: "c", text: "A framed painting hung in a gallery" },
+            { id: "d", text: "A work that transforms a space the viewer moves through" },
+          ], correctChoiceId: "d" },
           markscheme: {
             principles: [{ kind: "definition", name: "Installation", statement: "An artwork occupying and transforming a space for the viewer to enter." }],
             steps: [
@@ -112,11 +112,11 @@ export const lesson23: Lesson = {
           id: "va-u2-contemporary-media-q5", difficulty: "foundation", totalMarks: 2,
           stem: "Digital art is best defined as art that:",
           response: { type: "mcq", choices: [
-            { id: "a", text: "Is always produced as a printed object" },
-            { id: "b", text: "Is made or presented using digital technology such as software, screens or networks" },
-            { id: "c", text: "Uses only traditional oil paint" },
-            { id: "d", text: "Exists only inside museums" },
-          ], correctChoiceId: "b" },
+            { id: "a", text: "Uses only traditional oil paint" },
+            { id: "b", text: "Exists only inside museums" },
+            { id: "c", text: "Is made or presented using digital technology such as software, screens or networks" },
+            { id: "d", text: "Is always produced as a printed object" },
+          ], correctChoiceId: "c" },
           markscheme: {
             principles: [{ kind: "definition", name: "Digital art", statement: "Art whose medium or presentation depends on digital technology." }],
             steps: [
@@ -146,11 +146,11 @@ export const lesson23: Lesson = {
           id: "va-u2-contemporary-media-q7", difficulty: "core", totalMarks: 2,
           stem: "Conceptual art prioritises:",
           response: { type: "mcq", choices: [
-            { id: "a", text: "Technical finish and craft" },
-            { id: "b", text: "The idea or concept over craft and object" },
+            { id: "a", text: "Realistic depiction" },
+            { id: "b", text: "Technical finish and craft" },
             { id: "c", text: "Large physical scale" },
-            { id: "d", text: "Realistic depiction" },
-          ], correctChoiceId: "b" },
+            { id: "d", text: "The idea or concept over craft and object" },
+          ], correctChoiceId: "d" },
           markscheme: {
             principles: [{ kind: "definition", name: "Conceptual art", statement: "The idea is the artwork; form is secondary to concept." }],
             steps: [
@@ -180,11 +180,11 @@ export const lesson23: Lesson = {
           id: "va-u2-contemporary-media-q9", difficulty: "core", totalMarks: 2,
           stem: "Contemporary art blurs the boundary with visual culture because:",
           response: { type: "mcq", choices: [
-            { id: "a", text: "It uses the same media as advertising and film" },
-            { id: "b", text: "Galleries have all closed" },
-            { id: "c", text: "It is cheaper to produce" },
-            { id: "d", text: "Critics refuse to discuss it" },
-          ], correctChoiceId: "a" },
+            { id: "a", text: "It is cheaper to produce" },
+            { id: "b", text: "It uses the same media as advertising and film" },
+            { id: "c", text: "Critics refuse to discuss it" },
+            { id: "d", text: "Galleries have all closed" },
+          ], correctChoiceId: "b" },
           markscheme: {
             principles: [{ kind: "context", name: "Art and visual culture", statement: "Shared media and image saturation dissolve the boundary between art and everyday imagery." }],
             steps: [
@@ -215,11 +215,11 @@ export const lesson23: Lesson = {
           id: "va-u2-contemporary-media-q11", difficulty: "foundation", totalMarks: 2,
           stem: "A participatory artwork is one that:",
           response: { type: "mcq", choices: [
-            { id: "a", text: "Forbids any viewer contact" },
-            { id: "b", text: "Requires or invites the viewer's active involvement" },
+            { id: "a", text: "Requires or invites the viewer's active involvement" },
+            { id: "b", text: "Forbids any viewer contact" },
             { id: "c", text: "Is always digital" },
             { id: "d", text: "Hangs flat on a wall" },
-          ], correctChoiceId: "b" },
+          ], correctChoiceId: "a" },
           markscheme: {
             principles: [{ kind: "definition", name: "Participation", statement: "The viewer becomes co-producer of the work's event." }],
             steps: [
@@ -250,11 +250,11 @@ export const lesson23: Lesson = {
           id: "va-u2-contemporary-media-q13", difficulty: "core", totalMarks: 2,
           stem: "A defining feature of street art is that it:",
           response: { type: "mcq", choices: [
-            { id: "a", text: "Is always commissioned by a city" },
-            { id: "b", text: "Operates in public space outside galleries, often unsanctioned" },
-            { id: "c", text: "Uses carved marble" },
-            { id: "d", text: "Is guaranteed to last permanently" },
-          ], correctChoiceId: "b" },
+            { id: "a", text: "Is guaranteed to last permanently" },
+            { id: "b", text: "Uses carved marble" },
+            { id: "c", text: "Is always commissioned by a city" },
+            { id: "d", text: "Operates in public space outside galleries, often unsanctioned" },
+          ], correctChoiceId: "d" },
           markscheme: {
             principles: [{ kind: "definition", name: "Street art", statement: "Public-space work outside institutional channels, often ephemeral or unsanctioned." }],
             steps: [
@@ -292,11 +292,11 @@ export const lesson23: Lesson = {
           id: "va-u2-contemporary-media-q15", difficulty: "core", totalMarks: 2,
           stem: "The reproducibility of digital art primarily challenges:",
           response: { type: "mcq", choices: [
-            { id: "a", text: "The idea of uniqueness and originality as sources of value" },
-            { id: "b", text: "The need for picture frames" },
-            { id: "c", text: "The requirement of gallery walls" },
-            { id: "d", text: "The skill of drawing" },
-          ], correctChoiceId: "a" },
+            { id: "a", text: "The requirement of gallery walls" },
+            { id: "b", text: "The skill of drawing" },
+            { id: "c", text: "The need for picture frames" },
+            { id: "d", text: "The idea of uniqueness and originality as sources of value" },
+          ], correctChoiceId: "d" },
           markscheme: {
             principles: [{ kind: "principle", name: "Reproducibility", statement: "Infinite copies shift authenticity from uniqueness to provenance and context." }],
             steps: [
@@ -311,11 +311,11 @@ export const lesson23: Lesson = {
           id: "va-u2-contemporary-media-q16", difficulty: "foundation", totalMarks: 2,
           stem: "Which is NOT typically a characteristic of contemporary art practice?",
           response: { type: "mcq", choices: [
-            { id: "a", text: "Pluralism of media" },
-            { id: "b", text: "Concept over craft" },
-            { id: "c", text: "Viewer participation" },
-            { id: "d", text: "Strict adherence to Renaissance linear perspective" },
-          ], correctChoiceId: "d" },
+            { id: "a", text: "Concept over craft" },
+            { id: "b", text: "Pluralism of media" },
+            { id: "c", text: "Strict adherence to Renaissance linear perspective" },
+            { id: "d", text: "Viewer participation" },
+          ], correctChoiceIc: "d" },
           markscheme: {
             principles: [{ kind: "principle", name: "Contemporary markers", statement: "Plural media, concept and participation define the field." }],
             steps: [
@@ -352,11 +352,11 @@ export const lesson23: Lesson = {
           id: "va-u2-visual-culture-q1", difficulty: "foundation", totalMarks: 2,
           stem: "Visual literacy is best defined as:",
           response: { type: "mcq", choices: [
-            { id: "a", text: "The ability to draw well" },
-            { id: "b", text: "The ability to interpret and critique images in media" },
+            { id: "a", text: "The ability to interpret and critique images in media" },
+            { id: "b", text: "The ability to draw well" },
             { id: "c", text: "Knowing famous artists' names" },
             { id: "d", text: "The skill of photo editing" },
-          ], correctChoiceId: "b" },
+          ], correctChoiceId: "a" },
           markscheme: {
             principles: [{ kind: "definition", name: "Visual literacy", statement: "Critical ability to read and interpret images across media." }],
             steps: [
@@ -425,10 +425,10 @@ export const lesson23: Lesson = {
           id: "va-u2-visual-culture-q5", difficulty: "foundation", totalMarks: 2,
           stem: "Propaganda is best defined as:",
           response: { type: "mcq", choices: [
-            { id: "a", text: "Neutral news reporting" },
+            { id: "a", text: "Personal diary illustration" },
             { id: "b", text: "Persuasive imagery or messages designed to promote a political or ideological agenda" },
             { id: "c", text: "Abstract decorative pattern" },
-            { id: "d", text: "Personal diary illustration" },
+            { id: "d", text: "Neutral news reporting" },
           ], correctChoiceId: "b" },
           markscheme: {
             principles: [{ kind: "definition", name: "Propaganda", statement: "Images constructed to advance an agenda rather than to inform neutrally." }],
@@ -459,11 +459,11 @@ export const lesson23: Lesson = {
           id: "va-u2-visual-culture-q7", difficulty: "core", totalMarks: 2,
           stem: "A meme functions in visual culture primarily as:",
           response: { type: "mcq", choices: [
-            { id: "a", text: "A religious icon" },
-            { id: "b", text: "A rapidly reproduced, remixed image carrying shared cultural meaning" },
-            { id: "c", text: "A legal document" },
-            { id: "d", text: "A traditional pigment" },
-          ], correctChoiceId: "b" },
+            { id: "a", text: "A traditional pigment" },
+            { id: "b", text: "A legal document" },
+            { id: "c", text: "A religious icon" },
+            { id: "d", text: "A rapidly reproduced, remixed image carrying shared cultural meaning" },
+          ], correctChoiceId: "d" },
           markscheme: {
             principles: [{ kind: "definition", name: "Meme", statement: "A reproducible, mutable image format that encodes shared jokes or references." }],
             steps: [
@@ -493,11 +493,11 @@ export const lesson23: Lesson = {
           id: "va-u2-visual-culture-q9", difficulty: "core", totalMarks: 2,
           stem: "Hybrid visual culture refers to:",
           response: { type: "mcq", choices: [
-            { id: "a", text: "Art that mixes oil and acrylic paint" },
-            { id: "b", text: "Styles and images blending across cultures through global media" },
-            { id: "c", text: "Black-and-white photography" },
-            { id: "d", text: "Symmetrical composition" },
-          ], correctChoiceId: "b" },
+            { id: "a", text: "Symmetrical composition" },
+            { id: "b", text: "Black-and-white photography" },
+            { id: "c", text: "Styles and images blending across cultures through global media" },
+            { id: "d", text: "Art that mixes oil and acrylic paint" },
+          ], correctChoiceId: "c" },
           markscheme: {
             principles: [{ kind: "context", name: "Hybrid visual culture", statement: "Global media flow blends regional styles into new mixed forms." }],
             steps: [
@@ -529,10 +529,10 @@ export const lesson23: Lesson = {
           stem: "In advertisements, a model looking directly at the viewer typically:",
           response: { type: "mcq", choices: [
             { id: "a", text: "Is an accidental photographic effect" },
-            { id: "b", text: "Creates direct address, making the viewer feel seen and personally implicated" },
-            { id: "c", text: "Blocks the product from view" },
+            { id: "b", text: "Blocks the product from view" },
+            { id: "c", text: "Creates direct address, making the viewer feel seen and personally implicated" },
             { id: "d", text: "Indicates the model's shyness" },
-          ], correctChoiceId: "b" },
+          ], correctChoiceId: "c" },
           markscheme: {
             principles: [{ kind: "technique", name: "Direct gaze", statement: "Eye contact with the viewer creates address and engagement." }],
             steps: [
@@ -565,8 +565,8 @@ export const lesson23: Lesson = {
           response: { type: "mcq", choices: [
             { id: "a", text: "Symmetrical balance" },
             { id: "b", text: "Scarcity and urgency to pressure quick decisions" },
-            { id: "c", text: "Chiaroscuro lighting" },
-            { id: "d", text: "Linear perspective" },
+            { id: "c", text: "Linear perspective" },
+            { id: "d", text: "Chiaroscuro lighting" },
           ], correctChoiceId: "b" },
           markscheme: {
             principles: [{ kind: "technique", name: "Scarcity and urgency", statement: "Limited-availability claims pressure impulsive purchase decisions." }],
@@ -605,11 +605,11 @@ export const lesson23: Lesson = {
           id: "va-u2-visual-culture-q15", difficulty: "core", totalMarks: 2,
           stem: "Visual culture trains our expectations of beauty and success primarily through:",
           response: { type: "mcq", choices: [
-            { id: "a", text: "Formal art education in schools" },
-            { id: "b", text: "Repeated exposure to idealised imagery across media" },
-            { id: "c", text: "Museum ticket prices" },
-            { id: "d", text: "Picture frame materials" },
-          ], correctChoiceId: "b" },
+            { id: "a", text: "Repeated exposure to idealised imagery across media" },
+            { id: "b", text: "Picture frame materials" },
+            { id: "c", text: "Formal art education in schools" },
+            { id: "d", text: "Museum ticket prices" },
+          ], correctChoiceId: "a" },
           markscheme: {
             principles: [{ kind: "principle", name: "Norm formation", statement: "Repeated exposure to idealised images installs standards that feel natural." }],
             steps: [
@@ -624,10 +624,10 @@ export const lesson23: Lesson = {
           id: "va-u2-visual-culture-q16", difficulty: "core", totalMarks: 2,
           stem: "Visual literacy protects viewers from manipulation primarily by:",
           response: { type: "mcq", choices: [
-            { id: "a", text: "Banning all advertising" },
+            { id: "a", text: "Removing emotion from viewing" },
             { id: "b", text: "Enabling them to recognise construction, intent and persuasion techniques" },
             { id: "c", text: "Improving eyesight" },
-            { id: "d", text: "Removing emotion from viewing" },
+            { id: "d", text: "Banning all advertising" },
           ], correctChoiceId: "b" },
           markscheme: {
             principles: [{ kind: "principle", name: "Visual literacy as defence", statement: "Critical reading exposes how images are constructed to persuade." }],

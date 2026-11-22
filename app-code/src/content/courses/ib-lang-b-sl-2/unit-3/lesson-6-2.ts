@@ -52,12 +52,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Simple, Moderate, Achievable, Relevant, Timely" },
-              { id: "b", text: "Specific, Measurable, Achievable, Relevant, Time-bound" },
-              { id: "c", text: "Strategic, Methodical, Active, Regular, Targeted" },
+              { id: "a", text: "Specific, Measurable, Achievable, Relevant, Time-bound" },
+              { id: "b", text: "Strategic, Methodical, Active, Regular, Targeted" },
+              { id: "c", text: "Simple, Moderate, Achievable, Relevant, Timely" },
               { id: "d", text: "Study, Measure, Achieve, Review, Track" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -146,12 +146,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Simple, Moderate, Achievable, Regular, Timely" },
-              { id: "b", text: "Specific, Measurable, Achievable, Relevant, Time-bound" },
+              { id: "a", text: "Specific, Measurable, Achievable, Relevant, Time-bound" },
+              { id: "b", text: "Simple, Moderate, Achievable, Regular, Timely" },
               { id: "c", text: "Study, Measure, Achieve, Review, Track" },
               { id: "d", text: "Strategic, Methodical, Active, Realistic, Targeted" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -173,12 +173,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Get better at writing" },
-              { id: "b", text: "Write 3 essays per week and self-score them against the criteria" },
-              { id: "c", text: "Study harder this term" },
-              { id: "d", text: "Improve my vocabulary somehow" },
+              { id: "a", text: "Study harder this term" },
+              { id: "b", text: "Get better at writing" },
+              { id: "c", text: "Improve my vocabulary somehow" },
+              { id: "d", text: "Write 3 essays per week and self-score them against the criteria" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -201,11 +201,11 @@ export const lesson62: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Writing essays and giving presentations" },
-              { id: "b", text: "Receiving language — reading and listening" },
-              { id: "c", text: "Memorising grammar rules only" },
+              { id: "b", text: "Memorising grammar rules only" },
+              { id: "c", text: "Receiving language — reading and listening" },
               { id: "d", text: "Speaking with native speakers only" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -228,8 +228,8 @@ export const lesson62: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Producing language — writing and speaking" },
-              { id: "b", text: "Reading graded readers" },
-              { id: "c", text: "Listening to podcasts" },
+              { id: "b", text: "Listening to podcasts" },
+              { id: "c", text: "Reading graded readers" },
               { id: "d", text: "Highlighting vocabulary in texts" },
             ],
             correctChoiceId: "a",
@@ -254,12 +254,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Because output is always more important than input" },
-              { id: "b", text: "Because input alone lets you understand but not produce — output exposes gaps input hides" },
-              { id: "c", text: "Because reading and listening are useless" },
+              { id: "a", text: "Because input alone lets you understand but not produce — output exposes gaps input hides" },
+              { id: "b", text: "Because reading and listening are useless" },
+              { id: "c", text: "Because output is always more important than input" },
               { id: "d", text: "Because you can only study one skill per day" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -281,9 +281,9 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "As difficult as possible to build character" },
+              { id: "a", text: "The same as your friend's goal" },
               { id: "b", text: "Realistic for your current level and available time" },
-              { id: "c", text: "The same as your friend's goal" },
+              { id: "c", text: "As difficult as possible to build character" },
               { id: "d", text: "Impossible but motivating" },
             ],
             correctChoiceId: "b",
@@ -308,12 +308,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Prove you studied to your parents" },
-              { id: "b", text: "Track what you studied, struggled with and improved — making progress visible" },
-              { id: "c", text: "Replace all practice" },
-              { id: "d", text: "Write your essays for you" },
+              { id: "a", text: "Replace all practice" },
+              { id: "b", text: "Prove you studied to your parents" },
+              { id: "c", text: "Write your essays for you" },
+              { id: "d", text: "Track what you studied, struggled with and improved — making progress visible" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -491,12 +491,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Repeating everything every day" },
-              { id: "b", text: "Reviewing material at increasing intervals before forgetting" },
+              { id: "a", text: "Writing each word ten times" },
+              { id: "b", text: "Repeating everything every day" },
               { id: "c", text: "Studying only on weekends" },
-              { id: "d", text: "Writing each word ten times" },
+              { id: "d", text: "Reviewing material at increasing intervals before forgetting" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -585,12 +585,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Repeating material every single day" },
-              { id: "b", text: "Reviewing material at increasing intervals just before you would forget it" },
-              { id: "c", text: "Studying only once a week" },
+              { id: "a", text: "Reviewing material at increasing intervals just before you would forget it" },
+              { id: "b", text: "Studying only once a week" },
+              { id: "c", text: "Repeating material every single day" },
               { id: "d", text: "Writing each item ten times in one session" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -612,12 +612,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Review after 1 day, then 3 days, then 1 week, then 2 weeks" },
-              { id: "b", text: "Review once a month only" },
-              { id: "c", text: "Review every hour until memorised" },
-              { id: "d", text: "Never review — one reading is enough" },
+              { id: "a", text: "Never review — one reading is enough" },
+              { id: "b", text: "Review every hour until memorised" },
+              { id: "c", text: "Review after 1 day, then 3 days, then 1 week, then 2 weeks" },
+              { id: "d", text: "Review once a month only" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -639,12 +639,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Re-reading your notes until they feel familiar" },
-              { id: "b", text: "Testing yourself — recalling information before checking it" },
-              { id: "c", text: "Asking the teacher for answers" },
-              { id: "d", text: "Copying vocabulary lists neatly" },
+              { id: "a", text: "Copying vocabulary lists neatly" },
+              { id: "b", text: "Asking the teacher for answers" },
+              { id: "c", text: "Re-reading your notes until they feel familiar" },
+              { id: "d", text: "Testing yourself — recalling information before checking it" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -666,12 +666,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Analysing one very difficult text word by word" },
-              { id: "b", text: "Reading large amounts of level-appropriate material for pleasure and fluency" },
-              { id: "c", text: "Reading only exam past papers" },
+              { id: "a", text: "Reading large amounts of level-appropriate material for pleasure and fluency" },
+              { id: "b", text: "Reading only exam past papers" },
+              { id: "c", text: "Analysing one very difficult text word by word" },
               { id: "d", text: "Translating every sentence into your first language" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -693,12 +693,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Only 50% of the words" },
-              { id: "b", text: "Almost nothing — maximum difficulty" },
-              { id: "c", text: "About 95% or more — mostly understandable, with enjoyable challenge" },
-              { id: "d", text: "Only material far below your level" },
+              { id: "a", text: "Almost nothing — maximum difficulty" },
+              { id: "b", text: "About 95% or more — mostly understandable, with enjoyable challenge" },
+              { id: "c", text: "Only material far below your level" },
+              { id: "d", text: "Only 50% of the words" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -721,11 +721,11 @@ export const lesson62: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Because cramming is always more stressful" },
-              { id: "b", text: "Because each recall before forgetting strengthens long-term memory, while cramming fades quickly" },
+              { id: "b", text: "Because spaced repetition takes less total time always" },
               { id: "c", text: "Because teachers forbid cramming" },
-              { id: "d", text: "Because spaced repetition takes less total time always" },
+              { id: "d", text: "Because each recall before forgetting strengthens long-term memory, while cramming fades quickly" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -748,11 +748,11 @@ export const lesson62: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "It feels easier" },
-              { id: "b", text: "It is faster" },
-              { id: "c", text: "Effortful recall builds stronger memory traces and reveals what you actually know" },
+              { id: "b", text: "Effortful recall builds stronger memory traces and reveals what you actually know" },
+              { id: "c", text: "It is faster" },
               { id: "d", text: "Notes are never useful" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [

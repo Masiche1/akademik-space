@@ -55,12 +55,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A compound formed when a metal reacts with oxygen" },
-              { id: "b", text: "A mixture of a metal with one or more other elements" },
+              { id: "a", text: "A mixture of a metal with one or more other elements" },
+              { id: "b", text: "A compound formed when a metal reacts with oxygen" },
               { id: "c", text: "A pure metal that has been heated and cooled quickly" },
               { id: "d", text: "A metal that has been coated with a layer of zinc" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -190,12 +190,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It uses much less energy than extracting aluminium from bauxite" },
-              { id: "b", text: "It produces more carbon dioxide than extraction" },
-              { id: "c", text: "It increases the amount of ore that must be mined" },
-              { id: "d", text: "It makes the aluminium more reactive" },
+              { id: "a", text: "It makes the aluminium more reactive" },
+              { id: "b", text: "It uses much less energy than extracting aluminium from bauxite" },
+              { id: "c", text: "It produces more carbon dioxide than extraction" },
+              { id: "d", text: "It increases the amount of ore that must be mined" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [

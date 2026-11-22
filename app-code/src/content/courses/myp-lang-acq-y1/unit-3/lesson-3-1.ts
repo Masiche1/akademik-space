@@ -56,10 +56,10 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "a" },
+              { id: "a", text: "some" },
               { id: "b", text: "an" },
-              { id: "c", text: "the" },
-              { id: "d", text: "some" },
+              { id: "c", text: "a" },
+              { id: "d", text: "the" },
             ],
             correctChoiceId: "b",
           },
@@ -153,11 +153,11 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "a" },
-              { id: "b", text: "an" },
-              { id: "c", text: "the" },
-              { id: "d", text: "some" },
+              { id: "b", text: "some" },
+              { id: "c", text: "an" },
+              { id: "d", text: "the" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -179,10 +179,10 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "buss" },
+              { id: "a", text: "buseses" },
               { id: "b", text: "buses" },
-              { id: "c", text: "buseses" },
-              { id: "d", text: "bu" },
+              { id: "c", text: "bu" },
+              { id: "d", text: "buss" },
             ],
             correctChoiceId: "b",
           },
@@ -248,12 +248,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "I have got a cats." },
-              { id: "b", text: "I have got cats." },
-              { id: "c", text: "I have got an cats." },
-              { id: "d", text: "I have got the cats are black." },
+              { id: "a", text: "I have got cats." },
+              { id: "b", text: "I have got an cats." },
+              { id: "c", text: "I have got the cats are black." },
+              { id: "d", text: "I have got a cats." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -275,12 +275,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "For any one thing, like 'a book'" },
-              { id: "b", text: "For a specific thing everyone knows, like 'the sun'" },
+              { id: "a", text: "For a specific thing everyone knows, like 'the sun'" },
+              { id: "b", text: "For any one thing, like 'a book'" },
               { id: "c", text: "Before every plural noun" },
               { id: "d", text: "Never in English" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -355,8 +355,8 @@ export const lesson31: Lesson = {
             choices: [
               { id: "a", text: "babys" },
               { id: "b", text: "babies" },
-              { id: "c", text: "babyes" },
-              { id: "d", text: "babyeses" },
+              { id: "c", text: "babyeses" },
+              { id: "d", text: "babyes" },
             ],
             correctChoiceId: "b",
           },
@@ -386,10 +386,10 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "1" },
+              { id: "a", text: "3" },
               { id: "b", text: "2" },
-              { id: "c", text: "3" },
-              { id: "d", text: "4" },
+              { id: "c", text: "4" },
+              { id: "d", text: "1" },
             ],
             correctChoiceId: "b",
           },
@@ -502,12 +502,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Happy" },
-              { id: "b", text: "Quickly" },
-              { id: "c", text: "Ruler" },
+              { id: "a", text: "Quickly" },
+              { id: "b", text: "Ruler" },
+              { id: "c", text: "Happy" },
               { id: "d", text: "Between" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -599,12 +599,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Ruler" },
-              { id: "b", text: "Pen" },
-              { id: "c", text: "Book" },
-              { id: "d", text: "Chair" },
+              { id: "a", text: "Pen" },
+              { id: "b", text: "Book" },
+              { id: "c", text: "Chair" },
+              { id: "d", text: "Ruler" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -626,12 +626,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Drawing straight lines and measuring" },
-              { id: "b", text: "Writing letters" },
+              { id: "a", text: "Writing letters" },
+              { id: "b", text: "Drawing straight lines and measuring" },
               { id: "c", text: "Carrying books" },
               { id: "d", text: "Sitting on" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -695,12 +695,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "You open your books." },
-              { id: "b", text: "Open your books." },
-              { id: "c", text: "Opening your books." },
-              { id: "d", text: "Books open you." },
+              { id: "a", text: "Opening your books." },
+              { id: "b", text: "Books open you." },
+              { id: "c", text: "Open your books." },
+              { id: "d", text: "You open your books." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -722,10 +722,10 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Ruler" },
+              { id: "a", text: "Eraser" },
               { id: "b", text: "Crayon" },
-              { id: "c", text: "Eraser" },
-              { id: "d", text: "Desk" },
+              { id: "c", text: "Desk" },
+              { id: "d", text: "Ruler" },
             ],
             correctChoiceId: "b",
           },
@@ -800,12 +800,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Always use 'you' first" },
-              { id: "b", text: "Verb first, no subject" },
-              { id: "c", text: "Always end with 'please'" },
-              { id: "d", text: "Use only nouns" },
+              { id: "a", text: "Use only nouns" },
+              { id: "b", text: "Always end with 'please'" },
+              { id: "c", text: "Always use 'you' first" },
+              { id: "d", text: "Verb first, no subject" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -833,12 +833,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "1" },
-              { id: "b", text: "2" },
-              { id: "c", text: "3" },
+              { id: "a", text: "3" },
+              { id: "b", text: "1" },
+              { id: "c", text: "2" },
               { id: "d", text: "4" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [

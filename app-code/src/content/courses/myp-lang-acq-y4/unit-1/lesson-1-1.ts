@@ -55,12 +55,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A type of speech" },
-              { id: "b", text: "The topic or statement being debated" },
-              { id: "c", text: "A voting system" },
-              { id: "d", text: "The judges" },
+              { id: "a", text: "The topic or statement being debated" },
+              { id: "b", text: "The judges" },
+              { id: "c", text: "A type of speech" },
+              { id: "d", text: "A voting system" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -173,10 +173,10 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "An opponent" },
+              { id: "a", text: "An audience member" },
               { id: "b", text: "A proposer (speaker for)" },
-              { id: "c", text: "A judge" },
-              { id: "d", text: "An audience member" },
+              { id: "c", text: "An opponent" },
+              { id: "d", text: "A judge" },
             ],
             correctChoiceId: "b",
           },
@@ -200,12 +200,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "'To sum up...'" },
-              { id: "b", text: "'You say uniforms save time, but what about self-expression?'" },
+              { id: "a", text: "'You say uniforms save time, but what about self-expression?'" },
+              { id: "b", text: "'To sum up...'" },
               { id: "c", text: "'Good morning, everyone.'" },
               { id: "d", text: "'The debate is now finished.'" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -288,11 +288,11 @@ export const lesson11: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Both speakers want homework banned" },
-              { id: "b", text: "Sara is against homework; Omar supports it" },
-              { id: "c", text: "Both speakers support homework" },
+              { id: "b", text: "Both speakers support homework" },
+              { id: "c", text: "Sara is against homework; Omar supports it" },
               { id: "d", text: "Neither speaker gives a reason" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -367,12 +367,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "'What evidence supports that claim?'" },
+              { id: "a", text: "'That was a long speech.'" },
               { id: "b", text: "'I totally agree, right?'" },
-              { id: "c", text: "'That was a long speech.'" },
-              { id: "d", text: "'Can we stop now?'" },
+              { id: "c", text: "'Can we stop now?'" },
+              { id: "d", text: "'What evidence supports that claim?'" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -400,12 +400,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The debate ended with no agreement" },
-              { id: "b", text: "A compromise position is emerging" },
+              { id: "a", text: "A compromise position is emerging" },
+              { id: "b", text: "The chair will decide alone" },
               { id: "c", text: "Everyone rejected later starts" },
-              { id: "d", text: "The chair will decide alone" },
+              { id: "d", text: "The debate ended with no agreement" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -462,11 +462,11 @@ export const lesson11: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "He strongly supports one side" },
-              { id: "b", text: "He is undecided and open to more information" },
-              { id: "c", text: "He wants to end the discussion" },
-              { id: "d", text: "He disagrees with both sides" },
+              { id: "b", text: "He wants to end the discussion" },
+              { id: "c", text: "He disagrees with both sides" },
+              { id: "d", text: "He is undecided and open to more information" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -553,12 +553,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A writing mistake" },
-              { id: "b", text: "A one-sided preference that affects presentation" },
-              { id: "c", text: "A type of headline" },
-              { id: "d", text: "A factual error" },
+              { id: "a", text: "A factual error" },
+              { id: "b", text: "A type of headline" },
+              { id: "c", text: "A one-sided preference that affects presentation" },
+              { id: "d", text: "A writing mistake" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -670,12 +670,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "News reports always use longer sentences" },
-              { id: "b", text: "News reports inform with facts; opinion pieces argue a view" },
-              { id: "c", text: "Opinion pieces never mention facts" },
-              { id: "d", text: "There is no difference" },
+              { id: "a", text: "Opinion pieces never mention facts" },
+              { id: "b", text: "There is no difference" },
+              { id: "c", text: "News reports always use longer sentences" },
+              { id: "d", text: "News reports inform with facts; opinion pieces argue a view" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -697,12 +697,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "'policy'" },
-              { id: "b", text: "'disastrous'" },
-              { id: "c", text: "'according to'" },
+              { id: "a", text: "'according to'" },
+              { id: "b", text: "'policy'" },
+              { id: "c", text: "'disastrous'" },
               { id: "d", text: "'reported'" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -784,12 +784,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "They ignore it completely" },
-              { id: "b", text: "They acknowledge it briefly, then dismiss it" },
-              { id: "c", text: "They give it equal space" },
+              { id: "a", text: "They give it equal space" },
+              { id: "b", text: "They ignore it completely" },
+              { id: "c", text: "They acknowledge it briefly, then dismiss it" },
               { id: "d", text: "They agree with it fully" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -864,12 +864,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "'This terrible policy will ruin everything.'" },
-              { id: "b", text: "'The council voted 7-2 to approve the policy on Tuesday.'" },
+              { id: "a", text: "'The council voted 7-2 to approve the policy on Tuesday.'" },
+              { id: "b", text: "'This terrible policy will ruin everything.'" },
               { id: "c", text: "'Everyone knows this is a disaster.'" },
               { id: "d", text: "'I believe this is the best decision ever.'" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -897,12 +897,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It is fully balanced and fair" },
-              { id: "b", text: "It presents both sides but leans towards one view" },
+              { id: "a", text: "It presents both sides but leans towards one view" },
+              { id: "b", text: "It is fully balanced and fair" },
               { id: "c", text: "It only gives critics' views" },
               { id: "d", text: "It only gives supporters' views" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -958,12 +958,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "To prove the minister is guilty" },
-              { id: "b", text: "To show the minister has not yet confirmed or denied the claims" },
+              { id: "a", text: "To show the minister has not yet confirmed or denied the claims" },
+              { id: "b", text: "To prove the minister is guilty" },
               { id: "c", text: "To fill space with irrelevant detail" },
               { id: "d", text: "To praise the minister's honesty" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

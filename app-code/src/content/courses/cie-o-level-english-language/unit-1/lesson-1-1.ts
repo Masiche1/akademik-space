@@ -53,8 +53,8 @@ export const lesson11: Lesson = {
             choices: [
               { id: "a", text: "Literal=stated; inference=implied" },
               { id: "b", text: "Both are the same" },
-              { id: "c", text: "Literal=implied; inference=stated" },
-              { id: "d", text: "Neither needs evidence" },
+              { id: "c", text: "Neither needs evidence" },
+              { id: "d", text: "Literal=implied; inference=stated" },
             ],
             correctChoiceId: "a",
           },
@@ -148,6 +148,291 @@ export const lesson11: Lesson = {
             commonErrors: ["Answering without reading whole text first."],
           },
         },
+        {
+          id: "cie-ol-el-comp-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "What does 'paraphrase' mean in comprehension answers?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Summarise the whole text" },
+              { id: "b", text: "Copy the text exactly" },
+              { id: "c", text: "Rewrite in your own words" },
+              { id: "d", text: "Translate into another language" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              { kind: "definition", name: "Paraphrase", statement: "Rewrite in own words without copying." },
+            ],
+            steps: [
+              { reasoning: "Paraphrase = own words.", working: "own words", marks: 1, markCode: "AO1" },
+            ],
+            finalAnswer: "**(a)** Rewrite in your own words",
+            commonErrors: ["Choosing (b) — copying is not paraphrasing."],
+          },
+        },
+        {
+          id: "cie-ol-el-comp-q6",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Which question type asks what is implied but not stated directly?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Inference" },
+              { id: "b", text: "Literal" },
+              { id: "c", text: "Vocabulary" },
+              { id: "d", text: "Purpose" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              { kind: "definition", name: "Inference", statement: "What is implied but not stated." },
+            ],
+            steps: [
+              { reasoning: "Inference = implied meaning.", working: "implied", marks: 1, markCode: "AO1" },
+            ],
+            finalAnswer: "**(b)** Inference",
+            commonErrors: ["Choosing (a) — literal is stated."],
+          },
+        },
+        {
+          id: "cie-ol-el-comp-q7",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "Why is it important to refer to the text in your answers?",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "convention", name: "Evidence", statement: "Answers must be supported by textual evidence." },
+            ],
+            steps: [
+              { reasoning: "Answers must be supported by evidence from the text.", working: "evidence", marks: 1, markCode: "AO2" },
+              { reasoning: "Evidence ensures accuracy and earns marks.", marks: 1, markCode: "AO3" },
+            ],
+            finalAnswer: "Answers must be supported by textual evidence to be accurate and earn marks.",
+            commonErrors: ["Giving opinions without evidence."],
+          },
+        },
+        {
+          id: "cie-ol-el-comp-q8",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "How should you answer a vocabulary-in-context question?",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Vocabulary in context", statement: "Use surrounding words to deduce meaning." },
+            ],
+            steps: [
+              { reasoning: "Look at surrounding words and sentence meaning for clues.", working: "clues", marks: 1, markCode: "AO2" },
+              { reasoning: "Choose the meaning that fits the context.", marks: 1, markCode: "AO3" },
+            ],
+            finalAnswer: "Use context clues from surrounding words to determine the word's meaning in that sentence.",
+            commonErrors: ["Giving dictionary meaning ignoring context."],
+          },
+        },
+        {
+          id: "cie-ol-el-comp-q9",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "Explain the difference between a tone question and a purpose question.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Tone vs purpose", statement: "Tone=writer's attitude; purpose=why text was written." },
+            ],
+            steps: [
+              { reasoning: "Tone asks about the writer's attitude shown through word choice.", working: "tone", marks: 1, markCode: "AO2" },
+              { reasoning: "Purpose asks why the text was written — inform, persuade, entertain.", working: "purpose", marks: 1, markCode: "AO2" },
+              { reasoning: "Tone is about how; purpose is about why.", working: "distinction", marks: 1, markCode: "AO2" },
+              { reasoning: "Difference clear.", marks: 1, markCode: "AO3" },
+            ],
+            finalAnswer: "Tone=writer's attitude (how); purpose=why written (why).",
+            commonErrors: ["Confusing the two — how vs why."],
+          },
+        },
+        {
+          id: "cie-ol-el-comp-q10",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "What should you check before finishing each comprehension answer?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Length only" },
+              { id: "b", text: "Nothing" },
+              { id: "c", text: "Spelling only" },
+              { id: "d", text: "Accuracy and word limit" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              { kind: "convention", name: "Checking", statement: "Check accuracy and word limit before finishing." },
+            ],
+            steps: [
+              { reasoning: "Check accuracy and word limit.", working: "check", marks: 1, markCode: "AO1" },
+            ],
+            finalAnswer: "**(a)** Accuracy and word limit",
+            commonErrors: ["Skipping checks — lose marks."],
+          },
+        },
+        {
+          id: "cie-ol-el-comp-q11",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "Explain how to support an inference with evidence.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Evidence for inference", statement: "Quote the clue, link it to the inference, explain implication." },
+            ],
+            steps: [
+              { reasoning: "Quote or reference the specific clue in the text.", working: "quote", marks: 1, markCode: "AO2" },
+              { reasoning: "Link the clue to your inference.", working: "link", marks: 1, markCode: "AO2" },
+              { reasoning: "Explain what the clue implies.", working: "implication", marks: 1, markCode: "AO2" },
+              { reasoning: "Evidence-based answer.", marks: 1, markCode: "AO3" },
+            ],
+            finalAnswer: "Quote clue → link to inference → explain implication.",
+            commonErrors: ["Inference without quote — unsupported."],
+          },
+        },
+        {
+          id: "cie-ol-el-comp-q12",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "What is the first step when you receive an unseen text in the exam?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Answer questions immediately" },
+              { id: "b", text: "Guess the answers" },
+              { id: "c", text: "Read the whole passage first" },
+              { id: "d", text: "Skip to the last question" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              { kind: "convention", name: "First reading", statement: "Read whole text for overview before answering." },
+            ],
+            steps: [
+              { reasoning: "Read whole passage first.", working: "overview", marks: 1, markCode: "AO1" },
+            ],
+            finalAnswer: "**(a)** Read the whole passage first",
+            commonErrors: ["Starting questions without overview."],
+          },
+        },
+        {
+          id: "cie-ol-el-comp-q13",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Which is the strongest answer to an inference question?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "'Happy.'" },
+              { id: "b", text: "'The character is happy because her hands danced and she whistled.'" },
+              { id: "c", text: "'She is probably happy.'" },
+              { id: "d", text: "'I think she is sad.'" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Inference answer", statement: "Inference justified by textual evidence." },
+            ],
+            steps: [
+              { reasoning: "Strongest answer gives inference plus evidence.", working: "evidence", marks: 1, markCode: "AO1" },
+            ],
+            finalAnswer: "**(b)** The character is happy because her hands danced and she whistled.",
+            commonErrors: ["Choosing (a) or (c) — no evidence given."],
+          },
+        },
+        {
+          id: "cie-ol-el-comp-q14",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "Why should comprehension answers be concise but complete?",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "convention", name: "Answer style", statement: "Concise respects word limits; complete earns all marks." },
+            ],
+            steps: [
+              { reasoning: "Concise answers stay within word limits.", working: "concise", marks: 1, markCode: "AO2" },
+              { reasoning: "Complete answers include all required points.", marks: 1, markCode: "AO3" },
+            ],
+            finalAnswer: "Concise respects word limits; complete ensures all marks are earned.",
+            commonErrors: ["Too brief — miss marks; too long — exceed limit."],
+          },
+        },
+        {
+          id: "cie-ol-el-comp-q15",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "Describe how to approach a multi-part comprehension question.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Multi-part approach", statement: "Read all parts, allocate time, answer in order, check each." },
+            ],
+            steps: [
+              { reasoning: "Read all parts before answering.", working: "read all", marks: 1, markCode: "AO2" },
+              { reasoning: "Note marks per part for time allocation.", working: "marks", marks: 1, markCode: "AO2" },
+              { reasoning: "Answer in order, quoting where needed.", working: "order", marks: 1, markCode: "AO2" },
+              { reasoning: "Check each part is fully addressed.", marks: 1, markCode: "AO3" },
+            ],
+            finalAnswer: "Read all parts → allocate by marks → answer in order → check each part.",
+            commonErrors: ["Answering parts out of order and losing track."],
+          },
+        },
+        {
+          id: "cie-ol-el-comp-q16",
+          difficulty: "challenge",
+          totalMarks: 9,
+          stem: "Review comprehension skills comprehensively.",
+          parts: [
+            { label: "a", prompt: "Name the main question types.", marks: 2 },
+            { label: "b", prompt: "Explain how to answer a tone question.", marks: 2 },
+            { label: "c", prompt: "What is a vocabulary-in-context question?", marks: 2 },
+            { label: "d", prompt: "List three common comprehension mistakes.", marks: 3 },
+          ],
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Comprehension review", statement: "Question types, tone, vocabulary, mistakes." },
+            ],
+            steps: [
+              { part: "a", reasoning: "Literal, inference, vocabulary, tone, purpose, summary.", working: "types", marks: 1, markCode: "AO2" },
+              { part: "a", reasoning: "Multiple valid.", marks: 1, markCode: "AO3" },
+              { part: "b", reasoning: "Identify writer's attitude via word choice, support with quotes.", working: "tone", marks: 1, markCode: "AO2" },
+              { part: "b", reasoning: "Correct.", marks: 1, markCode: "AO3" },
+              { part: "c", reasoning: "Word meaning deduced from surrounding context.", working: "vocab", marks: 1, markCode: "AO2" },
+              { part: "c", reasoning: "Correct.", marks: 1, markCode: "AO3" },
+              { part: "d", reasoning: "Answering without reading whole text; no evidence; ignoring word limit.", working: "mistakes", marks: 1, markCode: "AO2" },
+              { part: "d", reasoning: "Multiple valid.", marks: 1, markCode: "AO2" },
+              { part: "d", reasoning: "Accurate.", marks: 1, markCode: "AO3" },
+            ],
+            finalAnswer: "(a) question types (b) tone via word choice (c) context meaning (d) common mistakes",
+            levels: [
+              { level: "Level 2", marks: "1-2", descriptor: "Multiple types.", part: "a" },
+              { level: "Level 1", marks: "0", descriptor: "Few.", part: "a" },
+              { level: "Level 2", marks: "1-2", descriptor: "Correct.", part: "b" },
+              { level: "Level 1", marks: "0", descriptor: "Vague.", part: "b" },
+              { level: "Level 2", marks: "1-2", descriptor: "Correct.", part: "c" },
+              { level: "Level 1", marks: "0", descriptor: "Vague.", part: "c" },
+              { level: "Level 3", marks: "2-3", descriptor: "Three mistakes.", part: "d" },
+              { level: "Level 2", marks: "1", descriptor: "One-two.", part: "d" },
+            ],
+            commonErrors: ["Skipping re-reading — miss detail."],
+          },
+        },
       ],
     },
     {
@@ -186,12 +471,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Why the text was written" },
+              { id: "a", text: "When it was written" },
               { id: "b", text: "What it says" },
-              { id: "c", text: "Who wrote it" },
-              { id: "d", text: "When it was written" },
+              { id: "c", text: "Why the text was written" },
+              { id: "d", text: "Who wrote it" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -283,6 +568,291 @@ export const lesson11: Lesson = {
             commonErrors: ["Purpose vs audience confusion — why vs who."],
           },
         },
+        {
+          id: "cie-ol-el-purp-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Which purpose is served by a textbook or factual report?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "To persuade" },
+              { id: "b", text: "To describe scenery" },
+              { id: "c", text: "To entertain" },
+              { id: "d", text: "To inform" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              { kind: "definition", name: "Inform", statement: "Textbooks and reports aim to inform." },
+            ],
+            steps: [
+              { reasoning: "Factual texts inform.", working: "inform", marks: 1, markCode: "AO1" },
+            ],
+            finalAnswer: "**(b)** To inform",
+            commonErrors: ["Choosing (c) — reports don't persuade."],
+          },
+        },
+        {
+          id: "cie-ol-el-purp-q6",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "What does 'audience' refer to in text analysis?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Where it was published" },
+              { id: "b", text: "Who wrote the text" },
+              { id: "c", text: "Who the text is written for" },
+              { id: "d", text: "When it was written" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              { kind: "definition", name: "Audience", statement: "Who the text is written for." },
+            ],
+            steps: [
+              { reasoning: "Audience = who for.", working: "who for", marks: 1, markCode: "AO1" },
+            ],
+            finalAnswer: "**(b)** Who the text is written for",
+            commonErrors: ["Choosing (a) — that's the author."],
+          },
+        },
+        {
+          id: "cie-ol-el-purp-q7",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "Why is formal register used in official letters?",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "convention", name: "Register", statement: "Formal register suits official communication." },
+            ],
+            steps: [
+              { reasoning: "Official letters require politeness and standard English.", working: "politeness", marks: 1, markCode: "AO2" },
+              { reasoning: "Formal register shows respect to recipient.", marks: 1, markCode: "AO3" },
+            ],
+            finalAnswer: "Formal register shows respect and suits official communication.",
+            commonErrors: ["Using informal tone in official letters."],
+          },
+        },
+        {
+          id: "cie-ol-el-purp-q8",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "How can vocabulary level signal the intended audience?",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Vocabulary signal", statement: "Simple words for children; technical words for experts." },
+            ],
+            steps: [
+              { reasoning: "Simple vocabulary suits young or general audiences.", working: "simple", marks: 1, markCode: "AO2" },
+              { reasoning: "Complex/technical vocabulary suits expert audiences.", marks: 1, markCode: "AO3" },
+            ],
+            finalAnswer: "Simple words signal general/young audiences; technical words signal experts.",
+            commonErrors: ["Ignoring vocabulary as audience clue."],
+          },
+        },
+        {
+          id: "cie-ol-el-purp-q9",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "Explain how an advertisement's purpose differs from a news report's.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Purpose comparison", statement: "Advertisement persuades; news report informs." },
+            ],
+            steps: [
+              { reasoning: "Advertisement aims to persuade reader to buy or act.", working: "persuade", marks: 1, markCode: "AO2" },
+              { reasoning: "News report aims to inform with facts.", working: "inform", marks: 1, markCode: "AO2" },
+              { reasoning: "Language differs — emotive vs factual.", working: "language", marks: 1, markCode: "AO2" },
+              { reasoning: "Purposes compared.", marks: 1, markCode: "AO3" },
+            ],
+            finalAnswer: "Advertisement persuades (emotive); news report informs (factual).",
+            commonErrors: ["Treating both as informational."],
+          },
+        },
+        {
+          id: "cie-ol-el-purp-q10",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "A text uses simple words, playful imagery and a friendly tone. Who is it likely written for?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Experts" },
+              { id: "b", text: "Young children" },
+              { id: "c", text: "Scientists" },
+              { id: "d", text: "Judges" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Audience clues", statement: "Simple words and playful tone signal children." },
+            ],
+            steps: [
+              { reasoning: "Clues point to children.", working: "children", marks: 1, markCode: "AO1" },
+            ],
+            finalAnswer: "**(b)** Young children",
+            commonErrors: ["Ignoring tone and vocabulary clues."],
+          },
+        },
+        {
+          id: "cie-ol-el-purp-q11",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "How do you identify whether a text aims to persuade or inform?",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Persuade vs inform", statement: "Persuasive uses emotive language/opinions; informative uses facts." },
+            ],
+            steps: [
+              { reasoning: "Look for emotive language and opinions — persuasion.", working: "emotive", marks: 1, markCode: "AO2" },
+              { reasoning: "Look for facts, statistics, neutral tone — information.", working: "facts", marks: 1, markCode: "AO2" },
+              { reasoning: "Check for call to action or argument structure.", working: "cta", marks: 1, markCode: "AO2" },
+              { reasoning: "Purpose identified.", marks: 1, markCode: "AO3" },
+            ],
+            finalAnswer: "Emotive language/opinions=persuade; facts/neutral tone=inform.",
+            commonErrors: ["Assuming all texts inform."],
+          },
+        },
+        {
+          id: "cie-ol-el-purp-q12",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Which clue most strongly suggests a text is written for children?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Passive formal sentences" },
+              { id: "b", text: "Legal citations" },
+              { id: "c", text: "Simple vocabulary and playful imagery" },
+              { id: "d", text: "Technical jargon" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Audience clue", statement: "Simple vocabulary and playful imagery signal children." },
+            ],
+            steps: [
+              { reasoning: "Simple vocabulary/playful imagery = children.", working: "clue", marks: 1, markCode: "AO1" },
+            ],
+            finalAnswer: "**(b)** Simple vocabulary and playful imagery",
+            commonErrors: ["Choosing (a) — jargon suits experts."],
+          },
+        },
+        {
+          id: "cie-ol-el-purp-q13",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "What does 'inclusive language' achieve in persuasive writing?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Excludes opponents" },
+              { id: "b", text: "Lengthens sentences" },
+              { id: "c", text: "Builds rapport with the reader" },
+              { id: "d", text: "Adds statistics" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              { kind: "definition", name: "Inclusive language", statement: "'We', 'us' — builds rapport." },
+            ],
+            steps: [
+              { reasoning: "Inclusive language builds rapport.", working: "rapport", marks: 1, markCode: "AO1" },
+            ],
+            finalAnswer: "**(b)** Builds rapport with the reader",
+            commonErrors: ["Choosing (a) — it includes, not excludes."],
+          },
+        },
+        {
+          id: "cie-ol-el-purp-q14",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "Why is it important to know the audience before writing?",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Audience importance", statement: "Audience determines register, vocabulary and content." },
+            ],
+            steps: [
+              { reasoning: "Audience determines register, vocabulary and content choices.", working: "determines", marks: 1, markCode: "AO2" },
+              { reasoning: "Wrong audience = ineffective communication.", marks: 1, markCode: "AO3" },
+            ],
+            finalAnswer: "Audience determines register, vocabulary and content — essential for effective communication.",
+            commonErrors: ["Writing without considering audience."],
+          },
+        },
+        {
+          id: "cie-ol-el-purp-q15",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "Explain how tone reveals the writer's attitude towards the subject.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Tone and attitude", statement: "Word choice, sentence structure and punctuation reveal attitude." },
+            ],
+            steps: [
+              { reasoning: "Word choice shows positive or negative feelings.", working: "word choice", marks: 1, markCode: "AO2" },
+              { reasoning: "Sentence structure — short punchy vs long flowing.", working: "structure", marks: 1, markCode: "AO2" },
+              { reasoning: "Punctuation — exclamation shows excitement; dash shows interruption.", working: "punctuation", marks: 1, markCode: "AO2" },
+              { reasoning: "Attitude identified.", marks: 1, markCode: "AO3" },
+            ],
+            finalAnswer: "Word choice, sentence structure and punctuation reveal writer's attitude.",
+            commonErrors: ["Identifying tone without evidence."],
+          },
+        },
+        {
+          id: "cie-ol-el-purp-q16",
+          difficulty: "challenge",
+          totalMarks: 9,
+          stem: "Analyse purpose and audience together.",
+          parts: [
+            { label: "a", prompt: "List four purposes of writing.", marks: 2 },
+            { label: "b", prompt: "Name three audience clues in a text.", marks: 2 },
+            { label: "c", prompt: "How does format indicate audience?", marks: 2 },
+            { label: "d", prompt: "How to analyse purpose and audience together?", marks: 3 },
+          ],
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Purpose/audience analysis", statement: "Purposes, clues, format, combined analysis." },
+            ],
+            steps: [
+              { part: "a", reasoning: "Inform, persuade, entertain, describe.", working: "purposes", marks: 1, markCode: "AO2" },
+              { part: "a", reasoning: "Four valid.", marks: 1, markCode: "AO3" },
+              { part: "b", reasoning: "Vocabulary level, tone, format, examples.", working: "clues", marks: 1, markCode: "AO2" },
+              { part: "b", reasoning: "Three+ valid.", marks: 1, markCode: "AO3" },
+              { part: "c", reasoning: "Letter vs article vs report format signals who reads it.", working: "format", marks: 1, markCode: "AO2" },
+              { part: "c", reasoning: "Correct.", marks: 1, markCode: "AO3" },
+              { part: "d", reasoning: "Purpose from intention/language; audience from clues; relate them.", working: "combined", marks: 1, markCode: "AO2" },
+              { part: "d", reasoning: "Clear link.", marks: 1, markCode: "AO2" },
+              { part: "d", reasoning: "Accurate.", marks: 1, markCode: "AO3" },
+            ],
+            finalAnswer: "(a) 4 purposes (b) audience clues (c) format signals audience (d) purpose+audience linked",
+            levels: [
+              { level: "Level 2", marks: "1-2", descriptor: "Four purposes.", part: "a" },
+              { level: "Level 1", marks: "0", descriptor: "Few.", part: "a" },
+              { level: "Level 2", marks: "1-2", descriptor: "Three clues.", part: "b" },
+              { level: "Level 1", marks: "0", descriptor: "Few.", part: "b" },
+              { level: "Level 2", marks: "1-2", descriptor: "Correct.", part: "c" },
+              { level: "Level 1", marks: "0", descriptor: "Vague.", part: "c" },
+              { level: "Level 3", marks: "2-3", descriptor: "Combined analysis.", part: "d" },
+              { level: "Level 2", marks: "1", descriptor: "Partial.", part: "d" },
+            ],
+            commonErrors: ["Analysing purpose without considering audience."],
+          },
+        },
       ],
     },
     {
@@ -322,8 +892,8 @@ export const lesson11: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Comparison using 'like' or 'as'" },
-              { id: "b", text: "Direct comparison" },
-              { id: "c", text: "Repeated sounds" },
+              { id: "b", text: "Repeated sounds" },
+              { id: "c", text: "Direct comparison" },
               { id: "d", text: "Sound words" },
             ],
             correctChoiceId: "a",
@@ -416,6 +986,291 @@ export const lesson11: Lesson = {
               { level: "Level 2", marks: "1", descriptor: "Partial.", part: "d" },
             ],
             commonErrors: ["Identifying without explaining effect."],
+          },
+        },
+        {
+          id: "cie-ol-el-rhet-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "What is a metaphor?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Repeated initial sounds" },
+              { id: "b", text: "Direct comparison without 'like' or 'as'" },
+              { id: "c", text: "Comparison using 'like' or 'as'" },
+              { id: "d", text: "Rhyme at line ends" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              { kind: "definition", name: "Metaphor", statement: "Direct comparison without like/as." },
+            ],
+            steps: [
+              { reasoning: "Metaphor = direct comparison.", working: "direct", marks: 1, markCode: "AO1" },
+            ],
+            finalAnswer: "**(a)** Direct comparison without 'like' or 'as'",
+            commonErrors: ["Choosing (b) — that's simile."],
+          },
+        },
+        {
+          id: "cie-ol-el-rhet-q6",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "What is personification?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Words imitating sounds" },
+              { id: "b", text: "Giving human qualities to non-human things" },
+              { id: "c", text: "Exaggeration for effect" },
+              { id: "d", text: "Pattern of rhymes" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              { kind: "definition", name: "Personification", statement: "Human qualities to non-human." },
+            ],
+            steps: [
+              { reasoning: "Personification = human qualities.", working: "human", marks: 1, markCode: "AO1" },
+            ],
+            finalAnswer: "**(a)** Giving human qualities to non-human things",
+            commonErrors: ["Choosing (b) — that's hyperbole."],
+          },
+        },
+        {
+          id: "cie-ol-el-rhet-q7",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "What effect does repetition create in persuasive writing?",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Repetition", statement: "Repeating words/phrases emphasises key points." },
+            ],
+            steps: [
+              { reasoning: "Repetition emphasises key points.", working: "emphasise", marks: 1, markCode: "AO2" },
+              { reasoning: "Reinforces message and aids memory.", marks: 1, markCode: "AO3" },
+            ],
+            finalAnswer: "Repetition emphasises key points and reinforces the message.",
+            commonErrors: ["Thinking repetition is lazy writing."],
+          },
+        },
+        {
+          id: "cie-ol-el-rhet-q8",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "What is a 'triad' in persuasive writing?",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "definition", name: "Triad", statement: "Three-part list for strong effect." },
+            ],
+            steps: [
+              { reasoning: "Triad = three-part list.", working: "three", marks: 1, markCode: "AO2" },
+              { reasoning: "Creates rhythm and memorability.", marks: 1, markCode: "AO3" },
+            ],
+            finalAnswer: "A three-part list that creates rhythm and emphasises points.",
+            commonErrors: ["Listing more than three — not a triad."],
+          },
+        },
+        {
+          id: "cie-ol-el-rhet-q9",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "Explain how inclusive language builds rapport with readers.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Inclusive language", statement: "'We', 'us' makes reader feel part of group." },
+            ],
+            steps: [
+              { reasoning: "Words like 'we' and 'us' include the reader.", working: "include", marks: 1, markCode: "AO2" },
+              { reasoning: "Reader feels shared identity and purpose.", working: "identity", marks: 1, markCode: "AO2" },
+              { reasoning: "Builds trust and agreement.", working: "trust", marks: 1, markCode: "AO2" },
+              { reasoning: "Effect explained.", marks: 1, markCode: "AO3" },
+            ],
+            finalAnswer: "Inclusive language ('we', 'us') makes reader feel part of the group, building trust.",
+            commonErrors: ["Thinking it's just pronoun choice."],
+          },
+        },
+        {
+          id: "cie-ol-el-rhet-q10",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "'The stars danced in the sky.' Which technique is used?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Onomatopoeia" },
+              { id: "b", text: "Personification" },
+              { id: "c", text: "Simile" },
+              { id: "d", text: "Metaphor" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Technique ID", statement: "Stars given human action (dancing) = personification." },
+            ],
+            steps: [
+              { reasoning: "Stars 'dancing' = human action.", working: "human", marks: 1, markCode: "AO1" },
+            ],
+            finalAnswer: "**(b)** Personification",
+            commonErrors: ["Choosing (a) — no direct comparison made."],
+          },
+        },
+        {
+          id: "cie-ol-el-rhet-q11",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "How does alliteration create effect in a poem?",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Alliteration", statement: "Repeated initial sounds create music, emphasis, mood." },
+            ],
+            steps: [
+              { reasoning: "Repeated sounds create musical quality.", working: "music", marks: 1, markCode: "AO2" },
+              { reasoning: "Draws attention to key words.", working: "attention", marks: 1, markCode: "AO2" },
+              { reasoning: "Can create mood — harsh sounds vs soft sounds.", working: "mood", marks: 1, markCode: "AO2" },
+              { reasoning: "Effects explained.", marks: 1, markCode: "AO3" },
+            ],
+            finalAnswer: "Creates music, draws attention, and shapes mood.",
+            commonErrors: ["Identifying without explaining effect."],
+          },
+        },
+        {
+          id: "cie-ol-el-rhet-q12",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "What is onomatopoeia?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Words that imitate sounds" },
+              { id: "b", text: "Comparison using 'like'" },
+              { id: "c", text: "Deliberate exaggeration" },
+              { id: "d", text: "Repeated initial sounds" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              { kind: "definition", name: "Onomatopoeia", statement: "Words imitating sounds (buzz, crash)." },
+            ],
+            steps: [
+              { reasoning: "Onomatopoeia = sound words.", working: "sounds", marks: 1, markCode: "AO1" },
+            ],
+            finalAnswer: "**(a)** Words that imitate sounds",
+            commonErrors: ["Choosing (b) — that's alliteration."],
+          },
+        },
+        {
+          id: "cie-ol-el-rhet-q13",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Which technique would most likely appear in a speech to build unity?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Latin phrases" },
+              { id: "b", text: "Statistics" },
+              { id: "c", text: "Inclusive language ('we')" },
+              { id: "d", text: "Passive voice" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Unity technique", statement: "Inclusive language builds shared identity." },
+            ],
+            steps: [
+              { reasoning: "'We' builds unity.", working: "unity", marks: 1, markCode: "AO1" },
+            ],
+            finalAnswer: "**(b)** Inclusive language ('we')",
+            commonErrors: ["Choosing (a) — statistics inform, not unite."],
+          },
+        },
+        {
+          id: "cie-ol-el-rhet-q14",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "What is hyperbole and why is it used?",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "definition", name: "Hyperbole", statement: "Deliberate exaggeration for emphasis." },
+            ],
+            steps: [
+              { reasoning: "Hyperbole = deliberate exaggeration.", working: "exaggeration", marks: 1, markCode: "AO2" },
+              { reasoning: "Used for emphasis or humorous effect.", marks: 1, markCode: "AO3" },
+            ],
+            finalAnswer: "Deliberate exaggeration used for emphasis or humorous effect.",
+            commonErrors: ["Taking hyperbole literally."],
+          },
+        },
+        {
+          id: "cie-ol-el-rhet-q15",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "Explain how to analyse the effect of a rhetorical device in a text.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Device analysis", statement: "Identify device → explain what it does → describe effect." },
+            ],
+            steps: [
+              { reasoning: "Identify the specific device used.", working: "identify", marks: 1, markCode: "AO2" },
+              { reasoning: "Quote or reference where it appears.", working: "quote", marks: 1, markCode: "AO2" },
+              { reasoning: "Explain what it does and its effect on reader.", working: "effect", marks: 1, markCode: "AO2" },
+              { reasoning: "Analysis complete.", marks: 1, markCode: "AO3" },
+            ],
+            finalAnswer: "Identify → quote → explain effect on reader.",
+            commonErrors: ["Naming device without explaining effect."],
+          },
+        },
+        {
+          id: "cie-ol-el-rhet-q16",
+          difficulty: "challenge",
+          totalMarks: 9,
+          stem: "Review rhetorical and literary devices.",
+          parts: [
+            { label: "a", prompt: "Define simile and alliteration.", marks: 2 },
+            { label: "b", prompt: "Name three persuasive techniques.", marks: 2 },
+            { label: "c", prompt: "Explain the effect of personification.", marks: 2 },
+            { label: "d", prompt: "How do literary techniques create vivid description?", marks: 3 },
+          ],
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Devices review", statement: "Definitions, techniques, personification, vivid effects." },
+            ],
+            steps: [
+              { part: "a", reasoning: "Simile=like/as; alliteration=repeated initial sounds.", working: "definitions", marks: 1, markCode: "AO2" },
+              { part: "a", reasoning: "Correct.", marks: 1, markCode: "AO3" },
+              { part: "b", reasoning: "Rhetorical Q, triads, emotive, repetition, inclusive.", working: "techniques", marks: 1, markCode: "AO2" },
+              { part: "b", reasoning: "Three valid.", marks: 1, markCode: "AO3" },
+              { part: "c", reasoning: "Human qualities to non-human — creates vivid, relatable images.", working: "personification", marks: 1, markCode: "AO2" },
+              { part: "c", reasoning: "Correct.", marks: 1, markCode: "AO3" },
+              { part: "d", reasoning: "Imagery+figurative language appeal to senses — vivid mental pictures.", working: "vivid", marks: 1, markCode: "AO2" },
+              { part: "d", reasoning: "Multiple techniques.", marks: 1, markCode: "AO2" },
+              { part: "d", reasoning: "Accurate.", marks: 1, markCode: "AO3" },
+            ],
+            finalAnswer: "(a) simile/alliteration (b) 3 techniques (c) human qualities effect (d) imagery creates vividness",
+            levels: [
+              { level: "Level 2", marks: "1-2", descriptor: "Correct.", part: "a" },
+              { level: "Level 1", marks: "0", descriptor: "Vague.", part: "a" },
+              { level: "Level 2", marks: "1-2", descriptor: "Three techniques.", part: "b" },
+              { level: "Level 1", marks: "0", descriptor: "Few.", part: "b" },
+              { level: "Level 2", marks: "1-2", descriptor: "Correct.", part: "c" },
+              { level: "Level 1", marks: "0", descriptor: "Vague.", part: "c" },
+              { level: "Level 3", marks: "2-3", descriptor: "Multiple techniques.", part: "d" },
+              { level: "Level 2", marks: "1", descriptor: "Partial.", part: "d" },
+            ],
+            commonErrors: ["Confusing simile and metaphor."],
           },
         },
       ],

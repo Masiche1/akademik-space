@@ -51,9 +51,9 @@ export const lesson61: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Toward the centre" },
-              { id: "b", text: "Away from centre" },
+              { id: "b", text: "Vertically" },
               { id: "c", text: "Tangentially" },
-              { id: "d", text: "Vertically" },
+              { id: "d", text: "Away from centre" },
             ],
             correctChoiceId: "a",
           },
@@ -172,12 +172,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The horizontal component of normal reaction" },
-              { id: "b", text: "Friction" },
+              { id: "a", text: "Friction" },
+              { id: "b", text: "The horizontal component of normal reaction" },
               { id: "c", text: "Gravity" },
               { id: "d", text: "Engine force" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Banked curve", statement: "$N\\sin\\theta$ provides centripetal force." }],

@@ -52,12 +52,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$10$" },
+              { id: "a", text: "$64$" },
               { id: "b", text: "$20$" },
-              { id: "c", text: "$24$" },
-              { id: "d", text: "$64$" },
+              { id: "c", text: "$10$" },
+              { id: "d", text: "$24$" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -152,12 +152,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$10$" },
-              { id: "b", text: "$21$" },
-              { id: "c", text: "$24$" },
-              { id: "d", text: "$37$" },
+              { id: "a", text: "$24$" },
+              { id: "b", text: "$10$" },
+              { id: "c", text: "$37$" },
+              { id: "d", text: "$21$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -195,12 +195,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$9$" },
-              { id: "b", text: "$20$" },
-              { id: "c", text: "$45$" },
-              { id: "d", text: "$54$" },
+              { id: "a", text: "$20$" },
+              { id: "b", text: "$45$" },
+              { id: "c", text: "$54$" },
+              { id: "d", text: "$9$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -256,12 +256,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$30 \\div 5 = 6$" },
-              { id: "b", text: "$30 \\div 5 = 7$" },
+              { id: "a", text: "$30 \\div 5 = 7$" },
+              { id: "b", text: "$5 + 6 = 11$" },
               { id: "c", text: "$30 \\div 3 = 10$" },
-              { id: "d", text: "$5 + 6 = 11$" },
+              { id: "d", text: "$30 \\div 5 = 6$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -339,12 +339,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$30 \\times 6 = 180$" },
-              { id: "b", text: "$30 \\div 6 = 5$" },
-              { id: "c", text: "$30 + 6 = 36$" },
-              { id: "d", text: "$6 - 30$" },
+              { id: "a", text: "$6 - 30$" },
+              { id: "b", text: "$30 + 6 = 36$" },
+              { id: "c", text: "$30 \\times 6 = 180$" },
+              { id: "d", text: "$30 \\div 6 = 5$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -433,12 +433,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\frac{1}{2}$" },
-              { id: "b", text: "$\\frac{1}{4}$" },
-              { id: "c", text: "$\\frac{1}{3}$" },
+              { id: "a", text: "$\\frac{1}{4}$" },
+              { id: "b", text: "$\\frac{1}{3}$" },
+              { id: "c", text: "$\\frac{1}{2}$" },
               { id: "d", text: "$\\frac{4}{1}$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -477,12 +477,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\frac{3}{8}$" },
-              { id: "b", text: "$\\frac{5}{8}$" },
-              { id: "c", text: "$\\frac{8}{5}$" },
-              { id: "d", text: "$\\frac{1}{2}$" },
+              { id: "a", text: "$\\frac{1}{2}$" },
+              { id: "b", text: "$\\frac{8}{5}$" },
+              { id: "c", text: "$\\frac{5}{8}$" },
+              { id: "d", text: "$\\frac{3}{8}$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -534,9 +534,9 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\frac{1}{4}$" },
+              { id: "a", text: "$\\frac{2}{1}$" },
               { id: "b", text: "$\\frac{1}{2}$" },
-              { id: "c", text: "$\\frac{2}{1}$" },
+              { id: "c", text: "$\\frac{1}{4}$" },
               { id: "d", text: "$\\frac{1}{3}$" },
             ],
             correctChoiceId: "b",
@@ -577,12 +577,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\frac{1}{2}$" },
-              { id: "b", text: "$\\frac{1}{4}$" },
-              { id: "c", text: "$\\frac{1}{3}$" },
-              { id: "d", text: "$\\frac{4}{1}$" },
+              { id: "a", text: "$\\frac{1}{3}$" },
+              { id: "b", text: "$\\frac{1}{2}$" },
+              { id: "c", text: "$\\frac{4}{1}$" },
+              { id: "d", text: "$\\frac{1}{4}$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -603,12 +603,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Yes — two quarters make a half" },
-              { id: "b", text: "No — they are different fractions" },
-              { id: "c", text: "Only for pizzas" },
+              { id: "a", text: "No — they are different fractions" },
+              { id: "b", text: "Only for pizzas" },
+              { id: "c", text: "Yes — two quarters make a half" },
               { id: "d", text: "Cannot tell" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -630,11 +630,11 @@ export const lesson12: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$\\frac{1}{4}$ — smaller pieces are bigger" },
-              { id: "b", text: "$\\frac{1}{2}$ — fewer equal parts means each is bigger" },
+              { id: "b", text: "Cannot compare" },
               { id: "c", text: "They are the same" },
-              { id: "d", text: "Cannot compare" },
+              { id: "d", text: "$\\frac{1}{2}$ — fewer equal parts means each is bigger" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -656,12 +656,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\frac{3}{8}$" },
-              { id: "b", text: "$\\frac{5}{8}$" },
-              { id: "c", text: "$\\frac{3}{5}$" },
+              { id: "a", text: "$\\frac{5}{8}$" },
+              { id: "b", text: "$\\frac{3}{5}$" },
+              { id: "c", text: "$\\frac{3}{8}$" },
               { id: "d", text: "$\\frac{1}{3}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -739,12 +739,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\frac{2}{4}$" },
-              { id: "b", text: "$1$ — the whole pizza" },
-              { id: "c", text: "$\\frac{1}{4}$" },
-              { id: "d", text: "$\\frac{2}{2}$ which is more than 1" },
+              { id: "a", text: "$\\frac{2}{2}$ which is more than 1" },
+              { id: "b", text: "$\\frac{1}{4}$" },
+              { id: "c", text: "$\\frac{2}{4}$" },
+              { id: "d", text: "$1$ — the whole pizza" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -786,12 +786,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\frac{3}{4}$" },
-              { id: "b", text: "$\\frac{1}{4}$" },
-              { id: "c", text: "$\\frac{1}{3}$" },
-              { id: "d", text: "$0$ — nothing is left" },
+              { id: "a", text: "$\\frac{1}{4}$" },
+              { id: "b", text: "$\\frac{1}{3}$" },
+              { id: "c", text: "$0$ — nothing is left" },
+              { id: "d", text: "$\\frac{3}{4}$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

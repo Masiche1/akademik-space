@@ -52,22 +52,22 @@ export const lesson27: Lesson = {
           "choices": [
                     {
                               "id": "a",
-                              "text": "Fake messages tricking users into revealing credentials"
+                              "text": "A programming language"
                     },
                     {
                               "id": "b",
-                              "text": "A type of fish"
-                    },
-                    {
-                              "id": "c",
                               "text": "A fast connection"
                     },
                     {
+                              "id": "c",
+                              "text": "A type of fish"
+                    },
+                    {
                               "id": "d",
-                              "text": "A programming language"
+                              "text": "Fake messages tricking users into revealing credentials"
                     }
           ],
-          "correctChoiceId": "a"
+          "correctChoiceId": "d"
 },
           markscheme: {
           "principles": [
@@ -213,6 +213,484 @@ export const lesson27: Lesson = {
                     }
           ],
           "finalAnswer": "Cyber threats and protection strategies."
+},
+        },
+        {
+          id: "cils-c-u2-sc-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "What is 'malware'?",
+          response: {
+          "type": "mcq",
+          "choices": [
+                    {
+                              "id": "a",
+                              "text": "A type of antivirus"
+                    },
+                    {
+                              "id": "b",
+                              "text": "A network cable"
+                    },
+                    {
+                              "id": "c",
+                              "text": "Malicious software designed to harm or steal data"
+                    },
+                    {
+                              "id": "d",
+                              "text": "A secure website"
+                    }
+          ],
+          "correctChoiceId": "c"
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "definition",
+                              "name": "Malware",
+                              "statement": "Malicious software."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "Malware includes viruses, spyware and ransomware.",
+                              "marks": 1,
+                              "markCode": "M"
+                    }
+          ],
+          "finalAnswer": "Malicious software"
+},
+        },
+        {
+          id: "cils-c-u2-sc-q6",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "An account uses a password, a fingerprint scan and a one-time code. How many authentication factors is that?",
+          response: {
+          "type": "numeric",
+          "parts": [
+                    { "label": "a", "answer": 3 }
+          ]
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "definition",
+                              "name": "Authentication",
+                              "statement": "Multiple verification factors."
+                    }
+          ],
+          "steps": [
+                    {
+                              "part": "a",
+                              "reasoning": "Password + biometric + code = 3 factors.",
+                              "marks": 1,
+                              "markCode": "M"
+                    }
+          ],
+          "finalAnswer": "3"
+},
+        },
+        {
+          id: "cils-c-u2-sc-q7",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "A phishing email contains 5 red flags. A student identifies 3 of them. How many did they miss?",
+          response: {
+          "type": "numeric",
+          "parts": [
+                    { "label": "a", "answer": 2 }
+          ]
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "skill",
+                              "name": "Phishing detection",
+                              "statement": "Count missed flags."
+                    }
+          ],
+          "steps": [
+                    {
+                              "part": "a",
+                              "reasoning": "5 - 3 = 2 missed.",
+                              "marks": 1,
+                              "markCode": "M"
+                    }
+          ],
+          "finalAnswer": "2"
+},
+        },
+        {
+          id: "cils-c-u2-sc-q8",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "Why is it important to install software updates regularly? Give two reasons.",
+          response: {
+          "type": "open"
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "definition",
+                              "name": "Updates",
+                              "statement": "Security patches."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "Updates patch known security vulnerabilities.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "Fix bugs that could crash or corrupt data.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "Outdated software is a common attack target.",
+                              "marks": 1,
+                              "markCode": "A"
+                    }
+          ],
+          "finalAnswer": "Patches vulnerabilities, fixes bugs"
+},
+        },
+        {
+          id: "cils-c-u2-sc-q9",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "What does two-factor authentication (2FA) add to a password?",
+          response: {
+          "type": "mcq",
+          "choices": [
+                    {
+                              "id": "a",
+                              "text": "A faster login"
+                    },
+                    {
+                              "id": "b",
+                              "text": "A longer password"
+                    },
+                    {
+                              "id": "c",
+                              "text": "Free antivirus"
+                    },
+                    {
+                              "id": "d",
+                              "text": "A second verification step, e.g. a code sent to your phone"
+                    }
+          ],
+          "correctChoiceId": "d"
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "definition",
+                              "name": "2FA",
+                              "statement": "Password + second factor."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "2FA requires something you know plus something you have.",
+                              "marks": 1,
+                              "markCode": "M"
+                    }
+          ],
+          "finalAnswer": "Second verification factor"
+},
+        },
+        {
+          id: "cils-c-u2-sc-q10",
+          difficulty: "challenge",
+          totalMarks: 1,
+          stem: "A firewall blocks 95% of attack attempts. If 200 attacks are attempted, how many get through?",
+          response: {
+          "type": "numeric",
+          "parts": [
+                    { "label": "a", "answer": 10 }
+          ]
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "skill",
+                              "name": "Firewall",
+                              "statement": "Blocks unauthorised access."
+                    }
+          ],
+          "steps": [
+                    {
+                              "part": "a",
+                              "reasoning": "5% of 200 = 10 get through.",
+                              "marks": 1,
+                              "markCode": "M"
+                    }
+          ],
+          "finalAnswer": "10"
+},
+        },
+        {
+          id: "cils-c-u2-sc-q11",
+          difficulty: "challenge",
+          totalMarks: 1,
+          stem: "How does ransomware typically work?",
+          response: {
+          "type": "mcq",
+          "choices": [
+                    {
+                              "id": "a",
+                              "text": "It encrypts the victim's files and demands payment for the key"
+                    },
+                    {
+                              "id": "b",
+                              "text": "It only shows adverts"
+                    },
+                    {
+                              "id": "c",
+                              "text": "It deletes the operating system instantly"
+                    },
+                    {
+                              "id": "d",
+                              "text": "It speeds up the computer"
+                    }
+          ],
+          "correctChoiceId": "a"
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "definition",
+                              "name": "Ransomware",
+                              "statement": "Encrypts data for ransom."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "Ransomware locks files and demands payment.",
+                              "marks": 1,
+                              "markCode": "M"
+                    }
+          ],
+          "finalAnswer": "Encrypts files for ransom"
+},
+        },
+        {
+          id: "cils-c-u2-sc-q12",
+          difficulty: "challenge",
+          totalMarks: 5,
+          stem: "(a) Define phishing, malware, encryption, authentication, firewall. (b) Name two types of malware and what each does. (c) What is the best defence against ransomware? (d) Why do attackers use social engineering instead of hacking? (e) List three things you should never share online.",
+          response: {
+          "type": "open"
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "technique",
+                              "name": "Security",
+                              "statement": "Threats and defences."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "(a) All five definitions correct.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "(b) e.g. virus corrupts files; spyware monitors activity.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "(c) Regular backups + antivirus + not opening suspicious files.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "(d) People are often the weakest link — easier to trick than break encryption.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "(e) e.g. passwords, PINs, personal details, one-time codes.",
+                              "marks": 1,
+                              "markCode": "A"
+                    }
+          ],
+          "finalAnswer": "Threats, defences, social engineering."
+},
+        },
+        {
+          id: "cils-c-u2-sc-q13",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "What does encryption do to data?",
+          response: {
+          "type": "mcq",
+          "choices": [
+                    {
+                              "id": "a",
+                              "text": "Scrambles it so only authorised parties can read it"
+                    },
+                    {
+                              "id": "b",
+                              "text": "Copies it to the cloud"
+                    },
+                    {
+                              "id": "c",
+                              "text": "Compresses it"
+                    },
+                    {
+                              "id": "d",
+                              "text": "Deletes it permanently"
+                    }
+          ],
+          "correctChoiceId": "a"
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "definition",
+                              "name": "Encryption",
+                              "statement": "Scrambles data for privacy."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "Encryption makes data unreadable without the key.",
+                              "marks": 1,
+                              "markCode": "M"
+                    }
+          ],
+          "finalAnswer": "Scrambles data"
+},
+        },
+        {
+          id: "cils-c-u2-sc-q14",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "A user has unique passwords for 3 sites. One site is breached. How many of the user's accounts remain safe from that breach?",
+          response: {
+          "type": "numeric",
+          "parts": [
+                    { "label": "a", "answer": 2 }
+          ]
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "skill",
+                              "name": "Unique passwords",
+                              "statement": "One breach doesn't expose all."
+                    }
+          ],
+          "steps": [
+                    {
+                              "part": "a",
+                              "reasoning": "Only the breached site is affected: 3 - 1 = 2 safe.",
+                              "marks": 1,
+                              "markCode": "M"
+                    }
+          ],
+          "finalAnswer": "2"
+},
+        },
+        {
+          id: "cils-c-u2-sc-q15",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "What is 'social engineering' in cyber security?",
+          response: {
+          "type": "mcq",
+          "choices": [
+                    {
+                              "id": "a",
+                              "text": "A type of firewall"
+                    },
+                    {
+                              "id": "b",
+                              "text": "Encrypting messages"
+                    },
+                    {
+                              "id": "c",
+                              "text": "Building social media apps"
+                    },
+                    {
+                              "id": "d",
+                              "text": "Manipulating people into revealing information or granting access"
+                    }
+          ],
+          "correctChoiceId": "d"
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "definition",
+                              "name": "Social engineering",
+                              "statement": "Manipulating people."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "Attackers exploit human trust rather than technology.",
+                              "marks": 1,
+                              "markCode": "M"
+                    }
+          ],
+          "finalAnswer": "Manipulating people"
+},
+        },
+        {
+          id: "cils-c-u2-sc-q16",
+          difficulty: "challenge",
+          totalMarks: 6,
+          stem: "(a) Define phishing, malware, ransomware, encryption, authentication, social engineering. (b) How can you tell a phishing email? List three signs. (c) Why are backups the best defence against ransomware? (d) What makes a strong password? (e) Why shouldn't you share your password even with 'IT support'? (f) Design a 5-point online safety policy for your school.",
+          response: {
+          "type": "open"
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "technique",
+                              "name": "Security",
+                              "statement": "Threats, signs, defences."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "(a) All six definitions correct.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "(b) e.g. urgency, generic greeting, suspicious link, asks for credentials.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "(c) Restores data without paying ransom.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "(d) Long, unique, mix of characters, not reused.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "(e) Legitimate support never needs your password — it's a social engineering trick.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "(f) Valid school safety policy covering passwords, updates, reporting, backups.",
+                              "marks": 1,
+                              "markCode": "A"
+                    }
+          ],
+          "finalAnswer": "Cyber threats and school policy."
 },
         },
       ],

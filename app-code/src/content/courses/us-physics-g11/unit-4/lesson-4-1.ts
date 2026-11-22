@@ -55,9 +55,9 @@ export const lesson41: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "They vibrate parallel to the direction the wave travels." },
-              { id: "b", text: "They vibrate at right angles to the direction the wave travels." },
+              { id: "b", text: "They do not move at all." },
               { id: "c", text: "They travel with the wave from the source to the listener." },
-              { id: "d", text: "They do not move at all." },
+              { id: "d", text: "They vibrate at right angles to the direction the wave travels." },
             ],
             correctChoiceId: "a",
           },
@@ -192,12 +192,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The light slows down and bends toward the normal." },
-              { id: "b", text: "The light speeds up and bends toward the normal." },
-              { id: "c", text: "The light slows down and bends away from the normal." },
-              { id: "d", text: "The light changes frequency but keeps its speed." },
+              { id: "a", text: "The light speeds up and bends toward the normal." },
+              { id: "b", text: "The light slows down and bends toward the normal." },
+              { id: "c", text: "The light changes frequency but keeps its speed." },
+              { id: "d", text: "The light slows down and bends away from the normal." },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [

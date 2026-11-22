@@ -55,12 +55,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Tense and unstable" },
-              { id: "b", text: "Pleasant and stable" },
-              { id: "c", text: "Very loud" },
-              { id: "d", text: "Very fast" },
+              { id: "a", text: "Very fast" },
+              { id: "b", text: "Tense and unstable" },
+              { id: "c", text: "Pleasant and stable" },
+              { id: "d", text: "Very loud" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -156,10 +156,10 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The loudest sound in the piece" },
+              { id: "a", text: "The percussion pattern" },
               { id: "b", text: "The primary melodic line or tune" },
-              { id: "c", text: "The chord progression" },
-              { id: "d", text: "The percussion pattern" },
+              { id: "c", text: "The loudest sound in the piece" },
+              { id: "d", text: "The chord progression" },
             ],
             correctChoiceId: "b",
           },
@@ -228,12 +228,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The number of instruments only" },
-              { id: "b", text: "Repetitions, contrasts and the organisation of sections" },
+              { id: "a", text: "Repetitions, contrasts and the organisation of sections" },
+              { id: "b", text: "The number of instruments only" },
               { id: "c", text: "The volume of the climax" },
               { id: "d", text: "The singer's age" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -257,12 +257,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A phrase or section ending" },
-              { id: "b", text: "The fastest tempo" },
-              { id: "c", text: "The highest note" },
-              { id: "d", text: "The first instrument to enter" },
+              { id: "a", text: "The highest note" },
+              { id: "b", text: "The first instrument to enter" },
+              { id: "c", text: "A phrase or section ending" },
+              { id: "d", text: "The fastest tempo" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -337,12 +337,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Is very quiet" },
-              { id: "b", text: "Creates forward momentum and shapes the energy" },
+              { id: "a", text: "Creates forward momentum and shapes the energy" },
+              { id: "b", text: "Disappears behind the melody" },
               { id: "c", text: "Uses only long notes" },
-              { id: "d", text: "Disappears behind the melody" },
+              { id: "d", text: "Is very quiet" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -366,12 +366,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A single sudden dynamic accent" },
-              { id: "b", text: "A new combination of sustained material, cadence and changed character" },
-              { id: "c", text: "The audience applauding" },
-              { id: "d", text: "One instrument playing a high note" },
+              { id: "a", text: "One instrument playing a high note" },
+              { id: "b", text: "The audience applauding" },
+              { id: "c", text: "A new combination of sustained material, cadence and changed character" },
+              { id: "d", text: "A single sudden dynamic accent" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -395,12 +395,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Only written notation" },
-              { id: "b", text: "Fixed orchestral sections" },
-              { id: "c", text: "Improvisation and interactive development" },
-              { id: "d", text: "Identical harmonic routines" },
+              { id: "a", text: "Fixed orchestral sections" },
+              { id: "b", text: "Identical harmonic routines" },
+              { id: "c", text: "Only written notation" },
+              { id: "d", text: "Improvisation and interactive development" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -519,12 +519,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The written score" },
-              { id: "b", text: "Improvisation and interaction between players" },
-              { id: "c", text: "The conductor's gestures" },
-              { id: "d", text: "The audience's reaction" },
+              { id: "a", text: "Improvisation and interaction between players" },
+              { id: "b", text: "The conductor's gestures" },
+              { id: "c", text: "The audience's reaction" },
+              { id: "d", text: "The written score" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -620,12 +620,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Form, orchestration and thematic development" },
-              { id: "b", text: "Only the lead singer" },
-              { id: "c", text: "Dance choreography" },
-              { id: "d", text: "Album artwork" },
+              { id: "a", text: "Album artwork" },
+              { id: "b", text: "Dance choreography" },
+              { id: "c", text: "Only the lead singer" },
+              { id: "d", text: "Form, orchestration and thematic development" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -692,12 +692,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Choose the louder recording" },
-              { id: "b", text: "Identify similarities, differences and what they reveal about style" },
-              { id: "c", text: "Avoid analysing either piece" },
-              { id: "d", text: "Memorise song lyrics" },
+              { id: "a", text: "Memorise song lyrics" },
+              { id: "b", text: "Avoid analysing either piece" },
+              { id: "c", text: "Identify similarities, differences and what they reveal about style" },
+              { id: "d", text: "Choose the louder recording" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -722,9 +722,9 @@ export const lesson52: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Production, hooks and vocal delivery" },
-              { id: "b", text: "Only fugue entries" },
-              { id: "c", text: "Unaccompanied chant" },
-              { id: "d", text: "Baroque ornamentation" },
+              { id: "b", text: "Baroque ornamentation" },
+              { id: "c", text: "Only fugue entries" },
+              { id: "d", text: "Unaccompanied chant" },
             ],
             correctChoiceId: "a",
           },
@@ -801,12 +801,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A fixed orchestral tutti" },
-              { id: "b", text: "One musical idea answered or developed by another player" },
-              { id: "c", text: "A silent pause in the music" },
-              { id: "d", text: "A written solo played without interaction" },
+              { id: "a", text: "A written solo played without interaction" },
+              { id: "b", text: "A fixed orchestral tutti" },
+              { id: "c", text: "One musical idea answered or developed by another player" },
+              { id: "d", text: "A silent pause in the music" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -830,12 +830,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Assume it is classical music" },
-              { id: "b", text: "Use a broad element checklist before applying genre-specific questions" },
-              { id: "c", text: "Ignore harmony entirely" },
-              { id: "d", text: "Judge only the first ten seconds" },
+              { id: "a", text: "Use a broad element checklist before applying genre-specific questions" },
+              { id: "b", text: "Ignore harmony entirely" },
+              { id: "c", text: "Judge only the first ten seconds" },
+              { id: "d", text: "Assume it is classical music" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -859,12 +859,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Comparing melodic contour and phrase length" },
-              { id: "b", text: "Comparing texture and rhythmic drive" },
-              { id: "c", text: "Comparing harmony and dynamic shape" },
-              { id: "d", text: "Saying one song is better simply because it is louder" },
+              { id: "a", text: "Comparing texture and rhythmic drive" },
+              { id: "b", text: "Comparing melodic contour and phrase length" },
+              { id: "c", text: "Saying one song is better simply because it is louder" },
+              { id: "d", text: "Comparing harmony and dynamic shape" },
             ],
-            correctChoiceId: "d",
+            correctChoiceIc: "d",
           },
           markscheme: {
             principles: [

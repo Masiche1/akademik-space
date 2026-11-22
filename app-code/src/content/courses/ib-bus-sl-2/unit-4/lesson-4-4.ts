@@ -56,9 +56,9 @@ export const lesson44: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Calculate the profit for tax purposes" },
+              { id: "a", text: "Value the business for sale" },
               { id: "b", text: "Project expected cash inflows and outflows over time" },
-              { id: "c", text: "Value the business for sale" },
+              { id: "c", text: "Calculate the profit for tax purposes" },
               { id: "d", text: "Pay suppliers on time" },
             ],
             correctChoiceId: "b",
@@ -166,12 +166,12 @@ export const lesson44: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Total assets - Total liabilities" },
-              { id: "b", text: "Current assets - Current liabilities" },
-              { id: "c", text: "Revenue - Costs" },
-              { id: "d", text: "Receipts - Payments over a year" },
+              { id: "a", text: "Receipts - Payments over a year" },
+              { id: "b", text: "Revenue - Costs" },
+              { id: "c", text: "Current assets - Current liabilities" },
+              { id: "d", text: "Total assets - Total liabilities" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Working capital", statement: "Working capital = current assets - current liabilities" }],
@@ -192,10 +192,10 @@ export const lesson44: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Profit is always paid out as dividends immediately" },
+              { id: "a", text: "Liquidity and profitability are the same measure" },
               { id: "b", text: "Profit may be tied up in slow-paying debtors while bills fall due now" },
               { id: "c", text: "Profitable businesses never need cash" },
-              { id: "d", text: "Liquidity and profitability are the same measure" },
+              { id: "d", text: "Profit is always paid out as dividends immediately" },
             ],
             correctChoiceId: "b",
           },
@@ -323,12 +323,12 @@ export const lesson44: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Generate profit over a year" },
-              { id: "b", text: "Meet short-term financial obligations as they fall due" },
+              { id: "a", text: "Borrow money cheaply" },
+              { id: "b", text: "Generate profit over a year" },
               { id: "c", text: "Sell its assets quickly" },
-              { id: "d", text: "Borrow money cheaply" },
+              { id: "d", text: "Meet short-term financial obligations as they fall due" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Liquidity", statement: "The ability to pay short-term debts as they fall due." }],
@@ -349,10 +349,10 @@ export const lesson44: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Increasing the price of products" },
+              { id: "a", text: "Taking out a 20-year mortgage" },
               { id: "b", text: "Collecting debtors faster and reducing slow-moving stock" },
-              { id: "c", text: "Taking out a 20-year mortgage" },
-              { id: "d", text: "Paying suppliers earlier than required" },
+              { id: "c", text: "Paying suppliers earlier than required" },
+              { id: "d", text: "Increasing the price of products" },
             ],
             correctChoiceId: "b",
           },
@@ -413,12 +413,12 @@ export const lesson44: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Calculate the annual profit" },
-              { id: "b", text: "Predict cash positions so liquidity problems can be planned for" },
-              { id: "c", text: "Value the firm's assets for sale" },
+              { id: "a", text: "Value the firm's assets for sale" },
+              { id: "b", text: "Calculate the annual profit" },
+              { id: "c", text: "Predict cash positions so liquidity problems can be planned for" },
               { id: "d", text: "Set the prices of products" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Cash-flow forecast", statement: "Projection of expected cash inflows and outflows used to manage liquidity." }],
@@ -439,12 +439,12 @@ export const lesson44: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Total assets minus total liabilities" },
-              { id: "b", text: "Current assets minus current liabilities" },
+              { id: "a", text: "Current assets minus current liabilities" },
+              { id: "b", text: "Total assets minus total liabilities" },
               { id: "c", text: "Revenue minus total costs" },
               { id: "d", text: "Cash received minus profit earned" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Working capital", statement: "Working capital = current assets - current liabilities" }],
@@ -502,10 +502,10 @@ export const lesson44: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The business is making a profit" },
+              { id: "a", text: "The business has no liabilities" },
               { id: "b", text: "Current assets exceed current liabilities, so short-term debts can be covered" },
-              { id: "c", text: "The business has no liabilities" },
-              { id: "d", text: "The business owns no stock" },
+              { id: "c", text: "The business owns no stock" },
+              { id: "d", text: "The business is making a profit" },
             ],
             correctChoiceId: "b",
           },
@@ -573,10 +573,10 @@ export const lesson44: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Taking on more long-term debt" },
+              { id: "a", text: "Paying all expenses immediately" },
               { id: "b", text: "Offering discounts for early customer payment and chasing debtors faster" },
               { id: "c", text: "Buying more non-current assets" },
-              { id: "d", text: "Paying all expenses immediately" },
+              { id: "d", text: "Taking on more long-term debt" },
             ],
             correctChoiceId: "b",
           },
@@ -600,12 +600,12 @@ export const lesson44: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Revenue will fall next year" },
-              { id: "b", text: "Cash is tied up in unpaid invoices while bills fall due" },
+              { id: "a", text: "Cash is tied up in unpaid invoices while bills fall due" },
+              { id: "b", text: "Revenue will fall next year" },
               { id: "c", text: "Profits will be taxed immediately" },
               { id: "d", text: "Working capital will become negative automatically" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Debtor risk", statement: "Slow-paying customers tie up cash — profit on paper is not cash in hand." }],
@@ -674,12 +674,12 @@ export const lesson44: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Generate high profits" },
-              { id: "b", text: "Meet short-term financial obligations as they fall due" },
+              { id: "a", text: "Meet short-term financial obligations as they fall due" },
+              { id: "b", text: "Pay dividends every year" },
               { id: "c", text: "Grow its market share" },
-              { id: "d", text: "Pay dividends every year" },
+              { id: "d", text: "Generate high profits" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Liquidity", statement: "The ability to meet short-term debts as they fall due." }],
@@ -700,12 +700,12 @@ export const lesson44: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Eliminating all business risk" },
-              { id: "b", text: "Identifying future cash shortfalls so finance can be arranged in time" },
-              { id: "c", text: "Replacing the need for financial statements" },
-              { id: "d", text: "Guaranteeing sales will rise" },
+              { id: "a", text: "Replacing the need for financial statements" },
+              { id: "b", text: "Guaranteeing sales will rise" },
+              { id: "c", text: "Eliminating all business risk" },
+              { id: "d", text: "Identifying future cash shortfalls so finance can be arranged in time" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Forecast purpose", statement: "Forecasts are early-warning tools — they show when and how much finance is needed." }],
@@ -758,12 +758,12 @@ export const lesson44: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Total profit over the project's life" },
-              { id: "b", text: "Time needed for cash inflows to recover the initial cost" },
-              { id: "c", text: "Average annual return as a percentage" },
-              { id: "d", text: "Present value of future cash flows" },
+              { id: "a", text: "Average annual return as a percentage" },
+              { id: "b", text: "Present value of future cash flows" },
+              { id: "c", text: "Total profit over the project's life" },
+              { id: "d", text: "Time needed for cash inflows to recover the initial cost" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -867,9 +867,9 @@ export const lesson44: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Initial investment / Average annual profit x 100" },
+              { id: "a", text: "Total profit / Number of years" },
               { id: "b", text: "Average annual profit / Initial investment x 100" },
-              { id: "c", text: "Total profit / Number of years" },
+              { id: "c", text: "Initial investment / Average annual profit x 100" },
               { id: "d", text: "Cash inflow / Initial investment" },
             ],
             correctChoiceId: "b",
@@ -893,10 +893,10 @@ export const lesson44: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The project loses money overall" },
+              { id: "a", text: "The payback period is very short" },
               { id: "b", text: "The present value of future cash inflows exceeds the initial cost" },
-              { id: "c", text: "The payback period is very short" },
-              { id: "d", text: "The discount rate is zero" },
+              { id: "c", text: "The discount rate is zero" },
+              { id: "d", text: "The project loses money overall" },
             ],
             correctChoiceId: "b",
           },
@@ -1025,12 +1025,12 @@ export const lesson44: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It ignores the time value of money" },
-              { id: "b", text: "It depends on forecasts and the chosen discount rate, which may be wrong" },
+              { id: "a", text: "It depends on forecasts and the chosen discount rate, which may be wrong" },
+              { id: "b", text: "It ignores the time value of money" },
               { id: "c", text: "It cannot be used to compare projects" },
               { id: "d", text: "It only works for very short projects" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "NPV limitations", statement: "NPV relies on estimated cash flows and a subjective discount rate." }],
@@ -1052,12 +1052,12 @@ export const lesson44: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The initial investment cost" },
-              { id: "b", text: "Cash flows after payback and the time value of money" },
-              { id: "c", text: "The number of years involved" },
-              { id: "d", text: "Whether the project makes a profit" },
+              { id: "a", text: "The number of years involved" },
+              { id: "b", text: "The initial investment cost" },
+              { id: "c", text: "Whether the project makes a profit" },
+              { id: "d", text: "Cash flows after payback and the time value of money" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Payback limitations", statement: "Payback only measures time to recover cost — it ignores later flows and discounting." }],
@@ -1097,12 +1097,12 @@ export const lesson44: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Which has the lower initial cost" },
-              { id: "b", text: "Total cash flows, NPV or ARR — measures that capture returns beyond payback" },
-              { id: "c", text: "Which was proposed first" },
+              { id: "a", text: "Total cash flows, NPV or ARR — measures that capture returns beyond payback" },
+              { id: "b", text: "Which was proposed first" },
+              { id: "c", text: "Which has the lower initial cost" },
               { id: "d", text: "Which has the longer life" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Appraisal comparison", statement: "When payback ties, use NPV/ARR or total cash flows to compare long-run returns." }],
@@ -1124,10 +1124,10 @@ export const lesson44: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The interest rate charged by the bank" },
+              { id: "a", text: "The project's profit margin" },
               { id: "b", text: "The required rate of return — the return investors could earn elsewhere" },
               { id: "c", text: "The rate of inflation only" },
-              { id: "d", text: "The project's profit margin" },
+              { id: "d", text: "The interest rate charged by the bank" },
             ],
             correctChoiceId: "b",
           },
@@ -1150,12 +1150,12 @@ export const lesson44: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Money loses its value over time, so future cash flows are worth less than today's" },
-              { id: "b", text: "Money always increases in value" },
-              { id: "c", text: "All cash flows are equal regardless of timing" },
-              { id: "d", text: "Interest is never paid on investments" },
+              { id: "a", text: "Money always increases in value" },
+              { id: "b", text: "Interest is never paid on investments" },
+              { id: "c", text: "Money loses its value over time, so future cash flows are worth less than today's" },
+              { id: "d", text: "All cash flows are equal regardless of timing" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Time value of money", statement: "A dollar received today is worth more than a dollar received later — discounting adjusts for this." }],
@@ -1251,8 +1251,8 @@ export const lesson44: Lesson = {
             choices: [
               { id: "a", text: "The 12% project — lower risk" },
               { id: "b", text: "The 18% project — its return exceeds the cost of capital" },
-              { id: "c", text: "Neither — ARR cannot be compared to the cost of capital" },
-              { id: "d", text: "Both are equal" },
+              { id: "c", text: "Both are equal" },
+              { id: "d", text: "Neither — ARR cannot be compared to the cost of capital" },
             ],
             correctChoiceId: "b",
           },
@@ -1295,12 +1295,12 @@ export const lesson44: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The time to recover the initial investment" },
-              { id: "b", text: "Average annual profit as a percentage of the initial investment" },
-              { id: "c", text: "The present value of future cash flows" },
-              { id: "d", text: "Total cash inflows over the project life" },
+              { id: "a", text: "Total cash inflows over the project life" },
+              { id: "b", text: "The time to recover the initial investment" },
+              { id: "c", text: "Average annual profit as a percentage of the initial investment" },
+              { id: "d", text: "The present value of future cash flows" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "ARR", statement: "ARR = average annual profit / initial investment x 100." }],
@@ -1394,12 +1394,12 @@ export const lesson44: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Has the shortest payback" },
-              { id: "b", text: "Creates the most value for shareholders" },
-              { id: "c", text: "Requires the least capital" },
-              { id: "d", text: "Has the lowest risk" },
+              { id: "a", text: "Has the lowest risk" },
+              { id: "b", text: "Requires the least capital" },
+              { id: "c", text: "Creates the most value for shareholders" },
+              { id: "d", text: "Has the shortest payback" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "NPV ranking", statement: "Highest NPV = greatest value creation — the financially optimal choice." }],

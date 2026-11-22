@@ -59,11 +59,11 @@ export const lesson22: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "5% annual growth factor" },
-              { id: "b", text: "5% annual growth rate" },
-              { id: "c", text: "105% growth" },
-              { id: "d", text: "Initial population" },
+              { id: "b", text: "105% growth" },
+              { id: "c", text: "Initial population" },
+              { id: "d", text: "5% annual growth rate" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -87,8 +87,8 @@ export const lesson22: Lesson = {
             choices: [
               { id: "a", text: "3 hours" },
               { id: "b", text: "12 hours" },
-              { id: "c", text: "1.5 hours" },
-              { id: "d", text: "48 hours" },
+              { id: "c", text: "48 hours" },
+              { id: "d", text: "1.5 hours" },
             ],
             correctChoiceId: "a",
           },
@@ -113,12 +113,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$t=1$ s and $t=3$ s" },
-              { id: "b", text: "$t=2$ s only" },
-              { id: "c", text: "$t=1$ s only" },
-              { id: "d", text: "$t=4$ s" },
+              { id: "a", text: "$t=4$ s" },
+              { id: "b", text: "$t=1$ s only" },
+              { id: "c", text: "$t=1$ s and $t=3$ s" },
+              { id: "d", text: "$t=2$ s only" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -173,12 +173,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "50" },
-              { id: "b", text: "4" },
-              { id: "c", text: "54" },
-              { id: "d", text: "0" },
+              { id: "a", text: "54" },
+              { id: "b", text: "50" },
+              { id: "c", text: "0" },
+              { id: "d", text: "4" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -219,12 +219,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Exponential decay $y=ae^{-kt}$" },
-              { id: "b", text: "Linear decrease $y=a-bt$" },
-              { id: "c", text: "Quadratic $y=ax^2+bx+c$" },
-              { id: "d", text: "Constant $y=a$" },
+              { id: "a", text: "Linear decrease $y=a-bt$" },
+              { id: "b", text: "Constant $y=a$" },
+              { id: "c", text: "Exponential decay $y=ae^{-kt}$" },
+              { id: "d", text: "Quadratic $y=ax^2+bx+c$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -266,12 +266,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Continuous growth rate of 3% per unit time" },
-              { id: "b", text: "Initial population 0.03" },
-              { id: "c", text: "Population increases by exactly 0.03 each year" },
-              { id: "d", text: "Population doubles every 0.03 years" },
+              { id: "a", text: "Initial population 0.03" },
+              { id: "b", text: "Population doubles every 0.03 years" },
+              { id: "c", text: "Continuous growth rate of 3% per unit time" },
+              { id: "d", text: "Population increases by exactly 0.03 each year" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -380,12 +380,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The value decreases by 35 per unit increase in $x$" },
-              { id: "b", text: "The initial value is 35" },
-              { id: "c", text: "The value halves every 35 units" },
-              { id: "d", text: "$y$ is negative when $x=35$" },
+              { id: "a", text: "The initial value is 35" },
+              { id: "b", text: "The value halves every 35 units" },
+              { id: "c", text: "$y$ is negative when $x=35$" },
+              { id: "d", text: "The value decreases by 35 per unit increase in $x$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -409,9 +409,9 @@ export const lesson22: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Initial temperature 100°C; long-term temperature equals room temperature" },
-              { id: "b", text: "Room temperature 100°C; coffee heats to 20°C" },
-              { id: "c", text: "Boiling point 100°C; coffee freezes at 20°C" },
-              { id: "d", text: "The coffee never cools below 80°C" },
+              { id: "b", text: "The coffee never cools below 80°C" },
+              { id: "c", text: "Room temperature 100°C; coffee heats to 20°C" },
+              { id: "d", text: "Boiling point 100°C; coffee freezes at 20°C" },
             ],
             correctChoiceId: "a",
           },
@@ -498,12 +498,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$x=3$ and $y=2$" },
-              { id: "b", text: "$x=-3$ and $y=2$" },
+              { id: "a", text: "No asymptotes" },
+              { id: "b", text: "$x=3$ and $y=2$" },
               { id: "c", text: "$x=3$ and $y=-2$" },
-              { id: "d", text: "No asymptotes" },
+              { id: "d", text: "$x=-3$ and $y=2$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -525,12 +525,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Amplitude 3, period $\\pi$, midline $y=1$" },
-              { id: "b", text: "Amplitude 1.5, period $\\pi$, midline $y=3$" },
-              { id: "c", text: "Amplitude 3, period $2\\pi$, midline $y=1$" },
-              { id: "d", text: "Amplitude 3, period $\\pi$, midline $y=0$" },
+              { id: "a", text: "Amplitude 3, period $\\pi$, midline $y=0$" },
+              { id: "b", text: "Amplitude 3, period $\\pi$, midline $y=1$" },
+              { id: "c", text: "Amplitude 1.5, period $\\pi$, midline $y=3$" },
+              { id: "d", text: "Amplitude 3, period $2\\pi$, midline $y=1$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -553,12 +553,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$x=-4$" },
-              { id: "b", text: "$x=4$" },
+              { id: "a", text: "$x=4$" },
+              { id: "b", text: "$x=-4$" },
               { id: "c", text: "$x=8$" },
               { id: "d", text: "$x=-2$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -613,12 +613,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$x=3$" },
+              { id: "a", text: "$y=0$" },
               { id: "b", text: "$x=0$" },
-              { id: "c", text: "$y=0$" },
+              { id: "c", text: "$x=3$" },
               { id: "d", text: "$x=-3$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -657,12 +657,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$y=3$" },
-              { id: "b", text: "$y=1$" },
-              { id: "c", text: "$y=\\frac13$" },
+              { id: "a", text: "$y=1$" },
+              { id: "b", text: "$y=\\frac13$" },
+              { id: "c", text: "$y=3$" },
               { id: "d", text: "$y=-2$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -705,8 +705,8 @@ export const lesson22: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$-1\\le y\\le5$" },
-              { id: "b", text: "$2\\le y\\le5$" },
-              { id: "c", text: "$-3\\le y\\le3$" },
+              { id: "b", text: "$-3\\le y\\le3$" },
+              { id: "c", text: "$2\\le y\\le5$" },
               { id: "d", text: "$5\\le y\\le8$" },
             ],
             correctChoiceId: "a",
@@ -819,9 +819,9 @@ export const lesson22: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$x=\\frac{\\pi}{2}+k\\pi$" },
-              { id: "b", text: "$x=k\\pi$" },
+              { id: "b", text: "$x=\\frac{\\pi}{2}+2k\\pi$ only" },
               { id: "c", text: "$x=\\frac{\\pi}{4}+k\\pi$" },
-              { id: "d", text: "$x=\\frac{\\pi}{2}+2k\\pi$ only" },
+              { id: "d", text: "$x=k\\pi$" },
             ],
             correctChoiceId: "a",
           },
@@ -846,12 +846,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Amplitude 2, period $\\frac{2\\pi}{3}$, phase shift $\\frac{\\pi}{12}$ right" },
-              { id: "b", text: "Amplitude 2, period $6\\pi$, phase shift $\\frac{\\pi}{4}$ left" },
-              { id: "c", text: "Amplitude 3, period $\\frac{2\\pi}{3}$, phase shift $\\frac{\\pi}{12}$ right" },
-              { id: "d", text: "Amplitude 2, period $\\frac{\\pi}{3}$, phase shift $\\frac{\\pi}{4}$ right" },
+              { id: "a", text: "Amplitude 2, period $\\frac{\\pi}{3}$, phase shift $\\frac{\\pi}{4}$ right" },
+              { id: "b", text: "Amplitude 2, period $\\frac{2\\pi}{3}$, phase shift $\\frac{\\pi}{12}$ right" },
+              { id: "c", text: "Amplitude 2, period $6\\pi$, phase shift $\\frac{\\pi}{4}$ left" },
+              { id: "d", text: "Amplitude 3, period $\\frac{2\\pi}{3}$, phase shift $\\frac{\\pi}{12}$ right" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [

@@ -89,12 +89,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "O–H bond (alcohol or carboxylic acid)" },
-              { id: "b", text: "C=O bond" },
+              { id: "a", text: "C=O bond" },
+              { id: "b", text: "O–H bond (alcohol or carboxylic acid)" },
               { id: "c", text: "C–H bond" },
               { id: "d", text: "C–C bond" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -318,11 +318,11 @@ export const lesson63: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "An O–H bond" },
-              { id: "b", text: "A C=O bond" },
-              { id: "c", text: "A C–H bond" },
-              { id: "d", text: "An N–H bond" },
+              { id: "b", text: "An N–H bond" },
+              { id: "c", text: "A C=O bond" },
+              { id: "d", text: "A C–H bond" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -356,12 +356,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A C=O bond" },
-              { id: "b", text: "A C≡N or C≡C triple bond" },
+              { id: "a", text: "A C≡N or C≡C triple bond" },
+              { id: "b", text: "A C=C double bond" },
               { id: "c", text: "An O–H bond" },
-              { id: "d", text: "A C=C double bond" },
+              { id: "d", text: "A C=O bond" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -396,12 +396,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "One chlorine atom" },
-              { id: "b", text: "One bromine atom" },
-              { id: "c", text: "Two chlorine atoms" },
-              { id: "d", text: "A $^{13}$C atom only" },
+              { id: "a", text: "A $^{13}$C atom only" },
+              { id: "b", text: "Two chlorine atoms" },
+              { id: "c", text: "One bromine atom" },
+              { id: "d", text: "One chlorine atom" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -440,12 +440,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The molecular ion peak" },
-              { id: "b", text: "The most abundant fragment ion" },
-              { id: "c", text: "The peak at the highest m/z value" },
-              { id: "d", text: "The smallest peak in the spectrum" },
+              { id: "a", text: "The peak at the highest m/z value" },
+              { id: "b", text: "The molecular ion peak" },
+              { id: "c", text: "The smallest peak in the spectrum" },
+              { id: "d", text: "The most abundant fragment ion" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -485,12 +485,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "An alcohol" },
-              { id: "b", text: "An ester" },
-              { id: "c", text: "A carboxylic acid" },
-              { id: "d", text: "A ketone" },
+              { id: "a", text: "A ketone" },
+              { id: "b", text: "A carboxylic acid" },
+              { id: "c", text: "An alcohol" },
+              { id: "d", text: "An ester" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -531,11 +531,11 @@ export const lesson63: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Methanal, HCHO" },
-              { id: "b", text: "Ethanal, CH$_3$CHO" },
-              { id: "c", text: "Propanone, CH$_3$COCH$_3$" },
-              { id: "d", text: "Ethanol, C$_2$H$_5$OH" },
+              { id: "b", text: "Ethanol, C$_2$H$_5$OH" },
+              { id: "c", text: "Ethanal, CH$_3$CHO" },
+              { id: "d", text: "Propanone, CH$_3$COCH$_3$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -864,12 +864,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "2" },
-              { id: "b", text: "3" },
-              { id: "c", text: "4" },
-              { id: "d", text: "1" },
+              { id: "a", text: "4" },
+              { id: "b", text: "1" },
+              { id: "c", text: "3" },
+              { id: "d", text: "2" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1086,12 +1086,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Alkane protons" },
-              { id: "b", text: "The O–H proton of a carboxylic acid" },
+              { id: "a", text: "The O–H proton of a carboxylic acid" },
+              { id: "b", text: "Aldehyde protons" },
               { id: "c", text: "Alkene protons" },
-              { id: "d", text: "Aldehyde protons" },
+              { id: "d", text: "Alkane protons" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -1126,12 +1126,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "2" },
-              { id: "b", text: "3" },
-              { id: "c", text: "4" },
-              { id: "d", text: "1" },
+              { id: "a", text: "4" },
+              { id: "b", text: "1" },
+              { id: "c", text: "2" },
+              { id: "d", text: "3" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1168,8 +1168,8 @@ export const lesson63: Lesson = {
             choices: [
               { id: "a", text: "Carbon atom in the molecule" },
               { id: "b", text: "Distinct carbon environment" },
-              { id: "c", text: "Hydrogen atom" },
-              { id: "d", text: "Chemical bond" },
+              { id: "c", text: "Chemical bond" },
+              { id: "d", text: "Hydrogen atom" },
             ],
             correctChoiceId: "b",
           },
@@ -1206,10 +1206,10 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "δ ≈ 0.9" },
+              { id: "a", text: "δ ≈ 5.5" },
               { id: "b", text: "δ ≈ 2.1" },
-              { id: "c", text: "δ ≈ 5.5" },
-              { id: "d", text: "δ ≈ 11" },
+              { id: "c", text: "δ ≈ 11" },
+              { id: "d", text: "δ ≈ 0.9" },
             ],
             correctChoiceId: "b",
           },
@@ -1247,11 +1247,11 @@ export const lesson63: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "1" },
-              { id: "b", text: "2" },
-              { id: "c", text: "4" },
-              { id: "d", text: "8" },
+              { id: "b", text: "4" },
+              { id: "c", text: "8" },
+              { id: "d", text: "2" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1286,10 +1286,10 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Water" },
+              { id: "a", text: "Ethanol" },
               { id: "b", text: "Tetramethylsilane (TMS)" },
-              { id: "c", text: "Ethanol" },
-              { id: "d", text: "Benzene" },
+              { id: "c", text: "Benzene" },
+              { id: "d", text: "Water" },
             ],
             correctChoiceId: "b",
           },

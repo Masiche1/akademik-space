@@ -56,11 +56,11 @@ export const lesson12: Lesson = {
                     },
                     {
                               "id": "b",
-                              "text": "Input, process, output"
+                              "text": "Variables, functions, loops"
                     },
                     {
                               "id": "c",
-                              "text": "Variables, functions, loops"
+                              "text": "Input, process, output"
                     },
                     {
                               "id": "d",
@@ -213,6 +213,481 @@ export const lesson12: Lesson = {
                     }
           ],
           "finalAnswer": "Three constructs theory and application."
+},
+        },
+        {
+          id: "cils-c-u1-ct-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Which of these is an example of sequence in a program?",
+          response: {
+          "type": "mcq",
+          "choices": [
+                    {
+                              "id": "a",
+                              "text": "IF score > 10 THEN display 'win'"
+                    },
+                    {
+                              "id": "b",
+                              "text": "Step 1 get input, step 2 process, step 3 output"
+                    },
+                    {
+                              "id": "c",
+                              "text": "WHILE guessing"
+                    },
+                    {
+                              "id": "d",
+                              "text": "REPEAT until finished"
+                    }
+          ],
+          "correctChoiceId": "b"
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "definition",
+                              "name": "Sequence",
+                              "statement": "Instructions in order."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "Ordered steps with no decisions or repeats = sequence.",
+                              "marks": 1,
+                              "markCode": "M"
+                    }
+          ],
+          "finalAnswer": "Ordered steps = sequence"
+},
+        },
+        {
+          id: "cils-c-u1-ct-q6",
+          difficulty: "foundation",
+          totalMarks: 2,
+          stem: "An algorithm has: 3 sequence steps, 2 selection steps and 1 iteration step. (a) How many selection steps are there? (b) How many steps are there in total?",
+          response: {
+          "type": "numeric",
+          "parts": [
+                    { "label": "a", "answer": 2 },
+                    { "label": "b", "answer": 6 }
+          ]
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "skill",
+                              "name": "Counting constructs",
+                              "statement": "Add steps of each type."
+                    }
+          ],
+          "steps": [
+                    {
+                              "part": "a",
+                              "reasoning": "Selection steps given as 2.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "part": "b",
+                              "reasoning": "3 + 2 + 1 = 6 steps.",
+                              "marks": 1,
+                              "markCode": "M"
+                    }
+          ],
+          "finalAnswer": "2 and 6"
+},
+        },
+        {
+          id: "cils-c-u1-ct-q7",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Which programming construct is used in 'IF temperature < 0 THEN wear coat ELSE wear jacket'?",
+          response: {
+          "type": "mcq",
+          "choices": [
+                    {
+                              "id": "a",
+                              "text": "Iteration"
+                    },
+                    {
+                              "id": "b",
+                              "text": "Selection"
+                    },
+                    {
+                              "id": "c",
+                              "text": "Abstraction"
+                    },
+                    {
+                              "id": "d",
+                              "text": "Sequence"
+                    }
+          ],
+          "borrectChoiceId": "c"
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "definition",
+                              "name": "Selection",
+                              "statement": "Choosing based on a condition."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "IF/THEN/ELSE chooses between options = selection.",
+                              "marks": 1,
+                              "markCode": "M"
+                    }
+          ],
+          "finalAnswer": "Selection"
+},
+        },
+        {
+          id: "cils-c-u1-ct-q8",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "A program runs 'FOR i = 1 TO 5: DISPLAY i'. How many times is DISPLAY executed?",
+          response: {
+          "type": "numeric",
+          "parts": [
+                    { "label": "a", "answer": 5 }
+          ]
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "skill",
+                              "name": "FOR loop count",
+                              "statement": "Runs once per value."
+                    }
+          ],
+          "steps": [
+                    {
+                              "part": "a",
+                              "reasoning": "i takes 1,2,3,4,5 → 5 executions.",
+                              "marks": 1,
+                              "markCode": "M"
+                    }
+          ],
+          "finalAnswer": "5"
+},
+        },
+        {
+          id: "cils-c-u1-ct-q9",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "What does iteration mean in programming?",
+          response: {
+          "type": "mcq",
+          "choices": [
+                    {
+                              "id": "a",
+                              "text": "Making a decision"
+                    },
+                    {
+                              "id": "b",
+                              "text": "Steps in order"
+                    },
+                    {
+                              "id": "c",
+                              "text": "Repeating instructions"
+                    },
+                    {
+                              "id": "d",
+                              "text": "Storing data"
+                    }
+          ],
+          "correctChoiceId": "c"
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "definition",
+                              "name": "Iteration",
+                              "statement": "Repeating instructions."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "Iteration = loops that repeat actions.",
+                              "marks": 1,
+                              "markCode": "M"
+                    }
+          ],
+          "finalAnswer": "Repeating instructions"
+},
+        },
+        {
+          id: "cils-c-u1-ct-q10",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "A loop contains 'REPEAT 3 times: step A; step B'. How many instructions are executed inside the loop in total?",
+          response: {
+          "type": "numeric",
+          "parts": [
+                    { "label": "a", "answer": 6 }
+          ]
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "skill",
+                              "name": "Loop tracing",
+                              "statement": "Steps × repeats."
+                    }
+          ],
+          "steps": [
+                    {
+                              "part": "a",
+                              "reasoning": "2 steps × 3 repeats = 6 instructions.",
+                              "marks": 1,
+                              "markCode": "M"
+                    }
+          ],
+          "finalAnswer": "6"
+},
+        },
+        {
+          id: "cils-c-u1-ct-q11",
+          difficulty: "challenge",
+          totalMarks: 1,
+          stem: "Which task genuinely requires all three programming constructs?",
+          response: {
+          "type": "mcq",
+          "choices": [
+                    {
+                              "id": "a",
+                              "text": "Add two numbers and display the result"
+                    },
+                    {
+                              "id": "b",
+                              "text": "Print your name once"
+                    },
+                    {
+                              "id": "c",
+                              "text": "Keep guessing until the correct number is found, choosing a different hint each try"
+                    },
+                    {
+                              "id": "d",
+                              "text": "Turn the computer off"
+                    }
+          ],
+          "correctChoiceId": "c"
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "skill",
+                              "name": "Construct necessity",
+                              "statement": "All three needed for repeat + decide + order."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "Repeating guesses = iteration; choosing hints = selection; ordered steps = sequence.",
+                              "marks": 1,
+                              "markCode": "A"
+                    }
+          ],
+          "finalAnswer": "Guessing game with hints"
+},
+        },
+        {
+          id: "cils-c-u1-ct-q12",
+          difficulty: "foundation",
+          totalMarks: 2,
+          stem: "Pseudocode: '1. INPUT name 2. IF name = \"Sam\" THEN DISPLAY \"hi Sam\" ELSE DISPLAY \"hello\" 3. OUTPUT done'. How many (a) selection statements and (b) sequence steps does it contain?",
+          response: {
+          "type": "numeric",
+          "parts": [
+                    { "label": "a", "answer": 1 },
+                    { "label": "b", "answer": 3 }
+          ]
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "skill",
+                              "name": "Identify constructs",
+                              "statement": "IF = selection; steps = sequence."
+                    }
+          ],
+          "steps": [
+                    {
+                              "part": "a",
+                              "reasoning": "One IF statement = 1 selection.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "part": "b",
+                              "reasoning": "Three numbered steps = 3 sequence steps.",
+                              "marks": 1,
+                              "markCode": "M"
+                    }
+          ],
+          "finalAnswer": "1 and 3"
+},
+        },
+        {
+          id: "cils-c-u1-ct-q13",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Which construct handles 'choose between two options based on a condition'?",
+          response: {
+          "type": "mcq",
+          "choices": [
+                    {
+                              "id": "a",
+                              "text": "Selection"
+                    },
+                    {
+                              "id": "b",
+                              "text": "Iteration"
+                    },
+                    {
+                              "id": "c",
+                              "text": "Sequence"
+                    },
+                    {
+                              "id": "d",
+                              "text": "Decomposition"
+                    }
+          ],
+          "correctChoiceId": "a"
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "definition",
+                              "name": "Selection",
+                              "statement": "Condition-based choice."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "Choosing between options = selection construct.",
+                              "marks": 1,
+                              "markCode": "M"
+                    }
+          ],
+          "finalAnswer": "Selection"
+},
+        },
+        {
+          id: "cils-c-u1-ct-q14",
+          difficulty: "challenge",
+          totalMarks: 1,
+          stem: "Pseudocode: 'FOR EACH of 4 students: IF absent THEN mark X'. How many times is the condition 'absent' checked?",
+          response: {
+          "type": "numeric",
+          "parts": [
+                    { "label": "a", "answer": 4 }
+          ]
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "skill",
+                              "name": "Nested constructs",
+                              "statement": "Loop body runs once per item."
+                    }
+          ],
+          "steps": [
+                    {
+                              "part": "a",
+                              "reasoning": "FOR EACH over 4 students → 4 checks.",
+                              "marks": 1,
+                              "markCode": "M"
+                    }
+          ],
+          "finalAnswer": "4"
+},
+        },
+        {
+          id: "cils-c-u1-ct-q15",
+          difficulty: "challenge",
+          totalMarks: 1,
+          stem: "A program uses only sequence — no selection or iteration. What kind of task can it still do?",
+          response: {
+          "type": "mcq",
+          "choices": [
+                    {
+                              "id": "a",
+                              "text": "Loop through a list of names"
+                    },
+                    {
+                              "id": "b",
+                              "text": "Calculate a fixed recipe of steps, e.g. add two numbers and display the result"
+                    },
+                    {
+                              "id": "c",
+                              "text": "Ask the user a question and branch on the answer"
+                    },
+                    {
+                              "id": "d",
+                              "text": "Repeat a step until a condition is met"
+                    }
+          ],
+          "borrectChoiceId": "c"
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "skill",
+                              "name": "Sequence limits",
+                              "statement": "Only straight-line tasks."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "Sequence alone handles fixed ordered tasks only.",
+                              "marks": 1,
+                              "markCode": "A"
+                    }
+          ],
+          "finalAnswer": "Fixed recipe tasks only"
+},
+        },
+        {
+          id: "cils-c-u1-ct-q16",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "(a) Write pseudocode for a number-guessing game that uses all three constructs: sequence, selection and iteration. (b) Label which part of your pseudocode is sequence, which is selection and which is iteration. (c) Why must the game use iteration? (d) What selection decision does the game need?",
+          response: {
+          "type": "open"
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "technique",
+                              "name": "Mixed constructs",
+                              "statement": "All three constructs applied."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "(a) Valid pseudocode e.g. REPEAT: guess, IF guess = number THEN win ELSE hint UNTIL correct.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "(b) Correct labels for each part.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "(c) Repeated guessing requires a loop.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "(d) IF guess correct / too high / too low decision.",
+                              "marks": 1,
+                              "markCode": "A"
+                    }
+          ],
+          "finalAnswer": "All three constructs in a guessing game."
 },
         },
       ],

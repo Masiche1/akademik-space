@@ -75,12 +75,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Yours sincerely" },
-              { id: "b", text: "Yours faithfully" },
-              { id: "c", text: "Cheers" },
-              { id: "d", text: "See you soon" },
+              { id: "a", text: "Cheers" },
+              { id: "b", text: "See you soon" },
+              { id: "c", text: "Yours faithfully" },
+              { id: "d", text: "Yours sincerely" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "convention", name: "Sign-off", statement: "Dear + name is closed with Yours sincerely." }],
@@ -200,12 +200,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Have you ever lost an entire afternoon inside a book?" },
-              { id: "b", text: "This article is about the library." },
-              { id: "c", text: "The library has books." },
-              { id: "d", text: "Hello, I am writing this now." },
+              { id: "a", text: "The library has books." },
+              { id: "b", text: "Have you ever lost an entire afternoon inside a book?" },
+              { id: "c", text: "Hello, I am writing this now." },
+              { id: "d", text: "This article is about the library." },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "convention", name: "Article hook", statement: "An engaging question or striking idea draws the reader in." }],

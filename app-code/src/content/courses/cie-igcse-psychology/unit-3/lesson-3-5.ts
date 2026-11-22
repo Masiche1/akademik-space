@@ -114,12 +114,12 @@ export const lesson35: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Nerve cells transmitting signals" },
-              { id: "b", text: "Blood cells" },
-              { id: "c", text: "Muscle cells" },
-              { id: "d", text: "Bone cells" },
+              { id: "a", text: "Bone cells" },
+              { id: "b", text: "Muscle cells" },
+              { id: "c", text: "Nerve cells transmitting signals" },
+              { id: "d", text: "Blood cells" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -147,12 +147,12 @@ export const lesson35: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The gap between neurons" },
-              { id: "b", text: "A brain region" },
-              { id: "c", text: "A type of cell" },
-              { id: "d", text: "A hormone" },
+              { id: "a", text: "A hormone" },
+              { id: "b", text: "The gap between neurons" },
+              { id: "c", text: "A brain region" },
+              { id: "d", text: "A type of cell" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -180,12 +180,12 @@ export const lesson35: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Chemical messengers crossing synapses" },
-              { id: "b", text: "Blood cells" },
-              { id: "c", text: "Muscles" },
-              { id: "d", text: "Bones" },
+              { id: "a", text: "Blood cells" },
+              { id: "b", text: "Bones" },
+              { id: "c", text: "Chemical messengers crossing synapses" },
+              { id: "d", text: "Muscles" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -213,12 +213,12 @@ export const lesson35: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Depression" },
-              { id: "b", text: "Parkinson's" },
-              { id: "c", text: "Epilepsy" },
-              { id: "d", text: "Schizophrenia" },
+              { id: "a", text: "Epilepsy" },
+              { id: "b", text: "Depression" },
+              { id: "c", text: "Schizophrenia" },
+              { id: "d", text: "Parkinson's" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -246,12 +246,12 @@ export const lesson35: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Parkinson's disease" },
-              { id: "b", text: "Depression" },
+              { id: "a", text: "OCD" },
+              { id: "b", text: "Parkinson's disease" },
               { id: "c", text: "Anxiety" },
-              { id: "d", text: "OCD" },
+              { id: "d", text: "Depression" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -279,12 +279,12 @@ export const lesson35: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Memory formation" },
+              { id: "a", text: "Breathing" },
               { id: "b", text: "Movement" },
-              { id: "c", text: "Breathing" },
-              { id: "d", text: "Vision" },
+              { id: "c", text: "Vision" },
+              { id: "d", text: "Memory formation" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -312,12 +312,12 @@ export const lesson35: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Rapid eye movements and dreaming" },
-              { id: "b", text: "Deep sleep" },
+              { id: "a", text: "Deep sleep" },
+              { id: "b", text: "Physical restoration only" },
               { id: "c", text: "No brain activity" },
-              { id: "d", text: "Physical restoration only" },
+              { id: "d", text: "Rapid eye movements and dreaming" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -345,12 +345,12 @@ export const lesson35: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Emotion processing, especially fear" },
-              { id: "b", text: "Memory formation" },
-              { id: "c", text: "Breathing" },
-              { id: "d", text: "Balance" },
+              { id: "a", text: "Breathing" },
+              { id: "b", text: "Balance" },
+              { id: "c", text: "Memory formation" },
+              { id: "d", text: "Emotion processing, especially fear" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -378,12 +378,12 @@ export const lesson35: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Homeostasis — hunger, thirst, temperature" },
-              { id: "b", text: "Memory" },
-              { id: "c", text: "Vision" },
-              { id: "d", text: "Speech" },
+              { id: "a", text: "Memory" },
+              { id: "b", text: "Speech" },
+              { id: "c", text: "Homeostasis — hunger, thirst, temperature" },
+              { id: "d", text: "Vision" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -550,9 +550,9 @@ export const lesson35: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Fight-or-flight response" },
-              { id: "b", text: "Sleep" },
+              { id: "b", text: "Memory formation" },
               { id: "c", text: "Digestion" },
-              { id: "d", text: "Memory formation" },
+              { id: "d", text: "Sleep" },
             ],
             correctChoiceId: "a",
           },
@@ -613,12 +613,12 @@ export const lesson35: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Coordination and balance" },
-              { id: "b", text: "Memory" },
-              { id: "c", text: "Emotion" },
-              { id: "d", text: "Breathing" },
+              { id: "a", text: "Emotion" },
+              { id: "b", text: "Coordination and balance" },
+              { id: "c", text: "Breathing" },
+              { id: "d", text: "Memory" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -756,8 +756,8 @@ export const lesson35: Lesson = {
             choices: [
               { id: "a", text: "Vital functions — breathing, heart rate" },
               { id: "b", text: "Memory" },
-              { id: "c", text: "Vision" },
-              { id: "d", text: "Speech" },
+              { id: "c", text: "Speech" },
+              { id: "d", text: "Vision" },
             ],
             correctChoiceId: "a",
           },
@@ -899,8 +899,8 @@ export const lesson35: Lesson = {
             choices: [
               { id: "a", text: "Dopamine" },
               { id: "b", text: "Serotonin" },
-              { id: "c", text: "GABA" },
-              { id: "d", text: "Adrenaline" },
+              { id: "c", text: "Adrenaline" },
+              { id: "d", text: "GABA" },
             ],
             correctChoiceId: "a",
           },
@@ -995,12 +995,12 @@ export const lesson35: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Amygdala" },
-              { id: "b", text: "Hippocampus" },
-              { id: "c", text: "Cerebellum" },
-              { id: "d", text: "Brainstem" },
+              { id: "a", text: "Brainstem" },
+              { id: "b", text: "Cerebellum" },
+              { id: "c", text: "Hippocampus" },
+              { id: "d", text: "Amygdala" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1179,15 +1179,15 @@ export const lesson35: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "A personality trait" },
+              { id: "b", text: "A physical illness" },
+              { id: "c", text: "Any unusual behaviour" },
               {
-                id: "a",
+                id: "d",
                 text: "A pattern of thoughts/feelings/behaviours causing distress",
               },
-              { id: "b", text: "Any unusual behaviour" },
-              { id: "c", text: "A physical illness" },
-              { id: "d", text: "A personality trait" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1215,12 +1215,12 @@ export const lesson35: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Excessive worry and avoidance" },
-              { id: "b", text: "Hallucinations" },
+              { id: "a", text: "Loss of memory" },
+              { id: "b", text: "Excessive worry and avoidance" },
               { id: "c", text: "Delusions" },
-              { id: "d", text: "Loss of memory" },
+              { id: "d", text: "Hallucinations" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1248,12 +1248,12 @@ export const lesson35: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Persistent low mood and loss of interest" },
-              { id: "b", text: "Mania" },
-              { id: "c", text: "Hallucinations" },
-              { id: "d", text: "Compulsions" },
+              { id: "a", text: "Compulsions" },
+              { id: "b", text: "Hallucinations" },
+              { id: "c", text: "Persistent low mood and loss of interest" },
+              { id: "d", text: "Mania" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1281,15 +1281,15 @@ export const lesson35: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "Only sadness" },
               {
-                id: "a",
+                id: "b",
                 text: "Delusions, hallucinations and disorganised thinking",
               },
-              { id: "b", text: "Only sadness" },
-              { id: "c", text: "Only anxiety" },
-              { id: "d", text: "Only memory loss" },
+              { id: "c", text: "Only memory loss" },
+              { id: "d", text: "Only anxiety" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1318,12 +1318,12 @@ export const lesson35: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Increasing serotonin levels" },
-              { id: "b", text: "Blocking dopamine" },
+              { id: "a", text: "Blocking dopamine" },
+              { id: "b", text: "Reducing GABA" },
               { id: "c", text: "Increasing adrenaline" },
-              { id: "d", text: "Reducing GABA" },
+              { id: "d", text: "Increasing serotonin levels" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1351,12 +1351,12 @@ export const lesson35: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Blocking dopamine receptors" },
+              { id: "a", text: "Blocking serotonin" },
               { id: "b", text: "Increasing serotonin" },
-              { id: "c", text: "Increasing dopamine" },
-              { id: "d", text: "Blocking serotonin" },
+              { id: "c", text: "Blocking dopamine receptors" },
+              { id: "d", text: "Increasing dopamine" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1385,9 +1385,9 @@ export const lesson35: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Changing thoughts and behaviours" },
-              { id: "b", text: "Exploring unconscious conflicts" },
-              { id: "c", text: "Medication only" },
-              { id: "d", text: "Dream analysis" },
+              { id: "b", text: "Dream analysis" },
+              { id: "c", text: "Exploring unconscious conflicts" },
+              { id: "d", text: "Medication only" },
             ],
             correctChoiceId: "a",
           },
@@ -1417,12 +1417,12 @@ export const lesson35: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Sigmund Freud" },
-              { id: "b", text: "Carl Rogers" },
-              { id: "c", text: "Aaron Beck" },
+              { id: "a", text: "Carl Rogers" },
+              { id: "b", text: "Aaron Beck" },
+              { id: "c", text: "Sigmund Freud" },
               { id: "d", text: "Ivan Pavlov" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1450,12 +1450,12 @@ export const lesson35: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Carl Rogers" },
-              { id: "b", text: "Sigmund Freud" },
-              { id: "c", text: "Aaron Beck" },
+              { id: "a", text: "Sigmund Freud" },
+              { id: "b", text: "Aaron Beck" },
+              { id: "c", text: "Carl Rogers" },
               { id: "d", text: "B.F. Skinner" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1627,12 +1627,12 @@ export const lesson35: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Explore unconscious conflicts" },
-              { id: "b", text: "Change behaviours quickly" },
-              { id: "c", text: "Provide medication" },
-              { id: "d", text: "Increase serotonin" },
+              { id: "a", text: "Change behaviours quickly" },
+              { id: "b", text: "Provide medication" },
+              { id: "c", text: "Increase serotonin" },
+              { id: "d", text: "Explore unconscious conflicts" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1691,12 +1691,12 @@ export const lesson35: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Unconditional positive regard and empathy" },
+              { id: "a", text: "Dream analysis" },
               { id: "b", text: "Challenging thoughts" },
-              { id: "c", text: "Medication" },
-              { id: "d", text: "Dream analysis" },
+              { id: "c", text: "Unconditional positive regard and empathy" },
+              { id: "d", text: "Medication" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1836,12 +1836,12 @@ export const lesson35: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Illnesses with biological causes" },
-              { id: "b", text: "Learned behaviours" },
-              { id: "c", text: "Moral failings" },
-              { id: "d", text: "Social constructs only" },
+              { id: "a", text: "Social constructs only" },
+              { id: "b", text: "Moral failings" },
+              { id: "c", text: "Illnesses with biological causes" },
+              { id: "d", text: "Learned behaviours" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1979,12 +1979,12 @@ export const lesson35: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Anxiety disorders" },
-              { id: "b", text: "Depression" },
-              { id: "c", text: "Schizophrenia" },
-              { id: "d", text: "OCD only" },
+              { id: "a", text: "Depression" },
+              { id: "b", text: "Anxiety disorders" },
+              { id: "c", text: "OCD only" },
+              { id: "d", text: "Schizophrenia" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -2082,9 +2082,9 @@ export const lesson35: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Aaron Beck" },
-              { id: "b", text: "Sigmund Freud" },
+              { id: "b", text: "Ivan Pavlov" },
               { id: "c", text: "Carl Rogers" },
-              { id: "d", text: "Ivan Pavlov" },
+              { id: "d", text: "Sigmund Freud" },
             ],
             correctChoiceId: "a",
           },

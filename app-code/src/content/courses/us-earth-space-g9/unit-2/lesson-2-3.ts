@@ -49,10 +49,10 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The equator is closer to the Sun by a large distance." },
+              { id: "a", text: "Earth's rotation gives the equator more daylight hours every day." },
               { id: "b", text: "Sunlight strikes the equator more directly, so it is spread over a smaller area." },
-              { id: "c", text: "The poles are covered by ocean, which reflects all light." },
-              { id: "d", text: "Earth's rotation gives the equator more daylight hours every day." },
+              { id: "c", text: "The equator is closer to the Sun by a large distance." },
+              { id: "d", text: "The poles are covered by ocean, which reflects all light." },
             ],
             correctChoiceId: "b",
           },
@@ -182,12 +182,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Respiration" },
-              { id: "b", text: "Combustion of fossil fuels" },
-              { id: "c", text: "Photosynthesis" },
+              { id: "a", text: "Photosynthesis" },
+              { id: "b", text: "Respiration" },
+              { id: "c", text: "Combustion of fossil fuels" },
               { id: "d", text: "Volcanic eruption" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [

@@ -60,12 +60,12 @@ export const lesson111: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A colour" },
-              { id: "b", text: "What something is made of" },
-              { id: "c", text: "A shape" },
-              { id: "d", text: "A size" },
+              { id: "a", text: "A shape" },
+              { id: "b", text: "A size" },
+              { id: "c", text: "What something is made of" },
+              { id: "d", text: "A colour" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -90,12 +90,12 @@ export const lesson111: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Paper" },
-              { id: "b", text: "Plastic" },
-              { id: "c", text: "Cloth" },
-              { id: "d", text: "Sponge" },
+              { id: "a", text: "Plastic" },
+              { id: "b", text: "Paper" },
+              { id: "c", text: "Sponge" },
+              { id: "d", text: "Cloth" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -223,12 +223,12 @@ export const lesson111: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It's cheap" },
-              { id: "b", text: "It's transparent" },
-              { id: "c", text: "It's soft" },
-              { id: "d", text: "It's bendy" },
+              { id: "a", text: "It's soft" },
+              { id: "b", text: "It's cheap" },
+              { id: "c", text: "It's bendy" },
+              { id: "d", text: "It's transparent" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -253,12 +253,12 @@ export const lesson111: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It's colourful" },
-              { id: "b", text: "It keeps rain out" },
-              { id: "c", text: "It's soft" },
+              { id: "a", text: "It keeps rain out" },
+              { id: "b", text: "It's soft" },
+              { id: "c", text: "It's colourful" },
               { id: "d", text: "It's cheap" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

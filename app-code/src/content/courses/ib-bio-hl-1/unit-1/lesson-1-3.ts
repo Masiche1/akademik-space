@@ -54,12 +54,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Enhancer" },
-              { id: "b", text: "Silencer" },
-              { id: "c", text: "Operator only" },
-              { id: "d", text: "Telomere" },
+              { id: "a", text: "Telomere" },
+              { id: "b", text: "Operator only" },
+              { id: "c", text: "Enhancer" },
+              { id: "d", text: "Silencer" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -156,12 +156,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Increases transcription when bound by activators" },
-              { id: "b", text: "Decreases or represses transcription when bound by repressors" },
-              { id: "c", text: "Is removed during mRNA splicing" },
-              { id: "d", text: "Codes for a transcription factor" },
+              { id: "a", text: "Codes for a transcription factor" },
+              { id: "b", text: "Increases transcription when bound by activators" },
+              { id: "c", text: "Decreases or represses transcription when bound by repressors" },
+              { id: "d", text: "Is removed during mRNA splicing" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -184,10 +184,10 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Changing the DNA sequence of the gene" },
+              { id: "a", text: "Splicing introns from mRNA" },
               { id: "b", text: "Binding specific DNA sequences and altering transcription" },
-              { id: "c", text: "Splicing introns from mRNA" },
-              { id: "d", text: "Adding telomeric repeats" },
+              { id: "c", text: "Adding telomeric repeats" },
+              { id: "d", text: "Changing the DNA sequence of the gene" },
             ],
             correctChoiceId: "b",
           },
@@ -213,9 +213,9 @@ export const lesson13: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Moves the enhancer physically close to the promoter" },
-              { id: "b", text: "Deletes the introns between enhancer and gene" },
-              { id: "c", text: "Changes the promoter into an exon" },
-              { id: "d", text: "Prevents RNA polymerase from binding" },
+              { id: "b", text: "Changes the promoter into an exon" },
+              { id: "c", text: "Prevents RNA polymerase from binding" },
+              { id: "d", text: "Deletes the introns between enhancer and gene" },
             ],
             correctChoiceId: "a",
           },
@@ -240,12 +240,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Maximum transcription driven by all enhancers" },
-              { id: "b", text: "The low level of transcription occurring without specific activators" },
+              { id: "a", text: "The low level of transcription occurring without specific activators" },
+              { id: "b", text: "Maximum transcription driven by all enhancers" },
               { id: "c", text: "Transcription after all introns are removed" },
               { id: "d", text: "Replication of telomeric DNA" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -268,12 +268,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "They have different numbers of chromosomes" },
-              { id: "b", text: "Different transcription-factor combinations regulate different genes" },
-              { id: "c", text: "One cell has lost all its introns" },
-              { id: "d", text: "The genetic code differs between cell types" },
+              { id: "a", text: "The genetic code differs between cell types" },
+              { id: "b", text: "One cell has lost all its introns" },
+              { id: "c", text: "They have different numbers of chromosomes" },
+              { id: "d", text: "Different transcription-factor combinations regulate different genes" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -486,12 +486,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "DNA methylation" },
-              { id: "b", text: "Histone acetylation" },
-              { id: "c", text: "Alternative splicing" },
-              { id: "d", text: "Poly-A tailing" },
+              { id: "a", text: "Histone acetylation" },
+              { id: "b", text: "DNA methylation" },
+              { id: "c", text: "Poly-A tailing" },
+              { id: "d", text: "Alternative splicing" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -588,12 +588,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Loosening chromatin and increasing access for transcription factors" },
-              { id: "b", text: "Methylating cytosine bases in the promoter" },
+              { id: "a", text: "Methylating cytosine bases in the promoter" },
+              { id: "b", text: "Loosening chromatin and increasing access for transcription factors" },
               { id: "c", text: "Removing exons from mRNA" },
               { id: "d", text: "Shortening telomeres" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -617,11 +617,11 @@ export const lesson13: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Active transcription of all genes" },
-              { id: "b", text: "Transcriptional repression because DNA is less accessible" },
-              { id: "c", text: "Increased translation of mRNA" },
-              { id: "d", text: "Removal of RNA primers" },
+              { id: "b", text: "Increased translation of mRNA" },
+              { id: "c", text: "Removal of RNA primers" },
+              { id: "d", text: "Transcriptional repression because DNA is less accessible" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -644,12 +644,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Partially complementary and targets many mRNAs" },
-              { id: "b", text: "Perfectly complementary and typically directs cleavage of a target mRNA" },
+              { id: "a", text: "Perfectly complementary and typically directs cleavage of a target mRNA" },
+              { id: "b", text: "Partially complementary and targets many mRNAs" },
               { id: "c", text: "Synthesised only in the nucleus" },
               { id: "d", text: "A DNA methyltransferase" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -673,11 +673,11 @@ export const lesson13: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Binding perfectly to one mRNA and cleaving it immediately" },
-              { id: "b", text: "Partially pairing with many mRNAs and repressing translation or promoting decay" },
-              { id: "c", text: "Methylating promoter CpG islands" },
-              { id: "d", text: "Adding introns to pre-mRNA" },
+              { id: "b", text: "Adding introns to pre-mRNA" },
+              { id: "c", text: "Partially pairing with many mRNAs and repressing translation or promoting decay" },
+              { id: "d", text: "Methylating promoter CpG islands" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -701,11 +701,11 @@ export const lesson13: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "The DNA sequence itself is changed" },
-              { id: "b", text: "Maintenance enzymes copy methylation patterns to daughter strands" },
+              { id: "b", text: "Telomerase adds methyl groups" },
               { id: "c", text: "mRNA is reverse-transcribed into DNA" },
-              { id: "d", text: "Telomerase adds methyl groups" },
+              { id: "d", text: "Maintenance enzymes copy methylation patterns to daughter strands" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

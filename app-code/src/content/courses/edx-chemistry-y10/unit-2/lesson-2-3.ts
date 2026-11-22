@@ -50,12 +50,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\text{Mg}_2\\text{O}$" },
+              { id: "a", text: "$\\text{Mg}_2\\text{O}_2$" },
               { id: "b", text: "$\\text{MgO}_2$" },
-              { id: "c", text: "$\\text{MgO}$" },
-              { id: "d", text: "$\\text{Mg}_2\\text{O}_2$" },
+              { id: "c", text: "$\\text{Mg}_2\\text{O}$" },
+              { id: "d", text: "$\\text{MgO}$" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -183,11 +183,11 @@ export const lesson23: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "The attraction between positive ions and delocalised electrons" },
-              { id: "b", text: "The attraction between oppositely charged ions" },
-              { id: "c", text: "A shared pair of electrons between two atoms" },
+              { id: "b", text: "A shared pair of electrons between two atoms" },
+              { id: "c", text: "The attraction between oppositely charged ions" },
               { id: "d", text: "A weak force between molecules" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [

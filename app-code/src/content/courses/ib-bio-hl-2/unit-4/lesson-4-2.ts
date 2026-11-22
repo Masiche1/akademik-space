@@ -93,12 +93,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Postzygotic hybrid sterility" },
-              { id: "b", text: "Temporal prezygotic isolation" },
-              { id: "c", text: "Mechanical prezygotic isolation" },
+              { id: "a", text: "Temporal prezygotic isolation" },
+              { id: "b", text: "Mechanical prezygotic isolation" },
+              { id: "c", text: "Postzygotic hybrid sterility" },
               { id: "d", text: "Behavioural postzygotic isolation" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -141,12 +141,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Prezygotic behavioural isolation" },
-              { id: "b", text: "Postzygotic hybrid sterility" },
+              { id: "a", text: "Postzygotic hybrid inviability" },
+              { id: "b", text: "Prezygotic behavioural isolation" },
               { id: "c", text: "Prezygotic gametic isolation" },
-              { id: "d", text: "Postzygotic hybrid inviability" },
+              { id: "d", text: "Postzygotic hybrid sterility" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -198,11 +198,11 @@ export const lesson42: Lesson = {
             choices: [
               {
                 id: "a",
-                text: "Allopatric speciation followed by secondary contact",
+                text: "Sympatric speciation driven by divergent selection on host use, reinforced by reproductive isolation",
               },
               {
                 id: "b",
-                text: "Sympatric speciation driven by divergent selection on host use, reinforced by reproductive isolation",
+                text: "Allopatric speciation followed by secondary contact",
               },
               {
                 id: "c",
@@ -210,7 +210,7 @@ export const lesson42: Lesson = {
               },
               { id: "d", text: "Genetic drift in a small founder population" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -392,19 +392,19 @@ export const lesson42: Lesson = {
             choices: [
               {
                 id: "a",
-                text: "Speciation caused by a geographic barrier that stops gene flow between populations",
-              },
-              {
-                id: "b",
                 text: "Speciation within a continuously distributed population with no barrier",
               },
-              { id: "c", text: "Speciation caused only by sexual selection" },
+              { id: "b", text: "Speciation caused only by sexual selection" },
               {
-                id: "d",
+                id: "c",
                 text: "The instant formation of a new species by hybridisation",
               },
+              {
+                id: "d",
+                text: "Speciation caused by a geographic barrier that stops gene flow between populations",
+              },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -452,11 +452,11 @@ export const lesson42: Lesson = {
                 id: "a",
                 text: "Act after fertilisation to produce sterile hybrids",
               },
-              { id: "b", text: "Prevent fertilisation from occurring at all" },
+              { id: "b", text: "Require a geographic barrier to operate" },
               { id: "c", text: "Only occur in plants via polyploidy" },
-              { id: "d", text: "Require a geographic barrier to operate" },
+              { id: "d", text: "Prevent fertilisation from occurring at all" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -505,7 +505,7 @@ export const lesson42: Lesson = {
               },
               {
                 id: "b",
-                text: "Allopatric speciation completed by a postzygotic barrier",
+                text: "Only genetic drift — no speciation has occurred",
               },
               {
                 id: "c",
@@ -513,10 +513,10 @@ export const lesson42: Lesson = {
               },
               {
                 id: "d",
-                text: "Only genetic drift — no speciation has occurred",
+                text: "Allopatric speciation completed by a postzygotic barrier",
               },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -724,17 +724,17 @@ export const lesson42: Lesson = {
                 id: "a",
                 text: "The doubled plant is immediately sterile with all other plants",
               },
+              { id: "b", text: "Polyploid plants cannot reproduce at all" },
               {
-                id: "b",
-                text: "The polyploid produces gametes with an extra chromosome set, so hybrids with the diploid parent are triploid and usually sterile — instant reproductive isolation",
-              },
-              { id: "c", text: "Polyploid plants cannot reproduce at all" },
-              {
-                id: "d",
+                id: "c",
                 text: "It requires a geographic barrier to take effect",
               },
+              {
+                id: "d",
+                text: "The polyploid produces gametes with an extra chromosome set, so hybrids with the diploid parent are triploid and usually sterile — instant reproductive isolation",
+              },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1234,12 +1234,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Convergent evolution" },
-              { id: "b", text: "Adaptive radiation" },
+              { id: "a", text: "Adaptive radiation" },
+              { id: "b", text: "Convergent evolution" },
               { id: "c", text: "Stabilising selection" },
               { id: "d", text: "Genetic drift" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -1284,16 +1284,16 @@ export const lesson42: Lesson = {
             choices: [
               {
                 id: "a",
-                text: "Homologous structures from a recent common ancestor",
+                text: "Convergent evolution driven by similar selective pressures in water",
               },
               {
                 id: "b",
-                text: "Convergent evolution driven by similar selective pressures in water",
+                text: "Homologous structures from a recent common ancestor",
               },
-              { id: "c", text: "Adaptive radiation within a single lineage" },
-              { id: "d", text: "Disruptive selection on body shape" },
+              { id: "c", text: "Disruptive selection on body shape" },
+              { id: "d", text: "Adaptive radiation within a single lineage" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -1350,7 +1350,7 @@ export const lesson42: Lesson = {
               },
               {
                 id: "b",
-                text: "Mass extinction emptied niches, and surviving lineages underwent adaptive radiation into vacated ecological roles",
+                text: "The surviving species were already maximally diverse before the extinction",
               },
               {
                 id: "c",
@@ -1358,10 +1358,10 @@ export const lesson42: Lesson = {
               },
               {
                 id: "d",
-                text: "The surviving species were already maximally diverse before the extinction",
+                text: "Mass extinction emptied niches, and surviving lineages underwent adaptive radiation into vacated ecological roles",
               },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1543,22 +1543,22 @@ export const lesson42: Lesson = {
             choices: [
               {
                 id: "a",
-                text: "The gradual extinction of species over geological time",
+                text: "The migration of a single species to a new habitat",
               },
               {
                 id: "b",
-                text: "The rapid diversification of one ancestor into many species that occupy different ecological niches",
-              },
-              {
-                id: "c",
                 text: "The convergence of unrelated species in similar environments",
               },
               {
+                id: "c",
+                text: "The rapid diversification of one ancestor into many species that occupy different ecological niches",
+              },
+              {
                 id: "d",
-                text: "The migration of a single species to a new habitat",
+                text: "The gradual extinction of species over geological time",
               },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1608,7 +1608,7 @@ export const lesson42: Lesson = {
               },
               {
                 id: "b",
-                text: "The wings of bats and birds evolving independently for flight",
+                text: "The divergence of mammals after the dinosaur extinction",
               },
               {
                 id: "c",
@@ -1616,10 +1616,10 @@ export const lesson42: Lesson = {
               },
               {
                 id: "d",
-                text: "The divergence of mammals after the dinosaur extinction",
+                text: "The wings of bats and birds evolving independently for flight",
               },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1663,15 +1663,15 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              {
-                id: "a",
-                text: "Group 1 shows convergent evolution; group 2 shows adaptive radiation",
-              },
+              { id: "a", text: "Both groups show stabilising selection" },
               {
                 id: "b",
                 text: "Group 1 shows adaptive radiation (divergent evolution); group 2 shows convergent evolution",
               },
-              { id: "c", text: "Both groups show stabilising selection" },
+              {
+                id: "c",
+                text: "Group 1 shows convergent evolution; group 2 shows adaptive radiation",
+              },
               {
                 id: "d",
                 text: "Both groups show identical evolutionary mechanisms",
@@ -1875,17 +1875,17 @@ export const lesson42: Lesson = {
                 id: "a",
                 text: "Homologous structures inherited from a recent common ancestor",
               },
+              { id: "b", text: "Adaptive radiation within a single lineage" },
               {
-                id: "b",
-                text: "Convergent evolution — similar selective pressures produced similar adaptations in unrelated lineages",
-              },
-              { id: "c", text: "Adaptive radiation within a single lineage" },
-              {
-                id: "d",
+                id: "c",
                 text: "Stabilising selection maintaining an optimal body plan",
               },
+              {
+                id: "d",
+                text: "Convergent evolution — similar selective pressures produced similar adaptations in unrelated lineages",
+              },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

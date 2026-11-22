@@ -56,11 +56,11 @@ export const lesson64: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Both birth and death rates are high" },
-              { id: "b", text: "Death rates fall while birth rates remain high" },
-              { id: "c", text: "Birth rates fall below death rates" },
+              { id: "b", text: "Birth rates fall below death rates" },
+              { id: "c", text: "Death rates fall while birth rates remain high" },
               { id: "d", text: "Both birth and death rates are low" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -187,12 +187,12 @@ export const lesson64: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A country's total CO2 emissions" },
-              { id: "b", text: "Exposure, sensitivity and adaptive capacity" },
+              { id: "a", text: "Population size alone" },
+              { id: "b", text: "A country's total CO2 emissions" },
               { id: "c", text: "The country's latitude alone" },
-              { id: "d", text: "Population size alone" },
+              { id: "d", text: "Exposure, sensitivity and adaptive capacity" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

@@ -48,12 +48,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$12x+c$" },
-              { id: "b", text: "$2x^3+c$" },
+              { id: "a", text: "$2x^3+c$" },
+              { id: "b", text: "$3x^3+c$" },
               { id: "c", text: "$6x^3+c$" },
-              { id: "d", text: "$3x^3+c$" },
+              { id: "d", text: "$12x+c$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Power rule for integration", statement: "$\\int ax^n\\,\\mathrm{d}x=\\frac{ax^{n+1}}{n+1}+c$" }],
@@ -159,9 +159,9 @@ export const lesson63: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$x^4+c$" },
-              { id: "b", text: "$4x^4+c$" },
-              { id: "c", text: "$12x^2+c$" },
-              { id: "d", text: "$x^3+c$" },
+              { id: "b", text: "$x^3+c$" },
+              { id: "c", text: "$4x^4+c$" },
+              { id: "d", text: "$12x^2+c$" },
             ],
             correctChoiceId: "a",
           },
@@ -184,12 +184,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$x^3-x^2+5x+c$" },
-              { id: "b", text: "$x^3-x^2+5x$" },
-              { id: "c", text: "$6x-2+c$" },
-              { id: "d", text: "$x^3-x^2-5x+c$" },
+              { id: "a", text: "$x^3-x^2+5x$" },
+              { id: "b", text: "$x^3-x^2+5x+c$" },
+              { id: "c", text: "$x^3-x^2-5x+c$" },
+              { id: "d", text: "$6x-2+c$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Power rule for integration", statement: "$\\int ax^n\\,\\mathrm{d}x=\\frac{ax^{n+1}}{n+1}+c$; constants integrate to $cx$." }],
@@ -211,9 +211,9 @@ export const lesson63: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$-\\dfrac{1}{x}+c$" },
-              { id: "b", text: "$\\dfrac{1}{x}+c$" },
-              { id: "c", text: "$-\\dfrac{2}{x^3}+c$" },
-              { id: "d", text: "$\\ln x+c$" },
+              { id: "b", text: "$-\\dfrac{2}{x^3}+c$" },
+              { id: "c", text: "$\\ln x+c$" },
+              { id: "d", text: "$\\dfrac{1}{x}+c$" },
             ],
             correctChoiceId: "a",
           },
@@ -311,9 +311,9 @@ export const lesson63: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$8$" },
-              { id: "b", text: "$4$" },
-              { id: "c", text: "$16$" },
-              { id: "d", text: "$2$" },
+              { id: "b", text: "$16$" },
+              { id: "c", text: "$2$" },
+              { id: "d", text: "$4$" },
             ],
             correctChoiceId: "a",
           },
@@ -366,12 +366,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\displaystyle\\int_1^4(x^2+3)\\,\\mathrm{d}x$" },
-              { id: "b", text: "$\\displaystyle\\int_1^4 x^2\\,\\mathrm{d}x$" },
-              { id: "c", text: "$\\displaystyle\\int_4^1(x^2+3)\\,\\mathrm{d}x$" },
-              { id: "d", text: "$\\displaystyle\\int_0^4(x^2+3)\\,\\mathrm{d}x$" },
+              { id: "a", text: "$\\displaystyle\\int_1^4 x^2\\,\\mathrm{d}x$" },
+              { id: "b", text: "$\\displaystyle\\int_1^4(x^2+3)\\,\\mathrm{d}x$" },
+              { id: "c", text: "$\\displaystyle\\int_0^4(x^2+3)\\,\\mathrm{d}x$" },
+              { id: "d", text: "$\\displaystyle\\int_4^1(x^2+3)\\,\\mathrm{d}x$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Area under a curve", statement: "$A=\\int_a^b y\\,\\mathrm{d}x$ with the correct integrand and limits." }],
@@ -392,12 +392,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\dfrac{128}{3}$" },
-              { id: "b", text: "$\\dfrac{256}{3}$" },
-              { id: "c", text: "$128$" },
+              { id: "a", text: "$\\dfrac{256}{3}$" },
+              { id: "b", text: "$128$" },
+              { id: "c", text: "$\\dfrac{128}{3}$" },
               { id: "d", text: "$\\dfrac{512}{3}$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Area under a curve", statement: "$A=\\int_a^b y\\,\\mathrm{d}x$ between the $x$-intercepts." }],
@@ -479,10 +479,10 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "3" },
+              { id: "a", text: "8" },
               { id: "b", text: "4" },
               { id: "c", text: "5" },
-              { id: "d", text: "8" },
+              { id: "d", text: "3" },
             ],
             correctChoiceId: "b",
           },
@@ -592,12 +592,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$22.5$" },
+              { id: "a", text: "$45$" },
               { id: "b", text: "$28$" },
-              { id: "c", text: "$45$" },
+              { id: "c", text: "$22.5$" },
               { id: "d", text: "$17$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Trapezoidal rule", statement: "$\\frac h2[y_0+y_n+2(y_1+\\cdots+y_{n-1})]$" }],
@@ -618,12 +618,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Counted once, while intermediate ordinates are counted twice" },
-              { id: "b", text: "Counted twice, while intermediate ordinates are counted once" },
-              { id: "c", text: "Counted once, as are the intermediate ordinates" },
-              { id: "d", text: "Counted twice, as are the intermediate ordinates" },
+              { id: "a", text: "Counted twice, as are the intermediate ordinates" },
+              { id: "b", text: "Counted once, as are the intermediate ordinates" },
+              { id: "c", text: "Counted twice, while intermediate ordinates are counted once" },
+              { id: "d", text: "Counted once, while intermediate ordinates are counted twice" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Trapezoidal rule", statement: "$\\frac h2[y_0+y_n+2(y_1+\\cdots+y_{n-1})]$" }],
@@ -644,12 +644,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$1.5$" },
+              { id: "a", text: "$1$" },
               { id: "b", text: "$2$" },
-              { id: "c", text: "$1$" },
+              { id: "c", text: "$1.5$" },
               { id: "d", text: "$12$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Strip width", statement: "$h=\\frac{b-a}{n}$" }],
@@ -689,11 +689,11 @@ export const lesson63: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$39$" },
-              { id: "b", text: "$78$" },
+              { id: "b", text: "$42$" },
               { id: "c", text: "$156$" },
-              { id: "d", text: "$42$" },
+              { id: "d", text: "$78$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Trapezoidal rule", statement: "$\\frac h2[y_0+y_n+2(y_1+\\cdots+y_{n-1})]$" }],
@@ -764,12 +764,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "An underestimate" },
-              { id: "b", text: "An overestimate" },
-              { id: "c", text: "The exact value" },
-              { id: "d", text: "An underestimate only if the number of strips is even" },
+              { id: "a", text: "An overestimate" },
+              { id: "b", text: "An underestimate" },
+              { id: "c", text: "An underestimate only if the number of strips is even" },
+              { id: "d", text: "The exact value" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "property", name: "Accuracy of the trapezoidal rule", statement: "For a concave curve the trapezoids lie below the curve." }],
@@ -823,8 +823,8 @@ export const lesson63: Lesson = {
             choices: [
               { id: "a", text: "$45$" },
               { id: "b", text: "$30$" },
-              { id: "c", text: "$90$" },
-              { id: "d", text: "$22.5$" },
+              { id: "c", text: "$22.5$" },
+              { id: "d", text: "$90$" },
             ],
             correctChoiceId: "a",
           },

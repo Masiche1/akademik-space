@@ -52,9 +52,9 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Taking turns doing homework" },
+              { id: "a", text: "Interrupting the speaker politely" },
               { id: "b", text: "The alternation of speaker and listener roles" },
-              { id: "c", text: "Interrupting the speaker politely" },
+              { id: "c", text: "Taking turns doing homework" },
               { id: "d", text: "Finishing your partner's sentences" },
             ],
             correctChoiceId: "b",
@@ -146,10 +146,10 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A channel for private messages" },
+              { id: "a", text: "Changing the topic of conversation" },
               { id: "b", text: "A short listener response showing attention, like 'mm-hm' or 'really?'" },
               { id: "c", text: "Interrupting the speaker to ask a question" },
-              { id: "d", text: "Changing the topic of conversation" },
+              { id: "d", text: "A channel for private messages" },
             ],
             correctChoiceId: "b",
           },
@@ -173,12 +173,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "'Anyway, did you see the game last night?'" },
-              { id: "b", text: "'Can you give an example of what you mean?'" },
-              { id: "c", text: "'That's enough about that.'" },
-              { id: "d", text: "'I have to leave soon.'" },
+              { id: "a", text: "'I have to leave soon.'" },
+              { id: "b", text: "'Anyway, did you see the game last night?'" },
+              { id: "c", text: "'Can you give an example of what you mean?'" },
+              { id: "d", text: "'That's enough about that.'" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -200,12 +200,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Taking turns writing notes" },
-              { id: "b", text: "The alternation of speaker and listener roles" },
-              { id: "c", text: "Speaking for longer than your partner" },
-              { id: "d", text: "Finishing each other's sentences" },
+              { id: "a", text: "The alternation of speaker and listener roles" },
+              { id: "b", text: "Finishing each other's sentences" },
+              { id: "c", text: "Taking turns writing notes" },
+              { id: "d", text: "Speaking for longer than your partner" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -227,12 +227,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Answering every question with 'yes' or 'no'" },
-              { id: "b", text: "Asking a follow-up question after answering" },
-              { id: "c", text: "Checking your phone while listening" },
-              { id: "d", text: "Waiting silently for your partner to speak" },
+              { id: "a", text: "Waiting silently for your partner to speak" },
+              { id: "b", text: "Checking your phone while listening" },
+              { id: "c", text: "Answering every question with 'yes' or 'no'" },
+              { id: "d", text: "Asking a follow-up question after answering" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -255,11 +255,11 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "You want to change the subject politely" },
-              { id: "b", text: "A misunderstanding or unclear message occurs" },
-              { id: "c", text: "You disagree with your partner" },
-              { id: "d", text: "You want to end the conversation" },
+              { id: "b", text: "You disagree with your partner" },
+              { id: "c", text: "You want to end the conversation" },
+              { id: "d", text: "A misunderstanding or unclear message occurs" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -281,12 +281,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A long explanation of your own opinion" },
-              { id: "b", text: "'Really? That's interesting.'" },
+              { id: "a", text: "Complete silence" },
+              { id: "b", text: "A long explanation of your own opinion" },
               { id: "c", text: "A question about a new topic" },
-              { id: "d", text: "Complete silence" },
+              { id: "d", text: "'Really? That's interesting.'" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -308,12 +308,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Asking a follow-up question" },
-              { id: "b", text: "Using a backchannel like 'really?'" },
-              { id: "c", text: "Delivering a memorised speech" },
+              { id: "a", text: "Delivering a memorised speech" },
+              { id: "b", text: "Asking a follow-up question" },
+              { id: "c", text: "Using a backchannel like 'really?'" },
               { id: "d", text: "Making a comment about what was said" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -477,11 +477,11 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "'You're completely wrong.'" },
-              { id: "b", text: "'That's a good point, but I see it differently.'" },
+              { id: "b", text: "'I don't want to talk about it.'" },
               { id: "c", text: "'Whatever.'" },
-              { id: "d", text: "'I don't want to talk about it.'" },
+              { id: "d", text: "'That's a good point, but I see it differently.'" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -572,8 +572,8 @@ export const lesson32: Lesson = {
             choices: [
               { id: "a", text: "'Give me that now.'" },
               { id: "b", text: "'Could you pass me that, please?'" },
-              { id: "c", text: "'Pass that immediately.'" },
-              { id: "d", text: "'You must hand that over.'" },
+              { id: "c", text: "'You must hand that over.'" },
+              { id: "d", text: "'Pass that immediately.'" },
             ],
             correctChoiceId: "b",
           },
@@ -597,12 +597,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A word that ends the conversation" },
-              { id: "b", text: "A word like 'perhaps' or 'maybe' that softens a statement" },
-              { id: "c", text: "A formal greeting" },
-              { id: "d", text: "A technical term" },
+              { id: "a", text: "A technical term" },
+              { id: "b", text: "A formal greeting" },
+              { id: "c", text: "A word that ends the conversation" },
+              { id: "d", text: "A word like 'perhaps' or 'maybe' that softens a statement" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -625,11 +625,11 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Speaking as loudly as possible" },
-              { id: "b", text: "Adjusting formality to suit the person you are talking to" },
-              { id: "c", text: "Using only formal vocabulary" },
-              { id: "d", text: "Repeating your partner's words" },
+              { id: "b", text: "Repeating your partner's words" },
+              { id: "c", text: "Adjusting formality to suit the person you are talking to" },
+              { id: "d", text: "Using only formal vocabulary" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -652,11 +652,11 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Highly formal and ceremonial" },
-              { id: "b", text: "Casual phrasing and informal expressions" },
-              { id: "c", text: "Technical terminology only" },
-              { id: "d", text: "Silence" },
+              { id: "b", text: "Technical terminology only" },
+              { id: "c", text: "Silence" },
+              { id: "d", text: "Casual phrasing and informal expressions" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -679,11 +679,11 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Direct statements are always illegal" },
-              { id: "b", text: "Blunt contradiction can seem rude or confrontational" },
-              { id: "c", text: "Indirectness is easier to translate" },
+              { id: "b", text: "Indirectness is easier to translate" },
+              { id: "c", text: "Blunt contradiction can seem rude or confrontational" },
               { id: "d", text: "Directness shows a lack of vocabulary" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -705,12 +705,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A repair/clarifying response" },
+              { id: "a", text: "A follow-up question about a new topic" },
               { id: "b", text: "A polite disagreement" },
-              { id: "c", text: "A backchannel" },
-              { id: "d", text: "A follow-up question about a new topic" },
+              { id: "c", text: "A repair/clarifying response" },
+              { id: "d", text: "A backchannel" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -733,11 +733,11 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "'You're completely wrong.'" },
-              { id: "b", text: "'That's a good point, but I see it differently.'" },
-              { id: "c", text: "'Whatever, it doesn't matter.'" },
-              { id: "d", text: "'I refuse to discuss this.'" },
+              { id: "b", text: "'I refuse to discuss this.'" },
+              { id: "c", text: "'That's a good point, but I see it differently.'" },
+              { id: "d", text: "'Whatever, it doesn't matter.'" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

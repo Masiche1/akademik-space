@@ -53,12 +53,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$(x+3)^2 - 8$" },
-              { id: "b", text: "$(x+3)^2 + 1$" },
+              { id: "a", text: "$(x+3)^2 + 1$" },
+              { id: "b", text: "$(x+3)^2 - 8$" },
               { id: "c", text: "$(x+6)^2 - 35$" },
               { id: "d", text: "$(x+3)^2 - 10$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -200,12 +200,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$x = 2,\\ y = 4$" },
-              { id: "b", text: "$x = 1,\\ y = 3$" },
-              { id: "c", text: "$x = -2,\\ y = 0$" },
-              { id: "d", text: "$x = 4,\\ y = 2$" },
+              { id: "a", text: "$x = 1,\\ y = 3$" },
+              { id: "b", text: "$x = 4,\\ y = 2$" },
+              { id: "c", text: "$x = 2,\\ y = 4$" },
+              { id: "d", text: "$x = -2,\\ y = 0$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

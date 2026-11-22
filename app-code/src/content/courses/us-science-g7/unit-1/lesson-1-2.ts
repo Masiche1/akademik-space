@@ -49,8 +49,8 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Organ, tissue, cell, organ system" },
-              { id: "b", text: "Cell, organ, tissue, organ system" },
+              { id: "a", text: "Cell, organ, tissue, organ system" },
+              { id: "b", text: "Organ, tissue, cell, organ system" },
               { id: "c", text: "Cell, tissue, organ, organ system" },
               { id: "d", text: "Tissue, cell, organ system, organ" },
             ],
@@ -179,12 +179,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Glucose and oxygen" },
-              { id: "b", text: "Carbon dioxide and water" },
-              { id: "c", text: "Glucose and carbon dioxide" },
+              { id: "a", text: "Carbon dioxide and water" },
+              { id: "b", text: "Glucose and carbon dioxide" },
+              { id: "c", text: "Glucose and oxygen" },
               { id: "d", text: "Oxygen and water" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

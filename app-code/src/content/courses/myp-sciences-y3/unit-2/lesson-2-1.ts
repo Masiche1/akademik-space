@@ -60,8 +60,8 @@ export const lesson21: Lesson = {
             choices: [
               { id: "a", text: "A list of all species" },
               { id: "b", text: "An either/or choice between two options" },
-              { id: "c", text: "A detailed description" },
-              { id: "d", text: "A photograph" },
+              { id: "c", text: "A photograph" },
+              { id: "d", text: "A detailed description" },
             ],
             correctChoiceId: "b",
           },
@@ -158,11 +158,11 @@ export const lesson21: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "The species name" },
-              { id: "b", text: "The genus name" },
-              { id: "c", text: "Both parts" },
+              { id: "b", text: "Both parts" },
+              { id: "c", text: "The genus name" },
               { id: "d", text: "Neither part" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -184,12 +184,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Mammalia" },
-              { id: "b", text: "Animalia" },
+              { id: "a", text: "Animalia" },
+              { id: "b", text: "Mammalia" },
               { id: "c", text: "Carnivora" },
               { id: "d", text: "Felis" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -211,12 +211,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Kingdom" },
-              { id: "b", text: "Genus" },
-              { id: "c", text: "Species" },
-              { id: "d", text: "Phylum" },
+              { id: "a", text: "Species" },
+              { id: "b", text: "Phylum" },
+              { id: "c", text: "Kingdom" },
+              { id: "d", text: "Genus" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -257,12 +257,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Insect" },
-              { id: "b", text: "Bird" },
-              { id: "c", text: "Mammal" },
-              { id: "d", text: "Spider" },
+              { id: "a", text: "Bird" },
+              { id: "b", text: "Spider" },
+              { id: "c", text: "Insect" },
+              { id: "d", text: "Mammal" },
             ],
-            correctChoiceId: "d",
+            correctChoiceIb: "d",
           },
           markscheme: {
             principles: [
@@ -283,12 +283,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Blood group" },
-              { id: "b", text: "Height of plants" },
-              { id: "c", text: "Ability to roll the tongue" },
-              { id: "d", text: "Attached or detached earlobes" },
+              { id: "a", text: "Ability to roll the tongue" },
+              { id: "b", text: "Attached or detached earlobes" },
+              { id: "c", text: "Height of plants" },
+              { id: "d", text: "Blood group" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -310,8 +310,8 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Body mass" },
-              { id: "b", text: "Leaf length" },
+              { id: "a", text: "Leaf length" },
+              { id: "b", text: "Body mass" },
               { id: "c", text: "Blood group" },
               { id: "d", text: "Arm span" },
             ],
@@ -356,12 +356,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "They are quicker to write" },
-              { id: "b", text: "Each step unambiguously narrows the possibilities into two clear routes" },
-              { id: "c", text: "They avoid using scientific names" },
-              { id: "d", text: "They require more questions to identify an organism" },
+              { id: "a", text: "They avoid using scientific names" },
+              { id: "b", text: "They are quicker to write" },
+              { id: "c", text: "They require more questions to identify an organism" },
+              { id: "d", text: "Each step unambiguously narrows the possibilities into two clear routes" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -402,9 +402,9 @@ export const lesson21: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Height" },
-              { id: "b", text: "Mass" },
+              { id: "b", text: "Wingspan" },
               { id: "c", text: "Ability to roll the tongue" },
-              { id: "d", text: "Wingspan" },
+              { id: "d", text: "Mass" },
             ],
             correctChoiceId: "c",
           },
@@ -479,12 +479,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "All individuals are identical" },
-              { id: "b", text: "Genetic differences and environmental factors" },
-              { id: "c", text: "Only environmental factors" },
-              { id: "d", text: "Only genetic differences" },
+              { id: "a", text: "Only genetic differences" },
+              { id: "b", text: "Only environmental factors" },
+              { id: "c", text: "Genetic differences and environmental factors" },
+              { id: "d", text: "All individuals are identical" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -575,10 +575,10 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Individuals choosing which traits to pass on" },
+              { id: "a", text: "The environment creating new mutations on demand" },
               { id: "b", text: "The process where individuals with advantageous traits survive and reproduce more" },
-              { id: "c", text: "The environment creating new mutations on demand" },
-              { id: "d", text: "All individuals changing to suit their environment" },
+              { id: "c", text: "All individuals changing to suit their environment" },
+              { id: "d", text: "Individuals choosing which traits to pass on" },
             ],
             correctChoiceId: "b",
           },
@@ -603,11 +603,11 @@ export const lesson21: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Any change an organism makes during its life" },
-              { id: "b", text: "A feature that helps an organism survive or reproduce in its environment" },
+              { id: "b", text: "A random mutation with no effect" },
               { id: "c", text: "A disease the organism recovers from" },
-              { id: "d", text: "A random mutation with no effect" },
+              { id: "d", text: "A feature that helps an organism survive or reproduce in its environment" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -629,12 +629,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Thick white fur of an arctic fox" },
-              { id: "b", text: "A scratch from a branch" },
-              { id: "c", text: "A suntan" },
-              { id: "d", text: "A broken leg that heals" },
+              { id: "a", text: "A broken leg that heals" },
+              { id: "b", text: "A suntan" },
+              { id: "c", text: "A scratch from a branch" },
+              { id: "d", text: "Thick white fur of an arctic fox" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -693,10 +693,10 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The organisms' choices" },
+              { id: "a", text: "Human activity" },
               { id: "b", text: "The environment" },
               { id: "c", text: "Random chance alone" },
-              { id: "d", text: "Human activity" },
+              { id: "d", text: "The organisms' choices" },
             ],
             correctChoiceId: "b",
           },
@@ -720,12 +720,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A learned behaviour" },
-              { id: "b", text: "An adaptation that improves survival" },
+              { id: "a", text: "An adaptation that improves survival" },
+              { id: "b", text: "A learned behaviour" },
               { id: "c", text: "A disease" },
               { id: "d", text: "A reproductive strategy only" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -804,12 +804,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It acts only on existing variation and involves trade-offs" },
-              { id: "b", text: "It has a specific goal of perfection" },
-              { id: "c", text: "It only works in laboratories" },
-              { id: "d", text: "It stops once organisms are well adapted" },
+              { id: "a", text: "It stops once organisms are well adapted" },
+              { id: "b", text: "It only works in laboratories" },
+              { id: "c", text: "It acts only on existing variation and involves trade-offs" },
+              { id: "d", text: "It has a specific goal of perfection" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -830,12 +830,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It makes populations look different" },
-              { id: "b", text: "Without variation there is nothing for selection to act on" },
-              { id: "c", text: "It prevents disease" },
-              { id: "d", text: "It increases population size" },
+              { id: "a", text: "Without variation there is nothing for selection to act on" },
+              { id: "b", text: "It increases population size" },
+              { id: "c", text: "It makes populations look different" },
+              { id: "d", text: "It prevents disease" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

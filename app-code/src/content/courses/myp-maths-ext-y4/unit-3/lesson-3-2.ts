@@ -58,12 +58,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "At a vertex of the feasible region" },
-              { id: "b", text: "Anywhere in the feasible region" },
-              { id: "c", text: "At the origin" },
-              { id: "d", text: "On the objective function line" },
+              { id: "a", text: "At the origin" },
+              { id: "b", text: "On the objective function line" },
+              { id: "c", text: "At a vertex of the feasible region" },
+              { id: "d", text: "Anywhere in the feasible region" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -85,12 +85,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "10" },
+              { id: "a", text: "7.5" },
               { id: "b", text: "5" },
-              { id: "c", text: "7.5" },
+              { id: "c", text: "10" },
               { id: "d", text: "2" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -114,9 +114,9 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Produce 4 of A and 4 of B for profit 200" },
-              { id: "b", text: "Produce 6 of A and 0 of B for profit 180" },
-              { id: "c", text: "Produce 0 of A and 6 of B for profit 120" },
-              { id: "d", text: "Produce 3 of A and 6 of B for profit 210" },
+              { id: "b", text: "Produce 0 of A and 6 of B for profit 120" },
+              { id: "c", text: "Produce 3 of A and 6 of B for profit 210" },
+              { id: "d", text: "Produce 6 of A and 0 of B for profit 180" },
             ],
             correctChoiceId: "a",
           },
@@ -175,9 +175,9 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "All points satisfying every constraint simultaneously" },
-              { id: "b", text: "The region above the objective function" },
+              { id: "b", text: "The region outside all constraints" },
               { id: "c", text: "Only the vertices" },
-              { id: "d", text: "The region outside all constraints" },
+              { id: "d", text: "The region above the objective function" },
             ],
             correctChoiceId: "a",
           },
@@ -218,12 +218,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$(3,1)$" },
-              { id: "b", text: "$(4,1)$" },
-              { id: "c", text: "$(2,3)$" },
-              { id: "d", text: "$(3,2)$" },
+              { id: "a", text: "$(3,2)$" },
+              { id: "b", text: "$(3,1)$" },
+              { id: "c", text: "$(4,1)$" },
+              { id: "d", text: "$(2,3)$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -264,12 +264,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "18" },
-              { id: "b", text: "12" },
-              { id: "c", text: "15" },
-              { id: "d", text: "6" },
+              { id: "a", text: "15" },
+              { id: "b", text: "6" },
+              { id: "c", text: "18" },
+              { id: "d", text: "12" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -310,12 +310,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "200" },
+              { id: "a", text: "120" },
               { id: "b", text: "180" },
-              { id: "c", text: "120" },
-              { id: "d", text: "240" },
+              { id: "c", text: "240" },
+              { id: "d", text: "200" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -447,12 +447,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "40" },
-              { id: "b", text: "30" },
-              { id: "c", text: "35" },
-              { id: "d", text: "25" },
+              { id: "a", text: "30" },
+              { id: "b", text: "35" },
+              { id: "c", text: "25" },
+              { id: "d", text: "40" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -507,12 +507,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Number of edges meeting at that vertex" },
-              { id: "b", text: "Number of vertices in the graph" },
-              { id: "c", text: "The weight of the vertex" },
-              { id: "d", text: "Number of faces" },
+              { id: "a", text: "Number of vertices in the graph" },
+              { id: "b", text: "Number of edges meeting at that vertex" },
+              { id: "c", text: "Number of faces" },
+              { id: "d", text: "The weight of the vertex" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -534,12 +534,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "18" },
-              { id: "b", text: "9" },
-              { id: "c", text: "15" },
+              { id: "a", text: "15" },
+              { id: "b", text: "18" },
+              { id: "c", text: "9" },
               { id: "d", text: "54" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -562,12 +562,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "48" },
-              { id: "b", text: "24" },
-              { id: "c", text: "11" },
-              { id: "d", text: "96" },
+              { id: "a", text: "11" },
+              { id: "b", text: "96" },
+              { id: "c", text: "24" },
+              { id: "d", text: "48" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -622,12 +622,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The number of edges meeting at that vertex" },
-              { id: "b", text: "The number of vertices in the graph" },
-              { id: "c", text: "The weight of the vertex" },
-              { id: "d", text: "The number of faces" },
+              { id: "a", text: "The number of faces" },
+              { id: "b", text: "The weight of the vertex" },
+              { id: "c", text: "The number of edges meeting at that vertex" },
+              { id: "d", text: "The number of vertices in the graph" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -668,8 +668,8 @@ export const lesson32: Lesson = {
             choices: [
               { id: "a", text: "Every vertex has even degree" },
               { id: "b", text: "Exactly two vertices have odd degree" },
-              { id: "c", text: "The graph has an even number of edges" },
-              { id: "d", text: "Every vertex has odd degree" },
+              { id: "c", text: "Every vertex has odd degree" },
+              { id: "d", text: "The graph has an even number of edges" },
             ],
             correctChoiceId: "a",
           },
@@ -712,12 +712,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "10" },
-              { id: "b", text: "20" },
+              { id: "a", text: "20" },
+              { id: "b", text: "10" },
               { id: "c", text: "40" },
               { id: "d", text: "5" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -758,12 +758,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "3, 3, 3" },
-              { id: "b", text: "2, 2, 2, 2" },
-              { id: "c", text: "3, 3, 2, 2, 2" },
-              { id: "d", text: "1, 2, 3, 4, 2" },
+              { id: "a", text: "1, 2, 3, 4, 2" },
+              { id: "b", text: "3, 3, 2, 2, 2" },
+              { id: "c", text: "2, 2, 2, 2" },
+              { id: "d", text: "3, 3, 3" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -805,12 +805,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "No circuit, but yes an Eulerian path" },
-              { id: "b", text: "Yes circuit and yes path" },
-              { id: "c", text: "No circuit and no path" },
-              { id: "d", text: "Yes circuit but no path" },
+              { id: "a", text: "Yes circuit but no path" },
+              { id: "b", text: "No circuit, but yes an Eulerian path" },
+              { id: "c", text: "Yes circuit and yes path" },
+              { id: "d", text: "No circuit and no path" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -864,12 +864,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "24" },
-              { id: "b", text: "9" },
-              { id: "c", text: "12" },
-              { id: "d", text: "48" },
+              { id: "a", text: "9" },
+              { id: "b", text: "12" },
+              { id: "c", text: "48" },
+              { id: "d", text: "24" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

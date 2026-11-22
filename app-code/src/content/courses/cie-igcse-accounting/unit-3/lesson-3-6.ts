@@ -90,12 +90,12 @@ export const lesson36: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "(Gross profit ÷ sales) × 100" },
-              { id: "b", text: "(Net profit ÷ sales) × 100" },
-              { id: "c", text: "(Gross profit ÷ cost of sales) × 100" },
-              { id: "d", text: "(Sales ÷ gross profit) × 100" },
+              { id: "a", text: "(Gross profit ÷ cost of sales) × 100" },
+              { id: "b", text: "(Gross profit ÷ sales) × 100" },
+              { id: "c", text: "(Sales ÷ gross profit) × 100" },
+              { id: "d", text: "(Net profit ÷ sales) × 100" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -119,12 +119,12 @@ export const lesson36: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "(Net profit ÷ sales) × 100" },
-              { id: "b", text: "(Gross profit ÷ sales) × 100" },
-              { id: "c", text: "(Net profit ÷ assets) × 100" },
+              { id: "a", text: "(Gross profit ÷ sales) × 100" },
+              { id: "b", text: "(Net profit ÷ assets) × 100" },
+              { id: "c", text: "(Net profit ÷ sales) × 100" },
               { id: "d", text: "(Sales ÷ net profit) × 100" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -530,6 +530,232 @@ export const lesson36: Lesson = {
               "(a) GPM = trading; PM = overall; ROCE = capital efficiency. (b) 30%, 15%, 30% — healthy performance.",
           },
         },
+        {
+          id: "cieiacct-u3-ratios-profit-q11",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "The gross profit margin is calculated as:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "(Gross profit ÷ sales) × 100" },
+              { id: "b", text: "(Net profit ÷ sales) × 100" },
+              { id: "c", text: "(Sales ÷ gross profit) × 100" },
+              { id: "d", text: "(Gross profit ÷ cost of sales) × 100" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "formula",
+                name: "Gross profit margin",
+                statement: "(Gross profit ÷ sales) × 100.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "GPM measures profit on sales before expenses.",
+                marks: 1,
+                markCode: "M",
+              },
+            ],
+            finalAnswer: "(a) (Gross profit ÷ sales) × 100.",
+          },
+        },
+        {
+          id: "cieiacct-u3-ratios-profit-q12",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "Sales are \\$100,000 and gross profit is \\$25,000. Calculate the gross profit margin.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "Gross profit margin", answer: 25, unit: "%" }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "formula",
+                name: "Gross profit margin",
+                statement: "(GP ÷ sales) × 100.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "25,000 ÷ 100,000 × 100.",
+                working: "25000 / 100000 × 100",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "GPM = 25%.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "25%",
+          },
+        },
+        {
+          id: "cieiacct-u3-ratios-profit-q13",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "Net profit is \\$12,000 and sales are \\$80,000. Calculate the profit margin.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "Profit margin", answer: 15, unit: "%" }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "formula",
+                name: "Profit margin",
+                statement: "(Net profit ÷ sales) × 100.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "12,000 ÷ 80,000 × 100.",
+                working: "12000 / 80000 × 100",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "Profit margin = 15%.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "15%",
+          },
+        },
+        {
+          id: "cieiacct-u3-ratios-profit-q14",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "Explain what the return on capital employed (ROCE) ratio measures and why it is useful to investors.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "formula",
+                name: "ROCE",
+                statement: "(Profit before interest and tax ÷ capital employed) × 100.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "ROCE measures how much profit the business generates for each unit of capital invested in it.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "It uses PBIT so that financing decisions don't distort the comparison of operating efficiency.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "Investors compare ROCE with other businesses or prior years to judge whether capital is being used efficiently.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer:
+              "ROCE = PBIT ÷ capital employed × 100 — measures the return generated on the capital invested, useful for comparing efficiency.",
+          },
+        },
+        {
+          id: "cieiacct-u3-ratios-profit-q15",
+          difficulty: "challenge",
+          totalMarks: 3,
+          stem: "Profit before interest and tax is \\$30,000 and capital employed is \\$200,000. Calculate ROCE.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "ROCE", answer: 15, unit: "%" }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "formula",
+                name: "ROCE",
+                statement: "(PBIT ÷ capital employed) × 100.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "30,000 ÷ 200,000 × 100.",
+                working: "30000 / 200000 × 100",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "ROCE = 15%.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "ROCE = 15% — a reasonable return on capital.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "15%",
+          },
+        },
+        {
+          id: "cieiacct-u3-ratios-profit-q16",
+          difficulty: "challenge",
+          totalMarks: 4,
+          parts: [
+            {
+              label: "a",
+              prompt:
+                "Sales \\$150,000; gross profit \\$45,000; net profit \\$22,500. Calculate the gross profit margin and profit margin.",
+              marks: 2,
+            },
+            {
+              label: "b",
+              prompt:
+                "Capital employed is \\$120,000 and PBIT equals net profit (no interest/tax adjustment needed). Calculate ROCE.",
+              marks: 2,
+            },
+          ],
+          stem: "A business calculates its profitability ratios.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "formula",
+                name: "Profitability ratios",
+                statement:
+                  "GPM = GP/sales; PM = NP/sales; ROCE = PBIT/CE.",
+              },
+            ],
+            steps: [
+              {
+                part: "a",
+                reasoning:
+                  "GPM = 45,000 ÷ 150,000 = 30%; PM = 22,500 ÷ 150,000 = 15%.",
+                working: "45000/150000 = 30%; 22500/150000 = 15%",
+                marks: 2,
+                markCode: "M",
+              },
+              {
+                part: "b",
+                reasoning: "ROCE = 22,500 ÷ 120,000 = 18.75%.",
+                working: "22500 / 120000 = 0.1875",
+                marks: 2,
+                markCode: "A",
+              },
+            ],
+            finalAnswer:
+              "(a) GPM 30%; PM 15%. (b) ROCE 18.75%.",
+          },
+        },
       ],
     },
     {
@@ -577,12 +803,12 @@ export const lesson36: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Current assets ÷ current liabilities" },
-              { id: "b", text: "Current liabilities ÷ current assets" },
+              { id: "a", text: "Current liabilities ÷ current assets" },
+              { id: "b", text: "Inventory ÷ current liabilities" },
               { id: "c", text: "Total assets ÷ total liabilities" },
-              { id: "d", text: "Inventory ÷ current liabilities" },
+              { id: "d", text: "Current assets ÷ current liabilities" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -611,8 +837,8 @@ export const lesson36: Lesson = {
                 id: "a",
                 text: "Inventory may not convert to cash quickly enough to pay short-term debts",
               },
-              { id: "b", text: "Inventory is not an asset" },
-              { id: "c", text: "Inventory is always worthless" },
+              { id: "b", text: "Inventory is always worthless" },
+              { id: "c", text: "Inventory is not an asset" },
               { id: "d", text: "Inventory is a liability" },
             ],
             correctChoiceId: "a",
@@ -1029,6 +1255,239 @@ export const lesson36: Lesson = {
               "(a) CR includes inventory; QR excludes it. (b) Both improved; QR above 1:1 — stronger liquidity.",
           },
         },
+        {
+          id: "cieiacct-u3-ratios-liquidity-q11",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "The current ratio is calculated as:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "(Current assets − inventory) ÷ current liabilities" },
+              { id: "b", text: "Net profit ÷ current assets" },
+              { id: "c", text: "Current liabilities ÷ current assets" },
+              { id: "d", text: "Current assets ÷ current liabilities" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "formula",
+                name: "Current ratio",
+                statement: "Current assets ÷ current liabilities.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "It measures whether short-term assets cover short-term debts.",
+                marks: 1,
+                markCode: "M",
+              },
+            ],
+            finalAnswer: "(a) Current assets ÷ current liabilities.",
+          },
+        },
+        {
+          id: "cieiacct-u3-ratios-liquidity-q12",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "Current assets are \\$60,000 and current liabilities are \\$40,000. Calculate the current ratio.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "Current ratio", answer: 1.5, unit: ":1" }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "formula",
+                name: "Current ratio",
+                statement: "Current assets ÷ current liabilities.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "60,000 ÷ 40,000.",
+                working: "60000 / 40000",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "Current ratio = 1.5:1.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "1.5:1",
+          },
+        },
+        {
+          id: "cieiacct-u3-ratios-liquidity-q13",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "Current assets are \\$90,000 including inventory of \\$40,000; current liabilities are \\$30,000. Calculate the current ratio and the quick ratio.",
+          response: {
+            type: "numeric",
+            parts: [
+              { label: "Current ratio", answer: 3, unit: ":1" },
+              { label: "Quick ratio", answer: 1.67, unit: ":1" },
+            ],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "formula",
+                name: "Liquidity ratios",
+                statement:
+                  "CR = CA ÷ CL; QR = (CA − inventory) ÷ CL.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "CR = 90,000 ÷ 30,000 = 3:1.",
+                working: "90000 / 30000 = 3",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "QR = (90,000 − 40,000) ÷ 30,000 = 50,000 ÷ 30,000 ≈ 1.67:1.",
+                working: "50000 / 30000 = 1.67",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "CR 3:1; QR ≈ 1.67:1.",
+          },
+        },
+        {
+          id: "cieiacct-u3-ratios-liquidity-q14",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "Explain why the quick ratio excludes inventory from current assets.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Quick ratio",
+                statement:
+                  "Inventory may not convert to cash quickly enough to pay short-term debts.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "Inventory is the least liquid current asset — it must be sold before it becomes cash.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "The quick ratio is a more conservative test of whether the business could meet short-term debts immediately.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "A quick ratio below 1:1 suggests potential liquidity problems even if the current ratio looks healthy.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer:
+              "Inventory is excluded because it may not convert to cash quickly — the quick ratio tests immediate liquidity.",
+          },
+        },
+        {
+          id: "cieiacct-u3-ratios-liquidity-q15",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "A current ratio that is very high (e.g. 4:1) may indicate:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Certain insolvency" },
+              { id: "b", text: "Excellent liquidity with no downside" },
+              { id: "c", text: "Very high profitability" },
+              {
+                id: "d",
+                text: "Excess idle assets — money not being used efficiently"
+              },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Liquidity interpretation",
+                statement:
+                  "Too high = idle resources; too low = liquidity risk.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "Over-liquid assets earn little or nothing — capital could be better invested.",
+                marks: 1,
+                markCode: "M",
+              },
+            ],
+            finalAnswer: "(a) Excess idle assets.",
+          },
+        },
+        {
+          id: "cieiacct-u3-ratios-liquidity-q16",
+          difficulty: "challenge",
+          totalMarks: 4,
+          parts: [
+            {
+              label: "a",
+              prompt:
+                "Current assets \\$75,000 (including inventory \\$25,000); current liabilities \\$50,000. Calculate the current and quick ratios.",
+              marks: 2,
+            },
+            {
+              label: "b",
+              prompt:
+                "Interpret whether the business has a liquidity problem.",
+              marks: 2,
+            },
+          ],
+          stem: "A business reviews its liquidity position.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "formula",
+                name: "Liquidity ratios",
+                statement:
+                  "CR = CA ÷ CL; QR = (CA − inventory) ÷ CL.",
+              },
+            ],
+            steps: [
+              {
+                part: "a",
+                reasoning:
+                  "CR = 75,000 ÷ 50,000 = 1.5:1; QR = (75,000 − 25,000) ÷ 50,000 = 1:1.",
+                working: "75000/50000 = 1.5; 50000/50000 = 1",
+                marks: 2,
+                markCode: "M",
+              },
+              {
+                part: "b",
+                reasoning:
+                  "CR of 1.5:1 is acceptable but QR of exactly 1:1 is borderline — the business can only just cover short-term debts without selling inventory, so liquidity needs monitoring.",
+                marks: 2,
+                markCode: "A",
+              },
+            ],
+            finalAnswer:
+              "(a) CR 1.5:1; QR 1:1. (b) Borderline — QR at minimum acceptable level.",
+          },
+        },
       ],
     },
     {
@@ -1089,15 +1548,15 @@ export const lesson36: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "How long the business takes to pay suppliers" },
+              { id: "b", text: "The proportion of debt financing" },
+              { id: "c", text: "How long inventory is held" },
               {
-                id: "a",
+                id: "d",
                 text: "How long customers take to pay — receivables ÷ credit sales × 365",
               },
-              { id: "b", text: "How long the business takes to pay suppliers" },
-              { id: "c", text: "How long inventory is held" },
-              { id: "d", text: "The proportion of debt financing" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1360,15 +1819,15 @@ export const lesson36: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "The business has no debt" },
               {
-                id: "a",
+                id: "b",
                 text: "A large proportion of capital comes from fixed-interest debt — higher risk but potentially higher returns",
               },
-              { id: "b", text: "The business has no debt" },
-              { id: "c", text: "The business is very liquid" },
-              { id: "d", text: "The business has high profits" },
+              { id: "c", text: "The business has high profits" },
+              { id: "d", text: "The business is very liquid" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1543,6 +2002,237 @@ export const lesson36: Lesson = {
               "(a) Debt proportion; high gearing = higher risk but magnified returns. (b) 25% — low gearing, low risk.",
           },
         },
+        {
+          id: "cieiacct-u3-ratios-efficiency-q11",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Debtor days measures:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "How long inventory is held before sale" },
+              {
+                id: "b",
+                text: "How long customers take to pay their debts"
+              },
+              { id: "c", text: "How much debt the company has borrowed" },
+              { id: "d", text: "How long the business takes to pay suppliers" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Debtor days",
+                statement:
+                  "(Trade receivables ÷ credit sales) × 365 — the average collection period.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "It shows how quickly credit customers settle their accounts.",
+                marks: 1,
+                markCode: "M",
+              },
+            ],
+            finalAnswer: "(a) How long customers take to pay.",
+          },
+        },
+        {
+          id: "cieiacct-u3-ratios-efficiency-q12",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "Trade receivables are \\$30,000 and credit sales are \\$365,000. Calculate debtor days.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "Debtor days", answer: 30, unit: "days" }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "formula",
+                name: "Debtor days",
+                statement: "(Trade receivables ÷ credit sales) × 365.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "30,000 ÷ 365,000 × 365.",
+                working: "30000 / 365000 × 365",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "Debtor days = 30 days.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "30 days",
+          },
+        },
+        {
+          id: "cieiacct-u3-ratios-efficiency-q13",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "Closing inventory is \\$30,000 and cost of sales is \\$300,000. Calculate inventory days.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "Inventory days", answer: 36.5, unit: "days" }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "formula",
+                name: "Inventory days",
+                statement: "(Closing inventory ÷ cost of sales) × 365.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "30,000 ÷ 300,000 × 365.",
+                working: "30000 / 300000 × 365",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "Inventory days = 36.5 days.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "36.5 days",
+          },
+        },
+        {
+          id: "cieiacct-u3-ratios-efficiency-q14",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "Explain the risks and potential benefits of high gearing.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Gearing",
+                statement:
+                  "High gearing = more debt financing — magnifies both profits and losses.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "Risk: fixed interest must be paid even in poor years, increasing the chance of financial difficulty.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "Benefit: if profits exceed the interest cost, returns to shareholders are magnified (gearing effect).",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "High gearing is risky for volatile businesses; low gearing is safer but may limit growth.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer:
+              "High gearing magnifies returns but increases financial risk — interest must be paid regardless of profit.",
+          },
+        },
+        {
+          id: "cieiacct-u3-ratios-efficiency-q15",
+          difficulty: "challenge",
+          totalMarks: 3,
+          stem: "Non-current liabilities are \\$50,000 and capital employed is \\$200,000. Calculate the gearing ratio.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "Gearing ratio", answer: 25, unit: "%" }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "formula",
+                name: "Gearing",
+                statement: "(Non-current liabilities ÷ capital employed) × 100.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "50,000 ÷ 200,000 × 100.",
+                working: "50000 / 200000 × 100",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "Gearing = 25%.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "25% gearing is relatively low — the business relies mostly on equity.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "25%",
+          },
+        },
+        {
+          id: "cieiacct-u3-ratios-efficiency-q16",
+          difficulty: "challenge",
+          totalMarks: 4,
+          parts: [
+            {
+              label: "a",
+              prompt:
+                "Trade payables are \\$20,000 and credit purchases are \\$200,000. Calculate creditor days.",
+              marks: 2,
+            },
+            {
+              label: "b",
+              prompt:
+                "Explain what a rising creditor days figure might indicate about the business.",
+              marks: 2,
+            },
+          ],
+          stem: "A business analyses its efficiency ratios.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "formula",
+                name: "Creditor days",
+                statement: "(Trade payables ÷ credit purchases) × 365.",
+              },
+            ],
+            steps: [
+              {
+                part: "a",
+                reasoning:
+                  "Creditor days = 20,000 ÷ 200,000 × 365 = 36.5 days.",
+                working: "20000 / 200000 × 365 = 36.5",
+                marks: 2,
+                markCode: "M",
+              },
+              {
+                part: "b",
+                reasoning:
+                  "Rising creditor days means the business is taking longer to pay suppliers — it is using suppliers' money longer, which may indicate cash flow pressure or good negotiating.",
+                marks: 2,
+                markCode: "A",
+              },
+            ],
+            finalAnswer:
+              "(a) 36.5 days. (b) Business is paying suppliers more slowly — using their funds longer, possibly a sign of cash pressure.",
+          },
+        },
       ],
     },
     {
@@ -1592,15 +2282,15 @@ export const lesson36: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "All transactions including non-cash" },
+              { id: "b", text: "Profit for the year only" },
               {
-                id: "a",
+                id: "c",
                 text: "Cash inflows and outflows classified by activity type",
               },
-              { id: "b", text: "Profit for the year only" },
-              { id: "c", text: "All transactions including non-cash" },
               { id: "d", text: "Only bank transactions" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1628,12 +2318,12 @@ export const lesson36: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Buying a non-current asset" },
+              { id: "a", text: "Paying wages" },
               { id: "b", text: "Receiving cash from customers" },
-              { id: "c", text: "Paying wages" },
-              { id: "d", text: "Issuing shares" },
+              { id: "c", text: "Issuing shares" },
+              { id: "d", text: "Buying a non-current asset" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1661,12 +2351,12 @@ export const lesson36: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Paying dividends to shareholders" },
+              { id: "a", text: "Receiving payment from a debtor" },
               { id: "b", text: "Buying inventory" },
-              { id: "c", text: "Receiving payment from a debtor" },
-              { id: "d", text: "Paying rent" },
+              { id: "c", text: "Paying rent" },
+              { id: "d", text: "Paying dividends to shareholders" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1694,15 +2384,15 @@ export const lesson36: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "It increases profit" },
               {
-                id: "a",
+                id: "b",
                 text: "It's a non-cash expense — no cash actually left the business",
               },
-              { id: "b", text: "It's an asset" },
-              { id: "c", text: "It increases profit" },
-              { id: "d", text: "It's a liability" },
+              { id: "c", text: "It's a liability" },
+              { id: "d", text: "It's an asset" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -2034,6 +2724,247 @@ export const lesson36: Lesson = {
             ],
             finalAnswer:
               "(a) Operating +\\$30,000; investing −\\$22,000; financing +\\$10,000; closing cash \\$38,000. (b) Cash grew — healthy position.",
+          },
+        },
+        {
+          id: "cieiacct-u3-cashflow-q11",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "The three sections of a cash flow statement are:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Income, expenses and profit" },
+              { id: "b", text: "Trading, administration and distribution" },
+              {
+                id: "c",
+                text: "Operating, investing and financing activities"
+              },
+              { id: "d", text: "Assets, liabilities and capital" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Cash flow statement",
+                statement:
+                  "Shows cash movements in operating, investing and financing activities.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "These three sections classify all cash movements.",
+                marks: 1,
+                markCode: "M",
+              },
+            ],
+            finalAnswer: "(a) Operating, investing and financing.",
+          },
+        },
+        {
+          id: "cieiacct-u3-cashflow-q12",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "Opening cash \\$8,000; net cash from operating \\$12,000; net cash from investing −\\$5,000; net cash from financing \\$3,000. Calculate closing cash.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "Closing cash", answer: 18000, unit: "$" }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "formula",
+                name: "Closing cash",
+                statement:
+                  "Opening cash + net operating + net investing + net financing.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "8,000 + 12,000 − 5,000 + 3,000.",
+                working: "8000 + 12000 - 5000 + 3000",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "Closing cash = \\$18,000.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "\\$18,000",
+          },
+        },
+        {
+          id: "cieiacct-u3-cashflow-q13",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "Explain why a profitable business may still have poor cash flow.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Profit vs cash",
+                statement:
+                  "Profit is calculated on accruals; cash flow tracks actual money received and paid.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "Credit sales increase profit before cash is received — receivables may build up.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "Non-cash expenses like depreciation reduce profit but involve no cash outflow.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "Timing differences (prepayments, accruals) and capital spending can make cash flow differ from profit.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer:
+              "Profit ≠ cash because of credit sales, non-cash expenses, timing differences and capital spending — cash flow measures actual cash movement.",
+          },
+        },
+        {
+          id: "cieiacct-u3-cashflow-q14",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Depreciation is added back when calculating operating cash flow because it is:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Part of investing activities" },
+              { id: "b", text: "A cash payment to suppliers" },
+              { id: "c", text: "A non-cash expense" },
+              { id: "d", text: "A financing outflow" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Depreciation",
+                statement:
+                  "Non-cash expense — deducted in profit but no cash leaves the business.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "Since no cash was paid for depreciation, it is added back to profit to find cash generated.",
+                marks: 1,
+                markCode: "M",
+              },
+            ],
+            finalAnswer: "(a) A non-cash expense.",
+          },
+        },
+        {
+          id: "cieiacct-u3-cashflow-q15",
+          difficulty: "challenge",
+          totalMarks: 3,
+          stem: "Opening cash \\$20,000; net cash from operating \\$25,000; net cash from investing −\\$30,000; net cash from financing \\$15,000. Calculate closing cash.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "Closing cash", answer: 30000, unit: "$" }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "formula",
+                name: "Closing cash",
+                statement:
+                  "Opening cash + net operating + net investing + net financing.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "20,000 + 25,000 − 30,000 + 15,000.",
+                working: "20000 + 25000 - 30000 + 15000",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "Net change = +\\$10,000.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "Closing cash = \\$30,000.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "\\$30,000",
+          },
+        },
+        {
+          id: "cieiacct-u3-cashflow-q16",
+          difficulty: "challenge",
+          totalMarks: 4,
+          parts: [
+            {
+              label: "a",
+              prompt:
+                "Classify each item as operating, investing or financing: (i) cash received from customers; (ii) purchase of a delivery van; (iii) repayment of a bank loan; (iv) payment of dividends.",
+              marks: 2,
+            },
+            {
+              label: "b",
+              prompt:
+                "Explain why dividends paid appear in financing activities rather than operating activities.",
+              marks: 2,
+            },
+          ],
+          stem: "A business prepares its cash flow statement.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Cash flow sections",
+                statement:
+                  "Operating = trading; investing = non-current assets; financing = capital and loans.",
+              },
+            ],
+            steps: [
+              {
+                part: "a",
+                reasoning:
+                  "(i) Operating; (ii) Investing; (iii) Financing; (iv) Financing.",
+                marks: 2,
+                markCode: "M",
+              },
+              {
+                part: "b",
+                reasoning:
+                  "Dividends are distributions to owners — a return on capital, not a cost of trading, so they belong in financing.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                part: "b",
+                reasoning:
+                  "Like loan repayments and share issues, dividends relate to how the business is financed.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer:
+              "(a) Op, Inv, Fin, Fin. (b) Dividends are returns to owners — financing, not trading.",
           },
         },
       ],
@@ -2374,6 +3305,554 @@ export const lesson36: Lesson = {
             ],
             finalAnswer:
               "(a) GPM 25%, PM 10%, ROCE 13.3%, CR 2:1, QR 1.375:1, debtor 60.8 days, gearing 26.7%. (b) Balanced but ROCE could improve.",
+          },
+        },
+        {
+          id: "cieiacct-u3-ratios-exam-q7",
+          difficulty: "core",
+          totalMarks: 5,
+          parts: [
+            {
+              label: "a",
+              prompt:
+                "Sales \\$150,000; gross profit \\$45,000. Calculate the gross profit margin.",
+              marks: 1,
+            },
+            {
+              label: "b",
+              prompt:
+                "Net profit is \\$22,500. Calculate the profit margin.",
+              marks: 2,
+            },
+            {
+              label: "c",
+              prompt:
+                "Current assets \\$70,000; current liabilities \\$50,000. Calculate the current ratio.",
+              marks: 2,
+            },
+          ],
+          stem: "A business calculates its key ratios for the year.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "formula",
+                name: "Ratio formulas",
+                statement:
+                  "GPM = GP/sales; PM = NP/sales; CR = CA/CL.",
+              },
+            ],
+            steps: [
+              {
+                part: "a",
+                reasoning: "GPM = 45,000 ÷ 150,000 = 30%.",
+                working: "45000 / 150000 = 30%",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                part: "b",
+                reasoning: "PM = 22,500 ÷ 150,000 = 15%.",
+                working: "22500 / 150000 = 15%",
+                marks: 2,
+                markCode: "M",
+              },
+              {
+                part: "c",
+                reasoning: "CR = 70,000 ÷ 50,000 = 1.4:1.",
+                working: "70000 / 50000 = 1.4",
+                marks: 2,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "GPM 30%; PM 15%; CR 1.4:1.",
+          },
+        },
+        {
+          id: "cieiacct-u3-ratios-exam-q8",
+          difficulty: "core",
+          totalMarks: 6,
+          parts: [
+            {
+              label: "a",
+              prompt:
+                "Trade receivables \\$25,000; credit sales \\$250,000. Calculate debtor days.",
+              marks: 2,
+            },
+            {
+              label: "b",
+              prompt:
+                "Trade payables \\$15,000; credit purchases \\$150,000. Calculate creditor days.",
+              marks: 2,
+            },
+            {
+              label: "c",
+              prompt:
+                "Closing inventory \\$20,000; cost of sales \\$200,000. Calculate inventory days.",
+              marks: 2,
+            },
+          ],
+          stem: "A business calculates its operating cycle ratios.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "formula",
+                name: "Days ratios",
+                statement:
+                  "Days = balance ÷ annual flow × 365.",
+              },
+            ],
+            steps: [
+              {
+                part: "a",
+                reasoning:
+                  "Debtor days = 25,000 ÷ 250,000 × 365 = 36.5 days.",
+                working: "25000 / 250000 × 365 = 36.5",
+                marks: 2,
+                markCode: "M",
+              },
+              {
+                part: "b",
+                reasoning:
+                  "Creditor days = 15,000 ÷ 150,000 × 365 = 36.5 days.",
+                working: "15000 / 150000 × 365 = 36.5",
+                marks: 2,
+                markCode: "M",
+              },
+              {
+                part: "c",
+                reasoning:
+                  "Inventory days = 20,000 ÷ 200,000 × 365 = 36.5 days.",
+                working: "20000 / 200000 × 365 = 36.5",
+                marks: 2,
+                markCode: "A",
+              },
+            ],
+            finalAnswer:
+              "Debtor 36.5; creditor 36.5; inventory 36.5 days.",
+          },
+        },
+        {
+          id: "cieiacct-u3-ratios-exam-q9",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "Non-current liabilities are \\$45,000 and capital employed is \\$150,000. Calculate the gearing ratio and comment on the level of gearing.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "Gearing ratio", answer: 30, unit: "%" }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "formula",
+                name: "Gearing",
+                statement: "(Non-current liabilities ÷ capital employed) × 100.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "45,000 ÷ 150,000 × 100.",
+                working: "45000 / 150000 × 100",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "Gearing = 30% — moderate gearing; a reasonable level of debt financing.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "30% — moderate, neither very high nor very low.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "30% — moderate gearing.",
+          },
+        },
+        {
+          id: "cieiacct-u3-ratios-exam-q10",
+          difficulty: "core",
+          totalMarks: 5,
+          parts: [
+            {
+              label: "a",
+              prompt:
+                "Profit before interest and tax is \\$40,000 and capital employed is \\$250,000. Calculate ROCE.",
+              marks: 3,
+            },
+            {
+              label: "b",
+              prompt:
+                "Current assets \\$90,000; current liabilities \\$60,000. Calculate the current ratio.",
+              marks: 2,
+            },
+          ],
+          stem: "A business calculates ROCE and the current ratio.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "formula",
+                name: "ROCE and CR",
+                statement: "ROCE = PBIT ÷ CE; CR = CA ÷ CL.",
+              },
+            ],
+            steps: [
+              {
+                part: "a",
+                reasoning: "ROCE = 40,000 ÷ 250,000 × 100 = 16%.",
+                working: "40000 / 250000 × 100 = 16",
+                marks: 3,
+                markCode: "M",
+              },
+              {
+                part: "b",
+                reasoning: "CR = 90,000 ÷ 60,000 = 1.5:1.",
+                working: "90000 / 60000 = 1.5",
+                marks: 2,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "ROCE 16%; CR 1.5:1.",
+          },
+        },
+        {
+          id: "cieiacct-u3-ratios-exam-q11",
+          difficulty: "challenge",
+          totalMarks: 6,
+          parts: [
+            {
+              label: "a",
+              prompt:
+                "Sales \\$200,000; gross profit \\$50,000; net profit \\$24,000. Calculate the gross profit margin and profit margin.",
+              marks: 3,
+            },
+            {
+              label: "b",
+              prompt:
+                "Current assets \\$80,000 including inventory \\$20,000; current liabilities \\$40,000. Calculate the current ratio and quick ratio.",
+              marks: 3,
+            },
+          ],
+          stem: "A business analyses its profitability and liquidity.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "formula",
+                name: "Ratio formulas",
+                statement:
+                  "GPM = GP/sales; PM = NP/sales; CR = CA/CL; QR = (CA−inv)/CL.",
+              },
+            ],
+            steps: [
+              {
+                part: "a",
+                reasoning:
+                  "GPM = 50,000 ÷ 200,000 = 25%; PM = 24,000 ÷ 200,000 = 12%.",
+                working: "50000/200000 = 25%; 24000/200000 = 12%",
+                marks: 3,
+                markCode: "M",
+              },
+              {
+                part: "b",
+                reasoning:
+                  "CR = 80,000 ÷ 40,000 = 2:1; QR = (80,000 − 20,000) ÷ 40,000 = 1.5:1.",
+                working: "80000/40000 = 2; 60000/40000 = 1.5",
+                marks: 3,
+                markCode: "A",
+              },
+            ],
+            finalAnswer:
+              "(a) GPM 25%; PM 12%. (b) CR 2:1; QR 1.5:1.",
+          },
+        },
+        {
+          id: "cieiacct-u3-ratios-exam-q12",
+          difficulty: "challenge",
+          totalMarks: 3,
+          stem: "Trade receivables are \\$36,000 and credit sales are \\$180,000. Calculate debtor days.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "Debtor days", answer: 73, unit: "days" }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "formula",
+                name: "Debtor days",
+                statement: "(Trade receivables ÷ credit sales) × 365.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "36,000 ÷ 180,000 × 365.",
+                working: "36000 / 180000 × 365",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "0.2 × 365 = 73 days.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "Debtor days = 73 days.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "73 days",
+          },
+        },
+        {
+          id: "cieiacct-u3-ratios-exam-q13",
+          difficulty: "challenge",
+          totalMarks: 6,
+          parts: [
+            {
+              label: "a",
+              prompt:
+                "Sales are \\$250,000 and the gross profit margin is 28%. Calculate gross profit.",
+              marks: 2,
+            },
+            {
+              label: "b",
+              prompt:
+                "The profit margin is 12%. Calculate net profit.",
+              marks: 2,
+            },
+            {
+              label: "c",
+              prompt:
+                "State what a rising gross profit margin suggests about the business.",
+              marks: 2,
+            },
+          ],
+          stem: "A business works backwards from its ratios.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "formula",
+                name: "Ratio reversal",
+                statement:
+                  "GP = GPM% × sales; NP = PM% × sales.",
+              },
+            ],
+            steps: [
+              {
+                part: "a",
+                reasoning:
+                  "GP = 28% × 250,000 = \\$70,000.",
+                working: "0.28 × 250000 = 70000",
+                marks: 2,
+                markCode: "M",
+              },
+              {
+                part: "b",
+                reasoning: "NP = 12% × 250,000 = \\$30,000.",
+                working: "0.12 × 250000 = 30000",
+                marks: 2,
+                markCode: "M",
+              },
+              {
+                part: "c",
+                reasoning:
+                  "Better buying prices, improved pricing policy or a shift to higher-margin products — trading profitability is improving.",
+                marks: 2,
+                markCode: "A",
+              },
+            ],
+            finalAnswer:
+              "(a) GP \\$70,000. (b) NP \\$30,000. (c) Trading profitability improving — better buying or pricing.",
+          },
+        },
+        {
+          id: "cieiacct-u3-ratios-exam-q14",
+          difficulty: "core",
+          totalMarks: 4,
+          stem: "Current assets are \\$50,000 including inventory of \\$10,000; current liabilities are \\$25,000. Calculate the current ratio and quick ratio.",
+          response: {
+            type: "numeric",
+            parts: [
+              { label: "Current ratio", answer: 2, unit: ":1" },
+              { label: "Quick ratio", answer: 1.6, unit: ":1" },
+            ],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "formula",
+                name: "Liquidity ratios",
+                statement: "CR = CA ÷ CL; QR = (CA − inventory) ÷ CL.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "CR = 50,000 ÷ 25,000 = 2:1.",
+                working: "50000 / 25000 = 2",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "QR = (50,000 − 10,000) ÷ 25,000 = 40,000 ÷ 25,000 = 1.6:1.",
+                working: "40000 / 25000 = 1.6",
+                marks: 2,
+                markCode: "M",
+              },
+              {
+                reasoning: "Both ratios stated correctly.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "CR 2:1; QR 1.6:1.",
+          },
+        },
+        {
+          id: "cieiacct-u3-ratios-exam-q15",
+          difficulty: "challenge",
+          totalMarks: 6,
+          parts: [
+            {
+              label: "a",
+              prompt:
+                "Opening cash \\$15,000. Cash received from customers \\$60,000 and paid to suppliers and expenses \\$45,000. Calculate net cash from operating activities.",
+              marks: 2,
+            },
+            {
+              label: "b",
+              prompt:
+                "A van was bought for \\$25,000, a loan of \\$20,000 was received and dividends of \\$8,000 were paid. Calculate net cash from financing activities.",
+              marks: 2,
+            },
+            {
+              label: "c",
+              prompt: "Calculate the closing cash balance.",
+              marks: 2,
+            },
+          ],
+          stem: "A business prepares a simple cash flow statement.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "formula",
+                name: "Cash flow",
+                statement:
+                  "Closing cash = opening + net operating + net investing + net financing.",
+              },
+            ],
+            steps: [
+              {
+                part: "a",
+                reasoning:
+                  "Net operating = 60,000 − 45,000 = \\$15,000.",
+                working: "60000 - 45000 = 15000",
+                marks: 2,
+                markCode: "M",
+              },
+              {
+                part: "b",
+                reasoning:
+                  "Net financing = 20,000 − 8,000 = \\$12,000 (van purchase is investing).",
+                working: "20000 - 8000 = 12000",
+                marks: 2,
+                markCode: "M",
+              },
+              {
+                part: "c",
+                reasoning:
+                  "Closing = 15,000 + 15,000 − 25,000 + 12,000 = \\$17,000.",
+                working: "15000 + 15000 - 25000 + 12000 = 17000",
+                marks: 2,
+                markCode: "A",
+              },
+            ],
+            finalAnswer:
+              "(a) \\$15,000. (b) \\$12,000. (c) Closing cash \\$17,000.",
+          },
+        },
+        {
+          id: "cieiacct-u3-ratios-exam-q16",
+          difficulty: "challenge",
+          totalMarks: 8,
+          parts: [
+            {
+              label: "a",
+              prompt:
+                "Sales \\$300,000; gross profit \\$90,000. Calculate the gross profit margin.",
+              marks: 1,
+            },
+            {
+              label: "b",
+              prompt:
+                "Net profit \\$45,000 and capital employed \\$300,000. Calculate the profit margin and ROCE.",
+              marks: 3,
+            },
+            {
+              label: "c",
+              prompt:
+                "Current assets \\$120,000 including inventory \\$40,000; current liabilities \\$60,000. Calculate the current and quick ratios.",
+              marks: 2,
+            },
+            {
+              label: "d",
+              prompt:
+                "Trade receivables \\$30,000; credit sales \\$270,000; non-current liabilities \\$90,000; capital employed \\$300,000. Calculate debtor days and gearing.",
+              marks: 2,
+            },
+          ],
+          stem: "A business calculates all its key ratios for the exam.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "formula",
+                name: "All ratios",
+                statement:
+                  "Apply formula → substitute → calculate.",
+              },
+            ],
+            steps: [
+              {
+                part: "a",
+                reasoning: "GPM = 90,000 ÷ 300,000 = 30%.",
+                working: "90000 / 300000 = 30%",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                part: "b",
+                reasoning:
+                  "PM = 45,000 ÷ 300,000 = 15%; ROCE = 45,000 ÷ 300,000 = 15%.",
+                working: "45000 / 300000 = 15%",
+                marks: 3,
+                markCode: "M",
+              },
+              {
+                part: "c",
+                reasoning:
+                  "CR = 120,000 ÷ 60,000 = 2:1; QR = (120,000 − 40,000) ÷ 60,000 = 1.33:1.",
+                working: "120000/60000 = 2; 80000/60000 = 1.33",
+                marks: 2,
+                markCode: "M",
+              },
+              {
+                part: "d",
+                reasoning:
+                  "Debtor days = 30,000 ÷ 270,000 × 365 ≈ 40.6 days; gearing = 90,000 ÷ 300,000 = 30%.",
+                working: "30000/270000 × 365 = 40.6; 90000/300000 = 30%",
+                marks: 2,
+                markCode: "A",
+              },
+            ],
+            finalAnswer:
+              "(a) GPM 30%. (b) PM 15%; ROCE 15%. (c) CR 2:1; QR 1.33:1. (d) Debtor ≈40.6 days; gearing 30%.",
           },
         },
       ],

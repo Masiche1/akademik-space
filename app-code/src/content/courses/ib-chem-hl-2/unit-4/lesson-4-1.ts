@@ -94,9 +94,9 @@ export const lesson41: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$\\frac{[SO_3]^2}{[SO_2]^2[O_2]}$" },
-              { id: "b", text: "$\\frac{[SO_2]^2[O_2]}{[SO_3]^2}$" },
-              { id: "c", text: "$\\frac{[SO_3]}{[SO_2][O_2]}$" },
-              { id: "d", text: "$\\frac{[SO_2][O_2]}{[SO_3]}$" },
+              { id: "b", text: "$\\frac{[SO_3]}{[SO_2][O_2]}$" },
+              { id: "c", text: "$\\frac{[SO_2][O_2]}{[SO_3]}$" },
+              { id: "d", text: "$\\frac{[SO_2]^2[O_2]}{[SO_3]^2}$" },
             ],
             correctChoiceId: "a",
           },
@@ -318,12 +318,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\frac{[NO_2]^2}{[N_2O_4]}$" },
-              { id: "b", text: "$\\frac{[N_2O_4]}{[NO_2]^2}$" },
-              { id: "c", text: "$\\frac{[NO_2]}{[N_2O_4]}$" },
-              { id: "d", text: "$[NO_2]^2[N_2O_4]$" },
+              { id: "a", text: "$\\frac{[N_2O_4]}{[NO_2]^2}$" },
+              { id: "b", text: "$\\frac{[NO_2]^2}{[N_2O_4]}$" },
+              { id: "c", text: "$[NO_2]^2[N_2O_4]$" },
+              { id: "d", text: "$\\frac{[NO_2]}{[N_2O_4]}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -362,12 +362,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Pure solids and pure liquids" },
-              { id: "b", text: "All gases" },
-              { id: "c", text: "The products" },
+              { id: "a", text: "The products" },
+              { id: "b", text: "Pure solids and pure liquids" },
+              { id: "c", text: "All gases" },
               { id: "d", text: "Species with a coefficient of 1" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -407,9 +407,9 @@ export const lesson41: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "proceed in the forward direction" },
-              { id: "b", text: "proceed in the reverse direction" },
-              { id: "c", text: "be at equilibrium" },
-              { id: "d", text: "have $K_c$ change to 0.40" },
+              { id: "b", text: "have $K_c$ change to 0.40" },
+              { id: "c", text: "proceed in the reverse direction" },
+              { id: "d", text: "be at equilibrium" },
             ],
             correctChoiceId: "a",
           },
@@ -450,12 +450,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$K_p = K_c$" },
-              { id: "b", text: "$K_p = K_c(RT)^{-2}$" },
+              { id: "a", text: "$K_p = K_c(RT)^{-2}$" },
+              { id: "b", text: "$K_p = K_c$" },
               { id: "c", text: "$K_p = K_c(RT)^2$" },
               { id: "d", text: "$K_p$ is not defined for this reaction" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -493,12 +493,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$K_p = K_c(RT)^{-1}$" },
-              { id: "b", text: "$K_p = K_c(RT)$" },
+              { id: "a", text: "$K_p = K_c(RT)$" },
+              { id: "b", text: "$K_p = K_c(RT)^{-1}$" },
               { id: "c", text: "$K_p = K_c(RT)^2$" },
               { id: "d", text: "$K_p = K_c$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1007,8 +1007,8 @@ export const lesson41: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$-2x$" },
-              { id: "b", text: "$-x$" },
-              { id: "c", text: "$+2x$" },
+              { id: "b", text: "$+2x$" },
+              { id: "c", text: "$-x$" },
               { id: "d", text: "$+x$" },
             ],
             correctChoiceId: "a",
@@ -1230,12 +1230,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$-x$" },
-              { id: "b", text: "$+x$" },
+              { id: "a", text: "$+x$" },
+              { id: "b", text: "$-x$" },
               { id: "c", text: "$-2x$" },
               { id: "d", text: "$+2x$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1274,12 +1274,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$x = 0.15$ only" },
-              { id: "b", text: "$x = -0.30$ only" },
-              { id: "c", text: "Both roots" },
-              { id: "d", text: "Neither — take the average" },
+              { id: "a", text: "$x = -0.30$ only" },
+              { id: "b", text: "Both roots" },
+              { id: "c", text: "Neither — take the average" },
+              { id: "d", text: "$x = 0.15$ only" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1452,12 +1452,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$K_c$ is very small, so $x \\ll [A]_0$" },
-              { id: "b", text: "$K_c$ is very large" },
-              { id: "c", text: "The reaction goes to completion" },
-              { id: "d", text: "All concentrations are equal" },
+              { id: "a", text: "The reaction goes to completion" },
+              { id: "b", text: "All concentrations are equal" },
+              { id: "c", text: "$K_c$ is very large" },
+              { id: "d", text: "$K_c$ is very small, so $x \\ll [A]_0$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1553,12 +1553,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$[B]_0 + x$" },
-              { id: "b", text: "$[B]_0 + 2x$" },
+              { id: "a", text: "$[B]_0 + 2x$" },
+              { id: "b", text: "$2x$ only" },
               { id: "c", text: "$[B]_0 - x$" },
-              { id: "d", text: "$2x$ only" },
+              { id: "d", text: "$[B]_0 + x$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -1792,15 +1792,15 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The equilibrium concentration of the product" },
+              { id: "a", text: "The equilibrium constant" },
+              { id: "b", text: "The equilibrium concentration of the product" },
               {
-                id: "b",
+                id: "c",
                 text: "The extent of reaction (change in concentration of a species with coefficient 1)",
               },
-              { id: "c", text: "The equilibrium constant" },
               { id: "d", text: "The initial concentration" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

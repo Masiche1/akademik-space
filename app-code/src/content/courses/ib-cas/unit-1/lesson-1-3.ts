@@ -52,12 +52,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Only activity" },
-              { id: "b", text: "Regular engagement in all three strands" },
-              { id: "c", text: "Only service" },
-              { id: "d", text: "As much as possible of one strand" },
+              { id: "a", text: "Only service" },
+              { id: "b", text: "As much as possible of one strand" },
+              { id: "c", text: "Regular engagement in all three strands" },
+              { id: "d", text: "Only activity" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -148,11 +148,11 @@ export const lesson13: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Activity" },
-              { id: "b", text: "Creativity and service" },
-              { id: "c", text: "Service only" },
-              { id: "d", text: "None" },
+              { id: "b", text: "None" },
+              { id: "c", text: "Creativity and service" },
+              { id: "d", text: "Service only" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -175,11 +175,11 @@ export const lesson13: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "A one-off event" },
-              { id: "b", text: "A sustained initiative combining all three strands over several months" },
+              { id: "b", text: "A written essay" },
               { id: "c", text: "Weekly sport practice" },
-              { id: "d", text: "A written essay" },
+              { id: "d", text: "A sustained initiative combining all three strands over several months" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -201,12 +201,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Sport only" },
-              { id: "b", text: "Weekly sport, a monthly creative project and ongoing volunteering" },
-              { id: "c", text: "Volunteering only" },
-              { id: "d", text: "Art classes only" },
+              { id: "a", text: "Weekly sport, a monthly creative project and ongoing volunteering" },
+              { id: "b", text: "Volunteering only" },
+              { id: "c", text: "Art classes only" },
+              { id: "d", text: "Sport only" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -228,12 +228,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Activity only" },
-              { id: "b", text: "Integration of creativity and service" },
-              { id: "c", text: "Creativity only" },
-              { id: "d", text: "No CAS strands" },
+              { id: "a", text: "Creativity only" },
+              { id: "b", text: "Activity only" },
+              { id: "c", text: "No CAS strands" },
+              { id: "d", text: "Integration of creativity and service" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -255,12 +255,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It is against IB rules" },
-              { id: "b", text: "Each strand requires regular engagement of its own" },
-              { id: "c", text: "Overlapping activities are not allowed" },
-              { id: "d", text: "Time is unlimited anyway" },
+              { id: "a", text: "Time is unlimited anyway" },
+              { id: "b", text: "Overlapping activities are not allowed" },
+              { id: "c", text: "Each strand requires regular engagement of its own" },
+              { id: "d", text: "It is against IB rules" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -282,12 +282,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Specialisation" },
-              { id: "b", text: "Balance" },
-              { id: "c", text: "Tokenism" },
+              { id: "a", text: "Balance" },
+              { id: "b", text: "Tokenism" },
+              { id: "c", text: "Specialisation" },
               { id: "d", text: "Overlap" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -495,12 +495,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Sign up for activities" },
-              { id: "b", text: "Audit current activities and interests" },
+              { id: "a", text: "Collect evidence" },
+              { id: "b", text: "Sign up for activities" },
               { id: "c", text: "Write reflections" },
-              { id: "d", text: "Collect evidence" },
+              { id: "d", text: "Audit current activities and interests" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -591,11 +591,11 @@ export const lesson13: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Daily three-hour volunteering" },
-              { id: "b", text: "Weekly club sport plus one project per term" },
-              { id: "c", text: "A single one-off event" },
-              { id: "d", text: "Five simultaneous activities" },
+              { id: "b", text: "Five simultaneous activities" },
+              { id: "c", text: "Weekly club sport plus one project per term" },
+              { id: "d", text: "A single one-off event" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -617,12 +617,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Avoid all planning" },
-              { id: "b", text: "Adapt to academic pressure without abandoning engagement" },
+              { id: "a", text: "Adapt to academic pressure without abandoning engagement" },
+              { id: "b", text: "Skip reflections" },
               { id: "c", text: "Change strands every day" },
-              { id: "d", text: "Skip reflections" },
+              { id: "d", text: "Avoid all planning" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -645,11 +645,11 @@ export const lesson13: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Only this week's timetable" },
-              { id: "b", text: "Skill development, community needs and possible projects" },
-              { id: "c", text: "Nothing beyond upcoming exams" },
-              { id: "d", text: "Only paid opportunities" },
+              { id: "b", text: "Only paid opportunities" },
+              { id: "c", text: "Skill development, community needs and possible projects" },
+              { id: "d", text: "Nothing beyond upcoming exams" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -672,11 +672,11 @@ export const lesson13: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "As demanding as possible" },
-              { id: "b", text: "Sustainable and can be paused and resumed" },
-              { id: "c", text: "Unrelated to school" },
-              { id: "d", text: "Chosen impulsively" },
+              { id: "b", text: "Chosen impulsively" },
+              { id: "c", text: "Sustainable and can be paused and resumed" },
+              { id: "d", text: "Unrelated to school" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -698,9 +698,9 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Better results" },
+              { id: "a", text: "More strands covered" },
               { id: "b", text: "Burnout and eventual abandonment" },
-              { id: "c", text: "More strands covered" },
+              { id: "c", text: "Better results" },
               { id: "d", text: "Deeper reflection" },
             ],
             correctChoiceId: "b",
@@ -725,12 +725,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Fill every spare hour" },
-              { id: "b", text: "Schedule deliberate regular slots across all three strands" },
+              { id: "a", text: "Schedule deliberate regular slots across all three strands" },
+              { id: "b", text: "Fill every spare hour" },
               { id: "c", text: "Only plan for holidays" },
               { id: "d", text: "Leave it to chance" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

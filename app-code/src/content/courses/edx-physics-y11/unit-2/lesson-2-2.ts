@@ -54,12 +54,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A large steady voltage, because the magnet is inside the coil" },
-              { id: "b", text: "Zero, because there is no relative movement between the magnet and the coil" },
+              { id: "a", text: "A small steady voltage, because the magnet is weak" },
+              { id: "b", text: "A large steady voltage, because the magnet is inside the coil" },
               { id: "c", text: "An alternating voltage" },
-              { id: "d", text: "A small steady voltage, because the magnet is weak" },
+              { id: "d", text: "Zero, because there is no relative movement between the magnet and the coil" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -188,12 +188,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "d.c. has too small a voltage" },
-              { id: "b", text: "d.c. would melt the soft iron core" },
-              { id: "c", text: "d.c. gives a constant magnetic field, so no voltage is induced in the secondary coil" },
+              { id: "a", text: "d.c. gives a constant magnetic field, so no voltage is induced in the secondary coil" },
+              { id: "b", text: "d.c. has too small a voltage" },
+              { id: "c", text: "d.c. would melt the soft iron core" },
               { id: "d", text: "d.c. is not able to flow through coils of wire" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [

@@ -89,12 +89,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Alliteration" },
-              { id: "b", text: "Simile and personification" },
+              { id: "a", text: "Simile and personification" },
+              { id: "b", text: "Alliteration" },
               { id: "c", text: "Rhetorical question" },
               { id: "d", text: "Onomatopoeia" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Simile and personification", statement: "‘Like’ marks the simile; the tower is given the feelings of an animal." }],
@@ -227,12 +227,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The writer says, ‘Concrete does not merely sit in the sun; it hoards it.’" },
-              { id: "b", text: "The writer suggests that concrete ‘hoards’ heat, implying it is greedy." },
+              { id: "a", text: "Quote: hoards." },
+              { id: "b", text: "The writer says, ‘Concrete does not merely sit in the sun; it hoards it.’" },
               { id: "c", text: "‘Hoards’ is a quote from the first paragraph." },
-              { id: "d", text: "Quote: hoards." },
+              { id: "d", text: "The writer suggests that concrete ‘hoards’ heat, implying it is greedy." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "skill", name: "Embedding", statement: "A short quotation is woven into the grammar of your own sentence and followed by comment." }],

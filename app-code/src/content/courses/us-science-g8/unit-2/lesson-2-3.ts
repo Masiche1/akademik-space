@@ -56,8 +56,8 @@ export const lesson23: Lesson = {
             choices: [
               { id: "a", text: "It can have any value within a range" },
               { id: "b", text: "It uses a limited set of values, usually 0 and 1" },
-              { id: "c", text: "It can only be carried by electricity" },
-              { id: "d", text: "It always has a higher frequency than an analog signal" },
+              { id: "c", text: "It always has a higher frequency than an analog signal" },
+              { id: "d", text: "It can only be carried by electricity" },
             ],
             correctChoiceId: "b",
           },
@@ -187,12 +187,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Digital signals are not affected by noise at all" },
-              { id: "b", text: "Digital signals travel faster than the speed of light" },
-              { id: "c", text: "The receiver only has to decide between 1 and 0, so a clean signal can be regenerated" },
-              { id: "d", text: "Digital signals have a larger amplitude than analog signals" },
+              { id: "a", text: "Digital signals have a larger amplitude than analog signals" },
+              { id: "b", text: "Digital signals are not affected by noise at all" },
+              { id: "c", text: "Digital signals travel faster than the speed of light" },
+              { id: "d", text: "The receiver only has to decide between 1 and 0, so a clean signal can be regenerated" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [

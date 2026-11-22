@@ -56,12 +56,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Tell a long personal story" },
-              { id: "b", text: "State the purpose of writing clearly and early" },
-              { id: "c", text: "Include every detail of the sender's life" },
-              { id: "d", text: "Apologise for writing at all" },
+              { id: "a", text: "Apologise for writing at all" },
+              { id: "b", text: "Include every detail of the sender's life" },
+              { id: "c", text: "State the purpose of writing clearly and early" },
+              { id: "d", text: "Tell a long personal story" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -174,11 +174,11 @@ export const lesson23: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Tell a long personal story" },
-              { id: "b", text: "State the purpose of writing within the first two sentences" },
-              { id: "c", text: "Thank the recipient excessively" },
+              { id: "b", text: "Thank the recipient excessively" },
+              { id: "c", text: "State the purpose of writing within the first two sentences" },
               { id: "d", text: "Repeat the address block" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -200,9 +200,9 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Send me the file now." },
+              { id: "a", text: "You need to send the file." },
               { id: "b", text: "I would be grateful if you could send me the file." },
-              { id: "c", text: "You need to send the file." },
+              { id: "c", text: "Send me the file now." },
               { id: "d", text: "File. Now." },
             ],
             correctChoiceId: "b",
@@ -233,10 +233,10 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The salutation" },
+              { id: "a", text: "The closing phrase" },
               { id: "b", text: "The date" },
               { id: "c", text: "The recipient's address" },
-              { id: "d", text: "The closing phrase" },
+              { id: "d", text: "The salutation" },
             ],
             correctChoiceId: "b",
           },
@@ -313,12 +313,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Sentence A" },
-              { id: "b", text: "Sentence B" },
-              { id: "c", text: "Both equally" },
-              { id: "d", text: "Neither" },
+              { id: "a", text: "Neither" },
+              { id: "b", text: "Both equally" },
+              { id: "c", text: "Sentence A" },
+              { id: "d", text: "Sentence B" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -421,12 +421,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Later!" },
-              { id: "b", text: "Cheers, talk soon" },
-              { id: "c", text: "Yours sincerely / Yours faithfully" },
-              { id: "d", text: "Bye" },
+              { id: "a", text: "Bye" },
+              { id: "b", text: "Later!" },
+              { id: "c", text: "Cheers, talk soon" },
+              { id: "d", text: "Yours sincerely / Yours faithfully" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -491,12 +491,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It makes the letter longer" },
-              { id: "b", text: "It preserves politeness without weakening clarity" },
-              { id: "c", text: "It is required by law" },
-              { id: "d", text: "It confuses the reader" },
+              { id: "a", text: "It preserves politeness without weakening clarity" },
+              { id: "b", text: "It is required by law" },
+              { id: "c", text: "It confuses the reader" },
+              { id: "d", text: "It makes the letter longer" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -549,12 +549,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Writing for as many people as possible" },
-              { id: "b", text: "Choosing language appropriate to the reader and purpose" },
-              { id: "c", text: "Using the longest possible words" },
+              { id: "a", text: "Using the longest possible words" },
+              { id: "b", text: "Writing for as many people as possible" },
+              { id: "c", text: "Choosing language appropriate to the reader and purpose" },
               { id: "d", text: "Avoiding all personal references" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -666,12 +666,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Writing the same message to everyone" },
-              { id: "b", text: "Adjusting language to the relationship, purpose and expectations of the reader" },
-              { id: "c", text: "Using the longest possible sentences" },
-              { id: "d", text: "Avoiding all politeness" },
+              { id: "a", text: "Avoiding all politeness" },
+              { id: "b", text: "Using the longest possible sentences" },
+              { id: "c", text: "Writing the same message to everyone" },
+              { id: "d", text: "Adjusting language to the relationship, purpose and expectations of the reader" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -693,12 +693,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "They are always grammatically incorrect" },
-              { id: "b", text: "They often fail to translate and may confuse or offend" },
-              { id: "c", text: "They make messages too short" },
-              { id: "d", text: "They are too formal" },
+              { id: "a", text: "They are too formal" },
+              { id: "b", text: "They make messages too short" },
+              { id: "c", text: "They are always grammatically incorrect" },
+              { id: "d", text: "They often fail to translate and may confuse or offend" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -726,10 +726,10 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Message A" },
+              { id: "a", text: "Both equally" },
               { id: "b", text: "Message B" },
-              { id: "c", text: "Both equally" },
-              { id: "d", text: "Neither" },
+              { id: "c", text: "Neither" },
+              { id: "d", text: "Message A" },
             ],
             correctChoiceId: "b",
           },
@@ -806,9 +806,9 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It is too short" },
+              { id: "a", text: "It is too formal" },
               { id: "b", text: "It uses idioms ('break a leg', 'fingers crossed') that may not translate" },
-              { id: "c", text: "It is too formal" },
+              { id: "c", text: "It is too short" },
               { id: "d", text: "It contains no greeting" },
             ],
             correctChoiceId: "b",
@@ -914,12 +914,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Use heavy slang to seem friendly" },
-              { id: "b", text: "Use neutral polite language, avoid idioms, and offer to clarify" },
+              { id: "a", text: "Assume all cultures share your norms" },
+              { id: "b", text: "Use heavy slang to seem friendly" },
               { id: "c", text: "Send the message in your strongest language only" },
-              { id: "d", text: "Assume all cultures share your norms" },
+              { id: "d", text: "Use neutral polite language, avoid idioms, and offer to clarify" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -984,9 +984,9 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It is shorter" },
+              { id: "a", text: "It uses more slang" },
               { id: "b", text: "It replaces harsh judgement with respectful, precise language" },
-              { id: "c", text: "It uses more slang" },
+              { id: "c", text: "It is shorter" },
               { id: "d", text: "It avoids giving any feedback" },
             ],
             correctChoiceId: "b",

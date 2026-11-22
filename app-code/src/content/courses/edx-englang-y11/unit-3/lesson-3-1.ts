@@ -93,12 +93,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "That it glows with a faded, nostalgic warmth" },
+              { id: "a", text: "That it is brand new and polished" },
               { id: "b", text: "That it is noisy like a piano" },
-              { id: "c", text: "That it is brand new and polished" },
+              { id: "c", text: "That it glows with a faded, nostalgic warmth" },
               { id: "d", text: "That the passengers are musicians" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Simile", statement: "Compares two things with 'as' or 'like' to bring out shared qualities." }],
@@ -229,12 +229,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A nervous, repetitive habit that irritates Mara" },
-              { id: "b", text: "That Tobias is taking careful notes" },
-              { id: "c", text: "That Tobias enjoys music" },
-              { id: "d", text: "That the pen is broken" },
+              { id: "a", text: "That the pen is broken" },
+              { id: "b", text: "That Tobias enjoys music" },
+              { id: "c", text: "That Tobias is taking careful notes" },
+              { id: "d", text: "A nervous, repetitive habit that irritates Mara" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Adjective choice", statement: "'Metronomic' suggests mechanical, unrelenting repetition." }],

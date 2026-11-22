@@ -56,11 +56,11 @@ export const lesson742: Lesson = {
           "choices": [
                     {
                               "id": "a",
-                              "text": "Ability to choose behaviour independently"
+                              "text": "All behaviour caused"
                     },
                     {
                               "id": "b",
-                              "text": "All behaviour caused"
+                              "text": "Ability to choose behaviour independently"
                     },
                     {
                               "id": "c",
@@ -71,7 +71,7 @@ export const lesson742: Lesson = {
                               "text": "A brain structure"
                     }
           ],
-          "correctChoiceId": "a"
+          "correctChoiceId": "b"
 },
           markscheme: {
           "principles": [
@@ -217,6 +217,493 @@ export const lesson742: Lesson = {
                     }
           ],
           "finalAnswer": "Free will/determinism analysis."
+},
+        },
+        {
+          id: "ciealpsy-u4-fw-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Free will is the idea that:",
+          response: {
+          "type": "mcq",
+          "choices": [
+                    {
+                              "id": "a",
+                              "text": "People can choose their behaviour independently of prior causes"
+                    },
+                    {
+                              "id": "b",
+                              "text": "All behaviour is caused by prior events"
+                    },
+                    {
+                              "id": "c",
+                              "text": "The environment determines all behaviour"
+                    },
+                    {
+                              "id": "d",
+                              "text": "Genes determine all behaviour"
+                    }
+          ],
+          "correctChoiceId": "a"
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "definition",
+                              "name": "Free will",
+                              "statement": "Independent choice."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "Free will holds that individuals can make genuine choices rather than being wholly determined by prior causes.",
+                              "marks": 1,
+                              "markCode": "M"
+                    }
+          ],
+          "finalAnswer": "Independent choice of behaviour"
+},
+        },
+        {
+          id: "ciealpsy-u4-fw-q6",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "How many positions are outlined in the free will versus determinism debate?",
+          response: {
+          "type": "numeric",
+          "parts": [
+                    { "label": "a", "answer": 3 }
+          ]
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "context",
+                              "name": "Debate",
+                              "statement": "Free will, hard, soft determinism."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "The lesson outlines free will, hard determinism and soft determinism.",
+                              "marks": 1,
+                              "markCode": "A"
+                    }
+          ],
+          "finalAnswer": "3"
+},
+        },
+        {
+          id: "ciealpsy-u4-fw-q7",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Hard determinism claims that:",
+          response: {
+          "type": "mcq",
+          "choices": [
+                    {
+                              "id": "a",
+                              "text": "Only the environment determines behaviour"
+                    },
+                    {
+                              "id": "b",
+                              "text": "All behaviour is caused by prior events and there is no free will"
+                    },
+                    {
+                              "id": "c",
+                              "text": "Behaviour is partly chosen by the individual"
+                    },
+                    {
+                              "id": "d",
+                              "text": "Only genes determine behaviour"
+                    }
+          ],
+          "correctChoiceId": "b"
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "definition",
+                              "name": "Hard determinism",
+                              "statement": "All behaviour caused."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "Hard determinism holds that every behaviour has a prior cause, leaving no room for free will — like a physics-like causal chain.",
+                              "marks": 1,
+                              "markCode": "M"
+                    }
+          ],
+          "finalAnswer": "All behaviour is caused; no free will"
+},
+        },
+        {
+          id: "ciealpsy-u4-fw-q8",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "How many types of determinism are described in the lesson?",
+          response: {
+          "type": "numeric",
+          "parts": [
+                    { "label": "a", "answer": 3 }
+          ]
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "context",
+                              "name": "Determinism",
+                              "statement": "Biological, environmental, reciprocal."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "The lesson describes biological, environmental and reciprocal determinism.",
+                              "marks": 1,
+                              "markCode": "A"
+                    }
+          ],
+          "finalAnswer": "3"
+},
+        },
+        {
+          id: "ciealpsy-u4-fw-q9",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Soft determinism argues that:",
+          response: {
+          "type": "mcq",
+          "choices": [
+                    {
+                              "id": "a",
+                              "text": "Only biology determines behaviour"
+                    },
+                    {
+                              "id": "b",
+                              "text": "There is no causation at all"
+                    },
+                    {
+                              "id": "c",
+                              "text": "Behaviour is determined but people can still choose how to respond"
+                    },
+                    {
+                              "id": "d",
+                              "text": "Free will is an illusion with no compromise"
+                    }
+          ],
+          "correctChoiceId": "c"
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "definition",
+                              "name": "Soft determinism",
+                              "statement": "Choose responses."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "Soft determinism accepts that behaviour has causes but maintains that individuals retain some capacity to choose their responses.",
+                              "marks": 1,
+                              "markCode": "M"
+                    }
+          ],
+          "finalAnswer": "Determined but choose responses"
+},
+        },
+        {
+          id: "ciealpsy-u4-fw-q10",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "How many areas of life are identified as affected by the determinism debate?",
+          response: {
+          "type": "numeric",
+          "parts": [
+                    { "label": "a", "answer": 2 }
+          ]
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "context",
+                              "name": "Implications",
+                              "statement": "Legal system and therapy."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "The debate affects the legal system and therapy/treatment.",
+                              "marks": 1,
+                              "markCode": "A"
+                    }
+          ],
+          "finalAnswer": "2"
+},
+        },
+        {
+          id: "ciealpsy-u4-fw-q11",
+          difficulty: "challenge",
+          totalMarks: 1,
+          stem: "Reciprocal determinism, associated with Bandura, proposes that:",
+          response: {
+          "type": "mcq",
+          "choices": [
+                    {
+                              "id": "a",
+                              "text": "The person, their behaviour and the environment all interact to influence each other"
+                    },
+                    {
+                              "id": "b",
+                              "text": "Determinism is impossible"
+                    },
+                    {
+                              "id": "c",
+                              "text": "Only the environment determines behaviour"
+                    },
+                    {
+                              "id": "d",
+                              "text": "Only genes determine behaviour"
+                    }
+          ],
+          "correctChoiceId": "a"
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "definition",
+                              "name": "Reciprocal determinism",
+                              "statement": "Person-behaviour-environment."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "Reciprocal determinism sees cognition, behaviour and environment as mutually influencing one another.",
+                              "marks": 1,
+                              "markCode": "M"
+                    }
+          ],
+          "finalAnswer": "Person, behaviour and environment interact"
+},
+        },
+        {
+          id: "ciealpsy-u4-fw-q12",
+          difficulty: "challenge",
+          totalMarks: 2,
+          stem: "State the number of (a) types of determinism described and (b) areas of life affected by the debate.",
+          response: {
+          "type": "numeric",
+          "parts": [
+                    { "label": "a", "answer": 3 },
+                    { "label": "b", "answer": 2 }
+          ]
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "context",
+                              "name": "Determinism",
+                              "statement": "3 types; 2 areas."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "(a) Biological, environmental and reciprocal determinism = 3.",
+                              "marks": 1,
+                              "markCode": "A",
+                              "part": "a"
+                    },
+                    {
+                              "reasoning": "(b) The legal system and therapy = 2.",
+                              "marks": 1,
+                              "markCode": "A",
+                              "part": "b"
+                    }
+          ],
+          "finalAnswer": "3 and 2"
+},
+        },
+        {
+          id: "ciealpsy-u4-fw-q13",
+          difficulty: "challenge",
+          totalMarks: 1,
+          stem: "If criminal behaviour is viewed as determined rather than freely chosen, the legal system is more likely to emphasise:",
+          response: {
+          "type": "mcq",
+          "choices": [
+                    {
+                              "id": "a",
+                              "text": "Treatment and rehabilitation rather than blame and punishment"
+                    },
+                    {
+                              "id": "b",
+                              "text": "Harsher punitive measures"
+                    },
+                    {
+                              "id": "c",
+                              "text": "Longer prison sentences"
+                    },
+                    {
+                              "id": "d",
+                              "text": "Ignoring the offender's mental state"
+                    }
+          ],
+          "correctChoiceId": "a"
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "principle",
+                              "name": "Legal implications",
+                              "statement": "Treatment vs punishment."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "If behaviour is seen as caused by factors beyond the person's control, emphasis shifts from blame and punishment towards treatment and rehabilitation.",
+                              "marks": 1,
+                              "markCode": "M"
+                    }
+          ],
+          "finalAnswer": "Treatment and rehabilitation"
+},
+        },
+        {
+          id: "ciealpsy-u4-fw-q14",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "Explain the difference between hard determinism and soft determinism.",
+          response: {
+          "type": "open"
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "definition",
+                              "name": "Hard vs soft",
+                              "statement": "All caused vs choose responses."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "Hard determinism claims all behaviour is caused by prior events, leaving no free will.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "Soft determinism accepts that behaviour has causes but argues people can still choose how to respond.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "Soft determinism acts as a middle ground, preserving some human agency.",
+                              "marks": 1,
+                              "markCode": "A"
+                    }
+          ],
+          "finalAnswer": "Hard = all caused; soft = choose responses"
+},
+        },
+        {
+          id: "ciealpsy-u4-fw-q15",
+          difficulty: "core",
+          totalMarks: 4,
+          stem: "Explain how the determinism debate affects the treatment of offenders.",
+          response: {
+          "type": "open"
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "principle",
+                              "name": "Legal implications",
+                              "statement": "Blame vs treatment."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "A free will view emphasises personal responsibility, blame and punishment.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "A determinist view emphasises the causes of offending — biological or environmental — and favours treatment and rehabilitation.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "Different determinist views suggest different treatments, e.g. biological causes may point to medical intervention while environmental causes suggest behavioural therapy.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "Most psychological approaches are deterministic, yet the debate remains unresolved because responsibility and treatment both have merit.",
+                              "marks": 1,
+                              "markCode": "A"
+                    }
+          ],
+          "finalAnswer": "Determined offenders → treatment; free will → punishment"
+},
+        },
+        {
+          id: "ciealpsy-u4-fw-q16",
+          difficulty: "challenge",
+          totalMarks: 8,
+          stem: "(a) Define free will, hard determinism, soft determinism, biological determinism, environmental determinism and reciprocal determinism. (b) What is free will? (c) What is hard determinism? (d) What is soft determinism? (e) What is biological determinism? (f) What is reciprocal determinism? (g) How does determinism affect the legal system? (h) Evaluate the free will versus determinism debate.",
+          response: {
+          "type": "open"
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "technique",
+                              "name": "Free will",
+                              "statement": "Debate and evaluation."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "(a) All six definitions.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "(b) Independent choice of behaviour.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "(c) All behaviour caused by prior events.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "(d) Behaviour determined but responses can be chosen.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "(e) Genes and brain structure determine behaviour.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "(f) Person, behaviour and environment interact.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "(g) Determinism shifts emphasis from blame and punishment towards causes, treatment and rehabilitation.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "(h) Soft determinism offers the best compromise — acknowledging causes while preserving some agency and responsibility.",
+                              "marks": 1,
+                              "markCode": "A"
+                    }
+          ],
+          "finalAnswer": "Free will and determinism analysis."
 },
         },
       ],

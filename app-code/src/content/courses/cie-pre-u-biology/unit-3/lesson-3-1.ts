@@ -115,15 +115,15 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "Protein only" },
               {
-                id: "a",
+                id: "b",
                 text: "Fluid phospholipid bilayer with embedded proteins",
               },
-              { id: "b", text: "Solid wall" },
-              { id: "c", text: "Protein only" },
+              { id: "c", text: "Solid wall" },
               { id: "d", text: "Lipid only" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -151,12 +151,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Hydrophilic heads and hydrophobic tails" },
-              { id: "b", text: "Only hydrophilic" },
-              { id: "c", text: "Only hydrophobic" },
-              { id: "d", text: "No polarity" },
+              { id: "a", text: "Only hydrophobic" },
+              { id: "b", text: "Hydrophilic heads and hydrophobic tails" },
+              { id: "c", text: "No polarity" },
+              { id: "d", text: "Only hydrophilic" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -185,8 +185,8 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Net movement from high to low concentration" },
-              { id: "b", text: "Movement against gradient" },
-              { id: "c", text: "Water movement" },
+              { id: "b", text: "Water movement" },
+              { id: "c", text: "Movement against gradient" },
               { id: "d", text: "Active transport" },
             ],
             correctChoiceId: "a",
@@ -221,9 +221,9 @@ export const lesson31: Lesson = {
                 id: "a",
                 text: "Diffusion of water across partially permeable membrane",
               },
-              { id: "b", text: "Diffusion of solutes" },
-              { id: "c", text: "Active transport" },
-              { id: "d", text: "Endocytosis" },
+              { id: "b", text: "Active transport" },
+              { id: "c", text: "Endocytosis" },
+              { id: "d", text: "Diffusion of solutes" },
             ],
             correctChoiceId: "a",
           },
@@ -253,12 +253,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "ATP energy" },
+              { id: "a", text: "Only osmosis" },
               { id: "b", text: "No energy" },
               { id: "c", text: "Only diffusion" },
-              { id: "d", text: "Only osmosis" },
+              { id: "d", text: "ATP energy" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -287,8 +287,8 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Membrane engulfs material into cell" },
-              { id: "b", text: "Material released" },
-              { id: "c", text: "Diffusion" },
+              { id: "b", text: "Diffusion" },
+              { id: "c", text: "Material released" },
               { id: "d", text: "Osmosis" },
             ],
             correctChoiceId: "a",
@@ -323,9 +323,9 @@ export const lesson31: Lesson = {
                 id: "a",
                 text: "Vesicle fuses with membrane to release contents",
               },
-              { id: "b", text: "Material engulfed" },
-              { id: "c", text: "Diffusion" },
-              { id: "d", text: "Osmosis" },
+              { id: "b", text: "Osmosis" },
+              { id: "c", text: "Material engulfed" },
+              { id: "d", text: "Diffusion" },
             ],
             correctChoiceId: "a",
           },
@@ -355,12 +355,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Form pores for specific molecules" },
+              { id: "a", text: "Stabilise membrane" },
               { id: "b", text: "Carry molecules" },
               { id: "c", text: "Recognise cells" },
-              { id: "d", text: "Stabilise membrane" },
+              { id: "d", text: "Form pores for specific molecules" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -389,9 +389,9 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Bind and transport specific molecules" },
-              { id: "b", text: "Form pores" },
-              { id: "c", text: "Recognise cells" },
-              { id: "d", text: "Stabilise" },
+              { id: "b", text: "Stabilise" },
+              { id: "c", text: "Form pores" },
+              { id: "d", text: "Recognise cells" },
             ],
             correctChoiceId: "a",
           },
@@ -421,12 +421,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Channel or carrier proteins — still passive" },
-              { id: "b", text: "ATP" },
-              { id: "c", text: "Active transport" },
-              { id: "d", text: "Endocytosis" },
+              { id: "a", text: "Active transport" },
+              { id: "b", text: "Endocytosis" },
+              { id: "c", text: "Channel or carrier proteins — still passive" },
+              { id: "d", text: "ATP" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -454,15 +454,15 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "Only pressure" },
               {
-                id: "a",
+                id: "b",
                 text: "Concentration gradient, temperature, surface area",
               },
-              { id: "b", text: "Only concentration" },
-              { id: "c", text: "Only temperature" },
-              { id: "d", text: "Only pressure" },
+              { id: "c", text: "Only concentration" },
+              { id: "d", text: "Only temperature" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -490,12 +490,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Potential energy of water in a system" },
+              { id: "a", text: "Water pressure" },
               { id: "b", text: "Amount of water" },
-              { id: "c", text: "Water pressure" },
-              { id: "d", text: "Water temperature" },
+              { id: "c", text: "Water temperature" },
+              { id: "d", text: "Potential energy of water in a system" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -523,12 +523,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Gain water and swell" },
-              { id: "b", text: "Lose water and shrink" },
-              { id: "c", text: "Stay same" },
+              { id: "a", text: "Lose water and shrink" },
+              { id: "b", text: "Stay same" },
+              { id: "c", text: "Gain water and swell" },
               { id: "d", text: "Burst immediately" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -557,9 +557,9 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Lose water and shrink (plasmolysis)" },
-              { id: "b", text: "Gain water" },
-              { id: "c", text: "Stay same" },
-              { id: "d", text: "Burst" },
+              { id: "b", text: "Stay same" },
+              { id: "c", text: "Burst" },
+              { id: "d", text: "Gain water" },
             ],
             correctChoiceId: "a",
           },
@@ -589,15 +589,15 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "Cell gains water" },
               {
-                id: "a",
+                id: "b",
                 text: "Plant cell loses water in hypertonic solution",
               },
-              { id: "b", text: "Cell gains water" },
               { id: "c", text: "Cell divides" },
               { id: "d", text: "Cell dies" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -625,12 +625,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Water entering cell against cell wall" },
-              { id: "b", text: "Water leaving" },
-              { id: "c", text: "Cell division" },
-              { id: "d", text: "Active transport" },
+              { id: "a", text: "Active transport" },
+              { id: "b", text: "Water entering cell against cell wall" },
+              { id: "c", text: "Water leaving" },
+              { id: "d", text: "Cell division" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -658,12 +658,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Active transport" },
+              { id: "a", text: "Osmosis" },
               { id: "b", text: "Diffusion" },
-              { id: "c", text: "Osmosis" },
+              { id: "c", text: "Active transport" },
               { id: "d", text: "Endocytosis" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -692,9 +692,9 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Endocytosis — engulfing solids" },
-              { id: "b", text: "Exocytosis" },
+              { id: "b", text: "Osmosis" },
               { id: "c", text: "Diffusion" },
-              { id: "d", text: "Osmosis" },
+              { id: "d", text: "Exocytosis" },
             ],
             correctChoiceId: "a",
           },
@@ -724,12 +724,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Endocytosis — engulfing liquids" },
-              { id: "b", text: "Exocytosis" },
+              { id: "a", text: "Exocytosis" },
+              { id: "b", text: "Osmosis" },
               { id: "c", text: "Diffusion" },
-              { id: "d", text: "Osmosis" },
+              { id: "d", text: "Endocytosis — engulfing liquids" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -892,12 +892,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Cell recognition" },
-              { id: "b", text: "Transport" },
-              { id: "c", text: "Stabilisation" },
+              { id: "a", text: "Transport" },
+              { id: "b", text: "Stabilisation" },
+              { id: "c", text: "Cell recognition" },
               { id: "d", text: "Energy production" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -990,12 +990,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Active transport" },
-              { id: "b", text: "Diffusion" },
-              { id: "c", text: "Osmosis" },
-              { id: "d", text: "Facilitated diffusion" },
+              { id: "a", text: "Osmosis" },
+              { id: "b", text: "Facilitated diffusion" },
+              { id: "c", text: "Diffusion" },
+              { id: "d", text: "Active transport" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1171,12 +1171,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Two identical diploid cells" },
+              { id: "a", text: "Different cells" },
               { id: "b", text: "Four haploid cells" },
-              { id: "c", text: "One cell" },
-              { id: "d", text: "Different cells" },
+              { id: "c", text: "Two identical diploid cells" },
+              { id: "d", text: "One cell" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1204,12 +1204,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Four different haploid cells" },
+              { id: "a", text: "Diploid cells" },
               { id: "b", text: "Two identical diploid" },
-              { id: "c", text: "One cell" },
-              { id: "d", text: "Diploid cells" },
+              { id: "c", text: "Four different haploid cells" },
+              { id: "d", text: "One cell" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1237,15 +1237,15 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "Chromosomes align" },
               {
-                id: "a",
+                id: "b",
                 text: "Chromosomes condense, nuclear envelope breaks",
               },
-              { id: "b", text: "Chromosomes align" },
               { id: "c", text: "Chromatids separate" },
               { id: "d", text: "Cell splits" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1273,12 +1273,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Chromosomes align at equator" },
-              { id: "b", text: "Chromosomes condense" },
-              { id: "c", text: "Chromatids separate" },
+              { id: "a", text: "Chromatids separate" },
+              { id: "b", text: "Chromosomes align at equator" },
+              { id: "c", text: "Chromosomes condense" },
               { id: "d", text: "Cell splits" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1306,12 +1306,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Sister chromatids separate to opposite poles" },
-              { id: "b", text: "Chromosomes align" },
-              { id: "c", text: "Cell splits" },
-              { id: "d", text: "DNA replicates" },
+              { id: "a", text: "DNA replicates" },
+              { id: "b", text: "Cell splits" },
+              { id: "c", text: "Chromosomes align" },
+              { id: "d", text: "Sister chromatids separate to opposite poles" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1339,15 +1339,15 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "Cell splits" },
+              { id: "b", text: "Chromatids separate" },
+              { id: "c", text: "Chromosomes align" },
               {
-                id: "a",
+                id: "d",
                 text: "Nuclear envelopes reform, chromosomes decondense",
               },
-              { id: "b", text: "Chromosomes align" },
-              { id: "c", text: "Chromatids separate" },
-              { id: "d", text: "Cell splits" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1375,12 +1375,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Division of cytoplasm after nuclear division" },
-              { id: "b", text: "Nuclear division" },
+              { id: "a", text: "Nuclear division" },
+              { id: "b", text: "Division of cytoplasm after nuclear division" },
               { id: "c", text: "DNA replication" },
               { id: "d", text: "Chromosome condensation" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1408,12 +1408,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "G1, S, G2 phases" },
-              { id: "b", text: "Only mitosis" },
-              { id: "c", text: "Only meiosis" },
-              { id: "d", text: "Cytokinesis" },
+              { id: "a", text: "Only meiosis" },
+              { id: "b", text: "Cytokinesis" },
+              { id: "c", text: "G1, S, G2 phases" },
+              { id: "d", text: "Only mitosis" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1441,12 +1441,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "DNA replication" },
+              { id: "a", text: "Cell division" },
               { id: "b", text: "Cell growth" },
               { id: "c", text: "Protein synthesis" },
-              { id: "d", text: "Cell division" },
+              { id: "d", text: "DNA replication" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1474,12 +1474,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Meiosis I prophase" },
-              { id: "b", text: "Mitosis" },
-              { id: "c", text: "Interphase" },
+              { id: "a", text: "Mitosis" },
+              { id: "b", text: "Interphase" },
+              { id: "c", text: "Meiosis I prophase" },
               { id: "d", text: "Cytokinesis" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1507,12 +1507,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Random arrangement of homologous chromosomes" },
-              { id: "b", text: "DNA replication" },
-              { id: "c", text: "Cell division" },
-              { id: "d", text: "Chromosome condensation" },
+              { id: "a", text: "DNA replication" },
+              { id: "b", text: "Chromosome condensation" },
+              { id: "c", text: "Random arrangement of homologous chromosomes" },
+              { id: "d", text: "Cell division" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1540,15 +1540,15 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "Different genes" },
+              { id: "b", text: "Identical chromosomes" },
+              { id: "c", text: "One chromosome" },
               {
-                id: "a",
+                id: "d",
                 text: "Two chromosomes with same genes (one from each parent)",
               },
-              { id: "b", text: "Identical chromosomes" },
-              { id: "c", text: "Different genes" },
-              { id: "d", text: "One chromosome" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1576,12 +1576,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Point where sister chromatids join" },
-              { id: "b", text: "End of chromosome" },
-              { id: "c", text: "DNA sequence" },
-              { id: "d", text: "Spindle fibre" },
+              { id: "a", text: "End of chromosome" },
+              { id: "b", text: "DNA sequence" },
+              { id: "c", text: "Spindle fibre" },
+              { id: "d", text: "Point where sister chromatids join" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1609,12 +1609,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Identical copies of a chromosome" },
-              { id: "b", text: "Different chromosomes" },
-              { id: "c", text: "Homologous pairs" },
-              { id: "d", text: "Gametes" },
+              { id: "a", text: "Homologous pairs" },
+              { id: "b", text: "Identical copies of a chromosome" },
+              { id: "c", text: "Gametes" },
+              { id: "d", text: "Different chromosomes" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1642,12 +1642,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Microtubules" },
-              { id: "b", text: "Actin" },
-              { id: "c", text: "DNA" },
-              { id: "d", text: "Proteins only" },
+              { id: "a", text: "DNA" },
+              { id: "b", text: "Proteins only" },
+              { id: "c", text: "Actin" },
+              { id: "d", text: "Microtubules" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1679,9 +1679,9 @@ export const lesson31: Lesson = {
                 id: "a",
                 text: "It reduces chromosome number from diploid to haploid",
               },
-              { id: "b", text: "It reduces cell size" },
+              { id: "b", text: "It reduces protein" },
               { id: "c", text: "It reduces DNA" },
-              { id: "d", text: "It reduces protein" },
+              { id: "d", text: "It reduces cell size" },
             ],
             correctChoiceId: "a",
           },
@@ -1712,9 +1712,9 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Mitosis" },
-              { id: "b", text: "Interphase" },
-              { id: "c", text: "Meiosis I" },
-              { id: "d", text: "Cytokinesis" },
+              { id: "b", text: "Cytokinesis" },
+              { id: "c", text: "Interphase" },
+              { id: "d", text: "Meiosis I" },
             ],
             correctChoiceId: "a",
           },
@@ -1744,12 +1744,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Two sets of chromosomes" },
-              { id: "b", text: "One set" },
-              { id: "c", text: "No chromosomes" },
-              { id: "d", text: "Four sets" },
+              { id: "a", text: "Four sets" },
+              { id: "b", text: "Two sets of chromosomes" },
+              { id: "c", text: "One set" },
+              { id: "d", text: "No chromosomes" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1777,12 +1777,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "One set of chromosomes" },
-              { id: "b", text: "Two sets" },
+              { id: "a", text: "Two sets" },
+              { id: "b", text: "Four sets" },
               { id: "c", text: "No chromosomes" },
-              { id: "d", text: "Four sets" },
+              { id: "d", text: "One set of chromosomes" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1944,12 +1944,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The equatorial plane where chromosomes align" },
+              { id: "a", text: "A centromere" },
               { id: "b", text: "A chromosome" },
               { id: "c", text: "A spindle fibre" },
-              { id: "d", text: "A centromere" },
+              { id: "d", text: "The equatorial plane where chromosomes align" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -2041,12 +2041,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Meiosis" },
-              { id: "b", text: "Mitosis" },
-              { id: "c", text: "Interphase" },
+              { id: "a", text: "Interphase" },
+              { id: "b", text: "Meiosis" },
+              { id: "c", text: "Mitosis" },
               { id: "d", text: "Cytokinesis" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [

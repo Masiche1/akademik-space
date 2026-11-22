@@ -55,9 +55,9 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Hey!" },
+              { id: "a", text: "Yo," },
               { id: "b", text: "Dear Head Teacher," },
-              { id: "c", text: "Yo," },
+              { id: "c", text: "Hey!" },
               { id: "d", text: "Hi there!" },
             ],
             correctChoiceId: "b",
@@ -159,12 +159,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Informal — 'Hey guys!!" },
-              { id: "b", text: "Semi-formal — 'Hello, ... Kind regards'" },
-              { id: "c", text: "Formal — 'Dear Sir/Madam ... Yours faithfully'" },
+              { id: "a", text: "Formal — 'Dear Sir/Madam ... Yours faithfully'" },
+              { id: "b", text: "Informal — 'Hey guys!!" },
+              { id: "c", text: "Semi-formal — 'Hello, ... Kind regards'" },
               { id: "d", text: "Any register is fine" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -186,12 +186,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Dear Friend," },
-              { id: "b", text: "To whom it may concern," },
-              { id: "c", text: "Hey!" },
-              { id: "d", text: "Yours sincerely," },
+              { id: "a", text: "Yours sincerely," },
+              { id: "b", text: "Dear Friend," },
+              { id: "c", text: "To whom it may concern," },
+              { id: "d", text: "Hey!" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -220,11 +220,11 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "M1" },
-              { id: "b", text: "M2" },
-              { id: "c", text: "M3" },
-              { id: "d", text: "All three" },
+              { id: "b", text: "All three" },
+              { id: "c", text: "M2" },
+              { id: "d", text: "M3" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -247,9 +247,9 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "The meaning and content" },
-              { id: "b", text: "The slang words" },
-              { id: "c", text: "The contractions" },
-              { id: "d", text: "The greeting" },
+              { id: "b", text: "The greeting" },
+              { id: "c", text: "The slang words" },
+              { id: "d", text: "The contractions" },
             ],
             correctChoiceId: "a",
           },
@@ -280,11 +280,11 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "It is too long" },
-              { id: "b", text: "The register is wrong — too casual for a head teacher" },
+              { id: "b", text: "It uses too many full forms" },
               { id: "c", text: "It has no meaning" },
-              { id: "d", text: "It uses too many full forms" },
+              { id: "d", text: "The register is wrong — too casual for a head teacher" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -306,8 +306,8 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "I'm gonna be late, sorry!" },
-              { id: "b", text: "I will be late, sorry!" },
+              { id: "a", text: "I will be late, sorry!" },
+              { id: "b", text: "I'm gonna be late, sorry!" },
               { id: "c", text: "I am afraid I will be delayed. I apologise for any inconvenience." },
               { id: "d", text: "Late sorry!" },
             ],
@@ -512,12 +512,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A true fact about a culture" },
-              { id: "b", text: "A fixed, often wrong generalisation about a group" },
-              { id: "c", text: "A language learning method" },
-              { id: "d", text: "A type of festival" },
+              { id: "a", text: "A language learning method" },
+              { id: "b", text: "A true fact about a culture" },
+              { id: "c", text: "A type of festival" },
+              { id: "d", text: "A fixed, often wrong generalisation about a group" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -616,12 +616,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "My friend from Spain loves football." },
-              { id: "b", text: "All Spanish people are lazy." },
+              { id: "a", text: "He speaks three languages." },
+              { id: "b", text: "My friend from Spain loves football." },
               { id: "c", text: "She eats rice for lunch." },
-              { id: "d", text: "He speaks three languages." },
+              { id: "d", text: "All Spanish people are lazy." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -643,12 +643,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Agreeing with everyone" },
-              { id: "b", text: "Trying to understand how someone else feels" },
-              { id: "c", text: "Copying someone's culture" },
+              { id: "a", text: "Trying to understand how someone else feels" },
+              { id: "b", text: "Copying someone's culture" },
+              { id: "c", text: "Agreeing with everyone" },
               { id: "d", text: "Judging other cultures" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -670,12 +670,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "That looks weird." },
-              { id: "b", text: "That's interesting — tell me more about it." },
-              { id: "c", text: "Why do you dress like that?" },
-              { id: "d", text: "You should dress normally." },
+              { id: "a", text: "Why do you dress like that?" },
+              { id: "b", text: "You should dress normally." },
+              { id: "c", text: "That's interesting — tell me more about it." },
+              { id: "d", text: "That looks weird." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -697,12 +697,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Why do you do it like that? (impatiently)" },
-              { id: "b", text: "Is it OK if I...?" },
+              { id: "a", text: "You must change it." },
+              { id: "b", text: "Why do you do it like that? (impatiently)" },
               { id: "c", text: "That's strange." },
-              { id: "d", text: "You must change it." },
+              { id: "d", text: "Is it OK if I...?" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -732,8 +732,8 @@ export const lesson32: Lesson = {
             choices: [
               { id: "a", text: "Nothing — it is a fact" },
               { id: "b", text: "It is a stereotype — it generalises a whole group and ignores individual differences" },
-              { id: "c", text: "It is too polite" },
-              { id: "d", text: "It uses the wrong tense" },
+              { id: "c", text: "It uses the wrong tense" },
+              { id: "d", text: "It is too polite" },
             ],
             correctChoiceId: "b",
           },
@@ -758,11 +758,11 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Assume you already know" },
-              { id: "b", text: "Read stereotypes online" },
-              { id: "c", text: "Ask people from that culture politely and listen" },
-              { id: "d", text: "Judge by one example" },
+              { id: "b", text: "Ask people from that culture politely and listen" },
+              { id: "c", text: "Judge by one example" },
+              { id: "d", text: "Read stereotypes online" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [

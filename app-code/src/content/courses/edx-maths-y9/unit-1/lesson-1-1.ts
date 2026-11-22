@@ -50,12 +50,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$x^{12}$" },
-              { id: "b", text: "$x^{7}$" },
+              { id: "a", text: "$x^{7}$" },
+              { id: "b", text: "$x^{12}$" },
               { id: "c", text: "$2x^{7}$" },
               { id: "d", text: "$x^{1}$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "law", name: "Multiplying powers", statement: "$a^m \\times a^n = a^{m+n}$" }],
@@ -185,9 +185,9 @@ export const lesson11: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$4.5 \\times 10^{4}$" },
-              { id: "b", text: "$45 \\times 10^{3}$" },
+              { id: "b", text: "$0.45 \\times 10^{5}$" },
               { id: "c", text: "$4.5 \\times 10^{5}$" },
-              { id: "d", text: "$0.45 \\times 10^{5}$" },
+              { id: "d", text: "$45 \\times 10^{3}$" },
             ],
             correctChoiceId: "a",
           },

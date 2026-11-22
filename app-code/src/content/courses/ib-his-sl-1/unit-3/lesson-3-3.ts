@@ -88,11 +88,11 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Defend against NATO invasion" },
-              { id: "b", text: "Stop East Germans fleeing to the West" },
+              { id: "b", text: "Control trade between sectors" },
               { id: "c", text: "Separate the two German states economically" },
-              { id: "d", text: "Control trade between sectors" },
+              { id: "d", text: "Stop East Germans fleeing to the West" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -316,12 +316,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "1945" },
-              { id: "b", text: "1950" },
-              { id: "c", text: "1961" },
-              { id: "d", text: "1968" },
+              { id: "a", text: "1961" },
+              { id: "b", text: "1968" },
+              { id: "c", text: "1950" },
+              { id: "d", text: "1945" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -360,11 +360,11 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Western military invasion" },
-              { id: "b", text: "East Germans fleeing to the West" },
-              { id: "c", text: "Soviet troop movements" },
+              { id: "b", text: "Soviet troop movements" },
+              { id: "c", text: "East Germans fleeing to the West" },
               { id: "d", text: "NATO expansion" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -401,15 +401,15 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The main Soviet headquarters" },
               {
-                id: "b",
+                id: "a",
                 text: "The most famous crossing point between East and West Berlin",
               },
+              { id: "b", text: "A prison in East Berlin" },
               { id: "c", text: "A NATO air base" },
-              { id: "d", text: "A prison in East Berlin" },
+              { id: "d", text: "The main Soviet headquarters" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -447,15 +447,15 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "An Allied invasion of East Germany" },
+              { id: "b", text: "A German civil war" },
               {
-                id: "a",
+                id: "c",
                 text: "A Soviet attempt to force the Allies out of West Berlin by cutting supplies",
               },
-              { id: "b", text: "An Allied invasion of East Germany" },
-              { id: "c", text: "A German civil war" },
               { id: "d", text: "A UN peacekeeping operation" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -492,15 +492,15 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It was the world's longest border" },
               {
-                id: "b",
+                id: "a",
                 text: "It physically embodied the division between communist East and capitalist West Europe",
               },
-              { id: "c", text: "It separated two NATO countries" },
-              { id: "d", text: "It was built by the United Nations" },
+              { id: "b", text: "It was built by the United Nations" },
+              { id: "c", text: "It was the world's longest border" },
+              { id: "d", text: "It separated two NATO countries" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -975,12 +975,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Defeat the USSR militarily" },
+              { id: "a", text: "Promote European economic integration" },
               {
                 id: "b",
                 text: "Provide collective defence for Western democracies",
               },
-              { id: "c", text: "Promote European economic integration" },
+              { id: "c", text: "Defeat the USSR militarily" },
               { id: "d", text: "End the Korean War" },
             ],
             correctChoiceId: "b",
@@ -1203,12 +1203,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "1945" },
-              { id: "b", text: "1949" },
-              { id: "c", text: "1955" },
-              { id: "d", text: "1961" },
+              { id: "a", text: "1961" },
+              { id: "b", text: "1955" },
+              { id: "c", text: "1949" },
+              { id: "d", text: "1945" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1244,12 +1244,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "1945" },
-              { id: "b", text: "1949" },
-              { id: "c", text: "1955" },
+              { id: "a", text: "1949" },
+              { id: "b", text: "1955" },
+              { id: "c", text: "1945" },
               { id: "d", text: "1961" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1285,15 +1285,15 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Military aid to Western Europe" },
               {
-                id: "b",
+                id: "a",
                 text: "Economic aid to rebuild Western European economies",
               },
+              { id: "b", text: "Military aid to Western Europe" },
               { id: "c", text: "A military alliance against the USSR" },
               { id: "d", text: "Aid to communist Eastern Europe" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -1330,18 +1330,18 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "A trade embargo" },
+              { id: "b", text: "A Soviet naval blockade" },
               {
-                id: "a",
+                id: "c",
                 text: "A physical wall between East and West Germany",
               },
               {
-                id: "b",
+                id: "d",
                 text: "The ideological and political division between communist Eastern and capitalist Western Europe",
               },
-              { id: "c", text: "A Soviet naval blockade" },
-              { id: "d", text: "A trade embargo" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1381,16 +1381,16 @@ export const lesson33: Lesson = {
             choices: [
               {
                 id: "a",
-                text: "European countries voluntarily chose their alliances",
-              },
-              {
-                id: "b",
                 text: "The post-war settlement and superpower competition created two rival spheres",
               },
-              { id: "c", text: "The UN forced the division" },
-              { id: "d", text: "Germany remained unified" },
+              { id: "b", text: "Germany remained unified" },
+              {
+                id: "c",
+                text: "European countries voluntarily chose their alliances",
+              },
+              { id: "d", text: "The UN forced the division" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

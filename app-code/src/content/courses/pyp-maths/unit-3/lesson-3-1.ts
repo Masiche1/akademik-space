@@ -52,12 +52,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Do you like ice cream?" },
-              { id: "b", text: "What is your favourite fruit — apple, banana or orange?" },
-              { id: "c", text: "Ice cream is great, right?" },
-              { id: "d", text: "How old are you?" },
+              { id: "a", text: "How old are you?" },
+              { id: "b", text: "Ice cream is great, right?" },
+              { id: "c", text: "Do you like ice cream?" },
+              { id: "d", text: "What is your favourite fruit — apple, banana or orange?" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -151,12 +151,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Colours are pretty, aren't they?" },
-              { id: "b", text: "What is your favourite colour — red, blue, green or yellow?" },
-              { id: "c", text: "Do you like colours?" },
-              { id: "d", text: "Blue is the best colour, right?" },
+              { id: "a", text: "What is your favourite colour — red, blue, green or yellow?" },
+              { id: "b", text: "Do you like colours?" },
+              { id: "c", text: "Blue is the best colour, right?" },
+              { id: "d", text: "Colours are pretty, aren't they?" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -195,11 +195,11 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Four" },
-              { id: "b", text: "Five" },
-              { id: "c", text: "Ten" },
+              { id: "b", text: "Ten" },
+              { id: "c", text: "Five" },
               { id: "d", text: "One" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -255,10 +255,10 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It is fine — teachers know best" },
+              { id: "a", text: "Use tally marks instead" },
               { id: "b", text: "Biased sample — ask all pupils the same question" },
               { id: "c", text: "The question is too long" },
-              { id: "d", text: "Use tally marks instead" },
+              { id: "d", text: "It is fine — teachers know best" },
             ],
             correctChoiceId: "b",
           },
@@ -338,12 +338,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Ask only your friends at lunch" },
-              { id: "b", text: "Ask every pupil in the class the same question" },
-              { id: "c", text: "Ask the teacher to guess" },
-              { id: "d", text: "Count only the pupils who say pizza" },
+              { id: "a", text: "Ask every pupil in the class the same question" },
+              { id: "b", text: "Ask only your friends at lunch" },
+              { id: "c", text: "Count only the pupils who say pizza" },
+              { id: "d", text: "Ask the teacher to guess" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -432,12 +432,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Football is the least popular" },
-              { id: "b", text: "Football is the most popular" },
-              { id: "c", text: "Nobody chose football" },
-              { id: "d", text: "The graph is broken" },
+              { id: "a", text: "The graph is broken" },
+              { id: "b", text: "Football is the least popular" },
+              { id: "c", text: "Football is the most popular" },
+              { id: "d", text: "Nobody chose football" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -525,12 +525,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The least popular choice" },
-              { id: "b", text: "The most popular choice" },
-              { id: "c", text: "The category with zero votes" },
-              { id: "d", text: "Nothing useful" },
+              { id: "a", text: "Nothing useful" },
+              { id: "b", text: "The category with zero votes" },
+              { id: "c", text: "The most popular choice" },
+              { id: "d", text: "The least popular choice" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -568,12 +568,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The title of the graph" },
-              { id: "b", text: "How many each picture or symbol stands for" },
-              { id: "c", text: "The total number of people surveyed" },
-              { id: "d", text: "The colours to use" },
+              { id: "a", text: "How many each picture or symbol stands for" },
+              { id: "b", text: "The colours to use" },
+              { id: "c", text: "The title of the graph" },
+              { id: "d", text: "The total number of people surveyed" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -594,12 +594,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "To show pictures of the data" },
-              { id: "b", text: "To compare amounts using bars of different heights" },
+              { id: "a", text: "To compare amounts using bars of different heights" },
+              { id: "b", text: "To measure length" },
               { id: "c", text: "To tell the time" },
-              { id: "d", text: "To measure length" },
+              { id: "d", text: "To show pictures of the data" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -620,12 +620,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Count the pictures and multiply by the key value" },
-              { id: "b", text: "Add up all the pictures on the graph" },
+              { id: "a", text: "Count the categories" },
+              { id: "b", text: "Count the pictures and multiply by the key value" },
               { id: "c", text: "Read the tallest bar" },
-              { id: "d", text: "Count the categories" },
+              { id: "d", text: "Add up all the pictures on the graph" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -647,10 +647,10 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A line graph" },
+              { id: "a", text: "No graph needed" },
               { id: "b", text: "A bar graph or pictograph — categories compared by height/pictures" },
-              { id: "c", text: "A pie chart with 100 slices" },
-              { id: "d", text: "No graph needed" },
+              { id: "c", text: "A line graph" },
+              { id: "d", text: "A pie chart with 100 slices" },
             ],
             correctChoiceId: "b",
           },
@@ -730,12 +730,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$26$" },
-              { id: "b", text: "$36$" },
-              { id: "c", text: "$24$" },
-              { id: "d", text: "$30$" },
+              { id: "a", text: "$24$" },
+              { id: "b", text: "$30$" },
+              { id: "c", text: "$26$" },
+              { id: "d", text: "$36$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -777,12 +777,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "When the numbers are very large — bars can be drawn to any height" },
+              { id: "a", text: "Bar graphs are never better" },
               { id: "b", text: "When you want pictures instead of bars" },
-              { id: "c", text: "Bar graphs are never better" },
-              { id: "d", text: "When there are only two categories" },
+              { id: "c", text: "When there are only two categories" },
+              { id: "d", text: "When the numbers are very large — bars can be drawn to any height" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

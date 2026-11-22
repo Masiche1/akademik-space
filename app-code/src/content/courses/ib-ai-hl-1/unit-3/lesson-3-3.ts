@@ -79,12 +79,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\frac{5\\pi}{6}$" },
-              { id: "b", text: "$\\frac{3\\pi}{4}$" },
-              { id: "c", text: "$\\frac{2\\pi}{3}$" },
-              { id: "d", text: "$\\frac{5\\pi}{3}$" },
+              { id: "a", text: "$\\frac{5\\pi}{3}$" },
+              { id: "b", text: "$\\frac{2\\pi}{3}$" },
+              { id: "c", text: "$\\frac{5\\pi}{6}$" },
+              { id: "d", text: "$\\frac{3\\pi}{4}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -367,11 +367,11 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$30^\\circ$" },
-              { id: "b", text: "$45^\\circ$" },
-              { id: "c", text: "$60^\\circ$" },
-              { id: "d", text: "$90^\\circ$" },
+              { id: "b", text: "$90^\\circ$" },
+              { id: "c", text: "$45^\\circ$" },
+              { id: "d", text: "$60^\\circ$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -412,12 +412,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$s=r\\theta$" },
-              { id: "b", text: "$s=\\frac12r^2\\theta$" },
-              { id: "c", text: "$s=\\frac{r\\theta}{2}$" },
-              { id: "d", text: "$s=\\frac{\\theta}{r}$" },
+              { id: "a", text: "$s=\\frac{r\\theta}{2}$" },
+              { id: "b", text: "$s=\\frac{\\theta}{r}$" },
+              { id: "c", text: "$s=\\frac12r^2\\theta$" },
+              { id: "d", text: "$s=r\\theta$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -837,12 +837,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\sin2\\theta$" },
-              { id: "b", text: "$1$" },
+              { id: "a", text: "$1$" },
+              { id: "b", text: "$0$" },
               { id: "c", text: "$2\\sin\\theta\\cos\\theta$" },
-              { id: "d", text: "$0$" },
+              { id: "d", text: "$\\sin2\\theta$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -876,12 +876,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\cos^2\\theta-\\sin^2\\theta$" },
-              { id: "b", text: "$2\\sin\\theta\\cos\\theta$" },
+              { id: "a", text: "$2\\sin\\theta\\cos\\theta$" },
+              { id: "b", text: "$\\cos^2\\theta-\\sin^2\\theta$" },
               { id: "c", text: "$1+2\\sin^2\\theta$" },
               { id: "d", text: "$\\sin^2\\theta-\\cos^2\\theta$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -920,12 +920,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\pi$ cm" },
-              { id: "b", text: "$2\\pi$ cm" },
-              { id: "c", text: "$6\\pi$ cm" },
-              { id: "d", text: "$3\\pi$ cm" },
+              { id: "a", text: "$3\\pi$ cm" },
+              { id: "b", text: "$\\pi$ cm" },
+              { id: "c", text: "$2\\pi$ cm" },
+              { id: "d", text: "$6\\pi$ cm" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -964,12 +964,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$1$" },
+              { id: "a", text: "$\\frac{1}{2}$" },
               { id: "b", text: "$0$" },
               { id: "c", text: "$\\frac{\\sqrt3}{2}$" },
-              { id: "d", text: "$\\frac{1}{2}$" },
+              { id: "d", text: "$1$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1054,18 +1054,18 @@ export const lesson33: Lesson = {
               },
               {
                 id: "b",
-                text: "$\\begin{pmatrix} 1 & 0 \\\\ 0 & -1 \\end{pmatrix}$",
+                text: "$\\begin{pmatrix} 0 & 1 \\\\ 1 & 0 \\end{pmatrix}$",
               },
               {
                 id: "c",
-                text: "$\\begin{pmatrix} 0 & 1 \\\\ 1 & 0 \\end{pmatrix}$",
+                text: "$\\begin{pmatrix} 1 & 0 \\\\ 0 & -1 \\end{pmatrix}$",
               },
               {
                 id: "d",
                 text: "$\\begin{pmatrix} -1 & 0 \\\\ 0 & -1 \\end{pmatrix}$",
               },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1364,11 +1364,11 @@ export const lesson33: Lesson = {
             choices: [
               {
                 id: "a",
-                text: "$\\begin{pmatrix} 3 & 0 \\\\ 0 & 3 \\end{pmatrix}$",
+                text: "$\\begin{pmatrix} -3 & 0 \\\\ 0 & -3 \\end{pmatrix}$",
               },
               {
                 id: "b",
-                text: "$\\begin{pmatrix} 3 & 0 \\\\ 0 & 1 \\end{pmatrix}$",
+                text: "$\\begin{pmatrix} 3 & 0 \\\\ 0 & 3 \\end{pmatrix}$",
               },
               {
                 id: "c",
@@ -1376,10 +1376,10 @@ export const lesson33: Lesson = {
               },
               {
                 id: "d",
-                text: "$\\begin{pmatrix} -3 & 0 \\\\ 0 & -3 \\end{pmatrix}$",
+                text: "$\\begin{pmatrix} 3 & 0 \\\\ 0 & 1 \\end{pmatrix}$",
               },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1420,12 +1420,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$(2,-5)$" },
-              { id: "b", text: "$(-2,5)$" },
-              { id: "c", text: "$(5,2)$" },
-              { id: "d", text: "$(-2,-5)$" },
+              { id: "a", text: "$(5,2)$" },
+              { id: "b", text: "$(2,-5)$" },
+              { id: "c", text: "$(-2,-5)$" },
+              { id: "d", text: "$(-2,5)$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1861,9 +1861,9 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$10$" },
-              { id: "b", text: "$14$" },
-              { id: "c", text: "$11$" },
-              { id: "d", text: "$-10$" },
+              { id: "b", text: "$-10$" },
+              { id: "c", text: "$14$" },
+              { id: "d", text: "$11$" },
             ],
             correctChoiceId: "a",
           },
@@ -1903,12 +1903,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It preserves orientation, like a rotation." },
-              { id: "b", text: "It reverses orientation, like a reflection." },
+              { id: "a", text: "It is not invertible." },
+              { id: "b", text: "It preserves orientation, like a rotation." },
               { id: "c", text: "It has zero area scale factor." },
-              { id: "d", text: "It is not invertible." },
+              { id: "d", text: "It reverses orientation, like a reflection." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1951,22 +1951,22 @@ export const lesson33: Lesson = {
             choices: [
               {
                 id: "a",
-                text: "$\\begin{pmatrix} -1 & 0 \\\\ 0 & 1 \\end{pmatrix}$",
-              },
-              {
-                id: "b",
-                text: "$\\begin{pmatrix} -1 & 0 \\\\ 0 & -1 \\end{pmatrix}$",
-              },
-              {
-                id: "c",
                 text: "$\\begin{pmatrix} 1 & 0 \\\\ 0 & -1 \\end{pmatrix}$",
               },
               {
-                id: "d",
+                id: "b",
+                text: "$\\begin{pmatrix} -1 & 0 \\\\ 0 & 1 \\end{pmatrix}$",
+              },
+              {
+                id: "c",
                 text: "$\\begin{pmatrix} 0 & -1 \\\\ 1 & 0 \\end{pmatrix}$",
               },
+              {
+                id: "d",
+                text: "$\\begin{pmatrix} -1 & 0 \\\\ 0 & -1 \\end{pmatrix}$",
+              },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -2006,12 +2006,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$BA$" },
-              { id: "b", text: "$AB$" },
-              { id: "c", text: "$A+B$" },
-              { id: "d", text: "$B^{-1}A$" },
+              { id: "a", text: "$A+B$" },
+              { id: "b", text: "$BA$" },
+              { id: "c", text: "$B^{-1}A$" },
+              { id: "d", text: "$AB$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

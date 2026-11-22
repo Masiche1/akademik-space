@@ -55,12 +55,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$3x+2$" },
-              { id: "b", text: "$3x+6$" },
-              { id: "c", text: "$x+6$" },
-              { id: "d", text: "$3x$" },
+              { id: "a", text: "$x+6$" },
+              { id: "b", text: "$3x+2$" },
+              { id: "c", text: "$3x$" },
+              { id: "d", text: "$3x+6$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -82,12 +82,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "17" },
+              { id: "a", text: "35" },
               { id: "b", text: "11" },
-              { id: "c", text: "35" },
+              { id: "c", text: "17" },
               { id: "d", text: "8" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -110,12 +110,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\frac{2x+3}{2x+2}$" },
-              { id: "b", text: "$\\frac{2x+3}{2x+4}$" },
-              { id: "c", text: "$\\frac{x}{2x+2}$" },
+              { id: "a", text: "$\\frac{x}{2x+2}$" },
+              { id: "b", text: "$\\frac{2x+3}{2x+2}$" },
+              { id: "c", text: "$\\frac{2x+3}{2x+4}$" },
               { id: "d", text: "$\\frac{2x+3}{x-1}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -170,12 +170,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$2x+1$" },
-              { id: "b", text: "$2x+2$" },
+              { id: "a", text: "$2x+2$" },
+              { id: "b", text: "$2x+1$" },
               { id: "c", text: "$x+2$" },
               { id: "d", text: "$2x$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -214,12 +214,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$(x+3)^2$" },
-              { id: "b", text: "$x^2+3$" },
+              { id: "a", text: "$x^2+3$" },
+              { id: "b", text: "$(x+3)^2$" },
               { id: "c", text: "$(x^2)+3$ simplified as $x^2+3x+3$" },
               { id: "d", text: "$x^2+9$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -260,12 +260,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\frac{1}{x+1}$" },
-              { id: "b", text: "$\\frac{1}{x}+1$" },
+              { id: "a", text: "$\\frac{1}{x}+1$" },
+              { id: "b", text: "$\\frac{1}{x-1}$" },
               { id: "c", text: "$\\frac{x+1}{x}$" },
-              { id: "d", text: "$\\frac{1}{x-1}$" },
+              { id: "d", text: "$\\frac{1}{x+1}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -306,12 +306,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$2x+1$" },
-              { id: "b", text: "$2x-1$" },
+              { id: "a", text: "$2x+5$" },
+              { id: "b", text: "$2x+1$" },
               { id: "c", text: "$\\frac{x-1}{2}+3$" },
-              { id: "d", text: "$2x+5$" },
+              { id: "d", text: "$2x-1$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -443,12 +443,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$x=6$ or $x=-2$" },
-              { id: "b", text: "$x=4$ only" },
-              { id: "c", text: "$x=18$ or $x=14$" },
+              { id: "a", text: "$x=18$ or $x=14$" },
+              { id: "b", text: "$x=6$ or $x=-2$" },
+              { id: "c", text: "$x=4$ only" },
               { id: "d", text: "$x=6$ only" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -504,12 +504,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$x+5$" },
-              { id: "b", text: "$5-x$" },
-              { id: "c", text: "$\\frac{x}{5}$" },
-              { id: "d", text: "$x-5$" },
+              { id: "a", text: "$x-5$" },
+              { id: "b", text: "$\\frac{x}{5}$" },
+              { id: "c", text: "$x+5$" },
+              { id: "d", text: "$5-x$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -531,12 +531,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\frac{x}{4}$" },
+              { id: "a", text: "$\\frac{4}{x}$" },
               { id: "b", text: "$4x$" },
               { id: "c", text: "$x-4$" },
-              { id: "d", text: "$\\frac{4}{x}$" },
+              { id: "d", text: "$\\frac{x}{4}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -559,12 +559,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$2x-3$" },
-              { id: "b", text: "$\\frac{x-3}{2}$" },
+              { id: "a", text: "$\\frac{x-3}{2}$" },
+              { id: "b", text: "$2x-3$" },
               { id: "c", text: "$2x+3$" },
               { id: "d", text: "$\\frac{x}{2}-3$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -619,12 +619,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$x-7$" },
-              { id: "b", text: "$x+7$" },
-              { id: "c", text: "$7-x$" },
-              { id: "d", text: "$\\frac{x}{7}$" },
+              { id: "a", text: "$7-x$" },
+              { id: "b", text: "$x-7$" },
+              { id: "c", text: "$\\frac{x}{7}$" },
+              { id: "d", text: "$x+7$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -663,12 +663,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$5-x$" },
-              { id: "b", text: "$x-5$" },
+              { id: "a", text: "$x-5$" },
+              { id: "b", text: "$\\frac{x}{5}$" },
               { id: "c", text: "$\\frac{5}{x}$" },
-              { id: "d", text: "$\\frac{x}{5}$" },
+              { id: "d", text: "$5-x$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -709,12 +709,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$4x-8$" },
-              { id: "b", text: "$4x+8$" },
+              { id: "a", text: "$4x+8$" },
+              { id: "b", text: "$\\frac{x-2}{4}$" },
               { id: "c", text: "$4(x-2)$" },
-              { id: "d", text: "$\\frac{x-2}{4}$" },
+              { id: "d", text: "$4x-8$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -755,12 +755,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$3x+1$" },
-              { id: "b", text: "$3x-1$" },
-              { id: "c", text: "$\\frac{x+1}{3}$" },
+              { id: "a", text: "$3x-1$" },
+              { id: "b", text: "$\\frac{x+1}{3}$" },
+              { id: "c", text: "$3x+1$" },
               { id: "d", text: "$3(x-1)$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -803,12 +803,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It is not one-to-one: $x$ and $-x$ give the same output" },
+              { id: "a", text: "It is not linear" },
               { id: "b", text: "It has a maximum value" },
-              { id: "c", text: "Its range is negative" },
-              { id: "d", text: "It is not linear" },
+              { id: "c", text: "It is not one-to-one: $x$ and $-x$ give the same output" },
+              { id: "d", text: "Its range is negative" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -861,12 +861,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$x\\ge0$" },
+              { id: "a", text: "All real $x$" },
               { id: "b", text: "$x\\le0$ only" },
-              { id: "c", text: "All real $x$" },
+              { id: "c", text: "$x\\ge0$" },
               { id: "d", text: "$x\\ne0$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

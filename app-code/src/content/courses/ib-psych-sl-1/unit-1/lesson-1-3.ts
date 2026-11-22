@@ -53,12 +53,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Myelin sheath" },
-              { id: "b", text: "Node of Ranvier" },
-              { id: "c", text: "Synapse" },
-              { id: "d", text: "Dendrite" },
+              { id: "a", text: "Dendrite" },
+              { id: "b", text: "Synapse" },
+              { id: "c", text: "Node of Ranvier" },
+              { id: "d", text: "Myelin sheath" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -152,12 +152,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Axon" },
-              { id: "b", text: "Dendrites" },
-              { id: "c", text: "Myelin sheath" },
-              { id: "d", text: "Axon terminals" },
+              { id: "a", text: "Myelin sheath" },
+              { id: "b", text: "Axon" },
+              { id: "c", text: "Axon terminals" },
+              { id: "d", text: "Dendrites" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -180,10 +180,10 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Continuous slow conduction" },
+              { id: "a", text: "Storage of the cell nucleus" },
               { id: "b", text: "Saltatory conduction between nodes of Ranvier" },
               { id: "c", text: "Release of neurotransmitters" },
-              { id: "d", text: "Storage of the cell nucleus" },
+              { id: "d", text: "Continuous slow conduction" },
             ],
             correctChoiceId: "b",
           },
@@ -208,12 +208,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "All nerves outside the brain" },
-              { id: "b", text: "The brain and spinal cord" },
-              { id: "c", text: "Only the cerebral cortex" },
-              { id: "d", text: "Sensory and motor neurons only" },
+              { id: "a", text: "The brain and spinal cord" },
+              { id: "b", text: "Sensory and motor neurons only" },
+              { id: "c", text: "All nerves outside the brain" },
+              { id: "d", text: "Only the cerebral cortex" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -236,12 +236,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "From receptors to the spinal cord" },
-              { id: "b", text: "From the CNS to muscles or glands" },
-              { id: "c", text: "Between sensory and motor neurons only" },
-              { id: "d", text: "From one brain hemisphere to the other" },
+              { id: "a", text: "From the CNS to muscles or glands" },
+              { id: "b", text: "From one brain hemisphere to the other" },
+              { id: "c", text: "From receptors to the spinal cord" },
+              { id: "d", text: "Between sensory and motor neurons only" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -264,10 +264,10 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The postsynaptic neuron firing" },
+              { id: "a", text: "Receptors binding on the presynaptic membrane" },
               { id: "b", text: "An action potential reaching the axon terminal" },
-              { id: "c", text: "Receptors binding on the presynaptic membrane" },
-              { id: "d", text: "The myelin sheath breaking down" },
+              { id: "c", text: "The myelin sheath breaking down" },
+              { id: "d", text: "The postsynaptic neuron firing" },
             ],
             correctChoiceId: "b",
           },
@@ -292,12 +292,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Decrease because inhibition is increased" },
-              { id: "b", text: "Increase because inhibitory signalling is reduced" },
-              { id: "c", text: "Stop completely" },
-              { id: "d", text: "Remain unchanged" },
+              { id: "a", text: "Stop completely" },
+              { id: "b", text: "Remain unchanged" },
+              { id: "c", text: "Increase because inhibitory signalling is reduced" },
+              { id: "d", text: "Decrease because inhibition is increased" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -488,12 +488,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Frontal lobe" },
-              { id: "b", text: "Parietal lobe" },
-              { id: "c", text: "Temporal lobe" },
-              { id: "d", text: "Occipital lobe" },
+              { id: "a", text: "Parietal lobe" },
+              { id: "b", text: "Occipital lobe" },
+              { id: "c", text: "Frontal lobe" },
+              { id: "d", text: "Temporal lobe" },
             ],
-            correctChoiceId: "d",
+            correctChoiceIb: "d",
           },
           markscheme: {
             principles: [
@@ -587,12 +587,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Occipital lobe" },
-              { id: "b", text: "Parietal lobe" },
-              { id: "c", text: "Frontal lobe" },
-              { id: "d", text: "Temporal lobe" },
+              { id: "a", text: "Frontal lobe" },
+              { id: "b", text: "Temporal lobe" },
+              { id: "c", text: "Parietal lobe" },
+              { id: "d", text: "Occipital lobe" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -616,9 +616,9 @@ export const lesson13: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Parietal lobe" },
-              { id: "b", text: "Occipital lobe" },
-              { id: "c", text: "Temporal lobe" },
-              { id: "d", text: "Frontal lobe" },
+              { id: "b", text: "Frontal lobe" },
+              { id: "c", text: "Occipital lobe" },
+              { id: "d", text: "Temporal lobe" },
             ],
             correctChoiceId: "a",
           },
@@ -643,12 +643,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Frontal lobe" },
-              { id: "b", text: "Temporal lobe" },
-              { id: "c", text: "Occipital lobe" },
+              { id: "a", text: "Temporal lobe" },
+              { id: "b", text: "Occipital lobe" },
+              { id: "c", text: "Frontal lobe" },
               { id: "d", text: "Cerebellum" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -671,12 +671,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Centre for regulating body temperature" },
-              { id: "b", text: "Relay station for sensory signals to the cortex" },
-              { id: "c", text: "Structure essential for forming new memories" },
-              { id: "d", text: "Area controlling voluntary movement" },
+              { id: "a", text: "Structure essential for forming new memories" },
+              { id: "b", text: "Centre for regulating body temperature" },
+              { id: "c", text: "Area controlling voluntary movement" },
+              { id: "d", text: "Relay station for sensory signals to the cortex" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -700,9 +700,9 @@ export const lesson13: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Cerebellum" },
-              { id: "b", text: "Amygdala" },
-              { id: "c", text: "Hippocampus" },
-              { id: "d", text: "Hypothalamus" },
+              { id: "b", text: "Hippocampus" },
+              { id: "c", text: "Hypothalamus" },
+              { id: "d", text: "Amygdala" },
             ],
             correctChoiceId: "a",
           },

@@ -50,12 +50,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\mathbf{k}$" },
-              { id: "b", text: "$-\\mathbf{k}$" },
+              { id: "a", text: "$-\\mathbf{k}$" },
+              { id: "b", text: "$\\mathbf{i}$" },
               { id: "c", text: "$\\mathbf{0}$" },
-              { id: "d", text: "$\\mathbf{i}$" },
+              { id: "d", text: "$\\mathbf{k}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Cross product", statement: "$\\mathbf{i}\\times\\mathbf{j}=\\mathbf{k}$ (cyclic)." }],
@@ -172,8 +172,8 @@ export const lesson32: Lesson = {
             choices: [
               { id: "a", text: "Circle centre $2i$ radius $3$" },
               { id: "b", text: "Line $x=2$" },
-              { id: "c", text: "Circle centre $0$ radius $3$" },
-              { id: "d", text: "Ray from $2i$" },
+              { id: "c", text: "Ray from $2i$" },
+              { id: "d", text: "Circle centre $0$ radius $3$" },
             ],
             correctChoiceId: "a",
           },

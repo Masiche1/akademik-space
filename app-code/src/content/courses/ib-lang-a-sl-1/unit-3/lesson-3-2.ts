@@ -87,13 +87,13 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A negative opinion about a text" },
+              { id: "a", text: "A summary of the plot" },
               {
                 id: "b",
                 text: "A lens or set of questions that shapes interpretation",
               },
-              { id: "c", text: "The author's stated intention" },
-              { id: "d", text: "A summary of the plot" },
+              { id: "c", text: "A negative opinion about a text" },
+              { id: "d", text: "The author's stated intention" },
             ],
             correctChoiceId: "b",
           },
@@ -325,15 +325,15 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Is the text beautiful?" },
               {
-                id: "b",
+                id: "a",
                 text: "How does gender shape representation and power in the text?",
               },
+              { id: "b", text: "Is the text beautiful?" },
               { id: "c", text: "What is the plot?" },
               { id: "d", text: "Who published the text?" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -374,15 +374,15 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The chairman's expensive car" },
               {
-                id: "b",
+                id: "a",
                 text: "Power operating through atmosphere and humiliation rather than decisions — authority maintained by diminishing others.",
               },
-              { id: "c", text: "The meeting was simply boring" },
-              { id: "d", text: "Women were absent from the room" },
+              { id: "b", text: "The meeting was simply boring" },
+              { id: "c", text: "Women were absent from the room" },
+              { id: "d", text: "The chairman's expensive car" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -423,15 +423,15 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Is the text set in a colony?" },
               {
-                id: "b",
+                id: "a",
                 text: "Whose culture is centred, whose voice is silenced, and what does the text assume about 'civilisation'?",
               },
-              { id: "c", text: "Does the text have a happy ending?" },
-              { id: "d", text: "What year was the text written?" },
+              { id: "b", text: "What year was the text written?" },
+              { id: "c", text: "Is the text set in a colony?" },
+              { id: "d", text: "Does the text have a happy ending?" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -471,13 +471,13 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The mission was a kind institution" },
+              { id: "a", text: "The children enjoyed the English songs" },
               {
                 id: "b",
                 text: "Education as cultural replacement — 'white as an apology' admits harm, and forgotten names mark erasure.",
               },
-              { id: "c", text: "The children enjoyed the English songs" },
-              { id: "d", text: "The hill was difficult to climb" },
+              { id: "c", text: "The hill was difficult to climb" },
+              { id: "d", text: "The mission was a kind institution" },
             ],
             correctChoiceId: "b",
           },
@@ -526,15 +526,15 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              {
-                id: "a",
-                text: "The letter is contradictory and therefore weak",
-              },
+              { id: "a", text: "The soldier secretly hates his country" },
               {
                 id: "b",
                 text: "The letter sustains two readings — public duty and private protection — and the tension between them is the text's achievement.",
               },
-              { id: "c", text: "The soldier secretly hates his country" },
+              {
+                id: "c",
+                text: "The letter is contradictory and therefore weak",
+              },
               { id: "d", text: "The daughter is ungrateful" },
             ],
             correctChoiceId: "b",
@@ -578,15 +578,15 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Choosing the perspective you like best" },
               {
-                id: "b",
+                id: "a",
                 text: "Acknowledging a text can sustain several readings and reporting them without forcing a single verdict",
               },
-              { id: "c", text: "Reading the text twice" },
-              { id: "d", text: "Ignoring historical context" },
+              { id: "b", text: "Choosing the perspective you like best" },
+              { id: "c", text: "Ignoring historical context" },
+              { id: "d", text: "Reading the text twice" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -1087,14 +1087,14 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "The poem is very beautiful." },
-              { id: "b", text: "The poem uses lots of metaphors." },
               {
-                id: "c",
+                id: "b",
                 text: "The poem's refrain enacts the obsession it describes, though its formal perfection risks emotional distance.",
               },
+              { id: "c", text: "The poem uses lots of metaphors." },
               { id: "d", text: "The poem is about grief." },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1316,13 +1316,13 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Is always longer" },
+              { id: "a", text: "Uses more complicated vocabulary" },
               {
                 id: "b",
                 text: "Makes a judgement supported by evidence about a text's achievements and limitations",
               },
-              { id: "c", text: "Summarises the plot" },
-              { id: "d", text: "Uses more complicated vocabulary" },
+              { id: "c", text: "Is always longer" },
+              { id: "d", text: "Summarises the plot" },
             ],
             correctChoiceId: "b",
           },
@@ -1364,15 +1364,15 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It is a nice poem." },
+              { id: "a", text: "It is about distance." },
+              { id: "b", text: "It is a nice poem." },
+              { id: "c", text: "It has five short lines." },
               {
-                id: "b",
+                id: "d",
                 text: "The poem's unnamed 'country' between speaker and listener converts distance into geography — a powerful image — though its abstraction may resist concrete feeling.",
               },
-              { id: "c", text: "It has five short lines." },
-              { id: "d", text: "It is about distance." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1417,8 +1417,8 @@ export const lesson32: Lesson = {
                 id: "b",
                 text: "What it cannot do or does not acknowledge — a blind spot in its vision",
               },
-              { id: "c", text: "Its price" },
-              { id: "d", text: "Its difficulty" },
+              { id: "c", text: "Its difficulty" },
+              { id: "d", text: "Its price" },
             ],
             correctChoiceId: "b",
           },
@@ -1463,16 +1463,16 @@ export const lesson32: Lesson = {
             choices: [
               {
                 id: "a",
-                text: "It is persuasive because it escalates from 'ask' to 'beg' and builds urgency through 'suffered enough' and 'time for patience is over' — though 'suffered' is never specified, so the emotion floats free of evidence.",
+                text: "It is weak because speeches should use statistics",
               },
               {
                 id: "b",
-                text: "It is weak because speeches should use statistics",
+                text: "It is persuasive because it escalates from 'ask' to 'beg' and builds urgency through 'suffered enough' and 'time for patience is over' — though 'suffered' is never specified, so the emotion floats free of evidence.",
               },
               { id: "c", text: "It is effective because it is short" },
               { id: "d", text: "It fails because 'beg' is informal" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1518,15 +1518,15 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It is a cliché" },
+              { id: "a", text: "It is confusing and should be cut" },
+              { id: "b", text: "It is boring because nothing happens" },
               {
-                id: "b",
+                id: "c",
                 text: "The paradox — perfection as the sign of wrongness — creates productive unease and an immediate narrative engine, though it risks telling the reader what to feel rather than earning the suspicion.",
               },
-              { id: "c", text: "It is confusing and should be cut" },
-              { id: "d", text: "It is boring because nothing happens" },
+              { id: "d", text: "It is a cliché" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1566,15 +1566,15 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Praising everything equally" },
               {
-                id: "b",
+                id: "a",
                 text: "Weighing strengths and limitations with evidence",
               },
-              { id: "c", text: "Avoiding any judgement" },
-              { id: "d", text: "Adopting the author's own view" },
+              { id: "b", text: "Adopting the author's own view" },
+              { id: "c", text: "Praising everything equally" },
+              { id: "d", text: "Avoiding any judgement" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -1867,18 +1867,18 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It is a cliché that should be removed" },
               {
-                id: "b",
+                id: "a",
                 text: "It breaks the letter's surface — the form literally contains the truth the sentences deny — though the device is familiar and risks an engineered confession.",
               },
+              { id: "b", text: "It is a cliché that should be removed" },
               { id: "c", text: "It proves the writer is dishonest" },
               {
                 id: "d",
                 text: "It has no effect because readers skip parentheses",
               },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

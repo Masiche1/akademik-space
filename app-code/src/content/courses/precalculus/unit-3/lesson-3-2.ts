@@ -53,12 +53,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$-\\dfrac{\\pi}{6}$" },
-              { id: "b", text: "$\\dfrac{\\pi}{6}$" },
-              { id: "c", text: "$\\dfrac{11\\pi}{6}$" },
-              { id: "d", text: "$\\dfrac{7\\pi}{6}$" },
+              { id: "a", text: "$\\dfrac{\\pi}{6}$" },
+              { id: "b", text: "$\\dfrac{11\\pi}{6}$" },
+              { id: "c", text: "$\\dfrac{7\\pi}{6}$" },
+              { id: "d", text: "$-\\dfrac{\\pi}{6}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -195,12 +195,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\dfrac{\\pi}{6}$ and $\\dfrac{5\\pi}{6}$" },
-              { id: "b", text: "$\\dfrac{\\pi}{6}$ and $\\dfrac{11\\pi}{6}$" },
-              { id: "c", text: "$\\dfrac{\\pi}{3}$ and $\\dfrac{2\\pi}{3}$" },
-              { id: "d", text: "$\\dfrac{\\pi}{6}$ and $\\dfrac{7\\pi}{6}$" },
+              { id: "a", text: "$\\dfrac{\\pi}{6}$ and $\\dfrac{11\\pi}{6}$" },
+              { id: "b", text: "$\\dfrac{\\pi}{3}$ and $\\dfrac{2\\pi}{3}$" },
+              { id: "c", text: "$\\dfrac{\\pi}{6}$ and $\\dfrac{7\\pi}{6}$" },
+              { id: "d", text: "$\\dfrac{\\pi}{6}$ and $\\dfrac{5\\pi}{6}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

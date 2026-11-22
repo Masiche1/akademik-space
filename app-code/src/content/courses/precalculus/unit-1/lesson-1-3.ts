@@ -50,11 +50,11 @@ export const lesson13: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Vertical asymptote $x=3$ and a hole at $x=-2$." },
-              { id: "b", text: "A hole at $x=3$ and vertical asymptote $x=-2$." },
-              { id: "c", text: "Vertical asymptotes at $x=3$ and $x=-2$, with no hole." },
-              { id: "d", text: "A hole at $x=-2$ and no vertical asymptote." },
+              { id: "b", text: "Vertical asymptotes at $x=3$ and $x=-2$, with no hole." },
+              { id: "c", text: "A hole at $x=-2$ and no vertical asymptote." },
+              { id: "d", text: "A hole at $x=3$ and vertical asymptote $x=-2$." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -188,12 +188,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$y=3$" },
-              { id: "b", text: "$y=1$" },
-              { id: "c", text: "$y=0$" },
+              { id: "a", text: "$y=1$" },
+              { id: "b", text: "$y=0$" },
+              { id: "c", text: "$y=3$" },
               { id: "d", text: "$x=0$" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [

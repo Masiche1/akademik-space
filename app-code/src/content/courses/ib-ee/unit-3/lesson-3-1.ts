@@ -82,12 +82,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Present all the evidence" },
-              { id: "b", text: "State the RQ, context and thesis" },
-              { id: "c", text: "Summarise the conclusion" },
-              { id: "d", text: "List all sources" },
+              { id: "a", text: "List all sources" },
+              { id: "b", text: "Present all the evidence" },
+              { id: "c", text: "State the RQ, context and thesis" },
+              { id: "d", text: "Summarise the conclusion" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -300,12 +300,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "About 10%" },
+              { id: "a", text: "About 80%" },
               { id: "b", text: "About 50%" },
-              { id: "c", text: "About 80%" },
-              { id: "d", text: "About 95%" },
+              { id: "c", text: "About 95%" },
+              { id: "d", text: "About 10%" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -341,11 +341,11 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "A vague statement of intent" },
-              { id: "b", text: "A specific, arguable position" },
-              { id: "c", text: "A summary of all sources used" },
-              { id: "d", text: "The research question repeated verbatim" },
+              { id: "b", text: "The research question repeated verbatim" },
+              { id: "c", text: "A specific, arguable position" },
+              { id: "d", text: "A summary of all sources used" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -425,12 +425,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The research question" },
-              { id: "b", text: "Brief context for the topic" },
-              { id: "c", text: "Extended statistical analysis and quotations" },
-              { id: "d", text: "A thesis statement" },
+              { id: "a", text: "Extended statistical analysis and quotations" },
+              { id: "b", text: "The research question" },
+              { id: "c", text: "A thesis statement" },
+              { id: "d", text: "Brief context for the topic" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -470,14 +470,14 @@ export const lesson31: Lesson = {
                 id: "a",
                 text: "Strictly chronologically regardless of the question",
               },
+              { id: "b", text: "One paragraph per source consulted" },
               {
-                id: "b",
+                id: "c",
                 text: "By themes or arguments that serve the research question",
               },
-              { id: "c", text: "Alphabetically by source author" },
-              { id: "d", text: "One paragraph per source consulted" },
+              { id: "d", text: "Alphabetically by source author" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -516,15 +516,15 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Acceptable if it is well evidenced" },
               {
-                id: "b",
+                id: "a",
                 text: "Inappropriate — conclusions synthesise rather than argue new ground",
               },
+              { id: "b", text: "Acceptable if it is well evidenced" },
               { id: "c", text: "Required for the highest marks" },
               { id: "d", text: "Only a problem in scientific essays" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -1012,12 +1012,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Repeat the evidence" },
-              { id: "b", text: "Explain the significance of the evidence" },
-              { id: "c", text: "List more sources" },
-              { id: "d", text: "Summarise the introduction" },
+              { id: "a", text: "Summarise the introduction" },
+              { id: "b", text: "Repeat the evidence" },
+              { id: "c", text: "Explain the significance of the evidence" },
+              { id: "d", text: "List more sources" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1236,12 +1236,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A quotation" },
-              { id: "b", text: "A topic sentence" },
-              { id: "c", text: "A citation" },
-              { id: "d", text: "A transition word" },
+              { id: "a", text: "A transition word" },
+              { id: "b", text: "A quotation" },
+              { id: "c", text: "A topic sentence" },
+              { id: "d", text: "A citation" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1279,13 +1279,13 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Listing more evidence" },
+              { id: "a", text: "Repeating the introduction" },
               {
                 id: "b",
                 text: "Explaining why the evidence matters for the argument",
               },
               { id: "c", text: "Quoting sources at length" },
-              { id: "d", text: "Repeating the introduction" },
+              { id: "d", text: "Listing more evidence" },
             ],
             correctChoiceId: "b",
           },
@@ -1372,12 +1372,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A topic sentence" },
-              { id: "b", text: "Analysis" },
-              { id: "c", text: "Transitions" },
+              { id: "a", text: "Transitions" },
+              { id: "b", text: "A topic sentence" },
+              { id: "c", text: "Analysis" },
               { id: "d", text: "Citations" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1414,11 +1414,11 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Increase the word count" },
-              { id: "b", text: "Connect ideas and show logical relationships" },
-              { id: "c", text: "Replace the need for topic sentences" },
+              { id: "b", text: "Replace the need for topic sentences" },
+              { id: "c", text: "Connect ideas and show logical relationships" },
               { id: "d", text: "Cite sources correctly" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1456,15 +1456,15 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The study found that X occurred." },
               {
-                id: "b",
+                id: "a",
                 text: "The study found X, which suggests Y because the mechanism implies Z.",
               },
+              { id: "b", text: "The study found that X occurred." },
               { id: "c", text: "According to Smith, X occurred in 1998." },
               { id: "d", text: "Many studies exist on the topic of X." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

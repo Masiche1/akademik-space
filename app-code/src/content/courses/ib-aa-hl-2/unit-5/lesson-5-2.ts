@@ -85,8 +85,8 @@ export const lesson52: Lesson = {
             choices: [
               { id: "a", text: "$2\\sec^2 2x$" },
               { id: "b", text: "$\\sec^2 2x$" },
-              { id: "c", text: "$2\\sec 2x\\tan 2x$" },
-              { id: "d", text: "$-2\\csc^2 2x$" },
+              { id: "c", text: "$-2\\csc^2 2x$" },
+              { id: "d", text: "$2\\sec 2x\\tan 2x$" },
             ],
             correctChoiceId: "a",
           },
@@ -366,9 +366,9 @@ export const lesson52: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$\\sec x\\tan x$" },
-              { id: "b", text: "$-\\sec x\\tan x$" },
+              { id: "b", text: "$\\csc x\\cot x$" },
               { id: "c", text: "$\\sec^2 x$" },
-              { id: "d", text: "$\\csc x\\cot x$" },
+              { id: "d", text: "$-\\sec x\\tan x$" },
             ],
             correctChoiceId: "a",
           },
@@ -592,12 +592,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$-\\csc^2 x$" },
-              { id: "b", text: "$\\csc^2 x$" },
-              { id: "c", text: "$-\\sec^2 x$" },
-              { id: "d", text: "$\\tan^2 x$" },
+              { id: "a", text: "$\\tan^2 x$" },
+              { id: "b", text: "$-\\sec^2 x$" },
+              { id: "c", text: "$-\\csc^2 x$" },
+              { id: "d", text: "$\\csc^2 x$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -842,12 +842,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$-\\csc x\\cot x$" },
+              { id: "a", text: "$\\sec x\\tan x$" },
               { id: "b", text: "$\\csc x\\cot x$" },
               { id: "c", text: "$-\\csc^2 x$" },
-              { id: "d", text: "$\\sec x\\tan x$" },
+              { id: "d", text: "$-\\csc x\\cot x$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1151,12 +1151,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$-\\dfrac34$" },
-              { id: "b", text: "$\\dfrac34$" },
-              { id: "c", text: "$-\\dfrac43$" },
-              { id: "d", text: "$\\dfrac43$" },
+              { id: "a", text: "$\\dfrac43$" },
+              { id: "b", text: "$-\\dfrac43$" },
+              { id: "c", text: "$\\dfrac34$" },
+              { id: "d", text: "$-\\dfrac34$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1444,12 +1444,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$0$" },
-              { id: "b", text: "undefined" },
-              { id: "c", text: "$1$" },
-              { id: "d", text: "$-1$" },
+              { id: "a", text: "undefined" },
+              { id: "b", text: "$0$" },
+              { id: "c", text: "$-1$" },
+              { id: "d", text: "$1$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1687,9 +1687,9 @@ export const lesson52: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$3y^2\\dfrac{dy}{dx}$" },
-              { id: "b", text: "$3y^2$" },
+              { id: "b", text: "$3x^2$" },
               { id: "c", text: "$y^3\\dfrac{dy}{dx}$" },
-              { id: "d", text: "$3x^2$" },
+              { id: "d", text: "$3y^2$" },
             ],
             correctChoiceId: "a",
           },

@@ -57,11 +57,11 @@ export const lesson22: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Cats I like" },
-              { id: "b", text: "Like I cats" },
-              { id: "c", text: "I like cats" },
-              { id: "d", text: "Cats like I" },
+              { id: "b", text: "I like cats" },
+              { id: "c", text: "Cats like I" },
+              { id: "d", text: "Like I cats" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -158,12 +158,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Runs the dog fast." },
-              { id: "b", text: "The dog runs fast." },
-              { id: "c", text: "Dog the fast runs." },
-              { id: "d", text: "Fast runs the dog." },
+              { id: "a", text: "Dog the fast runs." },
+              { id: "b", text: "Runs the dog fast." },
+              { id: "c", text: "Fast runs the dog." },
+              { id: "d", text: "The dog runs fast." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -185,12 +185,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "After the noun" },
-              { id: "b", text: "Before the noun" },
-              { id: "c", text: "At the end of the sentence" },
-              { id: "d", text: "Before the verb only" },
+              { id: "a", text: "Before the noun" },
+              { id: "b", text: "After the noun" },
+              { id: "c", text: "Before the verb only" },
+              { id: "d", text: "At the end of the sentence" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -254,12 +254,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "She are tall." },
-              { id: "b", text: "She is tall." },
+              { id: "a", text: "She is tall." },
+              { id: "b", text: "She be tall." },
               { id: "c", text: "She am tall." },
-              { id: "d", text: "She be tall." },
+              { id: "d", text: "She are tall." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -281,10 +281,10 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Do you like cats." },
+              { id: "a", text: "Do You Like Cats?" },
               { id: "b", text: "Do you like cats?" },
-              { id: "c", text: "do you like cats" },
-              { id: "d", text: "Do You Like Cats?" },
+              { id: "c", text: "Do you like cats." },
+              { id: "d", text: "do you like cats" },
             ],
             correctChoiceId: "b",
           },
@@ -359,10 +359,10 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "My dog is small." },
+              { id: "a", text: "The cat sat." },
               { id: "b", text: "my dog is small." },
-              { id: "c", text: "The cat sat." },
-              { id: "d", text: "I like tea." },
+              { id: "c", text: "I like tea." },
+              { id: "d", text: "My dog is small." },
             ],
             correctChoiceId: "b",
           },
@@ -386,12 +386,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "0" },
-              { id: "b", text: "1" },
-              { id: "c", text: "2" },
-              { id: "d", text: "3" },
+              { id: "a", text: "1" },
+              { id: "b", text: "2" },
+              { id: "c", text: "3" },
+              { id: "d", text: "0" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -503,11 +503,11 @@ export const lesson22: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Dear valued friend, I am writing to inform you that I visited your residence this afternoon." },
-              { id: "b", text: "Back at 5. — Jo" },
-              { id: "c", text: "I went to your house and it was very nice there and I saw your dog which was big" },
+              { id: "b", text: "I went to your house and it was very nice there and I saw your dog which was big" },
+              { id: "c", text: "Back at 5. — Jo" },
               { id: "d", text: "Hello" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -599,11 +599,11 @@ export const lesson22: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "A very long formal letter" },
-              { id: "b", text: "A very short message with one piece of information" },
-              { id: "c", text: "A poem" },
+              { id: "b", text: "A poem" },
+              { id: "c", text: "A very short message with one piece of information" },
               { id: "d", text: "A list of questions" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -625,9 +625,9 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "To whom it may concern, please be advised that I departed your residence at approximately seventeen hundred hours." },
+              { id: "a", text: "I went to the shops and bought some things and it was nice" },
               { id: "b", text: "Out at 5. — Kim" },
-              { id: "c", text: "I went to the shops and bought some things and it was nice" },
+              { id: "c", text: "To whom it may concern, please be advised that I departed your residence at approximately seventeen hundred hours." },
               { id: "d", text: "Hello" },
             ],
             correctChoiceId: "b",
@@ -694,12 +694,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Dear Sir or Madam" },
-              { id: "b", text: "Hi or Dear + the friend's name" },
-              { id: "c", text: "To whom it may concern" },
-              { id: "d", text: "NOTICE" },
+              { id: "a", text: "To whom it may concern" },
+              { id: "b", text: "Dear Sir or Madam" },
+              { id: "c", text: "NOTICE" },
+              { id: "d", text: "Hi or Dear + the friend's name" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -722,11 +722,11 @@ export const lesson22: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Hi Tom," },
-              { id: "b", text: "Dear Anna," },
-              { id: "c", text: "I am writing to respectfully inform you that..." },
-              { id: "d", text: "Hello," },
+              { id: "b", text: "Hello," },
+              { id: "c", text: "Dear Anna," },
+              { id: "d", text: "I am writing to respectfully inform you that..." },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -799,12 +799,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "hi tom cant come saterday sorry see u monday anna" },
-              { id: "b", text: "Hi Tom, I can't come on Saturday because I am ill. Sorry! See you Monday. — Anna" },
-              { id: "c", text: "To the esteemed recipient: I regret to inform you of my inability to attend the scheduled gathering." },
-              { id: "d", text: "Saturday ill party" },
+              { id: "a", text: "Saturday ill party" },
+              { id: "b", text: "To the esteemed recipient: I regret to inform you of my inability to attend the scheduled gathering." },
+              { id: "c", text: "hi tom cant come saterday sorry see u monday anna" },
+              { id: "d", text: "Hi Tom, I can't come on Saturday because I am ill. Sorry! See you Monday. — Anna" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -826,12 +826,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Note A" },
-              { id: "b", text: "Note B" },
+              { id: "a", text: "Note B" },
+              { id: "b", text: "Neither is good" },
               { id: "c", text: "Both are equal" },
-              { id: "d", text: "Neither is good" },
+              { id: "d", text: "Note A" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

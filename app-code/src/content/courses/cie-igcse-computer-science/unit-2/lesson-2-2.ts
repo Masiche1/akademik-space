@@ -52,22 +52,22 @@ export const lesson62: Lesson = {
           "choices": [
                     {
                               "id": "a",
-                              "text": "Sends data to the computer"
-                    },
-                    {
-                              "id": "b",
                               "text": "Receives data from computer"
                     },
                     {
-                              "id": "c",
+                              "id": "b",
                               "text": "Stores files"
+                    },
+                    {
+                              "id": "c",
+                              "text": "Sends data to the computer"
                     },
                     {
                               "id": "d",
                               "text": "A network cable"
                     }
           ],
-          "correctChoiceId": "a"
+          "correctChoiceId": "c"
 },
           markscheme: {
           "principles": [
@@ -214,6 +214,284 @@ export const lesson62: Lesson = {
           ],
           "finalAnswer": "I/O devices, sensors and actuators."
 },
+        },
+        {
+          id: "ciecs-u2-io-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Which device is an input device?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Microphone" },
+              { id: "b", text: "Printer" },
+              { id: "c", text: "Speakers" },
+              { id: "d", text: "Monitor" },
+            ],
+            aorrectChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              { kind: "definition", name: "Input device", statement: "Sends data to the computer." },
+            ],
+            steps: [
+              { reasoning: "A microphone captures sound and sends it to the computer as input.", marks: 1, markCode: "M" },
+            ],
+            finalAnswer: "**(c)** Microphone",
+          },
+        },
+        {
+          id: "ciecs-u2-io-q6",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Which device is an output device?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Plotter" },
+              { id: "b", text: "Scanner" },
+              { id: "c", text: "Joystick" },
+              { id: "d", text: "Keyboard" },
+            ],
+            aorrectChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              { kind: "definition", name: "Output device", statement: "Receives data from the computer." },
+            ],
+            steps: [
+              { reasoning: "A plotter produces physical output from computer data.", marks: 1, markCode: "M" },
+            ],
+            finalAnswer: "**(c)** Plotter",
+          },
+        },
+        {
+          id: "ciecs-u2-io-q7",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Which device is a sensor?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Printer" },
+              { id: "b", text: "Light-dependent sensor" },
+              { id: "c", text: "Buzzer" },
+              { id: "d", text: "Motor" },
+            ],
+            borrectChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              { kind: "definition", name: "Sensor", statement: "Detects physical properties." },
+            ],
+            steps: [
+              { reasoning: "A light-dependent sensor detects light levels from the environment.", marks: 1, markCode: "M" },
+            ],
+            finalAnswer: "**(c)** Light-dependent sensor",
+          },
+        },
+        {
+          id: "ciecs-u2-io-q8",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Which device is an actuator?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Stepper motor" },
+              { id: "b", text: "Keyboard" },
+              { id: "c", text: "Temperature sensor" },
+              { id: "d", text: "Webcam" },
+            ],
+            correctChoiceIa: "d",
+          },
+          markscheme: {
+            principles: [
+              { kind: "definition", name: "Actuator", statement: "Performs a physical action." },
+            ],
+            steps: [
+              { reasoning: "A motor converts computer control into physical movement.", marks: 1, markCode: "M" },
+            ],
+            finalAnswer: "**(d)** Stepper motor",
+          },
+        },
+        {
+          id: "ciecs-u2-io-q9",
+          difficulty: "challenge",
+          totalMarks: 1,
+          stem: "Why can a touchscreen be both an input and an output device?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "It connects directly to the CPU only" },
+              { id: "b", text: "It is always a sensor" },
+              { id: "c", text: "It only stores data" },
+              { id: "d", text: "It displays output and detects touch input" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Dual-role devices", statement: "Some devices both receive and send data." },
+            ],
+            steps: [
+              { reasoning: "The screen shows output while touch sensors send input to the computer.", marks: 1, markCode: "M" },
+            ],
+            finalAnswer: "**(b)** Displays output and detects touch input",
+          },
+        },
+        {
+          id: "ciecs-u2-io-q10",
+          difficulty: "challenge",
+          totalMarks: 1,
+          stem: "In an automatic greenhouse, which combination is essential?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Sensors to detect conditions and actuators to change them" },
+              { id: "b", text: "Only storage devices" },
+              { id: "c", text: "Only a keyboard" },
+              { id: "d", text: "Only a monitor" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Embedded systems", statement: "Sensors detect and actuators respond." },
+            ],
+            steps: [
+              { reasoning: "Automatic control needs sensors for input and actuators for physical response.", marks: 1, markCode: "M" },
+            ],
+            finalAnswer: "**(b)** Sensors and actuators",
+          },
+        },
+        {
+          id: "ciecs-u2-io-q11",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "A setup contains keyboard, mouse, microphone, scanner, touchscreen, monitor, printer and speakers. How many are input-only devices?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 4 }],
+          },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Device classification", statement: "Count devices that only send data to the computer." },
+            ],
+            steps: [
+              { reasoning: "Keyboard, mouse, microphone and scanner are input-only: 4 devices.", marks: 1, markCode: "A", part: "a" },
+            ],
+            finalAnswer: "4",
+          },
+        },
+        {
+          id: "ciecs-u2-io-q12",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "A list contains barcode scanner, digital camera, joystick, projector, temperature sensor and buzzer. (a) How many are input devices? (b) How many are output devices or actuators?",
+          response: {
+            type: "numeric",
+            parts: [
+              { label: "a", answer: 4 },
+              { label: "b", answer: 2 },
+            ],
+          },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Device classification", statement: "Separate input devices from output/actuator devices." },
+            ],
+            steps: [
+              { reasoning: "Input devices are barcode scanner, digital camera, joystick and temperature sensor: 4.", marks: 1, markCode: "A", part: "a" },
+              { reasoning: "Projector and buzzer provide output/action: 2 devices.", marks: 1, markCode: "A", part: "b" },
+            ],
+            finalAnswer: "(a) 4; (b) 2",
+          },
+        },
+        {
+          id: "ciecs-u2-io-q13",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "A control panel has touchscreen, keyboard, speaker, projector, microphone and plotter. How many are output-only devices?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 3 }],
+          },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Output-only devices", statement: "Touchscreen is both input and output." },
+            ],
+            steps: [
+              { reasoning: "Speaker, projector and plotter are output-only: 3 devices.", marks: 1, markCode: "A", part: "a" },
+            ],
+            finalAnswer: "3",
+          },
+        },
+        {
+          id: "ciecs-u2-io-q14",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "A greenhouse controller has soil moisture sensor, light sensor, temperature sensor, fan motor, water pump and display screen. (a) How many sensors does it have? (b) How many actuators does it have?",
+          response: {
+            type: "numeric",
+            parts: [
+              { label: "a", answer: 3 },
+              { label: "b", answer: 2 },
+            ],
+          },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Sensors vs actuators", statement: "Sensors detect; actuators physically act." },
+            ],
+            steps: [
+              { reasoning: "There are 3 sensors: soil moisture, light and temperature.", marks: 1, markCode: "A", part: "a" },
+              { reasoning: "The fan motor and water pump are actuators: 2.", marks: 1, markCode: "A", part: "b" },
+            ],
+            finalAnswer: "(a) 3; (b) 2",
+          },
+        },
+        {
+          id: "ciecs-u2-io-q15",
+          difficulty: "challenge",
+          totalMarks: 3,
+          stem: "A factory system has $20$ devices: $35$% are sensors, $25$% are actuators and $40$% are displays. (a) How many sensors are there? (b) How many actuators are there? (c) How many displays are there?",
+          response: {
+            type: "numeric",
+            parts: [
+              { label: "a", answer: 7 },
+              { label: "b", answer: 5 },
+              { label: "c", answer: 8 },
+            ],
+          },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Percentage counts", statement: "Count = total devices × percentage." },
+            ],
+            steps: [
+              { reasoning: "Sensors = 20 * 0.35 = 7.", marks: 1, markCode: "A", part: "a" },
+              { reasoning: "Actuators = 20 * 0.25 = 5.", marks: 1, markCode: "A", part: "b" },
+              { reasoning: "Displays = 20 * 0.40 = 8.", marks: 1, markCode: "A", part: "c" },
+            ],
+            finalAnswer: "(a) 7; (b) 5; (c) 8",
+          },
+        },
+        {
+          id: "ciecs-u2-io-q16",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "Design an automatic smart-classroom system. List the sensors needed, explain what the processor decides, name the actuators, and describe how feedback could improve the system.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "technique", name: "Automatic classroom", statement: "Sensors detect, processor decides, actuators respond." },
+            ],
+            steps: [
+              { reasoning: "Valid sensors such as light, temperature, motion or CO2 detectors are identified.", marks: 1, markCode: "M" },
+              { reasoning: "The processor compares readings with desired conditions and decides actions.", marks: 1, markCode: "M" },
+              { reasoning: "Valid actuators such as lights, blinds, fans or door locks are named.", marks: 1, markCode: "M" },
+              { reasoning: "Feedback is described, e.g. sensor readings confirm whether the room reached the target.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "Sensor-processor-actuator classroom control",
+          },
         },
       ],
     },

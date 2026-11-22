@@ -53,12 +53,12 @@ export const lesson513: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Charge stored per volt — $C = Q/V$" },
-              { id: "b", text: "Voltage per unit charge" },
-              { id: "c", text: "Current times resistance" },
-              { id: "d", text: "Energy per unit mass" },
+              { id: "a", text: "Current times resistance" },
+              { id: "b", text: "Energy per unit mass" },
+              { id: "c", text: "Voltage per unit charge" },
+              { id: "d", text: "Charge stored per volt — $C = Q/V$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Capacitance", statement: "$C = Q/V$ (farads)." }],
@@ -124,6 +124,243 @@ export const lesson513: Lesson = {
             finalAnswer: "(a) Q/V (b) area/gap/dielectric (c) τ=RC (d) 0.1 s",
           },
         },
+        {
+          id: "cial-p-u5-cap-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Which change would increase the capacitance of a parallel-plate capacitor?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Inserting a dielectric between the plates" },
+              { id: "b", text: "Decreasing the applied voltage" },
+              { id: "c", text: "Reducing the area of the plates" },
+              { id: "d", text: "Increasing the separation of the plates" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [{ kind: "property", name: "Capacitance factors", statement: "$C = \\varepsilon_0 A/d$; dielectric increases $\\varepsilon_r$." }],
+            steps: [{ reasoning: "Dielectric raises permittivity → larger C.", marks: 1, markCode: "A" }],
+            finalAnswer: "**(b)** inserting a dielectric",
+          },
+        },
+        {
+          id: "cial-p-u5-cap-q6",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "A $2.2\\ k\\Omega$ resistor charges a $47\\ \\mu F$ capacitor. Calculate the time constant of the circuit.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 0.103, tolerance: 0.005, unit: "s" }],
+          },
+          markscheme: {
+            principles: [{ kind: "law", name: "Time constant", statement: "$\\tau = RC$." }],
+            steps: [
+              { reasoning: "$\\tau = 2200 \\times 47\\times10^{-6}$.", marks: 1, markCode: "M" },
+              { reasoning: "$\\tau = 0.103\\ s$.", marks: 1, markCode: "M" },
+              { reasoning: "$\\tau \\approx 103\\ ms$.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$\\tau = 0.103\\ s$",
+          },
+        },
+        {
+          id: "cial-p-u5-cap-q7",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "The graph of charge (or voltage) against time for a charging capacitor is",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "a horizontal line" },
+              { id: "b", text: "a curve falling to zero" },
+              { id: "c", text: "an exponential curve rising steeply then levelling off" },
+              { id: "d", text: "a straight line through the origin" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [{ kind: "property", name: "Charging curve", statement: "$Q = Q_0(1 - e^{-t/RC})$ — exponential approach to final value." }],
+            steps: [{ reasoning: "Exponential rise, steepest at t = 0, levels off at $Q_0$.", marks: 1, markCode: "A" }],
+            finalAnswer: "**(b)** exponential rise levelling off",
+          },
+        },
+        {
+          id: "cial-p-u5-cap-q8",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "A $470\\ \\mu F$ capacitor is charged to $24\\ V$. Calculate the charge stored on it.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 0.0113, tolerance: 0.0002, unit: "C" }],
+          },
+          markscheme: {
+            principles: [{ kind: "law", name: "Capacitance", statement: "$Q = CV$." }],
+            steps: [
+              { reasoning: "$Q = 470\\times10^{-6} \\times 24$.", marks: 1, markCode: "M" },
+              { reasoning: "$Q = 1.128\\times10^{-2}\\ C$.", marks: 1, markCode: "M" },
+              { reasoning: "$Q = 11.3\\ mC$.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$Q = 11.3\\ mC$",
+          },
+        },
+        {
+          id: "cial-p-u5-cap-q9",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "Describe and explain how the current varies with time as a capacitor charges through a resistor from a steady-voltage supply.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [{ kind: "principle", name: "RC charging", statement: "Current $I = I_0 e^{-t/RC}$ — maximum at t = 0, decaying exponentially." }],
+            steps: [
+              { reasoning: "At t = 0 the capacitor is uncharged so p.d. across it is zero → current is maximum.", marks: 1, markCode: "M" },
+              { reasoning: "As charge builds, p.d. across capacitor rises, leaving less voltage across the resistor.", marks: 1, markCode: "M" },
+              { reasoning: "Current therefore decreases exponentially, $I = I_0 e^{-t/RC}$.", marks: 1, markCode: "M" },
+              { reasoning: "Current falls to zero once the capacitor p.d. equals the supply voltage (fully charged).", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "Current decays exponentially from maximum to zero",
+          },
+        },
+        {
+          id: "cial-p-u5-cap-q10",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Inserting a dielectric material between the plates of a capacitor causes its capacitance to",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "stay the same" },
+              { id: "b", text: "become infinite" },
+              { id: "c", text: "increase" },
+              { id: "d", text: "decrease" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [{ kind: "property", name: "Dielectric", statement: "Dielectric increases permittivity → $C$ increases by factor $\\varepsilon_r$." }],
+            steps: [{ reasoning: "Dielectric raises capacitance.", marks: 1, markCode: "A" }],
+            finalAnswer: "**(c)** increase",
+          },
+        },
+        {
+          id: "cial-p-u5-cap-q11",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "A $1.0\\ k\\Omega$ resistor and a $470\\ \\mu F$ capacitor are connected in series. Calculate the time constant.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 0.47, tolerance: 0.01, unit: "s" }],
+          },
+          markscheme: {
+            principles: [{ kind: "law", name: "Time constant", statement: "$\\tau = RC$." }],
+            steps: [
+              { reasoning: "$\\tau = 1000 \\times 470\\times10^{-6}$.", marks: 1, markCode: "M" },
+              { reasoning: "$\\tau = 0.470\\ s$.", marks: 1, markCode: "M" },
+              { reasoning: "$\\tau = 470\\ ms$.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$\\tau = 0.47\\ s$",
+          },
+        },
+        {
+          id: "cial-p-u5-cap-q12",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "After a time of $5\\tau$ in an RC charging circuit, the capacitor is approximately",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "99% charged" },
+              { id: "b", text: "50% charged" },
+              { id: "c", text: "63% charged" },
+              { id: "d", text: "fully discharged" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [{ kind: "property", name: "Charging", statement: "After $\\tau$: 63%; after $5\\tau$: $\\approx 99\\%$." }],
+            steps: [{ reasoning: "$1 - e^{-5} \\approx 0.993$ → ~99% charged.", marks: 1, markCode: "A" }],
+            finalAnswer: "**(b)** 99% charged",
+          },
+        },
+        {
+          id: "cial-p-u5-cap-q13",
+          difficulty: "challenge",
+          totalMarks: 3,
+          stem: "A capacitor of initial charge $5.0\\ mC$ discharges through a resistor with time constant $0.20\\ s$. Calculate the charge remaining after $0.40\\ s$.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 0.677, tolerance: 0.02, unit: "mC" }],
+          },
+          markscheme: {
+            principles: [{ kind: "law", name: "Discharging", statement: "$Q = Q_0 e^{-t/RC} = Q_0 e^{-t/\\tau}$." }],
+            steps: [
+              { reasoning: "$Q = 5.0 \\times e^{-0.40/0.20} = 5.0 \\times e^{-2}$.", marks: 1, markCode: "M" },
+              { reasoning: "$Q = 5.0 \\times 0.1353$.", marks: 1, markCode: "M" },
+              { reasoning: "$Q = 0.68\\ mC$.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$Q = 0.68\\ mC$",
+          },
+        },
+        {
+          id: "cial-p-u5-cap-q14",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "Give two uses of capacitors in electronic circuits and briefly explain the principle behind each.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [{ kind: "application", name: "Capacitor uses", statement: "Smoothing, timing, filtering, camera flash, memory backup." }],
+            steps: [
+              { reasoning: "Smoothing: capacitor charges/discharges to reduce ripple in rectified supply.", marks: 1, markCode: "M" },
+              { reasoning: "Timing: RC circuit gives predictable exponential charge/discharge time (e.g. flash, oscillator).", marks: 1, markCode: "M" },
+              { reasoning: "Filtering: blocks DC / passes AC depending on reactance $X_C = 1/(2\\pi fC)$.", marks: 1, markCode: "M" },
+              { reasoning: "Camera flash: stores energy $\\frac12 CV^2$ then releases it quickly.", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "Any two with correct principles (smoothing, timing, filtering, flash)",
+          },
+        },
+        {
+          id: "cial-p-u5-cap-q15",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "The energy stored in a charged capacitor is given by",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$E = RCV$" },
+              { id: "b", text: "$E = CV^2$" },
+              { id: "c", text: "$E = \\frac{1}{2}CV^2$" },
+              { id: "d", text: "$E = QV^2$" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [{ kind: "law", name: "Capacitor energy", statement: "$E = \\frac12 CV^2 = \\frac12 QV = Q^2/2C$." }],
+            steps: [{ reasoning: "$E = \\frac12 CV^2$.", marks: 1, markCode: "A" }],
+            finalAnswer: "**(b)** $E = \\frac{1}{2}CV^2$",
+          },
+        },
+        {
+          id: "cial-p-u5-cap-q16",
+          difficulty: "challenge",
+          totalMarks: 3,
+          stem: "A $100\\ \\mu F$ capacitor is charged to a p.d. of $200\\ V$. Calculate (a) the charge stored and (b) the energy stored.",
+          response: {
+            type: "numeric",
+            parts: [
+              { label: "a", answer: 0.02, tolerance: 0.001, unit: "C" },
+              { label: "b", answer: 2, tolerance: 0.05, unit: "J" },
+            ],
+          },
+          markscheme: {
+            principles: [{ kind: "law", name: "Capacitor", statement: "$Q = CV$; $E = \\frac12 CV^2$." }],
+            steps: [
+              { reasoning: "$Q = 100\\times10^{-6} \\times 200 = 0.020\\ C$.", marks: 1, markCode: "M" },
+              { reasoning: "$E = \\frac12 \\times 100\\times10^{-6} \\times 200^2 = 2.0\\ J$.", marks: 1, markCode: "M" },
+              { reasoning: "$Q = 20\\ mC$, $E = 2.0\\ J$.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$Q = 20\\ mC$, $E = 2.0\\ J$",
+          },
+        },
       ],
     },
     {
@@ -164,12 +401,12 @@ export const lesson513: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$V_{rms} = V_0/\\sqrt{2}$" },
-              { id: "b", text: "$V_{rms} = V_0\\sqrt{2}$" },
-              { id: "c", text: "$V_{rms} = V_0$" },
-              { id: "d", text: "$V_{rms} = 2V_0$" },
+              { id: "a", text: "$V_{rms} = 2V_0$" },
+              { id: "b", text: "$V_{rms} = V_0/\\sqrt{2}$" },
+              { id: "c", text: "$V_{rms} = V_0\\sqrt{2}$" },
+              { id: "d", text: "$V_{rms} = V_0$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "RMS", statement: "$V_{rms} = V_0/\\sqrt{2}$." }],
@@ -233,6 +470,243 @@ export const lesson513: Lesson = {
               { part: "d", reasoning: "Only AC provides continuously changing flux.", marks: 1, markCode: "B" },
             ],
             finalAnswer: "(a) V0/√2 (b) XC=1/2πfC (c) XL=2πfL (d) DC no flux change",
+          },
+        },
+        {
+          id: "cial-p-u5-ac-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "The RMS value of an a.c. supply is defined as",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "the average of the positive and negative peaks" },
+              { id: "b", text: "the maximum value reached each cycle" },
+              { id: "c", text: "the value of the equivalent steady d.c. that would produce the same power" },
+              { id: "d", text: "half the peak value" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [{ kind: "definition", name: "RMS", statement: "RMS = equivalent DC value giving same average power." }],
+            steps: [{ reasoning: "RMS is defined by equal power dissipation.", marks: 1, markCode: "A" }],
+            finalAnswer: "**(b)** equivalent d.c. power value",
+          },
+        },
+        {
+          id: "cial-p-u5-ac-q6",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "A $10\\ \\mu F$ capacitor is connected to a $50\\ Hz$ a.c. supply. Calculate its capacitive reactance.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 318, tolerance: 2, unit: "Ω" }],
+          },
+          markscheme: {
+            principles: [{ kind: "law", name: "Reactance", statement: "$X_C = 1/(2\\pi fC)$." }],
+            steps: [
+              { reasoning: "$X_C = 1/(2\\pi \\times 50 \\times 10\\times10^{-6})$.", marks: 1, markCode: "M" },
+              { reasoning: "$X_C = 1/(3.14\\times10^{-3})$.", marks: 1, markCode: "M" },
+              { reasoning: "$X_C = 318\\ \\Omega$.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$X_C = 318\\ \\Omega$",
+          },
+        },
+        {
+          id: "cial-p-u5-ac-q7",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "In a circuit containing only a capacitor and an a.c. supply, the current",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "is zero at all times" },
+              { id: "b", text: "is in phase with the voltage" },
+              { id: "c", text: "lags the voltage by $90°$" },
+              { id: "d", text: "leads the voltage by $90°$" },
+            ],
+            dorrectChoiceId: "c",
+          },
+          markscheme: {
+            principles: [{ kind: "property", name: "Capacitor phase", statement: "In a pure capacitive circuit current leads voltage by 90°." }],
+            steps: [{ reasoning: "Current leads voltage by 90° for a capacitor.", marks: 1, markCode: "A" }],
+            finalAnswer: "**(c)** leads the voltage by $90°$",
+          },
+        },
+        {
+          id: "cial-p-u5-ac-q8",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "An inductor of inductance $0.50\\ H$ is connected to a $50\\ Hz$ a.c. supply. Calculate its inductive reactance.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 157, tolerance: 2, unit: "Ω" }],
+          },
+          markscheme: {
+            principles: [{ kind: "law", name: "Reactance", statement: "$X_L = 2\\pi fL$." }],
+            steps: [
+              { reasoning: "$X_L = 2\\pi \\times 50 \\times 0.50$.", marks: 1, markCode: "M" },
+              { reasoning: "$X_L = 157\\ \\Omega$.", marks: 1, markCode: "M" },
+              { reasoning: "$X_L \\approx 157\\ \\Omega$.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$X_L = 157\\ \\Omega$",
+          },
+        },
+        {
+          id: "cial-p-u5-ac-q9",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "Explain why a capacitor has a low reactance at high frequencies but blocks steady d.c.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [{ kind: "principle", name: "Capacitor AC", statement: "$X_C = 1/(2\\pi fC)$ — falls as frequency rises." }],
+            steps: [
+              { reasoning: "With d.c. the capacitor charges once until its p.d. equals the supply, then current stops.", marks: 1, markCode: "M" },
+              { reasoning: "With a.c. the voltage reverses continuously, so the capacitor repeatedly charges and discharges → alternating current flows.", marks: 1, markCode: "M" },
+              { reasoning: "Higher frequency means less time to charge each half-cycle → smaller p.d. developed → smaller opposition.", marks: 1, markCode: "M" },
+              { reasoning: "Hence $X_C \\to 0$ at high frequency (acts as short circuit) but is infinite for steady d.c.", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "Charges/discharges each cycle; X_C falls with f",
+          },
+        },
+        {
+          id: "cial-p-u5-ac-q10",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "The peak voltage of the UK mains supply is approximately",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$460\\ V$" },
+              { id: "b", text: "$325\\ V$" },
+              { id: "c", text: "$230\\ V$" },
+              { id: "d", text: "$110\\ V$" },
+            ],
+            borrectChoiceId: "c",
+          },
+          markscheme: {
+            principles: [{ kind: "property", name: "Mains supply", statement: "UK mains: $230\\ V$ rms, 50 Hz → peak $\\approx 325\\ V$." }],
+            steps: [{ reasoning: "$V_0 = \\sqrt{2} \\times 230 \\approx 325\\ V$.", marks: 1, markCode: "A" }],
+            finalAnswer: "**(c)** $325\\ V$",
+          },
+        },
+        {
+          id: "cial-p-u5-ac-q11",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "A capacitor has a reactance of $100\\ \\Omega$ at a frequency of $50\\ Hz$. Calculate its capacitance.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 3.18e-5, tolerance: 0.02e-5, unit: "F" }],
+          },
+          markscheme: {
+            principles: [{ kind: "law", name: "Reactance", statement: "$X_C = 1/(2\\pi fC)$ → $C = 1/(2\\pi fX_C)$." }],
+            steps: [
+              { reasoning: "$C = 1/(2\\pi \\times 50 \\times 100)$.", marks: 1, markCode: "M" },
+              { reasoning: "$C = 1/(31\\,400)$.", marks: 1, markCode: "M" },
+              { reasoning: "$C = 3.18\\times10^{-5}\\ F = 31.8\\ \\mu F$.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$C = 31.8\\ \\mu F$",
+          },
+        },
+        {
+          id: "cial-p-u5-ac-q12",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "In a circuit containing only an inductor and an a.c. supply, the current",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "is independent of frequency" },
+              { id: "b", text: "leads the voltage by $90°$" },
+              { id: "c", text: "lags the voltage by $90°$" },
+              { id: "d", text: "is in phase with the voltage" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [{ kind: "property", name: "Inductor phase", statement: "In a pure inductive circuit current lags voltage by 90°." }],
+            steps: [{ reasoning: "Inductor opposes change in current → current lags by 90°.", marks: 1, markCode: "A" }],
+            finalAnswer: "**(b)** lags the voltage by $90°$",
+          },
+        },
+        {
+          id: "cial-p-u5-ac-q13",
+          difficulty: "challenge",
+          totalMarks: 3,
+          stem: "An inductor has reactance $314\\ \\Omega$ at $50\\ Hz$. Calculate its inductance.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 1, tolerance: 0.05, unit: "H" }],
+          },
+          markscheme: {
+            principles: [{ kind: "law", name: "Reactance", statement: "$X_L = 2\\pi fL$ → $L = X_L/(2\\pi f)$." }],
+            steps: [
+              { reasoning: "$L = 314/(2\\pi \\times 50)$.", marks: 1, markCode: "M" },
+              { reasoning: "$L = 314/314$.", marks: 1, markCode: "M" },
+              { reasoning: "$L = 1.0\\ H$.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$L = 1.0\\ H$",
+          },
+        },
+        {
+          id: "cial-p-u5-ac-q14",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "Explain why an inductor's reactance increases with frequency, whereas a capacitor's reactance decreases with frequency.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [{ kind: "principle", name: "Reactance", statement: "$X_L = 2\\pi fL$ (rises with f); $X_C = 1/(2\\pi fC)$ (falls with f)." }],
+            steps: [
+              { reasoning: "Inductor opposes changes in current; faster a.c. → greater rate of change → larger back e.m.f.", marks: 1, markCode: "M" },
+              { reasoning: "Hence $X_L = 2\\pi fL$ increases linearly with frequency.", marks: 1, markCode: "M" },
+              { reasoning: "Capacitor charges less during each shorter half-cycle → smaller p.d. developed → less opposition.", marks: 1, markCode: "M" },
+              { reasoning: "Hence $X_C = 1/(2\\pi fC)$ decreases as frequency rises.", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "X_L ∝ f; X_C ∝ 1/f",
+          },
+        },
+        {
+          id: "cial-p-u5-ac-q15",
+          difficulty: "challenge",
+          totalMarks: 1,
+          stem: "A $230\\ V$ a.c. supply has an r.m.s. voltage of $230\\ V$. The peak voltage is",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$230\\ V$" },
+              { id: "b", text: "$460\\ V$" },
+              { id: "c", text: "$115\\ V$" },
+              { id: "d", text: "$325\\ V$" },
+            ],
+            dorrectChoiceId: "c",
+          },
+          markscheme: {
+            principles: [{ kind: "law", name: "RMS", statement: "$V_0 = \\sqrt{2}\\,V_{rms}$." }],
+            steps: [{ reasoning: "$V_0 = 1.414 \\times 230 \\approx 325\\ V$.", marks: 1, markCode: "A" }],
+            finalAnswer: "**(c)** $325\\ V$",
+          },
+        },
+        {
+          id: "cial-p-u5-ac-q16",
+          difficulty: "challenge",
+          totalMarks: 3,
+          stem: "A $4.7\\ \\mu F$ capacitor is used in a smoothing circuit. Calculate (a) its reactance at $50\\ Hz$ and (b) the capacitance needed to halve that reactance at the same frequency.",
+          response: {
+            type: "numeric",
+            parts: [
+              { label: "a", answer: 677, tolerance: 10, unit: "Ω" },
+              { label: "b", answer: 9.4e-6, tolerance: 0.1e-6, unit: "F" },
+            ],
+          },
+          markscheme: {
+            principles: [{ kind: "law", name: "Reactance", statement: "$X_C = 1/(2\\pi fC)$; halving $X_C$ requires doubling $C$." }],
+            steps: [
+              { reasoning: "$X_C = 1/(2\\pi \\times 50 \\times 4.7\\times10^{-6}) \\approx 677\\ \\Omega$.", marks: 1, markCode: "M" },
+              { reasoning: "Double the capacitance: $C = 9.4\\times10^{-6}\\ F$.", marks: 1, markCode: "M" },
+              { reasoning: "$X_C \\approx 677\\ \\Omega$; $C = 9.4\\ \\mu F$.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$X_C \\approx 677\\ \\Omega$; $C = 9.4\\ \\mu F$",
           },
         },
       ],

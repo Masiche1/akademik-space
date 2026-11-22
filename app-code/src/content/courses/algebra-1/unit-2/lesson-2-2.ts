@@ -50,11 +50,11 @@ Check the final ordered pair in both original equations. If combining produces a
           totalMarks: 2,
           stem: "Which operation eliminates $y$ when the equations are $3x+y=10$ and $2x-y=5$?",
           response: { type: "mcq", choices: [
-            { id: "a", text: "Add the equations." },
-            { id: "b", text: "Subtract the second equation from the first." },
-            { id: "c", text: "Multiply the first equation by $-1$ and add." },
-            { id: "d", text: "Multiply both equations by $2$." },
-          ], correctChoiceId: "a" },
+            { id: "a", text: "Multiply the first equation by $-1$ and add." },
+            { id: "b", text: "Multiply both equations by $2$." },
+            { id: "c", text: "Add the equations." },
+            { id: "d", text: "Subtract the second equation from the first." },
+          ], correctChoiceId: "c" },
           markscheme: {
             principles: [
               { kind: "property", name: "Additive inverses", statement: "$y+(-y)=0$. Adding equations with opposite coefficients cancels the variable." },
@@ -190,9 +190,9 @@ The same model works for ticket sales and other totals. If adult and student tic
           stem: "A school sells adult tickets for $\\$8$ and student tickets for $\\$5$. If $a$ adult and $s$ student tickets are sold, which expression represents the total revenue?",
           response: { type: "mcq", choices: [
             { id: "a", text: "$8a+5s$" },
-            { id: "b", text: "$13(a+s)$" },
-            { id: "c", text: "$8s+5a$" },
-            { id: "d", text: "$8a+5s=0$" },
+            { id: "b", text: "$8s+5a$" },
+            { id: "c", text: "$8a+5s=0$" },
+            { id: "d", text: "$13(a+s)$" },
           ], correctChoiceId: "a" },
           markscheme: {
             principles: [

@@ -93,12 +93,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$sp^3$ hybridized" },
-              { id: "b", text: "$sp^2$ hybridized" },
-              { id: "c", text: "$sp$ hybridized" },
-              { id: "d", text: "Not hybridized" },
+              { id: "a", text: "$sp^2$ hybridized" },
+              { id: "b", text: "Not hybridized" },
+              { id: "c", text: "$sp^3$ hybridized" },
+              { id: "d", text: "$sp$ hybridized" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -327,12 +327,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$sp^3$ hybridized" },
-              { id: "b", text: "$sp^2$ hybridized" },
-              { id: "c", text: "$sp$ hybridized" },
-              { id: "d", text: "Not hybridized" },
+              { id: "a", text: "$sp^2$ hybridized" },
+              { id: "b", text: "Not hybridized" },
+              { id: "c", text: "$sp^3$ hybridized" },
+              { id: "d", text: "$sp$ hybridized" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -371,12 +371,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "BeCl$_2$" },
-              { id: "b", text: "CH$_4$" },
-              { id: "c", text: "BF$_3$" },
+              { id: "a", text: "CH$_4$" },
+              { id: "b", text: "BF$_3$" },
+              { id: "c", text: "BeCl$_2$" },
               { id: "d", text: "NH$_3$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -560,11 +560,11 @@ export const lesson22: Lesson = {
             choices: [
               {
                 id: "a",
-                text: "It is $sp^3$ hybridized and the lone pair occupies a hybrid orbital",
+                text: "It is $sp^2$ hybridized with the lone pair in a $p$ orbital",
               },
               {
                 id: "b",
-                text: "It is $sp^2$ hybridized with the lone pair in a $p$ orbital",
+                text: "It is $sp^3$ hybridized and the lone pair occupies a hybrid orbital",
               },
               { id: "c", text: "It is $sp$ hybridized" },
               {
@@ -572,7 +572,7 @@ export const lesson22: Lesson = {
                 text: "It is not hybridized because it has a lone pair",
               },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -611,12 +611,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$sp$ hybridized" },
-              { id: "b", text: "$sp^2$ hybridized" },
-              { id: "c", text: "$sp^3$ hybridized" },
-              { id: "d", text: "Not hybridized" },
+              { id: "a", text: "$sp^3$ hybridized" },
+              { id: "b", text: "Not hybridized" },
+              { id: "c", text: "$sp^2$ hybridized" },
+              { id: "d", text: "$sp$ hybridized" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -875,12 +875,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$sp$ hybridized" },
-              { id: "b", text: "$sp^2$ hybridized" },
+              { id: "a", text: "$sp^2$ hybridized" },
+              { id: "b", text: "$sp$ hybridized" },
               { id: "c", text: "$sp^3$ hybridized" },
               { id: "d", text: "Not hybridized" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1007,12 +1007,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "One $\\sigma$ bond and one $\\pi$ bond" },
+              { id: "a", text: "Two $\\pi$ bonds" },
               { id: "b", text: "Two $\\sigma$ bonds" },
-              { id: "c", text: "Two $\\pi$ bonds" },
+              { id: "c", text: "One $\\sigma$ bond and one $\\pi$ bond" },
               { id: "d", text: "One $\\sigma$ bond only" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1242,12 +1242,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "One $\\sigma$ bond and two $\\pi$ bonds" },
-              { id: "b", text: "Three $\\sigma$ bonds" },
-              { id: "c", text: "Three $\\pi$ bonds" },
-              { id: "d", text: "One $\\sigma$ bond and one $\\pi$ bond" },
+              { id: "a", text: "Three $\\pi$ bonds" },
+              { id: "b", text: "One $\\sigma$ bond and one $\\pi$ bond" },
+              { id: "c", text: "Three $\\sigma$ bonds" },
+              { id: "d", text: "One $\\sigma$ bond and two $\\pi$ bonds" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1285,12 +1285,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Ethane (C–C single bond)" },
-              { id: "b", text: "Ethene (C=C double bond)" },
-              { id: "c", text: "Ethyne (C≡C triple bond)" },
-              { id: "d", text: "Propane (two C–C single bonds)" },
+              { id: "a", text: "Ethyne (C≡C triple bond)" },
+              { id: "b", text: "Ethane (C–C single bond)" },
+              { id: "c", text: "Propane (two C–C single bonds)" },
+              { id: "d", text: "Ethene (C=C double bond)" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1472,12 +1472,12 @@ export const lesson22: Lesson = {
                 id: "a",
                 text: "Sideways overlap of $p$ orbitals is less effective than end-on overlap",
               },
-              { id: "b", text: "$\\pi$ bonds contain fewer electrons" },
               {
-                id: "c",
+                id: "b",
                 text: "$\\pi$ bonds only form between identical atoms",
               },
-              { id: "d", text: "$\\pi$ bonds are always ionic" },
+              { id: "c", text: "$\\pi$ bonds are always ionic" },
+              { id: "d", text: "$\\pi$ bonds contain fewer electrons" },
             ],
             correctChoiceId: "a",
           },
@@ -1518,13 +1518,13 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Only $s$–$s$ orbitals" },
+              { id: "a", text: "Only unhybridized orbitals" },
               { id: "b", text: "Only $p$–$p$ orbitals" },
               {
                 id: "c",
                 text: "Any of $s$–$s$, $s$–$p$, $p$–$p$ or hybrid–hybrid orbitals",
               },
-              { id: "d", text: "Only unhybridized orbitals" },
+              { id: "d", text: "Only $s$–$s$ orbitals" },
             ],
             correctChoiceId: "c",
           },
@@ -1777,12 +1777,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "But-2-ene" },
-              { id: "b", text: "Propene" },
-              { id: "c", text: "Ethene" },
-              { id: "d", text: "2-Methylpropene" },
+              { id: "a", text: "Propene" },
+              { id: "b", text: "But-2-ene" },
+              { id: "c", text: "2-Methylpropene" },
+              { id: "d", text: "Ethene" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [

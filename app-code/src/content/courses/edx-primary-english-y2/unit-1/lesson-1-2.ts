@@ -64,12 +64,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "there" },
-              { id: "b", text: "their" },
-              { id: "c", text: "they're" },
-              { id: "d", text: "there's" },
+              { id: "a", text: "their" },
+              { id: "b", text: "there's" },
+              { id: "c", text: "there" },
+              { id: "d", text: "they're" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -98,12 +98,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "hear" },
-              { id: "b", text: "here" },
+              { id: "a", text: "here" },
+              { id: "b", text: "hear" },
               { id: "c", text: "hair" },
               { id: "d", text: "hare" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -234,12 +234,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "sed" },
-              { id: "b", text: "said" },
-              { id: "c", text: "sayed" },
+              { id: "a", text: "sayed" },
+              { id: "b", text: "sed" },
+              { id: "c", text: "said" },
               { id: "d", text: "sade" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -270,8 +270,8 @@ export const lesson42: Lesson = {
             choices: [
               { id: "a", text: "cat" },
               { id: "b", text: "because" },
-              { id: "c", text: "dog" },
-              { id: "d", text: "run" },
+              { id: "c", text: "run" },
+              { id: "d", text: "dog" },
             ],
             correctChoiceId: "b",
           },

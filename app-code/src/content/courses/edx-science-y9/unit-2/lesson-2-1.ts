@@ -50,12 +50,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Proton" },
-              { id: "b", text: "Neutron" },
-              { id: "c", text: "Electron" },
-              { id: "d", text: "Nucleus" },
+              { id: "a", text: "Nucleus" },
+              { id: "b", text: "Proton" },
+              { id: "c", text: "Neutron" },
+              { id: "d", text: "Electron" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -181,12 +181,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "1" },
-              { id: "b", text: "2" },
+              { id: "a", text: "2" },
+              { id: "b", text: "1" },
               { id: "c", text: "8" },
               { id: "d", text: "18" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

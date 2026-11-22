@@ -55,12 +55,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Playing at the same tempo" },
-              { id: "b", text: "Sounds merging smoothly into a unified whole" },
-              { id: "c", text: "Using the same instrument" },
-              { id: "d", text: "Matching dynamics exactly" },
+              { id: "a", text: "Sounds merging smoothly into a unified whole" },
+              { id: "b", text: "Using the same instrument" },
+              { id: "c", text: "Matching dynamics exactly" },
+              { id: "d", text: "Playing at the same tempo" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -156,12 +156,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "All players using identical instruments" },
-              { id: "b", text: "Adjusting relative volumes so all parts are heard" },
-              { id: "c", text: "Standing at equal distances from each other" },
-              { id: "d", text: "Playing at exactly the same tempo" },
+              { id: "a", text: "Adjusting relative volumes so all parts are heard" },
+              { id: "b", text: "All players using identical instruments" },
+              { id: "c", text: "Playing at exactly the same tempo" },
+              { id: "d", text: "Standing at equal distances from each other" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -185,12 +185,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A sign of politeness" },
-              { id: "b", text: "A cue coordinating the entry" },
-              { id: "c", text: "A way to check the audience" },
-              { id: "d", text: "An indication of memory" },
+              { id: "a", text: "A way to check the audience" },
+              { id: "b", text: "An indication of memory" },
+              { id: "c", text: "A sign of politeness" },
+              { id: "d", text: "A cue coordinating the entry" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -215,11 +215,11 @@ export const lesson62: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "A written instruction in the score" },
-              { id: "b", text: "A signal coordinating entries and changes" },
-              { id: "c", text: "A type of dynamic marking" },
-              { id: "d", text: "A rehearsal schedule" },
+              { id: "b", text: "A type of dynamic marking" },
+              { id: "c", text: "A rehearsal schedule" },
+              { id: "d", text: "A signal coordinating entries and changes" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -244,11 +244,11 @@ export const lesson62: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Play louder to be noticed" },
-              { id: "b", text: "Reduce volume so the melody projects" },
-              { id: "c", text: "Stop playing entirely" },
+              { id: "b", text: "Stop playing entirely" },
+              { id: "c", text: "Reduce volume so the melody projects" },
               { id: "d", text: "Play a different piece" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -273,11 +273,11 @@ export const lesson62: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "To memorise parts separately" },
-              { id: "b", text: "Automatic coordination so performance feels spontaneous" },
-              { id: "c", text: "To choose a conductor" },
+              { id: "b", text: "To choose a conductor" },
+              { id: "c", text: "Automatic coordination so performance feels spontaneous" },
               { id: "d", text: "To play faster each time" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -301,12 +301,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Making the passage longer" },
-              { id: "b", text: "Building shared timing and coordination" },
+              { id: "a", text: "Building shared timing and coordination" },
+              { id: "b", text: "Making the passage longer" },
               { id: "c", text: "Avoiding the need for cues" },
               { id: "d", text: "Reducing rehearsal time needed" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -330,12 +330,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Playing exactly the same notes" },
-              { id: "b", text: "Matching tone quality so parts merge into one sound" },
-              { id: "c", text: "Sharing one instrument" },
-              { id: "d", text: "Performing without a conductor" },
+              { id: "a", text: "Performing without a conductor" },
+              { id: "b", text: "Playing exactly the same notes" },
+              { id: "c", text: "Matching tone quality so parts merge into one sound" },
+              { id: "d", text: "Sharing one instrument" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -359,12 +359,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "All play the same part" },
-              { id: "b", text: "Share tempo, dynamics and expression through constant communication" },
+              { id: "a", text: "Share tempo, dynamics and expression through constant communication" },
+              { id: "b", text: "All play the same part" },
               { id: "c", text: "Memorise the same score" },
               { id: "d", text: "Follow one conductor strictly" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -609,11 +609,11 @@ export const lesson62: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "The size of the venue" },
-              { id: "b", text: "The performer's energy and engagement that connects with the audience" },
-              { id: "c", text: "The quality of the instruments" },
-              { id: "d", text: "The audience's applause" },
+              { id: "b", text: "The audience's applause" },
+              { id: "c", text: "The performer's energy and engagement that connects with the audience" },
+              { id: "d", text: "The quality of the instruments" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -709,12 +709,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Playing faster than rehearsed" },
-              { id: "b", text: "Eye contact, facial expression and body language" },
-              { id: "c", text: "Using the largest instrument available" },
-              { id: "d", text: "Playing from memory" },
+              { id: "a", text: "Using the largest instrument available" },
+              { id: "b", text: "Playing from memory" },
+              { id: "c", text: "Playing faster than rehearsed" },
+              { id: "d", text: "Eye contact, facial expression and body language" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -739,11 +739,11 @@ export const lesson62: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "It eliminates physical symptoms" },
-              { id: "b", text: "It channels the same energy into performance" },
+              { id: "b", text: "It reduces the need for preparation" },
               { id: "c", text: "It makes the audience sympathetic" },
-              { id: "d", text: "It reduces the need for preparation" },
+              { id: "d", text: "It channels the same energy into performance" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -767,12 +767,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Stop and apologise to the audience" },
-              { id: "b", text: "Continue without visible reaction" },
-              { id: "c", text: "Restart the piece from the beginning" },
-              { id: "d", text: "Ask the audience to wait" },
+              { id: "a", text: "Restart the piece from the beginning" },
+              { id: "b", text: "Ask the audience to wait" },
+              { id: "c", text: "Continue without visible reaction" },
+              { id: "d", text: "Stop and apologise to the audience" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -796,10 +796,10 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Makes the audience less critical" },
+              { id: "a", text: "Eliminates the need for rehearsal" },
               { id: "b", text: "Redirects attention outward, reducing anxiety" },
-              { id: "c", text: "Eliminates the need for rehearsal" },
-              { id: "d", text: "Guarantees technical perfection" },
+              { id: "c", text: "Guarantees technical perfection" },
+              { id: "d", text: "Makes the audience less critical" },
             ],
             correctChoiceId: "b",
           },
@@ -825,10 +825,10 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Improving breath control for wind instruments only" },
+              { id: "a", text: "Replacing the need for warm-up" },
               { id: "b", text: "Calming physical symptoms of anxiety" },
               { id: "c", text: "Increasing lung capacity for singing" },
-              { id: "d", text: "Replacing the need for warm-up" },
+              { id: "d", text: "Improving breath control for wind instruments only" },
             ],
             correctChoiceId: "b",
           },
@@ -856,8 +856,8 @@ export const lesson62: Lesson = {
             choices: [
               { id: "a", text: "Guarantees a perfect performance" },
               { id: "b", text: "Reduces uncertainty and builds confidence" },
-              { id: "c", text: "Eliminates the audience's expectations" },
-              { id: "d", text: "Shortens the performance duration" },
+              { id: "c", text: "Shortens the performance duration" },
+              { id: "d", text: "Eliminates the audience's expectations" },
             ],
             correctChoiceId: "b",
           },
@@ -883,12 +883,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Technical execution of a score" },
-              { id: "b", text: "Communication of musical intention to an audience" },
-              { id: "c", text: "Memorisation of the piece" },
-              { id: "d", text: "Demonstration of speed" },
+              { id: "a", text: "Demonstration of speed" },
+              { id: "b", text: "Memorisation of the piece" },
+              { id: "c", text: "Technical execution of a score" },
+              { id: "d", text: "Communication of musical intention to an audience" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -912,12 +912,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Technical perfection with no emotional engagement" },
-              { id: "b", text: "Emotional connection and musical communication" },
-              { id: "c", text: "The length of the programme" },
-              { id: "d", text: "The formality of the venue" },
+              { id: "a", text: "The length of the programme" },
+              { id: "b", text: "The formality of the venue" },
+              { id: "c", text: "Technical perfection with no emotional engagement" },
+              { id: "d", text: "Emotional connection and musical communication" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

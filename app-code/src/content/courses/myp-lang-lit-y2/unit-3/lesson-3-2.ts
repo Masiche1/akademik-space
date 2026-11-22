@@ -58,12 +58,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The bell rang loudly" },
-              { id: "b", text: "The roses smelled sweet" },
+              { id: "a", text: "The roses smelled sweet" },
+              { id: "b", text: "The bell rang loudly" },
               { id: "c", text: "The ice was cold" },
               { id: "d", text: "The sky was grey" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -179,11 +179,11 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Moved" },
-              { id: "b", text: "Travelled" },
-              { id: "c", text: "Darted" },
-              { id: "d", text: "Progressed" },
+              { id: "b", text: "Darted" },
+              { id: "c", text: "Progressed" },
+              { id: "d", text: "Travelled" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [

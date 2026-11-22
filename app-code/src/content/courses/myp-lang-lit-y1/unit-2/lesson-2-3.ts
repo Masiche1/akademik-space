@@ -55,12 +55,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Around the speaker's name" },
-              { id: "b", text: "Around the exact words the character says" },
+              { id: "a", text: "At the end of the story only" },
+              { id: "b", text: "Around the speaker's name" },
               { id: "c", text: "Around the whole paragraph" },
-              { id: "d", text: "At the end of the story only" },
+              { id: "d", text: "Around the exact words the character says" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -140,12 +140,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The narrator's description" },
-              { id: "b", text: "The exact words a character says" },
-              { id: "c", text: "The character's name only" },
-              { id: "d", text: "The whole story" },
+              { id: "a", text: "The whole story" },
+              { id: "b", text: "The narrator's description" },
+              { id: "c", text: "The exact words a character says" },
+              { id: "d", text: "The character's name only" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "convention", name: "Speech marks", statement: "Speech marks enclose exact spoken words." }],
@@ -161,12 +161,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Start a new paragraph" },
-              { id: "b", text: "Use bigger letters" },
-              { id: "c", text: "Add a full stop only" },
-              { id: "d", text: "Nothing different" },
+              { id: "a", text: "Nothing different" },
+              { id: "b", text: "Start a new paragraph" },
+              { id: "c", text: "Use bigger letters" },
+              { id: "d", text: "Add a full stop only" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "convention", name: "Paragraph per speaker", statement: "A new paragraph begins each time the speaker changes." }],
@@ -183,11 +183,11 @@ export const lesson23: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Leila said, 'I love ice cream'." },
-              { id: "b", text: "Leila said 'I love ice cream.'" },
-              { id: "c", text: "Leila, said 'I love ice cream.'" },
-              { id: "d", text: "'Leila said I love ice cream.'" },
+              { id: "b", text: "Leila, said 'I love ice cream.'" },
+              { id: "c", text: "'Leila said I love ice cream.'" },
+              { id: "d", text: "Leila said 'I love ice cream.'" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "convention", name: "Dialogue punctuation", statement: "Speech marks around words; punctuation inside the marks." }],
@@ -250,9 +250,9 @@ export const lesson23: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "'Let's go,' said Ana." },
-              { id: "b", text: "'Let's go', said Ana." },
+              { id: "b", text: "Let's go, said Ana." },
               { id: "c", text: "'Let's go said,' Ana." },
-              { id: "d", text: "Let's go, said Ana." },
+              { id: "d", text: "'Let's go', said Ana." },
             ],
             correctChoiceId: "a",
           },
@@ -314,10 +314,10 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Sam said I am happy." },
+              { id: "a", text: "Sam 'said' I am happy." },
               { id: "b", text: "Sam said 'I am happy.'" },
-              { id: "c", text: "Sam 'said' I am happy." },
-              { id: "d", text: "'Sam said I am happy'" },
+              { id: "c", text: "'Sam said I am happy'" },
+              { id: "d", text: "Sam said I am happy." },
             ],
             correctChoiceId: "b",
           },
@@ -335,12 +335,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "'Are you coming to the park?'" },
-              { id: "b", text: "Are you coming to the park." },
-              { id: "c", text: "'Are you coming to the park.'" },
-              { id: "d", text: "Are you 'coming to the park?'" },
+              { id: "a", text: "'Are you coming to the park.'" },
+              { id: "b", text: "'Are you coming to the park?'" },
+              { id: "c", text: "Are you 'coming to the park?'" },
+              { id: "d", text: "Are you coming to the park." },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "convention", name: "Dialogue punctuation", statement: "Questions inside speech take '?' inside the marks." }],
@@ -409,10 +409,10 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A new day has started" },
+              { id: "a", text: "The story has ended" },
               { id: "b", text: "A different character is speaking" },
-              { id: "c", text: "The story has ended" },
-              { id: "d", text: "The setting has changed" },
+              { id: "c", text: "The setting has changed" },
+              { id: "d", text: "A new day has started" },
             ],
             correctChoiceId: "b",
           },
@@ -509,12 +509,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The colour of the text" },
-              { id: "b", text: "Words like 'said Ana' or a new paragraph" },
+              { id: "a", text: "Words like 'said Ana' or a new paragraph" },
+              { id: "b", text: "The colour of the text" },
               { id: "c", text: "The length of the line" },
               { id: "d", text: "The page number" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "convention", name: "Speaker signals", statement: "Speech verbs and new paragraphs identify the speaker." }],
@@ -530,10 +530,10 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Happy" },
+              { id: "a", text: "Sleepy" },
               { id: "b", text: "Upset or worried" },
               { id: "c", text: "Bored" },
-              { id: "d", text: "Sleepy" },
+              { id: "d", text: "Happy" },
             ],
             correctChoiceId: "b",
           },
@@ -551,12 +551,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Reporting what someone said without their exact words" },
-              { id: "b", text: "Writing speech inside speech marks" },
-              { id: "c", text: "Dialogue in a play script" },
-              { id: "d", text: "Whispering words quietly" },
+              { id: "a", text: "Writing speech inside speech marks" },
+              { id: "b", text: "Reporting what someone said without their exact words" },
+              { id: "c", text: "Whispering words quietly" },
+              { id: "d", text: "Dialogue in a play script" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "convention", name: "Indirect speech", statement: "Indirect speech reports words without quoting them exactly." }],
@@ -633,12 +633,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Direct speech" },
-              { id: "b", text: "Indirect speech" },
-              { id: "c", text: "Dialogue" },
+              { id: "a", text: "Dialogue" },
+              { id: "b", text: "Direct speech" },
+              { id: "c", text: "Indirect speech" },
               { id: "d", text: "A question" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "convention", name: "Indirect speech", statement: "Indirect speech reports words without speech marks." }],
@@ -704,11 +704,11 @@ export const lesson23: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "The person reading the story" },
-              { id: "b", text: "The character who says a line" },
-              { id: "c", text: "The author" },
-              { id: "d", text: "The narrator only" },
+              { id: "b", text: "The narrator only" },
+              { id: "c", text: "The character who says a line" },
+              { id: "d", text: "The author" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "convention", name: "Speaker", statement: "The speaker is the character who says a line." }],
@@ -724,12 +724,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Confident" },
-              { id: "b", text: "Worried or hopeless" },
-              { id: "c", text: "Angry" },
+              { id: "a", text: "Worried or hopeless" },
+              { id: "b", text: "Angry" },
+              { id: "c", text: "Confident" },
               { id: "d", text: "Bored" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Dialogue and feeling", statement: "Words like 'moaned' and the content show emotion." }],

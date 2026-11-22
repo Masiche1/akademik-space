@@ -54,11 +54,11 @@ export const lesson103: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "A gentle comparison" },
-              { id: "b", text: "Deliberate exaggeration" },
-              { id: "c", text: "A sound word" },
-              { id: "d", text: "A rhyme" },
+              { id: "b", text: "A sound word" },
+              { id: "c", text: "A rhyme" },
+              { id: "d", text: "Deliberate exaggeration" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -87,12 +87,12 @@ export const lesson103: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Simile" },
-              { id: "b", text: "Metaphor" },
+              { id: "a", text: "Alliteration" },
+              { id: "b", text: "Simile" },
               { id: "c", text: "Personification" },
-              { id: "d", text: "Alliteration" },
+              { id: "d", text: "Metaphor" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -227,10 +227,10 @@ export const lesson103: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A direct quote" },
+              { id: "a", text: "A rhyme" },
               { id: "b", text: "A reference to something well-known" },
               { id: "c", text: "A metaphor" },
-              { id: "d", text: "A rhyme" },
+              { id: "d", text: "A direct quote" },
             ],
             correctChoiceId: "b",
           },
@@ -258,11 +258,11 @@ export const lesson103: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "A foot problem" },
-              { id: "b", text: "A fatal weakness" },
+              { id: "b", text: "A fast runner" },
               { id: "c", text: "Greek food" },
-              { id: "d", text: "A fast runner" },
+              { id: "d", text: "A fatal weakness" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

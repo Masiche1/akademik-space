@@ -53,12 +53,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "West Germany" },
-              { id: "b", text: "France" },
-              { id: "c", text: "Italy" },
-              { id: "d", text: "Spain" },
+              { id: "a", text: "Italy" },
+              { id: "b", text: "Spain" },
+              { id: "c", text: "West Germany" },
+              { id: "d", text: "France" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -151,9 +151,9 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Only military spending" },
+              { id: "a", text: "The legitimacy of democracy itself" },
               { id: "b", text: "Cold War conformity, consumer capitalism and the Vietnam War" },
-              { id: "c", text: "The legitimacy of democracy itself" },
+              { id: "c", text: "Only military spending" },
               { id: "d", text: "Religious institutions exclusively" },
             ],
             correctChoiceId: "b",
@@ -179,12 +179,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The Eiffel Tower" },
-              { id: "b", text: "The Sorbonne university" },
-              { id: "c", text: "The French parliament" },
+              { id: "a", text: "The Sorbonne university" },
+              { id: "b", text: "The French parliament" },
+              { id: "c", text: "The Eiffel Tower" },
               { id: "d", text: "The Louvre museum" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -207,12 +207,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A successful Czech revolution that ended Soviet control" },
-              { id: "b", text: "A reform movement crushed by a Soviet invasion in August 1968" },
-              { id: "c", text: "A student protest in West Germany" },
-              { id: "d", text: "A Soviet economic summit" },
+              { id: "a", text: "A reform movement crushed by a Soviet invasion in August 1968" },
+              { id: "b", text: "A student protest in West Germany" },
+              { id: "c", text: "A Soviet economic summit" },
+              { id: "d", text: "A successful Czech revolution that ended Soviet control" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -235,10 +235,10 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "After the Olympic Games ended" },
+              { id: "a", text: "In the same month as May 1968 in Paris" },
               { id: "b", text: "Just before the Mexico City Olympics" },
               { id: "c", text: "During the Cuban Missile Crisis" },
-              { id: "d", text: "In the same month as May 1968 in Paris" },
+              { id: "d", text: "After the Olympic Games ended" },
             ],
             correctChoiceId: "b",
           },
@@ -263,10 +263,10 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Was overthrown and exiled" },
+              { id: "a", text: "Negotiated France's withdrawal from NATO" },
               { id: "b", text: "Briefly fled the country before returning" },
               { id: "c", text: "Declared martial law permanently" },
-              { id: "d", text: "Negotiated France's withdrawal from NATO" },
+              { id: "d", text: "Was overthrown and exiled" },
             ],
             correctChoiceId: "b",
           },
@@ -291,12 +291,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Produced immediate revolutions in most countries" },
-              { id: "b", text: "Transformed politics and cultural values despite limited immediate success" },
-              { id: "c", text: "Ended the Cold War" },
+              { id: "a", text: "Transformed politics and cultural values despite limited immediate success" },
+              { id: "b", text: "Ended the Cold War" },
+              { id: "c", text: "Produced immediate revolutions in most countries" },
               { id: "d", text: "Created permanent student governments" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -470,12 +470,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Allied with the USSR against the US" },
-              { id: "b", text: "Allow newly independent states to avoid alliance with either Cold War bloc" },
+              { id: "a", text: "Allow newly independent states to avoid alliance with either Cold War bloc" },
+              { id: "b", text: "Allied with the USSR against the US" },
               { id: "c", text: "Create a military alliance in Africa" },
               { id: "d", text: "Support colonial powers" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -570,11 +570,11 @@ export const lesson52: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "1955" },
-              { id: "b", text: "1963" },
+              { id: "b", text: "1975" },
               { id: "c", text: "1968" },
-              { id: "d", text: "1975" },
+              { id: "d", text: "1963" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -598,11 +598,11 @@ export const lesson52: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "1957" },
-              { id: "b", text: "1963" },
-              { id: "c", text: "1968" },
+              { id: "b", text: "1968" },
+              { id: "c", text: "1963" },
               { id: "d", text: "1972" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -625,12 +625,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The Bandung Conference of 1955" },
+              { id: "a", text: "The UN General Assembly of 1945" },
               { id: "b", text: "The Treaty of Rome" },
-              { id: "c", text: "The UN General Assembly of 1945" },
+              { id: "c", text: "The Bandung Conference of 1955" },
               { id: "d", text: "The Marshall Plan negotiations" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -653,12 +653,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Peaceful reform within colonial systems" },
-              { id: "b", text: "Anti-colonial violence and liberation" },
-              { id: "c", text: "The economic benefits of continued colonialism" },
-              { id: "d", text: "Western-style democracy for Africa" },
+              { id: "a", text: "The economic benefits of continued colonialism" },
+              { id: "b", text: "Peaceful reform within colonial systems" },
+              { id: "c", text: "Western-style democracy for Africa" },
+              { id: "d", text: "Anti-colonial violence and liberation" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -681,12 +681,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The civil rights movement in the South" },
-              { id: "b", text: "The women's liberation movement" },
-              { id: "c", text: "Anti-colonial guerrilla armies" },
-              { id: "d", text: "Soviet dissident networks" },
+              { id: "a", text: "Anti-colonial guerrilla armies" },
+              { id: "b", text: "Soviet dissident networks" },
+              { id: "c", text: "The civil rights movement in the South" },
+              { id: "d", text: "The women's liberation movement" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -709,12 +709,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Conservative religious leaders" },
-              { id: "b", text: "Black feminists and postcolonial thinkers who highlighted race and class" },
-              { id: "c", text: "Male trade unionists" },
-              { id: "d", text: "European colonial administrations" },
+              { id: "a", text: "Black feminists and postcolonial thinkers who highlighted race and class" },
+              { id: "b", text: "Conservative religious leaders" },
+              { id: "c", text: "European colonial administrations" },
+              { id: "d", text: "Male trade unionists" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

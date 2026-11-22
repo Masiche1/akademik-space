@@ -32,8 +32,11 @@ export const lesson43: Lesson = {
           id: "olm-u4-s3-co-q1", difficulty: "foundation", totalMarks: 1,
           stem: "Two triangles are congruent if…",
           response: { type: "mcq", choices: [
-            { id: "a", text: "All corresponding sides and angles are equal" }, { id: "b", text: "They have the same area" }, { id: "c", text: "They look similar" }, { id: "d", text: "They have equal perimeters only" },
-          ], correctChoiceId: "a" },
+            { id: "a", text: "They have equal perimeters only" },
+            { id: "b", text: "They have the same area" },
+            { id: "c", text: "They look similar" },
+            { id: "d", text: "All corresponding sides and angles are equal" },
+          ], correctChoiceId: "d" },
           markscheme: { principles: [{ kind: "definition", name: "Congruent", statement: "Same shape and size." }], steps: [{ reasoning: "Congruence = identical.", marks: 1, markCode: "A" }], finalAnswer: "All corresponding parts equal" },
         },
         {
@@ -66,6 +69,130 @@ export const lesson43: Lesson = {
             { reasoning: "Proof complete.", marks: 1, markCode: "A" },
           ], finalAnswer: "Diagonals bisect each other" },
         },
+        {
+          id: "olm-u4-s3-co-q5", difficulty: "foundation", totalMarks: 1,
+          stem: "Which of the following is NOT a valid congruence test for triangles?",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "ASA" },
+            { id: "b", text: "SSA" },
+            { id: "c", text: "SSS" },
+            { id: "d", text: "SAS" },
+          ], correctChoiceId: "b" },
+          markscheme: { principles: [{ kind: "theorem", name: "Congruence tests", statement: "SSA is ambiguous." }], steps: [{ reasoning: "SSA does not guarantee congruence.", marks: 1, markCode: "A" }], finalAnswer: "SSA" },
+        },
+        {
+          id: "olm-u4-s3-co-q6", difficulty: "foundation", totalMarks: 1,
+          stem: "Two triangles have all three pairs of corresponding sides equal. The congruence test that applies is…",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "SSS" },
+            { id: "b", text: "RHS" },
+            { id: "c", text: "ASA" },
+            { id: "d", text: "SAS" },
+          ], correctChoiceId: "a" },
+          markscheme: { principles: [{ kind: "theorem", name: "SSS", statement: "Three equal sides." }], steps: [{ reasoning: "All sides equal → SSS.", marks: 1, markCode: "A" }], finalAnswer: "SSS" },
+        },
+        {
+          id: "olm-u4-s3-co-q7", difficulty: "foundation", totalMarks: 1,
+          stem: "CPCTC stands for…",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "Corresponding angles of similar triangles are equal" },
+            { id: "b", text: "Common parts of congruent triangles are equal" },
+            { id: "c", text: "Corresponding sides of congruent triangles are similar" },
+            { id: "d", text: "Corresponding parts of congruent triangles are equal" },
+          ], correctChoiceId: "d" },
+          markscheme: { principles: [{ kind: "definition", name: "CPCTC", statement: "Corresponding parts equal." }], steps: [{ reasoning: "Standard abbreviation.", marks: 1, markCode: "A" }], finalAnswer: "Corresponding parts of congruent triangles are equal" },
+        },
+        {
+          id: "olm-u4-s3-co-q8", difficulty: "core", totalMarks: 2,
+          stem: "Triangle ABC is congruent to triangle DEF. AB = 3 cm, BC = 4 cm, CA = 5 cm and DE = 3 cm, EF = 4 cm. Find DF.",
+          response: { type: "numeric", parts: [{ label: "a", answer: 5 }] },
+          markscheme: { principles: [{ kind: "theorem", name: "CPCTC", statement: "Corresponding sides equal." }], steps: [
+            { reasoning: "Congruent → corresponding sides equal: $DF=CA=5$ cm.", marks: 1, markCode: "M" },
+            { reasoning: "Answer: 5 cm.", marks: 1, markCode: "A" },
+          ], finalAnswer: "5 cm" },
+        },
+        {
+          id: "olm-u4-s3-co-q9", difficulty: "core", totalMarks: 3,
+          stem: "In triangles PQR and STU, PQ = ST, QR = TU and PR = SU. State the congruence test and one conclusion that follows.",
+          response: { type: "open" },
+          markscheme: { principles: [{ kind: "theorem", name: "SSS", statement: "Three sides equal." }], steps: [
+            { reasoning: "All three corresponding sides are equal → SSS.", marks: 1, markCode: "M" },
+            { reasoning: "By CPCTC, e.g. angle P = angle S (or all corresponding angles equal).", marks: 1, markCode: "M" },
+            { reasoning: "Answer stated.", marks: 1, markCode: "A" },
+          ], finalAnswer: "SSS; corresponding angles equal" },
+        },
+        {
+          id: "olm-u4-s3-co-q10", difficulty: "core", totalMarks: 2,
+          stem: "Triangle ABC is congruent to triangle DEF. Angle A = 40° and angle B = 60°. Find angle C.",
+          response: { type: "numeric", parts: [{ label: "a", answer: 80 }] },
+          markscheme: { principles: [{ kind: "property", name: "Angle sum", statement: "180° in a triangle." }], steps: [
+            { reasoning: "$C=180-40-60=80°$.", marks: 1, markCode: "M" },
+            { reasoning: "Answer: $80°$.", marks: 1, markCode: "A" },
+          ], finalAnswer: "$80°$" },
+        },
+        {
+          id: "olm-u4-s3-co-q11", difficulty: "challenge", totalMarks: 1,
+          stem: "The RHS congruence test can be used only for…",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "Right-angled triangles" },
+            { id: "b", text: "Any triangle" },
+            { id: "c", text: "Equilateral triangles" },
+            { id: "d", text: "Isosceles triangles" },
+          ], correctChoiceId: "a" },
+          markscheme: { principles: [{ kind: "theorem", name: "RHS", statement: "Requires right angle." }], steps: [{ reasoning: "RHS applies only to right-angled triangles.", marks: 1, markCode: "A" }], finalAnswer: "Right-angled triangles" },
+        },
+        {
+          id: "olm-u4-s3-co-q12", difficulty: "challenge", totalMarks: 4,
+          stem: "Prove that the diagonals of a rectangle are equal in length, using congruent triangles.",
+          response: { type: "open" },
+          markscheme: { principles: [{ kind: "technique", name: "Proof via congruence", statement: "RHS on two triangles." }], steps: [
+            { reasoning: "In rectangle ABCD, consider triangles ABC and DCB: AB = DC (opposite sides), BC is common, angles ABC and DCB are both $90°$.", marks: 1, markCode: "M" },
+            { reasoning: "So the triangles are congruent by RHS.", marks: 1, markCode: "M" },
+            { reasoning: "By CPCTC, AC = DB.", marks: 1, markCode: "M" },
+            { reasoning: "Proof complete: the diagonals are equal.", marks: 1, markCode: "A" },
+          ], finalAnswer: "Diagonals are equal" },
+        },
+        {
+          id: "olm-u4-s3-co-q13", difficulty: "core", totalMarks: 2,
+          stem: "Triangle ABC is congruent to triangle DEF. The sides of ABC are 3 cm, 4 cm and 5 cm. Find the perimeter of DEF.",
+          response: { type: "numeric", parts: [{ label: "a", answer: 12 }] },
+          markscheme: { principles: [{ kind: "theorem", name: "CPCTC", statement: "Corresponding sides equal." }], steps: [
+            { reasoning: "DEF has sides 3, 4, 5 → perimeter $=12$ cm.", marks: 1, markCode: "M" },
+            { reasoning: "Answer: 12 cm.", marks: 1, markCode: "A" },
+          ], finalAnswer: "12 cm" },
+        },
+        {
+          id: "olm-u4-s3-co-q14", difficulty: "core", totalMarks: 3,
+          stem: "Two triangles have two sides equal and a non-included angle equal. Can you conclude the triangles are congruent? Explain.",
+          response: { type: "open" },
+          markscheme: { principles: [{ kind: "theorem", name: "SSA", statement: "Not a valid test." }], steps: [
+            { reasoning: "No — this is the SSA case, which is ambiguous.", marks: 1, markCode: "M" },
+            { reasoning: "Two different triangles can share two sides and a non-included angle.", marks: 1, markCode: "M" },
+            { reasoning: "Answer: cannot conclude congruence.", marks: 1, markCode: "A" },
+          ], finalAnswer: "No, SSA is ambiguous" },
+        },
+        {
+          id: "olm-u4-s3-co-q15", difficulty: "challenge", totalMarks: 4,
+          stem: "In quadrilateral ABCD, AB = AD and CB = CD. Prove that AC bisects angle BAD and angle BCD.",
+          response: { type: "open" },
+          markscheme: { principles: [{ kind: "technique", name: "Proof via SSS", statement: "Shared diagonal AC." }], steps: [
+            { reasoning: "Triangles ABC and ADC: AB = AD, BC = DC, AC common → congruent by SSS.", marks: 1, markCode: "M" },
+            { reasoning: "By CPCTC, angle BAC = angle DAC and angle BCA = angle DCA.", marks: 1, markCode: "M" },
+            { reasoning: "Equal angles on either side of AC → AC bisects angle BAD and angle BCD.", marks: 1, markCode: "M" },
+            { reasoning: "Proof complete.", marks: 1, markCode: "A" },
+          ], finalAnswer: "AC bisects both angles" },
+        },
+        {
+          id: "olm-u4-s3-co-q16", difficulty: "core", totalMarks: 1,
+          stem: "Two congruent triangles always have…",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "Only equal corresponding angles" },
+            { id: "b", text: "Equal areas and perimeters" },
+            { id: "c", text: "Only equal perimeters" },
+            { id: "d", text: "The same orientation" },
+          ], correctChoiceId: "b" },
+          markscheme: { principles: [{ kind: "definition", name: "Congruent", statement: "Identical shape and size." }], steps: [{ reasoning: "All corresponding parts equal → equal area and perimeter.", marks: 1, markCode: "A" }], finalAnswer: "Equal areas and perimeters" },
+        },
       ],
     },
     {
@@ -88,8 +215,11 @@ export const lesson43: Lesson = {
           id: "olm-u4-s3-si-q1", difficulty: "foundation", totalMarks: 1,
           stem: "Similar shapes have…",
           response: { type: "mcq", choices: [
-            { id: "a", text: "Equal angles and proportional sides" }, { id: "b", text: "Equal sides only" }, { id: "c", text: "Same area" }, { id: "d", text: "Equal perimeters" },
-          ], correctChoiceId: "a" },
+            { id: "a", text: "Equal perimeters" },
+            { id: "b", text: "Equal angles and proportional sides" },
+            { id: "c", text: "Equal sides only" },
+            { id: "d", text: "Same area" },
+          ], correctChoiceId: "b" },
           markscheme: { principles: [{ kind: "definition", name: "Similar", statement: "Same shape, proportional." }], steps: [{ reasoning: "Standard definition.", marks: 1, markCode: "A" }], finalAnswer: "Equal angles, proportional sides" },
         },
         {
@@ -121,6 +251,129 @@ export const lesson43: Lesson = {
             { reasoning: "Answer: 625 cm² (or $0.0625$ m²).", marks: 1, markCode: "M" },
             { reasoning: "Units converted correctly.", marks: 1, markCode: "A" },
           ], finalAnswer: "625 cm²" },
+        },
+        {
+          id: "olm-u4-s3-si-q5", difficulty: "foundation", totalMarks: 1,
+          stem: "If two shapes are similar, their corresponding angles are…",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "Complementary" },
+            { id: "b", text: "Supplementary" },
+            { id: "c", text: "Proportional" },
+            { id: "d", text: "Equal" },
+          ], correctChoiceId: "d" },
+          markscheme: { principles: [{ kind: "definition", name: "Similar", statement: "Equal angles." }], steps: [{ reasoning: "Corresponding angles are equal.", marks: 1, markCode: "A" }], finalAnswer: "Equal" },
+        },
+        {
+          id: "olm-u4-s3-si-q6", difficulty: "foundation", totalMarks: 1,
+          stem: "Two similar triangles have sides 5, 7, 9 and 10, 14, 18. The scale factor is…",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "3" },
+            { id: "b", text: "1" },
+            { id: "c", text: "4" },
+            { id: "d", text: "2" },
+          ], correctChoiceId: "d" },
+          markscheme: { principles: [{ kind: "definition", name: "Scale factor", statement: "Ratio of corresponding sides." }], steps: [{ reasoning: "$\\frac{10}{5}=2$.", marks: 1, markCode: "A" }], finalAnswer: "2" },
+        },
+        {
+          id: "olm-u4-s3-si-q7", difficulty: "foundation", totalMarks: 2,
+          stem: "A shape is enlarged with scale factor 4. A side of length 3.5 cm becomes…",
+          response: { type: "numeric", parts: [{ label: "a", answer: 14 }] },
+          markscheme: { principles: [{ kind: "formula", name: "Scale factor", statement: "New = k × old." }], steps: [
+            { reasoning: "$4\\times3.5=14$ cm.", marks: 1, markCode: "M" },
+            { reasoning: "Answer: 14 cm.", marks: 1, markCode: "A" },
+          ], finalAnswer: "14 cm" },
+        },
+        {
+          id: "olm-u4-s3-si-q8", difficulty: "core", totalMarks: 1,
+          stem: "The volumes of two similar solids are in the ratio 8 : 1. The ratio of their corresponding lengths is…",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "3 : 1" },
+            { id: "b", text: "2 : 1" },
+            { id: "c", text: "4 : 1" },
+            { id: "d", text: "8 : 1" },
+          ], correctChoiceId: "b" },
+          markscheme: { principles: [{ kind: "formula", name: "Volume scaling", statement: "$k^3$." }], steps: [{ reasoning: "$k^3=8$ → $k=2$.", marks: 1, markCode: "A" }], finalAnswer: "2 : 1" },
+        },
+        {
+          id: "olm-u4-s3-si-q9", difficulty: "core", totalMarks: 3,
+          stem: "The areas of two similar shapes are in the ratio 9 : 4. Find the scale factor from the smaller to the larger shape.",
+          response: { type: "open" },
+          markscheme: { principles: [{ kind: "formula", name: "Area scaling", statement: "$k^2$." }], steps: [
+            { reasoning: "$k^2=\\frac{9}{4}$.", marks: 1, markCode: "M" },
+            { reasoning: "$k=\\frac32=1.5$.", marks: 1, markCode: "M" },
+            { reasoning: "Answer: $1.5$ (or $\\frac32$).", marks: 1, markCode: "A" },
+          ], finalAnswer: "$\\frac32$" },
+        },
+        {
+          id: "olm-u4-s3-si-q10", difficulty: "core", totalMarks: 3,
+          stem: "A model is made at a scale of 1 : 50. A real length of 25 m is represented on the model by…",
+          response: { type: "numeric", parts: [{ label: "a", answer: 0.5 }] },
+          markscheme: { principles: [{ kind: "technique", name: "Map scale", statement: "Divide by scale." }], steps: [
+            { reasoning: "Model length $=\\frac{25}{50}=0.5$ m.", marks: 1, markCode: "M" },
+            { reasoning: "Answer: 0.5 m (50 cm).", marks: 1, markCode: "M" },
+            { reasoning: "Answer stated.", marks: 1, markCode: "A" },
+          ], finalAnswer: "0.5 m" },
+        },
+        {
+          id: "olm-u4-s3-si-q11", difficulty: "challenge", totalMarks: 1,
+          stem: "When lengths are scaled by a factor of $k$, surface areas scale by…",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "$k^3$" },
+            { id: "b", text: "$k$" },
+            { id: "c", text: "$k^2$" },
+            { id: "d", text: "$2k$" },
+          ], correctChoiceId: "c" },
+          markscheme: { principles: [{ kind: "formula", name: "Area scaling", statement: "$k^2$." }], steps: [{ reasoning: "Area scales by $k^2$.", marks: 1, markCode: "A" }], finalAnswer: "$k^2$" },
+        },
+        {
+          id: "olm-u4-s3-si-q12", difficulty: "challenge", totalMarks: 4,
+          stem: "At the same time of day, a vertical stick 1.5 m tall casts a shadow 0.75 m long. A nearby flagpole casts a shadow 6 m long. Find the height of the flagpole.",
+          response: { type: "open" },
+          markscheme: { principles: [{ kind: "technique", name: "Shadow similarity", statement: "Similar right triangles." }], steps: [
+            { reasoning: "Triangles are similar (same sun angle): $\\frac{\\text{height}}{\\text{shadow}}$ is constant.", marks: 1, markCode: "M" },
+            { reasoning: "Ratio $=\\frac{1.5}{0.75}=2$.", marks: 1, markCode: "M" },
+            { reasoning: "Flagpole height $=2\\times6=12$ m.", marks: 1, markCode: "M" },
+            { reasoning: "Answer: 12 m.", marks: 1, markCode: "A" },
+          ], finalAnswer: "12 m" },
+        },
+        {
+          id: "olm-u4-s3-si-q13", difficulty: "foundation", totalMarks: 2,
+          stem: "Two similar shapes have scale factor 3. What is the ratio of their volumes?",
+          response: { type: "numeric", parts: [{ label: "a", answer: 27 }] },
+          markscheme: { principles: [{ kind: "formula", name: "Volume scaling", statement: "$k^3$." }], steps: [
+            { reasoning: "$3^3=27$ → ratio 1 : 27.", marks: 1, markCode: "M" },
+            { reasoning: "Answer: 1 : 27.", marks: 1, markCode: "A" },
+          ], finalAnswer: "1 : 27" },
+        },
+        {
+          id: "olm-u4-s3-si-q14", difficulty: "core", totalMarks: 3,
+          stem: "Two similar triangles have areas 16 cm² and 36 cm². Find the ratio of a pair of corresponding sides.",
+          response: { type: "open" },
+          markscheme: { principles: [{ kind: "formula", name: "Area scaling", statement: "$k^2$ then sides." }], steps: [
+            { reasoning: "$k^2=\\frac{36}{16}=\\frac94$ → $k=\\frac32$.", marks: 1, markCode: "M" },
+            { reasoning: "Sides in ratio $16{:}36$ square-root → $4{:}6=2{:}3$.", marks: 1, markCode: "M" },
+            { reasoning: "Answer: 2 : 3.", marks: 1, markCode: "A" },
+          ], finalAnswer: "2 : 3" },
+        },
+        {
+          id: "olm-u4-s3-si-q15", difficulty: "challenge", totalMarks: 4,
+          stem: "On a map with scale 1 : 25 000, two towns are 8 cm apart. Find the real distance between them in kilometres.",
+          response: { type: "open" },
+          markscheme: { principles: [{ kind: "technique", name: "Map scale", statement: "Multiply then convert." }], steps: [
+            { reasoning: "Real distance $=8\\times25\\,000=200\\,000$ cm.", marks: 1, markCode: "M" },
+            { reasoning: "$200\\,000$ cm $=2000$ m $=2$ km.", marks: 1, markCode: "M" },
+            { reasoning: "Answer shown in km.", marks: 1, markCode: "M" },
+            { reasoning: "Answer: 2 km.", marks: 1, markCode: "A" },
+          ], finalAnswer: "2 km" },
+        },
+        {
+          id: "olm-u4-s3-si-q16", difficulty: "core", totalMarks: 2,
+          stem: "Two similar shapes have scale factor 2.5. The perimeter of the smaller is 12 cm. Find the perimeter of the larger.",
+          response: { type: "numeric", parts: [{ label: "a", answer: 30 }] },
+          markscheme: { principles: [{ kind: "formula", name: "Perimeter scaling", statement: "Scales by $k$." }], steps: [
+            { reasoning: "$2.5\\times12=30$ cm.", marks: 1, markCode: "M" },
+            { reasoning: "Answer: 30 cm.", marks: 1, markCode: "A" },
+          ], finalAnswer: "30 cm" },
         },
       ],
     },

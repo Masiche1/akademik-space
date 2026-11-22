@@ -58,11 +58,11 @@ export const lesson13: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Engine thrust" },
-              { id: "b", text: "Friction between tyres and road" },
-              { id: "c", text: "Gravity" },
-              { id: "d", text: "Air resistance" },
+              { id: "b", text: "Gravity" },
+              { id: "c", text: "Air resistance" },
+              { id: "d", text: "Friction between tyres and road" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Centripetal force", statement: "Net inward force causes circular motion." }],
@@ -82,12 +82,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "4 m/s²" },
-              { id: "b", text: "8 m/s²" },
-              { id: "c", text: "16 m/s²" },
-              { id: "d", text: "2 m/s²" },
+              { id: "a", text: "16 m/s²" },
+              { id: "b", text: "4 m/s²" },
+              { id: "c", text: "2 m/s²" },
+              { id: "d", text: "8 m/s²" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Centripetal acceleration", statement: "$a = v^2/r = 16/1$" }],
@@ -108,12 +108,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "3 N" },
-              { id: "b", text: "4.5 N" },
-              { id: "c", text: "9 N" },
+              { id: "a", text: "9 N" },
+              { id: "b", text: "3 N" },
+              { id: "c", text: "4.5 N" },
               { id: "d", text: "18 N" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Centripetal force", statement: "$F = mv^2/r = 0.5 \\times 36 / 2$" }],
@@ -168,11 +168,11 @@ export const lesson13: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Tangentially to the circle" },
-              { id: "b", text: "Towards the centre of the circle" },
-              { id: "c", text: "Away from the centre" },
-              { id: "d", text: "Vertically upwards" },
+              { id: "b", text: "Away from the centre" },
+              { id: "c", text: "Vertically upwards" },
+              { id: "d", text: "Towards the centre of the circle" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Centripetal force", statement: "Always directed towards the centre of the circle." }],
@@ -211,12 +211,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Engine thrust" },
-              { id: "b", text: "Friction between tyres and road" },
-              { id: "c", text: "Gravity" },
-              { id: "d", text: "Air resistance" },
+              { id: "a", text: "Air resistance" },
+              { id: "b", text: "Engine thrust" },
+              { id: "c", text: "Friction between tyres and road" },
+              { id: "d", text: "Gravity" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Centripetal source", statement: "On a flat bend, friction supplies the inward force." }],
@@ -257,10 +257,10 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It doubles" },
+              { id: "a", text: "It stays the same" },
               { id: "b", text: "It quadruples" },
               { id: "c", text: "It halves" },
-              { id: "d", text: "It stays the same" },
+              { id: "d", text: "It doubles" },
             ],
             correctChoiceId: "b",
           },
@@ -366,11 +366,11 @@ export const lesson13: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "A real outward force pushes the passenger" },
-              { id: "b", text: "The passenger's inertia resists the change in direction" },
+              { id: "b", text: "Friction pushes the passenger outwards" },
               { id: "c", text: "Gravity pushes the passenger outwards" },
-              { id: "d", text: "Friction pushes the passenger outwards" },
+              { id: "d", text: "The passenger's inertia resists the change in direction" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Inertia", statement: "In the car's frame the passenger appears flung outward due to inertia; no real outward force exists." }],
@@ -390,12 +390,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "To make the track look faster" },
-              { id: "b", text: "So the normal reaction has an inward component, reducing the friction needed" },
-              { id: "c", text: "To increase the radius of the turn" },
-              { id: "d", text: "To reduce the mass of the vehicle" },
+              { id: "a", text: "To reduce the mass of the vehicle" },
+              { id: "b", text: "To increase the radius of the turn" },
+              { id: "c", text: "To make the track look faster" },
+              { id: "d", text: "So the normal reaction has an inward component, reducing the friction needed" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Banked curves", statement: "Normal reaction's horizontal component helps provide centripetal force." }],
@@ -515,12 +515,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "N" },
-              { id: "b", text: "N/m" },
-              { id: "c", text: "Pa" },
-              { id: "d", text: "J" },
+              { id: "a", text: "J" },
+              { id: "b", text: "Pa" },
+              { id: "c", text: "N/m" },
+              { id: "d", text: "N" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Pressure", statement: "$p = F/A$; unit pascal (Pa)." }],
@@ -541,9 +541,9 @@ export const lesson13: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "2000 kg/m³" },
-              { id: "b", text: "2880 kg/m³" },
+              { id: "b", text: "4800 kg/m³" },
               { id: "c", text: "1200 kg/m³" },
-              { id: "d", text: "4800 kg/m³" },
+              { id: "d", text: "2880 kg/m³" },
             ],
             correctChoiceId: "a",
           },
@@ -566,12 +566,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "10 N" },
-              { id: "b", text: "45 N" },
-              { id: "c", text: "90 N" },
-              { id: "d", text: "15 N" },
+              { id: "a", text: "90 N" },
+              { id: "b", text: "15 N" },
+              { id: "c", text: "45 N" },
+              { id: "d", text: "10 N" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Moments", statement: "$F_1d_1 = F_2d_2$ → $30 \\times 1.5 = F \\times 0.5$" }],
@@ -626,8 +626,8 @@ export const lesson13: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$\\rho = \\frac{m}{V}$" },
-              { id: "b", text: "$\\rho = \\frac{V}{m}$" },
-              { id: "c", text: "$\\rho = mV$" },
+              { id: "b", text: "$\\rho = mV$" },
+              { id: "c", text: "$\\rho = \\frac{V}{m}$" },
               { id: "d", text: "$\\rho = \\frac{F}{A}$" },
             ],
             correctChoiceId: "a",
@@ -669,12 +669,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It is heavier" },
-              { id: "b", text: "The same force acts over a smaller area, giving higher pressure" },
+              { id: "a", text: "The same force acts over a smaller area, giving higher pressure" },
+              { id: "b", text: "It has less friction" },
               { id: "c", text: "It moves faster" },
-              { id: "d", text: "It has less friction" },
+              { id: "d", text: "It is heavier" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Pressure", statement: "$p = F/A$; smaller contact area → higher pressure." }],
@@ -715,10 +715,10 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "For decoration" },
+              { id: "a", text: "To stop fish swimming upstream" },
               { id: "b", text: "Pressure in a liquid increases with depth ($p = \\rho gh$), so the base must withstand more force" },
               { id: "c", text: "Water is heavier at the bottom" },
-              { id: "d", text: "To stop fish swimming upstream" },
+              { id: "d", text: "For decoration" },
             ],
             correctChoiceId: "b",
           },
@@ -763,12 +763,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "1/3" },
-              { id: "b", text: "3" },
-              { id: "c", text: "1" },
-              { id: "d", text: "9" },
+              { id: "a", text: "3" },
+              { id: "b", text: "1" },
+              { id: "c", text: "9" },
+              { id: "d", text: "1/3" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Mechanical advantage", statement: "MA = effort arm / load arm = 3." }],
@@ -808,12 +808,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "N" },
-              { id: "b", text: "J" },
-              { id: "c", text: "Pa" },
-              { id: "d", text: "kg/m³" },
+              { id: "a", text: "kg/m³" },
+              { id: "b", text: "Pa" },
+              { id: "c", text: "N" },
+              { id: "d", text: "J" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Pressure", statement: "$p = F/A$; unit pascal (Pa = N/m²)." }],
@@ -863,9 +863,9 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "2450 Pa" },
+              { id: "a", text: "98 Pa" },
               { id: "b", text: "4900 Pa" },
-              { id: "c", text: "98 Pa" },
+              { id: "c", text: "2450 Pa" },
               { id: "d", text: "2000 Pa" },
             ],
             correctChoiceId: "b",

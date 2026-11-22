@@ -52,10 +52,10 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The way into the building" },
+              { id: "a", text: "A place to buy tickets" },
               { id: "b", text: "The way out of the building" },
-              { id: "c", text: "A place to buy tickets" },
-              { id: "d", text: "A warning about fire" },
+              { id: "c", text: "A warning about fire" },
+              { id: "d", text: "The way into the building" },
             ],
             correctChoiceId: "b",
           },
@@ -148,11 +148,11 @@ export const lesson21: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "You can go into this place" },
-              { id: "b", text: "You cannot go into this place" },
-              { id: "c", text: "The entrance is free today" },
-              { id: "d", text: "You must buy a ticket first" },
+              { id: "b", text: "The entrance is free today" },
+              { id: "c", text: "You must buy a ticket first" },
+              { id: "d", text: "You cannot go into this place" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -175,11 +175,11 @@ export const lesson21: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "a noun like 'door'" },
-              { id: "b", text: "a verb like 'push' or 'wait'" },
+              { id: "b", text: "the word 'please' always" },
               { id: "c", text: "a number like 'two'" },
-              { id: "d", text: "the word 'please' always" },
+              { id: "d", text: "a verb like 'push' or 'wait'" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -201,12 +201,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "something is free" },
-              { id: "b", text: "something is not allowed" },
+              { id: "a", text: "something is not allowed" },
+              { id: "b", text: "something is free" },
               { id: "c", text: "something is very expensive" },
               { id: "d", text: "there is danger ahead" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -228,12 +228,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "old and near its date" },
-              { id: "b", text: "new and recently made" },
-              { id: "c", text: "frozen solid" },
-              { id: "d", text: "very expensive" },
+              { id: "a", text: "frozen solid" },
+              { id: "b", text: "very expensive" },
+              { id: "c", text: "old and near its date" },
+              { id: "d", text: "new and recently made" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -256,11 +256,11 @@ export const lesson21: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "the shop will open soon" },
-              { id: "b", text: "the shop is not open now" },
-              { id: "c", text: "the shop is for sale" },
-              { id: "d", text: "the shop has moved" },
+              { id: "b", text: "the shop has moved" },
+              { id: "c", text: "the shop is not open now" },
+              { id: "d", text: "the shop is for sale" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -282,12 +282,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Entrance" },
-              { id: "b", text: "Exit" },
-              { id: "c", text: "Open" },
-              { id: "d", text: "Push" },
+              { id: "a", text: "Open" },
+              { id: "b", text: "Push" },
+              { id: "c", text: "Entrance" },
+              { id: "d", text: "Exit" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -309,9 +309,9 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Because it asks a question" },
+              { id: "a", text: "Because it gives a price" },
               { id: "b", text: "Because it tells you not to do something" },
-              { id: "c", text: "Because it gives a price" },
+              { id: "c", text: "Because it asks a question" },
               { id: "d", text: "Because it describes a place" },
             ],
             correctChoiceId: "b",
@@ -337,11 +337,11 @@ export const lesson21: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "the price of the drink" },
-              { id: "b", text: "the amount of liquid in the bottle" },
-              { id: "c", text: "the weight in kilograms" },
-              { id: "d", text: "the country where it was made" },
+              { id: "b", text: "the weight in kilograms" },
+              { id: "c", text: "the country where it was made" },
+              { id: "d", text: "the amount of liquid in the bottle" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -577,12 +577,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The best quality date" },
-              { id: "b", text: "The date after which food may be unsafe" },
-              { id: "c", text: "The price of the product" },
-              { id: "d", text: "The size of the product" },
+              { id: "a", text: "The price of the product" },
+              { id: "b", text: "The size of the product" },
+              { id: "c", text: "The date after which food may be unsafe" },
+              { id: "d", text: "The best quality date" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -672,12 +672,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "the last safe day to eat the food" },
-              { id: "b", text: "the date when the food is at its best quality" },
-              { id: "c", text: "the price of the product" },
-              { id: "d", text: "the size of the pack" },
+              { id: "a", text: "the size of the pack" },
+              { id: "b", text: "the last safe day to eat the food" },
+              { id: "c", text: "the date when the food is at its best quality" },
+              { id: "d", text: "the price of the product" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -699,12 +699,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "very far away" },
-              { id: "b", text: "across from, facing each other" },
+              { id: "a", text: "across from, facing each other" },
+              { id: "b", text: "very far away" },
               { id: "c", text: "right next to" },
               { id: "d", text: "behind you" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -726,12 +726,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Inside the bank" },
-              { id: "b", text: "Beside the bank" },
-              { id: "c", text: "Opposite the bank" },
-              { id: "d", text: "Far from the bank" },
+              { id: "a", text: "Far from the bank" },
+              { id: "b", text: "Opposite the bank" },
+              { id: "c", text: "Inside the bank" },
+              { id: "d", text: "Beside the bank" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -753,10 +753,10 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Turn right" },
+              { id: "a", text: "Go straight on" },
               { id: "b", text: "Turn left" },
               { id: "c", text: "Stop the car" },
-              { id: "d", text: "Go straight on" },
+              { id: "d", text: "Turn right" },
             ],
             correctChoiceId: "b",
           },
@@ -780,9 +780,9 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "the shop is closed this week" },
+              { id: "a", text: "everything is free on Saturday" },
               { id: "b", text: "prices are reduced only during this week" },
-              { id: "c", text: "everything is free on Saturday" },
+              { id: "c", text: "the shop is closed this week" },
               { id: "d", text: "the shop moves this week" },
             ],
             correctChoiceId: "b",
@@ -807,9 +807,9 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "They mean exactly the same thing" },
+              { id: "a", text: "Use by is the price; best before is the size" },
               { id: "b", text: "Use by is about safety; best before is about quality" },
-              { id: "c", text: "Use by is the price; best before is the size" },
+              { id: "c", text: "They mean exactly the same thing" },
               { id: "d", text: "Best before means the food is frozen" },
             ],
             correctChoiceId: "b",
@@ -834,12 +834,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "on your left side" },
-              { id: "b", text: "on your right side" },
-              { id: "c", text: "behind you" },
-              { id: "d", text: "very far away" },
+              { id: "a", text: "very far away" },
+              { id: "b", text: "behind you" },
+              { id: "c", text: "on your left side" },
+              { id: "d", text: "on your right side" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -862,11 +862,11 @@ export const lesson21: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Next to the park" },
-              { id: "b", text: "Inside the park" },
-              { id: "c", text: "Across from the park" },
+              { id: "b", text: "Across from the park" },
+              { id: "c", text: "Inside the park" },
               { id: "d", text: "Behind the bank" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [

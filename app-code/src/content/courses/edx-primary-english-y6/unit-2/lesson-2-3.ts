@@ -57,12 +57,12 @@ export const lesson113: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The title" },
-              { id: "b", text: "The central message/idea" },
-              { id: "c", text: "The setting" },
+              { id: "a", text: "The central message/idea" },
+              { id: "b", text: "The setting" },
+              { id: "c", text: "The title" },
               { id: "d", text: "The genre" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -86,11 +86,11 @@ export const lesson113: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "A one-off detail" },
-              { id: "b", text: "Recurring element with significance" },
-              { id: "c", text: "The plot" },
-              { id: "d", text: "The ending" },
+              { id: "b", text: "The ending" },
+              { id: "c", text: "Recurring element with significance" },
+              { id: "d", text: "The plot" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -240,12 +240,12 @@ export const lesson113: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Copying text" },
-              { id: "b", text: "Combining ideas from texts" },
-              { id: "c", text: "Summarising one text" },
-              { id: "d", text: "Reading quickly" },
+              { id: "a", text: "Summarising one text" },
+              { id: "b", text: "Reading quickly" },
+              { id: "c", text: "Copying text" },
+              { id: "d", text: "Combining ideas from texts" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -270,12 +270,12 @@ export const lesson113: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A guess" },
-              { id: "b", text: "A supported judgement" },
+              { id: "a", text: "A fact" },
+              { id: "b", text: "A guess" },
               { id: "c", text: "An emotion" },
-              { id: "d", text: "A fact" },
+              { id: "d", text: "A supported judgement" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

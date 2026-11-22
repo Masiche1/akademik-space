@@ -55,12 +55,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Exporting" },
-              { id: "b", text: "Licensing" },
-              { id: "c", text: "Foreign direct investment" },
+              { id: "a", text: "Licensing" },
+              { id: "b", text: "Foreign direct investment" },
+              { id: "c", text: "Exporting" },
               { id: "d", text: "Dumping" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Licensing", statement: "Foreign firm produces your product for royalties — you keep the brand." }],
@@ -81,8 +81,8 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "High transport costs" },
-              { id: "b", text: "Trade tariffs" },
+              { id: "a", text: "Trade tariffs" },
+              { id: "b", text: "High transport costs" },
               { id: "c", text: "Cheaper international communication" },
               { id: "d", text: "Language barriers" },
             ],
@@ -153,12 +153,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Importing" },
-              { id: "b", text: "Exporting" },
-              { id: "c", text: "Dumping" },
-              { id: "d", text: "Franchising" },
+              { id: "a", text: "Franchising" },
+              { id: "b", text: "Dumping" },
+              { id: "c", text: "Importing" },
+              { id: "d", text: "Exporting" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Exporting", statement: "Selling goods produced at home to customers abroad." }],
@@ -179,12 +179,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Licensing" },
-              { id: "b", text: "Franchising" },
-              { id: "c", text: "Dumping" },
+              { id: "a", text: "Dumping" },
+              { id: "b", text: "Licensing" },
+              { id: "c", text: "Franchising" },
               { id: "d", text: "A joint venture" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Franchising", statement: "Foreign firm trades under your brand and system for fees." }],
@@ -205,12 +205,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Exporting" },
-              { id: "b", text: "Licensing" },
-              { id: "c", text: "Wholly owned subsidiary via FDI" },
-              { id: "d", text: "Franchising" },
+              { id: "a", text: "Licensing" },
+              { id: "b", text: "Franchising" },
+              { id: "c", text: "Exporting" },
+              { id: "d", text: "Wholly owned subsidiary via FDI" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Entry methods", statement: "Control rises with commitment: exporting < licensing/franchising < joint venture < FDI." }],
@@ -231,12 +231,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Requires no foreign partner" },
-              { id: "b", text: "Involves shared ownership and shared risk" },
-              { id: "c", text: "Only sells finished goods abroad" },
-              { id: "d", text: "Gives the foreign firm total control" },
+              { id: "a", text: "Only sells finished goods abroad" },
+              { id: "b", text: "Gives the foreign firm total control" },
+              { id: "c", text: "Involves shared ownership and shared risk" },
+              { id: "d", text: "Requires no foreign partner" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Joint venture", statement: "A partnership sharing ownership, profits and risk between domestic and foreign firms." }],
@@ -257,12 +257,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Rising international transport costs" },
-              { id: "b", text: "Trade agreements reducing barriers between countries" },
-              { id: "c", text: "Higher tariffs on imports" },
-              { id: "d", text: "Stricter immigration controls" },
+              { id: "a", text: "Higher tariffs on imports" },
+              { id: "b", text: "Rising international transport costs" },
+              { id: "c", text: "Stricter immigration controls" },
+              { id: "d", text: "Trade agreements reducing barriers between countries" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Globalisation drivers", statement: "Cheap transport, communication, trade agreements and MNCs drive integration." }],
@@ -283,12 +283,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Building a wholly owned factory abroad" },
-              { id: "b", text: "Exporting through a local distributor" },
-              { id: "c", text: "Full foreign direct investment" },
-              { id: "d", text: "Acquiring a rival company" },
+              { id: "a", text: "Full foreign direct investment" },
+              { id: "b", text: "Acquiring a rival company" },
+              { id: "c", text: "Building a wholly owned factory abroad" },
+              { id: "d", text: "Exporting through a local distributor" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Entry method choice", statement: "Low capital and fast entry favour low-commitment methods like exporting." }],
@@ -470,12 +470,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Quota" },
-              { id: "b", text: "Tariff" },
-              { id: "c", text: "Subsidy" },
-              { id: "d", text: "Embargo" },
+              { id: "a", text: "Embargo" },
+              { id: "b", text: "Subsidy" },
+              { id: "c", text: "Quota" },
+              { id: "d", text: "Tariff" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Tariff", statement: "A tax on imported goods used to protect domestic industry." }],
@@ -497,11 +497,11 @@ export const lesson63: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Tariff" },
-              { id: "b", text: "Quota" },
+              { id: "b", text: "Free trade agreement" },
               { id: "c", text: "Subsidy" },
-              { id: "d", text: "Free trade agreement" },
+              { id: "d", text: "Quota" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Quota", statement: "A physical limit on the quantity of imports allowed." }],
@@ -568,12 +568,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Tariff" },
-              { id: "b", text: "Quota" },
-              { id: "c", text: "Subsidy" },
-              { id: "d", text: "Embargo" },
+              { id: "a", text: "Quota" },
+              { id: "b", text: "Embargo" },
+              { id: "c", text: "Tariff" },
+              { id: "d", text: "Subsidy" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Subsidy", statement: "Government financial support to domestic producers — a protectionist tool." }],
@@ -594,12 +594,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Producing every good domestically" },
-              { id: "b", text: "Specialisation according to comparative advantage" },
+              { id: "a", text: "Subsidising all industries equally" },
+              { id: "b", text: "Producing every good domestically" },
               { id: "c", text: "Blocking all imports" },
-              { id: "d", text: "Subsidising all industries equally" },
+              { id: "d", text: "Specialisation according to comparative advantage" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Comparative advantage", statement: "Countries gain by specialising in what they produce most efficiently." }],
@@ -620,12 +620,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Is a tax on imported goods" },
-              { id: "b", text: "Limits the physical quantity of imports allowed" },
-              { id: "c", text: "Pays money to domestic producers" },
-              { id: "d", text: "Bans all trade with a country" },
+              { id: "a", text: "Limits the physical quantity of imports allowed" },
+              { id: "b", text: "Bans all trade with a country" },
+              { id: "c", text: "Is a tax on imported goods" },
+              { id: "d", text: "Pays money to domestic producers" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Quota", statement: "A physical limit on the quantity of imports permitted." }],
@@ -646,12 +646,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A small tax on imports" },
-              { id: "b", text: "A limit on import quantities" },
-              { id: "c", text: "A complete ban on trade with a country" },
-              { id: "d", text: "A payment to exporters" },
+              { id: "a", text: "A payment to exporters" },
+              { id: "b", text: "A small tax on imports" },
+              { id: "c", text: "A limit on import quantities" },
+              { id: "d", text: "A complete ban on trade with a country" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Embargo", statement: "A complete prohibition of trade with a country — the strictest protectionist measure." }],
@@ -672,12 +672,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Lower prices and more choice" },
-              { id: "b", text: "Higher prices and reduced product choice" },
+              { id: "a", text: "Faster economic growth" },
+              { id: "b", text: "Lower prices and more choice" },
               { id: "c", text: "Guaranteed job growth" },
-              { id: "d", text: "Faster economic growth" },
+              { id: "d", text: "Higher prices and reduced product choice" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Protectionism costs", statement: "Barriers raise prices and reduce the variety of goods available." }],
@@ -698,12 +698,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Lower prices for all consumers" },
-              { id: "b", text: "Protect jobs in declining domestic industries" },
+              { id: "a", text: "Encourage specialisation abroad" },
+              { id: "b", text: "Lower prices for all consumers" },
               { id: "c", text: "Increase competition for domestic firms" },
-              { id: "d", text: "Encourage specialisation abroad" },
+              { id: "d", text: "Protect jobs in declining domestic industries" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Protectionism benefits", statement: "It shields domestic jobs and infant industries from foreign competition." }],

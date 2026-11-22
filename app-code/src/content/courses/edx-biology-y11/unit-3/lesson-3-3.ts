@@ -54,12 +54,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Lactobacillus" },
-              { id: "b", text: "Fusarium" },
-              { id: "c", text: "Yeast" },
+              { id: "a", text: "Yeast" },
+              { id: "b", text: "Lactobacillus" },
+              { id: "c", text: "Fusarium" },
               { id: "d", text: "Rhizobium" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -198,10 +198,10 @@ export const lesson33: Lesson = {
             choices: [
               { id: "a", text: "DNA ligase" },
               { id: "b", text: "Amylase" },
-              { id: "c", text: "Restriction enzyme" },
-              { id: "d", text: "Protease" },
+              { id: "c", text: "Protease" },
+              { id: "d", text: "Restriction enzyme" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [

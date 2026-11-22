@@ -55,11 +55,11 @@ export const lesson43: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$2\\pi$ units" },
-              { id: "b", text: "$4\\pi$ units" },
-              { id: "c", text: "$8\\pi$ units" },
-              { id: "d", text: "$16\\pi$ units" },
+              { id: "b", text: "$16\\pi$ units" },
+              { id: "c", text: "$4\\pi$ units" },
+              { id: "d", text: "$8\\pi$ units" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -202,9 +202,9 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Center $(-3, 2)$, radius $25$" },
+              { id: "a", text: "Center $(3, 2)$, radius $25$" },
               { id: "b", text: "Center $(3, -2)$, radius $5$" },
-              { id: "c", text: "Center $(3, 2)$, radius $25$" },
+              { id: "c", text: "Center $(-3, 2)$, radius $25$" },
               { id: "d", text: "Center $(-3, -2)$, radius $5$" },
             ],
             correctChoiceId: "b",

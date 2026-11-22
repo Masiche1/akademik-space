@@ -58,11 +58,11 @@ export const lesson103: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Rock" },
-              { id: "b", text: "Flower" },
-              { id: "c", text: "Chair" },
-              { id: "d", text: "Toy car" },
+              { id: "b", text: "Toy car" },
+              { id: "c", text: "Flower" },
+              { id: "d", text: "Chair" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -87,9 +87,9 @@ export const lesson103: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Only food" },
+              { id: "a", text: "Only water" },
               { id: "b", text: "Food, water and air" },
-              { id: "c", text: "Only water" },
+              { id: "c", text: "Only food" },
               { id: "d", text: "Toys" },
             ],
             correctChoiceId: "b",
@@ -216,9 +216,9 @@ export const lesson103: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A house" },
+              { id: "a", text: "A zoo" },
               { id: "b", text: "An animal's natural home" },
-              { id: "c", text: "A zoo" },
+              { id: "c", text: "A house" },
               { id: "d", text: "A food shop" },
             ],
             correctChoiceId: "b",
@@ -247,11 +247,11 @@ export const lesson103: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Lion" },
-              { id: "b", text: "Fish" },
-              { id: "c", text: "Eagle" },
-              { id: "d", text: "Rabbit" },
+              { id: "b", text: "Eagle" },
+              { id: "c", text: "Rabbit" },
+              { id: "d", text: "Fish" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

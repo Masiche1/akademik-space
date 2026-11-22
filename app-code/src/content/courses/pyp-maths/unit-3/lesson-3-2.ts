@@ -53,11 +53,11 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "It will rain tomorrow" },
-              { id: "b", text: "You will eat lunch today" },
-              { id: "c", text: "A dog will fly to the moon by itself" },
+              { id: "b", text: "A dog will fly to the moon by itself" },
+              { id: "c", text: "You will eat lunch today" },
               { id: "d", text: "You might win a prize" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -78,12 +78,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Likely" },
-              { id: "b", text: "Unlikely" },
-              { id: "c", text: "Impossible" },
-              { id: "d", text: "Certain" },
+              { id: "a", text: "Certain" },
+              { id: "b", text: "Impossible" },
+              { id: "c", text: "Likely" },
+              { id: "d", text: "Unlikely" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -153,12 +153,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It will rain this afternoon" },
-              { id: "b", text: "You will have lunch today" },
-              { id: "c", text: "A fish will fly out of the water by itself" },
-              { id: "d", text: "You might get a new pencil" },
+              { id: "a", text: "You will have lunch today" },
+              { id: "b", text: "It will rain this afternoon" },
+              { id: "c", text: "You might get a new pencil" },
+              { id: "d", text: "A fish will fly out of the water by itself" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -196,12 +196,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It will snow tomorrow" },
-              { id: "b", text: "You will sleep tonight" },
-              { id: "c", text: "You might win a lottery" },
-              { id: "d", text: "A monkey might fly past the window" },
+              { id: "a", text: "A monkey might fly past the window" },
+              { id: "b", text: "It will snow tomorrow" },
+              { id: "c", text: "You will sleep tonight" },
+              { id: "d", text: "You might win a lottery" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -222,8 +222,8 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Certain" },
-              { id: "b", text: "Likely" },
+              { id: "a", text: "Likely" },
+              { id: "b", text: "Certain" },
               { id: "c", text: "Unlikely" },
               { id: "d", text: "Impossible" },
             ],
@@ -248,12 +248,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Likely" },
-              { id: "b", text: "Unlikely" },
-              { id: "c", text: "Impossible" },
+              { id: "a", text: "Impossible" },
+              { id: "b", text: "Likely" },
+              { id: "c", text: "Unlikely" },
               { id: "d", text: "Even chance" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -276,9 +276,9 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$3, 1, 2$" },
-              { id: "b", text: "$1, 3, 2$" },
-              { id: "c", text: "$2, 1, 3$" },
-              { id: "d", text: "$3, 2, 1$" },
+              { id: "b", text: "$2, 1, 3$" },
+              { id: "c", text: "$3, 2, 1$" },
+              { id: "d", text: "$1, 3, 2$" },
             ],
             correctChoiceId: "a",
           },
@@ -357,12 +357,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Purple" },
-              { id: "b", text: "Green" },
-              { id: "c", text: "Yellow" },
-              { id: "d", text: "Red" },
+              { id: "a", text: "Green" },
+              { id: "b", text: "Yellow" },
+              { id: "c", text: "Red" },
+              { id: "d", text: "Purple" },
             ],
-            correctChoiceId: "d",
+            correctChoiceIc: "d",
           },
           markscheme: {
             principles: [
@@ -405,12 +405,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Most likely red ($5$); least likely green ($2$)" },
-              { id: "b", text: "Most likely green; least likely red" },
-              { id: "c", text: "All equally likely" },
-              { id: "d", text: "Cannot tell" },
+              { id: "a", text: "All equally likely" },
+              { id: "b", text: "Most likely red ($5$); least likely green ($2$)" },
+              { id: "c", text: "Cannot tell" },
+              { id: "d", text: "Most likely green; least likely red" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -460,9 +460,9 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Certain" },
+              { id: "a", text: "Unlikely" },
               { id: "b", text: "Likely" },
-              { id: "c", text: "Unlikely" },
+              { id: "c", text: "Certain" },
               { id: "d", text: "Impossible" },
             ],
             correctChoiceId: "b",
@@ -552,12 +552,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Certain" },
-              { id: "b", text: "Even chance" },
-              { id: "c", text: "Unlikely" },
+              { id: "a", text: "Even chance" },
+              { id: "b", text: "Unlikely" },
+              { id: "c", text: "Certain" },
               { id: "d", text: "Impossible" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -595,12 +595,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "They get wilder and less predictable" },
-              { id: "b", text: "They usually get closer to the expected chance" },
-              { id: "c", text: "They stay exactly the same" },
-              { id: "d", text: "They stop working" },
+              { id: "a", text: "They usually get closer to the expected chance" },
+              { id: "b", text: "They get wilder and less predictable" },
+              { id: "c", text: "They stop working" },
+              { id: "d", text: "They stay exactly the same" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -657,11 +657,11 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Yes — the coin must be unfair" },
-              { id: "b", text: "No — small experiments vary; $7$-$3$ is normal" },
-              { id: "c", text: "Yes — you should get exactly $5$-$5$" },
+              { id: "b", text: "Yes — you should get exactly $5$-$5$" },
+              { id: "c", text: "No — small experiments vary; $7$-$3$ is normal" },
               { id: "d", text: "Cannot tell" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -740,9 +740,9 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Certain" },
-              { id: "b", text: "Likely" },
+              { id: "b", text: "Impossible" },
               { id: "c", text: "Even chance — $1$ of $6$ faces" },
-              { id: "d", text: "Impossible" },
+              { id: "d", text: "Likely" },
             ],
             correctChoiceId: "c",
           },

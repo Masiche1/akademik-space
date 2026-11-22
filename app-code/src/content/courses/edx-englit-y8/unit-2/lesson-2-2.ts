@@ -75,12 +75,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The problems of poor people that society ignores" },
-              { id: "b", text: "Scrooge's two nephews" },
-              { id: "c", text: "The Cratchit children" },
+              { id: "a", text: "The Cratchit children" },
+              { id: "b", text: "The problems of poor people that society ignores" },
+              { id: "c", text: "Scrooge's two nephews" },
               { id: "d", text: "The ghosts of Marley's friends" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Allegory", statement: "The children embody social evils." }],
@@ -198,12 +198,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A factory where the rich invested" },
-              { id: "b", text: "A place where the poor lived and worked in return for food and shelter" },
+              { id: "a", text: "A place where the poor lived and worked in return for food and shelter" },
+              { id: "b", text: "A factory where the rich invested" },
               { id: "c", text: "A school for poor children" },
               { id: "d", text: "A hospital for the sick" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "context", name: "Workhouses", statement: "Harsh institutions for the poor." }],

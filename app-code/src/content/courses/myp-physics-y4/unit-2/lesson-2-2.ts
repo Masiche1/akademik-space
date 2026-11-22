@@ -57,12 +57,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Conduction" },
+              { id: "a", text: "Radiation" },
               { id: "b", text: "Convection" },
-              { id: "c", text: "Radiation" },
+              { id: "c", text: "Conduction" },
               { id: "d", text: "All three" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Radiation", statement: "IR waves travel through vacuum." }],
@@ -82,12 +82,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Conduction through walls" },
-              { id: "b", text: "Convection currents in the air" },
-              { id: "c", text: "Radiation through the floor" },
-              { id: "d", text: "Evaporation of water" },
+              { id: "a", text: "Radiation through the floor" },
+              { id: "b", text: "Evaporation of water" },
+              { id: "c", text: "Convection currents in the air" },
+              { id: "d", text: "Conduction through walls" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Convection", statement: "Warm air rises, cool air sinks — convection currents." }],
@@ -108,12 +108,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The shiny can — it reflects heat back in" },
-              { id: "b", text: "The black can — it emits infrared radiation more effectively" },
+              { id: "a", text: "The black can — it emits infrared radiation more effectively" },
+              { id: "b", text: "The shiny can — it reflects heat back in" },
               { id: "c", text: "Both cool at the same rate" },
               { id: "d", text: "The black can — it conducts heat better" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Radiation", statement: "Dark matt surfaces emit IR radiation best; shiny surfaces reflect." }],
@@ -169,8 +169,8 @@ export const lesson22: Lesson = {
             choices: [
               { id: "a", text: "convection" },
               { id: "b", text: "conduction" },
-              { id: "c", text: "radiation" },
-              { id: "d", text: "evaporation" },
+              { id: "c", text: "evaporation" },
+              { id: "d", text: "radiation" },
             ],
             correctChoiceId: "b",
           },
@@ -236,10 +236,10 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Conduction pushes water upwards" },
+              { id: "a", text: "Radiation heats water unevenly" },
               { id: "b", text: "Convection currents: hot water expands, becomes less dense and rises" },
-              { id: "c", text: "Radiation heats water unevenly" },
-              { id: "d", text: "Water molecules repel each other" },
+              { id: "c", text: "Water molecules repel each other" },
+              { id: "d", text: "Conduction pushes water upwards" },
             ],
             correctChoiceId: "b",
           },
@@ -262,12 +262,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "They absorb all heat" },
-              { id: "b", text: "They reflect infrared radiation back into the drink" },
-              { id: "c", text: "They conduct heat away quickly" },
-              { id: "d", text: "They create convection currents" },
+              { id: "a", text: "They conduct heat away quickly" },
+              { id: "b", text: "They absorb all heat" },
+              { id: "c", text: "They create convection currents" },
+              { id: "d", text: "They reflect infrared radiation back into the drink" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Radiation", statement: "Shiny surfaces reflect IR radiation, reducing radiative heat loss." }],
@@ -290,8 +290,8 @@ export const lesson22: Lesson = {
             choices: [
               { id: "a", text: "Heat moving along an iron bar in a vacuum" },
               { id: "b", text: "A hot drink in a mug cooling in a room" },
-              { id: "c", text: "Water boiling in a sealed container" },
-              { id: "d", text: "The Sun warming a satellite in space" },
+              { id: "c", text: "The Sun warming a satellite in space" },
+              { id: "d", text: "Water boiling in a sealed container" },
             ],
             correctChoiceId: "b",
           },
@@ -427,10 +427,10 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The silver one — it reflects heat back in" },
+              { id: "a", text: "The black one — black paint is a better conductor" },
               { id: "b", text: "The black one — dark matt surfaces emit infrared radiation most effectively" },
-              { id: "c", text: "Both cool at the same rate" },
-              { id: "d", text: "The black one — black paint is a better conductor" },
+              { id: "c", text: "The silver one — it reflects heat back in" },
+              { id: "d", text: "Both cool at the same rate" },
             ],
             correctChoiceId: "b",
           },
@@ -486,10 +486,10 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "420 J/(kg °C)" },
+              { id: "a", text: "100 J/(kg °C)" },
               { id: "b", text: "4200 J/(kg °C)" },
               { id: "c", text: "42 000 J/(kg °C)" },
-              { id: "d", text: "100 J/(kg °C)" },
+              { id: "d", text: "420 J/(kg °C)" },
             ],
             correctChoiceId: "b",
           },
@@ -511,8 +511,8 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "420 J" },
-              { id: "b", text: "4200 J" },
+              { id: "a", text: "4200 J" },
+              { id: "b", text: "420 J" },
               { id: "c", text: "42 000 J" },
               { id: "d", text: "4.2 J" },
             ],
@@ -537,12 +537,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "1°C" },
-              { id: "b", text: "10°C" },
-              { id: "c", text: "100°C" },
-              { id: "d", text: "0.1°C" },
+              { id: "a", text: "10°C" },
+              { id: "b", text: "1°C" },
+              { id: "c", text: "0.1°C" },
+              { id: "d", text: "100°C" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "ΔT = Q/mc", statement: "$\\Delta T = 1800/(0.2 \\times 900)$" }],
@@ -596,12 +596,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "J" },
-              { id: "b", text: "J/(kg °C)" },
-              { id: "c", text: "J/kg" },
-              { id: "d", text: "W" },
+              { id: "a", text: "J/kg" },
+              { id: "b", text: "W" },
+              { id: "c", text: "J/(kg °C)" },
+              { id: "d", text: "J" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Specific heat capacity", statement: "Energy per kg per °C → J/(kg °C)." }],
@@ -665,12 +665,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Water is cheap to buy" },
-              { id: "b", text: "Water has a high specific heat capacity, so it stores a lot of heat energy" },
+              { id: "a", text: "Water has a high specific heat capacity, so it stores a lot of heat energy" },
+              { id: "b", text: "Water is cheap to buy" },
               { id: "c", text: "Water conducts heat badly" },
               { id: "d", text: "Water boils at a low temperature" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "High c", statement: "High specific heat capacity → stores more energy per °C rise." }],
@@ -736,10 +736,10 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Water — it absorbs more heat" },
+              { id: "a", text: "Both rise by the same amount" },
               { id: "b", text: "Aluminium — its lower specific heat capacity means temperature rises more for the same energy" },
-              { id: "c", text: "Both rise by the same amount" },
-              { id: "d", text: "Neither — temperature cannot change" },
+              { id: "c", text: "Neither — temperature cannot change" },
+              { id: "d", text: "Water — it absorbs more heat" },
             ],
             correctChoiceId: "b",
           },
@@ -763,12 +763,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "specific heat capacity" },
-              { id: "b", text: "speed of light" },
-              { id: "c", text: "charge" },
-              { id: "d", text: "concentration" },
+              { id: "a", text: "concentration" },
+              { id: "b", text: "charge" },
+              { id: "c", text: "specific heat capacity" },
+              { id: "d", text: "speed of light" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Q = mcΔT", statement: "$c$ = specific heat capacity in J/(kg °C)." }],
@@ -859,10 +859,10 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Substance Y" },
+              { id: "a", text: "Neither can be determined" },
               { id: "b", text: "Substance X — lower c gives larger ΔT" },
-              { id: "c", text: "Both rise equally" },
-              { id: "d", text: "Neither can be determined" },
+              { id: "c", text: "Substance Y" },
+              { id: "d", text: "Both rise equally" },
             ],
             correctChoiceId: "b",
           },

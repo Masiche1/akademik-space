@@ -54,10 +54,10 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Nuclear fission of uranium in the core" },
-              { id: "b", text: "Chemical burning of hydrogen with oxygen" },
+              { id: "a", text: "Chemical burning of hydrogen with oxygen" },
+              { id: "b", text: "Nuclear fusion of helium nuclei into hydrogen" },
               { id: "c", text: "Nuclear fusion of hydrogen nuclei into helium" },
-              { id: "d", text: "Nuclear fusion of helium nuclei into hydrogen" },
+              { id: "d", text: "Nuclear fission of uranium in the core" },
             ],
             correctChoiceId: "c",
           },
@@ -185,10 +185,10 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Lower left: hot and dim" },
+              { id: "a", text: "Lower right: cool and dim" },
               { id: "b", text: "Upper right: cool and very luminous" },
               { id: "c", text: "Upper left: hot and very luminous" },
-              { id: "d", text: "Lower right: cool and dim" },
+              { id: "d", text: "Lower left: hot and dim" },
             ],
             correctChoiceId: "b",
           },

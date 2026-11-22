@@ -54,12 +54,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\text{kg m/s}$" },
+              { id: "a", text: "$\\text{N m}$" },
               { id: "b", text: "$\\text{kg/m}$" },
-              { id: "c", text: "$\\text{N m}$" },
-              { id: "d", text: "$\\text{kg m/s}^2$" },
+              { id: "c", text: "$\\text{kg m/s}^2$" },
+              { id: "d", text: "$\\text{kg m/s}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -194,12 +194,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\text{N/m}$" },
-              { id: "b", text: "$\\text{N m}$" },
-              { id: "c", text: "$\\text{N}$" },
-              { id: "d", text: "$\\text{kg m}$" },
+              { id: "a", text: "$\\text{kg m}$" },
+              { id: "b", text: "$\\text{N/m}$" },
+              { id: "c", text: "$\\text{N m}$" },
+              { id: "d", text: "$\\text{N}$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

@@ -54,12 +54,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "All the organisms of one species living in an area" },
-              { id: "b", text: "All the populations of different species living in an area" },
+              { id: "a", text: "All the populations of different species living in an area" },
+              { id: "b", text: "All the living organisms and the non-living factors in an area" },
               { id: "c", text: "The place where an organism lives" },
-              { id: "d", text: "All the living organisms and the non-living factors in an area" },
+              { id: "d", text: "All the organisms of one species living in an area" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -189,9 +189,9 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Grass" },
-              { id: "b", text: "Rabbit" },
-              { id: "c", text: "Decomposer" },
+              { id: "a", text: "Rabbit" },
+              { id: "b", text: "Decomposer" },
+              { id: "c", text: "Grass" },
               { id: "d", text: "Fox" },
             ],
             correctChoiceId: "d",

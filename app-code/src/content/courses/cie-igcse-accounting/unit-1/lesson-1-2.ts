@@ -80,12 +80,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The business manager" },
-              { id: "b", text: "An employee" },
-              { id: "c", text: "A bank that lent money to the business" },
-              { id: "d", text: "The owner" },
+              { id: "a", text: "The owner" },
+              { id: "b", text: "The business manager" },
+              { id: "c", text: "An employee" },
+              { id: "d", text: "A bank that lent money to the business" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -280,10 +280,10 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A supplier" },
-              { id: "b", text: "The government" },
+              { id: "a", text: "A bank" },
+              { id: "b", text: "A supplier" },
               { id: "c", text: "A business manager" },
-              { id: "d", text: "A bank" },
+              { id: "d", text: "The government" },
             ],
             correctChoiceId: "c",
           },
@@ -390,14 +390,14 @@ export const lesson12: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "The manager's salary" },
+              { id: "b", text: "The owner's home address" },
+              { id: "c", text: "Daily cash takings" },
               {
-                id: "b",
+                id: "d",
                 text: "Whether the business is financially viable and likely to survive",
               },
-              { id: "c", text: "The owner's home address" },
-              { id: "d", text: "Daily cash takings" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -547,11 +547,11 @@ export const lesson12: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "The owner" },
-              { id: "b", text: "A manager" },
+              { id: "b", text: "A bank lender" },
               { id: "c", text: "An employee" },
-              { id: "d", text: "A bank lender" },
+              { id: "d", text: "A manager" },
             ],
-            correctChoiceId: "d",
+            correctChoiceIb: "d",
           },
           markscheme: {
             principles: [
@@ -622,15 +622,15 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Calculate the firm's tax bill" },
+              { id: "a", text: "Set the firm's wages" },
+              { id: "b", text: "Verify the firm's daily cash receipts" },
               {
-                id: "b",
+                id: "c",
                 text: "Compare the firm's profitability and performance with its own",
               },
-              { id: "c", text: "Verify the firm's daily cash receipts" },
-              { id: "d", text: "Set the firm's wages" },
+              { id: "d", text: "Calculate the firm's tax bill" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

@@ -54,12 +54,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Primase" },
-              { id: "b", text: "DNA polymerase III" },
+              { id: "a", text: "DNA polymerase III" },
+              { id: "b", text: "Primase" },
               { id: "c", text: "DNA ligase" },
               { id: "d", text: "Helicase" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -158,8 +158,8 @@ export const lesson11: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Topoisomerase" },
-              { id: "b", text: "Helicase" },
-              { id: "c", text: "Primase" },
+              { id: "b", text: "Primase" },
+              { id: "c", text: "Helicase" },
               { id: "d", text: "DNA ligase" },
             ],
             correctChoiceId: "a",
@@ -185,12 +185,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A free $3'$ hydroxyl group" },
-              { id: "b", text: "A free $5'$ phosphate group" },
-              { id: "c", text: "A fully double-stranded template" },
-              { id: "d", text: "A $5'$ cap structure" },
+              { id: "a", text: "A fully double-stranded template" },
+              { id: "b", text: "A $5'$ cap structure" },
+              { id: "c", text: "A free $5'$ phosphate group" },
+              { id: "d", text: "A free $3'$ hydroxyl group" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -213,12 +213,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The lagging strand" },
-              { id: "b", text: "The leading strand" },
-              { id: "c", text: "Both strands equally" },
-              { id: "d", text: "Neither — they form on the RNA primer" },
+              { id: "a", text: "Both strands equally" },
+              { id: "b", text: "Neither — they form on the RNA primer" },
+              { id: "c", text: "The lagging strand" },
+              { id: "d", text: "The leading strand" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -242,9 +242,9 @@ export const lesson11: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Prevent the strands re-annealing or forming secondary structures" },
-              { id: "b", text: "Add nucleotides to the new strand" },
-              { id: "c", text: "Remove RNA primers" },
-              { id: "d", text: "Proofread mismatched bases" },
+              { id: "b", text: "Proofread mismatched bases" },
+              { id: "c", text: "Add nucleotides to the new strand" },
+              { id: "d", text: "Remove RNA primers" },
             ],
             correctChoiceId: "a",
           },
@@ -270,8 +270,8 @@ export const lesson11: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "DNA ligase" },
-              { id: "b", text: "DNA polymerase III" },
-              { id: "c", text: "Helicase" },
+              { id: "b", text: "Helicase" },
+              { id: "c", text: "DNA polymerase III" },
               { id: "d", text: "Primase" },
             ],
             correctChoiceId: "a",
@@ -487,12 +487,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Proofreading — removing a mismatched nucleotide straight after insertion" },
-              { id: "b", text: "Primer removal — degrading the RNA primer after Okazaki fragment synthesis" },
+              { id: "a", text: "Primer removal — degrading the RNA primer after Okazaki fragment synthesis" },
+              { id: "b", text: "Proofreading — removing a mismatched nucleotide straight after insertion" },
               { id: "c", text: "Chain elongation — adding nucleotides to the growing strand" },
               { id: "d", text: "Ligation — joining Okazaki fragments together" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -589,10 +589,10 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It adds the next nucleotide to the $3'$ end of the new strand" },
+              { id: "a", text: "It unwinds the double helix at the replication fork" },
               { id: "b", text: "It removes a mismatched nucleotide immediately after insertion" },
               { id: "c", text: "It joins Okazaki fragments by forming a phosphodiester bond" },
-              { id: "d", text: "It unwinds the double helix at the replication fork" },
+              { id: "d", text: "It adds the next nucleotide to the $3'$ end of the new strand" },
             ],
             correctChoiceId: "b",
           },
@@ -618,9 +618,9 @@ export const lesson11: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "The methylation state of the parental strand" },
-              { id: "b", text: "The presence of RNA primers at every Okazaki fragment" },
-              { id: "c", text: "The telomeric repeats at each chromosome end" },
-              { id: "d", text: "The direction of helicase movement" },
+              { id: "b", text: "The direction of helicase movement" },
+              { id: "c", text: "The presence of RNA primers at every Okazaki fragment" },
+              { id: "d", text: "The telomeric repeats at each chromosome end" },
             ],
             correctChoiceId: "a",
           },
@@ -645,10 +645,10 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "They code for the proteins needed in DNA replication" },
+              { id: "a", text: "They recruit RNA polymerase to gene promoters" },
               { id: "b", text: "They provide a buffer that is lost instead of coding DNA during end-replication" },
               { id: "c", text: "They hold sister chromatids together during mitosis" },
-              { id: "d", text: "They recruit RNA polymerase to gene promoters" },
+              { id: "d", text: "They code for the proteins needed in DNA replication" },
             ],
             correctChoiceId: "b",
           },
@@ -673,12 +673,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The maximum number of cell divisions before telomeres become critically short" },
-              { id: "b", text: "The maximum size a chromosome can reach before it breaks" },
+              { id: "a", text: "The maximum size a chromosome can reach before it breaks" },
+              { id: "b", text: "The number of Okazaki fragments produced per replication fork" },
               { id: "c", text: "The maximum error rate tolerated by DNA polymerase" },
-              { id: "d", text: "The number of Okazaki fragments produced per replication fork" },
+              { id: "d", text: "The maximum number of cell divisions before telomeres become critically short" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -701,12 +701,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Increasing DNA methylation of telomeric repeats" },
-              { id: "b", text: "Reactivating telomerase" },
-              { id: "c", text: "Eliminating all mismatch repair" },
-              { id: "d", text: "Using RNA interference against telomere RNA" },
+              { id: "a", text: "Using RNA interference against telomere RNA" },
+              { id: "b", text: "Eliminating all mismatch repair" },
+              { id: "c", text: "Reactivating telomerase" },
+              { id: "d", text: "Increasing DNA methylation of telomeric repeats" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

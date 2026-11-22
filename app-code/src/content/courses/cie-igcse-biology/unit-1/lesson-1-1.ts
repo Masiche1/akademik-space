@@ -52,12 +52,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Cell wall" },
-              { id: "b", text: "Cell membrane" },
+              { id: "a", text: "Cell membrane" },
+              { id: "b", text: "Mitochondrion" },
               { id: "c", text: "Nucleus" },
-              { id: "d", text: "Mitochondrion" },
+              { id: "d", text: "Cell wall" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -149,12 +149,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Chloroplast" },
-              { id: "b", text: "Mitochondrion" },
-              { id: "c", text: "Ribosome" },
-              { id: "d", text: "Nucleus" },
+              { id: "a", text: "Mitochondrion" },
+              { id: "b", text: "Nucleus" },
+              { id: "c", text: "Chloroplast" },
+              { id: "d", text: "Ribosome" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -175,12 +175,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Cell membrane" },
-              { id: "b", text: "Cell wall" },
-              { id: "c", text: "Nucleus" },
-              { id: "d", text: "Cytoplasm" },
+              { id: "a", text: "Nucleus" },
+              { id: "b", text: "Cytoplasm" },
+              { id: "c", text: "Cell membrane" },
+              { id: "d", text: "Cell wall" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -201,12 +201,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Ribosome" },
+              { id: "a", text: "Cell wall" },
               { id: "b", text: "Chloroplast" },
-              { id: "c", text: "Cell wall" },
+              { id: "c", text: "Ribosome" },
               { id: "d", text: "Large permanent vacuole" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -227,12 +227,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "They have no membrane-bound nucleus or organelles" },
+              { id: "a", text: "They are always multicellular" },
               { id: "b", text: "They are always larger" },
-              { id: "c", text: "They contain chloroplasts" },
-              { id: "d", text: "They are always multicellular" },
+              { id: "c", text: "They have no membrane-bound nucleus or organelles" },
+              { id: "d", text: "They contain chloroplasts" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -253,12 +253,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Maintaining turgor pressure" },
-              { id: "b", text: "Site of aerobic respiration" },
-              { id: "c", text: "Protein synthesis" },
-              { id: "d", text: "Storage of DNA" },
+              { id: "a", text: "Storage of DNA" },
+              { id: "b", text: "Protein synthesis" },
+              { id: "c", text: "Maintaining turgor pressure" },
+              { id: "d", text: "Site of aerobic respiration" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -279,12 +279,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Ribosomes" },
-              { id: "b", text: "Lysosomes" },
+              { id: "a", text: "Lysosomes" },
+              { id: "b", text: "Ribosomes" },
               { id: "c", text: "Vacuoles" },
               { id: "d", text: "Cell walls" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -468,12 +468,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "No nucleus" },
-              { id: "b", text: "Large nucleus" },
-              { id: "c", text: "Cell wall" },
-              { id: "d", text: "Flagellum" },
+              { id: "a", text: "Large nucleus" },
+              { id: "b", text: "Flagellum" },
+              { id: "c", text: "No nucleus" },
+              { id: "d", text: "Cell wall" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -553,6 +553,295 @@ export const lesson11: Lesson = {
             ],
             finalAnswer: "(a) long axon, dendrites/myelin (b) no nucleus, biconcave (c) explained links",
             commonErrors: ["Describing structure without linking to function."],
+          },
+        },
+        {
+          id: "cieb-u1-specialised-cells-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Which adaptation allows a sperm cell to swim towards the egg?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Large permanent vacuole" },
+              { id: "b", text: "Flagellum" },
+              { id: "c", text: "Chloroplast" },
+              { id: "d", text: "Cell wall" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Sperm adaptations", statement: "Flagellum for swimming, acrosome enzymes for penetration, mitochondria for energy." },
+            ],
+            steps: [
+              { reasoning: "Recall the structure used for swimming.", working: "\\text{flagellum}", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** Flagellum",
+            commonErrors: ["Choosing mitochondrion — it supplies energy but does not propel the cell."],
+          },
+        },
+        {
+          id: "cieb-u1-specialised-cells-q6",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Which cell is hollow, lacks a nucleus at maturity and is strengthened by lignin for water transport?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Root hair cell" },
+              { id: "b", text: "Red blood cell" },
+              { id: "c", text: "Palisade mesophyll cell" },
+              { id: "d", text: "Xylem vessel" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Xylem vessel", statement: "Dead hollow tubes strengthened by lignin; transport water and minerals." },
+            ],
+            steps: [
+              { reasoning: "Match the features to the cell type.", working: "\\text{xylem vessel}", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** Xylem vessel",
+            commonErrors: ["Choosing root hair cell — it absorbs water but is not hollow or lignified."],
+          },
+        },
+        {
+          id: "cieb-u1-specialised-cells-q7",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "What is the role of the myelin sheath around a nerve axon?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "It produces haemoglobin" },
+              { id: "b", text: "It speeds up the transmission of impulses" },
+              { id: "c", text: "It stores water and minerals" },
+              { id: "d", text: "It absorbs light for photosynthesis" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Myelin sheath", statement: "Insulates the axon so impulses travel faster." },
+            ],
+            steps: [
+              { reasoning: "Recall the function of myelin.", working: "\\text{speeds impulses}", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** It speeds up the transmission of impulses",
+            commonErrors: ["Thinking myelin produces the impulse — it only speeds transmission."],
+          },
+        },
+        {
+          id: "cieb-u1-specialised-cells-q8",
+          difficulty: "challenge",
+          totalMarks: 1,
+          stem: "A palisade mesophyll cell is adapted for photosynthesis. Which pair of features best supports this adaptation?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "No nucleus and a flagellum" },
+              { id: "b", text: "No chloroplasts and a cell wall" },
+              { id: "c", text: "Many chloroplasts and a tall column shape" },
+              { id: "d", text: "A large permanent vacuole and no membrane" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Palisade mesophyll", statement: "Chloroplast-rich column cells packed near the leaf surface for maximum light capture." },
+            ],
+            steps: [
+              { reasoning: "Identify the features linked to photosynthesis.", working: "\\text{chloroplasts + column shape}", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** Many chloroplasts and a tall column shape",
+            commonErrors: ["Choosing large vacuole — that is for turgor, not photosynthesis."],
+          },
+        },
+        {
+          id: "cieb-u1-specialised-cells-q9",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "The hair-like extension of a root hair cell increases its surface area for absorption from 0.02 mm² to 0.5 mm². Calculate the increase in surface area.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 0.48, unit: "mm²" }],
+          },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Surface area change", statement: "Increase = final area − initial area." },
+            ],
+            steps: [
+              { reasoning: "Subtract the initial area from the final area.", working: "0.5 - 0.02", marks: 1, markCode: "M" },
+              { reasoning: "State the answer with units.", working: "= 0.48 \\text{ mm}^2", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "0.48 mm²",
+            commonErrors: ["Giving the final area instead of the increase."],
+          },
+        },
+        {
+          id: "cieb-u1-specialised-cells-q10",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "A red blood cell is 8 μm in diameter and measures 24 mm on a micrograph. Calculate the magnification of the micrograph.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 3000, unit: "×" }],
+          },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Magnification", statement: "M = image size / actual size; convert units so they match." },
+            ],
+            steps: [
+              { reasoning: "Convert 8 μm to mm, then apply the formula.", working: "8 \\mu\\text{m} = 0.008 \\text{ mm}; \\frac{24}{0.008}", marks: 1, markCode: "M" },
+              { reasoning: "Compute the answer.", working: "= 3000", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "×3000",
+            commonErrors: ["Forgetting to convert μm to mm — units must match."],
+          },
+        },
+        {
+          id: "cieb-u1-specialised-cells-q11",
+          difficulty: "challenge",
+          totalMarks: 2,
+          stem: "An egg cell is about 0.1 mm wide and a sperm cell head about 0.005 mm wide. How many times wider is the egg cell than the sperm head?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 20, unit: "×" }],
+          },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Size comparison", statement: "Divide the larger size by the smaller size." },
+            ],
+            steps: [
+              { reasoning: "Set up the ratio.", working: "\\frac{0.1}{0.005}", marks: 1, markCode: "M" },
+              { reasoning: "Compute the answer.", working: "= 20", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "20 times wider",
+            commonErrors: ["Dividing the wrong way round."],
+          },
+        },
+        {
+          id: "cieb-u1-specialised-cells-q12",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "State two adaptations of a guard cell and explain how each helps control the size of a stoma.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Guard cell", statement: "Kidney-shaped with chloroplasts; changes turgor to open/close the stoma." },
+            ],
+            steps: [
+              { reasoning: "Chloroplasts allow photosynthesis → sugar production changes turgor.", working: "\\text{chloroplasts}", marks: 1, markCode: "M" },
+              { reasoning: "Kidney shape allows the cell to bend and change pore width.", working: "\\text{kidney shape}", marks: 1, markCode: "M" },
+              { reasoning: "Conclude: turgor changes open or close the stoma.", working: "\\text{open/close stoma}", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "Chloroplasts for photosynthesis/turgor changes and kidney shape to bend — together they open or close the stoma.",
+            commonErrors: ["Describing the guard cell without linking to stomatal control."],
+          },
+        },
+        {
+          id: "cieb-u1-specialised-cells-q13",
+          difficulty: "core",
+          totalMarks: 4,
+          stem: "Explain how the structure of a xylem vessel is adapted to its function of transporting water.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Xylem adaptation", statement: "Hollow dead tubes with lignin → continuous strong columns for water transport." },
+            ],
+            steps: [
+              { reasoning: "Hollow lumen gives an unbroken channel for water.", working: "\\text{hollow lumen}", marks: 1, markCode: "M" },
+              { reasoning: "End walls break down at maturity → continuous column.", working: "\\text{no end walls}", marks: 1, markCode: "M" },
+              { reasoning: "Lignin strengthens the walls against the tension of transpiration.", working: "\\text{lignin}", marks: 1, markCode: "M" },
+              { reasoning: "Conclude: dead at maturity, so no cytoplasm obstructs flow.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "Xylem vessels are dead hollow tubes with no end walls, forming continuous columns; lignin strengthens the walls so water can be pulled up without collapsing.",
+            commonErrors: ["Saying xylem cells are alive — they are dead at maturity."],
+          },
+        },
+        {
+          id: "cieb-u1-specialised-cells-q14",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Which feature of an egg cell provides nutrients for the developing embryo?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Flagellum" },
+              { id: "b", text: "Absence of a nucleus" },
+              { id: "c", text: "Large cytoplasm containing food reserves" },
+              { id: "d", text: "Cell wall" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Egg cell", statement: "Large cytoplasm with food reserves for the embryo; jelly coat protects it." },
+            ],
+            steps: [
+              { reasoning: "Recall the nutrient store in an egg cell.", working: "\\text{large cytoplasm}", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** Large cytoplasm containing food reserves",
+            commonErrors: ["Choosing flagellum — that is a sperm feature."],
+          },
+        },
+        {
+          id: "cieb-u1-specialised-cells-q15",
+          difficulty: "challenge",
+          totalMarks: 9,
+          stem: "Muscle cells and nerve cells are both specialised animal cells.",
+          parts: [
+            { label: "a", prompt: "State two adaptations of a muscle cell.", marks: 2 },
+            { label: "b", prompt: "Explain how each muscle-cell adaptation relates to its function.", marks: 4 },
+            { label: "c", prompt: "State one structural way in which a muscle cell differs from a nerve cell.", marks: 3 },
+          ],
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Muscle cell", statement: "Long fibres, many mitochondria, can contract." },
+              { kind: "property", name: "Nerve cell", statement: "Long axon, dendrites, conducts impulses." },
+            ],
+            steps: [
+              { part: "a", reasoning: "Many mitochondria for energy.", working: "\\text{many mitochondria}", marks: 1, markCode: "M" },
+              { part: "a", reasoning: "Long fibres / can contract.", working: "\\text{long fibres}", marks: 1, markCode: "A" },
+              { part: "b", reasoning: "Mitochondria → lots of ATP for contraction.", working: "\\text{ATP for contraction}", marks: 1, markCode: "M" },
+              { part: "b", reasoning: "Explain the energy link.", marks: 1, markCode: "M" },
+              { part: "b", reasoning: "Long fibres → generate force over a distance.", working: "\\text{force}", marks: 1, markCode: "M" },
+              { part: "b", reasoning: "Conclude the function link.", marks: 1, markCode: "A" },
+              { part: "c", reasoning: "Muscle cells contract; nerve cells conduct impulses.", working: "\\text{contract vs conduct}", marks: 1, markCode: "M" },
+              { part: "c", reasoning: "Nerve cells have a long axon and dendrites; muscle cells have fibres.", working: "\\text{axon/dendrites vs fibres}", marks: 1, markCode: "M" },
+              { part: "c", reasoning: "State the difference clearly.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "(a) many mitochondria, long fibres (b) mitochondria supply ATP for contraction; fibres generate force over distance (c) muscle cells contract whereas nerve cells conduct impulses along an axon",
+            commonErrors: ["Confusing muscle cells with xylem vessels."],
+          },
+        },
+        {
+          id: "cieb-u1-specialised-cells-q16",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Which specialised plant cell contains chloroplasts and has a kidney shape to control stomatal opening?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Phloem sieve tube" },
+              { id: "b", text: "Guard cell" },
+              { id: "c", text: "Root hair cell" },
+              { id: "d", text: "Xylem vessel" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Guard cell", statement: "Kidney-shaped with chloroplasts; controls stomatal opening via turgor." },
+            ],
+            steps: [
+              { reasoning: "Match the features to the cell.", working: "\\text{guard cell}", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** Guard cell",
+            commonErrors: ["Choosing palisade mesophyll — it has chloroplasts but does not control stomata."],
           },
         },
       ],

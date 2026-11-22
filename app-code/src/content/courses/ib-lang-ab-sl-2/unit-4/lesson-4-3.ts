@@ -52,12 +52,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "There are" },
-              { id: "b", text: "There is" },
+              { id: "a", text: "There is" },
+              { id: "b", text: "There are" },
               { id: "c", text: "There have" },
               { id: "d", text: "There be" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -147,12 +147,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "There is" },
-              { id: "b", text: "There are" },
-              { id: "c", text: "There has" },
-              { id: "d", text: "It is" },
+              { id: "a", text: "There are" },
+              { id: "b", text: "It is" },
+              { id: "c", text: "There is" },
+              { id: "d", text: "There has" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -175,11 +175,11 @@ export const lesson43: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Crowded" },
-              { id: "b", text: "Quiet" },
+              { id: "b", text: "Modern" },
               { id: "c", text: "Expensive" },
-              { id: "d", text: "Modern" },
+              { id: "d", text: "Quiet" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -220,12 +220,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "There is three students in the class." },
-              { id: "b", text: "There are three students in the class." },
-              { id: "c", text: "There has three students in the class." },
+              { id: "a", text: "There are three students in the class." },
+              { id: "b", text: "There has three students in the class." },
+              { id: "c", text: "There is three students in the class." },
               { id: "d", text: "There be three students in the class." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -273,11 +273,11 @@ export const lesson43: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Quiet" },
-              { id: "b", text: "Crowded" },
-              { id: "c", text: "Cheap" },
+              { id: "b", text: "Cheap" },
+              { id: "c", text: "Crowded" },
               { id: "d", text: "Old" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -342,12 +342,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "There is a beautiful beach and a modern hotel." },
-              { id: "b", text: "There are a beautiful beach." },
-              { id: "c", text: "Beautiful is a beach there." },
+              { id: "a", text: "Beautiful is a beach there." },
+              { id: "b", text: "There is a beautiful beach and a modern hotel." },
+              { id: "c", text: "There are a beautiful beach." },
               { id: "d", text: "A beautiful beach there is two." },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -394,12 +394,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Old" },
-              { id: "b", text: "Modern" },
-              { id: "c", text: "Cheap" },
-              { id: "d", text: "Quiet" },
+              { id: "a", text: "Quiet" },
+              { id: "b", text: "Cheap" },
+              { id: "c", text: "Modern" },
+              { id: "d", text: "Old" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -446,9 +446,9 @@ export const lesson43: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "There is a big modern hospital in my city." },
-              { id: "b", text: "There are a big modern hospital in my city." },
-              { id: "c", text: "There is two hospitals in my city." },
-              { id: "d", text: "There are a hospital in my city." },
+              { id: "b", text: "There are a hospital in my city." },
+              { id: "c", text: "There are a big modern hospital in my city." },
+              { id: "d", text: "There is two hospitals in my city." },
             ],
             correctChoiceId: "a",
           },
@@ -516,12 +516,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "There is one restaurant." },
-              { id: "b", text: "There is more than one restaurant." },
-              { id: "c", text: "There are no restaurants." },
-              { id: "d", text: "The restaurants are expensive." },
+              { id: "a", text: "There are no restaurants." },
+              { id: "b", text: "The restaurants are expensive." },
+              { id: "c", text: "There is more than one restaurant." },
+              { id: "d", text: "There is one restaurant." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -575,11 +575,11 @@ export const lesson43: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Tall and thin" },
-              { id: "b", text: "Kind and funny" },
-              { id: "c", text: "Brown hair and blue eyes" },
-              { id: "d", text: "Young and old" },
+              { id: "b", text: "Young and old" },
+              { id: "c", text: "Kind and funny" },
+              { id: "d", text: "Brown hair and blue eyes" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -669,12 +669,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "have" },
-              { id: "b", text: "has" },
-              { id: "c", text: "is" },
-              { id: "d", text: "are" },
+              { id: "a", text: "has" },
+              { id: "b", text: "is" },
+              { id: "c", text: "are" },
+              { id: "d", text: "have" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -696,12 +696,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Kind and generous" },
-              { id: "b", text: "Tall and thin" },
-              { id: "c", text: "Funny and shy" },
-              { id: "d", text: "Hard-working and lazy" },
+              { id: "a", text: "Hard-working and lazy" },
+              { id: "b", text: "Kind and generous" },
+              { id: "c", text: "Tall and thin" },
+              { id: "d", text: "Funny and shy" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -742,12 +742,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "She is long black hair and brown eyes." },
-              { id: "b", text: "She has long black hair and brown eyes." },
-              { id: "c", text: "She has long black hairs and brown eyes." },
-              { id: "d", text: "She are long black hair." },
+              { id: "a", text: "She has long black hair and brown eyes." },
+              { id: "b", text: "She is long black hair and brown eyes." },
+              { id: "c", text: "She are long black hair." },
+              { id: "d", text: "She has long black hairs and brown eyes." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -794,12 +794,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Blonde" },
-              { id: "b", text: "Shy" },
+              { id: "a", text: "Shy" },
+              { id: "b", text: "Thin" },
               { id: "c", text: "Tall" },
-              { id: "d", text: "Thin" },
+              { id: "d", text: "Blonde" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -865,11 +865,11 @@ export const lesson43: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "My brother is very funnys." },
-              { id: "b", text: "My brother is very funny." },
-              { id: "c", text: "My brother very funny is." },
-              { id: "d", text: "My brother has very funny." },
+              { id: "b", text: "My brother very funny is." },
+              { id: "c", text: "My brother has very funny." },
+              { id: "d", text: "My brother is very funny." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -916,12 +916,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Short hair and blue eyes" },
-              { id: "b", text: "Generous and hard-working" },
-              { id: "c", text: "Young and old" },
-              { id: "d", text: "Blonde and brown" },
+              { id: "a", text: "Generous and hard-working" },
+              { id: "b", text: "Short hair and blue eyes" },
+              { id: "c", text: "Blonde and brown" },
+              { id: "d", text: "Young and old" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -967,12 +967,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "She is tall and has brown hair. She is kind and funny." },
-              { id: "b", text: "She is tall kind and has funny hair." },
-              { id: "c", text: "She has kind and funny." },
-              { id: "d", text: "She is hair brown and eyes long." },
+              { id: "a", text: "She has kind and funny." },
+              { id: "b", text: "She is hair brown and eyes long." },
+              { id: "c", text: "She is tall kind and has funny hair." },
+              { id: "d", text: "She is tall and has brown hair. She is kind and funny." },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1037,10 +1037,10 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "What she looks like?" },
+              { id: "a", text: "What is she look like?" },
               { id: "b", text: "What does she look like?" },
-              { id: "c", text: "How she looks?" },
-              { id: "d", text: "What is she look like?" },
+              { id: "c", text: "What she looks like?" },
+              { id: "d", text: "How she looks?" },
             ],
             correctChoiceId: "b",
           },

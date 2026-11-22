@@ -32,18 +32,40 @@ export const lesson23: Lesson = {
   goal: "I CAN evaluate an argument and its evidence, spot irrelevant evidence, and analyze two texts that disagree on facts or interpretation.",
   standards: ["RI.8.8", "RI.8.9"],
   vocabulary: [
-    { term: "Claim", definition: "The position an author wants the reader to accept." },
-    { term: "Relevant evidence", definition: "Evidence that directly supports the claim it is attached to." },
-    { term: "Irrelevant evidence", definition: "Information that does not help prove the claim, even if it is true or interesting." },
-    { term: "Sufficient evidence", definition: "Enough evidence to make a claim convincing." },
-    { term: "Interpretation", definition: "A way of explaining what facts mean." },
-    { term: "Conflicting texts", definition: "Two texts on the same topic that disagree on facts or on how facts should be understood." },
+    {
+      term: "Claim",
+      definition: "The position an author wants the reader to accept.",
+    },
+    {
+      term: "Relevant evidence",
+      definition:
+        "Evidence that directly supports the claim it is attached to.",
+    },
+    {
+      term: "Irrelevant evidence",
+      definition:
+        "Information that does not help prove the claim, even if it is true or interesting.",
+    },
+    {
+      term: "Sufficient evidence",
+      definition: "Enough evidence to make a claim convincing.",
+    },
+    {
+      term: "Interpretation",
+      definition: "A way of explaining what facts mean.",
+    },
+    {
+      term: "Conflicting texts",
+      definition:
+        "Two texts on the same topic that disagree on facts or on how facts should be understood.",
+    },
   ],
   concepts: [
     {
       id: "ela8-u2-evaluating-arguments",
       title: "Evaluating arguments and evidence",
-      skill: "Delineate an argument and evaluate whether the reasoning is sound and the evidence is relevant and sufficient, recognizing irrelevant evidence.",
+      skill:
+        "Delineate an argument and evaluate whether the reasoning is sound and the evidence is relevant and sufficient, recognizing irrelevant evidence.",
       lesson: {
         sections: [
           {
@@ -56,13 +78,26 @@ export const lesson23: Lesson = {
           },
         ],
         keyFormulas: [
-          { name: "Argument", statement: "A claim supported by reasons and evidence." },
-          { name: "Relevant evidence", statement: "Evidence that directly helps to prove the specific claim it supports." },
-          { name: "Sufficient evidence", statement: "Enough evidence, from enough cases, to make the claim convincing." },
+          {
+            name: "Argument",
+            statement: "A claim supported by reasons and evidence.",
+          },
+          {
+            name: "Relevant evidence",
+            statement:
+              "Evidence that directly helps to prove the specific claim it supports.",
+          },
+          {
+            name: "Sufficient evidence",
+            statement:
+              "Enough evidence, from enough cases, to make the claim convincing.",
+          },
         ],
         workedExample: {
-          problem: "Evaluate the final paragraph of 'Keep Phones Out of Class'. (3 marks)",
-          solution: "The paragraph argues that phones are expensive and that the maker of the most popular model was fined for misleading advertising, so nobody should trust the product. Neither point is relevant to the claim that phones harm learning in class. The price of a phone says nothing about attention, and a company's advertising record does not show how its product affects students. The word 'nobody' also overstates the case. This paragraph weakens the argument because its evidence does not support the claim.",
+          problem:
+            "Evaluate the final paragraph of 'Keep Phones Out of Class'. (3 marks)",
+          solution:
+            "The paragraph argues that phones are expensive and that the maker of the most popular model was fined for misleading advertising, so nobody should trust the product. Neither point is relevant to the claim that phones harm learning in class. The price of a phone says nothing about attention, and a company's advertising record does not show how its product affects students. The word 'nobody' also overstates the case. This paragraph weakens the argument because its evidence does not support the claim.",
         },
       },
       questions: [
@@ -75,18 +110,39 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Phones are too expensive for students." },
-              { id: "b", text: "Schools should ban cell phones during class time." },
+              { id: "a", text: "Teachers should be allowed to use phones." },
+              { id: "b", text: "Phones are too expensive for students." },
               { id: "c", text: "Test scores are rising across the country." },
-              { id: "d", text: "Teachers should be allowed to use phones." },
+              {
+                id: "d",
+                text: "Schools should ban cell phones during class time.",
+              },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
-            principles: [{ kind: "definition", name: "Claim", statement: "The claim is the position the whole text argues for." }],
-            steps: [{ reasoning: "The opening sentence states the position the rest of the text supports.", evidence: "Schools should ban cell phones during class time", marks: 1, markCode: "AO1" }],
-            finalAnswer: "**(b)** The author argues for a ban. Cost and test scores are used as reasons and evidence.",
-            commonErrors: ["Choosing a reason or piece of evidence (price, test scores) instead of the claim."],
+            principles: [
+              {
+                kind: "definition",
+                name: "Claim",
+                statement:
+                  "The claim is the position the whole text argues for.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "The opening sentence states the position the rest of the text supports.",
+                evidence: "Schools should ban cell phones during class time",
+                marks: 1,
+                markCode: "AO1",
+              },
+            ],
+            finalAnswer:
+              "**(b)** The author argues for a ban. Cost and test scores are used as reasons and evidence.",
+            commonErrors: [
+              "Choosing a reason or piece of evidence (price, test scores) instead of the claim.",
+            ],
           },
         },
         {
@@ -98,21 +154,55 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "'62 percent admitted checking their phones at least once during a typical lesson'" },
-              { id: "b", text: "'teachers reported that these students missed instructions more often'" },
-              { id: "c", text: "'The newest models cost more than a thousand dollars'" },
-              { id: "d", text: "'test scores in reading rose by six points in a single year'" },
+              {
+                id: "a",
+                text: "'62 percent admitted checking their phones at least once during a typical lesson'",
+              },
+              {
+                id: "b",
+                text: "'teachers reported that these students missed instructions more often'",
+              },
+              {
+                id: "c",
+                text: "'test scores in reading rose by six points in a single year'",
+              },
+              {
+                id: "d",
+                text: "'The newest models cost more than a thousand dollars'",
+              },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
-            principles: [{ kind: "skill", name: "Relevance", statement: "Evidence must connect directly to the claim, not just to the topic." }],
-            steps: [
-              { reasoning: "The price of phones has no direct link to whether phones harm learning in class.", evidence: "cost more than a thousand dollars", marks: 1, markCode: "AO1" },
-              { reasoning: "The other choices link phone use to missed instructions or to scores, so they bear on the claim.", evidence: "missed instructions more often", marks: 1, markCode: "AO1" },
+            principles: [
+              {
+                kind: "skill",
+                name: "Relevance",
+                statement:
+                  "Evidence must connect directly to the claim, not just to the topic.",
+              },
             ],
-            finalAnswer: "**(c)** The cost of phones is about money, not about learning. The other statements link phones to distraction or scores.",
-            commonErrors: ["Choosing (d) because the reading-score claim feels weak; it is at least about learning, so it is relevant even if not sufficient."],
+            steps: [
+              {
+                reasoning:
+                  "The price of phones has no direct link to whether phones harm learning in class.",
+                evidence: "cost more than a thousand dollars",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                reasoning:
+                  "The other choices link phone use to missed instructions or to scores, so they bear on the claim.",
+                evidence: "missed instructions more often",
+                marks: 1,
+                markCode: "AO1",
+              },
+            ],
+            finalAnswer:
+              "**(c)** The cost of phones is about money, not about learning. The other statements link phones to distraction or scores.",
+            commonErrors: [
+              "Choosing (d) because the reading-score claim feels weak; it is at least about learning, so it is relevant even if not sufficient.",
+            ],
           },
         },
         {
@@ -124,17 +214,48 @@ export const lesson23: Lesson = {
           response: { type: "open" },
           markscheme: {
             principles: [
-              { kind: "skill", name: "Sufficiency", statement: "One case cannot prove a claim about everywhere." },
-              { kind: "skill", name: "Evaluating reasoning", statement: "Check that the conclusion follows from the evidence." },
+              {
+                kind: "skill",
+                name: "Sufficiency",
+                statement: "One case cannot prove a claim about everywhere.",
+              },
+              {
+                kind: "skill",
+                name: "Evaluating reasoning",
+                statement:
+                  "Check that the conclusion follows from the evidence.",
+              },
             ],
             steps: [
-              { reasoning: "The evidence is relevant: a rise in reading scores connects to the claim that bans help learning.", evidence: "test scores in reading rose by six points", marks: 2, markCode: "AO1" },
-              { reasoning: "It is not sufficient: it comes from one district and one year, and other causes are not ruled out.", evidence: "A district that adopted a ban", marks: 2, markCode: "AO1" },
-              { reasoning: "The conclusion overreaches by claiming a ban is the 'surest way' to improve scores 'everywhere', which one case cannot prove.", evidence: "the surest way to improve scores everywhere", marks: 2, markCode: "AO1" },
+              {
+                reasoning:
+                  "The evidence is relevant: a rise in reading scores connects to the claim that bans help learning.",
+                evidence: "test scores in reading rose by six points",
+                marks: 2,
+                markCode: "AO1",
+              },
+              {
+                reasoning:
+                  "It is not sufficient: it comes from one district and one year, and other causes are not ruled out.",
+                evidence: "A district that adopted a ban",
+                marks: 2,
+                markCode: "AO1",
+              },
+              {
+                reasoning:
+                  "The conclusion overreaches by claiming a ban is the 'surest way' to improve scores 'everywhere', which one case cannot prove.",
+                evidence: "the surest way to improve scores everywhere",
+                marks: 2,
+                markCode: "AO1",
+              },
             ],
             levels: rubric(6, [5, 3, 2]),
-            finalAnswer: "The evidence is relevant because reading scores concern learning, but it is not sufficient. It comes from a single district in a single year, and the author does not rule out other causes of the rise. The conclusion that a ban is 'the surest way to improve scores everywhere' overreaches, since one example cannot prove a claim about every school.",
-            commonErrors: ["Saying the evidence is wrong rather than insufficient.", "Evaluating the third paragraph instead of the second."],
+            finalAnswer:
+              "The evidence is relevant because reading scores concern learning, but it is not sufficient. It comes from a single district in a single year, and the author does not rule out other causes of the rise. The conclusion that a ban is 'the surest way to improve scores everywhere' overreaches, since one example cannot prove a claim about every school.",
+            commonErrors: [
+              "Saying the evidence is wrong rather than insufficient.",
+              "Evaluating the third paragraph instead of the second.",
+            ],
           },
         },
         {
@@ -144,29 +265,112 @@ export const lesson23: Lesson = {
           extract: FOUR_DAY,
           stem: "Answer all parts of this question about 'The Case for a Four-Day School Week'.",
           parts: [
-            { label: "a", prompt: "Write down two pieces of evidence the author gives in paragraph 1.", marks: 2 },
-            { label: "b", prompt: "Explain how the author responds to the critics' concern about longer days.", marks: 4 },
-            { label: "c", prompt: "Evaluate the argument. Is the claim supported by relevant and sufficient evidence, and are there any weaknesses in the reasoning?", marks: 6 },
+            {
+              label: "a",
+              prompt:
+                "Write down two pieces of evidence the author gives in paragraph 1.",
+              marks: 2,
+            },
+            {
+              label: "b",
+              prompt:
+                "Explain how the author responds to the critics' concern about longer days.",
+              marks: 4,
+            },
+            {
+              label: "c",
+              prompt:
+                "Evaluate the argument. Is the claim supported by relevant and sufficient evidence, and are there any weaknesses in the reasoning?",
+              marks: 6,
+            },
           ],
           response: { type: "open" },
           markscheme: {
             principles: [
-              { kind: "skill", name: "Relevance and sufficiency", statement: "Judge whether evidence connects to the claim and whether there is enough of it." },
-              { kind: "technique", name: "Counterclaim and response", statement: "A strong argument admits a concern and answers it with evidence." },
-              { kind: "skill", name: "Evaluating", statement: "Give a judgment and justify it with evidence from the text." },
+              {
+                kind: "skill",
+                name: "Relevance and sufficiency",
+                statement:
+                  "Judge whether evidence connects to the claim and whether there is enough of it.",
+              },
+              {
+                kind: "technique",
+                name: "Counterclaim and response",
+                statement:
+                  "A strong argument admits a concern and answers it with evidence.",
+              },
+              {
+                kind: "skill",
+                name: "Evaluating",
+                statement:
+                  "Give a judgment and justify it with evidence from the text.",
+              },
             ],
             steps: [
-              { part: "a", reasoning: "Attendance rose in the district.", evidence: "attendance rose from 91 percent to 95 percent", marks: 1, markCode: "AO1" },
-              { part: "a", reasoning: "The district saved money, which paid for tutoring.", evidence: "saved money on buses and heating", marks: 1, markCode: "AO1" },
-              { part: "b", reasoning: "The author concedes that the concern is fair and that days are longer.", evidence: "it is true that days in this district last an hour longer", marks: 2, markCode: "AO2" },
-              { part: "b", reasoning: "The author answers with teachers' reports that extra time was used for projects and labs, which suggests a benefit.", evidence: "students used the extra time for projects and labs", marks: 2, markCode: "AO2" },
-              { part: "c", reasoning: "Strength: the attendance and savings evidence is specific and relevant to a school week that works for families and budgets.", evidence: "from 91 percent to 95 percent", marks: 2, markCode: "AO1" },
-              { part: "c", reasoning: "Weakness: all evidence comes from one rural district and the author gives no learning results, so it is not sufficient.", evidence: "In one such district", marks: 2, markCode: "AO1" },
-              { part: "c", reasoning: "Weakness: the conclusion about every family and the teachers' reports are general and unsupported by data.", evidence: "Every student deserves a school week that works for the family", marks: 2, markCode: "AO1" },
+              {
+                part: "a",
+                reasoning: "Attendance rose in the district.",
+                evidence: "attendance rose from 91 percent to 95 percent",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                part: "a",
+                reasoning: "The district saved money, which paid for tutoring.",
+                evidence: "saved money on buses and heating",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                part: "b",
+                reasoning:
+                  "The author concedes that the concern is fair and that days are longer.",
+                evidence:
+                  "it is true that days in this district last an hour longer",
+                marks: 2,
+                markCode: "AO2",
+              },
+              {
+                part: "b",
+                reasoning:
+                  "The author answers with teachers' reports that extra time was used for projects and labs, which suggests a benefit.",
+                evidence: "students used the extra time for projects and labs",
+                marks: 2,
+                markCode: "AO2",
+              },
+              {
+                part: "c",
+                reasoning:
+                  "Strength: the attendance and savings evidence is specific and relevant to a school week that works for families and budgets.",
+                evidence: "from 91 percent to 95 percent",
+                marks: 2,
+                markCode: "AO1",
+              },
+              {
+                part: "c",
+                reasoning:
+                  "Weakness: all evidence comes from one rural district and the author gives no learning results, so it is not sufficient.",
+                evidence: "In one such district",
+                marks: 2,
+                markCode: "AO1",
+              },
+              {
+                part: "c",
+                reasoning:
+                  "Weakness: the conclusion about every family and the teachers' reports are general and unsupported by data.",
+                evidence:
+                  "Every student deserves a school week that works for the family",
+                marks: 2,
+                markCode: "AO1",
+              },
             ],
             levels: rubric(6, [5, 3, 2], "c"),
-            finalAnswer: "(a) Attendance rose from 91 to 95 percent; the district saved money on buses and heating. (b) The author concedes that days are an hour longer, then answers with teachers' reports that students used the time for projects and labs. (c) The attendance and savings figures are relevant and specific, but the argument relies on one rural district and offers no evidence about learning outcomes. The claim that every student deserves a week that works for the family is a value statement, not evidence, so the evidence is relevant but not yet sufficient.",
-            commonErrors: ["In (c), listing evidence without judging it.", "Treating the conclusion's value statement as evidence."],
+            finalAnswer:
+              "(a) Attendance rose from 91 to 95 percent; the district saved money on buses and heating. (b) The author concedes that days are an hour longer, then answers with teachers' reports that students used the time for projects and labs. (c) The attendance and savings figures are relevant and specific, but the argument relies on one rural district and offers no evidence about learning outcomes. The claim that every student deserves a week that works for the family is a value statement, not evidence, so the evidence is relevant but not yet sufficient.",
+            commonErrors: [
+              "In (c), listing evidence without judging it.",
+              "Treating the conclusion's value statement as evidence.",
+            ],
           },
         },
       ],
@@ -174,7 +378,8 @@ export const lesson23: Lesson = {
     {
       id: "ela8-u2-conflicting-texts",
       title: "Conflicting information in two texts",
-      skill: "Analyze two texts on the same topic that disagree on matters of fact or interpretation, and identify where they conflict.",
+      skill:
+        "Analyze two texts on the same topic that disagree on matters of fact or interpretation, and identify where they conflict.",
       lesson: {
         sections: [
           {
@@ -187,13 +392,27 @@ export const lesson23: Lesson = {
           },
         ],
         keyFormulas: [
-          { name: "Conflict of fact", statement: "The texts state different details, numbers, or events as true." },
-          { name: "Conflict of interpretation", statement: "The texts accept the same facts but explain their meaning or cause differently." },
-          { name: "Better supported", statement: "An interpretation that uses specific evidence and considers other explanations." },
+          {
+            name: "Conflict of fact",
+            statement:
+              "The texts state different details, numbers, or events as true.",
+          },
+          {
+            name: "Conflict of interpretation",
+            statement:
+              "The texts accept the same facts but explain their meaning or cause differently.",
+          },
+          {
+            name: "Better supported",
+            statement:
+              "An interpretation that uses specific evidence and considers other explanations.",
+          },
         ],
         workedExample: {
-          problem: "Do the two lighthouse texts disagree on facts or on interpretation? (3 marks)",
-          solution: "They mostly agree on the facts: wrecks fell after the tower was built, and the coast guard says beams can be seen for twenty miles. They disagree on interpretation. Text A concludes that the lighthouse saved thousands of lives. Text B argues that the fall in wrecks may also be due to larger ships, better charts, and steam engines, and that fog reduced the beam's range. Text B considers other causes, so its interpretation is more cautious and arguably better supported.",
+          problem:
+            "Do the two lighthouse texts disagree on facts or on interpretation? (3 marks)",
+          solution:
+            "They mostly agree on the facts: wrecks fell after the tower was built, and the coast guard says beams can be seen for twenty miles. They disagree on interpretation. Text A concludes that the lighthouse saved thousands of lives. Text B argues that the fall in wrecks may also be due to larger ships, better charts, and steam engines, and that fog reduced the beam's range. Text B considers other causes, so its interpretation is more cautious and arguably better supported.",
         },
       },
       questions: [
@@ -206,18 +425,42 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Wrecks near Pine Point fell after the tower was built." },
-              { id: "b", text: "Lighthouses saved thousands of lives." },
-              { id: "c", text: "The beam was always visible from twenty miles." },
-              { id: "d", text: "Steam engines had no effect on shipping." },
+              {
+                id: "a",
+                text: "The beam was always visible from twenty miles.",
+              },
+              {
+                id: "b",
+                text: "Wrecks near Pine Point fell after the tower was built.",
+              },
+              { id: "c", text: "Steam engines had no effect on shipping." },
+              { id: "d", text: "Lighthouses saved thousands of lives." },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
-            principles: [{ kind: "skill", name: "Shared facts", statement: "Identify what both texts accept before looking at disagreements." }],
-            steps: [{ reasoning: "Both texts state that wrecks fell after the tower was built, though they explain it differently.", evidence: "wrecks near the point fell by more than half", marks: 1, markCode: "AO3" }],
-            finalAnswer: "**(a)** Both texts accept this fact. Text B disputes (b) and (c), and (d) is not stated in either.",
-            commonErrors: ["Choosing (b), which is Text A's interpretation and which Text B challenges."],
+            principles: [
+              {
+                kind: "skill",
+                name: "Shared facts",
+                statement:
+                  "Identify what both texts accept before looking at disagreements.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "Both texts state that wrecks fell after the tower was built, though they explain it differently.",
+                evidence: "wrecks near the point fell by more than half",
+                marks: 1,
+                markCode: "AO3",
+              },
+            ],
+            finalAnswer:
+              "**(a)** Both texts accept this fact. Text B disputes (b) and (c), and (d) is not stated in either.",
+            commonErrors: [
+              "Choosing (b), which is Text A's interpretation and which Text B challenges.",
+            ],
           },
         },
         {
@@ -229,21 +472,53 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It denies that the tower was ever built." },
-              { id: "b", text: "It suggests Text A credits the lighthouse for results that may have other causes." },
-              { id: "c", text: "It agrees that lighthouses saved thousands of lives." },
-              { id: "d", text: "It argues that lighthouses should be destroyed." },
+              {
+                id: "a",
+                text: "It agrees that lighthouses saved thousands of lives.",
+              },
+              { id: "b", text: "It denies that the tower was ever built." },
+              {
+                id: "c",
+                text: "It suggests Text A credits the lighthouse for results that may have other causes.",
+              },
+              {
+                id: "d",
+                text: "It argues that lighthouses should be destroyed.",
+              },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
-            principles: [{ kind: "skill", name: "Cause and interpretation", statement: "Two texts can accept a fact but disagree about its cause." }],
-            steps: [
-              { reasoning: "Text B lists other possible causes: larger ships, better charts, and steam engines.", evidence: "ships grew larger, charts improved, and steam engines replaced sails", marks: 1, markCode: "AO3" },
-              { reasoning: "It says the lighthouse's share of credit cannot be proved, which questions Text A's confident conclusion.", evidence: "No one can separate the effect of the light", marks: 1, markCode: "AO3" },
+            principles: [
+              {
+                kind: "skill",
+                name: "Cause and interpretation",
+                statement:
+                  "Two texts can accept a fact but disagree about its cause.",
+              },
             ],
-            finalAnswer: "**(b)** Text B accepts that wrecks fell but argues that the lighthouse may not deserve all the credit. It never denies the tower or calls for its destruction.",
-            commonErrors: ["Choosing (d); Text B says towns should preserve lighthouses as heritage."],
+            steps: [
+              {
+                reasoning:
+                  "Text B lists other possible causes: larger ships, better charts, and steam engines.",
+                evidence:
+                  "ships grew larger, charts improved, and steam engines replaced sails",
+                marks: 1,
+                markCode: "AO3",
+              },
+              {
+                reasoning:
+                  "It says the lighthouse's share of credit cannot be proved, which questions Text A's confident conclusion.",
+                evidence: "No one can separate the effect of the light",
+                marks: 1,
+                markCode: "AO3",
+              },
+            ],
+            finalAnswer:
+              "**(b)** Text B accepts that wrecks fell but argues that the lighthouse may not deserve all the credit. It never denies the tower or calls for its destruction.",
+            commonErrors: [
+              "Choosing (d); Text B says towns should preserve lighthouses as heritage.",
+            ],
           },
         },
         {
@@ -255,17 +530,49 @@ export const lesson23: Lesson = {
           response: { type: "open" },
           markscheme: {
             principles: [
-              { kind: "skill", name: "Comparing treatment of a fact", statement: "The same fact can be used for different purposes." },
-              { kind: "skill", name: "Context", statement: "A fact may be accurate but incomplete without its conditions." },
+              {
+                kind: "skill",
+                name: "Comparing treatment of a fact",
+                statement: "The same fact can be used for different purposes.",
+              },
+              {
+                kind: "skill",
+                name: "Context",
+                statement:
+                  "A fact may be accurate but incomplete without its conditions.",
+              },
             ],
             steps: [
-              { reasoning: "Text A presents the twenty-mile range as a plain fact that proves the lighthouse's value.", evidence: "visible for up to twenty miles", marks: 2, markCode: "AO3" },
-              { reasoning: "Text B accepts the figure but adds a condition: in fog, which was common, the range fell sharply.", evidence: "the visible range fell to a few hundred yards", marks: 2, markCode: "AO3" },
-              { reasoning: "The difference shows a conflict of interpretation, not of fact: Text A uses the figure to support its claim, while Text B limits what it proves.", evidence: "they should not claim more for them than the evidence allows", marks: 2, markCode: "AO3" },
+              {
+                reasoning:
+                  "Text A presents the twenty-mile range as a plain fact that proves the lighthouse's value.",
+                evidence: "visible for up to twenty miles",
+                marks: 2,
+                markCode: "AO3",
+              },
+              {
+                reasoning:
+                  "Text B accepts the figure but adds a condition: in fog, which was common, the range fell sharply.",
+                evidence: "the visible range fell to a few hundred yards",
+                marks: 2,
+                markCode: "AO3",
+              },
+              {
+                reasoning:
+                  "The difference shows a conflict of interpretation, not of fact: Text A uses the figure to support its claim, while Text B limits what it proves.",
+                evidence:
+                  "they should not claim more for them than the evidence allows",
+                marks: 2,
+                markCode: "AO3",
+              },
             ],
             levels: rubric(6, [5, 3, 2]),
-            finalAnswer: "Text A states that beams are 'visible for up to twenty miles' as a fact that supports its praise of lighthouses. Text B accepts the figure but adds that on foggy nights, which were common near the point, the range fell to a few hundred yards. The texts therefore agree on the fact but interpret it differently: Text A uses it to make lighthouses look more effective, while Text B limits what the figure proves.",
-            commonErrors: ["Saying Text B denies the twenty-mile figure.", "Describing only one text."],
+            finalAnswer:
+              "Text A states that beams are 'visible for up to twenty miles' as a fact that supports its praise of lighthouses. Text B accepts the figure but adds that on foggy nights, which were common near the point, the range fell to a few hundred yards. The texts therefore agree on the fact but interpret it differently: Text A uses it to make lighthouses look more effective, while Text B limits what the figure proves.",
+            commonErrors: [
+              "Saying Text B denies the twenty-mile figure.",
+              "Describing only one text.",
+            ],
           },
         },
         {
@@ -275,29 +582,107 @@ export const lesson23: Lesson = {
           extract: FIRE_A,
           stem: "Answer all parts of this question about Text A ('Lighthouses Were Our Safest Guides') and Text B ('Lighthouses and the Limits of Light').",
           parts: [
-            { label: "a", prompt: "Write down two facts on which Text A and Text B agree.", marks: 2 },
-            { label: "b", prompt: "Explain how Text B interprets the fall in wrecks differently from Text A.", marks: 4 },
-            { label: "c", prompt: "Which text presents the better supported interpretation? Evaluate both texts, using evidence from each to support your judgment.", marks: 6 },
+            {
+              label: "a",
+              prompt: "Write down two facts on which Text A and Text B agree.",
+              marks: 2,
+            },
+            {
+              label: "b",
+              prompt:
+                "Explain how Text B interprets the fall in wrecks differently from Text A.",
+              marks: 4,
+            },
+            {
+              label: "c",
+              prompt:
+                "Which text presents the better supported interpretation? Evaluate both texts, using evidence from each to support your judgment.",
+              marks: 6,
+            },
           ],
           response: { type: "open" },
           markscheme: {
             principles: [
-              { kind: "skill", name: "Interpretation", statement: "Texts that share facts can disagree about what the facts mean." },
-              { kind: "skill", name: "Evaluating conflicting texts", statement: "Judge which interpretation is better supported, and why." },
+              {
+                kind: "skill",
+                name: "Interpretation",
+                statement:
+                  "Texts that share facts can disagree about what the facts mean.",
+              },
+              {
+                kind: "skill",
+                name: "Evaluating conflicting texts",
+                statement:
+                  "Judge which interpretation is better supported, and why.",
+              },
             ],
             steps: [
-              { part: "a", reasoning: "Wrecks near Pine Point fell after the tower was built.", evidence: "wrecks near the point fell by more than half", marks: 1, markCode: "AO3" },
-              { part: "a", reasoning: "The coast guard says beams can be seen from twenty miles, and both texts suggest lighthouses should be preserved.", evidence: "visible for up to twenty miles", marks: 1, markCode: "AO3" },
-              { part: "b", reasoning: "Text A concludes that lighthouses saved thousands of lives.", evidence: "lighthouses saved thousands of lives", marks: 2, markCode: "AO3" },
-              { part: "b", reasoning: "Text B argues other changes, such as larger ships, better charts, and steam engines, may explain the fall.", evidence: "ships grew larger, charts improved", marks: 2, markCode: "AO3" },
-              { part: "c", reasoning: "Text A offers specific, relevant facts but jumps to a large conclusion with no acknowledgment of other causes.", evidence: "It is therefore reasonable to say", marks: 2, markCode: "AO3" },
-              { part: "c", reasoning: "Text B considers alternative explanations and adds context about fog, so its claim is more careful.", evidence: "on foggy nights, which were common near the point", marks: 2, markCode: "AO3" },
-              { part: "c", reasoning: "A reasoned judgment: Text B is better supported because it limits its claim to what the evidence allows, although it does not prove that lighthouses saved no lives.", evidence: "more comforting than accurate", marks: 2, markCode: "AO3" },
+              {
+                part: "a",
+                reasoning:
+                  "Wrecks near Pine Point fell after the tower was built.",
+                evidence: "wrecks near the point fell by more than half",
+                marks: 1,
+                markCode: "AO3",
+              },
+              {
+                part: "a",
+                reasoning:
+                  "The coast guard says beams can be seen from twenty miles, and both texts suggest lighthouses should be preserved.",
+                evidence: "visible for up to twenty miles",
+                marks: 1,
+                markCode: "AO3",
+              },
+              {
+                part: "b",
+                reasoning:
+                  "Text A concludes that lighthouses saved thousands of lives.",
+                evidence: "lighthouses saved thousands of lives",
+                marks: 2,
+                markCode: "AO3",
+              },
+              {
+                part: "b",
+                reasoning:
+                  "Text B argues other changes, such as larger ships, better charts, and steam engines, may explain the fall.",
+                evidence: "ships grew larger, charts improved",
+                marks: 2,
+                markCode: "AO3",
+              },
+              {
+                part: "c",
+                reasoning:
+                  "Text A offers specific, relevant facts but jumps to a large conclusion with no acknowledgment of other causes.",
+                evidence: "It is therefore reasonable to say",
+                marks: 2,
+                markCode: "AO3",
+              },
+              {
+                part: "c",
+                reasoning:
+                  "Text B considers alternative explanations and adds context about fog, so its claim is more careful.",
+                evidence: "on foggy nights, which were common near the point",
+                marks: 2,
+                markCode: "AO3",
+              },
+              {
+                part: "c",
+                reasoning:
+                  "A reasoned judgment: Text B is better supported because it limits its claim to what the evidence allows, although it does not prove that lighthouses saved no lives.",
+                evidence: "more comforting than accurate",
+                marks: 2,
+                markCode: "AO3",
+              },
             ],
             levels: rubric(6, [5, 3, 2], "c"),
-            finalAnswer: "(a) Wrecks fell after the tower was built; the coast guard says beams can be seen for twenty miles. (b) Text A claims the lighthouse saved thousands of lives, while Text B argues larger ships, better charts, and steam engines may explain the fall in wrecks. (c) Text B is better supported. Text A gives relevant facts but jumps to a large conclusion without considering other causes. Text B accepts the same facts, adds the effect of fog and other changes, and claims only what the evidence allows, though it does not prove that lighthouses had no effect.",
-            commonErrors: ["Choosing a text by tone alone, without citing evidence.", "In (a), giving a point on which the texts disagree."],
-            examinerNote: "In part (a), accept any two shared facts, such as the fall in wrecks, the coast guard's range figure, or the view that towns should preserve lighthouses.",
+            finalAnswer:
+              "(a) Wrecks fell after the tower was built; the coast guard says beams can be seen for twenty miles. (b) Text A claims the lighthouse saved thousands of lives, while Text B argues larger ships, better charts, and steam engines may explain the fall in wrecks. (c) Text B is better supported. Text A gives relevant facts but jumps to a large conclusion without considering other causes. Text B accepts the same facts, adds the effect of fog and other changes, and claims only what the evidence allows, though it does not prove that lighthouses had no effect.",
+            commonErrors: [
+              "Choosing a text by tone alone, without citing evidence.",
+              "In (a), giving a point on which the texts disagree.",
+            ],
+            examinerNote:
+              "In part (a), accept any two shared facts, such as the fall in wrecks, the coast guard's range figure, or the view that towns should preserve lighthouses.",
           },
         },
       ],

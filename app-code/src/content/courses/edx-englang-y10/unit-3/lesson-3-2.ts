@@ -87,9 +87,9 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "That it is gentle and calming" },
+              { id: "a", text: "That it is warm" },
               { id: "b", text: "That it is hungry and threatening" },
-              { id: "c", text: "That it is warm" },
+              { id: "c", text: "That it is gentle and calming" },
               { id: "d", text: "That it is thin and passing" },
             ],
             correctChoiceId: "b",
@@ -224,9 +224,9 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "That Mr Basu is hiding his distress" },
-              { id: "b", text: "That the letter is funny" },
-              { id: "c", text: "That the letter is long" },
-              { id: "d", text: "That Mr Basu has done something wrong to the council" },
+              { id: "b", text: "That Mr Basu has done something wrong to the council" },
+              { id: "c", text: "That the letter is funny" },
+              { id: "d", text: "That the letter is long" },
             ],
             correctChoiceId: "a",
           },

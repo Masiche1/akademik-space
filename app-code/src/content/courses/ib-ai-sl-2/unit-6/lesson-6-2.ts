@@ -49,12 +49,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$x=-2$" },
-              { id: "b", text: "$x=2$" },
+              { id: "a", text: "$x=2$" },
+              { id: "b", text: "$x=4$" },
               { id: "c", text: "$x=3$" },
-              { id: "d", text: "$x=4$" },
+              { id: "d", text: "$x=-2$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Stationary point", statement: "$\\frac{\\mathrm{d}y}{\\mathrm{d}x}=0$" }],
@@ -164,12 +164,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$x=3$" },
-              { id: "b", text: "$x=-3$" },
-              { id: "c", text: "$x=6$" },
-              { id: "d", text: "$x=-1$" },
+              { id: "a", text: "$x=6$" },
+              { id: "b", text: "$x=-1$" },
+              { id: "c", text: "$x=3$" },
+              { id: "d", text: "$x=-3$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Stationary point", statement: "$\\frac{\\mathrm{d}y}{\\mathrm{d}x}=0$" }],
@@ -192,8 +192,8 @@ export const lesson62: Lesson = {
             choices: [
               { id: "a", text: "$x=2$ and $x=6$" },
               { id: "b", text: "$x=-2$ and $x=-6$" },
-              { id: "c", text: "$x=3$ only" },
-              { id: "d", text: "$x=4$ and $x=9$" },
+              { id: "c", text: "$x=4$ and $x=9$" },
+              { id: "d", text: "$x=3$ only" },
             ],
             correctChoiceId: "a",
           },
@@ -216,12 +216,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Local maximum" },
-              { id: "b", text: "Local minimum" },
+              { id: "a", text: "Local minimum" },
+              { id: "b", text: "Local maximum" },
               { id: "c", text: "Point of inflexion" },
               { id: "d", text: "It cannot be determined from the information given" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "theorem", name: "Second derivative test", statement: "$f'(a)=0$ and $f''(a)<0$ implies a local maximum at $x=a$." }],
@@ -292,12 +292,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$x=2$ and $x=3$" },
-              { id: "b", text: "$x=-2$ and $x=-3$" },
+              { id: "a", text: "$x=-2$ and $x=-3$" },
+              { id: "b", text: "$x=2$ and $x=3$" },
               { id: "c", text: "$x=2$ and $x=6$" },
               { id: "d", text: "$x=3$ and $x=6$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Stationary point", statement: "$f'(x)=0$" }],
@@ -350,12 +350,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$f(x)=x^4$" },
+              { id: "a", text: "$f(x)=x^3+x$" },
               { id: "b", text: "$f(x)=x^2$" },
               { id: "c", text: "$f(x)=5-x^2$" },
-              { id: "d", text: "$f(x)=x^3+x$" },
+              { id: "d", text: "$f(x)=x^4$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "theorem", name: "Second derivative test", statement: "If $f''(a)=0$ the test is inconclusive." }],
@@ -408,9 +408,9 @@ export const lesson62: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Local minimum" },
-              { id: "b", text: "Local maximum" },
+              { id: "b", text: "Neither — it is not a stationary point" },
               { id: "c", text: "Point of inflexion" },
-              { id: "d", text: "Neither — it is not a stationary point" },
+              { id: "d", text: "Local maximum" },
             ],
             correctChoiceId: "a",
           },
@@ -515,12 +515,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$x(20-x)$" },
-              { id: "b", text: "$x(10-x)$" },
+              { id: "a", text: "$x(10-x)$" },
+              { id: "b", text: "$x(20-x)$" },
               { id: "c", text: "$20x$" },
               { id: "d", text: "$x(20-2x)$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Perimeter", statement: "$2(\\text{length}+\\text{width})=20$" }],
@@ -635,12 +635,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$x(12-x)$" },
+              { id: "a", text: "$24x$" },
               { id: "b", text: "$x(24-x)$" },
               { id: "c", text: "$x(12-2x)$" },
-              { id: "d", text: "$24x$" },
+              { id: "d", text: "$x(12-x)$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Perimeter", statement: "$2(\\text{length}+\\text{width})=24$" }],
@@ -661,12 +661,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$x=2$" },
-              { id: "b", text: "$x=5$" },
-              { id: "c", text: "$x=8$" },
+              { id: "a", text: "$x=5$" },
+              { id: "b", text: "$x=8$" },
+              { id: "c", text: "$x=2$" },
               { id: "d", text: "$x=10$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Optimization", statement: "A maximum occurs where $A'(x)=0$ and $A''(x)<0$." }],
@@ -687,12 +687,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$2\\pi r^2+\\dfrac{1000}{r}$" },
-              { id: "b", text: "$2\\pi r^2+\\dfrac{500}{r}$" },
+              { id: "a", text: "$2\\pi r^2+\\dfrac{500}{r}$" },
+              { id: "b", text: "$2\\pi r^2+\\dfrac{1000}{r}$" },
               { id: "c", text: "$\\pi r^2+\\dfrac{1000}{r}$" },
               { id: "d", text: "$2\\pi r^2+500\\pi r$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -808,12 +808,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$2x+\\dfrac{96}{x}$" },
+              { id: "a", text: "$x+\\dfrac{48}{x}$" },
               { id: "b", text: "$2x+\\dfrac{48}{x}$" },
-              { id: "c", text: "$x+\\dfrac{48}{x}$" },
-              { id: "d", text: "$2x+48x$" },
+              { id: "c", text: "$2x+48x$" },
+              { id: "d", text: "$2x+\\dfrac{96}{x}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Area", statement: "$\\text{length}\\times\\text{width}=48$, so length $=\\frac{48}{x}$." }],
@@ -863,12 +863,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$2x^2+\\dfrac{4000}{x}$" },
-              { id: "b", text: "$2x^2+\\dfrac{1000}{x}$" },
-              { id: "c", text: "$x^2+\\dfrac{4000}{x}$" },
+              { id: "a", text: "$2x^2+\\dfrac{1000}{x}$" },
+              { id: "b", text: "$x^2+\\dfrac{4000}{x}$" },
+              { id: "c", text: "$2x^2+\\dfrac{4000}{x}$" },
               { id: "d", text: "$2x^2+4000x$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Surface area", statement: "$S=2x^2+4xh$ for a box with square base." }],
@@ -889,12 +889,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "50 thousand dollars" },
-              { id: "b", text: "100 thousand dollars" },
+              { id: "a", text: "200 thousand dollars" },
+              { id: "b", text: "50 thousand dollars" },
               { id: "c", text: "150 thousand dollars" },
-              { id: "d", text: "200 thousand dollars" },
+              { id: "d", text: "100 thousand dollars" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Optimization", statement: "Maximum where $P'(x)=0$ and $P''(x)<0$." }],

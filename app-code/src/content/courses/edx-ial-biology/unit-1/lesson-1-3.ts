@@ -50,11 +50,11 @@ export const lesson13: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "It is consumed as a reactant" },
-              { id: "b", text: "It lowers activation energy" },
-              { id: "c", text: "It increases temperature" },
-              { id: "d", text: "It shifts equilibrium" },
+              { id: "b", text: "It shifts equilibrium" },
+              { id: "c", text: "It lowers activation energy" },
+              { id: "d", text: "It increases temperature" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Enzyme", statement: "Biological catalyst lowering activation energy." }],
@@ -163,11 +163,11 @@ export const lesson13: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "2 diploid" },
-              { id: "b", text: "4 haploid" },
-              { id: "c", text: "2 haploid" },
-              { id: "d", text: "4 diploid" },
+              { id: "b", text: "2 haploid" },
+              { id: "c", text: "4 diploid" },
+              { id: "d", text: "4 haploid" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Meiosis", statement: "Two divisions → 4 haploid gametes." }],

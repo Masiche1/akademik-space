@@ -54,9 +54,9 @@ export const lesson23: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$14$ m" },
-              { id: "b", text: "$4$ m" },
-              { id: "c", text: "$10$ m" },
-              { id: "d", text: "$6$ m" },
+              { id: "b", text: "$6$ m" },
+              { id: "c", text: "$4$ m" },
+              { id: "d", text: "$10$ m" },
             ],
             correctChoiceId: "a",
           },
@@ -161,8 +161,8 @@ export const lesson23: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$18$" },
-              { id: "b", text: "$6$" },
-              { id: "c", text: "$12$" },
+              { id: "b", text: "$12$" },
+              { id: "c", text: "$6$" },
               { id: "d", text: "$8$" },
             ],
             correctChoiceId: "a",
@@ -188,12 +188,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$18$" },
-              { id: "b", text: "$20$" },
-              { id: "c", text: "$360$" },
-              { id: "d", text: "$3$" },
+              { id: "a", text: "$360$" },
+              { id: "b", text: "$3$" },
+              { id: "c", text: "$20$" },
+              { id: "d", text: "$18$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -216,12 +216,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$y = 14$" },
-              { id: "b", text: "$y = 12$" },
-              { id: "c", text: "$y = 6$" },
-              { id: "d", text: "$y = 28$" },
+              { id: "a", text: "$y = 12$" },
+              { id: "b", text: "$y = 28$" },
+              { id: "c", text: "$y = 14$" },
+              { id: "d", text: "$y = 6$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -244,12 +244,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$5$" },
-              { id: "b", text: "$10$" },
+              { id: "a", text: "$10$" },
+              { id: "b", text: "$5$" },
               { id: "c", text: "$15$" },
               { id: "d", text: "$-5$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -421,9 +421,9 @@ export const lesson23: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$24$" },
-              { id: "b", text: "$15$" },
+              { id: "b", text: "$4$" },
               { id: "c", text: "$360$" },
-              { id: "d", text: "$4$" },
+              { id: "d", text: "$15$" },
             ],
             correctChoiceId: "a",
           },
@@ -448,12 +448,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$y = 9$" },
-              { id: "b", text: "$y = 6$" },
-              { id: "c", text: "$y = 15$" },
+              { id: "a", text: "$y = 6$" },
+              { id: "b", text: "$y = 15$" },
+              { id: "c", text: "$y = 9$" },
               { id: "d", text: "$y = 3$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -507,12 +507,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$-2$" },
-              { id: "b", text: "$2$" },
-              { id: "c", text: "$4$" },
-              { id: "d", text: "$0.04$" },
+              { id: "a", text: "$2$" },
+              { id: "b", text: "$0.04$" },
+              { id: "c", text: "$-2$" },
+              { id: "d", text: "$4$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -614,12 +614,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$-5$" },
-              { id: "b", text: "$5$" },
-              { id: "c", text: "$115$" },
-              { id: "d", text: "$0.09$" },
+              { id: "a", text: "$5$" },
+              { id: "b", text: "$115$" },
+              { id: "c", text: "$0.09$" },
+              { id: "d", text: "$-5$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -642,12 +642,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Exponential" },
-              { id: "b", text: "Linear" },
+              { id: "a", text: "Sinusoidal" },
+              { id: "b", text: "Exponential" },
               { id: "c", text: "Quadratic" },
-              { id: "d", text: "Sinusoidal" },
+              { id: "d", text: "Linear" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -671,9 +671,9 @@ export const lesson23: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "The model explains most of the variation in the data" },
-              { id: "b", text: "The model is exact with no error" },
-              { id: "c", text: "The model has no domain restrictions" },
-              { id: "d", text: "The model will always extrapolate accurately" },
+              { id: "b", text: "The model has no domain restrictions" },
+              { id: "c", text: "The model will always extrapolate accurately" },
+              { id: "d", text: "The model is exact with no error" },
             ],
             correctChoiceId: "a",
           },
@@ -698,12 +698,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Extrapolation, because it predicts beyond the range of the data" },
+              { id: "a", text: "Extrapolation, because it predicts within the range of the data" },
               { id: "b", text: "Interpolation, because it predicts beyond the range of the data" },
-              { id: "c", text: "Extrapolation, because it predicts within the range of the data" },
-              { id: "d", text: "Interpolation, because it predicts within the range of the data" },
+              { id: "c", text: "Interpolation, because it predicts within the range of the data" },
+              { id: "d", text: "Extrapolation, because it predicts beyond the range of the data" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -872,12 +872,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Exponential" },
-              { id: "b", text: "Linear" },
-              { id: "c", text: "Sinusoidal" },
-              { id: "d", text: "Quadratic with no turning point" },
+              { id: "a", text: "Linear" },
+              { id: "b", text: "Quadratic with no turning point" },
+              { id: "c", text: "Exponential" },
+              { id: "d", text: "Sinusoidal" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -900,12 +900,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The model has broken down outside its valid domain" },
-              { id: "b", text: "The population really becomes negative" },
+              { id: "a", text: "The data were collected incorrectly" },
+              { id: "b", text: "The model has broken down outside its valid domain" },
               { id: "c", text: "The model is perfectly accurate for all $t$" },
-              { id: "d", text: "The data were collected incorrectly" },
+              { id: "d", text: "The population really becomes negative" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [

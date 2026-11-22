@@ -55,12 +55,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Getting softer" },
-              { id: "b", text: "Gradually getting louder" },
-              { id: "c", text: "Playing faster" },
-              { id: "d", text: "Stopping suddenly" },
+              { id: "a", text: "Stopping suddenly" },
+              { id: "b", text: "Playing faster" },
+              { id: "c", text: "Gradually getting louder" },
+              { id: "d", text: "Getting softer" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -162,12 +162,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Very loud" },
-              { id: "b", text: "Very soft" },
-              { id: "c", text: "At medium volume" },
-              { id: "d", text: "With a sudden accent" },
+              { id: "a", text: "With a sudden accent" },
+              { id: "b", text: "Very loud" },
+              { id: "c", text: "Very soft" },
+              { id: "d", text: "At medium volume" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -191,10 +191,10 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Gradually get louder" },
+              { id: "a", text: "Hold the note longer" },
               { id: "b", text: "Gradually get softer" },
-              { id: "c", text: "Play faster" },
-              { id: "d", text: "Hold the note longer" },
+              { id: "c", text: "Gradually get louder" },
+              { id: "d", text: "Play faster" },
             ],
             correctChoiceId: "b",
           },
@@ -220,10 +220,10 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Play the note very short and detached" },
+              { id: "a", text: "Slide into the next note" },
               { id: "b", text: "Hold the note for its full value with slight emphasis" },
-              { id: "c", text: "Play the note as quietly as possible" },
-              { id: "d", text: "Slide into the next note" },
+              { id: "c", text: "Play the note very short and detached" },
+              { id: "d", text: "Play the note as quietly as possible" },
             ],
             correctChoiceId: "b",
           },
@@ -250,11 +250,11 @@ export const lesson12: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Strict adherence to the written tempo" },
-              { id: "b", text: "Expressive flexibility of tempo within the music's pulse" },
-              { id: "c", text: "A sudden loud accent on one note" },
-              { id: "d", text: "Playing without any dynamics" },
+              { id: "b", text: "Playing without any dynamics" },
+              { id: "c", text: "Expressive flexibility of tempo within the music's pulse" },
+              { id: "d", text: "A sudden loud accent on one note" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -280,8 +280,8 @@ export const lesson12: Lesson = {
             choices: [
               { id: "a", text: "Makes the piece easier to memorise" },
               { id: "b", text: "Creates shape, interest and emotional communication" },
-              { id: "c", text: "Is required by the time signature" },
-              { id: "d", text: "Only applies to loud instruments" },
+              { id: "c", text: "Only applies to loud instruments" },
+              { id: "d", text: "Is required by the time signature" },
             ],
             correctChoiceId: "b",
           },
@@ -307,12 +307,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The note should be played very quietly" },
-              { id: "b", text: "The note should be emphasised with a stronger attack" },
-              { id: "c", text: "The note should be held longer than written" },
-              { id: "d", text: "The note should be played faster" },
+              { id: "a", text: "The note should be emphasised with a stronger attack" },
+              { id: "b", text: "The note should be played faster" },
+              { id: "c", text: "The note should be played very quietly" },
+              { id: "d", text: "The note should be held longer than written" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -509,12 +509,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The colour of the instrument" },
-              { id: "b", text: "Breath support, embouchure and air speed" },
-              { id: "c", text: "The sheet music used" },
-              { id: "d", text: "The room's temperature" },
+              { id: "a", text: "The sheet music used" },
+              { id: "b", text: "The room's temperature" },
+              { id: "c", text: "The colour of the instrument" },
+              { id: "d", text: "Breath support, embouchure and air speed" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -610,12 +610,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The colour of the instrument's varnish" },
-              { id: "b", text: "Bow angle, bow pressure and sounding point" },
-              { id: "c", text: "The sheet music edition used" },
-              { id: "d", text: "The audience's distance from the stage" },
+              { id: "a", text: "The audience's distance from the stage" },
+              { id: "b", text: "The colour of the instrument's varnish" },
+              { id: "c", text: "Bow angle, bow pressure and sounding point" },
+              { id: "d", text: "The sheet music edition used" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -639,10 +639,10 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The pitch of the notes" },
+              { id: "a", text: "The number of notes available" },
               { id: "b", text: "Dynamics and tonal colour through attack and pedal use" },
               { id: "c", text: "The tuning of the instrument" },
-              { id: "d", text: "The number of notes available" },
+              { id: "d", text: "The pitch of the notes" },
             ],
             correctChoiceId: "b",
           },
@@ -668,12 +668,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Memorising the piece faster" },
-              { id: "b", text: "Physical readiness, injury prevention and mental focus" },
+              { id: "a", text: "Physical readiness, injury prevention and mental focus" },
+              { id: "b", text: "Memorising the piece faster" },
               { id: "c", text: "Changing the key of the piece" },
               { id: "d", text: "Making the instrument louder" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -697,12 +697,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Is the only way to learn any piece" },
-              { id: "b", text: "Builds control and correct technique before speed is added" },
-              { id: "c", text: "Guarantees a perfect performance" },
-              { id: "d", text: "Eliminates the need for scales" },
+              { id: "a", text: "Eliminates the need for scales" },
+              { id: "b", text: "Guarantees a perfect performance" },
+              { id: "c", text: "Is the only way to learn any piece" },
+              { id: "d", text: "Builds control and correct technique before speed is added" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -726,10 +726,10 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The cost of the microphone used" },
+              { id: "a", text: "The composer's nationality" },
               { id: "b", text: "Breath support, resonance and vowel formation" },
-              { id: "c", text: "The composer's nationality" },
-              { id: "d", text: "Wearing formal concert dress" },
+              { id: "c", text: "Wearing formal concert dress" },
+              { id: "d", text: "The cost of the microphone used" },
             ],
             correctChoiceId: "b",
           },
@@ -755,12 +755,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Practising for many hours without rest" },
-              { id: "b", text: "Adequate rest, hydration, warm-ups and vocal/instrument care" },
-              { id: "c", text: "Avoiding all physical activity before performing" },
+              { id: "a", text: "Adequate rest, hydration, warm-ups and vocal/instrument care" },
+              { id: "b", text: "Avoiding all physical activity before performing" },
+              { id: "c", text: "Practising for many hours without rest" },
               { id: "d", text: "Eating a heavy meal right before the concert" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

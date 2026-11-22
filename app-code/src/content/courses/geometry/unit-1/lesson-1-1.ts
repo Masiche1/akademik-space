@@ -172,12 +172,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "They are alternate interior angles, so they are congruent." },
-              { id: "b", text: "They are same-side interior angles, so they are supplementary." },
-              { id: "c", text: "They are corresponding angles, so they are congruent." },
+              { id: "a", text: "They are same-side interior angles, so they are supplementary." },
+              { id: "b", text: "They are corresponding angles, so they are congruent." },
+              { id: "c", text: "They are alternate interior angles, so they are congruent." },
               { id: "d", text: "They are vertical angles at the same intersection." },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

@@ -59,8 +59,8 @@ export const lesson33: Lesson = {
             choices: [
               { id: "a", text: "The variety of life — species, genetic and ecosystem diversity" },
               { id: "b", text: "The number of animals only" },
-              { id: "c", text: "The size of habitat" },
-              { id: "d", text: "The number of predators" },
+              { id: "c", text: "The number of predators" },
+              { id: "d", text: "The size of habitat" },
             ],
             correctChoiceId: "a",
           },
@@ -84,12 +84,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Pollination of crops by insects" },
-              { id: "b", text: "Timber for building" },
+              { id: "a", text: "Timber for building" },
+              { id: "b", text: "Pollination of crops by insects" },
               { id: "c", text: "Food from fishing" },
               { id: "d", text: "Medicines from plants" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -112,12 +112,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Multiple species can perform similar functions; if one is lost others compensate — redundancy provides stability" },
-              { id: "b", text: "More species always mean more food" },
-              { id: "c", text: "Biodiversity prevents all disease" },
-              { id: "d", text: "Species never compete" },
+              { id: "a", text: "Species never compete" },
+              { id: "b", text: "Biodiversity prevents all disease" },
+              { id: "c", text: "More species always mean more food" },
+              { id: "d", text: "Multiple species can perform similar functions; if one is lost others compensate — redundancy provides stability" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -172,12 +172,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Species, genetic and ecosystem diversity" },
-              { id: "b", text: "Animal, plant and fungal diversity" },
+              { id: "a", text: "Land, sea and air diversity" },
+              { id: "b", text: "Species, genetic and ecosystem diversity" },
               { id: "c", text: "Large, medium and small diversity" },
-              { id: "d", text: "Land, sea and air diversity" },
+              { id: "d", text: "Animal, plant and fungal diversity" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -199,12 +199,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Timber from forests" },
-              { id: "b", text: "Pollination of crops" },
-              { id: "c", text: "Climate regulation" },
-              { id: "d", text: "Nutrient cycling" },
+              { id: "a", text: "Climate regulation" },
+              { id: "b", text: "Timber from forests" },
+              { id: "c", text: "Nutrient cycling" },
+              { id: "d", text: "Pollination of crops" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -227,12 +227,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Multiple species can perform similar functions — if one is lost, others compensate (functional redundancy)" },
-              { id: "b", text: "More species means the ecosystem never changes" },
-              { id: "c", text: "Biodiversity prevents all disease" },
+              { id: "a", text: "More species means the ecosystem never changes" },
+              { id: "b", text: "Biodiversity prevents all disease" },
+              { id: "c", text: "Multiple species can perform similar functions — if one is lost, others compensate (functional redundancy)" },
               { id: "d", text: "Species never compete with each other" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -467,12 +467,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Different varieties have different resistances — some survive pests/disease/climate that would wipe out a uniform crop" },
-              { id: "b", text: "It makes crops grow faster always" },
-              { id: "c", text: "It reduces the need for water" },
-              { id: "d", text: "It prevents all pests" },
+              { id: "a", text: "It reduces the need for water" },
+              { id: "b", text: "It prevents all pests" },
+              { id: "c", text: "It makes crops grow faster always" },
+              { id: "d", text: "Different varieties have different resistances — some survive pests/disease/climate that would wipe out a uniform crop" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -528,12 +528,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Protecting species in their natural habitat" },
-              { id: "b", text: "Keeping species in zoos" },
+              { id: "a", text: "Keeping species in zoos" },
+              { id: "b", text: "Breeding in captivity" },
               { id: "c", text: "Storing seeds in banks" },
-              { id: "d", text: "Breeding in captivity" },
+              { id: "d", text: "Protecting species in their natural habitat" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -555,12 +555,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Protects species immediately from threats like poaching and habitat loss" },
-              { id: "b", text: "Protects entire ecosystems" },
+              { id: "a", text: "Requires no management" },
+              { id: "b", text: "Protects species immediately from threats like poaching and habitat loss" },
               { id: "c", text: "Is always cheaper" },
-              { id: "d", text: "Requires no management" },
+              { id: "d", text: "Protects entire ecosystems" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -583,12 +583,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "In-situ protects ecosystems and genetic diversity long-term; ex-situ provides immediate safety and breeding programs — complementary" },
-              { id: "b", text: "Only one is ever needed" },
-              { id: "c", text: "In-situ is always better" },
+              { id: "a", text: "Only one is ever needed" },
+              { id: "b", text: "In-situ is always better" },
+              { id: "c", text: "In-situ protects ecosystems and genetic diversity long-term; ex-situ provides immediate safety and breeding programs — complementary" },
               { id: "d", text: "Ex-situ replaces in-situ" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -643,12 +643,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Protecting species outside their natural habitat — zoos, seed banks, breeding programmes" },
+              { id: "a", text: "Hunting endangered species legally" },
               { id: "b", text: "Protecting species in national parks" },
               { id: "c", text: "Leaving habitats completely alone" },
-              { id: "d", text: "Hunting endangered species legally" },
+              { id: "d", text: "Protecting species outside their natural habitat — zoos, seed banks, breeding programmes" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -670,12 +670,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A national park protecting a rainforest" },
-              { id: "b", text: "A zoo breeding programme" },
-              { id: "c", text: "A seed bank storing crop seeds" },
+              { id: "a", text: "A zoo breeding programme" },
+              { id: "b", text: "A seed bank storing crop seeds" },
+              { id: "c", text: "A national park protecting a rainforest" },
               { id: "d", text: "A botanical garden" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -698,12 +698,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "In-situ protects whole ecosystems long-term; ex-situ provides immediate safety and breeding backup — they complement each other" },
-              { id: "b", text: "Only one strategy is ever sufficient" },
-              { id: "c", text: "Ex-situ completely replaces in-situ" },
-              { id: "d", text: "In-situ is only for plants" },
+              { id: "a", text: "In-situ is only for plants" },
+              { id: "b", text: "Ex-situ completely replaces in-situ" },
+              { id: "c", text: "Only one strategy is ever sufficient" },
+              { id: "d", text: "In-situ protects whole ecosystems long-term; ex-situ provides immediate safety and breeding backup — they complement each other" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -938,12 +938,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It allows continued use at levels that don't deplete stocks — balancing human needs with conservation" },
-              { id: "b", text: "Bans are always better" },
-              { id: "c", text: "Sustainable use increases resource stocks" },
-              { id: "d", text: "Quotas eliminate all fishing" },
+              { id: "a", text: "Sustainable use increases resource stocks" },
+              { id: "b", text: "Quotas eliminate all fishing" },
+              { id: "c", text: "It allows continued use at levels that don't deplete stocks — balancing human needs with conservation" },
+              { id: "d", text: "Bans are always better" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

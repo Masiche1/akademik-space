@@ -56,12 +56,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$x=3, y=2$" },
-              { id: "b", text: "$x=2, y=3$" },
+              { id: "a", text: "$x=1, y=4$" },
+              { id: "b", text: "$x=3, y=2$" },
               { id: "c", text: "$x=4, y=1$" },
-              { id: "d", text: "$x=1, y=4$" },
+              { id: "d", text: "$x=2, y=3$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -83,12 +83,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$x=4, y=2$" },
-              { id: "b", text: "$x=5, y=3$" },
-              { id: "c", text: "$x=3, y=1$" },
-              { id: "d", text: "$x=6, y=4$" },
+              { id: "a", text: "$x=3, y=1$" },
+              { id: "b", text: "$x=4, y=2$" },
+              { id: "c", text: "$x=6, y=4$" },
+              { id: "d", text: "$x=5, y=3$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -111,12 +111,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "12 and 8" },
-              { id: "b", text: "14 and 6" },
-              { id: "c", text: "15 and 5" },
-              { id: "d", text: "16 and 4" },
+              { id: "a", text: "15 and 5" },
+              { id: "b", text: "12 and 8" },
+              { id: "c", text: "16 and 4" },
+              { id: "d", text: "14 and 6" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -170,12 +170,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$x=5, y=3$" },
-              { id: "b", text: "$x=3, y=5$" },
-              { id: "c", text: "$x=4, y=4$" },
-              { id: "d", text: "$x=6, y=2$" },
+              { id: "a", text: "$x=6, y=2$" },
+              { id: "b", text: "$x=5, y=3$" },
+              { id: "c", text: "$x=3, y=5$" },
+              { id: "d", text: "$x=4, y=4$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Elimination", statement: "Add equations: $2x=10$; subtract: $2y=6$." }],
@@ -203,12 +203,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$x=3, y=2$" },
-              { id: "b", text: "$x=2, y=3$" },
-              { id: "c", text: "$x=4, y=1$" },
-              { id: "d", text: "$x=1, y=4$" },
+              { id: "a", text: "$x=1, y=4$" },
+              { id: "b", text: "$x=4, y=1$" },
+              { id: "c", text: "$x=2, y=3$" },
+              { id: "d", text: "$x=3, y=2$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Elimination", statement: "Add equations to eliminate $y$: $6x=18$." }],
@@ -258,9 +258,9 @@ export const lesson22: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "No solution" },
-              { id: "b", text: "$x=6, y=-7$" },
-              { id: "c", text: "Infinitely many solutions" },
-              { id: "d", text: "$x=1, y=3$" },
+              { id: "b", text: "$x=1, y=3$" },
+              { id: "c", text: "$x=6, y=-7$" },
+              { id: "d", text: "Infinitely many solutions" },
             ],
             correctChoiceId: "a",
           },
@@ -336,12 +336,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Infinitely many" },
-              { id: "b", text: "None" },
-              { id: "c", text: "Exactly one" },
-              { id: "d", text: "Two" },
+              { id: "a", text: "Exactly one" },
+              { id: "b", text: "Two" },
+              { id: "c", text: "None" },
+              { id: "d", text: "Infinitely many" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Dependent equations", statement: "Second equation is twice the first, so same line." }],
@@ -425,9 +425,9 @@ export const lesson22: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$x=2$ or $x=3$" },
-              { id: "b", text: "$x=1$ or $x=6$" },
+              { id: "b", text: "$x=5$ or $x=1$" },
               { id: "c", text: "$x=-2$ or $x=-3$" },
-              { id: "d", text: "$x=5$ or $x=1$" },
+              { id: "d", text: "$x=1$ or $x=6$" },
             ],
             correctChoiceId: "a",
           },
@@ -452,8 +452,8 @@ export const lesson22: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$x=-2\\pm\\sqrt{5}$" },
-              { id: "b", text: "$x=2\\pm\\sqrt{5}$" },
-              { id: "c", text: "$x=-4\\pm\\sqrt{17}$" },
+              { id: "b", text: "$x=-4\\pm\\sqrt{17}$" },
+              { id: "c", text: "$x=2\\pm\\sqrt{5}$" },
               { id: "d", text: "$x=-2\\pm\\sqrt{3}$" },
             ],
             correctChoiceId: "a",
@@ -479,12 +479,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$k=9$" },
+              { id: "a", text: "$k=6$" },
               { id: "b", text: "$k=3$" },
-              { id: "c", text: "$k=6$" },
-              { id: "d", text: "$k=36$" },
+              { id: "c", text: "$k=36$" },
+              { id: "d", text: "$k=9$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -538,12 +538,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$x=2$ or $x=5$" },
-              { id: "b", text: "$x=1$ or $x=10$" },
-              { id: "c", text: "$x=-2$ or $x=-5$" },
-              { id: "d", text: "$x=7$ or $x=3$" },
+              { id: "a", text: "$x=1$ or $x=10$" },
+              { id: "b", text: "$x=2$ or $x=5$" },
+              { id: "c", text: "$x=7$ or $x=3$" },
+              { id: "d", text: "$x=-2$ or $x=-5$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Factorisation", statement: "$(x-2)(x-5)=0$." }],
@@ -571,12 +571,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "One repeated real root" },
+              { id: "a", text: "No real roots" },
               { id: "b", text: "Two distinct real roots" },
-              { id: "c", text: "No real roots" },
-              { id: "d", text: "Cannot tell" },
+              { id: "c", text: "Cannot tell" },
+              { id: "d", text: "One repeated real root" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Discriminant", statement: "$\\Delta=b^2-4ac=16-16=0$." }],
@@ -625,12 +625,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "4" },
-              { id: "b", text: "-3" },
-              { id: "c", text: "0" },
-              { id: "d", text: "2" },
+              { id: "a", text: "2" },
+              { id: "b", text: "4" },
+              { id: "c", text: "-3" },
+              { id: "d", text: "0" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Intercept", statement: "Set $x=0$; the constant term is the intercept." }],
@@ -700,12 +700,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$y=-x^2+2$" },
-              { id: "b", text: "$y=x^2+2$" },
-              { id: "c", text: "$y=2x^2$" },
-              { id: "d", text: "$y=x^2-x+1$" },
+              { id: "a", text: "$y=2x^2$" },
+              { id: "b", text: "$y=x^2-x+1$" },
+              { id: "c", text: "$y=x^2+2$" },
+              { id: "d", text: "$y=-x^2+2$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "property", name: "Parabola direction", statement: "Opens downward when $a<0$." }],
@@ -788,9 +788,9 @@ export const lesson22: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "4" },
-              { id: "b", text: "2" },
-              { id: "c", text: "8" },
-              { id: "d", text: "-4" },
+              { id: "b", text: "-4" },
+              { id: "c", text: "2" },
+              { id: "d", text: "8" },
             ],
             correctChoiceId: "a",
           },
@@ -814,12 +814,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "4374" },
-              { id: "b", text: "1458" },
-              { id: "c", text: "486" },
-              { id: "d", text: "13122" },
+              { id: "a", text: "486" },
+              { id: "b", text: "4374" },
+              { id: "c", text: "13122" },
+              { id: "d", text: "1458" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -842,12 +842,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "1030" },
-              { id: "b", text: "1010" },
-              { id: "c", text: "1050" },
-              { id: "d", text: "950" },
+              { id: "a", text: "950" },
+              { id: "b", text: "1050" },
+              { id: "c", text: "1030" },
+              { id: "d", text: "1010" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -902,12 +902,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "3" },
-              { id: "b", text: "4" },
-              { id: "c", text: "12" },
-              { id: "d", text: "\\frac13" },
+              { id: "a", text: "\\frac13" },
+              { id: "b", text: "3" },
+              { id: "c", text: "4" },
+              { id: "d", text: "12" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Common ratio", statement: "$r=\\frac{u_2}{u_1}=\\frac62=3$." }],
@@ -935,12 +935,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$3n+1$" },
-              { id: "b", text: "$4n$" },
-              { id: "c", text: "$3n+4$" },
-              { id: "d", text: "$n+3$" },
+              { id: "a", text: "$n+3$" },
+              { id: "b", text: "$3n+4$" },
+              { id: "c", text: "$3n+1$" },
+              { id: "d", text: "$4n$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Arithmetic nth", statement: "$a=4$, $d=3$: $u_n=4+(n-1)3=3n+1$." }],
@@ -989,12 +989,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "81, 27, 9, ..." },
-              { id: "b", text: "5, 9, 13, ..." },
-              { id: "c", text: "2, 4, 7, ..." },
-              { id: "d", text: "1, 4, 9, ..." },
+              { id: "a", text: "2, 4, 7, ..." },
+              { id: "b", text: "1, 4, 9, ..." },
+              { id: "c", text: "81, 27, 9, ..." },
+              { id: "d", text: "5, 9, 13, ..." },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Geometric", statement: "Equal ratio $r=\\frac13$ between consecutive terms." }],
@@ -1065,12 +1065,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "242" },
-              { id: "b", text: "240" },
+              { id: "a", text: "240" },
+              { id: "b", text: "242" },
               { id: "c", text: "486" },
               { id: "d", text: "121" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Geometric sum", statement: "$S_5=\\frac{2(3^5-1)}{3-1}=3^5-1=242$." }],

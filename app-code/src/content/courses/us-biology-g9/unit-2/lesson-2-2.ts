@@ -55,11 +55,11 @@ export const lesson22: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Glycolysis" },
-              { id: "b", text: "The Krebs cycle" },
-              { id: "c", text: "The electron transport chain" },
-              { id: "d", text: "The Calvin cycle" },
+              { id: "b", text: "The electron transport chain" },
+              { id: "c", text: "The Calvin cycle" },
+              { id: "d", text: "The Krebs cycle" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -189,8 +189,8 @@ export const lesson22: Lesson = {
             choices: [
               { id: "a", text: "Lactic acid and ATP" },
               { id: "b", text: "Ethanol, carbon dioxide and ATP" },
-              { id: "c", text: "Carbon dioxide, water and ATP" },
-              { id: "d", text: "Glucose and oxygen" },
+              { id: "c", text: "Glucose and oxygen" },
+              { id: "d", text: "Carbon dioxide, water and ATP" },
             ],
             correctChoiceId: "a",
           },

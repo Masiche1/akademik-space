@@ -71,18 +71,18 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "Sensory, Motor, Cognitive, Emotional, Social" },
               {
-                id: "a",
+                id: "b",
                 text: "Openness, Conscientiousness, Extraversion, Agreeableness, Neuroticism",
               },
-              { id: "b", text: "Id, Ego, Superego, Unconscious, Conscious" },
-              { id: "c", text: "Sensory, Motor, Cognitive, Emotional, Social" },
+              { id: "c", text: "Id, Ego, Superego, Unconscious, Conscious" },
               {
                 id: "d",
                 text: "Introvert, Extrovert, Ambivert, Assertive, Passive",
               },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -233,6 +233,362 @@ export const lesson51: Lesson = {
             finalAnswer: "(a) traits (b) Big Five (c) Freud (d) evaluation",
           },
         },
+        {
+          id: "olep-u5-pt-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Which of the following is NOT one of Freud's three personality structures?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Ego" },
+              { id: "b", text: "The unconscious" },
+              { id: "c", text: "Superego" },
+              { id: "d", text: "Id" },
+            ],
+            correctChoiceIb: "d",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Freud structures",
+                statement: "Id, ego, superego.",
+              },
+            ],
+            steps: [{ reasoning: "Unconscious is a mental process, not a structure.", marks: 1, markCode: "AO1" }],
+            finalAnswer: "**(d)** The unconscious",
+            commonErrors: ["Confusing the unconscious with the superego."],
+          },
+        },
+        {
+          id: "olep-u5-pt-q6",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Eysenck's PEN model refers to which three dimensions?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Psychoticism, Extraversion, Neuroticism" },
+              { id: "b", text: "Pessimism, Ego, Narcissism" },
+              { id: "c", text: "Positive, Negative, Neutral" },
+              { id: "d", text: "Personality, Emotion, Needs" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "PEN model",
+                statement: "Psychoticism, Extraversion, Neuroticism.",
+              },
+            ],
+            steps: [{ reasoning: "PEN acronym.", marks: 1, markCode: "AO1" }],
+            finalAnswer: "**(a)** Psychoticism, Extraversion, Neuroticism",
+            commonErrors: ["Confusing with the Big Five."],
+          },
+        },
+        {
+          id: "olep-u5-pt-q7",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "How many trait dimensions does the Big Five (OCEAN) model propose?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 5 }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Big Five",
+                statement: "Five trait dimensions (OCEAN).",
+              },
+            ],
+            steps: [{ reasoning: "O, C, E, A, N = 5 traits.", marks: 1, markCode: "AO1" }],
+            finalAnswer: "5",
+            commonErrors: ["Counting Eysenck's 3 dimensions instead."],
+          },
+        },
+        {
+          id: "olep-u5-pt-q8",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "State the number of dimensions in (a) the Big Five model and (b) Eysenck's PEN model.",
+          response: {
+            type: "numeric",
+            parts: [
+              { label: "a", answer: 5 },
+              { label: "b", answer: 3 },
+            ],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Trait models",
+                statement: "Big Five = 5; PEN = 3.",
+              },
+            ],
+            steps: [
+              { reasoning: "Big Five has five traits.", marks: 1, markCode: "AO1" },
+              { reasoning: "PEN has three dimensions.", marks: 1, markCode: "AO1" },
+            ],
+            finalAnswer: "(a) 5 (b) 3",
+            commonErrors: ["Swapping the two models."],
+          },
+        },
+        {
+          id: "olep-u5-pt-q9",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "The ego is best described as the part of personality that...",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "drives the need for self-actualisation" },
+              { id: "b", text: "mediates between the id and superego using reality" },
+              { id: "c", text: "represents moral conscience and guilt" },
+              { id: "d", text: "seeks instant gratification of desires" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Ego",
+                statement: "Rational mediator on the reality principle.",
+              },
+            ],
+            steps: [
+              { reasoning: "Ego = reality principle mediator.", marks: 1, markCode: "AO1" },
+              { reasoning: "It balances id and superego demands.", marks: 1, markCode: "AO2" },
+            ],
+            finalAnswer: "**(b)** mediates between the id and superego using reality",
+            commonErrors: ["Confusing ego with id or superego."],
+          },
+        },
+        {
+          id: "olep-u5-pt-q10",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "How many psychosexual stages did Freud propose?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 5 }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Psychosexual stages",
+                statement: "Oral, anal, phallic, latency, genital.",
+              },
+            ],
+            steps: [
+              { reasoning: "Five stages named.", marks: 1, markCode: "AO1" },
+              { reasoning: "Oral, anal, phallic, latency, genital = 5.", marks: 1, markCode: "AO2" },
+            ],
+            finalAnswer: "5",
+            commonErrors: ["Forgetting the latency stage."],
+          },
+        },
+        {
+          id: "olep-u5-pt-q11",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "Projection as a defence mechanism involves...",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "attributing one's own unacceptable feelings to others" },
+              { id: "b", text: "burying painful memories in the unconscious" },
+              { id: "c", text: "refusing to accept an unpleasant reality" },
+              { id: "d", text: "creating logical-sounding excuses for behaviour" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Projection",
+                statement: "Attributing own feelings to others.",
+              },
+            ],
+            steps: [
+              { reasoning: "Projection = attributing own traits to others.", marks: 1, markCode: "AO1" },
+              { reasoning: "Protects ego from anxiety.", marks: 1, markCode: "AO2" },
+            ],
+            finalAnswer: "**(b)** attributing one's own unacceptable feelings to others",
+            commonErrors: ["Confusing projection with denial."],
+          },
+        },
+        {
+          id: "olep-u5-pt-q12",
+          difficulty: "challenge",
+          totalMarks: 3,
+          stem: "Give the number of (a) components in Freud's structural model, (b) psychosexual stages, and (c) trait dimensions in the Big Five model.",
+          response: {
+            type: "numeric",
+            parts: [
+              { label: "a", answer: 3 },
+              { label: "b", answer: 5 },
+              { label: "c", answer: 5 },
+            ],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Counts",
+                statement: "Freud 3 structures/5 stages; Big Five 5 traits.",
+              },
+            ],
+            steps: [
+              { reasoning: "Id, ego, superego = 3.", marks: 1, markCode: "AO1" },
+              { reasoning: "Five psychosexual stages.", marks: 1, markCode: "AO1" },
+              { reasoning: "OCEAN = 5 traits.", marks: 1, markCode: "AO1" },
+            ],
+            finalAnswer: "(a) 3 (b) 5 (c) 5",
+            commonErrors: ["Mixing up counts across theories."],
+          },
+        },
+        {
+          id: "olep-u5-pt-q13",
+          difficulty: "challenge",
+          totalMarks: 2,
+          stem: "Freud's theory of personality is often criticised as unscientific mainly because it is...",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "too simple to explain behaviour" },
+              { id: "b", text: "easily measured and reliably tested" },
+              { id: "c", text: "unfalsifiable — it makes no testable predictions" },
+              { id: "d", text: "based on twin study evidence" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Falsifiability",
+                statement: "Scientific theories must make testable predictions.",
+              },
+            ],
+            steps: [
+              { reasoning: "Freud's claims cannot be tested.", marks: 1, markCode: "AO1" },
+              { reasoning: "This is the key scientific criticism.", marks: 1, markCode: "AO2" },
+            ],
+            finalAnswer: "**(b)** unfalsifiable — it makes no testable predictions",
+            commonErrors: ["Citing measurement problems instead."],
+          },
+        },
+        {
+          id: "olep-u5-pt-q14",
+          difficulty: "challenge",
+          totalMarks: 3,
+          stem: "Give the number of trait dimensions in (a) the Big Five model, (b) Eysenck's PEN model, and (c) Freud's structural model.",
+          response: {
+            type: "numeric",
+            parts: [
+              { label: "a", answer: 5 },
+              { label: "b", answer: 3 },
+              { label: "c", answer: 3 },
+            ],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Model sizes",
+                statement: "Big Five 5; PEN 3; Freud structures 3.",
+              },
+            ],
+            steps: [
+              { reasoning: "OCEAN = 5.", marks: 1, markCode: "AO1" },
+              { reasoning: "PEN = 3.", marks: 1, markCode: "AO1" },
+              { reasoning: "Id/ego/superego = 3.", marks: 1, markCode: "AO1" },
+            ],
+            finalAnswer: "(a) 5 (b) 3 (c) 3",
+            commonErrors: ["Confusing trait models with Freud's structures."],
+          },
+        },
+        {
+          id: "olep-u5-pt-q15",
+          difficulty: "challenge",
+          totalMarks: 2,
+          stem: "Rationalisation, as a defence mechanism, involves...",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "blaming others for one's own faults" },
+              { id: "b", text: "burying anxiety-provoking memories" },
+              { id: "c", text: "giving oneself logical-sounding justifications for unacceptable behaviour" },
+              { id: "d", text: "refusing to accept reality" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Rationalisation",
+                statement: "Logical excuses for irrational behaviour.",
+              },
+            ],
+            steps: [
+              { reasoning: "Rationalisation = self-justification.", marks: 1, markCode: "AO1" },
+              { reasoning: "Protects ego from guilt/anxiety.", marks: 1, markCode: "AO2" },
+            ],
+            finalAnswer: "**(a)** giving oneself logical-sounding justifications for unacceptable behaviour",
+            commonErrors: ["Confusing with projection or denial."],
+          },
+        },
+        {
+          id: "olep-u5-pt-q16",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "Evaluate Freud's psychodynamic theory of personality.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Freud evaluation",
+                statement: "Influential but unfalsifiable and biased.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Highly influential on therapy and culture.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                reasoning: "Unfalsifiable, male-biased, overemphasises sexuality.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                reasoning: "Key concepts untestable scientifically.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "Weighed judgement — modern view is integrative.",
+                marks: 1,
+                markCode: "AO3",
+              },
+            ],
+            finalAnswer:
+              "Freud's model was hugely influential but is criticised as unfalsifiable, male-biased and over-focused on sexuality; modern personality psychology combines biological, cognitive and social factors.",
+            commonErrors: ["One-sided evaluation."],
+          },
+        },
       ],
     },
     {
@@ -277,12 +633,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Fulfilling one's potential (top need)" },
+              { id: "a", text: "Physical safety" },
               { id: "b", text: "Basic survival needs" },
               { id: "c", text: "Social belonging" },
-              { id: "d", text: "Physical safety" },
+              { id: "d", text: "Fulfilling one's potential (top need)" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -443,6 +799,365 @@ export const lesson51: Lesson = {
             ],
             finalAnswer:
               "(a) Rogers (b) Maslow (c) questionnaires (d) projective",
+          },
+        },
+        {
+          id: "olep-u5-hh-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Who proposed the concept of unconditional positive regard?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Sigmund Freud" },
+              { id: "b", text: "B.F. Skinner" },
+              { id: "c", text: "Carl Rogers" },
+              { id: "d", text: "Ivan Pavlov" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Rogers",
+                statement: "Humanistic psychologist — unconditional positive regard.",
+              },
+            ],
+            steps: [{ reasoning: "Rogers' client-centred theory.", marks: 1, markCode: "AO1" }],
+            finalAnswer: "**(a)** Carl Rogers",
+            commonErrors: ["Confusing with Freud or behaviourists."],
+          },
+        },
+        {
+          id: "olep-u5-hh-q6",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Which need is at the top of Maslow's hierarchy?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Safety needs" },
+              { id: "b", text: "Esteem needs" },
+              { id: "c", text: "Self-actualisation" },
+              { id: "d", text: "Physiological needs" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Maslow hierarchy",
+                statement: "Self-actualisation is the highest need.",
+              },
+            ],
+            steps: [{ reasoning: "Top of the hierarchy.", marks: 1, markCode: "AO1" }],
+            finalAnswer: "**(c)** Self-actualisation",
+            commonErrors: ["Choosing a lower-level need."],
+          },
+        },
+        {
+          id: "olep-u5-hh-q7",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "How many levels are typically shown in Maslow's hierarchy of needs?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 5 }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Hierarchy levels",
+                statement: "Physiological, safety, love/belonging, esteem, self-actualisation.",
+              },
+            ],
+            steps: [{ reasoning: "Five need levels.", marks: 1, markCode: "AO1" }],
+            finalAnswer: "5",
+            commonErrors: ["Omitting one level."],
+          },
+        },
+        {
+          id: "olep-u5-hh-q8",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "State (a) the number of levels in Maslow's hierarchy and (b) the number of levels below self-actualisation.",
+          response: {
+            type: "numeric",
+            parts: [
+              { label: "a", answer: 5 },
+              { label: "b", answer: 4 },
+            ],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Hierarchy",
+                statement: "5 levels; 4 below self-actualisation.",
+              },
+            ],
+            steps: [
+              { reasoning: "Five levels total.", marks: 1, markCode: "AO1" },
+              { reasoning: "Self-actualisation is the top, leaving 4 below.", marks: 1, markCode: "AO2" },
+            ],
+            finalAnswer: "(a) 5 (b) 4",
+            commonErrors: ["Counting self-actualisation in part (b)."],
+          },
+        },
+        {
+          id: "olep-u5-hh-q9",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "Conditions of worth, in Rogers' theory, tend to produce...",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "high self-esteem and autonomy" },
+              { id: "b", text: "low self-esteem and anxiety" },
+              { id: "c", text: "rapid personal growth" },
+              { id: "d", text: "unconditional self-acceptance" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Conditions of worth",
+                statement: "Conditional acceptance lowers self-esteem.",
+              },
+            ],
+            steps: [
+              { reasoning: "Conditions of worth = conditional acceptance.", marks: 1, markCode: "AO1" },
+              { reasoning: "Leads to low self-esteem/anxiety.", marks: 1, markCode: "AO2" },
+            ],
+            finalAnswer: "**(b)** low self-esteem and anxiety",
+            commonErrors: ["Confusing with unconditional positive regard."],
+          },
+        },
+        {
+          id: "olep-u5-hh-q10",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "State (a) the number of need levels in Maslow's hierarchy and (b) the number of 'selves' Rogers compares (real and ideal).",
+          response: {
+            type: "numeric",
+            parts: [
+              { label: "a", answer: 5 },
+              { label: "b", answer: 2 },
+            ],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Rogers/Maslow counts",
+                statement: "5 need levels; real vs ideal self = 2.",
+              },
+            ],
+            steps: [
+              { reasoning: "Five levels in the hierarchy.", marks: 1, markCode: "AO1" },
+              { reasoning: "Real self and ideal self.", marks: 1, markCode: "AO1" },
+            ],
+            finalAnswer: "(a) 5 (b) 2",
+            commonErrors: ["Miscounting hierarchy levels."],
+          },
+        },
+        {
+          id: "olep-u5-hh-q11",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "The Thematic Apperception Test (TAT) is an example of which type of personality test?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "A projective test" },
+              { id: "b", text: "An intelligence test" },
+              { id: "c", text: "A standardised ability test" },
+              { id: "d", text: "A structured self-report questionnaire" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "TAT",
+                statement: "Projective test using ambiguous pictures.",
+              },
+            ],
+            steps: [
+              { reasoning: "TAT uses ambiguous stimuli.", marks: 1, markCode: "AO1" },
+              { reasoning: "That makes it projective.", marks: 1, markCode: "AO2" },
+            ],
+            finalAnswer: "**(b)** A projective test",
+            commonErrors: ["Confusing with questionnaire tests like the EPQ."],
+          },
+        },
+        {
+          id: "olep-u5-hh-q12",
+          difficulty: "challenge",
+          totalMarks: 3,
+          stem: "Give the number of (a) levels in Maslow's hierarchy, (b) traits in the Big Five model, and (c) 'selves' Rogers compares.",
+          response: {
+            type: "numeric",
+            parts: [
+              { label: "a", answer: 5 },
+              { label: "b", answer: 5 },
+              { label: "c", answer: 2 },
+            ],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Humanistic counts",
+                statement: "Maslow 5; Big Five 5; real/ideal self 2.",
+              },
+            ],
+            steps: [
+              { reasoning: "Five need levels.", marks: 1, markCode: "AO1" },
+              { reasoning: "Five OCEAN traits.", marks: 1, markCode: "AO1" },
+              { reasoning: "Real self and ideal self.", marks: 1, markCode: "AO1" },
+            ],
+            finalAnswer: "(a) 5 (b) 5 (c) 2",
+            commonErrors: ["Mixing up the theories."],
+          },
+        },
+        {
+          id: "olep-u5-hh-q13",
+          difficulty: "challenge",
+          totalMarks: 2,
+          stem: "Social desirability bias in self-report personality tests means that respondents...",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "give answers that make them look good" },
+              { id: "b", text: "answer completely honestly" },
+              { id: "c", text: "cannot understand the questions" },
+              { id: "d", text: "always choose the middle option" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Social desirability bias",
+                statement: "Responses shaped to look favourable.",
+              },
+            ],
+            steps: [
+              { reasoning: "People present themselves positively.", marks: 1, markCode: "AO1" },
+              { reasoning: "This distorts self-report data.", marks: 1, markCode: "AO2" },
+            ],
+            finalAnswer: "**(b)** give answers that make them look good",
+            commonErrors: ["Confusing with random responding."],
+          },
+        },
+        {
+          id: "olep-u5-hh-q14",
+          difficulty: "challenge",
+          totalMarks: 3,
+          stem: "Give the number of (a) need levels in Maslow's hierarchy, (b) 'selves' Rogers compares, and (c) projective tests named in the lesson (Rorschach, TAT).",
+          response: {
+            type: "numeric",
+            parts: [
+              { label: "a", answer: 5 },
+              { label: "b", answer: 2 },
+              { label: "c", answer: 2 },
+            ],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Counts",
+                statement: "Maslow 5; selves 2; projective tests 2.",
+              },
+            ],
+            steps: [
+              { reasoning: "Five need levels.", marks: 1, markCode: "AO1" },
+              { reasoning: "Real and ideal self.", marks: 1, markCode: "AO1" },
+              { reasoning: "Rorschach and TAT.", marks: 1, markCode: "AO1" },
+            ],
+            finalAnswer: "(a) 5 (b) 2 (c) 2",
+            commonErrors: ["Counting questionnaire tests as projective."],
+          },
+        },
+        {
+          id: "olep-u5-hh-q15",
+          difficulty: "challenge",
+          totalMarks: 2,
+          stem: "Projective tests like the Rorschach are considered less reliable than questionnaires mainly because...",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "they are only used with children" },
+              { id: "b", text: "they take too long to administer" },
+              { id: "c", text: "they are scored completely objectively" },
+              { id: "d", text: "interpretation of responses is subjective and varies between scorers" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Projective test reliability",
+                statement: "Subjective scoring lowers reliability.",
+              },
+            ],
+            steps: [
+              { reasoning: "Ambiguous stimuli need interpretation.", marks: 1, markCode: "AO1" },
+              { reasoning: "Scorer subjectivity reduces reliability.", marks: 1, markCode: "AO2" },
+            ],
+            finalAnswer: "**(b)** interpretation of responses is subjective and varies between scorers",
+            commonErrors: ["Claiming projective tests are objective."],
+          },
+        },
+        {
+          id: "olep-u5-hh-q16",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "Evaluate the use of projective tests in personality assessment.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Projective tests",
+                statement: "Reveal unconscious but unreliable.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Ambiguous stimuli may reveal unconscious processes.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                reasoning: "Examples: Rorschach inkblots, TAT pictures.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                reasoning: "Subjective scoring — poor reliability/objectivity.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "Weighed judgement — limited clinical use.",
+                marks: 1,
+                markCode: "AO3",
+              },
+            ],
+            finalAnswer:
+              "Projective tests use ambiguous stimuli (Rorschach, TAT) to reveal unconscious conflicts, but subjective interpretation makes them unreliable compared with standardised questionnaires.",
+            commonErrors: ["One-sided evaluation."],
           },
         },
       ],

@@ -54,8 +54,8 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "newton (N)" },
-              { id: "b", text: "joule (J)" },
+              { id: "a", text: "joule (J)" },
+              { id: "b", text: "newton (N)" },
               { id: "c", text: "kg m/s" },
               { id: "d", text: "watt (W)" },
             ],
@@ -80,12 +80,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$6.0$ kg m/s" },
-              { id: "b", text: "$1.5$ kg m/s" },
+              { id: "a", text: "$1.5$ kg m/s" },
+              { id: "b", text: "$6.0$ kg m/s" },
               { id: "c", text: "$5.0$ kg m/s" },
               { id: "d", text: "$9.0$ kg m/s" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "p = mv", statement: "p = mv" }],
@@ -107,12 +107,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$2.0$ m/s" },
-              { id: "b", text: "$0.50$ m/s" },
+              { id: "a", text: "$0.50$ m/s" },
+              { id: "b", text: "$200$ m/s" },
               { id: "c", text: "$10$ m/s" },
-              { id: "d", text: "$200$ m/s" },
+              { id: "d", text: "$2.0$ m/s" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "FΔt = Δp", statement: "F\\Delta t = \\Delta p = m\\Delta v" }],
@@ -167,12 +167,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "mass $\\times$ acceleration" },
-              { id: "b", text: "mass $\\times$ velocity" },
+              { id: "a", text: "mass $\\times$ velocity" },
+              { id: "b", text: "mass $\\times$ acceleration" },
               { id: "c", text: "force $\\times$ time" },
               { id: "d", text: "mass $\\times$ displacement" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Momentum", statement: "p = mv;\\ \\text{vector, unit kg m/s}." }],
@@ -194,12 +194,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "its final momentum" },
-              { id: "b", text: "the change in its momentum" },
-              { id: "c", text: "its kinetic energy" },
-              { id: "d", text: "its weight times the distance moved" },
+              { id: "a", text: "its weight times the distance moved" },
+              { id: "b", text: "its kinetic energy" },
+              { id: "c", text: "its final momentum" },
+              { id: "d", text: "the change in its momentum" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "law", name: "Impulse–momentum principle", statement: "J = F\\Delta t = \\Delta p" }],
@@ -221,12 +221,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "zero" },
-              { id: "b", text: "twice the magnitude of the momentum" },
-              { id: "c", text: "half the magnitude of the momentum" },
+              { id: "a", text: "twice the magnitude of the momentum" },
+              { id: "b", text: "half the magnitude of the momentum" },
+              { id: "c", text: "zero" },
               { id: "d", text: "equal to the magnitude of the momentum" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Δp = mv − mu", statement: "\\Delta p = mv - mu;\\ \\text{rebound reverses direction}" }],
@@ -545,12 +545,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It increases" },
-              { id: "b", text: "It decreases" },
-              { id: "c", text: "It remains constant" },
-              { id: "d", text: "It becomes zero" },
+              { id: "a", text: "It decreases" },
+              { id: "b", text: "It becomes zero" },
+              { id: "c", text: "It increases" },
+              { id: "d", text: "It remains constant" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "law", name: "Conservation of momentum", statement: "Total momentum of an isolated system is constant." }],
@@ -572,8 +572,8 @@ export const lesson13: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$2.0$ m/s" },
-              { id: "b", text: "$3.0$ m/s" },
-              { id: "c", text: "$1.0$ m/s" },
+              { id: "b", text: "$1.0$ m/s" },
+              { id: "c", text: "$3.0$ m/s" },
               { id: "d", text: "$6.0$ m/s" },
             ],
             correctChoiceId: "a",
@@ -598,12 +598,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$2.0$ m/s" },
+              { id: "a", text: "$18$ m/s" },
               { id: "b", text: "$6.0$ m/s" },
-              { id: "c", text: "$18$ m/s" },
+              { id: "c", text: "$2.0$ m/s" },
               { id: "d", text: "$0.50$ m/s" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "law", name: "Conservation of momentum", statement: "Total momentum stays zero: momenta of the pieces are equal and opposite." }],
@@ -658,10 +658,10 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "kinetic energy is conserved" },
+              { id: "a", text: "the collision is elastic" },
               { id: "b", text: "no external resultant force acts on the system" },
-              { id: "c", text: "the collision is elastic" },
-              { id: "d", text: "the objects have equal masses" },
+              { id: "c", text: "the objects have equal masses" },
+              { id: "d", text: "kinetic energy is conserved" },
             ],
             correctChoiceId: "b",
           },
@@ -685,12 +685,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Both momentum and kinetic energy" },
-              { id: "b", text: "Momentum only" },
-              { id: "c", text: "Kinetic energy only" },
-              { id: "d", text: "Neither momentum nor kinetic energy" },
+              { id: "a", text: "Momentum only" },
+              { id: "b", text: "Both momentum and kinetic energy" },
+              { id: "c", text: "Neither momentum nor kinetic energy" },
+              { id: "d", text: "Kinetic energy only" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "law", name: "Conservation of momentum", statement: "Momentum is conserved in all collisions." }],
@@ -713,11 +713,11 @@ export const lesson13: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "both move at $u/2$" },
-              { id: "b", text: "the moving trolley stops and the stationary one moves at $u$" },
-              { id: "c", text: "both rebound at speed $u$" },
-              { id: "d", text: "the moving trolley continues at $u$" },
+              { id: "b", text: "both rebound at speed $u$" },
+              { id: "c", text: "the moving trolley continues at $u$" },
+              { id: "d", text: "the moving trolley stops and the stationary one moves at $u$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "law", name: "Elastic collision", statement: "For equal masses in a 1D elastic collision, velocities are exchanged." }],

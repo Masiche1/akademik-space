@@ -54,12 +54,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Endothermic, because energy is transferred to the surroundings" },
-              { id: "b", text: "Exothermic, because energy is transferred to the surroundings" },
-              { id: "c", text: "Exothermic, because $\\Delta H$ is positive" },
-              { id: "d", text: "Endothermic, because $\\Delta H$ is negative" },
+              { id: "a", text: "Endothermic, because $\\Delta H$ is negative" },
+              { id: "b", text: "Exothermic, because $\\Delta H$ is positive" },
+              { id: "c", text: "Endothermic, because energy is transferred to the surroundings" },
+              { id: "d", text: "Exothermic, because energy is transferred to the surroundings" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -196,12 +196,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$Q = \\frac{m\\Delta T}{c}$" },
-              { id: "b", text: "$Q = mc\\Delta T$" },
-              { id: "c", text: "$Q = \\frac{mc}{\\Delta T}$" },
-              { id: "d", text: "$Q = m + c + \\Delta T$" },
+              { id: "a", text: "$Q = m + c + \\Delta T$" },
+              { id: "b", text: "$Q = \\frac{m\\Delta T}{c}$" },
+              { id: "c", text: "$Q = mc\\Delta T$" },
+              { id: "d", text: "$Q = \\frac{mc}{\\Delta T}$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

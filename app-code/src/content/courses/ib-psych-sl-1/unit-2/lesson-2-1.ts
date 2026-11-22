@@ -53,12 +53,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Chunking" },
-              { id: "b", text: "Elaborative rehearsal" },
-              { id: "c", text: "Automatic processing" },
-              { id: "d", text: "Primacy effect" },
+              { id: "a", text: "Primacy effect" },
+              { id: "b", text: "Automatic processing" },
+              { id: "c", text: "Chunking" },
+              { id: "d", text: "Elaborative rehearsal" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -152,10 +152,10 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The sensory memory store" },
+              { id: "a", text: "The long-term memory store" },
               { id: "b", text: "The short-term memory store" },
-              { id: "c", text: "The long-term memory store" },
-              { id: "d", text: "The rehearsal process" },
+              { id: "c", text: "The rehearsal process" },
+              { id: "d", text: "The sensory memory store" },
             ],
             correctChoiceId: "b",
           },
@@ -224,12 +224,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Central executive" },
-              { id: "b", text: "Visuospatial sketchpad" },
-              { id: "c", text: "Phonological loop" },
-              { id: "d", text: "Episodic buffer" },
+              { id: "a", text: "Phonological loop" },
+              { id: "b", text: "Episodic buffer" },
+              { id: "c", text: "Central executive" },
+              { id: "d", text: "Visuospatial sketchpad" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -252,12 +252,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "That STM has a limited capacity" },
-              { id: "b", text: "That STM is a single unitary store" },
-              { id: "c", text: "That rehearsal transfers information to LTM" },
-              { id: "d", text: "That sensory memory lasts under one second" },
+              { id: "a", text: "That sensory memory lasts under one second" },
+              { id: "b", text: "That rehearsal transfers information to LTM" },
+              { id: "c", text: "That STM is a single unitary store" },
+              { id: "d", text: "That STM has a limited capacity" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -280,12 +280,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Last items being rehearsed into LTM" },
-              { id: "b", text: "Last items still being held in STM at recall" },
-              { id: "c", text: "Last items receiving deeper encoding" },
-              { id: "d", text: "Retroactive interference affecting earlier items" },
+              { id: "a", text: "Last items still being held in STM at recall" },
+              { id: "b", text: "Retroactive interference affecting earlier items" },
+              { id: "c", text: "Last items being rehearsed into LTM" },
+              { id: "d", text: "Last items receiving deeper encoding" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -400,9 +400,9 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The serial position effect in free recall" },
+              { id: "a", text: "Chunking increasing the number of items remembered" },
               { id: "b", text: "Patients with digit-span deficits but intact long-term memory" },
-              { id: "c", text: "Chunking increasing the number of items remembered" },
+              { id: "c", text: "The serial position effect in free recall" },
               { id: "d", text: "Rehearsed information being recalled better" },
             ],
             correctChoiceId: "b",
@@ -480,12 +480,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Old learning disrupts new learning" },
-              { id: "b", text: "New learning disrupts old learning" },
-              { id: "c", text: "Memory traces fade over time" },
-              { id: "d", text: "Information cannot be retrieved without cues" },
+              { id: "a", text: "Memory traces fade over time" },
+              { id: "b", text: "Old learning disrupts new learning" },
+              { id: "c", text: "Information cannot be retrieved without cues" },
+              { id: "d", text: "New learning disrupts old learning" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -579,12 +579,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "New learning disrupts recall of old learning" },
-              { id: "b", text: "Old learning disrupts recall of new learning" },
+              { id: "a", text: "Old learning disrupts recall of new learning" },
+              { id: "b", text: "Information is stored but cannot be accessed" },
               { id: "c", text: "Memory traces fade with the passage of time" },
-              { id: "d", text: "Information is stored but cannot be accessed" },
+              { id: "d", text: "New learning disrupts recall of old learning" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -607,12 +607,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Structural encoding — noting what the word looks like" },
+              { id: "a", text: "Semantic encoding — processing the word's meaning" },
               { id: "b", text: "Phonemic encoding — noting how the word sounds" },
-              { id: "c", text: "Semantic encoding — processing the word's meaning" },
+              { id: "c", text: "Structural encoding — noting what the word looks like" },
               { id: "d", text: "Repetition encoding — saying the word aloud many times" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -657,12 +657,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "State-dependent retrieval" },
-              { id: "b", text: "Context-dependent retrieval" },
-              { id: "c", text: "Proactive interference" },
-              { id: "d", text: "The testing effect" },
+              { id: "a", text: "Context-dependent retrieval" },
+              { id: "b", text: "The testing effect" },
+              { id: "c", text: "State-dependent retrieval" },
+              { id: "d", text: "Proactive interference" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -685,12 +685,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It only applies to children" },
-              { id: "b", text: "Evidence comes mainly from case studies and cannot be tested experimentally" },
+              { id: "a", text: "It has been disproven by brain imaging" },
+              { id: "b", text: "It only applies to children" },
               { id: "c", text: "It contradicts the multi-store model of memory" },
-              { id: "d", text: "It has been disproven by brain imaging" },
+              { id: "d", text: "Evidence comes mainly from case studies and cannot be tested experimentally" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -713,12 +713,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Loss of memories formed before the injury" },
-              { id: "b", text: "Inability to form new long-term memories after the injury" },
+              { id: "a", text: "Difficulty retrieving memories without cues" },
+              { id: "b", text: "Loss of memories formed before the injury" },
               { id: "c", text: "Temporary forgetting caused by stress" },
-              { id: "d", text: "Difficulty retrieving memories without cues" },
+              { id: "d", text: "Inability to form new long-term memories after the injury" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

@@ -56,8 +56,8 @@ export const lesson33: Lesson = {
             choices: [
               { id: "a", text: "Primers bind to their complementary sequences on the separated template strands" },
               { id: "b", text: "The DNA strands are separated by heat" },
-              { id: "c", text: "Taq polymerase synthesises new DNA strands" },
-              { id: "d", text: "The DNA is cut with restriction enzymes" },
+              { id: "c", text: "The DNA is cut with restriction enzymes" },
+              { id: "d", text: "Taq polymerase synthesises new DNA strands" },
             ],
             correctChoiceId: "a",
           },
@@ -156,12 +156,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "separate the two DNA strands so they can act as templates" },
-              { id: "b", text: "allow primers to bind to the template" },
+              { id: "a", text: "allow primers to bind to the template" },
+              { id: "b", text: "separate the two DNA strands so they can act as templates" },
               { id: "c", text: "enable Taq polymerase to synthesise new strands" },
               { id: "d", text: "digest the DNA with restriction enzymes" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -186,8 +186,8 @@ export const lesson33: Lesson = {
             choices: [
               { id: "a", text: "Taq polymerase can synthesise new DNA strands from the primers" },
               { id: "b", text: "the primers can anneal to the template" },
-              { id: "c", text: "the DNA double helix denatures" },
-              { id: "d", text: "the amplified DNA is cut into fragments" },
+              { id: "c", text: "the amplified DNA is cut into fragments" },
+              { id: "d", text: "the DNA double helix denatures" },
             ],
             correctChoiceId: "a",
           },
@@ -212,12 +212,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "bind to complementary sequences on the template and define the region that is amplified" },
-              { id: "b", text: "separate the two DNA strands at high temperature" },
-              { id: "c", text: "cut the DNA at specific recognition sites" },
-              { id: "d", text: "join the amplified fragments together" },
+              { id: "a", text: "join the amplified fragments together" },
+              { id: "b", text: "cut the DNA at specific recognition sites" },
+              { id: "c", text: "bind to complementary sequences on the template and define the region that is amplified" },
+              { id: "d", text: "separate the two DNA strands at high temperature" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -240,12 +240,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "further toward the positive electrode than larger fragments" },
+              { id: "a", text: "only when the gel is heated" },
               { id: "b", text: "less far than larger fragments" },
-              { id: "c", text: "toward the negative electrode" },
-              { id: "d", text: "only when the gel is heated" },
+              { id: "c", text: "further toward the positive electrode than larger fragments" },
+              { id: "d", text: "toward the negative electrode" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -459,9 +459,9 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "It allows transformed cells to be identified and selected" },
-              { id: "b", text: "It cuts the plasmid DNA at a specific sequence" },
+              { id: "b", text: "It unwinds the DNA double helix" },
               { id: "c", text: "It joins DNA fragments together" },
-              { id: "d", text: "It unwinds the DNA double helix" },
+              { id: "d", text: "It cuts the plasmid DNA at a specific sequence" },
             ],
             correctChoiceId: "a",
           },
@@ -559,12 +559,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "cut DNA at specific recognition sequences to generate fragments that can be joined" },
-              { id: "b", text: "join DNA fragments together" },
-              { id: "c", text: "copy DNA sequences" },
-              { id: "d", text: "select cells that have taken up foreign DNA" },
+              { id: "a", text: "select cells that have taken up foreign DNA" },
+              { id: "b", text: "cut DNA at specific recognition sequences to generate fragments that can be joined" },
+              { id: "c", text: "join DNA fragments together" },
+              { id: "d", text: "copy DNA sequences" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -589,8 +589,8 @@ export const lesson33: Lesson = {
             choices: [
               { id: "a", text: "short single-stranded overhangs that can base-pair with complementary sticky ends" },
               { id: "b", text: "blunt ends with no overhang" },
-              { id: "c", text: "protein sequences attached to the DNA" },
-              { id: "d", text: "RNA primers bound to the template" },
+              { id: "c", text: "RNA primers bound to the template" },
+              { id: "d", text: "protein sequences attached to the DNA" },
             ],
             correctChoiceId: "a",
           },
@@ -615,12 +615,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "form phosphodiester bonds that join DNA fragments together" },
-              { id: "b", text: "cut DNA at recognition sequences" },
-              { id: "c", text: "separate the two DNA strands" },
-              { id: "d", text: "add a selectable marker to the plasmid" },
+              { id: "a", text: "separate the two DNA strands" },
+              { id: "b", text: "form phosphodiester bonds that join DNA fragments together" },
+              { id: "c", text: "add a selectable marker to the plasmid" },
+              { id: "d", text: "cut DNA at recognition sequences" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -643,12 +643,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Agrobacterium-mediated transformation or the gene gun" },
-              { id: "b", text: "Heat shock of bacterial cells only" },
-              { id: "c", text: "Gel electrophoresis" },
-              { id: "d", text: "PCR amplification" },
+              { id: "a", text: "Gel electrophoresis" },
+              { id: "b", text: "PCR amplification" },
+              { id: "c", text: "Agrobacterium-mediated transformation or the gene gun" },
+              { id: "d", text: "Heat shock of bacterial cells only" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

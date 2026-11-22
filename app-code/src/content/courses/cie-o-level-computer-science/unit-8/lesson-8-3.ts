@@ -39,8 +39,11 @@ export const lesson83: Lesson = {
           id: "olcs-u8-fh-q1", difficulty: "foundation", totalMarks: 1,
           stem: "A text file contains…",
           response: { type: "mcq", choices: [
-            { id: "a", text: "Human-readable characters" }, { id: "b", text: "Only raw bytes" }, { id: "c", text: "Encrypted data only" }, { id: "d", text: "No data" },
-          ], correctChoiceId: "a" },
+            { id: "a", text: "Encrypted data only" },
+            { id: "b", text: "Human-readable characters" },
+            { id: "c", text: "No data" },
+            { id: "d", text: "Only raw bytes" },
+          ], correctChoiceId: "b" },
           markscheme: { principles: [{ kind: "definition", name: "Text file", statement: "Readable characters." }], steps: [{ reasoning: "Text = readable.", working: "\\text{text}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Readable characters" },
         },
         {
@@ -87,6 +90,141 @@ export const lesson83: Lesson = {
             { part: "d", reasoning: "CLOSE file.", working: "CLOSE", marks: 1, markCode: "A" },
           ], finalAnswer: "(a) readable vs bytes (b) in-order (c) entry vs item (d) OPEN→READ→CLOSE" },
         },
+        {
+          id: "olcs-u8-fh-q5", difficulty: "foundation", totalMarks: 1,
+          stem: "A binary file contains…",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "Only numbers as text" },
+            { id: "b", text: "Raw machine-readable bytes" },
+            { id: "c", text: "No data" },
+            { id: "d", text: "Human-readable text" },
+          ], correctChoiceId: "b" },
+          markscheme: { principles: [{ kind: "definition", name: "Binary file", statement: "Raw bytes." }], steps: [{ reasoning: "Binary = raw machine-readable bytes.", working: "\\text{bytes}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Raw bytes" },
+        },
+        {
+          id: "olcs-u8-fh-q6", difficulty: "foundation", totalMarks: 1,
+          stem: "How many file operations are named: OPEN, READ, WRITE, CLOSE?",
+          response: { type: "numeric", parts: [{ label: "Number of operations", answer: 4 }] },
+          markscheme: { principles: [{ kind: "principle", name: "File handling", statement: "Open, read, write, close." }], steps: [
+            { reasoning: "Four operations named.", working: "4", marks: 1, markCode: "B" },
+          ], finalAnswer: "4" },
+        },
+        {
+          id: "olcs-u8-fh-q7", difficulty: "core", totalMarks: 1,
+          stem: "Sequential file access means…",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "Records are accessed in the order they are stored" },
+            { id: "b", text: "Access is always fastest" },
+            { id: "c", text: "You can jump to any record instantly" },
+            { id: "d", text: "There is no order" },
+          ], correctChoiceId: "a" },
+          markscheme: { principles: [{ kind: "definition", name: "Sequential access", statement: "In-order access." }], steps: [{ reasoning: "Sequential = must read in order.", working: "\\text{in order}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** In stored order" },
+        },
+        {
+          id: "olcs-u8-fh-q8", difficulty: "core", totalMarks: 1,
+          stem: "A file has 3 records, each containing 4 fields. How many field values are stored in total?",
+          response: { type: "numeric", parts: [{ label: "Total field values", answer: 12 }] },
+          markscheme: { principles: [{ kind: "principle", name: "Records and fields", statement: "Records × fields." }], steps: [
+            { reasoning: "3 × 4 = 12 values.", working: "12", marks: 1, markCode: "B" },
+          ], finalAnswer: "12" },
+        },
+        {
+          id: "olcs-u8-fh-q9", difficulty: "core", totalMarks: 1,
+          stem: "A record in a file is…",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "A program" },
+            { id: "b", text: "A single character" },
+            { id: "c", text: "One complete entry" },
+            { id: "d", text: "A folder" },
+          ], correctChoiceId: "c" },
+          markscheme: { principles: [{ kind: "definition", name: "Record", statement: "One complete entry." }], steps: [{ reasoning: "Record = complete entry.", working: "\\text{entry}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** One complete entry" },
+        },
+        {
+          id: "olcs-u8-fh-q10", difficulty: "core", totalMarks: 2,
+          stem: "State two differences between a text file and a binary file.",
+          response: { type: "open" },
+          markscheme: { principles: [{ kind: "definition", name: "Text vs binary", statement: "Readable chars vs raw bytes." }], steps: [
+            { reasoning: "Text is human-readable; binary is raw bytes.", working: "\\text{readable vs bytes}", marks: 1, markCode: "M" },
+            { reasoning: "Text opens in an editor; binary needs a program.", working: "\\text{editor vs program}", marks: 1, markCode: "A" },
+          ], finalAnswer: "Text files are human-readable characters; binary files are raw machine bytes." },
+        },
+        {
+          id: "olcs-u8-fh-q11", difficulty: "challenge", totalMarks: 1,
+          stem: "In which type of file must you read through earlier records to reach a later one?",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "Any file" },
+            { id: "b", text: "A web page" },
+            { id: "c", text: "An array" },
+            { id: "d", text: "Sequential file" },
+          ], correctChoiceId: "d" },
+          markscheme: { principles: [{ kind: "definition", name: "Sequential access", statement: "In-order only." }], steps: [{ reasoning: "Sequential files require reading in order.", working: "\\text{sequential}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Sequential file" },
+        },
+        {
+          id: "olcs-u8-fh-q12", difficulty: "core", totalMarks: 1,
+          stem: "The file operations OPEN → WRITE → CLOSE involve how many steps?",
+          response: { type: "numeric", parts: [{ label: "Number of steps", answer: 3 }] },
+          markscheme: { principles: [{ kind: "principle", name: "File handling", statement: "Open → write → close." }], steps: [
+            { reasoning: "Three steps listed.", working: "3", marks: 1, markCode: "B" },
+          ], finalAnswer: "3" },
+        },
+        {
+          id: "olcs-u8-fh-q13", difficulty: "challenge", totalMarks: 4,
+          stem: "Explain why a sequential file is suitable for storing an activity log.",
+          response: { type: "open" },
+          markscheme: { principles: [{ kind: "principle", name: "Sequential files", statement: "In-order append suits logs." }], steps: [
+            { reasoning: "Records are added in time order.", working: "\\text{order}", marks: 1, markCode: "M" },
+            { reasoning: "Appending new entries is simple.", working: "\\text{append}", marks: 1, markCode: "M" },
+            { reasoning: "Reading the log back follows the same order.", marks: 1, markCode: "M" },
+            { reasoning: "Clear explanation.", marks: 1, markCode: "A" },
+          ], finalAnswer: "Log entries are chronological, so in-order append and read match sequential file access perfectly." },
+        },
+        {
+          id: "olcs-u8-fh-q14", difficulty: "challenge", totalMarks: 1,
+          stem: "A photograph saved as a .jpg file would be stored as…",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "A binary file" },
+            { id: "b", text: "No file at all" },
+            { id: "c", text: "A text file" },
+            { id: "d", text: "Either type equally" },
+          ], correctChoiceId: "a" },
+          markscheme: { principles: [{ kind: "definition", name: "Binary file", statement: "Images are binary." }], steps: [{ reasoning: "Images are raw bytes → binary.", working: "\\text{binary}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** A binary file" },
+        },
+        {
+          id: "olcs-u8-fh-q15", difficulty: "core", totalMarks: 2,
+          stem: "State how many file operations are named and how many fields a student record with name, ID, class and age has.",
+          response: { type: "numeric", parts: [
+            { label: "File operations", answer: 4 },
+            { label: "Fields in record", answer: 4 },
+          ] },
+          markscheme: { principles: [{ kind: "principle", name: "Files", statement: "4 operations; 4 fields." }], steps: [
+            { reasoning: "OPEN, READ, WRITE, CLOSE.", working: "4", marks: 1, markCode: "M" },
+            { reasoning: "Name, ID, class, age = 4 fields.", working: "4", marks: 1, markCode: "A" },
+          ], finalAnswer: "4 operations; 4 fields" },
+        },
+        {
+          id: "olcs-u8-fh-q16", difficulty: "challenge", totalMarks: 9,
+          stem: "File handling review.",
+          parts: [
+            { label: "a", prompt: "Which file type stores a photograph and why?", marks: 2 },
+            { label: "b", prompt: "Define sequential file access.", marks: 2 },
+            { label: "c", prompt: "Define record and field.", marks: 2 },
+            { label: "d", prompt: "Write pseudocode to append the name 'Ali' to 'names.txt'.", marks: 3 },
+          ],
+          response: { type: "open" },
+          markscheme: { principles: [
+            { kind: "principle", name: "File handling", statement: "Open→read/write→close sequence." },
+          ], steps: [
+            { part: "a", reasoning: "Binary — images are raw bytes.", working: "\\text{binary}", marks: 1, markCode: "M" },
+            { part: "a", reasoning: "Correct type and reason.", marks: 1, markCode: "A" },
+            { part: "b", reasoning: "Records accessed in stored order.", working: "\\text{in order}", marks: 1, markCode: "M" },
+            { part: "b", reasoning: "No direct jumping.", marks: 1, markCode: "A" },
+            { part: "c", reasoning: "Record: entry; field: data item.", working: "\\text{record+field}", marks: 1, markCode: "M" },
+            { part: "c", reasoning: "Correct definitions.", marks: 1, markCode: "A" },
+            { part: "d", reasoning: "OPEN 'names.txt' FOR APPEND.", working: "OPEN", marks: 1, markCode: "M" },
+            { part: "d", reasoning: "WRITE 'Ali'.", working: "WRITE", marks: 1, markCode: "M" },
+            { part: "d", reasoning: "CLOSE file.", working: "CLOSE", marks: 1, markCode: "A" },
+          ], finalAnswer: "(a) binary/bytes (b) in-order (c) entry vs item (d) OPEN→WRITE→CLOSE" },
+        },
       ],
     },
     {
@@ -112,8 +250,11 @@ export const lesson83: Lesson = {
           id: "olcs-u8-pu-q1", difficulty: "foundation", totalMarks: 1,
           stem: "A procedure is called by…",
           response: { type: "mcq", choices: [
-            { id: "a", text: "Using its name with arguments" }, { id: "b", text: "Its line number" }, { id: "c", text: "A file name" }, { id: "d", text: "A variable name only" },
-          ], correctChoiceId: "a" },
+            { id: "a", text: "Its line number" },
+            { id: "b", text: "A file name" },
+            { id: "c", text: "Using its name with arguments" },
+            { id: "d", text: "A variable name only" },
+          ], correctChoiceId: "c" },
           markscheme: { principles: [{ kind: "definition", name: "Procedure call", statement: "Name + arguments." }], steps: [{ reasoning: "Call by name.", working: "\\text{call}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Name with arguments" },
         },
         {
@@ -159,6 +300,141 @@ export const lesson83: Lesson = {
             { part: "d", reasoning: "Runs once with n=5.", working: "n=5", marks: 1, markCode: "M" },
             { part: "d", reasoning: "Outputs 5 stars.", marks: 1, markCode: "A" },
           ], finalAnswer: "(a) reuse+readability (b) input value (c) loop outputs stars (d) prints 5 stars" },
+        },
+        {
+          id: "olcs-u8-pu-q5", difficulty: "foundation", totalMarks: 1,
+          stem: "A procedure is called by…",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "A variable name only" },
+            { id: "b", text: "A file name" },
+            { id: "c", text: "Using its name with arguments" },
+            { id: "d", text: "Its line number" },
+          ], correctChoiceId: "c" },
+          markscheme: { principles: [{ kind: "definition", name: "Procedure call", statement: "Name + arguments." }], steps: [{ reasoning: "Call uses the routine's name.", working: "\\text{call}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Name with arguments" },
+        },
+        {
+          id: "olcs-u8-pu-q6", difficulty: "foundation", totalMarks: 1,
+          stem: "How many benefits of using procedures are listed: reusable, readable, maintainable?",
+          response: { type: "numeric", parts: [{ label: "Number of benefits", answer: 3 }] },
+          markscheme: { principles: [{ kind: "principle", name: "Procedures", statement: "Reusable, readable, maintainable." }], steps: [
+            { reasoning: "Three benefits named.", working: "3", marks: 1, markCode: "B" },
+          ], finalAnswer: "3" },
+        },
+        {
+          id: "olcs-u8-pu-q7", difficulty: "core", totalMarks: 1,
+          stem: "A well-designed procedure should…",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "Do one clear job" },
+            { id: "b", text: "Never be called" },
+            { id: "c", text: "Do everything at once" },
+            { id: "d", text: "Use only global variables" },
+          ], correctChoiceId: "a" },
+          markscheme: { principles: [{ kind: "principle", name: "Procedure design", statement: "One clear job each." }], steps: [{ reasoning: "Keep procedures focused.", working: "\\text{one job}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Do one clear job" },
+        },
+        {
+          id: "olcs-u8-pu-q8", difficulty: "core", totalMarks: 1,
+          stem: "A procedure DOUBLE(x) outputs x * 2. What is output when DOUBLE(6) is called?",
+          response: { type: "numeric", parts: [{ label: "Output", answer: 12 }] },
+          markscheme: { principles: [{ kind: "principle", name: "Procedure call", statement: "Substitute parameter." }], steps: [
+            { reasoning: "6 × 2 = 12.", working: "12", marks: 1, markCode: "B" },
+          ], finalAnswer: "12" },
+        },
+        {
+          id: "olcs-u8-pu-q9", difficulty: "core", totalMarks: 1,
+          stem: "Using procedures improves a program mainly by making it…",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "Private" },
+            { id: "b", text: "Slower" },
+            { id: "c", text: "Reusable and readable" },
+            { id: "d", text: "Longer" },
+          ], correctChoiceId: "c" },
+          markscheme: { principles: [{ kind: "principle", name: "Procedures", statement: "Reusable, readable, maintainable." }], steps: [{ reasoning: "Procedures make code reusable and readable.", working: "\\text{reuse}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Reusable and readable" },
+        },
+        {
+          id: "olcs-u8-pu-q10", difficulty: "core", totalMarks: 2,
+          stem: "Give two reasons to create a procedure in a program.",
+          response: { type: "open" },
+          markscheme: { principles: [{ kind: "principle", name: "Procedures", statement: "Reuse and readability." }], steps: [
+            { reasoning: "Reusable: call the same code many times.", working: "\\text{reusable}", marks: 1, markCode: "M" },
+            { reasoning: "Readable: named blocks each do one job.", working: "\\text{readable}", marks: 1, markCode: "A" },
+          ], finalAnswer: "Reusability and readability (also maintainability/testing parts separately)." },
+        },
+        {
+          id: "olcs-u8-pu-q11", difficulty: "challenge", totalMarks: 1,
+          stem: "You should create a procedure when…",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "Code is repeated or a task is complex enough to name" },
+            { id: "b", text: "Only to fix errors" },
+            { id: "c", text: "Never" },
+            { id: "d", text: "Always, for every line" },
+          ], correctChoiceId: "a" },
+          markscheme: { principles: [{ kind: "principle", name: "When to use", statement: "Repeated or named tasks." }], steps: [{ reasoning: "Procedures suit repeated/complex tasks.", working: "\\text{reuse}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Repeated code or nameable task" },
+        },
+        {
+          id: "olcs-u8-pu-q12", difficulty: "core", totalMarks: 1,
+          stem: "A function CUBE(x) returns x cubed. What does CUBE(2) return?",
+          response: { type: "numeric", parts: [{ label: "CUBE(2)", answer: 8 }] },
+          markscheme: { principles: [{ kind: "principle", name: "Function evaluation", statement: "2³ = 8." }], steps: [
+            { reasoning: "2 × 2 × 2 = 8.", working: "8", marks: 1, markCode: "B" },
+          ], finalAnswer: "8" },
+        },
+        {
+          id: "olcs-u8-pu-q13", difficulty: "challenge", totalMarks: 4,
+          stem: "Explain how parameters let one procedure handle many different inputs.",
+          response: { type: "open" },
+          markscheme: { principles: [{ kind: "principle", name: "Parameters", statement: "Different arguments per call." }], steps: [
+            { reasoning: "The routine is defined once with formal parameters.", working: "\\text{define once}", marks: 1, markCode: "M" },
+            { reasoning: "Each call supplies different actual parameters.", working: "\\text{arguments}", marks: 1, markCode: "M" },
+            { reasoning: "Same code, different results — reusable.", working: "\\text{reusable}", marks: 1, markCode: "M" },
+            { reasoning: "Clear explanation.", marks: 1, markCode: "A" },
+          ], finalAnswer: "One definition with parameters can be called with different arguments, producing different results each time." },
+        },
+        {
+          id: "olcs-u8-pu-q14", difficulty: "challenge", totalMarks: 1,
+          stem: "Each time a procedure is called with new parameters…",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "The name changes" },
+            { id: "b", text: "The routine runs again using those values" },
+            { id: "c", text: "The procedure is deleted" },
+            { id: "d", text: "The loop is skipped" },
+          ], correctChoiceId: "b" },
+          markscheme: { principles: [{ kind: "principle", name: "Procedure calls", statement: "Re-executes with new args." }], steps: [{ reasoning: "Each call runs the routine with the given arguments.", working: "\\text{run}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Runs again with those values" },
+        },
+        {
+          id: "olcs-u8-pu-q15", difficulty: "core", totalMarks: 2,
+          stem: "Evaluate DOUBLE(6) and CUBE(2) for procedures that output x*2 and x cubed respectively.",
+          response: { type: "numeric", parts: [
+            { label: "DOUBLE(6)", answer: 12 },
+            { label: "CUBE(2)", answer: 8 },
+          ], unordered: true },
+          markscheme: { principles: [{ kind: "principle", name: "Procedure evaluation", statement: "Substitute and compute." }], steps: [
+            { reasoning: "DOUBLE(6) = 6 × 2 = 12.", working: "12", marks: 1, markCode: "M" },
+            { reasoning: "CUBE(2) = 2³ = 8.", working: "8", marks: 1, markCode: "A" },
+          ], finalAnswer: "12 and 8" },
+        },
+        {
+          id: "olcs-u8-pu-q16", difficulty: "challenge", totalMarks: 9,
+          stem: "Procedures review.",
+          parts: [
+            { label: "a", prompt: "Give two reasons to use procedures.", marks: 2 },
+            { label: "b", prompt: "What is a parameter?", marks: 2 },
+            { label: "c", prompt: "Write pseudocode for a procedure PRINT_STAR(n) that outputs n asterisks.", marks: 3 },
+            { label: "d", prompt: "How is PRINT_STAR(3) executed?", marks: 2 },
+          ],
+          response: { type: "open" },
+          markscheme: { principles: [
+            { kind: "principle", name: "Procedures", statement: "Reusable named blocks with parameters." },
+          ], steps: [
+            { part: "a", reasoning: "Reusable + readable.", working: "\\text{reuse+read}", marks: 1, markCode: "M" },
+            { part: "a", reasoning: "Two reasons.", marks: 1, markCode: "A" },
+            { part: "b", reasoning: "Value passed into routine.", working: "\\text{param}", marks: 1, markCode: "M" },
+            { part: "b", reasoning: "Correct definition.", marks: 1, markCode: "A" },
+            { part: "c", reasoning: "PROCEDURE PRINT_STAR(n) with FOR i←1 TO n OUTPUT '*'.", working: "OUTPUT '*'", marks: 1, markCode: "M" },
+            { part: "c", reasoning: "Correct loop.", marks: 1, markCode: "M" },
+            { part: "c", reasoning: "ENDPROCEDURE.", marks: 1, markCode: "A" },
+            { part: "d", reasoning: "Runs once with n=3.", working: "n=3", marks: 1, markCode: "M" },
+            { part: "d", reasoning: "Outputs 3 stars.", marks: 1, markCode: "A" },
+          ], finalAnswer: "(a) reuse+readability (b) input value (c) loop outputs stars (d) prints 3 stars" },
         },
       ],
     },

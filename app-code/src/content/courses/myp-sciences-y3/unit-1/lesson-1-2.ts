@@ -60,12 +60,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$H_2+O_2\\to H_2O$" },
-              { id: "b", text: "$2H_2+O_2\\to 2H_2O$" },
-              { id: "c", text: "$H_2+2O_2\\to 2H_2O$" },
+              { id: "a", text: "$2H_2+O_2\\to 2H_2O$" },
+              { id: "b", text: "$H_2+2O_2\\to 2H_2O$" },
+              { id: "c", text: "$H_2+O_2\\to H_2O$" },
               { id: "d", text: "$2H_2+2O_2\\to 2H_2O$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -159,12 +159,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "On the left of the arrow" },
-              { id: "b", text: "On the right of the arrow" },
-              { id: "c", text: "Above the arrow" },
+              { id: "a", text: "Above the arrow" },
+              { id: "b", text: "On the left of the arrow" },
+              { id: "c", text: "On the right of the arrow" },
               { id: "d", text: "Below the arrow" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -186,12 +186,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Reversible reaction" },
-              { id: "b", text: "Reacts to form" },
-              { id: "c", text: "Equals" },
-              { id: "d", text: "Produces energy" },
+              { id: "a", text: "Equals" },
+              { id: "b", text: "Reversible reaction" },
+              { id: "c", text: "Produces energy" },
+              { id: "d", text: "Reacts to form" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -271,9 +271,9 @@ export const lesson12: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$H_2+O_2\\to2H_2O$" },
-              { id: "b", text: "$2H_2+O_2\\to2H_2O$" },
-              { id: "c", text: "$2Mg+O_2\\to2MgO$" },
-              { id: "d", text: "$N_2+3H_2\\to2NH_3$" },
+              { id: "b", text: "$2Mg+O_2\\to2MgO$" },
+              { id: "c", text: "$N_2+3H_2\\to2NH_3$" },
+              { id: "d", text: "$2H_2+O_2\\to2H_2O$" },
             ],
             correctChoiceId: "a",
           },
@@ -335,12 +335,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It makes the equation look untidy" },
-              { id: "b", text: "It changes the identity of the substance" },
-              { id: "c", text: "It adds extra atoms" },
-              { id: "d", text: "It removes the need for coefficients" },
+              { id: "a", text: "It removes the need for coefficients" },
+              { id: "b", text: "It makes the equation look untidy" },
+              { id: "c", text: "It changes the identity of the substance" },
+              { id: "d", text: "It adds extra atoms" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -450,12 +450,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Decomposition" },
-              { id: "b", text: "Displacement" },
-              { id: "c", text: "Synthesis" },
-              { id: "d", text: "Combustion" },
+              { id: "a", text: "Synthesis" },
+              { id: "b", text: "Combustion" },
+              { id: "c", text: "Decomposition" },
+              { id: "d", text: "Displacement" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -550,12 +550,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Carbon monoxide and water" },
-              { id: "b", text: "Carbon dioxide and water" },
-              { id: "c", text: "Oxygen and hydrogen" },
-              { id: "d", text: "Carbon and hydrogen" },
+              { id: "a", text: "Carbon and hydrogen" },
+              { id: "b", text: "Oxygen and hydrogen" },
+              { id: "c", text: "Carbon monoxide and water" },
+              { id: "d", text: "Carbon dioxide and water" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -577,12 +577,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "One reactant forming two products" },
-              { id: "b", text: "Two or more reactants forming one product" },
-              { id: "c", text: "An element replacing another in a compound" },
-              { id: "d", text: "A fuel reacting with oxygen" },
+              { id: "a", text: "Two or more reactants forming one product" },
+              { id: "b", text: "A fuel reacting with oxygen" },
+              { id: "c", text: "One reactant forming two products" },
+              { id: "d", text: "An element replacing another in a compound" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -605,9 +605,9 @@ export const lesson12: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Synthesis" },
-              { id: "b", text: "Decomposition" },
-              { id: "c", text: "Displacement" },
-              { id: "d", text: "Combustion" },
+              { id: "b", text: "Displacement" },
+              { id: "c", text: "Combustion" },
+              { id: "d", text: "Decomposition" },
             ],
             correctChoiceId: "a",
           },
@@ -669,11 +669,11 @@ export const lesson12: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Absorbs energy from the surroundings" },
-              { id: "b", text: "Releases energy to the surroundings" },
-              { id: "c", text: "Requires continuous heating" },
+              { id: "b", text: "Requires continuous heating" },
+              { id: "c", text: "Releases energy to the surroundings" },
               { id: "d", text: "Produces no energy change" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -695,12 +695,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Burning methane in a Bunsen flame" },
+              { id: "a", text: "Thermal decomposition of calcium carbonate" },
               { id: "b", text: "Respiration in cells" },
-              { id: "c", text: "Thermal decomposition of calcium carbonate" },
+              { id: "c", text: "Burning methane in a Bunsen flame" },
               { id: "d", text: "Neutralisation of an acid and alkali" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -722,12 +722,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Products at a lower energy level than reactants" },
-              { id: "b", text: "Products at a higher energy level than reactants" },
-              { id: "c", text: "No change in energy level" },
-              { id: "d", text: "Two peaks of equal height" },
+              { id: "a", text: "Products at a higher energy level than reactants" },
+              { id: "b", text: "Products at a lower energy level than reactants" },
+              { id: "c", text: "Two peaks of equal height" },
+              { id: "d", text: "No change in energy level" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -806,12 +806,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Synthesis" },
-              { id: "b", text: "Decomposition" },
+              { id: "a", text: "Decomposition" },
+              { id: "b", text: "Neutralisation" },
               { id: "c", text: "Displacement" },
-              { id: "d", text: "Neutralisation" },
+              { id: "d", text: "Synthesis" },
             ],
-            correctChoiceId: "d",
+            correctChoiceIb: "d",
           },
           markscheme: {
             principles: [

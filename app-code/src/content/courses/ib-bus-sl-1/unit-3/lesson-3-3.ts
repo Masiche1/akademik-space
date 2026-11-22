@@ -94,11 +94,11 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Autocratic leadership" },
-              { id: "b", text: "Democratic leadership" },
-              { id: "c", text: "Laissez-faire leadership" },
-              { id: "d", text: "Bureaucratic leadership" },
+              { id: "b", text: "Bureaucratic leadership" },
+              { id: "c", text: "Democratic leadership" },
+              { id: "d", text: "Laissez-faire leadership" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -136,12 +136,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Span of control" },
-              { id: "b", text: "Chain of command" },
-              { id: "c", text: "Delayering" },
-              { id: "d", text: "Delegation" },
+              { id: "a", text: "Chain of command" },
+              { id: "b", text: "Delegation" },
+              { id: "c", text: "Span of control" },
+              { id: "d", text: "Delayering" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -322,11 +322,11 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Democratic leadership" },
-              { id: "b", text: "Laissez-faire leadership" },
-              { id: "c", text: "Autocratic leadership" },
-              { id: "d", text: "Situational leadership" },
+              { id: "b", text: "Situational leadership" },
+              { id: "c", text: "Laissez-faire leadership" },
+              { id: "d", text: "Autocratic leadership" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -365,12 +365,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Chain of command" },
-              { id: "b", text: "Span of control" },
+              { id: "a", text: "Span of control" },
+              { id: "b", text: "Delayering" },
               { id: "c", text: "Hierarchy" },
-              { id: "d", text: "Delayering" },
+              { id: "d", text: "Chain of command" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -683,15 +683,15 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The leader's personality only" },
               {
-                id: "b",
+                id: "a",
                 text: "The task, the team's skill and the urgency of the decision",
               },
+              { id: "b", text: "The leader's personality only" },
               { id: "c", text: "The size of the organisation" },
               { id: "d", text: "The industry sector" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -731,12 +731,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Many layers and narrow spans" },
-              { id: "b", text: "Few layers and wide spans of control" },
-              { id: "c", text: "No departments" },
+              { id: "a", text: "No departments" },
+              { id: "b", text: "Many layers and narrow spans" },
+              { id: "c", text: "Few layers and wide spans of control" },
               { id: "d", text: "Complete centralisation" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -911,8 +911,8 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Autocratic" },
-              { id: "b", text: "Democratic" },
+              { id: "a", text: "Democratic" },
+              { id: "b", text: "Autocratic" },
               { id: "c", text: "Laissez-faire" },
               { id: "d", text: "Bureaucratic" },
             ],
@@ -996,12 +996,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Divisional structure" },
-              { id: "b", text: "Functional structure" },
-              { id: "c", text: "Matrix structure" },
-              { id: "d", text: "Network structure" },
+              { id: "a", text: "Network structure" },
+              { id: "b", text: "Matrix structure" },
+              { id: "c", text: "Functional structure" },
+              { id: "d", text: "Divisional structure" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1039,12 +1039,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Downsizing" },
-              { id: "b", text: "Delayering" },
-              { id: "c", text: "Outsourcing" },
-              { id: "d", text: "Franchising" },
+              { id: "a", text: "Outsourcing" },
+              { id: "b", text: "Downsizing" },
+              { id: "c", text: "Franchising" },
+              { id: "d", text: "Delayering" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1218,12 +1218,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Functional structure" },
-              { id: "b", text: "Divisional structure" },
-              { id: "c", text: "Matrix structure" },
-              { id: "d", text: "Network structure" },
+              { id: "a", text: "Divisional structure" },
+              { id: "b", text: "Functional structure" },
+              { id: "c", text: "Network structure" },
+              { id: "d", text: "Matrix structure" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -1262,12 +1262,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "One functional manager only" },
-              { id: "b", text: "A functional manager and a project manager" },
-              { id: "c", text: "No manager at all" },
-              { id: "d", text: "The chief executive only" },
+              { id: "a", text: "No manager at all" },
+              { id: "b", text: "The chief executive only" },
+              { id: "c", text: "A functional manager and a project manager" },
+              { id: "d", text: "One functional manager only" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1577,15 +1577,15 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Are large and vertically integrated" },
               {
-                id: "b",
+                id: "a",
                 text: "Outsource most functions and keep only core activities",
               },
+              { id: "b", text: "Are large and vertically integrated" },
               { id: "c", text: "Need tight central control" },
               { id: "d", text: "Have many management layers" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -1624,12 +1624,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Tall structure" },
-              { id: "b", text: "Flat structure" },
-              { id: "c", text: "Bureaucratic structure" },
-              { id: "d", text: "Centralised structure" },
+              { id: "a", text: "Bureaucratic structure" },
+              { id: "b", text: "Tall structure" },
+              { id: "c", text: "Centralised structure" },
+              { id: "d", text: "Flat structure" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1765,12 +1765,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Span of control" },
-              { id: "b", text: "Chain of command" },
-              { id: "c", text: "Delayering" },
-              { id: "d", text: "Delegation" },
+              { id: "a", text: "Chain of command" },
+              { id: "b", text: "Delegation" },
+              { id: "c", text: "Span of control" },
+              { id: "d", text: "Delayering" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -1806,8 +1806,8 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Narrower spans of control" },
-              { id: "b", text: "More management layers" },
+              { id: "a", text: "More management layers" },
+              { id: "b", text: "Narrower spans of control" },
               { id: "c", text: "Fewer layers and wider spans of control" },
               { id: "d", text: "A divisional structure" },
             ],

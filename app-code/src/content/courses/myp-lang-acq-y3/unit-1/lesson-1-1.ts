@@ -56,11 +56,11 @@ export const lesson11: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "The interviewee" },
-              { id: "b", text: "The interviewer" },
-              { id: "c", text: "The audience" },
-              { id: "d", text: "The narrator" },
+              { id: "b", text: "The audience" },
+              { id: "c", text: "The narrator" },
+              { id: "d", text: "The interviewer" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -172,10 +172,10 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Asks the questions" },
+              { id: "a", text: "Writes the article" },
               { id: "b", text: "Answers the questions" },
-              { id: "c", text: "Introduces the programme" },
-              { id: "d", text: "Writes the article" },
+              { id: "c", text: "Asks the questions" },
+              { id: "d", text: "Introduces the programme" },
             ],
             correctChoiceId: "b",
           },
@@ -199,9 +199,9 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The school has 400 students." },
+              { id: "a", text: "The match was on Saturday." },
               { id: "b", text: "I think homework helps students learn." },
-              { id: "c", text: "The match was on Saturday." },
+              { id: "c", text: "The school has 400 students." },
               { id: "d", text: "Water boils at 100 degrees." },
             ],
             correctChoiceId: "b",
@@ -226,12 +226,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Because I love helping people." },
-              { id: "b", text: "Yes, I did." },
+              { id: "a", text: "Yes, I did." },
+              { id: "b", text: "Because I love helping people." },
               { id: "c", text: "At five o'clock." },
               { id: "d", text: "My job is fine." },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -253,12 +253,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "To finish the interview quickly" },
-              { id: "b", text: "To get more detail about an earlier answer" },
-              { id: "c", text: "To change the subject" },
+              { id: "a", text: "To change the subject" },
+              { id: "b", text: "To finish the interview quickly" },
+              { id: "c", text: "To get more detail about an earlier answer" },
               { id: "d", text: "To test the audience" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -287,11 +287,11 @@ export const lesson11: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "It is excellent" },
-              { id: "b", text: "It is always cold" },
-              { id: "c", text: "It is too expensive" },
-              { id: "d", text: "He never eats lunch" },
+              { id: "b", text: "He never eats lunch" },
+              { id: "c", text: "It is always cold" },
+              { id: "d", text: "It is too expensive" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -529,12 +529,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "I think..." },
-              { id: "b", text: "By the way..." },
-              { id: "c", text: "Because..." },
+              { id: "a", text: "By the way..." },
+              { id: "b", text: "Because..." },
+              { id: "c", text: "I think..." },
               { id: "d", text: "Yes, I did." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -646,9 +646,9 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "I disagree completely." },
+              { id: "a", text: "Whatever." },
               { id: "b", text: "Me too." },
-              { id: "c", text: "Whatever." },
+              { id: "c", text: "I disagree completely." },
               { id: "d", text: "Never mind." },
             ],
             correctChoiceId: "b",
@@ -673,12 +673,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Taking turns to speak" },
+              { id: "a", text: "Ending the conversation politely" },
               { id: "b", text: "Speaking as loudly as possible" },
-              { id: "c", text: "Changing the topic quickly" },
-              { id: "d", text: "Ending the conversation politely" },
+              { id: "c", text: "Taking turns to speak" },
+              { id: "d", text: "Changing the topic quickly" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -706,10 +706,10 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Kim" },
+              { id: "a", text: "Neither of them" },
               { id: "b", text: "Jo" },
               { id: "c", text: "Both of them" },
-              { id: "d", text: "Neither of them" },
+              { id: "d", text: "Kim" },
             ],
             correctChoiceId: "b",
           },
@@ -733,12 +733,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Stop listening completely" },
-              { id: "b", text: "Focus on the content words and keep listening" },
-              { id: "c", text: "Ask the speaker to repeat everything" },
-              { id: "d", text: "Guess the topic and leave" },
+              { id: "a", text: "Focus on the content words and keep listening" },
+              { id: "b", text: "Ask the speaker to repeat everything" },
+              { id: "c", text: "Guess the topic and leave" },
+              { id: "d", text: "Stop listening completely" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -766,10 +766,10 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "They should be banned." },
+              { id: "a", text: "They are too expensive." },
               { id: "b", text: "They help students learn." },
               { id: "c", text: "She has no opinion." },
-              { id: "d", text: "They are too expensive." },
+              { id: "d", text: "They should be banned." },
             ],
             correctChoiceId: "b",
           },
@@ -793,12 +793,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "You're wrong." },
-              { id: "b", text: "I see your point, but I found it difficult." },
-              { id: "c", text: "Whatever." },
+              { id: "a", text: "Whatever." },
+              { id: "b", text: "You're wrong." },
+              { id: "c", text: "I see your point, but I found it difficult." },
               { id: "d", text: "Shut up." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

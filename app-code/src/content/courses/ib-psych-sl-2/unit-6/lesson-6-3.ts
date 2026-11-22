@@ -54,9 +54,9 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Witnesses forgetting the event entirely" },
+              { id: "a", text: "Witnesses confusing two similar events" },
               { id: "b", text: "Post-event information altering original memory" },
-              { id: "c", text: "Witnesses confusing two similar events" },
+              { id: "c", text: "Witnesses forgetting the event entirely" },
               { id: "d", text: "Confidence increasing over time" },
             ],
             correctChoiceId: "b",
@@ -153,10 +153,10 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Using statistical databases of known offenders" },
+              { id: "a", text: "Predicting crime before it happens" },
               { id: "b", text: "Inferring offender characteristics from analysis of the specific crime scene" },
-              { id: "c", text: "Interviewing the suspect directly" },
-              { id: "d", text: "Predicting crime before it happens" },
+              { id: "c", text: "Using statistical databases of known offenders" },
+              { id: "d", text: "Interviewing the suspect directly" },
             ],
             correctChoiceId: "b",
           },
@@ -181,12 +181,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Detailed analysis of one crime scene" },
-              { id: "b", text: "Statistical patterns from databases of known offenders" },
-              { id: "c", text: "The offender's own confession" },
+              { id: "a", text: "Statistical patterns from databases of known offenders" },
+              { id: "b", text: "The offender's own confession" },
+              { id: "c", text: "Detailed analysis of one crime scene" },
               { id: "d", text: "Witness interviews" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -209,12 +209,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Witnesses focusing on the perpetrator's face" },
-              { id: "b", text: "Attention on the weapon reducing recall of other details" },
-              { id: "c", text: "Weapons making crimes more memorable" },
-              { id: "d", text: "Witnesses forgetting the entire event" },
+              { id: "a", text: "Witnesses forgetting the entire event" },
+              { id: "b", text: "Weapons making crimes more memorable" },
+              { id: "c", text: "Witnesses focusing on the perpetrator's face" },
+              { id: "d", text: "Attention on the weapon reducing recall of other details" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -237,12 +237,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Witnesses identify all races equally well" },
-              { id: "b", text: "People are less accurate identifying faces of other races" },
-              { id: "c", text: "Lineups only include one race" },
+              { id: "a", text: "Lineups only include one race" },
+              { id: "b", text: "Witnesses identify all races equally well" },
+              { id: "c", text: "People are less accurate identifying faces of other races" },
               { id: "d", text: "Witnesses prefer same-race suspects" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -265,12 +265,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Are faster to administer" },
-              { id: "b", text: "Reduce relative judgment errors" },
-              { id: "c", text: "Allow more suspects to be shown" },
-              { id: "d", text: "Require less memory" },
+              { id: "a", text: "Allow more suspects to be shown" },
+              { id: "b", text: "Are faster to administer" },
+              { id: "c", text: "Require less memory" },
+              { id: "d", text: "Reduce relative judgment errors" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -293,12 +293,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Neither witness nor administrator knows who the suspect is" },
-              { id: "b", text: "The witness cannot see the photos" },
-              { id: "c", text: "The lineup is conducted online" },
-              { id: "d", text: "Only one photo is shown" },
+              { id: "a", text: "Only one photo is shown" },
+              { id: "b", text: "Neither witness nor administrator knows who the suspect is" },
+              { id: "c", text: "The witness cannot see the photos" },
+              { id: "d", text: "The lineup is conducted online" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -321,12 +321,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Confidence strongly predicts accuracy" },
-              { id: "b", text: "Confidence correlates weakly with accuracy" },
-              { id: "c", text: "Confidence always decreases over time" },
-              { id: "d", text: "Confidence eliminates memory errors" },
+              { id: "a", text: "Confidence eliminates memory errors" },
+              { id: "b", text: "Confidence always decreases over time" },
+              { id: "c", text: "Confidence correlates weakly with accuracy" },
+              { id: "d", text: "Confidence strongly predicts accuracy" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -594,12 +594,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Was not aware of the crime at all" },
-              { id: "b", text: "Did not know the act or that it was wrong due to mental disease" },
+              { id: "a", text: "Did not know the act or that it was wrong due to mental disease" },
+              { id: "b", text: "Acted under extreme emotional provocation" },
               { id: "c", text: "Had a diagnosed mental disorder at any time" },
-              { id: "d", text: "Acted under extreme emotional provocation" },
+              { id: "d", text: "Was not aware of the crime at all" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -693,12 +693,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Had any diagnosed mental disorder" },
-              { id: "b", text: "Did not know the act or that it was wrong due to mental disease" },
-              { id: "c", text: "Was provoked to extreme emotion" },
-              { id: "d", text: "Acted under the influence of drugs" },
+              { id: "a", text: "Was provoked to extreme emotion" },
+              { id: "b", text: "Had any diagnosed mental disorder" },
+              { id: "c", text: "Acted under the influence of drugs" },
+              { id: "d", text: "Did not know the act or that it was wrong due to mental disease" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -723,8 +723,8 @@ export const lesson63: Lesson = {
             choices: [
               { id: "a", text: "Inability to conform conduct to legal requirements" },
               { id: "b", text: "Extreme emotional provocation" },
-              { id: "c", text: "Substance intoxication" },
-              { id: "d", text: "Youth of the offender" },
+              { id: "c", text: "Youth of the offender" },
+              { id: "d", text: "Substance intoxication" },
             ],
             correctChoiceId: "a",
           },
@@ -749,12 +749,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Generalised anxiety disorder" },
-              { id: "b", text: "Psychosis with command hallucinations" },
-              { id: "c", text: "Specific phobia" },
-              { id: "d", text: "Mild depression" },
+              { id: "a", text: "Psychosis with command hallucinations" },
+              { id: "b", text: "Specific phobia" },
+              { id: "c", text: "Mild depression" },
+              { id: "d", text: "Generalised anxiety disorder" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -777,12 +777,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Most assessments are conducted quickly" },
-              { id: "b", text: "Serious violence is rare, so even accurate tests produce many false positives" },
-              { id: "c", text: "Risk factors are always accurately measured" },
+              { id: "a", text: "Risk factors are always accurately measured" },
+              { id: "b", text: "Most assessments are conducted quickly" },
+              { id: "c", text: "Serious violence is rare, so even accurate tests produce many false positives" },
               { id: "d", text: "All offenders reoffend at the same rate" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -805,12 +805,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Be more accurate than actuarial tools" },
-              { id: "b", text: "Be biased by stereotypes about mentally ill people" },
+              { id: "a", text: "Be biased by stereotypes about mentally ill people" },
+              { id: "b", text: "Be more accurate than actuarial tools" },
               { id: "c", text: "Eliminate all false positives" },
               { id: "d", text: "Predict violence with certainty" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -833,12 +833,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Speed up investigations" },
-              { id: "b", text: "Reinforce stereotypes about offender types" },
+              { id: "a", text: "Reinforce stereotypes about offender types" },
+              { id: "b", text: "Speed up investigations" },
               { id: "c", text: "Narrow suspect pools" },
               { id: "d", text: "Use crime scene evidence" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -861,12 +861,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Is never used in any jurisdiction" },
-              { id: "b", text: "Can be abused and is inconsistently applied" },
+              { id: "a", text: "Applies only to minors" },
+              { id: "b", text: "Is never used in any jurisdiction" },
               { id: "c", text: "Requires no expert evidence" },
-              { id: "d", text: "Applies only to minors" },
+              { id: "d", text: "Can be abused and is inconsistently applied" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

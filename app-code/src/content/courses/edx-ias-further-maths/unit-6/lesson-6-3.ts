@@ -52,8 +52,8 @@ export const lesson63: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$mr^2$" },
-              { id: "b", text: "$mr$" },
-              { id: "c", text: "$\\frac12mr^2$" },
+              { id: "b", text: "$\\frac12mr^2$" },
+              { id: "c", text: "$mr$" },
               { id: "d", text: "$m/r$" },
             ],
             correctChoiceId: "a",
@@ -173,12 +173,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The same tension on both sides" },
-              { id: "b", text: "Different tensions" },
-              { id: "c", text: "Zero tension" },
+              { id: "a", text: "Different tensions" },
+              { id: "b", text: "Zero tension" },
+              { id: "c", text: "The same tension on both sides" },
               { id: "d", text: "Variable tension" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "property", name: "String", statement: "Tension uniform in light inextensible string." }],

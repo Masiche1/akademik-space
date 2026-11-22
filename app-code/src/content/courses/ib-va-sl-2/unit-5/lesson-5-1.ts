@@ -55,12 +55,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Making artworks from scratch" },
-              { id: "b", text: "Selecting, organising and presenting artworks for exhibition" },
-              { id: "c", text: "Selling artworks to collectors" },
-              { id: "d", text: "Writing art criticism" },
+              { id: "a", text: "Selecting, organising and presenting artworks for exhibition" },
+              { id: "b", text: "Selling artworks to collectors" },
+              { id: "c", text: "Writing art criticism" },
+              { id: "d", text: "Making artworks from scratch" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -156,12 +156,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "All works being identical in size" },
-              { id: "b", text: "A unifying theme, idea or thread connecting the works" },
+              { id: "a", text: "A unifying theme, idea or thread connecting the works" },
+              { id: "b", text: "All works being identical in size" },
               { id: "c", text: "All works being framed identically" },
               { id: "d", text: "All works being by the same artist" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -187,8 +187,8 @@ export const lesson51: Lesson = {
             choices: [
               { id: "a", text: "Brightly coloured walls that energise viewers" },
               { id: "b", text: "Neutral white walls and controlled lighting that minimise distraction" },
-              { id: "c", text: "Outdoor display in natural light" },
-              { id: "d", text: "A dense grid of many small works" },
+              { id: "c", text: "A dense grid of many small works" },
+              { id: "d", text: "Outdoor display in natural light" },
             ],
             correctChoiceId: "b",
           },
@@ -214,12 +214,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Be the largest and most expensive piece" },
-              { id: "b", text: "Be hidden until viewers reach the middle" },
-              { id: "c", text: "Establish the exhibition's tone and theme that frames the journey" },
+              { id: "a", text: "Establish the exhibition's tone and theme that frames the journey" },
+              { id: "b", text: "Be the largest and most expensive piece" },
+              { id: "c", text: "Be hidden until viewers reach the middle" },
               { id: "d", text: "Be the most technically complex work" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -243,12 +243,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Untitled — nice picture" },
-              { id: "b", text: "Study in Blue, A. Student, oil on canvas, 60 x 80 cm, 2025" },
-              { id: "c", text: "My painting" },
-              { id: "d", text: "Oil on canvas" },
+              { id: "a", text: "Study in Blue, A. Student, oil on canvas, 60 x 80 cm, 2025" },
+              { id: "b", text: "Oil on canvas" },
+              { id: "c", text: "Untitled — nice picture" },
+              { id: "d", text: "My painting" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -272,12 +272,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A random, unplanned order" },
-              { id: "b", text: "A progressive arc that develops the theme for the viewer" },
-              { id: "c", text: "Visual repetition that bores viewers" },
-              { id: "d", text: "A requirement that all works be abstract" },
+              { id: "a", text: "A requirement that all works be abstract" },
+              { id: "b", text: "Visual repetition that bores viewers" },
+              { id: "c", text: "A progressive arc that develops the theme for the viewer" },
+              { id: "d", text: "A random, unplanned order" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -301,12 +301,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Because exhibitions cannot contain more than ten works" },
-              { id: "b", text: "Because dialogue between works creates meaning beyond individual quality" },
-              { id: "c", text: "Because judges only score the best work" },
-              { id: "d", text: "Because identical works are easier to label" },
+              { id: "a", text: "Because dialogue between works creates meaning beyond individual quality" },
+              { id: "b", text: "Because identical works are easier to label" },
+              { id: "c", text: "Because exhibitions cannot contain more than ten works" },
+              { id: "d", text: "Because judges only score the best work" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -330,10 +330,10 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A purely decorative choice with no meaning" },
+              { id: "a", text: "An error that should always be corrected" },
               { id: "b", text: "A curatorial decision that shapes how viewers perceive the work" },
-              { id: "c", text: "A lighting technique for revealing form" },
-              { id: "d", text: "An error that should always be corrected" },
+              { id: "c", text: "A purely decorative choice with no meaning" },
+              { id: "d", text: "A lighting technique for revealing form" },
             ],
             correctChoiceId: "b",
           },
@@ -534,11 +534,11 @@ export const lesson51: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "50 cm from the floor" },
-              { id: "b", text: "Eye level, around 145–150 cm" },
-              { id: "c", text: "The ceiling line" },
-              { id: "d", text: "Any convenient height" },
+              { id: "b", text: "The ceiling line" },
+              { id: "c", text: "Any convenient height" },
+              { id: "d", text: "Eye level, around 145–150 cm" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -640,12 +640,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Heat the gallery so visitors stay longer" },
-              { id: "b", text: "Illuminate individual works to reveal detail without glare" },
+              { id: "a", text: "Illuminate individual works to reveal detail without glare" },
+              { id: "b", text: "Replace the need for labels" },
               { id: "c", text: "Project images onto the walls" },
-              { id: "d", text: "Replace the need for labels" },
+              { id: "d", text: "Heat the gallery so visitors stay longer" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -669,10 +669,10 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Visitor footsteps" },
+              { id: "a", text: "Adjacent sculptures" },
               { id: "b", text: "Strong light and UV radiation that cause fading" },
-              { id: "c", text: "Adjacent sculptures" },
-              { id: "d", text: "Label placement" },
+              { id: "c", text: "Label placement" },
+              { id: "d", text: "Visitor footsteps" },
             ],
             correctChoiceId: "b",
           },
@@ -698,12 +698,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Calm, solitary contemplation of each work" },
-              { id: "b", text: "Energy and direct comparison between works" },
-              { id: "c", text: "Better lighting for each piece" },
-              { id: "d", text: "Less need for labels" },
+              { id: "a", text: "Less need for labels" },
+              { id: "b", text: "Calm, solitary contemplation of each work" },
+              { id: "c", text: "Energy and direct comparison between works" },
+              { id: "d", text: "Better lighting for each piece" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -727,12 +727,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Less wall space to occupy" },
-              { id: "b", text: "Visual breathing room and individual focus" },
-              { id: "c", text: "Lower hanging height" },
-              { id: "d", text: "Greater protection from light" },
+              { id: "a", text: "Greater protection from light" },
+              { id: "b", text: "Lower hanging height" },
+              { id: "c", text: "Less wall space to occupy" },
+              { id: "d", text: "Visual breathing room and individual focus" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -757,11 +757,11 @@ export const lesson51: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Makes the gallery look more expensive" },
-              { id: "b", text: "Ensures works appear as the artist intended" },
-              { id: "c", text: "Reduces electricity costs" },
-              { id: "d", text: "Prevents visitors from photographing" },
+              { id: "b", text: "Reduces electricity costs" },
+              { id: "c", text: "Prevents visitors from photographing" },
+              { id: "d", text: "Ensures works appear as the artist intended" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -785,12 +785,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Uses only white walls" },
-              { id: "b", text: "Immerses the viewer in a transformed environment where context becomes part of the work" },
+              { id: "a", text: "Displays only sculpture" },
+              { id: "b", text: "Uses only white walls" },
               { id: "c", text: "Requires no lighting" },
-              { id: "d", text: "Displays only sculpture" },
+              { id: "d", text: "Immerses the viewer in a transformed environment where context becomes part of the work" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -814,9 +814,9 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Brighter direct spotlights" },
+              { id: "a", text: "Hanging works higher" },
               { id: "b", text: "Moving lights to a different angle or diffusing them" },
-              { id: "c", text: "Hanging works higher" },
+              { id: "c", text: "Brighter direct spotlights" },
               { id: "d", text: "Using more labels" },
             ],
             correctChoiceId: "b",

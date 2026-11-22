@@ -53,12 +53,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$4^3=81$" },
-              { id: "b", text: "$3^{81}=4$" },
-              { id: "c", text: "$3^4=81$" },
-              { id: "d", text: "$81^4=3$" },
+              { id: "a", text: "$81^4=3$" },
+              { id: "b", text: "$4^3=81$" },
+              { id: "c", text: "$3^{81}=4$" },
+              { id: "d", text: "$3^4=81$" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -185,9 +185,9 @@ export const lesson62: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$2+\\log_5 x$" },
-              { id: "b", text: "$25\\log_5 x$" },
-              { id: "c", text: "$2\\log_5 x$" },
-              { id: "d", text: "$\\log_5 25\\cdot\\log_5 x$" },
+              { id: "b", text: "$2\\log_5 x$" },
+              { id: "c", text: "$\\log_5 25\\cdot\\log_5 x$" },
+              { id: "d", text: "$25\\log_5 x$" },
             ],
             correctChoiceId: "a",
           },

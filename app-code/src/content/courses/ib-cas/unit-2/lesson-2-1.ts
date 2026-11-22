@@ -52,12 +52,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "They are easier to organise" },
-              { id: "b", text: "They build habits and deeper learning" },
-              { id: "c", text: "They require less reflection" },
-              { id: "d", text: "They count for more marks automatically" },
+              { id: "a", text: "They build habits and deeper learning" },
+              { id: "b", text: "They require less reflection" },
+              { id: "c", text: "They count for more marks automatically" },
+              { id: "d", text: "They are easier to organise" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -147,12 +147,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Buy any equipment needed" },
-              { id: "b", text: "Choose a strand-appropriate activity you can sustain" },
-              { id: "c", text: "Invite as many friends as possible" },
+              { id: "a", text: "Choose a strand-appropriate activity you can sustain" },
+              { id: "b", text: "Invite as many friends as possible" },
+              { id: "c", text: "Buy any equipment needed" },
               { id: "d", text: "Skip planning and start immediately" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -174,12 +174,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "One-off participation" },
-              { id: "b", text: "Regular engagement across strands" },
+              { id: "a", text: "Regular engagement across strands" },
+              { id: "b", text: "One-off participation" },
               { id: "c", text: "No strand fit" },
               { id: "d", text: "Competition with others" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -201,12 +201,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Replaces reflection entirely" },
-              { id: "b", text: "Provides evidence for the portfolio later" },
-              { id: "c", text: "Is only required once a year" },
-              { id: "d", text: "Eliminates the need for planning" },
+              { id: "a", text: "Provides evidence for the portfolio later" },
+              { id: "b", text: "Is only required once a year" },
+              { id: "c", text: "Eliminates the need for planning" },
+              { id: "d", text: "Replaces reflection entirely" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -228,12 +228,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Builds habits and enables deeper learning" },
-              { id: "b", text: "Automatically earns extra marks" },
-              { id: "c", text: "Removes the need for reflection" },
-              { id: "d", text: "Shortens the CAS requirement" },
+              { id: "a", text: "Removes the need for reflection" },
+              { id: "b", text: "Builds habits and enables deeper learning" },
+              { id: "c", text: "Shortens the CAS requirement" },
+              { id: "d", text: "Automatically earns extra marks" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -255,12 +255,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A single charity concert" },
-              { id: "b", text: "Weekly swimming lessons" },
-              { id: "c", text: "One poster design" },
-              { id: "d", text: "An annual exam" },
+              { id: "a", text: "One poster design" },
+              { id: "b", text: "A single charity concert" },
+              { id: "c", text: "An annual exam" },
+              { id: "d", text: "Weekly swimming lessons" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -282,12 +282,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It never counts toward CAS" },
-              { id: "b", text: "Only if it is paid work" },
-              { id: "c", text: "If it is meaningful and well documented" },
-              { id: "d", text: "Only for teachers" },
+              { id: "a", text: "Only for teachers" },
+              { id: "b", text: "It never counts toward CAS" },
+              { id: "c", text: "Only if it is paid work" },
+              { id: "d", text: "If it is meaningful and well documented" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -310,12 +310,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "One expensive event" },
-              { id: "b", text: "Regular participation you can maintain alongside studies" },
-              { id: "c", text: "Something requiring no commitment" },
+              { id: "a", text: "Something requiring no commitment" },
+              { id: "b", text: "One expensive event" },
+              { id: "c", text: "Regular participation you can maintain alongside studies" },
               { id: "d", text: "An activity chosen only to impress others" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -504,12 +504,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Last one afternoon" },
-              { id: "b", text: "Combine all three strands over months" },
+              { id: "a", text: "Combine all three strands over months" },
+              { id: "b", text: "Last one afternoon" },
               { id: "c", text: "Involve only one person" },
               { id: "d", text: "Require no planning" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -599,12 +599,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Goals" },
+              { id: "a", text: "Evaluation" },
               { id: "b", text: "Timeline" },
-              { id: "c", text: "Random chance" },
-              { id: "d", text: "Evaluation" },
+              { id: "c", text: "Goals" },
+              { id: "d", text: "Random chance" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -626,12 +626,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "One afternoon" },
-              { id: "b", text: "Several months" },
-              { id: "c", text: "One class period" },
-              { id: "d", text: "One hour" },
+              { id: "a", text: "Several months" },
+              { id: "b", text: "One hour" },
+              { id: "c", text: "One afternoon" },
+              { id: "d", text: "One class period" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -653,12 +653,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Final grades" },
-              { id: "b", text: "Key checkpoints in progress" },
-              { id: "c", text: "Team members" },
-              { id: "d", text: "Equipment lists" },
+              { id: "a", text: "Equipment lists" },
+              { id: "b", text: "Team members" },
+              { id: "c", text: "Key checkpoints in progress" },
+              { id: "d", text: "Final grades" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -680,10 +680,10 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A solo puzzle once" },
+              { id: "a", text: "A single gym session" },
               { id: "b", text: "Designing posters for a charity run you organise" },
-              { id: "c", text: "Watching a film" },
-              { id: "d", text: "A single gym session" },
+              { id: "c", text: "A solo puzzle once" },
+              { id: "d", text: "Watching a film" },
             ],
             correctChoiceId: "b",
           },
@@ -707,12 +707,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Only teachers" },
-              { id: "b", text: "People affected by or involved in the project" },
+              { id: "a", text: "Only equipment suppliers" },
+              { id: "b", text: "Only teachers" },
               { id: "c", text: "Only students" },
-              { id: "d", text: "Only equipment suppliers" },
+              { id: "d", text: "People affected by or involved in the project" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -735,11 +735,11 @@ export const lesson21: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "It is optional paperwork" },
-              { id: "b", text: "It assesses whether the goals were achieved" },
-              { id: "c", text: "It replaces the need for reflection" },
-              { id: "d", text: "It is required only for service" },
+              { id: "b", text: "It is required only for service" },
+              { id: "c", text: "It assesses whether the goals were achieved" },
+              { id: "d", text: "It replaces the need for reflection" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -762,10 +762,10 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A single afternoon event" },
+              { id: "a", text: "A one-off fundraiser" },
               { id: "b", text: "A sustained initiative over months combining all three strands" },
               { id: "c", text: "A weekly club meeting" },
-              { id: "d", text: "A one-off fundraiser" },
+              { id: "d", text: "A single afternoon event" },
             ],
             correctChoiceId: "b",
           },

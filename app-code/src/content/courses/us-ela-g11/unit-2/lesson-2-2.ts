@@ -67,12 +67,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "anaphora" },
-              { id: "b", text: "irony" },
-              { id: "c", text: "hyperbole" },
-              { id: "d", text: "a rhetorical question" },
+              { id: "a", text: "hyperbole" },
+              { id: "b", text: "anaphora" },
+              { id: "c", text: "a rhetorical question" },
+              { id: "d", text: "irony" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Anaphora", statement: "Anaphora repeats an opening word or phrase across successive clauses." }],
@@ -91,11 +91,11 @@ export const lesson22: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "It suggests that the speaker is unsure which outcome he prefers." },
-              { id: "b", text: "It reduces the choice to two stark alternatives, so that submission seems unthinkable." },
-              { id: "c", text: "It lists a range of political options for the convention to consider." },
+              { id: "b", text: "It lists a range of political options for the convention to consider." },
+              { id: "c", text: "It reduces the choice to two stark alternatives, so that submission seems unthinkable." },
               { id: "d", text: "It softens the speaker's demand with a polite alternative." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Antithesis", statement: "Antithesis sets opposites in balance so that a decision appears to have only two possible outcomes." }],
@@ -203,12 +203,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "the absence of any rule" },
-              { id: "b", text: "the presence of a choice one can actually make" },
-              { id: "c", text: "the right of the council to decide for the town" },
-              { id: "d", text: "the quiet of an empty room" },
+              { id: "a", text: "the quiet of an empty room" },
+              { id: "b", text: "the right of the council to decide for the town" },
+              { id: "c", text: "the absence of any rule" },
+              { id: "d", text: "the presence of a choice one can actually make" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Direct definition", statement: "A writer may state the exact meaning of a key term in a short general sentence." }],
@@ -228,10 +228,10 @@ export const lesson22: Lesson = {
             choices: [
               { id: "a", text: "It is peaceful and welcoming to all residents." },
               { id: "b", text: "It is real but not yet widely appreciated." },
-              { id: "c", text: "It is empty: free in name but with nothing in it that people can actually use." },
-              { id: "d", text: "It is a temporary freedom that will soon be replaced." },
+              { id: "c", text: "It is a temporary freedom that will soon be replaced." },
+              { id: "d", text: "It is empty: free in name but with nothing in it that people can actually use." },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Extended image as redefinition", statement: "A closing image can compress a redefined term into a memorable picture." }],

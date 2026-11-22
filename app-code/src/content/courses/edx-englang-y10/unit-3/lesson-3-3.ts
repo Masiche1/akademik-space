@@ -85,12 +85,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Opening 1" },
-              { id: "b", text: "Opening 2" },
-              { id: "c", text: "Opening 3" },
-              { id: "d", text: "None of them" },
+              { id: "a", text: "Opening 2" },
+              { id: "b", text: "Opening 1" },
+              { id: "c", text: "None of them" },
+              { id: "d", text: "Opening 3" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Action hook", statement: "Starting in the middle of events creates immediate tension." }],
@@ -223,10 +223,10 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Flashback" },
+              { id: "a", text: "A twist ending" },
               { id: "b", text: "Cyclical structure" },
-              { id: "c", text: "Dialogue" },
-              { id: "d", text: "A twist ending" },
+              { id: "c", text: "Flashback" },
+              { id: "d", text: "Dialogue" },
             ],
             correctChoiceId: "b",
           },

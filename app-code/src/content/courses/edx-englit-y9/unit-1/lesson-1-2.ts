@@ -71,12 +71,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "He is anxious to convince others that he is sane" },
-              { id: "b", text: "He is calmly describing a medical condition" },
-              { id: "c", text: "He is proud of being mad" },
-              { id: "d", text: "He has been told he is perfectly healthy" },
+              { id: "a", text: "He is calmly describing a medical condition" },
+              { id: "b", text: "He has been told he is perfectly healthy" },
+              { id: "c", text: "He is anxious to convince others that he is sane" },
+              { id: "d", text: "He is proud of being mad" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Rhetorical question", statement: "A question asked for effect, not an answer, often to persuade or reveal emotion." }],
@@ -205,12 +205,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The reflection is both familiar and disturbingly different" },
-              { id: "b", text: "The narrator does not recognise his own house" },
-              { id: "c", text: "The mirror is cracked" },
-              { id: "d", text: "The narrator has forgotten his name" },
+              { id: "a", text: "The narrator does not recognise his own house" },
+              { id: "b", text: "The reflection is both familiar and disturbingly different" },
+              { id: "c", text: "The narrator has forgotten his name" },
+              { id: "d", text: "The mirror is cracked" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Paradox", statement: "A statement that seems contradictory but reveals a deeper truth, here the divided self." }],

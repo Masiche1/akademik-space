@@ -68,12 +68,12 @@ export const lesson73: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Paper 3" },
+              { id: "a", text: "Paper 2" },
               { id: "b", text: "Paper 1" },
-              { id: "c", text: "Paper 2" },
-              { id: "d", text: "All papers" },
+              { id: "c", text: "All papers" },
+              { id: "d", text: "Paper 3" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -231,6 +231,460 @@ export const lesson73: Lesson = {
               },
             ],
             finalAnswer: "(a) P1 (b) P2 (c) P3 (d) difference",
+          },
+        },
+        {
+          id: "cial-e-u7-ps-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Paper 1 (Reading) primarily tests analysis of:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Your own writing" },
+              { id: "b", text: "Unseen texts" },
+              { id: "c", text: "Grammar rules" },
+              { id: "d", text: "Set novels" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Paper 1",
+                statement: "Unseen text analysis.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Unseen texts.",
+                marks: 1,
+                markCode: "AO1",
+              },
+            ],
+            finalAnswer: "**(a)** Unseen texts",
+            commonErrors: ["Confusing with Paper 3."],
+          },
+        },
+        {
+          id: "cial-e-u7-ps-q6",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Paper 2 (Writing) includes which two task types?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Reading and summary" },
+              { id: "b", text: "Poetry and drama only" },
+              { id: "c", text: "Directed writing and composition" },
+              { id: "d", text: "Translation and transcription" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Paper 2",
+                statement: "Directed+composition.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Directed+composition.",
+                marks: 1,
+                markCode: "AO1",
+              },
+            ],
+            finalAnswer: "**(a)** Directed writing and composition",
+            commonErrors: ["Confusing paper contents."],
+          },
+        },
+        {
+          id: "cial-e-u7-ps-q7",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "When analysing an unseen text in Paper 1, what three areas should you examine?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Plot, genre and setting only" },
+              { id: "b", text: "Language, structure and writer's methods" },
+              { id: "c", text: "Spelling and punctuation" },
+              { id: "d", text: "Author biography" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Paper 1 analysis",
+                statement: "Language+structure+methods.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Three analysis areas.",
+                marks: 1,
+                markCode: "AO1",
+              },
+            ],
+            finalAnswer:
+              "**(a)** Language, structure and writer's methods",
+            commonErrors: ["Analysing content only."],
+          },
+        },
+        {
+          id: "cial-e-u7-ps-q8",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "For Paper 3 poetry analysis, which feature is most genre-appropriate?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Dialogue analysis" },
+              { id: "b", text: "Imagery and poetic form" },
+              { id: "c", text: "Narrative voice only" },
+              { id: "d", text: "Stage directions" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Genre-appropriate analysis",
+                statement: "Poetry=imagery/form.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Imagery+form.",
+                marks: 1,
+                markCode: "AO1",
+              },
+            ],
+            finalAnswer: "**(a)** Imagery and poetic form",
+            commonErrors: ["Using prose techniques on poetry."],
+          },
+        },
+        {
+          id: "cial-e-u7-ps-q9",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "For Paper 3 drama analysis, which technique should you focus on?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Rhyme scheme" },
+              { id: "b", text: "Chapter structure" },
+              { id: "c", text: "Stagecraft and dialogue" },
+              { id: "d", text: "Narrator reliability" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Drama analysis",
+                statement: "Stagecraft+dialogue.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Stagecraft+dialogue.",
+                marks: 1,
+                markCode: "AO1",
+              },
+            ],
+            finalAnswer: "**(a)** Stagecraft and dialogue",
+            commonErrors: ["Analysing drama as prose."],
+          },
+        },
+        {
+          id: "cial-e-u7-ps-q10",
+          difficulty: "challenge",
+          totalMarks: 1,
+          stem: "Why is prior knowledge unnecessary in Paper 1?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "It tests memory only" },
+              { id: "b", text: "All texts are unseen — you analyse what's on the page" },
+              { id: "c", text: "Texts repeat every year" },
+              { id: "d", text: "Prior knowledge is penalised" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Paper 1 unseen",
+                statement: "Analyse text only.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Unseen = page analysis.",
+                marks: 1,
+                markCode: "AO2",
+              },
+            ],
+            finalAnswer: "**(a)** All texts are unseen — you analyse what's on the page",
+            commonErrors: ["Importing outside knowledge."],
+          },
+        },
+        {
+          id: "cial-e-u7-ps-q11",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "What should you do when reading an unseen text for the second time?",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Second reading",
+                statement: "Detailed feature analysis.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Annotate features.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                reasoning: "Note language/structure/methods.",
+                marks: 1,
+                markCode: "AO2",
+              },
+            ],
+            finalAnswer:
+              "Read again closely, annotating language choices (word choice, imagery, tone), structure (form, paragraphing, narrative arc) and writer's methods (perspective, irony, symbolism).",
+            commonErrors: ["Reading passively without annotating."],
+          },
+        },
+        {
+          id: "cial-e-u7-ps-q12",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "What three things must you check in a directed writing task on Paper 2?",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Directed task checks",
+                statement: "Register+audience+purpose+word count.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Register/audience/purpose.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                reasoning: "Word count/task type.",
+                marks: 1,
+                markCode: "AO1",
+              },
+            ],
+            finalAnswer:
+              "Register (formality), audience (who reads it), purpose (why it's written) and the stated word count/task conventions — follow the instructions exactly.",
+            commonErrors: ["Ignoring task instructions."],
+          },
+        },
+        {
+          id: "cial-e-u7-ps-q13",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "How should context be used in Paper 3 essays?",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Context in Paper 3",
+                statement: "Support, not replace, textual analysis.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Ground in text first.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                reasoning: "Context illuminates meaning.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                reasoning: "Avoid context-only paragraphs.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              { reasoning: "Clear explanation.", marks: 1, markCode: "AO3" },
+            ],
+            finalAnswer:
+              "Use historical/social context to illuminate textual meaning — but always anchor analysis in the text itself; context should support, never replace, close reading.",
+            commonErrors: ["Writing context essays without text."],
+          },
+        },
+        {
+          id: "cial-e-u7-ps-q14",
+          difficulty: "challenge",
+          totalMarks: 9,
+          stem: "Paper strategies practice.",
+          parts: [
+            { label: "a", prompt: "Paper 1 strategy?", marks: 3 },
+            { label: "b", prompt: "Paper 2 strategy?", marks: 2 },
+            { label: "c", prompt: "Paper 3 strategy?", marks: 3 },
+            { label: "d", prompt: "Key difference?", marks: 1 },
+          ],
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Strategies",
+                statement: "P1+P2+P3+difference.",
+              },
+            ],
+            steps: [
+              {
+                part: "a",
+                reasoning: "Read twice/close analysis.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                part: "a",
+                reasoning: "Language/structure/methods.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                part: "a",
+                reasoning: "No prior knowledge.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                part: "b",
+                reasoning: "Register/audience/purpose.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                part: "b",
+                reasoning: "Proofread/technique.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                part: "c",
+                reasoning: "Set texts/quotations.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                part: "c",
+                reasoning: "Comparison throughout.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                part: "c",
+                reasoning: "Genre-appropriate analysis.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                part: "d",
+                reasoning: "Unseen vs set texts.",
+                marks: 1,
+                markCode: "AO1",
+              },
+            ],
+            finalAnswer: "(a) P1 (b) P2 (c) P3 (d) difference",
+          },
+        },
+        {
+          id: "cial-e-u7-ps-q15",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "In Paper 3, why must comparison be 'woven throughout'?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "To halve the word count" },
+              { id: "b", text: "To show integrated analysis of both texts" },
+              { id: "c", text: "It is a formatting rule only" },
+              { id: "d", text: "To avoid using quotations" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Woven comparison",
+                statement: "Integrated analysis.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Integrated analysis.",
+                marks: 1,
+                markCode: "AO1",
+              },
+            ],
+            finalAnswer:
+              "**(a)** To show integrated analysis of both texts",
+            commonErrors: ["Writing two separate essays."],
+          },
+        },
+        {
+          id: "cial-e-u7-ps-q16",
+          difficulty: "challenge",
+          totalMarks: 3,
+          stem: "How should you answer short questions in Paper 1 differently from essay questions?",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Paper 1 question types",
+                statement: "Precision vs PEE structure.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Short answers: concise+precise.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                reasoning: "Essays: PEE structure.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                reasoning: "Match depth to marks.",
+                marks: 1,
+                markCode: "AO2",
+              },
+            ],
+            finalAnswer:
+              "Short answers need precise, focused points with brief evidence — no padding; essays need developed PEE paragraphs matching the mark allocation. Match response depth to the marks available.",
+            commonErrors: ["Writing essays for short-answer questions."],
           },
         },
       ],

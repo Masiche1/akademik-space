@@ -46,11 +46,11 @@ export const lesson13: Lesson = {
           totalMarks: 2,
           stem: "Solve $-4x+3\\le15$. Which solution is correct?",
           response: { type: "mcq", choices: [
-            { id: "a", text: "$x\\le-3$" },
-            { id: "b", text: "$x\\ge-3$" },
-            { id: "c", text: "$x\\le3$" },
-            { id: "d", text: "$x\\ge3$" },
-          ], correctChoiceId: "b" },
+            { id: "a", text: "$x\\ge3$" },
+            { id: "b", text: "$x\\le3$" },
+            { id: "c", text: "$x\\ge-3$" },
+            { id: "d", text: "$x\\le-3$" },
+          ], correctChoiceId: "c" },
           markscheme: {
             principles: [
               { kind: "law", name: "Inequality reversal", statement: "Multiplying or dividing both sides of an inequality by a negative number reverses the inequality sign." },
@@ -175,11 +175,11 @@ export const lesson13: Lesson = {
           totalMarks: 2,
           stem: "Solve $|x-2|=5$. Which pair gives all solutions?",
           response: { type: "mcq", choices: [
-            { id: "a", text: "$x=7$ or $x=-3$" },
-            { id: "b", text: "$x=3$ or $x=-7$" },
-            { id: "c", text: "$x=7$ only" },
-            { id: "d", text: "$x=-3$ only" },
-          ], correctChoiceId: "a" },
+            { id: "a", text: "$x=7$ only" },
+            { id: "b", text: "$x=-3$ only" },
+            { id: "c", text: "$x=7$ or $x=-3$" },
+            { id: "d", text: "$x=3$ or $x=-7$" },
+          ], correctChoiceId: "c" },
           markscheme: {
             principles: [
               { kind: "definition", name: "Absolute value as distance", statement: "$|u|=a$ for $a>0$ means $u=a$ or $u=-a$." },

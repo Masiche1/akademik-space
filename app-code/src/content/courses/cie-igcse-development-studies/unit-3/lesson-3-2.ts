@@ -121,15 +121,15 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "Debt" },
               {
-                id: "a",
+                id: "b",
                 text: "Climate, landlocked position and natural disasters",
               },
-              { id: "b", text: "Corruption and conflict" },
-              { id: "c", text: "Low education" },
-              { id: "d", text: "Debt" },
+              { id: "c", text: "Corruption and conflict" },
+              { id: "d", text: "Low education" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -157,15 +157,15 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "Low education" },
               {
-                id: "a",
+                id: "b",
                 text: "Low capital, debt and dependence on primary products",
               },
-              { id: "b", text: "Corruption and conflict" },
-              { id: "c", text: "Climate and disease" },
-              { id: "d", text: "Low education" },
+              { id: "c", text: "Corruption and conflict" },
+              { id: "d", text: "Climate and disease" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -193,12 +193,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Rapid population growth and low education" },
-              { id: "b", text: "Corruption and conflict" },
-              { id: "c", text: "Climate and disease" },
-              { id: "d", text: "Debt and capital" },
+              { id: "a", text: "Climate and disease" },
+              { id: "b", text: "Debt and capital" },
+              { id: "c", text: "Corruption and conflict" },
+              { id: "d", text: "Rapid population growth and low education" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -226,12 +226,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Corruption, conflict and weak governance" },
-              { id: "b", text: "Climate and disease" },
-              { id: "c", text: "Low capital" },
-              { id: "d", text: "Population growth" },
+              { id: "a", text: "Climate and disease" },
+              { id: "b", text: "Low capital" },
+              { id: "c", text: "Population growth" },
+              { id: "d", text: "Corruption, conflict and weak governance" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -259,12 +259,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Raw materials — agriculture and minerals" },
+              { id: "a", text: "Technology" },
               { id: "b", text: "Finished goods" },
-              { id: "c", text: "Services" },
-              { id: "d", text: "Technology" },
+              { id: "c", text: "Raw materials — agriculture and minerals" },
+              { id: "d", text: "Services" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -292,12 +292,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "No coastline — higher trade costs" },
-              { id: "b", text: "More trade" },
-              { id: "c", text: "Lower costs" },
-              { id: "d", text: "Better access" },
+              { id: "a", text: "More trade" },
+              { id: "b", text: "Lower costs" },
+              { id: "c", text: "Better access" },
+              { id: "d", text: "No coastline — higher trade costs" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -325,12 +325,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Skilled workers emigrating abroad" },
-              { id: "b", text: "Money leaving" },
-              { id: "c", text: "Population decline" },
-              { id: "d", text: "Brain disease" },
+              { id: "a", text: "Population decline" },
+              { id: "b", text: "Skilled workers emigrating abroad" },
+              { id: "c", text: "Brain disease" },
+              { id: "d", text: "Money leaving" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -358,15 +358,15 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              {
-                id: "a",
-                text: "Dependent on developed countries for capital and markets",
-              },
+              { id: "a", text: "Self-sufficient" },
               { id: "b", text: "Independent" },
               { id: "c", text: "More developed" },
-              { id: "d", text: "Self-sufficient" },
+              {
+                id: "d",
+                text: "Dependent on developed countries for capital and markets",
+              },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -394,12 +394,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Diverting resources from development" },
-              { id: "b", text: "Increasing investment" },
-              { id: "c", text: "Improving services" },
-              { id: "d", text: "Reducing debt" },
+              { id: "a", text: "Improving services" },
+              { id: "b", text: "Reducing debt" },
+              { id: "c", text: "Increasing investment" },
+              { id: "d", text: "Diverting resources from development" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -567,8 +567,8 @@ export const lesson32: Lesson = {
                 id: "a",
                 text: "Reducing workforce productivity and increasing healthcare costs",
               },
-              { id: "b", text: "Increasing tourism" },
-              { id: "c", text: "Improving health" },
+              { id: "b", text: "Improving health" },
+              { id: "c", text: "Increasing tourism" },
               { id: "d", text: "Reducing population" },
             ],
             correctChoiceId: "a",
@@ -629,12 +629,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Inherited structural disadvantages" },
+              { id: "a", text: "Free trade" },
               { id: "b", text: "Modern technology" },
-              { id: "c", text: "Free trade" },
-              { id: "d", text: "Good governance" },
+              { id: "c", text: "Good governance" },
+              { id: "d", text: "Inherited structural disadvantages" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -772,12 +772,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Rapid population growth" },
-              { id: "b", text: "High debt" },
+              { id: "a", text: "High debt" },
+              { id: "b", text: "Rapid population growth" },
               { id: "c", text: "Landlocked position" },
               { id: "d", text: "Corruption" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -916,8 +916,8 @@ export const lesson32: Lesson = {
             choices: [
               { id: "a", text: "Destroying infrastructure and crops" },
               { id: "b", text: "Increasing tourism" },
-              { id: "c", text: "Improving health" },
-              { id: "d", text: "Increasing investment" },
+              { id: "c", text: "Increasing investment" },
+              { id: "d", text: "Improving health" },
             ],
             correctChoiceId: "a",
           },
@@ -1010,12 +1010,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Climate" },
-              { id: "b", text: "Debt" },
-              { id: "c", text: "Primary products" },
-              { id: "d", text: "Infrastructure" },
+              { id: "a", text: "Primary products" },
+              { id: "b", text: "Infrastructure" },
+              { id: "c", text: "Debt" },
+              { id: "d", text: "Climate" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1186,15 +1186,15 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "A temporary setback" },
+              { id: "b", text: "A choice" },
+              { id: "c", text: "A government policy" },
               {
-                id: "a",
+                id: "d",
                 text: "A self-reinforcing cycle where poverty causes conditions that make escaping harder",
               },
-              { id: "b", text: "A temporary setback" },
-              { id: "c", text: "A choice" },
-              { id: "d", text: "A government policy" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1222,15 +1222,15 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "Social progress" },
               {
-                id: "a",
+                id: "b",
                 text: "Problems that reinforce each other negatively",
               },
-              { id: "b", text: "Positive feedback" },
               { id: "c", text: "Economic growth" },
-              { id: "d", text: "Social progress" },
+              { id: "d", text: "Positive feedback" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1258,12 +1258,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Providing small loans to poor entrepreneurs" },
-              { id: "b", text: "Giving large grants" },
-              { id: "c", text: "Building factories" },
+              { id: "a", text: "Building factories" },
+              { id: "b", text: "Providing small loans to poor entrepreneurs" },
+              { id: "c", text: "Giving large grants" },
               { id: "d", text: "Free education" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1291,15 +1291,15 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "Disease doesn't affect income" },
+              { id: "b", text: "Health improves automatically" },
+              { id: "c", text: "Poverty doesn't affect health" },
               {
-                id: "a",
+                id: "d",
                 text: "Poor nutrition → disease → can't work → less income",
               },
-              { id: "b", text: "Health improves automatically" },
-              { id: "c", text: "Disease doesn't affect income" },
-              { id: "d", text: "Poverty doesn't affect health" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1327,15 +1327,15 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "Skills don't affect income" },
               {
-                id: "a",
+                id: "b",
                 text: "Can't afford school → low skills → low income",
               },
-              { id: "b", text: "Education is free" },
-              { id: "c", text: "Skills don't affect income" },
+              { id: "c", text: "Education is free" },
               { id: "d", text: "Poverty doesn't affect education" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1363,12 +1363,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Make large investments to jump-start growth" },
-              { id: "b", text: "Give small loans" },
-              { id: "c", text: "Reduce spending" },
+              { id: "a", text: "Reduce spending" },
+              { id: "b", text: "Make large investments to jump-start growth" },
+              { id: "c", text: "Give small loans" },
               { id: "d", text: "Increase debt" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1396,12 +1396,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Giving direct payments to poor families" },
-              { id: "b", text: "Building factories" },
+              { id: "a", text: "Tax increases" },
+              { id: "b", text: "Giving direct payments to poor families" },
               { id: "c", text: "Loans only" },
-              { id: "d", text: "Tax increases" },
+              { id: "d", text: "Building factories" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1429,15 +1429,15 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "Work is easy" },
               {
-                id: "a",
+                id: "b",
                 text: "Lack of capital/tools makes extra effort unproductive",
               },
-              { id: "b", text: "They don't want to" },
-              { id: "c", text: "Work is easy" },
-              { id: "d", text: "Poverty is a choice" },
+              { id: "c", text: "Poverty is a choice" },
+              { id: "d", text: "They don't want to" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1465,12 +1465,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Borrow for necessities → repay → borrow more" },
+              { id: "a", text: "Interest is free" },
               { id: "b", text: "Debt decreases over time" },
-              { id: "c", text: "Interest is free" },
+              { id: "c", text: "Borrow for necessities → repay → borrow more" },
               { id: "d", text: "Borrowing is easy" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1640,8 +1640,8 @@ export const lesson32: Lesson = {
                 text: "The poor lack capital to invest in themselves",
               },
               { id: "b", text: "The poor are lazy" },
-              { id: "c", text: "Intervention is always needed" },
-              { id: "d", text: "Markets fail always" },
+              { id: "c", text: "Markets fail always" },
+              { id: "d", text: "Intervention is always needed" },
             ],
             correctChoiceId: "a",
           },
@@ -1702,12 +1702,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Economic growth cycle" },
-              { id: "b", text: "Health-poverty cycle" },
-              { id: "c", text: "Education-poverty cycle" },
-              { id: "d", text: "Debt cycle" },
+              { id: "a", text: "Debt cycle" },
+              { id: "b", text: "Education-poverty cycle" },
+              { id: "c", text: "Health-poverty cycle" },
+              { id: "d", text: "Economic growth cycle" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1846,9 +1846,9 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Small loans to poor entrepreneurs" },
-              { id: "b", text: "Large grants" },
-              { id: "c", text: "Free goods" },
-              { id: "d", text: "Scholarships" },
+              { id: "b", text: "Free goods" },
+              { id: "c", text: "Scholarships" },
+              { id: "d", text: "Large grants" },
             ],
             correctChoiceId: "a",
           },
@@ -1984,9 +1984,9 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "A vicious cycle" },
-              { id: "b", text: "Economic growth" },
+              { id: "b", text: "A temporary setback" },
               { id: "c", text: "Social progress" },
-              { id: "d", text: "A temporary setback" },
+              { id: "d", text: "Economic growth" },
             ],
             correctChoiceId: "a",
           },
@@ -2082,12 +2082,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Microfinance" },
-              { id: "b", text: "Increased debt" },
-              { id: "c", text: "Reduced education" },
-              { id: "d", text: "Less healthcare" },
+              { id: "a", text: "Reduced education" },
+              { id: "b", text: "Microfinance" },
+              { id: "c", text: "Less healthcare" },
+              { id: "d", text: "Increased debt" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [

@@ -54,12 +54,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "An unaffected female" },
-              { id: "b", text: "An affected female" },
-              { id: "c", text: "An unaffected male" },
-              { id: "d", text: "A carrier female" },
+              { id: "a", text: "A carrier female" },
+              { id: "b", text: "An unaffected male" },
+              { id: "c", text: "An affected female" },
+              { id: "d", text: "An unaffected female" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -82,12 +82,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The trait must be dominant" },
-              { id: "b", text: "The trait is recessive and both parents are carriers" },
-              { id: "c", text: "The trait is sex-linked" },
-              { id: "d", text: "The child has a new mutation unrelated to the parents" },
+              { id: "a", text: "The trait is recessive and both parents are carriers" },
+              { id: "b", text: "The child has a new mutation unrelated to the parents" },
+              { id: "c", text: "The trait must be dominant" },
+              { id: "d", text: "The trait is sex-linked" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -111,12 +111,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Autosomal dominant" },
-              { id: "b", text: "Autosomal recessive" },
-              { id: "c", text: "X-linked recessive" },
-              { id: "d", text: "Y-linked" },
+              { id: "a", text: "Autosomal recessive" },
+              { id: "b", text: "Y-linked" },
+              { id: "c", text: "Autosomal dominant" },
+              { id: "d", text: "X-linked recessive" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -174,11 +174,11 @@ export const lesson61: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Two siblings in the same generation" },
-              { id: "b", text: "A mating pair and their offspring" },
-              { id: "c", text: "Two unrelated individuals" },
-              { id: "d", text: "Identical twins" },
+              { id: "b", text: "Two unrelated individuals" },
+              { id: "c", text: "Identical twins" },
+              { id: "d", text: "A mating pair and their offspring" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -202,12 +202,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Autosomal dominant" },
-              { id: "b", text: "Autosomal recessive" },
-              { id: "c", text: "X-linked recessive" },
-              { id: "d", text: "Codominance" },
+              { id: "a", text: "X-linked recessive" },
+              { id: "b", text: "Autosomal dominant" },
+              { id: "c", text: "Codominance" },
+              { id: "d", text: "Autosomal recessive" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -231,12 +231,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "All affected (XbXb)" },
-              { id: "b", text: "All carriers (XBXb)" },
+              { id: "a", text: "All carriers (XBXb)" },
+              { id: "b", text: "All affected sons" },
               { id: "c", text: "Half carriers and half unaffected" },
-              { id: "d", text: "All affected sons" },
+              { id: "d", text: "All affected (XbXb)" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -261,11 +261,11 @@ export const lesson61: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "1/4" },
-              { id: "b", text: "1/3" },
-              { id: "c", text: "2/3" },
-              { id: "d", text: "3/4" },
+              { id: "b", text: "3/4" },
+              { id: "c", text: "1/3" },
+              { id: "d", text: "2/3" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -552,10 +552,10 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Group A" },
-              { id: "b", text: "Group B" },
+              { id: "a", text: "Group O" },
+              { id: "b", text: "Group A" },
               { id: "c", text: "Group AB" },
-              { id: "d", text: "Group O" },
+              { id: "d", text: "Group B" },
             ],
             correctChoiceId: "c",
           },
@@ -580,12 +580,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "0%" },
-              { id: "b", text: "25%" },
-              { id: "c", text: "50%" },
-              { id: "d", text: "100%" },
+              { id: "a", text: "50%" },
+              { id: "b", text: "100%" },
+              { id: "c", text: "0%" },
+              { id: "d", text: "25%" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -609,12 +609,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Only A or only B" },
-              { id: "b", text: "A, B or AB" },
+              { id: "a", text: "A, B, AB or O" },
+              { id: "b", text: "Only A or only B" },
               { id: "c", text: "Only AB" },
-              { id: "d", text: "A, B, AB or O" },
+              { id: "d", text: "A, B or AB" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -671,12 +671,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "IAi" },
-              { id: "b", text: "IBi" },
-              { id: "c", text: "IAIB" },
-              { id: "d", text: "ii" },
+              { id: "a", text: "IAIB" },
+              { id: "b", text: "IAi" },
+              { id: "c", text: "ii" },
+              { id: "d", text: "IBi" },
             ],
-            correctChoiceId: "d",
+            correctChoiceIc: "d",
           },
           markscheme: {
             principles: [
@@ -700,12 +700,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Only group A" },
-              { id: "b", text: "Group A or group B" },
-              { id: "c", text: "Group AB or group O" },
-              { id: "d", text: "Any of A, B, AB or O" },
+              { id: "a", text: "Any of A, B, AB or O" },
+              { id: "b", text: "Group AB or group O" },
+              { id: "c", text: "Group A or group B" },
+              { id: "d", text: "Only group A" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -758,10 +758,10 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "50%" },
-              { id: "b", text: "25%" },
+              { id: "a", text: "25%" },
+              { id: "b", text: "100%" },
               { id: "c", text: "0%" },
-              { id: "d", text: "100%" },
+              { id: "d", text: "50%" },
             ],
             correctChoiceId: "c",
           },
@@ -844,12 +844,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Each individual carries all three alleles IA, IB and i" },
-              { id: "b", text: "Three alleles exist in the population, but each individual carries only two" },
+              { id: "a", text: "The trait is controlled by three different genes" },
+              { id: "b", text: "Each individual carries all three alleles IA, IB and i" },
               { id: "c", text: "Each gene has three copies in every cell" },
-              { id: "d", text: "The trait is controlled by three different genes" },
+              { id: "d", text: "Three alleles exist in the population, but each individual carries only two" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -874,9 +874,9 @@ export const lesson61: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "The statement is correct — she is XHXh and affected daughters require an affected father" },
-              { id: "b", text: "The statement is wrong — she is affected herself" },
-              { id: "c", text: "The statement is wrong — she cannot be a carrier" },
-              { id: "d", text: "The statement is wrong — she will have all affected sons" },
+              { id: "b", text: "The statement is wrong — she cannot be a carrier" },
+              { id: "c", text: "The statement is wrong — she will have all affected sons" },
+              { id: "d", text: "The statement is wrong — she is affected herself" },
             ],
             correctChoiceId: "a",
           },

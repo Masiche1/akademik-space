@@ -54,12 +54,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Higher pitch while approaching, lower pitch while receding" },
-              { id: "b", text: "Lower pitch while approaching, higher pitch while receding" },
+              { id: "a", text: "Lower pitch while approaching, higher pitch while receding" },
+              { id: "b", text: "Higher pitch while approaching, lower pitch while receding" },
               { id: "c", text: "The pitch stays constant throughout" },
               { id: "d", text: "The pitch rises continuously as the ambulance moves" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -81,12 +81,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$416$ Hz" },
-              { id: "b", text: "$465$ Hz" },
-              { id: "c", text: "$424$ Hz" },
-              { id: "d", text: "$494$ Hz" },
+              { id: "a", text: "$465$ Hz" },
+              { id: "b", text: "$424$ Hz" },
+              { id: "c", text: "$494$ Hz" },
+              { id: "d", text: "$416$ Hz" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -109,12 +109,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$427$ Hz" },
-              { id: "b", text: "$453$ Hz" },
-              { id: "c", text: "$494$ Hz" },
+              { id: "a", text: "$453$ Hz" },
+              { id: "b", text: "$494$ Hz" },
+              { id: "c", text: "$427$ Hz" },
               { id: "d", text: "$410$ Hz" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -174,11 +174,11 @@ export const lesson43: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "The change in the amplitude of a wave as it travels" },
-              { id: "b", text: "The change in observed frequency when there is relative motion between source and observer" },
-              { id: "c", text: "The reflection of a wave from a moving surface" },
+              { id: "b", text: "The reflection of a wave from a moving surface" },
+              { id: "c", text: "The change in observed frequency when there is relative motion between source and observer" },
               { id: "d", text: "The bending of a wave as it enters a new medium" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -200,12 +200,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "lower, because the wavelength increases" },
-              { id: "b", text: "higher, because the wavelength ahead of the source is shortened" },
-              { id: "c", text: "unchanged, because the speed of sound is constant" },
-              { id: "d", text: "higher only if the observer is also moving" },
+              { id: "a", text: "unchanged, because the speed of sound is constant" },
+              { id: "b", text: "lower, because the wavelength increases" },
+              { id: "c", text: "higher only if the observer is also moving" },
+              { id: "d", text: "higher, because the wavelength ahead of the source is shortened" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -277,12 +277,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$f' = 440 \\times \\frac{340}{340}$, unchanged" },
-              { id: "b", text: "$f' = 440 \\times \\frac{340 + 10}{340 - 10} \\approx 467$ Hz" },
-              { id: "c", text: "$f' = 440 \\times \\frac{340 - 10}{340 + 10} \\approx 415$ Hz" },
-              { id: "d", text: "$f' = 440 \\times \\frac{340}{340 - 10} \\approx 453$ Hz" },
+              { id: "a", text: "$f' = 440 \\times \\frac{340 + 10}{340 - 10} \\approx 467$ Hz" },
+              { id: "b", text: "$f' = 440 \\times \\frac{340 - 10}{340 + 10} \\approx 415$ Hz" },
+              { id: "c", text: "$f' = 440 \\times \\frac{340}{340 - 10} \\approx 453$ Hz" },
+              { id: "d", text: "$f' = 440 \\times \\frac{340}{340}$, unchanged" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -365,12 +365,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It increases because the car is moving" },
-              { id: "b", text: "It decreases because wavefronts bunch together ahead of the car" },
+              { id: "a", text: "It decreases because wavefronts bunch together ahead of the car" },
+              { id: "b", text: "It increases because the car is moving" },
               { id: "c", text: "It stays the same because the speed of sound is unchanged" },
               { id: "d", text: "It becomes zero at the position of the car" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -393,10 +393,10 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "a blue shift" },
+              { id: "a", text: "a green shift" },
               { id: "b", text: "a red shift" },
-              { id: "c", text: "a Doppler effect of zero" },
-              { id: "d", text: "a green shift" },
+              { id: "c", text: "a blue shift" },
+              { id: "d", text: "a Doppler effect of zero" },
             ],
             correctChoiceId: "b",
           },
@@ -545,11 +545,11 @@ export const lesson43: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Their speed depends on their frequency." },
-              { id: "b", text: "They all travel at the same speed $c$." },
-              { id: "c", text: "They are longitudinal waves." },
+              { id: "b", text: "They are longitudinal waves." },
+              { id: "c", text: "They all travel at the same speed $c$." },
               { id: "d", text: "They cannot travel through a vacuum." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -573,8 +573,8 @@ export const lesson43: Lesson = {
             choices: [
               { id: "a", text: "radio, microwave, infrared, visible, ultraviolet, X-ray, gamma" },
               { id: "b", text: "gamma, X-ray, ultraviolet, visible, infrared, microwave, radio" },
-              { id: "c", text: "radio, infrared, microwave, visible, ultraviolet, X-ray, gamma" },
-              { id: "d", text: "microwave, radio, infrared, visible, ultraviolet, X-ray, gamma" },
+              { id: "c", text: "microwave, radio, infrared, visible, ultraviolet, X-ray, gamma" },
+              { id: "d", text: "radio, infrared, microwave, visible, ultraviolet, X-ray, gamma" },
             ],
             correctChoiceId: "a",
           },
@@ -599,12 +599,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Wavelength $5.0 \\times 10^{-7}$ m; photon energy $4.0 \\times 10^{-19}$ J" },
-              { id: "b", text: "Wavelength $5.0 \\times 10^{-7}$ m; photon energy $2.0 \\times 10^{-19}$ J" },
+              { id: "a", text: "Wavelength $5.0 \\times 10^{-7}$ m; photon energy $2.0 \\times 10^{-19}$ J" },
+              { id: "b", text: "Wavelength $5.0 \\times 10^{-7}$ m; photon energy $4.0 \\times 10^{-19}$ J" },
               { id: "c", text: "Wavelength $1.8 \\times 10^{23}$ m; photon energy $4.0 \\times 10^{-19}$ J" },
               { id: "d", text: "Wavelength $5.0 \\times 10^{-7}$ m; photon energy $1.3 \\times 10^{-27}$ J" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -660,12 +660,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$E = hf$" },
-              { id: "b", text: "$E = h/f$" },
-              { id: "c", text: "$E = hc\\lambda$" },
-              { id: "d", text: "$E = f/h$" },
+              { id: "a", text: "$E = hc\\lambda$" },
+              { id: "b", text: "$E = hf$" },
+              { id: "c", text: "$E = f/h$" },
+              { id: "d", text: "$E = h/f$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -687,12 +687,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Infrared" },
-              { id: "b", text: "Ultraviolet" },
-              { id: "c", text: "Microwave" },
-              { id: "d", text: "Radio" },
+              { id: "a", text: "Ultraviolet" },
+              { id: "b", text: "Infrared" },
+              { id: "c", text: "Radio" },
+              { id: "d", text: "Microwave" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -764,12 +764,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Photon 1 has more energy because it has a longer wavelength" },
-              { id: "b", text: "Photon 2 has more energy because $E = hf$ and $f_2 > f_1$" },
-              { id: "c", text: "Both photons have the same energy" },
-              { id: "d", text: "Photon 1 has more energy because lower frequency means more energy" },
+              { id: "a", text: "Photon 2 has more energy because $E = hf$ and $f_2 > f_1$" },
+              { id: "b", text: "Photon 1 has more energy because it has a longer wavelength" },
+              { id: "c", text: "Photon 1 has more energy because lower frequency means more energy" },
+              { id: "d", text: "Both photons have the same energy" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -851,12 +851,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "X-rays and gamma rays have much higher frequencies, so their photons carry enough energy to ionise atoms" },
-              { id: "b", text: "X-rays and gamma rays travel faster than radio waves" },
-              { id: "c", text: "Radio waves are absorbed completely by the body" },
-              { id: "d", text: "X-rays and gamma rays are longitudinal waves" },
+              { id: "a", text: "X-rays and gamma rays travel faster than radio waves" },
+              { id: "b", text: "X-rays and gamma rays have much higher frequencies, so their photons carry enough energy to ionise atoms" },
+              { id: "c", text: "X-rays and gamma rays are longitudinal waves" },
+              { id: "d", text: "Radio waves are absorbed completely by the body" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [

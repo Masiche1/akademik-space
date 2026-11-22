@@ -55,11 +55,11 @@ export const lesson22: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Radio waves" },
-              { id: "b", text: "Infrared" },
-              { id: "c", text: "Ultraviolet" },
-              { id: "d", text: "Gamma rays" },
+              { id: "b", text: "Ultraviolet" },
+              { id: "c", text: "Gamma rays" },
+              { id: "d", text: "Infrared" },
             ],
-            correctChoiceId: "d",
+            correctChoiceIc: "d",
           },
           markscheme: {
             principles: [
@@ -187,9 +187,9 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It speeds up and bends away from the normal" },
+              { id: "a", text: "It slows down and bends away from the normal" },
               { id: "b", text: "It slows down and bends toward the normal" },
-              { id: "c", text: "It slows down and bends away from the normal" },
+              { id: "c", text: "It speeds up and bends away from the normal" },
               { id: "d", text: "It keeps the same speed and direction" },
             ],
             correctChoiceId: "b",

@@ -56,8 +56,8 @@ export const lesson23: Lesson = {
             choices: [
               { id: "a", text: "Wind" },
               { id: "b", text: "Solar cells" },
-              { id: "c", text: "Hydroelectric" },
-              { id: "d", text: "Nuclear" },
+              { id: "c", text: "Nuclear" },
+              { id: "d", text: "Hydroelectric" },
             ],
             correctChoiceId: "b",
           },
@@ -199,12 +199,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "They cannot supply power on demand." },
-              { id: "b", text: "They release carbon dioxide, which contributes to global warming." },
-              { id: "c", text: "They are renewable." },
-              { id: "d", text: "They produce long-lived radioactive waste." },
+              { id: "a", text: "They are renewable." },
+              { id: "b", text: "They produce long-lived radioactive waste." },
+              { id: "c", text: "They cannot supply power on demand." },
+              { id: "d", text: "They release carbon dioxide, which contributes to global warming." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

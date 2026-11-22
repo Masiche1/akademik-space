@@ -59,12 +59,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Crossing over" },
-              { id: "b", text: "Mutation" },
-              { id: "c", text: "Independent assortment" },
-              { id: "d", text: "Random fertilisation" },
+              { id: "a", text: "Independent assortment" },
+              { id: "b", text: "Random fertilisation" },
+              { id: "c", text: "Crossing over" },
+              { id: "d", text: "Mutation" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -178,6 +178,376 @@ export const lesson23: Lesson = {
               },
             ],
             finalAnswer: "Fertiliser → algal bloom → bacterial decomposition → deoxygenation → fish kills.",
+          },
+        },
+        {
+          id: "cipub-u2-evo-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Homologous structures, such as the wing of a bat and the arm of a human, provide evidence for evolution because they:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Are examples of convergent evolution" },
+              { id: "b", text: "Show that the species share a common ancestor" },
+              { id: "c", text: "Result from similar environmental pressures only" },
+              { id: "d", text: "Prove the structures have identical functions" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Comparative anatomy",
+                statement: "Homologous structures share the same basic plan despite different functions — evidence of descent from a common ancestor.",
+              },
+            ],
+            steps: [{ reasoning: "Same underlying bone structure in different species indicates inheritance from a common ancestor that was modified by selection.", marks: 1, markCode: "A" }],
+            finalAnswer: "(a) Common ancestry",
+          },
+        },
+        {
+          id: "cipub-u2-evo-q6",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "Producers in a food chain fix $20\\ 000\\ \\text{kJ}$ of energy. Assuming $10\\%$ energy transfer between trophic levels, calculate the energy available to (a) primary consumers and (b) secondary consumers.",
+          response: {
+            type: "numeric",
+            parts: [
+              { label: "Primary consumers (kJ)", answer: 2000, unit: "kJ" },
+              { label: "Secondary consumers (kJ)", answer: 200, unit: "kJ" },
+            ],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "formula",
+                name: "Energy transfer",
+                statement: "About $10\\%$ of energy passes to the next trophic level; the rest is lost as heat, egestion and excretion.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Primary consumers receive $10\\%$ of producer energy: $0.10 \\times 20\\ 000$.",
+                working: "0.10 \\times 20\\ 000 = 2\\ 000\\ \\text{kJ}",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "Secondary consumers receive $10\\%$ of the primary consumer energy: $0.10 \\times 2\\ 000$.",
+                working: "0.10 \\times 2\\ 000 = 200\\ \\text{kJ}",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "(a) $2000\\ \\text{kJ}$; (b) $200\\ \\text{kJ}$",
+          },
+        },
+        {
+          id: "cipub-u2-evo-q7",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "Distinguish between prezygotic and postzygotic reproductive isolation, giving an example of each.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Reproductive isolation",
+                statement: "Prezygotic barriers prevent fertilisation; postzygotic barriers act after the zygote forms.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Prezygotic isolation prevents mating or fertilisation — e.g. different mating calls, flowering at different times, or gamete incompatibility.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "Postzygotic isolation acts after fertilisation — e.g. hybrid inviability or sterility such as mules being unable to reproduce.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "Before vs after fertilisation barriers.",
+          },
+        },
+        {
+          id: "cipub-u2-evo-q8",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Which organism is a typical pioneer species in primary succession on bare rock?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Oak tree" },
+              { id: "b", text: "Seaweed" },
+              { id: "c", text: "Redwood" },
+              { id: "d", text: "Lichen" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Pioneer species",
+                statement: "The first colonisers of a barren habitat — lichens and mosses can survive on bare rock and begin soil formation.",
+              },
+            ],
+            steps: [{ reasoning: "Lichens tolerate harsh, nutrient-poor conditions and secrete acids that weather rock — classic pioneers.", marks: 1, markCode: "A" }],
+            finalAnswer: "(b) Lichen",
+          },
+        },
+        {
+          id: "cipub-u2-evo-q9",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "A bacterial population of 300 cells doubles every hour. Assuming unlimited resources, calculate the population size after 4 hours.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 4800, unit: "cells" }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "formula",
+                name: "Exponential growth",
+                statement: "$N = N_0 \\times 2^{t}$ for a population that doubles every time unit.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Each hour doubles the population: $N = 300 \\times 2^4$.",
+                working: "300 \\times 2^4 = 300 \\times 16",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "This gives $4800$ cells — exponential (J-shaped) growth with no resource limit.",
+                working: "= 4800",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "4800 cells",
+          },
+        },
+        {
+          id: "cipub-u2-evo-q10",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "Explain how natural selection can produce evolutionary change in a population over many generations.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Natural selection",
+                statement: "Variation → struggle for existence → differential survival and reproduction → change in allele frequencies.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Variation exists within the population because of mutation and meiosis — individuals differ in their alleles.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "Organisms overproduce offspring, so more are born than can survive — creating a struggle for existence.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "Individuals better adapted to the environment survive and reproduce more successfully than less well adapted ones.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "Advantageous alleles are therefore passed on more often and increase in frequency over generations — the population evolves.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "Variation + selection + inheritance → allele frequencies change.",
+          },
+        },
+        {
+          id: "cipub-u2-evo-q11",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Which of the following is a density-dependent factor that can limit population growth?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Frost" },
+              { id: "b", text: "Drought" },
+              { id: "c", text: "Disease" },
+              { id: "d", text: "Flood" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Density-dependent factors",
+                statement: "Factors whose effect intensifies as population density rises — disease, competition, predation.",
+              },
+            ],
+            steps: [{ reasoning: "Disease spreads faster in crowded populations; frost, flood and drought affect populations regardless of density.", marks: 1, markCode: "A" }],
+            finalAnswer: "(a) Disease",
+          },
+        },
+        {
+          id: "cipub-u2-evo-q12",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "The herbivores in an ecosystem contain $900\\ \\text{kJ}$ of energy. Assuming $10\\%$ transfer efficiency, what is the minimum energy the producers must have fixed?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 9000, unit: "kJ" }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "formula",
+                name: "Energy transfer",
+                statement: "Herbivore energy $= 0.10 \\times$ producer energy, so producer energy $= \\frac{\\text{herbivore energy}}{0.10}$.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Work backwards through the transfer: producer energy $= \\frac{900}{0.10}$.",
+                working: "\\frac{900}{0.10}",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "This gives $9000\\ \\text{kJ}$ — ten times the herbivore energy.",
+                working: "= 9000\\ \\text{kJ}",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "$9000\\ \\text{kJ}$",
+          },
+        },
+        {
+          id: "cipub-u2-evo-q13",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "Describe two conservation strategies used to protect biodiversity and explain how each one works.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Conservation",
+                statement: "Strategies reduce threats (habitat loss, overexploitation, pollution) or rebuild populations directly.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Name two valid strategies, e.g. protected areas/reserves and sustainable harvesting or captive breeding.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "Explain the first strategy's mechanism — e.g. reserves exclude exploitation so habitats and populations can recover.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "Explain the second strategy's mechanism — e.g. quotas/CITES limit trade, or captive breeding plus reintroduction rebuilds numbers of endangered species.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "Any two strategies with mechanisms, e.g. reserves + sustainable harvesting.",
+          },
+        },
+        {
+          id: "cipub-u2-evo-q14",
+          difficulty: "challenge",
+          totalMarks: 1,
+          stem: "Which line of evidence most directly demonstrates that two species share a recent common ancestor?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Similar DNA and protein sequences" },
+              { id: "b", text: "Both species living in the same habitat" },
+              { id: "c", text: "Similar body sizes" },
+              { id: "d", text: "Analogous structures with similar functions" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Molecular evidence",
+                statement: "Closely related species share more similar DNA and protein sequences; the degree of similarity tracks evolutionary relatedness.",
+              },
+            ],
+            steps: [{ reasoning: "Molecular similarity is inherited and accumulates predictably — the strongest direct evidence of common descent.", marks: 1, markCode: "A" }],
+            finalAnswer: "(a) Similar DNA and protein sequences",
+          },
+        },
+        {
+          id: "cipub-u2-evo-q15",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Producers fix $60\\ 000\\ \\text{kJ}$ of energy in an ecosystem. How much energy reaches tertiary consumers (the fourth trophic level)?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 60, unit: "kJ" }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "formula",
+                name: "Energy transfer",
+                statement: "Each trophic level receives about $10\\%$ of the energy of the level below it.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Three transfers of $10\\%$ each: $60\\ 000 \\times 0.10^3$.",
+                working: "60\\ 000 \\times 0.001 = 60\\ \\text{kJ}",
+                marks: 1,
+                markCode: "M",
+              },
+            ],
+            finalAnswer: "$60\\ \\text{kJ}$",
+          },
+        },
+        {
+          id: "cipub-u2-evo-q16",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "In logistic population growth, the population size stabilises at the:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Exponential growth phase" },
+              { id: "b", text: "Maximum birth rate" },
+              { id: "c", text: "J-shaped curve asymptote" },
+              { id: "d", text: "Carrying capacity $K$" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Carrying capacity",
+                statement: "$K$ is the maximum population size an environment can sustain; logistic growth produces an S-shaped curve approaching $K$.",
+              },
+            ],
+            steps: [{ reasoning: "As $N$ approaches $K$, resource limits slow growth until births balance deaths — the population stabilises at carrying capacity.", marks: 1, markCode: "A" }],
+            finalAnswer: "(b) Carrying capacity $K$",
           },
         },
       ],

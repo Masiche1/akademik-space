@@ -92,12 +92,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Text A is a personal, emotional account, whereas Text B is a detached, informative feature." },
-              { id: "b", text: "Text A criticises the trek, whereas Text B celebrates it." },
-              { id: "c", text: "Text A is written for local people and Text B is written for tourists." },
+              { id: "a", text: "Text A criticises the trek, whereas Text B celebrates it." },
+              { id: "b", text: "Text A is written for local people and Text B is written for tourists." },
+              { id: "c", text: "Text A is a personal, emotional account, whereas Text B is a detached, informative feature." },
               { id: "d", text: "Both texts are written in the first person." },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "skill", name: "Comparing purpose and voice", statement: "Start comparison from the writer's purpose and voice." }],
@@ -228,12 +228,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Say what the writer feels and support it with a short quotation, explaining what it suggests" },
-              { id: "b", text: "Copy out the most relevant sentence from the text" },
+              { id: "a", text: "Copy out the most relevant sentence from the text" },
+              { id: "b", text: "Retell the events of the extract in order" },
               { id: "c", text: "List every language technique in the extract" },
-              { id: "d", text: "Retell the events of the extract in order" },
+              { id: "d", text: "Say what the writer feels and support it with a short quotation, explaining what it suggests" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "skill", name: "Command words", statement: "Explain requires a point, evidence and development of what the evidence suggests." }],

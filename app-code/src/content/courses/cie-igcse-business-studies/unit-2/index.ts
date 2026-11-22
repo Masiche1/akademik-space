@@ -13,5 +13,13 @@ export const unit2: Unit = {
   title: "External Influences on Business",
   description:
     "Globalisation, ethics/CSR, government influence, small businesses, business failure and economic environment — Cambridge IGCSE Business Studies 0450 Paper 2.",
-  lessons: [lesson261, lesson262, lesson263, lesson264, lesson265, lesson266, lesson267],
+  lessons: [
+    lesson261,
+    lesson262,
+    lesson263,
+    lesson264,
+    lesson265,
+    lesson266,
+    lesson267,
+  ],
 };

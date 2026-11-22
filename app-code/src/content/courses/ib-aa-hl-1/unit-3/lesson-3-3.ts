@@ -50,8 +50,8 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$\\begin{pmatrix} 6 \\\\ -3 \\\\ 1 \\end{pmatrix}$" },
-              { id: "b", text: "$\\begin{pmatrix} -6 \\\\ 3 \\\\ -1 \\end{pmatrix}$" },
-              { id: "c", text: "$\\begin{pmatrix} 0 \\\\ 2 \\\\ 0 \\end{pmatrix}$" },
+              { id: "b", text: "$\\begin{pmatrix} 0 \\\\ 2 \\\\ 0 \\end{pmatrix}$" },
+              { id: "c", text: "$\\begin{pmatrix} -6 \\\\ 3 \\\\ -1 \\end{pmatrix}$" },
               { id: "d", text: "$\\begin{pmatrix} 6 \\\\ 3 \\\\ 1 \\end{pmatrix}$" },
             ],
             correctChoiceId: "a",
@@ -153,8 +153,8 @@ export const lesson33: Lesson = {
             choices: [
               { id: "a", text: "$\\begin{pmatrix} -2 \\\\ 4 \\\\ 3 \\end{pmatrix}$" },
               { id: "b", text: "$\\begin{pmatrix} 2 \\\\ -4 \\\\ -3 \\end{pmatrix}$" },
-              { id: "c", text: "$\\begin{pmatrix} -2 \\\\ -4 \\\\ 3 \\end{pmatrix}$" },
-              { id: "d", text: "$\\begin{pmatrix} 2 \\\\ 4 \\\\ -3 \\end{pmatrix}$" },
+              { id: "c", text: "$\\begin{pmatrix} 2 \\\\ 4 \\\\ -3 \\end{pmatrix}$" },
+              { id: "d", text: "$\\begin{pmatrix} -2 \\\\ -4 \\\\ 3 \\end{pmatrix}$" },
             ],
             correctChoiceId: "a",
           },
@@ -207,9 +207,9 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$\\sqrt{46}$" },
-              { id: "b", text: "$\\sqrt{26}$" },
+              { id: "b", text: "$46$" },
               { id: "c", text: "$\\sqrt{20}$" },
-              { id: "d", text: "$46$" },
+              { id: "d", text: "$\\sqrt{26}$" },
             ],
             correctChoiceId: "a",
           },
@@ -276,12 +276,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\begin{pmatrix} -1 \\\\ -1 \\\\ 1 \\end{pmatrix}$" },
-              { id: "b", text: "$\\begin{pmatrix} 1 \\\\ 1 \\\\ 1 \\end{pmatrix}$" },
+              { id: "a", text: "$\\begin{pmatrix} 0 \\\\ 0 \\\\ 1 \\end{pmatrix}$" },
+              { id: "b", text: "$\\begin{pmatrix} -1 \\\\ -1 \\\\ 1 \\end{pmatrix}$" },
               { id: "c", text: "$\\begin{pmatrix} 1 \\\\ -1 \\\\ 0 \\end{pmatrix}$" },
-              { id: "d", text: "$\\begin{pmatrix} 0 \\\\ 0 \\\\ 1 \\end{pmatrix}$" },
+              { id: "d", text: "$\\begin{pmatrix} 1 \\\\ 1 \\\\ 1 \\end{pmatrix}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -358,12 +358,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "parallel" },
-              { id: "b", text: "perpendicular" },
-              { id: "c", text: "equal in length" },
+              { id: "a", text: "perpendicular" },
+              { id: "b", text: "equal in length" },
+              { id: "c", text: "parallel" },
               { id: "d", text: "both the zero vector" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -437,12 +437,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$15$" },
+              { id: "a", text: "$\\sqrt{34}$" },
               { id: "b", text: "$2$" },
-              { id: "c", text: "$\\sqrt{34}$" },
-              { id: "d", text: "$8$" },
+              { id: "c", text: "$8$" },
+              { id: "d", text: "$15$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -494,8 +494,8 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$x+3y-2z=-9$" },
-              { id: "b", text: "$x+3y-2z=9$" },
-              { id: "c", text: "$2x-y+4z=-9$" },
+              { id: "b", text: "$2x-y+4z=-9$" },
+              { id: "c", text: "$x+3y-2z=9$" },
               { id: "d", text: "$x+3y-2z=5$" },
             ],
             correctChoiceId: "a",
@@ -603,12 +603,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$2x+y-3z=8$" },
-              { id: "b", text: "$2x+y-3z=-8$" },
-              { id: "c", text: "$x-2z=5$" },
-              { id: "d", text: "$2x+y-3z=6$" },
+              { id: "a", text: "$x-2z=5$" },
+              { id: "b", text: "$2x+y-3z=8$" },
+              { id: "c", text: "$2x+y-3z=6$" },
+              { id: "d", text: "$2x+y-3z=-8$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -650,12 +650,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$60^\\circ$" },
-              { id: "b", text: "$30^\\circ$" },
-              { id: "c", text: "$45^\\circ$" },
-              { id: "d", text: "$90^\\circ$" },
+              { id: "a", text: "$45^\\circ$" },
+              { id: "b", text: "$90^\\circ$" },
+              { id: "c", text: "$60^\\circ$" },
+              { id: "d", text: "$30^\\circ$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -728,12 +728,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\boldsymbol{r}=\\begin{pmatrix} 1 \\\\ 2 \\\\ 0 \\end{pmatrix}+\\lambda\\begin{pmatrix} 1 \\\\ 0 \\\\ 1 \\end{pmatrix}+\\mu\\begin{pmatrix} 0 \\\\ 1 \\\\ -1 \\end{pmatrix}$" },
-              { id: "b", text: "$\\boldsymbol{r}=\\begin{pmatrix} 1 \\\\ 2 \\\\ 0 \\end{pmatrix}+\\lambda\\begin{pmatrix} 1 \\\\ 1 \\\\ -1 \\end{pmatrix}+\\mu\\begin{pmatrix} 0 \\\\ 1 \\\\ -1 \\end{pmatrix}$" },
-              { id: "c", text: "$\\boldsymbol{r}=\\begin{pmatrix} 0 \\\\ 0 \\\\ 0 \\end{pmatrix}+\\lambda\\begin{pmatrix} 1 \\\\ 0 \\\\ 1 \\end{pmatrix}+\\mu\\begin{pmatrix} 0 \\\\ 1 \\\\ -1 \\end{pmatrix}$" },
+              { id: "a", text: "$\\boldsymbol{r}=\\begin{pmatrix} 0 \\\\ 0 \\\\ 0 \\end{pmatrix}+\\lambda\\begin{pmatrix} 1 \\\\ 0 \\\\ 1 \\end{pmatrix}+\\mu\\begin{pmatrix} 0 \\\\ 1 \\\\ -1 \\end{pmatrix}$" },
+              { id: "b", text: "$\\boldsymbol{r}=\\begin{pmatrix} 1 \\\\ 2 \\\\ 0 \\end{pmatrix}+\\lambda\\begin{pmatrix} 1 \\\\ 0 \\\\ 1 \\end{pmatrix}+\\mu\\begin{pmatrix} 0 \\\\ 1 \\\\ -1 \\end{pmatrix}$" },
+              { id: "c", text: "$\\boldsymbol{r}=\\begin{pmatrix} 1 \\\\ 2 \\\\ 0 \\end{pmatrix}+\\lambda\\begin{pmatrix} 1 \\\\ 1 \\\\ -1 \\end{pmatrix}+\\mu\\begin{pmatrix} 0 \\\\ 1 \\\\ -1 \\end{pmatrix}$" },
               { id: "d", text: "$\\boldsymbol{r}=\\begin{pmatrix} 1 \\\\ 2 \\\\ 0 \\end{pmatrix}+\\lambda\\begin{pmatrix} 1 \\\\ 1 \\\\ 1 \\end{pmatrix}+\\mu\\begin{pmatrix} 0 \\\\ 1 \\\\ -1 \\end{pmatrix}$" },
           ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -787,12 +787,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "parallel (scalar multiples of each other)" },
-              { id: "b", text: "perpendicular" },
-              { id: "c", text: "equal in length" },
+              { id: "a", text: "perpendicular" },
+              { id: "b", text: "equal in length" },
+              { id: "c", text: "parallel (scalar multiples of each other)" },
               { id: "d", text: "both the zero vector" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -848,12 +848,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$x-y+z=2$" },
+              { id: "a", text: "$x-y+z=0$" },
               { id: "b", text: "$x-y+z=6$" },
-              { id: "c", text: "$x+y+z=6$" },
-              { id: "d", text: "$x-y+z=0$" },
+              { id: "c", text: "$x-y+z=2$" },
+              { id: "d", text: "$x+y+z=6$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

@@ -68,12 +68,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "That he is carefully and quietly moving, perhaps out of fear" },
-              { id: "b", text: "That he is in a hurry to escape" },
-              { id: "c", text: "That he is bored and tired" },
+              { id: "a", text: "That he is in a hurry to escape" },
+              { id: "b", text: "That he is bored and tired" },
+              { id: "c", text: "That he is carefully and quietly moving, perhaps out of fear" },
               { id: "d", text: "That he is angry with the storm" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Connotation", statement: "'Crept' connotes stealth, caution and fear." }],
@@ -192,12 +192,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Simile" },
-              { id: "b", text: "Metaphor" },
-              { id: "c", text: "Personification" },
-              { id: "d", text: "Alliteration" },
+              { id: "a", text: "Personification" },
+              { id: "b", text: "Alliteration" },
+              { id: "c", text: "Simile" },
+              { id: "d", text: "Metaphor" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Metaphor", statement: "States that one thing is another, without 'like' or 'as'." }],
@@ -215,12 +215,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "They are gentle, calm and slow-moving" },
-              { id: "b", text: "They are about to be damaged by the sea" },
-              { id: "c", text: "They are huge and powerful" },
+              { id: "a", text: "They are about to be damaged by the sea" },
+              { id: "b", text: "They are huge and powerful" },
+              { id: "c", text: "They are gentle, calm and slow-moving" },
               { id: "d", text: "They are noisy and crowded together" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Simile", statement: "A simile transfers the qualities of one thing to another." }],

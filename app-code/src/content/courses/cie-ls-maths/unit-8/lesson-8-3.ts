@@ -51,12 +51,12 @@ export const lesson83: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\frac{1}{6}$" },
-              { id: "b", text: "$\\frac{1}{3}$" },
+              { id: "a", text: "$\\frac{1}{3}$" },
+              { id: "b", text: "$\\frac{1}{6}$" },
               { id: "c", text: "$6$" },
               { id: "d", text: "$\\frac{1}{12}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -148,6 +148,288 @@ export const lesson83: Lesson = {
             commonErrors: ["In (d) adding probabilities — independent events multiply."],
           },
         },
+        {
+          id: "cilm-u8-prob-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "What is the probability of rolling an EVEN number on a fair die?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$\\frac{2}{3}$" },
+              { id: "b", text: "$\\frac{1}{3}$" },
+              { id: "c", text: "$\\frac{1}{2}$" },
+              { id: "d", text: "$\\frac{1}{6}$" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              { kind: "convention", name: "Probability", statement: "Even numbers $2,4,6$ → $3$ of $6$ → $\\frac{1}{2}$." },
+            ],
+            steps: [
+              { reasoning: "Three even faces out of six → $\\frac{3}{6}=\\frac{1}{2}$.", working: "3/6", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(b)** $\\frac{1}{2}$",
+            commonErrors: ["Choosing (a) — that's one face, not three."],
+          },
+        },
+        {
+          id: "cilm-u8-prob-q6",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "A bag has $5$ red and $5$ blue counters. Find $P(\\text{red})$.",
+          response: { type: "numeric", parts: [{ label: "probability", answer: 0.5 }] },
+          markscheme: {
+            principles: [
+              { kind: "convention", name: "Probability", statement: "$P(\\text{red}) = \\frac{5}{10} = \\frac{1}{2} = 0.5$." },
+            ],
+            steps: [
+              { reasoning: "$\\frac{5}{10} = 0.5$.", working: "0.5", marks: 1, markCode: "M" },
+            ],
+            finalAnswer: "$0.5$",
+            commonErrors: ["$\\frac{5}{5}$ — denominator is total counters."],
+          },
+        },
+        {
+          id: "cilm-u8-prob-q7",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "A spinner has 10 equal sections numbered $1$–$10$. Find $P(\\text{a number greater than } 7)$ as a fraction.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "convention", name: "Probability", statement: "Numbers $8,9,10$ → $3$ of $10$ → $\\frac{3}{10}$." },
+            ],
+            steps: [
+              { reasoning: "Favourable: $8, 9, 10$ — three outcomes.", working: "8,9,10", marks: 1, markCode: "M" },
+              { reasoning: "$P = \\frac{3}{10}$.", working: "3/10", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$\\frac{3}{10}$",
+            commonErrors: ["Including 7 — 'greater than 7' excludes 7."],
+          },
+        },
+        {
+          id: "cilm-u8-prob-q8",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Which of these is IMPOSSIBLE?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Rolling a 6 on a fair die" },
+              { id: "b", text: "Rolling a 7 on a fair die" },
+              { id: "c", text: "A coin landing heads" },
+              { id: "d", text: "Rolling a 5 on a fair die" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              { kind: "convention", name: "Impossible event", statement: "$P = 0$ — cannot happen." },
+            ],
+            steps: [
+              { reasoning: "A die has faces 1–6; 7 cannot occur → impossible.", working: "7\\text{ impossible}", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** Rolling a 7 on a fair die",
+            commonErrors: ["Confusing unlikely with impossible."],
+          },
+        },
+        {
+          id: "cilm-u8-prob-q9",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "A bag contains only red counters. If one is drawn at random, the probability it is red is...",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$0$" },
+              { id: "b", text: "Cannot be found" },
+              { id: "c", text: "$1$" },
+              { id: "d", text: "$\\frac{1}{2}$" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              { kind: "convention", name: "Certain event", statement: "All outcomes red → $P(\\text{red}) = 1$." },
+            ],
+            steps: [
+              { reasoning: "Every counter is red → certain → $P = 1$.", working: "1", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(c)** $1$",
+            commonErrors: ["Choosing (a) — 0 is for impossible events."],
+          },
+        },
+        {
+          id: "cilm-u8-prob-q10",
+          difficulty: "challenge",
+          totalMarks: 3,
+          stem: "A fair die is rolled once. Find $P(\\text{a prime number})$, giving your answer as a fraction.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Counting outcomes", statement: "Primes on die: $2,3,5$ → $\\frac{3}{6}=\\frac{1}{2}$." },
+            ],
+            steps: [
+              { reasoning: "Prime faces: $2, 3, 5$ (note: 1 is not prime).", working: "2,3,5", marks: 1, markCode: "M" },
+              { reasoning: "$P = \\frac{3}{6}$.", working: "3/6", marks: 1, markCode: "M" },
+              { reasoning: "$\\frac{1}{2}$.", working: "1/2", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$\\frac{1}{2}$",
+            commonErrors: ["Including 1 as prime → $\\frac{4}{6}$."],
+          },
+        },
+        {
+          id: "cilm-u8-prob-q11",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "The probability of an event is always between...",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$0$ and $1$" },
+              { id: "b", text: "$-1$ and $1$" },
+              { id: "c", text: "$0$ and $100$" },
+              { id: "d", text: "$1$ and $10$" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              { kind: "convention", name: "Probability range", statement: "$0 \\le P \\le 1$." },
+            ],
+            steps: [
+              { reasoning: "Probabilities lie between 0 and 1 inclusive.", working: "0\\le P\\le1", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(b)** $0$ and $1$",
+            commonErrors: ["Thinking probabilities can exceed 1."],
+          },
+        },
+        {
+          id: "cilm-u8-prob-q12",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "A spinner lands on blue with probability $\\frac{2}{5}$. What is the probability it does NOT land on blue?",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Complement", statement: "$P(\\text{not blue}) = 1 - \\frac{2}{5} = \\frac{3}{5}$." },
+            ],
+            steps: [
+              { reasoning: "$1 - \\frac{2}{5} = \\frac{3}{5}$.", working: "3/5", marks: 1, markCode: "M" },
+              { reasoning: "$\\frac{3}{5}$.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$\\frac{3}{5}$",
+            commonErrors: ["Answering $\\frac{2}{5}$ again — 'not' means complement."],
+          },
+        },
+        {
+          id: "cilm-u8-prob-q13",
+          difficulty: "challenge",
+          totalMarks: 1,
+          stem: "Two coins are tossed. The outcomes HT and TH are...",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Different outcomes" },
+              { id: "b", text: "Equally likely as HH" },
+              { id: "c", text: "The same outcome" },
+              { id: "d", text: "Impossible outcomes" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              { kind: "convention", name: "Sample space", statement: "Order matters: HT ≠ TH — they are distinct outcomes." },
+            ],
+            steps: [
+              { reasoning: "HT and TH are different ordered outcomes.", working: "distinct", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(b)** Different outcomes",
+            commonErrors: ["Merging HT and TH as one outcome."],
+          },
+        },
+        {
+          id: "cilm-u8-prob-q14",
+          difficulty: "challenge",
+          totalMarks: 6,
+          stem: "A bag contains $4$ red, $6$ blue counters. One counter is drawn at random.",
+          parts: [
+            { label: "a", prompt: "Find $P(\\text{red})$.", marks: 2 },
+            { label: "b", prompt: "Find $P(\\text{blue})$.", marks: 2 },
+            { label: "c", prompt: "Find $P(\\text{red or blue})$ and explain your answer.", marks: 2 },
+          ],
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Probability", statement: "$P = \\frac{favourable}{total}$; probabilities sum to 1." },
+            ],
+            steps: [
+              { part: "a", reasoning: "$P(\\text{red}) = \\frac{4}{10} = \\frac{2}{5}$.", working: "2/5", marks: 1, markCode: "M" },
+              { part: "a", reasoning: "Correct.", marks: 1, markCode: "A" },
+              { part: "b", reasoning: "$P(\\text{blue}) = \\frac{6}{10} = \\frac{3}{5}$.", working: "3/5", marks: 1, markCode: "M" },
+              { part: "b", reasoning: "Correct.", marks: 1, markCode: "A" },
+              { part: "c", reasoning: "Every counter is red or blue → $P = 1$ (certain).", working: "1", marks: 1, markCode: "M" },
+              { part: "c", reasoning: "Explanation correct.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "(a) $\\frac{2}{5}$ (b) $\\frac{3}{5}$ (c) $1$ — certain event",
+            levels: [
+              { level: "Level 2", marks: "1-2", descriptor: "Correct.", part: "a" },
+              { level: "Level 1", marks: "0", descriptor: "Wrong.", part: "a" },
+              { level: "Level 2", marks: "1-2", descriptor: "Correct.", part: "b" },
+              { level: "Level 1", marks: "0", descriptor: "Wrong.", part: "b" },
+              { level: "Level 2", marks: "1-2", descriptor: "Correct.", part: "c" },
+              { level: "Level 1", marks: "0", descriptor: "Missing.", part: "c" },
+            ],
+            commonErrors: ["In (c) adding $\\frac{2}{5}+\\frac{3}{5}$ and stopping at unsimplified or doubting it equals 1."],
+          },
+        },
+        {
+          id: "cilm-u8-prob-q15",
+          difficulty: "challenge",
+          totalMarks: 1,
+          stem: "A biased coin has $P(\\text{heads}) = 0.7$. What is $P(\\text{tails})$?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$0.7$" },
+              { id: "b", text: "$1.7$" },
+              { id: "c", text: "$0.3$" },
+              { id: "d", text: "$0.5$" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Complement", statement: "$P(\\text{tails}) = 1 - 0.7 = 0.3$." },
+            ],
+            steps: [
+              { reasoning: "$1 - 0.7 = 0.3$.", working: "0.3", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(b)** $0.3$",
+            commonErrors: ["Assuming fair coin $0.5$ — coin is biased."],
+          },
+        },
+        {
+          id: "cilm-u8-prob-q16",
+          difficulty: "challenge",
+          totalMarks: 3,
+          stem: "A number cube (die) has faces numbered $1$–$6$. Find $P(\\text{a number less than } 4)$, giving your answer as a decimal.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "convention", name: "Probability", statement: "Numbers $1,2,3$ → $\\frac{3}{6} = 0.5$." },
+            ],
+            steps: [
+              { reasoning: "Favourable: $1, 2, 3$ — three of six.", working: "3/6", marks: 1, markCode: "M" },
+              { reasoning: "$\\frac{3}{6} = 0.5$.", working: "0.5", marks: 1, markCode: "M" },
+              { reasoning: "$0.5$.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$0.5$",
+            commonErrors: ["Including 4 — 'less than 4' excludes 4."],
+          },
+        },
       ],
     },
     {
@@ -186,12 +468,12 @@ export const lesson83: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$10$" },
+              { id: "a", text: "$60$" },
               { id: "b", text: "$6$" },
-              { id: "c", text: "$60$" },
-              { id: "d", text: "$15$" },
+              { id: "c", text: "$15$" },
+              { id: "d", text: "$10$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -281,6 +563,279 @@ export const lesson83: Lesson = {
               { level: "Level 2", marks: "1", descriptor: "Partial.", part: "d" },
             ],
             commonErrors: ["In (d) saying 'the die is biased' without evidence — variation is expected."],
+          },
+        },
+        {
+          id: "cilm-u8-exp-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "A coin is tossed $80$ times. What is the expected number of heads?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$10$" },
+              { id: "b", text: "$40$" },
+              { id: "c", text: "$80$" },
+              { id: "d", text: "$20$" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              { kind: "convention", name: "Expectation", statement: "$E = 80 \\times 0.5 = 40$." },
+            ],
+            steps: [
+              { reasoning: "$80 \\times \\frac{1}{2} = 40$ heads.", working: "80\\times0.5=40", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** $40$",
+            commonErrors: ["Choosing (b) — that's all tosses, not expected heads."],
+          },
+        },
+        {
+          id: "cilm-u8-exp-q6",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "A spinner has $P(\\text{win}) = \\frac{1}{4}$. In $200$ spins, what is the expected number of wins?",
+          response: { type: "numeric", parts: [{ label: "expected wins", answer: 50 }] },
+          markscheme: {
+            principles: [
+              { kind: "convention", name: "Expectation", statement: "$E = \\frac{1}{4} \\times 200 = 50$." },
+            ],
+            steps: [
+              { reasoning: "$\\frac{1}{4} \\times 200 = 50$.", working: "50", marks: 1, markCode: "M" },
+            ],
+            finalAnswer: "$50$",
+            commonErrors: ["$200$ — forgot to multiply by probability."],
+          },
+        },
+        {
+          id: "cilm-u8-exp-q7",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "A die is rolled $90$ times. Find the expected number of times a $6$ appears.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "convention", name: "Expectation", statement: "$E = 90 \\times \\frac{1}{6} = 15$." },
+            ],
+            steps: [
+              { reasoning: "$90 \\times \\frac{1}{6} = 15$.", working: "15", marks: 1, markCode: "M" },
+              { reasoning: "$15$ sixes expected.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$15$",
+            commonErrors: ["$6$ — confused probability with count."],
+          },
+        },
+        {
+          id: "cilm-u8-exp-q8",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Experimental probability is calculated as...",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$1$ always" },
+              { id: "b", text: "$\\frac{\\text{total trials}}{\\text{times event occurred}}$" },
+              { id: "c", text: "$\\frac{\\text{times event occurred}}{\\text{total trials}}$" },
+              { id: "d", text: "$\\frac{\\text{favourable}}{\\text{total}}$ only" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              { kind: "definition", name: "Experimental probability", statement: "$P_{exp} = \\frac{\\text{occurrences}}{\\text{trials}}$." },
+            ],
+            steps: [
+              { reasoning: "Occurrences over trials.", working: "occ/trials", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(b)** $\\frac{\\text{times event occurred}}{\\text{total trials}}$",
+            commonErrors: ["Inverting the fraction."],
+          },
+        },
+        {
+          id: "cilm-u8-exp-q9",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "A biased coin has $P(\\text{heads}) = 0.6$ and is tossed $150$ times. What is the expected number of tails?",
+          response: { type: "numeric", parts: [{ label: "expected tails", answer: 60 }] },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Expectation", statement: "$P(\\text{tails}) = 0.4$; $E = 150 \\times 0.4 = 60$." },
+            ],
+            steps: [
+              { reasoning: "Tails probability $= 1 - 0.6 = 0.4$; $150 \\times 0.4 = 60$.", working: "60", marks: 1, markCode: "M" },
+            ],
+            finalAnswer: "$60$",
+            commonErrors: ["Using $0.6$ for tails — probabilities must sum to 1."],
+          },
+        },
+        {
+          id: "cilm-u8-exp-q10",
+          difficulty: "challenge",
+          totalMarks: 3,
+          stem: "A biased die has $P(6) = \\frac{1}{3}$. It is rolled $120$ times. Find the expected number of sixes and the expected number of non-sixes.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Expectation", statement: "Sixes: $120\\times\\frac{1}{3}=40$; non-sixes: $120\\times\\frac{2}{3}=80$." },
+            ],
+            steps: [
+              { reasoning: "Sixes: $120 \\times \\frac{1}{3} = 40$.", working: "40", marks: 1, markCode: "M" },
+              { reasoning: "Non-sixes: $120 \\times \\frac{2}{3} = 80$ (or $120-40$).", working: "80", marks: 1, markCode: "M" },
+              { reasoning: "$40$ sixes, $80$ non-sixes.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$40$ sixes, $80$ non-sixes",
+            commonErrors: ["Using $\\frac{1}{6}$ for a biased die — use given probability."],
+          },
+        },
+        {
+          id: "cilm-u8-exp-q11",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "As the number of trials increases, experimental probability tends to...",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Get closer to theoretical probability" },
+              { id: "b", text: "Stay exactly constant" },
+              { id: "c", text: "Move away from theoretical probability" },
+              { id: "d", text: "Become impossible" },
+            ],
+            aorrectChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              { kind: "convention", name: "Law of large numbers", statement: "More trials → experimental results approach theoretical value." },
+            ],
+            steps: [
+              { reasoning: "Large samples converge to theory.", working: "converge", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(c)** Get closer to theoretical probability",
+            commonErrors: ["Thinking small samples are more reliable."],
+          },
+        },
+        {
+          id: "cilm-u8-exp-q12",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "A coin lands heads $31$ times in $60$ tosses. Find the experimental probability of heads.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "convention", name: "Experimental probability", statement: "$P_{exp} = \\frac{31}{60} \\approx 0.517$." },
+            ],
+            steps: [
+              { reasoning: "$\\frac{31}{60} \\approx 0.517$ (or leave as fraction).", working: "31/60", marks: 1, markCode: "M" },
+              { reasoning: "$P_{exp} \\approx 0.52$.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$\\frac{31}{60} \\approx 0.52$",
+            commonErrors: ["$\\frac{60}{31}$ — inverted fraction."],
+          },
+        },
+        {
+          id: "cilm-u8-exp-q13",
+          difficulty: "challenge",
+          totalMarks: 1,
+          stem: "A die is rolled $600$ times. What is the expected number of times a $3$ appears?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$600$" },
+              { id: "b", text: "$50$" },
+              { id: "c", text: "$100$" },
+              { id: "d", text: "$6$" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              { kind: "convention", name: "Expectation", statement: "$E = 600 \\times \\frac{1}{6} = 100$." },
+            ],
+            steps: [
+              { reasoning: "$600 \\times \\frac{1}{6} = 100$.", working: "100", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(b)** $100$",
+            commonErrors: ["Choosing (a) — used wrong fraction."],
+          },
+        },
+        {
+          id: "cilm-u8-exp-q14",
+          difficulty: "challenge",
+          totalMarks: 6,
+          stem: "A bag has $3$ red and $7$ blue counters. One is drawn, recorded, then replaced. This is repeated $200$ times.",
+          parts: [
+            { label: "a", prompt: "Find $P(\\text{red})$ for a single draw.", marks: 2 },
+            { label: "b", prompt: "Find the expected number of red draws in $200$ trials.", marks: 2 },
+            { label: "c", prompt: "If $72$ red draws are recorded, find the experimental probability of red.", marks: 2 },
+          ],
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Theoretical vs experimental", statement: "$P=\\frac{3}{10}$; $E=60$; experimental $=\\frac{72}{200}=0.36$." },
+            ],
+            steps: [
+              { part: "a", reasoning: "$P(\\text{red}) = \\frac{3}{10}$.", working: "3/10", marks: 1, markCode: "M" },
+              { part: "a", reasoning: "Correct.", marks: 1, markCode: "A" },
+              { part: "b", reasoning: "$E = 200 \\times \\frac{3}{10} = 60$.", working: "60", marks: 1, markCode: "M" },
+              { part: "b", reasoning: "Correct.", marks: 1, markCode: "A" },
+              { part: "c", reasoning: "$P_{exp} = \\frac{72}{200} = 0.36$.", working: "0.36", marks: 1, markCode: "M" },
+              { part: "c", reasoning: "Correct.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "(a) $\\frac{3}{10}$ (b) $60$ (c) $0.36$",
+            levels: [
+              { level: "Level 2", marks: "1-2", descriptor: "Correct.", part: "a" },
+              { level: "Level 1", marks: "0", descriptor: "Wrong.", part: "a" },
+              { level: "Level 2", marks: "1-2", descriptor: "Correct.", part: "b" },
+              { level: "Level 1", marks: "0", descriptor: "Wrong.", part: "b" },
+              { level: "Level 2", marks: "1-2", descriptor: "Correct.", part: "c" },
+              { level: "Level 1", marks: "0", descriptor: "Wrong.", part: "c" },
+            ],
+            commonErrors: ["In (b) multiplying by $72$ instead of theoretical probability."],
+          },
+        },
+        {
+          id: "cilm-u8-exp-q15",
+          difficulty: "challenge",
+          totalMarks: 1,
+          stem: "In $500$ tosses of a coin, heads appeared $255$ times. The experimental probability of heads is closest to...",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$1.02$" },
+              { id: "b", text: "$0.75$" },
+              { id: "c", text: "$0.25$" },
+              { id: "d", text: "$0.51$" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              { kind: "convention", name: "Experimental probability", statement: "$\\frac{255}{500} = 0.51$." },
+            ],
+            steps: [
+              { reasoning: "$255 \\div 500 = 0.51$ — close to theoretical $0.5$.", working: "0.51", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(b)** $0.51$",
+            commonErrors: ["Choosing (d) — probability cannot exceed 1."],
+          },
+        },
+        {
+          id: "cilm-u8-exp-q16",
+          difficulty: "challenge",
+          totalMarks: 3,
+          stem: "Explain why experimental probability might NOT equal theoretical probability, even for a fair coin.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Random variation", statement: "Finite trials → random fluctuation around theoretical value." },
+            ],
+            steps: [
+              { reasoning: "Random chance means actual results vary from expected in any finite number of trials.", working: "variation", marks: 1, markCode: "M" },
+              { reasoning: "Small samples show bigger deviations; only large samples converge.", working: "sample size", marks: 1, markCode: "M" },
+              { reasoning: "Clear explanation.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "Random variation in finite trials; small samples deviate more; results approach theory only with many trials.",
+            commonErrors: ["Claiming the coin is biased — deviation is expected by chance."],
           },
         },
       ],

@@ -56,12 +56,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$4.56\\times10^{-4}$" },
+              { id: "a", text: "$4.56\\times10^{4}$" },
               { id: "b", text: "$4.56\\times10^{-3}$" },
-              { id: "c", text: "$45.6\\times10^{-5}$" },
-              { id: "d", text: "$4.56\\times10^{4}$" },
+              { id: "c", text: "$4.56\\times10^{-4}$" },
+              { id: "d", text: "$45.6\\times10^{-5}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -83,12 +83,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$1.5\\times10^3$" },
-              { id: "b", text: "$1.5\\times10^2$" },
-              { id: "c", text: "$15\\times10^2$" },
-              { id: "d", text: "$1.5\\times10^6$" },
+              { id: "a", text: "$1.5\\times10^2$" },
+              { id: "b", text: "$1.5\\times10^6$" },
+              { id: "c", text: "$1.5\\times10^3$" },
+              { id: "d", text: "$15\\times10^2$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -111,12 +111,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$2\\times10^4$" },
-              { id: "b", text: "$2\\times10^{10}$" },
-              { id: "c", text: "$4\\times10^4$" },
-              { id: "d", text: "$2\\times10^3$" },
+              { id: "a", text: "$4\\times10^4$" },
+              { id: "b", text: "$2\\times10^3$" },
+              { id: "c", text: "$2\\times10^4$" },
+              { id: "d", text: "$2\\times10^{10}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -170,12 +170,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$5.2\\times10^3$" },
-              { id: "b", text: "$5.2\\times10^4$" },
-              { id: "c", text: "$52\\times10^3$" },
+              { id: "a", text: "$52\\times10^3$" },
+              { id: "b", text: "$5.2\\times10^3$" },
+              { id: "c", text: "$5.2\\times10^4$" },
               { id: "d", text: "$0.52\\times10^5$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -218,12 +218,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$8\\times10^8$" },
-              { id: "b", text: "$8\\times10^{15}$" },
-              { id: "c", text: "$6\\times10^8$" },
-              { id: "d", text: "$8\\times10^2$" },
+              { id: "a", text: "$8\\times10^{15}$" },
+              { id: "b", text: "$8\\times10^2$" },
+              { id: "c", text: "$8\\times10^8$" },
+              { id: "d", text: "$6\\times10^8$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -268,12 +268,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$8\\times10^7$" },
-              { id: "b", text: "$3.5\\times10^4$" },
-              { id: "c", text: "$8\\times10^3$" },
-              { id: "d", text: "$35\\times10^3$" },
+              { id: "a", text: "$8\\times10^3$" },
+              { id: "b", text: "$35\\times10^3$" },
+              { id: "c", text: "$3.5\\times10^4$" },
+              { id: "d", text: "$8\\times10^7$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -435,12 +435,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$3\\times10^4$" },
-              { id: "b", text: "$9\\times10^3$" },
-              { id: "c", text: "$2.5\\times10^5$" },
+              { id: "a", text: "$2.5\\times10^5$" },
+              { id: "b", text: "$3\\times10^4$" },
+              { id: "c", text: "$9\\times10^3$" },
               { id: "d", text: "$7\\times10^4$" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -497,12 +497,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "35" },
-              { id: "b", text: "21" },
-              { id: "c", text: "45" },
-              { id: "d", text: "105" },
+              { id: "a", text: "45" },
+              { id: "b", text: "35" },
+              { id: "c", text: "105" },
+              { id: "d", text: "21" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -525,9 +525,9 @@ export const lesson13: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "1.5 hours" },
-              { id: "b", text: "2.67 hours" },
-              { id: "c", text: "1 hour" },
-              { id: "d", text: "2.4 hours" },
+              { id: "b", text: "2.4 hours" },
+              { id: "c", text: "2.67 hours" },
+              { id: "d", text: "1 hour" },
             ],
             correctChoiceId: "a",
           },
@@ -552,12 +552,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "28 litres" },
-              { id: "b", text: "24 litres" },
-              { id: "c", text: "32 litres" },
-              { id: "d", text: "30 litres" },
+              { id: "a", text: "24 litres" },
+              { id: "b", text: "30 litres" },
+              { id: "c", text: "28 litres" },
+              { id: "d", text: "32 litres" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -612,12 +612,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "16" },
-              { id: "b", text: "20" },
-              { id: "c", text: "13" },
-              { id: "d", text: "40" },
+              { id: "a", text: "13" },
+              { id: "b", text: "40" },
+              { id: "c", text: "20" },
+              { id: "d", text: "16" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -660,12 +660,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "25 days" },
-              { id: "b", text: "4 days" },
-              { id: "c", text: "6 days" },
+              { id: "a", text: "4 days" },
+              { id: "b", text: "6 days" },
+              { id: "c", text: "25 days" },
               { id: "d", text: "40 days" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -710,12 +710,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "8 g/cm$^3$" },
-              { id: "b", text: "7.2 g/cm$^3$" },
-              { id: "c", text: "0.125 g/cm$^3$" },
-              { id: "d", text: "7200 g/cm$^3$" },
+              { id: "a", text: "7.2 g/cm$^3$" },
+              { id: "b", text: "0.125 g/cm$^3$" },
+              { id: "c", text: "7200 g/cm$^3$" },
+              { id: "d", text: "8 g/cm$^3$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -877,10 +877,10 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$y$ doubles when $x$ doubles" },
+              { id: "a", text: "$y$ quadruples when $x$ doubles" },
               { id: "b", text: "$y$ halves when $x$ doubles" },
-              { id: "c", text: "$y$ stays constant" },
-              { id: "d", text: "$y$ quadruples when $x$ doubles" },
+              { id: "c", text: "$y$ doubles when $x$ doubles" },
+              { id: "d", text: "$y$ stays constant" },
             ],
             correctChoiceId: "b",
           },

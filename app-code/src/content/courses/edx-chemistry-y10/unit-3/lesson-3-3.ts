@@ -55,12 +55,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Sodium sulfide" },
-              { id: "b", text: "Sodium sulfate" },
-              { id: "c", text: "Sodium chloride" },
-              { id: "d", text: "Sodium nitrate" },
+              { id: "a", text: "Sodium sulfate" },
+              { id: "b", text: "Sodium sulfide" },
+              { id: "c", text: "Sodium nitrate" },
+              { id: "d", text: "Sodium chloride" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -194,8 +194,8 @@ export const lesson33: Lesson = {
             choices: [
               { id: "a", text: "A glowing splint relights" },
               { id: "b", text: "A lit splint gives a squeaky pop" },
-              { id: "c", text: "Limewater turns cloudy" },
-              { id: "d", text: "Damp litmus paper is bleached" },
+              { id: "c", text: "Damp litmus paper is bleached" },
+              { id: "d", text: "Limewater turns cloudy" },
             ],
             correctChoiceId: "b",
           },

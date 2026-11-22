@@ -52,9 +52,9 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Working alone efficiently" },
+              { id: "a", text: "Competing with others" },
               { id: "b", text: "Working together toward shared goals" },
-              { id: "c", text: "Competing with others" },
+              { id: "c", text: "Working alone efficiently" },
               { id: "d", text: "Delegating all work" },
             ],
             correctChoiceId: "b",
@@ -147,9 +147,9 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Competing with teammates" },
+              { id: "a", text: "Working alone" },
               { id: "b", text: "Communication and fair task-sharing" },
-              { id: "c", text: "Working alone" },
+              { id: "c", text: "Competing with teammates" },
               { id: "d", text: "Avoiding all conflict" },
             ],
             correctChoiceId: "b",
@@ -174,12 +174,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Directing from above" },
-              { id: "b", text: "Working with the community, not imposing solutions" },
+              { id: "a", text: "Working with the community, not imposing solutions" },
+              { id: "b", text: "Observing only" },
               { id: "c", text: "Giving orders" },
-              { id: "d", text: "Observing only" },
+              { id: "d", text: "Directing from above" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -201,12 +201,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Ignoring disagreements" },
-              { id: "b", text: "Listening and finding compromises" },
-              { id: "c", text: "Blaming others" },
-              { id: "d", text: "Leaving the team" },
+              { id: "a", text: "Leaving the team" },
+              { id: "b", text: "Ignoring disagreements" },
+              { id: "c", text: "Listening and finding compromises" },
+              { id: "d", text: "Blaming others" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -228,12 +228,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "One person does everything" },
-              { id: "b", text: "Distributing work according to abilities and availability" },
-              { id: "c", text: "Avoiding all tasks" },
-              { id: "d", text: "Copying others' roles" },
+              { id: "a", text: "Copying others' roles" },
+              { id: "b", text: "Avoiding all tasks" },
+              { id: "c", text: "One person does everything" },
+              { id: "d", text: "Distributing work according to abilities and availability" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -255,12 +255,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Slows the project" },
-              { id: "b", text: "Builds trust and improves outcomes" },
-              { id: "c", text: "Is unnecessary" },
-              { id: "d", text: "Avoids communication" },
+              { id: "a", text: "Builds trust and improves outcomes" },
+              { id: "b", text: "Slows the project" },
+              { id: "c", text: "Avoids communication" },
+              { id: "d", text: "Is unnecessary" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -282,12 +282,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It does not" },
-              { id: "b", text: "It involves working with the community served, respecting their dignity" },
+              { id: "a", text: "It involves working with the community served, respecting their dignity" },
+              { id: "b", text: "It does not" },
               { id: "c", text: "Only creativity needs teamwork" },
               { id: "d", text: "It is always solo" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -496,12 +496,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Following instructions" },
-              { id: "b", text: "Proposing and leading activities" },
-              { id: "c", text: "Waiting to be asked" },
-              { id: "d", text: "Only participating" },
+              { id: "a", text: "Proposing and leading activities" },
+              { id: "b", text: "Following instructions" },
+              { id: "c", text: "Only participating" },
+              { id: "d", text: "Waiting to be asked" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -591,12 +591,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Waiting for instructions" },
-              { id: "b", text: "Proposing and leading activities" },
-              { id: "c", text: "Only attending" },
+              { id: "a", text: "Proposing and leading activities" },
+              { id: "b", text: "Only attending" },
+              { id: "c", text: "Waiting for instructions" },
               { id: "d", text: "Copying others" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -618,12 +618,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Joining an existing club" },
-              { id: "b", text: "Starting a new recycling project" },
-              { id: "c", text: "Attending a lecture" },
+              { id: "a", text: "Starting a new recycling project" },
+              { id: "b", text: "Attending a lecture" },
+              { id: "c", text: "Joining an existing club" },
               { id: "d", text: "Watching others volunteer" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -645,9 +645,9 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Creates activities" },
+              { id: "a", text: "Requires leadership" },
               { id: "b", text: "Joins activities organised by others" },
-              { id: "c", text: "Requires leadership" },
+              { id: "c", text: "Creates activities" },
               { id: "d", text: "Is always better" },
             ],
             correctChoiceId: "b",
@@ -672,12 +672,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Service only" },
-              { id: "b", text: "Initiative and service engagement" },
-              { id: "c", text: "No strand" },
+              { id: "a", text: "Initiative and service engagement" },
+              { id: "b", text: "No strand" },
+              { id: "c", text: "Service only" },
               { id: "d", text: "Passive participation" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -700,11 +700,11 @@ export const lesson23: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Following a fixed syllabus" },
-              { id: "b", text: "Taking responsibility for your own engagement and growth" },
-              { id: "c", text: "Copying peers" },
+              { id: "b", text: "Copying peers" },
+              { id: "c", text: "Taking responsibility for your own engagement and growth" },
               { id: "d", text: "Avoiding reflection" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -726,9 +726,9 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It does not" },
+              { id: "a", text: "Only participation counts" },
               { id: "b", text: "It shows ownership, leadership and self-direction" },
-              { id: "c", text: "Only participation counts" },
+              { id: "c", text: "It does not" },
               { id: "d", text: "It reduces workload" },
             ],
             correctChoiceId: "b",

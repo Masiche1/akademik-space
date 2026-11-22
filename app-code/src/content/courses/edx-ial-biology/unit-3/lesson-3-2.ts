@@ -47,12 +47,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Individual organisms directly" },
-              { id: "b", text: "Populations over generations" },
+              { id: "a", text: "Populations over generations" },
+              { id: "b", text: "Individual organisms directly" },
               { id: "c", text: "Species intentionally" },
               { id: "d", text: "Ecosystems" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Natural selection", statement: "Allele frequency changes in populations." }],
@@ -161,12 +161,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Geographic isolation" },
+              { id: "a", text: "Large population" },
               { id: "b", text: "Polyploidy" },
               { id: "c", text: "Different mating calls" },
-              { id: "d", text: "Large population" },
+              { id: "d", text: "Geographic isolation" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Allopatric", statement: "Geographic barrier separates." }],

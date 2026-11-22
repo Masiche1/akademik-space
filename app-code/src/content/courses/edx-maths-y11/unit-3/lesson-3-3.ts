@@ -53,12 +53,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$3$" },
-              { id: "b", text: "$4.5$" },
-              { id: "c", text: "$81$" },
-              { id: "d", text: "$\\frac{1}{9}$" },
+              { id: "a", text: "$81$" },
+              { id: "b", text: "$\\frac{1}{9}$" },
+              { id: "c", text: "$3$" },
+              { id: "d", text: "$4.5$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -196,9 +196,9 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$2n + 1$" },
-              { id: "b", text: "$2n$" },
-              { id: "c", text: "$n + 1$" },
-              { id: "d", text: "$n^2$" },
+              { id: "b", text: "$n^2$" },
+              { id: "c", text: "$2n$" },
+              { id: "d", text: "$n + 1$" },
             ],
             correctChoiceId: "a",
           },

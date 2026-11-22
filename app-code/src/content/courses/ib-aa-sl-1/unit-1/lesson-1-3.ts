@@ -49,9 +49,9 @@ export const lesson13: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$10$" },
-              { id: "b", text: "$5$" },
-              { id: "c", text: "$20$" },
-              { id: "d", text: "$1$" },
+              { id: "b", text: "$1$" },
+              { id: "c", text: "$5$" },
+              { id: "d", text: "$20$" },
             ],
             correctChoiceId: "a",
           },
@@ -142,9 +142,9 @@ export const lesson13: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$7$" },
-              { id: "b", text: "$21$" },
-              { id: "c", text: "$\\binom71=7!$" },
-              { id: "d", text: "$1$" },
+              { id: "b", text: "$1$" },
+              { id: "c", text: "$21$" },
+              { id: "d", text: "$\\binom71=7!$" },
             ],
             correctChoiceId: "a",
           },
@@ -169,8 +169,8 @@ export const lesson13: Lesson = {
             choices: [
               { id: "a", text: "$216$" },
               { id: "b", text: "$96$" },
-              { id: "c", text: "$54$" },
-              { id: "d", text: "$144$" },
+              { id: "c", text: "$144$" },
+              { id: "d", text: "$54$" },
             ],
             correctChoiceId: "a",
           },
@@ -193,12 +193,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$6$" },
-              { id: "b", text: "$4$" },
-              { id: "c", text: "$2$" },
-              { id: "d", text: "$1$" },
+              { id: "a", text: "$2$" },
+              { id: "b", text: "$1$" },
+              { id: "c", text: "$4$" },
+              { id: "d", text: "$6$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "theorem", name: "General term", statement: "$T_{r+1}=\\binom nr a^{n-r}b^r$" }],
@@ -273,12 +273,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$240$" },
-              { id: "b", text: "$15$" },
-              { id: "c", text: "$60$" },
-              { id: "d", text: "$480$" },
+              { id: "a", text: "$480$" },
+              { id: "b", text: "$240$" },
+              { id: "c", text: "$15$" },
+              { id: "d", text: "$60$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "theorem", name: "General term", statement: "$\\binom nr a^{n-r}b^r$" }],
@@ -299,12 +299,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$10$" },
-              { id: "b", text: "$5$" },
-              { id: "c", text: "$20$" },
-              { id: "d", text: "$40$" },
+              { id: "a", text: "$20$" },
+              { id: "b", text: "$40$" },
+              { id: "c", text: "$10$" },
+              { id: "d", text: "$5$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "theorem", name: "General term", statement: "Power of $x$ is $2(5-r)$" }],
@@ -453,12 +453,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$4.5\\times10^{-4}$" },
-              { id: "b", text: "$4.5\\times10^{-3}$" },
-              { id: "c", text: "$4.5\\times10^{4}$" },
+              { id: "a", text: "$4.5\\times10^{4}$" },
+              { id: "b", text: "$4.5\\times10^{-4}$" },
+              { id: "c", text: "$4.5\\times10^{-3}$" },
               { id: "d", text: "$45\\times10^{-5}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Standard form", statement: "$a\\times10^k$ with $1\\le a<10$" }],
@@ -555,12 +555,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$7.3\\times10^{4}$" },
+              { id: "a", text: "$0.73\\times10^{5}$" },
               { id: "b", text: "$7.3\\times10^{5}$" },
-              { id: "c", text: "$73\\times10^{3}$" },
-              { id: "d", text: "$0.73\\times10^{5}$" },
+              { id: "c", text: "$7.3\\times10^{4}$" },
+              { id: "d", text: "$73\\times10^{3}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Standard form", statement: "$a\\times10^k$ with $1\\le a<10$" }],
@@ -581,12 +581,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$7.2\\times10^{-3}$" },
+              { id: "a", text: "$0.72\\times10^{-2}$" },
               { id: "b", text: "$7.2\\times10^{-4}$" },
-              { id: "c", text: "$72\\times10^{-4}$" },
-              { id: "d", text: "$0.72\\times10^{-2}$" },
+              { id: "c", text: "$7.2\\times10^{-3}$" },
+              { id: "d", text: "$72\\times10^{-4}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Standard form", statement: "$a\\times10^k$ with $1\\le a<10$" }],
@@ -607,12 +607,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$1.28\\times10^{2}$" },
-              { id: "b", text: "$1.28\\times10^{1}$" },
-              { id: "c", text: "$12.8\\times10^{1}$" },
-              { id: "d", text: "$1.28\\times10^{5}$" },
+              { id: "a", text: "$12.8\\times10^{1}$" },
+              { id: "b", text: "$1.28\\times10^{5}$" },
+              { id: "c", text: "$1.28\\times10^{2}$" },
+              { id: "d", text: "$1.28\\times10^{1}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "law", name: "Laws of exponents", statement: "$10^m\\times10^n=10^{m+n}$" }],
@@ -699,12 +699,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Expand the left-hand side using the distributive law and simplify." },
-              { id: "b", text: "Check the identity for $n=1,2,3$ and conclude it holds for all $n$." },
-              { id: "c", text: "Assume $(n+1)^2=n^2+2n+1$ and rearrange to verify." },
-              { id: "d", text: "Plot both sides for several values of $n$ and compare the graphs." },
+              { id: "a", text: "Plot both sides for several values of $n$ and compare the graphs." },
+              { id: "b", text: "Expand the left-hand side using the distributive law and simplify." },
+              { id: "c", text: "Check the identity for $n=1,2,3$ and conclude it holds for all $n$." },
+              { id: "d", text: "Assume $(n+1)^2=n^2+2n+1$ and rearrange to verify." },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Proof", statement: "A proof must hold for every case; examples alone are not sufficient." }],
@@ -725,12 +725,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$n^2+n$ is even" },
+              { id: "a", text: "$2n+1$ is even" },
               { id: "b", text: "$n^2+1$ is even" },
-              { id: "c", text: "$2n+1$ is even" },
+              { id: "c", text: "$n^2+n$ is even" },
               { id: "d", text: "$n^2$ is odd" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Parity", statement: "$n^2+n=n(n+1)$ is a product of consecutive integers, hence even." }],

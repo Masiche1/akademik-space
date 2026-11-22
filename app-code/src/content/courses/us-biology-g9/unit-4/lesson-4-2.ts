@@ -54,12 +54,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Geographic isolation stopping gene flow" },
-              { id: "b", text: "Individuals choosing to change their traits" },
-              { id: "c", text: "Acquired traits being inherited" },
+              { id: "a", text: "Individuals choosing to change their traits" },
+              { id: "b", text: "Acquired traits being inherited" },
+              { id: "c", text: "Geographic isolation stopping gene flow" },
               { id: "d", text: "Gene flow increasing between the groups" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -194,10 +194,10 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "0.09" },
-              { id: "b", text: "0.3" },
+              { id: "a", text: "0.49" },
+              { id: "b", text: "0.09" },
               { id: "c", text: "0.7" },
-              { id: "d", text: "0.49" },
+              { id: "d", text: "0.3" },
             ],
             correctChoiceId: "c",
           },

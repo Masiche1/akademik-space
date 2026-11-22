@@ -53,12 +53,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The oscillations are at right angles to the direction of energy transfer." },
-              { id: "b", text: "The oscillations are parallel to the direction of energy transfer." },
-              { id: "c", text: "The particles of the medium travel with the wave from source to receiver." },
-              { id: "d", text: "The wave can only travel through a vacuum." },
+              { id: "a", text: "The wave can only travel through a vacuum." },
+              { id: "b", text: "The particles of the medium travel with the wave from source to receiver." },
+              { id: "c", text: "The oscillations are at right angles to the direction of energy transfer." },
+              { id: "d", text: "The oscillations are parallel to the direction of energy transfer." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -187,12 +187,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The ray speeds up and bends towards the normal." },
+              { id: "a", text: "The ray slows down and bends towards the normal." },
               { id: "b", text: "The ray slows down and bends away from the normal." },
-              { id: "c", text: "The ray slows down and bends towards the normal." },
+              { id: "c", text: "The ray speeds up and bends towards the normal." },
               { id: "d", text: "The ray speeds up and bends away from the normal." },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [

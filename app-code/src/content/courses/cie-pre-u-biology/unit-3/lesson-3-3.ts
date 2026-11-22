@@ -115,9 +115,9 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "A protein catalyst" },
-              { id: "b", text: "A carbohydrate" },
+              { id: "b", text: "A nucleic acid" },
               { id: "c", text: "A lipid" },
-              { id: "d", text: "A nucleic acid" },
+              { id: "d", text: "A carbohydrate" },
             ],
             correctChoiceId: "a",
           },
@@ -147,12 +147,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Region where substrate binds" },
-              { id: "b", text: "Whole enzyme" },
-              { id: "c", text: "Enzyme backbone" },
-              { id: "d", text: "Product" },
+              { id: "a", text: "Product" },
+              { id: "b", text: "Enzyme backbone" },
+              { id: "c", text: "Region where substrate binds" },
+              { id: "d", text: "Whole enzyme" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -180,12 +180,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Rigid complementary fit" },
-              { id: "b", text: "Flexible fit" },
+              { id: "a", text: "Flexible fit" },
+              { id: "b", text: "Rigid complementary fit" },
               { id: "c", text: "No specificity" },
               { id: "d", text: "Random binding" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -209,12 +209,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Enzyme changes shape to fit substrate" },
+              { id: "a", text: "No change" },
               { id: "b", text: "Rigid fit" },
-              { id: "c", text: "No change" },
-              { id: "d", text: "Random binding" },
+              { id: "c", text: "Random binding" },
+              { id: "d", text: "Enzyme changes shape to fit substrate" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -243,8 +243,8 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Loss of enzyme 3D shape" },
-              { id: "b", text: "Enzyme activation" },
-              { id: "c", text: "Substrate binding" },
+              { id: "b", text: "Substrate binding" },
+              { id: "c", text: "Enzyme activation" },
               { id: "d", text: "Product formation" },
             ],
             correctChoiceId: "a",
@@ -275,12 +275,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Activation energy" },
-              { id: "b", text: "Temperature" },
-              { id: "c", text: "pH" },
-              { id: "d", text: "Pressure" },
+              { id: "a", text: "pH" },
+              { id: "b", text: "Activation energy" },
+              { id: "c", text: "Pressure" },
+              { id: "d", text: "Temperature" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -304,12 +304,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Breaking down molecules — releases energy" },
-              { id: "b", text: "Building molecules" },
+              { id: "a", text: "Building molecules" },
+              { id: "b", text: "Breaking down molecules — releases energy" },
               { id: "c", text: "No energy change" },
               { id: "d", text: "Enzyme action" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -334,9 +334,9 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Building up molecules — requires energy" },
-              { id: "b", text: "Breaking down" },
-              { id: "c", text: "No energy" },
-              { id: "d", text: "Enzyme action" },
+              { id: "b", text: "No energy" },
+              { id: "c", text: "Enzyme action" },
+              { id: "d", text: "Breaking down" },
             ],
             correctChoiceId: "a",
           },
@@ -363,9 +363,9 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "All chemical reactions in organism" },
-              { id: "b", text: "Only respiration" },
+              { id: "b", text: "Only photosynthesis" },
               { id: "c", text: "Only digestion" },
-              { id: "d", text: "Only photosynthesis" },
+              { id: "d", text: "Only respiration" },
             ],
             correctChoiceId: "a",
           },
@@ -395,12 +395,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Competes for active site" },
-              { id: "b", text: "Binds elsewhere" },
-              { id: "c", text: "Denatures enzyme" },
-              { id: "d", text: "Activates enzyme" },
+              { id: "a", text: "Activates enzyme" },
+              { id: "b", text: "Denatures enzyme" },
+              { id: "c", text: "Binds elsewhere" },
+              { id: "d", text: "Competes for active site" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -428,12 +428,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Binds elsewhere, changes enzyme shape" },
-              { id: "b", text: "Competes for active site" },
-              { id: "c", text: "Denatures" },
-              { id: "d", text: "Activates" },
+              { id: "a", text: "Activates" },
+              { id: "b", text: "Denatures" },
+              { id: "c", text: "Binds elsewhere, changes enzyme shape" },
+              { id: "d", text: "Competes for active site" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -461,12 +461,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Optimum temperature" },
-              { id: "b", text: "Maximum temperature" },
-              { id: "c", text: "Zero" },
-              { id: "d", text: "Boiling" },
+              { id: "a", text: "Boiling" },
+              { id: "b", text: "Zero" },
+              { id: "c", text: "Maximum temperature" },
+              { id: "d", text: "Optimum temperature" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -490,12 +490,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Decreases due to denaturation" },
+              { id: "a", text: "Stays constant" },
               { id: "b", text: "Continues increasing" },
-              { id: "c", text: "Stays constant" },
-              { id: "d", text: "Becomes zero instantly" },
+              { id: "c", text: "Becomes zero instantly" },
+              { id: "d", text: "Decreases due to denaturation" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -523,12 +523,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "pH" },
+              { id: "a", text: "Pressure" },
               { id: "b", text: "Temperature only" },
-              { id: "c", text: "Pressure" },
-              { id: "d", text: "Volume" },
+              { id: "c", text: "Volume" },
+              { id: "d", text: "pH" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -552,12 +552,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Limited by substrate availability" },
-              { id: "b", text: "Maximum" },
-              { id: "c", text: "Zero" },
-              { id: "d", text: "Unlimited" },
+              { id: "a", text: "Unlimited" },
+              { id: "b", text: "Limited by substrate availability" },
+              { id: "c", text: "Maximum" },
+              { id: "d", text: "Zero" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -585,12 +585,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Maximum rate (Vmax) — saturation" },
-              { id: "b", text: "Zero" },
+              { id: "a", text: "Zero" },
+              { id: "b", text: "Maximum rate (Vmax) — saturation" },
               { id: "c", text: "Minimum" },
               { id: "d", text: "Keeps increasing" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -614,12 +614,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Increases reaction rate" },
-              { id: "b", text: "Decreases rate" },
-              { id: "c", text: "No effect" },
-              { id: "d", text: "Denatures" },
+              { id: "a", text: "Denatures" },
+              { id: "b", text: "Increases reaction rate" },
+              { id: "c", text: "Decreases rate" },
+              { id: "d", text: "No effect" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -643,12 +643,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Active site shape matches specific substrate" },
-              { id: "b", text: "They bind everything" },
-              { id: "c", text: "They are random" },
-              { id: "d", text: "They are universal" },
+              { id: "a", text: "They are random" },
+              { id: "b", text: "They are universal" },
+              { id: "c", text: "Active site shape matches specific substrate" },
+              { id: "d", text: "They bind everything" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -678,8 +678,8 @@ export const lesson33: Lesson = {
             choices: [
               { id: "a", text: "They are regenerated after reaction" },
               { id: "b", text: "They are destroyed" },
-              { id: "c", text: "They are used up" },
-              { id: "d", text: "They don't react" },
+              { id: "c", text: "They don't react" },
+              { id: "d", text: "They are used up" },
             ],
             correctChoiceId: "a",
           },
@@ -838,12 +838,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Acidic conditions (stomach)" },
+              { id: "a", text: "Neutral conditions" },
               { id: "b", text: "Alkaline conditions" },
-              { id: "c", text: "Neutral conditions" },
+              { id: "c", text: "Acidic conditions (stomach)" },
               { id: "d", text: "Any pH" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -930,9 +930,9 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Alkaline conditions (small intestine)" },
-              { id: "b", text: "Acidic conditions" },
-              { id: "c", text: "Neutral" },
-              { id: "d", text: "Any pH" },
+              { id: "b", text: "Neutral" },
+              { id: "c", text: "Any pH" },
+              { id: "d", text: "Acidic conditions" },
             ],
             correctChoiceId: "a",
           },
@@ -1104,12 +1104,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Oxygen" },
-              { id: "b", text: "No oxygen" },
-              { id: "c", text: "Light" },
-              { id: "d", text: "CO2 only" },
+              { id: "a", text: "No oxygen" },
+              { id: "b", text: "Oxygen" },
+              { id: "c", text: "CO2 only" },
+              { id: "d", text: "Light" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1133,12 +1133,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Without oxygen" },
-              { id: "b", text: "With oxygen" },
+              { id: "a", text: "With oxygen" },
+              { id: "b", text: "Always" },
               { id: "c", text: "With light" },
-              { id: "d", text: "Always" },
+              { id: "d", text: "Without oxygen" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1162,12 +1162,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Glucose and oxygen" },
+              { id: "a", text: "Only glucose" },
               { id: "b", text: "CO2 and water" },
               { id: "c", text: "Only oxygen" },
-              { id: "d", text: "Only glucose" },
+              { id: "d", text: "Glucose and oxygen" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1196,8 +1196,8 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Adenosine triphosphate" },
-              { id: "b", text: "Adenosine diphosphate" },
-              { id: "c", text: "Adenine triphosphate" },
+              { id: "b", text: "Adenine triphosphate" },
+              { id: "c", text: "Adenosine diphosphate" },
               { id: "d", text: "ATP only" },
             ],
             correctChoiceId: "a",
@@ -1228,12 +1228,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Cytoplasm" },
-              { id: "b", text: "Mitochondria" },
+              { id: "a", text: "Mitochondria" },
+              { id: "b", text: "Cytoplasm" },
               { id: "c", text: "Nucleus" },
               { id: "d", text: "Ribosome" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1257,12 +1257,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Mitochondria" },
+              { id: "a", text: "Nucleus" },
               { id: "b", text: "Cytoplasm" },
-              { id: "c", text: "Nucleus" },
-              { id: "d", text: "Chloroplast" },
+              { id: "c", text: "Chloroplast" },
+              { id: "d", text: "Mitochondria" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1286,12 +1286,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Lactic acid + 2 ATP" },
-              { id: "b", text: "Ethanol + CO2" },
-              { id: "c", text: "36 ATP" },
-              { id: "d", text: "Only water" },
+              { id: "a", text: "36 ATP" },
+              { id: "b", text: "Only water" },
+              { id: "c", text: "Lactic acid + 2 ATP" },
+              { id: "d", text: "Ethanol + CO2" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1315,12 +1315,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Ethanol + CO2 + 2 ATP" },
-              { id: "b", text: "Lactic acid" },
-              { id: "c", text: "36 ATP" },
-              { id: "d", text: "Only water" },
+              { id: "a", text: "36 ATP" },
+              { id: "b", text: "Ethanol + CO2 + 2 ATP" },
+              { id: "c", text: "Only water" },
+              { id: "d", text: "Lactic acid" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1348,12 +1348,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Chloroplasts" },
-              { id: "b", text: "Mitochondria" },
-              { id: "c", text: "Nucleus" },
+              { id: "a", text: "Mitochondria" },
+              { id: "b", text: "Nucleus" },
+              { id: "c", text: "Chloroplasts" },
               { id: "d", text: "Ribosome" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1381,12 +1381,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "36-38 ATP per glucose" },
-              { id: "b", text: "2 ATP" },
-              { id: "c", text: "100 ATP" },
-              { id: "d", text: "0 ATP" },
+              { id: "a", text: "2 ATP" },
+              { id: "b", text: "0 ATP" },
+              { id: "c", text: "36-38 ATP per glucose" },
+              { id: "d", text: "100 ATP" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1410,12 +1410,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "2 ATP per glucose" },
-              { id: "b", text: "36 ATP" },
-              { id: "c", text: "100 ATP" },
-              { id: "d", text: "0 ATP" },
+              { id: "a", text: "100 ATP" },
+              { id: "b", text: "0 ATP" },
+              { id: "c", text: "36 ATP" },
+              { id: "d", text: "2 ATP per glucose" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1439,12 +1439,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Acetyl-CoA" },
-              { id: "b", text: "Glucose" },
-              { id: "c", text: "Lactic acid" },
+              { id: "a", text: "Lactic acid" },
+              { id: "b", text: "Acetyl-CoA" },
+              { id: "c", text: "Glucose" },
               { id: "d", text: "Ethanol" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1468,12 +1468,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Oxidative phosphorylation" },
-              { id: "b", text: "Glycolysis" },
+              { id: "a", text: "Photosynthesis" },
+              { id: "b", text: "Oxidative phosphorylation" },
               { id: "c", text: "Krebs cycle" },
-              { id: "d", text: "Photosynthesis" },
+              { id: "d", text: "Glycolysis" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1501,12 +1501,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Thylakoid membranes" },
-              { id: "b", text: "Stroma" },
-              { id: "c", text: "Cytoplasm" },
-              { id: "d", text: "Nucleus" },
+              { id: "a", text: "Nucleus" },
+              { id: "b", text: "Cytoplasm" },
+              { id: "c", text: "Stroma" },
+              { id: "d", text: "Thylakoid membranes" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1530,12 +1530,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Stroma" },
-              { id: "b", text: "Thylakoid" },
-              { id: "c", text: "Cytoplasm" },
+              { id: "a", text: "Cytoplasm" },
+              { id: "b", text: "Stroma" },
+              { id: "c", text: "Thylakoid" },
               { id: "d", text: "Nucleus" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1559,8 +1559,8 @@ export const lesson33: Lesson = {
             choices: [
               { id: "a", text: "Light, CO2, water" },
               { id: "b", text: "Oxygen only" },
-              { id: "c", text: "Glucose only" },
-              { id: "d", text: "ATP only" },
+              { id: "c", text: "ATP only" },
+              { id: "d", text: "Glucose only" },
             ],
             correctChoiceId: "a",
           },
@@ -1590,12 +1590,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Splitting of water" },
-              { id: "b", text: "CO2" },
+              { id: "a", text: "CO2" },
+              { id: "b", text: "Splitting of water" },
               { id: "c", text: "Glucose" },
               { id: "d", text: "Chlorophyll" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1617,12 +1617,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Red and blue light" },
-              { id: "b", text: "Green light" },
-              { id: "c", text: "All light equally" },
-              { id: "d", text: "UV light" },
+              { id: "a", text: "All light equally" },
+              { id: "b", text: "UV light" },
+              { id: "c", text: "Red and blue light" },
+              { id: "d", text: "Green light" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1646,12 +1646,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Complete oxidation releases more energy" },
-              { id: "b", text: "It uses less glucose" },
-              { id: "c", text: "It is faster" },
-              { id: "d", text: "It needs no oxygen" },
+              { id: "a", text: "It uses less glucose" },
+              { id: "b", text: "Complete oxidation releases more energy" },
+              { id: "c", text: "It needs no oxygen" },
+              { id: "d", text: "It is faster" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1816,12 +1816,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Electron carriers" },
-              { id: "b", text: "Enzymes" },
-              { id: "c", text: "Substrates" },
-              { id: "d", text: "Products only" },
+              { id: "a", text: "Enzymes" },
+              { id: "b", text: "Products only" },
+              { id: "c", text: "Electron carriers" },
+              { id: "d", text: "Substrates" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1909,12 +1909,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "CO2 into glucose" },
-              { id: "b", text: "Oxygen" },
-              { id: "c", text: "Water" },
+              { id: "a", text: "Oxygen" },
+              { id: "b", text: "Water" },
+              { id: "c", text: "CO2 into glucose" },
               { id: "d", text: "ATP only" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

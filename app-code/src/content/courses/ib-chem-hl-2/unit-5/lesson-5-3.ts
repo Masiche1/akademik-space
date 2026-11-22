@@ -53,12 +53,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "2H$_2$ + O$_2$ $\\to$ 2H$_2$O + electricity" },
-              { id: "b", text: "H$_2$ + O$_2$ $\\to$ H$_2$O$_2$" },
-              { id: "c", text: "2H$_2$O $\\to$ 2H$_2$ + O$_2$" },
-              { id: "d", text: "H$_2$O $\\to$ H$_2$ + $\\frac{1}{2}$O$_2$" },
+              { id: "a", text: "2H$_2$O $\\to$ 2H$_2$ + O$_2$" },
+              { id: "b", text: "H$_2$O $\\to$ H$_2$ + $\\frac{1}{2}$O$_2$" },
+              { id: "c", text: "2H$_2$ + O$_2$ $\\to$ 2H$_2$O + electricity" },
+              { id: "d", text: "H$_2$ + O$_2$ $\\to$ H$_2$O$_2$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -154,11 +154,11 @@ export const lesson53: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "CO$_2$" },
-              { id: "b", text: "H$_2$O" },
-              { id: "c", text: "H$_2$O$_2$" },
-              { id: "d", text: "O$_3$" },
+              { id: "b", text: "H$_2$O$_2$" },
+              { id: "c", text: "O$_3$" },
+              { id: "d", text: "H$_2$O" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -204,12 +204,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The same as during discharge" },
-              { id: "b", text: "Reversed — PbSO$_4$ is converted back to Pb and PbO$_2$" },
-              { id: "c", text: "Stopped — no reactions occur" },
-              { id: "d", text: "PbSO$_4$ decomposes to Pb and SO$_2$" },
+              { id: "a", text: "Stopped — no reactions occur" },
+              { id: "b", text: "PbSO$_4$ decomposes to Pb and SO$_2$" },
+              { id: "c", text: "The same as during discharge" },
+              { id: "d", text: "Reversed — PbSO$_4$ is converted back to Pb and PbO$_2$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -232,12 +232,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Li metal atoms" },
-              { id: "b", text: "Li$^+$ ions" },
-              { id: "c", text: "Electrons through the electrolyte" },
+              { id: "a", text: "Li$^+$ ions" },
+              { id: "b", text: "Electrons through the electrolyte" },
+              { id: "c", text: "Li metal atoms" },
               { id: "d", text: "O$_2$ molecules" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -284,12 +284,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "They are cheaper to fuel" },
-              { id: "b", text: "They produce only water, no CO$_2$ or pollutants" },
-              { id: "c", text: "They require no catalyst" },
+              { id: "a", text: "They produce only water, no CO$_2$ or pollutants" },
+              { id: "b", text: "They require no catalyst" },
+              { id: "c", text: "They are cheaper to fuel" },
               { id: "d", text: "They run on any fuel" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -357,12 +357,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Very low cost" },
-              { id: "b", text: "High energy density and low weight" },
-              { id: "c", text: "No need for recharging" },
-              { id: "d", text: "No toxic components" },
+              { id: "a", text: "High energy density and low weight" },
+              { id: "b", text: "No toxic components" },
+              { id: "c", text: "Very low cost" },
+              { id: "d", text: "No need for recharging" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -493,12 +493,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Oxygen" },
-              { id: "b", text: "Carbon dioxide" },
-              { id: "c", text: "Nitrogen" },
-              { id: "d", text: "Hydrogen" },
+              { id: "a", text: "Nitrogen" },
+              { id: "b", text: "Oxygen" },
+              { id: "c", text: "Hydrogen" },
+              { id: "d", text: "Carbon dioxide" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -592,9 +592,9 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Presence of salt in the water" },
+              { id: "a", text: "Temperature of the water" },
               { id: "b", text: "Presence of oxygen" },
-              { id: "c", text: "Temperature of the water" },
+              { id: "c", text: "Presence of salt in the water" },
               { id: "d", text: "The colour of the iron surface" },
             ],
             correctChoiceId: "d",
@@ -643,12 +643,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Copper" },
-              { id: "b", text: "Zinc" },
+              { id: "a", text: "Zinc" },
+              { id: "b", text: "Copper" },
               { id: "c", text: "Tin" },
               { id: "d", text: "Silver" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -671,12 +671,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Painting the pipe" },
-              { id: "b", text: "Connecting it to a more reactive metal" },
-              { id: "c", text: "Applying an external DC supply that makes the pipe the cathode" },
-              { id: "d", text: "Wrapping it in plastic" },
+              { id: "a", text: "Connecting it to a more reactive metal" },
+              { id: "b", text: "Applying an external DC supply that makes the pipe the cathode" },
+              { id: "c", text: "Wrapping it in plastic" },
+              { id: "d", text: "Painting the pipe" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -725,8 +725,8 @@ export const lesson53: Lesson = {
             choices: [
               { id: "a", text: "The zinc still acts as a barrier" },
               { id: "b", text: "Zinc is more reactive and corrodes preferentially even at the exposed iron site" },
-              { id: "c", text: "Iron cannot rust without zinc" },
-              { id: "d", text: "The scratch seals itself" },
+              { id: "c", text: "The scratch seals itself" },
+              { id: "d", text: "Iron cannot rust without zinc" },
             ],
             correctChoiceId: "b",
           },
@@ -796,12 +796,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It contains no iron" },
-              { id: "b", text: "Chromium forms a protective oxide layer on the surface" },
-              { id: "c", text: "It is painted during manufacture" },
+              { id: "a", text: "Chromium forms a protective oxide layer on the surface" },
+              { id: "b", text: "It is painted during manufacture" },
+              { id: "c", text: "It contains no iron" },
               { id: "d", text: "It has a more negative electrode potential" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

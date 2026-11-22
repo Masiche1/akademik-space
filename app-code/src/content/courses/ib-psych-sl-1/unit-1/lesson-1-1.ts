@@ -53,12 +53,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Independent variable" },
-              { id: "b", text: "Dependent variable" },
+              { id: "a", text: "Confounding variable" },
+              { id: "b", text: "Independent variable" },
               { id: "c", text: "Extraneous variable" },
-              { id: "d", text: "Confounding variable" },
+              { id: "d", text: "Dependent variable" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -154,8 +154,8 @@ export const lesson11: Lesson = {
             choices: [
               { id: "a", text: "An experiment that manipulates the independent variable" },
               { id: "b", text: "A correlational study measuring two co-variables" },
-              { id: "c", text: "An in-depth case study of one person" },
-              { id: "d", text: "Naturalistic observation in a public setting" },
+              { id: "c", text: "Naturalistic observation in a public setting" },
+              { id: "d", text: "An in-depth case study of one person" },
             ],
             correctChoiceId: "a",
           },
@@ -180,12 +180,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A strong positive linear relationship" },
-              { id: "b", text: "A weak positive linear relationship" },
-              { id: "c", text: "A strong negative linear relationship" },
-              { id: "d", text: "No relationship between the variables" },
+              { id: "a", text: "No relationship between the variables" },
+              { id: "b", text: "A strong negative linear relationship" },
+              { id: "c", text: "A weak positive linear relationship" },
+              { id: "d", text: "A strong positive linear relationship" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -208,12 +208,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It provides rich, detailed qualitative data about an individual or small group" },
-              { id: "b", text: "It always uses a large representative sample" },
+              { id: "a", text: "It eliminates all extraneous variables" },
+              { id: "b", text: "It provides rich, detailed qualitative data about an individual or small group" },
               { id: "c", text: "It can be replicated exactly by other researchers" },
-              { id: "d", text: "It eliminates all extraneous variables" },
+              { id: "d", text: "It always uses a large representative sample" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -236,12 +236,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Higher control but lower ecological validity" },
-              { id: "b", text: "Lower control but higher ecological validity" },
-              { id: "c", text: "No independent variable" },
-              { id: "d", text: "No dependent variable" },
+              { id: "a", text: "No independent variable" },
+              { id: "b", text: "No dependent variable" },
+              { id: "c", text: "Lower control but higher ecological validity" },
+              { id: "d", text: "Higher control but lower ecological validity" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -264,12 +264,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Observer bias and the possibility that observation influences behaviour" },
-              { id: "b", text: "It cannot measure any dependent variable" },
-              { id: "c", text: "It always requires deception of participants" },
-              { id: "d", text: "It can only be used with animals" },
+              { id: "a", text: "It cannot measure any dependent variable" },
+              { id: "b", text: "Observer bias and the possibility that observation influences behaviour" },
+              { id: "c", text: "It can only be used with animals" },
+              { id: "d", text: "It always requires deception of participants" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -292,12 +292,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Combining different methods or sources of data to strengthen a conclusion" },
-              { id: "b", text: "Repeating the same experiment with a larger sample" },
+              { id: "a", text: "Repeating the same experiment with a larger sample" },
+              { id: "b", text: "Increasing the number of variables measured" },
               { id: "c", text: "Using only quantitative data" },
-              { id: "d", text: "Increasing the number of variables measured" },
+              { id: "d", text: "Combining different methods or sources of data to strengthen a conclusion" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -484,12 +484,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Selecting participants randomly" },
-              { id: "b", text: "Defining variables in measurable terms" },
-              { id: "c", text: "Repeating a study exactly" },
-              { id: "d", text: "Keeping conditions identical" },
+              { id: "a", text: "Repeating a study exactly" },
+              { id: "b", text: "Keeping conditions identical" },
+              { id: "c", text: "Defining variables in measurable terms" },
+              { id: "d", text: "Selecting participants randomly" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -585,8 +585,8 @@ export const lesson11: Lesson = {
             choices: [
               { id: "a", text: "Score on a validated anxiety inventory" },
               { id: "b", text: "Whether participants feel nervous" },
-              { id: "c", text: "The researcher's impression of anxiety" },
-              { id: "d", text: "The number of worries mentioned in an interview" },
+              { id: "c", text: "The number of worries mentioned in an interview" },
+              { id: "d", text: "The researcher's impression of anxiety" },
             ],
             correctChoiceId: "a",
           },
@@ -611,10 +611,10 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The variable manipulated by the researcher" },
-              { id: "b", text: "The variable measured as the outcome" },
+              { id: "a", text: "A variable that always invalidates a study" },
+              { id: "b", text: "The variable manipulated by the researcher" },
               { id: "c", text: "Any other variable that could affect the dependent variable" },
-              { id: "d", text: "A variable that always invalidates a study" },
+              { id: "d", text: "The variable measured as the outcome" },
             ],
             correctChoiceId: "c",
           },
@@ -639,12 +639,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Any variable measured in a study" },
-              { id: "b", text: "An extraneous variable that varies systematically with the IV" },
-              { id: "c", text: "The dependent variable measured twice" },
-              { id: "d", text: "A variable controlled by random allocation" },
+              { id: "a", text: "The dependent variable measured twice" },
+              { id: "b", text: "A variable controlled by random allocation" },
+              { id: "c", text: "An extraneous variable that varies systematically with the IV" },
+              { id: "d", text: "Any variable measured in a study" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -668,11 +668,11 @@ export const lesson11: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Recruit whoever is easiest to access" },
-              { id: "b", text: "Select participants proportionally from known subgroups" },
+              { id: "b", text: "Choose only the most extreme cases" },
               { id: "c", text: "Use existing participants to find more participants" },
-              { id: "d", text: "Choose only the most extreme cases" },
+              { id: "d", text: "Select participants proportionally from known subgroups" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -695,12 +695,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Large random samples of the general population" },
-              { id: "b", text: "Hidden or hard-to-access populations" },
+              { id: "a", text: "Hidden or hard-to-access populations" },
+              { id: "b", text: "Large random samples of the general population" },
               { id: "c", text: "Exactly proportional subgroups" },
               { id: "d", text: "Participants selected by a computer" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

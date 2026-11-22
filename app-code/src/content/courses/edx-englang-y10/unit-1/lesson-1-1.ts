@@ -80,12 +80,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Forty minutes" },
-              { id: "b", text: "Fifty minutes" },
-              { id: "c", text: "Thirty-one minutes" },
-              { id: "d", text: "Ninety minutes" },
+              { id: "a", text: "Thirty-one minutes" },
+              { id: "b", text: "Forty minutes" },
+              { id: "c", text: "Ninety minutes" },
+              { id: "d", text: "Fifty minutes" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "skill", name: "Accurate retrieval", statement: "Choose the detail that matches the question focus, not another number from the same paragraph." }],
@@ -210,12 +210,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Phones should be banned from hillwalking." },
-              { id: "b", text: "Phones are useful, but relying on them too much is harmful." },
-              { id: "c", text: "Phones are always more accurate than paper maps." },
+              { id: "a", text: "Phones are always more accurate than paper maps." },
+              { id: "b", text: "Phones should be banned from hillwalking." },
+              { id: "c", text: "Phones are useful, but relying on them too much is harmful." },
               { id: "d", text: "Young people are better at navigation than their grandparents." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "skill", name: "Identifying overall viewpoint", statement: "Check each option against the whole text, including concessions." }],

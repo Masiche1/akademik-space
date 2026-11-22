@@ -53,11 +53,11 @@ export const lesson12: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Sixteen" },
-              { id: "b", text: "Eighteen" },
-              { id: "c", text: "Nineteen" },
-              { id: "d", text: "Seventy" },
+              { id: "b", text: "Seventy" },
+              { id: "c", text: "Eighteen" },
+              { id: "d", text: "Nineteen" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -148,12 +148,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Eleven" },
-              { id: "b", text: "Thirteen" },
-              { id: "c", text: "Twenty" },
-              { id: "d", text: "Two" },
+              { id: "a", text: "Thirteen" },
+              { id: "b", text: "Two" },
+              { id: "c", text: "Eleven" },
+              { id: "d", text: "Twenty" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -175,12 +175,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Eight thirty" },
+              { id: "a", text: "Eight o'clock" },
               { id: "b", text: "Half past eight" },
-              { id: "c", text: "Eight o'clock" },
+              { id: "c", text: "Eight thirty" },
               { id: "d", text: "Eight fifteen" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -222,11 +222,11 @@ export const lesson12: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Four o'clock" },
-              { id: "b", text: "Half past four" },
-              { id: "c", text: "Half past three" },
+              { id: "b", text: "Half past three" },
+              { id: "c", text: "Half past four" },
               { id: "d", text: "Fourteen thirty" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -273,12 +273,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Tuesday" },
-              { id: "b", text: "Thursday" },
-              { id: "c", text: "Friday" },
-              { id: "d", text: "Monday" },
+              { id: "a", text: "Thursday" },
+              { id: "b", text: "Tuesday" },
+              { id: "c", text: "Monday" },
+              { id: "d", text: "Friday" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -324,12 +324,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Fourty" },
-              { id: "b", text: "Fourteen" },
-              { id: "c", text: "Forty" },
-              { id: "d", text: "Forteen" },
+              { id: "a", text: "Forteen" },
+              { id: "b", text: "Forty" },
+              { id: "c", text: "Fourteen" },
+              { id: "d", text: "Fourty" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -376,10 +376,10 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "10:15" },
+              { id: "a", text: "9:30" },
               { id: "b", text: "10:30" },
-              { id: "c", text: "9:30" },
-              { id: "d", text: "10:00" },
+              { id: "c", text: "10:00" },
+              { id: "d", text: "10:15" },
             ],
             correctChoiceId: "b",
           },
@@ -484,9 +484,9 @@ export const lesson12: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Please" },
-              { id: "b", text: "Sorry" },
+              { id: "b", text: "Goodbye" },
               { id: "c", text: "Thank you" },
-              { id: "d", text: "Goodbye" },
+              { id: "d", text: "Sorry" },
             ],
             correctChoiceId: "c",
           },
@@ -579,12 +579,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Thank you" },
-              { id: "b", text: "Please" },
-              { id: "c", text: "Sorry" },
-              { id: "d", text: "Goodbye" },
+              { id: "a", text: "Please" },
+              { id: "b", text: "Sorry" },
+              { id: "c", text: "Goodbye" },
+              { id: "d", text: "Thank you" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -607,11 +607,11 @@ export const lesson12: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Please" },
-              { id: "b", text: "You're welcome" },
-              { id: "c", text: "Sorry" },
-              { id: "d", text: "Excuse me" },
+              { id: "b", text: "Sorry" },
+              { id: "c", text: "Excuse me" },
+              { id: "d", text: "You're welcome" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -652,10 +652,10 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "When you receive a gift" },
+              { id: "a", text: "When you are angry" },
               { id: "b", text: "To get someone's attention politely" },
-              { id: "c", text: "When you say goodbye" },
-              { id: "d", text: "When you are angry" },
+              { id: "c", text: "When you receive a gift" },
+              { id: "d", text: "When you say goodbye" },
             ],
             correctChoiceId: "b",
           },
@@ -703,12 +703,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "May the fifth" },
-              { id: "b", text: "The fifth of May" },
-              { id: "c", text: "Fifth May the" },
-              { id: "d", text: "The May fifth" },
+              { id: "a", text: "The fifth of May" },
+              { id: "b", text: "Fifth May the" },
+              { id: "c", text: "The May fifth" },
+              { id: "d", text: "May the fifth" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -755,12 +755,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "I am going to the cinema last week." },
-              { id: "b", text: "I am going to the cinema next week." },
-              { id: "c", text: "I am going to the cinema yesterday." },
-              { id: "d", text: "I am going to the cinema tomorrows." },
+              { id: "a", text: "I am going to the cinema next week." },
+              { id: "b", text: "I am going to the cinema tomorrows." },
+              { id: "c", text: "I am going to the cinema last week." },
+              { id: "d", text: "I am going to the cinema yesterday." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -827,11 +827,11 @@ export const lesson12: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Thank you" },
-              { id: "b", text: "Please" },
+              { id: "b", text: "Shut up" },
               { id: "c", text: "You're welcome" },
-              { id: "d", text: "Shut up" },
+              { id: "d", text: "Please" },
             ],
-            correctChoiceId: "d",
+            correctChoiceIb: "d",
           },
           markscheme: {
             principles: [

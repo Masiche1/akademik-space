@@ -54,12 +54,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$-\\text{OH}$" },
-              { id: "b", text: "$\\text{C=C}$" },
-              { id: "c", text: "$-\\text{COOH}$" },
+              { id: "a", text: "$\\text{C=C}$" },
+              { id: "b", text: "$-\\text{COOH}$" },
+              { id: "c", text: "$-\\text{OH}$" },
               { id: "d", text: "$-\\text{COO}-$ between two carbon chains" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -193,12 +193,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\text{CH}_2\\text{=CH}_2$" },
-              { id: "b", text: "$\\text{CH}_2\\text{=CHCl}$" },
+              { id: "a", text: "$\\text{CF}_2\\text{=CF}_2$" },
+              { id: "b", text: "$\\text{CH}_2\\text{=CH}_2$" },
               { id: "c", text: "$\\text{CH}_3\\text{CH}_2\\text{Cl}$" },
-              { id: "d", text: "$\\text{CF}_2\\text{=CF}_2$" },
+              { id: "d", text: "$\\text{CH}_2\\text{=CHCl}$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

@@ -54,12 +54,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Produce food by photosynthesis" },
-              { id: "b", text: "Break down dead matter and recycle nutrients" },
-              { id: "c", text: "Hunt other animals for energy" },
-              { id: "d", text: "Absorb sunlight directly" },
+              { id: "a", text: "Hunt other animals for energy" },
+              { id: "b", text: "Absorb sunlight directly" },
+              { id: "c", text: "Break down dead matter and recycle nutrients" },
+              { id: "d", text: "Produce food by photosynthesis" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -154,8 +154,8 @@ export const lesson41: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Producer" },
-              { id: "b", text: "Primary consumer" },
-              { id: "c", text: "Secondary consumer" },
+              { id: "b", text: "Secondary consumer" },
+              { id: "c", text: "Primary consumer" },
               { id: "d", text: "Tertiary consumer" },
             ],
             correctChoiceId: "d",
@@ -181,12 +181,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Shows only one feeding path" },
-              { id: "b", text: "Includes interconnections between multiple feeding paths" },
-              { id: "c", text: "Excludes decomposers entirely" },
-              { id: "d", text: "Only applies to marine ecosystems" },
+              { id: "a", text: "Excludes decomposers entirely" },
+              { id: "b", text: "Shows only one feeding path" },
+              { id: "c", text: "Only applies to marine ecosystems" },
+              { id: "d", text: "Includes interconnections between multiple feeding paths" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -209,12 +209,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Energy is recycled by decomposers back to producers" },
-              { id: "b", text: "Energy is lost as heat at each trophic transfer and cannot be reused" },
+              { id: "a", text: "Energy is lost as heat at each trophic transfer and cannot be reused" },
+              { id: "b", text: "Energy is recycled by decomposers back to producers" },
               { id: "c", text: "Producers only photosynthesise at night" },
               { id: "d", text: "Consumers store all energy permanently" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -237,9 +237,9 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Top predators reproduce faster but die younger" },
+              { id: "a", text: "Herbivores have no predators at all" },
               { id: "b", text: "Only ~1% of original producer energy reaches the top level" },
-              { id: "c", text: "Herbivores have no predators at all" },
+              { id: "c", text: "Top predators reproduce faster but die younger" },
               { id: "d", text: "Predators need no energy to hunt" },
             ],
             correctChoiceId: "b",
@@ -265,12 +265,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A single tree supporting many insects and birds" },
+              { id: "a", text: "A lake supporting many phytoplankton" },
               { id: "b", text: "A grassland supporting many herbivores" },
-              { id: "c", text: "A lake supporting many phytoplankton" },
-              { id: "d", text: "An ocean supporting many fish" },
+              { id: "c", text: "An ocean supporting many fish" },
+              { id: "d", text: "A single tree supporting many insects and birds" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -471,12 +471,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The release of nitrogen gas to the atmosphere" },
-              { id: "b", text: "Conversion of atmospheric N2 to usable nitrates by bacteria" },
-              { id: "c", text: "Absorption of nitrogen by animal lungs" },
-              { id: "d", text: "The burning of fossil fuels releasing nitrogen" },
+              { id: "a", text: "The burning of fossil fuels releasing nitrogen" },
+              { id: "b", text: "Absorption of nitrogen by animal lungs" },
+              { id: "c", text: "The release of nitrogen gas to the atmosphere" },
+              { id: "d", text: "Conversion of atmospheric N2 to usable nitrates by bacteria" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -571,11 +571,11 @@ export const lesson41: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Combustion of fossil fuels" },
-              { id: "b", text: "Photosynthesis by plants" },
-              { id: "c", text: "Decomposition of dead matter" },
-              { id: "d", text: "Animal respiration" },
+              { id: "b", text: "Decomposition of dead matter" },
+              { id: "c", text: "Animal respiration" },
+              { id: "d", text: "Photosynthesis by plants" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -598,12 +598,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Bacteria convert nitrates back to atmospheric nitrogen gas" },
-              { id: "b", text: "Lightning fixes atmospheric nitrogen into nitrates" },
-              { id: "c", text: "Plants absorb nitrates from soil" },
-              { id: "d", text: "Animals release nitrogen through urine" },
+              { id: "a", text: "Lightning fixes atmospheric nitrogen into nitrates" },
+              { id: "b", text: "Bacteria convert nitrates back to atmospheric nitrogen gas" },
+              { id: "c", text: "Animals release nitrogen through urine" },
+              { id: "d", text: "Plants absorb nitrates from soil" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -626,12 +626,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Has no gaseous phase — it cycles through rocks, soil and organisms" },
-              { id: "b", text: "Moves entirely through the atmosphere" },
-              { id: "c", text: "Is driven mainly by lightning" },
-              { id: "d", text: "Cannot be absorbed by plants" },
+              { id: "a", text: "Is driven mainly by lightning" },
+              { id: "b", text: "Cannot be absorbed by plants" },
+              { id: "c", text: "Moves entirely through the atmosphere" },
+              { id: "d", text: "Has no gaseous phase — it cycles through rocks, soil and organisms" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -654,12 +654,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Excess nitrogen and phosphorus entering the water" },
-              { id: "b", text: "Reduced sunlight reaching the lake bed" },
+              { id: "a", text: "Reduced sunlight reaching the lake bed" },
+              { id: "b", text: "Introduction of top predators" },
               { id: "c", text: "Increased water temperature alone" },
-              { id: "d", text: "Introduction of top predators" },
+              { id: "d", text: "Excess nitrogen and phosphorus entering the water" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -682,12 +682,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Fossil fuel carbon was stored for millions of years, overwhelming current sinks" },
-              { id: "b", text: "Volcanoes emit no carbon dioxide at all" },
-              { id: "c", text: "Fossil fuels release nitrogen instead of carbon" },
-              { id: "d", text: "Volcanic CO2 is absorbed instantly by oceans" },
+              { id: "a", text: "Fossil fuels release nitrogen instead of carbon" },
+              { id: "b", text: "Fossil fuel carbon was stored for millions of years, overwhelming current sinks" },
+              { id: "c", text: "Volcanic CO2 is absorbed instantly by oceans" },
+              { id: "d", text: "Volcanoes emit no carbon dioxide at all" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [

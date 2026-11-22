@@ -50,12 +50,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Joule" },
-              { id: "b", text: "Newton" },
-              { id: "c", text: "Watt" },
-              { id: "d", text: "Pascal" },
+              { id: "a", text: "Watt" },
+              { id: "b", text: "Pascal" },
+              { id: "c", text: "Newton" },
+              { id: "d", text: "Joule" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Newton", statement: "kg m s⁻²." }],
@@ -166,12 +166,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "They mean the same" },
-              { id: "b", text: "Accuracy = close to true value; precision = repeatability" },
+              { id: "a", text: "Neither matters" },
+              { id: "b", text: "They mean the same" },
               { id: "c", text: "Accuracy = repeatability; precision = true value" },
-              { id: "d", text: "Neither matters" },
+              { id: "d", text: "Accuracy = close to true value; precision = repeatability" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Accuracy/precision", statement: "True value vs consistency." }],

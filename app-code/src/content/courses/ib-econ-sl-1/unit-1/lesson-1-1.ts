@@ -54,12 +54,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Resources are abundant but wants are limited" },
-              { id: "b", text: "Wants are unlimited but resources are finite" },
-              { id: "c", text: "Only poor countries face scarcity" },
-              { id: "d", text: "Governments can eliminate scarcity" },
+              { id: "a", text: "Wants are unlimited but resources are finite" },
+              { id: "b", text: "Only poor countries face scarcity" },
+              { id: "c", text: "Governments can eliminate scarcity" },
+              { id: "d", text: "Resources are abundant but wants are limited" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -155,11 +155,11 @@ export const lesson11: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "A new smartphone" },
-              { id: "b", text: "Shelter" },
+              { id: "b", text: "Designer trainers" },
               { id: "c", text: "A summer holiday abroad" },
-              { id: "d", text: "Designer trainers" },
+              { id: "d", text: "Shelter" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -182,12 +182,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Central government planners issuing production orders" },
-              { id: "b", text: "Consumer spending and producers' profit incentives, coordinated by prices" },
+              { id: "a", text: "Consumer spending and producers' profit incentives, coordinated by prices" },
+              { id: "b", text: "Central government planners issuing production orders" },
               { id: "c", text: "A national lottery allocating goods to households" },
               { id: "d", text: "Historical custom with no role for prices" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -303,12 +303,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Governments" },
-              { id: "b", text: "Consumers" },
-              { id: "c", text: "Firms" },
-              { id: "d", text: "Central banks" },
+              { id: "a", text: "Consumers" },
+              { id: "b", text: "Firms" },
+              { id: "c", text: "Central banks" },
+              { id: "d", text: "Governments" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -331,12 +331,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Clean drinking water" },
-              { id: "b", text: "A second television for the living room" },
+              { id: "a", text: "A second television for the living room" },
+              { id: "b", text: "Clean drinking water" },
               { id: "c", text: "Basic medical treatment" },
               { id: "d", text: "Nutritious food" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -436,12 +436,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "How to eliminate all poverty" },
-              { id: "b", text: "How to produce unlimited goods with unlimited resources" },
-              { id: "c", text: "The fact that unlimited wants exceed finite resources, forcing choices" },
+              { id: "a", text: "The fact that unlimited wants exceed finite resources, forcing choices" },
+              { id: "b", text: "How to eliminate all poverty" },
+              { id: "c", text: "How to produce unlimited goods with unlimited resources" },
               { id: "d", text: "The instability of financial markets" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -496,10 +496,10 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The total money spent on the choice" },
-              { id: "b", text: "All the alternatives that were possible" },
+              { id: "a", text: "The cost that cannot be recovered" },
+              { id: "b", text: "The total money spent on the choice" },
               { id: "c", text: "The next best alternative forgone" },
-              { id: "d", text: "The cost that cannot be recovered" },
+              { id: "d", text: "All the alternatives that were possible" },
             ],
             correctChoiceId: "c",
           },
@@ -603,9 +603,9 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The $10 spent on lunch" },
+              { id: "a", text: "The enjoyment received from the lunch" },
               { id: "b", text: "Whatever else the $10 could have bought — the next best alternative" },
-              { id: "c", text: "The enjoyment received from the lunch" },
+              { id: "c", text: "The $10 spent on lunch" },
               { id: "d", text: "Zero, because lunch was necessary" },
             ],
             correctChoiceId: "b",
@@ -631,12 +631,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Marginal benefit is less than marginal cost" },
-              { id: "b", text: "Marginal benefit exceeds marginal cost" },
-              { id: "c", text: "All costs have already been paid" },
-              { id: "d", text: "Total revenue equals total cost" },
+              { id: "a", text: "Total revenue equals total cost" },
+              { id: "b", text: "All costs have already been paid" },
+              { id: "c", text: "Marginal benefit exceeds marginal cost" },
+              { id: "d", text: "Marginal benefit is less than marginal cost" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -659,12 +659,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A cost that will be incurred in the future" },
-              { id: "b", text: "A cost already incurred that cannot be recovered" },
+              { id: "a", text: "A cost already incurred that cannot be recovered" },
+              { id: "b", text: "A cost that will be incurred in the future" },
               { id: "c", text: "The next best alternative forgone" },
               { id: "d", text: "The extra cost of producing one more unit" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -814,11 +814,11 @@ export const lesson11: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$40" },
-              { id: "b", text: "$25 — the next best alternative forgone" },
-              { id: "c", text: "$65" },
-              { id: "d", text: "The enjoyment of the concert" },
+              { id: "b", text: "The enjoyment of the concert" },
+              { id: "c", text: "$25 — the next best alternative forgone" },
+              { id: "d", text: "$65" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -841,12 +841,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A non-refundable concert ticket already purchased" },
-              { id: "b", text: "Next month's rent payment" },
+              { id: "a", text: "Next month's rent payment" },
+              { id: "b", text: "A non-refundable concert ticket already purchased" },
               { id: "c", text: "The expected salary from a future job" },
               { id: "d", text: "The cost of raw materials for tomorrow's production" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [

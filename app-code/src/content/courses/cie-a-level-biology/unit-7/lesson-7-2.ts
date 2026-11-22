@@ -52,12 +52,12 @@ export const lesson712: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Carrier" },
-              { id: "b", text: "Affected male" },
-              { id: "c", text: "Unaffected female" },
-              { id: "d", text: "Deceased" },
+              { id: "a", text: "Unaffected female" },
+              { id: "b", text: "Deceased" },
+              { id: "c", text: "Carrier" },
+              { id: "d", text: "Affected male" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Pedigree symbols", statement: "Half-filled = heterozygous carrier." }],
@@ -125,6 +125,234 @@ export const lesson712: Lesson = {
             finalAnswer: "(a) symbols (b) Aa×Aa (c) allele proportion (d) moves alleles, ↑variation",
           },
         },
+        {
+          id: "cial-b-u7-pd-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "In a pedigree chart, what does a square symbol represent?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Female" },
+              { id: "b", text: "Unaffected" },
+              { id: "c", text: "Carrier" },
+              { id: "d", text: "Male" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [{ kind: "definition", name: "Pedigree symbols", statement: "Square = male, circle = female." }],
+            steps: [{ reasoning: "Squares represent males.", marks: 1, markCode: "A" }],
+            finalAnswer: "Male",
+          },
+        },
+        {
+          id: "cial-b-u7-pd-q6",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "A pedigree shows the disorder affecting every generation, with males and females equally affected. What is the most likely inheritance pattern?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Y-linked" },
+              { id: "b", text: "X-linked recessive" },
+              { id: "c", text: "Autosomal recessive" },
+              { id: "d", text: "Autosomal dominant" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [{ kind: "principle", name: "Pedigree interpretation", statement: "Every generation + both sexes = autosomal dominant." }],
+            steps: [{ reasoning: "No skipping generations and equal sex ratio suggest dominant.", marks: 1, markCode: "A" }],
+            finalAnswer: "Autosomal dominant",
+          },
+        },
+        {
+          id: "cial-b-u7-pd-q7",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "Two carrier parents (Aa × Aa) for an autosomal recessive disorder have four children. How many children are expected to show the disorder?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 1, unit: "child" }],
+          },
+          markscheme: {
+            principles: [{ kind: "law", name: "Recessive cross", statement: "Aa × Aa → 1/4 affected (aa)." }],
+            steps: [
+              { reasoning: "P(affected) = 1/4.", marks: 1, markCode: "M" },
+              { reasoning: "$4 \\times \\frac{1}{4} = 1$ child.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "1 child",
+          },
+        },
+        {
+          id: "cial-b-u7-pd-q8",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Unaffected siblings of a child with an autosomal recessive disorder have carrier parents (Aa × Aa). What is the probability that a randomly chosen UNAFFECTED sibling is a carrier (Aa)?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 0.6667 }],
+          },
+          markscheme: {
+            principles: [{ kind: "law", name: "Carrier probability", statement: "Of unaffected offspring (AA or Aa), 2/3 are carriers." }],
+            steps: [{ reasoning: "Unaffected = AA or Aa; carriers = 2 of the 3 unaffected genotypes → 2/3 ≈ 0.6667.", marks: 1, markCode: "A" }],
+            finalAnswer: "0.6667",
+          },
+        },
+        {
+          id: "cial-b-u7-pd-q9",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "In X-linked recessive inheritance, an affected father passes his allele to...",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "All his sons" },
+              { id: "b", text: "All his daughters (as carriers) but no sons" },
+              { id: "c", text: "Half his daughters and half his sons" },
+              { id: "d", text: "Neither sons nor daughters" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [{ kind: "law", name: "X-linkage", statement: "Father gives X to daughters, Y to sons." }],
+            steps: [{ reasoning: "All daughters receive father's X; sons receive his Y.", marks: 1, markCode: "A" }],
+            finalAnswer: "All daughters, no sons",
+          },
+        },
+        {
+          id: "cial-b-u7-pd-q10",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "In genetics, a 'carrier' is...",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "A heterozygous individual with a recessive allele who is unaffected" },
+              { id: "b", text: "An individual showing the dominant phenotype" },
+              { id: "c", text: "Any male in a pedigree" },
+              { id: "d", text: "An affected homozygous recessive individual" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [{ kind: "definition", name: "Carrier", statement: "Heterozygous, unaffected, carries recessive allele." }],
+            steps: [{ reasoning: "Carrier = Aa, unaffected.", marks: 1, markCode: "A" }],
+            finalAnswer: "Heterozygous unaffected individual",
+          },
+        },
+        {
+          id: "cial-b-u7-pd-q11",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "Explain how you would distinguish autosomal dominant from autosomal recessive inheritance using a pedigree.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [{ kind: "technique", name: "Pedigree interpretation", statement: "Dominant: every generation; recessive: skips generations." }],
+            steps: [
+              { reasoning: "Check whether the trait appears in every generation — dominant traits rarely skip.", marks: 1, markCode: "M" },
+              { reasoning: "Recessive traits can skip generations and unaffected parents can have affected children.", marks: 1, markCode: "M" },
+              { reasoning: "Compare sexes affected — both patterns affect sexes equally on autosomes.", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "Dominant=every generation; recessive=skips generations",
+          },
+        },
+        {
+          id: "cial-b-u7-pd-q12",
+          difficulty: "challenge",
+          totalMarks: 2,
+          stem: "A carrier mother (X$^CX^c$) and a man with normal vision (X$^CY$) have three sons. How many of the sons are expected to be colour blind?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 1.5, unit: "sons" }],
+          },
+          markscheme: {
+            principles: [{ kind: "law", name: "X-linkage", statement: "Sons get Y from father and X$^C$ or X$^c$ from mother." }],
+            steps: [
+              { reasoning: "P(colour-blind son) = 1/2 per son.", marks: 1, markCode: "M" },
+              { reasoning: "$3 \\times \\frac{1}{2} = 1.5$ sons.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "1.5 sons",
+          },
+        },
+        {
+          id: "cial-b-u7-pd-q13",
+          difficulty: "challenge",
+          totalMarks: 1,
+          stem: "Which pedigree feature most strongly suggests X-linked recessive inheritance?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Mostly males affected and no father-to-son transmission" },
+              { id: "b", text: "Every generation affected" },
+              { id: "c", text: "Trait skips generations in both sexes equally" },
+              { id: "d", text: "Only females affected" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [{ kind: "principle", name: "Pedigree interpretation", statement: "More males + no father→son = X-linked recessive." }],
+            steps: [{ reasoning: "Male bias and no father-to-son transmission indicate X-linkage.", marks: 1, markCode: "A" }],
+            finalAnswer: "More males, no father-to-son",
+          },
+        },
+        {
+          id: "cial-b-u7-pd-q14",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "If two unaffected parents have a child affected by a genetic disorder, the disorder must be...",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Sex-linked dominant" },
+              { id: "b", text: "Recessive" },
+              { id: "c", text: "Caused by the environment" },
+              { id: "d", text: "Dominant" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [{ kind: "law", name: "Recessive inheritance", statement: "Unaffected parents of affected child must both be carriers." }],
+            steps: [{ reasoning: "Both parents contributed a recessive allele → recessive disorder.", marks: 1, markCode: "A" }],
+            finalAnswer: "Recessive",
+          },
+        },
+        {
+          id: "cial-b-u7-pd-q15",
+          difficulty: "challenge",
+          totalMarks: 2,
+          stem: "In a population in Hardy-Weinberg equilibrium, 1 in 100 individuals is affected by an autosomal recessive disorder (aa). What is the frequency of the recessive allele a in the population?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 0.1 }],
+          },
+          markscheme: {
+            principles: [{ kind: "law", name: "Hardy-Weinberg", statement: "$q^2$ = frequency of affected (aa)." }],
+            steps: [
+              { reasoning: "$q^2 = \\frac{1}{100} = 0.01$.", marks: 1, markCode: "M" },
+              { reasoning: "$q = \\sqrt{0.01} = 0.1$.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "0.1",
+          },
+        },
+        {
+          id: "cial-b-u7-pd-q16",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "Unaffected parents have a son affected by haemophilia (X-linked recessive). Give the parents' genotypes and the probability that their next child is an affected son.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [{ kind: "law", name: "X-linkage", statement: "Affected son gets X$^h$ from carrier mother and Y from father." }],
+            steps: [
+              { reasoning: "Father is unaffected: X$^HY$.", marks: 1, markCode: "M" },
+              { reasoning: "Mother must be a carrier: X$^HX^h$.", marks: 1, markCode: "M" },
+              { reasoning: "P(son) = 1/2 and P(transmit X$^h$ | son) = 1/2.", marks: 1, markCode: "M" },
+              { reasoning: "P(affected son) = $\\frac{1}{2} \\times \\frac{1}{2} = \\frac{1}{4}$ of all children.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "Mother X$^HX^h$, father X$^HY$; P(affected son) = 1/4",
+          },
+        },
       ],
     },
     {
@@ -166,8 +394,8 @@ export const lesson712: Lesson = {
             choices: [
               { id: "a", text: "Allele frequencies in a population" },
               { id: "b", text: "The number of species" },
-              { id: "c", text: "An individual's DNA" },
-              { id: "d", text: "The environment" },
+              { id: "c", text: "The environment" },
+              { id: "d", text: "An individual's DNA" },
             ],
             correctChoiceId: "a",
           },
@@ -235,6 +463,234 @@ export const lesson712: Lesson = {
               { part: "d", reasoning: "Isolation allows divergence until interbreeding fails.", marks: 1, markCode: "B" },
             ],
             finalAnswer: "(a) allele proportion (b) mutation/selection/flow/drift (c) subset alleles (d) prevents gene flow",
+          },
+        },
+        {
+          id: "cial-b-u7-gp-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "The gene pool of a population refers to...",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "The largest individual in the population" },
+              { id: "b", text: "The total number of organisms" },
+              { id: "c", text: "The most common phenotype" },
+              { id: "d", text: "All the alleles of all genes in the population" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [{ kind: "definition", name: "Gene pool", statement: "All alleles at all loci in a population." }],
+            steps: [{ reasoning: "Gene pool = all alleles in the population.", marks: 1, markCode: "A" }],
+            finalAnswer: "All alleles of all genes",
+          },
+        },
+        {
+          id: "cial-b-u7-gp-q6",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Allele frequency is best defined as...",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "The proportion of a particular allele among all copies of that gene" },
+              { id: "b", text: "The number of species in a habitat" },
+              { id: "c", text: "The number of genes in an organism" },
+              { id: "d", text: "The rate of mutation" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [{ kind: "definition", name: "Allele frequency", statement: "Copies of allele / total copies of gene." }],
+            steps: [{ reasoning: "Frequency is a proportion of the gene pool.", marks: 1, markCode: "A" }],
+            finalAnswer: "Proportion of allele copies",
+          },
+        },
+        {
+          id: "cial-b-u7-gp-q7",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "A population of 500 diploid individuals has 1000 gene copies at one locus, of which 400 are allele A. What is the frequency of allele A?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 0.4 }],
+          },
+          markscheme: {
+            principles: [{ kind: "definition", name: "Allele frequency", statement: "Frequency = copies of allele / total copies." }],
+            steps: [
+              { reasoning: "$\\frac{400}{1000}$.", marks: 1, markCode: "M" },
+              { reasoning: "= 0.4.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "0.4",
+          },
+        },
+        {
+          id: "cial-b-u7-gp-q8",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "If the frequency of allele A in a population is 0.7, what is the frequency of allele a?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 0.3 }],
+          },
+          markscheme: {
+            principles: [{ kind: "definition", name: "Allele frequency", statement: "Allele frequencies sum to 1." }],
+            steps: [{ reasoning: "$a = 1 - 0.7 = 0.3$.", marks: 1, markCode: "A" }],
+            finalAnswer: "0.3",
+          },
+        },
+        {
+          id: "cial-b-u7-gp-q9",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Genetic drift (random change in allele frequency) has the strongest effect in...",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Climax communities" },
+              { id: "b", text: "Very large populations" },
+              { id: "c", text: "Populations with no predators" },
+              { id: "d", text: "Small populations" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [{ kind: "principle", name: "Genetic drift", statement: "Random sampling effects dominate in small populations." }],
+            steps: [{ reasoning: "Drift is strongest when population size is small.", marks: 1, markCode: "A" }],
+            finalAnswer: "Small populations",
+          },
+        },
+        {
+          id: "cial-b-u7-gp-q10",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "The founder effect occurs when...",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "A population crashes to near extinction" },
+              { id: "b", text: "Two species interbreed" },
+              { id: "c", text: "A small group colonises a new area carrying only a subset of the original alleles" },
+              { id: "d", text: "A dominant allele spreads" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [{ kind: "definition", name: "Founder effect", statement: "Small founding group → limited alleles → divergence." }],
+            steps: [{ reasoning: "Founders carry a subset of alleles to the new area.", marks: 1, markCode: "A" }],
+            finalAnswer: "Subset of alleles in new colony",
+          },
+        },
+        {
+          id: "cial-b-u7-gp-q11",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "Explain why a population bottleneck reduces genetic diversity.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [{ kind: "principle", name: "Bottleneck effect", statement: "Population crash → loss of alleles by chance." }],
+            steps: [
+              { reasoning: "A bottleneck is a drastic, sudden reduction in population size.", marks: 1, markCode: "M" },
+              { reasoning: "Survivors carry only a subset of the original alleles.", marks: 1, markCode: "M" },
+              { reasoning: "Rebuilding population from few survivors → reduced genetic diversity.", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "Crash → subset of alleles → less diversity",
+          },
+        },
+        {
+          id: "cial-b-u7-gp-q12",
+          difficulty: "challenge",
+          totalMarks: 2,
+          stem: "An island population becomes isolated from the mainland. Allele A has frequency 0.5 on the island and 0.8 on the mainland. After isolation, the island frequency changes to 0.6. By how much did the island allele frequency change?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 0.1 }],
+          },
+          markscheme: {
+            principles: [{ kind: "definition", name: "Allele frequency change", statement: "Change = final − initial frequency (genetic drift)." }],
+            steps: [
+              { reasoning: "$0.6 - 0.5$.", marks: 1, markCode: "M" },
+              { reasoning: "= 0.1.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "0.1",
+          },
+        },
+        {
+          id: "cial-b-u7-gp-q13",
+          difficulty: "challenge",
+          totalMarks: 1,
+          stem: "Which of the following does NOT change allele frequencies in a population?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "An individual's learning during its lifetime" },
+              { id: "b", text: "Gene flow" },
+              { id: "c", text: "Mutation" },
+              { id: "d", text: "Natural selection" },
+            ],
+            correctChoiceIa: "d",
+          },
+          markscheme: {
+            principles: [{ kind: "principle", name: "Evolution", statement: "Only heritable changes affect allele frequencies." }],
+            steps: [{ reasoning: "Learning is not heritable — it cannot change the gene pool.", marks: 1, markCode: "A" }],
+            finalAnswer: "Individual learning",
+          },
+        },
+        {
+          id: "cial-b-u7-gp-q14",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Which is an example of reproductive isolation?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Two populations with different colours" },
+              { id: "b", text: "Two populations living at different altitudes" },
+              { id: "c", text: "Two populations breeding in different seasons (temporal isolation)" },
+              { id: "d", text: "Two populations eating different foods" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [{ kind: "definition", name: "Reproductive isolation", statement: "Prevents interbreeding — geographic, ecological, temporal, behavioural." }],
+            steps: [{ reasoning: "Different breeding times = temporal isolation.", marks: 1, markCode: "A" }],
+            finalAnswer: "Temporal isolation",
+          },
+        },
+        {
+          id: "cial-b-u7-gp-q15",
+          difficulty: "challenge",
+          totalMarks: 2,
+          stem: "The frequency of allele a in a population rises from 0.10 to 0.30 over several generations. What is the absolute change in allele frequency?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 0.2 }],
+          },
+          markscheme: {
+            principles: [{ kind: "definition", name: "Allele frequency change", statement: "Change = final − initial." }],
+            steps: [
+              { reasoning: "$0.30 - 0.10$.", marks: 1, markCode: "M" },
+              { reasoning: "= 0.2.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "0.2",
+          },
+        },
+        {
+          id: "cial-b-u7-gp-q16",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "Explain how geographic isolation can lead to speciation, using the concepts of gene flow and allele frequency.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [{ kind: "principle", name: "Speciation", statement: "No gene flow → allele frequencies diverge → reproductive isolation." }],
+            steps: [
+              { reasoning: "A geographic barrier physically separates one population into two.", marks: 1, markCode: "M" },
+              { reasoning: "Gene flow between the groups stops completely.", marks: 1, markCode: "M" },
+              { reasoning: "Different selection and drift make allele frequencies diverge in each group.", marks: 1, markCode: "M" },
+              { reasoning: "Eventually reproductive isolation evolves → they can no longer interbreed → new species.", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "Barrier → no gene flow → divergence → speciation",
           },
         },
       ],

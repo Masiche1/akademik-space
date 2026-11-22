@@ -52,12 +52,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$60\\ \\text{km/h}$" },
-              { id: "b", text: "$80\\ \\text{km/h}$" },
-              { id: "c", text: "$720\\ \\text{km/h}$" },
-              { id: "d", text: "$0.8\\ \\text{km/h}$" },
+              { id: "a", text: "$0.8\\ \\text{km/h}$" },
+              { id: "b", text: "$720\\ \\text{km/h}$" },
+              { id: "c", text: "$80\\ \\text{km/h}$" },
+              { id: "d", text: "$60\\ \\text{km/h}$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -149,6 +149,285 @@ export const lesson22: Lesson = {
             commonErrors: ["In (b) declaring A faster because $180>150$ — ignores different times."],
           },
         },
+        {
+          id: "cilm-u2-rt-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "A car travels $150\\ \\text{km}$ in $2.5$ hours. What is its average speed?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$60\\ \\text{km/h}$" },
+              { id: "b", text: "$55\\ \\text{km/h}$" },
+              { id: "c", text: "$62.5\\ \\text{km/h}$" },
+              { id: "d", text: "$375\\ \\text{km/h}$" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              { kind: "convention", name: "Speed", statement: "$150\\div2.5=60$ km/h." },
+            ],
+            steps: [
+              { reasoning: "$150\\div2.5=60\\ \\text{km/h}$.", working: "150\\div2.5=60", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** $60\\ \\text{km/h}$",
+            commonErrors: ["Choosing (b) — multiplying distance by time instead of dividing."],
+          },
+        },
+        {
+          id: "cilm-u2-rt-q6",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "A cyclist travels $90\\ \\text{km}$ at $45\\ \\text{km/h}$. How long does the journey take?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$4$ hours" },
+              { id: "b", text: "$2$ hours" },
+              { id: "c", text: "$1.5$ hours" },
+              { id: "d", text: "$45$ minutes" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              { kind: "convention", name: "Speed triangle", statement: "Time $=$ distance $\\div$ speed $=90\\div45$." },
+            ],
+            steps: [
+              { reasoning: "$90\\div45=2$ hours.", working: "90\\div45=2", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** $2$ hours",
+            commonErrors: ["Choosing (c) — dividing 90 by 60 instead of by the speed."],
+          },
+        },
+        {
+          id: "cilm-u2-rt-q7",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Which is better value: $4$ bags of crisps for $\\pounds6$ or $7$ bags for $\\pounds10$?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Cannot tell" },
+              { id: "b", text: "The $4$-bag pack" },
+              { id: "c", text: "The $7$-bag pack" },
+              { id: "d", text: "They are equal value" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Unit rate comparison", statement: "Per bag: $\\pounds1.50$ vs $\\pounds1.43$ — the 7-bag pack is cheaper." },
+            ],
+            steps: [
+              { reasoning: "$6\\div4=1.50$; $10\\div7\\approx1.43$ — lower unit rate wins.", working: "1.50 \\text{ vs } 1.43", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(b)** The $7$-bag pack ($\\approx\\pounds1.43$ vs $\\pounds1.50$ per bag)",
+            commonErrors: ["Choosing (a) — lower total price does not mean lower unit price."],
+          },
+        },
+        {
+          id: "cilm-u2-rt-q8",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "A metal block has mass $240\\ \\text{g}$ and volume $60\\ \\text{cm}^3$. Find its density in $\\text{g/cm}^3$.",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$14\\,400\\ \\text{g/cm}^3$" },
+              { id: "b", text: "$180\\ \\text{g/cm}^3$" },
+              { id: "c", text: "$4\\ \\text{g/cm}^3$" },
+              { id: "d", text: "$0.25\\ \\text{g/cm}^3$" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              { kind: "convention", name: "Density", statement: "Density $=$ mass $\\div$ volume $=240\\div60$." },
+            ],
+            steps: [
+              { reasoning: "$240\\div60=4\\ \\text{g/cm}^3$.", working: "240\\div60=4", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** $4\\ \\text{g/cm}^3$",
+            commonErrors: ["Choosing (b) — dividing volume by mass instead of mass by volume."],
+          },
+        },
+        {
+          id: "cilm-u2-rt-q9",
+          difficulty: "challenge",
+          totalMarks: 1,
+          stem: "A delivery van travels $200\\ \\text{km}$ in $2$ hours, then $100\\ \\text{km}$ in $1$ hour. What is its average speed for the whole journey?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$150\\ \\text{km/h}$" },
+              { id: "b", text: "$75\\ \\text{km/h}$" },
+              { id: "c", text: "$125\\ \\text{km/h}$" },
+              { id: "d", text: "$100\\ \\text{km/h}$" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Average speed", statement: "Total distance $\\div$ total time $=300\\div3$." },
+            ],
+            steps: [
+              { reasoning: "Total distance $300$ km, total time $3$ h → $300\\div3=100$ km/h.", working: "300\\div3=100", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** $100\\ \\text{km/h}$",
+            commonErrors: ["Choosing (d) — averaging the two speeds is wrong; use total distance and total time."],
+          },
+        },
+        {
+          id: "cilm-u2-rt-q10",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "A car travels at a steady $55\\ \\text{km/h}$ for $3.5$ hours. How far does it travel?",
+          response: { type: "numeric", parts: [{ label: "Answer", answer: 192.5, unit: "km" }] },
+          markscheme: {
+            principles: [
+              { kind: "formula", name: "Distance", statement: "Distance $=$ speed $\\times$ time." },
+            ],
+            steps: [
+              { reasoning: "$55\\times3.5=192.5$ km.", working: "55\\times3.5=192.5", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$192.5\\ \\text{km}$",
+            commonErrors: ["$55+3.5$ or $55\\div3.5$ — distance needs multiplication."],
+          },
+        },
+        {
+          id: "cilm-u2-rt-q11",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "(a) Find the speed of a train that travels $240\\ \\text{km}$ in $3$ hours. (b) How long does it take to travel $350\\ \\text{km}$ at $70\\ \\text{km/h}$?",
+          response: { type: "numeric", parts: [{ label: "(a)", answer: 80, unit: "km/h" }, { label: "(b)", answer: 5, unit: "hours" }] },
+          markscheme: {
+            principles: [
+              { kind: "formula", name: "Speed", statement: "$s=d/t$; $t=d/s$." },
+            ],
+            steps: [
+              { reasoning: "(a) $240\\div3=80$ km/h.", working: "240\\div3=80", marks: 1, markCode: "A" },
+              { reasoning: "(b) $350\\div70=5$ hours.", working: "350\\div70=5", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "(a) $80$ km/h (b) $5$ hours",
+            commonErrors: ["In (b) multiplying $350\\times70$ — time is distance divided by speed."],
+          },
+        },
+        {
+          id: "cilm-u2-rt-q12",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "A tap fills a tank with $45$ litres of water in $6$ minutes. What is the flow rate in litres per minute?",
+          response: { type: "numeric", parts: [{ label: "Answer", answer: 7.5, unit: "litres/min" }] },
+          markscheme: {
+            principles: [
+              { kind: "convention", name: "Rate", statement: "Rate $=$ quantity $\\div$ units." },
+            ],
+            steps: [
+              { reasoning: "$45\\div6=7.5$ litres per minute.", working: "45\\div6=7.5", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$7.5$ litres/min",
+            commonErrors: ["$0.133$ — dividing minutes by litres inverts the rate."],
+          },
+        },
+        {
+          id: "cilm-u2-rt-q13",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "A cyclist covers $40\\ \\text{km}$ in $2.5$ hours. (a) Find her average speed. (b) How long would $64\\ \\text{km}$ take at the same speed?",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Speed problems", statement: "Find speed, then rearrange for time." },
+            ],
+            steps: [
+              { reasoning: "Speed $=40\\div2.5=16$ km/h.", working: "40\\div2.5=16", marks: 1, markCode: "M" },
+              { reasoning: "Time $=64\\div16=4$ hours.", working: "64\\div16=4", marks: 1, markCode: "M" },
+              { reasoning: "Answers: $16$ km/h; $4$ hours.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$16\\ \\text{km/h}$; $4$ hours",
+            commonErrors: ["$64-40=24$ km ÷ $16$ — difference is not proportional; use the speed."],
+          },
+        },
+        {
+          id: "cilm-u2-rt-q14",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "Which is better value: $500\\ \\text{g}$ of rice for $\\pounds2.40$ or $750\\ \\text{g}$ for $\\pounds3.90$? Justify your answer.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Unit rate comparison", statement: "Compare price per 100 g." },
+            ],
+            steps: [
+              { reasoning: "Deal 1: $2.40\\div5=\\pounds0.48$ per 100 g.", working: "2.40\\div5=0.48", marks: 1, markCode: "M" },
+              { reasoning: "Deal 2: $3.90\\div7.5=\\pounds0.52$ per 100 g.", working: "3.90\\div7.5=0.52", marks: 1, markCode: "M" },
+              { reasoning: "Deal 1 is cheaper per 100 g — better value despite smaller pack.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$500\\ \\text{g}$ for $\\pounds2.40$ is better value ($\\pounds0.48$ vs $\\pounds0.52$ per 100 g)",
+            commonErrors: ["Choosing the larger pack because it 'looks' better value — unit price decides."],
+          },
+        },
+        {
+          id: "cilm-u2-rt-q15",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "A bus journey has two parts: $120\\ \\text{km}$ in $1.5$ hours, then $80\\ \\text{km}$ in $1$ hour. Find the average speed for the whole journey.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Average speed", statement: "Total distance $\\div$ total time — not the average of the two speeds." },
+            ],
+            steps: [
+              { reasoning: "Total distance $=120+80=200$ km; total time $=1.5+1=2.5$ h.", working: "200 \\text{ km},\\ 2.5\\text{ h}", marks: 1, markCode: "M" },
+              { reasoning: "Average speed $=200\\div2.5$.", working: "200\\div2.5", marks: 1, markCode: "M" },
+              { reasoning: "$=80$ km/h.", marks: 1, markCode: "M" },
+              { reasoning: "Check: speeds were $80$ and $80$ km/h — consistent.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$80\\ \\text{km/h}$",
+            commonErrors: ["Averaging $80$ and $80$ works here only coincidentally; method must be total $\\div$ total."],
+          },
+        },
+        {
+          id: "cilm-u2-rt-q16",
+          difficulty: "challenge",
+          totalMarks: 7,
+          stem: "A train travels between two cities.",
+          parts: [
+            { label: "a", prompt: "It covers $180\\ \\text{km}$ in $2$ hours. Find its speed.", marks: 2 },
+            { label: "b", prompt: "How long would $270\\ \\text{km}$ take at this speed?", marks: 2 },
+            { label: "c", prompt: "The return journey is $240\\ \\text{km}$ and takes $3$ hours. Find the average speed for the return.", marks: 2 },
+            { label: "d", prompt: "Explain why 'average speed' is not simply the speed at every moment.", marks: 1 },
+          ],
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Speed in context", statement: "$s=d/t$; rearrange for time; average = total/total." },
+            ],
+            steps: [
+              { part: "a", reasoning: "$180\\div2=90$ km/h.", working: "180\\div2=90", marks: 1, markCode: "M" },
+              { part: "a", reasoning: "Correct.", marks: 1, markCode: "A" },
+              { part: "b", reasoning: "$270\\div90=3$ hours.", working: "270\\div90=3", marks: 1, markCode: "M" },
+              { part: "b", reasoning: "Correct.", marks: 1, markCode: "A" },
+              { part: "c", reasoning: "$240\\div3=80$ km/h.", working: "240\\div3=80", marks: 1, markCode: "M" },
+              { part: "c", reasoning: "Correct.", marks: 1, markCode: "A" },
+              { part: "d", reasoning: "Speed varies during the journey (stops, traffic); average = total distance $\\div$ total time.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "(a) $90$ km/h (b) $3$ hours (c) $80$ km/h (d) speed varies; average uses totals",
+            levels: [
+              { level: "Level 2", marks: "1-2", descriptor: "Speed correct.", part: "a" },
+              { level: "Level 1", marks: "0", descriptor: "Wrong.", part: "a" },
+              { level: "Level 2", marks: "1-2", descriptor: "Time correct.", part: "b" },
+              { level: "Level 1", marks: "0", descriptor: "Wrong.", part: "b" },
+              { level: "Level 2", marks: "1-2", descriptor: "Return speed correct.", part: "c" },
+              { level: "Level 1", marks: "0", descriptor: "Wrong.", part: "c" },
+              { level: "Level 2", marks: "1", descriptor: "Explained.", part: "d" },
+              { level: "Level 1", marks: "0", descriptor: "Missing.", part: "d" },
+            ],
+            commonErrors: ["In (b) computing $270-180=90$ km then dividing — scale by speed, not difference."],
+          },
+        },
       ],
     },
     {
@@ -188,12 +467,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$5$" },
+              { id: "a", text: "$0.2$" },
               { id: "b", text: "$12$" },
-              { id: "c", text: "$45$" },
-              { id: "d", text: "$0.2$" },
+              { id: "c", text: "$5$" },
+              { id: "d", text: "$45$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -283,6 +562,285 @@ export const lesson22: Lesson = {
               { level: "Level 1", marks: "0", descriptor: "Vague.", part: "d" },
             ],
             commonErrors: ["In (c) answering $12.5$ posters — must interpret in context."],
+          },
+        },
+        {
+          id: "cilm-u2-dp-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "$y$ is directly proportional to $x$. When $x=4$, $y=20$. What is the value of $k$?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$0.2$" },
+              { id: "b", text: "$5$" },
+              { id: "c", text: "$80$" },
+              { id: "d", text: "$16$" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              { kind: "convention", name: "Constant of proportion", statement: "$k=\\frac{y}{x}=\\frac{20}{4}=5$." },
+            ],
+            steps: [
+              { reasoning: "$k=20\\div4=5$.", working: "k=5", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** $5$",
+            commonErrors: ["Choosing (b) — $20\\times4$ confuses $k$ with the product."],
+          },
+        },
+        {
+          id: "cilm-u2-dp-q6",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "$y$ is directly proportional to $x$. When $x=6$, $y=9$. What is $y$ when $x=10$?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$15$" },
+              { id: "b", text: "$13.5$" },
+              { id: "c", text: "$54$" },
+              { id: "d", text: "$10$" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Direct proportion", statement: "$k=\\frac{9}{6}=1.5$; $y=1.5\\times10=15$." },
+            ],
+            steps: [
+              { reasoning: "$k=1.5$; $y=1.5\\times10=15$.", working: "1.5\\times10=15", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** $15$",
+            commonErrors: ["Choosing (b) — $9\\times10$ forgets to normalise by $x=6$ first."],
+          },
+        },
+        {
+          id: "cilm-u2-dp-q7",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Which of these is NOT an example of direct proportion?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$y=\\frac{x}{3}$" },
+              { id: "b", text: "$y=2x+5$" },
+              { id: "c", text: "$y=0.5x$" },
+              { id: "d", text: "$y=4x$" },
+            ],
+            borrectChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              { kind: "definition", name: "Direct proportion", statement: "$y=kx$ only — no added constant." },
+            ],
+            steps: [
+              { reasoning: "$y=2x+5$ has a fixed $+5$ — the graph misses the origin, so not direct proportion.", working: "y=2x+5 \\text{ has intercept}", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(c)** $y=2x+5$",
+            commonErrors: ["Choosing (b) — $y=\\frac{x}{3}$ is $y=kx$ with $k=\\frac{1}{3}$."],
+          },
+        },
+        {
+          id: "cilm-u2-dp-q8",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Fabric costs $\\pounds4$ per metre. How much does $5$ metres cost?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$\\pounds24$" },
+              { id: "b", text: "$\\pounds1.25$" },
+              { id: "c", text: "$\\pounds20$" },
+              { id: "d", text: "$\\pounds9$" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Direct proportion application", statement: "Cost $=4\\times5=\\pounds20$." },
+            ],
+            steps: [
+              { reasoning: "$4\\times5=\\pounds20$.", working: "4\\times5=20", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** $\\pounds20$",
+            commonErrors: ["Choosing (b) — adding instead of multiplying the rate."],
+          },
+        },
+        {
+          id: "cilm-u2-dp-q9",
+          difficulty: "challenge",
+          totalMarks: 1,
+          stem: "$3\\ \\text{kg}$ of apples costs $\\pounds4.80$. Assuming direct proportion, what does $7\\ \\text{kg}$ cost?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$\\pounds11.20$" },
+              { id: "b", text: "$\\pounds8.40$" },
+              { id: "c", text: "$\\pounds7.20$" },
+              { id: "d", text: "$\\pounds33.60$" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Direct proportion", statement: "Price per kg $=1.60$; $7\\times1.60=11.20$." },
+            ],
+            steps: [
+              { reasoning: "$k=4.80\\div3=1.60$; $C=1.60\\times7=\\pounds11.20$.", working: "1.60\\times7=11.20", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** $\\pounds11.20$",
+            commonErrors: ["Choosing (b) — scaling by $\\frac{7}{3}$ incorrectly applied."],
+          },
+        },
+        {
+          id: "cilm-u2-dp-q10",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "$y$ is directly proportional to $x$. When $x=6$, $y=24$. Find $y$ when $x=10$.",
+          response: { type: "numeric", parts: [{ label: "Answer", answer: 40 }] },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Direct proportion", statement: "$k=4$; $y=4\\times10=40$." },
+            ],
+            steps: [
+              { reasoning: "$k=24\\div6=4$; $y=4\\times10=40$.", working: "4\\times10=40", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$40$",
+            commonErrors: ["$24+4\\times4$ — proportional means multiply by ratio $\\frac{10}{6}$."],
+          },
+        },
+        {
+          id: "cilm-u2-dp-q11",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "$y$ is directly proportional to $x$. When $x=2$, $y=14$. (a) Find $y$ when $x=7$. (b) Find $x$ when $y=35$.",
+          response: { type: "numeric", parts: [{ label: "(a)", answer: 49 }, { label: "(b)", answer: 5 }] },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Direct proportion", statement: "$k=7$; use $y=kx$ forward and backward." },
+            ],
+            steps: [
+              { reasoning: "(a) $k=14\\div2=7$; $y=7\\times7=49$.", working: "7\\times7=49", marks: 1, markCode: "A" },
+              { reasoning: "(b) $35=7x$ → $x=5$.", working: "35\\div7=5", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "(a) $49$ (b) $x=5$",
+            commonErrors: ["In (b) answering $y=35$ — the question asks for $x$."],
+          },
+        },
+        {
+          id: "cilm-u2-dp-q12",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "A car uses $8$ litres of fuel for every $100\\ \\text{km}$. Assuming direct proportion, how much fuel does it use for $250\\ \\text{km}$?",
+          response: { type: "numeric", parts: [{ label: "Answer", answer: 20, unit: "litres" }] },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Direct proportion application", statement: "Fuel per km is constant: $8\\times2.5=20$ litres." },
+            ],
+            steps: [
+              { reasoning: "$250\\div100=2.5$; $8\\times2.5=20$ litres.", working: "8\\times2.5=20", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$20$ litres",
+            commonErrors: ["$8\\times250$ — must scale by the ratio of distances, not multiply directly."],
+          },
+        },
+        {
+          id: "cilm-u2-dp-q13",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "The cost $C$ of printing $n$ posters is $C = 2.5n$ pounds.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Formula in context", statement: "Substitute for cost; rearrange to find quantity." },
+            ],
+            steps: [
+              { reasoning: "Cost of $12$ posters: $C=2.5\\times12=\\pounds30$.", working: "2.5\\times12=30", marks: 1, markCode: "M" },
+              { reasoning: "Posters for $\\pounds60$: $60=2.5n$ → $n=24$.", working: "60\\div2.5=24", marks: 1, markCode: "M" },
+              { reasoning: "Answers: $\\pounds30$; $24$ posters.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$\\pounds30$; $24$ posters",
+            commonErrors: ["In part (b) dividing by 2.5 incorrectly or forgetting $n$ must be whole."],
+          },
+        },
+        {
+          id: "cilm-u2-dp-q14",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "A printer uses $3$ sheets of paper for each booklet. How many sheets are needed for $25$ booklets? Explain why this is direct proportion.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Direct proportion", statement: "Sheets per booklet constant → sheets $=3\\times25$; ratio sheets/booklets $=3$ always." },
+            ],
+            steps: [
+              { reasoning: "Sheets $=3\\times25=75$.", working: "3\\times25=75", marks: 1, markCode: "M" },
+              { reasoning: "Sheets $=3n$ where $n$ is booklets — of form $y=kx$ with $k=3$ constant.", working: "sheets=3n", marks: 1, markCode: "M" },
+              { reasoning: "Answer: $75$ sheets; direct proportion because the ratio is constant.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$75$ sheets; $y=kx$ form with constant $k=3$",
+            commonErrors: ["Adding $3+25$ — proportion requires multiplication by the constant rate."],
+          },
+        },
+        {
+          id: "cilm-u2-dp-q15",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "Paint coverage is directly proportional to area. $2$ litres of paint cover $10\\ \\text{m}^2$.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Direct proportion", statement: "Coverage rate $=5\\text{ m}^2$ per litre; scale for target area." },
+            ],
+            steps: [
+              { reasoning: "Coverage per litre $=10\\div2=5\\text{ m}^2$/litre.", working: "10\\div2=5", marks: 1, markCode: "M" },
+              { reasoning: "For $35\\text{ m}^2$: litres $=35\\div5=7$.", working: "35\\div5=7", marks: 1, markCode: "M" },
+              { reasoning: "Paint comes in $5$-litre cans — need $2$ cans ($10$ litres).", working: "2 \\text{ cans}", marks: 1, markCode: "M" },
+              { reasoning: "Answers: $7$ litres needed; buy $2$ cans.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$7$ litres; $2$ cans of $5$ litres",
+            commonErrors: ["Answering $7$ litres as the purchase — paint is sold in cans, must round up."],
+          },
+        },
+        {
+          id: "cilm-u2-dp-q16",
+          difficulty: "challenge",
+          totalMarks: 7,
+          stem: "A courier charges $\\pounds4$ per parcel delivered.",
+          parts: [
+            { label: "a", prompt: "Find the cost of delivering $15$ parcels.", marks: 2 },
+            { label: "b", prompt: "How many parcels can be delivered for $\\pounds100$?", marks: 2 },
+            { label: "c", prompt: "Write a formula connecting cost $C$ and number of parcels $n$.", marks: 1 },
+            { label: "d", prompt: "Explain why the graph of $C$ against $n$ is a straight line through the origin.", marks: 2 },
+          ],
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Direct proportion", statement: "$C=4n$ — constant ratio $C/n=4$ gives a line through origin." },
+            ],
+            steps: [
+              { part: "a", reasoning: "$C=4\\times15=\\pounds60$.", working: "4\\times15=60", marks: 1, markCode: "M" },
+              { part: "a", reasoning: "Correct.", marks: 1, markCode: "A" },
+              { part: "b", reasoning: "$100=4n$ → $n=25$ parcels.", working: "100\\div4=25", marks: 1, markCode: "M" },
+              { part: "b", reasoning: "Correct.", marks: 1, markCode: "A" },
+              { part: "c", reasoning: "$C=4n$.", working: "C=4n", marks: 1, markCode: "A" },
+              { part: "d", reasoning: "$C=4n$ is $y=kx$ with $k=4$; when $n=0$, $C=0$ — passes through origin.", working: "y=kx,\\ k=4", marks: 1, markCode: "M" },
+              { part: "d", reasoning: "Correct explanation.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "(a) $\\pounds60$ (b) $25$ parcels (c) $C=4n$ (d) $y=kx$ through origin",
+            levels: [
+              { level: "Level 2", marks: "1-2", descriptor: "Cost correct.", part: "a" },
+              { level: "Level 1", marks: "0", descriptor: "Wrong.", part: "a" },
+              { level: "Level 2", marks: "1-2", descriptor: "Count correct.", part: "b" },
+              { level: "Level 1", marks: "0", descriptor: "Wrong.", part: "b" },
+              { level: "Level 2", marks: "1", descriptor: "Formula correct.", part: "c" },
+              { level: "Level 1", marks: "0", descriptor: "Wrong.", part: "c" },
+              { level: "Level 2", marks: "1-2", descriptor: "Graph explained.", part: "d" },
+              { level: "Level 1", marks: "0", descriptor: "Vague.", part: "d" },
+            ],
+            commonErrors: ["In (d) saying 'straight line' without mentioning it must pass through the origin."],
           },
         },
       ],

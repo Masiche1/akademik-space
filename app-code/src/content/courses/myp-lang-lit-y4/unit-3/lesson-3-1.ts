@@ -54,12 +54,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The length you want" },
-              { id: "b", text: "Purpose and audience" },
+              { id: "a", text: "Purpose and audience" },
+              { id: "b", text: "The font you like" },
               { id: "c", text: "The time available" },
-              { id: "d", text: "The font you like" },
+              { id: "d", text: "The length you want" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Text type choice", statement: "Purpose + audience determine text type." }],
@@ -134,12 +134,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "To inform with facts" },
-              { id: "b", text: "To tell a story with plot, character and setting" },
-              { id: "c", text: "To persuade the reader" },
-              { id: "d", text: "To list information" },
+              { id: "a", text: "To tell a story with plot, character and setting" },
+              { id: "b", text: "To persuade the reader" },
+              { id: "c", text: "To list information" },
+              { id: "d", text: "To inform with facts" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Narrative", statement: "Narrative = story with plot, character, setting." }],
@@ -178,11 +178,11 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Only narrative and poetry" },
-              { id: "b", text: "Narrative (story), descriptive (paint), argumentative (persuade), report (inform)" },
-              { id: "c", text: "Only letters and emails" },
-              { id: "d", text: "Only fiction and non-fiction" },
+              { id: "b", text: "Only letters and emails" },
+              { id: "c", text: "Only fiction and non-fiction" },
+              { id: "d", text: "Narrative (story), descriptive (paint), argumentative (persuade), report (inform)" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Text types", statement: "Narrative (story), descriptive (paint), argumentative (persuade), expository (explain), report (inform)." }],
@@ -222,12 +222,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Narrative" },
-              { id: "b", text: "Expository/instructional" },
-              { id: "c", text: "Poetry" },
-              { id: "d", text: "Persuasive" },
+              { id: "a", text: "Persuasive" },
+              { id: "b", text: "Poetry" },
+              { id: "c", text: "Expository/instructional" },
+              { id: "d", text: "Narrative" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Text type choice", statement: "Instructions need expository/instructional format — clear steps." }],
@@ -296,9 +296,9 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A fictional story" },
+              { id: "a", text: "A poem" },
               { id: "b", text: "Factual information organized by topic" },
-              { id: "c", text: "A poem" },
+              { id: "c", text: "A fictional story" },
               { id: "d", text: "A persuasive speech" },
             ],
             correctChoiceId: "b",
@@ -324,12 +324,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A = formal letter; B = narrative" },
-              { id: "b", text: "A = narrative; B = formal letter" },
-              { id: "c", text: "Both are formal letters" },
-              { id: "d", text: "Both are narratives" },
+              { id: "a", text: "Both are formal letters" },
+              { id: "b", text: "Both are narratives" },
+              { id: "c", text: "A = formal letter; B = narrative" },
+              { id: "d", text: "A = narrative; B = formal letter" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Text type and audience", statement: "Formal letter to editor vs narrative description." }],
@@ -348,12 +348,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Argumentative" },
-              { id: "b", text: "Narrative" },
-              { id: "c", text: "Report" },
-              { id: "d", text: "Descriptive" },
+              { id: "a", text: "Descriptive" },
+              { id: "b", text: "Argumentative" },
+              { id: "c", text: "Narrative" },
+              { id: "d", text: "Report" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Narrative structure", statement: "Narratives use chronological plot structure." }],
@@ -455,8 +455,8 @@ export const lesson31: Lesson = {
             choices: [
               { id: "a", text: "Only to inform" },
               { id: "b", text: "To inform, persuade, entertain, describe, narrate, instruct" },
-              { id: "c", text: "Only to entertain" },
-              { id: "d", text: "To fill pages" },
+              { id: "c", text: "To fill pages" },
+              { id: "d", text: "Only to entertain" },
             ],
             correctChoiceId: "b",
           },
@@ -535,8 +535,8 @@ export const lesson31: Lesson = {
             choices: [
               { id: "a", text: "The length of the text" },
               { id: "b", text: "What the text aims to achieve — inform, persuade, entertain" },
-              { id: "c", text: "The author's name" },
-              { id: "d", text: "The topic only" },
+              { id: "c", text: "The topic only" },
+              { id: "d", text: "The author's name" },
             ],
             correctChoiceId: "b",
           },
@@ -576,12 +576,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Age, knowledge level, and interests" },
-              { id: "b", text: "Font, colour, and paper size" },
+              { id: "a", text: "Font, colour, and paper size" },
+              { id: "b", text: "Age, knowledge level, and interests" },
               { id: "c", text: "Price, length, and spelling" },
               { id: "d", text: "Only the author's name" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Audience analysis", statement: "Consider age, knowledge, interests, relationship to writer." }],
@@ -623,8 +623,8 @@ export const lesson31: Lesson = {
             choices: [
               { id: "a", text: "To entertain" },
               { id: "b", text: "To instruct — tell the reader how to do something" },
-              { id: "c", text: "To persuade" },
-              { id: "d", text: "To describe" },
+              { id: "c", text: "To describe" },
+              { id: "d", text: "To persuade" },
             ],
             correctChoiceId: "b",
           },
@@ -696,11 +696,11 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Because vocabulary shows off" },
-              { id: "b", text: "Because vocabulary must match audience knowledge" },
-              { id: "c", text: "Because big words are always better" },
+              { id: "b", text: "Because big words are always better" },
+              { id: "c", text: "Because vocabulary must match audience knowledge" },
               { id: "d", text: "Because audiences don't read" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Audience adaptation", statement: "Vocabulary must match audience knowledge level." }],
@@ -738,12 +738,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "To entertain" },
-              { id: "b", text: "To instruct — guide the reader through steps" },
+              { id: "a", text: "To instruct — guide the reader through steps" },
+              { id: "b", text: "To entertain" },
               { id: "c", text: "To persuade" },
               { id: "d", text: "To describe scenery" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Purpose", statement: "How-to guides aim to instruct." }],

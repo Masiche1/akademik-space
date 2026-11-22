@@ -54,12 +54,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Sad" },
-              { id: "b", text: "Scary" },
-              { id: "c", text: "Happy" },
-              { id: "d", text: "Angry" },
+              { id: "a", text: "Angry" },
+              { id: "b", text: "Happy" },
+              { id: "c", text: "Scary" },
+              { id: "d", text: "Sad" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -154,12 +154,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Happy" },
-              { id: "b", text: "Scary or tense" },
-              { id: "c", text: "Calm" },
-              { id: "d", text: "Funny" },
+              { id: "a", text: "Funny" },
+              { id: "b", text: "Happy" },
+              { id: "c", text: "Scary or tense" },
+              { id: "d", text: "Calm" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Tone", statement: "Tone is the feeling created by the writer's word choices." }],
@@ -175,12 +175,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "roared, crashed, exploded" },
-              { id: "b", text: "gently, softly, quietly" },
-              { id: "c", text: "screamed, raced, smashed" },
-              { id: "d", text: "stomped, banged, shook" },
+              { id: "a", text: "screamed, raced, smashed" },
+              { id: "b", text: "roared, crashed, exploded" },
+              { id: "c", text: "stomped, banged, shook" },
+              { id: "d", text: "gently, softly, quietly" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Mood words", statement: "Gentle, quiet words create calm; loud, violent words create excitement or fear." }],
@@ -196,12 +196,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Angry" },
-              { id: "b", text: "Sad" },
-              { id: "c", text: "Happy and friendly" },
+              { id: "a", text: "Sad" },
+              { id: "b", text: "Happy and friendly" },
+              { id: "c", text: "Angry" },
               { id: "d", text: "Scary" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Tone", statement: "Friendly actions like wagging tails create a happy tone." }],
@@ -278,9 +278,9 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "They mean exactly the same thing" },
+              { id: "a", text: "Tone is about weather; mood is about characters" },
               { id: "b", text: "Tone is the feeling the writer puts in; mood is the feeling the reader gets" },
-              { id: "c", text: "Tone is about weather; mood is about characters" },
+              { id: "c", text: "They mean exactly the same thing" },
               { id: "d", text: "Tone is the plot; mood is the setting" },
             ],
             correctChoiceId: "b",
@@ -348,12 +348,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Calm" },
-              { id: "b", text: "Angry or exciting" },
-              { id: "c", text: "Sad" },
-              { id: "d", text: "Bored" },
+              { id: "a", text: "Sad" },
+              { id: "b", text: "Calm" },
+              { id: "c", text: "Bored" },
+              { id: "d", text: "Angry or exciting" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Tone", statement: "Loud, forceful words create an angry or exciting tone." }],
@@ -371,8 +371,8 @@ export const lesson13: Lesson = {
             choices: [
               { id: "a", text: "Excited" },
               { id: "b", text: "Calm and hushed" },
-              { id: "c", text: "Scary" },
-              { id: "d", text: "Angry" },
+              { id: "c", text: "Angry" },
+              { id: "d", text: "Scary" },
             ],
             correctChoiceId: "b",
           },
@@ -448,12 +448,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "He is cold" },
-              { id: "b", text: "He is nervous about what is in the envelope" },
-              { id: "c", text: "He is angry at someone" },
-              { id: "d", text: "He has hurt his hands" },
+              { id: "a", text: "He has hurt his hands" },
+              { id: "b", text: "He is angry at someone" },
+              { id: "c", text: "He is nervous about what is in the envelope" },
+              { id: "d", text: "He is cold" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -548,12 +548,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It is probably raining" },
-              { id: "b", text: "Sara is going to sleep" },
+              { id: "a", text: "Sara is going to sleep" },
+              { id: "b", text: "It is probably raining" },
               { id: "c", text: "Sara is very cold" },
               { id: "d", text: "It is a sunny day" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Inference", statement: "Clues like 'umbrella' let you guess what is not said." }],
@@ -570,11 +570,11 @@ export const lesson13: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "He is angry at the bakery" },
-              { id: "b", text: "He is hungry and wants to buy something" },
-              { id: "c", text: "He is lost in the street" },
+              { id: "b", text: "He is lost in the street" },
+              { id: "c", text: "He is hungry and wants to buy something" },
               { id: "d", text: "He works at the bakery" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Inference", statement: "Actions like licking lips and staring suggest desire." }],
@@ -590,10 +590,10 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The baby is scared of balloons" },
+              { id: "a", text: "The baby cannot see colours" },
               { id: "b", text: "The baby is happy or excited by the balloon" },
-              { id: "c", text: "The baby cannot see colours" },
-              { id: "d", text: "The balloon is broken" },
+              { id: "c", text: "The balloon is broken" },
+              { id: "d", text: "The baby is scared of balloons" },
             ],
             correctChoiceId: "b",
           },
@@ -673,8 +673,8 @@ export const lesson13: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "It is winter and the garden is covered in snow" },
-              { id: "b", text: "The garden is on fire" },
-              { id: "c", text: "Someone is sleeping in the garden" },
+              { id: "b", text: "Someone is sleeping in the garden" },
+              { id: "c", text: "The garden is on fire" },
               { id: "d", text: "It is summer and very hot" },
             ],
             correctChoiceId: "a",
@@ -742,9 +742,9 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It is hungry" },
+              { id: "a", text: "It is sleeping" },
               { id: "b", text: "It is scared or upset" },
-              { id: "c", text: "It is sleeping" },
+              { id: "c", text: "It is hungry" },
               { id: "d", text: "It is playing" },
             ],
             correctChoiceId: "b",
@@ -764,11 +764,11 @@ export const lesson13: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "The whole family is home and busy" },
-              { id: "b", text: "Nobody else is home" },
-              { id: "c", text: "There is a party" },
-              { id: "d", text: "It is daytime" },
+              { id: "b", text: "There is a party" },
+              { id: "c", text: "It is daytime" },
+              { id: "d", text: "Nobody else is home" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Inference from absence", statement: "Missing sounds and objects reveal that someone is away." }],

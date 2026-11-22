@@ -55,11 +55,11 @@ export const lesson43: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "The elements in $A$ or $B$ or both" },
-              { id: "b", text: "The elements in both $A$ and $B$" },
-              { id: "c", text: "The elements not in $A$" },
-              { id: "d", text: "The elements in $A$ only" },
+              { id: "b", text: "The elements in $A$ only" },
+              { id: "c", text: "The elements in both $A$ and $B$" },
+              { id: "d", text: "The elements not in $A$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Intersection", statement: "$A\\cap B$ is the set of elements in both $A$ and $B$." }],
@@ -185,12 +185,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\frac{12}{28}$" },
-              { id: "b", text: "$\\frac{3}{10}$" },
-              { id: "c", text: "$\\frac{1}{12}$" },
-              { id: "d", text: "$\\frac{28}{40}$" },
+              { id: "a", text: "$\\frac{28}{40}$" },
+              { id: "b", text: "$\\frac{1}{12}$" },
+              { id: "c", text: "$\\frac{12}{28}$" },
+              { id: "d", text: "$\\frac{3}{10}$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Probability", statement: "$P(A)=\\frac{n(A)}{n(\\xi)}$" }],

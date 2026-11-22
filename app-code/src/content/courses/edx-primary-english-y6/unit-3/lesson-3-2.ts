@@ -59,10 +59,10 @@ export const lesson122: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The ending" },
+              { id: "a", text: "The setting" },
               { id: "b", text: "Hints about future events" },
-              { id: "c", text: "A flashback" },
-              { id: "d", text: "The setting" },
+              { id: "c", text: "The ending" },
+              { id: "d", text: "A flashback" },
             ],
             correctChoiceId: "b",
           },
@@ -89,12 +89,12 @@ export const lesson122: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "She was tall" },
-              { id: "b", text: "'I don't care,' she lied" },
+              { id: "a", text: "'I don't care,' she lied" },
+              { id: "b", text: "She was tall" },
               { id: "c", text: "She ran fast" },
               { id: "d", text: "She had blue eyes" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -235,12 +235,12 @@ export const lesson122: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Only sight and sound" },
-              { id: "b", text: "Sight, sound, smell, touch, taste" },
-              { id: "c", text: "Sight, sound, touch" },
+              { id: "a", text: "Sight, sound, touch" },
+              { id: "b", text: "Only sight and sound" },
+              { id: "c", text: "Sight, sound, smell, touch, taste" },
               { id: "d", text: "All except taste" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -265,10 +265,10 @@ export const lesson122: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The food was nice" },
-              { id: "b", text: "The food was delicious" },
+              { id: "a", text: "The food was delicious" },
+              { id: "b", text: "The food was good" },
               { id: "c", text: "The food was warm and fragrant" },
-              { id: "d", text: "The food was good" },
+              { id: "d", text: "The food was nice" },
             ],
             correctChoiceId: "c",
           },

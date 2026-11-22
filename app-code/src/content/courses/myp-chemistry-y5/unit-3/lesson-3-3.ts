@@ -58,12 +58,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Ratio of distance moved by spot to distance moved by solvent front" },
-              { id: "b", text: "Mass of the sample" },
-              { id: "c", text: "Colour intensity" },
-              { id: "d", text: "Temperature of the solvent" },
+              { id: "a", text: "Temperature of the solvent" },
+              { id: "b", text: "Colour intensity" },
+              { id: "c", text: "Ratio of distance moved by spot to distance moved by solvent front" },
+              { id: "d", text: "Mass of the sample" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -85,12 +85,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Yellow" },
+              { id: "a", text: "Lilac" },
               { id: "b", text: "Crimson" },
-              { id: "c", text: "Lilac" },
-              { id: "d", text: "Green" },
+              { id: "c", text: "Green" },
+              { id: "d", text: "Yellow" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -113,12 +113,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Eye level avoids parallax error; concordant titres (within 0.1 cm³) average out random errors for a reliable mean" },
-              { id: "b", text: "It makes the reaction faster" },
-              { id: "c", text: "The burette must be emptied each time" },
-              { id: "d", text: "It changes the indicator colour" },
+              { id: "a", text: "It changes the indicator colour" },
+              { id: "b", text: "Eye level avoids parallax error; concordant titres (within 0.1 cm³) average out random errors for a reliable mean" },
+              { id: "c", text: "It makes the reaction faster" },
+              { id: "d", text: "The burette must be emptied each time" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -173,12 +173,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "To find the concentration of an unknown solution accurately using a known solution" },
-              { id: "b", text: "To separate mixtures" },
-              { id: "c", text: "To identify flame colours" },
-              { id: "d", text: "To measure rate of reaction" },
+              { id: "a", text: "To measure rate of reaction" },
+              { id: "b", text: "To identify flame colours" },
+              { id: "c", text: "To separate mixtures" },
+              { id: "d", text: "To find the concentration of an unknown solution accurately using a known solution" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -221,12 +221,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Its characteristic ratio of spot distance to solvent distance — used to identify it" },
+              { id: "a", text: "Its boiling point" },
               { id: "b", text: "Its mass" },
-              { id: "c", text: "Its colour" },
-              { id: "d", text: "Its boiling point" },
+              { id: "c", text: "Its characteristic ratio of spot distance to solvent distance — used to identify it" },
+              { id: "d", text: "Its colour" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -271,12 +271,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Lilac" },
-              { id: "b", text: "Yellow" },
-              { id: "c", text: "Crimson" },
-              { id: "d", text: "Blue-green" },
+              { id: "a", text: "Yellow" },
+              { id: "b", text: "Blue-green" },
+              { id: "c", text: "Lilac" },
+              { id: "d", text: "Crimson" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -321,12 +321,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Add acidified silver nitrate — white AgCl precipitate forms, soluble in ammonia" },
-              { id: "b", text: "Add limewater — turns milky" },
-              { id: "c", text: "Flame test — yellow colour" },
-              { id: "d", text: "Add iodine — blue-black colour" },
+              { id: "a", text: "Add limewater — turns milky" },
+              { id: "b", text: "Add iodine — blue-black colour" },
+              { id: "c", text: "Add acidified silver nitrate — white AgCl precipitate forms, soluble in ammonia" },
+              { id: "d", text: "Flame test — yellow colour" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -373,12 +373,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Rf values can be similar for different substances — it suggests identity but cannot confirm alone" },
+              { id: "a", text: "It only works for gases" },
               { id: "b", text: "It cannot separate anything" },
               { id: "c", text: "It requires expensive equipment" },
-              { id: "d", text: "It only works for gases" },
+              { id: "d", text: "Rf values can be similar for different substances — it suggests identity but cannot confirm alone" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -499,12 +499,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Percentage of reactant atoms ending up in the desired product" },
+              { id: "a", text: "Speed of the reaction" },
               { id: "b", text: "Number of atoms in a molecule" },
               { id: "c", text: "Cost of atoms used" },
-              { id: "d", text: "Speed of the reaction" },
+              { id: "d", text: "Percentage of reactant atoms ending up in the desired product" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -526,12 +526,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Sugar cane used to produce bioethanol" },
-              { id: "b", text: "Crude oil" },
+              { id: "a", text: "Natural gas" },
+              { id: "b", text: "Sugar cane used to produce bioethanol" },
               { id: "c", text: "Coal" },
-              { id: "d", text: "Natural gas" },
+              { id: "d", text: "Crude oil" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -554,12 +554,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "AE = 80/(80+20) × 100% = 80%; good but 20% waste still needs disposal or recycling" },
-              { id: "b", text: "AE = 20% — poor" },
+              { id: "a", text: "Cannot be calculated" },
+              { id: "b", text: "AE = 80/(80+20) × 100% = 80%; good but 20% waste still needs disposal or recycling" },
               { id: "c", text: "AE = 100% — perfect" },
-              { id: "d", text: "Cannot be calculated" },
+              { id: "d", text: "AE = 20% — poor" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -614,12 +614,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Design chemical products and processes that minimise waste, toxicity and energy use" },
-              { id: "b", text: "Make chemicals cheaper only" },
-              { id: "c", text: "Increase reaction speed" },
+              { id: "a", text: "Make chemicals cheaper only" },
+              { id: "b", text: "Increase reaction speed" },
+              { id: "c", text: "Design chemical products and processes that minimise waste, toxicity and energy use" },
               { id: "d", text: "Use more hazardous chemicals" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -662,12 +662,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Yield measures amount of desired product obtained vs theoretical; atom economy measures what fraction of all product atoms end up in the desired product" },
-              { id: "b", text: "They are identical" },
-              { id: "c", text: "Atom economy only applies to gases" },
-              { id: "d", text: "Yield is always higher" },
+              { id: "a", text: "Yield is always higher" },
+              { id: "b", text: "Atom economy only applies to gases" },
+              { id: "c", text: "They are identical" },
+              { id: "d", text: "Yield measures amount of desired product obtained vs theoretical; atom economy measures what fraction of all product atoms end up in the desired product" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -713,9 +713,9 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Making bioethanol from corn starch or sugar cane" },
-              { id: "b", text: "Using crude oil for plastics" },
-              { id: "c", text: "Mining coal for fuel" },
-              { id: "d", text: "Extracting natural gas" },
+              { id: "b", text: "Extracting natural gas" },
+              { id: "c", text: "Using crude oil for plastics" },
+              { id: "d", text: "Mining coal for fuel" },
             ],
             correctChoiceId: "a",
           },
@@ -765,12 +765,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Use of safer solvents (benzene is toxic/carcinogenic) and waste prevention (large waste output)" },
-              { id: "b", text: "Only the energy principle" },
-              { id: "c", text: "No principles violated" },
-              { id: "d", text: "Only the catalysis principle" },
+              { id: "a", text: "Only the catalysis principle" },
+              { id: "b", text: "No principles violated" },
+              { id: "c", text: "Only the energy principle" },
+              { id: "d", text: "Use of safer solvents (benzene is toxic/carcinogenic) and waste prevention (large waste output)" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -817,12 +817,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Energy source, toxicity of inputs/outputs, lifecycle impact, recyclability and safety" },
-              { id: "b", text: "Only the cost" },
-              { id: "c", text: "Only the reaction speed" },
-              { id: "d", text: "Only the colour of products" },
+              { id: "a", text: "Only the colour of products" },
+              { id: "b", text: "Only the reaction speed" },
+              { id: "c", text: "Only the cost" },
+              { id: "d", text: "Energy source, toxicity of inputs/outputs, lifecycle impact, recyclability and safety" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

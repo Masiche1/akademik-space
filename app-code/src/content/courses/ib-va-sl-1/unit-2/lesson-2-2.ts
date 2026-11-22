@@ -39,11 +39,11 @@ export const lesson22: Lesson = {
           id: "va-u2-context-intent-q1", difficulty: "foundation", totalMarks: 2,
           stem: "Patronage most directly influences an artwork by:",
           response: { type: "mcq", choices: [
-            { id: "a", text: "Determining the artist's nationality" },
-            { id: "b", text: "Shaping subject, style and message through funding conditions" },
-            { id: "c", text: "Setting the frame's material" },
-            { id: "d", text: "Choosing the gallery's lighting" },
-          ], correctChoiceId: "b" },
+            { id: "a", text: "Shaping subject, style and message through funding conditions" },
+            { id: "b", text: "Choosing the gallery's lighting" },
+            { id: "c", text: "Determining the artist's nationality" },
+            { id: "d", text: "Setting the frame's material" },
+          ], correctChoiceId: "a" },
           markscheme: {
             principles: [{ kind: "context", name: "Patronage", statement: "Sponsors constrain and shape what artists make and for whom." }],
             steps: [
@@ -112,11 +112,11 @@ export const lesson22: Lesson = {
           id: "va-u2-context-intent-q5", difficulty: "foundation", totalMarks: 2,
           stem: "A commission is best defined as:",
           response: { type: "mcq", choices: [
-            { id: "a", text: "An artwork made for free public exhibition" },
-            { id: "b", text: "A paid request for a specific artwork, often with conditions on subject and style" },
-            { id: "c", text: "A museum's purchase of an artwork" },
-            { id: "d", text: "A student's sketchbook exercise" },
-          ], correctChoiceId: "b" },
+            { id: "a", text: "A paid request for a specific artwork, often with conditions on subject and style" },
+            { id: "b", text: "An artwork made for free public exhibition" },
+            { id: "c", text: "A student's sketchbook exercise" },
+            { id: "d", text: "A museum's purchase of an artwork" },
+          ], correctChoiceId: "a" },
           markscheme: {
             principles: [{ kind: "definition", name: "Commission", statement: "A paid request that shapes subject, style and message of a work." }],
             steps: [
@@ -147,10 +147,10 @@ export const lesson22: Lesson = {
           stem: "Iconography is the study of:",
           response: { type: "mcq", choices: [
             { id: "a", text: "Frame materials and carpentry" },
-            { id: "b", text: "Symbols, motifs and imagery and their conventional meanings" },
-            { id: "c", text: "Colour theory" },
-            { id: "d", text: "Art market prices" },
-          ], correctChoiceId: "b" },
+            { id: "b", text: "Art market prices" },
+            { id: "c", text: "Symbols, motifs and imagery and their conventional meanings" },
+            { id: "d", text: "Colour theory" },
+          ], correctChoiceId: "c" },
           markscheme: {
             principles: [{ kind: "definition", name: "Iconography", statement: "The decoding of conventional symbols and motifs within a cultural tradition." }],
             steps: [
@@ -180,11 +180,11 @@ export const lesson22: Lesson = {
           id: "va-u2-context-intent-q9", difficulty: "core", totalMarks: 2,
           stem: "Which of the following is NOT a contextual factor in interpreting an artwork?",
           response: { type: "mcq", choices: [
-            { id: "a", text: "The historical period in which it was made" },
-            { id: "b", text: "The cultural or religious setting of its production" },
-            { id: "c", text: "The size of the brush used" },
-            { id: "d", text: "The commission or patron who funded it" },
-          ], correctChoiceId: "c" },
+            { id: "a", text: "The size of the brush used" },
+            { id: "b", text: "The commission or patron who funded it" },
+            { id: "c", text: "The historical period in which it was made" },
+            { id: "d", text: "The cultural or religious setting of its production" },
+          ], aorrectChoiceId: "c" },
           markscheme: {
             principles: [{ kind: "principle", name: "Contextual factors", statement: "Context comprises circumstances of production and reception, not craft details." }],
             steps: [
@@ -215,11 +215,11 @@ export const lesson22: Lesson = {
           id: "va-u2-context-intent-q11", difficulty: "core", totalMarks: 2,
           stem: "In Western iconographic tradition, a skull in a still life most conventionally symbolises:",
           response: { type: "mcq", choices: [
-            { id: "a", text: "Wealth and abundance" },
-            { id: "b", text: "Mortality and the vanity of earthly life" },
-            { id: "c", text: "Fertility and new life" },
-            { id: "d", text: "Wisdom and learning" },
-          ], correctChoiceId: "b" },
+            { id: "a", text: "Mortality and the vanity of earthly life" },
+            { id: "b", text: "Wealth and abundance" },
+            { id: "c", text: "Wisdom and learning" },
+            { id: "d", text: "Fertility and new life" },
+          ], correctChoiceId: "a" },
           markscheme: {
             principles: [{ kind: "context", name: "Vanitas symbolism", statement: "Skulls in still lifes invoke mortality and the transience of worldly goods." }],
             steps: [
@@ -250,10 +250,10 @@ export const lesson22: Lesson = {
           id: "va-u2-context-intent-q13", difficulty: "core", totalMarks: 2,
           stem: "Reception differs from context because reception refers to:",
           response: { type: "mcq", choices: [
-            { id: "a", text: "The circumstances of the work's making" },
+            { id: "a", text: "The artist's formal training" },
             { id: "b", text: "How audiences interpret the work across time" },
-            { id: "c", text: "The materials used by the artist" },
-            { id: "d", text: "The artist's formal training" },
+            { id: "c", text: "The circumstances of the work's making" },
+            { id: "d", text: "The materials used by the artist" },
           ], correctChoiceId: "b" },
           markscheme: {
             principles: [{ kind: "definition", name: "Reception", statement: "The history of audience interpretation, distinct from conditions of production." }],
@@ -292,11 +292,11 @@ export const lesson22: Lesson = {
           id: "va-u2-context-intent-q15", difficulty: "core", totalMarks: 2,
           stem: "A devotional altarpiece is most likely to use which formal conventions?",
           response: { type: "mcq", choices: [
-            { id: "a", text: "Bold slogans and propaganda-scale heroism" },
-            { id: "b", text: "Verticality, gold leaf and iconic stillness" },
+            { id: "a", text: "Deliberate visual ugliness" },
+            { id: "b", text: "Bold slogans and propaganda-scale heroism" },
             { id: "c", text: "Casual cartoon forms and slang text" },
-            { id: "d", text: "Deliberate visual ugliness" },
-          ], correctChoiceId: "b" },
+            { id: "d", text: "Verticality, gold leaf and iconic stillness" },
+          ], correctChoiceId: "d" },
           markscheme: {
             principles: [{ kind: "principle", name: "Function and form", statement: "An artwork's purpose predicts its style, scale, symbolism and emotional register." }],
             steps: [
@@ -311,11 +311,11 @@ export const lesson22: Lesson = {
           id: "va-u2-context-intent-q16", difficulty: "foundation", totalMarks: 2,
           stem: "A state-sponsored poster celebrating a harvest festival was most likely made to:",
           response: { type: "mcq", choices: [
-            { id: "a", text: "Express the artist's private grief" },
-            { id: "b", text: "Serve a public political or civic function" },
-            { id: "c", text: "Be sold as a private portrait" },
-            { id: "d", text: "Decorate only the artist's studio" },
-          ], correctChoiceId: "b" },
+            { id: "a", text: "Be sold as a private portrait" },
+            { id: "b", text: "Decorate only the artist's studio" },
+            { id: "c", text: "Serve a public political or civic function" },
+            { id: "d", text: "Express the artist's private grief" },
+          ], correctChoiceId: "c" },
           markscheme: {
             principles: [{ kind: "context", name: "Patronage and function", statement: "State sponsorship implies public, ideological purpose." }],
             steps: [
@@ -352,11 +352,11 @@ export const lesson22: Lesson = {
           id: "va-u2-audience-reception-q1", difficulty: "foundation", totalMarks: 2,
           stem: "Reception history refers to:",
           response: { type: "mcq", choices: [
-            { id: "a", text: "The process of hanging artworks in a museum" },
-            { id: "b", text: "How audiences have interpreted an artwork over time" },
-            { id: "c", text: "The technique of restoring old paintings" },
-            { id: "d", text: "The artist's choice of materials" },
-          ], correctChoiceId: "b" },
+            { id: "a", text: "The technique of restoring old paintings" },
+            { id: "b", text: "The artist's choice of materials" },
+            { id: "c", text: "How audiences have interpreted an artwork over time" },
+            { id: "d", text: "The process of hanging artworks in a museum" },
+          ], correctChoiceId: "c" },
           markscheme: {
             principles: [{ kind: "definition", name: "Reception", statement: "The history of how audiences receive and interpret a work across time." }],
             steps: [
@@ -425,11 +425,11 @@ export const lesson22: Lesson = {
           id: "va-u2-audience-reception-q5", difficulty: "foundation", totalMarks: 2,
           stem: "The intended audience of an artwork is:",
           response: { type: "mcq", choices: [
-            { id: "a", text: "Anyone who happens to see it" },
-            { id: "b", text: "The viewers the artist or commissioner expects to address" },
-            { id: "c", text: "Only trained art historians" },
-            { id: "d", text: "Only the people who purchase it" },
-          ], correctChoiceId: "b" },
+            { id: "a", text: "Only the people who purchase it" },
+            { id: "b", text: "Only trained art historians" },
+            { id: "c", text: "The viewers the artist or commissioner expects to address" },
+            { id: "d", text: "Anyone who happens to see it" },
+          ], correctChoiceId: "c" },
           markscheme: {
             principles: [{ kind: "definition", name: "Intended audience", statement: "The viewers an artist or commissioner designs the work to reach." }],
             steps: [
@@ -460,10 +460,10 @@ export const lesson22: Lesson = {
           stem: "An artwork's reception changes over time mainly because:",
           response: { type: "mcq", choices: [
             { id: "a", text: "The object physically changes" },
-            { id: "b", text: "Audiences' values, knowledge and institutions change" },
-            { id: "c", text: "Its frame wears out" },
-            { id: "d", text: "Its colours fade" },
-          ], correctChoiceId: "b" },
+            { id: "b", text: "Its colours fade" },
+            { id: "c", text: "Audiences' values, knowledge and institutions change" },
+            { id: "d", text: "Its frame wears out" },
+          ], correctChoiceId: "c" },
           markscheme: {
             principles: [{ kind: "principle", name: "Reception dynamics", statement: "Interpretation shifts as viewers and institutions change, not because the object does." }],
             steps: [
@@ -493,11 +493,11 @@ export const lesson22: Lesson = {
           id: "va-u2-audience-reception-q9", difficulty: "core", totalMarks: 2,
           stem: "A sculpture once removed as scandalous but later celebrated as a landmark illustrates:",
           response: { type: "mcq", choices: [
-            { id: "a", text: "Successful conservation" },
-            { id: "b", text: "Shifting reception across eras" },
-            { id: "c", text: "Art forgery" },
-            { id: "d", text: "Physical restoration" },
-          ], correctChoiceId: "b" },
+            { id: "a", text: "Shifting reception across eras" },
+            { id: "b", text: "Art forgery" },
+            { id: "c", text: "Physical restoration" },
+            { id: "d", text: "Successful conservation" },
+          ], correctChoiceId: "a" },
           markscheme: {
             principles: [{ kind: "principle", name: "Reception change", statement: "The same object can be condemned in one era and canonised in another." }],
             steps: [
@@ -528,11 +528,11 @@ export const lesson22: Lesson = {
           id: "va-u2-audience-reception-q11", difficulty: "foundation", totalMarks: 2,
           stem: "Contemporary critics, reviews and censorship primarily affect:",
           response: { type: "mcq", choices: [
-            { id: "a", text: "The pigment of the work" },
-            { id: "b", text: "An artwork's reception and reputation" },
-            { id: "c", text: "The frame's material" },
-            { id: "d", text: "The artwork's size" },
-          ], correctChoiceId: "b" },
+            { id: "a", text: "The frame's material" },
+            { id: "b", text: "The pigment of the work" },
+            { id: "c", text: "The artwork's size" },
+            { id: "d", text: "An artwork's reception and reputation" },
+          ], correctChoiceId: "d" },
           markscheme: {
             principles: [{ kind: "principle", name: "Critical mediation", statement: "Critics and censorship shape how audiences encounter and judge works." }],
             steps: [
@@ -563,11 +563,11 @@ export const lesson22: Lesson = {
           id: "va-u2-audience-reception-q13", difficulty: "core", totalMarks: 2,
           stem: "Which factor most strongly explains why a once-controversial artwork is now considered canonical?",
           response: { type: "mcq", choices: [
-            { id: "a", text: "Improved varnish on the surface" },
-            { id: "b", text: "Changed social values and institutional reframing" },
-            { id: "c", text: "A larger picture frame" },
+            { id: "a", text: "A larger picture frame" },
+            { id: "b", text: "Improved varnish on the surface" },
+            { id: "c", text: "Changed social values and institutional reframing" },
             { id: "d", text: "Lower museum ticket prices" },
-          ], correctChoiceId: "b" },
+          ], correctChoiceId: "c" },
           markscheme: {
             principles: [{ kind: "principle", name: "Canon formation", statement: "Canonical status results from shifting values and institutional endorsement." }],
             steps: [
@@ -606,10 +606,10 @@ export const lesson22: Lesson = {
           stem: "An artwork that 'rewards multiple levels of reading' offers:",
           response: { type: "mcq", choices: [
             { id: "a", text: "Only literal subject matter" },
-            { id: "b", text: "An accessible surface plus deeper formal and symbolic layers" },
-            { id: "c", text: "A single fixed interpretation" },
-            { id: "d", text: "Technical difficulty alone" },
-          ], correctChoiceId: "b" },
+            { id: "b", text: "Technical difficulty alone" },
+            { id: "c", text: "An accessible surface plus deeper formal and symbolic layers" },
+            { id: "d", text: "A single fixed interpretation" },
+          ], correctChoiceId: "c" },
           markscheme: {
             principles: [{ kind: "principle", name: "Layered meaning", statement: "Strong works offer accessible surface readings plus deeper formal and symbolic layers." }],
             steps: [
@@ -624,11 +624,11 @@ export const lesson22: Lesson = {
           id: "va-u2-audience-reception-q16", difficulty: "core", totalMarks: 2,
           stem: "The role of the art market in reception is best described as:",
           response: { type: "mcq", choices: [
-            { id: "a", text: "Irrelevant to meaning" },
-            { id: "b", text: "Assigning value and status that influence how works are seen and interpreted" },
-            { id: "c", text: "Fixing the colours of paintings" },
-            { id: "d", text: "Selecting picture frames" },
-          ], correctChoiceId: "b" },
+            { id: "a", text: "Assigning value and status that influence how works are seen and interpreted" },
+            { id: "b", text: "Irrelevant to meaning" },
+            { id: "c", text: "Selecting picture frames" },
+            { id: "d", text: "Fixing the colours of paintings" },
+          ], correctChoiceId: "a" },
           markscheme: {
             principles: [{ kind: "principle", name: "Market mediation", statement: "Prices and status shape prestige, visibility and interpretation." }],
             steps: [

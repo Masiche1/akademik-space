@@ -51,9 +51,9 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "AA" },
-              { id: "b", text: "SAS, because two angles are equal" },
+              { id: "b", text: "No similarity criterion applies" },
               { id: "c", text: "SSS, because two angle pairs are equal" },
-              { id: "d", text: "No similarity criterion applies" },
+              { id: "d", text: "SAS, because two angles are equal" },
             ],
             correctChoiceId: "a",
           },

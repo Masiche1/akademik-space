@@ -93,18 +93,18 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              {
-                id: "a",
-                text: "Predation by birds, which could see pale moths more easily on dark trees",
-              },
+              { id: "a", text: "The moths choosing darker mates" },
               {
                 id: "b",
                 text: "Higher temperatures favouring darker pigments",
               },
-              { id: "c", text: "The moths choosing darker mates" },
-              { id: "d", text: "Reduced availability of lichen as food" },
+              { id: "c", text: "Reduced availability of lichen as food" },
+              {
+                id: "d",
+                text: "Predation by birds, which could see pale moths more easily on dark trees",
+              },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -140,14 +140,14 @@ export const lesson41: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "A large population and a stable environment" },
+              { id: "b", text: "Mutation and migration only" },
+              { id: "c", text: "Competition for mates only" },
               {
-                id: "b",
+                id: "d",
                 text: "Heritable variation in a trait, plus differential survival or reproduction of the variants",
               },
-              { id: "c", text: "Mutation and migration only" },
-              { id: "d", text: "Competition for mates only" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -197,15 +197,15 @@ export const lesson41: Lesson = {
               },
               {
                 id: "b",
-                text: "Natural selection favoured mice whose colour gave better camouflage, so the allele frequency rose",
+                text: "All mice changed colour during their lifetime",
               },
               {
                 id: "c",
-                text: "All mice changed colour during their lifetime",
+                text: "Natural selection favoured mice whose colour gave better camouflage, so the allele frequency rose",
               },
               { id: "d", text: "Gene flow must have introduced the allele" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -378,15 +378,15 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Acquired by an organism during its lifetime" },
+              { id: "a", text: "Caused only by the current environment" },
+              { id: "b", text: "Acquired by an organism during its lifetime" },
               {
-                id: "b",
+                id: "c",
                 text: "Determined by genes and passed on to offspring",
               },
-              { id: "c", text: "Learned by imitation from other individuals" },
-              { id: "d", text: "Caused only by the current environment" },
+              { id: "d", text: "Learned by imitation from other individuals" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -421,21 +421,21 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "Only mutation occurred, with no selection" },
               {
-                id: "a",
+                id: "b",
                 text: "Evolution, because the allele frequency in the population changed",
               },
               {
-                id: "b",
+                id: "c",
                 text: "All rabbits changed colour during their own lifetimes",
               },
               {
-                id: "c",
+                id: "d",
                 text: "The population remained genetically unchanged",
               },
-              { id: "d", text: "Only mutation occurred, with no selection" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -629,22 +629,22 @@ export const lesson41: Lesson = {
             choices: [
               {
                 id: "a",
-                text: "Artificial selection always produces new species",
-              },
-              {
-                id: "b",
                 text: "Both change allele frequencies, but artificial selection is directed by humans toward desired traits",
               },
               {
+                id: "b",
+                text: "Artificial selection can only act on wild populations",
+              },
+              {
                 id: "c",
-                text: "Natural selection cannot change allele frequencies",
+                text: "Artificial selection always produces new species",
               },
               {
                 id: "d",
-                text: "Artificial selection can only act on wild populations",
+                text: "Natural selection cannot change allele frequencies",
               },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -950,22 +950,22 @@ export const lesson41: Lesson = {
             choices: [
               {
                 id: "a",
-                text: "It will continue to increase because alleles never lose advantage",
-              },
-              {
-                id: "b",
-                text: "It will decrease as the direction of selection reverses",
-              },
-              {
-                id: "c",
                 text: "It cannot change because selection always favours the same allele",
               },
               {
-                id: "d",
+                id: "b",
                 text: "It will instantly become fixed in the population",
               },
+              {
+                id: "c",
+                text: "It will decrease as the direction of selection reverses",
+              },
+              {
+                id: "d",
+                text: "It will continue to increase because alleles never lose advantage",
+              },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1049,15 +1049,15 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Heritable variation within the population" },
+              { id: "a", text: "Reproduction that passes traits to offspring" },
+              { id: "b", text: "A very large population size" },
+              { id: "c", text: "Heritable variation within the population" },
               {
-                id: "b",
+                id: "d",
                 text: "Differential survival or reproduction of variants",
               },
-              { id: "c", text: "A very large population size" },
-              { id: "d", text: "Reproduction that passes traits to offspring" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1147,12 +1147,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Analogous structures" },
-              { id: "b", text: "Homologous structures" },
-              { id: "c", text: "Vestigial organs" },
+              { id: "a", text: "Vestigial organs" },
+              { id: "b", text: "Analogous structures" },
+              { id: "c", text: "Homologous structures" },
               { id: "d", text: "Convergent features" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1188,17 +1188,17 @@ export const lesson41: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "The similar DNA of closely related species" },
+              { id: "b", text: "The presence of endemic species on islands" },
               {
-                id: "b",
-                text: "The sequence of fossils in successive rock layers, including transitional forms",
-              },
-              { id: "c", text: "The presence of endemic species on islands" },
-              {
-                id: "d",
+                id: "c",
                 text: "The wings of birds and insects serving the same function",
               },
+              {
+                id: "d",
+                text: "The sequence of fossils in successive rock layers, including transitional forms",
+              },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1243,16 +1243,16 @@ export const lesson41: Lesson = {
             choices: [
               {
                 id: "a",
-                text: "Homology, because all wings share a common ancestor",
+                text: "Convergent evolution, because similar structures arose independently under similar selection pressures",
               },
               {
                 id: "b",
-                text: "Convergent evolution, because similar structures arose independently under similar selection pressures",
+                text: "Homology, because all wings share a common ancestor",
               },
               { id: "c", text: "Artificial selection by humans" },
               { id: "d", text: "Lamarckian inheritance of acquired flight" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -1424,22 +1424,22 @@ export const lesson41: Lesson = {
             choices: [
               {
                 id: "a",
-                text: "Only a small fraction of organisms ever fossilise, and many fossils are later destroyed by geological processes",
+                text: "All fossils are identical, so they carry no information",
               },
               {
                 id: "b",
-                text: "Fossils can only form during the last 100 years",
+                text: "Only a small fraction of organisms ever fossilise, and many fossils are later destroyed by geological processes",
               },
               {
                 id: "c",
-                text: "Scientists have not yet discovered how to date fossils",
+                text: "Fossils can only form during the last 100 years",
               },
               {
                 id: "d",
-                text: "All fossils are identical, so they carry no information",
+                text: "Scientists have not yet discovered how to date fossils",
               },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1475,15 +1475,15 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The forelimbs of humans and bats" },
-              { id: "b", text: "The wings of birds and insects" },
-              { id: "c", text: "The pentadactyl limbs of whales and horses" },
+              { id: "a", text: "The wings of birds and insects" },
+              { id: "b", text: "The pentadactyl limbs of whales and horses" },
+              { id: "c", text: "The forelimbs of humans and bats" },
               {
                 id: "d",
                 text: "Haemoglobin molecules in humans and chimpanzees",
               },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -1516,18 +1516,18 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "Fish haemoglobin is functionally superior" },
               {
-                id: "a",
+                id: "b",
                 text: "Humans and chimpanzees share a more recent common ancestor with each other than either does with fish",
               },
-              { id: "b", text: "Haemoglobin is identical in all species" },
-              { id: "c", text: "Fish haemoglobin is functionally superior" },
+              { id: "c", text: "Haemoglobin is identical in all species" },
               {
                 id: "d",
                 text: "DNA and protein sequences cannot be used to study evolutionary relationships",
               },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1746,22 +1746,22 @@ export const lesson41: Lesson = {
             choices: [
               {
                 id: "a",
-                text: "The marsupials recently swam across the ocean between the continents",
-              },
-              {
-                id: "b",
-                text: "The species share a common ancestor from before the continents separated, and related lineages survived on both",
-              },
-              {
-                id: "c",
                 text: "Humans transported marsupials between the continents",
               },
               {
-                id: "d",
+                id: "b",
+                text: "The marsupials recently swam across the ocean between the continents",
+              },
+              {
+                id: "c",
                 text: "The marsupials evolved twice independently to look alike",
               },
+              {
+                id: "d",
+                text: "The species share a common ancestor from before the continents separated, and related lineages survived on both",
+              },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1970,22 +1970,22 @@ export const lesson41: Lesson = {
             choices: [
               {
                 id: "a",
-                text: "They prove that amphibians evolved directly from modern fish",
+                text: "They demonstrate convergent evolution between unrelated groups",
               },
               {
                 id: "b",
-                text: "They provide direct evidence of intermediate forms linking major groups, supporting descent with modification",
-              },
-              {
-                id: "c",
                 text: "They show that all species appeared at the same time",
               },
               {
+                id: "c",
+                text: "They provide direct evidence of intermediate forms linking major groups, supporting descent with modification",
+              },
+              {
                 id: "d",
-                text: "They demonstrate convergent evolution between unrelated groups",
+                text: "They prove that amphibians evolved directly from modern fish",
               },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

@@ -88,15 +88,15 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "Record each individual sale made on credit" },
+              { id: "b", text: "Replace the sales journal" },
+              { id: "c", text: "Calculate the profit for the year" },
               {
-                id: "a",
+                id: "d",
                 text: "Check that the total of all debtor accounts agrees with one control figure",
               },
-              { id: "b", text: "Record each individual sale made on credit" },
-              { id: "c", text: "Replace the sales journal" },
-              { id: "d", text: "Calculate the profit for the year" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -126,15 +126,15 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "Credit side, because sales are income" },
+              { id: "b", text: "Debit side, because cash is received" },
+              { id: "c", text: "Credit side, because they reduce debtors" },
               {
-                id: "a",
+                id: "d",
                 text: "Debit side, because they increase the total owed by debtors",
               },
-              { id: "b", text: "Credit side, because sales are income" },
-              { id: "c", text: "Credit side, because they reduce debtors" },
-              { id: "d", text: "Debit side, because cash is received" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -237,15 +237,15 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "Debit side — they are sales" },
+              { id: "b", text: "Credit side — they are cash received" },
               {
-                id: "a",
+                id: "c",
                 text: "Credit side — they reduce the total owed by debtors",
               },
-              { id: "b", text: "Debit side — they are sales" },
-              { id: "c", text: "Credit side — they are cash received" },
               { id: "d", text: "Debit side — they increase debtors" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -523,6 +523,258 @@ export const lesson31: Lesson = {
               "(a) Opening balance, credit sales, interest charged. (b) Receipts, discounts, interest received, returns, irrecoverable debts, allowance increase. (c) It is a summary for checking, not a record of transactions.",
           },
         },
+        {
+          id: "cieiacct-u3-sac-q11",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Cash received from credit customers is entered in the sales ledger control account on the:",
+          response: {
+            type: "mcq",
+            choices: [
+              {
+                id: "a",
+                text: "Credit side — it reduces the total owed by debtors",
+              },
+              { id: "b", text: "Credit side — it is a sale" },
+              { id: "c", text: "Debit side — it is money received" },
+              { id: "d", text: "Debit side — it increases debtors" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Control account logic",
+                statement: "Receipts from debtors reduce what they owe — credited.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "Cash received reduces debtor balances, so it is credited.",
+                marks: 1,
+                markCode: "M",
+              },
+            ],
+            finalAnswer: "(a) Credit side.",
+          },
+        },
+        {
+          id: "cieiacct-u3-sac-q12",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "The sales ledger control account shows: opening balance \\$1,500; credit sales \\$12,000; returns inwards \\$400; cash received \\$9,000; discounts allowed \\$200. Calculate the closing balance.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "Closing balance", answer: 3900, unit: "$" }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "formula",
+                name: "SLCA closing balance",
+                statement:
+                  "Opening + credit sales − returns − receipts − discounts.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Debits = 1,500 + 12,000 = 13,500.",
+                working: "1500 + 12000 = 13500",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "Credits before balance = 9,000 + 200 + 400 = 9,600; closing = 13,500 − 9,600 = \\$3,900.",
+                working: "13500 - 9600 = 3900",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "\\$3,900",
+            commonErrors: ["Adding returns instead of deducting them."],
+          },
+        },
+        {
+          id: "cieiacct-u3-sac-q13",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "Explain why irrecoverable debts written off are deducted in the sales ledger control account.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Irrecoverable debts",
+                statement:
+                  "Debts that will never be paid must be removed from the total owed by debtors.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "An irrecoverable debt means the customer will never pay, so the amount is no longer owed.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "The control account must agree with the sales ledger, where the debtor's account is also written off.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "Therefore the write-off is credited (deducted) to reduce the control account balance.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer:
+              "Irrecoverable debts reduce the amount actually owed, so they are deducted (credited) to keep the SLCA in agreement with the sales ledger.",
+          },
+        },
+        {
+          id: "cieiacct-u3-sac-q14",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Interest received from debtors is entered in the sales ledger control account on the:",
+          response: {
+            type: "mcq",
+            choices: [
+              {
+                id: "a",
+                text: "Credit side — it reduces the total owed by debtors",
+              },
+              { id: "b", text: "Credit side — it is a sale" },
+              { id: "c", text: "Debit side — it is income received" },
+              { id: "d", text: "Debit side — it increases debtors" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Interest in control accounts",
+                statement:
+                  "Interest received reduces what debtors owe — credited; interest charged increases it — debited.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "Interest received is like a receipt — it reduces debtor balances.",
+                marks: 1,
+                markCode: "M",
+              },
+            ],
+            finalAnswer: "(a) Credit side.",
+          },
+        },
+        {
+          id: "cieiacct-u3-sac-q15",
+          difficulty: "challenge",
+          totalMarks: 3,
+          stem: "The sales ledger control account shows: opening balance \\$4,000; credit sales \\$28,000; returns inwards \\$900; irrecoverable debts \\$300; cash received \\$21,000; discounts allowed \\$600. Calculate the closing balance.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "Closing balance", answer: 9200, unit: "$" }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "formula",
+                name: "SLCA closing balance",
+                statement:
+                  "Opening + credit sales − returns − irrecoverable debts − receipts − discounts.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Debit side total.",
+                working: "4000 + 28000 = 32000",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "Credit side before balance.",
+                working: "900 + 300 + 21000 + 600 = 22800",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "Closing balance = \\$9,300.",
+                working: "32000 - 22800 = 9200",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "\\$9,200",
+            commonErrors: [
+              "Forgetting the irrecoverable debts write-off of \\$300.",
+            ],
+          },
+        },
+        {
+          id: "cieiacct-u3-sac-q16",
+          difficulty: "challenge",
+          totalMarks: 4,
+          parts: [
+            {
+              label: "a",
+              prompt:
+                "State two items that appear on the debit side and two on the credit side of a sales ledger control account.",
+              marks: 2,
+            },
+            {
+              label: "b",
+              prompt:
+                "Explain what the 'agreement' check on a control account involves.",
+              marks: 2,
+            },
+          ],
+          stem: "A business prepares its sales ledger control account at year end.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "SLCA agreement",
+                statement:
+                  "The SLCA balance must equal the total of all individual debtor account balances.",
+              },
+            ],
+            steps: [
+              {
+                part: "a",
+                reasoning:
+                  "Debit: opening balance, credit sales, interest charged. Credit: receipts, discounts allowed, interest received, returns, irrecoverable debts, allowance increase.",
+                marks: 2,
+                markCode: "M",
+              },
+              {
+                part: "b",
+                reasoning:
+                  "The closing balance on the SLCA is compared with the sum of all sales ledger balances.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                part: "b",
+                reasoning:
+                  "If they differ, an error exists in either the control account or an individual ledger account and must be investigated.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer:
+              "(a) Any two debit items and any two credit items. (b) SLCA balance must equal the total of all debtor accounts; a difference signals an error.",
+          },
+        },
       ],
     },
     {
@@ -571,15 +823,15 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "The bank account" },
+              { id: "b", text: "All debtor accounts" },
+              { id: "c", text: "Cash sales" },
               {
-                id: "a",
+                id: "d",
                 text: "All creditor accounts — what the business owes suppliers",
               },
-              { id: "b", text: "All debtor accounts" },
-              { id: "c", text: "The bank account" },
-              { id: "d", text: "Cash sales" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -608,15 +860,15 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "Debit side — cash goes out" },
+              { id: "b", text: "Debit side — purchases are expenses" },
               {
-                id: "a",
+                id: "c",
                 text: "Credit side — they increase the total owed to suppliers",
               },
-              { id: "b", text: "Debit side — purchases are expenses" },
-              { id: "c", text: "Debit side — cash goes out" },
               { id: "d", text: "Credit side — they reduce creditors" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -720,15 +972,15 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "Credit side — they are purchases" },
               {
-                id: "a",
+                id: "b",
                 text: "Debit side — they reduce the amount owed to suppliers",
               },
-              { id: "b", text: "Credit side — they are purchases" },
               { id: "c", text: "Debit side — they increase creditors" },
               { id: "d", text: "Credit side — goods returned are income" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -989,6 +1241,250 @@ export const lesson31: Lesson = {
               "(a) Checks the purchases ledger total and locates errors. (b) \\$14,000.",
           },
         },
+        {
+          id: "cieiacct-u3-pac-q11",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Credit purchases are entered in the purchases ledger control account on the:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Debit side — they reduce creditors" },
+              {
+                id: "b",
+                text: "Credit side — they increase the total owed to suppliers",
+              },
+              { id: "c", text: "Debit side — purchases are expenses" },
+              { id: "d", text: "Credit side — cash is paid" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Control account logic",
+                statement:
+                  "Credit purchases increase what is owed to suppliers — credited in the PLAC.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "Buying on credit increases the liability to suppliers, so it is credited.",
+                marks: 1,
+                markCode: "M",
+              },
+            ],
+            finalAnswer: "(a) Credit side.",
+          },
+        },
+        {
+          id: "cieiacct-u3-pac-q12",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "The purchases ledger control account shows: opening balance \\$4,000; credit purchases \\$22,000; returns outwards \\$800; payments to creditors \\$15,000; discounts received \\$500. Calculate the closing balance.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "Closing balance", answer: 9700, unit: "$" }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "formula",
+                name: "PLAC closing balance",
+                statement:
+                  "Opening + credit purchases − returns outwards − payments − discounts received.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Credit side total.",
+                working: "4000 + 22000 = 26000",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "Debit side before balance = 800 + 15,000 + 500 = 16,300; closing = 26,000 − 16,300 = \\$9,700.",
+                working: "26000 - 16300 = 9700",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "\\$9,700",
+            commonErrors: ["Forgetting to deduct returns outwards."],
+          },
+        },
+        {
+          id: "cieiacct-u3-pac-q13",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "Explain why payments to creditors are entered on the debit side of the purchases ledger control account.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Control account logic",
+                statement:
+                  "Payments to suppliers reduce the amount owed, so they are debited.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "The PLAC records amounts owed to suppliers; paying a creditor reduces that liability.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "A reduction in what is owed is entered on the debit side, mirroring how receipts reduce debtors in the SLCA.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "This keeps the PLAC in step with the individual creditor accounts in the purchases ledger.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer:
+              "Payments reduce amounts owed to suppliers, so they are debited — the PLAC is the mirror image of the SLCA.",
+          },
+        },
+        {
+          id: "cieiacct-u3-pac-q14",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Returns outwards to suppliers (goods sent back) are entered in the purchases ledger control account on the:",
+          response: {
+            type: "mcq",
+            choices: [
+              {
+                id: "a",
+                text: "Debit side — they reduce the total owed to suppliers",
+              },
+              { id: "b", text: "Credit side — they increase creditors" },
+              { id: "c", text: "Credit side — they are purchases" },
+              { id: "d", text: "Debit side — they are cash paid" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Returns outwards",
+                statement:
+                  "Goods returned to suppliers reduce what is owed — debited in the PLAC.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "Returns outwards reduce the liability to suppliers, so they are debited.",
+                marks: 1,
+                markCode: "M",
+              },
+            ],
+            finalAnswer: "(a) Debit side.",
+          },
+        },
+        {
+          id: "cieiacct-u3-pac-q15",
+          difficulty: "challenge",
+          totalMarks: 3,
+          stem: "The purchases ledger control account shows: opening balance \\$6,000; credit purchases \\$35,000; returns outwards \\$1,200; payments to creditors \\$28,000; discounts received \\$900; interest paid to creditors \\$300. Calculate the closing balance.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "Closing balance", answer: 10600, unit: "$" }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "formula",
+                name: "PLAC closing balance",
+                statement:
+                  "Opening + credit purchases − returns outwards − payments − discounts received − interest paid.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Credit side total.",
+                working: "6000 + 35000 = 41000",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "Debit side before balance = 1,200 + 28,000 + 900 + 300 = 30,400.",
+                working: "1200 + 28000 + 900 + 300 = 30400",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "Closing balance = \\$10,600.",
+                working: "41000 - 30400 = 10600",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "\\$10,600",
+            commonErrors: ["Forgetting interest paid to creditors."],
+          },
+        },
+        {
+          id: "cieiacct-u3-pac-q16",
+          difficulty: "challenge",
+          totalMarks: 4,
+          parts: [
+            {
+              label: "a",
+              prompt: "State the purpose of a purchases ledger control account.",
+              marks: 2,
+            },
+            {
+              label: "b",
+              prompt:
+                "Opening balance \\$3,000; credit purchases \\$18,000; returns outwards \\$600; payments \\$14,000; discounts received \\$400. Calculate the closing balance.",
+              marks: 2,
+            },
+          ],
+          stem: "A business prepares its purchases ledger control account.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "formula",
+                name: "PLAC",
+                statement:
+                  "Closing = opening + credit purchases − returns outwards − payments − discounts received.",
+              },
+            ],
+            steps: [
+              {
+                part: "a",
+                reasoning:
+                  "It totals all creditor accounts in one account so the purchases ledger total can be checked for agreement and errors located.",
+                marks: 2,
+                markCode: "M",
+              },
+              {
+                part: "b",
+                reasoning:
+                  "Credit side = 3,000 + 18,000 = 21,000; debit side before balance = 600 + 14,000 + 400 = 15,000; closing = \\$6,000.",
+                working: "21000 - 15000 = 6000",
+                marks: 2,
+                markCode: "A",
+              },
+            ],
+            finalAnswer:
+              "(a) Checks the purchases ledger total and helps locate errors. (b) \\$6,000.",
+          },
+        },
       ],
     },
     {
@@ -1043,12 +1539,12 @@ export const lesson31: Lesson = {
                 id: "a",
                 text: "Written up in the cash book but not yet paid by the bank",
               },
+              { id: "b", text: "Written by the bank on its own account" },
+              { id: "c", text: "Returned by the bank unpaid" },
               {
-                id: "b",
+                id: "d",
                 text: "Paid by the bank but not recorded in the cash book",
               },
-              { id: "c", text: "Returned by the bank unpaid" },
-              { id: "d", text: "Written by the bank on its own account" },
             ],
             correctChoiceId: "a",
           },
@@ -1080,18 +1576,18 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "Returned unpaid by the bank" },
+              { id: "b", text: "Made by cheque and cleared" },
               {
-                id: "a",
-                text: "Paid into the bank and recorded in the cash book but not yet credited on the statement",
-              },
-              {
-                id: "b",
+                id: "c",
                 text: "Credited by the bank but not recorded in the cash book",
               },
-              { id: "c", text: "Returned unpaid by the bank" },
-              { id: "d", text: "Made by cheque and cleared" },
+              {
+                id: "d",
+                text: "Paid into the bank and recorded in the cash book but not yet credited on the statement",
+              },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1162,22 +1658,22 @@ export const lesson31: Lesson = {
             choices: [
               {
                 id: "a",
-                text: "Bank side — deducted from the bank statement balance",
-              },
-              {
-                id: "b",
                 text: "Cash book side — added to the cash book balance",
               },
               {
+                id: "b",
+                text: "Bank side — deducted from the bank statement balance",
+              },
+              {
                 id: "c",
-                text: "Cash book side — deducted from the cash book balance",
+                text: "Bank side — added to the bank statement balance",
               },
               {
                 id: "d",
-                text: "Bank side — added to the bank statement balance",
+                text: "Cash book side — deducted from the cash book balance",
               },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1263,15 +1759,15 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "Added on the bank side" },
               {
-                id: "a",
+                id: "b",
                 text: "Deducted on the bank side — the bank has paid it but books haven't",
               },
-              { id: "b", text: "Added on the cash book side" },
               { id: "c", text: "Ignored — it will appear next month" },
-              { id: "d", text: "Added on the bank side" },
+              { id: "d", text: "Added on the cash book side" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1515,6 +2011,258 @@ export const lesson31: Lesson = {
               "(a) Books \\$9,400 Dr; bank \\$8,780 Dr; residual \\$620 to investigate. (b) Same account → same true balance; a gap means an error remains.",
           },
         },
+        {
+          id: "cieiacct-u3-brs-q11",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Unpresented cheques are treated on the cash book side of a bank reconciliation by:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Deducting them from the bank statement balance" },
+              {
+                id: "b",
+                text: "Deducting them — the bank has not yet paid them",
+              },
+              { id: "c", text: "Ignoring them — they cancel out" },
+              { id: "d", text: "Adding them — they are money received" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Unpresented cheques",
+                statement:
+                  "Recorded in the cash book but not yet paid by the bank — deducted from the cash book balance.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "The books show the payment but the bank does not yet — deduct to align them.",
+                marks: 1,
+                markCode: "M",
+              },
+            ],
+            finalAnswer: "(a) Deducted from the cash book balance.",
+          },
+        },
+        {
+          id: "cieiacct-u3-brs-q12",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "The cash book shows a bank balance of \\$5,000 Dr. Uncredited deposits are \\$600 and unpresented cheques are \\$900. Calculate the revised cash book balance.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "Revised cash book", answer: 4700, unit: "$" }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "formula",
+                name: "Revised cash book",
+                statement:
+                  "Cash book balance + uncredited deposits − unpresented cheques.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Add uncredited deposits, deduct unpresented cheques.",
+                working: "5000 + 600 - 900",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "Revised cash book balance = \\$4,700 Dr.",
+                working: "5000 + 600 - 900 = 4700",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "\\$4,700 Dr",
+          },
+        },
+        {
+          id: "cieiacct-u3-brs-q13",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "Explain what is meant by an uncredited deposit and how it affects a bank reconciliation statement.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Uncredited deposit",
+                statement:
+                  "Money received and recorded in the cash book but not yet credited by the bank when the statement was prepared.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "It is a receipt the business has recorded but the bank has not yet processed.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "The cash book balance is higher than the bank statement because of it.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "It is added to the cash book balance on the bank reconciliation statement.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer:
+              "A receipt recorded in the books but not yet on the bank statement — added to the cash book balance.",
+          },
+        },
+        {
+          id: "cieiacct-u3-brs-q14",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Bank charges of \\$45 appear on the bank statement but have not been recorded in the cash book. On the bank reconciliation statement they are:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Ignored — they are timing differences" },
+              {
+                id: "b",
+                text: "Deducted from the bank statement balance",
+              },
+              { id: "c", text: "Added to the cash book balance" },
+              { id: "d", text: "Added to the bank statement balance" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Bank-only items",
+                statement:
+                  "Items the bank records but the books do not are adjusted on the bank side of the BRS.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "Bank charges reduce the bank balance and are not yet in the books — deduct on the bank side.",
+                marks: 1,
+                markCode: "M",
+              },
+            ],
+            finalAnswer: "(a) Deducted from the bank statement balance.",
+          },
+        },
+        {
+          id: "cieiacct-u3-brs-q15",
+          difficulty: "challenge",
+          totalMarks: 3,
+          stem: "The cash book shows a bank balance of \\$8,000 Dr and the bank statement shows \\$7,350 Dr. Unpresented cheques are \\$1,200, uncredited deposits \\$400 and bank charges of \\$150 have not been recorded in the books. Prepare the bank reconciliation statement.",
+          response: {
+            type: "numeric",
+            unordered: true,
+            parts: [
+              { label: "Revised cash book balance", answer: 7200, unit: "$" },
+              { label: "Revised bank balance", answer: 7200, unit: "$" },
+            ],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "formula",
+                name: "BRS",
+                statement:
+                  "Books side: cash book + uncredited deposits − unpresented cheques. Bank side: statement ± bank-only items.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "Revised cash book = 8,000 + 400 − 1,200 = \\$7,200 Dr.",
+                working: "8000 + 400 - 1200 = 7200",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "Revised bank = 7,350 − 150 bank charges = \\$7,200 Dr.",
+                working: "7350 - 150 = 7200",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "Both revised balances agree at \\$7,200 — reconciliation complete.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "Revised cash book \\$7,200 Dr = revised bank \\$7,200 Dr.",
+          },
+        },
+        {
+          id: "cieiacct-u3-brs-q16",
+          difficulty: "challenge",
+          totalMarks: 4,
+          parts: [
+            {
+              label: "a",
+              prompt:
+                "State two reasons why the cash book and bank statement balances may differ.",
+              marks: 2,
+            },
+            {
+              label: "b",
+              prompt:
+                "Explain why the two revised balances on a bank reconciliation statement must agree.",
+              marks: 2,
+            },
+          ],
+          stem: "A business compares its cash book with the bank statement at month end.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "BRS purpose",
+                statement:
+                  "The BRS explains differences so both records reflect the same true bank balance.",
+              },
+            ],
+            steps: [
+              {
+                part: "a",
+                reasoning:
+                  "Any two of: unpresented cheques, uncredited deposits, bank charges/interest not recorded, direct debits/standing orders, errors.",
+                marks: 2,
+                markCode: "M",
+              },
+              {
+                part: "b",
+                reasoning:
+                  "Both sides are adjusted to what the bank balance should be once all known items are recognised.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                part: "b",
+                reasoning:
+                  "If they still differ, an error or unrecorded item remains and must be investigated.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer:
+              "(a) Timing items (unpresented cheques, uncredited deposits) or bank-only items (charges, interest). (b) Both must show the same true balance; a remaining gap signals an error.",
+          },
+        },
       ],
     },
     {
@@ -1559,15 +2307,15 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "Balancing each ledger account" },
+              { id: "b", text: "Preparing the trial balance" },
               {
-                id: "a",
+                id: "c",
                 text: "Adding up columns of figures to check the totals",
               },
-              { id: "b", text: "Balancing each ledger account" },
-              { id: "c", text: "Preparing the trial balance" },
               { id: "d", text: "Writing up the cash book" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1595,18 +2343,18 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "This year's profit with last year's" },
               {
-                id: "a",
-                text: "Two related figures that should be equal, e.g. sales ledger total and control account balance",
-              },
-              { id: "b", text: "This year's profit with last year's" },
-              {
-                id: "c",
+                id: "b",
                 text: "Debits with credits in the trial balance only",
               },
-              { id: "d", text: "Cash received with cash paid" },
+              { id: "c", text: "Cash received with cash paid" },
+              {
+                id: "d",
+                text: "Two related figures that should be equal, e.g. sales ledger total and control account balance",
+              },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1635,15 +2383,15 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "A supplier paid on time" },
+              { id: "b", text: "A cash sale recorded correctly" },
+              { id: "c", text: "A trial balance that agrees" },
               {
-                id: "a",
+                id: "d",
                 text: "A debtor's balance of \\$480,000 when all other debtors owe under \\$5,000",
               },
-              { id: "b", text: "A trial balance that agrees" },
-              { id: "c", text: "A cash sale recorded correctly" },
-              { id: "d", text: "A supplier paid on time" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1964,6 +2712,242 @@ export const lesson31: Lesson = {
             ],
             finalAnswer:
               "(a) Any four TB-invisible errors. (b) Matching verification checks for each.",
+          },
+        },
+        {
+          id: "cieiacct-u3-other-q11",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "A casting check involves:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Checking entries against source documents" },
+              { id: "b", text: "Comparing two different ledger balances" },
+              {
+                id: "c",
+                text: "Adding up columns of figures to confirm the totals",
+              },
+              { id: "d", text: "Preparing a trial balance" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Casting",
+                statement: "Re-adding columns of figures to confirm totals are correct.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Casting is the arithmetical check of column totals.",
+                marks: 1,
+                markCode: "M",
+              },
+            ],
+            finalAnswer: "(a) Adding up columns to confirm totals.",
+          },
+        },
+        {
+          id: "cieiacct-u3-other-q12",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Which of the following is an example of an agreement check?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Preparing the income statement" },
+              {
+                id: "b",
+                text: "Total debtors per sales ledger equals the SLCA balance",
+              },
+              { id: "c", text: "Checking a figure 'looks reasonable'" },
+              { id: "d", text: "Re-adding a column of the purchases journal" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Agreement check",
+                statement:
+                  "Two related figures from different records must be equal.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "Agreement compares related totals — e.g. subsidiary ledger total vs control account balance.",
+                marks: 1,
+                markCode: "M",
+              },
+            ],
+            finalAnswer: "(a) Sales ledger total vs SLCA balance.",
+          },
+        },
+        {
+          id: "cieiacct-u3-other-q13",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "Explain what a transposition error is and how it might be discovered.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Transposition error",
+                statement:
+                  "Digits of a figure are reversed when copying, e.g. 450 written as 540.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "It occurs when digits are written in the wrong order — a copying mistake.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "It may be found by casting, agreement checks, or comparing journal totals with ledger totals.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "If the transposed digits cause unequal debits and credits, the trial balance also reveals it.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer:
+              "Digits reversed when copying (e.g. 450 → 540); found by casting, agreement or TB checks.",
+          },
+        },
+        {
+          id: "cieiacct-u3-other-q14",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "The sales journal total is \\$5,430 but the total posted to the sales ledger is \\$5,340. What is the most likely type of error and what is the difference?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "Difference", answer: 90, unit: "$" }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Transposition",
+                statement:
+                  "Figures differing by a multiple of 9 often indicate reversed digits.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "5430 − 5340 = 90 — digits 4 and 3 appear transposed in one entry.",
+                working: "5430 - 5340 = 90",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "Likely a transposition error in one posting.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "\\$90 — likely a transposition error.",
+          },
+        },
+        {
+          id: "cieiacct-u3-other-q15",
+          difficulty: "challenge",
+          totalMarks: 4,
+          parts: [
+            {
+              label: "a",
+              prompt:
+                "State any four verification checks used to verify accounting records.",
+              marks: 2,
+            },
+            {
+              label: "b",
+              prompt:
+                "For each check named, state the type of error it would most likely detect.",
+              marks: 2,
+            },
+          ],
+          stem: "A business wants to verify its accounting records before year end.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Verification checks",
+                statement:
+                  "Casting, agreement, narrative checks and use of documents each target different errors.",
+              },
+            ],
+            steps: [
+              {
+                part: "a",
+                reasoning:
+                  "Any four of: casting, agreement, narrative/visual check, use of documents, control accounts, bank reconciliation.",
+                marks: 2,
+                markCode: "M",
+              },
+              {
+                part: "b",
+                reasoning:
+                  "Casting → addition errors; agreement → wrong postings between ledgers; documents → original entry errors; narrative → misplaced decimals.",
+                marks: 2,
+                markCode: "A",
+              },
+            ],
+            finalAnswer:
+              "(a) Any four valid checks. (b) Each check matched to a suitable error type.",
+          },
+        },
+        {
+          id: "cieiacct-u3-other-q16",
+          difficulty: "challenge",
+          totalMarks: 1,
+          stem: "A payment to a creditor was correctly recorded but posted to the wrong creditor's account. The most effective check to find this error of commission is:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a",
+                text: "Re-adding the totals column of the payments journal" },
+              { id: "b", text: "Checking that the bank statement agrees with the cash book" },
+              {
+                id: "c",
+                text: "Checking individual creditor accounts against source documents",
+              },
+              { id: "d", text: "Preparing a new trial balance" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Error of commission",
+                statement:
+                  "Found only by checking individual accounts against source documents or detailed ledger review.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "Totals-based checks cannot see account-level errors; documents reveal which creditor was actually paid.",
+                marks: 1,
+                markCode: "M",
+              },
+            ],
+            finalAnswer: "(a) Check individual accounts against documents.",
           },
         },
       ],
@@ -2382,12 +3366,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Cash received from debtors" },
-              { id: "b", text: "Credit sales" },
-              { id: "c", text: "Opening balance b/d" },
-              { id: "d", text: "Returns inwards" },
+              { id: "a", text: "Opening balance b/d" },
+              { id: "b", text: "Returns inwards" },
+              { id: "c", text: "Credit sales" },
+              { id: "d", text: "Cash received from debtors" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -2489,6 +3473,307 @@ export const lesson31: Lesson = {
             ],
             finalAnswer:
               "(a) They verify debtor/creditor totals and detect errors efficiently. (b) Compensating errors can hide; individual entries may still be wrong.",
+          },
+        },
+        {
+          id: "cieiacct-u3-mixed-q11",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "In an exam question requiring a control account, the most important presentation rule is to:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Round all figures to the nearest \\$10" },
+              { id: "b", text: "Ignore the opening balance" },
+              {
+                id: "c",
+                text: "State Dr or Cr clearly for every item entered",
+              },
+              { id: "d", text: "Enter every individual transaction" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Exam technique",
+                statement:
+                  "Control account answers must show correct Dr/Cr placement and totals.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "Marks are awarded for correct side, correct items and correct arithmetic.",
+                marks: 1,
+                markCode: "M",
+              },
+            ],
+            finalAnswer: "(a) State Dr/Cr clearly for every item.",
+          },
+        },
+        {
+          id: "cieiacct-u3-mixed-q12",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "The sales ledger control account shows: opening balance \\$2,500; credit sales \\$15,000; returns inwards \\$700; cash received \\$11,000; discounts allowed \\$350; interest received \\$150. Calculate the closing balance.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "Closing balance", answer: 5300, unit: "$" }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "formula",
+                name: "SLCA",
+                statement:
+                  "Opening + credit sales − returns − receipts − discounts − interest received.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Debit side = 2,500 + 15,000 = 17,500.",
+                working: "2500 + 15000 = 17500",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "Credit side before balance = 11,000 + 350 + 700 + 150 = 12,200.",
+                working: "11000 + 350 + 700 + 150 = 12200",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "Closing balance = \\$5,300.",
+                working: "17500 - 12200 = 5300",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "\\$5,300",
+            commonErrors: ["Forgetting to deduct interest received from debtors."],
+          },
+        },
+        {
+          id: "cieiacct-u3-mixed-q13",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "The cash book shows a bank balance of \\$6,400 Dr. The bank statement shows \\$6,050 Dr. Uncredited deposits are \\$500 and unpresented cheques are \\$850. Calculate the revised cash book balance.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "Revised cash book", answer: 6050, unit: "$" }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "formula",
+                name: "BRS books side",
+                statement:
+                  "Cash book balance + uncredited deposits − unpresented cheques.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Add uncredited deposits.",
+                working: "6400 + 500 = 6900",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "Deduct unpresented cheques.",
+                working: "6900 - 850 = 6050",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "Revised cash book balance = \\$6,050 Dr — it agrees with the bank statement here because no bank-only items exist.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "\\$6,050 Dr",
+          },
+        },
+        {
+          id: "cieiacct-u3-mixed-q14",
+          difficulty: "core",
+          totalMarks: 4,
+          parts: [
+            {
+              label: "a",
+              prompt:
+                "Opening balance \\$1,200; credit purchases \\$24,000; returns outwards \\$900; payments to creditors \\$19,000; discounts received \\$600. Calculate the closing balance on the purchases ledger control account.",
+              marks: 3,
+            },
+            {
+              label: "b",
+              prompt:
+                "State which figure this closing balance should be compared with.",
+              marks: 1,
+            },
+          ],
+          stem: "A business prepares its purchases ledger control account.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "formula",
+                name: "PLAC",
+                statement:
+                  "Opening + credit purchases − returns outwards − payments − discounts received.",
+              },
+            ],
+            steps: [
+              {
+                part: "a",
+                reasoning:
+                  "Credit side = 1,200 + 24,000 = 25,200; debit side before balance = 900 + 19,000 + 600 = 20,500.",
+                working: "25200 - 20500",
+                marks: 2,
+                markCode: "M",
+              },
+              {
+                part: "a",
+                reasoning: "Closing balance = \\$4,700 Cr.",
+                working: "25200 - 20500 = 4700",
+                marks: 1,
+                markCode: "A",
+              },
+              {
+                part: "b",
+                reasoning:
+                  "It should equal the total of all individual creditor balances in the purchases ledger.",
+                marks: 1,
+                markCode: "M",
+              },
+            ],
+            finalAnswer:
+              "(a) \\$4,700 Cr. (b) Total of all purchases ledger balances.",
+          },
+        },
+        {
+          id: "cieiacct-u3-mixed-q15",
+          difficulty: "challenge",
+          totalMarks: 5,
+          parts: [
+            {
+              label: "a",
+              prompt:
+                "SLCA: opening \\$3,000; credit sales \\$26,000; returns \\$800; irrecoverable debts \\$400; receipts \\$20,000; discounts \\$500. Calculate the closing balance.",
+              marks: 3,
+            },
+            {
+              label: "b",
+              prompt:
+                "State one reason why the SLCA balance might not agree with the sales ledger total.",
+              marks: 2,
+            },
+          ],
+          stem: "A business is verifying its sales ledger at year end.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "formula",
+                name: "SLCA",
+                statement:
+                  "Opening + credit sales − returns − irrecoverable debts − receipts − discounts.",
+              },
+            ],
+            steps: [
+              {
+                part: "a",
+                reasoning:
+                  "Debits = 3,000 + 26,000 = 29,000; credits before balance = 800 + 400 + 20,000 + 500 = 21,700.",
+                working: "29000 - 21700",
+                marks: 2,
+                markCode: "M",
+              },
+              {
+                part: "a",
+                reasoning: "Closing balance = \\$7,300 Dr.",
+                working: "29000 - 21700 = 7300",
+                marks: 1,
+                markCode: "A",
+              },
+              {
+                part: "b",
+                reasoning:
+                  "Any valid cause: an error in the control account, an unposted receipt in the sales ledger, wrong-side entry, or an error of commission between debtor accounts.",
+                marks: 2,
+                markCode: "A",
+              },
+            ],
+            finalAnswer:
+              "(a) \\$7,300 Dr. (b) Any valid error cause, e.g. missing posting or wrong account entry.",
+          },
+        },
+        {
+          id: "cieiacct-u3-mixed-q16",
+          difficulty: "challenge",
+          totalMarks: 6,
+          parts: [
+            {
+              label: "a",
+              prompt:
+                "State the items that go on the debit and credit sides of a sales ledger control account.",
+              marks: 2,
+            },
+            {
+              label: "b",
+              prompt:
+                "Opening \\$1,500; credit sales \\$20,000; returns \\$600; receipts \\$16,000; discounts \\$400. Calculate the closing balance.",
+              marks: 2,
+            },
+            {
+              label: "c",
+              prompt:
+                "State how you would verify the closing balance is correct.",
+              marks: 2,
+            },
+          ],
+          stem: "A business prepares a sales ledger control account as part of its verification of accounting records.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "formula",
+                name: "SLCA",
+                statement:
+                  "Debit: opening, credit sales, interest charged. Credit: receipts, discounts, interest received, returns, irrecoverable debts, allowance increase.",
+              },
+            ],
+            steps: [
+              {
+                part: "a",
+                reasoning:
+                  "Debit: opening balance, credit sales, interest charged. Credit: receipts, discounts allowed, interest received, returns inwards, irrecoverable debts, increase in allowance.",
+                marks: 2,
+                markCode: "M",
+              },
+              {
+                part: "b",
+                reasoning:
+                  "Debits = 1,500 + 20,000 = 21,500; credits = 16,000 + 400 + 600 = 17,000; closing = \\$4,500 Dr.",
+                working: "21500 - 17000 = 4500",
+                marks: 2,
+                markCode: "A",
+              },
+              {
+                part: "c",
+                reasoning:
+                  "Compare the closing balance with the total of all individual debtor account balances in the sales ledger — they must agree.",
+                marks: 2,
+                markCode: "M",
+              },
+            ],
+            finalAnswer:
+              "(a) See items listed. (b) \\$4,500 Dr. (c) Must equal the sum of all sales ledger balances.",
+            commonErrors: [
+              "Putting returns inwards on the debit side — they reduce debtors so are credited.",
+            ],
           },
         },
       ],

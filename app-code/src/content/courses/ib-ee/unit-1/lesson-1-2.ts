@@ -53,11 +53,11 @@ export const lesson12: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Broad enough to cover everything" },
-              { id: "b", text: "Focused and arguable" },
-              { id: "c", text: "Answerable with a simple yes/no" },
+              { id: "b", text: "Answerable with a simple yes/no" },
+              { id: "c", text: "Focused and arguable" },
               { id: "d", text: "Purely descriptive" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -147,9 +147,9 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A statement of intent" },
+              { id: "a", text: "A hypothesis to prove" },
               { id: "b", text: "A question" },
-              { id: "c", text: "A hypothesis to prove" },
+              { id: "c", text: "A statement of intent" },
               { id: "d", text: "A list of topics" },
             ],
             correctChoiceId: "b",
@@ -174,12 +174,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "What is the French Revolution?" },
-              { id: "b", text: "To what extent did economic inequality shape revolutionary violence in Paris between 1789 and 1794?" },
-              { id: "c", text: "Did Napoleon Bonaparte like bread?" },
-              { id: "d", text: "Explain everything about World War II" },
+              { id: "a", text: "Did Napoleon Bonaparte like bread?" },
+              { id: "b", text: "Explain everything about World War II" },
+              { id: "c", text: "What is the French Revolution?" },
+              { id: "d", text: "To what extent did economic inequality shape revolutionary violence in Paris between 1789 and 1794?" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -202,12 +202,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It makes the title too short" },
-              { id: "b", text: "It combines more than one question and usually makes the scope too broad" },
-              { id: "c", text: "It prevents the use of sources" },
-              { id: "d", text: "It requires a longer bibliography" },
+              { id: "a", text: "It prevents the use of sources" },
+              { id: "b", text: "It requires a longer bibliography" },
+              { id: "c", text: "It combines more than one question and usually makes the scope too broad" },
+              { id: "d", text: "It makes the title too short" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -230,12 +230,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Urbanisation" },
-              { id: "b", text: "The effects of urbanisation" },
-              { id: "c", text: "To what extent has urbanisation altered heat exposure in one city between 1990 and 2020?" },
-              { id: "d", text: "Is urbanisation good or bad?" },
+              { id: "a", text: "To what extent has urbanisation altered heat exposure in one city between 1990 and 2020?" },
+              { id: "b", text: "Urbanisation" },
+              { id: "c", text: "Is urbanisation good or bad?" },
+              { id: "d", text: "The effects of urbanisation" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -260,11 +260,11 @@ export const lesson12: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Keep it because breadth always improves quality" },
-              { id: "b", text: "Narrow it to a feasible case, period or comparison" },
-              { id: "c", text: "Delete the word count requirement" },
+              { id: "b", text: "Delete the word count requirement" },
+              { id: "c", text: "Narrow it to a feasible case, period or comparison" },
               { id: "d", text: "Ask the supervisor to write the essay" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -511,12 +511,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Only once at the start" },
-              { id: "b", text: "Iteratively through testing and feedback" },
-              { id: "c", text: "Never — it must stay fixed" },
+              { id: "a", text: "Never — it must stay fixed" },
+              { id: "b", text: "Only once at the start" },
+              { id: "c", text: "Iteratively through testing and feedback" },
               { id: "d", text: "Only by the supervisor" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -606,12 +606,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The student wants an easier topic" },
-              { id: "b", text: "Research reveals a better focused or more feasible direction" },
-              { id: "c", text: "The supervisor changes subjects" },
-              { id: "d", text: "The word count increases" },
+              { id: "a", text: "The word count increases" },
+              { id: "b", text: "The supervisor changes subjects" },
+              { id: "c", text: "Research reveals a better focused or more feasible direction" },
+              { id: "d", text: "The student wants an easier topic" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -633,12 +633,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Accept every suggestion without checking it" },
-              { id: "b", text: "Ignore comments until the essay is finished" },
-              { id: "c", text: "Test the feedback against sources, scope and your own understanding" },
+              { id: "a", text: "Ignore comments until the essay is finished" },
+              { id: "b", text: "Test the feedback against sources, scope and your own understanding" },
+              { id: "c", text: "Accept every suggestion without checking it" },
               { id: "d", text: "Ask the supervisor to choose the final question" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -661,12 +661,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "To prove the supervisor wrote the essay" },
+              { id: "a", text: "To show how evidence and understanding shaped the final question" },
               { id: "b", text: "To avoid all future revisions" },
-              { id: "c", text: "To show how evidence and understanding shaped the final question" },
-              { id: "d", text: "To increase the word count" },
+              { id: "c", text: "To increase the word count" },
+              { id: "d", text: "To prove the supervisor wrote the essay" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -689,12 +689,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Keep it unchanged because clarity is enough" },
-              { id: "b", text: "Revise scope, method or question to improve feasibility" },
+              { id: "a", text: "Move the question to the title page unchanged" },
+              { id: "b", text: "Keep it unchanged because clarity is enough" },
               { id: "c", text: "Write only about the sources that are unavailable" },
-              { id: "d", text: "Move the question to the title page unchanged" },
+              { id: "d", text: "Revise scope, method or question to improve feasibility" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -718,12 +718,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Change only the punctuation" },
-              { id: "b", text: "Add more background information" },
-              { id: "c", text: "Ask 'to what extent' a specific factor shaped a bounded outcome" },
-              { id: "d", text: "Make the question longer without adding evaluation" },
+              { id: "a", text: "Ask 'to what extent' a specific factor shaped a bounded outcome" },
+              { id: "b", text: "Change only the punctuation" },
+              { id: "c", text: "Make the question longer without adding evaluation" },
+              { id: "d", text: "Add more background information" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [

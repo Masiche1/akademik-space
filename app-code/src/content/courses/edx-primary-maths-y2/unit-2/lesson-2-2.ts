@@ -70,11 +70,11 @@ export const lesson22: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "A half" },
-              { id: "b", text: "A quarter" },
-              { id: "c", text: "A third" },
-              { id: "d", text: "Two thirds" },
+              { id: "b", text: "A third" },
+              { id: "c", text: "Two thirds" },
+              { id: "d", text: "A quarter" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -306,12 +306,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A quarter" },
-              { id: "b", text: "A half" },
-              { id: "c", text: "They are the same" },
-              { id: "d", text: "It depends" },
+              { id: "a", text: "A half" },
+              { id: "b", text: "It depends" },
+              { id: "c", text: "A quarter" },
+              { id: "d", text: "They are the same" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

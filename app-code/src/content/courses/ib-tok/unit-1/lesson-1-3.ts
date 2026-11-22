@@ -52,12 +52,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Language has no effect on thought" },
-              { id: "b", text: "The structure of language shapes thought patterns" },
-              { id: "c", text: "All languages express identical concepts" },
-              { id: "d", text: "Thinking is impossible without writing" },
+              { id: "a", text: "All languages express identical concepts" },
+              { id: "b", text: "Language has no effect on thought" },
+              { id: "c", text: "Thinking is impossible without writing" },
+              { id: "d", text: "The structure of language shapes thought patterns" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -147,12 +147,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Language has no effect on thought" },
-              { id: "b", text: "The structure of a language influences its speakers' thought patterns" },
+              { id: "a", text: "The structure of a language influences its speakers' thought patterns" },
+              { id: "b", text: "Thinking is impossible without writing" },
               { id: "c", text: "All languages express identical concepts" },
-              { id: "d", text: "Thinking is impossible without writing" },
+              { id: "d", text: "Language has no effect on thought" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -174,10 +174,10 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The mathematical structure of an argument" },
+              { id: "a", text: "A camera shot composition" },
               { id: "b", text: "How the choice of words and categories shapes understanding of an issue" },
               { id: "c", text: "The physical format of a document" },
-              { id: "d", text: "A camera shot composition" },
+              { id: "d", text: "The mathematical structure of an argument" },
             ],
             correctChoiceId: "b",
           },
@@ -203,8 +203,8 @@ export const lesson13: Lesson = {
             choices: [
               { id: "a", text: "Always convey facts neutrally" },
               { id: "b", text: "Conceal or soften unpleasant realities" },
-              { id: "c", text: "Never influence thought" },
-              { id: "d", text: "Only describe physical objects" },
+              { id: "c", text: "Only describe physical objects" },
+              { id: "d", text: "Never influence thought" },
             ],
             correctChoiceId: "b",
           },
@@ -359,12 +359,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Only transmits information without affecting it" },
-              { id: "b", text: "Both enables shared knowledge and filters what can be expressed" },
-              { id: "c", text: "Is irrelevant to knowledge production" },
-              { id: "d", text: "Only works in written form" },
+              { id: "a", text: "Is irrelevant to knowledge production" },
+              { id: "b", text: "Only works in written form" },
+              { id: "c", text: "Both enables shared knowledge and filters what can be expressed" },
+              { id: "d", text: "Only transmits information without affecting it" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -386,12 +386,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Can be fully stated in words" },
-              { id: "b", text: "We can use but cannot fully articulate in words" },
-              { id: "c", text: "Is always false" },
-              { id: "d", text: "Requires no learning" },
+              { id: "a", text: "We can use but cannot fully articulate in words" },
+              { id: "b", text: "Requires no learning" },
+              { id: "c", text: "Can be fully stated in words" },
+              { id: "d", text: "Is always false" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -504,12 +504,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Language slightly influences thought" },
-              { id: "b", text: "Language strictly determines what its speakers can think" },
+              { id: "a", text: "Language strictly determines what its speakers can think" },
+              { id: "b", text: "Language slightly influences thought" },
               { id: "c", text: "Language has no relation to thought" },
               { id: "d", text: "All languages are equally rich" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -562,12 +562,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Belief based on empirical proof" },
-              { id: "b", text: "Belief or trust held without empirical demonstration" },
-              { id: "c", text: "Logical deduction from premises" },
-              { id: "d", text: "Direct sensory observation" },
+              { id: "a", text: "Belief or trust held without empirical demonstration" },
+              { id: "b", text: "Logical deduction from premises" },
+              { id: "c", text: "Direct sensory observation" },
+              { id: "d", text: "Belief based on empirical proof" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -657,12 +657,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Logical deduction from premises" },
-              { id: "b", text: "Affective states that give access to value and others' experience" },
-              { id: "c", text: "Direct sensory observation" },
-              { id: "d", text: "Memorised facts" },
+              { id: "a", text: "Direct sensory observation" },
+              { id: "b", text: "Logical deduction from premises" },
+              { id: "c", text: "Memorised facts" },
+              { id: "d", text: "Affective states that give access to value and others' experience" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -685,11 +685,11 @@ export const lesson13: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Belief verified by experiment" },
-              { id: "b", text: "Trust or belief held without empirical demonstration" },
-              { id: "c", text: "Deduction from accepted axioms" },
-              { id: "d", text: "Consensus among scientists" },
+              { id: "b", text: "Deduction from accepted axioms" },
+              { id: "c", text: "Consensus among scientists" },
+              { id: "d", text: "Trust or belief held without empirical demonstration" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -711,12 +711,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Replacing the need for evidence" },
-              { id: "b", text: "Giving access to others' inner experience and perspectives" },
-              { id: "c", text: "Proving moral claims deductively" },
-              { id: "d", text: "Eliminating bias automatically" },
+              { id: "a", text: "Giving access to others' inner experience and perspectives" },
+              { id: "b", text: "Eliminating bias automatically" },
+              { id: "c", text: "Replacing the need for evidence" },
+              { id: "d", text: "Proving moral claims deductively" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -873,8 +873,8 @@ export const lesson13: Lesson = {
             choices: [
               { id: "a", text: "Calculating a chemical reaction rate" },
               { id: "b", text: "Feeling moral indignation at an act of injustice" },
-              { id: "c", text: "Reciting a memorised formula" },
-              { id: "d", text: "Observing a cell under a microscope" },
+              { id: "c", text: "Observing a cell under a microscope" },
+              { id: "d", text: "Reciting a memorised formula" },
             ],
             correctChoiceId: "b",
           },
@@ -898,12 +898,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Faith claims can be proven false by evidence" },
-              { id: "b", text: "No evidence could in principle prove faith wrong" },
+              { id: "a", text: "No evidence could in principle prove faith wrong" },
+              { id: "b", text: "Faith requires no commitment" },
               { id: "c", text: "Faith is always incorrect" },
-              { id: "d", text: "Faith requires no commitment" },
+              { id: "d", text: "Faith claims can be proven false by evidence" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -927,8 +927,8 @@ export const lesson13: Lesson = {
             choices: [
               { id: "a", text: "Never provides any knowledge" },
               { id: "b", text: "Can override evidence and produce bias or prejudice" },
-              { id: "c", text: "Is too slow to be useful" },
-              { id: "d", text: "Only works in mathematics" },
+              { id: "c", text: "Only works in mathematics" },
+              { id: "d", text: "Is too slow to be useful" },
             ],
             correctChoiceId: "b",
           },
@@ -1023,12 +1023,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Is too slow to be useful" },
-              { id: "b", text: "Is unfalsifiable and cannot be verified by evidence" },
-              { id: "c", text: "Requires too much training" },
-              { id: "d", text: "Only works in mathematics" },
+              { id: "a", text: "Is unfalsifiable and cannot be verified by evidence" },
+              { id: "b", text: "Only works in mathematics" },
+              { id: "c", text: "Is too slow to be useful" },
+              { id: "d", text: "Requires too much training" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

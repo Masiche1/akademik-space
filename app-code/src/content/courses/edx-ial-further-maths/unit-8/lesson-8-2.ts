@@ -51,8 +51,8 @@ export const lesson82: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$Z=\\frac{X-\\mu}{\\sigma}$" },
-              { id: "b", text: "$Z=\\frac{X}{\\sigma}$" },
-              { id: "c", text: "$Z=\\frac{X-\\mu}{\\sigma^2}$" },
+              { id: "b", text: "$Z=\\frac{X-\\mu}{\\sigma^2}$" },
+              { id: "c", text: "$Z=\\frac{X}{\\sigma}$" },
               { id: "d", text: "$Z=X-\\mu$" },
             ],
             correctChoiceId: "a",
@@ -170,12 +170,12 @@ export const lesson82: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Rejecting $H_0$ when it is true" },
+              { id: "a", text: "Wrong significance level" },
               { id: "b", text: "Accepting $H_0$ when false" },
-              { id: "c", text: "Incorrect calculation" },
-              { id: "d", text: "Wrong significance level" },
+              { id: "c", text: "Rejecting $H_0$ when it is true" },
+              { id: "d", text: "Incorrect calculation" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Type I", statement: "False rejection." }],

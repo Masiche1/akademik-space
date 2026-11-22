@@ -47,12 +47,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "1" },
-              { id: "b", text: "2" },
+              { id: "a", text: "2" },
+              { id: "b", text: "1" },
               { id: "c", text: "18" },
               { id: "d", text: "0.5" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Mole", statement: "n = m/M_r." }],
@@ -160,12 +160,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Photosynthesis" },
-              { id: "b", text: "Thermal decomposition of limestone" },
-              { id: "c", text: "Combustion of methane" },
-              { id: "d", text: "Dissolving ammonium nitrate" },
+              { id: "a", text: "Dissolving ammonium nitrate" },
+              { id: "b", text: "Combustion of methane" },
+              { id: "c", text: "Photosynthesis" },
+              { id: "d", text: "Thermal decomposition of limestone" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Exothermic", statement: "Releases heat; ΔH < 0." }],

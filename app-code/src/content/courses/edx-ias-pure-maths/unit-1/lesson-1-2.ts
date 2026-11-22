@@ -54,11 +54,11 @@ export const lesson12: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$\\frac{1}{3}$" },
-              { id: "b", text: "$-\\frac{1}{3}$" },
-              { id: "c", text: "$1$" },
-              { id: "d", text: "$3$" },
+              { id: "b", text: "$1$" },
+              { id: "c", text: "$3$" },
+              { id: "d", text: "$-\\frac{1}{3}$" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -186,12 +186,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\frac{5\\pi}{6}$" },
-              { id: "b", text: "$\\frac{\\pi}{6}$" },
-              { id: "c", text: "$\\frac{5\\pi}{3}$" },
-              { id: "d", text: "$\\frac{\\pi}{3}$" },
+              { id: "a", text: "$\\frac{5\\pi}{3}$" },
+              { id: "b", text: "$\\frac{\\pi}{3}$" },
+              { id: "c", text: "$\\frac{5\\pi}{6}$" },
+              { id: "d", text: "$\\frac{\\pi}{6}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

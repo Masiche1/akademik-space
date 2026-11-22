@@ -87,19 +87,19 @@ export const lesson22: Lesson = {
             choices: [
               {
                 id: "a",
-                text: "This essay will discuss the poem's use of imagery.",
+                text: "The poem figures grief as a house the mourner must learn to inhabit.",
               },
               {
                 id: "b",
                 text: "The poem uses many different literary devices.",
               },
+              { id: "c", text: "The poem was written by a famous poet." },
               {
-                id: "c",
-                text: "The poem figures grief as a house the mourner must learn to inhabit.",
+                id: "d",
+                text: "This essay will discuss the poem's use of imagery.",
               },
-              { id: "d", text: "The poem was written by a famous poet." },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -324,16 +324,16 @@ export const lesson22: Lesson = {
             choices: [
               {
                 id: "a",
-                text: "This essay discusses the use of light in the novel.",
-              },
-              {
-                id: "b",
                 text: "Light functions as a measure of moral visibility in the novel.",
               },
-              { id: "c", text: "The novel contains several symbols." },
-              { id: "d", text: "The author wrote the novel in three parts." },
+              { id: "b", text: "The author wrote the novel in three parts." },
+              {
+                id: "c",
+                text: "This essay discusses the use of light in the novel.",
+              },
+              { id: "d", text: "The novel contains several symbols." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -369,12 +369,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It is so obvious everyone agrees" },
-              { id: "b", text: "A reasonable reader could disagree with it" },
+              { id: "a", text: "A reasonable reader could disagree with it" },
+              { id: "b", text: "It mentions many techniques" },
               { id: "c", text: "It is very long" },
-              { id: "d", text: "It mentions many techniques" },
+              { id: "d", text: "It is so obvious everyone agrees" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -410,15 +410,15 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "It generates many quotations" },
+              { id: "b", text: "It lists every device in the text" },
+              { id: "c", text: "It can be proven in one sentence" },
               {
-                id: "a",
+                id: "d",
                 text: "Each body paragraph can be a step toward proving it",
               },
-              { id: "b", text: "It generates many quotations" },
-              { id: "c", text: "It can be proven in one sentence" },
-              { id: "d", text: "It lists every device in the text" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -454,13 +454,13 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "'The poem also contains imagery.'" },
+              { id: "a", text: "'Finally, the poem ends.'" },
               {
                 id: "b",
                 text: "'While the opening suggests X, the ending complicates it.'",
               },
               { id: "c", text: "'In addition, there is a metaphor.'" },
-              { id: "d", text: "'Finally, the poem ends.'" },
+              { id: "d", text: "'The poem also contains imagery.'" },
             ],
             correctChoiceId: "b",
           },
@@ -500,15 +500,15 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A strong cumulative argument" },
               {
-                id: "b",
+                id: "a",
                 text: "A list of separate observations, not an argument",
               },
-              { id: "c", text: "A better conclusion" },
-              { id: "d", text: "A clearer introduction" },
+              { id: "b", text: "A strong cumulative argument" },
+              { id: "c", text: "A clearer introduction" },
+              { id: "d", text: "A better conclusion" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -545,15 +545,15 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The poem describes a journey." },
               {
-                id: "b",
+                id: "a",
                 text: "The journey figures the self's passage from certainty to acceptance of uncertainty.",
               },
-              { id: "c", text: "The poem uses many images of roads." },
+              { id: "b", text: "The poem uses many images of roads." },
+              { id: "c", text: "The poem describes a journey." },
               { id: "d", text: "The journey happens in three stages." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -1037,11 +1037,11 @@ export const lesson22: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "To summarise the whole plot" },
-              { id: "b", text: "To frame the argument and state the thesis" },
-              { id: "c", text: "To list all the literary devices used" },
-              { id: "d", text: "To repeat the conclusion" },
+              { id: "b", text: "To repeat the conclusion" },
+              { id: "c", text: "To frame the argument and state the thesis" },
+              { id: "d", text: "To list all the literary devices used" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1276,12 +1276,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Identifying the text and genre" },
-              { id: "b", text: "Ending with a thesis" },
-              { id: "c", text: "Detailed plot summary" },
-              { id: "d", text: "Minimal context" },
+              { id: "a", text: "Minimal context" },
+              { id: "b", text: "Identifying the text and genre" },
+              { id: "c", text: "Ending with a thesis" },
+              { id: "d", text: "Detailed plot summary" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1316,12 +1316,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Topic sentence, evidence, analysis, link" },
-              { id: "b", text: "Introduction, body, conclusion, bibliography" },
+              { id: "a", text: "Introduction, body, conclusion, bibliography" },
+              { id: "b", text: "Topic sentence, evidence, analysis, link" },
               { id: "c", text: "Quotation, paraphrase, summary, opinion" },
               { id: "d", text: "Title, author, date, genre" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1358,15 +1358,15 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Uses the wrong tense" },
+              { id: "a", text: "Is too short" },
+              { id: "b", text: "Uses the wrong tense" },
               {
-                id: "b",
+                id: "c",
                 text: "Repeats a topic rather than resolving the argument",
               },
-              { id: "c", text: "Is too short" },
               { id: "d", text: "Mentions the poem" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1403,15 +1403,15 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "To introduce a quotation" },
+              { id: "b", text: "To list devices" },
+              { id: "c", text: "To repeat the topic sentence" },
               {
-                id: "a",
+                id: "d",
                 text: "To connect back to the thesis or forward to the next point",
               },
-              { id: "b", text: "To introduce a quotation" },
-              { id: "c", text: "To repeat the topic sentence" },
-              { id: "d", text: "To list devices" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1449,18 +1449,18 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A full paragraph summarising every stanza" },
               {
-                id: "b",
+                id: "a",
                 text: "Names the text, frames context briefly, ends with a specific thesis",
               },
-              { id: "c", text: "Lists all literary devices before any claim" },
               {
-                id: "d",
+                id: "b",
                 text: "Copies the essay question as the first sentence",
               },
+              { id: "c", text: "A full paragraph summarising every stanza" },
+              { id: "d", text: "Lists all literary devices before any claim" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -1495,15 +1495,15 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Brand-new evidence not discussed in the body" },
+              { id: "a", text: "A verbatim repeat of the introduction" },
+              { id: "b", text: "A list of further texts to read" },
               {
-                id: "b",
+                id: "c",
                 text: "An acknowledgement of complexity or limitation in the argument",
               },
-              { id: "c", text: "A verbatim repeat of the introduction" },
-              { id: "d", text: "A list of further texts to read" },
+              { id: "d", text: "Brand-new evidence not discussed in the body" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

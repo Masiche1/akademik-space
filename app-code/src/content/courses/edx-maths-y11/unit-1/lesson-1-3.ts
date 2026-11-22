@@ -53,12 +53,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$12x^3$" },
-              { id: "b", text: "$12x^4$" },
-              { id: "c", text: "$3x^3$" },
-              { id: "d", text: "$4x^3$" },
+              { id: "a", text: "$4x^3$" },
+              { id: "b", text: "$12x^3$" },
+              { id: "c", text: "$12x^4$" },
+              { id: "d", text: "$3x^3$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Power rule", statement: "$\\frac{d}{dx}(ax^n)=anx^{n-1}$" }],
@@ -187,12 +187,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$x=3$" },
-              { id: "b", text: "$x=-3$" },
-              { id: "c", text: "$x=6$" },
+              { id: "a", text: "$x=6$" },
+              { id: "b", text: "$x=3$" },
+              { id: "c", text: "$x=-3$" },
               { id: "d", text: "$x=5$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Stationary point", statement: "$\\frac{dy}{dx}=0$" }],

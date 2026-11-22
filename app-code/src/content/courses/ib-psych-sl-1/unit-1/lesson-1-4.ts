@@ -54,12 +54,12 @@ export const lesson14: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Serotonin" },
-              { id: "b", text: "Dopamine" },
-              { id: "c", text: "GABA" },
-              { id: "d", text: "Glutamate" },
+              { id: "a", text: "Dopamine" },
+              { id: "b", text: "Serotonin" },
+              { id: "c", text: "Glutamate" },
+              { id: "d", text: "GABA" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -153,12 +153,12 @@ export const lesson14: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Mood, sleep and appetite" },
-              { id: "b", text: "Only voluntary movement" },
+              { id: "a", text: "Only voluntary movement" },
+              { id: "b", text: "Mood, sleep and appetite" },
               { id: "c", text: "Only digestion" },
               { id: "d", text: "Only vision" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -181,12 +181,12 @@ export const lesson14: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Reward, motivation and motor control" },
-              { id: "b", text: "Calming all neural activity" },
-              { id: "c", text: "Regulating body temperature" },
-              { id: "d", text: "Storing long-term memories" },
+              { id: "a", text: "Regulating body temperature" },
+              { id: "b", text: "Storing long-term memories" },
+              { id: "c", text: "Reward, motivation and motor control" },
+              { id: "d", text: "Calming all neural activity" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -209,12 +209,12 @@ export const lesson14: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Synaptic cleft only" },
-              { id: "b", text: "Bloodstream" },
-              { id: "c", text: "Spinal cord only" },
-              { id: "d", text: "Nerve axons only" },
+              { id: "a", text: "Bloodstream" },
+              { id: "b", text: "Nerve axons only" },
+              { id: "c", text: "Synaptic cleft only" },
+              { id: "d", text: "Spinal cord only" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -237,12 +237,12 @@ export const lesson14: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "GABA inhibitory; glutamate excitatory" },
+              { id: "a", text: "Both GABA and glutamate are inhibitory" },
               { id: "b", text: "Glutamate inhibitory; GABA excitatory" },
-              { id: "c", text: "Serotonin inhibitory; dopamine excitatory only" },
-              { id: "d", text: "Both GABA and glutamate are inhibitory" },
+              { id: "c", text: "GABA inhibitory; glutamate excitatory" },
+              { id: "d", text: "Serotonin inhibitory; dopamine excitatory only" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -266,11 +266,11 @@ export const lesson14: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Produces an immediate reflex only" },
-              { id: "b", text: "Sustains the body's stress response over time" },
+              { id: "b", text: "Directly carries signals across synapses" },
               { id: "c", text: "Is released only during sleep" },
-              { id: "d", text: "Directly carries signals across synapses" },
+              { id: "d", text: "Sustains the body's stress response over time" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -293,12 +293,12 @@ export const lesson14: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Blocking serotonin reuptake and increasing synaptic serotonin" },
-              { id: "b", text: "Destroying all dopamine neurons" },
-              { id: "c", text: "Increasing GABA release in every brain region" },
+              { id: "a", text: "Increasing GABA release in every brain region" },
+              { id: "b", text: "Blocking serotonin reuptake and increasing synaptic serotonin" },
+              { id: "c", text: "Destroying all dopamine neurons" },
               { id: "d", text: "Replacing cortisol with adrenaline" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -490,12 +490,12 @@ export const lesson14: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The effect of diet on growth" },
-              { id: "b", text: "Genetic versus environmental influence on behaviour" },
-              { id: "c", text: "The structure of the brain" },
-              { id: "d", text: "Cultural differences between countries" },
+              { id: "a", text: "Cultural differences between countries" },
+              { id: "b", text: "The effect of diet on growth" },
+              { id: "c", text: "Genetic versus environmental influence on behaviour" },
+              { id: "d", text: "The structure of the brain" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -589,12 +589,12 @@ export const lesson14: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "25%" },
-              { id: "b", text: "50%" },
-              { id: "c", text: "75%" },
-              { id: "d", text: "100%" },
+              { id: "a", text: "50%" },
+              { id: "b", text: "100%" },
+              { id: "c", text: "25%" },
+              { id: "d", text: "75%" },
             ],
-            correctChoiceId: "d",
+            correctChoiceIb: "d",
           },
           markscheme: {
             principles: [
@@ -617,12 +617,12 @@ export const lesson14: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Cerebellum has been damaged" },
-              { id: "b", text: "Corpus callosum has been severed" },
-              { id: "c", text: "Spinal cord is completely cut" },
-              { id: "d", text: "Hippocampus is removed" },
+              { id: "a", text: "Spinal cord is completely cut" },
+              { id: "b", text: "Cerebellum has been damaged" },
+              { id: "c", text: "Hippocampus is removed" },
+              { id: "d", text: "Corpus callosum has been severed" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -645,12 +645,12 @@ export const lesson14: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Remain completely unchanged after birth" },
-              { id: "b", text: "Reorganise and form new connections in response to experience" },
-              { id: "c", text: "Stop all development in adulthood" },
+              { id: "a", text: "Stop all development in adulthood" },
+              { id: "b", text: "Remain completely unchanged after birth" },
+              { id: "c", text: "Reorganise and form new connections in response to experience" },
               { id: "d", text: "Duplicate identical hemispheres" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -673,10 +673,10 @@ export const lesson14: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Both hemispheres perform every function equally" },
+              { id: "a", text: "The right hemisphere controls all language" },
               { id: "b", text: "Different functions are specialised to different hemispheres" },
-              { id: "c", text: "The right hemisphere controls all language" },
-              { id: "d", text: "Hemispheres cannot communicate at all" },
+              { id: "c", text: "Hemispheres cannot communicate at all" },
+              { id: "d", text: "Both hemispheres perform every function equally" },
             ],
             correctChoiceId: "b",
           },
@@ -701,12 +701,12 @@ export const lesson14: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Environment is the only influence" },
-              { id: "b", text: "Genetic factors contribute to the trait" },
+              { id: "a", text: "Concordance is impossible to measure" },
+              { id: "b", text: "Environment is the only influence" },
               { id: "c", text: "The trait is learned only" },
-              { id: "d", text: "Concordance is impossible to measure" },
+              { id: "d", text: "Genetic factors contribute to the trait" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -729,12 +729,12 @@ export const lesson14: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Monozygotic twins share genes but often similar environments too" },
-              { id: "b", text: "Dizygotic twins share 100% of genes" },
-              { id: "c", text: "Twins cannot be compared on any trait" },
-              { id: "d", text: "All traits are purely environmental" },
+              { id: "a", text: "Dizygotic twins share 100% of genes" },
+              { id: "b", text: "Monozygotic twins share genes but often similar environments too" },
+              { id: "c", text: "All traits are purely environmental" },
+              { id: "d", text: "Twins cannot be compared on any trait" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [

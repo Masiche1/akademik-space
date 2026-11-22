@@ -54,12 +54,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$p \\propto V$" },
-              { id: "b", text: "$p \\propto \\frac{1}{V}$" },
-              { id: "c", text: "$p \\propto T$" },
-              { id: "d", text: "$V \\propto T$" },
+              { id: "a", text: "$p \\propto \\frac{1}{V}$" },
+              { id: "b", text: "$p \\propto V$" },
+              { id: "c", text: "$V \\propto T$" },
+              { id: "d", text: "$p \\propto T$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "law", name: "Boyle's law", statement: "pV = constant at constant T." }],
@@ -80,12 +80,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$250$ kPa" },
+              { id: "a", text: "$200$ kPa" },
               { id: "b", text: "$40$ kPa" },
-              { id: "c", text: "$200$ kPa" },
-              { id: "d", text: "$500$ kPa" },
+              { id: "c", text: "$500$ kPa" },
+              { id: "d", text: "$250$ kPa" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "law", name: "Boyle's law", statement: "p_1V_1 = p_2V_2" }],
@@ -107,12 +107,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$2.67$ m³" },
-              { id: "b", text: "$1.50$ m³" },
-              { id: "c", text: "$3.0$ m³" },
-              { id: "d", text: "$8.0$ m³" },
+              { id: "a", text: "$8.0$ m³" },
+              { id: "b", text: "$2.67$ m³" },
+              { id: "c", text: "$1.50$ m³" },
+              { id: "d", text: "$3.0$ m³" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "law", name: "Charles' law", statement: "\\frac{V_1}{T_1} = \\frac{V_2}{T_2};\\ T \\text{ in kelvin}." }],
@@ -168,10 +168,10 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$p \\propto V$" },
+              { id: "a", text: "$p \\propto T$" },
               { id: "b", text: "$V \\propto T$" },
-              { id: "c", text: "$p \\propto \\frac{1}{V}$" },
-              { id: "d", text: "$p \\propto T$" },
+              { id: "c", text: "$p \\propto V$" },
+              { id: "d", text: "$p \\propto \\frac{1}{V}$" },
             ],
             correctChoiceId: "b",
           },
@@ -194,12 +194,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$500$ kPa" },
+              { id: "a", text: "$240$ kPa" },
               { id: "b", text: "$120$ kPa" },
-              { id: "c", text: "$240$ kPa" },
-              { id: "d", text: "$80$ kPa" },
+              { id: "c", text: "$80$ kPa" },
+              { id: "d", text: "$500$ kPa" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "law", name: "Boyle's law", statement: "p_1V_1 = p_2V_2." }],
@@ -221,9 +221,9 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$75$ kPa" },
+              { id: "a", text: "$400$ kPa" },
               { id: "b", text: "$133$ kPa" },
-              { id: "c", text: "$400$ kPa" },
+              { id: "c", text: "$75$ kPa" },
               { id: "d", text: "$300$ kPa" },
             ],
             correctChoiceId: "b",
@@ -248,12 +248,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The mass of gas and its temperature" },
-              { id: "b", text: "The pressure and the volume" },
+              { id: "a", text: "The pressure and the volume" },
+              { id: "b", text: "The mass and the pressure only" },
               { id: "c", text: "The volume and the temperature" },
-              { id: "d", text: "The mass and the pressure only" },
+              { id: "d", text: "The mass of gas and its temperature" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "law", name: "Boyle's law", statement: "pV = constant requires fixed mass and constant temperature." }],
@@ -275,12 +275,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$167$ kPa" },
+              { id: "a", text: "$200$ kPa" },
               { id: "b", text: "$133$ kPa" },
-              { id: "c", text: "$250$ kPa" },
-              { id: "d", text: "$200$ kPa" },
+              { id: "c", text: "$167$ kPa" },
+              { id: "d", text: "$250$ kPa" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "law", name: "Combined gas law", statement: "\\frac{p_1V_1}{T_1} = \\frac{p_2V_2}{T_2}." }],
@@ -498,12 +498,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$8.31$ J/(mol·K)" },
-              { id: "b", text: "$8.31$ J/(kg·K)" },
-              { id: "c", text: "$0.082$ J/(mol·K)" },
+              { id: "a", text: "$8.31$ J/(kg·K)" },
+              { id: "b", text: "$0.082$ J/(mol·K)" },
+              { id: "c", text: "$8.31$ J/(mol·K)" },
               { id: "d", text: "$1.0$ J/(mol·K)" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Molar gas constant", statement: "R = 8.31 J/(mol·K)." }],
@@ -524,12 +524,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$1.06 \\times 10^5$ Pa" },
-              { id: "b", text: "$9.74 \\times 10^4$ Pa" },
-              { id: "c", text: "$2.13 \\times 10^3$ Pa" },
-              { id: "d", text: "$6.65 \\times 10^6$ Pa" },
+              { id: "a", text: "$9.74 \\times 10^4$ Pa" },
+              { id: "b", text: "$1.06 \\times 10^5$ Pa" },
+              { id: "c", text: "$6.65 \\times 10^6$ Pa" },
+              { id: "d", text: "$2.13 \\times 10^3$ Pa" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "pV = nRT", statement: "p = \\frac{nRT}{V}" }],
@@ -551,12 +551,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$213$ kPa" },
-              { id: "b", text: "$160$ kPa" },
-              { id: "c", text: "$267$ kPa" },
+              { id: "a", text: "$160$ kPa" },
+              { id: "b", text: "$267$ kPa" },
+              { id: "c", text: "$213$ kPa" },
               { id: "d", text: "$240$ kPa" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "law", name: "Combined gas law", statement: "\\frac{p_1V_1}{T_1} = \\frac{p_2V_2}{T_2}" }],
@@ -613,12 +613,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Joules" },
-              { id: "b", text: "Watts" },
-              { id: "c", text: "Pascals" },
-              { id: "d", text: "Newtons" },
+              { id: "a", text: "Pascals" },
+              { id: "b", text: "Joules" },
+              { id: "c", text: "Newtons" },
+              { id: "d", text: "Watts" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "pV = nRT", statement: "pV has units of energy since $nRT$ is in joules." }],
@@ -639,12 +639,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$0.96$ mol" },
-              { id: "b", text: "$1.04$ mol" },
+              { id: "a", text: "$1.04$ mol" },
+              { id: "b", text: "$0.96$ mol" },
               { id: "c", text: "$2.4$ mol" },
               { id: "d", text: "$0.24$ mol" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "n = pV/RT", statement: "n = \\frac{pV}{RT}" }],
@@ -666,12 +666,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Low pressure and high temperature" },
+              { id: "a", text: "Any conditions, exactly" },
               { id: "b", text: "High pressure and low temperature" },
               { id: "c", text: "High pressure and high temperature" },
-              { id: "d", text: "Any conditions, exactly" },
+              { id: "d", text: "Low pressure and high temperature" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Ideal gas", statement: "Ideal gas behaviour is approached at low pressure and high temperature where intermolecular forces are negligible." }],
@@ -693,12 +693,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Degrees Celsius" },
-              { id: "b", text: "Kelvin" },
-              { id: "c", text: "Degrees Fahrenheit" },
-              { id: "d", text: "Any temperature scale" },
+              { id: "a", text: "Kelvin" },
+              { id: "b", text: "Degrees Fahrenheit" },
+              { id: "c", text: "Any temperature scale" },
+              { id: "d", text: "Degrees Celsius" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Absolute temperature", statement: "Gas laws are proportionalities in absolute temperature, which is measured in kelvin." }],
@@ -720,12 +720,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$n$ and $R$ are constant for the same gas" },
+              { id: "a", text: "The gas volume never changes" },
               { id: "b", text: "The gas pressure never changes" },
-              { id: "c", text: "The gas volume never changes" },
-              { id: "d", text: "The gas temperature never changes" },
+              { id: "c", text: "The gas temperature never changes" },
+              { id: "d", text: "$n$ and $R$ are constant for the same gas" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "law", name: "Combined gas law", statement: "\\frac{pV}{T} = nR = \\text{constant for fixed } n." }],

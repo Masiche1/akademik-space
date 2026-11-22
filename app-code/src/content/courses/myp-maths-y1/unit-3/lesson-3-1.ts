@@ -56,12 +56,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$45^\\circ$" },
-              { id: "b", text: "$55^\\circ$" },
-              { id: "c", text: "$65^\\circ$" },
-              { id: "d", text: "$235^\\circ$" },
+              { id: "a", text: "$235^\\circ$" },
+              { id: "b", text: "$65^\\circ$" },
+              { id: "c", text: "$45^\\circ$" },
+              { id: "d", text: "$55^\\circ$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -160,12 +160,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$116^\\circ$" },
-              { id: "b", text: "$296^\\circ$" },
-              { id: "c", text: "$126^\\circ$" },
-              { id: "d", text: "$26^\\circ$" },
+              { id: "a", text: "$296^\\circ$" },
+              { id: "b", text: "$126^\\circ$" },
+              { id: "c", text: "$26^\\circ$" },
+              { id: "d", text: "$116^\\circ$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -187,12 +187,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$120^\\circ$" },
-              { id: "b", text: "$60^\\circ$" },
+              { id: "a", text: "$60^\\circ$" },
+              { id: "b", text: "$80^\\circ$" },
               { id: "c", text: "$240^\\circ$" },
-              { id: "d", text: "$80^\\circ$" },
+              { id: "d", text: "$120^\\circ$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -216,8 +216,8 @@ export const lesson31: Lesson = {
             choices: [
               { id: "a", text: "$133^\\circ$" },
               { id: "b", text: "$47^\\circ$" },
-              { id: "c", text: "$233^\\circ$" },
-              { id: "d", text: "$94^\\circ$" },
+              { id: "c", text: "$94^\\circ$" },
+              { id: "d", text: "$233^\\circ$" },
             ],
             correctChoiceId: "b",
           },
@@ -279,12 +279,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$x+2x+90=180$" },
-              { id: "b", text: "$x+2x+90=360$" },
-              { id: "c", text: "$x+2x=90$" },
-              { id: "d", text: "$3x+90=180$ only if angles are equal" },
+              { id: "a", text: "$x+2x+90=360$" },
+              { id: "b", text: "$x+2x+90=180$" },
+              { id: "c", text: "$3x+90=180$ only if angles are equal" },
+              { id: "d", text: "$x+2x=90$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -327,12 +327,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$x=10$" },
-              { id: "b", text: "$x=20$" },
+              { id: "a", text: "$x=40$" },
+              { id: "b", text: "$x=10$" },
               { id: "c", text: "$x=30$" },
-              { id: "d", text: "$x=40$" },
+              { id: "d", text: "$x=20$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -486,12 +486,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Rhombus" },
-              { id: "b", text: "Rectangle" },
-              { id: "c", text: "Trapezium" },
-              { id: "d", text: "Parallelogram" },
+              { id: "a", text: "Parallelogram" },
+              { id: "b", text: "Trapezium" },
+              { id: "c", text: "Rectangle" },
+              { id: "d", text: "Rhombus" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -590,12 +590,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Equilateral" },
-              { id: "b", text: "Scalene" },
-              { id: "c", text: "Isosceles" },
-              { id: "d", text: "Right-angled" },
+              { id: "a", text: "Isosceles" },
+              { id: "b", text: "Equilateral" },
+              { id: "c", text: "Right-angled" },
+              { id: "d", text: "Scalene" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -617,10 +617,10 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$360^\\circ$" },
+              { id: "a", text: "$720^\\circ$" },
               { id: "b", text: "$540^\\circ$" },
-              { id: "c", text: "$720^\\circ$" },
-              { id: "d", text: "$900^\\circ$" },
+              { id: "c", text: "$900^\\circ$" },
+              { id: "d", text: "$360^\\circ$" },
             ],
             correctChoiceId: "b",
           },
@@ -644,12 +644,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$60^\\circ$" },
-              { id: "b", text: "$120^\\circ$" },
-              { id: "c", text: "$108^\\circ$" },
+              { id: "a", text: "$120^\\circ$" },
+              { id: "b", text: "$108^\\circ$" },
+              { id: "c", text: "$60^\\circ$" },
               { id: "d", text: "$135^\\circ$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -709,12 +709,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$5$" },
+              { id: "a", text: "$7$" },
               { id: "b", text: "$6$" },
-              { id: "c", text: "$7$" },
+              { id: "c", text: "$5$" },
               { id: "d", text: "$8$" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -758,10 +758,10 @@ export const lesson31: Lesson = {
             choices: [
               { id: "a", text: "$7$" },
               { id: "b", text: "$8$" },
-              { id: "c", text: "$9$" },
-              { id: "d", text: "$10$" },
+              { id: "c", text: "$10$" },
+              { id: "d", text: "$9$" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [

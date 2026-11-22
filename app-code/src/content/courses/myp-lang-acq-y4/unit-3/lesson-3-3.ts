@@ -58,11 +58,11 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "A detailed cultural description" },
-              { id: "b", text: "An oversimplified belief about a group" },
-              { id: "c", text: "A respectful greeting" },
-              { id: "d", text: "A formal translation" },
+              { id: "b", text: "A respectful greeting" },
+              { id: "c", text: "A formal translation" },
+              { id: "d", text: "An oversimplified belief about a group" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Stereotype", statement: "Oversimplified belief about a group." }],
@@ -164,12 +164,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A detailed cultural description" },
-              { id: "b", text: "An oversimplified belief about a group" },
-              { id: "c", text: "A respectful greeting" },
-              { id: "d", text: "A formal translation" },
+              { id: "a", text: "A formal translation" },
+              { id: "b", text: "A respectful greeting" },
+              { id: "c", text: "A detailed cultural description" },
+              { id: "d", text: "An oversimplified belief about a group" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -191,12 +191,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "'All students from Country X are quiet.'" },
-              { id: "b", text: "'Some students from Country X may appear quiet in certain situations.'" },
-              { id: "c", text: "'People from Country X never talk.'" },
-              { id: "d", text: "'Everyone from Country X is the same.'" },
+              { id: "a", text: "'People from Country X never talk.'" },
+              { id: "b", text: "'Everyone from Country X is the same.'" },
+              { id: "c", text: "'Some students from Country X may appear quiet in certain situations.'" },
+              { id: "d", text: "'All students from Country X are quiet.'" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -278,12 +278,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "'All students from Country X are quiet.'" },
-              { id: "b", text: "'Some students from Country X may appear reserved in certain situations.'" },
+              { id: "a", text: "'Some students from Country X may appear reserved in certain situations.'" },
+              { id: "b", text: "'All students from Country X are quiet.'" },
               { id: "c", text: "'Students from Country X never talk.'" },
               { id: "d", text: "'Everyone from Country X is shy.'" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -358,12 +358,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Assume everyone is the same" },
-              { id: "b", text: "Ask questions respectfully and listen carefully" },
-              { id: "c", text: "Make jokes about differences" },
-              { id: "d", text: "Avoid all questions" },
+              { id: "a", text: "Avoid all questions" },
+              { id: "b", text: "Make jokes about differences" },
+              { id: "c", text: "Ask questions respectfully and listen carefully" },
+              { id: "d", text: "Assume everyone is the same" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -392,11 +392,11 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "It uses absolute language" },
-              { id: "b", text: "It acknowledges variation between and within cultures" },
+              { id: "b", text: "It is too vague" },
               { id: "c", text: "It stereotypes one culture" },
-              { id: "d", text: "It is too vague" },
+              { id: "d", text: "It acknowledges variation between and within cultures" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -452,12 +452,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It shows curiosity and respect" },
-              { id: "b", text: "It is very formal" },
-              { id: "c", text: "It avoids all questions" },
-              { id: "d", text: "It assumes knowledge" },
+              { id: "a", text: "It is very formal" },
+              { id: "b", text: "It shows curiosity and respect" },
+              { id: "c", text: "It assumes knowledge" },
+              { id: "d", text: "It avoids all questions" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -545,12 +545,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A writing mistake" },
-              { id: "b", text: "A one-sided preference affecting presentation" },
-              { id: "c", text: "A type of headline" },
-              { id: "d", text: "A factual error" },
+              { id: "a", text: "A type of headline" },
+              { id: "b", text: "A writing mistake" },
+              { id: "c", text: "A factual error" },
+              { id: "d", text: "A one-sided preference affecting presentation" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Bias", statement: "One-sided preference in presentation." }],
@@ -652,12 +652,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The ability to watch TV" },
-              { id: "b", text: "The ability to understand and evaluate media information" },
-              { id: "c", text: "The ability to create videos" },
-              { id: "d", text: "The ability to use social media" },
+              { id: "a", text: "The ability to create videos" },
+              { id: "b", text: "The ability to use social media" },
+              { id: "c", text: "The ability to watch TV" },
+              { id: "d", text: "The ability to understand and evaluate media information" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -679,12 +679,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It cites multiple sources" },
-              { id: "b", text: "It makes extreme claims with no evidence" },
-              { id: "c", text: "It acknowledges different views" },
+              { id: "a", text: "It acknowledges different views" },
+              { id: "b", text: "It cites multiple sources" },
+              { id: "c", text: "It makes extreme claims with no evidence" },
               { id: "d", text: "It is written by experts" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -766,12 +766,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It is too short" },
-              { id: "b", text: "'disaster' is loaded and 'everyone agrees' is unsupported" },
-              { id: "c", text: "It uses statistics" },
-              { id: "d", text: "It is balanced" },
+              { id: "a", text: "It uses statistics" },
+              { id: "b", text: "It is balanced" },
+              { id: "c", text: "It is too short" },
+              { id: "d", text: "'disaster' is loaded and 'everyone agrees' is unsupported" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -847,11 +847,11 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "It is always true" },
-              { id: "b", text: "It is an unsupported generalisation" },
-              { id: "c", text: "It is grammatically wrong" },
+              { id: "b", text: "It is grammatically wrong" },
+              { id: "c", text: "It is an unsupported generalisation" },
               { id: "d", text: "It is too formal" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -879,12 +879,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It is too specific" },
-              { id: "b", text: "It is vague and unverifiable" },
+              { id: "a", text: "It is vague and unverifiable" },
+              { id: "b", text: "It is too specific" },
               { id: "c", text: "It is grammatically incorrect" },
               { id: "d", text: "It is too formal" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -940,12 +940,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It is shorter" },
-              { id: "b", text: "It cites a credible source and specific findings" },
+              { id: "a", text: "It has many likes" },
+              { id: "b", text: "It is shorter" },
               { id: "c", text: "It uses emotional language" },
-              { id: "d", text: "It has many likes" },
+              { id: "d", text: "It cites a credible source and specific findings" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

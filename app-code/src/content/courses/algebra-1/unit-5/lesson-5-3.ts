@@ -53,9 +53,9 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The predicted score is 6 points when study time is 0 hours." },
+              { id: "a", text: "The quiz score increases by 52 points for each additional hour." },
               { id: "b", text: "Each additional hour of study is associated with a predicted increase of 6 quiz points." },
-              { id: "c", text: "The quiz score increases by 52 points for each additional hour." },
+              { id: "c", text: "The predicted score is 6 points when study time is 0 hours." },
               { id: "d", text: "Every student who studies one more hour will gain exactly 6 points." },
             ],
             correctChoiceId: "b",
@@ -182,12 +182,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A strong negative linear association; this alone does not prove causation." },
-              { id: "b", text: "A weak positive linear association." },
+              { id: "a", text: "A weak positive linear association." },
+              { id: "b", text: "No linear association because $r$ is negative." },
               { id: "c", text: "A strong positive linear association that proves temperature causes heating use." },
-              { id: "d", text: "No linear association because $r$ is negative." },
+              { id: "d", text: "A strong negative linear association; this alone does not prove causation." },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

@@ -49,12 +49,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\dfrac{5\\pi}{6}$" },
-              { id: "b", text: "$\\dfrac{2\\pi}{3}$" },
-              { id: "c", text: "$\\dfrac{3\\pi}{4}$" },
-              { id: "d", text: "$\\dfrac{5\\pi}{3}$" },
+              { id: "a", text: "$\\dfrac{2\\pi}{3}$" },
+              { id: "b", text: "$\\dfrac{5\\pi}{3}$" },
+              { id: "c", text: "$\\dfrac{5\\pi}{6}$" },
+              { id: "d", text: "$\\dfrac{3\\pi}{4}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Degrees to radians", statement: "$\\theta_{\\text{rad}}=\\theta^\\circ\\times\\frac\\pi{180}$" }],
@@ -161,8 +161,8 @@ export const lesson32: Lesson = {
             choices: [
               { id: "a", text: "$\\dfrac{7\\pi}{6}$" },
               { id: "b", text: "$\\dfrac{5\\pi}{6}$" },
-              { id: "c", text: "$\\dfrac{7\\pi}{4}$" },
-              { id: "d", text: "$\\dfrac{4\\pi}{3}$" },
+              { id: "c", text: "$\\dfrac{4\\pi}{3}$" },
+              { id: "d", text: "$\\dfrac{7\\pi}{4}$" },
             ],
             correctChoiceId: "a",
           },
@@ -185,12 +185,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$8$ cm" },
+              { id: "a", text: "$80$ cm" },
               { id: "b", text: "$0.08$ cm" },
-              { id: "c", text: "$80$ cm" },
-              { id: "d", text: "$4$ cm" },
+              { id: "c", text: "$4$ cm" },
+              { id: "d", text: "$8$ cm" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Arc length", statement: "$l=r\\theta$ with $\\theta$ in radians" }],
@@ -211,12 +211,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$30$ cm$^2$" },
+              { id: "a", text: "$12$ cm$^2$" },
               { id: "b", text: "$60$ cm$^2$" },
               { id: "c", text: "$15$ cm$^2$" },
-              { id: "d", text: "$12$ cm$^2$" },
+              { id: "d", text: "$30$ cm$^2$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Sector area", statement: "$A=\\frac12r^2\\theta$ with $\\theta$ in radians" }],
@@ -237,12 +237,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$150^\\circ$" },
-              { id: "b", text: "$120^\\circ$" },
-              { id: "c", text: "$210^\\circ$" },
-              { id: "d", text: "$75^\\circ$" },
+              { id: "a", text: "$120^\\circ$" },
+              { id: "b", text: "$210^\\circ$" },
+              { id: "c", text: "$75^\\circ$" },
+              { id: "d", text: "$150^\\circ$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Radians to degrees", statement: "$\\theta^\\circ=\\theta_{\\text{rad}}\\times\\frac{180}{\\pi}$" }],
@@ -264,9 +264,9 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$14+\\dfrac{7\\pi}{2}$ cm" },
-              { id: "b", text: "$7+\\dfrac{7\\pi}{2}$ cm" },
-              { id: "c", text: "$14+\\dfrac{7\\pi}{4}$ cm" },
-              { id: "d", text: "$14+7\\pi$ cm" },
+              { id: "b", text: "$14+7\\pi$ cm" },
+              { id: "c", text: "$7+\\dfrac{7\\pi}{2}$ cm" },
+              { id: "d", text: "$14+\\dfrac{7\\pi}{4}$ cm" },
             ],
             correctChoiceId: "a",
           },
@@ -289,12 +289,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$6\\pi-9\\sqrt3$ cm$^2$" },
+              { id: "a", text: "$12\\pi-9\\sqrt3$ cm$^2$" },
               { id: "b", text: "$6\\pi-18$ cm$^2$" },
-              { id: "c", text: "$12\\pi-9\\sqrt3$ cm$^2$" },
-              { id: "d", text: "$6\\pi-\\dfrac{9\\pi}{2}$ cm$^2$" },
+              { id: "c", text: "$6\\pi-\\dfrac{9\\pi}{2}$ cm$^2$" },
+              { id: "d", text: "$6\\pi-9\\sqrt3$ cm$^2$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -521,12 +521,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\dfrac12$" },
-              { id: "b", text: "$\\dfrac{\\sqrt3}{2}$" },
-              { id: "c", text: "$\\dfrac{\\sqrt2}{2}$" },
-              { id: "d", text: "$\\sqrt3$" },
+              { id: "a", text: "$\\dfrac{\\sqrt3}{2}$" },
+              { id: "b", text: "$\\dfrac{\\sqrt2}{2}$" },
+              { id: "c", text: "$\\sqrt3$" },
+              { id: "d", text: "$\\dfrac12$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "property", name: "Exact values", statement: "$\\cos\\frac\\pi3=\\frac12$" }],
@@ -629,9 +629,9 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$\\dfrac12$" },
-              { id: "b", text: "$-\\dfrac12$" },
+              { id: "b", text: "$\\dfrac{\\sqrt2}{2}$" },
               { id: "c", text: "$\\dfrac{\\sqrt3}{2}$" },
-              { id: "d", text: "$\\dfrac{\\sqrt2}{2}$" },
+              { id: "d", text: "$-\\dfrac12$" },
             ],
             correctChoiceId: "a",
           },
@@ -654,12 +654,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$-\\dfrac{\\sqrt3}{2}$" },
-              { id: "b", text: "$\\dfrac{\\sqrt3}{2}$" },
+              { id: "a", text: "$\\dfrac{\\sqrt3}{2}$" },
+              { id: "b", text: "$-\\dfrac{\\sqrt3}{2}$" },
               { id: "c", text: "$-\\dfrac12$" },
               { id: "d", text: "$-\\dfrac{\\sqrt2}{2}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "property", name: "Exact values and quadrant signs", statement: "In the third quadrant both $\\sin$ and $\\cos$ are negative." }],
@@ -680,12 +680,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\sqrt3$" },
-              { id: "b", text: "$\\dfrac{\\sqrt3}{3}$" },
-              { id: "c", text: "$\\dfrac13$" },
+              { id: "a", text: "$\\dfrac13$" },
+              { id: "b", text: "$\\sqrt3$" },
+              { id: "c", text: "$\\dfrac{\\sqrt3}{3}$" },
               { id: "d", text: "$-\\sqrt3$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Tangent", statement: "$\\tan\\theta=\\frac{\\sin\\theta}{\\cos\\theta}$" }],
@@ -755,12 +755,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\dfrac{7}{25}$" },
-              { id: "b", text: "$-\\dfrac{7}{25}$" },
+              { id: "a", text: "$-\\dfrac{7}{25}$" },
+              { id: "b", text: "$\\dfrac{23}{25}$" },
               { id: "c", text: "$\\dfrac{1}{25}$" },
-              { id: "d", text: "$\\dfrac{23}{25}$" },
+              { id: "d", text: "$\\dfrac{7}{25}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Double angle", statement: "$\\cos2\\theta=1-2\\sin^2\\theta$" }],
@@ -781,12 +781,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$1$" },
-              { id: "b", text: "$-1$" },
-              { id: "c", text: "$\\sqrt3$" },
-              { id: "d", text: "$0$" },
+              { id: "a", text: "$-1$" },
+              { id: "b", text: "$\\sqrt3$" },
+              { id: "c", text: "$0$" },
+              { id: "d", text: "$1$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "property", name: "Period of tangent", statement: "$\\tan$ has period $\\pi$" }],
@@ -863,12 +863,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\dfrac{\\sqrt3}{2}$" },
-              { id: "b", text: "$-\\dfrac{\\sqrt3}{2}$" },
+              { id: "a", text: "$-\\dfrac{\\sqrt3}{2}$" },
+              { id: "b", text: "$\\dfrac{\\sqrt3}{2}$" },
               { id: "c", text: "$\\dfrac12$" },
               { id: "d", text: "$-\\dfrac12$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "property", name: "Symmetry of cosine", statement: "$\\cos(2\\pi-x)=\\cos x$" }],

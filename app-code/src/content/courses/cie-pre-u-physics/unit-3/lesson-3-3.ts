@@ -75,12 +75,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "PV = nRT" },
-              { id: "b", text: "PV = nT" },
-              { id: "c", text: "P = nRT/V only" },
-              { id: "d", text: "No equation" },
+              { id: "a", text: "No equation" },
+              { id: "b", text: "P = nRT/V only" },
+              { id: "c", text: "PV = nT" },
+              { id: "d", text: "PV = nRT" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -98,12 +98,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Constant" },
+              { id: "a", text: "Zero" },
               { id: "b", text: "Increasing" },
               { id: "c", text: "Decreasing" },
-              { id: "d", text: "Zero" },
+              { id: "d", text: "Constant" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -123,12 +123,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Constant" },
-              { id: "b", text: "Increasing" },
+              { id: "a", text: "Increasing" },
+              { id: "b", text: "Constant" },
               { id: "c", text: "Decreasing" },
               { id: "d", text: "Zero" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -149,9 +149,9 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "273 K" },
-              { id: "b", text: "0 K" },
+              { id: "b", text: "373 K" },
               { id: "c", text: "100 K" },
-              { id: "d", text: "373 K" },
+              { id: "d", text: "0 K" },
             ],
           correctChoiceId: "a",
           },
@@ -175,12 +175,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "0 K = -273°C" },
-              { id: "b", text: "0°C" },
-              { id: "c", text: "100°C" },
-              { id: "d", text: "273°C" },
+              { id: "a", text: "100°C" },
+              { id: "b", text: "273°C" },
+              { id: "c", text: "0°C" },
+              { id: "d", text: "0 K = -273°C" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -198,12 +198,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "ΔU = Q - W" },
-              { id: "b", text: "ΔU = Q + W" },
-              { id: "c", text: "Q = W" },
+              { id: "a", text: "Q = W" },
+              { id: "b", text: "ΔU = Q - W" },
+              { id: "c", text: "ΔU = Q + W" },
               { id: "d", text: "No law" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -221,12 +221,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "PΔV" },
+              { id: "a", text: "nRT" },
               { id: "b", text: "PV" },
-              { id: "c", text: "nRT" },
-              { id: "d", text: "Q" },
+              { id: "c", text: "Q" },
+              { id: "d", text: "PΔV" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -244,12 +244,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Constant temperature" },
-              { id: "b", text: "Constant P" },
-              { id: "c", text: "Constant V" },
-              { id: "d", text: "No constant" },
+              { id: "a", text: "No constant" },
+              { id: "b", text: "Constant V" },
+              { id: "c", text: "Constant temperature" },
+              { id: "d", text: "Constant P" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -269,12 +269,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "No heat transfer" },
-              { id: "b", text: "Const T" },
-              { id: "c", text: "Const P" },
+              { id: "a", text: "Const T" },
+              { id: "b", text: "Const P" },
+              { id: "c", text: "No heat transfer" },
               { id: "d", text: "Const V" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -294,12 +294,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "W/Q_in" },
-              { id: "b", text: "Q_in/W" },
+              { id: "a", text: "Q_in/W" },
+              { id: "b", text: "W/Q_in" },
               { id: "c", text: "Q_out/Q_in" },
               { id: "d", text: "W/Q_out" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -321,12 +321,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "8 L" },
-              { id: "b", text: "2 L" },
-              { id: "c", text: "4 L" },
-              { id: "d", text: "16 L" },
+              { id: "a", text: "16 L" },
+              { id: "b", text: "4 L" },
+              { id: "c", text: "2 L" },
+              { id: "d", text: "8 L" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -348,12 +348,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "12 L" },
+              { id: "a", text: "24 L" },
               { id: "b", text: "3 L" },
               { id: "c", text: "6 L" },
-              { id: "d", text: "24 L" },
+              { id: "d", text: "12 L" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -376,8 +376,8 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Zero" },
-              { id: "b", text: "Positive" },
-              { id: "c", text: "Negative" },
+              { id: "b", text: "Negative" },
+              { id: "c", text: "Positive" },
               { id: "d", text: "Variable" },
             ],
           correctChoiceId: "a",
@@ -400,12 +400,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Increases" },
-              { id: "b", text: "Decreases" },
-              { id: "c", text: "Stays same" },
-              { id: "d", text: "Zero" },
+              { id: "a", text: "Stays same" },
+              { id: "b", text: "Zero" },
+              { id: "c", text: "Decreases" },
+              { id: "d", text: "Increases" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -434,9 +434,9 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Heat cannot spontaneously flow cold → hot" },
-              { id: "b", text: "Energy created" },
-              { id: "c", text: "Entropy decreases" },
-              { id: "d", text: "No law" },
+              { id: "b", text: "Entropy decreases" },
+              { id: "c", text: "No law" },
+              { id: "d", text: "Energy created" },
             ],
           correctChoiceId: "a",
           },
@@ -462,12 +462,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Disorder/randomness" },
-              { id: "b", text: "Energy" },
-              { id: "c", text: "Temperature" },
-              { id: "d", text: "Pressure" },
+              { id: "a", text: "Temperature" },
+              { id: "b", text: "Pressure" },
+              { id: "c", text: "Energy" },
+              { id: "d", text: "Disorder/randomness" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -485,12 +485,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Zero (constant V)" },
-              { id: "b", text: "PΔV" },
-              { id: "c", text: "nRT" },
-              { id: "d", text: "Q" },
+              { id: "a", text: "PΔV" },
+              { id: "b", text: "nRT" },
+              { id: "c", text: "Q" },
+              { id: "d", text: "Zero (constant V)" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -508,12 +508,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Temperatures of hot and cold reservoirs" },
-              { id: "b", text: "Pressure" },
-              { id: "c", text: "Volume" },
-              { id: "d", text: "Nothing" },
+              { id: "a", text: "Nothing" },
+              { id: "b", text: "Volume" },
+              { id: "c", text: "Temperatures of hot and cold reservoirs" },
+              { id: "d", text: "Pressure" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -533,12 +533,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "8.31 J/(mol·K)" },
-              { id: "b", text: "6.67×10⁻¹¹" },
-              { id: "c", text: "9.81" },
-              { id: "d", text: "3×10⁸" },
+              { id: "a", text: "6.67×10⁻¹¹" },
+              { id: "b", text: "9.81" },
+              { id: "c", text: "3×10⁸" },
+              { id: "d", text: "8.31 J/(mol·K)" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -690,12 +690,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "No intermolecular forces, negligible volume" },
-              { id: "b", text: "Strong forces" },
-              { id: "c", text: "Large molecules" },
-              { id: "d", text: "No motion" },
+              { id: "a", text: "No motion" },
+              { id: "b", text: "Large molecules" },
+              { id: "c", text: "Strong forces" },
+              { id: "d", text: "No intermolecular forces, negligible volume" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -784,9 +784,9 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Combined gas law" },
-              { id: "b", text: "Boyle's law" },
-              { id: "c", text: "Charles's law" },
-              { id: "d", text: "Ideal gas" },
+              { id: "b", text: "Charles's law" },
+              { id: "c", text: "Ideal gas" },
+              { id: "d", text: "Boyle's law" },
             ],
           correctChoiceId: "a",
           },
@@ -936,12 +936,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Emission of electrons by light" },
+              { id: "a", text: "Nuclear decay" },
               { id: "b", text: "Emission of light by electrons" },
-              { id: "c", text: "Nuclear decay" },
+              { id: "c", text: "Emission of electrons by light" },
               { id: "d", text: "No effect" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -969,12 +969,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Minimum frequency to eject electrons" },
-              { id: "b", text: "Maximum f" },
-              { id: "c", text: "Any f" },
-              { id: "d", text: "Zero f" },
+              { id: "a", text: "Any f" },
+              { id: "b", text: "Zero f" },
+              { id: "c", text: "Minimum frequency to eject electrons" },
+              { id: "d", text: "Maximum f" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -998,12 +998,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "hf = φ + KE_max" },
+              { id: "a", text: "E = mc²" },
               { id: "b", text: "hf = φ - KE" },
-              { id: "c", text: "E = mc²" },
+              { id: "c", text: "hf = φ + KE_max" },
               { id: "d", text: "No equation" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1025,12 +1025,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "λ = h/mv" },
-              { id: "b", text: "λ = mv/h" },
-              { id: "c", text: "λ = hf" },
-              { id: "d", text: "λ = c/f" },
+              { id: "a", text: "λ = hf" },
+              { id: "b", text: "λ = c/f" },
+              { id: "c", text: "λ = mv/h" },
+              { id: "d", text: "λ = h/mv" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1050,8 +1050,8 @@ export const lesson33: Lesson = {
             choices: [
               { id: "a", text: "Heavy nucleus splits" },
               { id: "b", text: "Light nuclei join" },
-              { id: "c", text: "Electron emission" },
-              { id: "d", text: "No process" },
+              { id: "c", text: "No process" },
+              { id: "d", text: "Electron emission" },
             ],
           correctChoiceId: "a",
           },
@@ -1077,12 +1077,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Light nuclei join" },
-              { id: "b", text: "Heavy splits" },
-              { id: "c", text: "Electron emission" },
-              { id: "d", text: "No process" },
+              { id: "a", text: "Electron emission" },
+              { id: "b", text: "Light nuclei join" },
+              { id: "c", text: "No process" },
+              { id: "d", text: "Heavy splits" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1102,12 +1102,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Helium nucleus (2p + 2n)" },
-              { id: "b", text: "Electron" },
-              { id: "c", text: "Photon" },
-              { id: "d", text: "Neutron" },
+              { id: "a", text: "Photon" },
+              { id: "b", text: "Neutron" },
+              { id: "c", text: "Electron" },
+              { id: "d", text: "Helium nucleus (2p + 2n)" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1126,9 +1126,9 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Electron" },
-              { id: "b", text: "He nucleus" },
-              { id: "c", text: "Photon" },
-              { id: "d", text: "Neutron" },
+              { id: "b", text: "Photon" },
+              { id: "c", text: "Neutron" },
+              { id: "d", text: "He nucleus" },
             ],
           correctChoiceId: "a",
           },
@@ -1148,12 +1148,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "High-energy photon" },
-              { id: "b", text: "Electron" },
-              { id: "c", text: "He nucleus" },
+              { id: "a", text: "He nucleus" },
+              { id: "b", text: "High-energy photon" },
+              { id: "c", text: "Electron" },
               { id: "d", text: "Neutron" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1171,12 +1171,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Minimum energy to eject electron" },
-              { id: "b", text: "Max energy" },
-              { id: "c", text: "Any energy" },
-              { id: "d", text: "Zero" },
+              { id: "a", text: "Any energy" },
+              { id: "b", text: "Minimum energy to eject electron" },
+              { id: "c", text: "Zero" },
+              { id: "d", text: "Max energy" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1198,15 +1198,15 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "No effect" },
               {
-                id: "a",
+                id: "b",
                 text: "Increases number of electrons, not their energy",
               },
-              { id: "b", text: "Increases energy" },
-              { id: "c", text: "No effect" },
+              { id: "c", text: "Increases energy" },
               { id: "d", text: "Decreases" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1234,12 +1234,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Increases electron energy" },
+              { id: "a", text: "No effect" },
               { id: "b", text: "Decreases" },
-              { id: "c", text: "No effect" },
-              { id: "d", text: "Only intensity" },
+              { id: "c", text: "Only intensity" },
+              { id: "d", text: "Increases electron energy" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1257,12 +1257,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Momentum increases" },
-              { id: "b", text: "p decreases" },
+              { id: "a", text: "m decreases" },
+              { id: "b", text: "Momentum increases" },
               { id: "c", text: "No relation" },
-              { id: "d", text: "m decreases" },
+              { id: "d", text: "p decreases" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1284,12 +1284,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "ΔxΔp ≥ h/4π" },
-              { id: "b", text: "ΔxΔp = 0" },
-              { id: "c", text: "ΔxΔp ≤ h" },
-              { id: "d", text: "No limit" },
+              { id: "a", text: "ΔxΔp = 0" },
+              { id: "b", text: "No limit" },
+              { id: "c", text: "ΔxΔp ≥ h/4π" },
+              { id: "d", text: "ΔxΔp ≤ h" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1311,12 +1311,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Mass and energy" },
+              { id: "a", text: "Nothing" },
               { id: "b", text: "Force and motion" },
               { id: "c", text: "Momentum" },
-              { id: "d", text: "Nothing" },
+              { id: "d", text: "Mass and energy" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1338,12 +1338,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Energy to separate nucleons" },
-              { id: "b", text: "Kinetic energy" },
-              { id: "c", text: "Potential only" },
+              { id: "a", text: "Potential only" },
+              { id: "b", text: "Energy to separate nucleons" },
+              { id: "c", text: "Kinetic energy" },
               { id: "d", text: "No energy" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1367,12 +1367,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Neutrons split more nuclei" },
+              { id: "a", text: "Only protons" },
               { id: "b", text: "No neutrons" },
-              { id: "c", text: "Only protons" },
+              { id: "c", text: "Neutrons split more nuclei" },
               { id: "d", text: "No chain" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1396,12 +1396,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Very high temperature and pressure" },
-              { id: "b", text: "Low T" },
-              { id: "c", text: "No conditions" },
-              { id: "d", text: "Cold" },
+              { id: "a", text: "Low T" },
+              { id: "b", text: "No conditions" },
+              { id: "c", text: "Cold" },
+              { id: "d", text: "Very high temperature and pressure" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1425,12 +1425,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Heaviest and most ionising" },
-              { id: "b", text: "Lightest" },
-              { id: "c", text: "Not ionising" },
-              { id: "d", text: "Photons" },
+              { id: "a", text: "Not ionising" },
+              { id: "b", text: "Photons" },
+              { id: "c", text: "Lightest" },
+              { id: "d", text: "Heaviest and most ionising" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1575,12 +1575,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Random and spontaneous" },
-              { id: "b", text: "Predictable" },
-              { id: "c", text: "Controlled" },
-              { id: "d", text: "No process" },
+              { id: "a", text: "Controlled" },
+              { id: "b", text: "No process" },
+              { id: "c", text: "Predictable" },
+              { id: "d", text: "Random and spontaneous" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1662,9 +1662,9 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "True" },
-              { id: "b", text: "False — γ < β < α" },
-              { id: "c", text: "All same" },
-              { id: "d", text: "Unknown" },
+              { id: "b", text: "All same" },
+              { id: "c", text: "Unknown" },
+              { id: "d", text: "False — γ < β < α" },
             ],
           correctChoiceId: "a",
           },
@@ -1821,9 +1821,9 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Laws same in all inertial frames; c constant" },
-              { id: "b", text: "c varies" },
-              { id: "c", text: "Time absolute" },
-              { id: "d", text: "No postulates" },
+              { id: "b", text: "Time absolute" },
+              { id: "c", text: "No postulates" },
+              { id: "d", text: "c varies" },
             ],
           correctChoiceId: "a",
           },
@@ -1848,9 +1848,9 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Moving clocks run slow" },
-              { id: "b", text: "Fast" },
-              { id: "c", text: "Same" },
-              { id: "d", text: "Stop" },
+              { id: "b", text: "Stop" },
+              { id: "c", text: "Fast" },
+              { id: "d", text: "Same" },
             ],
           correctChoiceId: "a",
           },
@@ -1876,12 +1876,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Moving objects shorten" },
+              { id: "a", text: "Same" },
               { id: "b", text: "Lengthen" },
-              { id: "c", text: "Same" },
+              { id: "c", text: "Moving objects shorten" },
               { id: "d", text: "Zero" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1909,12 +1909,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "1/√(1-v²/c²)" },
-              { id: "b", text: "v/c" },
+              { id: "a", text: "v/c" },
+              { id: "b", text: "1/√(1-v²/c²)" },
               { id: "c", text: "c/v" },
               { id: "d", text: "1-v/c" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1934,12 +1934,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Stable hydrogen fusion" },
-              { id: "b", text: "Exploding" },
-              { id: "c", text: "Dead" },
-              { id: "d", text: "No fusion" },
+              { id: "a", text: "Dead" },
+              { id: "b", text: "No fusion" },
+              { id: "c", text: "Exploding" },
+              { id: "d", text: "Stable hydrogen fusion" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1963,15 +1963,15 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "Hole in space" },
+              { id: "b", text: "No gravity" },
+              { id: "c", text: "Dark star" },
               {
-                id: "a",
+                id: "d",
                 text: "Object with gravity so strong nothing escapes",
               },
-              { id: "b", text: "Dark star" },
-              { id: "c", text: "Hole in space" },
-              { id: "d", text: "No gravity" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1995,12 +1995,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Galaxy moving away (expansion)" },
-              { id: "b", text: "Moving closer" },
+              { id: "a", text: "Moving closer" },
+              { id: "b", text: "Galaxy moving away (expansion)" },
               { id: "c", text: "No motion" },
               { id: "d", text: "Static" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -2024,12 +2024,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Remnant radiation from Big Bang" },
-              { id: "b", text: "Star light" },
-              { id: "c", text: "Radio waves" },
-              { id: "d", text: "No radiation" },
+              { id: "a", text: "Radio waves" },
+              { id: "b", text: "No radiation" },
+              { id: "c", text: "Star light" },
+              { id: "d", text: "Remnant radiation from Big Bang" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -2053,12 +2053,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Matter inferred from gravitational effects" },
+              { id: "a", text: "Energy" },
               { id: "b", text: "Visible" },
-              { id: "c", text: "No matter" },
-              { id: "d", text: "Energy" },
+              { id: "c", text: "Matter inferred from gravitational effects" },
+              { id: "d", text: "No matter" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -2080,12 +2080,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "3 × 10⁸ m/s" },
-              { id: "b", text: "340 m/s" },
-              { id: "c", text: "Variable" },
+              { id: "a", text: "340 m/s" },
+              { id: "b", text: "Variable" },
+              { id: "c", text: "3 × 10⁸ m/s" },
               { id: "d", text: "Zero" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -2103,12 +2103,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "1.67" },
-              { id: "b", text: "1.25" },
-              { id: "c", text: "2.0" },
-              { id: "d", text: "1.0" },
+              { id: "a", text: "2.0" },
+              { id: "b", text: "1.67" },
+              { id: "c", text: "1.0" },
+              { id: "d", text: "1.25" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -2130,12 +2130,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Δt = γΔt₀" },
-              { id: "b", text: "Δt = Δt₀/γ" },
-              { id: "c", text: "Δt = γt" },
-              { id: "d", text: "No formula" },
+              { id: "a", text: "Δt = Δt₀/γ" },
+              { id: "b", text: "Δt = γΔt₀" },
+              { id: "c", text: "No formula" },
+              { id: "d", text: "Δt = γt" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -2157,12 +2157,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "L = L₀/γ" },
-              { id: "b", text: "L = γL₀" },
-              { id: "c", text: "L = L₀γ" },
-              { id: "d", text: "No formula" },
+              { id: "a", text: "L = γL₀" },
+              { id: "b", text: "No formula" },
+              { id: "c", text: "L = L₀/γ" },
+              { id: "d", text: "L = L₀γ" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -2184,12 +2184,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Hydrogen depleted in core" },
+              { id: "a", text: "Star explodes" },
               { id: "b", text: "Star born" },
-              { id: "c", text: "Star explodes" },
-              { id: "d", text: "No fusion" },
+              { id: "c", text: "No fusion" },
+              { id: "d", text: "Hydrogen depleted in core" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -2213,12 +2213,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Dead star core — electron degenerate" },
+              { id: "a", text: "Planet" },
               { id: "b", text: "Living star" },
-              { id: "c", text: "Planet" },
-              { id: "d", text: "No star" },
+              { id: "c", text: "No star" },
+              { id: "d", text: "Dead star core — electron degenerate" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -2240,12 +2240,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Massive star explodes" },
+              { id: "a", text: "No explosion" },
               { id: "b", text: "Small star dies" },
-              { id: "c", text: "No explosion" },
+              { id: "c", text: "Massive star explodes" },
               { id: "d", text: "Planet forms" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -2270,9 +2270,9 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Velocities near c" },
-              { id: "b", text: "Low speeds" },
-              { id: "c", text: "Any speed" },
-              { id: "d", text: "Zero speed" },
+              { id: "b", text: "Zero speed" },
+              { id: "c", text: "Low speeds" },
+              { id: "d", text: "Any speed" },
             ],
           correctChoiceId: "a",
           },
@@ -2293,8 +2293,8 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Time dilation" },
-              { id: "b", text: "Length contraction" },
-              { id: "c", text: "No effect" },
+              { id: "b", text: "No effect" },
+              { id: "c", text: "Length contraction" },
               { id: "d", text: "Gravity" },
             ],
           correctChoiceId: "a",
@@ -2322,8 +2322,8 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Drives cosmic expansion — ~68% of universe" },
-              { id: "b", text: "Matter" },
-              { id: "c", text: "Light" },
+              { id: "b", text: "Light" },
+              { id: "c", text: "Matter" },
               { id: "d", text: "No energy" },
             ],
           correctChoiceId: "a",
@@ -2468,12 +2468,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Galaxy recession velocity to distance" },
-              { id: "b", text: "Mass to size" },
-              { id: "c", text: "Temperature to pressure" },
-              { id: "d", text: "No relation" },
+              { id: "a", text: "Mass to size" },
+              { id: "b", text: "Temperature to pressure" },
+              { id: "c", text: "No relation" },
+              { id: "d", text: "Galaxy recession velocity to distance" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -2555,12 +2555,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Distance to nearby stars" },
-              { id: "b", text: "Galaxy mass" },
-              { id: "c", text: "Temperature" },
-              { id: "d", text: "Nothing" },
+              { id: "a", text: "Temperature" },
+              { id: "b", text: "Distance to nearby stars" },
+              { id: "c", text: "Nothing" },
+              { id: "d", text: "Galaxy mass" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "b",
           },
           markscheme: {
             principles: [

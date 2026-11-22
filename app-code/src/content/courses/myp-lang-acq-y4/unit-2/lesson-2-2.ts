@@ -56,12 +56,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The last sentence of an essay" },
-              { id: "b", text: "The sentence that states the main idea of a paragraph" },
+              { id: "a", text: "The sentence that states the main idea of a paragraph" },
+              { id: "b", text: "The last sentence of an essay" },
               { id: "c", text: "A question to the reader" },
               { id: "d", text: "A list of examples" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Topic sentence", statement: "States the main idea of a paragraph." }],
@@ -163,12 +163,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Conclusion" },
-              { id: "b", text: "Introduction" },
-              { id: "c", text: "Body paragraph" },
-              { id: "d", text: "References" },
+              { id: "a", text: "Introduction" },
+              { id: "b", text: "References" },
+              { id: "c", text: "Conclusion" },
+              { id: "d", text: "Body paragraph" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -191,11 +191,11 @@ export const lesson22: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "'For example'" },
-              { id: "b", text: "'However'" },
-              { id: "c", text: "'First'" },
-              { id: "d", text: "'Therefore'" },
+              { id: "b", text: "'Therefore'" },
+              { id: "c", text: "'However'" },
+              { id: "d", text: "'First'" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -277,12 +277,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Only one side is presented" },
-              { id: "b", text: "Both sides are presented, then a personal opinion is given" },
-              { id: "c", text: "No opinion is stated" },
-              { id: "d", text: "The writer agrees with everyone" },
+              { id: "a", text: "No opinion is stated" },
+              { id: "b", text: "The writer agrees with everyone" },
+              { id: "c", text: "Only one side is presented" },
+              { id: "d", text: "Both sides are presented, then a personal opinion is given" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -357,12 +357,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "'Exercise is something people do.'" },
-              { id: "b", text: "'One benefit of exercise is improved health.'" },
+              { id: "a", text: "'One benefit of exercise is improved health.'" },
+              { id: "b", text: "'Exercise is something people do.'" },
               { id: "c", text: "'I like sports.'" },
               { id: "d", text: "'In conclusion, exercise matters.'" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -390,12 +390,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It is too long" },
-              { id: "b", text: "It presents opposing views without explanation or development" },
-              { id: "c", text: "It uses too many linking words" },
+              { id: "a", text: "It uses too many linking words" },
+              { id: "b", text: "It is too long" },
+              { id: "c", text: "It presents opposing views without explanation or development" },
               { id: "d", text: "It has a clear conclusion" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -451,12 +451,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "They introduce examples" },
-              { id: "b", text: "They signal additional points in a sequence" },
-              { id: "c", text: "They show contrast" },
+              { id: "a", text: "They signal additional points in a sequence" },
+              { id: "b", text: "They show contrast" },
+              { id: "c", text: "They introduce examples" },
               { id: "d", text: "They end the paragraph" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -544,12 +544,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A long story" },
-              { id: "b", text: "'Dear...' followed by a clear purpose" },
+              { id: "a", text: "Only a signature" },
+              { id: "b", text: "A long story" },
               { id: "c", text: "Slang or jokes" },
-              { id: "d", text: "Only a signature" },
+              { id: "d", text: "'Dear...' followed by a clear purpose" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "convention", name: "Letter opening", statement: "Formal letters use 'Dear' and state purpose early." }],
@@ -651,12 +651,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "'Bye, see ya!'" },
-              { id: "b", text: "'Yours sincerely,' or 'Yours faithfully,'" },
+              { id: "a", text: "'Yours sincerely,' or 'Yours faithfully,'" },
+              { id: "b", text: "'Bye, see ya!'" },
               { id: "c", text: "'Later!'" },
               { id: "d", text: "'TTYL'" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -679,11 +679,11 @@ export const lesson22: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "'Hey there!'" },
-              { id: "b", text: "'I am writing to ask for...'" },
-              { id: "c", text: "'Guess what!'" },
+              { id: "b", text: "'Guess what!'" },
+              { id: "c", text: "'I am writing to ask for...'" },
               { id: "d", text: "'What's up?'" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -765,12 +765,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Letter A — it is shorter" },
-              { id: "b", text: "Letter B — formal greeting, clear purpose, polite register" },
-              { id: "c", text: "Both are equally formal" },
-              { id: "d", text: "Neither is formal" },
+              { id: "a", text: "Both are equally formal" },
+              { id: "b", text: "Neither is formal" },
+              { id: "c", text: "Letter A — it is shorter" },
+              { id: "d", text: "Letter B — formal greeting, clear purpose, polite register" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -846,11 +846,11 @@ export const lesson22: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "When writing to a friend" },
-              { id: "b", text: "When you do not know the recipient's name" },
-              { id: "c", text: "Never — they are identical" },
-              { id: "d", text: "Only in reports" },
+              { id: "b", text: "Never — they are identical" },
+              { id: "c", text: "Only in reports" },
+              { id: "d", text: "When you do not know the recipient's name" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -878,12 +878,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Because the writer does not know the recipient's name" },
+              { id: "a", text: "Because the letter is very short" },
               { id: "b", text: "Because it is a casual letter" },
-              { id: "c", text: "Because the letter is very short" },
+              { id: "c", text: "Because the writer does not know the recipient's name" },
               { id: "d", text: "Because the writer is angry" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -939,12 +939,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "To ask a question" },
-              { id: "b", text: "To state the letter's purpose clearly" },
-              { id: "c", text: "To apologise" },
-              { id: "d", text: "To give a list of excuses" },
+              { id: "a", text: "To give a list of excuses" },
+              { id: "b", text: "To apologise" },
+              { id: "c", text: "To state the letter's purpose clearly" },
+              { id: "d", text: "To ask a question" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

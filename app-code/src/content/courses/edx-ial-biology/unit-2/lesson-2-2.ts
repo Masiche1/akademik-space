@@ -50,12 +50,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Oxygen" },
-              { id: "b", text: "Carbon dioxide" },
-              { id: "c", text: "Nitrogen" },
-              { id: "d", text: "Water vapour only" },
+              { id: "a", text: "Water vapour only" },
+              { id: "b", text: "Oxygen" },
+              { id: "c", text: "Carbon dioxide" },
+              { id: "d", text: "Nitrogen" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Gas exchange", statement: "O₂ in, CO₂ out down partial pressure gradients." }],
@@ -165,12 +165,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It requires no water flow" },
-              { id: "b", text: "It maintains a steep diffusion gradient" },
+              { id: "a", text: "It maintains a steep diffusion gradient" },
+              { id: "b", text: "It requires no water flow" },
               { id: "c", text: "It reduces gill surface area" },
               { id: "d", text: "It works without blood" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Countercurrent", statement: "Opposite flows maintain gradient." }],

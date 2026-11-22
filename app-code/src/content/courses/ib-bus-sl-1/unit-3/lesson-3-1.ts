@@ -96,10 +96,10 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Recruitment" },
+              { id: "a", text: "Appraisal" },
               { id: "b", text: "Selection" },
-              { id: "c", text: "Induction" },
-              { id: "d", text: "Appraisal" },
+              { id: "c", text: "Recruitment" },
+              { id: "d", text: "Induction" },
             ],
             correctChoiceId: "b",
           },
@@ -323,12 +323,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Job description" },
-              { id: "b", text: "Person specification" },
+              { id: "a", text: "Person specification" },
+              { id: "b", text: "Job description" },
               { id: "c", text: "Appraisal form" },
               { id: "d", text: "Organisation chart" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -367,12 +367,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Advertising the vacancy" },
-              { id: "b", text: "Identifying the need for new staff" },
+              { id: "a", text: "Identifying the need for new staff" },
+              { id: "b", text: "Advertising the vacancy" },
               { id: "c", text: "Interviewing candidates" },
               { id: "d", text: "Checking references" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -682,12 +682,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Induction" },
-              { id: "b", text: "On-the-job training" },
-              { id: "c", text: "Off-the-job training" },
+              { id: "a", text: "On-the-job training" },
+              { id: "b", text: "Off-the-job training" },
+              { id: "c", text: "Induction" },
               { id: "d", text: "External training" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -726,12 +726,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Job description" },
-              { id: "b", text: "Person specification" },
+              { id: "a", text: "Staff handbook" },
+              { id: "b", text: "Job description" },
               { id: "c", text: "Organisation chart" },
-              { id: "d", text: "Staff handbook" },
+              { id: "d", text: "Person specification" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -908,12 +908,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Recruitment" },
-              { id: "b", text: "Selection" },
-              { id: "c", text: "Legal compliance" },
-              { id: "d", text: "Performance-related pay" },
+              { id: "a", text: "Performance-related pay" },
+              { id: "b", text: "Legal compliance" },
+              { id: "c", text: "Recruitment" },
+              { id: "d", text: "Selection" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -999,12 +999,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Salary level" },
-              { id: "b", text: "Working conditions" },
-              { id: "c", text: "Recognition for good work" },
-              { id: "d", text: "Job security" },
+              { id: "a", text: "Job security" },
+              { id: "b", text: "Recognition for good work" },
+              { id: "c", text: "Working conditions" },
+              { id: "d", text: "Salary level" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1043,12 +1043,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Physiological needs" },
-              { id: "b", text: "Social needs" },
-              { id: "c", text: "Esteem needs" },
-              { id: "d", text: "Self-actualisation" },
+              { id: "a", text: "Social needs" },
+              { id: "b", text: "Esteem needs" },
+              { id: "c", text: "Self-actualisation" },
+              { id: "d", text: "Physiological needs" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -1222,12 +1222,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Safety needs" },
-              { id: "b", text: "Social needs" },
-              { id: "c", text: "Esteem needs" },
-              { id: "d", text: "Self-actualisation needs" },
+              { id: "a", text: "Self-actualisation needs" },
+              { id: "b", text: "Esteem needs" },
+              { id: "c", text: "Safety needs" },
+              { id: "d", text: "Social needs" },
             ],
-            correctChoiceId: "d",
+            correctChoiceIa: "d",
           },
           markscheme: {
             principles: [
@@ -1264,10 +1264,10 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Time-rate pay" },
+              { id: "a", text: "Salaried pay" },
               { id: "b", text: "Piece-rate pay" },
-              { id: "c", text: "Salaried pay" },
-              { id: "d", text: "Bonus pay" },
+              { id: "c", text: "Bonus pay" },
+              { id: "d", text: "Time-rate pay" },
             ],
             correctChoiceId: "b",
           },
@@ -1582,11 +1582,11 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Achievement" },
-              { id: "b", text: "Recognition" },
-              { id: "c", text: "Working conditions" },
+              { id: "b", text: "Working conditions" },
+              { id: "c", text: "Recognition" },
               { id: "d", text: "Responsibility" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1625,12 +1625,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Team-building activities" },
-              { id: "b", text: "Financial incentives linked to output" },
-              { id: "c", text: "Job rotation" },
-              { id: "d", text: "Flexible working hours" },
+              { id: "a", text: "Financial incentives linked to output" },
+              { id: "b", text: "Flexible working hours" },
+              { id: "c", text: "Team-building activities" },
+              { id: "d", text: "Job rotation" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -1760,12 +1760,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It continues to motivate strongly" },
-              { id: "b", text: "The next higher need becomes the motivator" },
+              { id: "a", text: "Needs are satisfied in random order" },
+              { id: "b", text: "It continues to motivate strongly" },
               { id: "c", text: "The worker loses all motivation" },
-              { id: "d", text: "Needs are satisfied in random order" },
+              { id: "d", text: "The next higher need becomes the motivator" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1802,12 +1802,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Maslow" },
+              { id: "a", text: "Taylor" },
               { id: "b", text: "Herzberg" },
-              { id: "c", text: "Taylor" },
-              { id: "d", text: "Belbin" },
+              { id: "c", text: "Belbin" },
+              { id: "d", text: "Maslow" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [

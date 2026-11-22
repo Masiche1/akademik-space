@@ -70,15 +70,15 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Simple, Many, Active, Regular, Time" },
               {
-                id: "b",
+                id: "a",
                 text: "Specific, Measurable, Achievable, Relevant, Time-bound",
               },
-              { id: "c", text: "Study, Memorise, Answer, Read, Test" },
-              { id: "d", text: "Speak, Listen, Read, Write, Think" },
+              { id: "b", text: "Study, Memorise, Answer, Read, Test" },
+              { id: "c", text: "Speak, Listen, Read, Write, Think" },
+              { id: "d", text: "Simple, Many, Active, Regular, Time" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -239,12 +239,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A problem you have" },
-              { id: "b", text: "Something you want to achieve" },
-              { id: "c", text: "A grammar book" },
-              { id: "d", text: "A test score" },
+              { id: "a", text: "Something you want to achieve" },
+              { id: "b", text: "A grammar book" },
+              { id: "c", text: "A test score" },
+              { id: "d", text: "A problem you have" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -312,14 +312,14 @@ export const lesson63: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "I want to be better." },
+              { id: "b", text: "I will become fluent soon." },
+              { id: "c", text: "I will study sometimes." },
               {
-                id: "b",
+                id: "d",
                 text: "I will learn 15 words every week and test myself every Sunday.",
               },
-              { id: "c", text: "I will study sometimes." },
-              { id: "d", text: "I will become fluent soon." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -402,15 +402,15 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Only a teacher" },
               {
-                id: "b",
+                id: "a",
                 text: "Something that helps you learn, like an app or book",
               },
-              { id: "c", text: "A grade on a test" },
-              { id: "d", text: "A classroom" },
+              { id: "b", text: "Only a teacher" },
+              { id: "c", text: "A classroom" },
+              { id: "d", text: "A grade on a test" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -473,11 +473,11 @@ export const lesson63: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Nothing is wrong" },
-              { id: "b", text: "It is not achievable or realistic" },
+              { id: "b", text: "Goals must be about writing" },
               { id: "c", text: "It is too short a goal" },
-              { id: "d", text: "Goals must be about writing" },
+              { id: "d", text: "It is not achievable or realistic" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -564,12 +564,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Always on time" },
-              { id: "b", text: "Has a deadline or time limit" },
-              { id: "c", text: "Very fast" },
-              { id: "d", text: "No limit at all" },
+              { id: "a", text: "Very fast" },
+              { id: "b", text: "No limit at all" },
+              { id: "c", text: "Has a deadline or time limit" },
+              { id: "d", text: "Always on time" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -635,12 +635,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "They do not fade" },
-              { id: "b", text: "Because memory needs regular use" },
-              { id: "c", text: "Because teachers forget" },
-              { id: "d", text: "Because books expire" },
+              { id: "a", text: "Because teachers forget" },
+              { id: "b", text: "Because books expire" },
+              { id: "c", text: "Because memory needs regular use" },
+              { id: "d", text: "They do not fade" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -751,15 +751,15 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Studying grammar rules only" },
               {
-                id: "b",
+                id: "a",
                 text: "Surrounding yourself with the language every day",
               },
-              { id: "c", text: "Writing tests" },
-              { id: "d", text: "Reading a dictionary" },
+              { id: "b", text: "Studying grammar rules only" },
+              { id: "c", text: "Reading a dictionary" },
+              { id: "d", text: "Writing tests" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -916,12 +916,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Only grammar worksheets" },
+              { id: "a", text: "Reading one dictionary" },
               {
                 id: "b",
                 text: "Changing your phone language and listening to music daily",
               },
-              { id: "c", text: "Reading one dictionary" },
+              { id: "c", text: "Only grammar worksheets" },
               { id: "d", text: "Taking a single test" },
             ],
             correctChoiceId: "b",
@@ -992,9 +992,9 @@ export const lesson63: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Habits are stronger and easier to keep" },
-              { id: "b", text: "Motivation is illegal" },
-              { id: "c", text: "Habits need no time" },
-              { id: "d", text: "Motivation never works" },
+              { id: "b", text: "Habits need no time" },
+              { id: "c", text: "Motivation never works" },
+              { id: "d", text: "Motivation is illegal" },
             ],
             correctChoiceId: "a",
           },
@@ -1078,13 +1078,13 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A teacher at school" },
+              { id: "a", text: "An app only" },
               {
                 id: "b",
                 text: "Someone you practise speaking with who learns your language",
               },
               { id: "c", text: "A dictionary" },
-              { id: "d", text: "An app only" },
+              { id: "d", text: "A teacher at school" },
             ],
             correctChoiceId: "b",
           },
@@ -1154,12 +1154,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "2 hours every Sunday only" },
-              { id: "b", text: "10 minutes attached to breakfast every day" },
-              { id: "c", text: "Study all night once a month" },
+              { id: "a", text: "10 minutes attached to breakfast every day" },
+              { id: "b", text: "Study all night once a month" },
+              { id: "c", text: "2 hours every Sunday only" },
               { id: "d", text: "Only when motivated" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -1244,12 +1244,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Immersion" },
-              { id: "b", text: "Habit building" },
-              { id: "c", text: "Goal setting" },
-              { id: "d", text: "Testing" },
+              { id: "a", text: "Habit building" },
+              { id: "b", text: "Testing" },
+              { id: "c", text: "Immersion" },
+              { id: "d", text: "Goal setting" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -1310,12 +1310,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Watching videos with subtitles" },
-              { id: "b", text: "Reading simple books" },
-              { id: "c", text: "Memorising word lists once a year" },
-              { id: "d", text: "Using an app every day" },
+              { id: "a", text: "Using an app every day" },
+              { id: "b", text: "Memorising word lists once a year" },
+              { id: "c", text: "Watching videos with subtitles" },
+              { id: "d", text: "Reading simple books" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [

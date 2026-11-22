@@ -58,8 +58,8 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$\\begin{pmatrix}3\\\\7\\end{pmatrix}$" },
-              { id: "b", text: "$\\begin{pmatrix}3\\\\12\\end{pmatrix}$" },
-              { id: "c", text: "$\\begin{pmatrix}1\\\\-1\\end{pmatrix}$" },
+              { id: "b", text: "$\\begin{pmatrix}1\\\\-1\\end{pmatrix}$" },
+              { id: "c", text: "$\\begin{pmatrix}3\\\\12\\end{pmatrix}$" },
               { id: "d", text: "$\\begin{pmatrix}2\\\\12\\end{pmatrix}$" },
             ],
             correctChoiceId: "a",
@@ -84,12 +84,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "5" },
-              { id: "b", text: "7" },
+              { id: "a", text: "7" },
+              { id: "b", text: "5" },
               { id: "c", text: "$\\sqrt{7}$" },
               { id: "d", text: "25" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -112,12 +112,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Yes — second is half of first" },
-              { id: "b", text: "No — different magnitudes" },
-              { id: "c", text: "No — not scalar multiples" },
+              { id: "a", text: "No — different magnitudes" },
+              { id: "b", text: "No — not scalar multiples" },
+              { id: "c", text: "Yes — second is half of first" },
               { id: "d", text: "Yes — same direction" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -172,12 +172,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\begin{pmatrix}5\\\\-3\\end{pmatrix}$" },
-              { id: "b", text: "$\\begin{pmatrix}5\\\\5\\end{pmatrix}$" },
-              { id: "c", text: "$\\begin{pmatrix}1\\\\5\\end{pmatrix}$" },
+              { id: "a", text: "$\\begin{pmatrix}5\\\\5\\end{pmatrix}$" },
+              { id: "b", text: "$\\begin{pmatrix}1\\\\5\\end{pmatrix}$" },
+              { id: "c", text: "$\\begin{pmatrix}5\\\\-3\\end{pmatrix}$" },
               { id: "d", text: "$\\begin{pmatrix}6\\\\-4\\end{pmatrix}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -218,8 +218,8 @@ export const lesson31: Lesson = {
             choices: [
               { id: "a", text: "$\\begin{pmatrix}1\\\\3\\end{pmatrix}$" },
               { id: "b", text: "$\\begin{pmatrix}1\\\\5\\end{pmatrix}$" },
-              { id: "c", text: "$\\begin{pmatrix}3\\\\5\\end{pmatrix}$" },
-              { id: "d", text: "$\\begin{pmatrix}-1\\\\3\\end{pmatrix}$" },
+              { id: "c", text: "$\\begin{pmatrix}-1\\\\3\\end{pmatrix}$" },
+              { id: "d", text: "$\\begin{pmatrix}3\\\\5\\end{pmatrix}$" },
             ],
             correctChoiceId: "a",
           },
@@ -262,12 +262,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Yes — $\\begin{pmatrix}4\\\\6\\end{pmatrix}=2\\begin{pmatrix}2\\\\3\\end{pmatrix}$" },
+              { id: "a", text: "No — not scalar multiples" },
               { id: "b", text: "No — different magnitudes" },
-              { id: "c", text: "No — not scalar multiples" },
+              { id: "c", text: "Yes — $\\begin{pmatrix}4\\\\6\\end{pmatrix}=2\\begin{pmatrix}2\\\\3\\end{pmatrix}$" },
               { id: "d", text: "Yes — same direction only" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -308,12 +308,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$(2,4)$" },
+              { id: "a", text: "$(3,2)$" },
               { id: "b", text: "$(8,8)$" },
-              { id: "c", text: "$(3,2)$" },
-              { id: "d", text: "$(2,-2)$" },
+              { id: "c", text: "$(2,-2)$" },
+              { id: "d", text: "$(2,4)$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -447,12 +447,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Yes — $\\vec{AC}=2\\vec{AB}$" },
-              { id: "b", text: "No — the points form a triangle" },
-              { id: "c", text: "Yes — all have integer coordinates" },
+              { id: "a", text: "Yes — all have integer coordinates" },
+              { id: "b", text: "Yes — $\\vec{AC}=2\\vec{AB}$" },
+              { id: "c", text: "No — the points form a triangle" },
               { id: "d", text: "No — $C$ is not between $A$ and $B$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -507,12 +507,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$90°$" },
+              { id: "a", text: "$45°$" },
               { id: "b", text: "$0°$" },
-              { id: "c", text: "$45°$" },
+              { id: "c", text: "$90°$" },
               { id: "d", text: "Cannot be determined" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -534,12 +534,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "6 m" },
+              { id: "a", text: "$12\\sin30°=6$ m" },
               { id: "b", text: "$6\\sqrt{3}$ m" },
-              { id: "c", text: "$12\\sin30°=6$ m" },
+              { id: "c", text: "6 m" },
               { id: "d", text: "$12\\cos30°=10.4$ m" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -563,9 +563,9 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$60°$" },
-              { id: "b", text: "$120°$" },
-              { id: "c", text: "$30°$" },
-              { id: "d", text: "$90°$" },
+              { id: "b", text: "$90°$" },
+              { id: "c", text: "$120°$" },
+              { id: "d", text: "$30°$" },
             ],
             correctChoiceId: "a",
           },
@@ -622,12 +622,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$0°$" },
+              { id: "a", text: "$45°$" },
               { id: "b", text: "$90°$" },
-              { id: "c", text: "$45°$" },
+              { id: "c", text: "$0°$" },
               { id: "d", text: "Cannot be determined" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -666,12 +666,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$4\\sqrt{3}$ m" },
-              { id: "b", text: "$4$ m" },
+              { id: "a", text: "$4$ m" },
+              { id: "b", text: "$4\\sqrt{3}$ m" },
               { id: "c", text: "$8\\sqrt{3}$ m" },
               { id: "d", text: "$\\frac{8}{\\sqrt{3}}$ m" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -712,12 +712,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$16.7°$" },
-              { id: "b", text: "$30°$" },
-              { id: "c", text: "$73.3°$" },
-              { id: "d", text: "$60°$" },
+              { id: "a", text: "$73.3°$" },
+              { id: "b", text: "$60°$" },
+              { id: "c", text: "$16.7°$" },
+              { id: "d", text: "$30°$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -758,12 +758,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$50°$" },
+              { id: "a", text: "$90°$" },
               { id: "b", text: "$130°$" },
               { id: "c", text: "$25°$" },
-              { id: "d", text: "$90°$" },
+              { id: "d", text: "$50°$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -805,12 +805,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$16.4$ m" },
-              { id: "b", text: "$11.5$ m" },
-              { id: "c", text: "$20$ m" },
+              { id: "a", text: "$20$ m" },
+              { id: "b", text: "$16.4$ m" },
+              { id: "c", text: "$11.5$ m" },
               { id: "d", text: "$8.2$ m" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -895,12 +895,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$53.1°$" },
+              { id: "a", text: "$30°$" },
               { id: "b", text: "$36.9°$" },
-              { id: "c", text: "$60°$" },
-              { id: "d", text: "$30°$" },
+              { id: "c", text: "$53.1°$" },
+              { id: "d", text: "$60°$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

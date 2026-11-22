@@ -49,12 +49,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$P(t)=18{,}000(0.03)^t$" },
-              { id: "b", text: "$P(t)=18{,}000(1.03)^t$" },
+              { id: "a", text: "$P(t)=18{,}000(0.97)^t$" },
+              { id: "b", text: "$P(t)=18{,}000(0.03)^t$" },
               { id: "c", text: "$P(t)=18{,}000+0.03t$" },
-              { id: "d", text: "$P(t)=18{,}000(0.97)^t$" },
+              { id: "d", text: "$P(t)=18{,}000(1.03)^t$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -181,12 +181,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$3+2\\log_3 x$" },
-              { id: "b", text: "$27+2\\log_3 x$" },
-              { id: "c", text: "$3\\log_3 x$" },
-              { id: "d", text: "$3+\\log_3(2x)$" },
+              { id: "a", text: "$27+2\\log_3 x$" },
+              { id: "b", text: "$3\\log_3 x$" },
+              { id: "c", text: "$3+\\log_3(2x)$" },
+              { id: "d", text: "$3+2\\log_3 x$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

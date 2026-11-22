@@ -95,22 +95,22 @@ export const lesson42: Lesson = {
             choices: [
               {
                 id: "a",
-                text: "The populations belong to the same species because they can interbreed",
-              },
-              {
-                id: "b",
                 text: "The populations are different species because fertile offspring are not produced",
               },
               {
-                id: "c",
+                id: "b",
                 text: "The populations are different subspecies with no genetic difference",
+              },
+              {
+                id: "c",
+                text: "The populations belong to the same species because they can interbreed",
               },
               {
                 id: "d",
                 text: "The birds are the same species because sterility is not inherited",
               },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -145,12 +145,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Sympatric speciation through polyploidy" },
+              { id: "a", text: "Artificial selection by humans" },
               {
                 id: "b",
                 text: "Allopatric speciation through geographical isolation",
               },
-              { id: "c", text: "Artificial selection by humans" },
+              { id: "c", text: "Sympatric speciation through polyploidy" },
               { id: "d", text: "Convergent evolution" },
             ],
             correctChoiceId: "b",
@@ -196,15 +196,15 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Post-zygotic isolation; hybrids are sterile" },
               {
-                id: "b",
+                id: "a",
                 text: "Pre-zygotic isolation by habitat and timing, preventing fertilisation",
               },
+              { id: "b", text: "Post-zygotic isolation; hybrids are sterile" },
               { id: "c", text: "Geographical isolation by a physical barrier" },
               { id: "d", text: "No isolation, because they share a habitat" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -378,14 +378,14 @@ export const lesson42: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "They look identical in appearance" },
+              { id: "b", text: "They live in the same habitat" },
               {
-                id: "b",
+                id: "c",
                 text: "They can interbreed in nature to produce fertile offspring",
               },
-              { id: "c", text: "They live in the same habitat" },
               { id: "d", text: "They have the same chromosome number" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -421,12 +421,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Allopatric speciation" },
-              { id: "b", text: "Sympatric speciation through polyploidy" },
-              { id: "c", text: "Artificial selection" },
-              { id: "d", text: "Convergent evolution" },
+              { id: "a", text: "Artificial selection" },
+              { id: "b", text: "Convergent evolution" },
+              { id: "c", text: "Allopatric speciation" },
+              { id: "d", text: "Sympatric speciation through polyploidy" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -616,13 +616,13 @@ export const lesson42: Lesson = {
                 id: "b",
                 text: "Two cricket species using different mating calls",
               },
+              { id: "c", text: "Two frog species breeding in different ponds" },
               {
-                id: "c",
+                id: "d",
                 text: "Hybrid offspring of two species that are sterile",
               },
-              { id: "d", text: "Two frog species breeding in different ponds" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -711,12 +711,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Post-zygotic reproductive isolation" },
-              { id: "b", text: "Behavioural pre-zygotic isolation" },
-              { id: "c", text: "Geographical isolation" },
-              { id: "d", text: "Polyploid speciation" },
+              { id: "a", text: "Polyploid speciation" },
+              { id: "b", text: "Geographical isolation" },
+              { id: "c", text: "Post-zygotic reproductive isolation" },
+              { id: "d", text: "Behavioural pre-zygotic isolation" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -862,16 +862,16 @@ export const lesson42: Lesson = {
             choices: [
               {
                 id: "a",
-                text: "Prevents fertilisation from occurring between the populations",
+                text: "Requires a physical barrier such as a mountain range",
               },
               { id: "b", text: "Produces hybrid offspring that are sterile" },
               { id: "c", text: "Only acts after a zygote has formed" },
               {
                 id: "d",
-                text: "Requires a physical barrier such as a mountain range",
+                text: "Prevents fertilisation from occurring between the populations",
               },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1117,12 +1117,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "homo sapiens" },
-              { id: "b", text: "Homo Sapiens" },
-              { id: "c", text: "Homo sapiens" },
-              { id: "d", text: "HOMO SAPIENS" },
+              { id: "a", text: "Homo sapiens" },
+              { id: "b", text: "HOMO SAPIENS" },
+              { id: "c", text: "homo sapiens" },
+              { id: "d", text: "Homo Sapiens" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1214,22 +1214,22 @@ export const lesson42: Lesson = {
             choices: [
               {
                 id: "a",
-                text: "The second reserve, because it has fewer competitors",
-              },
-              {
-                id: "b",
-                text: "They are equal because they have the same area",
-              },
-              {
-                id: "c",
                 text: "The first reserve, because it has greater species richness (225 vs 100 species)",
               },
               {
-                id: "d",
+                id: "b",
                 text: "Cannot be determined without counting individuals",
               },
+              {
+                id: "c",
+                text: "The second reserve, because it has fewer competitors",
+              },
+              {
+                id: "d",
+                text: "They are equal because they have the same area",
+              },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1398,12 +1398,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Felis" },
+              { id: "a", text: "Neither part" },
               { id: "b", text: "catus" },
-              { id: "c", text: "Both parts together" },
-              { id: "d", text: "Neither part" },
+              { id: "c", text: "Felis" },
+              { id: "d", text: "Both parts together" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1438,12 +1438,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Species" },
-              { id: "b", text: "Genus" },
-              { id: "c", text: "Kingdom" },
-              { id: "d", text: "Family" },
+              { id: "a", text: "Kingdom" },
+              { id: "b", text: "Species" },
+              { id: "c", text: "Family" },
+              { id: "d", text: "Genus" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1621,22 +1621,22 @@ export const lesson42: Lesson = {
             choices: [
               {
                 id: "a",
-                text: "All relationships on the tree change completely",
-              },
-              {
-                id: "b",
                 text: "The relationships are unchanged, because branch points — not tip order — determine relatedness",
               },
               {
-                id: "c",
+                id: "b",
                 text: "The tree becomes invalid and cannot be interpreted",
               },
               {
-                id: "d",
+                id: "c",
                 text: "The most recent common ancestor of the species changes",
               },
+              {
+                id: "d",
+                text: "All relationships on the tree change completely",
+              },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -1729,12 +1729,12 @@ export const lesson42: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Genetic, species and ecosystem diversity" },
-              { id: "b", text: "Producer, consumer and decomposer diversity" },
+              { id: "b", text: "Primary, secondary and climax diversity" },
               {
                 id: "c",
                 text: "Birth rate, death rate and migration diversity",
               },
-              { id: "d", text: "Primary, secondary and climax diversity" },
+              { id: "d", text: "Producer, consumer and decomposer diversity" },
             ],
             correctChoiceId: "a",
           },
@@ -1871,21 +1871,21 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "As the same species, because they look alike" },
               {
-                id: "b",
+                id: "a",
                 text: "As separate species, because modern classification reflects evolutionary relationships",
               },
+              { id: "b", text: "As the same species, because they look alike" },
               {
                 id: "c",
-                text: "As the same genus only, regardless of species status",
+                text: "They cannot be classified without more information",
               },
               {
                 id: "d",
-                text: "They cannot be classified without more information",
+                text: "As the same genus only, regardless of species status",
               },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

@@ -58,8 +58,8 @@ export const lesson22: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$x=5$" },
-              { id: "b", text: "$x=13$" },
-              { id: "c", text: "$x=-5$" },
+              { id: "b", text: "$x=-5$" },
+              { id: "c", text: "$x=13$" },
               { id: "d", text: "$x=\\frac{13}{5}$" },
             ],
             correctChoiceId: "a",
@@ -165,12 +165,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$x=4$" },
-              { id: "b", text: "$x=10$" },
-              { id: "c", text: "$x=8$" },
-              { id: "d", text: "$x=20$" },
+              { id: "a", text: "$x=8$" },
+              { id: "b", text: "$x=20$" },
+              { id: "c", text: "$x=4$" },
+              { id: "d", text: "$x=10$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -192,12 +192,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$x=15$" },
-              { id: "b", text: "$x=5$" },
+              { id: "a", text: "$x=5$" },
+              { id: "b", text: "$x=15$" },
               { id: "c", text: "$x=\\frac{5}{3}$" },
               { id: "d", text: "$x=-5$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -258,12 +258,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$x=4$" },
-              { id: "b", text: "$x=25$" },
-              { id: "c", text: "$x=5$" },
-              { id: "d", text: "$x=20$" },
+              { id: "a", text: "$x=20$" },
+              { id: "b", text: "$x=5$" },
+              { id: "c", text: "$x=4$" },
+              { id: "d", text: "$x=25$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -325,12 +325,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$3x+8=2$" },
+              { id: "a", text: "$5x=10$" },
               { id: "b", text: "$2x-5=1$" },
               { id: "c", text: "$x+4=7$" },
-              { id: "d", text: "$5x=10$" },
+              { id: "d", text: "$3x+8=2$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -500,12 +500,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$x>4$" },
-              { id: "b", text: "$x<4$" },
+              { id: "a", text: "$x<4$" },
+              { id: "b", text: "$x>-4$" },
               { id: "c", text: "$x>14$" },
-              { id: "d", text: "$x>-4$" },
+              { id: "d", text: "$x>4$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -607,12 +607,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$x<10$" },
+              { id: "a", text: "$x<4$" },
               { id: "b", text: "$x>10$" },
-              { id: "c", text: "$x<4$" },
-              { id: "d", text: "$x>-4$" },
+              { id: "c", text: "$x>-4$" },
+              { id: "d", text: "$x<10$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -634,12 +634,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$x>16$" },
-              { id: "b", text: "$x>4$" },
-              { id: "c", text: "$x<4$" },
-              { id: "d", text: "$x>-4$" },
+              { id: "a", text: "$x>4$" },
+              { id: "b", text: "$x>16$" },
+              { id: "c", text: "$x>-4$" },
+              { id: "d", text: "$x<4$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -700,12 +700,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$x+2\\ge0$" },
-              { id: "b", text: "$2-x\\ge0$" },
-              { id: "c", text: "$x-2\\ge0$" },
-              { id: "d", text: "$-x-2\\ge0$" },
+              { id: "a", text: "$2-x\\ge0$" },
+              { id: "b", text: "$-x-2\\ge0$" },
+              { id: "c", text: "$x+2\\ge0$" },
+              { id: "d", text: "$x-2\\ge0$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -767,12 +767,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$x<-1$" },
-              { id: "b", text: "$x\\le-1$" },
-              { id: "c", text: "$x>-1$" },
-              { id: "d", text: "$x\\ge-1$" },
+              { id: "a", text: "$x\\ge-1$" },
+              { id: "b", text: "$x>-1$" },
+              { id: "c", text: "$x\\le-1$" },
+              { id: "d", text: "$x<-1$" },
             ],
-            correctChoiceId: "d",
+            correctChoiceIa: "d",
           },
           markscheme: {
             principles: [

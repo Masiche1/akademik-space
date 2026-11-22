@@ -54,10 +54,10 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The natural expansion of sand dunes" },
+              { id: "a", text: "Irrigation of arid farmland" },
               { id: "b", text: "Degradation of drylands into desert-like conditions" },
-              { id: "c", text: "Formation of permafrost in cold regions" },
-              { id: "d", text: "Irrigation of arid farmland" },
+              { id: "c", text: "The natural expansion of sand dunes" },
+              { id: "d", text: "Formation of permafrost in cold regions" },
             ],
             correctChoiceId: "b",
           },
@@ -153,12 +153,12 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Freeze–thaw processes in cold environments adjacent to, but outside, ice sheets" },
-              { id: "b", text: "The formation of sand dunes in deserts" },
+              { id: "a", text: "The formation of sand dunes in deserts" },
+              { id: "b", text: "Freeze–thaw processes in cold environments adjacent to, but outside, ice sheets" },
               { id: "c", text: "Volcanic eruptions in polar regions" },
               { id: "d", text: "Glacial erosion beneath moving ice" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -208,12 +208,12 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The rapid flow of meltwater down a glacier" },
-              { id: "b", text: "The slow flow of saturated soil over frozen ground" },
+              { id: "a", text: "The chemical weathering of limestone" },
+              { id: "b", text: "The rapid flow of meltwater down a glacier" },
               { id: "c", text: "The wind erosion of desert sand" },
-              { id: "d", text: "The chemical weathering of limestone" },
+              { id: "d", text: "The slow flow of saturated soil over frozen ground" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -263,12 +263,12 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Overgrazing, deforestation and poor irrigation practices" },
-              { id: "b", text: "Planting more trees and shrubs" },
+              { id: "a", text: "Planting more trees and shrubs" },
+              { id: "b", text: "Reducing livestock numbers" },
               { id: "c", text: "Building reservoirs for irrigation" },
-              { id: "d", text: "Reducing livestock numbers" },
+              { id: "d", text: "Overgrazing, deforestation and poor irrigation practices" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -316,12 +316,12 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "nutrients are stored in living biomass while heavy rain leaches them from the soil" },
-              { id: "b", text: "rainforests receive no rainfall" },
-              { id: "c", text: "the soil is permanently frozen" },
-              { id: "d", text: "all nutrients are in the bedrock only" },
+              { id: "a", text: "rainforests receive no rainfall" },
+              { id: "b", text: "the soil is permanently frozen" },
+              { id: "c", text: "all nutrients are in the bedrock only" },
+              { id: "d", text: "nutrients are stored in living biomass while heavy rain leaches them from the soil" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -431,12 +431,12 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "the wind eroding, transporting and depositing sediment" },
-              { id: "b", text: "running water carving valleys" },
-              { id: "c", text: "glacial ice scraping bedrock" },
-              { id: "d", text: "volcanic lava flows" },
+              { id: "a", text: "volcanic lava flows" },
+              { id: "b", text: "glacial ice scraping bedrock" },
+              { id: "c", text: "running water carving valleys" },
+              { id: "d", text: "the wind eroding, transporting and depositing sediment" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -516,12 +516,12 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Modern scientific monitoring of ecosystems" },
-              { id: "b", text: "Indigenous understanding of environments built over generations" },
+              { id: "a", text: "Commercial fishing techniques" },
+              { id: "b", text: "Modern scientific monitoring of ecosystems" },
               { id: "c", text: "Satellite data on climate change" },
-              { id: "d", text: "Commercial fishing techniques" },
+              { id: "d", text: "Indigenous understanding of environments built over generations" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -617,8 +617,8 @@ export const lesson34: Lesson = {
             choices: [
               { id: "a", text: "The maximum number of visitors or resource use an environment can sustain without degradation" },
               { id: "b", text: "The total weight a helicopter can carry" },
-              { id: "c", text: "The number of tourists a hotel can sleep" },
-              { id: "d", text: "The maximum speed of a cruise ship" },
+              { id: "c", text: "The maximum speed of a cruise ship" },
+              { id: "d", text: "The number of tourists a hotel can sleep" },
             ],
             correctChoiceId: "a",
           },
@@ -670,12 +670,12 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "An international agreement designating Antarctica for peaceful, non-military scientific use and environmental protection" },
+              { id: "a", text: "A tourism marketing campaign" },
               { id: "b", text: "A commercial fishing quota scheme" },
               { id: "c", text: "A military defence pact" },
-              { id: "d", text: "A tourism marketing campaign" },
+              { id: "d", text: "An international agreement designating Antarctica for peaceful, non-military scientific use and environmental protection" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -725,12 +725,12 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "improved ecosystem health" },
-              { id: "b", text: "degradation of fragile ecosystems through erosion, waste and wildlife disturbance" },
-              { id: "c", text: "increased carrying capacity" },
-              { id: "d", text: "no change because environments are resilient" },
+              { id: "a", text: "increased carrying capacity" },
+              { id: "b", text: "no change because environments are resilient" },
+              { id: "c", text: "improved ecosystem health" },
+              { id: "d", text: "degradation of fragile ecosystems through erosion, waste and wildlife disturbance" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -778,12 +778,12 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "spills, environmental damage and disruption of indigenous cultures, alongside economic benefits" },
-              { id: "b", text: "immediate permanent benefit with no risks" },
-              { id: "c", text: "the complete elimination of all hazards" },
-              { id: "d", text: "nothing — extraction has no impacts" },
+              { id: "a", text: "the complete elimination of all hazards" },
+              { id: "b", text: "spills, environmental damage and disruption of indigenous cultures, alongside economic benefits" },
+              { id: "c", text: "nothing — extraction has no impacts" },
+              { id: "d", text: "immediate permanent benefit with no risks" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -893,10 +893,10 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "allow unlimited visitors to maximise income" },
+              { id: "a", text: "build the largest possible hotels" },
               { id: "b", text: "cap visitor numbers at carrying capacity and share revenue with local communities" },
               { id: "c", text: "ban all research and tourism permanently" },
-              { id: "d", text: "build the largest possible hotels" },
+              { id: "d", text: "allow unlimited visitors to maximise income" },
             ],
             correctChoiceId: "b",
           },

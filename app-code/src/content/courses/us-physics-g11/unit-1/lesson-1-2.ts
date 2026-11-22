@@ -50,12 +50,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Zero" },
-              { id: "b", text: "A forward force that keeps it moving" },
-              { id: "c", text: "Equal to the puck's weight" },
-              { id: "d", text: "Equal to its mass times $4\\ \\text{m/s}$" },
+              { id: "a", text: "A forward force that keeps it moving" },
+              { id: "b", text: "Equal to the puck's weight" },
+              { id: "c", text: "Equal to its mass times $4\\ \\text{m/s}$" },
+              { id: "d", text: "Zero" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -186,10 +186,10 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$5.0\\ \\text{N}$" },
+              { id: "a", text: "$49\\ \\text{kg}$" },
               { id: "b", text: "$0.51\\ \\text{N}$" },
               { id: "c", text: "$49\\ \\text{N}$" },
-              { id: "d", text: "$49\\ \\text{kg}$" },
+              { id: "d", text: "$5.0\\ \\text{N}$" },
             ],
             correctChoiceId: "c",
           },

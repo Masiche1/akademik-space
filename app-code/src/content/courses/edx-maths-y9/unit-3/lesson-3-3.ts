@@ -51,12 +51,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Three pairs of equal angles (AAA)" },
-              { id: "b", text: "Three pairs of equal sides (SSS)" },
-              { id: "c", text: "Two sides and the included angle (SAS)" },
-              { id: "d", text: "A right angle, hypotenuse and one side (RHS)" },
+              { id: "a", text: "Three pairs of equal sides (SSS)" },
+              { id: "b", text: "Three pairs of equal angles (AAA)" },
+              { id: "c", text: "A right angle, hypotenuse and one side (RHS)" },
+              { id: "d", text: "Two sides and the included angle (SAS)" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -192,12 +192,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "12 cm" },
+              { id: "a", text: "16 cm" },
               { id: "b", text: "14 cm" },
-              { id: "c", text: "15 cm" },
-              { id: "d", text: "16 cm" },
+              { id: "c", text: "12 cm" },
+              { id: "d", text: "15 cm" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [

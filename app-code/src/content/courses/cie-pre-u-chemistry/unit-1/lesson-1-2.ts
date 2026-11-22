@@ -218,6 +218,423 @@ export const lesson12: Lesson = {
             finalAnswer: "≈ −1640 kJ mol⁻¹",
           },
         },
+        {
+          id: "cipuc-u1-stoich-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Which expression gives the amount in moles, $n$, of a gas of volume $V$ dm³ measured at RTP?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$n = 24/V$" },
+              { id: "b", text: "$n = V/24$" },
+              { id: "c", text: "$n = 24V$" },
+              { id: "d", text: "$n = V - 24$" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "formula",
+                name: "Gas at RTP",
+                statement: "At RTP, $1$ mol of gas occupies $24$ dm³.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "$V = 24n$, so rearranging gives $n = V/24$.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "**(b)** $n = V/24$",
+          },
+        },
+        {
+          id: "cipuc-u1-stoich-q6",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Calculate the amount in moles of O₂ in 4.8 g. ($M_r(O_2)=32$)",
+          response: {
+            type: "numeric",
+            parts: [{ label: "Amount", answer: 0.15, unit: "mol" }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "formula",
+                name: "Moles from mass",
+                statement: "$n = m/M_r$",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "$n = 4.8/32 = 0.15$ mol.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "0.15 mol",
+          },
+        },
+        {
+          id: "cipuc-u1-stoich-q7",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "For 2H₂ + O₂ → 2H₂O, 4.0 mol of H₂ and 1.0 mol of O₂ are mixed. Which reactant is in excess?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Both are limiting" },
+              { id: "b", text: "H₂" },
+              { id: "c", text: "O₂" },
+              { id: "d", text: "Neither — the ratio is exact" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Limiting reagent",
+                statement:
+                  "Compare available moles with the balanced mole ratio; the reactant that remains is in excess.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "4.0 mol H₂ needs 2.0 mol O₂, but only 1.0 mol O₂ is present, so H₂ remains in excess.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "**(a)** H₂",
+          },
+        },
+        {
+          id: "cipuc-u1-stoich-q8",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "For CaCO₃ → CaO + CO₂, calculate (a) the mass of 0.25 mol CaCO₃ and (b) the volume of CO₂ produced at RTP. ($M_r(CaCO_3)=100$)",
+          response: {
+            type: "numeric",
+            parts: [
+              { label: "Mass of CaCO₃", answer: 25, unit: "g" },
+              { label: "Volume of CO₂", answer: 6, unit: "dm³" },
+            ],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "formula",
+                name: "Moles, mass and gas volume",
+                statement: "$m=nM_r$; at RTP $V=24n$ dm³.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "$m = 0.25 \\times 100 = 25$ g.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "$n(CO_2)=0.25$ mol, so $V=0.25 \\times 24 = 6$ dm³.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "25 g; 6 dm³",
+          },
+        },
+        {
+          id: "cipuc-u1-stoich-q9",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Which expression gives the percentage yield of a reaction?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "(actual mass + theoretical mass) × 100" },
+              { id: "b", text: "(theoretical mass − actual mass) × 100" },
+              { id: "c", text: "(theoretical mass ÷ actual mass) × 100" },
+              { id: "d", text: "(actual mass ÷ theoretical mass) × 100" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "formula",
+                name: "Percentage yield",
+                statement:
+                  "Percentage yield compares the actual product with the theoretical maximum.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "Percentage yield = actual yield / theoretical yield × 100%, so actual is divided by theoretical.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "**(a)** (actual mass ÷ theoretical mass) × 100",
+          },
+        },
+        {
+          id: "cipuc-u1-stoich-q10",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Which statement about the standard enthalpy change of combustion of methane is correct?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "It is zero because combustion is a physical change" },
+              { id: "b", text: "It is negative because energy is released to the surroundings" },
+              { id: "c", text: "It depends on the mass of methane burned" },
+              { id: "d", text: "It is positive because energy is absorbed from the surroundings" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Enthalpy of combustion",
+                statement:
+                  "Complete combustion of 1 mol in excess oxygen is exothermic, so ΔHc is negative.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "Combustion releases energy, so ΔH < 0 and the surroundings warm up.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "**(a)** It is negative because energy is released",
+          },
+        },
+        {
+          id: "cipuc-u1-stoich-q11",
+          difficulty: "challenge",
+          totalMarks: 3,
+          stem: "In a calorimetry experiment, 100 cm³ of water warms from 20.0 °C to 26.0 °C when 0.046 g of ethanol burns completely. Calculate ΔHc of ethanol in kJ mol⁻¹. (c = 4.18 J g⁻¹ °C⁻¹, $M_r$ ethanol = 46)",
+          response: {
+            type: "numeric",
+            parts: [{ label: "ΔHc", answer: -2508, unit: "kJ mol⁻¹" }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "formula",
+                name: "Calorimetry",
+                statement: "$q = mcΔT$; convert J to kJ before dividing by moles.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "$q = 100 \\times 4.18 \\times 6.0 = 2508$ J.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "$n(ethanol) = 0.046/46 = 0.0010$ mol.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "$ΔH = -2508/0.0010 = -2508$ kJ mol⁻¹; the negative sign shows energy released.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "-2508 kJ mol⁻¹",
+          },
+        },
+        {
+          id: "cipuc-u1-stoich-q12",
+          difficulty: "challenge",
+          totalMarks: 1,
+          stem: "In the equation ΔH = ΣΔHf(products) − ΣΔHf(reactants), why is ΔHf° of an element in its standard state defined as zero?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Elements always have positive enthalpies of formation" },
+              { id: "b", text: "Standard states are only used for gases" },
+              { id: "c", text: "Elements never participate in chemical reactions" },
+              { id: "d", text: "Elements in standard states are the reference level for formation enthalpies" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Standard enthalpy of formation",
+                statement:
+                  "ΔHf° is measured relative to the elements in their standard states, which are assigned zero.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "Formation enthalpies compare compounds with their constituent elements in standard states, so those elements provide the zero reference.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "**(a)** They are the reference level",
+          },
+        },
+        {
+          id: "cipuc-u1-stoich-q13",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "What is the standard state of bromine at 298 K?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Aqueous solution" },
+              { id: "b", text: "Solid" },
+              { id: "c", text: "Liquid" },
+              { id: "d", text: "Gas" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Standard state",
+                statement:
+                  "The most stable form of a substance at 298 K and 100 kPa; bromine is liquid under these conditions.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Bromine is a red-brown liquid at room temperature and pressure.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "**(b)** Liquid",
+          },
+        },
+        {
+          id: "cipuc-u1-stoich-q14",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "An ideal gas occupies 2.0 dm³ at 101 kPa and 298 K. Calculate n using $PV = nRT$ with $R = 8.31$ J K⁻¹ mol⁻¹.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "Amount", answer: 0.0816, unit: "mol" }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "formula",
+                name: "Ideal gas law",
+                statement: "$PV = nRT$; use $P$ in Pa and $V$ in m³.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "$P = 101000$ Pa and $V = 0.0020$ m³.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "$n = (101000 \\times 0.0020)/(8.31 \\times 298) = 0.0816$ mol.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "0.0816 mol",
+          },
+        },
+        {
+          id: "cipuc-u1-stoich-q15",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "For H₂ + Cl₂ → 2HCl, bond enthalpies are H–H = 436, Cl–Cl = 243 and H–Cl = 431 kJ mol⁻¹. Which calculation gives ΔH for the reaction?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "2 × 431 − 436 − 243" },
+              { id: "b", text: "436 + 243 − 2 × 431" },
+              { id: "c", text: "436 − 243 − 2 × 431" },
+              { id: "d", text: "436 + 243 + 2 × 431" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "formula",
+                name: "Bond enthalpy cycle",
+                statement:
+                  "ΔH ≈ Σ bonds broken − Σ bonds formed; two H–Cl bonds are formed.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "Break one H–H and one Cl–Cl, form two H–Cl: ΔH = 436 + 243 − 2(431).",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "**(a)** 436 + 243 − 2 × 431",
+          },
+        },
+        {
+          id: "cipuc-u1-stoich-q16",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "Use the data below to calculate ΔH for CH₄(g) + 2O₂(g) → CO₂(g) + 2H₂O(l). ΔHf° values: CH₄(g) = −74.8, CO₂(g) = −393.5, H₂O(l) = −285.8 kJ mol⁻¹.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "formula",
+                name: "Enthalpy from formation",
+                statement:
+                  "$\\Delta H = \\sum \\Delta H_f^\\circ(\\text{products}) - \\sum \\Delta H_f^\\circ(\\text{reactants})$; elements in standard states have $\\Delta H_f^\\circ = 0$.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "O₂(g) is an element in its standard state, so its ΔHf° contribution is zero.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "ΣΔHf°(products) = −393.5 + 2(−285.8) = −965.1 kJ mol⁻¹.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "ΣΔHf°(reactants) = −74.8 + 0 = −74.8 kJ mol⁻¹.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "ΔH = −965.1 − (−74.8) = −890.3 kJ mol⁻¹, so combustion of methane is exothermic.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "−890.3 kJ mol⁻¹",
+          },
+        },
       ],
     },
   ],

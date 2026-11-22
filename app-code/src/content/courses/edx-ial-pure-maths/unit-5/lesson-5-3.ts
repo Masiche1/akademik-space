@@ -49,12 +49,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "That $P(k)$ true implies $P(k+1)$ true" },
+              { id: "a", text: "That $P(n)$ is true for all $n$" },
               { id: "b", text: "That $P(1)$ is true" },
-              { id: "c", text: "That $P(n)$ is true for all $n$" },
+              { id: "c", text: "That $P(k)$ true implies $P(k+1)$ true" },
               { id: "d", text: "That the formula converges" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Inductive step", statement: "Prove $P(k)\\Rightarrow P(k+1)$." }],
@@ -166,9 +166,9 @@ export const lesson53: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$n=4$" },
-              { id: "b", text: "$n=1$" },
-              { id: "c", text: "$n=2$" },
-              { id: "d", text: "$n=3$" },
+              { id: "b", text: "$n=2$" },
+              { id: "c", text: "$n=3$" },
+              { id: "d", text: "$n=1$" },
             ],
             correctChoiceId: "a",
           },

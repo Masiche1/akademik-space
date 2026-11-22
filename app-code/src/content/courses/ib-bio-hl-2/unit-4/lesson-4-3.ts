@@ -89,12 +89,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$0.16$" },
-              { id: "b", text: "$0.40$" },
-              { id: "c", text: "$0.60$" },
-              { id: "d", text: "$0.84$" },
+              { id: "a", text: "$0.84$" },
+              { id: "b", text: "$0.16$" },
+              { id: "c", text: "$0.40$" },
+              { id: "d", text: "$0.60$" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -137,13 +137,13 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The population is very large" },
-              { id: "b", text: "Mating occurs at random" },
+              { id: "a", text: "The mutation rate is negligible" },
+              { id: "b", text: "The population is very large" },
               {
                 id: "c",
                 text: "Individuals migrate between populations each generation",
               },
-              { id: "d", text: "The mutation rate is negligible" },
+              { id: "d", text: "Mating occurs at random" },
             ],
             correctChoiceId: "c",
           },
@@ -197,11 +197,11 @@ export const lesson43: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$0.16$" },
-              { id: "b", text: "$0.24$" },
-              { id: "c", text: "$0.48$" },
+              { id: "b", text: "$0.48$" },
+              { id: "c", text: "$0.24$" },
               { id: "d", text: "$0.36$" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -371,12 +371,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$pq$" },
-              { id: "b", text: "$2pq$" },
-              { id: "c", text: "$p^2 + q^2$" },
-              { id: "d", text: "$2p + 2q$" },
+              { id: "a", text: "$p^2 + q^2$" },
+              { id: "b", text: "$pq$" },
+              { id: "c", text: "$2p + 2q$" },
+              { id: "d", text: "$2pq$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -419,12 +419,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The frequency of the recessive allele" },
-              { id: "b", text: "The frequency of recessive homozygotes" },
-              { id: "c", text: "The frequency of heterozygotes" },
-              { id: "d", text: "The frequency of the dominant allele" },
+              { id: "a", text: "The frequency of heterozygotes" },
+              { id: "b", text: "The frequency of the recessive allele" },
+              { id: "c", text: "The frequency of the dominant allele" },
+              { id: "d", text: "The frequency of recessive homozygotes" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -468,12 +468,12 @@ export const lesson43: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Heterozygote advantage increasing $2pq$" },
-              { id: "b", text: "Random mating with a very large population" },
+              { id: "b", text: "Gene flow making the population larger" },
               {
                 id: "c",
                 text: "Inbreeding or non-random mating reducing heterozygote frequency",
               },
-              { id: "d", text: "Gene flow making the population larger" },
+              { id: "d", text: "Random mating with a very large population" },
             ],
             correctChoiceId: "c",
           },
@@ -680,16 +680,16 @@ export const lesson43: Lesson = {
             choices: [
               {
                 id: "a",
-                text: "Carriers have two copies of the recessive allele",
+                text: "Heterozygotes have frequency $2pq$, which is much greater than $q^2$ when $q$ is small",
               },
               {
                 id: "b",
-                text: "Heterozygotes have frequency $2pq$, which is much greater than $q^2$ when $q$ is small",
+                text: "Carriers have two copies of the recessive allele",
               },
-              { id: "c", text: "Affected individuals do not reproduce" },
-              { id: "d", text: "Mutation only creates heterozygotes" },
+              { id: "c", text: "Mutation only creates heterozygotes" },
+              { id: "d", text: "Affected individuals do not reproduce" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -1154,11 +1154,11 @@ export const lesson43: Lesson = {
             choices: [
               {
                 id: "a",
-                text: "A population of 10 million with random mating",
+                text: "A captive population of 500 with managed breeding",
               },
               {
                 id: "b",
-                text: "A population of 50 individuals on an isolated island",
+                text: "A population of 10 million with random mating",
               },
               {
                 id: "c",
@@ -1166,10 +1166,10 @@ export const lesson43: Lesson = {
               },
               {
                 id: "d",
-                text: "A captive population of 500 with managed breeding",
+                text: "A population of 50 individuals on an isolated island",
               },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1213,12 +1213,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The founder effect" },
-              { id: "b", text: "The bottleneck effect" },
+              { id: "a", text: "Gene flow" },
+              { id: "b", text: "The founder effect" },
               { id: "c", text: "Directional selection" },
-              { id: "d", text: "Gene flow" },
+              { id: "d", text: "The bottleneck effect" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1270,22 +1270,22 @@ export const lesson43: Lesson = {
             choices: [
               {
                 id: "a",
-                text: "The populations will diverge faster because migration adds mutations",
+                text: "Drift will eliminate all differences immediately",
               },
               {
                 id: "b",
-                text: "Gene flow will gradually make the allele frequencies more similar between the islands",
+                text: "The populations will diverge faster because migration adds mutations",
               },
               {
                 id: "c",
-                text: "Drift will eliminate all differences immediately",
+                text: "Gene flow will gradually make the allele frequencies more similar between the islands",
               },
               {
                 id: "d",
                 text: "The islands will instantly become separate species",
               },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1461,7 +1461,7 @@ export const lesson43: Lesson = {
             choices: [
               {
                 id: "a",
-                text: "A large population crashes to a few individuals and then recovers",
+                text: "Individuals migrate between two large populations each generation",
               },
               {
                 id: "b",
@@ -1469,7 +1469,7 @@ export const lesson43: Lesson = {
               },
               {
                 id: "c",
-                text: "Individuals migrate between two large populations each generation",
+                text: "A large population crashes to a few individuals and then recovers",
               },
               {
                 id: "d",
@@ -1520,19 +1520,19 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              {
-                id: "a",
-                text: "Increase genetic differences between populations",
-              },
+              { id: "a", text: "Have no effect on allele frequencies" },
               {
                 id: "b",
                 text: "Make allele frequencies in different populations more similar",
               },
               {
                 id: "c",
+                text: "Increase genetic differences between populations",
+              },
+              {
+                id: "d",
                 text: "Always increase genetic diversity within each population",
               },
-              { id: "d", text: "Have no effect on allele frequencies" },
             ],
             correctChoiceId: "b",
           },
@@ -1578,12 +1578,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Directional selection against diversity" },
+              { id: "a", text: "Gene flow removing alleles" },
               {
                 id: "b",
                 text: "Genetic drift — random allele-frequency changes are strong in small populations",
               },
-              { id: "c", text: "Gene flow removing alleles" },
+              { id: "c", text: "Directional selection against diversity" },
               { id: "d", text: "Mutation rates increasing on islands" },
             ],
             correctChoiceId: "b",
@@ -1798,19 +1798,19 @@ export const lesson43: Lesson = {
             choices: [
               {
                 id: "a",
-                text: "Allele frequencies change but genotype frequencies stay the same",
+                text: "Both allele and genotype frequencies are unaffected",
               },
               {
                 id: "b",
-                text: "Genotype frequencies change — typically fewer heterozygotes — while allele frequencies may be unchanged",
+                text: "Allele frequencies change but genotype frequencies stay the same",
               },
               {
                 id: "c",
-                text: "Both allele and genotype frequencies are unaffected",
+                text: "Genotype frequencies change — typically fewer heterozygotes — while allele frequencies may be unchanged",
               },
               { id: "d", text: "Only heterozygote frequency increases" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

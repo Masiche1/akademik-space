@@ -48,12 +48,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$-2$" },
-              { id: "b", text: "$-\\frac{1}{2}$" },
-              { id: "c", text: "$2$" },
+              { id: "a", text: "$2$" },
+              { id: "b", text: "$-2$" },
+              { id: "c", text: "$-\\frac{1}{2}$" },
               { id: "d", text: "$8$" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -173,12 +173,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The adjacent sides are parallel." },
-              { id: "b", text: "The adjacent sides are perpendicular." },
-              { id: "c", text: "All four sides have equal length." },
+              { id: "a", text: "All four sides have equal length." },
+              { id: "b", text: "The adjacent sides are parallel." },
+              { id: "c", text: "The adjacent sides are perpendicular." },
               { id: "d", text: "The quadrilateral has two pairs of equal sides." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

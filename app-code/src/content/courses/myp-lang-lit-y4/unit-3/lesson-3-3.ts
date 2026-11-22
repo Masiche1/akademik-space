@@ -55,8 +55,8 @@ export const lesson33: Lesson = {
             choices: [
               { id: "a", text: "Subject and verb must match in number" },
               { id: "b", text: "Subject and verb must rhyme" },
-              { id: "c", text: "Subject and verb must be long" },
-              { id: "d", text: "Subject and verb must be capitalized" },
+              { id: "c", text: "Subject and verb must be capitalized" },
+              { id: "d", text: "Subject and verb must be long" },
             ],
             correctChoiceId: "a",
           },
@@ -135,11 +135,11 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "They are all the same" },
-              { id: "b", text: "'their' = possession, 'there' = place, 'they're' = they are" },
-              { id: "c", text: "'their' = they are, 'there' = possession" },
-              { id: "d", text: "Only spelling differs" },
+              { id: "b", text: "'their' = they are, 'there' = possession" },
+              { id: "c", text: "Only spelling differs" },
+              { id: "d", text: "'their' = possession, 'there' = place, 'they're' = they are" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Common errors", statement: "their = possession; there = place; they're = they are." }],
@@ -173,11 +173,11 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Only plural nouns" },
-              { id: "b", text: "Possession or contraction" },
-              { id: "c", text: "End of a sentence" },
-              { id: "d", text: "Emphasis" },
+              { id: "b", text: "Emphasis" },
+              { id: "c", text: "Possession or contraction" },
+              { id: "d", text: "End of a sentence" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Apostrophe", statement: "Shows possession or contraction." }],
@@ -217,12 +217,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The dog wagged it's tail" },
-              { id: "b", text: "The dog wagged its tail" },
-              { id: "c", text: "The dogs wagged it's tail" },
-              { id: "d", text: "The dog wagged its' tail" },
+              { id: "a", text: "The dogs wagged it's tail" },
+              { id: "b", text: "The dog wagged it's tail" },
+              { id: "c", text: "The dog wagged its' tail" },
+              { id: "d", text: "The dog wagged its tail" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "its/it's", statement: "'its' = possession (no apostrophe); 'it's' = it is." }],
@@ -291,10 +291,10 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Sentences of the same length" },
+              { id: "a", text: "Repeated sentences" },
               { id: "b", text: "Using the same grammatical form for items in a list" },
               { id: "c", text: "Rhyming words" },
-              { id: "d", text: "Repeated sentences" },
+              { id: "d", text: "Sentences of the same length" },
             ],
             correctChoiceId: "b",
           },
@@ -334,10 +334,10 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Full stop" },
+              { id: "a", text: "Question mark" },
               { id: "b", text: "Colon" },
               { id: "c", text: "Comma" },
-              { id: "d", text: "Question mark" },
+              { id: "d", text: "Full stop" },
             ],
             correctChoiceId: "b",
           },
@@ -438,12 +438,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "One short sentence" },
-              { id: "b", text: "Two independent clauses joined" },
-              { id: "c", text: "A question" },
-              { id: "d", text: "A very long sentence" },
+              { id: "a", text: "A very long sentence" },
+              { id: "b", text: "One short sentence" },
+              { id: "c", text: "Two independent clauses joined" },
+              { id: "d", text: "A question" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Compound sentence", statement: "Two independent clauses joined by conjunction." }],
@@ -524,12 +524,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Two clauses joined" },
-              { id: "b", text: "One independent clause — one complete thought" },
+              { id: "a", text: "One independent clause — one complete thought" },
+              { id: "b", text: "Two clauses joined" },
               { id: "c", text: "A question" },
               { id: "d", text: "A very long sentence" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Simple sentence", statement: "One independent clause — one complete thought." }],
@@ -567,12 +567,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Two independent clauses" },
-              { id: "b", text: "One independent clause plus one dependent clause" },
-              { id: "c", text: "A very short sentence" },
-              { id: "d", text: "A question" },
+              { id: "a", text: "A very short sentence" },
+              { id: "b", text: "A question" },
+              { id: "c", text: "Two independent clauses" },
+              { id: "d", text: "One independent clause plus one dependent clause" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Complex sentence", statement: "One independent + one dependent clause." }],
@@ -612,12 +612,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "She ran." },
-              { id: "b", text: "She ran, and he followed." },
-              { id: "c", text: "Although she ran..." },
-              { id: "d", text: "Running fast..." },
+              { id: "a", text: "Running fast..." },
+              { id: "b", text: "Although she ran..." },
+              { id: "c", text: "She ran, and he followed." },
+              { id: "d", text: "She ran." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Compound sentence", statement: "Two independent clauses joined." }],
@@ -687,10 +687,10 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It makes writing longer" },
+              { id: "a", text: "It impresses teachers" },
               { id: "b", text: "It creates rhythm, emphasis and keeps the reader engaged" },
-              { id: "c", text: "It uses more words" },
-              { id: "d", text: "It impresses teachers" },
+              { id: "c", text: "It makes writing longer" },
+              { id: "d", text: "It uses more words" },
             ],
             correctChoiceId: "b",
           },
@@ -715,12 +715,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Passage A — repetition is clearer" },
-              { id: "b", text: "Passage B — combined structure and vivid verbs" },
-              { id: "c", text: "Both are equally effective" },
-              { id: "d", text: "Neither uses variety" },
+              { id: "a", text: "Neither uses variety" },
+              { id: "b", text: "Passage A — repetition is clearer" },
+              { id: "c", text: "Passage B — combined structure and vivid verbs" },
+              { id: "d", text: "Both are equally effective" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Sentence variety", statement: "Combined structure + specific verbs = vivid writing." }],
@@ -739,12 +739,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Confusion" },
-              { id: "b", text: "Urgency, tension, directness" },
-              { id: "c", text: "Boredom" },
+              { id: "a", text: "Urgency, tension, directness" },
+              { id: "b", text: "Boredom" },
+              { id: "c", text: "Confusion" },
               { id: "d", text: "Length" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Sentence length", statement: "Short sentences create urgency and emphasis." }],

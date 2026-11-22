@@ -50,12 +50,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Nuclear fission" },
-              { id: "b", text: "Nuclear fusion" },
+              { id: "a", text: "Nuclear fusion" },
+              { id: "b", text: "Nuclear fission" },
               { id: "c", text: "Alpha decay" },
               { id: "d", text: "Beta decay" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -184,11 +184,11 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Contamination" },
-              { id: "b", text: "Irradiation" },
-              { id: "c", text: "Nuclear fission" },
+              { id: "b", text: "Nuclear fission" },
+              { id: "c", text: "Irradiation" },
               { id: "d", text: "Background radiation" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

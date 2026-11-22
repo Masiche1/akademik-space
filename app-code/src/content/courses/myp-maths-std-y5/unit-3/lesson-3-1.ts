@@ -56,12 +56,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "40°" },
-              { id: "b", text: "80°" },
+              { id: "a", text: "20°" },
+              { id: "b", text: "40°" },
               { id: "c", text: "160°" },
-              { id: "d", text: "20°" },
+              { id: "d", text: "80°" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -83,12 +83,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$(2,1)$" },
-              { id: "b", text: "$(4,1)$" },
-              { id: "c", text: "$(2,-1)$" },
-              { id: "d", text: "$(4,3)$" },
+              { id: "a", text: "$(2,-1)$" },
+              { id: "b", text: "$(4,3)$" },
+              { id: "c", text: "$(2,1)$" },
+              { id: "d", text: "$(4,1)$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -111,12 +111,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "220°" },
-              { id: "b", text: "55°" },
+              { id: "a", text: "70°" },
+              { id: "b", text: "220°" },
               { id: "c", text: "110°" },
-              { id: "d", text: "70°" },
+              { id: "d", text: "55°" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -171,12 +171,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "90°" },
+              { id: "a", text: "180°" },
               { id: "b", text: "45°" },
-              { id: "c", text: "60°" },
-              { id: "d", text: "180°" },
+              { id: "c", text: "90°" },
+              { id: "d", text: "60°" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "theorem", name: "Angle in semicircle", statement: "The angle subtended by a diameter is 90°." }],
@@ -205,8 +205,8 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$(2,5)$" },
-              { id: "b", text: "$(3,5)$" },
-              { id: "c", text: "$(2,10)$" },
+              { id: "b", text: "$(2,10)$" },
+              { id: "c", text: "$(3,5)$" },
               { id: "d", text: "$(6,10)$" },
             ],
             correctChoiceId: "a",
@@ -259,9 +259,9 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "They are perpendicular" },
-              { id: "b", text: "They are parallel" },
+              { id: "b", text: "No fixed relationship" },
               { id: "c", text: "They make 45°" },
-              { id: "d", text: "No fixed relationship" },
+              { id: "d", text: "They are parallel" },
             ],
             correctChoiceId: "a",
           },
@@ -334,12 +334,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "105°" },
+              { id: "a", text: "90°" },
               { id: "b", text: "75°" },
-              { id: "c", text: "90°" },
-              { id: "d", text: "15°" },
+              { id: "c", text: "15°" },
+              { id: "d", text: "105°" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "theorem", name: "Cyclic quadrilateral", statement: "Opposite angles sum to 180°." }],
@@ -421,12 +421,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Yes, $5^2+12^2=13^2$" },
+              { id: "a", text: "Cannot determine" },
               { id: "b", text: "No" },
-              { id: "c", text: "Yes, but only if angle is 60°" },
-              { id: "d", text: "Cannot determine" },
+              { id: "c", text: "Yes, $5^2+12^2=13^2$" },
+              { id: "d", text: "Yes, but only if angle is 60°" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -448,12 +448,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "12" },
-              { id: "b", text: "24" },
-              { id: "c", text: "48" },
-              { id: "d", text: "6" },
+              { id: "a", text: "48" },
+              { id: "b", text: "6" },
+              { id: "c", text: "12" },
+              { id: "d", text: "24" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -476,12 +476,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$37.8°$ only" },
-              { id: "b", text: "$37.8°$ or $142.2°$" },
-              { id: "c", text: "$142.2°$ only" },
-              { id: "d", text: "$52.2°$" },
+              { id: "a", text: "$37.8°$ or $142.2°$" },
+              { id: "b", text: "$37.8°$ only" },
+              { id: "c", text: "$52.2°$" },
+              { id: "d", text: "$142.2°$ only" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -535,12 +535,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\frac12$" },
-              { id: "b", text: "$\\frac{\\sqrt3}{2}$" },
-              { id: "c", text: "$\\frac{\\sqrt2}{2}$" },
-              { id: "d", text: "$1$" },
+              { id: "a", text: "$1$" },
+              { id: "b", text: "$\\frac{\\sqrt2}{2}$" },
+              { id: "c", text: "$\\frac{\\sqrt3}{2}$" },
+              { id: "d", text: "$\\frac12$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Special angle", statement: "$\\sin30°=\\frac12$." }],
@@ -568,12 +568,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Two sides and a non-included angle (SSA)" },
+              { id: "a", text: "Right-angled triangles only" },
               { id: "b", text: "Two sides and the included angle only" },
-              { id: "c", text: "Three sides only" },
-              { id: "d", text: "Right-angled triangles only" },
+              { id: "c", text: "Two sides and a non-included angle (SSA)" },
+              { id: "d", text: "Three sides only" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "theorem", name: "Sine rule", statement: "Useful for AAS or SSA information." }],
@@ -622,12 +622,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "0°" },
-              { id: "b", text: "90°" },
-              { id: "c", text: "180°" },
-              { id: "d", text: "360°" },
+              { id: "a", text: "180°" },
+              { id: "b", text: "0°" },
+              { id: "c", text: "360°" },
+              { id: "d", text: "90°" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Bearing", statement: "Bearings are measured clockwise from north; north is 0°." }],
@@ -696,12 +696,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\frac{a}{\\sin A}=\\frac{b}{\\sin B}=\\frac{c}{\\sin C}$" },
-              { id: "b", text: "$a^2=b^2+c^2-2bc\\cos A$" },
+              { id: "a", text: "$a^2=b^2+c^2-2bc\\cos A$" },
+              { id: "b", text: "$a+b=c$" },
               { id: "c", text: "$\\frac12ab\\sin C$" },
-              { id: "d", text: "$a+b=c$" },
+              { id: "d", text: "$\\frac{a}{\\sin A}=\\frac{b}{\\sin B}=\\frac{c}{\\sin C}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "theorem", name: "Sine rule", statement: "Sides are proportional to sines of opposite angles." }],
@@ -783,12 +783,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "8" },
-              { id: "b", text: "7" },
+              { id: "a", text: "7" },
+              { id: "b", text: "8" },
               { id: "c", text: "10" },
               { id: "d", text: "12" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -810,12 +810,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\frac{2}{3}$" },
-              { id: "b", text: "$\\frac{4}{15}$" },
+              { id: "a", text: "$\\frac{4}{15}$" },
+              { id: "b", text: "$\\frac{10}{9}$" },
               { id: "c", text: "$\\frac{2}{5}$" },
-              { id: "d", text: "$\\frac{10}{9}$" },
+              { id: "d", text: "$\\frac{2}{3}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -838,12 +838,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\frac{3}{4}$" },
-              { id: "b", text: "$\\frac{1}{2}$" },
+              { id: "a", text: "$\\frac{1}{2}$" },
+              { id: "b", text: "$\\frac{3}{4}$" },
               { id: "c", text: "$\\frac{1}{4}$" },
               { id: "d", text: "$\\frac{5}{8}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -899,9 +899,9 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "4" },
-              { id: "b", text: "3" },
+              { id: "b", text: "12" },
               { id: "c", text: "6" },
-              { id: "d", text: "12" },
+              { id: "d", text: "3" },
             ],
             correctChoiceId: "a",
           },
@@ -932,9 +932,9 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "11" },
-              { id: "b", text: "10" },
+              { id: "b", text: "8.75" },
               { id: "c", text: "35" },
-              { id: "d", text: "8.75" },
+              { id: "d", text: "10" },
             ],
             correctChoiceId: "a",
           },
@@ -985,12 +985,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$Q_3-Q_1$" },
-              { id: "b", text: "$Q_3+Q_1$" },
-              { id: "c", text: "Max minus min" },
-              { id: "d", text: "Mean minus median" },
+              { id: "a", text: "$Q_3+Q_1$" },
+              { id: "b", text: "$Q_3-Q_1$" },
+              { id: "c", text: "Mean minus median" },
+              { id: "d", text: "Max minus min" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "IQR", statement: "IQR is the difference between upper and lower quartiles." }],
@@ -1062,12 +1062,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Positive correlation" },
-              { id: "b", text: "Negative correlation" },
-              { id: "c", text: "No correlation" },
-              { id: "d", text: "Causation is proven" },
+              { id: "a", text: "Negative correlation" },
+              { id: "b", text: "Causation is proven" },
+              { id: "c", text: "Positive correlation" },
+              { id: "d", text: "No correlation" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Correlation", statement: "Rising trend indicates positive correlation." }],

@@ -48,12 +48,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$9$" },
+              { id: "a", text: "$17$" },
               { id: "b", text: "$1$" },
-              { id: "c", text: "$5$" },
-              { id: "d", text: "$17$" },
+              { id: "c", text: "$9$" },
+              { id: "d", text: "$5$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -151,12 +151,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$-25$" },
-              { id: "b", text: "$25$" },
-              { id: "c", text: "$-17$" },
-              { id: "d", text: "$5$" },
+              { id: "a", text: "$-17$" },
+              { id: "b", text: "$5$" },
+              { id: "c", text: "$-25$" },
+              { id: "d", text: "$25$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -179,12 +179,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$(x-1)$" },
-              { id: "b", text: "$(x+1)$" },
-              { id: "c", text: "$(x-2)$" },
-              { id: "d", text: "$(x+3)$" },
+              { id: "a", text: "$(x+1)$" },
+              { id: "b", text: "$(x-2)$" },
+              { id: "c", text: "$(x+3)$" },
+              { id: "d", text: "$(x-1)$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -207,12 +207,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$p\\left(\\frac{3}{2}\\right)$" },
+              { id: "a", text: "$p\\left(\\frac{2}{3}\\right)$" },
               { id: "b", text: "$p\\left(-\\frac{3}{2}\\right)$" },
-              { id: "c", text: "$p(3)$" },
-              { id: "d", text: "$p\\left(\\frac{2}{3}\\right)$" },
+              { id: "c", text: "$p\\left(\\frac{3}{2}\\right)$" },
+              { id: "d", text: "$p(3)$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -236,9 +236,9 @@ export const lesson21: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$x^2-x-2$" },
-              { id: "b", text: "$x^2+x-2$" },
-              { id: "c", text: "$x^2-2x-1$" },
-              { id: "d", text: "$x^2-x+2$" },
+              { id: "b", text: "$x^2-x+2$" },
+              { id: "c", text: "$x^2+x-2$" },
+              { id: "d", text: "$x^2-2x-1$" },
             ],
             correctChoiceId: "a",
           },
@@ -264,9 +264,9 @@ export const lesson21: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$(x-4)$ is a factor of $p(x)$" },
-              { id: "b", text: "$(x+4)$ is a factor of $p(x)$" },
-              { id: "c", text: "The remainder on division by $(x-4)$ is $4$" },
-              { id: "d", text: "$p(x)$ has no real roots" },
+              { id: "b", text: "$p(x)$ has no real roots" },
+              { id: "c", text: "$(x+4)$ is a factor of $p(x)$" },
+              { id: "d", text: "The remainder on division by $(x-4)$ is $4$" },
             ],
             correctChoiceId: "a",
           },
@@ -292,9 +292,9 @@ export const lesson21: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$-2$" },
-              { id: "b", text: "$2$" },
-              { id: "c", text: "$-4$" },
-              { id: "d", text: "$8$" },
+              { id: "b", text: "$8$" },
+              { id: "c", text: "$2$" },
+              { id: "d", text: "$-4$" },
             ],
             correctChoiceId: "a",
           },
@@ -487,12 +487,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$3$" },
-              { id: "b", text: "$-3$" },
-              { id: "c", text: "$6$" },
-              { id: "d", text: "$2$" },
+              { id: "a", text: "$2$" },
+              { id: "b", text: "$6$" },
+              { id: "c", text: "$3$" },
+              { id: "d", text: "$-3$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -595,12 +595,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$2$" },
-              { id: "b", text: "$-2$" },
-              { id: "c", text: "$6$" },
-              { id: "d", text: "$-6$" },
+              { id: "a", text: "$6$" },
+              { id: "b", text: "$-6$" },
+              { id: "c", text: "$-2$" },
+              { id: "d", text: "$2$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -623,12 +623,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$-9$" },
-              { id: "b", text: "$9$" },
-              { id: "c", text: "$-4$" },
-              { id: "d", text: "$4$" },
+              { id: "a", text: "$-4$" },
+              { id: "b", text: "$4$" },
+              { id: "c", text: "$-9$" },
+              { id: "d", text: "$9$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -651,12 +651,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$-7$" },
-              { id: "b", text: "$7$" },
-              { id: "c", text: "$2$" },
-              { id: "d", text: "$-2$" },
+              { id: "a", text: "$-2$" },
+              { id: "b", text: "$2$" },
+              { id: "c", text: "$7$" },
+              { id: "d", text: "$-7$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -679,12 +679,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$3$" },
-              { id: "b", text: "$-3$" },
-              { id: "c", text: "$-5$" },
-              { id: "d", text: "$5$" },
+              { id: "a", text: "$-5$" },
+              { id: "b", text: "$5$" },
+              { id: "c", text: "$3$" },
+              { id: "d", text: "$-3$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -708,9 +708,9 @@ export const lesson21: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$x^3-6x^2+11x-6$" },
-              { id: "b", text: "$x^3+6x^2+11x+6$" },
-              { id: "c", text: "$x^3-6x^2-11x-6$" },
-              { id: "d", text: "$x^3-11x^2+6x-1$" },
+              { id: "b", text: "$x^3-6x^2-11x-6$" },
+              { id: "c", text: "$x^3-11x^2+6x-1$" },
+              { id: "d", text: "$x^3+6x^2+11x+6$" },
             ],
             correctChoiceId: "a",
           },
@@ -735,12 +735,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$(1,0)$" },
-              { id: "b", text: "$(-2,0)$" },
-              { id: "c", text: "It crosses the axis at both $(1,0)$ and $(-2,0)$" },
-              { id: "d", text: "It does not touch the $x$-axis" },
+              { id: "a", text: "$(-2,0)$" },
+              { id: "b", text: "It does not touch the $x$-axis" },
+              { id: "c", text: "$(1,0)$" },
+              { id: "d", text: "It crosses the axis at both $(1,0)$ and $(-2,0)$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

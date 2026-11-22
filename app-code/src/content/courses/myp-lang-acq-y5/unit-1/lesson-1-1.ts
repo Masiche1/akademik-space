@@ -57,11 +57,11 @@ export const lesson11: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "To introduce a personal anecdote" },
-              { id: "b", text: "To signal an important point or the structure of the talk" },
-              { id: "c", text: "To ask the audience a rhetorical question" },
-              { id: "d", text: "To end the lecture politely" },
+              { id: "b", text: "To end the lecture politely" },
+              { id: "c", text: "To signal an important point or the structure of the talk" },
+              { id: "d", text: "To ask the audience a rhetorical question" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -173,12 +173,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It is certain that..." },
-              { id: "b", text: "The evidence suggests a possible link..." },
-              { id: "c", text: "There is no doubt that..." },
-              { id: "d", text: "Everyone agrees that..." },
+              { id: "a", text: "The evidence suggests a possible link..." },
+              { id: "b", text: "Everyone agrees that..." },
+              { id: "c", text: "It is certain that..." },
+              { id: "d", text: "There is no doubt that..." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -200,12 +200,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It ends the talk politely" },
-              { id: "b", text: "It signals that a new issue or question will be developed" },
+              { id: "a", text: "It summarises the evidence so far" },
+              { id: "b", text: "It ends the talk politely" },
               { id: "c", text: "It introduces a personal anecdote" },
-              { id: "d", text: "It summarises the evidence so far" },
+              { id: "d", text: "It signals that a new issue or question will be developed" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -234,11 +234,11 @@ export const lesson11: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "The word 'claims'" },
-              { id: "b", text: "Test data from forty schools" },
+              { id: "b", text: "The phrase 'reading scores'" },
               { id: "c", text: "The interviewer's question" },
-              { id: "d", text: "The phrase 'reading scores'" },
+              { id: "d", text: "Test data from forty schools" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -319,10 +319,10 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The policy has clearly succeeded" },
+              { id: "a", text: "Achievement data are irrelevant to the debate" },
               { id: "b", text: "Enrolment alone is insufficient evidence; success is uncertain" },
               { id: "c", text: "The policy should be cancelled immediately" },
-              { id: "d", text: "Achievement data are irrelevant to the debate" },
+              { id: "d", text: "The policy has clearly succeeded" },
             ],
             correctChoiceId: "b",
           },
@@ -431,12 +431,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "For example" },
-              { id: "b", text: "Having considered the first argument, we now turn to a different view" },
-              { id: "c", text: "In conclusion" },
-              { id: "d", text: "To summarise" },
+              { id: "a", text: "To summarise" },
+              { id: "b", text: "In conclusion" },
+              { id: "c", text: "For example" },
+              { id: "d", text: "Having considered the first argument, we now turn to a different view" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -502,11 +502,11 @@ export const lesson11: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "To emphasise how strong the results were" },
-              { id: "b", text: "To show uncertainty because the follow-up period was short" },
+              { id: "b", text: "To announce that the trial had failed" },
               { id: "c", text: "To criticise the research team personally" },
-              { id: "d", text: "To announce that the trial had failed" },
+              { id: "d", text: "To show uncertainty because the follow-up period was short" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -560,11 +560,11 @@ export const lesson11: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "A fact repeated several times" },
-              { id: "b", text: "An idea suggested indirectly rather than stated explicitly" },
-              { id: "c", text: "A quotation from another author" },
-              { id: "d", text: "A formal definition" },
+              { id: "b", text: "A formal definition" },
+              { id: "c", text: "An idea suggested indirectly rather than stated explicitly" },
+              { id: "d", text: "A quotation from another author" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -677,11 +677,11 @@ export const lesson11: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "A complaint about the product" },
-              { id: "b", text: "A concession before a contrasting positive point" },
-              { id: "c", text: "Complete agreement with the listener" },
+              { id: "b", text: "Complete agreement with the listener" },
+              { id: "c", text: "A concession before a contrasting positive point" },
               { id: "d", text: "A factual definition" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -703,10 +703,10 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Neutral description" },
+              { id: "a", text: "A direct quotation" },
               { id: "b", text: "The writer's judgement or doubt" },
-              { id: "c", text: "A direct quotation" },
-              { id: "d", text: "A statistical finding" },
+              { id: "c", text: "A statistical finding" },
+              { id: "d", text: "Neutral description" },
             ],
             correctChoiceId: "b",
           },
@@ -736,12 +736,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Enthusiastic support" },
-              { id: "b", text: "Sceptical doubt about its effectiveness" },
-              { id: "c", text: "Complete indifference" },
-              { id: "d", text: "Confusion about the topic" },
+              { id: "a", text: "Sceptical doubt about its effectiveness" },
+              { id: "b", text: "Enthusiastic support" },
+              { id: "c", text: "Confusion about the topic" },
+              { id: "d", text: "Complete indifference" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -822,12 +822,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "To inform neutrally about a study" },
-              { id: "b", text: "To persuade readers that schools should prioritise reading" },
-              { id: "c", text: "To analyse competing explanations" },
+              { id: "a", text: "To persuade readers that schools should prioritise reading" },
+              { id: "b", text: "To analyse competing explanations" },
+              { id: "c", text: "To inform neutrally about a study" },
               { id: "d", text: "To describe a personal experience" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -935,11 +935,11 @@ export const lesson11: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "It is clear that" },
-              { id: "b", text: "The evidence remains contested" },
+              { id: "b", text: "Undoubtedly" },
               { id: "c", text: "Everyone knows that" },
-              { id: "d", text: "Undoubtedly" },
+              { id: "d", text: "The evidence remains contested" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1004,10 +1004,10 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Genuine praise for the committee" },
+              { id: "a", text: "Confusion about the announcement" },
               { id: "b", text: "Irony criticising the long delays" },
               { id: "c", text: "A neutral description of scheduling" },
-              { id: "d", text: "Confusion about the announcement" },
+              { id: "d", text: "Genuine praise for the committee" },
             ],
             correctChoiceId: "b",
           },

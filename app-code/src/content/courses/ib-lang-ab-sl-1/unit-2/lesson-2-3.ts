@@ -53,11 +53,11 @@ export const lesson23: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Finally" },
-              { id: "b", text: "Once upon a time" },
-              { id: "c", text: "However" },
+              { id: "b", text: "However" },
+              { id: "c", text: "Once upon a time" },
               { id: "d", text: "Because" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -147,12 +147,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "end the story" },
-              { id: "b", text: "join events in time order" },
+              { id: "a", text: "join events in time order" },
+              { id: "b", text: "end the story" },
               { id: "c", text: "describe a person" },
               { id: "d", text: "ask a question" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -174,12 +174,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "goed" },
-              { id: "b", text: "went" },
-              { id: "c", text: "gone" },
-              { id: "d", text: "going" },
+              { id: "a", text: "went" },
+              { id: "b", text: "going" },
+              { id: "c", text: "goed" },
+              { id: "d", text: "gone" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -201,12 +201,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "only the ending" },
-              { id: "b", text: "who, where and when" },
-              { id: "c", text: "nothing important" },
-              { id: "d", text: "only the price of things" },
+              { id: "a", text: "who, where and when" },
+              { id: "b", text: "nothing important" },
+              { id: "c", text: "only the price of things" },
+              { id: "d", text: "only the ending" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -230,8 +230,8 @@ export const lesson23: Lesson = {
             choices: [
               { id: "a", text: "an expected event" },
               { id: "b", text: "an unexpected event" },
-              { id: "c", text: "the end of the story" },
-              { id: "d", text: "a description of weather" },
+              { id: "c", text: "a description of weather" },
+              { id: "d", text: "the end of the story" },
             ],
             correctChoiceId: "b",
           },
@@ -255,10 +255,10 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "the first event" },
+              { id: "a", text: "a character's name" },
               { id: "b", text: "the last event" },
               { id: "c", text: "a question" },
-              { id: "d", text: "a character's name" },
+              { id: "d", text: "the first event" },
             ],
             correctChoiceId: "b",
           },
@@ -282,10 +282,10 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "tomorrow" },
+              { id: "a", text: "right now" },
               { id: "b", text: "at some time in the past" },
               { id: "c", text: "every day" },
-              { id: "d", text: "right now" },
+              { id: "d", text: "tomorrow" },
             ],
             correctChoiceId: "b",
           },
@@ -309,12 +309,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Because the events already happened" },
-              { id: "b", text: "Because it is easier to spell" },
-              { id: "c", text: "Because stories are always about the future" },
-              { id: "d", text: "There is no reason" },
+              { id: "a", text: "There is no reason" },
+              { id: "b", text: "Because stories are always about the future" },
+              { id: "c", text: "Because the events already happened" },
+              { id: "d", text: "Because it is easier to spell" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -336,12 +336,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "once" },
-              { id: "b", text: "finally" },
-              { id: "c", text: "suddenly" },
-              { id: "d", text: "however" },
+              { id: "a", text: "however" },
+              { id: "b", text: "suddenly" },
+              { id: "c", text: "once" },
+              { id: "d", text: "finally" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -587,12 +587,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "She tall is" },
-              { id: "b", text: "She is tall" },
-              { id: "c", text: "Tall she is" },
-              { id: "d", text: "Is she tall very" },
+              { id: "a", text: "Tall she is" },
+              { id: "b", text: "Is she tall very" },
+              { id: "c", text: "She tall is" },
+              { id: "d", text: "She is tall" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -682,10 +682,10 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "after the noun" },
+              { id: "a", text: "at the end of the sentence" },
               { id: "b", text: "before the noun" },
-              { id: "c", text: "at the end of the sentence" },
-              { id: "d", text: "anywhere in the sentence" },
+              { id: "c", text: "anywhere in the sentence" },
+              { id: "d", text: "after the noun" },
             ],
             correctChoiceId: "b",
           },
@@ -709,12 +709,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Because hair is a feature you have" },
-              { id: "b", text: "Because 'is' is always wrong" },
+              { id: "a", text: "Because 'is' is always wrong" },
+              { id: "b", text: "There is no reason" },
               { id: "c", text: "Because she is tall" },
-              { id: "d", text: "There is no reason" },
+              { id: "d", text: "Because hair is a feature you have" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -736,9 +736,9 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "someone's appearance" },
+              { id: "a", text: "the weather" },
               { id: "b", text: "someone's character" },
-              { id: "c", text: "the weather" },
+              { id: "c", text: "someone's appearance" },
               { id: "d", text: "a price" },
             ],
             correctChoiceId: "b",
@@ -763,9 +763,9 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "only food" },
+              { id: "a", text: "only people" },
               { id: "b", text: "a place or thing's appearance" },
-              { id: "c", text: "only people" },
+              { id: "c", text: "only food" },
               { id: "d", text: "a number" },
             ],
             correctChoiceId: "b",
@@ -790,12 +790,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "none" },
-              { id: "b", text: "two or three" },
-              { id: "c", text: "twenty" },
-              { id: "d", text: "only one colour" },
+              { id: "a", text: "only one colour" },
+              { id: "b", text: "twenty" },
+              { id: "c", text: "two or three" },
+              { id: "d", text: "none" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -817,12 +817,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "after the noun" },
-              { id: "b", text: "before the noun" },
-              { id: "c", text: "at the end only" },
-              { id: "d", text: "there are no adjectives" },
+              { id: "a", text: "before the noun" },
+              { id: "b", text: "there are no adjectives" },
+              { id: "c", text: "after the noun" },
+              { id: "d", text: "at the end only" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -845,11 +845,11 @@ export const lesson23: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "She is kind" },
-              { id: "b", text: "She has blue eyes" },
-              { id: "c", text: "She is funny" },
+              { id: "b", text: "She is funny" },
+              { id: "c", text: "She has blue eyes" },
               { id: "d", text: "She is nice" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -871,12 +871,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "only its name" },
-              { id: "b", text: "what you can see and what it is like" },
-              { id: "c", text: "its price" },
-              { id: "d", text: "nothing at all" },
+              { id: "a", text: "what you can see and what it is like" },
+              { id: "b", text: "its price" },
+              { id: "c", text: "nothing at all" },
+              { id: "d", text: "only its name" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

@@ -50,12 +50,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The elements in a group have the same number of electron shells." },
-              { id: "b", text: "The elements in a group have the same number of outer-shell electrons." },
-              { id: "c", text: "The elements in a group have the same atomic number." },
-              { id: "d", text: "The elements in a group are all metals." },
+              { id: "a", text: "The elements in a group have the same number of outer-shell electrons." },
+              { id: "b", text: "The elements in a group have the same atomic number." },
+              { id: "c", text: "The elements in a group are all metals." },
+              { id: "d", text: "The elements in a group have the same number of electron shells." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -184,12 +184,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Oxygen" },
-              { id: "b", text: "Hydrogen" },
-              { id: "c", text: "Carbon dioxide" },
-              { id: "d", text: "Chlorine" },
+              { id: "a", text: "Chlorine" },
+              { id: "b", text: "Carbon dioxide" },
+              { id: "c", text: "Oxygen" },
+              { id: "d", text: "Hydrogen" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

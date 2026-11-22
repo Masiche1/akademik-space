@@ -54,12 +54,12 @@ export const lesson112: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It will snow" },
-              { id: "b", text: "It will rain" },
-              { id: "c", text: "It will be sunny" },
-              { id: "d", text: "Nothing" },
+              { id: "a", text: "It will rain" },
+              { id: "b", text: "It will snow" },
+              { id: "c", text: "Nothing" },
+              { id: "d", text: "It will be sunny" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -86,8 +86,8 @@ export const lesson112: Lesson = {
             choices: [
               { id: "a", text: "She didn't practise" },
               { id: "b", text: "She was ill" },
-              { id: "c", text: "She was lazy" },
-              { id: "d", text: "No reason" },
+              { id: "c", text: "No reason" },
+              { id: "d", text: "She was lazy" },
             ],
             correctChoiceId: "b",
           },
@@ -239,12 +239,12 @@ export const lesson112: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Ends the text" },
-              { id: "b", text: "Shows what a section is about" },
+              { id: "a", text: "Shows what a section is about" },
+              { id: "b", text: "Ends the text" },
               { id: "c", text: "Lists characters" },
               { id: "d", text: "Gives the answer" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -269,12 +269,12 @@ export const lesson112: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Chronological" },
-              { id: "b", text: "Compare and contrast" },
+              { id: "a", text: "Compare and contrast" },
+              { id: "b", text: "Description" },
               { id: "c", text: "Problem/solution" },
-              { id: "d", text: "Description" },
+              { id: "d", text: "Chronological" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

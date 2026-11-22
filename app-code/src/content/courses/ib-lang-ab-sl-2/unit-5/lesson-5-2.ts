@@ -74,11 +74,11 @@ export const lesson52: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "The price of the form" },
-              { id: "b", text: "What to write in that field" },
-              { id: "c", text: "Who made the form" },
-              { id: "d", text: "When the form expires" },
+              { id: "b", text: "When the form expires" },
+              { id: "c", text: "What to write in that field" },
+              { id: "d", text: "Who made the form" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -238,12 +238,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Today's date" },
-              { id: "b", text: "The day, month and year you were born" },
-              { id: "c", text: "Your age" },
-              { id: "d", text: "The date you joined the club" },
+              { id: "a", text: "The day, month and year you were born" },
+              { id: "b", text: "Today's date" },
+              { id: "c", text: "The date you joined the club" },
+              { id: "d", text: "Your age" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -277,12 +277,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "fifteen" },
-              { id: "b", text: "15" },
-              { id: "c", text: "fifteen years old" },
+              { id: "a", text: "15" },
+              { id: "b", text: "fifteen years old" },
+              { id: "c", text: "fifteen" },
               { id: "d", text: "XV" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -316,12 +316,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "03/13/2010" },
-              { id: "b", text: "03/06/2010" },
-              { id: "c", text: "2010/06/30" },
+              { id: "a", text: "03/06/2010" },
+              { id: "b", text: "2010/06/30" },
+              { id: "c", text: "03/13/2010" },
               { id: "d", text: "30/05/2010" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -366,11 +366,11 @@ export const lesson52: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "The name" },
-              { id: "b", text: "The age" },
-              { id: "c", text: "The phone number" },
-              { id: "d", text: "The signature" },
+              { id: "b", text: "The phone number" },
+              { id: "c", text: "The signature" },
+              { id: "d", text: "The age" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -409,12 +409,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Ana" },
-              { id: "b", text: "ANA" },
-              { id: "c", text: "ana" },
-              { id: "d", text: "AnA" },
+              { id: "a", text: "AnA" },
+              { id: "b", text: "ana" },
+              { id: "c", text: "ANA" },
+              { id: "d", text: "Ana" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -453,12 +453,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "My favourite number is 7" },
-              { id: "b", text: "4521" },
-              { id: "c", text: "member" },
-              { id: "d", text: "I do not know" },
+              { id: "a", text: "member" },
+              { id: "b", text: "I do not know" },
+              { id: "c", text: "My favourite number is 7" },
+              { id: "d", text: "4521" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -787,12 +787,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "For a formal complaint" },
-              { id: "b", text: "For a quick reminder to yourself" },
-              { id: "c", text: "For a job application" },
-              { id: "d", text: "For a wedding invitation" },
+              { id: "a", text: "For a quick reminder to yourself" },
+              { id: "b", text: "For a formal complaint" },
+              { id: "c", text: "For a wedding invitation" },
+              { id: "d", text: "For a job application" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -952,15 +952,15 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "There is no difference" },
+              { id: "a", text: "Notes are always formal" },
+              { id: "b", text: "There is no difference" },
               {
-                id: "b",
+                id: "c",
                 text: "A note uses phrases or sentences; a list has one item per line",
               },
-              { id: "c", text: "Notes are always formal" },
               { id: "d", text: "Lists are always longer" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -997,10 +997,10 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A formal letter" },
+              { id: "a", text: "An email" },
               { id: "b", text: "A note" },
-              { id: "c", text: "An email" },
-              { id: "d", text: "A form" },
+              { id: "c", text: "A form" },
+              { id: "d", text: "A formal letter" },
             ],
             correctChoiceId: "b",
           },
@@ -1036,12 +1036,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Greeting, address, date, body, ending" },
-              { id: "b", text: "Address, date, greeting, body, ending, name" },
+              { id: "a", text: "Address, date, greeting, body, ending, name" },
+              { id: "b", text: "Ending, greeting, body, date" },
               { id: "c", text: "Body, greeting, ending, address" },
-              { id: "d", text: "Ending, greeting, body, date" },
+              { id: "d", text: "Greeting, address, date, body, ending" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -1082,12 +1082,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Love," },
-              { id: "b", text: "See you," },
-              { id: "c", text: "Yours faithfully" },
-              { id: "d", text: "Bye" },
+              { id: "a", text: "Yours faithfully" },
+              { id: "b", text: "Love," },
+              { id: "c", text: "Bye" },
+              { id: "d", text: "See you," },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1127,12 +1127,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A form" },
-              { id: "b", text: "A message" },
-              { id: "c", text: "A list" },
-              { id: "d", text: "A receipt" },
+              { id: "a", text: "A receipt" },
+              { id: "b", text: "A list" },
+              { id: "c", text: "A form" },
+              { id: "d", text: "A message" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1171,15 +1171,15 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Telling a friend about your day" },
+              { id: "a", text: "A shopping list" },
+              { id: "b", text: "Telling a friend about your day" },
+              { id: "c", text: "A reminder note" },
               {
-                id: "b",
+                id: "d",
                 text: "Asking the school for a copy of your certificate",
               },
-              { id: "c", text: "A shopping list" },
-              { id: "d", text: "A reminder note" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

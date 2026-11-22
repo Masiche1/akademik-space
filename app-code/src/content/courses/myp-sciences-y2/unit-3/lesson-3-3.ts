@@ -58,12 +58,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Using fewer turns of wire" },
+              { id: "a", text: "Putting a soft iron core inside the coil" },
               { id: "b", text: "Reducing the current" },
-              { id: "c", text: "Putting a soft iron core inside the coil" },
+              { id: "c", text: "Using fewer turns of wire" },
               { id: "d", text: "Replacing the iron core with a plastic rod" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -160,8 +160,8 @@ export const lesson33: Lesson = {
             choices: [
               { id: "a", text: "They attract" },
               { id: "b", text: "They repel" },
-              { id: "c", text: "Nothing happens" },
-              { id: "d", text: "They stick together permanently" },
+              { id: "c", text: "They stick together permanently" },
+              { id: "d", text: "Nothing happens" },
             ],
             correctChoiceId: "b",
           },
@@ -185,12 +185,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Copper" },
-              { id: "b", text: "Plastic" },
-              { id: "c", text: "Iron" },
-              { id: "d", text: "Aluminium" },
+              { id: "a", text: "Iron" },
+              { id: "b", text: "Aluminium" },
+              { id: "c", text: "Plastic" },
+              { id: "d", text: "Copper" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -212,9 +212,9 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "From south pole to north pole" },
+              { id: "a", text: "From the middle to the ends" },
               { id: "b", text: "From north pole to south pole" },
-              { id: "c", text: "From the middle to the ends" },
+              { id: "c", text: "From south pole to north pole" },
               { id: "d", text: "In circles around the magnet" },
             ],
             correctChoiceId: "b",
@@ -374,11 +374,11 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "At the exact centre of the magnet" },
-              { id: "b", text: "At the poles" },
-              { id: "c", text: "It is the same everywhere" },
+              { id: "b", text: "It is the same everywhere" },
+              { id: "c", text: "At the poles" },
               { id: "d", text: "At the weakest point halfway between poles" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -400,12 +400,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "They are always on, which is safer" },
-              { id: "b", text: "They can be switched off and their strength can be changed" },
-              { id: "c", text: "They are lighter than permanent magnets" },
-              { id: "d", text: "They do not need electricity" },
+              { id: "a", text: "They can be switched off and their strength can be changed" },
+              { id: "b", text: "They are always on, which is safer" },
+              { id: "c", text: "They do not need electricity" },
+              { id: "d", text: "They are lighter than permanent magnets" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -491,8 +491,8 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The object is moving at a constant speed." },
-              { id: "b", text: "The object is speeding up." },
+              { id: "a", text: "The object is speeding up." },
+              { id: "b", text: "The object is moving at a constant speed." },
               { id: "c", text: "The object is stationary." },
               { id: "d", text: "The object is returning to the start." },
             ],
@@ -593,12 +593,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "0.2 m/s" },
-              { id: "b", text: "5 m/s" },
-              { id: "c", text: "80 m/s" },
-              { id: "d", text: "2000 m/s" },
+              { id: "a", text: "80 m/s" },
+              { id: "b", text: "2000 m/s" },
+              { id: "c", text: "0.2 m/s" },
+              { id: "d", text: "5 m/s" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -620,12 +620,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The total distance travelled" },
-              { id: "b", text: "The speed" },
-              { id: "c", text: "The time taken" },
-              { id: "d", text: "The acceleration" },
+              { id: "a", text: "The speed" },
+              { id: "b", text: "The total distance travelled" },
+              { id: "c", text: "The acceleration" },
+              { id: "d", text: "The time taken" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -647,12 +647,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Stationary" },
-              { id: "b", text: "Moving at constant speed" },
-              { id: "c", text: "Speeding up" },
-              { id: "d", text: "Slowing down" },
+              { id: "a", text: "Moving at constant speed" },
+              { id: "b", text: "Stationary" },
+              { id: "c", text: "Slowing down" },
+              { id: "d", text: "Speeding up" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -806,12 +806,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "1 km/h" },
-              { id: "b", text: "3.6 km/h" },
-              { id: "c", text: "60 km/h" },
+              { id: "a", text: "60 km/h" },
+              { id: "b", text: "1 km/h" },
+              { id: "c", text: "3.6 km/h" },
               { id: "d", text: "100 km/h" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -833,12 +833,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Moving at constant speed" },
-              { id: "b", text: "Stationary" },
-              { id: "c", text: "Speeding up" },
-              { id: "d", text: "Slowing down" },
+              { id: "a", text: "Slowing down" },
+              { id: "b", text: "Speeding up" },
+              { id: "c", text: "Stationary" },
+              { id: "d", text: "Moving at constant speed" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

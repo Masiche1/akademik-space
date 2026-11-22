@@ -70,9 +70,9 @@ export const lesson23: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "red" },
-              { id: "b", text: "blue" },
-              { id: "c", text: "green" },
-              { id: "d", text: "yellow" },
+              { id: "b", text: "yellow" },
+              { id: "c", text: "blue" },
+              { id: "d", text: "green" },
             ],
             correctChoiceId: "a",
           },
@@ -305,12 +305,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Tuesday" },
-              { id: "b", text: "Thursday" },
-              { id: "c", text: "Friday" },
-              { id: "d", text: "Monday" },
+              { id: "a", text: "Thursday" },
+              { id: "b", text: "Tuesday" },
+              { id: "c", text: "Monday" },
+              { id: "d", text: "Friday" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

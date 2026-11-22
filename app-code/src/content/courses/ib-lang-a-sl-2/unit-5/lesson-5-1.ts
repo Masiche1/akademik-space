@@ -52,12 +52,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Both poems are about grief." },
-              { id: "b", text: "The first figures grief as a house, the second as weather — loss as place versus loss as force." },
-              { id: "c", text: "The poems use different metaphors." },
-              { id: "d", text: "Both poems are short." },
+              { id: "a", text: "Both poems are short." },
+              { id: "b", text: "The poems use different metaphors." },
+              { id: "c", text: "The first figures grief as a house, the second as weather — loss as place versus loss as force." },
+              { id: "d", text: "Both poems are about grief." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -155,12 +155,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The title chosen for the essay" },
-              { id: "b", text: "A shared aspect, such as a theme or technique, on which both texts are analysed" },
+              { id: "a", text: "A shared aspect, such as a theme or technique, on which both texts are analysed" },
+              { id: "b", text: "The title chosen for the essay" },
               { id: "c", text: "The number of paragraphs in the essay" },
               { id: "d", text: "The author's biographical background" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -181,12 +181,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Imagery, then structure, then theme and context" },
-              { id: "b", text: "All of Text A's features, then all of Text B's" },
-              { id: "c", text: "Paragraphs in the order the texts were published" },
+              { id: "a", text: "All of Text A's features, then all of Text B's" },
+              { id: "b", text: "Paragraphs in the order the texts were published" },
+              { id: "c", text: "Imagery, then structure, then theme and context" },
               { id: "d", text: "Whatever idea occurs to the writer first" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -207,12 +207,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Because it is grammatically incorrect" },
-              { id: "b", text: "Because it states a shared topic rather than claiming a relationship between the texts" },
+              { id: "a", text: "Because it states a shared topic rather than claiming a relationship between the texts" },
+              { id: "b", text: "Because it is too long" },
               { id: "c", text: "Because it names only one poem" },
-              { id: "d", text: "Because it is too long" },
+              { id: "d", text: "Because it is grammatically incorrect" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -233,12 +233,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Name the point of comparison covering both texts" },
-              { id: "b", text: "Name only Text A's main idea" },
-              { id: "c", text: "Repeat the essay's introduction verbatim" },
-              { id: "d", text: "Quote the most famous line from either text" },
+              { id: "a", text: "Repeat the essay's introduction verbatim" },
+              { id: "b", text: "Quote the most famous line from either text" },
+              { id: "c", text: "Name only Text A's main idea" },
+              { id: "d", text: "Name the point of comparison covering both texts" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -259,12 +259,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Texts reach similar conclusions through different means" },
-              { id: "b", text: "Texts are identical in every respect" },
+              { id: "a", text: "Texts are written in the same genre" },
+              { id: "b", text: "Texts reach similar conclusions through different means" },
               { id: "c", text: "Texts reach opposite conclusions about the same theme" },
-              { id: "d", text: "Texts are written in the same genre" },
+              { id: "d", text: "Texts are identical in every respect" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -285,12 +285,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It lacks a comparative thesis" },
-              { id: "b", text: "It is imbalanced — Text B is never analysed at each point of comparison" },
-              { id: "c", text: "It uses too many quotations" },
-              { id: "d", text: "Its conclusion is too short" },
+              { id: "a", text: "It is imbalanced — Text B is never analysed at each point of comparison" },
+              { id: "b", text: "It lacks a comparative thesis" },
+              { id: "c", text: "Its conclusion is too short" },
+              { id: "d", text: "It uses too many quotations" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -486,12 +486,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Equal word count for each text" },
-              { id: "b", text: "Equal analytical depth at each point of comparison" },
-              { id: "c", text: "Avoiding all judgement" },
+              { id: "a", text: "Equal analytical depth at each point of comparison" },
+              { id: "b", text: "Avoiding all judgement" },
+              { id: "c", text: "Equal word count for each text" },
               { id: "d", text: "Using the same examples" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -592,11 +592,11 @@ export const lesson51: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Add more quotations from Text B" },
-              { id: "b", text: "Develop Text B's treatment to the same analytical depth as Text A's at each point" },
-              { id: "c", text: "Remove Text A's paragraphs" },
-              { id: "d", text: "Move all of Text B's material into the conclusion" },
+              { id: "b", text: "Move all of Text B's material into the conclusion" },
+              { id: "c", text: "Develop Text B's treatment to the same analytical depth as Text A's at each point" },
+              { id: "d", text: "Remove Text A's paragraphs" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -617,10 +617,10 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Both poems use imagery." },
+              { id: "a", text: "The poems were written in different centuries." },
               { id: "b", text: "A's metaphor is more sustained, though B's brevity achieves a starkness A cannot match." },
-              { id: "c", text: "The poems were written in different centuries." },
-              { id: "d", text: "In conclusion, both poems are interesting." },
+              { id: "c", text: "In conclusion, both poems are interesting." },
+              { id: "d", text: "Both poems use imagery." },
             ],
             correctChoiceId: "b",
           },
@@ -643,12 +643,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It makes the essay longer" },
-              { id: "b", text: "It keeps every paragraph argumentative rather than merely descriptive" },
-              { id: "c", text: "It allows the conclusion to be shorter" },
-              { id: "d", text: "It avoids using evidence" },
+              { id: "a", text: "It avoids using evidence" },
+              { id: "b", text: "It allows the conclusion to be shorter" },
+              { id: "c", text: "It makes the essay longer" },
+              { id: "d", text: "It keeps every paragraph argumentative rather than merely descriptive" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -669,12 +669,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Furthermore" },
-              { id: "b", text: "By contrast" },
+              { id: "a", text: "Similarly to what was said" },
+              { id: "b", text: "Furthermore" },
               { id: "c", text: "In addition" },
-              { id: "d", text: "Similarly to what was said" },
+              { id: "d", text: "By contrast" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -695,12 +695,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Move Text B's sentence to the introduction" },
-              { id: "b", text: "Pair the evidence — discuss A's image, then B's corresponding image, then analyse the relationship" },
+              { id: "a", text: "Pair the evidence — discuss A's image, then B's corresponding image, then analyse the relationship" },
+              { id: "b", text: "Move Text B's sentence to the introduction" },
               { id: "c", text: "Delete Text A's extra sentences" },
               { id: "d", text: "Add a third text for comparison" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -721,12 +721,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It judges only in the final paragraph" },
-              { id: "b", text: "It contains a mini-judgement in most paragraphs, weighing the texts' relative achievements" },
+              { id: "a", text: "It contains a mini-judgement in most paragraphs, weighing the texts' relative achievements" },
+              { id: "b", text: "It judges only in the final paragraph" },
               { id: "c", text: "It avoids all descriptive analysis" },
               { id: "d", text: "It repeats the thesis in every paragraph" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

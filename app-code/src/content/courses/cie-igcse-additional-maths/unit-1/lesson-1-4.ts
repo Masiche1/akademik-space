@@ -33,8 +33,11 @@ export const lesson14: Lesson = {
           id: "ciam-u1-s4-sk-q1", difficulty: "foundation", totalMarks: 1,
           stem: "The y-intercept of $y=x^2-3x+2$ is…",
           response: { type: "mcq", choices: [
-            { id: "a", text: "2" }, { id: "b", text: "0" }, { id: "c", text: "-3" }, { id: "d", text: "1" },
-          ], correctChoiceId: "a" },
+            { id: "a", text: "-3" },
+            { id: "b", text: "1" },
+            { id: "c", text: "0" },
+            { id: "d", text: "2" },
+          ], correctChoiceId: "d" },
           markscheme: { principles: [{ kind: "technique", name: "y-intercept", statement: "Set $x=0$." }], steps: [{ reasoning: "$y=2$ when $x=0$.", marks: 1, markCode: "A" }], finalAnswer: "2" },
         },
         {
@@ -67,6 +70,127 @@ export const lesson14: Lesson = {
             { reasoning: "Answer: 21 m at $t=2$ s.", marks: 1, markCode: "A" },
           ], finalAnswer: "21 m at $t=2$ s" },
         },
+        {
+          id: "ciam-u1-s4-sk-q5", difficulty: "foundation", totalMarks: 1,
+          stem: "The y-intercept of $y=2x^2-x+3$ is…",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "0" },
+            { id: "b", text: "3" },
+            { id: "c", text: "-1" },
+            { id: "d", text: "2" },
+          ], correctChoiceId: "b" },
+          markscheme: { principles: [{ kind: "technique", name: "y-intercept", statement: "Set $x=0$." }], steps: [{ reasoning: "$y=3$ when $x=0$.", marks: 1, markCode: "A" }], finalAnswer: "3" },
+        },
+        {
+          id: "ciam-u1-s4-sk-q6", difficulty: "foundation", totalMarks: 2,
+          stem: "Find the x-intercepts of $y=x^2-9$.",
+          response: { type: "numeric", unordered: true, parts: [{ label: "a", answer: 3 }, { label: "b", answer: -3 }] },
+          markscheme: { principles: [{ kind: "technique", name: "Roots", statement: "Set $y=0$." }], steps: [
+            { reasoning: "$x^2-9=0$ → $(x-3)(x+3)=0$.", marks: 1, markCode: "M" },
+            { reasoning: "$x=3$ or $x=-3$.", marks: 1, markCode: "A" },
+          ], finalAnswer: "$x=3$ or $x=-3$" },
+        },
+        {
+          id: "ciam-u1-s4-sk-q7", difficulty: "foundation", totalMarks: 3,
+          stem: "Sketch $y=x^2+2x-3$, stating the vertex and intercepts.",
+          response: { type: "open" },
+          markscheme: { principles: [{ kind: "technique", name: "Sketch", statement: "Key features." }], steps: [
+            { reasoning: "$y=(x+1)^2-4$: vertex $(-1,-4)$, opens upward.", marks: 1, markCode: "M" },
+            { reasoning: "x-intercepts: $(x+3)(x-1)=0$ → $x=-3,1$; y-intercept $-3$.", marks: 1, markCode: "M" },
+            { reasoning: "Correct smooth parabola.", marks: 1, markCode: "A" },
+          ], finalAnswer: "Vertex $(-1,-4)$; intercepts $(-3,0),(1,0),(0,-3)$" },
+        },
+        {
+          id: "ciam-u1-s4-sk-q8", difficulty: "core", totalMarks: 1,
+          stem: "The vertex of $y=-x^2+6x-5$ is…",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "$(-3,4)$" },
+            { id: "b", text: "$(6,-5)$" },
+            { id: "c", text: "$(3,4)$" },
+            { id: "d", text: "$(3,-4)$" },
+          ], correctChoiceId: "c" },
+          markscheme: { principles: [{ kind: "technique", name: "Complete square", statement: "Find vertex." }], steps: [{ reasoning: "$y=-(x-3)^2+4$.", marks: 1, markCode: "A" }], finalAnswer: "$(3,4)$" },
+        },
+        {
+          id: "ciam-u1-s4-sk-q9", difficulty: "core", totalMarks: 2,
+          stem: "Find the y-intercept of $y=x^2-4x+7$.",
+          response: { type: "numeric", parts: [{ label: "a", answer: 7 }] },
+          markscheme: { principles: [{ kind: "technique", name: "y-intercept", statement: "Set $x=0$." }], steps: [
+            { reasoning: "$y=7$ when $x=0$.", marks: 1, markCode: "M" },
+            { reasoning: "Answer: 7.", marks: 1, markCode: "A" },
+          ], finalAnswer: "7" },
+        },
+        {
+          id: "ciam-u1-s4-sk-q10", difficulty: "core", totalMarks: 3,
+          stem: "Sketch $y=x^2-6x+5$, stating the vertex and intercepts.",
+          response: { type: "open" },
+          markscheme: { principles: [{ kind: "technique", name: "Sketch", statement: "Key features." }], steps: [
+            { reasoning: "$y=(x-3)^2-4$: vertex $(3,-4)$, opens upward.", marks: 1, markCode: "M" },
+            { reasoning: "x-intercepts: $(x-1)(x-5)=0$ → $x=1,5$; y-intercept 5.", marks: 1, markCode: "M" },
+            { reasoning: "Correct smooth parabola.", marks: 1, markCode: "A" },
+          ], finalAnswer: "Vertex $(3,-4)$; intercepts $(1,0),(5,0),(0,5)$" },
+        },
+        {
+          id: "ciam-u1-s4-sk-q11", difficulty: "challenge", totalMarks: 1,
+          stem: "Which quadratic has no x-intercepts?",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "$y=x^2+2x+5$" },
+            { id: "b", text: "$y=x^2-9$" },
+            { id: "c", text: "$y=x^2+4x+4$" },
+            { id: "d", text: "$y=x^2-2x-3$" },
+          ], correctChoiceId: "a" },
+          markscheme: { principles: [{ kind: "technique", name: "Discriminant", statement: "Check $\\Delta<0$." }], steps: [{ reasoning: "$x^2+2x+5$: $\\Delta=4-20=-16<0$.", marks: 1, markCode: "A" }], finalAnswer: "$y=x^2+2x+5$" },
+        },
+        {
+          id: "ciam-u1-s4-sk-q12", difficulty: "challenge", totalMarks: 2,
+          stem: "Find the x-coordinate of the vertex of $y=2x^2-8x+1$.",
+          response: { type: "numeric", parts: [{ label: "a", answer: 2 }] },
+          markscheme: { principles: [{ kind: "technique", name: "Vertex", statement: "Axis of symmetry." }], steps: [
+            { reasoning: "$y=2(x-2)^2-7$.", marks: 1, markCode: "M" },
+            { reasoning: "$x=2$.", marks: 1, markCode: "A" },
+          ], finalAnswer: "2" },
+        },
+        {
+          id: "ciam-u1-s4-sk-q13", difficulty: "core", totalMarks: 3,
+          stem: "Sketch $y=-x^2+2x+3$, stating the maximum point and intercepts.",
+          response: { type: "open" },
+          markscheme: { principles: [{ kind: "technique", name: "Sketch", statement: "Key features." }], steps: [
+            { reasoning: "$y=-(x-1)^2+4$: maximum $(1,4)$, opens downward.", marks: 1, markCode: "M" },
+            { reasoning: "x-intercepts: $(x-3)(x+1)=0$ → $x=-1,3$; y-intercept 3.", marks: 1, markCode: "M" },
+            { reasoning: "Correct smooth parabola.", marks: 1, markCode: "A" },
+          ], finalAnswer: "Maximum $(1,4)$; intercepts $(-1,0),(3,0),(0,3)$" },
+        },
+        {
+          id: "ciam-u1-s4-sk-q14", difficulty: "challenge", totalMarks: 1,
+          stem: "The x-intercepts of $y=x^2-2x-8$ are…",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "$x=1$ and $x=-8$" },
+            { id: "b", text: "$x=-2$ and $x=4$" },
+            { id: "c", text: "$x=2$ and $x=-4$" },
+            { id: "d", text: "$x=-1$ and $x=8$" },
+          ], correctChoiceId: "b" },
+          markscheme: { principles: [{ kind: "technique", name: "Roots", statement: "Factorise." }], steps: [{ reasoning: "$(x-4)(x+2)=0$.", marks: 1, markCode: "A" }], finalAnswer: "$x=-2$ and $x=4$" },
+        },
+        {
+          id: "ciam-u1-s4-sk-q15", difficulty: "core", totalMarks: 2,
+          stem: "The vertex of $y=x^2+bx+10$ occurs at $x=-3$. Find $b$.",
+          response: { type: "numeric", parts: [{ label: "a", answer: 6 }] },
+          markscheme: { principles: [{ kind: "technique", name: "Axis of symmetry", statement: "$x=-\\frac{b}{2}$." }], steps: [
+            { reasoning: "$-\\frac{b}{2}=-3$ → $b=6$.", marks: 1, markCode: "M" },
+            { reasoning: "Answer: 6.", marks: 1, markCode: "A" },
+          ], finalAnswer: "6" },
+        },
+        {
+          id: "ciam-u1-s4-sk-q16", difficulty: "challenge", totalMarks: 1,
+          stem: "Which statement about $y=x^2+4x+5$ is true?",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "Vertex $(-2,-1)$ and one x-intercept" },
+            { id: "b", text: "Vertex $(-2,1)$ and no x-intercepts" },
+            { id: "c", text: "Vertex $(2,1)$ and two x-intercepts" },
+            { id: "d", text: "Vertex $(4,5)$ and no x-intercepts" },
+          ], correctChoiceId: "b" },
+          markscheme: { principles: [{ kind: "technique", name: "Complete square", statement: "Vertex and roots." }], steps: [{ reasoning: "$y=(x+2)^2+1$; $\\Delta=16-20<0$.", marks: 1, markCode: "A" }], finalAnswer: "Vertex $(-2,1)$, no x-intercepts" },
+        },
       ],
     },
     {
@@ -88,8 +212,11 @@ export const lesson14: Lesson = {
           id: "ciam-u1-s4-ap-q1", difficulty: "foundation", totalMarks: 1,
           stem: "Two numbers multiply to 12 and add to 7. They are…",
           response: { type: "mcq", choices: [
-            { id: "a", text: "3 and 4" }, { id: "b", text: "2 and 6" }, { id: "c", text: "1 and 12" }, { id: "d", text: "5 and 2" },
-          ], correctChoiceId: "a" },
+            { id: "a", text: "1 and 12" },
+            { id: "b", text: "2 and 6" },
+            { id: "c", text: "5 and 2" },
+            { id: "d", text: "3 and 4" },
+          ], correctChoiceId: "d" },
           markscheme: { principles: [{ kind: "technique", name: "Quadratic in context", statement: "Set up equation." }], steps: [{ reasoning: "$x^2-7x+12=0$ → $x=3,4$.", marks: 1, markCode: "A" }], finalAnswer: "3 and 4" },
         },
         {
@@ -121,6 +248,128 @@ export const lesson14: Lesson = {
             { reasoning: "Check: $x=10$ gives $l=20$; $A=200$. ✓", marks: 1, markCode: "M" },
             { reasoning: "Answer: max area 200 m² (10 m × 20 m).", marks: 1, markCode: "A" },
           ], finalAnswer: "200 m²" },
+        },
+        {
+          id: "ciam-u1-s4-ap-q5", difficulty: "foundation", totalMarks: 1,
+          stem: "Two numbers have product 18 and sum 9. They are…",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "4 and 5" },
+            { id: "b", text: "2 and 9" },
+            { id: "c", text: "1 and 18" },
+            { id: "d", text: "3 and 6" },
+          ], correctChoiceId: "d" },
+          markscheme: { principles: [{ kind: "technique", name: "Quadratic in context", statement: "Set up equation." }], steps: [{ reasoning: "$x^2-9x+18=0$ → $(x-3)(x-6)=0$.", marks: 1, markCode: "A" }], finalAnswer: "3 and 6" },
+        },
+        {
+          id: "ciam-u1-s4-ap-q6", difficulty: "foundation", totalMarks: 2,
+          stem: "A rectangle has perimeter 16 and area 12. Find the longer side.",
+          response: { type: "numeric", parts: [{ label: "a", answer: 6 }] },
+          markscheme: { principles: [{ kind: "technique", name: "Simultaneous", statement: "Use both conditions." }], steps: [
+            { reasoning: "$l+w=8$, $lw=12$ → $l^2-8l+12=0$ → $(l-2)(l-6)=0$.", marks: 1, markCode: "M" },
+            { reasoning: "Sides are 2 and 6; longer side is 6.", marks: 1, markCode: "A" },
+          ], finalAnswer: "6" },
+        },
+        {
+          id: "ciam-u1-s4-ap-q7", difficulty: "foundation", totalMarks: 3,
+          stem: "The product of two consecutive integers is 56. Find the integers.",
+          response: { type: "open" },
+          markscheme: { principles: [{ kind: "technique", name: "Quadratic in context", statement: "Set up equation." }], steps: [
+            { reasoning: "$n(n+1)=56$ → $n^2+n-56=0$ → $(n+8)(n-7)=0$.", marks: 1, markCode: "M" },
+            { reasoning: "$n=7$ (reject $-8$ for positive consecutive integers).", marks: 1, markCode: "M" },
+            { reasoning: "Answer: 7 and 8.", marks: 1, markCode: "A" },
+          ], finalAnswer: "7 and 8" },
+        },
+        {
+          id: "ciam-u1-s4-ap-q8", difficulty: "core", totalMarks: 1,
+          stem: "A number and its reciprocal have sum $\\frac52$. Possible values of the number are…",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "$2$ or $\\frac12$" },
+            { id: "b", text: "$2$ only" },
+            { id: "c", text: "$5$ or $\\frac25$" },
+            { id: "d", text: "$\\frac12$ only" },
+          ], correctChoiceId: "a" },
+          markscheme: { principles: [{ kind: "technique", name: "Algebraic problem", statement: "Clear denominator." }], steps: [{ reasoning: "$x+\\frac1x=\\frac52$ → $2x^2-5x+2=0$ → $(2x-1)(x-2)=0$.", marks: 1, markCode: "A" }], finalAnswer: "$2$ or $\\frac12$" },
+        },
+        {
+          id: "ciam-u1-s4-ap-q9", difficulty: "core", totalMarks: 2,
+          stem: "The product of two consecutive even integers is 48. Find the smaller integer.",
+          response: { type: "numeric", parts: [{ label: "a", answer: 6 }] },
+          markscheme: { principles: [{ kind: "technique", name: "Quadratic in context", statement: "Let integers be $2n,2n+2$." }], steps: [
+            { reasoning: "$2n(2n+2)=48$ → $n(n+1)=12$ → $n=3$.", marks: 1, markCode: "M" },
+            { reasoning: "Integers are 6 and 8; smaller is 6.", marks: 1, markCode: "A" },
+          ], finalAnswer: "6" },
+        },
+        {
+          id: "ciam-u1-s4-ap-q10", difficulty: "core", totalMarks: 4,
+          stem: "A ball's height is $h=-5t^2+18t+2$ metres, $t$ seconds. Find the maximum height and when it occurs.",
+          response: { type: "open" },
+          markscheme: { principles: [{ kind: "technique", name: "Vertex in context", statement: "Complete square." }], steps: [
+            { reasoning: "$h=-5[(t-\\frac95)^2-\\frac{81}{25}]+2$.", marks: 1, markCode: "M" },
+            { reasoning: "$=-5(t-\\frac95)^2+\\frac{81}{5}+2=-5(t-\\frac95)^2+\\frac{91}{5}$.", marks: 1, markCode: "M" },
+            { reasoning: "Max at $t=\\frac95$ s, $h=\\frac{91}{5}=18.2$ m.", marks: 1, markCode: "M" },
+            { reasoning: "Answer: 18.2 m at $t=1.8$ s.", marks: 1, markCode: "A" },
+          ], finalAnswer: "18.2 m at $t=1.8$ s" },
+        },
+        {
+          id: "ciam-u1-s4-ap-q11", difficulty: "challenge", totalMarks: 1,
+          stem: "A farmer has 30 m of fencing for a rectangular pen against a wall (the wall side needs no fence). The maximum possible area is…",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "120 m²" },
+            { id: "b", text: "225 m²" },
+            { id: "c", text: "56.25 m²" },
+            { id: "d", text: "112.5 m²" },
+          ], correctChoiceId: "d" },
+          markscheme: { principles: [{ kind: "technique", name: "Optimisation", statement: "Vertex of quadratic." }], steps: [{ reasoning: "$A=x(30-2x)=-2(x-7.5)^2+112.5$.", marks: 1, markCode: "A" }], finalAnswer: "112.5 m²" },
+        },
+        {
+          id: "ciam-u1-s4-ap-q12", difficulty: "challenge", totalMarks: 2,
+          stem: "Two numbers have sum 12 and product 35. Find the larger number.",
+          response: { type: "numeric", parts: [{ label: "a", answer: 7 }] },
+          markscheme: { principles: [{ kind: "technique", name: "Quadratic in context", statement: "Set up equation." }], steps: [
+            { reasoning: "$x(12-x)=35$ → $x^2-12x+35=0$ → $(x-5)(x-7)=0$.", marks: 1, markCode: "M" },
+            { reasoning: "Numbers are 5 and 7; larger is 7.", marks: 1, markCode: "A" },
+          ], finalAnswer: "7" },
+        },
+        {
+          id: "ciam-u1-s4-ap-q13", difficulty: "core", totalMarks: 3,
+          stem: "A number plus its square is 20. Find the positive number.",
+          response: { type: "open" },
+          markscheme: { principles: [{ kind: "technique", name: "Quadratic in context", statement: "Set up equation." }], steps: [
+            { reasoning: "$x+x^2=20$ → $x^2+x-20=0$ → $(x+5)(x-4)=0$.", marks: 1, markCode: "M" },
+            { reasoning: "$x=4$ or $x=-5$; positive value is 4.", marks: 1, markCode: "M" },
+            { reasoning: "Check: $4+16=20$ ✓.", marks: 1, markCode: "A" },
+          ], finalAnswer: "4" },
+        },
+        {
+          id: "ciam-u1-s4-ap-q14", difficulty: "challenge", totalMarks: 1,
+          stem: "A rectangle has area 24 and its length is 2 more than its width. The dimensions are…",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "5 by 5" },
+            { id: "b", text: "2 by 12" },
+            { id: "c", text: "4 by 6" },
+            { id: "d", text: "3 by 8" },
+          ], correctChoiceId: "c" },
+          markscheme: { principles: [{ kind: "technique", name: "Quadratic in context", statement: "Set up equation." }], steps: [{ reasoning: "$w(w+2)=24$ → $w^2+2w-24=0$ → $(w+6)(w-4)=0$ → $w=4$, $l=6$.", marks: 1, markCode: "A" }], finalAnswer: "4 by 6" },
+        },
+        {
+          id: "ciam-u1-s4-ap-q15", difficulty: "core", totalMarks: 2,
+          stem: "The product of two consecutive integers is 90. Find the smaller integer.",
+          response: { type: "numeric", parts: [{ label: "a", answer: 9 }] },
+          markscheme: { principles: [{ kind: "technique", name: "Quadratic in context", statement: "Set up equation." }], steps: [
+            { reasoning: "$n(n+1)=90$ → $n^2+n-90=0$ → $(n+10)(n-9)=0$ → $n=9$.", marks: 1, markCode: "M" },
+            { reasoning: "Smaller integer is 9.", marks: 1, markCode: "A" },
+          ], finalAnswer: "9" },
+        },
+        {
+          id: "ciam-u1-s4-ap-q16", difficulty: "challenge", totalMarks: 1,
+          stem: "A rectangle's length is 3 more than its width and its area is 28. The width is…",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "7" },
+            { id: "b", text: "5" },
+            { id: "c", text: "-7" },
+            { id: "d", text: "4" },
+          ], correctChoiceId: "d" },
+          markscheme: { principles: [{ kind: "technique", name: "Quadratic in context", statement: "Reject negative width." }], steps: [{ reasoning: "$w(w+3)=28$ → $w^2+3w-28=0$ → $(w+7)(w-4)=0$ → $w=4$.", marks: 1, markCode: "A" }], finalAnswer: "4" },
         },
       ],
     },

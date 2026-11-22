@@ -68,15 +68,15 @@ export const lesson163: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "The text printed below the title" },
               {
-                id: "a",
+                id: "b",
                 text: "Implied meaning beneath what is literally said",
               },
-              { id: "b", text: "The text printed below the title" },
               { id: "c", text: "The author's biography" },
               { id: "d", text: "A summary of the plot" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -348,6 +348,582 @@ export const lesson163: Lesson = {
             commonErrors: ["Quoting without analysis of effect."],
           },
         },
+        {
+          id: "cie-ol-fl-un-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "What is 'interiority' in narrative writing?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "The dialogue" },
+              { id: "b", text: "The physical setting" },
+              { id: "c", text: "The plot summary" },
+              { id: "d", text: "A character's inner thoughts and feelings" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Interiority",
+                statement: "Presentation of a character's inner thoughts and feelings.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Interiority = inner life.",
+                marks: 1,
+                markCode: "AO1",
+              },
+            ],
+            finalAnswer: "**(a)** A character's inner thoughts and feelings",
+            commonErrors: ["Confusing with external action or dialogue."],
+          },
+        },
+        {
+          id: "cie-ol-fl-un-q6",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Which image does the extract use to describe the light?",
+          extract: {
+            title: "The Lighthouse Keeper",
+            author: "Written for Akademik Space",
+            text: "Elias climbed the spiral stairs each evening, though his knees complained louder than the wind. At the top he trimmed the lamp and watched the beam sweep the black water. Below, the village slept. He had kept the light for forty years, and he could not imagine the dark without it.",
+          },
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Personification — 'knees complained'" },
+              { id: "b", text: "A list of facts" },
+              { id: "c", text: "A rhyming couplet" },
+              { id: "d", text: "A stage direction" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Imagery",
+                statement: "'Knees complained' gives human qualities to body parts.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Personification attributes human action to knees.",
+                marks: 1,
+                markCode: "AO2",
+              },
+            ],
+            finalAnswer: "**(a)** Personification — 'knees complained'",
+            commonErrors: ["Missing the personification in the detail."],
+          },
+        },
+        {
+          id: "cie-ol-fl-un-q7",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "Explain the effect of the simile-like image 'beam sweep the black water'.",
+          extract: {
+            title: "The Lighthouse Keeper",
+            author: "Written for Akademik Space",
+            text: "Elias climbed the spiral stairs each evening, though his knees complained louder than the wind. At the top he trimmed the lamp and watched the beam sweep the black water. Below, the village slept. He had kept the light for forty years, and he could not imagine the dark without it.",
+          },
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Imagery",
+                statement:
+                  "The sweeping beam against black water creates contrast and rhythm.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Light against black water creates strong contrast.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "The motion suggests vigilance and solitude.",
+                marks: 1,
+                markCode: "AO3",
+              },
+            ],
+            finalAnswer:
+              "The sweeping light on black water creates contrast and a mood of solitary vigilance.",
+            commonErrors: ["Describing the image without its effect."],
+          },
+        },
+        {
+          id: "cie-ol-fl-un-q8",
+          difficulty: "challenge",
+          totalMarks: 3,
+          stem: "What does Mara's reaction to the letter reveal about her character?",
+          extract: {
+            title: "The Locked Door",
+            author: "Written for Akademik Space",
+            text: "Mara's brother had hidden the letter under the floorboard the week before he left for the coast. She found it by accident — a corner of blue paper catching the light as she reached for a lost coin. The handwriting was familiar in a way that made her stomach tighten.",
+          },
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "skill",
+                name: "Character inference",
+                statement: "Physical reaction reveals emotional significance.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "'Stomach tighten' shows nervousness or dread.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "The letter clearly matters deeply to her.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "Inference linked to the physical detail.",
+                marks: 1,
+                markCode: "AO3",
+              },
+            ],
+            finalAnswer:
+              "She is anxious and emotionally invested; the letter has hidden significance for her.",
+            commonErrors: ["Stating the discovery without inferring feeling."],
+          },
+        },
+        {
+          id: "cie-ol-fl-un-q9",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "How does the final sentence shift the mood of the first-snow extract?",
+          extract: {
+            title: "The First Snow",
+            author: "Written for Akademik Space",
+            text: "It began as dust, then as flakes, then as a world turned white. The children were out before breakfast, leaving perfect tracks across the untouched garden. Their mother watched from the kitchen window, coffee going cold, thinking how quickly beauty can arrive and how quickly it will leave.",
+          },
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "skill",
+                name: "Mood shift",
+                statement:
+                  "The ending turns wonder into bittersweet awareness of impermanence.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "The opening is joyful — children playing in snow.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "The mother's cold coffee signals stillness and thought.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "'Quickly it will leave' introduces melancholy.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "Clear explanation of the shift.",
+                marks: 1,
+                markCode: "AO3",
+              },
+            ],
+            finalAnswer:
+              "The ending shifts from joy to bittersweet awareness that beauty is temporary.",
+            commonErrors: ["Missing the tonal turn in the last sentence."],
+          },
+        },
+        {
+          id: "cie-ol-fl-un-q10",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "What is 'narrative voice'?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "The volume of the narrator" },
+              { id: "b", text: "The perspective and style through which a story is told" },
+              { id: "c", text: "A list of characters" },
+              { id: "d", text: "The book's title" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Narrative voice",
+                statement:
+                  "The perspective and stylistic identity of the narrator.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Voice = perspective + style.",
+                marks: 1,
+                markCode: "AO1",
+              },
+            ],
+            finalAnswer: "**(a)** The perspective and style through which a story is told",
+            commonErrors: ["Confusing voice with plot or character list."],
+          },
+        },
+        {
+          id: "cie-ol-fl-un-q11",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "What connotation does 'untouched' carry in the snow extract?",
+          extract: {
+            title: "The First Snow",
+            author: "Written for Akademik Space",
+            text: "It began as dust, then as flakes, then as a world turned white. The children were out before breakfast, leaving perfect tracks across the untouched garden. Their mother watched from the kitchen window, coffee going cold, thinking how quickly beauty can arrive and how quickly it will leave.",
+          },
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Pristine and newly blank" },
+              { id: "b", text: "Dirty and neglected" },
+              { id: "c", text: "Artificial" },
+              { id: "d", text: "Dangerous" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Connotation",
+                statement:
+                  "'Untouched' suggests purity and fresh possibility, not neglect.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Positive connotation of freshness.",
+                marks: 1,
+                markCode: "AO2",
+              },
+            ],
+            finalAnswer: "**(a)** Pristine and newly blank",
+            commonErrors: ["Reading 'untouched' as negative."],
+          },
+        },
+        {
+          id: "cie-ol-fl-un-q12",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "Give two details from the lighthouse extract that create a mood of solitude.",
+          extract: {
+            title: "The Lighthouse Keeper",
+            author: "Written for Akademik Space",
+            text: "Elias climbed the spiral stairs each evening, though his knees complained louder than the wind. At the top he trimmed the lamp and watched the beam sweep the black water. Below, the village slept. He had kept the light for forty years, and he could not imagine the dark without it.",
+          },
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Atmosphere",
+                statement:
+                  "Isolated setting and routine details create solitude.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "'Below, the village slept' — he is apart from everyone.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "'Black water' and solitary lamp-keeping reinforce isolation.",
+                marks: 1,
+                markCode: "AO3",
+              },
+            ],
+            finalAnswer:
+              "The sleeping village below and the lone light on black water create solitude.",
+            commonErrors: ["Naming mood without supporting details."],
+          },
+        },
+        {
+          id: "cie-ol-fl-un-q13",
+          difficulty: "challenge",
+          totalMarks: 3,
+          stem: "How can a setting mirror a character's internal state in fiction?",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Setting and mood",
+                statement:
+                  "External surroundings can echo or contrast inner feelings.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Stormy weather can echo turmoil; calm can heighten tension.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "The mirror deepens understanding of the character.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "Clear explanation of the technique.",
+                marks: 1,
+                markCode: "AO3",
+              },
+            ],
+            finalAnswer:
+              "Setting can mirror inner feelings or contrast them, deepening characterisation.",
+            commonErrors: ["Describing setting without linking to character."],
+          },
+        },
+        {
+          id: "cie-ol-fl-un-q14",
+          difficulty: "challenge",
+          totalMarks: 8,
+          stem: "The Garden Gate",
+          extract: {
+            title: "The Garden Gate",
+            author: "Written for Akademik Space",
+            text: "The gate had not been opened in years. Ivy had climbed its bars like fingers gripping a railing. When Ana pushed it, the hinges screamed — a sound like a memory she had almost forgotten. Beyond it, the garden was wild but not dead: seeds waited under the soil for someone to remember them.",
+          },
+          parts: [
+            { label: "a", prompt: "State two literal details about the gate.", marks: 2 },
+            { label: "b", prompt: "Explain the image 'ivy... like fingers gripping a railing'.", marks: 2 },
+            { label: "c", prompt: "What might 'a memory she had almost forgotten' suggest?", marks: 2 },
+            { label: "d", prompt: "What does 'seeds waited' imply about the garden's future?", marks: 2 },
+          ],
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "skill",
+                name: "Fiction analysis",
+                statement: "Literal+imagery+inference+symbolism.",
+              },
+            ],
+            steps: [
+              {
+                part: "a",
+                reasoning: "Not opened in years; ivy on the bars.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                part: "a",
+                reasoning: "Accurate stated detail.",
+                marks: 1,
+                markCode: "AO3",
+              },
+              {
+                part: "b",
+                reasoning: "The simile makes ivy seem to hold on possessively.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                part: "b",
+                reasoning: "Suggests the garden's neglect is almost alive.",
+                marks: 1,
+                markCode: "AO3",
+              },
+              {
+                part: "c",
+                reasoning: "The sound triggers buried personal history.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                part: "c",
+                reasoning: "Reasonable inference.",
+                marks: 1,
+                markCode: "AO3",
+              },
+              {
+                part: "d",
+                reasoning: "Renewal is possible — potential lies dormant.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                part: "d",
+                reasoning: "Symbolic interpretation supported.",
+                marks: 1,
+                markCode: "AO3",
+              },
+            ],
+            finalAnswer:
+              "(a) two details (b) ivy holds on/neglect alive (c) buried history (d) dormant renewal",
+            levels: [
+              { level: "Level 2", marks: "1-2", descriptor: "Two details.", part: "a" },
+              { level: "Level 1", marks: "0", descriptor: "Fewer.", part: "a" },
+              { level: "Level 2", marks: "1-2", descriptor: "Image explained.", part: "b" },
+              { level: "Level 1", marks: "0", descriptor: "None.", part: "b" },
+              { level: "Level 2", marks: "1-2", descriptor: "Suggestion given.", part: "c" },
+              { level: "Level 1", marks: "0", descriptor: "None.", part: "c" },
+              { level: "Level 2", marks: "1-2", descriptor: "Interpretation given.", part: "d" },
+              { level: "Level 1", marks: "0", descriptor: "None.", part: "d" },
+            ],
+            commonErrors: ["Quoting without analysis of effect."],
+          },
+        },
+        {
+          id: "cie-ol-fl-un-q15",
+          difficulty: "challenge",
+          totalMarks: 9,
+          stem: "Analysing a narrative extract.",
+          extract: {
+            title: "The Last Ferry",
+            author: "Written for Akademik Space",
+            text: "The ferry horn sounded once, then twice — the signal that no one boarded at the last minute. Daniel stood at the rail watching the town lights smear and fade. His bag was packed. The letter in his pocket had been read so many times the words had blurred, but he knew them by heart.",
+          },
+          parts: [
+            { label: "a", prompt: "State two literal details about Daniel's departure.", marks: 2 },
+            { label: "b", prompt: "Explain the effect of 'lights smear and fade'.", marks: 2 },
+            { label: "c", prompt: "What does the repeated reading of the letter suggest?", marks: 3 },
+            { label: "d", prompt: "How does the extract create a mood of departure?", marks: 2 },
+          ],
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "skill",
+                name: "Fiction analysis",
+                statement: "Literal+imagery+inference+mood.",
+              },
+            ],
+            steps: [
+              {
+                part: "a",
+                reasoning: "Bag packed; on the last ferry leaving town.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                part: "a",
+                reasoning: "Accurate stated detail.",
+                marks: 1,
+                markCode: "AO3",
+              },
+              {
+                part: "b",
+                reasoning: "The visual blur suggests distance and finality.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                part: "b",
+                reasoning: "Effect linked to mood.",
+                marks: 1,
+                markCode: "AO3",
+              },
+              {
+                part: "c",
+                reasoning: "The letter is deeply important to him.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                part: "c",
+                reasoning: "Repetition shows longing or unresolved feeling.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                part: "c",
+                reasoning: "Inference anchored in detail.",
+                marks: 1,
+                markCode: "AO3",
+              },
+              {
+                part: "d",
+                reasoning: "Finality in horn signals, fading lights, packed bag.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                part: "d",
+                reasoning: "Mood coherently explained.",
+                marks: 1,
+                markCode: "AO3",
+              },
+            ],
+            finalAnswer:
+              "(a) two details (b) blur=finality (c) letter=deep feeling (d) finality details",
+            levels: [
+              { level: "Level 2", marks: "1-2", descriptor: "Two details.", part: "a" },
+              { level: "Level 1", marks: "0", descriptor: "Fewer.", part: "a" },
+              { level: "Level 2", marks: "1-2", descriptor: "Effect explained.", part: "b" },
+              { level: "Level 1", marks: "0", descriptor: "None.", part: "b" },
+              { level: "Level 3", marks: "2-3", descriptor: "Inference given.", part: "c" },
+              { level: "Level 2", marks: "1", descriptor: "Partial.", part: "c" },
+              { level: "Level 1", marks: "0", descriptor: "None.", part: "c" },
+              { level: "Level 2", marks: "1-2", descriptor: "Mood explained.", part: "d" },
+              { level: "Level 1", marks: "0", descriptor: "None.", part: "d" },
+            ],
+            commonErrors: ["Quoting without analysis of effect."],
+          },
+        },
+        {
+          id: "cie-ol-fl-un-q16",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "Discuss why considering where an extract sits in a whole text matters.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "skill",
+                name: "Extract context",
+                statement:
+                  "Position (opening/climax/ending) shapes what the extract is doing.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "An opening establishes character and mood.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "A climax concentrates tension; an ending resolves or lingers.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "Position changes how details should be interpreted.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "Clear discussion.",
+                marks: 1,
+                markCode: "AO3",
+              },
+            ],
+            finalAnswer:
+              "Position shapes function: openings set up, climaxes intensify, endings resolve.",
+            commonErrors: ["Analysing the extract as if it were the whole text."],
+          },
+        },
       ],
     },
     {
@@ -392,12 +968,12 @@ export const lesson163: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A grouped set of lines in a poem" },
-              { id: "b", text: "A single line of verse" },
-              { id: "c", text: "A stage direction" },
-              { id: "d", text: "A type of rhyme" },
+              { id: "a", text: "A type of rhyme" },
+              { id: "b", text: "A stage direction" },
+              { id: "c", text: "A single line of verse" },
+              { id: "d", text: "A grouped set of lines in a poem" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -666,6 +1242,594 @@ export const lesson163: Lesson = {
             commonErrors: [
               "Reading dialogue literally without considering subtext.",
             ],
+          },
+        },
+        {
+          id: "cie-ol-fl-upd-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "What is a 'rhyme scheme'?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "The pattern of rhyming lines in a poem" },
+              { id: "b", text: "The number of stanzas" },
+              { id: "c", text: "A stage direction" },
+              { id: "d", text: "The poem's title" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Rhyme scheme",
+                statement: "The pattern of end-rhymes across a poem's lines.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Rhyme scheme = pattern of rhymes.",
+                marks: 1,
+                markCode: "AO1",
+              },
+            ],
+            finalAnswer: "**(a)** The pattern of rhyming lines in a poem",
+            commonErrors: ["Confusing with stanza count or form."],
+          },
+        },
+        {
+          id: "cie-ol-fl-upd-q6",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Which sound device dominates this poem?",
+          extract: {
+            title: "The Rain",
+            author: "Written for Akademik Space",
+            text: "Soft rain on the sill,\nsoft footsteps down the hill.\nSoft hands on the latch,\nsoft breath — and then, not much.",
+            lineNumbers: true,
+          },
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "A metaphor" },
+              { id: "b", text: "Repetition of the 'soft' sound (alliteration)" },
+              { id: "c", text: "Onomatopoeia only" },
+              { id: "d", text: "Rhyme" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Sound devices",
+                statement: "Repeated initial 's' sounds create a hushed, soft effect.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "'Soft' repeats the s-sound each line.",
+                marks: 1,
+                markCode: "AO2",
+              },
+            ],
+            finalAnswer: "**(a)** Repetition of the 'soft' sound (alliteration)",
+            commonErrors: ["Missing the repeated initial sound."],
+          },
+        },
+        {
+          id: "cie-ol-fl-upd-q7",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "Explain the image 'counts crumbs of time like sugar'.",
+          extract: {
+            title: "The Clock",
+            author: "Written for Akademik Space",
+            text: "Tick, tock, the hallway clock\ncounts crumbs of time like sugar.\nEach chime a small, bright knock\non doors of rooms I used to know.",
+            lineNumbers: true,
+          },
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Imagery",
+                statement:
+                  "The simile makes time feel small, sweet and counted out.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Time is compared to crumbs/sugar — small and sweet.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "Suggests time passing in small, precious pieces.",
+                marks: 1,
+                markCode: "AO3",
+              },
+            ],
+            finalAnswer:
+              "The simile makes passing time feel small, sweet and counted out.",
+            commonErrors: ["Paraphrasing without explaining the comparison's effect."],
+          },
+        },
+        {
+          id: "cie-ol-fl-upd-q8",
+          difficulty: "challenge",
+          totalMarks: 3,
+          stem: "What do the stage directions reveal about Marcus?",
+          extract: {
+            title: "The Kitchen",
+            author: "Written for Akademik Space",
+            source: "A play extract",
+            text: "ELENA: (folding the letter) You came back.\nMARCUS: (not meeting her eyes) The train was late.\nELENA: (smiling) It always is.\n(Marcus looks at the window.)",
+            lineNumbers: true,
+          },
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Stage directions",
+                statement:
+                  "Physical actions reveal what characters hide in dialogue.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "'Not meeting her eyes' suggests guilt or avoidance.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "Looking at the window is further evasion.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "He is hiding something from Elena.",
+                marks: 1,
+                markCode: "AO3",
+              },
+            ],
+            finalAnswer:
+              "Marcus avoids eye contact and looks away — he is hiding something.",
+            commonErrors: ["Reading dialogue literally without the directions."],
+          },
+        },
+        {
+          id: "cie-ol-fl-upd-q9",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "Explain the subtext of Elena's line 'It always is.'",
+          extract: {
+            title: "The Kitchen",
+            author: "Written for Akademik Space",
+            source: "A play extract",
+            text: "ELENA: (folding the letter) You came back.\nMARCUS: (not meeting her eyes) The train was late.\nELENA: (smiling) It always is.\n(Marcus looks at the window.)",
+            lineNumbers: true,
+          },
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "skill",
+                name: "Subtext",
+                statement:
+                  "The smile and 'always' hint she knows more than she says.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "On the surface she agrees the train is late.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "'It always is' with a smile suggests she doubts his excuse.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "The letter detail hints at a deeper reason for his return.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "Clear subtext explanation.",
+                marks: 1,
+                markCode: "AO3",
+              },
+            ],
+            finalAnswer:
+              "She politely accepts his excuse but her smile suggests she knows he is hiding the real reason.",
+            commonErrors: ["Taking the line literally as agreement."],
+          },
+        },
+        {
+          id: "cie-ol-fl-upd-q10",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "What is 'dramatic irony'?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "When a character tells a joke" },
+              { id: "b", text: "A type of stage light" },
+              { id: "c", text: "When the play ends happily" },
+              { id: "d", text: "When the audience knows more than a character" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Dramatic irony",
+                statement:
+                  "The audience knows something a character does not, creating tension.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Dramatic irony = audience > character knowledge.",
+                marks: 1,
+                markCode: "AO1",
+              },
+            ],
+            finalAnswer: "**(a)** When the audience knows more than a character",
+            commonErrors: ["Confusing with situational irony."],
+          },
+        },
+        {
+          id: "cie-ol-fl-upd-q11",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "What is the tone of 'The Clock' poem?",
+          extract: {
+            title: "The Clock",
+            author: "Written for Akademik Space",
+            text: "Tick, tock, the hallway clock\ncounts crumbs of time like sugar.\nEach chime a small, bright knock\non doors of rooms I used to know.",
+            lineNumbers: true,
+          },
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Furious" },
+              { id: "b", text: "Comedic" },
+              { id: "c", text: "Nostalgic and reflective" },
+              { id: "d", text: "Indifferent" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Tone",
+                statement:
+                  "'Rooms I used to know' signals longing for the past.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Memory of past rooms = nostalgia.",
+                marks: 1,
+                markCode: "AO2",
+              },
+            ],
+            finalAnswer: "**(a)** Nostalgic and reflective",
+            commonErrors: ["Missing the wistful tone."],
+          },
+        },
+        {
+          id: "cie-ol-fl-upd-q12",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "Give two details from 'The Clock' that create its mood.",
+          extract: {
+            title: "The Clock",
+            author: "Written for Akademik Space",
+            text: "Tick, tock, the hallway clock\ncounts crumbs of time like sugar.\nEach chime a small, bright knock\non doors of rooms I used to know.",
+            lineNumbers: true,
+          },
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Mood",
+                statement:
+                  "The ticking sound and memory of rooms create a hushed, wistful mood.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "'Tick, tock' and 'crumbs of time' create quiet, passing time.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "'Rooms I used to know' adds nostalgia.",
+                marks: 1,
+                markCode: "AO3",
+              },
+            ],
+            finalAnswer:
+              "The ticking clock and memory of past rooms create a hushed, nostalgic mood.",
+            commonErrors: ["Naming mood without textual support."],
+          },
+        },
+        {
+          id: "cie-ol-fl-upd-q13",
+          difficulty: "challenge",
+          totalMarks: 3,
+          stem: "How can line breaks and stanza shape affect a poem's meaning?",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Poetic form",
+                statement:
+                  "Line breaks control pace and emphasis; stanza breaks mark shifts.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "A line break can pause or emphasise a word.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "Stanza breaks can signal a change in tone or subject.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "Form is part of meaning, not decoration.",
+                marks: 1,
+                markCode: "AO3",
+              },
+            ],
+            finalAnswer:
+              "Line and stanza breaks control pace, emphasis and shifts — form carries meaning.",
+            commonErrors: ["Treating form as irrelevant to meaning."],
+          },
+        },
+        {
+          id: "cie-ol-fl-upd-q14",
+          difficulty: "challenge",
+          totalMarks: 8,
+          stem: "The Old Violin",
+          extract: {
+            title: "The Old Violin",
+            author: "Written for Akademik Space",
+            text: "She lifted the violin, rosined the bow,\nand played the tune her mother knew.\nThe strings complained, thin and rusty,\nbut she played on — because she had to.",
+            lineNumbers: true,
+          },
+          parts: [
+            { label: "a", prompt: "State two literal details about the playing.", marks: 2 },
+            { label: "b", prompt: "Explain the personification in line 3.", marks: 2 },
+            { label: "c", prompt: "What might 'because she had to' suggest?", marks: 2 },
+            { label: "d", prompt: "What mood does the poem create? Justify.", marks: 2 },
+          ],
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "skill",
+                name: "Poetry analysis",
+                statement: "Literal+device+inference+mood.",
+              },
+            ],
+            steps: [
+              {
+                part: "a",
+                reasoning: "She rosined the bow; played her mother's tune.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                part: "a",
+                reasoning: "Accurate stated detail.",
+                marks: 1,
+                markCode: "AO3",
+              },
+              {
+                part: "b",
+                reasoning: "'Strings complained' gives human feeling to the instrument.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                part: "b",
+                reasoning: "Suggests the violin is old/worn yet she persists.",
+                marks: 1,
+                markCode: "AO3",
+              },
+              {
+                part: "c",
+                reasoning: "Duty, obligation or emotional necessity.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                part: "c",
+                reasoning: "Reasonable inference from 'had to'.",
+                marks: 1,
+                markCode: "AO3",
+              },
+              {
+                part: "d",
+                reasoning: "A mood such as poignant, dutiful or mournful.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                part: "d",
+                reasoning: "Justified by the worn violin and mother's tune.",
+                marks: 1,
+                markCode: "AO3",
+              },
+            ],
+            finalAnswer:
+              "(a) two details (b) personification=wear/age (c) duty/necessity (d) poignant mood",
+            levels: [
+              { level: "Level 2", marks: "1-2", descriptor: "Two details.", part: "a" },
+              { level: "Level 1", marks: "0", descriptor: "Fewer.", part: "a" },
+              { level: "Level 2", marks: "1-2", descriptor: "Device explained.", part: "b" },
+              { level: "Level 1", marks: "0", descriptor: "None.", part: "b" },
+              { level: "Level 2", marks: "1-2", descriptor: "Suggestion given.", part: "c" },
+              { level: "Level 1", marks: "0", descriptor: "None.", part: "c" },
+              { level: "Level 2", marks: "1-2", descriptor: "Mood justified.", part: "d" },
+              { level: "Level 1", marks: "0", descriptor: "None.", part: "d" },
+            ],
+            commonErrors: ["Paraphrasing lines without analysing effect."],
+          },
+        },
+        {
+          id: "cie-ol-fl-upd-q15",
+          difficulty: "challenge",
+          totalMarks: 9,
+          stem: "Analysing a play extract.",
+          extract: {
+            title: "The Letter",
+            author: "Written for Akademik Space",
+            source: "A play extract",
+            text: "SANA: (holding the envelope) This came for you.\nOMAR: (not touching it) Who from?\nSANA: (smiling) You know who.\n(He finally takes it, but does not open it.)",
+            lineNumbers: true,
+          },
+          parts: [
+            { label: "a", prompt: "Identify the main subtext of the exchange.", marks: 2 },
+            { label: "b", prompt: "Explain the effect of Omar's stage direction.", marks: 2 },
+            { label: "c", prompt: "How might dramatic irony operate here?", marks: 2 },
+            { label: "d", prompt: "Describe the mood of the scene and justify.", marks: 3 },
+          ],
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "skill",
+                name: "Drama analysis",
+                statement: "Subtext+directions+irony+mood.",
+              },
+            ],
+            steps: [
+              {
+                part: "a",
+                reasoning: "Tension and avoidance around a significant letter.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                part: "a",
+                reasoning: "Subtext clearly identified.",
+                marks: 1,
+                markCode: "AO3",
+              },
+              {
+                part: "b",
+                reasoning: "Taking but not opening shows fear or reluctance.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                part: "b",
+                reasoning: "The direction contradicts his words, revealing feeling.",
+                marks: 1,
+                markCode: "AO3",
+              },
+              {
+                part: "c",
+                reasoning: "If the audience knows the letter's contents, his hesitation gains irony.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                part: "c",
+                reasoning: "Reasonable dramatic-irony reading.",
+                marks: 1,
+                markCode: "AO3",
+              },
+              {
+                part: "d",
+                reasoning: "A mood such as tense, uneasy or suspenseful.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                part: "d",
+                reasoning: "Justified by avoidance and the unopened letter.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                part: "d",
+                reasoning: "Mood coherently explained.",
+                marks: 1,
+                markCode: "AO3",
+              },
+            ],
+            finalAnswer:
+              "(a) avoidance around letter (b) reluctance revealed (c) audience knowledge=irony (d) tense mood",
+            levels: [
+              { level: "Level 2", marks: "1-2", descriptor: "Subtext given.", part: "a" },
+              { level: "Level 1", marks: "0", descriptor: "Literal only.", part: "a" },
+              { level: "Level 2", marks: "1-2", descriptor: "Direction explained.", part: "b" },
+              { level: "Level 1", marks: "0", descriptor: "None.", part: "b" },
+              { level: "Level 2", marks: "1-2", descriptor: "Irony identified.", part: "c" },
+              { level: "Level 1", marks: "0", descriptor: "None.", part: "c" },
+              { level: "Level 3", marks: "2-3", descriptor: "Mood justified.", part: "d" },
+              { level: "Level 2", marks: "1", descriptor: "Partial.", part: "d" },
+              { level: "Level 1", marks: "0", descriptor: "None.", part: "d" },
+            ],
+            commonErrors: ["Reading dialogue literally without considering subtext."],
+          },
+        },
+        {
+          id: "cie-ol-fl-upd-q16",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "Discuss how ambiguity can be a deliberate poetic effect.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "skill",
+                name: "Ambiguity",
+                statement:
+                  "Open meanings invite multiple readings and reward careful interpretation.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Ambiguous images can hold several valid meanings.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "This engages the reader in interpretation.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "Strong answers support one reading with evidence.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "Clear discussion.",
+                marks: 1,
+                markCode: "AO3",
+              },
+            ],
+            finalAnswer:
+              "Ambiguity invites interpretation; supported readings show skill.",
+            commonErrors: ["Assuming ambiguity is always a flaw."],
           },
         },
       ],

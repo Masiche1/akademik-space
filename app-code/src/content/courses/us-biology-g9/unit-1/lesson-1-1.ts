@@ -49,10 +49,10 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Proteins and fatty acids" },
-              { id: "b", text: "Nucleic acids and amino acids" },
+              { id: "a", text: "Carbohydrates and nucleotides" },
+              { id: "b", text: "Proteins and fatty acids" },
               { id: "c", text: "Proteins and amino acids" },
-              { id: "d", text: "Carbohydrates and nucleotides" },
+              { id: "d", text: "Nucleic acids and amino acids" },
             ],
             correctChoiceId: "c",
           },
@@ -171,12 +171,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The place where the enzyme is made in the cell" },
-              { id: "b", text: "The region with a specific shape where the substrate binds" },
-              { id: "c", text: "The part of the enzyme that is destroyed in the reaction" },
+              { id: "a", text: "The region with a specific shape where the substrate binds" },
+              { id: "b", text: "The part of the enzyme that is destroyed in the reaction" },
+              { id: "c", text: "The place where the enzyme is made in the cell" },
               { id: "d", text: "The product released at the end of the reaction" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Active site", statement: "The active site is the region of an enzyme whose shape is complementary to the substrate." }],

@@ -51,12 +51,12 @@ export const lesson112: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Excess nutrients (nitrates/phosphates) in water" },
-              { id: "b", text: "Oil spills" },
-              { id: "c", text: "Acid rain" },
+              { id: "a", text: "Oil spills" },
+              { id: "b", text: "Acid rain" },
+              { id: "c", text: "Excess nutrients (nitrates/phosphates) in water" },
               { id: "d", text: "Deforestation" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -137,6 +137,282 @@ export const lesson112: Lesson = {
             commonErrors: ["In (a) saying 'ozone hole' — different issue (though related to UV, not warming)."],
           },
         },
+        {
+          id: "olbio-u11-human-impacts-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Which are greenhouse gases?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Oxygen and nitrogen" },
+              { id: "b", text: "Helium and argon" },
+              { id: "c", text: "Carbon dioxide and methane" },
+              { id: "d", text: "Hydrogen and ozone only" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Greenhouse gases", statement: "CO₂ and methane trap heat in the atmosphere." },
+            ],
+            steps: [
+              { reasoning: "Recall common greenhouse gases.", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(b)** Carbon dioxide and methane",
+            commonErrors: ["Choosing oxygen/nitrogen — they are not greenhouse gases."],
+          },
+        },
+        {
+          id: "olbio-u11-human-impacts-q6",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Which sequence describes eutrophication?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Fish die → algae grow → nutrients disappear" },
+              { id: "b", text: "Acid rain → algae bloom → oxygen rises" },
+              { id: "c", text: "Nutrients → algal bloom → decomposition uses oxygen → fish die" },
+              { id: "d", text: "Oxygen rises → plants die → nutrients fall" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Eutrophication", statement: "Nutrient overload causes algal bloom, deoxygenation and fish deaths." },
+            ],
+            steps: [
+              { reasoning: "Recall the causal chain.", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** Nutrients → algal bloom → decomposition uses oxygen → fish die",
+            commonErrors: ["Reversing the sequence — oxygen falls after decomposition."],
+          },
+        },
+        {
+          id: "olbio-u11-human-impacts-q7",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "What is a disadvantage of monoculture farming?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "It always increases biodiversity" },
+              { id: "b", text: "It prevents soil erosion" },
+              { id: "c", text: "It reduces biodiversity and can increase pest problems" },
+              { id: "d", text: "It uses no fertiliser" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Monoculture", statement: "One crop reduces biodiversity and can increase vulnerability to pests/disease." },
+            ],
+            steps: [
+              { reasoning: "Recall the ecological drawback.", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(b)** It reduces biodiversity and can increase pest problems",
+            commonErrors: ["Thinking monoculture is always beneficial."],
+          },
+        },
+        {
+          id: "olbio-u11-human-impacts-q8",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "How is acid rain formed?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "CO₂ dissolves in rain only" },
+              { id: "b", text: "Oxygen combines with rain" },
+              { id: "c", text: "Plants release acid gases" },
+              { id: "d", text: "SO₂ and NOₓ react with water vapour to form acids" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Acid rain formation", statement: "SO₂/NOₓ + water vapour → sulphuric/nitric acid." },
+            ],
+            steps: [
+              { reasoning: "Recall the formation steps.", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(b)** SO₂ and NOₓ react with water vapour to form acids",
+            commonErrors: ["Naming only CO₂ — that is mainly greenhouse gas."],
+          },
+        },
+        {
+          id: "olbio-u11-human-impacts-q9",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "What is pollution?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Movement of animals" },
+              { id: "b", text: "Contamination of air, water or soil by harmful substances" },
+              { id: "c", text: "Growth of a population" },
+              { id: "d", text: "The natural cycling of nutrients" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              { kind: "definition", name: "Pollution", statement: "Harmful contamination of air, water or soil." },
+            ],
+            steps: [
+              { reasoning: "Recall the definition.", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(b)** Contamination of air, water or soil by harmful substances",
+            commonErrors: ["Confusing pollution with natural nutrient cycling."],
+          },
+        },
+        {
+          id: "olbio-u11-human-impacts-q10",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Fertiliser runoff contains 300 kg of nitrate and 20% reaches a lake. Calculate the mass entering the lake.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 60, unit: "kg" }],
+          },
+          markscheme: {
+            principles: [
+              { kind: "formula", name: "Percentage of mass", statement: "Mass reaching lake = total × percentage." },
+            ],
+            steps: [
+              { reasoning: "Calculate 20% of 300 kg.", working: "300 × 0.20 = 60", marks: 1, markCode: "M" },
+            ],
+            finalAnswer: "60 kg",
+            commonErrors: ["Using 300/20 — the percentage is multiplied."],
+          },
+        },
+        {
+          id: "olbio-u11-human-impacts-q11",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "A country emits 5000 tonnes of CO₂ and aims to cut emissions by 10%. Calculate the reduction target.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 500, unit: "tonnes" }],
+          },
+          markscheme: {
+            principles: [
+              { kind: "formula", name: "Percentage reduction", statement: "Reduction = emissions × percentage." },
+            ],
+            steps: [
+              { reasoning: "Calculate 10% of 5000 tonnes.", working: "5000 × 0.10 = 500", marks: 1, markCode: "M" },
+            ],
+            finalAnswer: "500 tonnes",
+            commonErrors: ["Answering 5000 — that is total emissions, not the cut."],
+          },
+        },
+        {
+          id: "olbio-u11-human-impacts-q12",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Normal rain has pH 5.6 and acid rain has pH 4.6. Calculate the difference in pH.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 1, unit: "pH units" }],
+          },
+          markscheme: {
+            principles: [
+              { kind: "formula", name: "pH difference", statement: "Difference = normal pH − acid rain pH." },
+            ],
+            steps: [
+              { reasoning: "Subtract the pH values.", working: "5.6 - 4.6 = 1.0", marks: 1, markCode: "M" },
+            ],
+            finalAnswer: "1.0 pH units",
+            commonErrors: ["Remembering pH is logarithmic — a 1 unit difference is a tenfold change in acidity."],
+          },
+        },
+        {
+          id: "olbio-u11-human-impacts-q13",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "A forest covers 10 000 hectares and 15% is cleared. Calculate the area cleared.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 1500, unit: "hectares" }],
+          },
+          markscheme: {
+            principles: [
+              { kind: "formula", name: "Percentage of area", statement: "Cleared area = total × percentage." },
+            ],
+            steps: [
+              { reasoning: "Calculate 15% of 10000 ha.", working: "10000 × 0.15 = 1500", marks: 1, markCode: "M" },
+            ],
+            finalAnswer: "1500 hectares",
+            commonErrors: ["Answering 15 hectares — that is 0.15%."],
+          },
+        },
+        {
+          id: "olbio-u11-human-impacts-q14",
+          difficulty: "challenge",
+          totalMarks: 1,
+          stem: "A lake has dissolved oxygen of 8.0 mg/L and algal decomposition lowers it by 2.5 mg/L. Calculate the oxygen remaining.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 5.5, unit: "mg/L" }],
+          },
+          markscheme: {
+            principles: [
+              { kind: "formula", name: "Oxygen remaining", statement: "Remaining = initial − decrease." },
+            ],
+            steps: [
+              { reasoning: "Subtract the oxygen loss.", working: "8.0 - 2.5 = 5.5", marks: 1, markCode: "M" },
+            ],
+            finalAnswer: "5.5 mg/L",
+            commonErrors: ["Adding the decrease instead of subtracting."],
+          },
+        },
+        {
+          id: "olbio-u11-human-impacts-q15",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Which activity is a major source of sulphur dioxide pollution?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Using solar panels" },
+              { id: "b", text: "Composting waste" },
+              { id: "c", text: "Burning fossil fuels" },
+              { id: "d", text: "Planting trees" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "SO₂ source", statement: "Fossil fuel combustion releases SO₂ that forms acid rain." },
+            ],
+            steps: [
+              { reasoning: "Recall the source of SO₂.", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(b)** Burning fossil fuels",
+            commonErrors: ["Choosing renewable energy — it reduces emissions."],
+          },
+        },
+        {
+          id: "olbio-u11-human-impacts-q16",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "Explain how fertiliser runoff can lead to the death of fish in a lake.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Eutrophication", statement: "Nutrients → algal bloom → decomposition → oxygen depletion → fish deaths." },
+            ],
+            steps: [
+              { reasoning: "Nitrates/phosphates enter the water from fertiliser.", working: "\\text{nutrient runoff}", marks: 1, markCode: "M" },
+              { reasoning: "Nutrients cause an algal bloom.", working: "\\text{algal bloom}", marks: 1, markCode: "M" },
+              { reasoning: "Decomposers break down algae and use dissolved oxygen.", working: "\\text{decomposition}", marks: 1, markCode: "M" },
+              { reasoning: "Oxygen falls and fish die from suffocation.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "Fertiliser runoff adds nitrates/phosphates; these cause an algal bloom; decomposers consume oxygen breaking down the algae; dissolved oxygen falls and fish suffocate.",
+            commonErrors: ["Stopping at algal bloom — must link to oxygen depletion and fish death."],
+          },
+        },
       ],
     },
     {
@@ -173,12 +449,12 @@ export const lesson112: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Fishing at levels allowing stocks to replenish" },
-              { id: "b", text: "Catching as many fish as possible" },
-              { id: "c", text: "Using dynamite" },
+              { id: "a", text: "Catching as many fish as possible" },
+              { id: "b", text: "Using dynamite" },
+              { id: "c", text: "Fishing at levels allowing stocks to replenish" },
               { id: "d", text: "Fishing only in rivers" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -258,6 +534,282 @@ export const lesson112: Lesson = {
             ],
             finalAnswer: "(a) biodiversity, resources, intrinsic value (b) protected areas, sustainable use (c) meet needs without compromising future",
             commonErrors: ["In (c) saying 'use everything now' — that's the opposite of sustainable."],
+          },
+        },
+        {
+          id: "olbio-u11-conservation-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Which is a method of sustainable fishing?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Fishing only at night" },
+              { id: "b", text: "Setting quotas, minimum mesh sizes and closed seasons" },
+              { id: "c", text: "Ignoring stock levels" },
+              { id: "d", text: "Using very small mesh nets" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Sustainable fishing", statement: "Quotas, mesh limits and closed seasons let stocks replenish." },
+            ],
+            steps: [
+              { reasoning: "Recall sustainable measures.", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(b)** Setting quotas, minimum mesh sizes and closed seasons",
+            commonErrors: ["Choosing small mesh — that catches juveniles and is unsustainable."],
+          },
+        },
+        {
+          id: "olbio-u11-conservation-q6",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "What is the purpose of a protected area such as a national park?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "To store waste" },
+              { id: "b", text: "To conserve habitats and biodiversity" },
+              { id: "c", text: "To allow unlimited farming" },
+              { id: "d", text: "To build factories" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Protected areas", statement: "They conserve habitats and protect species." },
+            ],
+            steps: [
+              { reasoning: "Recall the conservation purpose.", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(b)** To conserve habitats and biodiversity",
+            commonErrors: ["Thinking protected areas are for development."],
+          },
+        },
+        {
+          id: "olbio-u11-conservation-q7",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Why are captive breeding programmes used?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "To make animals live longer in zoos only" },
+              { id: "b", text: "To increase the number of endangered species for release" },
+              { id: "c", text: "To produce food faster" },
+              { id: "d", text: "To breed pets" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Captive breeding", statement: "Breeding endangered species can produce individuals for release." },
+            ],
+            steps: [
+              { reasoning: "Recall the conservation aim.", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** To increase the number of endangered species for release",
+            commonErrors: ["Thinking captive breeding is only for display."],
+          },
+        },
+        {
+          id: "olbio-u11-conservation-q8",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "What is an advantage of organic farming?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "It avoids synthetic chemicals, reducing pollution" },
+              { id: "b", text: "It always gives higher yields" },
+              { id: "c", text: "It uses more synthetic chemicals" },
+              { id: "d", text: "It removes the need for soil" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Organic farming", statement: "Organic methods avoid synthetic chemicals and reduce pollution." },
+            ],
+            steps: [
+              { reasoning: "Recall the environmental benefit.", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(b)** It avoids synthetic chemicals, reducing pollution",
+            commonErrors: ["Claiming always higher yield — organic can be lower yielding."],
+          },
+        },
+        {
+          id: "olbio-u11-conservation-q9",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "How does renewable energy help conservation?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "It removes the need for energy" },
+              { id: "b", text: "It increases deforestation" },
+              { id: "c", text: "It reduces reliance on fossil fuels and lowers emissions" },
+              { id: "d", text: "It increases fossil fuel burning" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Renewable energy", statement: "Solar/wind reduce fossil fuel use and emissions." },
+            ],
+            steps: [
+              { reasoning: "Recall the environmental benefit.", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(b)** It reduces reliance on fossil fuels and lowers emissions",
+            commonErrors: ["Thinking renewable energy removes all energy demand."],
+          },
+        },
+        {
+          id: "olbio-u11-conservation-q10",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "A fish stock can replenish 1000 tonnes per year but last year's catch was 1200 tonnes. Calculate the overshoot.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 200, unit: "tonnes" }],
+          },
+          markscheme: {
+            principles: [
+              { kind: "formula", name: "Stock overshoot", statement: "Overshoot = catch − sustainable yield." },
+            ],
+            steps: [
+              { reasoning: "Subtract sustainable yield from catch.", working: "1200 - 1000 = 200", marks: 1, markCode: "M" },
+            ],
+            finalAnswer: "200 tonnes",
+            commonErrors: ["Answering 1000 — that is the sustainable limit, not the overshoot."],
+          },
+        },
+        {
+          id: "olbio-u11-conservation-q11",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "A reserve covers 250 km² and 30% is strictly protected. Calculate the strictly protected area.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 75, unit: "km²" }],
+          },
+          markscheme: {
+            principles: [
+              { kind: "formula", name: "Protected area", statement: "Protected area = total × percentage." },
+            ],
+            steps: [
+              { reasoning: "Calculate 30% of 250 km².", working: "250 × 0.30 = 75", marks: 1, markCode: "M" },
+            ],
+            finalAnswer: "75 km²",
+            commonErrors: ["Using 250/30 — percentage is multiplied."],
+          },
+        },
+        {
+          id: "olbio-u11-conservation-q12",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "A forest loses 500 trees but 450 are replanted. Calculate the shortfall.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 50, unit: "trees" }],
+          },
+          markscheme: {
+            principles: [
+              { kind: "formula", name: "Replanting shortfall", statement: "Shortfall = trees lost − trees replanted." },
+            ],
+            steps: [
+              { reasoning: "Subtract replanted from lost.", working: "500 - 450 = 50", marks: 1, markCode: "M" },
+            ],
+            finalAnswer: "50 trees",
+            commonErrors: ["Answering 950 — that is total involved, not the shortfall."],
+          },
+        },
+        {
+          id: "olbio-u11-conservation-q13",
+          difficulty: "challenge",
+          totalMarks: 1,
+          stem: "A captive breeding programme releases 40 animals and 75% survive their first year. Calculate the number surviving.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 30, unit: "animals" }],
+          },
+          markscheme: {
+            principles: [
+              { kind: "formula", name: "Survival", statement: "Survivors = released × survival percentage." },
+            ],
+            steps: [
+              { reasoning: "Calculate 75% of 40.", working: "40 × 0.75 = 30", marks: 1, markCode: "M" },
+            ],
+            finalAnswer: "30 animals",
+            commonErrors: ["Using 40/75 — the percentage is multiplied."],
+          },
+        },
+        {
+          id: "olbio-u11-conservation-q14",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "A village uses 1000 kWh of electricity and 400 kWh comes from solar power. Calculate the percentage from solar.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 40, unit: "%" }],
+          },
+          markscheme: {
+            principles: [
+              { kind: "formula", name: "Energy percentage", statement: "Percentage = renewable / total × 100." },
+            ],
+            steps: [
+              { reasoning: "Calculate the solar share.", working: "400/1000 × 100 = 40", marks: 1, markCode: "M" },
+            ],
+            finalAnswer: "40%",
+            commonErrors: ["Using total/renewable — renewable energy is the numerator."],
+          },
+        },
+        {
+          id: "olbio-u11-conservation-q15",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "What does 'sustainable development' mean?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Meeting present needs without compromising future generations" },
+              { id: "b", text: "Using all resources as fast as possible" },
+              { id: "c", text: "Stopping all farming" },
+              { id: "d", text: "Building more factories" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              { kind: "definition", name: "Sustainable development", statement: "Meet present needs while preserving resources for the future." },
+            ],
+            steps: [
+              { reasoning: "Recall the definition.", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(b)** Meeting present needs without compromising future generations",
+            commonErrors: ["Choosing 'use everything now' — that is unsustainable."],
+          },
+        },
+        {
+          id: "olbio-u11-conservation-q16",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "Explain why conserving biodiversity is important for ecosystems and humans.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Biodiversity value", statement: "Biodiversity supports ecosystem stability and provides resources." },
+            ],
+            steps: [
+              { reasoning: "Biodiversity maintains ecosystem stability and resilience.", working: "\\text{stability}", marks: 1, markCode: "M" },
+              { reasoning: "It provides resources such as food, medicine and materials.", working: "\\text{resources}", marks: 1, markCode: "M" },
+              { reasoning: "It has intrinsic value for future generations.", working: "\\text{intrinsic value}", marks: 1, markCode: "M" },
+              { reasoning: "Conclude conservation protects both ecosystems and human needs.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "Biodiversity keeps ecosystems stable and resilient, provides food, medicine and materials, and has intrinsic value — so conserving it protects both the environment and future human needs.",
+            commonErrors: ["Listing only human benefits — include ecosystem stability too."],
           },
         },
       ],

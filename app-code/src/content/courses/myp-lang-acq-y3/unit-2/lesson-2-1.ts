@@ -56,12 +56,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "I have visit Paris." },
-              { id: "b", text: "I have visited Paris." },
-              { id: "c", text: "I visited have Paris." },
+              { id: "a", text: "I have visited Paris." },
+              { id: "b", text: "I visited have Paris." },
+              { id: "c", text: "I have visit Paris." },
               { id: "d", text: "I have visiting Paris." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -153,12 +153,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "I have eat sushi." },
-              { id: "b", text: "I have eaten sushi." },
-              { id: "c", text: "I have ate sushi." },
-              { id: "d", text: "I have eating sushi." },
+              { id: "a", text: "I have ate sushi." },
+              { id: "b", text: "I have eat sushi." },
+              { id: "c", text: "I have eating sushi." },
+              { id: "d", text: "I have eaten sushi." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -180,12 +180,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "yet" },
-              { id: "b", text: "ever" },
-              { id: "c", text: "already" },
-              { id: "d", text: "since" },
+              { id: "a", text: "already" },
+              { id: "b", text: "since" },
+              { id: "c", text: "ever" },
+              { id: "d", text: "yet" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -207,12 +207,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "I have already finished my homework." },
-              { id: "b", text: "I already have finished my homework." },
-              { id: "c", text: "I have finish already my homework." },
+              { id: "a", text: "I have finish already my homework." },
+              { id: "b", text: "I have already finished my homework." },
+              { id: "c", text: "I already have finished my homework." },
               { id: "d", text: "I am have finished my homework." },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -234,12 +234,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "I think pizza is nice." },
-              { id: "b", text: "I think pizza is nice because it is cheap and tasty." },
+              { id: "a", text: "I think pizza is nice because it is cheap and tasty." },
+              { id: "b", text: "I think pizza is nice." },
               { id: "c", text: "Pizza is on the table." },
               { id: "d", text: "I ate pizza yesterday." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -261,12 +261,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "She has never tried skiing." },
-              { id: "b", text: "He has wrote three books." },
-              { id: "c", text: "They have seen the film." },
-              { id: "d", text: "I have been to Spain." },
+              { id: "a", text: "He has wrote three books." },
+              { id: "b", text: "I have been to Spain." },
+              { id: "c", text: "She has never tried skiing." },
+              { id: "d", text: "They have seen the film." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -289,11 +289,11 @@ export const lesson21: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "took" },
-              { id: "b", text: "taken" },
-              { id: "c", text: "taking" },
-              { id: "d", text: "takes" },
+              { id: "b", text: "takes" },
+              { id: "c", text: "taken" },
+              { id: "d", text: "taking" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -499,11 +499,11 @@ export const lesson21: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "A visual aid" },
-              { id: "b", text: "A phrase that shows the structure, like 'First' or 'In conclusion'" },
-              { id: "c", text: "A type of microphone" },
-              { id: "d", text: "The end of the presentation" },
+              { id: "b", text: "The end of the presentation" },
+              { id: "c", text: "A phrase that shows the structure, like 'First' or 'In conclusion'" },
+              { id: "d", text: "A type of microphone" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -596,11 +596,11 @@ export const lesson21: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Hello everyone, today I will talk about..." },
-              { id: "b", text: "Thank you for listening. Do you have any questions?" },
+              { id: "b", text: "For example, yesterday..." },
               { id: "c", text: "First, let me tell you..." },
-              { id: "d", text: "For example, yesterday..." },
+              { id: "d", text: "Thank you for listening. Do you have any questions?" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -622,12 +622,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A long list of facts" },
-              { id: "b", text: "A greeting and the topic you will talk about" },
-              { id: "c", text: "Only a question" },
-              { id: "d", text: "The conclusion" },
+              { id: "a", text: "Only a question" },
+              { id: "b", text: "The conclusion" },
+              { id: "c", text: "A greeting and the topic you will talk about" },
+              { id: "d", text: "A long list of facts" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -649,12 +649,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Closing → points → opening" },
-              { id: "b", text: "Opening → main points → closing" },
-              { id: "c", text: "Main points → closing → opening" },
-              { id: "d", text: "Any order is fine" },
+              { id: "a", text: "Opening → main points → closing" },
+              { id: "b", text: "Main points → closing → opening" },
+              { id: "c", text: "Any order is fine" },
+              { id: "d", text: "Closing → points → opening" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -676,12 +676,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Speak as fast as possible" },
-              { id: "b", text: "Speak clearly at a steady pace and pause between points" },
+              { id: "a", text: "Speak clearly at a steady pace and pause between points" },
+              { id: "b", text: "Speak as fast as possible" },
               { id: "c", text: "Read every word from notes without looking up" },
               { id: "d", text: "Avoid eye contact" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -709,12 +709,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It has too many points" },
-              { id: "b", text: "It has no structure — no greeting, examples, signposts or proper closing" },
-              { id: "c", text: "It is too long" },
+              { id: "a", text: "It is too long" },
+              { id: "b", text: "It has too many points" },
+              { id: "c", text: "It has no structure — no greeting, examples, signposts or proper closing" },
               { id: "d", text: "It uses too many signposts" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -736,12 +736,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "In conclusion" },
-              { id: "b", text: "For example" },
-              { id: "c", text: "However" },
-              { id: "d", text: "Good morning" },
+              { id: "a", text: "For example" },
+              { id: "b", text: "Good morning" },
+              { id: "c", text: "In conclusion" },
+              { id: "d", text: "However" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

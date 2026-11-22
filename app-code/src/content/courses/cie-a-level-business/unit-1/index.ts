@@ -8,6 +8,7 @@ export const unit1: Unit = {
   id: "ciealbus-u1",
   code: "1",
   title: "Business Activity and Influences",
-  description: "Objectives, ownership, external influences, marketing and operations.",
+  description:
+    "Objectives, ownership, external influences, marketing and operations.",
   lessons: [lesson371, lesson372, lesson373, lesson374],
 };

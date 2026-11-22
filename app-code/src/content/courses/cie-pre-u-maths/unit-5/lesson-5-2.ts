@@ -88,12 +88,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "95%" },
+              { id: "a", text: "99.7%" },
               { id: "b", text: "68%" },
-              { id: "c", text: "99.7%" },
-              { id: "d", text: "50%" },
+              { id: "c", text: "50%" },
+              { id: "d", text: "95%" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -220,6 +220,431 @@ export const lesson52: Lesson = {
               },
             ],
             finalAnswer: "Type I controlled by α; trade-off with Type II.",
+          },
+        },
+        {
+          id: "cipum-u5-sta-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "For a normal distribution, approximately what proportion of values lie within $\\mu \\pm \\sigma$?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "68%" },
+              { id: "b", text: "95%" },
+              { id: "c", text: "99.7%" },
+              { id: "d", text: "50%" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "property",
+                name: "Empirical rule",
+                statement: "μ±σ: ≈68%; μ±2σ: ≈95%; μ±3σ: ≈99.7%.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "$\\mu \\pm \\sigma$ contains approximately 68% of values.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "≈ 68%",
+          },
+        },
+        {
+          id: "cipum-u5-sta-q6",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "If $X \\sim N(50, 25)$, find $P(X > 55)$.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 0.158655, tolerance: 0.001 }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Standardisation",
+                statement: "$z = \\frac{x-\\mu}{\\sigma}$, then use $Z \\sim N(0,1)$.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "$\\sigma = \\sqrt{25} = 5$; $z = \\frac{55-50}{5} = 1$.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "$P(Z > 1) = 1 - 0.8413 = 0.1587$.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "≈ 0.159",
+          },
+        },
+        {
+          id: "cipum-u5-sta-q7",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "A sample of 36 observations has mean $\\bar{x} = 10.5$ with known $\\sigma = 6$. Test $H_0: \\mu = 10$ against $H_1: \\mu > 10$ at the 5% significance level.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "One-sample z-test",
+                statement: "$z = \\frac{\\bar{x}-\\mu}{\\sigma/\\sqrt{n}}$; compare with critical value.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "$z = \\frac{10.5 - 10}{6/\\sqrt{36}} = \\frac{0.5}{1} = 0.5$.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "One-tailed 5% critical value: $z_{0.05} = 1.645$.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "$0.5 < 1.645$ — do not reject $H_0$. Insufficient evidence that $\\mu > 10$.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "Fail to reject $H_0$",
+          },
+        },
+        {
+          id: "cipum-u5-sta-q8",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "For a two-tailed hypothesis test at the 5% significance level, the critical z-value is:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "1.96" },
+              { id: "b", text: "2.576" },
+              { id: "c", text: "1.282" },
+              { id: "d", text: "1.645" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Critical value",
+                statement: "Two-tailed 5% splits α equally: 2.5% in each tail.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Two-tailed 5% test uses $z = 1.96$.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "1.96",
+          },
+        },
+        {
+          id: "cipum-u5-sta-q9",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "If $X \\sim N(70, 16)$, find the value of $x$ for which the z-score is $1.5$.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 76 }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Standardisation",
+                statement: "$z = \\frac{x-\\mu}{\\sigma}$, so $x = \\mu + z\\sigma$.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "$\\sigma = \\sqrt{16} = 4$; $x = 70 + 1.5 \\times 4$.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "$x = 76$.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "76",
+          },
+        },
+        {
+          id: "cipum-u5-sta-q10",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "Explain what is meant by the power of a hypothesis test, and describe two ways to increase it.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Power",
+                statement: "Power = 1 − β = probability of correctly rejecting $H_0$ when $H_1$ is true.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "Power is the probability of rejecting $H_0$ when it is false, i.e. $1 - \\beta$.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "Increasing the sample size reduces the standard error, making the test more sensitive.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "Increasing the significance level α raises the rejection region but increases Type I error risk.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "Both changes increase power; the trade-off is a higher Type I error rate for the second.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer:
+              "Power = 1 − β; increase sample size or significance level.",
+          },
+        },
+        {
+          id: "cipum-u5-sta-q11",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "In a z-test for a mean with known population standard deviation $\\sigma$ and sample size $n$, the standard error of the mean is:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$\\frac{\\sigma}{\\sqrt{n}}$" },
+              { id: "b", text: "$\\frac{\\sigma}{n}$" },
+              { id: "c", text: "$\\sigma$" },
+              { id: "d", text: "$\\sigma \\sqrt{n}$" },
+            ],
+            aorrectChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "law",
+                name: "Standard error",
+                statement: "SE = $\\frac{\\sigma}{\\sqrt{n}}$.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Standard error of the mean is $\\frac{\\sigma}{\\sqrt{n}}$.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "$\\frac{\\sigma}{\\sqrt{n}}$",
+          },
+        },
+        {
+          id: "cipum-u5-sta-q12",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "If $X \\sim N(50, 100)$, what is $P(40 < X < 60)$?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "0.16" },
+              { id: "b", text: "0.05" },
+              { id: "c", text: "0.95" },
+              { id: "d", text: "0.68" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Standardisation",
+                statement: "$z = \\frac{x-\\mu}{\\sigma}$.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "$\\sigma = 10$; bounds give $z = -1$ and $z = 1$; $P(-1<Z<1) \\approx 0.68$.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "≈ 0.68",
+          },
+        },
+        {
+          id: "cipum-u5-sta-q13",
+          difficulty: "challenge",
+          totalMarks: 3,
+          stem: "A sample of size 64 has mean $\\bar{x} = 96$ with known $\\sigma = 16$. Calculate the z-test statistic for $H_0: \\mu = 100$.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: -2 }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "z-test statistic",
+                statement: "$z = \\frac{\\bar{x}-\\mu}{\\sigma/\\sqrt{n}}$.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "Standard error $= \\frac{16}{\\sqrt{64}} = \\frac{16}{8} = 2$.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "$z = \\frac{96 - 100}{2} = -2$.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "Test statistic $z = -2$.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "$z = -2$",
+          },
+        },
+        {
+          id: "cipum-u5-sta-q14",
+          difficulty: "challenge",
+          totalMarks: 1,
+          stem: "Which change increases the power of a hypothesis test?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Increasing the sample size" },
+              { id: "b", text: "Decreasing the sample size" },
+              { id: "c", text: "Decreasing the significance level" },
+              { id: "d", text: "Increasing the variance of the population" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Power",
+                statement: "Larger samples reduce the standard error and increase power.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "Increasing $n$ reduces $\\frac{\\sigma}{\\sqrt{n}}$, making the test more powerful.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "Increasing the sample size",
+          },
+        },
+        {
+          id: "cipum-u5-sta-q15",
+          difficulty: "challenge",
+          totalMarks: 2,
+          stem: "If $X \\sim N(30, 49)$, find $P(X > 37)$.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 0.158655, tolerance: 0.001 }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Standardisation",
+                statement: "$z = \\frac{x-\\mu}{\\sigma}$.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "$\\sigma = 7$; $z = \\frac{37-30}{7} = 1$.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "$P(Z > 1) = 1 - 0.8413 = 0.1587$.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "≈ 0.159",
+          },
+        },
+        {
+          id: "cipum-u5-sta-q16",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "A manufacturer claims the mean mass of packets is 500 g with known $\\sigma = 8$ g. A sample of 64 packets has mean 498 g. Carry out a two-tailed z-test at the 5% significance level.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Two-tailed z-test",
+                statement: "State hypotheses, compute z, compare with critical value, conclude in context.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "$H_0: \\mu = 500$; $H_1: \\mu \\neq 500$; two-tailed, 5% level.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "$z = \\frac{498 - 500}{8/\\sqrt{64}} = \\frac{-2}{1} = -2$.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "Critical value $= \\pm 1.96$; $|-2| = 2 > 1.96$, so reject $H_0$.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "There is sufficient evidence at the 5% level that the mean mass is not 500 g.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "Reject $H_0$: mean is not 500 g",
           },
         },
       ],

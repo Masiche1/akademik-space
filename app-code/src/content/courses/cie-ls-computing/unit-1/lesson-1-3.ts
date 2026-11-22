@@ -51,11 +51,11 @@ export const lesson13: Lesson = {
           "choices": [
                     {
                               "id": "a",
-                              "text": "String"
+                              "text": "Float"
                     },
                     {
                               "id": "b",
-                              "text": "Integer"
+                              "text": "String"
                     },
                     {
                               "id": "c",
@@ -63,10 +63,10 @@ export const lesson13: Lesson = {
                     },
                     {
                               "id": "d",
-                              "text": "Float"
+                              "text": "Integer"
                     }
           ],
-          "correctChoiceId": "a"
+          "correctChoiceId": "b"
 },
           markscheme: {
           "principles": [
@@ -212,6 +212,479 @@ export const lesson13: Lesson = {
                     }
           ],
           "finalAnswer": "Data types, operators, Boolean logic."
+},
+        },
+        {
+          id: "cils-c-u1-vr-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "What is the data type of balance = 250.75?",
+          response: {
+          "type": "mcq",
+          "choices": [
+                    {
+                              "id": "a",
+                              "text": "Boolean"
+                    },
+                    {
+                              "id": "b",
+                              "text": "String"
+                    },
+                    {
+                              "id": "c",
+                              "text": "Integer"
+                    },
+                    {
+                              "id": "d",
+                              "text": "Float"
+                    }
+          ],
+          "correctChoiceId": "d"
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "definition",
+                              "name": "Float",
+                              "statement": "Decimal number type."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "250.75 has a decimal point — float.",
+                              "marks": 1,
+                              "markCode": "M"
+                    }
+          ],
+          "finalAnswer": "Float"
+},
+        },
+        {
+          id: "cils-c-u1-vr-q6",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "x = 14, y = 4. What is x // y?",
+          response: {
+          "type": "numeric",
+          "parts": [
+                    { "label": "a", "answer": 3 }
+          ]
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "skill",
+                              "name": "Integer division",
+                              "statement": "// discards remainder."
+                    }
+          ],
+          "steps": [
+                    {
+                              "part": "a",
+                              "reasoning": "14 // 4 = 3 (remainder 2 discarded).",
+                              "marks": 1,
+                              "markCode": "M"
+                    }
+          ],
+          "finalAnswer": "3"
+},
+        },
+        {
+          id: "cils-c-u1-vr-q7",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "What is 9 % 4?",
+          response: {
+          "type": "numeric",
+          "parts": [
+                    { "label": "a", "answer": 1 }
+          ]
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "skill",
+                              "name": "Modulo",
+                              "statement": "% gives remainder."
+                    }
+          ],
+          "steps": [
+                    {
+                              "part": "a",
+                              "reasoning": "9 divided by 4 leaves remainder 1.",
+                              "marks": 1,
+                              "markCode": "M"
+                    }
+          ],
+          "finalAnswer": "1"
+},
+        },
+        {
+          id: "cils-c-u1-vr-q8",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "a = 20, b = 6. Evaluate: a+b, a-b, a*b, a//b, a%b.",
+          response: {
+          "type": "open"
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "skill",
+                              "name": "Operators",
+                              "statement": "Arithmetic and division variants."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "a+b = 26, a-b = 14.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "a*b = 120, a//b = 3, a%b = 2.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "All five values correct.",
+                              "marks": 1,
+                              "markCode": "A"
+                    }
+          ],
+          "finalAnswer": "26, 14, 120, 3, 2"
+},
+        },
+        {
+          id: "cils-c-u1-vr-q9",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "s1 = 'cat', s2 = 'dog'. What is s1 + s2?",
+          response: {
+          "type": "mcq",
+          "choices": [
+                    {
+                              "id": "a",
+                              "text": "An error"
+                    },
+                    {
+                              "id": "b",
+                              "text": "'cat dog'"
+                    },
+                    {
+                              "id": "c",
+                              "text": "'dogcat'"
+                    },
+                    {
+                              "id": "d",
+                              "text": "'catdog'"
+                    }
+          ],
+          "correctChoiceId": "d"
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "definition",
+                              "name": "Concatenation",
+                              "statement": "+ joins strings end to end."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "String + joins without adding space.",
+                              "marks": 1,
+                              "markCode": "M"
+                    }
+          ],
+          "finalAnswer": "'catdog'"
+},
+        },
+        {
+          id: "cils-c-u1-vr-q10",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "n starts at 7. After n = n + 3 then n = n * 2, what is n?",
+          response: {
+          "type": "numeric",
+          "parts": [
+                    { "label": "a", "answer": 20 }
+          ]
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "skill",
+                              "name": "Variable update",
+                              "statement": "Follow assignments in order."
+                    }
+          ],
+          "steps": [
+                    {
+                              "part": "a",
+                              "reasoning": "7+3 = 10, then 10*2 = 20.",
+                              "marks": 1,
+                              "markCode": "M"
+                    }
+          ],
+          "finalAnswer": "20"
+},
+        },
+        {
+          id: "cils-c-u1-vr-q11",
+          difficulty: "challenge",
+          totalMarks: 1,
+          stem: "Which Boolean expression evaluates to False?",
+          response: {
+          "type": "mcq",
+          "choices": [
+                    {
+                              "id": "a",
+                              "text": "(3 > 1) AND (5 < 2)"
+                    },
+                    {
+                              "id": "b",
+                              "text": "(1 = 1) OR (2 = 3)"
+                    },
+                    {
+                              "id": "c",
+                              "text": "(2 < 4) OR (9 > 10)"
+                    },
+                    {
+                              "id": "d",
+                              "text": "(3 > 1) AND (5 > 2)"
+                    }
+          ],
+          "correctChoiceId": "a"
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "definition",
+                              "name": "Boolean logic",
+                              "statement": "AND needs both true; OR needs one."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "b: true AND false = false; others all true.",
+                              "marks": 1,
+                              "markCode": "M"
+                    }
+          ],
+          "finalAnswer": "(3 > 1) AND (5 < 2)"
+},
+        },
+        {
+          id: "cils-c-u1-vr-q12",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "(a) Choose a suitable type for isMember (true/false). (b) Write a Boolean expression for 'score >= 40 AND attendance >= 80'. (c) What does '12' + '3' give if both are strings, and how does it differ from 12 + 3? (d) Trace: x = 5; x = x * 2; x = x + 1 — final x?",
+          response: {
+          "type": "open"
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "technique",
+                              "name": "Variables",
+                              "statement": "Types, Boolean logic, evaluation."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "(a) Boolean.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "(b) score >= 40 AND attendance >= 80.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "(c) '123' (concatenation) vs 15 (addition).",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "(d) 11.",
+                              "marks": 1,
+                              "markCode": "A"
+                    }
+          ],
+          "finalAnswer": "Boolean type, valid expression, type effect, 11"
+},
+        },
+        {
+          id: "cils-c-u1-vr-q13",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Which of these is a Boolean value?",
+          response: {
+          "type": "mcq",
+          "choices": [
+                    {
+                              "id": "a",
+                              "text": "'false'"
+                    },
+                    {
+                              "id": "b",
+                              "text": "1"
+                    },
+                    {
+                              "id": "c",
+                              "text": "true"
+                    },
+                    {
+                              "id": "d",
+                              "text": "'true'"
+                    }
+          ],
+          "correctChoiceId": "c"
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "definition",
+                              "name": "Boolean",
+                              "statement": "True/false without quotes."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "Quoted 'true' is a string; bare true is Boolean.",
+                              "marks": 1,
+                              "markCode": "M"
+                    }
+          ],
+          "finalAnswer": "true"
+},
+        },
+        {
+          id: "cils-c-u1-vr-q14",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "What is 100 // 7?",
+          response: {
+          "type": "numeric",
+          "parts": [
+                    { "label": "a", "answer": 14 }
+          ]
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "skill",
+                              "name": "Integer division",
+                              "statement": "// floors to whole number."
+                    }
+          ],
+          "steps": [
+                    {
+                              "part": "a",
+                              "reasoning": "100 // 7 = 14 (remainder 2 discarded).",
+                              "marks": 1,
+                              "markCode": "M"
+                    }
+          ],
+          "finalAnswer": "14"
+},
+        },
+        {
+          id: "cils-c-u1-vr-q15",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "If '5' and '3' are both strings, what does '5' + '3' produce?",
+          response: {
+          "type": "mcq",
+          "choices": [
+                    {
+                              "id": "a",
+                              "text": "8"
+                    },
+                    {
+                              "id": "b",
+                              "text": "'5' '3'"
+                    },
+                    {
+                              "id": "c",
+                              "text": "An error"
+                    },
+                    {
+                              "id": "d",
+                              "text": "'53'"
+                    }
+          ],
+          "correctChoiceId": "d"
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "definition",
+                              "name": "Concatenation",
+                              "statement": "Strings join, not add."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "Strings concatenate → '53', not 8.",
+                              "marks": 1,
+                              "markCode": "M"
+                    }
+          ],
+          "finalAnswer": "'53'"
+},
+        },
+        {
+          id: "cils-c-u1-vr-q16",
+          difficulty: "challenge",
+          totalMarks: 6,
+          stem: "(a) Define variable and data type. (b) Choose types for: examScore (whole mark), studentName, passed (yes/no), averageMark (decimal). (c) Write a Boolean expression for 'age >= 13 AND hasID = true'. (d) Evaluate m = 7, n = 2: m//n, m%n, m*n. (e) What is '7' + '2' when both are strings? (f) Design variables for a pizza order (size, toppings, price).",
+          response: {
+          "type": "open"
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "technique",
+                              "name": "Variables",
+                              "statement": "Types, operators, Boolean logic."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "(a) Variable = named storage; type = kind of value.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "(b) integer, string, Boolean, float.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "(c) Valid expression e.g. age >= 13 AND hasID = true.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "(d) 3, 1, 14.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "(e) '72' — concatenation.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "(f) Valid typed variables for pizza order.",
+                              "marks": 1,
+                              "markCode": "A"
+                    }
+          ],
+          "finalAnswer": "Types, expressions, operators, design."
 },
         },
       ],

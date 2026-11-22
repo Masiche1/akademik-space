@@ -56,12 +56,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Assume the opposite and find a contradiction" },
-              { id: "b", text: "Test many examples" },
+              { id: "a", text: "Test many examples" },
+              { id: "b", text: "Use a calculator" },
               { id: "c", text: "Draw a diagram" },
-              { id: "d", text: "Use a calculator" },
+              { id: "d", text: "Assume the opposite and find a contradiction" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -83,12 +83,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Let $r$ rational, $i$ irrational. Suppose $r+i=s$ rational. Then $i=s-r$ = rational − rational = rational. Contradiction." },
+              { id: "a", text: "Test $\\sqrt{2}+1$ and $\\sqrt{2}+2$ — both irrational, so always true." },
               { id: "b", text: "It is always irrational because irrationals are 'bigger'." },
-              { id: "c", text: "Test $\\sqrt{2}+1$ and $\\sqrt{2}+2$ — both irrational, so always true." },
+              { id: "c", text: "Let $r$ rational, $i$ irrational. Suppose $r+i=s$ rational. Then $i=s-r$ = rational − rational = rational. Contradiction." },
               { id: "d", text: "Rational + irrational = irrational by definition." },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -112,9 +112,9 @@ export const lesson13: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Assume $\\sqrt{3}=\\frac{p}{q}$ lowest terms. Then $p^2=3q^2$, so $p^2$ divisible by 3 → $p$ divisible by 3 → $p=3k$ → $9k^2=3q^2$ → $q^2=3k^2$ → $q$ divisible by 3 — contradiction." },
-              { id: "b", text: "$\\sqrt{3}$ cannot be a fraction because it doesn't terminate." },
-              { id: "c", text: "All roots of non-perfect squares are irrational." },
-              { id: "d", text: "Assume $\\sqrt{3}=\\frac{p}{q}$; then $3=\\frac{p^2}{q^2}$; $p^2=3q^2$; $p$ divisible by 3; $p=3k$; $q^2=3k^2$; $q$ divisible by 3 — contradiction." },
+              { id: "b", text: "Assume $\\sqrt{3}=\\frac{p}{q}$; then $3=\\frac{p^2}{q^2}$; $p^2=3q^2$; $p$ divisible by 3; $p=3k$; $q^2=3k^2$; $q$ divisible by 3 — contradiction." },
+              { id: "c", text: "$\\sqrt{3}$ cannot be a fraction because it doesn't terminate." },
+              { id: "d", text: "All roots of non-perfect squares are irrational." },
             ],
             correctChoiceId: "a",
           },
@@ -171,12 +171,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "They are coprime (lowest terms)" },
-              { id: "b", text: "They are both even" },
-              { id: "c", text: "One must be prime" },
+              { id: "a", text: "They are both even" },
+              { id: "b", text: "One must be prime" },
+              { id: "c", text: "They are coprime (lowest terms)" },
               { id: "d", text: "Nothing — any $p,q$ work" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -216,9 +216,9 @@ export const lesson13: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Assume there are finitely many primes $p_1,p_2,\\dots,p_n$ and consider $N=p_1p_2\\cdots p_n+1$." },
-              { id: "b", text: "List all primes up to 100 and count them." },
-              { id: "c", text: "Assume every number greater than 1 is prime." },
-              { id: "d", text: "Prove that $N$ itself must be prime." },
+              { id: "b", text: "Assume every number greater than 1 is prime." },
+              { id: "c", text: "Prove that $N$ itself must be prime." },
+              { id: "d", text: "List all primes up to 100 and count them." },
             ],
             correctChoiceId: "a",
           },
@@ -244,8 +244,8 @@ export const lesson13: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "If $x\\ge0$ then $x^2\\ge0$; if $x<0$ then $x^2=(-x)^2\\ge0$ since $-x>0$." },
-              { id: "b", text: "Squares are always positive, so this is obvious." },
-              { id: "c", text: "It is false for $x=-1$." },
+              { id: "b", text: "It is false for $x=-1$." },
+              { id: "c", text: "Squares are always positive, so this is obvious." },
               { id: "d", text: "Use proof by contradiction assuming $x^2<0$." },
             ],
             correctChoiceId: "a",
@@ -308,12 +308,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Assume it equals $\\frac{p}{q}$ in lowest terms, isolate one surd, and square to derive a contradiction." },
-              { id: "b", text: "Show that $\\sqrt5$ and $\\sqrt3$ are each irrational — this is sufficient." },
-              { id: "c", text: "Compute its decimal expansion and observe it does not terminate." },
-              { id: "d", text: "It cannot be proved with current methods." },
+              { id: "a", text: "It cannot be proved with current methods." },
+              { id: "b", text: "Compute its decimal expansion and observe it does not terminate." },
+              { id: "c", text: "Show that $\\sqrt5$ and $\\sqrt3$ are each irrational — this is sufficient." },
+              { id: "d", text: "Assume it equals $\\frac{p}{q}$ in lowest terms, isolate one surd, and square to derive a contradiction." },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -386,12 +386,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Proof by contradiction" },
-              { id: "b", text: "Proof by deduction" },
+              { id: "a", text: "Proof by deduction" },
+              { id: "b", text: "Proof by counterexample" },
               { id: "c", text: "Proof by exhaustion" },
-              { id: "d", text: "Proof by counterexample" },
+              { id: "d", text: "Proof by contradiction" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -414,12 +414,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It is currently unknown — the sum of two irrationals may be either, and no proof exists yet." },
-              { id: "b", text: "It is irrational because both $\\pi$ and $e$ are irrational." },
-              { id: "c", text: "It is rational because irrationals cancel." },
-              { id: "d", text: "It is irrational because $\\pi+e>3$." },
+              { id: "a", text: "It is rational because irrationals cancel." },
+              { id: "b", text: "It is irrational because $\\pi+e>3$." },
+              { id: "c", text: "It is currently unknown — the sum of two irrationals may be either, and no proof exists yet." },
+              { id: "d", text: "It is irrational because both $\\pi$ and $e$ are irrational." },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -503,9 +503,9 @@ export const lesson13: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$\\{2,3\\}$" },
-              { id: "b", text: "$\\{1,2,3,4\\}$" },
+              { id: "b", text: "$\\emptyset$" },
               { id: "c", text: "$\\{1,4\\}$" },
-              { id: "d", text: "$\\emptyset$" },
+              { id: "d", text: "$\\{1,2,3,4\\}$" },
             ],
             correctChoiceId: "a",
           },
@@ -529,12 +529,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "5" },
-              { id: "b", text: "10" },
-              { id: "c", text: "15" },
-              { id: "d", text: "35" },
+              { id: "a", text: "10" },
+              { id: "b", text: "15" },
+              { id: "c", text: "35" },
+              { id: "d", text: "5" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -557,12 +557,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$A\\cap B=\\{12\\}$; $A'\\cap B'=\\{1,2,5,7,11\\}$" },
-              { id: "b", text: "$A\\cap B=\\{3,4,6,8,9,12\\}$; $A'\\cap B'=\\{1,2,5,7,10,11\\}$" },
-              { id: "c", text: "$A\\cap B=\\{12\\}$; $A'\\cap B'=\\{1,2,5,7,10,11\\}$" },
-              { id: "d", text: "$A\\cap B=\\{6,12\\}$; $A'\\cap B'=\\{1,2,5,7,11\\}$" },
+              { id: "a", text: "$A\\cap B=\\{3,4,6,8,9,12\\}$; $A'\\cap B'=\\{1,2,5,7,10,11\\}$" },
+              { id: "b", text: "$A\\cap B=\\{12\\}$; $A'\\cap B'=\\{1,2,5,7,11\\}$" },
+              { id: "c", text: "$A\\cap B=\\{6,12\\}$; $A'\\cap B'=\\{1,2,5,7,11\\}$" },
+              { id: "d", text: "$A\\cap B=\\{12\\}$; $A'\\cap B'=\\{1,2,5,7,10,11\\}$" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -618,9 +618,9 @@ export const lesson13: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$\\{a,b,c,d\\}$" },
-              { id: "b", text: "$\\{b,c\\}$" },
-              { id: "c", text: "$\\{a,d\\}$" },
-              { id: "d", text: "$\\emptyset$" },
+              { id: "b", text: "$\\{a,d\\}$" },
+              { id: "c", text: "$\\emptyset$" },
+              { id: "d", text: "$\\{b,c\\}$" },
             ],
             correctChoiceId: "a",
           },
@@ -661,12 +661,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Every element of $A$ is also an element of $B$" },
-              { id: "b", text: "$A$ and $B$ share at least one element" },
-              { id: "c", text: "$A$ and $B$ have the same elements" },
-              { id: "d", text: "$A$ contains every element of $B$" },
+              { id: "a", text: "$A$ contains every element of $B$" },
+              { id: "b", text: "$A$ and $B$ have the same elements" },
+              { id: "c", text: "Every element of $A$ is also an element of $B$" },
+              { id: "d", text: "$A$ and $B$ share at least one element" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -708,12 +708,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Outside both circles" },
-              { id: "b", text: "Inside $A$ but outside $B$" },
+              { id: "a", text: "Inside $A$ but outside $B$" },
+              { id: "b", text: "Inside $B$ but outside $A$" },
               { id: "c", text: "Inside both circles" },
-              { id: "d", text: "Inside $B$ but outside $A$" },
+              { id: "d", text: "Outside both circles" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -821,12 +821,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$(A\\cap C)\\cup(B\\cap C)$" },
-              { id: "b", text: "$(A\\cap B)\\cup C$" },
+              { id: "a", text: "$(A\\cap B)\\cup C$" },
+              { id: "b", text: "$(A\\cap C)\\cup(B\\cap C)$" },
               { id: "c", text: "$A\\cup(B\\cap C)$" },
               { id: "d", text: "$(A\\cup C)\\cap(B\\cup C)$ only when $A=B$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -850,8 +850,8 @@ export const lesson13: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "10" },
-              { id: "b", text: "40" },
-              { id: "c", text: "90" },
+              { id: "b", text: "90" },
+              { id: "c", text: "40" },
               { id: "d", text: "0" },
             ],
             correctChoiceId: "a",

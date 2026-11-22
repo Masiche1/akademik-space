@@ -55,12 +55,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$0.375$" },
+              { id: "a", text: "$\\frac{7}{9}$" },
               { id: "b", text: "$\\sqrt{4}$" },
-              { id: "c", text: "$\\pi$" },
-              { id: "d", text: "$\\frac{7}{9}$" },
+              { id: "c", text: "$0.375$" },
+              { id: "d", text: "$\\pi$" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -160,6 +160,286 @@ export const lesson11: Lesson = {
             examinerNote: "Check in (b): $126\\times756=95256=252\\times378$.",
           },
         },
+        {
+          id: "ciem-u1-number-types-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Which of the following numbers is rational?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$\\sqrt{3}$" },
+              { id: "b", text: "$\\sqrt{12}$" },
+              { id: "c", text: "$\\pi$" },
+              { id: "d", text: "$0.\\dot{6}$" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              { kind: "definition", name: "Rational number", statement: "A number that can be written as $\\frac{a}{b}$ with integers $a$, $b$ and $b\\ne0$; recurring decimals are rational." },
+              { kind: "definition", name: "Irrational number", statement: "A real number that cannot be written as $\\frac{a}{b}$; its decimal never ends or repeats." },
+            ],
+            steps: [
+              { reasoning: "$0.\\dot{6}=0.666\\ldots$ is a recurring decimal, so it can be written as a fraction and is rational; $\\sqrt{3}$, $\\pi$ and $\\sqrt{12}=2\\sqrt{3}$ are irrational.", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** $0.\\dot{6}$",
+            commonErrors: ["Thinking every decimal is irrational — recurring decimals are rational.", "Choosing $\\sqrt{12}$ without simplifying it to $2\\sqrt{3}$."],
+          },
+        },
+        {
+          id: "ciem-u1-number-types-q6",
+          difficulty: "foundation",
+          totalMarks: 2,
+          stem: "Write the recurring decimal $0.\\dot{4}$ as a fraction in its simplest form. Enter the numerator and the denominator.",
+          response: {
+            type: "numeric",
+            parts: [
+              { label: "Numerator", answer: 4 },
+              { label: "Denominator", answer: 9 },
+            ],
+          },
+          markscheme: {
+            principles: [
+              { kind: "principle", name: "Recurring decimal method", statement: "Multiply by $10^n$ so the recurring parts match, subtract to remove the infinite tail, then divide." },
+            ],
+            steps: [
+              { reasoning: "Let $x=0.444\ldots$; then $10x=4.444\ldots$ and subtracting removes the tail.", working: "10x-x=4.444\ldots-0.444\ldots\\Rightarrow 9x=4", marks: 1, markCode: "M" },
+              { reasoning: "Divide and simplify — 4 and 9 share no factor.", working: "x=\\frac{4}{9}", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$\\frac{4}{9}$",
+            commonErrors: ["Writing $\\frac{4}{10}$ by treating it as a terminating decimal.", "Using $100x$ when $10x$ already aligns the repeats."],
+          },
+        },
+        {
+          id: "ciem-u1-number-types-q7",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Find the highest common factor of 12 and 18.",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$6$" },
+              { id: "b", text: "$2$" },
+              { id: "c", text: "$3$" },
+              { id: "d", text: "$36$" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              { kind: "principle", name: "HCF from primes", statement: "The HCF is the product of the common primes, each to its lowest power." },
+            ],
+            steps: [
+              { reasoning: "$12=2^2\\times3$ and $18=2\\times3^2$, so the HCF is $2\\times3=6$.", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(b)** $6$",
+            commonErrors: ["Answering 36, which is the LCM not the HCF.", "Listing only the common prime 2 and missing the factor 3."],
+          },
+        },
+        {
+          id: "ciem-u1-number-types-q8",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "Given that $45=3^2\\times5$ and $75=3\\times5^2$, find the HCF and the LCM of 45 and 75.",
+          response: {
+            type: "numeric",
+            parts: [
+              { label: "HCF", answer: 15 },
+              { label: "LCM", answer: 225 },
+            ],
+          },
+          markscheme: {
+            principles: [
+              { kind: "principle", name: "HCF from primes", statement: "Product of common primes to their lowest powers: $3\\times5=15$." },
+              { kind: "principle", name: "LCM from primes", statement: "Product of all primes to their highest powers: $3^2\\times5^2=225$." },
+            ],
+            steps: [
+              { reasoning: "HCF uses lowest powers of the common primes 3 and 5.", working: "3^1\\times5^1=15", marks: 1, markCode: "M" },
+              { reasoning: "LCM uses highest powers of every prime.", working: "3^2\\times5^2=225", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "HCF $=15$, LCM $=225$",
+            commonErrors: ["Swapping lowest and highest powers, giving HCF $225$.", "Forgetting that 3 and 5 both appear in both numbers."],
+          },
+        },
+        {
+          id: "ciem-u1-number-types-q9",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "Show that $0.1\\dot{2}$ can be written as $\\frac{11}{90}$.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "principle", name: "Recurring decimal method", statement: "Multiply by powers of 10 so the repeating tails align, subtract, then divide." },
+            ],
+            steps: [
+              { reasoning: "Let $x=0.1222\ldots$; the non-repeating digit means we need both $10x$ and $100x$.", working: "10x=1.222\ldots,\\quad 100x=12.222\ldots", marks: 1, markCode: "M" },
+              { reasoning: "Subtract to eliminate the recurring tail.", working: "100x-10x=12.222\ldots-1.222\ldots\\Rightarrow 90x=11", marks: 1, markCode: "M" },
+              { reasoning: "Divide to obtain the fraction.", working: "x=\\frac{11}{90}", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$0.1\\dot{2}=\\frac{11}{90}$",
+            commonErrors: ["Using $x=0.1\\dot{2}$ but writing $9x$ instead of $90x$.", "Multiplying by $1000$ unnecessarily and complicating the subtraction."],
+            examinerNote: "All algebraic steps must be shown for a 'show that' question.",
+          },
+        },
+        {
+          id: "ciem-u1-number-types-q10",
+          difficulty: "challenge",
+          totalMarks: 3,
+          stem: "Find the number of factors of 60, including 1 and 60 itself.",
+          response: { type: "numeric", parts: [{ label: "Number of factors", answer: 12 }] },
+          markscheme: {
+            principles: [
+              { kind: "theorem", name: "Number of factors", statement: "If $n=p_1^{a_1}p_2^{a_2}\\cdots p_k^{a_k}$ then $n$ has $(a_1+1)(a_2+1)\\cdots(a_k+1)$ factors." },
+            ],
+            steps: [
+              { reasoning: "Factorise 60 into primes.", working: "60=2^2\\times3\\times5", marks: 1, markCode: "M" },
+              { reasoning: "Increase each power by 1 and multiply.", working: "(2+1)(1+1)(1+1)=12", marks: 1, markCode: "M" },
+              { reasoning: "The factors are 1, 2, 3, 4, 5, 6, 10, 12, 15, 20, 30, 60 — twelve in total.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "12 factors",
+            commonErrors: ["Forgetting the factor $+1$ on each power.", "Counting only prime factors."],
+          },
+        },
+        {
+          id: "ciem-u1-number-types-q11",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "Two positive integers have HCF $4$ and LCM $60$. One of the integers is $12$.",
+          parts: [
+            { label: "a", prompt: "Write down the product of the two integers.", marks: 2 },
+            { label: "b", prompt: "Hence find the other integer.", marks: 2 },
+          ],
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "theorem", name: "HCF × LCM", statement: "For two numbers, $\\text{HCF}\\times\\text{LCM}$ equals the product of the two numbers." },
+            ],
+            steps: [
+              { part: "a", reasoning: "Apply the product relationship.", working: "4\\times60=240", marks: 1, markCode: "M" },
+              { part: "a", reasoning: "State the product.", working: "240", marks: 1, markCode: "A" },
+              { part: "b", reasoning: "Divide the product by the known number 12.", working: "240\\div12", marks: 1, markCode: "M" },
+              { part: "b", reasoning: "Compute and verify: HCF(12, 20) = 4 and LCM(12, 20) = 60 ✓.", working: "=20", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "(a) $240$ (b) $20$",
+            commonErrors: ["Dividing LCM by the number instead of the product.", "Not verifying that 20 is consistent with the given HCF and LCM."],
+          },
+        },
+        {
+          id: "ciem-u1-number-types-q12",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "Express the recurring decimal $0.\\dot{3}\\dot{7}$ as a fraction in its simplest form.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "principle", name: "Recurring decimal method", statement: "A two-digit repeat needs $10^2$ so the tails align; subtract and divide." },
+            ],
+            steps: [
+              { reasoning: "Let $x=0.373737\ldots$; multiply by 100 so the repeat aligns.", working: "100x=37.373737\ldots", marks: 1, markCode: "M" },
+              { reasoning: "Subtract $x$ from $100x$ to remove the infinite tail.", working: "99x=37", marks: 1, markCode: "M" },
+              { reasoning: "Divide to get the fraction.", working: "x=\\frac{37}{99}", marks: 1, markCode: "M" },
+              { reasoning: "37 is prime and does not divide 99, so it is already simplest.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$\\frac{37}{99}$",
+            commonErrors: ["Using $10x$ instead of $100x$, which does not align the two-digit repeat.", "Writing $\\frac{37}{100}$ and losing the recurring nature."],
+          },
+        },
+        {
+          id: "ciem-u1-number-types-q13",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Which of the following is an integer?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$\\frac{2}{5}$" },
+              { id: "b", text: "$0.\\dot{3}$" },
+              { id: "c", text: "$-3$" },
+              { id: "d", text: "$\\sqrt{2}$" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              { kind: "definition", name: "Integer", statement: "A whole number — positive, negative or zero — with no fractional part." },
+            ],
+            steps: [
+              { reasoning: "$-3$ is a whole number; $\\frac{2}{5}$, $\\sqrt{2}$ and $0.\\dot{3}$ all have non-zero fractional parts.", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** $-3$",
+            commonErrors: ["Thinking $0.\\dot{3}$ is not rational — it is rational but not an integer.", "Forgetting that negative whole numbers are integers."],
+          },
+        },
+        {
+          id: "ciem-u1-number-types-q14",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "Find the HCF and the LCM of 18 and 27.",
+          response: {
+            type: "numeric",
+            parts: [
+              { label: "HCF", answer: 9 },
+              { label: "LCM", answer: 54 },
+            ],
+          },
+          markscheme: {
+            principles: [
+              { kind: "principle", name: "HCF and LCM from primes", statement: "$18=2\\times3^2$, $27=3^3$; HCF takes common primes to lowest power, LCM all primes to highest power." },
+            ],
+            steps: [
+              { reasoning: "Factorise both numbers: the only common prime is 3.", working: "18=2\\times3^2,\\quad 27=3^3", marks: 1, markCode: "M" },
+              { reasoning: "HCF $=3^2=9$; LCM $=2\\times3^3=54$.", working: "\\text{HCF}=9,\\quad \\text{LCM}=54", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "HCF $=9$, LCM $=54$",
+            commonErrors: ["Including the prime 2 in the LCM only once is correct — forgetting it entirely gives 27."],
+          },
+        },
+        {
+          id: "ciem-u1-number-types-q15",
+          difficulty: "challenge",
+          totalMarks: 3,
+          stem: "Find the lowest common multiple of 12, 18 and 30.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "principle", name: "LCM from primes", statement: "The LCM is the product of every prime that appears, each to its highest power." },
+            ],
+            steps: [
+              { reasoning: "Factorise all three numbers.", working: "12=2^2\\times3,\\quad 18=2\\times3^2,\\quad 30=2\\times3\\times5", marks: 1, markCode: "M" },
+              { reasoning: "Take the highest power of each prime: $2^2$, $3^2$ and $5^1$.", working: "2^2\\times3^2\\times5", marks: 1, markCode: "M" },
+              { reasoning: "Evaluate.", working: "=180", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$180$",
+            commonErrors: ["Using only two of the three numbers.", "Taking lowest powers instead of highest."],
+          },
+        },
+        {
+          id: "ciem-u1-number-types-q16",
+          difficulty: "challenge",
+          totalMarks: 3,
+          stem: "Write $360$ as $2^a\\times3^b\\times5^c$, where $a$, $b$ and $c$ are positive integers. Find the values of $a$, $b$ and $c$.",
+          response: {
+            type: "numeric",
+            parts: [
+              { label: "a", answer: 3 },
+              { label: "b", answer: 2 },
+              { label: "c", answer: 1 },
+            ],
+          },
+          markscheme: {
+            principles: [
+              { kind: "principle", name: "Prime factorisation", statement: "Repeated division by primes until only 1 remains." },
+            ],
+            steps: [
+              { reasoning: "Divide out the factors of 2.", working: "360=2\\times180=2^2\\times90=2^3\\times45", marks: 1, markCode: "M" },
+              { reasoning: "Factorise the remaining 45.", working: "45=3^2\\times5\\Rightarrow 360=2^3\\times3^2\\times5", marks: 1, markCode: "M" },
+              { reasoning: "Read off the indices.", working: "a=3,\\ b=2,\\ c=1", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$360=2^3\\times3^2\\times5^1$, so $a=3$, $b=2$, $c=1$",
+            commonErrors: ["Stopping the factorisation at $2^3\\times45$ without splitting 45."],
+          },
+        },
       ],
     },
     {
@@ -202,12 +482,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$12$" },
-              { id: "b", text: "$36$" },
-              { id: "c", text: "$64$" },
-              { id: "d", text: "$216$" },
+              { id: "a", text: "$216$" },
+              { id: "b", text: "$12$" },
+              { id: "c", text: "$36$" },
+              { id: "d", text: "$64$" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -295,6 +575,268 @@ export const lesson11: Lesson = {
             finalAnswer: "(a) $9$ (b) $\\frac{1}{8}$ (c) $x=4$",
             commonErrors: ["Reading $a^{\\frac{m}{n}}$ as $\\frac{a^m}{a^n}$ or $\\frac{a^m}{n}$.", "In (b) computing $2^{-3}$ as $-8$ instead of $\\frac{1}{8}$.", "In (c) equating $x+1$ to 32 rather than to 5."],
             examinerNote: "Exact answers are required in (a) and (b); $0.125$ is accepted for (b) but $\\frac{1}{8}$ is preferred.",
+          },
+        },
+        {
+          id: "ciem-u1-laws-of-indices-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Simplify $5^3\\times5^2$.",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$5^6$" },
+              { id: "b", text: "$10^5$" },
+              { id: "c", text: "$5^5$" },
+              { id: "d", text: "$25^5$" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              { kind: "law", name: "Product law", statement: "$a^m\\times a^n=a^{m+n}$ for the same base $a$." },
+            ],
+            steps: [
+              { reasoning: "Add the indices, keeping the base unchanged.", working: "5^{3+2}=5^5", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** $5^5$",
+            commonErrors: ["Multiplying the indices to get $5^6$.", "Multiplying the bases to get $10^5$."],
+          },
+        },
+        {
+          id: "ciem-u1-laws-of-indices-q6",
+          difficulty: "foundation",
+          totalMarks: 2,
+          stem: "Evaluate $2^{-4}$, giving your answer as a decimal.",
+          response: { type: "numeric", parts: [{ label: "Answer", answer: 0.0625 }] },
+          markscheme: {
+            principles: [
+              { kind: "law", name: "Negative index", statement: "$a^{-n}=\\frac{1}{a^n}$." },
+            ],
+            steps: [
+              { reasoning: "Apply the negative index law.", working: "2^{-4}=\\frac{1}{2^4}=\\frac{1}{16}", marks: 1, markCode: "M" },
+              { reasoning: "Convert to a decimal.", working: "\\frac{1}{16}=0.0625", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$0.0625$",
+            commonErrors: ["Writing $-16$ instead of $\\frac{1}{16}$.", "Computing $2^4=8$ instead of 16."],
+          },
+        },
+        {
+          id: "ciem-u1-laws-of-indices-q7",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Which of the following is equal to $16^{\\frac{1}{4}}$?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$4$" },
+              { id: "b", text: "$\\frac{1}{4}$" },
+              { id: "c", text: "$8$" },
+              { id: "d", text: "$2$" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              { kind: "law", name: "Fractional index", statement: "$a^{\\frac{1}{n}}=\\sqrt[n]{a}$; the fourth root of 16 is 2." },
+            ],
+            steps: [
+              { reasoning: "The index $\\frac14$ means the fourth root; $\\sqrt[4]{16}=2$ since $2^4=16$.", working: "16^{\\frac14}=\\sqrt[4]{16}=2", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** $2$",
+            commonErrors: ["Reading $\\frac14$ as division and computing $16\\div4=4$.", "Taking the square root to get 4."],
+          },
+        },
+        {
+          id: "ciem-u1-laws-of-indices-q8",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "Evaluate $8^{\\frac{2}{3}}$.",
+          response: { type: "numeric", parts: [{ label: "Answer", answer: 4 }] },
+          markscheme: {
+            principles: [
+              { kind: "law", name: "Fractional index", statement: "$a^{\\frac{m}{n}}=(\\sqrt[n]{a})^m$; with $8=2^3$, take the cube root then square." },
+            ],
+            steps: [
+              { reasoning: "Write 8 as a power of 2 and apply the fractional index.", working: "8^{\\frac23}=(2^3)^{\\frac23}=2^2", marks: 1, markCode: "M" },
+              { reasoning: "Evaluate.", working: "2^2=4", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$4$",
+            commonErrors: ["Computing $8^{\\frac23}$ as $\\frac{8^2}{3}$ or $\\frac{64}{3}$.", "Taking the cube root as 4 instead of 2."],
+          },
+        },
+        {
+          id: "ciem-u1-laws-of-indices-q9",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "Simplify $\\frac{2^5\\times2^{-2}}{2^3}$, giving your answer as a single power of 2.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "law", name: "Product and quotient laws", statement: "$a^m\\times a^n=a^{m+n}$ and $\\frac{a^m}{a^n}=a^{m-n}$; combine the indices $5-2-3=0$." },
+            ],
+            steps: [
+              { reasoning: "Combine the numerator using the product law.", working: "2^5\\times2^{-2}=2^{5-2}=2^3", marks: 1, markCode: "M" },
+              { reasoning: "Apply the quotient law.", working: "\\frac{2^3}{2^3}=2^{3-3}=2^0", marks: 1, markCode: "M" },
+              { reasoning: "Use $a^0=1$.", working: "=1", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$1$",
+            commonErrors: ["Adding indices with wrong signs: $5-2+3=6$.", "Leaving the answer as $2^0$ without evaluating."],
+          },
+        },
+        {
+          id: "ciem-u1-laws-of-indices-q10",
+          difficulty: "challenge",
+          totalMarks: 3,
+          stem: "Evaluate $\\left(\\frac{1}{27}\\right)^{-\\frac{1}{3}}$.",
+          response: { type: "numeric", parts: [{ label: "Answer", answer: 3 }] },
+          markscheme: {
+            principles: [
+              { kind: "law", name: "Negative index", statement: "$a^{-n}=\\frac{1}{a^n}$; a negative fractional index combines the reciprocal and the root." },
+              { kind: "law", name: "Fractional index", statement: "$a^{\\frac{1}{n}}=\\sqrt[n]{a}$." },
+            ],
+            steps: [
+              { reasoning: "Rewrite the base as a power of 3.", working: "\\frac{1}{27}=3^{-3}", marks: 1, markCode: "M" },
+              { reasoning: "Apply the power of a power law.", working: "(3^{-3})^{-\\frac13}=3^{(-3)\\times(-\\frac13)}=3^1", marks: 1, markCode: "M" },
+              { reasoning: "Evaluate.", working: "=3", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$3$",
+            commonErrors: ["Forgetting that a negative times a negative index gives a positive index.", "Taking the cube root of 27 as 9 instead of 3."],
+          },
+        },
+        {
+          id: "ciem-u1-laws-of-indices-q11",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "Simplify $\\frac{2^6\\times4^2}{8^2}$, giving your answer as a single number.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "principle", name: "Common base", statement: "Rewrite all bases as powers of 2: $4=2^2$ and $8=2^3$." },
+            ],
+            steps: [
+              { reasoning: "Rewrite 4 and 8 as powers of 2.", working: "4^2=(2^2)^2=2^4,\\quad 8^2=(2^3)^2=2^6", marks: 1, markCode: "M" },
+              { reasoning: "Substitute into the expression.", working: "\\frac{2^6\\times2^4}{2^6}", marks: 1, markCode: "M" },
+              { reasoning: "Combine indices in numerator and denominator.", working: "=2^{6+4-6}=2^4", marks: 1, markCode: "M" },
+              { reasoning: "Evaluate.", working: "2^4=16", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$16$",
+            commonErrors: ["Computing $4^2$ and $8^2$ numerically and losing track of the shared base.", "Subtracting indices incorrectly: $6+4-6=4$, not 16 as an index error gives $2^{16}$."],
+          },
+        },
+        {
+          id: "ciem-u1-laws-of-indices-q12",
+          difficulty: "challenge",
+          totalMarks: 3,
+          stem: "Solve $9^x=27$ for $x$.",
+          response: { type: "numeric", parts: [{ label: "x", answer: 1.5 }] },
+          markscheme: {
+            principles: [
+              { kind: "law", name: "Matching bases", statement: "Rewrite both sides with the same base: $9=3^2$ and $27=3^3$, then equate indices." },
+            ],
+            steps: [
+              { reasoning: "Write both sides as powers of 3.", working: "9^x=(3^2)^x=3^{2x},\\quad 27=3^3", marks: 1, markCode: "M" },
+              { reasoning: "Equate the indices.", working: "2x=3", marks: 1, markCode: "M" },
+              { reasoning: "Solve.", working: "x=\\frac{3}{2}=1.5", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$x=1.5$",
+            commonErrors: ["Equating $x$ directly to 3 without converting the base.", "Writing $9=3^3$ and getting $x=1$."],
+          },
+        },
+        {
+          id: "ciem-u1-laws-of-indices-q13",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "What is the value of $7^0$?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "undefined" },
+              { id: "b", text: "$7$" },
+              { id: "c", text: "$0$" },
+              { id: "d", text: "$1$" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              { kind: "law", name: "Zero index", statement: "$a^0=1$ for any $a\\ne0$." },
+            ],
+            steps: [
+              { reasoning: "Any non-zero number to the power 0 equals 1.", working: "7^0=1", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(b)** $1$",
+            commonErrors: ["Answering 0, confusing the index with the value.", "Answering 7 by ignoring the exponent."],
+          },
+        },
+        {
+          id: "ciem-u1-laws-of-indices-q14",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "Evaluate $\\frac{5^6}{5^2\\times5^3}$.",
+          response: { type: "numeric", parts: [{ label: "Answer", answer: 5 }] },
+          markscheme: {
+            principles: [
+              { kind: "law", name: "Product and quotient laws", statement: "$\\frac{a^m}{a^n\\times a^p}=a^{m-n-p}$." },
+            ],
+            steps: [
+              { reasoning: "Combine the denominator using the product law.", working: "5^2\\times5^3=5^5", marks: 1, markCode: "M" },
+              { reasoning: "Apply the quotient law and evaluate.", working: "\\frac{5^6}{5^5}=5^{6-5}=5", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$5$",
+            commonErrors: ["Dividing the indices: $6\\div(2\\times3)$.", "Subtracting to get $5^{6-2+3}=5^7$."],
+          },
+        },
+        {
+          id: "ciem-u1-laws-of-indices-q15",
+          difficulty: "challenge",
+          totalMarks: 3,
+          stem: "Show that $16^{\\frac{3}{4}}=8$.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "law", name: "Fractional index", statement: "$a^{\\frac{m}{n}}=(\\sqrt[n]{a})^m$; use a matching base first." },
+            ],
+            steps: [
+              { reasoning: "Write 16 as a power of 2.", working: "16=2^4", marks: 1, markCode: "M" },
+              { reasoning: "Apply the fractional index: $\\frac34$ of the power.", working: "(2^4)^{\\frac34}=2^{4\\times\\frac34}=2^3", marks: 1, markCode: "M" },
+              { reasoning: "Evaluate and conclude.", working: "2^3=8", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$16^{\\frac34}=8$",
+            commonErrors: ["Computing $16^{\\frac34}$ as $\\frac{16^3}{4}$ or $\\frac{4096}{4}$.", "Using $\\frac{4}{3}$ instead of $\\frac{3}{4}$."],
+            examinerNote: "The power-of-a-power step must be visible in a 'show that' question.",
+          },
+        },
+        {
+          id: "ciem-u1-laws-of-indices-q16",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "Evaluate each expression, giving exact answers.",
+          parts: [
+            { label: "a", prompt: "Evaluate $32^{\\frac{3}{5}}$.", marks: 2 },
+            { label: "b", prompt: "Evaluate $125^{-\\frac{1}{3}}$.", marks: 2 },
+          ],
+          response: {
+            type: "numeric",
+            parts: [
+              { label: "(a)", answer: 8 },
+              { label: "(b)", answer: 0.2 },
+            ],
+          },
+          markscheme: {
+            principles: [
+              { kind: "law", name: "Fractional index", statement: "$a^{\\frac{m}{n}}=(\\sqrt[n]{a})^m=(a^m)^{\\frac1n}$." },
+              { kind: "law", name: "Negative index", statement: "$a^{-n}=\\frac{1}{a^n}$." },
+            ],
+            steps: [
+              { part: "a", reasoning: "Write 32 as a power of 2.", working: "32=2^5", marks: 1, markCode: "M" },
+              { part: "a", reasoning: "Apply the fractional index.", working: "(2^5)^{\\frac35}=2^3=8", marks: 1, markCode: "A" },
+              { part: "b", reasoning: "Write 125 as a power of 5 and apply the negative fractional index.", working: "125^{-\\frac13}=(5^3)^{-\\frac13}=5^{-1}", marks: 1, markCode: "M" },
+              { part: "b", reasoning: "Apply the negative index law.", working: "5^{-1}=\\frac{1}{5}=0.2", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "(a) $8$ (b) $\\frac{1}{5}$",
+            commonErrors: ["In (a) taking the fifth root of 32 as 2 but forgetting to cube it.", "In (b) writing $5^{-1}$ as $-5$ instead of $\\frac15$."],
+            examinerNote: "$\\frac15$ is preferred for (b); $0.2$ is accepted.",
           },
         },
       ],

@@ -54,8 +54,8 @@ export const lesson61: Lesson = {
             choices: [
               { id: "a", text: "Domain $x>0$, range all real numbers, vertical asymptote $x=0$" },
               { id: "b", text: "Domain all real numbers, range $y>0$, horizontal asymptote $y=0$" },
-              { id: "c", text: "Domain all real numbers, range $y\\ge0$, horizontal asymptote $y=0$" },
-              { id: "d", text: "Domain all real numbers, range all real numbers, no asymptote" },
+              { id: "c", text: "Domain all real numbers, range all real numbers, no asymptote" },
+              { id: "d", text: "Domain all real numbers, range $y\\ge0$, horizontal asymptote $y=0$" },
             ],
             correctChoiceId: "b",
           },
@@ -184,8 +184,8 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$A=P(1+r)^t$" },
-              { id: "b", text: "$A=P+ert$" },
+              { id: "a", text: "$A=P+ert$" },
+              { id: "b", text: "$A=P(1+r)^t$" },
               { id: "c", text: "$A=Pe^{rt}$" },
               { id: "d", text: "$A=Pe^r+t$" },
             ],

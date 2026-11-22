@@ -204,12 +204,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$x=4$" },
-              { id: "b", text: "$x=-4$" },
-              { id: "c", text: "$x=2$" },
-              { id: "d", text: "No solution" },
+              { id: "a", text: "$x=-4$" },
+              { id: "b", text: "$x=2$" },
+              { id: "c", text: "No solution" },
+              { id: "d", text: "$x=4$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

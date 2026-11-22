@@ -55,12 +55,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It is a single compound made of carbon and hydrogen" },
-              { id: "b", text: "It is a mixture of hydrocarbons" },
+              { id: "a", text: "It is a mixture of hydrocarbons" },
+              { id: "b", text: "It is a single compound made of carbon and hydrogen" },
               { id: "c", text: "It is an element found underground" },
               { id: "d", text: "It is a mixture of alkenes only" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -189,12 +189,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Carbon dioxide" },
+              { id: "a", text: "Nitrogen" },
               { id: "b", text: "Water vapour" },
-              { id: "c", text: "Carbon monoxide" },
-              { id: "d", text: "Nitrogen" },
+              { id: "c", text: "Carbon dioxide" },
+              { id: "d", text: "Carbon monoxide" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [

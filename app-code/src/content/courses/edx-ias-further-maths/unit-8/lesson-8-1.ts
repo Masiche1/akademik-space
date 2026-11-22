@@ -52,8 +52,8 @@ export const lesson81: Lesson = {
             choices: [
               { id: "a", text: "Trials must be dependent" },
               { id: "b", text: "Fixed number of trials" },
-              { id: "c", text: "Constant probability" },
-              { id: "d", text: "Two outcomes per trial" },
+              { id: "c", text: "Two outcomes per trial" },
+              { id: "d", text: "Constant probability" },
             ],
             correctChoiceId: "a",
           },
@@ -169,12 +169,12 @@ export const lesson81: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\lambda$" },
-              { id: "b", text: "$\\lambda^2$" },
-              { id: "c", text: "$\\sqrt{\\lambda}$" },
-              { id: "d", text: "$1$" },
+              { id: "a", text: "$\\sqrt{\\lambda}$" },
+              { id: "b", text: "$1$" },
+              { id: "c", text: "$\\lambda$" },
+              { id: "d", text: "$\\lambda^2$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Poisson moments", statement: "$E=\\text{Var}=\\lambda$." }],

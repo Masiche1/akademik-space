@@ -88,12 +88,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Total debits greater than total credits" },
-              { id: "b", text: "Total debits equal to total credits" },
+              { id: "a", text: "Total debits equal to total credits" },
+              { id: "b", text: "Total debits greater than total credits" },
               { id: "c", text: "Only credit balances" },
               { id: "d", text: "Every account with a debit balance" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -285,6 +285,502 @@ export const lesson23: Lesson = {
               "(a) Temporary account for the unexplained difference. (b) Cleared by the correcting entry. (c) Used on the side that restores balance; must reach zero.",
             commonErrors: [
               "Leaving a suspense balance in the final accounts — it must be eliminated.",
+            ],
+          },
+        },
+        {
+          id: "cieiacct-u2-tb-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Which of the following errors would be revealed by a trial balance that does not agree?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Only the debit side of a transaction was entered" },
+              { id: "b", text: "A transaction was never recorded at all" },
+              { id: "c", text: "A sale was posted to the wrong customer's account" },
+              { id: "d", text: "A machine was wrongly recorded as an expense" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Detectable errors",
+                statement:
+                  "Errors that make debits unequal to credits are revealed; equal-sided errors are not.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "A missing half-entry unbalances debits and credits; the others keep them equal.",
+                marks: 1,
+                markCode: "M",
+              },
+            ],
+            finalAnswer: "(a) Only one side entered.",
+          },
+        },
+        {
+          id: "cieiacct-u2-tb-q6",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "An error of omission (a transaction never entered in the books) would be detected by the trial balance:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Only if the amount was over $100" },
+              { id: "b", text: "Only at year end" },
+              { id: "c", text: "Never — no debit or credit was made, so totals still agree" },
+              { id: "d", text: "Always — every error unbalances the books" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Error of omission",
+                statement: "No entry at all — debits and credits remain equal.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "With no entry on either side, the trial balance still agrees.",
+                marks: 1,
+                markCode: "M",
+              },
+            ],
+            finalAnswer: "(b) Never.",
+          },
+        },
+        {
+          id: "cieiacct-u2-tb-q7",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "A trial balance shows total debits of $8,500 and total credits of $8,300. What is the difference between the two sides?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "Difference", answer: 200, unit: "$" }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "formula",
+                name: "TB difference",
+                statement: "Difference = total debits − total credits.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "8500 - 8300.",
+                working: "8500 - 8300",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "Difference = $200 (debits exceed credits).",
+                working: "8500 - 8300 = 200",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "$200",
+          },
+        },
+        {
+          id: "cieiacct-u2-tb-q8",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "A business debited the motor expenses account instead of the motor vehicles account for a $6,000 van purchase. State whether the trial balance would agree and explain your answer.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Error of principle",
+                statement:
+                  "Recording a capital item as revenue/expense keeps debits and credits equal.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "The trial balance would agree — both sides are still $6,000.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "The error is one of principle: a non-current asset was treated as an expense.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "Only the account classification is wrong, not the amounts, so totals still balance.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer:
+              "Yes, it would agree — equal amounts on both sides hide the wrong account type.",
+          },
+        },
+        {
+          id: "cieiacct-u2-tb-q9",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "An amount of $450 was entered in the books as $540. The trial balance would:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Not agree — the difference would be $90" },
+              { id: "b", text: "Agree — the amount is still recorded" },
+              { id: "c", text: "Agree if both sides used $540" },
+              { id: "d", text: "Not agree — the difference would be $450" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Incorrect amount",
+                statement:
+                  "A wrong amount on one side unbalances the trial balance by the difference.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "540 − 450 = 90, so debits and credits differ by $90.",
+                marks: 1,
+                markCode: "M",
+              },
+            ],
+            finalAnswer: "(a) Not agree — difference $90.",
+          },
+        },
+        {
+          id: "cieiacct-u2-tb-q10",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "The trial balance shows total debits exceeding total credits by $250. A suspense account is opened. What will the balance on the suspense account be?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "Suspense balance", answer: 250, unit: "$" }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Suspense account",
+                statement:
+                  "The suspense account takes the amount of the unexplained difference.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "The suspense account absorbs the $250 difference to make the trial balance agree.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "Balance = $250 (credit side, since debits are higher).",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "$250 credit",
+          },
+        },
+        {
+          id: "cieiacct-u2-tb-q11",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "Distinguish between an error of commission and an error of principle, giving an example of each.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Commission vs principle",
+                statement:
+                  "Commission = wrong account of the same type; principle = wrong type of account.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "Error of commission: right type of account but wrong one — e.g. debit Mr A's account instead of Mr B's for a receipt.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "Error of principle: an item recorded in the wrong category — e.g. a motor vehicle recorded as motor expenses.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "Both keep debits equal to credits, so neither is detected by the trial balance.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer:
+              "Commission = wrong account of same type (Mr A vs Mr B); principle = wrong category (asset as expense). Both hide from the TB.",
+          },
+        },
+        {
+          id: "cieiacct-u2-tb-q12",
+          difficulty: "challenge",
+          totalMarks: 1,
+          stem: "Two errors occurred: one understated sales by $400 and another overstated purchases by $400. The trial balance would:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Agree — the errors compensate each other" },
+              { id: "b", text: "Agree only if both were on the debit side" },
+              { id: "c", text: "Not agree — the difference would be $800" },
+              { id: "d", text: "Not agree — any two errors must unbalance it" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Compensating errors",
+                statement:
+                  "Two errors of equal amount can cancel out, leaving the trial balance in agreement.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "Equal and opposite effects cancel — the trial balance cannot reveal compensating errors.",
+                marks: 1,
+                markCode: "M",
+              },
+            ],
+            finalAnswer: "(a) Agree — compensating errors.",
+          },
+        },
+        {
+          id: "cieiacct-u2-tb-q13",
+          difficulty: "challenge",
+          totalMarks: 3,
+          stem: "Two errors are found in the books: credits were understated by $180 (a missing credit entry) and debits were overstated by $120 (a wrong amount). By how much did the trial balance disagree before correction?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "Difference", answer: 300, unit: "$" }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "formula",
+                name: "Combined effect",
+                statement:
+                  "The TB difference equals the sum of errors pushing debits above credits.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "Credits understated by $180 means debits exceed credits by $180; debits overstated by $120 adds another $120.",
+                working: "180 + 120",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "Both errors push the same direction — debits higher than credits.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "Total difference = $300.",
+                working: "180 + 120 = 300",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "$300",
+          },
+        },
+        {
+          id: "cieiacct-u2-tb-q14",
+          difficulty: "challenge",
+          totalMarks: 4,
+          parts: [
+            {
+              label: "a",
+              prompt:
+                "State two errors that a trial balance CAN detect.",
+              marks: 2,
+            },
+            {
+              label: "b",
+              prompt:
+                "State two errors that a trial balance CANNOT detect.",
+              marks: 2,
+            },
+          ],
+          stem: "A student claims a trial balance detects every bookkeeping error.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "TB limitations",
+                statement:
+                  "The TB only checks that debits equal credits — it cannot check account accuracy.",
+              },
+            ],
+            steps: [
+              {
+                part: "a",
+                reasoning:
+                  "Any two of: single-entry (missing half), wrong-side entry, incorrect amount on one side, transposition.",
+                marks: 2,
+                markCode: "M",
+              },
+              {
+                part: "b",
+                reasoning:
+                  "Any two of: omission, commission, principle, compensating errors, original error.",
+                marks: 2,
+                markCode: "M",
+              },
+            ],
+            finalAnswer:
+              "(a) Single-entry, wrong-side, wrong amount, transposition. (b) Omission, commission, principle, compensating, original.",
+          },
+        },
+        {
+          id: "cieiacct-u2-tb-q15",
+          difficulty: "challenge",
+          totalMarks: 1,
+          stem: "Which of the following would cause a trial balance to disagree?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "A van wrongly recorded as an expense" },
+              { id: "b", text: "A receipt posted to the wrong debtor's account" },
+              { id: "c", text: "A $300 payment entered on the wrong side of an account" },
+              { id: "d", text: "An invoice never entered in the books" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Wrong-side entry",
+                statement:
+                  "Entering on the wrong side reverses the effect and unbalances debits and credits.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "Options b, c and d all keep debits equal to credits; only the wrong-side entry unbalances the TB.",
+                marks: 1,
+                markCode: "M",
+              },
+            ],
+            finalAnswer: "(a) Wrong-side entry.",
+          },
+        },
+        {
+          id: "cieiacct-u2-tb-q16",
+          difficulty: "challenge",
+          totalMarks: 6,
+          parts: [
+            {
+              label: "a",
+              prompt:
+                "Explain why a trial balance is prepared before the financial statements.",
+              marks: 2,
+            },
+            {
+              label: "b",
+              prompt:
+                "The trial balance disagrees by $480 and the error cannot be found at once. Describe how the suspense account is used.",
+              marks: 2,
+            },
+            {
+              label: "c",
+              prompt:
+                "State what must be true of the suspense account before financial statements are prepared.",
+              marks: 2,
+            },
+          ],
+          stem: "A business is preparing its year-end accounts.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Suspense account",
+                statement:
+                  "Temporary account absorbing the TB difference until the error is located and corrected.",
+              },
+            ],
+            steps: [
+              {
+                part: "a",
+                reasoning:
+                  "It is an arithmetical check that debits equal credits before figures are used in the statements.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                part: "a",
+                reasoning:
+                  "If it disagrees, an error must be found or suspended before accurate statements can be prepared.",
+                marks: 1,
+                markCode: "A",
+              },
+              {
+                part: "b",
+                reasoning:
+                  "The $480 difference is entered to the suspense account so the trial balance can be made to agree while the search continues.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                part: "b",
+                reasoning:
+                  "Once the error is found, a correcting entry is posted through the suspense account to clear it.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                part: "c",
+                reasoning:
+                  "The suspense account must have a zero balance — it is temporary and must not appear in the final accounts.",
+                marks: 1,
+                markCode: "R",
+              },
+              {
+                part: "c",
+                reasoning:
+                  "If a balance remains, the error is still unresolved and the accounts cannot be finalised.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer:
+              "(a) It verifies the books arithmetically before statements are drawn up. (b) Difference parked in suspense until error found. (c) Must be zero before final accounts.",
+            commonErrors: [
+              "Including the suspense balance in the income statement — it must be eliminated first.",
             ],
           },
         },

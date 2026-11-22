@@ -49,12 +49,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$6\\sqrt{2}$" },
+              { id: "a", text: "$12$" },
               { id: "b", text: "$3\\sqrt{2}$" },
-              { id: "c", text: "$12$" },
+              { id: "c", text: "$6\\sqrt{2}$" },
               { id: "d", text: "$6$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -179,12 +179,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$4\\sqrt{3}$" },
-              { id: "b", text: "$8$" },
+              { id: "a", text: "$8$" },
+              { id: "b", text: "$4\\sqrt{3}$" },
               { id: "c", text: "$2$" },
               { id: "d", text: "$4$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

@@ -55,12 +55,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It needs two parents and produces gametes" },
-              { id: "b", text: "It involves one parent and produces genetically identical offspring" },
+              { id: "a", text: "It involves meiosis and fertilisation" },
+              { id: "b", text: "It needs two parents and produces gametes" },
               { id: "c", text: "It produces offspring that show a lot of genetic variation" },
-              { id: "d", text: "It involves meiosis and fertilisation" },
+              { id: "d", text: "It involves one parent and produces genetically identical offspring" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -192,12 +192,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Ovary" },
-              { id: "b", text: "Oviduct" },
-              { id: "c", text: "Uterus" },
-              { id: "d", text: "Vagina" },
+              { id: "a", text: "Vagina" },
+              { id: "b", text: "Ovary" },
+              { id: "c", text: "Oviduct" },
+              { id: "d", text: "Uterus" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

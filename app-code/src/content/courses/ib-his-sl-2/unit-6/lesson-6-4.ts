@@ -54,12 +54,12 @@ export const lesson64: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The UN became the world's only superpower" },
-              { id: "b", text: "The United States was the sole dominant superpower" },
-              { id: "c", text: "China replaced the Soviet Union as superpower" },
-              { id: "d", text: "Europe unified into a single state" },
+              { id: "a", text: "China replaced the Soviet Union as superpower" },
+              { id: "b", text: "Europe unified into a single state" },
+              { id: "c", text: "The UN became the world's only superpower" },
+              { id: "d", text: "The United States was the sole dominant superpower" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -153,12 +153,12 @@ export const lesson64: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A world with many equal superpowers" },
-              { id: "b", text: "The United States as the sole superpower" },
-              { id: "c", text: "A return to colonial empires" },
-              { id: "d", text: "UN control of all military forces" },
+              { id: "a", text: "UN control of all military forces" },
+              { id: "b", text: "A return to colonial empires" },
+              { id: "c", text: "The United States as the sole superpower" },
+              { id: "d", text: "A world with many equal superpowers" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -182,9 +182,9 @@ export const lesson64: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Occurred without explicit UN approval" },
-              { id: "b", text: "Targeted Russian territory" },
-              { id: "c", text: "Was authorised by the UN Security Council" },
-              { id: "d", text: "Aimed to restore Yugoslav sovereignty" },
+              { id: "b", text: "Was authorised by the UN Security Council" },
+              { id: "c", text: "Aimed to restore Yugoslav sovereignty" },
+              { id: "d", text: "Targeted Russian territory" },
             ],
             correctChoiceId: "a",
           },
@@ -209,12 +209,12 @@ export const lesson64: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A stable democratic transition" },
-              { id: "b", text: "Regime change followed by state collapse" },
+              { id: "a", text: "Regime change followed by state collapse" },
+              { id: "b", text: "A stable democratic transition" },
               { id: "c", text: "A permanent UN peacekeeping force" },
               { id: "d", text: "Reunification of Libya and Sudan" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -239,10 +239,10 @@ export const lesson64: Lesson = {
             choices: [
               { id: "a", text: "1945" },
               { id: "b", text: "1999" },
-              { id: "c", text: "2005" },
-              { id: "d", text: "2015" },
+              { id: "c", text: "2015" },
+              { id: "d", text: "2005" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -265,12 +265,12 @@ export const lesson64: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Stable and permanently unipolar" },
-              { id: "b", text: "Multipolar and contested, with US–China rivalry" },
+              { id: "a", text: "Multipolar and contested, with US–China rivalry" },
+              { id: "b", text: "Controlled by the United Nations" },
               { id: "c", text: "Bipolar again under Russia and the US" },
-              { id: "d", text: "Controlled by the United Nations" },
+              { id: "d", text: "Stable and permanently unipolar" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -293,12 +293,12 @@ export const lesson64: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It had been abolished" },
-              { id: "b", text: "Great-power disagreement — e.g. over Iraq — blocked action" },
-              { id: "c", text: "It lacked a peacekeeping budget" },
-              { id: "d", text: "All members opposed intervention" },
+              { id: "a", text: "It lacked a peacekeeping budget" },
+              { id: "b", text: "It had been abolished" },
+              { id: "c", text: "All members opposed intervention" },
+              { id: "d", text: "Great-power disagreement — e.g. over Iraq — blocked action" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -474,12 +474,12 @@ export const lesson64: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Try disputes between states" },
-              { id: "b", text: "Prosecute individuals for genocide, war crimes and crimes against humanity" },
+              { id: "a", text: "Prosecute individuals for genocide, war crimes and crimes against humanity" },
+              { id: "b", text: "Try disputes between states" },
               { id: "c", text: "Enforce international trade law" },
               { id: "d", text: "Replace national courts" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -573,12 +573,12 @@ export const lesson64: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "1990" },
-              { id: "b", text: "1994" },
-              { id: "c", text: "1995" },
+              { id: "a", text: "1995" },
+              { id: "b", text: "1990" },
+              { id: "c", text: "1994" },
               { id: "d", text: "1999" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -602,11 +602,11 @@ export const lesson64: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "About 8,000 over ten years" },
-              { id: "b", text: "About 800,000 in roughly 100 days" },
+              { id: "b", text: "About 3,000 in a single day" },
               { id: "c", text: "About 100,000 over five years" },
-              { id: "d", text: "About 3,000 in a single day" },
+              { id: "d", text: "About 800,000 in roughly 100 days" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -629,12 +629,12 @@ export const lesson64: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It was Europe's first genocide" },
-              { id: "b", text: "About 8,000 Bosnian Muslim men and boys were executed despite a UN 'safe area'" },
-              { id: "c", text: "It ended the Yugoslav wars" },
-              { id: "d", text: "It involved chemical weapons" },
+              { id: "a", text: "It ended the Yugoslav wars" },
+              { id: "b", text: "It involved chemical weapons" },
+              { id: "c", text: "It was Europe's first genocide" },
+              { id: "d", text: "About 8,000 Bosnian Muslim men and boys were executed despite a UN 'safe area'" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -657,12 +657,12 @@ export const lesson64: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "1945" },
+              { id: "a", text: "2015" },
               { id: "b", text: "1994" },
-              { id: "c", text: "2002" },
-              { id: "d", text: "2015" },
+              { id: "c", text: "1945" },
+              { id: "d", text: "2002" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -685,12 +685,12 @@ export const lesson64: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "France, Germany and Japan" },
-              { id: "b", text: "The United States, China and Russia" },
+              { id: "a", text: "The United States, China and Russia" },
+              { id: "b", text: "France, Germany and Japan" },
               { id: "c", text: "India, Brazil and South Africa" },
               { id: "d", text: "The UK, Canada and Australia" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -713,12 +713,12 @@ export const lesson64: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Ended all wars" },
-              { id: "b", text: "Treated climate change as a collective transnational security challenge" },
+              { id: "a", text: "Treated climate change as a collective transnational security challenge" },
+              { id: "b", text: "Ended all wars" },
               { id: "c", text: "Created a world government" },
               { id: "d", text: "Abolished the United Nations" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

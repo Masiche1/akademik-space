@@ -54,12 +54,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The total duration of the storm" },
-              { id: "b", text: "The delay between peak rainfall and peak discharge" },
-              { id: "c", text: "The volume of water in the river" },
-              { id: "d", text: "The time rivers take to reach the sea" },
+              { id: "a", text: "The volume of water in the river" },
+              { id: "b", text: "The time rivers take to reach the sea" },
+              { id: "c", text: "The total duration of the storm" },
+              { id: "d", text: "The delay between peak rainfall and peak discharge" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -153,12 +153,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The total storm rainfall" },
-              { id: "b", text: "The highest flow recorded during the event" },
+              { id: "a", text: "The average flow in the channel" },
+              { id: "b", text: "The total storm rainfall" },
               { id: "c", text: "The time of first rainfall" },
-              { id: "d", text: "The average flow in the channel" },
+              { id: "d", text: "The highest flow recorded during the event" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -181,12 +181,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Rising discharge after the storm begins" },
-              { id: "b", text: "Discharge falling after the peak" },
-              { id: "c", text: "Rainfall intensity increasing" },
-              { id: "d", text: "Infiltration into the soil" },
+              { id: "a", text: "Infiltration into the soil" },
+              { id: "b", text: "Rising discharge after the storm begins" },
+              { id: "c", text: "Discharge falling after the peak" },
+              { id: "d", text: "Rainfall intensity increasing" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -209,9 +209,9 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A longer lag time" },
+              { id: "a", text: "Reduced surface runoff" },
               { id: "b", text: "A shorter lag time and a higher peak discharge" },
-              { id: "c", text: "Reduced surface runoff" },
+              { id: "c", text: "A longer lag time" },
               { id: "d", text: "Increased infiltration" },
             ],
             correctChoiceId: "b",
@@ -237,12 +237,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Hazard × exposure × vulnerability" },
+              { id: "a", text: "Population × area × time" },
               { id: "b", text: "Rainfall × wind × temperature" },
-              { id: "c", text: "Population × area × time" },
-              { id: "d", text: "Rainfall intensity only" },
+              { id: "c", text: "Rainfall intensity only" },
+              { id: "d", text: "Hazard × exposure × vulnerability" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -267,8 +267,8 @@ export const lesson23: Lesson = {
             choices: [
               { id: "a", text: "Their rivers are always steeper" },
               { id: "b", text: "Vulnerability is higher — poorer housing, less warning and weaker emergency response" },
-              { id: "c", text: "Their rainfall is always heavier" },
-              { id: "d", text: "They have no rivers to flood" },
+              { id: "c", text: "They have no rivers to flood" },
+              { id: "d", text: "Their rainfall is always heavier" },
             ],
             correctChoiceId: "b",
           },
@@ -512,12 +512,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Building a concrete levee" },
-              { id: "b", text: "Channelising a river" },
-              { id: "c", text: "Restoring a floodplain wetland" },
-              { id: "d", text: "Constructing a floodwall" },
+              { id: "a", text: "Constructing a floodwall" },
+              { id: "b", text: "Building a concrete levee" },
+              { id: "c", text: "Channelising a river" },
+              { id: "d", text: "Restoring a floodplain wetland" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -611,12 +611,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Building concrete levees" },
-              { id: "b", text: "Restoring floodplains and planting upstream woodland" },
+              { id: "a", text: "Restoring floodplains and planting upstream woodland" },
+              { id: "b", text: "Building concrete levees" },
               { id: "c", text: "Channelising rivers" },
               { id: "d", text: "Constructing floodwalls" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -640,11 +640,11 @@ export const lesson23: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Speed up river flow" },
-              { id: "b", text: "Restrict development in flood-prone areas" },
+              { id: "b", text: "Raise levee heights" },
               { id: "c", text: "Deepen river channels" },
-              { id: "d", text: "Raise levee heights" },
+              { id: "d", text: "Restrict development in flood-prone areas" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -667,12 +667,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Eroding the channel bed" },
-              { id: "b", text: "Storing floodwater and releasing it gradually" },
-              { id: "c", text: "Increasing rainfall upstream" },
-              { id: "d", text: "Blocking tidal surges only" },
+              { id: "a", text: "Storing floodwater and releasing it gradually" },
+              { id: "b", text: "Eroding the channel bed" },
+              { id: "c", text: "Blocking tidal surges only" },
+              { id: "d", text: "Increasing rainfall upstream" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -695,10 +695,10 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Re-meandering a straightened river" },
+              { id: "a", text: "Building wetlands on the floodplain" },
               { id: "b", text: "Straightening and deepening the river channel" },
-              { id: "c", text: "Planting trees along the banks" },
-              { id: "d", text: "Building wetlands on the floodplain" },
+              { id: "c", text: "Re-meandering a straightened river" },
+              { id: "d", text: "Planting trees along the banks" },
             ],
             correctChoiceId: "b",
           },
@@ -724,11 +724,11 @@ export const lesson23: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Abandoning all flood defences" },
-              { id: "b", text: "Deliberately allowing flooding of low-value land to protect more valuable areas" },
-              { id: "c", text: "Ignoring flood risk in planning" },
-              { id: "d", text: "Moving the river to a new course" },
+              { id: "b", text: "Ignoring flood risk in planning" },
+              { id: "c", text: "Moving the river to a new course" },
+              { id: "d", text: "Deliberately allowing flooding of low-value land to protect more valuable areas" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

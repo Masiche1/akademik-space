@@ -72,9 +72,9 @@ export const lesson91: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Enzyme that cuts DNA at specific sequences" },
-              { id: "b", text: "Enzyme that joins DNA" },
+              { id: "b", text: "Protein that cuts proteins" },
               { id: "c", text: "Enzyme that copies DNA" },
-              { id: "d", text: "Protein that cuts proteins" },
+              { id: "d", text: "Enzyme that joins DNA" },
             ],
             correctChoiceId: "a",
           },
@@ -249,12 +249,12 @@ export const lesson91: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Restriction enzyme" },
-              { id: "b", text: "DNA ligase" },
-              { id: "c", text: "DNA polymerase" },
-              { id: "d", text: "Amylase" },
+              { id: "a", text: "DNA ligase" },
+              { id: "b", text: "DNA polymerase" },
+              { id: "c", text: "Amylase" },
+              { id: "d", text: "Restriction enzyme" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -349,12 +349,12 @@ export const lesson91: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It allows the plasmid to replicate inside the host cell" },
+              { id: "a", text: "It confers antibiotic resistance" },
               { id: "b", text: "It cuts the plasmid DNA" },
-              { id: "c", text: "It joins the foreign gene to the plasmid" },
-              { id: "d", text: "It confers antibiotic resistance" },
+              { id: "c", text: "It allows the plasmid to replicate inside the host cell" },
+              { id: "d", text: "It joins the foreign gene to the plasmid" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -402,12 +402,12 @@ export const lesson91: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Introducing foreign DNA into the bacterial cells" },
-              { id: "b", text: "Changing bacteria into a different species" },
-              { id: "c", text: "Killing non-resistant bacteria" },
+              { id: "a", text: "Killing non-resistant bacteria" },
+              { id: "b", text: "Introducing foreign DNA into the bacterial cells" },
+              { id: "c", text: "Changing bacteria into a different species" },
               { id: "d", text: "Copying a plasmid using PCR" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -432,12 +432,12 @@ export const lesson91: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It contains DNA joined from more than one source" },
-              { id: "b", text: "It is identical to the host chromosome" },
-              { id: "c", text: "It cannot replicate in bacteria" },
+              { id: "a", text: "It is identical to the host chromosome" },
+              { id: "b", text: "It cannot replicate in bacteria" },
+              { id: "c", text: "It contains DNA joined from more than one source" },
               { id: "d", text: "It only exists in plant cells" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -603,12 +603,12 @@ export const lesson91: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Polymerase chain reaction" },
-              { id: "b", text: "Protein cloning reaction" },
-              { id: "c", text: "Polymerase copying RNA" },
-              { id: "d", text: "Rapid cell reproduction" },
+              { id: "a", text: "Polymerase copying RNA" },
+              { id: "b", text: "Polymerase chain reaction" },
+              { id: "c", text: "Rapid cell reproduction" },
+              { id: "d", text: "Protein cloning reaction" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -789,8 +789,8 @@ export const lesson91: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "About $55^{\\circ}\\mathrm{C}$" },
-              { id: "b", text: "$95^{\\circ}\\mathrm{C}$" },
-              { id: "c", text: "$72^{\\circ}\\mathrm{C}$" },
+              { id: "b", text: "$72^{\\circ}\\mathrm{C}$" },
+              { id: "c", text: "$95^{\\circ}\\mathrm{C}$" },
               { id: "d", text: "$20^{\\circ}\\mathrm{C}$" },
             ],
             correctChoiceId: "a",
@@ -864,12 +864,12 @@ export const lesson91: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The smallest fragment" },
+              { id: "a", text: "The fragment with the most negative charge per unit length" },
               { id: "b", text: "The largest fragment" },
-              { id: "c", text: "The fragment with the most negative charge per unit length" },
-              { id: "d", text: "All fragments travel the same distance" },
+              { id: "c", text: "All fragments travel the same distance" },
+              { id: "d", text: "The smallest fragment" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -947,12 +947,12 @@ export const lesson91: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "They bind to complementary template sequences and provide a starting point for DNA synthesis" },
-              { id: "b", text: "They separate the two DNA strands" },
-              { id: "c", text: "They synthesise the new DNA strands" },
-              { id: "d", text: "They cut the DNA at specific sites" },
+              { id: "a", text: "They cut the DNA at specific sites" },
+              { id: "b", text: "They synthesise the new DNA strands" },
+              { id: "c", text: "They bind to complementary template sequences and provide a starting point for DNA synthesis" },
+              { id: "d", text: "They separate the two DNA strands" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1024,12 +1024,12 @@ export const lesson91: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Amplifying a small sample of DNA so it can be analysed" },
-              { id: "b", text: "Separating proteins by size" },
-              { id: "c", text: "Cutting DNA at specific sequences" },
+              { id: "a", text: "Cutting DNA at specific sequences" },
+              { id: "b", text: "Amplifying a small sample of DNA so it can be analysed" },
+              { id: "c", text: "Separating proteins by size" },
               { id: "d", text: "Joining DNA fragments together" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1114,12 +1114,12 @@ export const lesson91: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Nucleus from adult cell into enucleated egg" },
-              { id: "b", text: "Fusion of two egg cells" },
-              { id: "c", text: "Growing tissue in culture" },
-              { id: "d", text: "PCR amplification" },
+              { id: "a", text: "Fusion of two egg cells" },
+              { id: "b", text: "PCR amplification" },
+              { id: "c", text: "Nucleus from adult cell into enucleated egg" },
+              { id: "d", text: "Growing tissue in culture" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1296,12 +1296,12 @@ export const lesson91: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Growing small pieces of plant tissue into whole plants" },
-              { id: "b", text: "Producing antibiotics in bacteria" },
+              { id: "a", text: "Making monoclonal antibodies" },
+              { id: "b", text: "Growing small pieces of plant tissue into whole plants" },
               { id: "c", text: "Amplifying DNA" },
-              { id: "d", text: "Making monoclonal antibodies" },
+              { id: "d", text: "Producing antibiotics in bacteria" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1397,12 +1397,12 @@ export const lesson91: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Unlimited identical antibodies can be produced from an immortal cell line" },
+              { id: "a", text: "They work against every disease" },
               { id: "b", text: "They can be made without any cells" },
               { id: "c", text: "They are cheaper than chemical synthesis" },
-              { id: "d", text: "They work against every disease" },
+              { id: "d", text: "Unlimited identical antibodies can be produced from an immortal cell line" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1450,12 +1450,12 @@ export const lesson91: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Pregnancy tests and disease diagnosis" },
-              { id: "b", text: "Producing insulin in fermenters" },
+              { id: "a", text: "Cloning sheep by SCNT" },
+              { id: "b", text: "Pregnancy tests and disease diagnosis" },
               { id: "c", text: "Amplifying DNA by PCR" },
-              { id: "d", text: "Cloning sheep by SCNT" },
+              { id: "d", text: "Producing insulin in fermenters" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1528,12 +1528,12 @@ export const lesson91: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Human insulin" },
-              { id: "b", text: "Paper" },
-              { id: "c", text: "Glass" },
-              { id: "d", text: "Petrol" },
+              { id: "a", text: "Glass" },
+              { id: "b", text: "Petrol" },
+              { id: "c", text: "Paper" },
+              { id: "d", text: "Human insulin" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

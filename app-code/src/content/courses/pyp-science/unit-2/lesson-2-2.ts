@@ -51,12 +51,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Pulling a door open" },
-              { id: "b", text: "Opening a drawer" },
-              { id: "c", text: "Kicking a football" },
-              { id: "d", text: "Drawing back a bow" },
+              { id: "a", text: "Opening a drawer" },
+              { id: "b", text: "Kicking a football" },
+              { id: "c", text: "Drawing back a bow" },
+              { id: "d", text: "Pulling a door open" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -145,8 +145,8 @@ export const lesson22: Lesson = {
             choices: [
               { id: "a", text: "Kicking a ball away" },
               { id: "b", text: "Pulling a drawer towards you" },
-              { id: "c", text: "Pushing a swing" },
-              { id: "d", text: "Throwing a ball forward" },
+              { id: "c", text: "Throwing a ball forward" },
+              { id: "d", text: "Pushing a swing" },
             ],
             correctChoiceId: "b",
           },
@@ -208,8 +208,8 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Magnetism" },
-              { id: "b", text: "Friction" },
+              { id: "a", text: "Friction" },
+              { id: "b", text: "Magnetism" },
               { id: "c", text: "Gravity" },
               { id: "d", text: "Wind only" },
             ],
@@ -256,12 +256,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Pushes them away" },
-              { id: "b", text: "Attracts them without touching" },
+              { id: "a", text: "Attracts them without touching" },
+              { id: "b", text: "Pushes them away" },
               { id: "c", text: "Melts them" },
               { id: "d", text: "Nothing" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -324,8 +324,8 @@ export const lesson22: Lesson = {
             choices: [
               { id: "a", text: "The magnet changes colour" },
               { id: "b", text: "A paperclip moves towards the magnet without being touched" },
-              { id: "c", text: "The magnet gets heavier" },
-              { id: "d", text: "The paperclip melts" },
+              { id: "c", text: "The paperclip melts" },
+              { id: "d", text: "The magnet gets heavier" },
             ],
             correctChoiceId: "b",
           },
@@ -393,11 +393,11 @@ export const lesson22: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Magnetism" },
-              { id: "b", text: "Friction" },
-              { id: "c", text: "Light" },
-              { id: "d", text: "Sound" },
+              { id: "b", text: "Light" },
+              { id: "c", text: "Sound" },
+              { id: "d", text: "Friction" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -447,12 +447,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Snail" },
-              { id: "b", text: "Turtle" },
-              { id: "c", text: "Cheetah" },
-              { id: "d", text: "Sloth" },
+              { id: "a", text: "Turtle" },
+              { id: "b", text: "Sloth" },
+              { id: "c", text: "Snail" },
+              { id: "d", text: "Cheetah" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -539,12 +539,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "How heavy an object is" },
-              { id: "b", text: "How quickly an object moves" },
-              { id: "c", text: "How colourful an object is" },
-              { id: "d", text: "How old an object is" },
+              { id: "a", text: "How quickly an object moves" },
+              { id: "b", text: "How old an object is" },
+              { id: "c", text: "How heavy an object is" },
+              { id: "d", text: "How colourful an object is" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -606,9 +606,9 @@ export const lesson22: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Make it stop moving" },
-              { id: "b", text: "Change its colour" },
+              { id: "b", text: "Remove its shape" },
               { id: "c", text: "Make it smell" },
-              { id: "d", text: "Remove its shape" },
+              { id: "d", text: "Change its colour" },
             ],
             correctChoiceId: "a",
           },
@@ -653,12 +653,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It usually moves faster" },
+              { id: "a", text: "Nothing changes" },
               { id: "b", text: "It becomes heavier" },
-              { id: "c", text: "It stops immediately" },
-              { id: "d", text: "Nothing changes" },
+              { id: "c", text: "It usually moves faster" },
+              { id: "d", text: "It stops immediately" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -719,12 +719,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Air resistance helps it fly" },
-              { id: "b", text: "The throw gives speed to overcome air resistance for longer" },
-              { id: "c", text: "Paper is very heavy" },
-              { id: "d", text: "Gravity stops acting" },
+              { id: "a", text: "Paper is very heavy" },
+              { id: "b", text: "Gravity stops acting" },
+              { id: "c", text: "The throw gives speed to overcome air resistance for longer" },
+              { id: "d", text: "Air resistance helps it fly" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -789,10 +789,10 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The feather is heavier" },
+              { id: "a", text: "Gravity does not act on feathers" },
               { id: "b", text: "Air resistance slows the feather more" },
-              { id: "c", text: "Gravity does not act on feathers" },
-              { id: "d", text: "The stone has wings" },
+              { id: "c", text: "The stone has wings" },
+              { id: "d", text: "The feather is heavier" },
             ],
             correctChoiceId: "b",
           },

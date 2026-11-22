@@ -52,12 +52,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$5$" },
-              { id: "b", text: "$50$" },
-              { id: "c", text: "$500$" },
-              { id: "d", text: "$25$" },
+              { id: "a", text: "$500$" },
+              { id: "b", text: "$25$" },
+              { id: "c", text: "$50$" },
+              { id: "d", text: "$5$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -97,9 +97,9 @@ export const lesson11: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$495, 509, 590, 905$" },
-              { id: "b", text: "$509, 495, 590, 905$" },
-              { id: "c", text: "$495, 509, 905, 590$" },
-              { id: "d", text: "$905, 590, 509, 495$" },
+              { id: "b", text: "$905, 590, 509, 495$" },
+              { id: "c", text: "$509, 495, 590, 905$" },
+              { id: "d", text: "$495, 509, 905, 590$" },
             ],
             correctChoiceId: "a",
           },
@@ -164,10 +164,10 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$7$" },
+              { id: "a", text: "$37$" },
               { id: "b", text: "$70$" },
               { id: "c", text: "$700$" },
-              { id: "d", text: "$37$" },
+              { id: "d", text: "$7$" },
             ],
             correctChoiceId: "b",
           },
@@ -209,8 +209,8 @@ export const lesson11: Lesson = {
             choices: [
               { id: "a", text: "$412$" },
               { id: "b", text: "$421$" },
-              { id: "c", text: "$214$" },
-              { id: "d", text: "They are all equal" },
+              { id: "c", text: "They are all equal" },
+              { id: "d", text: "$214$" },
             ],
             correctChoiceId: "b",
           },
@@ -234,9 +234,9 @@ export const lesson11: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Three hundred and five" },
-              { id: "b", text: "Three hundred and fifty" },
+              { id: "b", text: "Three thousand and five" },
               { id: "c", text: "Thirty-five" },
-              { id: "d", text: "Three thousand and five" },
+              { id: "d", text: "Three hundred and fifty" },
             ],
             correctChoiceId: "a",
           },
@@ -260,11 +260,11 @@ export const lesson11: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$348$" },
-              { id: "b", text: "$349$" },
-              { id: "c", text: "$358$" },
+              { id: "b", text: "$358$" },
+              { id: "c", text: "$349$" },
               { id: "d", text: "$448$" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -286,12 +286,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$288$" },
-              { id: "b", text: "$128$" },
-              { id: "c", text: "$812$" },
-              { id: "d", text: "$108$" },
+              { id: "a", text: "$128$" },
+              { id: "b", text: "$288$" },
+              { id: "c", text: "$108$" },
+              { id: "d", text: "$812$" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -369,11 +369,11 @@ export const lesson11: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$487$" },
-              { id: "b", text: "$512$" },
-              { id: "c", text: "$465$" },
-              { id: "d", text: "They are equally close" },
+              { id: "b", text: "$465$" },
+              { id: "c", text: "They are equally close" },
+              { id: "d", text: "$512$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -552,10 +552,10 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$67$" },
+              { id: "a", text: "$13$" },
               { id: "b", text: "$77$" },
-              { id: "c", text: "$87$" },
-              { id: "d", text: "$13$" },
+              { id: "c", text: "$67$" },
+              { id: "d", text: "$87$" },
             ],
             correctChoiceId: "b",
           },
@@ -595,12 +595,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$90$" },
-              { id: "b", text: "$98$" },
-              { id: "c", text: "$108$" },
-              { id: "d", text: "$88$" },
+              { id: "a", text: "$98$" },
+              { id: "b", text: "$90$" },
+              { id: "c", text: "$88$" },
+              { id: "d", text: "$108$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -656,12 +656,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$36$" },
-              { id: "b", text: "$90$" },
-              { id: "c", text: "$46$" },
-              { id: "d", text: "$26$" },
+              { id: "a", text: "$90$" },
+              { id: "b", text: "$36$" },
+              { id: "c", text: "$26$" },
+              { id: "d", text: "$46$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -739,12 +739,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$205$" },
-              { id: "b", text: "$155$" },
+              { id: "a", text: "$395$" },
+              { id: "b", text: "$205$" },
               { id: "c", text: "$255$" },
-              { id: "d", text: "$395$" },
+              { id: "d", text: "$155$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [

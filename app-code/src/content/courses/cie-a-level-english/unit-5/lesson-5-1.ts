@@ -75,18 +75,18 @@ export const lesson511: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              {
-                id: "a",
-                text: "Character speaks thoughts aloud alone on stage",
-              },
+              { id: "a", text: "Narrator describes action" },
               {
                 id: "b",
-                text: "Character speaks to audience unheard by others",
+                text: "Character speaks thoughts aloud alone on stage",
               },
               { id: "c", text: "Two characters converse" },
-              { id: "d", text: "Narrator describes action" },
+              {
+                id: "d",
+                text: "Character speaks to audience unheard by others",
+              },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -278,15 +278,15 @@ export const lesson511: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "Stage direction in brackets" },
               {
-                id: "a",
+                id: "b",
                 text: "Character addresses the audience, unheard by others on stage",
               },
-              { id: "b", text: "Character speaks alone on stage" },
               { id: "c", text: "Narrator describes the action" },
-              { id: "d", text: "Stage direction in brackets" },
+              { id: "d", text: "Character speaks alone on stage" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -317,8 +317,8 @@ export const lesson511: Lesson = {
             choices: [
               { id: "a", text: "Soliloquy" },
               { id: "b", text: "Aside" },
-              { id: "c", text: "Prologue" },
-              { id: "d", text: "Entrances and exits" },
+              { id: "c", text: "Entrances and exits" },
+              { id: "d", text: "Prologue" },
             ],
             correctChoiceId: "a",
           },
@@ -349,15 +349,15 @@ export const lesson511: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "A literal wall in the set" },
               {
-                id: "a",
+                id: "b",
                 text: "Invisible barrier between performers and audience",
               },
-              { id: "b", text: "A literal wall in the set" },
               { id: "c", text: "A curtain between acts" },
               { id: "d", text: "A character's monologue" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -391,8 +391,8 @@ export const lesson511: Lesson = {
                 text: "To introduce or comment on the action from outside the main events",
               },
               { id: "b", text: "To list the cast" },
-              { id: "c", text: "To replace the climax" },
-              { id: "d", text: "To show stage directions" },
+              { id: "c", text: "To show stage directions" },
+              { id: "d", text: "To replace the climax" },
             ],
             correctChoiceId: "a",
           },
@@ -846,12 +846,12 @@ export const lesson511: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "What is implied but not directly stated" },
+              { id: "a", text: "Stage directions" },
               { id: "b", text: "The main plot" },
-              { id: "c", text: "Stage directions" },
+              { id: "c", text: "What is implied but not directly stated" },
               { id: "d", text: "Character names" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1037,9 +1037,9 @@ export const lesson511: Lesson = {
                 id: "a",
                 text: "Unrhymed lines of iambic pentameter",
               },
-              { id: "b", text: "Rhyme and rhythm poetry" },
+              { id: "b", text: "A stage direction" },
               { id: "c", text: "Spoken prose dialogue" },
-              { id: "d", text: "A stage direction" },
+              { id: "d", text: "Rhyme and rhythm poetry" },
             ],
             correctChoiceId: "a",
           },
@@ -1071,9 +1071,9 @@ export const lesson511: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Assertiveness or rising tension" },
-              { id: "b", text: "Polite agreement" },
-              { id: "c", text: "Lack of education" },
-              { id: "d", text: "A stage error" },
+              { id: "b", text: "A stage error" },
+              { id: "c", text: "Polite agreement" },
+              { id: "d", text: "Lack of education" },
             ],
             correctChoiceId: "a",
           },
@@ -1104,12 +1104,12 @@ export const lesson511: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Anaphora" },
-              { id: "b", text: "Simile" },
-              { id: "c", text: "Stage direction" },
+              { id: "a", text: "Simile" },
+              { id: "b", text: "Stage direction" },
+              { id: "c", text: "Anaphora" },
               { id: "d", text: "Soliloquy" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1140,8 +1140,8 @@ export const lesson511: Lesson = {
             choices: [
               { id: "a", text: "Lower-status or comic characters" },
               { id: "b", text: "Nobles and kings" },
-              { id: "c", text: "The chorus" },
-              { id: "d", text: "Ghosts only" },
+              { id: "c", text: "Ghosts only" },
+              { id: "d", text: "The chorus" },
             ],
             correctChoiceId: "a",
           },

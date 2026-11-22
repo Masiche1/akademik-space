@@ -76,12 +76,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Learning through association" },
+              { id: "a", text: "Observing others" },
               { id: "b", text: "Learning through punishment" },
-              { id: "c", text: "Observing others" },
-              { id: "d", text: "Unconscious desire" },
+              { id: "c", text: "Unconscious desire" },
+              { id: "d", text: "Learning through association" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -257,12 +257,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "unconditioned stimulus" },
-              { id: "b", text: "conditioned stimulus" },
+              { id: "a", text: "conditioned stimulus" },
+              { id: "b", text: "unconditioned stimulus" },
               { id: "c", text: "neutral stimulus" },
               { id: "d", text: "conditioned response" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -292,11 +292,11 @@ export const lesson11: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "adding an unpleasant stimulus to reduce behaviour" },
-              { id: "b", text: "removing an unpleasant stimulus to increase behaviour" },
+              { id: "b", text: "a form of punishment" },
               { id: "c", text: "removing a pleasant stimulus to reduce behaviour" },
-              { id: "d", text: "a form of punishment" },
+              { id: "d", text: "removing an unpleasant stimulus to increase behaviour" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -433,12 +433,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "punishment" },
-              { id: "b", text: "positive reinforcement" },
-              { id: "c", text: "negative reinforcement" },
-              { id: "d", text: "modelling" },
+              { id: "a", text: "modelling" },
+              { id: "b", text: "negative reinforcement" },
+              { id: "c", text: "positive reinforcement" },
+              { id: "d", text: "punishment" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -508,12 +508,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "unconditioned stimulus" },
-              { id: "b", text: "conditioned stimulus" },
+              { id: "a", text: "conditioned stimulus" },
+              { id: "b", text: "unconditioned response" },
               { id: "c", text: "neutral stimulus" },
-              { id: "d", text: "unconditioned response" },
+              { id: "d", text: "unconditioned stimulus" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -632,12 +632,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "learned through interaction with the environment" },
+              { id: "a", text: "the product of free will" },
               { id: "b", text: "caused by unconscious conflicts" },
-              { id: "c", text: "the product of free will" },
-              { id: "d", text: "determined only by genes" },
+              { id: "c", text: "determined only by genes" },
+              { id: "d", text: "learned through interaction with the environment" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -783,9 +783,9 @@ export const lesson11: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Mental processes like memory and perception" },
-              { id: "b", text: "Only observable behaviour" },
-              { id: "c", text: "Unconscious desires" },
-              { id: "d", text: "Genetics" },
+              { id: "b", text: "Genetics" },
+              { id: "c", text: "Only observable behaviour" },
+              { id: "d", text: "Unconscious desires" },
             ],
             correctChoiceId: "a",
           },
@@ -940,6 +940,458 @@ export const lesson11: Lesson = {
             ],
             finalAnswer:
               "(a) cognitive (b) psychodynamic (c) Freud (d) SLT (e) comparison",
+          },
+        },
+        {
+          id: "olep-u1-cp-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Which approach compares the mind to a computer processing information?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Psychodynamic approach" },
+              { id: "b", text: "Humanistic approach" },
+              { id: "c", text: "Cognitive approach" },
+              { id: "d", text: "Behaviourist approach" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Cognitive approach",
+                statement: "Studies mental processes like a computer.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Information processing model = cognitive.",
+                marks: 1,
+                markCode: "AO1",
+              },
+            ],
+            finalAnswer: "**(a)** Cognitive approach",
+            commonErrors: ["Confusing with behaviourism."],
+          },
+        },
+        {
+          id: "olep-u1-cp-q6",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "What is the id in Freud's theory?",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Id",
+                statement: "Instincts and immediate desires.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Id = instinctual drives.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                reasoning: "Operates on pleasure principle.",
+                marks: 1,
+                markCode: "AO2",
+              },
+            ],
+            finalAnswer:
+              "The id contains basic instincts and desires, seeking immediate gratification.",
+            commonErrors: ["Confusing id with superego."],
+          },
+        },
+        {
+          id: "olep-u1-cp-q7",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Attributing one's own unacceptable feelings to another person is called:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "repression" },
+              { id: "b", text: "sublimation" },
+              { id: "c", text: "denial" },
+              { id: "d", text: "projection" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Projection",
+                statement: "Defence mechanism attributing own feelings to others.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Projection = attributing to others.",
+                marks: 1,
+                markCode: "AO1",
+              },
+            ],
+            finalAnswer: "**(a)** projection",
+            commonErrors: ["Confusing with repression."],
+          },
+        },
+        {
+          id: "olep-u1-cp-q8",
+          difficulty: "challenge",
+          totalMarks: 3,
+          stem: "Describe the four processes in Bandura's social learning theory.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "SLT processes",
+                statement: "Attention→retention→reproduction→motivation.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Attention to the model.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                reasoning: "Retention of the behaviour.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                reasoning: "Reproduction and motivation (incl. vicarious reinforcement).",
+                marks: 1,
+                markCode: "AO2",
+              },
+            ],
+            finalAnswer:
+              "Attention→retention→reproduction→motivation, with vicarious reinforcement driving imitation.",
+            commonErrors: ["Missing a stage."],
+          },
+        },
+        {
+          id: "olep-u1-cp-q9",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Who developed social learning theory?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Pavlov" },
+              { id: "b", text: "Freud" },
+              { id: "c", text: "Bandura" },
+              { id: "d", text: "Skinner" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Bandura",
+                statement: "Social learning theory.",
+              },
+            ],
+            steps: [
+              { reasoning: "Bandura = SLT.", marks: 1, markCode: "AO1" },
+            ],
+            finalAnswer: "**(a)** Bandura",
+            commonErrors: ["Confusing with Skinner."],
+          },
+        },
+        {
+          id: "olep-u1-cp-q10",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "Explain the role of the ego in Freud's theory.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Ego",
+                statement: "Reality mediator between id and superego.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Ego mediates between id and superego.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                reasoning: "Operates on reality principle.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                reasoning: "Uses defence mechanisms to reduce anxiety.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              { reasoning: "Clear explanation.", marks: 1, markCode: "AO3" },
+            ],
+            finalAnswer:
+              "The ego balances the id's desires and the superego's morality using reality and defence mechanisms.",
+            commonErrors: ["Describing only one function."],
+          },
+        },
+        {
+          id: "olep-u1-cp-q11",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "'Vicarious reinforcement' means:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "learning from the consequences experienced by others" },
+              { id: "b", text: "copying without understanding" },
+              { id: "c", text: "avoiding punishment" },
+              { id: "d", text: "being rewarded directly for behaviour" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Vicarious reinforcement",
+                statement: "Learning from others' consequences.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Vicarious = via others.",
+                marks: 1,
+                markCode: "AO1",
+              },
+            ],
+            finalAnswer: "**(a)** learning from the consequences experienced by others",
+            commonErrors: ["Confusing with direct reinforcement."],
+          },
+        },
+        {
+          id: "olep-u1-cp-q12",
+          difficulty: "challenge",
+          totalMarks: 9,
+          stem: "Psychodynamic approach and social learning.",
+          parts: [
+            { label: "a", prompt: "Define the psychodynamic approach.", marks: 1 },
+            { label: "b", prompt: "Freud's three parts of personality?", marks: 2 },
+            { label: "c", prompt: "Name two defence mechanisms.", marks: 2 },
+            { label: "d", prompt: "Stages of social learning?", marks: 2 },
+            { label: "e", prompt: "SLT vs operant conditioning?", marks: 2 },
+          ],
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Psychodynamic/SLT",
+                statement: "Definitions+theory+comparison.",
+              },
+            ],
+            steps: [
+              {
+                part: "a",
+                reasoning: "Unconscious mind/childhood.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                part: "b",
+                reasoning: "Id/ego/superego named.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                part: "b",
+                reasoning: "Functions explained.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                part: "c",
+                reasoning: "Any two mechanisms.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              { part: "c", reasoning: "Correct.", marks: 1, markCode: "AO2" },
+              {
+                part: "d",
+                reasoning: "Attention/retention/reproduction/motivation.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                part: "d",
+                reasoning: "Order or meaning clear.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                part: "e",
+                reasoning: "Observation vs own consequences.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                part: "e",
+                reasoning: "Clear comparison.",
+                marks: 1,
+                markCode: "AO3",
+              },
+            ],
+            finalAnswer:
+              "(a) psychodynamic (b) id/ego/superego (c) defence (d) SLT stages (e) comparison",
+          },
+        },
+        {
+          id: "olep-u1-cp-q13",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "What is repression?",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Repression",
+                statement: "Unconscious forgetting of distressing memories.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Unconscious banishment of memories.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                reasoning: "Protects ego from anxiety.",
+                marks: 1,
+                markCode: "AO2",
+              },
+            ],
+            finalAnswer:
+              "Repression is unconsciously pushing distressing memories out of awareness.",
+            commonErrors: ["Confusing with denial."],
+          },
+        },
+        {
+          id: "olep-u1-cp-q14",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "In social learning theory, learning occurs mainly through:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "genetic inheritance" },
+              { id: "b", text: "observation and imitation of models" },
+              { id: "c", text: "direct punishment only" },
+              { id: "d", text: "unconscious drives" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Social learning",
+                statement: "Observation and imitation.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "SLT = observation.",
+                marks: 1,
+                markCode: "AO1",
+              },
+            ],
+            finalAnswer: "**(a)** observation and imitation of models",
+            commonErrors: ["Confusing with operant."],
+          },
+        },
+        {
+          id: "olep-u1-cp-q15",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "Evaluate the psychodynamic approach.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Psychodynamic evaluation",
+                statement: "Weigh strengths vs weaknesses.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Strength: explains childhood influence on adult behaviour.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                reasoning: "Strength: influential in therapy (psychoanalysis).",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                reasoning: "Weakness: unscientific, unfalsifiable concepts.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                reasoning: "Balanced judgement weighing both sides.",
+                marks: 1,
+                markCode: "AO3",
+              },
+            ],
+            finalAnswer:
+              "Psychodynamic theory highlights childhood influences and therapy, but its concepts are hard to test scientifically.",
+            commonErrors: ["Listing points without judgement."],
+          },
+        },
+        {
+          id: "olep-u1-cp-q16",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Bandura's Bobo doll experiment demonstrated:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "children imitate aggressive behaviour they observe" },
+              { id: "b", text: "memory formation in STM" },
+              { id: "c", text: "punishment reduces all aggression" },
+              { id: "d", text: "classical conditioning in children" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Bobo doll",
+                statement: "Observational learning of aggression.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Children imitated model's aggression.",
+                marks: 1,
+                markCode: "AO1",
+              },
+            ],
+            finalAnswer: "**(a)** children imitate aggressive behaviour they observe",
+            commonErrors: ["Confusing with Skinner."],
           },
         },
       ],

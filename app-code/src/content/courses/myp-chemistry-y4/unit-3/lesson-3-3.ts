@@ -57,12 +57,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Small molecule that joins to form a polymer" },
-              { id: "b", text: "A type of plastic" },
-              { id: "c", text: "A metal atom" },
-              { id: "d", text: "A catalyst" },
+              { id: "a", text: "A catalyst" },
+              { id: "b", text: "A metal atom" },
+              { id: "c", text: "A type of plastic" },
+              { id: "d", text: "Small molecule that joins to form a polymer" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -85,9 +85,9 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Thermoplastic softens when heated (recyclable); thermoset has cross-links and stays rigid" },
-              { id: "b", text: "They are the same" },
+              { id: "b", text: "Thermoplastic can't be molded" },
               { id: "c", text: "Thermoset is always softer" },
-              { id: "d", text: "Thermoplastic can't be molded" },
+              { id: "d", text: "They are the same" },
             ],
             correctChoiceId: "a",
           },
@@ -112,12 +112,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "C=C double bonds open and monomers join end-to-end forming long chains, no byproduct" },
+              { id: "a", text: "Hydrogen is removed" },
               { id: "b", text: "Ethene molecules evaporate" },
               { id: "c", text: "Ethene breaks into atoms" },
-              { id: "d", text: "Hydrogen is removed" },
+              { id: "d", text: "C=C double bonds open and monomers join end-to-end forming long chains, no byproduct" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -171,12 +171,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A large molecule made of repeating monomer units" },
-              { id: "b", text: "A single small molecule" },
-              { id: "c", text: "A metal alloy" },
+              { id: "a", text: "A metal alloy" },
+              { id: "b", text: "A large molecule made of repeating monomer units" },
+              { id: "c", text: "A single small molecule" },
               { id: "d", text: "A type of element" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -198,12 +198,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Chloroethene" },
-              { id: "b", text: "Ethene" },
-              { id: "c", text: "Propene" },
-              { id: "d", text: "Ethane" },
+              { id: "a", text: "Ethane" },
+              { id: "b", text: "Chloroethene" },
+              { id: "c", text: "Ethene" },
+              { id: "d", text: "Propene" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -275,9 +275,9 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Polyethene" },
-              { id: "b", text: "Bakelite" },
-              { id: "c", text: "Melamine" },
-              { id: "d", text: "All of them" },
+              { id: "b", text: "All of them" },
+              { id: "c", text: "Bakelite" },
+              { id: "d", text: "Melamine" },
             ],
             correctChoiceId: "a",
           },
@@ -328,8 +328,8 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Thermoplastics soften when heated and can be remoulded; thermosets have permanent cross-links that decompose instead of melting" },
-              { id: "b", text: "Thermoplastics are always cheaper" },
-              { id: "c", text: "Thermosets are not plastics" },
+              { id: "b", text: "Thermosets are not plastics" },
+              { id: "c", text: "Thermoplastics are always cheaper" },
               { id: "d", text: "Thermoplastics dissolve in water" },
             ],
             correctChoiceId: "a",
@@ -521,12 +521,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Aluminum" },
-              { id: "b", text: "Polyethene" },
-              { id: "c", text: "Polystyrene" },
-              { id: "d", text: "Paper" },
+              { id: "a", text: "Polyethene" },
+              { id: "b", text: "Polystyrene" },
+              { id: "c", text: "Paper" },
+              { id: "d", text: "Aluminum" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -549,9 +549,9 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Designing chemical processes to reduce waste and environmental harm" },
-              { id: "b", text: "Using only green-colored chemicals" },
-              { id: "c", text: "Growing chemicals in plants" },
-              { id: "d", text: "Avoiding all chemicals" },
+              { id: "b", text: "Growing chemicals in plants" },
+              { id: "c", text: "Avoiding all chemicals" },
+              { id: "d", text: "Using only green-colored chemicals" },
             ],
             correctChoiceId: "a",
           },
@@ -576,12 +576,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Cross-linked bonds can't be broken by heating — can't be remelted and reshaped" },
-              { id: "b", text: "They are more expensive" },
-              { id: "c", text: "They are always colored" },
+              { id: "a", text: "They are always colored" },
+              { id: "b", text: "Cross-linked bonds can't be broken by heating — can't be remelted and reshaped" },
+              { id: "c", text: "They are more expensive" },
               { id: "d", text: "They melt at lower temperature" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -636,12 +636,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Is broken down by microorganisms into harmless products" },
+              { id: "a", text: "Cannot be produced" },
               { id: "b", text: "Lasts forever" },
-              { id: "c", text: "Cannot be produced" },
-              { id: "d", text: "Is always metal" },
+              { id: "c", text: "Is always metal" },
+              { id: "d", text: "Is broken down by microorganisms into harmless products" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -663,12 +663,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Polyethene plastic" },
-              { id: "b", text: "Aluminium" },
-              { id: "c", text: "Glass" },
-              { id: "d", text: "Steel" },
+              { id: "a", text: "Steel" },
+              { id: "b", text: "Polyethene plastic" },
+              { id: "c", text: "Aluminium" },
+              { id: "d", text: "Glass" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -738,12 +738,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Its impacts from extraction through manufacture, use and disposal" },
-              { id: "b", text: "Only its price" },
+              { id: "a", text: "Only its price" },
+              { id: "b", text: "Its impacts from extraction through manufacture, use and disposal" },
               { id: "c", text: "Only its colour" },
               { id: "d", text: "Only its disposal" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -790,12 +790,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Each recycling cycle degrades the plastic, so it can only be made into lower-quality products" },
-              { id: "b", text: "Plastics cannot be melted" },
+              { id: "a", text: "Plastics cannot be melted" },
+              { id: "b", text: "Each recycling cycle degrades the plastic, so it can only be made into lower-quality products" },
               { id: "c", text: "Recycling uses more energy" },
               { id: "d", text: "Plastics are too heavy" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [

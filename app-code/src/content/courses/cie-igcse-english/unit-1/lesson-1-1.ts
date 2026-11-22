@@ -47,8 +47,11 @@ export const lesson11: Lesson = {
           },
           stem: "Where does Daniel walk every morning?",
           response: { type: "mcq", choices: [
-            { id: "a", text: "Along the river path" }, { id: "b", text: "Across the bridge" }, { id: "c", text: "Through the park" }, { id: "d", text: "By the sea" },
-          ], correctChoiceId: "a" },
+            { id: "a", text: "By the sea" },
+            { id: "b", text: "Along the river path" },
+            { id: "c", text: "Through the park" },
+            { id: "d", text: "Across the bridge" },
+          ], correctChoiceId: "b" },
           markscheme: {
             principles: [{ kind: "skill", name: "Literal comprehension", statement: "Find the answer stated in the text." }],
             steps: [
@@ -131,8 +134,11 @@ export const lesson11: Lesson = {
           },
           stem: "When did the keeper climb to the lamp room?",
           response: { type: "mcq", choices: [
-            { id: "a", text: "Every evening at six" }, { id: "b", text: "Every morning at dawn" }, { id: "c", text: "At midnight" }, { id: "d", text: "At noon" },
-          ], correctChoiceId: "a" },
+            { id: "a", text: "Every morning at dawn" },
+            { id: "b", text: "Every evening at six" },
+            { id: "c", text: "At midnight" },
+            { id: "d", text: "At noon" },
+          ], correctChoiceId: "b" },
           markscheme: {
             principles: [{ kind: "skill", name: "Literal comprehension", statement: "Find the stated time." }],
             steps: [
@@ -216,8 +222,11 @@ export const lesson11: Lesson = {
           },
           stem: "Who taught Tom to mend bicycles?",
           response: { type: "mcq", choices: [
-            { id: "a", text: "His father" }, { id: "b", text: "His grandfather" }, { id: "c", text: "His teacher" }, { id: "d", text: "His uncle" },
-          ], correctChoiceId: "b" },
+            { id: "a", text: "His father" },
+            { id: "b", text: "His teacher" },
+            { id: "c", text: "His grandfather" },
+            { id: "d", text: "His uncle" },
+          ], correctChoiceId: "c" },
           markscheme: {
             principles: [{ kind: "skill", name: "Literal comprehension", statement: "Find the stated person." }],
             steps: [
@@ -300,7 +309,10 @@ export const lesson11: Lesson = {
           },
           stem: "What did June notice about the garden?",
           response: { type: "mcq", choices: [
-            { id: "a", text: "It had grown larger" }, { id: "b", text: "It was smaller than before" }, { id: "c", text: "It was full of flowers" }, { id: "d", text: "It had been sold" },
+            { id: "a", text: "It had been sold" },
+            { id: "b", text: "It was smaller than before" },
+            { id: "c", text: "It had grown larger" },
+            { id: "d", text: "It was full of flowers" },
           ], correctChoiceId: "b" },
           markscheme: {
             principles: [{ kind: "skill", name: "Literal comprehension", statement: "Find the stated detail." }],
@@ -409,8 +421,11 @@ export const lesson11: Lesson = {
           },
           stem: "How does Mara probably feel?",
           response: { type: "mcq", choices: [
-            { id: "a", text: "Happy" }, { id: "b", text: "Excited" }, { id: "c", text: "Worried or upset" }, { id: "d", text: "Bored" },
-          ], correctChoiceId: "c" },
+            { id: "a", text: "Excited" },
+            { id: "b", text: "Bored" },
+            { id: "c", text: "Happy" },
+            { id: "d", text: "Worried or upset" },
+          ], dorrectChoiceId: "c" },
           markscheme: {
             principles: [{ kind: "skill", name: "Inference", statement: "Use clues to infer feelings." }],
             steps: [
@@ -480,6 +495,278 @@ export const lesson11: Lesson = {
               { reasoning: "Answer: impatient/nervous, supported by both clues.", marks: 1, markCode: "AO2" },
             ],
             finalAnswer: "Impatient — watch-checking and finger-drumming",
+          },
+        },
+        {
+          id: "ciege-u1-s1-in-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          extract: {
+            title: "The Empty Chair",
+            author: "Written for Akademik Space",
+            text: "Grandma's chair sat empty at the dinner table. Sam paused at the doorway and looked at it for a long moment before joining them.",
+          },
+          stem: "Why does Sam look at the empty chair for a long moment?",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "He is remembering someone who is no longer there" },
+            { id: "b", text: "He wants to move the chair" },
+            { id: "c", text: "He is deciding where to sit" },
+            { id: "d", text: "He is checking the time" },
+          ], correctChoiceId: "a" },
+          markscheme: {
+            principles: [{ kind: "skill", name: "Inference", statement: "Use clues to infer meaning." }],
+            steps: [
+              { reasoning: "'Paused' and 'a long moment' suggest sadness or remembrance of someone missing.", marks: 1, markCode: "AO2" },
+            ],
+            finalAnswer: "He is remembering someone who is no longer there",
+          },
+        },
+        {
+          id: "ciege-u1-s1-in-q6",
+          difficulty: "foundation",
+          totalMarks: 2,
+          extract: {
+            title: "The Secret Envelope",
+            author: "Written for Akademik Space",
+            text: "Nadia opened the envelope and read it twice. Then she folded it carefully, put it back inside, and slid it into her bag without telling anyone.",
+          },
+          stem: "Give two details that suggest Nadia wants to keep the letter to herself.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [{ kind: "skill", name: "Clue identification", statement: "Name the clues." }],
+            steps: [
+              { reasoning: "She 'folded it carefully' and put it back in the envelope.", marks: 1, markCode: "AO2" },
+              { reasoning: "She 'did not tell anyone'.", marks: 1, markCode: "AO2" },
+            ],
+            finalAnswer: "Folded it carefully; did not tell anyone",
+          },
+        },
+        {
+          id: "ciege-u1-s1-in-q7",
+          difficulty: "core",
+          totalMarks: 1,
+          extract: {
+            title: "The Crowd",
+            author: "Written for Akademik Space",
+            text: "When the announcement was made, the crowd erupted into cheering. A few people at the back stayed silent, their arms folded tightly across their chests.",
+          },
+          stem: "What does 'arms folded tightly' most likely suggest about the silent people?",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "They disapprove of or disagree with what was announced" },
+            { id: "b", text: "They are asleep" },
+            { id: "c", text: "They are too cold to clap" },
+            { id: "d", text: "They are eager for more news" },
+          ], correctChoiceId: "a" },
+          markscheme: {
+            principles: [{ kind: "skill", name: "Inference", statement: "Interpret body language clues." }],
+            steps: [
+              { reasoning: "Folded arms and silence contrast with cheering, suggesting disagreement or disapproval.", marks: 1, markCode: "AO2" },
+            ],
+            finalAnswer: "They disagree or disapprove",
+          },
+        },
+        {
+          id: "ciege-u1-s1-in-q8",
+          difficulty: "core",
+          totalMarks: 3,
+          extract: {
+            title: "The Dance",
+            author: "Written for Akademik Space",
+            text: "Lena's toes ached and her legs trembled as she waited in the wings. When the music stopped, however, she stood tall and smiled at the audience. Her sister whispered, 'You were brilliant.'",
+          },
+          stem: "What does the passage suggest about how Lena feels before and after the dance? Support your answer.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [{ kind: "skill", name: "Inference with evidence", statement: "Two feelings + clues." }],
+            steps: [
+              { reasoning: "Before: 'toes ached' and 'legs trembled' suggest nervousness or fear.", marks: 1, markCode: "AO2" },
+              { reasoning: "After: 'stood tall and smiled' suggests pride, relief and happiness.", marks: 1, markCode: "AO2" },
+              { reasoning: "Sister's praise ('You were brilliant') confirms she did well.", marks: 1, markCode: "AO2" },
+            ],
+            finalAnswer: "Nervous before the dance; proud and happy after",
+          },
+        },
+        {
+          id: "ciege-u1-s1-in-q9",
+          difficulty: "core",
+          totalMarks: 1,
+          extract: {
+            title: "The Locket",
+            author: "Written for Akademik Space",
+            text: "She opened the small silver locket, stared at the photograph inside for a moment, and closed it quickly. Her eyes were bright.",
+          },
+          stem: "What does the writer suggest the photograph means to her?",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "She plans to sell it" },
+            { id: "b", text: "It is damaged" },
+            { id: "c", text: "It reminds her of someone dear" },
+            { id: "d", text: "It is valuable money" },
+          ], correctChoiceId: "c" },
+          markscheme: {
+            principles: [{ kind: "skill", name: "Inference", statement: "Interpret emotional clues." }],
+            steps: [
+              { reasoning: "Staring, closing quickly and bright eyes suggest the photo holds sentimental meaning.", marks: 1, markCode: "AO2" },
+            ],
+            finalAnswer: "It reminds her of someone dear",
+          },
+        },
+        {
+          id: "ciege-u1-s1-in-q10",
+          difficulty: "core",
+          totalMarks: 4,
+          extract: {
+            title: "The Vigilant Neighbour",
+            author: "Written for Akademik Space",
+            text: "Every morning, Mr Osei checked the gate twice, set three alarm clocks, and walked the full length of the fence before letting the dog out.",
+          },
+          stem: "What does Mr Osei's routine suggest about how he feels about his home? Support your answer with two clues.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [{ kind: "skill", name: "Inference with evidence", statement: "Two clues + feeling." }],
+            steps: [
+              { reasoning: "Clue: he 'checked the gate twice' — suggests caution or suspicion.", marks: 1, markCode: "AO2" },
+              { reasoning: "Clue: he 'walked the full length of the fence' — suggests vigilance.", marks: 1, markCode: "AO2" },
+              { reasoning: "Inference: he is cautious, worried or protective about his home.", marks: 1, markCode: "AO2" },
+              { reasoning: "Answer links both clues to the inferred feeling.", marks: 1, markCode: "AO2" },
+            ],
+            finalAnswer: "Cautious and protective — repeated checks and fence inspection",
+          },
+        },
+        {
+          id: "ciege-u1-s1-in-q11",
+          difficulty: "core",
+          totalMarks: 1,
+          extract: {
+            title: "The Exam",
+            author: "Written for Akademik Space",
+            text: "Aisha knew the answers to almost every question, but she kept checking each one three times before moving on.",
+          },
+          stem: "What does Aisha's behaviour most strongly suggest?",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "She is trying to finish early" },
+            { id: "b", text: "She has run out of time" },
+            { id: "c", text: "She is unsure of her answers" },
+            { id: "d", text: "She is careful and wants to be certain" },
+          ], correctChoiceId: "d" },
+          markscheme: {
+            principles: [{ kind: "skill", name: "Inference", statement: "Interpret behaviour clues." }],
+            steps: [
+              { reasoning: "Checking each answer three times despite knowing them suggests carefulness rather than doubt.", marks: 1, markCode: "AO2" },
+            ],
+            finalAnswer: "She is careful and wants to be certain",
+          },
+        },
+        {
+          id: "ciege-u1-s1-in-q12",
+          difficulty: "challenge",
+          totalMarks: 4,
+          extract: {
+            title: "The Argument",
+            author: "Written for Akademik Space",
+            text: "'You always do this,' Priya said, setting down her cup with a sharp click. Tom did not answer. He picked up his coat and left the room without a word.",
+          },
+          stem: "The writer never says directly why they are arguing. What can you infer about their relationship and Tom's feelings? Use the details to support your answer.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [{ kind: "skill", name: "Inference with evidence", statement: "Unstated meaning + clues." }],
+            steps: [
+              { reasoning: "'You always do this' implies a repeated grievance — the relationship is tense.", marks: 1, markCode: "AO2" },
+              { reasoning: "'Sharp click' suggests Priya's anger.", marks: 1, markCode: "AO2" },
+              { reasoning: "Tom 'did not answer' and 'left without a word' — cold anger or hurt.", marks: 1, markCode: "AO2" },
+              { reasoning: "Inference is supported by quoted details.", marks: 1, markCode: "AO2" },
+            ],
+            finalAnswer: "Tense relationship; Tom is angry or hurt",
+          },
+        },
+        {
+          id: "ciege-u1-s1-in-q13",
+          difficulty: "challenge",
+          totalMarks: 1,
+          extract: {
+            title: "The Interview",
+            author: "Written for Akademik Space",
+            text: "When the journalist asked about the fire, the shopkeeper's smile faded. 'I don't want to talk about it,' she said quietly.",
+          },
+          stem: "What does the shopkeeper's reaction suggest?",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "She enjoys publicity" },
+            { id: "b", text: "She is proud of the shop" },
+            { id: "c", text: "The fire is a painful memory" },
+            { id: "d", text: "She is in a hurry" },
+          ], correctChoiceId: "c" },
+          markscheme: {
+            principles: [{ kind: "skill", name: "Inference", statement: "Interpret reaction clues." }],
+            steps: [
+              { reasoning: "Smile fading, refusal to talk and quiet voice suggest the fire is painful or upsetting.", marks: 1, markCode: "AO2" },
+            ],
+            finalAnswer: "The fire is a painful memory",
+          },
+        },
+        {
+          id: "ciege-u1-s1-in-q14",
+          difficulty: "challenge",
+          totalMarks: 1,
+          extract: {
+            title: "Two Friends",
+            author: "Written for Akademik Space",
+            text: "Ben had saved for a year to buy the tickets. When his friend Sam said, 'You'll never get them,' Ben smiled and put the tickets safely in his pocket. That evening he did not answer Sam's calls.",
+          },
+          stem: "What does Ben's refusal to answer Sam's calls most strongly suggest?",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "He is angry or hurt by Sam's comment" },
+            { id: "b", text: "He lost his phone" },
+            { id: "c", text: "He was asleep" },
+            { id: "d", text: "He was too busy" },
+          ], correctChoiceId: "a" },
+          markscheme: {
+            principles: [{ kind: "skill", name: "Inference", statement: "Interpret behavioural clues." }],
+            steps: [
+              { reasoning: "Ignoring calls after Sam doubted him suggests hurt or anger.", marks: 1, markCode: "AO2" },
+            ],
+            finalAnswer: "He is angry or hurt by Sam's comment",
+          },
+        },
+        {
+          id: "ciege-u1-s1-in-q15",
+          difficulty: "foundation",
+          totalMarks: 2,
+          extract: {
+            title: "The Cold Morning",
+            author: "Written for Akademik Space",
+            text: "Maya pressed her nose to the cold window and watched the rain. She wrapped her arms tightly around herself and wished, for the third time, that she had brought her warm coat.",
+          },
+          stem: "Name two details that show Maya is cold.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [{ kind: "skill", name: "Clue identification", statement: "Name the clues." }],
+            steps: [
+              { reasoning: "She 'wrapped her arms tightly around herself'.", marks: 1, markCode: "AO2" },
+              { reasoning: "She wished she had brought 'her warm coat'.", marks: 1, markCode: "AO2" },
+            ],
+            finalAnswer: "Arms wrapped tight; wished for her warm coat",
+          },
+        },
+        {
+          id: "ciege-u1-s1-in-q16",
+          difficulty: "challenge",
+          totalMarks: 5,
+          extract: {
+            title: "The House at the End of the Lane",
+            author: "Written for Akademik Space",
+            text: "The house had stood empty for years — curtains drawn, garden overgrown. When the new family moved in, the neighbours watched from behind their own curtains. By evening, lights glowed in every room, and one neighbour finally opened her door and waved.",
+          },
+          stem: "What does the change in the neighbours' behaviour suggest about the new family? Support your answer with clues from the text.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [{ kind: "skill", name: "Inference with evidence", statement: "Change in attitude + clues." }],
+            steps: [
+              { reasoning: "At first the neighbours 'watched from behind their own curtains' — wary or suspicious.", marks: 1, markCode: "AO2" },
+              { reasoning: "'Lights glowed in every room' suggests the house feels welcoming and lived-in.", marks: 1, markCode: "AO2" },
+              { reasoning: "The neighbour 'opened her door and waved' — acceptance and friendliness.", marks: 1, markCode: "AO2" },
+              { reasoning: "The change from watching secretly to waving shows their attitude shifts.", marks: 1, markCode: "AO2" },
+              { reasoning: "Inference is supported by at least two quoted clues.", marks: 1, markCode: "AO2" },
+            ],
+            finalAnswer: "Neighbours move from wary to welcoming — they accept the new family",
           },
         },
       ],

@@ -51,12 +51,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Damage to a blood vessel" },
-              { id: "b", text: "Normal blood flow" },
-              { id: "c", text: "Low oxygen" },
-              { id: "d", text: "High temperature" },
+              { id: "a", text: "Low oxygen" },
+              { id: "b", text: "High temperature" },
+              { id: "c", text: "Normal blood flow" },
+              { id: "d", text: "Damage to a blood vessel" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -138,6 +138,284 @@ export const lesson43: Lesson = {
             commonErrors: ["In (c) only saying 'to get energy' — specify O₂/glucose delivery."],
           },
         },
+        {
+          id: "cieb-u4-heart-control-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Which hormone increases heart rate during stress or exercise?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Adrenaline" },
+              { id: "b", text: "Thyroxine" },
+              { id: "c", text: "Oestrogen" },
+              { id: "d", text: "Insulin" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Adrenaline", statement: "Raises heart rate in stress/exercise." },
+            ],
+            steps: [
+              { reasoning: "Recall the hormone.", working: "\\text{adrenaline}", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** Adrenaline",
+            commonErrors: ["Choosing insulin — that controls blood glucose, not heart rate."],
+          },
+        },
+        {
+          id: "cieb-u4-heart-control-q6",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Heart rate is controlled by signals from which part of the brain?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Medulla oblongata" },
+              { id: "b", text: "Hypothalamus only" },
+              { id: "c", text: "Cerebrum" },
+              { id: "d", text: "Cerebellum" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Heart rate control", statement: "Medulla oblongata sends signals via nerves." },
+            ],
+            steps: [
+              { reasoning: "Recall the control centre.", working: "\\text{medulla oblongata}", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** Medulla oblongata",
+            commonErrors: ["Choosing cerebrum — that's conscious thought, not autonomic control."],
+          },
+        },
+        {
+          id: "cieb-u4-heart-control-q7",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "During clotting, fibrinogen is converted into:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Insulin" },
+              { id: "b", text: "Fibrin" },
+              { id: "c", text: "Fibrinogen again" },
+              { id: "d", text: "Haemoglobin" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Clotting", statement: "Fibrinogen → fibrin threads forming the mesh." },
+            ],
+            steps: [
+              { reasoning: "Recall the conversion.", working: "\\text{fibrinogen} \\to \\text{fibrin}", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** Fibrin",
+            commonErrors: ["Saying fibrinogen 'clots itself' — it is converted to fibrin first."],
+          },
+        },
+        {
+          id: "cieb-u4-heart-control-q8",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "A person's heart beats at 60 beats per minute. Calculate how many beats occur in 45 seconds.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 45, unit: "beats" }],
+          },
+          markscheme: {
+            principles: [
+              { kind: "formula", name: "Rate scaling", statement: "$60 \\times \\frac{45}{60} = 45$" },
+            ],
+            steps: [
+              { reasoning: "Scale rate to 45 seconds.", working: "60 \\times 0.75", marks: 1, markCode: "M" },
+              { reasoning: "State answer.", working: "45\\,\\text{beats}", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "45 beats",
+            commonErrors: ["Multiplying 60 × 45 without converting seconds to minutes."],
+          },
+        },
+        {
+          id: "cieb-u4-heart-control-q9",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "A person's heart rate rises from 60 to 180 beats per minute during exercise. Calculate the increase.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 120, unit: "beats/min" }],
+          },
+          markscheme: {
+            principles: [
+              { kind: "formula", name: "Rate change", statement: "$180 - 60 = 120$" },
+            ],
+            steps: [
+              { reasoning: "Subtract resting from peak rate.", working: "180 - 60", marks: 1, markCode: "M" },
+              { reasoning: "State answer with units.", working: "120\\,\\text{beats/min}", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "120 beats/min",
+            commonErrors: ["Giving the ratio (3×) instead of the difference."],
+          },
+        },
+        {
+          id: "cieb-u4-heart-control-q10",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "A person's heart beats 75 times per minute. How many beats occur in 8 minutes?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 600, unit: "beats" }],
+          },
+          markscheme: {
+            principles: [
+              { kind: "formula", name: "Total beats", statement: "$75 \\times 8 = 600$" },
+            ],
+            steps: [
+              { reasoning: "Multiply rate by time in minutes.", working: "75 \\times 8 = 600", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "600 beats",
+            commonErrors: ["Multiplying by seconds or forgetting the time unit."],
+          },
+        },
+        {
+          id: "cieb-u4-heart-control-q11",
+          difficulty: "challenge",
+          totalMarks: 3,
+          stem: "A runner's heart rate increases from 70 beats per minute at rest to 140 beats per minute during a race. Calculate the percentage increase in heart rate.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 100, unit: "%" }],
+          },
+          markscheme: {
+            principles: [
+              { kind: "formula", name: "Percentage change", statement: "$\\% = \\dfrac{140 - 70}{70} \\times 100$" },
+            ],
+            steps: [
+              { reasoning: "Apply the formula.", working: "\\frac{140 - 70}{70} \\times 100", marks: 1, markCode: "M" },
+              { reasoning: "Compute.", working: "100\\%", marks: 1, markCode: "M" },
+              { reasoning: "State answer.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "100%",
+            commonErrors: ["Dividing by 140 instead of 70 (the original value)."],
+          },
+        },
+        {
+          id: "cieb-u4-heart-control-q12",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "State two roles of platelets in the clotting process.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Platelets", statement: "Aggregate at wound and release chemicals activating the clotting cascade." },
+            ],
+            steps: [
+              { reasoning: "Give two roles.", working: "\\text{aggregate; release chemicals}", marks: 1, markCode: "M" },
+              { reasoning: "State them clearly.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "Platelets gather at the damaged vessel wall and release chemicals that trigger the clotting cascade converting fibrinogen to fibrin.",
+            commonErrors: ["Saying platelets 'make fibrin' — they trigger the cascade; fibrin forms the mesh."],
+          },
+        },
+        {
+          id: "cieb-u4-heart-control-q13",
+          difficulty: "challenge",
+          totalMarks: 1,
+          stem: "Excessive clotting inside blood vessels is dangerous because it can:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Increase blood pressure beneficially" },
+              { id: "b", text: "Produce more red blood cells" },
+              { id: "c", text: "Block vessels, causing a heart attack or stroke" },
+              { id: "d", text: "Speed up healing always" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Thrombosis", statement: "Clots blocking vessels → heart attack/stroke." },
+            ],
+            steps: [
+              { reasoning: "Link clotting to blockage risk.", working: "\\text{clot} \\to \\text{block} \\to \\text{heart attack/stroke}", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** Block vessels, causing a heart attack or stroke",
+            commonErrors: ["Saying clotting is 'always good' — excessive clotting is harmful."],
+          },
+        },
+        {
+          id: "cieb-u4-heart-control-q14",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "During exercise, heart rate increases mainly to:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Store more blood" },
+              { id: "b", text: "Deliver more oxygen and glucose to the muscles" },
+              { id: "c", text: "Cool the body down" },
+              { id: "d", text: "Reduce blood pressure" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Exercise response", statement: "Faster pumping → more O₂/glucose to muscles." },
+            ],
+            steps: [
+              { reasoning: "Link rate to delivery.", working: "\\text{faster} \\to \\text{more O}_2/\\text{glucose}", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** Deliver more oxygen and glucose to the muscles",
+            commonErrors: ["Saying 'to rest the heart' — rate increases to work harder."],
+          },
+        },
+        {
+          id: "cieb-u4-heart-control-q15",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Fibrin threads form what structure that traps blood cells to make a clot?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "A membrane" },
+              { id: "b", text: "A solid plug" },
+              { id: "c", text: "A mesh" },
+              { id: "d", text: "A valve" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Fibrin mesh", statement: "Insoluble threads trap cells → clot seals wound." },
+            ],
+            steps: [
+              { reasoning: "Recall the structure.", working: "\\text{mesh}", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** A mesh",
+            commonErrors: ["Saying 'solid plug' — fibrin forms a mesh that traps cells."],
+          },
+        },
+        {
+          id: "cieb-u4-heart-control-q16",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "Explain how adrenaline affects heart rate and why this response is useful during danger or exercise.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Adrenaline", statement: "Released in stress/exercise → raises heart rate → faster O₂/glucose delivery." },
+            ],
+            steps: [
+              { reasoning: "Adrenaline is released during stress/exercise.", working: "\\text{adrenaline released}", marks: 1, markCode: "M" },
+              { reasoning: "It increases the heart rate.", working: "\\text{HR increases}", marks: 1, markCode: "M" },
+              { reasoning: "Faster pumping delivers more O₂/glucose to muscles.", working: "\\text{more O}_2/\\text{glucose}", marks: 1, markCode: "M" },
+              { reasoning: "Conclude: prepares the body for action.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "Adrenaline is released in stress or exercise and increases heart rate; the faster circulation delivers more oxygen and glucose to muscles, preparing the body for action.",
+            commonErrors: ["Saying adrenaline 'clots blood' — its role here is raising heart rate."],
+          },
+        },
       ],
     },
     {
@@ -175,9 +453,9 @@ export const lesson43: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "By osmosis" },
-              { id: "b", text: "By active transport" },
-              { id: "c", text: "By diffusion of ions" },
-              { id: "d", text: "By phagocytosis" },
+              { id: "b", text: "By phagocytosis" },
+              { id: "c", text: "By active transport" },
+              { id: "d", text: "By diffusion of ions" },
             ],
             correctChoiceId: "a",
           },
@@ -259,6 +537,284 @@ export const lesson43: Lesson = {
             ],
             finalAnswer: "(a) osmosis into root hairs (b) root pressure pushes up (c) transpiration pull draws up (d) cohesion+adhesion",
             commonErrors: ["In (a) saying 'active transport of water' — water enters by osmosis."],
+          },
+        },
+        {
+          id: "cieb-u4-plant-uptake-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Mineral ions are absorbed by root hair cells by:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Osmosis" },
+              { id: "b", text: "Active transport" },
+              { id: "c", text: "Simple diffusion" },
+              { id: "d", text: "Phagocytosis" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Ion uptake", statement: "Mineral ions move against the gradient by active transport." },
+            ],
+            steps: [
+              { reasoning: "Recall the mechanism.", working: "\\text{active transport}", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** Active transport",
+            commonErrors: ["Choosing osmosis — that is for water, not ions."],
+          },
+        },
+        {
+          id: "cieb-u4-plant-uptake-q6",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Root pressure helps water transport by:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Pulling water down to roots" },
+              { id: "b", text: "Closing the stomata" },
+              { id: "c", text: "Loading sucrose into phloem" },
+              { id: "d", text: "Pushing water up the xylem" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Root pressure", statement: "Osmotic pressure from ion uptake pushes water up xylem." },
+            ],
+            steps: [
+              { reasoning: "Recall the direction of force.", working: "\\text{push up}", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** Pushing water up the xylem",
+            commonErrors: ["Saying 'pulling' — root pressure pushes; transpiration pulls."],
+          },
+        },
+        {
+          id: "cieb-u4-plant-uptake-q7",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Water enters root hair cells by osmosis because the soil solution has:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "No water at all" },
+              { id: "b", text: "More salt than the cell" },
+              { id: "c", text: "A higher water potential than the cell sap" },
+              { id: "d", text: "A lower water potential than the cell sap" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Osmosis in roots", statement: "Water moves from higher to lower water potential." },
+            ],
+            steps: [
+              { reasoning: "Recall the gradient.", working: "\\psi_{\\text{soil}} > \\psi_{\\text{cell}}", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** A higher water potential than the cell sap",
+            commonErrors: ["Reversing the gradient — water flows high → low water potential."],
+          },
+        },
+        {
+          id: "cieb-u4-plant-uptake-q8",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "A root absorbs 0.3 cm³ of water per hour. Calculate the total water absorbed in 5 hours.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 1.5, unit: "cm³" }],
+          },
+          markscheme: {
+            principles: [
+              { kind: "formula", name: "Total amount", statement: "$0.3 \\times 5 = 1.5$" },
+            ],
+            steps: [
+              { reasoning: "Multiply rate by time.", working: "0.3 \\times 5", marks: 1, markCode: "M" },
+              { reasoning: "State answer with units.", working: "1.5\\,\\text{cm}^3", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "1.5 cm³",
+            commonErrors: ["Dividing instead of multiplying."],
+          },
+        },
+        {
+          id: "cieb-u4-plant-uptake-q9",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "Each of 10 root hairs absorbs 2 µm³ of water. Calculate the total volume of water absorbed.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 20, unit: "µm³" }],
+          },
+          markscheme: {
+            principles: [
+              { kind: "formula", name: "Total volume", statement: "$2 \\times 10 = 20$" },
+            ],
+            steps: [
+              { reasoning: "Multiply per-hair volume by number of hairs.", working: "2 \\times 10", marks: 1, markCode: "M" },
+              { reasoning: "State answer with units.", working: "20\\,\\mu\\text{m}^3", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "20 µm³",
+            commonErrors: ["Adding instead of multiplying (giving 12)."],
+          },
+        },
+        {
+          id: "cieb-u4-plant-uptake-q10",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "How many cell types work together in phloem loading at a source (sieve tube and companion cell)?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 2, unit: "cell types" }],
+          },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Phloem loading cells", statement: "Sieve tubes + companion cells." },
+            ],
+            steps: [
+              { reasoning: "Count the cell types.", working: "2\\,\\text{types}", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "2",
+            commonErrors: ["Answering 1 — both sieve tube and companion cell are involved."],
+          },
+        },
+        {
+          id: "cieb-u4-plant-uptake-q11",
+          difficulty: "challenge",
+          totalMarks: 3,
+          stem: "Sucrose is loaded into phloem at a rate of 0.4 mg per minute. Calculate the total sucrose loaded in 30 minutes.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 12, unit: "mg" }],
+          },
+          markscheme: {
+            principles: [
+              { kind: "formula", name: "Total amount", statement: "$0.4 \\times 30 = 12$" },
+            ],
+            steps: [
+              { reasoning: "Multiply rate by time.", working: "0.4 \\times 30", marks: 1, markCode: "M" },
+              { reasoning: "Compute.", working: "12\\,\\text{mg}", marks: 1, markCode: "M" },
+              { reasoning: "State answer with units.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "12 mg",
+            commonErrors: ["Dividing by time instead of multiplying."],
+          },
+        },
+        {
+          id: "cieb-u4-plant-uptake-q12",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "State two ways water moves from the soil into the xylem of a root.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Water pathway in root", statement: "Osmosis into root hairs → across cortex → into xylem via root pressure." },
+            ],
+            steps: [
+              { reasoning: "Give two stages.", working: "\\text{osmosis into root hair; across cortex}", marks: 1, markCode: "M" },
+              { reasoning: "State them clearly.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "Water enters root hair cells by osmosis, crosses the cortex cells by osmosis, and is pushed into the xylem vessels partly by root pressure.",
+            commonErrors: ["Saying 'active transport' for water — water moves by osmosis."],
+          },
+        },
+        {
+          id: "cieb-u4-plant-uptake-q13",
+          difficulty: "challenge",
+          totalMarks: 1,
+          stem: "Root pressure is most useful to a plant at night because:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Transpiration is low, so root pressure can push water up the xylem" },
+              { id: "b", text: "Soil is driest" },
+              { id: "c", text: "Stomata are wide open" },
+              { id: "d", text: "Photosynthesis is fastest" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Root pressure timing", statement: "Important when transpiration pull is weak (night)." },
+            ],
+            steps: [
+              { reasoning: "Link night to low transpiration.", working: "\\text{night} \\to \\text{low transpiration} \\to \\text{root pressure matters}", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** Transpiration is low, so root pressure can push water up the xylem",
+            commonErrors: ["Saying 'transpiration is high at night' — it is lowest then."],
+          },
+        },
+        {
+          id: "cieb-u4-plant-uptake-q14",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Xylem transports which substances?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Water and dissolved minerals" },
+              { id: "b", text: "Only glucose" },
+              { id: "c", text: "Only oxygen" },
+              { id: "d", text: "Sucrose and amino acids" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Xylem cargo", statement: "Water + dissolved mineral ions, upward." },
+            ],
+            steps: [
+              { reasoning: "Match tissue to cargo.", working: "\\text{xylem} = \\text{water + minerals}", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** Water and dissolved minerals",
+            commonErrors: ["Choosing sucrose — that is phloem."],
+          },
+        },
+        {
+          id: "cieb-u4-plant-uptake-q15",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Sucrose is loaded into phloem sieve tubes by which cells?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Guard cells" },
+              { id: "b", text: "Xylem vessels" },
+              { id: "c", text: "Companion cells" },
+              { id: "d", text: "Root hair cells" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Companion cells", statement: "Active loading of sucrose into sieve tubes." },
+            ],
+            steps: [
+              { reasoning: "Recall the loading cells.", working: "\\text{companion cells}", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** Companion cells",
+            commonErrors: ["Choosing xylem vessels — they are dead and transport water."],
+          },
+        },
+        {
+          id: "cieb-u4-plant-uptake-q16",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "Explain how the active transport of mineral ions helps drive water uptake in roots.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Ion-driven water uptake", statement: "Active ion uptake lowers water potential → water follows by osmosis → root pressure." },
+            ],
+            steps: [
+              { reasoning: "Mineral ions are actively transported into root cells/xylem.", working: "\\text{active transport of ions}", marks: 1, markCode: "M" },
+              { reasoning: "This lowers the water potential inside the root.", working: "\\text{lower water potential}", marks: 1, markCode: "M" },
+              { reasoning: "Water then enters by osmosis down the gradient.", working: "\\text{osmosis}", marks: 1, markCode: "M" },
+              { reasoning: "Conclude: ion uptake drives water uptake and root pressure.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "Mineral ions are actively pumped into the root cells and xylem, lowering the water potential inside; water then follows by osmosis, and the resulting pressure (root pressure) helps push water up the plant.",
+            commonErrors: ["Saying 'ions are absorbed by osmosis' — ions move by active transport."],
           },
         },
       ],

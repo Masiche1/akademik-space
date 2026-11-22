@@ -52,12 +52,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Only personal opinions" },
-              { id: "b", text: "Records, photos and reflections" },
-              { id: "c", text: "Nothing — it's all verbal" },
-              { id: "d", text: "Only certificates" },
+              { id: "a", text: "Nothing — it's all verbal" },
+              { id: "b", text: "Only certificates" },
+              { id: "c", text: "Only personal opinions" },
+              { id: "d", text: "Records, photos and reflections" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -147,12 +147,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Only moods" },
-              { id: "b", text: "Dates, duration, activity and strand" },
-              { id: "c", text: "Only photos" },
+              { id: "a", text: "Dates, duration, activity and strand" },
+              { id: "b", text: "Only photos" },
+              { id: "c", text: "Only moods" },
               { id: "d", text: "Nothing written" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -174,10 +174,10 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Reflections" },
+              { id: "a", text: "Project plans" },
               { id: "b", text: "Photos and certificates" },
-              { id: "c", text: "Project plans" },
-              { id: "d", text: "Personal opinions" },
+              { id: "c", text: "Personal opinions" },
+              { id: "d", text: "Reflections" },
             ],
             correctChoiceId: "b",
           },
@@ -201,12 +201,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Photographs" },
-              { id: "b", text: "Reflections and testimonials" },
+              { id: "a", text: "Programmes" },
+              { id: "b", text: "Photographs" },
               { id: "c", text: "Signed logs" },
-              { id: "d", text: "Programmes" },
+              { id: "d", text: "Reflections and testimonials" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -230,8 +230,8 @@ export const lesson22: Lesson = {
             choices: [
               { id: "a", text: "Final certificates only" },
               { id: "b", text: "Plans, drafts and evaluations" },
-              { id: "c", text: "Attendance sheets" },
-              { id: "d", text: "Verbal claims" },
+              { id: "c", text: "Verbal claims" },
+              { id: "d", text: "Attendance sheets" },
             ],
             correctChoiceId: "b",
           },
@@ -255,12 +255,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Creativity only" },
-              { id: "b", text: "Service activities" },
-              { id: "c", text: "Activity only" },
-              { id: "d", text: "No strand" },
+              { id: "a", text: "Service activities" },
+              { id: "b", text: "Activity only" },
+              { id: "c", text: "No strand" },
+              { id: "d", text: "Creativity only" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -282,10 +282,10 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It is always accurate" },
+              { id: "a", text: "It is faster" },
               { id: "b", text: "Records may be forgotten or disputed" },
-              { id: "c", text: "It counts for more marks" },
-              { id: "d", text: "It is faster" },
+              { id: "c", text: "It is always accurate" },
+              { id: "d", text: "It counts for more marks" },
             ],
             correctChoiceId: "b",
           },
@@ -310,12 +310,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Direct evidence" },
-              { id: "b", text: "Process evidence" },
-              { id: "c", text: "Indirect evidence" },
-              { id: "d", text: "No evidence" },
+              { id: "a", text: "No evidence" },
+              { id: "b", text: "Direct evidence" },
+              { id: "c", text: "Process evidence" },
+              { id: "d", text: "Indirect evidence" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -503,10 +503,10 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Every photo ever taken" },
+              { id: "a", text: "Only certificates" },
               { id: "b", text: "Representative evidence with reflection" },
-              { id: "c", text: "Only certificates" },
-              { id: "d", text: "Nothing — it's all oral" },
+              { id: "c", text: "Nothing — it's all oral" },
+              { id: "d", text: "Every photo ever taken" },
             ],
             correctChoiceId: "b",
           },
@@ -598,12 +598,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Pile everything together" },
-              { id: "b", text: "Organise by strand or date in a dedicated space" },
+              { id: "a", text: "Organise by strand or date in a dedicated space" },
+              { id: "b", text: "Pile everything together" },
               { id: "c", text: "Keep it all in memory" },
               { id: "d", text: "Throw away old items" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -625,12 +625,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Contains every item ever collected" },
-              { id: "b", text: "Selects representative strong evidence" },
+              { id: "a", text: "Selects representative strong evidence" },
+              { id: "b", text: "Contains every item ever collected" },
               { id: "c", text: "Has no reflection" },
               { id: "d", text: "Is built in one night" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -653,11 +653,11 @@ export const lesson22: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Reflection" },
-              { id: "b", text: "Last-minute scrambling and lost records" },
-              { id: "c", text: "Verification" },
-              { id: "d", text: "Strand balance" },
+              { id: "b", text: "Verification" },
+              { id: "c", text: "Strand balance" },
+              { id: "d", text: "Last-minute scrambling and lost records" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -679,12 +679,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A grade" },
-              { id: "b", text: "Reflection explaining what was learned" },
-              { id: "c", text: "A signature only" },
-              { id: "d", text: "Nothing" },
+              { id: "a", text: "Reflection explaining what was learned" },
+              { id: "b", text: "A signature only" },
+              { id: "c", text: "Nothing" },
+              { id: "d", text: "A grade" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -706,12 +706,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Include everything" },
-              { id: "b", text: "A few strong items beat many weak ones" },
-              { id: "c", text: "Only certificates count" },
-              { id: "d", text: "More is always better" },
+              { id: "a", text: "Only certificates count" },
+              { id: "b", text: "Include everything" },
+              { id: "c", text: "More is always better" },
+              { id: "d", text: "A few strong items beat many weak ones" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -733,12 +733,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It is optional" },
-              { id: "b", text: "It shows learning, not just participation" },
-              { id: "c", text: "It replaces evidence" },
-              { id: "d", text: "It is only for projects" },
+              { id: "a", text: "It is only for projects" },
+              { id: "b", text: "It replaces evidence" },
+              { id: "c", text: "It is optional" },
+              { id: "d", text: "It shows learning, not just participation" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -761,12 +761,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A signed attendance log" },
-              { id: "b", text: "A project plan or draft evaluation" },
-              { id: "c", text: "A photograph" },
-              { id: "d", text: "A testimonial" },
+              { id: "a", text: "A project plan or draft evaluation" },
+              { id: "b", text: "A signed attendance log" },
+              { id: "c", text: "A testimonial" },
+              { id: "d", text: "A photograph" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

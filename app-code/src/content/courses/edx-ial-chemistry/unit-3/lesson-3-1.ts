@@ -50,12 +50,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "CₙH₂ₙ" },
-              { id: "b", text: "CₙH₂ₙ₊₂" },
+              { id: "a", text: "CₙH₂ₙ₋₂" },
+              { id: "b", text: "CₙH₂ₙ" },
               { id: "c", text: "CₙHₙ" },
-              { id: "d", text: "CₙH₂ₙ₋₂" },
+              { id: "d", text: "CₙH₂ₙ₊₂" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Alkanes", statement: "Saturated CₙH₂ₙ₊₂." }],
@@ -166,12 +166,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "CₙH₂ₙ₊₂" },
-              { id: "b", text: "CₙH₂ₙ" },
-              { id: "c", text: "CₙH₂ₙ₋₂" },
-              { id: "d", text: "CₙHₙ" },
+              { id: "a", text: "CₙH₂ₙ₋₂" },
+              { id: "b", text: "CₙHₙ" },
+              { id: "c", text: "CₙH₂ₙ₊₂" },
+              { id: "d", text: "CₙH₂ₙ" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Alkenes", statement: "Unsaturated CₙH₂ₙ." }],

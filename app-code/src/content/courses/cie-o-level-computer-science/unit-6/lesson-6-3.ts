@@ -36,8 +36,11 @@ export const lesson63: Lesson = {
           id: "olcs-u6-ai-q1", difficulty: "foundation", totalMarks: 1,
           stem: "AI differs from conventional programming because it…",
           response: { type: "mcq", choices: [
-            { id: "a", text: "Learns patterns from data" }, { id: "b", text: "Uses no electricity" }, { id: "c", text: "Is always right" }, { id: "d", text: "Needs no data" },
-          ], correctChoiceId: "a" },
+            { id: "a", text: "Needs no data" },
+            { id: "b", text: "Is always right" },
+            { id: "c", text: "Uses no electricity" },
+            { id: "d", text: "Learns patterns from data" },
+          ], correctChoiceId: "d" },
           markscheme: { principles: [{ kind: "definition", name: "AI", statement: "Learns from data vs fixed rules." }], steps: [{ reasoning: "AI learns patterns.", working: "\\text{learn}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Learns from data" },
         },
         {
@@ -84,6 +87,141 @@ export const lesson63: Lesson = {
             { part: "d", reasoning: "Enables generalisation to new cases.", marks: 1, markCode: "A" },
           ], finalAnswer: "(a) human-intelligence tasks (b) rules vs learning (c) learn from data (d) better patterns/accuracy" },
         },
+        {
+          id: "olcs-u6-ai-q5", difficulty: "foundation", totalMarks: 1,
+          stem: "Machine learning is…",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "A type of robot" },
+            { id: "b", text: "A network cable" },
+            { id: "c", text: "An AI technique that learns patterns from data" },
+            { id: "d", text: "A database" },
+          ], correctChoiceId: "c" },
+          markscheme: { principles: [{ kind: "definition", name: "Machine learning", statement: "Learning from data." }], steps: [{ reasoning: "ML learns patterns from data.", working: "\\text{learn}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Learns from data" },
+        },
+        {
+          id: "olcs-u6-ai-q6", difficulty: "foundation", totalMarks: 1,
+          stem: "How many main characteristics of AI are described: learning, pattern recognition, decision-making, adaptation, narrow vs general?",
+          response: { type: "numeric", parts: [{ label: "Number of characteristics", answer: 5 }] },
+          markscheme: { principles: [{ kind: "principle", name: "AI characteristics", statement: "Five listed." }], steps: [
+            { reasoning: "Five characteristics named.", working: "5", marks: 1, markCode: "B" },
+          ], finalAnswer: "5" },
+        },
+        {
+          id: "olcs-u6-ai-q7", difficulty: "core", totalMarks: 1,
+          stem: "Training data is…",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "Examples the AI learns patterns from" },
+            { id: "b", text: "A password" },
+            { id: "c", text: "A type of hardware" },
+            { id: "d", text: "The final output" },
+          ], correctChoiceId: "a" },
+          markscheme: { principles: [{ kind: "definition", name: "Training data", statement: "Examples used to learn." }], steps: [{ reasoning: "Training data teaches the model.", working: "\\text{examples}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Examples it learns from" },
+        },
+        {
+          id: "olcs-u6-ai-q8", difficulty: "core", totalMarks: 1,
+          stem: "How many steps are in the AI workflow: collect training data, learn patterns, make predictions, improve with feedback?",
+          response: { type: "numeric", parts: [{ label: "Workflow steps", answer: 4 }] },
+          markscheme: { principles: [{ kind: "principle", name: "AI workflow", statement: "Data → learn → predict → improve." }], steps: [
+            { reasoning: "Four steps listed.", working: "4", marks: 1, markCode: "B" },
+          ], finalAnswer: "4" },
+        },
+        {
+          id: "olcs-u6-ai-q9", difficulty: "core", totalMarks: 1,
+          stem: "A neural network is a computing model inspired by…",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "The human brain" },
+            { id: "b", text: "A web browser" },
+            { id: "c", text: "A calculator" },
+            { id: "d", text: "A robot arm" },
+          ], correctChoiceId: "a" },
+          markscheme: { principles: [{ kind: "definition", name: "Neural network", statement: "Brain-inspired layered nodes." }], steps: [{ reasoning: "Neural networks mimic the brain.", working: "\\text{brain}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** The human brain" },
+        },
+        {
+          id: "olcs-u6-ai-q10", difficulty: "core", totalMarks: 2,
+          stem: "State two ways AI differs from conventional programs.",
+          response: { type: "open" },
+          markscheme: { principles: [{ kind: "definition", name: "AI vs conventional", statement: "Learns vs fixed rules." }], steps: [
+            { reasoning: "AI learns patterns from data; conventional follows fixed rules.", working: "\\text{learn vs rules}", marks: 1, markCode: "M" },
+            { reasoning: "AI handles ambiguous/unstructured input.", working: "\\text{unstructured}", marks: 1, markCode: "A" },
+          ], finalAnswer: "AI learns from data and handles unstructured input; conventional programs use fixed rules." },
+        },
+        {
+          id: "olcs-u6-ai-q11", difficulty: "challenge", totalMarks: 1,
+          stem: "AI system outputs are often described as…",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "Rule-based only" },
+            { id: "b", text: "Probabilistic, not guaranteed correct" },
+            { id: "c", text: "Always correct" },
+            { id: "d", text: "Manual decisions" },
+          ], correctChoiceId: "b" },
+          markscheme: { principles: [{ kind: "principle", name: "AI outputs", statement: "Predictions can be wrong." }], steps: [{ reasoning: "AI gives likely answers, not certainty.", working: "\\text{probability}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Probabilistic, not guaranteed" },
+        },
+        {
+          id: "olcs-u6-ai-q12", difficulty: "core", totalMarks: 1,
+          stem: "A typical neural network has input, hidden and output layers. How many layers is that?",
+          response: { type: "numeric", parts: [{ label: "Number of layers", answer: 3 }] },
+          markscheme: { principles: [{ kind: "definition", name: "Neural network", statement: "Layered nodes." }], steps: [
+            { reasoning: "Input + hidden + output = 3 layers.", working: "3", marks: 1, markCode: "B" },
+          ], finalAnswer: "3" },
+        },
+        {
+          id: "olcs-u6-ai-q13", difficulty: "challenge", totalMarks: 4,
+          stem: "Explain why AI systems need large amounts of training data.",
+          response: { type: "open" },
+          markscheme: { principles: [{ kind: "principle", name: "Training data", statement: "More data → better learning." }], steps: [
+            { reasoning: "More data covers more patterns.", working: "\\text{coverage}", marks: 1, markCode: "M" },
+            { reasoning: "Improves accuracy and reduces bias.", working: "\\text{accuracy}", marks: 1, markCode: "M" },
+            { reasoning: "Enables generalisation to new cases.", working: "\\text{generalise}", marks: 1, markCode: "M" },
+            { reasoning: "Clear explanation.", marks: 1, markCode: "A" },
+          ], finalAnswer: "Large training data improves pattern coverage, accuracy and the ability to generalise." },
+        },
+        {
+          id: "olcs-u6-ai-q14", difficulty: "challenge", totalMarks: 1,
+          stem: "Most current AI systems are…",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "Conscious" },
+            { id: "b", text: "Perfect" },
+            { id: "c", text: "Narrow — good at one specific task" },
+            { id: "d", text: "General human-level intelligence" },
+          ], correctChoiceId: "c" },
+          markscheme: { principles: [{ kind: "principle", name: "Narrow AI", statement: "One-task specialists." }], steps: [{ reasoning: "Today's AI is narrow, not general.", working: "\\text{narrow}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Narrow AI" },
+        },
+        {
+          id: "olcs-u6-ai-q15", difficulty: "core", totalMarks: 2,
+          stem: "State how many steps are in the AI workflow and how many main characteristics of AI are described.",
+          response: { type: "numeric", parts: [
+            { label: "Workflow steps", answer: 4 },
+            { label: "Characteristics", answer: 5 },
+          ] },
+          markscheme: { principles: [{ kind: "principle", name: "AI basics", statement: "4 steps; 5 characteristics." }], steps: [
+            { reasoning: "Collect, learn, predict, improve.", working: "4", marks: 1, markCode: "M" },
+            { reasoning: "Learning, recognition, decisions, adaptation, narrow/general.", working: "5", marks: 1, markCode: "A" },
+          ], finalAnswer: "4 steps; 5 characteristics" },
+        },
+        {
+          id: "olcs-u6-ai-q16", difficulty: "challenge", totalMarks: 9,
+          stem: "AI fundamentals review.",
+          parts: [
+            { label: "a", prompt: "Define artificial intelligence.", marks: 2 },
+            { label: "b", prompt: "Distinguish AI from conventional programs.", marks: 2 },
+            { label: "c", prompt: "Define machine learning.", marks: 2 },
+            { label: "d", prompt: "Explain why AI needs large amounts of training data.", marks: 3 },
+          ],
+          response: { type: "open" },
+          markscheme: { principles: [
+            { kind: "definition", name: "Machine learning", statement: "Learning patterns from data." },
+          ], steps: [
+            { part: "a", reasoning: "Systems doing tasks needing human intelligence.", working: "\\text{human-like}", marks: 1, markCode: "M" },
+            { part: "a", reasoning: "Correct definition.", marks: 1, markCode: "A" },
+            { part: "b", reasoning: "Conventional: fixed rules.", working: "\\text{rules}", marks: 1, markCode: "M" },
+            { part: "b", reasoning: "AI: learns patterns from data.", working: "\\text{patterns}", marks: 1, markCode: "A" },
+            { part: "c", reasoning: "AI technique learning from data, not rules.", working: "\\text{ML}", marks: 1, markCode: "M" },
+            { part: "c", reasoning: "Correct definition.", marks: 1, markCode: "A" },
+            { part: "d", reasoning: "More data → better pattern coverage.", working: "\\text{coverage}", marks: 1, markCode: "M" },
+            { part: "d", reasoning: "Reduces bias/errors.", working: "\\text{accuracy}", marks: 1, markCode: "M" },
+            { part: "d", reasoning: "Enables generalisation.", marks: 1, markCode: "A" },
+          ], finalAnswer: "(a) human-intelligence tasks (b) rules vs learning (c) learn from data (d) better patterns" },
+        },
       ],
     },
     {
@@ -107,8 +245,11 @@ export const lesson63: Lesson = {
           id: "olcs-u6-as-q1", difficulty: "foundation", totalMarks: 1,
           stem: "An expert system consists of…",
           response: { type: "mcq", choices: [
-            { id: "a", text: "A knowledge base and inference engine" }, { id: "b", text: "Only a database" }, { id: "c", text: "A robot arm" }, { id: "d", text: "A web browser" },
-          ], correctChoiceId: "a" },
+            { id: "a", text: "A web browser" },
+            { id: "b", text: "Only a database" },
+            { id: "c", text: "A knowledge base and inference engine" },
+            { id: "d", text: "A robot arm" },
+          ], correctChoiceId: "c" },
           markscheme: { principles: [{ kind: "definition", name: "Expert system", statement: "Knowledge base + inference engine." }], steps: [{ reasoning: "Expert system = KB + engine.", working: "\\text{KB+engine}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Knowledge base + inference engine" },
         },
         {
@@ -154,6 +295,141 @@ export const lesson63: Lesson = {
             { part: "d", reasoning: "Bias/privacy/job loss/autonomy.", working: "\\text{ethics}", marks: 1, markCode: "M" },
             { part: "d", reasoning: "Valid concern.", marks: 1, markCode: "A" },
           ], finalAnswer: "(a) input/model/output (b) expert emulation (c) facts+rules (d) bias/privacy/jobs" },
+        },
+        {
+          id: "olcs-u6-as-q5", difficulty: "foundation", totalMarks: 1,
+          stem: "An expert system consists of…",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "A robot arm" },
+            { id: "b", text: "Only a database" },
+            { id: "c", text: "A web browser" },
+            { id: "d", text: "A knowledge base and an inference engine" },
+          ], correctChoiceId: "d" },
+          markscheme: { principles: [{ kind: "definition", name: "Expert system", statement: "Knowledge base + inference engine." }], steps: [{ reasoning: "Expert system = KB + engine.", working: "\\text{KB+engine}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Knowledge base + inference engine" },
+        },
+        {
+          id: "olcs-u6-as-q6", difficulty: "foundation", totalMarks: 1,
+          stem: "How many components does an AI system have: input, knowledge/model, processing, output, learning loop?",
+          response: { type: "numeric", parts: [{ label: "Number of components", answer: 5 }] },
+          markscheme: { principles: [{ kind: "principle", name: "AI components", statement: "Input, model, processing, output, learning." }], steps: [
+            { reasoning: "Five components named.", working: "5", marks: 1, markCode: "B" },
+          ], finalAnswer: "5" },
+        },
+        {
+          id: "olcs-u6-as-q7", difficulty: "core", totalMarks: 1,
+          stem: "The inference engine in an expert system…",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "Applies rules to reach conclusions" },
+            { id: "b", text: "Sends emails" },
+            { id: "c", text: "Stores the facts" },
+            { id: "d", text: "Displays web pages" },
+          ], correctChoiceId: "a" },
+          markscheme: { principles: [{ kind: "definition", name: "Inference engine", statement: "Applies rules to inputs." }], steps: [{ reasoning: "Inference engine applies rules.", working: "\\text{apply rules}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Applies rules to reach conclusions" },
+        },
+        {
+          id: "olcs-u6-as-q8", difficulty: "core", totalMarks: 1,
+          stem: "How many main parts make up an expert system: a knowledge base and an inference engine?",
+          response: { type: "numeric", parts: [{ label: "Number of parts", answer: 2 }] },
+          markscheme: { principles: [{ kind: "definition", name: "Expert system", statement: "Two main parts." }], steps: [
+            { reasoning: "Knowledge base + inference engine = 2.", working: "2", marks: 1, markCode: "B" },
+          ], finalAnswer: "2" },
+        },
+        {
+          id: "olcs-u6-as-q9", difficulty: "core", totalMarks: 1,
+          stem: "Expert systems are best suited to…",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "Creative writing" },
+            { id: "b", text: "Narrow domains like medical diagnosis" },
+            { id: "c", text: "Driving cars" },
+            { id: "d", text: "Every possible task" },
+          ], correctChoiceId: "b" },
+          markscheme: { principles: [{ kind: "principle", name: "Expert systems", statement: "Narrow, rule-based domains." }], steps: [{ reasoning: "Expert systems work in narrow domains.", working: "\\text{narrow}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Narrow domains" },
+        },
+        {
+          id: "olcs-u6-as-q10", difficulty: "core", totalMarks: 2,
+          stem: "State two limitations of AI systems.",
+          response: { type: "open" },
+          markscheme: { principles: [{ kind: "principle", name: "AI limits", statement: "Bias, errors, no understanding." }], steps: [
+            { reasoning: "Any two: bias from data, confident mistakes, no true understanding.", working: "\\text{bias}", marks: 1, markCode: "M" },
+            { reasoning: "Second valid limitation.", marks: 1, markCode: "A" },
+          ], finalAnswer: "Bias, confident errors, lack of true understanding (any two)." },
+        },
+        {
+          id: "olcs-u6-as-q11", difficulty: "challenge", totalMarks: 1,
+          stem: "Bias in AI systems mainly comes from…",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "Unrepresentative training data" },
+            { id: "b", text: "Slow processors" },
+            { id: "c", text: "Small screens" },
+            { id: "d", text: "Too much electricity" },
+          ], correctChoiceId: "a" },
+          markscheme: { principles: [{ kind: "principle", name: "AI bias", statement: "Training data shapes outputs." }], steps: [{ reasoning: "Biased data → biased AI.", working: "\\text{data}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Unrepresentative training data" },
+        },
+        {
+          id: "olcs-u6-as-q12", difficulty: "core", totalMarks: 1,
+          stem: "An AI system takes input, processes it against a model, and produces output. Excluding the learning loop, how many main processing components are there?",
+          response: { type: "numeric", parts: [{ label: "Processing components", answer: 3 }] },
+          markscheme: { principles: [{ kind: "principle", name: "AI flow", statement: "Input → model → output." }], steps: [
+            { reasoning: "Input, processing/model, output = 3.", working: "3", marks: 1, markCode: "B" },
+          ], finalAnswer: "3" },
+        },
+        {
+          id: "olcs-u6-as-q13", difficulty: "challenge", totalMarks: 4,
+          stem: "Explain why expert systems are 'explainable' yet limited.",
+          response: { type: "open" },
+          markscheme: { principles: [{ kind: "principle", name: "Expert systems", statement: "Rule-based = inspectable." }], steps: [
+            { reasoning: "Rules can be inspected, so reasoning can be shown.", working: "\\text{rules}", marks: 1, markCode: "M" },
+            { reasoning: "Limited to their programmed domain.", working: "\\text{domain}", marks: 1, markCode: "M" },
+            { reasoning: "Can't handle cases outside the rules.", working: "\\text{outside rules}", marks: 1, markCode: "M" },
+            { reasoning: "Clear explanation.", marks: 1, markCode: "A" },
+          ], finalAnswer: "Their rules are inspectable so conclusions can be explained, but they only work within their narrow domain." },
+        },
+        {
+          id: "olcs-u6-as-q14", difficulty: "challenge", totalMarks: 1,
+          stem: "A key ethical concern about AI is…",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "Bigger files" },
+            { id: "b", text: "Faster loading" },
+            { id: "c", text: "More colours" },
+            { id: "d", text: "Privacy and job displacement" },
+          ], correctChoiceId: "d" },
+          markscheme: { principles: [{ kind: "principle", name: "AI ethics", statement: "Privacy, jobs, autonomy." }], steps: [{ reasoning: "Privacy and job loss are key concerns.", working: "\\text{ethics}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Privacy and job displacement" },
+        },
+        {
+          id: "olcs-u6-as-q15", difficulty: "core", totalMarks: 2,
+          stem: "State how many main parts an expert system has and how many components an AI system has.",
+          response: { type: "numeric", parts: [
+            { label: "Expert system parts", answer: 2 },
+            { label: "AI system components", answer: 5 },
+          ] },
+          markscheme: { principles: [{ kind: "principle", name: "AI structures", statement: "2 parts; 5 components." }], steps: [
+            { reasoning: "Knowledge base + inference engine.", working: "2", marks: 1, markCode: "M" },
+            { reasoning: "Input, model, processing, output, learning loop.", working: "5", marks: 1, markCode: "A" },
+          ], finalAnswer: "2 parts; 5 components" },
+        },
+        {
+          id: "olcs-u6-as-q16", difficulty: "challenge", totalMarks: 9,
+          stem: "AI systems review.",
+          parts: [
+            { label: "a", prompt: "List the main components of an AI system.", marks: 3 },
+            { label: "b", prompt: "Define an expert system.", marks: 2 },
+            { label: "c", prompt: "State the role of the knowledge base.", marks: 2 },
+            { label: "d", prompt: "Give one ethical concern about AI.", marks: 2 },
+          ],
+          response: { type: "open" },
+          markscheme: { principles: [
+            { kind: "definition", name: "Knowledge base", statement: "Facts/rules the system uses." },
+          ], steps: [
+            { part: "a", reasoning: "Input/model/processing/output.", working: "\\text{components}", marks: 1, markCode: "M" },
+            { part: "a", reasoning: "Second component.", marks: 1, markCode: "A" },
+            { part: "a", reasoning: "Third component.", marks: 1, markCode: "A" },
+            { part: "b", reasoning: "AI emulating human expert decisions.", working: "\\text{expert}", marks: 1, markCode: "M" },
+            { part: "b", reasoning: "In a narrow domain.", working: "\\text{narrow}", marks: 1, markCode: "A" },
+            { part: "c", reasoning: "Stores facts and rules.", working: "\\text{facts+rules}", marks: 1, markCode: "M" },
+            { part: "c", reasoning: "Used by the inference engine.", marks: 1, markCode: "A" },
+            { part: "d", reasoning: "Bias/privacy/job loss/autonomy.", working: "\\text{ethics}", marks: 1, markCode: "M" },
+            { part: "d", reasoning: "Valid concern.", marks: 1, markCode: "A" },
+          ], finalAnswer: "(a) components (b) expert emulation (c) facts+rules (d) ethics" },
         },
       ],
     },

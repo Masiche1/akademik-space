@@ -53,12 +53,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Power" },
-              { id: "b", text: "Current" },
-              { id: "c", text: "Energy" },
-              { id: "d", text: "Voltage" },
+              { id: "a", text: "Energy" },
+              { id: "b", text: "Power" },
+              { id: "c", text: "Voltage" },
+              { id: "d", text: "Current" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -196,12 +196,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A higher voltage gives a smaller current, which reduces the power lost as thermal energy in the wires." },
-              { id: "b", text: "A higher voltage makes the wires have no resistance." },
-              { id: "c", text: "A higher voltage increases the total power created by the plant." },
+              { id: "a", text: "A higher voltage makes the wires have no resistance." },
+              { id: "b", text: "A higher voltage increases the total power created by the plant." },
+              { id: "c", text: "A higher voltage gives a smaller current, which reduces the power lost as thermal energy in the wires." },
               { id: "d", text: "A higher voltage lets the current flow faster, so energy arrives sooner." },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

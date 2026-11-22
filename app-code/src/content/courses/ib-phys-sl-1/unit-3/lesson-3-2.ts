@@ -54,12 +54,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Bulk movement of the metal" },
-              { id: "b", text: "Collisions of particles and drift of free electrons" },
-              { id: "c", text: "Electromagnetic waves" },
-              { id: "d", text: "Evaporation of particles" },
+              { id: "a", text: "Evaporation of particles" },
+              { id: "b", text: "Bulk movement of the metal" },
+              { id: "c", text: "Collisions of particles and drift of free electrons" },
+              { id: "d", text: "Electromagnetic waves" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Conduction", statement: "Conduction transfers heat by particle collisions and free electrons without bulk movement." }],
@@ -80,12 +80,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$800$ W" },
-              { id: "b", text: "$40$ W" },
-              { id: "c", text: "$2000$ W" },
-              { id: "d", text: "$80$ W" },
+              { id: "a", text: "$40$ W" },
+              { id: "b", text: "$2000$ W" },
+              { id: "c", text: "$80$ W" },
+              { id: "d", text: "$800$ W" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "P = kAΔT/x", statement: "P = \\frac{kA\\Delta T}{x}" }],
@@ -107,12 +107,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It becomes more dense" },
-              { id: "b", text: "It expands, becomes less dense, and is pushed up by cooler denser water" },
-              { id: "c", text: "It is pulled upwards by magnetic forces" },
-              { id: "d", text: "Its particles stop moving" },
+              { id: "a", text: "It expands, becomes less dense, and is pushed up by cooler denser water" },
+              { id: "b", text: "It becomes more dense" },
+              { id: "c", text: "Its particles stop moving" },
+              { id: "d", text: "It is pulled upwards by magnetic forces" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Convection", statement: "Heated fluid expands, density falls, and buoyancy drives it upwards." }],
@@ -167,12 +167,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Wood" },
-              { id: "b", text: "Copper" },
+              { id: "a", text: "Copper" },
+              { id: "b", text: "Wood" },
               { id: "c", text: "Plastic" },
               { id: "d", text: "Still air" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "property", name: "Thermal conductivity", statement: "Metals have high thermal conductivity $k$; wood, plastic and air have low $k$." }],
@@ -193,12 +193,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$2.0$ W" },
-              { id: "b", text: "$0.50$ W" },
+              { id: "a", text: "$0.50$ W" },
+              { id: "b", text: "$2.0$ W" },
               { id: "c", text: "$8.0$ W" },
               { id: "d", text: "$0.020$ W" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "P = kAΔT/x", statement: "P = \\frac{kA\\Delta T}{x}" }],
@@ -221,11 +221,11 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Doubles" },
-              { id: "b", text: "Stays the same" },
-              { id: "c", text: "Halves" },
-              { id: "d", text: "Becomes one quarter" },
+              { id: "b", text: "Halves" },
+              { id: "c", text: "Becomes one quarter" },
+              { id: "d", text: "Stays the same" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "P = kAΔT/x", statement: "P \\propto \\frac{1}{x} at fixed $k$, $A$ and $\\Delta T$." }],
@@ -247,12 +247,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The particles of a solid are fixed in position and cannot flow" },
-              { id: "b", text: "Solids contain no particles" },
-              { id: "c", text: "Solids conduct heat too well" },
-              { id: "d", text: "Radiation replaces convection in solids" },
+              { id: "a", text: "Solids contain no particles" },
+              { id: "b", text: "Solids conduct heat too well" },
+              { id: "c", text: "Radiation replaces convection in solids" },
+              { id: "d", text: "The particles of a solid are fixed in position and cannot flow" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Convection", statement: "Convection needs bulk movement of a fluid; solid particles vibrate about fixed positions." }],
@@ -274,12 +274,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$2$" },
-              { id: "b", text: "$4$" },
-              { id: "c", text: "$\\frac{1}{2}$" },
+              { id: "a", text: "$\\frac{1}{2}$" },
+              { id: "b", text: "$2$" },
+              { id: "c", text: "$4$" },
               { id: "d", text: "It is unchanged" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "P = kAΔT/x", statement: "$P \\propto \\frac{A}{x}$." }],
@@ -498,12 +498,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Requires a solid medium" },
-              { id: "b", text: "Can travel through a vacuum" },
-              { id: "c", text: "Only occurs in metals" },
-              { id: "d", text: "Needs fluid particles to move" },
+              { id: "a", text: "Only occurs in metals" },
+              { id: "b", text: "Needs fluid particles to move" },
+              { id: "c", text: "Can travel through a vacuum" },
+              { id: "d", text: "Requires a solid medium" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Thermal radiation", statement: "Infrared waves transfer energy without needing a medium." }],
@@ -524,12 +524,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Shiny white paint" },
-              { id: "b", text: "Dull black surface" },
-              { id: "c", text: "Polished silver" },
-              { id: "d", text: "Clear glass" },
+              { id: "a", text: "Dull black surface" },
+              { id: "b", text: "Clear glass" },
+              { id: "c", text: "Shiny white paint" },
+              { id: "d", text: "Polished silver" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "property", name: "Surface properties", statement: "Dull black surfaces are the best absorbers and emitters; shiny surfaces reflect." }],
@@ -551,12 +551,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$2$" },
-              { id: "b", text: "$4$" },
-              { id: "c", text: "$8$" },
-              { id: "d", text: "$16$" },
+              { id: "a", text: "$16$" },
+              { id: "b", text: "$8$" },
+              { id: "c", text: "$4$" },
+              { id: "d", text: "$2$" },
             ],
-            correctChoiceId: "d",
+            correctChoiceIa: "d",
           },
           markscheme: {
             principles: [{ kind: "law", name: "Stefan–Boltzmann", statement: "P \\propto T^4." }],
@@ -611,12 +611,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Infrared electromagnetic waves" },
-              { id: "b", text: "Sound waves" },
-              { id: "c", text: "Moving particles of air" },
-              { id: "d", text: "Electric current in wires" },
+              { id: "a", text: "Electric current in wires" },
+              { id: "b", text: "Infrared electromagnetic waves" },
+              { id: "c", text: "Sound waves" },
+              { id: "d", text: "Moving particles of air" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Thermal radiation", statement: "Thermal radiation consists of infrared electromagnetic waves." }],
@@ -637,8 +637,8 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Shiny white paint" },
-              { id: "b", text: "Polished aluminium" },
+              { id: "a", text: "Polished aluminium" },
+              { id: "b", text: "Shiny white paint" },
               { id: "c", text: "Dull black surface" },
               { id: "d", text: "White paper" },
             ],
@@ -665,8 +665,8 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Reflects most incident radiation instead of absorbing and re-emitting it" },
-              { id: "b", text: "Has a very low temperature always" },
-              { id: "c", text: "Cannot conduct electricity" },
+              { id: "b", text: "Cannot conduct electricity" },
+              { id: "c", text: "Has a very low temperature always" },
               { id: "d", text: "Is always in a vacuum" },
             ],
             correctChoiceId: "a",
@@ -692,11 +692,11 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$\\frac{P}{2}$" },
-              { id: "b", text: "$\\frac{P}{4}$" },
+              { id: "b", text: "$\\frac{P}{16}$" },
               { id: "c", text: "$\\frac{P}{8}$" },
-              { id: "d", text: "$\\frac{P}{16}$" },
+              { id: "d", text: "$\\frac{P}{4}$" },
             ],
-            correctChoiceId: "d",
+            correctChoiceIb: "d",
           },
           markscheme: {
             principles: [{ kind: "law", name: "Stefan–Boltzmann", statement: "P \\propto T^4 with $T$ in kelvin." }],
@@ -719,11 +719,11 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$A T$" },
-              { id: "b", text: "$A T^2$" },
-              { id: "c", text: "$A T^4$" },
-              { id: "d", text: "$\\frac{A}{T^4}$" },
+              { id: "b", text: "$\\frac{A}{T^4}$" },
+              { id: "c", text: "$A T^2$" },
+              { id: "d", text: "$A T^4$" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "law", name: "Stefan–Boltzmann", statement: "P = \\sigma A T^4." }],

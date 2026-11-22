@@ -54,12 +54,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Mission" },
-              { id: "b", text: "Vision" },
-              { id: "c", text: "Objective" },
-              { id: "d", text: "Strategy" },
+              { id: "a", text: "Vision" },
+              { id: "b", text: "Objective" },
+              { id: "c", text: "Strategy" },
+              { id: "d", text: "Mission" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Vision", statement: "The long-term aspiration of where the business wants to be." }],
@@ -81,9 +81,9 @@ export const lesson61: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Strong brand loyalty" },
-              { id: "b", text: "Skilled workforce" },
+              { id: "b", text: "Efficient production system" },
               { id: "c", text: "Growing demand for organic food" },
-              { id: "d", text: "Efficient production system" },
+              { id: "d", text: "Skilled workforce" },
             ],
             correctChoiceId: "c",
           },
@@ -152,12 +152,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Vision" },
-              { id: "b", text: "Mission" },
-              { id: "c", text: "Objective" },
-              { id: "d", text: "SWOT analysis" },
+              { id: "a", text: "SWOT analysis" },
+              { id: "b", text: "Objective" },
+              { id: "c", text: "Mission" },
+              { id: "d", text: "Vision" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Mission", statement: "The business's purpose — what it does and for whom." }],
@@ -179,11 +179,11 @@ export const lesson61: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Choosing and implementing a strategy" },
-              { id: "b", text: "Analysing the internal and external environment" },
-              { id: "c", text: "Setting the annual marketing budget" },
-              { id: "d", text: "Reviewing last year's performance" },
+              { id: "b", text: "Setting the annual marketing budget" },
+              { id: "c", text: "Reviewing last year's performance" },
+              { id: "d", text: "Analysing the internal and external environment" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Planning sequence", statement: "Analyse → objectives → options → choose → implement → review" }],
@@ -204,12 +204,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Changes in interest rates" },
-              { id: "b", text: "New health and lifestyle trends among consumers" },
-              { id: "c", text: "New government trade agreements" },
-              { id: "d", text: "Competitors investing in new technology" },
+              { id: "a", text: "New government trade agreements" },
+              { id: "b", text: "Changes in interest rates" },
+              { id: "c", text: "Competitors investing in new technology" },
+              { id: "d", text: "New health and lifestyle trends among consumers" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "STEEPLE — Social", statement: "Social factors cover demographics, consumer attitudes, health and lifestyle trends." }],
@@ -230,12 +230,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "To provide quality education for all" },
-              { id: "b", text: "To achieve 15% market share by 2030" },
-              { id: "c", text: "To be the most trusted brand in the sector" },
-              { id: "d", text: "To serve our local community" },
+              { id: "a", text: "To serve our local community" },
+              { id: "b", text: "To be the most trusted brand in the sector" },
+              { id: "c", text: "To achieve 15% market share by 2030" },
+              { id: "d", text: "To provide quality education for all" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Strategic objective", statement: "A measurable long-term target such as a market share or profit goal." }],
@@ -389,12 +389,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Fluctuations in the exchange rate" },
-              { id: "b", text: "New employment legislation affecting working hours" },
-              { id: "c", text: "Changing consumer tastes" },
-              { id: "d", text: "Rivals launching new products" },
+              { id: "a", text: "Rivals launching new products" },
+              { id: "b", text: "Changing consumer tastes" },
+              { id: "c", text: "Fluctuations in the exchange rate" },
+              { id: "d", text: "New employment legislation affecting working hours" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "STEEPLE — Legal", statement: "Legal factors cover laws and regulations affecting the business." }],
@@ -474,11 +474,11 @@ export const lesson61: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Strength" },
-              { id: "b", text: "Weakness" },
-              { id: "c", text: "Opportunity" },
-              { id: "d", text: "Threat" },
+              { id: "b", text: "Opportunity" },
+              { id: "c", text: "Threat" },
+              { id: "d", text: "Weakness" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "SWOT classification", statement: "Internal factors are strengths or weaknesses; external are opportunities or threats." }],
@@ -499,8 +499,8 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Strength" },
-              { id: "b", text: "Weakness" },
+              { id: "a", text: "Weakness" },
+              { id: "b", text: "Strength" },
               { id: "c", text: "Opportunity" },
               { id: "d", text: "Threat" },
             ],
@@ -571,12 +571,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Strength" },
-              { id: "b", text: "Weakness" },
-              { id: "c", text: "Opportunity" },
-              { id: "d", text: "Threat" },
+              { id: "a", text: "Weakness" },
+              { id: "b", text: "Strength" },
+              { id: "c", text: "Threat" },
+              { id: "d", text: "Opportunity" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "SWOT classification", statement: "Strengths and weaknesses are internal; opportunities and threats are external." }],
@@ -597,12 +597,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A new competitor opening nearby" },
-              { id: "b", text: "Growing demand for plant-based products" },
-              { id: "c", text: "New safety regulations raising costs" },
+              { id: "a", text: "New safety regulations raising costs" },
+              { id: "b", text: "A new competitor opening nearby" },
+              { id: "c", text: "Growing demand for plant-based products" },
               { id: "d", text: "A recession reducing consumer spending" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Opportunity", statement: "A favourable external trend the business could exploit." }],
@@ -623,10 +623,10 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Strength" },
+              { id: "a", text: "Opportunity" },
               { id: "b", text: "Weakness" },
-              { id: "c", text: "Opportunity" },
-              { id: "d", text: "Threat" },
+              { id: "c", text: "Threat" },
+              { id: "d", text: "Strength" },
             ],
             correctChoiceId: "b",
           },
@@ -650,11 +650,11 @@ export const lesson61: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Cutting costs to survive a downturn" },
-              { id: "b", text: "Using strengths to exploit opportunities" },
-              { id: "c", text: "Selling off weak divisions" },
-              { id: "d", text: "Outsourcing to reduce risk" },
+              { id: "b", text: "Selling off weak divisions" },
+              { id: "c", text: "Outsourcing to reduce risk" },
+              { id: "d", text: "Using strengths to exploit opportunities" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "SO strategy", statement: "Match internal strengths against external opportunities." }],
@@ -676,11 +676,11 @@ export const lesson61: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Cannot be used by small firms" },
-              { id: "b", text: "Lists factors without ranking or prioritising them" },
-              { id: "c", text: "Only covers external factors" },
-              { id: "d", text: "Is too expensive to produce" },
+              { id: "b", text: "Is too expensive to produce" },
+              { id: "c", text: "Lists factors without ranking or prioritising them" },
+              { id: "d", text: "Only covers external factors" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "SWOT limitation", statement: "SWOT catalogues factors but does not rank them or prescribe a strategy." }],

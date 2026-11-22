@@ -50,12 +50,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\text{CH}_4$" },
-              { id: "b", text: "$\\text{HCl}$" },
-              { id: "c", text: "$\\text{NH}_3$" },
-              { id: "d", text: "$\\text{CH}_3\\text{Cl}$" },
+              { id: "a", text: "$\\text{NH}_3$" },
+              { id: "b", text: "$\\text{CH}_3\\text{Cl}$" },
+              { id: "c", text: "$\\text{HCl}$" },
+              { id: "d", text: "$\\text{CH}_4$" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -184,12 +184,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The kinetic energy of the particles is increasing." },
-              { id: "b", text: "Energy is overcoming intermolecular forces during a phase change." },
+              { id: "a", text: "Energy is overcoming intermolecular forces during a phase change." },
+              { id: "b", text: "The substance is not absorbing any energy." },
               { id: "c", text: "Covalent bonds within the molecules are breaking." },
-              { id: "d", text: "The substance is not absorbing any energy." },
+              { id: "d", text: "The kinetic energy of the particles is increasing." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

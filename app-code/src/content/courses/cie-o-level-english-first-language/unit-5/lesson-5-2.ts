@@ -75,15 +75,15 @@ export const lesson152: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "The main character's introduction" },
               {
-                id: "a",
+                id: "b",
                 text: "The point of highest tension or turning point",
               },
-              { id: "b", text: "The first paragraph" },
-              { id: "c", text: "The ending" },
-              { id: "d", text: "The main character's introduction" },
+              { id: "c", text: "The first paragraph" },
+              { id: "d", text: "The ending" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -342,6 +342,546 @@ export const lesson152: Lesson = {
             commonErrors: ["Events that do not escalate or cause each other."],
           },
         },
+        {
+          id: "cie-ol-fl-pc-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "What is 'exposition' in a narrative?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "The main conflict" },
+              { id: "b", text: "The final resolution" },
+              { id: "c", text: "The introduction of characters and setting" },
+              { id: "d", text: "The highest point of tension" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Exposition",
+                statement:
+                  "The opening that introduces characters, setting and situation.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Exposition = introduction of characters and setting.",
+                marks: 1,
+                markCode: "AO1",
+              },
+            ],
+            finalAnswer: "**(a)** The introduction of characters and setting",
+            commonErrors: ["Confusing exposition with climax."],
+          },
+        },
+        {
+          id: "cie-ol-fl-pc-q6",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Which best describes 'rising action'?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "The quiet opening of the story" },
+              { id: "b", text: "A list of characters" },
+              { id: "c", text: "The final paragraph" },
+              { id: "d", text: "A series of events that escalate toward the climax" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Rising action",
+                statement:
+                  "Events that build tension and complicate the conflict toward the climax.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Rising action = escalating events.",
+                marks: 1,
+                markCode: "AO1",
+              },
+            ],
+            finalAnswer: "**(a)** A series of events that escalate toward the climax",
+            commonErrors: ["Confusing rising action with exposition."],
+          },
+        },
+        {
+          id: "cie-ol-fl-pc-q7",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "Why reveal character through dialogue rather than description alone?",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Character through dialogue",
+                statement:
+                  "Speech reveals personality, attitude and relationships dynamically.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "What a character says and how they say it shows their mind.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning:
+                  "Dialogue also reveals relationships and lets character emerge in action.",
+                marks: 1,
+                markCode: "AO3",
+              },
+            ],
+            finalAnswer:
+              "Dialogue reveals personality and relationships dynamically, making characters feel real.",
+            commonErrors: ["Saying dialogue is 'more interesting' without mechanism."],
+          },
+        },
+        {
+          id: "cie-ol-fl-pc-q8",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "How does a character's 'want' drive the plot?",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "convention",
+                name: "Character motivation",
+                statement:
+                  "A clear desire gives the character goals that generate conflict and action.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "The want defines what the character is trying to achieve.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "Obstacles to the want create conflict.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "Pursuing the want produces the events of the plot.",
+                marks: 1,
+                markCode: "AO3",
+              },
+            ],
+            finalAnswer:
+              "The want sets goals; obstacles create conflict; pursuit generates plot events.",
+            commonErrors: ["Describing events without linking them to motivation."],
+          },
+        },
+        {
+          id: "cie-ol-fl-pc-q9",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "Explain how action and choices make a character believable.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Character through action",
+                statement:
+                  "What a character does reveals personality more convincingly than description.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Actions demonstrate traits concretely.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "Difficult choices reveal values and priorities.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "Readers infer personality themselves, which feels real.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "Clear explanation of believability.",
+                marks: 1,
+                markCode: "AO3",
+              },
+            ],
+            finalAnswer:
+              "Actions and choices demonstrate traits concretely, letting readers infer a real personality.",
+            commonErrors: ["Listing traits without showing them through action."],
+          },
+        },
+        {
+          id: "cie-ol-fl-pc-q10",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "What is the 'resolution' of a narrative?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "A sudden twist" },
+              { id: "b", text: "The opening scene" },
+              { id: "c", text: "How the conflict is settled" },
+              { id: "d", text: "The middle of the story" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Resolution",
+                statement: "The part where the conflict is settled or concluded.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Resolution = conflict settled.",
+                marks: 1,
+                markCode: "AO1",
+              },
+            ],
+            finalAnswer: "**(a)** How the conflict is settled",
+            commonErrors: ["Confusing resolution with climax."],
+          },
+        },
+        {
+          id: "cie-ol-fl-pc-q11",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Why should events in rising action be causally linked?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Each event causes the next, building logic and tension" },
+              { id: "b", text: "Readers prefer lists of events" },
+              { id: "c", text: "It saves the writer time" },
+              { id: "d", text: "There is no reason" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "convention",
+                name: "Cause and effect",
+                statement:
+                  "Each event should result from the previous one, building tension logically.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Causality builds logic and tension.",
+                marks: 1,
+                markCode: "AO2",
+              },
+            ],
+            finalAnswer: "**(a)** Each event causes the next, building logic and tension",
+            commonErrors: ["Choosing 'no reason' — causality is essential."],
+          },
+        },
+        {
+          id: "cie-ol-fl-pc-q12",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "Give two ways a writer can reveal a character's personality.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Character revelation",
+                statement:
+                  "Action, dialogue, thoughts and choices all reveal personality.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Any two of action, dialogue, interior thought, choices.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                reasoning: "Both correctly identified as revelation methods.",
+                marks: 1,
+                markCode: "AO3",
+              },
+            ],
+            finalAnswer: "Action, dialogue, thoughts or choices.",
+            commonErrors: ["Listing adjectives instead of methods."],
+          },
+        },
+        {
+          id: "cie-ol-fl-pc-q13",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "How can the setting reflect a character's internal state?",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Pathetic fallacy",
+                statement:
+                  "External surroundings can mirror or contrast a character's feelings.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Stormy weather can echo inner turmoil.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "Calm settings can heighten tension by contrast.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "The mirror deepens the reader's understanding of the character.",
+                marks: 1,
+                markCode: "AO3",
+              },
+            ],
+            finalAnswer:
+              "Setting can mirror inner feelings or contrast them, deepening characterisation.",
+            commonErrors: ["Describing setting without linking it to character."],
+          },
+        },
+        {
+          id: "cie-ol-fl-pc-q14",
+          difficulty: "challenge",
+          totalMarks: 8,
+          stem: "Plotting a story about a broken promise.",
+          parts: [
+            { label: "a", prompt: "State the central conflict.", marks: 2 },
+            { label: "b", prompt: "Give two rising-action events.", marks: 2 },
+            { label: "c", prompt: "Describe the climax.", marks: 2 },
+            { label: "d", prompt: "Describe the resolution.", marks: 2 },
+          ],
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "convention",
+                name: "Narrative planning",
+                statement: "Conflict+escalation+climax+resolution=complete plot.",
+              },
+            ],
+            steps: [
+              {
+                part: "a",
+                reasoning: "A clear struggle, e.g. guilt vs self-preservation.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                part: "a",
+                reasoning: "Conflict stated clearly.",
+                marks: 1,
+                markCode: "AO3",
+              },
+              {
+                part: "b",
+                reasoning: "First escalating event.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                part: "b",
+                reasoning: "Second event raises stakes further.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                part: "c",
+                reasoning: "The decisive turning point.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                part: "c",
+                reasoning: "Identifiable as climax.",
+                marks: 1,
+                markCode: "AO3",
+              },
+              {
+                part: "d",
+                reasoning: "How the conflict is settled.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                part: "d",
+                reasoning: "Resolution satisfies the arc.",
+                marks: 1,
+                markCode: "AO3",
+              },
+            ],
+            finalAnswer:
+              "(a) clear conflict (b) two escalating events (c) turning point (d) settled conflict",
+            levels: [
+              { level: "Level 2", marks: "1-2", descriptor: "Conflict clear.", part: "a" },
+              { level: "Level 1", marks: "0", descriptor: "None.", part: "a" },
+              { level: "Level 2", marks: "1-2", descriptor: "Two events.", part: "b" },
+              { level: "Level 1", marks: "0", descriptor: "None.", part: "b" },
+              { level: "Level 2", marks: "1-2", descriptor: "Climax named.", part: "c" },
+              { level: "Level 1", marks: "0", descriptor: "None.", part: "c" },
+              { level: "Level 2", marks: "1-2", descriptor: "Resolution given.", part: "d" },
+              { level: "Level 1", marks: "0", descriptor: "None.", part: "d" },
+            ],
+            commonErrors: ["Events that do not escalate or cause each other."],
+          },
+        },
+        {
+          id: "cie-ol-fl-pc-q15",
+          difficulty: "challenge",
+          totalMarks: 9,
+          stem: "Characterisation.",
+          parts: [
+            { label: "a", prompt: "Define 'protagonist'.", marks: 1 },
+            { label: "b", prompt: "Name two ways to reveal character.", marks: 2 },
+            { label: "c", prompt: "Explain 'show don't tell' for character.", marks: 3 },
+            { label: "d", prompt: "Plan a simple character arc.", marks: 3 },
+          ],
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "skill",
+                name: "Characterisation",
+                statement: "Protagonist+revelation+show don't tell+arc.",
+              },
+            ],
+            steps: [
+              {
+                part: "a",
+                reasoning: "The main character the story follows.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                part: "b",
+                reasoning: "Any two of action, dialogue, thoughts, choices.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                part: "b",
+                reasoning: "Both correctly named.",
+                marks: 1,
+                markCode: "AO3",
+              },
+              {
+                part: "c",
+                reasoning: "Reveal traits through action rather than adjectives.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                part: "c",
+                reasoning: "Reader infers personality themselves.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                part: "c",
+                reasoning: "Clear explanation.",
+                marks: 1,
+                markCode: "AO3",
+              },
+              {
+                part: "d",
+                reasoning: "A change over the story, e.g. fear to confidence.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                part: "d",
+                reasoning: "Change linked to plot events.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                part: "d",
+                reasoning: "Coherent arc.",
+                marks: 1,
+                markCode: "AO3",
+              },
+            ],
+            finalAnswer:
+              "(a) main character (b) two methods (c) action over adjectives (d) change linked to plot",
+            levels: [
+              { level: "Level 2", marks: "1", descriptor: "Correct.", part: "a" },
+              { level: "Level 1", marks: "0", descriptor: "Wrong.", part: "a" },
+              { level: "Level 2", marks: "1-2", descriptor: "Two methods.", part: "b" },
+              { level: "Level 1", marks: "0", descriptor: "None.", part: "b" },
+              { level: "Level 3", marks: "2-3", descriptor: "Show-don't-tell clear.", part: "c" },
+              { level: "Level 2", marks: "1", descriptor: "Partial.", part: "c" },
+              { level: "Level 1", marks: "0", descriptor: "None.", part: "c" },
+              { level: "Level 3", marks: "2-3", descriptor: "Coherent arc.", part: "d" },
+              { level: "Level 2", marks: "1", descriptor: "Attempted.", part: "d" },
+              { level: "Level 1", marks: "0", descriptor: "No change.", part: "d" },
+            ],
+            commonErrors: ["Describing traits as adjectives rather than showing them."],
+          },
+        },
+        {
+          id: "cie-ol-fl-pc-q16",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "Discuss how internal conflict can drive a narrative.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "skill",
+                name: "Internal conflict",
+                statement:
+                  "A struggle within the character creates tension and motivates choices.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Internal conflict is a struggle within the character.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "It forces difficult choices that reveal character.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "The tension sustains interest even without external action.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "Clear discussion.",
+                marks: 1,
+                markCode: "AO3",
+              },
+            ],
+            finalAnswer:
+              "Internal conflict forces choices, reveals character and sustains tension.",
+            commonErrors: ["Confusing internal with external conflict."],
+          },
+        },
       ],
     },
     {
@@ -384,12 +924,12 @@ export const lesson152: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A character tells the story using 'I'" },
-              { id: "b", text: "The author speaks directly to the reader" },
-              { id: "c", text: "Multiple characters narrate" },
-              { id: "d", text: "The story is told in second person" },
+              { id: "a", text: "The story is told in second person" },
+              { id: "b", text: "Multiple characters narrate" },
+              { id: "c", text: "The author speaks directly to the reader" },
+              { id: "d", text: "A character tells the story using 'I'" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -662,6 +1202,547 @@ export const lesson152: Lesson = {
             commonErrors: [
               "Confusing tension with surprise; tension is sustained anticipation.",
             ],
+          },
+        },
+        {
+          id: "cie-ol-fl-pt-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "What is 'third-person limited' narration?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "The story is told in second person" },
+              { id: "b", text: "All characters' thoughts are revealed" },
+              { id: "c", text: "The author speaks directly to the reader" },
+              { id: "d", text: "The story follows one character's perspective closely" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Third-person limited",
+                statement:
+                  "Narration stays close to one character's perspective and knowledge.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Limited = one character's viewpoint.",
+                marks: 1,
+                markCode: "AO1",
+              },
+            ],
+            finalAnswer: "**(a)** The story follows one character's perspective closely",
+            commonErrors: ["Confusing with omniscient narration."],
+          },
+        },
+        {
+          id: "cie-ol-fl-pt-q6",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Which technique most directly creates suspense?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Rhyme in narration" },
+              { id: "b", text: "Alphabetical lists" },
+              { id: "c", text: "Withholding a key piece of information" },
+              { id: "d", text: "Long descriptive paragraphs" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Suspense",
+                statement:
+                  "Withholding information makes the reader anticipate possible outcomes.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Withheld info = reader uncertainty = suspense.",
+                marks: 1,
+                markCode: "AO2",
+              },
+            ],
+            finalAnswer: "**(a)** Withholding a key piece of information",
+            commonErrors: ["Confusing suspense with surprise."],
+          },
+        },
+        {
+          id: "cie-ol-fl-pt-q7",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "Why might a first-person narrator be 'unreliable'?",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Unreliable narrator",
+                statement:
+                  "A first-person narrator may misunderstand events or have biased motives.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "The narrator sees only their own perspective and may misjudge.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning:
+                  "Gaps between what they say and what happens create doubt.",
+                marks: 1,
+                markCode: "AO3",
+              },
+            ],
+            finalAnswer:
+              "Limited perspective and possible bias mean the narrator's account may not be fully trustworthy.",
+            commonErrors: ["Assuming first-person narrators always tell the truth."],
+          },
+        },
+        {
+          id: "cie-ol-fl-pt-q8",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "How does sentence length affect pace in a tense scene?",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Pacing",
+                statement:
+                  "Short sentences speed up and feel urgent; long sentences slow down.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Short sentences create urgency and punch.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "Long sentences allow reflection or build-up.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "Controlling the mix controls the scene's pace.",
+                marks: 1,
+                markCode: "AO3",
+              },
+            ],
+            finalAnswer:
+              "Short sentences speed up and feel urgent; long ones slow down; the mix controls pace.",
+            commonErrors: ["Not linking sentence length to pace."],
+          },
+        },
+        {
+          id: "cie-ol-fl-pt-q9",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "Explain how ending paragraphs on 'hooks' controls tension.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Hooks",
+                statement:
+                  "Ending a paragraph on an unresolved point makes the reader continue.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "A hook withholds resolution at the paragraph's end.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "It creates a pull to the next paragraph.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "Repeated hooks sustain tension across the text.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "Clear explanation of effect.",
+                marks: 1,
+                markCode: "AO3",
+              },
+            ],
+            finalAnswer:
+              "Hooks withhold resolution, pulling the reader forward and sustaining tension.",
+            commonErrors: ["Ending paragraphs on a closed, resolved note."],
+          },
+        },
+        {
+          id: "cie-ol-fl-pt-q10",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "What does 'pacing' mean in narrative writing?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "The size of the font" },
+              { id: "b", text: "The length of dialogue" },
+              { id: "c", text: "The number of pages" },
+              { id: "d", text: "The speed and rhythm at which events unfold" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Pacing",
+                statement: "The speed and rhythm at which a narrative unfolds.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Pacing = speed/rhythm of events.",
+                marks: 1,
+                markCode: "AO1",
+              },
+            ],
+            finalAnswer: "**(a)** The speed and rhythm at which events unfold",
+            commonErrors: ["Confusing pacing with plotting."],
+          },
+        },
+        {
+          id: "cie-ol-fl-pt-q11",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Why use short sentences at a climactic moment?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "They feel urgent and punchy" },
+              { id: "b", text: "They are longer and detailed" },
+              { id: "c", text: "They are easier to spell" },
+              { id: "d", text: "They rhyme with each other" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Sentence length",
+                statement:
+                  "Short sentences feel urgent and emphasise key moments.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Short = urgent/punchy.",
+                marks: 1,
+                markCode: "AO2",
+              },
+            ],
+            finalAnswer: "**(a)** They feel urgent and punchy",
+            commonErrors: ["Thinking length doesn't affect effect."],
+          },
+        },
+        {
+          id: "cie-ol-fl-pt-q12",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "Give two reasons for choosing third-person omniscient narration.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Omniscient narration",
+                statement:
+                  "It can move between characters' minds and offer a wider perspective.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "It can reveal multiple characters' thoughts.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "It offers a broader, flexible perspective on events.",
+                marks: 1,
+                markCode: "AO3",
+              },
+            ],
+            finalAnswer:
+              "Multiple minds and a wider, flexible perspective.",
+            commonErrors: ["Saying it is 'better' without reasons."],
+          },
+        },
+        {
+          id: "cie-ol-fl-pt-q13",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "How can a writer create tension by letting the reader know more than the character?",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Dramatic irony",
+                statement:
+                  "When the reader knows something a character doesn't, anticipation builds.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "The reader sees danger the character cannot.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "This creates anticipation about how events will unfold.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "The gap between knowledge and innocence sustains tension.",
+                marks: 1,
+                markCode: "AO3",
+              },
+            ],
+            finalAnswer:
+              "The reader's extra knowledge creates anticipation and sustained tension.",
+            commonErrors: ["Thinking only the character's ignorance matters, not the reader's knowledge."],
+          },
+        },
+        {
+          id: "cie-ol-fl-pt-q14",
+          difficulty: "challenge",
+          totalMarks: 8,
+          stem: "A character is hiding a secret.",
+          parts: [
+            { label: "a", prompt: "Choose a point of view and justify it.", marks: 2 },
+            { label: "b", prompt: "Give two techniques to create tension.", marks: 2 },
+            { label: "c", prompt: "Write a 'hook' ending for a paragraph.", marks: 2 },
+            { label: "d", prompt: "Explain one pacing choice you would make.", marks: 2 },
+          ],
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "skill",
+                name: "Voice and tension",
+                statement: "POV+techniques+hooks+pacing=tension control.",
+              },
+            ],
+            steps: [
+              {
+                part: "a",
+                reasoning: "A justified choice, e.g. first person for secrecy.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                part: "a",
+                reasoning: "Justification linked to the secret.",
+                marks: 1,
+                markCode: "AO3",
+              },
+              {
+                part: "b",
+                reasoning: "First tension technique, e.g. withholding info.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                part: "b",
+                reasoning: "Second technique, e.g. short sentences or hooks.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                part: "c",
+                reasoning: "An unresolved closing line.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                part: "c",
+                reasoning: "Creates a pull to continue.",
+                marks: 1,
+                markCode: "AO3",
+              },
+              {
+                part: "d",
+                reasoning: "A pacing choice, e.g. slow the reveal.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                part: "d",
+                reasoning: "Effect on tension explained.",
+                marks: 1,
+                markCode: "AO3",
+              },
+            ],
+            finalAnswer:
+              "(a) justified POV (b) two techniques (c) unresolved hook (d) pacing choice",
+            levels: [
+              { level: "Level 2", marks: "1-2", descriptor: "POV justified.", part: "a" },
+              { level: "Level 1", marks: "0", descriptor: "None.", part: "a" },
+              { level: "Level 2", marks: "1-2", descriptor: "Two techniques.", part: "b" },
+              { level: "Level 1", marks: "0", descriptor: "None.", part: "b" },
+              { level: "Level 2", marks: "1-2", descriptor: "Hook given.", part: "c" },
+              { level: "Level 1", marks: "0", descriptor: "Resolved ending.", part: "c" },
+              { level: "Level 2", marks: "1-2", descriptor: "Pacing explained.", part: "d" },
+              { level: "Level 1", marks: "0", descriptor: "None.", part: "d" },
+            ],
+            commonErrors: ["Techniques named without explaining their effect on tension."],
+          },
+        },
+        {
+          id: "cie-ol-fl-pt-q15",
+          difficulty: "challenge",
+          totalMarks: 9,
+          stem: "Narrative voice.",
+          parts: [
+            { label: "a", prompt: "Define first-person narration.", marks: 1 },
+            { label: "b", prompt: "Contrast it with third-person limited.", marks: 2 },
+            { label: "c", prompt: "Explain how a narrator can be unreliable.", marks: 3 },
+            { label: "d", prompt: "Rewrite a sentence in two different voices.", marks: 3 },
+          ],
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "skill",
+                name: "Narrative voice",
+                statement: "Definition+contrast+unreliability+application.",
+              },
+            ],
+            steps: [
+              {
+                part: "a",
+                reasoning: "A character narrates using 'I'.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                part: "b",
+                reasoning: "First person = immediate 'I'; third limited = 'he/she' close to one mind.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                part: "b",
+                reasoning: "Clear contrast drawn.",
+                marks: 1,
+                markCode: "AO3",
+              },
+              {
+                part: "c",
+                reasoning: "Limited knowledge or biased perspective.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                part: "c",
+                reasoning: "Gap between what is said and what is true.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                part: "c",
+                reasoning: "Effect on the reader explained.",
+                marks: 1,
+                markCode: "AO3",
+              },
+              {
+                part: "d",
+                reasoning: "Two distinct voice rewrites.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                part: "d",
+                reasoning: "Voices clearly differentiated.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                part: "d",
+                reasoning: "Controlled and effective.",
+                marks: 1,
+                markCode: "AO3",
+              },
+            ],
+            finalAnswer:
+              "(a) 'I' narrator (b) immediate vs close third (c) limited/biased knowledge (d) two voices",
+            levels: [
+              { level: "Level 2", marks: "1", descriptor: "Correct.", part: "a" },
+              { level: "Level 1", marks: "0", descriptor: "Wrong.", part: "a" },
+              { level: "Level 2", marks: "1-2", descriptor: "Contrast clear.", part: "b" },
+              { level: "Level 1", marks: "0", descriptor: "None.", part: "b" },
+              { level: "Level 3", marks: "2-3", descriptor: "Unreliability explained.", part: "c" },
+              { level: "Level 2", marks: "1", descriptor: "Partial.", part: "c" },
+              { level: "Level 1", marks: "0", descriptor: "None.", part: "c" },
+              { level: "Level 3", marks: "2-3", descriptor: "Two distinct voices.", part: "d" },
+              { level: "Level 2", marks: "1", descriptor: "Attempted.", part: "d" },
+              { level: "Level 1", marks: "0", descriptor: "None.", part: "d" },
+            ],
+            commonErrors: ["Assuming narration is always truthful."],
+          },
+        },
+        {
+          id: "cie-ol-fl-pt-q16",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "Discuss how point of view shapes the reader's sympathy for characters.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "skill",
+                name: "POV and sympathy",
+                statement:
+                  "The chosen voice controls how close the reader feels to a character.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "First person creates intimacy and direct access to feelings.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "Third person can create distance or objectivity.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "The voice filters events through a particular perspective.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "Clear discussion.",
+                marks: 1,
+                markCode: "AO3",
+              },
+            ],
+            finalAnswer:
+              "POV controls intimacy and perspective, shaping how much sympathy the reader feels.",
+            commonErrors: ["Discussing POV without linking it to reader response."],
           },
         },
       ],

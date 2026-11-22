@@ -54,12 +54,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It suggests that Lennie has great physical strength but little awareness or control" },
-              { id: "b", text: "It suggests that Lennie is deliberately cruel and dangerous to others" },
-              { id: "c", text: "It suggests that Lennie is cleverer and more cunning than George" },
-              { id: "d", text: "It suggests that Lennie is a wild creature who does not need other people" },
+              { id: "a", text: "It suggests that Lennie is a wild creature who does not need other people" },
+              { id: "b", text: "It suggests that Lennie has great physical strength but little awareness or control" },
+              { id: "c", text: "It suggests that Lennie is deliberately cruel and dangerous to others" },
+              { id: "d", text: "It suggests that Lennie is cleverer and more cunning than George" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Animal imagery", statement: "Comparing a character with an animal conveys instinct, innocence or strength without human reasoning." }],
@@ -184,9 +184,9 @@ export const lesson11: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "To show that she is defined by her relationship to a man and has no identity of her own" },
-              { id: "b", text: "To show that the workers on the ranch do not like her" },
-              { id: "c", text: "To show that she is unimportant to the plot" },
-              { id: "d", text: "To make her seem mysterious and dangerous throughout the novel" },
+              { id: "b", text: "To make her seem mysterious and dangerous throughout the novel" },
+              { id: "c", text: "To show that the workers on the ranch do not like her" },
+              { id: "d", text: "To show that she is unimportant to the plot" },
             ],
             correctChoiceId: "a",
           },

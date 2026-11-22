@@ -93,15 +93,15 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "They have no d electrons" },
+              { id: "b", text: "Their atoms are very small" },
+              { id: "c", text: "They are all gases at room temperature" },
               {
-                id: "a",
+                id: "d",
                 text: "Their $(n-1)d$ and $ns$ subshells have similar energies, so different numbers of electrons can be lost",
               },
-              { id: "b", text: "They have no d electrons" },
-              { id: "c", text: "They are all gases at room temperature" },
-              { id: "d", text: "Their atoms are very small" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -338,12 +338,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Zinc" },
-              { id: "b", text: "Iron" },
+              { id: "a", text: "Scandium" },
+              { id: "b", text: "Zinc" },
               { id: "c", text: "Calcium" },
-              { id: "d", text: "Scandium" },
+              { id: "d", text: "Iron" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -382,12 +382,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "+2" },
+              { id: "a", text: "+7" },
               { id: "b", text: "+4" },
-              { id: "c", text: "+7" },
-              { id: "d", text: "+5" },
+              { id: "c", text: "+5" },
+              { id: "d", text: "+2" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -426,10 +426,10 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$[Ar]\\,4s^2 3d^3$" },
+              { id: "a", text: "$[Ar]\\,4s^2 3d^4$" },
               { id: "b", text: "$[Ar]\\,4s^1 3d^4$" },
               { id: "c", text: "$[Ar]\\,3d^5$" },
-              { id: "d", text: "$[Ar]\\,4s^2 3d^4$" },
+              { id: "d", text: "$[Ar]\\,4s^2 3d^3$" },
             ],
             correctChoiceId: "c",
           },
@@ -1049,15 +1049,15 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "Radioactive decay of the metal nucleus" },
+              { id: "b", text: "Fluorescence from the ligand molecules" },
+              { id: "c", text: "Reflection of all wavelengths equally" },
               {
-                id: "a",
+                id: "d",
                 text: "d-d transitions absorbing visible light as electrons move between split d orbitals",
               },
-              { id: "b", text: "Radioactive decay of the metal nucleus" },
-              { id: "c", text: "Fluorescence from the ligand molecules" },
-              { id: "d", text: "Reflection of all wavelengths equally" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1297,12 +1297,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$e_g$ ($d_{z^2}$, $d_{x^2-y^2}$)" },
-              { id: "b", text: "$t_{2g}$ ($d_{xy}$, $d_{xz}$, $d_{yz}$)" },
-              { id: "c", text: "All five d orbitals remain degenerate" },
-              { id: "d", text: "The $s$ and $p$ orbitals" },
+              { id: "a", text: "The $s$ and $p$ orbitals" },
+              { id: "b", text: "All five d orbitals remain degenerate" },
+              { id: "c", text: "$e_g$ ($d_{z^2}$, $d_{x^2-y^2}$)" },
+              { id: "d", text: "$t_{2g}$ ($d_{xy}$, $d_{xz}$, $d_{yz}$)" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1341,10 +1341,10 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Cl$^-$" },
+              { id: "a", text: "F$^-$" },
               { id: "b", text: "H$_2$O" },
               { id: "c", text: "CN$^-$" },
-              { id: "d", text: "F$^-$" },
+              { id: "d", text: "Cl$^-$" },
             ],
             correctChoiceId: "c",
           },
@@ -1385,12 +1385,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Orange" },
-              { id: "b", text: "Blue" },
-              { id: "c", text: "Red" },
-              { id: "d", text: "Green only" },
+              { id: "a", text: "Red" },
+              { id: "b", text: "Green only" },
+              { id: "c", text: "Blue" },
+              { id: "d", text: "Orange" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

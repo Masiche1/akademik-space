@@ -54,12 +54,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The divide separating adjacent drainage basins" },
-              { id: "b", text: "A lake formed in a glacial trough" },
+              { id: "a", text: "A lake formed in a glacial trough" },
+              { id: "b", text: "The divide separating adjacent drainage basins" },
               { id: "c", text: "The lowest point of a river" },
               { id: "d", text: "A type of wetland" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -153,12 +153,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The high ground separating adjacent basins" },
-              { id: "b", text: "The area of land drained by a river and its tributaries" },
-              { id: "c", text: "A lake formed by glacial erosion" },
-              { id: "d", text: "The tidal limit of an estuary" },
+              { id: "a", text: "A lake formed by glacial erosion" },
+              { id: "b", text: "The high ground separating adjacent basins" },
+              { id: "c", text: "The tidal limit of an estuary" },
+              { id: "d", text: "The area of land drained by a river and its tributaries" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -181,12 +181,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The colour of its water" },
-              { id: "b", text: "The pattern of discharge over time" },
-              { id: "c", text: "The speed of its fastest flood" },
-              { id: "d", text: "The depth of its channel" },
+              { id: "a", text: "The pattern of discharge over time" },
+              { id: "b", text: "The speed of its fastest flood" },
+              { id: "c", text: "The depth of its channel" },
+              { id: "d", text: "The colour of its water" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -209,12 +209,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Excess nitrogen and phosphorus triggering algal blooms" },
-              { id: "b", text: "Acid rain lowering the water's pH" },
+              { id: "a", text: "Acid rain lowering the water's pH" },
+              { id: "b", text: "Invasive fish species feeding on algae" },
               { id: "c", text: "Excessive dam construction upstream" },
-              { id: "d", text: "Invasive fish species feeding on algae" },
+              { id: "d", text: "Excess nitrogen and phosphorus triggering algal blooms" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -237,8 +237,8 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Glacial erosion" },
-              { id: "b", text: "A volcanic crater" },
+              { id: "a", text: "A volcanic crater" },
+              { id: "b", text: "Glacial erosion" },
               { id: "c", text: "A tectonic rift" },
               { id: "d", text: "A meander cutoff" },
             ],
@@ -265,12 +265,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Their channels are blocked by log jams" },
-              { id: "b", text: "Excessive abstraction and flow regulation consume the discharge" },
-              { id: "c", text: "They freeze solid each winter" },
-              { id: "d", text: "Their deltas have been mined away" },
+              { id: "a", text: "They freeze solid each winter" },
+              { id: "b", text: "Their deltas have been mined away" },
+              { id: "c", text: "Excessive abstraction and flow regulation consume the discharge" },
+              { id: "d", text: "Their channels are blocked by log jams" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -502,11 +502,11 @@ export const lesson12: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Building more dams on every river" },
-              { id: "b", text: "Coordinating water use across a whole basin" },
-              { id: "c", text: "Privatising all water supplies" },
+              { id: "b", text: "Privatising all water supplies" },
+              { id: "c", text: "Coordinating water use across a whole basin" },
               { id: "d", text: "Ignoring environmental flows" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -600,12 +600,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Levees and channelisation" },
-              { id: "b", text: "Wetland restoration" },
+              { id: "a", text: "Wetland restoration" },
+              { id: "b", text: "Levees and channelisation" },
               { id: "c", text: "Floodplain reconnection" },
               { id: "d", text: "Afforestation of the basin" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -628,10 +628,10 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "International Water Reuse Management" },
+              { id: "a", text: "Inland Water Retention Measure" },
               { id: "b", text: "Integrated Water Resources Management" },
-              { id: "c", text: "Irrigation and Wetland Restoration Method" },
-              { id: "d", text: "Inland Water Retention Measure" },
+              { id: "c", text: "International Water Reuse Management" },
+              { id: "d", text: "Irrigation and Wetland Restoration Method" },
             ],
             correctChoiceId: "b",
           },
@@ -656,10 +656,10 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Rare desert mammals" },
+              { id: "a", text: "Migratory bird species only" },
               { id: "b", text: "Internationally important wetlands" },
-              { id: "c", text: "Coral reefs exclusively" },
-              { id: "d", text: "Migratory bird species only" },
+              { id: "c", text: "Rare desert mammals" },
+              { id: "d", text: "Coral reefs exclusively" },
             ],
             correctChoiceId: "b",
           },
@@ -684,12 +684,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The minimum discharge needed to sustain freshwater ecosystems" },
-              { id: "b", text: "The maximum flood the channel can contain" },
-              { id: "c", text: "The flow required to fill a reservoir" },
-              { id: "d", text: "The irrigation demand of a basin" },
+              { id: "a", text: "The irrigation demand of a basin" },
+              { id: "b", text: "The flow required to fill a reservoir" },
+              { id: "c", text: "The maximum flood the channel can contain" },
+              { id: "d", text: "The minimum discharge needed to sustain freshwater ecosystems" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -712,12 +712,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Is too cheap to maintain" },
-              { id: "b", text: "Reduces habitat diversity and can increase flood risk downstream" },
-              { id: "c", text: "Requires no maintenance at all" },
+              { id: "a", text: "Reduces habitat diversity and can increase flood risk downstream" },
+              { id: "b", text: "Requires no maintenance at all" },
+              { id: "c", text: "Is too cheap to maintain" },
               { id: "d", text: "Only works in tropical climates" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

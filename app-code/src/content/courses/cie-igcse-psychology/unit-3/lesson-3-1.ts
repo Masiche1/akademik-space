@@ -108,12 +108,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The researcher deliberately manipulates" },
-              { id: "b", text: "Is measured as the outcome" },
-              { id: "c", text: "Cannot be controlled" },
-              { id: "d", text: "Is always extraneous" },
+              { id: "a", text: "Cannot be controlled" },
+              { id: "b", text: "Is always extraneous" },
+              { id: "c", text: "Is measured as the outcome" },
+              { id: "d", text: "The researcher deliberately manipulates" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -145,8 +145,8 @@ export const lesson31: Lesson = {
                 id: "a",
                 text: "The variable measured to see the effect of the IV",
               },
-              { id: "b", text: "The manipulated variable" },
-              { id: "c", text: "An uncontrolled variable" },
+              { id: "b", text: "An uncontrolled variable" },
+              { id: "c", text: "The manipulated variable" },
               { id: "d", text: "Always the same as the IV" },
             ],
             correctChoiceId: "a",
@@ -177,15 +177,15 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "The DV" },
               {
-                id: "a",
+                id: "b",
                 text: "Any variable other than the IV and DV that could affect results",
               },
-              { id: "b", text: "The IV" },
-              { id: "c", text: "The DV" },
+              { id: "c", text: "The IV" },
               { id: "d", text: "Always confounding" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -213,15 +213,15 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              {
-                id: "a",
-                text: "Systematically varies with the IV and affects the DV",
-              },
+              { id: "a", text: "Is the same as the DV" },
               { id: "b", text: "Is always controlled" },
               { id: "c", text: "Never affects results" },
-              { id: "d", text: "Is the same as the DV" },
+              {
+                id: "d",
+                text: "Systematically varies with the IV and affects the DV",
+              },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -250,12 +250,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Defining variables in measurable terms" },
-              { id: "b", text: "Operating the experiment" },
+              { id: "a", text: "Operating the experiment" },
+              { id: "b", text: "Using no variables" },
               { id: "c", text: "Measuring only once" },
-              { id: "d", text: "Using no variables" },
+              { id: "d", text: "Defining variables in measurable terms" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -283,15 +283,15 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "Using random questions" },
               {
-                id: "a",
+                id: "b",
                 text: "Assigning participants to conditions by chance",
               },
-              { id: "b", text: "Choosing participants randomly" },
               { id: "c", text: "Randomising the DV" },
-              { id: "d", text: "Using random questions" },
+              { id: "d", text: "Choosing participants randomly" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -319,12 +319,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Order effects such as practice and fatigue" },
+              { id: "a", text: "Sampling bias" },
               { id: "b", text: "Participant variables" },
               { id: "c", text: "Demand characteristics" },
-              { id: "d", text: "Sampling bias" },
+              { id: "d", text: "Order effects such as practice and fatigue" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -352,15 +352,15 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "Participants refuse to take part" },
               {
-                id: "a",
+                id: "b",
                 text: "Cues reveal the hypothesis and change participants' behaviour",
               },
-              { id: "b", text: "Participants demand payment" },
               { id: "c", text: "The DV is measured" },
-              { id: "d", text: "Participants refuse to take part" },
+              { id: "d", text: "Participants demand payment" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -388,15 +388,15 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "The IV affecting the DV" },
+              { id: "b", text: "Random allocation" },
               {
-                id: "a",
+                id: "c",
                 text: "The researcher's expectations influencing results",
               },
-              { id: "b", text: "Participants influencing each other" },
-              { id: "c", text: "The IV affecting the DV" },
-              { id: "d", text: "Random allocation" },
+              { id: "d", text: "Participants influencing each other" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -571,12 +571,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Repeated measures" },
-              { id: "b", text: "Independent groups" },
-              { id: "c", text: "Case study" },
+              { id: "a", text: "Case study" },
+              { id: "b", text: "Repeated measures" },
+              { id: "c", text: "Independent groups" },
               { id: "d", text: "Survey" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -637,9 +637,9 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Participant variables" },
-              { id: "b", text: "Order effects" },
-              { id: "c", text: "Demand characteristics" },
-              { id: "d", text: "Sampling bias" },
+              { id: "b", text: "Sampling bias" },
+              { id: "c", text: "Order effects" },
+              { id: "d", text: "Demand characteristics" },
             ],
             correctChoiceId: "a",
           },
@@ -784,12 +784,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Independent variable" },
+              { id: "a", text: "Extraneous variable" },
               { id: "b", text: "Dependent variable" },
-              { id: "c", text: "Extraneous variable" },
+              { id: "c", text: "Independent variable" },
               { id: "d", text: "Confounding variable" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -929,12 +929,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "What is measured" },
+              { id: "a", text: "Always controlled" },
               { id: "b", text: "What is manipulated" },
               { id: "c", text: "Always extraneous" },
-              { id: "d", text: "Always controlled" },
+              { id: "d", text: "What is measured" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1029,12 +1029,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Independent groups" },
-              { id: "b", text: "Repeated measures" },
-              { id: "c", text: "Matched pairs" },
-              { id: "d", text: "Case study" },
+              { id: "a", text: "Matched pairs" },
+              { id: "b", text: "Independent groups" },
+              { id: "c", text: "Case study" },
+              { id: "d", text: "Repeated measures" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1216,12 +1216,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "An equal chance of selection" },
-              { id: "b", text: "A guaranteed place" },
-              { id: "c", text: "To volunteer" },
-              { id: "d", text: "To be chosen" },
+              { id: "a", text: "A guaranteed place" },
+              { id: "b", text: "An equal chance of selection" },
+              { id: "c", text: "To be chosen" },
+              { id: "d", text: "To volunteer" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1249,12 +1249,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Guarantee representation of subgroups" },
+              { id: "a", text: "Select by convenience" },
               { id: "b", text: "Avoid needing a sampling frame" },
-              { id: "c", text: "Select by convenience" },
+              { id: "c", text: "Guarantee representation of subgroups" },
               { id: "d", text: "Recruit through contacts" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1282,12 +1282,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Using whoever is readily available" },
-              { id: "b", text: "Random selection" },
-              { id: "c", text: "Stratified selection" },
-              { id: "d", text: "Volunteer recruitment" },
+              { id: "a", text: "Stratified selection" },
+              { id: "b", text: "Volunteer recruitment" },
+              { id: "c", text: "Random selection" },
+              { id: "d", text: "Using whoever is readily available" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1315,15 +1315,15 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "It guarantees representativeness" },
+              { id: "b", text: "It uses random selection" },
+              { id: "c", text: "It needs no sampling frame" },
               {
-                id: "a",
+                id: "d",
                 text: "Participants self-select and may differ from the population",
               },
-              { id: "b", text: "It uses random selection" },
-              { id: "c", text: "It guarantees representativeness" },
-              { id: "d", text: "It needs no sampling frame" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1352,12 +1352,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Hidden or hard-to-reach groups" },
-              { id: "b", text: "Large populations" },
-              { id: "c", text: "Official statistics" },
-              { id: "d", text: "Random samples" },
+              { id: "a", text: "Large populations" },
+              { id: "b", text: "Random samples" },
+              { id: "c", text: "Hidden or hard-to-reach groups" },
+              { id: "d", text: "Official statistics" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1386,15 +1386,15 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "Finding the middle value" },
               {
-                id: "a",
+                id: "b",
                 text: "Adding all values and dividing by the number of values",
               },
-              { id: "b", text: "Finding the middle value" },
               { id: "c", text: "Finding the most frequent value" },
               { id: "d", text: "Multiplying values" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1423,9 +1423,9 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "The middle value when data is ordered" },
-              { id: "b", text: "The most frequent value" },
-              { id: "c", text: "The sum of values" },
-              { id: "d", text: "The largest value" },
+              { id: "b", text: "The largest value" },
+              { id: "c", text: "The most frequent value" },
+              { id: "d", text: "The sum of values" },
             ],
             correctChoiceId: "a",
           },
@@ -1455,12 +1455,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The most frequently occurring value" },
-              { id: "b", text: "The middle value" },
-              { id: "c", text: "The average" },
-              { id: "d", text: "The range" },
+              { id: "a", text: "The range" },
+              { id: "b", text: "The average" },
+              { id: "c", text: "The middle value" },
+              { id: "d", text: "The most frequently occurring value" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1488,15 +1488,15 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "Descriptive text" },
+              { id: "b", text: "Observations only" },
+              { id: "c", text: "Interview transcripts" },
               {
-                id: "a",
+                id: "d",
                 text: "Numerical data that can be statistically analysed",
               },
-              { id: "b", text: "Descriptive text" },
-              { id: "c", text: "Interview transcripts" },
-              { id: "d", text: "Observations only" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1666,12 +1666,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Mean" },
-              { id: "b", text: "Median" },
-              { id: "c", text: "Mode" },
-              { id: "d", text: "Range" },
+              { id: "a", text: "Median" },
+              { id: "b", text: "Range" },
+              { id: "c", text: "Mean" },
+              { id: "d", text: "Mode" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1730,12 +1730,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Snowball" },
-              { id: "b", text: "Random" },
-              { id: "c", text: "Stratified" },
-              { id: "d", text: "Systematic" },
+              { id: "a", text: "Systematic" },
+              { id: "b", text: "Stratified" },
+              { id: "c", text: "Random" },
+              { id: "d", text: "Snowball" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1877,9 +1877,9 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Mode" },
-              { id: "b", text: "Mean" },
-              { id: "c", text: "Median" },
-              { id: "d", text: "Range" },
+              { id: "b", text: "Range" },
+              { id: "c", text: "Mean" },
+              { id: "d", text: "Median" },
             ],
             correctChoiceId: "a",
           },
@@ -2019,12 +2019,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Interview transcripts" },
-              { id: "b", text: "Test scores" },
-              { id: "c", text: "Reaction times" },
-              { id: "d", text: "Heart rates" },
+              { id: "a", text: "Heart rates" },
+              { id: "b", text: "Reaction times" },
+              { id: "c", text: "Test scores" },
+              { id: "d", text: "Interview transcripts" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -2120,12 +2120,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Random" },
-              { id: "b", text: "Convenience" },
+              { id: "a", text: "Convenience" },
+              { id: "b", text: "Volunteer" },
               { id: "c", text: "Snowball" },
-              { id: "d", text: "Volunteer" },
+              { id: "d", text: "Random" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

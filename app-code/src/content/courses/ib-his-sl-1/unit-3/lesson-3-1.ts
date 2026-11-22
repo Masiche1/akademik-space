@@ -87,15 +87,15 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A treaty banning nuclear weapons" },
+              { id: "a", text: "A disarmament conference" },
+              { id: "b", text: "A missile defence system" },
               {
-                id: "b",
+                id: "c",
                 text: "The doctrine that nuclear war would destroy both sides",
               },
-              { id: "c", text: "A missile defence system" },
-              { id: "d", text: "A disarmament conference" },
+              { id: "d", text: "A treaty banning nuclear weapons" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -322,12 +322,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "1941" },
-              { id: "b", text: "1945" },
+              { id: "a", text: "1953" },
+              { id: "b", text: "1941" },
               { id: "c", text: "1949" },
-              { id: "d", text: "1953" },
+              { id: "d", text: "1945" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -362,10 +362,10 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "All environments including underground" },
+              { id: "a", text: "Only the Pacific Ocean" },
               { id: "b", text: "The atmosphere, outer space and underwater" },
-              { id: "c", text: "Only underground facilities" },
-              { id: "d", text: "Only the Pacific Ocean" },
+              { id: "c", text: "All environments including underground" },
+              { id: "d", text: "Only underground facilities" },
             ],
             correctChoiceId: "b",
           },
@@ -404,12 +404,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "International Committee for Missile Ban" },
-              { id: "b", text: "Intercontinental ballistic missile" },
-              { id: "c", text: "Immediate crisis management bureau" },
-              { id: "d", text: "Intermediate coastal bombardment missile" },
+              { id: "a", text: "Intermediate coastal bombardment missile" },
+              { id: "b", text: "Immediate crisis management bureau" },
+              { id: "c", text: "International Committee for Missile Ban" },
+              { id: "d", text: "Intercontinental ballistic missile" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -445,10 +445,10 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The Berlin Blockade" },
+              { id: "a", text: "The Prague Spring" },
               { id: "b", text: "The Cuban Missile Crisis" },
-              { id: "c", text: "The Korean War" },
-              { id: "d", text: "The Prague Spring" },
+              { id: "c", text: "The Berlin Blockade" },
+              { id: "d", text: "The Korean War" },
             ],
             correctChoiceId: "b",
           },
@@ -489,11 +489,11 @@ export const lesson31: Lesson = {
             choices: [
               {
                 id: "a",
-                text: "It encouraged both sides to fight proxy wars instead",
+                text: "Mutual vulnerability made any first strike suicidal, deterring direct nuclear war",
               },
               {
                 id: "b",
-                text: "Mutual vulnerability made any first strike suicidal, deterring direct nuclear war",
+                text: "It encouraged both sides to fight proxy wars instead",
               },
               {
                 id: "c",
@@ -501,7 +501,7 @@ export const lesson31: Lesson = {
               },
               { id: "d", text: "It forced immediate disarmament" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -984,13 +984,13 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A US invasion of Cuba" },
+              { id: "a", text: "The fall of the Berlin Wall" },
               {
                 id: "b",
                 text: "Czechoslovakia's liberalisation crushed by Soviet invasion",
               },
               { id: "c", text: "The start of the Vietnam War" },
-              { id: "d", text: "The fall of the Berlin Wall" },
+              { id: "d", text: "A US invasion of Cuba" },
             ],
             correctChoiceId: "b",
           },
@@ -1214,12 +1214,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The 38th parallel" },
-              { id: "b", text: "The 17th parallel" },
-              { id: "c", text: "The Mekong River" },
-              { id: "d", text: "The DMZ at the Yalu" },
+              { id: "a", text: "The DMZ at the Yalu" },
+              { id: "b", text: "The Mekong River" },
+              { id: "c", text: "The 38th parallel" },
+              { id: "d", text: "The 17th parallel" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1257,14 +1257,14 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Won the war for North Vietnam" },
+              { id: "b", text: "Ended French involvement" },
               {
-                id: "b",
+                id: "c",
                 text: "Turned US public opinion decisively against the war",
               },
-              { id: "c", text: "Destroyed the US air force" },
-              { id: "d", text: "Ended French involvement" },
+              { id: "d", text: "Destroyed the US air force" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1303,15 +1303,15 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The Vietnamese resistance" },
+              { id: "a", text: "The Hungarian uprising of 1956" },
+              { id: "b", text: "The Vietnamese resistance" },
+              { id: "c", text: "The Polish Solidarity movement" },
               {
-                id: "b",
+                id: "d",
                 text: "Czechoslovakia's 'socialism with a human face' reform movement",
               },
-              { id: "c", text: "The Polish Solidarity movement" },
-              { id: "d", text: "The Hungarian uprising of 1956" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1352,19 +1352,19 @@ export const lesson31: Lesson = {
             choices: [
               {
                 id: "a",
-                text: "The USSR would never intervene in Eastern Europe",
-              },
-              {
-                id: "b",
                 text: "The USSR would intervene to preserve communism in its sphere of influence",
               },
               {
-                id: "c",
+                id: "b",
                 text: "Eastern Europe could leave the Warsaw Pact freely",
               },
-              { id: "d", text: "The USSR would reunite Germany" },
+              { id: "c", text: "The USSR would reunite Germany" },
+              {
+                id: "d",
+                text: "The USSR would never intervene in Eastern Europe",
+              },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -1403,15 +1403,15 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The US had insufficient troops" },
               {
-                id: "b",
+                id: "a",
                 text: "Guerrilla tactics and terrain neutralised US firepower, while domestic opposition eroded political will",
               },
-              { id: "c", text: "The USSR directly fought US forces" },
-              { id: "d", text: "Vietnam had nuclear weapons" },
+              { id: "b", text: "The US had insufficient troops" },
+              { id: "c", text: "Vietnam had nuclear weapons" },
+              { id: "d", text: "The USSR directly fought US forces" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

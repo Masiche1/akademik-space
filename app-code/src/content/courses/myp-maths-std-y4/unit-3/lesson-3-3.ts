@@ -59,12 +59,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "11" },
+              { id: "a", text: "10" },
               { id: "b", text: "9" },
-              { id: "c", text: "10" },
+              { id: "c", text: "11" },
               { id: "d", text: "19" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -86,12 +86,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "4.5" },
+              { id: "a", text: "4" },
               { id: "b", text: "5" },
-              { id: "c", text: "4" },
+              { id: "c", text: "4.5" },
               { id: "d", text: "5.5" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -114,12 +114,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Positive correlation — hotter weather increases sales" },
-              { id: "b", text: "Negative correlation — hotter weather decreases sales" },
+              { id: "a", text: "Negative correlation — more ice cream causes heat" },
+              { id: "b", text: "Positive correlation — hotter weather increases sales" },
               { id: "c", text: "No correlation" },
-              { id: "d", text: "Negative correlation — more ice cream causes heat" },
+              { id: "d", text: "Negative correlation — hotter weather decreases sales" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -174,12 +174,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "6" },
-              { id: "b", text: "8" },
-              { id: "c", text: "12" },
-              { id: "d", text: "5" },
+              { id: "a", text: "12" },
+              { id: "b", text: "5" },
+              { id: "c", text: "8" },
+              { id: "d", text: "6" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -222,9 +222,9 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "5" },
+              { id: "a", text: "7" },
               { id: "b", text: "6" },
-              { id: "c", text: "7" },
+              { id: "c", text: "5" },
               { id: "d", text: "8" },
             ],
             correctChoiceId: "b",
@@ -273,11 +273,11 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "3" },
-              { id: "b", text: "4" },
+              { id: "b", text: "7" },
               { id: "c", text: "4.5" },
-              { id: "d", text: "7" },
+              { id: "d", text: "4" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -300,12 +300,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Negative correlation — colder weather reduces sales" },
-              { id: "b", text: "Positive correlation — more days means more sales" },
+              { id: "a", text: "Positive correlation — more days means more sales" },
+              { id: "b", text: "Negative correlation — colder weather reduces sales" },
               { id: "c", text: "No correlation" },
               { id: "d", text: "Positive correlation — ice cream causes frost" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -446,12 +446,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$n$" },
-              { id: "b", text: "$\\frac{n}{2}$" },
+              { id: "a", text: "$\\frac{3n}{4}$" },
+              { id: "b", text: "$n$" },
               { id: "c", text: "$\\frac{n}{4}$" },
-              { id: "d", text: "$\\frac{3n}{4}$" },
+              { id: "d", text: "$\\frac{n}{2}$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -507,12 +507,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\frac{1}{4}$" },
+              { id: "a", text: "$\\frac{3}{4}$" },
               { id: "b", text: "$\\frac{1}{2}$" },
-              { id: "c", text: "$\\frac{1}{8}$" },
-              { id: "d", text: "$\\frac{3}{4}$" },
+              { id: "c", text: "$\\frac{1}{4}$" },
+              { id: "d", text: "$\\frac{1}{8}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -534,12 +534,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\frac{3}{8}$" },
-              { id: "b", text: "$\\frac{5}{8}$" },
+              { id: "a", text: "$\\frac{5}{8}$" },
+              { id: "b", text: "$\\frac{1}{3}$" },
               { id: "c", text: "$\\frac{3}{5}$" },
-              { id: "d", text: "$\\frac{1}{3}$" },
+              { id: "d", text: "$\\frac{3}{8}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -562,12 +562,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\frac{1}{6}$" },
+              { id: "a", text: "$\\frac{1}{9}$" },
               { id: "b", text: "$\\frac{1}{12}$" },
-              { id: "c", text: "$\\frac{7}{36}$" },
-              { id: "d", text: "$\\frac{1}{9}$" },
+              { id: "c", text: "$\\frac{1}{6}$" },
+              { id: "d", text: "$\\frac{7}{36}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -622,12 +622,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\frac{1}{6}$" },
-              { id: "b", text: "$\\frac{1}{2}$" },
-              { id: "c", text: "$\\frac{1}{3}$" },
-              { id: "d", text: "$\\frac{2}{3}$" },
+              { id: "a", text: "$\\frac{1}{3}$" },
+              { id: "b", text: "$\\frac{1}{6}$" },
+              { id: "c", text: "$\\frac{2}{3}$" },
+              { id: "d", text: "$\\frac{1}{2}$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -670,10 +670,10 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\frac{1}{4}$" },
+              { id: "a", text: "$\\frac{2}{3}$" },
               { id: "b", text: "$\\frac{1}{2}$" },
               { id: "c", text: "$\\frac{3}{4}$" },
-              { id: "d", text: "$\\frac{2}{3}$" },
+              { id: "d", text: "$\\frac{1}{4}$" },
             ],
             correctChoiceId: "c",
           },
@@ -722,8 +722,8 @@ export const lesson33: Lesson = {
             choices: [
               { id: "a", text: "$\\frac{1}{18}$" },
               { id: "b", text: "$\\frac{1}{36}$" },
-              { id: "c", text: "$\\frac{2}{36}$" },
-              { id: "d", text: "$\\frac{1}{12}$" },
+              { id: "c", text: "$\\frac{1}{12}$" },
+              { id: "d", text: "$\\frac{2}{36}$" },
             ],
             correctChoiceId: "a",
           },

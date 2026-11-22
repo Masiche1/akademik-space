@@ -55,12 +55,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Lithium oxide and hydrogen" },
-              { id: "b", text: "Lithium hydroxide and hydrogen" },
+              { id: "a", text: "Lithium chloride and hydrogen" },
+              { id: "b", text: "Lithium oxide and hydrogen" },
               { id: "c", text: "Lithium hydroxide and oxygen" },
-              { id: "d", text: "Lithium chloride and hydrogen" },
+              { id: "d", text: "Lithium hydroxide and hydrogen" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -190,12 +190,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$21\\%$" },
-              { id: "b", text: "$50\\%$" },
-              { id: "c", text: "$78\\%$" },
-              { id: "d", text: "$99\\%$" },
+              { id: "a", text: "$99\\%$" },
+              { id: "b", text: "$21\\%$" },
+              { id: "c", text: "$50\\%$" },
+              { id: "d", text: "$78\\%$" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [

@@ -56,12 +56,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "is" },
-              { id: "b", text: "are" },
+              { id: "a", text: "are" },
+              { id: "b", text: "has" },
               { id: "c", text: "am" },
-              { id: "d", text: "has" },
+              { id: "d", text: "is" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -151,12 +151,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "is" },
-              { id: "b", text: "am" },
+              { id: "a", text: "am" },
+              { id: "b", text: "is" },
               { id: "c", text: "are" },
               { id: "d", text: "has" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -178,10 +178,10 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "have" },
+              { id: "a", text: "are" },
               { id: "b", text: "has" },
               { id: "c", text: "am" },
-              { id: "d", text: "are" },
+              { id: "d", text: "have" },
             ],
             correctChoiceId: "b",
           },
@@ -247,12 +247,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "They is friends." },
-              { id: "b", text: "They are friends." },
-              { id: "c", text: "They am friends." },
-              { id: "d", text: "They has friends." },
+              { id: "a", text: "They am friends." },
+              { id: "b", text: "They is friends." },
+              { id: "c", text: "They has friends." },
+              { id: "d", text: "They are friends." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -274,12 +274,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "She not is happy." },
-              { id: "b", text: "She is not happy." },
-              { id: "c", text: "She not happy." },
-              { id: "d", text: "Is she not happy is." },
+              { id: "a", text: "Is she not happy is." },
+              { id: "b", text: "She not is happy." },
+              { id: "c", text: "She is not happy." },
+              { id: "d", text: "She not happy." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -352,12 +352,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It starts with 'Are' before the subject" },
-              { id: "b", text: "It ends with a full stop" },
-              { id: "c", text: "It uses 'you'" },
-              { id: "d", text: "It has no verb" },
+              { id: "a", text: "It ends with a full stop" },
+              { id: "b", text: "It has no verb" },
+              { id: "c", text: "It starts with 'Are' before the subject" },
+              { id: "d", text: "It uses 'you'" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -385,12 +385,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "He has a pen" },
-              { id: "b", text: "He wants a pen" },
-              { id: "c", text: "He lost his pen" },
+              { id: "a", text: "He lost his pen" },
+              { id: "b", text: "He has a pen" },
+              { id: "c", text: "He wants a pen" },
               { id: "d", text: "He is a pen" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -501,12 +501,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "She play tennis every week." },
-              { id: "b", text: "She plays tennis every week." },
-              { id: "c", text: "She playing tennis every week." },
-              { id: "d", text: "She playings tennis every week." },
+              { id: "a", text: "She plays tennis every week." },
+              { id: "b", text: "She playings tennis every week." },
+              { id: "c", text: "She play tennis every week." },
+              { id: "d", text: "She playing tennis every week." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -599,11 +599,11 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "play" },
-              { id: "b", text: "plays" },
-              { id: "c", text: "playing" },
+              { id: "b", text: "playing" },
+              { id: "c", text: "plays" },
               { id: "d", text: "played" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -625,12 +625,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Yesterday" },
-              { id: "b", text: "Every day" },
-              { id: "c", text: "Last week" },
-              { id: "d", text: "Tomorrow" },
+              { id: "a", text: "Tomorrow" },
+              { id: "b", text: "Last week" },
+              { id: "c", text: "Every day" },
+              { id: "d", text: "Yesterday" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -700,12 +700,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "She plays tennis?" },
-              { id: "b", text: "Does she play tennis?" },
-              { id: "c", text: "Do she plays tennis?" },
-              { id: "d", text: "She does play tennis?" },
+              { id: "a", text: "She does play tennis?" },
+              { id: "b", text: "Do she plays tennis?" },
+              { id: "c", text: "She plays tennis?" },
+              { id: "d", text: "Does she play tennis?" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -728,11 +728,11 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "He don't like milk." },
-              { id: "b", text: "He doesn't like milk." },
-              { id: "c", text: "He not like milk." },
-              { id: "d", text: "He doesn't likes milk." },
+              { id: "b", text: "He not like milk." },
+              { id: "c", text: "He doesn't likes milk." },
+              { id: "d", text: "He doesn't like milk." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -806,8 +806,8 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Because 'she' is singular third person and 'watch' ends in -ch" },
-              { id: "b", text: "Because TV is plural" },
-              { id: "c", text: "Because 'evening' needs -es" },
+              { id: "b", text: "Because 'evening' needs -es" },
+              { id: "c", text: "Because TV is plural" },
               { id: "d", text: "There is no reason" },
             ],
             correctChoiceId: "a",
@@ -838,10 +838,10 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Pizza" },
+              { id: "a", text: "Nothing" },
               { id: "b", text: "Pasta" },
-              { id: "c", text: "Both equally" },
-              { id: "d", text: "Nothing" },
+              { id: "c", text: "Pizza" },
+              { id: "d", text: "Both equally" },
             ],
             correctChoiceId: "b",
           },

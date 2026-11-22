@@ -70,9 +70,9 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Acute" },
+              { id: "a", text: "Right" },
               { id: "b", text: "Obtuse" },
-              { id: "c", text: "Right" },
+              { id: "c", text: "Acute" },
               { id: "d", text: "Straight" },
             ],
             correctChoiceId: "b",
@@ -305,12 +305,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "▲" },
+              { id: "a", text: "●" },
               { id: "b", text: "■" },
-              { id: "c", text: "●" },
-              { id: "d", text: "◆" },
+              { id: "c", text: "◆" },
+              { id: "d", text: "▲" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

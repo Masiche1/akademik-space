@@ -52,10 +52,10 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "the dog" },
+              { id: "a", text: "a dog and cat" },
               { id: "b", text: "the big brown dog" },
               { id: "c", text: "dog runs" },
-              { id: "d", text: "a dog and cat" },
+              { id: "d", text: "the dog" },
             ],
             correctChoiceId: "b",
           },
@@ -82,12 +82,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "a cake" },
-              { id: "b", text: "a big cake" },
-              { id: "c", text: "a big chocolate cake" },
-              { id: "d", text: "cake is nice" },
+              { id: "a", text: "a big cake" },
+              { id: "b", text: "a cake" },
+              { id: "c", text: "cake is nice" },
+              { id: "d", text: "a big chocolate cake" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -235,12 +235,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "After every word" },
-              { id: "b", text: "Between list items" },
-              { id: "c", text: "At the start" },
-              { id: "d", text: "Nowhere" },
+              { id: "a", text: "Between list items" },
+              { id: "b", text: "Nowhere" },
+              { id: "c", text: "After every word" },
+              { id: "d", text: "At the start" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -265,12 +265,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The dogs bone" },
-              { id: "b", text: "The dog's bone" },
+              { id: "a", text: "The dog bone" },
+              { id: "b", text: "The dogs bone" },
               { id: "c", text: "The dogs' bone" },
-              { id: "d", text: "The dog bone" },
+              { id: "d", text: "The dog's bone" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

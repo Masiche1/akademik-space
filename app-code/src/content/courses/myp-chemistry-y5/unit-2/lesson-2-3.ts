@@ -58,12 +58,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Anode to cathode" },
-              { id: "b", text: "Cathode to anode" },
-              { id: "c", text: "Salt bridge to anode" },
-              { id: "d", text: "Solution to solution" },
+              { id: "a", text: "Cathode to anode" },
+              { id: "b", text: "Solution to solution" },
+              { id: "c", text: "Anode to cathode" },
+              { id: "d", text: "Salt bridge to anode" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -86,9 +86,9 @@ export const lesson23: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Completes the circuit and maintains charge balance by allowing ion flow" },
-              { id: "b", text: "Increases the voltage" },
+              { id: "b", text: "Cools the cell" },
               { id: "c", text: "Provides the reactants" },
-              { id: "d", text: "Cools the cell" },
+              { id: "d", text: "Increases the voltage" },
             ],
             correctChoiceId: "a",
           },
@@ -113,12 +113,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Zn is oxidised; Cu²⁺ is reduced; Cu²⁺ is the oxidising agent" },
-              { id: "b", text: "Cu²⁺ is oxidised; Zn is reduced; Zn is the oxidising agent" },
-              { id: "c", text: "Both are oxidised" },
-              { id: "d", text: "No redox occurs" },
+              { id: "a", text: "Both are oxidised" },
+              { id: "b", text: "Zn is oxidised; Cu²⁺ is reduced; Cu²⁺ is the oxidising agent" },
+              { id: "c", text: "No redox occurs" },
+              { id: "d", text: "Cu²⁺ is oxidised; Zn is reduced; Zn is the oxidising agent" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -173,12 +173,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Oxidation occurs and electrons are released" },
-              { id: "b", text: "Reduction occurs and electrons are gained" },
-              { id: "c", text: "No reaction occurs" },
+              { id: "a", text: "Reduction occurs and electrons are gained" },
+              { id: "b", text: "No reaction occurs" },
+              { id: "c", text: "Oxidation occurs and electrons are released" },
               { id: "d", text: "The salt bridge is located" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -221,12 +221,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Cu²⁺ + 2e⁻ → Cu" },
-              { id: "b", text: "Cu → Cu²⁺ + 2e⁻" },
+              { id: "a", text: "Cu → Cu²⁺ + 2e⁻" },
+              { id: "b", text: "Cu + 2e⁻ → Cu²⁺" },
               { id: "c", text: "Cu²⁺ → Cu + 2e⁻" },
-              { id: "d", text: "Cu + 2e⁻ → Cu²⁺" },
+              { id: "d", text: "Cu²⁺ + 2e⁻ → Cu" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -271,12 +271,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Fe — it is oxidised (loses electrons)" },
+              { id: "a", text: "No reducing agent exists" },
               { id: "b", text: "Cu²⁺ — it is reduced" },
               { id: "c", text: "Cu — the product" },
-              { id: "d", text: "No reducing agent exists" },
+              { id: "d", text: "Fe — it is oxidised (loses electrons)" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -321,12 +321,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Zinc is more reactive than iron, so it is oxidised preferentially — it corrodes instead of the iron, which is protected" },
-              { id: "b", text: "Zinc makes iron magnetic" },
-              { id: "c", text: "Zinc seals the surface completely" },
-              { id: "d", text: "Zinc lowers the iron's density" },
+              { id: "a", text: "Zinc makes iron magnetic" },
+              { id: "b", text: "Zinc is more reactive than iron, so it is oxidised preferentially — it corrodes instead of the iron, which is protected" },
+              { id: "c", text: "Zinc lowers the iron's density" },
+              { id: "d", text: "Zinc seals the surface completely" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -373,12 +373,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Mg is more reactive than Zn, so the difference in reactivity (electrode potential) between the two metals is greater → higher voltage" },
+              { id: "a", text: "Voltage is always the same" },
               { id: "b", text: "Mg is heavier" },
               { id: "c", text: "Cu reacts differently" },
-              { id: "d", text: "Voltage is always the same" },
+              { id: "d", text: "Mg is more reactive than Zn, so the difference in reactivity (electrode potential) between the two metals is greater → higher voltage" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -499,12 +499,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Positive ions (cations)" },
-              { id: "b", text: "Negative ions (anions)" },
+              { id: "a", text: "Negative ions (anions)" },
+              { id: "b", text: "Positive ions (cations)" },
               { id: "c", text: "Neutral atoms" },
               { id: "d", text: "Electrons only" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -526,12 +526,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Lead metal" },
+              { id: "a", text: "Hydrogen gas" },
               { id: "b", text: "Bromine gas" },
               { id: "c", text: "Oxygen gas" },
-              { id: "d", text: "Hydrogen gas" },
+              { id: "d", text: "Lead metal" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -555,9 +555,9 @@ export const lesson23: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Cathode: H₂; anode: Cl₂" },
-              { id: "b", text: "Cathode: Na; anode: O₂" },
+              { id: "b", text: "Cathode: O₂; anode: Cl₂" },
               { id: "c", text: "Cathode: Cl₂; anode: H₂" },
-              { id: "d", text: "Cathode: O₂; anode: Cl₂" },
+              { id: "d", text: "Cathode: Na; anode: O₂" },
             ],
             correctChoiceId: "a",
           },
@@ -614,12 +614,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Copper metal deposits" },
-              { id: "b", text: "Oxygen gas" },
+              { id: "a", text: "Oxygen gas" },
+              { id: "b", text: "Copper metal deposits" },
               { id: "c", text: "Hydrogen gas" },
               { id: "d", text: "Sulphur dioxide" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -662,12 +662,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Cathode: Na metal; anode: Cl₂ gas" },
-              { id: "b", text: "Cathode: Cl₂; anode: Na" },
-              { id: "c", text: "Cathode: H₂; anode: O₂" },
-              { id: "d", text: "Both electrodes produce NaCl" },
+              { id: "a", text: "Cathode: Cl₂; anode: Na" },
+              { id: "b", text: "Cathode: Na metal; anode: Cl₂ gas" },
+              { id: "c", text: "Both electrodes produce NaCl" },
+              { id: "d", text: "Cathode: H₂; anode: O₂" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -712,12 +712,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Na⁺ is a very reactive metal — H⁺/water is preferentially reduced instead" },
-              { id: "b", text: "Sodium cannot form ions" },
-              { id: "c", text: "Hydrogen is lighter" },
-              { id: "d", text: "The cathode attracts water only" },
+              { id: "a", text: "The cathode attracts water only" },
+              { id: "b", text: "Hydrogen is lighter" },
+              { id: "c", text: "Sodium cannot form ions" },
+              { id: "d", text: "Na⁺ is a very reactive metal — H⁺/water is preferentially reduced instead" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -763,8 +763,8 @@ export const lesson23: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Halides are preferentially discharged → halogen gas; only when no halide is present does OH⁻ → O₂" },
-              { id: "b", text: "OH⁻ always wins" },
-              { id: "c", text: "Both discharge equally" },
+              { id: "b", text: "Both discharge equally" },
+              { id: "c", text: "OH⁻ always wins" },
               { id: "d", text: "Neither discharges" },
             ],
             correctChoiceId: "a",
@@ -814,12 +814,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Impure Cu is the anode and dissolves; pure Cu deposits at the cathode, leaving impurities behind" },
-              { id: "b", text: "Copper is evaporated and condensed" },
-              { id: "c", text: "Impurities are filtered out" },
-              { id: "d", text: "Copper is melted and cast" },
+              { id: "a", text: "Impurities are filtered out" },
+              { id: "b", text: "Copper is melted and cast" },
+              { id: "c", text: "Copper is evaporated and condensed" },
+              { id: "d", text: "Impure Cu is the anode and dissolves; pure Cu deposits at the cathode, leaving impurities behind" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

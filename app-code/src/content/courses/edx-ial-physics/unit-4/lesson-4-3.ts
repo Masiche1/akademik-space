@@ -78,12 +78,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Maximum force" },
+              { id: "a", text: "No force" },
               { id: "b", text: "Half the maximum force" },
-              { id: "c", text: "No force" },
-              { id: "d", text: "Force opposite to its motion" },
+              { id: "c", text: "Force opposite to its motion" },
+              { id: "d", text: "Maximum force" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -334,12 +334,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Proton" },
+              { id: "a", text: "Muon" },
               { id: "b", text: "Pion" },
-              { id: "c", text: "Muon" },
-              { id: "d", text: "Neutron" },
+              { id: "c", text: "Neutron" },
+              { id: "d", text: "Proton" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [

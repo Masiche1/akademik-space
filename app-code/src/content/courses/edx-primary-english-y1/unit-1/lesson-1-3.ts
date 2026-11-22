@@ -61,12 +61,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "/d/" },
-              { id: "b", text: "/o/" },
+              { id: "a", text: "/o/" },
+              { id: "b", text: "/d/" },
               { id: "c", text: "/g/" },
               { id: "d", text: "/t/" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -91,12 +91,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "cat" },
-              { id: "b", text: "sock" },
+              { id: "a", text: "sock" },
+              { id: "b", text: "pig" },
               { id: "c", text: "dog" },
-              { id: "d", text: "pig" },
+              { id: "d", text: "cat" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -216,11 +216,11 @@ export const lesson13: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "dog" },
-              { id: "b", text: "hat" },
-              { id: "c", text: "sun" },
-              { id: "d", text: "pig" },
+              { id: "b", text: "pig" },
+              { id: "c", text: "hat" },
+              { id: "d", text: "sun" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -245,12 +245,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "red" },
-              { id: "b", text: "led" },
-              { id: "c", text: "fed" },
-              { id: "d", text: "big" },
+              { id: "a", text: "fed" },
+              { id: "b", text: "big" },
+              { id: "c", text: "led" },
+              { id: "d", text: "red" },
             ],
-            correctChoiceId: "d",
+            correctChoiceIb: "d",
           },
           markscheme: {
             principles: [

@@ -52,12 +52,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A fixed script to deliver" },
-              { id: "b", text: "A flexible checklist that guides coverage" },
-              { id: "c", text: "A list of literary terms" },
-              { id: "d", text: "A summary of the text" },
+              { id: "a", text: "A list of literary terms" },
+              { id: "b", text: "A fixed script to deliver" },
+              { id: "c", text: "A summary of the text" },
+              { id: "d", text: "A flexible checklist that guides coverage" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -156,12 +156,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Plot, character, setting, theme" },
-              { id: "b", text: "Context, structure, language, themes" },
-              { id: "c", text: "Author, date, genre, style" },
+              { id: "a", text: "Author, date, genre, style" },
+              { id: "b", text: "Plot, character, setting, theme" },
+              { id: "c", text: "Context, structure, language, themes" },
               { id: "d", text: "Introduction, body, conclusion, evaluation" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -182,12 +182,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A memorable quotation you like" },
-              { id: "b", text: "A specific quotation or detail that grounds a claim in evidence" },
-              { id: "c", text: "The opening line of the extract" },
+              { id: "a", text: "A specific quotation or detail that grounds a claim in evidence" },
+              { id: "b", text: "The opening line of the extract" },
+              { id: "c", text: "A memorable quotation you like" },
               { id: "d", text: "A summary of the text's plot" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -208,12 +208,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Delivers prepared material regardless of the text" },
-              { id: "b", text: "Follows the text's actual features and adjusts emphasis accordingly" },
-              { id: "c", text: "Covers all four framework areas equally" },
+              { id: "a", text: "Follows the text's actual features and adjusts emphasis accordingly" },
+              { id: "b", text: "Covers all four framework areas equally" },
+              { id: "c", text: "Delivers prepared material regardless of the text" },
               { id: "d", text: "Avoids using quotations" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -235,9 +235,9 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Cover all framework areas equally regardless" },
+              { id: "a", text: "Ignore structure and focus only on themes" },
               { id: "b", text: "Emphasise structure and form where the text leads" },
-              { id: "c", text: "Ignore structure and focus only on themes" },
+              { id: "c", text: "Cover all framework areas equally regardless" },
               { id: "d", text: "Summarise the plot instead of analysing" },
             ],
             correctChoiceId: "b",
@@ -262,12 +262,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It must be memorised verbatim" },
-              { id: "b", text: "It ensures coverage while the text determines content and emphasis" },
-              { id: "c", text: "It replaces the need for quotations" },
-              { id: "d", text: "It can be ignored completely" },
+              { id: "a", text: "It ensures coverage while the text determines content and emphasis" },
+              { id: "b", text: "It must be memorised verbatim" },
+              { id: "c", text: "It can be ignored completely" },
+              { id: "d", text: "It replaces the need for quotations" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -288,12 +288,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "'The poem is about a river'" },
-              { id: "b", text: "'they say' hedges the claim while 'the carpenters insist' asserts it — continuity becomes disputed" },
-              { id: "c", text: "'The poem has five lines'" },
+              { id: "a", text: "'they say' hedges the claim while 'the carpenters insist' asserts it — continuity becomes disputed" },
+              { id: "b", text: "'The poem has five lines'" },
+              { id: "c", text: "'The poem is about a river'" },
               { id: "d", text: "'The poem uses rhyme'" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -499,12 +499,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Memorising a script" },
-              { id: "b", text: "Structured repetition with self-review" },
-              { id: "c", text: "Reading analyses of other texts" },
-              { id: "d", text: "Practising in front of a mirror only" },
+              { id: "a", text: "Practising in front of a mirror only" },
+              { id: "b", text: "Reading analyses of other texts" },
+              { id: "c", text: "Structured repetition with self-review" },
+              { id: "d", text: "Memorising a script" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -598,12 +598,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Read, write, submit, forget" },
-              { id: "b", text: "Extract → framework → record → listen → improve → repeat" },
-              { id: "c", text: "Memorise, recite, repeat" },
-              { id: "d", text: "Watch, copy, paste" },
+              { id: "a", text: "Memorise, recite, repeat" },
+              { id: "b", text: "Watch, copy, paste" },
+              { id: "c", text: "Extract → framework → record → listen → improve → repeat" },
+              { id: "d", text: "Read, write, submit, forget" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -625,11 +625,11 @@ export const lesson62: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Perfection on every attempt" },
-              { id: "b", text: "A consistent, reliable process executable under pressure" },
+              { id: "b", text: "Avoiding all mistakes" },
               { id: "c", text: "Memorising one perfect commentary" },
-              { id: "d", text: "Avoiding all mistakes" },
+              { id: "d", text: "A consistent, reliable process executable under pressure" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -650,9 +650,9 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Takes too much preparation time" },
+              { id: "a", text: "Requires too many quotations" },
               { id: "b", text: "Identifies devices without analysing their effect on meaning" },
-              { id: "c", text: "Requires too many quotations" },
+              { id: "c", text: "Takes too much preparation time" },
               { id: "d", text: "Is always factually wrong" },
             ],
             correctChoiceId: "b",
@@ -677,12 +677,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "'Was it good?'" },
-              { id: "b", text: "'Where did you lose me?'" },
+              { id: "a", text: "'Where did you lose me?'" },
+              { id: "b", text: "'Was it good?'" },
               { id: "c", text: "'Did you like it?'" },
               { id: "d", text: "'Was it long enough?'" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -705,11 +705,11 @@ export const lesson62: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Is required by the teacher" },
-              { id: "b", text: "Reveals habits — pace, fillers, signposting — invisible in the moment" },
-              { id: "c", text: "Replaces the need to practise" },
-              { id: "d", text: "Guarantees a better grade" },
+              { id: "b", text: "Replaces the need to practise" },
+              { id: "c", text: "Guarantees a better grade" },
+              { id: "d", text: "Reveals habits — pace, fillers, signposting — invisible in the moment" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -730,12 +730,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Is always too short" },
-              { id: "b", text: "Ignores what the actual text does, delivering prepared material regardless" },
+              { id: "a", text: "Ignores what the actual text does, delivering prepared material regardless" },
+              { id: "b", text: "Requires a framework" },
               { id: "c", text: "Uses too many quotations" },
-              { id: "d", text: "Requires a framework" },
+              { id: "d", text: "Is always too short" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

@@ -52,11 +52,11 @@ export const lesson22: Lesson = {
           "choices": [
                     {
                               "id": "a",
-                              "text": "Rules mapping characters to binary codes"
+                              "text": "A network protocol"
                     },
                     {
                               "id": "b",
-                              "text": "A type of file"
+                              "text": "Rules mapping characters to binary codes"
                     },
                     {
                               "id": "c",
@@ -64,10 +64,10 @@ export const lesson22: Lesson = {
                     },
                     {
                               "id": "d",
-                              "text": "A network protocol"
+                              "text": "A type of file"
                     }
           ],
-          "correctChoiceId": "a"
+          "correctChoiceId": "b"
 },
           markscheme: {
           "principles": [
@@ -213,6 +213,484 @@ export const lesson22: Lesson = {
                     }
           ],
           "finalAnswer": "Character and image encoding."
+},
+        },
+        {
+          id: "cils-c-u2-dr-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "What is a pixel?",
+          response: {
+          "type": "mcq",
+          "choices": [
+                    {
+                              "id": "a",
+                              "text": "A file format"
+                    },
+                    {
+                              "id": "b",
+                              "text": "A character code"
+                    },
+                    {
+                              "id": "c",
+                              "text": "The smallest picture element with a colour value"
+                    },
+                    {
+                              "id": "d",
+                              "text": "A type of screen"
+                    }
+          ],
+          "correctChoiceId": "c"
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "definition",
+                              "name": "Pixel",
+                              "statement": "Image dot with colour."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "Images are grids of pixels.",
+                              "marks": 1,
+                              "markCode": "M"
+                    }
+          ],
+          "finalAnswer": "Smallest image element"
+},
+        },
+        {
+          id: "cils-c-u2-dr-q6",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "How many bits does standard ASCII use per character?",
+          response: {
+          "type": "numeric",
+          "parts": [
+                    { "label": "a", "answer": 7 }
+          ]
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "definition",
+                              "name": "ASCII",
+                              "statement": "7-bit English encoding."
+                    }
+          ],
+          "steps": [
+                    {
+                              "part": "a",
+                              "reasoning": "ASCII uses 7 bits → 2^7 = 128 characters.",
+                              "marks": 1,
+                              "markCode": "M"
+                    }
+          ],
+          "finalAnswer": "7"
+},
+        },
+        {
+          id: "cils-c-u2-dr-q7",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "How many different characters can 7-bit ASCII represent?",
+          response: {
+          "type": "numeric",
+          "parts": [
+                    { "label": "a", "answer": 128 }
+          ]
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "skill",
+                              "name": "Encoding capacity",
+                              "statement": "2^bits characters."
+                    }
+          ],
+          "steps": [
+                    {
+                              "part": "a",
+                              "reasoning": "2^7 = 128.",
+                              "marks": 1,
+                              "markCode": "M"
+                    }
+          ],
+          "finalAnswer": "128"
+},
+        },
+        {
+          id: "cils-c-u2-dr-q8",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "Why is Unicode needed when ASCII already exists? Give two reasons.",
+          response: {
+          "type": "open"
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "definition",
+                              "name": "Unicode",
+                              "statement": "Universal multi-language encoding."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "ASCII covers only English characters.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "Unicode covers all world languages and symbols.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "e.g. emojis and accented characters need Unicode.",
+                              "marks": 1,
+                              "markCode": "A"
+                    }
+          ],
+          "finalAnswer": "Covers all languages/symbols"
+},
+        },
+        {
+          id: "cils-c-u2-dr-q9",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "What does 'resolution' of an image describe?",
+          response: {
+          "type": "mcq",
+          "choices": [
+                    {
+                              "id": "a",
+                              "text": "The file size on disk"
+                    },
+                    {
+                              "id": "b",
+                              "text": "The screen brightness"
+                    },
+                    {
+                              "id": "c",
+                              "text": "The colour depth"
+                    },
+                    {
+                              "id": "d",
+                              "text": "The number of pixels in the image"
+                    }
+          ],
+          "correctChoiceId": "d"
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "definition",
+                              "name": "Resolution",
+                              "statement": "Pixel count."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "Resolution = how many pixels the image has.",
+                              "marks": 1,
+                              "markCode": "M"
+                    }
+          ],
+          "finalAnswer": "Number of pixels"
+},
+        },
+        {
+          id: "cils-c-u2-dr-q10",
+          difficulty: "challenge",
+          totalMarks: 1,
+          stem: "An image uses 8-bit colour depth (8 bits per pixel). How many colours can each pixel show?",
+          response: {
+          "type": "numeric",
+          "parts": [
+                    { "label": "a", "answer": 256 }
+          ]
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "skill",
+                              "name": "Colour depth",
+                              "statement": "2^bits colours."
+                    }
+          ],
+          "steps": [
+                    {
+                              "part": "a",
+                              "reasoning": "2^8 = 256 colours.",
+                              "marks": 1,
+                              "markCode": "M"
+                    }
+          ],
+          "finalAnswer": "256"
+},
+        },
+        {
+          id: "cils-c-u2-dr-q11",
+          difficulty: "challenge",
+          totalMarks: 1,
+          stem: "Why is a 4K photo file much bigger than a small thumbnail of the same photo?",
+          response: {
+          "type": "mcq",
+          "choices": [
+                    {
+                              "id": "a",
+                              "text": "It has far more pixels, so more binary data"
+                    },
+                    {
+                              "id": "b",
+                              "text": "It is stored uncompressed always"
+                    },
+                    {
+                              "id": "c",
+                              "text": "It has fewer colours"
+                    },
+                    {
+                              "id": "d",
+                              "text": "It uses a different encoding"
+                    }
+          ],
+          "correctChoiceId": "a"
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "skill",
+                              "name": "Image size",
+                              "statement": "Pixels × colour bits = file size."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "More pixels and/or more colour bits means more data.",
+                              "marks": 1,
+                              "markCode": "M"
+                    }
+          ],
+          "finalAnswer": "More pixels = more data"
+},
+        },
+        {
+          id: "cils-c-u2-dr-q12",
+          difficulty: "challenge",
+          totalMarks: 5,
+          stem: "(a) Define character encoding, ASCII, Unicode, pixel, colour depth. (b) How many characters can ASCII hold and why? (c) What does 24-bit colour depth mean? (d) How do resolution and colour depth each affect file size? (e) Why might an emoji fail to display in old software?",
+          response: {
+          "type": "open"
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "technique",
+                              "name": "Data representation",
+                              "statement": "Text/image encoding."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "(a) All five definitions correct.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "(b) 128 — 7 bits gives 2^7 combinations.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "(c) 24 bits per pixel → 16.7 million colours.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "(d) More pixels or more bits per pixel = bigger file.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "(e) Emojis are symbols outside ASCII/older encodings.",
+                              "marks": 1,
+                              "markCode": "A"
+                    }
+          ],
+          "finalAnswer": "Encoding, capacity, file size."
+},
+        },
+        {
+          id: "cils-c-u2-dr-q13",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "What is 'colour depth'?",
+          response: {
+          "type": "mcq",
+          "choices": [
+                    {
+                              "id": "a",
+                              "text": "The number of pixels in an image"
+                    },
+                    {
+                              "id": "b",
+                              "text": "A type of image file"
+                    },
+                    {
+                              "id": "c",
+                              "text": "The brightness of the screen"
+                    },
+                    {
+                              "id": "d",
+                              "text": "The number of bits used per pixel"
+                    }
+          ],
+          "correctChoiceId": "d"
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "definition",
+                              "name": "Colour depth",
+                              "statement": "Bits per pixel."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "Colour depth = bits used for each pixel's colour.",
+                              "marks": 1,
+                              "markCode": "M"
+                    }
+          ],
+          "finalAnswer": "Bits per pixel"
+},
+        },
+        {
+          id: "cils-c-u2-dr-q14",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "How many colours can a 4-bit colour depth represent?",
+          response: {
+          "type": "numeric",
+          "parts": [
+                    { "label": "a", "answer": 16 }
+          ]
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "skill",
+                              "name": "Colour depth",
+                              "statement": "2^bits colours."
+                    }
+          ],
+          "steps": [
+                    {
+                              "part": "a",
+                              "reasoning": "2^4 = 16 colours.",
+                              "marks": 1,
+                              "markCode": "M"
+                    }
+          ],
+          "finalAnswer": "16"
+},
+        },
+        {
+          id: "cils-c-u2-dr-q15",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "What is the key difference between ASCII and Unicode?",
+          response: {
+          "type": "mcq",
+          "choices": [
+                    {
+                              "id": "a",
+                              "text": "ASCII is faster than Unicode"
+                    },
+                    {
+                              "id": "b",
+                              "text": "ASCII covers English only; Unicode covers all languages and symbols"
+                    },
+                    {
+                              "id": "c",
+                              "text": "Unicode only works on phones"
+                    },
+                    {
+                              "id": "d",
+                              "text": "There is no difference"
+                    }
+          ],
+          "correctChoiceId": "b"
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "definition",
+                              "name": "ASCII vs Unicode",
+                              "statement": "English vs universal."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "Unicode extends coverage to all scripts and symbols.",
+                              "marks": 1,
+                              "markCode": "M"
+                    }
+          ],
+          "finalAnswer": "English-only vs universal"
+},
+        },
+        {
+          id: "cils-c-u2-dr-q16",
+          difficulty: "challenge",
+          totalMarks: 6,
+          stem: "(a) Define pixel, resolution, colour depth, ASCII, Unicode. (b) Why do computers store text as binary codes at all? (c) An image is 1000 × 800 pixels at 24-bit depth — how many bits of colour data? (d) Why does doubling resolution roughly quadruple file size? (e) When would ASCII be sufficient? (f) Compare storing the word 'Hi' as text versus as a tiny image.",
+          response: {
+          "type": "open"
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "technique",
+                              "name": "Data representation",
+                              "statement": "Text/image encoding."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "(a) All five definitions correct.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "(b) Computers store everything as binary; encoding gives it meaning.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "(c) 1000 × 800 × 24 = 19,200,000 bits.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "(d) Doubling both dimensions → 4× pixels.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "(e) Plain English text with no special symbols.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "(f) Text = 2 character codes (tiny); image = pixel grid (much larger).",
+                              "marks": 1,
+                              "markCode": "A"
+                    }
+          ],
+          "finalAnswer": "Encoding, capacity, file size."
 },
         },
       ],

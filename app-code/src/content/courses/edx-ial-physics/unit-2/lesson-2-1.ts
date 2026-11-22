@@ -52,11 +52,11 @@ export const lesson21: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "v = f/λ" },
-              { id: "b", text: "v = fλ" },
+              { id: "b", text: "v = f+λ" },
               { id: "c", text: "v = λ/f" },
-              { id: "d", text: "v = f+λ" },
+              { id: "d", text: "v = fλ" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Wave equation", statement: "v = fλ." }],
@@ -168,8 +168,8 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Gamma" },
-              { id: "b", text: "X-ray" },
+              { id: "a", text: "X-ray" },
+              { id: "b", text: "Gamma" },
               { id: "c", text: "Radio" },
               { id: "d", text: "Visible" },
             ],

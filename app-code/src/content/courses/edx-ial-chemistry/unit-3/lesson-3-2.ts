@@ -50,11 +50,11 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "–COOH" },
-              { id: "b", text: "–OH" },
-              { id: "c", text: "–CHO" },
-              { id: "d", text: "–COO–" },
+              { id: "b", text: "–COO–" },
+              { id: "c", text: "–OH" },
+              { id: "d", text: "–CHO" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Alcohol", statement: "–OH functional group." }],
@@ -164,12 +164,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "–OH" },
-              { id: "b", text: "–COOH" },
-              { id: "c", text: "–CHO" },
-              { id: "d", text: "–COO–" },
+              { id: "a", text: "–COO–" },
+              { id: "b", text: "–CHO" },
+              { id: "c", text: "–OH" },
+              { id: "d", text: "–COOH" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Carboxylic acid", statement: "–COOH group." }],

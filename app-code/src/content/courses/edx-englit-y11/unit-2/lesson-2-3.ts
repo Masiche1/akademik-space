@@ -62,12 +62,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It creates a mock-serious tone that invites the reader to question the claim" },
-              { id: "b", text: "It shows that the narrator agrees entirely with the claim" },
-              { id: "c", text: "It suggests that the story is based on true events" },
-              { id: "d", text: "It shows that the narrator is angry with society" },
+              { id: "a", text: "It shows that the narrator agrees entirely with the claim" },
+              { id: "b", text: "It creates a mock-serious tone that invites the reader to question the claim" },
+              { id: "c", text: "It shows that the narrator is angry with society" },
+              { id: "d", text: "It suggests that the story is based on true events" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Mock-authoritative tone", statement: "An exaggeratedly formal voice used to create irony." }],
@@ -201,12 +201,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Link to other moments in the novel that develop the same idea" },
+              { id: "a", text: "Repeat the same points in different words" },
               { id: "b", text: "Retell the whole plot from beginning to end" },
-              { id: "c", text: "Repeat the same points in different words" },
+              { id: "c", text: "Link to other moments in the novel that develop the same idea" },
               { id: "d", text: "Write only about the characters' feelings" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "skill", name: "Whole-text reference", statement: "Connect the passage to the wider novel in service of the question." }],

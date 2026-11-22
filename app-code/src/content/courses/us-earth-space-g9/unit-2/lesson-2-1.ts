@@ -50,12 +50,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "P waves travel faster than S waves." },
-              { id: "b", text: "S waves from an earthquake are not detected on the opposite side of Earth." },
-              { id: "c", text: "Earthquakes occur mostly near plate boundaries." },
+              { id: "a", text: "S waves from an earthquake are not detected on the opposite side of Earth." },
+              { id: "b", text: "Earthquakes occur mostly near plate boundaries." },
+              { id: "c", text: "P waves travel faster than S waves." },
               { id: "d", text: "Volcanoes erupt molten rock at the surface." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -181,12 +181,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Convergent boundary" },
-              { id: "b", text: "Transform boundary" },
-              { id: "c", text: "Divergent boundary" },
+              { id: "a", text: "Transform boundary" },
+              { id: "b", text: "Divergent boundary" },
+              { id: "c", text: "Convergent boundary" },
               { id: "d", text: "A hot spot, not a plate boundary" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [

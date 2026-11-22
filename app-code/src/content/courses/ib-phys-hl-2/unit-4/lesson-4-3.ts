@@ -88,9 +88,9 @@ export const lesson43: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Velocity is parallel to the field" },
-              { id: "b", text: "Velocity is perpendicular to the field" },
-              { id: "c", text: "The charge is positive" },
-              { id: "d", text: "The field is strong" },
+              { id: "b", text: "The field is strong" },
+              { id: "c", text: "Velocity is perpendicular to the field" },
+              { id: "d", text: "The charge is positive" },
             ],
             correctChoiceId: "a",
           },
@@ -301,9 +301,9 @@ export const lesson43: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Velocity is perpendicular to the field" },
-              { id: "b", text: "Velocity is parallel to the field" },
-              { id: "c", text: "Velocity is at 45° to the field" },
-              { id: "d", text: "The charge is negative" },
+              { id: "b", text: "Velocity is at 45° to the field" },
+              { id: "c", text: "The charge is negative" },
+              { id: "d", text: "Velocity is parallel to the field" },
             ],
             correctChoiceId: "a",
           },
@@ -345,9 +345,9 @@ export const lesson43: Lesson = {
                 id: "a",
                 text: "Remains constant because the force does no work",
               },
-              { id: "b", text: "Increases steadily" },
+              { id: "b", text: "Oscillates between two values" },
               { id: "c", text: "Decreases to zero" },
-              { id: "d", text: "Oscillates between two values" },
+              { id: "d", text: "Increases steadily" },
             ],
             correctChoiceId: "a",
           },
@@ -388,12 +388,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The same direction" },
-              { id: "b", text: "The opposite direction" },
+              { id: "a", text: "The opposite direction" },
+              { id: "b", text: "The same direction" },
               { id: "c", text: "No force at all" },
               { id: "d", text: "A direction rotated by 90°" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -430,12 +430,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Mass, speed, charge and field strength" },
-              { id: "b", text: "Speed only" },
-              { id: "c", text: "Field strength only" },
-              { id: "d", text: "The direction of motion" },
+              { id: "a", text: "Speed only" },
+              { id: "b", text: "Field strength only" },
+              { id: "c", text: "The direction of motion" },
+              { id: "d", text: "Mass, speed, charge and field strength" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -472,12 +472,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Increases with speed" },
-              { id: "b", text: "Is independent of the particle's speed" },
-              { id: "c", text: "Decreases with mass" },
-              { id: "d", text: "Depends on the radius of the path" },
+              { id: "a", text: "Is independent of the particle's speed" },
+              { id: "b", text: "Increases with speed" },
+              { id: "c", text: "Depends on the radius of the path" },
+              { id: "d", text: "Decreases with mass" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -946,12 +946,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$F = BIl\\sin\\theta$" },
-              { id: "b", text: "$F = qvB$" },
-              { id: "c", text: "$F = IV$" },
-              { id: "d", text: "$F = BIl^2$" },
+              { id: "a", text: "$F = BIl^2$" },
+              { id: "b", text: "$F = IV$" },
+              { id: "c", text: "$F = BIl\\sin\\theta$" },
+              { id: "d", text: "$F = qvB$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1171,12 +1171,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The wire is perpendicular to the field" },
-              { id: "b", text: "The wire is parallel to the field" },
-              { id: "c", text: "The current is zero" },
-              { id: "d", text: "The wire has no length in the field" },
+              { id: "a", text: "The wire has no length in the field" },
+              { id: "b", text: "The current is zero" },
+              { id: "c", text: "The wire is perpendicular to the field" },
+              { id: "d", text: "The wire is parallel to the field" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1212,12 +1212,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Attract each other" },
+              { id: "a", text: "Rotate to become perpendicular" },
               { id: "b", text: "Repel each other" },
-              { id: "c", text: "Experience no force" },
-              { id: "d", text: "Rotate to become perpendicular" },
+              { id: "c", text: "Attract each other" },
+              { id: "d", text: "Experience no force" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1256,8 +1256,8 @@ export const lesson43: Lesson = {
             choices: [
               { id: "a", text: "The wire is parallel to the magnetic field" },
               { id: "b", text: "The wire is perpendicular to the field" },
-              { id: "c", text: "The current is very large" },
-              { id: "d", text: "The field is uniform" },
+              { id: "c", text: "The field is uniform" },
+              { id: "d", text: "The current is very large" },
             ],
             correctChoiceId: "a",
           },
@@ -1298,15 +1298,15 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "The direction of induced EMF" },
               {
-                id: "a",
+                id: "b",
                 text: "The direction of the force on a current-carrying conductor",
               },
-              { id: "b", text: "The direction of induced EMF" },
               { id: "c", text: "The magnitude of the magnetic field" },
               { id: "d", text: "The direction of electron flow in a wire" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1345,15 +1345,15 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "Converts AC to DC in the supply" },
+              { id: "b", text: "Reduces eddy current losses" },
+              { id: "c", text: "Increases the supply voltage" },
               {
-                id: "a",
+                id: "d",
                 text: "Reverses the current direction every half-turn",
               },
-              { id: "b", text: "Increases the supply voltage" },
-              { id: "c", text: "Reduces eddy current losses" },
-              { id: "d", text: "Converts AC to DC in the supply" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

@@ -49,12 +49,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It becomes one ninth as large." },
-              { id: "b", text: "It becomes one third as large." },
-              { id: "c", text: "It becomes three times as large." },
-              { id: "d", text: "It becomes nine times as large." },
+              { id: "a", text: "It becomes nine times as large." },
+              { id: "b", text: "It becomes three times as large." },
+              { id: "c", text: "It becomes one ninth as large." },
+              { id: "d", text: "It becomes one third as large." },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -178,12 +178,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "No current, because the magnetic field through the coil is not changing." },
-              { id: "b", text: "A steady current, because the coil is in a magnetic field." },
-              { id: "c", text: "A current that grows with time, because the magnet is strong." },
-              { id: "d", text: "No current, because magnets cannot produce electricity." },
+              { id: "a", text: "A current that grows with time, because the magnet is strong." },
+              { id: "b", text: "No current, because the magnetic field through the coil is not changing." },
+              { id: "c", text: "No current, because magnets cannot produce electricity." },
+              { id: "d", text: "A steady current, because the coil is in a magnetic field." },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [

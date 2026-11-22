@@ -46,11 +46,11 @@ export const lesson11: Lesson = {
           totalMarks: 2,
           stem: "Solve $3(x+4)-2=19$.",
           response: { type: "mcq", choices: [
-            { id: "a", text: "$x=3$" },
-            { id: "b", text: "$x=5$" },
-            { id: "c", text: "$x=7$" },
-            { id: "d", text: "$x=9$" },
-          ], correctChoiceId: "a" },
+            { id: "a", text: "$x=5$" },
+            { id: "b", text: "$x=7$" },
+            { id: "c", text: "$x=9$" },
+            { id: "d", text: "$x=3$" },
+          ], correctChoiceId: "d" },
           markscheme: {
             principles: [
               { kind: "law", name: "Distributive property", statement: "$a(b+c)=ab+ac$." },
@@ -178,9 +178,9 @@ export const lesson11: Lesson = {
           stem: "Which statement correctly classifies $5(x-2)=5x-10$?",
           response: { type: "mcq", choices: [
             { id: "a", text: "It has the single solution $x=0$." },
-            { id: "b", text: "It has no solution." },
+            { id: "b", text: "It has exactly two solutions." },
             { id: "c", text: "It is an identity, so every real number is a solution." },
-            { id: "d", text: "It has exactly two solutions." },
+            { id: "d", text: "It has no solution." },
           ], correctChoiceId: "c" },
           markscheme: {
             principles: [

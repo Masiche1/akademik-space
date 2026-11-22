@@ -58,8 +58,8 @@ export const lesson71: Lesson = {
             choices: [
               { id: "a", text: "Do again" },
               { id: "b", text: "Do badly" },
-              { id: "c", text: "Don't do" },
-              { id: "d", text: "Pre-do" },
+              { id: "c", text: "Pre-do" },
+              { id: "d", text: "Don't do" },
             ],
             correctChoiceId: "a",
           },
@@ -84,12 +84,12 @@ export const lesson71: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "re-" },
-              { id: "b", text: "un-" },
-              { id: "c", text: "dis-" },
-              { id: "d", text: "mis-" },
+              { id: "a", text: "mis-" },
+              { id: "b", text: "dis-" },
+              { id: "c", text: "re-" },
+              { id: "d", text: "un-" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -227,12 +227,12 @@ export const lesson71: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Without help" },
-              { id: "b", text: "Full of help" },
+              { id: "a", text: "Full of help" },
+              { id: "b", text: "Helping" },
               { id: "c", text: "Help again" },
-              { id: "d", text: "Helping" },
+              { id: "d", text: "Without help" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -257,12 +257,12 @@ export const lesson71: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "beautiful" },
-              { id: "b", text: "beautifully" },
-              { id: "c", text: "beauty" },
-              { id: "d", text: "beautifulness" },
+              { id: "a", text: "beauty" },
+              { id: "b", text: "beautifulness" },
+              { id: "c", text: "beautiful" },
+              { id: "d", text: "beautifully" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

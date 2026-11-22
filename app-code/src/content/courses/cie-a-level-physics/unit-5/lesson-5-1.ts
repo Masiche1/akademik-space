@@ -53,12 +53,12 @@ export const lesson511: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$F = \\frac{kq_1q_2}{r^2}$" },
-              { id: "b", text: "$F = kq_1q_2r^2$" },
-              { id: "c", text: "$F = \\frac{q_1q_2}{kr^2}$" },
-              { id: "d", text: "$F = kq_1q_2/r$" },
+              { id: "a", text: "$F = kq_1q_2r^2$" },
+              { id: "b", text: "$F = \\frac{q_1q_2}{kr^2}$" },
+              { id: "c", text: "$F = kq_1q_2/r$" },
+              { id: "d", text: "$F = \\frac{kq_1q_2}{r^2}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "law", name: "Coulomb", statement: "$F = kq_1q_2/r^2$." }],
@@ -132,12 +132,12 @@ export const lesson511: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$N\\ C^{-1}$" },
+              { id: "a", text: "$C\\ m^{-2}$" },
               { id: "b", text: "$J\\ C^{-1}$" },
-              { id: "c", text: "$C\\ m^{-2}$" },
-              { id: "d", text: "$A\\ m^{-2}$" },
+              { id: "c", text: "$A\\ m^{-2}$" },
+              { id: "d", text: "$N\\ C^{-1}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Field unit", statement: "$E = F/q$ → N/C (equivalent to V/m)." }],
@@ -172,12 +172,12 @@ export const lesson511: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "accelerate towards the sphere" },
-              { id: "b", text: "accelerate away from the sphere" },
-              { id: "c", text: "remain stationary" },
-              { id: "d", text: "move in a uniform circular path" },
+              { id: "a", text: "remain stationary" },
+              { id: "b", text: "move in a uniform circular path" },
+              { id: "c", text: "accelerate towards the sphere" },
+              { id: "d", text: "accelerate away from the sphere" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Field direction", statement: "Field direction = force on positive test charge; unlike charges attract." }],
@@ -248,12 +248,12 @@ export const lesson511: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "uniform" },
-              { id: "b", text: "radial" },
+              { id: "a", text: "radial" },
+              { id: "b", text: "zero at the centre" },
               { id: "c", text: "inverse-square everywhere" },
-              { id: "d", text: "zero at the centre" },
+              { id: "d", text: "uniform" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "property", name: "Uniform field", statement: "Between large parallel plates the field is uniform: $E = V/d$." }],
@@ -333,12 +333,12 @@ export const lesson511: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "increases because the force follows an inverse-square law" },
-              { id: "b", text: "decreases because the charges are further apart" },
-              { id: "c", text: "remains unchanged" },
+              { id: "a", text: "remains unchanged" },
+              { id: "b", text: "increases because the force follows an inverse-square law" },
+              { id: "c", text: "decreases because the charges are further apart" },
               { id: "d", text: "becomes attractive" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "law", name: "Coulomb", statement: "$F \\propto 1/r^2$ — smaller r gives larger F." }],
@@ -409,12 +409,12 @@ export const lesson511: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$V = IR$" },
+              { id: "a", text: "$I = VR$" },
               { id: "b", text: "$V = I/R$" },
-              { id: "c", text: "$I = VR$" },
-              { id: "d", text: "$R = VI$" },
+              { id: "c", text: "$R = VI$" },
+              { id: "d", text: "$V = IR$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "law", name: "Ohm's law", statement: "$V = IR$." }],
@@ -481,6 +481,237 @@ export const lesson511: Lesson = {
               { part: "d", reasoning: "Lost volts = 3 V.", marks: 1, markCode: "A" },
             ],
             finalAnswer: "(a) V=IR (b) Q/t (c) series/parallel (d) 21 V",
+          },
+        },
+        {
+          id: "cial-p-u5-cu-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "What is the SI unit of electric charge?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "coulomb" },
+              { id: "b", text: "ohm" },
+              { id: "c", text: "ampere" },
+              { id: "d", text: "volt" },
+            ],
+            aorrectChoiceId: "c",
+          },
+          markscheme: {
+            principles: [{ kind: "definition", name: "Charge unit", statement: "Charge is measured in coulombs (C)." }],
+            steps: [{ reasoning: "Charge unit = coulomb; ampere is current, volt is p.d., ohm is resistance.", marks: 1, markCode: "A" }],
+            finalAnswer: "**(c)** coulomb",
+          },
+        },
+        {
+          id: "cial-p-u5-cu-q6",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "A current of $0.40\\ A$ flows through a wire for $2.5$ minutes. Calculate the total charge that passes a point in the wire.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 60, tolerance: 0.5, unit: "C" }],
+          },
+          markscheme: {
+            principles: [{ kind: "law", name: "Current", statement: "$I = Q/t$ → $Q = It$; $t$ in seconds." }],
+            steps: [
+              { reasoning: "Convert time: $t = 2.5 \\times 60 = 150\\ s$.", marks: 1, markCode: "M" },
+              { reasoning: "$Q = It = 0.40 \\times 150$.", marks: 1, markCode: "M" },
+              { reasoning: "$Q = 60\\ C$.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$Q = 60\\ C$",
+          },
+        },
+        {
+          id: "cial-p-u5-cu-q7",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "A $12\\ V$ supply is connected across a $6\\ \\Omega$ resistor and a $3\\ \\Omega$ resistor in series. Calculate the potential difference across the $3\\ \\Omega$ resistor.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 4, tolerance: 0.1, unit: "V" }],
+          },
+          markscheme: {
+            principles: [{ kind: "law", name: "Series circuit", statement: "$R_T = R_1 + R_2$; $V = IR$; p.d. divides in proportion to resistance." }],
+            steps: [
+              { reasoning: "$R_T = 6 + 3 = 9\\ \\Omega$; $I = 12/9 = 1.33\\ A$.", marks: 1, markCode: "M" },
+              { reasoning: "$V_{3\\Omega} = IR = 1.33 \\times 3$.", marks: 1, markCode: "M" },
+              { reasoning: "$V = 4.0\\ V$.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$V = 4.0\\ V$",
+          },
+        },
+        {
+          id: "cial-p-u5-cu-q8",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "Explain why an ammeter is connected in series with a low resistance, while a voltmeter is connected in parallel with a high resistance.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [{ kind: "principle", name: "Meter connection", statement: "Ammeter measures current through a branch; voltmeter measures p.d. across a component." }],
+            steps: [
+              { reasoning: "Ammeter must carry the full current of the branch → connected in series.", marks: 1, markCode: "M" },
+              { reasoning: "Its resistance must be very small so it does not reduce the current it is measuring.", marks: 1, markCode: "M" },
+              { reasoning: "Voltmeter must measure p.d. across a component without taking current → connected in parallel.", marks: 1, markCode: "M" },
+              { reasoning: "Its resistance must be very large so it does not significantly change the circuit current.", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "Ammeter low R in series; voltmeter high R in parallel",
+          },
+        },
+        {
+          id: "cial-p-u5-cu-q9",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "The e.m.f. of a cell is best described as",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "the total energy supplied per unit charge by the cell" },
+              { id: "b", text: "the p.d. across the cell when no current flows" },
+              { id: "c", text: "the current produced by the cell" },
+              { id: "d", text: "the p.d. lost inside the cell" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [{ kind: "definition", name: "EMF", statement: "EMF = energy per unit charge supplied by the source." }],
+            steps: [{ reasoning: "EMF is total energy per coulomb; terminal p.d. is lower when current flows.", marks: 1, markCode: "A" }],
+            finalAnswer: "**(b)** total energy supplied per unit charge",
+          },
+        },
+        {
+          id: "cial-p-u5-cu-q10",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "A $24\\ V$ supply is connected across an $8\\ \\Omega$ resistor. Calculate the power dissipated in the resistor.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 72, tolerance: 0.5, unit: "W" }],
+          },
+          markscheme: {
+            principles: [{ kind: "law", name: "Power", statement: "$P = VI = V^2/R = I^2R$." }],
+            steps: [
+              { reasoning: "$P = V^2/R = 24^2/8$.", marks: 1, markCode: "M" },
+              { reasoning: "$P = 576/8$.", marks: 1, markCode: "M" },
+              { reasoning: "$P = 72\\ W$.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$P = 72\\ W$",
+          },
+        },
+        {
+          id: "cial-p-u5-cu-q11",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "Explain why short-circuiting a battery with a piece of thick wire can cause a fire.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [{ kind: "principle", name: "Short circuit", statement: "Very small external resistance → very large current → large power dissipation." }],
+            steps: [
+              { reasoning: "The wire has very low resistance, so by $I = V/R$ the current becomes very large.", marks: 1, markCode: "M" },
+              { reasoning: "Power $P = I^2R$ (and heat in the battery/wiring) becomes large.", marks: 1, markCode: "M" },
+              { reasoning: "Heat raises temperature of wire and battery.", marks: 1, markCode: "M" },
+              { reasoning: "May ignite surrounding materials → fire.", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "Low R → large I → large heating → fire risk",
+          },
+        },
+        {
+          id: "cial-p-u5-cu-q12",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "Two $12\\ \\Omega$ resistors are connected in parallel across a $12\\ V$ supply. Calculate the total current drawn from the supply.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 2, tolerance: 0.05, unit: "A" }],
+          },
+          markscheme: {
+            principles: [{ kind: "law", name: "Parallel", statement: "$1/R_T = 1/R_1 + 1/R_2$; $I = V/R_T$." }],
+            steps: [
+              { reasoning: "$1/R_T = 1/12 + 1/12 = 1/6$ → $R_T = 6\\ \\Omega$.", marks: 1, markCode: "M" },
+              { reasoning: "$I = V/R_T = 12/6$.", marks: 1, markCode: "M" },
+              { reasoning: "$I = 2.0\\ A$.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$I = 2.0\\ A$",
+          },
+        },
+        {
+          id: "cial-p-u5-cu-q13",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "In a series circuit containing two lamps and a cell, the current is",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "larger through the brighter lamp" },
+              { id: "b", text: "the same at all points" },
+              { id: "c", text: "shared unequally between the lamps" },
+              { id: "d", text: "zero in the second lamp" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [{ kind: "principle", name: "Series current", statement: "Current is the same through every component in a series circuit." }],
+            steps: [{ reasoning: "Series = single path → same current everywhere.", marks: 1, markCode: "A" }],
+            finalAnswer: "**(a)** the same at all points",
+          },
+        },
+        {
+          id: "cial-p-u5-cu-q14",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "A cell of e.m.f. $12\\ V$ and internal resistance $0.5\\ \\Omega$ delivers a current of $4.0\\ A$. Calculate the terminal potential difference.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [{ kind: "law", name: "Internal resistance", statement: "$V = \\varepsilon - Ir$; lost volts $= Ir$." }],
+            steps: [
+              { reasoning: "Lost volts $= Ir = 4.0 \\times 0.5 = 2.0\\ V$.", marks: 1, markCode: "M" },
+              { reasoning: "$V = \\varepsilon - Ir = 12 - 2.0$.", marks: 1, markCode: "M" },
+              { reasoning: "$V = 10\\ V$.", marks: 1, markCode: "M" },
+              { reasoning: "Terminal p.d. is less than e.m.f. when current flows.", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "$V = 10\\ V$",
+          },
+        },
+        {
+          id: "cial-p-u5-cu-q15",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "A $60\\ W$ lamp is connected to the $230\\ V$ mains. Calculate the energy it uses in $5.0$ hours, giving your answer in $kWh$.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 0.3, tolerance: 0.01, unit: "kWh" }],
+          },
+          markscheme: {
+            principles: [{ kind: "law", name: "Energy", statement: "$E = Pt$; $1\\ kWh = 1000\\ W \\times 1\\ h$." }],
+            steps: [
+              { reasoning: "Power $= 60\\ W = 0.060\\ kW$.", marks: 1, markCode: "M" },
+              { reasoning: "$E = Pt = 0.060 \\times 5.0 = 0.30\\ kWh$.", marks: 1, markCode: "M" },
+              { reasoning: "$E = 0.30\\ kWh$ ($= 1.08\\ MJ$).", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$E = 0.30\\ kWh$",
+          },
+        },
+        {
+          id: "cial-p-u5-cu-q16",
+          difficulty: "challenge",
+          totalMarks: 3,
+          stem: "A $10\\ V$ battery of internal resistance $2.0\\ \\Omega$ is connected to an $8.0\\ \\Omega$ resistor. Calculate (a) the current in the circuit and (b) the terminal p.d. of the battery.",
+          response: {
+            type: "numeric",
+            parts: [
+              { label: "a", answer: 1, tolerance: 0.05, unit: "A" },
+              { label: "b", answer: 8, tolerance: 0.1, unit: "V" },
+            ],
+          },
+          markscheme: {
+            principles: [{ kind: "law", name: "Internal resistance", statement: "Total resistance $= R + r$; $V = \\varepsilon - Ir$." }],
+            steps: [
+              { reasoning: "Total resistance $= 8.0 + 2.0 = 10\\ \\Omega$; $I = 10/10 = 1.0\\ A$.", marks: 1, markCode: "M" },
+              { reasoning: "Terminal p.d. $= \\varepsilon - Ir = 10 - (1.0 \\times 2.0)$ or $V = IR = 1.0 \\times 8.0$.", marks: 1, markCode: "M" },
+              { reasoning: "$I = 1.0\\ A$, $V = 8.0\\ V$.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$I = 1.0\\ A$, $V = 8.0\\ V$",
           },
         },
       ],

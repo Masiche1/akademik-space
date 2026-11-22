@@ -57,12 +57,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "13" },
-              { id: "b", text: "-5" },
-              { id: "c", text: "5" },
-              { id: "d", text: "-13" },
+              { id: "a", text: "-13" },
+              { id: "b", text: "5" },
+              { id: "c", text: "-5" },
+              { id: "d", text: "13" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -86,8 +86,8 @@ export const lesson13: Lesson = {
             choices: [
               { id: "a", text: "$x=7$ or $x=1$" },
               { id: "b", text: "$x=7$ only" },
-              { id: "c", text: "$x=1$ only" },
-              { id: "d", text: "$x=-1$ or $x=7$" },
+              { id: "c", text: "$x=-1$ or $x=7$" },
+              { id: "d", text: "$x=1$ only" },
             ],
             correctChoiceId: "a",
           },
@@ -112,12 +112,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$-7<x<3$" },
+              { id: "a", text: "$-3<x<7$" },
               { id: "b", text: "$x<-7$ or $x>3$" },
-              { id: "c", text: "$-3<x<7$" },
+              { id: "c", text: "$-7<x<3$" },
               { id: "d", text: "$-7\\le x\\le3$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -171,12 +171,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "3" },
-              { id: "b", text: "-3" },
-              { id: "c", text: "9" },
-              { id: "d", text: "-9" },
+              { id: "a", text: "9" },
+              { id: "b", text: "-9" },
+              { id: "c", text: "-3" },
+              { id: "d", text: "3" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -218,12 +218,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$x=3$ or $x=-5$" },
-              { id: "b", text: "$x=5$ or $x=-3$" },
+              { id: "a", text: "$x=5$ or $x=-3$" },
+              { id: "b", text: "$x=3$ or $x=-5$" },
               { id: "c", text: "$x=3$ only" },
               { id: "d", text: "$-5<x<3$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -267,12 +267,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$1\\le x\\le5$" },
-              { id: "b", text: "$x\\le1$ or $x\\ge5$" },
+              { id: "a", text: "$x\\le1$ or $x\\ge5$" },
+              { id: "b", text: "$1\\le x\\le5$" },
               { id: "c", text: "$-1\\le x\\le5$" },
               { id: "d", text: "$1<x<5$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -316,12 +316,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$x=3$ or $x=-\\frac{5}{3}$" },
-              { id: "b", text: "$x=3$ or $x=\\frac{5}{3}$" },
-              { id: "c", text: "$x=\\frac{5}{3}$ or $x=-3$" },
-              { id: "d", text: "$x=3$ only" },
+              { id: "a", text: "$x=\\frac{5}{3}$ or $x=-3$" },
+              { id: "b", text: "$x=3$ only" },
+              { id: "c", text: "$x=3$ or $x=-\\frac{5}{3}$" },
+              { id: "d", text: "$x=3$ or $x=\\frac{5}{3}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -454,12 +454,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$x<-8$ or $x>2$" },
-              { id: "b", text: "$-8<x<2$" },
-              { id: "c", text: "$x<-2$ or $x>8$" },
-              { id: "d", text: "$x\\le-8$ or $x\\ge2$" },
+              { id: "a", text: "$x<-2$ or $x>8$" },
+              { id: "b", text: "$x<-8$ or $x>2$" },
+              { id: "c", text: "$x\\le-8$ or $x\\ge2$" },
+              { id: "d", text: "$-8<x<2$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -515,9 +515,9 @@ export const lesson13: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "730000" },
-              { id: "b", text: "73000" },
+              { id: "b", text: "0.0000073" },
               { id: "c", text: "7300000" },
-              { id: "d", text: "0.0000073" },
+              { id: "d", text: "73000" },
             ],
             correctChoiceId: "a",
           },
@@ -541,12 +541,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$6.3\\times10^4$" },
-              { id: "b", text: "$9\\times10^7$" },
+              { id: "a", text: "$9\\times10^4$" },
+              { id: "b", text: "$6.3\\times10^4$" },
               { id: "c", text: "$6.3\\times10^3$" },
-              { id: "d", text: "$9\\times10^4$" },
+              { id: "d", text: "$9\\times10^7$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -569,12 +569,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$3\\times10^4$" },
-              { id: "b", text: "$3\\times10^{12}$" },
-              { id: "c", text: "$2.4\\times10^4$" },
-              { id: "d", text: "$3\\times10^3$" },
+              { id: "a", text: "$2.4\\times10^4$" },
+              { id: "b", text: "$3\\times10^3$" },
+              { id: "c", text: "$3\\times10^{12}$" },
+              { id: "d", text: "$3\\times10^4$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -628,12 +628,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "0.0045" },
-              { id: "b", text: "0.00045" },
-              { id: "c", text: "4500" },
-              { id: "d", text: "0.045" },
+              { id: "a", text: "0.045" },
+              { id: "b", text: "0.0045" },
+              { id: "c", text: "0.00045" },
+              { id: "d", text: "4500" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -672,12 +672,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$7.2\\times10^5$" },
-              { id: "b", text: "$9\\times10^9$" },
-              { id: "c", text: "$7.2\\times10^4$" },
-              { id: "d", text: "$9\\times10^5$" },
+              { id: "a", text: "$7.2\\times10^4$" },
+              { id: "b", text: "$9\\times10^5$" },
+              { id: "c", text: "$7.2\\times10^5$" },
+              { id: "d", text: "$9\\times10^9$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -718,12 +718,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$4\\times10^4$" },
-              { id: "b", text: "$4\\times10^2$" },
-              { id: "c", text: "$4\\times10^5$" },
-              { id: "d", text: "$4\\times10^{-4}$" },
+              { id: "a", text: "$4\\times10^5$" },
+              { id: "b", text: "$4\\times10^{-4}$" },
+              { id: "c", text: "$4\\times10^2$" },
+              { id: "d", text: "$4\\times10^4$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -764,12 +764,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$6.4\\times10^3$" },
+              { id: "a", text: "$1.6\\times10^6$" },
               { id: "b", text: "$6.4\\times10^4$" },
-              { id: "c", text: "$6.4\\times10^2$" },
-              { id: "d", text: "$1.6\\times10^6$" },
+              { id: "c", text: "$6.4\\times10^3$" },
+              { id: "d", text: "$6.4\\times10^2$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -869,12 +869,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$1.5$" },
-              { id: "b", text: "$0.15$" },
+              { id: "a", text: "$0.15$" },
+              { id: "b", text: "$1.5\\times10^{-5}$" },
               { id: "c", text: "$15$" },
-              { id: "d", text: "$1.5\\times10^{-5}$" },
+              { id: "d", text: "$1.5$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -899,11 +899,11 @@ export const lesson13: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$5\\times10^3$" },
-              { id: "b", text: "$0.8\\times10^2$" },
-              { id: "c", text: "$1.2\\times10^{-4}$" },
-              { id: "d", text: "$9.9\\times10^{10}$" },
+              { id: "b", text: "$1.2\\times10^{-4}$" },
+              { id: "c", text: "$9.9\\times10^{10}$" },
+              { id: "d", text: "$0.8\\times10^2$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

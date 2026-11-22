@@ -55,11 +55,11 @@ export const lesson54: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Mass travel to beach resorts" },
-              { id: "b", text: "Travel to natural areas that conserves the environment and benefits locals" },
-              { id: "c", text: "Visiting cultural heritage sites" },
+              { id: "b", text: "Visiting cultural heritage sites" },
+              { id: "c", text: "Travel to natural areas that conserves the environment and benefits locals" },
               { id: "d", text: "Any holiday involving physical activity" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -153,12 +153,12 @@ export const lesson54: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Small groups visiting remote wilderness" },
-              { id: "b", text: "Large numbers of visitors concentrated in resorts and iconic sites" },
-              { id: "c", text: "Only cultural heritage travel" },
+              { id: "a", text: "Large numbers of visitors concentrated in resorts and iconic sites" },
+              { id: "b", text: "Only cultural heritage travel" },
+              { id: "c", text: "Small groups visiting remote wilderness" },
               { id: "d", text: "Business travel exclusively" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -181,12 +181,12 @@ export const lesson54: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Has no environmental aims" },
-              { id: "b", text: "Targets natural environments with conservation and sustainability aims" },
-              { id: "c", text: "Attracts larger crowds to resorts" },
-              { id: "d", text: "Focuses only on urban attractions" },
+              { id: "a", text: "Targets natural environments with conservation and sustainability aims" },
+              { id: "b", text: "Focuses only on urban attractions" },
+              { id: "c", text: "Has no environmental aims" },
+              { id: "d", text: "Attracts larger crowds to resorts" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -209,12 +209,12 @@ export const lesson54: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Even year-round employment" },
-              { id: "b", text: "Peak congestion and idle capacity/off-season unemployment" },
-              { id: "c", text: "Constant visitor numbers" },
-              { id: "d", text: "Reduced infrastructure costs" },
+              { id: "a", text: "Reduced infrastructure costs" },
+              { id: "b", text: "Even year-round employment" },
+              { id: "c", text: "Peak congestion and idle capacity/off-season unemployment" },
+              { id: "d", text: "Constant visitor numbers" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -237,12 +237,12 @@ export const lesson54: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The total number of tourists arriving" },
-              { id: "b", text: "How initial tourist spending recirculates through the local economy" },
-              { id: "c", text: "The price of tourist accommodation" },
-              { id: "d", text: "The distance tourists travel" },
+              { id: "a", text: "The distance tourists travel" },
+              { id: "b", text: "The total number of tourists arriving" },
+              { id: "c", text: "How initial tourist spending recirculates through the local economy" },
+              { id: "d", text: "The price of tourist accommodation" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -265,12 +265,12 @@ export const lesson54: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "They increase local spending" },
-              { id: "b", text: "Tourist money leaves the local economy via imports and foreign-owned businesses" },
-              { id: "c", text: "They encourage more tourists to visit" },
-              { id: "d", text: "They improve local infrastructure" },
+              { id: "a", text: "They encourage more tourists to visit" },
+              { id: "b", text: "They improve local infrastructure" },
+              { id: "c", text: "They increase local spending" },
+              { id: "d", text: "Tourist money leaves the local economy via imports and foreign-owned businesses" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -472,12 +472,12 @@ export const lesson54: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Watching professional sport on television while travelling" },
-              { id: "b", text: "Travel motivated by participation in or attendance at sporting activities" },
+              { id: "a", text: "Any holiday that includes exercise" },
+              { id: "b", text: "Watching professional sport on television while travelling" },
               { id: "c", text: "Visiting sports stadiums as museums" },
-              { id: "d", text: "Any holiday that includes exercise" },
+              { id: "d", text: "Travel motivated by participation in or attendance at sporting activities" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -571,12 +571,12 @@ export const lesson54: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The maximum number of tourists a destination can physically hold" },
+              { id: "a", text: "The speed of tourist arrivals" },
               { id: "b", text: "The total revenue a destination can earn" },
-              { id: "c", text: "The number of hotel rooms available" },
-              { id: "d", text: "The speed of tourist arrivals" },
+              { id: "c", text: "The maximum number of tourists a destination can physically hold" },
+              { id: "d", text: "The number of hotel rooms available" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -599,12 +599,12 @@ export const lesson54: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Increase peak visitor numbers" },
-              { id: "b", text: "Spread and limit visitors to reduce congestion at key sites" },
+              { id: "a", text: "Ban foreign tourists entirely" },
+              { id: "b", text: "Increase peak visitor numbers" },
               { id: "c", text: "Eliminate all tourism revenue" },
-              { id: "d", text: "Ban foreign tourists entirely" },
+              { id: "d", text: "Spread and limit visitors to reduce congestion at key sites" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -628,9 +628,9 @@ export const lesson54: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Venues that remain unused or underused after the event" },
-              { id: "b", text: "Winning athletes" },
+              { id: "b", text: "Record-breaking performances" },
               { id: "c", text: "Cheap souvenirs" },
-              { id: "d", text: "Record-breaking performances" },
+              { id: "d", text: "Winning athletes" },
             ],
             correctChoiceId: "a",
           },
@@ -655,12 +655,12 @@ export const lesson54: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The physical space available" },
-              { id: "b", text: "The tolerance of residents and visitors to crowding" },
+              { id: "a", text: "The tolerance of residents and visitors to crowding" },
+              { id: "b", text: "The number of transport links" },
               { id: "c", text: "The ecological health of the destination" },
-              { id: "d", text: "The number of transport links" },
+              { id: "d", text: "The physical space available" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -683,12 +683,12 @@ export const lesson54: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It always attracts more visitors" },
-              { id: "b", text: "It gives locals control, keeps benefits local and limits scale" },
-              { id: "c", text: "It requires no management" },
-              { id: "d", text: "It eliminates all environmental impact" },
+              { id: "a", text: "It requires no management" },
+              { id: "b", text: "It eliminates all environmental impact" },
+              { id: "c", text: "It gives locals control, keeps benefits local and limits scale" },
+              { id: "d", text: "It always attracts more visitors" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

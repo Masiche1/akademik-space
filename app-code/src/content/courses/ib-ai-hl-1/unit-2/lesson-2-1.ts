@@ -84,12 +84,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$11$" },
-              { id: "b", text: "$49$" },
+              { id: "a", text: "$49$" },
+              { id: "b", text: "$11$" },
               { id: "c", text: "$7$" },
               { id: "d", text: "$4$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -359,12 +359,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$12$" },
-              { id: "b", text: "$4$" },
+              { id: "a", text: "$4$" },
+              { id: "b", text: "$7$" },
               { id: "c", text: "$9$" },
-              { id: "d", text: "$7$" },
+              { id: "d", text: "$12$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -404,12 +404,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$f^{-1}(x)=2x+3$" },
+              { id: "a", text: "$f^{-1}(x)=2x-3$" },
               { id: "b", text: "$f^{-1}(x)=\\frac{x+3}{2}$" },
-              { id: "c", text: "$f^{-1}(x)=2x-3$" },
+              { id: "c", text: "$f^{-1}(x)=2x+3$" },
               { id: "d", text: "$f^{-1}(x)=\\frac{2}{x-3}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -450,12 +450,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$x\\ge2$" },
-              { id: "b", text: "$x\\ge0$" },
-              { id: "c", text: "$x>0$" },
-              { id: "d", text: "$x\\in\\mathbb{R}$" },
+              { id: "a", text: "$x>0$" },
+              { id: "b", text: "$x\\in\\mathbb{R}$" },
+              { id: "c", text: "$x\\ge0$" },
+              { id: "d", text: "$x\\ge2$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -494,12 +494,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\frac{1}{3}$" },
-              { id: "b", text: "$3$" },
-              { id: "c", text: "$-1$" },
+              { id: "a", text: "$-1$" },
+              { id: "b", text: "$\\frac{1}{3}$" },
+              { id: "c", text: "$3$" },
               { id: "d", text: "$2$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -703,12 +703,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$3$" },
-              { id: "b", text: "$-3$" },
-              { id: "c", text: "$\\frac{1}{3}$" },
-              { id: "d", text: "$\\pm3$" },
+              { id: "a", text: "$\\frac{1}{3}$" },
+              { id: "b", text: "$3$" },
+              { id: "c", text: "$\\pm3$" },
+              { id: "d", text: "$-3$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -874,11 +874,11 @@ export const lesson21: Lesson = {
               { id: "b", text: "$f^{-1}(x)=\\frac{1}{f(x)}$ for all $x$." },
               {
                 id: "c",
-                text: "The graph of $y=f^{-1}(x)$ is the reflection of $y=f(x)$ in the $x$-axis.",
+                text: "$(f\\circ g)^{-1}=f^{-1}\\circ g^{-1}$ for any $g$.",
               },
               {
                 id: "d",
-                text: "$(f\\circ g)^{-1}=f^{-1}\\circ g^{-1}$ for any $g$.",
+                text: "The graph of $y=f^{-1}(x)$ is the reflection of $y=f(x)$ in the $x$-axis.",
               },
             ],
             correctChoiceId: "a",
@@ -1164,10 +1164,10 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$y=f(x+3)$" },
+              { id: "a", text: "$y=f(x-3)$" },
               { id: "b", text: "$y=f(x)+3$" },
               { id: "c", text: "$y=f(x)-3$" },
-              { id: "d", text: "$y=f(x-3)$" },
+              { id: "d", text: "$y=f(x+3)$" },
             ],
             correctChoiceId: "b",
           },
@@ -1465,12 +1465,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$y=f(-x)$" },
-              { id: "b", text: "$y=-f(x)$" },
+              { id: "a", text: "$y=-f(x)$" },
+              { id: "b", text: "$y=f(-x)$" },
               { id: "c", text: "$y=f(x)$" },
               { id: "d", text: "$y=-f(-x)$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1510,12 +1510,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$y=f(3x)$" },
-              { id: "b", text: "$y=f\\left(\\frac{x}{3}\\right)$" },
-              { id: "c", text: "$y=3f(x)$" },
-              { id: "d", text: "$y=f(x)+3$" },
+              { id: "a", text: "$y=f(x)+3$" },
+              { id: "b", text: "$y=3f(x)$" },
+              { id: "c", text: "$y=f(3x)$" },
+              { id: "d", text: "$y=f\\left(\\frac{x}{3}\\right)$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1557,8 +1557,8 @@ export const lesson21: Lesson = {
             choices: [
               { id: "a", text: "$(7,1)$" },
               { id: "b", text: "$(1,1)$" },
-              { id: "c", text: "$(7,-1)$" },
-              { id: "d", text: "$(1,-1)$" },
+              { id: "c", text: "$(1,-1)$" },
+              { id: "d", text: "$(7,-1)$" },
             ],
             correctChoiceId: "a",
           },
@@ -1600,22 +1600,22 @@ export const lesson21: Lesson = {
             choices: [
               {
                 id: "a",
-                text: "Vertical stretch scale factor $2$, horizontal stretch scale factor $\\frac12$, translation $3$ units up.",
-              },
-              {
-                id: "b",
                 text: "Vertical stretch scale factor $\\frac12$, horizontal stretch scale factor $2$, translation $3$ units up.",
               },
               {
-                id: "c",
+                id: "b",
                 text: "Vertical stretch scale factor $\\frac12$, horizontal stretch scale factor $\\frac12$, translation $3$ units up.",
               },
               {
-                id: "d",
+                id: "c",
                 text: "Vertical stretch scale factor $2$, horizontal stretch scale factor $2$, translation $3$ units up.",
               },
+              {
+                id: "d",
+                text: "Vertical stretch scale factor $2$, horizontal stretch scale factor $\\frac12$, translation $3$ units up.",
+              },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1800,12 +1800,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$y=f(2x-2)$" },
-              { id: "b", text: "$y=f(2x-4)$" },
-              { id: "c", text: "$y=f\\left(\\frac{x}{2}-2\\right)$" },
+              { id: "a", text: "$y=f(2x-4)$" },
+              { id: "b", text: "$y=f\\left(\\frac{x}{2}-2\\right)$" },
+              { id: "c", text: "$y=f(2x-2)$" },
               { id: "d", text: "$y=f(x-4)$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -2178,12 +2178,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A rotation of $180^\\circ$ about the origin." },
-              { id: "b", text: "A reflection in the line $y=x$." },
+              { id: "a", text: "A reflection in the line $y=x$." },
+              { id: "b", text: "A rotation of $180^\\circ$ about the origin." },
               { id: "c", text: "No change to the graph." },
               { id: "d", text: "A reflection in the $x$-axis only." },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [

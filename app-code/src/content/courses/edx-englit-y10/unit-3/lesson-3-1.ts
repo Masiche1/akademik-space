@@ -57,12 +57,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "That killing the King may bring punishment and consequences" },
+              { id: "a", text: "That Lady Macbeth will refuse to help" },
               { id: "b", text: "That Duncan will arrive too early" },
-              { id: "c", text: "That the Witches have lied" },
-              { id: "d", text: "That Lady Macbeth will refuse to help" },
+              { id: "c", text: "That killing the King may bring punishment and consequences" },
+              { id: "d", text: "That the Witches have lied" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "skill", name: "Establish the situation", statement: "Say what the speaker is thinking before analysing how it is expressed." }],
@@ -190,9 +190,9 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "She wants to be rid of her feminine qualities such as pity so she can commit murder" },
-              { id: "b", text: "She wants to become a man in public life" },
-              { id: "c", text: "She wants her husband to be killed" },
-              { id: "d", text: "She is ill and wants to rest" },
+              { id: "b", text: "She wants her husband to be killed" },
+              { id: "c", text: "She is ill and wants to rest" },
+              { id: "d", text: "She wants to become a man in public life" },
             ],
             correctChoiceId: "a",
           },

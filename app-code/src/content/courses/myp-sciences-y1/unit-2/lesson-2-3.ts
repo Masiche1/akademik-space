@@ -55,12 +55,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The direction in which energy passes, from the organism that is eaten to the organism that eats it" },
-              { id: "b", text: "The direction in which a predator chases its prey" },
-              { id: "c", text: "Which organism in the chain is the largest" },
-              { id: "d", text: "How long each organism takes to digest its food" },
+              { id: "a", text: "How long each organism takes to digest its food" },
+              { id: "b", text: "Which organism in the chain is the largest" },
+              { id: "c", text: "The direction in which a predator chases its prey" },
+              { id: "d", text: "The direction in which energy passes, from the organism that is eaten to the organism that eats it" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -156,12 +156,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Which organism is bigger" },
-              { id: "b", text: "The direction of energy transfer, from the organism that is eaten to the organism that eats it" },
+              { id: "a", text: "Which organism moves faster" },
+              { id: "b", text: "Which organism is bigger" },
               { id: "c", text: "The order in which organisms were born" },
-              { id: "d", text: "Which organism moves faster" },
+              { id: "d", text: "The direction of energy transfer, from the organism that is eaten to the organism that eats it" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -183,8 +183,8 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Caterpillar" },
-              { id: "b", text: "Robin" },
+              { id: "a", text: "Robin" },
+              { id: "b", text: "Caterpillar" },
               { id: "c", text: "Cat" },
               { id: "d", text: "Grass" },
             ],
@@ -210,12 +210,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Producer" },
-              { id: "b", text: "Primary consumer" },
-              { id: "c", text: "Secondary consumer" },
-              { id: "d", text: "Decomposer" },
+              { id: "a", text: "Primary consumer" },
+              { id: "b", text: "Producer" },
+              { id: "c", text: "Decomposer" },
+              { id: "d", text: "Secondary consumer" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -256,12 +256,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It decreases because rabbits lose their food" },
-              { id: "b", text: "It increases because fewer rabbits are eaten" },
-              { id: "c", text: "It stays the same" },
-              { id: "d", text: "It decreases because there is no food web" },
+              { id: "a", text: "It increases because fewer rabbits are eaten" },
+              { id: "b", text: "It decreases because rabbits lose their food" },
+              { id: "c", text: "It decreases because there is no food web" },
+              { id: "d", text: "It stays the same" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -480,12 +480,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "All the living things in an area" },
-              { id: "b", text: "The place where an organism lives" },
-              { id: "c", text: "The food that an organism eats" },
-              { id: "d", text: "The job an organism does in a food chain" },
+              { id: "a", text: "The food that an organism eats" },
+              { id: "b", text: "The job an organism does in a food chain" },
+              { id: "c", text: "All the living things in an area" },
+              { id: "d", text: "The place where an organism lives" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -579,12 +579,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "All the living things in a place" },
-              { id: "b", text: "The place where an organism lives" },
-              { id: "c", text: "The community plus the non-living parts" },
-              { id: "d", text: "The number of different species" },
+              { id: "a", text: "The place where an organism lives" },
+              { id: "b", text: "The community plus the non-living parts" },
+              { id: "c", text: "The number of different species" },
+              { id: "d", text: "All the living things in a place" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -606,12 +606,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The total number of animals in an area" },
-              { id: "b", text: "The number of different species in an area" },
-              { id: "c", text: "The size of the habitat" },
-              { id: "d", text: "The amount of plastic in the ocean" },
+              { id: "a", text: "The number of different species in an area" },
+              { id: "b", text: "The total number of animals in an area" },
+              { id: "c", text: "The amount of plastic in the ocean" },
+              { id: "d", text: "The size of the habitat" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -671,12 +671,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Biodiversity increases because there is more farmland" },
-              { id: "b", text: "Biodiversity falls because habitats are destroyed and species lose food and shelter" },
-              { id: "c", text: "Biodiversity stays the same" },
-              { id: "d", text: "Only the trees are affected" },
+              { id: "a", text: "Biodiversity stays the same" },
+              { id: "b", text: "Biodiversity increases because there is more farmland" },
+              { id: "c", text: "Only the trees are affected" },
+              { id: "d", text: "Biodiversity falls because habitats are destroyed and species lose food and shelter" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

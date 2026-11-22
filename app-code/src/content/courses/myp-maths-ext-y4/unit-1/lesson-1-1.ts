@@ -55,12 +55,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "4" },
+              { id: "a", text: "2" },
               { id: "b", text: "8" },
               { id: "c", text: "$\\sqrt{16}$ only" },
-              { id: "d", text: "2" },
+              { id: "d", text: "4" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -83,9 +83,9 @@ export const lesson11: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "4" },
-              { id: "b", text: "$\\frac{16}{3}$" },
+              { id: "b", text: "2" },
               { id: "c", text: "16" },
-              { id: "d", text: "2" },
+              { id: "d", text: "$\\frac{16}{3}$" },
             ],
             correctChoiceId: "a",
           },
@@ -110,12 +110,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$x=\\frac{5}{2}$" },
-              { id: "b", text: "$x=3$" },
-              { id: "c", text: "$x=\\frac{3}{2}$" },
+              { id: "a", text: "$x=\\frac{3}{2}$" },
+              { id: "b", text: "$x=\\frac{5}{2}$" },
+              { id: "c", text: "$x=3$" },
               { id: "d", text: "$x=5$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -170,12 +170,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "9" },
-              { id: "b", text: "40.5" },
+              { id: "a", text: "40.5" },
+              { id: "b", text: "3" },
               { id: "c", text: "81" },
-              { id: "d", text: "3" },
+              { id: "d", text: "9" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -216,8 +216,8 @@ export const lesson11: Lesson = {
             choices: [
               { id: "a", text: "343" },
               { id: "b", text: "24.5" },
-              { id: "c", text: "147" },
-              { id: "d", text: "21" },
+              { id: "c", text: "21" },
+              { id: "d", text: "147" },
             ],
             correctChoiceId: "a",
           },
@@ -277,12 +277,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$x^{\\frac{3}{4}}$" },
-              { id: "b", text: "$x^{\\frac{1}{8}}$" },
-              { id: "c", text: "$x^{\\frac{5}{4}}$" },
-              { id: "d", text: "$x^2$" },
+              { id: "a", text: "$x^{\\frac{1}{8}}$" },
+              { id: "b", text: "$x^{\\frac{3}{4}}$" },
+              { id: "c", text: "$x^2$" },
+              { id: "d", text: "$x^{\\frac{5}{4}}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -323,12 +323,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$x=\\frac{2}{3}$" },
-              { id: "b", text: "$x=\\frac{1}{3}$" },
+              { id: "a", text: "$x=\\frac{1}{3}$" },
+              { id: "b", text: "$x=\\frac{2}{3}$" },
               { id: "c", text: "$x=\\frac{3}{2}$" },
               { id: "d", text: "$x=2$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -440,12 +440,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$3x^2$" },
-              { id: "b", text: "$3x^4$" },
-              { id: "c", text: "$9x^2$" },
-              { id: "d", text: "$\\frac{9x^4}{2}$" },
+              { id: "a", text: "$3x^4$" },
+              { id: "b", text: "$9x^2$" },
+              { id: "c", text: "$\\frac{9x^4}{2}$" },
+              { id: "d", text: "$3x^2$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -502,12 +502,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "4" },
-              { id: "b", text: "8" },
-              { id: "c", text: "32" },
-              { id: "d", text: "2" },
+              { id: "a", text: "2" },
+              { id: "b", text: "4" },
+              { id: "c", text: "8" },
+              { id: "d", text: "32" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -529,12 +529,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "5" },
-              { id: "b", text: "6" },
-              { id: "c", text: "$\\log_3 36$" },
-              { id: "d", text: "$\\log_3(27+9)$" },
+              { id: "a", text: "$\\log_3(27+9)$" },
+              { id: "b", text: "$\\log_3 36$" },
+              { id: "c", text: "6" },
+              { id: "d", text: "5" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -558,11 +558,11 @@ export const lesson11: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$x=2$" },
-              { id: "b", text: "$x=\\frac{\\log 100}{\\log 5}\\approx2.86$" },
-              { id: "c", text: "$x=20$" },
-              { id: "d", text: "$x=\\log_5 100$ only" },
+              { id: "b", text: "$x=\\log_5 100$ only" },
+              { id: "c", text: "$x=\\frac{\\log 100}{\\log 5}\\approx2.86$" },
+              { id: "d", text: "$x=20$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -618,9 +618,9 @@ export const lesson11: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "2" },
-              { id: "b", text: "5" },
-              { id: "c", text: "20" },
-              { id: "d", text: "10" },
+              { id: "b", text: "10" },
+              { id: "c", text: "5" },
+              { id: "d", text: "20" },
             ],
             correctChoiceId: "a",
           },
@@ -661,12 +661,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "4" },
-              { id: "b", text: "27" },
-              { id: "c", text: "3" },
-              { id: "d", text: "5" },
+              { id: "a", text: "27" },
+              { id: "b", text: "3" },
+              { id: "c", text: "5" },
+              { id: "d", text: "4" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -709,8 +709,8 @@ export const lesson11: Lesson = {
             choices: [
               { id: "a", text: "5" },
               { id: "b", text: "$\\log_2 12$" },
-              { id: "c", text: "7" },
-              { id: "d", text: "$\\log_2(8+4)$" },
+              { id: "c", text: "$\\log_2(8+4)$" },
+              { id: "d", text: "7" },
             ],
             correctChoiceId: "a",
           },
@@ -752,12 +752,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$x\\approx5.58$" },
-              { id: "b", text: "$x\\approx4.58$" },
-              { id: "c", text: "$x=24$" },
-              { id: "d", text: "$x=16$" },
+              { id: "a", text: "$x=24$" },
+              { id: "b", text: "$x=16$" },
+              { id: "c", text: "$x\\approx5.58$" },
+              { id: "d", text: "$x\\approx4.58$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -862,12 +862,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$3\\log_3 2$" },
-              { id: "b", text: "$\\log_3 2+3$" },
-              { id: "c", text: "$2\\log_3 3$" },
-              { id: "d", text: "$\\frac{\\log_3 8}{3}$" },
+              { id: "a", text: "$\\log_3 2+3$" },
+              { id: "b", text: "$3\\log_3 2$" },
+              { id: "c", text: "$\\frac{\\log_3 8}{3}$" },
+              { id: "d", text: "$2\\log_3 3$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -891,12 +891,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$x=-2$" },
-              { id: "b", text: "$x=2$" },
-              { id: "c", text: "$x=-0.2$" },
-              { id: "d", text: "$x=0.01$" },
+              { id: "a", text: "$x=0.01$" },
+              { id: "b", text: "$x=-0.2$" },
+              { id: "c", text: "$x=-2$" },
+              { id: "d", text: "$x=2$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

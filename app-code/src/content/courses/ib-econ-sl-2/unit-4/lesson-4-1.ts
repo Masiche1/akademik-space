@@ -86,15 +86,15 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "National income after tax" },
+              { id: "b", text: "Total government spending" },
               {
-                id: "a",
+                id: "c",
                 text: "Output produced by a country's citizens anywhere",
               },
-              { id: "b", text: "Output produced within a country's borders" },
-              { id: "c", text: "National income after tax" },
-              { id: "d", text: "Total government spending" },
+              { id: "d", text: "Output produced within a country's borders" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -319,12 +319,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "GDP plus depreciation" },
-              { id: "b", text: "GDP minus depreciation" },
+              { id: "a", text: "GDP minus depreciation" },
+              { id: "b", text: "GDP plus depreciation" },
               { id: "c", text: "GDP minus net income from abroad" },
               { id: "d", text: "GDP plus indirect taxes" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -360,10 +360,10 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The expenditure approach" },
-              { id: "b", text: "The output (value added) approach" },
+              { id: "a", text: "The balance of payments approach" },
+              { id: "b", text: "The expenditure approach" },
               { id: "c", text: "The income approach" },
-              { id: "d", text: "The balance of payments approach" },
+              { id: "d", text: "The output (value added) approach" },
             ],
             correctChoiceId: "c",
           },
@@ -411,16 +411,16 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Output produced within a country's borders" },
+              {
+                id: "a",
+                text: "Total government spending on goods and services",
+              },
               {
                 id: "b",
                 text: "Output produced by a country's residents, wherever they are located",
               },
-              { id: "c", text: "Output after subtracting depreciation" },
-              {
-                id: "d",
-                text: "Total government spending on goods and services",
-              },
+              { id: "c", text: "Output produced within a country's borders" },
+              { id: "d", text: "Output after subtracting depreciation" },
             ],
             correctChoiceId: "b",
           },
@@ -460,15 +460,15 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A car manufactured in the country for export" },
               {
-                id: "b",
+                id: "a",
                 text: "Unpaid childcare provided by a parent at home",
               },
+              { id: "b", text: "A haircut purchased at a local salon" },
               { id: "c", text: "Government spending on road construction" },
-              { id: "d", text: "A haircut purchased at a local salon" },
+              { id: "d", text: "A car manufactured in the country for export" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -508,12 +508,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It fell by approximately 3%" },
-              { id: "b", text: "It rose by less than the 8% nominal rise" },
+              { id: "a", text: "It rose by less than the 8% nominal rise" },
+              { id: "b", text: "It fell by approximately 3%" },
               { id: "c", text: "It rose by exactly 8%" },
               { id: "d", text: "It was unchanged" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -1064,12 +1064,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "C + I + G + (X + M)" },
-              { id: "b", text: "C + I + G + (X − M)" },
-              { id: "c", text: "C + S + T + I" },
-              { id: "d", text: "Wages + Rent + Interest + Profit" },
+              { id: "a", text: "Wages + Rent + Interest + Profit" },
+              { id: "b", text: "C + S + T + I" },
+              { id: "c", text: "C + I + G + (X + M)" },
+              { id: "d", text: "C + I + G + (X − M)" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1286,12 +1286,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Government spending" },
-              { id: "b", text: "Investment by firms" },
-              { id: "c", text: "Saving by households" },
-              { id: "d", text: "Exports of goods abroad" },
+              { id: "a", text: "Investment by firms" },
+              { id: "b", text: "Exports of goods abroad" },
+              { id: "c", text: "Government spending" },
+              { id: "d", text: "Saving by households" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1330,8 +1330,8 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Both C and I increase" },
-              { id: "b", text: "C increases but I decreases" },
+              { id: "a", text: "C increases but I decreases" },
+              { id: "b", text: "Both C and I increase" },
               { id: "c", text: "Both C and I decrease" },
               { id: "d", text: "Neither is affected" },
             ],
@@ -1380,10 +1380,10 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Consumption" },
+              { id: "a", text: "Government spending" },
               { id: "b", text: "Investment" },
-              { id: "c", text: "Government spending" },
-              { id: "d", text: "Imports" },
+              { id: "c", text: "Imports" },
+              { id: "d", text: "Consumption" },
             ],
             correctChoiceId: "b",
           },
@@ -1423,12 +1423,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "AD increases" },
-              { id: "b", text: "AD decreases" },
+              { id: "a", text: "Only investment is affected" },
+              { id: "b", text: "AD increases" },
               { id: "c", text: "AD is unaffected" },
-              { id: "d", text: "Only investment is affected" },
+              { id: "d", text: "AD decreases" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

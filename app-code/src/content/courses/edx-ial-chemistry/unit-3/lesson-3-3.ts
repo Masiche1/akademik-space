@@ -49,12 +49,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Propene" },
-              { id: "b", text: "Ethene" },
-              { id: "c", text: "Chloroethene" },
-              { id: "d", text: "Styrene" },
+              { id: "a", text: "Styrene" },
+              { id: "b", text: "Propene" },
+              { id: "c", text: "Ethene" },
+              { id: "d", text: "Chloroethene" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Polyethene", statement: "From ethene monomer." }],
@@ -166,8 +166,8 @@ export const lesson33: Lesson = {
             choices: [
               { id: "a", text: "CO₂" },
               { id: "b", text: "Water" },
-              { id: "c", text: "O₂" },
-              { id: "d", text: "H₂" },
+              { id: "c", text: "H₂" },
+              { id: "d", text: "O₂" },
             ],
             correctChoiceId: "b",
           },

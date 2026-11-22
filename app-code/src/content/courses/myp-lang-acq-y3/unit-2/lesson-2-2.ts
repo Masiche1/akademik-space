@@ -78,12 +78,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A story with a made-up character" },
-              { id: "b", text: "A text that tells what happened" },
-              { id: "c", text: "A list of instructions" },
-              { id: "d", text: "An opinion article" },
+              { id: "a", text: "A text that tells what happened" },
+              { id: "b", text: "A list of instructions" },
+              { id: "c", text: "An opinion article" },
+              { id: "d", text: "A story with a made-up character" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -314,8 +314,8 @@ export const lesson22: Lesson = {
             choices: [
               { id: "a", text: "Present tense" },
               { id: "b", text: "Past tense" },
-              { id: "c", text: "Future tense" },
-              { id: "d", text: "Present perfect continuous" },
+              { id: "c", text: "Present perfect continuous" },
+              { id: "d", text: "Future tense" },
             ],
             correctChoiceId: "b",
           },
@@ -339,12 +339,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The ending" },
-              { id: "b", text: "Who, where and when the events happened" },
+              { id: "a", text: "Who, where and when the events happened" },
+              { id: "b", text: "The ending" },
               { id: "c", text: "The moral of the story" },
               { id: "d", text: "The characters' dialogue" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -372,12 +372,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "beautiful" },
-              { id: "b", text: "finally" },
+              { id: "a", text: "finally" },
+              { id: "b", text: "together" },
               { id: "c", text: "quickly" },
-              { id: "d", text: "together" },
+              { id: "d", text: "beautiful" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -405,12 +405,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "We visited Rome and Florence." },
-              { id: "b", text: "The food was amazing." },
-              { id: "c", text: "I would love to go back one day." },
-              { id: "d", text: "In July, we travelled to Italy." },
+              { id: "a", text: "I would love to go back one day." },
+              { id: "b", text: "In July, we travelled to Italy." },
+              { id: "c", text: "We visited Rome and Florence." },
+              { id: "d", text: "The food was amazing." },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -438,12 +438,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It uses the wrong tense — should be past tense" },
-              { id: "b", text: "It is too short" },
+              { id: "a", text: "It uses too many sequence words" },
+              { id: "b", text: "It uses the wrong tense — should be past tense" },
               { id: "c", text: "It has too many details" },
-              { id: "d", text: "It uses too many sequence words" },
+              { id: "d", text: "It is too short" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -465,12 +465,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "We goed to the museum." },
-              { id: "b", text: "We went to the museum." },
-              { id: "c", text: "We goed to the museumed." },
-              { id: "d", text: "We go to the museum yesterday." },
+              { id: "a", text: "We goed to the museumed." },
+              { id: "b", text: "We go to the museum yesterday." },
+              { id: "c", text: "We went to the museum." },
+              { id: "d", text: "We goed to the museum." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -688,11 +688,11 @@ export const lesson22: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "You open the door." },
-              { id: "b", text: "Opens the door." },
-              { id: "c", text: "Open the door." },
-              { id: "d", text: "Opening the door." },
+              { id: "b", text: "Open the door." },
+              { id: "c", text: "Opening the door." },
+              { id: "d", text: "Opens the door." },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -904,12 +904,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "You should open the box." },
-              { id: "b", text: "Opens the box." },
-              { id: "c", text: "Open the box." },
-              { id: "d", text: "Opening the box." },
+              { id: "a", text: "Opening the box." },
+              { id: "b", text: "Open the box." },
+              { id: "c", text: "You should open the box." },
+              { id: "d", text: "Opens the box." },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -932,11 +932,11 @@ export const lesson22: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "It makes the text longer" },
-              { id: "b", text: "It is easier for the reader to follow" },
-              { id: "c", text: "It uses more words" },
+              { id: "b", text: "It uses more words" },
+              { id: "c", text: "It is easier for the reader to follow" },
               { id: "d", text: "It is required by grammar rules" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -959,11 +959,11 @@ export const lesson22: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Finally" },
-              { id: "b", text: "First" },
-              { id: "c", text: "However" },
-              { id: "d", text: "Because" },
+              { id: "b", text: "However" },
+              { id: "c", text: "Because" },
+              { id: "d", text: "First" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -991,12 +991,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Step 1" },
-              { id: "b", text: "Step 2" },
-              { id: "c", text: "Step 3" },
-              { id: "d", text: "Step 4" },
+              { id: "a", text: "Step 4" },
+              { id: "b", text: "Step 1" },
+              { id: "c", text: "Step 2" },
+              { id: "d", text: "Step 3" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1024,9 +1024,9 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "They use the wrong tense" },
+              { id: "a", text: "They are too short" },
               { id: "b", text: "They use 'you' instead of imperatives, and combine actions" },
-              { id: "c", text: "They are too short" },
+              { id: "c", text: "They use the wrong tense" },
               { id: "d", text: "They have too many steps" },
             ],
             correctChoiceId: "b",
@@ -1057,12 +1057,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A title" },
-              { id: "b", text: "A list of ingredients" },
-              { id: "c", text: "Too many steps" },
-              { id: "d", text: "A warning" },
+              { id: "a", text: "A list of ingredients" },
+              { id: "b", text: "A warning" },
+              { id: "c", text: "A title" },
+              { id: "d", text: "Too many steps" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

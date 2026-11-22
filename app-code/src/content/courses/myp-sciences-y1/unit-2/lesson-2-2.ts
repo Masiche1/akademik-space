@@ -55,12 +55,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Plants" },
-              { id: "b", text: "Animals" },
-              { id: "c", text: "Fungi" },
-              { id: "d", text: "Protists" },
+              { id: "a", text: "Protists" },
+              { id: "b", text: "Plants" },
+              { id: "c", text: "Animals" },
+              { id: "d", text: "Fungi" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -152,12 +152,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Amphibians" },
-              { id: "b", text: "Reptiles" },
-              { id: "c", text: "Birds" },
-              { id: "d", text: "Mammals" },
+              { id: "a", text: "Mammals" },
+              { id: "b", text: "Birds" },
+              { id: "c", text: "Amphibians" },
+              { id: "d", text: "Reptiles" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -180,11 +180,11 @@ export const lesson22: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Vertebrate" },
-              { id: "b", text: "Invertebrate" },
-              { id: "c", text: "Mammal" },
-              { id: "d", text: "Reptile" },
+              { id: "b", text: "Mammal" },
+              { id: "c", text: "Reptile" },
+              { id: "d", text: "Invertebrate" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -206,12 +206,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "One" },
-              { id: "b", text: "Two" },
-              { id: "c", text: "Three" },
+              { id: "a", text: "Three" },
+              { id: "b", text: "One" },
+              { id: "c", text: "Two" },
               { id: "d", text: "As many as there are animals" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -233,9 +233,9 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Is the insect friendly?" },
+              { id: "a", text: "Is the insect pretty?" },
               { id: "b", text: "Does the insect have wings?" },
-              { id: "c", text: "Is the insect pretty?" },
+              { id: "c", text: "Is the insect friendly?" },
               { id: "d", text: "Does the insect like flowers?" },
             ],
             correctChoiceId: "b",
@@ -261,12 +261,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Has six legs" },
-              { id: "b", text: "Has a backbone" },
-              { id: "c", text: "Is large" },
-              { id: "d", text: "Has wings" },
+              { id: "a", text: "Has wings" },
+              { id: "b", text: "Is large" },
+              { id: "c", text: "Has six legs" },
+              { id: "d", text: "Has a backbone" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -484,11 +484,11 @@ export const lesson22: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Blood group" },
-              { id: "b", text: "Height" },
-              { id: "c", text: "Ability to roll the tongue" },
-              { id: "d", text: "Having attached or detached earlobes" },
+              { id: "b", text: "Having attached or detached earlobes" },
+              { id: "c", text: "Height" },
+              { id: "d", text: "Ability to roll the tongue" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -585,8 +585,8 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Height" },
-              { id: "b", text: "Mass" },
+              { id: "a", text: "Mass" },
+              { id: "b", text: "Height" },
               { id: "c", text: "Blood group" },
               { id: "d", text: "Foot length" },
             ],
@@ -612,12 +612,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Blood group" },
+              { id: "a", text: "Attached or free earlobes" },
               { id: "b", text: "Whether you can roll your tongue" },
-              { id: "c", text: "Height" },
-              { id: "d", text: "Attached or free earlobes" },
+              { id: "c", text: "Blood group" },
+              { id: "d", text: "Height" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -660,8 +660,8 @@ export const lesson22: Lesson = {
             choices: [
               { id: "a", text: "A plant that happens to be near a window" },
               { id: "b", text: "Thick white fur that insulates a polar bear in the cold" },
-              { id: "c", text: "A scratch a dog got while running" },
-              { id: "d", text: "A flower that was painted by a child" },
+              { id: "c", text: "A flower that was painted by a child" },
+              { id: "d", text: "A scratch a dog got while running" },
             ],
             correctChoiceId: "b",
           },
@@ -686,12 +686,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "To lose heat faster" },
-              { id: "b", text: "To reduce heat loss and stay warm" },
-              { id: "c", text: "To hear prey more clearly" },
-              { id: "d", text: "To camouflage against the snow" },
+              { id: "a", text: "To camouflage against the snow" },
+              { id: "b", text: "To hear prey more clearly" },
+              { id: "c", text: "To lose heat faster" },
+              { id: "d", text: "To reduce heat loss and stay warm" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

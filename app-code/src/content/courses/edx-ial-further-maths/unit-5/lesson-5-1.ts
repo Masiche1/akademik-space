@@ -51,12 +51,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Integrating $a$ with respect to $t$" },
-              { id: "b", text: "Differentiating $a$" },
-              { id: "c", text: "Multiplying $a$ by $t$" },
-              { id: "d", text: "Using SUVAT" },
+              { id: "a", text: "Multiplying $a$ by $t$" },
+              { id: "b", text: "Using SUVAT" },
+              { id: "c", text: "Differentiating $a$" },
+              { id: "d", text: "Integrating $a$ with respect to $t$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Kinematics", statement: "$v=\\int a\\,dt+C$." }],
@@ -167,12 +167,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The chain rule applied to $\\frac{dv}{dt}$" },
-              { id: "b", text: "Newton's second law" },
-              { id: "c", text: "Integration by parts" },
+              { id: "a", text: "Newton's second law" },
+              { id: "b", text: "Integration by parts" },
+              { id: "c", text: "The chain rule applied to $\\frac{dv}{dt}$" },
               { id: "d", text: "The product rule" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Chain rule", statement: "$\\frac{dv}{dt}=\\frac{dv}{ds}\\cdot\\frac{ds}{dt}=v\\frac{dv}{ds}$." }],

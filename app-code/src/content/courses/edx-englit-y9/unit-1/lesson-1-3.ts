@@ -66,12 +66,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "He is arrogant and ambitious" },
+              { id: "a", text: "He is kind to others" },
               { id: "b", text: "He is religious and devout" },
-              { id: "c", text: "He is afraid of God" },
-              { id: "d", text: "He is kind to others" },
+              { id: "c", text: "He is arrogant and ambitious" },
+              { id: "d", text: "He is afraid of God" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Hubris", statement: "Excessive pride, often shown by gothic scientists who claim godlike power." }],
@@ -198,9 +198,9 @@ export const lesson13: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Darwin's theory of evolution" },
-              { id: "b", text: "The invention of the telephone" },
-              { id: "c", text: "The abolition of the slave trade" },
-              { id: "d", text: "The building of railways" },
+              { id: "b", text: "The abolition of the slave trade" },
+              { id: "c", text: "The building of railways" },
+              { id: "d", text: "The invention of the telephone" },
             ],
             correctChoiceId: "a",
           },

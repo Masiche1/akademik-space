@@ -58,12 +58,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$2^2\\times3\\times5$" },
-              { id: "b", text: "$4\\times15$" },
-              { id: "c", text: "$2\\times3^2\\times5$" },
-              { id: "d", text: "$2^3\\times3\\times5$" },
+              { id: "a", text: "$2\\times3^2\\times5$" },
+              { id: "b", text: "$2^3\\times3\\times5$" },
+              { id: "c", text: "$2^2\\times3\\times5$" },
+              { id: "d", text: "$4\\times15$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -165,12 +165,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$2^4\\times3$" },
-              { id: "b", text: "$2\\times3\\times8$" },
+              { id: "a", text: "$2\\times3\\times8$" },
+              { id: "b", text: "$2^4\\times3$" },
               { id: "c", text: "$4\\times12$" },
               { id: "d", text: "$2^3\\times3^2$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -192,10 +192,10 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$3$" },
+              { id: "a", text: "$9$" },
               { id: "b", text: "$6$" },
               { id: "c", text: "$36$" },
-              { id: "d", text: "$9$" },
+              { id: "d", text: "$3$" },
             ],
             correctChoiceId: "b",
           },
@@ -221,10 +221,10 @@ export const lesson12: Lesson = {
             choices: [
               { id: "a", text: "$2$" },
               { id: "b", text: "$10$" },
-              { id: "c", text: "$12$" },
-              { id: "d", text: "$24$" },
+              { id: "c", text: "$24$" },
+              { id: "d", text: "$12$" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -284,12 +284,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$1$" },
+              { id: "a", text: "$15$" },
               { id: "b", text: "$9$" },
-              { id: "c", text: "$2$" },
-              { id: "d", text: "$15$" },
+              { id: "c", text: "$1$" },
+              { id: "d", text: "$2$" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -331,12 +331,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$5$ minutes" },
-              { id: "b", text: "$25$ minutes" },
-              { id: "c", text: "$30$ minutes" },
-              { id: "d", text: "$150$ minutes" },
+              { id: "a", text: "$150$ minutes" },
+              { id: "b", text: "$30$ minutes" },
+              { id: "c", text: "$25$ minutes" },
+              { id: "d", text: "$5$ minutes" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -499,12 +499,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$15$" },
+              { id: "a", text: "$125$" },
               { id: "b", text: "$25$" },
-              { id: "c", text: "$125$" },
+              { id: "c", text: "$15$" },
               { id: "d", text: "$243$" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -605,12 +605,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$12$" },
-              { id: "b", text: "$36$" },
-              { id: "c", text: "$216$" },
-              { id: "d", text: "$18$" },
+              { id: "a", text: "$216$" },
+              { id: "b", text: "$18$" },
+              { id: "c", text: "$12$" },
+              { id: "d", text: "$36$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -632,12 +632,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$8$" },
+              { id: "a", text: "$32$" },
               { id: "b", text: "$16$" },
-              { id: "c", text: "$32$" },
-              { id: "d", text: "$4$" },
+              { id: "c", text: "$4$" },
+              { id: "d", text: "$8$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -660,11 +660,11 @@ export const lesson12: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$127$" },
-              { id: "b", text: "$235$" },
-              { id: "c", text: "$342$" },
-              { id: "d", text: "$481$" },
+              { id: "b", text: "$342$" },
+              { id: "c", text: "$481$" },
+              { id: "d", text: "$235$" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -724,12 +724,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It is even" },
-              { id: "b", text: "It is 0 or 5" },
-              { id: "c", text: "The digit sum is a multiple of 5" },
+              { id: "a", text: "It is 0 or 5" },
+              { id: "b", text: "The digit sum is a multiple of 5" },
+              { id: "c", text: "It is even" },
               { id: "d", text: "It is 0" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -771,12 +771,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$10$" },
-              { id: "b", text: "$11$" },
+              { id: "a", text: "$13$" },
+              { id: "b", text: "$10$" },
               { id: "c", text: "$12$" },
-              { id: "d", text: "$13$" },
+              { id: "d", text: "$11$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

@@ -80,12 +80,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "GDP, population, military spending" },
-              { id: "b", text: "Income, education and life expectancy" },
-              { id: "c", text: "Exports, imports, inflation" },
-              { id: "d", text: "Area, population density, rainfall" },
+              { id: "a", text: "Area, population density, rainfall" },
+              { id: "b", text: "Exports, imports, inflation" },
+              { id: "c", text: "Income, education and life expectancy" },
+              { id: "d", text: "GDP, population, military spending" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -275,12 +275,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "GDP per capita" },
-              { id: "b", text: "Life expectancy at birth" },
-              { id: "c", text: "Export earnings per capita" },
-              { id: "d", text: "Military spending as a share of GDP" },
+              { id: "a", text: "Export earnings per capita" },
+              { id: "b", text: "Military spending as a share of GDP" },
+              { id: "c", text: "GDP per capita" },
+              { id: "d", text: "Life expectancy at birth" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -555,12 +555,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Life expectancy at birth" },
-              { id: "b", text: "Mean years of schooling" },
-              { id: "c", text: "Political freedom index" },
-              { id: "d", text: "GNI per capita" },
+              { id: "a", text: "GNI per capita" },
+              { id: "b", text: "Political freedom index" },
+              { id: "c", text: "Mean years of schooling" },
+              { id: "d", text: "Life expectancy at birth" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -676,12 +676,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A basic need" },
+              { id: "a", text: "A military priority" },
               { id: "b", text: "A luxury good" },
-              { id: "c", text: "An export commodity" },
-              { id: "d", text: "A military priority" },
+              { id: "c", text: "A basic need" },
+              { id: "d", text: "An export commodity" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

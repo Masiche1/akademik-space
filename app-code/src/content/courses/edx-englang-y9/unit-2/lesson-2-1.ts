@@ -58,12 +58,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The travellers left the inn at about five o'clock" },
-              { id: "b", text: "The mule-driver disliked the travellers" },
-              { id: "c", text: "The ascent was too dangerous to attempt" },
-              { id: "d", text: "The travellers were short of money" },
+              { id: "a", text: "The mule-driver disliked the travellers" },
+              { id: "b", text: "The ascent was too dangerous to attempt" },
+              { id: "c", text: "The travellers were short of money" },
+              { id: "d", text: "The travellers left the inn at about five o'clock" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "skill", name: "Retrieval", statement: "Explicit information can be found stated directly in the text." }],
@@ -201,9 +201,9 @@ export const lesson21: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Awed" },
-              { id: "b", text: "Bored" },
-              { id: "c", text: "Resentful" },
-              { id: "d", text: "Confused" },
+              { id: "b", text: "Resentful" },
+              { id: "c", text: "Confused" },
+              { id: "d", text: "Bored" },
             ],
             correctChoiceId: "a",
           },

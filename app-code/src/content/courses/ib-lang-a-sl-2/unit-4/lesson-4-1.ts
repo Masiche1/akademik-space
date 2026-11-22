@@ -52,12 +52,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "How does the rhyme scheme create meaning?" },
-              { id: "b", text: "Whose culture is centred and whose is silenced?" },
+              { id: "a", text: "Whose culture is centred and whose is silenced?" },
+              { id: "b", text: "How are women represented?" },
               { id: "c", text: "What are the economic relations between characters?" },
-              { id: "d", text: "How are women represented?" },
+              { id: "d", text: "How does the rhyme scheme create meaning?" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -164,11 +164,11 @@ export const lesson41: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "How does the rhyme scheme structure the poem?" },
-              { id: "b", text: "What economic relations and class positions organise the text's world?" },
+              { id: "b", text: "What does the allusion to the myth add?" },
               { id: "c", text: "How are the female characters represented?" },
-              { id: "d", text: "What does the allusion to the myth add?" },
+              { id: "d", text: "What economic relations and class positions organise the text's world?" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -189,12 +189,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The author's biography" },
-              { id: "b", text: "The text's internal language and structure" },
-              { id: "c", text: "The historical events of its period" },
-              { id: "d", text: "The reader's personal response" },
+              { id: "a", text: "The text's internal language and structure" },
+              { id: "b", text: "The historical events of its period" },
+              { id: "c", text: "The reader's personal response" },
+              { id: "d", text: "The author's biography" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -215,9 +215,9 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Feminist — 'What are the economic relations between the characters?'" },
+              { id: "a", text: "Formalist — 'Whose culture is centred in the text?'" },
               { id: "b", text: "Postcolonial — 'How does the syntax create suspense?'" },
-              { id: "c", text: "Formalist — 'Whose culture is centred in the text?'" },
+              { id: "c", text: "Feminist — 'What are the economic relations between the characters?'" },
               { id: "d", text: "Psychoanalytic — 'What does the character's silence repress?'" },
             ],
             correctChoiceId: "d",
@@ -352,10 +352,10 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The rhyme scheme and metre" },
+              { id: "a", text: "The historical period of composition" },
               { id: "b", text: "Characters' repressed desires and the unconscious" },
               { id: "c", text: "The economic structure of the plot" },
-              { id: "d", text: "The historical period of composition" },
+              { id: "d", text: "The rhyme scheme and metre" },
             ],
             correctChoiceId: "b",
           },
@@ -378,10 +378,10 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Feminist criticism can only be applied to texts by women" },
+              { id: "a", text: "It ignores the text's plot" },
               { id: "b", text: "It confuses subject matter with analysis — it labels the text rather than arguing a claim about power" },
               { id: "c", text: "Heroines cannot appear in feminist readings" },
-              { id: "d", text: "It ignores the text's plot" },
+              { id: "d", text: "Feminist criticism can only be applied to texts by women" },
             ],
             correctChoiceId: "b",
           },
@@ -431,12 +431,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "'The text is basically about women.'" },
-              { id: "b", text: "'The text figures female silence as complicity in patriarchal order.'" },
-              { id: "c", text: "'I think the author probably supported women's rights.'" },
-              { id: "d", text: "'This poem uses lots of imagery.'" },
+              { id: "a", text: "'This poem uses lots of imagery.'" },
+              { id: "b", text: "'I think the author probably supported women's rights.'" },
+              { id: "c", text: "'The text is basically about women.'" },
+              { id: "d", text: "'The text figures female silence as complicity in patriarchal order.'" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -523,12 +523,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Is always correct" },
-              { id: "b", text: "Is supported by textual evidence" },
+              { id: "a", text: "Is written by the author" },
+              { id: "b", text: "Is always correct" },
               { id: "c", text: "Is longer" },
-              { id: "d", text: "Is written by the author" },
+              { id: "d", text: "Is supported by textual evidence" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -633,12 +633,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Is always wrong" },
-              { id: "b", text: "Is supported by thin or absent textual evidence" },
+              { id: "a", text: "Is supported by thin or absent textual evidence" },
+              { id: "b", text: "Concerns minor characters" },
               { id: "c", text: "Is written quickly" },
-              { id: "d", text: "Concerns minor characters" },
+              { id: "d", text: "Is always wrong" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -659,12 +659,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A flaw to be corrected" },
-              { id: "b", text: "A feature that sustains multiple defensible readings" },
-              { id: "c", text: "A sign the author failed" },
-              { id: "d", text: "Irrelevant to analysis" },
+              { id: "a", text: "A sign the author failed" },
+              { id: "b", text: "Irrelevant to analysis" },
+              { id: "c", text: "A feature that sustains multiple defensible readings" },
+              { id: "d", text: "A flaw to be corrected" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -686,11 +686,11 @@ export const lesson41: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "'She is happy' / 'She hates the news'" },
-              { id: "b", text: "'The smile performs composure under grief' / 'The smile conceals relief that a threat has passed'" },
-              { id: "c", text: "'She is a liar' / 'She is kind'" },
+              { id: "b", text: "'She is a liar' / 'She is kind'" },
+              { id: "c", text: "'The smile performs composure under grief' / 'The smile conceals relief that a threat has passed'" },
               { id: "d", text: "'The author dislikes her' / 'The author loves her'" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -822,12 +822,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Long" },
-              { id: "b", text: "Grounded in specific textual evidence" },
-              { id: "c", text: "Popular with readers" },
-              { id: "d", text: "Written in the first person" },
+              { id: "a", text: "Grounded in specific textual evidence" },
+              { id: "b", text: "Long" },
+              { id: "c", text: "Written in the first person" },
+              { id: "d", text: "Popular with readers" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -849,11 +849,11 @@ export const lesson41: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Is the interpretation interesting?" },
-              { id: "b", text: "Does it account for the whole text rather than a single detail?" },
+              { id: "b", text: "Does it agree with the author's stated intention?" },
               { id: "c", text: "Does it use technical vocabulary?" },
-              { id: "d", text: "Does it agree with the author's stated intention?" },
+              { id: "d", text: "Does it account for the whole text rather than a single detail?" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -901,12 +901,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Abandon the interpretation entirely" },
-              { id: "b", text: "Admit the evidence is ambiguous and another reading is possible" },
-              { id: "c", text: "Say vaguely that 'some might disagree'" },
-              { id: "d", text: "Ignore counter-evidence" },
+              { id: "a", text: "Admit the evidence is ambiguous and another reading is possible" },
+              { id: "b", text: "Say vaguely that 'some might disagree'" },
+              { id: "c", text: "Ignore counter-evidence" },
+              { id: "d", text: "Abandon the interpretation entirely" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

@@ -83,8 +83,8 @@ export const lesson64: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Constant difference between terms" },
-              { id: "b", text: "Constant ratio" },
-              { id: "c", text: "No pattern" },
+              { id: "b", text: "No pattern" },
+              { id: "c", text: "Constant ratio" },
               { id: "d", text: "Random terms" },
             ],
           correctChoiceId: "a",
@@ -111,12 +111,12 @@ export const lesson64: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Constant ratio between terms" },
+              { id: "a", text: "Random" },
               { id: "b", text: "Constant difference" },
-              { id: "c", text: "No pattern" },
-              { id: "d", text: "Random" },
+              { id: "c", text: "Constant ratio between terms" },
+              { id: "d", text: "No pattern" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -138,12 +138,12 @@ export const lesson64: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "a + (n−1)d" },
-              { id: "b", text: "ar^(n−1)" },
-              { id: "c", text: "a + nd" },
+              { id: "a", text: "a + nd" },
+              { id: "b", text: "a + (n−1)d" },
+              { id: "c", text: "ar^(n−1)" },
               { id: "d", text: "a·r^n" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -166,9 +166,9 @@ export const lesson64: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "ar^(n−1)" },
-              { id: "b", text: "a+(n−1)d" },
-              { id: "c", text: "a·n^r" },
-              { id: "d", text: "a+r^n" },
+              { id: "b", text: "a·n^r" },
+              { id: "c", text: "a+r^n" },
+              { id: "d", text: "a+(n−1)d" },
             ],
           correctChoiceId: "a",
           },
@@ -192,12 +192,12 @@ export const lesson64: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "|r| < 1" },
-              { id: "b", text: "|r| > 1" },
+              { id: "a", text: "|r| > 1" },
+              { id: "b", text: "Always" },
               { id: "c", text: "r = 1" },
-              { id: "d", text: "Always" },
+              { id: "d", text: "|r| < 1" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -215,12 +215,12 @@ export const lesson64: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "a/(1−r)" },
-              { id: "b", text: "a(1−r)" },
+              { id: "a", text: "a(1−r)" },
+              { id: "b", text: "a/(1−r)" },
               { id: "c", text: "a/(1+r)" },
               { id: "d", text: "ar/(1−r)" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -243,9 +243,9 @@ export const lesson64: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Summation" },
-              { id: "b", text: "Product" },
-              { id: "c", text: "Integral" },
-              { id: "d", text: "Derivative" },
+              { id: "b", text: "Integral" },
+              { id: "c", text: "Derivative" },
+              { id: "d", text: "Product" },
             ],
           correctChoiceId: "a",
           },
@@ -265,12 +265,12 @@ export const lesson64: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Arithmetic series (d=3)" },
-              { id: "b", text: "Geometric" },
+              { id: "a", text: "Geometric" },
+              { id: "b", text: "Arithmetic series (d=3)" },
               { id: "c", text: "Neither" },
               { id: "d", text: "Constant" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -289,9 +289,9 @@ export const lesson64: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Geometric series (r=2)" },
-              { id: "b", text: "Arithmetic" },
-              { id: "c", text: "Neither" },
-              { id: "d", text: "Constant" },
+              { id: "b", text: "Constant" },
+              { id: "c", text: "Arithmetic" },
+              { id: "d", text: "Neither" },
             ],
           correctChoiceId: "a",
           },
@@ -311,12 +311,12 @@ export const lesson64: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "n(n+1)/2" },
+              { id: "a", text: "n!" },
               { id: "b", text: "n²" },
-              { id: "c", text: "n!" },
+              { id: "c", text: "n(n+1)/2" },
               { id: "d", text: "2^n" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -338,12 +338,12 @@ export const lesson64: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "110" },
-              { id: "b", text: "100" },
+              { id: "a", text: "55" },
+              { id: "b", text: "110" },
               { id: "c", text: "210" },
-              { id: "d", text: "55" },
+              { id: "d", text: "100" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -365,12 +365,12 @@ export const lesson64: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "19" },
-              { id: "b", text: "17" },
-              { id: "c", text: "21" },
-              { id: "d", text: "23" },
+              { id: "a", text: "23" },
+              { id: "b", text: "21" },
+              { id: "c", text: "19" },
+              { id: "d", text: "17" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -392,12 +392,12 @@ export const lesson64: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "2" },
-              { id: "b", text: "1" },
-              { id: "c", text: "4" },
-              { id: "d", text: "Does not converge" },
+              { id: "a", text: "1" },
+              { id: "b", text: "Does not converge" },
+              { id: "c", text: "2" },
+              { id: "d", text: "4" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -419,12 +419,12 @@ export const lesson64: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "5(2^10 − 1) = 5115" },
-              { id: "b", text: "5000" },
-              { id: "c", text: "10240" },
+              { id: "a", text: "5000" },
+              { id: "b", text: "10240" },
+              { id: "c", text: "5(2^10 − 1) = 5115" },
               { id: "d", text: "2047" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -446,12 +446,12 @@ export const lesson64: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "1/3" },
-              { id: "b", text: "3/10" },
-              { id: "c", text: "1/2" },
-              { id: "d", text: "Cannot determine" },
+              { id: "a", text: "3/10" },
+              { id: "b", text: "Cannot determine" },
+              { id: "c", text: "1/3" },
+              { id: "d", text: "1/2" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -473,12 +473,12 @@ export const lesson64: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "14" },
-              { id: "b", text: "9" },
-              { id: "c", text: "6" },
-              { id: "d", text: "36" },
+              { id: "a", text: "9" },
+              { id: "b", text: "6" },
+              { id: "c", text: "36" },
+              { id: "d", text: "14" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -497,9 +497,9 @@ export const lesson64: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "5" },
-              { id: "b", text: "7" },
+              { id: "b", text: "12" },
               { id: "c", text: "10" },
-              { id: "d", text: "12" },
+              { id: "d", text: "7" },
             ],
           correctChoiceId: "a",
           },
@@ -520,9 +520,9 @@ export const lesson64: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "3" },
-              { id: "b", text: "2" },
+              { id: "b", text: "12" },
               { id: "c", text: "6" },
-              { id: "d", text: "12" },
+              { id: "d", text: "2" },
             ],
           correctChoiceId: "a",
           },
@@ -543,9 +543,9 @@ export const lesson64: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "3/2" },
-              { id: "b", text: "1" },
-              { id: "c", text: "3" },
-              { id: "d", text: "Does not converge" },
+              { id: "b", text: "Does not converge" },
+              { id: "c", text: "1" },
+              { id: "d", text: "3" },
             ],
           correctChoiceId: "a",
           },
@@ -684,12 +684,12 @@ export const lesson64: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "5n − 1" },
-              { id: "b", text: "5n + 4" },
-              { id: "c", text: "4n + 5" },
-              { id: "d", text: "n + 3" },
+              { id: "a", text: "4n + 5" },
+              { id: "b", text: "5n − 1" },
+              { id: "c", text: "n + 3" },
+              { id: "d", text: "5n + 4" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -763,9 +763,9 @@ export const lesson64: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "n/2(2a + (n−1)d)" },
-              { id: "b", text: "a(1−r^n)/(1−r)" },
+              { id: "b", text: "a^n" },
               { id: "c", text: "n(a+l)" },
-              { id: "d", text: "a^n" },
+              { id: "d", text: "a(1−r^n)/(1−r)" },
             ],
           correctChoiceId: "a",
           },
@@ -910,12 +910,12 @@ export const lesson64: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Base case + inductive step" },
-              { id: "b", text: "Only base case" },
+              { id: "a", text: "Only base case" },
+              { id: "b", text: "No structure" },
               { id: "c", text: "Only step" },
-              { id: "d", text: "No structure" },
+              { id: "d", text: "Base case + inductive step" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -940,8 +940,8 @@ export const lesson64: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Assume true for n=k" },
-              { id: "b", text: "Prove for n=1" },
-              { id: "c", text: "Conclude" },
+              { id: "b", text: "Conclude" },
+              { id: "c", text: "Prove for n=1" },
               { id: "d", text: "Base case" },
             ],
           correctChoiceId: "a",
@@ -966,12 +966,12 @@ export const lesson64: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Assuming the negation" },
-              { id: "b", text: "Proving directly" },
-              { id: "c", text: "Base case" },
-              { id: "d", text: "Induction" },
+              { id: "a", text: "Proving directly" },
+              { id: "b", text: "Assuming the negation" },
+              { id: "c", text: "Induction" },
+              { id: "d", text: "Base case" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -994,9 +994,9 @@ export const lesson64: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Disprove a universal statement" },
-              { id: "b", text: "Prove it" },
+              { id: "b", text: "Only help" },
               { id: "c", text: "No effect" },
-              { id: "d", text: "Only help" },
+              { id: "d", text: "Prove it" },
             ],
           correctChoiceId: "a",
           },
@@ -1020,12 +1020,12 @@ export const lesson64: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "P and derives Q" },
-              { id: "b", text: "Q" },
-              { id: "c", text: "¬P" },
-              { id: "d", text: "Nothing" },
+              { id: "a", text: "Q" },
+              { id: "b", text: "Nothing" },
+              { id: "c", text: "P and derives Q" },
+              { id: "d", text: "¬P" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1047,12 +1047,12 @@ export const lesson64: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Integers n ≥ 1" },
+              { id: "a", text: "No domain" },
               { id: "b", text: "Real numbers" },
               { id: "c", text: "All numbers" },
-              { id: "d", text: "No domain" },
+              { id: "d", text: "Integers n ≥ 1" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1074,12 +1074,12 @@ export const lesson64: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "n = 1" },
-              { id: "b", text: "n = 0" },
-              { id: "c", text: "n = ∞" },
-              { id: "d", text: "Any n" },
+              { id: "a", text: "n = 0" },
+              { id: "b", text: "Any n" },
+              { id: "c", text: "n = 1" },
+              { id: "d", text: "n = ∞" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1098,9 +1098,9 @@ export const lesson64: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Contradiction" },
-              { id: "b", text: "Induction" },
-              { id: "c", text: "Direct" },
-              { id: "d", text: "Counterexample" },
+              { id: "b", text: "Direct" },
+              { id: "c", text: "Counterexample" },
+              { id: "d", text: "Induction" },
             ],
           correctChoiceId: "a",
           },
@@ -1124,12 +1124,12 @@ export const lesson64: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Original statement is true" },
-              { id: "b", text: "False" },
+              { id: "a", text: "False" },
+              { id: "b", text: "Retry" },
               { id: "c", text: "Unknown" },
-              { id: "d", text: "Retry" },
+              { id: "d", text: "Original statement is true" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1153,12 +1153,12 @@ export const lesson64: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Logically valid for all cases" },
+              { id: "a", text: "Numerical" },
               { id: "b", text: "One example" },
               { id: "c", text: "Intuitive" },
-              { id: "d", text: "Numerical" },
+              { id: "d", text: "Logically valid for all cases" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1181,8 +1181,8 @@ export const lesson64: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "A counterexample (2 is prime and even)" },
-              { id: "b", text: "Induction" },
-              { id: "c", text: "Direct proof" },
+              { id: "b", text: "Direct proof" },
+              { id: "c", text: "Induction" },
               { id: "d", text: "Contradiction" },
             ],
           correctChoiceId: "a",
@@ -1210,8 +1210,8 @@ export const lesson64: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "If true for n=k then true for n=k+1" },
-              { id: "b", text: "n=1" },
-              { id: "c", text: "All n at once" },
+              { id: "b", text: "All n at once" },
+              { id: "c", text: "n=1" },
               { id: "d", text: "Nothing" },
             ],
           correctChoiceId: "a",
@@ -1240,9 +1240,9 @@ export const lesson64: Lesson = {
                 id: "a",
                 text: "Base case + inductive step covers all integers",
               },
-              { id: "b", text: "One example" },
-              { id: "c", text: "Numerical" },
-              { id: "d", text: "No reason" },
+              { id: "b", text: "Numerical" },
+              { id: "c", text: "No reason" },
+              { id: "d", text: "One example" },
             ],
           correctChoiceId: "a",
           },
@@ -1268,12 +1268,12 @@ export const lesson64: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "One black swan" },
-              { id: "b", text: "Many white swans" },
+              { id: "a", text: "Many white swans" },
+              { id: "b", text: "One black swan" },
               { id: "c", text: "Proof" },
               { id: "d", text: "Nothing" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1295,12 +1295,12 @@ export const lesson64: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "if ¬Q then ¬P" },
-              { id: "b", text: "if Q then P" },
-              { id: "c", text: "if ¬P then ¬Q" },
-              { id: "d", text: "if P then ¬Q" },
+              { id: "a", text: "if Q then P" },
+              { id: "b", text: "if ¬P then ¬Q" },
+              { id: "c", text: "if P then ¬Q" },
+              { id: "d", text: "if ¬Q then ¬P" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1322,12 +1322,12 @@ export const lesson64: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Logically equivalent" },
-              { id: "b", text: "Opposites" },
-              { id: "c", text: "Unrelated" },
-              { id: "d", text: "Negations" },
+              { id: "a", text: "Opposites" },
+              { id: "b", text: "Logically equivalent" },
+              { id: "c", text: "Negations" },
+              { id: "d", text: "Unrelated" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1349,12 +1349,12 @@ export const lesson64: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "√2 = p/q in lowest terms" },
-              { id: "b", text: "√2 irrational" },
+              { id: "a", text: "Nothing" },
+              { id: "b", text: "√2 = p/q in lowest terms" },
               { id: "c", text: "p, q even" },
-              { id: "d", text: "Nothing" },
+              { id: "d", text: "√2 irrational" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1376,12 +1376,12 @@ export const lesson64: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Statement for n=k+1" },
-              { id: "b", text: "n=1" },
-              { id: "c", text: "All n" },
+              { id: "a", text: "All n" },
+              { id: "b", text: "Statement for n=k+1" },
+              { id: "c", text: "n=1" },
               { id: "d", text: "Nothing" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1403,12 +1403,12 @@ export const lesson64: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "All possible cases" },
-              { id: "b", text: "One case" },
-              { id: "c", text: "Most cases" },
-              { id: "d", text: "No cases" },
+              { id: "a", text: "One case" },
+              { id: "b", text: "No cases" },
+              { id: "c", text: "All possible cases" },
+              { id: "d", text: "Most cases" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1559,12 +1559,12 @@ export const lesson64: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Contradiction" },
-              { id: "b", text: "Induction" },
+              { id: "a", text: "Counterexample" },
+              { id: "b", text: "Contradiction" },
               { id: "c", text: "Direct" },
-              { id: "d", text: "Counterexample" },
+              { id: "d", text: "Induction" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1645,12 +1645,12 @@ export const lesson64: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Statement splits into cases" },
-              { id: "b", text: "No cases" },
-              { id: "c", text: "One case" },
+              { id: "a", text: "No cases" },
+              { id: "b", text: "One case" },
+              { id: "c", text: "Statement splits into cases" },
               { id: "d", text: "Never" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1805,12 +1805,12 @@ export const lesson64: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Derivative and function" },
-              { id: "b", text: "Only function" },
-              { id: "c", text: "Only derivative" },
-              { id: "d", text: "No function" },
+              { id: "a", text: "Only derivative" },
+              { id: "b", text: "Derivative and function" },
+              { id: "c", text: "No function" },
+              { id: "d", text: "Only function" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1838,12 +1838,12 @@ export const lesson64: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "dy/dx = f(x)g(y)" },
-              { id: "b", text: "dy/dx = f(x)+g(y)" },
-              { id: "c", text: "dy/dx = f(x)·y only" },
-              { id: "d", text: "No form" },
+              { id: "a", text: "No form" },
+              { id: "b", text: "dy/dx = f(x)·y only" },
+              { id: "c", text: "dy/dx = f(x)+g(y)" },
+              { id: "d", text: "dy/dx = f(x)g(y)" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1863,12 +1863,12 @@ export const lesson64: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "dy/dx + P(x)y = Q(x)" },
-              { id: "b", text: "dy/dx = y²" },
+              { id: "a", text: "dy/dx = y²" },
+              { id: "b", text: "dy/dx + P(x)y = Q(x)" },
               { id: "c", text: "dy/dx = f(y)" },
               { id: "d", text: "No form" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1891,8 +1891,8 @@ export const lesson64: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "e^(∫P dx)" },
-              { id: "b", text: "e^(∫Q dx)" },
-              { id: "c", text: "P(x)" },
+              { id: "b", text: "P(x)" },
+              { id: "c", text: "e^(∫Q dx)" },
               { id: "d", text: "Q(x)" },
             ],
           correctChoiceId: "a",
@@ -1917,12 +1917,12 @@ export const lesson64: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "y = Ae^(kx)" },
-              { id: "b", text: "y = Ax + B" },
+              { id: "a", text: "y = Ax + B" },
+              { id: "b", text: "y = e^x" },
               { id: "c", text: "y = kx" },
-              { id: "d", text: "y = e^x" },
+              { id: "d", text: "y = Ae^(kx)" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1944,12 +1944,12 @@ export const lesson64: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Find the constant of integration" },
-              { id: "b", text: "Check answer" },
-              { id: "c", text: "No use" },
-              { id: "d", text: "Differentiate" },
+              { id: "a", text: "Check answer" },
+              { id: "b", text: "No use" },
+              { id: "c", text: "Differentiate" },
+              { id: "d", text: "Find the constant of integration" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1971,12 +1971,12 @@ export const lesson64: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Separable" },
-              { id: "b", text: "Linear only" },
-              { id: "c", text: "Neither" },
-              { id: "d", text: "Non-separable" },
+              { id: "a", text: "Linear only" },
+              { id: "b", text: "Non-separable" },
+              { id: "c", text: "Separable" },
+              { id: "d", text: "Neither" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1998,12 +1998,12 @@ export const lesson64: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Both separable and linear" },
-              { id: "b", text: "Only separable" },
+              { id: "a", text: "Neither" },
+              { id: "b", text: "Both separable and linear" },
               { id: "c", text: "Only linear" },
-              { id: "d", text: "Neither" },
+              { id: "d", text: "Only separable" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -2021,12 +2021,12 @@ export const lesson64: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "First" },
-              { id: "b", text: "Second" },
+              { id: "a", text: "Second" },
+              { id: "b", text: "First" },
               { id: "c", text: "Zero" },
               { id: "d", text: "Third" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -2048,12 +2048,12 @@ export const lesson64: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Separating variables" },
-              { id: "b", text: "Integrating factor" },
-              { id: "c", text: "Newton-Raphson" },
-              { id: "d", text: "No method" },
+              { id: "a", text: "Newton-Raphson" },
+              { id: "b", text: "No method" },
+              { id: "c", text: "Integrating factor" },
+              { id: "d", text: "Separating variables" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -2074,8 +2074,8 @@ export const lesson64: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "y = x³ + C" },
-              { id: "b", text: "y = 3x³ + C" },
-              { id: "c", text: "y = x³" },
+              { id: "b", text: "y = x³" },
+              { id: "c", text: "y = 3x³ + C" },
               { id: "d", text: "y = 6x + C" },
             ],
           correctChoiceId: "a",
@@ -2098,8 +2098,8 @@ export const lesson64: Lesson = {
             choices: [
               { id: "a", text: "y² = x² + 1" },
               { id: "b", text: "y = x + 1" },
-              { id: "c", text: "y² = x²" },
-              { id: "d", text: "y = x² + 1" },
+              { id: "c", text: "y = x² + 1" },
+              { id: "d", text: "y² = x²" },
             ],
           correctChoiceId: "a",
           },
@@ -2123,12 +2123,12 @@ export const lesson64: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "y = Ae^(−x)" },
-              { id: "b", text: "y = Ax + B" },
-              { id: "c", text: "y = e^x" },
-              { id: "d", text: "y = x" },
+              { id: "a", text: "y = Ax + B" },
+              { id: "b", text: "y = x" },
+              { id: "c", text: "y = Ae^(−x)" },
+              { id: "d", text: "y = e^x" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -2146,12 +2146,12 @@ export const lesson64: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Exponential growth" },
-              { id: "b", text: "Decay" },
-              { id: "c", text: "Linear" },
-              { id: "d", text: "Constant" },
+              { id: "a", text: "Linear" },
+              { id: "b", text: "Constant" },
+              { id: "c", text: "Decay" },
+              { id: "d", text: "Exponential growth" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -2169,12 +2169,12 @@ export const lesson64: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Exponential decay" },
-              { id: "b", text: "Growth" },
-              { id: "c", text: "Linear" },
-              { id: "d", text: "Constant" },
+              { id: "a", text: "Growth" },
+              { id: "b", text: "Linear" },
+              { id: "c", text: "Constant" },
+              { id: "d", text: "Exponential decay" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -2192,12 +2192,12 @@ export const lesson64: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "y = e^x + C" },
+              { id: "a", text: "y = e^(x²) + C" },
               { id: "b", text: "y = xe^x + C" },
-              { id: "c", text: "y = e^(x²) + C" },
+              { id: "c", text: "y = e^x + C" },
               { id: "d", text: "y = x + C" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -2215,12 +2215,12 @@ export const lesson64: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "dy/dx = −k(y − T_env)" },
+              { id: "a", text: "dy/dx = k" },
               { id: "b", text: "dy/dx = ky" },
-              { id: "c", text: "dy/dx = k" },
-              { id: "d", text: "dy/dx = y²" },
+              { id: "c", text: "dy/dx = y²" },
+              { id: "d", text: "dy/dx = −k(y − T_env)" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -2238,12 +2238,12 @@ export const lesson64: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Separable" },
+              { id: "a", text: "Neither" },
               { id: "b", text: "Linear only" },
-              { id: "c", text: "Neither" },
+              { id: "c", text: "Separable" },
               { id: "d", text: "Second order" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -2261,12 +2261,12 @@ export const lesson64: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "General solution with constant determined" },
-              { id: "b", text: "Two solutions" },
-              { id: "c", text: "No solution" },
-              { id: "d", text: "Particular only" },
+              { id: "a", text: "Two solutions" },
+              { id: "b", text: "No solution" },
+              { id: "c", text: "Particular only" },
+              { id: "d", text: "General solution with constant determined" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -2414,12 +2414,12 @@ export const lesson64: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "y = ln|x| + C" },
-              { id: "b", text: "y = x + C" },
-              { id: "c", text: "y = 1/x + C" },
-              { id: "d", text: "y = x²/2 + C" },
+              { id: "a", text: "y = x + C" },
+              { id: "b", text: "y = 1/x + C" },
+              { id: "c", text: "y = x²/2 + C" },
+              { id: "d", text: "y = ln|x| + C" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -2496,12 +2496,12 @@ export const lesson64: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Separable and linear" },
-              { id: "b", text: "Only separable" },
-              { id: "c", text: "Only linear" },
-              { id: "d", text: "Neither" },
+              { id: "a", text: "Only separable" },
+              { id: "b", text: "Only linear" },
+              { id: "c", text: "Neither" },
+              { id: "d", text: "Separable and linear" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "d",
           },
           markscheme: {
             principles: [

@@ -69,12 +69,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "'the last man in the world'" },
-              { id: "b", text: "'a month'" },
-              { id: "c", text: "'the very beginning'" },
-              { id: "d", text: "'succeeding events'" },
+              { id: "a", text: "'succeeding events'" },
+              { id: "b", text: "'the last man in the world'" },
+              { id: "c", text: "'a month'" },
+              { id: "d", text: "'the very beginning'" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Superlative", statement: "A superlative expresses the extreme degree of a feeling." }],
@@ -209,12 +209,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "They are very interested in Darcy's wealth" },
-              { id: "b", text: "They think Darcy is generous" },
-              { id: "c", text: "They are unconcerned about money" },
-              { id: "d", text: "They believe Darcy is too poor to marry" },
+              { id: "a", text: "They believe Darcy is too poor to marry" },
+              { id: "b", text: "They are unconcerned about money" },
+              { id: "c", text: "They are very interested in Darcy's wealth" },
+              { id: "d", text: "They think Darcy is generous" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "context", name: "Marriage and money", statement: "In Regency society a man's income determined his desirability." }],

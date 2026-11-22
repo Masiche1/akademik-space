@@ -53,12 +53,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Comparing two poems" },
-              { id: "b", text: "Comparing texts from different genres on related subjects" },
-              { id: "c", text: "Comparing books and movies" },
-              { id: "d", text: "Comparing authors" },
+              { id: "a", text: "Comparing authors" },
+              { id: "b", text: "Comparing two poems" },
+              { id: "c", text: "Comparing texts from different genres on related subjects" },
+              { id: "d", text: "Comparing books and movies" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -148,12 +148,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "They use identical language" },
-              { id: "b", text: "They share a theme but treat it differently" },
+              { id: "a", text: "They are the same length" },
+              { id: "b", text: "They use identical language" },
               { id: "c", text: "They were written by the same author" },
-              { id: "d", text: "They are the same length" },
+              { id: "d", text: "They share a theme but treat it differently" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Cross-genre connection", statement: "Different genres share themes but treat them through different means." }],
@@ -191,12 +191,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "They are the same genre" },
-              { id: "b", text: "Different genres exploring the same theme" },
-              { id: "c", text: "They were written by the same author" },
-              { id: "d", text: "They are both poems" },
+              { id: "a", text: "They were written by the same author" },
+              { id: "b", text: "They are both poems" },
+              { id: "c", text: "They are the same genre" },
+              { id: "d", text: "Different genres exploring the same theme" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Cross-genre", statement: "Cross-genre = comparing texts from different genres on related subjects." }],
@@ -236,12 +236,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Two sonnets about love" },
-              { id: "b", text: "A novel and a news article about the same war" },
-              { id: "c", text: "Two chapters of the same textbook" },
+              { id: "a", text: "Two chapters of the same textbook" },
+              { id: "b", text: "Two sonnets about love" },
+              { id: "c", text: "A novel and a news article about the same war" },
               { id: "d", text: "A poem and its translation" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Cross-genre", statement: "Cross-genre = different genres, related subjects." }],
@@ -313,9 +313,9 @@ export const lesson12: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "How a genre handles a subject — fiction uses story, non-fiction uses facts" },
-              { id: "b", text: "Medical treatment of illness" },
-              { id: "c", text: "How long the text is" },
-              { id: "d", text: "The author's education" },
+              { id: "b", text: "How long the text is" },
+              { id: "c", text: "The author's education" },
+              { id: "d", text: "Medical treatment of illness" },
             ],
             correctChoiceId: "a",
           },
@@ -340,12 +340,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Both give identical information" },
-              { id: "b", text: "Memoir preserves feeling; history preserves facts — complementary" },
-              { id: "c", text: "The memoir is inaccurate" },
-              { id: "d", text: "The history book is a story" },
+              { id: "a", text: "The history book is a story" },
+              { id: "b", text: "The memoir is inaccurate" },
+              { id: "c", text: "Memoir preserves feeling; history preserves facts — complementary" },
+              { id: "d", text: "Both give identical information" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Cross-genre connection", statement: "Memoir preserves personal memory; history preserves facts." }],
@@ -366,8 +366,8 @@ export const lesson12: Lesson = {
             choices: [
               { id: "a", text: "To confuse the reader" },
               { id: "b", text: "To give both emotional and factual perspectives on the theme" },
-              { id: "c", text: "Because poems need facts to be valid" },
-              { id: "d", text: "To fill more pages" },
+              { id: "c", text: "To fill more pages" },
+              { id: "d", text: "Because poems need facts to be valid" },
             ],
             correctChoiceId: "b",
           },
@@ -470,12 +470,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The longest text" },
-              { id: "b", text: "The text that best achieves its purpose" },
+              { id: "a", text: "The text that best achieves its purpose" },
+              { id: "b", text: "The text you like best" },
               { id: "c", text: "The text with the most words" },
-              { id: "d", text: "The text you like best" },
+              { id: "d", text: "The longest text" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -566,11 +566,11 @@ export const lesson12: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Which is longer" },
-              { id: "b", text: "Which better achieves its own purpose" },
-              { id: "c", text: "Which you personally prefer" },
-              { id: "d", text: "Which has the most quotes" },
+              { id: "b", text: "Which you personally prefer" },
+              { id: "c", text: "Which has the most quotes" },
+              { id: "d", text: "Which better achieves its own purpose" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Purpose-based evaluation", statement: "Judge each text by how well it achieves its own purpose." }],
@@ -608,12 +608,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Clarity and impact" },
-              { id: "b", text: "Price and length" },
-              { id: "c", text: "Font and cover" },
-              { id: "d", text: "Author's age and birthplace" },
+              { id: "a", text: "Price and length" },
+              { id: "b", text: "Font and cover" },
+              { id: "c", text: "Author's age and birthplace" },
+              { id: "d", text: "Clarity and impact" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Evaluation criteria", statement: "Clarity, impact, craft, appropriateness, originality." }],
@@ -654,11 +654,11 @@ export const lesson12: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Only praise the text" },
-              { id: "b", text: "Acknowledge strengths and weaknesses with evidence" },
+              { id: "b", text: "Compare it to other books" },
               { id: "c", text: "Only criticise the text" },
-              { id: "d", text: "Compare it to other books" },
+              { id: "d", text: "Acknowledge strengths and weaknesses with evidence" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Balanced judgment", statement: "Strong evaluations acknowledge both strengths and weaknesses." }],
@@ -727,12 +727,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The price of materials" },
-              { id: "b", text: "The skill and quality of the language used" },
+              { id: "a", text: "The skill and quality of the language used" },
+              { id: "b", text: "The author's fame" },
               { id: "c", text: "The length of the text" },
-              { id: "d", text: "The author's fame" },
+              { id: "d", text: "The price of materials" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Craft", statement: "Craft = skill and quality of language and technique." }],
@@ -771,11 +771,11 @@ export const lesson12: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "'It was good.'" },
-              { id: "b", text: "'It was effective because the imagery created vivid pictures and the ending resolved the central conflict.'" },
+              { id: "b", text: "'It was long.'" },
               { id: "c", text: "'I didn't like it.'" },
-              { id: "d", text: "'It was long.'" },
+              { id: "d", text: "'It was effective because the imagery created vivid pictures and the ending resolved the central conflict.'" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Evaluation quality", statement: "Strong evaluations use criteria and specific evidence." }],

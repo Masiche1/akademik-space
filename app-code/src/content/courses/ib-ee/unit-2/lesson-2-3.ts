@@ -52,10 +52,10 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "One causes the other" },
+              { id: "a", text: "They are identical" },
               { id: "b", text: "They are associated but causation is not proven" },
-              { id: "c", text: "They are identical" },
-              { id: "d", text: "They are unrelated" },
+              { id: "c", text: "They are unrelated" },
+              { id: "d", text: "One causes the other" },
             ],
             correctChoiceId: "b",
           },
@@ -147,12 +147,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The sample is too large" },
-              { id: "b", text: "The sample is not representative of the population being studied" },
+              { id: "a", text: "The source is very old" },
+              { id: "b", text: "The sample is too large" },
               { id: "c", text: "The study uses statistics" },
-              { id: "d", text: "The source is very old" },
+              { id: "d", text: "The sample is not representative of the population being studied" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -174,12 +174,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Selecting sources randomly" },
-              { id: "b", text: "Selecting only evidence that supports your argument while ignoring contradictions" },
-              { id: "c", text: "Citing too many sources" },
-              { id: "d", text: "Using only primary sources" },
+              { id: "a", text: "Using only primary sources" },
+              { id: "b", text: "Citing too many sources" },
+              { id: "c", text: "Selecting only evidence that supports your argument while ignoring contradictions" },
+              { id: "d", text: "Selecting sources randomly" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -239,12 +239,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Using only quantitative data" },
-              { id: "b", text: "Supporting a claim with multiple independent types of evidence" },
-              { id: "c", text: "Writing the essay in three languages" },
-              { id: "d", text: "Using exactly three sources" },
+              { id: "a", text: "Using exactly three sources" },
+              { id: "b", text: "Using only quantitative data" },
+              { id: "c", text: "Supporting a claim with multiple independent types of evidence" },
+              { id: "d", text: "Writing the essay in three languages" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -286,12 +286,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The study is too recent" },
-              { id: "b", text: "Sample bias — the sample is unlikely to represent all teenagers" },
+              { id: "a", text: "Sample bias — the sample is unlikely to represent all teenagers" },
+              { id: "b", text: "No problem exists" },
               { id: "c", text: "The study used too many sources" },
-              { id: "d", text: "No problem exists" },
+              { id: "d", text: "The study is too recent" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -352,12 +352,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Shows the evidence is weak" },
-              { id: "b", text: "Demonstrates balanced evaluation and anticipates objections" },
-              { id: "c", text: "Is required by citation format rules" },
-              { id: "d", text: "Reduces the word count needed" },
+              { id: "a", text: "Is required by citation format rules" },
+              { id: "b", text: "Shows the evidence is weak" },
+              { id: "c", text: "Reduces the word count needed" },
+              { id: "d", text: "Demonstrates balanced evaluation and anticipates objections" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -459,12 +459,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Writing your own essay" },
-              { id: "b", text: "Changing a few words but keeping the source's structure" },
-              { id: "c", text: "Quoting with citation" },
-              { id: "d", text: "Summarising a source" },
+              { id: "a", text: "Changing a few words but keeping the source's structure" },
+              { id: "b", text: "Summarising a source" },
+              { id: "c", text: "Writing your own essay" },
+              { id: "d", text: "Quoting with citation" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -554,10 +554,10 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Copy sources verbatim without recording where they came from" },
+              { id: "a", text: "Avoid writing down any source details" },
               { id: "b", text: "Record citations immediately and mark direct quotes clearly" },
-              { id: "c", text: "Paraphrase everything from memory later" },
-              { id: "d", text: "Avoid writing down any source details" },
+              { id: "c", text: "Copy sources verbatim without recording where they came from" },
+              { id: "d", text: "Paraphrase everything from memory later" },
             ],
             correctChoiceId: "b",
           },
@@ -581,12 +581,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Changing only a few words from the source" },
-              { id: "b", text: "Rewriting in your own sentence structure and wording, with citation" },
-              { id: "c", text: "Shortening the original sentence" },
-              { id: "d", text: "Translating the source into another language" },
+              { id: "a", text: "Translating the source into another language" },
+              { id: "b", text: "Shortening the original sentence" },
+              { id: "c", text: "Changing only a few words from the source" },
+              { id: "d", text: "Rewriting in your own sentence structure and wording, with citation" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -648,8 +648,8 @@ export const lesson23: Lesson = {
             choices: [
               { id: "a", text: "Writing the essay automatically" },
               { id: "b", text: "Organising references and generating citations consistently" },
-              { id: "c", text: "Detecting plagiarism perfectly" },
-              { id: "d", text: "Translating foreign-language sources" },
+              { id: "c", text: "Translating foreign-language sources" },
+              { id: "d", text: "Detecting plagiarism perfectly" },
             ],
             correctChoiceId: "b",
           },
@@ -693,12 +693,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Spelling mistakes only" },
-              { id: "b", text: "Phrasing that still echoes the source's structure — possible patchwriting" },
-              { id: "c", text: "Citation errors only" },
-              { id: "d", text: "Nothing of practical use" },
+              { id: "a", text: "Nothing of practical use" },
+              { id: "b", text: "Spelling mistakes only" },
+              { id: "c", text: "Phrasing that still echoes the source's structure — possible patchwriting" },
+              { id: "d", text: "Citation errors only" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -761,8 +761,8 @@ export const lesson23: Lesson = {
             choices: [
               { id: "a", text: "Be cited in the text, and every in-text citation should appear in the bibliography" },
               { id: "b", text: "Be deleted to save space" },
-              { id: "c", text: "Be longer than the essay itself" },
-              { id: "d", text: "Include only Wikipedia entries" },
+              { id: "c", text: "Include only Wikipedia entries" },
+              { id: "d", text: "Be longer than the essay itself" },
             ],
             correctChoiceId: "a",
           },

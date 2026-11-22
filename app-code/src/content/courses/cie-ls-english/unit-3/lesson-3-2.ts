@@ -62,12 +62,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "To inform people about gardening" },
-              { id: "b", text: "To persuade people to sign a petition against the car park plan" },
-              { id: "c", text: "To describe the history of the community garden" },
+              { id: "a", text: "To persuade people to sign a petition against the car park plan" },
+              { id: "b", text: "To describe the history of the community garden" },
+              { id: "c", text: "To inform people about gardening" },
               { id: "d", text: "To complain about the council's parking policy" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -162,6 +162,296 @@ export const lesson32: Lesson = {
             commonErrors: ["In (d) saying 'it is a good ending' without explaining the reframe."],
           },
         },
+        {
+          id: "cile-u3-nf-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          extract: flyerExtract,
+          stem: "According to the leaflet, how many signatures does the petition have?",
+          response: { type: "numeric", parts: [{ label: "Signatures", answer: 2000 }] },
+          markscheme: {
+            principles: [
+              { kind: "definition", name: "Evidence paragraph", statement: "Concrete proof (signatures, plan) plus a demand moves persuasion toward action." },
+            ],
+            steps: [
+              { reasoning: "The leaflet states 'a petition with 2,000 signatures'.", working: "2000", marks: 1, markCode: "AO1" },
+            ],
+            finalAnswer: "2000",
+            commonErrors: ["Answering a different number — the figure is 2,000."],
+          },
+        },
+        {
+          id: "cile-u3-nf-q6",
+          difficulty: "core",
+          totalMarks: 1,
+          extract: articleExtract,
+          stem: "How many of these are STATISTICAL features the library article uses? 'Visits are up 30% in five years.' 'Event attendance has doubled.' 'A warm smile.' 'The internet cannot provide that.'",
+          response: { type: "numeric", parts: [{ label: "Statistical features", answer: 2 }] },
+          markscheme: {
+            principles: [
+              { kind: "definition", name: "Informative evidence", statement: "Numbers and statistics lend factual weight to an informative article." },
+            ],
+            steps: [
+              { reasoning: "'Up 30%' and 'doubled' are checkable figures = 2; the others are qualitative claims.", working: "2", marks: 1, markCode: "AO1" },
+            ],
+            finalAnswer: "2",
+            commonErrors: ["Counting 'the internet cannot provide that' — it is an opinion, not a statistic."],
+          },
+        },
+        {
+          id: "cile-u3-nf-q7",
+          difficulty: "foundation",
+          totalMarks: 2,
+          extract: flyerExtract,
+          stem: "Identify the call to action in the leaflet and state its function.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "definition", name: "Call to action", statement: "A direct instruction telling the reader what to do next." },
+            ],
+            steps: [
+              { reasoning: "CTA: 'Please sign the petition at the library or online.'", working: "\\text{sign the petition}", marks: 1, markCode: "AO2" },
+              { reasoning: "Function: converts persuasion into a concrete, easy action.", marks: 1, markCode: "AO3" },
+            ],
+            finalAnswer: "'Please sign the petition at the library or online' — it converts the reader's sympathy into a concrete, easy action.",
+            commonErrors: ["Quoting an emotional appeal ('community feeds itself') as the CTA."],
+          },
+        },
+        {
+          id: "cile-u3-nf-q8",
+          difficulty: "core",
+          totalMarks: 2,
+          extract: articleExtract,
+          stem: "How does the article use numbers ('30%', 'doubled') to support its claim?",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "technique", name: "Statistical evidence", statement: "Specific figures make a claim feel measured and verifiable." },
+            ],
+            steps: [
+              { reasoning: "'Visits are up 30% in five years' gives a precise, checkable measure of revival.", working: "\\text{30\\%}", marks: 1, markCode: "AO2" },
+              { reasoning: "'Event attendance has doubled' reinforces the trend — numbers make the argument feel factual, not rhetorical.", marks: 1, markCode: "AO3" },
+            ],
+            finalAnswer: "The figures make the revival feel measured and verifiable — 'up 30%' and 'doubled' turn a claim into checkable evidence.",
+            commonErrors: ["Saying 'numbers are persuasive' without explaining they signal verifiability."],
+          },
+        },
+        {
+          id: "cile-u3-nf-q9",
+          difficulty: "core",
+          totalMarks: 1,
+          extract: flyerExtract,
+          stem: "Which paragraph re-energises the emotional appeal immediately before the call to action?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "The opening about the garden's history" },
+              { id: "b", text: "'The garden is not just soil and seeds'" },
+              { id: "c", text: "'We have a petition with 2,000 signatures'" },
+              { id: "d", text: "The closing 'Please sign the petition'" },
+            ],
+            borrectChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              { kind: "technique", name: "Emotive peak", statement: "The reframe ('not just soil and seeds') maximises emotion right before the ask." },
+            ],
+            steps: [
+              { reasoning: "'Not just soil and seeds... community feeds itself' elevates stakes just before the CTA.", working: "\\text{reframe before CTA}", marks: 1, markCode: "AO1" },
+            ],
+            finalAnswer: "**(c)** 'The garden is not just soil and seeds'",
+            commonErrors: ["Choosing (b) — that paragraph is evidence, not the emotional peak."],
+          },
+        },
+        {
+          id: "cile-u3-nf-q10",
+          difficulty: "challenge",
+          totalMarks: 3,
+          extract: articleExtract,
+          stem: "Explain the effect of 'The busiest day is not Saturday — it is a weekday afternoon.'",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "technique", name: "Unexpected detail", statement: "Contradicting expectations makes a detail memorable and meaningful." },
+            ],
+            steps: [
+              { reasoning: "Readers expect libraries busiest at weekends; the reversal surprises.", working: "\\text{expectation reversed}", marks: 1, markCode: "AO2" },
+              { reasoning: "It reveals libraries serve daily life, not leisure — a 'second living room'.", marks: 1, markCode: "AO2" },
+              { reasoning: "Effect: the surprising detail makes the revival feel real and human, not statistical.", marks: 1, markCode: "AO3" },
+            ],
+            finalAnswer: "The reversal — busiest on a weekday, not Saturday — surprises the reader and reveals libraries as daily living space for people without alternatives, making the revival feel human rather than statistical.",
+            commonErrors: ["Saying it 'is interesting' without explaining the expectation reversal."],
+          },
+        },
+        {
+          id: "cile-u3-nf-q11",
+          difficulty: "challenge",
+          totalMarks: 3,
+          extract: flyerExtract,
+          stem: "How does the leaflet's paragraph order mirror its persuasive strategy?",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "technique", name: "Persuasive order", statement: "Community → threat → evidence → reframe → call to action." },
+            ],
+            steps: [
+              { reasoning: "P1 builds belonging (community garden's value); P2 introduces the threat (car park).", working: "\\text{belonging → threat}", marks: 1, markCode: "AO2" },
+              { reasoning: "P3 gives evidence (signatures, plan); P4 re-emotionalises; P5 directs action.", marks: 1, markCode: "AO2" },
+              { reasoning: "Each paragraph escalates: emotion → threat → proof → feeling → action.", marks: 1, markCode: "AO3" },
+            ],
+            finalAnswer: "The order escalates persuasion: it builds belonging, introduces the threat, proves support, re-ignites emotion, then directs action — each paragraph does a distinct persuasive job.",
+            commonErrors: ["Listing paragraph topics without explaining the escalation."],
+          },
+        },
+        {
+          id: "cile-u3-nf-q12",
+          difficulty: "foundation",
+          totalMarks: 1,
+          extract: articleExtract,
+          stem: "What is the article's main claim?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "The internet is useless" },
+              { id: "b", text: "Libraries should stop lending books" },
+              { id: "c", text: "Libraries are becoming cafes" },
+              { id: "d", text: "Libraries are reviving as community gathering spaces, not just book lenders" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              { kind: "definition", name: "Claim", statement: "The central argument: libraries matter as gathering space." },
+            ],
+            steps: [
+              { reasoning: "'People came back... to use libraries as... free, warm, quiet public space' states the claim.", working: "\\text{gathering space}", marks: 1, markCode: "AO1" },
+            ],
+            finalAnswer: "**(b)** Libraries are reviving as community gathering spaces, not just book lenders",
+            commonErrors: ["Choosing (c) — the article says the internet cannot provide gathering, not that it is useless."],
+          },
+        },
+        {
+          id: "cile-u3-nf-q13",
+          difficulty: "core",
+          totalMarks: 1,
+          extract: flyerExtract,
+          stem: "How many paragraphs does the community-garden leaflet contain?",
+          response: { type: "numeric", parts: [{ label: "Paragraphs", answer: 5 }] },
+          markscheme: {
+            principles: [
+              { kind: "technique", name: "Conspiracy framing", statement: "'Behind closed doors' implies secrecy and exclusion — an emotive distrust appeal." },
+            ],
+            steps: [
+              { reasoning: "The leaflet runs five paragraphs: belonging, threat, evidence, reframe, call to action.", working: "5", marks: 1, markCode: "AO1" },
+            ],
+            finalAnswer: "5",
+            commonErrors: ["Counting only the body — the leaflet's five paragraphs each do a distinct persuasive job."],
+          },
+        },
+        {
+          id: "cile-u3-nf-q14",
+          difficulty: "challenge",
+          totalMarks: 4,
+          extract: articleExtract,
+          stem: "How would this article's features change if it were rewritten as a leaflet persuading people to visit their library?",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "technique", name: "Inform vs persuade", statement: "A leaflet would use direct address, commands, emotional appeals and a call to action." },
+            ],
+            steps: [
+              { reasoning: "The article is informative — balanced, statistical, third-person.", working: "\\text{informative}", marks: 1, markCode: "AO2" },
+              { reasoning: "A leaflet would address the reader directly ('Visit your library'), use 'you', and command action.", marks: 1, markCode: "AO2" },
+              { reasoning: "It would lead with benefits and a CTA, not statistics — emotion over evidence.", marks: 1, markCode: "AO2" },
+              { reasoning: "Conclusion: same topic, different features — persuasion needs directness the article avoids.", marks: 1, markCode: "AO3" },
+            ],
+            finalAnswer: "A leaflet would drop the statistics for direct address, commands and a call to action — 'Visit your library today' — replacing balanced information with persuasive urgency.",
+            commonErrors: ["Saying 'it would be shorter' without identifying which features change."],
+          },
+        },
+        {
+          id: "cile-u3-nf-q15",
+          difficulty: "challenge",
+          totalMarks: 9,
+          extract: flyerExtract,
+          stem: "You are analysing the community-garden leaflet.",
+          parts: [
+            { label: "a", prompt: "Analyse the function of the headline 'Save the Community Garden'.", marks: 2 },
+            { label: "b", prompt: "Identify two emotional appeals in the body.", marks: 2 },
+            { label: "c", prompt: "How does the leaflet handle the council's position?", marks: 2 },
+            { label: "d", prompt: "Explain the function of the call to action.", marks: 3 },
+          ],
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "technique", name: "Non-fiction persuasion", statement: "Headline hooks, body appeals, opposition is exposed, CTA directs action." },
+            ],
+            steps: [
+              { part: "a", reasoning: "'Save' is an imperative — urgency and moral duty.", working: "\\text{imperative}", marks: 1, markCode: "AO2" },
+              { part: "a", reasoning: "'Community' adds belonging — losing it affects 'us'.", marks: 1, markCode: "AO3" },
+              { part: "b", reasoning: "Appeal 1: children learning, elderly residents, affordability — vulnerable groups.", working: "\\text{vulnerable}", marks: 1, markCode: "AO2" },
+              { part: "b", reasoning: "Appeal 2: 'community feeds itself' — identity and belonging.", marks: 1, markCode: "AO3" },
+              { part: "c", reasoning: "Council's words quoted and exposed as euphemistic ('underused', 'boost').", working: "\\text{quoted euphemisms}", marks: 1, markCode: "AO2" },
+              { part: "c", reasoning: "Their position acknowledged but reframed as dismissive of community reality.", marks: 1, markCode: "AO3" },
+              { part: "d", reasoning: "'Please sign the petition' is specific and easy — removes friction.", working: "\\text{specific + easy}", marks: 1, markCode: "AO2" },
+              { part: "d", reasoning: "It is placed last, after emotion peaks — the reader is primed to act.", marks: 1, markCode: "AO2" },
+              { part: "d", reasoning: "Without it the leaflet would inform but not mobilise — the CTA completes persuasion.", marks: 1, markCode: "AO3" },
+            ],
+            finalAnswer: "(a) imperative + community = urgency and belonging (b) vulnerable groups; community identity (c) quoted euphemisms exposed as dismissive (d) specific, easy, placed after emotional peak — converts sympathy into action",
+            levels: [
+              { level: "Level 2", marks: "1-2", descriptor: "Headline function accurately analysed.", part: "a" },
+              { level: "Level 1", marks: "0", descriptor: "Vague.", part: "a" },
+              { level: "Level 2", marks: "1-2", descriptor: "Two appeals identified.", part: "b" },
+              { level: "Level 1", marks: "0", descriptor: "Missing.", part: "b" },
+              { level: "Level 2", marks: "1-2", descriptor: "Council handling accurately described.", part: "c" },
+              { level: "Level 1", marks: "0", descriptor: "Vague.", part: "c" },
+              { level: "Level 3", marks: "2-3", descriptor: "CTA function explained convincingly.", part: "d" },
+              { level: "Level 2", marks: "1", descriptor: "Partial.", part: "d" },
+            ],
+            commonErrors: ["In (d) just quoting the CTA without explaining its strategic placement."],
+          },
+        },
+        {
+          id: "cile-u3-nf-q16",
+          difficulty: "challenge",
+          totalMarks: 8,
+          extract: articleExtract,
+          stem: "You are analysing the library article's non-fiction features.",
+          parts: [
+            { label: "a", prompt: "State the article's main claim.", marks: 2 },
+            { label: "b", prompt: "Identify two features that make it informative rather than persuasive.", marks: 2 },
+            { label: "c", prompt: "Explain how the 'relic → return' reversal structures the argument.", marks: 2 },
+            { label: "d", prompt: "What is the effect of ending with 'The internet cannot provide that'?", marks: 2 },
+          ],
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "definition", name: "Informative vs persuasive", statement: "Informative texts use balanced evidence and third person; persuasive texts use direct address and emotion." },
+            ],
+            steps: [
+              { part: "a", reasoning: "Claim: libraries are reviving as community gathering spaces.", working: "\\text{revival as space}", marks: 1, markCode: "AO2" },
+              { part: "a", reasoning: "Accurately stated.", marks: 1, markCode: "AO3" },
+              { part: "b", reasoning: "Feature 1: statistics — 'up 30%', 'doubled' — factual evidence.", working: "\\text{statistics}", marks: 1, markCode: "AO2" },
+              { part: "b", reasoning: "Feature 2: balanced tone — acknowledges 'not to borrow more books, exactly'.", marks: 1, markCode: "AO3" },
+              { part: "c", reasoning: "Opening frames libraries as 'relics'; then 'something unexpected happened' reverses.", working: "\\text{relic → return}", marks: 1, markCode: "AO2" },
+              { part: "c", reasoning: "The reversal makes the revival feel discovered, not asserted — builds trust.", marks: 1, markCode: "AO3" },
+              { part: "d", reasoning: "Short absolute claim — 'cannot provide that' — lands as a verdict.", working: "\\text{cannot provide}", marks: 1, markCode: "AO2" },
+              { part: "d", reasoning: "Reframes libraries as irreplaceable human gathering space — the article's real point.", marks: 1, markCode: "AO3" },
+            ],
+            finalAnswer: "(a) libraries reviving as gathering space (b) statistics; balanced/qualified tone (c) relic→return reversal makes revival feel discovered (d) short absolute verdict reframes libraries as irreplaceable human space",
+            levels: [
+              { level: "Level 2", marks: "1-2", descriptor: "Claim accurately stated.", part: "a" },
+              { level: "Level 1", marks: "0", descriptor: "Vague.", part: "a" },
+              { level: "Level 2", marks: "1-2", descriptor: "Two valid informative features.", part: "b" },
+              { level: "Level 1", marks: "0", descriptor: "Missing.", part: "b" },
+              { level: "Level 2", marks: "1-2", descriptor: "Reversal structure explained.", part: "c" },
+              { level: "Level 1", marks: "0", descriptor: "Vague.", part: "c" },
+              { level: "Level 2", marks: "1-2", descriptor: "Final line's effect explained.", part: "d" },
+              { level: "Level 1", marks: "0", descriptor: "Vague.", part: "d" },
+            ],
+            commonErrors: ["In (b) citing persuasion features (commands, emotion) when informative features are asked."],
+          },
+        },
       ],
     },
     {
@@ -201,12 +491,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It is neutral and factual" },
-              { id: "b", text: "It uses a command to create urgency and moral duty" },
+              { id: "a", text: "It uses a command to create urgency and moral duty" },
+              { id: "b", text: "It is neutral and factual" },
               { id: "c", text: "It describes the garden's history" },
               { id: "d", text: "It asks a question" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -299,6 +589,296 @@ export const lesson32: Lesson = {
               { level: "Level 2", marks: "1", descriptor: "Partial.", part: "d" },
             ],
             commonErrors: ["In (d) just reversing the opinion without changing the framing techniques."],
+          },
+        },
+        {
+          id: "cile-u3-media-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          extract: flyerExtract,
+          stem: "How many of these headlines are IMPERATIVE commands? 'Save the Community Garden.' 'The Quiet Return of the Library.' 'Outdated Book Warehouses Secretly Save Communities.' 'Visits to Libraries Rise 30%.'",
+          response: { type: "numeric", parts: [{ label: "Imperative headlines", answer: 1 }] },
+          markscheme: {
+            principles: [
+              { kind: "technique", name: "Imperative headline", statement: "A command verb ('Save') directs the reader to act." },
+            ],
+            steps: [
+              { reasoning: "Only 'Save the Community Garden' commands the reader = 1; the others are statements or descriptions.", working: "1", marks: 1, markCode: "AO1" },
+            ],
+            finalAnswer: "1",
+            commonErrors: ["Counting 'Secretly Save Communities' — it is a declarative headline, not a command to the reader."],
+          },
+        },
+        {
+          id: "cile-u3-media-q6",
+          difficulty: "core",
+          totalMarks: 1,
+          extract: articleExtract,
+          stem: "Which alternative headline would be MOST emotive and biased against libraries?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Libraries Draw Crowds Again" },
+              { id: "b", text: "Outdated Book Warehouses Secretly Save Communities" },
+              { id: "c", text: "The Quiet Return of the Library" },
+              { id: "d", text: "Visits to Libraries Rise 30%" },
+            ],
+            borrectChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              { kind: "technique", name: "Headline framing", statement: "Loaded labels ('outdated', 'secretly') bias the reader before reading." },
+            ],
+            steps: [
+              { reasoning: "'Outdated' and 'secretly' are loaded — they frame libraries as obsolete yet secretly vital.", working: "\\text{'outdated'; 'secretly'}", marks: 1, markCode: "AO1" },
+            ],
+            finalAnswer: "**(c)** Outdated Book Warehouses Secretly Save Communities",
+            commonErrors: ["Choosing (d) — it is factual, not emotive."],
+          },
+        },
+        {
+          id: "cile-u3-media-q7",
+          difficulty: "foundation",
+          totalMarks: 2,
+          extract: flyerExtract,
+          stem: "How does putting 'underused' and 'boost the local economy' in quotation marks frame the council's words?",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "technique", name: "Scare quotes", statement: "Quoting an opponent's words distances the writer from them — implying they are evasive." },
+            ],
+            steps: [
+              { reasoning: "Quotation marks signal 'these are their words, not mine' — distancing.", working: "\\text{distancing quotes}", marks: 1, markCode: "AO2" },
+              { reasoning: "The leaflet then contradicts them with community reality — the quotes expose the euphemism.", marks: 1, markCode: "AO3" },
+            ],
+            finalAnswer: "The quotation marks distance the leaflet from the council's language, framing 'underused' and 'boost' as evasive euphemisms the community reality contradicts.",
+            commonErrors: ["Saying the leaflet 'agrees' — quoting to criticise is the opposite."],
+          },
+        },
+        {
+          id: "cile-u3-media-q8",
+          difficulty: "core",
+          totalMarks: 2,
+          extract: articleExtract,
+          stem: "What does the metaphor 'a second living room' do in the article?",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "technique", name: "Metaphor", statement: "Comparing libraries to living rooms frames them as domestic, essential space." },
+            ],
+            steps: [
+              { reasoning: "'Second living room' makes the library feel like home — warm, necessary, communal.", working: "\\text{'second living room'}", marks: 1, markCode: "AO2" },
+              { reasoning: "It supports the claim that libraries are gathering space, not just book storage.", marks: 1, markCode: "AO3" },
+            ],
+            finalAnswer: "The metaphor frames libraries as domestic, essential space — a 'second living room' — supporting the claim that their value is gathering, not just books.",
+            commonErrors: ["Identifying it as a metaphor without explaining its framing effect."],
+          },
+        },
+        {
+          id: "cile-u3-media-q9",
+          difficulty: "core",
+          totalMarks: 1,
+          extract: articleExtract,
+          stem: "How many of these words carry a NEGATIVE or dismissive connotation in these texts? 'relics' 'community' 'underused' 'boost'",
+          response: { type: "numeric", parts: [{ label: "Dismissive words", answer: 2 }] },
+          markscheme: {
+            principles: [
+              { kind: "technique", name: "Connotation", statement: "'Relics' suggests outdated survivors — the critics' dismissive view." },
+            ],
+            steps: [
+              { reasoning: "'Relics' (obsolete) and 'underused' (dismissive euphemism in quotes) = 2; 'community' and 'boost' are positive.", working: "2", marks: 1, markCode: "AO1" },
+            ],
+            finalAnswer: "2",
+            commonErrors: ["Counting 'boost' — it is the council's positive framing, not dismissive."],
+          },
+        },
+        {
+          id: "cile-u3-media-q10",
+          difficulty: "challenge",
+          totalMarks: 3,
+          extract: flyerExtract,
+          stem: "How does the leaflet's structure and emphasis direct the reader's attention toward signing?",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "technique", name: "Structural emphasis", statement: "Building emotion then placing the CTA last directs attention to action." },
+            ],
+            steps: [
+              { reasoning: "The leaflet builds belonging and threat across four paragraphs — emotional investment.", working: "\\text{emotional build}", marks: 1, markCode: "AO2" },
+              { reasoning: "The reframe ('community feeds itself') peaks emotion just before the ask.", marks: 1, markCode: "AO2" },
+              { reasoning: "The CTA is last and specific ('library or online') — easy action when the reader is primed.", marks: 1, markCode: "AO3" },
+            ],
+            finalAnswer: "The leaflet builds emotional investment across four paragraphs, peaks with the 'community feeds itself' reframe, then places a specific, easy CTA last — so the reader is primed to sign.",
+            commonErrors: ["Saying 'it is persuasive' without explaining the structural build to action."],
+          },
+        },
+        {
+          id: "cile-u3-media-q11",
+          difficulty: "challenge",
+          totalMarks: 3,
+          extract: articleExtract,
+          stem: "How does the article frame the critics' view ('book warehouses in the digital age')?",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "technique", name: "Framing opposition", statement: "Quoting critics with a dismissive label makes their view easy to reject." },
+            ],
+            steps: [
+              { reasoning: "'Relics' and 'book warehouses' are reductive labels — they shrink libraries to storage.", working: "\\text{reductive labels}", marks: 1, markCode: "AO2" },
+              { reasoning: "The phrase 'as one commentator put it' distances the article from the view.", marks: 1, markCode: "AO2" },
+              { reasoning: "Effect: the critics' view is framed as obviously wrong, so the revival feels like truth.", marks: 1, markCode: "AO3" },
+            ],
+            finalAnswer: "The critics are quoted with reductive labels ('relics', 'book warehouses') and distanced ('as one commentator put it') — framing their view as obviously wrong so the revival feels like discovered truth.",
+            commonErrors: ["Saying the article 'disagrees' without analysing how the framing works."],
+          },
+        },
+        {
+          id: "cile-u3-media-q12",
+          difficulty: "foundation",
+          totalMarks: 1,
+          extract: flyerExtract,
+          stem: "How many of these audiences would the community-garden leaflet target? 'Local residents who value the garden.' 'Council members.' 'Car park developers.' 'National newspaper readers.'",
+          response: { type: "numeric", parts: [{ label: "Target audiences", answer: 1 }] },
+          markscheme: {
+            principles: [
+              { kind: "definition", name: "Audience", statement: "The leaflet addresses neighbours — 'the whole street', 'this community'." },
+            ],
+            steps: [
+              { reasoning: "Only local residents match the community language and petition; the council is the target of persuasion, not the audience.", working: "1", marks: 1, markCode: "AO1" },
+            ],
+            finalAnswer: "1",
+            commonErrors: ["Counting council members — they are who the leaflet tries to persuade, not who it addresses."],
+          },
+        },
+        {
+          id: "cile-u3-media-q13",
+          difficulty: "core",
+          totalMarks: 1,
+          extract: articleExtract,
+          stem: "Which detail most powerfully supports the article's claim that libraries are essential community space?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "'the busiest day is not Saturday'" },
+              { id: "b", text: "'a second living room for people who cannot afford one'" },
+              { id: "c", text: "'Libraries were being written off as relics'" },
+              { id: "d", text: "'borrowing is up too'" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              { kind: "technique", name: "Key evidence", statement: "'Cannot afford one' reveals the library's social necessity — its real value." },
+            ],
+            steps: [
+              { reasoning: "It shows libraries serve those without alternatives — the strongest support for 'gathering space'.", working: "\\text{'cannot afford one'}", marks: 1, markCode: "AO1" },
+            ],
+            finalAnswer: "**(b)** 'a second living room for people who cannot afford one'",
+            commonErrors: ["Choosing (c) — borrowing stats support but do not capture the gathering-space claim."],
+          },
+        },
+        {
+          id: "cile-u3-media-q14",
+          difficulty: "challenge",
+          totalMarks: 4,
+          extract: articleExtract,
+          stem: "How might a biased pro-library article differ from this one? Identify two changes.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Bias in media", statement: "Bias selects evidence and frames opposition unfairly." },
+            ],
+            steps: [
+              { reasoning: "Change 1: cite only pro-library studies, omit any decline or funding problems.", working: "\\text{selective evidence}", marks: 1, markCode: "AO2" },
+              { reasoning: "Change 2: frame critics as villains ('heartless politicians') rather than quoting them fairly.", marks: 1, markCode: "AO2" },
+              { reasoning: "Both changes would turn balanced analysis into one-sided promotion.", marks: 1, markCode: "AO2" },
+              { reasoning: "This article is relatively balanced — it quotes critics and admits borrowing is only part of it.", marks: 1, markCode: "AO3" },
+            ],
+            finalAnswer: "A biased version would cite only supportive evidence and demonise critics — e.g. 'heartless politicians want to close your library' — instead of the current balanced, evidence-led approach.",
+            commonErrors: ["Saying 'it would be more positive' without specifying the bias mechanisms."],
+          },
+        },
+        {
+          id: "cile-u3-media-q15",
+          difficulty: "challenge",
+          totalMarks: 9,
+          extract: flyerExtract,
+          stem: "You are analysing the community-garden leaflet as persuasive media.",
+          parts: [
+            { label: "a", prompt: "Analyse the headline's framing.", marks: 2 },
+            { label: "b", prompt: "Identify two emotional appeals in the body.", marks: 2 },
+            { label: "c", prompt: "How does the leaflet handle the council's opposing position?", marks: 2 },
+            { label: "d", prompt: "Explain how layout and emphasis would direct attention in a printed version.", marks: 3 },
+          ],
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "technique", name: "Media persuasion", statement: "Headline frames, body appeals, opposition exposed, layout directs the eye to the CTA." },
+            ],
+            steps: [
+              { part: "a", reasoning: "'Save' imperative = urgency; 'Community' = belonging.", working: "\\text{imperative + community}", marks: 1, markCode: "AO2" },
+              { part: "a", reasoning: "Frames the issue as moral duty, not policy debate.", marks: 1, markCode: "AO3" },
+              { part: "b", reasoning: "Appeal 1: vulnerable groups — children, elderly, affordability.", working: "\\text{vulnerable}", marks: 1, markCode: "AO2" },
+              { part: "b", reasoning: "Appeal 2: 'community feeds itself' — identity and loss.", marks: 1, markCode: "AO3" },
+              { part: "c", reasoning: "Council's words quoted in scare quotes — exposed as euphemistic.", working: "\\text{scare quotes}", marks: 1, markCode: "AO2" },
+              { part: "c", reasoning: "Position acknowledged but reframed as dismissive of community reality.", marks: 1, markCode: "AO3" },
+              { part: "d", reasoning: "Layout: headline large at top, body paragraphs, CTA bold at bottom.", working: "\\text{layout}", marks: 1, markCode: "AO2" },
+              { part: "d", reasoning: "Bold/emphasis on 'community feeds itself' and 'sign the petition' directs the eye.", marks: 1, markCode: "AO2" },
+              { part: "d", reasoning: "The eye is led from hook to emotion to action — layout completes the persuasion.", marks: 1, markCode: "AO3" },
+            ],
+            finalAnswer: "(a) imperative + community = moral urgency (b) vulnerable groups; community identity (c) council's words scare-quoted and reframed as dismissive (d) headline hooks, bold CTA at bottom, emphasis guides eye to action",
+            levels: [
+              { level: "Level 2", marks: "1-2", descriptor: "Headline framing analysed.", part: "a" },
+              { level: "Level 1", marks: "0", descriptor: "Vague.", part: "a" },
+              { level: "Level 2", marks: "1-2", descriptor: "Two appeals identified.", part: "b" },
+              { level: "Level 1", marks: "0", descriptor: "Missing.", part: "b" },
+              { level: "Level 2", marks: "1-2", descriptor: "Opposition handling analysed.", part: "c" },
+              { level: "Level 1", marks: "0", descriptor: "Vague.", part: "c" },
+              { level: "Level 3", marks: "2-3", descriptor: "Layout function explained convincingly.", part: "d" },
+              { level: "Level 2", marks: "1", descriptor: "Partial.", part: "d" },
+            ],
+            commonErrors: ["In (d) describing layout without linking it to persuasive direction."],
+          },
+        },
+        {
+          id: "cile-u3-media-q16",
+          difficulty: "challenge",
+          totalMarks: 8,
+          extract: articleExtract,
+          stem: "You are evaluating the library article as media.",
+          parts: [
+            { label: "a", prompt: "Analyse the opening's framing of the 'relic vs revival' debate.", marks: 2 },
+            { label: "b", prompt: "How does the article use statistics as evidence?", marks: 2 },
+            { label: "c", prompt: "Explain the effect of 'The internet cannot provide that'.", marks: 2 },
+            { label: "d", prompt: "Is the article balanced or biased? Justify.", marks: 2 },
+          ],
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "technique", name: "Media literacy", statement: "Framing, evidence and omissions reveal bias; balance acknowledges complexity." },
+            ],
+            steps: [
+              { part: "a", reasoning: "Opening frames libraries as dismissed 'relics', then 'unexpected' revival — reversal.", working: "\\text{relic → return}", marks: 1, markCode: "AO2" },
+              { part: "a", reasoning: "The mocking quote of critics primes the reader for the turnaround.", marks: 1, markCode: "AO3" },
+              { part: "b", reasoning: "'Up 30%', 'doubled' — specific figures make the claim verifiable.", working: "\\text{30\\%; doubled}", marks: 1, markCode: "AO2" },
+              { part: "b", reasoning: "Statistics lend the revival factual weight rather than rhetorical heat.", marks: 1, markCode: "AO3" },
+              { part: "c", reasoning: "Short absolute claim — 'cannot provide that' — lands as a verdict.", working: "\\text{cannot provide}", marks: 1, markCode: "AO2" },
+              { part: "c", reasoning: "Reframes libraries as irreplaceable human gathering — the real point.", marks: 1, markCode: "AO3" },
+              { part: "d", reasoning: "Mostly balanced — quotes critics, admits borrowing is only part.", working: "\\text{mostly balanced}", marks: 1, markCode: "AO2" },
+              { part: "d", reasoning: "But 'relics' framing and 'cannot provide' verdict lean persuasive — mild bias.", marks: 1, markCode: "AO3" },
+            ],
+            finalAnswer: "(a) relic→return reversal primes reader for revival (b) statistics make claim verifiable (c) short verdict reframes libraries as irreplaceable gathering space (d) mostly balanced but mildly persuasive — quotes critics yet lands a strong verdict",
+            levels: [
+              { level: "Level 2", marks: "1-2", descriptor: "Opening framing analysed.", part: "a" },
+              { level: "Level 1", marks: "0", descriptor: "Vague.", part: "a" },
+              { level: "Level 2", marks: "1-2", descriptor: "Statistical evidence explained.", part: "b" },
+              { level: "Level 1", marks: "0", descriptor: "Vague.", part: "b" },
+              { level: "Level 2", marks: "1-2", descriptor: "Final line's effect explained.", part: "c" },
+              { level: "Level 1", marks: "0", descriptor: "Vague.", part: "c" },
+              { level: "Level 2", marks: "1-2", descriptor: "Balanced/biased verdict justified.", part: "d" },
+              { level: "Level 1", marks: "0", descriptor: "One-sided.", part: "d" },
+            ],
+            commonErrors: ["In (d) answering 'biased' or 'balanced' absolutely without weighing evidence."],
           },
         },
       ],

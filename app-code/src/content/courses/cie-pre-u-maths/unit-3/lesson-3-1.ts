@@ -79,8 +79,8 @@ export const lesson31: Lesson = {
             choices: [
               { id: "a", text: "$12x^3 - 4x$" },
               { id: "b", text: "$3x^3 - 2x$" },
-              { id: "c", text: "$12x^4 - 4x^2$" },
-              { id: "d", text: "$\\frac{3}{4}x^5 - x^3$" },
+              { id: "c", text: "$\\frac{3}{4}x^5 - x^3$" },
+              { id: "d", text: "$12x^4 - 4x^2$" },
             ],
             correctChoiceId: "a",
           },
@@ -208,6 +208,422 @@ export const lesson31: Lesson = {
               },
             ],
             finalAnswer: "$\\frac{dy}{dx} = \\frac{x\\cos x - 2\\sin x}{x^3}$",
+          },
+        },
+        {
+          id: "cipum-u3-dif-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Differentiate $y = x^5$.",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$\\frac{x^6}{6}$" },
+              { id: "b", text: "$5x^4$" },
+              { id: "c", text: "$x^6$" },
+              { id: "d", text: "$5x^5$" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Power rule",
+                statement: "d/dx($x^n$) = $nx^{n-1}$.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "$\\frac{dy}{dx} = 5x^4$.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "$\\frac{dy}{dx} = 5x^4$",
+          },
+        },
+        {
+          id: "cipum-u3-dif-q6",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "Find the value of $\\frac{dy}{dx}$ for $y = x^3 - 4x$ when $x = 2$.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 8 }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Power rule",
+                statement: "d/dx($x^n$) = $nx^{n-1}$.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "$\\frac{dy}{dx} = 3x^2 - 4$.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "At $x = 2$: $3(4) - 4 = 8$.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "8",
+          },
+        },
+        {
+          id: "cipum-u3-dif-q7",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "Differentiate $y = (2x + 1)^4$.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Chain rule",
+                statement: "If $y = f(u)$ and $u = g(x)$, $\\frac{dy}{dx} = \\frac{dy}{du}\\frac{du}{dx}$.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Let $u = 2x + 1$, so $\\frac{du}{dx} = 2$.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "$\\frac{dy}{du} = 4u^3$.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "$\\frac{dy}{dx} = 4(2x+1)^3 \\times 2 = 8(2x+1)^3$.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "$\\frac{dy}{dx} = 8(2x+1)^3$",
+          },
+        },
+        {
+          id: "cipum-u3-dif-q8",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "The derivative of $\\ln x$ is:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$\\ln x$" },
+              { id: "b", text: "$\\frac{1}{x}$" },
+              { id: "c", text: "$e^x$" },
+              { id: "d", text: "$\\frac{1}{x^2}$" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "law",
+                name: "Standard derivatives",
+                statement: "d/dx($\\ln x$) = $\\frac{1}{x}$.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "d/dx($\\ln x$) = $\\frac{1}{x}$.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "$\\frac{1}{x}$",
+          },
+        },
+        {
+          id: "cipum-u3-dif-q9",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "The curve $y = x^2 - 6x + 5$ has a stationary point at $x = ?$",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$x = 2$" },
+              { id: "b", text: "$x = 5$" },
+              { id: "c", text: "$x = 3$" },
+              { id: "d", text: "$x = -3$" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Stationary points",
+                statement: "Solve $\\frac{dy}{dx} = 0$.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "$\\frac{dy}{dx} = 2x - 6 = 0 \\Rightarrow x = 3$.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "$x = 3$",
+          },
+        },
+        {
+          id: "cipum-u3-dif-q10",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "Differentiate $y = \\frac{3x - 2}{x + 1}$ using the quotient rule.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Quotient rule",
+                statement: "$\\left(\\frac{u}{v}\\right)' = \\frac{u'v - uv'}{v^2}$.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "$u = 3x - 2$, $v = x + 1$; $u' = 3$, $v' = 1$.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "$\\frac{dy}{dx} = \\frac{3(x+1) - (3x-2)(1)}{(x+1)^2}$.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "Numerator: $3x + 3 - 3x + 2 = 5$.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "$\\frac{dy}{dx} = \\frac{5}{(x+1)^2}$.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "$\\frac{dy}{dx} = \\frac{5}{(x+1)^2}$",
+          },
+        },
+        {
+          id: "cipum-u3-dif-q11",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "If $f''(x) > 0$ at a stationary point, the point is:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "A maximum" },
+              { id: "b", text: "Cannot be determined" },
+              { id: "c", text: "A minimum" },
+              { id: "d", text: "A point of inflection" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Second derivative test",
+                statement: "$f'' > 0$ → minimum; $f'' < 0$ → maximum.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "$f''(x) > 0$ indicates a minimum.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "Minimum",
+          },
+        },
+        {
+          id: "cipum-u3-dif-q12",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "Find the value of $\\frac{dy}{dx}$ for $y = \\sin x + \\cos x$ at $x = \\frac{\\pi}{2}$.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: -1 }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "law",
+                name: "Trig derivatives",
+                statement: "d/dx($\\sin x$) = $\\cos x$; d/dx($\\cos x$) = $-\\sin x$.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "$\\frac{dy}{dx} = \\cos x - \\sin x$.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "At $x = \\frac{\\pi}{2}$: $0 - 1 = -1$.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "-1",
+          },
+        },
+        {
+          id: "cipum-u3-dif-q13",
+          difficulty: "challenge",
+          totalMarks: 2,
+          stem: "Find the $x$-coordinate of the stationary point of $y = x^3 - 3x^2 + 3x$.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 1 }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Stationary points",
+                statement: "Solve $\\frac{dy}{dx} = 0$.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "$\\frac{dy}{dx} = 3x^2 - 6x + 3 = 3(x-1)^2 = 0 \\Rightarrow x = 1$.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "Stationary point at $x = 1$.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "$x = 1$",
+          },
+        },
+        {
+          id: "cipum-u3-dif-q14",
+          difficulty: "challenge",
+          totalMarks: 1,
+          stem: "The derivative of $e^{2x}$ is:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$2e^{2x}$" },
+              { id: "b", text: "$e^{2x}$" },
+              { id: "c", text: "$2e^x$" },
+              { id: "d", text: "$\\frac{1}{2}e^{2x}$" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Chain rule",
+                statement: "d/dx($e^{u}$) = $e^{u} \\cdot \\frac{du}{dx}$.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "d/dx($e^{2x}$) = $e^{2x} \\times 2 = 2e^{2x}$.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "$2e^{2x}$",
+          },
+        },
+        {
+          id: "cipum-u3-dif-q15",
+          difficulty: "challenge",
+          totalMarks: 2,
+          stem: "Find the value of $\\frac{dy}{dx}$ for $y = xe^x$ at $x = 0$.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 1 }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Product rule",
+                statement: "(uv)' = u'v + uv'.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "$u = x$, $v = e^x$; $\\frac{dy}{dx} = e^x + xe^x = e^x(1+x)$.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "At $x = 0$: $e^0(1) = 1$.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "1",
+          },
+        },
+        {
+          id: "cipum-u3-dif-q16",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "Find and classify all stationary points of $y = x^4 - 4x^3$.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Stationary points",
+                statement: "Set dy/dx = 0; classify via second derivative or sign test.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "$\\frac{dy}{dx} = 4x^3 - 12x^2 = 4x^2(x - 3) = 0 \\Rightarrow x = 0, 3$.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning: "$\\frac{d^2y}{dx^2} = 12x^2 - 24x$; at $x = 3$: $f'' = 36 > 0$ → minimum at $(3, -27)$.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "At $x = 0$, $f'' = 0$ — inconclusive; $\\frac{dy}{dx} = 4x^2(x-3)$ is negative on both sides of 0, so $(0,0)$ is a stationary point of inflection.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "Minimum at $(3, -27)$; stationary point of inflection at $(0, 0)$.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer: "Minimum $(3,-27)$; point of inflection $(0,0)$",
           },
         },
       ],

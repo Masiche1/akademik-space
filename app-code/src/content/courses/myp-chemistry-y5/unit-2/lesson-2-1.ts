@@ -58,12 +58,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Collide with sufficient energy and correct orientation" },
-              { id: "b", text: "Are stationary" },
+              { id: "a", text: "Touch each other gently" },
+              { id: "b", text: "Collide with sufficient energy and correct orientation" },
               { id: "c", text: "Are cold" },
-              { id: "d", text: "Touch each other gently" },
+              { id: "d", text: "Are stationary" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -85,12 +85,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Temperature increases collision frequency AND the proportion of collisions exceeding activation energy" },
-              { id: "b", text: "Temperature only increases particle size" },
-              { id: "c", text: "Concentration has no effect on rate" },
-              { id: "d", text: "Temperature removes activation energy" },
+              { id: "a", text: "Concentration has no effect on rate" },
+              { id: "b", text: "Temperature increases collision frequency AND the proportion of collisions exceeding activation energy" },
+              { id: "c", text: "Temperature removes activation energy" },
+              { id: "d", text: "Temperature only increases particle size" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -113,12 +113,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It provides a lower-energy pathway so more collisions succeed; it is regenerated unchanged so net amount is unchanged" },
-              { id: "b", text: "It is consumed by the reaction" },
-              { id: "c", text: "It lowers the temperature" },
-              { id: "d", text: "It increases activation energy" },
+              { id: "a", text: "It is consumed by the reaction" },
+              { id: "b", text: "It increases activation energy" },
+              { id: "c", text: "It provides a lower-energy pathway so more collisions succeed; it is regenerated unchanged so net amount is unchanged" },
+              { id: "d", text: "It lowers the temperature" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -174,12 +174,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Increasing the concentration of a reactant" },
+              { id: "a", text: "Removing a reactant" },
               { id: "b", text: "Adding a noble gas at constant volume" },
-              { id: "c", text: "Decreasing the temperature" },
-              { id: "d", text: "Removing a reactant" },
+              { id: "c", text: "Increasing the concentration of a reactant" },
+              { id: "d", text: "Decreasing the temperature" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -270,12 +270,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Temperature both increases collision frequency AND shifts the energy distribution so a larger fraction of collisions exceed activation energy" },
+              { id: "a", text: "Temperature destroys activation energy" },
               { id: "b", text: "Temperature only increases particle size" },
               { id: "c", text: "Concentration has no effect on rate" },
-              { id: "d", text: "Temperature destroys activation energy" },
+              { id: "d", text: "Temperature both increases collision frequency AND shifts the energy distribution so a larger fraction of collisions exceed activation energy" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -321,8 +321,8 @@ export const lesson21: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "It provides an alternative pathway with lower activation energy, so more collisions have sufficient energy; it is regenerated unchanged at the end" },
-              { id: "b", text: "It is consumed by the reaction" },
-              { id: "c", text: "It raises the temperature of the mixture" },
+              { id: "b", text: "It raises the temperature of the mixture" },
+              { id: "c", text: "It is consumed by the reaction" },
               { id: "d", text: "It increases the concentration of H₂O₂" },
             ],
             correctChoiceId: "a",
@@ -375,12 +375,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Temperature — heating shifts the particle energy distribution so a much larger fraction of collisions exceed $E_a$, in addition to increasing collision frequency" },
-              { id: "b", text: "Surface area — it changes the number of collisions" },
-              { id: "c", text: "Concentration — it changes particle spacing" },
-              { id: "d", text: "A catalyst — it changes the reaction products" },
+              { id: "a", text: "Concentration — it changes particle spacing" },
+              { id: "b", text: "A catalyst — it changes the reaction products" },
+              { id: "c", text: "Surface area — it changes the number of collisions" },
+              { id: "d", text: "Temperature — heating shifts the particle energy distribution so a much larger fraction of collisions exceed $E_a$, in addition to increasing collision frequency" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -501,12 +501,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The steepest part of the curve" },
-              { id: "b", text: "The highest final volume" },
-              { id: "c", text: "The flattest part" },
-              { id: "d", text: "The x-axis" },
+              { id: "a", text: "The highest final volume" },
+              { id: "b", text: "The x-axis" },
+              { id: "c", text: "The steepest part of the curve" },
+              { id: "d", text: "The flattest part" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -528,12 +528,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The transition state / activated complex at activation energy height" },
-              { id: "b", text: "The products" },
-              { id: "c", text: "The catalyst" },
+              { id: "a", text: "The catalyst" },
+              { id: "b", text: "The transition state / activated complex at activation energy height" },
+              { id: "c", text: "The products" },
               { id: "d", text: "The temperature" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -556,12 +556,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Products lower than reactants; peak is E_a; catalyst lowers the peak but ΔH stays −80 kJ/mol" },
-              { id: "b", text: "Products higher than reactants; catalyst raises the peak" },
-              { id: "c", text: "No peak exists; catalyst changes ΔH" },
-              { id: "d", text: "Reactants and products at same level" },
+              { id: "a", text: "Products higher than reactants; catalyst raises the peak" },
+              { id: "b", text: "No peak exists; catalyst changes ΔH" },
+              { id: "c", text: "Reactants and products at same level" },
+              { id: "d", text: "Products lower than reactants; peak is E_a; catalyst lowers the peak but ΔH stays −80 kJ/mol" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -617,12 +617,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The steepest part of the curve" },
-              { id: "b", text: "The highest final volume" },
-              { id: "c", text: "The flattest part of the curve" },
-              { id: "d", text: "The point where the curve meets the time axis" },
+              { id: "a", text: "The flattest part of the curve" },
+              { id: "b", text: "The point where the curve meets the time axis" },
+              { id: "c", text: "The steepest part of the curve" },
+              { id: "d", text: "The highest final volume" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -666,9 +666,9 @@ export const lesson21: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "A reactant has been completely used up, so the reaction has stopped" },
-              { id: "b", text: "The rate is at its maximum" },
-              { id: "c", text: "The products are dissolving" },
-              { id: "d", text: "Temperature has dropped to zero" },
+              { id: "b", text: "Temperature has dropped to zero" },
+              { id: "c", text: "The rate is at its maximum" },
+              { id: "d", text: "The products are dissolving" },
             ],
             correctChoiceId: "a",
           },
@@ -715,12 +715,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The activation energy" },
-              { id: "b", text: "The enthalpy change ΔH" },
-              { id: "c", text: "The temperature of the reaction" },
-              { id: "d", text: "The rate of reaction" },
+              { id: "a", text: "The rate of reaction" },
+              { id: "b", text: "The activation energy" },
+              { id: "c", text: "The enthalpy change ΔH" },
+              { id: "d", text: "The temperature of the reaction" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -765,12 +765,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The peak (activation energy) is lowered via an alternative pathway; ΔH and the positions of reactants and products are unchanged" },
-              { id: "b", text: "The peak is raised and ΔH becomes more negative" },
-              { id: "c", text: "Products move below reactants" },
-              { id: "d", text: "No change to the profile" },
+              { id: "a", text: "Products move below reactants" },
+              { id: "b", text: "The peak (activation energy) is lowered via an alternative pathway; ΔH and the positions of reactants and products are unchanged" },
+              { id: "c", text: "No change to the profile" },
+              { id: "d", text: "The peak is raised and ΔH becomes more negative" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [

@@ -60,11 +60,11 @@ export const lesson21: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Carbohydrate" },
-              { id: "b", text: "Fat" },
-              { id: "c", text: "Protein" },
-              { id: "d", text: "Fibre" },
+              { id: "b", text: "Protein" },
+              { id: "c", text: "Fibre" },
+              { id: "d", text: "Fat" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -160,12 +160,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Protein" },
-              { id: "b", text: "Fat" },
-              { id: "c", text: "Carbohydrate" },
-              { id: "d", text: "Vitamin C" },
+              { id: "a", text: "Fat" },
+              { id: "b", text: "Protein" },
+              { id: "c", text: "Vitamin C" },
+              { id: "d", text: "Carbohydrate" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -187,12 +187,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Vitamin C" },
-              { id: "b", text: "Vitamin D" },
-              { id: "c", text: "Calcium" },
-              { id: "d", text: "Iron" },
+              { id: "a", text: "Vitamin D" },
+              { id: "b", text: "Iron" },
+              { id: "c", text: "Vitamin C" },
+              { id: "d", text: "Calcium" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -214,12 +214,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The food contains reducing sugar" },
-              { id: "b", text: "The food contains starch" },
-              { id: "c", text: "The food contains protein" },
-              { id: "d", text: "The food contains fat" },
+              { id: "a", text: "The food contains fat" },
+              { id: "b", text: "The food contains protein" },
+              { id: "c", text: "The food contains reducing sugar" },
+              { id: "d", text: "The food contains starch" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -381,12 +381,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "No heating; the colour changes at room temperature" },
-              { id: "b", text: "Heating in a water bath; blue changes to green/yellow/orange/brick-red" },
-              { id: "c", text: "Adding iodine; the colour turns blue-black" },
-              { id: "d", text: "Adding biuret; the colour turns purple" },
+              { id: "a", text: "Adding iodine; the colour turns blue-black" },
+              { id: "b", text: "Adding biuret; the colour turns purple" },
+              { id: "c", text: "Heating in a water bath; blue changes to green/yellow/orange/brick-red" },
+              { id: "d", text: "No heating; the colour changes at room temperature" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -408,12 +408,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A blue-black colour" },
-              { id: "b", text: "A purple colour" },
-              { id: "c", text: "A cloudy white emulsion" },
-              { id: "d", text: "A brick-red precipitate" },
+              { id: "a", text: "A brick-red precipitate" },
+              { id: "b", text: "A cloudy white emulsion" },
+              { id: "c", text: "A blue-black colour" },
+              { id: "d", text: "A purple colour" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -500,11 +500,11 @@ export const lesson21: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Stomach" },
-              { id: "b", text: "Small intestine" },
-              { id: "c", text: "Large intestine" },
+              { id: "b", text: "Large intestine" },
+              { id: "c", text: "Small intestine" },
               { id: "d", text: "Oesophagus" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -602,12 +602,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Amylase" },
-              { id: "b", text: "Lipase" },
-              { id: "c", text: "Protease" },
-              { id: "d", text: "Bile" },
+              { id: "a", text: "Protease" },
+              { id: "b", text: "Amylase" },
+              { id: "c", text: "Bile" },
+              { id: "d", text: "Lipase" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -630,11 +630,11 @@ export const lesson21: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$20\\ ^\\circ\\text{C}$" },
-              { id: "b", text: "$37\\ ^\\circ\\text{C}$" },
-              { id: "c", text: "$60\\ ^\\circ\\text{C}$" },
-              { id: "d", text: "$100\\ ^\\circ\\text{C}$" },
+              { id: "b", text: "$100\\ ^\\circ\\text{C}$" },
+              { id: "c", text: "$37\\ ^\\circ\\text{C}$" },
+              { id: "d", text: "$60\\ ^\\circ\\text{C}$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -656,10 +656,10 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It works faster because particles move quicker" },
+              { id: "a", text: "It changes into a different enzyme" },
               { id: "b", text: "It is denatured: its shape changes permanently and it stops working" },
-              { id: "c", text: "It changes into a different enzyme" },
-              { id: "d", text: "Nothing changes; enzymes are unaffected by temperature" },
+              { id: "c", text: "Nothing changes; enzymes are unaffected by temperature" },
+              { id: "d", text: "It works faster because particles move quicker" },
             ],
             correctChoiceId: "b",
           },
@@ -817,12 +817,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Stomach" },
-              { id: "b", text: "Pancreas" },
-              { id: "c", text: "Liver" },
-              { id: "d", text: "Small intestine" },
+              { id: "a", text: "Pancreas" },
+              { id: "b", text: "Small intestine" },
+              { id: "c", text: "Stomach" },
+              { id: "d", text: "Liver" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -844,12 +844,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "To make the intestine stronger" },
-              { id: "b", text: "To give a large surface area for absorbing digested food" },
+              { id: "a", text: "To give a large surface area for absorbing digested food" },
+              { id: "b", text: "To mix food with acid" },
               { id: "c", text: "To store bile" },
-              { id: "d", text: "To mix food with acid" },
+              { id: "d", text: "To make the intestine stronger" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

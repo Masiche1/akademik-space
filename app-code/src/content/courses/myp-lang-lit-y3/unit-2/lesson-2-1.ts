@@ -55,12 +55,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Metaphor" },
-              { id: "b", text: "Simile" },
-              { id: "c", text: "Personification" },
-              { id: "d", text: "Hyperbole" },
+              { id: "a", text: "Personification" },
+              { id: "b", text: "Hyperbole" },
+              { id: "c", text: "Simile" },
+              { id: "d", text: "Metaphor" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -156,11 +156,11 @@ export const lesson21: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Simile" },
-              { id: "b", text: "Metaphor" },
-              { id: "c", text: "Idiom" },
-              { id: "d", text: "Hyperbole" },
+              { id: "b", text: "Idiom" },
+              { id: "c", text: "Hyperbole" },
+              { id: "d", text: "Metaphor" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -180,12 +180,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Simile" },
-              { id: "b", text: "Hyperbole" },
-              { id: "c", text: "Personification" },
-              { id: "d", text: "Idiom" },
+              { id: "a", text: "Idiom" },
+              { id: "b", text: "Personification" },
+              { id: "c", text: "Simile" },
+              { id: "d", text: "Hyperbole" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -210,12 +210,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Simile" },
-              { id: "b", text: "Metaphor" },
-              { id: "c", text: "Hyperbole" },
-              { id: "d", text: "Personification" },
+              { id: "a", text: "Metaphor" },
+              { id: "b", text: "Hyperbole" },
+              { id: "c", text: "Personification" },
+              { id: "d", text: "Simile" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -240,12 +240,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Simile ('like a golden coin') and personification ('as if reluctant to leave')" },
-              { id: "b", text: "Onomatopoeia and alliteration only" },
+              { id: "a", text: "Statistics and a graph" },
+              { id: "b", text: "Simile ('like a golden coin') and personification ('as if reluctant to leave')" },
               { id: "c", text: "A stage direction and a cast list" },
-              { id: "d", text: "Statistics and a graph" },
+              { id: "d", text: "Onomatopoeia and alliteration only" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -344,12 +344,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Simile" },
+              { id: "a", text: "Metaphor" },
               { id: "b", text: "Hyperbole" },
-              { id: "c", text: "Metaphor" },
+              { id: "c", text: "Simile" },
               { id: "d", text: "Idiom" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -401,12 +401,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Similes are always longer" },
-              { id: "b", text: "Simile compares using 'like' or 'as'; metaphor compares directly" },
-              { id: "c", text: "Metaphors are only in poetry" },
-              { id: "d", text: "There is no difference" },
+              { id: "a", text: "Simile compares using 'like' or 'as'; metaphor compares directly" },
+              { id: "b", text: "Metaphors are only in poetry" },
+              { id: "c", text: "There is no difference" },
+              { id: "d", text: "Similes are always longer" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -426,12 +426,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "To fracture a limb" },
-              { id: "b", text: "Good luck" },
-              { id: "c", text: "To run quickly" },
-              { id: "d", text: "To stop trying" },
+              { id: "a", text: "To stop trying" },
+              { id: "b", text: "To run quickly" },
+              { id: "c", text: "Good luck" },
+              { id: "d", text: "To fracture a limb" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -512,11 +512,11 @@ export const lesson21: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "It makes sentences longer" },
-              { id: "b", text: "It creates images and feelings beyond literal meaning" },
+              { id: "b", text: "It is always more accurate" },
               { id: "c", text: "It uses bigger words" },
-              { id: "d", text: "It is always more accurate" },
+              { id: "d", text: "It creates images and feelings beyond literal meaning" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -606,12 +606,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "More facts" },
-              { id: "b", text: "Images, mood and compressed meaning" },
+              { id: "a", text: "Images, mood and compressed meaning" },
+              { id: "b", text: "More facts" },
               { id: "c", text: "Longer sentences" },
               { id: "d", text: "Better spelling" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -631,9 +631,9 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "'She was nervous' — it's clearer" },
+              { id: "a", text: "Both are equally effective" },
               { id: "b", text: "'Her hands wouldn't stop shaking' — it shows the nervousness" },
-              { id: "c", text: "Both are equally effective" },
+              { id: "c", text: "'She was nervous' — it's clearer" },
               { id: "d", text: "Neither is effective" },
             ],
             correctChoiceId: "b",
@@ -662,11 +662,11 @@ export const lesson21: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "'The test was hard' — it's accurate" },
-              { id: "b", text: "'The test was a beast' — it gives the difficulty a wild, threatening image" },
-              { id: "c", text: "Both are equally vivid" },
-              { id: "d", text: "Neither is vivid" },
+              { id: "b", text: "Both are equally vivid" },
+              { id: "c", text: "Neither is vivid" },
+              { id: "d", text: "'The test was a beast' — it gives the difficulty a wild, threatening image" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -693,8 +693,8 @@ export const lesson21: Lesson = {
             choices: [
               { id: "a", text: "It is shorter" },
               { id: "b", text: "'Like a ghost — present, but not quite there' captures grief's unreality and detachment, which 'sad' cannot convey" },
-              { id: "c", text: "It uses bigger words only" },
-              { id: "d", text: "It avoids mentioning the funeral" },
+              { id: "c", text: "It avoids mentioning the funeral" },
+              { id: "d", text: "It uses bigger words only" },
             ],
             correctChoiceId: "b",
           },
@@ -790,12 +790,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Because it's shorter" },
-              { id: "b", text: "Because the metaphor makes her eyes seem magical and distant" },
+              { id: "a", text: "Because the metaphor makes her eyes seem magical and distant" },
+              { id: "b", text: "Because it's shorter" },
               { id: "c", text: "Because 'bright' is a spelling mistake" },
               { id: "d", text: "Because stars are bigger than eyes" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -847,12 +847,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It makes texts shorter by removing words" },
-              { id: "b", text: "It packs complex ideas into a single vivid image" },
-              { id: "c", text: "It hides meaning from readers" },
-              { id: "d", text: "It uses smaller fonts" },
+              { id: "a", text: "It uses smaller fonts" },
+              { id: "b", text: "It hides meaning from readers" },
+              { id: "c", text: "It packs complex ideas into a single vivid image" },
+              { id: "d", text: "It makes texts shorter by removing words" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -873,11 +873,11 @@ export const lesson21: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Statistics about the weather" },
-              { id: "b", text: "Metaphor and elevated imagery that make the place feel desirable" },
+              { id: "b", text: "A formal report structure" },
               { id: "c", text: "A list of hotel prices" },
-              { id: "d", text: "A formal report structure" },
+              { id: "d", text: "Metaphor and elevated imagery that make the place feel desirable" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

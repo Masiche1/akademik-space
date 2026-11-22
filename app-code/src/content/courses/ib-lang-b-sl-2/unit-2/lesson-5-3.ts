@@ -92,12 +92,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Write 100%, check if time remains" },
-              { id: "b", text: "Plan ~15%, write ~65%, check ~20%" },
-              { id: "c", text: "Plan 50%, write 50%" },
-              { id: "d", text: "Check first, then write" },
+              { id: "a", text: "Plan 50%, write 50%" },
+              { id: "b", text: "Write 100%, check if time remains" },
+              { id: "c", text: "Check first, then write" },
+              { id: "d", text: "Plan ~15%, write ~65%, check ~20%" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -311,15 +311,15 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It only matters for the longest essays" },
               {
-                id: "b",
+                id: "a",
                 text: "Poor allocation loses marks through unfinished or unchecked work",
               },
+              { id: "b", text: "It only matters for the longest essays" },
               { id: "c", text: "It is only relevant in the reading section" },
               { id: "d", text: "Fast writers never need a plan" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -357,10 +357,10 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The body paragraphs" },
+              { id: "a", text: "The connectives" },
               { id: "b", text: "The introduction and conclusion" },
-              { id: "c", text: "The examples" },
-              { id: "d", text: "The connectives" },
+              { id: "c", text: "The body paragraphs" },
+              { id: "d", text: "The examples" },
             ],
             correctChoiceId: "b",
           },
@@ -398,15 +398,15 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Skip the conclusion entirely" },
               {
-                id: "b",
+                id: "a",
                 text: "Write a shortened two-to-three-sentence conclusion",
               },
+              { id: "b", text: "Skip the conclusion entirely" },
               { id: "c", text: "Keep writing the body until time ends" },
               { id: "d", text: "Restart the essay" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -449,14 +449,14 @@ export const lesson53: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Examiners only read the first paragraph" },
+              { id: "b", text: "It saves vocabulary for later" },
+              { id: "c", text: "It makes the essay look longer" },
               {
-                id: "b",
+                id: "d",
                 text: "If time runs short, the most important points are already covered",
               },
-              { id: "c", text: "It makes the essay look longer" },
-              { id: "d", text: "It saves vocabulary for later" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -494,15 +494,15 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It is less work overall" },
+              { id: "a", text: "Examiners prefer rough drafts" },
+              { id: "b", text: "It is less work overall" },
               {
-                id: "b",
+                id: "c",
                 text: "Perfectionism breaks idea flow and risks an unfinished essay",
               },
-              { id: "c", text: "Examiners prefer rough drafts" },
               { id: "d", text: "It uses more advanced grammar" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -541,9 +541,9 @@ export const lesson53: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "The weakest supporting point" },
-              { id: "b", text: "The introduction" },
-              { id: "c", text: "The conclusion" },
-              { id: "d", text: "The thesis statement" },
+              { id: "b", text: "The thesis statement" },
+              { id: "c", text: "The introduction" },
+              { id: "d", text: "The conclusion" },
             ],
             correctChoiceId: "a",
           },
@@ -944,15 +944,15 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Only spelling and grammar" },
+              { id: "a", text: "Speed of writing" },
+              { id: "b", text: "Length of the essay" },
+              { id: "c", text: "Only spelling and grammar" },
               {
-                id: "b",
+                id: "d",
                 text: "Task fulfilment, organisation, language and communication",
               },
-              { id: "c", text: "Speed of writing" },
-              { id: "d", text: "Length of the essay" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1164,12 +1164,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Speed and handwriting" },
-              { id: "b", text: "Task fulfilment and language" },
-              { id: "c", text: "Length and vocabulary count" },
-              { id: "d", text: "Only spelling and punctuation" },
+              { id: "a", text: "Task fulfilment and language" },
+              { id: "b", text: "Speed and handwriting" },
+              { id: "c", text: "Only spelling and punctuation" },
+              { id: "d", text: "Length and vocabulary count" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -1205,15 +1205,15 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Writing as many words as possible" },
+              { id: "a", text: "Using advanced vocabulary" },
+              { id: "b", text: "Writing as many words as possible" },
               {
-                id: "b",
+                id: "c",
                 text: "Answering the prompt in the required text type and register",
               },
-              { id: "c", text: "Using advanced vocabulary" },
               { id: "d", text: "Finishing before the time limit" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1252,12 +1252,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Spelling mistakes" },
-              { id: "b", text: "Content and task fulfilment" },
-              { id: "c", text: "Paragraph length" },
-              { id: "d", text: "Font size" },
+              { id: "a", text: "Content and task fulfilment" },
+              { id: "b", text: "Font size" },
+              { id: "c", text: "Spelling mistakes" },
+              { id: "d", text: "Paragraph length" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -1294,15 +1294,15 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Rewriting the whole essay" },
               {
-                id: "b",
+                id: "a",
                 text: "Checking for surface errors: spelling, punctuation and grammar",
               },
-              { id: "c", text: "Planning a new essay" },
-              { id: "d", text: "Checking word count only" },
+              { id: "b", text: "Checking word count only" },
+              { id: "c", text: "Rewriting the whole essay" },
+              { id: "d", text: "Planning a new essay" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -1340,15 +1340,15 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Examiners prefer longer sentences" },
+              { id: "a", text: "Accuracy is not assessed at all" },
+              { id: "b", text: "Examiners prefer longer sentences" },
+              { id: "c", text: "Range matters only at HL" },
               {
-                id: "b",
+                id: "d",
                 text: "Varied vocabulary and structures show control of the language",
               },
-              { id: "c", text: "Range matters only at HL" },
-              { id: "d", text: "Accuracy is not assessed at all" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1387,12 +1387,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Fixing spelling mistakes" },
-              { id: "b", text: "Checking paragraph order and linkers" },
-              { id: "c", text: "Adding more examples" },
-              { id: "d", text: "Counting the words" },
+              { id: "a", text: "Checking paragraph order and linkers" },
+              { id: "b", text: "Counting the words" },
+              { id: "c", text: "Fixing spelling mistakes" },
+              { id: "d", text: "Adding more examples" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

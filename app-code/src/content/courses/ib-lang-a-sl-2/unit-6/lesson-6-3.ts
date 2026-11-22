@@ -52,10 +52,10 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "What grade did I get?" },
+              { id: "a", text: "Do I like this subject?" },
               { id: "b", text: "What worked, what didn't, and what I'll do differently" },
-              { id: "c", text: "Was the task easy or hard?" },
-              { id: "d", text: "Do I like this subject?" },
+              { id: "c", text: "What grade did I get?" },
+              { id: "d", text: "Was the task easy or hard?" },
             ],
             correctChoiceId: "b",
           },
@@ -153,12 +153,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Plan, do, test, repeat" },
-              { id: "b", text: "Experience → reflection → conceptualisation → application" },
-              { id: "c", text: "Read, highlight, summarise, forget" },
-              { id: "d", text: "Try, fail, try again" },
+              { id: "a", text: "Try, fail, try again" },
+              { id: "b", text: "Plan, do, test, repeat" },
+              { id: "c", text: "Experience → reflection → conceptualisation → application" },
+              { id: "d", text: "Read, highlight, summarise, forget" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -179,12 +179,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It stores your grades" },
-              { id: "b", text: "Patterns and habits become visible over time" },
-              { id: "c", text: "It replaces teacher feedback" },
-              { id: "d", text: "It is required for the diploma" },
+              { id: "a", text: "It is required for the diploma" },
+              { id: "b", text: "It replaces teacher feedback" },
+              { id: "c", text: "Patterns and habits become visible over time" },
+              { id: "d", text: "It stores your grades" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -206,11 +206,11 @@ export const lesson63: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Kinder to yourself" },
-              { id: "b", text: "Specific, analytical and forward-looking rather than global and emotional" },
-              { id: "c", text: "Done only after failure" },
-              { id: "d", text: "Written rather than spoken" },
+              { id: "b", text: "Done only after failure" },
+              { id: "c", text: "Written rather than spoken" },
+              { id: "d", text: "Specific, analytical and forward-looking rather than global and emotional" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -232,12 +232,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A one-off fix for a single task" },
-              { id: "b", text: "A generalisable lesson applicable to future work" },
-              { id: "c", text: "A summary of what happened" },
-              { id: "d", text: "A new goal for next week" },
+              { id: "a", text: "A summary of what happened" },
+              { id: "b", text: "A new goal for next week" },
+              { id: "c", text: "A one-off fix for a single task" },
+              { id: "d", text: "A generalisable lesson applicable to future work" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -259,12 +259,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Another grade prediction" },
-              { id: "b", text: "A concrete action for the next attempt" },
-              { id: "c", text: "A list of excuses" },
-              { id: "d", text: "Nothing — reflection ends at analysis" },
+              { id: "a", text: "Nothing — reflection ends at analysis" },
+              { id: "b", text: "Another grade prediction" },
+              { id: "c", text: "A concrete action for the next attempt" },
+              { id: "d", text: "A list of excuses" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -285,10 +285,10 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Your general ability" },
+              { id: "a", text: "The teacher's marking" },
               { id: "b", text: "Process causes and actionable next steps, not global self-judgement" },
-              { id: "c", text: "Blaming the task" },
-              { id: "d", text: "The teacher's marking" },
+              { id: "c", text: "Your general ability" },
+              { id: "d", text: "Blaming the task" },
             ],
             correctChoiceId: "b",
           },
@@ -481,10 +481,10 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Studying alone without guidance" },
+              { id: "a", text: "Reading without writing" },
               { id: "b", text: "Self-directed study with goals, resources and self-monitoring" },
-              { id: "c", text: "Avoiding the teacher" },
-              { id: "d", text: "Reading without writing" },
+              { id: "c", text: "Studying alone without guidance" },
+              { id: "d", text: "Avoiding the teacher" },
             ],
             correctChoiceId: "b",
           },
@@ -581,12 +581,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Read, highlight, summarise, forget" },
-              { id: "b", text: "Goal → resource → practice → feedback → adjust" },
+              { id: "a", text: "Copy, paste, submit" },
+              { id: "b", text: "Read, highlight, summarise, forget" },
               { id: "c", text: "Try, fail, try again" },
-              { id: "d", text: "Copy, paste, submit" },
+              { id: "d", text: "Goal → resource → practice → feedback → adjust" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -607,12 +607,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Plot summaries" },
-              { id: "b", text: "Quotes, questions and connections" },
-              { id: "c", text: "Page counts" },
-              { id: "d", text: "Only favourite books" },
+              { id: "a", text: "Quotes, questions and connections" },
+              { id: "b", text: "Plot summaries" },
+              { id: "c", text: "Only favourite books" },
+              { id: "d", text: "Page counts" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -633,12 +633,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Replaces the need for coursework" },
-              { id: "b", text: "Exposes you to analytical language and critical perspectives you can adapt" },
-              { id: "c", text: "Gives you quotations to memorise" },
-              { id: "d", text: "Is easier than reading literature" },
+              { id: "a", text: "Is easier than reading literature" },
+              { id: "b", text: "Gives you quotations to memorise" },
+              { id: "c", text: "Replaces the need for coursework" },
+              { id: "d", text: "Exposes you to analytical language and critical perspectives you can adapt" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -661,11 +661,11 @@ export const lesson63: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Gives you plots to copy" },
-              { id: "b", text: "Exposes you to varied techniques, voices and treatments of theme" },
-              { id: "c", text: "Replaces practice essays" },
-              { id: "d", text: "Is required for the final exam" },
+              { id: "b", text: "Replaces practice essays" },
+              { id: "c", text: "Is required for the final exam" },
+              { id: "d", text: "Exposes you to varied techniques, voices and treatments of theme" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -687,12 +687,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Checking grades only" },
-              { id: "b", text: "Tracking progress against goals and adjusting methods" },
+              { id: "a", text: "Tracking progress against goals and adjusting methods" },
+              { id: "b", text: "Waiting for teacher feedback" },
               { id: "c", text: "Studying without any plan" },
-              { id: "d", text: "Waiting for teacher feedback" },
+              { id: "d", text: "Checking grades only" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -713,12 +713,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Guarantee exam success" },
-              { id: "b", text: "Reveal assessment criteria and mark-scheme expectations" },
+              { id: "a", text: "Reveal assessment criteria and mark-scheme expectations" },
+              { id: "b", text: "Are easier than real tasks" },
               { id: "c", text: "Replace the need to read the texts" },
-              { id: "d", text: "Are easier than real tasks" },
+              { id: "d", text: "Guarantee exam success" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

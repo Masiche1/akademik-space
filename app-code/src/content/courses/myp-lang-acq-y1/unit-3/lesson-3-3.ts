@@ -55,12 +55,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Goodbye" },
-              { id: "b", text: "Hello / good day" },
-              { id: "c", text: "Thank you" },
+              { id: "a", text: "Thank you" },
+              { id: "b", text: "Goodbye" },
+              { id: "c", text: "Hello / good day" },
               { id: "d", text: "Good night" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -151,12 +151,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Goodbye" },
-              { id: "b", text: "Hello (Spanish)" },
-              { id: "c", text: "Thank you" },
-              { id: "d", text: "Good night" },
+              { id: "a", text: "Hello (Spanish)" },
+              { id: "b", text: "Goodbye" },
+              { id: "c", text: "Good night" },
+              { id: "d", text: "Thank you" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -178,10 +178,10 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Bonjour" },
+              { id: "a", text: "Hola" },
               { id: "b", text: "Konnichiwa" },
-              { id: "c", text: "Guten Tag" },
-              { id: "d", text: "Hola" },
+              { id: "c", text: "Bonjour" },
+              { id: "d", text: "Guten Tag" },
             ],
             correctChoiceId: "b",
           },
@@ -248,9 +248,9 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "It shows interest in them and their culture" },
-              { id: "b", text: "It makes you speak faster" },
-              { id: "c", text: "It is a rule in every country" },
-              { id: "d", text: "It is only for teachers" },
+              { id: "b", text: "It is a rule in every country" },
+              { id: "c", text: "It is only for teachers" },
+              { id: "d", text: "It makes you speak faster" },
             ],
             correctChoiceId: "a",
           },
@@ -274,12 +274,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Spanish" },
-              { id: "b", text: "French" },
-              { id: "c", text: "German" },
-              { id: "d", text: "Japanese" },
+              { id: "a", text: "German" },
+              { id: "b", text: "Japanese" },
+              { id: "c", text: "French" },
+              { id: "d", text: "Spanish" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -352,12 +352,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Bonjour" },
+              { id: "a", text: "Thank you" },
               { id: "b", text: "Hola" },
-              { id: "c", text: "Thank you" },
+              { id: "c", text: "Bonjour" },
               { id: "d", text: "Konnichiwa" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -385,10 +385,10 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Spanish" },
+              { id: "a", text: "German" },
               { id: "b", text: "French" },
-              { id: "c", text: "German" },
-              { id: "d", text: "English" },
+              { id: "c", text: "English" },
+              { id: "d", text: "Spanish" },
             ],
             correctChoiceId: "b",
           },
@@ -502,11 +502,11 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Laugh at it" },
-              { id: "b", text: "Be curious and ask politely" },
-              { id: "c", text: "Say it is wrong" },
+              { id: "b", text: "Say it is wrong" },
+              { id: "c", text: "Be curious and ask politely" },
               { id: "d", text: "Ignore the person" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -605,12 +605,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Laugh at it" },
-              { id: "b", text: "Be curious and ask politely" },
-              { id: "c", text: "Say it is wrong" },
-              { id: "d", text: "Ignore the person" },
+              { id: "a", text: "Say it is wrong" },
+              { id: "b", text: "Laugh at it" },
+              { id: "c", text: "Ignore the person" },
+              { id: "d", text: "Be curious and ask politely" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -633,11 +633,11 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Speak very loudly and fast" },
-              { id: "b", text: "Speak slowly and clearly" },
-              { id: "c", text: "Use difficult words" },
+              { id: "b", text: "Use difficult words" },
+              { id: "c", text: "Speak slowly and clearly" },
               { id: "d", text: "Do not listen" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -701,12 +701,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Differences are normal and laughing is disrespectful" },
-              { id: "b", text: "You might get in trouble" },
+              { id: "a", text: "Food is never different" },
+              { id: "b", text: "Differences are normal and laughing is disrespectful" },
               { id: "c", text: "It is against the law" },
-              { id: "d", text: "Food is never different" },
+              { id: "d", text: "You might get in trouble" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -728,12 +728,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Say it louder and faster" },
-              { id: "b", text: "Speak more slowly and use simpler words" },
-              { id: "c", text: "Give up and walk away" },
+              { id: "a", text: "Give up and walk away" },
+              { id: "b", text: "Say it louder and faster" },
+              { id: "c", text: "Speak more slowly and use simpler words" },
               { id: "d", text: "Laugh at their English" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -806,9 +806,9 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Laughing at different food" },
+              { id: "a", text: "Ignoring new students" },
               { id: "b", text: "Asking politely about someone's culture" },
-              { id: "c", text: "Ignoring new students" },
+              { id: "c", text: "Laughing at different food" },
               { id: "d", text: "Speaking only in your language" },
             ],
             correctChoiceId: "b",
@@ -839,10 +839,10 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Join the laughter" },
-              { id: "b", text: "Say it is rude" },
+              { id: "a", text: "Move to another table" },
+              { id: "b", text: "Join the laughter" },
               { id: "c", text: "Treat it as normal and be friendly" },
-              { id: "d", text: "Move to another table" },
+              { id: "d", text: "Say it is rude" },
             ],
             correctChoiceId: "c",
           },

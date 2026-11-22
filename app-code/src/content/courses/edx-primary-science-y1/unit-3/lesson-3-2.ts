@@ -60,11 +60,11 @@ export const lesson122: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Leaves" },
-              { id: "b", text: "Roots" },
+              { id: "b", text: "Stem" },
               { id: "c", text: "Flowers" },
-              { id: "d", text: "Stem" },
+              { id: "d", text: "Roots" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -83,12 +83,12 @@ export const lesson122: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Soil" },
-              { id: "b", text: "Sunlight" },
-              { id: "c", text: "Water only" },
-              { id: "d", text: "Air only" },
+              { id: "a", text: "Water only" },
+              { id: "b", text: "Air only" },
+              { id: "c", text: "Soil" },
+              { id: "d", text: "Sunlight" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -217,12 +217,12 @@ export const lesson122: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A leaf" },
-              { id: "b", text: "A small part that grows into a plant" },
-              { id: "c", text: "A root" },
-              { id: "d", text: "A flower" },
+              { id: "a", text: "A root" },
+              { id: "b", text: "A flower" },
+              { id: "c", text: "A small part that grows into a plant" },
+              { id: "d", text: "A leaf" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -247,12 +247,12 @@ export const lesson122: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Flowers appear" },
-              { id: "b", text: "Root grows down" },
-              { id: "c", text: "Leaves appear" },
+              { id: "a", text: "Root grows down" },
+              { id: "b", text: "Leaves appear" },
+              { id: "c", text: "Flowers appear" },
               { id: "d", text: "Seeds form" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

@@ -51,12 +51,12 @@ export const lesson72: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Aggressive and threatening" },
-              { id: "b", text: "Polite, firm and factual" },
+              { id: "a", text: "Overly apologetic" },
+              { id: "b", text: "Aggressive and threatening" },
               { id: "c", text: "Sarcastic" },
-              { id: "d", text: "Overly apologetic" },
+              { id: "d", text: "Polite, firm and factual" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -148,6 +148,237 @@ export const lesson72: Lesson = {
             commonErrors: ["In (d) saying 'because they are different' without explaining what specifically changes and why."],
           },
         },
+        {
+          id: "cile-u7-adapt-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Which tone is most effective for a complaint to a company?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Dismissive" },
+              { id: "b", text: "Overly emotional" },
+              { id: "c", text: "Hostile and insulting" },
+              { id: "d", text: "Calm, firm and factual" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [{ kind: "technique", name: "Complaint tone", statement: "Complaints need firmness and evidence, not aggression." }],
+            steps: [{ reasoning: "A calm factual tone makes the complaint credible and easier to resolve.", marks: 1, markCode: "AO1" }],
+            finalAnswer: "**(b)** Calm, firm and factual",
+            commonErrors: ["Choosing aggression — it weakens the complaint."],
+          },
+        },
+        {
+          id: "cile-u7-adapt-q6",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Why does the same information need different wording for different audiences?",
+          response: { type: "open" },
+          markscheme: {
+            principles: [{ kind: "technique", name: "Audience", statement: "Readers have different knowledge, expectations and concerns." }],
+            steps: [{ reasoning: "Audience determines register, detail and emphasis so the message is understood and accepted.", marks: 1, markCode: "AO2" }],
+            finalAnswer: "Different audiences know different things and expect different tones, so wording must be adapted for clarity and appropriateness.",
+            commonErrors: ["Saying only 'because people are different'."],
+          },
+        },
+        {
+          id: "cile-u7-adapt-q7",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "What should a complaint letter include to be effective?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "A long personal history" },
+              { id: "b", text: "No clear request" },
+              { id: "c", text: "Only a strong emotion" },
+              { id: "d", text: "What happened, why it matters and what you want done" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [{ kind: "technique", name: "Complaint purpose", statement: "A complaint must state the problem, impact and requested action." }],
+            steps: [{ reasoning: "The reader needs facts and a clear resolution request.", marks: 1, markCode: "AO1" }],
+            finalAnswer: "**(b)** What happened, why it matters and what you want done",
+            commonErrors: ["Focusing on emotion rather than the required action."],
+          },
+        },
+        {
+          id: "cile-u7-adapt-q8",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "Rewrite concisely: 'I was just wondering if it might be possible for you to maybe send me the notes when you get a chance.'",
+          response: { type: "open" },
+          markscheme: {
+            principles: [{ kind: "technique", name: "Conciseness", statement: "Remove hedging and state the request directly." }],
+            steps: [
+              { reasoning: "Delete filler such as 'just wondering' and 'when you get a chance'.", marks: 1, markCode: "AO2" },
+              { reasoning: "State the request: 'Please send me the notes.'", marks: 1, markCode: "AO3" },
+            ],
+            finalAnswer: "'Please send me the notes.' or 'Could you please send me the notes?'",
+            commonErrors: ["Keeping 'maybe' or 'when you get a chance'."],
+          },
+        },
+        {
+          id: "cile-u7-adapt-q9",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Which best describes an 'audience profile'?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "The number of paragraphs" },
+              { id: "b", text: "The writer's favourite topic" },
+              { id: "c", text: "What the reader knows, cares about and expects" },
+              { id: "d", text: "The length of the text" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [{ kind: "definition", name: "Audience profile", statement: "Understanding reader knowledge, concerns and expectations guides adaptation." }],
+            steps: [{ reasoning: "Audience profile helps choose register, content and emphasis.", marks: 1, markCode: "AO1" }],
+            finalAnswer: "**(a)** What the reader knows, cares about and expects",
+            commonErrors: ["Confusing audience with topic."],
+          },
+        },
+        {
+          id: "cile-u7-adapt-q10",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "Describe how a school closure announcement would differ for students and parents.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [{ kind: "technique", name: "Audience adaptation", statement: "Same event, different needs: students need practical details; parents need reassurance and logistics." }],
+            steps: [
+              { reasoning: "Students: direct, practical language about times and what to do.", marks: 1, markCode: "AO2" },
+              { reasoning: "Students: less explanation, more immediate instructions.", marks: 1, markCode: "AO3" },
+              { reasoning: "Parents: formal, reassuring tone with transport, safety and contact details.", marks: 1, markCode: "AO2" },
+              { reasoning: "Parents: fuller context and reassurance about arrangements.", marks: 1, markCode: "AO3" },
+            ],
+            finalAnswer: "Students need a direct practical message with times and actions; parents need a formal reassuring message with logistics, safety and contact information.",
+            commonErrors: ["Changing only the greeting while keeping the same content and tone."],
+          },
+        },
+        {
+          id: "cile-u7-adapt-q11",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Which sentence is clearest?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Something went wrong with the equipment." },
+              { id: "b", text: "The projector stopped working during the lesson." },
+              { id: "c", text: "It was really quite difficult." },
+              { id: "d", text: "The thing that happened was kind of bad." },
+            ],
+            borrectChoiceId: "c",
+          },
+          markscheme: {
+            principles: [{ kind: "technique", name: "Clarity", statement: "Precise words and complete information make meaning unambiguous." }],
+            steps: [{ reasoning: "(c) names exactly what happened and when.", marks: 1, markCode: "AO1" }],
+            finalAnswer: "**(c)** The projector stopped working during the lesson.",
+            commonErrors: ["Choosing vague or incomplete wording."],
+          },
+        },
+        {
+          id: "cile-u7-adapt-q12",
+          difficulty: "challenge",
+          totalMarks: 3,
+          stem: "Identify the hedging in 'I was just wondering if maybe you could possibly help' and revise it.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [{ kind: "technique", name: "Hedging", statement: "Excessive qualifiers weaken confidence and clarity." }],
+            steps: [
+              { reasoning: "Identify hedges: 'just', 'maybe', 'possibly'.", marks: 1, markCode: "AO2" },
+              { reasoning: "Explain that they make the request seem uncertain.", marks: 1, markCode: "AO2" },
+              { reasoning: "Revise to 'Could you help me?' or 'Please help me.'", marks: 1, markCode: "AO3" },
+            ],
+            finalAnswer: "Hedges: 'just', 'maybe', 'possibly'. Revision: 'Could you help me?' — direct and confident.",
+            commonErrors: ["Removing only one hedge while leaving the request weak."],
+          },
+        },
+        {
+          id: "cile-u7-adapt-q13",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "What changes most when adapting the same message to a different audience?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Nothing changes" },
+              { id: "b", text: "Register, tone and emphasis change while facts remain accurate" },
+              { id: "c", text: "Only spelling changes" },
+              { id: "d", text: "The core facts always change completely" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [{ kind: "technique", name: "Adaptation", statement: "Audience changes presentation, not the underlying facts." }],
+            steps: [{ reasoning: "Facts stay accurate; language, tone and emphasis are adjusted.", marks: 1, markCode: "AO1" }],
+            finalAnswer: "**(b)** Register, tone and emphasis change while facts remain accurate",
+            commonErrors: ["Thinking adaptation means changing the facts."],
+          },
+        },
+        {
+          id: "cile-u7-adapt-q14",
+          difficulty: "challenge",
+          totalMarks: 3,
+          stem: "Write the opening of the same complaint for two audiences: a shop manager and a friend.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [{ kind: "technique", name: "Dual audience", statement: "Formal complaint needs facts and request; friend needs personal context." }],
+            steps: [
+              { reasoning: "Shop manager: formal greeting and purpose-first complaint.", marks: 1, markCode: "AO2" },
+              { reasoning: "Shop manager: factual description and clear request.", marks: 1, markCode: "AO2" },
+              { reasoning: "Friend: casual tone with personal detail and emotional context.", marks: 1, markCode: "AO3" },
+            ],
+            finalAnswer: "Manager: 'Dear Sir/Madam, I am writing to report a faulty product...' Friend: 'Guess what — the headphones I bought stopped working...'",
+            commonErrors: ["Using identical wording for both audiences."],
+          },
+        },
+        {
+          id: "cile-u7-adapt-q15",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Which word is usually filler that can be removed?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "request" },
+              { id: "b", text: "deadline" },
+              { id: "c", text: "basically" },
+              { id: "d", text: "because" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [{ kind: "technique", name: "Filler", statement: "Words like 'basically' often add no meaning." }],
+            steps: [{ reasoning: "'Basically' usually restates or weakens the message and can be cut.", marks: 1, markCode: "AO1" }],
+            finalAnswer: "**(b)** basically",
+            commonErrors: ["Removing a word that carries necessary meaning."],
+          },
+        },
+        {
+          id: "cile-u7-adapt-q16",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "Plan how to communicate a timetable change to students, parents and staff.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [{ kind: "skill", name: "Multi-audience plan", statement: "Identify audience needs, then choose register, detail and channel." }],
+            steps: [
+              { reasoning: "Students: concise practical details and classroom implications.", marks: 1, markCode: "AO2" },
+              { reasoning: "Parents: formal reassurance about times, transport and safety.", marks: 1, markCode: "AO2" },
+              { reasoning: "Staff: professional instructions about duties and coverage.", marks: 1, markCode: "AO2" },
+              { reasoning: "Choose appropriate channels and sign-offs for each group.", marks: 1, markCode: "AO3" },
+            ],
+            finalAnswer: "Adapt content and tone for each audience: students get practical updates, parents get formal logistics, staff get professional instructions; use suitable channels for each.",
+            commonErrors: ["Sending one identical message to all groups."],
+          },
+        },
       ],
     },
     {
@@ -187,11 +418,11 @@ export const lesson72: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Only the date" },
-              { id: "b", text: "What, when, where and how to respond" },
-              { id: "c", text: "A long description of the host" },
+              { id: "b", text: "A long description of the host" },
+              { id: "c", text: "What, when, where and how to respond" },
               { id: "d", text: "The cost only" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -281,6 +512,270 @@ export const lesson72: Lesson = {
               { level: "Level 1", marks: "0", descriptor: "Abrupt.", part: "d" },
             ],
             commonErrors: ["In (c) generic impact ('you helped me a lot') — must be specific."],
+          },
+        },
+        {
+          id: "cile-u7-trans-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "What is the primary purpose of a CV or resume?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "To list every job you have ever had" },
+              { id: "b", text: "To present your education, experience and skills clearly" },
+              { id: "c", text: "To tell your life story in detail" },
+              { id: "d", text: "To entertain the reader" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              { kind: "convention", name: "CV conventions", statement: "A CV presents relevant education, experience and skills in clear sections." },
+            ],
+            steps: [
+              { reasoning: "Employers scan CVs for relevant evidence quickly.", working: "\\text{relevant evidence}", marks: 1, markCode: "AO1" },
+            ],
+            finalAnswer: "**(b)** To present your education, experience and skills clearly",
+            commonErrors: ["Choosing (a) — a CV is not a biography."],
+          },
+        },
+        {
+          id: "cile-u7-trans-q6",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "Why should a form application be answered directly and completely?",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "convention", name: "Form conventions", statement: "Forms are screened quickly; incomplete or vague answers may be rejected." },
+            ],
+            steps: [
+              { reasoning: "Forms are often used for shortlisting — incomplete answers are easily spotted.", working: "\\text{shortlist}", marks: 1, markCode: "AO2" },
+              { reasoning: "Direct complete answers provide the evidence the screener needs.", marks: 1, markCode: "AO3" },
+            ],
+            finalAnswer: "Forms are often screened quickly for shortlisting, so direct, complete answers give the screener the evidence they need and avoid automatic rejection.",
+            commonErrors: ["Saying 'to show you can write well' — the function is providing required information clearly."],
+          },
+        },
+        {
+          id: "cile-u7-trans-q7",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Which is the best ending for a formal invitation?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "'RSVP by 10 May to confirm attendance'" },
+              { id: "b", text: "'Hope you can make it lol'" },
+              { id: "c", text: "'It will be fun trust me'" },
+              { id: "d", text: "'Tell me if you want to come or not'" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              { kind: "convention", name: "RSVP", statement: "Formal invitations end with a clear request for response by a deadline." },
+            ],
+            steps: [
+              { reasoning: "RSVP gives the host the information and deadline needed to plan.", working: "\\text{RSVP}", marks: 1, markCode: "AO1" },
+            ],
+            finalAnswer: "**(b)** 'RSVP by 10 May to confirm attendance'",
+            commonErrors: ["Choosing informal phrasing unsuitable for a formal invitation."],
+          },
+        },
+        {
+          id: "cile-u7-trans-q8",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "Rewrite this weak thank-you: 'Thanks for the thing you gave me.'",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "technique", name: "Specificity", statement: "Name the specific gift or action and its impact." },
+            ],
+            steps: [
+              { reasoning: "Problem: 'the thing' is vague — the gift is not identified.", working: "\\text{vague}", marks: 1, markCode: "AO2" },
+              { reasoning: "Fix: name the gift and add a brief impact — 'Thank you for the scarf; it kept me warm all winter.'", working: "\\text{specific+impact}", marks: 1, markCode: "AO3" },
+            ],
+            finalAnswer: "'Thank you for the scarf you gave me — it has kept me warm all winter and I really appreciate the thought.'",
+            commonErrors: ["Adding length but keeping vague wording."],
+          },
+        },
+        {
+          id: "cile-u7-trans-q9",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "What should a cover letter contain?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Only your hobbies" },
+              { id: "b", text: "Complaints about previous jobs" },
+              { id: "c", text: "Your full life story" },
+              { id: "d", text: "Purpose, relevant qualifications, why you fit, and a call to action" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              { kind: "convention", name: "Cover letter", statement: "Purpose, evidence of fit, and call to action are essential." },
+            ],
+            steps: [
+              { reasoning: "Employers need relevance, evidence and a reason to respond.", working: "\\text{relevance+evidence}", marks: 1, markCode: "AO1" },
+            ],
+            finalAnswer: "**(b)** Purpose, relevant qualifications, why you fit, and a call to action",
+            commonErrors: ["Choosing (a) — cover letters are focused, not autobiographical."],
+          },
+        },
+        {
+          id: "cile-u7-trans-q10",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "Compare a formal and informal invitation for the same event (a birthday party).",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "technique", name: "Register contrast", statement: "Formal invitations use 'You are invited' and structured details; informal use relaxed personal language." },
+            ],
+            steps: [
+              { reasoning: "Formal: 'You are invited to a birthday celebration...' with date, time, venue, RSVP.", working: "\\text{formal}", marks: 1, markCode: "AO2" },
+              { reasoning: "Informal: 'Come to my birthday!' with casual details and warm tone.", working: "\\text{informal}", marks: 1, markCode: "AO2" },
+              { reasoning: "Both include what/when/where — the difference is register and formality.", working: "\\text{same details}", marks: 1, markCode: "AO2" },
+              { reasoning: "Formal RSVP vs informal 'let me know' — response request adapts too.", marks: 1, markCode: "AO3" },
+            ],
+            finalAnswer: "Formal: structured, 'You are invited', full details, formal RSVP. Informal: relaxed, personal, same essential details but casual phrasing and 'let me know if you can make it'.",
+            commonErrors: ["Changing only the greeting while keeping formal phrasing throughout."],
+          },
+        },
+        {
+          id: "cile-u7-trans-q11",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Which is a weak opening for a thank-you note?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "'Thank you for the concert tickets — I loved the performance.'" },
+              { id: "b", text: "'I really appreciated your help moving house on Saturday.'" },
+              { id: "c", text: "'Thanks for the thing.'" },
+              { id: "d", text: "'Thank you for lending me your notes before the exam.'" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              { kind: "technique", name: "Specificity", statement: "Thank-you notes must name the specific gift or action." },
+            ],
+            steps: [
+              { reasoning: "'The thing' identifies nothing — the thanks cannot be genuine or specific.", working: "\\text{unspecific}", marks: 1, markCode: "AO1" },
+            ],
+            finalAnswer: "**(b)** 'Thanks for the thing.'",
+            commonErrors: ["Choosing a specific opening — the task asks for the weak one."],
+          },
+        },
+        {
+          id: "cile-u7-trans-q12",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "Why do applications require evidence of qualifications linked to the role?",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "technique", name: "Evidence linking", statement: "Employers select candidates who can prove fit for the specific role." },
+            ],
+            steps: [
+              { reasoning: "Evidence proves you have the required skills or experience.", working: "\\text{proof}", marks: 1, markCode: "AO2" },
+              { reasoning: "Linking it to the role shows you understand what the job needs.", marks: 1, markCode: "AO3" },
+            ],
+            finalAnswer: "Employers need proof of relevant ability; linking qualifications to role requirements shows you understand the job and can do it.",
+            commonErrors: ["Saying 'to make it longer' — the function is demonstrating fit."],
+          },
+        },
+        {
+          id: "cile-u7-trans-q13",
+          difficulty: "challenge",
+          totalMarks: 5,
+          stem: "Write the key sections of a cover letter for a part-time job at a bookshop.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Cover letter structure", statement: "Purpose, relevant evidence, motivation, call to action — concise and targeted." },
+            ],
+            steps: [
+              { reasoning: "Opening states the position applied for and purpose.", working: "\\text{purpose}", marks: 1, markCode: "AO2" },
+              { reasoning: "Relevant experience/skills selected and linked to bookshop needs (e.g. reading, customer service).", working: "\\text{link}", marks: 1, markCode: "AO2" },
+              { reasoning: "Motivation: genuine interest in books/retail.", working: "\\text{motivation}", marks: 1, markCode: "AO2" },
+              { reasoning: "Call to action: request for interview or further contact.", working: "\\text{CTA}", marks: 1, markCode: "AO2" },
+              { reasoning: "Tone formal and concise — one page.", marks: 1, markCode: "AO3" },
+            ],
+            finalAnswer: "Dear..., I am writing to apply for the part-time position at your bookshop. I have [relevant experience] which developed [skill], making me well suited to serving customers and maintaining the shop. I am passionate about books because... I would welcome the opportunity to discuss how I can contribute. Yours faithfully...",
+            commonErrors: ["Including irrelevant life history instead of job-linked evidence."],
+          },
+        },
+        {
+          id: "cile-u7-trans-q14",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "What does 'RSVP' stand for and why is it used?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "The host's address" },
+              { id: "b", text: "Reply if you can attend — it lets the host plan" },
+              { id: "c", text: "A type of gift" },
+              { id: "d", text: "A formal apology" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              { kind: "convention", name: "RSVP", statement: "Répondez s'il vous plaît — request for response so host can plan." },
+            ],
+            steps: [
+              { reasoning: "Guest numbers and catering depend on confirmed attendance.", working: "\\text{planning}", marks: 1, markCode: "AO1" },
+            ],
+            finalAnswer: "**(a)** Reply if you can attend — it lets the host plan",
+            commonErrors: ["Thinking RSVP is decorative rather than functional."],
+          },
+        },
+        {
+          id: "cile-u7-trans-q15",
+          difficulty: "challenge",
+          totalMarks: 3,
+          stem: "Identify two weaknesses in this invitation: 'Party at mine sometime next month. Bring stuff.'",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "technique", name: "Invitation completeness", statement: "Invitations need specific date, time, venue and clear instructions." },
+            ],
+            steps: [
+              { reasoning: "Weakness 1: 'sometime next month' — no exact date or time.", working: "\\text{no date}", marks: 1, markCode: "AO2" },
+              { reasoning: "Weakness 2: 'at mine' and 'bring stuff' — vague venue and unclear expectations.", working: "\\text{vague}", marks: 1, markCode: "AO2" },
+              { reasoning: "Revise with specific details and RSVP.", marks: 1, markCode: "AO3" },
+            ],
+            finalAnswer: "No exact date/time and vague venue/instructions. Revision: 'You're invited to my birthday party on Saturday 14 June, 7pm, at 12 Park Road. Please bring a gift or card. RSVP by 1 June.'",
+            commonErrors: ["Identifying only one weakness or rewriting without fixing it."],
+          },
+        },
+        {
+          id: "cile-u7-trans-q16",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "A student must apply for a school exchange programme. Plan the application package.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Application package", statement: "Cover letter, CV and form answers must all present relevant evidence consistently." },
+            ],
+            steps: [
+              { reasoning: "Cover letter: purpose, relevant skills (languages, adaptability), motivation, call to action.", working: "\\text{cover}", marks: 1, markCode: "AO2" },
+              { reasoning: "CV: clear sections — education, languages, relevant activities.", working: "\\text{CV}", marks: 1, markCode: "AO2" },
+              { reasoning: "Form: answer each question directly and completely.", working: "\\text{form}", marks: 1, markCode: "AO2" },
+              { reasoning: "Consistency: same facts and evidence across all documents.", marks: 1, markCode: "AO3" },
+            ],
+            finalAnswer: "Cover letter states purpose and links relevant skills (language, independence) to the programme; CV lists education and languages clearly; form answers are direct and complete; all documents present consistent evidence.",
+            commonErrors: ["Treating each document as separate with inconsistent information."],
           },
         },
       ],

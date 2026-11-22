@@ -57,10 +57,10 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It is destroyed" },
+              { id: "a", text: "It stays inside the ball" },
               { id: "b", text: "It is transferred to surroundings as heat and sound" },
-              { id: "c", text: "It becomes momentum" },
-              { id: "d", text: "It stays inside the ball" },
+              { id: "c", text: "It is destroyed" },
+              { id: "d", text: "It becomes momentum" },
             ],
             correctChoiceId: "b",
           },
@@ -82,12 +82,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "10 000 J" },
-              { id: "b", text: "20 000 J" },
-              { id: "c", text: "200 000 J" },
-              { id: "d", text: "400 000 J" },
+              { id: "a", text: "20 000 J" },
+              { id: "b", text: "10 000 J" },
+              { id: "c", text: "400 000 J" },
+              { id: "d", text: "200 000 J" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Kinetic energy", statement: "$KE = \\frac{1}{2}mv^2 = \\frac{1}{2}(1000)(400)$" }],
@@ -108,12 +108,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "14 m/s" },
-              { id: "b", text: "19.6 m/s" },
-              { id: "c", text: "196 m/s" },
-              { id: "d", text: "392 m/s" },
+              { id: "a", text: "196 m/s" },
+              { id: "b", text: "392 m/s" },
+              { id: "c", text: "19.6 m/s" },
+              { id: "d", text: "14 m/s" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Energy balance", statement: "$mgh = \\frac{1}{2}mv^2$ → $v = \\sqrt{2gh}$" }],
@@ -167,10 +167,10 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$PE = \\frac{1}{2}mv^2$" },
+              { id: "a", text: "$PE = mv$" },
               { id: "b", text: "$PE = mgh$" },
               { id: "c", text: "$PE = Fd$" },
-              { id: "d", text: "$PE = mv$" },
+              { id: "d", text: "$PE = \\frac{1}{2}mv^2$" },
             ],
             correctChoiceId: "b",
           },
@@ -211,12 +211,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "PE increases as KE decreases" },
-              { id: "b", text: "PE decreases as KE increases by the same amount" },
+              { id: "a", text: "PE decreases as KE increases by the same amount" },
+              { id: "b", text: "KE is converted into momentum" },
               { id: "c", text: "Both PE and KE stay constant" },
-              { id: "d", text: "KE is converted into momentum" },
+              { id: "d", text: "PE increases as KE decreases" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Energy conservation", statement: "Energy transfers between PE and KE with no loss when friction is ignored." }],
@@ -257,10 +257,10 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "2" },
+              { id: "a", text: "It stays the same" },
               { id: "b", text: "4" },
               { id: "c", text: "8" },
-              { id: "d", text: "It stays the same" },
+              { id: "d", text: "2" },
             ],
             correctChoiceId: "b",
           },
@@ -377,12 +377,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Light" },
-              { id: "b", text: "Sound only" },
-              { id: "c", text: "Heat (thermal energy)" },
-              { id: "d", text: "Nuclear energy" },
+              { id: "a", text: "Nuclear energy" },
+              { id: "b", text: "Heat (thermal energy)" },
+              { id: "c", text: "Light" },
+              { id: "d", text: "Sound only" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Friction", statement: "Friction converts mechanical energy mainly into heat, plus some sound." }],
@@ -402,12 +402,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "5.1 m" },
-              { id: "b", text: "10.2 m" },
-              { id: "c", text: "51 m" },
-              { id: "d", text: "102 m" },
+              { id: "a", text: "10.2 m" },
+              { id: "b", text: "51 m" },
+              { id: "c", text: "102 m" },
+              { id: "d", text: "5.1 m" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Energy balance", statement: "$\\frac{1}{2}mv^2 = mgh$ → $h = v^2/(2g)$" }],
@@ -527,12 +527,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Horizontal force" },
-              { id: "b", text: "Gravity only" },
-              { id: "c", text: "Launch force" },
-              { id: "d", text: "Air resistance only" },
+              { id: "a", text: "Gravity only" },
+              { id: "b", text: "Launch force" },
+              { id: "c", text: "Air resistance only" },
+              { id: "d", text: "Horizontal force" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Projectile", statement: "Only gravity acts after launch; horizontal velocity is constant." }],
@@ -553,11 +553,11 @@ export const lesson12: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "1 : 1" },
-              { id: "b", text: "$\\tan 30^{\\circ} = 0.58$" },
+              { id: "b", text: "2 : 1" },
               { id: "c", text: "0.5 : 1" },
-              { id: "d", text: "2 : 1" },
+              { id: "d", text: "$\\tan 30^{\\circ} = 0.58$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Components", statement: "$\\frac{v_y}{v_x} = \\frac{\\sin\\theta}{\\cos\\theta} = \\tan\\theta$" }],
@@ -578,12 +578,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "30° has greater range" },
-              { id: "b", text: "60° has greater range" },
-              { id: "c", text: "Both have equal range" },
-              { id: "d", text: "Cannot be determined" },
+              { id: "a", text: "60° has greater range" },
+              { id: "b", text: "Both have equal range" },
+              { id: "c", text: "Cannot be determined" },
+              { id: "d", text: "30° has greater range" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Range", statement: "$R \\propto \\sin 2\\theta$; $\\sin 60^{\\circ} = \\sin 120^{\\circ}$" }],
@@ -639,8 +639,8 @@ export const lesson12: Lesson = {
             choices: [
               { id: "a", text: "It increases steadily" },
               { id: "b", text: "It stays constant" },
-              { id: "c", text: "It decreases to zero" },
-              { id: "d", text: "It reverses direction at the top" },
+              { id: "c", text: "It reverses direction at the top" },
+              { id: "d", text: "It decreases to zero" },
             ],
             correctChoiceId: "b",
           },
@@ -681,10 +681,10 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$T = \\frac{v\\sin\\theta}{g}$" },
+              { id: "a", text: "$T = \\frac{v\\cos\\theta}{g}$" },
               { id: "b", text: "$T = \\frac{2v\\sin\\theta}{g}$" },
-              { id: "c", text: "$T = \\frac{v\\cos\\theta}{g}$" },
-              { id: "d", text: "$T = \\frac{v^2}{g}$" },
+              { id: "c", text: "$T = \\frac{v^2}{g}$" },
+              { id: "d", text: "$T = \\frac{v\\sin\\theta}{g}$" },
             ],
             correctChoiceId: "b",
           },
@@ -727,12 +727,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$30^{\circ}$" },
-              { id: "b", text: "$45^{\circ}$" },
-              { id: "c", text: "$60^{\circ}$" },
-              { id: "d", text: "$90^{\circ}$" },
+              { id: "a", text: "$90^{\circ}$" },
+              { id: "b", text: "$60^{\circ}$" },
+              { id: "c", text: "$45^{\circ}$" },
+              { id: "d", text: "$30^{\circ}$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Range", statement: "$R = \\frac{v^2\\sin 2\\theta}{g}$; maximum when $\\sin 2\\theta = 1$ → $\\theta = 45^{\circ}$." }],
@@ -775,12 +775,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Horizontal only" },
-              { id: "b", text: "Vertical only" },
+              { id: "a", text: "Vertical only" },
+              { id: "b", text: "Neither" },
               { id: "c", text: "Both equally" },
-              { id: "d", text: "Neither" },
+              { id: "d", text: "Horizontal only" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Projectile", statement: "Gravity acts vertically, changing only the vertical component." }],
@@ -820,12 +820,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "8 m/s" },
+              { id: "a", text: "17.8 m/s" },
               { id: "b", text: "0 m/s" },
               { id: "c", text: "9.8 m/s" },
-              { id: "d", text: "17.8 m/s" },
+              { id: "d", text: "8 m/s" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Projectile", statement: "Horizontal velocity is constant in the absence of air resistance." }],
@@ -874,10 +874,10 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A longer range and symmetric path" },
+              { id: "a", text: "No vertical motion" },
               { id: "b", text: "A shorter range and an asymmetric path" },
               { id: "c", text: "The same range but faster flight" },
-              { id: "d", text: "No vertical motion" },
+              { id: "d", text: "A longer range and symmetric path" },
             ],
             correctChoiceId: "b",
           },

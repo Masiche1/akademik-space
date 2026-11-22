@@ -60,12 +60,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "In parallel with the lamp" },
-              { id: "b", text: "In series with the lamp" },
+              { id: "a", text: "In series with the lamp" },
+              { id: "b", text: "In parallel with the lamp" },
               { id: "c", text: "Across the battery only" },
               { id: "d", text: "Either way, it does not matter" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -165,12 +165,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "In series with the lamp" },
-              { id: "b", text: "In parallel across the lamp" },
-              { id: "c", text: "Across the battery only" },
-              { id: "d", text: "Either way, it does not matter" },
+              { id: "a", text: "In parallel across the lamp" },
+              { id: "b", text: "Either way, it does not matter" },
+              { id: "c", text: "In series with the lamp" },
+              { id: "d", text: "Across the battery only" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -192,12 +192,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It is shared equally between the lamps" },
-              { id: "b", text: "It is the same at every point in the circuit" },
+              { id: "a", text: "It is the same at every point in the circuit" },
+              { id: "b", text: "It is shared equally between the lamps" },
               { id: "c", text: "It is larger after the second lamp" },
               { id: "d", text: "It is zero because it is shared" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -219,12 +219,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "All the lamps go out" },
-              { id: "b", text: "Only the broken lamp goes out; the other branches keep working" },
+              { id: "a", text: "The whole circuit overheats" },
+              { id: "b", text: "All the lamps go out" },
               { id: "c", text: "The other lamps get brighter" },
-              { id: "d", text: "The whole circuit overheats" },
+              { id: "d", text: "Only the broken lamp goes out; the other branches keep working" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -381,12 +381,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The number of electrons in the circuit" },
-              { id: "b", text: "The energy the battery gives to each unit of charge" },
-              { id: "c", text: "The speed of the current" },
-              { id: "d", text: "The resistance of the wires" },
+              { id: "a", text: "The energy the battery gives to each unit of charge" },
+              { id: "b", text: "The resistance of the wires" },
+              { id: "c", text: "The number of electrons in the circuit" },
+              { id: "d", text: "The speed of the current" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -409,11 +409,11 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Series" },
-              { id: "b", text: "Parallel" },
+              { id: "b", text: "Either; they behave the same" },
               { id: "c", text: "A single loop with no branches" },
-              { id: "d", text: "Either; they behave the same" },
+              { id: "d", text: "Parallel" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -499,10 +499,10 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Copper" },
-              { id: "b", text: "Aluminium" },
+              { id: "a", text: "Iron" },
+              { id: "b", text: "Copper" },
               { id: "c", text: "Rubber" },
-              { id: "d", text: "Iron" },
+              { id: "d", text: "Aluminium" },
             ],
             correctChoiceId: "c",
           },
@@ -599,12 +599,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Volts (V)" },
-              { id: "b", text: "Amps (A)" },
-              { id: "c", text: "Ohms ($\\Omega$)" },
-              { id: "d", text: "Watts (W)" },
+              { id: "a", text: "Watts (W)" },
+              { id: "b", text: "Ohms ($\\Omega$)" },
+              { id: "c", text: "Amps (A)" },
+              { id: "d", text: "Volts (V)" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -627,11 +627,11 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Plastic" },
-              { id: "b", text: "Rubber" },
-              { id: "c", text: "Copper" },
+              { id: "b", text: "Copper" },
+              { id: "c", text: "Rubber" },
               { id: "d", text: "Glass" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -654,11 +654,11 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "0.33 A" },
-              { id: "b", text: "3 A" },
+              { id: "b", text: "16 A" },
               { id: "c", text: "48 A" },
-              { id: "d", text: "16 A" },
+              { id: "d", text: "3 A" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -822,9 +822,9 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "It decreases" },
-              { id: "b", text: "It stays the same" },
+              { id: "b", text: "It becomes zero" },
               { id: "c", text: "It increases" },
-              { id: "d", text: "It becomes zero" },
+              { id: "d", text: "It stays the same" },
             ],
             correctChoiceId: "c",
           },
@@ -848,12 +848,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Plastic is a good conductor" },
-              { id: "b", text: "Plastic is an insulator that prevents contact with live wires" },
-              { id: "c", text: "Plastic makes the cable heavier so it does not blow away" },
-              { id: "d", text: "Plastic increases the current" },
+              { id: "a", text: "Plastic makes the cable heavier so it does not blow away" },
+              { id: "b", text: "Plastic increases the current" },
+              { id: "c", text: "Plastic is an insulator that prevents contact with live wires" },
+              { id: "d", text: "Plastic is a good conductor" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

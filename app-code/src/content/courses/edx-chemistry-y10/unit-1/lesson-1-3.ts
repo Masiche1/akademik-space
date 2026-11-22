@@ -54,12 +54,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\text{CaCl}$" },
-              { id: "b", text: "$\\text{Ca}_2\\text{Cl}$" },
-              { id: "c", text: "$\\text{CaCl}_2$" },
-              { id: "d", text: "$\\text{Ca}_2\\text{Cl}_2$" },
+              { id: "a", text: "$\\text{Ca}_2\\text{Cl}$" },
+              { id: "b", text: "$\\text{Ca}_2\\text{Cl}_2$" },
+              { id: "c", text: "$\\text{CaCl}$" },
+              { id: "d", text: "$\\text{CaCl}_2$" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -196,12 +196,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$28$" },
-              { id: "b", text: "$44$" },
-              { id: "c", text: "$60$" },
-              { id: "d", text: "$32$" },
+              { id: "a", text: "$44$" },
+              { id: "b", text: "$28$" },
+              { id: "c", text: "$32$" },
+              { id: "d", text: "$60$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

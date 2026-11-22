@@ -53,12 +53,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Alarm" },
-              { id: "b", text: "Resistance" },
+              { id: "a", text: "Resistance" },
+              { id: "b", text: "Adaptation" },
               { id: "c", text: "Exhaustion" },
-              { id: "d", text: "Adaptation" },
+              { id: "d", text: "Alarm" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -152,12 +152,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Immune suppression and illness" },
-              { id: "b", text: "Fight-or-flight activation such as adrenaline release" },
+              { id: "a", text: "Fight-or-flight activation such as adrenaline release" },
+              { id: "b", text: "Immune suppression and illness" },
               { id: "c", text: "Complete depletion of bodily resources" },
               { id: "d", text: "Long-term adaptation to the stressor" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -180,12 +180,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Maximum stress response" },
-              { id: "b", text: "No stress response" },
-              { id: "c", text: "Immediate problem-focused coping" },
-              { id: "d", text: "Harm appraisal" },
+              { id: "a", text: "No stress response" },
+              { id: "b", text: "Harm appraisal" },
+              { id: "c", text: "Maximum stress response" },
+              { id: "d", text: "Immediate problem-focused coping" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -208,10 +208,10 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Judging whether the event is a threat" },
+              { id: "a", text: "Measuring physiological arousal" },
               { id: "b", text: "Assessing available coping resources" },
-              { id: "c", text: "Deciding the event is irrelevant" },
-              { id: "d", text: "Measuring physiological arousal" },
+              { id: "c", text: "Judging whether the event is a threat" },
+              { id: "d", text: "Deciding the event is irrelevant" },
             ],
             correctChoiceId: "b",
           },
@@ -236,12 +236,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Emotion-focused coping" },
-              { id: "b", text: "Avoidance coping" },
-              { id: "c", text: "Problem-focused coping" },
-              { id: "d", text: "Denial" },
+              { id: "a", text: "Avoidance coping" },
+              { id: "b", text: "Denial" },
+              { id: "c", text: "Emotion-focused coping" },
+              { id: "d", text: "Problem-focused coping" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -264,12 +264,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Is simpler to measure" },
-              { id: "b", text: "Accounts for cognitive appraisal and individual differences" },
-              { id: "c", text: "Ignores physiological responses entirely" },
-              { id: "d", text: "Accurately predicts the exhaustion stage" },
+              { id: "a", text: "Ignores physiological responses entirely" },
+              { id: "b", text: "Is simpler to measure" },
+              { id: "c", text: "Accurately predicts the exhaustion stage" },
+              { id: "d", text: "Accounts for cognitive appraisal and individual differences" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -293,11 +293,11 @@ export const lesson61: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Different stressors produce different responses" },
-              { id: "b", text: "The same physiological response occurs regardless of the stressor" },
-              { id: "c", text: "Only psychological stressors produce a response" },
-              { id: "d", text: "Responses depend entirely on appraisal" },
+              { id: "b", text: "Responses depend entirely on appraisal" },
+              { id: "c", text: "The same physiological response occurs regardless of the stressor" },
+              { id: "d", text: "Only psychological stressors produce a response" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -321,11 +321,11 @@ export const lesson61: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "All stressors raise cortisol equally" },
-              { id: "b", text: "The same event produces stress in one person but not another" },
-              { id: "c", text: "Exhaustion follows prolonged stress" },
+              { id: "b", text: "Exhaustion follows prolonged stress" },
+              { id: "c", text: "The same event produces stress in one person but not another" },
               { id: "d", text: "Adrenaline rises during the alarm stage" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -591,12 +591,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Relaxation and patience" },
-              { id: "b", text: "Time urgency, competitiveness and hostility" },
-              { id: "c", text: "Social withdrawal and passivity" },
-              { id: "d", text: "High empathy and cooperation" },
+              { id: "a", text: "Social withdrawal and passivity" },
+              { id: "b", text: "Relaxation and patience" },
+              { id: "c", text: "High empathy and cooperation" },
+              { id: "d", text: "Time urgency, competitiveness and hostility" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -692,8 +692,8 @@ export const lesson61: Lesson = {
             choices: [
               { id: "a", text: "Actions taken only when illness occurs" },
               { id: "b", text: "Actions that influence health, such as exercise and diet" },
-              { id: "c", text: "Treatments prescribed by doctors" },
-              { id: "d", text: "Personality traits linked to disease" },
+              { id: "c", text: "Personality traits linked to disease" },
+              { id: "d", text: "Treatments prescribed by doctors" },
             ],
             correctChoiceId: "b",
           },
@@ -718,12 +718,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Time urgency and hostility" },
-              { id: "b", text: "Relaxation, patience and lower competitiveness" },
-              { id: "c", text: "High achievement drive and anger" },
-              { id: "d", text: "Social isolation and passivity" },
+              { id: "a", text: "Social isolation and passivity" },
+              { id: "b", text: "High achievement drive and anger" },
+              { id: "c", text: "Relaxation, patience and lower competitiveness" },
+              { id: "d", text: "Time urgency and hostility" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -746,12 +746,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Time urgency" },
+              { id: "a", text: "Hostility" },
               { id: "b", text: "Competitiveness" },
-              { id: "c", text: "Hostility" },
+              { id: "c", text: "Time urgency" },
               { id: "d", text: "Achievement striving" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -774,12 +774,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Removing the stressor from the situation" },
-              { id: "b", text: "Reducing physiological arousal through systematic tensing and relaxing of muscles" },
-              { id: "c", text: "Changing beliefs about the stressor" },
-              { id: "d", text: "Increasing social support" },
+              { id: "a", text: "Changing beliefs about the stressor" },
+              { id: "b", text: "Removing the stressor from the situation" },
+              { id: "c", text: "Increasing social support" },
+              { id: "d", text: "Reducing physiological arousal through systematic tensing and relaxing of muscles" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -803,11 +803,11 @@ export const lesson61: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Type A has been redefined to include only relaxation" },
-              { id: "b", text: "Later research found only the hostility component is strongly predictive" },
-              { id: "c", text: "Heart disease is now considered purely genetic" },
-              { id: "d", text: "Type B behaviour also causes heart disease" },
+              { id: "b", text: "Heart disease is now considered purely genetic" },
+              { id: "c", text: "Type B behaviour also causes heart disease" },
+              { id: "d", text: "Later research found only the hostility component is strongly predictive" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -831,11 +831,11 @@ export const lesson61: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Emotion-focused coping" },
-              { id: "b", text: "Time management as problem-focused coping" },
-              { id: "c", text: "Avoidance" },
-              { id: "d", text: "Mindfulness meditation" },
+              { id: "b", text: "Avoidance" },
+              { id: "c", text: "Mindfulness meditation" },
+              { id: "d", text: "Time management as problem-focused coping" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -858,12 +858,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Eliminating the physiological stress response" },
-              { id: "b", text: "Providing emotional and practical resources that reduce perceived demands" },
+              { id: "a", text: "Providing emotional and practical resources that reduce perceived demands" },
+              { id: "b", text: "Eliminating the physiological stress response" },
               { id: "c", text: "Replacing the need for coping strategies" },
               { id: "d", text: "Increasing Type A competitiveness" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

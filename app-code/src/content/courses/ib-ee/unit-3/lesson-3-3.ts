@@ -85,12 +85,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Three separate essays" },
-              { id: "b", text: "One 500-word statement and a viva voce" },
-              { id: "c", text: "A bibliography" },
-              { id: "d", text: "A presentation" },
+              { id: "a", text: "A bibliography" },
+              { id: "b", text: "A presentation" },
+              { id: "c", text: "One 500-word statement and a viva voce" },
+              { id: "d", text: "Three separate essays" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -310,8 +310,8 @@ export const lesson33: Lesson = {
             choices: [
               { id: "a", text: "250 words" },
               { id: "b", text: "500 words" },
-              { id: "c", text: "1000 words" },
-              { id: "d", text: "2000 words" },
+              { id: "c", text: "2000 words" },
+              { id: "d", text: "1000 words" },
             ],
             correctChoiceId: "b",
           },
@@ -350,12 +350,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A written examination" },
-              { id: "b", text: "An oral discussion with your supervisor" },
-              { id: "c", text: "A peer review session" },
-              { id: "d", text: "An online quiz" },
+              { id: "a", text: "An online quiz" },
+              { id: "b", text: "A peer review session" },
+              { id: "c", text: "A written examination" },
+              { id: "d", text: "An oral discussion with your supervisor" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -434,10 +434,10 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Too long" },
+              { id: "a", text: "Too honest" },
               { id: "b", text: "Generic and not specific to the research" },
-              { id: "c", text: "Too honest" },
-              { id: "d", text: "Written in the wrong tense" },
+              { id: "c", text: "Written in the wrong tense" },
+              { id: "d", text: "Too long" },
             ],
             correctChoiceId: "b",
           },
@@ -477,12 +477,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Hide the change" },
-              { id: "b", text: "Explain why it changed and what you learned" },
+              { id: "a", text: "Explain why it changed and what you learned" },
+              { id: "b", text: "Repeat the original question verbatim" },
               { id: "c", text: "Ignore it entirely" },
-              { id: "d", text: "Repeat the original question verbatim" },
+              { id: "d", text: "Hide the change" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -520,15 +520,15 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The RPF summarises the essay's findings" },
               {
-                id: "b",
+                id: "a",
                 text: "The RPF documents the learning process behind the essay",
               },
-              { id: "c", text: "They are completely unrelated" },
+              { id: "b", text: "They are completely unrelated" },
+              { id: "c", text: "The RPF summarises the essay's findings" },
               { id: "d", text: "The RPF replaces the essay" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -1017,12 +1017,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Two" },
-              { id: "b", text: "Three" },
-              { id: "c", text: "Four" },
-              { id: "d", text: "Five" },
+              { id: "a", text: "Five" },
+              { id: "b", text: "Four" },
+              { id: "c", text: "Three" },
+              { id: "d", text: "Two" },
             ],
-            correctChoiceId: "d",
+            correctChoiceIa: "d",
           },
           markscheme: {
             principles: [
@@ -1247,12 +1247,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "4" },
-              { id: "b", text: "6" },
-              { id: "c", text: "8" },
-              { id: "d", text: "10" },
+              { id: "a", text: "10" },
+              { id: "b", text: "8" },
+              { id: "c", text: "4" },
+              { id: "d", text: "6" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1288,14 +1288,14 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Essay structure and word count" },
+              { id: "b", text: "Only the essay's introduction" },
+              { id: "c", text: "Citation formatting accuracy" },
               {
-                id: "b",
+                id: "d",
                 text: "Quality of reflection shown in the RPF and viva",
               },
-              { id: "c", text: "Citation formatting accuracy" },
-              { id: "d", text: "Only the essay's introduction" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1380,11 +1380,11 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "A — Framework" },
-              { id: "b", text: "C — Analysis" },
-              { id: "c", text: "D — Discussion and evaluation" },
+              { id: "b", text: "D — Discussion and evaluation" },
+              { id: "c", text: "C — Analysis" },
               { id: "d", text: "E — Reflection" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1420,12 +1420,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Only Criterion E" },
-              { id: "b", text: "Criterion A and, downstream, Criterion B" },
-              { id: "c", text: "Only the viva voce" },
+              { id: "a", text: "Only the viva voce" },
+              { id: "b", text: "Only Criterion E" },
+              { id: "c", text: "Criterion A and, downstream, Criterion B" },
               { id: "d", text: "Nothing if the writing is strong" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1463,15 +1463,15 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The length of the essay" },
+              { id: "a", text: "Spelling and grammar accuracy" },
+              { id: "b", text: "The number of sources consulted" },
+              { id: "c", text: "The length of the essay" },
               {
-                id: "b",
+                id: "d",
                 text: "Rigor of analysis and a coherent, sustained argument",
               },
-              { id: "c", text: "The number of sources consulted" },
-              { id: "d", text: "Spelling and grammar accuracy" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

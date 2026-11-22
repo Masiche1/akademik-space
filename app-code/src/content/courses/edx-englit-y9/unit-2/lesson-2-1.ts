@@ -77,8 +77,8 @@ export const lesson21: Lesson = {
             choices: [
               { id: "a", text: "Personification" },
               { id: "b", text: "Onomatopoeia" },
-              { id: "c", text: "Rhetorical question" },
-              { id: "d", text: "Oxymoron" },
+              { id: "c", text: "Oxymoron" },
+              { id: "d", text: "Rhetorical question" },
             ],
             correctChoiceId: "a",
           },
@@ -205,12 +205,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A poem in which a speaker reveals their own character as they address a listener" },
-              { id: "b", text: "A poem in which two characters argue in alternate lines" },
-              { id: "c", text: "A poem that describes a landscape in detail" },
-              { id: "d", text: "A poem written about the poet's own childhood" },
+              { id: "a", text: "A poem in which two characters argue in alternate lines" },
+              { id: "b", text: "A poem written about the poet's own childhood" },
+              { id: "c", text: "A poem in which a speaker reveals their own character as they address a listener" },
+              { id: "d", text: "A poem that describes a landscape in detail" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Dramatic monologue", statement: "One speaker, not the poet, speaks to a listener and reveals character." }],

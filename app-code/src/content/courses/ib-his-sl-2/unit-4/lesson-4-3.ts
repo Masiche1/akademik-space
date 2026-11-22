@@ -53,12 +53,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "An Israeli attack on Egypt" },
-              { id: "b", text: "Nasser's nationalisation of the Suez Canal" },
-              { id: "c", text: "A Soviet invasion of Egypt" },
-              { id: "d", text: "Egypt joining NATO" },
+              { id: "a", text: "A Soviet invasion of Egypt" },
+              { id: "b", text: "Egypt joining NATO" },
+              { id: "c", text: "An Israeli attack on Egypt" },
+              { id: "d", text: "Nasser's nationalisation of the Suez Canal" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -151,12 +151,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "1948" },
-              { id: "b", text: "1952" },
-              { id: "c", text: "1956" },
-              { id: "d", text: "1962" },
+              { id: "a", text: "1962" },
+              { id: "b", text: "1956" },
+              { id: "c", text: "1948" },
+              { id: "d", text: "1952" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -179,10 +179,10 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The United States and the USSR" },
+              { id: "a", text: "Egypt and Syria" },
               { id: "b", text: "Britain, France and Israel" },
-              { id: "c", text: "Egypt and Syria" },
-              { id: "d", text: "NATO forces" },
+              { id: "c", text: "NATO forces" },
+              { id: "d", text: "The United States and the USSR" },
             ],
             correctChoiceId: "b",
           },
@@ -208,11 +208,11 @@ export const lesson43: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Britain and France could act independently of the superpowers" },
-              { id: "b", text: "European powers could no longer act without superpower consent" },
-              { id: "c", text: "Egypt won a decisive military victory" },
-              { id: "d", text: "The canal was permanently closed" },
+              { id: "b", text: "Egypt won a decisive military victory" },
+              { id: "c", text: "The canal was permanently closed" },
+              { id: "d", text: "European powers could no longer act without superpower consent" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -235,8 +235,8 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "1830" },
-              { id: "b", text: "1945" },
+              { id: "a", text: "1945" },
+              { id: "b", text: "1830" },
               { id: "c", text: "1954" },
               { id: "d", text: "1962" },
             ],
@@ -265,8 +265,8 @@ export const lesson43: Lesson = {
             choices: [
               { id: "a", text: "A military coup by the FLN" },
               { id: "b", text: "Negotiations led by de Gaulle and a referendum" },
-              { id: "c", text: "Direct UN intervention" },
-              { id: "d", text: "The collapse of the French Fourth Republic" },
+              { id: "c", text: "The collapse of the French Fourth Republic" },
+              { id: "d", text: "Direct UN intervention" },
             ],
             correctChoiceId: "b",
           },
@@ -291,12 +291,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Algerian independence fighters" },
-              { id: "b", text: "European settlers living in Algeria" },
+              { id: "a", text: "UN peacekeepers" },
+              { id: "b", text: "Algerian independence fighters" },
               { id: "c", text: "French conscript soldiers" },
-              { id: "d", text: "UN peacekeepers" },
+              { id: "d", text: "European settlers living in Algeria" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -472,12 +472,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Nigeria" },
-              { id: "b", text: "Kenya" },
-              { id: "c", text: "Ghana" },
-              { id: "d", text: "South Africa" },
+              { id: "a", text: "South Africa" },
+              { id: "b", text: "Ghana" },
+              { id: "c", text: "Nigeria" },
+              { id: "d", text: "Kenya" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -572,9 +572,9 @@ export const lesson43: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "1947" },
-              { id: "b", text: "1952" },
+              { id: "b", text: "1960" },
               { id: "c", text: "1957" },
-              { id: "d", text: "1960" },
+              { id: "d", text: "1952" },
             ],
             correctChoiceId: "c",
           },
@@ -599,10 +599,10 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A return to British rule" },
+              { id: "a", text: "French assimilation policy" },
               { id: "b", text: "Pan-African unity" },
               { id: "c", text: "Apartheid in southern Africa" },
-              { id: "d", text: "French assimilation policy" },
+              { id: "d", text: "A return to British rule" },
             ],
             correctChoiceId: "b",
           },
@@ -627,12 +627,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "1957, when Ghana became independent" },
-              { id: "b", text: "1960, when many colonies — especially French ones — gained independence" },
+              { id: "a", text: "1960, when many colonies — especially French ones — gained independence" },
+              { id: "b", text: "1957, when Ghana became independent" },
               { id: "c", text: "1963, when the OAU was founded" },
               { id: "d", text: "1975, when Portugal's colonies became independent" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -655,12 +655,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "1957" },
+              { id: "a", text: "1963" },
               { id: "b", text: "1960" },
-              { id: "c", text: "1963" },
+              { id: "c", text: "1957" },
               { id: "d", text: "1975" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -683,9 +683,9 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The direct military reoccupation of Africa by Europe" },
+              { id: "a", text: "The return of traditional tribal structures" },
               { id: "b", text: "Continued economic dependence on ex-colonial powers and multinational corporations" },
-              { id: "c", text: "The return of traditional tribal structures" },
+              { id: "c", text: "The direct military reoccupation of Africa by Europe" },
               { id: "d", text: "A formal union of African states" },
             ],
             correctChoiceId: "b",
@@ -711,12 +711,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "1980" },
-              { id: "b", text: "1985" },
+              { id: "a", text: "1994" },
+              { id: "b", text: "1980" },
               { id: "c", text: "1990" },
-              { id: "d", text: "1994" },
+              { id: "d", text: "1985" },
             ],
-            correctChoiceId: "d",
+            correctChoiceIa: "d",
           },
           markscheme: {
             principles: [

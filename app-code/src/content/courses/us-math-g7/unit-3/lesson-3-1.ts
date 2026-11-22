@@ -53,12 +53,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$10\\pi$" },
-              { id: "b", text: "$20\\pi$" },
+              { id: "a", text: "$100\\pi$" },
+              { id: "b", text: "$10\\pi$" },
               { id: "c", text: "$25\\pi$" },
-              { id: "d", text: "$100\\pi$" },
+              { id: "d", text: "$20\\pi$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -189,12 +189,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$25^\\circ$" },
-              { id: "b", text: "$115^\\circ$" },
+              { id: "a", text: "$115^\\circ$" },
+              { id: "b", text: "$25^\\circ$" },
               { id: "c", text: "$295^\\circ$" },
               { id: "d", text: "$105^\\circ$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

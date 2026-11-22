@@ -57,8 +57,8 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "°C" },
-              { id: "b", text: "°F" },
+              { id: "a", text: "°F" },
+              { id: "b", text: "°C" },
               { id: "c", text: "kelvin" },
               { id: "d", text: "joules" },
             ],
@@ -82,12 +82,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "50 kPa" },
-              { id: "b", text: "100 kPa" },
-              { id: "c", text: "200 kPa" },
-              { id: "d", text: "400 kPa" },
+              { id: "a", text: "200 kPa" },
+              { id: "b", text: "400 kPa" },
+              { id: "c", text: "50 kPa" },
+              { id: "d", text: "100 kPa" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Boyle's law", statement: "$p_2 = p_1V_1/V_2 = 100 \\times 4/2$" }],
@@ -108,10 +108,10 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "7.5 dm³" },
+              { id: "a", text: "8.3 dm³" },
               { id: "b", text: "6.7 dm³" },
-              { id: "c", text: "8.3 dm³" },
-              { id: "d", text: "10 dm³" },
+              { id: "c", text: "10 dm³" },
+              { id: "d", text: "7.5 dm³" },
             ],
             correctChoiceId: "b",
           },
@@ -169,8 +169,8 @@ export const lesson21: Lesson = {
             choices: [
               { id: "a", text: "Mass and temperature" },
               { id: "b", text: "Mass and pressure" },
-              { id: "c", text: "Volume and temperature" },
-              { id: "d", text: "Pressure and temperature" },
+              { id: "c", text: "Pressure and temperature" },
+              { id: "d", text: "Volume and temperature" },
             ],
             correctChoiceId: "a",
           },
@@ -211,12 +211,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It decreases" },
-              { id: "b", text: "It increases in proportion to absolute temperature" },
-              { id: "c", text: "It stays constant" },
+              { id: "a", text: "It increases in proportion to absolute temperature" },
+              { id: "b", text: "It stays constant" },
+              { id: "c", text: "It decreases" },
               { id: "d", text: "It becomes zero" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Charles' law", statement: "$V/T$ = constant at constant pressure." }],
@@ -259,10 +259,10 @@ export const lesson21: Lesson = {
             choices: [
               { id: "a", text: "Boyle's law only" },
               { id: "b", text: "Charles' law only" },
-              { id: "c", text: "The combined gas law $\\frac{p_1V_1}{T_1} = \\frac{p_2V_2}{T_2}$" },
-              { id: "d", text: "No law applies" },
+              { id: "c", text: "No law applies" },
+              { id: "d", text: "The combined gas law $\\frac{p_1V_1}{T_1} = \\frac{p_2V_2}{T_2}$" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Combined gas law", statement: "$\\frac{p_1V_1}{T_1} = \\frac{p_2V_2}{T_2}$ for fixed mass." }],
@@ -366,9 +366,9 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Particles attract each other" },
+              { id: "a", text: "Particles stack at the bottom" },
               { id: "b", text: "Particles collide with the walls of the container" },
-              { id: "c", text: "Particles stack at the bottom" },
+              { id: "c", text: "Particles attract each other" },
               { id: "d", text: "The container pushes on the particles" },
             ],
             correctChoiceId: "b",
@@ -392,11 +392,11 @@ export const lesson21: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Kelvin is more precise" },
-              { id: "b", text: "Gas laws require absolute temperature; volume is proportional to temperature measured from absolute zero" },
-              { id: "c", text: "It is just a convention with no reason" },
-              { id: "d", text: "Celsius values are always negative" },
+              { id: "b", text: "It is just a convention with no reason" },
+              { id: "c", text: "Celsius values are always negative" },
+              { id: "d", text: "Gas laws require absolute temperature; volume is proportional to temperature measured from absolute zero" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Absolute temperature", statement: "K measured from absolute zero; proportionality only valid in K." }],
@@ -518,12 +518,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It rises steadily" },
-              { id: "b", text: "It stays constant at the melting point" },
-              { id: "c", text: "It falls" },
-              { id: "d", text: "It doubles" },
+              { id: "a", text: "It falls" },
+              { id: "b", text: "It rises steadily" },
+              { id: "c", text: "It doubles" },
+              { id: "d", text: "It stays constant at the melting point" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Phase change", statement: "Energy goes into breaking bonds, not raising temperature." }],
@@ -543,10 +543,10 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Steam is hotter than 100 °C" },
+              { id: "a", text: "Steam conducts heat better" },
               { id: "b", text: "Steam releases extra energy when it condenses on skin" },
-              { id: "c", text: "Steam is less dense" },
-              { id: "d", text: "Steam conducts heat better" },
+              { id: "c", text: "Steam is hotter than 100 °C" },
+              { id: "d", text: "Steam is less dense" },
             ],
             correctChoiceId: "b",
           },
@@ -569,12 +569,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$6.68 \\times 10^5$ J" },
-              { id: "b", text: "$1.09 \\times 10^6$ J" },
-              { id: "c", text: "$1.09 \\times 10^7$ J" },
-              { id: "d", text: "$2.08 \\times 10^5$ J" },
+              { id: "a", text: "$2.08 \\times 10^5$ J" },
+              { id: "b", text: "$1.09 \\times 10^7$ J" },
+              { id: "c", text: "$6.68 \\times 10^5$ J" },
+              { id: "d", text: "$1.09 \\times 10^6$ J" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Two stages", statement: "$Q = mL_f + mc\\Delta T$" }],
@@ -628,11 +628,11 @@ export const lesson21: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$Q = mc\\Delta T$" },
-              { id: "b", text: "$Q = mL$" },
-              { id: "c", text: "$Q = \\frac{1}{2}mv^2$" },
-              { id: "d", text: "$Q = pV$" },
+              { id: "b", text: "$Q = \\frac{1}{2}mv^2$" },
+              { id: "c", text: "$Q = pV$" },
+              { id: "d", text: "$Q = mL$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Latent heat", statement: "$Q = mL$ where $L$ is specific latent heat." }],
@@ -672,11 +672,11 @@ export const lesson21: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Because steam is hotter" },
-              { id: "b", text: "Vaporisation must completely separate molecules, breaking all intermolecular bonds, while melting only loosens the lattice" },
-              { id: "c", text: "Because water expands when boiling" },
-              { id: "d", text: "There is no reason" },
+              { id: "b", text: "There is no reason" },
+              { id: "c", text: "Vaporisation must completely separate molecules, breaking all intermolecular bonds, while melting only loosens the lattice" },
+              { id: "d", text: "Because water expands when boiling" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Latent heat", statement: "$L_v \\approx 2.26 \\times 10^6$ J/kg vs $L_f \\approx 3.34 \\times 10^5$ J/kg — more energy to fully separate molecules." }],
@@ -717,12 +717,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The substance is not being heated" },
-              { id: "b", text: "Energy is being used for a change of state while temperature stays constant" },
-              { id: "c", text: "The specific heat capacity is zero" },
-              { id: "d", text: "The substance is a gas" },
+              { id: "a", text: "The specific heat capacity is zero" },
+              { id: "b", text: "The substance is not being heated" },
+              { id: "c", text: "The substance is a gas" },
+              { id: "d", text: "Energy is being used for a change of state while temperature stays constant" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Heating curve", statement: "Flat sections = phase changes; energy goes into latent heat." }],
@@ -826,12 +826,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Melting" },
-              { id: "b", text: "Boiling" },
-              { id: "c", text: "They are equal" },
-              { id: "d", text: "Cannot be determined" },
+              { id: "a", text: "They are equal" },
+              { id: "b", text: "Melting" },
+              { id: "c", text: "Cannot be determined" },
+              { id: "d", text: "Boiling" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "comparison", name: "Latent heats", statement: "$L_v \\approx 2.26 \\times 10^6$ J/kg > $L_f \\approx 3.34 \\times 10^5$ J/kg." }],
@@ -851,12 +851,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "They are the same thing" },
-              { id: "b", text: "Specific heat capacity changes temperature; specific latent heat changes state at constant temperature" },
-              { id: "c", text: "Specific latent heat only applies to gases" },
-              { id: "d", text: "Specific latent heat is measured in J/kg °C" },
+              { id: "a", text: "Specific latent heat only applies to gases" },
+              { id: "b", text: "They are the same thing" },
+              { id: "c", text: "Specific latent heat is measured in J/kg °C" },
+              { id: "d", text: "Specific heat capacity changes temperature; specific latent heat changes state at constant temperature" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "comparison", name: "c vs L", statement: "$Q = mc\\Delta T$ for temperature change; $Q = mL$ for phase change." }],

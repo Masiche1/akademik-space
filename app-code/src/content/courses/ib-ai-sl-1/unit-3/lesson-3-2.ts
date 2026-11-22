@@ -54,12 +54,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$5$ cm" },
-              { id: "b", text: "$8.66$ cm" },
-              { id: "c", text: "$20$ cm" },
-              { id: "d", text: "$17.3$ cm" },
+              { id: "a", text: "$17.3$ cm" },
+              { id: "b", text: "$20$ cm" },
+              { id: "c", text: "$8.66$ cm" },
+              { id: "d", text: "$5$ cm" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -159,9 +159,9 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$18.1$ cm" },
-              { id: "b", text: "$8.45$ cm" },
+              { id: "b", text: "$11.9$ cm" },
               { id: "c", text: "$21.4$ cm" },
-              { id: "d", text: "$11.9$ cm" },
+              { id: "d", text: "$8.45$ cm" },
             ],
             correctChoiceId: "a",
           },
@@ -188,8 +188,8 @@ export const lesson32: Lesson = {
             choices: [
               { id: "a", text: "$53.1^\\circ$" },
               { id: "b", text: "$36.9^\\circ$" },
-              { id: "c", text: "$126.9^\\circ$" },
-              { id: "d", text: "$23.6^\\circ$" },
+              { id: "c", text: "$23.6^\\circ$" },
+              { id: "d", text: "$126.9^\\circ$" },
             ],
             correctChoiceId: "a",
           },
@@ -257,8 +257,8 @@ export const lesson32: Lesson = {
             choices: [
               { id: "a", text: "$180^\\circ - \\theta$" },
               { id: "b", text: "$90^\\circ - \\theta$" },
-              { id: "c", text: "$\\theta / 2$" },
-              { id: "d", text: "$360^\\circ - \\theta$" },
+              { id: "c", text: "$360^\\circ - \\theta$" },
+              { id: "d", text: "$\\theta / 2$" },
             ],
             correctChoiceId: "a",
           },
@@ -283,12 +283,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "the cosine rule rearranged as $\\cos C = \\dfrac{a^2 + b^2 - c^2}{2ab}$" },
-              { id: "b", text: "the sine rule $\\dfrac{a}{\\sin A} = \\dfrac{b}{\\sin B}$" },
-              { id: "c", text: "the area formula $A = \\frac{1}{2}ab\\sin C$" },
+              { id: "a", text: "the area formula $A = \\frac{1}{2}ab\\sin C$" },
+              { id: "b", text: "the cosine rule rearranged as $\\cos C = \\dfrac{a^2 + b^2 - c^2}{2ab}$" },
+              { id: "c", text: "the sine rule $\\dfrac{a}{\\sin A} = \\dfrac{b}{\\sin B}$" },
               { id: "d", text: "Pythagoras' theorem" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -393,12 +393,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$120^\\circ$" },
-              { id: "b", text: "$60^\\circ$" },
+              { id: "a", text: "$60^\\circ$" },
+              { id: "b", text: "$120^\\circ$" },
               { id: "c", text: "$90^\\circ$" },
               { id: "d", text: "$109^\\circ$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -421,12 +421,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$42.9$" },
+              { id: "a", text: "$21.4$" },
               { id: "b", text: "$85.7$" },
               { id: "c", text: "$49.5$" },
-              { id: "d", text: "$21.4$" },
+              { id: "d", text: "$42.9$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -512,12 +512,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$250^\\circ$" },
-              { id: "b", text: "$110^\\circ$" },
-              { id: "c", text: "$290^\\circ$" },
-              { id: "d", text: "$070^\\circ$" },
+              { id: "a", text: "$290^\\circ$" },
+              { id: "b", text: "$070^\\circ$" },
+              { id: "c", text: "$250^\\circ$" },
+              { id: "d", text: "$110^\\circ$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -617,12 +617,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$020^\\circ$" },
-              { id: "b", text: "$340^\\circ$" },
+              { id: "a", text: "$340^\\circ$" },
+              { id: "b", text: "$200^\\circ$" },
               { id: "c", text: "$160^\\circ$" },
-              { id: "d", text: "$200^\\circ$" },
+              { id: "d", text: "$020^\\circ$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -646,9 +646,9 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$125^\\circ$" },
-              { id: "b", text: "$235^\\circ$" },
-              { id: "c", text: "$55^\\circ$" },
-              { id: "d", text: "$305^\\circ$" },
+              { id: "b", text: "$305^\\circ$" },
+              { id: "c", text: "$235^\\circ$" },
+              { id: "d", text: "$55^\\circ$" },
             ],
             correctChoiceId: "a",
           },
@@ -722,12 +722,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$90^\\circ$" },
-              { id: "b", text: "$50^\\circ$" },
-              { id: "c", text: "$140^\\circ$" },
-              { id: "d", text: "$40^\\circ$" },
+              { id: "a", text: "$140^\\circ$" },
+              { id: "b", text: "$40^\\circ$" },
+              { id: "c", text: "$50^\\circ$" },
+              { id: "d", text: "$90^\\circ$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -751,8 +751,8 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$43.3$" },
-              { id: "b", text: "$14.4$" },
-              { id: "c", text: "$50.0$" },
+              { id: "b", text: "$50.0$" },
+              { id: "c", text: "$14.4$" },
               { id: "d", text: "$21.7$" },
             ],
             correctChoiceId: "a",
@@ -871,12 +871,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$100^\\circ$" },
-              { id: "b", text: "$80^\\circ$" },
-              { id: "c", text: "$40^\\circ$" },
-              { id: "d", text: "$140^\\circ$" },
+              { id: "a", text: "$140^\\circ$" },
+              { id: "b", text: "$100^\\circ$" },
+              { id: "c", text: "$80^\\circ$" },
+              { id: "d", text: "$40^\\circ$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -920,12 +920,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$34.6$" },
-              { id: "b", text: "$103.9$" },
+              { id: "a", text: "$103.9$" },
+              { id: "b", text: "$60.0$" },
               { id: "c", text: "$30.0$" },
-              { id: "d", text: "$60.0$" },
+              { id: "d", text: "$34.6$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

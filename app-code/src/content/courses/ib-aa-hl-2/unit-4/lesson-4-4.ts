@@ -92,15 +92,15 @@ export const lesson44: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "Cannot be determined" },
+              { id: "b", text: "No — $\\mathrm{P}(A\\cup B)=0.7$" },
+              { id: "c", text: "No — they are mutually exclusive" },
               {
-                id: "a",
+                id: "d",
                 text: "Yes — $\\mathrm{P}(A\\cap B)=\\mathrm{P}(A)\\mathrm{P}(B)$",
               },
-              { id: "b", text: "No — they are mutually exclusive" },
-              { id: "c", text: "No — $\\mathrm{P}(A\\cup B)=0.7$" },
-              { id: "d", text: "Cannot be determined" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -345,12 +345,12 @@ export const lesson44: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$0.3$" },
-              { id: "b", text: "$0.15$" },
+              { id: "a", text: "$0.15$" },
+              { id: "b", text: "$0.45$" },
               { id: "c", text: "$0.5$" },
-              { id: "d", text: "$0.45$" },
+              { id: "d", text: "$0.3$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -393,16 +393,16 @@ export const lesson44: Lesson = {
             choices: [
               {
                 id: "a",
-                text: "Yes — $\\mathrm{P}(A\\cap B)=\\mathrm{P}(A)\\mathrm{P}(B)$",
-              },
-              { id: "b", text: "No — they are mutually exclusive" },
-              { id: "c", text: "No — $\\mathrm{P}(A\\cup B)=0.76$" },
-              {
-                id: "d",
                 text: "Cannot be determined from the given information",
               },
+              { id: "b", text: "No — $\\mathrm{P}(A\\cup B)=0.76$" },
+              {
+                id: "c",
+                text: "Yes — $\\mathrm{P}(A\\cap B)=\\mathrm{P}(A)\\mathrm{P}(B)$",
+              },
+              { id: "d", text: "No — they are mutually exclusive" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -661,12 +661,12 @@ export const lesson44: Lesson = {
                 id: "a",
                 text: "$A$ and $B$ are mutually exclusive but not independent",
               },
-              { id: "b", text: "$A$ and $B$ are independent" },
               {
-                id: "c",
+                id: "b",
                 text: "$A$ and $B$ are mutually exclusive and independent",
               },
-              { id: "d", text: "$\\mathrm{P}(A\\cup B)=0$" },
+              { id: "c", text: "$\\mathrm{P}(A\\cup B)=0$" },
+              { id: "d", text: "$A$ and $B$ are independent" },
             ],
             correctChoiceId: "a",
           },
@@ -761,10 +761,10 @@ export const lesson44: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$0.8413$" },
+              { id: "a", text: "$0.3413$" },
               { id: "b", text: "$0.1587$" },
-              { id: "c", text: "$0.3413$" },
-              { id: "d", text: "$0.0228$" },
+              { id: "c", text: "$0.0228$" },
+              { id: "d", text: "$0.8413$" },
             ],
             correctChoiceId: "b",
           },

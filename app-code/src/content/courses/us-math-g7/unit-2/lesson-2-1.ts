@@ -54,10 +54,10 @@ export const lesson21: Lesson = {
             choices: [
               { id: "a", text: "$-6.5$" },
               { id: "b", text: "$-1.5$" },
-              { id: "c", text: "$1.5$" },
-              { id: "d", text: "$6.5$" },
+              { id: "c", text: "$6.5$" },
+              { id: "d", text: "$1.5$" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -188,12 +188,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\frac{2}{3}$" },
+              { id: "a", text: "$-\\frac{2}{3}$" },
               { id: "b", text: "$-\\frac{27}{32}$" },
-              { id: "c", text: "$-\\frac{2}{3}$" },
+              { id: "c", text: "$\\frac{2}{3}$" },
               { id: "d", text: "$\\frac{27}{32}$" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [

@@ -52,12 +52,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$5$" },
-              { id: "b", text: "$7$" },
-              { id: "c", text: "$-1$" },
-              { id: "d", text: "$25$" },
+              { id: "a", text: "$7$" },
+              { id: "b", text: "$25$" },
+              { id: "c", text: "$5$" },
+              { id: "d", text: "$-1$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -183,12 +183,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$3$ m/s$^2$" },
-              { id: "b", text: "$4.8$ m/s$^2$" },
-              { id: "c", text: "$48$ m/s$^2$" },
-              { id: "d", text: "$0.75$ m/s$^2$" },
+              { id: "a", text: "$0.75$ m/s$^2$" },
+              { id: "b", text: "$48$ m/s$^2$" },
+              { id: "c", text: "$3$ m/s$^2$" },
+              { id: "d", text: "$4.8$ m/s$^2$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

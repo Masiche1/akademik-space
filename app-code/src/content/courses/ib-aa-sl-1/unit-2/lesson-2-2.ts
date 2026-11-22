@@ -50,9 +50,9 @@ export const lesson22: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "None" },
-              { id: "b", text: "One" },
+              { id: "b", text: "Cannot be determined" },
               { id: "c", text: "Two" },
-              { id: "d", text: "Cannot be determined" },
+              { id: "d", text: "One" },
             ],
             correctChoiceId: "a",
           },
@@ -155,12 +155,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$x=2$" },
-              { id: "b", text: "$x=4$" },
+              { id: "a", text: "$x=4$" },
+              { id: "b", text: "$x=8$" },
               { id: "c", text: "$x=-2$" },
-              { id: "d", text: "$x=8$" },
+              { id: "d", text: "$x=2$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Axis of symmetry", statement: "$x=-\\frac{b}{2a}$" }],
@@ -181,12 +181,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$-4$" },
-              { id: "b", text: "$36$" },
+              { id: "a", text: "$20$" },
+              { id: "b", text: "$-4$" },
               { id: "c", text: "$4$" },
-              { id: "d", text: "$20$" },
+              { id: "d", text: "$36$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Discriminant", statement: "$\\Delta=b^2-4ac$" }],
@@ -233,8 +233,8 @@ export const lesson22: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Factorised form $a(x-p)(x-q)$" },
-              { id: "b", text: "Standard form $ax^2+bx+c$" },
-              { id: "c", text: "Vertex form $a(x-h)^2+k$" },
+              { id: "b", text: "Vertex form $a(x-h)^2+k$" },
+              { id: "c", text: "Standard form $ax^2+bx+c$" },
               { id: "d", text: "Reciprocal form $\\frac{a}{x-h}+k$" },
             ],
             correctChoiceId: "a",
@@ -283,12 +283,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$k=9$" },
-              { id: "b", text: "$k=18$" },
-              { id: "c", text: "$k=6$" },
-              { id: "d", text: "$k=-9$" },
+              { id: "a", text: "$k=6$" },
+              { id: "b", text: "$k=-9$" },
+              { id: "c", text: "$k=9$" },
+              { id: "d", text: "$k=18$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Discriminant", statement: "A repeated root requires $\\Delta=0$." }],
@@ -365,12 +365,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$6$" },
-              { id: "b", text: "$7$" },
+              { id: "a", text: "$7$" },
+              { id: "b", text: "$-1$" },
               { id: "c", text: "$1$" },
-              { id: "d", text: "$-1$" },
+              { id: "d", text: "$6$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Completing the square", statement: "$x^2+bx=\\left(x+\\frac b2\\right)^2-\\frac{b^2}{4}$" }],
@@ -448,8 +448,8 @@ export const lesson22: Lesson = {
             choices: [
               { id: "a", text: "$-6<k<6$" },
               { id: "b", text: "$k>6$ or $k<-6$" },
-              { id: "c", text: "$k=\\pm6$" },
-              { id: "d", text: "$k>0$" },
+              { id: "c", text: "$k>0$" },
+              { id: "d", text: "$k=\\pm6$" },
             ],
             correctChoiceId: "a",
           },
@@ -498,12 +498,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$x=4$" },
-              { id: "b", text: "$x=-4$" },
-              { id: "c", text: "$x=2$" },
-              { id: "d", text: "$y=2$" },
+              { id: "a", text: "$x=2$" },
+              { id: "b", text: "$y=2$" },
+              { id: "c", text: "$x=4$" },
+              { id: "d", text: "$x=-4$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "property", name: "Vertical asymptote", statement: "Occurs where the denominator is zero." }],
@@ -607,12 +607,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$y=2$" },
-              { id: "b", text: "$y=4$" },
-              { id: "c", text: "$y=-\\frac23$" },
-              { id: "d", text: "$x=\\frac32$" },
+              { id: "a", text: "$y=4$" },
+              { id: "b", text: "$y=-\\frac23$" },
+              { id: "c", text: "$x=\\frac32$" },
+              { id: "d", text: "$y=2$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "property", name: "Horizontal asymptote", statement: "$y=\\frac ac$ for $f(x)=\\frac{ax+b}{cx+d}$" }],
@@ -635,8 +635,8 @@ export const lesson22: Lesson = {
             choices: [
               { id: "a", text: "$x\\ne4$" },
               { id: "b", text: "$x\\ne-4$" },
-              { id: "c", text: "$x> -4$" },
-              { id: "d", text: "$x\\ne\\frac13$" },
+              { id: "c", text: "$x\\ne\\frac13$" },
+              { id: "d", text: "$x> -4$" },
             ],
             correctChoiceId: "b",
           },
@@ -683,12 +683,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$3-\\dfrac{5}{x+1}$" },
-              { id: "b", text: "$3+\\dfrac{5}{x+1}$" },
-              { id: "c", text: "$3-\\dfrac{1}{x+1}$" },
-              { id: "d", text: "$-3+\\dfrac{1}{x+1}$" },
+              { id: "a", text: "$3+\\dfrac{5}{x+1}$" },
+              { id: "b", text: "$3-\\dfrac{1}{x+1}$" },
+              { id: "c", text: "$-3+\\dfrac{1}{x+1}$" },
+              { id: "d", text: "$3-\\dfrac{5}{x+1}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Division of polynomials", statement: "Write the numerator as a multiple of the denominator plus a remainder." }],
@@ -736,12 +736,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$f(x)\\ne2$" },
-              { id: "b", text: "$f(x)\\ne-3$" },
-              { id: "c", text: "$f(x)\\ne\\frac12$" },
-              { id: "d", text: "$f(x)\\in\\mathbb R$" },
+              { id: "a", text: "$f(x)\\in\\mathbb R$" },
+              { id: "b", text: "$f(x)\\ne2$" },
+              { id: "c", text: "$f(x)\\ne-3$" },
+              { id: "d", text: "$f(x)\\ne\\frac12$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "property", name: "Range of a rational function", statement: "The function never attains its horizontal asymptote value $y=\\frac ac$." }],
@@ -823,9 +823,9 @@ export const lesson22: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$-\\frac23$" },
-              { id: "b", text: "$-\\frac32$" },
+              { id: "b", text: "$\\frac43$" },
               { id: "c", text: "$\\frac23$" },
-              { id: "d", text: "$\\frac43$" },
+              { id: "d", text: "$-\\frac32$" },
             ],
             correctChoiceId: "a",
           },
@@ -902,12 +902,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$(3,1)$" },
-              { id: "b", text: "$(-3,1)$" },
+              { id: "a", text: "$(-3,1)$" },
+              { id: "b", text: "$(-2,3)$" },
               { id: "c", text: "$(3,-1)$" },
-              { id: "d", text: "$(-2,3)$" },
+              { id: "d", text: "$(3,1)$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "property", name: "Asymptotes", statement: "Vertical $x=-\\frac dc$, horizontal $y=\\frac ac$; their intersection is the centre of symmetry." }],

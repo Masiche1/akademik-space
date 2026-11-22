@@ -52,11 +52,11 @@ export const lesson23: Lesson = {
           "choices": [
                     {
                               "id": "a",
-                              "text": "A small chunk of data sent across a network"
+                              "text": "A type of router"
                     },
                     {
                               "id": "b",
-                              "text": "A type of router"
+                              "text": "A cable"
                     },
                     {
                               "id": "c",
@@ -64,10 +64,10 @@ export const lesson23: Lesson = {
                     },
                     {
                               "id": "d",
-                              "text": "A cable"
+                              "text": "A small chunk of data sent across a network"
                     }
           ],
-          "correctChoiceId": "a"
+          "correctChoiceId": "d"
 },
           markscheme: {
           "principles": [
@@ -213,6 +213,484 @@ export const lesson23: Lesson = {
                     }
           ],
           "finalAnswer": "Internet protocols, packets, addressing."
+},
+        },
+        {
+          id: "cils-c-u2-nt-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "What does a router do?",
+          response: {
+          "type": "mcq",
+          "choices": [
+                    {
+                              "id": "a",
+                              "text": "Translates names to IPs"
+                    },
+                    {
+                              "id": "b",
+                              "text": "Displays web pages"
+                    },
+                    {
+                              "id": "c",
+                              "text": "Directs packets between networks"
+                    },
+                    {
+                              "id": "d",
+                              "text": "Stores files permanently"
+                    }
+          ],
+          "correctChoiceId": "c"
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "definition",
+                              "name": "Router",
+                              "statement": "Directs packets between networks."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "Routers forward packets hop-by-hop toward their destination.",
+                              "marks": 1,
+                              "markCode": "M"
+                    }
+          ],
+          "finalAnswer": "Directs packets"
+},
+        },
+        {
+          id: "cils-c-u2-nt-q6",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Each packet carries two address labels. How many addresses does each packet carry?",
+          response: {
+          "type": "numeric",
+          "parts": [
+                    { "label": "a", "answer": 2 }
+          ]
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "definition",
+                              "name": "Packet",
+                              "statement": "Source + destination addresses."
+                    }
+          ],
+          "steps": [
+                    {
+                              "part": "a",
+                              "reasoning": "Source address and destination address = 2.",
+                              "marks": 1,
+                              "markCode": "M"
+                    }
+          ],
+          "finalAnswer": "2"
+},
+        },
+        {
+          id: "cils-c-u2-nt-q7",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "A message is split into 10 packets and 3 are lost. How many packets must be resent?",
+          response: {
+          "type": "numeric",
+          "parts": [
+                    { "label": "a", "answer": 3 }
+          ]
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "skill",
+                              "name": "Packet loss",
+                              "statement": "Lost packets resent individually."
+                    }
+          ],
+          "steps": [
+                    {
+                              "part": "a",
+                              "reasoning": "Only the 3 lost packets need retransmission.",
+                              "marks": 1,
+                              "markCode": "M"
+                    }
+          ],
+          "finalAnswer": "3"
+},
+        },
+        {
+          id: "cils-c-u2-nt-q8",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "Why is HTTPS safer than HTTP? Give two reasons.",
+          response: {
+          "type": "open"
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "definition",
+                              "name": "HTTPS",
+                              "statement": "Encrypted web protocol."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "Encrypts data in transit — eavesdroppers can't read it.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "Protects passwords and personal data.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "Also verifies the website's identity (certificate).",
+                              "marks": 1,
+                              "markCode": "A"
+                    }
+          ],
+          "finalAnswer": "Encryption protects data"
+},
+        },
+        {
+          id: "cils-c-u2-nt-q9",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "What does DNS do?",
+          response: {
+          "type": "mcq",
+          "choices": [
+                    {
+                              "id": "a",
+                              "text": "Translates domain names into IP addresses"
+                    },
+                    {
+                              "id": "b",
+                              "text": "Stores website files"
+                    },
+                    {
+                              "id": "c",
+                              "text": "Blocks viruses"
+                    },
+                    {
+                              "id": "d",
+                              "text": "Speeds up the internet"
+                    }
+          ],
+          "correctChoiceId": "a"
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "definition",
+                              "name": "DNS",
+                              "statement": "Name → IP lookup."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "DNS resolves names like 'example.com' to IP addresses.",
+                              "marks": 1,
+                              "markCode": "M"
+                    }
+          ],
+          "finalAnswer": "Name → IP"
+},
+        },
+        {
+          id: "cils-c-u2-nt-q10",
+          difficulty: "challenge",
+          totalMarks: 1,
+          stem: "20 packets are sent and 5 are lost. How many packets arrive successfully?",
+          response: {
+          "type": "numeric",
+          "parts": [
+                    { "label": "a", "answer": 15 }
+          ]
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "skill",
+                              "name": "Packet loss",
+                              "statement": "sent - lost = arrived."
+                    }
+          ],
+          "steps": [
+                    {
+                              "part": "a",
+                              "reasoning": "20 - 5 = 15.",
+                              "marks": 1,
+                              "markCode": "M"
+                    }
+          ],
+          "finalAnswer": "15"
+},
+        },
+        {
+          id: "cils-c-u2-nt-q11",
+          difficulty: "challenge",
+          totalMarks: 1,
+          stem: "Why might packets of one message arrive out of order?",
+          response: {
+          "type": "mcq",
+          "choices": [
+                    {
+                              "id": "a",
+                              "text": "The receiver sorts them alphabetically"
+                    },
+                    {
+                              "id": "b",
+                              "text": "Packets are always sent in reverse"
+                    },
+                    {
+                              "id": "c",
+                              "text": "They can take different routes and take different times"
+                    },
+                    {
+                              "id": "d",
+                              "text": "Routers delete half of them"
+                    }
+          ],
+          "correctChoiceId": "c"
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "definition",
+                              "name": "Packet switching",
+                              "statement": "Independent routing causes reordering."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "Different paths → different arrival times → out of order.",
+                              "marks": 1,
+                              "markCode": "M"
+                    }
+          ],
+          "finalAnswer": "Different routes/times"
+},
+        },
+        {
+          id: "cils-c-u2-nt-q12",
+          difficulty: "challenge",
+          totalMarks: 5,
+          stem: "(a) Define packet, IP address, protocol, TCP, DNS. (b) What are the two address labels on every packet? (c) Why is packet switching more resilient than a single dedicated connection? (d) What happens when a packet is lost? (e) Trace what happens when you type a web address and press enter.",
+          response: {
+          "type": "open"
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "technique",
+                              "name": "Networking",
+                              "statement": "Packets, protocols, DNS."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "(a) All five definitions correct.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "(b) Source address and destination address.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "(c) Other routes/packets unaffected; lost packets resent individually.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "(d) Receiver detects gap; sender retransmits.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "(e) DNS lookup → IP → request packets → server → response → reassemble → render.",
+                              "marks": 1,
+                              "markCode": "A"
+                    }
+          ],
+          "finalAnswer": "Packets, resilience, DNS trace."
+},
+        },
+        {
+          id: "cils-c-u2-nt-q13",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "What is a 'protocol' in networking?",
+          response: {
+          "type": "mcq",
+          "choices": [
+                    {
+                              "id": "a",
+                              "text": "A virus"
+                    },
+                    {
+                              "id": "b",
+                              "text": "A type of cable"
+                    },
+                    {
+                              "id": "c",
+                              "text": "A set of rules devices follow to communicate"
+                    },
+                    {
+                              "id": "d",
+                              "text": "A web browser"
+                    }
+          ],
+          "correctChoiceId": "c"
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "definition",
+                              "name": "Protocol",
+                              "statement": "Communication rules."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "Protocols standardise how devices talk.",
+                              "marks": 1,
+                              "markCode": "M"
+                    }
+          ],
+          "finalAnswer": "Communication rules"
+},
+        },
+        {
+          id: "cils-c-u2-nt-q14",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "The IP address 192.168.1.1 is made of how many separate numbers?",
+          response: {
+          "type": "numeric",
+          "parts": [
+                    { "label": "a", "answer": 4 }
+          ]
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "definition",
+                              "name": "IP address",
+                              "statement": "Four octets."
+                    }
+          ],
+          "steps": [
+                    {
+                              "part": "a",
+                              "reasoning": "192, 168, 1, 1 = 4 numbers.",
+                              "marks": 1,
+                              "markCode": "M"
+                    }
+          ],
+          "finalAnswer": "4"
+},
+        },
+        {
+          id: "cils-c-u2-nt-q15",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "What does the TCP protocol guarantee?",
+          response: {
+          "type": "mcq",
+          "choices": [
+                    {
+                              "id": "a",
+                              "text": "Reliable, ordered delivery of data"
+                    },
+                    {
+                              "id": "b",
+                              "text": "Free bandwidth"
+                    },
+                    {
+                              "id": "c",
+                              "text": "Faster internet speeds"
+                    },
+                    {
+                              "id": "d",
+                              "text": "Encryption of all data"
+                    }
+          ],
+          "correctChoiceId": "a"
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "definition",
+                              "name": "TCP",
+                              "statement": "Reliable delivery."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "TCP ensures packets arrive complete and in order.",
+                              "marks": 1,
+                              "markCode": "M"
+                    }
+          ],
+          "finalAnswer": "Reliable ordered delivery"
+},
+        },
+        {
+          id: "cils-c-u2-nt-q16",
+          difficulty: "challenge",
+          totalMarks: 6,
+          stem: "(a) Define packet switching, IP address, DNS, HTTP, bandwidth. (b) Why split data into packets rather than send one stream? (c) What role do routers play? (d) How does TCP differ from IP in its job? (e) Why do websites prefer HTTPS? (f) A video call uses many packets — what could cause it to stutter?",
+          response: {
+          "type": "open"
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "technique",
+                              "name": "Networking",
+                              "statement": "Packets, protocols, bandwidth."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "(a) All five definitions correct.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "(b) Fair bandwidth sharing, flexible routing, easy retransmission.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "(c) Forward packets between networks toward destination.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "(d) IP addresses/routes; TCP ensures reliable ordered delivery.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "(e) Encrypts traffic — protects users.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "(f) Packet loss, low bandwidth, congestion, high latency.",
+                              "marks": 1,
+                              "markCode": "A"
+                    }
+          ],
+          "finalAnswer": "Networking concepts and issues."
 },
         },
       ],

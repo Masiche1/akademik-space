@@ -79,15 +79,15 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "The study of history" },
               {
-                id: "a",
+                id: "b",
                 text: "The systematic study of human society and social relationships",
               },
-              { id: "b", text: "The study of individual psychology" },
-              { id: "c", text: "The study of history" },
+              { id: "c", text: "The study of individual psychology" },
               { id: "d", text: "The study of economics" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -276,12 +276,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "C. Wright Mills" },
-              { id: "b", text: "Émile Durkheim" },
-              { id: "c", text: "Karl Marx" },
-              { id: "d", text: "Max Weber" },
+              { id: "a", text: "Émile Durkheim" },
+              { id: "b", text: "Max Weber" },
+              { id: "c", text: "C. Wright Mills" },
+              { id: "d", text: "Karl Marx" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -310,13 +310,13 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "One person losing their job" },
+              { id: "a", text: "An individual choosing to smoke" },
               {
                 id: "b",
                 text: "An economic recession causing mass unemployment",
               },
               { id: "c", text: "A student failing a single exam" },
-              { id: "d", text: "An individual choosing to smoke" },
+              { id: "d", text: "One person losing their job" },
             ],
             correctChoiceId: "b",
           },
@@ -453,11 +453,11 @@ export const lesson11: Lesson = {
             choices: [
               {
                 id: "a",
-                text: "Blaming poverty on individual laziness",
+                text: "Linking rising homelessness to housing policy and economic change",
               },
               {
                 id: "b",
-                text: "Linking rising homelessness to housing policy and economic change",
+                text: "Blaming poverty on individual laziness",
               },
               {
                 id: "c",
@@ -465,7 +465,7 @@ export const lesson11: Lesson = {
               },
               { id: "d", text: "Attributing exam failure solely to effort" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -586,8 +586,8 @@ export const lesson11: Lesson = {
                 id: "b",
                 text: "Problems experienced by individuals that may reflect public issues",
               },
-              { id: "c", text: "Issues affecting entire nations" },
-              { id: "d", text: "Personal hobbies and interests" },
+              { id: "c", text: "Personal hobbies and interests" },
+              { id: "d", text: "Issues affecting entire nations" },
             ],
             correctChoiceId: "b",
           },
@@ -840,12 +840,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Functionalism" },
-              { id: "b", text: "Marxism" },
-              { id: "c", text: "Feminism" },
+              { id: "a", text: "Feminism" },
+              { id: "b", text: "Functionalism" },
+              { id: "c", text: "Marxism" },
               { id: "d", text: "Interactionism" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1021,6 +1021,495 @@ export const lesson11: Lesson = {
             ],
             finalAnswer:
               "(a) consensus (b) conflict (c) patriarchy (d) micro (e) gradual vs revolutionary",
+          },
+        },
+        {
+          id: "asoc-u1-th-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Which theory focuses on gender inequality and patriarchy?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Interactionism" },
+              { id: "b", text: "Functionalism" },
+              { id: "c", text: "Feminism" },
+              { id: "d", text: "Marxism" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Feminism",
+                statement: "Gender inequality and patriarchy.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Feminism focuses on gender/patriarchy.",
+                marks: 1,
+                markCode: "AO1",
+              },
+            ],
+            finalAnswer: "**(c)** Feminism",
+            commonErrors: ["Confusing with Marxism."],
+          },
+        },
+        {
+          id: "asoc-u1-th-q6",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Which theory focuses on how individuals create meaning through everyday interactions?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Marxism" },
+              { id: "b", text: "Functionalism" },
+              { id: "c", text: "Interactionism" },
+              { id: "d", text: "Feminism" },
+            ],
+            correctChoiceIc: "d",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Interactionism",
+                statement: "Meaning created through interactions.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Interactionism = micro-level meaning.",
+                marks: 1,
+                markCode: "AO1",
+              },
+            ],
+            finalAnswer: "**(d)** Interactionism",
+            commonErrors: ["Confusing with macro theories."],
+          },
+        },
+        {
+          id: "asoc-u1-th-q7",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "Define Marxism.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Marxism",
+                statement: "Class conflict over economic resources.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Society shaped by class conflict.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                reasoning: "Economic resources/capitalism central.",
+                marks: 1,
+                markCode: "AO2",
+              },
+            ],
+            finalAnswer: "Society shaped by class conflict over economic resources.",
+            commonErrors: ["Defining as gender-focused."],
+          },
+        },
+        {
+          id: "asoc-u1-th-q8",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "Give one criticism of functionalism.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Functionalism criticism",
+                statement: "Ignores conflict and power.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Ignores conflict/exploitation.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                reasoning: "Downplays inequality/power.",
+                marks: 1,
+                markCode: "AO2",
+              },
+            ],
+            finalAnswer: "Functionalism ignores conflict and power.",
+            commonErrors: ["Criticising Marxism instead."],
+          },
+        },
+        {
+          id: "asoc-u1-th-q9",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "In a survey of 200 students, 25% chose functionalism as their favourite theory. How many students is that?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 50 }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Percentage calculation",
+                statement: "25% of 200 = 0.25 x 200.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Convert percentage to decimal.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                reasoning: "Multiply by sample size.",
+                marks: 1,
+                markCode: "AO2",
+              },
+            ],
+            finalAnswer: "50",
+            commonErrors: ["Calculating 25% of a wrong total."],
+          },
+        },
+        {
+          id: "asoc-u1-th-q10",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "Compare feminism and interactionism.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Feminism vs interactionism",
+                statement: "Gender/patriarchy vs micro-level meaning.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Feminism: patriarchy, gender inequality.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                reasoning: "Interactionism: everyday interactions, meanings.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                reasoning: "Macro vs micro focus.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              { reasoning: "Clear comparison.", marks: 1, markCode: "AO3" },
+            ],
+            finalAnswer: "Feminism=gender/patriarchy; interactionism=micro-level meaning.",
+            commonErrors: ["Only describing one theory."],
+          },
+        },
+        {
+          id: "asoc-u1-th-q11",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Which view would a Marxist most likely support?",
+          response: {
+            type: "mcq",
+            choices: [
+              {
+                id: "a",
+                text: "Meaning is created in everyday interactions",
+              },
+              { id: "b", text: "Class conflict shapes society" },
+              { id: "c", text: "Society is based on consensus" },
+              { id: "d", text: "Gender determines all behaviour" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Marxist view",
+                statement: "Class conflict central.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Marxism emphasises class conflict.",
+                marks: 1,
+                markCode: "AO2",
+              },
+            ],
+            finalAnswer: "**(b)** Class conflict shapes society",
+            commonErrors: ["Choosing a consensus view."],
+          },
+        },
+        {
+          id: "asoc-u1-th-q12",
+          difficulty: "challenge",
+          totalMarks: 1,
+          stem: "Which is the strongest criticism of functionalism?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "It is too focused on economics" },
+              { id: "b", text: "It rejects all social structure" },
+              { id: "c", text: "It ignores conflict and power" },
+              { id: "d", text: "It focuses too much on individuals" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Functionalism criticism",
+                statement: "Consensus view ignores conflict.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Functionalism downplays conflict/power.",
+                marks: 1,
+                markCode: "AO2",
+              },
+            ],
+            finalAnswer: "**(a)** It ignores conflict and power",
+            commonErrors: ["Choosing a criticism of Marxism."],
+          },
+        },
+        {
+          id: "asoc-u1-th-q13",
+          difficulty: "challenge",
+          totalMarks: 2,
+          stem: "A researcher classifies 400 respondents: 240 support functionalist views and 160 support Marxist views. (a) What percentage support Marxist views? (b) By how many percentage points do functionalist views exceed Marxist views?",
+          response: {
+            type: "numeric",
+            parts: [
+              { label: "a", answer: 40 },
+              { label: "b", answer: 20 },
+            ],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Percentage calculation",
+                statement: "160/400 x 100 = 40%; 60% - 40% = 20 points.",
+              },
+            ],
+            steps: [
+              {
+                part: "a",
+                reasoning: "Marxist: 160/400 x 100.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                part: "b",
+                reasoning: "Functionalist 60% minus 40%.",
+                marks: 1,
+                markCode: "AO2",
+              },
+            ],
+            finalAnswer: "(a) 40% (b) 20 percentage points",
+            commonErrors: ["Subtracting raw counts instead of percentages."],
+          },
+        },
+        {
+          id: "asoc-u1-th-q14",
+          difficulty: "challenge",
+          totalMarks: 6,
+          stem: "Discuss how functionalism and Marxism would explain crime differently.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Theories and crime",
+                statement: "Consensus vs conflict explanations of crime.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Functionalist: crime as dysfunction/deviance from shared norms.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                reasoning: "Marxist: crime linked to class inequality/exploitation.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                reasoning: "Functionalist may see crime as inevitable/social control failure.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "Marxist sees crime as response to capitalist structure.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "Clear theoretical contrast drawn.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "Developed, coherent discussion.",
+                marks: 1,
+                markCode: "AO3",
+              },
+            ],
+            finalAnswer:
+              "Functionalists see crime as deviance from consensus; Marxists link it to class inequality.",
+            commonErrors: ["Describing crime without theory."],
+          },
+        },
+        {
+          id: "asoc-u1-th-q15",
+          difficulty: "challenge",
+          totalMarks: 10,
+          stem: "Sociological theories.",
+          parts: [
+            { label: "a", prompt: "Define interactionism.", marks: 1 },
+            { label: "b", prompt: "Define feminism.", marks: 1 },
+            {
+              label: "c",
+              prompt: "Compare functionalism and Marxism in their view of society.",
+              marks: 2,
+            },
+            {
+              label: "d",
+              prompt: "Explain one criticism of Marxism.",
+              marks: 3,
+            },
+            {
+              label: "e",
+              prompt: "Apply one theory to a named social issue.",
+              marks: 3,
+            },
+          ],
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Theories",
+                statement: "Definitions+comparison+criticism+application.",
+              },
+            ],
+            steps: [
+              {
+                part: "a",
+                reasoning: "Micro-level meaning/interaction.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                part: "b",
+                reasoning: "Patriarchy/gender inequality.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                part: "c",
+                reasoning: "Consensus vs conflict view.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                part: "c",
+                reasoning: "Clear contrast.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                part: "d",
+                reasoning: "Economic determinism criticised.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                part: "d",
+                reasoning: "Ignores non-economic factors.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                part: "d",
+                reasoning: "Developed point.",
+                marks: 1,
+                markCode: "AO3",
+              },
+              {
+                part: "e",
+                reasoning: "Theory applied to issue.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                part: "e",
+                reasoning: "Logical link explained.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                part: "e",
+                reasoning: "Clear application.",
+                marks: 1,
+                markCode: "AO3",
+              },
+            ],
+            finalAnswer:
+              "(a) micro meaning (b) patriarchy (c) consensus vs conflict (d) economic determinism (e) applied example",
+          },
+        },
+        {
+          id: "asoc-u1-th-q16",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "In a class of 60 students, two-fifths chose interactionism as their favourite theory. How many students is that?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 24 }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Fraction calculation",
+                statement: "2/5 of 60 = 0.4 x 60.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Convert fraction to decimal.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                reasoning: "Multiply by class size.",
+                marks: 1,
+                markCode: "AO2",
+              },
+            ],
+            finalAnswer: "24",
+            commonErrors: ["Using the wrong fraction."],
           },
         },
       ],

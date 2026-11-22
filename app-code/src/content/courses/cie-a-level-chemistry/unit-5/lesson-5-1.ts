@@ -78,12 +78,12 @@ export const lesson511: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\frac{[HI]^2}{[H_2][I_2]}$" },
-              { id: "b", text: "$\\frac{[H_2][I_2]}{[HI]^2}$" },
-              { id: "c", text: "$[HI]^2[H_2][I_2]$" },
-              { id: "d", text: "$\\frac{[HI]}{[H_2][I_2]}$" },
+              { id: "a", text: "$\\frac{[H_2][I_2]}{[HI]^2}$" },
+              { id: "b", text: "$[HI]^2[H_2][I_2]$" },
+              { id: "c", text: "$\\frac{[HI]}{[H_2][I_2]}$" },
+              { id: "d", text: "$\\frac{[HI]^2}{[H_2][I_2]}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -284,12 +284,12 @@ export const lesson511: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Solids and pure liquids" },
+              { id: "a", text: "Aqueous ions" },
               { id: "b", text: "Gaseous species" },
-              { id: "c", text: "Aqueous ions" },
-              { id: "d", text: "Products" },
+              { id: "c", text: "Products" },
+              { id: "d", text: "Solids and pure liquids" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -389,12 +389,12 @@ export const lesson511: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$N_2 + 3H_2 \\rightleftharpoons 2NH_3$" },
-              { id: "b", text: "$H_2 + I_2 \\rightleftharpoons 2HI$" },
+              { id: "a", text: "$H_2 + I_2 \\rightleftharpoons 2HI$" },
+              { id: "b", text: "$N_2 + 3H_2 \\rightleftharpoons 2NH_3$" },
               { id: "c", text: "$2SO_2 + O_2 \\rightleftharpoons 2SO_3$" },
               { id: "d", text: "$PCl_5 \\rightleftharpoons PCl_3 + Cl_2$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -504,9 +504,9 @@ export const lesson511: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Increasing reactant concentration" },
+              { id: "a", text: "Increasing pressure" },
               { id: "b", text: "Adding a catalyst" },
-              { id: "c", text: "Increasing pressure" },
+              { id: "c", text: "Increasing reactant concentration" },
               { id: "d", text: "Adding more product" },
             ],
             correctChoiceId: "b",
@@ -619,12 +619,12 @@ export const lesson511: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "mol dm$^{-3}$" },
-              { id: "b", text: "dimensionless (no units)" },
+              { id: "a", text: "dimensionless (no units)" },
+              { id: "b", text: "mol dm$^{-3}$" },
               { id: "c", text: "(mol dm$^{-3}$)$^{-1}$" },
               { id: "d", text: "Depends on temperature" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -828,12 +828,12 @@ export const lesson511: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "More NH$_3$ (fewer gas moles)" },
-              { id: "b", text: "More N$_2$ and H$_2$" },
-              { id: "c", text: "No change" },
-              { id: "d", text: "Depends on temperature" },
+              { id: "a", text: "Depends on temperature" },
+              { id: "b", text: "More NH$_3$ (fewer gas moles)" },
+              { id: "c", text: "More N$_2$ and H$_2$" },
+              { id: "d", text: "No change" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1030,11 +1030,11 @@ export const lesson511: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Shift equilibrium to the right" },
-              { id: "b", text: "Shift equilibrium to the left" },
-              { id: "c", text: "Have no effect on the position" },
-              { id: "d", text: "Increase $K_c$" },
+              { id: "b", text: "Increase $K_c$" },
+              { id: "c", text: "Shift equilibrium to the left" },
+              { id: "d", text: "Have no effect on the position" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1139,10 +1139,10 @@ export const lesson511: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "To the right, making more product" },
+              { id: "a", text: "Depends on $K$" },
               { id: "b", text: "To the left, consuming some product" },
-              { id: "c", text: "Not at all" },
-              { id: "d", text: "Depends on $K$" },
+              { id: "c", text: "To the right, making more product" },
+              { id: "d", text: "Not at all" },
             ],
             correctChoiceId: "b",
           },
@@ -1211,9 +1211,9 @@ export const lesson511: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Increasing the pressure" },
+              { id: "a", text: "Decreasing the temperature" },
               { id: "b", text: "Removing NH$_3$ as it forms" },
-              { id: "c", text: "Decreasing the temperature" },
+              { id: "c", text: "Increasing the pressure" },
               { id: "d", text: "Adding more Fe catalyst" },
             ],
             correctChoiceId: "d",
@@ -1323,8 +1323,8 @@ export const lesson511: Lesson = {
             choices: [
               { id: "a", text: "Shifting it toward the products" },
               { id: "b", text: "Speeding attainment of equilibrium without shifting it" },
-              { id: "c", text: "Increasing the value of $K$" },
-              { id: "d", text: "Making the reaction irreversible" },
+              { id: "c", text: "Making the reaction irreversible" },
+              { id: "d", text: "Increasing the value of $K$" },
             ],
             correctChoiceId: "b",
           },

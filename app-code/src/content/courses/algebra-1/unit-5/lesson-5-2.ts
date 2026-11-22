@@ -48,12 +48,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$12\\%$" },
-              { id: "b", text: "$24\\%$" },
-              { id: "c", text: "$38\\%$" },
-              { id: "d", text: "$50\\%$" },
+              { id: "a", text: "$50\\%$" },
+              { id: "b", text: "$38\\%$" },
+              { id: "c", text: "$24\\%$" },
+              { id: "d", text: "$12\\%$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -166,12 +166,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$15\\%$" },
+              { id: "a", text: "$40\\%$" },
               { id: "b", text: "$25\\%$" },
-              { id: "c", text: "$40\\%$" },
-              { id: "d", text: "$60\\%$" },
+              { id: "c", text: "$60\\%$" },
+              { id: "d", text: "$15\\%$" },
             ],
-            correctChoiceId: "d",
+            correctChoiceIc: "d",
           },
           markscheme: {
             principles: [

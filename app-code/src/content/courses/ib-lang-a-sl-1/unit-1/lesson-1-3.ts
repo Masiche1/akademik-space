@@ -52,12 +52,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The publisher's location" },
-              { id: "b", text: "Direct forms of address and register" },
-              { id: "c", text: "The author's nationality" },
-              { id: "d", text: "The year of publication alone" },
+              { id: "a", text: "The author's nationality" },
+              { id: "b", text: "The year of publication alone" },
+              { id: "c", text: "The publisher's location" },
+              { id: "d", text: "Direct forms of address and register" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -158,12 +158,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "the genre of the text" },
-              { id: "b", text: "the level of formality of its language" },
+              { id: "a", text: "the level of formality of its language" },
+              { id: "b", text: "the genre of the text" },
               { id: "c", text: "the number of its readers" },
               { id: "d", text: "its publication date" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -185,12 +185,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "the author's nationality" },
-              { id: "b", text: "the specific event or moment that prompts the text" },
+              { id: "a", text: "the length of the text" },
+              { id: "b", text: "the author's nationality" },
               { id: "c", text: "the price of the publication" },
-              { id: "d", text: "the length of the text" },
+              { id: "d", text: "the specific event or moment that prompts the text" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -218,12 +218,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "To inform the reader about a new building" },
-              { id: "b", text: "To complain formally and request redress" },
-              { id: "c", text: "To entertain the reader with a story" },
-              { id: "d", text: "To persuade the reader to buy a product" },
+              { id: "a", text: "To complain formally and request redress" },
+              { id: "b", text: "To persuade the reader to buy a product" },
+              { id: "c", text: "To inform the reader about a new building" },
+              { id: "d", text: "To entertain the reader with a story" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -252,12 +252,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Neutral reporting of a council meeting" },
-              { id: "b", text: "Persuasive condemnation urging reversal" },
-              { id: "c", text: "Humorous commentary on local politics" },
+              { id: "a", text: "Persuasive condemnation urging reversal" },
+              { id: "b", text: "Humorous commentary on local politics" },
+              { id: "c", text: "Neutral reporting of a council meeting" },
               { id: "d", text: "A balanced review of two policy options" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -286,12 +286,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "By claiming the film will please all viewers" },
-              { id: "b", text: "By excluding a mainstream audience in order to flatter and challenge a niche one" },
+              { id: "a", text: "By recommending the film to children" },
+              { id: "b", text: "By claiming the film will please all viewers" },
               { id: "c", text: "By refusing to evaluate the film at all" },
-              { id: "d", text: "By recommending the film to children" },
+              { id: "d", text: "By excluding a mainstream audience in order to flatter and challenge a niche one" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -316,11 +316,11 @@ export const lesson13: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "It aims to inform a general academic audience" },
-              { id: "b", text: "It aims to advise and empower an individual reader seeking practical change" },
-              { id: "c", text: "It aims to record history for future scholars" },
-              { id: "d", text: "It aims to entertain through narrative" },
+              { id: "b", text: "It aims to entertain through narrative" },
+              { id: "c", text: "It aims to advise and empower an individual reader seeking practical change" },
+              { id: "d", text: "It aims to record history for future scholars" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -554,12 +554,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A direct quotation with citation" },
-              { id: "b", text: "An indirect reference to another text, person or event" },
-              { id: "c", text: "A poem's rhyme scheme" },
-              { id: "d", text: "The narrator's voice" },
+              { id: "a", text: "The narrator's voice" },
+              { id: "b", text: "A poem's rhyme scheme" },
+              { id: "c", text: "A direct quotation with citation" },
+              { id: "d", text: "An indirect reference to another text, person or event" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -668,8 +668,8 @@ export const lesson13: Lesson = {
             choices: [
               { id: "a", text: "imitates a style with affectionate reverence" },
               { id: "b", text: "imitates a style or text in order to mock or critique it" },
-              { id: "c", text: "quotes a text directly with citation" },
-              { id: "d", text: "avoids all reference to other texts" },
+              { id: "c", text: "avoids all reference to other texts" },
+              { id: "d", text: "quotes a text directly with citation" },
             ],
             correctChoiceId: "b",
           },
@@ -693,10 +693,10 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "a direct quotation from a famous novel" },
+              { id: "a", text: "a character's name" },
               { id: "b", text: "a text echoing the conventions of a genre — e.g. a film noir opening or a fairy-tale ending" },
               { id: "c", text: "a poem's rhyme scheme" },
-              { id: "d", text: "a character's name" },
+              { id: "d", text: "a direct quotation from a famous novel" },
             ],
             correctChoiceId: "b",
           },
@@ -726,12 +726,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It dignifies the manager by comparing him to a tragic hero" },
-              { id: "b", text: "It creates irony by invoking tragic grandeur and then deflating it with 'creditors' and 'budget forecast'" },
-              { id: "c", text: "It proves the manager is actually named Lear" },
+              { id: "a", text: "It proves the manager is actually named Lear" },
+              { id: "b", text: "It dignifies the manager by comparing him to a tragic hero" },
+              { id: "c", text: "It creates irony by invoking tragic grandeur and then deflating it with 'creditors' and 'budget forecast'" },
               { id: "d", text: "It has no effect because Shakespeare is not mentioned" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -760,12 +760,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It makes the traffic jam sound holy" },
-              { id: "b", text: "It mocks commuters by casting their delay as a spiritual trial — movement without progress" },
-              { id: "c", text: "It proves the drivers are actually dead" },
-              { id: "d", text: "It suggests the jam will end soon" },
+              { id: "a", text: "It mocks commuters by casting their delay as a spiritual trial — movement without progress" },
+              { id: "b", text: "It makes the traffic jam sound holy" },
+              { id: "c", text: "It suggests the jam will end soon" },
+              { id: "d", text: "It proves the drivers are actually dead" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -794,12 +794,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It creates sincere celebration of the merger" },
-              { id: "b", text: "It produces irony by applying a children's story register to a commercial deal" },
+              { id: "a", text: "It produces irony by applying a children's story register to a commercial deal" },
+              { id: "b", text: "It creates sincere celebration of the merger" },
               { id: "c", text: "It confuses the reader about what kind of text this is" },
               { id: "d", text: "It suggests the merger involved actual magic" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -823,12 +823,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A quotation repeats words exactly; an allusion references a source indirectly" },
-              { id: "b", text: "They are identical — both cite sources" },
-              { id: "c", text: "An allusion is always longer than a quotation" },
-              { id: "d", text: "A quotation is always ironic" },
+              { id: "a", text: "An allusion is always longer than a quotation" },
+              { id: "b", text: "A quotation is always ironic" },
+              { id: "c", text: "A quotation repeats words exactly; an allusion references a source indirectly" },
+              { id: "d", text: "They are identical — both cite sources" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

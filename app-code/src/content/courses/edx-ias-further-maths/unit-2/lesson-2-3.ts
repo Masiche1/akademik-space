@@ -50,12 +50,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\frac12\\int r^2\\,d\\theta$" },
-              { id: "b", text: "$\\int r\\,d\\theta$" },
-              { id: "c", text: "$\\frac12\\int r\\,d\\theta$" },
-              { id: "d", text: "$\\int r^2\\,d\\theta$" },
+              { id: "a", text: "$\\int r\\,d\\theta$" },
+              { id: "b", text: "$\\int r^2\\,d\\theta$" },
+              { id: "c", text: "$\\frac12\\int r^2\\,d\\theta$" },
+              { id: "d", text: "$\\frac12\\int r\\,d\\theta$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Polar area", statement: "$A=\\frac12\\int r^2\\,d\\theta$." }],
@@ -167,9 +167,9 @@ export const lesson23: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$\\sqrt{r^2+\\left(\\frac{dr}{d\\theta}\\right)^2}\\,d\\theta$" },
-              { id: "b", text: "$r\\,d\\theta$" },
-              { id: "c", text: "$\\sqrt{r^2-\\left(\\frac{dr}{d\\theta}\\right)^2}\\,d\\theta$" },
-              { id: "d", text: "$\\frac{dr}{d\\theta}\\,d\\theta$" },
+              { id: "b", text: "$\\sqrt{r^2-\\left(\\frac{dr}{d\\theta}\\right)^2}\\,d\\theta$" },
+              { id: "c", text: "$\\frac{dr}{d\\theta}\\,d\\theta$" },
+              { id: "d", text: "$r\\,d\\theta$" },
             ],
             correctChoiceId: "a",
           },

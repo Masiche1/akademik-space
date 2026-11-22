@@ -52,8 +52,8 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$24$" },
-              { id: "b", text: "$23$" },
-              { id: "c", text: "$22$" },
+              { id: "b", text: "$22$" },
+              { id: "c", text: "$23$" },
               { id: "d", text: "$25$" },
             ],
             correctChoiceId: "a",
@@ -148,6 +148,287 @@ export const lesson33: Lesson = {
             commonErrors: ["In (a) continuing with $+5$ — check the differences change."],
           },
         },
+        {
+          id: "cilm-u3-seq-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "What comes next: $6, 11, 16, 21, \\ldots$?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$24$" },
+              { id: "b", text: "$26$" },
+              { id: "c", text: "$25$" },
+              { id: "d", text: "$27$" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              { kind: "convention", name: "Common difference", statement: "Differences are $5$ — add $5$ to $21$." },
+            ],
+            steps: [
+              { reasoning: "$21+5=26$.", working: "21+5=26", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** $26$",
+            commonErrors: ["Choosing (b) — the pattern adds 5, not 4."],
+          },
+        },
+        {
+          id: "cilm-u3-seq-q6",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "What comes next: $100, 90, 80, 70, \\ldots$?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$50$" },
+              { id: "b", text: "$65$" },
+              { id: "c", text: "$60$" },
+              { id: "d", text: "$55$" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              { kind: "convention", name: "Common difference", statement: "Differences are $-10$ — subtract 10 from 70." },
+            ],
+            steps: [
+              { reasoning: "$70-10=60$.", working: "70-10=60", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** $60$",
+            commonErrors: ["Choosing (b) — subtracting 20 instead of 10."],
+          },
+        },
+        {
+          id: "cilm-u3-seq-q7",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Find the nth term of $4, 7, 10, 13, \\ldots$",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$3n + 1$" },
+              { id: "b", text: "$7n$" },
+              { id: "c", text: "$3n + 4$" },
+              { id: "d", text: "$4n + 3$" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "nth term", statement: "Difference $3$ → $3n+c$; first term $3+c=4$ → $c=1$." },
+            ],
+            steps: [
+              { reasoning: "$3n+1$: check $n=1$ gives $4$ ✓.", working: "3n+1", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** $3n + 1$",
+            commonErrors: ["Choosing (b) — $c$ is found from $n=1$, not copied from the first term."],
+          },
+        },
+        {
+          id: "cilm-u3-seq-q8",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "What is the common difference of the sequence $5, 8, 11, 14$?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$8$" },
+              { id: "b", text: "$2$" },
+              { id: "c", text: "$5$" },
+              { id: "d", text: "$3$" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              { kind: "definition", name: "Common difference", statement: "Each term minus the previous: $8-5=3$." },
+            ],
+            steps: [
+              { reasoning: "$8-5=3$; $11-8=3$ — constant difference $3$.", working: "d=3", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** $3$",
+            commonErrors: ["Choosing (b) — reporting the first term instead of the difference."],
+          },
+        },
+        {
+          id: "cilm-u3-seq-q9",
+          difficulty: "challenge",
+          totalMarks: 1,
+          stem: "The nth term of a sequence is $4n - 3$. What is the 10th term?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$40$" },
+              { id: "b", text: "$43$" },
+              { id: "c", text: "$37$" },
+              { id: "d", text: "$33$" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Using nth term", statement: "Substitute $n=10$: $4(10)-3=37$." },
+            ],
+            steps: [
+              { reasoning: "$40-3=37$.", working: "4\\times10-3=37", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** $37$",
+            commonErrors: ["Choosing (b) — forgetting the $-3$ adjustment."],
+          },
+        },
+        {
+          id: "cilm-u3-seq-q10",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "The nth term of a sequence is $4n - 2$. Find the 7th term.",
+          response: { type: "numeric", parts: [{ label: "Answer", answer: 26 }] },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Using nth term", statement: "Substitute $n=7$: $4(7)-2=26$." },
+            ],
+            steps: [
+              { reasoning: "$28-2=26$.", working: "4\\times7-2=26", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$26$",
+            commonErrors: ["$30$ — computing $4(7+2)$ or forgetting the $-2$."],
+          },
+        },
+        {
+          id: "cilm-u3-seq-q11",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "The nth term of a sequence is $5n + 3$. (a) Find the 4th term. (b) Which term position gives $38$?",
+          response: { type: "numeric", parts: [{ label: "(a)", answer: 23 }, { label: "(b)", answer: 7 }] },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Using nth term", statement: "Substitute for terms; solve $5n+3=38$." },
+            ],
+            steps: [
+              { reasoning: "(a) $5(4)+3=23$.", working: "5\\times4+3=23", marks: 1, markCode: "A" },
+              { reasoning: "(b) $5n+3=38$ → $5n=35$ → $n=7$.", working: "n=7", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "(a) $23$ (b) $7$th term",
+            commonErrors: ["In (b) answering $38$ — the position $n$ is asked, not the term value."],
+          },
+        },
+        {
+          id: "cilm-u3-seq-q12",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "The nth term of a sequence is $4n - 1$. Determine whether $63$ appears in the sequence, and if so give its position.",
+          response: { type: "numeric", parts: [{ label: "Position", answer: 16 }] },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Using nth term", statement: "Solve $4n-1=63$ and check $n$ is a positive integer." },
+            ],
+            steps: [
+              { reasoning: "$4n-1=63$ → $4n=64$ → $n=16$ — a positive integer, so yes.", working: "n=16", marks: 1, markCode: "M" },
+              { reasoning: "$63$ is the $16$th term.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "Yes — $63$ is the $16$th term",
+            commonErrors: ["Not checking $n$ is whole — non-integer $n$ means the value isn't in the sequence."],
+          },
+        },
+        {
+          id: "cilm-u3-seq-q13",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "Find the nth term of $12, 17, 22, 27, \\ldots$ and hence find the 30th term.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "nth term", statement: "Difference $5$ → $5n+c$; use $n=1$ to find $c$." },
+            ],
+            steps: [
+              { reasoning: "Difference $=5$; first term $5+c=12$ → $c=7$; nth term $=5n+7$.", working: "5n+7", marks: 1, markCode: "M" },
+              { reasoning: "Check $n=2$: $5(2)+7=17$ ✓.", working: "17", marks: 1, markCode: "M" },
+              { reasoning: "30th term: $5(30)+7=157$.", working: "5\\times30+7=157", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "nth term $=5n+7$; 30th term $=157$",
+            commonErrors: ["$5n+12$ — adjustment found from $n=1$: $5+c=12$ gives $c=7$."],
+          },
+        },
+        {
+          id: "cilm-u3-seq-q14",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "The nth term of a sequence is $6n - 4$. Find the 12th term and determine whether $50$ appears in the sequence.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Using nth term", statement: "Substitute for terms; solve and check $n$ is a positive integer." },
+            ],
+            steps: [
+              { reasoning: "12th term: $6(12)-4=72-4=68$.", working: "68", marks: 1, markCode: "M" },
+              { reasoning: "$6n-4=50$ → $6n=54$ → $n=9$ — positive integer, so yes.", working: "n=9", marks: 1, markCode: "M" },
+              { reasoning: "Answers: $68$; yes, $50$ is the 9th term.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "12th term $=68$; $50$ is the 9th term",
+            commonErrors: ["$6n-4=50$ → $n=9$ — forgetting to verify it's a whole number."],
+          },
+        },
+        {
+          id: "cilm-u3-seq-q15",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "A sequence has nth term $3n - 1$. Which term in the sequence has value $59$?",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Using nth term", statement: "Set $3n-1=59$ and solve for $n$." },
+            ],
+            steps: [
+              { reasoning: "$3n-1=59$ → $3n=60$ → $n=20$.", working: "n=20", marks: 1, markCode: "M" },
+              { reasoning: "$n=20$ is a positive integer — valid term position.", marks: 1, markCode: "M" },
+              { reasoning: "Check: $3(20)-1=59$ ✓.", working: "3\\times20-1=59", marks: 1, markCode: "M" },
+              { reasoning: "Answer: the $20$th term.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "The $20$th term",
+            commonErrors: ["Answering $59$ — the question asks for the position, not the value."],
+          },
+        },
+        {
+          id: "cilm-u3-seq-q16",
+          difficulty: "challenge",
+          totalMarks: 8,
+          stem: "Consider the sequence $7, 11, 15, 19, \\ldots$",
+          parts: [
+            { label: "a", prompt: "Find the nth term.", marks: 2 },
+            { label: "b", prompt: "Find the 25th term.", marks: 2 },
+            { label: "c", prompt: "Determine whether $87$ appears in the sequence.", marks: 2 },
+            { label: "d", prompt: "Explain how you checked your answer to (c).", marks: 2 },
+          ],
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Sequence analysis", statement: "nth term → substitute → solve for membership." },
+            ],
+            steps: [
+              { part: "a", reasoning: "Difference $=4$; first term $4+c=7$ → $c=3$; nth term $=4n+3$.", working: "4n+3", marks: 1, markCode: "M" },
+              { part: "a", reasoning: "Correct.", marks: 1, markCode: "A" },
+              { part: "b", reasoning: "$4(25)+3=103$.", working: "4\\times25+3=103", marks: 1, markCode: "M" },
+              { part: "b", reasoning: "Correct.", marks: 1, markCode: "A" },
+              { part: "c", reasoning: "$4n+3=87$ → $4n=84$ → $n=21$ — positive integer, so yes.", working: "n=21", marks: 1, markCode: "M" },
+              { part: "c", reasoning: "Yes, $87$ is the 21st term.", marks: 1, markCode: "A" },
+              { part: "d", reasoning: "Solved $4n+3=87$ to get $n=21$; verified $n$ is a positive integer and substituted back.", working: "n=21 \\text{ whole}", marks: 1, markCode: "M" },
+              { part: "d", reasoning: "Clear explanation.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "(a) $4n+3$ (b) $103$ (c) Yes, 21st term (d) solved for $n$ and verified integer",
+            levels: [
+              { level: "Level 2", marks: "1-2", descriptor: "nth term correct.", part: "a" },
+              { level: "Level 1", marks: "0", descriptor: "Wrong.", part: "a" },
+              { level: "Level 2", marks: "1-2", descriptor: "25th term correct.", part: "b" },
+              { level: "Level 1", marks: "0", descriptor: "Wrong.", part: "b" },
+              { level: "Level 2", marks: "1-2", descriptor: "Membership correct.", part: "c" },
+              { level: "Level 1", marks: "0", descriptor: "Wrong.", part: "c" },
+              { level: "Level 2", marks: "1-2", descriptor: "Check explained.", part: "d" },
+              { level: "Level 1", marks: "0", descriptor: "Vague.", part: "d" },
+            ],
+            commonErrors: ["In (c) saying 'no' without solving for $n$ — must check if $n$ is a positive integer."],
+          },
+        },
       ],
     },
     {
@@ -187,9 +468,9 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$36$" },
-              { id: "b", text: "$40$" },
-              { id: "c", text: "$32$" },
-              { id: "d", text: "$24$" },
+              { id: "b", text: "$24$" },
+              { id: "c", text: "$40$" },
+              { id: "d", text: "$32$" },
             ],
             correctChoiceId: "a",
           },
@@ -281,6 +562,287 @@ export const lesson33: Lesson = {
               { level: "Level 1", marks: "0", descriptor: "Wrong.", part: "d" },
             ],
             commonErrors: ["In (d) summing 1 to 10 instead of 10 down to 5."],
+          },
+        },
+        {
+          id: "cilm-u3-sa-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Liam saves $\\pounds5$ in week 1 and adds $\\pounds3$ each week. How much has he saved after 4 weeks?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$\\pounds17$" },
+              { id: "b", text: "$\\pounds14$" },
+              { id: "c", text: "$\\pounds20$" },
+              { id: "d", text: "$\\pounds12$" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Sequence application", statement: "Saves: $5, 8, 11, 14$ — nth term $=3n+2$." },
+            ],
+            steps: [
+              { reasoning: "Week 4: $5+3(4-1)=5+9=14$.", working: "5+9=14", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** $\\pounds14$",
+            commonErrors: ["Choosing (b) — $5+3\\times4=17$ forgets week 1 already has the first $\\pounds5$."],
+          },
+        },
+        {
+          id: "cilm-u3-sa-q6",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "A theatre's first row has $4$ seats, and each row has $2$ more than the row before. How many seats are in row $5$?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$16$" },
+              { id: "b", text: "$14$" },
+              { id: "c", text: "$10$" },
+              { id: "d", text: "$12$" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Sequence application", statement: "Row $n$ has $4+2(n-1)=2n+2$ seats." },
+            ],
+            steps: [
+              { reasoning: "Row 5: $4+2(5-1)=4+8=12$.", working: "4+8=12", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** $12$",
+            commonErrors: ["Choosing (b) — $4+2\\times5=14$ off-by-one error."],
+          },
+        },
+        {
+          id: "cilm-u3-sa-q7",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Blocks are stacked in layers: layer 1 has $5$ blocks, and each layer has $4$ more than the one below. How many blocks are in layer $6$?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$24$" },
+              { id: "b", text: "$25$" },
+              { id: "c", text: "$21$" },
+              { id: "d", text: "$29$" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Sequence application", statement: "Layer $n$: $5+4(n-1)$; layer 6 $=5+20=25$." },
+            ],
+            steps: [
+              { reasoning: "$5+4(6-1)=5+20=25$.", working: "5+20=25", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** $25$",
+            commonErrors: ["Choosing (b) — $5+4\\times6=29$ counts the first layer twice."],
+          },
+        },
+        {
+          id: "cilm-u3-sa-q8",
+          difficulty: "challenge",
+          totalMarks: 1,
+          stem: "Maya saves $\\pounds10$ in month 1 and adds $\\pounds7$ each month. How much has she saved after 6 months?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$\\pounds40$" },
+              { id: "b", text: "$\\pounds45$" },
+              { id: "c", text: "$\\pounds47$" },
+              { id: "d", text: "$\\pounds52$" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Sequence application", statement: "nth term $=7n+3$; month 6: $7(6)+3=45$." },
+            ],
+            steps: [
+              { reasoning: "$10+7(6-1)=10+35=45$.", working: "10+35=45", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** $\\pounds45$",
+            commonErrors: ["Choosing (d) — $10+7\\times6-7=45$; check via nth term."],
+          },
+        },
+        {
+          id: "cilm-u3-sa-q9",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "A cinema's front row has $15$ seats, and each row behind has $3$ more seats than the row in front. How many seats are in row $8$?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$39$" },
+              { id: "b", text: "$33$" },
+              { id: "c", text: "$36$" },
+              { id: "d", text: "$24$" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Sequence application", statement: "Row $n$: $15+3(n-1)$; row 8 $=15+21=36$." },
+            ],
+            steps: [
+              { reasoning: "$15+3(8-1)=15+21=36$.", working: "15+21=36", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** $36$",
+            commonErrors: ["Choosing (b) — $15+3\\times8=39$ off-by-one."],
+          },
+        },
+        {
+          id: "cilm-u3-sa-q10",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "A dot pattern follows the nth term $4n + 1$. How many dots are in the 10th row?",
+          response: { type: "numeric", parts: [{ label: "Answer", answer: 41 }] },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Using nth term", statement: "Substitute $n=10$: $4(10)+1=41$." },
+            ],
+            steps: [
+              { reasoning: "$40+1=41$.", working: "4\\times10+1=41", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$41$ dots",
+            commonErrors: ["$44$ — forgetting the $+1$ adjustment."],
+          },
+        },
+        {
+          id: "cilm-u3-sa-q11",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "A sequence starts at $20$ and increases by $5$ each term. (a) Write the nth term. (b) Find the 6th term.",
+          response: { type: "numeric", parts: [{ label: "(b)", answer: 45 }] },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Context to formula", statement: "First term 20, difference 5 → $5n+15$; 6th term $=45$." },
+            ],
+            steps: [
+              { reasoning: "(a) nth term $=5n+15$ (check: $5+15=20$ ✓).", working: "5n+15", marks: 1, markCode: "M" },
+              { reasoning: "(b) $5(6)+15=45$.", working: "5\\times6+15=45", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "(a) $5n+15$ (b) $45$",
+            commonErrors: ["$5n+20$ — adjustment from $n=1$: $5+c=20$ gives $c=15$."],
+          },
+        },
+        {
+          id: "cilm-u3-sa-q12",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "A plant is $10$ cm tall and grows $3$ cm each week. How tall is it after $8$ weeks?",
+          response: { type: "numeric", parts: [{ label: "Answer", answer: 34, unit: "cm" }] },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Linear modelling", statement: "Height $=10+3\\times8=34$ cm." },
+            ],
+            steps: [
+              { reasoning: "$10+3(8)=10+24=34$ cm.", working: "10+24=34", marks: 1, markCode: "M" },
+              { reasoning: "Correct.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$34$ cm",
+            commonErrors: ["$3\\times8=24$ — forgetting the initial $10$ cm."],
+          },
+        },
+        {
+          id: "cilm-u3-sa-q13",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "Ben saves $\\pounds25$ in his first month and adds $\\pounds10$ each month after that. How much has he saved after $12$ months?",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Sequence modelling", statement: "First term 25, difference 10 → nth term $=10n+15$." },
+            ],
+            steps: [
+              { reasoning: "nth term $=10n+15$ (check $n=1$: $25$ ✓).", working: "10n+15", marks: 1, markCode: "M" },
+              { reasoning: "Month 12: $10(12)+15=120+15=135$.", working: "10\\times12+15=135", marks: 1, markCode: "M" },
+              { reasoning: "Answer: $\\pounds135$.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$\\pounds135$",
+            commonErrors: ["$25+10\\times12=145$ — month 1 is already included; use $n-1$ additions or nth term."],
+          },
+        },
+        {
+          id: "cilm-u3-sa-q14",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "A cinema's front row has $18$ seats, and each row behind has $2$ more seats. How many seats are in row $12$?",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Sequence application", statement: "Row $n$: $18+2(n-1)$; row 12 $=18+22=40$." },
+            ],
+            steps: [
+              { reasoning: "Row 12: $18+2(12-1)=18+22$.", working: "18+22", marks: 1, markCode: "M" },
+              { reasoning: "$=40$ seats.", marks: 1, markCode: "M" },
+              { reasoning: "Answer: $40$ seats.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$40$ seats",
+            commonErrors: ["$42$ — $18+2\\times12$ off-by-one."],
+          },
+        },
+        {
+          id: "cilm-u3-sa-q15",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "A stack of logs has $12$ logs in the bottom row, and each row above has $1$ fewer log. How many complete rows can be stacked?",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Sequence modelling", statement: "nth term $=13-n$; find where it reaches 0." },
+            ],
+            steps: [
+              { reasoning: "nth term $=12-(n-1)=13-n$.", working: "13-n", marks: 1, markCode: "M" },
+              { reasoning: "$13-n=0$ → $n=13$; row 13 would be empty, so $12$ complete rows.", working: "n=13", marks: 1, markCode: "M" },
+              { reasoning: "Rows: $12, 11, \\ldots, 1$ — that's $12$ rows.", working: "12 \\text{ rows}", marks: 1, markCode: "M" },
+              { reasoning: "Answer: $12$ complete rows.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$12$ complete rows",
+            commonErrors: ["Answering $13$ — row 13 has 0 logs, so only 12 are complete."],
+          },
+        },
+        {
+          id: "cilm-u3-sa-q16",
+          difficulty: "challenge",
+          totalMarks: 8,
+          stem: "A stadium had $15\\,000$ seats in 2020 and adds $800$ seats each year.",
+          parts: [
+            { label: "a", prompt: "How many seats will it have in 2025?", marks: 2 },
+            { label: "b", prompt: "Write an expression for seats $n$ years after 2020.", marks: 2 },
+            { label: "c", prompt: "In which year will it reach $19\\,000$ seats?", marks: 2 },
+            { label: "d", prompt: "Give one reason why this sequence model might stop being accurate.", marks: 2 },
+          ],
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Linear modelling", statement: "First term 15000, difference 800 → $800n+15000$; solve for target." },
+            ],
+            steps: [
+              { part: "a", reasoning: "$15000+5(800)=15000+4000=19\\,000$ seats.", working: "15000+4000=19000", marks: 1, markCode: "M" },
+              { part: "a", reasoning: "Correct.", marks: 1, markCode: "A" },
+              { part: "b", reasoning: "Seats $=15000+800n$ where $n$ = years after 2020.", working: "15000+800n", marks: 1, markCode: "M" },
+              { part: "b", reasoning: "Correct expression.", marks: 1, markCode: "A" },
+              { part: "c", reasoning: "$19000=15000+800n$ → $800n=4000$ → $n=5$ → year 2025.", working: "n=5", marks: 1, markCode: "M" },
+              { part: "c", reasoning: "Correct year.", marks: 1, markCode: "A" },
+              { part: "d", reasoning: "e.g. stadium capacity limit, building restrictions, or demand changes — model assumes constant +800/year forever.", working: "\\text{capacity/rules}", marks: 1, markCode: "M" },
+              { part: "d", reasoning: "Valid limitation stated.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "(a) $19\\,000$ (b) $15000+800n$ (c) 2025 (d) capacity limits / changing plans",
+            levels: [
+              { level: "Level 2", marks: "1-2", descriptor: "Seats correct.", part: "a" },
+              { level: "Level 1", marks: "0", descriptor: "Wrong.", part: "a" },
+              { level: "Level 2", marks: "1-2", descriptor: "Expression correct.", part: "b" },
+              { level: "Level 1", marks: "0", descriptor: "Wrong.", part: "b" },
+              { level: "Level 2", marks: "1-2", descriptor: "Year correct.", part: "c" },
+              { level: "Level 1", marks: "0", descriptor: "Wrong.", part: "c" },
+              { level: "Level 2", marks: "1-2", descriptor: "Limitation stated.", part: "d" },
+              { level: "Level 1", marks: "0", descriptor: "Missing.", part: "d" },
+            ],
+            commonErrors: ["In (c) counting 2020 as year 1 — $n=5$ means 2025."],
           },
         },
       ],

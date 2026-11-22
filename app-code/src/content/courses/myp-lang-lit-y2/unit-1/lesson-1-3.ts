@@ -59,11 +59,11 @@ export const lesson13: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Your personal feelings with no reason" },
-              { id: "b", text: "Details or quotations from the text that support your point" },
-              { id: "c", text: "The author's biography" },
+              { id: "b", text: "The author's biography" },
+              { id: "c", text: "Details or quotations from the text that support your point" },
               { id: "d", text: "A summary of the whole story" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -189,8 +189,8 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Both" },
-              { id: "b", text: "Similarly" },
+              { id: "a", text: "Similarly" },
+              { id: "b", text: "Both" },
               { id: "c", text: "Whereas" },
               { id: "d", text: "And" },
             ],

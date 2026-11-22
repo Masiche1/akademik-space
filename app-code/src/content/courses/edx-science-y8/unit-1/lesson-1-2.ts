@@ -50,12 +50,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Cell, tissue, organ, organ system" },
-              { id: "b", text: "Tissue, cell, organ, organ system" },
+              { id: "a", text: "Organ system, organ, tissue, cell" },
+              { id: "b", text: "Cell, tissue, organ, organ system" },
               { id: "c", text: "Cell, organ, tissue, organ system" },
-              { id: "d", text: "Organ system, organ, tissue, cell" },
+              { id: "d", text: "Tissue, cell, organ, organ system" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -179,12 +179,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The movement of particles from a low concentration to a high concentration" },
-              { id: "b", text: "The net movement of particles from a high concentration to a low concentration" },
-              { id: "c", text: "The movement of water through a membrane only" },
-              { id: "d", text: "The movement of particles that always needs energy from respiration" },
+              { id: "a", text: "The net movement of particles from a high concentration to a low concentration" },
+              { id: "b", text: "The movement of particles that always needs energy from respiration" },
+              { id: "c", text: "The movement of particles from a low concentration to a high concentration" },
+              { id: "d", text: "The movement of water through a membrane only" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

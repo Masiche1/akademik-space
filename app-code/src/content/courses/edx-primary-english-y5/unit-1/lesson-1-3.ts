@@ -59,12 +59,12 @@ export const lesson103: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Good luck" },
+              { id: "a", text: "Be careful" },
               { id: "b", text: "Fall down" },
-              { id: "c", text: "Be careful" },
+              { id: "c", text: "Good luck" },
               { id: "d", text: "Get injured" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -93,12 +93,12 @@ export const lesson103: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Delicious food" },
-              { id: "b", text: "Very easy" },
+              { id: "a", text: "Very easy" },
+              { id: "b", text: "Delicious food" },
               { id: "c", text: "A dessert" },
               { id: "d", text: "Hard task" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -232,12 +232,12 @@ export const lesson103: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "He is a lion" },
-              { id: "b", text: "He is as brave as a lion" },
-              { id: "c", text: "The lion roared" },
-              { id: "d", text: "Lions are brave" },
+              { id: "a", text: "Lions are brave" },
+              { id: "b", text: "The lion roared" },
+              { id: "c", text: "He is a lion" },
+              { id: "d", text: "He is as brave as a lion" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -262,12 +262,12 @@ export const lesson103: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "as cold as ice" },
-              { id: "b", text: "like a frozen statue" },
-              { id: "c", text: "Her eyes were ice" },
-              { id: "d", text: "cold as ice" },
+              { id: "a", text: "like a frozen statue" },
+              { id: "b", text: "cold as ice" },
+              { id: "c", text: "as cold as ice" },
+              { id: "d", text: "Her eyes were ice" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [

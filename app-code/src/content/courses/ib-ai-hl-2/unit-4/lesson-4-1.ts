@@ -55,12 +55,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "7" },
-              { id: "b", text: "14" },
-              { id: "c", text: "21" },
-              { id: "d", text: "49" },
+              { id: "a", text: "21" },
+              { id: "b", text: "7" },
+              { id: "c", text: "49" },
+              { id: "d", text: "14" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "theorem", name: "Handshaking lemma", statement: "The sum of the degrees equals twice the number of edges." }],
@@ -159,12 +159,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$A=4$, $B=2$, $C=2$" },
+              { id: "a", text: "$A=4$, $B=3$, $C=3$" },
               { id: "b", text: "$A=3$, $B=2$, $C=2$" },
               { id: "c", text: "$A=2$, $B=2$, $C=2$" },
-              { id: "d", text: "$A=4$, $B=3$, $C=3$" },
+              { id: "d", text: "$A=4$, $B=2$, $C=2$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Degree", statement: "The number of edges meeting at a vertex; a loop counts twice." }],
@@ -182,12 +182,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It has an Eulerian trail but not an Eulerian circuit" },
-              { id: "b", text: "It has an Eulerian circuit" },
-              { id: "c", text: "It has neither an Eulerian circuit nor an Eulerian trail" },
-              { id: "d", text: "It has exactly two vertices of odd degree" },
+              { id: "a", text: "It has exactly two vertices of odd degree" },
+              { id: "b", text: "It has an Eulerian trail but not an Eulerian circuit" },
+              { id: "c", text: "It has an Eulerian circuit" },
+              { id: "d", text: "It has neither an Eulerian circuit nor an Eulerian trail" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "theorem", name: "Eulerian circuit", statement: "A connected graph has an Eulerian circuit if and only if every vertex has even degree." }],
@@ -205,12 +205,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It has an Eulerian circuit" },
-              { id: "b", text: "It has an Eulerian trail which starts and ends at the two odd-degree vertices" },
-              { id: "c", text: "It has neither an Eulerian circuit nor an Eulerian trail" },
-              { id: "d", text: "It has an Eulerian trail which may start at any vertex" },
+              { id: "a", text: "It has neither an Eulerian circuit nor an Eulerian trail" },
+              { id: "b", text: "It has an Eulerian trail which may start at any vertex" },
+              { id: "c", text: "It has an Eulerian circuit" },
+              { id: "d", text: "It has an Eulerian trail which starts and ends at the two odd-degree vertices" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "theorem", name: "Eulerian trail", statement: "A connected graph has an Eulerian trail if and only if exactly two vertices have odd degree; the trail runs between them." }],
@@ -280,9 +280,9 @@ export const lesson41: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$P \\to Q \\to R \\to S \\to P$" },
-              { id: "b", text: "$P \\to Q \\to R \\to P \\to S \\to P$" },
-              { id: "c", text: "$P \\to R \\to Q \\to S \\to P$" },
-              { id: "d", text: "$P \\to Q \\to S \\to R \\to P$" },
+              { id: "b", text: "$P \\to Q \\to S \\to R \\to P$" },
+              { id: "c", text: "$P \\to Q \\to R \\to P \\to S \\to P$" },
+              { id: "d", text: "$P \\to R \\to Q \\to S \\to P$" },
             ],
             correctChoiceId: "a",
           },
@@ -347,12 +347,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It has an Eulerian circuit" },
-              { id: "b", text: "It has an Eulerian trail but no Eulerian circuit" },
-              { id: "c", text: "It has neither an Eulerian circuit nor an Eulerian trail" },
-              { id: "d", text: "It has both an Eulerian circuit and an Eulerian trail" },
+              { id: "a", text: "It has an Eulerian trail but no Eulerian circuit" },
+              { id: "b", text: "It has neither an Eulerian circuit nor an Eulerian trail" },
+              { id: "c", text: "It has both an Eulerian circuit and an Eulerian trail" },
+              { id: "d", text: "It has an Eulerian circuit" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "theorem", name: "Eulerian circuit and trail", statement: "A circuit needs all even degrees; a trail needs exactly two odd degrees." }],
@@ -406,12 +406,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Exactly two vertices have odd degree" },
-              { id: "b", text: "Every vertex has even degree" },
+              { id: "a", text: "Every vertex has even degree" },
+              { id: "b", text: "The graph has an odd number of edges" },
               { id: "c", text: "The graph has a Hamiltonian cycle" },
-              { id: "d", text: "The graph has an odd number of edges" },
+              { id: "d", text: "Exactly two vertices have odd degree" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "theorem", name: "Eulerian circuit", statement: "A connected graph has an Eulerian circuit if and only if every vertex has even degree." }],
@@ -528,12 +528,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The number of edges between $i$ and $j$ cubed" },
-              { id: "b", text: "The number of walks of length 3 from $i$ to $j$" },
-              { id: "c", text: "The number of walks of length 3 from $i$ to $j$ that do not repeat a vertex" },
+              { id: "a", text: "The number of walks of length 3 from $i$ to $j$" },
+              { id: "b", text: "The number of walks of length 3 from $i$ to $j$ that do not repeat a vertex" },
+              { id: "c", text: "The number of edges between $i$ and $j$ cubed" },
               { id: "d", text: "The shortest distance from $i$ to $j$ in three steps" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "theorem", name: "Walks and matrix powers", statement: "$(M^k)_{ij}$ is the number of walks of length $k$ from vertex $i$ to vertex $j$." }],
@@ -631,12 +631,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "1" },
-              { id: "b", text: "The degree of vertex $i$" },
-              { id: "c", text: "0" },
-              { id: "d", text: "The number of vertices adjacent to $i$" },
+              { id: "a", text: "The number of vertices adjacent to $i$" },
+              { id: "b", text: "1" },
+              { id: "c", text: "The degree of vertex $i$" },
+              { id: "d", text: "0" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Adjacency matrix", statement: "Entry $m_{ij}$ is the number of edges between vertices $i$ and $j$; there is no edge from a vertex to itself." }],
@@ -654,12 +654,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$M$ is symmetric" },
-              { id: "b", text: "Every row of $M$ sums to 1" },
+              { id: "a", text: "Every row of $M$ sums to 1" },
+              { id: "b", text: "Every column of $M$ sums to the number of vertices" },
               { id: "c", text: "$M$ is the zero matrix" },
-              { id: "d", text: "Every column of $M$ sums to the number of vertices" },
+              { id: "d", text: "$M$ is symmetric" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Adjacency matrix", statement: "For an undirected graph, $m_{ij}=m_{ji}$ because each edge joins two vertices." }],
@@ -677,12 +677,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The number of edges between $i$ and $j$" },
-              { id: "b", text: "The number of walks of length 2 from $i$ to $j$" },
-              { id: "c", text: "The number of walks of length 2 from $j$ to $i$ that repeat no vertex" },
-              { id: "d", text: "The shortest distance from $i$ to $j$" },
+              { id: "a", text: "The number of walks of length 2 from $j$ to $i$ that repeat no vertex" },
+              { id: "b", text: "The shortest distance from $i$ to $j$" },
+              { id: "c", text: "The number of walks of length 2 from $i$ to $j$" },
+              { id: "d", text: "The number of edges between $i$ and $j$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "theorem", name: "Walks and matrix powers", statement: "$(M^k)_{ij}$ is the number of walks of length $k$ from $i$ to $j$, including walks that repeat vertices." }],
@@ -782,9 +782,9 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Each row of $T$ sums to 1" },
+              { id: "a", text: "Every entry of $T$ equals $\\frac{1}{n}$ where $n$ is the number of vertices" },
               { id: "b", text: "Each column of $T$ sums to 1" },
-              { id: "c", text: "Every entry of $T$ equals $\\frac{1}{n}$ where $n$ is the number of vertices" },
+              { id: "c", text: "Each row of $T$ sums to 1" },
               { id: "d", text: "$T$ is always symmetric" },
             ],
             correctChoiceId: "b",
@@ -838,12 +838,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The probability of being at vertex $i$ after 3 steps, given the walk started at vertex $j$" },
+              { id: "a", text: "The number of walks of length 3 from $i$ to $j$" },
               { id: "b", text: "The probability of moving from $i$ to $j$ in 3 steps regardless of the starting vertex" },
-              { id: "c", text: "The number of walks of length 3 from $i$ to $j$" },
+              { id: "c", text: "The probability of being at vertex $i$ after 3 steps, given the walk started at vertex $j$" },
               { id: "d", text: "The probability of being at vertex $j$ after 3 steps starting at $i$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "State vector", statement: "$\\boldsymbol{s}_n=T^n\\boldsymbol{s}_0$; column $j$ of $T^n$ gives probabilities starting from vertex $j$." }],

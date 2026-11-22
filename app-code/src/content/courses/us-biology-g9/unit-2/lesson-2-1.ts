@@ -55,11 +55,11 @@ export const lesson21: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "The stroma" },
-              { id: "b", text: "The thylakoid membranes" },
-              { id: "c", text: "The inner membrane of the mitochondrion" },
+              { id: "b", text: "The inner membrane of the mitochondrion" },
+              { id: "c", text: "The thylakoid membranes" },
               { id: "d", text: "The cell wall" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -188,11 +188,11 @@ export const lesson21: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Light intensity is still the limiting factor" },
-              { id: "b", text: "Photosynthesis has stopped" },
-              { id: "c", text: "Another factor, such as carbon dioxide or temperature, is now limiting" },
+              { id: "b", text: "Another factor, such as carbon dioxide or temperature, is now limiting" },
+              { id: "c", text: "Photosynthesis has stopped" },
               { id: "d", text: "The chlorophyll has been destroyed by the light" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [

@@ -52,12 +52,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Random order" },
-              { id: "b", text: "The order they happened" },
+              { id: "a", text: "Reverse order" },
+              { id: "b", text: "Random order" },
               { id: "c", text: "Alphabetical order" },
-              { id: "d", text: "Reverse order" },
+              { id: "d", text: "The order they happened" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -78,12 +78,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Finally" },
-              { id: "b", text: "Then" },
-              { id: "c", text: "However" },
-              { id: "d", text: "Because" },
+              { id: "a", text: "Because" },
+              { id: "b", text: "However" },
+              { id: "c", text: "Then" },
+              { id: "d", text: "Finally" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -154,11 +154,11 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "A list of facts" },
-              { id: "b", text: "A story — real or made up — with characters and events" },
+              { id: "b", text: "A report about a topic" },
               { id: "c", text: "A set of instructions" },
-              { id: "d", text: "A report about a topic" },
+              { id: "d", text: "A story — real or made up — with characters and events" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -198,12 +198,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "First" },
-              { id: "b", text: "Then" },
-              { id: "c", text: "Finally" },
-              { id: "d", text: "Because" },
+              { id: "a", text: "Then" },
+              { id: "b", text: "Because" },
+              { id: "c", text: "First" },
+              { id: "d", text: "Finally" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -281,11 +281,11 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "'Once upon a time, a dragon ran a race.'" },
-              { id: "b", text: "'Last Tuesday our school held sports day.'" },
-              { id: "c", text: "'Step 1: Put on your running shoes.'" },
+              { id: "b", text: "'Step 1: Put on your running shoes.'" },
+              { id: "c", text: "'Last Tuesday our school held sports day.'" },
               { id: "d", text: "'Sports are fun.'" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -344,12 +344,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Only the title" },
-              { id: "b", text: "Characters, setting, a problem and beginning-middle-end" },
-              { id: "c", text: "A list of spellings" },
-              { id: "d", text: "The ending only" },
+              { id: "a", text: "The ending only" },
+              { id: "b", text: "A list of spellings" },
+              { id: "c", text: "Characters, setting, a problem and beginning-middle-end" },
+              { id: "d", text: "Only the title" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -371,11 +371,11 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "'Last Friday we went to the zoo.'" },
-              { id: "b", text: "'One rainy afternoon, Mia heard a small whimper outside her door.'" },
-              { id: "c", text: "'Step 1: Find the puppy.'" },
+              { id: "b", text: "'Step 1: Find the puppy.'" },
+              { id: "c", text: "'One rainy afternoon, Mia heard a small whimper outside her door.'" },
               { id: "d", text: "'Puppies are animals.'" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -452,11 +452,11 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "To tell a made-up story" },
-              { id: "b", text: "To give true facts about a topic" },
-              { id: "c", text: "To describe a personal feeling" },
-              { id: "d", text: "To write a letter to a friend" },
+              { id: "b", text: "To describe a personal feeling" },
+              { id: "c", text: "To write a letter to a friend" },
+              { id: "d", text: "To give true facts about a topic" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -477,12 +477,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "What penguins eat" },
-              { id: "b", text: "How penguins move" },
-              { id: "c", text: "Penguin babies" },
-              { id: "d", text: "Penguin history" },
+              { id: "a", text: "Penguin history" },
+              { id: "b", text: "What penguins eat" },
+              { id: "c", text: "How penguins move" },
+              { id: "d", text: "Penguin babies" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -552,12 +552,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Tell a made-up story" },
-              { id: "b", text: "Give true facts about a topic" },
+              { id: "a", text: "Give true facts about a topic" },
+              { id: "b", text: "List steps to follow" },
               { id: "c", text: "Describe a personal feeling" },
-              { id: "d", text: "List steps to follow" },
+              { id: "d", text: "Tell a made-up story" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -597,12 +597,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "What penguins eat" },
-              { id: "b", text: "Where penguins live" },
-              { id: "c", text: "Penguin babies" },
+              { id: "a", text: "Where penguins live" },
+              { id: "b", text: "Penguin babies" },
+              { id: "c", text: "What penguins eat" },
               { id: "d", text: "Penguin history" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -679,9 +679,9 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A title" },
+              { id: "a", text: "True facts" },
               { id: "b", text: "Headings" },
-              { id: "c", text: "True facts" },
+              { id: "c", text: "A title" },
               { id: "d", text: "An invented story problem" },
             ],
             correctChoiceId: "d",
@@ -743,12 +743,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Invent a story about the topic" },
-              { id: "b", text: "Find out the facts about the topic" },
-              { id: "c", text: "Write the ending first" },
-              { id: "d", text: "Draw a picture and stop" },
+              { id: "a", text: "Find out the facts about the topic" },
+              { id: "b", text: "Draw a picture and stop" },
+              { id: "c", text: "Invent a story about the topic" },
+              { id: "d", text: "Write the ending first" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -769,12 +769,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "'Once, a monkey king ruled the forest.'" },
-              { id: "b", text: "'Rainforests are warm, wet forests full of plants and animals.'" },
+              { id: "a", text: "'Rainforests are warm, wet forests full of plants and animals.'" },
+              { id: "b", text: "'Step 1: Plant a tree.'" },
               { id: "c", text: "'Dear Diary, I visited a rainforest.'" },
-              { id: "d", text: "'Step 1: Plant a tree.'" },
+              { id: "d", text: "'Once, a monkey king ruled the forest.'" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

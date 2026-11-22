@@ -57,12 +57,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "11" },
-              { id: "b", text: "13" },
-              { id: "c", text: "7" },
-              { id: "d", text: "12" },
+              { id: "a", text: "13" },
+              { id: "b", text: "12" },
+              { id: "c", text: "11" },
+              { id: "d", text: "7" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -84,12 +84,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$x\\ge3$" },
-              { id: "b", text: "$x>3$" },
-              { id: "c", text: "$x\\ge-3$" },
-              { id: "d", text: "All real $x$" },
+              { id: "a", text: "$x>3$" },
+              { id: "b", text: "$x\\ge-3$" },
+              { id: "c", text: "All real $x$" },
+              { id: "d", text: "$x\\ge3$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -112,12 +112,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$y=\\pm\\sqrt{x}$" },
-              { id: "b", text: "$y=x^2$" },
+              { id: "a", text: "$y=|x|$ and $y=-|x|$ together" },
+              { id: "b", text: "$y=\\pm\\sqrt{x}$" },
               { id: "c", text: "$x^2+y^2=25$" },
-              { id: "d", text: "$y=|x|$ and $y=-|x|$ together" },
+              { id: "d", text: "$y=x^2$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -172,12 +172,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "5" },
-              { id: "b", text: "8" },
-              { id: "c", text: "-1" },
-              { id: "d", text: "13" },
+              { id: "a", text: "8" },
+              { id: "b", text: "13" },
+              { id: "c", text: "5" },
+              { id: "d", text: "-1" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Function evaluation", statement: "$f(3)=3^2-4=5$." }],
@@ -205,12 +205,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$x\\ne-3$" },
+              { id: "a", text: "$x\\ne3$" },
               { id: "b", text: "$x>-3$" },
-              { id: "c", text: "$x\\ne3$" },
-              { id: "d", text: "All real $x$" },
+              { id: "c", text: "All real $x$" },
+              { id: "d", text: "$x\\ne-3$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Domain", statement: "Denominator cannot be zero: $x+3\\ne0$." }],
@@ -259,12 +259,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$y=2x-5$" },
-              { id: "b", text: "$y=\\pm\\sqrt{x}$" },
-              { id: "c", text: "$x^2+y^2=16$" },
+              { id: "a", text: "$y=\\pm\\sqrt{x}$" },
+              { id: "b", text: "$x^2+y^2=16$" },
+              { id: "c", text: "$y=2x-5$" },
               { id: "d", text: "The set of points $(1,2),(1,5),(2,3)$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Function", statement: "Each input must have exactly one output." }],
@@ -335,12 +335,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$y\\ge1$" },
-              { id: "b", text: "$y>1$" },
-              { id: "c", text: "All real $y$" },
-              { id: "d", text: "$y\\le1$" },
+              { id: "a", text: "All real $y$" },
+              { id: "b", text: "$y\\le1$" },
+              { id: "c", text: "$y\\ge1$" },
+              { id: "d", text: "$y>1$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "property", name: "Absolute value", statement: "$|x|\\ge0$, so $|x|+1\\ge1$." }],
@@ -422,12 +422,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "3" },
-              { id: "b", text: "4" },
-              { id: "c", text: "9" },
-              { id: "d", text: "1" },
+              { id: "a", text: "4" },
+              { id: "b", text: "1" },
+              { id: "c", text: "3" },
+              { id: "d", text: "9" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -449,12 +449,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$x=14$" },
-              { id: "b", text: "$x=10$" },
+              { id: "a", text: "$x=4$" },
+              { id: "b", text: "$x=14$" },
               { id: "c", text: "$x=7$" },
-              { id: "d", text: "$x=4$" },
+              { id: "d", text: "$x=10$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -477,12 +477,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$y=-\\frac{1}{3}x+\\frac{7}{3}$" },
-              { id: "b", text: "$y=-3x+13$" },
+              { id: "a", text: "$y=-3x+13$" },
+              { id: "b", text: "$y=-\\frac{1}{3}x+\\frac{13}{3}$" },
               { id: "c", text: "$y=\\frac{1}{3}x-\\frac{1}{3}$" },
-              { id: "d", text: "$y=-\\frac{1}{3}x+\\frac{13}{3}$" },
+              { id: "d", text: "$y=-\\frac{1}{3}x+\\frac{7}{3}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -537,12 +537,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "3" },
-              { id: "b", text: "9" },
+              { id: "a", text: "9" },
+              { id: "b", text: "13" },
               { id: "c", text: "\\frac13" },
-              { id: "d", text: "13" },
+              { id: "d", text: "3" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Gradient", statement: "$m=\\frac{11-2}{3-0}=\\frac93=3$." }],
@@ -570,12 +570,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$y=4x-5$" },
-              { id: "b", text: "$y=4x+11$" },
-              { id: "c", text: "$y=\\frac14x+\\frac52$" },
-              { id: "d", text: "$y=4x+3$" },
+              { id: "a", text: "$y=4x+11$" },
+              { id: "b", text: "$y=4x+3$" },
+              { id: "c", text: "$y=4x-5$" },
+              { id: "d", text: "$y=\\frac14x+\\frac52$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Point-slope", statement: "$y-3=4(x-2)$." }],
@@ -624,12 +624,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$y=3x+5$" },
+              { id: "a", text: "$y=-\\frac13x+5$" },
               { id: "b", text: "$y=3x-1$" },
-              { id: "c", text: "$y=-\\frac13x+5$" },
-              { id: "d", text: "$y=5x+3$" },
+              { id: "c", text: "$y=5x+3$" },
+              { id: "d", text: "$y=3x+5$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "property", name: "Parallel lines", statement: "Parallel lines have the same gradient." }],
@@ -700,12 +700,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\frac12$" },
-              { id: "b", text: "$-2$" },
-              { id: "c", text: "$-\\frac12$" },
-              { id: "d", text: "$2$" },
+              { id: "a", text: "$-\\frac12$" },
+              { id: "b", text: "$2$" },
+              { id: "c", text: "$-2$" },
+              { id: "d", text: "$\\frac12$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "property", name: "Perpendicular", statement: "Perpendicular gradients multiply to $-1$: $m_2=\\frac12$." }],

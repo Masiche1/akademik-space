@@ -75,12 +75,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The dog wagged its tail." },
-              { id: "b", text: "The dog wagged it's tail." },
+              { id: "a", text: "We cant wait for the trip." },
+              { id: "b", text: "The dog wagged its tail." },
               { id: "c", text: "The dogs wagged their tail's." },
-              { id: "d", text: "We cant wait for the trip." },
+              { id: "d", text: "The dog wagged it's tail." },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "convention", name: "Its / it's", statement: "Possessive 'its' has no apostrophe." }],
@@ -203,12 +203,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Although it was raining, we played outside." },
-              { id: "b", text: "We played outside." },
-              { id: "c", text: "It was raining, and we played outside." },
+              { id: "a", text: "It was raining, and we played outside." },
+              { id: "b", text: "Although it was raining, we played outside." },
+              { id: "c", text: "We played outside." },
               { id: "d", text: "Playing outside." },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Complex sentence", statement: "A main clause with a subordinate clause." }],

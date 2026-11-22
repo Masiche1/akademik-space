@@ -93,18 +93,18 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "Classifying species into taxonomic groups" },
               {
-                id: "a",
+                id: "b",
                 text: "Marking animals so they can be recognised later",
               },
               {
-                id: "b",
+                id: "c",
                 text: "Sampling a known area to estimate the density or population size of organisms",
               },
-              { id: "c", text: "Measuring the temperature of a habitat" },
-              { id: "d", text: "Classifying species into taxonomic groups" },
+              { id: "d", text: "Measuring the temperature of a habitat" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -140,12 +140,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "150" },
-              { id: "b", text: "600" },
-              { id: "c", text: "1800" },
-              { id: "d", text: "6000" },
+              { id: "a", text: "6000" },
+              { id: "b", text: "150" },
+              { id: "c", text: "600" },
+              { id: "d", text: "1800" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -188,7 +188,7 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Exponential growth is impossible in yeast" },
+              { id: "a", text: "Immigration balanced emigration exactly" },
               {
                 id: "b",
                 text: "The population reached carrying capacity as sugar and oxygen became limiting",
@@ -197,7 +197,7 @@ export const lesson43: Lesson = {
                 id: "c",
                 text: "All individuals stopped reproducing at the same time",
               },
-              { id: "d", text: "Immigration balanced emigration exactly" },
+              { id: "d", text: "Exponential growth is impossible in yeast" },
             ],
             correctChoiceId: "b",
           },
@@ -376,11 +376,11 @@ export const lesson43: Lesson = {
                 id: "b",
                 text: "A population is one species in an area; a community is all the populations of different species together",
               },
-              { id: "c", text: "They are identical terms" },
               {
-                id: "d",
+                id: "c",
                 text: "A population is a group of individuals; a community is a group of species",
               },
+              { id: "d", text: "They are identical terms" },
             ],
             correctChoiceId: "b",
           },
@@ -417,18 +417,18 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "The population has reached carrying capacity" },
               {
-                id: "a",
+                id: "b",
                 text: "Resources are limiting growth and the curve levels off",
               },
-              { id: "b", text: "The population has reached carrying capacity" },
+              { id: "c", text: "Birth rate equals death rate" },
               {
-                id: "c",
+                id: "d",
                 text: "Resources are abundant and the population grows at an accelerating rate",
               },
-              { id: "d", text: "Birth rate equals death rate" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -602,22 +602,22 @@ export const lesson43: Lesson = {
             choices: [
               {
                 id: "a",
-                text: "It guarantees that every individual in the habitat is counted",
+                text: "It is required by law for all ecological surveys",
               },
               {
                 id: "b",
-                text: "It prevents bias, so the sample is representative of the whole habitat",
+                text: "It guarantees that every individual in the habitat is counted",
               },
               {
                 id: "c",
-                text: "It makes counting faster than systematic placement",
+                text: "It prevents bias, so the sample is representative of the whole habitat",
               },
               {
                 id: "d",
-                text: "It is required by law for all ecological surveys",
+                text: "It makes counting faster than systematic placement",
               },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -712,9 +712,9 @@ export const lesson43: Lesson = {
                 id: "a",
                 text: "Birth rate, death rate, immigration and emigration",
               },
-              { id: "b", text: "Rainfall, sunlight and temperature only" },
+              { id: "b", text: "Body size and colour of individuals" },
               { id: "c", text: "The number of species in the community" },
-              { id: "d", text: "Body size and colour of individuals" },
+              { id: "d", text: "Rainfall, sunlight and temperature only" },
             ],
             correctChoiceId: "a",
           },
@@ -863,19 +863,19 @@ export const lesson43: Lesson = {
             choices: [
               {
                 id: "a",
-                text: "All individuals simultaneously stop reproducing",
-              },
-              {
-                id: "b",
                 text: "The birth rate equals the death rate because resources have become limiting",
               },
-              { id: "c", text: "Immigration exceeds emigration" },
+              { id: "b", text: "Immigration exceeds emigration" },
               {
-                id: "d",
+                id: "c",
                 text: "The population reaches its minimum possible size",
               },
+              {
+                id: "d",
+                text: "All individuals simultaneously stop reproducing",
+              },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -1129,9 +1129,9 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Tall trees" },
+              { id: "a", text: "Large herbivores" },
               { id: "b", text: "Lichens and mosses" },
-              { id: "c", text: "Large herbivores" },
+              { id: "c", text: "Tall trees" },
               { id: "d", text: "Top predators" },
             ],
             correctChoiceId: "b",
@@ -1171,7 +1171,7 @@ export const lesson43: Lesson = {
             choices: [
               {
                 id: "a",
-                text: "Because secondary succession involves no living organisms",
+                text: "Because the climax community is different in each case",
               },
               {
                 id: "b",
@@ -1179,11 +1179,11 @@ export const lesson43: Lesson = {
               },
               {
                 id: "c",
-                text: "Because secondary succession skips the pioneer stage entirely",
+                text: "Because secondary succession involves no living organisms",
               },
               {
                 id: "d",
-                text: "Because the climax community is different in each case",
+                text: "Because secondary succession skips the pioneer stage entirely",
               },
             ],
             correctChoiceId: "b",
@@ -1232,22 +1232,22 @@ export const lesson43: Lesson = {
             choices: [
               {
                 id: "a",
-                text: "Nitrate will fix atmospheric nitrogen and increase fish numbers directly",
-              },
-              {
-                id: "b",
-                text: "Algal blooms will fuelled by the nitrate; when algae die, decomposition depletes oxygen and fish may die",
-              },
-              {
-                id: "c",
                 text: "The lake will become more diverse because extra nutrients always help",
               },
               {
-                id: "d",
+                id: "b",
+                text: "Nitrate will fix atmospheric nitrogen and increase fish numbers directly",
+              },
+              {
+                id: "c",
                 text: "No effect, because nitrate is harmless in water",
               },
+              {
+                id: "d",
+                text: "Algal blooms will fuelled by the nitrate; when algae die, decomposition depletes oxygen and fish may die",
+              },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1422,21 +1422,21 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The first species to colonise bare rock" },
               {
-                id: "b",
+                id: "a",
                 text: "A stable, self-perpetuating community in which species composition has effectively stopped changing",
               },
               {
-                id: "c",
-                text: "Any community found immediately after a disturbance",
-              },
-              {
-                id: "d",
+                id: "b",
                 text: "The community containing the largest species present",
               },
+              { id: "c", text: "The first species to colonise bare rock" },
+              {
+                id: "d",
+                text: "Any community found immediately after a disturbance",
+              },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -1469,15 +1469,15 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Trees → shrubs → grasses → lichens" },
+              { id: "a", text: "Grasses → lichens → trees → shrubs" },
+              { id: "b", text: "Trees → shrubs → grasses → lichens" },
+              { id: "c", text: "Shrubs → trees → grasses → lichens" },
               {
-                id: "b",
+                id: "d",
                 text: "Lichens and mosses → grasses → shrubs → trees",
               },
-              { id: "c", text: "Grasses → lichens → trees → shrubs" },
-              { id: "d", text: "Shrubs → trees → grasses → lichens" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1654,14 +1654,14 @@ export const lesson43: Lesson = {
                 id: "a",
                 text: "Nitrogen gas is too abundant in the atmosphere",
               },
+              { id: "b", text: "Plants only require phosphorus, not nitrogen" },
               {
-                id: "b",
+                id: "c",
                 text: "The triple bond in $N_2$ is very stable, so the nitrogen must first be fixed into nitrates by bacteria or lightning",
               },
-              { id: "c", text: "Plants only require phosphorus, not nitrogen" },
               { id: "d", text: "Nitrogen gas is toxic to plant roots" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1752,12 +1752,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Nitrogen fixation" },
-              { id: "b", text: "Nitrification" },
-              { id: "c", text: "Denitrification" },
+              { id: "a", text: "Nitrification" },
+              { id: "b", text: "Denitrification" },
+              { id: "c", text: "Nitrogen fixation" },
               { id: "d", text: "Photosynthesis" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1894,14 +1894,14 @@ export const lesson43: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Planting deciduous trees in urban areas" },
+              { id: "b", text: "Creating protected nature reserves" },
               {
-                id: "b",
+                id: "c",
                 text: "Burning fossil fuels and applying synthetic fertilisers",
               },
-              { id: "c", text: "Creating protected nature reserves" },
               { id: "d", text: "Composting garden waste" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

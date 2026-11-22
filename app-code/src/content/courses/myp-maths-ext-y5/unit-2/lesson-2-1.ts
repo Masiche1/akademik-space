@@ -57,8 +57,8 @@ export const lesson21: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$y=\\frac{1}{x-3}+2$" },
-              { id: "b", text: "$y=\\frac{1}{x+3}+2$" },
-              { id: "c", text: "$y=\\frac{1}{x-3}-2$" },
+              { id: "b", text: "$y=\\frac{1}{x-3}-2$" },
+              { id: "c", text: "$y=\\frac{1}{x+3}+2$" },
               { id: "d", text: "$y=\\frac{1}{x+3}-2$" },
             ],
             correctChoiceId: "a",
@@ -83,12 +83,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$(-4,1)$" },
-              { id: "b", text: "$(4,1)$" },
+              { id: "a", text: "$(4,1)$" },
+              { id: "b", text: "$(4,-1)$" },
               { id: "c", text: "$(-4,-1)$" },
-              { id: "d", text: "$(4,-1)$" },
+              { id: "d", text: "$(-4,1)$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -112,8 +112,8 @@ export const lesson21: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Reflection of $y=\\sqrt{x}$ in $y$-axis, then translation 1 up; domain $x\\le0$, range $y\\ge1$" },
-              { id: "b", text: "Translation 1 right, reflection in $x$-axis; domain $x\\ge0$" },
-              { id: "c", text: "Reflection in $x$-axis and $y$-axis; domain all real" },
+              { id: "b", text: "Reflection in $x$-axis and $y$-axis; domain all real" },
+              { id: "c", text: "Translation 1 right, reflection in $x$-axis; domain $x\\ge0$" },
               { id: "d", text: "Same as parent but shifted 1 left" },
             ],
             correctChoiceId: "a",
@@ -172,12 +172,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$y=(x-3)^2$" },
-              { id: "b", text: "$y=(x+3)^2$" },
-              { id: "c", text: "$y=x^2+3$" },
-              { id: "d", text: "$y=x^2-3$" },
+              { id: "a", text: "$y=x^2-3$" },
+              { id: "b", text: "$y=x^2+3$" },
+              { id: "c", text: "$y=(x-3)^2$" },
+              { id: "d", text: "$y=(x+3)^2$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -216,12 +216,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Translate 1 left, stretch SF 2 parallel to $y$-axis, translate 3 down" },
-              { id: "b", text: "Translate 1 right, stretch SF 2, translate 3 up" },
-              { id: "c", text: "Stretch SF 2, translate 1 left, translate 3 down" },
-              { id: "d", text: "Reflect in $x$-axis, stretch SF 2, translate 1 left and 3 down" },
+              { id: "a", text: "Reflect in $x$-axis, stretch SF 2, translate 1 left and 3 down" },
+              { id: "b", text: "Stretch SF 2, translate 1 left, translate 3 down" },
+              { id: "c", text: "Translate 1 left, stretch SF 2 parallel to $y$-axis, translate 3 down" },
+              { id: "d", text: "Translate 1 right, stretch SF 2, translate 3 up" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -264,9 +264,9 @@ export const lesson21: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$y=-x^2+2$" },
-              { id: "b", text: "$y=(-x)^2+2=x^2+2$" },
-              { id: "c", text: "$y=-x^2-2$" },
-              { id: "d", text: "$y=-(x+2)^2$" },
+              { id: "b", text: "$y=-x^2-2$" },
+              { id: "c", text: "$y=-(x+2)^2$" },
+              { id: "d", text: "$y=(-x)^2+2=x^2+2$" },
             ],
             correctChoiceId: "a",
           },
@@ -381,12 +381,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Reflect in the $x$-axis, then translate 5 units up" },
-              { id: "b", text: "Reflect in the $y$-axis, then translate 5 units up" },
-              { id: "c", text: "Translate 5 units up only" },
-              { id: "d", text: "Reflect in the line $y=x$" },
+              { id: "a", text: "Translate 5 units up only" },
+              { id: "b", text: "Reflect in the line $y=x$" },
+              { id: "c", text: "Reflect in the $y$-axis, then translate 5 units up" },
+              { id: "d", text: "Reflect in the $x$-axis, then translate 5 units up" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -409,12 +409,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$(3,13)$" },
-              { id: "b", text: "$(3,10)$" },
+              { id: "a", text: "$(3,8)$" },
+              { id: "b", text: "$(3,13)$" },
               { id: "c", text: "$(1,13)$" },
-              { id: "d", text: "$(3,8)$" },
+              { id: "d", text: "$(3,10)$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -498,12 +498,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "5" },
-              { id: "b", text: "9" },
+              { id: "a", text: "9" },
+              { id: "b", text: "5" },
               { id: "c", text: "7" },
               { id: "d", text: "11" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -525,12 +525,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$f^{-1}(x)=2x+4$" },
-              { id: "b", text: "$f^{-1}(x)=2x-4$" },
-              { id: "c", text: "$f^{-1}(x)=\\frac{x+4}{2}$" },
-              { id: "d", text: "$f^{-1}(x)=\\frac{x}{2}+4$" },
+              { id: "a", text: "$f^{-1}(x)=\\frac{x+4}{2}$" },
+              { id: "b", text: "$f^{-1}(x)=\\frac{x}{2}+4$" },
+              { id: "c", text: "$f^{-1}(x)=2x-4$" },
+              { id: "d", text: "$f^{-1}(x)=2x+4$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -553,12 +553,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$f(g(x))=(\\sqrt{x+1})^2-1=x$ ✓ and $g(f(x))=\\sqrt{x^2-1+1}=x$ for $x\\ge0$ ✓" },
-              { id: "b", text: "They are inverses because both involve square roots." },
+              { id: "a", text: "Cannot verify without a calculator." },
+              { id: "b", text: "$f(g(x))=(\\sqrt{x+1})^2-1=x$ ✓ and $g(f(x))=\\sqrt{x^2-1+1}=x$ for $x\\ge0$ ✓" },
               { id: "c", text: "$f(g(x))=x^2+x$ — not equal to $x$." },
-              { id: "d", text: "Cannot verify without a calculator." },
+              { id: "d", text: "They are inverses because both involve square roots." },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -613,12 +613,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "14" },
-              { id: "b", text: "10" },
+              { id: "a", text: "11" },
+              { id: "b", text: "14" },
               { id: "c", text: "7" },
-              { id: "d", text: "11" },
+              { id: "d", text: "10" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -657,12 +657,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$2x^2+1$" },
-              { id: "b", text: "$(2x+1)^2$" },
-              { id: "c", text: "$2x^2+2x+1$" },
-              { id: "d", text: "$4x^2+1$" },
+              { id: "a", text: "$(2x+1)^2$" },
+              { id: "b", text: "$4x^2+1$" },
+              { id: "c", text: "$2x^2+1$" },
+              { id: "d", text: "$2x^2+2x+1$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -704,12 +704,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "All real $x$" },
-              { id: "b", text: "$x\\ge0$ only" },
-              { id: "c", text: "$x>0$ only" },
-              { id: "d", text: "$x\\ge1$ only" },
+              { id: "a", text: "$x\\ge0$ only" },
+              { id: "b", text: "All real $x$" },
+              { id: "c", text: "$x\\ge1$ only" },
+              { id: "d", text: "$x>0$ only" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -817,12 +817,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$f^{-1}(x)=3x-1$" },
-              { id: "b", text: "$f^{-1}(x)=3x+1$" },
-              { id: "c", text: "$f^{-1}(x)=\\frac{x-1}{3}$" },
-              { id: "d", text: "$f^{-1}(x)=\\frac{1}{3x+1}$" },
+              { id: "a", text: "$f^{-1}(x)=\\frac{x-1}{3}$" },
+              { id: "b", text: "$f^{-1}(x)=\\frac{1}{3x+1}$" },
+              { id: "c", text: "$f^{-1}(x)=3x+1$" },
+              { id: "d", text: "$f^{-1}(x)=3x-1$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -845,12 +845,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$x=-7$" },
-              { id: "b", text: "$x=7$" },
-              { id: "c", text: "$x=-3$" },
-              { id: "d", text: "$x=3$" },
+              { id: "a", text: "$x=-3$" },
+              { id: "b", text: "$x=-7$" },
+              { id: "c", text: "$x=3$" },
+              { id: "d", text: "$x=7$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [

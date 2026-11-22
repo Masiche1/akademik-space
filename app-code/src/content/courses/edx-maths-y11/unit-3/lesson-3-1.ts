@@ -53,12 +53,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$60$" },
-              { id: "b", text: "$75$" },
-              { id: "c", text: "$300$" },
-              { id: "d", text: "$15$" },
+              { id: "a", text: "$75$" },
+              { id: "b", text: "$300$" },
+              { id: "c", text: "$15$" },
+              { id: "d", text: "$60$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -196,12 +196,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$x = \\frac{y-5}{3}$" },
-              { id: "b", text: "$x = \\frac{y}{3} - 5$" },
-              { id: "c", text: "$x = \\frac{y+5}{3}$" },
-              { id: "d", text: "$x = 3(y-5)$" },
+              { id: "a", text: "$x = \\frac{y+5}{3}$" },
+              { id: "b", text: "$x = 3(y-5)$" },
+              { id: "c", text: "$x = \\frac{y-5}{3}$" },
+              { id: "d", text: "$x = \\frac{y}{3} - 5$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

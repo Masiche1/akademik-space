@@ -50,11 +50,11 @@ export const lesson41: Lesson = {
           totalMarks: 2,
           stem: "The function is $g(x)=3(x-2)^2-5$. Which statement correctly identifies its vertex and minimum value?",
           response: { type: "mcq", choices: [
-            { id: "a", text: "Vertex $(2,-5)$; minimum value $-5$" },
-            { id: "b", text: "Vertex $(-2,-5)$; minimum value $-5$" },
-            { id: "c", text: "Vertex $(2,5)$; maximum value $5$" },
+            { id: "a", text: "Vertex $(2,5)$; maximum value $5$" },
+            { id: "b", text: "Vertex $(2,-5)$; minimum value $-5$" },
+            { id: "c", text: "Vertex $(-2,-5)$; minimum value $-5$" },
             { id: "d", text: "Vertex $(-5,2)$; minimum value $2$" },
-          ], correctChoiceId: "a" },
+          ], correctChoiceId: "b" },
           markscheme: {
             principles: [
               { kind: "definition", name: "Vertex form", statement: "$a(x-h)^2+k$ has vertex $(h,k)$." },
@@ -194,9 +194,9 @@ export const lesson41: Lesson = {
           stem: "Expand $f(x)=2(x+3)^2-1$ into standard form. Which answer is correct?",
           response: { type: "mcq", choices: [
             { id: "a", text: "$2x^2+12x+17$" },
-            { id: "b", text: "$2x^2+6x+17$" },
+            { id: "b", text: "$2x^2-12x+17$" },
             { id: "c", text: "$2x^2+12x+7$" },
-            { id: "d", text: "$2x^2-12x+17$" },
+            { id: "d", text: "$2x^2+6x+17$" },
           ], correctChoiceId: "a" },
           markscheme: {
             principles: [

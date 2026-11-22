@@ -52,12 +52,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Identify the right-angled triangles in vertical and horizontal planes" },
-              { id: "b", text: "Apply the cosine rule immediately" },
-              { id: "c", text: "Use the area formula" },
-              { id: "d", text: "Guess the angle" },
+              { id: "a", text: "Use the area formula" },
+              { id: "b", text: "Guess the angle" },
+              { id: "c", text: "Identify the right-angled triangles in vertical and horizontal planes" },
+              { id: "d", text: "Apply the cosine rule immediately" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -142,6 +142,163 @@ export const lesson63: Lesson = {
             commonErrors: ["In (b) using $OA$ instead of half the side — the slant height meets the base at the midpoint of a side, not at $O$.", "In (c) using the slant height instead of height $VO$ and $OA$."],
             examinerNote: "Slant edge $VA=\\sqrt{VO^2+OA^2}=\\sqrt{81+72}=\\sqrt{153}\\approx12.4$ cm.",
           },
+        },
+        {
+          id: "ciem-u6-trig-3d-q5", difficulty: "foundation", totalMarks: 1,
+          stem: "What is the first step in a 3D trigonometry problem?",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "Apply the cosine rule to the whole solid" },
+            { id: "b", text: "Estimate the answer" },
+            { id: "c", text: "Use the area formula" },
+            { id: "d", text: "Identify the right-angled triangles in vertical and horizontal planes" }
+ ],
+            correctChoiceId: "d" },
+          markscheme: { principles: [ { kind: "technique", name: "3D strategy", statement: "Reduce 3D problems to 2D right-angled triangles." } ],
+            steps: [ { reasoning: "Recall the standard method.", working: "\\text{find right triangles}", marks: 1, markCode: "B" } ],
+            finalAnswer: "**(a)** Identify the right-angled triangles", commonErrors: ["Applying 2D formulas directly."] },
+        },
+        {
+          id: "ciem-u6-trig-3d-q6", difficulty: "core", totalMarks: 1,
+          stem: "A vertical pole of height $9$ m stands on horizontal ground. From a point $12$ m from the base, what is the angle of elevation of the top?",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "$28.1^\\circ$" },
+            { id: "b", text: "$61.9^\\circ$" },
+            { id: "c", text: "$36.9^\\circ$" },
+            { id: "d", text: "$53.1^\\circ$" }
+ ],
+            correctChoiceId: "c" },
+          markscheme: { principles: [ { kind: "formula", name: "Tangent", statement: "$\\tan\\theta=\\frac{h}{d}$" } ],
+            steps: [ { reasoning: "Use opposite over adjacent.", working: "\\theta=\\tan^{-1}\\left(\\frac9{12}\\right)\\approx36.9^\\circ", marks: 1, markCode: "M" } ],
+            finalAnswer: "**(a)** $36.9^\\circ$", commonErrors: ["Using $\\frac{12}{9}$."] },
+        },
+        {
+          id: "ciem-u6-trig-3d-q7", difficulty: "core", totalMarks: 3,
+          stem: "An observer stands $8$ m from the base of a vertical mast $15$ m high. Find the angle of elevation of the top of the mast.",
+          response: { type: "numeric", parts: [ { label: "Angle", answer: 61.9, tolerance: 0.1, unit: "degrees" } ] },
+          markscheme: { principles: [ { kind: "formula", name: "Tangent", statement: "$\\tan\\theta=\\frac{\\text{opposite}}{\\text{adjacent}}$" } ],
+            steps: [
+              { reasoning: "Opposite $=15$ m, adjacent $=8$ m.", working: "\\tan\\theta=\\frac{15}{8}", marks: 1, markCode: "M" },
+              { reasoning: "Apply inverse tangent.", working: "\\theta=\\tan^{-1}(1.875)", marks: 1, markCode: "M" },
+              { reasoning: "Evaluate and state the angle.", marks: 1, markCode: "A" } ],
+            finalAnswer: "$\\theta\\approx61.9^\\circ$", commonErrors: ["Inverting the ratio."] },
+        },
+        {
+          id: "ciem-u6-trig-3d-q8", difficulty: "challenge", totalMarks: 1,
+          stem: "A square-based pyramid has base side $14$ m and perpendicular height $10$ m. What is the angle between a slant edge and the base, to $1$ decimal place?",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "$59.5^\\circ$" },
+            { id: "b", text: "$46.7^\\circ$" },
+            { id: "c", text: "$43.1^\\circ$" },
+            { id: "d", text: "$45.3^\\circ$" }
+ ],
+            correctChoiceId: "d" },
+          markscheme: { principles: [ { kind: "formula", name: "Angle with base", statement: "$\\tan\\theta=\\frac{h}{\\text{half base diagonal}}$" } ],
+            steps: [ { reasoning: "Half diagonal $=7\\sqrt2\\approx9.90$; $\\tan\\theta=\\frac{10}{9.90}$.", working: "\\theta\\approx45.3^\\circ", marks: 1, markCode: "M" } ],
+            finalAnswer: "**(b)** $45.3^\\circ$", commonErrors: ["Using the full diagonal or half the side."] },
+        },
+        {
+          id: "ciem-u6-trig-3d-q9", difficulty: "core", totalMarks: 3,
+          stem: "A cone has radius $6$ cm and height $8$ cm. Find the angle between a slant edge and the circular base.",
+          response: { type: "numeric", parts: [ { label: "Angle", answer: 53.1, tolerance: 0.1, unit: "degrees" } ] },
+          markscheme: { principles: [ { kind: "formula", name: "Tangent", statement: "$\\tan\\theta=\\frac{h}{r}$" } ],
+            steps: [
+              { reasoning: "Opposite $=8$, adjacent $=6$.", working: "\\tan\\theta=\\frac86", marks: 1, markCode: "M" },
+              { reasoning: "Apply inverse tangent.", working: "\\theta=\\tan^{-1}\\left(\\frac43\\right)", marks: 1, markCode: "M" },
+              { reasoning: "Evaluate and state the angle.", marks: 1, markCode: "A" } ],
+            finalAnswer: "$\\theta\\approx53.1^\\circ$", commonErrors: ["Using the slant height as the opposite."] },
+        },
+        {
+          id: "ciem-u6-trig-3d-q10", difficulty: "foundation", totalMarks: 2,
+          stem: "Find the length of the space diagonal of a cuboid with dimensions $3$ cm, $4$ cm and $12$ cm.",
+          response: { type: "numeric", parts: [ { label: "Diagonal", answer: 13, unit: "cm" } ] },
+          markscheme: { principles: [ { kind: "formula", name: "Space diagonal", statement: "$d=\\sqrt{l^2+w^2+h^2}$" } ],
+            steps: [
+              { reasoning: "Square and add the dimensions.", working: "d=\\sqrt{9+16+144}=\\sqrt{169}", marks: 1, markCode: "M" },
+              { reasoning: "State the diagonal.", marks: 1, markCode: "A" } ],
+            finalAnswer: "$13$ cm", commonErrors: ["Using only two dimensions."] },
+        },
+        {
+          id: "ciem-u6-trig-3d-q11", difficulty: "challenge", totalMarks: 1,
+          stem: "For a square-based pyramid, the perpendicular height, half the base diagonal and the slant edge form which triangle?",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "An equilateral triangle" },
+            { id: "b", text: "A right-angled triangle" },
+            { id: "c", text: "An isosceles triangle only" },
+            { id: "d", text: "No fixed triangle" }
+ ],
+            correctChoiceId: "b" },
+          markscheme: { principles: [ { kind: "property", name: "Pyramid geometry", statement: "The height is perpendicular to the base, so the triangle is right-angled." } ],
+            steps: [ { reasoning: "Identify the right angle at the base centre.", working: "\\text{right-angled}", marks: 1, markCode: "B" } ],
+            finalAnswer: "**(a)** A right-angled triangle", commonErrors: ["Using the slant height instead of the perpendicular height."] },
+        },
+        {
+          id: "ciem-u6-trig-3d-q12", difficulty: "core", totalMarks: 4,
+          stem: "A square-based pyramid has base side $10$ m and perpendicular height $12$ m. Find the length of a slant edge.",
+          response: { type: "open" },
+          markscheme: { principles: [ { kind: "formula", name: "Half diagonal", statement: "Half diagonal $=\\frac{s\\sqrt2}{2}$" }, { kind: "formula", name: "Pythagoras", statement: "$l^2=h^2+d^2$." } ],
+            steps: [
+              { reasoning: "Find half the base diagonal.", working: "OA=\\frac{10\\sqrt2}{2}=5\\sqrt2", marks: 1, markCode: "M" },
+              { reasoning: "Apply Pythagoras in the vertical triangle.", working: "l=\\sqrt{12^2+(5\\sqrt2)^2}=\\sqrt{144+50}", marks: 1, markCode: "M" },
+              { reasoning: "Evaluate.", working: "l=\\sqrt{194}\\approx13.9", marks: 1, markCode: "M" },
+              { reasoning: "State the slant edge.", marks: 1, markCode: "A" } ],
+            finalAnswer: "$l=\\sqrt{194}\\approx13.9$ m", commonErrors: ["Using half the side instead of half the diagonal."] },
+        },
+        {
+          id: "ciem-u6-trig-3d-q13", difficulty: "challenge", totalMarks: 3,
+          stem: "A cuboid has a rectangular base $6$ cm by $8$ cm and a space diagonal of length $26$ cm. Find the height of the cuboid.",
+          response: { type: "numeric", parts: [ { label: "Height", answer: 24, unit: "cm" } ] },
+          markscheme: { principles: [ { kind: "formula", name: "Space diagonal", statement: "$d^2=l^2+w^2+h^2$" } ],
+            steps: [
+              { reasoning: "Base diagonal squared is $6^2+8^2=100$.", working: "100", marks: 1, markCode: "M" },
+              { reasoning: "Use $26^2=100+h^2$.", working: "h^2=676-100=576", marks: 1, markCode: "M" },
+              { reasoning: "Take the square root and state the height.", marks: 1, markCode: "A" } ],
+            finalAnswer: "$24$ cm", commonErrors: ["Using $26$ as the base diagonal."] },
+        },
+        {
+          id: "ciem-u6-trig-3d-q14", difficulty: "foundation", totalMarks: 3,
+          stem: "A vertical post is $9$ m tall and an observer is $12$ m from its base. Show that the angle of elevation is approximately $36.9^\\circ$.",
+          response: { type: "open" },
+          markscheme: { principles: [ { kind: "formula", name: "Tangent", statement: "$\\tan\\theta=\\frac{\\text{opposite}}{\\text{adjacent}}$" } ],
+            steps: [
+              { reasoning: "Form the ratio.", working: "\\tan\\theta=\\frac9{12}=0.75", marks: 1, markCode: "M" },
+              { reasoning: "Apply inverse tangent.", working: "\\theta=\\tan^{-1}(0.75)", marks: 1, markCode: "M" },
+              { reasoning: "State the angle.", marks: 1, markCode: "A" } ],
+            finalAnswer: "$\\theta\\approx36.9^\\circ$", commonErrors: ["Using $\\frac{12}{9}$."] },
+        },
+        {
+          id: "ciem-u6-trig-3d-q15", difficulty: "core", totalMarks: 1,
+          stem: "In a square-based pyramid, which length is the hypotenuse of the right-angled triangle containing the perpendicular height and half the base diagonal?",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "The base side" },
+            { id: "b", text: "The perpendicular height" },
+            { id: "c", text: "The slant edge" },
+            { id: "d", text: "The slant height" }
+ ],
+            correctChoiceId: "c" },
+          markscheme: { principles: [ { kind: "property", name: "Pyramid geometry", statement: "Slant edge $=\\sqrt{h^2+OA^2}$ is opposite the right angle." } ],
+            steps: [ { reasoning: "Identify the hypotenuse.", working: "\\text{slant edge}", marks: 1, markCode: "B" } ],
+            finalAnswer: "**(b)** The slant edge", commonErrors: ["Confusing slant height with slant edge."] },
+        },
+        {
+          id: "ciem-u6-trig-3d-q16", difficulty: "challenge", totalMarks: 8,
+          stem: "A square-based pyramid has base side $20$ m and perpendicular height $30$ m.",
+          parts: [
+            { label: "a", prompt: "Find half the length of the base diagonal.", marks: 2 },
+            { label: "b", prompt: "Find the length of a slant edge.", marks: 3 },
+            { label: "c", prompt: "Find the angle between a slant edge and the base.", marks: 3 } ],
+          response: { type: "open" },
+          markscheme: { principles: [ { kind: "formula", name: "Half diagonal", statement: "Half diagonal $=\\frac{s\\sqrt2}{2}=10\\sqrt2$" }, { kind: "formula", name: "Pythagoras", statement: "$l=\\sqrt{h^2+OA^2}$" }, { kind: "formula", name: "Tangent", statement: "$\\tan\\theta=\\frac{h}{OA}$" } ],
+            steps: [
+              { part: "a", reasoning: "Half the diagonal of a square with side $20$.", working: "OA=\\frac{20\\sqrt2}{2}=10\\sqrt2", marks: 1, markCode: "M" },
+              { part: "a", reasoning: "State the length.", marks: 1, markCode: "A" },
+              { part: "b", reasoning: "Apply Pythagoras with height $30$.", working: "l=\\sqrt{30^2+(10\\sqrt2)^2}=\\sqrt{900+200}=\\sqrt{1100}", marks: 1, markCode: "M" },
+              { part: "b", reasoning: "Simplify.", working: "=10\\sqrt{11}", marks: 1, markCode: "M" },
+              { part: "b", reasoning: "State the slant edge.", marks: 1, markCode: "A" },
+              { part: "c", reasoning: "Use tangent in the vertical triangle.", working: "\\tan\\theta=\\frac{30}{10\\sqrt2}=\\frac{3}{\\sqrt2}", marks: 1, markCode: "M" },
+              { part: "c", reasoning: "Apply inverse tangent.", working: "\\theta=\\tan^{-1}\\left(\\frac{3}{\\sqrt2}\\right)", marks: 1, markCode: "M" },
+              { part: "c", reasoning: "State the angle.", marks: 1, markCode: "A" } ],
+            finalAnswer: "(a) $10\\sqrt2$ m (b) $10\\sqrt{11}\\approx33.2$ m (c) $\\approx64.8^\\circ$",
+            commonErrors: ["In (c) using the slant height instead of the perpendicular height."] },
         },
       ],
     },

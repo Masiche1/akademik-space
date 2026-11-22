@@ -49,12 +49,12 @@ export const lesson83: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Convenience sampling" },
-              { id: "b", text: "Voluntary-response sampling" },
-              { id: "c", text: "Simple random sampling" },
-              { id: "d", text: "Cluster sampling" },
+              { id: "a", text: "Cluster sampling" },
+              { id: "b", text: "Convenience sampling" },
+              { id: "c", text: "Voluntary-response sampling" },
+              { id: "d", text: "Simple random sampling" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -174,12 +174,12 @@ export const lesson83: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$0.01$" },
+              { id: "a", text: "$0.50$" },
               { id: "b", text: "$0.05$" },
-              { id: "c", text: "$0.10$" },
-              { id: "d", text: "$0.50$" },
+              { id: "c", text: "$0.01$" },
+              { id: "d", text: "$0.10$" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [

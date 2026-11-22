@@ -51,12 +51,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Newton (N)" },
-              { id: "b", text: "Joule (J)" },
-              { id: "c", text: "Watt (W)" },
-              { id: "d", text: "Pascal (Pa)" },
+              { id: "a", text: "Pascal (Pa)" },
+              { id: "b", text: "Watt (W)" },
+              { id: "c", text: "Newton (N)" },
+              { id: "d", text: "Joule (J)" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -148,6 +148,288 @@ export const lesson61: Lesson = {
             commonErrors: ["Terminal velocity = constant speed when drag=weight."],
           },
         },
+        {
+          id: "cils-u6-force-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Which force pulls all objects towards the Earth?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Magnetism" },
+              { id: "b", text: "Normal force" },
+              { id: "c", text: "Friction" },
+              { id: "d", text: "Gravity (weight)" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              { kind: "definition", name: "Gravity", statement: "Earth's gravitational pull on objects — their weight." },
+            ],
+            steps: [
+              { reasoning: "Gravity attracts objects toward Earth.", working: "gravity", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** Gravity (weight)",
+            commonErrors: ["Choosing (c) — friction opposes motion, not attraction."],
+          },
+        },
+        {
+          id: "cils-u6-force-q6",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "A book rests motionless on a table. This means the forces on it are:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Non-existent" },
+              { id: "b", text: "Balanced" },
+              { id: "c", text: "Only downward" },
+              { id: "d", text: "Unbalanced" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              { kind: "principle", name: "Balanced forces", statement: "Gravity down = normal force up — balanced, no motion." },
+            ],
+            steps: [
+              { reasoning: "Equal opposite forces — balanced.", working: "balanced", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** Balanced",
+            commonErrors: ["Choosing (c) — normal force pushes up equally."],
+          },
+        },
+        {
+          id: "cils-u6-force-q7",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Which of these is a contact force?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Magnetism" },
+              { id: "b", text: "Electrostatic attraction" },
+              { id: "c", text: "Gravity" },
+              { id: "d", text: "Friction" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              { kind: "definition", name: "Contact force", statement: "Requires surfaces touching — friction, normal, applied push." },
+            ],
+            steps: [
+              { reasoning: "Friction needs contact; gravity and magnetism act at a distance.", working: "contact", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** Friction",
+            commonErrors: ["Choosing (b) — gravity acts without contact."],
+          },
+        },
+        {
+          id: "cils-u6-force-q8",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Unbalanced forces acting on an object cause it to:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Lose its mass" },
+              { id: "b", text: "Stay perfectly still" },
+              { id: "c", text: "Move at constant speed forever" },
+              { id: "d", text: "Accelerate" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              { kind: "law", name: "Newton's 2nd law", statement: "Net force = mass × acceleration — unbalanced forces accelerate." },
+            ],
+            steps: [
+              { reasoning: "Net force produces acceleration.", working: "F=ma", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** Accelerate",
+            commonErrors: ["Choosing (c) — constant speed needs balanced forces."],
+          },
+        },
+        {
+          id: "cils-u6-force-q9",
+          difficulty: "challenge",
+          totalMarks: 1,
+          stem: "The normal force on an object resting on a horizontal surface acts:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Horizontally" },
+              { id: "b", text: "Vertically upward, perpendicular to the surface" },
+              { id: "c", text: "Vertically downward" },
+              { id: "d", text: "At 45 degrees" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              { kind: "definition", name: "Normal force", statement: "Surface reaction force — always perpendicular to the surface." },
+            ],
+            steps: [
+              { reasoning: "Normal force is perpendicular to and away from the surface.", working: "perpendicular up", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** Upward, perpendicular to surface",
+            commonErrors: ["Choosing (b) — that direction is gravity, not normal force."],
+          },
+        },
+        {
+          id: "cils-u6-force-q10",
+          difficulty: "challenge",
+          totalMarks: 1,
+          stem: "Two people push a box in opposite directions with equal force. The box will:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Not move — forces are balanced" },
+              { id: "b", text: "Accelerate regardless" },
+              { id: "c", text: "Rotate" },
+              { id: "d", text: "Move in the direction of the stronger push" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              { kind: "principle", name: "Force balance", statement: "Equal opposite forces cancel — no motion." },
+            ],
+            steps: [
+              { reasoning: "Equal forces in opposite directions = balanced.", working: "balanced", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** Not move — balanced",
+            commonErrors: ["Choosing (b) — forces are equal, not unequal."],
+          },
+        },
+        {
+          id: "cils-u6-force-q11",
+          difficulty: "challenge",
+          totalMarks: 1,
+          stem: "Which of these is NOT a force?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Gravity" },
+              { id: "b", text: "Friction" },
+              { id: "c", text: "Applied push" },
+              { id: "d", text: "Mass" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              { kind: "definition", name: "Force vs mass", statement: "Force = push/pull measured in N; mass = amount of matter in kg." },
+            ],
+            steps: [
+              { reasoning: "Mass is not a force — it is measured in kg, not N.", working: "mass ≠ force", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** Mass",
+            commonErrors: ["Choosing (b) — gravity IS a force."],
+          },
+        },
+        {
+          id: "cils-u6-force-q12",
+          difficulty: "foundation",
+          totalMarks: 2,
+          stem: "What is the weight of an $8\\ \\text{kg}$ mass on Earth where $g = 10\\ \\text{N/kg}$? Enter the number only.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "Weight", answer: 80, unit: "N" }],
+          },
+          markscheme: {
+            principles: [
+              { kind: "formula", name: "Weight", statement: "weight = mass × g" },
+            ],
+            steps: [
+              { reasoning: "$W = 8 \\times 10$.", working: "8 × 10", marks: 1, markCode: "M" },
+              { reasoning: "$80\\ \\text{N}$.", working: "80", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$80\\ \\text{N}$",
+          },
+        },
+        {
+          id: "cils-u6-force-q13",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "What force is needed to accelerate a $4\\ \\text{kg}$ mass at $2\\ \\text{m/s}^2$? Enter the number only.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "Force", answer: 8, unit: "N" }],
+          },
+          markscheme: {
+            principles: [
+              { kind: "formula", name: "Newton's 2nd law", statement: "$F = m \\times a$" },
+            ],
+            steps: [
+              { reasoning: "$F = 4 \\times 2$.", working: "4 × 2", marks: 1, markCode: "M" },
+              { reasoning: "$8\\ \\text{N}$.", working: "8", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$8\\ \\text{N}$",
+          },
+        },
+        {
+          id: "cils-u6-force-q14",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "Forces of $30\\ \\text{N}$ to the left and $20\\ \\text{N}$ to the right act on an object. What is the magnitude of the net force? Enter the number only.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "Net force", answer: 10, unit: "N" }],
+          },
+          markscheme: {
+            principles: [
+              { kind: "principle", name: "Net force", statement: "Opposite forces subtract — net force is the difference." },
+            ],
+            steps: [
+              { reasoning: "$30 - 20 = 10\\ \\text{N}$ to the left.", working: "30 - 20", marks: 1, markCode: "M" },
+              { reasoning: "Net force = $10\\ \\text{N}$.", working: "10", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$10\\ \\text{N}$",
+          },
+        },
+        {
+          id: "cils-u6-force-q15",
+          difficulty: "challenge",
+          totalMarks: 2,
+          stem: "An object has a weight of $60\\ \\text{N}$ on Earth ($g = 10\\ \\text{N/kg}$). What is its mass? Enter the number only.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "Mass", answer: 6, unit: "kg" }],
+          },
+          markscheme: {
+            principles: [
+              { kind: "formula", name: "Weight", statement: "$W = m \\times g \\Rightarrow m = W \\div g$" },
+            ],
+            steps: [
+              { reasoning: "$m = 60 \\div 10$.", working: "60 ÷ 10", marks: 1, markCode: "M" },
+              { reasoning: "$6\\ \\text{kg}$.", working: "6", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$6\\ \\text{kg}$",
+          },
+        },
+        {
+          id: "cils-u6-force-q16",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "In a tug-of-war, two teams each pull on a rope with $500\\ \\text{N}$ of force in opposite directions. Describe the forces acting and explain what happens to the rope.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Force balance", statement: "Equal opposite forces = balanced = no acceleration." },
+            ],
+            steps: [
+              { reasoning: "Each team applies 500 N in opposite directions.", working: "500 N each", marks: 1, markCode: "M" },
+              { reasoning: "Forces are equal and opposite — they cancel.", working: "cancel", marks: 1, markCode: "M" },
+              { reasoning: "Net force = 0 — rope does not accelerate; tension stays at 500 N.", working: "net = 0", marks: 1, markCode: "M" },
+              { reasoning: "Correct reasoning about balance.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "Balanced forces (500 N each way) — net force zero, rope stays stationary.",
+            commonErrors: ["Saying forces 'add to 1000 N' — opposite forces subtract."],
+          },
+        },
       ],
     },
     {
@@ -187,12 +469,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "distance ÷ time" },
-              { id: "b", text: "time ÷ distance" },
-              { id: "c", text: "distance × time" },
+              { id: "a", text: "distance × time" },
+              { id: "b", text: "distance ÷ time" },
+              { id: "c", text: "time ÷ distance" },
               { id: "d", text: "mass × acceleration" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -284,6 +566,288 @@ export const lesson61: Lesson = {
             commonErrors: ["Gradient = acceleration not velocity on v-t graph."],
           },
         },
+        {
+          id: "cils-u6-motion-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Which quantity includes direction as well as speed?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Distance" },
+              { id: "b", text: "Time" },
+              { id: "c", text: "Speed" },
+              { id: "d", text: "Velocity" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              { kind: "definition", name: "Velocity", statement: "Velocity = speed in a given direction — a vector quantity." },
+            ],
+            steps: [
+              { reasoning: "Only velocity includes direction.", working: "velocity", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** Velocity",
+            commonErrors: ["Choosing (b) — speed has no direction."],
+          },
+        },
+        {
+          id: "cils-u6-motion-q6",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "What is the unit of acceleration?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$\\text{m/s}$" },
+              { id: "b", text: "$\\text{m/s}^2$" },
+              { id: "c", text: "$\\text{N}$" },
+              { id: "d", text: "$\\text{kg}$" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              { kind: "convention", name: "Acceleration unit", statement: "Acceleration = change in velocity ÷ time → m/s²." },
+            ],
+            steps: [
+              { reasoning: "m/s per second = m/s².", working: "m/s²", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** $\\text{m/s}^2$",
+            commonErrors: ["Choosing (b) — m/s is velocity/speed."],
+          },
+        },
+        {
+          id: "cils-u6-motion-q7",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "A car's velocity decreases from $20\\ \\text{m/s}$ to $10\\ \\text{m/s}$. This is:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Zero acceleration" },
+              { id: "b", text: "Constant velocity" },
+              { id: "c", text: "Increasing speed" },
+              { id: "d", text: "Deceleration (negative acceleration)" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              { kind: "definition", name: "Deceleration", statement: "Velocity decreasing = negative acceleration." },
+            ],
+            steps: [
+              { reasoning: "Velocity fell — decelerating.", working: "deceleration", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** Deceleration",
+            commonErrors: ["Choosing (d) — velocity decreased, not increased."],
+          },
+        },
+        {
+          id: "cils-u6-motion-q8",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "On a distance-time graph, the gradient represents:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Acceleration" },
+              { id: "b", text: "Speed" },
+              { id: "c", text: "Force" },
+              { id: "d", text: "Mass" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Motion graphs", statement: "Distance-time: gradient = speed (distance ÷ time)." },
+            ],
+            steps: [
+              { reasoning: "Gradient = rise ÷ run = distance ÷ time = speed.", working: "gradient=speed", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** Speed",
+            commonErrors: ["Choosing (b) — acceleration is gradient of velocity-time graph."],
+          },
+        },
+        {
+          id: "cils-u6-motion-q9",
+          difficulty: "challenge",
+          totalMarks: 1,
+          stem: "On a velocity-time graph, a horizontal straight line shows:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "The object is stationary" },
+              { id: "b", text: "Increasing acceleration" },
+              { id: "c", text: "Constant velocity (zero acceleration)" },
+              { id: "d", text: "Maximum speed" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Motion graphs", statement: "Flat v-t line = velocity not changing = zero acceleration." },
+            ],
+            steps: [
+              { reasoning: "No slope means velocity constant — acceleration zero.", working: "flat = constant v", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** Constant velocity",
+            commonErrors: ["Choosing (c) — the object may be moving steadily, not stationary."],
+          },
+        },
+        {
+          id: "cils-u6-motion-q10",
+          difficulty: "challenge",
+          totalMarks: 1,
+          stem: "On a velocity-time graph, the area under the line represents:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Speed" },
+              { id: "b", text: "Distance travelled" },
+              { id: "c", text: "Acceleration" },
+              { id: "d", text: "Force" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Motion graphs", statement: "Area under v-t curve = distance (velocity × time)." },
+            ],
+            steps: [
+              { reasoning: "Area = velocity × time = distance.", working: "area=distance", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** Distance travelled",
+            commonErrors: ["Choosing (b) — gradient gives acceleration, not area."],
+          },
+        },
+        {
+          id: "cils-u6-motion-q11",
+          difficulty: "challenge",
+          totalMarks: 1,
+          stem: "Which of these is a vector quantity (has direction)?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Time" },
+              { id: "b", text: "Velocity" },
+              { id: "c", text: "Speed" },
+              { id: "d", text: "Distance" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              { kind: "definition", name: "Vector", statement: "Vectors have magnitude AND direction — velocity, force, acceleration." },
+            ],
+            steps: [
+              { reasoning: "Velocity is the only vector listed.", working: "velocity", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** Velocity",
+            commonErrors: ["Choosing (b) — speed is scalar, no direction."],
+          },
+        },
+        {
+          id: "cils-u6-motion-q12",
+          difficulty: "foundation",
+          totalMarks: 2,
+          stem: "A car travels $60\\ \\text{m}$ in $12\\ \\text{s}$. What is its speed? Enter the number only.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "Speed", answer: 5, unit: "m/s" }],
+          },
+          markscheme: {
+            principles: [
+              { kind: "formula", name: "Speed", statement: "speed = distance ÷ time" },
+            ],
+            steps: [
+              { reasoning: "$v = 60 \\div 12$.", working: "60 ÷ 12", marks: 1, markCode: "M" },
+              { reasoning: "$5\\ \\text{m/s}$.", working: "5", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$5\\ \\text{m/s}$",
+          },
+        },
+        {
+          id: "cils-u6-motion-q13",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "A car accelerates from $5\\ \\text{m/s}$ to $20\\ \\text{m/s}$ in $3\\ \\text{s}$. What is its acceleration? Enter the number only.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "Acceleration", answer: 5, unit: "m/s²" }],
+          },
+          markscheme: {
+            principles: [
+              { kind: "formula", name: "Acceleration", statement: "$a = (v - u) \\div t$" },
+            ],
+            steps: [
+              { reasoning: "$a = (20 - 5) \\div 3 = 15 \\div 3$.", working: "15 ÷ 3", marks: 1, markCode: "M" },
+              { reasoning: "$5\\ \\text{m/s}^2$.", working: "5", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$5\\ \\text{m/s}^2$",
+          },
+        },
+        {
+          id: "cils-u6-motion-q14",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "A cyclist travels at a steady $8\\ \\text{m/s}$ for $10\\ \\text{s}$. How far does she travel? Enter the number only.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "Distance", answer: 80, unit: "m" }],
+          },
+          markscheme: {
+            principles: [
+              { kind: "formula", name: "Distance", statement: "distance = speed × time" },
+            ],
+            steps: [
+              { reasoning: "$s = 8 \\times 10$.", working: "8 × 10", marks: 1, markCode: "M" },
+              { reasoning: "$80\\ \\text{m}$.", working: "80", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$80\\ \\text{m}$",
+          },
+        },
+        {
+          id: "cils-u6-motion-q15",
+          difficulty: "challenge",
+          totalMarks: 2,
+          stem: "A runner covers $100\\ \\text{m}$ at an average speed of $10\\ \\text{m/s}$. How long does she take? Enter the number only.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "Time", answer: 10, unit: "s" }],
+          },
+          markscheme: {
+            principles: [
+              { kind: "formula", name: "Speed", statement: "time = distance ÷ speed" },
+            ],
+            steps: [
+              { reasoning: "$t = 100 \\div 10$.", working: "100 ÷ 10", marks: 1, markCode: "M" },
+              { reasoning: "$10\\ \\text{s}$.", working: "10", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$10\\ \\text{s}$",
+          },
+        },
+        {
+          id: "cils-u6-motion-q16",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "Explain how to determine the acceleration of an object from its velocity-time graph, including what the gradient and area tell you.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Motion graphs", statement: "V-t graph: gradient = acceleration; area = distance." },
+            ],
+            steps: [
+              { reasoning: "Draw axes: velocity (y) vs time (x).", working: "axes", marks: 1, markCode: "M" },
+              { reasoning: "Gradient = change in velocity ÷ change in time = acceleration.", working: "gradient", marks: 1, markCode: "M" },
+              { reasoning: "Area under line = distance travelled.", working: "area", marks: 1, markCode: "M" },
+              { reasoning: "All three points correct.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "Gradient = acceleration; area under curve = distance.",
+            commonErrors: ["Saying gradient = velocity — on v-t graph it is acceleration."],
+          },
+        },
       ],
     },
     {
@@ -322,12 +886,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Relative motion between surfaces" },
+              { id: "a", text: "Volume" },
               { id: "b", text: "Gravity" },
-              { id: "c", text: "Pressure" },
-              { id: "d", text: "Volume" },
+              { id: "c", text: "Relative motion between surfaces" },
+              { id: "d", text: "Pressure" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -417,6 +981,288 @@ export const lesson61: Lesson = {
               { level: "Level 1", marks: "0", descriptor: "Vague.", part: "d" },
             ],
             commonErrors: ["Thinking area affects friction most — roughness and load matter more."],
+          },
+        },
+        {
+          id: "cils-u6-fric-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Friction acts in which direction relative to an object's motion?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "In the same direction as motion" },
+              { id: "b", text: "Opposite to the direction of motion" },
+              { id: "c", text: "Always vertically upward" },
+              { id: "d", text: "In any random direction" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              { kind: "definition", name: "Friction direction", statement: "Friction always opposes relative motion — opposite to movement." },
+            ],
+            steps: [
+              { reasoning: "Friction opposes motion — acts backwards.", working: "opposes", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** Opposite to motion",
+            commonErrors: ["Choosing (b) — friction never helps motion along."],
+          },
+        },
+        {
+          id: "cils-u6-fric-q6",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Which surface produces the MOST friction?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Oiled metal" },
+              { id: "b", text: "Rough concrete" },
+              { id: "c", text: "Ice" },
+              { id: "d", text: "Glass" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              { kind: "principle", name: "Roughness", statement: "Rougher surfaces = more friction; smooth/lubricated = less." },
+            ],
+            steps: [
+              { reasoning: "Concrete is roughest — highest friction.", working: "concrete", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** Rough concrete",
+            commonErrors: ["Choosing (b) — ice is famously slippery (low friction)."],
+          },
+        },
+        {
+          id: "cils-u6-fric-q7",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Why are lubricants like oil used in machines?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "To cool the machine by freezing it" },
+              { id: "b", text: "To reduce friction between moving parts" },
+              { id: "c", text: "To increase friction for grip" },
+              { id: "d", text: "To make parts heavier" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Lubrication", statement: "Oil/grease separates surfaces — reduces friction and wear." },
+            ],
+            steps: [
+              { reasoning: "Lubricants reduce friction between parts.", working: "lubricant", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** Reduce friction",
+            commonErrors: ["Choosing (b) — that is what tread/grip materials do."],
+          },
+        },
+        {
+          id: "cils-u6-fric-q8",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Why do climbing shoes and tyres have patterned soles?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "To decrease friction for speed" },
+              { id: "b", text: "To increase friction and grip" },
+              { id: "c", text: "To make them waterproof" },
+              { id: "d", text: "To look attractive" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              { kind: "context", name: "Tread", statement: "Patterns increase surface roughness → more friction → better grip." },
+            ],
+            steps: [
+              { reasoning: "Tread patterns increase friction deliberately.", working: "grip", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** Increase friction/grip",
+            commonErrors: ["Choosing (b) — soles need grip, not low friction."],
+          },
+        },
+        {
+          id: "cils-u6-fric-q9",
+          difficulty: "challenge",
+          totalMarks: 1,
+          stem: "When a machine part slides against another, friction mainly wastes energy as:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Sound" },
+              { id: "b", text: "Chemical energy" },
+              { id: "c", text: "Light" },
+              { id: "d", text: "Heat" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              { kind: "principle", name: "Friction heating", statement: "Sliding friction converts kinetic energy to heat — wasted energy." },
+            ],
+            steps: [
+              { reasoning: "Friction heats surfaces — energy dissipated as heat.", working: "heat", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** Heat",
+            commonErrors: ["Choosing (c) — heat is the main waste, not sound."],
+          },
+        },
+        {
+          id: "cils-u6-fric-q10",
+          difficulty: "challenge",
+          totalMarks: 1,
+          stem: "Ball bearings in wheels reduce friction mainly by:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Removing all contact" },
+              { id: "b", text: "Replacing sliding with rolling motion" },
+              { id: "c", text: "Increasing the load" },
+              { id: "d", text: "Making surfaces rougher" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Bearings", statement: "Rolling friction is much less than sliding friction." },
+            ],
+            steps: [
+              { reasoning: "Balls roll instead of surfaces sliding — less friction.", working: "rolling", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** Rolling instead of sliding",
+            commonErrors: ["Choosing (b) — rougher surfaces increase friction."],
+          },
+        },
+        {
+          id: "cils-u6-fric-q11",
+          difficulty: "challenge",
+          totalMarks: 1,
+          stem: "You slip easily on ice because ice has:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "No surface at all" },
+              { id: "b", text: "Maximum roughness" },
+              { id: "c", text: "Very high friction" },
+              { id: "d", text: "Very low friction — a smooth surface with a thin water layer" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              { kind: "principle", name: "Ice friction", statement: "Ice is smooth and has a lubricating water film — very low friction." },
+            ],
+            steps: [
+              { reasoning: "Low friction on ice causes slipping.", working: "low friction", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** Very low friction",
+            commonErrors: ["Choosing (d) — ice is smooth, not rough."],
+          },
+        },
+        {
+          id: "cils-u6-fric-q12",
+          difficulty: "foundation",
+          totalMarks: 2,
+          stem: "A block needs $25\\ \\text{N}$ of force to slide on a surface. What is the friction force? Enter the number only.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "Friction", answer: 25, unit: "N" }],
+          },
+          markscheme: {
+            principles: [
+              { kind: "principle", name: "Sliding friction", statement: "At constant sliding speed, applied force equals friction force." },
+            ],
+            steps: [
+              { reasoning: "Sliding at steady speed → applied force = friction.", working: "equal", marks: 1, markCode: "M" },
+              { reasoning: "Friction = $25\\ \\text{N}$.", working: "25", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$25\\ \\text{N}$",
+          },
+        },
+        {
+          id: "cils-u6-fric-q13",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "On surface A a block needs $10\\ \\text{N}$ to slide; on surface B it needs $30\\ \\text{N}$. How many times greater is the friction on B? Enter the number only.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "Ratio", answer: 3 }],
+          },
+          markscheme: {
+            principles: [
+              { kind: "formula", name: "Friction comparison", statement: "Ratio = friction on B ÷ friction on A." },
+            ],
+            steps: [
+              { reasoning: "$30 \\div 10 = 3$.", working: "30 ÷ 10", marks: 1, markCode: "M" },
+              { reasoning: "Three times greater.", working: "3", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$3$",
+          },
+        },
+        {
+          id: "cils-u6-fric-q14",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "A $5\\ \\text{kg}$ box on a rough floor needs $20\\ \\text{N}$ to start sliding. What is its weight ($g = 10\\ \\text{N/kg}$)? Enter the number only.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "Weight", answer: 50, unit: "N" }],
+          },
+          markscheme: {
+            principles: [
+              { kind: "formula", name: "Weight", statement: "$W = m \\times g = 5 \\times 10$" },
+            ],
+            steps: [
+              { reasoning: "$W = 5 \\times 10$.", working: "5 × 10", marks: 1, markCode: "M" },
+              { reasoning: "$50\\ \\text{N}$.", working: "50", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$50\\ \\text{N}$",
+          },
+        },
+        {
+          id: "cils-u6-fric-q15",
+          difficulty: "challenge",
+          totalMarks: 2,
+          stem: "Car brakes turn $6000\\ \\text{J}$ of kinetic energy into heat. If $2000\\ \\text{J}$ remains as useful heat in the brakes, how much is wasted elsewhere? Enter the number only.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "Wasted", answer: 4000, unit: "J" }],
+          },
+          markscheme: {
+            principles: [
+              { kind: "law", name: "Energy conservation", statement: "Total energy = useful + wasted." },
+            ],
+            steps: [
+              { reasoning: "Wasted = $6000 - 2000$.", working: "6000 - 2000", marks: 1, markCode: "M" },
+              { reasoning: "$4000\\ \\text{J}$.", working: "4000", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$4000\\ \\text{J}$",
+          },
+        },
+        {
+          id: "cils-u6-fric-q16",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "Friction is described as both 'essential' and 'a problem'. Explain this using two examples — one where high friction is wanted and one where it is unwanted.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Friction trade-offs", statement: "Needed for grip/walking/braking; wasteful for machines (wear + heat)." },
+            ],
+            steps: [
+              { reasoning: "High friction wanted: tyres/shoes — grip prevents slipping; brakes stop the car.", working: "useful", marks: 1, markCode: "M" },
+              { reasoning: "Low friction wanted: engines/gears — lubricants reduce wear and wasted heat.", working: "unwanted", marks: 1, markCode: "M" },
+              { reasoning: "Links friction to real consequences in each case.", working: "link", marks: 1, markCode: "M" },
+              { reasoning: "Both sides explained with examples.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "Essential for grip/brakes; problematic for machines — lubricate to reduce.",
+            commonErrors: ["Only one side — friction is useful AND wasteful."],
           },
         },
       ],

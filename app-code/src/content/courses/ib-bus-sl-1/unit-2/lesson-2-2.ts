@@ -101,11 +101,11 @@ export const lesson22: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Primary quantitative research" },
-              { id: "b", text: "Primary qualitative research" },
-              { id: "c", text: "Secondary research" },
-              { id: "d", text: "Field research" },
+              { id: "b", text: "Secondary research" },
+              { id: "c", text: "Field research" },
+              { id: "d", text: "Primary qualitative research" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -322,10 +322,10 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Government census statistics" },
-              { id: "b", text: "An industry report bought online" },
+              { id: "a", text: "An industry report bought online" },
+              { id: "b", text: "A competitor's website" },
               { id: "c", text: "Interviewing the firm's own customers" },
-              { id: "d", text: "A competitor's website" },
+              { id: "d", text: "Government census statistics" },
             ],
             correctChoiceId: "c",
           },
@@ -366,12 +366,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Quantitative data" },
-              { id: "b", text: "Qualitative data" },
-              { id: "c", text: "Secondary data" },
-              { id: "d", text: "Demographic data" },
+              { id: "a", text: "Qualitative data" },
+              { id: "b", text: "Demographic data" },
+              { id: "c", text: "Quantitative data" },
+              { id: "d", text: "Secondary data" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -410,10 +410,10 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Collect data" },
-              { id: "b", text: "Analyse the results" },
+              { id: "a", text: "Analyse the results" },
+              { id: "b", text: "Present the findings" },
               { id: "c", text: "Define the problem or opportunity" },
-              { id: "d", text: "Present the findings" },
+              { id: "d", text: "Collect data" },
             ],
             correctChoiceId: "c",
           },
@@ -453,13 +453,13 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It is always too expensive" },
+              { id: "a", text: "It takes too long to collect" },
               {
                 id: "b",
                 text: "Data may be outdated or not specific to the firm's needs",
               },
-              { id: "c", text: "It takes too long to collect" },
-              { id: "d", text: "It cannot be analysed statistically" },
+              { id: "c", text: "It cannot be analysed statistically" },
+              { id: "d", text: "It is always too expensive" },
             ],
             correctChoiceId: "b",
           },
@@ -501,15 +501,15 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The sample is too small to analyse" },
               {
-                id: "b",
+                id: "a",
                 text: "The sample does not represent the target population",
               },
+              { id: "b", text: "The data is quantitative" },
               { id: "c", text: "Respondents deliberately lie" },
-              { id: "d", text: "The data is quantitative" },
+              { id: "d", text: "The sample is too small to analyse" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -920,10 +920,10 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A customer questionnaire" },
-              { id: "b", text: "A focus group" },
+              { id: "a", text: "Observing shoppers in store" },
+              { id: "b", text: "A customer questionnaire" },
               { id: "c", text: "An industry report" },
-              { id: "d", text: "Observing shoppers in store" },
+              { id: "d", text: "A focus group" },
             ],
             correctChoiceId: "c",
           },
@@ -965,11 +965,11 @@ export const lesson22: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Quantitative data" },
-              { id: "b", text: "Qualitative data" },
-              { id: "c", text: "Secondary data" },
+              { id: "b", text: "Secondary data" },
+              { id: "c", text: "Qualitative data" },
               { id: "d", text: "Census data" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1008,12 +1008,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Design the questionnaire" },
-              { id: "b", text: "Collect the data" },
-              { id: "c", text: "Define the problem or opportunity" },
-              { id: "d", text: "Analyse the results" },
+              { id: "a", text: "Define the problem or opportunity" },
+              { id: "b", text: "Analyse the results" },
+              { id: "c", text: "Collect the data" },
+              { id: "d", text: "Design the questionnaire" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1054,8 +1054,8 @@ export const lesson22: Lesson = {
             choices: [
               { id: "a", text: "Qualitative data" },
               { id: "b", text: "Quantitative data" },
-              { id: "c", text: "Secondary data" },
-              { id: "d", text: "Observational data" },
+              { id: "c", text: "Observational data" },
+              { id: "d", text: "Secondary data" },
             ],
             correctChoiceId: "b",
           },
@@ -1096,15 +1096,15 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The sample is larger than necessary" },
+              { id: "a", text: "The questionnaire uses open questions" },
+              { id: "b", text: "The sample is larger than necessary" },
+              { id: "c", text: "The research uses secondary sources" },
               {
-                id: "b",
+                id: "d",
                 text: "The sample is not representative of the target population",
               },
-              { id: "c", text: "The research uses secondary sources" },
-              { id: "d", text: "The questionnaire uses open questions" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1610,10 +1610,10 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Psychographic factors" },
+              { id: "a", text: "Geographic factors" },
               { id: "b", text: "Behavioural factors" },
               { id: "c", text: "Demographic factors" },
-              { id: "d", text: "Geographic factors" },
+              { id: "d", text: "Psychographic factors" },
             ],
             correctChoiceId: "c",
           },
@@ -1653,12 +1653,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Concentrated targeting" },
-              { id: "b", text: "Differentiated targeting" },
-              { id: "c", text: "Undifferentiated targeting" },
-              { id: "d", text: "Micromarketing" },
+              { id: "a", text: "Undifferentiated targeting" },
+              { id: "b", text: "Micromarketing" },
+              { id: "c", text: "Concentrated targeting" },
+              { id: "d", text: "Differentiated targeting" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1836,10 +1836,10 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Demographic factors" },
-              { id: "b", text: "Geographic factors" },
+              { id: "a", text: "Geographic factors" },
+              { id: "b", text: "Behavioural factors" },
               { id: "c", text: "Psychographic factors" },
-              { id: "d", text: "Behavioural factors" },
+              { id: "d", text: "Demographic factors" },
             ],
             correctChoiceId: "c",
           },
@@ -1879,12 +1879,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Undifferentiated targeting" },
-              { id: "b", text: "Differentiated targeting" },
-              { id: "c", text: "Concentrated targeting" },
-              { id: "d", text: "Mass marketing" },
+              { id: "a", text: "Differentiated targeting" },
+              { id: "b", text: "Mass marketing" },
+              { id: "c", text: "Undifferentiated targeting" },
+              { id: "d", text: "Concentrated targeting" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1924,11 +1924,11 @@ export const lesson22: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Demographic factors" },
-              { id: "b", text: "Geographic factors" },
-              { id: "c", text: "Psychographic factors" },
-              { id: "d", text: "Behavioural factors" },
+              { id: "b", text: "Behavioural factors" },
+              { id: "c", text: "Geographic factors" },
+              { id: "d", text: "Psychographic factors" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1966,12 +1966,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Demographic segmentation" },
-              { id: "b", text: "Geographic segmentation" },
-              { id: "c", text: "Psychographic segmentation" },
-              { id: "d", text: "Behavioural segmentation" },
+              { id: "a", text: "Psychographic segmentation" },
+              { id: "b", text: "Demographic segmentation" },
+              { id: "c", text: "Behavioural segmentation" },
+              { id: "d", text: "Geographic segmentation" },
             ],
-            correctChoiceId: "d",
+            correctChoiceIc: "d",
           },
           markscheme: {
             principles: [
@@ -2010,10 +2010,10 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Targeting strategy" },
-              { id: "b", text: "Market segment" },
+              { id: "a", text: "Market segment" },
+              { id: "b", text: "Segmentation base" },
               { id: "c", text: "Positioning" },
-              { id: "d", text: "Segmentation base" },
+              { id: "d", text: "Targeting strategy" },
             ],
             correctChoiceId: "c",
           },
@@ -2054,15 +2054,15 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "One product sold to every customer" },
               {
-                id: "b",
+                id: "a",
                 text: "Tailoring products to very small or individual segments",
               },
-              { id: "c", text: "Ignoring market differences entirely" },
+              { id: "b", text: "Ignoring market differences entirely" },
+              { id: "c", text: "One product sold to every customer" },
               { id: "d", text: "Using only demographic data" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

@@ -51,22 +51,22 @@ export const lesson111: Lesson = {
           "choices": [
                     {
                               "id": "a",
-                              "text": "Staying safe when using the internet and devices"
-                    },
-                    {
-                              "id": "b",
-                              "text": "A type of computer game"
-                    },
-                    {
-                              "id": "c",
                               "text": "A password manager"
                     },
                     {
-                              "id": "d",
+                              "id": "b",
+                              "text": "Staying safe when using the internet and devices"
+                    },
+                    {
+                              "id": "c",
                               "text": "A network cable"
+                    },
+                    {
+                              "id": "d",
+                              "text": "A type of computer game"
                     }
           ],
-          "correctChoiceId": "a"
+          "correctChoiceId": "b"
 },
           markscheme: {
           "principles": [
@@ -213,6 +213,214 @@ export const lesson111: Lesson = {
           ],
           "finalAnswer": "E-safety rules: info, passwords, strangers, cyberbullying, trusted adults."
 },
+        },
+        {
+          id: "cipc-u1-es-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Which of these is personal information you should NOT share online?",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "A funny joke" },
+            { id: "b", text: "Your home address" },
+            { id: "c", text: "Your favourite colour" },
+            { id: "d", text: "Your favourite game" },
+          ], correctChoiceId: "b" },
+          markscheme: {
+            principles: [{ kind: "definition", name: "Personal information", statement: "Private details to protect." }],
+            steps: [
+              { reasoning: "Home address is private personal information; the others are safe to share.", marks: 1, markCode: "M" },
+            ],
+            finalAnswer: "**(a)** Your home address",
+          },
+        },
+        {
+          id: "cipc-u1-es-q6",
+          difficulty: "foundation",
+          totalMarks: 2,
+          stem: "What is cyberbullying? What should you do if you see it?",
+          response: { type: "open" },
+          markscheme: {
+            principles: [{ kind: "definition", name: "Cyberbullying", statement: "Being mean or hurtful online." }],
+            steps: [
+              { reasoning: "Cyberbullying = using digital devices to bully or upset someone.", marks: 1, markCode: "M" },
+              { reasoning: "Don't join in; tell a trusted adult.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "Online bullying; tell a trusted adult.",
+          },
+        },
+        {
+          id: "cipc-u1-es-q7",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "A game says 'enter your full name and school to win a prize'. Should you do it? Explain in two sentences.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [{ kind: "skill", name: "Recognising risks", statement: "Personal info requests are suspicious." }],
+            steps: [
+              { reasoning: "No — full name and school are personal information that should stay private.", marks: 1, markCode: "M" },
+              { reasoning: "Close it and tell a trusted adult; real prizes don't need private details.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "No — never share name/school; tell an adult.",
+          },
+        },
+        {
+          id: "cipc-u1-es-q8",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Which is a strong password?",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "12345" },
+            { id: "b", text: "password" },
+            { id: "c", text: "yourname" },
+            { id: "d", text: "Cat$9!Blue" },
+          ], correctChoiceId: "d" },
+          markscheme: {
+            principles: [{ kind: "skill", name: "Strong passwords", statement: "Mix letters, numbers, symbols; not guessable." }],
+            steps: [
+              { reasoning: "Cat$9!Blue mixes letters, numbers and symbols and is not easily guessed.", marks: 1, markCode: "M" },
+            ],
+            finalAnswer: "**(a)** Cat$9!Blue",
+          },
+        },
+        {
+          id: "cipc-u1-es-q9",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "Explain why you should never share your password, even with a friend.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [{ kind: "skill", name: "Password safety", statement: "Passwords protect accounts." }],
+            steps: [
+              { reasoning: "Passwords protect your accounts from being accessed by others.", marks: 1, markCode: "M" },
+              { reasoning: "If shared, someone else could use it — even accidentally or if they lose it.", marks: 1, markCode: "M" },
+              { reasoning: "Keep passwords secret; only you should know them.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "Passwords keep accounts safe; sharing risks access by others.",
+          },
+        },
+        {
+          id: "cipc-u1-es-q10",
+          difficulty: "challenge",
+          totalMarks: 2,
+          stem: "Someone you only know online asks to meet you after school. What is the safe response?",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "Ask them to bring sweets" },
+            { id: "b", text: "Say no and tell a trusted adult" },
+            { id: "c", text: "Agree but tell no one" },
+            { id: "d", text: "Meet in a public place alone" },
+          ], correctChoiceId: "b" },
+          markscheme: {
+            principles: [{ kind: "skill", name: "Stranger danger", statement: "Never meet online-only strangers." }],
+            steps: [
+              { reasoning: "Never arrange to meet people you only know digitally.", marks: 1, markCode: "M" },
+              { reasoning: "Refuse and tell a trusted adult immediately.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "**(a)** Say no and tell a trusted adult",
+          },
+        },
+        {
+          id: "cipc-u1-es-q11",
+          difficulty: "challenge",
+          totalMarks: 3,
+          stem: "What should you do if something online makes you worried, upset or confused? Explain why telling an adult helps.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [{ kind: "skill", name: "Reporting worries", statement: "Stop and tell a trusted adult." }],
+            steps: [
+              { reasoning: "Stop what you are doing and close the page/app.", marks: 1, markCode: "M" },
+              { reasoning: "Tell a trusted adult (parent, teacher) what happened.", marks: 1, markCode: "M" },
+              { reasoning: "Adults can help block/report and you are not alone dealing with it.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "Stop, close it, tell a trusted adult.",
+          },
+        },
+        {
+          id: "cipc-u1-es-q12",
+          difficulty: "foundation",
+          totalMarks: 2,
+          stem: "Name two good e-safety habits when using a device.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [{ kind: "skill", name: "E-safety habits", statement: "Lock devices, think before posting." }],
+            steps: [
+              { reasoning: "First valid habit: lock device with PIN, use strong passwords.", marks: 1, markCode: "M" },
+              { reasoning: "Second valid habit: think before posting, don't share personal info.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "e.g. lock device; think before posting.",
+          },
+        },
+        {
+          id: "cipc-u1-es-q13",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "Why is it risky to post photos of yourself online? Give one reason.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [{ kind: "skill", name: "Photo safety", statement: "Photos can be copied and shared." }],
+            steps: [
+              { reasoning: "Once posted, photos can be copied, shared or seen by strangers.", marks: 1, markCode: "M" },
+              { reasoning: "They can reveal personal information like where you live or go to school.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "Photos can be copied/shared; may reveal personal info.",
+          },
+        },
+        {
+          id: "cipc-u1-es-q14",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "Which message is a likely scam/phishing attempt?",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "'Your music playlist updated'" },
+            { id: "b", text: "'Your friend shared a photo with you'" },
+            { id: "c", text: "'New game level available'" },
+            { id: "d", text: "'You won a prize! Send your password to claim it'" },
+          ], correctChoiceId: "d" },
+          markscheme: {
+            principles: [{ kind: "skill", name: "Spotting scams", statement: "Prizes asking for passwords are fake." }],
+            steps: [
+              { reasoning: "Real organisations never ask for passwords.", marks: 1, markCode: "M" },
+              { reasoning: "'Win a prize, send password' is a classic scam.", marks: 1, markCode: "M" },
+              { reasoning: "Correctly identified the phishing attempt.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "**(a)** Prize message asking for password",
+          },
+        },
+        {
+          id: "cipc-u1-es-q15",
+          difficulty: "challenge",
+          totalMarks: 3,
+          stem: "Design three rules for a safe class group chat that everyone should follow.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [{ kind: "skill", name: "Group chat rules", statement: "Respectful, private, adult-aware." }],
+            steps: [
+              { reasoning: "Rule about respecting others — no mean messages/cyberbullying.", marks: 1, markCode: "M" },
+              { reasoning: "Rule about privacy — don't share personal info or photos.", marks: 1, markCode: "M" },
+              { reasoning: "Rule about reporting — tell an adult about anything worrying.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "e.g. be kind; keep info private; tell an adult if worried.",
+          },
+        },
+        {
+          id: "cipc-u1-es-q16",
+          difficulty: "challenge",
+          totalMarks: 8,
+          stem: "(a) Define e-safety. (b) List three types of personal information to protect. (c) What makes a password strong? (d) Why never share passwords? (e) What should you do if someone online asks to meet you? (f) What is cyberbullying and how should you respond? (g) Why tell a trusted adult about worrying content? (h) Give two good e-safety habits.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [{ kind: "technique", name: "E-safety", statement: "Info protection, passwords, strangers, bullying, adults." }],
+            steps: [
+              { reasoning: "(a) Safe internet/device use.", marks: 1, markCode: "M" },
+              { reasoning: "(b) Name, address, school/phone/passwords.", marks: 1, markCode: "M" },
+              { reasoning: "(c) Letters+numbers+symbols, not guessable.", marks: 1, markCode: "M" },
+              { reasoning: "(d) Sharing lets others access your accounts.", marks: 1, markCode: "M" },
+              { reasoning: "(e) Refuse; never meet online strangers; tell adult.", marks: 1, markCode: "M" },
+              { reasoning: "(f) Online meanness; don't respond, save evidence, tell adult.", marks: 1, markCode: "M" },
+              { reasoning: "(g) Adults can help/block/report; you're not alone.", marks: 1, markCode: "M" },
+              { reasoning: "(h) Two habits: lock devices, think before posting.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "E-safety rules: info, passwords, strangers, cyberbullying, trusted adults.",
+          },
         },
       ],
     },

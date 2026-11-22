@@ -7,6 +7,7 @@ export const unit2: Unit = {
   id: "ela8-u2",
   code: "2",
   title: "Reading Informational Text",
-  description: "Trace central ideas and connections, analyze paragraph structure and point of view, evaluate arguments, and compare texts that disagree.",
+  description:
+    "Trace central ideas and connections, analyze paragraph structure and point of view, evaluate arguments, and compare texts that disagree.",
   lessons: [lesson21, lesson22, lesson23],
 };

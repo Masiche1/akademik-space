@@ -52,12 +52,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$(0,3)$" },
+              { id: "a", text: "$(3,0)$" },
               { id: "b", text: "$(0,12)$" },
-              { id: "c", text: "$(3,0)$" },
-              { id: "d", text: "$(0,6)$" },
+              { id: "c", text: "$(0,6)$" },
+              { id: "d", text: "$(0,3)$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Focus", statement: "$x^2=4ay$ has focus $(0,a)$." }],
@@ -172,12 +172,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$x=0$ and $y=0$" },
-              { id: "b", text: "$x=3$ and $y=3$" },
-              { id: "c", text: "$x=9$ and $y=9$" },
-              { id: "d", text: "$x+y=9$" },
+              { id: "a", text: "$x+y=9$" },
+              { id: "b", text: "$x=9$ and $y=9$" },
+              { id: "c", text: "$x=0$ and $y=0$" },
+              { id: "d", text: "$x=3$ and $y=3$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Asymptotes", statement: "For $xy=c^2$ the asymptotes are the coordinate axes." }],

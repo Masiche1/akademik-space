@@ -60,10 +60,10 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "2/3" },
+              { id: "a", text: "3/5" },
               { id: "b", text: "3/6" },
-              { id: "c", text: "2/5" },
-              { id: "d", text: "3/5" },
+              { id: "c", text: "2/3" },
+              { id: "d", text: "2/5" },
             ],
             correctChoiceId: "b",
           },
@@ -239,11 +239,11 @@ export const lesson52: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "1/4" },
-              { id: "b", text: "1/3" },
-              { id: "c", text: "Equal" },
+              { id: "b", text: "Equal" },
+              { id: "c", text: "1/3" },
               { id: "d", text: "Cannot tell" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -450,11 +450,11 @@ export const lesson52: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "5/14" },
-              { id: "b", text: "5/7" },
-              { id: "c", text: "6/7" },
+              { id: "b", text: "6/7" },
+              { id: "c", text: "5/7" },
               { id: "d", text: "1/7" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

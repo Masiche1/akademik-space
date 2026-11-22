@@ -51,12 +51,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Integrating both sides with respect to $x$" },
-              { id: "b", text: "Differentiating again" },
-              { id: "c", text: "Separating variables" },
-              { id: "d", text: "Substituting $y=e^{x^3}$" },
+              { id: "a", text: "Separating variables" },
+              { id: "b", text: "Substituting $y=e^{x^3}$" },
+              { id: "c", text: "Integrating both sides with respect to $x$" },
+              { id: "d", text: "Differentiating again" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -179,12 +179,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$1$" },
-              { id: "b", text: "$0$" },
-              { id: "c", text: "$\\cos 2x$" },
-              { id: "d", text: "$e^{2x}$" },
+              { id: "a", text: "$e^{2x}$" },
+              { id: "b", text: "$\\cos 2x$" },
+              { id: "c", text: "$1$" },
+              { id: "d", text: "$0$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

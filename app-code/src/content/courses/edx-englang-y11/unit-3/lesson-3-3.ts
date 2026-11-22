@@ -82,12 +82,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Simile" },
-              { id: "b", text: "Alliteration" },
-              { id: "c", text: "Onomatopoeia" },
-              { id: "d", text: "Rhetorical question" },
+              { id: "a", text: "Onomatopoeia" },
+              { id: "b", text: "Rhetorical question" },
+              { id: "c", text: "Alliteration" },
+              { id: "d", text: "Simile" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Simile", statement: "Uses 'like' to compare lamps to moons." }],
@@ -212,12 +212,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Plan the structure, key images and ending" },
-              { id: "b", text: "Start writing at once so that you produce more words" },
+              { id: "a", text: "Check spelling of words you might use" },
+              { id: "b", text: "Plan the structure, key images and ending" },
               { id: "c", text: "Copy out the question" },
-              { id: "d", text: "Check spelling of words you might use" },
+              { id: "d", text: "Start writing at once so that you produce more words" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "skill", name: "Planning", statement: "A short plan improves structure and saves time." }],

@@ -48,12 +48,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$6^2+10^2=8^2$" },
-              { id: "b", text: "$6^2+8^2=10^2$" },
-              { id: "c", text: "$6+8=10$" },
-              { id: "d", text: "$6^2+8^2+10^2=0$" },
+              { id: "a", text: "$6+8=10$" },
+              { id: "b", text: "$6^2+10^2=8^2$" },
+              { id: "c", text: "$6^2+8^2+10^2=0$" },
+              { id: "d", text: "$6^2+8^2=10^2$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -177,12 +177,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$5$ units" },
-              { id: "b", text: "$7$ units" },
-              { id: "c", text: "$\\sqrt{7}$ units" },
+              { id: "a", text: "$7$ units" },
+              { id: "b", text: "$\\sqrt{7}$ units" },
+              { id: "c", text: "$5$ units" },
               { id: "d", text: "$25$ units" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

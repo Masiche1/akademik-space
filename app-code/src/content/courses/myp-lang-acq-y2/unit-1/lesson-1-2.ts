@@ -56,12 +56,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The game started at three o'clock." },
-              { id: "b", text: "Our team scored two goals." },
-              { id: "c", text: "The match was absolutely brilliant." },
-              { id: "d", text: "There were 500 fans at the stadium." },
+              { id: "a", text: "Our team scored two goals." },
+              { id: "b", text: "There were 500 fans at the stadium." },
+              { id: "c", text: "The game started at three o'clock." },
+              { id: "d", text: "The match was absolutely brilliant." },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -173,12 +173,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Only at the very end" },
-              { id: "b", text: "In the headline and first paragraph" },
-              { id: "c", text: "In the pictures only" },
-              { id: "d", text: "Nowhere — it is hidden" },
+              { id: "a", text: "In the pictures only" },
+              { id: "b", text: "Nowhere — it is hidden" },
+              { id: "c", text: "In the headline and first paragraph" },
+              { id: "d", text: "Only at the very end" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -200,12 +200,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The new film is the worst I have seen." },
-              { id: "b", text: "The library opens at nine o'clock." },
-              { id: "c", text: "The concert was absolutely amazing." },
-              { id: "d", text: "Everyone should watch this film." },
+              { id: "a", text: "Everyone should watch this film." },
+              { id: "b", text: "The concert was absolutely amazing." },
+              { id: "c", text: "The new film is the worst I have seen." },
+              { id: "d", text: "The library opens at nine o'clock." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -227,12 +227,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "opened" },
-              { id: "b", text: "scored" },
-              { id: "c", text: "believe" },
-              { id: "d", text: "arrived" },
+              { id: "a", text: "believe" },
+              { id: "b", text: "arrived" },
+              { id: "c", text: "scored" },
+              { id: "d", text: "opened" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -373,12 +373,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "To give the price of the article" },
-              { id: "b", text: "To tell you the topic of the article" },
-              { id: "c", text: "To list every detail" },
-              { id: "d", text: "To be a question only" },
+              { id: "a", text: "To be a question only" },
+              { id: "b", text: "To list every detail" },
+              { id: "c", text: "To give the price of the article" },
+              { id: "d", text: "To tell you the topic of the article" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -431,12 +431,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "There was a concert" },
-              { id: "b", text: "It started at eight" },
-              { id: "c", text: "The event was on Saturday" },
+              { id: "a", text: "It started at eight" },
+              { id: "b", text: "The event was on Saturday" },
+              { id: "c", text: "There was a concert" },
               { id: "d", text: "It was an evening event" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -555,12 +555,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Title, pictures, words" },
-              { id: "b", text: "Beginning, middle, end" },
-              { id: "c", text: "Characters, setting, author" },
-              { id: "d", text: "Problem, solution, moral" },
+              { id: "a", text: "Characters, setting, author" },
+              { id: "b", text: "Title, pictures, words" },
+              { id: "c", text: "Problem, solution, moral" },
+              { id: "d", text: "Beginning, middle, end" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -673,11 +673,11 @@ export const lesson12: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Only the ending" },
-              { id: "b", text: "The problem or adventure" },
-              { id: "c", text: "The author's name" },
-              { id: "d", text: "A list of facts" },
+              { id: "b", text: "A list of facts" },
+              { id: "c", text: "The problem or adventure" },
+              { id: "d", text: "The author's name" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -699,12 +699,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "delighted" },
+              { id: "a", text: "when" },
               { id: "b", text: "present" },
-              { id: "c", text: "saw" },
-              { id: "d", text: "when" },
+              { id: "c", text: "delighted" },
+              { id: "d", text: "saw" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -726,12 +726,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Happy" },
-              { id: "b", text: "Angry" },
+              { id: "a", text: "Sleepy" },
+              { id: "b", text: "Happy" },
               { id: "c", text: "Bored" },
-              { id: "d", text: "Sleepy" },
+              { id: "d", text: "Angry" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -872,12 +872,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A retelling of every small detail" },
-              { id: "b", text: "A short version keeping only the main events, in order" },
-              { id: "c", text: "The story copied word for word" },
-              { id: "d", text: "A list of new words" },
+              { id: "a", text: "A short version keeping only the main events, in order" },
+              { id: "b", text: "A retelling of every small detail" },
+              { id: "c", text: "A list of new words" },
+              { id: "d", text: "The story copied word for word" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -930,9 +930,9 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Present simple" },
+              { id: "a", text: "Future with 'will'" },
               { id: "b", text: "Past simple" },
-              { id: "c", text: "Future with 'will'" },
+              { id: "c", text: "Present simple" },
               { id: "d", text: "No tense at all" },
             ],
             correctChoiceId: "b",

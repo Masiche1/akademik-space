@@ -48,12 +48,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$15\\pi \\text{ cm}^3$" },
-              { id: "b", text: "$30\\pi \\text{ cm}^3$" },
-              { id: "c", text: "$45\\pi \\text{ cm}^3$" },
-              { id: "d", text: "$75\\pi \\text{ cm}^3$" },
+              { id: "a", text: "$75\\pi \\text{ cm}^3$" },
+              { id: "b", text: "$45\\pi \\text{ cm}^3$" },
+              { id: "c", text: "$30\\pi \\text{ cm}^3$" },
+              { id: "d", text: "$15\\pi \\text{ cm}^3$" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -178,12 +178,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$36\\pi \\text{ in}^3$" },
-              { id: "b", text: "$12\\pi \\text{ in}^3$" },
-              { id: "c", text: "$108\\pi \\text{ in}^3$" },
-              { id: "d", text: "$27\\pi \\text{ in}^3$" },
+              { id: "a", text: "$12\\pi \\text{ in}^3$" },
+              { id: "b", text: "$27\\pi \\text{ in}^3$" },
+              { id: "c", text: "$36\\pi \\text{ in}^3$" },
+              { id: "d", text: "$108\\pi \\text{ in}^3$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

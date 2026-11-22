@@ -61,12 +61,12 @@ export const lesson121: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Greeting → address → body" },
-              { id: "b", text: "Address → date → greeting → body" },
-              { id: "c", text: "Body → greeting → address" },
-              { id: "d", text: "Signature → body → greeting" },
+              { id: "a", text: "Address → date → greeting → body" },
+              { id: "b", text: "Signature → body → greeting" },
+              { id: "c", text: "Greeting → address → body" },
+              { id: "d", text: "Body → greeting → address" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -89,12 +89,12 @@ export const lesson121: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "I wanna know stuff" },
-              { id: "b", text: "Please send me the info" },
-              { id: "c", text: "I would appreciate receiving the information" },
-              { id: "d", text: "Gimme details ASAP" },
+              { id: "a", text: "Please send me the info" },
+              { id: "b", text: "Gimme details ASAP" },
+              { id: "c", text: "I wanna know stuff" },
+              { id: "d", text: "I would appreciate receiving the information" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -234,12 +234,12 @@ export const lesson121: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Conclusion" },
-              { id: "b", text: "Method" },
+              { id: "a", text: "Method" },
+              { id: "b", text: "Title" },
               { id: "c", text: "Findings" },
-              { id: "d", text: "Title" },
+              { id: "d", text: "Conclusion" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -264,12 +264,12 @@ export const lesson121: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The results" },
-              { id: "b", text: "What you did" },
-              { id: "c", text: "Your opinion" },
+              { id: "a", text: "Your opinion" },
+              { id: "b", text: "The results" },
+              { id: "c", text: "What you did" },
               { id: "d", text: "The conclusion" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

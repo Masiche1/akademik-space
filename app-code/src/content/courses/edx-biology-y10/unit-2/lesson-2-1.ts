@@ -55,12 +55,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Reactants: carbon dioxide and water. Products: glucose and oxygen." },
+              { id: "a", text: "Reactants: carbon dioxide and oxygen. Products: glucose and water." },
               { id: "b", text: "Reactants: glucose and oxygen. Products: carbon dioxide and water." },
-              { id: "c", text: "Reactants: carbon dioxide and oxygen. Products: glucose and water." },
+              { id: "c", text: "Reactants: carbon dioxide and water. Products: glucose and oxygen." },
               { id: "d", text: "Reactants: water and oxygen. Products: glucose and carbon dioxide." },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -191,12 +191,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Spongy mesophyll" },
+              { id: "a", text: "Palisade mesophyll" },
               { id: "b", text: "Upper epidermis" },
-              { id: "c", text: "Palisade mesophyll" },
-              { id: "d", text: "Xylem" },
+              { id: "c", text: "Xylem" },
+              { id: "d", text: "Spongy mesophyll" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [

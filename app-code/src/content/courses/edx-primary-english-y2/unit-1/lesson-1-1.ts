@@ -58,12 +58,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "rain" },
-              { id: "b", text: "red" },
-              { id: "c", text: "rip" },
-              { id: "d", text: "run" },
+              { id: "a", text: "rip" },
+              { id: "b", text: "run" },
+              { id: "c", text: "rain" },
+              { id: "d", text: "red" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -88,12 +88,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "rain" },
-              { id: "b", text: "day" },
-              { id: "c", text: "make" },
-              { id: "d", text: "play" },
+              { id: "a", text: "day" },
+              { id: "b", text: "rain" },
+              { id: "c", text: "play" },
+              { id: "d", text: "make" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -227,12 +227,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "walked" },
-              { id: "b", text: "walking" },
-              { id: "c", text: "walker" },
+              { id: "a", text: "walking" },
+              { id: "b", text: "walker" },
+              { id: "c", text: "walked" },
               { id: "d", text: "walks" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -257,9 +257,9 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "hoped" },
-              { id: "b", text: "hopping" },
-              { id: "c", text: "hopeing" },
+              { id: "a", text: "hopeing" },
+              { id: "b", text: "hoped" },
+              { id: "c", text: "hopping" },
               { id: "d", text: "hoping" },
             ],
             correctChoiceId: "d",

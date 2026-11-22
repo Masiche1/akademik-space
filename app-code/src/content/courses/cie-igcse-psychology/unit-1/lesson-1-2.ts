@@ -87,12 +87,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Genetic inheritance" },
-              { id: "b", text: "Consequences — rewards and punishments" },
+              { id: "a", text: "Brain chemistry only" },
+              { id: "b", text: "Genetic inheritance" },
               { id: "c", text: "Unconscious conflicts" },
-              { id: "d", text: "Brain chemistry only" },
+              { id: "d", text: "Consequences — rewards and punishments" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -274,6 +274,551 @@ export const lesson12: Lesson = {
               "(a) Brain/genetic factors. (b) Learned reinforcement. (c) Complementary — biology + environment interact.",
             commonErrors: [
               "Forcing one approach to 'win' rather than weighing both.",
+            ],
+          },
+        },
+        {
+          id: "cieipsych-u1-bb-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Classical conditioning is best described as:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Conscious decision-making" },
+              {
+                id: "b",
+                text: "Learning through rewards and punishments",
+              },
+              {
+                id: "c",
+                text: "Learning by association between stimuli",
+              },
+              { id: "d", text: "Innate biological drives" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Classical conditioning",
+                statement:
+                  "Learning by association — a neutral stimulus becomes linked to an automatic response.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "Classical conditioning pairs stimuli so a neutral one triggers a response; operant uses consequences.",
+                marks: 1,
+                markCode: "M",
+              },
+            ],
+            finalAnswer: "(b) Learning by association between stimuli.",
+            commonErrors: [
+              "Confusing classical conditioning with operant conditioning.",
+            ],
+          },
+        },
+        {
+          id: "cieipsych-u1-bb-q6",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "The biological approach explains behaviour through which factors? (genes, brain, hormones, neurotransmitters — how many?)",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 4 }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "context",
+                name: "Biological causes",
+                statement: "Genes + brain + hormones + neurotransmitters.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "Four factors: genes, brain structure/function, hormones and neurotransmitters.",
+                marks: 1,
+                markCode: "M",
+              },
+            ],
+            finalAnswer: "4",
+            commonErrors: ["Omitting one factor or adding environment."],
+          },
+        },
+        {
+          id: "cieipsych-u1-bb-q7",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "In a sample of 60 children, 15 show a fear of dogs after being bitten. What percentage show this fear?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 25 }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "context",
+                name: "Percentage calculation",
+                statement: "Percentage = part / whole × 100.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "15 / 60 = 0.25 → 25%.",
+                marks: 1,
+                markCode: "M",
+              },
+            ],
+            finalAnswer: "25%",
+            commonErrors: ["Answering 0.25 instead of 25%."],
+          },
+        },
+        {
+          id: "cieipsych-u1-bb-q8",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "Explain positive reinforcement in operant conditioning with an example.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Positive reinforcement",
+                statement:
+                  "Adding a pleasant consequence increases the behaviour that produced it.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "Positive reinforcement adds a reward after a behaviour, making that behaviour more likely to be repeated.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "The behaviour is strengthened because the consequence is pleasant — e.g. praise after tidying a room.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "Example: a child helps with chores and receives pocket money → helping becomes more frequent.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer:
+              "Adding a reward after a behaviour makes it more likely — e.g. praise increases tidying.",
+            commonErrors: [
+              "Confusing positive reinforcement with punishment — both involve consequences but have opposite effects.",
+            ],
+          },
+        },
+        {
+          id: "cieipsych-u1-bb-q9",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Which neurotransmitter has been linked to depression when its levels are low?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Serotonin" },
+              { id: "b", text: "Dopamine only" },
+              { id: "c", text: "Adrenaline" },
+              { id: "d", text: "Thyroxine" },
+            ],
+            aorrectChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "context",
+                name: "Neurotransmitters",
+                statement:
+                  "Serotonin imbalance is linked to mood disorders such as depression.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "Low serotonin activity is associated with depression; adrenaline relates to arousal, not mood disorder.",
+                marks: 1,
+                markCode: "M",
+              },
+            ],
+            finalAnswer: "(c) Serotonin.",
+            commonErrors: [
+              "Choosing adrenaline — it mediates fight-or-flight, not depression.",
+            ],
+          },
+        },
+        {
+          id: "cieipsych-u1-bb-q10",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "In a study of 50 participants, 20 report regular exercise. (a) How many do not exercise regularly? (b) What percentage exercise regularly?",
+          response: {
+            type: "numeric",
+            parts: [
+              { label: "a", answer: 30 },
+              { label: "b", answer: 40 },
+            ],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "context",
+                name: "Sample calculations",
+                statement:
+                  "Non-exercisers = total − exercisers; percentage = part / whole × 100.",
+              },
+            ],
+            steps: [
+              {
+                part: "a",
+                reasoning: "50 − 20 = 30.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                part: "b",
+                reasoning: "20 / 50 = 0.4 → 40%.",
+                marks: 1,
+                markCode: "M",
+              },
+            ],
+            finalAnswer: "(a) 30  (b) 40%",
+            commonErrors: [
+              "Reporting 0.4 instead of 40% for part (b).",
+            ],
+          },
+        },
+        {
+          id: "cieipsych-u1-bb-q11",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "In operant conditioning, a behaviour that is followed by punishment is most likely to:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Decrease in frequency" },
+              { id: "b", text: "Remain unchanged" },
+              { id: "c", text: "Increase in frequency" },
+              { id: "d", text: "Become a reflex" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Operant conditioning",
+                statement:
+                  "Behaviour followed by punishment is reduced; followed by reward it is repeated.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "Punishment is an aversive consequence — the behaviour that produced it becomes less likely.",
+                marks: 1,
+                markCode: "M",
+              },
+            ],
+            finalAnswer: "(b) Decrease in frequency.",
+            commonErrors: [
+              "Thinking punishment strengthens behaviour through attention.",
+            ],
+          },
+        },
+        {
+          id: "cieipsych-u1-bb-q12",
+          difficulty: "challenge",
+          totalMarks: 6,
+          stem: "A child develops a fear of lifts after being trapped in one. Compare biological and behaviourist explanations of this fear.",
+          parts: [
+            {
+              label: "a",
+              prompt: "Give a biological explanation.",
+              marks: 2,
+            },
+            {
+              label: "b",
+              prompt: "Give a behaviourist explanation.",
+              marks: 2,
+            },
+            {
+              label: "c",
+              prompt: "Evaluate which approach explains it better.",
+              marks: 2,
+            },
+          ],
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "skill",
+                name: "Approach comparison",
+                statement:
+                  "Internal biological causes vs learned environmental causes.",
+              },
+            ],
+            steps: [
+              {
+                part: "a",
+                reasoning:
+                  "Biological: the traumatic event may have altered the brain's fear circuitry — e.g. heightened amygdala response to enclosed spaces.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                part: "a",
+                reasoning:
+                  "Some children may have a genetic predisposition to anxiety disorders making them more vulnerable.",
+                marks: 1,
+                markCode: "A",
+              },
+              {
+                part: "b",
+                reasoning:
+                  "Behaviourist: classical conditioning — the lift (neutral stimulus) was paired with the trauma (unconditioned stimulus) producing fear.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                part: "b",
+                reasoning:
+                  "The fear is maintained by avoidance — avoiding lifts prevents extinction of the conditioned response.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                part: "c",
+                reasoning:
+                  "The behaviourist account directly explains how the fear was acquired and maintained; biology explains vulnerability but not the specific trigger.",
+                marks: 1,
+                markCode: "R",
+              },
+              {
+                part: "c",
+                reasoning:
+                  "Judgement: they complement each other — conditioning explains acquisition, biology explains individual differences in susceptibility.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer:
+              "(a) Altered fear circuitry/predisposition. (b) Classical conditioning + avoidance. (c) Complementary — learning explains acquisition, biology explains susceptibility.",
+            commonErrors: [
+              "Claiming biology alone explains the specific fear of lifts.",
+            ],
+          },
+        },
+        {
+          id: "cieipsych-u1-bb-q13",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "In classical conditioning, the stimulus that naturally and automatically triggers a response is the:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Neutral stimulus" },
+              { id: "b", text: "Unconditioned stimulus" },
+              { id: "c", text: "Conditioned stimulus" },
+              { id: "d", text: "Reinforcer" },
+            ],
+            borrectChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Unconditioned stimulus",
+                statement:
+                  "A stimulus that naturally triggers a response without learning.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "The unconditioned stimulus (e.g. food, pain) triggers the unconditioned response automatically.",
+                marks: 1,
+                markCode: "M",
+              },
+            ],
+            finalAnswer: "(c) Unconditioned stimulus.",
+            commonErrors: [
+              "Swapping neutral and unconditioned stimulus.",
+            ],
+          },
+        },
+        {
+          id: "cieipsych-u1-bb-q14",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Which approach argues that behaviour is learned through the environment rather than innate biology?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Behaviourist approach" },
+              { id: "b", text: "Psychodynamic approach" },
+              { id: "c", text: "Biological approach" },
+              { id: "d", text: "Humanistic approach" },
+            ],
+            aorrectChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "context",
+                name: "Behaviourist approach",
+                statement:
+                  "Behaviour is learned through conditioning — environment over biology.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "Behaviourists reject innate explanations, focusing on observable learned behaviour.",
+                marks: 1,
+                markCode: "M",
+              },
+            ],
+            finalAnswer: "(c) Behaviourist approach.",
+            commonErrors: [
+              "Choosing psychodynamic — it stresses unconscious drives, not environmental learning.",
+            ],
+          },
+        },
+        {
+          id: "cieipsych-u1-bb-q15",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "Explain how the behaviourist approach would explain depression.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Behaviourist view of depression",
+                statement:
+                  "Depressive behaviour is learned through conditioning and lack of reinforcement.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "Learned helplessness: repeated failures without reward teach the person that actions have no effect — passivity and low mood follow.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "Loss of positive reinforcement: when pleasant activities stop being rewarding, depressive behaviours (withdrawal, inactivity) are maintained.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "Social learning: depression may be modelled — observing others' depressive responses teaches similar behaviour.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer:
+              "Depression is learned — learned helplessness and loss of reinforcement maintain low mood and inactivity.",
+            commonErrors: [
+              "Giving a biological explanation (serotonin) instead of a behaviourist one.",
+            ],
+          },
+        },
+        {
+          id: "cieipsych-u1-bb-q16",
+          difficulty: "challenge",
+          totalMarks: 6,
+          stem: "Evaluate the behaviourist approach to explaining behaviour.",
+          parts: [
+            {
+              label: "a",
+              prompt: "Give two strengths of the behaviourist approach.",
+              marks: 2,
+            },
+            {
+              label: "b",
+              prompt: "Give two limitations of the behaviourist approach.",
+              marks: 2,
+            },
+            {
+              label: "c",
+              prompt: "Reach a justified judgement.",
+              marks: 2,
+            },
+          ],
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "skill",
+                name: "Behaviourist evaluation",
+                statement:
+                  "Scientific study of observable behaviour vs ignoring mental processes and biology.",
+              },
+            ],
+            steps: [
+              {
+                part: "a",
+                reasoning:
+                  "It studies observable behaviour objectively — conditioning can be tested and measured in controlled experiments.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                part: "a",
+                reasoning:
+                  "It has practical applications — behaviour therapy uses reinforcement principles to treat phobias and habits.",
+                marks: 1,
+                markCode: "A",
+              },
+              {
+                part: "b",
+                reasoning:
+                  "It ignores mental processes, biology and free will — much behaviour involves cognition the approach cannot explain.",
+                marks: 1,
+                markCode: "R",
+              },
+              {
+                part: "b",
+                reasoning:
+                  "Animal studies may not generalise to humans, and some behaviours are clearly not learned by simple conditioning.",
+                marks: 1,
+                markCode: "R",
+              },
+              {
+                part: "c",
+                reasoning:
+                  "Judgement: powerful for learned behaviours and therapies, but incomplete as a general theory of all behaviour.",
+                marks: 1,
+                markCode: "A",
+              },
+              {
+                part: "c",
+                reasoning:
+                  "Modern psychology incorporates conditioning alongside cognitive and biological explanations.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer:
+              "(a) Objective, testable, therapeutic applications. (b) Ignores mind and biology; limited generalisability. (c) Valuable but incomplete.",
+            commonErrors: [
+              "One-sided evaluation with no judgement.",
             ],
           },
         },

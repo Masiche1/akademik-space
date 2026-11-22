@@ -50,12 +50,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Pancreas" },
-              { id: "b", text: "Pituitary gland" },
-              { id: "c", text: "Adrenal gland" },
-              { id: "d", text: "Ovary" },
+              { id: "a", text: "Adrenal gland" },
+              { id: "b", text: "Ovary" },
+              { id: "c", text: "Pancreas" },
+              { id: "d", text: "Pituitary gland" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -178,10 +178,10 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Vasoconstriction of the arterioles in the skin" },
-              { id: "b", text: "Shivering" },
+              { id: "a", text: "Shivering" },
+              { id: "b", text: "Skin capillaries moving closer to the surface" },
               { id: "c", text: "Vasodilation of the arterioles in the skin" },
-              { id: "d", text: "Skin capillaries moving closer to the surface" },
+              { id: "d", text: "Vasoconstriction of the arterioles in the skin" },
             ],
             correctChoiceId: "c",
           },

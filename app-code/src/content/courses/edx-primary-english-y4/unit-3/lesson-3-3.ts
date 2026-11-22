@@ -60,12 +60,12 @@ export const lesson123: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The climax" },
-              { id: "b", text: "The beginning" },
-              { id: "c", text: "The resolution" },
-              { id: "d", text: "The problem" },
+              { id: "a", text: "The resolution" },
+              { id: "b", text: "The problem" },
+              { id: "c", text: "The beginning" },
+              { id: "d", text: "The climax" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -94,12 +94,12 @@ export const lesson123: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Tom was angry" },
-              { id: "b", text: "Tom clenched his fists" },
-              { id: "c", text: "Tom is a boy" },
-              { id: "d", text: "Tom ran" },
+              { id: "a", text: "Tom is a boy" },
+              { id: "b", text: "Tom was angry" },
+              { id: "c", text: "Tom ran" },
+              { id: "d", text: "Tom clenched his fists" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -229,12 +229,12 @@ export const lesson123: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Font size" },
-              { id: "b", text: "Spelling and grammar" },
-              { id: "c", text: "Paper colour" },
-              { id: "d", text: "Title" },
+              { id: "a", text: "Paper colour" },
+              { id: "b", text: "Title" },
+              { id: "c", text: "Spelling and grammar" },
+              { id: "d", text: "Font size" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -257,12 +257,12 @@ export const lesson123: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Writing the first draft" },
-              { id: "b", text: "Checking for errors" },
-              { id: "c", text: "Planning the story" },
-              { id: "d", text: "Choosing a title" },
+              { id: "a", text: "Checking for errors" },
+              { id: "b", text: "Planning the story" },
+              { id: "c", text: "Choosing a title" },
+              { id: "d", text: "Writing the first draft" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

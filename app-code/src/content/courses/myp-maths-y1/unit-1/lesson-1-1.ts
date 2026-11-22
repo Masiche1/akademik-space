@@ -53,12 +53,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$0.7$" },
-              { id: "b", text: "$0.07$" },
-              { id: "c", text: "$0.007$" },
-              { id: "d", text: "$7$" },
+              { id: "a", text: "$7$" },
+              { id: "b", text: "$0.007$" },
+              { id: "c", text: "$0.07$" },
+              { id: "d", text: "$0.7$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -160,12 +160,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$0.6$" },
-              { id: "b", text: "$0.06$" },
-              { id: "c", text: "$0.006$" },
-              { id: "d", text: "$6$" },
+              { id: "a", text: "$0.006$" },
+              { id: "b", text: "$6$" },
+              { id: "c", text: "$0.06$" },
+              { id: "d", text: "$0.6$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -187,12 +187,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$4.3$" },
-              { id: "b", text: "$4.4$" },
+              { id: "a", text: "$4$" },
+              { id: "b", text: "$4.3$" },
               { id: "c", text: "$4.38$" },
-              { id: "d", text: "$4$" },
+              { id: "d", text: "$4.4$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -214,12 +214,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$0.7$" },
+              { id: "a", text: "$0.77$" },
               { id: "b", text: "$0.07$" },
-              { id: "c", text: "$0.707$" },
-              { id: "d", text: "$0.77$" },
+              { id: "c", text: "$0.7$" },
+              { id: "d", text: "$0.707$" },
             ],
-            correctChoiceId: "d",
+            correctChoiceIa: "d",
           },
           markscheme: {
             principles: [
@@ -280,9 +280,9 @@ export const lesson11: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$9$" },
-              { id: "b", text: "$19$" },
-              { id: "c", text: "$11$" },
-              { id: "d", text: "$15$" },
+              { id: "b", text: "$15$" },
+              { id: "c", text: "$19$" },
+              { id: "d", text: "$11$" },
             ],
             correctChoiceId: "a",
           },
@@ -326,12 +326,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$2.34$ m" },
-              { id: "b", text: "$2.35$ m" },
-              { id: "c", text: "$2.3$ m" },
-              { id: "d", text: "$2.4$ m" },
+              { id: "a", text: "$2.3$ m" },
+              { id: "b", text: "$2.4$ m" },
+              { id: "c", text: "$2.34$ m" },
+              { id: "d", text: "$2.35$ m" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -491,8 +491,8 @@ export const lesson11: Lesson = {
             choices: [
               { id: "a", text: "$-11$" },
               { id: "b", text: "$-5$" },
-              { id: "c", text: "$5$" },
-              { id: "d", text: "$11$" },
+              { id: "c", text: "$11$" },
+              { id: "d", text: "$5$" },
             ],
             correctChoiceId: "b",
           },
@@ -594,12 +594,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$-15$" },
-              { id: "b", text: "$-3$" },
-              { id: "c", text: "$3$" },
-              { id: "d", text: "$15$" },
+              { id: "a", text: "$3$" },
+              { id: "b", text: "$15$" },
+              { id: "c", text: "$-3$" },
+              { id: "d", text: "$-15$" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -621,8 +621,8 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$-11$" },
-              { id: "b", text: "$-3$" },
+              { id: "a", text: "$-3$" },
+              { id: "b", text: "$-11$" },
               { id: "c", text: "$3$" },
               { id: "d", text: "$11$" },
             ],
@@ -648,9 +648,9 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$-20$" },
+              { id: "a", text: "$9$" },
               { id: "b", text: "$-9$" },
-              { id: "c", text: "$9$" },
+              { id: "c", text: "$-20$" },
               { id: "d", text: "$20$" },
             ],
             correctChoiceId: "d",
@@ -714,9 +714,9 @@ export const lesson11: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$-5^\\circ\\text{C}$" },
-              { id: "b", text: "$11^\\circ\\text{C}$" },
-              { id: "c", text: "$-11^\\circ\\text{C}$" },
-              { id: "d", text: "$5^\\circ\\text{C}$" },
+              { id: "b", text: "$5^\\circ\\text{C}$" },
+              { id: "c", text: "$11^\\circ\\text{C}$" },
+              { id: "d", text: "$-11^\\circ\\text{C}$" },
             ],
             correctChoiceId: "a",
           },
@@ -760,8 +760,8 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$(-2)\\times(-3)\\div(-2)$" },
-              { id: "b", text: "$(-4)\\div(-2)\\times(-3)$" },
+              { id: "a", text: "$(-4)\\div(-2)\\times(-3)$" },
+              { id: "b", text: "$(-2)\\times(-3)\\div(-2)$" },
               { id: "c", text: "$(-6)\\div(-3)$" },
               { id: "d", text: "$(-5)+(-7)$" },
             ],

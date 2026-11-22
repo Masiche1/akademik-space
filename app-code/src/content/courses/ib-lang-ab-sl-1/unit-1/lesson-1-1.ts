@@ -52,12 +52,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Good night" },
-              { id: "b", text: "Good morning" },
-              { id: "c", text: "Goodbye" },
-              { id: "d", text: "Good evening only after 6 pm" },
+              { id: "a", text: "Good morning" },
+              { id: "b", text: "Goodbye" },
+              { id: "c", text: "Good evening only after 6 pm" },
+              { id: "d", text: "Good night" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -148,12 +148,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Good night" },
-              { id: "b", text: "Good morning" },
-              { id: "c", text: "Goodbye" },
-              { id: "d", text: "Good evening" },
+              { id: "a", text: "Good evening" },
+              { id: "b", text: "Goodbye" },
+              { id: "c", text: "Good morning" },
+              { id: "d", text: "Good night" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -175,12 +175,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "My name is Ana and I am from Spain." },
-              { id: "b", text: "I from am Spain." },
-              { id: "c", text: "Name my is Ana." },
-              { id: "d", text: "I am Spain from." },
+              { id: "a", text: "Name my is Ana." },
+              { id: "b", text: "My name is Ana and I am from Spain." },
+              { id: "c", text: "I am Spain from." },
+              { id: "d", text: "I from am Spain." },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -221,8 +221,8 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "See you tomorrow" },
-              { id: "b", text: "Good luck" },
+              { id: "a", text: "Good luck" },
+              { id: "b", text: "See you tomorrow" },
               { id: "c", text: "Nice to meet you" },
               { id: "d", text: "Good night" },
             ],
@@ -272,12 +272,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "What is your name?" },
-              { id: "b", text: "How old are you?" },
-              { id: "c", text: "Where are you from?" },
-              { id: "d", text: "Who is your teacher?" },
+              { id: "a", text: "How old are you?" },
+              { id: "b", text: "What is your name?" },
+              { id: "c", text: "Who is your teacher?" },
+              { id: "d", text: "Where are you from?" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -300,12 +300,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "I don't know." },
-              { id: "b", text: "Good night." },
-              { id: "c", text: "Nice to meet you too." },
-              { id: "d", text: "Go away." },
+              { id: "a", text: "Good night." },
+              { id: "b", text: "Go away." },
+              { id: "c", text: "I don't know." },
+              { id: "d", text: "Nice to meet you too." },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -353,9 +353,9 @@ export const lesson11: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Hi. Marco." },
-              { id: "b", text: "I like pizza." },
+              { id: "b", text: "Goodbye, Marco." },
               { id: "c", text: "Good morning. My name is Marco. I am from Italy. Nice to meet you." },
-              { id: "d", text: "Goodbye, Marco." },
+              { id: "d", text: "I like pizza." },
             ],
             correctChoiceId: "c",
           },
@@ -479,9 +479,9 @@ export const lesson11: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "How old are you?" },
-              { id: "b", text: "Where are you?" },
-              { id: "c", text: "What is your name?" },
-              { id: "d", text: "Do you like school?" },
+              { id: "b", text: "Do you like school?" },
+              { id: "c", text: "Where are you?" },
+              { id: "d", text: "What is your name?" },
             ],
             correctChoiceId: "a",
           },
@@ -573,11 +573,11 @@ export const lesson11: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "What is your name?" },
-              { id: "b", text: "Where do you live?" },
-              { id: "c", text: "How old are you?" },
+              { id: "b", text: "How old are you?" },
+              { id: "c", text: "Where do you live?" },
               { id: "d", text: "Do you like school?" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -599,12 +599,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "I am from Spain." },
-              { id: "b", text: "I am twelve years old." },
-              { id: "c", text: "I like music." },
+              { id: "a", text: "I am twelve years old." },
+              { id: "b", text: "I like music." },
+              { id: "c", text: "I am from Spain." },
               { id: "d", text: "My name is Ana." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -645,12 +645,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Yes, I am." },
-              { id: "b", text: "Yes, I do." },
-              { id: "c", text: "Yes, I like." },
-              { id: "d", text: "I do like yes." },
+              { id: "a", text: "Yes, I like." },
+              { id: "b", text: "I do like yes." },
+              { id: "c", text: "Yes, I do." },
+              { id: "d", text: "Yes, I am." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -698,9 +698,9 @@ export const lesson11: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "I football like." },
-              { id: "b", text: "Like I football." },
+              { id: "b", text: "Football like I." },
               { id: "c", text: "I like football." },
-              { id: "d", text: "Football like I." },
+              { id: "d", text: "Like I football." },
             ],
             correctChoiceId: "c",
           },
@@ -771,12 +771,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Where you live?" },
-              { id: "b", text: "Where do you live?" },
-              { id: "c", text: "Where does you live?" },
-              { id: "d", text: "Where are you live?" },
+              { id: "a", text: "Where are you live?" },
+              { id: "b", text: "Where you live?" },
+              { id: "c", text: "Where do you live?" },
+              { id: "d", text: "Where does you live?" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

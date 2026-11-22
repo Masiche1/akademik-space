@@ -52,11 +52,11 @@ export const lesson43: Lesson = {
           totalMarks: 2,
           stem: "Simplify $\\sqrt{-36}$ using the principal square root.",
           response: { type: "mcq", choices: [
-            { id: "a", text: "$6i$" },
-            { id: "b", text: "$-6i$" },
-            { id: "c", text: "$36i$" },
-            { id: "d", text: "$6$" },
-          ], correctChoiceId: "a" },
+            { id: "a", text: "$6$" },
+            { id: "b", text: "$6i$" },
+            { id: "c", text: "$-6i$" },
+            { id: "d", text: "$36i$" },
+          ], correctChoiceId: "b" },
           markscheme: {
             principles: [
               { kind: "definition", name: "Imaginary unit", statement: "$i=\\sqrt{-1}$ and $i^2=-1$." },
@@ -198,11 +198,11 @@ export const lesson43: Lesson = {
           totalMarks: 2,
           stem: "A ball is launched from a platform $6$ ft above the ground with initial upward velocity $32$ ft/s. Which model gives its height $h(t)$ in feet after $t$ seconds?",
           response: { type: "mcq", choices: [
-            { id: "a", text: "$h(t)=-16t^2+32t+6$" },
-            { id: "b", text: "$h(t)=16t^2+32t+6$" },
-            { id: "c", text: "$h(t)=-16t^2+6t+32$" },
-            { id: "d", text: "$h(t)=-32t^2+16t+6$" },
-          ], correctChoiceId: "a" },
+            { id: "a", text: "$h(t)=16t^2+32t+6$" },
+            { id: "b", text: "$h(t)=-16t^2+6t+32$" },
+            { id: "c", text: "$h(t)=-32t^2+16t+6$" },
+            { id: "d", text: "$h(t)=-16t^2+32t+6$" },
+          ], correctChoiceId: "d" },
           markscheme: {
             principles: [
               { kind: "formula", name: "Projectile height model", statement: "$h(t)=-16t^2+v_0t+h_0$ for height in feet and time in seconds." },

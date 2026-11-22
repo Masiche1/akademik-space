@@ -90,12 +90,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Increases (blueshift)" },
-              { id: "b", text: "Decreases (redshift)" },
-              { id: "c", text: "Stays the same" },
+              { id: "a", text: "Stays the same" },
+              { id: "b", text: "Increases (blueshift)" },
+              { id: "c", text: "Decreases (redshift)" },
               { id: "d", text: "Becomes zero" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -321,12 +321,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Moves towards the observer" },
-              { id: "b", text: "Moves away from the observer" },
-              { id: "c", text: "Is stationary" },
-              { id: "d", text: "Emits a longer wavelength" },
+              { id: "a", text: "Is stationary" },
+              { id: "b", text: "Emits a longer wavelength" },
+              { id: "c", text: "Moves towards the observer" },
+              { id: "d", text: "Moves away from the observer" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -491,12 +491,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A shock wave (sonic boom)" },
-              { id: "b", text: "Only a slightly higher pitch" },
-              { id: "c", text: "No waves ahead of it" },
-              { id: "d", text: "A lower amplitude everywhere" },
+              { id: "a", text: "Only a slightly higher pitch" },
+              { id: "b", text: "No waves ahead of it" },
+              { id: "c", text: "A lower amplitude everywhere" },
+              { id: "d", text: "A shock wave (sonic boom)" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -577,12 +577,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Receding from us" },
-              { id: "b", text: "Approaching us" },
-              { id: "c", text: "Stationary" },
-              { id: "d", text: "Very hot" },
+              { id: "a", text: "Very hot" },
+              { id: "b", text: "Stationary" },
+              { id: "c", text: "Approaching us" },
+              { id: "d", text: "Receding from us" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -766,15 +766,15 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "Sound stops being emitted" },
+              { id: "b", text: "No Doppler shift occurs" },
               {
-                id: "a",
+                id: "c",
                 text: "Wavefronts pile up ahead of it, forming a shock wave",
               },
-              { id: "b", text: "No Doppler shift occurs" },
-              { id: "c", text: "The observed frequency doubles" },
-              { id: "d", text: "Sound stops being emitted" },
+              { id: "d", text: "The observed frequency doubles" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -958,12 +958,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Power per unit area" },
+              { id: "a", text: "Force per unit area" },
               { id: "b", text: "Energy per unit volume" },
-              { id: "c", text: "Force per unit area" },
-              { id: "d", text: "Wavelength per unit time" },
+              { id: "c", text: "Wavelength per unit time" },
+              { id: "d", text: "Power per unit area" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1000,12 +1000,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "One quarter" },
+              { id: "a", text: "The same" },
               { id: "b", text: "One half" },
-              { id: "c", text: "The same" },
-              { id: "d", text: "Double" },
+              { id: "c", text: "Double" },
+              { id: "d", text: "One quarter" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1192,9 +1192,9 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "The square of its amplitude" },
-              { id: "b", text: "Its amplitude" },
-              { id: "c", text: "Its frequency only" },
-              { id: "d", text: "Its wavelength" },
+              { id: "b", text: "Its frequency only" },
+              { id: "c", text: "Its wavelength" },
+              { id: "d", text: "Its amplitude" },
             ],
             correctChoiceId: "a",
           },
@@ -1366,12 +1366,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "10 dB" },
-              { id: "b", text: "1 dB" },
+              { id: "a", text: "1 dB" },
+              { id: "b", text: "6 dB" },
               { id: "c", text: "20 dB" },
-              { id: "d", text: "6 dB" },
+              { id: "d", text: "10 dB" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1448,12 +1448,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$1/r^2$" },
-              { id: "b", text: "$1/r$" },
-              { id: "c", text: "$r^2$" },
-              { id: "d", text: "A constant value" },
+              { id: "a", text: "$r^2$" },
+              { id: "b", text: "A constant value" },
+              { id: "c", text: "$1/r^2$" },
+              { id: "d", text: "$1/r$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1631,12 +1631,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Become one quarter" },
+              { id: "a", text: "Double" },
               { id: "b", text: "Become one half" },
-              { id: "c", text: "Double" },
-              { id: "d", text: "Stay the same" },
+              { id: "c", text: "Stay the same" },
+              { id: "d", text: "Become one quarter" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

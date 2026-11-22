@@ -52,12 +52,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$7$" },
-              { id: "b", text: "$70$" },
-              { id: "c", text: "$700$" },
+              { id: "a", text: "$700$" },
+              { id: "b", text: "$7$" },
+              { id: "c", text: "$70$" },
               { id: "d", text: "$7000$" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -157,12 +157,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$0.5$" },
-              { id: "b", text: "$0.05$" },
-              { id: "c", text: "$0.005$" },
-              { id: "d", text: "$5$" },
+              { id: "a", text: "$5$" },
+              { id: "b", text: "$0.005$" },
+              { id: "c", text: "$0.5$" },
+              { id: "d", text: "$0.05$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -200,12 +200,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$0.8$" },
+              { id: "a", text: "$0.808$" },
               { id: "b", text: "$0.08$" },
-              { id: "c", text: "$0.808$" },
-              { id: "d", text: "$0.088$" },
+              { id: "c", text: "$0.088$" },
+              { id: "d", text: "$0.8$" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -272,12 +272,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$7.8$" },
-              { id: "b", text: "$7.9$" },
-              { id: "c", text: "$7.80$" },
+              { id: "a", text: "$7.80$" },
+              { id: "b", text: "$7.8$" },
+              { id: "c", text: "$7.9$" },
               { id: "d", text: "$8.0$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -340,10 +340,10 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$3$" },
+              { id: "a", text: "$5$" },
               { id: "b", text: "$4$" },
-              { id: "c", text: "$5$" },
-              { id: "d", text: "$6$" },
+              { id: "c", text: "$6$" },
+              { id: "d", text: "$3$" },
             ],
             correctChoiceId: "b",
           },
@@ -383,10 +383,10 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$0.46$" },
+              { id: "a", text: "$46$" },
               { id: "b", text: "$4.6$" },
-              { id: "c", text: "$46$" },
-              { id: "d", text: "$460$" },
+              { id: "c", text: "$460$" },
+              { id: "d", text: "$0.46$" },
             ],
             correctChoiceId: "b",
           },
@@ -463,12 +463,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$21$" },
-              { id: "b", text: "$29$" },
-              { id: "c", text: "$33$" },
+              { id: "a", text: "$29$" },
+              { id: "b", text: "$33$" },
+              { id: "c", text: "$21$" },
               { id: "d", text: "$39$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -558,6 +558,268 @@ export const lesson11: Lesson = {
               { level: "Level 1", marks: "0", descriptor: "Vague.", part: "d" },
             ],
             commonErrors: ["In (c) forgetting to count pieces from both ropes — total is $11$, not $7$."],
+          },
+        },
+        {
+          id: "cilm-u1-fp-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Which of these numbers is prime?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$51$" },
+              { id: "b", text: "$57$" },
+              { id: "c", text: "$65$" },
+              { id: "d", text: "$61$" },
+            ],
+            dorrectChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              { kind: "definition", name: "Prime", statement: "Exactly two factors: 1 and itself." },
+            ],
+            steps: [
+              { reasoning: "$51=3\\times17$, $57=3\\times19$, $65=5\\times13$ — all composite. $61$ has no factors other than 1 and 61.", working: "\\text{check divisibility}", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(c)** $61$",
+            commonErrors: ["Choosing $51$ or $57$ — they look prime but both have factor $3$."],
+          },
+        },
+        {
+          id: "cilm-u1-fp-q6",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "How many factors does $28$ have?",
+          response: { type: "numeric", parts: [{ label: "Answer", answer: 6 }] },
+          markscheme: {
+            principles: [
+              { kind: "definition", name: "Factor", statement: "A whole number that divides exactly into another number." },
+            ],
+            steps: [
+              { reasoning: "Factors of $28$: $1, 2, 4, 7, 14, 28$ — six factors in total.", working: "1,2,4,7,14,28", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$6$ factors",
+            commonErrors: ["Missing factor pairs — list systematically: $1\\times28$, $2\\times14$, $4\\times7$."],
+          },
+        },
+        {
+          id: "cilm-u1-fp-q7",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "Write $90$ as a product of primes.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "convention", name: "Prime factorisation", statement: "Repeated division by primes; collect equal primes as powers." },
+            ],
+            steps: [
+              { reasoning: "$90 = 2 \\times 45 = 2 \\times 3 \\times 15 = 2 \\times 3 \\times 3 \\times 5$.", working: "2 \\times 3^2 \\times 5", marks: 1, markCode: "M" },
+              { reasoning: "In index form: $90 = 2 \\times 3^2 \\times 5$; all factors prime.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$90 = 2 \\times 3^2 \\times 5$",
+            commonErrors: ["Stopping at $2 \\times 3 \\times 15$ — $15$ is not prime and must be split further."],
+          },
+        },
+        {
+          id: "cilm-u1-fp-q8",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Which is the correct prime factorisation of $72$?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$2^2 \\times 3^3$" },
+              { id: "b", text: "$2 \\times 3 \\times 4 \\times 3$" },
+              { id: "c", text: "$8 \\times 9$" },
+              { id: "d", text: "$2^3 \\times 3^2$" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              { kind: "convention", name: "Prime factorisation", statement: "Only primes allowed; repeated primes become powers." },
+            ],
+            steps: [
+              { reasoning: "$72 = 8 \\times 9 = 2^3 \\times 3^2$. Option (c) uses composite $8$ and $9$; (d) uses $4$, not prime.", working: "2^3 \\times 3^2", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** $2^3 \\times 3^2$",
+            commonErrors: ["Choosing (c) — $8$ and $9$ are not prime, so it is not a prime factorisation."],
+          },
+        },
+        {
+          id: "cilm-u1-fp-q9",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "Find the HCF and LCM of $40$ and $54$.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "HCF and LCM", statement: "Lowest powers of common primes for HCF; highest powers of all primes for LCM." },
+            ],
+            steps: [
+              { reasoning: "Prime factorise: $40 = 2^3 \\times 5$, $54 = 2 \\times 3^3$.", working: "\\text{factorise}", marks: 1, markCode: "M" },
+              { reasoning: "HCF $= 2$ (only common prime, lowest power).", working: "\\text{HCF}=2", marks: 1, markCode: "M" },
+              { reasoning: "LCM $= 2^3 \\times 3^3 \\times 5 = 8 \\times 27 \\times 5 = 1080$.", working: "\\text{LCM}=1080", marks: 1, markCode: "M" },
+              { reasoning: "Check: $2 \\times 1080 = 2160 = 40 \\times 54$ ✓.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "HCF $= 2$, LCM $= 1080$",
+            commonErrors: ["Multiplying all primes for the HCF — HCF uses only COMMON primes at their lowest powers."],
+          },
+        },
+        {
+          id: "cilm-u1-fp-q10",
+          difficulty: "challenge",
+          totalMarks: 1,
+          stem: "Which statement about prime numbers is true?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$9$ is a prime number" },
+              { id: "b", text: "$2$ is the only even prime number" },
+              { id: "c", text: "$1$ is a prime number" },
+              { id: "d", text: "All odd numbers are prime" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              { kind: "definition", name: "Prime", statement: "Greater than 1 with exactly two factors; $1$ is not prime." },
+            ],
+            steps: [
+              { reasoning: "$1$ has only one factor; $9=3\\times3$; $15, 21, \\ldots$ are odd but composite. Every even number above $2$ is divisible by $2$, so $2$ is the only even prime.", working: "\\text{check each claim}", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(b)** $2$ is the only even prime number",
+            commonErrors: ["Choosing (c) — odd composite numbers like $9, 15, 21$ are not prime."],
+          },
+        },
+        {
+          id: "cilm-u1-fp-q11",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "What is the largest prime factor of $84$?",
+          response: { type: "numeric", parts: [{ label: "Answer", answer: 7 }] },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Prime factorisation", statement: "Factorise completely, then pick the largest prime." },
+            ],
+            steps: [
+              { reasoning: "$84 = 2^2 \\times 3 \\times 7$ — the primes are $2, 3, 7$; largest is $7$.", working: "2^2\\times3\\times7", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$7$",
+            commonErrors: ["Answering $4$ or $6$ — prime factors must themselves be prime."],
+          },
+        },
+        {
+          id: "cilm-u1-fp-q12",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "List all the multiples of $6$ that lie between $30$ and $50$.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "definition", name: "Multiple", statement: "Numbers in the times table of $6$: $\\ldots, 30, 36, 42, 48, 54, \\ldots$" },
+            ],
+            steps: [
+              { reasoning: "Multiples of $6$ near the range: $30, 36, 42, 48, 54$.", working: "\\text{times table of 6}", marks: 1, markCode: "M" },
+              { reasoning: "Strictly between $30$ and $50$: $36, 42, 48$.", working: "36, 42, 48", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$36, 42, 48$",
+            commonErrors: ["Including $30$ — 'between' excludes the endpoints."],
+          },
+        },
+        {
+          id: "cilm-u1-fp-q13",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Which pair of numbers multiplies to give $36$?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$5 \\times 7$" },
+              { id: "b", text: "$4 \\times 8$" },
+              { id: "c", text: "$6 \\times 6$" },
+              { id: "d", text: "$3 \\times 10$" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              { kind: "definition", name: "Factor pair", statement: "Two factors whose product is the number." },
+            ],
+            steps: [
+              { reasoning: "$6 \\times 6 = 36$. The others give $32, 35, 30$.", working: "6\\times6=36", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(b)** $6 \\times 6$",
+            commonErrors: ["Choosing (a) — $4\\times8=32$, not $36$."],
+          },
+        },
+        {
+          id: "cilm-u1-fp-q14",
+          difficulty: "challenge",
+          totalMarks: 2,
+          stem: "Find the LCM of $8$ and $12$.",
+          response: { type: "numeric", parts: [{ label: "Answer", answer: 24 }] },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "LCM", statement: "Highest power of every prime appearing: $8=2^3$, $12=2^2\\times3$ → $2^3\\times3$." },
+            ],
+            steps: [
+              { reasoning: "$8 = 2^3$ and $12 = 2^2 \\times 3$; LCM $= 2^3 \\times 3 = 24$.", working: "2^3\\times3=24", marks: 1, markCode: "M" },
+              { reasoning: "Check: $24$ is a multiple of both $8$ and $12$; nothing smaller works.", working: "\\text{check}", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$24$",
+            commonErrors: ["Multiplying $8 \\times 12 = 96$ — the LCM is the smallest common multiple, not the product."],
+          },
+        },
+        {
+          id: "cilm-u1-fp-q15",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "Two warning lights flash at regular intervals: one every $15$ seconds and the other every $20$ seconds. They flash together at $t=0$.",
+          parts: [
+            { label: "a", prompt: "After how many seconds do they next flash together?", marks: 2 },
+            { label: "b", prompt: "How many times do they flash together in a $10$-minute period (including at $t=0$)?", marks: 2 },
+          ],
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "LCM application", statement: "Simultaneous events repeat at the LCM of the intervals." },
+            ],
+            steps: [
+              { part: "a", reasoning: "LCM of $15$ and $20$: $15=3\\times5$, $20=2^2\\times5$ → LCM $=2^2\\times3\\times5=60$ s.", working: "\\text{LCM}=60", marks: 1, markCode: "M" },
+              { part: "a", reasoning: "They next flash together after $60$ seconds.", marks: 1, markCode: "A" },
+              { part: "b", reasoning: "$10$ minutes $=600$ s; $600 \\div 60 = 10$ intervals.", working: "600\\div60=10", marks: 1, markCode: "M" },
+              { part: "b", reasoning: "Including $t=0$: $10+1=11$ times.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "(a) $60$ s (b) $11$ times",
+            commonErrors: ["In (b) answering $10$ — include the flash at $t=0$ makes $11$."],
+          },
+        },
+        {
+          id: "cilm-u1-fp-q16",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "A teacher has $56$ red counters and $84$ blue counters. She wants to make identical bags, each containing the same number of red and blue counters, using every counter.",
+          parts: [
+            { label: "a", prompt: "Find the HCF of $56$ and $84$.", marks: 1 },
+            { label: "b", prompt: "Explain what the HCF tells you about the bags.", marks: 1 },
+            { label: "c", prompt: "How many bags can she make?", marks: 1 },
+            { label: "d", prompt: "How many counters of each colour go in each bag?", marks: 1 },
+          ],
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "HCF application", statement: "HCF = largest number of identical groups using all items." },
+            ],
+            steps: [
+              { part: "a", reasoning: "$56=2^3\\times7$, $84=2^2\\times3\\times7$; HCF $=2^2\\times7=28$.", working: "\\text{HCF}=28", marks: 1, markCode: "M" },
+              { part: "b", reasoning: "The HCF is the maximum number of identical bags possible.", working: "\\text{max bags}", marks: 1, markCode: "M" },
+              { part: "c", reasoning: "$28$ bags ($56\\div28=2$ red, $84\\div28=3$ blue per bag).", working: "\\text{28 bags}", marks: 1, markCode: "M" },
+              { part: "d", reasoning: "Each bag: $2$ red and $3$ blue counters.", working: "2\\text{ red}, 3\\text{ blue}", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "(a) $28$ (b) maximum number of identical bags (c) $28$ bags (d) $2$ red, $3$ blue per bag",
+            commonErrors: ["In (d) swapping colours — red $56\\div28=2$, blue $84\\div28=3$."],
           },
         },
       ],

@@ -55,11 +55,11 @@ export const lesson14: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Warm surface water sinking to the deep ocean" },
-              { id: "b", text: "Cold nutrient-rich deep water rising to the surface" },
-              { id: "c", text: "Horizontal movement of surface currents" },
-              { id: "d", text: "Storm waves breaking on a coastline" },
+              { id: "b", text: "Storm waves breaking on a coastline" },
+              { id: "c", text: "Cold nutrient-rich deep water rising to the surface" },
+              { id: "d", text: "Horizontal movement of surface currents" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -153,12 +153,12 @@ export const lesson14: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The western Pacific near Indonesia" },
-              { id: "b", text: "The eastern Pacific near South America" },
-              { id: "c", text: "The central North Pacific gyre" },
-              { id: "d", text: "The Southern Ocean" },
+              { id: "a", text: "The central North Pacific gyre" },
+              { id: "b", text: "The Southern Ocean" },
+              { id: "c", text: "The eastern Pacific near South America" },
+              { id: "d", text: "The western Pacific near Indonesia" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -206,9 +206,9 @@ export const lesson14: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The Humboldt Current" },
+              { id: "a", text: "The Antarctic Circumpolar Current" },
               { id: "b", text: "The Gulf Stream" },
-              { id: "c", text: "The Antarctic Circumpolar Current" },
+              { id: "c", text: "The Humboldt Current" },
               { id: "d", text: "The Canary Current" },
             ],
             correctChoiceId: "b",
@@ -260,12 +260,12 @@ export const lesson14: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Strengthened trade winds with cool water pooling in the eastern Pacific" },
-              { id: "b", text: "Weakened trade winds with warm water pooling in the eastern Pacific" },
-              { id: "c", text: "A permanent feature of the equatorial Pacific" },
-              { id: "d", text: "A type of tropical cyclone in the western Pacific" },
+              { id: "a", text: "Weakened trade winds with warm water pooling in the eastern Pacific" },
+              { id: "b", text: "A permanent feature of the equatorial Pacific" },
+              { id: "c", text: "A type of tropical cyclone in the western Pacific" },
+              { id: "d", text: "Strengthened trade winds with cool water pooling in the eastern Pacific" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -314,11 +314,11 @@ export const lesson14: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Open-ocean tuna" },
-              { id: "b", text: "Calcifying organisms such as corals, shellfish and plankton" },
-              { id: "c", text: "Deep-sea hydrothermal vent bacteria" },
+              { id: "b", text: "Deep-sea hydrothermal vent bacteria" },
+              { id: "c", text: "Calcifying organisms such as corals, shellfish and plankton" },
               { id: "d", text: "Marine mammals" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -415,12 +415,12 @@ export const lesson14: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It only affects weather in the Pacific region" },
-              { id: "b", text: "It redistributes heat and rainfall worldwide, causing droughts in some regions and floods in others" },
+              { id: "a", text: "It strengthens upwelling off South America" },
+              { id: "b", text: "It only affects weather in the Pacific region" },
               { id: "c", text: "It permanently raises global sea levels" },
-              { id: "d", text: "It strengthens upwelling off South America" },
+              { id: "d", text: "It redistributes heat and rainfall worldwide, causing droughts in some regions and floods in others" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -505,12 +505,12 @@ export const lesson14: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "12 nautical miles" },
-              { id: "b", text: "200 nautical miles" },
-              { id: "c", text: "500 nautical miles" },
-              { id: "d", text: "The entire ocean basin" },
+              { id: "a", text: "The entire ocean basin" },
+              { id: "b", text: "12 nautical miles" },
+              { id: "c", text: "200 nautical miles" },
+              { id: "d", text: "500 nautical miles" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -604,12 +604,12 @@ export const lesson14: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Marine protected area" },
-              { id: "b", text: "Marine pollution authority" },
+              { id: "a", text: "Managed port access" },
+              { id: "b", text: "Marine protected area" },
               { id: "c", text: "Multilateral fisheries agreement" },
-              { id: "d", text: "Managed port access" },
+              { id: "d", text: "Marine pollution authority" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -658,11 +658,11 @@ export const lesson14: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Fishing within a quota allocated by a fisheries management organisation" },
-              { id: "b", text: "Fishing without a licence or reporting the true catch" },
-              { id: "c", text: "Selling fish under an MSC sustainability certificate" },
-              { id: "d", text: "Observing a closed season to protect spawning stocks" },
+              { id: "b", text: "Observing a closed season to protect spawning stocks" },
+              { id: "c", text: "Fishing without a licence or reporting the true catch" },
+              { id: "d", text: "Selling fish under an MSC sustainability certificate" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -711,12 +711,12 @@ export const lesson14: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "To maximise port throughput and shipping" },
-              { id: "b", text: "To balance development and conservation of coastal resources" },
-              { id: "c", text: "To transfer all coastal land to private owners" },
+              { id: "a", text: "To transfer all coastal land to private owners" },
+              { id: "b", text: "To maximise port throughput and shipping" },
+              { id: "c", text: "To balance development and conservation of coastal resources" },
               { id: "d", text: "To ban all human activity on coasts" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -739,12 +739,12 @@ export const lesson14: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Territorial sea" },
-              { id: "b", text: "Exclusive economic zone (EEZ)" },
-              { id: "c", text: "High seas" },
-              { id: "d", text: "Contiguous zone" },
+              { id: "a", text: "Exclusive economic zone (EEZ)" },
+              { id: "b", text: "Territorial sea" },
+              { id: "c", text: "Contiguous zone" },
+              { id: "d", text: "High seas" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -793,12 +793,12 @@ export const lesson14: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "They can displace fishing effort to unprotected areas and require costly enforcement" },
-              { id: "b", text: "They eliminate all marine biodiversity" },
-              { id: "c", text: "They can only be established in freshwater lakes" },
-              { id: "d", text: "They guarantee instant recovery of all fish stocks" },
+              { id: "a", text: "They can only be established in freshwater lakes" },
+              { id: "b", text: "They can displace fishing effort to unprotected areas and require costly enforcement" },
+              { id: "c", text: "They guarantee instant recovery of all fish stocks" },
+              { id: "d", text: "They eliminate all marine biodiversity" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -871,12 +871,12 @@ export const lesson14: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It occurs mainly in national EEZs where rules are clear" },
-              { id: "b", text: "It lies largely on the high seas where enforcement is weak and environmental impacts are uncertain" },
-              { id: "c", text: "It produces no minerals of economic value" },
+              { id: "a", text: "It produces no minerals of economic value" },
+              { id: "b", text: "It occurs mainly in national EEZs where rules are clear" },
+              { id: "c", text: "It lies largely on the high seas where enforcement is weak and environmental impacts are uncertain" },
               { id: "d", text: "It has already been banned worldwide" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

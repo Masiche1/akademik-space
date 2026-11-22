@@ -44,8 +44,11 @@ export const lesson81: Lesson = {
           totalMarks: 1,
           stem: "Solve $x + y = 7$ and $x - y = 1$.",
           response: { type: "mcq", choices: [
-            { id: "a", text: "$x=4, y=3$" }, { id: "b", text: "$x=3, y=4$" }, { id: "c", text: "$x=5, y=2$" }, { id: "d", text: "No solution" },
-          ], correctChoiceId: "a" },
+            { id: "a", text: "$x=5, y=2$" },
+            { id: "b", text: "$x=3, y=4$" },
+            { id: "c", text: "$x=4, y=3$" },
+            { id: "d", text: "No solution" },
+          ], correctChoiceId: "c" },
           markscheme: {
             principles: [{ kind: "technique", name: "Elimination", statement: "Add equations." }],
             steps: [{ reasoning: "Adding: $2x = 8 \\Rightarrow x = 4$, $y = 3$.", marks: 1, markCode: "A" }],
@@ -107,8 +110,11 @@ export const lesson81: Lesson = {
           totalMarks: 1,
           stem: "Solve $x + y = 10$ and $x - y = 4$.",
           response: { type: "mcq", choices: [
-            { id: "a", text: "$x=7, y=3$" }, { id: "b", text: "$x=3, y=7$" }, { id: "c", text: "$x=6, y=4$" }, { id: "d", text: "$x=8, y=2$" },
-          ], correctChoiceId: "a" },
+            { id: "a", text: "$x=6, y=4$" },
+            { id: "b", text: "$x=3, y=7$" },
+            { id: "c", text: "$x=8, y=2$" },
+            { id: "d", text: "$x=7, y=3$" },
+          ], correctChoiceId: "d" },
           markscheme: {
             principles: [{ kind: "technique", name: "Elimination", statement: "Add equations." }],
             steps: [{ reasoning: "Adding: $2x = 14 \\Rightarrow x = 7$, then $y = 3$.", marks: 1, markCode: "A" }],
@@ -153,8 +159,11 @@ export const lesson81: Lesson = {
           totalMarks: 1,
           stem: "Solve $x + 2y = 7$ and $3x - y = 1$.",
           response: { type: "mcq", choices: [
-            { id: "a", text: "$x=1, y=3$" }, { id: "b", text: "$x=3, y=2$" }, { id: "c", text: "$x=2, y=2$" }, { id: "d", text: "$x=1, y=2$" },
-          ], correctChoiceId: "a" },
+            { id: "a", text: "$x=3, y=2$" },
+            { id: "b", text: "$x=2, y=2$" },
+            { id: "c", text: "$x=1, y=3$" },
+            { id: "d", text: "$x=1, y=2$" },
+          ], correctChoiceId: "c" },
           markscheme: {
             principles: [{ kind: "technique", name: "Substitution", statement: "From first: $x = 7 - 2y$; substitute." }],
             steps: [{ reasoning: "$3(7-2y) - y = 1 \\Rightarrow 21 - 7y = 1 \\Rightarrow y = 3$, $x = 1$.", marks: 1, markCode: "A" }],
@@ -202,7 +211,10 @@ export const lesson81: Lesson = {
           totalMarks: 1,
           stem: "How many solutions do the equations $y = 0$ and $y = x^2 + 1$ have when solved simultaneously?",
           response: { type: "mcq", choices: [
-            { id: "a", text: "No solution" }, { id: "b", text: "One solution" }, { id: "c", text: "Two solutions" }, { id: "d", text: "Infinitely many solutions" },
+            { id: "a", text: "No solution" },
+            { id: "b", text: "Two solutions" },
+            { id: "c", text: "One solution" },
+            { id: "d", text: "Infinitely many solutions" },
           ], correctChoiceId: "a" },
           markscheme: {
             principles: [{ kind: "technique", name: "Graphical interpretation", statement: "Line below the parabola never meets it." }],
@@ -255,7 +267,10 @@ export const lesson81: Lesson = {
           totalMarks: 1,
           stem: "What is the solution of $x + 2y = 3$ and $2x + 4y = 5$?",
           response: { type: "mcq", choices: [
-            { id: "a", text: "No solution" }, { id: "b", text: "$(1, 1)$" }, { id: "c", text: "Infinitely many solutions" }, { id: "d", text: "$(3, 0)$" },
+            { id: "a", text: "No solution" },
+            { id: "b", text: "$(3, 0)$" },
+            { id: "c", text: "$(1, 1)$" },
+            { id: "d", text: "Infinitely many solutions" },
           ], correctChoiceId: "a" },
           markscheme: {
             principles: [{ kind: "technique", name: "Parallel lines", statement: "Same gradient, different intercepts." }],

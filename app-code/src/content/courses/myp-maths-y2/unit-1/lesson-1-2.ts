@@ -56,12 +56,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$85$" },
-              { id: "b", text: "$100$" },
+              { id: "a", text: "$20$" },
+              { id: "b", text: "$85$" },
               { id: "c", text: "$105$" },
-              { id: "d", text: "$20$" },
+              { id: "d", text: "$100$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -163,12 +163,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$69$" },
-              { id: "b", text: "$75$" },
+              { id: "a", text: "$75$" },
+              { id: "b", text: "$69$" },
               { id: "c", text: "$9$" },
               { id: "d", text: "$65$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -192,8 +192,8 @@ export const lesson12: Lesson = {
             choices: [
               { id: "a", text: "$180$" },
               { id: "b", text: "$190$" },
-              { id: "c", text: "$20$" },
-              { id: "d", text: "$210$" },
+              { id: "c", text: "$210$" },
+              { id: "d", text: "$20$" },
             ],
             correctChoiceId: "a",
           },
@@ -255,12 +255,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$1.12$" },
+              { id: "a", text: "$0.88$" },
               { id: "b", text: "$0.12$" },
-              { id: "c", text: "$0.88$" },
+              { id: "c", text: "$1.12$" },
               { id: "d", text: "$12$" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -282,12 +282,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$1.25$" },
-              { id: "b", text: "$0.75$" },
-              { id: "c", text: "$0.25$" },
+              { id: "a", text: "$0.75$" },
+              { id: "b", text: "$0.25$" },
+              { id: "c", text: "$1.25$" },
               { id: "d", text: "$75$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -349,12 +349,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The same as the original" },
-              { id: "b", text: "Less than the original" },
-              { id: "c", text: "Greater than the original" },
-              { id: "d", text: "Zero" },
+              { id: "a", text: "Less than the original" },
+              { id: "b", text: "Zero" },
+              { id: "c", text: "The same as the original" },
+              { id: "d", text: "Greater than the original" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -487,10 +487,10 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "20 euros" },
+              { id: "a", text: "2000 euros" },
               { id: "b", text: "60 euros" },
-              { id: "c", text: "560 euros" },
-              { id: "d", text: "2000 euros" },
+              { id: "c", text: "20 euros" },
+              { id: "d", text: "560 euros" },
             ],
             correctChoiceId: "b",
           },
@@ -594,10 +594,10 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "5 euros" },
+              { id: "a", text: "205 euros" },
               { id: "b", text: "10 euros" },
-              { id: "c", text: "205 euros" },
-              { id: "d", text: "1000 euros" },
+              { id: "c", text: "1000 euros" },
+              { id: "d", text: "5 euros" },
             ],
             correctChoiceId: "b",
           },
@@ -622,9 +622,9 @@ export const lesson12: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "64 euros" },
-              { id: "b", text: "60 euros" },
-              { id: "c", text: "16 euros" },
-              { id: "d", text: "100 euros" },
+              { id: "b", text: "16 euros" },
+              { id: "c", text: "100 euros" },
+              { id: "d", text: "60 euros" },
             ],
             correctChoiceId: "a",
           },
@@ -687,11 +687,11 @@ export const lesson12: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$20\\%$" },
-              { id: "b", text: "$25\\%$" },
-              { id: "c", text: "$10\\%$" },
+              { id: "b", text: "$10\\%$" },
+              { id: "c", text: "$25\\%$" },
               { id: "d", text: "$125\\%$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -713,12 +713,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "66 euros" },
-              { id: "b", text: "70 euros" },
-              { id: "c", text: "60.10 euros" },
-              { id: "d", text: "54 euros" },
+              { id: "a", text: "54 euros" },
+              { id: "b", text: "60.10 euros" },
+              { id: "c", text: "66 euros" },
+              { id: "d", text: "70 euros" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -781,12 +781,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$10\\%$" },
-              { id: "b", text: "$6.7\\%$" },
-              { id: "c", text: "$90\\%$" },
-              { id: "d", text: "$60\\%$" },
+              { id: "a", text: "$6.7\\%$" },
+              { id: "b", text: "$10\\%$" },
+              { id: "c", text: "$60\\%$" },
+              { id: "d", text: "$90\\%$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [

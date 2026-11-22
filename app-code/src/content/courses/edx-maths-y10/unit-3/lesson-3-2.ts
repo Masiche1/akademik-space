@@ -55,9 +55,9 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$5$ cm" },
-              { id: "b", text: "$8.66$ cm" },
-              { id: "c", text: "$17.3$ cm" },
-              { id: "d", text: "$20$ cm" },
+              { id: "b", text: "$17.3$ cm" },
+              { id: "c", text: "$20$ cm" },
+              { id: "d", text: "$8.66$ cm" },
             ],
             correctChoiceId: "a",
           },
@@ -194,12 +194,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$12\\text{ cm}^2$" },
+              { id: "a", text: "$48\\text{ cm}^2$" },
               { id: "b", text: "$24\\text{ cm}^2$" },
-              { id: "c", text: "$20.8\\text{ cm}^2$" },
-              { id: "d", text: "$48\\text{ cm}^2$" },
+              { id: "c", text: "$12\\text{ cm}^2$" },
+              { id: "d", text: "$20.8\\text{ cm}^2$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Area of a triangle", statement: "$\\text{Area}=\\frac12ab\\sin C$" }],

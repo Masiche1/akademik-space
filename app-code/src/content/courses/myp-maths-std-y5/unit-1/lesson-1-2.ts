@@ -56,12 +56,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$x\\ge3$" },
-              { id: "b", text: "$x\\le3$" },
-              { id: "c", text: "$x\\ge5$" },
-              { id: "d", text: "$x\\le-3$" },
+              { id: "a", text: "$x\\ge5$" },
+              { id: "b", text: "$x\\le-3$" },
+              { id: "c", text: "$x\\le3$" },
+              { id: "d", text: "$x\\ge3$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -83,12 +83,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$-2.5<x\\le4$" },
+              { id: "a", text: "$-1.5<x\\le4$" },
               { id: "b", text: "$-2.5<x<4$" },
-              { id: "c", text: "$-1.5<x\\le4$" },
-              { id: "d", text: "$-5<x\\le8$" },
+              { id: "c", text: "$-5<x\\le8$" },
+              { id: "d", text: "$-2.5<x\\le4$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -112,9 +112,9 @@ export const lesson12: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$1<x<4$" },
-              { id: "b", text: "$x<-1$ or $x>4$" },
+              { id: "b", text: "$-1<x<4$" },
               { id: "c", text: "$1\\le x\\le4$" },
-              { id: "d", text: "$-1<x<4$" },
+              { id: "d", text: "$x<-1$ or $x>4$" },
             ],
             correctChoiceId: "a",
           },
@@ -171,12 +171,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$x>3$" },
-              { id: "b", text: "$x>19$" },
-              { id: "c", text: "$x<3$" },
+              { id: "a", text: "$x>19$" },
+              { id: "b", text: "$x<3$" },
+              { id: "c", text: "$x>3$" },
               { id: "d", text: "$x>\\frac{15}{5}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Solving inequalities", statement: "Subtract 2 and divide by 5; direction is unchanged." }],
@@ -205,9 +205,9 @@ export const lesson12: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$-1\\le x<2$" },
-              { id: "b", text: "$-1<x\\le2$" },
-              { id: "c", text: "$-3\\le x<6$" },
-              { id: "d", text: "$-1\\le x\\le2$" },
+              { id: "b", text: "$-3\\le x<6$" },
+              { id: "c", text: "$-1\\le x\\le2$" },
+              { id: "d", text: "$-1<x\\le2$" },
             ],
             correctChoiceId: "a",
           },
@@ -258,12 +258,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$x\\le-3$ or $x\\ge2$" },
-              { id: "b", text: "$-3\\le x\\le2$" },
-              { id: "c", text: "$x<-3$ or $x>2$" },
+              { id: "a", text: "$x<-3$ or $x>2$" },
+              { id: "b", text: "$x\\le-3$ or $x\\ge2$" },
+              { id: "c", text: "$-3\\le x\\le2$" },
               { id: "d", text: "$x\\le-2$ or $x\\ge3$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Absolute value", statement: "$|2x+1|\\ge5$ gives $2x+1\\le-5$ or $2x+1\\ge5$." }],
@@ -335,9 +335,9 @@ export const lesson12: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$x<-8$ or $x>4$" },
-              { id: "b", text: "$-8<x<4$" },
-              { id: "c", text: "$x<-4$ or $x>8$" },
-              { id: "d", text: "$x\\le-8$ or $x\\ge4$" },
+              { id: "b", text: "$x<-4$ or $x>8$" },
+              { id: "c", text: "$x\\le-8$ or $x\\ge4$" },
+              { id: "d", text: "$-8<x<4$" },
             ],
             correctChoiceId: "a",
           },
@@ -429,12 +429,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "25 m/s" },
-              { id: "b", text: "32.4 m/s" },
+              { id: "a", text: "32.4 m/s" },
+              { id: "b", text: "324 m/s" },
               { id: "c", text: "90 m/s" },
-              { id: "d", text: "324 m/s" },
+              { id: "d", text: "25 m/s" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -456,12 +456,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "2.7 g/cm³" },
-              { id: "b", text: "0.37 g/cm³" },
-              { id: "c", text: "74000 g/cm³" },
-              { id: "d", text: "270 g/cm³" },
+              { id: "a", text: "74000 g/cm³" },
+              { id: "b", text: "2.7 g/cm³" },
+              { id: "c", text: "270 g/cm³" },
+              { id: "d", text: "0.37 g/cm³" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -486,8 +486,8 @@ export const lesson12: Lesson = {
             choices: [
               { id: "a", text: "0.126 per km; 56.70" },
               { id: "b", text: "0.09 per km; 40.50" },
-              { id: "c", text: "1.26 per km; 567" },
-              { id: "d", text: "0.126 per km; 5.67" },
+              { id: "c", text: "0.126 per km; 5.67" },
+              { id: "d", text: "1.26 per km; 567" },
             ],
             correctChoiceId: "a",
           },
@@ -544,12 +544,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "15 m/s" },
-              { id: "b", text: "19.44 m/s" },
-              { id: "c", text: "54 m/s" },
+              { id: "a", text: "19.44 m/s" },
+              { id: "b", text: "54 m/s" },
+              { id: "c", text: "15 m/s" },
               { id: "d", text: "19440 m/s" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Speed conversion", statement: "km/h $\\times\\frac{1000}{3600}=$ m/s; $54\\times\\frac5{18}=15$." }],
@@ -577,12 +577,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "35" },
-              { id: "b", text: "12" },
-              { id: "c", text: "5" },
-              { id: "d", text: "0.7" },
+              { id: "a", text: "5" },
+              { id: "b", text: "35" },
+              { id: "c", text: "0.7" },
+              { id: "d", text: "12" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Direct proportion", statement: "$y=kx$; substitute $x=7$." }],
@@ -633,8 +633,8 @@ export const lesson12: Lesson = {
             choices: [
               { id: "a", text: "3 days" },
               { id: "b", text: "6 days" },
-              { id: "c", text: "12 days" },
-              { id: "d", text: "2 days" },
+              { id: "c", text: "2 days" },
+              { id: "d", text: "12 days" },
             ],
             correctChoiceId: "a",
           },
@@ -707,12 +707,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "300 N/m²" },
+              { id: "a", text: "298 N/m²" },
               { id: "b", text: "1200 N/m²" },
-              { id: "c", text: "298 N/m²" },
+              { id: "c", text: "300 N/m²" },
               { id: "d", text: "0.0033 N/m²" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Pressure", statement: "$P=\\frac{F}{A}=\\frac{600}{2}=300$." }],

@@ -55,12 +55,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A word copied exactly from the text" },
-              { id: "b", text: "Understanding something not stated directly, using clues" },
-              { id: "c", text: "Translating every word into your language" },
-              { id: "d", text: "The title of the text" },
+              { id: "a", text: "Translating every word into your language" },
+              { id: "b", text: "A word copied exactly from the text" },
+              { id: "c", text: "The title of the text" },
+              { id: "d", text: "Understanding something not stated directly, using clues" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -172,12 +172,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A hint in the surrounding words that helps you guess meaning" },
-              { id: "b", text: "A dictionary definition" },
-              { id: "c", text: "The title of the text" },
-              { id: "d", text: "A picture next to a word" },
+              { id: "a", text: "The title of the text" },
+              { id: "b", text: "A hint in the surrounding words that helps you guess meaning" },
+              { id: "c", text: "A picture next to a word" },
+              { id: "d", text: "A dictionary definition" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -200,9 +200,9 @@ export const lesson13: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Example clue" },
-              { id: "b", text: "Contrast clue" },
+              { id: "b", text: "Cognate clue" },
               { id: "c", text: "Definition clue" },
-              { id: "d", text: "Cognate clue" },
+              { id: "d", text: "Contrast clue" },
             ],
             correctChoiceId: "c",
           },
@@ -226,12 +226,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "knight" },
-              { id: "b", text: "music" },
+              { id: "a", text: "music" },
+              { id: "b", text: "knight" },
               { id: "c", text: "cough" },
               { id: "d", text: "though" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -373,11 +373,11 @@ export const lesson13: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Stop and look up every word in a dictionary" },
-              { id: "b", text: "Keep reading and guess the meaning from the context" },
-              { id: "c", text: "Skip the whole text" },
-              { id: "d", text: "Translate the whole text word by word" },
+              { id: "b", text: "Translate the whole text word by word" },
+              { id: "c", text: "Keep reading and guess the meaning from the context" },
+              { id: "d", text: "Skip the whole text" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -430,10 +430,10 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Definition clue" },
+              { id: "a", text: "Example clue" },
               { id: "b", text: "Contrast clue" },
               { id: "c", text: "Cognate clue" },
-              { id: "d", text: "Example clue" },
+              { id: "d", text: "Definition clue" },
             ],
             correctChoiceId: "b",
           },
@@ -553,12 +553,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A word that is the same in every language" },
-              { id: "b", text: "A word similar to one in your own language" },
-              { id: "c", text: "A very long English word" },
-              { id: "d", text: "A word you cannot pronounce" },
+              { id: "a", text: "A word you cannot pronounce" },
+              { id: "b", text: "A word that is the same in every language" },
+              { id: "c", text: "A word similar to one in your own language" },
+              { id: "d", text: "A very long English word" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -664,12 +664,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The last word only" },
-              { id: "b", text: "The title, pictures and situation" },
+              { id: "a", text: "The title, pictures and situation" },
+              { id: "b", text: "The last word only" },
               { id: "c", text: "The page number" },
               { id: "d", text: "Nothing — just start reading" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -691,12 +691,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "teacher" },
-              { id: "b", text: "kitchen" },
-              { id: "c", text: "window" },
+              { id: "a", text: "kitchen" },
+              { id: "b", text: "window" },
+              { id: "c", text: "teacher" },
               { id: "d", text: "orange" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -719,11 +719,11 @@ export const lesson13: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "A school exam" },
-              { id: "b", text: "A birthday party" },
-              { id: "c", text: "A football match" },
-              { id: "d", text: "A cooking recipe" },
+              { id: "b", text: "A football match" },
+              { id: "c", text: "A cooking recipe" },
+              { id: "d", text: "A birthday party" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -859,11 +859,11 @@ export const lesson13: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Swimming" },
-              { id: "b", text: "Cycling" },
-              { id: "c", text: "Cooking" },
-              { id: "d", text: "Singing" },
+              { id: "b", text: "Cooking" },
+              { id: "c", text: "Singing" },
+              { id: "d", text: "Cycling" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -916,12 +916,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "unhappy" },
-              { id: "b", text: "kitchen" },
-              { id: "c", text: "bridge" },
-              { id: "d", text: "pencil" },
+              { id: "a", text: "pencil" },
+              { id: "b", text: "bridge" },
+              { id: "c", text: "kitchen" },
+              { id: "d", text: "unhappy" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

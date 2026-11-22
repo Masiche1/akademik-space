@@ -52,12 +52,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The list of texts being compared" },
-              { id: "b", text: "The central line of reasoning every paragraph serves" },
+              { id: "a", text: "The central line of reasoning every paragraph serves" },
+              { id: "b", text: "The list of texts being compared" },
               { id: "c", text: "The introduction's first sentence" },
               { id: "d", text: "The conclusion's final word" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -159,12 +159,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Every paragraph makes a different comparison unrelated to the others" },
-              { id: "b", text: "Every paragraph advances the same central comparative claim" },
-              { id: "c", text: "The essay mentions both texts in every sentence" },
-              { id: "d", text: "The introduction repeats in each paragraph" },
+              { id: "a", text: "Every paragraph advances the same central comparative claim" },
+              { id: "b", text: "The essay mentions both texts in every sentence" },
+              { id: "c", text: "The introduction repeats in each paragraph" },
+              { id: "d", text: "Every paragraph makes a different comparison unrelated to the others" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -185,9 +185,9 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Repeating the introduction word for word" },
+              { id: "a", text: "Summarising both texts at the end" },
               { id: "b", text: "Briefly restating where the argument has been to connect it to the next point" },
-              { id: "c", text: "Summarising both texts at the end" },
+              { id: "c", text: "Repeating the introduction word for word" },
               { id: "d", text: "Adding a new quotation" },
             ],
             correctChoiceId: "b",
@@ -211,12 +211,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The essay uses quotations from both texts" },
-              { id: "b", text: "Each paragraph compares a different aspect with no connection to the central claim" },
-              { id: "c", text: "The conclusion mentions the thesis" },
+              { id: "a", text: "Each paragraph compares a different aspect with no connection to the central claim" },
+              { id: "b", text: "The conclusion mentions the thesis" },
+              { id: "c", text: "The essay uses quotations from both texts" },
               { id: "d", text: "The essay has five paragraphs" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -237,12 +237,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Using more difficult vocabulary in later paragraphs" },
-              { id: "b", text: "Moving from surface analysis to deeper significance as the essay progresses" },
-              { id: "c", text: "Making the paragraphs progressively longer" },
+              { id: "a", text: "Moving from surface analysis to deeper significance as the essay progresses" },
+              { id: "b", text: "Making the paragraphs progressively longer" },
+              { id: "c", text: "Using more difficult vocabulary in later paragraphs" },
               { id: "d", text: "Introducing a third text at the end" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -263,12 +263,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Having shown that both texts figure loss through metaphor, we can now ask what each metaphor makes loss do." },
-              { id: "b", text: "Now we turn to Text B." },
-              { id: "c", text: "This is a completely new topic." },
-              { id: "d", text: "As mentioned earlier, both texts are interesting." },
+              { id: "a", text: "As mentioned earlier, both texts are interesting." },
+              { id: "b", text: "This is a completely new topic." },
+              { id: "c", text: "Having shown that both texts figure loss through metaphor, we can now ask what each metaphor makes loss do." },
+              { id: "d", text: "Now we turn to Text B." },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -289,12 +289,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Nothing — order is irrelevant" },
-              { id: "b", text: "It escalates from surface technique toward deeper significance" },
-              { id: "c", text: "It summarises Text A before Text B" },
-              { id: "d", text: "It repeats the same point three times" },
+              { id: "a", text: "It repeats the same point three times" },
+              { id: "b", text: "It summarises Text A before Text B" },
+              { id: "c", text: "Nothing — order is irrelevant" },
+              { id: "d", text: "It escalates from surface technique toward deeper significance" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -486,12 +486,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A point against the thesis" },
-              { id: "b", text: "Acknowledging a limitation or alternative reading" },
-              { id: "c", text: "A summary of both texts" },
+              { id: "a", text: "Acknowledging a limitation or alternative reading" },
+              { id: "b", text: "A summary of both texts" },
+              { id: "c", text: "A point against the thesis" },
               { id: "d", text: "A new topic" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -592,9 +592,9 @@ export const lesson52: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "What the text cannot do or does not do" },
-              { id: "b", text: "The essay's word limit" },
-              { id: "c", text: "A grammatical error" },
-              { id: "d", text: "The author's nationality" },
+              { id: "b", text: "A grammatical error" },
+              { id: "c", text: "The author's nationality" },
+              { id: "d", text: "The essay's word limit" },
             ],
             correctChoiceId: "a",
           },
@@ -617,12 +617,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The limits of the comparison itself" },
-              { id: "b", text: "The number of texts compared" },
+              { id: "a", text: "The number of texts compared" },
+              { id: "b", text: "The difficulty of the vocabulary" },
               { id: "c", text: "The essay's paragraph count" },
-              { id: "d", text: "The difficulty of the vocabulary" },
+              { id: "d", text: "The limits of the comparison itself" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -643,12 +643,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Text A is better than Text B in every way." },
-              { id: "b", text: "Although B's image is simpler, its simplicity is precisely the point." },
+              { id: "a", text: "Although B's image is simpler, its simplicity is precisely the point." },
+              { id: "b", text: "Text A is better than Text B in every way." },
               { id: "c", text: "Text B is not worth discussing." },
               { id: "d", text: "Both texts are equally good." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -669,12 +669,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Rejecting the essay's own thesis" },
-              { id: "b", text: "Acknowledging a defensible interpretation the essay does not adopt" },
-              { id: "c", text: "Reading the text aloud" },
-              { id: "d", text: "Summarising the plot" },
+              { id: "a", text: "Reading the text aloud" },
+              { id: "b", text: "Rejecting the essay's own thesis" },
+              { id: "c", text: "Summarising the plot" },
+              { id: "d", text: "Acknowledging a defensible interpretation the essay does not adopt" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -695,12 +695,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Only in the conclusion" },
-              { id: "b", text: "Only in the introduction" },
-              { id: "c", text: "In any paragraph, or distributed throughout, as well as in the conclusion" },
+              { id: "a", text: "Only in the introduction" },
+              { id: "b", text: "In any paragraph, or distributed throughout, as well as in the conclusion" },
+              { id: "c", text: "Only in the conclusion" },
               { id: "d", text: "Only in footnotes" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -722,11 +722,11 @@ export const lesson52: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Adding 'and Text B is boring'" },
-              { id: "b", text: "Adding 'although B's brevity achieves a starkness A's elaboration cannot match'" },
+              { id: "b", text: "Adding 'this is my opinion'" },
               { id: "c", text: "Adding 'Text B uses a different metaphor'" },
-              { id: "d", text: "Adding 'this is my opinion'" },
+              { id: "d", text: "Adding 'although B's brevity achieves a starkness A's elaboration cannot match'" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

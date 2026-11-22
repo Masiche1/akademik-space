@@ -88,18 +88,18 @@ export const lesson32: Lesson = {
               },
               {
                 "id": "b",
-                "text": "1 cm"
+                "text": "1 mm"
               },
               {
                 "id": "c",
-                "text": "1 mm"
+                "text": "1 cm"
               },
               {
                 "id": "d",
                 "text": "0.1 mm"
               }
             ],
-            "correctChoiceId": "c"
+            "borrectChoiceId": "c"
           },
           "markscheme": {
             "principles": [
@@ -357,11 +357,11 @@ export const lesson32: Lesson = {
             "choices": [
               {
                 "id": "a",
-                "text": "use a single reading"
+                "text": "plot a graph and determine the gradient from the line of best fit"
               },
               {
                 "id": "b",
-                "text": "plot a graph and determine the gradient from the line of best fit"
+                "text": "use a single reading"
               },
               {
                 "id": "c",
@@ -372,7 +372,7 @@ export const lesson32: Lesson = {
                 "text": "join anomalous points"
               }
             ],
-            "correctChoiceId": "b"
+            "correctChoiceId": "a"
           },
           "markscheme": {
             "principles": [

@@ -52,12 +52,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\frac{1}{8}$ mile per hour" },
-              { id: "b", text: "$\\frac{1}{2}$ mile per hour" },
-              { id: "c", text: "$2$ miles per hour" },
-              { id: "d", text: "$4$ miles per hour" },
+              { id: "a", text: "$4$ miles per hour" },
+              { id: "b", text: "$2$ miles per hour" },
+              { id: "c", text: "$\\frac{1}{2}$ mile per hour" },
+              { id: "d", text: "$\\frac{1}{8}$ mile per hour" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -189,12 +189,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$y = x + 3$" },
-              { id: "b", text: "$y = 3x + 2$" },
-              { id: "c", text: "$y = 3x$" },
-              { id: "d", text: "$y = \\frac{3}{x}$" },
+              { id: "a", text: "$y = \\frac{3}{x}$" },
+              { id: "b", text: "$y = 3x$" },
+              { id: "c", text: "$y = 3x + 2$" },
+              { id: "d", text: "$y = x + 3$" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [

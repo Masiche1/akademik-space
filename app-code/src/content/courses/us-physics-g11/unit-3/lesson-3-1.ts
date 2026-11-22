@@ -54,12 +54,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The rate at which charge flows past a point." },
-              { id: "b", text: "The energy transferred per coulomb of charge." },
-              { id: "c", text: "The opposition of a component to current." },
-              { id: "d", text: "The total amount of charge stored in the battery." },
+              { id: "a", text: "The opposition of a component to current." },
+              { id: "b", text: "The total amount of charge stored in the battery." },
+              { id: "c", text: "The energy transferred per coulomb of charge." },
+              { id: "d", text: "The rate at which charge flows past a point." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -186,10 +186,10 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The same current flows through each component." },
+              { id: "a", text: "The total resistance is the sum of the resistances." },
               { id: "b", text: "The voltage across each component is the same." },
               { id: "c", text: "The voltages across the components add up to the battery voltage." },
-              { id: "d", text: "The total resistance is the sum of the resistances." },
+              { id: "d", text: "The same current flows through each component." },
             ],
             correctChoiceId: "b",
           },

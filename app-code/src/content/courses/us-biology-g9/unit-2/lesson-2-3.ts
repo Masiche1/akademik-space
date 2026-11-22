@@ -54,12 +54,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Cellular respiration" },
-              { id: "b", text: "Combustion" },
-              { id: "c", text: "Photosynthesis" },
+              { id: "a", text: "Combustion" },
+              { id: "b", text: "Photosynthesis" },
+              { id: "c", text: "Cellular respiration" },
               { id: "d", text: "Decomposition" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -189,12 +189,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "As heat released during cellular respiration" },
-              { id: "b", text: "It is converted into matter that cycles back to the Sun" },
-              { id: "c", text: "It is destroyed when organisms die" },
-              { id: "d", text: "It is absorbed by the soil and stored permanently" },
+              { id: "a", text: "It is converted into matter that cycles back to the Sun" },
+              { id: "b", text: "As heat released during cellular respiration" },
+              { id: "c", text: "It is absorbed by the soil and stored permanently" },
+              { id: "d", text: "It is destroyed when organisms die" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [

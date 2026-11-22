@@ -56,12 +56,12 @@ export const lesson92: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$2:3$" },
+              { id: "a", text: "$4:6$" },
               { id: "b", text: "$3:4$" },
-              { id: "c", text: "$4:6$" },
+              { id: "c", text: "$2:3$" },
               { id: "d", text: "$6:9$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -153,6 +153,257 @@ export const lesson92: Lesson = {
             commonErrors: ["In (c) scaling the delivery fee too — it's fixed."],
           },
         },
+        {
+          id: "cilm-u9-rp-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Simplify the ratio $18:24$.",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$6:8$" },
+              { id: "b", text: "$3:4$" },
+              { id: "c", text: "$2:3$" },
+              { id: "d", text: "$9:12$" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              { kind: "technique", name: "Simplify ratio", statement: "Divide every part by the highest common factor." },
+            ],
+            steps: [
+              { reasoning: "Divide both parts by $6$ to obtain $3:4$.", working: "3:4", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "**(a)** $3:4$",
+          },
+        },
+        {
+          id: "cilm-u9-rp-q6",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "$\\pounds150$ is shared in the ratio $2:3$. Find the larger share.",
+          response: { type: "numeric", parts: [{ label: "Larger share", answer: 90, unit: "pounds" }] },
+          markscheme: {
+            principles: [
+              { kind: "technique", name: "Ratio share", statement: "Total parts $=5$; one part $=30$." },
+            ],
+            steps: [
+              { reasoning: "One part is $150\\div5=30$.", working: "30", marks: 1, markCode: "M" },
+              { reasoning: "The larger share is $3\\times30=90$.", working: "90", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$\\pounds90$",
+          },
+        },
+        {
+          id: "cilm-u9-rp-q7",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "To increase a quantity by $12\\%$, which multiplier should be used?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$0.88$" },
+              { id: "b", text: "$1.12$" },
+              { id: "c", text: "$12$" },
+              { id: "d", text: "$1.2$" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              { kind: "technique", name: "Percentage multiplier", statement: "Increase multiplier is $1+\\text{rate}$." },
+            ],
+            steps: [
+              { reasoning: "$1+0.12=1.12$.", working: "1.12", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** $1.12$",
+          },
+        },
+        {
+          id: "cilm-u9-rp-q8",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "After a $20\\%$ increase, a jacket costs $\\pounds72$. Find the original price.",
+          response: { type: "numeric", parts: [{ label: "Original price", answer: 60, unit: "pounds" }] },
+          markscheme: {
+            principles: [
+              { kind: "technique", name: "Reverse percentage", statement: "Divide the new value by the multiplier $1.20$." },
+            ],
+            steps: [
+              { reasoning: "$72=1.20\\times\\text{original}$.", working: "72=1.20x", marks: 1, markCode: "M" },
+              { reasoning: "Original price is $72\\div1.20=60$.", working: "60", marks: 1, markCode: "M" },
+              { reasoning: "The original price was $\\pounds60$.", working: "60", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$\\pounds60$",
+          },
+        },
+        {
+          id: "cilm-u9-rp-q9",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "A price rises by $10\\%$ and then by another $10\\%$. What is the total percentage increase?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$20\\%$" },
+              { id: "b", text: "$21\\%$" },
+              { id: "c", text: "$22\\%$" },
+              { id: "d", text: "$10\\%$" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              { kind: "law", name: "Successive percentages", statement: "$1.10\\times1.10=1.21$, a $21\\%$ increase." },
+            ],
+            steps: [
+              { reasoning: "Multiply the successive multipliers rather than adding percentages.", working: "1.21", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "**(a)** $21\\%$",
+          },
+        },
+        {
+          id: "cilm-u9-rp-q10",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "Find the sale price after a $15\\%$ discount on a $\\pounds80$ coat.",
+          response: { type: "numeric", parts: [{ label: "Sale price", answer: 68, unit: "pounds" }] },
+          markscheme: {
+            principles: [
+              { kind: "technique", name: "Discount", statement: "Sale multiplier is $1-0.15=0.85$." },
+            ],
+            steps: [
+              { reasoning: "$80\\times0.85=68$.", working: "68", marks: 1, markCode: "M" },
+              { reasoning: "The sale price is $\\pounds68$.", working: "68", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$\\pounds68$",
+          },
+        },
+        {
+          id: "cilm-u9-rp-q11",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "The ratio of cats to dogs is $2:5$ and there are $35$ animals. How many dogs are there?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$14$" },
+              { id: "b", text: "$7$" },
+              { id: "c", text: "$25$" },
+              { id: "d", text: "$10$" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              { kind: "technique", name: "Ratio share", statement: "One part is $35\\div7=5$; dogs are $5\\times5$." },
+            ],
+            steps: [
+              { reasoning: "Dogs correspond to $5$ parts, giving $25$ animals.", working: "25", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "**(a)** $25$",
+          },
+        },
+        {
+          id: "cilm-u9-rp-q12",
+          difficulty: "challenge",
+          totalMarks: 3,
+          stem: "A phone's price falls from $\\pounds240$ to $\\pounds180$. Find the percentage decrease.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "technique", name: "Percentage change", statement: "Change $=\\frac{\\text{difference}}{\\text{original}}\\times100$." },
+            ],
+            steps: [
+              { reasoning: "The decrease is $240-180=60$.", working: "60", marks: 1, markCode: "M" },
+              { reasoning: "Percentage decrease is $\\frac{60}{240}\\times100=25\\%$.", working: "25\\%", marks: 1, markCode: "M" },
+              { reasoning: "The decrease is $25\\%$.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$25\\%$",
+            commonErrors: ["Dividing by the new price instead of the original price."],
+          },
+        },
+        {
+          id: "cilm-u9-rp-q13",
+          difficulty: "challenge",
+          totalMarks: 3,
+          stem: "A salary of $\\pounds1800$ is shared between rent, food and savings in the ratio $5:3:2$. After a $10\\%$ pay rise, the new salary is shared in the same ratio. Find the new savings amount.",
+          response: { type: "numeric", parts: [{ label: "Savings", answer: 396, unit: "pounds" }] },
+          markscheme: {
+            principles: [
+              { kind: "technique", name: "Ratio and percentage", statement: "Find the new salary first, then share by ratio." },
+            ],
+            steps: [
+              { reasoning: "New salary is $1800\\times1.10=1980$.", working: "1980", marks: 1, markCode: "M" },
+              { reasoning: "Savings correspond to $2$ of $10$ parts: $\\frac{2}{10}\\times1980=396$.", working: "396", marks: 1, markCode: "M" },
+              { reasoning: "New savings are $\\pounds396$.", working: "396", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$\\pounds396$",
+          },
+        },
+        {
+          id: "cilm-u9-rp-q14",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "If $45$ is $60\\%$ of a number, what is the number?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$270$" },
+              { id: "b", text: "$27$" },
+              { id: "c", text: "$108$" },
+              { id: "d", text: "$75$" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              { kind: "technique", name: "Reverse percentage", statement: "Divide by $0.60$." },
+            ],
+            steps: [
+              { reasoning: "$45\\div0.60=75$.", working: "75", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "**(a)** $75$",
+          },
+        },
+        {
+          id: "cilm-u9-rp-q15",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "A paint mix uses blue and white paint in the ratio $2:7$. You need $36$ litres of mixture and want to find how much blue paint is required, then the cost if blue paint costs $\\pounds4$ per litre.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Ratio in context", statement: "Share the total by ratio parts, then apply unit cost." },
+            ],
+            steps: [
+              { reasoning: "Total parts are $2+7=9$, so one part is $36\\div9=4$ litres.", working: "4", marks: 1, markCode: "M" },
+              { reasoning: "Blue paint is $2\\times4=8$ litres.", working: "8", marks: 1, markCode: "M" },
+              { reasoning: "Cost is $8\\times4=32$.", working: "32", marks: 1, markCode: "M" },
+              { reasoning: "$8$ litres costing $\\pounds32$.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$8$ litres; $\\pounds32$",
+            commonErrors: ["Using $\\frac{2}{9}$ of $36$ incorrectly or forgetting units."],
+          },
+        },
+        {
+          id: "cilm-u9-rp-q16",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "A value decreases by $8\\%$ and then increases by $8\\%$. Starting from $50$, find the final value.",
+          response: { type: "numeric", parts: [{ label: "Final value", answer: 49.68 }] },
+          markscheme: {
+            principles: [
+              { kind: "law", name: "Successive percentages", statement: "Apply each multiplier to the current value." },
+            ],
+            steps: [
+              { reasoning: "The final value is $50\\times0.92\\times1.08=49.68$.", working: "49.68", marks: 1, markCode: "M" },
+              { reasoning: "The final value is $49.68$.", working: "49.68", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$49.68$",
+          },
+        },
       ],
     },
     {
@@ -192,12 +443,12 @@ export const lesson92: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$I = P \\times r \\times t$" },
+              { id: "a", text: "$I = P \\div r \\div t$" },
               { id: "b", text: "$I = P + r + t$" },
-              { id: "c", text: "$I = P \\div r \\div t$" },
+              { id: "c", text: "$I = P \\times r \\times t$" },
               { id: "d", text: "$I = r \\times t$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -287,6 +538,258 @@ export const lesson92: Lesson = {
               { level: "Level 2", marks: "1-2", descriptor: "Partial.", part: "d" },
             ],
             commonErrors: ["In (d) saying equal — compounding always beats simple for same rate/time."],
+          },
+        },
+        {
+          id: "cilm-u9-fin-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Which quantity is the principal in $I=Prt$?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "The number of years" },
+              { id: "b", text: "The final amount" },
+              { id: "c", text: "The interest earned" },
+              { id: "d", text: "The amount originally invested or borrowed" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              { kind: "definition", name: "Principal", statement: "$P$ is the original amount." },
+            ],
+            steps: [
+              { reasoning: "Principal is the starting amount before interest.", working: "P", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** The original amount",
+          },
+        },
+        {
+          id: "cilm-u9-fin-q6",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "Find the simple interest on $\\pounds600$ at $3\\%$ per year for $4$ years.",
+          response: { type: "numeric", parts: [{ label: "Interest", answer: 72, unit: "pounds" }] },
+          markscheme: {
+            principles: [
+              { kind: "formula", name: "Simple interest", statement: "$I=Prt$ with $r=0.03$." },
+            ],
+            steps: [
+              { reasoning: "$I=600\\times0.03\\times4=72$.", working: "72", marks: 1, markCode: "M" },
+              { reasoning: "Interest is $\\pounds72$.", working: "72", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$\\pounds72$",
+          },
+        },
+        {
+          id: "cilm-u9-fin-q7",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Compare the value of $\\pounds2.40$ for $6$ rolls and $\\pounds3.20$ for $8$ rolls. Which statement is correct?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "The second pack" },
+              { id: "b", text: "They are equal" },
+              { id: "c", text: "Cannot compare" },
+              { id: "d", text: "The first pack" },
+            ],
+            borrectChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              { kind: "technique", name: "Unit price", statement: "Compare cost per roll." },
+            ],
+            steps: [
+              { reasoning: "Unit prices are $2.40\\div6=0.40$ and $3.20\\div8=0.40$.", working: "0.40", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "**(c)** They are equal",
+            commonErrors: ["Comparing total prices without dividing by quantity."],
+          },
+        },
+        {
+          id: "cilm-u9-fin-q8",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "A $\\pounds90$ pair of shoes is reduced by $15\\%$. Find the sale price.",
+          response: { type: "numeric", parts: [{ label: "Sale price", answer: 76.5, unit: "pounds" }] },
+          markscheme: {
+            principles: [
+              { kind: "technique", name: "Discount", statement: "Multiply by $0.85$." },
+            ],
+            steps: [
+              { reasoning: "$90\\times0.85=76.5$.", working: "76.5", marks: 1, markCode: "M" },
+              { reasoning: "Sale price is $\\pounds76.50$.", working: "76.50", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$\\pounds76.50$",
+          },
+        },
+        {
+          id: "cilm-u9-fin-q9",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "What decimal should be used for $7.5\\%$ in the simple interest formula?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$0.075$" },
+              { id: "b", text: "$75$" },
+              { id: "c", text: "$7.5$" },
+              { id: "d", text: "$0.75$" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              { kind: "convention", name: "Percentage conversion", statement: "Divide a percentage by $100$." },
+            ],
+            steps: [
+              { reasoning: "$7.5\\div100=0.075$.", working: "0.075", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** $0.075$",
+          },
+        },
+        {
+          id: "cilm-u9-fin-q10",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "A $2$ litre bottle of juice costs $\\pounds3.60$ and a $1.5$ litre bottle costs $\\pounds2.70$. Which is better value per litre?",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "technique", name: "Unit price", statement: "Cost per litre determines value." },
+            ],
+            steps: [
+              { reasoning: "Unit prices are $3.60\\div2=1.80$ and $2.70\\div1.5=1.80$.", working: "1.80", marks: 1, markCode: "M" },
+              { reasoning: "Both cost the same per litre.", marks: 1, markCode: "M" },
+              { reasoning: "Neither is better value.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "Equal value: $\\pounds1.80$ per litre",
+          },
+        },
+        {
+          id: "cilm-u9-fin-q11",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Under simple interest, interest is calculated on:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "The principal plus previous interest" },
+              { id: "b", text: "The original principal only" },
+              { id: "c", text: "A random amount" },
+              { id: "d", text: "The final amount" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              { kind: "definition", name: "Simple interest", statement: "Interest does not compound." },
+            ],
+            steps: [
+              { reasoning: "Simple interest is always based on the original principal.", working: "P", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** The original principal",
+          },
+        },
+        {
+          id: "cilm-u9-fin-q12",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "You deposit $\\pounds1200$ at $5\\%$ simple interest per year. Find the interest and total amount after $3$ years.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "formula", name: "Simple interest", statement: "$I=Prt$; total $=P+I$." },
+            ],
+            steps: [
+              { reasoning: "Interest is $1200\\times0.05\\times3=180$.", working: "180", marks: 1, markCode: "M" },
+              { reasoning: "Total amount is $1200+180=1380$.", working: "1380", marks: 1, markCode: "M" },
+              { reasoning: "Both values are correct.", marks: 1, markCode: "M" },
+              { reasoning: "Interest $\\pounds180$, total $\\pounds1380$.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$\\pounds180$ interest; $\\pounds1380$ total",
+          },
+        },
+        {
+          id: "cilm-u9-fin-q13",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "Find the total amount after $2$ years if $\\pounds500$ earns $4\\%$ simple interest per year.",
+          response: { type: "numeric", parts: [{ label: "Total", answer: 540, unit: "pounds" }] },
+          markscheme: {
+            principles: [
+              { kind: "formula", name: "Simple interest", statement: "$I=500\\times0.04\\times2=40$." },
+            ],
+            steps: [
+              { reasoning: "Interest is $40$, so total is $500+40=540$.", working: "540", marks: 1, markCode: "M" },
+              { reasoning: "Total amount is $\\pounds540$.", working: "540", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$\\pounds540$",
+          },
+        },
+        {
+          id: "cilm-u9-fin-q14",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "What is the discount on a $\\pounds140$ item reduced by $20\\%$?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$\\pounds20$" },
+              { id: "b", text: "$\\pounds28$" },
+              { id: "c", text: "$\\pounds112$" },
+              { id: "d", text: "$\\pounds14$" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              { kind: "technique", name: "Discount", statement: "Discount $=0.20\\times140=28$." },
+            ],
+            steps: [
+              { reasoning: "$20\\%$ of $140$ is $28$.", working: "28", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "**(a)** $\\pounds28$",
+          },
+        },
+        {
+          id: "cilm-u9-fin-q15",
+          difficulty: "challenge",
+          totalMarks: 5,
+          stem: "A shop offers $10\\%$ off all items. You buy a $\\pounds65$ bag and a $\\pounds35$ wallet. Find the total paid and the amount saved.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Discounts", statement: "Apply discount to the combined bill or each item." },
+            ],
+            steps: [
+              { reasoning: "Original total is $65+35=100$.", working: "100", marks: 1, markCode: "M" },
+              { reasoning: "Discount is $0.10\\times100=10$.", working: "10", marks: 1, markCode: "M" },
+              { reasoning: "Total paid is $100-10=90$.", working: "90", marks: 1, markCode: "M" },
+              { reasoning: "Saved $\\pounds10$.", marks: 1, markCode: "M" },
+              { reasoning: "Paid $\\pounds90$; saved $\\pounds10$.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$\\pounds90$ paid; $\\pounds10$ saved",
+          },
+        },
+        {
+          id: "cilm-u9-fin-q16",
+          difficulty: "challenge",
+          totalMarks: 3,
+          stem: "Find the simple interest on $\\pounds750$ at $6\\%$ per year for $18$ months.",
+          response: { type: "numeric", parts: [{ label: "Interest", answer: 67.5, unit: "pounds" }] },
+          markscheme: {
+            principles: [
+              { kind: "formula", name: "Simple interest", statement: "Convert $18$ months to $1.5$ years before using $I=Prt$." },
+            ],
+            steps: [
+              { reasoning: "$18$ months is $1.5$ years.", working: "1.5", marks: 1, markCode: "M" },
+              { reasoning: "$I=750\\times0.06\\times1.5=67.5$.", working: "67.5", marks: 1, markCode: "M" },
+              { reasoning: "Interest is $\\pounds67.50$.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$\\pounds67.50$",
           },
         },
       ],

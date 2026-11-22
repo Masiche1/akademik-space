@@ -54,12 +54,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Relative charge $0$, relative mass $1$" },
-              { id: "b", text: "Relative charge $+1$, relative mass $1$" },
+              { id: "a", text: "Relative charge $+1$, relative mass $1$" },
+              { id: "b", text: "Relative charge $0$, relative mass $1$" },
               { id: "c", text: "Relative charge $0$, relative mass very small" },
               { id: "d", text: "Relative charge $-1$, relative mass $1$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -194,9 +194,9 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$2,8,8$" },
+              { id: "a", text: "$2,7,8$" },
               { id: "b", text: "$2,8,7$" },
-              { id: "c", text: "$2,7,8$" },
+              { id: "c", text: "$2,8,8$" },
               { id: "d", text: "$2,8,6,1$" },
             ],
             correctChoiceId: "b",

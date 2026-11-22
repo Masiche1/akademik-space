@@ -57,12 +57,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A concentration gradient" },
-              { id: "b", text: "ATP energy" },
-              { id: "c", text: "Active transport proteins" },
-              { id: "d", text: "Osmotic pressure only" },
+              { id: "a", text: "Osmotic pressure only" },
+              { id: "b", text: "Active transport proteins" },
+              { id: "c", text: "A concentration gradient" },
+              { id: "d", text: "ATP energy" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -84,12 +84,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Water leaves by osmosis; cell shrinks (crenates)" },
-              { id: "b", text: "Water enters; cell swells and bursts" },
-              { id: "c", text: "Nothing — membrane is impermeable" },
-              { id: "d", text: "Salt enters by active transport" },
+              { id: "a", text: "Nothing — membrane is impermeable" },
+              { id: "b", text: "Salt enters by active transport" },
+              { id: "c", text: "Water enters; cell swells and bursts" },
+              { id: "d", text: "Water leaves by osmosis; cell shrinks (crenates)" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -112,12 +112,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "By active transport using ATP and carrier proteins" },
-              { id: "b", text: "By diffusion down the gradient" },
-              { id: "c", text: "By osmosis" },
+              { id: "a", text: "By osmosis" },
+              { id: "b", text: "By active transport using ATP and carrier proteins" },
+              { id: "c", text: "By diffusion down the gradient" },
               { id: "d", text: "It is not possible" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -172,8 +172,8 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Diffusion" },
-              { id: "b", text: "Osmosis" },
+              { id: "a", text: "Osmosis" },
+              { id: "b", text: "Diffusion" },
               { id: "c", text: "Active transport" },
               { id: "d", text: "Facilitated diffusion" },
             ],
@@ -200,11 +200,11 @@ export const lesson12: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Water leaves; cell becomes plasmolysed" },
-              { id: "b", text: "Water enters; cell becomes turgid but does not burst" },
-              { id: "c", text: "Nothing changes" },
-              { id: "d", text: "Cell bursts immediately" },
+              { id: "b", text: "Cell bursts immediately" },
+              { id: "c", text: "Water enters; cell becomes turgid but does not burst" },
+              { id: "d", text: "Nothing changes" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -227,12 +227,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Both gases diffuse down their concentration gradients across thin alveolar walls" },
-              { id: "b", text: "Active transport pumps them across" },
-              { id: "c", text: "Osmosis draws them across" },
-              { id: "d", text: "The heart pushes them through capillaries" },
+              { id: "a", text: "Active transport pumps them across" },
+              { id: "b", text: "Both gases diffuse down their concentration gradients across thin alveolar walls" },
+              { id: "c", text: "The heart pushes them through capillaries" },
+              { id: "d", text: "Osmosis draws them across" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -467,8 +467,8 @@ export const lesson12: Lesson = {
             choices: [
               { id: "a", text: "Water enters by osmosis; alga swells — cell wall prevents bursting" },
               { id: "b", text: "Salt enters by active transport; alga shrivels" },
-              { id: "c", text: "Nothing happens — membranes are impermeable" },
-              { id: "d", text: "Oxygen leaves by diffusion; alga dies" },
+              { id: "c", text: "Oxygen leaves by diffusion; alga dies" },
+              { id: "d", text: "Nothing happens — membranes are impermeable" },
             ],
             correctChoiceId: "a",
           },
@@ -527,8 +527,8 @@ export const lesson12: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "A protein that catalyses biological reactions" },
-              { id: "b", text: "A carbohydrate that stores energy" },
-              { id: "c", text: "A lipid that forms membranes" },
+              { id: "b", text: "A lipid that forms membranes" },
+              { id: "c", text: "A carbohydrate that stores energy" },
               { id: "d", text: "A nucleic acid that carries genetic info" },
             ],
             correctChoiceId: "a",
@@ -553,12 +553,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It denatures — active site shape changes permanently" },
-              { id: "b", text: "It works faster" },
-              { id: "c", text: "It stops temporarily then resumes" },
-              { id: "d", text: "Nothing changes" },
+              { id: "a", text: "Nothing changes" },
+              { id: "b", text: "It stops temporarily then resumes" },
+              { id: "c", text: "It works faster" },
+              { id: "d", text: "It denatures — active site shape changes permanently" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -581,12 +581,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "More substrate molecules collide with free active sites; eventually all active sites are occupied (saturated)" },
-              { id: "b", text: "The enzyme runs out of energy" },
+              { id: "a", text: "The enzyme runs out of energy" },
+              { id: "b", text: "More substrate molecules collide with free active sites; eventually all active sites are occupied (saturated)" },
               { id: "c", text: "Substrate inhibits the enzyme" },
               { id: "d", text: "Temperature increases automatically" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -641,12 +641,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Activation energy" },
-              { id: "b", text: "Temperature" },
-              { id: "c", text: "pH" },
-              { id: "d", text: "Substrate concentration" },
+              { id: "a", text: "Temperature" },
+              { id: "b", text: "Activation energy" },
+              { id: "c", text: "Substrate concentration" },
+              { id: "d", text: "pH" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -668,12 +668,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The substrate" },
-              { id: "b", text: "The product" },
+              { id: "a", text: "Any molecule" },
+              { id: "b", text: "The substrate" },
               { id: "c", text: "A coenzyme only" },
-              { id: "d", text: "Any molecule" },
+              { id: "d", text: "The product" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -696,12 +696,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Each enzyme's active site shape is maintained only within a narrow pH range matching its environment" },
+              { id: "a", text: "All enzymes share the same optimum" },
               { id: "b", text: "Enzymes change their substrate depending on pH" },
-              { id: "c", text: "pH determines which enzyme is produced" },
-              { id: "d", text: "All enzymes share the same optimum" },
+              { id: "c", text: "Each enzyme's active site shape is maintained only within a narrow pH range matching its environment" },
+              { id: "d", text: "pH determines which enzyme is produced" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -935,9 +935,9 @@ export const lesson12: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Activity permanently lost — high temperature denatured the enzyme by changing its active site shape" },
-              { id: "b", text: "Activity fully restored once cooled" },
-              { id: "c", text: "Activity increases because heat activates enzymes" },
-              { id: "d", text: "Activity halved but reversible" },
+              { id: "b", text: "Activity halved but reversible" },
+              { id: "c", text: "Activity fully restored once cooled" },
+              { id: "d", text: "Activity increases because heat activates enzymes" },
             ],
             correctChoiceId: "a",
           },

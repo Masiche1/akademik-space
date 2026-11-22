@@ -52,12 +52,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Goes from specific observations to general conclusions" },
-              { id: "b", text: "Goes from general premises to specific conclusions" },
-              { id: "c", text: "Relies on gut feelings" },
-              { id: "d", text: "Requires sensory evidence" },
+              { id: "a", text: "Relies on gut feelings" },
+              { id: "b", text: "Requires sensory evidence" },
+              { id: "c", text: "Goes from general premises to specific conclusions" },
+              { id: "d", text: "Goes from specific observations to general conclusions" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -147,12 +147,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It is based on many observations" },
-              { id: "b", text: "The conclusion follows necessarily if the premises are true" },
-              { id: "c", text: "It uses gut feelings about correctness" },
+              { id: "a", text: "The conclusion follows necessarily if the premises are true" },
+              { id: "b", text: "It uses gut feelings about correctness" },
+              { id: "c", text: "It is based on many observations" },
               { id: "d", text: "It has been repeated many times" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -174,10 +174,10 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Deduction" },
+              { id: "a", text: "Faith" },
               { id: "b", text: "Induction" },
-              { id: "c", text: "Faith" },
-              { id: "d", text: "Perception alone" },
+              { id: "c", text: "Perception alone" },
+              { id: "d", text: "Deduction" },
             ],
             correctChoiceId: "b",
           },
@@ -201,12 +201,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A conclusion that is certainly true" },
-              { id: "b", text: "A conclusion that may be false — valid but unsound" },
-              { id: "c", text: "No conclusion at all" },
-              { id: "d", text: "A contradiction in all cases" },
+              { id: "a", text: "A contradiction in all cases" },
+              { id: "b", text: "No conclusion at all" },
+              { id: "c", text: "A conclusion that is certainly true" },
+              { id: "d", text: "A conclusion that may be false — valid but unsound" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -361,12 +361,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Its conclusions are certain" },
-              { id: "b", text: "Its conclusions are probable and open to revision" },
-              { id: "c", text: "It requires no observations" },
+              { id: "a", text: "Its conclusions are probable and open to revision" },
+              { id: "b", text: "It requires no observations" },
+              { id: "c", text: "Its conclusions are certain" },
               { id: "d", text: "It always produces contradictions" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -388,12 +388,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Reasoning computers produce errors randomly" },
-              { id: "b", text: "Reasoning preserves and propagates errors in its premises" },
-              { id: "c", text: "Memory always fails" },
-              { id: "d", text: "Language cannot express numbers" },
+              { id: "a", text: "Reasoning preserves and propagates errors in its premises" },
+              { id: "b", text: "Reasoning computers produce errors randomly" },
+              { id: "c", text: "Language cannot express numbers" },
+              { id: "d", text: "Memory always fails" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -416,11 +416,11 @@ export const lesson12: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Testing claims against physical evidence" },
-              { id: "b", text: "Deductive proof from definitions and axioms" },
-              { id: "c", text: "Appealing to authority and tradition" },
+              { id: "b", text: "Appealing to authority and tradition" },
+              { id: "c", text: "Deductive proof from definitions and axioms" },
               { id: "d", text: "Generating hypotheses through imagination" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -514,11 +514,11 @@ export const lesson12: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Reason is too slow to be useful" },
-              { id: "b", text: "Reason cannot generate its own premises from nothing" },
-              { id: "c", text: "Reason contradicts perception in all cases" },
-              { id: "d", text: "Reason only works in mathematics" },
+              { id: "b", text: "Reason only works in mathematics" },
+              { id: "c", text: "Reason cannot generate its own premises from nothing" },
+              { id: "d", text: "Reason contradicts perception in all cases" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -571,12 +571,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Logical deduction from premises" },
-              { id: "b", text: "Immediate knowing without conscious reasoning" },
-              { id: "c", text: "Storage of past events" },
-              { id: "d", text: "Interpretation of sensory data" },
+              { id: "a", text: "Interpretation of sensory data" },
+              { id: "b", text: "Storage of past events" },
+              { id: "c", text: "Immediate knowing without conscious reasoning" },
+              { id: "d", text: "Logical deduction from premises" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -667,11 +667,11 @@ export const lesson12: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Random guessing with no basis" },
-              { id: "b", text: "Pattern recognition built up through extensive experience" },
-              { id: "c", text: "Logical deduction performed quickly" },
+              { id: "b", text: "Logical deduction performed quickly" },
+              { id: "c", text: "Pattern recognition built up through extensive experience" },
               { id: "d", text: "Memorised facts recalled instantly" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -693,12 +693,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It stores events as perfect recordings" },
-              { id: "b", text: "Each recall rebuilds the memory and can introduce distortions" },
+              { id: "a", text: "Each recall rebuilds the memory and can introduce distortions" },
+              { id: "b", text: "It stores events as perfect recordings" },
               { id: "c", text: "It only works for recent events" },
               { id: "d", text: "It deletes all emotional content" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -720,10 +720,10 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Deductive reasoning" },
+              { id: "a", text: "Faulty memory" },
               { id: "b", text: "Trained intuition through pattern recognition" },
-              { id: "c", text: "Faulty memory" },
-              { id: "d", text: "Coincidence" },
+              { id: "c", text: "Coincidence" },
+              { id: "d", text: "Deductive reasoning" },
             ],
             correctChoiceId: "b",
           },
@@ -880,12 +880,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A student checking each step of a long calculation" },
-              { id: "b", text: "A firefighter sensing danger and evacuating before analysing the situation" },
-              { id: "c", text: "A scientist recording data in a table" },
-              { id: "d", text: "A judge reading a written verdict aloud" },
+              { id: "a", text: "A firefighter sensing danger and evacuating before analysing the situation" },
+              { id: "b", text: "A judge reading a written verdict aloud" },
+              { id: "c", text: "A student checking each step of a long calculation" },
+              { id: "d", text: "A scientist recording data in a table" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -908,11 +908,11 @@ export const lesson12: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "The person has no relevant experience" },
-              { id: "b", text: "The person is trained in that domain and the situation is familiar" },
+              { id: "b", text: "The decision is purely emotional" },
               { id: "c", text: "The stakes are extremely high and unfamiliar" },
-              { id: "d", text: "The decision is purely emotional" },
+              { id: "d", text: "The person is trained in that domain and the situation is familiar" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -934,9 +934,9 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Perfect memory recordings" },
+              { id: "a", text: "Deliberate lying by all witnesses" },
               { id: "b", text: "Reconstructive memory and information learned after the event" },
-              { id: "c", text: "Deliberate lying by all witnesses" },
+              { id: "c", text: "Perfect memory recordings" },
               { id: "d", text: "Instruments measuring too precisely" },
             ],
             correctChoiceId: "b",
@@ -1032,10 +1032,10 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Trust it because it feels clear" },
+              { id: "a", text: "Ask someone with the same memory" },
               { id: "b", text: "Corroborate it with records, witnesses or reasoning" },
               { id: "c", text: "Discard it because memory is always wrong" },
-              { id: "d", text: "Ask someone with the same memory" },
+              { id: "d", text: "Trust it because it feels clear" },
             ],
             correctChoiceId: "b",
           },

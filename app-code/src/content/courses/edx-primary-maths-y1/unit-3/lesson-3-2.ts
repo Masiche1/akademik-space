@@ -72,11 +72,11 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "3" },
-              { id: "b", text: "4" },
-              { id: "c", text: "6" },
-              { id: "d", text: "9" },
+              { id: "b", text: "6" },
+              { id: "c", text: "9" },
+              { id: "d", text: "4" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -293,10 +293,10 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "2" },
+              { id: "a", text: "12" },
               { id: "b", text: "5" },
-              { id: "c", text: "8" },
-              { id: "d", text: "12" },
+              { id: "c", text: "2" },
+              { id: "d", text: "8" },
             ],
             correctChoiceId: "b",
           },

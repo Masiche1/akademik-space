@@ -93,12 +93,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Photolysis of water" },
-              { id: "b", text: "Reduction of $NADP^+$" },
+              { id: "a", text: "Reduction of $NADP^+$" },
+              { id: "b", text: "Photolysis of water" },
               { id: "c", text: "Cyclic electron flow" },
               { id: "d", text: "Photolysis of $CO_2$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -365,16 +365,16 @@ export const lesson22: Lesson = {
             choices: [
               {
                 id: "a",
-                text: "P680 receives electrons ultimately from water",
-              },
-              {
-                id: "b",
                 text: "P700 receives electrons ultimately from $NADP^+$",
               },
-              { id: "c", text: "P680 donates electrons directly to $NADP^+$" },
-              { id: "d", text: "P700 splits water to release oxygen" },
+              { id: "b", text: "P700 splits water to release oxygen" },
+              {
+                id: "c",
+                text: "P680 receives electrons ultimately from water",
+              },
+              { id: "d", text: "P680 donates electrons directly to $NADP^+$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -411,12 +411,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Ferredoxin" },
-              { id: "b", text: "Plastoquinone only" },
-              { id: "c", text: "ATP synthase" },
-              { id: "d", text: "RuBisCO" },
+              { id: "a", text: "Plastoquinone only" },
+              { id: "b", text: "RuBisCO" },
+              { id: "c", text: "Ferredoxin" },
+              { id: "d", text: "ATP synthase" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -456,15 +456,15 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "They pump protons into the thylakoid lumen" },
+              { id: "b", text: "They split water molecules directly" },
+              { id: "c", text: "They fix carbon dioxide in the stroma" },
               {
-                id: "a",
+                id: "d",
                 text: "They absorb additional wavelengths of light and transfer the energy to the reaction centre",
               },
-              { id: "b", text: "They fix carbon dioxide in the stroma" },
-              { id: "c", text: "They split water molecules directly" },
-              { id: "d", text: "They pump protons into the thylakoid lumen" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -505,12 +505,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Oxygen, protons and electrons" },
-              { id: "b", text: "NADPH, ATP and oxygen" },
+              { id: "a", text: "NADPH, ATP and oxygen" },
+              { id: "b", text: "Glucose, oxygen and protons" },
               { id: "c", text: "Carbon dioxide, protons and electrons" },
-              { id: "d", text: "Glucose, oxygen and protons" },
+              { id: "d", text: "Oxygen, protons and electrons" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -551,22 +551,22 @@ export const lesson22: Lesson = {
             choices: [
               {
                 id: "a",
-                text: "Water → photosystem II → electron transport chain → photosystem I → ferredoxin → $NADP^+$",
+                text: "Water → RuBisCO → Calvin cycle → photosystem II",
               },
               {
                 id: "b",
-                text: "Water → photosystem I → photosystem II → $NADP^+$",
-              },
-              {
-                id: "c",
                 text: "$NADP^+$ → photosystem I → photosystem II → water",
               },
               {
+                id: "c",
+                text: "Water → photosystem II → electron transport chain → photosystem I → ferredoxin → $NADP^+$",
+              },
+              {
                 id: "d",
-                text: "Water → RuBisCO → Calvin cycle → photosystem II",
+                text: "Water → photosystem I → photosystem II → $NADP^+$",
               },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1029,15 +1029,15 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "Only oxygen" },
               {
-                id: "a",
+                id: "b",
                 text: "Neither — cyclic produces only ATP, which non-cyclic also produces",
               },
-              { id: "b", text: "NADPH and oxygen" },
-              { id: "c", text: "Only oxygen" },
-              { id: "d", text: "Only NADPH" },
+              { id: "c", text: "Only NADPH" },
+              { id: "d", text: "NADPH and oxygen" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1294,12 +1294,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "ATP only" },
+              { id: "a", text: "NADPH and oxygen only" },
               { id: "b", text: "ATP, NADPH and oxygen" },
-              { id: "c", text: "NADPH and oxygen only" },
+              { id: "c", text: "ATP only" },
               { id: "d", text: "Oxygen only" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1339,12 +1339,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "ATP, NADPH and oxygen" },
+              { id: "a", text: "NADPH only" },
               { id: "b", text: "ATP only" },
-              { id: "c", text: "NADPH only" },
-              { id: "d", text: "Oxygen only" },
+              { id: "c", text: "Oxygen only" },
+              { id: "d", text: "ATP, NADPH and oxygen" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1384,12 +1384,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Ferredoxin" },
+              { id: "a", text: "RuBisCO" },
               { id: "b", text: "Water directly" },
-              { id: "c", text: "NADPH" },
-              { id: "d", text: "RuBisCO" },
+              { id: "c", text: "Ferredoxin" },
+              { id: "d", text: "NADPH" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1429,21 +1429,21 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              {
-                id: "a",
-                text: "Protons are pumped from the stroma into the thylakoid lumen",
-              },
+              { id: "a", text: "No proton gradient is formed" },
               {
                 id: "b",
                 text: "Protons are pumped from the lumen into the stroma",
               },
               {
                 id: "c",
+                text: "Protons are pumped from the stroma into the thylakoid lumen",
+              },
+              {
+                id: "d",
                 text: "Protons are pumped from the cytoplasm into the nucleus",
               },
-              { id: "d", text: "No proton gradient is formed" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1483,15 +1483,15 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "It reduces $NADP^+$ to NADPH directly" },
+              { id: "b", text: "It fixes $CO_2$ onto RuBP" },
+              { id: "c", text: "It splits water to release oxygen" },
               {
-                id: "a",
+                id: "d",
                 text: "It uses the proton gradient across the thylakoid membrane to phosphorylate ADP",
               },
-              { id: "b", text: "It splits water to release oxygen" },
-              { id: "c", text: "It fixes $CO_2$ onto RuBP" },
-              { id: "d", text: "It reduces $NADP^+$ to NADPH directly" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1538,15 +1538,15 @@ export const lesson22: Lesson = {
               },
               {
                 id: "b",
-                text: "Cyclic flow produces NADPH; non-cyclic flow does not",
-              },
-              {
-                id: "c",
                 text: "Both require water splitting to produce oxygen",
               },
               {
-                id: "d",
+                id: "c",
                 text: "Non-cyclic flow recycles electrons; cyclic flow reduces $NADP^+$",
+              },
+              {
+                id: "d",
+                text: "Cyclic flow produces NADPH; non-cyclic flow does not",
               },
             ],
             correctChoiceId: "a",

@@ -97,11 +97,11 @@ export const lesson11: Lesson = {
                 id: "a",
                 text: "Inner-shell electrons are more tightly held, so more photon energy is needed to remove them",
               },
-              { id: "b", text: "Inner-shell electrons have a larger mass" },
               {
-                id: "c",
+                id: "b",
                 text: "The photons are absorbed more strongly by inner shells",
               },
+              { id: "c", text: "Inner-shell electrons have a larger mass" },
               {
                 id: "d",
                 text: "Outer-shell electrons move faster after ejection",
@@ -368,12 +368,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$+\\frac{1}{2}$ or $-\\frac{1}{2}$" },
-              { id: "b", text: "$0$, $+\\frac{1}{2}$ or $-\\frac{1}{2}$" },
-              { id: "c", text: "$+1$ or $-1$" },
-              { id: "d", text: "Any integer value" },
+              { id: "a", text: "Any integer value" },
+              { id: "b", text: "$+1$ or $-1$" },
+              { id: "c", text: "$+\\frac{1}{2}$ or $-\\frac{1}{2}$" },
+              { id: "d", text: "$0$, $+\\frac{1}{2}$ or $-\\frac{1}{2}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -413,11 +413,11 @@ export const lesson11: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "1" },
-              { id: "b", text: "2, with opposite spins" },
-              { id: "c", text: "6" },
-              { id: "d", text: "8" },
+              { id: "b", text: "6" },
+              { id: "c", text: "8" },
+              { id: "d", text: "2, with opposite spins" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -456,12 +456,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "1" },
-              { id: "b", text: "2" },
-              { id: "c", text: "3" },
-              { id: "d", text: "5" },
+              { id: "a", text: "5" },
+              { id: "b", text: "1" },
+              { id: "c", text: "2" },
+              { id: "d", text: "3" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1102,9 +1102,9 @@ export const lesson11: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$[Ar]\\,4s^1 3d^5$" },
-              { id: "b", text: "$[Ar]\\,4s^2 3d^4$" },
+              { id: "b", text: "$[Ar]\\,3d^4 4s^2$" },
               { id: "c", text: "$[Ar]\\,4s^2 3d^5$" },
-              { id: "d", text: "$[Ar]\\,3d^4 4s^2$" },
+              { id: "d", text: "$[Ar]\\,4s^2 3d^4$" },
             ],
             correctChoiceId: "a",
           },
@@ -1337,12 +1337,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$3d$" },
+              { id: "a", text: "$3p$" },
               { id: "b", text: "$4p$" },
-              { id: "c", text: "$3p$" },
+              { id: "c", text: "$3d$" },
               { id: "d", text: "$5s$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1381,11 +1381,11 @@ export const lesson11: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$[Ar]\\,4s^1 3d^{10}$" },
-              { id: "b", text: "$[Ar]\\,4s^2 3d^9$" },
-              { id: "c", text: "$[Ar]\\,3d^{10}$" },
-              { id: "d", text: "$[Ar]\\,4s^2 3d^{10}$" },
+              { id: "b", text: "$[Ar]\\,4s^2 3d^{10}$" },
+              { id: "c", text: "$[Ar]\\,4s^2 3d^9$" },
+              { id: "d", text: "$[Ar]\\,3d^{10}$" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1424,15 +1424,15 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "The atom has become radioactive" },
               {
-                id: "a",
+                id: "b",
                 text: "The next electron must be removed from a new, inner electron shell",
               },
-              { id: "b", text: "The atom has become radioactive" },
               { id: "c", text: "The next electron is in a $d$ subshell" },
               { id: "d", text: "The element is a transition metal" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [

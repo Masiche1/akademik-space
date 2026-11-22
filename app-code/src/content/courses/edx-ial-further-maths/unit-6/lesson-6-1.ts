@@ -50,12 +50,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Toward the centre" },
+              { id: "a", text: "Tangentially" },
               { id: "b", text: "Away from centre" },
-              { id: "c", text: "Tangentially" },
-              { id: "d", text: "Vertically" },
+              { id: "c", text: "Vertically" },
+              { id: "d", text: "Toward the centre" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Centripetal", statement: "Acceleration toward centre." }],
@@ -172,12 +172,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The horizontal component of normal reaction" },
+              { id: "a", text: "Engine force" },
               { id: "b", text: "Friction" },
-              { id: "c", text: "Gravity" },
-              { id: "d", text: "Engine force" },
+              { id: "c", text: "The horizontal component of normal reaction" },
+              { id: "d", text: "Gravity" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Banked curve", statement: "$N\\sin\\theta$ provides centripetal force." }],

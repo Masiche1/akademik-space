@@ -251,11 +251,11 @@ export const lesson11: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Vertical component" },
-              { id: "b", text: "Horizontal component" },
-              { id: "c", text: "Both components" },
-              { id: "d", text: "Neither component" },
+              { id: "b", text: "Both components" },
+              { id: "c", text: "Neither component" },
+              { id: "d", text: "Horizontal component" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -350,12 +350,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Weight is zero" },
-              { id: "b", text: "Drag equals weight" },
+              { id: "a", text: "Drag equals weight" },
+              { id: "b", text: "Weight is zero" },
               { id: "c", text: "Drag is zero" },
               { id: "d", text: "Acceleration is $g$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -522,12 +522,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Acceleration is zero because speed is constant" },
-              { id: "b", text: "Acceleration is directed away from the centre" },
-              { id: "c", text: "Acceleration is directed toward the centre" },
-              { id: "d", text: "Acceleration is tangential to the circle" },
+              { id: "a", text: "Acceleration is tangential to the circle" },
+              { id: "b", text: "Acceleration is directed toward the centre" },
+              { id: "c", text: "Acceleration is directed away from the centre" },
+              { id: "d", text: "Acceleration is zero because speed is constant" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [

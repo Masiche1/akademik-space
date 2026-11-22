@@ -55,12 +55,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Anode" },
-              { id: "b", text: "Cathode" },
-              { id: "c", text: "Electrolyte" },
-              { id: "d", text: "Salt bridge" },
+              { id: "a", text: "Salt bridge" },
+              { id: "b", text: "Electrolyte" },
+              { id: "c", text: "Anode" },
+              { id: "d", text: "Cathode" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -194,9 +194,9 @@ export const lesson21: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$\\text{Na}^+ + \\text{e}^- \\rightarrow \\text{Na}$" },
-              { id: "b", text: "$\\text{Na} \\rightarrow \\text{Na}^+ + \\text{e}^-$" },
-              { id: "c", text: "$2\\text{Cl}^- \\rightarrow \\text{Cl}_2 + 2\\text{e}^-$" },
-              { id: "d", text: "$\\text{Cl}_2 + 2\\text{e}^- \\rightarrow 2\\text{Cl}^-$" },
+              { id: "b", text: "$2\\text{Cl}^- \\rightarrow \\text{Cl}_2 + 2\\text{e}^-$" },
+              { id: "c", text: "$\\text{Cl}_2 + 2\\text{e}^- \\rightarrow 2\\text{Cl}^-$" },
+              { id: "d", text: "$\\text{Na} \\rightarrow \\text{Na}^+ + \\text{e}^-$" },
             ],
             correctChoiceId: "a",
           },

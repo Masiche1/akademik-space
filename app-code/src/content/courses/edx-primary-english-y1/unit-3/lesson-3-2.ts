@@ -55,12 +55,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "cat" },
-              { id: "b", text: "kat" },
-              { id: "c", text: "ct" },
-              { id: "d", text: "caat" },
+              { id: "a", text: "ct" },
+              { id: "b", text: "cat" },
+              { id: "c", text: "caat" },
+              { id: "d", text: "kat" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -85,10 +85,10 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "thay" },
+              { id: "a", text: "thie" },
               { id: "b", text: "they" },
               { id: "c", text: "thay" },
-              { id: "d", text: "thie" },
+              { id: "d", text: "thay" },
             ],
             correctChoiceId: "b",
           },
@@ -226,12 +226,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "a" },
-              { id: "b", text: "g" },
-              { id: "c", text: "m" },
-              { id: "d", text: "t" },
+              { id: "a", text: "t" },
+              { id: "b", text: "a" },
+              { id: "c", text: "g" },
+              { id: "d", text: "m" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -256,15 +256,15 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "To make writing pretty" },
               {
-                id: "b",
+                id: "a",
                 text: "So words don't run together and are easy to read",
               },
+              { id: "b", text: "To make writing pretty" },
               { id: "c", text: "To save paper" },
               { id: "d", text: "No reason" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

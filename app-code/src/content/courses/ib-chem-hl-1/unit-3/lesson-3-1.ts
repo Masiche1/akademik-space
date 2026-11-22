@@ -93,15 +93,15 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "Gaseous atoms form a molecule" },
               {
-                id: "a",
+                id: "b",
                 text: "One mole of ionic solid forms from its gaseous ions",
               },
-              { id: "b", text: "One mole of ionic solid dissolves in water" },
-              { id: "c", text: "Gaseous atoms form a molecule" },
+              { id: "c", text: "One mole of ionic solid dissolves in water" },
               { id: "d", text: "Ions move from gas to solution" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -334,12 +334,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "NaCl" },
-              { id: "b", text: "KBr" },
-              { id: "c", text: "MgO" },
-              { id: "d", text: "CsI" },
+              { id: "a", text: "KBr" },
+              { id: "b", text: "CsI" },
+              { id: "c", text: "NaCl" },
+              { id: "d", text: "MgO" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -379,12 +379,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Atomization of Na(s)" },
-              { id: "b", text: "First ionization of Na(g)" },
-              { id: "c", text: "Electron affinity of Cl(g)" },
-              { id: "d", text: "Atomization of $\\frac{1}{2}$Cl$_2$(g)" },
+              { id: "a", text: "First ionization of Na(g)" },
+              { id: "b", text: "Atomization of Na(s)" },
+              { id: "c", text: "Atomization of $\\frac{1}{2}$Cl$_2$(g)" },
+              { id: "d", text: "Electron affinity of Cl(g)" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -423,18 +423,18 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Mg has more electrons than Na" },
               {
-                id: "b",
+                id: "a",
                 text: "The second electron is removed from an inner shell closer to the nucleus",
               },
-              { id: "c", text: "Mg$^+$ has a larger radius than Mg" },
+              { id: "b", text: "Mg$^+$ has a larger radius than Mg" },
               {
-                id: "d",
+                id: "c",
                 text: "Shielding increases after the first ionization",
               },
+              { id: "d", text: "Mg has more electrons than Na" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -473,12 +473,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Li$^+$ is smaller than K$^+$" },
+              { id: "a", text: "K$^+$ has a higher charge than Li$^+$" },
               { id: "b", text: "Cl$^-$ is larger in LiCl" },
-              { id: "c", text: "Lithium is more reactive than potassium" },
-              { id: "d", text: "K$^+$ has a higher charge than Li$^+$" },
+              { id: "c", text: "Li$^+$ is smaller than K$^+$" },
+              { id: "d", text: "Lithium is more reactive than potassium" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -518,12 +518,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Always endothermic" },
-              { id: "b", text: "Always exothermic" },
+              { id: "a", text: "Always exothermic" },
+              { id: "b", text: "Always endothermic" },
               { id: "c", text: "Always zero" },
               { id: "d", text: "Dependent on temperature" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -1021,15 +1021,15 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "Only the hydration enthalpy" },
+              { id: "b", text: "Only the lattice enthalpy" },
               {
-                id: "a",
+                id: "c",
                 text: "The balance between lattice enthalpy (cost) and hydration enthalpies (gain)",
               },
-              { id: "b", text: "Only the lattice enthalpy" },
-              { id: "c", text: "Only the hydration enthalpy" },
               { id: "d", text: "The colour of the ions" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1255,15 +1255,15 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "An ionic solid breaks into gaseous ions" },
               {
-                id: "a",
+                id: "b",
                 text: "A gaseous ion is surrounded by water molecules",
               },
-              { id: "b", text: "An ionic solid breaks into gaseous ions" },
               { id: "c", text: "Ions move from solution into the solid state" },
               { id: "d", text: "Water molecules evaporate from the solution" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1302,12 +1302,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "MgSO$_4$" },
-              { id: "b", text: "NaCl" },
+              { id: "a", text: "NaCl" },
+              { id: "b", text: "MgSO$_4$" },
               { id: "c", text: "KBr" },
               { id: "d", text: "CaCO$_3$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1347,10 +1347,10 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A lower charge and larger radius" },
+              { id: "a", text: "A lower charge and smaller radius" },
               { id: "b", text: "A higher charge and smaller radius" },
-              { id: "c", text: "A higher charge and larger radius" },
-              { id: "d", text: "A lower charge and smaller radius" },
+              { id: "c", text: "A lower charge and larger radius" },
+              { id: "d", text: "A higher charge and larger radius" },
             ],
             correctChoiceId: "b",
           },
@@ -1395,14 +1395,14 @@ export const lesson31: Lesson = {
                 id: "a",
                 text: "Its hydration enthalpy is larger than its lattice enthalpy",
               },
+              { id: "b", text: "Water cannot hydrate Na$^+$ ions" },
+              { id: "c", text: "NaCl has no lattice enthalpy" },
               {
-                id: "b",
+                id: "d",
                 text: "The energy needed to break the lattice exceeds the energy released on hydration",
               },
-              { id: "c", text: "NaCl has no lattice enthalpy" },
-              { id: "d", text: "Water cannot hydrate Na$^+$ ions" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1441,15 +1441,15 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "Decreases, because ions are ordered by water" },
               {
-                id: "a",
+                id: "b",
                 text: "Increases, because the ions become dispersed in solution",
               },
-              { id: "b", text: "Decreases, because ions are ordered by water" },
               { id: "c", text: "Stays the same" },
               { id: "d", text: "Becomes zero" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [

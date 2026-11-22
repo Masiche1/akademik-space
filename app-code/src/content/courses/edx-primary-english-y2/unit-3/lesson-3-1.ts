@@ -66,12 +66,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Statement" },
-              { id: "b", text: "Question" },
+              { id: "a", text: "Question" },
+              { id: "b", text: "Statement" },
               { id: "c", text: "Command" },
               { id: "d", text: "Exclamation" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -96,12 +96,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The door is open." },
+              { id: "a", text: "What a big door!" },
               { id: "b", text: "Is the door open?" },
-              { id: "c", text: "Close the door." },
-              { id: "d", text: "What a big door!" },
+              { id: "c", text: "The door is open." },
+              { id: "d", text: "Close the door." },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -234,12 +234,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "and" },
-              { id: "b", text: "but" },
-              { id: "c", text: "because" },
-              { id: "d", text: "so" },
+              { id: "a", text: "because" },
+              { id: "b", text: "so" },
+              { id: "c", text: "but" },
+              { id: "d", text: "and" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -268,12 +268,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "I like pizza but I like pasta." },
-              { id: "b", text: "I like pizza and I like pasta." },
-              { id: "c", text: "I like pizza because I like pasta." },
-              { id: "d", text: "I like pizza so I like pasta." },
+              { id: "a", text: "I like pizza because I like pasta." },
+              { id: "b", text: "I like pizza but I like pasta." },
+              { id: "c", text: "I like pizza so I like pasta." },
+              { id: "d", text: "I like pizza and I like pasta." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

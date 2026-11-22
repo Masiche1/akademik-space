@@ -57,12 +57,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Forward and reverse reaction rates are equal" },
+              { id: "a", text: "Only products exist" },
               { id: "b", text: "All reactions have stopped" },
-              { id: "c", text: "Only products exist" },
+              { id: "c", text: "Forward and reverse reaction rates are equal" },
               { id: "d", text: "Concentrations are zero" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -84,12 +84,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Shifts right — 4 moles of gas become 2, reducing pressure" },
-              { id: "b", text: "Shifts left" },
-              { id: "c", text: "No change" },
-              { id: "d", text: "Reaction stops" },
+              { id: "a", text: "No change" },
+              { id: "b", text: "Shifts right — 4 moles of gas become 2, reducing pressure" },
+              { id: "c", text: "Reaction stops" },
+              { id: "d", text: "Shifts left" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -112,12 +112,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Compromise: low temperature favours yield but is too slow; 450 °C gives acceptable rate while keeping reasonable yield" },
-              { id: "b", text: "High temperature increases yield" },
-              { id: "c", text: "The reaction only works above 450 °C" },
-              { id: "d", text: "Temperature does not affect the reaction" },
+              { id: "a", text: "Temperature does not affect the reaction" },
+              { id: "b", text: "The reaction only works above 450 °C" },
+              { id: "c", text: "Compromise: low temperature favours yield but is too slow; 450 °C gives acceptable rate while keeping reasonable yield" },
+              { id: "d", text: "High temperature increases yield" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -172,12 +172,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The forward and reverse reaction rates are equal" },
-              { id: "b", text: "All chemical reactions have stopped" },
-              { id: "c", text: "Only the products are present" },
+              { id: "a", text: "Only the products are present" },
+              { id: "b", text: "The forward and reverse reaction rates are equal" },
+              { id: "c", text: "All chemical reactions have stopped" },
               { id: "d", text: "The concentrations of reactants and products are zero" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -220,12 +220,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Shifts right — more NH₃ forms to oppose the added reactant" },
-              { id: "b", text: "Shifts left" },
+              { id: "a", text: "Shifts left" },
+              { id: "b", text: "Shifts right — more NH₃ forms to oppose the added reactant" },
               { id: "c", text: "No change" },
               { id: "d", text: "Equilibrium is destroyed" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -273,12 +273,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "No change — the catalyst speeds up forward and reverse rates equally" },
-              { id: "b", text: "Shifts toward products" },
-              { id: "c", text: "Shifts toward reactants" },
-              { id: "d", text: "Equilibrium is reached faster so position changes" },
+              { id: "a", text: "Equilibrium is reached faster so position changes" },
+              { id: "b", text: "Shifts toward reactants" },
+              { id: "c", text: "No change — the catalyst speeds up forward and reverse rates equally" },
+              { id: "d", text: "Shifts toward products" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -323,12 +323,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Equilibrium shifts left (toward reactants, absorbing heat) and NH₃ yield falls, but the rate increases" },
-              { id: "b", text: "Shifts right and yield increases" },
+              { id: "a", text: "Shifts right and yield increases" },
+              { id: "b", text: "Equilibrium shifts left (toward reactants, absorbing heat) and NH₃ yield falls, but the rate increases" },
               { id: "c", text: "No change to position or rate" },
               { id: "d", text: "Reaction stops" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -380,12 +380,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Removing NH₃ shifts equilibrium right to replace it → higher overall yield" },
-              { id: "b", text: "Yield decreases because product is removed" },
+              { id: "a", text: "Yield decreases because product is removed" },
+              { id: "b", text: "Reaction stops immediately" },
               { id: "c", text: "No effect on equilibrium" },
-              { id: "d", text: "Reaction stops immediately" },
+              { id: "d", text: "Removing NH₃ shifts equilibrium right to replace it → higher overall yield" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -506,12 +506,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Combustion of methane" },
-              { id: "b", text: "Thermal decomposition of calcium carbonate" },
-              { id: "c", text: "Photosynthesis" },
-              { id: "d", text: "Melting ice" },
+              { id: "a", text: "Melting ice" },
+              { id: "b", text: "Photosynthesis" },
+              { id: "c", text: "Thermal decomposition of calcium carbonate" },
+              { id: "d", text: "Combustion of methane" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -533,12 +533,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Breaking bonds requires energy input, so it is counted as positive; forming bonds releases energy, counted as negative" },
-              { id: "b", text: "Breaking bonds releases energy" },
+              { id: "a", text: "Breaking bonds releases energy" },
+              { id: "b", text: "Breaking bonds requires energy input, so it is counted as positive; forming bonds releases energy, counted as negative" },
               { id: "c", text: "All bond energies are negative" },
               { id: "d", text: "Only products need bond energies" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -562,9 +562,9 @@ export const lesson22: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Broken: 4(413)+2(498)=2648; formed: 2(799)+4(463)=3450; ΔH = −802 kJ/mol" },
-              { id: "b", text: "ΔH = +802 kJ/mol" },
-              { id: "c", text: "ΔH = −2648 kJ/mol" },
-              { id: "d", text: "ΔH = +3450 kJ/mol" },
+              { id: "b", text: "ΔH = +3450 kJ/mol" },
+              { id: "c", text: "ΔH = +802 kJ/mol" },
+              { id: "d", text: "ΔH = −2648 kJ/mol" },
             ],
             correctChoiceId: "a",
           },
@@ -621,12 +621,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Energy is released to the surroundings and ΔH is negative" },
-              { id: "b", text: "Energy is absorbed from the surroundings and ΔH is positive" },
-              { id: "c", text: "No energy change occurs" },
-              { id: "d", text: "The reaction only occurs when heated" },
+              { id: "a", text: "The reaction only occurs when heated" },
+              { id: "b", text: "Energy is released to the surroundings and ΔH is negative" },
+              { id: "c", text: "Energy is absorbed from the surroundings and ΔH is positive" },
+              { id: "d", text: "No energy change occurs" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -669,12 +669,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Bond breaking is endothermic — energy must be supplied to overcome the attractive forces holding atoms together" },
-              { id: "b", text: "Breaking bonds releases energy" },
+              { id: "a", text: "Breaking bonds releases energy" },
+              { id: "b", text: "Bond breaking is endothermic — energy must be supplied to overcome the attractive forces holding atoms together" },
               { id: "c", text: "Bonds break spontaneously" },
               { id: "d", text: "Only forming bonds needs energy" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -719,12 +719,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Products are at a higher energy level than reactants" },
-              { id: "b", text: "Products are at a lower energy level than reactants" },
-              { id: "c", text: "Both are at the same level" },
+              { id: "a", text: "Both are at the same level" },
+              { id: "b", text: "Products are at a higher energy level than reactants" },
+              { id: "c", text: "Products are at a lower energy level than reactants" },
               { id: "d", text: "Reactants are at the peak" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -747,12 +747,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Initially from the surroundings/collision energy; overall energy is released when new bonds form" },
+              { id: "a", text: "Energy comes from the products" },
               { id: "b", text: "From the catalyst only" },
-              { id: "c", text: "No energy is needed at all" },
-              { id: "d", text: "Energy comes from the products" },
+              { id: "c", text: "Initially from the surroundings/collision energy; overall energy is released when new bonds form" },
+              { id: "d", text: "No energy is needed at all" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -825,12 +825,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Bond energies are average values — actual bond strengths vary between different molecules and environments" },
-              { id: "b", text: "Bond energies are always exact" },
+              { id: "a", text: "Bond energies are always exact" },
+              { id: "b", text: "Bond energies are average values — actual bond strengths vary between different molecules and environments" },
               { id: "c", text: "The calculation ignores temperature" },
               { id: "d", text: "Only exothermic reactions can be estimated" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [

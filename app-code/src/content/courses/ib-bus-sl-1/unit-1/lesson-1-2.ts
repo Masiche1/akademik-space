@@ -93,12 +93,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Private limited company" },
-              { id: "b", text: "Public limited company" },
-              { id: "c", text: "Partnership" },
+              { id: "a", text: "Partnership" },
+              { id: "b", text: "Private limited company" },
+              { id: "c", text: "Public limited company" },
               { id: "d", text: "Cooperative" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -320,11 +320,11 @@ export const lesson12: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Inability to make a profit" },
-              { id: "b", text: "Unlimited liability" },
-              { id: "c", text: "Having to publish all accounts" },
+              { id: "b", text: "Having to publish all accounts" },
+              { id: "c", text: "Unlimited liability" },
               { id: "d", text: "Needing at least two owners" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -363,12 +363,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "One" },
-              { id: "b", text: "Two" },
-              { id: "c", text: "Seven" },
-              { id: "d", text: "There is no minimum" },
+              { id: "a", text: "There is no minimum" },
+              { id: "b", text: "Seven" },
+              { id: "c", text: "Two" },
+              { id: "d", text: "One" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -407,15 +407,15 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The business can borrow without limit" },
               {
-                id: "b",
+                id: "a",
                 text: "Owners are personally responsible for all business debts",
               },
+              { id: "b", text: "The business can borrow without limit" },
               { id: "c", text: "Liability ends when the business closes" },
               { id: "d", text: "Only company assets can be seized" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -456,11 +456,11 @@ export const lesson12: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Limited liability" },
-              { id: "b", text: "Freedom from all business debts" },
+              { id: "b", text: "Pooled capital, skills and shared workload" },
               { id: "c", text: "The ability to sell shares publicly" },
-              { id: "d", text: "Pooled capital, skills and shared workload" },
+              { id: "d", text: "Freedom from all business debts" },
             ],
-            correctChoiceId: "d",
+            correctChoiceIb: "d",
           },
           markscheme: {
             principles: [
@@ -499,13 +499,13 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Difficulty raising any finance" },
+              { id: "a", text: "Keeping all profit for one person" },
               {
                 id: "b",
                 text: "Partners being jointly liable for each other's business debts",
               },
-              { id: "c", text: "Keeping all profit for one person" },
-              { id: "d", text: "Having to publish full accounts" },
+              { id: "c", text: "Having to publish full accounts" },
+              { id: "d", text: "Difficulty raising any finance" },
             ],
             correctChoiceId: "b",
           },
@@ -549,13 +549,13 @@ export const lesson12: Lesson = {
             choices: [
               { id: "a", text: "Avoid paying any tax" },
               { id: "b", text: "Keep unlimited liability" },
+              { id: "c", text: "Eliminate all competitors" },
               {
-                id: "c",
+                id: "d",
                 text: "Gain limited liability and easier access to capital",
               },
-              { id: "d", text: "Eliminate all competitors" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -969,12 +969,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Have limited liability" },
-              { id: "b", text: "Sell shares to the general public" },
-              { id: "c", text: "Be a separate legal entity" },
-              { id: "d", text: "Make a profit" },
+              { id: "a", text: "Sell shares to the general public" },
+              { id: "b", text: "Make a profit" },
+              { id: "c", text: "Have limited liability" },
+              { id: "d", text: "Be a separate legal entity" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -1189,13 +1189,13 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The business can never fail" },
+              { id: "a", text: "Shares cannot be sold" },
               {
                 id: "b",
                 text: "Owners can lose at most the value of their shares",
               },
               { id: "c", text: "Owners must pay all debts personally" },
-              { id: "d", text: "Shares cannot be sold" },
+              { id: "d", text: "The business can never fail" },
             ],
             correctChoiceId: "b",
           },
@@ -1237,13 +1237,13 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Sold to anyone on the stock exchange" },
+              { id: "a", text: "Worthless after issue" },
               {
                 id: "b",
                 text: "Kept private and not offered to the general public",
               },
-              { id: "c", text: "Issued only to the government" },
-              { id: "d", text: "Worthless after issue" },
+              { id: "c", text: "Sold to anyone on the stock exchange" },
+              { id: "d", text: "Issued only to the government" },
             ],
             correctChoiceId: "b",
           },
@@ -1284,15 +1284,15 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Keep all accounts secret" },
-              { id: "b", text: "Have unlimited liability" },
+              { id: "a", text: "Have unlimited liability" },
+              { id: "b", text: "Be owned by one person" },
+              { id: "c", text: "Keep all accounts secret" },
               {
-                id: "c",
+                id: "d",
                 text: "Publish full accounts and meet stricter regulation",
               },
-              { id: "d", text: "Be owned by one person" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1332,18 +1332,18 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              {
-                id: "a",
-                text: "The company and its owners are legally the same",
-              },
+              { id: "a", text: "Owners cannot be shareholders" },
               {
                 id: "b",
+                text: "The company and its owners are legally the same",
+              },
+              { id: "c", text: "The company cannot make contracts" },
+              {
+                id: "d",
                 text: "The company can own property and sign contracts in its own name",
               },
-              { id: "c", text: "Owners cannot be shareholders" },
-              { id: "d", text: "The company cannot make contracts" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1383,15 +1383,15 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Shareholders vote on every daily decision" },
               {
-                id: "b",
+                id: "a",
                 text: "Shares are dispersed among many small owners while managers run the business",
               },
-              { id: "c", text: "Managers own all the shares" },
-              { id: "d", text: "The government runs the company" },
+              { id: "b", text: "Shareholders vote on every daily decision" },
+              { id: "c", text: "The government runs the company" },
+              { id: "d", text: "Managers own all the shares" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

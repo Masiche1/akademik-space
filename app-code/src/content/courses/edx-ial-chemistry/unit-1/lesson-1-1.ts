@@ -49,10 +49,10 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "6" },
+              { id: "a", text: "24" },
               { id: "b", text: "12" },
               { id: "c", text: "18" },
-              { id: "d", text: "24" },
+              { id: "d", text: "6" },
             ],
             correctChoiceId: "b",
           },
@@ -165,11 +165,11 @@ export const lesson11: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Increases" },
-              { id: "b", text: "Decreases" },
-              { id: "c", text: "Stays constant" },
+              { id: "b", text: "Stays constant" },
+              { id: "c", text: "Decreases" },
               { id: "d", text: "Doubles" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Atomic radius", statement: "Decreases across period (↑Z), increases down group." }],

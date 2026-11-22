@@ -54,12 +54,12 @@ export const lesson14: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The Mongol conquest of China" },
-              { id: "b", text: "A period of relative peace and safe trade under Mongol rule" },
-              { id: "c", text: "The Mongol alliance with Byzantium" },
-              { id: "d", text: "The Crusader states in the Holy Land" },
+              { id: "a", text: "The Crusader states in the Holy Land" },
+              { id: "b", text: "The Mongol alliance with Byzantium" },
+              { id: "c", text: "A period of relative peace and safe trade under Mongol rule" },
+              { id: "d", text: "The Mongol conquest of China" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -153,10 +153,10 @@ export const lesson14: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The Umayyad Caliphate based in Damascus" },
+              { id: "a", text: "The Mongol Ilkhanate" },
               { id: "b", text: "The Abbasid Caliphate" },
-              { id: "c", text: "The Ottoman Empire" },
-              { id: "d", text: "The Mongol Ilkhanate" },
+              { id: "c", text: "The Umayyad Caliphate based in Damascus" },
+              { id: "d", text: "The Ottoman Empire" },
             ],
             correctChoiceId: "b",
           },
@@ -181,9 +181,9 @@ export const lesson14: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Conquering China for the Mongols" },
+              { id: "a", text: "Leading the Crusades to the Holy Land" },
               { id: "b", text: "Travelling to China during the Pax Mongolica era" },
-              { id: "c", text: "Leading the Crusades to the Holy Land" },
+              { id: "c", text: "Conquering China for the Mongols" },
               { id: "d", text: "Founding the first European universities" },
             ],
             correctChoiceId: "b",
@@ -209,12 +209,12 @@ export const lesson14: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Mongol conquests of Russia" },
-              { id: "b", text: "A series of religious wars to seize the Holy Land from Muslim rulers" },
-              { id: "c", text: "Internal European civil wars" },
+              { id: "a", text: "A series of religious wars to seize the Holy Land from Muslim rulers" },
+              { id: "b", text: "Internal European civil wars" },
+              { id: "c", text: "Mongol conquests of Russia" },
               { id: "d", text: "Trade embargoes between Italian city-states" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -239,8 +239,8 @@ export const lesson14: Lesson = {
             choices: [
               { id: "a", text: "Eliminating the need for fallow land entirely" },
               { id: "b", text: "Rotating crops to restore soil fertility and raise yields" },
-              { id: "c", text: "Introducing slave labour on plantations" },
-              { id: "d", text: "Banning common pasture land" },
+              { id: "c", text: "Banning common pasture land" },
+              { id: "d", text: "Introducing slave labour on plantations" },
             ],
             correctChoiceId: "b",
           },
@@ -265,12 +265,12 @@ export const lesson14: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It conquered all of Europe and Asia" },
-              { id: "b", text: "The Pax Mongolica made travel safe, reviving Silk Road trade and the movement of goods, ideas and people" },
-              { id: "c", text: "It banned all trade to protect its borders" },
-              { id: "d", text: "It forced European traders to convert to Islam" },
+              { id: "a", text: "The Pax Mongolica made travel safe, reviving Silk Road trade and the movement of goods, ideas and people" },
+              { id: "b", text: "It conquered all of Europe and Asia" },
+              { id: "c", text: "It forced European traders to convert to Islam" },
+              { id: "d", text: "It banned all trade to protect its borders" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -478,9 +478,9 @@ export const lesson14: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Ended the Thirty Years' War and recognised state sovereignty" },
-              { id: "b", text: "Created the first colonial empire" },
-              { id: "c", text: "Established the Holy Roman Empire" },
-              { id: "d", text: "Started the Age of Exploration" },
+              { id: "b", text: "Started the Age of Exploration" },
+              { id: "c", text: "Created the first colonial empire" },
+              { id: "d", text: "Established the Holy Roman Empire" },
             ],
             correctChoiceId: "a",
           },
@@ -576,12 +576,12 @@ export const lesson14: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The Pope appoints all bishops" },
-              { id: "b", text: "The ruler determines the religion of his territory" },
+              { id: "a", text: "The ruler determines the religion of his territory" },
+              { id: "b", text: "Trade routes belong to the state" },
               { id: "c", text: "All states must remain Catholic" },
-              { id: "d", text: "Trade routes belong to the state" },
+              { id: "d", text: "The Pope appoints all bishops" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -604,12 +604,12 @@ export const lesson14: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Free trade and minimal government" },
-              { id: "b", text: "Accumulating bullion through export surpluses and colonies" },
-              { id: "c", text: "Spreading religion abroad" },
-              { id: "d", text: "Building large navies only" },
+              { id: "a", text: "Building large navies only" },
+              { id: "b", text: "Spreading religion abroad" },
+              { id: "c", text: "Accumulating bullion through export surpluses and colonies" },
+              { id: "d", text: "Free trade and minimal government" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -633,11 +633,11 @@ export const lesson14: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "The Treaty of Utrecht" },
-              { id: "b", text: "The Peace of Westphalia" },
-              { id: "c", text: "The Peace of Augsburg" },
-              { id: "d", text: "The Concordat of Bologna" },
+              { id: "b", text: "The Peace of Augsburg" },
+              { id: "c", text: "The Concordat of Bologna" },
+              { id: "d", text: "The Peace of Westphalia" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -660,12 +660,12 @@ export const lesson14: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Absolute monarchy and divine right" },
-              { id: "b", text: "Limited government, natural rights and the consent of the governed" },
-              { id: "c", text: "Theocracy and church control of the state" },
-              { id: "d", text: "Hereditary privilege for all classes" },
+              { id: "a", text: "Limited government, natural rights and the consent of the governed" },
+              { id: "b", text: "Theocracy and church control of the state" },
+              { id: "c", text: "Hereditary privilege for all classes" },
+              { id: "d", text: "Absolute monarchy and divine right" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -688,12 +688,12 @@ export const lesson14: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It created the first global empire" },
-              { id: "b", text: "It confirmed state sovereignty within fixed borders and ended religious wars as a basis of conflict" },
-              { id: "c", text: "It abolished all armies in Europe" },
-              { id: "d", text: "It united all European states under the Pope" },
+              { id: "a", text: "It abolished all armies in Europe" },
+              { id: "b", text: "It created the first global empire" },
+              { id: "c", text: "It united all European states under the Pope" },
+              { id: "d", text: "It confirmed state sovereignty within fixed borders and ended religious wars as a basis of conflict" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

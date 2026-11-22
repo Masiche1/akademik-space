@@ -50,12 +50,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Concentrated → dilute" },
-              { id: "b", text: "Dilute → concentrated" },
-              { id: "c", text: "High solute → low solute only" },
-              { id: "d", text: "Against the gradient" },
+              { id: "a", text: "Against the gradient" },
+              { id: "b", text: "High solute → low solute only" },
+              { id: "c", text: "Dilute → concentrated" },
+              { id: "d", text: "Concentrated → dilute" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Osmosis", statement: "Water moves down its water potential gradient." }],
@@ -165,12 +165,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Down the gradient" },
-              { id: "b", text: "Against the gradient" },
-              { id: "c", text: "Only water" },
-              { id: "d", text: "Only gases" },
+              { id: "a", text: "Only gases" },
+              { id: "b", text: "Down the gradient" },
+              { id: "c", text: "Against the gradient" },
+              { id: "d", text: "Only water" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Active transport", statement: "Against gradient, requires ATP." }],

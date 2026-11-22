@@ -42,8 +42,11 @@ export const lesson11: Lesson = {
           totalMarks: 1,
           stem: "For $x^2-5x+6=0$ with roots $\\alpha,\\beta$, find $\\alpha+\\beta$.",
           response: { type: "mcq", choices: [
-            { id: "a", text: "5" }, { id: "b", text: "-5" }, { id: "c", text: "6" }, { id: "d", text: "-6" },
-          ], correctChoiceId: "a" },
+            { id: "a", text: "6" },
+            { id: "b", text: "5" },
+            { id: "c", text: "-5" },
+            { id: "d", text: "-6" },
+          ], correctChoiceId: "b" },
           markscheme: {
             principles: [{ kind: "law", name: "Vieta", statement: "$\\alpha+\\beta=-b/a$." }],
             steps: [{ reasoning: "$\\alpha+\\beta = -(-5)/1 = 5$.", marks: 1, markCode: "A" }],
@@ -103,8 +106,11 @@ export const lesson11: Lesson = {
           totalMarks: 1,
           stem: "For $x^2+7x+12=0$ with roots $\\alpha,\\beta$, find $\\alpha\\beta$.",
           response: { type: "mcq", choices: [
-            { id: "a", text: "12" }, { id: "b", text: "-12" }, { id: "c", text: "7" }, { id: "d", text: "-7" },
-          ], correctChoiceId: "a" },
+            { id: "a", text: "-12" },
+            { id: "b", text: "12" },
+            { id: "c", text: "7" },
+            { id: "d", text: "-7" },
+          ], correctChoiceId: "b" },
           markscheme: {
             principles: [{ kind: "law", name: "Vieta", statement: "$\\alpha\\beta=c/a$." }],
             steps: [{ reasoning: "$\\alpha\\beta = 12/1 = 12$.", marks: 1, markCode: "A" }],
@@ -147,8 +153,11 @@ export const lesson11: Lesson = {
           totalMarks: 1,
           stem: "For $2x^2+5x-3=0$ with roots $\\alpha,\\beta$, find $\\alpha\\beta$.",
           response: { type: "mcq", choices: [
-            { id: "a", text: "$-\\frac{3}{2}$" }, { id: "b", text: "$\\frac{3}{2}$" }, { id: "c", text: "$-\\frac{5}{2}$" }, { id: "d", text: "$\\frac{5}{2}$" },
-          ], correctChoiceId: "a" },
+            { id: "a", text: "$\\frac{5}{2}$" },
+            { id: "b", text: "$-\\frac{3}{2}$" },
+            { id: "c", text: "$-\\frac{5}{2}$" },
+            { id: "d", text: "$\\frac{3}{2}$" },
+          ], correctChoiceId: "b" },
           markscheme: {
             principles: [{ kind: "law", name: "Vieta", statement: "$\\alpha\\beta=c/a$." }],
             steps: [{ reasoning: "$\\alpha\\beta = -3/2$.", marks: 1, markCode: "A" }],
@@ -161,7 +170,10 @@ export const lesson11: Lesson = {
           totalMarks: 1,
           stem: "For $x^3+3x^2-2x+5=0$ with roots $\\alpha,\\beta,\\gamma$, find $\\alpha+\\beta+\\gamma$.",
           response: { type: "mcq", choices: [
-            { id: "a", text: "-3" }, { id: "b", text: "3" }, { id: "c", text: "-2" }, { id: "d", text: "5" },
+            { id: "a", text: "-3" },
+            { id: "b", text: "5" },
+            { id: "c", text: "3" },
+            { id: "d", text: "-2" },
           ], correctChoiceId: "a" },
           markscheme: {
             principles: [{ kind: "law", name: "Vieta cubic", statement: "$\\sum\\alpha=-b/a$." }],
@@ -206,8 +218,11 @@ export const lesson11: Lesson = {
           totalMarks: 1,
           stem: "For $5x^2-15x+7=0$ with roots $\\alpha,\\beta$, find $\\alpha+\\beta$.",
           response: { type: "mcq", choices: [
-            { id: "a", text: "3" }, { id: "b", text: "-3" }, { id: "c", text: "$\\frac{7}{5}$" }, { id: "d", text: "$-\\frac{7}{5}$" },
-          ], correctChoiceId: "a" },
+            { id: "a", text: "$-\\frac{7}{5}$" },
+            { id: "b", text: "3" },
+            { id: "c", text: "-3" },
+            { id: "d", text: "$\\frac{7}{5}$" },
+          ], correctChoiceId: "b" },
           markscheme: {
             principles: [{ kind: "law", name: "Vieta", statement: "$\\alpha+\\beta=-b/a$." }],
             steps: [{ reasoning: "$\\alpha+\\beta = -(-15)/5 = 3$.", marks: 1, markCode: "A" }],
@@ -237,8 +252,11 @@ export const lesson11: Lesson = {
           totalMarks: 1,
           stem: "For $2x^2+6x-5=0$ with roots $\\alpha,\\beta$, find $\\alpha\\beta$.",
           response: { type: "mcq", choices: [
-            { id: "a", text: "$-\\frac{5}{2}$" }, { id: "b", text: "$\\frac{5}{2}$" }, { id: "c", text: "$-\\frac{5}{4}$" }, { id: "d", text: "$-5$" },
-          ], correctChoiceId: "a" },
+            { id: "a", text: "$\\frac{5}{2}$" },
+            { id: "b", text: "$-\\frac{5}{4}$" },
+            { id: "c", text: "$-\\frac{5}{2}$" },
+            { id: "d", text: "$-5$" },
+          ], correctChoiceId: "c" },
           markscheme: {
             principles: [{ kind: "law", name: "Vieta", statement: "$\\alpha\\beta=c/a$." }],
             steps: [{ reasoning: "$\\alpha\\beta = -5/2$.", marks: 1, markCode: "A" }],
@@ -251,8 +269,11 @@ export const lesson11: Lesson = {
           totalMarks: 1,
           stem: "For $x^3+px^2+qx+r=0$ with roots $\\alpha,\\beta,\\gamma$, the product $\\alpha\\beta\\gamma$ equals",
           response: { type: "mcq", choices: [
-            { id: "a", text: "$-r$" }, { id: "b", text: "$r$" }, { id: "c", text: "$-q$" }, { id: "d", text: "$q$" },
-          ], correctChoiceId: "a" },
+            { id: "a", text: "$r$" },
+            { id: "b", text: "$q$" },
+            { id: "c", text: "$-r$" },
+            { id: "d", text: "$-q$" },
+          ], correctChoiceId: "c" },
           markscheme: {
             principles: [{ kind: "law", name: "Vieta cubic", statement: "$\\prod\\alpha=-d/a$." }],
             steps: [{ reasoning: "With $a=1$, $\\alpha\\beta\\gamma=-r$.", marks: 1, markCode: "A" }],
@@ -308,8 +329,11 @@ export const lesson11: Lesson = {
           totalMarks: 1,
           stem: "For $x^2-6x+8=0$, find $\\alpha^2+\\beta^2$.",
           response: { type: "mcq", choices: [
-            { id: "a", text: "20" }, { id: "b", text: "36" }, { id: "c", text: "28" }, { id: "d", text: "12" },
-          ], correctChoiceId: "a" },
+            { id: "a", text: "36" },
+            { id: "b", text: "20" },
+            { id: "c", text: "28" },
+            { id: "d", text: "12" },
+          ], correctChoiceId: "b" },
           markscheme: {
             principles: [{ kind: "law", name: "Sum of squares", statement: "$(\\sum\\alpha)^2-2\\sum\\alpha\\beta$." }],
             steps: [{ reasoning: "$36 - 16 = 20$.", marks: 1, markCode: "A" }],
@@ -370,8 +394,11 @@ export const lesson11: Lesson = {
           totalMarks: 1,
           stem: "For $x^2-8x+15=0$ with roots $\\alpha,\\beta$, find $\\alpha^2+\\beta^2$.",
           response: { type: "mcq", choices: [
-            { id: "a", text: "34" }, { id: "b", text: "64" }, { id: "c", text: "30" }, { id: "d", text: "49" },
-          ], correctChoiceId: "a" },
+            { id: "a", text: "30" },
+            { id: "b", text: "49" },
+            { id: "c", text: "64" },
+            { id: "d", text: "34" },
+          ], correctChoiceId: "d" },
           markscheme: {
             principles: [{ kind: "law", name: "Sum of squares", statement: "$(\\sum\\alpha)^2-2\\sum\\alpha\\beta$." }],
             steps: [{ reasoning: "$64 - 2(15) = 34$.", marks: 1, markCode: "A" }],
@@ -414,8 +441,11 @@ export const lesson11: Lesson = {
           totalMarks: 1,
           stem: "If $\\alpha+\\beta=s$ and $\\alpha\\beta=p$, then $\\alpha^2+\\beta^2=$",
           response: { type: "mcq", choices: [
-            { id: "a", text: "$s^2-2p$" }, { id: "b", text: "$s^2+2p$" }, { id: "c", text: "$s^2-p$" }, { id: "d", text: "$2p-s^2$" },
-          ], correctChoiceId: "a" },
+            { id: "a", text: "$s^2+2p$" },
+            { id: "b", text: "$s^2-2p$" },
+            { id: "c", text: "$s^2-p$" },
+            { id: "d", text: "$2p-s^2$" },
+          ], correctChoiceId: "b" },
           markscheme: {
             principles: [{ kind: "law", name: "Identity", statement: "$(\\alpha+\\beta)^2=\\alpha^2+2\\alpha\\beta+\\beta^2$." }],
             steps: [{ reasoning: "$\\alpha^2+\\beta^2 = s^2-2p$.", marks: 1, markCode: "A" }],
@@ -428,8 +458,11 @@ export const lesson11: Lesson = {
           totalMarks: 1,
           stem: "The equation whose roots are the squares of the roots of $x^2-5x+3=0$ is",
           response: { type: "mcq", choices: [
-            { id: "a", text: "$x^2-19x+9=0$" }, { id: "b", text: "$x^2-25x+9=0$" }, { id: "c", text: "$x^2-19x+3=0$" }, { id: "d", text: "$x^2-11x+9=0$" },
-          ], correctChoiceId: "a" },
+            { id: "a", text: "$x^2-11x+9=0$" },
+            { id: "b", text: "$x^2-25x+9=0$" },
+            { id: "c", text: "$x^2-19x+9=0$" },
+            { id: "d", text: "$x^2-19x+3=0$" },
+          ], correctChoiceId: "c" },
           markscheme: {
             principles: [{ kind: "technique", name: "Transformed roots", statement: "New sum $=19$, new product $=9$." }],
             steps: [{ reasoning: "$\\sum\\alpha^2=25-6=19$, product $=9$ → $x^2-19x+9=0$.", marks: 1, markCode: "A" }],
@@ -473,8 +506,11 @@ export const lesson11: Lesson = {
           totalMarks: 1,
           stem: "The equation whose roots are $\\alpha+1$ and $\\beta+1$, where $\\alpha,\\beta$ are roots of $x^2-4x+1=0$, is",
           response: { type: "mcq", choices: [
-            { id: "a", text: "$x^2-6x+6=0$" }, { id: "b", text: "$x^2-2x-4=0$" }, { id: "c", text: "$x^2-6x+4=0$" }, { id: "d", text: "$x^2-4x+6=0$" },
-          ], correctChoiceId: "a" },
+            { id: "a", text: "$x^2-2x-4=0$" },
+            { id: "b", text: "$x^2-6x+4=0$" },
+            { id: "c", text: "$x^2-4x+6=0$" },
+            { id: "d", text: "$x^2-6x+6=0$" },
+          ], correctChoiceId: "d" },
           markscheme: {
             principles: [{ kind: "technique", name: "Shifted roots", statement: "New sum $=\\sum\\alpha+2$, new product $=\\alpha\\beta+\\sum\\alpha+1$." }],
             steps: [{ reasoning: "Sum $=6$, product $=1+4+1=6$ → $x^2-6x+6=0$.", marks: 1, markCode: "A" }],
@@ -519,8 +555,11 @@ export const lesson11: Lesson = {
           totalMarks: 1,
           stem: "The equation whose roots are $\\frac{1}{\\alpha}$ and $\\frac{1}{\\beta}$, where $\\alpha,\\beta$ are roots of $x^2-5x+2=0$, is",
           response: { type: "mcq", choices: [
-            { id: "a", text: "$2x^2-5x+1=0$" }, { id: "b", text: "$x^2-5x+2=0$" }, { id: "c", text: "$x^2-\\frac{5}{2}x+\\frac{1}{2}=0$ only" }, { id: "d", text: "$2x^2+5x+1=0$" },
-          ], correctChoiceId: "a" },
+            { id: "a", text: "$x^2-\\frac{5}{2}x+\\frac{1}{2}=0$ only" },
+            { id: "b", text: "$2x^2+5x+1=0$" },
+            { id: "c", text: "$x^2-5x+2=0$" },
+            { id: "d", text: "$2x^2-5x+1=0$" },
+          ], correctChoiceId: "d" },
           markscheme: {
             principles: [{ kind: "technique", name: "Reciprocal roots", statement: "New sum $=\\frac{\\sum\\alpha}{\\alpha\\beta}$, new product $=\\frac{1}{\\alpha\\beta}$." }],
             steps: [{ reasoning: "Sum $=\\frac{5}{2}$, product $=\\frac12$ → $2x^2-5x+1=0$.", marks: 1, markCode: "A" }],

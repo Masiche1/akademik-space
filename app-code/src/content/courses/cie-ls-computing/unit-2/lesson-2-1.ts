@@ -52,22 +52,22 @@ export const lesson21: Lesson = {
           "choices": [
                     {
                               "id": "a",
-                              "text": "Data must be sorted"
+                              "text": "No requirement"
                     },
                     {
                               "id": "b",
-                              "text": "List must be small"
-                    },
-                    {
-                              "id": "c",
                               "text": "Data must be numbers"
                     },
                     {
+                              "id": "c",
+                              "text": "Data must be sorted"
+                    },
+                    {
                               "id": "d",
-                              "text": "No requirement"
+                              "text": "List must be small"
                     }
           ],
-          "correctChoiceId": "a"
+          "correctChoiceId": "c"
 },
           markscheme: {
           "principles": [
@@ -213,6 +213,484 @@ export const lesson21: Lesson = {
                     }
           ],
           "finalAnswer": "Algorithm efficiency: linear vs binary, sort methods."
+},
+        },
+        {
+          id: "cils-c-u2-ss-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "What does a linear search do?",
+          response: {
+          "type": "mcq",
+          "choices": [
+                    {
+                              "id": "a",
+                              "text": "Checks each item one by one"
+                    },
+                    {
+                              "id": "b",
+                              "text": "Sorts the list first"
+                    },
+                    {
+                              "id": "c",
+                              "text": "Halves the list each step"
+                    },
+                    {
+                              "id": "d",
+                              "text": "Uses a hash table"
+                    }
+          ],
+          "correctChoiceId": "a"
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "definition",
+                              "name": "Linear search",
+                              "statement": "Item-by-item check."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "Linear search scans sequentially — up to n checks.",
+                              "marks": 1,
+                              "markCode": "M"
+                    }
+          ],
+          "finalAnswer": "Checks each item"
+},
+        },
+        {
+          id: "cils-c-u2-ss-q6",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "What is the maximum number of checks for binary search on a sorted list of 1024 items? (log2 1024 = 10)",
+          response: {
+          "type": "numeric",
+          "parts": [
+                    { "label": "a", "answer": 10 }
+          ]
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "skill",
+                              "name": "Binary search",
+                              "statement": "~log2 n checks."
+                    }
+          ],
+          "steps": [
+                    {
+                              "part": "a",
+                              "reasoning": "log2(1024) = 10 — halving 10 times reaches 1 item.",
+                              "marks": 1,
+                              "markCode": "M"
+                    }
+          ],
+          "finalAnswer": "10"
+},
+        },
+        {
+          id: "cils-c-u2-ss-q7",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "What is the worst-case number of checks for a linear search on a list of 50 items?",
+          response: {
+          "type": "numeric",
+          "parts": [
+                    { "label": "a", "answer": 50 }
+          ]
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "definition",
+                              "name": "Worst case",
+                              "statement": "Item last in list."
+                    }
+          ],
+          "steps": [
+                    {
+                              "part": "a",
+                              "reasoning": "Worst case checks all 50 items.",
+                              "marks": 1,
+                              "markCode": "M"
+                    }
+          ],
+          "finalAnswer": "50"
+},
+        },
+        {
+          id: "cils-c-u2-ss-q8",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "Find 25 in the sorted list [5, 15, 25, 35, 45] using binary search. Show each step.",
+          response: {
+          "type": "open"
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "skill",
+                              "name": "Binary search",
+                              "statement": "Middle-out halving."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "Middle item = 25 → found immediately.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "Method: check middle, discard half each step.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "Found in 1 check; max ~log2(5) ≈ 3.",
+                              "marks": 1,
+                              "markCode": "A"
+                    }
+          ],
+          "finalAnswer": "Found in 1 step"
+},
+        },
+        {
+          id: "cils-c-u2-ss-q9",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "What is the main advantage of merge sort over bubble sort?",
+          response: {
+          "type": "mcq",
+          "choices": [
+                    {
+                              "id": "a",
+                              "text": "It needs no comparisons"
+                    },
+                    {
+                              "id": "b",
+                              "text": "It is much faster on large data — O(n log n) vs O(n²)"
+                    },
+                    {
+                              "id": "c",
+                              "text": "It only works on numbers"
+                    },
+                    {
+                              "id": "d",
+                              "text": "It uses less memory always"
+                    }
+          ],
+          "correctChoiceId": "b"
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "definition",
+                              "name": "Merge sort",
+                              "statement": "Divide and conquer, O(n log n)."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "Merge sort scales far better on large datasets.",
+                              "marks": 1,
+                              "markCode": "M"
+                    }
+          ],
+          "finalAnswer": "Faster on large data"
+},
+        },
+        {
+          id: "cils-c-u2-ss-q10",
+          difficulty: "challenge",
+          totalMarks: 1,
+          stem: "What is the maximum number of checks for binary search on a sorted list of 256 items?",
+          response: {
+          "type": "numeric",
+          "parts": [
+                    { "label": "a", "answer": 8 }
+          ]
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "skill",
+                              "name": "Binary search",
+                              "statement": "log2 n checks."
+                    }
+          ],
+          "steps": [
+                    {
+                              "part": "a",
+                              "reasoning": "log2(256) = 8.",
+                              "marks": 1,
+                              "markCode": "M"
+                    }
+          ],
+          "finalAnswer": "8"
+},
+        },
+        {
+          id: "cils-c-u2-ss-q11",
+          difficulty: "challenge",
+          totalMarks: 1,
+          stem: "When is a linear search a better choice than binary search?",
+          response: {
+          "type": "mcq",
+          "choices": [
+                    {
+                              "id": "a",
+                              "text": "When the list is small or not sorted"
+                    },
+                    {
+                              "id": "b",
+                              "text": "When speed is critical"
+                    },
+                    {
+                              "id": "c",
+                              "text": "When the list has a million items"
+                    },
+                    {
+                              "id": "d",
+                              "text": "Never — binary is always better"
+                    }
+          ],
+          "correctChoiceId": "a"
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "skill",
+                              "name": "Algorithm choice",
+                              "statement": "Match algorithm to data."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "Binary needs sorted data and has setup cost; linear is fine for small/unsorted lists.",
+                              "marks": 1,
+                              "markCode": "M"
+                    }
+          ],
+          "finalAnswer": "Small or unsorted lists"
+},
+        },
+        {
+          id: "cils-c-u2-ss-q12",
+          difficulty: "challenge",
+          totalMarks: 5,
+          stem: "(a) Define sort and search. (b) Compare O(n) and O(n²) for 1000 items. (c) Why must data be sorted for binary search? (d) Describe bubble sort in one sentence. (e) A contacts app has 5000 names — which search should it use and why?",
+          response: {
+          "type": "open"
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "technique",
+                              "name": "Algorithms",
+                              "statement": "Sort/search efficiency."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "(a) Sort = arrange in order; search = find an item.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "(b) 1000 vs 1,000,000 operations — huge difference.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "(c) Halving only works if order is known.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "(d) Compare neighbours and swap if out of order, repeat passes.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "(e) Binary search — sorted names, ~log2(5000) ≈ 12 checks vs up to 5000.",
+                              "marks": 1,
+                              "markCode": "A"
+                    }
+          ],
+          "finalAnswer": "Efficiency, ordering, algorithm choice."
+},
+        },
+        {
+          id: "cils-c-u2-ss-q13",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "What does it mean to 'sort' a list of data?",
+          response: {
+          "type": "mcq",
+          "choices": [
+                    {
+                              "id": "a",
+                              "text": "Arrange the data in order — ascending or descending"
+                    },
+                    {
+                              "id": "b",
+                              "text": "Randomise the order"
+                    },
+                    {
+                              "id": "c",
+                              "text": "Delete duplicate items"
+                    },
+                    {
+                              "id": "d",
+                              "text": "Count the items"
+                    }
+          ],
+          "correctChoiceId": "a"
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "definition",
+                              "name": "Sort",
+                              "statement": "Arrange in order."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "Sorting puts items into a defined sequence.",
+                              "marks": 1,
+                              "markCode": "M"
+                    }
+          ],
+          "finalAnswer": "Arrange in order"
+},
+        },
+        {
+          id: "cils-c-u2-ss-q14",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "What is the worst-case number of checks for a linear search on a list of 8 items?",
+          response: {
+          "type": "numeric",
+          "parts": [
+                    { "label": "a", "answer": 8 }
+          ]
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "definition",
+                              "name": "Worst case",
+                              "statement": "All items checked."
+                    }
+          ],
+          "steps": [
+                    {
+                              "part": "a",
+                              "reasoning": "Target last → 8 checks.",
+                              "marks": 1,
+                              "markCode": "M"
+                    }
+          ],
+          "finalAnswer": "8"
+},
+        },
+        {
+          id: "cils-c-u2-ss-q15",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Which condition must be true before using binary search?",
+          response: {
+          "type": "mcq",
+          "choices": [
+                    {
+                              "id": "a",
+                              "text": "The list must contain only numbers"
+                    },
+                    {
+                              "id": "b",
+                              "text": "The data must be sorted"
+                    },
+                    {
+                              "id": "c",
+                              "text": "The list must be very long"
+                    },
+                    {
+                              "id": "d",
+                              "text": "The computer must be fast"
+                    }
+          ],
+          "correctChoiceId": "b"
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "definition",
+                              "name": "Binary search",
+                              "statement": "Requires sorted data."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "Halving relies on known ordering.",
+                              "marks": 1,
+                              "markCode": "M"
+                    }
+          ],
+          "finalAnswer": "Data must be sorted"
+},
+        },
+        {
+          id: "cils-c-u2-ss-q16",
+          difficulty: "challenge",
+          totalMarks: 6,
+          stem: "(a) Define linear search, binary search, efficiency, worst case. (b) How many checks worst case for linear search on 200 items? (c) Approximate binary search checks on 200 items. (d) Why is sorting useful before searching? (e) Compare bubble sort and merge sort for a list of 10,000 items. (f) A school stores 800 student IDs sorted — which search and why?",
+          response: {
+          "type": "open"
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "technique",
+                              "name": "Algorithms",
+                              "statement": "Search/sort efficiency."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "(a) All four definitions correct.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "(b) 200.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "(c) ~log2(200) ≈ 8.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "(d) Enables binary search halving.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "(e) Bubble ~100M comparisons vs merge ~n log n — merge far faster.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "(f) Binary search — sorted data, ~10 checks.",
+                              "marks": 1,
+                              "markCode": "A"
+                    }
+          ],
+          "finalAnswer": "Search/sort efficiency and choice."
 },
         },
       ],

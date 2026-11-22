@@ -5,6 +5,10 @@ import { edxIasPureMaths } from "../src/content/courses/edx-ias-pure-maths/index
 import { edxIasBiology } from "../src/content/courses/edx-ias-biology/index.ts";
 import { edxIasChemistry } from "../src/content/courses/edx-ias-chemistry/index.ts";
 import { edxIasPhysics } from "../src/content/courses/edx-ias-physics/index.ts";
+import { edxIasBusiness } from "../src/content/courses/edx-ias-business/index.ts";
+import { edxIasEconomics } from "../src/content/courses/edx-ias-economics/index.ts";
+import { edxIasPsychology } from "../src/content/courses/edx-ias-psychology/index.ts";
+import { edxIasSociology } from "../src/content/courses/edx-ias-sociology/index.ts";
 import { edxIalMaths } from "../src/content/courses/edx-ial-maths/index.ts";
 import { edxIalFurtherMaths } from "../src/content/courses/edx-ial-further-maths/index.ts";
 import { edxIalPureMaths } from "../src/content/courses/edx-ial-pure-maths/index.ts";
@@ -24,6 +28,31 @@ import { edxPrimaryEnglishY4 } from "../src/content/courses/edx-primary-english-
 import { edxPrimaryEnglishY5 } from "../src/content/courses/edx-primary-english-y5/index.ts";
 import { edxPrimaryEnglishY6 } from "../src/content/courses/edx-primary-english-y6/index.ts";
 import { edxPrimaryScienceY1 } from "../src/content/courses/edx-primary-science-y1/index.ts";
+import { edxPrimaryScienceY2 } from "../src/content/courses/edx-primary-science-y2/index.ts";
+import { edxPrimaryScienceY3 } from "../src/content/courses/edx-primary-science-y3/index.ts";
+import { edxPrimaryScienceY4 } from "../src/content/courses/edx-primary-science-y4/index.ts";
+import { edxPrimaryScienceY5 } from "../src/content/courses/edx-primary-science-y5/index.ts";
+import { edxPrimaryScienceY6 } from "../src/content/courses/edx-primary-science-y6/index.ts";
+import { edxBtecEngineering } from "../src/content/courses/edx-btec-engineering/index.ts";
+import { edxBtecHealthSocialCare } from "../src/content/courses/edx-btec-health-social-care/index.ts";
+import { edxBtecInformationTechnology } from "../src/content/courses/edx-btec-information-technology/index.ts";
+import { edxMathsY7 } from "../src/content/courses/edx-maths-y7/index.ts";
+import { edxEngLangY7 } from "../src/content/courses/edx-englang-y7/index.ts";
+import { edxScienceY7 } from "../src/content/courses/edx-science-y7/index.ts";
+import { edxScienceY10 } from "../src/content/courses/edx-science-y10/index.ts";
+import { edxScienceY11 } from "../src/content/courses/edx-science-y11/index.ts";
+import { edxBiologyY10 } from "../src/content/courses/edx-biology-y10/index.ts";
+import { edxBiologyY11 } from "../src/content/courses/edx-biology-y11/index.ts";
+import { edxChemistryY10 } from "../src/content/courses/edx-chemistry-y10/index.ts";
+import { edxChemistryY11 } from "../src/content/courses/edx-chemistry-y11/index.ts";
+import { edxPhysicsY10 } from "../src/content/courses/edx-physics-y10/index.ts";
+import { edxPhysicsY11 } from "../src/content/courses/edx-physics-y11/index.ts";
+import { edxBusinessY10 } from "../src/content/courses/edx-business-y10/index.ts";
+import { edxBusinessY11 } from "../src/content/courses/edx-business-y11/index.ts";
+import { edxEconomicsY10 } from "../src/content/courses/edx-economics-y10/index.ts";
+import { edxEconomicsY11 } from "../src/content/courses/edx-economics-y11/index.ts";
+import { edxComputerScienceY10 } from "../src/content/courses/edx-computerscience-y10/index.ts";
+import { edxComputerScienceY11 } from "../src/content/courses/edx-computerscience-y11/index.ts";
 import type { Question, Unit } from "../src/content/types.ts";
 
 const MATH_PATTERN = /\$\$([\s\S]+?)\$\$|(?<!\\)\$((?:\\\$|[^$])+?)\$/g;
@@ -96,6 +125,10 @@ const courses = [
   edxIasBiology,
   edxIasChemistry,
   edxIasPhysics,
+  edxIasBusiness,
+  edxIasEconomics,
+  edxIasPsychology,
+  edxIasSociology,
   edxIalMaths,
   edxIalFurtherMaths,
   edxIalPureMaths,
@@ -115,6 +148,31 @@ const courses = [
   edxPrimaryEnglishY5,
   edxPrimaryEnglishY6,
   edxPrimaryScienceY1,
+  edxPrimaryScienceY2,
+  edxPrimaryScienceY3,
+  edxPrimaryScienceY4,
+  edxPrimaryScienceY5,
+  edxPrimaryScienceY6,
+  edxBtecEngineering,
+  edxBtecHealthSocialCare,
+  edxBtecInformationTechnology,
+  edxMathsY7,
+  edxEngLangY7,
+  edxScienceY7,
+  edxScienceY10,
+  edxScienceY11,
+  edxBiologyY10,
+  edxBiologyY11,
+  edxChemistryY10,
+  edxChemistryY11,
+  edxPhysicsY10,
+  edxPhysicsY11,
+  edxBusinessY10,
+  edxBusinessY11,
+  edxEconomicsY10,
+  edxEconomicsY11,
+  edxComputerScienceY10,
+  edxComputerScienceY11,
 ];
 
 let bad = 0;

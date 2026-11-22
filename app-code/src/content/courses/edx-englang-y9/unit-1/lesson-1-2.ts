@@ -65,12 +65,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Personification" },
-              { id: "b", text: "Alliteration" },
+              { id: "a", text: "Alliteration" },
+              { id: "b", text: "Personification" },
               { id: "c", text: "Onomatopoeia" },
               { id: "d", text: "Rhetorical question" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Personification", statement: "Giving human or animal qualities to something non-living." }],
@@ -204,12 +204,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A first-person narrator looking back on the past" },
-              { id: "b", text: "An omniscient third-person narrator" },
-              { id: "c", text: "A third-person narrator limited to Tom's thoughts" },
-              { id: "d", text: "A second-person narrator addressing a character as 'you'" },
+              { id: "a", text: "A second-person narrator addressing a character as 'you'" },
+              { id: "b", text: "A third-person narrator limited to Tom's thoughts" },
+              { id: "c", text: "An omniscient third-person narrator" },
+              { id: "d", text: "A first-person narrator looking back on the past" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Narrative viewpoint", statement: "First person uses 'I' and tells events from the narrator's own experience." }],

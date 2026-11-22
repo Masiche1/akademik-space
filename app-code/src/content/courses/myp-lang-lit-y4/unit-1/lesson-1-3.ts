@@ -54,12 +54,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Is it long?" },
-              { id: "b", text: "Does it achieve its purpose?" },
-              { id: "c", text: "Is it expensive?" },
+              { id: "a", text: "Is it expensive?" },
+              { id: "b", text: "Is it long?" },
+              { id: "c", text: "Does it achieve its purpose?" },
               { id: "d", text: "Is it popular?" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Purpose", statement: "A text is judged by how well it achieves its purpose." }],
@@ -139,12 +139,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Count the words" },
-              { id: "b", text: "Identify its purpose" },
-              { id: "c", text: "Check the spelling" },
-              { id: "d", text: "Read the reviews" },
+              { id: "a", text: "Identify its purpose" },
+              { id: "b", text: "Check the spelling" },
+              { id: "c", text: "Read the reviews" },
+              { id: "d", text: "Count the words" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Evaluation order", statement: "Identify purpose first — it determines the criteria." }],
@@ -182,12 +182,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Clarity = easy to understand; impact = emotional/intellectual effect" },
-              { id: "b", text: "Clarity = long; impact = short" },
-              { id: "c", text: "They mean the same thing" },
-              { id: "d", text: "Clarity = emotion; impact = understanding" },
+              { id: "a", text: "Clarity = long; impact = short" },
+              { id: "b", text: "Clarity = emotion; impact = understanding" },
+              { id: "c", text: "Clarity = easy to understand; impact = emotional/intellectual effect" },
+              { id: "d", text: "They mean the same thing" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Evaluation criteria", statement: "Clarity = easy to understand; impact = emotional/intellectual effect." }],
@@ -228,11 +228,11 @@ export const lesson13: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "It is too detailed" },
-              { id: "b", text: "It uses vague, repetitive language without specifics" },
-              { id: "c", text: "It is too short" },
+              { id: "b", text: "It is too short" },
+              { id: "c", text: "It uses vague, repetitive language without specifics" },
               { id: "d", text: "It has too many facts" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Specificity", statement: "Effective writing uses specific details, not vague claims." }],
@@ -301,12 +301,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "How long the text is" },
-              { id: "b", text: "Whether the text says something new or fresh" },
-              { id: "c", text: "Whether the text is famous" },
-              { id: "d", text: "Whether the text uses big words" },
+              { id: "a", text: "Whether the text uses big words" },
+              { id: "b", text: "How long the text is" },
+              { id: "c", text: "Whether the text says something new or fresh" },
+              { id: "d", text: "Whether the text is famous" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Originality", statement: "Originality = saying something new or offering a fresh perspective." }],
@@ -344,12 +344,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Because balanced evaluations are longer" },
-              { id: "b", text: "Because acknowledging counter-arguments shows fairness and depth" },
+              { id: "a", text: "Because acknowledging counter-arguments shows fairness and depth" },
+              { id: "b", text: "Because balanced reviews cost more" },
               { id: "c", text: "Because one-sided reviews are always wrong" },
-              { id: "d", text: "Because balanced reviews cost more" },
+              { id: "d", text: "Because balanced evaluations are longer" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Balanced judgment", statement: "Acknowledging counter-arguments demonstrates fairness and depth." }],
@@ -449,10 +449,10 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Judgments are always longer" },
+              { id: "a", text: "Opinions are always wrong" },
               { id: "b", text: "Judgments use criteria and evidence" },
-              { id: "c", text: "Opinions are always wrong" },
-              { id: "d", text: "Judgments are about facts" },
+              { id: "c", text: "Judgments are about facts" },
+              { id: "d", text: "Judgments are always longer" },
             ],
             correctChoiceId: "b",
           },
@@ -530,12 +530,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A quotation" },
-              { id: "b", text: "A clear judgment statement" },
-              { id: "c", text: "A counter-argument" },
-              { id: "d", text: "A summary" },
+              { id: "a", text: "A summary" },
+              { id: "b", text: "A quotation" },
+              { id: "c", text: "A clear judgment statement" },
+              { id: "d", text: "A counter-argument" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Judgment structure", statement: "Judgment → reason → evidence → counter-argument." }],
@@ -568,12 +568,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Because 'I liked it' gives no criteria or evidence" },
-              { id: "b", text: "Because it's shorter" },
-              { id: "c", text: "Because opinions are always wrong" },
-              { id: "d", text: "Because 'effective' is a bigger word" },
+              { id: "a", text: "Because it's shorter" },
+              { id: "b", text: "Because opinions are always wrong" },
+              { id: "c", text: "Because 'effective' is a bigger word" },
+              { id: "d", text: "Because 'I liked it' gives no criteria or evidence" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Judgment vs opinion", statement: "Opinions state preference; judgments give reasons and evidence." }],
@@ -615,8 +615,8 @@ export const lesson13: Lesson = {
             choices: [
               { id: "a", text: "An argument against your own judgment" },
               { id: "b", text: "A strong argument" },
-              { id: "c", text: "A quotation" },
-              { id: "d", text: "A summary" },
+              { id: "c", text: "A summary" },
+              { id: "d", text: "A quotation" },
             ],
             correctChoiceId: "a",
           },
@@ -688,12 +688,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Your personal opinion" },
-              { id: "b", text: "Specific details or quotations from the text supporting your claim" },
-              { id: "c", text: "A summary of the plot" },
-              { id: "d", text: "The author's biography" },
+              { id: "a", text: "The author's biography" },
+              { id: "b", text: "A summary of the plot" },
+              { id: "c", text: "Specific details or quotations from the text supporting your claim" },
+              { id: "d", text: "Your personal opinion" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Evidence", statement: "Evidence = specific details/quotations supporting an evaluative claim." }],
@@ -726,12 +726,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "'The poem was very good.'" },
-              { id: "b", text: "'I think the poem was okay.'" },
-              { id: "c", text: "'The poem was effective — its imagery was vivid, though its message was unclear.'" },
+              { id: "a", text: "'I think the poem was okay.'" },
+              { id: "b", text: "'The poem was effective — its imagery was vivid, though its message was unclear.'" },
+              { id: "c", text: "'The poem was very good.'" },
               { id: "d", text: "'The poem was written in 1999.'" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Judgment quality", statement: "Strong judgments use criteria, evidence and balance." }],

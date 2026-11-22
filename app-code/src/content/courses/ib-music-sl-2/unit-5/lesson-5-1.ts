@@ -55,12 +55,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Uses better equipment" },
-              { id: "b", text: "Involves deliberate attention to musical elements" },
-              { id: "c", text: "Lasts longer" },
-              { id: "d", text: "Requires musical training" },
+              { id: "a", text: "Requires musical training" },
+              { id: "b", text: "Lasts longer" },
+              { id: "c", text: "Involves deliberate attention to musical elements" },
+              { id: "d", text: "Uses better equipment" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -156,12 +156,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The emotional reaction alone" },
-              { id: "b", text: "Repeated sections, contrasts and structural changes" },
+              { id: "a", text: "Repeated sections, contrasts and structural changes" },
+              { id: "b", text: "The composer's biography" },
               { id: "c", text: "The loudest instrument only" },
-              { id: "d", text: "The composer's biography" },
+              { id: "d", text: "The emotional reaction alone" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -229,9 +229,9 @@ export const lesson51: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Forming an overall impression of mood, genre and instrumentation" },
-              { id: "b", text: "Proving every formal section" },
-              { id: "c", text: "Naming every chord" },
-              { id: "d", text: "Writing a final evaluation" },
+              { id: "b", text: "Naming every chord" },
+              { id: "c", text: "Writing a final evaluation" },
+              { id: "d", text: "Proving every formal section" },
             ],
             correctChoiceId: "a",
           },
@@ -258,11 +258,11 @@ export const lesson51: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "The middle of a phrase" },
-              { id: "b", text: "A change of instrument colour" },
-              { id: "c", text: "The end of a phrase or section" },
-              { id: "d", text: "A sudden increase in tempo" },
+              { id: "b", text: "A sudden increase in tempo" },
+              { id: "c", text: "A change of instrument colour" },
+              { id: "d", text: "The end of a phrase or section" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -337,10 +337,10 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Monophonic" },
+              { id: "a", text: "Heterophonic" },
               { id: "b", text: "Polyphonic" },
               { id: "c", text: "Homophonic" },
-              { id: "d", text: "Heterophonic" },
+              { id: "d", text: "Monophonic" },
             ],
             correctChoiceId: "c",
           },
@@ -367,8 +367,8 @@ export const lesson51: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "\"The cello enters at 1:10 and creates a three-part texture.\"" },
-              { id: "b", text: "\"Dynamics rise to fortissimo before the cadence.\"" },
-              { id: "c", text: "\"The opening theme returns with the same contour but fuller orchestration.\"" },
+              { id: "b", text: "\"The opening theme returns with the same contour but fuller orchestration.\"" },
+              { id: "c", text: "\"Dynamics rise to fortissimo before the cadence.\"" },
               { id: "d", text: "\"I liked the song because it was exciting.\"" },
             ],
             correctChoiceId: "d",
@@ -395,12 +395,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Compare only the loudness of each passage" },
-              { id: "b", text: "Compare melodic contour, rhythm and harmonic support" },
+              { id: "a", text: "Assume similarity whenever the tempo is the same" },
+              { id: "b", text: "Compare only the loudness of each passage" },
               { id: "c", text: "Count the instruments without listening to their lines" },
-              { id: "d", text: "Assume similarity whenever the tempo is the same" },
+              { id: "d", text: "Compare melodic contour, rhythm and harmonic support" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -519,12 +519,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The speed of the melody" },
-              { id: "b", text: "The shape of the melody — whether it goes up, down or stays level" },
-              { id: "c", text: "The volume of the melody" },
-              { id: "d", text: "The instruments playing the melody" },
+              { id: "a", text: "The instruments playing the melody" },
+              { id: "b", text: "The volume of the melody" },
+              { id: "c", text: "The shape of the melody — whether it goes up, down or stays level" },
+              { id: "d", text: "The speed of the melody" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -626,9 +626,9 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A semitone" },
+              { id: "a", text: "A chromatic passing note" },
               { id: "b", text: "A perfect fifth" },
-              { id: "c", text: "A chromatic passing note" },
+              { id: "c", text: "A semitone" },
               { id: "d", text: "A repeated pitch" },
             ],
             correctChoiceId: "b",
@@ -698,10 +698,10 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Monophonic texture" },
+              { id: "a", text: "Polyphonic texture" },
               { id: "b", text: "Homophonic texture" },
-              { id: "c", text: "Polyphonic texture" },
-              { id: "d", text: "Unaccompanied texture" },
+              { id: "c", text: "Unaccompanied texture" },
+              { id: "d", text: "Monophonic texture" },
             ],
             correctChoiceId: "b",
           },
@@ -727,12 +727,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Accents fall on normally weak beats or off-beats" },
-              { id: "b", text: "The tempo becomes slower" },
-              { id: "c", text: "The music changes key" },
-              { id: "d", text: "The texture becomes monophonic" },
+              { id: "a", text: "The texture becomes monophonic" },
+              { id: "b", text: "The music changes key" },
+              { id: "c", text: "Accents fall on normally weak beats or off-beats" },
+              { id: "d", text: "The tempo becomes slower" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -807,12 +807,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A sustained string bow" },
-              { id: "b", text: "A percussion instrument" },
-              { id: "c", text: "A legato flute line" },
-              { id: "d", text: "A slow organ pedal" },
+              { id: "a", text: "A slow organ pedal" },
+              { id: "b", text: "A sustained string bow" },
+              { id: "c", text: "A percussion instrument" },
+              { id: "d", text: "A legato flute line" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -837,11 +837,11 @@ export const lesson51: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "The music is loud" },
-              { id: "b", text: "Several independent melodic lines can be followed at the same time" },
-              { id: "c", text: "The tempo is fast" },
+              { id: "b", text: "The tempo is fast" },
+              { id: "c", text: "Several independent melodic lines can be followed at the same time" },
               { id: "d", text: "One instrument plays chords" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -865,12 +865,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Wider and more adventurous" },
-              { id: "b", text: "Narrow, focused and possibly repetitive" },
-              { id: "c", text: "Always dissonant" },
+              { id: "a", text: "Narrow, focused and possibly repetitive" },
+              { id: "b", text: "Always dissonant" },
+              { id: "c", text: "Wider and more adventurous" },
               { id: "d", text: "Without rhythm" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

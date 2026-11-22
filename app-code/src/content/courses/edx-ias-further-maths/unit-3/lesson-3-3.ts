@@ -50,12 +50,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A unique value of $t$" },
+              { id: "a", text: "No value of $t$" },
               { id: "b", text: "Infinitely many $t$" },
-              { id: "c", text: "No value of $t$" },
-              { id: "d", text: "$t=0$ always" },
+              { id: "c", text: "$t=0$ always" },
+              { id: "d", text: "A unique value of $t$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Intersection", statement: "Linear equation in $t$ gives unique solution unless parallel." }],
@@ -169,9 +169,9 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "The positive imaginary axis" },
-              { id: "b", text: "The positive real axis" },
+              { id: "b", text: "A circle" },
               { id: "c", text: "The negative imaginary axis" },
-              { id: "d", text: "A circle" },
+              { id: "d", text: "The positive real axis" },
             ],
             correctChoiceId: "a",
           },

@@ -54,12 +54,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Recycling programmes" },
-              { id: "b", text: "Deforestation and land conversion for agriculture" },
-              { id: "c", text: "Reforestation" },
-              { id: "d", text: "National park creation" },
+              { id: "a", text: "Reforestation" },
+              { id: "b", text: "National park creation" },
+              { id: "c", text: "Recycling programmes" },
+              { id: "d", text: "Deforestation and land conversion for agriculture" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -82,12 +82,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The enrichment of water with nutrients leading to algal blooms and oxygen depletion" },
-              { id: "b", text: "The process of photosynthesis in plants" },
-              { id: "c", text: "The loss of soil through erosion" },
-              { id: "d", text: "The introduction of non-native species" },
+              { id: "a", text: "The loss of soil through erosion" },
+              { id: "b", text: "The introduction of non-native species" },
+              { id: "c", text: "The enrichment of water with nutrients leading to algal blooms and oxygen depletion" },
+              { id: "d", text: "The process of photosynthesis in plants" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -111,12 +111,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Successful biological control" },
-              { id: "b", text: "How invasive species without natural predators can devastate native ecosystems" },
+              { id: "a", text: "Natural selection working normally" },
+              { id: "b", text: "Successful biological control" },
               { id: "c", text: "The benefits of introducing new species" },
-              { id: "d", text: "Natural selection working normally" },
+              { id: "d", text: "How invasive species without natural predators can devastate native ecosystems" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -173,12 +173,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Oxygen and carbon dioxide" },
-              { id: "b", text: "Nitrates and phosphates" },
-              { id: "c", text: "Sodium and potassium" },
-              { id: "d", text: "Calcium and magnesium" },
+              { id: "a", text: "Nitrates and phosphates" },
+              { id: "b", text: "Sodium and potassium" },
+              { id: "c", text: "Calcium and magnesium" },
+              { id: "d", text: "Oxygen and carbon dioxide" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -202,12 +202,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The algae produce a toxin that kills fish directly" },
-              { id: "b", text: "Decomposition of dead algae by bacteria consumes dissolved oxygen below fish requirements" },
-              { id: "c", text: "The algae eat the fish" },
-              { id: "d", text: "The water becomes too salty for fish" },
+              { id: "a", text: "The water becomes too salty for fish" },
+              { id: "b", text: "The algae eat the fish" },
+              { id: "c", text: "The algae produce a toxin that kills fish directly" },
+              { id: "d", text: "Decomposition of dead algae by bacteria consumes dissolved oxygen below fish requirements" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -231,12 +231,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "They reproduce more slowly without competitors" },
-              { id: "b", text: "They escape the predators, parasites and diseases that controlled them at home" },
+              { id: "a", text: "They escape the predators, parasites and diseases that controlled them at home" },
+              { id: "b", text: "They are always larger than native species" },
               { id: "c", text: "They have more food available everywhere" },
-              { id: "d", text: "They are always larger than native species" },
+              { id: "d", text: "They reproduce more slowly without competitors" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -316,12 +316,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Release of stored carbon, soil erosion, reduced rainfall and loss of habitat" },
-              { id: "b", text: "Increased biodiversity and improved soil fertility" },
-              { id: "c", text: "Only the removal of trees with no wider effects" },
-              { id: "d", text: "Reduced carbon dioxide and increased oxygen in the atmosphere" },
+              { id: "a", text: "Only the removal of trees with no wider effects" },
+              { id: "b", text: "Reduced carbon dioxide and increased oxygen in the atmosphere" },
+              { id: "c", text: "Increased biodiversity and improved soil fertility" },
+              { id: "d", text: "Release of stored carbon, soil erosion, reduced rainfall and loss of habitat" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -433,9 +433,9 @@ export const lesson63: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Harvesting a species faster than it can reproduce, leading to decline" },
-              { id: "b", text: "Protecting a species in a reserve" },
-              { id: "c", text: "Introducing a species to a new habitat" },
-              { id: "d", text: "Studying a species in the wild" },
+              { id: "b", text: "Introducing a species to a new habitat" },
+              { id: "c", text: "Studying a species in the wild" },
+              { id: "d", text: "Protecting a species in a reserve" },
             ],
             correctChoiceId: "a",
           },
@@ -461,10 +461,10 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Species can always move to new habitats instantly" },
+              { id: "a", text: "All species benefit from warmer temperatures" },
               { id: "b", text: "Suitable conditions may shift faster than species can migrate or adapt" },
               { id: "c", text: "Climate change only affects polar regions" },
-              { id: "d", text: "All species benefit from warmer temperatures" },
+              { id: "d", text: "Species can always move to new habitats instantly" },
             ],
             correctChoiceId: "b",
           },
@@ -552,8 +552,8 @@ export const lesson63: Lesson = {
             choices: [
               { id: "a", text: "A seed bank storing rare plant seeds" },
               { id: "b", text: "A national park protecting a rainforest and its species" },
-              { id: "c", text: "A zoo breeding programme for tigers" },
-              { id: "d", text: "A botanical garden growing rare orchids" },
+              { id: "c", text: "A botanical garden growing rare orchids" },
+              { id: "d", text: "A zoo breeding programme for tigers" },
             ],
             correctChoiceId: "b",
           },
@@ -578,12 +578,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It preserves species' genetic material as a backup against extinction" },
-              { id: "b", text: "It is always cheaper than protecting habitat" },
-              { id: "c", text: "It maintains natural ecosystems" },
+              { id: "a", text: "It maintains natural ecosystems" },
+              { id: "b", text: "It preserves species' genetic material as a backup against extinction" },
+              { id: "c", text: "It is always cheaper than protecting habitat" },
               { id: "d", text: "It requires no management" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -607,12 +607,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Stocking the sea with fish from a hatchery" },
-              { id: "b", text: "Enforcing sustainable quotas and protecting breeding grounds" },
+              { id: "a", text: "Enforcing sustainable quotas and protecting breeding grounds" },
+              { id: "b", text: "Stocking the sea with fish from a hatchery" },
               { id: "c", text: "Banning all fishing permanently" },
               { id: "d", text: "Introducing a predator to control fish numbers" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -669,12 +669,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A national park" },
-              { id: "b", text: "A seed bank storing frozen seeds of rare plants" },
+              { id: "a", text: "A marine protected area" },
+              { id: "b", text: "A national park" },
               { id: "c", text: "A wildlife corridor between reserves" },
-              { id: "d", text: "A marine protected area" },
+              { id: "d", text: "A seed bank storing frozen seeds of rare plants" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -699,9 +699,9 @@ export const lesson63: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "It protects the whole ecosystem and its services, not just one species" },
-              { id: "b", text: "It is always cheaper" },
-              { id: "c", text: "It guarantees species never go extinct" },
-              { id: "d", text: "It requires no management or enforcement" },
+              { id: "b", text: "It requires no management or enforcement" },
+              { id: "c", text: "It is always cheaper" },
+              { id: "d", text: "It guarantees species never go extinct" },
             ],
             correctChoiceId: "a",
           },
@@ -727,12 +727,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It funds zoos around the world" },
-              { id: "b", text: "It regulates international trade in endangered species" },
-              { id: "c", text: "It bans all hunting worldwide" },
+              { id: "a", text: "It bans all hunting worldwide" },
+              { id: "b", text: "It funds zoos around the world" },
+              { id: "c", text: "It regulates international trade in endangered species" },
               { id: "d", text: "It creates national parks" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -811,12 +811,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Clones reduce genetic diversity, making the population vulnerable to disease" },
-              { id: "b", text: "Cloning is too expensive to ever be useful" },
+              { id: "a", text: "Zoos should never keep animals" },
+              { id: "b", text: "Clones reduce genetic diversity, making the population vulnerable to disease" },
               { id: "c", text: "Clones cannot eat or reproduce" },
-              { id: "d", text: "Zoos should never keep animals" },
+              { id: "d", text: "Cloning is too expensive to ever be useful" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -927,12 +927,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Using resources so they are not depleted for future generations" },
-              { id: "b", text: "Using as many resources as possible now" },
-              { id: "c", text: "Never using any natural resources" },
-              { id: "d", text: "Replacing all resources with synthetic ones" },
+              { id: "a", text: "Replacing all resources with synthetic ones" },
+              { id: "b", text: "Using resources so they are not depleted for future generations" },
+              { id: "c", text: "Using as many resources as possible now" },
+              { id: "d", text: "Never using any natural resources" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -957,9 +957,9 @@ export const lesson63: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "To allow animals to move between habitat fragments, maintaining gene flow" },
-              { id: "b", text: "To keep animals inside reserves" },
+              { id: "b", text: "To attract tourists" },
               { id: "c", text: "To provide water for animals" },
-              { id: "d", text: "To attract tourists" },
+              { id: "d", text: "To keep animals inside reserves" },
             ],
             correctChoiceId: "a",
           },

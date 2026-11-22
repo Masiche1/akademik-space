@@ -51,9 +51,9 @@ export const lesson22: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$y=x+1$" },
-              { id: "b", text: "$y=x-1$" },
+              { id: "b", text: "$y=x+2$" },
               { id: "c", text: "$y=x$" },
-              { id: "d", text: "$y=x+2$" },
+              { id: "d", text: "$y=x-1$" },
             ],
             correctChoiceId: "a",
           },
@@ -152,12 +152,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$y=x+1$" },
-              { id: "b", text: "$y=x-1$" },
-              { id: "c", text: "$y=x+2$" },
-              { id: "d", text: "$y=x$" },
+              { id: "a", text: "$y=x$" },
+              { id: "b", text: "$y=x+2$" },
+              { id: "c", text: "$y=x-1$" },
+              { id: "d", text: "$y=x+1$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -181,9 +181,9 @@ export const lesson22: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$y=1$" },
-              { id: "b", text: "$y=-3$" },
-              { id: "c", text: "$y=0$" },
-              { id: "d", text: "There is no horizontal asymptote" },
+              { id: "b", text: "There is no horizontal asymptote" },
+              { id: "c", text: "$y=-3$" },
+              { id: "d", text: "$y=0$" },
             ],
             correctChoiceId: "a",
           },
@@ -208,12 +208,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "even" },
-              { id: "b", text: "odd" },
-              { id: "c", text: "neither even nor odd" },
+              { id: "a", text: "neither even nor odd" },
+              { id: "b", text: "even" },
+              { id: "c", text: "odd" },
               { id: "d", text: "both even and odd" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -237,11 +237,11 @@ export const lesson22: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "odd" },
-              { id: "b", text: "even" },
-              { id: "c", text: "neither even nor odd" },
-              { id: "d", text: "both even and odd" },
+              { id: "b", text: "neither even nor odd" },
+              { id: "c", text: "both even and odd" },
+              { id: "d", text: "even" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -264,12 +264,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$f(x)=\\frac{2x+3}{x-2}$" },
-              { id: "b", text: "$f(x)=\\frac{2x+1}{x+3}$" },
-              { id: "c", text: "$f(x)=\\frac{3x-2}{x+1}$" },
-              { id: "d", text: "$f(x)=\\frac{x-1}{x+2}$" },
+              { id: "a", text: "$f(x)=\\frac{x-1}{x+2}$" },
+              { id: "b", text: "$f(x)=\\frac{2x+3}{x-2}$" },
+              { id: "c", text: "$f(x)=\\frac{2x+1}{x+3}$" },
+              { id: "d", text: "$f(x)=\\frac{3x-2}{x+1}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -293,11 +293,11 @@ export const lesson22: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "even" },
-              { id: "b", text: "odd" },
-              { id: "c", text: "neither even nor odd" },
+              { id: "b", text: "neither even nor odd" },
+              { id: "c", text: "odd" },
               { id: "d", text: "both even and odd" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -498,9 +498,9 @@ export const lesson22: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$-2<x<3$" },
-              { id: "b", text: "$-3<x<2$" },
+              { id: "b", text: "$-2<x<2$" },
               { id: "c", text: "$x<-2$ or $x>3$" },
-              { id: "d", text: "$-2<x<2$" },
+              { id: "d", text: "$-3<x<2$" },
             ],
             correctChoiceId: "a",
           },
@@ -604,12 +604,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$-7<x<1$" },
-              { id: "b", text: "$-1<x<7$" },
-              { id: "c", text: "$x<-7$ or $x>1$" },
+              { id: "a", text: "$-1<x<7$" },
+              { id: "b", text: "$x<-7$ or $x>1$" },
+              { id: "c", text: "$-7<x<1$" },
               { id: "d", text: "$x<-1$ or $x>7$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -632,12 +632,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$x<-2$ or $x>1$" },
-              { id: "b", text: "$-2<x<1$" },
-              { id: "c", text: "$x<-1$ or $x>2$" },
-              { id: "d", text: "$-1<x<2$" },
+              { id: "a", text: "$-2<x<1$" },
+              { id: "b", text: "$x<-1$ or $x>2$" },
+              { id: "c", text: "$-1<x<2$" },
+              { id: "d", text: "$x<-2$ or $x>1$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -660,12 +660,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$x=-2$" },
+              { id: "a", text: "$x=3$" },
               { id: "b", text: "$x=2$" },
-              { id: "c", text: "$x=-3$" },
-              { id: "d", text: "$x=3$" },
+              { id: "c", text: "$x=-2$" },
+              { id: "d", text: "$x=-3$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -688,12 +688,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$-3\\le x\\le2$" },
-              { id: "b", text: "$x\\le-3$ or $x\\ge2$" },
-              { id: "c", text: "$-2\\le x\\le3$" },
-              { id: "d", text: "$x<-3$ or $x>2$" },
+              { id: "a", text: "$-2\\le x\\le3$" },
+              { id: "b", text: "$x<-3$ or $x>2$" },
+              { id: "c", text: "$-3\\le x\\le2$" },
+              { id: "d", text: "$x\\le-3$ or $x\\ge2$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -716,12 +716,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$0$" },
-              { id: "b", text: "$2$" },
-              { id: "c", text: "$3$" },
+              { id: "a", text: "$3$" },
+              { id: "b", text: "$0$" },
+              { id: "c", text: "$2$" },
               { id: "d", text: "$4$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -744,12 +744,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$(2,3)$" },
-              { id: "b", text: "$(-2,3)$" },
-              { id: "c", text: "$(2,-3)$" },
+              { id: "a", text: "$(2,-3)$" },
+              { id: "b", text: "$(2,3)$" },
+              { id: "c", text: "$(-2,3)$" },
               { id: "d", text: "$(-3,2)$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [

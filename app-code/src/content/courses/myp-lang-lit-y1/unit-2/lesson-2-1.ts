@@ -55,12 +55,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Running down the hill quickly." },
-              { id: "b", text: "The cat slept on the mat." },
-              { id: "c", text: "Because it was raining." },
-              { id: "d", text: "Under the big blue table." },
+              { id: "a", text: "The cat slept on the mat." },
+              { id: "b", text: "Running down the hill quickly." },
+              { id: "c", text: "Under the big blue table." },
+              { id: "d", text: "Because it was raining." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -143,11 +143,11 @@ export const lesson21: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "After the long movie." },
-              { id: "b", text: "We ate pizza for dinner." },
+              { id: "b", text: "Because of the rain." },
               { id: "c", text: "Running very fast." },
-              { id: "d", text: "Because of the rain." },
+              { id: "d", text: "We ate pizza for dinner." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "convention", name: "Complete sentence", statement: "A sentence must express a complete idea." }],
@@ -163,12 +163,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Full stop" },
-              { id: "b", text: "Comma" },
-              { id: "c", text: "Exclamation mark" },
-              { id: "d", text: "Question mark" },
+              { id: "a", text: "Comma" },
+              { id: "b", text: "Full stop" },
+              { id: "c", text: "Question mark" },
+              { id: "d", text: "Exclamation mark" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "convention", name: "Ending marks", statement: "Strong feeling uses an exclamation mark." }],
@@ -186,8 +186,8 @@ export const lesson21: Lesson = {
             choices: [
               { id: "a", text: "The shop closes at nine." },
               { id: "b", text: "What time does the shop close?" },
-              { id: "c", text: "Close the shop door." },
-              { id: "d", text: "The shop is very busy!" },
+              { id: "c", text: "The shop is very busy!" },
+              { id: "d", text: "Close the shop door." },
             ],
             correctChoiceId: "b",
           },
@@ -251,12 +251,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Questions can never have punctuation" },
-              { id: "b", text: "A question only asks for information; '!' wrongly suggests shouting or strong feeling" },
-              { id: "c", text: "Exclamation marks are only for names" },
-              { id: "d", text: "It is too long a sentence" },
+              { id: "a", text: "It is too long a sentence" },
+              { id: "b", text: "Questions can never have punctuation" },
+              { id: "c", text: "A question only asks for information; '!' wrongly suggests shouting or strong feeling" },
+              { id: "d", text: "Exclamation marks are only for names" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "convention", name: "Ending marks by type", statement: "The ending mark must match the sentence type and feeling." }],
@@ -314,8 +314,8 @@ export const lesson21: Lesson = {
             choices: [
               { id: "a", text: "The dog barked at the postman." },
               { id: "b", text: "Running down the hill." },
-              { id: "c", text: "She finished her homework." },
-              { id: "d", text: "We watched a film." },
+              { id: "c", text: "We watched a film." },
+              { id: "d", text: "She finished her homework." },
             ],
             correctChoiceId: "b",
           },
@@ -333,12 +333,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Where is my shoe?" },
-              { id: "b", text: "Put on your shoes." },
-              { id: "c", text: "My shoes are new." },
-              { id: "d", text: "What nice shoes!" },
+              { id: "a", text: "Put on your shoes." },
+              { id: "b", text: "My shoes are new." },
+              { id: "c", text: "What nice shoes!" },
+              { id: "d", text: "Where is my shoe?" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "convention", name: "Commands", statement: "Commands tell someone to do something." }],
@@ -408,12 +408,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "I, like pizza pasta and salad." },
-              { id: "b", text: "I like pizza, pasta, and salad." },
-              { id: "c", text: "I like pizza, pasta and salad." },
-              { id: "d", text: "I like pizza pasta and, salad." },
+              { id: "a", text: "I like pizza, pasta, and salad." },
+              { id: "b", text: "I like pizza, pasta and salad." },
+              { id: "c", text: "I like pizza pasta and, salad." },
+              { id: "d", text: "I, like pizza pasta and salad." },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -494,12 +494,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "I packed a hat sunscreen and a water bottle." },
-              { id: "b", text: "I packed a hat, sunscreen and a water bottle." },
+              { id: "a", text: "I packed a hat, sunscreen and a water bottle." },
+              { id: "b", text: "I, packed a hat sunscreen and a water bottle." },
               { id: "c", text: "I packed, a hat sunscreen, and a water bottle." },
-              { id: "d", text: "I, packed a hat sunscreen and a water bottle." },
+              { id: "d", text: "I packed a hat sunscreen and a water bottle." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "convention", name: "Comma in lists", statement: "Commas separate list items." }],
@@ -515,12 +515,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "friend" },
-              { id: "b", text: "calls" },
-              { id: "c", text: "monday" },
-              { id: "d", text: "on" },
+              { id: "a", text: "on" },
+              { id: "b", text: "monday" },
+              { id: "c", text: "calls" },
+              { id: "d", text: "friend" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "convention", name: "Capital letters", statement: "Days of the week are capitalized." }],
@@ -536,12 +536,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "On, Sunday morning we went to the beach." },
-              { id: "b", text: "On Sunday morning, we went to the beach." },
+              { id: "a", text: "On Sunday morning, we went to the beach." },
+              { id: "b", text: "On Sunday morning we, went to the beach." },
               { id: "c", text: "On Sunday, morning we went to the beach." },
-              { id: "d", text: "On Sunday morning we, went to the beach." },
+              { id: "d", text: "On, Sunday morning we went to the beach." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "convention", name: "Comma after opener", statement: "A comma follows an opening time phrase." }],
@@ -604,11 +604,11 @@ export const lesson21: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "my Friend sam lives in london." },
-              { id: "b", text: "My friend Sam lives in London." },
+              { id: "b", text: "My friend sam lives in London." },
               { id: "c", text: "My Friend sam Lives in london." },
-              { id: "d", text: "My friend sam lives in London." },
+              { id: "d", text: "My friend Sam lives in London." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "convention", name: "Capital letters", statement: "Capitalize sentence starts, names and places only." }],
@@ -663,12 +663,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "visited and cousin" },
-              { id: "b", text: "I and June" },
-              { id: "c", text: "my and in" },
-              { id: "d", text: "cousin and june" },
+              { id: "a", text: "I and June" },
+              { id: "b", text: "cousin and june" },
+              { id: "c", text: "visited and cousin" },
+              { id: "d", text: "my and in" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "convention", name: "Capitals", statement: "The pronoun 'I' and months are capitalized." }],
@@ -684,12 +684,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "For my birthday I got a bike a helmet and a bell." },
-              { id: "b", text: "For my birthday, I got a bike, a helmet and a bell." },
-              { id: "c", text: "for my birthday i got a bike, a helmet and a bell." },
-              { id: "d", text: "For my birthday I got, a bike, a helmet and a bell." },
+              { id: "a", text: "for my birthday i got a bike, a helmet and a bell." },
+              { id: "b", text: "For my birthday I got a bike a helmet and a bell." },
+              { id: "c", text: "For my birthday I got, a bike, a helmet and a bell." },
+              { id: "d", text: "For my birthday, I got a bike, a helmet and a bell." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "convention", name: "Commas and capitals", statement: "Opener takes a comma; list items are separated; 'I' is capitalized." }],

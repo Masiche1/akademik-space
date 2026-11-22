@@ -54,12 +54,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The change in nominal GDP" },
-              { id: "b", text: "The change in real GDP" },
-              { id: "c", text: "The change in population" },
+              { id: "a", text: "The change in population" },
+              { id: "b", text: "The change in nominal GDP" },
+              { id: "c", text: "The change in real GDP" },
               { id: "d", text: "The change in government spending" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -159,12 +159,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A continuously rising saving rate" },
-              { id: "b", text: "Technological progress" },
-              { id: "c", text: "Population growth" },
-              { id: "d", text: "Higher government spending" },
+              { id: "a", text: "Higher government spending" },
+              { id: "b", text: "Population growth" },
+              { id: "c", text: "Technological progress" },
+              { id: "d", text: "A continuously rising saving rate" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -187,12 +187,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Exogenous technological shocks from abroad" },
-              { id: "b", text: "Internal factors such as human capital, innovation and institutions" },
-              { id: "c", text: "Capital accumulation alone" },
-              { id: "d", text: "Natural resource extraction" },
+              { id: "a", text: "Natural resource extraction" },
+              { id: "b", text: "Capital accumulation alone" },
+              { id: "c", text: "Exogenous technological shocks from abroad" },
+              { id: "d", text: "Internal factors such as human capital, innovation and institutions" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -284,12 +284,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A situation of zero economic growth forever" },
-              { id: "b", text: "A situation where growth depends on the rate of technological progress" },
-              { id: "c", text: "The maximum output an economy can ever produce" },
-              { id: "d", text: "A recession caused by falling investment" },
+              { id: "a", text: "A recession caused by falling investment" },
+              { id: "b", text: "The maximum output an economy can ever produce" },
+              { id: "c", text: "A situation where growth depends on the rate of technological progress" },
+              { id: "d", text: "A situation of zero economic growth forever" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -369,10 +369,10 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "True — technology is the only determinant of long-run growth" },
+              { id: "a", text: "False — growth is impossible without population growth" },
               { id: "b", text: "False — technology must be supported by institutions, human capital and investment to be effective" },
-              { id: "c", text: "True — saving and investment are irrelevant to growth" },
-              { id: "d", text: "False — growth is impossible without population growth" },
+              { id: "c", text: "True — technology is the only determinant of long-run growth" },
+              { id: "d", text: "True — saving and investment are irrelevant to growth" },
             ],
             correctChoiceId: "b",
           },
@@ -399,11 +399,11 @@ export const lesson61: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "The growth rate recorded in the most recent year" },
-              { id: "b", text: "The growth rate achievable when the economy operates at full productive capacity" },
-              { id: "c", text: "The highest growth rate ever recorded" },
-              { id: "d", text: "Growth of potential output only during recessions" },
+              { id: "b", text: "Growth of potential output only during recessions" },
+              { id: "c", text: "The growth rate achievable when the economy operates at full productive capacity" },
+              { id: "d", text: "The highest growth rate ever recorded" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -509,12 +509,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Maximum possible economic growth" },
-              { id: "b", text: "Meeting present needs without compromising future generations" },
-              { id: "c", text: "Zero economic growth" },
-              { id: "d", text: "Growth only in rich countries" },
+              { id: "a", text: "Zero economic growth" },
+              { id: "b", text: "Growth only in rich countries" },
+              { id: "c", text: "Maximum possible economic growth" },
+              { id: "d", text: "Meeting present needs without compromising future generations" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -609,9 +609,9 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Higher unemployment" },
+              { id: "a", text: "Greater environmental degradation" },
               { id: "b", text: "Higher real incomes and living standards" },
-              { id: "c", text: "Greater environmental degradation" },
+              { id: "c", text: "Higher unemployment" },
               { id: "d", text: "Increased structural unemployment" },
             ],
             correctChoiceId: "b",
@@ -637,12 +637,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "All regions of an economy grow at the same rate" },
-              { id: "b", text: "Some regions or industries grow while others decline or stagnate" },
-              { id: "c", text: "Growth occurs only in the agricultural sector" },
-              { id: "d", text: "The economy grows faster than its potential output" },
+              { id: "a", text: "Growth occurs only in the agricultural sector" },
+              { id: "b", text: "All regions of an economy grow at the same rate" },
+              { id: "c", text: "The economy grows faster than its potential output" },
+              { id: "d", text: "Some regions or industries grow while others decline or stagnate" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -666,12 +666,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Economic growth achieved only through agriculture" },
-              { id: "b", text: "Decoupling economic growth from environmental damage" },
-              { id: "c", text: "Reducing all economic activity to zero" },
-              { id: "d", text: "Growth funded entirely by foreign aid" },
+              { id: "a", text: "Decoupling economic growth from environmental damage" },
+              { id: "b", text: "Growth funded entirely by foreign aid" },
+              { id: "c", text: "Economic growth achieved only through agriculture" },
+              { id: "d", text: "Reducing all economic activity to zero" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -694,12 +694,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Degrowth is clearly correct — all economies should stop growing immediately" },
-              { id: "b", text: "Degrowth is wrong — growth never harms the environment" },
-              { id: "c", text: "Degrowth highlights real ecological limits but is controversial and may harm living standards in poor countries" },
-              { id: "d", text: "Degrowth means growing at a slower but still positive rate" },
+              { id: "a", text: "Degrowth means growing at a slower but still positive rate" },
+              { id: "b", text: "Degrowth highlights real ecological limits but is controversial and may harm living standards in poor countries" },
+              { id: "c", text: "Degrowth is wrong — growth never harms the environment" },
+              { id: "d", text: "Degrowth is clearly correct — all economies should stop growing immediately" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -724,11 +724,11 @@ export const lesson61: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Higher average incomes" },
-              { id: "b", text: "Increased stress, consumerism and reduced leisure time" },
-              { id: "c", text: "Better-funded public services" },
+              { id: "b", text: "Better-funded public services" },
+              { id: "c", text: "Increased stress, consumerism and reduced leisure time" },
               { id: "d", text: "Greater technological innovation" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

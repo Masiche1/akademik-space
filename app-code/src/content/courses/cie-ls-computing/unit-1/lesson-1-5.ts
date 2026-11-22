@@ -51,22 +51,22 @@ export const lesson15: Lesson = {
           "choices": [
                     {
                               "id": "a",
-                              "text": "Unusual input testing program limits"
+                              "text": "A type of bug"
                     },
                     {
                               "id": "b",
-                              "text": "A fast computer"
+                              "text": "Unusual input testing program limits"
                     },
                     {
                               "id": "c",
-                              "text": "A type of bug"
+                              "text": "A fast computer"
                     },
                     {
                               "id": "d",
                               "text": "A network cable"
                     }
           ],
-          "correctChoiceId": "a"
+          "correctChoiceId": "b"
 },
           markscheme: {
           "principles": [
@@ -207,6 +207,484 @@ export const lesson15: Lesson = {
                     },
                     {
                               "reasoning": "(h) Valid trace table.",
+                              "marks": 1,
+                              "markCode": "A"
+                    }
+          ],
+          "finalAnswer": "Testing methodology, tracing, debugging."
+},
+        },
+        {
+          id: "cils-c-u1-dg-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "What is a trace table?",
+          response: {
+          "type": "mcq",
+          "choices": [
+                    {
+                              "id": "a",
+                              "text": "A table tracking variable values step by step"
+                    },
+                    {
+                              "id": "b",
+                              "text": "A type of error message"
+                    },
+                    {
+                              "id": "c",
+                              "text": "A network diagram"
+                    },
+                    {
+                              "id": "d",
+                              "text": "A list of test cases"
+                    }
+          ],
+          "correctChoiceId": "a"
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "definition",
+                              "name": "Trace table",
+                              "statement": "Step-by-step variable tracking."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "Trace tables record each variable's value at each step.",
+                              "marks": 1,
+                              "markCode": "M"
+                    }
+          ],
+          "finalAnswer": "Variable tracking table"
+},
+        },
+        {
+          id: "cils-c-u1-dg-q6",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "x = 3; x = x + 4; x = x * 2. What is the final value of x?",
+          response: {
+          "type": "numeric",
+          "parts": [
+                    { "label": "a", "answer": 14 }
+          ]
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "skill",
+                              "name": "Tracing",
+                              "statement": "Follow assignments in order."
+                    }
+          ],
+          "steps": [
+                    {
+                              "part": "a",
+                              "reasoning": "3+4 = 7, then 7*2 = 14.",
+                              "marks": 1,
+                              "markCode": "M"
+                    }
+          ],
+          "finalAnswer": "14"
+},
+        },
+        {
+          id: "cils-c-u1-dg-q7",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "A program adds the values 2, 3 and 4 into total starting at 0. What is the final total?",
+          response: {
+          "type": "numeric",
+          "parts": [
+                    { "label": "a", "answer": 9 }
+          ]
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "skill",
+                              "name": "Accumulation",
+                              "statement": "Add each value in turn."
+                    }
+          ],
+          "steps": [
+                    {
+                              "part": "a",
+                              "reasoning": "0+2+3+4 = 9.",
+                              "marks": 1,
+                              "markCode": "M"
+                    }
+          ],
+          "finalAnswer": "9"
+},
+        },
+        {
+          id: "cils-c-u1-dg-q8",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "A program won't run and shows 'IndentationError: unexpected indent'. What type of error is this, and what is the first thing to check?",
+          response: {
+          "type": "open"
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "definition",
+                              "name": "Syntax error",
+                              "statement": "Code won't run due to format."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "Syntax error — program won't run.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "Check indentation of the reported line.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "Fix spacing, rerun, retest.",
+                              "marks": 1,
+                              "markCode": "A"
+                    }
+          ],
+          "finalAnswer": "Syntax error; fix indentation"
+},
+        },
+        {
+          id: "cils-c-u1-dg-q9",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "For a program asking 'Enter your age', which input is an edge case?",
+          response: {
+          "type": "mcq",
+          "choices": [
+                    {
+                              "id": "a",
+                              "text": "0"
+                    },
+                    {
+                              "id": "b",
+                              "text": "30"
+                    },
+                    {
+                              "id": "c",
+                              "text": "25"
+                    },
+                    {
+                              "id": "d",
+                              "text": "40"
+                    }
+          ],
+          "aorrectChoiceId": "c"
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "definition",
+                              "name": "Edge case",
+                              "statement": "Unusual input testing limits."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "0 is outside normal ages — tests program limits.",
+                              "marks": 1,
+                              "markCode": "M"
+                    }
+          ],
+          "finalAnswer": "0"
+},
+        },
+        {
+          id: "cils-c-u1-dg-q10",
+          difficulty: "challenge",
+          totalMarks: 1,
+          stem: "An average program uses values 4, 8 and 12. What is the sum used in the calculation?",
+          response: {
+          "type": "numeric",
+          "parts": [
+                    { "label": "a", "answer": 24 }
+          ]
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "skill",
+                              "name": "Averages",
+                              "statement": "Average = total / count."
+                    }
+          ],
+          "steps": [
+                    {
+                              "part": "a",
+                              "reasoning": "4 + 8 + 12 = 24.",
+                              "marks": 1,
+                              "markCode": "M"
+                    }
+          ],
+          "finalAnswer": "24"
+},
+        },
+        {
+          id: "cils-c-u1-dg-q11",
+          difficulty: "challenge",
+          totalMarks: 1,
+          stem: "A program runs without errors but produces the wrong answer. What is the best first debugging tool?",
+          response: {
+          "type": "mcq",
+          "choices": [
+                    {
+                              "id": "a",
+                              "text": "Rewrite the whole program"
+                    },
+                    {
+                              "id": "b",
+                              "text": "Delete the output statement"
+                    },
+                    {
+                              "id": "c",
+                              "text": "Change every line randomly"
+                    },
+                    {
+                              "id": "d",
+                              "text": "Use a trace table to follow variable values"
+                    }
+          ],
+          "correctChoiceId": "d"
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "skill",
+                              "name": "Debugging",
+                              "statement": "Trace to find logic errors."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "Logic errors need tracing, not guessing.",
+                              "marks": 1,
+                              "markCode": "M"
+                    }
+          ],
+          "finalAnswer": "Trace table"
+},
+        },
+        {
+          id: "cils-c-u1-dg-q12",
+          difficulty: "challenge",
+          totalMarks: 5,
+          stem: "(a) Define edge case and give three examples for a password checker. (b) What is a 'dry run'? (c) Why write expected outputs before running a test? (d) Why retest the whole program after each fix? (e) Design a short test plan for a function 'is_palindrome(word)'.",
+          response: {
+          "type": "open"
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "technique",
+                              "name": "Testing",
+                              "statement": "Edge cases, dry runs, regression."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "(a) Edge case = limit input; e.g. empty password, 1 char, very long password.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "(b) Stepping through code mentally/on paper before running.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "(c) Expected outputs written first prevent self-deception.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "(d) Fix may break other parts — regression check.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "(e) Valid test plan: 'level', 'racecar', 'a', ''.",
+                              "marks": 1,
+                              "markCode": "A"
+                    }
+          ],
+          "finalAnswer": "Edge cases, dry run, test plans."
+},
+        },
+        {
+          id: "cils-c-u1-dg-q13",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "A program stops immediately with 'SyntaxError: invalid syntax'. What does this tell you?",
+          response: {
+          "type": "mcq",
+          "choices": [
+                    {
+                              "id": "a",
+                              "text": "The program runs but gives wrong results"
+                    },
+                    {
+                              "id": "b",
+                              "text": "The program won't run — code format is wrong"
+                    },
+                    {
+                              "id": "c",
+                              "text": "The network is down"
+                    },
+                    {
+                              "id": "d",
+                              "text": "The computer needs more memory"
+                    }
+          ],
+          "correctChoiceId": "b"
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "definition",
+                              "name": "Syntax error",
+                              "statement": "Won't run — format wrong."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "Syntax errors stop execution at the reported line.",
+                              "marks": 1,
+                              "markCode": "M"
+                    }
+          ],
+          "finalAnswer": "Won't run; fix format"
+},
+        },
+        {
+          id: "cils-c-u1-dg-q14",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "count = 0. A loop runs 5 times, each doing count = count + 1. What is count at the end?",
+          response: {
+          "type": "numeric",
+          "parts": [
+                    { "label": "a", "answer": 5 }
+          ]
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "skill",
+                              "name": "Loop tracing",
+                              "statement": "Count iterations."
+                    }
+          ],
+          "steps": [
+                    {
+                              "part": "a",
+                              "reasoning": "count goes 1,2,3,4,5 → 5.",
+                              "marks": 1,
+                              "markCode": "M"
+                    }
+          ],
+          "finalAnswer": "5"
+},
+        },
+        {
+          id: "cils-c-u1-dg-q15",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "A program accepts exam scores from 0 to 100. Which input is a boundary case?",
+          response: {
+          "type": "mcq",
+          "choices": [
+                    {
+                              "id": "a",
+                              "text": "60"
+                    },
+                    {
+                              "id": "b",
+                              "text": "50"
+                    },
+                    {
+                              "id": "c",
+                              "text": "100"
+                    },
+                    {
+                              "id": "d",
+                              "text": "75"
+                    }
+          ],
+          "correctChoiceId": "c"
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "definition",
+                              "name": "Boundary case",
+                              "statement": "Value at the limit."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "100 is the maximum allowed — boundary of range.",
+                              "marks": 1,
+                              "markCode": "M"
+                    }
+          ],
+          "finalAnswer": "100"
+},
+        },
+        {
+          id: "cils-c-u1-dg-q16",
+          difficulty: "challenge",
+          totalMarks: 6,
+          stem: "(a) Define test plan, trace table, logic error, syntax error, dry run. (b) Trace: a = 2, b = 3, c = a * b, c = c + 1 — final c? (c) A program crashes immediately — what do you check first? (d) A program runs but gives wrong results — what strategy do you use? (e) Why write expected outputs before running tests? (f) Give one edge case for a program that divides two numbers.",
+          response: {
+          "type": "open"
+},
+          markscheme: {
+          "principles": [
+                    {
+                              "kind": "technique",
+                              "name": "Testing",
+                              "statement": "Plans, traces, error types."
+                    }
+          ],
+          "steps": [
+                    {
+                              "reasoning": "(a) All five definitions correct.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "(b) 7.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "(c) Error message/syntax first.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "(d) Trace table; isolate sections.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "(e) Prevents accepting wrong output as correct.",
+                              "marks": 1,
+                              "markCode": "M"
+                    },
+                    {
+                              "reasoning": "(f) e.g. divisor = 0.",
                               "marks": 1,
                               "markCode": "A"
                     }

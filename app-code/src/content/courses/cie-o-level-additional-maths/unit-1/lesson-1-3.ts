@@ -32,8 +32,11 @@ export const lesson13: Lesson = {
           id: "olam-u1-s3-me-q1", difficulty: "foundation", totalMarks: 1,
           stem: "$x^2+4x+1$ in completed-square form is…",
           response: { type: "mcq", choices: [
-            { id: "a", text: "$(x+2)^2-3$" }, { id: "b", text: "$(x+2)^2+1$" }, { id: "c", text: "$(x-2)^2-3$" }, { id: "d", text: "$(x+4)^2-15$" },
-          ], correctChoiceId: "a" },
+            { id: "a", text: "$(x-2)^2-3$" },
+            { id: "b", text: "$(x+2)^2+1$" },
+            { id: "c", text: "$(x+2)^2-3$" },
+            { id: "d", text: "$(x+4)^2-15$" },
+          ], correctChoiceId: "c" },
           markscheme: { principles: [{ kind: "technique", name: "Complete square", statement: "Halve, square, adjust." }], steps: [{ reasoning: "$(x+2)^2-4+1=(x+2)^2-3$.", marks: 1, markCode: "A" }], finalAnswer: "$(x+2)^2-3$" },
         },
         {
@@ -66,6 +69,129 @@ export const lesson13: Lesson = {
             { reasoning: "Answer: $(3,2)$.", marks: 1, markCode: "A" },
           ], finalAnswer: "$(3,2)$ minimum" },
         },
+        {
+          id: "olam-u1-s3-me-q5", difficulty: "foundation", totalMarks: 1,
+          stem: "$x^2+8x+5$ in completed-square form is…",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "$(x+4)^2-11$" },
+            { id: "b", text: "$(x-4)^2-11$" },
+            { id: "c", text: "$(x+4)^2+5$" },
+            { id: "d", text: "$(x+8)^2-59$" },
+          ], correctChoiceId: "a" },
+          markscheme: { principles: [{ kind: "technique", name: "Complete square", statement: "Halve, square, adjust." }], steps: [{ reasoning: "$(x+4)^2-16+5=(x+4)^2-11$.", marks: 1, markCode: "A" }], finalAnswer: "$(x+4)^2-11$" },
+        },
+        {
+          id: "olam-u1-s3-me-q6", difficulty: "foundation", totalMarks: 1,
+          stem: "The completed-square form of $2x^2+12x-1$ is…",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "$2(x-3)^2-19$" },
+            { id: "b", text: "$2(x+6)^2-73$" },
+            { id: "c", text: "$2(x+3)^2-1$" },
+            { id: "d", text: "$2(x+3)^2-19$" },
+          ], correctChoiceId: "d" },
+          markscheme: { principles: [{ kind: "technique", name: "Non-monic", statement: "Factor out 2 first." }], steps: [{ reasoning: "$2[(x+3)^2-9]-1=2(x+3)^2-19$.", marks: 1, markCode: "A" }], finalAnswer: "$2(x+3)^2-19$" },
+        },
+        {
+          id: "olam-u1-s3-me-q7", difficulty: "core", totalMarks: 1,
+          stem: "For $y=3(x-2)^2+5$, the vertex is…",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "$(-2,5)$" },
+            { id: "b", text: "$(2,-5)$" },
+            { id: "c", text: "$(5,2)$" },
+            { id: "d", text: "$(2,5)$" },
+          ], correctChoiceId: "d" },
+          markscheme: { principles: [{ kind: "property", name: "Vertex form", statement: "Read off $(h,k)$." }], steps: [{ reasoning: "$h=2$, $k=5$.", marks: 1, markCode: "A" }], finalAnswer: "$(2,5)$" },
+        },
+        {
+          id: "olam-u1-s3-me-q8", difficulty: "core", totalMarks: 1,
+          stem: "$-x^2+6x-4$ can be written as…",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "$-(x-3)^2-13$" },
+            { id: "b", text: "$-(x+3)^2+5$" },
+            { id: "c", text: "$(x-3)^2-5$" },
+            { id: "d", text: "$-(x-3)^2+5$" },
+          ], correctChoiceId: "d" },
+          markscheme: { principles: [{ kind: "technique", name: "Negative leading coefficient", statement: "Factor out $-1$." }], steps: [{ reasoning: "$-[x^2-6x]-4=-[(x-3)^2-9]-4=-(x-3)^2+5$.", marks: 1, markCode: "A" }], finalAnswer: "$-(x-3)^2+5$" },
+        },
+        {
+          id: "olam-u1-s3-me-q9", difficulty: "challenge", totalMarks: 1,
+          stem: "Which is the correct completed-square form of $4x^2-8x+1$?",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "$4(x-1)^2+1$" },
+            { id: "b", text: "$4(x-2)^2-15$" },
+            { id: "c", text: "$4(x-1)^2-3$" },
+            { id: "d", text: "$4(x+1)^2-3$" },
+          ], correctChoiceId: "c" },
+          markscheme: { principles: [{ kind: "technique", name: "Non-monic", statement: "Factor 4, halve, adjust." }], steps: [{ reasoning: "$4[(x-1)^2-1]+1=4(x-1)^2-3$.", marks: 1, markCode: "A" }], finalAnswer: "$4(x-1)^2-3$" },
+        },
+        {
+          id: "olam-u1-s3-me-q10", difficulty: "foundation", totalMarks: 2,
+          stem: "Write $x^2-14x+20$ as $(x+p)^2+q$. Find the value of $q$.",
+          response: { type: "numeric", parts: [{ label: "a", answer: -29 }] },
+          markscheme: { principles: [{ kind: "technique", name: "Complete square", statement: "Halve, square, subtract." }], steps: [
+            { reasoning: "$(x-7)^2-49+20=(x-7)^2-29$.", marks: 1, markCode: "M" },
+            { reasoning: "$q=-29$.", marks: 1, markCode: "A" },
+          ], finalAnswer: "$-29$" },
+        },
+        {
+          id: "olam-u1-s3-me-q11", difficulty: "core", totalMarks: 2,
+          stem: "The quadratic $x^2+bx+c$ can be written as $(x+5)^2+q$. Its vertex lies on the x-axis. Find $c$.",
+          response: { type: "numeric", parts: [{ label: "a", answer: 25 }] },
+          markscheme: { principles: [{ kind: "technique", name: "Vertex on axis", statement: "$q=0$ at vertex." }], steps: [
+            { reasoning: "$(x+5)^2+q=x^2+10x+25+q$, so $b=10$ and $c=25+q$.", marks: 1, markCode: "M" },
+            { reasoning: "Vertex on x-axis → $q=0$ → $c=25$.", marks: 1, markCode: "A" },
+          ], finalAnswer: "25" },
+        },
+        {
+          id: "olam-u1-s3-me-q12", difficulty: "core", totalMarks: 2,
+          stem: "Find the minimum value of $y=x^2-8x+3$.",
+          response: { type: "numeric", parts: [{ label: "a", answer: -13 }] },
+          markscheme: { principles: [{ kind: "technique", name: "Minimum value", statement: "Constant in vertex form." }], steps: [
+            { reasoning: "$y=(x-4)^2-16+3=(x-4)^2-13$.", marks: 1, markCode: "M" },
+            { reasoning: "Minimum value $=-13$.", marks: 1, markCode: "A" },
+          ], finalAnswer: "$-13$" },
+        },
+        {
+          id: "olam-u1-s3-me-q13", difficulty: "challenge", totalMarks: 3,
+          stem: "The minimum value of $x^2-10x+k$ is 7. Find $k$.",
+          response: { type: "numeric", parts: [{ label: "a", answer: 32 }] },
+          markscheme: { principles: [{ kind: "technique", name: "Reverse problem", statement: "Set constant term." }], steps: [
+            { reasoning: "$x^2-10x+k=(x-5)^2-25+k$.", marks: 1, markCode: "M" },
+            { reasoning: "Minimum $=k-25=7$ → $k=32$.", marks: 1, markCode: "M" },
+            { reasoning: "Check: $(x-5)^2+7$ expands to $x^2-10x+32$ ✓.", marks: 1, markCode: "A" },
+          ], finalAnswer: "32" },
+        },
+        {
+          id: "olam-u1-s3-me-q14", difficulty: "core", totalMarks: 3,
+          stem: "Complete the square for $5x^2-20x+3$.",
+          response: { type: "open" },
+          markscheme: { principles: [{ kind: "technique", name: "Non-monic", statement: "Factor 5 first." }], steps: [
+            { reasoning: "$5[x^2-4x]+3=5[(x-2)^2-4]+3$.", marks: 1, markCode: "M" },
+            { reasoning: "$=5(x-2)^2-20+3=5(x-2)^2-17$.", marks: 1, markCode: "M" },
+            { reasoning: "Answer shown.", marks: 1, markCode: "A" },
+          ], finalAnswer: "$5(x-2)^2-17$" },
+        },
+        {
+          id: "olam-u1-s3-me-q15", difficulty: "challenge", totalMarks: 4,
+          stem: "Express $3-4x-x^2$ in completed-square form and state its maximum value.",
+          response: { type: "open" },
+          markscheme: { principles: [{ kind: "technique", name: "Negative quadratic", statement: "Factor $-1$." }], steps: [
+            { reasoning: "$3-4x-x^2=-(x^2+4x)+3=-[(x+2)^2-4]+3$.", marks: 1, markCode: "M" },
+            { reasoning: "$=-(x+2)^2+4+3=-(x+2)^2+7$.", marks: 1, markCode: "M" },
+            { reasoning: "Since coefficient of square is negative, maximum occurs at $x=-2$.", marks: 1, markCode: "M" },
+            { reasoning: "Maximum value $=7$.", marks: 1, markCode: "A" },
+          ], finalAnswer: "$-(x+2)^2+7$; maximum 7" },
+        },
+        {
+          id: "olam-u1-s3-me-q16", difficulty: "core", totalMarks: 3,
+          stem: "Show that $2x^2+8x+11>0$ for all real values of $x$.",
+          response: { type: "open" },
+          markscheme: { principles: [{ kind: "technique", name: "Sign analysis", statement: "Square is non-negative." }], steps: [
+            { reasoning: "$2x^2+8x+11=2[(x+2)^2-4]+11=2(x+2)^2+3$.", marks: 1, markCode: "M" },
+            { reasoning: "$2(x+2)^2\geq0$ for all $x$, so $2(x+2)^2+3\geq3>0$.", marks: 1, markCode: "M" },
+            { reasoning: "Hence the expression is always positive. ✓", marks: 1, markCode: "A" },
+          ], finalAnswer: "Proven" },
+        },
       ],
     },
     {
@@ -88,8 +214,11 @@ export const lesson13: Lesson = {
           id: "olam-u1-s3-ve-q1", difficulty: "foundation", totalMarks: 1,
           stem: "The vertex of $y=(x-2)^2+3$ is…",
           response: { type: "mcq", choices: [
-            { id: "a", text: "$(2,3)$" }, { id: "b", text: "$(-2,3)$" }, { id: "c", text: "$(2,-3)$" }, { id: "d", text: "$(3,2)$" },
-          ], correctChoiceId: "a" },
+            { id: "a", text: "$(-2,3)$" },
+            { id: "b", text: "$(2,3)$" },
+            { id: "c", text: "$(3,2)$" },
+            { id: "d", text: "$(2,-3)$" },
+          ], correctChoiceId: "b" },
           markscheme: { principles: [{ kind: "property", name: "Vertex form", statement: "$(h,k)$." }], steps: [{ reasoning: "$h=2, k=3$.", marks: 1, markCode: "A" }], finalAnswer: "$(2,3)$" },
         },
         {
@@ -121,6 +250,125 @@ export const lesson13: Lesson = {
             { reasoning: "$y=2(x-2)^2-5$.", marks: 1, markCode: "M" },
             { reasoning: "Verify: at $x=4$, $2(4)-5=3$. ✓", marks: 1, markCode: "A" },
           ], finalAnswer: "$y=2(x-2)^2-5$" },
+        },
+        {
+          id: "olam-u1-s3-ve-q5", difficulty: "foundation", totalMarks: 1,
+          stem: "The vertex of $y=-(x-4)^2+2$ is…",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "$(2,4)$" },
+            { id: "b", text: "$(4,2)$" },
+            { id: "c", text: "$(4,-2)$" },
+            { id: "d", text: "$(-4,2)$" },
+          ], correctChoiceId: "b" },
+          markscheme: { principles: [{ kind: "property", name: "Vertex form", statement: "$(h,k)$." }], steps: [{ reasoning: "$h=4$, $k=2$.", marks: 1, markCode: "A" }], finalAnswer: "$(4,2)$" },
+        },
+        {
+          id: "olam-u1-s3-ve-q6", difficulty: "foundation", totalMarks: 1,
+          stem: "The axis of symmetry of $y=(x+5)^2-1$ is…",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "$x=-5$" },
+            { id: "b", text: "$x=1$" },
+            { id: "c", text: "$x=-1$" },
+            { id: "d", text: "$x=5$" },
+          ], correctChoiceId: "a" },
+          markscheme: { principles: [{ kind: "property", name: "Axis", statement: "$x=h$." }], steps: [{ reasoning: "$h=-5$ → axis $x=-5$.", marks: 1, markCode: "A" }], finalAnswer: "$x=-5$" },
+        },
+        {
+          id: "olam-u1-s3-ve-q7", difficulty: "core", totalMarks: 1,
+          stem: "The range of $f(x)=(x-3)^2+2$ is…",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "$[3,\\infty)$" },
+            { id: "b", text: "$[2,\\infty)$" },
+            { id: "c", text: "$\\mathbb{R}$" },
+            { id: "d", text: "$(-\\infty,2]$" },
+          ], correctChoiceId: "b" },
+          markscheme: { principles: [{ kind: "property", name: "Range", statement: "$a>0$ → $[k,\\infty)$." }], steps: [{ reasoning: "Opens up, minimum 2 → $[2,\\infty)$.", marks: 1, markCode: "A" }], finalAnswer: "$[2,\\infty)$" },
+        },
+        {
+          id: "olam-u1-s3-ve-q8", difficulty: "core", totalMarks: 1,
+          stem: "The turning point of $y=-2(x+1)^2+7$ is…",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "Minimum at $(1,-7)$" },
+            { id: "b", text: "Minimum at $(-1,7)$" },
+            { id: "c", text: "Maximum at $(1,7)$" },
+            { id: "d", text: "Maximum at $(-1,7)$" },
+          ], correctChoiceId: "d" },
+          markscheme: { principles: [{ kind: "property", name: "Opening direction", statement: "$a<0$ → maximum." }], steps: [{ reasoning: "$a=-2<0$, vertex $(-1,7)$ → maximum.", marks: 1, markCode: "A" }], finalAnswer: "Maximum at $(-1,7)$" },
+        },
+        {
+          id: "olam-u1-s3-ve-q9", difficulty: "challenge", totalMarks: 1,
+          stem: "Which quadratic has a minimum value of $-3$?",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "$y=(x-2)^2+3$" },
+            { id: "b", text: "$y=(x+2)^2-3$" },
+            { id: "c", text: "$y=-(x+2)^2-3$" },
+            { id: "d", text: "$y=(x+3)^2$" },
+          ], correctChoiceId: "b" },
+          markscheme: { principles: [{ kind: "property", name: "Vertex", statement: "Min value is $k$ when $a>0$." }], steps: [{ reasoning: "Option a: opens up, $k=-3$.", marks: 1, markCode: "A" }], finalAnswer: "Option a" },
+        },
+        {
+          id: "olam-u1-s3-ve-q10", difficulty: "foundation", totalMarks: 2,
+          stem: "Find the minimum value of $y=(x-2)^2+5$.",
+          response: { type: "numeric", parts: [{ label: "a", answer: 5 }] },
+          markscheme: { principles: [{ kind: "property", name: "Minimum", statement: "$k$ when $a>0$." }], steps: [
+            { reasoning: "Vertex $(2,5)$; $a=1>0$ → minimum.", marks: 1, markCode: "M" },
+            { reasoning: "Minimum value $=5$.", marks: 1, markCode: "A" },
+          ], finalAnswer: "5" },
+        },
+        {
+          id: "olam-u1-s3-ve-q11", difficulty: "core", totalMarks: 2,
+          stem: "Find the maximum value of $y=-x^2+4x-1$.",
+          response: { type: "numeric", parts: [{ label: "a", answer: 3 }] },
+          markscheme: { principles: [{ kind: "technique", name: "Complete square", statement: "Find vertex." }], steps: [
+            { reasoning: "$y=-(x-2)^2+4-1=-(x-2)^2+3$.", marks: 1, markCode: "M" },
+            { reasoning: "Maximum value $=3$.", marks: 1, markCode: "A" },
+          ], finalAnswer: "3" },
+        },
+        {
+          id: "olam-u1-s3-ve-q12", difficulty: "foundation", totalMarks: 1,
+          stem: "For $y=2(x+1)^2-8$, the $x$-coordinate of the vertex is…",
+          response: { type: "numeric", parts: [{ label: "a", answer: -1 }] },
+          markscheme: { principles: [{ kind: "property", name: "Vertex", statement: "$h$ from form." }], steps: [{ reasoning: "$h=-1$.", marks: 1, markCode: "A" }], finalAnswer: "$-1$" },
+        },
+        {
+          id: "olam-u1-s3-ve-q13", difficulty: "challenge", totalMarks: 3,
+          stem: "A quadratic $y=a(x-h)^2+k$ has vertex $(2,5)$ and passes through $(4,13)$. Find $a$.",
+          response: { type: "numeric", parts: [{ label: "a", answer: 2 }] },
+          markscheme: { principles: [{ kind: "technique", name: "Find parameter", statement: "Substitute point." }], steps: [
+            { reasoning: "$13=a(4-2)^2+5=4a+5$.", marks: 1, markCode: "M" },
+            { reasoning: "$4a=8$ → $a=2$.", marks: 1, markCode: "M" },
+            { reasoning: "Answer: 2.", marks: 1, markCode: "A" },
+          ], finalAnswer: "2" },
+        },
+        {
+          id: "olam-u1-s3-ve-q14", difficulty: "core", totalMarks: 3,
+          stem: "Find the vertex of $y=-x^2+6x-5$ and state whether it is a maximum or minimum.",
+          response: { type: "open" },
+          markscheme: { principles: [{ kind: "technique", name: "Vertex", statement: "Complete square." }], steps: [
+            { reasoning: "$y=-(x^2-6x)-5=-[(x-3)^2-9]-5=-(x-3)^2+4$.", marks: 1, markCode: "M" },
+            { reasoning: "Vertex $(3,4)$.", marks: 1, markCode: "M" },
+            { reasoning: "$a=-1<0$ → maximum.", marks: 1, markCode: "A" },
+          ], finalAnswer: "Maximum at $(3,4)$" },
+        },
+        {
+          id: "olam-u1-s3-ve-q15", difficulty: "core", totalMarks: 2,
+          stem: "State the range of $f(x)=x^2-6x+10$.",
+          response: { type: "open" },
+          markscheme: { principles: [{ kind: "technique", name: "Quadratic range", statement: "Complete square." }], steps: [
+            { reasoning: "$f(x)=(x-3)^2+1$, minimum value 1.", marks: 1, markCode: "M" },
+            { reasoning: "Range: $[1,\\infty)$.", marks: 1, markCode: "A" },
+          ], finalAnswer: "$[1,\\infty)$" },
+        },
+        {
+          id: "olam-u1-s3-ve-q16", difficulty: "challenge", totalMarks: 4,
+          stem: "Find the equation of the quadratic with vertex $(-1,4)$ passing through $(1,0)$, in the form $y=a(x-h)^2+k$.",
+          response: { type: "open" },
+          markscheme: { principles: [{ kind: "technique", name: "Find equation", statement: "Use point to find $a$." }], steps: [
+            { reasoning: "$y=a(x+1)^2+4$.", marks: 1, markCode: "M" },
+            { reasoning: "Substitute $(1,0)$: $0=a(2)^2+4=4a+4$ → $a=-1$.", marks: 1, markCode: "M" },
+            { reasoning: "$y=-(x+1)^2+4$.", marks: 1, markCode: "M" },
+            { reasoning: "Verify: at $x=1$, $-(4)+4=0$ ✓.", marks: 1, markCode: "A" },
+          ], finalAnswer: "$y=-(x+1)^2+4$" },
         },
       ],
     },

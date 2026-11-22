@@ -54,12 +54,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$(3, 4, 6)$" },
-              { id: "b", text: "$(4, 4, 6)$" },
-              { id: "c", text: "$(6, 8, 12)$" },
-              { id: "d", text: "$(2, 2, 3)$" },
+              { id: "a", text: "$(2, 2, 3)$" },
+              { id: "b", text: "$(6, 8, 12)$" },
+              { id: "c", text: "$(4, 4, 6)$" },
+              { id: "d", text: "$(3, 4, 6)$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -158,12 +158,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$9$" },
+              { id: "a", text: "$11$" },
               { id: "b", text: "$81$" },
-              { id: "c", text: "$11$" },
+              { id: "c", text: "$9$" },
               { id: "d", text: "$\\sqrt{14}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -186,12 +186,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$36\\pi$" },
-              { id: "b", text: "$27\\pi$" },
+              { id: "a", text: "$108\\pi$" },
+              { id: "b", text: "$36\\pi$" },
               { id: "c", text: "$12\\pi$" },
-              { id: "d", text: "$108\\pi$" },
+              { id: "d", text: "$27\\pi$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -234,12 +234,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$503$" },
-              { id: "b", text: "$251$" },
+              { id: "a", text: "$251$" },
+              { id: "b", text: "$503$" },
               { id: "c", text: "$1005$" },
               { id: "d", text: "$314$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -303,12 +303,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$7$" },
-              { id: "b", text: "$11$" },
-              { id: "c", text: "$5$" },
-              { id: "d", text: "$\\sqrt{14}$" },
+              { id: "a", text: "$5$" },
+              { id: "b", text: "$\\sqrt{14}$" },
+              { id: "c", text: "$11$" },
+              { id: "d", text: "$7$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -331,12 +331,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$452$" },
+              { id: "a", text: "$226$" },
               { id: "b", text: "$905$" },
-              { id: "c", text: "$226$" },
-              { id: "d", text: "$113$" },
+              { id: "c", text: "$113$" },
+              { id: "d", text: "$452$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -394,9 +394,9 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$192$" },
-              { id: "b", text: "$576$" },
+              { id: "b", text: "$288$" },
               { id: "c", text: "$64$" },
-              { id: "d", text: "$288$" },
+              { id: "d", text: "$576$" },
             ],
             correctChoiceId: "a",
           },
@@ -504,12 +504,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$10$ cm" },
-              { id: "b", text: "$14$ cm" },
+              { id: "a", text: "$14$ cm" },
+              { id: "b", text: "$10$ cm" },
               { id: "c", text: "$7$ cm" },
               { id: "d", text: "$\\sqrt{28}$ cm" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -607,12 +607,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$38.7^\\circ$" },
-              { id: "b", text: "$51.3^\\circ$" },
-              { id: "c", text: "$53.1^\\circ$" },
-              { id: "d", text: "$36.9^\\circ$" },
+              { id: "a", text: "$36.9^\\circ$" },
+              { id: "b", text: "$38.7^\\circ$" },
+              { id: "c", text: "$51.3^\\circ$" },
+              { id: "d", text: "$53.1^\\circ$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -635,12 +635,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$35.3^\\circ$" },
-              { id: "b", text: "$54.7^\\circ$" },
-              { id: "c", text: "$45.0^\\circ$" },
-              { id: "d", text: "$60.0^\\circ$" },
+              { id: "a", text: "$60.0^\\circ$" },
+              { id: "b", text: "$35.3^\\circ$" },
+              { id: "c", text: "$54.7^\\circ$" },
+              { id: "d", text: "$45.0^\\circ$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -706,9 +706,9 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$25.6^\\circ$" },
-              { id: "b", text: "$64.4^\\circ$" },
-              { id: "c", text: "$31.0^\\circ$" },
-              { id: "d", text: "$22.6^\\circ$" },
+              { id: "b", text: "$22.6^\\circ$" },
+              { id: "c", text: "$64.4^\\circ$" },
+              { id: "d", text: "$31.0^\\circ$" },
             ],
             correctChoiceId: "a",
           },
@@ -733,12 +733,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "its projection on the plane" },
-              { id: "b", text: "the normal to the plane" },
+              { id: "a", text: "the normal to the plane" },
+              { id: "b", text: "its projection on the plane" },
               { id: "c", text: "the perpendicular from a point on the line to the plane" },
               { id: "d", text: "$90^\\circ$ minus the angle between the line and the normal" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -783,12 +783,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$45.0^\\circ$" },
-              { id: "b", text: "$35.3^\\circ$" },
-              { id: "c", text: "$54.7^\\circ$" },
-              { id: "d", text: "$30.0^\\circ$" },
+              { id: "a", text: "$35.3^\\circ$" },
+              { id: "b", text: "$30.0^\\circ$" },
+              { id: "c", text: "$45.0^\\circ$" },
+              { id: "d", text: "$54.7^\\circ$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -864,12 +864,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\sin\\theta = \\frac{5}{13}$" },
-              { id: "b", text: "$\\cos\\theta = \\frac{5}{13}$" },
+              { id: "a", text: "$\\cos\\theta = \\frac{5}{13}$" },
+              { id: "b", text: "$\\sin\\theta = \\frac{5}{13}$" },
               { id: "c", text: "$\\tan\\theta = \\frac{5}{13}$" },
               { id: "d", text: "$\\sin\\theta = \\frac{12}{13}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [

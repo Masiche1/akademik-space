@@ -57,12 +57,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "She walks to school every day." },
-              { id: "b", text: "She walked to school yesterday." },
-              { id: "c", text: "She will walk to school tomorrow." },
-              { id: "d", text: "She is walking to school now." },
+              { id: "a", text: "She will walk to school tomorrow." },
+              { id: "b", text: "She walks to school every day." },
+              { id: "c", text: "She is walking to school now." },
+              { id: "d", text: "She walked to school yesterday." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -176,8 +176,8 @@ export const lesson22: Lesson = {
             choices: [
               { id: "a", text: "Because it is easier to spell" },
               { id: "b", text: "Because stories retell events that already happened" },
-              { id: "c", text: "Because present tense is wrong" },
-              { id: "d", text: "Because past tense is shorter" },
+              { id: "c", text: "Because past tense is shorter" },
+              { id: "d", text: "Because present tense is wrong" },
             ],
             correctChoiceId: "b",
           },

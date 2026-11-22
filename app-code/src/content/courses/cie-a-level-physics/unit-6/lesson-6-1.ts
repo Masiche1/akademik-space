@@ -53,12 +53,12 @@ export const lesson611: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Helium nucleus ($^4_2\\alpha$)" },
-              { id: "b", text: "Electron ($^0_{-1}\\beta$)" },
-              { id: "c", text: "Photon ($^0_0\\gamma$)" },
+              { id: "a", text: "Photon ($^0_0\\gamma$)" },
+              { id: "b", text: "Helium nucleus ($^4_2\\alpha$)" },
+              { id: "c", text: "Electron ($^0_{-1}\\beta$)" },
               { id: "d", text: "Neutron" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Alpha", statement: "Helium nucleus emission." }],
@@ -126,6 +126,246 @@ export const lesson611: Lesson = {
             finalAnswer: "(a) He nucleus (b) electron (c) photon (d) gamma",
           },
         },
+        {
+          id: "cial-p-u6-dc-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Which equation correctly represents beta-minus decay?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$^{A}_{Z}X \\to ^{A}_{Z+1}Y + ^0_{-1}\\beta$" },
+              { id: "b", text: "$^{A}_{Z}X \\to ^{A-4}_{Z-2}Y + ^4_2\\alpha$" },
+              { id: "c", text: "$^{A}_{Z}X \\to ^{A-1}_{Z-1}Y + ^1_0n$" },
+              { id: "d", text: "$^{A}_{Z}X \\to ^{A}_{Z}Y + ^0_0\\gamma$" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [{ kind: "law", name: "Beta decay", statement: "$^{A}_{Z}X \\to ^{A}_{Z+1}Y + ^0_{-1}\\beta$ (+ antineutrino)." }],
+            steps: [{ reasoning: "Beta-minus: A unchanged, Z increases by 1.", marks: 1, markCode: "A" }],
+            finalAnswer: "**(b)** $^{A}_{Z}X \\to ^{A}_{Z+1}Y + ^0_{-1}\\beta$",
+          },
+        },
+        {
+          id: "cial-p-u6-dc-q6",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "An alpha particle is emitted with an energy of $5.5\\ MeV$. Convert this energy into joules. ($1\\ eV = 1.60 \\times 10^{-19}\\ J$)",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 8.8e-13, tolerance: 0.05e-13, unit: "J" }],
+          },
+          markscheme: {
+            principles: [{ kind: "law", name: "Energy conversion", statement: "$1\\ eV = 1.60\\times10^{-19}\\ J$." }],
+            steps: [
+              { reasoning: "$E = 5.5\\times10^{6} \\times 1.60\\times10^{-19}$.", marks: 1, markCode: "M" },
+              { reasoning: "$E = 8.8\\times10^{-13}\\ J$.", marks: 1, markCode: "M" },
+              { reasoning: "$E \\approx 8.8 \\times 10^{-13}\\ J$.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$E = 8.8 \\times 10^{-13}\\ J$",
+          },
+        },
+        {
+          id: "cial-p-u6-dc-q7",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Which type of radiation is stopped by a sheet of paper?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "alpha" },
+              { id: "b", text: "gamma" },
+              { id: "c", text: "beta" },
+              { id: "d", text: "all three equally" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [{ kind: "property", name: "Penetration", statement: "Alpha: stopped by paper/skin; beta: thin aluminium; gamma: lead/concrete." }],
+            steps: [{ reasoning: "Alpha is the least penetrating — stopped by paper.", marks: 1, markCode: "A" }],
+            finalAnswer: "**(a)** alpha",
+          },
+        },
+        {
+          id: "cial-p-u6-dc-q8",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "Polonium-210 ($^{210}_{84}Po$) undergoes alpha decay. Calculate (a) the mass number and (b) the atomic number of the daughter nucleus.",
+          response: {
+            type: "numeric",
+            parts: [
+              { label: "a", answer: 206, tolerance: 0.5, unit: "" },
+              { label: "b", answer: 82, tolerance: 0.5, unit: "" },
+            ],
+          },
+          markscheme: {
+            principles: [{ kind: "law", name: "Alpha decay", statement: "Alpha decay: $A \\to A-4$, $Z \\to Z-2$." }],
+            steps: [
+              { reasoning: "Mass number: $210 - 4 = 206$.", marks: 1, markCode: "M" },
+              { reasoning: "Atomic number: $84 - 2 = 82$ (lead).", marks: 1, markCode: "M" },
+              { reasoning: "Daughter is $^{206}_{82}Pb$.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$A = 206$, $Z = 82$ ($^{206}_{82}Pb$)",
+          },
+        },
+        {
+          id: "cial-p-u6-dc-q9",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "Explain why gamma rays are often emitted immediately after an alpha or beta decay.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [{ kind: "principle", name: "Gamma emission", statement: "Daughter nucleus may be left in an excited state; it de-excites by emitting a gamma photon." }],
+            steps: [
+              { reasoning: "Alpha/beta decay changes the nucleus, often leaving it in an excited state.", marks: 1, markCode: "M" },
+              { reasoning: "The excited nucleus is unstable and must lose energy.", marks: 1, markCode: "M" },
+              { reasoning: "It drops to a lower energy level by emitting a high-energy photon — gamma ray.", marks: 1, markCode: "M" },
+              { reasoning: "Gamma emission involves no change in mass number or atomic number.", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "Daughter nucleus de-excites by gamma emission",
+          },
+        },
+        {
+          id: "cial-p-u6-dc-q10",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "In any radioactive decay, which quantities are always conserved?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "kinetic energy only" },
+              { id: "b", text: "binding energy only" },
+              { id: "c", text: "mass number and atomic number" },
+              { id: "d", text: "number of neutrons only" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [{ kind: "law", name: "Conservation", statement: "Total mass number A and atomic number Z are conserved in nuclear equations." }],
+            steps: [{ reasoning: "A and Z balance on both sides of every decay equation.", marks: 1, markCode: "A" }],
+            finalAnswer: "**(a)** mass number and atomic number",
+          },
+        },
+        {
+          id: "cial-p-u6-dc-q11",
+          difficulty: "challenge",
+          totalMarks: 3,
+          stem: "A gamma photon has an energy of $1.2\\ MeV$. Calculate its energy in joules. ($1\\ eV = 1.60 \\times 10^{-19}\\ J$)",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 1.92e-13, tolerance: 0.05e-13, unit: "J" }],
+          },
+          markscheme: {
+            principles: [{ kind: "law", name: "Energy conversion", statement: "$E(J) = E(eV) \\times 1.60\\times10^{-19}$." }],
+            steps: [
+              { reasoning: "$E = 1.2\\times10^{6} \\times 1.60\\times10^{-19}$.", marks: 1, markCode: "M" },
+              { reasoning: "$E = 1.92\\times10^{-13}\\ J$.", marks: 1, markCode: "M" },
+              { reasoning: "$E \\approx 1.9 \\times 10^{-13}\\ J$.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$E = 1.92 \\times 10^{-13}\\ J$",
+          },
+        },
+        {
+          id: "cial-p-u6-dc-q12",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "In beta-minus decay, a neutron inside the nucleus changes into",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "a pion and a neutrino only" },
+              { id: "b", text: "a proton, an electron and an antineutrino" },
+              { id: "c", text: "two protons" },
+              { id: "d", text: "a proton and an alpha particle" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [{ kind: "law", name: "Beta decay", statement: "$n \\to p + e^- + \\bar{\\nu}_e$." }],
+            steps: [{ reasoning: "Neutron → proton + electron (β⁻) + antineutrino.", marks: 1, markCode: "A" }],
+            finalAnswer: "**(a)** proton + electron + antineutrino",
+          },
+        },
+        {
+          id: "cial-p-u6-dc-q13",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "A radioactive sample has a decay constant $\\lambda = 0.010\\ s^{-1}$ and contains $5.0 \\times 10^{6}$ undecayed nuclei. Calculate its activity.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 50000, tolerance: 100, unit: "Bq" }],
+          },
+          markscheme: {
+            principles: [{ kind: "law", name: "Activity", statement: "$A = \\lambda N$; $1\\ Bq = 1$ decay per second." }],
+            steps: [
+              { reasoning: "$A = \\lambda N = 0.010 \\times 5.0\\times10^{6}$.", marks: 1, markCode: "M" },
+              { reasoning: "$A = 5.0\\times10^{4}\\ s^{-1}$.", marks: 1, markCode: "M" },
+              { reasoning: "$A = 50\\,000\\ Bq$.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$A = 5.0 \\times 10^{4}\\ Bq$",
+          },
+        },
+        {
+          id: "cial-p-u6-dc-q14",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "Write a balanced nuclear equation for the alpha decay of uranium-238, $^{238}_{92}U$.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [{ kind: "law", name: "Alpha decay", statement: "$^{A}_{Z}X \\to ^{A-4}_{Z-2}Y + ^4_2\\alpha$." }],
+            steps: [
+              { reasoning: "Mass number: $238 - 4 = 234$.", marks: 1, markCode: "M" },
+              { reasoning: "Atomic number: $92 - 2 = 90$ (thorium).", marks: 1, markCode: "M" },
+              { reasoning: "Equation: $^{238}_{92}U \\to ^{234}_{90}Th + ^4_2\\alpha$.", marks: 1, markCode: "M" },
+              { reasoning: "Check: $A$ and $Z$ balance on both sides.", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "$^{238}_{92}U \\to ^{234}_{90}Th + ^4_2\\alpha$",
+          },
+        },
+        {
+          id: "cial-p-u6-dc-q15",
+          difficulty: "challenge",
+          totalMarks: 1,
+          stem: "Which type of radiation is the most strongly ionising?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "all equal" },
+              { id: "b", text: "alpha" },
+              { id: "c", text: "gamma" },
+              { id: "d", text: "beta" },
+            ],
+            borrectChoiceId: "c",
+          },
+          markscheme: {
+            principles: [{ kind: "property", name: "Ionisation", statement: "Alpha: most ionising, least penetrating; gamma: least ionising, most penetrating." }],
+            steps: [{ reasoning: "Alpha's large mass and charge make it strongly ionising.", marks: 1, markCode: "A" }],
+            finalAnswer: "**(c)** alpha",
+          },
+        },
+        {
+          id: "cial-p-u6-dc-q16",
+          difficulty: "challenge",
+          totalMarks: 3,
+          stem: "Strontium-90 ($^{90}_{38}Sr$) undergoes beta-minus decay. Calculate (a) the mass number and (b) the atomic number of the daughter nucleus.",
+          response: {
+            type: "numeric",
+            parts: [
+              { label: "a", answer: 90, tolerance: 0.5, unit: "" },
+              { label: "b", answer: 39, tolerance: 0.5, unit: "" },
+            ],
+          },
+          markscheme: {
+            principles: [{ kind: "law", name: "Beta decay", statement: "Beta-minus: $A$ unchanged, $Z \\to Z+1$." }],
+            steps: [
+              { reasoning: "Mass number stays $90$.", marks: 1, markCode: "M" },
+              { reasoning: "Atomic number: $38 + 1 = 39$ (yttrium).", marks: 1, markCode: "M" },
+              { reasoning: "Daughter is $^{90}_{39}Y$.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$A = 90$, $Z = 39$ ($^{90}_{39}Y$)",
+          },
+        },
       ],
     },
     {
@@ -166,12 +406,12 @@ export const lesson611: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Time for half the nuclei to decay" },
-              { id: "b", text: "Time for all nuclei to decay" },
-              { id: "c", text: "Maximum decay rate" },
-              { id: "d", text: "Time for activity to double" },
+              { id: "a", text: "Maximum decay rate" },
+              { id: "b", text: "Time for half the nuclei to decay" },
+              { id: "c", text: "Time for activity to double" },
+              { id: "d", text: "Time for all nuclei to decay" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Half-life", statement: "Time for half to decay." }],
@@ -236,6 +476,243 @@ export const lesson611: Lesson = {
               { part: "d", reasoning: "Any: radiometric dating, medical tracer, radiotherapy, smoke detector.", marks: 2, markCode: "A" },
             ],
             finalAnswer: "(a) half decay (b) 128 g (c) A=λN, Bq (d) dating/medical",
+          },
+        },
+        {
+          id: "cial-p-u6-hl-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "After two half-lives, the fraction of the original undecayed nuclei remaining is",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$1/2$" },
+              { id: "b", text: "$1/8$" },
+              { id: "c", text: "$1/4$" },
+              { id: "d", text: "zero" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [{ kind: "law", name: "Half-life", statement: "$N = N_0 (1/2)^{t/T_{1/2}}$." }],
+            steps: [{ reasoning: "$(1/2)^2 = 1/4$ remains after 2 half-lives.", marks: 1, markCode: "A" }],
+            finalAnswer: "**(b)** $1/4$",
+          },
+        },
+        {
+          id: "cial-p-u6-hl-q6",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "A radioactive isotope has a half-life of $5.0$ years. A sample initially contains some nuclei and $3.0\\ g$ remains after $20$ years. Calculate the initial mass.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 48, tolerance: 0.5, unit: "g" }],
+          },
+          markscheme: {
+            principles: [{ kind: "law", name: "Half-life", statement: "$N = N_0(1/2)^n$ where $n = t/T_{1/2}$." }],
+            steps: [
+              { reasoning: "Number of half-lives: $20/5 = 4$.", marks: 1, markCode: "M" },
+              { reasoning: "$3.0 = N_0 \\times (1/2)^4 = N_0/16$.", marks: 1, markCode: "M" },
+              { reasoning: "$N_0 = 48\\ g$.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$N_0 = 48\\ g$",
+          },
+        },
+        {
+          id: "cial-p-u6-hl-q7",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "The decay constant $\\lambda$ of a radioactive isotope is related to its half-life by",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$\\lambda = 1/T_{1/2}$" },
+              { id: "b", text: "$\\lambda = \\ln 2 / T_{1/2}$" },
+              { id: "c", text: "$\\lambda = \\ln 2 \\times T_{1/2}$" },
+              { id: "d", text: "$\\lambda = T_{1/2}/\\ln 2$" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [{ kind: "law", name: "Decay constant", statement: "$\\lambda = \\ln 2 / T_{1/2}$." }],
+            steps: [{ reasoning: "$\\lambda = \\ln 2/T_{1/2}$.", marks: 1, markCode: "A" }],
+            finalAnswer: "**(b)** $\\lambda = \\ln 2 / T_{1/2}$",
+          },
+        },
+        {
+          id: "cial-p-u6-hl-q8",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "A sample has an initial activity of $800\\ Bq$ and a half-life of $10\\ min$. Calculate its activity after $30\\ min$.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 100, tolerance: 1, unit: "Bq" }],
+          },
+          markscheme: {
+            principles: [{ kind: "law", name: "Activity decay", statement: "Activity follows the same exponential decay as $N$: $A = A_0(1/2)^n$." }],
+            steps: [
+              { reasoning: "Half-lives elapsed: $30/10 = 3$.", marks: 1, markCode: "M" },
+              { reasoning: "$A = 800 \\times (1/2)^3 = 800/8$.", marks: 1, markCode: "M" },
+              { reasoning: "$A = 100\\ Bq$.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$A = 100\\ Bq$",
+          },
+        },
+        {
+          id: "cial-p-u6-hl-q9",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "Explain why the activity of a radioactive sample is proportional to the number of undecayed nuclei it contains.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [{ kind: "principle", name: "Activity", statement: "$A = \\lambda N$ — each nucleus has the same decay probability per unit time." }],
+            steps: [
+              { reasoning: "Each undecayed nucleus has a fixed probability $\\lambda$ of decaying per unit time.", marks: 1, markCode: "M" },
+              { reasoning: "With $N$ nuclei, expected decays per second $= \\lambda N$.", marks: 1, markCode: "M" },
+              { reasoning: "Hence activity $A = \\lambda N$ — proportional to $N$.", marks: 1, markCode: "M" },
+              { reasoning: "As nuclei decay, $N$ falls → activity falls exponentially.", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "$A = \\lambda N$ — proportional to undecayed nuclei",
+          },
+        },
+        {
+          id: "cial-p-u6-hl-q10",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "If the temperature of a radioactive sample is increased, its half-life will",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "increase" },
+              { id: "b", text: "decrease" },
+              { id: "c", text: "become zero" },
+              { id: "d", text: "remain unchanged" },
+            ],
+            dorrectChoiceId: "c",
+          },
+          markscheme: {
+            principles: [{ kind: "principle", name: "Half-life constancy", statement: "Half-life is a nuclear property — independent of temperature, pressure and amount." }],
+            steps: [{ reasoning: "Decay is a spontaneous nuclear process; temperature does not affect it.", marks: 1, markCode: "A" }],
+            finalAnswer: "**(c)** remain unchanged",
+          },
+        },
+        {
+          id: "cial-p-u6-hl-q11",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "An isotope has a half-life of $8.0\\ s$. Calculate its decay constant $\\lambda$.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 0.0866, tolerance: 0.002, unit: "s^{-1}" }],
+          },
+          markscheme: {
+            principles: [{ kind: "law", name: "Decay constant", statement: "$\\lambda = \\ln 2 / T_{1/2} = 0.693/T_{1/2}$." }],
+            steps: [
+              { reasoning: "$\\lambda = 0.693/8.0$.", marks: 1, markCode: "M" },
+              { reasoning: "$\\lambda = 0.0866\\ s^{-1}$.", marks: 1, markCode: "M" },
+              { reasoning: "$\\lambda \\approx 0.087\\ s^{-1}$.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$\\lambda = 0.087\\ s^{-1}$",
+          },
+        },
+        {
+          id: "cial-p-u6-hl-q12",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Radiocarbon dating works because the ratio of $^{14}C$ to $^{12}C$ in a once-living sample",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "increases steadily with time" },
+              { id: "b", text: "doubles every year" },
+              { id: "c", text: "decreases steadily with time" },
+              { id: "d", text: "remains constant forever" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [{ kind: "application", name: "Carbon dating", statement: "$^{14}C$ decays (T½ ≈ 5730 y) after death; ratio falls exponentially." }],
+            steps: [{ reasoning: "No new $^{14}C$ is absorbed after death → ratio decreases.", marks: 1, markCode: "A" }],
+            finalAnswer: "**(b)** decreases steadily with time",
+          },
+        },
+        {
+          id: "cial-p-u6-hl-q13",
+          difficulty: "challenge",
+          totalMarks: 3,
+          stem: "A radioactive sample has a half-life of $3.0$ years. Calculate (a) the mass remaining from an initial $8.0\\ g$ after $9.0$ years and (b) the fraction of the sample that has decayed.",
+          response: {
+            type: "numeric",
+            parts: [
+              { label: "a", answer: 1, tolerance: 0.05, unit: "g" },
+              { label: "b", answer: 0.875, tolerance: 0.01, unit: "" },
+            ],
+          },
+          markscheme: {
+            principles: [{ kind: "law", name: "Half-life", statement: "$N = N_0(1/2)^{t/T_{1/2}}$; decayed fraction $= 1 - (1/2)^n$." }],
+            steps: [
+              { reasoning: "Half-lives: $9/3 = 3$; remaining $= 8 \\times (1/2)^3 = 1.0\\ g$.", marks: 1, markCode: "M" },
+              { reasoning: "Fraction remaining $= 1/8 = 0.125$; decayed $= 1 - 0.125 = 0.875$.", marks: 1, markCode: "M" },
+              { reasoning: "$1.0\\ g$ remains; $87.5\\%$ decayed.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$1.0\\ g$ remains; $87.5\\%$ decayed",
+          },
+        },
+        {
+          id: "cial-p-u6-hl-q14",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "Explain how the half-life of carbon-14 is used to estimate the age of archaeological remains.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [{ kind: "application", name: "Carbon dating", statement: "Living organisms maintain a constant $^{14}C$ ratio; after death it decays with T½ ≈ 5730 y." }],
+            steps: [
+              { reasoning: "While alive, the organism exchanges carbon with the atmosphere, keeping a constant $^{14}C/^{12}C$ ratio.", marks: 1, markCode: "M" },
+              { reasoning: "After death no new $^{14}C$ is taken in, so the ratio falls as $^{14}C$ decays.", marks: 1, markCode: "M" },
+              { reasoning: "Measuring the current ratio and comparing with the living ratio gives the number of half-lives elapsed.", marks: 1, markCode: "M" },
+              { reasoning: "Age $= n \\times T_{1/2}$ — reliable up to ~50 000 years.", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "Decay of ¹⁴C/¹²C ratio after death dates the sample",
+          },
+        },
+        {
+          id: "cial-p-u6-hl-q15",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "One becquerel (Bq) is equivalent to",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "one decay per minute" },
+              { id: "b", text: "one nucleus remaining" },
+              { id: "c", text: "one decay per second" },
+              { id: "d", text: "one joule of energy released" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [{ kind: "definition", name: "Becquerel", statement: "$1\\ Bq = 1$ nuclear decay per second." }],
+            steps: [{ reasoning: "Becquerel = decays per second.", marks: 1, markCode: "A" }],
+            finalAnswer: "**(b)** one decay per second",
+          },
+        },
+        {
+          id: "cial-p-u6-hl-q16",
+          difficulty: "challenge",
+          totalMarks: 3,
+          stem: "The number of undecayed nuclei in a sample falls from $1.0 \\times 10^{8}$ to $1.25 \\times 10^{7}$ in $30\\ s$. Calculate the half-life of the isotope.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 10, tolerance: 0.5, unit: "s" }],
+          },
+          markscheme: {
+            principles: [{ kind: "law", name: "Half-life", statement: "Each half-life halves N; count the halvings." }],
+            steps: [
+              { reasoning: "$1.0\\times10^{8} \\to 5.0\\times10^{7} \\to 2.5\\times10^{7} \\to 1.25\\times10^{7}$: three halvings.", marks: 1, markCode: "M" },
+              { reasoning: "$3$ half-lives $= 30\\ s$.", marks: 1, markCode: "M" },
+              { reasoning: "$T_{1/2} = 10\\ s$.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$T_{1/2} = 10\\ s$",
           },
         },
       ],

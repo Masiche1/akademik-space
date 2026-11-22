@@ -75,12 +75,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "He has no personal reason to hate Caesar" },
+              { id: "a", text: "He wants to kick Caesar" },
               { id: "b", text: "He hates Caesar for personal reasons" },
-              { id: "c", text: "He wants to kick Caesar" },
+              { id: "c", text: "He has no personal reason to hate Caesar" },
               { id: "d", text: "He does not know Caesar" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Spurn", statement: "To reject with contempt or to kick at." }],
@@ -204,12 +204,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A clear thesis that answers the question" },
+              { id: "a", text: "A biography of Shakespeare" },
               { id: "b", text: "A long summary of the plot" },
-              { id: "c", text: "A list of every character" },
-              { id: "d", text: "A biography of Shakespeare" },
+              { id: "c", text: "A clear thesis that answers the question" },
+              { id: "d", text: "A list of every character" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "skill", name: "Thesis", statement: "A direct answer to the question sets the essay's argument." }],

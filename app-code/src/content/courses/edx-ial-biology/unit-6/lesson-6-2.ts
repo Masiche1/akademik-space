@@ -84,22 +84,22 @@ export const lesson62: Lesson = {
             "choices": [
               {
                 "id": "a",
-                "text": "1 m"
+                "text": "1 mm"
               },
               {
                 "id": "b",
-                "text": "1 cm"
+                "text": "1 m"
               },
               {
                 "id": "c",
-                "text": "1 mm"
+                "text": "1 cm"
               },
               {
                 "id": "d",
                 "text": "0.1 mm"
               }
             ],
-            "correctChoiceId": "c"
+            "aorrectChoiceId": "c"
           },
           "markscheme": {
             "principles": [
@@ -357,7 +357,7 @@ export const lesson62: Lesson = {
             "choices": [
               {
                 "id": "a",
-                "text": "change several variables at once"
+                "text": "record only one reading"
               },
               {
                 "id": "b",
@@ -365,11 +365,11 @@ export const lesson62: Lesson = {
               },
               {
                 "id": "c",
-                "text": "use an uncalibrated balance"
+                "text": "change several variables at once"
               },
               {
                 "id": "d",
-                "text": "record only one reading"
+                "text": "use an uncalibrated balance"
               }
             ],
             "correctChoiceId": "b"

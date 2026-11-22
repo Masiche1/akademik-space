@@ -58,12 +58,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Add 4" },
-              { id: "b", text: "Add 7" },
-              { id: "c", text: "Multiply by 4" },
-              { id: "d", text: "Add 3" },
+              { id: "a", text: "Add 7" },
+              { id: "b", text: "Add 4" },
+              { id: "c", text: "Add 3" },
+              { id: "d", text: "Multiply by 4" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -162,12 +162,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$52$" },
-              { id: "b", text: "$50$" },
-              { id: "c", text: "$7$" },
+              { id: "a", text: "$7$" },
+              { id: "b", text: "$52$" },
+              { id: "c", text: "$50$" },
               { id: "d", text: "$12$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -189,12 +189,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$3$" },
-              { id: "b", text: "$4$" },
-              { id: "c", text: "$11$" },
-              { id: "d", text: "$10$" },
+              { id: "a", text: "$11$" },
+              { id: "b", text: "$10$" },
+              { id: "c", text: "$3$" },
+              { id: "d", text: "$4$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -218,8 +218,8 @@ export const lesson23: Lesson = {
             choices: [
               { id: "a", text: "$3n-1$" },
               { id: "b", text: "$3n+2$" },
-              { id: "c", text: "$2n+3$" },
-              { id: "d", text: "$n+3$" },
+              { id: "c", text: "$n+3$" },
+              { id: "d", text: "$2n+3$" },
             ],
             correctChoiceId: "a",
           },
@@ -283,9 +283,9 @@ export const lesson23: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$4n+1$" },
-              { id: "b", text: "$5n+4$" },
-              { id: "c", text: "$n+4$" },
-              { id: "d", text: "$4n+5$" },
+              { id: "b", text: "$n+4$" },
+              { id: "c", text: "$4n+5$" },
+              { id: "d", text: "$5n+4$" },
             ],
             correctChoiceId: "a",
           },
@@ -330,9 +330,9 @@ export const lesson23: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$5, 7, 9, 11$" },
-              { id: "b", text: "$3, 5, 7, 9$" },
+              { id: "b", text: "$3, 6, 9, 12$" },
               { id: "c", text: "$2, 4, 6, 8$" },
-              { id: "d", text: "$3, 6, 9, 12$" },
+              { id: "d", text: "$3, 5, 7, 9$" },
             ],
             correctChoiceId: "a",
           },
@@ -498,9 +498,9 @@ export const lesson23: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$2:3$" },
-              { id: "b", text: "$3:2$" },
-              { id: "c", text: "$6:9$" },
-              { id: "d", text: "$1:6$" },
+              { id: "b", text: "$1:6$" },
+              { id: "c", text: "$3:2$" },
+              { id: "d", text: "$6:9$" },
             ],
             correctChoiceId: "a",
           },
@@ -610,12 +610,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$2:3$" },
-              { id: "b", text: "$3:2$" },
+              { id: "a", text: "$3:2$" },
+              { id: "b", text: "$2:3$" },
               { id: "c", text: "$10:15$" },
               { id: "d", text: "$1:10$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -638,11 +638,11 @@ export const lesson23: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$6$" },
-              { id: "b", text: "$9$" },
-              { id: "c", text: "$12$" },
-              { id: "d", text: "$3$" },
+              { id: "b", text: "$3$" },
+              { id: "c", text: "$9$" },
+              { id: "d", text: "$12$" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -664,12 +664,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$2$ litres" },
-              { id: "b", text: "$4$ litres" },
-              { id: "c", text: "$6$ litres" },
-              { id: "d", text: "$8$ litres" },
+              { id: "a", text: "$4$ litres" },
+              { id: "b", text: "$8$ litres" },
+              { id: "c", text: "$2$ litres" },
+              { id: "d", text: "$6$ litres" },
             ],
-            correctChoiceId: "d",
+            correctChoiceIb: "d",
           },
           markscheme: {
             principles: [
@@ -729,12 +729,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$2:3$" },
-              { id: "b", text: "$3:2$" },
+              { id: "a", text: "$6:18$" },
+              { id: "b", text: "$2:3$" },
               { id: "c", text: "$1:2$" },
-              { id: "d", text: "$6:18$" },
+              { id: "d", text: "$3:2$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -776,12 +776,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$12$ km" },
-              { id: "b", text: "$35$ km" },
+              { id: "a", text: "$35$ km" },
+              { id: "b", text: "$12$ km" },
               { id: "c", text: "$1.4$ km" },
               { id: "d", text: "$70$ km" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

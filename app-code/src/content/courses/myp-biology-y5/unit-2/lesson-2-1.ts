@@ -57,12 +57,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Motor neurone" },
-              { id: "b", text: "Relay neurone" },
-              { id: "c", text: "Sensory neurone" },
-              { id: "d", text: "Effector cell" },
+              { id: "a", text: "Sensory neurone" },
+              { id: "b", text: "Motor neurone" },
+              { id: "c", text: "Effector cell" },
+              { id: "d", text: "Relay neurone" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -84,12 +84,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It flows through gap junctions as an electrical current" },
-              { id: "b", text: "It diffuses across the gap and binds receptors on the next neurone" },
-              { id: "c", text: "It is carried by red blood cells" },
-              { id: "d", text: "It enters the nucleus of the next neurone" },
+              { id: "a", text: "It enters the nucleus of the next neurone" },
+              { id: "b", text: "It is carried by red blood cells" },
+              { id: "c", text: "It diffuses across the gap and binds receptors on the next neurone" },
+              { id: "d", text: "It flows through gap junctions as an electrical current" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -112,8 +112,8 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Caffeine destroys synapses" },
-              { id: "b", text: "Caffeine blocks neurotransmitter receptors, slowing impulses" },
+              { id: "a", text: "Caffeine blocks neurotransmitter receptors, slowing impulses" },
+              { id: "b", text: "Caffeine destroys synapses" },
               { id: "c", text: "Caffeine increases neurotransmitter release/speed of nerve transmission" },
               { id: "d", text: "Caffeine reduces the number of neurons" },
             ],
@@ -205,7 +205,7 @@ export const lesson21: Lesson = {
           difficulty: "core",
           totalMarks: 1,
           stem: "Which chemical carries the impulse across a synapse?",
-          response: { type: "mcq", choices: [{ id: "a", text: "Myelin" }, { id: "b", text: "Neurotransmitter" }, { id: "c", text: "Oestrogen" }, { id: "d", text: "Urea" }], correctChoiceId: "b" },
+          response: { type: "mcq", choices: [ { id: "a", text: "Myelin" }, { id: "b", text: "Oestrogen" }, { id: "c", text: "Neurotransmitter" }, { id: "d", text: "Urea" } ], correctChoiceId: "c" },
           markscheme: { principles: [{ kind: "definition", name: "Neurotransmitter", statement: "Neurotransmitters diffuse across the synaptic cleft to bind receptors." }], steps: [{ reasoning: "Myelin insulates axons but does not cross the synapse.", working: "neurotransmitter", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Neurotransmitter" },
         },
         {
@@ -233,7 +233,7 @@ export const lesson21: Lesson = {
           difficulty: "challenge",
           totalMarks: 1,
           stem: "Which sequence correctly orders the reflex arc?",
-          response: { type: "mcq", choices: [{ id: "a", text: "Effector → motor → relay → sensory → receptor" }, { id: "b", text: "Receptor → sensory → relay → motor → effector" }, { id: "c", text: "Motor → receptor → sensory → effector" }, { id: "d", text: "Sensory → receptor → motor → relay" }], correctChoiceId: "b" },
+          response: { type: "mcq", choices: [ { id: "a", text: "Motor → receptor → sensory → effector" }, { id: "b", text: "Effector → motor → relay → sensory → receptor" }, { id: "c", text: "Receptor → sensory → relay → motor → effector" }, { id: "d", text: "Sensory → receptor → motor → relay" } ], correctChoiceId: "c" },
           markscheme: { principles: [{ kind: "definition", name: "Reflex pathway", statement: "Impulses travel from receptor through sensory and relay neurones to a motor neurone and effector." }], steps: [{ reasoning: "The signal always begins at the receptor and ends at the effector.", working: "receptor\\to effector", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Receptor → sensory → relay → motor → effector" },
         },
         {
@@ -249,7 +249,7 @@ export const lesson21: Lesson = {
           difficulty: "foundation",
           totalMarks: 1,
           stem: "What is the role of myelin?",
-          response: { type: "mcq", choices: [{ id: "a", text: "It produces neurotransmitters" }, { id: "b", text: "It insulates the axon and speeds impulse transmission" }, { id: "c", text: "It stores glucose" }, { id: "d", text: "It forms the synaptic cleft" }], correctChoiceId: "b" },
+          response: { type: "mcq", choices: [ { id: "a", text: "It produces neurotransmitters" }, { id: "b", text: "It insulates the axon and speeds impulse transmission" }, { id: "c", text: "It forms the synaptic cleft" }, { id: "d", text: "It stores glucose" } ], correctChoiceId: "b" },
           markscheme: { principles: [{ kind: "definition", name: "Myelin", statement: "Myelin insulates axons and allows saltatory conduction." }], steps: [{ reasoning: "Myelinated axons transmit impulses faster than unmyelinated axons.", working: "myelin\\text{ speeds}", marks: 1, markCode: "B" }], finalAnswer: "**(b)** It insulates the axon and speeds impulse transmission" },
         },
         {
@@ -257,7 +257,7 @@ export const lesson21: Lesson = {
           difficulty: "core",
           totalMarks: 1,
           stem: "Which brain region coordinates balance and movement?",
-          response: { type: "mcq", choices: [{ id: "a", text: "Cerebrum" }, { id: "b", text: "Cerebellum" }, { id: "c", text: "Medulla" }, { id: "d", text: "Hypothalamus" }], correctChoiceId: "b" },
+          response: { type: "mcq", choices: [ { id: "a", text: "Hypothalamus" }, { id: "b", text: "Cerebellum" }, { id: "c", text: "Medulla" }, { id: "d", text: "Cerebrum" } ], correctChoiceId: "b" },
           markscheme: { principles: [{ kind: "definition", name: "Cerebellum", statement: "The cerebellum coordinates movement, posture and balance." }], steps: [{ reasoning: "The cerebrum is for conscious thought and the medulla for involuntary control.", working: "cerebellum", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Cerebellum" },
         },
         {
@@ -265,7 +265,7 @@ export const lesson21: Lesson = {
           difficulty: "challenge",
           totalMarks: 1,
           stem: "Why must neurotransmitters be removed after crossing a synapse?",
-          response: { type: "mcq", choices: [{ id: "a", text: "To allow the synapse to reset for the next impulse" }, { id: "b", text: "To increase blood pressure" }, { id: "c", text: "To make the neurone longer" }, { id: "d", text: "To produce more DNA" }], correctChoiceId: "a" },
+          response: { type: "mcq", choices: [ { id: "a", text: "To increase blood pressure" }, { id: "b", text: "To allow the synapse to reset for the next impulse" }, { id: "c", text: "To make the neurone longer" }, { id: "d", text: "To produce more DNA" } ], correctChoiceId: "b" },
           markscheme: { principles: [{ kind: "principle", name: "Synapse reset", statement: "Neurotransmitter breakdown or reuptake prevents continuous stimulation." }], steps: [{ reasoning: "Removal stops the postsynaptic neurone from remaining depolarised.", working: "reset", marks: 1, markCode: "B" }], finalAnswer: "**(a)** To allow the synapse to reset for the next impulse" },
         },
       ],
@@ -308,12 +308,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Glucagon" },
-              { id: "b", text: "Adrenaline" },
-              { id: "c", text: "Insulin" },
-              { id: "d", text: "Thyroxine" },
+              { id: "a", text: "Insulin" },
+              { id: "b", text: "Thyroxine" },
+              { id: "c", text: "Glucagon" },
+              { id: "d", text: "Adrenaline" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -335,12 +335,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Hormones act faster but on fewer cells" },
-              { id: "b", text: "Hormones are slower, widespread and longer-lasting" },
-              { id: "c", text: "Hormones travel along nerves" },
-              { id: "d", text: "Hormones act only on the gland that made them" },
+              { id: "a", text: "Hormones travel along nerves" },
+              { id: "b", text: "Hormones act only on the gland that made them" },
+              { id: "c", text: "Hormones act faster but on fewer cells" },
+              { id: "d", text: "Hormones are slower, widespread and longer-lasting" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -363,12 +363,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Type 2 diabetes caused by insulin resistance" },
-              { id: "b", text: "Type 1 diabetes caused by failure of insulin-producing cells" },
-              { id: "c", text: "Hypoglycaemia" },
-              { id: "d", text: "Hyperthyroidism" },
+              { id: "a", text: "Hypoglycaemia" },
+              { id: "b", text: "Hyperthyroidism" },
+              { id: "c", text: "Type 2 diabetes caused by insulin resistance" },
+              { id: "d", text: "Type 1 diabetes caused by failure of insulin-producing cells" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -456,7 +456,7 @@ export const lesson21: Lesson = {
           difficulty: "core",
           totalMarks: 1,
           stem: "Which hormone is released when blood glucose falls too low?",
-          response: { type: "mcq", choices: [{ id: "a", text: "Insulin" }, { id: "b", text: "Glucagon" }, { id: "c", text: "Progesterone" }, { id: "d", text: "FSH" }], correctChoiceId: "b" },
+          response: { type: "mcq", choices: [ { id: "a", text: "Glucagon" }, { id: "b", text: "FSH" }, { id: "c", text: "Insulin" }, { id: "d", text: "Progesterone" } ], correctChoiceId: "a" },
           markscheme: { principles: [{ kind: "definition", name: "Glucagon", statement: "Glucagon stimulates glycogen breakdown to raise blood glucose." }], steps: [{ reasoning: "Glucagon opposes insulin when glucose is low.", working: "glucagon", marks: 1, markCode: "B" }], finalAnswer: "**(b)** Glucagon" },
         },
         {
@@ -484,7 +484,7 @@ export const lesson21: Lesson = {
           difficulty: "challenge",
           totalMarks: 1,
           stem: "What causes type 1 diabetes?",
-          response: { type: "mcq", choices: [{ id: "a", text: "Insufficient insulin production by the pancreas" }, { id: "b", text: "Too much glucagon only" }, { id: "c", text: "High blood pressure" }, { id: "d", text: "A lack of neurotransmitters" }], correctChoiceId: "a" },
+          response: { type: "mcq", choices: [ { id: "a", text: "A lack of neurotransmitters" }, { id: "b", text: "High blood pressure" }, { id: "c", text: "Too much glucagon only" }, { id: "d", text: "Insufficient insulin production by the pancreas" } ], correctChoiceId: "d" },
           markscheme: { principles: [{ kind: "definition", name: "Type 1 diabetes", statement: "Type 1 diabetes results from failure of insulin-producing pancreatic cells." }], steps: [{ reasoning: "Without insulin, glucose cannot be taken up effectively by cells.", working: "no\\text{ insulin}", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Insufficient insulin production by the pancreas" },
         },
         {
@@ -512,7 +512,7 @@ export const lesson21: Lesson = {
           difficulty: "core",
           totalMarks: 1,
           stem: "Why does a hormone affect only some cells in the body?",
-          response: { type: "mcq", choices: [{ id: "a", text: "Only cells with matching receptors respond" }, { id: "b", text: "Hormones cannot enter the blood" }, { id: "c", text: "All cells have identical receptors" }, { id: "d", text: "Hormones move by nerve impulses" }], correctChoiceId: "a" },
+          response: { type: "mcq", choices: [ { id: "a", text: "All cells have identical receptors" }, { id: "b", text: "Hormones cannot enter the blood" }, { id: "c", text: "Hormones move by nerve impulses" }, { id: "d", text: "Only cells with matching receptors respond" } ], correctChoiceId: "d" },
           markscheme: { principles: [{ kind: "definition", name: "Target cells", statement: "Hormones bind specific receptors, so only target cells respond." }], steps: [{ reasoning: "Receptor specificity makes hormone action selective despite blood transport.", working: "receptors", marks: 1, markCode: "B" }], finalAnswer: "**(a)** Only cells with matching receptors respond" },
         },
         {
@@ -520,7 +520,7 @@ export const lesson21: Lesson = {
           difficulty: "challenge",
           totalMarks: 1,
           stem: "Which statement best defines negative feedback?",
-          response: { type: "mcq", choices: [{ id: "a", text: "The response increases the original stimulus" }, { id: "b", text: "The response reduces the original stimulus to maintain a set point" }, { id: "c", text: "Hormones always act faster than nerves" }, { id: "d", text: "All body variables change randomly" }], correctChoiceId: "b" },
+          response: { type: "mcq", choices: [ { id: "a", text: "The response increases the original stimulus" }, { id: "b", text: "Hormones always act faster than nerves" }, { id: "c", text: "All body variables change randomly" }, { id: "d", text: "The response reduces the original stimulus to maintain a set point" } ], correctChoiceId: "d" },
           markscheme: { principles: [{ kind: "definition", name: "Negative feedback", statement: "A change triggers a response that opposes and reduces the change." }], steps: [{ reasoning: "Negative feedback stabilises variables such as blood glucose.", working: "opposes\\text{ stimulus}", marks: 1, markCode: "B" }], finalAnswer: "**(b)** The response reduces the original stimulus to maintain a set point" },
         },
       ],

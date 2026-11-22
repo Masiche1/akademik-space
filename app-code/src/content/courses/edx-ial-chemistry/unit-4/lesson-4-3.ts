@@ -49,12 +49,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Making polymers" },
-              { id: "b", text: "Planning backwards from target molecule" },
+              { id: "a", text: "Planning backwards from target molecule" },
+              { id: "b", text: "Measuring yield" },
               { id: "c", text: "Breaking down molecules" },
-              { id: "d", text: "Measuring yield" },
+              { id: "d", text: "Making polymers" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Retrosynthesis", statement: "Work backwards to plan route." }],
@@ -165,9 +165,9 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "100% yield" },
+              { id: "a", text: "Fastest reaction" },
               { id: "b", text: "All atoms in desired product, no waste" },
-              { id: "c", text: "Fastest reaction" },
+              { id: "c", text: "100% yield" },
               { id: "d", text: "Cheapest process" },
             ],
             correctChoiceId: "b",

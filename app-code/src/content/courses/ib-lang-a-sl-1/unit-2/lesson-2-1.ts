@@ -87,12 +87,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A conclusion" },
-              { id: "b", text: "Evidence from the text" },
-              { id: "c", text: "A new unrelated idea" },
-              { id: "d", text: "A summary of the whole text" },
+              { id: "a", text: "A summary of the whole text" },
+              { id: "b", text: "A conclusion" },
+              { id: "c", text: "Evidence from the text" },
+              { id: "d", text: "A new unrelated idea" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -327,15 +327,15 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A new piece of unrelated evidence" },
+              { id: "a", text: "A second topic sentence" },
+              { id: "b", text: "A long quotation" },
               {
-                id: "b",
+                id: "c",
                 text: "A statement of significance linking the point to the whole text",
               },
-              { id: "c", text: "A second topic sentence" },
-              { id: "d", text: "A long quotation" },
+              { id: "d", text: "A new piece of unrelated evidence" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -372,13 +372,13 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Copy the whole sentence from the text" },
+              { id: "a", text: "Place a long block quotation on its own line" },
               {
                 id: "b",
                 text: "Quote the shortest phrase containing the feature, inside your own sentence",
               },
               { id: "c", text: "Paraphrase the event without quoting" },
-              { id: "d", text: "Place a long block quotation on its own line" },
+              { id: "d", text: "Copy the whole sentence from the text" },
             ],
             correctChoiceId: "b",
           },
@@ -420,19 +420,19 @@ export const lesson21: Lesson = {
             choices: [
               {
                 id: "a",
+                text: "The poem has three stanzas and a rhyme scheme.",
+              },
+              { id: "b", text: "The ship was at sea during a bad storm." },
+              {
+                id: "c",
                 text: "The storm then hits the boat and the sailors struggle.",
               },
               {
-                id: "b",
+                id: "d",
                 text: "'The rigging screamed' gives the ropes a voice of terror, so the storm is heard rather than merely seen.",
               },
-              {
-                id: "c",
-                text: "The poem has three stanzas and a rhyme scheme.",
-              },
-              { id: "d", text: "The ship was at sea during a bad storm." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -470,18 +470,18 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              {
-                id: "a",
-                text: "To quote the most important line of the extract",
-              },
+              { id: "a", text: "To summarise the entire essay" },
               {
                 id: "b",
+                text: "To quote the most important line of the extract",
+              },
+              { id: "c", text: "To introduce a new unrelated topic" },
+              {
+                id: "d",
                 text: "To state the paragraph's controlling point or argument",
               },
-              { id: "c", text: "To summarise the entire essay" },
-              { id: "d", text: "To introduce a new unrelated topic" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -523,17 +523,17 @@ export const lesson21: Lesson = {
                 id: "a",
                 text: "The paragraph is strong because it is general",
               },
+              { id: "b", text: "The paragraph needs a longer quotation" },
               {
-                id: "b",
+                id: "c",
                 text: "The paragraph lacks significance — it is not yet analysis of this text",
               },
-              { id: "c", text: "The paragraph needs a longer quotation" },
               {
                 id: "d",
                 text: "The paragraph should be moved to the introduction",
               },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -570,9 +570,9 @@ export const lesson21: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Narrative retelling" },
-              { id: "b", text: "Evidence dumping" },
+              { id: "b", text: "Significance" },
               { id: "c", text: "Device-spotting" },
-              { id: "d", text: "Significance" },
+              { id: "d", text: "Evidence dumping" },
             ],
             correctChoiceId: "c",
           },
@@ -1096,15 +1096,15 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The longest quotation available" },
+              { id: "a", text: "The first sentence of the extract" },
+              { id: "b", text: "The longest quotation available" },
+              { id: "c", text: "Any detail that mentions the main character" },
               {
-                id: "b",
+                id: "d",
                 text: "A detail that is specific, patterned or unexpected",
               },
-              { id: "c", text: "The first sentence of the extract" },
-              { id: "d", text: "Any detail that mentions the main character" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1348,21 +1348,21 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "The longest sentence in the extract" },
               {
-                id: "a",
+                id: "b",
                 text: "A generic description that could appear anywhere",
               },
               {
-                id: "b",
+                id: "c",
                 text: "A specific detail that echoes a pattern elsewhere in the text",
               },
-              { id: "c", text: "The longest sentence in the extract" },
               {
                 id: "d",
                 text: "A detail mentioned only once and easily explained",
               },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1400,15 +1400,15 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Asserting what the text means" },
               {
-                id: "b",
+                id: "a",
                 text: "Reporting what is actually present in the text",
               },
+              { id: "b", text: "Evaluating the author's skill" },
               { id: "c", text: "Summarising the plot" },
-              { id: "d", text: "Evaluating the author's skill" },
+              { id: "d", text: "Asserting what the text means" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -1445,12 +1445,12 @@ export const lesson21: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "'The clock had stopped at 4:07.'" },
-              { id: "b", text: "'Someone had washed the dishes.'" },
+              { id: "b", text: "'The kitchen is described in one sentence.'" },
               {
                 id: "c",
                 text: "'The stopped clock suggests time suspended mid-event.'",
               },
-              { id: "d", text: "'The kitchen is described in one sentence.'" },
+              { id: "d", text: "'Someone had washed the dishes.'" },
             ],
             correctChoiceId: "c",
           },
@@ -1490,18 +1490,18 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Because it is always longer" },
+              { id: "a", text: "Because obvious details are always wrong" },
               {
                 id: "b",
-                text: "Because surprise signals the text doing something deliberate that rewards analysis",
-              },
-              { id: "c", text: "Because obvious details are always wrong" },
-              {
-                id: "d",
                 text: "Because unexpected details never need analysis",
               },
+              {
+                id: "c",
+                text: "Because surprise signals the text doing something deliberate that rewards analysis",
+              },
+              { id: "d", text: "Because it is always longer" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1539,13 +1539,13 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Never — single mentions cannot be analysed" },
+              { id: "a", text: "Only in the introduction" },
               {
                 id: "b",
                 text: "When it is specific and unexpected enough to carry thematic weight",
               },
-              { id: "c", text: "Only if it is a quotation" },
-              { id: "d", text: "Only in the introduction" },
+              { id: "c", text: "Never — single mentions cannot be analysed" },
+              { id: "d", text: "Only if it is a quotation" },
             ],
             correctChoiceId: "b",
           },
@@ -1586,12 +1586,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Significance to the whole text" },
-              { id: "b", text: "Technique — naming the device or feature" },
-              { id: "c", text: "Conclusion" },
+              { id: "a", text: "Conclusion" },
+              { id: "b", text: "Significance to the whole text" },
+              { id: "c", text: "Technique — naming the device or feature" },
               { id: "d", text: "Evaluation of the author" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

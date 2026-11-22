@@ -55,12 +55,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Particles (photons)" },
+              { id: "a", text: "Neither particles nor waves" },
               { id: "b", text: "Only waves" },
-              { id: "c", text: "Only rays" },
-              { id: "d", text: "Neither particles nor waves" },
+              { id: "c", text: "Particles (photons)" },
+              { id: "d", text: "Only rays" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -155,12 +155,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "the minimum energy needed to eject an electron from its surface" },
-              { id: "b", text: "the energy of a single incident photon" },
-              { id: "c", text: "the maximum kinetic energy of emitted electrons" },
-              { id: "d", text: "the minimum frequency that causes emission" },
+              { id: "a", text: "the energy of a single incident photon" },
+              { id: "b", text: "the maximum kinetic energy of emitted electrons" },
+              { id: "c", text: "the minimum frequency that causes emission" },
+              { id: "d", text: "the minimum energy needed to eject an electron from its surface" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -183,12 +183,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$KE_{max} = eV_s$" },
-              { id: "b", text: "$KE_{max} = V_s/e$" },
-              { id: "c", text: "$KE_{max} = hV_s$" },
-              { id: "d", text: "$KE_{max} = e/V_s$" },
+              { id: "a", text: "$KE_{max} = V_s/e$" },
+              { id: "b", text: "$KE_{max} = eV_s$" },
+              { id: "c", text: "$KE_{max} = e/V_s$" },
+              { id: "d", text: "$KE_{max} = hV_s$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -211,12 +211,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "increasing the frequency of the light" },
-              { id: "b", text: "increasing the intensity of the light" },
-              { id: "c", text: "increasing the wavelength of the light" },
-              { id: "d", text: "decreasing the frequency of the light" },
+              { id: "a", text: "increasing the wavelength of the light" },
+              { id: "b", text: "increasing the frequency of the light" },
+              { id: "c", text: "decreasing the frequency of the light" },
+              { id: "d", text: "increasing the intensity of the light" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -239,12 +239,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$KE_{max} = h(f - f_0)$" },
-              { id: "b", text: "$KE_{max} = hf + \\phi$" },
-              { id: "c", text: "$KE_{max} = hf_0 - hf$" },
-              { id: "d", text: "$KE_{max} = \\phi - hf$" },
+              { id: "a", text: "$KE_{max} = hf + \\phi$" },
+              { id: "b", text: "$KE_{max} = \\phi - hf$" },
+              { id: "c", text: "$KE_{max} = h(f - f_0)$" },
+              { id: "d", text: "$KE_{max} = hf_0 - hf$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -269,8 +269,8 @@ export const lesson51: Lesson = {
             choices: [
               { id: "a", text: "the kinetic energy of the emitted electron" },
               { id: "b", text: "thermal energy shared by all electrons" },
-              { id: "c", text: "reflected as light of the same frequency" },
-              { id: "d", text: "stored in the metal lattice permanently" },
+              { id: "c", text: "stored in the metal lattice permanently" },
+              { id: "d", text: "reflected as light of the same frequency" },
             ],
             correctChoiceId: "a",
           },
@@ -507,12 +507,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$eV_s$ is linear in frequency with gradient $h$" },
-              { id: "b", text: "Light travels in straight lines" },
+              { id: "a", text: "All metals have same threshold" },
+              { id: "b", text: "$eV_s$ is linear in frequency with gradient $h$" },
               { id: "c", text: "Intensity affects electron energy" },
-              { id: "d", text: "All metals have same threshold" },
+              { id: "d", text: "Light travels in straight lines" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -606,12 +606,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$eV_s$ (the stopping-potential energy)" },
-              { id: "b", text: "the photocurrent $I$" },
-              { id: "c", text: "the light intensity" },
-              { id: "d", text: "the work function $\\phi$" },
+              { id: "a", text: "the work function $\\phi$" },
+              { id: "b", text: "$eV_s$ (the stopping-potential energy)" },
+              { id: "c", text: "the photocurrent $I$" },
+              { id: "d", text: "the light intensity" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -634,12 +634,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "the threshold frequency $f_0$" },
-              { id: "b", text: "the work function $\\phi$" },
-              { id: "c", text: "Planck's constant $h$" },
+              { id: "a", text: "Planck's constant $h$" },
+              { id: "b", text: "the threshold frequency $f_0$" },
+              { id: "c", text: "the work function $\\phi$" },
               { id: "d", text: "the photon energy $hf$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -662,12 +662,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "the frequency of the incident light only" },
-              { id: "b", text: "the intensity of the incident light only" },
-              { id: "c", text: "both the frequency and the intensity" },
+              { id: "a", text: "the intensity of the incident light only" },
+              { id: "b", text: "both the frequency and the intensity" },
+              { id: "c", text: "the frequency of the incident light only" },
               { id: "d", text: "neither frequency nor intensity" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -690,12 +690,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "saturation photocurrent" },
-              { id: "b", text: "stopping potential" },
-              { id: "c", text: "maximum kinetic energy of the electrons" },
-              { id: "d", text: "work function of the metal" },
+              { id: "a", text: "maximum kinetic energy of the electrons" },
+              { id: "b", text: "work function of the metal" },
+              { id: "c", text: "stopping potential" },
+              { id: "d", text: "saturation photocurrent" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -720,8 +720,8 @@ export const lesson51: Lesson = {
             choices: [
               { id: "a", text: "light shows wave behaviour in some experiments and particle behaviour in others" },
               { id: "b", text: "light is purely a wave in all circumstances" },
-              { id: "c", text: "light is purely a particle in all circumstances" },
-              { id: "d", text: "light cannot be described by physics" },
+              { id: "c", text: "light cannot be described by physics" },
+              { id: "d", text: "light is purely a particle in all circumstances" },
             ],
             correctChoiceId: "a",
           },

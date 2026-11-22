@@ -89,13 +89,13 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A group that rejects all mainstream values" },
+              { id: "a", text: "A religious doctrine" },
               {
                 id: "b",
                 text: "A group within a culture sharing distinctive practices",
               },
-              { id: "c", text: "A foreign culture" },
-              { id: "d", text: "A religious doctrine" },
+              { id: "c", text: "A group that rejects all mainstream values" },
+              { id: "d", text: "A foreign culture" },
             ],
             correctChoiceId: "b",
           },
@@ -280,6 +280,534 @@ export const lesson21: Lesson = {
               "(a) Agents and categories shape identity. (b) Agency allows choice and change within social constraints.",
             commonErrors: [
               "Arguing identity is either fully determined or fully free — both extremes fail.",
+            ],
+          },
+        },
+        {
+          id: "cieisoc-u2-cult-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Which of the following is an example of material culture?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "A smartphone" },
+              { id: "b", text: "A traditional wedding ceremony" },
+              { id: "c", text: "The norm of queueing" },
+              { id: "d", text: "The value of honesty" },
+            ],
+            aorrectChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Material culture",
+                statement: "Physical objects of a society — technology, buildings, clothing.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "Material culture consists of physical objects; values, ceremonies and norms are non-material.",
+                marks: 1,
+                markCode: "M",
+              },
+            ],
+            finalAnswer: "(c) A smartphone.",
+            commonErrors: [
+              "Choosing a ceremony or value — those are non-material culture.",
+            ],
+          },
+        },
+        {
+          id: "cieisoc-u2-cult-q6",
+          difficulty: "foundation",
+          totalMarks: 2,
+          stem: "Define 'identity' and name one social category that shapes it.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Identity",
+                statement:
+                  "Who a person understands themselves to be, shaped by social categories and experience.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "Identity = an individual's sense of who they are.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "Social category: class, ethnicity, gender, religion (accept any valid category).",
+                marks: 1,
+                markCode: "M",
+              },
+            ],
+            finalAnswer:
+              "Identity is a person's sense of self, shaped by categories such as class, ethnicity or gender.",
+            commonErrors: [
+              "Treating identity as fixed at birth rather than socially shaped.",
+            ],
+          },
+        },
+        {
+          id: "cieisoc-u2-cult-q7",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "A counter-culture differs from a subculture because it:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Shares all mainstream values" },
+              { id: "b", text: "Exists only online" },
+              {
+                id: "c",
+                text: "Actively rejects dominant cultural values",
+              },
+              { id: "d", text: "Is always religious" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Counter-culture",
+                statement:
+                  "A subculture that rejects dominant cultural values.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "Counter-cultures oppose mainstream values; subcultures share them while adding distinctive practices.",
+                marks: 1,
+                markCode: "M",
+              },
+            ],
+            finalAnswer: "(b) Actively rejects dominant cultural values.",
+            commonErrors: [
+              "Confusing counter-culture with subculture.",
+            ],
+          },
+        },
+        {
+          id: "cieisoc-u2-cult-q8",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "Explain the difference between 'ascribed' and 'achieved' identity, with an example of each.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Ascribed vs achieved",
+                statement:
+                  "Ascribed = fixed at birth; achieved = earned through choices and effort.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "Ascribed identity is assigned at birth and cannot easily be changed — e.g. ethnicity or sex.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "Achieved identity is gained through effort and choice — e.g. profession, religion adopted as an adult.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "Example: being born into a class is ascribed; becoming a doctor is achieved.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer:
+              "Ascribed = fixed at birth (ethnicity); achieved = earned through effort (profession).",
+            commonErrors: [
+              "Giving no example or using the same example for both types.",
+            ],
+          },
+        },
+        {
+          id: "cieisoc-u2-cult-q9",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "Explain how the school shapes identity through both formal and informal processes.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "skill",
+                name: "School and identity",
+                statement:
+                  "School transmits knowledge plus hidden-curriculum values and role expectations.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "Formally: schools teach knowledge, skills and examination success that shape life chances and identity.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "Informally: the hidden curriculum teaches punctuality, obedience and competition, shaping self-image.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "Labelling and streaming can confirm or challenge a pupil's sense of who they are.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer:
+              "School shapes identity through formal learning, hidden-curriculum values and labelling processes.",
+            commonErrors: [
+              "Covering only formal education and ignoring the hidden curriculum.",
+            ],
+          },
+        },
+        {
+          id: "cieisoc-u2-cult-q10",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Subcultures within a wider culture typically:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Exist only in traditional societies" },
+              { id: "b", text: "Are identical to counter-cultures" },
+              {
+                id: "c",
+                text: "Reject all aspects of the mainstream culture",
+              },
+              {
+                id: "d",
+                text: "Share the mainstream culture but add distinctive practices and values",
+              },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Subculture",
+                statement:
+                  "Distinctive group within the wider culture sharing practices and values.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "Subcultures coexist with the mainstream; counter-cultures are the ones that reject it.",
+                marks: 1,
+                markCode: "M",
+              },
+            ],
+            finalAnswer:
+              "(b) Share the mainstream culture but add distinctive practices.",
+            commonErrors: [
+              "Confusing subculture with counter-culture.",
+            ],
+          },
+        },
+        {
+          id: "cieisoc-u2-cult-q11",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "Explain how the media contributes to the formation of identity.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "skill",
+                name: "Media and identity",
+                statement:
+                  "Media supply images and role models that individuals compare themselves against.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "Media present idealised images of lifestyle, appearance and success that shape aspirations.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "Advertising and entertainment reinforce gender, class and ethnic stereotypes — or challenge them.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "Social media lets individuals curate and perform identities, adding a new layer of self-presentation.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer:
+              "Media shapes identity through role models, stereotypes and the opportunity to perform chosen selves online.",
+            commonErrors: [
+              "Describing media influence without linking it to identity formation.",
+            ],
+          },
+        },
+        {
+          id: "cieisoc-u2-cult-q12",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "Explain two ways in which youth subcultures can act as a source of identity and resistance.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Subculture and identity",
+                statement:
+                  "Subcultures provide belonging and a distinctive identity, sometimes resisting mainstream norms.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "Belonging: subcultures give members a shared style, language and group membership.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "Distinctive identity: adopting subcultural dress, music and values marks a person as part of a group.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "Resistance: subcultures can reject adult or mainstream expectations — e.g. fashion challenging conventions.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "Counter-cultures go further, openly opposing dominant values and offering an alternative lifestyle.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer:
+              "Subcultures give belonging and distinctive identity, and can resist mainstream norms — counter-cultures resist most strongly.",
+            commonErrors: [
+              "Describing subcultures only negatively without noting identity benefits.",
+            ],
+          },
+        },
+        {
+          id: "cieisoc-u2-cult-q13",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Non-material culture includes:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Buildings and technology" },
+              { id: "b", text: "Physical artefacts only" },
+              { id: "c", text: "Clothing and tools" },
+              { id: "d", text: "Beliefs, values, norms and language" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Non-material culture",
+                statement: "Ideas, beliefs, values, norms and language of a society.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "Non-material = ideas and meanings; buildings, clothing and tools are material culture.",
+                marks: 1,
+                markCode: "M",
+              },
+            ],
+            finalAnswer: "(b) Beliefs, values, norms and language.",
+            commonErrors: [
+              "Mixing material objects into the non-material category.",
+            ],
+          },
+        },
+        {
+          id: "cieisoc-u2-cult-q14",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "Explain how religious identity can be both ascribed and chosen, depending on context.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "skill",
+                name: "Religious identity",
+                statement:
+                  "Religion can be inherited at birth or adopted through personal choice.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "In many societies children inherit their family's religion — an ascribed identity.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "Individuals may also choose or change religion — an achieved identity through personal conviction.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "In secular societies religion is more often a chosen identity; in traditional societies it is more often inherited.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer:
+              "Religious identity can be inherited (ascribed) or adopted through choice (achieved), varying by society.",
+            commonErrors: [
+              "Treating all identity as purely ascribed or purely achieved.",
+            ],
+          },
+        },
+        {
+          id: "cieisoc-u2-cult-q15",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Which agent of socialisation is usually considered the most influential in early childhood?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "The family" },
+              { id: "b", text: "The media" },
+              { id: "c", text: "The peer group" },
+              { id: "d", text: "The workplace" },
+            ],
+            aorrectChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "context",
+                name: "Family socialisation",
+                statement:
+                  "The family is the primary agent, transmitting first language and basic norms.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "Family is the first and most influential agent in early childhood.",
+                marks: 1,
+                markCode: "M",
+              },
+            ],
+            finalAnswer: "(c) The family.",
+            commonErrors: [
+              "Overestimating later agents like peers or media in early childhood.",
+            ],
+          },
+        },
+        {
+          id: "cieisoc-u2-cult-q16",
+          difficulty: "challenge",
+          totalMarks: 6,
+          stem: "Examine the view that culture shapes identity more than individuals shape their own identity.",
+          parts: [
+            {
+              label: "a",
+              prompt: "Explain two ways culture and socialisation shape identity.",
+              marks: 3,
+            },
+            {
+              label: "b",
+              prompt: "Evaluate the role of individual agency in identity formation.",
+              marks: 3,
+            },
+          ],
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "skill",
+                name: "Culture vs agency in identity",
+                statement:
+                  "Culture supplies the framework of identity; agency selects and reshapes within it.",
+              },
+            ],
+            steps: [
+              {
+                part: "a",
+                reasoning:
+                  "Agents transmit the norms, values and role expectations of the culture.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                part: "a",
+                reasoning:
+                  "Social categories — class, ethnicity, gender — position individuals and limit available identities.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                part: "a",
+                reasoning:
+                  "Cultural symbols, language and rituals make certain identities seem 'natural' or normal.",
+                marks: 1,
+                markCode: "A",
+              },
+              {
+                part: "b",
+                reasoning:
+                  "Agency: individuals interpret, choose and change identities — e.g. adopting new religions, careers or lifestyles.",
+                marks: 1,
+                markCode: "R",
+              },
+              {
+                part: "b",
+                reasoning:
+                  "Subcultures and counter-cultures show people actively crafting identities that differ from the mainstream.",
+                marks: 1,
+                markCode: "R",
+              },
+              {
+                part: "b",
+                reasoning:
+                  "Judgement: culture constrains the 'menu' of identities but agency selects, combines and sometimes invents within it — neither fully determines identity.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer:
+              "(a) Culture shapes identity through agents, categories and symbols. (b) Agency allows choice and innovation within cultural limits.",
+            commonErrors: [
+              "Arguing one side absolutely — culture alone or agency alone — without weighing both.",
             ],
           },
         },

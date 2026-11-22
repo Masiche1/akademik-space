@@ -59,12 +59,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Acceleration" },
-              { id: "b", text: "Speed" },
-              { id: "c", text: "Distance" },
-              { id: "d", text: "Time" },
+              { id: "a", text: "Distance" },
+              { id: "b", text: "Time" },
+              { id: "c", text: "Speed" },
+              { id: "d", text: "Acceleration" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -157,12 +157,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Speed without any direction" },
-              { id: "b", text: "Speed in a given direction" },
-              { id: "c", text: "Distance travelled per unit time" },
-              { id: "d", text: "Rate of change of distance" },
+              { id: "a", text: "Speed in a given direction" },
+              { id: "b", text: "Speed without any direction" },
+              { id: "c", text: "Rate of change of distance" },
+              { id: "d", text: "Distance travelled per unit time" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -259,12 +259,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Speed" },
-              { id: "b", text: "Acceleration" },
+              { id: "a", text: "Time" },
+              { id: "b", text: "Speed" },
               { id: "c", text: "Distance" },
-              { id: "d", text: "Time" },
+              { id: "d", text: "Acceleration" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -326,9 +326,9 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "It is speed in a given direction" },
-              { id: "b", text: "It is distance per unit time with no direction" },
-              { id: "c", text: "It is always positive" },
-              { id: "d", text: "It is the same as acceleration" },
+              { id: "b", text: "It is always positive" },
+              { id: "c", text: "It is the same as acceleration" },
+              { id: "d", text: "It is distance per unit time with no direction" },
             ],
             correctChoiceId: "a",
           },
@@ -441,12 +441,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "5 N left" },
-              { id: "b", text: "5 N right" },
-              { id: "c", text: "11 N right" },
-              { id: "d", text: "0 N" },
+              { id: "a", text: "0 N" },
+              { id: "b", text: "11 N right" },
+              { id: "c", text: "5 N left" },
+              { id: "d", text: "5 N right" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -539,11 +539,11 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Always accelerate" },
-              { id: "b", text: "Stay at rest or move at constant velocity" },
-              { id: "c", text: "Stop immediately" },
-              { id: "d", text: "Change direction" },
+              { id: "b", text: "Change direction" },
+              { id: "c", text: "Stay at rest or move at constant velocity" },
+              { id: "d", text: "Stop immediately" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -565,12 +565,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Force divided by distance" },
-              { id: "b", text: "Force times perpendicular distance from the pivot" },
-              { id: "c", text: "Distance times time" },
-              { id: "d", text: "Force times time" },
+              { id: "a", text: "Distance times time" },
+              { id: "b", text: "Force divided by distance" },
+              { id: "c", text: "Force times time" },
+              { id: "d", text: "Force times perpendicular distance from the pivot" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -649,12 +649,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Remain stationary" },
-              { id: "b", text: "Accelerate" },
-              { id: "c", text: "Lose mass" },
-              { id: "d", text: "Stop instantly" },
+              { id: "a", text: "Accelerate" },
+              { id: "b", text: "Stop instantly" },
+              { id: "c", text: "Remain stationary" },
+              { id: "d", text: "Lose mass" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -698,10 +698,10 @@ export const lesson31: Lesson = {
             choices: [
               { id: "a", text: "Decrease the force" },
               { id: "b", text: "Move the force closer to the pivot" },
-              { id: "c", text: "Increase the perpendicular distance from the pivot" },
-              { id: "d", text: "Apply the force at an angle parallel to the object" },
+              { id: "c", text: "Apply the force at an angle parallel to the object" },
+              { id: "d", text: "Increase the perpendicular distance from the pivot" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -723,12 +723,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The handle is further from the pivot, giving a larger moment for the same force" },
-              { id: "b", text: "The door is lighter near the handle" },
-              { id: "c", text: "The hinges are magnetised" },
-              { id: "d", text: "The handle is smoother" },
+              { id: "a", text: "The door is lighter near the handle" },
+              { id: "b", text: "The handle is further from the pivot, giving a larger moment for the same force" },
+              { id: "c", text: "The handle is smoother" },
+              { id: "d", text: "The hinges are magnetised" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [

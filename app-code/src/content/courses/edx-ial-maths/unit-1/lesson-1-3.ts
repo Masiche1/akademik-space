@@ -55,8 +55,8 @@ export const lesson13: Lesson = {
             choices: [
               { id: "a", text: "$12x^2-5$" },
               { id: "b", text: "$4x^2-5$" },
-              { id: "c", text: "$12x^2+2$" },
-              { id: "d", text: "$12x^3-5$" },
+              { id: "c", text: "$12x^3-5$" },
+              { id: "d", text: "$12x^2+2$" },
             ],
             correctChoiceId: "a",
           },
@@ -184,12 +184,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$2x^3+c$" },
-              { id: "b", text: "$12x+c$" },
-              { id: "c", text: "$\\frac{6x^3}{3}+c$" },
+              { id: "a", text: "$\\frac{6x^3}{3}+c$" },
+              { id: "b", text: "$2x^3+c$" },
+              { id: "c", text: "$12x+c$" },
               { id: "d", text: "$2x^2+c$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [

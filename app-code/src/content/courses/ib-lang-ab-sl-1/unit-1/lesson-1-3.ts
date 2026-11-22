@@ -52,12 +52,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "What" },
-              { id: "b", text: "When" },
-              { id: "c", text: "Where" },
-              { id: "d", text: "Who" },
+              { id: "a", text: "When" },
+              { id: "b", text: "What" },
+              { id: "c", text: "Who" },
+              { id: "d", text: "Where" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -148,9 +148,9 @@ export const lesson13: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "What" },
-              { id: "b", text: "Where" },
+              { id: "b", text: "Who" },
               { id: "c", text: "When" },
-              { id: "d", text: "Who" },
+              { id: "d", text: "Where" },
             ],
             correctChoiceId: "c",
           },
@@ -174,12 +174,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "What is your name?" },
-              { id: "b", text: "Where do you live?" },
-              { id: "c", text: "Who is your teacher?" },
-              { id: "d", text: "When is the party?" },
+              { id: "a", text: "Who is your teacher?" },
+              { id: "b", text: "When is the party?" },
+              { id: "c", text: "Where do you live?" },
+              { id: "d", text: "What is your name?" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -220,12 +220,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Where you live?" },
-              { id: "b", text: "Where do you live?" },
-              { id: "c", text: "Where does you live?" },
-              { id: "d", text: "Where are you live?" },
+              { id: "a", text: "Where are you live?" },
+              { id: "b", text: "Where does you live?" },
+              { id: "c", text: "Where you live?" },
+              { id: "d", text: "Where do you live?" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -271,12 +271,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Yes, I do." },
-              { id: "b", text: "Yes, I am." },
-              { id: "c", text: "Yes, I like." },
-              { id: "d", text: "I am yes." },
+              { id: "a", text: "I am yes." },
+              { id: "b", text: "Yes, I like." },
+              { id: "c", text: "Yes, I do." },
+              { id: "d", text: "Yes, I am." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -321,12 +321,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Where is the party?" },
-              { id: "b", text: "When is the party?" },
+              { id: "a", text: "When is the party?" },
+              { id: "b", text: "Where is the party?" },
               { id: "c", text: "Who is at the party?" },
               { id: "d", text: "What is the party?" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -373,12 +373,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "What is your name?" },
+              { id: "a", text: "When is your birthday?" },
               { id: "b", text: "Where do you live?" },
-              { id: "c", text: "When is your birthday?" },
-              { id: "d", text: "Who are you from?" },
+              { id: "c", text: "Who are you from?" },
+              { id: "d", text: "What is your name?" },
             ],
-            correctChoiceId: "d",
+            correctChoiceIc: "d",
           },
           markscheme: {
             principles: [
@@ -473,8 +473,8 @@ export const lesson13: Lesson = {
             choices: [
               { id: "a", text: "Guess the answer" },
               { id: "b", text: "Ask them to repeat, politely" },
-              { id: "c", text: "Say nothing" },
-              { id: "d", text: "Change the subject" },
+              { id: "c", text: "Change the subject" },
+              { id: "d", text: "Say nothing" },
             ],
             correctChoiceId: "b",
           },
@@ -568,12 +568,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "I don't know." },
-              { id: "b", text: "Sorry? Could you repeat that, please?" },
-              { id: "c", text: "Goodbye." },
-              { id: "d", text: "Thank you." },
+              { id: "a", text: "Thank you." },
+              { id: "b", text: "Goodbye." },
+              { id: "c", text: "I don't know." },
+              { id: "d", text: "Sorry? Could you repeat that, please?" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -595,12 +595,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "What does 'library' mean?" },
-              { id: "b", text: "Where is library?" },
-              { id: "c", text: "Who is library?" },
-              { id: "d", text: "When is library?" },
+              { id: "a", text: "Where is library?" },
+              { id: "b", text: "Who is library?" },
+              { id: "c", text: "When is library?" },
+              { id: "d", text: "What does 'library' mean?" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -641,12 +641,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Madrid." },
-              { id: "b", text: "I live in Madrid." },
-              { id: "c", text: "Spain." },
-              { id: "d", text: "City." },
+              { id: "a", text: "City." },
+              { id: "b", text: "Spain." },
+              { id: "c", text: "Madrid." },
+              { id: "d", text: "I live in Madrid." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -692,12 +692,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Give me that!" },
-              { id: "b", text: "Can I have this, please?" },
+              { id: "a", text: "Hurry up!" },
+              { id: "b", text: "Give me that!" },
               { id: "c", text: "I want it now!" },
-              { id: "d", text: "Hurry up!" },
+              { id: "d", text: "Can I have this, please?" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -744,12 +744,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Please say it again" },
-              { id: "b", text: "Thank you very much" },
-              { id: "c", text: "I would like to order food" },
-              { id: "d", text: "Goodbye, see you later" },
+              { id: "a", text: "I would like to order food" },
+              { id: "b", text: "Goodbye, see you later" },
+              { id: "c", text: "Please say it again" },
+              { id: "d", text: "Thank you very much" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -817,12 +817,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "'What is your name?' / 'Shut up.'" },
-              { id: "b", text: "'Where do you live?' / 'I live in Paris. Thank you.'" },
-              { id: "c", text: "'Do you like me?' / 'Go away.'" },
-              { id: "d", text: "'How old are you?' / 'None of your business.'" },
+              { id: "a", text: "'Where do you live?' / 'I live in Paris. Thank you.'" },
+              { id: "b", text: "'Do you like me?' / 'Go away.'" },
+              { id: "c", text: "'How old are you?' / 'None of your business.'" },
+              { id: "d", text: "'What is your name?' / 'Shut up.'" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

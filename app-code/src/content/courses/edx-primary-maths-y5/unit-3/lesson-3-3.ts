@@ -59,9 +59,9 @@ export const lesson93: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "1 h 45 min" },
-              { id: "b", text: "2 h 15 min" },
+              { id: "b", text: "2 h 45 min" },
               { id: "c", text: "1 h 15 min" },
-              { id: "d", text: "2 h 45 min" },
+              { id: "d", text: "2 h 15 min" },
             ],
             correctChoiceId: "a",
           },
@@ -256,12 +256,12 @@ export const lesson93: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "One category" },
-              { id: "b", text: "The whole/total" },
-              { id: "c", text: "100% of one item" },
+              { id: "a", text: "100% of one item" },
+              { id: "b", text: "One category" },
+              { id: "c", text: "The whole/total" },
               { id: "d", text: "The average" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

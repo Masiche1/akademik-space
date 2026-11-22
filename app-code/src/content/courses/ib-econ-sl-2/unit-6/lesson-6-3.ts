@@ -54,11 +54,11 @@ export const lesson63: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Produce everything more cheaply than others" },
-              { id: "b", text: "Produce a good at a lower opportunity cost than another country" },
+              { id: "b", text: "Have the largest economy" },
               { id: "c", text: "Export more than it imports" },
-              { id: "d", text: "Have the largest economy" },
+              { id: "d", text: "Produce a good at a lower opportunity cost than another country" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -152,12 +152,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Higher tariffs on imports" },
-              { id: "b", text: "Technological advances in transport and communication" },
-              { id: "c", text: "Strict capital controls" },
-              { id: "d", text: "Reduced foreign direct investment" },
+              { id: "a", text: "Reduced foreign direct investment" },
+              { id: "b", text: "Strict capital controls" },
+              { id: "c", text: "Higher tariffs on imports" },
+              { id: "d", text: "Technological advances in transport and communication" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -180,12 +180,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Produce everything domestically" },
-              { id: "b", text: "Specialise in goods where their opportunity cost is lowest, creating gains from trade" },
-              { id: "c", text: "Stop trading with each other" },
-              { id: "d", text: "Only trade goods they cannot produce at all" },
+              { id: "a", text: "Stop trading with each other" },
+              { id: "b", text: "Produce everything domestically" },
+              { id: "c", text: "Only trade goods they cannot produce at all" },
+              { id: "d", text: "Specialise in goods where their opportunity cost is lowest, creating gains from trade" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -209,12 +209,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A company that operates in only one country" },
-              { id: "b", text: "A company operating in multiple countries" },
-              { id: "c", text: "A government trade agency" },
+              { id: "a", text: "A government trade agency" },
+              { id: "b", text: "A company that operates in only one country" },
+              { id: "c", text: "A company operating in multiple countries" },
               { id: "d", text: "An international bank" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -238,11 +238,11 @@ export const lesson63: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "True — all countries gain the same amount from trade" },
-              { id: "b", text: "False — gains are real but unevenly distributed between and within countries" },
-              { id: "c", text: "True — comparative advantage guarantees equal gains" },
+              { id: "b", text: "True — comparative advantage guarantees equal gains" },
+              { id: "c", text: "False — gains are real but unevenly distributed between and within countries" },
               { id: "d", text: "False — globalisation harms every country" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -266,12 +266,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Produce a good at a lower opportunity cost than another country" },
-              { id: "b", text: "Produce more of a good than another country using the same resources" },
-              { id: "c", text: "Export more than it imports" },
-              { id: "d", text: "Have the lowest prices for all goods" },
+              { id: "a", text: "Have the lowest prices for all goods" },
+              { id: "b", text: "Export more than it imports" },
+              { id: "c", text: "Produce a good at a lower opportunity cost than another country" },
+              { id: "d", text: "Produce more of a good than another country using the same resources" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -517,12 +517,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A physical limit on imports" },
-              { id: "b", text: "A tax on imported goods" },
-              { id: "c", text: "A subsidy to exporters" },
-              { id: "d", text: "A free trade agreement" },
+              { id: "a", text: "A tax on imported goods" },
+              { id: "b", text: "A physical limit on imports" },
+              { id: "c", text: "A free trade agreement" },
+              { id: "d", text: "A subsidy to exporters" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -614,10 +614,10 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A tax on imported goods" },
+              { id: "a", text: "A subsidy paid to exporters" },
               { id: "b", text: "A physical limit on the quantity of imports allowed" },
-              { id: "c", text: "A subsidy paid to exporters" },
-              { id: "d", text: "A regional trade agreement" },
+              { id: "c", text: "A regional trade agreement" },
+              { id: "d", text: "A tax on imported goods" },
             ],
             correctChoiceId: "b",
           },
@@ -643,11 +643,11 @@ export const lesson63: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Guaranteed wage growth in all sectors" },
-              { id: "b", text: "Job losses as production moves to lower-wage countries (offshoring)" },
-              { id: "c", text: "Falling consumer prices with no downside" },
-              { id: "d", text: "Complete job security" },
+              { id: "b", text: "Falling consumer prices with no downside" },
+              { id: "c", text: "Complete job security" },
+              { id: "d", text: "Job losses as production moves to lower-wage countries (offshoring)" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -671,12 +671,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Impose tariffs on member countries" },
-              { id: "b", text: "Promote free trade by reducing tariffs and resolving trade disputes" },
-              { id: "c", text: "Set quotas on agricultural imports" },
-              { id: "d", text: "Protect infant industries" },
+              { id: "a", text: "Promote free trade by reducing tariffs and resolving trade disputes" },
+              { id: "b", text: "Impose tariffs on member countries" },
+              { id: "c", text: "Protect infant industries" },
+              { id: "d", text: "Set quotas on agricultural imports" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -699,12 +699,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Tariffs always save jobs with no downside" },
-              { id: "b", text: "Tariffs protect some jobs but raise consumer prices, reduce efficiency and may provoke retaliation" },
+              { id: "a", text: "Tariffs protect some jobs but raise consumer prices, reduce efficiency and may provoke retaliation" },
+              { id: "b", text: "Tariffs always save jobs with no downside" },
               { id: "c", text: "Tariffs have no effect on domestic employment" },
               { id: "d", text: "Tariffs always reduce employment" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -728,12 +728,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Selling goods abroad at below their cost of production" },
-              { id: "b", text: "Giving foreign aid to poor countries" },
+              { id: "a", text: "Storing surplus goods in warehouses" },
+              { id: "b", text: "Selling goods abroad at below their cost of production" },
               { id: "c", text: "Exporting goods at world prices" },
-              { id: "d", text: "Storing surplus goods in warehouses" },
+              { id: "d", text: "Giving foreign aid to poor countries" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [

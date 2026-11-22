@@ -54,12 +54,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It creates a sense of inevitability, as the hope of the opening is echoed by the loss at the end" },
-              { id: "b", text: "It shows that the characters have been in the same place throughout the whole story" },
-              { id: "c", text: "It suggests that the river is the most dangerous place in the novel" },
-              { id: "d", text: "It shows that nothing has changed since the opening" },
+              { id: "a", text: "It shows that the characters have been in the same place throughout the whole story" },
+              { id: "b", text: "It suggests that the river is the most dangerous place in the novel" },
+              { id: "c", text: "It shows that nothing has changed since the opening" },
+              { id: "d", text: "It creates a sense of inevitability, as the hope of the opening is echoed by the loss at the end" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Cyclical structure", statement: "Returning to the opening setting suggests inevitability and allows contrast of mood." }],
@@ -183,12 +183,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Embed a few words in your own sentence and then analyse a key word" },
-              { id: "b", text: "Copy out a full speech and leave the reader to interpret it" },
+              { id: "a", text: "Copy out a full speech and leave the reader to interpret it" },
+              { id: "b", text: "Quote long passages to prove you know the book" },
               { id: "c", text: "Place the quotation at the end of the essay" },
-              { id: "d", text: "Quote long passages to prove you know the book" },
+              { id: "d", text: "Embed a few words in your own sentence and then analyse a key word" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "skill", name: "Embedding quotations", statement: "Short quotations placed in your own sentences, followed by analysis." }],

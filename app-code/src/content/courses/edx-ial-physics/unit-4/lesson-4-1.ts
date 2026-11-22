@@ -68,12 +68,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "9.81 m/s" },
-              { id: "b", text: "9.81 N/kg" },
-              { id: "c", text: "9.81 J/kg" },
+              { id: "a", text: "9.81 J/kg" },
+              { id: "b", text: "9.81 m/s" },
+              { id: "c", text: "9.81 N/kg" },
               { id: "d", text: "9.81 Pa" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -294,10 +294,10 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Force per unit mass" },
+              { id: "a", text: "Charge per unit volume" },
               { id: "b", text: "Force per unit charge" },
               { id: "c", text: "Energy per unit charge" },
-              { id: "d", text: "Charge per unit volume" },
+              { id: "d", text: "Force per unit mass" },
             ],
             correctChoiceId: "b",
           },

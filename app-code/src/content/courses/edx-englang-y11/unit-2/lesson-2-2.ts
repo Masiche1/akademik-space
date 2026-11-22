@@ -91,12 +91,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Point out that 54 per cent of families did not back the plan, and comment on what that suggests." },
-              { id: "b", text: "Copy the whole sentence into your answer without comment." },
-              { id: "c", text: "Ignore the statistic because it comes from the source." },
-              { id: "d", text: "Say that 46 per cent is a high figure and everyone agrees." },
+              { id: "a", text: "Ignore the statistic because it comes from the source." },
+              { id: "b", text: "Point out that 54 per cent of families did not back the plan, and comment on what that suggests." },
+              { id: "c", text: "Say that 46 per cent is a high figure and everyone agrees." },
+              { id: "d", text: "Copy the whole sentence into your answer without comment." },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "skill", name: "Interpreting evidence", statement: "Turn a statistic into an argument by interpreting what it shows." }],
@@ -222,12 +222,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Headed sections and a recommendation at the end" },
-              { id: "b", text: "Slang and chatty humour" },
-              { id: "c", text: "A cliffhanger ending" },
-              { id: "d", text: "Direct address such as 'Hello, readers!'" },
+              { id: "a", text: "Direct address such as 'Hello, readers!'" },
+              { id: "b", text: "A cliffhanger ending" },
+              { id: "c", text: "Headed sections and a recommendation at the end" },
+              { id: "d", text: "Slang and chatty humour" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "convention", name: "Report conventions", statement: "Headings, objective language and recommendations." }],

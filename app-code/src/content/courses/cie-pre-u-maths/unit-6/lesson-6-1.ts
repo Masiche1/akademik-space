@@ -71,12 +71,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "−1" },
-              { id: "b", text: "1" },
-              { id: "c", text: "i" },
-              { id: "d", text: "0" },
+              { id: "a", text: "0" },
+              { id: "b", text: "−1" },
+              { id: "c", text: "1" },
+              { id: "d", text: "i" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -94,12 +94,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "3 − 4i" },
-              { id: "b", text: "−3 + 4i" },
-              { id: "c", text: "−3 − 4i" },
-              { id: "d", text: "4 − 3i" },
+              { id: "a", text: "4 − 3i" },
+              { id: "b", text: "−3 − 4i" },
+              { id: "c", text: "3 − 4i" },
+              { id: "d", text: "−3 + 4i" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -121,12 +121,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "5" },
-              { id: "b", text: "7" },
-              { id: "c", text: "12" },
-              { id: "d", text: "25" },
+              { id: "a", text: "25" },
+              { id: "b", text: "12" },
+              { id: "c", text: "5" },
+              { id: "d", text: "7" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -144,12 +144,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "−i" },
-              { id: "b", text: "i" },
-              { id: "c", text: "−1" },
-              { id: "d", text: "1" },
+              { id: "a", text: "i" },
+              { id: "b", text: "−i" },
+              { id: "c", text: "1" },
+              { id: "d", text: "−1" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -171,12 +171,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "5" },
-              { id: "b", text: "−2" },
-              { id: "c", text: "3" },
-              { id: "d", text: "7" },
+              { id: "a", text: "3" },
+              { id: "b", text: "7" },
+              { id: "c", text: "5" },
+              { id: "d", text: "−2" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -194,12 +194,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "−2" },
-              { id: "b", text: "5" },
+              { id: "a", text: "7" },
+              { id: "b", text: "−2" },
               { id: "c", text: "2" },
-              { id: "d", text: "7" },
+              { id: "d", text: "5" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -217,12 +217,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "5 − i" },
+              { id: "a", text: "5 + i" },
               { id: "b", text: "5 + 3i" },
-              { id: "c", text: "6 − i" },
-              { id: "d", text: "5 + i" },
+              { id: "c", text: "5 − i" },
+              { id: "d", text: "6 − i" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -246,12 +246,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "2i" },
-              { id: "b", text: "1 + 2i" },
+              { id: "a", text: "i" },
+              { id: "b", text: "2i" },
               { id: "c", text: "2" },
-              { id: "d", text: "i" },
+              { id: "d", text: "1 + 2i" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -273,12 +273,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "π/4" },
-              { id: "b", text: "π/2" },
-              { id: "c", text: "π/3" },
-              { id: "d", text: "π" },
+              { id: "a", text: "π/2" },
+              { id: "b", text: "π/3" },
+              { id: "c", text: "π" },
+              { id: "d", text: "π/4" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -300,12 +300,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Have the same modulus" },
-              { id: "b", text: "Have opposite modulus" },
-              { id: "c", text: "Are equal" },
+              { id: "a", text: "Are equal" },
+              { id: "b", text: "Have the same modulus" },
+              { id: "c", text: "Have opposite modulus" },
               { id: "d", text: "Are unrelated" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -328,9 +328,9 @@ export const lesson61: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "7 + i" },
-              { id: "b", text: "5 + 5i" },
-              { id: "c", text: "7 − i" },
-              { id: "d", text: "6 + i" },
+              { id: "b", text: "6 + i" },
+              { id: "c", text: "5 + 5i" },
+              { id: "d", text: "7 − i" },
             ],
           correctChoiceId: "a",
           },
@@ -354,12 +354,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "1" },
-              { id: "b", text: "−1" },
-              { id: "c", text: "i" },
-              { id: "d", text: "−i" },
+              { id: "a", text: "−1" },
+              { id: "b", text: "i" },
+              { id: "c", text: "−i" },
+              { id: "d", text: "1" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -381,12 +381,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "5" },
-              { id: "b", text: "7" },
+              { id: "a", text: "1" },
+              { id: "b", text: "5" },
               { id: "c", text: "25" },
-              { id: "d", text: "1" },
+              { id: "d", text: "7" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -404,12 +404,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "3π/4" },
-              { id: "b", text: "π/4" },
-              { id: "c", text: "−3π/4" },
-              { id: "d", text: "π/2" },
+              { id: "a", text: "−3π/4" },
+              { id: "b", text: "π/2" },
+              { id: "c", text: "π/4" },
+              { id: "d", text: "3π/4" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -431,12 +431,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "90° anticlockwise" },
-              { id: "b", text: "90° clockwise" },
+              { id: "a", text: "90° clockwise" },
+              { id: "b", text: "90° anticlockwise" },
               { id: "c", text: "180°" },
               { id: "d", text: "No rotation" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -461,9 +461,9 @@ export const lesson61: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "|z|² (real)" },
-              { id: "b", text: "0" },
-              { id: "c", text: "z²" },
-              { id: "d", text: "Complex" },
+              { id: "b", text: "Complex" },
+              { id: "c", text: "0" },
+              { id: "d", text: "z²" },
             ],
           correctChoiceId: "a",
           },
@@ -489,8 +489,8 @@ export const lesson61: Lesson = {
             choices: [
               { id: "a", text: "2 + 3i" },
               { id: "b", text: "4 + i" },
-              { id: "c", text: "2 − i" },
-              { id: "d", text: "4 + 3i" },
+              { id: "c", text: "4 + 3i" },
+              { id: "d", text: "2 − i" },
             ],
           correctChoiceId: "a",
           },
@@ -514,12 +514,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "−arg(z)" },
+              { id: "a", text: "0" },
               { id: "b", text: "arg(z)" },
               { id: "c", text: "π − arg(z)" },
-              { id: "d", text: "0" },
+              { id: "d", text: "−arg(z)" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -544,9 +544,9 @@ export const lesson61: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Undefined" },
-              { id: "b", text: "0" },
+              { id: "b", text: "π" },
               { id: "c", text: "π/2" },
-              { id: "d", text: "π" },
+              { id: "d", text: "0" },
             ],
           correctChoiceId: "a",
           },
@@ -685,9 +685,9 @@ export const lesson61: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "−2 + 2i" },
-              { id: "b", text: "2 + 2i" },
+              { id: "b", text: "2i" },
               { id: "c", text: "−2 − 2i" },
-              { id: "d", text: "2i" },
+              { id: "d", text: "2 + 2i" },
             ],
           correctChoiceId: "a",
           },
@@ -777,8 +777,8 @@ export const lesson61: Lesson = {
             choices: [
               { id: "a", text: "i" },
               { id: "b", text: "−i" },
-              { id: "c", text: "−1" },
-              { id: "d", text: "1" },
+              { id: "c", text: "1" },
+              { id: "d", text: "−1" },
             ],
           correctChoiceId: "a",
           },
@@ -933,12 +933,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "r cis θ" },
+              { id: "a", text: "cis(rθ)" },
               { id: "b", text: "r + iθ" },
-              { id: "c", text: "cis(rθ)" },
-              { id: "d", text: "rθ" },
+              { id: "c", text: "rθ" },
+              { id: "d", text: "r cis θ" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -960,12 +960,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The modulus |z|" },
-              { id: "b", text: "The argument" },
-              { id: "c", text: "The real part" },
-              { id: "d", text: "The imaginary part" },
+              { id: "a", text: "The real part" },
+              { id: "b", text: "The imaginary part" },
+              { id: "c", text: "The argument" },
+              { id: "d", text: "The modulus |z|" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -983,12 +983,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The argument arg(z)" },
+              { id: "a", text: "The imaginary part" },
               { id: "b", text: "The modulus" },
-              { id: "c", text: "The real part" },
-              { id: "d", text: "The imaginary part" },
+              { id: "c", text: "The argument arg(z)" },
+              { id: "d", text: "The real part" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1006,12 +1006,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "re^(iθ)" },
-              { id: "b", text: "r cis θ only" },
+              { id: "a", text: "r cis θ only" },
+              { id: "b", text: "e^(iθ)" },
               { id: "c", text: "x + iy" },
-              { id: "d", text: "e^(iθ)" },
+              { id: "d", text: "re^(iθ)" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1030,8 +1030,8 @@ export const lesson61: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "cos θ + i sin θ" },
-              { id: "b", text: "cos θ − i sin θ" },
-              { id: "c", text: "sin θ + i cos θ" },
+              { id: "b", text: "sin θ + i cos θ" },
+              { id: "c", text: "cos θ − i sin θ" },
               { id: "d", text: "e^θ" },
             ],
           correctChoiceId: "a",
@@ -1064,8 +1064,8 @@ export const lesson61: Lesson = {
             choices: [
               { id: "a", text: "(cis θ)^n = cis(nθ)" },
               { id: "b", text: "(cis θ)^n = n cis θ" },
-              { id: "c", text: "cis(θ^n) = nθ" },
-              { id: "d", text: "(r cis θ)^n = rn cis θ" },
+              { id: "c", text: "(r cis θ)^n = rn cis θ" },
+              { id: "d", text: "cis(θ^n) = nθ" },
             ],
           correctChoiceId: "a",
           },
@@ -1091,12 +1091,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "2" },
-              { id: "b", text: "π/3" },
-              { id: "c", text: "2π/3" },
-              { id: "d", text: "√3" },
+              { id: "a", text: "√3" },
+              { id: "b", text: "2" },
+              { id: "c", text: "π/3" },
+              { id: "d", text: "2π/3" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1114,12 +1114,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "π/3" },
+              { id: "a", text: "2π/3" },
               { id: "b", text: "2" },
-              { id: "c", text: "2π/3" },
-              { id: "d", text: "π/6" },
+              { id: "c", text: "π/6" },
+              { id: "d", text: "π/3" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1137,12 +1137,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "z^n = 1" },
-              { id: "b", text: "z^n = 0" },
-              { id: "c", text: "z = 1" },
-              { id: "d", text: "z^n = −1" },
+              { id: "a", text: "z^n = 0" },
+              { id: "b", text: "z^n = −1" },
+              { id: "c", text: "z^n = 1" },
+              { id: "d", text: "z = 1" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1164,12 +1164,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Unit circle, equally spaced" },
-              { id: "b", text: "Real axis" },
-              { id: "c", text: "Imaginary axis" },
+              { id: "a", text: "Real axis" },
+              { id: "b", text: "Imaginary axis" },
+              { id: "c", text: "Unit circle, equally spaced" },
               { id: "d", text: "Random positions" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1197,12 +1197,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "3i" },
-              { id: "b", text: "3" },
-              { id: "c", text: "3 + 3i" },
-              { id: "d", text: "−3i" },
+              { id: "a", text: "−3i" },
+              { id: "b", text: "3 + 3i" },
+              { id: "c", text: "3i" },
+              { id: "d", text: "3" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1225,9 +1225,9 @@ export const lesson61: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "−2" },
-              { id: "b", text: "2" },
+              { id: "b", text: "−2i" },
               { id: "c", text: "2i" },
-              { id: "d", text: "−2i" },
+              { id: "d", text: "2" },
             ],
           correctChoiceId: "a",
           },
@@ -1251,12 +1251,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "√2 cis(π/4)" },
-              { id: "b", text: "2 cis(π/4)" },
+              { id: "a", text: "2 cis(π/4)" },
+              { id: "b", text: "√2 cis(π/4)" },
               { id: "c", text: "√2 cis(π/2)" },
               { id: "d", text: "2 cis(π/2)" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1279,9 +1279,9 @@ export const lesson61: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "r₁r₂ cis(θ₁+θ₂)" },
-              { id: "b", text: "r₁r₂ cis(θ₁−θ₂)" },
-              { id: "c", text: "(r₁+r₂) cis(θ₁+θ₂)" },
-              { id: "d", text: "r₁r₂ cis(θ₁θ₂)" },
+              { id: "b", text: "(r₁+r₂) cis(θ₁+θ₂)" },
+              { id: "c", text: "r₁r₂ cis(θ₁θ₂)" },
+              { id: "d", text: "r₁r₂ cis(θ₁−θ₂)" },
             ],
           correctChoiceId: "a",
           },
@@ -1311,12 +1311,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "(r₁/r₂) cis(θ₁−θ₂)" },
-              { id: "b", text: "(r₁/r₂) cis(θ₁+θ₂)" },
-              { id: "c", text: "r₁r₂ cis(θ₁−θ₂)" },
-              { id: "d", text: "(r₁/r₂) cis(θ₁θ₂)" },
+              { id: "a", text: "r₁r₂ cis(θ₁−θ₂)" },
+              { id: "b", text: "(r₁/r₂) cis(θ₁θ₂)" },
+              { id: "c", text: "(r₁/r₂) cis(θ₁+θ₂)" },
+              { id: "d", text: "(r₁/r₂) cis(θ₁−θ₂)" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1344,12 +1344,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "cis(π) = −1" },
+              { id: "a", text: "1" },
               { id: "b", text: "cis(π/36)" },
-              { id: "c", text: "cis(π/3)" },
-              { id: "d", text: "1" },
+              { id: "c", text: "cis(π) = −1" },
+              { id: "d", text: "cis(π/3)" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1379,8 +1379,8 @@ export const lesson61: Lesson = {
             choices: [
               { id: "a", text: "1, cis(2π/3), cis(4π/3)" },
               { id: "b", text: "1, −1" },
-              { id: "c", text: "1, i, −i" },
-              { id: "d", text: "Only 1" },
+              { id: "c", text: "Only 1" },
+              { id: "d", text: "1, i, −i" },
             ],
           correctChoiceId: "a",
           },
@@ -1410,12 +1410,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "0" },
+              { id: "a", text: "−1" },
               { id: "b", text: "1" },
-              { id: "c", text: "n" },
-              { id: "d", text: "−1" },
+              { id: "c", text: "0" },
+              { id: "d", text: "n" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1439,12 +1439,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "cos θ − i sin θ" },
-              { id: "b", text: "cos θ + i sin θ" },
+              { id: "a", text: "cos θ + i sin θ" },
+              { id: "b", text: "cos θ − i sin θ" },
               { id: "c", text: "−cos θ + i sin θ" },
               { id: "d", text: "−cos θ − i sin θ" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1587,12 +1587,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "i" },
+              { id: "a", text: "−i" },
               { id: "b", text: "−1" },
-              { id: "c", text: "−i" },
-              { id: "d", text: "1" },
+              { id: "c", text: "1" },
+              { id: "d", text: "i" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1675,12 +1675,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "−1" },
-              { id: "b", text: "1" },
+              { id: "a", text: "1" },
+              { id: "b", text: "−i" },
               { id: "c", text: "i" },
-              { id: "d", text: "−i" },
+              { id: "d", text: "−1" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "d",
           },
           markscheme: {
             principles: [

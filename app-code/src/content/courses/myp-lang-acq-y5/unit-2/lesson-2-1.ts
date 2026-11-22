@@ -57,11 +57,11 @@ export const lesson21: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "'You're totally wrong.'" },
-              { id: "b", text: "'I take your point, although the evidence suggests otherwise.'" },
-              { id: "c", text: "'Whatever.'" },
-              { id: "d", text: "'That is stupid.'" },
+              { id: "b", text: "'That is stupid.'" },
+              { id: "c", text: "'I take your point, although the evidence suggests otherwise.'" },
+              { id: "d", text: "'Whatever.'" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -173,12 +173,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "That's totally bogus, honestly" },
-              { id: "b", text: "I would suggest that the evidence points elsewhere" },
-              { id: "c", text: "Whatever, I guess" },
-              { id: "d", text: "You are so wrong, OBVIOUSLY" },
+              { id: "a", text: "You are so wrong, OBVIOUSLY" },
+              { id: "b", text: "Whatever, I guess" },
+              { id: "c", text: "I would suggest that the evidence points elsewhere" },
+              { id: "d", text: "That's totally bogus, honestly" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -200,12 +200,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "To show the speaker is confused" },
-              { id: "b", text: "To check understanding before responding" },
-              { id: "c", text: "To end the discussion politely" },
-              { id: "d", text: "To agree with everything said" },
+              { id: "a", text: "To check understanding before responding" },
+              { id: "b", text: "To end the discussion politely" },
+              { id: "c", text: "To agree with everything said" },
+              { id: "d", text: "To show the speaker is confused" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -233,12 +233,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Saying 'too expensive'" },
-              { id: "b", text: "Acknowledging the point with 'That is a valid concern' before qualifying" },
+              { id: "a", text: "Acknowledging the point with 'That is a valid concern' before qualifying" },
+              { id: "b", text: "Saying 'too expensive'" },
               { id: "c", text: "Using the word 'clothing'" },
               { id: "d", text: "Speaking at all" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -313,12 +313,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Agreement and conclusion" },
-              { id: "b", text: "Acknowledgement and qualified challenge" },
-              { id: "c", text: "Question and summary" },
-              { id: "d", text: "Example and definition" },
+              { id: "a", text: "Example and definition" },
+              { id: "b", text: "Agreement and conclusion" },
+              { id: "c", text: "Acknowledgement and qualified challenge" },
+              { id: "d", text: "Question and summary" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -425,12 +425,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Ends the debate" },
-              { id: "b", text: "Acknowledges a point before introducing disagreement" },
-              { id: "c", text: "Asks for evidence" },
-              { id: "d", text: "Changes the subject" },
+              { id: "a", text: "Asks for evidence" },
+              { id: "b", text: "Ends the debate" },
+              { id: "c", text: "Changes the subject" },
+              { id: "d", text: "Acknowledges a point before introducing disagreement" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -495,10 +495,10 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It avoids giving any view" },
+              { id: "a", text: "It uses slang effectively" },
               { id: "b", text: "It balances honesty about uncertainty with a stated position" },
               { id: "c", text: "It criticises the questioner" },
-              { id: "d", text: "It uses slang effectively" },
+              { id: "d", text: "It avoids giving any view" },
             ],
             correctChoiceId: "b",
           },
@@ -553,12 +553,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "List every fact the speaker knows" },
-              { id: "b", text: "State the central argument clearly and early" },
-              { id: "c", text: "End the presentation politely" },
-              { id: "d", text: "Introduce the speaker's biography" },
+              { id: "a", text: "State the central argument clearly and early" },
+              { id: "b", text: "Introduce the speaker's biography" },
+              { id: "c", text: "List every fact the speaker knows" },
+              { id: "d", text: "End the presentation politely" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -670,12 +670,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "To list all the evidence" },
-              { id: "b", text: "To capture attention and introduce the context" },
-              { id: "c", text: "To give the conclusion" },
+              { id: "a", text: "To give the conclusion" },
+              { id: "b", text: "To list all the evidence" },
+              { id: "c", text: "To capture attention and introduce the context" },
               { id: "d", text: "To apologise for the topic" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -697,12 +697,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "There is no difference" },
-              { id: "b", text: "A topic names the subject; a thesis makes an arguable claim" },
-              { id: "c", text: "A thesis is always longer" },
-              { id: "d", text: "A topic is spoken; a thesis is written" },
+              { id: "a", text: "A topic is spoken; a thesis is written" },
+              { id: "b", text: "A thesis is always longer" },
+              { id: "c", text: "There is no difference" },
+              { id: "d", text: "A topic names the subject; a thesis makes an arguable claim" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -730,12 +730,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The hook" },
-              { id: "b", text: "The thesis" },
-              { id: "c", text: "An explicit qualification of the claim" },
-              { id: "d", text: "The conclusion" },
+              { id: "a", text: "The conclusion" },
+              { id: "b", text: "An explicit qualification of the claim" },
+              { id: "c", text: "The hook" },
+              { id: "d", text: "The thesis" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -810,12 +810,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Ignore, deflect, close" },
-              { id: "b", text: "Acknowledge, answer, qualify" },
-              { id: "c", text: "Repeat question, change topic" },
+              { id: "a", text: "Repeat question, change topic" },
+              { id: "b", text: "Ignore, deflect, close" },
+              { id: "c", text: "Acknowledge, answer, qualify" },
               { id: "d", text: "Agree completely, move on" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -923,11 +923,11 @@ export const lesson21: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Read the slide aloud and move on" },
-              { id: "b", text: "Explain what the statistic shows and why it matters" },
-              { id: "c", text: "Skip the statistic entirely" },
+              { id: "b", text: "Skip the statistic entirely" },
+              { id: "c", text: "Explain what the statistic shows and why it matters" },
               { id: "d", text: "Assume everyone understands it" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -992,12 +992,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It repeats the hook word for word" },
-              { id: "b", text: "It synthesises both sides into a qualified judgement" },
-              { id: "c", text: "It introduces a brand-new argument" },
-              { id: "d", text: "It avoids taking any position" },
+              { id: "a", text: "It avoids taking any position" },
+              { id: "b", text: "It introduces a brand-new argument" },
+              { id: "c", text: "It repeats the hook word for word" },
+              { id: "d", text: "It synthesises both sides into a qualified judgement" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

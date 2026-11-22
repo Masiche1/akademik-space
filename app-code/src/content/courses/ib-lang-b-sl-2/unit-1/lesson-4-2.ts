@@ -52,10 +52,10 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A fact about a country's geography" },
+              { id: "a", text: "A footnote explaining history" },
               { id: "b", text: "An allusion to a cultural product, custom or figure the reader is expected to know" },
               { id: "c", text: "A translation of a foreign word" },
-              { id: "d", text: "A footnote explaining history" },
+              { id: "d", text: "A fact about a country's geography" },
             ],
             correctChoiceId: "b",
           },
@@ -152,12 +152,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A fact stated explicitly in the text" },
-              { id: "b", text: "Something the writer takes for granted that readers from the same culture would know" },
+              { id: "a", text: "A translation of an unfamiliar word" },
+              { id: "b", text: "A fact stated explicitly in the text" },
               { id: "c", text: "A mistake the writer makes about another culture" },
-              { id: "d", text: "A translation of an unfamiliar word" },
+              { id: "d", text: "Something the writer takes for granted that readers from the same culture would know" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -179,12 +179,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The rules of every sport" },
-              { id: "b", text: "Which specific sporting or cultural event 'the big game' refers to in that culture" },
-              { id: "c", text: "The advert's product specifications" },
+              { id: "a", text: "The advert's product specifications" },
+              { id: "b", text: "The rules of every sport" },
+              { id: "c", text: "Which specific sporting or cultural event 'the big game' refers to in that culture" },
               { id: "d", text: "The history of all television" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -206,9 +206,9 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Because the writer made cultural errors" },
+              { id: "a", text: "Because the text is always biased" },
               { id: "b", text: "Because you are reading through your own cultural frame of expectations" },
-              { id: "c", text: "Because the text is always biased" },
+              { id: "c", text: "Because the writer made cultural errors" },
               { id: "d", text: "Because you do not know the grammar" },
             ],
             correctChoiceId: "b",
@@ -233,10 +233,10 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "That families eat out on Sundays" },
+              { id: "a", text: "That lunch is the most important meal" },
               { id: "b", text: "That family-centred weekly gatherings are a normal custom" },
-              { id: "c", text: "That all families are large" },
-              { id: "d", text: "That lunch is the most important meal" },
+              { id: "c", text: "That families eat out on Sundays" },
+              { id: "d", text: "That all families are large" },
             ],
             correctChoiceId: "b",
           },
@@ -260,12 +260,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Water boils at 100 degrees Celsius" },
-              { id: "b", text: "She finally passed her driving test" },
-              { id: "c", text: "He wore his lucky jersey to the final" },
-              { id: "d", text: "The train arrives at platform four" },
+              { id: "a", text: "The train arrives at platform four" },
+              { id: "b", text: "Water boils at 100 degrees Celsius" },
+              { id: "c", text: "She finally passed her driving test" },
+              { id: "d", text: "He wore his lucky jersey to the final" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -287,12 +287,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Because they assume readers already share that knowledge" },
-              { id: "b", text: "Because they want to confuse foreign readers" },
-              { id: "c", text: "Because explanations are always wrong" },
-              { id: "d", text: "Because cultural references cannot be explained" },
+              { id: "a", text: "Because they want to confuse foreign readers" },
+              { id: "b", text: "Because cultural references cannot be explained" },
+              { id: "c", text: "Because they assume readers already share that knowledge" },
+              { id: "d", text: "Because explanations are always wrong" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -492,12 +492,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The physical borders of a country" },
-              { id: "b", text: "The set of shared values and references through which a culture interprets events" },
-              { id: "c", text: "A type of picture frame for artwork" },
-              { id: "d", text: "The grammar of a language" },
+              { id: "a", text: "The set of shared values and references through which a culture interprets events" },
+              { id: "b", text: "The grammar of a language" },
+              { id: "c", text: "The physical borders of a country" },
+              { id: "d", text: "A type of picture frame for artwork" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -586,12 +586,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It was manufactured in a factory" },
-              { id: "b", text: "It was produced inside a culture and reflects that culture's values and concerns" },
-              { id: "c", text: "It is only sold in one country" },
-              { id: "d", text: "It has no meaning outside its culture" },
+              { id: "a", text: "It was produced inside a culture and reflects that culture's values and concerns" },
+              { id: "b", text: "It has no meaning outside its culture" },
+              { id: "c", text: "It was manufactured in a factory" },
+              { id: "d", text: "It is only sold in one country" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -613,10 +613,10 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Nothing — all texts are identical" },
+              { id: "a", text: "The theme itself disappears" },
               { id: "b", text: "The cultural expression: how ambition is valued, portrayed and achieved differs" },
-              { id: "c", text: "Only the language used" },
-              { id: "d", text: "The theme itself disappears" },
+              { id: "c", text: "Nothing — all texts are identical" },
+              { id: "d", text: "Only the language used" },
             ],
             correctChoiceId: "b",
           },
@@ -640,12 +640,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It proves your culture is superior" },
-              { id: "b", text: "It reveals that universal themes take culturally specific forms — building intercultural insight" },
+              { id: "a", text: "It reveals that universal themes take culturally specific forms — building intercultural insight" },
+              { id: "b", text: "It is required only for exams" },
               { id: "c", text: "It helps you memorise vocabulary" },
-              { id: "d", text: "It is required only for exams" },
+              { id: "d", text: "It proves your culture is superior" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -667,12 +667,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Only the product's technical features" },
-              { id: "b", text: "The values the culture associates with the product — e.g. family, achievement, tradition" },
-              { id: "c", text: "Nothing — adverts are culture-free" },
-              { id: "d", text: "Only the company's profits" },
+              { id: "a", text: "The values the culture associates with the product — e.g. family, achievement, tradition" },
+              { id: "b", text: "Nothing — adverts are culture-free" },
+              { id: "c", text: "Only the company's profits" },
+              { id: "d", text: "Only the product's technical features" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -694,12 +694,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Nothing at all" },
-              { id: "b", text: "The theme — family loyalty — while the cultural expression differs" },
-              { id: "c", text: "Only the names of characters" },
-              { id: "d", text: "The moral lesson is identical" },
+              { id: "a", text: "The moral lesson is identical" },
+              { id: "b", text: "Only the names of characters" },
+              { id: "c", text: "The theme — family loyalty — while the cultural expression differs" },
+              { id: "d", text: "Nothing at all" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -721,12 +721,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Because comprehension is too easy" },
-              { id: "b", text: "Because language learning aims at communication across cultures, not just decoding words" },
-              { id: "c", text: "Because exams require it" },
-              { id: "d", text: "Because cultures have no differences" },
+              { id: "a", text: "Because cultures have no differences" },
+              { id: "b", text: "Because exams require it" },
+              { id: "c", text: "Because language learning aims at communication across cultures, not just decoding words" },
+              { id: "d", text: "Because comprehension is too easy" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

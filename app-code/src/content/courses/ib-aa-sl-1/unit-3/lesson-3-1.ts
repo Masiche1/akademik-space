@@ -49,12 +49,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$13$" },
-              { id: "b", text: "$19$" },
-              { id: "c", text: "$169$" },
-              { id: "d", text: "$\\sqrt{25}$" },
+              { id: "a", text: "$\\sqrt{25}$" },
+              { id: "b", text: "$169$" },
+              { id: "c", text: "$13$" },
+              { id: "d", text: "$19$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "3D distance", statement: "$d=\\sqrt{\\Delta x^2+\\Delta y^2+\\Delta z^2}$" }],
@@ -157,12 +157,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$(5,1,1)$" },
-              { id: "b", text: "$(6,2,-1)$" },
-              { id: "c", text: "$(5,1,-1)$" },
-              { id: "d", text: "$(4,1,1)$" },
+              { id: "a", text: "$(4,1,1)$" },
+              { id: "b", text: "$(5,1,1)$" },
+              { id: "c", text: "$(6,2,-1)$" },
+              { id: "d", text: "$(5,1,-1)$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Midpoint", statement: "$M=\\left(\\frac{x_1+x_2}{2},\\frac{y_1+y_2}{2},\\frac{z_1+z_2}{2}\\right)$" }],
@@ -183,12 +183,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$288\\pi$ cm$^3$" },
+              { id: "a", text: "$72\\pi$ cm$^3$" },
               { id: "b", text: "$144\\pi$ cm$^3$" },
-              { id: "c", text: "$72\\pi$ cm$^3$" },
+              { id: "c", text: "$288\\pi$ cm$^3$" },
               { id: "d", text: "$864\\pi$ cm$^3$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Sphere volume", statement: "$V=\\frac43\\pi r^3$" }],
@@ -209,12 +209,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\sqrt{41}$" },
+              { id: "a", text: "$6$" },
               { id: "b", text: "$5\\sqrt2$" },
-              { id: "c", text: "$\\sqrt{33}$" },
-              { id: "d", text: "$6$" },
+              { id: "c", text: "$\\sqrt{41}$" },
+              { id: "d", text: "$\\sqrt{33}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "3D distance", statement: "$d=\\sqrt{(x_2-x_1)^2+(y_2-y_1)^2+(z_2-z_1)^2}$" }],
@@ -235,12 +235,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$200\\pi$ cm$^3$" },
+              { id: "a", text: "$80\\pi$ cm$^3$" },
               { id: "b", text: "$100\\pi$ cm$^3$" },
-              { id: "c", text: "$400\\pi$ cm$^3$" },
-              { id: "d", text: "$80\\pi$ cm$^3$" },
+              { id: "c", text: "$200\\pi$ cm$^3$" },
+              { id: "d", text: "$400\\pi$ cm$^3$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Cylinder volume", statement: "$V=\\pi r^2h$" }],
@@ -261,12 +261,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$53.1^\\circ$" },
+              { id: "a", text: "$41.8^\\circ$" },
               { id: "b", text: "$36.9^\\circ$" },
               { id: "c", text: "$48.6^\\circ$" },
-              { id: "d", text: "$41.8^\\circ$" },
+              { id: "d", text: "$53.1^\\circ$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Angle between line and plane", statement: "The angle between a line and a plane is the angle between the line and its projection onto the plane." }],
@@ -287,12 +287,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$48$ cm$^3$" },
-              { id: "b", text: "$144$ cm$^3$" },
-              { id: "c", text: "$96$ cm$^3$" },
-              { id: "d", text: "$24$ cm$^3$" },
+              { id: "a", text: "$96$ cm$^3$" },
+              { id: "b", text: "$24$ cm$^3$" },
+              { id: "c", text: "$48$ cm$^3$" },
+              { id: "d", text: "$144$ cm$^3$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Pyramid volume", statement: "$V=\\frac13Ah$" }],
@@ -508,12 +508,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$5\\sqrt2$" },
-              { id: "b", text: "$\\dfrac{5\\sqrt2}{2}$" },
-              { id: "c", text: "$5\\sqrt3$" },
-              { id: "d", text: "$\\dfrac52$" },
+              { id: "a", text: "$5\\sqrt3$" },
+              { id: "b", text: "$\\dfrac52$" },
+              { id: "c", text: "$\\dfrac{5\\sqrt2}{2}$" },
+              { id: "d", text: "$5\\sqrt2$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "law", name: "Sine rule", statement: "$\\frac{AC}{\\sin B}=\\frac{BC}{\\sin A}$" }],
@@ -625,9 +625,9 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$\\sqrt{39}$" },
-              { id: "b", text: "$\\sqrt{89}$" },
-              { id: "c", text: "$\\sqrt{59}$" },
-              { id: "d", text: "$2\\sqrt{39}$" },
+              { id: "b", text: "$\\sqrt{59}$" },
+              { id: "c", text: "$2\\sqrt{39}$" },
+              { id: "d", text: "$\\sqrt{89}$" },
             ],
             correctChoiceId: "a",
           },
@@ -650,12 +650,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$20$ cm$^2$" },
-              { id: "b", text: "$40$ cm$^2$" },
-              { id: "c", text: "$10\\sqrt3$ cm$^2$" },
-              { id: "d", text: "$80$ cm$^2$" },
+              { id: "a", text: "$40$ cm$^2$" },
+              { id: "b", text: "$20$ cm$^2$" },
+              { id: "c", text: "$80$ cm$^2$" },
+              { id: "d", text: "$10\\sqrt3$ cm$^2$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Area of a triangle", statement: "$A=\\frac12ab\\sin C$" }],
@@ -678,8 +678,8 @@ export const lesson31: Lesson = {
             choices: [
               { id: "a", text: "$35.1^\\circ$" },
               { id: "b", text: "$144.9^\\circ$" },
-              { id: "c", text: "$54.9^\\circ$" },
-              { id: "d", text: "$41.8^\\circ$" },
+              { id: "c", text: "$41.8^\\circ$" },
+              { id: "d", text: "$54.9^\\circ$" },
             ],
             correctChoiceId: "a",
           },
@@ -703,9 +703,9 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$2\\sqrt{41}$ km" },
-              { id: "b", text: "$18$ km" },
-              { id: "c", text: "$2\\sqrt{29}$ km" },
-              { id: "d", text: "$\\sqrt{200}$ km" },
+              { id: "b", text: "$\\sqrt{200}$ km" },
+              { id: "c", text: "$18$ km" },
+              { id: "d", text: "$2\\sqrt{29}$ km" },
             ],
             correctChoiceId: "a",
           },
@@ -898,12 +898,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$10.9$" },
+              { id: "a", text: "$13.1$" },
               { id: "b", text: "$11.4$" },
               { id: "c", text: "$9.82$" },
-              { id: "d", text: "$13.1$" },
+              { id: "d", text: "$10.9$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "law", name: "Sine rule", statement: "$\\frac{b}{\\sin B}=\\frac{a}{\\sin A}$" }],
@@ -924,12 +924,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$45\\sqrt3$ cm$^2$" },
-              { id: "b", text: "$90$ cm$^2$" },
+              { id: "a", text: "$90$ cm$^2$" },
+              { id: "b", text: "$45\\sqrt3$ cm$^2$" },
               { id: "c", text: "$45\\sqrt2$ cm$^2$" },
               { id: "d", text: "$22.5\\sqrt3$ cm$^2$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Area of a triangle", statement: "$A=\\frac12ab\\sin C$" }],

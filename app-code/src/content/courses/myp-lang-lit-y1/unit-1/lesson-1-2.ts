@@ -53,12 +53,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "cat — dog" },
-              { id: "b", text: "sun — run" },
-              { id: "c", text: "tree — book" },
-              { id: "d", text: "blue — red" },
+              { id: "a", text: "tree — book" },
+              { id: "b", text: "blue — red" },
+              { id: "c", text: "cat — dog" },
+              { id: "d", text: "sun — run" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -153,12 +153,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "day — night" },
-              { id: "b", text: "sky — fly" },
-              { id: "c", text: "moon — sun" },
-              { id: "d", text: "cloud — rain" },
+              { id: "a", text: "moon — sun" },
+              { id: "b", text: "day — night" },
+              { id: "c", text: "cloud — rain" },
+              { id: "d", text: "sky — fly" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "convention", name: "Rhyme", statement: "Words rhyme when their end sounds match." }],
@@ -174,12 +174,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The rhyming words at the end of lines" },
-              { id: "b", text: "The steady rhythm you can tap or clap along to" },
-              { id: "c", text: "The number of stanzas in a poem" },
-              { id: "d", text: "The title of the poem" },
+              { id: "a", text: "The steady rhythm you can tap or clap along to" },
+              { id: "b", text: "The title of the poem" },
+              { id: "c", text: "The rhyming words at the end of lines" },
+              { id: "d", text: "The number of stanzas in a poem" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Rhythm", statement: "The beat is the poem's steady pattern of stressed and unstressed sounds." }],
@@ -195,12 +195,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "bell — rang" },
-              { id: "b", text: "clear — here" },
+              { id: "a", text: "clear — here" },
+              { id: "b", text: "bell — rang" },
               { id: "c", text: "rang — day" },
               { id: "d", text: "loud — clear" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "convention", name: "Rhyme", statement: "Rhymes are usually at the ends of lines and share end sounds." }],
@@ -272,12 +272,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "To check the rhyme and beat sound right" },
+              { id: "a", text: "To count the stanzas" },
               { id: "b", text: "To make the poem longer" },
               { id: "c", text: "To change the title" },
-              { id: "d", text: "To count the stanzas" },
+              { id: "d", text: "To check the rhyme and beat sound right" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "skill", name: "Reading aloud", statement: "The ear catches rhythm and rhyme problems the eye misses." }],
@@ -343,11 +343,11 @@ export const lesson12: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "dog" },
-              { id: "b", text: "mat" },
-              { id: "c", text: "tree" },
+              { id: "b", text: "tree" },
+              { id: "c", text: "mat" },
               { id: "d", text: "sun" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "convention", name: "Rhyme", statement: "A rhyming word ends with the same sound." }],
@@ -363,12 +363,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The waves roll on the sand / where seagulls wheel across the land" },
-              { id: "b", text: "The waves roll on the sand / where seagulls wheel across the blue" },
-              { id: "c", text: "The waves roll on the shore / the boats are sailing out once more" },
-              { id: "d", text: "The sea is calm and wide / the boats go out with the evening tide" },
+              { id: "a", text: "The sea is calm and wide / the boats go out with the evening tide" },
+              { id: "b", text: "The waves roll on the shore / the boats are sailing out once more" },
+              { id: "c", text: "The waves roll on the sand / where seagulls wheel across the land" },
+              { id: "d", text: "The waves roll on the sand / where seagulls wheel across the blue" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Rhyming lines", statement: "The last words of rhyming lines share an end sound." }],
@@ -442,10 +442,10 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Sight" },
-              { id: "b", text: "Sound" },
+              { id: "a", text: "Sound" },
+              { id: "b", text: "Smell" },
               { id: "c", text: "Taste (and touch)" },
-              { id: "d", text: "Smell" },
+              { id: "d", text: "Sight" },
             ],
             correctChoiceId: "c",
           },
@@ -544,11 +544,11 @@ export const lesson12: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Sight" },
-              { id: "b", text: "Sound" },
-              { id: "c", text: "Smell" },
-              { id: "d", text: "Taste" },
+              { id: "b", text: "Smell" },
+              { id: "c", text: "Taste" },
+              { id: "d", text: "Sound" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Imagery", statement: "Imagery appeals to the five senses." }],
@@ -564,12 +564,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Sight" },
-              { id: "b", text: "Touch" },
-              { id: "c", text: "Smell" },
-              { id: "d", text: "Sound" },
+              { id: "a", text: "Sound" },
+              { id: "b", text: "Smell" },
+              { id: "c", text: "Touch" },
+              { id: "d", text: "Sight" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Imagery", statement: "Smell imagery describes things you can smell." }],
@@ -585,12 +585,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Touch" },
-              { id: "b", text: "Sight" },
-              { id: "c", text: "Taste" },
+              { id: "a", text: "Sight" },
+              { id: "b", text: "Taste" },
+              { id: "c", text: "Touch" },
               { id: "d", text: "Sound" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Imagery types", statement: "'Cold wind bit our cheeks' describes a feeling on the skin — touch." }],
@@ -662,12 +662,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The soup steamed on the table" },
-              { id: "b", text: "The bell rang across the valley" },
-              { id: "c", text: "The red kite danced against the grey sky" },
-              { id: "d", text: "The lemonade was sharp and cold" },
+              { id: "a", text: "The bell rang across the valley" },
+              { id: "b", text: "The soup steamed on the table" },
+              { id: "c", text: "The lemonade was sharp and cold" },
+              { id: "d", text: "The red kite danced against the grey sky" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Imagery types", statement: "Sight imagery describes things you can see." }],
@@ -732,10 +732,10 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Sight" },
+              { id: "a", text: "Taste" },
               { id: "b", text: "Smell" },
-              { id: "c", text: "Sound" },
-              { id: "d", text: "Taste" },
+              { id: "c", text: "Sight" },
+              { id: "d", text: "Sound" },
             ],
             correctChoiceId: "b",
           },
@@ -753,10 +753,10 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The kitchen smelled of cinnamon and fresh bread" },
+              { id: "a", text: "like fingers asking to come in" },
               { id: "b", text: "Steam curled from the pot on the stove" },
               { id: "c", text: "rain tapped softly at the window" },
-              { id: "d", text: "like fingers asking to come in" },
+              { id: "d", text: "The kitchen smelled of cinnamon and fresh bread" },
             ],
             correctChoiceId: "b",
           },

@@ -74,15 +74,15 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "Trade agreements only" },
               {
-                id: "a",
+                id: "b",
                 text: "Rich centre countries exploiting poorer periphery",
               },
-              { id: "b", text: "Geographic map of continents" },
               { id: "c", text: "Migration routes" },
-              { id: "d", text: "Trade agreements only" },
+              { id: "d", text: "Geographic map of continents" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -248,6 +248,467 @@ export const lesson52: Lesson = {
               "(a) inequality (b) core-periphery (c) types (d) effects",
           },
         },
+        {
+          id: "asoc-u5-pm-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "What does dependency theory argue?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Poor countries simply lag behind the West" },
+              { id: "b", text: "Poor countries are kept underdeveloped by rich countries" },
+              { id: "c", text: "Development depends only on geography" },
+              { id: "d", text: "All countries develop at the same rate" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Dependency theory",
+                statement: "Rich exploit poor.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Dependency = exploitation, not lag.",
+                marks: 1,
+                markCode: "AO1",
+              },
+            ],
+            finalAnswer:
+              "**(a)** Poor countries are kept underdeveloped by rich countries",
+            commonErrors: ["Confusing with modernisation."],
+          },
+        },
+        {
+          id: "asoc-u5-pm-q6",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Which is an example of forced migration?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Studying overseas for a degree" },
+              { id: "b", text: "Moving abroad for a better job" },
+              { id: "c", text: "Fleeing a war zone as a refugee" },
+              { id: "d", text: "Retiring to a warmer country" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Forced migration",
+                statement: "Fleeing danger, not choice.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "War/persecution = forced.",
+                marks: 1,
+                markCode: "AO2",
+              },
+            ],
+            finalAnswer: "**(a)** Fleeing a war zone as a refugee",
+            commonErrors: ["Picking a voluntary move."],
+          },
+        },
+        {
+          id: "asoc-u5-pm-q7",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Remittances refer to:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Money sent by migrants to family in origin countries" },
+              { id: "b", text: "Foreign investment in infrastructure" },
+              { id: "c", text: "Government aid to refugees" },
+              { id: "d", text: "Wages paid by host-country firms" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Remittances",
+                statement: "Money sent home by migrants.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Remittances = migrant transfers home.",
+                marks: 1,
+                markCode: "AO1",
+              },
+            ],
+            finalAnswer:
+              "**(a)** Money sent by migrants to family in origin countries",
+            commonErrors: ["Confusing with aid or wages."],
+          },
+        },
+        {
+          id: "asoc-u5-pm-q8",
+          difficulty: "challenge",
+          totalMarks: 1,
+          stem: "The 'brain drain' refers to:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Decline in agricultural output" },
+              { id: "b", text: "Media leaving a country" },
+              { id: "c", text: "Skilled workers emigrating from poorer countries" },
+              { id: "d", text: "Loss of rainfall in dry regions" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Brain drain",
+                statement: "Loss of skilled workers.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Brain drain = skilled emigration.",
+                marks: 1,
+                markCode: "AO1",
+              },
+            ],
+            finalAnswer:
+              "**(a)** Skilled workers emigrating from poorer countries",
+            commonErrors: ["Literal interpretation of 'drain'."],
+          },
+        },
+        {
+          id: "asoc-u5-pm-q9",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "In the core-periphery model, which group benefits most?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Migrant workers" },
+              { id: "b", text: "Core (rich centre) countries" },
+              { id: "c", text: "Peripheral countries" },
+              { id: "d", text: "International charities" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Core-periphery",
+                statement: "Core exploits periphery.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Core benefits at periphery's expense.",
+                marks: 1,
+                markCode: "AO1",
+              },
+            ],
+            finalAnswer: "**(a)** Core (rich centre) countries",
+            commonErrors: ["Reversing the model."],
+          },
+        },
+        {
+          id: "asoc-u5-pm-q10",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "Of 500 migrants surveyed, 40% moved for economic reasons. How many migrants is that?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 200 }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Percentage",
+                statement: "Part/whole x 100.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "40% of 500 = 0.4 x 500.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              { reasoning: "= 200.", marks: 1, markCode: "AO2" },
+            ],
+            finalAnswer: "200",
+            commonErrors: ["Using the wrong total."],
+          },
+        },
+        {
+          id: "asoc-u5-pm-q11",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "Remittances to a country rose from $8 billion to $10 billion. What was the percentage increase?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 25 }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Percentage increase",
+                statement: "Change/original x 100.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Increase = 10 - 8 = 2.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                reasoning: "2/8 x 100 = 25%.",
+                marks: 1,
+                markCode: "AO2",
+              },
+            ],
+            finalAnswer: "25",
+            commonErrors: ["Dividing by the new value."],
+          },
+        },
+        {
+          id: "asoc-u5-pm-q12",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "In a survey of 1,500 people, 30% had a family member working abroad. How many people was this?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 450 }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Percentage",
+                statement: "Part/whole x 100.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "30% of 1500 = 0.3 x 1500.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              { reasoning: "= 450.", marks: 1, markCode: "AO2" },
+            ],
+            finalAnswer: "450",
+            commonErrors: ["Forgetting decimal conversion."],
+          },
+        },
+        {
+          id: "asoc-u5-pm-q13",
+          difficulty: "challenge",
+          totalMarks: 2,
+          stem: "Country A's GDP per capita is $12,000 and Country B's is $4,000. How many times larger is A's GDP per capita?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 3 }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Ratio",
+                statement: "Larger/smaller.",
+              },
+            ],
+            steps: [
+              { reasoning: "12000/4000 = 3.", marks: 1, markCode: "AO1" },
+              {
+                reasoning: "Three times larger.",
+                marks: 1,
+                markCode: "AO2",
+              },
+            ],
+            finalAnswer: "3",
+            commonErrors: ["Subtracting instead of dividing."],
+          },
+        },
+        {
+          id: "asoc-u5-pm-q14",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "Explain two effects of migration on origin countries.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Migration effects",
+                statement: "Remittances vs brain drain.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Remittances support families.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                reasoning: "Brain drain loses skilled workers.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                reasoning: "Clear explanation of both.",
+                marks: 1,
+                markCode: "AO2",
+              },
+            ],
+            finalAnswer:
+              "Remittances benefit families; brain drain deprives origin countries of skilled workers.",
+            commonErrors: ["Only covering destination effects."],
+          },
+        },
+        {
+          id: "asoc-u5-pm-q15",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "Evaluate the view that migration always benefits host countries.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Host country effects",
+                statement: "Benefits vs challenges.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Hosts gain workers/labour.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                reasoning: "Integration challenges exist.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                reasoning: "'Always' is too absolute.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              { reasoning: "Balanced judgement.", marks: 1, markCode: "AO3" },
+            ],
+            finalAnswer:
+              "Migration benefits hosts through labour supply but creates integration challenges — not always beneficial.",
+            commonErrors: ["Accepting 'always' without critique."],
+          },
+        },
+        {
+          id: "asoc-u5-pm-q16",
+          difficulty: "challenge",
+          totalMarks: 9,
+          stem: "Globalisation, poverty and migration — extended response.",
+          parts: [
+            {
+              label: "a",
+              prompt: "Explain what is meant by global inequality.",
+              marks: 2,
+            },
+            {
+              label: "b",
+              prompt: "Distinguish economic from forced migration.",
+              marks: 2,
+            },
+            {
+              label: "c",
+              prompt: "Explain two effects of migration on origin countries.",
+              marks: 2,
+            },
+            {
+              label: "d",
+              prompt: "Evaluate the impact of migration on host countries.",
+              marks: 3,
+            },
+          ],
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Poverty/migration",
+                statement: "Inequality+types+effects+evaluation.",
+              },
+            ],
+            steps: [
+              {
+                part: "a",
+                reasoning: "Uneven wealth between countries.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                part: "a",
+                reasoning: "Clear explanation.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                part: "b",
+                reasoning: "Economic=choice for work.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                part: "b",
+                reasoning: "Forced=fleeing danger.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                part: "c",
+                reasoning: "Remittances/brain drain.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                part: "c",
+                reasoning: "Clear effects.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                part: "d",
+                reasoning: "Labour benefits.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                part: "d",
+                reasoning: "Integration challenges.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                part: "d",
+                reasoning: "Balanced judgement.",
+                marks: 1,
+                markCode: "AO3",
+              },
+            ],
+            finalAnswer: "(a) inequality (b) types (c) origin effects (d) host effects",
+          },
+        },
       ],
     },
     {
@@ -292,12 +753,12 @@ export const lesson52: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Human trafficking" },
+              { id: "a", text: "Parking violation" },
               { id: "b", text: "Local theft" },
-              { id: "c", text: "Parking violation" },
+              { id: "c", text: "Human trafficking" },
               { id: "d", text: "School bullying" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -458,6 +919,471 @@ export const lesson52: Lesson = {
             ],
             finalAnswer:
               "(a) definition (b) types (c) challenges (d) responses",
+          },
+        },
+        {
+          id: "asoc-u5-gc-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Which is NOT an example of global crime?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "A local burglary in a single neighbourhood" },
+              { id: "b", text: "Drug trafficking networks" },
+              { id: "c", text: "Cybercrime operating across borders" },
+              { id: "d", text: "Money laundering through offshore accounts" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Global crime",
+                statement: "Crosses national borders.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Local crime does not cross borders.",
+                marks: 1,
+                markCode: "AO1",
+              },
+            ],
+            finalAnswer: "**(a)** A local burglary in a single neighbourhood",
+            commonErrors: ["Picking a cross-border crime."],
+          },
+        },
+        {
+          id: "asoc-u5-gc-q6",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Human trafficking is best described as:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Smuggling goods across borders" },
+              { id: "b", text: "The illegal trade of people for exploitation" },
+              { id: "c", text: "Legal migration for work" },
+              { id: "d", text: "A form of cybercrime only" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Human trafficking",
+                statement: "Illegal trade of people.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Trafficking = people, not goods.",
+                marks: 1,
+                markCode: "AO1",
+              },
+            ],
+            finalAnswer:
+              "**(a)** The illegal trade of people for exploitation",
+            commonErrors: ["Confusing with people smuggling."],
+          },
+        },
+        {
+          id: "asoc-u5-gc-q7",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "The main jurisdiction problem in global crime is:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "How to train officers" },
+              { id: "b", text: "How to fund police forces" },
+              { id: "c", text: "Which country has the right to prosecute" },
+              { id: "d", text: "How to collect evidence" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Jurisdiction",
+                statement: "Which country prosecutes?",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Jurisdiction = who prosecutes.",
+                marks: 1,
+                markCode: "AO1",
+              },
+            ],
+            finalAnswer: "**(a)** Which country has the right to prosecute",
+            commonErrors: ["Vague answers about coordination."],
+          },
+        },
+        {
+          id: "asoc-u5-gc-q8",
+          difficulty: "challenge",
+          totalMarks: 1,
+          stem: "Extraterritorial laws allow countries to:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Prosecute crimes committed outside their borders" },
+              { id: "b", text: "Extradite all foreign nationals" },
+              { id: "c", text: "Set global crime policy alone" },
+              { id: "d", text: "Ignore foreign laws entirely" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Extraterritoriality",
+                statement: "Prosecute abroad.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Extraterritorial = beyond borders.",
+                marks: 1,
+                markCode: "AO1",
+              },
+            ],
+            finalAnswer:
+              "**(a)** Prosecute crimes committed outside their borders",
+            commonErrors: ["Overstating unilateral power."],
+          },
+        },
+        {
+          id: "asoc-u5-gc-q9",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Interpol's main role is:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Writing international trade laws" },
+              { id: "b", text: "Trying criminals in one court" },
+              { id: "c", text: "Funding national police forces" },
+              { id: "d", text: "Coordinating police cooperation across countries" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Interpol",
+                statement: "International police coordination.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Interpol coordinates, not prosecutes.",
+                marks: 1,
+                markCode: "AO1",
+              },
+            ],
+            finalAnswer:
+              "**(a)** Coordinating police cooperation across countries",
+            commonErrors: ["Thinking it prosecutes directly."],
+          },
+        },
+        {
+          id: "asoc-u5-gc-q10",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "A country reported 2,000 cybercrime cases and convicted 250 offenders. What percentage of cases resulted in conviction?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 12.5 }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Percentage",
+                statement: "Part/whole x 100.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "250/2000 = 0.125.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                reasoning: "0.125 x 100 = 12.5%.",
+                marks: 1,
+                markCode: "AO2",
+              },
+            ],
+            finalAnswer: "12.5",
+            commonErrors: ["Inverting the fraction."],
+          },
+        },
+        {
+          id: "asoc-u5-gc-q11",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "Seizures of illicit goods rose from $300 million to $360 million. What was the percentage increase?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 20 }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Percentage increase",
+                statement: "Change/original x 100.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Increase = 360 - 300 = 60.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                reasoning: "60/300 x 100 = 20%.",
+                marks: 1,
+                markCode: "AO2",
+              },
+            ],
+            finalAnswer: "20",
+            commonErrors: ["Dividing by the new value."],
+          },
+        },
+        {
+          id: "asoc-u5-gc-q12",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "In a survey of 800 security officials, 60% cited jurisdiction problems as the biggest obstacle. How many officials was this?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 480 }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Percentage",
+                statement: "Part/whole x 100.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "60% of 800 = 0.6 x 800.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              { reasoning: "= 480.", marks: 1, markCode: "AO2" },
+            ],
+            finalAnswer: "480",
+            commonErrors: ["Using the wrong base."],
+          },
+        },
+        {
+          id: "asoc-u5-gc-q13",
+          difficulty: "challenge",
+          totalMarks: 2,
+          stem: "Illicit drug trafficking is estimated to generate $150 billion annually. If 20% of profits are laundered through one region, what is that amount?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 30 }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Percentage of total",
+                statement: "20% of 150.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "0.2 x 150 = 30.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                reasoning: "Amount = $30 billion.",
+                marks: 1,
+                markCode: "AO2",
+              },
+            ],
+            finalAnswer: "30",
+            commonErrors: ["Forgetting decimal conversion."],
+          },
+        },
+        {
+          id: "asoc-u5-gc-q14",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "Explain why cybercrime is difficult to detect and prosecute.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Cybercrime",
+                statement: "Digital, borderless, anonymous.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Crosses borders instantly.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                reasoning: "Anonymous/difficult to trace.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                reasoning: "Jurisdiction and evidence problems.",
+                marks: 1,
+                markCode: "AO2",
+              },
+            ],
+            finalAnswer:
+              "Cybercrime is borderless and anonymous, creating detection and jurisdiction difficulties.",
+            commonErrors: ["Only mentioning technology."],
+          },
+        },
+        {
+          id: "asoc-u5-gc-q15",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "Evaluate international responses to global crime.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Crime responses",
+                statement: "Coordination vs limitations.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Interpol/UN coordinate effectively.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                reasoning: "Extraterritorial laws extend reach.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                reasoning: "Weak states/corruption limit success.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              { reasoning: "Balanced judgement.", marks: 1, markCode: "AO3" },
+            ],
+            finalAnswer:
+              "Responses exist but are limited by differing laws, corruption and national capacity.",
+            commonErrors: ["Description only, no evaluation."],
+          },
+        },
+        {
+          id: "asoc-u5-gc-q16",
+          difficulty: "challenge",
+          totalMarks: 9,
+          stem: "Global crime — extended response.",
+          parts: [
+            {
+              label: "a",
+              prompt: "Define global crime and name two types.",
+              marks: 2,
+            },
+            {
+              label: "b",
+              prompt: "Explain the jurisdiction problem.",
+              marks: 2,
+            },
+            {
+              label: "c",
+              prompt: "How does technology both enable and fight global crime?",
+              marks: 2,
+            },
+            { label: "d", prompt: "Evaluate responses to global crime.", marks: 3 },
+          ],
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Global crime",
+                statement: "Definition+jurisdiction+technology+responses.",
+              },
+            ],
+            steps: [
+              {
+                part: "a",
+                reasoning: "Crosses borders.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                part: "a",
+                reasoning: "Two valid types named.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                part: "b",
+                reasoning: "Which country prosecutes unclear.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                part: "b",
+                reasoning: "Criminals exploit legal differences.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                part: "c",
+                reasoning: "Enables cybercrime/anonymity.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                part: "c",
+                reasoning: "Also aids tracking/coordination.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                part: "d",
+                reasoning: "Interpol/extraterritorial responses.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                part: "d",
+                reasoning: "Limitations acknowledged.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                part: "d",
+                reasoning: "Balanced judgement.",
+                marks: 1,
+                markCode: "AO3",
+              },
+            ],
+            finalAnswer: "(a) definition/types (b) jurisdiction (c) technology (d) evaluation",
           },
         },
       ],

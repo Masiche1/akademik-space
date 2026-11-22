@@ -51,12 +51,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "(n+½)λ" },
-              { id: "b", text: "nλ" },
-              { id: "c", text: "λ/2" },
+              { id: "a", text: "λ/2" },
+              { id: "b", text: "(n+½)λ" },
+              { id: "c", text: "nλ" },
               { id: "d", text: "Zero only" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Interference", statement: "Constructive: nλ; destructive: (n+½)λ." }],
@@ -167,12 +167,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Maximum amplitude" },
-              { id: "b", text: "Zero amplitude" },
+              { id: "a", text: "Zero amplitude" },
+              { id: "b", text: "Maximum amplitude" },
               { id: "c", text: "Maximum frequency" },
               { id: "d", text: "Travelling wave" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Node", statement: "Zero amplitude point." }],

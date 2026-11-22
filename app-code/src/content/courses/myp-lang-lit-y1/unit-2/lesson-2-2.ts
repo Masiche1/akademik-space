@@ -54,10 +54,10 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Sad" },
+              { id: "a", text: "Tired" },
               { id: "b", text: "Glad" },
               { id: "c", text: "Angry" },
-              { id: "d", text: "Tired" },
+              { id: "d", text: "Sad" },
             ],
             correctChoiceId: "b",
           },
@@ -140,12 +140,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "small" },
-              { id: "b", text: "large" },
+              { id: "a", text: "large" },
+              { id: "b", text: "small" },
               { id: "c", text: "slow" },
               { id: "d", text: "quiet" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "convention", name: "Synonym", statement: "A synonym means the same or nearly the same." }],
@@ -161,12 +161,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "warm" },
-              { id: "b", text: "cold" },
+              { id: "a", text: "cold" },
+              { id: "b", text: "big" },
               { id: "c", text: "sunny" },
-              { id: "d", text: "big" },
+              { id: "d", text: "warm" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "convention", name: "Antonym", statement: "An antonym means the opposite." }],
@@ -182,12 +182,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "begin — end" },
-              { id: "b", text: "ancient — modern" },
-              { id: "c", text: "clever — smart" },
-              { id: "d", text: "loud — quiet" },
+              { id: "a", text: "clever — smart" },
+              { id: "b", text: "loud — quiet" },
+              { id: "c", text: "ancient — modern" },
+              { id: "d", text: "begin — end" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "convention", name: "Synonym", statement: "Synonyms share meaning; the others in (a),(b),(d) are antonyms." }],
@@ -249,12 +249,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "old" },
-              { id: "b", text: "modern" },
+              { id: "a", text: "modern" },
+              { id: "b", text: "old" },
               { id: "c", text: "historic" },
               { id: "d", text: "antique" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "convention", name: "Antonym", statement: "Antonyms are opposites; 'modern' opposes 'ancient'." }],
@@ -309,12 +309,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A word that means the same as another" },
-              { id: "b", text: "A word that means the opposite" },
-              { id: "c", text: "A very long word" },
-              { id: "d", text: "A word in a poem" },
+              { id: "a", text: "A very long word" },
+              { id: "b", text: "A word in a poem" },
+              { id: "c", text: "A word that means the same as another" },
+              { id: "d", text: "A word that means the opposite" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "convention", name: "Antonym", statement: "An antonym is a word meaning the opposite." }],
@@ -330,12 +330,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "end" },
-              { id: "b", text: "start" },
-              { id: "c", text: "finish" },
+              { id: "a", text: "start" },
+              { id: "b", text: "finish" },
+              { id: "c", text: "end" },
               { id: "d", text: "stop" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "convention", name: "Synonym", statement: "'Start' means the same as 'begin'." }],
@@ -406,8 +406,8 @@ export const lesson22: Lesson = {
             choices: [
               { id: "a", text: "Very noisy" },
               { id: "b", text: "Completely quiet" },
-              { id: "c", text: "Full of books" },
-              { id: "d", text: "Very crowded" },
+              { id: "c", text: "Very crowded" },
+              { id: "d", text: "Full of books" },
             ],
             correctChoiceId: "b",
           },
@@ -494,12 +494,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Very wet" },
-              { id: "b", text: "Very dry" },
+              { id: "a", text: "Very dry" },
+              { id: "b", text: "Very wet" },
               { id: "c", text: "Very hot" },
               { id: "d", text: "Very sandy" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Context clues", statement: "'No water for miles' in a desert shows 'arid' means dry." }],
@@ -515,12 +515,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Very large" },
-              { id: "b", text: "Very small" },
-              { id: "c", text: "Very fast" },
-              { id: "d", text: "Very loud" },
+              { id: "a", text: "Very small" },
+              { id: "b", text: "Very large" },
+              { id: "c", text: "Very loud" },
+              { id: "d", text: "Very fast" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Context clues", statement: "'Could fit inside my shoe' shows the kitten is very small." }],
@@ -536,12 +536,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Very tired" },
-              { id: "b", text: "Very full" },
-              { id: "c", text: "Extremely hungry" },
-              { id: "d", text: "Very thirsty" },
+              { id: "a", text: "Extremely hungry" },
+              { id: "b", text: "Very tired" },
+              { id: "c", text: "Very thirsty" },
+              { id: "d", text: "Very full" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Context clue: cause/effect", statement: "Skipping lunch causes hunger — 'famished' means extremely hungry." }],
@@ -604,9 +604,9 @@ export const lesson22: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Very shy" },
-              { id: "b", text: "Very quiet" },
+              { id: "b", text: "Very angry" },
               { id: "c", text: "Talks a lot" },
-              { id: "d", text: "Very angry" },
+              { id: "d", text: "Very quiet" },
             ],
             correctChoiceId: "c",
           },
@@ -668,12 +668,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Very large" },
-              { id: "b", text: "Very small" },
-              { id: "c", text: "Very fast" },
-              { id: "d", text: "Very loud" },
+              { id: "a", text: "Very small" },
+              { id: "b", text: "Very loud" },
+              { id: "c", text: "Very large" },
+              { id: "d", text: "Very fast" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Context clues", statement: "Comparisons reveal word meanings." }],
@@ -691,8 +691,8 @@ export const lesson22: Lesson = {
             choices: [
               { id: "a", text: "Very strict" },
               { id: "b", text: "Kind and giving" },
-              { id: "c", text: "Very quiet" },
-              { id: "d", text: "Very old" },
+              { id: "c", text: "Very old" },
+              { id: "d", text: "Very quiet" },
             ],
             correctChoiceId: "b",
           },

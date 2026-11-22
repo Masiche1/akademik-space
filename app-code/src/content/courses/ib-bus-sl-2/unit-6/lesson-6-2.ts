@@ -55,12 +55,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Stakeholder theory" },
-              { id: "b", text: "Shareholder theory" },
+              { id: "a", text: "Shareholder theory" },
+              { id: "b", text: "CSR theory" },
               { id: "c", text: "Triple bottom line" },
-              { id: "d", text: "CSR theory" },
+              { id: "d", text: "Stakeholder theory" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Shareholder theory", statement: "A firm's duty is to maximise shareholder returns within the law." }],
@@ -81,12 +81,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Greenwashing" },
-              { id: "b", text: "Ethical sourcing" },
-              { id: "c", text: "Outsourcing" },
+              { id: "a", text: "Ethical sourcing" },
+              { id: "b", text: "Outsourcing" },
+              { id: "c", text: "Greenwashing" },
               { id: "d", text: "Dumping" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Ethical sourcing", statement: "Buying materials and labour under fair, humane conditions." }],
@@ -153,12 +153,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Business ethics" },
+              { id: "a", text: "Cost-benefit analysis" },
               { id: "b", text: "Market segmentation" },
-              { id: "c", text: "Cost-benefit analysis" },
-              { id: "d", text: "Franchising" },
+              { id: "c", text: "Franchising" },
+              { id: "d", text: "Business ethics" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Business ethics", statement: "The moral principles guiding how a business treats people and society." }],
@@ -179,12 +179,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Reward employees for meeting sales targets" },
-              { id: "b", text: "Encourage staff to report unethical behaviour safely" },
-              { id: "c", text: "Reduce the number of shareholders" },
-              { id: "d", text: "Cut costs in the supply chain" },
+              { id: "a", text: "Reduce the number of shareholders" },
+              { id: "b", text: "Reward employees for meeting sales targets" },
+              { id: "c", text: "Cut costs in the supply chain" },
+              { id: "d", text: "Encourage staff to report unethical behaviour safely" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Whistle-blowing", statement: "Protected reporting channels help firms detect and stop unethical conduct." }],
@@ -205,12 +205,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A company director" },
-              { id: "b", text: "An employee" },
-              { id: "c", text: "A majority owner" },
+              { id: "a", text: "A majority owner" },
+              { id: "b", text: "A company director" },
+              { id: "c", text: "An employee" },
               { id: "d", text: "An institutional investor" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Stakeholder", statement: "Anyone affected by or able to affect the business — employees, customers, suppliers, community." }],
@@ -231,12 +231,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "To maximise shareholder returns within the law" },
-              { id: "b", text: "To balance the interests of all stakeholders" },
-              { id: "c", text: "To solve social problems directly" },
-              { id: "d", text: "To minimise its environmental impact" },
+              { id: "a", text: "To balance the interests of all stakeholders" },
+              { id: "b", text: "To minimise its environmental impact" },
+              { id: "c", text: "To maximise shareholder returns within the law" },
+              { id: "d", text: "To solve social problems directly" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Shareholder theory", statement: "A firm's only duty is to maximise shareholder returns within the law." }],
@@ -258,11 +258,11 @@ export const lesson62: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Guaranteed higher long-term profits" },
-              { id: "b", text: "Reputational damage, fines and loss of customer trust" },
-              { id: "c", text: "Reduced competition in the market" },
+              { id: "b", text: "Reduced competition in the market" },
+              { id: "c", text: "Reputational damage, fines and loss of customer trust" },
               { id: "d", text: "Lower production costs" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Cost of unethical conduct", statement: "Unethical behaviour destroys trust, invites penalties and damages the brand." }],
@@ -284,9 +284,9 @@ export const lesson62: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Profit, people and planet" },
-              { id: "b", text: "Sales, costs and revenue" },
-              { id: "c", text: "Debt, equity and assets" },
-              { id: "d", text: "Quality, speed and price" },
+              { id: "b", text: "Quality, speed and price" },
+              { id: "c", text: "Sales, costs and revenue" },
+              { id: "d", text: "Debt, equity and assets" },
             ],
             correctChoiceId: "a",
           },
@@ -475,12 +475,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Corporate social responsibility" },
-              { id: "b", text: "Market segmentation" },
-              { id: "c", text: "Franchising" },
-              { id: "d", text: "Outsourcing" },
+              { id: "a", text: "Franchising" },
+              { id: "b", text: "Outsourcing" },
+              { id: "c", text: "Market segmentation" },
+              { id: "d", text: "Corporate social responsibility" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "CSR", statement: "Voluntary contribution to social and environmental wellbeing." }],
@@ -565,12 +565,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Market research" },
-              { id: "b", text: "Corporate social responsibility" },
-              { id: "c", text: "Outsourcing" },
-              { id: "d", text: "Dumping" },
+              { id: "a", text: "Corporate social responsibility" },
+              { id: "b", text: "Outsourcing" },
+              { id: "c", text: "Dumping" },
+              { id: "d", text: "Market research" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "CSR", statement: "Voluntary contribution to social and environmental wellbeing beyond legal requirements." }],
@@ -591,12 +591,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Paying suppliers fair prices" },
-              { id: "b", text: "Reducing packaging waste" },
-              { id: "c", text: "Raising prices simply to maximise short-term profit" },
-              { id: "d", text: "Investing in local community projects" },
+              { id: "a", text: "Reducing packaging waste" },
+              { id: "b", text: "Raising prices simply to maximise short-term profit" },
+              { id: "c", text: "Investing in local community projects" },
+              { id: "d", text: "Paying suppliers fair prices" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "CSR", statement: "Voluntary action benefiting society and the environment beyond profit motives." }],
@@ -618,8 +618,8 @@ export const lesson62: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Profit, people and planet" },
-              { id: "b", text: "Revenue, costs and profit" },
-              { id: "c", text: "Debt, equity and assets" },
+              { id: "b", text: "Debt, equity and assets" },
+              { id: "c", text: "Revenue, costs and profit" },
               { id: "d", text: "Sales, marketing and distribution" },
             ],
             correctChoiceId: "a",
@@ -643,10 +643,10 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Mandatory for all listed companies" },
+              { id: "a", text: "A government programme" },
               { id: "b", text: "Voluntary action beyond what the law requires" },
               { id: "c", text: "Only concerned with profit" },
-              { id: "d", text: "A government programme" },
+              { id: "d", text: "Mandatory for all listed companies" },
             ],
             correctChoiceId: "b",
           },
@@ -669,12 +669,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Always increases short-term profits" },
-              { id: "b", text: "Diverts resources from profit maximisation and shareholders' interests" },
-              { id: "c", text: "Is required by law in all countries" },
-              { id: "d", text: "Only benefits large multinational firms" },
+              { id: "a", text: "Only benefits large multinational firms" },
+              { id: "b", text: "Always increases short-term profits" },
+              { id: "c", text: "Diverts resources from profit maximisation and shareholders' interests" },
+              { id: "d", text: "Is required by law in all countries" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Anti-CSR argument", statement: "Critics argue CSR spends shareholders' money on goals managers were not hired to pursue." }],

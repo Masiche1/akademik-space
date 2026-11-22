@@ -58,8 +58,8 @@ export const lesson12: Lesson = {
             choices: [
               { id: "a", text: "The writer's spelling" },
               { id: "b", text: "The writer's feeling or position towards the topic" },
-              { id: "c", text: "The number of paragraphs" },
-              { id: "d", text: "The headline size" },
+              { id: "c", text: "The headline size" },
+              { id: "d", text: "The number of paragraphs" },
             ],
             correctChoiceId: "b",
           },
@@ -173,12 +173,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "amazing" },
-              { id: "b", text: "disappointing" },
-              { id: "c", text: "excellent" },
-              { id: "d", text: "wonderful" },
+              { id: "a", text: "wonderful" },
+              { id: "b", text: "amazing" },
+              { id: "c", text: "disappointing" },
+              { id: "d", text: "excellent" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -200,12 +200,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Homework is a waste of time." },
-              { id: "b", text: "The school has 400 students." },
+              { id: "a", text: "The school has 400 students." },
+              { id: "b", text: "Pizza is the best food." },
               { id: "c", text: "Everyone should exercise more." },
-              { id: "d", text: "Pizza is the best food." },
+              { id: "d", text: "Homework is a waste of time." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -233,12 +233,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "To persuade readers to exercise" },
-              { id: "b", text: "To inform readers about the new centre" },
-              { id: "c", text: "To criticise the council" },
-              { id: "d", text: "To entertain readers" },
+              { id: "a", text: "To criticise the council" },
+              { id: "b", text: "To entertain readers" },
+              { id: "c", text: "To inform readers about the new centre" },
+              { id: "d", text: "To persuade readers to exercise" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -267,11 +267,11 @@ export const lesson12: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "opened last week" },
-              { id: "b", text: "must act now" },
-              { id: "c", text: "two swimming pools" },
-              { id: "d", text: "open every day" },
+              { id: "b", text: "two swimming pools" },
+              { id: "c", text: "open every day" },
+              { id: "d", text: "must act now" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -299,12 +299,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Three schools have breakfast clubs." },
+              { id: "a", text: "The clubs open at 8 am." },
               { id: "b", text: "Attendance has risen by 20%." },
-              { id: "c", text: "Every school should offer free breakfast." },
-              { id: "d", text: "The clubs open at 8 am." },
+              { id: "c", text: "Three schools have breakfast clubs." },
+              { id: "d", text: "Every school should offer free breakfast." },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -540,12 +540,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Astrophysics" },
-              { id: "b", text: "The environment" },
+              { id: "a", text: "The environment" },
+              { id: "b", text: "Astrophysics" },
               { id: "c", text: "Medieval history" },
               { id: "d", text: "Corporate law" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -658,12 +658,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "recycle, pollution, waste" },
-              { id: "b", text: "homework, exam, teacher" },
-              { id: "c", text: "screen, download, password" },
+              { id: "a", text: "screen, download, password" },
+              { id: "b", text: "recycle, pollution, waste" },
+              { id: "c", text: "homework, exam, teacher" },
               { id: "d", text: "match, goal, referee" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -685,10 +685,10 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Every single word" },
+              { id: "a", text: "The punctuation" },
               { id: "b", text: "What the text is about, who it is for, and the writer's purpose" },
               { id: "c", text: "The number of paragraphs" },
-              { id: "d", text: "The punctuation" },
+              { id: "d", text: "Every single word" },
             ],
             correctChoiceId: "b",
           },
@@ -718,12 +718,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The environment" },
-              { id: "b", text: "A new sports facility" },
-              { id: "c", text: "School meals" },
-              { id: "d", text: "Weather" },
+              { id: "a", text: "Weather" },
+              { id: "b", text: "The environment" },
+              { id: "c", text: "A new sports facility" },
+              { id: "d", text: "School meals" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -745,12 +745,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A cognate" },
-              { id: "b", text: "A synonym" },
+              { id: "a", text: "A synonym" },
+              { id: "b", text: "An idiom" },
               { id: "c", text: "An antonym" },
-              { id: "d", text: "An idiom" },
+              { id: "d", text: "A cognate" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -778,10 +778,10 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Children should watch less television." },
+              { id: "a", text: "Food and water are important." },
               { id: "b", text: "Sleep is essential for health, and many children do not get enough." },
-              { id: "c", text: "Scientists study the brain." },
-              { id: "d", text: "Food and water are important." },
+              { id: "c", text: "Children should watch less television." },
+              { id: "d", text: "Scientists study the brain." },
             ],
             correctChoiceId: "b",
           },
@@ -811,12 +811,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "To inform about how furniture is made" },
-              { id: "b", text: "To persuade readers to protect forests" },
-              { id: "c", text: "To describe a holiday in the forest" },
+              { id: "a", text: "To persuade readers to protect forests" },
+              { id: "b", text: "To describe a holiday in the forest" },
+              { id: "c", text: "To inform about how furniture is made" },
               { id: "d", text: "To compare two types of trees" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

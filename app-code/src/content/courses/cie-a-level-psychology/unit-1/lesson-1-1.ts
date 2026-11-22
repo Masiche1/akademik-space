@@ -56,11 +56,11 @@ export const lesson711: Lesson = {
           "choices": [
                     {
                               "id": "a",
-                              "text": "Changing behaviour to match group norms"
+                              "text": "Following orders"
                     },
                     {
                               "id": "b",
-                              "text": "Following orders"
+                              "text": "Changing behaviour to match group norms"
                     },
                     {
                               "id": "c",
@@ -71,7 +71,7 @@ export const lesson711: Lesson = {
                               "text": "An attachment style"
                     }
           ],
-          "correctChoiceId": "a"
+          "correctChoiceId": "b"
 },
           markscheme: {
           "principles": [
@@ -227,12 +227,12 @@ export const lesson711: Lesson = {
           response: {
             "type": "mcq",
             "choices": [
-              { "id": "a", "text": "Internalisation" },
-              { "id": "b", "text": "Compliance" },
+              { "id": "a", "text": "Identification" },
+              { "id": "b", "text": "Internalisation" },
               { "id": "c", "text": "Obedience" },
-              { "id": "d", "text": "Identification" }
+              { "id": "d", "text": "Compliance" }
             ],
-            "correctChoiceId": "b"
+            "correctChoiceId": "d"
           },
           markscheme: {
             "principles": [
@@ -252,12 +252,12 @@ export const lesson711: Lesson = {
           response: {
             "type": "mcq",
             "choices": [
-              { "id": "a", "text": "About 10%" },
-              { "id": "b", "text": "About 33%" },
-              { "id": "c", "text": "About 65%" },
-              { "id": "d", "text": "About 90%" }
+              { "id": "a", "text": "About 90%" },
+              { "id": "b", "text": "About 10%" },
+              { "id": "c", "text": "About 33%" },
+              { "id": "d", "text": "About 65%" }
             ],
-            "correctChoiceId": "b"
+            "correctChoiceId": "c"
           },
           markscheme: {
             "principles": [
@@ -319,12 +319,12 @@ export const lesson711: Lesson = {
           response: {
             "type": "mcq",
             "choices": [
-              { "id": "a", "text": "Believing you are merely an agent carrying out the wishes of an authority figure" },
-              { "id": "b", "text": "A mental illness caused by stress" },
-              { "id": "c", "text": "A type of conformity to peers" },
-              { "id": "d", "text": "A state of reduced obedience" }
+              { "id": "a", "text": "A state of reduced obedience" },
+              { "id": "b", "text": "A type of conformity to peers" },
+              { "id": "c", "text": "A mental illness caused by stress" },
+              { "id": "d", "text": "Believing you are merely an agent carrying out the wishes of an authority figure" }
             ],
-            "correctChoiceId": "a"
+            "correctChoiceId": "d"
           },
           markscheme: {
             "principles": [
@@ -345,11 +345,11 @@ export const lesson711: Lesson = {
             "type": "mcq",
             "choices": [
               { "id": "a", "text": "Moving the learner to a different building" },
-              { "id": "b", "text": "The experimenter giving orders by telephone" },
-              { "id": "c", "text": "The teacher and learner being in the same room, with the learner visible" },
+              { "id": "b", "text": "The teacher and learner being in the same room, with the learner visible" },
+              { "id": "c", "text": "The experimenter giving orders by telephone" },
               { "id": "d", "text": "The learner being released from the chair between trials" }
             ],
-            "correctChoiceId": "c"
+            "borrectChoiceId": "c"
           },
           markscheme: {
             "principles": [
@@ -410,12 +410,12 @@ export const lesson711: Lesson = {
           response: {
             "type": "mcq",
             "choices": [
-              { "id": "a", "text": "Authoritarian personality" },
-              { "id": "b", "text": "Extraversion" },
-              { "id": "c", "text": "High self-esteem" },
-              { "id": "d", "text": "Internal locus of control" }
+              { "id": "a", "text": "High self-esteem" },
+              { "id": "b", "text": "Internal locus of control" },
+              { "id": "c", "text": "Extraversion" },
+              { "id": "d", "text": "Authoritarian personality" }
             ],
-            "correctChoiceId": "a"
+            "correctChoiceId": "d"
           },
           markscheme: {
             "principles": [

@@ -54,9 +54,9 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A question expecting a factual answer" },
+              { id: "a", text: "A question in a quiz" },
               { id: "b", text: "A question asked for effect, not expecting an answer" },
-              { id: "c", text: "A question in a quiz" },
+              { id: "c", text: "A question expecting a factual answer" },
               { id: "d", text: "A question with a mark scheme" },
             ],
             correctChoiceId: "b",
@@ -139,12 +139,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Words that trigger emotion — 'heartbreaking', 'beautiful'" },
-              { id: "b", text: "Words that are difficult to spell" },
-              { id: "c", text: "Words from foreign languages" },
+              { id: "a", text: "Words from foreign languages" },
+              { id: "b", text: "Words that trigger emotion — 'heartbreaking', 'beautiful'" },
+              { id: "c", text: "Words that are difficult to spell" },
               { id: "d", text: "Long words" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Emotive language", statement: "Words chosen to trigger emotion." }],
@@ -182,12 +182,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Using three long words" },
-              { id: "b", text: "Using three parallel items for rhythm and memorability" },
+              { id: "a", text: "Using three parallel items for rhythm and memorability" },
+              { id: "b", text: "Repeating one word three times" },
               { id: "c", text: "Writing three paragraphs" },
-              { id: "d", text: "Repeating one word three times" },
+              { id: "d", text: "Using three long words" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Rule of three", statement: "Using three parallel items — memorable and rhythmic." }],
@@ -227,12 +227,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "'What time is it?'" },
-              { id: "b", text: "'Do we really want our children to suffer?'" },
+              { id: "a", text: "'Do we really want our children to suffer?'" },
+              { id: "b", text: "'What time is it?'" },
               { id: "c", text: "'Where is the library?'" },
               { id: "d", text: "'How many students are there?'" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Rhetorical question", statement: "Question for effect, not expecting answer." }],
@@ -302,11 +302,11 @@ export const lesson22: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Writing in the third person" },
-              { id: "b", text: "Speaking directly to the reader — 'you', 'we', 'our'" },
+              { id: "b", text: "Writing long sentences" },
               { id: "c", text: "Using formal titles" },
-              { id: "d", text: "Writing long sentences" },
+              { id: "d", text: "Speaking directly to the reader — 'you', 'we', 'our'" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Direct address", statement: "Speaking directly to the reader using 'you', 'we', 'our'." }],
@@ -344,12 +344,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Describing the product" },
-              { id: "b", text: "Time pressure — 'act now', 'limited time', 'last chance'" },
-              { id: "c", text: "Listing ingredients" },
-              { id: "d", text: "Using long words" },
+              { id: "a", text: "Using long words" },
+              { id: "b", text: "Describing the product" },
+              { id: "c", text: "Time pressure — 'act now', 'limited time', 'last chance'" },
+              { id: "d", text: "Listing ingredients" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Urgency", statement: "Time pressure creates urgency — 'act now', 'limited time'." }],
@@ -450,10 +450,10 @@ export const lesson22: Lesson = {
             choices: [
               { id: "a", text: "might" },
               { id: "b", text: "could" },
-              { id: "c", text: "must" },
-              { id: "d", text: "may" },
+              { id: "c", text: "may" },
+              { id: "d", text: "must" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Modality", statement: "Modal verbs express certainty/obligation — 'must' is strongest obligation." }],
@@ -533,12 +533,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "must" },
-              { id: "b", text: "might" },
-              { id: "c", text: "should" },
-              { id: "d", text: "will" },
+              { id: "a", text: "will" },
+              { id: "b", text: "must" },
+              { id: "c", text: "might" },
+              { id: "d", text: "should" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Modality", statement: "'Might/could' = possibility; 'must/should' = obligation." }],
@@ -576,12 +576,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The tense of the verb" },
-              { id: "b", text: "How certain or forceful the writer is, expressed through modal verbs" },
-              { id: "c", text: "The mood of the sentence" },
-              { id: "d", text: "The number of clauses" },
+              { id: "a", text: "How certain or forceful the writer is, expressed through modal verbs" },
+              { id: "b", text: "The number of clauses" },
+              { id: "c", text: "The tense of the verb" },
+              { id: "d", text: "The mood of the sentence" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Modality", statement: "Modality = how certain/forceful the writer is, expressed through modal verbs." }],
@@ -621,12 +621,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "must" },
-              { id: "b", text: "should" },
-              { id: "c", text: "could" },
-              { id: "d", text: "will" },
+              { id: "a", text: "should" },
+              { id: "b", text: "must" },
+              { id: "c", text: "will" },
+              { id: "d", text: "could" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Modality spectrum", statement: "Must/will strong ←→ should ←→ could/might weak." }],
@@ -695,10 +695,10 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Possibility" },
+              { id: "a", text: "Past tense" },
               { id: "b", text: "Strong obligation" },
               { id: "c", text: "Permission" },
-              { id: "d", text: "Past tense" },
+              { id: "d", text: "Possibility" },
             ],
             correctChoiceId: "b",
           },
@@ -738,12 +738,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "must" },
-              { id: "b", text: "should" },
-              { id: "c", text: "might" },
+              { id: "a", text: "might" },
+              { id: "b", text: "must" },
+              { id: "c", text: "should" },
               { id: "d", text: "will" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Modality and context", statement: "Safety warnings need strong modality; 'might' is too weak." }],

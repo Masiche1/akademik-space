@@ -83,9 +83,9 @@ export const lesson62: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$8\\pi$" },
-              { id: "b", text: "$16\\pi$" },
-              { id: "c", text: "$4\\pi$" },
-              { id: "d", text: "$\\dfrac{16\\pi}{3}$" },
+              { id: "b", text: "$4\\pi$" },
+              { id: "c", text: "$\\dfrac{16\\pi}{3}$" },
+              { id: "d", text: "$16\\pi$" },
             ],
             correctChoiceId: "a",
           },
@@ -382,12 +382,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\frac{\\pi}{5}$" },
-              { id: "b", text: "$\\frac{\\pi}{3}$" },
-              { id: "c", text: "$\\frac{2\\pi}{5}$" },
-              { id: "d", text: "$\\frac{\\pi}{10}$" },
+              { id: "a", text: "$\\frac{2\\pi}{5}$" },
+              { id: "b", text: "$\\frac{\\pi}{5}$" },
+              { id: "c", text: "$\\frac{\\pi}{10}$" },
+              { id: "d", text: "$\\frac{\\pi}{3}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -427,12 +427,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\frac{\\pi}{2}$" },
-              { id: "b", text: "$\\pi$" },
-              { id: "c", text: "$\\frac{\\pi}{4}$" },
-              { id: "d", text: "$\\frac{2\\pi}{3}$" },
+              { id: "a", text: "$\\frac{\\pi}{4}$" },
+              { id: "b", text: "$\\frac{2\\pi}{3}$" },
+              { id: "c", text: "$\\frac{\\pi}{2}$" },
+              { id: "d", text: "$\\pi$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -472,12 +472,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$9\\pi$" },
-              { id: "b", text: "$3\\pi$" },
-              { id: "c", text: "$27\\pi$" },
+              { id: "a", text: "$27\\pi$" },
+              { id: "b", text: "$9\\pi$" },
+              { id: "c", text: "$3\\pi$" },
               { id: "d", text: "$\\pi$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -600,12 +600,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\frac{2\\pi}{15}$" },
-              { id: "b", text: "$\\frac{\\pi}{5}$" },
+              { id: "a", text: "$\\frac{\\pi}{5}$" },
+              { id: "b", text: "$\\frac{2\\pi}{15}$" },
               { id: "c", text: "$\\frac{8\\pi}{15}$" },
               { id: "d", text: "$\\frac{\\pi}{3}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1083,12 +1083,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\frac{3\\pi}{2}$" },
-              { id: "b", text: "$\\frac{\\pi}{2}(e^2-1)$" },
+              { id: "a", text: "$\\frac{\\pi}{2}(e^2-1)$" },
+              { id: "b", text: "$\\frac{3\\pi}{2}$" },
               { id: "c", text: "$2\\pi$" },
               { id: "d", text: "$\\frac{\\pi}{2}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1162,12 +1162,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$y=Ae^{x^2}$" },
-              { id: "b", text: "$y=Ae^{2x}$" },
-              { id: "c", text: "$y=x^2y+A$" },
-              { id: "d", text: "$y=A+x^2$" },
+              { id: "a", text: "$y=x^2y+A$" },
+              { id: "b", text: "$y=A+x^2$" },
+              { id: "c", text: "$y=Ae^{x^2}$" },
+              { id: "d", text: "$y=Ae^{2x}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1487,12 +1487,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$y=Ax$" },
-              { id: "b", text: "$y=Ax^2$" },
-              { id: "c", text: "$y=x+A$" },
-              { id: "d", text: "$y=\\frac{A}{x}$" },
+              { id: "a", text: "$y=\\frac{A}{x}$" },
+              { id: "b", text: "$y=x+A$" },
+              { id: "c", text: "$y=Ax^2$" },
+              { id: "d", text: "$y=Ax$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1532,12 +1532,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$y=\\sqrt{x^2+c}$" },
-              { id: "b", text: "$y=\\sqrt{x^2}+c$" },
+              { id: "a", text: "$y=\\sqrt{c-x^2}$" },
+              { id: "b", text: "$y=\\sqrt{x^2+c}$" },
               { id: "c", text: "$y=x^2+c$" },
-              { id: "d", text: "$y=\\sqrt{c-x^2}$" },
+              { id: "d", text: "$y=\\sqrt{x^2}+c$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1578,12 +1578,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$e+1$" },
-              { id: "b", text: "$e$" },
-              { id: "c", text: "$2e$" },
-              { id: "d", text: "$e^2$" },
+              { id: "a", text: "$e$" },
+              { id: "b", text: "$2e$" },
+              { id: "c", text: "$e^2$" },
+              { id: "d", text: "$e+1$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -1669,12 +1669,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$y=(x+C)e^{-x}$" },
+              { id: "a", text: "$y=(x-C)e^{-x}$" },
               { id: "b", text: "$y=(x+C)e^{x}$" },
               { id: "c", text: "$y=xe^{-x}+C$" },
-              { id: "d", text: "$y=(x-C)e^{-x}$" },
+              { id: "d", text: "$y=(x+C)e^{-x}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1810,12 +1810,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$y=vx$" },
-              { id: "b", text: "$u=y-x$" },
-              { id: "c", text: "$x=vy$" },
-              { id: "d", text: "$u=xy$" },
+              { id: "a", text: "$x=vy$" },
+              { id: "b", text: "$y=vx$" },
+              { id: "c", text: "$u=xy$" },
+              { id: "d", text: "$u=y-x$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [

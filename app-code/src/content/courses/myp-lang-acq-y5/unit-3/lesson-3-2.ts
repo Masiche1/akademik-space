@@ -56,12 +56,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "'Furthermore'" },
-              { id: "b", text: "'However'" },
-              { id: "c", text: "'For example'" },
+              { id: "a", text: "'However'" },
+              { id: "b", text: "'For example'" },
+              { id: "c", text: "'Furthermore'" },
               { id: "d", text: "'As a result'" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -172,12 +172,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "furthermore" },
-              { id: "b", text: "however" },
-              { id: "c", text: "for instance" },
+              { id: "a", text: "however" },
+              { id: "b", text: "for instance" },
+              { id: "c", text: "furthermore" },
               { id: "d", text: "as a result" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -200,11 +200,11 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "A long list of synonyms" },
-              { id: "b", text: "The demonstrative 'this finding' referring back to earlier evidence" },
-              { id: "c", text: "A random topic change" },
-              { id: "d", text: "A repeated heading" },
+              { id: "b", text: "A random topic change" },
+              { id: "c", text: "A repeated heading" },
+              { id: "d", text: "The demonstrative 'this finding' referring back to earlier evidence" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -232,10 +232,10 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Furthermore" },
+              { id: "a", text: "Both are correct" },
               { id: "b", text: "For instance" },
-              { id: "c", text: "Both are correct" },
-              { id: "d", text: "Neither" },
+              { id: "c", text: "Neither" },
+              { id: "d", text: "Furthermore" },
             ],
             correctChoiceId: "b",
           },
@@ -312,12 +312,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Nothing — it is perfectly clear" },
-              { id: "b", text: "The referent of 'This' is vague" },
+              { id: "a", text: "The referent of 'This' is vague" },
+              { id: "b", text: "Nothing — it is perfectly clear" },
               { id: "c", text: "It uses too many pronouns" },
               { id: "d", text: "It is too long" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -424,12 +424,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "However, these benefits are not equally available to all students." },
-              { id: "b", text: "In conclusion, homework is great." },
-              { id: "c", text: "Let us now talk about something else entirely." },
-              { id: "d", text: "Homework is a topic." },
+              { id: "a", text: "Let us now talk about something else entirely." },
+              { id: "b", text: "Homework is a topic." },
+              { id: "c", text: "In conclusion, homework is great." },
+              { id: "d", text: "However, these benefits are not equally available to all students." },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -494,12 +494,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It uses more difficult words" },
-              { id: "b", text: "It maintains cohesion while avoiding monotonous repetition" },
-              { id: "c", text: "It confuses the reader" },
-              { id: "d", text: "It shortens the text artificially" },
+              { id: "a", text: "It shortens the text artificially" },
+              { id: "b", text: "It uses more difficult words" },
+              { id: "c", text: "It maintains cohesion while avoiding monotonous repetition" },
+              { id: "d", text: "It confuses the reader" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -552,12 +552,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "'make research'" },
-              { id: "b", text: "'conduct research'" },
+              { id: "a", text: "'conduct research'" },
+              { id: "b", text: "'take a conclusion'" },
               { id: "c", text: "'do a question'" },
-              { id: "d", text: "'take a conclusion'" },
+              { id: "d", text: "'make research'" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -660,11 +660,11 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "make research" },
-              { id: "b", text: "conduct research" },
-              { id: "c", text: "do research about" },
-              { id: "d", text: "create a question" },
+              { id: "b", text: "create a question" },
+              { id: "c", text: "conduct research" },
+              { id: "d", text: "do research about" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -687,11 +687,11 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "suggest" },
-              { id: "b", text: "prove" },
+              { id: "b", text: "neither is a verb" },
               { id: "c", text: "both equally strong" },
-              { id: "d", text: "neither is a verb" },
+              { id: "d", text: "prove" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -719,12 +719,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "S1" },
-              { id: "b", text: "S2" },
-              { id: "c", text: "S3" },
-              { id: "d", text: "All are natural" },
+              { id: "a", text: "All are natural" },
+              { id: "b", text: "S3" },
+              { id: "c", text: "S1" },
+              { id: "d", text: "S2" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -799,12 +799,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "prove" },
+              { id: "a", text: "suggest" },
               { id: "b", text: "demonstrate" },
-              { id: "c", text: "suggest" },
+              { id: "c", text: "prove" },
               { id: "d", text: "guarantee" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -911,12 +911,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "make an impact" },
-              { id: "b", text: "have an impact" },
-              { id: "c", text: "do an impact" },
-              { id: "d", text: "create an impact" },
+              { id: "a", text: "create an impact" },
+              { id: "b", text: "do an impact" },
+              { id: "c", text: "make an impact" },
+              { id: "d", text: "have an impact" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -981,9 +981,9 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "To use different words for variety" },
+              { id: "a", text: "Because the second study is longer" },
               { id: "b", text: "Because 'demonstrates' implies stronger evidence than 'indicates'" },
-              { id: "c", text: "Because the second study is longer" },
+              { id: "c", text: "To use different words for variety" },
               { id: "d", text: "Because 'indicates' is more formal" },
             ],
             correctChoiceId: "b",

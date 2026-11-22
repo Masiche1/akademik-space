@@ -106,15 +106,15 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "Describing one text" },
+              { id: "b", text: "Quoting only" },
+              { id: "c", text: "Summarising one text" },
               {
-                id: "a",
+                id: "d",
                 text: "Analysing similarities and differences between texts",
               },
-              { id: "b", text: "Summarising one text" },
-              { id: "c", text: "Describing one text" },
-              { id: "d", text: "Quoting only" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -142,12 +142,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Equal attention to both texts" },
-              { id: "b", text: "More attention to one" },
+              { id: "a", text: "More attention to one" },
+              { id: "b", text: "Equal attention to both texts" },
               { id: "c", text: "No attention" },
               { id: "d", text: "Only quotes" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -173,8 +173,8 @@ export const lesson33: Lesson = {
             choices: [
               { id: "a", text: "Themes, characters, structure, language" },
               { id: "b", text: "Only plot" },
-              { id: "c", text: "Only characters" },
-              { id: "d", text: "Only setting" },
+              { id: "c", text: "Only setting" },
+              { id: "d", text: "Only characters" },
             ],
             correctChoiceId: "a",
           },
@@ -204,12 +204,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Time period when text was written" },
-              { id: "b", text: "Plot" },
-              { id: "c", text: "Characters" },
-              { id: "d", text: "Setting" },
+              { id: "a", text: "Characters" },
+              { id: "b", text: "Setting" },
+              { id: "c", text: "Time period when text was written" },
+              { id: "d", text: "Plot" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -237,12 +237,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Class, gender, race, religion" },
-              { id: "b", text: "Only class" },
-              { id: "c", text: "Only gender" },
-              { id: "d", text: "Only race" },
+              { id: "a", text: "Only race" },
+              { id: "b", text: "Only gender" },
+              { id: "c", text: "Only class" },
+              { id: "d", text: "Class, gender, race, religion" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -270,12 +270,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Cultural values, beliefs, traditions" },
-              { id: "b", text: "Historical dates" },
+              { id: "a", text: "Historical dates" },
+              { id: "b", text: "Cultural values, beliefs, traditions" },
               { id: "c", text: "Plot" },
               { id: "d", text: "Characters" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -303,12 +303,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Author's life experiences" },
-              { id: "b", text: "Character's life" },
-              { id: "c", text: "Reader's life" },
-              { id: "d", text: "Plot" },
+              { id: "a", text: "Plot" },
+              { id: "b", text: "Reader's life" },
+              { id: "c", text: "Character's life" },
+              { id: "d", text: "Author's life experiences" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -337,9 +337,9 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "References to other texts within a text" },
-              { id: "b", text: "Comparing texts" },
-              { id: "c", text: "Summarising" },
-              { id: "d", text: "Describing" },
+              { id: "b", text: "Summarising" },
+              { id: "c", text: "Describing" },
+              { id: "d", text: "Comparing texts" },
             ],
             correctChoiceId: "a",
           },
@@ -369,12 +369,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Historical era — Victorian, Modernist" },
-              { id: "b", text: "Plot" },
-              { id: "c", text: "Character" },
-              { id: "d", text: "Setting" },
+              { id: "a", text: "Setting" },
+              { id: "b", text: "Character" },
+              { id: "c", text: "Historical era — Victorian, Modernist" },
+              { id: "d", text: "Plot" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -396,12 +396,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Artistic/intellectual movement — Romanticism" },
-              { id: "b", text: "Plot" },
-              { id: "c", text: "Character" },
-              { id: "d", text: "Setting" },
+              { id: "a", text: "Plot" },
+              { id: "b", text: "Setting" },
+              { id: "c", text: "Artistic/intellectual movement — Romanticism" },
+              { id: "d", text: "Character" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -429,12 +429,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "How text's interpretation changed over time" },
-              { id: "b", text: "Plot" },
-              { id: "c", text: "Characters" },
-              { id: "d", text: "Setting" },
+              { id: "a", text: "Setting" },
+              { id: "b", text: "Characters" },
+              { id: "c", text: "Plot" },
+              { id: "d", text: "How text's interpretation changed over time" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -463,9 +463,9 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Category — poetry, prose, drama, novel" },
-              { id: "b", text: "Theme" },
-              { id: "c", text: "Character" },
-              { id: "d", text: "Setting" },
+              { id: "b", text: "Setting" },
+              { id: "c", text: "Theme" },
+              { id: "d", text: "Character" },
             ],
             correctChoiceId: "a",
           },
@@ -492,9 +492,9 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Established body of respected works" },
-              { id: "b", text: "All literature" },
+              { id: "b", text: "Only modern" },
               { id: "c", text: "Only classics" },
-              { id: "d", text: "Only modern" },
+              { id: "d", text: "All literature" },
             ],
             correctChoiceId: "a",
           },
@@ -525,8 +525,8 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "The question set" },
-              { id: "b", text: "Nothing" },
-              { id: "c", text: "Only text 1" },
+              { id: "b", text: "Only text 1" },
+              { id: "c", text: "Nothing" },
               { id: "d", text: "Only text 2" },
             ],
             correctChoiceId: "a",
@@ -553,12 +553,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Significance of similarities/differences" },
-              { id: "b", text: "Only plot" },
+              { id: "a", text: "Only plot" },
+              { id: "b", text: "Significance of similarities/differences" },
               { id: "c", text: "Only characters" },
               { id: "d", text: "Only setting" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -582,12 +582,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Enrich understanding of text" },
-              { id: "b", text: "Replace analysis" },
-              { id: "c", text: "Fill space" },
-              { id: "d", text: "Impress marker" },
+              { id: "a", text: "Impress marker" },
+              { id: "b", text: "Enrich understanding of text" },
+              { id: "c", text: "Replace analysis" },
+              { id: "d", text: "Fill space" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -615,12 +615,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Just listing similarities" },
+              { id: "a", text: "Linking to question" },
               { id: "b", text: "Analysing differences" },
               { id: "c", text: "Evaluating significance" },
-              { id: "d", text: "Linking to question" },
+              { id: "d", text: "Just listing similarities" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -648,12 +648,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Shared artistic/intellectual characteristics" },
+              { id: "a", text: "Character" },
               { id: "b", text: "Plot" },
-              { id: "c", text: "Character" },
+              { id: "c", text: "Shared artistic/intellectual characteristics" },
               { id: "d", text: "Setting" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -681,12 +681,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Link it specifically to the text" },
+              { id: "a", text: "Fill space" },
               { id: "b", text: "Write general history" },
-              { id: "c", text: "Ignore text" },
-              { id: "d", text: "Fill space" },
+              { id: "c", text: "Link it specifically to the text" },
+              { id: "d", text: "Ignore text" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -844,12 +844,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Understand author's influences" },
-              { id: "b", text: "Replace analysis" },
-              { id: "c", text: "Fill space" },
-              { id: "d", text: "Impress marker" },
+              { id: "a", text: "Fill space" },
+              { id: "b", text: "Impress marker" },
+              { id: "c", text: "Understand author's influences" },
+              { id: "d", text: "Replace analysis" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -940,12 +940,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Geographical context" },
-              { id: "b", text: "Historical context" },
-              { id: "c", text: "Social context" },
-              { id: "d", text: "Cultural context" },
+              { id: "a", text: "Cultural context" },
+              { id: "b", text: "Social context" },
+              { id: "c", text: "Geographical context" },
+              { id: "d", text: "Historical context" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1070,12 +1070,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Favouring one text over the other" },
-              { id: "b", text: "Finding similarities" },
-              { id: "c", text: "Finding differences" },
-              { id: "d", text: "Analysing significance" },
+              { id: "a", text: "Analysing significance" },
+              { id: "b", text: "Finding differences" },
+              { id: "c", text: "Finding similarities" },
+              { id: "d", text: "Favouring one text over the other" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1162,12 +1162,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Industrialism" },
+              { id: "a", text: "Victorianism" },
               { id: "b", text: "Romanticism" },
               { id: "c", text: "Modernism" },
-              { id: "d", text: "Victorianism" },
+              { id: "d", text: "Industrialism" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1265,8 +1265,8 @@ export const lesson33: Lesson = {
             choices: [
               { id: "a", text: "Address the specific question" },
               { id: "b", text: "Compare everything" },
-              { id: "c", text: "Ignore question" },
-              { id: "d", text: "Only summarise" },
+              { id: "c", text: "Only summarise" },
+              { id: "d", text: "Ignore question" },
             ],
             correctChoiceId: "a",
           },
@@ -1355,12 +1355,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Medieval period" },
-              { id: "b", text: "Victorian period" },
+              { id: "a", text: "Victorian period" },
+              { id: "b", text: "Medieval period" },
               { id: "c", text: "Modernist period" },
               { id: "d", text: "Renaissance period" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1456,12 +1456,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Is widely recognised as important" },
-              { id: "b", text: "Is recent" },
-              { id: "c", text: "Is obscure" },
-              { id: "d", text: "Is popular only" },
+              { id: "a", text: "Is recent" },
+              { id: "b", text: "Is widely recognised as important" },
+              { id: "c", text: "Is popular only" },
+              { id: "d", text: "Is obscure" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1592,12 +1592,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Understand the overall meaning" },
-              { id: "b", text: "Identify techniques" },
-              { id: "c", text: "Write an essay" },
-              { id: "d", text: "Count syllables" },
+              { id: "a", text: "Identify techniques" },
+              { id: "b", text: "Write an essay" },
+              { id: "c", text: "Count syllables" },
+              { id: "d", text: "Understand the overall meaning" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1619,12 +1619,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Marking key words, techniques, structure" },
-              { id: "b", text: "Writing an essay" },
-              { id: "c", text: "Summarising" },
-              { id: "d", text: "Counting lines" },
+              { id: "a", text: "Writing an essay" },
+              { id: "b", text: "Marking key words, techniques, structure" },
+              { id: "c", text: "Counting lines" },
+              { id: "d", text: "Summarising" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1652,12 +1652,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Narrative voice, characterisation, setting" },
-              { id: "b", text: "Only plot" },
+              { id: "a", text: "Only plot" },
+              { id: "b", text: "Narrative voice, characterisation, setting" },
               { id: "c", text: "Only dialogue" },
               { id: "d", text: "Only setting" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1681,12 +1681,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Speaker, tone, imagery, structure" },
-              { id: "b", text: "Only rhyme" },
+              { id: "a", text: "Only rhyme" },
+              { id: "b", text: "Speaker, tone, imagery, structure" },
               { id: "c", text: "Only meter" },
               { id: "d", text: "Only form" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1710,12 +1710,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Listing techniques without analysis" },
+              { id: "a", text: "Analysing meaning" },
               { id: "b", text: "Using quotations" },
-              { id: "c", text: "Analysing meaning" },
-              { id: "d", text: "Writing formally" },
+              { id: "c", text: "Writing formally" },
+              { id: "d", text: "Listing techniques without analysis" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1739,12 +1739,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Link techniques to meaning" },
+              { id: "a", text: "Write narratively" },
               { id: "b", text: "Ignore meaning" },
-              { id: "c", text: "Use first person" },
-              { id: "d", text: "Write narratively" },
+              { id: "c", text: "Link techniques to meaning" },
+              { id: "d", text: "Use first person" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1766,12 +1766,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Context clues about meaning" },
-              { id: "b", text: "Nothing" },
-              { id: "c", text: "Only decoration" },
-              { id: "d", text: "Only author" },
+              { id: "a", text: "Nothing" },
+              { id: "b", text: "Context clues about meaning" },
+              { id: "c", text: "Only author" },
+              { id: "d", text: "Only decoration" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1793,12 +1793,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Formal academic language" },
+              { id: "a", text: "Informal language" },
               { id: "b", text: "First person" },
-              { id: "c", text: "Informal language" },
+              { id: "c", text: "Formal academic language" },
               { id: "d", text: "Colloquial" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1820,12 +1820,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Reading, planning, writing within limit" },
-              { id: "b", text: "Only reading" },
-              { id: "c", text: "Only writing" },
-              { id: "d", text: "No planning" },
+              { id: "a", text: "No planning" },
+              { id: "b", text: "Only writing" },
+              { id: "c", text: "Reading, planning, writing within limit" },
+              { id: "d", text: "Only reading" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1848,9 +1848,9 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "The voice telling the story" },
-              { id: "b", text: "A character" },
-              { id: "c", text: "The author" },
-              { id: "d", text: "The reader" },
+              { id: "b", text: "The author" },
+              { id: "c", text: "The reader" },
+              { id: "d", text: "A character" },
             ],
             correctChoiceId: "a",
           },
@@ -1876,12 +1876,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Organise points before writing" },
-              { id: "b", text: "Start writing immediately" },
-              { id: "c", text: "Only read" },
-              { id: "d", text: "Skip planning" },
+              { id: "a", text: "Start writing immediately" },
+              { id: "b", text: "Organise points before writing" },
+              { id: "c", text: "Skip planning" },
+              { id: "d", text: "Only read" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1903,12 +1903,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Stanzas, rhyme scheme, line breaks" },
-              { id: "b", text: "Only sentences" },
+              { id: "a", text: "Only sentences" },
+              { id: "b", text: "Stanzas, rhyme scheme, line breaks" },
               { id: "c", text: "Only paragraphs" },
               { id: "d", text: "Only dialogue" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1932,12 +1932,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "First or third person narration" },
-              { id: "b", text: "Only first person" },
-              { id: "c", text: "Only third person" },
-              { id: "d", text: "No narration" },
+              { id: "a", text: "Only first person" },
+              { id: "b", text: "Only third person" },
+              { id: "c", text: "No narration" },
+              { id: "d", text: "First or third person narration" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1959,12 +1959,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Volta or turn in meaning" },
-              { id: "b", text: "Only rhyme" },
+              { id: "a", text: "Only form" },
+              { id: "b", text: "Volta or turn in meaning" },
               { id: "c", text: "Only meter" },
-              { id: "d", text: "Only form" },
+              { id: "d", text: "Only rhyme" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1986,12 +1986,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Short and embedded in analysis" },
-              { id: "b", text: "Long blocks" },
-              { id: "c", text: "Only at end" },
-              { id: "d", text: "Not used" },
+              { id: "a", text: "Long blocks" },
+              { id: "b", text: "Only at end" },
+              { id: "c", text: "Not used" },
+              { id: "d", text: "Short and embedded in analysis" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -2016,9 +2016,9 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Word choice, imagery, structure" },
-              { id: "b", text: "Only rhyme" },
+              { id: "b", text: "Only form" },
               { id: "c", text: "Only meter" },
-              { id: "d", text: "Only form" },
+              { id: "d", text: "Only rhyme" },
             ],
             correctChoiceId: "a",
           },
@@ -2044,12 +2044,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "How characters are presented" },
+              { id: "a", text: "Only dialogue" },
               { id: "b", text: "Only plot" },
-              { id: "c", text: "Only setting" },
-              { id: "d", text: "Only dialogue" },
+              { id: "c", text: "How characters are presented" },
+              { id: "d", text: "Only setting" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -2078,9 +2078,9 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Description, setting, language" },
-              { id: "b", text: "Only plot" },
-              { id: "c", text: "Only characters" },
-              { id: "d", text: "Only dialogue" },
+              { id: "b", text: "Only dialogue" },
+              { id: "c", text: "Only plot" },
+              { id: "d", text: "Only characters" },
             ],
             correctChoiceId: "a",
           },
@@ -2107,9 +2107,9 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Writing narratively or using first person" },
-              { id: "b", text: "Using quotations" },
-              { id: "c", text: "Analysing meaning" },
-              { id: "d", text: "Writing formally" },
+              { id: "b", text: "Analysing meaning" },
+              { id: "c", text: "Writing formally" },
+              { id: "d", text: "Using quotations" },
             ],
             correctChoiceId: "a",
           },
@@ -2255,9 +2255,9 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Narrator voice blended with character's" },
-              { id: "b", text: "First person only" },
-              { id: "c", text: "Third person only" },
-              { id: "d", text: "No narration" },
+              { id: "b", text: "Third person only" },
+              { id: "c", text: "No narration" },
+              { id: "d", text: "First person only" },
             ],
             correctChoiceId: "a",
           },
@@ -2350,12 +2350,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Retelling the plot" },
-              { id: "b", text: "Analysing techniques" },
+              { id: "a", text: "Linking to meaning" },
+              { id: "b", text: "Retelling the plot" },
               { id: "c", text: "Using quotations" },
-              { id: "d", text: "Linking to meaning" },
+              { id: "d", text: "Analysing techniques" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -2475,8 +2475,8 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "The voice narrating the poem" },
-              { id: "b", text: "Always the poet" },
-              { id: "c", text: "The reader" },
+              { id: "b", text: "The reader" },
+              { id: "c", text: "Always the poet" },
               { id: "d", text: "The critic" },
             ],
             correctChoiceId: "a",
@@ -2564,12 +2564,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Use first person" },
+              { id: "a", text: "Write formally" },
               { id: "b", text: "Use quotations" },
-              { id: "c", text: "Analyse meaning" },
-              { id: "d", text: "Write formally" },
+              { id: "c", text: "Use first person" },
+              { id: "d", text: "Analyse meaning" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -2659,12 +2659,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Time and place of story" },
-              { id: "b", text: "Characters" },
-              { id: "c", text: "Plot" },
+              { id: "a", text: "Plot" },
+              { id: "b", text: "Time and place of story" },
+              { id: "c", text: "Characters" },
               { id: "d", text: "Dialogue" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -2752,9 +2752,9 @@ export const lesson33: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Linking technique to meaning" },
-              { id: "b", text: "Listing techniques" },
+              { id: "b", text: "Summarising" },
               { id: "c", text: "Quoting only" },
-              { id: "d", text: "Summarising" },
+              { id: "d", text: "Listing techniques" },
             ],
             correctChoiceId: "a",
           },
@@ -2846,12 +2846,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Speaker's attitude/mood" },
+              { id: "a", text: "Structure" },
               { id: "b", text: "Rhyme" },
-              { id: "c", text: "Structure" },
-              { id: "d", text: "Imagery" },
+              { id: "c", text: "Imagery" },
+              { id: "d", text: "Speaker's attitude/mood" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

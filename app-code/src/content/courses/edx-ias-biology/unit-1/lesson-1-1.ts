@@ -47,12 +47,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Plasmid" },
-              { id: "b", text: "Nucleus" },
-              { id: "c", text: "Mitochondrion" },
-              { id: "d", text: "Golgi apparatus" },
+              { id: "a", text: "Golgi apparatus" },
+              { id: "b", text: "Plasmid" },
+              { id: "c", text: "Nucleus" },
+              { id: "d", text: "Mitochondrion" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Prokaryote", statement: "No nucleus; DNA free in nucleoid; plasmids common." }],
@@ -160,12 +160,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Mitochondrion" },
-              { id: "b", text: "Ribosome" },
-              { id: "c", text: "Golgi apparatus" },
-              { id: "d", text: "Lysosome" },
+              { id: "a", text: "Lysosome" },
+              { id: "b", text: "Golgi apparatus" },
+              { id: "c", text: "Mitochondrion" },
+              { id: "d", text: "Ribosome" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Mitochondrion", statement: "Site of aerobic respiration (ATP production)." }],

@@ -114,12 +114,12 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Explaining causes of behaviour" },
-              { id: "b", text: "Blaming others" },
-              { id: "c", text: "Observing behaviour" },
-              { id: "d", text: "Predicting behaviour" },
+              { id: "a", text: "Blaming others" },
+              { id: "b", text: "Explaining causes of behaviour" },
+              { id: "c", text: "Predicting behaviour" },
+              { id: "d", text: "Observing behaviour" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -148,8 +148,8 @@ export const lesson34: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Personality or character" },
-              { id: "b", text: "Circumstances" },
-              { id: "c", text: "Luck" },
+              { id: "b", text: "Luck" },
+              { id: "c", text: "Circumstances" },
               { id: "d", text: "Others' actions" },
             ],
             correctChoiceId: "a",
@@ -181,9 +181,9 @@ export const lesson34: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "The situation or circumstances" },
-              { id: "b", text: "Personality" },
+              { id: "b", text: "Ability" },
               { id: "c", text: "Character" },
-              { id: "d", text: "Ability" },
+              { id: "d", text: "Personality" },
             ],
             correctChoiceId: "a",
           },
@@ -213,15 +213,15 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "Attributing own success externally" },
+              { id: "b", text: "Always blaming the situation" },
               {
-                id: "a",
+                id: "c",
                 text: "Overestimating internal causes for others' behaviour",
               },
-              { id: "b", text: "Attributing own success externally" },
-              { id: "c", text: "Always blaming the situation" },
               { id: "d", text: "Never attributing causes" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -249,15 +249,15 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "Always blaming others" },
               {
-                id: "a",
+                id: "b",
                 text: "Attributing own success internally and failure externally",
               },
-              { id: "b", text: "Always blaming others" },
-              { id: "c", text: "Attributing all success externally" },
-              { id: "d", text: "Never taking responsibility" },
+              { id: "c", text: "Never taking responsibility" },
+              { id: "d", text: "Attributing all success externally" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -285,12 +285,12 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Consensus, distinctiveness and consistency" },
-              { id: "b", text: "Only personality" },
-              { id: "c", text: "Only situation" },
-              { id: "d", text: "Only behaviour" },
+              { id: "a", text: "Only behaviour" },
+              { id: "b", text: "Only situation" },
+              { id: "c", text: "Consensus, distinctiveness and consistency" },
+              { id: "d", text: "Only personality" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -323,9 +323,9 @@ export const lesson34: Lesson = {
                 id: "a",
                 text: "Whether others do the same thing in the same situation",
               },
-              { id: "b", text: "Whether the person agrees" },
+              { id: "b", text: "Whether the situation is fair" },
               { id: "c", text: "Whether everyone knows" },
-              { id: "d", text: "Whether the situation is fair" },
+              { id: "d", text: "Whether the person agrees" },
             ],
             correctChoiceId: "a",
           },
@@ -355,15 +355,15 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "Whether the behaviour is unusual" },
               {
-                id: "a",
+                id: "b",
                 text: "Whether the person does it in other situations too",
               },
-              { id: "b", text: "Whether the behaviour is unusual" },
               { id: "c", text: "Whether the person is distinctive" },
               { id: "d", text: "Whether the situation is distinct" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -392,8 +392,8 @@ export const lesson34: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Whether the person always does it" },
-              { id: "b", text: "Whether the situation is consistent" },
-              { id: "c", text: "Whether everyone agrees" },
+              { id: "b", text: "Whether everyone agrees" },
+              { id: "c", text: "Whether the situation is consistent" },
               { id: "d", text: "Whether the behaviour is consistent" },
             ],
             correctChoiceId: "a",
@@ -563,15 +563,15 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "All behaviour internally" },
+              { id: "b", text: "No causes" },
+              { id: "c", text: "All behaviour externally" },
               {
-                id: "a",
+                id: "d",
                 text: "Our own behaviour externally but others' internally",
               },
-              { id: "b", text: "All behaviour internally" },
-              { id: "c", text: "All behaviour externally" },
-              { id: "d", text: "No causes" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -630,12 +630,12 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Fritz Heider" },
-              { id: "b", text: "Stanley Milgram" },
+              { id: "a", text: "Stanley Milgram" },
+              { id: "b", text: "Fritz Heider" },
               { id: "c", text: "Leon Festinger" },
               { id: "d", text: "Solomon Asch" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -774,12 +774,12 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "'He's lazy'" },
+              { id: "a", text: "'She was unlucky'" },
               { id: "b", text: "'It was raining'" },
-              { id: "c", text: "'She was unlucky'" },
-              { id: "d", text: "'It was busy'" },
+              { id: "c", text: "'It was busy'" },
+              { id: "d", text: "'He's lazy'" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -915,12 +915,12 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "'It was raining'" },
-              { id: "b", text: "'He's rude'" },
-              { id: "c", text: "'She's lazy'" },
-              { id: "d", text: "'He's smart'" },
+              { id: "a", text: "'He's rude'" },
+              { id: "b", text: "'It was raining'" },
+              { id: "c", text: "'He's smart'" },
+              { id: "d", text: "'She's lazy'" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1015,12 +1015,12 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Other people's behaviour" },
-              { id: "b", text: "Own behaviour" },
-              { id: "c", text: "Animal behaviour" },
-              { id: "d", text: "Historical events" },
+              { id: "a", text: "Own behaviour" },
+              { id: "b", text: "Other people's behaviour" },
+              { id: "c", text: "Historical events" },
+              { id: "d", text: "Animal behaviour" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1200,12 +1200,12 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A negative attitude towards a group" },
-              { id: "b", text: "Unfair treatment" },
-              { id: "c", text: "A belief about a group" },
+              { id: "a", text: "A belief about a group" },
+              { id: "b", text: "A negative attitude towards a group" },
+              { id: "c", text: "Unfair treatment" },
               { id: "d", text: "A legal concept" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1233,12 +1233,12 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Unfair treatment based on prejudice" },
-              { id: "b", text: "A negative attitude" },
-              { id: "c", text: "A belief about a group" },
-              { id: "d", text: "A stereotype" },
+              { id: "a", text: "A negative attitude" },
+              { id: "b", text: "A belief about a group" },
+              { id: "c", text: "A stereotype" },
+              { id: "d", text: "Unfair treatment based on prejudice" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1266,12 +1266,12 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "An oversimplified belief about a group" },
-              { id: "b", text: "A negative attitude" },
-              { id: "c", text: "Unfair treatment" },
-              { id: "d", text: "A legal rule" },
+              { id: "a", text: "A legal rule" },
+              { id: "b", text: "Unfair treatment" },
+              { id: "c", text: "An oversimplified belief about a group" },
+              { id: "d", text: "A negative attitude" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1299,12 +1299,12 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Less likely to help when others are present" },
-              { id: "b", text: "Always helping" },
-              { id: "c", text: "Helping only alone" },
-              { id: "d", text: "Never helping" },
+              { id: "a", text: "Helping only alone" },
+              { id: "b", text: "Less likely to help when others are present" },
+              { id: "c", text: "Never helping" },
+              { id: "d", text: "Always helping" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1332,15 +1332,15 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "Sharing blame equally" },
+              { id: "b", text: "Avoiding all responsibility" },
               {
-                id: "a",
+                id: "c",
                 text: "Spreading responsibility for helping among a group",
               },
-              { id: "b", text: "Taking full responsibility" },
-              { id: "c", text: "Avoiding all responsibility" },
-              { id: "d", text: "Sharing blame equally" },
+              { id: "d", text: "Taking full responsibility" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1368,15 +1368,15 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "No one acts" },
+              { id: "b", text: "Everyone helps" },
               {
-                id: "a",
+                id: "c",
                 text: "People assume others' inaction means no emergency",
               },
-              { id: "b", text: "Everyone knows the truth" },
-              { id: "c", text: "No one acts" },
-              { id: "d", text: "Everyone helps" },
+              { id: "d", text: "Everyone knows the truth" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1408,9 +1408,9 @@ export const lesson34: Lesson = {
                 id: "a",
                 text: "Loss of self-awareness in crowds leading to disinhibition",
               },
-              { id: "b", text: "Gaining self-awareness" },
-              { id: "c", text: "Individual thinking" },
-              { id: "d", text: "Group decision making" },
+              { id: "b", text: "Individual thinking" },
+              { id: "c", text: "Group decision making" },
+              { id: "d", text: "Gaining self-awareness" },
             ],
             correctChoiceId: "a",
           },
@@ -1440,12 +1440,12 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Working less hard in a group than alone" },
-              { id: "b", text: "Working harder in groups" },
-              { id: "c", text: "Working alone" },
-              { id: "d", text: "Sharing work equally" },
+              { id: "a", text: "Sharing work equally" },
+              { id: "b", text: "Working alone" },
+              { id: "c", text: "Working harder in groups" },
+              { id: "d", text: "Working less hard in a group than alone" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1473,12 +1473,12 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Competition for scarce resources" },
+              { id: "a", text: "Genetics" },
               { id: "b", text: "Personality differences" },
-              { id: "c", text: "Genetics" },
-              { id: "d", text: "Education" },
+              { id: "c", text: "Education" },
+              { id: "d", text: "Competition for scarce resources" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1649,12 +1649,12 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The bystander effect" },
-              { id: "b", text: "Prejudice" },
-              { id: "c", text: "Deindividuation" },
-              { id: "d", text: "Social loafing" },
+              { id: "a", text: "Prejudice" },
+              { id: "b", text: "Deindividuation" },
+              { id: "c", text: "Social loafing" },
+              { id: "d", text: "The bystander effect" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1713,15 +1713,15 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "Better decision making" },
+              { id: "b", text: "Individual thinking" },
+              { id: "c", text: "Rational behaviour" },
               {
-                id: "a",
+                id: "d",
                 text: "A 'group mind' where individuals lose self-awareness",
               },
-              { id: "b", text: "Better decision making" },
-              { id: "c", text: "Individual thinking" },
-              { id: "d", text: "Rational behaviour" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1862,12 +1862,12 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Higher intelligence" },
-              { id: "b", text: "Realistic conflict" },
+              { id: "a", text: "Authoritarian personality" },
+              { id: "b", text: "Higher intelligence" },
               { id: "c", text: "Social identity" },
-              { id: "d", text: "Authoritarian personality" },
+              { id: "d", text: "Realistic conflict" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -2005,12 +2005,12 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Many people are present" },
-              { id: "b", text: "Only one person is present" },
-              { id: "c", text: "No one is present" },
-              { id: "d", text: "Emergency is clear" },
+              { id: "a", text: "No one is present" },
+              { id: "b", text: "Emergency is clear" },
+              { id: "c", text: "Only one person is present" },
+              { id: "d", text: "Many people are present" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -2104,12 +2104,12 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Group tasks" },
-              { id: "b", text: "Individual tasks" },
-              { id: "c", text: "Competitive tasks" },
-              { id: "d", text: "All tasks equally" },
+              { id: "a", text: "All tasks equally" },
+              { id: "b", text: "Competitive tasks" },
+              { id: "c", text: "Group tasks" },
+              { id: "d", text: "Individual tasks" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

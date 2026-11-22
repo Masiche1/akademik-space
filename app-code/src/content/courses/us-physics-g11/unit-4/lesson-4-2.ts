@@ -50,12 +50,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Radio waves" },
-              { id: "b", text: "Infrared" },
-              { id: "c", text: "Ultraviolet" },
-              { id: "d", text: "Gamma rays" },
+              { id: "a", text: "Ultraviolet" },
+              { id: "b", text: "Gamma rays" },
+              { id: "c", text: "Infrared" },
+              { id: "d", text: "Radio waves" },
             ],
-            correctChoiceId: "d",
+            correctChoiceIb: "d",
           },
           markscheme: {
             principles: [
@@ -182,8 +182,8 @@ export const lesson42: Lesson = {
             choices: [
               { id: "a", text: "Electrons are emitted, but with low kinetic energy." },
               { id: "b", text: "Still no electrons are emitted." },
-              { id: "c", text: "Electrons are emitted after a short delay." },
-              { id: "d", text: "More electrons are emitted with greater kinetic energy." },
+              { id: "c", text: "More electrons are emitted with greater kinetic energy." },
+              { id: "d", text: "Electrons are emitted after a short delay." },
             ],
             correctChoiceId: "b",
           },

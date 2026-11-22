@@ -59,12 +59,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$(3,-2)$" },
-              { id: "b", text: "$(-3,2)$" },
-              { id: "c", text: "$(-3,-2)$" },
-              { id: "d", text: "$(2,3)$" },
+              { id: "a", text: "$(-3,-2)$" },
+              { id: "b", text: "$(2,3)$" },
+              { id: "c", text: "$(-3,2)$" },
+              { id: "d", text: "$(3,-2)$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -177,12 +177,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$(-4,-3)$" },
-              { id: "b", text: "$(4,3)$" },
-              { id: "c", text: "$(4,-3)$" },
-              { id: "d", text: "$(-4,3)$" },
+              { id: "a", text: "$(-4,3)$" },
+              { id: "b", text: "$(4,-3)$" },
+              { id: "c", text: "$(4,3)$" },
+              { id: "d", text: "$(-4,-3)$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -227,10 +227,10 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$(-3,2)$" },
+              { id: "a", text: "$(3,2)$" },
               { id: "b", text: "$(3,-2)$" },
               { id: "c", text: "$(2,-3)$" },
-              { id: "d", text: "$(3,2)$" },
+              { id: "d", text: "$(-3,2)$" },
             ],
             correctChoiceId: "b",
           },
@@ -253,10 +253,10 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$24\\ \\text{cm}^2$" },
+              { id: "a", text: "$48\\ \\text{cm}^2$" },
               { id: "b", text: "$12\\ \\text{cm}^2$" },
-              { id: "c", text: "$6\\ \\text{cm}^2$" },
-              { id: "d", text: "$48\\ \\text{cm}^2$" },
+              { id: "c", text: "$24\\ \\text{cm}^2$" },
+              { id: "d", text: "$6\\ \\text{cm}^2$" },
             ],
             correctChoiceId: "b",
           },
@@ -535,12 +535,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "They are equal because they are alternate angles." },
-              { id: "b", text: "They are equal because they are corresponding angles." },
-              { id: "c", text: "They add up to $180^\\circ$ because they are co-interior angles." },
-              { id: "d", text: "They add up to $360^\\circ$ because they are angles at a point." },
+              { id: "a", text: "They add up to $360^\\circ$ because they are angles at a point." },
+              { id: "b", text: "They add up to $180^\\circ$ because they are co-interior angles." },
+              { id: "c", text: "They are equal because they are corresponding angles." },
+              { id: "d", text: "They are equal because they are alternate angles." },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -640,10 +640,10 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$40^\\circ$" },
-              { id: "b", text: "$140^\\circ$" },
+              { id: "a", text: "$220^\\circ$" },
+              { id: "b", text: "$40^\\circ$" },
               { id: "c", text: "$320^\\circ$" },
-              { id: "d", text: "$220^\\circ$" },
+              { id: "d", text: "$140^\\circ$" },
             ],
             correctChoiceId: "c",
           },
@@ -667,9 +667,9 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$3$" },
-              { id: "b", text: "$\\frac13$" },
-              { id: "c", text: "$6$" },
-              { id: "d", text: "$\\frac12$" },
+              { id: "b", text: "$\\frac12$" },
+              { id: "c", text: "$\\frac13$" },
+              { id: "d", text: "$6$" },
             ],
             correctChoiceId: "a",
           },
@@ -711,12 +711,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$16\\ \\text{cm}$" },
-              { id: "b", text: "$15\\ \\text{cm}$" },
-              { id: "c", text: "$10\\ \\text{cm}$" },
-              { id: "d", text: "$12\\ \\text{cm}$" },
+              { id: "a", text: "$12\\ \\text{cm}$" },
+              { id: "b", text: "$10\\ \\text{cm}$" },
+              { id: "c", text: "$15\\ \\text{cm}$" },
+              { id: "d", text: "$16\\ \\text{cm}$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -738,8 +738,8 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$045^\\circ$" },
-              { id: "b", text: "$135^\\circ$" },
+              { id: "a", text: "$135^\\circ$" },
+              { id: "b", text: "$045^\\circ$" },
               { id: "c", text: "$225^\\circ$" },
               { id: "d", text: "$315^\\circ$" },
             ],
@@ -802,12 +802,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The corresponding angle" },
-              { id: "b", text: "The vertically opposite angle" },
-              { id: "c", text: "The alternate angle" },
-              { id: "d", text: "The co-interior angle on the same side" },
+              { id: "a", text: "The co-interior angle on the same side" },
+              { id: "b", text: "The alternate angle" },
+              { id: "c", text: "The corresponding angle" },
+              { id: "d", text: "The vertically opposite angle" },
             ],
-            correctChoiceId: "d",
+            correctChoiceIa: "d",
           },
           markscheme: {
             principles: [

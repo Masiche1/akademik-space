@@ -53,8 +53,8 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Proximity" },
-              { id: "b", text: "Similarity" },
+              { id: "a", text: "Similarity" },
+              { id: "b", text: "Proximity" },
               { id: "c", text: "Closure" },
               { id: "d", text: "Continuity" },
             ],
@@ -152,12 +152,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Sensation" },
-              { id: "b", text: "Perception" },
-              { id: "c", text: "Attention" },
-              { id: "d", text: "Encoding" },
+              { id: "a", text: "Attention" },
+              { id: "b", text: "Encoding" },
+              { id: "c", text: "Sensation" },
+              { id: "d", text: "Perception" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -180,12 +180,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Reading a sentence faster because context predicts the words" },
-              { id: "b", text: "Seeing a face in a cloud because faces are expected" },
-              { id: "c", text: "Identifying an unfamiliar object by analysing its edges and colours" },
-              { id: "d", text: "Interpreting an ambiguous figure using prior experience" },
+              { id: "a", text: "Seeing a face in a cloud because faces are expected" },
+              { id: "b", text: "Interpreting an ambiguous figure using prior experience" },
+              { id: "c", text: "Reading a sentence faster because context predicts the words" },
+              { id: "d", text: "Identifying an unfamiliar object by analysing its edges and colours" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -208,12 +208,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "We mentally complete incomplete figures" },
-              { id: "b", text: "We group nearby elements together" },
-              { id: "c", text: "We perceive smooth continuous patterns" },
-              { id: "d", text: "We separate objects from their backgrounds" },
+              { id: "a", text: "We separate objects from their backgrounds" },
+              { id: "b", text: "We perceive smooth continuous patterns" },
+              { id: "c", text: "We group nearby elements together" },
+              { id: "d", text: "We mentally complete incomplete figures" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -236,12 +236,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Proximity" },
-              { id: "b", text: "Similarity" },
-              { id: "c", text: "Figure-ground" },
-              { id: "d", text: "Continuity" },
+              { id: "a", text: "Figure-ground" },
+              { id: "b", text: "Continuity" },
+              { id: "c", text: "Proximity" },
+              { id: "d", text: "Similarity" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -287,8 +287,8 @@ export const lesson22: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "We read words in isolation slower than in sentences" },
-              { id: "b", text: "Readers make more errors on longer words" },
-              { id: "c", text: "Reading speed is identical in all fonts" },
+              { id: "b", text: "Reading speed is identical in all fonts" },
+              { id: "c", text: "Readers make more errors on longer words" },
               { id: "d", text: "Children learn letters before words" },
             ],
             correctChoiceId: "a",
@@ -480,11 +480,11 @@ export const lesson22: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Attenuated but still processed" },
-              { id: "b", text: "Lost entirely" },
-              { id: "c", text: "Stored in long-term memory" },
-              { id: "d", text: "Fully analysed semantically" },
+              { id: "b", text: "Fully analysed semantically" },
+              { id: "c", text: "Lost entirely" },
+              { id: "d", text: "Stored in long-term memory" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -578,12 +578,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Attenuation blocks all unattended inputs completely" },
-              { id: "b", text: "Attenuation weakens unattended inputs rather than blocking them entirely" },
-              { id: "c", text: "Attenuation allows all inputs equal processing" },
-              { id: "d", text: "Attenuation occurs after semantic analysis of all inputs" },
+              { id: "a", text: "Attenuation allows all inputs equal processing" },
+              { id: "b", text: "Attenuation blocks all unattended inputs completely" },
+              { id: "c", text: "Attenuation occurs after semantic analysis of all inputs" },
+              { id: "d", text: "Attenuation weakens unattended inputs rather than blocking them entirely" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -606,12 +606,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Selective attention lasts longer than divided attention" },
-              { id: "b", text: "Divided attention only works for visual tasks" },
-              { id: "c", text: "Selective attention focuses on one stimulus; divided attention spreads resources across tasks" },
+              { id: "a", text: "Selective attention focuses on one stimulus; divided attention spreads resources across tasks" },
+              { id: "b", text: "Selective attention lasts longer than divided attention" },
+              { id: "c", text: "Divided attention only works for visual tasks" },
               { id: "d", text: "They are identical processes with different names" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -634,12 +634,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Attention capacity is unlimited" },
+              { id: "a", text: "Unattended inputs are still partially processed" },
               { id: "b", text: "All inputs receive equal processing" },
-              { id: "c", text: "Unattended inputs are still partially processed" },
+              { id: "c", text: "Attention capacity is unlimited" },
               { id: "d", text: "Semantic analysis only occurs after selection" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -662,12 +662,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Selection occurs before any semantic analysis" },
-              { id: "b", text: "All inputs receive semantic analysis before selection at the response stage" },
+              { id: "a", text: "All inputs receive semantic analysis before selection at the response stage" },
+              { id: "b", text: "Unattended inputs are completely lost" },
               { id: "c", text: "Only one channel can be attended at a time" },
-              { id: "d", text: "Unattended inputs are completely lost" },
+              { id: "d", text: "Selection occurs before any semantic analysis" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -690,12 +690,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Requiring full attentional capacity" },
-              { id: "b", text: "Demanding conscious control" },
-              { id: "c", text: "Proceeding with little attentional demand" },
-              { id: "d", text: "Impossible to combine with other tasks" },
+              { id: "a", text: "Demanding conscious control" },
+              { id: "b", text: "Requiring full attentional capacity" },
+              { id: "c", text: "Impossible to combine with other tasks" },
+              { id: "d", text: "Proceeding with little attentional demand" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [

@@ -54,12 +54,12 @@ export const lesson103: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "education" },
-              { id: "b", text: "celebration" },
-              { id: "c", text: "decision" },
-              { id: "d", text: "invitation" },
+              { id: "a", text: "invitation" },
+              { id: "b", text: "education" },
+              { id: "c", text: "celebration" },
+              { id: "d", text: "decision" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -82,12 +82,12 @@ export const lesson103: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "though, through, tough" },
-              { id: "b", text: "cat, hat, bat" },
+              { id: "a", text: "cat, hat, bat" },
+              { id: "b", text: "though, through, tough" },
               { id: "c", text: "run, sun, fun" },
               { id: "d", text: "big, pig, dig" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -206,12 +206,12 @@ export const lesson103: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Far sound" },
+              { id: "a", text: "Write sound" },
               { id: "b", text: "Near sound" },
-              { id: "c", text: "Write sound" },
-              { id: "d", text: "Good sound" },
+              { id: "c", text: "Good sound" },
+              { id: "d", text: "Far sound" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -236,12 +236,12 @@ export const lesson103: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Far looker" },
-              { id: "b", text: "Small looker" },
-              { id: "c", text: "Big looker" },
-              { id: "d", text: "Sound looker" },
+              { id: "a", text: "Sound looker" },
+              { id: "b", text: "Big looker" },
+              { id: "c", text: "Far looker" },
+              { id: "d", text: "Small looker" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

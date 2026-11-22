@@ -91,9 +91,9 @@ export const lesson11: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$v = v' + V$" },
-              { id: "b", text: "$v = v' - V$" },
-              { id: "c", text: "$v = v' \\times V$" },
-              { id: "d", text: "$v = \\frac{v'}{V}$" },
+              { id: "b", text: "$v = \\frac{v'}{V}$" },
+              { id: "c", text: "$v = v' - V$" },
+              { id: "d", text: "$v = v' \\times V$" },
             ],
             correctChoiceId: "a",
           },
@@ -327,14 +327,14 @@ export const lesson11: Lesson = {
                 id: "a",
                 text: "A car accelerating away from a set of traffic lights",
               },
-              { id: "b", text: "A lift in free fall" },
+              { id: "b", text: "A satellite moving in a circular orbit" },
+              { id: "c", text: "A lift in free fall" },
               {
-                id: "c",
+                id: "d",
                 text: "A spacecraft travelling at constant velocity far from any massive object",
               },
-              { id: "d", text: "A satellite moving in a circular orbit" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -378,17 +378,17 @@ export const lesson11: Lesson = {
                 id: "a",
                 text: "The laws of physics are identical in all inertial frames",
               },
+              { id: "b", text: "Nothing can travel faster than light" },
               {
-                id: "b",
+                id: "c",
                 text: "The speed of light in a vacuum is the same in all inertial frames",
               },
-              { id: "c", text: "Nothing can travel faster than light" },
               {
                 id: "d",
                 text: "Light travels at $3.00 \\times 10^8$ m/s in a vacuum in all inertial frames",
               },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -429,11 +429,11 @@ export const lesson11: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "are also simultaneous" },
-              { id: "b", text: "may not be simultaneous" },
-              { id: "c", text: "must occur at the same place" },
+              { id: "b", text: "must occur at the same place" },
+              { id: "c", text: "may not be simultaneous" },
               { id: "d", text: "cannot be observed at all" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -473,12 +473,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$1.9c$" },
-              { id: "b", text: "$0.9c$" },
-              { id: "c", text: "$c$" },
-              { id: "d", text: "$0.1c$" },
+              { id: "a", text: "$0.1c$" },
+              { id: "b", text: "$1.9c$" },
+              { id: "c", text: "$0.9c$" },
+              { id: "d", text: "$c$" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -518,12 +518,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "time intervals" },
-              { id: "b", text: "lengths" },
-              { id: "c", text: "the laws of physics" },
+              { id: "a", text: "the laws of physics" },
+              { id: "b", text: "time intervals" },
+              { id: "c", text: "lengths" },
               { id: "d", text: "the velocities of objects" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1037,12 +1037,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Slow (time dilation)" },
-              { id: "b", text: "Fast" },
-              { id: "c", text: "At the same rate" },
+              { id: "a", text: "Fast" },
+              { id: "b", text: "At the same rate" },
+              { id: "c", text: "Slow (time dilation)" },
               { id: "d", text: "Stop completely" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1270,19 +1270,19 @@ export const lesson11: Lesson = {
             choices: [
               {
                 id: "a",
-                text: "in the frame where the two events occur at the same place",
+                text: "between events that occur at different locations",
               },
               {
                 id: "b",
+                text: "in the frame where the two events occur at the same place",
+              },
+              {
+                id: "c",
                 text: "by the observer moving fastest relative to the events",
               },
-              { id: "c", text: "identically in every inertial frame" },
-              {
-                id: "d",
-                text: "between events that occur at different locations",
-              },
+              { id: "d", text: "identically in every inertial frame" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1321,10 +1321,10 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "contracted by the Lorentz factor" },
+              { id: "a", text: "zero" },
               { id: "b", text: "unchanged" },
               { id: "c", text: "dilated by the Lorentz factor" },
-              { id: "d", text: "zero" },
+              { id: "d", text: "contracted by the Lorentz factor" },
             ],
             correctChoiceId: "b",
           },
@@ -1367,11 +1367,11 @@ export const lesson11: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "the twin who stayed on Earth" },
-              { id: "b", text: "both twins age the same amount" },
-              { id: "c", text: "the twin who travelled at relativistic speed" },
-              { id: "d", text: "neither — time stops for both" },
+              { id: "b", text: "the twin who travelled at relativistic speed" },
+              { id: "c", text: "neither — time stops for both" },
+              { id: "d", text: "both twins age the same amount" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1635,7 +1635,7 @@ export const lesson11: Lesson = {
               },
               {
                 id: "b",
-                text: "A moving object appears longer along its direction of motion",
+                text: "Length contraction applies to objects at rest",
               },
               {
                 id: "c",
@@ -1643,7 +1643,7 @@ export const lesson11: Lesson = {
               },
               {
                 id: "d",
-                text: "Length contraction applies to objects at rest",
+                text: "A moving object appears longer along its direction of motion",
               },
             ],
             correctChoiceId: "c",

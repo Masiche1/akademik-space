@@ -54,9 +54,9 @@ export const lesson21: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "The Wall Street Crash of 1929" },
-              { id: "b", text: "The Treaty of Versailles" },
-              { id: "c", text: "The Russian Revolution" },
-              { id: "d", text: "The Spanish Civil War" },
+              { id: "b", text: "The Spanish Civil War" },
+              { id: "c", text: "The Treaty of Versailles" },
+              { id: "d", text: "The Russian Revolution" },
             ],
             correctChoiceId: "a",
           },
@@ -152,12 +152,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "1919" },
-              { id: "b", text: "1923" },
-              { id: "c", text: "1929" },
-              { id: "d", text: "1933" },
+              { id: "a", text: "1933" },
+              { id: "b", text: "1919" },
+              { id: "c", text: "1923" },
+              { id: "d", text: "1929" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -180,12 +180,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Germany won WWI but politicians betrayed the army" },
+              { id: "a", text: "Versailles was never signed" },
               { id: "b", text: "Communists poisoned German soldiers" },
-              { id: "c", text: "The Allies invaded Germany first" },
-              { id: "d", text: "Versailles was never signed" },
+              { id: "c", text: "Germany won WWI but politicians betrayed the army" },
+              { id: "d", text: "The Allies invaded Germany first" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -208,12 +208,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "1929" },
-              { id: "b", text: "1931" },
-              { id: "c", text: "1935" },
-              { id: "d", text: "1937" },
+              { id: "a", text: "1935" },
+              { id: "b", text: "1929" },
+              { id: "c", text: "1937" },
+              { id: "d", text: "1931" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -236,12 +236,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The League of Nations could effectively enforce sanctions" },
-              { id: "b", text: "Collective security was failing — the League's sanctions were weak and inconsistently applied" },
-              { id: "c", text: "Ethiopia was militarily superior to Italy" },
-              { id: "d", text: "Italy withdrew from the League immediately" },
+              { id: "a", text: "Collective security was failing — the League's sanctions were weak and inconsistently applied" },
+              { id: "b", text: "Ethiopia was militarily superior to Italy" },
+              { id: "c", text: "Italy withdrew from the League immediately" },
+              { id: "d", text: "The League of Nations could effectively enforce sanctions" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -264,9 +264,9 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Britain had no extremist parties" },
+              { id: "a", text: "Germany was invaded by foreign powers" },
               { id: "b", text: "Germany's democracy was already weakened by Versailles stigma, hyperinflation trauma and proportional-representation fragmentation" },
-              { id: "c", text: "Germany was invaded by foreign powers" },
+              { id: "c", text: "Britain had no extremist parties" },
               { id: "d", text: "Britain's economy was unaffected by the Depression" },
             ],
             correctChoiceId: "b",
@@ -477,9 +477,9 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Winning a democratic election" },
+              { id: "a", text: "A military coup by the army" },
               { id: "b", text: "The king inviting him after the March on Rome" },
-              { id: "c", text: "A military coup by the army" },
+              { id: "c", text: "Winning a democratic election" },
               { id: "d", text: "Parliamentary vote of no confidence" },
             ],
             correctChoiceId: "b",
@@ -576,12 +576,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A military coup by the Italian army" },
-              { id: "b", text: "King Victor Emmanuel III inviting Mussolini to form government" },
+              { id: "a", text: "The abolition of the monarchy" },
+              { id: "b", text: "A military coup by the Italian army" },
               { id: "c", text: "Mussolini winning a general election" },
-              { id: "d", text: "The abolition of the monarchy" },
+              { id: "d", text: "King Victor Emmanuel III inviting Mussolini to form government" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -606,8 +606,8 @@ export const lesson21: Lesson = {
             choices: [
               { id: "a", text: "Declare war on France" },
               { id: "b", text: "Pass laws without parliament — rule by decree" },
-              { id: "c", text: "Abolish the presidency" },
-              { id: "d", text: "Join the League of Nations" },
+              { id: "c", text: "Join the League of Nations" },
+              { id: "d", text: "Abolish the presidency" },
             ],
             correctChoiceId: "b",
           },
@@ -632,12 +632,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The Nazi propaganda ministry" },
-              { id: "b", text: "The Nazi secret police" },
-              { id: "c", text: "The SS paramilitary guard" },
-              { id: "d", text: "The Hitler Youth organisation" },
+              { id: "a", text: "The SS paramilitary guard" },
+              { id: "b", text: "The Hitler Youth organisation" },
+              { id: "c", text: "The Nazi propaganda ministry" },
+              { id: "d", text: "The Nazi secret police" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -660,12 +660,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The Night of Long Knives purge" },
-              { id: "b", text: "'Coordination' — bringing all institutions under Nazi party control" },
-              { id: "c", text: "The policy of Lebensraum expansion" },
+              { id: "a", text: "'Coordination' — bringing all institutions under Nazi party control" },
+              { id: "b", text: "The policy of Lebensraum expansion" },
+              { id: "c", text: "The Night of Long Knives purge" },
               { id: "d", text: "The Nuremberg racial laws" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -689,11 +689,11 @@ export const lesson21: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "They held regular competitive elections" },
-              { id: "b", text: "One-party dictatorship, leader cult and suppression of opposition" },
-              { id: "c", text: "They protected freedom of the press" },
+              { id: "b", text: "They protected freedom of the press" },
+              { id: "c", text: "One-party dictatorship, leader cult and suppression of opposition" },
               { id: "d", text: "They relied on independent judiciaries" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

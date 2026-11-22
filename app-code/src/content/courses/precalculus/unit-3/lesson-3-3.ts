@@ -53,12 +53,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$b=\\dfrac{10\\sin45^\\circ}{\\sin30^\\circ}\\approx14.14$" },
-              { id: "b", text: "$b=\\dfrac{10\\sin30^\\circ}{\\sin45^\\circ}\\approx7.07$" },
-              { id: "c", text: "$b=10\\sin45^\\circ\\sin30^\\circ\\approx3.54$" },
-              { id: "d", text: "$b=\\dfrac{10\\sin105^\\circ}{\\sin30^\\circ}\\approx19.32$" },
+              { id: "a", text: "$b=\\dfrac{10\\sin105^\\circ}{\\sin30^\\circ}\\approx19.32$" },
+              { id: "b", text: "$b=\\dfrac{10\\sin45^\\circ}{\\sin30^\\circ}\\approx14.14$" },
+              { id: "c", text: "$b=\\dfrac{10\\sin30^\\circ}{\\sin45^\\circ}\\approx7.07$" },
+              { id: "d", text: "$b=10\\sin45^\\circ\\sin30^\\circ\\approx3.54$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -204,12 +204,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$6^2+8^2-2(6)(8)\\cos50^\\circ$" },
-              { id: "b", text: "$6^2+8^2+2(6)(8)\\cos50^\\circ$" },
-              { id: "c", text: "$6^2+8^2-(6)(8)\\cos50^\\circ$" },
+              { id: "a", text: "$6^2+8^2-(6)(8)\\cos50^\\circ$" },
+              { id: "b", text: "$6^2+8^2-2(6)(8)\\cos50^\\circ$" },
+              { id: "c", text: "$6^2+8^2+2(6)(8)\\cos50^\\circ$" },
               { id: "d", text: "$6^2+8^2-2(6)(8)\\sin50^\\circ$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [

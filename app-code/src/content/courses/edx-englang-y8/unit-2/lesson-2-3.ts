@@ -62,12 +62,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "They are both content with the place where they live." },
+              { id: "a", text: "They both think the weather is the most important thing." },
               { id: "b", text: "They both want to move to the other place." },
               { id: "c", text: "They both dislike their neighbours." },
-              { id: "d", text: "They both think the weather is the most important thing." },
+              { id: "d", text: "They are both content with the place where they live." },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "skill", name: "Shared ideas", statement: "Look for what both texts say, not only differences." }],
@@ -186,12 +186,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Metaphor" },
+              { id: "a", text: "Statistics" },
               { id: "b", text: "Rhetorical question" },
-              { id: "c", text: "Statistics" },
+              { id: "c", text: "Metaphor" },
               { id: "d", text: "Anaphora" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Metaphor", statement: "Describing one thing as another." }],

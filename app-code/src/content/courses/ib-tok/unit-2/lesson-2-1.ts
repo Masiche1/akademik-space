@@ -53,11 +53,11 @@ export const lesson21: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Empirical experiment" },
-              { id: "b", text: "Deductive proof from axioms" },
+              { id: "b", text: "Emotional intuition" },
               { id: "c", text: "Authority and tradition" },
-              { id: "d", text: "Emotional intuition" },
+              { id: "d", text: "Deductive proof from axioms" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -147,12 +147,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It depends on repeated observation" },
-              { id: "b", text: "It guarantees truth within the accepted axioms" },
-              { id: "c", text: "It is accepted because authorities endorse it" },
-              { id: "d", text: "It cannot be checked by other people" },
+              { id: "a", text: "It guarantees truth within the accepted axioms" },
+              { id: "b", text: "It depends on repeated observation" },
+              { id: "c", text: "It cannot be checked by other people" },
+              { id: "d", text: "It is accepted because authorities endorse it" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -174,12 +174,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Mathematics is only a useful notation" },
-              { id: "b", text: "Mathematical objects exist independently of human minds" },
-              { id: "c", text: "All mathematical truths are invented by convention" },
-              { id: "d", text: "Mathematics has no connection to abstract structure" },
+              { id: "a", text: "All mathematical truths are invented by convention" },
+              { id: "b", text: "Mathematics has no connection to abstract structure" },
+              { id: "c", text: "Mathematics is only a useful notation" },
+              { id: "d", text: "Mathematical objects exist independently of human minds" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -201,12 +201,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A description of physical reality" },
-              { id: "b", text: "A game of symbols governed by rules" },
+              { id: "a", text: "A game of symbols governed by rules" },
+              { id: "b", text: "A description of physical reality" },
               { id: "c", text: "A set of religious revelations" },
               { id: "d", text: "An empirical science of quantity" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -228,12 +228,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "All mathematics is false" },
-              { id: "b", text: "Some truths may be unprovable within a system" },
-              { id: "c", text: "Proof is unnecessary in mathematics" },
-              { id: "d", text: "Axioms can prove themselves" },
+              { id: "a", text: "Some truths may be unprovable within a system" },
+              { id: "b", text: "Proof is unnecessary in mathematics" },
+              { id: "c", text: "Axioms can prove themselves" },
+              { id: "d", text: "All mathematics is false" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -255,12 +255,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A substitute for proof" },
-              { id: "b", text: "A guide to discovery that still requires proof for certainty" },
+              { id: "a", text: "A guide to discovery that still requires proof for certainty" },
+              { id: "b", text: "A substitute for proof" },
               { id: "c", text: "An empirical testing method" },
               { id: "d", text: "An authority accepted by all mathematicians" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -283,11 +283,11 @@ export const lesson21: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "A direct and perfect description of reality" },
-              { id: "b", text: "An approximate model whose adequacy is tested empirically" },
-              { id: "c", text: "Irrelevant to scientific knowledge" },
-              { id: "d", text: "Certain independently of observation" },
+              { id: "b", text: "Certain independently of observation" },
+              { id: "c", text: "An approximate model whose adequacy is tested empirically" },
+              { id: "d", text: "Irrelevant to scientific knowledge" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -464,12 +464,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Faith" },
-              { id: "b", text: "Empirical observation and experiment" },
-              { id: "c", text: "Revelation" },
-              { id: "d", text: "Tradition alone" },
+              { id: "a", text: "Tradition alone" },
+              { id: "b", text: "Revelation" },
+              { id: "c", text: "Faith" },
+              { id: "d", text: "Empirical observation and experiment" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -559,12 +559,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Certain and unchangeable" },
-              { id: "b", text: "Empirical, testable and revisable" },
+              { id: "a", text: "Empirical, testable and revisable" },
+              { id: "b", text: "Certain and unchangeable" },
               { id: "c", text: "Based mainly on revelation" },
               { id: "d", text: "Independent of evidence" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -586,12 +586,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It makes claims impossible to test" },
-              { id: "b", text: "It ensures evidence could in principle refute the claim" },
+              { id: "a", text: "It ensures evidence could in principle refute the claim" },
+              { id: "b", text: "It removes the need for observation" },
               { id: "c", text: "It proves every hypothesis true" },
-              { id: "d", text: "It removes the need for observation" },
+              { id: "d", text: "It makes claims impossible to test" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -614,11 +614,11 @@ export const lesson21: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "A hypothesis is always false" },
-              { id: "b", text: "A theory has broader explanatory and predictive support than a hypothesis" },
+              { id: "b", text: "A hypothesis is proven by one observation" },
               { id: "c", text: "A theory cannot be revised" },
-              { id: "d", text: "A hypothesis is proven by one observation" },
+              { id: "d", text: "A theory has broader explanatory and predictive support than a hypothesis" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -640,10 +640,10 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A minor correction to data" },
+              { id: "a", text: "The rejection of all evidence" },
               { id: "b", text: "A change in the dominant framework of assumptions and methods" },
               { id: "c", text: "The discovery of a new instrument" },
-              { id: "d", text: "The rejection of all evidence" },
+              { id: "d", text: "A minor correction to data" },
             ],
             correctChoiceId: "b",
           },
@@ -667,12 +667,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Guaranteeing every result is correct" },
-              { id: "b", text: "Exposing errors and testing whether findings can be repeated" },
-              { id: "c", text: "Replacing the need for evidence" },
-              { id: "d", text: "Making science independent of interpretation" },
+              { id: "a", text: "Replacing the need for evidence" },
+              { id: "b", text: "Making science independent of interpretation" },
+              { id: "c", text: "Guaranteeing every result is correct" },
+              { id: "d", text: "Exposing errors and testing whether findings can be repeated" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

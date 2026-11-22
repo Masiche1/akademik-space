@@ -50,12 +50,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\mathrm{E}(X)=3$, $\\mathrm{Var}(X)=2.1$" },
-              { id: "b", text: "$\\mathrm{E}(X)=3$, $\\mathrm{Var}(X)=0.21$" },
+              { id: "a", text: "$\\mathrm{E}(X)=3$, $\\mathrm{Var}(X)=0.21$" },
+              { id: "b", text: "$\\mathrm{E}(X)=3$, $\\mathrm{Var}(X)=2.1$" },
               { id: "c", text: "$\\mathrm{E}(X)=3$, $\\mathrm{Var}(X)=3$" },
               { id: "d", text: "$\\mathrm{E}(X)=2.1$, $\\mathrm{Var}(X)=3$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -177,12 +177,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\mathrm{E}(X)=2$, $\\mathrm{Var}(X)=1.5$" },
-              { id: "b", text: "$\\mathrm{E}(X)=2$, $\\mathrm{Var}(X)=0.375$" },
-              { id: "c", text: "$\\mathrm{E}(X)=0.25$, $\\mathrm{Var}(X)=1.5$" },
+              { id: "a", text: "$\\mathrm{E}(X)=2$, $\\mathrm{Var}(X)=0.375$" },
+              { id: "b", text: "$\\mathrm{E}(X)=0.25$, $\\mathrm{Var}(X)=1.5$" },
+              { id: "c", text: "$\\mathrm{E}(X)=2$, $\\mathrm{Var}(X)=1.5$" },
               { id: "d", text: "$\\mathrm{E}(X)=2$, $\\mathrm{Var}(X)=2$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -205,12 +205,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$0.0778$" },
-              { id: "b", text: "$0.4$" },
+              { id: "a", text: "$0.4$" },
+              { id: "b", text: "$0.6$" },
               { id: "c", text: "$0.0102$" },
-              { id: "d", text: "$0.6$" },
+              { id: "d", text: "$0.0778$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -262,8 +262,8 @@ export const lesson43: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "The number of heads when a fair coin is tossed $10$ times." },
-              { id: "b", text: "The number of goals scored in a football match." },
-              { id: "c", text: "The heights of $20$ students in a class." },
+              { id: "b", text: "The heights of $20$ students in a class." },
+              { id: "c", text: "The number of goals scored in a football match." },
               { id: "d", text: "The number of pages in a book." },
             ],
             correctChoiceId: "a",
@@ -317,12 +317,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$0.5904$" },
-              { id: "b", text: "$0.8$" },
-              { id: "c", text: "$0.4096$" },
-              { id: "d", text: "$0.0016$" },
+              { id: "a", text: "$0.8$" },
+              { id: "b", text: "$0.4096$" },
+              { id: "c", text: "$0.0016$" },
+              { id: "d", text: "$0.5904$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -376,11 +376,11 @@ export const lesson43: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$4$" },
-              { id: "b", text: "$5$" },
-              { id: "c", text: "$6$" },
+              { id: "b", text: "$6$" },
+              { id: "c", text: "$5$" },
               { id: "d", text: "$10$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -403,12 +403,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$0.0625$" },
-              { id: "b", text: "$0.5$" },
-              { id: "c", text: "$0.03125$" },
-              { id: "d", text: "$0.125$" },
+              { id: "a", text: "$0.5$" },
+              { id: "b", text: "$0.03125$" },
+              { id: "c", text: "$0.125$" },
+              { id: "d", text: "$0.0625$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -547,12 +547,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$2$" },
-              { id: "b", text: "$8$" },
-              { id: "c", text: "$0.5$" },
-              { id: "d", text: "$4$" },
+              { id: "a", text: "$0.5$" },
+              { id: "b", text: "$4$" },
+              { id: "c", text: "$2$" },
+              { id: "d", text: "$8$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -673,8 +673,8 @@ export const lesson43: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$1.5$" },
-              { id: "b", text: "$15$" },
-              { id: "c", text: "$0.15$" },
+              { id: "b", text: "$0.15$" },
+              { id: "c", text: "$15$" },
               { id: "d", text: "$2$" },
             ],
             correctChoiceId: "a",
@@ -700,12 +700,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$0.5$" },
-              { id: "b", text: "$0.25$" },
-              { id: "c", text: "$0.75$" },
-              { id: "d", text: "$0$" },
+              { id: "a", text: "$0$" },
+              { id: "b", text: "$0.75$" },
+              { id: "c", text: "$0.25$" },
+              { id: "d", text: "$0.5$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -756,10 +756,10 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$43$" },
+              { id: "a", text: "$40$" },
               { id: "b", text: "$46$" },
               { id: "c", text: "$49$" },
-              { id: "d", text: "$40$" },
+              { id: "d", text: "$43$" },
             ],
             correctChoiceId: "b",
           },
@@ -812,12 +812,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$0.975$" },
+              { id: "a", text: "$0.5$" },
               { id: "b", text: "$0.025$" },
-              { id: "c", text: "$0.95$" },
-              { id: "d", text: "$0.5$" },
+              { id: "c", text: "$0.975$" },
+              { id: "d", text: "$0.95$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -900,8 +900,8 @@ export const lesson43: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$0.0228$" },
-              { id: "b", text: "$0.05$" },
-              { id: "c", text: "$0.9772$" },
+              { id: "b", text: "$0.9772$" },
+              { id: "c", text: "$0.05$" },
               { id: "d", text: "$0.5$" },
             ],
             correctChoiceId: "a",
@@ -983,9 +983,9 @@ export const lesson43: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$0.1587$" },
-              { id: "b", text: "$0.0228$" },
-              { id: "c", text: "$0.8413$" },
-              { id: "d", text: "$0.5$" },
+              { id: "b", text: "$0.5$" },
+              { id: "c", text: "$0.0228$" },
+              { id: "d", text: "$0.8413$" },
             ],
             correctChoiceId: "a",
           },

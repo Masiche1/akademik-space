@@ -55,8 +55,8 @@ export const lesson11: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Plants" },
-              { id: "b", text: "Bacteria" },
-              { id: "c", text: "Protoctists" },
+              { id: "b", text: "Protoctists" },
+              { id: "c", text: "Bacteria" },
               { id: "d", text: "Fungi" },
             ],
             correctChoiceId: "d",
@@ -188,12 +188,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Ribosome" },
-              { id: "b", text: "Mitochondrion" },
-              { id: "c", text: "Nucleus" },
-              { id: "d", text: "Chloroplast" },
+              { id: "a", text: "Mitochondrion" },
+              { id: "b", text: "Nucleus" },
+              { id: "c", text: "Chloroplast" },
+              { id: "d", text: "Ribosome" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

@@ -113,12 +113,12 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Alternative form of a gene" },
+              { id: "a", text: "A trait" },
               { id: "b", text: "A chromosome" },
               { id: "c", text: "A protein" },
-              { id: "d", text: "A trait" },
+              { id: "d", text: "Alternative form of a gene" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -142,12 +142,12 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Genetic makeup" },
-              { id: "b", text: "Observable traits" },
-              { id: "c", text: "Physical appearance" },
+              { id: "a", text: "Physical appearance" },
+              { id: "b", text: "Genetic makeup" },
+              { id: "c", text: "Observable traits" },
               { id: "d", text: "Environment" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -175,12 +175,12 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Observable characteristics" },
+              { id: "a", text: "Alleles" },
               { id: "b", text: "Genetic makeup" },
-              { id: "c", text: "Alleles" },
-              { id: "d", text: "Genes" },
+              { id: "c", text: "Genes" },
+              { id: "d", text: "Observable characteristics" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -204,12 +204,12 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Two identical alleles" },
-              { id: "b", text: "Two different alleles" },
-              { id: "c", text: "One allele" },
-              { id: "d", text: "No alleles" },
+              { id: "a", text: "Two different alleles" },
+              { id: "b", text: "Two identical alleles" },
+              { id: "c", text: "No alleles" },
+              { id: "d", text: "One allele" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -233,12 +233,12 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Two different alleles" },
+              { id: "a", text: "No alleles" },
               { id: "b", text: "Two identical alleles" },
               { id: "c", text: "One allele" },
-              { id: "d", text: "No alleles" },
+              { id: "d", text: "Two different alleles" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -266,12 +266,12 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Expressed in heterozygote" },
-              { id: "b", text: "Only in homozygote" },
-              { id: "c", text: "Never expressed" },
+              { id: "a", text: "Only in homozygote" },
+              { id: "b", text: "Never expressed" },
+              { id: "c", text: "Expressed in heterozygote" },
               { id: "d", text: "Recessive" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -295,12 +295,12 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Only expressed in homozygote" },
-              { id: "b", text: "Always expressed" },
+              { id: "a", text: "Never expressed" },
+              { id: "b", text: "Only expressed in homozygote" },
               { id: "c", text: "Dominant" },
-              { id: "d", text: "Never expressed" },
+              { id: "d", text: "Always expressed" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -328,12 +328,12 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "One gene" },
+              { id: "a", text: "All genes" },
               { id: "b", text: "Two genes" },
-              { id: "c", text: "Three genes" },
-              { id: "d", text: "All genes" },
+              { id: "c", text: "One gene" },
+              { id: "d", text: "Three genes" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -357,12 +357,12 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Two genes" },
-              { id: "b", text: "One gene" },
-              { id: "c", text: "Three genes" },
-              { id: "d", text: "No genes" },
+              { id: "a", text: "Three genes" },
+              { id: "b", text: "No genes" },
+              { id: "c", text: "Two genes" },
+              { id: "d", text: "One gene" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -382,12 +382,12 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Predict offspring genotypes" },
-              { id: "b", text: "Count chromosomes" },
+              { id: "a", text: "Identify alleles" },
+              { id: "b", text: "Predict offspring genotypes" },
               { id: "c", text: "Measure traits" },
-              { id: "d", text: "Identify alleles" },
+              { id: "d", text: "Count chromosomes" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -411,12 +411,12 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Heterozygote for recessive allele" },
-              { id: "b", text: "Homozygous dominant" },
-              { id: "c", text: "Homozygous recessive" },
-              { id: "d", text: "No allele" },
+              { id: "a", text: "Homozygous dominant" },
+              { id: "b", text: "No allele" },
+              { id: "c", text: "Heterozygote for recessive allele" },
+              { id: "d", text: "Homozygous recessive" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -440,12 +440,12 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "1:2:1" },
-              { id: "b", text: "3:1" },
-              { id: "c", text: "1:1" },
-              { id: "d", text: "9:3:3:1" },
+              { id: "a", text: "3:1" },
+              { id: "b", text: "1:2:1" },
+              { id: "c", text: "9:3:3:1" },
+              { id: "d", text: "1:1" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -467,12 +467,12 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "3:1" },
-              { id: "b", text: "1:2:1" },
-              { id: "c", text: "1:1" },
-              { id: "d", text: "9:3:3:1" },
+              { id: "a", text: "1:1" },
+              { id: "b", text: "9:3:3:1" },
+              { id: "c", text: "1:2:1" },
+              { id: "d", text: "3:1" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -494,15 +494,15 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "Always dominant" },
+              { id: "b", text: "No variation" },
+              { id: "c", text: "Genes always together" },
               {
-                id: "a",
+                id: "d",
                 text: "Genes on different chromosomes assort independently",
               },
-              { id: "b", text: "Genes always together" },
-              { id: "c", text: "No variation" },
-              { id: "d", text: "Always dominant" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -530,12 +530,12 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "On same chromosome" },
-              { id: "b", text: "On different chromosomes" },
-              { id: "c", text: "Always dominant" },
-              { id: "d", text: "Always recessive" },
+              { id: "a", text: "On different chromosomes" },
+              { id: "b", text: "Always recessive" },
+              { id: "c", text: "On same chromosome" },
+              { id: "d", text: "Always dominant" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -565,8 +565,8 @@ export const lesson34: Lesson = {
             choices: [
               { id: "a", text: "Sex chromosomes (X or Y)" },
               { id: "b", text: "Autosomes" },
-              { id: "c", text: "All chromosomes" },
-              { id: "d", text: "No chromosomes" },
+              { id: "c", text: "No chromosomes" },
+              { id: "d", text: "All chromosomes" },
             ],
             correctChoiceId: "a",
           },
@@ -592,12 +592,12 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Determine unknown genotype" },
-              { id: "b", text: "Count chromosomes" },
+              { id: "a", text: "Count chromosomes" },
+              { id: "b", text: "Identify alleles" },
               { id: "c", text: "Measure traits" },
-              { id: "d", text: "Identify alleles" },
+              { id: "d", text: "Determine unknown genotype" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -626,9 +626,9 @@ export const lesson34: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "9:3:3:1" },
-              { id: "b", text: "3:1" },
-              { id: "c", text: "1:2:1" },
-              { id: "d", text: "1:1" },
+              { id: "b", text: "1:1" },
+              { id: "c", text: "3:1" },
+              { id: "d", text: "1:2:1" },
             ],
             correctChoiceId: "a",
           },
@@ -654,12 +654,12 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Heterozygote shows intermediate phenotype" },
-              { id: "b", text: "Dominant always wins" },
-              { id: "c", text: "No phenotype" },
-              { id: "d", text: "Both alleles expressed" },
+              { id: "a", text: "Both alleles expressed" },
+              { id: "b", text: "No phenotype" },
+              { id: "c", text: "Dominant always wins" },
+              { id: "d", text: "Heterozygote shows intermediate phenotype" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -818,12 +818,12 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Both alleles fully expressed" },
-              { id: "b", text: "One allele dominates" },
-              { id: "c", text: "Intermediate phenotype" },
-              { id: "d", text: "No expression" },
+              { id: "a", text: "Intermediate phenotype" },
+              { id: "b", text: "Both alleles fully expressed" },
+              { id: "c", text: "No expression" },
+              { id: "d", text: "One allele dominates" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -917,9 +917,9 @@ export const lesson34: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Non-sex chromosomes" },
-              { id: "b", text: "Sex chromosomes" },
-              { id: "c", text: "All chromosomes" },
-              { id: "d", text: "Gametes" },
+              { id: "b", text: "Gametes" },
+              { id: "c", text: "Sex chromosomes" },
+              { id: "d", text: "All chromosomes" },
             ],
             correctChoiceId: "a",
           },
@@ -1089,12 +1089,12 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "One gene masks another" },
-              { id: "b", text: "Multiple genes one trait" },
-              { id: "c", text: "One gene multiple traits" },
-              { id: "d", text: "No gene interaction" },
+              { id: "a", text: "One gene multiple traits" },
+              { id: "b", text: "One gene masks another" },
+              { id: "c", text: "No gene interaction" },
+              { id: "d", text: "Multiple genes one trait" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1118,12 +1118,12 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Multiple genes control one trait" },
-              { id: "b", text: "One gene multiple traits" },
+              { id: "a", text: "One gene multiple traits" },
+              { id: "b", text: "No genes" },
               { id: "c", text: "One gene masks another" },
-              { id: "d", text: "No genes" },
+              { id: "d", text: "Multiple genes control one trait" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1147,12 +1147,12 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "One gene affects multiple traits" },
-              { id: "b", text: "Multiple genes one trait" },
+              { id: "a", text: "Multiple genes one trait" },
+              { id: "b", text: "One gene affects multiple traits" },
               { id: "c", text: "One gene masks another" },
               { id: "d", text: "No effect" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1180,12 +1180,12 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Single base change" },
-              { id: "b", text: "Large deletion" },
-              { id: "c", text: "Chromosome loss" },
+              { id: "a", text: "Chromosome loss" },
+              { id: "b", text: "Single base change" },
+              { id: "c", text: "Large deletion" },
               { id: "d", text: "No change" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1209,12 +1209,12 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Insertion or deletion of bases" },
-              { id: "b", text: "Substitution" },
-              { id: "c", text: "No change" },
-              { id: "d", text: "Silent change" },
+              { id: "a", text: "Silent change" },
+              { id: "b", text: "No change" },
+              { id: "c", text: "Substitution" },
+              { id: "d", text: "Insertion or deletion of bases" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1238,12 +1238,12 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Inherited — in gametes" },
+              { id: "a", text: "Temporary" },
               { id: "b", text: "Body cells only" },
-              { id: "c", text: "Not inherited" },
-              { id: "d", text: "Temporary" },
+              { id: "c", text: "Inherited — in gametes" },
+              { id: "d", text: "Not inherited" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1267,12 +1267,12 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Body cells only — not inherited" },
+              { id: "a", text: "In gametes" },
               { id: "b", text: "Inherited" },
-              { id: "c", text: "In gametes" },
+              { id: "c", text: "Body cells only — not inherited" },
               { id: "d", text: "Permanent" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1296,12 +1296,12 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Polygenic trait" },
-              { id: "b", text: "Single gene" },
-              { id: "c", text: "Sex-linked" },
-              { id: "d", text: "Mutation" },
+              { id: "a", text: "Mutation" },
+              { id: "b", text: "Sex-linked" },
+              { id: "c", text: "Polygenic trait" },
+              { id: "d", text: "Single gene" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1325,12 +1325,12 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Pleiotropy" },
-              { id: "b", text: "Polygenic" },
-              { id: "c", text: "Epistasis" },
-              { id: "d", text: "Codominance" },
+              { id: "a", text: "Polygenic" },
+              { id: "b", text: "Pleiotropy" },
+              { id: "c", text: "Codominance" },
+              { id: "d", text: "Epistasis" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1354,12 +1354,12 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Codominance and multiple alleles" },
-              { id: "b", text: "Simple dominance" },
-              { id: "c", text: "Polygenic" },
-              { id: "d", text: "Pleiotropy" },
+              { id: "a", text: "Simple dominance" },
+              { id: "b", text: "Codominance and multiple alleles" },
+              { id: "c", text: "Pleiotropy" },
+              { id: "d", text: "Polygenic" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1383,12 +1383,12 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Large DNA segments" },
-              { id: "b", text: "Single gene only" },
-              { id: "c", text: "No DNA" },
-              { id: "d", text: "Proteins only" },
+              { id: "a", text: "Proteins only" },
+              { id: "b", text: "No DNA" },
+              { id: "c", text: "Large DNA segments" },
+              { id: "d", text: "Single gene only" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1416,12 +1416,12 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Single gene" },
-              { id: "b", text: "Whole chromosome" },
+              { id: "a", text: "Whole chromosome" },
+              { id: "b", text: "Single gene" },
               { id: "c", text: "All DNA" },
               { id: "d", text: "No DNA" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1449,12 +1449,12 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Loss of DNA segment" },
-              { id: "b", text: "Addition of DNA" },
-              { id: "c", text: "No change" },
+              { id: "a", text: "No change" },
+              { id: "b", text: "Loss of DNA segment" },
+              { id: "c", text: "Addition of DNA" },
               { id: "d", text: "Substitution" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1476,12 +1476,12 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Extra copy of DNA segment" },
+              { id: "a", text: "No change" },
               { id: "b", text: "Loss of DNA" },
-              { id: "c", text: "No change" },
+              { id: "c", text: "Extra copy of DNA segment" },
               { id: "d", text: "Substitution" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1509,12 +1509,12 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "DNA segment moves to different chromosome" },
-              { id: "b", text: "DNA lost" },
+              { id: "a", text: "DNA lost" },
+              { id: "b", text: "DNA segment moves to different chromosome" },
               { id: "c", text: "DNA duplicated" },
               { id: "d", text: "No change" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1538,12 +1538,12 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "DNA segment reversed within chromosome" },
-              { id: "b", text: "DNA lost" },
-              { id: "c", text: "DNA duplicated" },
-              { id: "d", text: "DNA moved" },
+              { id: "a", text: "DNA moved" },
+              { id: "b", text: "DNA duplicated" },
+              { id: "c", text: "DNA lost" },
+              { id: "d", text: "DNA segment reversed within chromosome" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1567,12 +1567,12 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Increases survival/reproduction" },
-              { id: "b", text: "Decreases survival" },
-              { id: "c", text: "No effect" },
-              { id: "d", text: "Lethal" },
+              { id: "a", text: "Lethal" },
+              { id: "b", text: "Increases survival/reproduction" },
+              { id: "c", text: "Decreases survival" },
+              { id: "d", text: "No effect" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1600,12 +1600,12 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "No effect on phenotype" },
-              { id: "b", text: "Beneficial" },
-              { id: "c", text: "Harmful" },
-              { id: "d", text: "Lethal" },
+              { id: "a", text: "Lethal" },
+              { id: "b", text: "Harmful" },
+              { id: "c", text: "Beneficial" },
+              { id: "d", text: "No effect on phenotype" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1629,12 +1629,12 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Decreases survival/reproduction" },
-              { id: "b", text: "Increases survival" },
-              { id: "c", text: "No effect" },
-              { id: "d", text: "Beneficial" },
+              { id: "a", text: "No effect" },
+              { id: "b", text: "Decreases survival/reproduction" },
+              { id: "c", text: "Beneficial" },
+              { id: "d", text: "Increases survival" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1793,12 +1793,12 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Point mutation in haemoglobin gene" },
-              { id: "b", text: "Chromosomal deletion" },
-              { id: "c", text: "No mutation" },
+              { id: "a", text: "No mutation" },
+              { id: "b", text: "Point mutation in haemoglobin gene" },
+              { id: "c", text: "Chromosomal deletion" },
               { id: "d", text: "Environmental factor" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1891,12 +1891,12 @@ export const lesson34: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Deletion mutation" },
-              { id: "b", text: "Point mutation" },
-              { id: "c", text: "No mutation" },
-              { id: "d", text: "Environmental" },
+              { id: "a", text: "Environmental" },
+              { id: "b", text: "No mutation" },
+              { id: "c", text: "Point mutation" },
+              { id: "d", text: "Deletion mutation" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

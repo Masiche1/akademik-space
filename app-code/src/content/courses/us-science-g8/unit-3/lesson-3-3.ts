@@ -50,12 +50,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Earth's changing distance from the Sun" },
-              { id: "b", text: "The tilt of Earth's axis as it orbits the Sun" },
-              { id: "c", text: "Earth's shadow falling on the Moon" },
-              { id: "d", text: "The Sun getting hotter and cooler during the year" },
+              { id: "a", text: "The Sun getting hotter and cooler during the year" },
+              { id: "b", text: "Earth's shadow falling on the Moon" },
+              { id: "c", text: "The tilt of Earth's axis as it orbits the Sun" },
+              { id: "d", text: "Earth's changing distance from the Sun" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -178,10 +178,10 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Magnetism" },
-              { id: "b", text: "Friction" },
+              { id: "a", text: "Air resistance" },
+              { id: "b", text: "Magnetism" },
               { id: "c", text: "Gravity" },
-              { id: "d", text: "Air resistance" },
+              { id: "d", text: "Friction" },
             ],
             correctChoiceId: "c",
           },

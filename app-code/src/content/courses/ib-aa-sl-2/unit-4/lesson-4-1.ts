@@ -50,12 +50,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Mean $29$, standard deviation $6$" },
-              { id: "b", text: "Mean $29$, standard deviation $11$" },
-              { id: "c", text: "Mean $24$, standard deviation $6$" },
-              { id: "d", text: "Mean $29$, standard deviation $36$" },
+              { id: "a", text: "Mean $29$, standard deviation $11$" },
+              { id: "b", text: "Mean $29$, standard deviation $36$" },
+              { id: "c", text: "Mean $29$, standard deviation $6$" },
+              { id: "d", text: "Mean $24$, standard deviation $6$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -176,12 +176,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Mean $-17$, standard deviation $6$" },
-              { id: "b", text: "Mean $-17$, standard deviation $1$" },
-              { id: "c", text: "Mean $31$, standard deviation $6$" },
-              { id: "d", text: "Mean $-17$, standard deviation $-6$" },
+              { id: "a", text: "Mean $-17$, standard deviation $1$" },
+              { id: "b", text: "Mean $-17$, standard deviation $6$" },
+              { id: "c", text: "Mean $-17$, standard deviation $-6$" },
+              { id: "d", text: "Mean $31$, standard deviation $6$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -204,12 +204,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$10$" },
-              { id: "b", text: "$20$" },
+              { id: "a", text: "$30$" },
+              { id: "b", text: "$10$" },
               { id: "c", text: "$26$" },
-              { id: "d", text: "$30$" },
+              { id: "d", text: "$20$" },
             ],
-            correctChoiceId: "d",
+            correctChoiceIa: "d",
           },
           markscheme: {
             principles: [
@@ -232,12 +232,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$16$" },
-              { id: "b", text: "$9$" },
-              { id: "c", text: "$20$" },
-              { id: "d", text: "$13$" },
+              { id: "a", text: "$9$" },
+              { id: "b", text: "$13$" },
+              { id: "c", text: "$16$" },
+              { id: "d", text: "$20$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -260,12 +260,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The mean" },
-              { id: "b", text: "The median" },
-              { id: "c", text: "The standard deviation" },
-              { id: "d", text: "The maximum" },
+              { id: "a", text: "The standard deviation" },
+              { id: "b", text: "The mean" },
+              { id: "c", text: "The maximum" },
+              { id: "d", text: "The median" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -429,12 +429,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$2.70$" },
-              { id: "b", text: "$2.50$" },
-              { id: "c", text: "$3.00$" },
-              { id: "d", text: "$2.85$" },
+              { id: "a", text: "$2.85$" },
+              { id: "b", text: "$3.00$" },
+              { id: "c", text: "$2.70$" },
+              { id: "d", text: "$2.50$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -457,12 +457,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$y=2x$" },
-              { id: "b", text: "$y=x+4$" },
-              { id: "c", text: "$y=3x-1$" },
-              { id: "d", text: "$y=\\frac{x}{2}$" },
+              { id: "a", text: "$y=3x-1$" },
+              { id: "b", text: "$y=\\frac{x}{2}$" },
+              { id: "c", text: "$y=2x$" },
+              { id: "d", text: "$y=x+4$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -485,12 +485,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Simple random sampling from the whole school" },
-              { id: "b", text: "Stratified sampling with year group as the strata" },
-              { id: "c", text: "Convenience sampling of students in the canteen" },
-              { id: "d", text: "Voluntary response sampling" },
+              { id: "a", text: "Convenience sampling of students in the canteen" },
+              { id: "b", text: "Voluntary response sampling" },
+              { id: "c", text: "Simple random sampling from the whole school" },
+              { id: "d", text: "Stratified sampling with year group as the strata" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -541,12 +541,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Strong negative linear correlation" },
+              { id: "a", text: "No linear correlation" },
               { id: "b", text: "Weak negative linear correlation" },
               { id: "c", text: "Strong positive linear correlation" },
-              { id: "d", text: "No linear correlation" },
+              { id: "d", text: "Strong negative linear correlation" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -669,12 +669,12 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Weak positive linear correlation" },
-              { id: "b", text: "Strong positive linear correlation" },
-              { id: "c", text: "Weak negative linear correlation" },
-              { id: "d", text: "Strong negative linear correlation" },
+              { id: "a", text: "Strong positive linear correlation" },
+              { id: "b", text: "Weak negative linear correlation" },
+              { id: "c", text: "Strong negative linear correlation" },
+              { id: "d", text: "Weak positive linear correlation" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -698,8 +698,8 @@ export const lesson41: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$3$" },
-              { id: "b", text: "$6$" },
-              { id: "c", text: "$12$" },
+              { id: "b", text: "$12$" },
+              { id: "c", text: "$6$" },
               { id: "d", text: "$27$" },
             ],
             correctChoiceId: "a",
@@ -725,10 +725,10 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The regression line of $y$ on $x$, rearranged to make $x$ the subject" },
+              { id: "a", text: "The line joining the first and last data points" },
               { id: "b", text: "The regression line of $x$ on $y$" },
-              { id: "c", text: "The line through the origin that is closest to the points" },
-              { id: "d", text: "The line joining the first and last data points" },
+              { id: "c", text: "The regression line of $y$ on $x$, rearranged to make $x$ the subject" },
+              { id: "d", text: "The line through the origin that is closest to the points" },
             ],
             correctChoiceId: "b",
           },
@@ -805,10 +805,10 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "There is definitely no relationship between the variables" },
+              { id: "a", text: "The regression line of $y$ on $x$ is horizontal" },
               { id: "b", text: "There may still be a strong non-linear relationship" },
               { id: "c", text: "The two variables are independent" },
-              { id: "d", text: "The regression line of $y$ on $x$ is horizontal" },
+              { id: "d", text: "There is definitely no relationship between the variables" },
             ],
             correctChoiceId: "b",
           },
@@ -895,9 +895,9 @@ export const lesson41: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$x = 3$" },
-              { id: "b", text: "$x = 7$" },
-              { id: "c", text: "$x = 9$" },
+              { id: "a", text: "$x = 9$" },
+              { id: "b", text: "$x = 3$" },
+              { id: "c", text: "$x = 7$" },
               { id: "d", text: "$x = 14$" },
             ],
             correctChoiceId: "d",
@@ -949,11 +949,11 @@ export const lesson41: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Buying ice cream causes people to drown" },
-              { id: "b", text: "Drowning causes people to buy more ice cream" },
-              { id: "c", text: "Both variables are likely affected by a third variable, such as temperature" },
+              { id: "b", text: "Both variables are likely affected by a third variable, such as temperature" },
+              { id: "c", text: "Drowning causes people to buy more ice cream" },
               { id: "d", text: "The strong correlation must be a coincidence" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [

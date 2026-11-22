@@ -56,12 +56,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Assets + Liabilities" },
-              { id: "b", text: "Assets - Liabilities" },
-              { id: "c", text: "Liabilities - Assets" },
+              { id: "a", text: "Liabilities - Assets" },
+              { id: "b", text: "Assets + Liabilities" },
+              { id: "c", text: "Assets - Liabilities" },
               { id: "d", text: "Revenue - Costs" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Accounting equation", statement: "Assets = Liabilities + Capital, so Capital = Assets - Liabilities." }],
@@ -146,12 +146,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Over a whole year" },
-              { id: "b", text: "At a point in time" },
+              { id: "a", text: "Before any transactions occur" },
+              { id: "b", text: "Over a whole year" },
               { id: "c", text: "Only when the business makes a profit" },
-              { id: "d", text: "Before any transactions occur" },
+              { id: "d", text: "At a point in time" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Balance sheet", statement: "A statement of assets, liabilities and capital at a point in time." }],
@@ -173,11 +173,11 @@ export const lesson42: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Revenue - Overheads" },
-              { id: "b", text: "Revenue - Cost of sales" },
-              { id: "c", text: "Revenue - Interest - Tax" },
-              { id: "d", text: "Assets - Liabilities" },
+              { id: "b", text: "Revenue - Interest - Tax" },
+              { id: "c", text: "Assets - Liabilities" },
+              { id: "d", text: "Revenue - Cost of sales" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Gross profit", statement: "Gross profit = Revenue - Cost of sales" }],
@@ -198,10 +198,10 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Only cost of sales" },
-              { id: "b", text: "Only tax" },
+              { id: "a", text: "Depreciation only" },
+              { id: "b", text: "Only cost of sales" },
               { id: "c", text: "Overheads, interest and tax" },
-              { id: "d", text: "Depreciation only" },
+              { id: "d", text: "Only tax" },
             ],
             correctChoiceId: "c",
           },
@@ -288,12 +288,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Rent paid" },
-              { id: "b", text: "Machinery owned" },
-              { id: "c", text: "Wages paid" },
-              { id: "d", text: "Interest paid" },
+              { id: "a", text: "Interest paid" },
+              { id: "b", text: "Wages paid" },
+              { id: "c", text: "Machinery owned" },
+              { id: "d", text: "Rent paid" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Statement contents", statement: "The balance sheet lists assets, liabilities and capital; the P&L lists revenue and expenses over a period." }],
@@ -342,11 +342,11 @@ export const lesson42: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Property and machinery" },
-              { id: "b", text: "Stock, debtors and cash" },
+              { id: "b", text: "Share capital" },
               { id: "c", text: "Long-term loans" },
-              { id: "d", text: "Share capital" },
+              { id: "d", text: "Stock, debtors and cash" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Current assets", statement: "Short-term assets expected to be converted to cash within a year: stock, debtors, cash." }],
@@ -404,10 +404,10 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Revenue equals cost of sales" },
+              { id: "a", text: "Assets equal liabilities" },
               { id: "b", text: "Total expenses exceed revenue" },
-              { id: "c", text: "Assets equal liabilities" },
-              { id: "d", text: "Cash flow is positive" },
+              { id: "c", text: "Cash flow is positive" },
+              { id: "d", text: "Revenue equals cost of sales" },
             ],
             correctChoiceId: "b",
           },
@@ -430,12 +430,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Delivery van" },
-              { id: "b", text: "Stock (inventory)" },
+              { id: "a", text: "Stock (inventory)" },
+              { id: "b", text: "Delivery van" },
               { id: "c", text: "Long-term bank loan" },
               { id: "d", text: "Share capital" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Current assets", statement: "Short-term assets such as stock, debtors and cash — convertible within a year." }],
@@ -494,9 +494,9 @@ export const lesson42: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Assets equal liabilities plus capital" },
-              { id: "b", text: "Revenue equals expenses" },
-              { id: "c", text: "Current assets equal current liabilities" },
-              { id: "d", text: "Profit equals cash flow" },
+              { id: "b", text: "Profit equals cash flow" },
+              { id: "c", text: "Revenue equals expenses" },
+              { id: "d", text: "Current assets equal current liabilities" },
             ],
             correctChoiceId: "a",
           },
@@ -565,11 +565,11 @@ export const lesson42: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Both cover the same one-year period" },
-              { id: "b", text: "The balance sheet shows position at a point in time; the P&L shows performance over a period" },
-              { id: "c", text: "The P&L lists assets and liabilities" },
-              { id: "d", text: "The balance sheet shows revenue and expenses" },
+              { id: "b", text: "The P&L lists assets and liabilities" },
+              { id: "c", text: "The balance sheet shows revenue and expenses" },
+              { id: "d", text: "The balance sheet shows position at a point in time; the P&L shows performance over a period" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Financial statements", statement: "Balance sheet = position at a point in time; P&L = performance over a period." }],
@@ -592,11 +592,11 @@ export const lesson42: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Cash in the bank" },
-              { id: "b", text: "Amount owed to suppliers (creditors)" },
-              { id: "c", text: "Delivery vehicles owned" },
-              { id: "d", text: "Unsold stock" },
+              { id: "b", text: "Unsold stock" },
+              { id: "c", text: "Amount owed to suppliers (creditors)" },
+              { id: "d", text: "Delivery vehicles owned" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Liabilities", statement: "Amounts the business owes — creditors, loans and other payables." }],
@@ -691,12 +691,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Cost of sales only" },
-              { id: "b", text: "Overheads, interest and tax" },
-              { id: "c", text: "Only depreciation" },
-              { id: "d", text: "Revenue only" },
+              { id: "a", text: "Overheads, interest and tax" },
+              { id: "b", text: "Only depreciation" },
+              { id: "c", text: "Revenue only" },
+              { id: "d", text: "Cost of sales only" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Net profit", statement: "Net profit = Gross profit - Overheads - Interest - Tax" }],
@@ -749,12 +749,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Payments - Receipts" },
-              { id: "b", text: "Receipts - Payments" },
+              { id: "a", text: "Receipts - Payments" },
+              { id: "b", text: "Payments - Receipts" },
               { id: "c", text: "Receipts + Payments" },
               { id: "d", text: "Opening balance - Closing balance" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Net cash flow", statement: "Net cash flow = Receipts - Payments" }],
@@ -840,11 +840,11 @@ export const lesson42: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Receipts - Payments" },
-              { id: "b", text: "Opening balance + Net cash flow" },
-              { id: "c", text: "Payments - Receipts" },
+              { id: "b", text: "Payments - Receipts" },
+              { id: "c", text: "Opening balance + Net cash flow" },
               { id: "d", text: "Opening balance - Net cash flow" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Closing balance", statement: "Closing balance = Opening balance + Receipts - Payments" }],
@@ -865,12 +865,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Wages paid to staff" },
+              { id: "a", text: "Cash received from a bank loan" },
               { id: "b", text: "Rent for premises" },
-              { id: "c", text: "Cash received from a bank loan" },
+              { id: "c", text: "Wages paid to staff" },
               { id: "d", text: "Purchase of stock" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Cash-flow forecast", statement: "Lists expected cash inflows (receipts) and outflows (payments) period by period." }],
@@ -994,12 +994,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The business has made a profit" },
-              { id: "b", text: "The business cannot cover its payments without extra finance" },
-              { id: "c", text: "Revenue has exceeded costs" },
-              { id: "d", text: "The forecast was prepared correctly" },
+              { id: "a", text: "The forecast was prepared correctly" },
+              { id: "b", text: "The business has made a profit" },
+              { id: "c", text: "The business cannot cover its payments without extra finance" },
+              { id: "d", text: "Revenue has exceeded costs" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Negative balance", statement: "A negative closing balance means payments cannot be met without overdraft or other finance." }],
@@ -1020,12 +1020,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A steadily rising positive balance" },
-              { id: "b", text: "A large negative balance in month 2 despite forecast annual profit" },
-              { id: "c", text: "Receipts slightly higher than payments" },
-              { id: "d", text: "An opening balance of zero" },
+              { id: "a", text: "Receipts slightly higher than payments" },
+              { id: "b", text: "A steadily rising positive balance" },
+              { id: "c", text: "An opening balance of zero" },
+              { id: "d", text: "A large negative balance in month 2 despite forecast annual profit" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Cash-flow risk", statement: "Timing matters: a cash shortfall can bankrupt a profitable firm." }],
@@ -1084,10 +1084,10 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Guarantee the business will be profitable" },
+              { id: "a", text: "Calculate the firm's tax liability" },
               { id: "b", text: "Identify when the business may run short of cash" },
-              { id: "c", text: "Replace the need for accounting records" },
-              { id: "d", text: "Calculate the firm's tax liability" },
+              { id: "c", text: "Guarantee the business will be profitable" },
+              { id: "d", text: "Replace the need for accounting records" },
             ],
             correctChoiceId: "b",
           },
@@ -1110,12 +1110,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Money the business pays out" },
-              { id: "b", text: "Money coming into the business" },
+              { id: "a", text: "Money coming into the business" },
+              { id: "b", text: "Money the business pays out" },
               { id: "c", text: "The profit earned in the period" },
               { id: "d", text: "Total liabilities at year end" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Receipts", statement: "Cash inflows — money received from sales, loans and other sources." }],
@@ -1174,9 +1174,9 @@ export const lesson42: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "The opening balance of the following month" },
-              { id: "b", text: "The total annual profit" },
+              { id: "b", text: "A fixed amount set by the bank" },
               { id: "c", text: "The firm's capital on the balance sheet" },
-              { id: "d", text: "A fixed amount set by the bank" },
+              { id: "d", text: "The total annual profit" },
             ],
             correctChoiceId: "a",
           },
@@ -1235,12 +1235,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The forecast is forward-looking and tracks cash timing; the P&L is historical and includes non-cash items" },
-              { id: "b", text: "They measure exactly the same thing" },
-              { id: "c", text: "The forecast covers a whole year only" },
-              { id: "d", text: "The P&L tracks cash received and paid" },
+              { id: "a", text: "The forecast covers a whole year only" },
+              { id: "b", text: "The P&L tracks cash received and paid" },
+              { id: "c", text: "They measure exactly the same thing" },
+              { id: "d", text: "The forecast is forward-looking and tracks cash timing; the P&L is historical and includes non-cash items" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Cash vs profit", statement: "The forecast tracks expected cash timing; the P&L measures actual profit over a period." }],
@@ -1262,12 +1262,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Ignore it — the year ends positive" },
-              { id: "b", text: "Arrange short-term finance such as an overdraft to cover the month-3 gap" },
-              { id: "c", text: "Issue new shares immediately" },
+              { id: "a", text: "Issue new shares immediately" },
+              { id: "b", text: "Ignore it — the year ends positive" },
+              { id: "c", text: "Arrange short-term finance such as an overdraft to cover the month-3 gap" },
               { id: "d", text: "Stop paying suppliers permanently" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Forecast action", statement: "A predicted negative balance means bills cannot be paid — arrange finance in advance." }],
@@ -1332,12 +1332,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Cash received from customers" },
-              { id: "b", text: "Wages paid to staff" },
-              { id: "c", text: "A bank loan received" },
-              { id: "d", text: "Sales paid in cash" },
+              { id: "a", text: "Wages paid to staff" },
+              { id: "b", text: "A bank loan received" },
+              { id: "c", text: "Sales paid in cash" },
+              { id: "d", text: "Cash received from customers" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Outflows", statement: "Payments — money leaving the business such as wages, rent and raw materials." }],
@@ -1358,12 +1358,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Customers buying products" },
-              { id: "b", text: "A bank deciding whether to lend" },
-              { id: "c", text: "Suppliers offering trade credit" },
-              { id: "d", text: "Employees applying for jobs" },
+              { id: "a", text: "Employees applying for jobs" },
+              { id: "b", text: "Customers buying products" },
+              { id: "c", text: "A bank deciding whether to lend" },
+              { id: "d", text: "Suppliers offering trade credit" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Forecast use", statement: "Lenders require cash-flow forecasts to assess whether repayments can be met." }],

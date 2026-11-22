@@ -50,12 +50,12 @@ export const lesson72: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\mathbf{k}$" },
+              { id: "a", text: "$\\mathbf{0}$" },
               { id: "b", text: "$-\\mathbf{k}$" },
-              { id: "c", text: "$\\mathbf{0}$" },
-              { id: "d", text: "$\\mathbf{i}$" },
+              { id: "c", text: "$\\mathbf{i}$" },
+              { id: "d", text: "$\\mathbf{k}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Cross product", statement: "$\\mathbf{i}\\times\\mathbf{j}=\\mathbf{k}$ (cyclic)." }],
@@ -170,12 +170,12 @@ export const lesson72: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Circle centre $2i$ radius $3$" },
+              { id: "a", text: "Circle centre $0$ radius $3$" },
               { id: "b", text: "Line $x=2$" },
-              { id: "c", text: "Circle centre $0$ radius $3$" },
+              { id: "c", text: "Circle centre $2i$ radius $3$" },
               { id: "d", text: "Ray from $2i$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Modulus locus", statement: "$|z-a|=r$ is a circle." }],

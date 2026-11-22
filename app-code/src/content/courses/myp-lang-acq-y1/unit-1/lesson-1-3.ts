@@ -52,12 +52,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The punctuation marks" },
-              { id: "b", text: "The name before the speech" },
+              { id: "a", text: "The title at the top" },
+              { id: "b", text: "The punctuation marks" },
               { id: "c", text: "The page number" },
-              { id: "d", text: "The title at the top" },
+              { id: "d", text: "The name before the speech" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -170,11 +170,11 @@ export const lesson13: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "A page in the book" },
-              { id: "b", text: "Each person's chance to speak" },
+              { id: "b", text: "The end of the conversation" },
               { id: "c", text: "A kind of question" },
-              { id: "d", text: "The end of the conversation" },
+              { id: "d", text: "Each person's chance to speak" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -196,12 +196,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "At a library" },
-              { id: "b", text: "At a café or food shop" },
-              { id: "c", text: "At a swimming pool" },
+              { id: "a", text: "At a café or food shop" },
+              { id: "b", text: "At a swimming pool" },
+              { id: "c", text: "At a library" },
               { id: "d", text: "On a bus" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -274,11 +274,11 @@ export const lesson13: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Tom" },
-              { id: "b", text: "Mia" },
-              { id: "c", text: "Both at the same time" },
-              { id: "d", text: "Nobody" },
+              { id: "b", text: "Both at the same time" },
+              { id: "c", text: "Nobody" },
+              { id: "d", text: "Mia" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -300,12 +300,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "To tell a long story" },
-              { id: "b", text: "To buy something or make a plan" },
-              { id: "c", text: "To sing a song" },
-              { id: "d", text: "To sleep" },
+              { id: "a", text: "To sleep" },
+              { id: "b", text: "To sing a song" },
+              { id: "c", text: "To buy something or make a plan" },
+              { id: "d", text: "To tell a long story" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -385,9 +385,9 @@ export const lesson13: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "To invite someone to a party" },
-              { id: "b", text: "To ask the time" },
-              { id: "c", text: "To buy a ticket" },
-              { id: "d", text: "To say goodbye" },
+              { id: "b", text: "To buy a ticket" },
+              { id: "c", text: "To say goodbye" },
+              { id: "d", text: "To ask the time" },
             ],
             correctChoiceId: "a",
           },
@@ -419,8 +419,8 @@ export const lesson13: Lesson = {
             choices: [
               { id: "a", text: "Loved every minute of it" },
               { id: "b", text: "Enjoyed it but thought it was too long" },
-              { id: "c", text: "Hated it completely" },
-              { id: "d", text: "Did not see it" },
+              { id: "c", text: "Did not see it" },
+              { id: "d", text: "Hated it completely" },
             ],
             correctChoiceId: "b",
           },
@@ -540,12 +540,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The main idea of the whole text" },
-              { id: "b", text: "A small fact that supports the main idea" },
+              { id: "a", text: "A small fact that supports the main idea" },
+              { id: "b", text: "The main idea of the whole text" },
               { id: "c", text: "The title of the book" },
               { id: "d", text: "A question about the text" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -658,11 +658,11 @@ export const lesson13: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "A small fact in the middle" },
-              { id: "b", text: "What the whole text is about" },
-              { id: "c", text: "The title of the book" },
-              { id: "d", text: "A question at the end" },
+              { id: "b", text: "A question at the end" },
+              { id: "c", text: "What the whole text is about" },
+              { id: "d", text: "The title of the book" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -684,12 +684,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "I have got a dog." },
-              { id: "b", text: "It is called Rex." },
-              { id: "c", text: "Rex is very friendly." },
-              { id: "d", text: "All of them are details" },
+              { id: "a", text: "It is called Rex." },
+              { id: "b", text: "Rex is very friendly." },
+              { id: "c", text: "All of them are details" },
+              { id: "d", text: "I have got a dog." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -769,8 +769,8 @@ export const lesson13: Lesson = {
             choices: [
               { id: "a", text: "The main idea" },
               { id: "b", text: "Details that support the idea" },
-              { id: "c", text: "The title" },
-              { id: "d", text: "Questions" },
+              { id: "c", text: "Questions" },
+              { id: "d", text: "The title" },
             ],
             correctChoiceId: "b",
           },
@@ -794,12 +794,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "What is this text mostly about?" },
-              { id: "b", text: "How many pages does it have?" },
+              { id: "a", text: "How many pages does it have?" },
+              { id: "b", text: "What is this text mostly about?" },
               { id: "c", text: "Who wrote the book?" },
               { id: "d", text: "What colour is the cover?" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -879,9 +879,9 @@ export const lesson13: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Cats sleep a lot" },
-              { id: "b", text: "Sixteen is a number" },
-              { id: "c", text: "Cats are animals" },
-              { id: "d", text: "Sleep is always good" },
+              { id: "b", text: "Sleep is always good" },
+              { id: "c", text: "Sixteen is a number" },
+              { id: "d", text: "Cats are animals" },
             ],
             correctChoiceId: "a",
           },
@@ -911,10 +911,10 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The seeds disappeared" },
+              { id: "a", text: "It snowed every day" },
               { id: "b", text: "The seeds grew into flowers" },
-              { id: "c", text: "It snowed every day" },
-              { id: "d", text: "We picked vegetables" },
+              { id: "c", text: "We picked vegetables" },
+              { id: "d", text: "The seeds disappeared" },
             ],
             correctChoiceId: "b",
           },

@@ -77,12 +77,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "5" },
-              { id: "b", text: "7" },
-              { id: "c", text: "12" },
-              { id: "d", text: "25" },
+              { id: "a", text: "12" },
+              { id: "b", text: "25" },
+              { id: "c", text: "5" },
+              { id: "d", text: "7" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -100,12 +100,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Σaᵢbᵢ" },
-              { id: "b", text: "|a||b|sin θ" },
+              { id: "a", text: "|a||b|sin θ" },
+              { id: "b", text: "Σaᵢbᵢ" },
               { id: "c", text: "a×b" },
               { id: "d", text: "|a|+|b|" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -123,12 +123,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Perpendicular" },
-              { id: "b", text: "Parallel" },
-              { id: "c", text: "Equal" },
-              { id: "d", text: "No relation" },
+              { id: "a", text: "Parallel" },
+              { id: "b", text: "Equal" },
+              { id: "c", text: "No relation" },
+              { id: "d", text: "Perpendicular" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -178,9 +178,9 @@ export const lesson63: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "|a||b|sin θ" },
-              { id: "b", text: "|a||b|cos θ" },
-              { id: "c", text: "a·b" },
-              { id: "d", text: "|a|+|b|" },
+              { id: "b", text: "a·b" },
+              { id: "c", text: "|a|+|b|" },
+              { id: "d", text: "|a||b|cos θ" },
             ],
           correctChoiceId: "a",
           },
@@ -206,12 +206,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "1" },
-              { id: "b", text: "0" },
-              { id: "c", text: "Variable" },
+              { id: "a", text: "0" },
+              { id: "b", text: "Variable" },
+              { id: "c", text: "1" },
               { id: "d", text: "−1" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -236,9 +236,9 @@ export const lesson63: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "r = a + λb" },
-              { id: "b", text: "r = aλb" },
-              { id: "c", text: "r = ab" },
-              { id: "d", text: "r = a/b" },
+              { id: "b", text: "r = ab" },
+              { id: "c", text: "r = a/b" },
+              { id: "d", text: "r = aλb" },
             ],
           correctChoiceId: "a",
           },
@@ -258,12 +258,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "AB = λBC for some scalar λ" },
+              { id: "a", text: "No condition" },
               { id: "b", text: "AB·BC = 0" },
               { id: "c", text: "AB = BC" },
-              { id: "d", text: "No condition" },
+              { id: "d", text: "AB = λBC for some scalar λ" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -281,12 +281,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "cos θ = a·b/(|a||b|)" },
+              { id: "a", text: "No formula" },
               { id: "b", text: "sin θ = a·b/(|a||b|)" },
               { id: "c", text: "tan θ" },
-              { id: "d", text: "No formula" },
+              { id: "d", text: "cos θ = a·b/(|a||b|)" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -308,12 +308,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "½|a×b|" },
-              { id: "b", text: "|a×b|" },
-              { id: "c", text: "½a·b" },
-              { id: "d", text: "|a||b|" },
+              { id: "a", text: "|a||b|" },
+              { id: "b", text: "½a·b" },
+              { id: "c", text: "|a×b|" },
+              { id: "d", text: "½|a×b|" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -335,12 +335,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "(5, −3)" },
+              { id: "a", text: "(−1, 5)" },
               { id: "b", text: "(5, 5)" },
-              { id: "c", text: "(−1, 5)" },
+              { id: "c", text: "(5, −3)" },
               { id: "d", text: "(6, −3)" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -358,12 +358,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "(6, −3)" },
-              { id: "b", text: "(5, 2)" },
-              { id: "c", text: "(6, 3)" },
+              { id: "a", text: "(6, 3)" },
+              { id: "b", text: "(6, −3)" },
+              { id: "c", text: "(5, 2)" },
               { id: "d", text: "(2/3, −1/3)" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -385,12 +385,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "11" },
+              { id: "a", text: "7" },
               { id: "b", text: "10" },
-              { id: "c", text: "7" },
-              { id: "d", text: "−5" },
+              { id: "c", text: "−5" },
+              { id: "d", text: "11" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -412,12 +412,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "(0, 0, 1)" },
-              { id: "b", text: "(0, 0, −1)" },
-              { id: "c", text: "(1, 1, 0)" },
+              { id: "a", text: "(0, 0, −1)" },
+              { id: "b", text: "(1, 1, 0)" },
+              { id: "c", text: "(0, 0, 1)" },
               { id: "d", text: "(0, 1, 0)" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -435,12 +435,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "(3/5, 4/5)" },
-              { id: "b", text: "(3, 4)" },
-              { id: "c", text: "(1/5, 1/5)" },
-              { id: "d", text: "(0.3, 0.4, 0)" },
+              { id: "a", text: "(1/5, 1/5)" },
+              { id: "b", text: "(0.3, 0.4, 0)" },
+              { id: "c", text: "(3, 4)" },
+              { id: "d", text: "(3/5, 4/5)" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -459,8 +459,8 @@ export const lesson63: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "0" },
-              { id: "b", text: "1" },
-              { id: "c", text: "−1" },
+              { id: "b", text: "−1" },
+              { id: "c", text: "1" },
               { id: "d", text: "0.5" },
             ],
           correctChoiceId: "a",
@@ -481,12 +481,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A straight line" },
-              { id: "b", text: "A plane" },
-              { id: "c", text: "A circle" },
-              { id: "d", text: "A sphere" },
+              { id: "a", text: "A sphere" },
+              { id: "b", text: "A straight line" },
+              { id: "c", text: "A plane" },
+              { id: "d", text: "A circle" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -508,12 +508,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Direction vector" },
-              { id: "b", text: "Position vector" },
-              { id: "c", text: "Normal" },
+              { id: "a", text: "Normal" },
+              { id: "b", text: "Direction vector" },
+              { id: "c", text: "Position vector" },
               { id: "d", text: "Origin" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -535,12 +535,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Cross product is anti-commutative" },
-              { id: "b", text: "Commutative" },
-              { id: "c", text: "Associative" },
-              { id: "d", text: "No reason" },
+              { id: "a", text: "Associative" },
+              { id: "b", text: "No reason" },
+              { id: "c", text: "Commutative" },
+              { id: "d", text: "Cross product is anti-commutative" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -685,12 +685,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "a×b = 0" },
-              { id: "b", text: "a·b = 0" },
-              { id: "c", text: "|a| = |b|" },
-              { id: "d", text: "a = −b" },
+              { id: "a", text: "|a| = |b|" },
+              { id: "b", text: "a = −b" },
+              { id: "c", text: "a·b = 0" },
+              { id: "d", text: "a×b = 0" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -774,12 +774,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "(x, y)" },
-              { id: "b", text: "(y, x)" },
-              { id: "c", text: "(x+y, x−y)" },
+              { id: "a", text: "(x+y, x−y)" },
+              { id: "b", text: "(x, y)" },
+              { id: "c", text: "(y, x)" },
               { id: "d", text: "(0, 0)" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -921,12 +921,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "(r, θ)" },
-              { id: "b", text: "(x, y)" },
-              { id: "c", text: "(θ, r)" },
+              { id: "a", text: "(θ, r)" },
+              { id: "b", text: "(r, θ)" },
+              { id: "c", text: "(x, y)" },
               { id: "d", text: "(r, x)" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -944,12 +944,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Distance from origin" },
-              { id: "b", text: "Angle" },
-              { id: "c", text: "x-coordinate" },
-              { id: "d", text: "y-coordinate" },
+              { id: "a", text: "x-coordinate" },
+              { id: "b", text: "y-coordinate" },
+              { id: "c", text: "Angle" },
+              { id: "d", text: "Distance from origin" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -967,12 +967,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Angle from positive x-axis" },
-              { id: "b", text: "Distance" },
+              { id: "a", text: "y-coordinate" },
+              { id: "b", text: "Angle from positive x-axis" },
               { id: "c", text: "x-coordinate" },
-              { id: "d", text: "y-coordinate" },
+              { id: "d", text: "Distance" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -991,9 +991,9 @@ export const lesson63: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Polar to Cartesian" },
-              { id: "b", text: "Cartesian to polar" },
-              { id: "c", text: "No conversion" },
-              { id: "d", text: "3D to 2D" },
+              { id: "b", text: "No conversion" },
+              { id: "c", text: "3D to 2D" },
+              { id: "d", text: "Cartesian to polar" },
             ],
           correctChoiceId: "a",
           },
@@ -1019,12 +1019,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Cartesian to polar" },
-              { id: "b", text: "Polar to Cartesian" },
+              { id: "a", text: "Polar to Cartesian" },
+              { id: "b", text: "Cartesian to polar" },
               { id: "c", text: "No conversion" },
               { id: "d", text: "3D" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1048,12 +1048,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Set of points satisfying a condition" },
-              { id: "b", text: "A single point" },
-              { id: "c", text: "A line only" },
+              { id: "a", text: "A line only" },
+              { id: "b", text: "Set of points satisfying a condition" },
+              { id: "c", text: "A single point" },
               { id: "d", text: "No definition" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1077,15 +1077,15 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "Only x" },
+              { id: "b", text: "Only y" },
+              { id: "c", text: "No curve" },
               {
-                id: "a",
+                id: "d",
                 text: "x = f(t), y = g(t) — curve traced by parameter",
               },
-              { id: "b", text: "Only x" },
-              { id: "c", text: "Only y" },
-              { id: "d", text: "No curve" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1113,12 +1113,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Equidistant from endpoints" },
-              { id: "b", text: "On the segment" },
-              { id: "c", text: "At endpoints" },
+              { id: "a", text: "At endpoints" },
+              { id: "b", text: "Equidistant from endpoints" },
+              { id: "c", text: "On the segment" },
               { id: "d", text: "No points" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1142,12 +1142,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "r = a (constant)" },
+              { id: "a", text: "r = 0" },
               { id: "b", text: "r = θ" },
               { id: "c", text: "θ = constant" },
-              { id: "d", text: "r = 0" },
+              { id: "d", text: "r = a (constant)" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1169,12 +1169,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Positive x-axis" },
-              { id: "b", text: "y-axis" },
-              { id: "c", text: "Origin" },
-              { id: "d", text: "Negative x-axis" },
+              { id: "a", text: "Negative x-axis" },
+              { id: "b", text: "Positive x-axis" },
+              { id: "c", text: "y-axis" },
+              { id: "d", text: "Origin" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1196,12 +1196,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "(1, √3)" },
-              { id: "b", text: "(√3, 1)" },
+              { id: "a", text: "(√3, 1)" },
+              { id: "b", text: "(1, √3)" },
               { id: "c", text: "(2, π/3)" },
               { id: "d", text: "(0.5, √3/2)" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1223,12 +1223,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "(3, π/2)" },
-              { id: "b", text: "(3, 0)" },
+              { id: "a", text: "(3, π)" },
+              { id: "b", text: "(3, π/2)" },
               { id: "c", text: "(0, π/2)" },
-              { id: "d", text: "(3, π)" },
+              { id: "d", text: "(3, 0)" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1250,12 +1250,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Unit circle" },
+              { id: "a", text: "Parabola" },
               { id: "b", text: "Line" },
-              { id: "c", text: "Parabola" },
-              { id: "d", text: "Ellipse" },
+              { id: "c", text: "Ellipse" },
+              { id: "d", text: "Unit circle" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1277,12 +1277,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Solve one equation for t, substitute" },
-              { id: "b", text: "Add them" },
+              { id: "a", text: "No method" },
+              { id: "b", text: "Solve one equation for t, substitute" },
               { id: "c", text: "Multiply them" },
-              { id: "d", text: "No method" },
+              { id: "d", text: "Add them" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1306,12 +1306,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Circle radius 1 centered at (1,0)" },
-              { id: "b", text: "Circle radius 2 at origin" },
-              { id: "c", text: "Line" },
-              { id: "d", text: "Parabola" },
+              { id: "a", text: "Circle radius 2 at origin" },
+              { id: "b", text: "Circle radius 1 centered at (1,0)" },
+              { id: "c", text: "Parabola" },
+              { id: "d", text: "Line" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1333,12 +1333,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Perpendicular bisector" },
-              { id: "b", text: "Circle" },
-              { id: "c", text: "Line through points" },
-              { id: "d", text: "Parabola" },
+              { id: "a", text: "Circle" },
+              { id: "b", text: "Line through points" },
+              { id: "c", text: "Parabola" },
+              { id: "d", text: "Perpendicular bisector" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1356,12 +1356,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Curves with rotational symmetry" },
-              { id: "b", text: "Straight lines" },
-              { id: "c", text: "No advantage" },
+              { id: "a", text: "No advantage" },
+              { id: "b", text: "Curves with rotational symmetry" },
+              { id: "c", text: "Straight lines" },
               { id: "d", text: "3D shapes" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -1385,12 +1385,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Quadrant of point" },
+              { id: "a", text: "Sign of r" },
               { id: "b", text: "Nothing" },
-              { id: "c", text: "Magnitude" },
-              { id: "d", text: "Sign of r" },
+              { id: "c", text: "Quadrant of point" },
+              { id: "d", text: "Magnitude" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1414,12 +1414,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Curves hard to express as y = f(x)" },
-              { id: "b", text: "Only lines" },
-              { id: "c", text: "No curves" },
-              { id: "d", text: "3D only" },
+              { id: "a", text: "No curves" },
+              { id: "b", text: "3D only" },
+              { id: "c", text: "Curves hard to express as y = f(x)" },
+              { id: "d", text: "Only lines" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1569,12 +1569,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Parabola y² = x" },
-              { id: "b", text: "Line" },
-              { id: "c", text: "Circle" },
-              { id: "d", text: "Ellipse" },
+              { id: "a", text: "Circle" },
+              { id: "b", text: "Ellipse" },
+              { id: "c", text: "Parabola y² = x" },
+              { id: "d", text: "Line" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1652,12 +1652,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Spiral" },
-              { id: "b", text: "Circle" },
-              { id: "c", text: "Line" },
-              { id: "d", text: "Ellipse" },
+              { id: "a", text: "Line" },
+              { id: "b", text: "Spiral" },
+              { id: "c", text: "Ellipse" },
+              { id: "d", text: "Circle" },
             ],
-          correctChoiceId: "a",
+          correctChoiceId: "b",
           },
           markscheme: {
             principles: [

@@ -59,8 +59,8 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Proton" },
-              { id: "b", text: "Neutron" },
+              { id: "a", text: "Neutron" },
+              { id: "b", text: "Proton" },
               { id: "c", text: "Electron" },
               { id: "d", text: "Nucleus" },
             ],
@@ -167,12 +167,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The number of protons in the nucleus" },
-              { id: "b", text: "The total number of protons and neutrons in the nucleus" },
-              { id: "c", text: "The number of electrons in the atom" },
+              { id: "a", text: "The number of electrons in the atom" },
+              { id: "b", text: "The number of protons in the nucleus" },
+              { id: "c", text: "The total number of protons and neutrons in the nucleus" },
               { id: "d", text: "The overall charge of the atom" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -194,12 +194,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Shiny, malleable and a good conductor of electricity" },
-              { id: "b", text: "Dull, brittle and a poor conductor of electricity" },
+              { id: "a", text: "Dull, brittle and a poor conductor of electricity" },
+              { id: "b", text: "Dull, malleable and a good conductor of heat" },
               { id: "c", text: "Shiny, malleable and a poor conductor of electricity" },
-              { id: "d", text: "Dull, malleable and a good conductor of heat" },
+              { id: "d", text: "Shiny, malleable and a good conductor of electricity" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -221,12 +221,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "6" },
-              { id: "b", text: "12" },
+              { id: "a", text: "12" },
+              { id: "b", text: "6" },
               { id: "c", text: "18" },
               { id: "d", text: "36" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -396,11 +396,11 @@ export const lesson11: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Groups are horizontal rows and periods are vertical columns." },
-              { id: "b", text: "Elements in the same group have similar chemical properties." },
-              { id: "c", text: "The elements are arranged in order of decreasing atomic number." },
-              { id: "d", text: "All non-metals are found on the left of the table." },
+              { id: "b", text: "All non-metals are found on the left of the table." },
+              { id: "c", text: "Elements in the same group have similar chemical properties." },
+              { id: "d", text: "The elements are arranged in order of decreasing atomic number." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -422,12 +422,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "9" },
-              { id: "b", text: "10" },
-              { id: "c", text: "19" },
-              { id: "d", text: "28" },
+              { id: "a", text: "10" },
+              { id: "b", text: "9" },
+              { id: "c", text: "28" },
+              { id: "d", text: "19" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -516,8 +516,8 @@ export const lesson11: Lesson = {
             choices: [
               { id: "a", text: "Oxygen, $\\text{O}_2$" },
               { id: "b", text: "Water, $\\text{H}_2\\text{O}$" },
-              { id: "c", text: "Iron, Fe" },
-              { id: "d", text: "Nitrogen, $\\text{N}_2$" },
+              { id: "c", text: "Nitrogen, $\\text{N}_2$" },
+              { id: "d", text: "Iron, Fe" },
             ],
             correctChoiceId: "b",
           },
@@ -616,12 +616,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\text{CO}_2$" },
-              { id: "b", text: "$\\text{H}_2\\text{O}$" },
-              { id: "c", text: "$\\text{N}_2$" },
-              { id: "d", text: "$\\text{NaCl}$" },
+              { id: "a", text: "$\\text{NaCl}$" },
+              { id: "b", text: "$\\text{N}_2$" },
+              { id: "c", text: "$\\text{H}_2\\text{O}$" },
+              { id: "d", text: "$\\text{CO}_2$" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -643,12 +643,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Two hydrogen atoms and one oxygen atom" },
-              { id: "b", text: "Two molecules of water" },
-              { id: "c", text: "One molecule of hydrogen and one of oxygen" },
-              { id: "d", text: "Two atoms of hydrogen and two atoms of oxygen" },
+              { id: "a", text: "Two atoms of hydrogen and two atoms of oxygen" },
+              { id: "b", text: "One molecule of hydrogen and one of oxygen" },
+              { id: "c", text: "Two hydrogen atoms and one oxygen atom" },
+              { id: "d", text: "Two molecules of water" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -670,12 +670,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "2" },
-              { id: "b", text: "3" },
-              { id: "c", text: "6" },
-              { id: "d", text: "9" },
+              { id: "a", text: "6" },
+              { id: "b", text: "9" },
+              { id: "c", text: "2" },
+              { id: "d", text: "3" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -838,12 +838,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The substances are mixed together" },
-              { id: "b", text: "The reactants change into the products" },
+              { id: "a", text: "The reactants change into the products" },
+              { id: "b", text: "The substances are mixed together" },
               { id: "c", text: "The products are heavier than the reactants" },
               { id: "d", text: "The reaction goes backwards" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -866,11 +866,11 @@ export const lesson11: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "methane + oxygen -> carbon dioxide + hydrogen" },
-              { id: "b", text: "methane + oxygen -> carbon monoxide + water" },
-              { id: "c", text: "methane + oxygen -> carbon dioxide + water" },
-              { id: "d", text: "methane + carbon dioxide -> oxygen + water" },
+              { id: "b", text: "methane + oxygen -> carbon dioxide + water" },
+              { id: "c", text: "methane + carbon dioxide -> oxygen + water" },
+              { id: "d", text: "methane + oxygen -> carbon monoxide + water" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [

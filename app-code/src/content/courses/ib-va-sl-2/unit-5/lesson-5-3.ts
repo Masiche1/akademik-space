@@ -56,11 +56,11 @@ export const lesson53: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Replace the artworks" },
-              { id: "b", text: "Help viewers understand context and meaning" },
-              { id: "c", text: "Fill empty wall space" },
-              { id: "d", text: "Advertise the artist's other work" },
+              { id: "b", text: "Advertise the artist's other work" },
+              { id: "c", text: "Help viewers understand context and meaning" },
+              { id: "d", text: "Fill empty wall space" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -156,12 +156,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Keeping visitors in the building as long as possible" },
-              { id: "b", text: "Techniques that invite viewers to interact with, respond to or participate in art" },
+              { id: "a", text: "Techniques that invite viewers to interact with, respond to or participate in art" },
+              { id: "b", text: "Making the space louder and brighter" },
               { id: "c", text: "Selling catalogue copies at the exit" },
-              { id: "d", text: "Making the space louder and brighter" },
+              { id: "d", text: "Keeping visitors in the building as long as possible" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -185,12 +185,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "How much does it cost, where was it made, who bought it" },
-              { id: "b", text: "What am I looking at, why does it matter, what should I notice" },
-              { id: "c", text: "When was it made, how big is it, what is it called" },
+              { id: "a", text: "What am I looking at, why does it matter, what should I notice" },
+              { id: "b", text: "When was it made, how big is it, what is it called" },
+              { id: "c", text: "How much does it cost, where was it made, who bought it" },
               { id: "d", text: "Is it good, is it famous, is it expensive" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -214,12 +214,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Technical and full of art-historical jargon" },
-              { id: "b", text: "Accessible to viewers without specialist background" },
-              { id: "c", text: "Written only for other artists" },
-              { id: "d", text: "As long as possible to show expertise" },
+              { id: "a", text: "As long as possible to show expertise" },
+              { id: "b", text: "Written only for other artists" },
+              { id: "c", text: "Accessible to viewers without specialist background" },
+              { id: "d", text: "Technical and full of art-historical jargon" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -243,12 +243,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Be as complicated as possible to impress" },
-              { id: "b", text: "Relate to the exhibition's themes and deepen engagement" },
-              { id: "c", text: "Distract viewers from the artworks" },
-              { id: "d", text: "Replace the need for labels" },
+              { id: "a", text: "Replace the need for labels" },
+              { id: "b", text: "Distract viewers from the artworks" },
+              { id: "c", text: "Be as complicated as possible to impress" },
+              { id: "d", text: "Relate to the exhibition's themes and deepen engagement" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -272,10 +272,10 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Replace physical labels entirely" },
+              { id: "a", text: "Secure the artworks" },
               { id: "b", text: "Extend engagement beyond the physical space with deeper information" },
               { id: "c", text: "Increase ticket sales" },
-              { id: "d", text: "Secure the artworks" },
+              { id: "d", text: "Replace physical labels entirely" },
             ],
             correctChoiceId: "b",
           },
@@ -301,12 +301,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A complex responsive installation" },
-              { id: "b", text: "A simple interactive element that invites viewer response" },
-              { id: "c", text: "Interpretive text" },
-              { id: "d", text: "A lighting technique" },
+              { id: "a", text: "A simple interactive element that invites viewer response" },
+              { id: "b", text: "A complex responsive installation" },
+              { id: "c", text: "A lighting technique" },
+              { id: "d", text: "Interpretive text" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -331,11 +331,11 @@ export const lesson53: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "A substitute for the artworks themselves" },
-              { id: "b", text: "A lens that shapes how viewers interpret what they see" },
+              { id: "b", text: "A technical manual for the materials" },
               { id: "c", text: "A sales pitch for future work" },
-              { id: "d", text: "A technical manual for the materials" },
+              { id: "d", text: "A lens that shapes how viewers interpret what they see" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -533,12 +533,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Display their own artistic taste" },
-              { id: "b", text: "Help the artist see the work more clearly and improve it" },
+              { id: "a", text: "Help the artist see the work more clearly and improve it" },
+              { id: "b", text: "Correct the artist's mistakes" },
               { id: "c", text: "Choose which works get exhibited" },
-              { id: "d", text: "Correct the artist's mistakes" },
+              { id: "d", text: "Display their own artistic taste" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -634,12 +634,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A public attack on weak work" },
-              { id: "b", text: "A structured process of presenting work and receiving feedback" },
+              { id: "a", text: "The final judging of a competition" },
+              { id: "b", text: "A public attack on weak work" },
               { id: "c", text: "A written exam on art history" },
-              { id: "d", text: "The final judging of a competition" },
+              { id: "d", text: "A structured process of presenting work and receiving feedback" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -664,11 +664,11 @@ export const lesson53: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "State whether they like the work" },
-              { id: "b", text: "State what they observe — colours, forms, composition — before evaluating" },
+              { id: "b", text: "Compare the work to famous artists" },
               { id: "c", text: "Suggest improvements immediately" },
-              { id: "d", text: "Compare the work to famous artists" },
+              { id: "d", text: "State what they observe — colours, forms, composition — before evaluating" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -692,12 +692,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Makes the critic sound more confident" },
-              { id: "b", text: "Owns the response as personal perspective rather than objective fact" },
-              { id: "c", text: "Avoids having to give feedback" },
-              { id: "d", text: "Guarantees the artist will agree" },
+              { id: "a", text: "Guarantees the artist will agree" },
+              { id: "b", text: "Avoids having to give feedback" },
+              { id: "c", text: "Makes the critic sound more confident" },
+              { id: "d", text: "Owns the response as personal perspective rather than objective fact" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -721,12 +721,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Definitely wrong because they are not experts" },
-              { id: "b", text: "More reliable because it shows a pattern in how the work communicates" },
-              { id: "c", text: "Irrelevant to the artist's intention" },
-              { id: "d", text: "A sign the viewers colluded" },
+              { id: "a", text: "More reliable because it shows a pattern in how the work communicates" },
+              { id: "b", text: "Irrelevant to the artist's intention" },
+              { id: "c", text: "A sign the viewers colluded" },
+              { id: "d", text: "Definitely wrong because they are not experts" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -750,12 +750,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Implement every suggestion immediately" },
-              { id: "b", text: "Decide what serves the work's intention — feedback informs but does not command" },
-              { id: "c", text: "Ignore all feedback to protect their vision" },
-              { id: "d", text: "Pay the critics for their time" },
+              { id: "a", text: "Pay the critics for their time" },
+              { id: "b", text: "Implement every suggestion immediately" },
+              { id: "c", text: "Decide what serves the work's intention — feedback informs but does not command" },
+              { id: "d", text: "Ignore all feedback to protect their vision" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -779,10 +779,10 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Criticising the artist personally is acceptable" },
+              { id: "a", text: "Only strangers can give useful feedback" },
               { id: "b", text: "Comments about the artwork are not attacks on the artist's worth" },
-              { id: "c", text: "The artist should leave during critique" },
-              { id: "d", text: "Only strangers can give useful feedback" },
+              { id: "c", text: "Criticising the artist personally is acceptable" },
+              { id: "d", text: "The artist should leave during critique" },
             ],
             correctChoiceId: "b",
           },
@@ -808,12 +808,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Proves they are better than peers" },
-              { id: "b", text: "Reveals growth and recurring issues across their practice" },
-              { id: "c", text: "Satisfies exhibition requirements only" },
+              { id: "a", text: "Satisfies exhibition requirements only" },
+              { id: "b", text: "Proves they are better than peers" },
+              { id: "c", text: "Reveals growth and recurring issues across their practice" },
               { id: "d", text: "Replaces the need for making new work" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

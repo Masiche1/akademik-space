@@ -56,12 +56,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "3.65 kg and 3.75 kg" },
-              { id: "b", text: "3.6 kg and 3.8 kg" },
-              { id: "c", text: "3.0 kg and 4.0 kg" },
-              { id: "d", text: "3.69 kg and 3.71 kg" },
+              { id: "a", text: "3.0 kg and 4.0 kg" },
+              { id: "b", text: "3.69 kg and 3.71 kg" },
+              { id: "c", text: "3.65 kg and 3.75 kg" },
+              { id: "d", text: "3.6 kg and 3.8 kg" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -83,12 +83,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "24.2 m" },
-              { id: "b", text: "24.0 m" },
-              { id: "c", text: "23.8 m" },
-              { id: "d", text: "24.4 m" },
+              { id: "a", text: "23.8 m" },
+              { id: "b", text: "24.4 m" },
+              { id: "c", text: "24.2 m" },
+              { id: "d", text: "24.0 m" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -111,12 +111,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "1.32" },
-              { id: "b", text: "1.39" },
+              { id: "a", text: "1.39" },
+              { id: "b", text: "1.32" },
               { id: "c", text: "1.28" },
               { id: "d", text: "1.45" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -171,12 +171,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "2.45 s and 2.55 s" },
-              { id: "b", text: "2.4 s and 2.6 s" },
-              { id: "c", text: "2.0 s and 3.0 s" },
-              { id: "d", text: "2.49 s and 2.51 s" },
+              { id: "a", text: "2.0 s and 3.0 s" },
+              { id: "b", text: "2.45 s and 2.55 s" },
+              { id: "c", text: "2.49 s and 2.51 s" },
+              { id: "d", text: "2.4 s and 2.6 s" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -218,12 +218,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "6.60" },
+              { id: "a", text: "7.00" },
               { id: "b", text: "6.50" },
               { id: "c", text: "6.70" },
-              { id: "d", text: "7.00" },
+              { id: "d", text: "6.60" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -285,9 +285,9 @@ export const lesson12: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "9.52" },
-              { id: "b", text: "10.0" },
-              { id: "c", text: "11.76" },
-              { id: "d", text: "10.53" },
+              { id: "b", text: "11.76" },
+              { id: "c", text: "10.53" },
+              { id: "d", text: "10.0" },
             ],
             correctChoiceId: "a",
           },
@@ -331,9 +331,9 @@ export const lesson12: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "1.71" },
-              { id: "b", text: "1.67" },
+              { id: "b", text: "1.80" },
               { id: "c", text: "1.50" },
-              { id: "d", text: "1.80" },
+              { id: "d", text: "1.67" },
             ],
             correctChoiceId: "a",
           },
@@ -447,12 +447,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "1.11%" },
-              { id: "b", text: "1.00%" },
-              { id: "c", text: "2.22%" },
+              { id: "a", text: "2.22%" },
+              { id: "b", text: "1.11%" },
+              { id: "c", text: "1.00%" },
               { id: "d", text: "0.50%" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -508,12 +508,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "10" },
+              { id: "a", text: "6" },
               { id: "b", text: "12" },
               { id: "c", text: "8" },
-              { id: "d", text: "6" },
+              { id: "d", text: "10" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -535,12 +535,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$n^2+2$" },
-              { id: "b", text: "$n^2+n$" },
-              { id: "c", text: "$2n^2+1$" },
-              { id: "d", text: "$n^2+3$" },
+              { id: "a", text: "$2n^2+1$" },
+              { id: "b", text: "$n^2+2$" },
+              { id: "c", text: "$n^2+3$" },
+              { id: "d", text: "$n^2+n$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -564,9 +564,9 @@ export const lesson12: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "728" },
-              { id: "b", text: "1458" },
-              { id: "c", text: "486" },
-              { id: "d", text: "243" },
+              { id: "b", text: "243" },
+              { id: "c", text: "1458" },
+              { id: "d", text: "486" },
             ],
             correctChoiceId: "a",
           },
@@ -623,12 +623,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "12" },
-              { id: "b", text: "6" },
-              { id: "c", text: "8" },
-              { id: "d", text: "1100" },
+              { id: "a", text: "8" },
+              { id: "b", text: "1100" },
+              { id: "c", text: "12" },
+              { id: "d", text: "6" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -667,12 +667,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$n^2+n+3$" },
-              { id: "b", text: "$n^2+3$" },
-              { id: "c", text: "$2n^2+1$" },
-              { id: "d", text: "$n^2+n+2$" },
+              { id: "a", text: "$2n^2+1$" },
+              { id: "b", text: "$n^2+n+2$" },
+              { id: "c", text: "$n^2+3$" },
+              { id: "d", text: "$n^2+n+3$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -713,12 +713,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$1101_2$" },
-              { id: "b", text: "$1011_2$" },
-              { id: "c", text: "$1110_2$" },
-              { id: "d", text: "$1001_2$" },
+              { id: "a", text: "$1001_2$" },
+              { id: "b", text: "$1101_2$" },
+              { id: "c", text: "$1011_2$" },
+              { id: "d", text: "$1110_2$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -759,12 +759,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "324" },
-              { id: "b", text: "108" },
+              { id: "a", text: "256" },
+              { id: "b", text: "324" },
               { id: "c", text: "972" },
-              { id: "d", text: "256" },
+              { id: "d", text: "108" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -866,8 +866,8 @@ export const lesson12: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$n^2+2n$" },
-              { id: "b", text: "$n^2+n+1$" },
-              { id: "c", text: "$2n^2+1$" },
+              { id: "b", text: "$2n^2+1$" },
+              { id: "c", text: "$n^2+n+1$" },
               { id: "d", text: "$n^2+3$" },
             ],
             correctChoiceId: "a",
@@ -894,12 +894,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "2" },
-              { id: "b", text: "4" },
-              { id: "c", text: "1" },
-              { id: "d", text: "8" },
+              { id: "a", text: "4" },
+              { id: "b", text: "8" },
+              { id: "c", text: "2" },
+              { id: "d", text: "1" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

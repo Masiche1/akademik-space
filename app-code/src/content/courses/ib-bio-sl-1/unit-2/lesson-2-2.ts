@@ -54,12 +54,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A codon on another mRNA strand" },
-              { id: "b", text: "An anticodon on a tRNA molecule" },
+              { id: "a", text: "An anticodon on a tRNA molecule" },
+              { id: "b", text: "A codon on another mRNA strand" },
               { id: "c", text: "A base on a DNA strand" },
               { id: "d", text: "An amino acid directly" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Codon and anticodon", statement: "A codon is a three-base sequence on mRNA; the complementary anticodon on tRNA carries the matching amino acid." }],
@@ -80,9 +80,9 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "In the nucleus" },
+              { id: "a", text: "In the Golgi apparatus" },
               { id: "b", text: "At ribosomes in the cytoplasm or on the rough ER" },
-              { id: "c", text: "In the Golgi apparatus" },
+              { id: "c", text: "In the nucleus" },
               { id: "d", text: "In the mitochondria only" },
             ],
             correctChoiceId: "b",
@@ -108,8 +108,8 @@ export const lesson22: Lesson = {
             choices: [
               { id: "a", text: "Nonsense mutation — it creates a stop codon" },
               { id: "b", text: "Silent mutation — the same amino acid is produced" },
-              { id: "c", text: "Missense mutation — a different amino acid is produced" },
-              { id: "d", text: "Frameshift mutation — the whole reading frame shifts" },
+              { id: "c", text: "Frameshift mutation — the whole reading frame shifts" },
+              { id: "d", text: "Missense mutation — a different amino acid is produced" },
             ],
             correctChoiceId: "b",
           },
@@ -165,12 +165,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "DNA polymerase" },
-              { id: "b", text: "RNA polymerase" },
-              { id: "c", text: "DNA ligase" },
-              { id: "d", text: "DNA helicase" },
+              { id: "a", text: "DNA ligase" },
+              { id: "b", text: "DNA helicase" },
+              { id: "c", text: "RNA polymerase" },
+              { id: "d", text: "DNA polymerase" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Transcription", statement: "RNA polymerase binds the promoter and synthesises a complementary mRNA strand from the DNA template." }],
@@ -191,12 +191,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It is always a stop codon" },
-              { id: "b", text: "It is the start codon coding for methionine" },
+              { id: "a", text: "It is the start codon coding for methionine" },
+              { id: "b", text: "It is always a stop codon" },
               { id: "c", text: "It codes for alanine" },
               { id: "d", text: "It codes for a termination signal" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Start codon", statement: "AUG is the start codon and codes for methionine; translation begins there." }],
@@ -217,10 +217,10 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "mRNA" },
+              { id: "a", text: "DNA" },
               { id: "b", text: "tRNA" },
-              { id: "c", text: "rRNA" },
-              { id: "d", text: "DNA" },
+              { id: "c", text: "mRNA" },
+              { id: "d", text: "rRNA" },
             ],
             correctChoiceId: "b",
           },
@@ -243,12 +243,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A silent mutation with no change in protein" },
-              { id: "b", text: "A missense mutation producing a different amino acid" },
-              { id: "c", text: "A nonsense mutation causing premature termination" },
-              { id: "d", text: "A frameshift mutation changing all downstream codons" },
+              { id: "a", text: "A nonsense mutation causing premature termination" },
+              { id: "b", text: "A frameshift mutation changing all downstream codons" },
+              { id: "c", text: "A missense mutation producing a different amino acid" },
+              { id: "d", text: "A silent mutation with no change in protein" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Mutation types", statement: "A nonsense mutation creates a stop codon; missense changes an amino acid; silent leaves the amino acid unchanged; frameshift shifts the reading frame." }],
@@ -516,8 +516,8 @@ export const lesson22: Lesson = {
             choices: [
               { id: "a", text: "A type of white blood cell that engulfs pathogens" },
               { id: "b", text: "A Y-shaped protein that binds specifically to an antigen" },
-              { id: "c", text: "A vaccine containing a weakened pathogen" },
-              { id: "d", text: "A chemical that kills bacteria directly" },
+              { id: "c", text: "A chemical that kills bacteria directly" },
+              { id: "d", text: "A vaccine containing a weakened pathogen" },
             ],
             correctChoiceId: "b",
           },
@@ -540,12 +540,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Active immunity is permanent; passive immunity is temporary" },
-              { id: "b", text: "Active immunity involves the body producing its own antibodies; passive involves receiving ready-made antibodies" },
-              { id: "c", text: "Active immunity works against viruses only; passive against bacteria only" },
-              { id: "d", text: "Active immunity is acquired at birth; passive is acquired later in life" },
+              { id: "a", text: "Active immunity is acquired at birth; passive is acquired later in life" },
+              { id: "b", text: "Active immunity works against viruses only; passive against bacteria only" },
+              { id: "c", text: "Active immunity is permanent; passive immunity is temporary" },
+              { id: "d", text: "Active immunity involves the body producing its own antibodies; passive involves receiving ready-made antibodies" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Active vs passive immunity", statement: "Active immunity: the body produces antibodies and memory cells. Passive immunity: ready-made antibodies are transferred; no memory cells are made." }],
@@ -566,12 +566,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The vaccine contains antibodies that circulate in the blood for years" },
-              { id: "b", text: "The vaccine stimulates the production of memory cells that enable a rapid secondary response" },
-              { id: "c", text: "The vaccine kills all pathogens before they can enter the body" },
-              { id: "d", text: "The vaccine changes the body's DNA to resist the disease" },
+              { id: "a", text: "The vaccine kills all pathogens before they can enter the body" },
+              { id: "b", text: "The vaccine contains antibodies that circulate in the blood for years" },
+              { id: "c", text: "The vaccine changes the body's DNA to resist the disease" },
+              { id: "d", text: "The vaccine stimulates the production of memory cells that enable a rapid secondary response" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Vaccination", statement: "Vaccines contain antigens that stimulate antibody and memory cell production without causing disease; memory cells give a faster, stronger response on re-exposure." }],
@@ -625,12 +625,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A Y-shaped protein that binds to pathogens" },
-              { id: "b", text: "A molecule on a pathogen that triggers an immune response" },
+              { id: "a", text: "A vaccine containing a weakened pathogen" },
+              { id: "b", text: "A Y-shaped protein that binds to pathogens" },
               { id: "c", text: "A type of white blood cell" },
-              { id: "d", text: "A vaccine containing a weakened pathogen" },
+              { id: "d", text: "A molecule on a pathogen that triggers an immune response" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Antigen", statement: "An antigen is a molecule, usually on a pathogen's surface, that is recognised by the immune system and triggers antibody production." }],
@@ -652,11 +652,11 @@ export const lesson22: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Red blood cells" },
-              { id: "b", text: "Platelets" },
-              { id: "c", text: "Lymphocytes" },
-              { id: "d", text: "Neutrophils" },
+              { id: "b", text: "Neutrophils" },
+              { id: "c", text: "Platelets" },
+              { id: "d", text: "Lymphocytes" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Lymphocytes", statement: "Lymphocytes are white blood cells that recognise antigens and produce antibodies." }],
@@ -677,12 +677,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "They engulf pathogens directly" },
-              { id: "b", text: "They enable a faster and stronger response on re-exposure" },
+              { id: "a", text: "They enable a faster and stronger response on re-exposure" },
+              { id: "b", text: "They engulf pathogens directly" },
               { id: "c", text: "They transport antibodies around the body" },
               { id: "d", text: "They destroy red blood cells" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Immunological memory", statement: "Memory cells persist after exposure and allow a rapid secondary immune response when the same antigen is encountered again." }],
@@ -703,12 +703,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Vaccines contain ready-made antibodies that provide passive immunity" },
-              { id: "b", text: "Vaccines contain antigens that stimulate the body to produce its own antibodies and memory cells" },
-              { id: "c", text: "Vaccines always contain living pathogens that cause the full disease" },
-              { id: "d", text: "Vaccines change the DNA sequence of lymphocytes permanently" },
+              { id: "a", text: "Vaccines change the DNA sequence of lymphocytes permanently" },
+              { id: "b", text: "Vaccines always contain living pathogens that cause the full disease" },
+              { id: "c", text: "Vaccines contain ready-made antibodies that provide passive immunity" },
+              { id: "d", text: "Vaccines contain antigens that stimulate the body to produce its own antibodies and memory cells" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Vaccination", statement: "Vaccines contain weakened, killed or partial antigens that stimulate active immunity without causing disease." }],

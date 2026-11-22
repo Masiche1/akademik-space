@@ -60,12 +60,12 @@ export const lesson122: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A question needing answer" },
-              { id: "b", text: "Question asked for effect" },
-              { id: "c", text: "A maths problem" },
-              { id: "d", text: "A joke" },
+              { id: "a", text: "A maths problem" },
+              { id: "b", text: "A question needing answer" },
+              { id: "c", text: "A joke" },
+              { id: "d", text: "Question asked for effect" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -88,12 +88,12 @@ export const lesson122: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It's good" },
-              { id: "b", text: "It's fast, cheap, and reliable" },
+              { id: "a", text: "I think it's nice" },
+              { id: "b", text: "It's good" },
               { id: "c", text: "Buy it now" },
-              { id: "d", text: "I think it's nice" },
+              { id: "d", text: "It's fast, cheap, and reliable" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -221,12 +221,12 @@ export const lesson122: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Describe everything" },
-              { id: "b", text: "Use actions to reveal character" },
-              { id: "c", text: "Be brief" },
+              { id: "a", text: "Use actions to reveal character" },
+              { id: "b", text: "Be brief" },
+              { id: "c", text: "Describe everything" },
               { id: "d", text: "Use dialogue only" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -252,11 +252,11 @@ export const lesson122: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Jack was angry" },
-              { id: "b", text: "Jack slammed the door and stomped off" },
-              { id: "c", text: "Jack is a boy" },
-              { id: "d", text: "Jack has red hair" },
+              { id: "b", text: "Jack has red hair" },
+              { id: "c", text: "Jack slammed the door and stomped off" },
+              { id: "d", text: "Jack is a boy" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

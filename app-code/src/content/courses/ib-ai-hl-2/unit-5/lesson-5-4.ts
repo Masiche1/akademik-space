@@ -55,12 +55,12 @@ export const lesson54: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Secondary data" },
-              { id: "b", text: "Primary data" },
+              { id: "a", text: "Primary data" },
+              { id: "b", text: "Secondary data" },
               { id: "c", text: "Raw data" },
               { id: "d", text: "Categorical data" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -158,12 +158,12 @@ export const lesson54: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Primary data" },
-              { id: "b", text: "Secondary data" },
-              { id: "c", text: "Raw data" },
-              { id: "d", text: "Simulated data" },
+              { id: "a", text: "Raw data" },
+              { id: "b", text: "Simulated data" },
+              { id: "c", text: "Primary data" },
+              { id: "d", text: "Secondary data" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Secondary data", statement: "Data collected by someone else for another purpose." }],
@@ -184,12 +184,12 @@ export const lesson54: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Do you support the new uniform policy?" },
-              { id: "b", text: "Don't you agree that the new uniform policy is beneficial?" },
-              { id: "c", text: "How often do you wear the uniform?" },
-              { id: "d", text: "Rate your satisfaction with the uniform from 1 to 5." },
+              { id: "a", text: "How often do you wear the uniform?" },
+              { id: "b", text: "Rate your satisfaction with the uniform from 1 to 5." },
+              { id: "c", text: "Do you support the new uniform policy?" },
+              { id: "d", text: "Don't you agree that the new uniform policy is beneficial?" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Leading question", statement: "A question worded to push the respondent towards a particular answer." }],
@@ -210,12 +210,12 @@ export const lesson54: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$5$" },
-              { id: "b", text: "$6$" },
+              { id: "a", text: "$6$" },
+              { id: "b", text: "$5$" },
               { id: "c", text: "$7$" },
               { id: "d", text: "$8$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Degrees of freedom (GoF)", statement: "$\\nu=k-1-p$ with $k=8$ categories and $p=1$ estimated parameter." }],
@@ -305,12 +305,12 @@ export const lesson54: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$2$" },
-              { id: "b", text: "$3$" },
-              { id: "c", text: "$4$" },
+              { id: "a", text: "$4$" },
+              { id: "b", text: "$2$" },
+              { id: "c", text: "$3$" },
               { id: "d", text: "$5$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Degrees of freedom (GoF)", statement: "$\\nu=k-1-p$ with $k=6$ and $p=2$ estimated parameters." }],
@@ -358,10 +358,10 @@ export const lesson54: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Published census tables" },
+              { id: "a", text: "Another researcher's published dataset" },
               { id: "b", text: "Responses to a questionnaire you designed" },
               { id: "c", text: "Data printed in a textbook" },
-              { id: "d", text: "Another researcher's published dataset" },
+              { id: "d", text: "Published census tables" },
             ],
             correctChoiceId: "b",
           },
@@ -450,12 +450,12 @@ export const lesson54: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Valid" },
-              { id: "b", text: "Reliable" },
-              { id: "c", text: "Both valid and reliable" },
-              { id: "d", text: "Neither" },
+              { id: "a", text: "Neither" },
+              { id: "b", text: "Both valid and reliable" },
+              { id: "c", text: "Valid" },
+              { id: "d", text: "Reliable" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -557,8 +557,8 @@ export const lesson54: Lesson = {
             choices: [
               { id: "a", text: "Criterion validity" },
               { id: "b", text: "Test-retest reliability" },
-              { id: "c", text: "Content validity" },
-              { id: "d", text: "Face validity" },
+              { id: "c", text: "Face validity" },
+              { id: "d", text: "Content validity" },
             ],
             correctChoiceId: "b",
           },
@@ -581,12 +581,12 @@ export const lesson54: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "predicts future performance" },
-              { id: "b", text: "covers the whole of the construct it claims to measure" },
-              { id: "c", text: "produces consistent scores on repetition" },
-              { id: "d", text: "looks professional to respondents" },
+              { id: "a", text: "looks professional to respondents" },
+              { id: "b", text: "produces consistent scores on repetition" },
+              { id: "c", text: "covers the whole of the construct it claims to measure" },
+              { id: "d", text: "predicts future performance" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Content validity", statement: "The test items adequately cover the entire construct being measured." }],
@@ -607,12 +607,12 @@ export const lesson54: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "reliable but not valid" },
-              { id: "b", text: "valid but not reliable" },
+              { id: "a", text: "neither reliable nor valid" },
+              { id: "b", text: "reliable but not valid" },
               { id: "c", text: "both reliable and valid" },
-              { id: "d", text: "neither reliable nor valid" },
+              { id: "d", text: "valid but not reliable" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Reliability vs validity", statement: "Consistency does not imply correctness; a systematic error destroys validity while leaving reliability intact." }],
@@ -712,12 +712,12 @@ export const lesson54: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Reliable $\\Rightarrow$ valid" },
-              { id: "b", text: "Valid $\\Rightarrow$ reliable" },
-              { id: "c", text: "Reliable $\\Leftrightarrow$ valid" },
-              { id: "d", text: "Reliability and validity are independent" },
+              { id: "a", text: "Reliability and validity are independent" },
+              { id: "b", text: "Reliable $\\Leftrightarrow$ valid" },
+              { id: "c", text: "Reliable $\\Rightarrow$ valid" },
+              { id: "d", text: "Valid $\\Rightarrow$ reliable" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Relationship", statement: "A valid measure must be reliable, but a reliable measure need not be valid." }],
@@ -738,12 +738,12 @@ export const lesson54: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "the same rater scoring the work twice" },
-              { id: "b", text: "two independent raters scoring the same work and comparing their scores" },
+              { id: "a", text: "two independent raters scoring the same work and comparing their scores" },
+              { id: "b", text: "the same rater scoring the work twice" },
               { id: "c", text: "using a larger sample of students" },
               { id: "d", text: "checking the test blueprint" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Inter-rater reliability", statement: "Agreement between different observers measuring the same thing." }],

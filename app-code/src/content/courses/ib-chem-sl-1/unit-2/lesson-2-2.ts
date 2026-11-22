@@ -55,12 +55,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$2.8.7$" },
-              { id: "b", text: "$2.8.8$" },
+              { id: "a", text: "$2.8.8$" },
+              { id: "b", text: "$2.8.7$" },
               { id: "c", text: "$2.7.8$" },
               { id: "d", text: "$8.8.1$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -166,12 +166,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$2.8.1$" },
-              { id: "b", text: "$2.8.2$" },
-              { id: "c", text: "$2.9$" },
-              { id: "d", text: "$8.2.1$" },
+              { id: "a", text: "$2.8.2$" },
+              { id: "b", text: "$2.9$" },
+              { id: "c", text: "$8.2.1$" },
+              { id: "d", text: "$2.8.1$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -248,10 +248,10 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Sodium" },
+              { id: "a", text: "Calcium" },
               { id: "b", text: "Potassium" },
-              { id: "c", text: "Argon" },
-              { id: "d", text: "Calcium" },
+              { id: "c", text: "Sodium" },
+              { id: "d", text: "Argon" },
             ],
             correctChoiceId: "b",
           },
@@ -276,12 +276,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Aluminium" },
-              { id: "b", text: "Silicon" },
-              { id: "c", text: "Phosphorus" },
-              { id: "d", text: "Magnesium" },
+              { id: "a", text: "Phosphorus" },
+              { id: "b", text: "Magnesium" },
+              { id: "c", text: "Silicon" },
+              { id: "d", text: "Aluminium" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -304,12 +304,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$2$" },
-              { id: "b", text: "$6$" },
+              { id: "a", text: "$10$" },
+              { id: "b", text: "$2$" },
               { id: "c", text: "$8$" },
-              { id: "d", text: "$10$" },
+              { id: "d", text: "$6$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -352,12 +352,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The $4s$ subshell has lower energy than the $3d$ subshell" },
+              { id: "a", text: "The $4s$ subshell is closer to the nucleus" },
               { id: "b", text: "The $3d$ subshell cannot hold electrons" },
-              { id: "c", text: "Electrons always fill the largest available shell first" },
-              { id: "d", text: "The $4s$ subshell is closer to the nucleus" },
+              { id: "c", text: "The $4s$ subshell has lower energy than the $3d$ subshell" },
+              { id: "d", text: "Electrons always fill the largest available shell first" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -518,11 +518,11 @@ export const lesson22: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$2$" },
-              { id: "b", text: "$6$" },
+              { id: "b", text: "$16$" },
               { id: "c", text: "$8$" },
-              { id: "d", text: "$16$" },
+              { id: "d", text: "$6$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -620,12 +620,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$1$" },
-              { id: "b", text: "$8$" },
+              { id: "a", text: "$8$" },
+              { id: "b", text: "$1$" },
               { id: "c", text: "$9$" },
               { id: "d", text: "$19$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -695,12 +695,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$2.8$" },
-              { id: "b", text: "$2.8.8$" },
+              { id: "a", text: "$2.8.8$" },
+              { id: "b", text: "$2.8$" },
               { id: "c", text: "$2.5$" },
               { id: "d", text: "$2.6$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -723,12 +723,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Gaining one electron completes the octet, whereas losing seven electrons would require enormous energy" },
-              { id: "b", text: "Chlorine cannot form positive ions under any circumstances" },
-              { id: "c", text: "A $7+$ charge is too small to be stable" },
-              { id: "d", text: "Chlorine has only one electron available to lose" },
+              { id: "a", text: "A $7+$ charge is too small to be stable" },
+              { id: "b", text: "Chlorine has only one electron available to lose" },
+              { id: "c", text: "Gaining one electron completes the octet, whereas losing seven electrons would require enormous energy" },
+              { id: "d", text: "Chlorine cannot form positive ions under any circumstances" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -752,12 +752,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Group 15" },
+              { id: "a", text: "Group 13" },
               { id: "b", text: "Group 5" },
-              { id: "c", text: "Group 13" },
+              { id: "c", text: "Group 15" },
               { id: "d", text: "Group 17" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -831,12 +831,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "They have few valence electrons that are easily lost at relatively low ionisation energy" },
-              { id: "b", text: "They have many valence electrons to gain" },
-              { id: "c", text: "They are located in Group 18 of the table" },
+              { id: "a", text: "They have many valence electrons to gain" },
+              { id: "b", text: "They are located in Group 18 of the table" },
+              { id: "c", text: "They have few valence electrons that are easily lost at relatively low ionisation energy" },
               { id: "d", text: "They gain electrons more readily than they lose them" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

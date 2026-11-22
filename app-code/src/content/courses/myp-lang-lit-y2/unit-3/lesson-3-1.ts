@@ -59,11 +59,11 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "The person who wrote it" },
-              { id: "b", text: "The people the text is written for" },
-              { id: "c", text: "The setting of the story" },
-              { id: "d", text: "The length of the text" },
+              { id: "b", text: "The length of the text" },
+              { id: "c", text: "The people the text is written for" },
+              { id: "d", text: "The setting of the story" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -183,12 +183,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Persuade you to buy ingredients" },
+              { id: "a", text: "Inform you how to cook a dish" },
               { id: "b", text: "Entertain you with a story" },
-              { id: "c", text: "Inform you how to cook a dish" },
-              { id: "d", text: "Express the chef's feelings" },
+              { id: "c", text: "Express the chef's feelings" },
+              { id: "d", text: "Persuade you to buy ingredients" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [

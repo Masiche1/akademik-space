@@ -52,12 +52,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "To persuade the reader to buy something" },
-              { id: "b", text: "To present a person, place or thing vividly" },
-              { id: "c", text: "To give ordered steps" },
-              { id: "d", text: "To argue a point" },
+              { id: "a", text: "To give ordered steps" },
+              { id: "b", text: "To argue a point" },
+              { id: "c", text: "To present a person, place or thing vividly" },
+              { id: "d", text: "To persuade the reader to buy something" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -148,8 +148,8 @@ export const lesson23: Lesson = {
             choices: [
               { id: "a", text: "To make the reader see, hear or feel the subject vividly" },
               { id: "b", text: "To shorten the text" },
-              { id: "c", text: "To list facts quickly" },
-              { id: "d", text: "To persuade the reader to buy something" },
+              { id: "c", text: "To persuade the reader to buy something" },
+              { id: "d", text: "To list facts quickly" },
             ],
             correctChoiceId: "a",
           },
@@ -173,12 +173,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Resolution, orientation, complication" },
-              { id: "b", text: "Orientation, complication, resolution" },
-              { id: "c", text: "Complication, resolution, orientation" },
-              { id: "d", text: "Orientation, resolution, complication" },
+              { id: "a", text: "Complication, resolution, orientation" },
+              { id: "b", text: "Orientation, resolution, complication" },
+              { id: "c", text: "Resolution, orientation, complication" },
+              { id: "d", text: "Orientation, complication, resolution" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -200,12 +200,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Chronological order" },
-              { id: "b", text: "Spatial order (bottom to top)" },
+              { id: "a", text: "Spatial order (bottom to top)" },
+              { id: "b", text: "Chronological order" },
               { id: "c", text: "Alphabetical order" },
               { id: "d", text: "Random order" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -228,9 +228,9 @@ export const lesson23: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Present tense" },
-              { id: "b", text: "Future tense" },
+              { id: "b", text: "Imperative" },
               { id: "c", text: "Past tense" },
-              { id: "d", text: "Imperative" },
+              { id: "d", text: "Future tense" },
             ],
             correctChoiceId: "c",
           },
@@ -254,10 +254,10 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "They make the story longer" },
+              { id: "a", text: "They are always funny" },
               { id: "b", text: "There is no point of tension or development for the reader to follow" },
-              { id: "c", text: "They use too much vocabulary" },
-              { id: "d", text: "They are always funny" },
+              { id: "c", text: "They make the story longer" },
+              { id: "d", text: "They use too much vocabulary" },
             ],
             correctChoiceId: "b",
           },
@@ -389,12 +389,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "for example, such as" },
-              { id: "b", text: "then, suddenly, after that" },
+              { id: "a", text: "then, suddenly, after that" },
+              { id: "b", text: "for example, such as" },
               { id: "c", text: "however, therefore" },
               { id: "d", text: "in conclusion, to sum up" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -475,12 +475,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The past tense" },
-              { id: "b", text: "The imperative" },
-              { id: "c", text: "The future tense" },
-              { id: "d", text: "The passive voice" },
+              { id: "a", text: "The future tense" },
+              { id: "b", text: "The past tense" },
+              { id: "c", text: "The passive voice" },
+              { id: "d", text: "The imperative" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -569,12 +569,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The past tense" },
-              { id: "b", text: "The imperative" },
+              { id: "a", text: "The imperative" },
+              { id: "b", text: "The past tense" },
               { id: "c", text: "The future tense" },
               { id: "d", text: "The passive voice" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -596,10 +596,10 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "first" },
-              { id: "b", text: "meanwhile" },
+              { id: "a", text: "meanwhile" },
+              { id: "b", text: "however" },
               { id: "c", text: "finally" },
-              { id: "d", text: "however" },
+              { id: "d", text: "first" },
             ],
             correctChoiceId: "c",
           },
@@ -624,11 +624,11 @@ export const lesson23: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "It makes the text shorter" },
-              { id: "b", text: "It prevents confusion and error for the reader" },
-              { id: "c", text: "It allows more verbs" },
+              { id: "b", text: "It allows more verbs" },
+              { id: "c", text: "It prevents confusion and error for the reader" },
               { id: "d", text: "It is just a style rule with no purpose" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -650,12 +650,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "For decoration" },
-              { id: "b", text: "So the reader knows what is needed and in what quantity before starting" },
-              { id: "c", text: "To make the recipe longer" },
-              { id: "d", text: "Recipes do not need one" },
+              { id: "a", text: "So the reader knows what is needed and in what quantity before starting" },
+              { id: "b", text: "Recipes do not need one" },
+              { id: "c", text: "For decoration" },
+              { id: "d", text: "To make the recipe longer" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -677,12 +677,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "'It' and 'the oven' are too formal" },
-              { id: "b", text: "'It' has no clear referent — the reader cannot tell what to put where" },
-              { id: "c", text: "It is in the passive voice" },
-              { id: "d", text: "It uses the wrong tense" },
+              { id: "a", text: "'It' has no clear referent — the reader cannot tell what to put where" },
+              { id: "b", text: "It is in the passive voice" },
+              { id: "c", text: "It uses the wrong tense" },
+              { id: "d", text: "'It' and 'the oven' are too formal" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -812,12 +812,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Only numbered steps" },
-              { id: "b", text: "Only sequence words" },
-              { id: "c", text: "Yes, both are valid ways to show order" },
-              { id: "d", text: "Neither — order does not matter" },
+              { id: "a", text: "Neither — order does not matter" },
+              { id: "b", text: "Yes, both are valid ways to show order" },
+              { id: "c", text: "Only sequence words" },
+              { id: "d", text: "Only numbered steps" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [

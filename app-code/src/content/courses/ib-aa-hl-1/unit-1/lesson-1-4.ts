@@ -54,10 +54,10 @@ export const lesson14: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$(2,3)$" },
+              { id: "a", text: "$(1,4)$" },
               { id: "b", text: "$(3,2)$" },
               { id: "c", text: "$(4,1)$" },
-              { id: "d", text: "$(1,4)$" },
+              { id: "d", text: "$(2,3)$" },
             ],
             correctChoiceId: "b",
           },
@@ -155,12 +155,12 @@ export const lesson14: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$(4,3)$" },
-              { id: "b", text: "$(5,2)$" },
-              { id: "c", text: "$(6,1)$" },
+              { id: "a", text: "$(6,1)$" },
+              { id: "b", text: "$(4,3)$" },
+              { id: "c", text: "$(5,2)$" },
               { id: "d", text: "$(3,4)$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -203,10 +203,10 @@ export const lesson14: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Exactly one" },
-              { id: "b", text: "Exactly two" },
+              { id: "a", text: "Exactly two" },
+              { id: "b", text: "None" },
               { id: "c", text: "Infinitely many" },
-              { id: "d", text: "None" },
+              { id: "d", text: "Exactly one" },
             ],
             correctChoiceId: "c",
           },
@@ -253,11 +253,11 @@ export const lesson14: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$k=3$" },
-              { id: "b", text: "$k=6$" },
-              { id: "c", text: "$k=8$" },
-              { id: "d", text: "$k=12$" },
+              { id: "b", text: "$k=12$" },
+              { id: "c", text: "$k=6$" },
+              { id: "d", text: "$k=8$" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -302,12 +302,12 @@ export const lesson14: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A unique solution" },
-              { id: "b", text: "No solution" },
-              { id: "c", text: "Infinitely many solutions" },
-              { id: "d", text: "Exactly two solutions" },
+              { id: "a", text: "Exactly two solutions" },
+              { id: "b", text: "A unique solution" },
+              { id: "c", text: "No solution" },
+              { id: "d", text: "Infinitely many solutions" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -411,12 +411,12 @@ export const lesson14: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Intersecting at one point" },
-              { id: "b", text: "Parallel — the system has no solution" },
+              { id: "a", text: "Perpendicular" },
+              { id: "b", text: "Intersecting at one point" },
               { id: "c", text: "Coincident — infinitely many solutions" },
-              { id: "d", text: "Perpendicular" },
+              { id: "d", text: "Parallel — the system has no solution" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -511,12 +511,12 @@ export const lesson14: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$(1,5)$" },
-              { id: "b", text: "$(2,4)$" },
-              { id: "c", text: "$(1,4)$" },
+              { id: "a", text: "$(1,4)$" },
+              { id: "b", text: "$(1,5)$" },
+              { id: "c", text: "$(2,4)$" },
               { id: "d", text: "$(5,1)$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -559,10 +559,10 @@ export const lesson14: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Parallel" },
+              { id: "a", text: "Coincident" },
               { id: "b", text: "Perpendicular" },
-              { id: "c", text: "Coincident" },
-              { id: "d", text: "Intersecting but not at right angles" },
+              { id: "c", text: "Intersecting but not at right angles" },
+              { id: "d", text: "Parallel" },
             ],
             correctChoiceId: "b",
           },
@@ -608,12 +608,12 @@ export const lesson14: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Exactly one" },
+              { id: "a", text: "None" },
               { id: "b", text: "Exactly two" },
-              { id: "c", text: "Infinitely many — one for each point on the line" },
-              { id: "d", text: "None" },
+              { id: "c", text: "Exactly one" },
+              { id: "d", text: "Infinitely many — one for each point on the line" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [

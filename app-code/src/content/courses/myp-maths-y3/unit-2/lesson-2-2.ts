@@ -60,11 +60,11 @@ $\\frac{x}{2}+\\frac{x}{3}=5$: LCD is 6, so $3x+2x=30$, giving $5x=30$, $x=6$.`,
             type: "mcq",
             choices: [
               { id: "a", text: "$x=3$" },
-              { id: "b", text: "$x=4$" },
-              { id: "c", text: "$x=6$" },
-              { id: "d", text: "$x=8$" },
+              { id: "b", text: "$x=6$" },
+              { id: "c", text: "$x=8$" },
+              { id: "d", text: "$x=4$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -157,12 +157,12 @@ $\\frac{x}{2}+\\frac{x}{3}=5$: LCD is 6, so $3x+2x=30$, giving $5x=30$, $x=6$.`,
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$x=5$" },
+              { id: "a", text: "$x=7$" },
               { id: "b", text: "$x=6$" },
-              { id: "c", text: "$x=7$" },
+              { id: "c", text: "$x=5$" },
               { id: "d", text: "$x=8$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -184,12 +184,12 @@ $\\frac{x}{2}+\\frac{x}{3}=5$: LCD is 6, so $3x+2x=30$, giving $5x=30$, $x=6$.`,
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$x=4$" },
-              { id: "b", text: "$x=6$" },
-              { id: "c", text: "$x=8$" },
-              { id: "d", text: "$x=12$" },
+              { id: "a", text: "$x=6$" },
+              { id: "b", text: "$x=4$" },
+              { id: "c", text: "$x=12$" },
+              { id: "d", text: "$x=8$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -212,11 +212,11 @@ $\\frac{x}{2}+\\frac{x}{3}=5$: LCD is 6, so $3x+2x=30$, giving $5x=30$, $x=6$.`,
             type: "mcq",
             choices: [
               { id: "a", text: "$x=4$" },
-              { id: "b", text: "$x=5$" },
-              { id: "c", text: "$x=6$" },
-              { id: "d", text: "$x=17$" },
+              { id: "b", text: "$x=17$" },
+              { id: "c", text: "$x=5$" },
+              { id: "d", text: "$x=6$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -238,12 +238,12 @@ $\\frac{x}{2}+\\frac{x}{3}=5$: LCD is 6, so $3x+2x=30$, giving $5x=30$, $x=6$.`,
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$x=8$" },
-              { id: "b", text: "$x=12$" },
+              { id: "a", text: "$x=24$" },
+              { id: "b", text: "$x=8$" },
               { id: "c", text: "$x=18$" },
-              { id: "d", text: "$x=24$" },
+              { id: "d", text: "$x=12$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -322,12 +322,12 @@ $\\frac{x}{2}+\\frac{x}{3}=5$: LCD is 6, so $3x+2x=30$, giving $5x=30$, $x=6$.`,
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Add the fractions to get $x/5=5$" },
-              { id: "b", text: "Multiply every term by 6" },
-              { id: "c", text: "Multiply only the left side by 6" },
-              { id: "d", text: "Divide both sides by 5" },
+              { id: "a", text: "Multiply only the left side by 6" },
+              { id: "b", text: "Divide both sides by 5" },
+              { id: "c", text: "Add the fractions to get $x/5=5$" },
+              { id: "d", text: "Multiply every term by 6" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -349,12 +349,12 @@ $\\frac{x}{2}+\\frac{x}{3}=5$: LCD is 6, so $3x+2x=30$, giving $5x=30$, $x=6$.`,
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$x=2$" },
-              { id: "b", text: "$x=4$" },
-              { id: "c", text: "$x=5$" },
-              { id: "d", text: "$x=7$" },
+              { id: "a", text: "$x=5$" },
+              { id: "b", text: "$x=2$" },
+              { id: "c", text: "$x=7$" },
+              { id: "d", text: "$x=4$" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -471,12 +471,12 @@ $-2x>6 \\Rightarrow x<-3$ (sign reversed!).`,
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$x<2$" },
-              { id: "b", text: "$x<3$" },
-              { id: "c", text: "$x>2$" },
-              { id: "d", text: "$x\\le2$" },
+              { id: "a", text: "$x<3$" },
+              { id: "b", text: "$x<2$" },
+              { id: "c", text: "$x\\le2$" },
+              { id: "d", text: "$x>2$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -570,9 +570,9 @@ $-2x>6 \\Rightarrow x<-3$ (sign reversed!).`,
             type: "mcq",
             choices: [
               { id: "a", text: "$x<4$" },
-              { id: "b", text: "$x>4$" },
-              { id: "c", text: "$x<7$" },
-              { id: "d", text: "$x\\le4$" },
+              { id: "b", text: "$x\\le4$" },
+              { id: "c", text: "$x>4$" },
+              { id: "d", text: "$x<7$" },
             ],
             correctChoiceId: "a",
           },
@@ -596,12 +596,12 @@ $-2x>6 \\Rightarrow x<-3$ (sign reversed!).`,
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$x<3$" },
+              { id: "a", text: "$x>-3$" },
               { id: "b", text: "$x>3$" },
               { id: "c", text: "$x<-3$" },
-              { id: "d", text: "$x>-3$" },
+              { id: "d", text: "$x<3$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -623,12 +623,12 @@ $-2x>6 \\Rightarrow x<-3$ (sign reversed!).`,
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$x\\ge3$" },
-              { id: "b", text: "$x\\le3$" },
+              { id: "a", text: "$x\\le3$" },
+              { id: "b", text: "$x>3$" },
               { id: "c", text: "$x\\ge9$" },
-              { id: "d", text: "$x>3$" },
+              { id: "d", text: "$x\\ge3$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -650,12 +650,12 @@ $-2x>6 \\Rightarrow x<-3$ (sign reversed!).`,
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$x$ is greater than -2 and at most 4" },
-              { id: "b", text: "$x$ is at least -2 and less than 4" },
-              { id: "c", text: "$x$ is greater than -2 and less than 4" },
-              { id: "d", text: "$x$ is between -2 and 4 inclusive" },
+              { id: "a", text: "$x$ is greater than -2 and less than 4" },
+              { id: "b", text: "$x$ is between -2 and 4 inclusive" },
+              { id: "c", text: "$x$ is at least -2 and less than 4" },
+              { id: "d", text: "$x$ is greater than -2 and at most 4" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -677,12 +677,12 @@ $-2x>6 \\Rightarrow x<-3$ (sign reversed!).`,
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$x+3\\ge1$" },
-              { id: "b", text: "$x+3\\le1$" },
+              { id: "a", text: "$x+3\\le1$" },
+              { id: "b", text: "$x+3\\ge1$" },
               { id: "c", text: "$-x\\ge2$" },
               { id: "d", text: "$x-3\\ge1$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [

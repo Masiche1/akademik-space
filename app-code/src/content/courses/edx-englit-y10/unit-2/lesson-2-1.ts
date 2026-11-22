@@ -55,12 +55,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Because the audience knows that two world wars have happened since 1912" },
-              { id: "b", text: "Because the audience agrees with Birling's view of business" },
-              { id: "c", text: "Because Birling later changes his mind in the play" },
-              { id: "d", text: "Because the Inspector says Birling is correct" },
+              { id: "a", text: "Because the audience agrees with Birling's view of business" },
+              { id: "b", text: "Because Birling later changes his mind in the play" },
+              { id: "c", text: "Because the Inspector says Birling is correct" },
+              { id: "d", text: "Because the audience knows that two world wars have happened since 1912" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Dramatic irony", statement: "The audience knows the truth that a character does not, so the character's confidence seems foolish." }],
@@ -189,12 +189,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "He voices Priestley's own views on social responsibility" },
+              { id: "a", text: "He speaks for the Birling family" },
               { id: "b", text: "He speaks loudly so that everyone can hear" },
               { id: "c", text: "He repeats what other characters say" },
-              { id: "d", text: "He speaks for the Birling family" },
+              { id: "d", text: "He voices Priestley's own views on social responsibility" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Mouthpiece", statement: "A character through whom the playwright expresses their views." }],

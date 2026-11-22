@@ -61,8 +61,8 @@ Check: $(2\\times3)^2=6^2=36$ and $2^2\\times3^2=4\\times9=36$.`,
             choices: [
               { id: "a", text: "$x^{7}$" },
               { id: "b", text: "$x^{12}$" },
-              { id: "c", text: "$x^{64}$" },
-              { id: "d", text: "$x^{81}$" },
+              { id: "c", text: "$x^{81}$" },
+              { id: "d", text: "$x^{64}$" },
             ],
             correctChoiceId: "b",
           },
@@ -160,12 +160,12 @@ Check: $(2\\times3)^2=6^2=36$ and $2^2\\times3^2=4\\times9=36$.`,
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$x^8$" },
-              { id: "b", text: "$x^{15}$" },
-              { id: "c", text: "$x^{125}$" },
+              { id: "a", text: "$x^{15}$" },
+              { id: "b", text: "$x^{125}$" },
+              { id: "c", text: "$x^8$" },
               { id: "d", text: "$x^{240}$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -188,11 +188,11 @@ Check: $(2\\times3)^2=6^2=36$ and $2^2\\times3^2=4\\times9=36$.`,
             type: "mcq",
             choices: [
               { id: "a", text: "$6x^6$" },
-              { id: "b", text: "$8x^6$" },
-              { id: "c", text: "$8x^5$" },
+              { id: "b", text: "$8x^5$" },
+              { id: "c", text: "$8x^6$" },
               { id: "d", text: "$2x^6$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -214,12 +214,12 @@ Check: $(2\\times3)^2=6^2=36$ and $2^2\\times3^2=4\\times9=36$.`,
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$x^5$" },
+              { id: "a", text: "$x$" },
               { id: "b", text: "$x^9$" },
-              { id: "c", text: "$x^{11}$" },
-              { id: "d", text: "$x$" },
+              { id: "c", text: "$x^5$" },
+              { id: "d", text: "$x^{11}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -241,12 +241,12 @@ Check: $(2\\times3)^2=6^2=36$ and $2^2\\times3^2=4\\times9=36$.`,
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$3$" },
-              { id: "b", text: "$9$" },
-              { id: "c", text: "$27$" },
-              { id: "d", text: "$81$" },
+              { id: "a", text: "$9$" },
+              { id: "b", text: "$3$" },
+              { id: "c", text: "$81$" },
+              { id: "d", text: "$27$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -328,11 +328,11 @@ Check: $(2\\times3)^2=6^2=36$ and $2^2\\times3^2=4\\times9=36$.`,
             type: "mcq",
             choices: [
               { id: "a", text: "$8a^4b^2$" },
-              { id: "b", text: "$16a^4b^2$" },
-              { id: "c", text: "$16a^2b$" },
-              { id: "d", text: "$4a^4b^2$" },
+              { id: "b", text: "$4a^4b^2$" },
+              { id: "c", text: "$16a^4b^2$" },
+              { id: "d", text: "$16a^2b$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -394,11 +394,11 @@ Check: $(2\\times3)^2=6^2=36$ and $2^2\\times3^2=4\\times9=36$.`,
             type: "mcq",
             choices: [
               { id: "a", text: "$27$" },
-              { id: "b", text: "$81$" },
-              { id: "c", text: "$729$" },
-              { id: "d", text: "$19683$" },
+              { id: "b", text: "$19683$" },
+              { id: "c", text: "$81$" },
+              { id: "d", text: "$729$" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -478,12 +478,12 @@ $3.2\\times10^5+4.5\\times10^4=3.2\\times10^5+0.45\\times10^5=3.65\\times10^5$.`
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$8\\times10^8$" },
-              { id: "b", text: "$8\\times10^4$" },
-              { id: "c", text: "$15\\times10^4$" },
-              { id: "d", text: "$8\\times10^0$" },
+              { id: "a", text: "$8\\times10^4$" },
+              { id: "b", text: "$8\\times10^0$" },
+              { id: "c", text: "$8\\times10^8$" },
+              { id: "d", text: "$15\\times10^4$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -585,12 +585,12 @@ $3.2\\times10^5+4.5\\times10^4=3.2\\times10^5+0.45\\times10^5=3.65\\times10^5$.`
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$8 \\times 10^8$" },
-              { id: "b", text: "$8 \\times 10^4$" },
-              { id: "c", text: "$15 \\times 10^4$" },
-              { id: "d", text: "$8 \\times 10^0$" },
+              { id: "a", text: "$8 \\times 10^4$" },
+              { id: "b", text: "$8 \\times 10^8$" },
+              { id: "c", text: "$8 \\times 10^0$" },
+              { id: "d", text: "$15 \\times 10^4$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -612,12 +612,12 @@ $3.2\\times10^5+4.5\\times10^4=3.2\\times10^5+0.45\\times10^5=3.65\\times10^5$.`
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$5 \\times 10^5$" },
+              { id: "a", text: "$14 \\times 10^5$" },
               { id: "b", text: "$5 \\times 10^0$" },
-              { id: "c", text: "$14 \\times 10^5$" },
-              { id: "d", text: "$9 \\times 10^5$" },
+              { id: "c", text: "$9 \\times 10^5$" },
+              { id: "d", text: "$5 \\times 10^5$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -639,12 +639,12 @@ $3.2\\times10^5+4.5\\times10^4=3.2\\times10^5+0.45\\times10^5=3.65\\times10^5$.`
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$8 \\times 10^5$" },
-              { id: "b", text: "$8 \\times 10^6$" },
+              { id: "a", text: "$8 \\times 10^6$" },
+              { id: "b", text: "$8 \\times 10^5$" },
               { id: "c", text: "$6 \\times 10^5$" },
               { id: "d", text: "$8 \\times 10^1$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -666,12 +666,12 @@ $3.2\\times10^5+4.5\\times10^4=3.2\\times10^5+0.45\\times10^5=3.65\\times10^5$.`
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$4 \\times 10^4$" },
-              { id: "b", text: "$4 \\times 10^8$" },
-              { id: "c", text: "$6 \\times 10^4$" },
-              { id: "d", text: "$4 \\times 10^3$" },
+              { id: "a", text: "$4 \\times 10^3$" },
+              { id: "b", text: "$4 \\times 10^4$" },
+              { id: "c", text: "$4 \\times 10^8$" },
+              { id: "d", text: "$6 \\times 10^4$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -750,12 +750,12 @@ $3.2\\times10^5+4.5\\times10^4=3.2\\times10^5+0.45\\times10^5=3.65\\times10^5$.`
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$15 \\times 10^4$" },
-              { id: "b", text: "$1.5 \\times 10^5$" },
+              { id: "a", text: "$1.5 \\times 10^5$" },
+              { id: "b", text: "$15 \\times 10^4$" },
               { id: "c", text: "$0.15 \\times 10^6$" },
               { id: "d", text: "$150 \\times 10^3$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -777,10 +777,10 @@ $3.2\\times10^5+4.5\\times10^4=3.2\\times10^5+0.45\\times10^5=3.65\\times10^5$.`
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$10^5$" },
+              { id: "a", text: "$7.3 \\times 10^6$" },
               { id: "b", text: "$10^6$" },
               { id: "c", text: "$10^7$" },
-              { id: "d", text: "$7.3 \\times 10^6$" },
+              { id: "d", text: "$10^5$" },
             ],
             correctChoiceId: "b",
           },

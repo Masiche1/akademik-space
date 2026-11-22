@@ -59,10 +59,10 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The substance is corrosive" },
+              { id: "a", text: "The substance is toxic" },
               { id: "b", text: "The substance is flammable" },
-              { id: "c", text: "The substance is toxic" },
-              { id: "d", text: "The substance is hot" },
+              { id: "c", text: "The substance is hot" },
+              { id: "d", text: "The substance is corrosive" },
             ],
             correctChoiceId: "b",
           },
@@ -157,10 +157,10 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The substance is flammable" },
+              { id: "a", text: "The substance is toxic" },
               { id: "b", text: "The substance is corrosive" },
-              { id: "c", text: "The substance is toxic" },
-              { id: "d", text: "The substance is only an irritant" },
+              { id: "c", text: "The substance is only an irritant" },
+              { id: "d", text: "The substance is flammable" },
             ],
             correctChoiceId: "b",
           },
@@ -184,8 +184,8 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Temperature of the water" },
-              { id: "b", text: "Time taken for the sugar to dissolve" },
+              { id: "a", text: "Time taken for the sugar to dissolve" },
+              { id: "b", text: "Temperature of the water" },
               { id: "c", text: "Mass of sugar used" },
               { id: "d", text: "How fast the sugar dissolves" },
             ],
@@ -211,12 +211,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Plants need water to live." },
-              { id: "b", text: "If plants are watered with salty water, they will grow less tall, because salt reduces the water the roots can absorb." },
-              { id: "c", text: "Plants are nice to have in the garden." },
+              { id: "a", text: "Plants are nice to have in the garden." },
+              { id: "b", text: "Plants need water to live." },
+              { id: "c", text: "If plants are watered with salty water, they will grow less tall, because salt reduces the water the roots can absorb." },
               { id: "d", text: "Water is very important for plants." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -256,9 +256,9 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The substance is flammable" },
+              { id: "a", text: "The substance is harmful or an irritant" },
               { id: "b", text: "The substance is corrosive" },
-              { id: "c", text: "The substance is harmful or an irritant" },
+              { id: "c", text: "The substance is flammable" },
               { id: "d", text: "The substance is toxic" },
             ],
             correctChoiceId: "d",
@@ -283,12 +283,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "If the ramp is higher" },
-              { id: "b", text: "the trolley will roll further" },
-              { id: "c", text: "because it has more energy" },
-              { id: "d", text: "the ramp" },
+              { id: "a", text: "the trolley will roll further" },
+              { id: "b", text: "the ramp" },
+              { id: "c", text: "If the ramp is higher" },
+              { id: "d", text: "because it has more energy" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -491,12 +491,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Beaker" },
-              { id: "b", text: "Measuring cylinder" },
-              { id: "c", text: "Conical flask" },
-              { id: "d", text: "Test tube" },
+              { id: "a", text: "Test tube" },
+              { id: "b", text: "Conical flask" },
+              { id: "c", text: "Beaker" },
+              { id: "d", text: "Measuring cylinder" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -593,12 +593,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Stopwatch" },
-              { id: "b", text: "Balance" },
-              { id: "c", text: "Thermometer" },
+              { id: "a", text: "Balance" },
+              { id: "b", text: "Thermometer" },
+              { id: "c", text: "Stopwatch" },
               { id: "d", text: "Measuring cylinder" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -620,12 +620,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Above the liquid, looking down" },
-              { id: "b", text: "Level with the bottom of the curved surface (meniscus)" },
-              { id: "c", text: "At the top of the curved surface" },
-              { id: "d", text: "Anywhere, as long as the reading is taken quickly" },
+              { id: "a", text: "Level with the bottom of the curved surface (meniscus)" },
+              { id: "b", text: "Anywhere, as long as the reading is taken quickly" },
+              { id: "c", text: "Above the liquid, looking down" },
+              { id: "d", text: "At the top of the curved surface" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -647,12 +647,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Time taken to dissolve" },
-              { id: "b", text: "Temperature of the water" },
-              { id: "c", text: "Mass of sugar" },
+              { id: "a", text: "Mass of sugar" },
+              { id: "b", text: "Time taken to dissolve" },
+              { id: "c", text: "Temperature of the water" },
               { id: "d", text: "Volume of water" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -674,10 +674,10 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Distance" },
+              { id: "a", text: "cm" },
               { id: "b", text: "Distance (cm)" },
-              { id: "c", text: "How far" },
-              { id: "d", text: "cm" },
+              { id: "c", text: "Distance" },
+              { id: "d", text: "How far" },
             ],
             correctChoiceId: "b",
           },
@@ -701,12 +701,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$20\\ ^\\circ\\text{C}$: 80 s" },
-              { id: "b", text: "$40\\ ^\\circ\\text{C}$: 45 s" },
-              { id: "c", text: "$60\\ ^\\circ\\text{C}$: 70 s" },
-              { id: "d", text: "$50\\ ^\\circ\\text{C}$: 24 s" },
+              { id: "a", text: "$40\\ ^\\circ\\text{C}$: 45 s" },
+              { id: "b", text: "$20\\ ^\\circ\\text{C}$: 80 s" },
+              { id: "c", text: "$50\\ ^\\circ\\text{C}$: 24 s" },
+              { id: "d", text: "$60\\ ^\\circ\\text{C}$: 70 s" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -728,12 +728,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "No change is needed" },
-              { id: "b", text: "Swap the axes: put day on the horizontal axis and height on the vertical axis" },
-              { id: "c", text: "Remove the axis labels" },
-              { id: "d", text: "Make the scale on each axis start at a different number" },
+              { id: "a", text: "Make the scale on each axis start at a different number" },
+              { id: "b", text: "Remove the axis labels" },
+              { id: "c", text: "Swap the axes: put day on the horizontal axis and height on the vertical axis" },
+              { id: "d", text: "No change is needed" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

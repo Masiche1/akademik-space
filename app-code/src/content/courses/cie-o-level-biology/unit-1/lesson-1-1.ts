@@ -1,4 +1,5 @@
 import type { Lesson } from "../../../types.ts";
+import { lesson11 as ciebLesson11 } from "../../cie-igcse-biology/unit-1/lesson-1-1.ts";
 
 export const lesson11: Lesson = {
   id: "olbio-u1-lesson-1-1",
@@ -52,12 +53,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Cell wall" },
+              { id: "a", text: "Mitochondrion" },
               { id: "b", text: "Cell membrane" },
-              { id: "c", text: "Nucleus" },
-              { id: "d", text: "Mitochondrion" },
+              { id: "c", text: "Cell wall" },
+              { id: "d", text: "Nucleus" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -177,12 +178,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "No nucleus" },
-              { id: "b", text: "Large nucleus" },
-              { id: "c", text: "Cell wall" },
-              { id: "d", text: "Flagellum" },
+              { id: "a", text: "Large nucleus" },
+              { id: "b", text: "Flagellum" },
+              { id: "c", text: "No nucleus" },
+              { id: "d", text: "Cell wall" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -289,3 +290,20 @@ export const lesson11: Lesson = {
     },
   ],
 };
+
+const copyExpandedQuestions = (
+  sourceConcept: Lesson["concepts"][number],
+  targetConcept: Lesson["concepts"][number],
+) => {
+  const added = sourceConcept.questions.slice(4).map((question) => ({
+    ...question,
+    id: question.id.replace("cieb-", "olbio-"),
+  }));
+  if (added.length !== 12) {
+    throw new Error(`Expected 12 expanded questions for ${sourceConcept.id}`);
+  }
+  targetConcept.questions.push(...added);
+};
+
+copyExpandedQuestions(ciebLesson11.concepts[0], lesson11.concepts[0]);
+copyExpandedQuestions(ciebLesson11.concepts[1], lesson11.concepts[1]);

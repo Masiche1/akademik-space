@@ -55,8 +55,8 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$0.125$" },
-              { id: "b", text: "$\\frac{22}{7}$" },
+              { id: "a", text: "$\\frac{22}{7}$" },
+              { id: "b", text: "$0.125$" },
               { id: "c", text: "$\\sqrt{5}$" },
               { id: "d", text: "$0.777\\ldots$" },
             ],
@@ -158,12 +158,12 @@ $$a=0.252525\\ldots,\\quad b=\\sqrt{16},\\quad c=\\sqrt{18},\\quad d=2.7182818\\
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$0.125$" },
-              { id: "b", text: "$7/9$" },
-              { id: "c", text: "the square root of 5" },
-              { id: "d", text: "$0.444...$" },
+              { id: "a", text: "$0.444...$" },
+              { id: "b", text: "the square root of 5" },
+              { id: "c", text: "$0.125$" },
+              { id: "d", text: "$7/9$" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -185,12 +185,12 @@ $$a=0.252525\\ldots,\\quad b=\\sqrt{16},\\quad c=\\sqrt{18},\\quad d=2.7182818\\
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "√9" },
-              { id: "b", text: "√10" },
-              { id: "c", text: "pi" },
-              { id: "d", text: "$0.1010010001...$" },
+              { id: "a", text: "$0.1010010001...$" },
+              { id: "b", text: "pi" },
+              { id: "c", text: "√9" },
+              { id: "d", text: "√10" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -213,8 +213,8 @@ $$a=0.252525\\ldots,\\quad b=\\sqrt{16},\\quad c=\\sqrt{18},\\quad d=2.7182818\\
             type: "mcq",
             choices: [
               { id: "a", text: "$-2.6 < -2.55 < -2.5 < -2.45$" },
-              { id: "b", text: "$-2.45 < -2.5 < -2.55 < -2.6$" },
-              { id: "c", text: "$-2.6 < -2.5 < -2.55 < -2.45$" },
+              { id: "b", text: "$-2.6 < -2.5 < -2.55 < -2.45$" },
+              { id: "c", text: "$-2.45 < -2.5 < -2.55 < -2.6$" },
               { id: "d", text: "$-2.55 < -2.6 < -2.5 < -2.45$" },
             ],
             correctChoiceId: "a",
@@ -317,12 +317,12 @@ $$a=0.252525\\ldots,\\quad b=\\sqrt{16},\\quad c=\\sqrt{18},\\quad d=2.7182818\\
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "e is rational because the display stops." },
-              { id: "b", text: "e might be irrational because more digits may follow." },
+              { id: "a", text: "e is a fraction of two integers." },
+              { id: "b", text: "e is rational because the display stops." },
               { id: "c", text: "e is equal to 22/7." },
-              { id: "d", text: "e is a fraction of two integers." },
+              { id: "d", text: "e might be irrational because more digits may follow." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -403,8 +403,8 @@ $$a=0.252525\\ldots,\\quad b=\\sqrt{16},\\quad c=\\sqrt{18},\\quad d=2.7182818\\
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$22/7$" },
-              { id: "b", text: "$0.333...$" },
+              { id: "a", text: "$0.333...$" },
+              { id: "b", text: "$22/7$" },
               { id: "c", text: "√5" },
               { id: "d", text: "$-12/5$" },
             ],
@@ -461,10 +461,10 @@ $$a=0.252525\\ldots,\\quad b=\\sqrt{16},\\quad c=\\sqrt{18},\\quad d=2.7182818\\
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$5$" },
+              { id: "a", text: "$1$" },
               { id: "b", text: "$-5$" },
-              { id: "c", text: "$0$" },
-              { id: "d", text: "$1$" },
+              { id: "c", text: "$5$" },
+              { id: "d", text: "$0$" },
             ],
             correctChoiceId: "b",
           },
@@ -559,12 +559,12 @@ $$a=0.252525\\ldots,\\quad b=\\sqrt{16},\\quad c=\\sqrt{18},\\quad d=2.7182818\\
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$9$" },
+              { id: "a", text: "$1$" },
               { id: "b", text: "$-9$" },
               { id: "c", text: "$0$" },
-              { id: "d", text: "$1$" },
+              { id: "d", text: "$9$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -586,12 +586,12 @@ $$a=0.252525\\ldots,\\quad b=\\sqrt{16},\\quad c=\\sqrt{18},\\quad d=2.7182818\\
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$-4$" },
-              { id: "b", text: "$4$" },
+              { id: "a", text: "$4$" },
+              { id: "b", text: "$-4$" },
               { id: "c", text: "$0$" },
               { id: "d", text: "$-1$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -614,9 +614,9 @@ $$a=0.252525\\ldots,\\quad b=\\sqrt{16},\\quad c=\\sqrt{18},\\quad d=2.7182818\\
             type: "mcq",
             choices: [
               { id: "a", text: "$3$" },
-              { id: "b", text: "$13$" },
-              { id: "c", text: "$-3$" },
-              { id: "d", text: "$8$" },
+              { id: "b", text: "$8$" },
+              { id: "c", text: "$13$" },
+              { id: "d", text: "$-3$" },
             ],
             correctChoiceId: "a",
           },
@@ -717,12 +717,12 @@ $$a=0.252525\\ldots,\\quad b=\\sqrt{16},\\quad c=\\sqrt{18},\\quad d=2.7182818\\
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$-|8|+1$" },
-              { id: "b", text: "$|-8|+1$" },
-              { id: "c", text: "$-|8|-1$" },
-              { id: "d", text: "$-|-8|-1$" },
+              { id: "a", text: "$-|-8|-1$" },
+              { id: "b", text: "$-|8|+1$" },
+              { id: "c", text: "$|-8|+1$" },
+              { id: "d", text: "$-|8|-1$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -803,12 +803,12 @@ $$a=0.252525\\ldots,\\quad b=\\sqrt{16},\\quad c=\\sqrt{18},\\quad d=2.7182818\\
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$-|-6|$" },
-              { id: "b", text: "$|-6|$" },
-              { id: "c", text: "$-(-6)$" },
-              { id: "d", text: "$(-6)^2$" },
+              { id: "a", text: "$-(-6)$" },
+              { id: "b", text: "$(-6)^2$" },
+              { id: "c", text: "$|-6|$" },
+              { id: "d", text: "$-|-6|$" },
             ],
-            correctChoiceId: "d",
+            correctChoiceIb: "d",
           },
           markscheme: {
             principles: [

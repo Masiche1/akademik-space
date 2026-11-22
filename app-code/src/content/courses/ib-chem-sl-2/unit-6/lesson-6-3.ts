@@ -54,12 +54,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\mathrm{C}_n\\mathrm{H}_{2n+2}$" },
-              { id: "b", text: "$\\mathrm{C}_n\\mathrm{H}_{2n}$" },
-              { id: "c", text: "$\\mathrm{C}_n\\mathrm{H}_{2n-2}$" },
-              { id: "d", text: "$\\mathrm{C}_n\\mathrm{H}_n$" },
+              { id: "a", text: "$\\mathrm{C}_n\\mathrm{H}_{2n}$" },
+              { id: "b", text: "$\\mathrm{C}_n\\mathrm{H}_{2n-2}$" },
+              { id: "c", text: "$\\mathrm{C}_n\\mathrm{H}_n$" },
+              { id: "d", text: "$\\mathrm{C}_n\\mathrm{H}_{2n+2}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -82,12 +82,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\mathrm{C}_5\\mathrm{H}_{10}$" },
-              { id: "b", text: "$\\mathrm{C}_5\\mathrm{H}_{12}$" },
-              { id: "c", text: "$\\mathrm{C}_5\\mathrm{H}_8$" },
-              { id: "d", text: "$\\mathrm{C}_5\\mathrm{H}_{11}$" },
+              { id: "a", text: "$\\mathrm{C}_5\\mathrm{H}_{12}$" },
+              { id: "b", text: "$\\mathrm{C}_5\\mathrm{H}_8$" },
+              { id: "c", text: "$\\mathrm{C}_5\\mathrm{H}_{11}$" },
+              { id: "d", text: "$\\mathrm{C}_5\\mathrm{H}_{10}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -111,12 +111,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Two — butane and 2-methylpropane" },
-              { id: "b", text: "One — butane only" },
-              { id: "c", text: "Three — butane, 2-methylpropane and 2-butene" },
+              { id: "a", text: "Three — butane, 2-methylpropane and 2-butene" },
+              { id: "b", text: "Two — butane and 2-methylpropane" },
+              { id: "c", text: "One — butane only" },
               { id: "d", text: "Four — including two position isomers" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -172,12 +172,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The alcohol group, $-\\mathrm{OH}$" },
-              { id: "b", text: "The carboxylic acid group, $-\\mathrm{COOH}$" },
+              { id: "a", text: "The carboxylic acid group, $-\\mathrm{COOH}$" },
+              { id: "b", text: "The halogeno group, $-\\mathrm{Cl}$" },
               { id: "c", text: "The carbonyl group, $\\mathrm{C}=\\mathrm{O}$" },
-              { id: "d", text: "The halogeno group, $-\\mathrm{Cl}$" },
+              { id: "d", text: "The alcohol group, $-\\mathrm{OH}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -200,12 +200,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$\\mathrm{C}_n\\mathrm{H}_{2n}$" },
-              { id: "b", text: "$\\mathrm{C}_n\\mathrm{H}_{2n+2}$" },
-              { id: "c", text: "$\\mathrm{C}_n\\mathrm{H}_{2n-2}$" },
+              { id: "a", text: "$\\mathrm{C}_n\\mathrm{H}_{2n-2}$" },
+              { id: "b", text: "$\\mathrm{C}_n\\mathrm{H}_{2n}$" },
+              { id: "c", text: "$\\mathrm{C}_n\\mathrm{H}_{2n+2}$" },
               { id: "d", text: "$\\mathrm{C}_n\\mathrm{H}_n$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -228,12 +228,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "2-methylpropane, $(\\mathrm{CH}_3)_3\\mathrm{CH}$" },
-              { id: "b", text: "Butan-1-ol, $\\mathrm{CH}_3\\mathrm{CH}_2\\mathrm{CH}_2\\mathrm{CH}_2\\mathrm{OH}$" },
-              { id: "c", text: "2-butene, $\\mathrm{CH}_3\\mathrm{CH}=\\mathrm{CHCH}_3$" },
-              { id: "d", text: "Propanone, $\\mathrm{CH}_3\\mathrm{COCH}_3$" },
+              { id: "a", text: "2-butene, $\\mathrm{CH}_3\\mathrm{CH}=\\mathrm{CHCH}_3$" },
+              { id: "b", text: "Propanone, $\\mathrm{CH}_3\\mathrm{COCH}_3$" },
+              { id: "c", text: "2-methylpropane, $(\\mathrm{CH}_3)_3\\mathrm{CH}$" },
+              { id: "d", text: "Butan-1-ol, $\\mathrm{CH}_3\\mathrm{CH}_2\\mathrm{CH}_2\\mathrm{CH}_2\\mathrm{OH}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -256,12 +256,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Methoxyethane, $\\mathrm{CH}_3\\mathrm{OCH}_2\\mathrm{CH}_3$ — an ether" },
-              { id: "b", text: "Propanal, $\\mathrm{CH}_3\\mathrm{CH}_2\\mathrm{CHO}$ — an aldehyde, $\\mathrm{C}_3\\mathrm{H}_6\\mathrm{O}$" },
-              { id: "c", text: "Propan-1-ene, $\\mathrm{CH}_2=\\mathrm{CHCH}_3$ — an alkene, $\\mathrm{C}_3\\mathrm{H}_6$" },
-              { id: "d", text: "Propanone, $\\mathrm{CH}_3\\mathrm{COCH}_3$ — a ketone, $\\mathrm{C}_3\\mathrm{H}_6\\mathrm{O}$" },
+              { id: "a", text: "Propanal, $\\mathrm{CH}_3\\mathrm{CH}_2\\mathrm{CHO}$ — an aldehyde, $\\mathrm{C}_3\\mathrm{H}_6\\mathrm{O}$" },
+              { id: "b", text: "Propanone, $\\mathrm{CH}_3\\mathrm{COCH}_3$ — a ketone, $\\mathrm{C}_3\\mathrm{H}_6\\mathrm{O}$" },
+              { id: "c", text: "Methoxyethane, $\\mathrm{CH}_3\\mathrm{OCH}_2\\mathrm{CH}_3$ — an ether" },
+              { id: "d", text: "Propan-1-ene, $\\mathrm{CH}_2=\\mathrm{CHCH}_3$ — an alkene, $\\mathrm{C}_3\\mathrm{H}_6$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -359,12 +359,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Propan-1-ol and propan-2-ol" },
-              { id: "b", text: "Butane and 2-methylpropane" },
-              { id: "c", text: "Propan-1-ol and methoxyethane" },
-              { id: "d", text: "Ethene and ethane" },
+              { id: "a", text: "Ethene and ethane" },
+              { id: "b", text: "Propan-1-ol and methoxyethane" },
+              { id: "c", text: "Butane and 2-methylpropane" },
+              { id: "d", text: "Propan-1-ol and propan-2-ol" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -529,9 +529,9 @@ export const lesson63: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$R_f = \\dfrac{\\text{distance moved by the spot}}{\\text{distance moved by the solvent front}}$" },
-              { id: "b", text: "$R_f = \\dfrac{\\text{distance moved by the solvent front}}{\\text{distance moved by the spot}}$" },
-              { id: "c", text: "$R_f = \\text{distance moved by the spot} \\times \\text{time}$" },
-              { id: "d", text: "$R_f = \\text{mass of the spot} / \\text{mass of the sample}$" },
+              { id: "b", text: "$R_f = \\text{distance moved by the spot} \\times \\text{time}$" },
+              { id: "c", text: "$R_f = \\text{mass of the spot} / \\text{mass of the sample}$" },
+              { id: "d", text: "$R_f = \\dfrac{\\text{distance moved by the solvent front}}{\\text{distance moved by the spot}}$" },
             ],
             correctChoiceId: "a",
           },
@@ -556,12 +556,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$0.60$" },
-              { id: "b", text: "$1.67$" },
-              { id: "c", text: "$0.40$" },
-              { id: "d", text: "$2.4$" },
+              { id: "a", text: "$2.4$" },
+              { id: "b", text: "$0.40$" },
+              { id: "c", text: "$1.67$" },
+              { id: "d", text: "$0.60$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -587,8 +587,8 @@ export const lesson63: Lesson = {
             choices: [
               { id: "a", text: "A carboxylic acid group, $-\\mathrm{COOH}$" },
               { id: "b", text: "An alcohol group only, $-\\mathrm{OH}$" },
-              { id: "c", text: "An alkene, C=C" },
-              { id: "d", text: "A halogenoalkane, $-\\mathrm{Cl}$" },
+              { id: "c", text: "A halogenoalkane, $-\\mathrm{Cl}$" },
+              { id: "d", text: "An alkene, C=C" },
             ],
             correctChoiceId: "a",
           },
@@ -647,12 +647,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Between $0$ and $1$" },
+              { id: "a", text: "Between $-1$ and $+1$" },
               { id: "b", text: "Between $0$ and $100$" },
               { id: "c", text: "Any positive number greater than $1$" },
-              { id: "d", text: "Between $-1$ and $+1$" },
+              { id: "d", text: "Between $0$ and $1$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -675,12 +675,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The molar mass of the molecule" },
-              { id: "b", text: "The identity of every functional group" },
-              { id: "c", text: "The colour of the compound" },
-              { id: "d", text: "The boiling point of the compound" },
+              { id: "a", text: "The boiling point of the compound" },
+              { id: "b", text: "The colour of the compound" },
+              { id: "c", text: "The molar mass of the molecule" },
+              { id: "d", text: "The identity of every functional group" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -705,8 +705,8 @@ export const lesson63: Lesson = {
             choices: [
               { id: "a", text: "The O–H bond of an alcohol or carboxylic acid" },
               { id: "b", text: "The C=O bond of a carbonyl group" },
-              { id: "c", text: "The C≡N bond of a nitrile" },
-              { id: "d", text: "The C–Cl bond of a halogenoalkane" },
+              { id: "c", text: "The C–Cl bond of a halogenoalkane" },
+              { id: "d", text: "The C≡N bond of a nitrile" },
             ],
             correctChoiceId: "a",
           },
@@ -731,12 +731,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It does not contain a carbonyl group (C=O), such as in an aldehyde, ketone, carboxylic acid or ester" },
-              { id: "b", text: "It cannot contain any oxygen atoms" },
+              { id: "a", text: "It contains an O–H group" },
+              { id: "b", text: "It does not contain a carbonyl group (C=O), such as in an aldehyde, ketone, carboxylic acid or ester" },
               { id: "c", text: "It must be an alkane" },
-              { id: "d", text: "It contains an O–H group" },
+              { id: "d", text: "It cannot contain any oxygen atoms" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -836,12 +836,12 @@ export const lesson63: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Gas–liquid chromatography (GLC)" },
-              { id: "b", text: "Thin-layer chromatography only" },
+              { id: "a", text: "Thin-layer chromatography only" },
+              { id: "b", text: "Gas–liquid chromatography (GLC)" },
               { id: "c", text: "Filtration" },
               { id: "d", text: "Simple distillation of a single compound" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [

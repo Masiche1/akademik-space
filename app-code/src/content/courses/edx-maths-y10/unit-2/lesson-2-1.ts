@@ -53,12 +53,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$x^2+8x+15$" },
-              { id: "b", text: "$x^2+15$" },
-              { id: "c", text: "$x^2+8x+8$" },
-              { id: "d", text: "$x^2+15x+8$" },
+              { id: "a", text: "$x^2+15$" },
+              { id: "b", text: "$x^2+8x+15$" },
+              { id: "c", text: "$x^2+15x+8$" },
+              { id: "d", text: "$x^2+8x+8$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -185,12 +185,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$x-3$" },
+              { id: "a", text: "$x+3$" },
               { id: "b", text: "$x-9$" },
-              { id: "c", text: "$x^2-3$" },
-              { id: "d", text: "$x+3$" },
+              { id: "c", text: "$x-3$" },
+              { id: "d", text: "$x^2-3$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

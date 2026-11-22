@@ -170,9 +170,9 @@ export const lesson73: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "It converges to $24$." },
-              { id: "b", text: "It converges to $18$." },
-              { id: "c", text: "It diverges because the terms are positive." },
-              { id: "d", text: "It diverges because its common ratio is $2$." },
+              { id: "b", text: "It diverges because the terms are positive." },
+              { id: "c", text: "It diverges because its common ratio is $2$." },
+              { id: "d", text: "It converges to $18$." },
             ],
             correctChoiceId: "a",
           },

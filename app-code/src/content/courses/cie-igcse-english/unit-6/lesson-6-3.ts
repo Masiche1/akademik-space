@@ -47,7 +47,10 @@ export const lesson63: Lesson = {
           },
           stem: "What mood does this passage create?",
           response: { type: "mcq", choices: [
-            { id: "a", text: "Joyful" }, { id: "b", text: "Ominous and tense" }, { id: "c", text: "Calm" }, { id: "d", text: "Excited" },
+            { id: "a", text: "Excited" },
+            { id: "b", text: "Ominous and tense" },
+            { id: "c", text: "Joyful" },
+            { id: "d", text: "Calm" },
           ], correctChoiceId: "b" },
           markscheme: {
             principles: [{ kind: "technique", name: "Mood", statement: "Silence + shadows = tension." }],
@@ -120,6 +123,274 @@ export const lesson63: Lesson = {
             finalAnswer: "Choice + trembling hand = suspense",
           },
         },
+        {
+          id: "ciege-u6-s3-co-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          extract: {
+            title: "The Old Lighthouse",
+            author: "Written for Akademik Space",
+            text: "The lighthouse stood alone on the cliff, its white tower gleaming in the afternoon sun. Waves crashed against the rocks far below.",
+          },
+          stem: "Where is the lighthouse located?",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "In a forest" },
+            { id: "b", text: "On a beach" },
+            { id: "c", text: "On a cliff" },
+            { id: "d", text: "In a town" },
+          ], correctChoiceId: "c" },
+          markscheme: {
+            principles: [{ kind: "skill", name: "Literal comprehension", statement: "Find detail in text." }],
+            steps: [
+              { reasoning: "The text says the lighthouse stood on the cliff.", marks: 1, markCode: "AO2" },
+            ],
+            finalAnswer: "On a cliff",
+          },
+        },
+        {
+          id: "ciege-u6-s3-co-q6",
+          difficulty: "foundation",
+          totalMarks: 2,
+          extract: {
+            title: "The Old Lighthouse",
+            author: "Written for Akademik Space",
+            text: "The lighthouse stood alone on the cliff, its white tower gleaming in the afternoon sun. Waves crashed against the rocks far below.",
+          },
+          stem: "Identify one technique used and its effect.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [{ kind: "technique", name: "Technique identification", statement: "Name + effect." }],
+            steps: [
+              { reasoning: "Personification: 'waves crashed' gives the sea power; or visual imagery 'white tower gleaming'.", marks: 1, markCode: "AO3" },
+              { reasoning: "Creates a dramatic, powerful atmosphere.", marks: 1, markCode: "AO2" },
+            ],
+            finalAnswer: "Personification or visual imagery",
+          },
+        },
+        {
+          id: "ciege-u6-s3-co-q7",
+          difficulty: "core",
+          totalMarks: 1,
+          extract: {
+            title: "The Letter",
+            author: "Written for Akademik Space",
+            text: "Maya read the letter twice. Her hands were shaking as she folded it carefully and put it back in the envelope.",
+          },
+          stem: "What can you infer about Maya's feelings?",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "She is excited and happy" },
+            { id: "b", text: "She is bored" },
+            { id: "c", text: "She is nervous and emotional" },
+            { id: "d", text: "She is angry" },
+          ], correctChoiceId: "c" },
+          markscheme: {
+            principles: [{ kind: "technique", name: "Inference", statement: "Use clues, not just literal text." }],
+            steps: [
+              { reasoning: "Shaking hands suggest nervousness or strong emotion.", marks: 1, markCode: "AO3" },
+            ],
+            finalAnswer: "Nervous and emotional",
+          },
+        },
+        {
+          id: "ciege-u6-s3-co-q8",
+          difficulty: "core",
+          totalMarks: 3,
+          extract: {
+            title: "The Letter",
+            author: "Written for Akademik Space",
+            text: "Maya read the letter twice. Her hands were shaking as she folded it carefully and put it back in the envelope.",
+          },
+          stem: "How does the writer show Maya's emotional state?",
+          response: { type: "open" },
+          markscheme: {
+            principles: [{ kind: "technique", name: "Characterisation", statement: "Physical detail shows emotion." }],
+            steps: [
+              { reasoning: "'Read the letter twice' shows she is processing its importance.", marks: 1, markCode: "AO3" },
+              { reasoning: "'Hands were shaking' is a physical sign of strong emotion.", marks: 1, markCode: "AO3" },
+              { reasoning: "'Folded it carefully' suggests she wants to preserve it — the letter matters to her.", marks: 1, markCode: "AO2" },
+            ],
+            finalAnswer: "Shaking hands + careful folding",
+          },
+        },
+        {
+          id: "ciege-u6-s3-co-q9",
+          difficulty: "foundation",
+          totalMarks: 1,
+          extract: {
+            title: "The City at Dawn",
+            author: "Written for Akademik Space",
+            text: "As the sun rose, the city slowly came to life. Streets filled with commuters, shops opened their doors, and the smell of fresh bread drifted from the bakery.",
+          },
+          stem: "What does the word 'commuters' mean in this passage?",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "Shopkeepers" },
+            { id: "b", text: "Police officers" },
+            { id: "c", text: "Tourists on holiday" },
+            { id: "d", text: "People travelling to and from work" },
+          ], correctChoiceId: "d" },
+          markscheme: {
+            principles: [{ kind: "skill", name: "Vocabulary in context", statement: "Infer meaning from context." }],
+            steps: [
+              { reasoning: "'Commuters' are people who travel regularly to work; 'streets filled' at dawn supports this.", marks: 1, markCode: "AO2" },
+            ],
+            finalAnswer: "People travelling to and from work",
+          },
+        },
+        {
+          id: "ciege-u6-s3-co-q10",
+          difficulty: "core",
+          totalMarks: 3,
+          extract: {
+            title: "The Storm",
+            author: "Written for Akademik Space",
+            text: "The wind howled through the streets. Rain hammered against the windows. Lightning split the sky, and thunder rolled across the valley.",
+          },
+          stem: "Analyse how the writer creates a sense of danger.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [{ kind: "technique", name: "Danger and atmosphere", statement: "Sensory language + short sentences." }],
+            steps: [
+              { reasoning: "Verbs like 'howled', 'hammered', 'split', 'rolled' give the storm violent force.", marks: 1, markCode: "AO3" },
+              { reasoning: "Short sentences create a fast, threatening pace.", marks: 1, markCode: "AO3" },
+              { reasoning: "Overall effect: the storm feels powerful and dangerous to the reader.", marks: 1, markCode: "AO2" },
+            ],
+            finalAnswer: "Violent verbs + short sentences",
+          },
+        },
+        {
+          id: "ciege-u6-s3-co-q11",
+          difficulty: "core",
+          totalMarks: 1,
+          extract: {
+            title: "The Garden",
+            author: "Written for Akademik Space",
+            text: "Sunlight filtered through the leaves, casting golden patterns on the grass. Birds sang softly, and a gentle breeze moved through the flowers.",
+          },
+          stem: "What mood does this passage create?",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "Sad" },
+            { id: "b", text: "Angry" },
+            { id: "c", text: "Peaceful and warm" },
+            { id: "d", text: "Fearful" },
+          ], correctChoiceId: "c" },
+          markscheme: {
+            principles: [{ kind: "technique", name: "Mood", statement: "Warm imagery = calm mood." }],
+            steps: [
+              { reasoning: "Golden light, soft birdsong and gentle breeze create a peaceful mood.", marks: 1, markCode: "AO2" },
+            ],
+            finalAnswer: "Peaceful and warm",
+          },
+        },
+        {
+          id: "ciege-u6-s3-co-q12",
+          difficulty: "challenge",
+          totalMarks: 4,
+          extract: {
+            title: "The Journey Home",
+            author: "Written for Akademik Space",
+            text: "The train pulled out of the station slowly. Outside, the city gave way to fields, then to dark forests. Daniel pressed his forehead against the cold window and watched the miles roll past.",
+          },
+          stem: "Analyse how the writer uses the journey to reflect Daniel's feelings.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [{ kind: "technique", name: "Symbolism and mood", statement: "Setting mirrors emotion." }],
+            steps: [
+              { reasoning: "The changing landscape (city to fields to dark forests) mirrors Daniel's emotional journey.", marks: 1, markCode: "AO3" },
+              { reasoning: "'Dark forests' suggest uncertainty or sadness as he leaves.", marks: 1, markCode: "AO2" },
+              { reasoning: "'Pressed his forehead against the cold window' is a physical detail showing longing or loneliness.", marks: 1, markCode: "AO3" },
+              { reasoning: "Overall effect: the journey externalises Daniel's feelings about leaving.", marks: 1, markCode: "AO2" },
+            ],
+            finalAnswer: "Landscape mirrors emotion",
+          },
+        },
+        {
+          id: "ciege-u6-s3-co-q13",
+          difficulty: "foundation",
+          totalMarks: 2,
+          extract: {
+            title: "The Market",
+            author: "Written for Akademik Space",
+            text: "The market was crowded with stalls selling fruit, vegetables, spices and cloth. Traders called out their prices, and shoppers bargained over every purchase.",
+          },
+          stem: "List two things being sold at the market.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [{ kind: "skill", name: "Literal comprehension", statement: "Find detail in text." }],
+            steps: [
+              { reasoning: "Any two of: fruit, vegetables, spices, cloth.", marks: 1, markCode: "AO2" },
+              { reasoning: "Both items are taken from the passage.", marks: 1, markCode: "AO2" },
+            ],
+            finalAnswer: "Two items from the list",
+          },
+        },
+        {
+          id: "ciege-u6-s3-co-q14",
+          difficulty: "challenge",
+          totalMarks: 4,
+          extract: {
+            title: "The Lighthouse Keeper",
+            author: "Written for Akademik Space",
+            text: "Every evening, Tomas climbed the spiral stairs to light the lamp. For thirty years he had kept the light burning, guiding ships safely past the rocks. Tonight, the lamp flickered once — then held steady.",
+          },
+          stem: "Analyse how the writer presents Tomas's dedication.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [{ kind: "technique", name: "Characterisation", statement: "Routine + time detail." }],
+            steps: [
+              { reasoning: "'Every evening' and 'climbed the spiral stairs' show a strict, unbroken routine.", marks: 1, markCode: "AO3" },
+              { reasoning: "'For thirty years' emphasises the length of his commitment.", marks: 1, markCode: "AO2" },
+              { reasoning: "'Guiding ships safely past the rocks' shows his work saves lives — purpose.", marks: 1, markCode: "AO2" },
+              { reasoning: "The flicker at the end adds tension about whether he can continue.", marks: 1, markCode: "AO3" },
+            ],
+            finalAnswer: "Routine + thirty years = dedication",
+          },
+        },
+        {
+          id: "ciege-u6-s3-co-q15",
+          difficulty: "core",
+          totalMarks: 1,
+          extract: {
+            title: "The Chase",
+            author: "Written for Akademik Space",
+            text: "He ran. Faster. The footsteps behind him grew louder. He turned the corner and skidded to a halt — a dead end.",
+          },
+          stem: "How does sentence length affect the pace of this passage?",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "Short sentences speed up the pace" },
+            { id: "b", text: "Long sentences slow the pace" },
+            { id: "c", text: "Sentence length has no effect" },
+            { id: "d", text: "It makes the passage confusing" },
+          ], correctChoiceId: "a" },
+          markscheme: {
+            principles: [{ kind: "technique", name: "Pace", statement: "Short sentences = fast pace." }],
+            steps: [
+              { reasoning: "Very short sentences create urgency and speed, matching the chase.", marks: 1, markCode: "AO3" },
+            ],
+            finalAnswer: "Short sentences speed up the pace",
+          },
+        },
+        {
+          id: "ciege-u6-s3-co-q16",
+          difficulty: "challenge",
+          totalMarks: 4,
+          extract: {
+            title: "Empty House",
+            author: "Written for Akademik Space",
+            text: "The house had been empty for years. Dust covered the furniture, and cobwebs hung in the corners. Yet as Elif pushed open the gate, she felt something stir — as if the house had been waiting for her.",
+          },
+          stem: "Analyse how the writer builds mystery at the end of the extract.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [{ kind: "technique", name: "Mystery", statement: "Decay detail + personification." }],
+            steps: [
+              { reasoning: "'Dust' and 'cobwebs' establish the house as neglected and unknown.", marks: 1, markCode: "AO3" },
+              { reasoning: "The dash creates a pause that builds suspense before the reveal.", marks: 1, markCode: "AO3" },
+              { reasoning: "Personification — 'as if the house had been waiting' — makes the house seem alive.", marks: 1, markCode: "AO2" },
+              { reasoning: "Overall effect: the reader is left wondering what the house holds.", marks: 1, markCode: "AO2" },
+            ],
+            finalAnswer: "Personification + suspense",
+          },
+        },
       ],
     },
     {
@@ -150,7 +421,10 @@ export const lesson63: Lesson = {
           totalMarks: 1,
           stem: "Which text type would you use for a complaint letter?",
           response: { type: "mcq", choices: [
-            { id: "a", text: "Narrative" }, { id: "b", text: "Formal letter" }, { id: "c", text: "Poem" }, { id: "d", text: "Speech" },
+            { id: "a", text: "Poem" },
+            { id: "b", text: "Formal letter" },
+            { id: "c", text: "Speech" },
+            { id: "d", text: "Narrative" },
           ], correctChoiceId: "b" },
           markscheme: {
             principles: [{ kind: "definition", name: "Text type", statement: "Match form to purpose." }],
@@ -206,6 +480,210 @@ export const lesson63: Lesson = {
               { reasoning: "Punctuation accurate.", marks: 1, markCode: "AO2" },
             ],
             finalAnswer: "Intro + paragraph argument",
+          },
+        },
+        {
+          id: "ciege-u6-s3-wr-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Which text type would you use for a newspaper report?",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "A personal narrative" },
+            { id: "b", text: "A formal letter" },
+            { id: "c", text: "A report" },
+            { id: "d", text: "A poem" },
+          ], correctChoiceId: "c" },
+          markscheme: {
+            principles: [{ kind: "definition", name: "Text type", statement: "Match form to purpose." }],
+            steps: [
+              { reasoning: "Newspaper reports use report format with facts and quotes.", marks: 1, markCode: "AO2" },
+            ],
+            finalAnswer: "A report",
+          },
+        },
+        {
+          id: "ciege-u6-s3-wr-q6",
+          difficulty: "foundation",
+          totalMarks: 2,
+          stem: "Write a topic sentence for a descriptive piece about the sea.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [{ kind: "skill", name: "Opening sentence", statement: "Hook + imagery." }],
+            steps: [
+              { reasoning: "The sentence introduces the sea with descriptive language.", marks: 1, markCode: "AO2" },
+              { reasoning: "It creates interest or mood.", marks: 1, markCode: "AO2" },
+            ],
+            finalAnswer: "One descriptive topic sentence",
+          },
+        },
+        {
+          id: "ciege-u6-s3-wr-q7",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Which text type presents several viewpoints on an issue?",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "Descriptive" },
+            { id: "b", text: "Discursive" },
+            { id: "c", text: "Instructions" },
+            { id: "d", text: "Narrative" },
+          ], correctChoiceId: "b" },
+          markscheme: {
+            principles: [{ kind: "definition", name: "Text type", statement: "Discursive = multiple views." }],
+            steps: [
+              { reasoning: "Discursive writing explores both or several sides of an issue.", marks: 1, markCode: "AO2" },
+            ],
+            finalAnswer: "Discursive",
+          },
+        },
+        {
+          id: "ciege-u6-s3-wr-q8",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "Write a short formal letter opening (2-3 sentences) requesting information about a course.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [{ kind: "skill", name: "Formal letter", statement: "Purpose stated politely." }],
+            steps: [
+              { reasoning: "Formal greeting included.", marks: 1, markCode: "AO2" },
+              { reasoning: "Purpose stated clearly and politely.", marks: 1, markCode: "AO2" },
+              { reasoning: "Register is formal; punctuation accurate.", marks: 1, markCode: "AO2" },
+            ],
+            finalAnswer: "Formal letter opening",
+          },
+        },
+        {
+          id: "ciege-u6-s3-wr-q9",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "What is the main purpose of a persuasive/argumentative text?",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "To convince the reader of one viewpoint" },
+            { id: "b", text: "To list instructions" },
+            { id: "c", text: "To tell a story" },
+            { id: "d", text: "To describe a scene" },
+          ], correctChoiceId: "a" },
+          markscheme: {
+            principles: [{ kind: "definition", name: "Argumentative writing", statement: "Persuade the reader." }],
+            steps: [
+              { reasoning: "Argumentative writing presents one side strongly to persuade.", marks: 1, markCode: "AO2" },
+            ],
+            finalAnswer: "To convince the reader",
+          },
+        },
+        {
+          id: "ciege-u6-s3-wr-q10",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "Explain the difference between narrative and descriptive writing.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [{ kind: "definition", name: "Text types", statement: "Story vs sensory detail." }],
+            steps: [
+              { reasoning: "Narrative tells a story with character and plot.", marks: 1, markCode: "AO2" },
+              { reasoning: "Descriptive focuses on sensory detail of a person, place or thing.", marks: 1, markCode: "AO2" },
+            ],
+            finalAnswer: "Narrative = story; descriptive = sensory detail",
+          },
+        },
+        {
+          id: "ciege-u6-s3-wr-q11",
+          difficulty: "challenge",
+          totalMarks: 1,
+          stem: "A prompt says: 'Write a review of a restaurant you visited.' Which text type fits best?",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "A review" },
+            { id: "b", text: "A formal complaint" },
+            { id: "c", text: "An instruction manual" },
+            { id: "d", text: "A discursive essay" },
+          ], correctChoiceId: "a" },
+          markscheme: {
+            principles: [{ kind: "technique", name: "Prompt fidelity", statement: "Match the named format." }],
+            steps: [
+              { reasoning: "The prompt names 'review', so write a review with opinion and evidence.", marks: 1, markCode: "AO2" },
+            ],
+            finalAnswer: "A review",
+          },
+        },
+        {
+          id: "ciege-u6-s3-wr-q12",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "Write a paragraph giving your opinion on whether homework should be abolished, including one reason.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [{ kind: "skill", name: "Opinion paragraph", statement: "View + reason." }],
+            steps: [
+              { reasoning: "A clear opinion is stated.", marks: 1, markCode: "AO2" },
+              { reasoning: "At least one supporting reason is given.", marks: 1, markCode: "AO2" },
+              { reasoning: "Punctuation and spelling accurate.", marks: 1, markCode: "AO2" },
+            ],
+            finalAnswer: "Opinion paragraph with reason",
+          },
+        },
+        {
+          id: "ciege-u6-s3-wr-q13",
+          difficulty: "foundation",
+          totalMarks: 2,
+          stem: "What makes a good story opening?",
+          response: { type: "open" },
+          markscheme: {
+            principles: [{ kind: "skill", name: "Narrative technique", statement: "Hook the reader." }],
+            steps: [
+              { reasoning: "It grabs attention quickly (action, dialogue, intrigue).", marks: 1, markCode: "AO2" },
+              { reasoning: "It introduces character, setting or conflict.", marks: 1, markCode: "AO2" },
+            ],
+            finalAnswer: "Attention-grabbing opening",
+          },
+        },
+        {
+          id: "ciege-u6-s3-wr-q14",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "Write two sentences of dialogue between two friends planning a surprise party.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [{ kind: "skill", name: "Dialogue", statement: "Speech marks + natural voice." }],
+            steps: [
+              { reasoning: "Correct punctuation for direct speech used.", marks: 1, markCode: "AO2" },
+              { reasoning: "Dialogue is natural and advances the plan.", marks: 1, markCode: "AO2" },
+            ],
+            finalAnswer: "Two lines of punctuated dialogue",
+          },
+        },
+        {
+          id: "ciege-u6-s3-wr-q15",
+          difficulty: "challenge",
+          totalMarks: 1,
+          stem: "Which is the most effective way to start an argumentative essay?",
+          response: { type: "mcq", choices: [
+            { id: "a", text: "Use only questions" },
+            { id: "b", text: "Tell an unrelated story" },
+            { id: "c", text: "List every possible viewpoint" },
+            { id: "d", text: "State your position clearly" },
+          ], correctChoiceId: "d" },
+          markscheme: {
+            principles: [{ kind: "technique", name: "Argument structure", statement: "Thesis first." }],
+            steps: [
+              { reasoning: "A strong argument opens with a clear thesis statement.", marks: 1, markCode: "AO2" },
+            ],
+            finalAnswer: "State your position clearly",
+          },
+        },
+        {
+          id: "ciege-u6-s3-wr-q16",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "Write a short speech (opening + two sentences) encouraging students to join the school debating team.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [{ kind: "skill", name: "Speech writing", statement: "Greeting + persuasive content." }],
+            steps: [
+              { reasoning: "Appropriate greeting used (e.g. 'Good morning everyone').", marks: 1, markCode: "AO2" },
+              { reasoning: "Content is persuasive and relevant to debating.", marks: 1, markCode: "AO2" },
+              { reasoning: "Register suits a speech to students.", marks: 1, markCode: "AO2" },
+              { reasoning: "Punctuation and spelling accurate.", marks: 1, markCode: "AO2" },
+            ],
+            finalAnswer: "Speech opening + persuasive sentences",
           },
         },
       ],

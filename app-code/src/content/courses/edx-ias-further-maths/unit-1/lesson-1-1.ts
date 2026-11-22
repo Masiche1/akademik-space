@@ -51,12 +51,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$5$" },
+              { id: "a", text: "$25$" },
               { id: "b", text: "$7$" },
-              { id: "c", text: "$\\sqrt7$" },
-              { id: "d", text: "$25$" },
+              { id: "c", text: "$5$" },
+              { id: "d", text: "$\\sqrt7$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "formula", name: "Modulus", statement: "$|z|=\\sqrt{x^2+y^2}$." }],
@@ -175,12 +175,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$3$" },
-              { id: "b", text: "$1$" },
+              { id: "a", text: "$6$" },
+              { id: "b", text: "$3$" },
               { id: "c", text: "$2$" },
-              { id: "d", text: "$6$" },
+              { id: "d", text: "$1$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "theorem", name: "nth roots", statement: "$z^n=w$ has exactly $n$ distinct roots." }],

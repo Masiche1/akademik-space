@@ -57,8 +57,8 @@ export const lesson31: Lesson = {
             choices: [
               { id: "a", text: "$540^\\circ$" },
               { id: "b", text: "$720^\\circ$" },
-              { id: "c", text: "$900^\\circ$" },
-              { id: "d", text: "$360^\\circ$" },
+              { id: "c", text: "$360^\\circ$" },
+              { id: "d", text: "$900^\\circ$" },
             ],
             correctChoiceId: "b",
           },
@@ -188,12 +188,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$17.5^\\circ$" },
-              { id: "b", text: "$35^\\circ$" },
-              { id: "c", text: "$70^\\circ$" },
-              { id: "d", text: "$145^\\circ$" },
+              { id: "a", text: "$70^\\circ$" },
+              { id: "b", text: "$17.5^\\circ$" },
+              { id: "c", text: "$145^\\circ$" },
+              { id: "d", text: "$35^\\circ$" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "theorem", name: "Angle at the centre", statement: "The angle at the centre is twice the angle at the circumference on the same arc." }],

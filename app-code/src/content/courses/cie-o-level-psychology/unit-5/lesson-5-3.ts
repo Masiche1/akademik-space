@@ -66,12 +66,12 @@ export const lesson53: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Consistency of results" },
-              { id: "b", text: "Accuracy of measurement" },
-              { id: "c", text: "Cultural fairness" },
-              { id: "d", text: "Test difficulty" },
+              { id: "a", text: "Test difficulty" },
+              { id: "b", text: "Consistency of results" },
+              { id: "c", text: "Accuracy of measurement" },
+              { id: "d", text: "Cultural fairness" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -232,6 +232,365 @@ export const lesson53: Lesson = {
               },
             ],
             finalAnswer: "(a) reliability (b) validity (c) biases (d) ethics",
+          },
+        },
+        {
+          id: "olep-u5-mm-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Test-retest reliability is assessed by...",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "checking whether scores predict exam results" },
+              { id: "b", text: "asking experts if the test looks right" },
+              { id: "c", text: "giving the test once to a large sample" },
+              { id: "d", text: "giving the same test twice and comparing the scores" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Test-retest reliability",
+                statement: "Consistency of scores over time.",
+              },
+            ],
+            steps: [{ reasoning: "Same test administered twice.", marks: 1, markCode: "AO1" }],
+            finalAnswer: "**(b)** giving the same test twice and comparing the scores",
+            commonErrors: ["Confusing with validity checks."],
+          },
+        },
+        {
+          id: "olep-u5-mm-q6",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Criterion validity refers to whether a test...",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "is easy to score" },
+              { id: "b", text: "gives consistent scores" },
+              { id: "c", text: "looks appropriate to test-takers" },
+              { id: "d", text: "predicts real-world outcomes or behaviours" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Criterion validity",
+                statement: "Predicts real-world criteria.",
+              },
+            ],
+            steps: [{ reasoning: "Criterion = external outcome.", marks: 1, markCode: "AO1" }],
+            finalAnswer: "**(b)** predicts real-world outcomes or behaviours",
+            commonErrors: ["Confusing with face validity."],
+          },
+        },
+        {
+          id: "olep-u5-mm-q7",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "How many types of validity are named in the lesson (face, criterion, construct)?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 3 }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Validity types",
+                statement: "Face, criterion, construct.",
+              },
+            ],
+            steps: [{ reasoning: "Three types named.", marks: 1, markCode: "AO1" }],
+            finalAnswer: "3",
+            commonErrors: ["Omitting one type."],
+          },
+        },
+        {
+          id: "olep-u5-mm-q8",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "State (a) the number of types of validity and (b) the number of types of reliability named in the lesson.",
+          response: {
+            type: "numeric",
+            parts: [
+              { label: "a", answer: 3 },
+              { label: "b", answer: 2 },
+            ],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Test qualities",
+                statement: "Validity: 3 types; reliability: 2 types.",
+              },
+            ],
+            steps: [
+              { reasoning: "Face, criterion, construct = 3.", marks: 1, markCode: "AO1" },
+              { reasoning: "Test-retest, inter-rater = 2.", marks: 1, markCode: "AO1" },
+            ],
+            finalAnswer: "(a) 3 (b) 2",
+            commonErrors: ["Swapping the two counts."],
+          },
+        },
+        {
+          id: "olep-u5-mm-q9",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "Inter-rater reliability concerns...",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "whether the test predicts exam success" },
+              { id: "b", text: "whether different scorers agree on the same responses" },
+              { id: "c", text: "whether the same person scores consistently over time" },
+              { id: "d", text: "whether the questions are culturally fair" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Inter-rater reliability",
+                statement: "Agreement between different scorers.",
+              },
+            ],
+            steps: [
+              { reasoning: "Inter-rater = between raters.", marks: 1, markCode: "AO1" },
+              { reasoning: "Used for subjective tests like projectives.", marks: 1, markCode: "AO2" },
+            ],
+            finalAnswer: "**(b)** whether different scorers agree on the same responses",
+            commonErrors: ["Confusing with test-retest reliability."],
+          },
+        },
+        {
+          id: "olep-u5-mm-q10",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "State (a) the number of types of validity and (b) the number of bias types named in the lesson (cultural, self-report, social desirability, stereotype threat).",
+          response: {
+            type: "numeric",
+            parts: [
+              { label: "a", answer: 3 },
+              { label: "b", answer: 4 },
+            ],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Measurement counts",
+                statement: "Validity 3; bias types 4.",
+              },
+            ],
+            steps: [
+              { reasoning: "Three validity types.", marks: 1, markCode: "AO1" },
+              { reasoning: "Four bias types listed.", marks: 1, markCode: "AO1" },
+            ],
+            finalAnswer: "(a) 3 (b) 4",
+            commonErrors: ["Missing one bias type."],
+          },
+        },
+        {
+          id: "olep-u5-mm-q11",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "Standardisation of a psychological test requires...",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "letting each examiner score freely" },
+              { id: "b", text: "changing questions between sittings" },
+              { id: "c", text: "different instructions for different groups" },
+              { id: "d", text: "the same instructions, conditions and scoring for all test-takers" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Standardisation",
+                statement: "Consistent administration and scoring.",
+              },
+            ],
+            steps: [
+              { reasoning: "Same conditions for everyone.", marks: 1, markCode: "AO1" },
+              { reasoning: "Allows fair comparison via norms.", marks: 1, markCode: "AO2" },
+            ],
+            finalAnswer: "**(b)** the same instructions, conditions and scoring for all test-takers",
+            commonErrors: ["Confusing with reliability."],
+          },
+        },
+        {
+          id: "olep-u5-mm-q12",
+          difficulty: "challenge",
+          totalMarks: 3,
+          stem: "Give the number of (a) types of validity, (b) types of reliability, and (c) bias types named in the lesson.",
+          response: {
+            type: "numeric",
+            parts: [
+              { label: "a", answer: 3 },
+              { label: "b", answer: 2 },
+              { label: "c", answer: 4 },
+            ],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Measurement counts",
+                statement: "Validity 3; reliability 2; biases 4.",
+              },
+            ],
+            steps: [
+              { reasoning: "Face, criterion, construct.", marks: 1, markCode: "AO1" },
+              { reasoning: "Test-retest, inter-rater.", marks: 1, markCode: "AO1" },
+              { reasoning: "Cultural, self-report, social desirability, stereotype threat.", marks: 1, markCode: "AO1" },
+            ],
+            finalAnswer: "(a) 3 (b) 2 (c) 4",
+            commonErrors: ["Mixing up the categories."],
+          },
+        },
+        {
+          id: "olep-u5-mm-q13",
+          difficulty: "challenge",
+          totalMarks: 2,
+          stem: "A self-fulfilling prophecy in psychological testing occurs when...",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "scores are compared to cultural norms" },
+              { id: "b", text: "low expectations cause the person to perform worse, confirming the label" },
+              { id: "c", text: "test scores accurately predict performance" },
+              { id: "d", text: "the test is given twice" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Self-fulfilling prophecy",
+                statement: "Expectations shape performance.",
+              },
+            ],
+            steps: [
+              { reasoning: "Labels/expectations affect behaviour.", marks: 1, markCode: "AO1" },
+              { reasoning: "Performance then confirms the expectation.", marks: 1, markCode: "AO2" },
+            ],
+            finalAnswer: "**(b)** low expectations cause the person to perform worse, confirming the label",
+            commonErrors: ["Confusing with stereotype threat mechanics."],
+          },
+        },
+        {
+          id: "olep-u5-mm-q14",
+          difficulty: "challenge",
+          totalMarks: 3,
+          stem: "Give the number of (a) types of validity, (b) ethical requirements named (informed consent, confidentiality), and (c) bias types.",
+          response: {
+            type: "numeric",
+            parts: [
+              { label: "a", answer: 3 },
+              { label: "b", answer: 2 },
+              { label: "c", answer: 4 },
+            ],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Counts",
+                statement: "Validity 3; ethics 2; biases 4.",
+              },
+            ],
+            steps: [
+              { reasoning: "Three validity types.", marks: 1, markCode: "AO1" },
+              { reasoning: "Informed consent and confidentiality.", marks: 1, markCode: "AO1" },
+              { reasoning: "Four bias types.", marks: 1, markCode: "AO1" },
+            ],
+            finalAnswer: "(a) 3 (b) 2 (c) 4",
+            commonErrors: ["Forgetting confidentiality as an ethical requirement."],
+          },
+        },
+        {
+          id: "olep-u5-mm-q15",
+          difficulty: "challenge",
+          totalMarks: 2,
+          stem: "An IQ test may have limited construct validity for the concept of 'intelligence' because...",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "it may only measure general cognitive ability, not all forms of intelligence" },
+              { id: "b", text: "it is free from cultural bias" },
+              { id: "c", text: "it is too easy to administer" },
+              { id: "d", text: "it is unreliable over time" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Construct validity",
+                statement: "Test should measure the whole construct.",
+              },
+            ],
+            steps: [
+              { reasoning: "IQ tests target general ability (g).", marks: 1, markCode: "AO1" },
+              { reasoning: "Intelligence is broader (e.g., MI).", marks: 1, markCode: "AO2" },
+            ],
+            finalAnswer: "**(b)** it may only measure general cognitive ability, not all forms of intelligence",
+            commonErrors: ["Confusing validity with reliability."],
+          },
+        },
+        {
+          id: "olep-u5-mm-q16",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "Evaluate the ethics of using personality tests in employment selection.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "principle",
+                name: "Testing ethics",
+                statement: "Usefulness vs labelling and consent issues.",
+              },
+            ],
+            steps: [
+              {
+                reasoning: "Tests may predict job performance.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                reasoning: "Risks: labelling, self-fulfilling prophecy, bias.",
+                marks: 1,
+                markCode: "AO1",
+              },
+              {
+                reasoning: "Informed consent/confidentiality required.",
+                marks: 1,
+                markCode: "AO2",
+              },
+              {
+                reasoning: "Weighed judgement — use with caution.",
+                marks: 1,
+                markCode: "AO3",
+              },
+            ],
+            finalAnswer:
+              "Personality tests can aid selection but risk labelling, self-fulfilling prophecy and cultural bias; ethical use requires informed consent, confidentiality and awareness of test limitations.",
+            commonErrors: ["One-sided evaluation."],
           },
         },
       ],

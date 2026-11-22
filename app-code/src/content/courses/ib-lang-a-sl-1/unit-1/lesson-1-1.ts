@@ -53,11 +53,11 @@ export const lesson11: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "First person limited" },
-              { id: "b", text: "Second person" },
-              { id: "c", text: "Third person omniscient" },
+              { id: "b", text: "Third person omniscient" },
+              { id: "c", text: "Second person" },
               { id: "d", text: "Stream of consciousness" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -152,12 +152,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It must be narrated in the first person" },
-              { id: "b", text: "It compresses a complete narrative arc into a single concentrated form" },
-              { id: "c", text: "It contains no dialogue or description" },
+              { id: "a", text: "It compresses a complete narrative arc into a single concentrated form" },
+              { id: "b", text: "It contains no dialogue or description" },
+              { id: "c", text: "It must be narrated in the first person" },
               { id: "d", text: "It always resolves happily" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -179,10 +179,10 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "a detached, documentary tone" },
+              { id: "a", text: "omniscient authority over what happens" },
               { id: "b", text: "immersion by casting the reader as a participant in events" },
-              { id: "c", text: "omniscient authority over what happens" },
-              { id: "d", text: "a reliable eyewitness account" },
+              { id: "c", text: "a reliable eyewitness account" },
+              { id: "d", text: "a detached, documentary tone" },
             ],
             correctChoiceId: "b",
           },
@@ -207,11 +207,11 @@ export const lesson11: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "It simplifies the plot for younger readers." },
-              { id: "b", text: "It withholds the cause until the end, forcing the reader to reinterpret earlier scenes as consequences." },
-              { id: "c", text: "It imitates the editing style of film." },
-              { id: "d", text: "It signals that the narrator cannot be trusted." },
+              { id: "b", text: "It signals that the narrator cannot be trusted." },
+              { id: "c", text: "It withholds the cause until the end, forcing the reader to reinterpret earlier scenes as consequences." },
+              { id: "d", text: "It imitates the editing style of film." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -240,12 +240,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Comic exaggeration through hyperbole." },
-              { id: "b", text: "A flat, matter-of-fact tone that renders the uncanny details unsettlingly ordinary." },
-              { id: "c", text: "A formal, ceremonial atmosphere." },
-              { id: "d", text: "A confessional, intimate tone." },
+              { id: "a", text: "A flat, matter-of-fact tone that renders the uncanny details unsettlingly ordinary." },
+              { id: "b", text: "A formal, ceremonial atmosphere." },
+              { id: "c", text: "A confessional, intimate tone." },
+              { id: "d", text: "Comic exaggeration through hyperbole." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -274,12 +274,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The dialogue tag 'I said'." },
-              { id: "b", text: "The gap between the narrator's claim ('not angry') and the physical evidence of shaking hands." },
-              { id: "c", text: "The chipped cup on the table." },
-              { id: "d", text: "The use of the first person." },
+              { id: "a", text: "The gap between the narrator's claim ('not angry') and the physical evidence of shaking hands." },
+              { id: "b", text: "The chipped cup on the table." },
+              { id: "c", text: "The use of the first person." },
+              { id: "d", text: "The dialogue tag 'I said'." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -351,11 +351,11 @@ export const lesson11: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "eliminates the need for a plot" },
-              { id: "b", text: "distances the inner story so the reader judges both teller and tale" },
-              { id: "c", text: "guarantees that the inner story is true" },
-              { id: "d", text: "forces the events into strict chronological order" },
+              { id: "b", text: "guarantees that the inner story is true" },
+              { id: "c", text: "forces the events into strict chronological order" },
+              { id: "d", text: "distances the inner story so the reader judges both teller and tale" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -534,11 +534,11 @@ export const lesson11: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Stanzas" },
-              { id: "b", text: "Stage directions" },
+              { id: "b", text: "First-person narration" },
               { id: "c", text: "Rhyme scheme" },
-              { id: "d", text: "First-person narration" },
+              { id: "d", text: "Stage directions" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -643,8 +643,8 @@ export const lesson11: Lesson = {
             choices: [
               { id: "a", text: "any poem of fourteen lines" },
               { id: "b", text: "a poem of fourteen lines in a fixed rhyme and meter pattern" },
-              { id: "c", text: "a poem that always contains a volta" },
-              { id: "d", text: "a dramatic monologue in verse" },
+              { id: "c", text: "a dramatic monologue in verse" },
+              { id: "d", text: "a poem that always contains a volta" },
             ],
             correctChoiceId: "b",
           },
@@ -668,12 +668,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "strict iambic pentameter" },
+              { id: "a", text: "the deliberate abandonment of regular meter and rhyme" },
               { id: "b", text: "a fixed rhyme scheme" },
-              { id: "c", text: "identical-length stanzas" },
-              { id: "d", text: "the deliberate abandonment of regular meter and rhyme" },
+              { id: "c", text: "strict iambic pentameter" },
+              { id: "d", text: "identical-length stanzas" },
             ],
-            correctChoiceId: "d",
+            correctChoiceIa: "d",
           },
           markscheme: {
             principles: [
@@ -695,10 +695,10 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "the title of the poem" },
+              { id: "a", text: "the first line's refrain" },
               { id: "b", text: "a shift in tone or argument, often at the ninth line or in the final couplet" },
-              { id: "c", text: "the first line's refrain" },
-              { id: "d", text: "the poet's signature" },
+              { id: "c", text: "the poet's signature" },
+              { id: "d", text: "the title of the poem" },
             ],
             correctChoiceId: "b",
           },
@@ -724,11 +724,11 @@ export const lesson11: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "a soliloquy is addressed to the audience while an aside is spoken alone" },
-              { id: "b", text: "a soliloquy is a longer speech in which a character, alone on stage, reveals inner thoughts unaware of being overheard" },
-              { id: "c", text: "an aside reveals inner thoughts while a soliloquy addresses other characters" },
+              { id: "b", text: "an aside reveals inner thoughts while a soliloquy addresses other characters" },
+              { id: "c", text: "a soliloquy is a longer speech in which a character, alone on stage, reveals inner thoughts unaware of being overheard" },
               { id: "d", text: "they are identical conventions" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -751,12 +751,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "the audience knows something the characters do not" },
-              { id: "b", text: "a character lies to another character" },
-              { id: "c", text: "the narrator comments on the action" },
-              { id: "d", text: "stage directions contradict the dialogue" },
+              { id: "a", text: "the narrator comments on the action" },
+              { id: "b", text: "the audience knows something the characters do not" },
+              { id: "c", text: "stage directions contradict the dialogue" },
+              { id: "d", text: "a character lies to another character" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -786,12 +786,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Regular iambic pentameter gives the poem a ceremonial calm." },
-              { id: "b", text: "The repeated 'ee' vowel sounds and the verb 'screamed' create an onomatopoeic shrillness that makes the kitchen's transition into morning feel violent." },
-              { id: "c", text: "Heavy consonance of 'k', 't' and 'd' produces a muffled, sleepy sound." },
-              { id: "d", text: "The end-stopped lines slow the poem into elegiac stillness." },
+              { id: "a", text: "The end-stopped lines slow the poem into elegiac stillness." },
+              { id: "b", text: "Heavy consonance of 'k', 't' and 'd' produces a muffled, sleepy sound." },
+              { id: "c", text: "The repeated 'ee' vowel sounds and the verb 'screamed' create an onomatopoeic shrillness that makes the kitchen's transition into morning feel violent." },
+              { id: "d", text: "Regular iambic pentameter gives the poem a ceremonial calm." },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

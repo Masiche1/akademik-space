@@ -52,9 +52,9 @@ export const lesson91: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "A section of DNA coding for a protein" },
-              { id: "b", text: "A whole chromosome" },
-              { id: "c", text: "A type of cell" },
-              { id: "d", text: "A gamete" },
+              { id: "b", text: "A type of cell" },
+              { id: "c", text: "A gamete" },
+              { id: "d", text: "A whole chromosome" },
             ],
             correctChoiceId: "a",
           },
@@ -137,6 +137,274 @@ export const lesson91: Lesson = {
             commonErrors: ["In (a) describing RNA — it's DNA double helix."],
           },
         },
+        {
+          id: "cieb-u9-chromosomes-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "How many chromosomes are found in a human body cell?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "44" },
+              { id: "b", text: "92" },
+              { id: "c", text: "23" },
+              { id: "d", text: "46" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Human chromosome number", statement: "Body cells are diploid: 46 chromosomes (23 pairs)." },
+            ],
+            steps: [
+              { reasoning: "Recall the diploid number.", working: "\\text{2n} = 46", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** 46",
+            commonErrors: ["Choosing 23 — that's the haploid gamete number."],
+          },
+        },
+        {
+          id: "cieb-u9-chromosomes-q6",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "What is an allele?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "A different form of a gene" },
+              { id: "b", text: "A section of the cell membrane" },
+              { id: "c", text: "A whole chromosome" },
+              { id: "d", text: "A type of cell division" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              { kind: "definition", name: "Allele", statement: "Alternative form of a gene (e.g. T or t)." },
+            ],
+            steps: [
+              { reasoning: "Recall the definition.", working: "\\text{allele} = \\text{gene variant}", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** A different form of a gene",
+            commonErrors: ["Choosing chromosome — a chromosome carries many genes, not one allele."],
+          },
+        },
+        {
+          id: "cieb-u9-chromosomes-q7",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "In DNA, which base pairs with adenine?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Cytosine" },
+              { id: "b", text: "Guanine" },
+              { id: "c", text: "Uracil" },
+              { id: "d", text: "Thymine" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "DNA base pairing", statement: "A pairs with T; C pairs with G." },
+            ],
+            steps: [
+              { reasoning: "Recall the pairing rule.", working: "\\text{A} \\leftrightarrow \\text{T}", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** Thymine",
+            commonErrors: ["Choosing cytosine — C pairs with G, not A."],
+          },
+        },
+        {
+          id: "cieb-u9-chromosomes-q8",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "State the number of chromosomes in a human sperm cell.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 23, unit: "chromosomes" }],
+          },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Gamete chromosome number", statement: "Human gametes are haploid: n = 23." },
+            ],
+            steps: [
+              { reasoning: "Recall the haploid number.", working: "\\text{n} = 23", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "23",
+            commonErrors: ["Answering 46 — that's the body cell number."],
+          },
+        },
+        {
+          id: "cieb-u9-chromosomes-q9",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "State the number of homologous chromosome pairs in a human body cell.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 23, unit: "pairs" }],
+          },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Homologous pairs", statement: "46 chromosomes form 23 homologous pairs." },
+            ],
+            steps: [
+              { reasoning: "46 chromosomes form pairs.", working: "46 \\div 2 = 23", marks: 1, markCode: "M" },
+            ],
+            finalAnswer: "23",
+            commonErrors: ["Answering 46 — that's individual chromosomes, not pairs."],
+          },
+        },
+        {
+          id: "cieb-u9-chromosomes-q10",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "State the number of chromosome sets in a diploid human cell.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 2, unit: "sets" }],
+          },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Diploid", statement: "Two sets of chromosomes (2n); one from each parent." },
+            ],
+            steps: [
+              { reasoning: "Recall the definition.", working: "\\text{diploid} = 2 \\text{ sets}", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "2",
+            commonErrors: ["Answering 1 — that's haploid."],
+          },
+        },
+        {
+          id: "cieb-u9-chromosomes-q11",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "State the number of chromosomes in a human zygote immediately after fertilisation.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 46, unit: "chromosomes" }],
+          },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Zygote chromosome number", statement: "Fertilisation restores the diploid number: 46." },
+            ],
+            steps: [
+              { reasoning: "Sperm + egg combine.", working: "23 + 23 = 46", marks: 1, markCode: "M" },
+            ],
+            finalAnswer: "46",
+            commonErrors: ["Answering 23 — the zygote is diploid."],
+          },
+        },
+        {
+          id: "cieb-u9-chromosomes-q12",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "Define the terms 'diploid' and 'haploid'.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "definition", name: "Diploid/haploid", statement: "Diploid = two chromosome sets (body cells); haploid = one set (gametes)." },
+            ],
+            steps: [
+              { reasoning: "Define diploid.", working: "\\text{diploid} = 2n", marks: 1, markCode: "M" },
+              { reasoning: "Define haploid.", working: "\\text{haploid} = n", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "Diploid cells have two sets of chromosomes (body cells, 2n = 46); haploid cells have one set (gametes, n = 23).",
+            commonErrors: ["Reversing the terms — diploid has MORE chromosomes."],
+          },
+        },
+        {
+          id: "cieb-u9-chromosomes-q13",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "Explain why gametes must contain half the chromosome number of body cells.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Why gametes are haploid", statement: "Fertilisation combines two gametes to restore the diploid number." },
+            ],
+            steps: [
+              { reasoning: "Gametes are produced by meiosis with half the chromosomes.", working: "\\text{2n} \\to \\text{n}", marks: 1, markCode: "M" },
+              { reasoning: "Each parent contributes half the chromosomes.", working: "\\text{each parent: half}", marks: 1, markCode: "M" },
+              { reasoning: "Fertilisation restores 2n in the zygote.", working: "\\text{n + n = 2n}", marks: 1, markCode: "M" },
+              { reasoning: "Conclude it prevents doubling each generation.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "Gametes are haploid so that when sperm and egg fuse at fertilisation, the chromosome number is restored to diploid — otherwise it would double with every generation.",
+            commonErrors: ["Only saying 'meiosis makes gametes' without the chromosome-number reason."],
+          },
+        },
+        {
+          id: "cieb-u9-chromosomes-q14",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "Describe the base-pairing rules of DNA and explain their importance.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "DNA base pairing", statement: "A pairs with T, C pairs with G; enables accurate replication." },
+            ],
+            steps: [
+              { reasoning: "State the pairing rule: A-T and C-G.", working: "\\text{A-T, C-G}", marks: 1, markCode: "M" },
+              { reasoning: "Each strand acts as a template for the new strand.", working: "\\text{template strand}", marks: 1, markCode: "M" },
+              { reasoning: "This allows accurate copying of DNA during replication.", working: "\\text{accurate replication}", marks: 1, markCode: "M" },
+              { reasoning: "Complete explanation.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "In DNA, adenine pairs with thymine and cytosine pairs with guanine; because each strand is complementary to the other, each can act as a template so DNA can be copied accurately during replication.",
+            commonErrors: ["Pairing A with G — correct pairs are A-T and C-G."],
+          },
+        },
+        {
+          id: "cieb-u9-chromosomes-q15",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Where are genes located in a eukaryotic cell?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "In the cytoplasm fluid" },
+              { id: "b", text: "In the mitochondria only" },
+              { id: "c", text: "In the cell membrane" },
+              { id: "d", text: "On chromosomes in the nucleus" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Gene location", statement: "Genes are sections of DNA on chromosomes in the nucleus." },
+            ],
+            steps: [
+              { reasoning: "Recall where genes are found.", working: "\\text{chromosomes in nucleus}", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** On chromosomes in the nucleus",
+            commonErrors: ["Choosing cytoplasm — genes are on chromosomes inside the nucleus."],
+          },
+        },
+        {
+          id: "cieb-u9-chromosomes-q16",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Which cells in humans are haploid?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Liver cells" },
+              { id: "b", text: "Gametes (sperm and eggs)" },
+              { id: "c", text: "Skin cells" },
+              { id: "d", text: "Muscle cells" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Haploid cells", statement: "Gametes have one chromosome set (n = 23)." },
+            ],
+            steps: [
+              { reasoning: "Identify haploid cells.", working: "\\text{gametes}", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** Gametes (sperm and eggs)",
+            commonErrors: ["Choosing body cells — those are diploid."],
+          },
+        },
       ],
     },
     {
@@ -174,9 +442,9 @@ export const lesson91: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Meiosis" },
-              { id: "b", text: "Mitosis" },
-              { id: "c", text: "Fertilisation" },
-              { id: "d", text: "Pollination" },
+              { id: "b", text: "Fertilisation" },
+              { id: "c", text: "Pollination" },
+              { id: "d", text: "Mitosis" },
             ],
             correctChoiceId: "a",
           },
@@ -258,6 +526,277 @@ export const lesson91: Lesson = {
             ],
             finalAnswer: "(a) 1div/2cells vs 2div/4cells (b) diploid vs haploid (c) identical vs different (d) growth/repair vs gametes",
             commonErrors: ["In (c) saying meiosis produces identical cells — it produces varied gametes."],
+          },
+        },
+        {
+          id: "cieb-u9-mitosis-meiosis-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "How many daughter cells are produced by one mitotic division?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "1" },
+              { id: "b", text: "4" },
+              { id: "c", text: "2" },
+              { id: "d", text: "8" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Mitosis", statement: "One division produces 2 diploid daughter cells." },
+            ],
+            steps: [
+              { reasoning: "Recall the product.", working: "\\text{mitosis} \\to 2 \\text{ cells}", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** 2",
+            commonErrors: ["Choosing 4 — that's meiosis."],
+          },
+        },
+        {
+          id: "cieb-u9-mitosis-meiosis-q6",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "How many cell divisions occur during meiosis?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "3" },
+              { id: "b", text: "2" },
+              { id: "c", text: "1" },
+              { id: "d", text: "4" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Meiosis", statement: "Two divisions produce 4 haploid gametes." },
+            ],
+            steps: [
+              { reasoning: "Recall the divisions.", working: "\\text{meiosis} = 2 \\text{ divisions}", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** 2",
+            commonErrors: ["Choosing 1 — that's mitosis."],
+          },
+        },
+        {
+          id: "cieb-u9-mitosis-meiosis-q7",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Which process is used for growth, repair of damaged tissue and asexual reproduction?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Fertilisation" },
+              { id: "b", text: "Meiosis" },
+              { id: "c", text: "Diffusion" },
+              { id: "d", text: "Mitosis" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Mitosis uses", statement: "Growth, repair, asexual reproduction." },
+            ],
+            steps: [
+              { reasoning: "Match process to role.", working: "\\text{mitosis} \\to \\text{growth/repair}", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** Mitosis",
+            commonErrors: ["Choosing meiosis — that produces gametes for sexual reproduction."],
+          },
+        },
+        {
+          id: "cieb-u9-mitosis-meiosis-q8",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "State the number of daughter cells produced by meiosis.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 4, unit: "cells" }],
+          },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Meiosis product", statement: "Two divisions → 4 haploid gametes." },
+            ],
+            steps: [
+              { reasoning: "Recall the number.", working: "\\text{4 gametes}", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "4",
+            commonErrors: ["Answering 2 — that's mitosis."],
+          },
+        },
+        {
+          id: "cieb-u9-mitosis-meiosis-q9",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "A human body cell with 46 chromosomes undergoes mitosis. State the chromosome number in each daughter cell.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 46, unit: "chromosomes" }],
+          },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Mitosis chromosome number", statement: "Daughter cells are genetically identical — same chromosome number as parent." },
+            ],
+            steps: [
+              { reasoning: "Mitosis copies chromosomes exactly.", working: "\\text{2n} \\to \\text{2n}", marks: 1, markCode: "M" },
+              { reasoning: "State the number.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "46",
+            commonErrors: ["Answering 23 — mitosis does not halve the chromosome number."],
+          },
+        },
+        {
+          id: "cieb-u9-mitosis-meiosis-q10",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "A human body cell with 46 chromosomes undergoes meiosis. State the chromosome number in each resulting gamete.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 23, unit: "chromosomes" }],
+          },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Meiosis chromosome number", statement: "Gametes are haploid: half the parent number." },
+            ],
+            steps: [
+              { reasoning: "Halve the chromosome number.", working: "46 \\div 2 = 23", marks: 1, markCode: "M" },
+              { reasoning: "State the number.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "23",
+            commonErrors: ["Answering 46 — meiosis halves the chromosome number."],
+          },
+        },
+        {
+          id: "cieb-u9-mitosis-meiosis-q11",
+          difficulty: "challenge",
+          totalMarks: 2,
+          stem: "A diploid organism has 2n = 20 chromosomes. State the number of chromosomes in each gamete it produces.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 10, unit: "chromosomes" }],
+          },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Haploid number", statement: "Gametes carry half the diploid number: n = 2n ÷ 2." },
+            ],
+            steps: [
+              { reasoning: "Halve the diploid number.", working: "20 \\div 2 = 10", marks: 1, markCode: "M" },
+              { reasoning: "State the number.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "10",
+            commonErrors: ["Answering 20 — gametes are haploid."],
+          },
+        },
+        {
+          id: "cieb-u9-mitosis-meiosis-q12",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "State two uses of mitosis in the human body.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Mitosis uses", statement: "Growth, repair of damaged cells, asexual reproduction." },
+            ],
+            steps: [
+              { reasoning: "Give two uses.", working: "\\text{growth, repair}", marks: 1, markCode: "M" },
+              { reasoning: "State them clearly.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "Growth of the body and repair/replacement of damaged or dead cells (also asexual reproduction).",
+            commonErrors: ["Saying 'making gametes' — that's meiosis."],
+          },
+        },
+        {
+          id: "cieb-u9-mitosis-meiosis-q13",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "Explain how meiosis creates genetic variation among gametes.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Meiosis variation", statement: "Crossing over and independent assortment shuffle alleles; random fertilisation adds more." },
+            ],
+            steps: [
+              { reasoning: "Crossing over swaps alleles between homologous chromosomes.", working: "\\text{crossing over}", marks: 1, markCode: "M" },
+              { reasoning: "Independent assortment shuffles chromosome combinations.", working: "\\text{independent assortment}", marks: 1, markCode: "M" },
+              { reasoning: "Random fertilisation combines gametes unpredictably.", working: "\\text{random fertilisation}", marks: 1, markCode: "M" },
+              { reasoning: "Conclude variation.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "During meiosis, crossing over exchanges alleles between homologous chromosomes and independent assortment shuffles which chromosomes go into each gamete; random fertilisation then combines gametes — producing genetically different offspring.",
+            commonErrors: ["Only mentioning 'gametes are different' without the mechanisms."],
+          },
+        },
+        {
+          id: "cieb-u9-mitosis-meiosis-q14",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "Compare the chromosome number and genetic makeup of daughter cells produced by mitosis and meiosis from a diploid parent cell.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "comparison", name: "Mitosis vs meiosis outcomes", statement: "Mitosis: diploid, identical. Meiosis: haploid, different." },
+            ],
+            steps: [
+              { reasoning: "Mitosis daughter cells remain diploid (2n).", working: "\\text{mitosis: 2n}", marks: 1, markCode: "M" },
+              { reasoning: "Meiosis gametes are haploid (n).", working: "\\text{meiosis: n}", marks: 1, markCode: "M" },
+              { reasoning: "Mitosis cells are genetically identical to parent.", working: "\\text{identical}", marks: 1, markCode: "M" },
+              { reasoning: "Meiosis cells are genetically different from each other.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "Mitosis produces 2 diploid daughter cells genetically identical to the parent; meiosis produces 4 haploid gametes that are genetically different from one another.",
+            commonErrors: ["Saying meiosis produces diploid cells — gametes are haploid."],
+          },
+        },
+        {
+          id: "cieb-u9-mitosis-meiosis-q15",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Which cells are produced by meiosis?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Stem cells" },
+              { id: "b", text: "Haploid gametes" },
+              { id: "c", text: "Diploid body cells" },
+              { id: "d", text: "Identical daughter cells" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Meiosis product", statement: "Produces haploid, genetically varied gametes." },
+            ],
+            steps: [
+              { reasoning: "Match product to process.", working: "\\text{meiosis} \\to \\text{haploid gametes}", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** Haploid gametes",
+            commonErrors: ["Choosing identical cells — meiosis produces varied gametes."],
+          },
+        },
+        {
+          id: "cieb-u9-mitosis-meiosis-q16",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Are the daughter cells produced by mitosis genetically identical or genetically different from the parent cell?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Randomly different" },
+              { id: "b", text: "Genetically different" },
+              { id: "c", text: "Genetically identical" },
+              { id: "d", text: "Half identical" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              { kind: "property", name: "Mitosis fidelity", statement: "Daughter cells are exact copies (clones) of the parent." },
+            ],
+            steps: [
+              { reasoning: "Recall mitosis outcome.", working: "\\text{mitosis} \\to \\text{identical}", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** Genetically identical",
+            commonErrors: ["Choosing 'different' — that's meiosis."],
           },
         },
       ],

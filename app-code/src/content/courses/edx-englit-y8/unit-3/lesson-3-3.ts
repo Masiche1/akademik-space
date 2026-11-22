@@ -78,8 +78,8 @@ export const lesson33: Lesson = {
             choices: [
               { id: "a", text: "A holy shrine" },
               { id: "b", text: "A rose" },
-              { id: "c", text: "A sword" },
-              { id: "d", text: "A pilgrim" },
+              { id: "c", text: "A pilgrim" },
+              { id: "d", text: "A sword" },
             ],
             correctChoiceId: "a",
           },
@@ -201,12 +201,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Her father" },
-              { id: "b", text: "The young woman herself" },
-              { id: "c", text: "The local priest" },
-              { id: "d", text: "The Queen" },
+              { id: "a", text: "The local priest" },
+              { id: "b", text: "Her father" },
+              { id: "c", text: "The Queen" },
+              { id: "d", text: "The young woman herself" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [{ kind: "context", name: "Patriarchy", statement: "Fathers controlled their daughters' marriages." }],

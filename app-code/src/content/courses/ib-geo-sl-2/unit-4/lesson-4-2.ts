@@ -55,11 +55,11 @@ export const lesson42: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Timber production" },
-              { id: "b", text: "Flood control by wetlands" },
-              { id: "c", text: "Spiritual value of a forest" },
+              { id: "b", text: "Spiritual value of a forest" },
+              { id: "c", text: "Flood control by wetlands" },
               { id: "d", text: "Soil formation" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -153,12 +153,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Regulating service" },
-              { id: "b", text: "Provisioning service" },
-              { id: "c", text: "Cultural service" },
-              { id: "d", text: "Supporting service" },
+              { id: "a", text: "Provisioning service" },
+              { id: "b", text: "Supporting service" },
+              { id: "c", text: "Regulating service" },
+              { id: "d", text: "Cultural service" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -181,12 +181,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Provisioning service" },
+              { id: "a", text: "Regulating service" },
               { id: "b", text: "Cultural service" },
-              { id: "c", text: "Regulating service" },
+              { id: "c", text: "Provisioning service" },
               { id: "d", text: "Non-service" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -209,12 +209,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Provide direct material benefits to humans" },
-              { id: "b", text: "Underpin all other services by maintaining ecosystem function" },
+              { id: "a", text: "Underpin all other services by maintaining ecosystem function" },
+              { id: "b", text: "Provide direct material benefits to humans" },
               { id: "c", text: "Generate tourism revenue" },
               { id: "d", text: "Only occur in tropical ecosystems" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -237,12 +237,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Provisioning service via timber" },
-              { id: "b", text: "Regulating service via coastal protection" },
-              { id: "c", text: "Cultural service via recreation" },
-              { id: "d", text: "Supporting service via photosynthesis only" },
+              { id: "a", text: "Regulating service via coastal protection" },
+              { id: "b", text: "Provisioning service via timber" },
+              { id: "c", text: "Supporting service via photosynthesis only" },
+              { id: "d", text: "Cultural service via recreation" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -265,12 +265,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Supporting services are independent of other services" },
-              { id: "b", text: "Other services depend on supporting processes like nutrient cycling" },
-              { id: "c", text: "Supporting services can be replaced by technology instantly" },
-              { id: "d", text: "Only cultural services depend on supporting services" },
+              { id: "a", text: "Other services depend on supporting processes like nutrient cycling" },
+              { id: "b", text: "Only cultural services depend on supporting services" },
+              { id: "c", text: "Supporting services are independent of other services" },
+              { id: "d", text: "Supporting services can be replaced by technology instantly" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -472,12 +472,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Paying people to exploit natural resources" },
-              { id: "b", text: "Compensating landowners for conserving ecosystems" },
+              { id: "a", text: "Compensating landowners for conserving ecosystems" },
+              { id: "b", text: "Paying people to exploit natural resources" },
               { id: "c", text: "Taxing tourists visiting national parks" },
               { id: "d", text: "Selling ecosystem services to corporations" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -571,12 +571,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Asking people what they would hypothetically pay" },
-              { id: "b", text: "Using prices of traded goods like timber or fish" },
-              { id: "c", text: "Estimating replacement cost of artificial equivalents" },
-              { id: "d", text: "Surveying spiritual significance" },
+              { id: "a", text: "Surveying spiritual significance" },
+              { id: "b", text: "Asking people what they would hypothetically pay" },
+              { id: "c", text: "Using prices of traded goods like timber or fish" },
+              { id: "d", text: "Estimating replacement cost of artificial equivalents" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -599,12 +599,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The price people say they would pay in surveys" },
-              { id: "b", text: "Property prices near green space" },
-              { id: "c", text: "The cost of building an artificial system that provides the same service" },
-              { id: "d", text: "The number of species present" },
+              { id: "a", text: "Property prices near green space" },
+              { id: "b", text: "The cost of building an artificial system that provides the same service" },
+              { id: "c", text: "The number of species present" },
+              { id: "d", text: "The price people say they would pay in surveys" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -627,12 +627,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Fining landowners who clear forests" },
-              { id: "b", text: "Compensating landowners for conserving land that provides services" },
-              { id: "c", text: "Selling ecosystem services to the highest bidder" },
-              { id: "d", text: "Taxing all agricultural production equally" },
+              { id: "a", text: "Selling ecosystem services to the highest bidder" },
+              { id: "b", text: "Taxing all agricultural production equally" },
+              { id: "c", text: "Compensating landowners for conserving land that provides services" },
+              { id: "d", text: "Fining landowners who clear forests" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -656,11 +656,11 @@ export const lesson42: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "It is always too expensive to implement" },
-              { id: "b", text: "Some values — spiritual, existence, cultural — resist pricing" },
-              { id: "c", text: "It only works for provisioning services" },
+              { id: "b", text: "It only works for provisioning services" },
+              { id: "c", text: "Some values — spiritual, existence, cultural — resist pricing" },
               { id: "d", text: "It eliminates the need for conservation" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -683,12 +683,12 @@ export const lesson42: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It only captures values that affect market behaviour" },
-              { id: "b", text: "It ignores all non-market services entirely" },
+              { id: "a", text: "It ignores all non-market services entirely" },
+              { id: "b", text: "It overestimates cultural values" },
               { id: "c", text: "Property prices are always accurate measures" },
-              { id: "d", text: "It overestimates cultural values" },
+              { id: "d", text: "It only captures values that affect market behaviour" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

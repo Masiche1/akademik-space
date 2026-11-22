@@ -54,12 +54,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Suspension" },
-              { id: "b", text: "Traction" },
-              { id: "c", text: "Saltation" },
-              { id: "d", text: "Solution" },
+              { id: "a", text: "Traction" },
+              { id: "b", text: "Saltation" },
+              { id: "c", text: "Solution" },
+              { id: "d", text: "Suspension" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -153,12 +153,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Hydraulic action" },
-              { id: "b", text: "Abrasion" },
-              { id: "c", text: "Solution" },
-              { id: "d", text: "Attrition" },
+              { id: "a", text: "Attrition" },
+              { id: "b", text: "Solution" },
+              { id: "c", text: "Hydraulic action" },
+              { id: "d", text: "Abrasion" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -181,9 +181,9 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Rolling along the river bed" },
+              { id: "a", text: "Dissolving within the water" },
               { id: "b", text: "Bouncing along the river bed" },
-              { id: "c", text: "Dissolving within the water" },
+              { id: "c", text: "Rolling along the river bed" },
               { id: "d", text: "Moving within the flow" },
             ],
             correctChoiceId: "b",
@@ -210,11 +210,11 @@ export const lesson21: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "The total mass of load the river carries" },
-              { id: "b", text: "The largest particle size the river can transport" },
-              { id: "c", text: "The cross-sectional area of the channel" },
+              { id: "b", text: "The cross-sectional area of the channel" },
+              { id: "c", text: "The largest particle size the river can transport" },
               { id: "d", text: "The speed of the current" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -237,12 +237,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Construction of a reservoir upstream" },
-              { id: "b", text: "Removal of bank-side vegetation" },
-              { id: "c", text: "Tidal incursion at the river mouth" },
+              { id: "a", text: "Tidal incursion at the river mouth" },
+              { id: "b", text: "Construction of a reservoir upstream" },
+              { id: "c", text: "Removal of bank-side vegetation" },
               { id: "d", text: "A rise in water temperature" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -265,12 +265,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Deposit sediment across its whole bed" },
-              { id: "b", text: "Carry clearer water with greater erosive power on the bed and banks" },
+              { id: "a", text: "Carry clearer water with greater erosive power on the bed and banks" },
+              { id: "b", text: "Deposit sediment across its whole bed" },
               { id: "c", text: "Reduce its discharge to zero" },
               { id: "d", text: "Form a delta immediately" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -519,12 +519,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A waterfall erodes its plunge pool" },
-              { id: "b", text: "A meander is cut off from the main channel" },
-              { id: "c", text: "A delta progrades into the sea" },
-              { id: "d", text: "A glacier gouges a trough" },
+              { id: "a", text: "A delta progrades into the sea" },
+              { id: "b", text: "A waterfall erodes its plunge pool" },
+              { id: "c", text: "A glacier gouges a trough" },
+              { id: "d", text: "A meander is cut off from the main channel" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -618,12 +618,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A river meets the sea or a lake and deposits sediment" },
-              { id: "b", text: "A glacier melts at its snout" },
-              { id: "c", text: "A volcano erupts at the coast" },
-              { id: "d", text: "Waves cut into a headland" },
+              { id: "a", text: "A volcano erupts at the coast" },
+              { id: "b", text: "Waves cut into a headland" },
+              { id: "c", text: "A river meets the sea or a lake and deposits sediment" },
+              { id: "d", text: "A glacier melts at its snout" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -646,12 +646,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Soft rock overlies hard rock" },
-              { id: "b", text: "Hard rock overlies softer rock" },
-              { id: "c", text: "Flat land meets rising hills" },
-              { id: "d", text: "Two rivers join together" },
+              { id: "a", text: "Hard rock overlies softer rock" },
+              { id: "b", text: "Two rivers join together" },
+              { id: "c", text: "Soft rock overlies hard rock" },
+              { id: "d", text: "Flat land meets rising hills" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -675,11 +675,11 @@ export const lesson21: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Outer bank" },
-              { id: "b", text: "Inner bank" },
-              { id: "c", text: "Channel bed only" },
-              { id: "d", text: "Floodplain margin" },
+              { id: "b", text: "Floodplain margin" },
+              { id: "c", text: "Inner bank" },
+              { id: "d", text: "Channel bed only" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -702,9 +702,9 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The upper course" },
+              { id: "a", text: "The source region only" },
               { id: "b", text: "The middle and lower courses" },
-              { id: "c", text: "The source region only" },
+              { id: "c", text: "The upper course" },
               { id: "d", text: "The river mouth only" },
             ],
             correctChoiceId: "b",
@@ -730,10 +730,10 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Sea level falls and exposes the delta plain" },
+              { id: "a", text: "Wind erosion carves new channels" },
               { id: "b", text: "Deposition raises the bed and reduces channel confinement, so flow divides" },
-              { id: "c", text: "Wind erosion carves new channels" },
-              { id: "d", text: "Tides deepen the main channel preferentially" },
+              { id: "c", text: "Tides deepen the main channel preferentially" },
+              { id: "d", text: "Sea level falls and exposes the delta plain" },
             ],
             correctChoiceId: "b",
           },

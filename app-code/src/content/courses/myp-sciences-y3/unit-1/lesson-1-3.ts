@@ -57,12 +57,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Acidic" },
-              { id: "b", text: "Neutral" },
-              { id: "c", text: "Alkaline" },
-              { id: "d", text: "Cannot tell" },
+              { id: "a", text: "Neutral" },
+              { id: "b", text: "Cannot tell" },
+              { id: "c", text: "Acidic" },
+              { id: "d", text: "Alkaline" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -155,10 +155,10 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Acidic" },
-              { id: "b", text: "Neutral" },
+              { id: "a", text: "Cannot tell" },
+              { id: "b", text: "Acidic" },
               { id: "c", text: "Alkaline" },
-              { id: "d", text: "Cannot tell" },
+              { id: "d", text: "Neutral" },
             ],
             correctChoiceId: "c",
           },
@@ -182,12 +182,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Red" },
-              { id: "b", text: "Blue" },
+              { id: "a", text: "Blue" },
+              { id: "b", text: "Red" },
               { id: "c", text: "Green" },
               { id: "d", text: "Colourless" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -267,11 +267,11 @@ export const lesson13: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Carbon dioxide" },
-              { id: "b", text: "Oxygen" },
-              { id: "c", text: "Hydrogen" },
-              { id: "d", text: "Nitrogen" },
+              { id: "b", text: "Hydrogen" },
+              { id: "c", text: "Nitrogen" },
+              { id: "d", text: "Oxygen" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -293,12 +293,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Red" },
-              { id: "b", text: "Colourless" },
-              { id: "c", text: "Pink" },
-              { id: "d", text: "Orange" },
+              { id: "a", text: "Colourless" },
+              { id: "b", text: "Pink" },
+              { id: "c", text: "Orange" },
+              { id: "d", text: "Red" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -375,12 +375,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Sodium hydroxide" },
-              { id: "b", text: "Copper(II) oxide" },
-              { id: "c", text: "Calcium carbonate" },
-              { id: "d", text: "Hydrochloric acid" },
+              { id: "a", text: "Hydrochloric acid" },
+              { id: "b", text: "Calcium carbonate" },
+              { id: "c", text: "Copper(II) oxide" },
+              { id: "d", text: "Sodium hydroxide" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -453,12 +453,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Titration" },
-              { id: "b", text: "Precipitation" },
-              { id: "c", text: "Crystallisation" },
+              { id: "a", text: "Precipitation" },
+              { id: "b", text: "Crystallisation" },
+              { id: "c", text: "Titration" },
               { id: "d", text: "Distillation" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -551,9 +551,9 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Mixing two solutions to form a precipitate" },
+              { id: "a", text: "Distillation of a mixture" },
               { id: "b", text: "Reacting an acid with an excess of a solid, then crystallising" },
-              { id: "c", text: "Distillation of a mixture" },
+              { id: "c", text: "Mixing two solutions to form a precipitate" },
               { id: "d", text: "Electrolysis" },
             ],
             correctChoiceId: "b",
@@ -580,8 +580,8 @@ export const lesson13: Lesson = {
             choices: [
               { id: "a", text: "To speed up the reaction" },
               { id: "b", text: "To show when the exact endpoint has been reached" },
-              { id: "c", text: "To measure the volume of acid" },
-              { id: "d", text: "To change the colour of the salt" },
+              { id: "c", text: "To change the colour of the salt" },
+              { id: "d", text: "To measure the volume of acid" },
             ],
             correctChoiceId: "b",
           },
@@ -605,12 +605,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Sodium chloride" },
+              { id: "a", text: "Copper(II) sulfate" },
               { id: "b", text: "Potassium nitrate" },
-              { id: "c", text: "Barium sulfate" },
-              { id: "d", text: "Copper(II) sulfate" },
+              { id: "c", text: "Sodium chloride" },
+              { id: "d", text: "Barium sulfate" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -670,12 +670,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "To make the reaction faster" },
-              { id: "b", text: "To ensure all the acid reacts" },
-              { id: "c", text: "To increase the temperature" },
+              { id: "a", text: "To ensure all the acid reacts" },
+              { id: "b", text: "To increase the temperature" },
+              { id: "c", text: "To make the reaction faster" },
               { id: "d", text: "To produce more water" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -738,8 +738,8 @@ export const lesson13: Lesson = {
             choices: [
               { id: "a", text: "Silver nitrate and sodium chloride" },
               { id: "b", text: "Sodium chloride and potassium nitrate" },
-              { id: "c", text: "Magnesium sulfate and sodium chloride" },
-              { id: "d", text: "Potassium hydroxide and sodium nitrate" },
+              { id: "c", text: "Potassium hydroxide and sodium nitrate" },
+              { id: "d", text: "Magnesium sulfate and sodium chloride" },
             ],
             correctChoiceId: "a",
           },
@@ -802,9 +802,9 @@ export const lesson13: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "To remove soluble impurities trapped in the precipitate" },
-              { id: "b", text: "To dissolve the precipitate" },
+              { id: "b", text: "To speed up the reaction" },
               { id: "c", text: "To increase its mass" },
-              { id: "d", text: "To speed up the reaction" },
+              { id: "d", text: "To dissolve the precipitate" },
             ],
             correctChoiceId: "a",
           },

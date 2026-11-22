@@ -55,12 +55,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "All the background detail" },
-              { id: "b", text: "Who, what, when, where and why — the key facts" },
-              { id: "c", text: "Only a quote from a witness" },
-              { id: "d", text: "The author's opinion" },
+              { id: "a", text: "The author's opinion" },
+              { id: "b", text: "Only a quote from a witness" },
+              { id: "c", text: "Who, what, when, where and why — the key facts" },
+              { id: "d", text: "All the background detail" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -141,12 +141,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Give the writer's opinion" },
-              { id: "b", text: "Grab attention and summarize the story" },
-              { id: "c", text: "List all the facts" },
+              { id: "a", text: "Grab attention and summarize the story" },
+              { id: "b", text: "List all the facts" },
+              { id: "c", text: "Give the writer's opinion" },
               { id: "d", text: "Be as long as possible" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -166,12 +166,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "At the end" },
-              { id: "b", text: "In the first paragraph (the lead)" },
+              { id: "a", text: "Scattered throughout" },
+              { id: "b", text: "At the end" },
               { id: "c", text: "In the headline only" },
-              { id: "d", text: "Scattered throughout" },
+              { id: "d", text: "In the first paragraph (the lead)" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -196,12 +196,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Only the team's feelings" },
-              { id: "b", text: "Who won, what they won, and when — the key facts" },
-              { id: "c", text: "Only the coach's opinion" },
-              { id: "d", text: "The team's history in detail" },
+              { id: "a", text: "Who won, what they won, and when — the key facts" },
+              { id: "b", text: "The team's history in detail" },
+              { id: "c", text: "Only the team's feelings" },
+              { id: "d", text: "Only the coach's opinion" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -221,12 +221,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "'Bikes are great. I love bikes. This article is about bikes.'" },
-              { id: "b", text: "'The new bike lane on Main Street opened to cyclists on Monday, part of the city's green transport plan.'" },
-              { id: "c", text: "'Once upon a time, in a town far away...'" },
-              { id: "d", text: "'Dear reader, I am writing to tell you about bikes.'" },
+              { id: "a", text: "'Dear reader, I am writing to tell you about bikes.'" },
+              { id: "b", text: "'Bikes are great. I love bikes. This article is about bikes.'" },
+              { id: "c", text: "'The new bike lane on Main Street opened to cyclists on Monday, part of the city's green transport plan.'" },
+              { id: "d", text: "'Once upon a time, in a town far away...'" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -316,12 +316,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Giving credit to the source of information" },
-              { id: "b", text: "Writing very long sentences" },
+              { id: "a", text: "Writing very long sentences" },
+              { id: "b", text: "Printing in bold" },
               { id: "c", text: "Using big words" },
-              { id: "d", text: "Printing in bold" },
+              { id: "d", text: "Giving credit to the source of information" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -373,12 +373,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Because it's easier to write" },
-              { id: "b", text: "Because readers get key facts even if they stop early, and editors can cut detail without losing essentials" },
-              { id: "c", text: "Because it looks professional" },
-              { id: "d", text: "Because it's a legal requirement" },
+              { id: "a", text: "Because it looks professional" },
+              { id: "b", text: "Because it's easier to write" },
+              { id: "c", text: "Because it's a legal requirement" },
+              { id: "d", text: "Because readers get key facts even if they stop early, and editors can cut detail without losing essentials" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -475,12 +475,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Reports are always shorter" },
-              { id: "b", text: "Reports are factual and organized; stories are imaginative" },
+              { id: "a", text: "Reports are factual and organized; stories are imaginative" },
+              { id: "b", text: "Reports are always shorter" },
               { id: "c", text: "Reports use rhyme" },
               { id: "d", text: "Stories are always true" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -561,11 +561,11 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "To entertain the reader" },
-              { id: "b", text: "To present factual information in an organized way" },
+              { id: "b", text: "To persuade the reader to buy something" },
               { id: "c", text: "To tell a fictional story" },
-              { id: "d", text: "To persuade the reader to buy something" },
+              { id: "d", text: "To present factual information in an organized way" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -585,9 +585,9 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The conclusion" },
+              { id: "a", text: "The recommendations" },
               { id: "b", text: "The introduction" },
-              { id: "c", text: "The recommendations" },
+              { id: "c", text: "The conclusion" },
               { id: "d", text: "The appendix" },
             ],
             correctChoiceId: "b",
@@ -615,12 +615,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It is a fictional story" },
-              { id: "b", text: "Its subject, time frame and focus areas" },
+              { id: "a", text: "Its subject, time frame and focus areas" },
+              { id: "b", text: "Nothing useful" },
               { id: "c", text: "Only the author's opinion" },
-              { id: "d", text: "Nothing useful" },
+              { id: "d", text: "It is a fictional story" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -640,12 +640,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "'The canteen is pretty bad tbh. We should close it.'" },
-              { id: "b", text: "'This report examines how students use the school canteen. It looks at usage patterns, popular items and peak times.'" },
+              { id: "a", text: "'This report examines how students use the school canteen. It looks at usage patterns, popular items and peak times.'" },
+              { id: "b", text: "'The canteen is pretty bad tbh. We should close it.'" },
               { id: "c", text: "'Once I ate a sandwich there once.'" },
               { id: "d", text: "'To whom it may concern...'" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -739,12 +739,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "To make the report look longer" },
-              { id: "b", text: "To organize information so readers can find what they need" },
-              { id: "c", text: "To hide information" },
-              { id: "d", text: "Because it's required by law" },
+              { id: "a", text: "Because it's required by law" },
+              { id: "b", text: "To make the report look longer" },
+              { id: "c", text: "To organize information so readers can find what they need" },
+              { id: "d", text: "To hide information" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -796,12 +796,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "They are the same thing" },
-              { id: "b", text: "The conclusion summarizes findings; recommendations suggest what should happen next" },
-              { id: "c", text: "Conclusions are optional; recommendations are required" },
-              { id: "d", text: "Recommendations come first" },
+              { id: "a", text: "Recommendations come first" },
+              { id: "b", text: "Conclusions are optional; recommendations are required" },
+              { id: "c", text: "They are the same thing" },
+              { id: "d", text: "The conclusion summarizes findings; recommendations suggest what should happen next" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

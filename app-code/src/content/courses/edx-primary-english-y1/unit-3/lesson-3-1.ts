@@ -55,12 +55,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "the cat" },
-              { id: "b", text: "The cat sat." },
+              { id: "a", text: "The cat sat." },
+              { id: "b", text: "the cat" },
               { id: "c", text: "cat sat on" },
               { id: "d", text: "the big" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -226,9 +226,9 @@ export const lesson31: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "and" },
-              { id: "b", text: "the" },
-              { id: "c", text: "is" },
-              { id: "d", text: "a" },
+              { id: "b", text: "is" },
+              { id: "c", text: "a" },
+              { id: "d", text: "the" },
             ],
             correctChoiceId: "a",
           },
@@ -255,12 +255,12 @@ export const lesson31: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "and" },
-              { id: "b", text: "but" },
-              { id: "c", text: "so" },
-              { id: "d", text: "or" },
+              { id: "a", text: "so" },
+              { id: "b", text: "or" },
+              { id: "c", text: "and" },
+              { id: "d", text: "but" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

@@ -88,18 +88,18 @@ export const lesson63: Lesson = {
               },
               {
                 "id": "b",
-                "text": "A line graph"
-              },
-              {
-                "id": "c",
                 "text": "A bar chart of categories"
               },
               {
-                "id": "d",
+                "id": "c",
                 "text": "A pictogram"
+              },
+              {
+                "id": "d",
+                "text": "A line graph"
               }
             ],
-            "correctChoiceId": "b"
+            "correctChoiceId": "d"
           },
           "markscheme": {
             "principles": [
@@ -361,18 +361,18 @@ export const lesson63: Lesson = {
               },
               {
                 "id": "b",
-                "text": "Measuring what the investigation claims to measure"
+                "text": "Taking many readings"
               },
               {
                 "id": "c",
-                "text": "Using the most expensive apparatus"
+                "text": "Measuring what the investigation claims to measure"
               },
               {
                 "id": "d",
-                "text": "Taking many readings"
+                "text": "Using the most expensive apparatus"
               }
             ],
-            "correctChoiceId": "b"
+            "correctChoiceId": "c"
           },
           "markscheme": {
             "principles": [

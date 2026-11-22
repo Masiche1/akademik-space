@@ -53,11 +53,11 @@ export const lesson13: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$\\frac{2}{6}=\\frac{1}{3}$" },
-              { id: "b", text: "$\\frac{2}{4}=\\frac{1}{2}$" },
-              { id: "c", text: "$\\frac{3}{4}$" },
+              { id: "b", text: "$\\frac{3}{4}$" },
+              { id: "c", text: "$\\frac{2}{4}=\\frac{1}{2}$" },
               { id: "d", text: "$\\frac{1}{6}$" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -147,6 +147,282 @@ export const lesson13: Lesson = {
             commonErrors: ["In (a) writing $\\frac{6}{4}$ without simplifying to $1\\frac{1}{2}$."],
           },
         },
+        {
+          id: "cilm-u1-fo-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Calculate $\\frac{2}{5}+\\frac{1}{10}$.",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$\\frac{3}{15}=\\frac{1}{5}$" },
+              { id: "b", text: "$\\frac{1}{10}$" },
+              { id: "c", text: "$\\frac{1}{2}$" },
+              { id: "d", text: "$\\frac{3}{10}$" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              { kind: "convention", name: "Common denominator", statement: "Convert to tenths before adding." },
+            ],
+            steps: [
+              { reasoning: "$\\frac{2}{5}=\\frac{4}{10}$, so $\\frac{4}{10}+\\frac{1}{10}=\\frac{5}{10}=\\frac{1}{2}$.", working: "\\frac{4}{10}+\\frac{1}{10}=\\frac{5}{10}=\\frac{1}{2}", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(b)** $\\frac{1}{2}$",
+            commonErrors: ["Choosing (a) — adding denominators is never allowed."],
+          },
+        },
+        {
+          id: "cilm-u1-fo-q6",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Calculate $\\frac{3}{4}\\times\\frac{2}{9}$, giving your answer in simplest form.",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$\\frac{1}{12}$" },
+              { id: "b", text: "$\\frac{5}{13}$" },
+              { id: "c", text: "$\\frac{2}{3}$" },
+              { id: "d", text: "$\\frac{1}{6}$" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              { kind: "convention", name: "Multiplying fractions", statement: "Multiply numerators and denominators, then simplify." },
+            ],
+            steps: [
+              { reasoning: "$\\frac{3\\times2}{4\\times9}=\\frac{6}{36}=\\frac{1}{6}$.", working: "\\frac{6}{36}=\\frac{1}{6}", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** $\\frac{1}{6}$",
+            commonErrors: ["Choosing (b) — adding fractions instead of multiplying."],
+          },
+        },
+        {
+          id: "cilm-u1-fo-q7",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Calculate $\\frac{5}{6}-\\frac{1}{3}$.",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$\\frac{4}{9}$" },
+              { id: "b", text: "$\\frac{1}{2}$" },
+              { id: "c", text: "$\\frac{4}{3}$" },
+              { id: "d", text: "$\\frac{2}{3}$" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              { kind: "convention", name: "Common denominator", statement: "Convert sixths and thirds to a common denominator." },
+            ],
+            steps: [
+              { reasoning: "$\\frac{1}{3}=\\frac{2}{6}$, so $\\frac{5}{6}-\\frac{2}{6}=\\frac{3}{6}=\\frac{1}{2}$.", working: "\\frac{5}{6}-\\frac{2}{6}=\\frac{3}{6}=\\frac{1}{2}", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(b)** $\\frac{1}{2}$",
+            commonErrors: ["Choosing (c) — $\\frac{4}{6}$ forgets to simplify; $\\frac{4}{6}=\\frac{2}{3}$ would come from $5-1$ over 6 wrongly."],
+          },
+        },
+        {
+          id: "cilm-u1-fo-q8",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Calculate $2\\frac{1}{4}+1\\frac{1}{2}$.",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$2\\frac{3}{4}$" },
+              { id: "b", text: "$3\\frac{1}{2}$" },
+              { id: "c", text: "$4$" },
+              { id: "d", text: "$3\\frac{3}{4}$" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Mixed numbers", statement: "Convert to improper fractions before adding." },
+            ],
+            steps: [
+              { reasoning: "$2\\frac{1}{4}=\\frac{9}{4}$ and $1\\frac{1}{2}=\\frac{6}{4}$; sum $=\\frac{15}{4}=3\\frac{3}{4}$.", working: "\\frac{9}{4}+\\frac{6}{4}=\\frac{15}{4}=3\\frac{3}{4}", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** $3\\frac{3}{4}$",
+            commonErrors: ["Choosing (b) — adding wholes and fractions separately without carrying the $\\frac{3}{4}$ correctly."],
+          },
+        },
+        {
+          id: "cilm-u1-fo-q9",
+          difficulty: "challenge",
+          totalMarks: 1,
+          stem: "Which is the largest: $\\frac{2}{3}$, $\\frac{3}{5}$, $\\frac{5}{8}$ or $\\frac{7}{12}$?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$\\frac{2}{3}$" },
+              { id: "b", text: "$\\frac{5}{8}$" },
+              { id: "c", text: "$\\frac{3}{5}$" },
+              { id: "d", text: "$\\frac{7}{12}$" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Comparing fractions", statement: "Convert to decimals or a common denominator to compare." },
+            ],
+            steps: [
+              { reasoning: "As decimals: $0.667, 0.6, 0.625, 0.583$ — $\\frac{2}{3}$ is largest.", working: "0.667>0.625>0.6>0.583", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** $\\frac{2}{3}$",
+            commonErrors: ["Comparing numerators or denominators separately — neither is valid for fractions."],
+          },
+        },
+        {
+          id: "cilm-u1-fo-q10",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Calculate $\\frac{7}{10}-\\frac{1}{4}$. Give your answer as a decimal.",
+          response: { type: "numeric", parts: [{ label: "Answer", answer: 0.45 }] },
+          markscheme: {
+            principles: [
+              { kind: "convention", name: "Common denominator", statement: "Use twentieths: $\\frac{14}{20}-\\frac{5}{20}=\\frac{9}{20}$." },
+            ],
+            steps: [
+              { reasoning: "$\\frac{14}{20}-\\frac{5}{20}=\\frac{9}{20}=0.45$.", working: "\\frac{9}{20}=0.45", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$0.45$ (or $\\frac{9}{20}$)",
+            commonErrors: ["$0.6$ — subtracting $0.7-0.1$ treats decimals wrongly; convert via common denominator."],
+          },
+        },
+        {
+          id: "cilm-u1-fo-q11",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "Calculate (a) $\\frac{2}{3}\\times\\frac{3}{8}$ (b) $\\frac{5}{6}-\\frac{1}{2}$. Give decimal answers.",
+          response: { type: "numeric", parts: [{ label: "(a)", answer: 0.25 }, { label: "(b)", answer: 0.3333333333333333, tolerance: 0.0001 }] },
+          markscheme: {
+            principles: [
+              { kind: "convention", name: "Fraction operations", statement: "Multiply directly; subtract via common denominator." },
+            ],
+            steps: [
+              { reasoning: "(a) $\\frac{2}{3}\\times\\frac{3}{8}=\\frac{6}{24}=\\frac{1}{4}=0.25$.", working: "\\frac{1}{4}=0.25", marks: 1, markCode: "A" },
+              { reasoning: "(b) $\\frac{5}{6}-\\frac{3}{6}=\\frac{2}{6}=\\frac{1}{3}\\approx0.333$.", working: "\\frac{1}{3}=0.333", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "(a) $0.25$ (b) $0.333$ ($\\frac{1}{3}$)",
+            commonErrors: ["In (b) $\\frac{5}{6}-\\frac{1}{2}=\\frac{4}{4}=1$ — forgetting to convert $\\frac{1}{2}$ to sixths."],
+          },
+        },
+        {
+          id: "cilm-u1-fo-q12",
+          difficulty: "challenge",
+          totalMarks: 2,
+          stem: "Calculate $3\\frac{1}{2}-1\\frac{3}{4}$.",
+          response: { type: "numeric", parts: [{ label: "Answer", answer: 1.75 }] },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Mixed numbers", statement: "Convert to improper fractions: $\\frac{7}{2}-\\frac{7}{4}$." },
+            ],
+            steps: [
+              { reasoning: "$\\frac{7}{2}=\\frac{14}{4}$, so $\\frac{14}{4}-\\frac{7}{4}=\\frac{7}{4}$.", working: "\\frac{14}{4}-\\frac{7}{4}=\\frac{7}{4}", marks: 1, markCode: "M" },
+              { reasoning: "$\\frac{7}{4}=1\\frac{3}{4}=1.75$.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$1\\frac{3}{4}$ ($1.75$)",
+            commonErrors: ["$2\\frac{1}{4}$ — subtracting wholes and fractions separately fails when the fraction part is smaller."],
+          },
+        },
+        {
+          id: "cilm-u1-fo-q13",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "A pizza is cut into 12 equal slices. Sam eats $\\frac{1}{3}$ of the pizza and Jo eats $\\frac{1}{4}$ of the pizza. What fraction of the pizza is left?",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Fraction of a whole", statement: "Fraction eaten = sum of parts; remaining = 1 minus that." },
+            ],
+            steps: [
+              { reasoning: "Eaten: $\\frac{1}{3}+\\frac{1}{4}=\\frac{4}{12}+\\frac{3}{12}=\\frac{7}{12}$.", working: "\\frac{1}{3}+\\frac{1}{4}=\\frac{7}{12}", marks: 1, markCode: "M" },
+              { reasoning: "Remaining: $1-\\frac{7}{12}=\\frac{5}{12}$.", working: "1-\\frac{7}{12}=\\frac{5}{12}", marks: 1, markCode: "M" },
+              { reasoning: "Answer: $\\frac{5}{12}$ of the pizza.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$\\frac{5}{12}$",
+            commonErrors: ["$\\frac{1}{3}+\\frac{1}{4}=\\frac{2}{7}$ — adding numerators and denominators."],
+          },
+        },
+        {
+          id: "cilm-u1-fo-q14",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "Calculate $2\\frac{1}{2}\\times\\frac{2}{5}+\\frac{1}{4}$.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Order of operations", statement: "Multiplication before addition; convert mixed number first." },
+            ],
+            steps: [
+              { reasoning: "$2\\frac{1}{2}=\\frac{5}{2}$; $\\frac{5}{2}\\times\\frac{2}{5}=1$.", working: "\\frac{5}{2}\\times\\frac{2}{5}=1", marks: 1, markCode: "M" },
+              { reasoning: "Then $1+\\frac{1}{4}=\\frac{5}{4}$.", working: "1+\\frac{1}{4}=\\frac{5}{4}", marks: 1, markCode: "M" },
+              { reasoning: "Answer: $\\frac{5}{4}=1\\frac{1}{4}$.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$\\frac{5}{4}$ ($1\\frac{1}{4}$)",
+            commonErrors: ["Adding first: $\\frac{2}{5}+\\frac{1}{4}=\\frac{13}{20}$ then multiplying — wrong order."],
+          },
+        },
+        {
+          id: "cilm-u1-fo-q15",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "A water tank is $\\frac{3}{4}$ full. During the day, $\\frac{2}{5}$ of the water in the tank is used for washing. What fraction of the whole tank is now full?",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Fraction of a fraction", statement: "Used = $\\frac{2}{5}$ of $\\frac{3}{4}$; remaining = original minus used." },
+            ],
+            steps: [
+              { reasoning: "Water used $=\\frac{2}{5}\\times\\frac{3}{4}=\\frac{6}{20}=\\frac{3}{10}$ of the tank.", working: "\\frac{2}{5}\\times\\frac{3}{4}=\\frac{3}{10}", marks: 1, markCode: "M" },
+              { reasoning: "Remaining $=\\frac{3}{4}-\\frac{3}{10}=\\frac{15}{20}-\\frac{6}{20}=\\frac{9}{20}$.", working: "\\frac{15}{20}-\\frac{6}{20}=\\frac{9}{20}", marks: 1, markCode: "M" },
+              { reasoning: "Alternatively: $\\frac{3}{5}$ of $\\frac{3}{4}$ remains $=\\frac{9}{20}$ — same answer.", marks: 1, markCode: "M" },
+              { reasoning: "Answer: $\\frac{9}{20}$ of the tank is full.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$\\frac{9}{20}$",
+            commonErrors: ["$\\frac{3}{4}-\\frac{2}{5}=\\frac{7}{20}$ — the $\\frac{2}{5}$ applies to the water, not the whole tank."],
+          },
+        },
+        {
+          id: "cilm-u1-fo-q16",
+          difficulty: "challenge",
+          totalMarks: 6,
+          stem: "A tank holds $80$ litres of water.",
+          parts: [
+            { label: "a", prompt: "$\\frac{3}{8}$ of the water is used on Monday. How much water is left?", marks: 2 },
+            { label: "b", prompt: "On Tuesday, $\\frac{1}{5}$ of the remaining water is used. How much is left now?", marks: 3 },
+            { label: "c", prompt: "Express the final amount as a fraction of the original $80$ litres.", marks: 1 },
+          ],
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Sequential fractions", statement: "Each operation applies to the current amount, not the original." },
+            ],
+            steps: [
+              { part: "a", reasoning: "Used $=\\frac{3}{8}\\times80=30$ litres; left $=80-30=50$ litres.", working: "80-30=50", marks: 1, markCode: "M" },
+              { part: "a", reasoning: "$50$ litres correct.", marks: 1, markCode: "A" },
+              { part: "b", reasoning: "Tuesday used $=\\frac{1}{5}\\times50=10$ litres; left $=50-10=40$ litres.", working: "\\frac{1}{5}\\times50=10;\\ 50-10=40", marks: 1, markCode: "M" },
+              { part: "b", reasoning: "Applied fraction to the remaining 50, not original 80.", marks: 1, markCode: "M" },
+              { part: "b", reasoning: "$40$ litres correct.", marks: 1, markCode: "A" },
+              { part: "c", reasoning: "$\\frac{40}{80}=\\frac{1}{2}$ of the original.", working: "\\frac{40}{80}=\\frac{1}{2}", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "(a) $50$ litres (b) $40$ litres (c) $\\frac{1}{2}$",
+            levels: [
+              { level: "Level 2", marks: "1-2", descriptor: "Monday amount correct.", part: "a" },
+              { level: "Level 1", marks: "0", descriptor: "Wrong.", part: "a" },
+              { level: "Level 3", marks: "2-3", descriptor: "Tuesday amount correct with working.", part: "b" },
+              { level: "Level 2", marks: "1", descriptor: "Partial.", part: "b" },
+              { level: "Level 2", marks: "1", descriptor: "Fraction correct.", part: "c" },
+              { level: "Level 1", marks: "0", descriptor: "Wrong.", part: "c" },
+            ],
+            commonErrors: ["In (b) using $\\frac{1}{5}\\times80=16$ — the fraction applies to what remains."],
+          },
+        },
       ],
     },
     {
@@ -186,12 +462,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$14$" },
-              { id: "b", text: "$11$" },
-              { id: "c", text: "$10$" },
-              { id: "d", text: "$24$" },
+              { id: "a", text: "$24$" },
+              { id: "b", text: "$10$" },
+              { id: "c", text: "$11$" },
+              { id: "d", text: "$14$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -281,6 +557,283 @@ export const lesson13: Lesson = {
               { level: "Level 1", marks: "0", descriptor: "Vague.", part: "d" },
             ],
             commonErrors: ["In (c) adding first: $\\frac{1}{2}+\\frac{1}{3}=\\frac{5}{6}$, then $\\times\\frac{1}{4}=\\frac{5}{24}$ — wrong order."],
+          },
+        },
+        {
+          id: "cilm-u1-dd-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Calculate $20 - 4 \\div 2$.",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$12$" },
+              { id: "b", text: "$8$" },
+              { id: "c", text: "$20$" },
+              { id: "d", text: "$18$" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              { kind: "convention", name: "BIDMAS", statement: "Division before subtraction." },
+            ],
+            steps: [
+              { reasoning: "$4 \\div 2 = 2$ first, then $20 - 2 = 18$.", working: "20-2=18", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(b)** $18$",
+            commonErrors: ["Choosing (a) — working left to right, $(20-4)\\div2=8$, ignores that division comes before subtraction.", "Choosing (d) — $20-4\\times2=12$ multiplies instead of dividing."],
+          },
+        },
+        {
+          id: "cilm-u1-dd-q6",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Calculate $6.3 \\div 0.7$.",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$0.9$" },
+              { id: "b", text: "$90$" },
+              { id: "c", text: "$63$" },
+              { id: "d", text: "$9$" },
+            ],
+            dorrectChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              { kind: "convention", name: "Decimal division", statement: "Scale both numbers by 10: $63 \\div 7$." },
+            ],
+            steps: [
+              { reasoning: "$6.3 \\div 0.7 = 63 \\div 7 = 9$.", working: "63\\div7=9", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(c)** $9$",
+            commonErrors: ["Choosing (b) — multiplying by 100 instead of 10 gives an answer 10 times too big."],
+          },
+        },
+        {
+          id: "cilm-u1-dd-q7",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Calculate $10 - 2 \\times 3$.",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$24$" },
+              { id: "b", text: "$6$" },
+              { id: "c", text: "$4$" },
+              { id: "d", text: "$8$" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              { kind: "convention", name: "BIDMAS", statement: "Multiplication before subtraction." },
+            ],
+            steps: [
+              { reasoning: "$2 \\times 3 = 6$ first, then $10 - 6 = 4$.", working: "10-6=4", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(b)** $4$",
+            commonErrors: ["Choosing (a) — $(10-2)\\times3=24$ treats subtraction as coming first."],
+          },
+        },
+        {
+          id: "cilm-u1-dd-q8",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Calculate $\\frac{1}{2} \\times 8 + 3$.",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$11$" },
+              { id: "b", text: "$6$" },
+              { id: "c", text: "$7$" },
+              { id: "d", text: "$5.5$" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              { kind: "convention", name: "BIDMAS", statement: "Multiplication/division before addition." },
+            ],
+            steps: [
+              { reasoning: "$\\frac{1}{2}\\times8=4$ first, then $4+3=7$.", working: "4+3=7", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(b)** $7$",
+            commonErrors: ["Choosing (c) — $(\\frac{1}{2}+3)\\times8$ misreads the order."],
+          },
+        },
+        {
+          id: "cilm-u1-dd-q9",
+          difficulty: "challenge",
+          totalMarks: 1,
+          stem: "Calculate $18 \\div 0.5 + 3$.",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "$36$" },
+              { id: "b", text: "$21$" },
+              { id: "c", text: "$39$" },
+              { id: "d", text: "$9$" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              { kind: "convention", name: "BIDMAS and decimal division", statement: "Divide first: $18\\div0.5=36$, then add 3." },
+            ],
+            steps: [
+              { reasoning: "$18 \\div 0.5 = 180 \\div 5 = 36$; then $36 + 3 = 39$.", working: "36+3=39", marks: 1, markCode: "B" },
+            ],
+            finalAnswer: "**(a)** $39$",
+            commonErrors: ["Choosing (b) — $18\\div(0.5+3)$ wrongly groups the addition inside the division."],
+          },
+        },
+        {
+          id: "cilm-u1-dd-q10",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Calculate $7.2 \\div 0.9$.",
+          response: { type: "numeric", parts: [{ label: "Answer", answer: 8 }] },
+          markscheme: {
+            principles: [
+              { kind: "convention", name: "Decimal division", statement: "Scale by 10: $72 \\div 9$." },
+            ],
+            steps: [
+              { reasoning: "$7.2 \\div 0.9 = 72 \\div 9 = 8$.", working: "72\\div9=8", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$8$",
+            commonErrors: ["$0.8$ — forgetting to scale the dividend as well as the divisor."],
+          },
+        },
+        {
+          id: "cilm-u1-dd-q11",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "Calculate (a) $0.56 \\div 0.07$ (b) $4.5 \\div 0.15$.",
+          response: { type: "numeric", parts: [{ label: "(a)", answer: 8 }, { label: "(b)", answer: 30 }] },
+          markscheme: {
+            principles: [
+              { kind: "convention", name: "Decimal division", statement: "Multiply both numbers by a power of 10 to make the divisor whole." },
+            ],
+            steps: [
+              { reasoning: "(a) $0.56 \\div 0.07 = 56 \\div 7 = 8$.", working: "56\\div7=8", marks: 1, markCode: "A" },
+              { reasoning: "(b) $4.5 \\div 0.15 = 450 \\div 15 = 30$.", working: "450\\div15=30", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "(a) $8$ (b) $30$",
+            commonErrors: ["Miscounting decimal places — check by multiplying back."],
+          },
+        },
+        {
+          id: "cilm-u1-dd-q12",
+          difficulty: "challenge",
+          totalMarks: 2,
+          stem: "Calculate $15 \\div 0.4$.",
+          response: { type: "numeric", parts: [{ label: "Answer", answer: 37.5 }] },
+          markscheme: {
+            principles: [
+              { kind: "convention", name: "Decimal division", statement: "Scale by 10: $150 \\div 4$." },
+            ],
+            steps: [
+              { reasoning: "$15 \\div 0.4 = 150 \\div 4$.", working: "150\\div4", marks: 1, markCode: "M" },
+              { reasoning: "$= 37.5$.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$37.5$",
+            commonErrors: ["$3.75$ — decimal point placed incorrectly; $0.4 \\times 37.5 = 15$ confirms."],
+          },
+        },
+        {
+          id: "cilm-u1-dd-q13",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "Calculate $18 - 3 \\times (4 - 1)$.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "BIDMAS", statement: "Brackets first, then multiplication, then subtraction." },
+            ],
+            steps: [
+              { reasoning: "Brackets: $4 - 1 = 3$.", working: "4-1=3", marks: 1, markCode: "M" },
+              { reasoning: "Then $3 \\times 3 = 9$.", working: "3\\times3=9", marks: 1, markCode: "M" },
+              { reasoning: "Finally $18 - 9 = 9$.", working: "18-9=9", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$9$",
+            commonErrors: ["$18 - 12 + 1$ style working — brackets must be completed before any multiplication."],
+          },
+        },
+        {
+          id: "cilm-u1-dd-q14",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "Calculate $2.5 \\times 4 - 6 \\div 0.5$.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "BIDMAS with decimals", statement: "Multiplication and division (left to right) before subtraction." },
+            ],
+            steps: [
+              { reasoning: "$2.5 \\times 4 = 10$ and $6 \\div 0.5 = 12$.", working: "2.5\\times4=10;\\ 6\\div0.5=12", marks: 1, markCode: "M" },
+              { reasoning: "Expression becomes $10 - 12$.", working: "10-12", marks: 1, markCode: "M" },
+              { reasoning: "$10 - 12 = -2$.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$-2$",
+            commonErrors: ["$-1$ — computing $6\\div0.5$ as $3$ (dividing by 2 instead of 0.5)."],
+          },
+        },
+        {
+          id: "cilm-u1-dd-q15",
+          difficulty: "challenge",
+          totalMarks: 7,
+          stem: "Work out these calculations.",
+          parts: [
+            { label: "a", prompt: "Calculate $9.6 \\div 0.8$.", marks: 2 },
+            { label: "b", prompt: "Calculate $5 + 3 \\times (10 - 4)$.", marks: 3 },
+            { label: "c", prompt: "Explain why $5 + 3 \\times (10 - 4)$ is not the same as $(5 + 3) \\times (10 - 4)$.", marks: 2 },
+          ],
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "BIDMAS", statement: "Brackets, then multiplication, then addition — brackets change everything." },
+            ],
+            steps: [
+              { part: "a", reasoning: "$9.6 \\div 0.8 = 96 \\div 8 = 12$.", working: "96\\div8=12", marks: 1, markCode: "M" },
+              { part: "a", reasoning: "Correct.", marks: 1, markCode: "A" },
+              { part: "b", reasoning: "Brackets: $10-4=6$; then $3\\times6=18$; then $5+18=23$.", working: "5+18=23", marks: 1, markCode: "M" },
+              { part: "b", reasoning: "Correct order applied.", marks: 1, markCode: "M" },
+              { part: "b", reasoning: "$23$ correct.", marks: 1, markCode: "A" },
+              { part: "c", reasoning: "In the first, only $3$ is multiplied by $6$; in the second, $(5+3)=8$ is multiplied — different groupings give different results ($23$ vs $48$).", working: "23 \\text{ vs } 48", marks: 1, markCode: "M" },
+              { part: "c", reasoning: "Clear explanation of grouping.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "(a) $12$ (b) $23$ (c) different grouping changes the result",
+            levels: [
+              { level: "Level 2", marks: "1-2", descriptor: "Division correct.", part: "a" },
+              { level: "Level 1", marks: "0", descriptor: "Wrong.", part: "a" },
+              { level: "Level 3", marks: "2-3", descriptor: "BIDMAS applied correctly.", part: "b" },
+              { level: "Level 2", marks: "1", descriptor: "Partial.", part: "b" },
+              { level: "Level 2", marks: "1-2", descriptor: "Grouping explained.", part: "c" },
+              { level: "Level 1", marks: "0", descriptor: "Vague.", part: "c" },
+            ],
+            commonErrors: ["In (b) adding $5+3=8$ first, then $8\\times6=48$ — addition does not come before multiplication."],
+          },
+        },
+        {
+          id: "cilm-u1-dd-q16",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "Compare $48 \\div 4 + 2$ with $48 \\div (4 + 2)$. Explain why the answers differ.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Brackets in BIDMAS", statement: "Brackets force the addition first; without them division comes first." },
+            ],
+            steps: [
+              { reasoning: "Without brackets: $48 \\div 4 = 12$, then $12 + 2 = 14$.", working: "48\\div4+2=14", marks: 1, markCode: "M" },
+              { reasoning: "With brackets: $4 + 2 = 6$ first, then $48 \\div 6 = 8$.", working: "48\\div6=8", marks: 1, markCode: "M" },
+              { reasoning: "The bracketed version divides by 6, not 4 — the grouping changes the divisor.", marks: 1, markCode: "M" },
+              { reasoning: "Answers: $14$ and $8$ — brackets matter.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "$14$ vs $8$ — brackets change which operation happens first",
+            commonErrors: ["Getting $16$ for the first — must divide before adding."],
           },
         },
       ],

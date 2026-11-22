@@ -52,12 +52,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "People who go to a gym are likely to exercise more than most people in the town" },
-              { id: "b", text: "The sample is too large" },
-              { id: "c", text: "She asked people outdoors" },
-              { id: "d", text: "She asked exactly 30 people" },
+              { id: "a", text: "The sample is too large" },
+              { id: "b", text: "She asked people outdoors" },
+              { id: "c", text: "She asked exactly 30 people" },
+              { id: "d", text: "People who go to a gym are likely to exercise more than most people in the town" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -78,12 +78,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "0 to 2, 3 to 5, 6 to 8 hours" },
-              { id: "b", text: "less than 3, 3 to less than 6, 6 to less than 9, 9 or more hours" },
-              { id: "c", text: "0 to 3, 3 to 6, 6 to 9, 9 to 12 hours" },
+              { id: "a", text: "0 to 3, 3 to 6, 6 to 9, 9 to 12 hours" },
+              { id: "b", text: "0 to 2, 3 to 5, 6 to 8 hours" },
+              { id: "c", text: "less than 3, 3 to less than 6, 6 to less than 9, 9 or more hours" },
               { id: "d", text: "0 to 4, 2 to 6, 4 to 8 hours" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -197,12 +197,12 @@ export const lesson43: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The vertical axis starts at 50 instead of 0" },
-              { id: "b", text: "The bars are labelled" },
+              { id: "a", text: "The bars are labelled" },
+              { id: "b", text: "The bars are the same width" },
               { id: "c", text: "The chart has a title" },
-              { id: "d", text: "The bars are the same width" },
+              { id: "d", text: "The vertical axis starts at 50 instead of 0" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

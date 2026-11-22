@@ -88,18 +88,18 @@ export const lesson32: Lesson = {
               },
               {
                 "id": "b",
-                "text": "1 cm"
+                "text": "0.1 mm"
               },
               {
                 "id": "c",
-                "text": "1 mm"
+                "text": "1 cm"
               },
               {
                 "id": "d",
-                "text": "0.1 mm"
+                "text": "1 mm"
               }
             ],
-            "correctChoiceId": "c"
+            "dorrectChoiceId": "c"
           },
           "markscheme": {
             "principles": [
@@ -357,7 +357,7 @@ export const lesson32: Lesson = {
             "choices": [
               {
                 "id": "a",
-                "text": "change several variables at once"
+                "text": "use an uncalibrated balance"
               },
               {
                 "id": "b",
@@ -365,11 +365,11 @@ export const lesson32: Lesson = {
               },
               {
                 "id": "c",
-                "text": "use an uncalibrated balance"
+                "text": "record only one reading"
               },
               {
                 "id": "d",
-                "text": "record only one reading"
+                "text": "change several variables at once"
               }
             ],
             "correctChoiceId": "b"

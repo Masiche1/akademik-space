@@ -51,12 +51,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$4$" },
-              { id: "b", text: "$-4$" },
-              { id: "c", text: "$14$" },
-              { id: "d", text: "$-14$" },
+              { id: "a", text: "$-14$" },
+              { id: "b", text: "$14$" },
+              { id: "c", text: "$4$" },
+              { id: "d", text: "$-4$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -179,10 +179,10 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$x^2-1=(x-1)^2$" },
+              { id: "a", text: "$x^2-2x=x(x-2)+1$" },
               { id: "b", text: "$x^2-1=(x-1)(x+1)$" },
-              { id: "c", text: "$x^2+1=(x+1)^2$" },
-              { id: "d", text: "$x^2-2x=x(x-2)+1$" },
+              { id: "c", text: "$x^2-1=(x-1)^2$" },
+              { id: "d", text: "$x^2+1=(x+1)^2$" },
             ],
             correctChoiceId: "b",
           },

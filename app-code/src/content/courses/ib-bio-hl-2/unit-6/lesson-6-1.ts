@@ -93,16 +93,16 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              {
-                id: "a",
-                text: "Voltage-gated sodium channels open continuously",
-              },
+              { id: "a", text: "Myelin insulation alone" },
               {
                 id: "b",
                 text: "The $\\text{Na}^+/\\text{K}^+$ pump and selective ion permeability",
               },
               { id: "c", text: "Calcium influx at the synapse" },
-              { id: "d", text: "Myelin insulation alone" },
+              {
+                id: "d",
+                text: "Voltage-gated sodium channels open continuously",
+              },
             ],
             correctChoiceId: "b",
           },
@@ -148,15 +148,15 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The axon physically only allows forward flow" },
+              { id: "a", text: "The myelin sheath blocks backward flow" },
+              { id: "b", text: "Neurotransmitter only travels forward" },
               {
-                id: "b",
+                id: "c",
                 text: "The membrane behind the impulse cannot depolarise again immediately, so the impulse can only spread to the unrefracted region ahead",
               },
-              { id: "c", text: "Neurotransmitter only travels forward" },
-              { id: "d", text: "The myelin sheath blocks backward flow" },
+              { id: "d", text: "The axon physically only allows forward flow" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -211,12 +211,12 @@ export const lesson61: Lesson = {
                 id: "a",
                 text: "Temporal summation of sub-threshold inputs, reinforced by synaptic potentiation",
               },
+              { id: "b", text: "Myelin has regenerated on neuron B" },
+              { id: "c", text: "The refractory period has been eliminated" },
               {
-                id: "b",
+                id: "d",
                 text: "Spatial summation from a second presynaptic neuron",
               },
-              { id: "c", text: "The refractory period has been eliminated" },
-              { id: "d", text: "Myelin has regenerated on neuron B" },
             ],
             correctChoiceId: "a",
           },
@@ -523,22 +523,22 @@ export const lesson61: Lesson = {
             choices: [
               {
                 id: "a",
-                text: "Sodium ions entering through voltage-gated channels",
-              },
-              {
-                id: "b",
-                text: "Calcium ion influx through voltage-gated channels, triggering vesicle exocytosis",
-              },
-              {
-                id: "c",
                 text: "The $\\text{Na}^+/\\text{K}^+$ pump reversing direction",
               },
               {
-                id: "d",
+                id: "b",
                 text: "Passive diffusion of transmitter through the membrane",
               },
+              {
+                id: "c",
+                text: "Sodium ions entering through voltage-gated channels",
+              },
+              {
+                id: "d",
+                text: "Calcium ion influx through voltage-gated channels, triggering vesicle exocytosis",
+              },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -700,11 +700,11 @@ export const lesson61: Lesson = {
             choices: [
               {
                 id: "a",
-                text: "The drugs permanently destroy dopamine receptors",
+                text: "Drug-driven dopamine signals trigger long-term potentiation, strengthening drug-associated synapses so cues alone can later trigger craving",
               },
               {
                 id: "b",
-                text: "Drug-driven dopamine signals trigger long-term potentiation, strengthening drug-associated synapses so cues alone can later trigger craving",
+                text: "The drugs permanently destroy dopamine receptors",
               },
               {
                 id: "c",
@@ -715,7 +715,7 @@ export const lesson61: Lesson = {
                 text: "The drugs increase the resting potential above threshold permanently",
               },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -1123,16 +1123,16 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "High thyroxine stimulates more TSH release" },
+              { id: "a", text: "Thyroxine has no feedback effect" },
               {
                 id: "b",
                 text: "High thyroxine inhibits TRH and TSH release, stabilising thyroxine levels",
               },
+              { id: "c", text: "High thyroxine stimulates more TSH release" },
               {
-                id: "c",
+                id: "d",
                 text: "TSH directly stimulates thyroxine release from the thyroid",
               },
-              { id: "d", text: "Thyroxine has no feedback effect" },
             ],
             correctChoiceId: "b",
           },
@@ -1180,19 +1180,19 @@ export const lesson61: Lesson = {
             choices: [
               {
                 id: "a",
+                text: "Type 2 diabetes — insulin resistance where cells fail to respond despite insulin being present",
+              },
+              { id: "b", text: "Addison's disease — cortisol deficiency" },
+              {
+                id: "c",
                 text: "Type 1 diabetes — autoimmune destruction of $\\beta$-cells causing insulin deficiency",
               },
               {
-                id: "b",
-                text: "Type 2 diabetes — insulin resistance where cells fail to respond despite insulin being present",
-              },
-              {
-                id: "c",
+                id: "d",
                 text: "Hypoglycaemia — excess insulin lowering glucose",
               },
-              { id: "d", text: "Addison's disease — cortisol deficiency" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -1243,15 +1243,15 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              {
-                id: "a",
-                text: "Negative feedback — it stabilises oxytocin levels",
-              },
+              { id: "a", text: "No feedback — hormones act independently" },
               {
                 id: "b",
                 text: "Positive feedback — it amplifies the stimulus to complete a one-off process (childbirth)",
               },
-              { id: "c", text: "No feedback — hormones act independently" },
+              {
+                id: "c",
+                text: "Negative feedback — it stabilises oxytocin levels",
+              },
               {
                 id: "d",
                 text: "Negative feedback that eventually stops the contractions",
@@ -1437,12 +1437,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Alpha cells of the pancreatic islets" },
-              { id: "b", text: "Beta cells of the pancreatic islets" },
-              { id: "c", text: "Acinar cells of the pancreas" },
-              { id: "d", text: "D cells of the hypothalamus" },
+              { id: "a", text: "Beta cells of the pancreatic islets" },
+              { id: "b", text: "Acinar cells of the pancreas" },
+              { id: "c", text: "D cells of the hypothalamus" },
+              { id: "d", text: "Alpha cells of the pancreatic islets" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -1526,18 +1526,18 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
+              { id: "a", text: "Adrenaline release, increasing heart rate" },
+              { id: "b", text: "Thyroxine release, increasing metabolic rate" },
               {
-                id: "a",
-                text: "Insulin release, increasing glucose uptake by cells",
-              },
-              {
-                id: "b",
+                id: "c",
                 text: "Glucagon release, stimulating glycogen breakdown and gluconeogenesis in the liver",
               },
-              { id: "c", text: "Adrenaline release, increasing heart rate" },
-              { id: "d", text: "Thyroxine release, increasing metabolic rate" },
+              {
+                id: "d",
+                text: "Insulin release, increasing glucose uptake by cells",
+              },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1703,18 +1703,18 @@ export const lesson61: Lesson = {
               },
               {
                 id: "b",
-                text: "Because hormones act at trace concentrations, a mimic at low doses can send false hormonal signals and disrupt development — a legitimate low-dose concern",
+                text: "Endocrine disruptors only affect adults, not development",
               },
               {
                 id: "c",
-                text: "It is safe because receptor binding always produces the correct response",
+                text: "Because hormones act at trace concentrations, a mimic at low doses can send false hormonal signals and disrupt development — a legitimate low-dose concern",
               },
               {
                 id: "d",
-                text: "Endocrine disruptors only affect adults, not development",
+                text: "It is safe because receptor binding always produces the correct response",
               },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -2019,18 +2019,18 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              {
-                id: "a",
-                text: "Because they accumulate in fatty tissue over decades",
-              },
+              { id: "a", text: "They are always lethal at any dose" },
               {
                 id: "b",
+                text: "Because they accumulate in fatty tissue over decades",
+              },
+              { id: "c", text: "They only affect the nervous system" },
+              {
+                id: "d",
                 text: "Hormone receptors are exquisitely sensitive — hormones act at trace concentrations, so trace amounts of a mimic or blocker can alter signalling, especially during development",
               },
-              { id: "c", text: "They are always lethal at any dose" },
-              { id: "d", text: "They only affect the nervous system" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -2083,19 +2083,19 @@ export const lesson61: Lesson = {
             choices: [
               {
                 id: "a",
-                text: "Cortisol stimulates CRH and ACTH release, amplifying the stress response",
+                text: "The HPA axis uses positive feedback to maintain cortisol permanently",
               },
               {
                 id: "b",
-                text: "Cortisol inhibits CRH and ACTH release — negative feedback that limits the stress response",
+                text: "Cortisol stimulates CRH and ACTH release, amplifying the stress response",
               },
               { id: "c", text: "ACTH is secreted by the adrenal cortex" },
               {
                 id: "d",
-                text: "The HPA axis uses positive feedback to maintain cortisol permanently",
+                text: "Cortisol inhibits CRH and ACTH release — negative feedback that limits the stress response",
               },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

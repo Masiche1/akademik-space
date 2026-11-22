@@ -53,12 +53,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Military expansion" },
-              { id: "b", text: "Openness and relaxed censorship" },
-              { id: "c", text: "Economic centralisation" },
-              { id: "d", text: "Foreign intervention" },
+              { id: "a", text: "Foreign intervention" },
+              { id: "b", text: "Economic centralisation" },
+              { id: "c", text: "Military expansion" },
+              { id: "d", text: "Openness and relaxed censorship" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -152,12 +152,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "1979" },
+              { id: "a", text: "1985" },
               { id: "b", text: "1982" },
-              { id: "c", text: "1985" },
+              { id: "c", text: "1979" },
               { id: "d", text: "1989" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -180,12 +180,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Expanding the Soviet nuclear arsenal" },
-              { id: "b", text: "Arms reductions such as the INF Treaty" },
-              { id: "c", text: "Invading Eastern Europe" },
-              { id: "d", text: "Supporting hardline coups" },
+              { id: "a", text: "Supporting hardline coups" },
+              { id: "b", text: "Invading Eastern Europe" },
+              { id: "c", text: "Arms reductions such as the INF Treaty" },
+              { id: "d", text: "Expanding the Soviet nuclear arsenal" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -209,9 +209,9 @@ export const lesson61: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Eliminate an entire class of nuclear missiles" },
-              { id: "b", text: "Share nuclear technology" },
-              { id: "c", text: "End all nuclear weapons immediately" },
-              { id: "d", text: "Create a joint space programme" },
+              { id: "b", text: "End all nuclear weapons immediately" },
+              { id: "c", text: "Create a joint space programme" },
+              { id: "d", text: "Share nuclear technology" },
             ],
             correctChoiceId: "a",
           },
@@ -236,12 +236,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Restructuring of the economy" },
-              { id: "b", text: "Openness — an end to censorship and allowance of criticism" },
-              { id: "c", text: "Privatisation of state industries" },
-              { id: "d", text: "Free elections in all republics" },
+              { id: "a", text: "Openness — an end to censorship and allowance of criticism" },
+              { id: "b", text: "Restructuring of the economy" },
+              { id: "c", text: "Free elections in all republics" },
+              { id: "d", text: "Privatisation of state industries" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -264,9 +264,9 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "1979" },
-              { id: "b", text: "1985" },
-              { id: "c", text: "1987" },
+              { id: "a", text: "1987" },
+              { id: "b", text: "1979" },
+              { id: "c", text: "1985" },
               { id: "d", text: "1989" },
             ],
             correctChoiceId: "d",
@@ -292,12 +292,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Germany remain neutral forever" },
-              { id: "b", text: "A reunited Germany remain within NATO" },
-              { id: "c", text: "The USSR receive reparations" },
-              { id: "d", text: "Poland regain territory" },
+              { id: "a", text: "A reunited Germany remain within NATO" },
+              { id: "b", text: "Germany remain neutral forever" },
+              { id: "c", text: "Poland regain territory" },
+              { id: "d", text: "The USSR receive reparations" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -473,11 +473,11 @@ export const lesson61: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Boris Yeltsin" },
-              { id: "b", text: "Communist hardliners opposed to reform" },
-              { id: "c", text: "The Baltic independence movements" },
-              { id: "d", text: "Western governments" },
+              { id: "b", text: "Western governments" },
+              { id: "c", text: "Communist hardliners opposed to reform" },
+              { id: "d", text: "The Baltic independence movements" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -571,12 +571,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "1985" },
+              { id: "a", text: "1991" },
               { id: "b", text: "1989" },
-              { id: "c", text: "1990" },
-              { id: "d", text: "1991" },
+              { id: "c", text: "1985" },
+              { id: "d", text: "1990" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -599,12 +599,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Boris Yeltsin" },
-              { id: "b", text: "Communist hardliners who imprisoned Gorbachev" },
-              { id: "c", text: "The Baltic independence movements" },
-              { id: "d", text: "Reformist generals loyal to Gorbachev" },
+              { id: "a", text: "The Baltic independence movements" },
+              { id: "b", text: "Boris Yeltsin" },
+              { id: "c", text: "Reformist generals loyal to Gorbachev" },
+              { id: "d", text: "Communist hardliners who imprisoned Gorbachev" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -627,12 +627,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Negotiated secretly with the coup leaders" },
-              { id: "b", text: "Rallied resistance from atop a tank outside the parliament building" },
-              { id: "c", text: "Fled to the United States" },
-              { id: "d", text: "Ordered Soviet troops to attack Moscow" },
+              { id: "a", text: "Fled to the United States" },
+              { id: "b", text: "Ordered Soviet troops to attack Moscow" },
+              { id: "c", text: "Negotiated secretly with the coup leaders" },
+              { id: "d", text: "Rallied resistance from atop a tank outside the parliament building" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -655,12 +655,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "August 1991" },
-              { id: "b", text: "December 1991" },
-              { id: "c", text: "March 1990" },
-              { id: "d", text: "January 1992" },
+              { id: "a", text: "January 1992" },
+              { id: "b", text: "March 1990" },
+              { id: "c", text: "August 1991" },
+              { id: "d", text: "December 1991" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -683,12 +683,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "August 1991" },
-              { id: "b", text: "October 1991" },
-              { id: "c", text: "25 December 1991" },
-              { id: "d", text: "1 January 1992" },
+              { id: "a", text: "October 1991" },
+              { id: "b", text: "25 December 1991" },
+              { id: "c", text: "1 January 1992" },
+              { id: "d", text: "August 1991" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -711,12 +711,12 @@ export const lesson61: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "NATO" },
-              { id: "b", text: "The Commonwealth of Independent States (CIS)" },
-              { id: "c", text: "The European Union" },
-              { id: "d", text: "The Warsaw Pact" },
+              { id: "a", text: "The European Union" },
+              { id: "b", text: "The Warsaw Pact" },
+              { id: "c", text: "NATO" },
+              { id: "d", text: "The Commonwealth of Independent States (CIS)" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

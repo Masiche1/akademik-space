@@ -55,12 +55,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Standing upright while playing" },
-              { id: "b", text: "Adjusting relative loudness so all parts are heard appropriately" },
+              { id: "a", text: "Playing at the same tempo" },
+              { id: "b", text: "Standing upright while playing" },
               { id: "c", text: "Keeping instruments in tune" },
-              { id: "d", text: "Playing at the same tempo" },
+              { id: "d", text: "Adjusting relative loudness so all parts are heard appropriately" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -156,12 +156,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Playing at exactly the same dynamic level" },
-              { id: "b", text: "Matching tone quality and intonation so parts merge into a unified whole" },
+              { id: "a", text: "Matching tone quality and intonation so parts merge into a unified whole" },
+              { id: "b", text: "Playing at exactly the same dynamic level" },
               { id: "c", text: "Standing close together on stage" },
               { id: "d", text: "Using identical instruments" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -185,12 +185,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A written note in the score" },
-              { id: "b", text: "A signal — visual, physical or musical — that coordinates entries and changes" },
+              { id: "a", text: "A signal — visual, physical or musical — that coordinates entries and changes" },
+              { id: "b", text: "A written note in the score" },
               { id: "c", text: "A type of dynamic marking" },
               { id: "d", text: "A rehearsal schedule" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -215,11 +215,11 @@ export const lesson13: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Only hearing your own part clearly" },
-              { id: "b", text: "Monitoring other parts while playing your own" },
-              { id: "c", text: "Waiting for the conductor's every instruction" },
-              { id: "d", text: "Memorising all parts before rehearsing" },
+              { id: "b", text: "Waiting for the conductor's every instruction" },
+              { id: "c", text: "Memorising all parts before rehearsing" },
+              { id: "d", text: "Monitoring other parts while playing your own" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -243,12 +243,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The easiest sections to build confidence" },
-              { id: "b", text: "The most difficult or problematic sections" },
-              { id: "c", text: "A full performance run-through" },
-              { id: "d", text: "Social conversation between players" },
+              { id: "a", text: "The most difficult or problematic sections" },
+              { id: "b", text: "A full performance run-through" },
+              { id: "c", text: "Social conversation between players" },
+              { id: "d", text: "The easiest sections to build confidence" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -272,10 +272,10 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Builds muscle memory for the correct version" },
+              { id: "a", text: "Helps players memorise the score faster" },
               { id: "b", text: "Reinforces the error and wastes rehearsal time" },
-              { id: "c", text: "Improves ensemble blend automatically" },
-              { id: "d", text: "Helps players memorise the score faster" },
+              { id: "c", text: "Builds muscle memory for the correct version" },
+              { id: "d", text: "Improves ensemble blend automatically" },
             ],
             correctChoiceId: "b",
           },
@@ -301,12 +301,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Each player tuning only to themselves in isolation" },
-              { id: "b", text: "Players matching pitch and listening to each other while playing together" },
+              { id: "a", text: "Players matching pitch and listening to each other while playing together" },
+              { id: "b", text: "Each player tuning only to themselves in isolation" },
               { id: "c", text: "Playing louder to overpower the wrong notes" },
               { id: "d", text: "Skipping rehearsal until the concert" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -503,12 +503,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Technical accuracy alone" },
-              { id: "b", text: "The performer's interpretation of the piece's meaning" },
-              { id: "c", text: "The composer's biography" },
-              { id: "d", text: "The instrument's capabilities" },
+              { id: "a", text: "The composer's biography" },
+              { id: "b", text: "The instrument's capabilities" },
+              { id: "c", text: "Technical accuracy alone" },
+              { id: "d", text: "The performer's interpretation of the piece's meaning" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -604,12 +604,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Wearing formal concert attire" },
-              { id: "b", text: "The performer's physical and mental engagement that communicates with the audience" },
+              { id: "a", text: "The performer's physical and mental engagement that communicates with the audience" },
+              { id: "b", text: "Wearing formal concert attire" },
               { id: "c", text: "The size of the performance venue" },
               { id: "d", text: "The number of pieces in the programme" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -633,12 +633,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Repeating finger movements many times" },
-              { id: "b", text: "Understanding the piece's structure and phrases" },
+              { id: "a", text: "Reading the score right up to the concert" },
+              { id: "b", text: "Repeating finger movements many times" },
               { id: "c", text: "Watching a video of the performance" },
-              { id: "d", text: "Reading the score right up to the concert" },
+              { id: "d", text: "Understanding the piece's structure and phrases" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -662,12 +662,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Playing exactly what is written with no personal choices" },
-              { id: "b", text: "The performer's personal shaping of the piece's meaning through expressive choices" },
-              { id: "c", text: "Translating the piece into another language" },
-              { id: "d", text: "Changing the notes to make the piece easier" },
+              { id: "a", text: "The performer's personal shaping of the piece's meaning through expressive choices" },
+              { id: "b", text: "Playing exactly what is written with no personal choices" },
+              { id: "c", text: "Changing the notes to make the piece easier" },
+              { id: "d", text: "Translating the piece into another language" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -691,12 +691,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Making the audience wait longer" },
-              { id: "b", text: "Projecting composure and giving the performer a moment to focus" },
+              { id: "a", text: "Projecting composure and giving the performer a moment to focus" },
+              { id: "b", text: "Making the audience wait longer" },
               { id: "c", text: "Showing off technical skill" },
               { id: "d", text: "Avoiding the need for warm-ups" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -720,12 +720,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Always produces the most expressive performance" },
-              { id: "b", text: "Can collapse under pressure because it lacks structural understanding" },
+              { id: "a", text: "Guarantees the performer will not make mistakes" },
+              { id: "b", text: "Always produces the most expressive performance" },
               { id: "c", text: "Is the only reliable method of memorisation" },
-              { id: "d", text: "Guarantees the performer will not make mistakes" },
+              { id: "d", text: "Can collapse under pressure because it lacks structural understanding" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -749,12 +749,12 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Stop immediately and apologise to the audience" },
-              { id: "b", text: "Continue as smoothly as possible and recover into the next phrase" },
-              { id: "c", text: "Restart the entire piece from the beginning" },
-              { id: "d", text: "Look down at the score and try to find the place" },
+              { id: "a", text: "Continue as smoothly as possible and recover into the next phrase" },
+              { id: "b", text: "Stop immediately and apologise to the audience" },
+              { id: "c", text: "Look down at the score and try to find the place" },
+              { id: "d", text: "Restart the entire piece from the beginning" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

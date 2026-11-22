@@ -58,9 +58,9 @@ export const lesson23: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Me" },
-              { id: "b", text: "Him" },
+              { id: "b", text: "Us" },
               { id: "c", text: "Sam" },
-              { id: "d", text: "Us" },
+              { id: "d", text: "Him" },
             ],
             correctChoiceId: "c",
           },
@@ -173,12 +173,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "'I am happy,' she said." },
-              { id: "b", text: "She said she was happy." },
-              { id: "c", text: "'Are you happy?' he asked." },
+              { id: "a", text: "She said she was happy." },
+              { id: "b", text: "'Are you happy?' he asked." },
+              { id: "c", text: "'I am happy,' she said." },
               { id: "d", text: "She shouted 'Hooray!'" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [

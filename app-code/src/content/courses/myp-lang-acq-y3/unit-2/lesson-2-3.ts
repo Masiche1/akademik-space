@@ -57,11 +57,11 @@ export const lesson23: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Bye, Tom" },
-              { id: "b", text: "Yours sincerely" },
+              { id: "b", text: "TTYL" },
               { id: "c", text: "See ya!" },
-              { id: "d", text: "TTYL" },
+              { id: "d", text: "Yours sincerely" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -160,12 +160,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The greeting" },
-              { id: "b", text: "The subject line" },
-              { id: "c", text: "The sign-off" },
-              { id: "d", text: "The signature" },
+              { id: "a", text: "The signature" },
+              { id: "b", text: "The sign-off" },
+              { id: "c", text: "The greeting" },
+              { id: "d", text: "The subject line" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -188,11 +188,11 @@ export const lesson23: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Yours faithfully" },
-              { id: "b", text: "Dear Sir" },
-              { id: "c", text: "See you soon!" },
-              { id: "d", text: "To whom it may concern" },
+              { id: "b", text: "To whom it may concern" },
+              { id: "c", text: "Dear Sir" },
+              { id: "d", text: "See you soon!" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -214,12 +214,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "hi" },
-              { id: "b", text: "Question" },
-              { id: "c", text: "Extra maths help please" },
-              { id: "d", text: "!!!" },
+              { id: "a", text: "!!!" },
+              { id: "b", text: "Extra maths help please" },
+              { id: "c", text: "Question" },
+              { id: "d", text: "hi" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -241,12 +241,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Can you help me?" },
-              { id: "b", text: "Could you send me the notes from Monday's lesson by Wednesday? I was absent." },
+              { id: "a", text: "Could you send me the notes from Monday's lesson by Wednesday? I was absent." },
+              { id: "b", text: "Do something about it." },
               { id: "c", text: "I need stuff." },
-              { id: "d", text: "Do something about it." },
+              { id: "d", text: "Can you help me?" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -274,10 +274,10 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It is too long" },
+              { id: "a", text: "It has too many questions" },
               { id: "b", text: "It lacks all structure and detail — no greeting, reason or clear purpose" },
               { id: "c", text: "It uses too many formal words" },
-              { id: "d", text: "It has too many questions" },
+              { id: "d", text: "It is too long" },
             ],
             correctChoiceId: "b",
           },
@@ -301,12 +301,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The sign-off" },
-              { id: "b", text: "The greeting" },
+              { id: "a", text: "The greeting" },
+              { id: "b", text: "The sign-off" },
               { id: "c", text: "The request" },
               { id: "d", text: "Your name" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -516,9 +516,9 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "They are the same thing" },
+              { id: "a", text: "Editing is only for spelling" },
               { id: "b", text: "Editing improves content/organisation; proofreading fixes errors" },
-              { id: "c", text: "Editing is only for spelling" },
+              { id: "c", text: "They are the same thing" },
               { id: "d", text: "Proofreading is only for content" },
             ],
             correctChoiceId: "b",
@@ -620,11 +620,11 @@ export const lesson23: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Fix every spelling mistake" },
-              { id: "b", text: "Edit for content and organisation" },
-              { id: "c", text: "Add more words" },
-              { id: "d", text: "Change the font" },
+              { id: "b", text: "Add more words" },
+              { id: "c", text: "Change the font" },
+              { id: "d", text: "Edit for content and organisation" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -646,12 +646,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Is the spelling correct?" },
-              { id: "b", text: "Does the text answer the question?" },
-              { id: "c", text: "Are there full stops?" },
+              { id: "a", text: "Does the text answer the question?" },
+              { id: "b", text: "Are there full stops?" },
+              { id: "c", text: "Is the spelling correct?" },
               { id: "d", text: "Is 'receive' spelled right?" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -673,12 +673,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "very very good" },
-              { id: "b", text: "excellent" },
-              { id: "c", text: "good good" },
-              { id: "d", text: "really very good" },
+              { id: "a", text: "really very good" },
+              { id: "b", text: "good good" },
+              { id: "c", text: "excellent" },
+              { id: "d", text: "very very good" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -702,8 +702,8 @@ export const lesson23: Lesson = {
             choices: [
               { id: "a", text: "The argument is unclear" },
               { id: "b", text: "recieve instead of receive" },
-              { id: "c", text: "The order of ideas is illogical" },
-              { id: "d", text: "A key detail is missing" },
+              { id: "c", text: "A key detail is missing" },
+              { id: "d", text: "The order of ideas is illogical" },
             ],
             correctChoiceId: "b",
           },
@@ -733,12 +733,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Spelling mistakes" },
-              { id: "b", text: "It is a list of short facts with no detail or feeling" },
+              { id: "a", text: "It is a list of short facts with no detail or feeling" },
+              { id: "b", text: "Spelling mistakes" },
               { id: "c", text: "Wrong tense" },
               { id: "d", text: "Too many commas" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -760,12 +760,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Check every comma" },
-              { id: "b", text: "Ask: does it answer the question and include everything needed?" },
-              { id: "c", text: "Count the words" },
-              { id: "d", text: "Change the greeting" },
+              { id: "a", text: "Change the greeting" },
+              { id: "b", text: "Check every comma" },
+              { id: "c", text: "Ask: does it answer the question and include everything needed?" },
+              { id: "d", text: "Count the words" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

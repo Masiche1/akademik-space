@@ -55,12 +55,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$16\\ \\text{cm}^2$" },
-              { id: "b", text: "$30\\ \\text{cm}^2$" },
-              { id: "c", text: "$60\\ \\text{cm}^2$" },
-              { id: "d", text: "$32\\ \\text{cm}^2$" },
+              { id: "a", text: "$30\\ \\text{cm}^2$" },
+              { id: "b", text: "$32\\ \\text{cm}^2$" },
+              { id: "c", text: "$16\\ \\text{cm}^2$" },
+              { id: "d", text: "$60\\ \\text{cm}^2$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -161,12 +161,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$13\\ \\text{cm}^2$" },
-              { id: "b", text: "$26\\ \\text{cm}^2$" },
-              { id: "c", text: "$36\\ \\text{cm}^2$" },
-              { id: "d", text: "$18\\ \\text{cm}^2$" },
+              { id: "a", text: "$36\\ \\text{cm}^2$" },
+              { id: "b", text: "$18\\ \\text{cm}^2$" },
+              { id: "c", text: "$26\\ \\text{cm}^2$" },
+              { id: "d", text: "$13\\ \\text{cm}^2$" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -188,12 +188,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$28\\ \\text{cm}$" },
+              { id: "a", text: "$21\\ \\text{cm}$" },
               { id: "b", text: "$49\\ \\text{cm}$" },
-              { id: "c", text: "$14\\ \\text{cm}$" },
-              { id: "d", text: "$21\\ \\text{cm}$" },
+              { id: "c", text: "$28\\ \\text{cm}$" },
+              { id: "d", text: "$14\\ \\text{cm}$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -216,9 +216,9 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$60\\ \\text{cm}^2$" },
-              { id: "b", text: "$30\\ \\text{cm}^2$" },
+              { id: "b", text: "$34\\ \\text{cm}^2$" },
               { id: "c", text: "$17\\ \\text{cm}^2$" },
-              { id: "d", text: "$34\\ \\text{cm}^2$" },
+              { id: "d", text: "$30\\ \\text{cm}^2$" },
             ],
             correctChoiceId: "a",
           },
@@ -281,8 +281,8 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$8\\ \\text{cm}$" },
-              { id: "b", text: "$42\\ \\text{cm}$" },
-              { id: "c", text: "$288\\ \\text{cm}$" },
+              { id: "b", text: "$288\\ \\text{cm}$" },
+              { id: "c", text: "$42\\ \\text{cm}$" },
               { id: "d", text: "$54\\ \\text{cm}$" },
             ],
             correctChoiceId: "a",
@@ -328,11 +328,11 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$3\\ \\text{cm}$" },
-              { id: "b", text: "$6\\ \\text{cm}$" },
+              { id: "b", text: "$12\\ \\text{cm}$" },
               { id: "c", text: "$9\\ \\text{cm}$" },
-              { id: "d", text: "$12\\ \\text{cm}$" },
+              { id: "d", text: "$6\\ \\text{cm}$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -488,9 +488,9 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$0.045\\ \\text{cm}$" },
-              { id: "b", text: "$45\\ \\text{cm}$" },
+              { id: "b", text: "$4500\\ \\text{cm}$" },
               { id: "c", text: "$450\\ \\text{cm}$" },
-              { id: "d", text: "$4500\\ \\text{cm}$" },
+              { id: "d", text: "$45\\ \\text{cm}$" },
             ],
             correctChoiceId: "c",
           },
@@ -593,9 +593,9 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$320\\ \\text{g}$" },
+              { id: "a", text: "$0.32\\ \\text{g}$" },
               { id: "b", text: "$3200\\ \\text{g}$" },
-              { id: "c", text: "$0.32\\ \\text{g}$" },
+              { id: "c", text: "$320\\ \\text{g}$" },
               { id: "d", text: "$32\\ \\text{g}$" },
             ],
             correctChoiceId: "b",
@@ -620,12 +620,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$11\\ \\text{cm}^3$" },
-              { id: "b", text: "$40\\ \\text{cm}^3$" },
+              { id: "a", text: "$40\\ \\text{cm}^3$" },
+              { id: "b", text: "$400\\ \\text{cm}^3$" },
               { id: "c", text: "$20\\ \\text{cm}^3$" },
-              { id: "d", text: "$400\\ \\text{cm}^3$" },
+              { id: "d", text: "$11\\ \\text{cm}^3$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -647,12 +647,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$9\\ \\text{cm}^3$" },
-              { id: "b", text: "$27\\ \\text{cm}^3$" },
-              { id: "c", text: "$18\\ \\text{cm}^3$" },
-              { id: "d", text: "$81\\ \\text{cm}^3$" },
+              { id: "a", text: "$18\\ \\text{cm}^3$" },
+              { id: "b", text: "$9\\ \\text{cm}^3$" },
+              { id: "c", text: "$81\\ \\text{cm}^3$" },
+              { id: "d", text: "$27\\ \\text{cm}^3$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -712,12 +712,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$280\\ \\text{cm}^2$" },
-              { id: "b", text: "$140\\ \\text{cm}^2$" },
-              { id: "c", text: "$300\\ \\text{cm}^3$" },
+              { id: "a", text: "$300\\ \\text{cm}^3$" },
+              { id: "b", text: "$280\\ \\text{cm}^2$" },
+              { id: "c", text: "$140\\ \\text{cm}^2$" },
               { id: "d", text: "$155\\ \\text{cm}^2$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -760,12 +760,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$0.5\\ \\text{L}$" },
-              { id: "b", text: "$400\\ \\text{cm}^3$" },
-              { id: "c", text: "$0.04\\ \\text{L}$" },
-              { id: "d", text: "$450\\ \\text{mL}$" },
+              { id: "a", text: "$0.04\\ \\text{L}$" },
+              { id: "b", text: "$450\\ \\text{mL}$" },
+              { id: "c", text: "$400\\ \\text{cm}^3$" },
+              { id: "d", text: "$0.5\\ \\text{L}$" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [

@@ -51,10 +51,10 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Close the book and stop reading" },
-              { id: "b", text: "Guess a random meaning" },
+              { id: "a", text: "Guess a random meaning" },
+              { id: "b", text: "Skip the word and never think about it again" },
               { id: "c", text: "Read the whole sentence for clues and look at any pictures" },
-              { id: "d", text: "Skip the word and never think about it again" },
+              { id: "d", text: "Close the book and stop reading" },
             ],
             correctChoiceId: "c",
           },
@@ -149,12 +149,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Close the book and give up" },
-              { id: "b", text: "Read the whole sentence and look at the pictures for clues" },
+              { id: "a", text: "Read the whole sentence and look at the pictures for clues" },
+              { id: "b", text: "Close the book and give up" },
               { id: "c", text: "Guess any meaning quickly" },
               { id: "d", text: "Skip the word forever" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -194,12 +194,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The words around an unknown word that help you guess its meaning" },
-              { id: "b", text: "Pictures at the end of a book" },
-              { id: "c", text: "The title of the story" },
-              { id: "d", text: "Words that rhyme" },
+              { id: "a", text: "Pictures at the end of a book" },
+              { id: "b", text: "The title of the story" },
+              { id: "c", text: "Words that rhyme" },
+              { id: "d", text: "The words around an unknown word that help you guess its meaning" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -276,12 +276,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "To guess what will happen next using clues" },
-              { id: "b", text: "To copy the story word for word" },
-              { id: "c", text: "To count the pages" },
-              { id: "d", text: "To skip the difficult parts" },
+              { id: "a", text: "To count the pages" },
+              { id: "b", text: "To skip the difficult parts" },
+              { id: "c", text: "To copy the story word for word" },
+              { id: "d", text: "To guess what will happen next using clues" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -340,12 +340,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Keep reading faster and hope it makes sense" },
-              { id: "b", text: "Stop and never read that book again" },
-              { id: "c", text: "Go back and reread the paragraph" },
-              { id: "d", text: "Skip to the end" },
+              { id: "a", text: "Skip to the end" },
+              { id: "b", text: "Keep reading faster and hope it makes sense" },
+              { id: "c", text: "Stop and never read that book again" },
+              { id: "d", text: "Go back and reread the paragraph" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -366,12 +366,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Very small" },
-              { id: "b", text: "Very fast" },
-              { id: "c", text: "Very big" },
-              { id: "d", text: "Very old" },
+              { id: "a", text: "Very fast" },
+              { id: "b", text: "Very old" },
+              { id: "c", text: "Very small" },
+              { id: "d", text: "Very big" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -454,11 +454,11 @@ export const lesson21: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Guessing what Sam probably ate" },
-              { id: "b", text: "Finding the answer in the words of the text" },
-              { id: "c", text: "Asking Sam's friend" },
-              { id: "d", text: "Looking at the pictures only" },
+              { id: "b", text: "Asking Sam's friend" },
+              { id: "c", text: "Looking at the pictures only" },
+              { id: "d", text: "Finding the answer in the words of the text" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -558,11 +558,11 @@ export const lesson21: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Guessing what colour it probably was" },
-              { id: "b", text: "Finding the colour in the words of the text" },
+              { id: "b", text: "Looking at any picture, even a different one" },
               { id: "c", text: "Asking a friend" },
-              { id: "d", text: "Looking at any picture, even a different one" },
+              { id: "d", text: "Finding the colour in the words of the text" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -603,11 +603,11 @@ export const lesson21: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Find the exact words 'Tom felt bored'" },
-              { id: "b", text: "Guess randomly" },
-              { id: "c", text: "Use clues in the text to work out the reason" },
-              { id: "d", text: "Ask the writer" },
+              { id: "b", text: "Use clues in the text to work out the reason" },
+              { id: "c", text: "Ask the writer" },
+              { id: "d", text: "Guess randomly" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -685,11 +685,11 @@ export const lesson21: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "hide" },
-              { id: "b", text: "show" },
-              { id: "c", text: "forget" },
-              { id: "d", text: "spell" },
+              { id: "b", text: "spell" },
+              { id: "c", text: "show" },
+              { id: "d", text: "forget" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -748,12 +748,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The words in the text that support your answer" },
-              { id: "b", text: "A guess you make up" },
-              { id: "c", text: "The book's cover" },
-              { id: "d", text: "Your own opinion only" },
+              { id: "a", text: "Your own opinion only" },
+              { id: "b", text: "The book's cover" },
+              { id: "c", text: "A guess you make up" },
+              { id: "d", text: "The words in the text that support your answer" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -774,12 +774,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Her eyes lit up when she saw the puppy" },
-              { id: "b", text: "She was walking home" },
+              { id: "a", text: "The puppy was sleeping" },
+              { id: "b", text: "Her eyes lit up when she saw the puppy" },
               { id: "c", text: "It was raining" },
-              { id: "d", text: "The puppy was sleeping" },
+              { id: "d", text: "She was walking home" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [

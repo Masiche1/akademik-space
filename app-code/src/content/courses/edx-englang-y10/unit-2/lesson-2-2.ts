@@ -83,12 +83,12 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Repetition in a triple" },
+              { id: "a", text: "A simile" },
               { id: "b", text: "Personification" },
               { id: "c", text: "Onomatopoeia" },
-              { id: "d", text: "A simile" },
+              { id: "d", text: "Repetition in a triple" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "technique", name: "Triple", statement: "Three parallel items create rhythm and emphasis." }],
@@ -216,10 +216,10 @@ export const lesson22: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A long single paragraph" },
+              { id: "a", text: "Rhetorical questions in every sentence" },
               { id: "b", text: "Numbered steps with clear topic sentences" },
               { id: "c", text: "Extended metaphors" },
-              { id: "d", text: "Rhetorical questions in every sentence" },
+              { id: "d", text: "A long single paragraph" },
             ],
             correctChoiceId: "b",
           },

@@ -53,12 +53,12 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Her mass and her weight both stay the same." },
-              { id: "b", text: "Her mass decreases and her weight stays the same." },
-              { id: "c", text: "Her mass stays the same and her weight decreases." },
-              { id: "d", text: "Her mass and her weight both decrease by the same amount." },
+              { id: "a", text: "Her mass stays the same and her weight decreases." },
+              { id: "b", text: "Her mass and her weight both decrease by the same amount." },
+              { id: "c", text: "Her mass decreases and her weight stays the same." },
+              { id: "d", text: "Her mass and her weight both stay the same." },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -186,10 +186,10 @@ export const lesson33: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The magnets attract each other." },
+              { id: "a", text: "The magnets lose their magnetism." },
               { id: "b", text: "The magnets repel each other." },
-              { id: "c", text: "Nothing happens because the poles are the same." },
-              { id: "d", text: "The magnets lose their magnetism." },
+              { id: "c", text: "The magnets attract each other." },
+              { id: "d", text: "Nothing happens because the poles are the same." },
             ],
             correctChoiceId: "b",
           },

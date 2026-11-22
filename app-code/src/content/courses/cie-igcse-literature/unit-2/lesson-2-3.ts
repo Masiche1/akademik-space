@@ -89,15 +89,15 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The audience laughs at a joke" },
+              { id: "a", text: "The play has a sad ending" },
+              { id: "b", text: "A character lies to another" },
               {
-                id: "b",
+                id: "c",
                 text: "The audience knows something the characters don't",
               },
-              { id: "c", text: "A character lies to another" },
-              { id: "d", text: "The play has a sad ending" },
+              { id: "d", text: "The audience laughs at a joke" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -280,6 +280,526 @@ export const lesson23: Lesson = {
               "(a) Thesis: theme + irony's role. (b) Paragraphs tracking irony instances through the play's development.",
             commonErrors: [
               "Retelling the plot instead of analysing how irony creates meaning.",
+            ],
+          },
+        },
+        {
+          id: "cieilit-u2-prd-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "A 'soliloquy' in drama is:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Narration provided by the playwright" },
+              { id: "b", text: "Dialogue spoken between two characters" },
+              {
+                id: "c",
+                text: "A character speaking their thoughts aloud while alone on stage",
+              },
+              { id: "d", text: "A set of stage directions" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Soliloquy",
+                statement:
+                  "A character speaking thoughts aloud while alone — revealing inner state directly to the audience.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "A soliloquy gives the audience direct access to a character's private thoughts — a key analytical resource in drama.",
+                marks: 1,
+                markCode: "M",
+              },
+            ],
+            finalAnswer:
+              "(b) A character speaking their thoughts aloud while alone on stage.",
+            commonErrors: [
+              "Confusing soliloquy with dialogue or aside.",
+            ],
+          },
+        },
+        {
+          id: "cieilit-u2-prd-q6",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "'Subtext' in dramatic dialogue refers to:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Instructions written in stage directions" },
+              { id: "b", text: "The play's title and author" },
+              {
+                id: "c",
+                text: "What characters imply beneath what they actually say",
+              },
+              { id: "d", text: "The literal meaning of what is said" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Subtext",
+                statement:
+                  "The implied meaning beneath dialogue — what characters mean versus what they say.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "Subtext is the gap between speech and meaning — analysing it reveals character motives and tensions.",
+                marks: 1,
+                markCode: "M",
+              },
+            ],
+            finalAnswer:
+              "(b) What characters imply beneath what they actually say.",
+            commonErrors: [
+              "Analysing only the literal words of dialogue, ignoring implication.",
+            ],
+          },
+        },
+        {
+          id: "cieilit-u2-prd-q7",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "An 'unreliable narrator' is one who:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Never appears as a character in the story" },
+              { id: "b", text: "Writes the story entirely in rhyme" },
+              { id: "c", text: "Always tells the story in first person" },
+              {
+                id: "d",
+                text: "Cannot be fully trusted, giving a biased or distorted account",
+              },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Unreliable narrator",
+                statement:
+                  "A narrator whose account is biased, distorted or untrustworthy — the reader must read between the lines.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "An unreliable narrator's account cannot be taken at face value — gaps, contradictions or bias signal the unreliability.",
+                marks: 1,
+                markCode: "M",
+              },
+            ],
+            finalAnswer:
+              "(b) Cannot be fully trusted, giving a biased or distorted account.",
+            commonErrors: [
+              "Assuming the narrator always tells the truth.",
+            ],
+          },
+        },
+        {
+          id: "cieilit-u2-prd-q8",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "In prose analysis, 'setting' is significant because it may:",
+          response: {
+            type: "mcq",
+            choices: [
+              {
+                id: "a",
+                text: "Mirror or contrast with mood and theme",
+              },
+              { id: "b", text: "Reveal the author's name" },
+              { id: "c", text: "Only indicate the date of the story" },
+              { id: "d", text: "Replace the need for characterisation" },
+            ],
+            correctChoiceId: "a",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "skill",
+                name: "Setting",
+                statement:
+                  "Time and place can reflect or contrast with character, mood and theme.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "Setting is never neutral — a stormy night can mirror inner turmoil; a peaceful garden can contrast with conflict.",
+                marks: 1,
+                markCode: "M",
+              },
+            ],
+            finalAnswer:
+              "(b) Mirror or contrast with mood and theme.",
+            commonErrors: [
+              "Describing setting without linking it to mood or meaning.",
+            ],
+          },
+        },
+        {
+          id: "cieilit-u2-prd-q9",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "A 'flashback' in narrative structure refers to:",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "A type of poetic refrain" },
+              { id: "b", text: "A passage of dialogue only" },
+              {
+                id: "c",
+                text: "A scene set before the main timeline of the story",
+              },
+              { id: "d", text: "A sudden ending to the narrative" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Flashback",
+                statement:
+                  "Narrative movement to events before the main timeline — revealing past that shapes the present.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "Flashbacks interrupt the main timeline to show earlier events — often explaining character motives or past trauma.",
+                marks: 1,
+                markCode: "M",
+              },
+            ],
+            finalAnswer:
+              "(a) A scene set before the main timeline of the story.",
+            commonErrors: [
+              "Confusing flashback with foreshadowing — flashback goes backward, foreshadowing goes forward.",
+            ],
+          },
+        },
+        {
+          id: "cieilit-u2-prd-q10",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "In how many ways does this lesson list for revealing character in prose fiction — through dialogue, action/description and interior thought? Enter a number.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 3 }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "skill",
+                name: "Characterisation",
+                statement: "Characters revealed through multiple channels.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "The three channels are dialogue, action/description, and interior thought.",
+                marks: 1,
+                markCode: "M",
+              },
+            ],
+            finalAnswer: "3",
+            commonErrors: [
+              "Counting only dialogue and ignoring action and thought.",
+            ],
+          },
+        },
+        {
+          id: "cieilit-u2-prd-q11",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "A five-act tragedy is divided into how many acts? Enter a number.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 5 }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "definition",
+                name: "Five-act structure",
+                statement:
+                  "Classical tragedy divided into five acts — exposition to catastrophe.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "A five-act structure has five acts; the plays studied at IGCSE vary, but the classical model uses five.",
+                marks: 1,
+                markCode: "M",
+              },
+            ],
+            finalAnswer: "5",
+            commonErrors: [
+              "Assuming every play has five acts — check the actual structure of the play.",
+            ],
+          },
+        },
+        {
+          id: "cieilit-u2-prd-q12",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "Answer both parts with numbers only.",
+          parts: [
+            {
+              label: "a",
+              prompt: "How many elements make up the drama-analysis focus: dialogue, stage directions, dramatic irony and performance?",
+              marks: 1,
+            },
+            {
+              label: "b",
+              prompt: "How many acts does a three-act play structure have?",
+              marks: 1,
+            },
+          ],
+          response: {
+            type: "numeric",
+            parts: [
+              { label: "a", answer: 4 },
+              { label: "b", answer: 3 },
+            ],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "skill",
+                name: "Drama focus",
+                statement:
+                  "Dialogue + stage directions + dramatic irony + performance.",
+              },
+            ],
+            steps: [
+              {
+                part: "a",
+                reasoning:
+                  "Four elements: dialogue, stage directions, dramatic irony and performance.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                part: "b",
+                reasoning:
+                  "A three-act structure has three acts — setup, confrontation, resolution.",
+                marks: 1,
+                markCode: "M",
+              },
+            ],
+            finalAnswer: "(a) 4  (b) 3",
+            commonErrors: [
+              "Confusing acts with scenes — count only the acts asked for.",
+            ],
+          },
+        },
+        {
+          id: "cieilit-u2-prd-q13",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "The 'Prose focus' formula names narrator, characterisation, setting and structure — how many analytical elements is that? Enter a number.",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 4 }],
+          },
+          markscheme: {
+            principles: [
+              {
+                kind: "skill",
+                name: "Prose focus",
+                statement: "Narrator + characterisation + setting + structure.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "Narrator (1), characterisation (2), setting (3), structure (4) — four elements.",
+                marks: 1,
+                markCode: "M",
+              },
+            ],
+            finalAnswer: "4",
+            commonErrors: [
+              "Omitting structure or narrator when counting.",
+            ],
+          },
+        },
+        {
+          id: "cieilit-u2-prd-q14",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "Explain how subtext operates in dramatic dialogue and why it matters for analysis.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "skill",
+                name: "Subtext",
+                statement:
+                  "Characters say one thing and mean another — the gap reveals motive and tension.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "Subtext is the implied meaning beneath spoken words — characters often cannot say what they truly feel or intend.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "It creates tension — polite surface language can conceal conflict, deception or longing.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "Analysing subtext means asking what a character means versus what they say — and linking it to theme.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer:
+              "Subtext is implied meaning beneath dialogue — analysing it reveals motives and tensions the words hide.",
+            commonErrors: [
+              "Quoting dialogue without exploring what lies beneath it.",
+            ],
+          },
+        },
+        {
+          id: "cieilit-u2-prd-q15",
+          difficulty: "core",
+          totalMarks: 3,
+          stem: "Why should setting be analysed in relation to character and mood in prose fiction?",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "skill",
+                name: "Setting analysis",
+                statement:
+                  "Place and time reflect or contrast with character, mood and theme.",
+              },
+            ],
+            steps: [
+              {
+                reasoning:
+                  "Setting is not backdrop — writers choose time and place deliberately to shape the story's atmosphere.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "It mirrors or contrasts: a bleak landscape can echo a character's despair; a warm setting can heighten the tragedy of events.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                reasoning:
+                  "Linking setting to mood and theme turns description into analysis — showing how place creates meaning.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer:
+              "Setting shapes mood and echoes or contrasts theme — analyse it in relation to character, not as mere description.",
+            commonErrors: [
+              "Describing the setting without connecting it to meaning.",
+            ],
+          },
+        },
+        {
+          id: "cieilit-u2-prd-q16",
+          difficulty: "challenge",
+          totalMarks: 6,
+          stem: "Plan an essay on how a novel uses narrative voice to shape its meaning.",
+          parts: [
+            {
+              label: "a",
+              prompt: "Give a thesis identifying the voice and its effect.",
+              marks: 2,
+            },
+            {
+              label: "b",
+              prompt: "Plan three analytical paragraphs.",
+              marks: 4,
+            },
+          ],
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              {
+                kind: "technique",
+                name: "Prose essay planning",
+                statement: "Voice + effect → structured paragraphs.",
+              },
+            ],
+            steps: [
+              {
+                part: "a",
+                reasoning:
+                  "Thesis example: 'The novel's unreliable first-person narrator shapes meaning by filtering events through a biased, self-justifying voice.'",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                part: "a",
+                reasoning:
+                  "Thesis identifies the narrative voice and the specific effect it creates.",
+                marks: 1,
+                markCode: "A",
+              },
+              {
+                part: "b",
+                reasoning:
+                  "Para 1: narrator identity — first/third person, who they are, and how their perspective limits or frames the story.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                part: "b",
+                reasoning:
+                  "Para 2: reliability — evidence of bias, contradiction or distortion; how the reader must question the account.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                part: "b",
+                reasoning:
+                  "Para 3: voice and theme — how the narrative voice develops the novel's central concerns and shapes the ending's impact.",
+                marks: 1,
+                markCode: "M",
+              },
+              {
+                part: "b",
+                reasoning:
+                  "Each paragraph embeds short quotations and links voice → effect → meaning.",
+                marks: 1,
+                markCode: "A",
+              },
+            ],
+            finalAnswer:
+              "(a) Thesis: voice + its effect. (b) Paragraphs on narrator identity, reliability, and voice's link to theme.",
+            commonErrors: [
+              "Summarising the plot instead of analysing how the voice shapes meaning.",
             ],
           },
         },

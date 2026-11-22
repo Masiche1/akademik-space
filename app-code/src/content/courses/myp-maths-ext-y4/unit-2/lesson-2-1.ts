@@ -59,8 +59,8 @@ export const lesson21: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Translation up 5 units" },
-              { id: "b", text: "Translation right 5 units" },
-              { id: "c", text: "Reflection in x-axis" },
+              { id: "b", text: "Reflection in x-axis" },
+              { id: "c", text: "Translation right 5 units" },
               { id: "d", text: "Stretch factor 5" },
             ],
             correctChoiceId: "a",
@@ -86,8 +86,8 @@ export const lesson21: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Translation left 4 units" },
-              { id: "b", text: "Translation right 4 units" },
-              { id: "c", text: "Translation up 4 units" },
+              { id: "b", text: "Translation up 4 units" },
+              { id: "c", text: "Translation right 4 units" },
               { id: "d", text: "Reflection in y-axis" },
             ],
             correctChoiceId: "a",
@@ -113,12 +113,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$(3,17)$" },
-              { id: "b", text: "$(3,15)$" },
-              { id: "c", text: "$(1,17)$" },
+              { id: "a", text: "$(3,15)$" },
+              { id: "b", text: "$(1,17)$" },
+              { id: "c", text: "$(3,17)$" },
               { id: "d", text: "$(3,7)$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -175,9 +175,9 @@ export const lesson21: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Translation down 4 units" },
-              { id: "b", text: "Translation left 4 units" },
+              { id: "b", text: "Stretch factor 4" },
               { id: "c", text: "Reflection in the x-axis" },
-              { id: "d", text: "Stretch factor 4" },
+              { id: "d", text: "Translation left 4 units" },
             ],
             correctChoiceId: "a",
           },
@@ -218,12 +218,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The x-axis" },
-              { id: "b", text: "The y-axis" },
-              { id: "c", text: "The line $y=x$" },
-              { id: "d", text: "No reflection — it's a translation" },
+              { id: "a", text: "The line $y=x$" },
+              { id: "b", text: "No reflection — it's a translation" },
+              { id: "c", text: "The x-axis" },
+              { id: "d", text: "The y-axis" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -267,12 +267,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Translation left 2 units" },
-              { id: "b", text: "Translation right 2 units" },
-              { id: "c", text: "Translation up 2 units" },
-              { id: "d", text: "Stretch factor 2" },
+              { id: "a", text: "Translation up 2 units" },
+              { id: "b", text: "Stretch factor 2" },
+              { id: "c", text: "Translation left 2 units" },
+              { id: "d", text: "Translation right 2 units" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -313,12 +313,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$(2,1)$" },
-              { id: "b", text: "$(2,-1)$" },
-              { id: "c", text: "$(-2,1)$" },
-              { id: "d", text: "$(1,2)$" },
+              { id: "a", text: "$(2,-1)$" },
+              { id: "b", text: "$(1,2)$" },
+              { id: "c", text: "$(2,1)$" },
+              { id: "d", text: "$(-2,1)$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -452,12 +452,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$(1.5,-2)$" },
-              { id: "b", text: "$(6,-2)$" },
-              { id: "c", text: "$(3,-4)$" },
-              { id: "d", text: "$(1.5,-4)$" },
+              { id: "a", text: "$(6,-2)$" },
+              { id: "b", text: "$(1.5,-2)$" },
+              { id: "c", text: "$(1.5,-4)$" },
+              { id: "d", text: "$(3,-4)$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -514,12 +514,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$x=0$ and $y=0$" },
+              { id: "a", text: "No asymptotes" },
               { id: "b", text: "$x=5$ and $y=5$" },
-              { id: "c", text: "No asymptotes" },
+              { id: "c", text: "$x=0$ and $y=0$" },
               { id: "d", text: "$x=0$ only" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -542,9 +542,9 @@ export const lesson21: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "$360°$" },
-              { id: "b", text: "$180°$" },
-              { id: "c", text: "$90°$" },
-              { id: "d", text: "$720°$" },
+              { id: "b", text: "$90°$" },
+              { id: "c", text: "$720°$" },
+              { id: "d", text: "$180°$" },
             ],
             correctChoiceId: "a",
           },
@@ -569,12 +569,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Amplitude 2, period $120°$" },
+              { id: "a", text: "Amplitude 2, period $180°$" },
               { id: "b", text: "Amplitude 3, period $240°$" },
-              { id: "c", text: "Amplitude 2, period $180°$" },
-              { id: "d", text: "Amplitude 6, period $120°$" },
+              { id: "c", text: "Amplitude 6, period $120°$" },
+              { id: "d", text: "Amplitude 2, period $120°$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -631,12 +631,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$360°$" },
-              { id: "b", text: "$180°$" },
+              { id: "a", text: "$720°$" },
+              { id: "b", text: "$360°$" },
               { id: "c", text: "$90°" },
-              { id: "d", text: "$720°$" },
+              { id: "d", text: "$180°$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -675,12 +675,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "5" },
+              { id: "a", text: "1" },
               { id: "b", text: "$\\frac{1}{5}$" },
-              { id: "c", text: "$360°$" },
-              { id: "d", text: "1" },
+              { id: "c", text: "5" },
+              { id: "d", text: "$360°$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -721,12 +721,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Quadrants II and IV" },
+              { id: "a", text: "All four quadrants" },
               { id: "b", text: "Quadrants I and III" },
-              { id: "c", text: "Quadrants I and II" },
-              { id: "d", text: "All four quadrants" },
+              { id: "c", text: "Quadrants II and IV" },
+              { id: "d", text: "Quadrants I and II" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -767,12 +767,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Amplitude 2, period $120°$" },
+              { id: "a", text: "Amplitude 6, period $120°$" },
               { id: "b", text: "Amplitude 3, period $240°$" },
               { id: "c", text: "Amplitude 2, period $360°$" },
-              { id: "d", text: "Amplitude 6, period $120°$" },
+              { id: "d", text: "Amplitude 2, period $120°$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -814,12 +814,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Vertical stretch with scale factor 8" },
-              { id: "b", text: "Horizontal stretch with scale factor 8" },
-              { id: "c", text: "Translation up 8 units" },
+              { id: "a", text: "Horizontal stretch with scale factor 8" },
+              { id: "b", text: "Translation up 8 units" },
+              { id: "c", text: "Vertical stretch with scale factor 8" },
               { id: "d", text: "Reflection in the x-axis" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -907,12 +907,12 @@ export const lesson21: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$(2,3)$" },
-              { id: "b", text: "$(4,2)$" },
-              { id: "c", text: "$(6,2)$" },
-              { id: "d", text: "$(3,1)$" },
+              { id: "a", text: "$(6,2)$" },
+              { id: "b", text: "$(3,1)$" },
+              { id: "c", text: "$(4,2)$" },
+              { id: "d", text: "$(2,3)$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

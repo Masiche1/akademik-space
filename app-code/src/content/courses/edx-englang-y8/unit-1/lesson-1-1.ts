@@ -69,11 +69,11 @@ export const lesson11: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Four o'clock" },
-              { id: "b", text: "Ten past four" },
-              { id: "c", text: "Ten past six" },
+              { id: "b", text: "Ten past six" },
+              { id: "c", text: "Ten past four" },
               { id: "d", text: "Ten o'clock" },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "skill", name: "Retrieval", statement: "Find the detail the question asks for and check it against the text." }],
@@ -190,10 +190,10 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Excited" },
+              { id: "a", text: "Relieved" },
               { id: "b", text: "Anxious" },
               { id: "c", text: "Furious" },
-              { id: "d", text: "Relieved" },
+              { id: "d", text: "Excited" },
             ],
             correctChoiceId: "b",
           },
@@ -213,12 +213,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "He wants to hide it because he fears how his mother will react." },
-              { id: "b", text: "He is saving it as a precious keepsake." },
-              { id: "c", text: "He has forgotten it is important." },
-              { id: "d", text: "He is angry and wants to destroy it." },
+              { id: "a", text: "He is angry and wants to destroy it." },
+              { id: "b", text: "He has forgotten it is important." },
+              { id: "c", text: "He is saving it as a precious keepsake." },
+              { id: "d", text: "He wants to hide it because he fears how his mother will react." },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "skill", name: "Inference from action", statement: "Ask what an action suggests about motive." }],

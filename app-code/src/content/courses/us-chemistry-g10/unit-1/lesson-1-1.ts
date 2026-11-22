@@ -50,12 +50,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "17" },
-              { id: "b", text: "20" },
-              { id: "c", text: "37" },
-              { id: "d", text: "54" },
+              { id: "a", text: "20" },
+              { id: "b", text: "37" },
+              { id: "c", text: "54" },
+              { id: "d", text: "17" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -179,12 +179,12 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "$1s^2\\,2s^2\\,2p^6\\,3s^2\\,3p^4$" },
-              { id: "b", text: "$1s^2\\,2s^2\\,2p^6\\,3s^2\\,3p^6$" },
-              { id: "c", text: "$1s^2\\,2s^2\\,2p^6\\,3s^2\\,3d^4$" },
+              { id: "a", text: "$1s^2\\,2s^2\\,2p^6\\,3s^2\\,3d^4$" },
+              { id: "b", text: "$1s^2\\,2s^2\\,2p^6\\,3s^2\\,3p^4$" },
+              { id: "c", text: "$1s^2\\,2s^2\\,2p^6\\,3s^2\\,3p^6$" },
               { id: "d", text: "$1s^2\\,2s^2\\,2p^6\\,3s^2\\,3p^2$" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [

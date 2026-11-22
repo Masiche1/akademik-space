@@ -56,8 +56,8 @@ export const lesson23: Lesson = {
             choices: [
               { id: "a", text: "Elastic" },
               { id: "b", text: "Inelastic" },
-              { id: "c", text: "Unit elastic" },
-              { id: "d", text: "Perfectly elastic" },
+              { id: "c", text: "Perfectly elastic" },
+              { id: "d", text: "Unit elastic" },
             ],
             correctChoiceId: "b",
           },
@@ -159,12 +159,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Inelastic" },
-              { id: "b", text: "Elastic" },
+              { id: "a", text: "Elastic" },
+              { id: "b", text: "Perfectly inelastic" },
               { id: "c", text: "Unit elastic" },
-              { id: "d", text: "Perfectly inelastic" },
+              { id: "d", text: "Inelastic" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -188,11 +188,11 @@ export const lesson23: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Quantity demanded rises whenever price rises" },
-              { id: "b", text: "Quantity demanded does not respond to changes in price" },
-              { id: "c", text: "Demand is infinitely responsive to price" },
-              { id: "d", text: "The good has no substitutes" },
+              { id: "b", text: "Demand is infinitely responsive to price" },
+              { id: "c", text: "The good has no substitutes" },
+              { id: "d", text: "Quantity demanded does not respond to changes in price" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -215,12 +215,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A normal good" },
-              { id: "b", text: "An inferior good" },
+              { id: "a", text: "A complement" },
+              { id: "b", text: "A normal good" },
               { id: "c", text: "A luxury good" },
-              { id: "d", text: "A complement" },
+              { id: "d", text: "An inferior good" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -243,12 +243,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Complements" },
-              { id: "b", text: "Substitutes" },
-              { id: "c", text: "Inferior goods" },
-              { id: "d", text: "Unrelated goods" },
+              { id: "a", text: "Substitutes" },
+              { id: "b", text: "Unrelated goods" },
+              { id: "c", text: "Complements" },
+              { id: "d", text: "Inferior goods" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -271,12 +271,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Lower in the long run" },
-              { id: "b", text: "Higher in the long run" },
+              { id: "a", text: "Zero in the long run" },
+              { id: "b", text: "Lower in the long run" },
               { id: "c", text: "The same in both periods" },
-              { id: "d", text: "Zero in the long run" },
+              { id: "d", text: "Higher in the long run" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -517,12 +517,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Quantity demanded exceeds quantity supplied" },
-              { id: "b", text: "Quantity demanded equals quantity supplied" },
-              { id: "c", text: "Price is at its maximum" },
-              { id: "d", text: "Supply equals zero" },
+              { id: "a", text: "Price is at its maximum" },
+              { id: "b", text: "Supply equals zero" },
+              { id: "c", text: "Quantity demanded equals quantity supplied" },
+              { id: "d", text: "Quantity demanded exceeds quantity supplied" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -616,12 +616,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Shortage" },
-              { id: "b", text: "Surplus" },
-              { id: "c", text: "New equilibrium immediately" },
-              { id: "d", text: "Increase in demand" },
+              { id: "a", text: "Surplus" },
+              { id: "b", text: "Increase in demand" },
+              { id: "c", text: "Shortage" },
+              { id: "d", text: "New equilibrium immediately" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -644,12 +644,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Downward pressure on the price" },
-              { id: "b", text: "Upward pressure on the price" },
-              { id: "c", text: "No change in price" },
-              { id: "d", text: "A permanent surplus" },
+              { id: "a", text: "Upward pressure on the price" },
+              { id: "b", text: "A permanent surplus" },
+              { id: "c", text: "Downward pressure on the price" },
+              { id: "d", text: "No change in price" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -672,12 +672,12 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Both fall" },
-              { id: "b", text: "Both rise" },
-              { id: "c", text: "Price falls, quantity rises" },
-              { id: "d", text: "Neither changes" },
+              { id: "a", text: "Both rise" },
+              { id: "b", text: "Price falls, quantity rises" },
+              { id: "c", text: "Neither changes" },
+              { id: "d", text: "Both fall" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -701,11 +701,11 @@ export const lesson23: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Price rises, quantity falls" },
-              { id: "b", text: "Price falls, quantity rises" },
+              { id: "b", text: "Neither changes" },
               { id: "c", text: "Both rise" },
-              { id: "d", text: "Neither changes" },
+              { id: "d", text: "Price falls, quantity rises" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -728,9 +728,9 @@ export const lesson23: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Quantity definitely falls" },
+              { id: "a", text: "Quantity definitely stays the same" },
               { id: "b", text: "Quantity definitely rises" },
-              { id: "c", text: "Quantity definitely stays the same" },
+              { id: "c", text: "Quantity definitely falls" },
               { id: "d", text: "Quantity cannot be determined" },
             ],
             correctChoiceId: "b",

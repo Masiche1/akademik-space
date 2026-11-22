@@ -57,12 +57,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "CnH₂n+2" },
-              { id: "b", text: "CnH₂n" },
-              { id: "c", text: "CnHn" },
-              { id: "d", text: "CnH₂n-2" },
+              { id: "a", text: "CnHn" },
+              { id: "b", text: "CnH₂n-2" },
+              { id: "c", text: "CnH₂n+2" },
+              { id: "d", text: "CnH₂n" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -84,12 +84,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Ethene decolorises bromine water; ethane doesn't" },
+              { id: "a", text: "They are identical" },
               { id: "b", text: "Ethane is a gas" },
-              { id: "c", text: "Ethene is heavier" },
-              { id: "d", text: "They are identical" },
+              { id: "c", text: "Ethene decolorises bromine water; ethane doesn't" },
+              { id: "d", text: "Ethene is heavier" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -112,12 +112,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Contains at least one C=C or C≡C double/triple bond — can add more atoms" },
-              { id: "b", text: "Has no hydrogens" },
-              { id: "c", text: "Is always a gas" },
-              { id: "d", text: "Cannot burn" },
+              { id: "a", text: "Is always a gas" },
+              { id: "b", text: "Contains at least one C=C or C≡C double/triple bond — can add more atoms" },
+              { id: "c", text: "Cannot burn" },
+              { id: "d", text: "Has no hydrogens" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -173,9 +173,9 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "CnH₂n" },
-              { id: "b", text: "CnH₂n+2" },
-              { id: "c", text: "CnHn" },
-              { id: "d", text: "CnH₂n−2" },
+              { id: "b", text: "CnHn" },
+              { id: "c", text: "CnH₂n−2" },
+              { id: "d", text: "CnH₂n+2" },
             ],
             correctChoiceId: "a",
           },
@@ -199,12 +199,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "C₄H₁₀" },
-              { id: "b", text: "C₄H₈" },
-              { id: "c", text: "C₃H₈" },
-              { id: "d", text: "C₄H₆" },
+              { id: "a", text: "C₄H₆" },
+              { id: "b", text: "C₄H₁₀" },
+              { id: "c", text: "C₄H₈" },
+              { id: "d", text: "C₃H₈" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -274,12 +274,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The orange bromine water is decolorised" },
-              { id: "b", text: "It turns blue" },
-              { id: "c", text: "No change occurs" },
-              { id: "d", text: "A precipitate forms" },
+              { id: "a", text: "No change occurs" },
+              { id: "b", text: "A precipitate forms" },
+              { id: "c", text: "The orange bromine water is decolorised" },
+              { id: "d", text: "It turns blue" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -327,12 +327,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It contains a C=C double bond that can undergo addition reactions" },
+              { id: "a", text: "It cannot burn" },
               { id: "b", text: "It has no carbon atoms" },
-              { id: "c", text: "It cannot burn" },
-              { id: "d", text: "It is a gas" },
+              { id: "c", text: "It is a gas" },
+              { id: "d", text: "It contains a C=C double bond that can undergo addition reactions" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -517,12 +517,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Carbon dioxide and water" },
-              { id: "b", text: "Carbon monoxide and water" },
-              { id: "c", text: "Soot and water" },
+              { id: "a", text: "Soot and water" },
+              { id: "b", text: "Carbon dioxide and water" },
+              { id: "c", text: "Carbon monoxide and water" },
               { id: "d", text: "Oxygen and nitrogen" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -544,12 +544,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Methane combustion produces only CO₂ and water; coal produces SO₂, particulates and more CO₂" },
-              { id: "b", text: "Gas is free" },
-              { id: "c", text: "Coal doesn't burn" },
-              { id: "d", text: "Gas produces no energy" },
+              { id: "a", text: "Gas is free" },
+              { id: "b", text: "Methane combustion produces only CO₂ and water; coal produces SO₂, particulates and more CO₂" },
+              { id: "c", text: "Gas produces no energy" },
+              { id: "d", text: "Coal doesn't burn" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -573,9 +573,9 @@ export const lesson32: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Incomplete combustion (limited O₂) produces CO which binds hemoglobin preventing oxygen transport" },
-              { id: "b", text: "CO is harmless" },
+              { id: "b", text: "CO only forms at high altitude" },
               { id: "c", text: "CO is produced by complete combustion" },
-              { id: "d", text: "CO only forms at high altitude" },
+              { id: "d", text: "CO is harmless" },
             ],
             correctChoiceId: "a",
           },
@@ -633,12 +633,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Carbon monoxide and/or soot" },
-              { id: "b", text: "Only carbon dioxide and water" },
-              { id: "c", text: "Oxygen" },
-              { id: "d", text: "Nitrogen" },
+              { id: "a", text: "Oxygen" },
+              { id: "b", text: "Nitrogen" },
+              { id: "c", text: "Only carbon dioxide and water" },
+              { id: "d", text: "Carbon monoxide and/or soot" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -660,12 +660,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Complete combustion with sufficient oxygen" },
+              { id: "a", text: "The gas is burning slowly" },
               { id: "b", text: "Incomplete combustion" },
-              { id: "c", text: "The gas is burning slowly" },
-              { id: "d", text: "Sulfur is present" },
+              { id: "c", text: "Sulfur is present" },
+              { id: "d", text: "Complete combustion with sufficient oxygen" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -735,12 +735,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Carbon monoxide and nitrogen oxides" },
-              { id: "b", text: "Carbon dioxide only" },
-              { id: "c", text: "Water vapour" },
-              { id: "d", text: "Oxygen" },
+              { id: "a", text: "Oxygen" },
+              { id: "b", text: "Carbon monoxide and nitrogen oxides" },
+              { id: "c", text: "Carbon dioxide only" },
+              { id: "d", text: "Water vapour" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -763,12 +763,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "SO₂ + H₂O → sulfurous/sulfuric acid" },
-              { id: "b", text: "SO₂ + O₂ → SO₃ only, no acid" },
+              { id: "a", text: "SO₂ + O₂ → SO₃ only, no acid" },
+              { id: "b", text: "No reaction occurs" },
               { id: "c", text: "CO₂ causes acid rain" },
-              { id: "d", text: "No reaction occurs" },
+              { id: "d", text: "SO₂ + H₂O → sulfurous/sulfuric acid" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -791,12 +791,12 @@ export const lesson32: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "CO is produced by incomplete combustion and binds hemoglobin, preventing oxygen transport" },
+              { id: "a", text: "CO dissolves in walls" },
               { id: "b", text: "CO is harmless" },
               { id: "c", text: "CO makes the flame brighter" },
-              { id: "d", text: "CO dissolves in walls" },
+              { id: "d", text: "CO is produced by incomplete combustion and binds hemoglobin, preventing oxygen transport" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

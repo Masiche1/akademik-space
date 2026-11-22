@@ -54,10 +54,10 @@ export const lesson13: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Movement of particles down a concentration gradient with no energy needed" },
+              { id: "a", text: "Movement of particles against a concentration gradient with no energy needed" },
               { id: "b", text: "Movement of water through a partially permeable membrane from dilute to concentrated solution" },
               { id: "c", text: "Movement of particles against a concentration gradient using energy from respiration" },
-              { id: "d", text: "Movement of particles against a concentration gradient with no energy needed" },
+              { id: "d", text: "Movement of particles down a concentration gradient with no energy needed" },
             ],
             correctChoiceId: "c",
           },
@@ -188,11 +188,11 @@ export const lesson13: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "It increases because there is more surface" },
-              { id: "b", text: "It decreases because volume increases faster than surface area" },
+              { id: "b", text: "It decreases because surface area decreases" },
               { id: "c", text: "It stays the same" },
-              { id: "d", text: "It decreases because surface area decreases" },
+              { id: "d", text: "It decreases because volume increases faster than surface area" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [

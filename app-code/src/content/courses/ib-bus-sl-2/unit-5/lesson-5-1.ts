@@ -54,12 +54,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Person specification" },
-              { id: "b", text: "Job description" },
+              { id: "a", text: "Job description" },
+              { id: "b", text: "Person specification" },
               { id: "c", text: "Job analysis" },
               { id: "d", text: "Contract of employment" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Job description", statement: "Lists the tasks, duties and responsibilities of a role." }],
@@ -146,8 +146,8 @@ export const lesson51: Lesson = {
             choices: [
               { id: "a", text: "Advertise the vacancy" },
               { id: "b", text: "Analyse the job" },
-              { id: "c", text: "Interview candidates" },
-              { id: "d", text: "Check references" },
+              { id: "c", text: "Check references" },
+              { id: "d", text: "Interview candidates" },
             ],
             correctChoiceId: "b",
           },
@@ -170,12 +170,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Promoting a supervisor to manager" },
+              { id: "a", text: "Advertising for applicants from outside the firm" },
               { id: "b", text: "Transferring staff between branches" },
-              { id: "c", text: "Advertising for applicants from outside the firm" },
+              { id: "c", text: "Promoting a supervisor to manager" },
               { id: "d", text: "Offering overtime to current employees" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "External recruitment", statement: "Filling vacancies by recruiting candidates from outside the business." }],
@@ -196,12 +196,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Always brings fresh ideas into the business" },
-              { id: "b", text: "Is cheaper, faster and can motivate staff" },
-              { id: "c", text: "Requires no induction at all" },
-              { id: "d", text: "Guarantees the best candidate is found" },
+              { id: "a", text: "Is cheaper, faster and can motivate staff" },
+              { id: "b", text: "Requires no induction at all" },
+              { id: "c", text: "Guarantees the best candidate is found" },
+              { id: "d", text: "Always brings fresh ideas into the business" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Internal recruitment", statement: "Filling vacancies from within — cheap, fast and motivating." }],
@@ -259,11 +259,11 @@ export const lesson51: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "It is required by employment law in all cases" },
-              { id: "b", text: "Internal candidates may apply first; it is cheaper and can motivate staff" },
-              { id: "c", text: "External advertising is banned for most roles" },
-              { id: "d", text: "It removes the need for any selection methods" },
+              { id: "b", text: "External advertising is banned for most roles" },
+              { id: "c", text: "It removes the need for any selection methods" },
+              { id: "d", text: "Internal candidates may apply first; it is cheaper and can motivate staff" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Internal-first recruitment", statement: "Many firms give existing staff first chance before external advertising." }],
@@ -284,10 +284,10 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "It always brings fresh ideas into the business" },
+              { id: "a", text: "It guarantees the best candidate is found" },
               { id: "b", text: "It is cheaper, faster and can motivate staff" },
-              { id: "c", text: "It removes the need for any selection methods" },
-              { id: "d", text: "It guarantees the best candidate is found" }
+              { id: "c", text: "It always brings fresh ideas into the business" },
+              { id: "d", text: "It removes the need for any selection methods" }
             ],
             correctChoiceId: "b",
           },
@@ -367,10 +367,10 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Panel interview" },
+              { id: "a", text: "CV screening" },
               { id: "b", text: "Numerical aptitude test" },
               { id: "c", text: "Reference check" },
-              { id: "d", text: "CV screening" },
+              { id: "d", text: "Panel interview" },
             ],
             correctChoiceId: "b",
           },
@@ -420,9 +420,9 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Job description" },
+              { id: "a", text: "Job advertisement" },
               { id: "b", text: "Person specification" },
-              { id: "c", text: "Job advertisement" },
+              { id: "c", text: "Job description" },
               { id: "d", text: "Reference letter" },
             ],
             correctChoiceId: "b",
@@ -488,12 +488,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Increase the candidate's salary" },
-              { id: "b", text: "Verify claims and check reliability" },
-              { id: "c", text: "Replace the need for interviews" },
-              { id: "d", text: "Guarantee promotion potential" },
+              { id: "a", text: "Guarantee promotion potential" },
+              { id: "b", text: "Replace the need for interviews" },
+              { id: "c", text: "Increase the candidate's salary" },
+              { id: "d", text: "Verify claims and check reliability" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "References", statement: "References help verify a candidate's claims and employment history." }],
@@ -535,12 +535,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Pay employees a higher salary" },
-              { id: "b", text: "Break a job into tasks so accurate recruitment documents can be written" },
-              { id: "c", text: "Negotiate with trade unions" },
-              { id: "d", text: "Measure training effectiveness" },
+              { id: "a", text: "Measure training effectiveness" },
+              { id: "b", text: "Negotiate with trade unions" },
+              { id: "c", text: "Break a job into tasks so accurate recruitment documents can be written" },
+              { id: "d", text: "Pay employees a higher salary" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Job analysis", statement: "Breaking a job into its tasks to write accurate recruitment documents." }],
@@ -598,12 +598,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Replaces the need for job analysis" },
-              { id: "b", text: "Helps new employees learn rules, culture and role expectations" },
+              { id: "a", text: "Helps new employees learn rules, culture and role expectations" },
+              { id: "b", text: "Replaces the need for job analysis" },
               { id: "c", text: "Guarantees higher pay" },
               { id: "d", text: "Ends the recruitment process before selection" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Induction", statement: "Introductory programme covering rules, culture and role." }],
@@ -693,12 +693,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Screening" },
-              { id: "b", text: "Triangulation" },
-              { id: "c", text: "Shortlisting" },
-              { id: "d", text: "Induction" },
+              { id: "a", text: "Shortlisting" },
+              { id: "b", text: "Screening" },
+              { id: "c", text: "Induction" },
+              { id: "d", text: "Triangulation" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Triangulation", statement: "Combining multiple selection methods to get a fuller, more reliable picture." }],
@@ -783,10 +783,10 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Test numerical ability" },
+              { id: "a", text: "Decide the candidate's salary" },
               { id: "b", text: "Verify claims about past work and performance" },
-              { id: "c", text: "Measure creativity" },
-              { id: "d", text: "Decide the candidate's salary" },
+              { id: "c", text: "Test numerical ability" },
+              { id: "d", text: "Measure creativity" },
             ],
             correctChoiceId: "b",
           },
@@ -809,12 +809,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A place where candidates wait to be interviewed" },
-              { id: "b", text: "A method combining exercises, group tasks and interviews to test candidates" },
+              { id: "a", text: "A type of contract offered to staff" },
+              { id: "b", text: "A place where candidates wait to be interviewed" },
               { id: "c", text: "A training course for new employees" },
-              { id: "d", text: "A type of contract offered to staff" },
+              { id: "d", text: "A method combining exercises, group tasks and interviews to test candidates" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Assessment centre", statement: "A selection method using exercises, group tasks and interviews to test candidates." }],
@@ -871,12 +871,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "How would you handle an angry customer?" },
-              { id: "b", text: "What experience do you have with spreadsheets?" },
-              { id: "c", text: "Do you plan to start a family soon?" },
+              { id: "a", text: "Do you plan to start a family soon?" },
+              { id: "b", text: "How would you handle an angry customer?" },
+              { id: "c", text: "What experience do you have with spreadsheets?" },
               { id: "d", text: "Why do you want this role?" },
             ],
-            correctChoiceId: "c",
+            aorrectChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Fair selection", statement: "Interview questions must relate to the job's requirements and avoid discrimination." }],
@@ -897,12 +897,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The tasks and duties of the job" },
-              { id: "b", text: "The skills, qualifications and qualities a candidate needs" },
+              { id: "a", text: "The firm's annual report" },
+              { id: "b", text: "The tasks and duties of the job" },
               { id: "c", text: "The salary offered for the role" },
-              { id: "d", text: "The firm's annual report" },
+              { id: "d", text: "The skills, qualifications and qualities a candidate needs" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "definition", name: "Person specification", statement: "The skills, qualifications and qualities a candidate needs for the role." }],
@@ -979,12 +979,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Structured interview" },
-              { id: "b", text: "Panel interview" },
-              { id: "c", text: "Unstructured interview" },
-              { id: "d", text: "Competency-based interview" },
+              { id: "a", text: "Competency-based interview" },
+              { id: "b", text: "Structured interview" },
+              { id: "c", text: "Panel interview" },
+              { id: "d", text: "Unstructured interview" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Unstructured interviews", statement: "Free-flowing interviews without standard questions — more prone to bias." }],
@@ -1050,12 +1050,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Guarantees the best candidate is found" },
-              { id: "b", text: "Is cheap and quickly reduces a large applicant pool" },
-              { id: "c", text: "Tests real job performance" },
-              { id: "d", text: "Removes all bias from selection" },
+              { id: "a", text: "Is cheap and quickly reduces a large applicant pool" },
+              { id: "b", text: "Guarantees the best candidate is found" },
+              { id: "c", text: "Removes all bias from selection" },
+              { id: "d", text: "Tests real job performance" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "CV screening", statement: "A cheap first-stage filter for large numbers of applicants." }],
@@ -1115,9 +1115,9 @@ export const lesson51: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "A numerical aptitude test" },
-              { id: "b", text: "A portfolio of artwork" },
-              { id: "c", text: "An unstructured chat" },
-              { id: "d", text: "A personality quiz unrelated to numbers" },
+              { id: "b", text: "A personality quiz unrelated to numbers" },
+              { id: "c", text: "A portfolio of artwork" },
+              { id: "d", text: "An unstructured chat" },
             ],
             correctChoiceId: "a",
           },
@@ -1159,12 +1159,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "A structured interview" },
-              { id: "b", text: "An unstructured interview" },
-              { id: "c", text: "An assessment centre" },
-              { id: "d", text: "Psychometric testing" },
+              { id: "a", text: "An assessment centre" },
+              { id: "b", text: "A structured interview" },
+              { id: "c", text: "Psychometric testing" },
+              { id: "d", text: "An unstructured interview" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Unstructured interviews", statement: "Questions vary between candidates, reducing comparability." }],
@@ -1224,12 +1224,12 @@ export const lesson51: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Employers may ask any personal question they choose" },
-              { id: "b", text: "Questions and tests must relate to the job and avoid discrimination" },
-              { id: "c", text: "Candidate data can be shared freely" },
+              { id: "a", text: "Questions and tests must relate to the job and avoid discrimination" },
+              { id: "b", text: "Candidate data can be shared freely" },
+              { id: "c", text: "Employers may ask any personal question they choose" },
               { id: "d", text: "Selection methods need not be recorded" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Fair selection", statement: "Selection must avoid discrimination and protect candidate data." }],
@@ -1270,11 +1270,11 @@ export const lesson51: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "A written essay completed alone" },
-              { id: "b", text: "A group project exercise at an assessment centre" },
-              { id: "c", text: "A numerical test with no collaboration" },
-              { id: "d", text: "A reference from a former teacher" },
+              { id: "b", text: "A reference from a former teacher" },
+              { id: "c", text: "A group project exercise at an assessment centre" },
+              { id: "d", text: "A numerical test with no collaboration" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [{ kind: "principle", name: "Job-relevant selection", statement: "Selection methods should reflect the actual demands of the role." }],

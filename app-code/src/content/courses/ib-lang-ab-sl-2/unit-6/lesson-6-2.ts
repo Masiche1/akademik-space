@@ -65,12 +65,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "To forget what you learned" },
-              { id: "b", text: "To make knowledge stronger and automatic" },
-              { id: "c", text: "To learn a new language" },
-              { id: "d", text: "To write a test" },
+              { id: "a", text: "To write a test" },
+              { id: "b", text: "To learn a new language" },
+              { id: "c", text: "To make knowledge stronger and automatic" },
+              { id: "d", text: "To forget what you learned" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -223,12 +223,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Something you do well" },
-              { id: "b", text: "Something you need to practise more" },
-              { id: "c", text: "A grammar rule" },
-              { id: "d", text: "A test score" },
+              { id: "a", text: "Something you need to practise more" },
+              { id: "b", text: "A test score" },
+              { id: "c", text: "Something you do well" },
+              { id: "d", text: "A grammar rule" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -294,12 +294,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Writing" },
-              { id: "b", text: "Listening" },
-              { id: "c", text: "Reading" },
-              { id: "d", text: "Speaking" },
+              { id: "a", text: "Reading" },
+              { id: "b", text: "Speaking" },
+              { id: "c", text: "Writing" },
+              { id: "d", text: "Listening" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -381,12 +381,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Going backwards" },
-              { id: "b", text: "Improvement over time" },
-              { id: "c", text: "Finishing a book" },
-              { id: "d", text: "A test result" },
+              { id: "a", text: "Improvement over time" },
+              { id: "b", text: "Finishing a book" },
+              { id: "c", text: "A test result" },
+              { id: "d", text: "Going backwards" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -450,10 +450,10 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Study 5 hours once a month" },
+              { id: "a", text: "Only study before tests" },
               { id: "b", text: "10 minutes every day" },
-              { id: "c", text: "Only study before tests" },
-              { id: "d", text: "Copy texts without thinking" },
+              { id: "c", text: "Copy texts without thinking" },
+              { id: "d", text: "Study 5 hours once a month" },
             ],
             correctChoiceId: "b",
           },
@@ -543,15 +543,15 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "They do not connect" },
               {
-                id: "b",
+                id: "a",
                 text: "Reading helps writing, listening helps speaking, and so on",
               },
+              { id: "b", text: "Tests are separate" },
               { id: "c", text: "Only grammar matters" },
-              { id: "d", text: "Tests are separate" },
+              { id: "d", text: "They do not connect" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -618,11 +618,11 @@ export const lesson62: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Yes, weaknesses should be ignored" },
-              { id: "b", text: "No — weaknesses need more practice" },
-              { id: "c", text: "Only if you are fluent" },
-              { id: "d", text: "Only for writing skills" },
+              { id: "b", text: "Only for writing skills" },
+              { id: "c", text: "No — weaknesses need more practice" },
+              { id: "d", text: "Only if you are fluent" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -736,12 +736,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Read the list once and forget it" },
-              { id: "b", text: "Use the words in sentences regularly" },
-              { id: "c", text: "Only listen to songs" },
-              { id: "d", text: "Write the words 100 times" },
+              { id: "a", text: "Write the words 100 times" },
+              { id: "b", text: "Only listen to songs" },
+              { id: "c", text: "Use the words in sentences regularly" },
+              { id: "d", text: "Read the list once and forget it" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -907,10 +907,10 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "I like tea." },
+              { id: "a", text: "She doesn't like tea." },
               { id: "b", text: "Do you like tea?" },
-              { id: "c", text: "She doesn't like tea." },
-              { id: "d", text: "There is tea." },
+              { id: "c", text: "There is tea." },
+              { id: "d", text: "I like tea." },
             ],
             correctChoiceId: "b",
           },
@@ -973,12 +973,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "She don't like coffee." },
-              { id: "b", text: "She doesn't likes coffee." },
-              { id: "c", text: "She doesn't like coffee." },
+              { id: "a", text: "She doesn't likes coffee." },
+              { id: "b", text: "She doesn't like coffee." },
+              { id: "c", text: "She don't like coffee." },
               { id: "d", text: "She not like coffee." },
             ],
-            correctChoiceId: "c",
+            borrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1053,12 +1053,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Only grammar exercises" },
-              { id: "b", text: "Combining skills like read-then-answer" },
-              { id: "c", text: "Only writing practice" },
-              { id: "d", text: "Only listening drills" },
+              { id: "a", text: "Only listening drills" },
+              { id: "b", text: "Only grammar exercises" },
+              { id: "c", text: "Combining skills like read-then-answer" },
+              { id: "d", text: "Only writing practice" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1134,12 +1134,12 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Memorise the list only" },
-              { id: "b", text: "Write a paragraph using them in order" },
-              { id: "c", text: "Ignore them completely" },
-              { id: "d", text: "Only read them once" },
+              { id: "a", text: "Ignore them completely" },
+              { id: "b", text: "Only read them once" },
+              { id: "c", text: "Memorise the list only" },
+              { id: "d", text: "Write a paragraph using them in order" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -1231,11 +1231,11 @@ export const lesson62: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Once a year" },
-              { id: "b", text: "Regularly, such as daily or weekly" },
-              { id: "c", text: "Only before exams" },
+              { id: "b", text: "Only before exams" },
+              { id: "c", text: "Regularly, such as daily or weekly" },
               { id: "d", text: "Never" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -1300,10 +1300,10 @@ export const lesson62: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "She has tall." },
+              { id: "a", text: "She is has tall." },
               { id: "b", text: "She is tall and has blue eyes." },
-              { id: "c", text: "She tall has." },
-              { id: "d", text: "She is has tall." },
+              { id: "c", text: "She has tall." },
+              { id: "d", text: "She tall has." },
             ],
             correctChoiceId: "b",
           },

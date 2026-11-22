@@ -56,11 +56,11 @@ export const lesson12: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Speaking very loudly" },
-              { id: "b", text: "Being heard clearly by the entire audience" },
-              { id: "c", text: "Using a microphone" },
-              { id: "d", text: "Speaking in a dialect" },
+              { id: "b", text: "Using a microphone" },
+              { id: "c", text: "Speaking in a dialect" },
+              { id: "d", text: "Being heard clearly by the entire audience" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -162,12 +162,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Speaking as loudly as possible" },
-              { id: "b", text: "The clarity with which words are pronounced" },
-              { id: "c", text: "The speed of speech" },
-              { id: "d", text: "The emotional tone of words" },
+              { id: "a", text: "The speed of speech" },
+              { id: "b", text: "Speaking as loudly as possible" },
+              { id: "c", text: "The emotional tone of words" },
+              { id: "d", text: "The clarity with which words are pronounced" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -191,12 +191,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Speak without breathing" },
-              { id: "b", text: "Sustain phrases without gasping and maintain vocal control" },
+              { id: "a", text: "Avoid using a microphone" },
+              { id: "b", text: "Speak without breathing" },
               { id: "c", text: "Speak faster" },
-              { id: "d", text: "Avoid using a microphone" },
+              { id: "d", text: "Sustain phrases without gasping and maintain vocal control" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -220,12 +220,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Pitch, pace, volume and quality" },
-              { id: "b", text: "Height, weight, age and costume" },
+              { id: "a", text: "Speed, volume and posture only" },
+              { id: "b", text: "Pitch, pace, volume and quality" },
               { id: "c", text: "Accent, dialect, microphone and lighting" },
-              { id: "d", text: "Speed, volume and posture only" },
+              { id: "d", text: "Height, weight, age and costume" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "b",
           },
           markscheme: {
             principles: [
@@ -250,11 +250,11 @@ export const lesson12: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Impress the audience with accent skill" },
-              { id: "b", text: "Communicate a character's regional or social identity believably and consistently" },
-              { id: "c", text: "Make dialogue harder to understand" },
+              { id: "b", text: "Make dialogue harder to understand" },
+              { id: "c", text: "Communicate a character's regional or social identity believably and consistently" },
               { id: "d", text: "Replace characterisation" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -278,10 +278,10 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The words written in the script" },
+              { id: "a", text: "The stage directions" },
               { id: "b", text: "The meaning beneath the spoken words — what characters really mean" },
-              { id: "c", text: "The stage directions" },
-              { id: "d", text: "The volume of speech" },
+              { id: "c", text: "The volume of speech" },
+              { id: "d", text: "The words written in the script" },
             ],
             correctChoiceId: "b",
           },
@@ -307,10 +307,10 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Slowly, loudly and with deep resonance" },
+              { id: "a", text: "With perfect projection and slow articulation" },
               { id: "b", text: "Quickly, softly, with a higher pitch and possible breathiness" },
               { id: "c", text: "In a deep, slow monotone" },
-              { id: "d", text: "With perfect projection and slow articulation" },
+              { id: "d", text: "Slowly, loudly and with deep resonance" },
             ],
             correctChoiceId: "b",
           },
@@ -519,11 +519,11 @@ export const lesson12: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "The actor's appearance" },
-              { id: "b", text: "How a character's body posture, movement and gesture express personality" },
-              { id: "c", text: "The costume design" },
-              { id: "d", text: "The stage lighting" },
+              { id: "b", text: "The stage lighting" },
+              { id: "c", text: "How a character's body posture, movement and gesture express personality" },
+              { id: "d", text: "The costume design" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -619,12 +619,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The words a character speaks" },
-              { id: "b", text: "The specific ways different characters walk, gesture, occupy space and move" },
-              { id: "c", text: "The costume and makeup choices" },
+              { id: "a", text: "The specific ways different characters walk, gesture, occupy space and move" },
+              { id: "b", text: "The costume and makeup choices" },
+              { id: "c", text: "The words a character speaks" },
               { id: "d", text: "The lighting design" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -648,10 +648,10 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Adding more costumes" },
+              { id: "a", text: "Moving faster" },
               { id: "b", text: "Creating contradictions between physical channels — e.g. smiling while the eyes show fear" },
               { id: "c", text: "Speaking more loudly" },
-              { id: "d", text: "Moving faster" },
+              { id: "d", text: "Adding more costumes" },
             ],
             correctChoiceId: "b",
           },
@@ -677,12 +677,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "To make rehearsal easier" },
-              { id: "b", text: "Because consistency makes the character believable and readable to the audience" },
-              { id: "c", text: "Because directors require it" },
-              { id: "d", text: "To avoid improvisation" },
+              { id: "a", text: "Because directors require it" },
+              { id: "b", text: "To avoid improvisation" },
+              { id: "c", text: "To make rehearsal easier" },
+              { id: "d", text: "Because consistency makes the character believable and readable to the audience" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -706,12 +706,12 @@ export const lesson12: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Make themselves small and avoid eye contact" },
-              { id: "b", text: "Take up space, move with open gestures and hold eye contact" },
-              { id: "c", text: "Fidget constantly" },
-              { id: "d", text: "Speak very quietly" },
+              { id: "a", text: "Speak very quietly" },
+              { id: "b", text: "Fidget constantly" },
+              { id: "c", text: "Take up space, move with open gestures and hold eye contact" },
+              { id: "d", text: "Make themselves small and avoid eye contact" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -736,11 +736,11 @@ export const lesson12: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "The costume and props only" },
-              { id: "b", text: "Who the person is — background, desires and fears" },
+              { id: "b", text: "The audience's expectations" },
               { id: "c", text: "The stage lighting" },
-              { id: "d", text: "The audience's expectations" },
+              { id: "d", text: "Who the person is — background, desires and fears" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -766,8 +766,8 @@ export const lesson12: Lesson = {
             choices: [
               { id: "a", text: "Confusion that should be avoided" },
               { id: "b", text: "Depth and complexity — the body can say what the face hides" },
-              { id: "c", text: "A technical error" },
-              { id: "d", text: "Comic relief only" },
+              { id: "c", text: "Comic relief only" },
+              { id: "d", text: "A technical error" },
             ],
             correctChoiceId: "b",
           },

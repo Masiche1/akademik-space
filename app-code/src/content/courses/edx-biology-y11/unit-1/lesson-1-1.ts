@@ -50,10 +50,10 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Sensory neurone" },
+              { id: "a", text: "Receptor neurone" },
               { id: "b", text: "Relay neurone" },
               { id: "c", text: "Motor neurone" },
-              { id: "d", text: "Receptor neurone" },
+              { id: "d", text: "Sensory neurone" },
             ],
             correctChoiceId: "c",
           },
@@ -180,10 +180,10 @@ export const lesson11: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Cornea" },
+              { id: "a", text: "Retina" },
               { id: "b", text: "Iris" },
-              { id: "c", text: "Retina" },
-              { id: "d", text: "Optic nerve" },
+              { id: "c", text: "Optic nerve" },
+              { id: "d", text: "Cornea" },
             ],
             correctChoiceId: "b",
           },

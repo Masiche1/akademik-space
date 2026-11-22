@@ -56,7 +56,7 @@ export const lesson55: Lesson = {
                     },
                     {
                               "id": "b",
-                              "text": "Deleting files"
+                              "text": "A network cable"
                     },
                     {
                               "id": "c",
@@ -64,7 +64,7 @@ export const lesson55: Lesson = {
                     },
                     {
                               "id": "d",
-                              "text": "A network cable"
+                              "text": "Deleting files"
                     }
           ],
           "correctChoiceId": "a"
@@ -214,6 +214,284 @@ export const lesson55: Lesson = {
           ],
           "finalAnswer": "Compression methods and applications."
 },
+        },
+        {
+          id: "ciecs-u1-cp-q5",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "Which type of compression allows the original file to be reconstructed exactly?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "Lossy compression" },
+              { id: "b", text: "Sampling" },
+              { id: "c", text: "Encryption" },
+              { id: "d", text: "Lossless compression" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              { kind: "definition", name: "Lossless compression", statement: "Allows exact reconstruction." },
+            ],
+            steps: [
+              { reasoning: "Lossless compression preserves all data for exact restoration.", marks: 1, markCode: "M" },
+            ],
+            finalAnswer: "**(b)** Lossless compression",
+          },
+        },
+        {
+          id: "ciecs-u1-cp-q6",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Which file type commonly uses lossy compression?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "A JPEG photograph" },
+              { id: "b", text: "A program source file" },
+              { id: "c", text: "A plain text document" },
+              { id: "d", text: "A spreadsheet of exact numbers" },
+            ],
+            correctChoiceIa: "d",
+          },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Lossy media", statement: "Images, audio and video often use lossy compression." },
+            ],
+            steps: [
+              { reasoning: "JPEG photographs tolerate minor quality loss for smaller files.", marks: 1, markCode: "M" },
+            ],
+            finalAnswer: "**(d)** JPEG photograph",
+          },
+        },
+        {
+          id: "ciecs-u1-cp-q7",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "Using run-length encoding, how is 'AAAAABBBCC' represented?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "ABC" },
+              { id: "b", text: "5A3B2C" },
+              { id: "c", text: "10ABC" },
+              { id: "d", text: "A5B3C2" },
+            ],
+            correctChoiceId: "b",
+          },
+          markscheme: {
+            principles: [
+              { kind: "technique", name: "Run-length encoding", statement: "Each run becomes count followed by symbol." },
+            ],
+            steps: [
+              { reasoning: "Five A's, three B's and two C's encode as 5A3B2C.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "**(b)** 5A3B2C",
+          },
+        },
+        {
+          id: "ciecs-u1-cp-q8",
+          difficulty: "core",
+          totalMarks: 1,
+          stem: "What does dictionary encoding do?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "It encrypts text using a password" },
+              { id: "b", text: "It deletes repeated data permanently" },
+              { id: "c", text: "It stores only the first character of each word" },
+              { id: "d", text: "It replaces repeated patterns with short codes" },
+            ],
+            correctChoiceId: "d",
+          },
+          markscheme: {
+            principles: [
+              { kind: "definition", name: "Dictionary encoding", statement: "Repeated patterns become short codes." },
+            ],
+            steps: [
+              { reasoning: "Dictionary encoding replaces common repeated sequences with shorter symbols.", marks: 1, markCode: "M" },
+            ],
+            finalAnswer: "**(b)** Replaces repeated patterns with short codes",
+          },
+        },
+        {
+          id: "ciecs-u1-cp-q9",
+          difficulty: "challenge",
+          totalMarks: 1,
+          stem: "Which file should use lossless compression?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "A social media video" },
+              { id: "b", text: "A music file for streaming" },
+              { id: "c", text: "A casual phone photograph" },
+              { id: "d", text: "A software installer that must install correctly" },
+            ],
+            dorrectChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Compression choice", statement: "Use lossless when exact data is essential." },
+            ],
+            steps: [
+              { reasoning: "Software must be restored exactly, so lossless compression is appropriate.", marks: 1, markCode: "M" },
+            ],
+            finalAnswer: "**(c)** Software installer",
+          },
+        },
+        {
+          id: "ciecs-u1-cp-q10",
+          difficulty: "challenge",
+          totalMarks: 1,
+          stem: "Why is lossy compression unsuitable for exam answer documents?",
+          response: {
+            type: "mcq",
+            choices: [
+              { id: "a", text: "It requires a network connection" },
+              { id: "b", text: "It always makes files larger" },
+              { id: "c", text: "It permanently discards data needed for exact text" },
+              { id: "d", text: "It only works on images" },
+            ],
+            correctChoiceId: "c",
+          },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Data integrity", statement: "Text documents require exact characters." },
+            ],
+            steps: [
+              { reasoning: "Lossy compression can permanently remove detail, corrupting exact text.", marks: 1, markCode: "M" },
+            ],
+            finalAnswer: "**(b)** It permanently discards needed data",
+          },
+        },
+        {
+          id: "ciecs-u1-cp-q11",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "A run of $18$ identical characters is stored by run-length encoding as $18X$, using $3$ characters. How many characters are saved compared with storing all $18$ characters?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 15 }],
+          },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "RLE savings", statement: "Saved characters = original length - encoded length." },
+            ],
+            steps: [
+              { reasoning: "18 - 3 = 15 characters saved.", marks: 1, markCode: "A", part: "a" },
+            ],
+            finalAnswer: "15",
+          },
+        },
+        {
+          id: "ciecs-u1-cp-q12",
+          difficulty: "foundation",
+          totalMarks: 1,
+          stem: "A $7,200$-byte image is compressed to $30$% of its original size. What is the compressed size in bytes?",
+          response: {
+            type: "numeric",
+            parts: [{ label: "a", answer: 2160 }],
+          },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Compressed size", statement: "Compressed size = original size × percentage." },
+            ],
+            steps: [
+              { reasoning: "7200 * 0.30 = 2160 bytes.", marks: 1, markCode: "A", part: "a" },
+            ],
+            finalAnswer: "2160",
+          },
+        },
+        {
+          id: "ciecs-u1-cp-q13",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "A $5,000$-byte file is compressed to $2,000$ bytes. (a) What percentage reduction is achieved? (b) How many bytes are saved?",
+          response: {
+            type: "numeric",
+            parts: [
+              { label: "a", answer: 60 },
+              { label: "b", answer: 3000 },
+            ],
+          },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Compression ratio", statement: "Reduction = saved bytes divided by original size." },
+            ],
+            steps: [
+              { reasoning: "3000 / 5000 * 100 = 60% reduction.", marks: 1, markCode: "A", part: "a" },
+              { reasoning: "Saved = 5000 - 2000 = 3000 bytes.", marks: 1, markCode: "A", part: "b" },
+            ],
+            finalAnswer: "(a) 60; (b) 3000",
+          },
+        },
+        {
+          id: "ciecs-u1-cp-q14",
+          difficulty: "core",
+          totalMarks: 2,
+          stem: "A data string has runs of $5$ X's, $2$ Y's and $7$ Z's. (a) How many characters are in the original string? (b) How many characters are saved by writing it as $5X2Y7Z$?",
+          response: {
+            type: "numeric",
+            parts: [
+              { label: "a", answer: 14 },
+              { label: "b", answer: 8 },
+            ],
+          },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "RLE comparison", statement: "Compare original run lengths with encoded token length." },
+            ],
+            steps: [
+              { reasoning: "Original length = 5 + 2 + 7 = 14 characters.", marks: 1, markCode: "A", part: "a" },
+              { reasoning: "Encoded length = 6, so saved = 14 - 6 = 8 characters.", marks: 1, markCode: "A", part: "b" },
+            ],
+            finalAnswer: "(a) 14; (b) 8",
+          },
+        },
+        {
+          id: "ciecs-u1-cp-q15",
+          difficulty: "challenge",
+          totalMarks: 3,
+          stem: "A $10$ MB photo album is compressed to $4$ MB. (a) What is the compressed size in MB? (b) How many MB are saved? (c) What percentage reduction is achieved?",
+          response: {
+            type: "numeric",
+            parts: [
+              { label: "a", answer: 4 },
+              { label: "b", answer: 6 },
+              { label: "c", answer: 60 },
+            ],
+          },
+          markscheme: {
+            principles: [
+              { kind: "skill", name: "Lossy file size", statement: "Compressed size, saving and percentage reduction." },
+            ],
+            steps: [
+              { reasoning: "Compressed size is given as 4 MB.", marks: 1, markCode: "A", part: "a" },
+              { reasoning: "Saved = 10 - 4 = 6 MB.", marks: 1, markCode: "A", part: "b" },
+              { reasoning: "6 / 10 * 100 = 60% reduction.", marks: 1, markCode: "A", part: "c" },
+            ],
+            finalAnswer: "(a) 4; (b) 6; (c) 60",
+          },
+        },
+        {
+          id: "ciecs-u1-cp-q16",
+          difficulty: "challenge",
+          totalMarks: 4,
+          stem: "A company stores exam answer documents, software backups and a photo archive. Recommend a compression strategy for each type. Explain when lossless and lossy compression are appropriate and mention one suitable method for each.",
+          response: { type: "open" },
+          markscheme: {
+            principles: [
+              { kind: "technique", name: "Compression strategy", statement: "Choose lossless for exact data and lossy for media." },
+            ],
+            steps: [
+              { reasoning: "Exam answers and software backups need lossless compression because every character must be restored.", marks: 1, markCode: "M" },
+              { reasoning: "Suitable lossless methods include run-length or dictionary encoding for repeated data.", marks: 1, markCode: "M" },
+              { reasoning: "Photos can use lossy compression because small quality loss is acceptable for much smaller files.", marks: 1, markCode: "M" },
+              { reasoning: "The recommendation links each data type to an appropriate method and trade-off.", marks: 1, markCode: "A" },
+            ],
+            finalAnswer: "Lossless for exact data; lossy for photos",
+          },
         },
       ],
     },

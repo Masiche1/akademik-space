@@ -54,12 +54,12 @@ export const lesson24: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Control of the Red Army" },
-              { id: "b", text: "The position of General Secretary of the Communist Party" },
-              { id: "c", text: "The presidency of the USSR" },
-              { id: "d", text: "The Comintern headquarters" },
+              { id: "a", text: "The position of General Secretary of the Communist Party" },
+              { id: "b", text: "The presidency of the USSR" },
+              { id: "c", text: "The Comintern headquarters" },
+              { id: "d", text: "Control of the Red Army" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -153,12 +153,12 @@ export const lesson24: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Lenin, Marx and Engels" },
-              { id: "b", text: "Trotsky, Zinoviev and Kamenev" },
-              { id: "c", text: "Churchill, Roosevelt and de Gaulle" },
-              { id: "d", text: "Napoleon, Hitler and Mussolini" },
+              { id: "a", text: "Churchill, Roosevelt and de Gaulle" },
+              { id: "b", text: "Napoleon, Hitler and Mussolini" },
+              { id: "c", text: "Trotsky, Zinoviev and Kamenev" },
+              { id: "d", text: "Lenin, Marx and Engels" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -182,11 +182,11 @@ export const lesson24: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Soviet factory workers" },
-              { id: "b", text: "Wealthier peasants targeted during collectivisation" },
-              { id: "c", text: "Members of the Red Army" },
+              { id: "b", text: "Members of the Red Army" },
+              { id: "c", text: "Wealthier peasants targeted during collectivisation" },
               { id: "d", text: "Foreign diplomats in Moscow" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -209,12 +209,12 @@ export const lesson24: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "1917" },
+              { id: "a", text: "1936" },
               { id: "b", text: "1924" },
-              { id: "c", text: "1928" },
-              { id: "d", text: "1936" },
+              { id: "c", text: "1917" },
+              { id: "d", text: "1928" },
             ],
-            correctChoiceId: "c",
+            dorrectChoiceId: "c",
           },
           markscheme: {
             principles: [
@@ -237,12 +237,12 @@ export const lesson24: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Sharing factory profits equally" },
-              { id: "b", text: "Merging private farms into collective farms (kolkhozy)" },
+              { id: "a", text: "Merging private farms into collective farms (kolkhozy)" },
+              { id: "b", text: "Building collective housing" },
               { id: "c", text: "Nationalising all foreign trade" },
-              { id: "d", text: "Building collective housing" },
+              { id: "d", text: "Sharing factory profits equally" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "a",
           },
           markscheme: {
             principles: [
@@ -265,10 +265,10 @@ export const lesson24: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "To raise living standards quickly" },
+              { id: "a", text: "To satisfy peasant demands" },
               { id: "b", text: "To achieve rapid industrialisation and defence self-sufficiency at the expense of consumption" },
-              { id: "c", text: "To imitate Western consumer economies" },
-              { id: "d", text: "To satisfy peasant demands" },
+              { id: "c", text: "To raise living standards quickly" },
+              { id: "d", text: "To imitate Western consumer economies" },
             ],
             correctChoiceId: "b",
           },
@@ -479,11 +479,11 @@ export const lesson24: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "Soviet secret police organisation" },
-              { id: "b", text: "System of labour camps holding millions of prisoners" },
+              { id: "b", text: "Type of collective farm" },
               { id: "c", text: "Soviet five-year economic plan" },
-              { id: "d", text: "Type of collective farm" },
+              { id: "d", text: "System of labour camps holding millions of prisoners" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -577,9 +577,9 @@ export const lesson24: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Military parades celebrating Soviet victories" },
+              { id: "a", text: "Elections for the Supreme Soviet" },
               { id: "b", text: "Staged public trials of supposed traitors used to justify purges" },
-              { id: "c", text: "Elections for the Supreme Soviet" },
+              { id: "c", text: "Military parades celebrating Soviet victories" },
               { id: "d", text: "Diplomatic negotiations with the West" },
             ],
             correctChoiceId: "b",
@@ -605,10 +605,10 @@ export const lesson24: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "The Soviet economic planning agency" },
+              { id: "a", text: "The propaganda ministry" },
               { id: "b", text: "The Soviet secret police responsible for arrests and repression" },
               { id: "c", text: "The Red Army high command" },
-              { id: "d", text: "The propaganda ministry" },
+              { id: "d", text: "The Soviet economic planning agency" },
             ],
             correctChoiceId: "b",
           },
@@ -633,12 +633,12 @@ export const lesson24: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "Coordinate communist parties worldwide under Soviet direction" },
-              { id: "b", text: "Trade between Soviet republics" },
-              { id: "c", text: "Organise the Red Army" },
-              { id: "d", text: "Negotiate with capitalist powers" },
+              { id: "a", text: "Organise the Red Army" },
+              { id: "b", text: "Negotiate with capitalist powers" },
+              { id: "c", text: "Trade between Soviet republics" },
+              { id: "d", text: "Coordinate communist parties worldwide under Soviet direction" },
             ],
-            correctChoiceId: "a",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -662,11 +662,11 @@ export const lesson24: Lesson = {
             type: "mcq",
             choices: [
               { id: "a", text: "A Soviet economic policy" },
-              { id: "b", text: "The state-prescribed artistic style glorifying workers and the revolution" },
+              { id: "b", text: "A type of collective farm" },
               { id: "c", text: "A military strategy" },
-              { id: "d", text: "A type of collective farm" },
+              { id: "d", text: "The state-prescribed artistic style glorifying workers and the revolution" },
             ],
-            correctChoiceId: "b",
+            correctChoiceId: "d",
           },
           markscheme: {
             principles: [
@@ -689,9 +689,9 @@ export const lesson24: Lesson = {
           response: {
             type: "mcq",
             choices: [
-              { id: "a", text: "They eliminated potential rivals and strengthened the army" },
+              { id: "a", text: "They improved relations with the West" },
               { id: "b", text: "They decapitated military leadership and created a climate of fear that paralysed initiative" },
-              { id: "c", text: "They improved relations with the West" },
+              { id: "c", text: "They eliminated potential rivals and strengthened the army" },
               { id: "d", text: "They abolished the secret police" },
             ],
             correctChoiceId: "b",
